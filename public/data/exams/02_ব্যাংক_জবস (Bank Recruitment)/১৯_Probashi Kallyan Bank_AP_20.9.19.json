@@ -1,0 +1,682 @@
+[
+  {
+    "id": 234438,
+    "question": "If AB and CD are two diameters of a circle of radius and they are mutually perpendicular then what is the ratio of the area of the circle to the area of the Δ ACD?",
+    "options": [
+      "π/2",
+      "π/4",
+      "2π",
+      "π"
+    ],
+    "correct_answer": "π",
+    "explanation": "📝ধরি, O কেন্দ্র বিশিষ্ট বৃত্তে ADC একটি ত্রিভুজ। বৃত্তটির ব্যাসার্ধ r <br/>এখানে, ব্যাসার্ধ OA = OD = OC= r <br/>ব্যাস, AB = DC = 2r <br/> বৃত্তের ক্ষেত্রফল = πr^2  বর্গএকক<br/>Δ ACD এর ক্ষেত্রফল = (1/2) ✕ 2r ✕ r<br/>                                   = r^2<br/>πr^2 : r^2 = π : 1 = π/1 = π",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234439,
+    "question": "The ratio of milk to water in three containers of equal capacity is 3 : 2, 7 : 3 and 11 : 4, respectively. The three containers are mixed together. What is the ratio of milk to water after mixing?",
+    "options": [
+      "21 : 9",
+      "61 : 29",
+      "41 : 18",
+      "38 : 8"
+    ],
+    "correct_answer": "61 : 29",
+    "explanation": "📝ধরি, প্রত্যেকটি পাত্রের ধারণ ক্ষমতা x<br/>১ম পাত্রে <br/>দুধের পরিমাণ = 3x/5<br/>পানির পরিমাণ = 2x/5<br/>২য় পাত্রে <br/>দুধের পরিমাণ = 7x/10<br/>পানির পরিমাণ = 3x/10<br/>৩য় পাত্রে <br/>দুধের পরিমাণ =11x/15<br/>পানির পরিমাণ = 4x/15<br/>নতুন মিশ্রণে দুধের পরিমাণ = (3x/5) + (7x/10)  + (11x/15)<br/>                                          = (18x+ 21x + 22x)/30<br/>                                          = 61x/30<br/>নতুন মিশ্রণে পানির পরিমাণ = (2x/5) + (3x/10) + (4x/15) <br/>                                            = (12x + 9x + 8x)/30<br/>                                             = 29x/30<br/>নতুন মিশ্রণে দুধ  ও পানির অনুপাত = (61x/30) : (29x/30)<br/>                                                       = 61 : 29",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234440,
+    "question": "Two numbers are in ratio of 21 : 26. If 8 is added in each, the new numbers are in ratio of 5 : 6. Find the ratio of numbers, if 6 subtracted from each number?",
+    "options": [
+      "18 : 23",
+      "19 : 25",
+      "6 : 7",
+      "9 : 16"
+    ],
+    "correct_answer": "18 : 23",
+    "explanation": "📝ধরি, <br/>একটি সংখ্যা = 21x <br/>অপর সংখ্যা = 26x<br/>প্রশ্নমতে <br/>❏(21x + 8)/(26x + 8) = 5/6<br/>130x + 40 = 126x + 48<br/>130x - 126x = 48 - 40 <br/>4x = 8 <br/>x = 8/4 <br/>x = 2 <br/>নতুন অনুপাত = (21x - 6)/(26x - 6) <br/>                       = (21 ✕ 2 - 6)/(26 ✕ 2 - 6)<br/>                       = 36/46<br/>                       = 18/23<br/>                       = 18 : 23",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234441,
+    "question": "There is 90% increase in an amount in 9 years at simple interest. What will be the compound interest of Tk.15,000 after 4 years at the same rate?",
+    "options": [
+      "4533",
+      "5497",
+      "6962",
+      "4965"
+    ],
+    "correct_answer": "6962",
+    "explanation": "📝ধরি <br/>আসল P =100 টাকা <br/>সরল মুনাফা I = 100 এর 90%<br/>                      =<b> </b>90 টাকা <br/>সময় n  = 9 বছর <br/>মুনাফার হার = r <br/>আমরা জানি <br/>I = Pnr <br/>r = I/Pn<br/>  ={(100 ✕90)/(100 ✕ 9)}% = 10%<br/>আবার <br/>আসল P = 15000<br/>সময় n = 4  বছর <br/>চক্রবৃদ্ধি মুনাফা = P(1 + r)^n - P<br/>                         = 15000{(1 + 1/10)^4} - 15000<br/>                         = 15000 ✕1.4641 - 15000<br/>                       = 21,961.5 - 15000<br/>                          = 6,961.5<br/>                         &asymp;6,962",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234442,
+    "question": "There are 2 shirts, 3 jeans, 3 socks and 2 skirts. In how many ways shopkeeper can arrange these things so that all the socks come together and all the skirts come together?",
+    "options": [
+      "4690",
+      "3260",
+      "2520",
+      "5040"
+    ],
+    "correct_answer": "5040",
+    "explanation": "📝৩টি মোজাকে ১টি এবং ২টি স্কার্টকে ১টি ধরে মোট = 1 + 1 + 2 + 3 = 7টি পণ্য পাওয়া যাবে।<br/>দোকানদার সকল মোজা এবং সকল স্কার্টগুলো একত্রে রেখে 7টি পণ্যকে সাজাতে পারেন = 7! ভাবে ।<br/>                                                                                                                                      = 5040",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234443,
+    "question": "If the length of each of the sides of three square garden plots is increased by 50 percent , by what percent is the sum of the areas of the three plots increased?",
+    "options": [
+      "125%",
+      "150%",
+      "200%",
+      "375%"
+    ],
+    "correct_answer": "125%",
+    "explanation": "📝সঠিক উত্তর 125%.<br/>লাইভ পরীক্ষার প্রশ্নে ভুল থাকায় বাতিল করা হয়েছে।<br/>লাইভ পরীক্ষার প্রশ্নটি নিম্নরূপ ছিল -<br/>\"If the length of each of the sides of three square garden plots is what percent is the sum of the areas of the three plots increased?\"  প্রশ্নে 'increased by 50 percent' কথাটি উল্লেখ ছিল না।<br/>➟➟<br/><b>ব্যাখ্যা:<br/></b><br/>বর্গক্ষেত্রের একবাহু = 100 একক<br/>বর্গক্ষেত্রের ক্ষেত্রফল = (100)^2 = 10,000 বর্গ একক<br/>3টি বর্গাকার বাগানের ক্ষেত্রফল = 3 x 10,000 = 30,000 বর্গ একক <br/>50% বৃদ্ধিতে বর্গক্ষেত্রের একবাহু দৈর্ঘ্য = (100 +100 এর 50%) একক<br/>                                                           = 150 একক<br/>বর্গক্ষেত্রের নতুন ক্ষেত্রফল = (150)^2 বর্গ একক<br/>                                          = 22,500 বর্গ একক<br/>3টি বর্গক্ষেত্রের নতুন ক্ষেত্রফল = (22,500 ✕ 3) বর্গ একক<br/>                                                = 67,500 বর্গ একক<br/>ক্ষেত্রফল বৃদ্ধি পায় = (67,500 - 30,000) বর্গ একক<br/>                               = 37,500 বর্গ একক<br/>শতকরা ক্ষেত্রফল বৃদ্ধি পায় = {(37500/30000) ✕ 100}%<br/>                                           = 125%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234444,
+    "question": "A driver of an auto rickshaw sees a lorry 60 meters ahead of him. After 30 seconds the lorry is 90 meters behind. If the speed of the auto rickshaw is 38 km/h, then what is the speed of the lorry?",
+    "options": [
+      "23km/h",
+      "20km/h",
+      "25km/h",
+      "18km/h"
+    ],
+    "correct_answer": "20km/h",
+    "explanation": "📝Total distance is 60 + 90= 150 meters.<br/>Time taken is 30 seconds.<br/>Relative Speed of the lorry = 150/30 <br/>                              = 5 m/s<br/>                              =  (5✕18)/5   <br/>                              = 18 kmph<br/>Now<br/>relative speed = speed of auto rickshaw ➝ speed of lorry<br/>or, 18 = 38 ➝ speed of lorry<br/>∴ Speed of lorry = 38 - 18 = 20 km/h",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234445,
+    "question": "A hall, 20m long and 15m broad, is surrounded by a verandah of uniform width of 2.5m. The cost of flooring the verandah at Tk. 3.50 per square meter is-",
+    "options": [
+      "Tk. 600",
+      "Tk. 800",
+      "Tk. 700",
+      "Tk. 500"
+    ],
+    "correct_answer": "Tk. 700",
+    "explanation": "📝বারান্দাসহ হল ঘরের দৈর্ঘ্য = {20 + (2 ✕ 2.5)} মিটার <br/>                                         = 25 মিটার <br/>বারান্দাসহ হল ঘরের প্রস্থ = {15 + (2 ✕ 2.5)} মিটার <br/>                                    = (15 + 5) মিটার <br/>                                      = 20 মিটার <br/>বারান্দাসহ হল ঘরের ক্ষেত্রফল = (25 ✕ 20) বর্গমিটার <br/>                                               = 500 বর্গমিটার <br/>বারান্দাবাদে হল ঘরের ক্ষেত্রফল = (20 ✕ 15) বর্গমিটার <br/>                                                 = 300 বর্গমিটার <br/>বারান্দার ক্ষেত্রফল = (500 - 300) বর্গমিটার <br/>                             = 200 বর্গমিটার<br/>মোট খরচ =(200 ✕ 3.50) টাকা <br/>                  = 700 টাকা",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234446,
+    "question": "Three numbers are added in pairs, the sums so obtained are 20, 27 and 23. What are those three number?",
+    "options": [
+      "6, 4 and 15",
+      "9, 11 and 14",
+      "10, 8 and 17",
+      "8, 12 and 15"
+    ],
+    "correct_answer": "8, 12 and 15",
+    "explanation": "📝তিনটি সংখ্যা পরপর জোড়া আকারে যোগ করলে 20, 27 এবং 23 পাওয়া যাবে।  <br/>অপশন ঘ সঠিক <br/>অপশন টেস্ট <br/>8 + 12 = 20 <br/>12 + 15 = 27 <br/>15 + 8 = 23",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234447,
+    "question": "One third of the faculty members of a department are female, Sixteen of the male teachers' are unmarried, while 60% of them are married. The total number of faculty members in the department is",
+    "options": [
+      "72",
+      "60",
+      "30",
+      "90"
+    ],
+    "correct_answer": "60",
+    "explanation": "📝পুরুষ হলো = (1 - 1/3) অংশ <br/>                 =(3 - 1)/3<br/>                 = 2/3 অংশ <br/>অবিবাহিত পুরুষ হলো = 100% - 60% = 40%<br/>ধরি <br/>পুরুষ = x জন <br/>এখন <br/>x এর 40% = 16<br/>40x/100 = 16 <br/>2x/5 = 16<br/>x = 16 ✕ (5/2)<br/>x = 40 <br/>আবার ,<br/>2/3 অংশ  = 40<br/>1 বা সম্পূর্ণ অংশ =  (40✕ 3)/2 = 60 জন",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234448,
+    "question": "On reducing the entry fee by 35% in a park, the number of people coming to the park increased by 40%, then the percent increase or decrease in the income from the entry fee is-",
+    "options": [
+      "9% decrease",
+      "7% decrease",
+      "9% increase",
+      "5% decrease"
+    ],
+    "correct_answer": "9% decrease",
+    "explanation": "📝Let <br/>The entry fee = Tk. 100 per head and number of people coming to the park = 100. <br/>So income = Tk. (100✕100) = Tk.10000.<br/>Further entry fee is Tk.(100➝35) = Tk. 65 and number of people coming to the park = 100 + 40 = Tk.140. <br/>Hence income = Tk. (65✕140) = Tk. 9100.<br/>So decrease in income = Tk. (10000 - 9100) = Tk. 900.<br/>The percent decrease in the income = (900/10000) ✕100 = 9%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234449,
+    "question": "100 kg of solution A is mixed with 60 kg of solution B. If solution A has tin and copper in the ratio 1 : 4 and solution B has lead and tin in the ratio 3 : 2, then what is the amount of tin in the new solution?",
+    "options": [
+      "70 kg",
+      "36 kg",
+      "44 kg",
+      "56 kg"
+    ],
+    "correct_answer": "44 kg",
+    "explanation": "📝A তে টিন আছে = (100 এর 1/5)<br/>                         = 20 kg <br/>A তে কপার আছে = (100 এর 4/5)<br/>                             = 80 kg <br/>B তে লেড আছে = (60 এর 3/5) = 36kg <br/>B তে টিন আছে =(60 এর 2/5) = 24kg <br/>নতুন মিশ্রণে টিন আছে = (20 + 24)kg = 44 kg",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234450,
+    "question": "A train starts from city Y at 2 PM and travels towards city X at 75 km/hr. Another train starts from city X at 1 PM and travels towards Y at 60 km/hr. If the distance between theses two cities is 330 km then at what time will they meet ?",
+    "options": [
+      "6 : 00 PM",
+      "5 : 30 PM",
+      "5 : 00 PM",
+      "4 : 00 PM"
+    ],
+    "correct_answer": "4 : 00 PM",
+    "explanation": "📝দ্বিতীয় ট্রেনটি 1 ঘণ্টা পূর্বে ছেড়েছে ফলে ২য় ট্রেনটি 60 km এগিয়ে থাকবে। <br/>ট্রেন দুটির মধ্যবর্তী  দূরত্ব হবে = (330 - 60) km= 270km <br/>ট্রেন দুটি  মিলিত হতে সময় লাগবে = 270/(75 + 60) = 2 ঘণ্টা <br/>সময় লাগবে =  2 PM  + 2 = 4PM",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234451,
+    "question": "An iron rod that weights 24 kg is cut into pieces so that one of these pieces weighs 16 kg and is 34m long. If the weight of each piece is proportional to its length, how long is the other piece?",
+    "options": [
+      "11m",
+      "17m",
+      "34m",
+      "64m"
+    ],
+    "correct_answer": "17m",
+    "explanation": "📝রডটির অপর ভাগের ওজন = (24 - 16)kg = 8 kg <br/>ধরি <br/>অপর ভাগের দৈর্ঘ্য = x মিটার <br/>প্রশ্নমতে <br/>16/34 = 8/x<br/>x/8 = 34/16<br/>x = (34 ✕ 8)/16<br/>x = 17 ",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234452,
+    "question": "A jar contains white, red and green marbles in the ratios 2 : 3 : 5. Six more green marbles are added to the jars and the ratio becomes 2 : 3 : 7. How many white marbles are there in the jar?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct_answer": "6",
+    "explanation": "📝সাদা , লাল এবং সবুজ মার্বেলের অনুপাত 2 : 3 : 5<br/>সাদা মার্বেল আছে = 2x<br/>সবুজ মার্বেল আছে = 5x<br/>এখানে <br/>2x : (5x + 6) = 2 : 7<br/>2x/(5x + 6) = 2/7 <br/>x/(5x + 6) = 1/7 <br/>7x = 5x + 6<br/>7x - 5x = 6<br/>2x = 6<br/>x = 3<br/>সাদা মার্বেল আছে = 2 ✕ 3 = 6",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234453,
+    "question": "A train 150m long passes a pole in 15 seconds and another train of the same length travelling in opposite direction in 8 seconds. The speed of the train in (km\\h) is-",
+    "options": [
+      "60 km/hr",
+      "66 km/hr",
+      "99 km/hr",
+      "72 km/hr"
+    ],
+    "correct_answer": "99 km/hr",
+    "explanation": "📝Speed of the first train :<br/>= 150/15<br/> = 10 m/s<br/>Time taken by trains to cross each other = 8 sec<br/>And, relative speed of two trains :<br/>= (150 + 150)/8<br/>= 37.5 m/s<br/>∴ Speed of the second train :<br/>= (37.5 - 10) ✕ (3600/1000)<br/>= (27.5 ✕18)/5<br/>= 99 km/hr",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234454,
+    "question": "The profit earned after selling an article for Tk. 3,362 is the same as the loss incurred after selling the article for Tk. 2,346. At what selling price will a trader make a 20% profit on this article?",
+    "options": [
+      "4639.4",
+      "4769.6",
+      "4830.8",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "📝ধরি<br/>2346 টাকায় বিক্রয় করলে x টাকা ক্ষতি হয়<br/>তাহলে ক্রয়মূল্য = 2346 + x  টাকা<br/>আবার<br/>3362 টাকায় বিক্রয় করলে লাভ হয় = x টাকা<br/>তাহলে ক্রয়মূল্য = 3362 - x  টাকা<br/>প্রশ্নমতে,<br/>2346 + x =3362 - x<br/>x + x = 3362 - 2346<br/>2x = 1016<br/>x = 508 <br/>ক্রয়মূল্য = 2346 + 508 টাকা = 2854 টাকা<br/>20% লাভে দ্রব্যটির ক্রয়মূল্য = (120/100) ✕ 2854 <br/>                                            = 3,424.8 টাকা",
+    "hints": "📖Let the cost price of the article be Tk. x.<br/>∴ 3362 − x = x − 2346<br/>Or, 2x = 3362 + 2346 = 5708<br/>Or, x = 2854 <br/>At, 20% profit, the price = 120✕2854 / 100 = 3424.8",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234455,
+    "question": "A square is inscribed in a circle of diameter 2a and another square is circumscribing circle. The difference between the areas of outer and inner squares is-",
+    "options": [
+      "a2",
+      "2a2",
+      "3a2",
+      "4a2"
+    ],
+    "correct_answer": "2a2",
+    "explanation": "📝বৃত্তটির ব্যাস হলো অন্তবর্গের কর্ণ <br/>অন্তবর্গের এক বাহুর দৈর্ঘ্য x একক হলে <br/>x√2 = 2a<br/>x = 2a/√2<br/>x = √2a<br/>অন্তবর্গের ক্ষেত্রফল = (√2a)^2 = 2a^2<br/>বহিবর্গের এক বাহুর দৈর্ঘ্য = 2a<br/>বহিবর্গের ক্ষেত্রফল = (2a)^2<br/>                               = 4a^2<br/>বহিবর্গ ও অন্তবর্গের ক্ষেত্রফলের পার্থক্য = 4a^2 - 2a^2  = 2a^2",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234456,
+    "question": "A man takes 3 hours 45 minutes to row a boat 22.5 km downstream of a river and 2 hours 30 minutes to cover a distance of 10 km up stream. Find the speed of the river current in km/hr.",
+    "options": [
+      "1 km/hr",
+      "2 km/hr",
+      "3 km/hr",
+      "4 km/hr"
+    ],
+    "correct_answer": "1 km/hr",
+    "explanation": "📝এখানে<br/>3 ঘণ্টা 45 মিনিট = 3(3/4) ঘণ্টা = 15/4 ঘণ্টা<br/>2 ঘণ্টা 30 মিনিট = 2(1/2) ঘণ্টা = 5/2 ঘণ্টা<br/>ধরি <br/>নৌকার বেগ = x  কি.মি./ঘণ্টা <br/>স্রোতের বেগ= y কি.মি./ঘণ্টা  <br/>স্রোতের অনুকূলে নৌকার বেগ = 22.5/(15/4)<br/>                                   x + y = (22.5 ✕ 4)/15<br/>                                    x + y = 6 কি.মি./ঘণ্টা ................(1)<br/>স্রোতের প্রতিকূলে নৌকার বেগ = 10/(5/2) কি.মি./ঘণ্টা <br/>                                    x - y = (10 ✕ 2)/5 কি.মি./ঘণ্টা <br/>                                    x - y = 4 কি.মি./ঘণ্টা ................(2)<br/>❏(1) থেকে (2 বিয়োগ করে পাই, <br/>x + y - x + y = (6 - 4)কি.মি./ঘণ্টা<br/>2y = 2 <br/>y = 1 কি.মি./ঘণ্টা",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234457,
+    "question": "There are 15 boys and 10 girls in a class. If three students are selected at random, what she probability that 1 girl and 2 boys are selected?",
+    "options": [
+      "1/40",
+      "1/2",
+      "21/46",
+      "7/41"
+    ],
+    "correct_answer": "21/46",
+    "explanation": "📝Let <br/>S be the sample space <br/>E be the event of selecting 1 girl and 2 boys.<br/>Then, n(S) = Number ways of selecting 3 students out of 25 = ^25C_3   = 2300<br/>Number ways of selecting 1 girl out of 10 girls and 2 boys out of 15 boys <br/>n(E) = (^10C_1 ✕^15C_2 )= 10 ✕ 105 = 1050<br/>Hence the probability that 1 girl and 2 boys are selected, is,<br/>P(E) =1050/2300<br/>       = 21/46",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234458,
+    "question": "কোন বানানটি অশুদ্ধ?",
+    "options": [
+      "সুকেশী",
+      "সুকেশা",
+      "সুকেশিনী",
+      "সুকেশীনী"
+    ],
+    "correct_answer": "সুকেশীনী",
+    "explanation": "📝সুকেশী (বিশেষণ) <br/>❏ সংস্কৃত শব্দ। <br/>❏ প্রকৃতি প্রত্যয় = সুকেশ+ইন্▫<br/>অর্থ: সুন্দর কেশবিশিষ্টা। <br/><b>❆ </b>সুকেশা = সুকেশ (বিশেষ্য) এর স্ত্রীবাচক শব্দ। <br/>❆ সুকেশিনী (বিশেষণ) <br/>❏ সংস্কৃত শব্দ। <br/>❏ প্রকৃতি প্রত্যয় = সু+কেশ+ইন্▫+ঈ<br/>অর্থ: সুন্দর কেশবিশিষ্টা।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234459,
+    "question": "ডাক্তার সাহেবের হাত যশ ভাল। এ বাক্যে 'হাত' ব্যবহৃত হয়েছে?",
+    "options": [
+      "বশ অর্থে",
+      "অধিকার অর্থে",
+      "নিপুনতা অর্থে",
+      "অভ্যাস অর্থে"
+    ],
+    "correct_answer": "নিপুনতা অর্থে",
+    "explanation": "📝হাত আভিধানিক বা সাধারণ অর্থ : হস্ত শরীরের একটি অঙ্গ<br/>বিশেষ অর্থ: <br/>১. হাত আসা (অভ্যাস হওয়া/রপ্ত হওয়া) কাজটিতে তার হাত এসেছে। ২. হাত করা (বশীভূত করা) চাকরটাকে হাত করে চোর ঘরে ঢুকেছে। <br/>৩. হাত থাকা (প্রস্তাব)। এ ব্যাপারে আমার হাত নেই। <br/>৪. হাত পাতা (অনুগ্রহ চাওয়া/ভিক্ষা করা)। আমি তার কাছে হাত পাততে পারবো না। <br/>৫. হাত দেওয়া (কাজ করতে চাওয়া) এক সপ্তাহ ধরে কাজটিতে হাত দিতে পারি না। <br/>৬. হাতটান (চুরির অভ্যাস) হাতটানের জন্য চাকরটাকে বিদায় দেওয়া হয়েছে। <br/>৭. হাত তোলা (প্রহার করা) গরিবের গায়ে হাত তোলা ভাল নয়। <br/>৮. হাত দেখা (ভাগ্য গণনা করা) জ্যোতিষী তার হাত দেখেছে। <br/>৯. হাত যশ (সুখ্যাতি) ডা. রফিকের হাত যশ আছে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234460,
+    "question": "অশুদ্ধ বানান কোনটি?",
+    "options": [
+      "পুণ্য",
+      "পুজো",
+      "ভূল",
+      "মুহূর্ত"
+    ],
+    "correct_answer": "ভূল",
+    "explanation": "📝সঠিক বানান হবে - <br/>ভুল (বিশেষ্য) <br/>❏ সংস্কৃত ভ্রম শব্দ থেকে উদ্ভুত। <br/>অর্থ: <br/>❏ ভ্রম, ভ্রান্তি, প্রমাদ। <br/>❏ বিস্মৃতি<br/>❏ প্রলাপ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234461,
+    "question": "ধ্বনিবাচক দ্বিরুক্ত শব্দ কোনটি?",
+    "options": [
+      "কড়কড়",
+      "মরমর",
+      "নরনর",
+      "দরদর"
+    ],
+    "correct_answer": "কড়কড়",
+    "explanation": "📝বাংলা ভাষায় এমন বহু দ্বিরুক্ত শব্দ আছে যা কোন বাস্তব ধ্বনির অনুকারী বা নিছক কোন ধ্বনির কাল্পনিক অনুকরণ করে। এই জাতীয় শব্দকে ধ্বন্যাত্মক শব্দ বলে। এমন একই ধ্বন্যাত্মক শব্দের দুবার প্রয়োগের নামই ধ্বন্যাত্মক দ্বিরুক্তি বা ধ্বনির দ্বিরুক্তি।<br/>এই ধ্বন্যাত্মক দ্বিরুক্ত শব্দগুলো বাংলা ভাষার ভাণ্ডার সমৃদ্ধ করেছে। রবীন্দ্রনাথ ঠাকুর লিখেছেন, 'সে সকল শব্দ ভাষা হইতে বাদ দিলে বঙ্গভাষার বর্ণনাশক্তি নিতান্তই পঙ্গু হইয়া পড়ে।” <br/>ধ্বন্যাত্মক দ্বিরুক্ত শব্দ বিভিন্নভাবে হতে পারে:<br/>১। মানুষের বিভিন্ন ধ্বনির অনুকরণের সাহায্যে : ভেউ ভেউ করে কাঁদা, ট্যাট্যা করে কাঁদা, হা হা করে হাসা, ঠাঠা করে হাসা ইত্যাদি<br/>২। জীব-জন্তুর ধ্বনিকে অনুকরণ করে : মিউ মিউ (বিড়ালের ডাক), ঘেউ ঘেউ (কুকুরের ডাক), গুনগুন (মৌমাছির ডাক) ইত্যাদি।<br/>৩। কোন বস্তুর ধ্বনির অনুকরণে : ঝমঝম (বৃষ্টির শব্দ), চুকচুক (দুধ খাবার শব্দ) মড়মড় (গাছ ভেঙে পড়ার শব্দ) ইত্যাদি।<br/>অনুরূপভাবে, কড়কড় (বিশেষ্য) - মেঘগর্জন ধ্বনি; বজ্রপাতের শব্দ৷<br/>৪। অনুভূতিজাত কাল্পনিক ধ্বনির শব্দ : চিকচিক, ঝিকমিক, কুটকুট, ম্যাজম্যাজ, ঘিনঘিন, ঘ্যানঘ্যান, সুড়সুড়, চিনচিন, ছমছম ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234462,
+    "question": "সমাস নিষ্পন্ন পদটিকে কী বলে?",
+    "options": [
+      "সমস্যমান পদ",
+      "সমস্ত পদ",
+      "ব্যাসবাক্য",
+      "উত্তর পদ"
+    ],
+    "correct_answer": "সমস্ত পদ",
+    "explanation": "📝সমাসের কয়েকটি পরিভাষা<br/>➜ সমস্যমান পদ: যে যে পদে সমাস হয় তাদের প্রত্যেককে সমস্যমান পদ বলে।<br/>যেমন- সিংহ চিহ্নিত আসন = সিংহাসন।<br/>❏ এ বাক্যে সিংহ, চিহ্নিত, আসন- এ তিনটি হচ্ছে সমস্যমান পদ।<br/>➜ <b>সমস্ত পদ: সমস্যমান পদগুলো মিলিত হয়ে যে একপদে পরিণত হয়, তাকে সমস্ত পদ বলে।</b><br/>❏ একে আবার সমাসবদ্ধ পদও বলা হয়।<br/>❏ যেমন- সিংহ চিহ্নিত আসন = সিংহাসন।<br/>❏ এখানে সিংহাসন হচ্ছে সমস্ত পদ।<br/>➜ ব্যাসবাক্য: সমাসবদ্ধ পদটিকে ব্যাখ্যা করার জন্য যে বাক্য তৈরি করা হয় তাকে ব্যাসবাক্য বলে।<br/>❏ ব্যাস’ শব্দের অর্থ ব্যাখ্যা বা বিশ্লেষণ।<br/>❏ একে ব্যাসবাক্য বা বিগ্রহবাক্যও বলা হয়।<br/>❏ উপরের বাক্যে ‘সিংহ চিহ্নিত আসন হলো সিংহাসন শব্দের ব্যাসবাক্য।<br/>➜ পূর্বপদ ও পরপদ: সমাস যুক্ত পদের প্রথম অংশকে বলা হয় পূর্বপদ এবং শেষ অংশকে বলা হয় পরপদ বা উত্তরপদ।<br/>❏ সিংহাসন শব্দের সিংহ হলো পূর্বপদ, আর আসন হলো পরপদ বা উত্তরপদ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234463,
+    "question": "'সন্দেশ' কোন শ্রেণির শব্দ?",
+    "options": [
+      "যোগরূঢ়",
+      "যৌগিক",
+      "রূঢ়ি",
+      "তৎসম"
+    ],
+    "correct_answer": "রূঢ়ি",
+    "explanation": "📝যে শব্দ প্রত্যয় বা উপসর্গযোগে মূল শব্দের অর্থের অনুগামী না হয়ে অন্য কোনো বিশিষ্ট অর্থ জ্ঞাপন করে তাকে রূঢ়ি শব্দ বলে। যেমনঃ<br/>❏ হস্তী,<br/>❏ গবেষণা,<br/>❏ বাঁশি,<br/>❏ তৈল,<br/>❏ প্রবীণ,<br/>❏ সন্দেশ ইত্যাদি।",
+    "hints": "📖রূঢ়ি শব্দ সমূহঃ<br/>❏ হস্তী,<br/>❏ গবেষণা,<br/>❏ বাঁশি,<br/>❏ তৈল,<br/>❏ প্রবীণ,<br/>❏ সন্দেশ,<br/>❏ হরিণ,<br/>❏ কুশল,<br/>❏ পাঞ্জাবি,<br/>❏ মন্দির,<br/>❏ ফলাহার,<br/>❏ কারচুপি,<br/>❏ রাখাল,<br/>❏ কদর্য,<br/>❏ শুশ্রূষা ইত্যাদি।<br/>❆ যোগরূঢ় শব্দ সমূহঃ<br/>❏ পঙ্কজ,<br/>❏ আদিত্য,<br/>❏ রাজপুত,<br/>❏ মহাযাত্রা,<br/>❏ জলধি,<br/>❏ জলদ,<br/>❏ দশানন,<br/>❏ বহুব্রীহি,<br/>❏ গোঁফখেজুরে ইত্যাদি।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234464,
+    "question": "নিচের কোনটি যুগ্মরীতি দ্বিরুক্ত শব্দ?",
+    "options": [
+      "বই - টই",
+      "আয়-ব্যয়",
+      "ঝম - ঝম",
+      "ঠা - ঠা"
+    ],
+    "correct_answer": "বই - টই",
+    "explanation": "📝একই শব্দ ঈষৎ পরিবর্তন করে দ্বিরুক্ত শব্দ গঠনের রীতিকে বলে যুগ্মরীতি। <br/>যুগ্মরীতিতে দ্বিরুক্ত গঠনের কয়েকটি নিয়ম রয়েছে।<br/>যেমন-<br/>১. শব্দের আদি স্বরের পরিবর্তন করেঃ চুপচাপ, মিটমাট, জারিজুরি।<br/>২. শব্দের অন্ত্যস্বরের পরিবর্তন করেঃ মারামারি, হাতাহাতি, সরাসরি, জেদাজেদি।<br/>৩. দ্বিতীয়বার ব্যবহারের সময় ব্যঞ্জনধ্বনির পরিবর্তনেঃ ছটফট, নিশপিশ, ভাতটাত ( অনুরূপ ভাবে <b>'বইটই'</b>)।<br/>৪. সমার্থক বা একার্থক সহচর শব্দ যোগেঃ চালচলন, রীতিনীতি, বনজঙ্গল, ভয়ডর।<br/>৫. ভিন্নার্থক শব্দ যোগেঃ ডালভাত, তালাচাবি, পথঘাট, অলিগলি।<br/>৬. বিপরীতার্থক শব্দ যোগেঃ ছোট-বড়, আসা-যাওয়া, জন্ম-মৃত্যু, আদান-প্রদান, আয়-ব্যয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234465,
+    "question": "কোনটি তৎসম শব্দ?",
+    "options": [
+      "ঝিনুক",
+      "সলিতা",
+      "চা",
+      "পত্র"
+    ],
+    "correct_answer": "পত্র",
+    "explanation": "📝পত্র (বিশেষ্য) <br/><b>- সংস্কৃত শব্দ।</b> <br/>❏  প্রকৃতি প্রত্যয় = √পত্▫+ত্র<br/>অর্থ: <br/>❏ গাছের পাতা, বইয়ের পাতা (সূচিপত্র) <br/>❏ চিঠি, লিপি<br/>❏ পাত, ফলক<br/>❏ পাখির ডানা<br/>❏ দলিল <br/>❏ ছাপা কাগজ<br/>❏ সমূহ, প্রভৃতি। <br/>সলিতা = ফারসি শব্দ ('সলতে' এর সাধু রূপ)।<br/>চা = চীনা শব্দ। <br/>ঝিনুক =  দেশি শব্দ ।<br/>তৎসম শব্দ: যেসব শব্দ সংস্কৃত ভাষা থেকে সোজাসুজি বাংলা ভাষায় এসেছে এবং যাদের রূপ অপরিবর্তিত রয়েছে সেসব শব্দকে তৎসম শব্দ বলা হয়।<br/>'তৎসম একটি পারিভাষিক শব্দ। এর অর্থ - তৎ (তার) + সম (সমান) = তার সমান অর্থ্যাৎ, সংস্কৃতের সমান।<br/><b>তাই এখানে 'পত্র' শব্দটি তৎসম শব্দ। </b>",
+    "hints": "📖পত্র - তৎসম শব্দ।<br/>ঝিনুক - দেশি শব্দ।<br/>চাঁদ - তদ্ভব শব্দ।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234466,
+    "question": "'সম্পৃক্ত' শব্দটির সঠিক অর্থ কোনটি?",
+    "options": [
+      "আঁটবাঁধা",
+      "সংযুক্ত",
+      "অন্তৰ্ভূক্ত",
+      "দুই বা অধিকের মিলন"
+    ],
+    "correct_answer": "সংযুক্ত",
+    "explanation": "📝সম্পৃক্ত (বিশেষণ)<br/>❏ সংস্কৃত শব্দ <br/>❏  প্রকৃতি প্রত্যয় = সম্▫+√পৃচ্▫+ত<br/>অর্থ: <br/>❏ সংযুক্ত, মিলিত।<br/>❏ সম্বন্ধযুক্ত, সম্পর্কিত। <br/>❏ জড়িত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234467,
+    "question": "'সিংহাসন' শব্দটি কোন সমাস?",
+    "options": [
+      "ষষ্ঠী তৎপুরুষ",
+      "নিত্য সমাস",
+      "মধ্যপদলোপী কর্মধারয়",
+      "নিমিত্তার্থে চতুর্থী"
+    ],
+    "correct_answer": "মধ্যপদলোপী কর্মধারয়",
+    "explanation": "📝'সিংহাসন' শব্দটি মধ্যপদলোপী কর্মধারয়ের উদাহরণ। <br/>মধ্যপদলোপী কর্মধারয় সমাস : <br/>যে কর্মধারয় সমাসে ব্যাসবাক্যের মধ্যপদের লোপ পায় তাকে বলা হয় মধ্যপদলোপী কর্মধারয় সমাস।<br/>যেমন-<br/>❏ পল (মাংস) মিশ্রিত অন্ন = পলান্ন,<br/><b>- সিংহ চিহ্নিত আসন = সিংহাসন,</b><br/>❏ প্রীতিসূচক উপহার = প্রীতিউপহার,<br/>❏ মৌ আশ্রিত মাছি = মৌমাছি,<br/>❏ সাহিত্য বিষয়ক সভা = সাহিত্যসভা,<br/>❏ ঘরে আশ্রিত জামাই =ঘরজামাই,<br/>❏ সাম্য বিষয়ক বাদ = সাম্যবাদ,<br/>❏ স্মৃতি রক্ষার্থে সৌধ = স্মৃতিসৌধ ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234468,
+    "question": "closely similar in meaning:ALLEGIANCE",
+    "options": [
+      "Loyalty",
+      "Sincere",
+      "Obedience",
+      "Faithful"
+    ],
+    "correct_answer": "Loyalty",
+    "explanation": "📝ALLEGIANCE (noun) - কর্তব্য; নিষ্ঠা; বিশ্বস্ততা; আনুগত্য।<br/>Loyalty (noun) - আনুগত্য।<br/>Sincere (adjective) - আন্তরিক; অকৃত্রিম।<br/>Obedience (noun) [uncountable noun] আজ্ঞানুবর্তিতা; বাধ্যতা।<br/>Faithful (adjective) - বিশ্বস্ত; অনুগত।<br/>So, the word 'Loyalty' is most closely similar in meaning to the word 'Allegiance'.<br/>Since the word 'Faithful' is in adjective form it is not acceptable.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234469,
+    "question": "closely similar in meaning: INTEMPERATE",
+    "options": [
+      "Sympathy",
+      "Pathetic",
+      "Talk in Self-control",
+      "Anger"
+    ],
+    "correct_answer": "Anger",
+    "explanation": "📝INTEMPERATE - অসংযত; অপরিমিত; অমিতাচারী; অসংযমী।<br/>Sympathy - সহানুভূতি; সমবেদনা; দরদ; কারুণ্য; অনুকম্পা; অনুবেদনা।<br/>Pathetic - অবজ্ঞেয়; জড় পদার্থকে মানবিক বৈশিষ্ট্য অর্পণ করার ভ্রান্তি।<br/>Talk in Self-control - আত্মনিয়ন্ত্রণে কথা বলা।<br/>Anger - ক্রোধ; রোষ; রাগ।<br/>So, the word 'Anger' is most closely similar in meaning to the word 'Intemperate'.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234470,
+    "question": "closely similar in meaning ABERRATION",
+    "options": [
+      "Deviate",
+      "Deviation",
+      "Dive",
+      "Direction"
+    ],
+    "correct_answer": "Deviation",
+    "explanation": "📝<b>ABERRATION (noun) </b>- বিপথগমন; বিপথগামিতা; নীতিভ্রংশ; বিচ্যুতি; অপেরণ।<br/>Deviate (verb) -  পথভ্রষ্ট হওয়া; স্বাভাবিক মান থেকে চ্যুত হওয়া।<br/><b>Deviation (noun)</b> - বিচ্যুতি; স্বাভাবিক পথ থেকে সরে আসা; পার্থক্য<br/>Dive (noun) - পানিতে বা শূন্যে ঝাঁপ; ডুব।<br/>Direction (noun) - গতিপথ; চলার দিক।<br/>So, the word 'Deviation' is most closely similar in meaning to the word 'Aberration'.<br/>Since the word 'Derivate' is in verb form it is not acceptable.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234471,
+    "question": "Select the word which is most closely similar in meaning to the original word.UNBEARABLE",
+    "options": [
+      "Undefeated",
+      "Tolerable",
+      "Unpleasant",
+      "Acceptable"
+    ],
+    "correct_answer": "Unpleasant",
+    "explanation": "📝<b>UNBEARABLE </b>- অসহ্য; অসহনীয়; দুঃসহ।<br/>Undefeated - অপরাজিত।<br/>Tolerable - সহনীয়; চলনসই; মোটামুটি ভালো।<br/><b>Unpleasant</b> - অপ্রীতিকর; অপ্রিয়; অরুচিকর।<br/>Acceptable - গ্রহণযোগ্য; সন্তোষজনক।<br/>So, the word 'Unpleasant' is most closely similar in meaning to the word 'Unbearable'.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234472,
+    "question": "not similar words",
+    "options": [
+      "Inflation",
+      "Investment",
+      "Discourse",
+      "Interests"
+    ],
+    "correct_answer": "Discourse",
+    "explanation": "📝Inflation - ফোলানো; স্ফীতি; (বিশেষত) মুদ্রাস্ফীতি; উৎসার।<br/>Investment - বিনিয়োগ।<br/>Discourse - বক্তৃতা; ভাষণ; ধর্মোপদেশ; নিবন্ধ।<br/>Interests - সুদ।<br/>এখানে Discourse ব্যতীত অন্য শব্দগুলো Economics এর সাথে সম্পর্কিত।<br/>So, the word 'Discourse' is out of sequence from the other words.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234473,
+    "question": "not similar words",
+    "options": [
+      "Objective",
+      "Aim",
+      "Goal",
+      "Strategy"
+    ],
+    "correct_answer": "Strategy",
+    "explanation": "📝Objective -  লক্ষ্যবস্তু; উদ্দেশ্য।<br/>Aim - লক্ষ্য স্থির করা; সংকল্প করা।<br/>Goal - লক্ষ্য; উদ্দেশ্য।<br/>Strategy - কোনো বিষয় পরিচালনার দক্ষতা।<br/>'Strategy' শব্দটি অন্যগুলোর থেকে ভিন্ন অর্থ প্রকাশ করে। <br/>So, the word 'Strategy' is out of sequence from the other words.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234474,
+    "question": "04-06: In each of the following lists, one word is out of sequence from the other words. Find the word that is not similar words each list.",
+    "options": [
+      "Temporary",
+      "Steady",
+      "Short-lived",
+      "Transitory"
+    ],
+    "correct_answer": "Steady",
+    "explanation": "📝Temporary - দীর্ঘস্থায়ী নয় এমন; অস্থায়ী; সাময়িক; ক্ষণস্থায়ী।<br/>Steady - দৃঢ়ভাবে স্থাপিত বা প্রতিষ্ঠিত; সুষম।<br/>Short-lived - স্বল্পস্থায়ী; স্বল্পজীবী।<br/>Transitory - স্বল্পকালস্থায়ী।<br/>Steady শব্দটি অন্যগুলোর থেকে ভিন্ন অর্থ প্রকাশ করে। <br/>So, the word 'Steady' is out of sequence from the other words.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234475,
+    "question": "AIDS is not disease that can be ____ through the air or by insects.",
+    "options": [
+      "circulated",
+      "transferred",
+      "disseminated",
+      "transmitted"
+    ],
+    "correct_answer": "transmitted",
+    "explanation": "📝<b>Circulate: </b>to go around or through something, or to make something go around or through something.<b><br/>Transfer: </b>to move someone or something from one place, vehicle, person, or group to another.<b><br/>Disseminate: </b>to spread or give out news, information, ideas, etc. to many people.<b><br/>Transmit:</b> to pass a disease from one person or animal to another.<br/>So, according to the context the correct sentence is: AIDS is not disease that can be <u>transmitted</u> through the air or by insects.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234476,
+    "question": "Spring is __ it will be warmer soon.",
+    "options": [
+      "to be coming",
+      "on the way",
+      "coming",
+      "prepared now"
+    ],
+    "correct_answer": "on the way",
+    "explanation": "📝<b>On the way</b> means:<br/>1. In the course of a journey.<br/>2. <b>About to arrive or happen.</b><br/>According to the context the correct sentence is: Spring is <u>on the way</u> it will be warmer soon.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  },
+  {
+    "id": 234477,
+    "question": " Lack of exercise and high fat diets have _____ to be factors in heart attacks.",
+    "options": [
+      "long been known",
+      "been long known",
+      "known been long",
+      "long known been"
+    ],
+    "correct_answer": "long been known",
+    "explanation": "📝For single adverb sentence “have verb + adverb + verb in the past participle form.<br/>এখানে passive sense প্রকাশ করায় <b>long been known</b> হবে।<br/>According to the context the correct sentence is: Lack of exercise and high-fat diets have <u>long been known</u> to be factored in a heart attack.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Probashi Kallyan Bank",
+    "exam": "১৯@Probashi Kallyan Bank➺AP☞20.9.19"
+  }
+]

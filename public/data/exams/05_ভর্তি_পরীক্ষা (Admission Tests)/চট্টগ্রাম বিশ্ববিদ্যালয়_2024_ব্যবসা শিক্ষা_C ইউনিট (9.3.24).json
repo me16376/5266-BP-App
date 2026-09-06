@@ -1,0 +1,767 @@
+[
+  {
+    "id": 305872,
+    "question": "Mr. Zaman owned 5/8 of a land. He sold 1/5 of his share for Tk. 1,00,000. What was the value of the land?",
+    "options": [
+      "Tk. 6,00,000",
+      "Tk. 5,00,000",
+      "Tk. 8,00,000",
+      "Tk. 4,00,000"
+    ],
+    "correct_answer": "Tk. 8,00,000",
+    "explanation": "Let\\\"s find the total value of the land Mr. Zaman owned:<br/><br/>Land share price: We don\\\"t have the price of the entire land, but we know the price per unit area for Mr. Zaman\\\"s share. He sold 1/5 of his 5/8 share (1/5 * 5/8) for Tk. 100,000.<br/>Price per unit area: To find the price per unit area of Mr. Zaman\\\"s share, divide the total price (Tk. 100,000) by the area sold (1/5 * 5/8). This simplifies to (Tk. 100,000) / (1/8) = Tk. 800,000.<br/>Total land area (for Mr. Zaman\\\"s share): Since the price per unit area for his share is Tk. 800,000, the total area of his land (5/8) can be found by dividing Mr. Zaman\\\"s total share (5/8) by the price per unit area (Tk. 800,000). This gives us (5/8) / Tk. 800,000.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305873,
+    "question": "Rubel can do a job in 8 days, and his son can do it in 12 day. How long would it take them to do the job if they worked together?",
+    "options": [
+      "10",
+      "4.8",
+      "15",
+      "5"
+    ],
+    "correct_answer": "15",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305874,
+    "question": "What is the difference between 300% of 7 and 200% of 5?",
+    "options": [
+      "11",
+      "9",
+      "12",
+      "10"
+    ],
+    "correct_answer": "11",
+    "explanation": "Here\\\"s the breakdown:<br/><br/>Calculate 300% of 7: 300/100 * 7 = 21<br/>Calculate 200% of 5: 200/100 * 5 = 10<br/>Find the difference: 21 (300% of 7) - 10 (200% of 5) = 11",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305875,
+    "question": "The average age of 24 students in a class is 14. If the teacher's age is included, the average increases by 1. What is the age of teacher?",
+    "options": [
+      "45",
+      "39",
+      "49",
+      "40"
+    ],
+    "correct_answer": "39",
+    "explanation": "Let T be the teacher\\\"s age.<br/><br/>Total age of students: Since the average age of 24 students is 14, the total age of the students is 24 students * 14 years/student = 336 years.<br/><br/>New average with teacher: The new average age (including the teacher) is 14 years + 1 year/student (increase) = 15 years/student.<br/><br/>Total age with teacher: There are now 24 students + 1 teacher = 25 people. The total age with the teacher included must be the new average (15 years/student) multiplied by the total number of people (25). This translates to 15 years/student * 25 people = 375 years.<br/><br/>Teacher\\\"s age: Now, we can find the teacher\\\"s age (T) by subtracting the total age of the students (336 years) from the total age with the teacher (375 years). So, T = 375 years - 336 years = 39 years.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305876,
+    "question": "A man travels for 2 hours at 30 miles an hour and then covers 60 miles in the next 3 hours. What is the average rate for the entire journey?",
+    "options": [
+      "36",
+      "18",
+      "45",
+      "24"
+    ],
+    "correct_answer": "24",
+    "explanation": "Distance traveled in the first leg: Distance = Speed * Time = 30 mph * 2 hours = 60 miles<br/><br/>Total distance traveled: We are given that the total distance covered in the second leg is 60 miles. So, the total distance for the entire journey is 60 miles (first leg) + 60 miles (second leg) = 120 miles<br/><br/>Total time taken: The total time is the sum of the time in each leg: 2 hours (first leg) + 3 hours (second leg) = 5 hours<br/><br/>Average speed: Now that we have the total distance (120 miles) and total time (5 hours), we can find the average speed using the formula: Average speed = Total distance / Total time = 120 miles / 5 hours = 24 mph",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305877,
+    "question": "A sum of Tk. 12,500 amounts to Tk. 15,500 in 4 years at the rate of simple interest. What is the rate of interest?",
+    "options": [
+      "5%",
+      "3%",
+      "6%",
+      "4%"
+    ],
+    "correct_answer": "6%",
+    "explanation": "Formula:<br/><br/>Simple Interest (SI) = A - P<br/>R = (SI x 100) / (P x T)<br/><br/>Calculation:<br/><br/>Simple Interest (SI):<br/>SI = Tk. 15,500 - Tk. 12,500 = Tk. 3,000<br/><br/>Rate (R):<br/>R = (Tk. 3,000 x 100) / (Tk. 12,500 x 4 years) = 6.0%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305878,
+    "question": "A man buys a cycle for Tk. 1,400 and sells it at a loss of 15%. What is the selling price of the cycle?",
+    "options": [
+      "Tk. 1,190",
+      "Tk. 1,090",
+      "Tk. 1,202",
+      "Tk. 1,160"
+    ],
+    "correct_answer": "Tk. 1,190",
+    "explanation": "Loss percentage: We are given that the man sells the cycle at a loss of 15%.<br/><br/>Effective multiplier: Since there\\\"s a loss, we need to calculate the remaining percentage after the loss. So, multiply 100% by (1 - loss percentage) = 100% * (1 - 15%) = 85%. This represents 85% of the original price that he sells the cycle for.<br/><br/>Selling price: The original price is Tk. 1,400. To find the selling price, multiply the original price by the effective multiplier (85%): Tk. 1,400 * 85% = Tk. 1,190.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305879,
+    "question": "In the first 10 overs of a cricket match, the run rate was only 3.2. What should be the run rate in the remaining 40 overs to the target of 282 runs?",
+    "options": [
+      "6.75",
+      "6.25",
+      "7.00",
+      "6.50"
+    ],
+    "correct_answer": "6.25",
+    "explanation": "Runs scored in first 10 overs: Run rate * Overs = 3.2 runs/over * 10 overs = 32 runs<br/>Remaining runs to be scored: Target - Runs scored in first 10 overs = 282 runs - 32 runs = 250 runs<br/>Required run rate in remaining overs: Remaining runs / Remaining overs = 250 runs / 40 overs = 6.25 runs/over",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305880,
+    "question": "A sum of money is to be distributed among A, B, C and D in the proportion of 5: 2:43. If C gets Tk. 1,000 more than D, what is B's share?",
+    "options": [
+      "Tk. 2,000",
+      "Tk. 500",
+      "None of these",
+      "Tk. 1,500"
+    ],
+    "correct_answer": "Tk. 2,000",
+    "explanation": "A\\\"s share = 5x<br/>B\\\"s share = 2x (as given in the proportion)<br/>C\\\"s share = 4x (as given in the proportion)<br/>D\\\"s share = 3x (as given in the proportion)<br/>Relate C and D\\\"s shares using the given information: We are given that C gets Tk. 1,000 more than D. So, we can write the equation: 4x = 3x + 1000<br/><br/>Solve for x: To find the value of x (unit of proportionality), we need to solve the equation from step 2:<br/>x = 1000 (by subtracting 3x from both sides)<br/><br/>Find B\\\"s share: Now that we know x = 1000, we can find B\\\"s share using the formula from step 1:<br/>B\\\"s share = 2x = 2 * 1000 = Tk. 2,000",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305881,
+    "question": "A fruit seller had some apples. He sells 40% apples and still has 420 apples. How many apples he had at the beginning?",
+    "options": [
+      "672 apples",
+      "588 apples",
+      "700 apples",
+      "600 apples"
+    ],
+    "correct_answer": "700 apples",
+    "explanation": "<p>মনে করি আপেল মোট ১০০%</p><br/><p>যদি ৪০% বিক্রয় করা হয় তাহলে আর অবশিষ্ট থাকে ৬০%।</p><br/><p>প্রশ্নমতে,</p><br/><p>৬০%= ৪২০ টাকা&nbsp;</p><br/><p>১℅=৪২০/৬০&nbsp; টাকা</p><br/><p>১০০%=(৪২০×১০০/৬০) টাকা বা,৭০০ টাকা</p><br/><p></p>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305882,
+    "question": "What is the smallest positive integer that is evenly disvible by both 21 and 9?",
+    "options": [
+      "63",
+      "21",
+      "42",
+      "126"
+    ],
+    "correct_answer": "63",
+    "explanation": "The smallest positive integer that is evenly divisible by both 21 and 9 is 63.<br/><br/>Here\\\"s why:<br/><br/>Prime Factorization: We can find the least common multiple (LCM) by finding the prime factorization of both numbers and multiplying the highest exponents of each prime factor that appears in either number.<br/>Prime factorization of 21: 3 * 7<br/>Prime factorization of 9: 3 * 3<br/>LCM: To find the LCM, we take the highest power of each prime factor that appears in either number:<br/>LCM = 3^2 * 7 = 9 * 7 = 63<br/>Therefore, the smallest positive integer divisible by both 21 and 9 is 63.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305883,
+    "question": "How many prime numbers are there between 1 to 11?",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "5"
+    ],
+    "correct_answer": "5",
+    "explanation": "<p>There are 5 prime numbers between 1 to 11. These are 2,3,5,7,11.</p><br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305884,
+    "question": "The ratio of present age of father, mother and son is 7:5:3. The sum of their ages is 75. What is the present age of the son in years?",
+    "options": [
+      "15",
+      "25",
+      "30",
+      "20"
+    ],
+    "correct_answer": "15",
+    "explanation": "<p>অনুপাতদ্বয়ের যোগফল =৭+৫+৩বা,১৫।</p><br/><p></p><p>পিতা, মাতা ও পুত্রের মোট বয়স ৭৫ হলে,</p><br/><p>পুত্রের বর্তমান বয়স=(৭৫ এর ৩/১৫) বা, ১৫&nbsp;</p><br/><p></p>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305885,
+    "question": "It takes 24 hours for 10 men to make 15 cakes. How many cakes can be made if 8 men work for 36 hours?",
+    "options": [
+      "12",
+      "18",
+      "10",
+      "24"
+    ],
+    "correct_answer": "18",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305886,
+    "question": "If a mobile is sold at Tk. 11,000; there is a profit of 10%. What is the cost price of the mobile?",
+    "options": [
+      "Tk. 10,500",
+      "Tk. 10,000",
+      "Tk. 12,000",
+      "Tk. 11,500"
+    ],
+    "correct_answer": "Tk. 10,000",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305887,
+    "question": "Plato's teachings had a profound effect on Aristotle.",
+    "options": [
+      "affiliation",
+      "depth",
+      "influence",
+      "affection"
+    ],
+    "correct_answer": "influence",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305888,
+    "question": "The campers heard a strange rustling in the trees.",
+    "options": [
+      "movement",
+      "stealing",
+      "fight",
+      "pillaging"
+    ],
+    "correct_answer": "movement",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305889,
+    "question": "The tourists have decided to take a cruise, so they went to the travel agency for some brochures.",
+    "options": [
+      "price lists",
+      "questions",
+      "pamphlets",
+      "inquisition"
+    ],
+    "correct_answer": "pamphlets",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305890,
+    "question": "As a result of the accident, the police revoked his driver's license.",
+    "options": [
+      "cancelled",
+      "reconsidered",
+      "investigated",
+      "exorcised"
+    ],
+    "correct_answer": "cancelled",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305891,
+    "question": "The discontented students retaliated by boycotting the school cafeteria.",
+    "options": [
+      "took revenge",
+      "rewarded",
+      "fluctuated",
+      "vindicated"
+    ],
+    "correct_answer": "took revenge",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305892,
+    "question": "Frank condoned his brother's actions because he knew he meant well.",
+    "options": [
+      "condemned",
+      "overlooked",
+      "satisfied",
+      "praised"
+    ],
+    "correct_answer": "overlooked",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305893,
+    "question": "A new government department was established to control maritime traffic.",
+    "options": [
+      "highway",
+      "sea",
+      "air",
+      "military"
+    ],
+    "correct_answer": "sea",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305894,
+    "question": "The slender boy scaled the wall like a lizard.",
+    "options": [
+      "plastered",
+      "balanced",
+      "climbed",
+      "crawled"
+    ],
+    "correct_answer": "climbed",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305895,
+    "question": "The raccoon is a nocturnal animal.",
+    "options": [
+      "marsupial",
+      "harmless",
+      "diurnal",
+      "night"
+    ],
+    "correct_answer": "night",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305896,
+    "question": "The word mandatory means",
+    "options": [
+      "obligatory",
+      "optional",
+      "charitable",
+      "preferable"
+    ],
+    "correct_answer": "obligatory",
+    "explanation": "What does mandatory mean?<br/>1. : required by a law or rule : obligatory. the mandatory retirement age. 2. : of, by, relating to, or holding a League of Nations mandate.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305897,
+    "question": "A synonym of sanguine is ...........",
+    "options": [
+      "gloomy",
+      "optimistic",
+      "pale",
+      "pessimistic"
+    ],
+    "correct_answer": "optimistic",
+    "explanation": "Synonyms for SANGUINE in English: cheerful, confident, optimistic, assured, hopeful, buoyant, in good heart, ruddy, red, florid, …",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305898,
+    "question": "A bull market is a period when financial investments are .................. in value.",
+    "options": [
+      "rising",
+      "falling",
+      "decreasing",
+      "raising"
+    ],
+    "correct_answer": "rising",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305899,
+    "question": "The synonym of futile is ............. .",
+    "options": [
+      "meaningful",
+      "fruitless",
+      "useless",
+      "fruitful"
+    ],
+    "correct_answer": "fruitless",
+    "explanation": "The words fruitless and vain are common synonyms of futile. While all three words mean \"producing no result,\" futile may connote completeness of failure or unwisdom of undertaking.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305900,
+    "question": "The synonym of truce is .............",
+    "options": [
+      "turbulent",
+      "strong",
+      "ceasefire",
+      "trifle"
+    ],
+    "correct_answer": "ceasefire",
+    "explanation": "Synonyms for TRUCE: armistice, cease-fire, reconciliation, detente, détente, accord, peacetime, peace; Antonyms of TRUCE: war, hostilities,",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305901,
+    "question": "Fox is related to cunning in the same way as the Taj Mahal is related to.",
+    "options": [
+      "tactful",
+      "colur",
+      "beautiful",
+      "ugly"
+    ],
+    "correct_answer": "beautiful",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305902,
+    "question": "Although both [of them (A)] [are trying (B)] [to get (C)] the scholarship she has the [highest (D)] grades.",
+    "options": [
+      "C",
+      "A",
+      "D",
+      "B"
+    ],
+    "correct_answer": "D",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305903,
+    "question": "He knows Aknows(A) to repair the Bthe(B) carburetor without taking Ctaking(C) the whole car apartDapartD ✬",
+    "options": [
+      "C",
+      "A",
+      "D",
+      "B"
+    ],
+    "correct_answer": "A",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305904,
+    "question": "Mrs. Stevens, along [with (A)] [her cousins from (B)] New Mexixo [are (C)] planning [to attend (D)] the festivities.",
+    "options": [
+      "C",
+      "A",
+      "D",
+      "B"
+    ],
+    "correct_answer": "C",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305905,
+    "question": "The pilot [and the crew (A)] [divided (B)] the life preservers [between (C)] the twenty [frantic passengers (D)]",
+    "options": [
+      "C",
+      "A",
+      "D",
+      "B"
+    ],
+    "correct_answer": "C",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305906,
+    "question": "The [equipment (A)] [in the office (B)] [was badly (C)] in need of [to be repaired (D)]",
+    "options": [
+      "C",
+      "A",
+      "D",
+      "B"
+    ],
+    "correct_answer": "D",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305907,
+    "question": "Since last year, I ............. him only once.",
+    "options": [
+      "see",
+      "have seen",
+      "has seen",
+      "have been seeing"
+    ],
+    "correct_answer": "have seen",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305908,
+    "question": "As soon as I came in, she ........... the room.",
+    "options": [
+      "has left",
+      "was leaving",
+      "left",
+      "had been leaving"
+    ],
+    "correct_answer": "left",
+    "explanation": "<p>As soon as যুক্ত বাক্যে ১ম clause টি past indefinite tense হলে, পরের clause টিও past indefinite tense হবে।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305909,
+    "question": "Manufacturers often sacrifice quality ..................",
+    "options": [
+      "to gain more quantities of money",
+      "for a larger profit margin",
+      "and instead earn a bigger amount",
+      "in place of to earn more money"
+    ],
+    "correct_answer": "for a larger profit margin",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305910,
+    "question": "California relies heavily on income from frit crops, and ...........",
+    "options": [
+      "so does Florida",
+      "Florida also",
+      "Florida is as well",
+      "Florida too"
+    ],
+    "correct_answer": "so does Florida",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305911,
+    "question": " ............. trying hard, the boy couldn't succeed.",
+    "options": [
+      "Instead of",
+      "In spite",
+      "In lieu of",
+      "Despite"
+    ],
+    "correct_answer": "Despite",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305912,
+    "question": "Mumps ........... a very common disease which usually affects children.",
+    "options": [
+      "has",
+      "is",
+      "were",
+      "are"
+    ],
+    "correct_answer": "is",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305913,
+    "question": "We look forward to ........... _.",
+    "options": [
+      "be heard from you",
+      "hear from you",
+      "hearing from you",
+      "heard from you"
+    ],
+    "correct_answer": "hearing from you",
+    "explanation": "<p>সাধারণত to এর পরে verb এর present form হয়। তবে look forward to, get used to, with a view to, prefer to, accustomed to, addicted to এর পরে verb থাকলে verb এর সাথে ing যোগ হয়।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305914,
+    "question": "Did you ............. her a visit?",
+    "options": [
+      "permit",
+      "give",
+      "pay",
+      "take"
+    ],
+    "correct_answer": "pay",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305915,
+    "question": "One of the crucial -.",
+    "options": [
+      "problem of the day was price spiral",
+      "problem of the day is price spiral",
+      "problems of the day is price spiral",
+      "problems of the day are price spiral"
+    ],
+    "correct_answer": "problems of the day is price spiral",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  },
+  {
+    "id": 305916,
+    "question": "Hadn't I worked hard, I ........... .",
+    "options": [
+      "wouldn't succeed",
+      "couldn't have",
+      "couldn't have success",
+      "couldn't succeed"
+    ],
+    "correct_answer": "couldn't have",
+    "explanation": "<p>Had + subject + verb এর past participle থাকলে,&nbsp;</p><br/><p><br/></p><br/><p>Subject + would have\\could have\\ might have&nbsp; + verb এর past participle form + extension বসে।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+    "exam": "চট্টগ্রাম বিশ্ববিদ্যালয়➟2024➯ব্যবসা শিক্ষা ➺ C ইউনিট (9.3.24)"
+  }
+]

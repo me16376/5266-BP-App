@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 333137,
+    "question": "বার্ষিক ৪.৫% লাভে কত টাকা বিনিয়োগ করলে ৮ বছরে তা সুদে আসলে তা ৮২৬ টাকা হবে?",
+    "options": [
+      "৭০০ টাকা",
+      "৭২৫ টাকা",
+      "৬৫০ টাকা",
+      "৪৫৮ টাকা"
+    ],
+    "correct_answer": "৭০০ টাকা",
+    "explanation": "📖 আমরা জানি, আসল P = A / (1 + nr)<br/>এখানে, A = ৮২৬, n = ৮, r = ৪.৫% = ০.০৪৫<br/>P = ৮২৬ / (১ + ৮ × ০.০৪৫)<br/>P = ৮২৬ / (১ + ০.৩৬)<br/>P = ৮২৬ / ১.৩৬ = ৬০৭.৩৫ টাকা।<br/>বি.দ্র: প্রশ্নের তথ্যে বা উত্তরে অসামঞ্জস্য রয়েছে। যদি সময় ৪ বছর হতো, তবে ৭০০ টাকার সুদ-আসল ৮২৬ টাকা হতো (৭০০ + ৭০০×৪×৪.৫% = ৮২৬)। প্রদত্ত উত্তরে ৭০০ টাকা সঠিক ধরা হয়েছে, যা ৪ বছরের হিসাবের সাথে মিলে।<br/> ⇢ <br/>⛳ সরল সুদের সূত্র: I = Pnr<br/>সুদ-আসল A = P + I = P(1 + nr)<br/>P = A / (1 + nr)<br/>প্রশ্নের উত্তর ৭০০ টাকা সঠিক ধরে নিলে সময় হতে হবে ৪ বছর।<br/>যাচাই: ৭০০ টাকার ৪ বছরের সুদ = ৭০০ × ৪ × ৪.৫% = ১২৬ টাকা।<br/>সুদ-আসল = ৭০০ + ১২৬ = ৮২৬ টাকা।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333138,
+    "question": "৩টি সংখ্যার গড় ৬ এবং ঐ ৩টি সংখ্যাসহ মোট ৪টি সংখ্যার গড় ৮ হলে চতুর্থ সংখ্যাটির অর্ধেকের মান কত?",
+    "options": [
+      "৮",
+      "৫",
+      "৬",
+      "৭"
+    ],
+    "correct_answer": "৭",
+    "explanation": "📖 ৩টি সংখ্যার সমষ্টি = ৩ × ৬ = ১৮<br/>৪টি সংখ্যার সমষ্টি = ৪ × ৮ = ৩২<br/>৪র্থ সংখ্যাটি = ৩২ - ১৮ = ১৪<br/>৪র্থ সংখ্যার অর্ধেক = ১৪ / ২ = ৭<br/> ⇢ <br/>⛳ গড় বৃদ্ধির ধারণা থেকে:<br/>৪র্থ সংখ্যাটি আসার ফলে গড় ৬ থেকে বেড়ে ৮ হয়েছে।<br/>গড় বৃদ্ধি = ২<br/>মোট বৃদ্ধি (৩টি সংখ্যার জন্য) = ৩ × ২ = ৬<br/>৪র্থ সংখ্যাটি হবে = নতুন গড় + মোট বৃদ্ধি = ৮ + ৬ = ১৪<br/>অর্ধেক = ৭",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333139,
+    "question": "৮টি কলমের বিক্রয়মূল্য ১০টি কলমের ক্রয়মূল্যের সমান হলে শতকরা লাভ কত?",
+    "options": [
+      "১০%",
+      "১৫%",
+      "২০%",
+      "২৫%"
+    ],
+    "correct_answer": "২৫%",
+    "explanation": "📖 লাভ = (বিক্রয় সংখ্যা - ক্রয় সংখ্যা) / বিক্রয় সংখ্যা × ১০০ [টাকার উল্লেখ না থাকলে]<br/>এখানে, লাভ = (১০ - ৮) / ৮ × ১০০%<br/>= ২ / ৮ × ১০০%<br/>= ১/৪ × ১০০%<br/>= ২৫%<br/> ⇢ <br/>⛳ যুক্তি দিয়ে বোঝা:<br/>৮টি বিক্রি করে ১০টির দাম উঠে আসে।<br/>অর্থাৎ, ৮টি বিক্রি করে লাভ হয় ২টির ক্রয়মূল্যের সমান (১০-৮)।<br/>লাভের হার = (লাভ / বিক্রিত পরিমাণ) × ১০০%<br/>= (২ / ৮) × ১০০% = ২৫%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333140,
+    "question": "দুইটি সংখ্যার অনুপাত ৫ : ৮ । উভয়ের সাথে ২ যোগ করা হলে অনুপাতটি ২:৩ হয়। সংখ্যা দুইটি কী কী?",
+    "options": [
+      "৭ ও ১১",
+      "১২ ও ১৮",
+      "১০ ও ২৪",
+      "১০ ও ১৬"
+    ],
+    "correct_answer": "১০ ও ১৬",
+    "explanation": "📖 অপশন টেস্ট:<br/>১০ ও ১৬ এর অনুপাত = ১০:১৬ = ৫:৮ (১ম শর্ত পূরণ)<br/>উভয়ের সাথে ২ যোগ করলে হয় (১০+২) ও (১৬+২) বা ১২ ও ১৮<br/>১২:১৮ = ২:৩ (২য় শর্ত পূরণ)<br/>সুতরাং সংখ্যা দুটি ১০ ও ১৬।<br/> ⇢ <br/>⛳ বীজগণিতীয় সমাধান:<br/>ধরি সংখ্যা দুটি 5x এবং 8x<br/>প্রশ্নমতে, (5x + 2) / (8x + 2) = 2 / 3<br/>⇒ 15x + 6 = 16x + 4<br/>⇒ x = 2<br/>সংখ্যা দুটি: 5(2) = 10 এবং 8(2) = 16",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333141,
+    "question": "কোনো ছাত্রাবাসে ৫০০ জনের ২০ দিনের খাদ্য মজুদ আছে। ৫ দিন পর ২০০ জন ছাত্র চলে গেলে বাকি খাদ্য কতদিন চলবে?",
+    "options": [
+      "২০",
+      "২২",
+      "২৫",
+      "৩০"
+    ],
+    "correct_answer": "২৫",
+    "explanation": "📖 ৫ দিন পর দিন বাকি = ২০ - ৫ = ১৫ দিন<br/>ছাত্র বাকি = ৫০০ - ২০০ = ৩০০ জন<br/>৫০০ জনের চলে ১৫ দিন<br/>১ জনের চলে (১৫ × ৫০০) দিন<br/>৩০০ জনের চলে (১৫ × ৫০০) / ৩০০ দিন<br/>= ২৫ দিন<br/> ⇢ <br/>⛳ সূত্র: M1 × D1 = M2 × D2<br/>এখানে,<br/>M1 = ৫০০ জন<br/>D1 = ১৫ দিন (অবশিষ্ট দিন)<br/>M2 = ৩০০ জন (অবশিষ্ট ছাত্র)<br/>D2 = ?<br/>৫০০ × ১৫ = ৩০০ × D2<br/>D2 = ৭৫০০ / ৩০০ = ২৫ দিন",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333142,
+    "question": "কোনটি সঠিক নয়?",
+    "options": [
+      "৩ কাঠা = ৭২০ বর্গফুট",
+      "১ কাঠা = ১৬ ছটাক",
+      "১ কাঠা = ৮০ বর্গগজ",
+      "১ কাঠা = ১.৫ শতাংশ"
+    ],
+    "correct_answer": "৩ কাঠা = ৭২০ বর্গফুট",
+    "explanation": "📖 আমরা জানি, ১ কাঠা = ৭২০ বর্গফুট।<br/>সুতরাং, ৩ কাঠা = ৩ × ৭২০ = ২১৬০ বর্গফুট।<br/>তাই '৩ কাঠা = ৭২০ বর্গফুট' তথ্যটি ভুল বা সঠিক নয়।<br/> ⇢ <br/>⛳ ভূমির পরিমাপের এককসমূহ:<br/>১ কাঠা = ৭২০ বর্গফুট<br/>১ কাঠা = ১৬ ছটাক<br/>১ কাঠা = ৮০ বর্গগজ (প্রায়)<br/>১ কাঠা = ১.৬৫ শতাংশ (শতাংশ বা ডেসিমেল)<br/>অপশনগুলোর মধ্যে ৩ কাঠা = ৭২০ বর্গফুট তথ্যটি ভুল, কারণ এটি ১ কাঠার সমান।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333143,
+    "question": "২০% ছাড়ে একটি কম্পিউটার ৭২০০ টাকায় বিক্রি করা হলে তার আসল দাম কত?",
+    "options": [
+      "৯০০০ টাকা",
+      "১১০০০ টাকা",
+      "১২০০০ টাকা",
+      "১৪০০০ টাকা"
+    ],
+    "correct_answer": "৯০০০ টাকা",
+    "explanation": "📖 ২০% ছাড়ে,<br/>বিক্রয়মূল্য ৮০ টাকা হলে আসল দাম ১০০ টাকা<br/>বিক্রয়মূল্য ১ টাকা হলে আসল দাম ১০০/৮০ টাকা<br/>বিক্রয়মূল্য ৭২০০ টাকা হলে আসল দাম (১০০ × ৭২০০) / ৮০<br/>= ৯০০০ টাকা<br/> ⇢ <br/>⛳ সূত্র প্রয়োগ করে:<br/>ক্রয়মূল্য = (বিক্রয়মূল্য × ১০০) / (১০০ - ছাড়%)<br/>= (৭২০০ × ১০০) / (১০০ - ২০)<br/>= ৭২০০০০ / ৮০<br/>= ৯০০০ টাকা",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333144,
+    "question": "দুটি ধণাত্বক বর্গের অন্তর ১১ এবং তাদের গুণফল ৩০ হলে সংখ্যা দুটি কত?",
+    "options": [
+      "৬ ও ৫",
+      "৬ ও ৪",
+      "৩ ও ৫",
+      "৫ ও ৪"
+    ],
+    "correct_answer": "৬ ও ৫",
+    "explanation": "📖 অপশন টেস্ট:<br/>৬ ও ৫ এর গুণফল = ৬ × ৫ = ৩০<br/>বর্গের অন্তর = ৬² - ৫² = ৩৬ - ২৫ = ১১<br/>শর্ত মিলেছে, তাই সংখ্যা দুটি ৬ ও ৫।<br/> ⇢ <br/>⛳ বীজগণিতীয় সমাধান:<br/>a² - b² = 11 এবং ab = 30<br/>(a+b)(a-b) = 11<br/>যেহেতু 11 একটি মৌলিক সংখ্যা, তাই এর উৎপাদক হবে 11 এবং 1।<br/>সুতরাং, a+b = 11 এবং a-b = 1<br/>যোগ করলে: 2a = 12 ⇒ a = 6<br/>বিয়োগ করলে: 2b = 10 ⇒ b = 5",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333145,
+    "question": "কোন সংখ্যাকে সাহায্যকারী সংখ্যা বলা হয়?",
+    "options": [
+      "০",
+      "১",
+      "২",
+      "৫"
+    ],
+    "correct_answer": "০",
+    "explanation": "📖 গণিতে ০ (শূন্য) কে সাহায্যকারী অঙ্ক বা সংখ্যা বলা হয়। কারণ এটি একা কোনো মান প্রকাশ করে না, কিন্তু অন্য সার্থক অঙ্কের ডানে বসে তার মান বৃদ্ধি করতে সাহায্য করে।<br/> ⇢ <br/>⛳ শূন্য (০) কে 'অভাব জ্ঞাপক অঙ্ক' বা 'Auxiliary Digit' বলা হয়। ভারতীয় গণিতবিদ আর্যভট ও ব্রহ্মগুপ্ত শূন্যের ধারণা ও ব্যবহার প্রবর্তন করেন। এটি যোগের ক্ষেত্রে 'Identity Element' হিসেবেও কাজ করে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333146,
+    "question": "একটি ত্রিভুজের তিনটি কোণের অনুপাত ১ : ১ : ২ হলে বৃহত্তম কোণের পরিমাণ কত?",
+    "options": [
+      "৪৫°",
+      "৬০°",
+      "৭০°",
+      "৯০°"
+    ],
+    "correct_answer": "৯০°",
+    "explanation": "📖 ত্রিভুজের তিন কোণের সমষ্টি ১৮০°<br/>অনুপাতের যোগফল = ১ + ১ + ২ = ৪<br/>বৃহত্তম কোণ = ১৮০° এর ২/৪<br/>= ১৮০° × ১/২<br/>= ৯০°<br/> ⇢ <br/>⛳ কোণগুলো হলো:<br/>১ম কোণ = (১৮০/৪) × ১ = ৪৫°<br/>২য় কোণ = (১৮০/৪) × ১ = ৪৫°<br/>৩য় কোণ = (১৮০/৪) × ২ = ৯০°<br/>এটি একটি সমদ্বিবাহু সমকোণী ত্রিভুজ।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333147,
+    "question": "\\({x}+\\frac{{1}}{{x}}=\\sqrt{{3}}\\)</u> হলে,&nbsp;\\({x}^{{3}}+\\frac{{1}}{{x}^{{3}}}\\)</u> এর মান কত?",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "correct_answer": "0",
+    "explanation": "📖 x³ + 1/x³<br/>= (x + 1/x)³ - 3.x.(1/x)(x + 1/x)<br/>= (√3)³ - 3(√3)<br/>= 3√3 - 3√3<br/>= 0<br/>⇢ <br/>⛳ শর্টকাট:<br/>যদি x + 1/x = √3 হয়, তবে x³ + 1/x³ = 0 হবে।<br/>এটি একটি স্ট্যান্ডার্ড আইডেন্টিটি। এখান থেকে আরও প্রমাণ করা যায় যে x⁶ = -1।<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333148,
+    "question": "৫টি ঘণ্টা একত্রে বেজে যথাক্রমে ৫, ১০, ১৫, ২০ ও ২৫ সেকেন্ড অন্তর আবার বাজতে লাগলো। কত মিনিট পর তারা একত্রে বাজবে?",
+    "options": [
+      "১০",
+      "৫",
+      "৬",
+      "১৫"
+    ],
+    "correct_answer": "৫",
+    "explanation": "📖 ৫, ১০, ১৫, ২০, ২৫ এর ল.সা.গু বের করতে হবে।<br/>ল.সা.গু = ৩০০ সেকেন্ড<br/>৩০০ সেকেন্ড = ৩০০ / ৬০ মিনিট = ৫ মিনিট<br/>সুতরাং, ৫ মিনিট পর তারা আবার একত্রে বাজবে।<br/> ⇢ <br/>⛳ ল.সা.গু নির্ণয়:<br/>৫, ১০, ১৫, ২০, ২৫<br/>৫ দিয়ে ভাগ করলে: ১, ২, ৩, ৪, ৫<br/>ল.সা.গু = ৫ × ১ × ২ × ৩ × ২ × ৫ (৪ কে ২×২ ধরে) = ৩০০<br/>৩০০ সেকেন্ড = ৫ মিনিট।<br/> ⇢ <br/>⛳ ঘণ্টাগুলো একত্রে আবার বাজবে, যখন তাদের বাজার সময়ের মধ্যে ৫, ১০, ১৫, ২০ এবং ২৫ এর ল.সা.গু. (Least Common Multiple) সময় অতিবাহিত হবে।<br/>সুতরাং, আমাদের ৫, ১০, ১৫, ২০, এবং ২৫ এর ল.সা.গু. বের করতে হবে।<br/>৫ = ৫<br/>১০ = ২ × ৫<br/>১৫ = ৩ × ৫<br/>২০ = ২² × ৫<br/>২৫ = ৫²<br/>ল.সা.গু. = ২² × ৩ × ৫² = ৪ × ৩ × ২৫ = ১২ × ২৫ = ৩০০ সেকেন্ড<br/>প্রশ্নে উত্তর মিনিটে চাওয়া হয়েছে।<br/>সেকেন্ডকে মিনিটে রূপান্তর করি:<br/>৩০০ সেকেন্ড = ৩০০ / ৬০ মিনিট = ৫ মিনিট<br/>সুতরাং, তারা ৫ মিনিট পর একত্রে বাজবে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333149,
+    "question": "\\({x}^{{y}}={z},{y}^{{z}}={x},{z}^{{x}}={y}\\) </u>হলে কোনটি সঠিক?",
+    "options": [
+      "xyz = 0",
+      "xy =1/z",
+      "xyz = 2",
+      "ক ও গ"
+    ],
+    "correct_answer": "xy =1/z",
+    "explanation": "📖 দেওয়া আছে, x = yᶻ<br/>বা, x = (zˣ)ᶻ [যেহেতু y = zˣ]<br/>বা, x = zˣᶻ<br/>বা, x = (xʸ)ˣᶻ [যেহেতু z = xʸ]<br/>বা, x¹ = xˣʸᶻ<br/>পাওয়ার তুলনা করে পাই, xyz = 1<br/>বা, xy = 1/z<br/>⇢ <br/>⛳ চক্রাকার প্রতিস্থাপন পদ্ধতি:<br/>x = yᶻ<br/>y = zˣ<br/>z = xʸ<br/>মান বসিয়ে পাই: x = yᶻ = (zˣ)ᶻ = zˣᶻ = (xʸ)ˣᶻ = xˣʸᶻ<br/>ভিত্তি x সমান হলে সূচকও সমান হবে।<br/>সুতরাং, xyz = 1<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333150,
+    "question": "√1+√1 এর বর্গ কত?",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ],
+    "correct_answer": "4",
+    "explanation": "📖 (√1 + √1)²<br/>= (1 + 1)²<br/>= 2²<br/>= 4<br/> ⇢ <br/>⛳ ধাপে ধাপে সমাধান:<br/>আমরা জানি, √1 = 1<br/>রাশিটি দাঁড়ায়: 1 + 1 = 2<br/>এখন 2 এর বর্গ = 2² = 4",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333151,
+    "question": "দুইটি ক্রমিক সংখ্যার বর্গের অন্তর ১৯৯ হলে বড় সংখ্যাটি কত?",
+    "options": [
+      "৭০",
+      "৩৫",
+      "১০০",
+      "৯০"
+    ],
+    "correct_answer": "১০০",
+    "explanation": "📖 বড় সংখ্যা = (বর্গের অন্তর + ১) / ২<br/>= (১৯৯ + ১) / ২<br/>= ২০০ / ২<br/>= ১০০<br/>(ছোট সংখ্যাটি হবে ৯৯)<br/> ⇢ <br/>⛳ বীজগণিতীয় প্রমাণ:<br/>ধরি, ক্রমিক সংখ্যা দুটি x এবং x+1<br/>(x+1)² - x² = 199<br/>⇒ x² + 2x + 1 - x² = 199<br/>⇒ 2x = 198<br/>⇒ x = 99<br/>বড় সংখ্যাটি = x + 1 = 99 + 1 = 100<br/> ⇢ <br/>⛳ ধরি, দুটি ক্রমিক সংখ্যা হলো n এবং n+১।<br/>বড় সংখ্যাটি হলো n+১।<br/>প্রশ্নানুসারে,<br/>(n+১)² - n² = ১৯৯<br/>বীজগণিতীয় সূত্র (a²-b² = (a+b)(a-b)) ব্যবহার করে:<br/>((n+১) + n)((n+১) - n) = ১৯৯<br/>(২n + ১)(১) = ১৯৯<br/>২n + ১ = ১৯৯<br/>২n = ১৯৯ - ১<br/>২n = ১৯৮<br/>n = ১৯৮ / ২<br/>n = ৯৯<br/>ছোট সংখ্যাটি হলো n = ৯৯<br/>বড় সংখ্যাটি হলো n+১ = ৯৯ + ১ = ১০০",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333152,
+    "question": "a ও b বিজোড় সংখ্যা হলে নিচের কোনটি জোড়?",
+    "options": [
+      "ab",
+      "ab+1",
+      "ab+2",
+      "ab+4"
+    ],
+    "correct_answer": "ab+1",
+    "explanation": "📖 দুটি বিজোড় সংখ্যার গুণফল সর্বদা বিজোড় হয়।<br/>ধরি, a = 3, b = 5<br/>ab = 3 × 5 = 15 (বিজোড়)<br/>ab + 1 = 15 + 1 = 16 (জোড়)<br/>ab + 2 = 15 + 2 = 17 (বিজোড়)<br/>সুতরাং, ab+1 সর্বদা জোড় হবে।<br/> ⇢ <br/>⛳ গাণিতিক যুক্তি:<br/>বিজোড় × বিজোড় = বিজোড় (Odd)<br/>বিজোড় + বিজোড় = জোড় (Even)<br/>বিজোড় + জোড় = বিজোড় (Odd)<br/>এখানে ab হলো বিজোড়। এর সাথে ১ (বিজোড়) যোগ করলে (বিজোড় + বিজোড়) ফলাফল জোড় হবে।<br/> ⇢ <br/>⛳ a এবং b উভয়েই বিজোড় সংখ্যা।<br/>দুটি বিজোড় সংখ্যার গুণফল (ab) সবসময় একটি জোড় সংখ্যা হয়।<br/>যেমন: ৩ × ৫ = ১৫ (বিজোড়), কিন্তু ৫ × ৭ = ৩৫ (বিজোড়)। এই ধারণাটি ভুল।<br/>সঠিক ধারণা: দুটি বিজোড় সংখ্যার গুণফল সবসময় বিজোড় সংখ্যা হয়।<br/>যেমন: a = ২m+১, b = ২n+১ (যেখানে m, n পূর্ণসংখ্যা)<br/>ab = (২m+১)(২n+১) = ৪mn + ২m + ২n + ১ = ২(২mn+m+n) + ১, যা একটি বিজোড় সংখ্যা।<br/>এখন, একটি বিজোড় সংখ্যার সাথে ১ যোগ করলে ফলাফল একটি জোড় সংখ্যা হয়।<br/>তাই, ab (যা বিজোড়) + ১ = জোড় সংখ্যা।<br/>অন্যদিকে, বিজোড় + ২ = বিজোড়, বিজোড় + ৪ = বিজোড়।<br/>সুতরাং, ab+1 সবসময় জোড় সংখ্যা হবে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333153,
+    "question": "কোন লঘিষ্ঠ সংখ্যার সাথে ৩ যোগ করলে যোগফল ৮, ১৮, ২৪ দ্বারা বিভাজ্য হবে?",
+    "options": [
+      "৬৯",
+      "৮৯",
+      "১৪২",
+      "৪৬"
+    ],
+    "correct_answer": "৬৯",
+    "explanation": "📖 ৮, ১৮, ২৪ এর ল.সা.গু বের করতে হবে।<br/>৮, ১৮, ২৪ এর ল.সা.গু = ৭২<br/>যেহেতু ৩ যোগ করলে বিভাজ্য হবে, তাই নির্ণেয় সংখ্যাটি ল.সা.গু থেকে ৩ কম হবে।<br/>নির্ণেয় সংখ্যা = ৭২ - ৩ = ৬৯<br/> ⇢ <br/>⛳ শুদ্ধি পরীক্ষা:<br/>৬৯ + ৩ = ৭২<br/>৭২ সংখ্যাটি ৮ (৮×৯), ১৮ (১৮×৪) এবং ২৪ (২৪×৩) দ্বারা বিভাজ্য।<br/>সুতরাং উত্তর ৬৯।<br/> ⇢ <br/>⛳ যে সংখ্যাটি ৮, ১৮ এবং ২৪ দ্বারা বিভাজ্য হবে, সংখ্যাটিকে অবশ্যই এদের ল.সা.গু. (Least Common Multiple) দ্বারা বিভাজ্য হতে হবে।<br/>৮, ১৮, এবং ২৪ এর ল.সা.গু. নির্ণয় করি:<br/>৮ = ২ × ২ × ২ = ২³<br/>১৮ = ২ × ৩ × ৩ = ২ × ৩²<br/>২৪ = ২ × ২ × ২ × ৩ = ২³ × ৩<br/>ল.সা.গু. = ২³ × ৩² = ৮ × ৯ = ৭২<br/>প্রশ্ন অনুযায়ী, সংখ্যাটি ৭২ এর চেয়ে ৩ কম হবে।<br/>অর্থাৎ, সংখ্যাটি = ৭২ - ৩ = ৬৯",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333154,
+    "question": "৩.১২৫ কে ০.২৫ দ্বারা ভাগ করলে ভাগফল কত হবে?",
+    "options": [
+      "২.৫",
+      "৬.২৫",
+      "৮.৫",
+      "১২.৫"
+    ],
+    "correct_answer": "১২.৫",
+    "explanation": "📖 3.125 / 0.25<br/>= 312.5 / 25 (উভয়কে 100 দ্বারা গুণ করে দশমিক সরিয়ে)<br/>= 12.5<br/> ⇢ <br/>⛳ ভগ্নাংশ পদ্ধতিতে:<br/>3.125 ÷ 0.25<br/>= (3125/1000) ÷ (25/100)<br/>= (3125/1000) × (100/25)<br/>= 3125/250<br/>= 125/10<br/>= 12.5<br/> ⇢ <br/>⛳ ভাগ করতে হবে: ৩.১২৫ ÷ ০.২৫<br/>ভাজ্য এবং ভাজক উভয়কে ১০০ দ্বারা গুণ করে দশমিক উঠিয়ে নেই:<br/>(৩.১২৫ × ১০০) ÷ (০.২৫ × ১০০)<br/>= ৩১২.৫ ÷ ২৫<br/>এখন, সাধারণ ভাগ করি:<br/>৩১২.৫ ÷ ২৫ = ১২.৫",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333155,
+    "question": "চতুর্ভুজের চার বাহুর সমষ্টি কি বলা হয়?",
+    "options": [
+      "কর্ণ",
+      "পরিসীমা",
+      "ক্ষেত্রফল",
+      "আয়তন"
+    ],
+    "correct_answer": "পরিসীমা",
+    "explanation": "📖 যেকোনো জ্যামিতিক ক্ষেত্রের বাহুগুলোর মোট দৈর্ঘ্যকে তার পরিসীমা (Perimeter) বলা হয়।<br/> ⇢ <br/>⛳ পরিসীমা (Perimeter): সীমানার মোট দৈর্ঘ্য।<br/>ক্ষেত্রফল (Area): সীমানার ভেতরের জায়গার পরিমাণ।<br/>কর্ণ (Diagonal): বিপরীত কৌণিক বিন্দুর সংযোজক রেখা।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333156,
+    "question": "৫সে.মি. ব্যাসার্ধ বিশিষ্ট বৃত্তের কেন্দ্র হতে ৩সে.মি. দূরত্বে অবস্থিত জ্যা এর দৈর্ঘ্য কত?",
+    "options": [
+      "৪ সে.মি.",
+      "৬ সে.মি.",
+      "৮ সে.মি.",
+      "১০ সে.মি."
+    ],
+    "correct_answer": "৮ সে.মি.",
+    "explanation": "📖 বৃত্তের ব্যাসার্ধ (r) = ৫ সে.মি.<br/>কেন্দ্র হতে জ্যার দূরত্ব (d) = ৩ সে.মি.<br/>জ্যার অর্ধেককে জ্যক্ষেত্র বলে।<br/>পিথাগোরাসের উপপাদ্য অনুযায়ী,<br/>(জ্যক্ষেত্র)² + (জ্যা হতে কেন্দ্রের দূরত্ব)² = (ব্যাসার্ধ)²<br/>পিথাগোরাসের উপপাদ্য অনুযায়ী,<br/>অর্ধ-জ্যা = √(অতিভুজ² - লম্ব²)<br/>= √(ব্যাসার্ধ² - দূরত্ব²)<br/>= √(5² - 3²)<br/>= √(25 - 9)<br/>= √16<br/>= 4<br/>পুরো জ্যা = 2 × 4 = 8 সে.মি.<br/> ⇢ <br/>⛳ বৃত্তের কেন্দ্র থেকে জ্যা-এর ওপর অঙ্কিত লম্ব জ্যা-কে সমদ্বিখণ্ডিত করে।<br/>এখানে সমকোণী ত্রিভুজ গঠিত হয় যার অতিভুজ ৫ এবং লম্ব ৩।<br/>পিথাগোরাসের ত্রয়ী (3-4-5) অনুযায়ী ভূমি হবে ৪।<br/>সুতরাং, জ্যা-এর দৈর্ঘ্য = ৪ + ৪ = ৮ সে.মি.।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333157,
+    "question": "-১ থেকে কত বিয়োগ করলে বিয়োগফল শূণ্য হয়?",
+    "options": [
+      "+১",
+      "-১",
+      "+২",
+      "-২"
+    ],
+    "correct_answer": "-১",
+    "explanation": "📖 ধরি, সংখ্যাটি x<br/>প্রশ্নমতে, -1 - x = 0<br/>বা, -x = 1<br/>বা, x = -1<br/>অর্থাৎ, -1 থেকে -1 বিয়োগ করলে বিয়োগফল (-1 - (-1) = -1 + 1 = 0) শূন্য হয়।<br/> ⇢ <br/>⛳ সংখ্যারেখার ধারণা থেকে:<br/>যেকোনো সংখ্যা থেকে সেই সংখ্যাটিই বিয়োগ করলে ফলাফল শূন্য হয়।<br/>সুতরাং, (-1) - (-1) = 0.<br/>এখানে বিয়োজ্য সংখ্যাটি হলো -1.<br/> ⇢ <br/>⛳ ধরি, -১ থেকে x বিয়োগ করতে হবে।<br/>প্রশ্নানুসারে, বিয়োগফল শূন্য হবে।<br/>সুতরাং, -১ - x = ০<br/>এখন, x = -১<br/>অর্থাৎ, -১ থেকে -১ বিয়োগ করলে বিয়োগফল শূন্য হবে।<br/>(-১) - (-১) = -১ + ১ = ০",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333158,
+    "question": "সমবাহু ত্রিভুজের একটি বাহু 16 সে.মি. হলে ত্রিভুজটির ক্ষেত্রফল কত বর্গ সে.মি.?",
+    "options": [
+      "64√3",
+      "23√3",
+      "32√5",
+      "64"
+    ],
+    "correct_answer": "64√3",
+    "explanation": "📖 সমবাহু ত্রিভুজের ক্ষেত্রফল = (√3/4)a²<br/>এখানে, বাহু a = 16<br/>ক্ষেত্রফল = (√3/4) × (16)²<br/>= (√3/4) × 256<br/>= 64√3 বর্গ সে.মি.<br/> ⇢ <br/>⛳ সমবাহু ত্রিভুজের উচ্চতা = (√3/2)a = (√3/2) × 16 = 8√3<br/>ক্ষেত্রফল = (1/2) × ভূমি × উচ্চতা<br/>= (1/2) × 16 × 8√3<br/>= 8 × 8√3<br/>= 64√3<br/> ⇢ <br/>⛳ সমবাহু ত্রিভুজের ক্ষেত্রফলের সূত্র হলো: (√৩/৪) × বাহু²<br/>এখানে, বাহু = ১৬ সে.মি.<br/>সুতরাং, ক্ষেত্রফল = (√৩/৪) × (১৬)²<br/>ক্ষেত্রফল = (√৩/৪) × ২৫৬<br/>ক্ষেত্রফল = ৬৪√৩ বর্গ সে.মি.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333159,
+    "question": "32 এর 2 ভিত্তিক লগারিদম কত?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": "5",
+    "explanation": "📖 log₂32<br/>= log₂2⁵<br/>= 5 log₂2<br/>= 5 × 1 [যেহেতু logₐa = 1]<br/>= 5<br/> ⇢ <br/>⛳ সূচকীয় নিয়ম ব্যবহার করে:<br/>ধরি, log₂32 = x<br/>বা, 2ˣ = 32<br/>বা, 2ˣ = 2⁵<br/>বা, x = 5<br/> ⇢ <br/>⛳ প্রশ্নে জানতে চাওয়া হয়েছে, ২ কে কয়বার গুণ করলে ৩২ হবে? অর্থাৎ, log₂(32) = ? আমরা জানি, ২ × ২ × ২ × ২ × ২ = ৩২ যা সূচকের মাধ্যমে লেখা যায়, ২⁵ = ৩২ সুতরাং, log₂(32) = ৫",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333160,
+    "question": "The glass contains ……….. drinking water.",
+    "options": [
+      "many",
+      "a little",
+      "a few",
+      "several"
+    ],
+    "correct_answer": "a little",
+    "explanation": "📖 Water হলো Uncountable noun। Uncountable noun-এর সাথে 'a little' (সামান্য পরিমাণ) বসে। Many, a few, several—এগুলো Countable noun-এর সাথে বসে।<br/> ⇢ <br/>⛳ Uncountable Noun (Water, Sugar): A little (কিছু আছে), Little (নেই বললেই চলে)।<br/>❏ Countable Noun (Pen, Book): A few (কিছু আছে), Few (নেই বললেই চলে)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333161,
+    "question": "They reached the airport after the flight ………..",
+    "options": [
+      "left",
+      "has left",
+      "has been left",
+      "had left"
+    ],
+    "correct_answer": "had left",
+    "explanation": "📖 অতীতে দুটি কাজ সম্পন্ন হলে, যেটি আগে ঘটে সেটি Past Perfect Tense হয়। 'After'-এর পরে Past Perfect Tense বসে।<br/> ⇢ <br/>⛳ মনে রাখার কৌশল:<br/>❏ Before-এর আগে Past Perfect বসে। (Had done + before + did).<br/>❏ After-এর পরে Past Perfect বসে। (Did + after + Had done).",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333162,
+    "question": "Identify the correct spelling.",
+    "options": [
+      "Repeatation",
+      "Repetition",
+      "Repeatition",
+      "Repitition"
+    ],
+    "correct_answer": "Repetition",
+    "explanation": "📖 সঠিক বানান হলো Repetition (পুনরাবৃত্তি)।<br/> ⇢ <br/>⛳ মূল শব্দ 'Repeat' হলেও Noun করার সময় 'a' পরিবর্তিত হয়ে 'e' হয়।<br/>❏ Repeat → Repetition.<br/>❏ একইভাবে: Explain → Explanation (এখানে 'i' উঠে যায়)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333163,
+    "question": "If I were rich, I ……….. all around the world.",
+    "options": [
+      "would travel",
+      "can travel",
+      "will travel",
+      "want to travel"
+    ],
+    "correct_answer": "would travel",
+    "explanation": "📖 এটি Second Conditional-এর উদাহরণ। If + Past Indefinite (were) থাকলে পরবর্তী অংশে would/could + verb-এর base form বসে।<br/> ⇢ <br/>⛳ গঠন: If + Subject + V2 (Past Simple) + Subject + would/could/might + V1 (Base form).<br/>❏ উদাহরণ: If I had wings, I would fly. (অবাস্তব কল্পনা)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333164,
+    "question": "The question tag of \"Let's go out for a walk\".",
+    "options": [
+      "Shall we?",
+      "Shan't we",
+      "Let we?",
+      "Let not we?"
+    ],
+    "correct_answer": "Shall we?",
+    "explanation": "📖 বাক্য \"Let's\" (Let us) দিয়ে শুরু হলে Question tag হিসেবে সর্বদা \"shall we?\" ব্যবহৃত হয়।<br/> ⇢ <br/>⛳ নিয়ম:<br/>❏ Let's / Let us (প্রস্তাব বোঝালে) → Shall we?<br/>❏ Let me / Let him / Let them (অনুমতি বোঝালে) → Will you?",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333165,
+    "question": "What is the feminine gender of 'Duke'?",
+    "options": [
+      "Duck",
+      "Duchess",
+      "Duckies",
+      "Duchies"
+    ],
+    "correct_answer": "Duchess",
+    "explanation": "📖 Duke (ডিউক)-এর স্ত্রীলিঙ্গ হলো Duchess (ডাচেস)। Duck হলো Drake (পাতিহাঁস)-এর স্ত্রীলিঙ্গ।<br/> ⇢ <br/>⛳ কিছু অভিজাত উপাধির লিঙ্গ পরিবর্তন:<br/>❏ Duke ↔ Duchess<br/>❏ Earl ↔ Countess<br/>❏ Lord ↔ Lady<br/>❏ Emperor ↔ Empress",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333166,
+    "question": "Who's that? In this sentence 'that' is a/an",
+    "options": [
+      "pronoun",
+      "conjunction",
+      "adjective",
+      "adverb"
+    ],
+    "correct_answer": "pronoun",
+    "explanation": "📖 এখানে 'that' কোনো ব্যক্তি বা বস্তুকে নির্দেশ করছে, তাই এটি Demonstrative Pronoun।<br/> ⇢ <br/>⛳ পার্থক্য বুঝুন:<br/>❏ Pronoun: Noun-কে রিপ্লেস করে (That is my car)। এখানে 'That' সাবজেক্ট।<br/>❏ Adjective: Noun-কে মডিফাই করে (That car is mine)। এখানে 'That' কার-কে নির্দেশ করছে।<br/>❏ প্রশ্নে 'That' একা বসেছে, তাই এটি Pronoun।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333167,
+    "question": "'Birds of the same feather' means ………..",
+    "options": [
+      "persons of the similar nature",
+      "same kind of birds",
+      "birds of prey",
+      "persons of weak nature"
+    ],
+    "correct_answer": "persons of the similar nature",
+    "explanation": "📖 এটি একটি প্রবাদ যার অর্থ 'একই স্বভাবের লোক' (Persons of the similar nature)।<br/> ⇢ <br/>⛳ পুরো প্রবাদটি হলো: \"Birds of a feather flock together.\" (চোরে চোরে মাসতুতো ভাই)। এর অর্থ হলো একই চরিত্র বা স্বভাবের মানুষরা একে অপরের সাথে মেলামেশা করে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333168,
+    "question": "This is ……….. useful book for research.",
+    "options": [
+      "an",
+      "a",
+      "the",
+      "none"
+    ],
+    "correct_answer": "a",
+    "explanation": "📖 'Useful'-এর উচ্চারণ 'ইউ' (consonant sound 'y') এর মতো হওয়ায় এর আগে Article 'a' বসে।<br/> ⇢ <br/>⛳ নিয়ম: শব্দের শুরুতে Vowel (a, e, i, o, u) থাকলেও যদি তার উচ্চারণ 'ইউ' (yu) বা 'ওয়া' (wa) এর মতো হয়, তবে তার আগে 'an' না বসে 'a' বসে।<br/>❏ উদাহরণ: A university, A European, A one-eyed man.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333169,
+    "question": "Instead of 'extinguish' we can say ………..",
+    "options": [
+      "put by",
+      "put out",
+      "put up",
+      "put on"
+    ],
+    "correct_answer": "put out",
+    "explanation": "📖 'Extinguish' অর্থ আগুন বা আলো নেভানো। Phrasal verb 'put out'-এর অর্থও নেভানো। Put on (পরিধান করা), Put up (উত্তোলন করা/থাকা)।<br/> ⇢ <br/>⛳ গুরুত্বপূর্ণ Phrasal Verbs:<br/>❏ Put out: Extinguish (আগুন নেভানো)।<br/>❏ Put off: Postpone (স্থগিত করা)।<br/>❏ Put on: Wear (পরিধান করা)।<br/>❏ Put up with: Tolerate (সহ্য করা)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333170,
+    "question": "The synonym for 'efface' is ………..",
+    "options": [
+      "improve",
+      "rub out",
+      "cut out",
+      "exhaust"
+    ],
+    "correct_answer": "rub out",
+    "explanation": "📖 'Efface' অর্থ মুছে ফেলা। 'Rub out' অর্থও মুছে ফেলা। Improve (উন্নতি করা), Exhaust (নিঃশেষ করা)।<br/> ⇢ <br/>⛳ Efface: Erase a mark from a surface (মুছে ফেলা)।<br/>❏ Rub out: Erase (মুছে ফেলা)।<br/>❏ Cut out: Remove by cutting (কেটে ফেলা)।<br/>❏ Exhaust: Tire out completely (ক্লান্ত করা/নিঃশেষ করা)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333171,
+    "question": "সকালে পাখিরা কিচির মিচির করে",
+    "options": [
+      "Birds shout at down",
+      "Birds cry at dawn",
+      "Birds sing at dawn",
+      "Birds twitter at dawn"
+    ],
+    "correct_answer": "Birds twitter at dawn",
+    "explanation": "📖 পাখির কিচিরমিচির শব্দকে ইংরেজিতে 'twitter' বা 'chirp' বলা হয়। Dawn অর্থ ভোর।<br/> ⇢ <br/>⛳ বিভিন্ন প্রাণীর ডাক:<br/>❏ Twitter/Chirp: Birds (পাখি)।<br/>❏ Neigh: Horse (ঘোড়া)।<br/>❏ Roar: Lion (সিংহ)।<br/>❏ Trumpet: Elephant (হাতি)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333172,
+    "question": "Change the voice: 'Please keep quiet'",
+    "options": [
+      "You are asked to keep quiet.",
+      "You are requested to keep quiet.",
+      "You are told to keep quiet.",
+      "You are told for keeping quiet."
+    ],
+    "correct_answer": "You are requested to keep quiet.",
+    "explanation": "📖 Imperative sentence-এ 'Please' থাকলে Passive voice করার সময় 'You are requested to' ব্যবহৃত হয়।<br/> ⇢ <br/>⛳ গঠন:<br/>❏ Active: Please + Verb + Object/Extension.<br/>❏ Passive: You are requested to + Verb + Object/Extension.<br/>❏ উদাহরণ: Please help me -> You are requested to help me.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333173,
+    "question": "Would you mind ……….. a cup of tea with me?",
+    "options": [
+      "taking",
+      "having to drink",
+      "drink",
+      "to take"
+    ],
+    "correct_answer": "taking",
+    "explanation": "📖 'Would you mind'-এর পরে সর্বদা Verb-এর সাথে ing যুক্ত হয়। তাই 'taking' সঠিক।<br/> ⇢ <br/>⛳ কিছু শব্দ বা phrase-এর পর সর্বদা Gerund (V+ing) বসে। যেমন: Mind, enjoy, avoid, finish, suggest, worth, cannot help, could not help ইত্যাদি। উদাহরণ: Would you mind opening the door?",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333174,
+    "question": "I have ……….. interest in the matter.",
+    "options": [
+      "not",
+      "any",
+      "none",
+      "no"
+    ],
+    "correct_answer": "no",
+    "explanation": "📖 Noun (interest)-এর আগে Negative Determiner হিসেবে 'no' বসে। 'None' হলো Pronoun এবং 'Not' হলো Adverb।<br/> ⇢ <br/>⛳ No: Adjective/Determiner (বসে Noun-এর আগে)। যেমন: No money, No interest.<br/>❏ Not: Adverb (বসে Verb বা Adjective-এর আগে)। যেমন: Not happy, Do not go.<br/>❏ None: Pronoun (একা বসে)। যেমন: None of them.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333175,
+    "question": "He is fond of [fishing]. Here the underlined part is a/an ….",
+    "options": [
+      "gerund",
+      "participle",
+      "verb",
+      "adjective"
+    ],
+    "correct_answer": "gerund",
+    "explanation": "📖 Preposition (of)-এর পরে Verb-এর সাথে ing যুক্ত হয়ে যদি Noun-এর কাজ করে, তবে তাকে Gerund বলে।<br/> ⇢ <br/>⛳ Gerund: Verb + ing (কাজ করে Noun হিসেবে)। এখানে 'fishing' শব্দটি 'of' preposition-এর object হিসেবে বসেছে, তাই এটি Noun বা Gerund।<br/>❏ Participle: Verb + ing (কাজ করে Adjective বা Verb হিসেবে)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333176,
+    "question": "One should be careful about ……….. duty.",
+    "options": [
+      "one's",
+      "his",
+      "other's",
+      "the duty"
+    ],
+    "correct_answer": "one's",
+    "explanation": "📖 Subject যদি 'One' হয়, তবে Possessive form হিসেবে 'One's' ব্যবহৃত হয়।<br/> ⇢ <br/>⛳ Pronoun Agreement:<br/>❏ One should do one's duty.<br/>❏ He should do his duty.<br/>❏ Everyone should do his/her duty (Traditional grammar).",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333177,
+    "question": "Learn the poem ……….. heart.",
+    "options": [
+      "with",
+      "in",
+      "by",
+      "within"
+    ],
+    "correct_answer": "by",
+    "explanation": "📖 'Learn by heart' একটি phrase যার অর্থ মুখস্থ করা।<br/> ⇢ <br/>⛳ প্রাচীন গ্রিকরা বিশ্বাস করত যে হৃদপিণ্ড (Heart) হলো বুদ্ধিমত্তা ও স্মৃতির কেন্দ্র। সেখান থেকেই 'Learn by heart' (হৃদয় দিয়ে শেখা বা মুখস্থ করা) বাগধারাটির উৎপত্তি।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333178,
+    "question": "'Corporal punishment' means ………..",
+    "options": [
+      "mutual punishment",
+      "capital punishment",
+      "physical punishment",
+      "serious punishment"
+    ],
+    "correct_answer": "physical punishment",
+    "explanation": "📖 'Corporal punishment' অর্থ শারীরিক শাস্তি (Physical punishment)। Capital punishment অর্থ মৃত্যুদণ্ড।<br/> ⇢ <br/>⛳ Corporal: ল্যাটিন শব্দ 'corpus' (body) থেকে এসেছে। তাই Corporal punishment মানে দৈহিক শাস্তি (বেত্রাঘাত, প্রহার ইত্যাদি)।<br/>❏ Capital punishment: Death penalty (মৃত্যুদণ্ড)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333179,
+    "question": "The poem 'The Patriot' is written by ………..",
+    "options": [
+      "Alfred Tennyson",
+      "Matthew Arnold",
+      "John Donne",
+      "Robert Browning"
+    ],
+    "correct_answer": "Robert Browning",
+    "explanation": "📖 'The Patriot' রবার্ট ব্রাউনিং (Robert Browning)-এর লেখা একটি বিখ্যাত কবিতা।<br/> ⇢ <br/>⛳ এটি একটি Dramatic Monologue (নাটকীয় স্বগতোক্তি)। কবিতায় একজন দেশপ্রেমিক নেতার উত্থান এবং পতনের করুণ চিত্র তুলে ধরা হয়েছে, যেখানে জনগণ তাকে প্রথমে পূজা করলেও পরে ছুড়ে ফেলে দেয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333180,
+    "question": "Give me a pen to write ………...",
+    "options": [
+      "with",
+      "to",
+      "for",
+      "on"
+    ],
+    "correct_answer": "with",
+    "explanation": "📖 কলম দিয়ে বা কলমের সাহায্যে লেখা বোঝাতে 'write with' ব্যবহৃত হয়। বাক্যটি হবে: Give me a pen to write with.<br/> ⇢ <br/>⛳ Preposition ব্যবহারের নিয়ম:<br/>❏ Write with a pen (উপকরণ বা যন্ত্র)।<br/>❏ Write in ink (মাধ্যম)।<br/>❏ Write on paper (তল বা পৃষ্ঠ)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333181,
+    "question": "The people who carry a coffin at a funeral are called?",
+    "options": [
+      "Undertakers",
+      "Mourners",
+      "Pallbearers",
+      "Supporters"
+    ],
+    "correct_answer": "Pallbearers",
+    "explanation": "📖 অন্ত্যেষ্টিক্রিয়ায় যারা কফিন বহন করে তাদের 'Pallbearers' বলা হয়। Undertakers মৃতদেহের সৎকার ব্যবস্থাপক, Mourners শোক প্রকাশকারী।<br/> ⇢ <br/>⛳ Pall: কফিনের ওপরের কাপড়।<br/>❏ Bearer: বহনকারী।<br/>❏ Undertaker: Funeral director (যিনি শেষকৃত্যের আয়োজন করেন)।<br/>❏ Mourner: যিনি শোক প্রকাশ করেন।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333182,
+    "question": "Antonym of 'Adhere' is -",
+    "options": [
+      "Detach",
+      "Engulf",
+      "Contain",
+      "Cleanse"
+    ],
+    "correct_answer": "Detach",
+    "explanation": "📖 'Adhere' অর্থ লেগে থাকা বা অবিচল থাকা। এর বিপরীত শব্দ 'Detach' যার অর্থ বিচ্ছিন্ন করা বা আলাদা করা। Engulf (গ্রাস করা), Contain (ধারণ করা), Cleanse (পরিষ্কার করা)।<br/> ⇢ <br/>⛳ Adhere: Stick fast (লেগে থাকা/আঁকড়ে থাকা)।<br/>❏ Detach: Disengage or remove (বিচ্ছিন্ন করা)।<br/>❏ Engulf: Sweep over (গ্রাস করা)।<br/>❏ Contain: Hold (ধারণ করা)।<br/>❏ Cleanse: Make clean (পরিষ্কার করা)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333183,
+    "question": "Which one is the correct spelling",
+    "options": [
+      "Holocaust",
+      "Holocausts",
+      "Halocaust",
+      "Halocast"
+    ],
+    "correct_answer": "Holocaust",
+    "explanation": "📖 সঠিক বানানটি হলো Holocaust (হলোকস্ট), যার অর্থ ব্যাপক ধ্বংসযজ্ঞ বা অগ্নিকাণ্ড।<br/> ⇢ <br/>⛳ শব্দটি গ্রিক 'holokaustos' থেকে এসেছে, যার অর্থ 'সম্পূর্ণ ভস্মীভূত'। ঐতিহাসিকভাবে এটি দ্বিতীয় বিশ্বযুদ্ধের সময় নাৎসি জার্মানি কর্তৃক ইহুদি নিধনযজ্ঞকে বোঝাতে ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333184,
+    "question": "GSM এর পূর্ণরূপ কী?",
+    "options": [
+      "Global System for Mobile Telecommunication",
+      "Global System for Management",
+      "Global System for Mobile Communication",
+      "General System for Mobile Management"
+    ],
+    "correct_answer": "Global System for Mobile Communication",
+    "explanation": "📖 GSM-এর পূর্ণরূপ হলো Global System for Mobile Communication। এটি মোবাইল যোগাযোগের একটি জনপ্রিয় ডিজিটাল স্ট্যান্ডার্ড।<br/> ⇢ <br/>⛳ GSM হলো দ্বিতীয় প্রজন্মের (2G) মোবাইল প্রযুক্তি। এটি TDMA (Time Division Multiple Access) প্রযুক্তি ব্যবহার করে। বিশ্বের অধিকাংশ দেশে এই প্রযুক্তি ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333185,
+    "question": "কম্পিউটার ব্যবহারকারী মানুষ না রোবট, এটি আলাদা করার জন্য কী ব্যবহার করা হয়?",
+    "options": [
+      "Password",
+      "Monitor",
+      "Captcha",
+      "Modem"
+    ],
+    "correct_answer": "Captcha",
+    "explanation": "📖 Captcha (Completely Automated Public Turing test to tell Computers and Humans Apart) ব্যবহার করা হয় ব্যবহারকারী মানুষ নাকি স্বয়ংক্রিয় প্রোগ্রাম (বট) তা যাচাই করার জন্য।<br/> ⇢ <br/>⛳ এটি এক ধরণের চ্যালেঞ্জ-রেসপন্স টেস্ট। কার্নেগি মেলন ইউনিভার্সিটির গবেষকরা এটি তৈরি করেন। স্প্যামিং রোধে এটি ব্যাপকভাবে ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333186,
+    "question": "OR gate কোন গাণিতিক অপারেশন করে?",
+    "options": [
+      "Logic যোগ",
+      "Logic গুণ",
+      "Logic পূরক",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "Logic যোগ",
+    "explanation": "📖 OR gate যৌক্তিক যোগের (Logical Addition) কাজ করে। AND gate গুণের এবং NOT gate পূরকের কাজ করে।<br/> ⇢ <br/>⛳ OR গেটের আউটপুট ১ (High) হবে যদি এর ইনপুটগুলোর মধ্যে অন্তত একটি ১ (High) হয়। সব ইনপুট ০ (Low) হলে আউটপুট ০ হবে। বুলিয়ান সমীকরণ: Y = A + B।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333187,
+    "question": "ইন্টারনেটে ওয়েবপেজ ব্রাউজ করতে কোন প্রটোকল ব্যবহার করা হয়?",
+    "options": [
+      "FTP",
+      "TCP/IP",
+      "SMTP",
+      "HTTP"
+    ],
+    "correct_answer": "HTTP",
+    "explanation": "📖 ওয়েবপেজ ব্রাউজ করার জন্য HTTP (HyperText Transfer Protocol) ব্যবহৃত হয়। FTP ফাইল ট্রান্সফারের জন্য এবং SMTP ইমেইল পাঠানোর জন্য ব্যবহৃত হয়।<br/> ⇢ <br/>⛳ HTTP সাধারণত পোর্ট ৮০ ব্যবহার করে। এর নিরাপদ সংস্করণ হলো HTTPS (HyperText Transfer Protocol Secure), যা পোর্ট ৪৪৩ ব্যবহার করে এবং তথ্য এনক্রিপ্ট করে আদান-প্রদান করে।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333188,
+    "question": "বাংলাদেশের কোন জেলায় সর্বাধিক সুন্দরবনের অংশ রয়েছে?",
+    "options": [
+      "সাতক্ষীরা",
+      "খুলনা",
+      "বাগেরহাট",
+      "বরগুনা"
+    ],
+    "correct_answer": "বাগেরহাট",
+    "explanation": "📖 সুন্দরবন বাংলাদেশের ৫টি জেলায় বিস্তৃত (খুলনা, সাতক্ষীরা, বাগেরহাট, পটুয়াখালী, বরগুনা)। এর মধ্যে বাগেরহাট জেলায় সুন্দরবনের সবচেয়ে বেশি অংশ পড়েছে।<br/> ⇢ <br/>⛳ বাংলাদেশে সুন্দরবনের মোট আয়তন ৬০১৭ বর্গ কিলোমিটার। এর মধ্যে বাগেরহাট জেলায় সর্বাধিক, এরপর খুলনা ও সাতক্ষীরা জেলায় অবস্থান।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333189,
+    "question": "বাংলাদেশের প্রথম কাগজের কল কোথায় প্রতিষ্ঠিত হয়?",
+    "options": [
+      "দৌলতপুর",
+      "পাকশী",
+      "চন্দ্রঘোনা",
+      "ঘোড়াশাল"
+    ],
+    "correct_answer": "চন্দ্রঘোনা",
+    "explanation": "📖 ১৯৫৩ সালে রাঙ্গামাটির চন্দ্রঘোনায় কর্ণফুলী পেপার মিলস প্রতিষ্ঠিত হয়, যা বাংলাদেশের প্রথম কাগজের কল।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333190,
+    "question": "গ্রামীণ ব্যাংকে সরকারের মালিকানা কত শতাংশ?",
+    "options": [
+      "২০%",
+      "১০%",
+      "৩০%",
+      "২৫%"
+    ],
+    "correct_answer": "১০%",
+    "explanation": "📖 বর্তমানে গ্রামীণ ব্যাংকে সরকারের মালিকানা ২৫%। <br/>❏ এক নজরে গ্রামীণ ব্যাংক<br/>❏ গ্রামীণ ব্যাংক বাংলাদেশের একটি স্বনামধন্য ক্ষুদ্রঋণ প্রদানকারী প্রতিষ্ঠান, যা দারিদ্র্য বিমোচন ও নারীর ক্ষমতায়নে গুরুত্বপূর্ণ ভূমিকা পালন করে আসছে। পরীক্ষায় গ্রামীণ ব্যাংক সম্পর্কিত বিভিন্ন তথ্য প্রায়ই আসে। নিচে গ্রামীণ ব্যাংক সম্পর্কিত কিছু গুরুত্বপূর্ণ তথ্য উপস্থাপন করা হলো:<br/>❏ প্রতিষ্ঠা ও ইতিহাস:<br/>❏ গ্রামীণ ব্যাংকের সূচনা হয় ১৯৭৬ সালে চট্টগ্রামের জোবরা গ্রামে ড. মুহাম্মদ ইউনূসের উদ্যোগে একটি পাইলট প্রকল্প হিসেবে। ১৯৮৩ সালের ২ অক্টোবর এটি একটি স্বতন্ত্র ব্যাংক হিসেবে প্রতিষ্ঠিত হয়।<br/>❏ উদ্দেশ্য ও কার্যক্রম:<br/>❏ প্রধান উদ্দেশ্য হলো দরিদ্র ও প্রান্তিক জনগোষ্ঠী, বিশেষ করে নারীদের ক্ষুদ্রঋণ প্রদান করে তাদের আর্থ-সামাজিক উন্নয়ন নিশ্চিত করা।<br/>❏ গ্রামীণ ব্যাংক জামানতবিহীন ঋণ প্রদান করে, যা 'মাইক্রোক্রেডিট নামে পরিচিত।<br/>❏ সাফল্য ও স্বীকৃতি:<br/>❏ ড. মুহাম্মদ ইউনূসা ও গ্রামীণ ব্যাংক যৌথভাবে ২০০৬ সালে নোবেল শান্তি পুরস্কারে ভূষিত হন।<br/>❏ ব্যাংকটি বাংলাদেশের গ্রামীণ অর্থনীতিতে উল্লেখযোগ্য অবদান রেখেছে এবং বিশ্বব্যাপী মাইক্রোক্রেডিট মডেলের জন্য একটি রোল মডেল হিসেবে স্বীকৃত।<br/>❏ ধরন: এটি একটি অ-তফসিলী ব্যাংক।<br/>❏ সংগঠন ও পরিচালনা:<br/>❏ গ্রামীণ ব্যাংকের পরিচালনা পর্ষদে সদস্যদের একটি বড় অংশ ঋণগ্রহীতা সদস্যদের মধ্য থেকে নির্বাচিত হয়, যা তাদের অংশগ্রহণ ও স্বত্ব নিশ্চিত করে।<br/>❏ মালিকানা:<br/>❏ গ্রামীণ ব্যাংকের মালিকানা তার সদস্যদের হাতে রয়েছে। ১৯৯০ সালে গ্রামীণ ব্যাংক অধ্যাদেশ সংশোধনের মাধ্যমে ব্যাংকের মালিকানা বিন্যাস পরিবর্তন হয়, ফলে সরকারের মালিকানা ৬০% থেকে কমে ২৫% এবং ব্যাংকের সদস্যদের মালিকানা ৪০% থেকে বেড়ে ৭৫% হয়।<br/>❏ তবে, ২০১১ সালে ড. মুহাম্মদ ইউনূসের পদত্যাগের সময়, তিনি উল্লেখ করেন যে, তখন গ্রামীণ ব্যাংকের ৯৭% মালিকানা সদস্যদের হাতে ছিল।<br/>❏ বর্তমান চেয়ারম্যান:<br/>❏ ড. আব্দুল হান্নান চৌধুরী। যোগদানের তারিখ: ২৪.০৯.২০২৪",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333191,
+    "question": "বাংলাদেশ সাধারণত যে ধরণের বাজেট প্রবর্তন করে -",
+    "options": [
+      "সম্পূরক বাজেট",
+      "ঘাটতি বাজেট",
+      "সুষম বাজেট",
+      "উদ্বৃত্ত বাজেট"
+    ],
+    "correct_answer": "ঘাটতি বাজেট",
+    "explanation": "<p>বাংলাদেশের আয় (Revenue) সাধারণত ব্যয়ের (Expenditure) চেয়ে কম হয়। তাই প্রতি বছর সরকারের ব্যয় পূরণে একটি নির্দিষ্ট অংশ ঘাটতি থাকে—যা পূরণ করা হয়:</p><br/><p><span style=\"font-size: 1rem;\">অভ্যন্তরীণ ঋণ (ব্যাংক ও নন-ব্যাংক উৎস)</span></p><br/><p><span style=\"font-size: 1rem;\">বৈদেশিক ঋণ ও সাহায্য</span></p><br/><p><span style=\"font-size: 1rem;\">✔ বাজেটের ধরন (বাংলাদেশে যেসব বাজেট দেখা যায়):</span></p><br/><p><span style=\"font-size: 1rem;\">ঘাটতি বাজেট</span></p><br/><p>👉 আয় &lt; ব্যয়</p><br/><p>👉 বাংলাদেশে সবচেয়ে প্রচলিত।</p><br/><p><span style=\"font-size: 1rem;\">সমতান বাজেট (Balanced Budget)</span></p><br/><p>👉 আয় = ব্যয়</p><br/><p>👉 বাংলাদেশে সাধারণত হয় না।</p><br/><p><span style=\"font-size: 1rem;\">অধিক্য বাজেট (Surplus Budget)</span></p><br/><p>👉 আয় &gt; ব্যয়</p><br/><p>👉 বাংলাদেশে হয় না, অর্থনীতি ও উন্নয়ন পরিকল্পনার কারণে।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333192,
+    "question": "পৃথিবীর গভীরতম স্থান কোন মহাসাগরে?",
+    "options": [
+      "ভারত মহাসাগর",
+      "আটলান্টিক মহাসাগর",
+      "প্রশান্ত মহাসাগর",
+      "উত্তর মহাসাগর"
+    ],
+    "correct_answer": "প্রশান্ত মহাসাগর",
+    "explanation": "📖 পৃথিবীর গভীরতম স্থান 'মারিয়ানা ট্রেঞ্চ' (চ্যালেঞ্জার ডিপ) প্রশান্ত মহাসাগরে অবস্থিত। এর গভীরতা প্রায় ১১ কিলোমিটার।<br/> ⇢ <br/>⛳ <b>মারিয়ানা ট্রেঞ্জ (Mariana Trench):</b><br/>▣ মারিয়ানা ট্রেঞ্জ হচ্ছে - <b>বিশ্বের গভীরতম স্থান।</b><br/>▣ এর অবস্থান হাওয়াই দ্বীপপুঞ্জ ও ফিলিপাইনের মধ্যবর্তী প্রশান্ত মহাসাগরে।<br/>▣ এর নামকরণ করা হয় নিকটবর্তী মারিয়ানা দ্বীপ ও অস্ট্রিয়ার তৎকালীন রানী মারিয়ানার নামে।<br/>▣ মারিয়ানা ট্রেঞ্জের গভীরতা মাপার উদ্যোগ নেয়া হয় ১৮৭৫ সালে।<br/>▣ তৎকালীন ব্রিটিশ জরিপ পরিচালনাকারী জাহাজ - HMS Challenger। তখন গভীরতা নির্ণয় করা হয় - ২৬,৮৫০ ফুট।<br/>▣ পরবর্তীতে আরো কয়েকদফা মাপার পর ২০১০ সালে এর সর্বোচ্চ গভীরতা মাপা হয় - ৩৬,০৭০ ফুট। বর্তমানে এই গভীরতাই গ্রহণযোগ্য।<br/>▣ এর গভীরতম অংশকে Challenger Deep বলা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333193,
+    "question": "লালবাগের কেল্লা স্থাপন করেন কে?",
+    "options": [
+      "শায়েস্তা খান",
+      "শাহ সুজা",
+      "টিপু সুলতান",
+      "ইসলাম খান"
+    ],
+    "correct_answer": "শায়েস্তা খান",
+    "explanation": "📖 লালবাগ কেল্লার নির্মাণ কাজ শুরু করেন যুবরাজ মুহাম্মদ আজম (১৬৭৮ সালে)। পরবর্তীতে শায়েস্তা খান এর কাজ এগিয়ে নেন, যদিও তা অসম্পূর্ণ থেকে যায়। অপশনে আজম শাহ না থাকায় এবং শায়েস্তা খানের দীর্ঘ সম্পৃক্ততার কারণে শায়েস্তা খান সঠিক উত্তর।<br/> ⇢ <br/>⛳ লালবাগ কেল্লা: <br/>❏ লালবাগ কেল্লার নাম ছিল কেল্লা আওরঙ্গবাদ বা আওরঙ্গবাদ দুর্গ। <br/>❏ এই কেল্লার নকশা করেন শাহ আজম। <br/>❏ মোগল সম্রাট আওরঙ্গজেব-এর ৩য় পুত্র আজম শাহ ১৬৭৮ খ্রিস্টাব্দে ঢাকার সুবেদারের বাসস্থান হিসেবে এ দুর্গের নির্মাণ কাজ শুরু করেন। <br/>❏ নবাব শায়েস্তা খাঁ ১৬৮০ সালে ঢাকায় এসে পুনরায় দুর্গের নির্মাণকাজ শুরু করেন। <br/>❏ শায়েস্তা খানের কন্যা পরী বিবির মৃত্যুর পর শায়েস্তা খান ১৬৮৪ খ্রিস্টাব্দে এর নির্মাণ বন্ধ করে দেন। <br/>❏ পরী বিবিকে দরবার হল এবং মসজিদের ঠিক মাঝখানে সমাহিত করা হয়। <br/>❏ ১৮৪৪ সালে ঢাকা কমিটি নামে একটি আধা-সরকারি প্রতিষ্ঠান দুর্গের উন্নয়ন কাজ শুরু করে। <br/>❏ এ সময় দুর্গটি লালবাগ দুর্গ নামে পরিচিতি লাভ করে। <br/>❏ ১৯১০ সালে লালবাগ দুর্গের প্রাচীর সংরক্ষিত স্থাপত্য হিসেবে প্রত্নতত্ত্ব বিভাগের অধীনে আনা হয়। <br/>❏ এটি মোগল আমল এর একটি চমৎকার নিদর্শন। <br/>▣উল্লেখ্য, <br/>❏ পরী বিবির আসল নাম ইরান দুখত রেহমত বানু।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333194,
+    "question": "ভূমি মন্ত্রণালয় কোথায় অবস্থিত?",
+    "options": [
+      "তেজগাঁও, ঢাকা",
+      "আগারগাঁও, ঢাকা",
+      "দিলকুশা, ঢাকা",
+      "বাংলাদেশ সচিবালয়, ঢাকা"
+    ],
+    "correct_answer": "বাংলাদেশ সচিবালয়, ঢাকা",
+    "explanation": "<p>অবস্থান: বাংলাদেশ সচিবালয়।</p><br/><p>ঠিকানা: ভূমি মন্ত্রণালয় ভবন-৪, ৩য় তলা, বাংলাদেশ সচিবালয়, ঢাকা-১০০০।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333195,
+    "question": "সম্রাট শাহজাহানের কোন পুত্র বাংলার শাসনকর্তা ছিলেন?",
+    "options": [
+      "দারা",
+      "শাহ সুজা",
+      "মুরাদ",
+      "আওরঙ্গজেৰ"
+    ],
+    "correct_answer": "শাহ সুজা",
+    "explanation": "📖 সম্রাট শাহজাহানের দ্বিতীয় পুত্র শাহ সুজা দীর্ঘ সময় (১৬৩৯-১৬৬০) বাংলার সুবাদার বা শাসনকর্তা ছিলেন।<br/> ⇢ <br/>⛳ শাহ সুজা ঢাকার বড় কাটরা নির্মাণ করেন। পরবর্তীতে উত্তরাধিকারের যুদ্ধে তিনি ভাই আওরঙ্গজেবের কাছে পরাজিত হয়ে আরাকানে পালিয়ে যান এবং সেখানেই নিহত হন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333196,
+    "question": "নারী ও শিশু নির্যাতন প্রতিরোধে নতুন হেল্পলাইন নাম্বার কত?",
+    "options": [
+      "১০৩",
+      "৯৯৯",
+      "২০৬",
+      "১০৯"
+    ],
+    "correct_answer": "১০৯",
+    "explanation": "📖 নারী ও শিশু নির্যাতন প্রতিরোধে জাতীয় হেল্পলাইন নম্বর ১০৯ (পূর্বের ১০৯২১)। এটি টোল ফ্রি এবং ২৪ ঘণ্টা খোলা থাকে।<br/> ⇢ <br/>⛳ ⛳ সরকারের গুরুত্বপূর্ণ হেল্পলাইন<br/>❏ নোট: ৯৯৯ নম্বরে ফোন করে পুলিশ, ফায়ার সার্ভিস ও অ্যাম্বুলেন্স সেবা কিংবা এ-সংক্রান্ত তথ্য পাওয়া যাবে।<br/>❏ নম্বর ➺ সেবার ধরন<br/>❏ ১০২ ➺ ফায়ার সার্ভিস [১৬১৬৩ বন্ধ হয়ে যাবে]<br/>❏ ১০৫ ➺ জাতীয় পরিচয়পত্র তথ্য***<br/>❏ ১০৬ ➺ দুদক (দুর্নীতি দমন কমিশন)<br/>❏ ১০৯/১০৯২১ ➺ নারী ও শিশু নির্যাতন প্রতিরোধ***<br/>❏ ১৩১ ➺ বাংলাদেশ রেলওয়ে কল সেন্টার<br/>❏ ৩৩৩ ➺ সরকারি তথ্য ও সেবা***<br/>❏ ৯৯৯ ➺ জাতীয় জরুরি সেবা***<br/>❏ ১০৯০/১০৯৪১ ➺ দুর্যোগের আগাম বার্তা<br/>❏ ১০৯৮ ➺ শিশু সহায়তা***<br/>❏ ৩৩৩১ ➺ কৃষক বন্ধু ফোন সেবা<br/>❏ ১০৬৫৫ ➺ IEDCR<br/>❏ ১০৯২২ ➺ মহিলা সংস্থা বা তথ্য আপা***<br/>❏ ১৬১০৮ ➺ জাতীয় মানবাধিকার কমিশন<br/>❏ ১৬১২১ ➺ ভোক্তা অধিকার<br/>❏ ১৬১২২ ➺ ভূমি সংক্রান্ত সেবা<br/>❏ ১৬১২৩ ➺ কৃষি কল সেন্টার<br/>❏ ১৬১৩৫ ➺ প্রবাস বন্ধু কল সেন্টার<br/>❏ ১৬১৫২ ➺ জন্ম ও মৃত্যু নিবন্ধন***<br/>❏ ১৬১৫৫ ➺ নিরাপদ খাদ্য কর্তৃপক্ষ<br/>❏ ১৬২৩৬ ➺ বাংলাদেশ ব্যাংক<br/>❏ ১৬২৬৩ ➺ স্বাস্থ্য বাতায়ন***<br/>❏ ১৬৪৩০ ➺ সরকারি আইন সেবা***<br/>❏ ১৬৭৬৭ ➺ সুখী পরিবার কল সেন্টার<br/>❏ ১৬৫৫৫ ➺ ভ্যাট তথ্য",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333197,
+    "question": "বিশ্বে কাঁঠাল উৎপাদনে শীর্ষ দেশ কোনটি?",
+    "options": [
+      "বাংলাদেশ",
+      "ব্রাজিল",
+      "ভারত",
+      "কাজাখাস্তান"
+    ],
+    "correct_answer": "ভারত",
+    "explanation": "📖 কাঁঠাল উৎপাদনে বিশ্বে শীর্ষ দেশ ভারত। বাংলাদেশ দ্বিতীয় অবস্থানে রয়েছে। তবে কাঁঠাল বাংলাদেশের জাতীয় ফল।<br/> ⇢ <br/>⛳ কাঁঠালের বৈজ্ঞানিক নাম Artocarpus heterophyllus। <br/>❏ 📊 Food Outlook<br/>❏ প্রকাশ: জুন ২০২৫<br/>❏ প্রকাশক: জাতিসংঘের খাদ্য ও কৃষি সংস্থা (FAO)।<br/>❏ প্রতিবেদনের শিরোনাম: Food Outlook 2025।<br/>❏ প্রতিবেদন অনুযায়ী শীর্ষ দেশ-<br/>❏ গম উৎপাদন শীর্ষ দেশ ➺ চীন<br/>❏ ভুট্টা উৎপাদন শীর্ষ দেশ ➺ যুক্তরাষ্ট্র<br/>❏ ধান উৎপাদন শীর্ষ দেশ ➺ ভারত<br/>❏ চিনি উৎপাদন শীর্ষ দেশ ➺ ব্রাজিল<br/> ⇢ <br/>⛳ ⛳ বিশ্বে বাংলাদেশ<br/>❏ ১ম ➺ ইলিশ উৎপাদনে<br/>❏ ২য় ➺ মিঠা পানির মাছ, কাঁঠাল, পাট উৎপাদনে<br/>❏ ৩য় ➺ ধান উৎপাদনে<br/>❏ ৪র্থ ➺ তেলাপিয়া উৎপাদনে<br/>❏ ৫ম ➺ চাষযোগ্য মাছ উৎপাদনে<br/>❏ ৭ম ➺ আলু উৎপাদনে<br/>❏ ৮ম ➺ আম, পেয়ারা, চা উৎপাদনে",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333198,
+    "question": "বঙ্গভঙ্গের ফলে কোন নতুন প্রদেশ সৃষ্টি হয়েছিল?",
+    "options": [
+      "পূর্ববঙ্গ ও বিহার",
+      "পূর্ববঙ্গ ও আসাম",
+      "পূর্ববঙ্গ ও উড়িষ্যা",
+      "পূর্ববঙ্গ ও পশ্চিমবঙ্গ"
+    ],
+    "correct_answer": "পূর্ববঙ্গ ও আসাম",
+    "explanation": "📖 ১৯০৫ সালে বঙ্গভঙ্গের ফলে 'পূর্ববঙ্গ ও আসাম' নামে নতুন প্রদেশ গঠিত হয়। এর রাজধানী ছিল ঢাকা।<br/> ⇢ <br/>⛳ নতুন এই প্রদেশের প্রথম লেফটেন্যান্ট গভর্নর ছিলেন ব্যামফিল্ড ফুলার। ১৯১১ সালে প্রবল আন্দোলনের মুখে বঙ্গভঙ্গ রদ করা হয়।<br/>❏ ১৯০৫ সালের ১৬ অক্টোবর ভারতের বড়লাট লর্ড কার্জনের এক ঘোষণার মাধ্যমে \\\"বঙ্গভঙ্গ\\\" হয়। এই পরিকল্পনায় বাংলাদেশের ঢাকা, চট্টগ্রাম, রাজশাহী, আসাম, জলপাইগুড়ি, পার্বত্য ত্রিপুরা এবং মালদহ নিয়ে গঠিত হয় পূর্ব বাংলা ও আসাম নামে নতুন প্রদেশ। প্রদেশের রাজধানী হয় ঢাকা। অপরপক্ষে পশ্চিম বাংলা, বিহার, উড়িষ্যা নিয়ে গঠিত হয় পশ্চিম বাংলা প্রদেশ, যার রাজধানী হয় কলকাতা।<br/> ⇢ <br/>⛳ বঙ্গভঙ্গ:<br/>❏ ১৯০৫ সালের ১ সেপ্টেম্বর বঙ্গভঙ্গের ঘোষণা করা হয় এবং ১৫ অক্টোবর থেকে তা কার্যকর হয়।<br/>❏ এটি ভারতীয় উপমহাদেশের জাতীয়তাবাদ ও জাতীয়তাবাদী আন্দোলনের ইতিহাসে একটি গুরুত্বপূর্ণ ঘটনা।<br/>❏ এ বঙ্গভঙ্গকে পূর্ববাংলার মুসলমান সম্প্রদায় আশীর্বাদ বলে স্বাগত জানায়।<br/>❏ কিন্তু হিন্দু জনগণ বিশেষ করে বুদ্ধিজীবী ও রাজনৈতিক নেতারা এটিকে কোনভাবেই মেনে নেয় নি।<br/>❏ তারা নানারকম ষড়যন্ত্র করতে থাকে। তাদের এ আন্দোলন সহিংস রূপ ধারণ করে।<br/>❏ ফলে তাদের এ চাপের মুখে পড়ে ব্রিটিশ সরকার বঙ্গভঙ্গ রদ করতে বাধ্য হয়।<br/>❏ এবং পুনরায় পূর্ববঙ্গকে পশ্চিমবঙ্গের সাথে একত্রিত করা হয়। এটিই মূলত বঙ্গভঙ্গ রদ।<br/>❆ <br/>▣ বঙ্গভঙ্গ রদ:<br/>❏ <b> ১৯১১ সালের ১২ ডিসেম্বর সম্রাট পঞ্চম জর্জ দিল্লিতে অনুষ্ঠিত অভিষেক অনুষ্ঠানে বঙ্গভঙ্গ রদের কথা ঘোষণা করেন।</b><br/>❏ এবং পূর্ববঙ্গকে পশ্চিমবঙ্গের সাথে পুনরায় এক করেন।<br/>❆ <br/>▣ বঙ্গভঙ্গ রদের ফলাফল:<br/>❏ বঙ্গভঙ্গ রদের ফলে ভারতীয় উপমহাদেশে হিন্দু ➟ মুসলমানদের সম্প্রতি নষ্ট হয়। সাম্প্রদায়িকতা ও স্বাতন্ত্র্যবোধ প্রসার লাভ করে।<br/>❏ ধর্মকেন্দ্রিক জাতীয়তার বীজ অঙ্কুরিত হয়।<br/>❏ মুসলমানদের মাঝে রাজনৈতিক সচেতনতা বৃদ্ধি পায়।<br/>❏ তারা বুঝতে পারে যে আপস নয় বরং সংগ্রামের পথেই উন্নতি ও স্বাধীনতার পথে তাদেরকে আগাতে হবে।<br/>❏ অর্থাৎ মুসলমানগণ তাদের রাজনৈতিক স্বার্থ সংরক্ষণে আরও তৎপর হয়ে উঠতে থাকে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333199,
+    "question": "কোনটি ভূমি রেকর্ড ও জরিপ অধিদপ্তরের কাজ নয়?",
+    "options": [
+      "জমির ম্যাপ প্রস্তুতকরণ",
+      "জমির মূল রেকর্ড প্রস্তুতকরণ",
+      "সীমানা বিরোধ নিষ্পত্তিকরণ",
+      "নামজারিকরণ"
+    ],
+    "correct_answer": "নামজারিকরণ",
+    "explanation": "📖 নামজারিকরণ (Mutation) বা জমা-খারিজ করার দায়িত্ব সহকারী কমিশনার (ভূমি) অফিসের। ভূমি রেকর্ড ও জরিপ অধিদপ্তর মূলত জরিপ পরিচালনা, ম্যাপ ও খতিয়ান প্রস্তুত ও মুদ্রণের কাজ করে।<br/> ⇢ <br/>⛳ ভূমি রেকর্ড ও জরিপ অধিদপ্তর (DLRS) মূলত ক্যাডাস্ট্রাল সার্ভে (CS, SA, RS, BS) পরিচালনা করে। নামজারি হলো মালিকানা পরিবর্তনের পর খতিয়ান হালনাগাদ করার প্রক্রিয়া, যা উপজেলা ভূমি অফিসে সম্পন্ন হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333200,
+    "question": "বসফরাস প্রণালী কোথায় অবস্থিত?",
+    "options": [
+      "দক্ষিণ আফ্রিকা",
+      "রাশিয়া",
+      "ইরান",
+      "তুরস্ক"
+    ],
+    "correct_answer": "তুরস্ক",
+    "explanation": "📖 বসফরাস প্রণালী তুরস্কে অবস্থিত। এটি এশিয়া ও ইউরোপকে পৃথক করেছে এবং কৃষ্ণ সাগর ও মর্মর সাগরকে সংযুক্ত করেছে।<br/> ⇢ <br/>⛳ ❏ বিভিন্ন মহাদেশের গুরুত্বপূর্ণ প্রনালীসমূহ (↔ বিচ্ছিন্ন করেছে + যুক্ত করেছে )<br/>❏ বিশ্বের গুরুত্বপূর্ণ প্রণালী তালিকা ( List of the Major Straits of the World )<br/>❏ প্রণালী গুলি মহাদেশ ভিত্তিক ভাগ করে দেওয়া হয়েছে যাতে মনে রাখতে ও বুঝতে হয়!<br/>❏ প্রণালী হলো প্রাকৃতিক ভাবে গঠিত সরু ও সাধারণত নাব্যযোগ্য জলপথ যা দুটি বৃহত্তর জলাধারের সাথে সংযোগ স্থাপন করে। বেশিরভাগ ক্ষেত্রে প্রণালী হলো জলের একটি চ্যানেল যা দুটি স্থলভাগের মধ্যে অবস্থিত।<br/>▣ এশিয়া মহাদেশের বিভিন্ন প্রণালী<br/>❏ বেরিং প্রণালী ↔ বিচ্ছিন্ন করেছে:- এশিয়া ও উত্তর আমেরিকা ➺ যুক্ত করেছে:- পূর্ব সাইবেরিয়া সাগর ও বেরিং সাগর<br/>❏ কোরিয়া প্রণালী ↔ বিচ্ছিন্ন করেছে:- দক্ষিন কোরীয়া ও কিয়ুশু (জাপান ) ➺ যুক্ত করেছে:- জাপান সাগর ও পীত সাগর<br/>❏ তাতার প্রণালী ↔ বিচ্ছিন্ন করেছে:- পূর্ব রাশিয়া ও সাখালিন ➺ যুক্ত করেছে:- ওখটক্স সাগর ও জাপান সাগর<br/>❏ তাইওয়ান প্রণালী ↔ বিচ্ছিন্ন করেছে:- তাইওয়ান ও এশিয়া ভূখন্ড ➺ যুক্ত করেছে:- পূর্ব চীন ও উত্তর চীন সাগর<br/>❏ হর্মুজ প্রণালী ↔ বিচ্ছিন্ন করেছে:- সংযুক্ত আরব আমিরশাহি ও ইরান ➺ যুক্ত করেছে:- ওমান উপসাগর ও পারস্য উপসাগর<br/>❏ মালাক্কা প্রনালী ↔ বিচ্ছিন্ন করেছে:- মালয় উপদ্বীপ ও সুমাত্রা ➺ যুক্ত করেছে:- জাভা সাগর ও বঙ্গোপসাগর<br/>❏ সুন্ডা প্রণালী ↔ বিচ্ছিন্ন করেছে:- জাভা ও সুমাত্রা ➺ যুক্ত করেছে:- জাভা সাগর ও ভারত মহাসাগর<br/>❏ মাকাসার প্রনালী ↔ বিচ্ছিন্ন করেছে:- বোর্নিও ও সেলেবস দ্বীপ পুঞ্জ ➺ যুক্ত করেছে:- সেলেবস সাগর ও জাভা সাগর<br/>❏ লাজোন প্রণালী ↔ বিচ্ছিন্ন করেছে:- তাইওয়ান ও ফিলিপিন্স ➺ যুক্ত করেছে:- দক্ষীণ চীন সাগর ও প্রশান্ত মহাসাগর<br/>❏ লে পেরুজ প্রণালী ↔ বিচ্ছিন্ন করেছে:- সাখালিন দ্বীপপুঞ্জ ও হোক্কাইডো দ্বীপপুঞ্জ ➺ যুক্ত করেছে:- ওখটক্স সাগর ও জাপান সাগর<br/>❏ ফার্মোসা প্রনালী ↔ বিচ্ছিন্ন করেছে:- তাইওয়ান ও চীন ➺ যুক্ত করেছে:- পূর্ব চিনসাগর ও দক্ষিণ চীন সাগর<br/>❏ বসফরাস প্রণালী ↔ বিচ্ছিন্ন করেছে:- এশিয়া ও ইউরোপ ➺ যুক্ত করেছে:- কৃষ্ণসাগর ও মার্মারা সাগর<br/>❏ দার্দেনালিস প্রণালী ↔ বিচ্ছিন্ন করেছে:- এশিয়া ও ইউরোপ ➺ যুক্ত করেছে:- ভূমধ্যসাগর ও মার্মারা সাগর<br/>❏ পক প্রণালী ↔ বিচ্ছিন্ন করেছে:- ভারত ও শ্রীলংকা ➺ যুক্ত করেছে:- বঙ্গোপসাগর ও আরবসাগর<br/>▣ ইউরোপ মহাদেশের বিভিন্ন প্রণালী<br/>❏ সিসিলি প্রণালী ↔ বিচ্ছিন্ন করেছে:- সিসিলি দ্বীপপুঞ্জ ও তিউনেশিয়া ➺ যুক্ত করেছে:- পশ্চিম ও পূর্ব ভূমধ্যসাগর<br/>❏ ওটরান্টো প্রণালী ↔ বিচ্ছিন্ন করেছে:- অ্যাড্রিয়াটিক ও গ্রেট ব্রিটেন ➺ যুক্ত করেছে:- ইতালি ও আলবেনিয়া<br/>❏ কর্ফু প্রণালী ↔ বিচ্ছিন্ন করেছে:- আলবেনিয়া ও গ্রিস ➺ যুক্ত করেছে:- অ্যাড্রিয়াটিক সাগর ও আয়োনিয়ান সাগর<br/>❏ জিব্রাল্টার প্রণালী ↔ বিচ্ছিন্ন করেছে:- ইউরোপ ও আফ্রিকা ➺ যুক্ত করেছে:- ভূমধ্যসাগর ও আটলান্টিক মহাসাগর<br/>❏ বনিফেসিয়ো প্রণালী ↔ বিচ্ছিন্ন করেছে:- সার্ডিনিয়া দ্বীপ (ইটালি) ও কার্সিকা (ফ্রান্স ) ➺ যুক্ত করেছে:- টিরেনিয়ান সাগর ও ভূমধ্যসাগর<br/>❏ মেসিনা প্রণালী ↔ বিচ্ছিন্ন করেছে:- সিসিলি ও ইতালির মূল ভূখণ্ড ➺ যুক্ত করেছে:- টিরেনিয়ান সাগর ও ভূমধ্যসাগর<br/>❏ বসফরাস প্রণালী ↔ বিচ্ছিন্ন করেছে:- এশিয়া ও ইউরোপ ➺ যুক্ত করেছে:- কৃষ্ণসাগর ও মার্মারা সাগর<br/>❏ কার্চ প্রণালী ↔ বিচ্ছিন্ন করেছে:- কার্চ (ইউক্রেন ) ও রাশিয়া ➺ যুক্ত করেছে:- অ্যাজোভ সাগর ও কৃষ্ণসাগর<br/>❏ ডোভার প্রণালী ↔ বিচ্ছিন্ন করেছে:- ফ্রান্স ও ইংল্যান্ড ➺ যুক্ত করেছে:- ইংলিশ চ্যানেল ও উত্তর সাগর<br/>▣ আফ্রিকা মহাদেশের বিভিন্ন প্রণালী<br/>❏ জিব্রাল্টার প্রণালী ↔ বিচ্ছিন্ন করেছে:- ইউরোপ (স্পেইন ) ও আফ্রিকা (মরোক্কো ) ➺ যুক্ত করেছে:- ভূমধ্যসাগর ও আটলান্টিক মহাসাগর<br/>❏ বব-এল মানডেব প্রণালী ↔ বিচ্ছিন্ন করেছে:- সোমালিয়া ও ইয়েমেন ➺ যুক্ত করেছে:- লোহিত সাগর ও ইডেন উপসাগর<br/>❏ পেম্বা প্রণালী ↔ বিচ্ছিন্ন করেছে:- আফ্রিকার মূল ভূখণ্ড ও পেম্বা দ্বীপপুঞ্জ ➺ যুক্ত করেছে:- ভারত মহাসাগরের মধ্যে অবস্থিত<br/>❏ মোজাম্বিক প্রণালী ↔ বিচ্ছিন্ন করেছে:- মাদাগাস্কার ও মোজাম্বিক ➺ যুক্ত করেছে:- ভারত মহাসাগরের মধ্যে অবস্থিত<br/>❏ টিরান প্রণালী ↔ বিচ্ছিন্ন করেছে:- আরব ও সিনাই ➺ যুক্ত করেছে:- লোহিতসাগর ও আকাবা উপসাগর<br/>❏ জাঞ্জিবার প্রণালী ↔ বিচ্ছিন্ন করেছে:- জাঞ্জিবার ও তানজানিয়া ➺ যুক্ত করেছে:- ভূমধ্যসাগর ও ট্রেনিয়ান সাগর<br/>▣ উত্তর আমেরিকার বিভিন্ন প্রণালী<br/>❏ ডেভিস প্রণালী ↔ বিচ্ছিন্ন করেছে:- গ্রীনল্যান্ড ও কানাডা ➺ যুক্ত করেছে:- বাফিন বে ও ল্যাব্রাডার সাগর<br/>❏ হাডসন প্রণালী ↔ বিচ্ছিন্ন করেছে:- ব্যাফিন দ্বীপপুঞ্জ ও উনজাভা উপদ্বীপ ➺ যুক্ত করেছে:- হাডসন উপসাগর ও ল্যাব্রাডার সাগর<br/>❏ বেরিং প্রণালী ↔ বিচ্ছিন্ন করেছে:- এশিয়া ও উত্তর আমেরিকা ➺ যুক্ত করেছে:- উত্তর মহাসাগর (পূর্ব সাইবেরিয়া সাগর ) ও প্রশান্ত মহাসাগর (বেরিং সাগর )<br/>❏ ফ্লোরিডা প্রণালী ↔ বিচ্ছিন্ন করেছে:- কিউবা ও ফ্লোরিডা দ্বীপপুঞ্জ ➺ যুক্ত করেছে:- আটলান্টিক মহাসাগর ও মেক্সিকো উপসাগর<br/>❏ ইউকাটান প্রণালী ↔ বিচ্ছিন্ন করেছে:- মেক্সিকো ও কিউবা ➺ যুক্ত করেছে:- মেক্সিকো উপসাগর ও ক্যারিবিয়ান সাগর<br/>▣ দক্ষিণ আমেরিকার বিভিন্ন প্রণালী<br/>❏ লা মেরি প্রণালী ↔ বিচ্ছিন্ন করেছে:- আর্জেন্টিনা ও এসটাডোস দ্বীপ ➺ যুক্ত করেছে:- আটলান্টিক মহাসাগরের মধ্যে অবস্থিত<br/>❏ ম্যাজেলান প্রণালী ↔ বিচ্ছিন্ন করেছে:- দক্ষিণ আমেরিকার মূলভূখণ্ড ও ফকল্যান্ড দ্বীপপুঞ্জ ➺ যুক্ত করেছে:- আটলান্টিক মহাসাগর ও প্রশান্ত মহাসাগর<br/>❏ কলম্বাস প্রণালী ↔ বিচ্ছিন্ন করেছে:- ত্রিনিদাদ এন্ড টোবাকো ও ভেনেজুয়েলা ➺ যুক্ত করেছে:- পারিয়া উপসাগর ও আটলান্টিক মহাসাগর<br/>▣ ওশিয়ানিয়া মহাদেশের বিভিন্ন প্রণালী<br/>❏ বস প্রণালী ↔ বিচ্ছিন্ন করেছে:- অস্ট্রেলিয়া ও তাসমানিয়া ➺ যুক্ত করেছে:- ভারত মহাসাগর ও তাসমান সাগর<br/>❏ টরেস প্রণালী ↔ বিচ্ছিন্ন করেছে:- অস্ট্রেলিয়া ও পাপুয়া নিউগিনি ➺ যুক্ত করেছে:- কোরাল সাগর ও আরাফুরা সাগর<br/>❏ কুক প্রণালী ↔ বিচ্ছিন্ন করেছে:- উত্তর ও দক্ষিণ নিউজিল্যান্ড ➺ যুক্ত করেছে:- তাসমান সাগর ও প্রশান্ত মহাসাগর<br/>❏ কোডিয়াসক প্রণালী ↔ বিচ্ছিন্ন করেছে:- স্টিয়ার্ট আইল্যান্ড ও সাউথ আইল্যান্ড (নিউজিল্যান্ড ) ➺ যুক্ত করেছে:- প্রশান্ত মহাসাগরের মধ্যে অবস্থিত<br/>❏ বসফরাস প্রণালী ➺ পৃথিবীর সবচেয়ে সংকীর্ণ জাহাজ চলাচলের উপযোগী প্রণালী।<br/>❏ জিব্রাল্টার প্রণালীকে ➺ প্রাচীনকালে হারকিউলিসের থাম(Pillars of Hercules) বলা হত।<br/>❏ জিব্রাল্টার প্রণালীতে ➺ পৃথিবীতে সবচেয়ে বেশি আন্তর্জাতিক পণ্য পরিবহনকারী জাহাজ চলাচল করে।<br/>❏ পৃথিবীর দীর্ঘতম প্রণালী হলো ➺ মালাক্কা প্রণালী।<br/>❏ পৃথিবীর সবথেকে প্রশস্ত প্রণালী হলো ➺ ডেনমার্ক প্রণালী।<br/>❏ পৃথিবীর সবথেকে অগভীর প্রণালী হলো ➺ সুন্দা প্রণালী।<br/>❏ এশিয়া থেকে আফ্রিকাকে পৃথক করেছে: ➺ বাব এল মানদেব প্রণালি<br/>❏ ইউরোপ থেকে আফ্রিকাকে পৃথক করেছে: ➺ জিব্রাল্টার প্রণালি।<br/>❏ ইউরোপ থেকে এশিয়াকে পৃথক করেছে: ➺ বসফরাস প্রণালি ও দার্দেনেলিস প্রণালি<br/>❏ সুমাত্রা থেকে জাভাকে পৃথক করেছে: ➺ সুন্দা প্রণালি।<br/>❏ সুমাত্রা থেকে মালয়েশিয়াকে পৃথক করেছে ➺ মালাক্কা প্রণালি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333201,
+    "question": "ABACUS কোন দেশে আবিষ্কৃত হয়েছিল",
+    "options": [
+      "যুক্তরাষ্ট্র",
+      "চীন",
+      "জাপান",
+      "কোরিয়া"
+    ],
+    "correct_answer": "চীন",
+    "explanation": "📖 অ্যাবাকাস হলো গণনার প্রাচীনতম যন্ত্র। এটি খ্রিস্টপূর্ব ৩০০০ অব্দে ব্যাবিলনে আবিষ্কৃত হয় বলে ধারণা করা হয়, তবে চীনকে এর আধুনিক রূপের জনক ও ব্যবহারকারী হিসেবে ধরা হয়।<br/> ⇢ <br/>⛳ অ্যাবাকাস একটি কাঠের ফ্রেমে বসানো তারের ওপর পুঁতি সাজিয়ে তৈরি করা হয়। একে অনেক সময় 'প্রথম কম্পিউটার' বলা হয় কারণ এটি গাণিতিক হিসাব নিকাশের ভিত্তি স্থাপন করেছিল।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333202,
+    "question": "\"যুদ্ধই জীবন, যুদ্ধই সার্বজনীন\" - এটি কার উক্তি?",
+    "options": [
+      "সালজার",
+      "ফ্রাংকো",
+      "হিটলার",
+      "মুসোলিনি"
+    ],
+    "correct_answer": "হিটলার",
+    "explanation": "📖 উক্তিটি অ্যাডলফ হিটলারের। তার 'মাইন কাম্ফ' গ্রন্থে তিনি জীবনসংগ্রাম ও যুদ্ধের জয়গান গেয়েছেন।<br/> ⇢ <br/>⛳ হিটলার ও ফ্যাসিবাদী শাসকরা বিশ্বাস করতেন যে, যুদ্ধই জাতির শ্রেষ্ঠত্ব প্রমাণের একমাত্র উপায়। এই ধারণাটি 'Social Darwinism' বা সামাজিক ডারউইনবাদ থেকে প্রভাবিত, যেখানে \"Survival of the fittest\" তত্ত্বে বিশ্বাস করা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333203,
+    "question": "কোনটি ন্যাটোর সদস্য দেশ নয়?",
+    "options": [
+      "তুরস্ক",
+      "ইতালি",
+      "ইংল্যান্ড",
+      "সুইডেন"
+    ],
+    "correct_answer": "ইংল্যান্ড",
+    "explanation": "📖 ন্যাটো (NATO) একটি সামরিক জোট। ইংল্যান্ড কোনো স্বাধীন রাষ্ট্র হিসেবে ন্যাটোর সদস্য নয়, বরং 'যুক্তরাজ্য' (UK) ন্যাটোর প্রতিষ্ঠাতা সদস্য। ইংল্যান্ড যুক্তরাজ্যের একটি অংশ মাত্র। (সুইডেন ২০২৪ সালে ন্যাটোর সদস্যপদ লাভ করেছে)।<br/> ⇢ <br/>⛳ ❐ ন্যাটোর ৩৪তম সম্মেলন ➺ ২৪ - ২৫ জুনে নেদারল্যান্ডসের হেগ শহরে<br/>▣ NATO-এর পূর্ণরূপ কী? ➺ North Atlantic Treaty Organisation / উত্তর আটলান্টিক নিরাপত্তা জোট।<br/>❏ NATO এর প্রতিষ্ঠাকাল ➺ ৪এপ্রিল, ১৯৪৯ সাল (১৬,১৭,২১,৪১বিসিএস)<br/>▣ NATO কী ধরনের জোট? ➺ সামরিক সহযোগিতার জোট।<br/>▣ NATO-এর প্রতিষ্ঠাতা সদস্য সংখ্যা কত? ➺ ১২।<br/>▣ NATO-এর বর্তমান সদস্য সংখ্যা কত? ➺ ৩২।<br/>▣ NATO-এর সদর দপ্তর কোথায়? ➺ ব্রাসেলস, বেলজিয়াম।<br/>▣ বর্তমান NATO মহাসচিব কে? ➺ মার্ক রুটে।<br/>▣ NATO-এর মুসলিম দেশগুলো কোনগুলো? ➺ আলবেনিয়া ও তুরস্ক।<br/>▣ সর্বশেষ ৩২তম NATO সদস্য কোন দেশ? ➺ সুইডেন।<br/>▣ ন্যাটোর বর্তমান সদস্য দেশ- ৩২টি। ন্যাটোর সর্বশেষ দুটি সদস্য দেশ- ৩২তম সুইডেন ও ৩১তম ফিনল্যান্ড। (ন্যাটোভুক্ত মুসলিম সংখ্যাগরিষ্ঠ দেশ দুটি- তুরস্ক ও আলবেনিয়া। খেয়াল করুন- 'আলবেনিয়া' ইউরোপ মহাদেশের একটি দেশ। তবে, 'আলজেরিয়া' আফ্রিকা মহাদেশের একটি দেশ; 'আলজেরিয়া' ন্যাটোভুক্ত দেশ নয়। আবার, তুরস্ক ও আলবেনিয়া ন্যাটোভুক্ত দেশ হলেও ইউরোপীয় ইউনিয়নভুক্ত দেশ নয়। তারা কেবল ন্যাটোভুক্ত দেশ।)<br/> ⇢ <br/>⛳ NATO বা North Atlantic Treaty Organization, একটি আন্তর্জাতিক আঞ্চলিক সামরিক জোট, যা ১৯৪৯ সালে প্রতিষ্ঠিত হয়। এর মূল উদ্দেশ্য হলো সদস্য রাষ্ট্রগুলোর সামরিক ও রাজনৈতিক নিরাপত্তা নিশ্চিত করা, বিশেষ করে ইউরোপ ও উত্তর আমেরিকার দেশগুলোর মধ্যে।<br/>❏ প্রতিষ্ঠার প্রেক্ষাপট ও সময়কাল<br/>❏ - প্রতিষ্ঠা: ৪ এপ্রিল, ১৯৪৯<br/>❏ - চুক্তি: North Atlantic Treaty (ওয়াশিংটন চুক্তি)<br/>❏ - প্রেক্ষাপট: দ্বিতীয় বিশ্বযুদ্ধের পর সোভিয়েত ইউনিয়নের হুমকি মোকাবেলায় পশ্চিমা দেশগুলো একত্রিত হয়ে NATO গঠন করে।<br/>❏ সদর দপ্তর<br/>❏ - অবস্থান: ব্রাসেলস, বেলজিয়াম<br/>❏ - এখান থেকেই NATO-র রাজনৈতিক ও সামরিক সিদ্ধান্ত গ্রহণ করা হয়।<br/>❏ সিদ্ধান্ত গ্রহণ: ন্যাটোতে সিদ্ধান্ত গ্রহণ করা হয় 'সর্বসম্মতি'র নীতিতে।<br/>❏ NATO একটি সামরিক সহযোগিতার জোট যা প্রতিষ্ঠিত হয় ➺ ১৯৪৯ সালের ৪ এপ্রিল<br/>❏ ন্যাটো জোটভুক্ত দেশগুলোর পারস্পরিক সামরিক সহযোগিতা প্রদানে অঙ্গীকারবদ্ধ।<br/>❏ আটলান্টিক মহাসাগরের দুই পাড়ে অবস্থিত উত্তর আমেরিকার মার্কিন যুক্তরাষ্ট্র ও কানাডা এবং ইউরোপের অধিকাংশ দেশ এই জোটের সদস্য।<br/>❏ এশিয়ার একমাত্র দেশ হিসেবে এই জোটের সদস্য ➺ তুরস্কও<br/>❏ প্রতিষ্ঠাকালীন সদস্য ➺ ১২টি [যুক্তরাষ্ট্র, যুক্তরাজ্য, কানাডা, ফ্রান্স, ইতালি, বেলজিয়াম, নেদারল্যান্ডস, লুক্সেমবার্গ, নরওয়ে, ডেনমার্ক, আইসল্যান্ড, পর্তুগাল।]<br/>❏ বর্তমান সদস্য ➺ ৩২টি।<br/>❏ ন্যাটোর বর্তমান সদর দপ্তর ➺ বেলজিয়ামের ব্রাসেলসে।<br/>❏ সদস্য রাষ্ট্রগুলোর মধ্যে মুসলিম দেশ ➺ তুরস্ক ও আলবেনিয়াই<br/>❏ বর্তমানে ন্যাটো মহাসচিব হিসেবে দায়িত্ব পালন করছেন ➺ জেনস স্টলটেনবার্গ<br/>❏ ন্যাটো (NATO) কোন ধরনের জোট? ➺ সামরিক<br/>❏ NATO চুক্তির গুরুত্বপূর্ণ ধারা<br/>❏ Article 3 – প্রতিরক্ষা সক্ষমতা গড়ে তোলা<br/>❏ “সদস্য রাষ্ট্রগুলোকে নিজস্ব ও যৌথভাবে প্রতিরক্ষা সক্ষমতা গড়ে তুলতে হবে, যাতে তারা সশস্ত্র আক্রমণ প্রতিরোধ করতে পারে।”<br/>❏ Article 4 – পরামর্শ ও আলোচনা<br/>❏ “যদি কোনো সদস্য রাষ্ট্র মনে করে তার ভূখণ্ড, স্বাধীনতা বা নিরাপত্তা হুমকির মুখে, তাহলে সদস্যরা একত্রে আলোচনা করবে।” এটি আক্রমণের আগেই প্রতিরোধমূলক কূটনৈতিক পদক্ষেপের সুযোগ দেয়।<br/>❏ Article 5 – সম্মিলিত প্রতিরক্ষা (Collective Defense)<br/>❏ “এক বা একাধিক সদস্য রাষ্ট্রের ওপর আক্রমণ হলে, সেটিকে পুরো NATO-র ওপর আক্রমণ হিসেবে গণ্য করা হবে।”<br/>❏ এই ধারাটি ২০০১ সালের ৯/১১ হামলার পর প্রথমবার প্রয়োগ করা হয়।<br/>❏ অতিরিক্ত তথ্য<br/>❏ - NATO-র সদস্যদের মধ্যে যুক্তরাষ্ট্র, যুক্তরাজ্য, ও ফ্রান্স পারমাণবিক শক্তিধর।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333204,
+    "question": "‘দহগ্রাম’ ছিটমহল কোন জেলায় অবস্থিত?",
+    "options": [
+      "নীলফামারী",
+      "কুড়িগ্রাম",
+      "লালমনির হাট",
+      "দিনাজপুর"
+    ],
+    "correct_answer": "লালমনির হাট",
+    "explanation": "📖 দহগ্রাম-আঙ্গরপোতা ছিটমহলটি লালমনিরহাট জেলার পাটগ্রাম উপজেলায় অবস্থিত। এটি বাংলাদেশের সবচেয়ে বড় ছিটমহল ছিল <br/> ⇢ <br/>⛳ বাংলাদেশ ও ভারতের মধ্যে স্থল সীমান্ত চুক্তি অনুযায়ী ২০১৫ সালের ৩১ জুলাই দুই দেশের মধ্যে ছিটমহল বিনিময় হয়।<br/>❐ ভারত ও বাংলাদেশের মধ্যে অবস্থিত মোট ছিটমহলের সংখ্যা ছিলো ১৬২ টি।<br/>❐ বাংলাদেশের সীমানার মধ্যে ভারতের <b>১১১টি</b> ছিটমহল বাংলাদেশের সাথে এবং ভারতের ভূখন্ডের ভিতর বাংলাদেশের ৫১টি ছিটমহল ভারতের সাথে যুক্ত হয়।<br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333205,
+    "question": "শততম টেস্টে মুশফিকুর রহিম কত রানে আউট হন?",
+    "options": [
+      "১০০",
+      "৫০",
+      "১০৬",
+      "১১১"
+    ],
+    "correct_answer": "১০৬",
+    "explanation": "📖 বাংলাদেশের প্রথম ক্রিকেটার ও বিশ্বের ১১তম ক্রিকেটার হিসেবে শততম টেস্টে সেঞ্চুরির কীর্তি গড়েন --> মুশফিকুর রহিম। <br/> ⇢ <br/>⛳ শততম টেস্টে ইতিহাস গড়লেন মুশফিকুর রহিম! বাংলাদেশ ক্রিকেটের পথচলায় একের পর এক মাইলফলক যোগ করেছেন মিস্টার ডিপেন্ডেবল। আর নিজের ১০০তম ম্যাচে যেন লিখে ফেললেন নতুন অধ্যায়। ১ম ইনিংসে ১০৬ রান ২য় ইনিংসে ৫৩* রান। সেঞ্চুরি করার সম্ভাবনা ছিল কিন্তু বাংলাদেশ ঘোষণা করে দেন। <br/>❏ বাংলাদেশের প্রথম ক্রিকেটার হিসেবে টেস্টে ১০০ ম্যাচ খেললেন মুশফিক।<br/>❏ বিশ্বের মাত্র ১১তম ব্যাটসম্যান, যিনি নিজের শততম টেস্টে সেঞ্চুরি করলেন।<br/>❏ বিশ্বের একমাত্র খেলোয়াড়, যার শততম টেস্টে আছে সেঞ্চুরি + ফিফটি—এই কীর্তি অনন্য!<br/>❏ বাংলাদেশের হয়ে সবচেয়ে বেশি ম্যাচ সেরা—মোট ৮ বার।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333206,
+    "question": "বাংলা নববর্ষে ১লা বৈশাখ চালু করেন কে?",
+    "options": [
+      "লক্ষণ সেন",
+      "সম্রাট আকবর",
+      "বাবর",
+      "শের শাহ"
+    ],
+    "correct_answer": "সম্রাট আকবর",
+    "explanation": "📖 📝পহেলা বৈশাখ বাংলা সনের প্রথম দিন। এ দিনটি বাংলাদেশে নববর্ষ হিসেবে পালিত হয়। এটি বাঙালির একটি সর্বজনীন লোক উৎসব।<br/>❐ এক সময় নববর্ষ পালিত হতো আর্তব উৎসব বা ঋতুধর্মী উৎসব হিসেবে। তখন এর সঙ্গে ঘনিষ্ঠ সম্পর্ক ছিল কৃষির, কারণ কৃষিকাজ ছিল ঋতুনির্ভর।<br/>❐ এই কৃষিকাজের সুবিধার্থেই মুঘল <b>সম্রাট আকবর </b>১৫৮৪ খ্রিস্টাব্দের ১০/১১ মার্চ বাংলা সন প্রবর্তন করেন এবং তা কার্যকর হয় তাঁর সিংহাসন-আরোহণের সময় থেকে (৫ নভেম্বর ১৫৫৬)।<br/>❐ হিজরি চান্দ্রসন ও বাংলা সৌরসনকে ভিত্তি করে বাংলা সন প্রবর্তিত হয়।<br/>❐ নতুন সনটি প্রথমে ‘ফসলি সন’ নামে পরিচিত ছিল, পরে তা বঙ্গাব্দ নামে পরিচিত হয়।<br/><br/>❏ খাজনা আদায়ের সুবিধার্থে মোগল সম্রাট আকবর বাংলা সনের প্রবর্তন করেন এবং ১লা বৈশাখ পালন চালু করেন।<br/> ⇢ <br/>⛳ সম্রাট আকবর ১৫৮৪ খ্রিস্টাব্দে (৯৯২ হিজরি) 'তারিখ-ই-ইলাহী' নামে এই সন প্রবর্তন করেন, যা পরে বাংলা সন নামে পরিচিতি পায়। তাঁর রাজজ্যোতিষী ফতেহউল্লাহ সিরাজি সৌর ও হিজরি সনের সংমিশ্রণে এই সন তৈরি করেন।<br/> ⇢ <br/>⛳ <b>পহেলা বৈশাখ:</b><br/>▣ এক সময় নববর্ষ পালিত হতো আর্তব উৎসব বা ঋতুধর্মী উৎসব হিসেবে। <br/>▣ তখন এর সঙ্গে ঘনিষ্ঠ সম্পর্ক ছিল কৃষির, কারণ কৃষিকাজ ছিল ঋতুনির্ভর। <br/>▣ এই কৃষিকাজের সুবিধার্থেই মুগল সম্রাট আকবর ১৫৮৪ খ্রিস্টাব্দের ১০/১১ মার্চ বাংলা সন প্রবর্তন করেন। <br/>▣ তা কার্যকর হয় তাঁর সিংহাসন-আরোহণের সময় থেকে (৫ নভেম্বর ১৫৫৬)। <br/>▣ হিজরি চান্দ্রসন ও বাংলা সৌরসনকে ভিত্তি করে বাংলা সন প্রবর্তিত হয়। <br/>▣ নতুন সনটি প্রথমে ‘ফসলি সন’ নামে পরিচিত ছিল, পরে তা বঙ্গাব্দ নামে পরিচিত হয়।<br/>❐ <b>- বাংলা নববর্ষ পালনের সূচনা হয় মূলত আকবরের সময় থেকে।</b>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333207,
+    "question": "বাংলাদেশের সাথে ভারতের কয়টি রাজ্যের সীমান্ত রয়েছে?",
+    "options": [
+      "২টি",
+      "৪টি",
+      "৫টি",
+      "৭টি"
+    ],
+    "correct_answer": "৫টি",
+    "explanation": "📖 ভারতের ৫টি রাজ্যের সাথে বাংলাদেশের সীমান্ত রয়েছে। রাজ্যগুলো হলো: পশ্চিমবঙ্গ, আসাম, মেঘালয়, ত্রিপুরা ও মিজোরাম।<br/> ⇢ <br/>⛳ বাংলাদেশের সীমান্ত:</strong><br/>❏ বাংলাদেশের সাথে দুটি দেশের সীমান্ত সংযোগ রয়েছে। যথা:<br/>▣ ভারত ও<br/>▣ মিয়ানমার।<br/>❏ বাংলাদেশের মোট সীমান্তবর্তী জেলা: ৩২টি।<br/>❏ ভারতের সাথে বাংলাদেশের সীমান্তবর্তী জেলা: ৩০টি।<br/>❏ মায়ানমারের সাথে বাংলাদেশের সীমান্তবর্তী জেলা: ৩টি।<br/>❏ বাংলাদেশ-ভারত ও মায়ানমার এই তিনটি দেশের যৌথ সীমান্ত রয়েছে রাঙ্গামাটি জেলার।<br/>▣ <strong> ভারত-বাংলাদেশ সীমান্ত:</strong><br/>❏ ভারত ও বাংলাদেশ সীমান্তের দৈর্ঘ্য ৪১৪২ কিলোমিটার।<br/>❏ এটি পৃথিবীর ৫ম দীর্ঘতম আন্তর্জাতিক সীমারেখা।<br/>❏ বাংলাদেশের সাথে ভারতের ৫টি রাজ্যের সীমান্ত আছে।<br/>❏ বাংলাদেশের সীমান্তবর্তী ভারতের রাজ্যসমূহ: আসাম, ত্রিপুরা, মিজোরাম, মেঘালয় ও পশ্চিমবঙ্গ।<br/>❏ 📖 বাংলাদেশের ভৌগোলিক অবস্থান ও সীমানা<br/>❏ সীমান্তবর্তী জেলা ➺ ৩২টি (ভারতের সাথে ২৯টি ,মায়ানমার সাথে ৩টি,, রাঙামাটির সাথে উভয়)<br/>❏ উপকূলীয় জেলা ➺ ১৯টি<br/>❏ বাংলাদেশের সীমান্তবর্তী ভারতের রাজ্য ➺ ৫টি<br/>❏ বাংলাদেশের সীমান্তবর্তী ভারতের পশ্চিমবঙ্গের জেলা ➺ ৮টি<br/>❏ ভারতের পশ্চিমবঙ্গ, মেঘালয় ও আসাম রাজ্য; এর অবস্থান বাংলাদেশের কোন দিকে ➺ উত্তরে<br/>❏ বঙ্গোপসাগর, আন্দামান ও নিকোবর দ্বীপপুঞ্জ; এর অবস্থান বাংলাদেশের কোন দিকে ➺ দক্ষিণে<br/>❏ ভারতের আসাম, ত্রিপুরা, মিজোরাম রাজ্য এবং মিয়ানমার; এর অবস্থান বাংলাদেশের কোন দিকে ➺ পূর্বে<br/>❏ ভারতের পশ্চিমবঙ্গ; এর অবস্থান বাংলাদেশের কোন দিকে ➺ পশ্চিমে<br/>❏ অথবা<br/>❏ বাংলাদেশের উত্তরে ভারতের ➺ পশ্চিমবঙ্গের কিছু অংশ, মেঘালয়, আসাম রাজ্য।<br/>❏ বাংলাদেশের পূর্বে ভারতের ➺ আসাম, ত্রিপুরা, মিজোরাম, মায়ানমার।<br/>❏ বাংলাদেশের পশ্চিমে ভারতের ➺ পশ্চিমবঙ্গ।<br/>❏ বাংলাদেশের দক্ষিণে ➺ বঙ্গোপসাগর।<br/>❏ 📚 বাংলাদেশের সীমারেখা বা সীমান্ত<br/>❏ বাংলাদেশের সর্বমোট সীমারেখা ➺ ৪৭১২ কি.মি. (সূত্র: মাধ্যমিক ভূগোল) ➺ ৫১৩৮ কি.মি. (সূত্র: বর্ডার গার্ড বাংলাদেশ)<br/>❏ বাংলাদেশের সর্বমোট স্থলসীমা ➺ ৩৯৯৫ কি.মি. (সূত্র: মাধ্যমিক ভূগোল) ➺ ৪৪২৭ কি.মি. (সূত্র: বর্ডার গার্ড বাংলাদেশ) ➺ ৪,২৪৭ কিলোমিটার (সূত্র: উইকিপিডিয়া) [যার ৯৪% ভারতের সাথে এবং বাকি ৬% মিয়ানমারের সাথে]<br/>❏ উপকূলীয়/তটরেখার দৈর্ঘ্য ➺ বিজিবি'র তথ্য: ৭১১ কি. মি. ; মাধ্যমিক ভূগোল: ৭১৬ কি.মি<br/>❏ ভারতের সাথে সীমান্ত দৈর্ঘ্য (৯২%) ➺ বিজিবি'র তথ্য: ৪১৫৬ কি. মি. ; মাধ্যমিক ভূগোল: ৩৭১৫ কি.মি.<br/>❏ মিয়ানমারের সাথে সীমান্ত দৈর্ঘ্য (৮%) ➺ বিজিবি'র তথ্য: ২৭১ কি.মি. ; মাধ্যমিক ভূগোল: ২৮০ কি.মি<br/> ⇢ <br/>⛳ 📖 বিজিবির তথ্য অনুযায়ী ভারতের ৫টি রাজ্যের সাথে বাংলাদেশের মোট ৪১৫৬ কি.মি. সীমান্ত বিদ্যমান। যার মধ্যে বাংলাদেশের সাথে পশ্চিমবঙ্গের ২২১৬.৭ কি.মি. সীমান্ত বিদ্যমান।<br/>▣ বাংলাদেশের দীর্ঘতম স্থলসীমান্ত রয়েছে ভারতের পশ্চিমবঙ্গ রাজ্যের সাথে। ভারতের সাথে স্থলসীমান্ত চুক্তি স্বাক্ষরিত হয় ১৬ মে, ১৯৭৪ সালে নয়াদিলি, ভারতে। আর চুক্তিটি কার্যকর হয় ৬ জুন ২০১৫ সালে। উল্লেখ্য, এক নজরে ভারতের বিভিন্ন রাজ্যের সাথে স্থলসীমান্ত দৈর্ঘ্যঃ<br/>❏ রাজ্য ➺ সীমান্ত দৈর্ঘ্য (কিমি) ➺ স্ট্রিপম্যাপ<br/>❏ পশ্চিমবঙ্গ ➺ ২,২৬২ ➺ ৬২৮<br/>❏ ত্রিপুরা ➺ ৮৭৪ ➺ ২৬৯<br/>❏ মেঘালয় ➺ ৪৩৬ ➺ ১৩৯<br/>❏ মিজোরাম ➺ ৩২০ ➺ ২০<br/>❏ আসাম ➺ ২৬৪ ➺ ৯৩<br/>❏ মোট ➺ ৪,১৫৬ ➺ ১,১৪৯",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333208,
+    "question": "চ্যাটজিপিটির প্রতিষ্ঠাতা কে?",
+    "options": [
+      "স্যাম অল্টম্যান",
+      "অরবিন্দ কৃষ্ণ",
+      "ল্যারি পেজ",
+      "সুন্দর পিচাই"
+    ],
+    "correct_answer": "স্যাম অল্টম্যান",
+    "explanation": "📖 চ্যাটজিপিটি (ChatGPT) তৈরি করেছে OpenAI নামক প্রতিষ্ঠান, যার প্রধান নির্বাহী কর্মকর্তা (CEO) এবং অন্যতম প্রতিষ্ঠাতা হলেন স্যাম অল্টম্যান।<br/> ⇢ <br/>⛳ ChatGPT (Generative Pre-trained Transformer) ২০২২ সালের নভেম্বরে চালু হয়। স্যাম অল্টম্যান ছাড়াও ইলন মাস্ক, গ্রেগ ব্রকম্যান প্রমুখ OpenAI-এর সহ-প্রতিষ্ঠাতা ছিলেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333209,
+    "question": "কোনটি ভূমি মন্ত্রণালয়ের অধীনস্থ প্রতিষ্ঠান নয়?",
+    "options": [
+      "সাবরেজিস্ট্রি অফিস",
+      "সহকারী কমিশনার ভূমি এর কার্যালয়",
+      "ভূমি আপীল বোর্ড",
+      "ভূমি সংস্কার বোর্ড"
+    ],
+    "correct_answer": "সাবরেজিস্ট্রি অফিস",
+    "explanation": "সাব-রেজিস্ট্রি অফিস ভূমি মন্ত্রণালয়ের অধীনস্থ প্রতিষ্ঠান নয়। এটি আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়ের অধীন একটি দপ্তর।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333210,
+    "question": "অভিন্ন বা সামান্য পরিবর্তিত হয়ে দুইবার ব্যবহৃত হওয়া শব্দকে বলে",
+    "options": [
+      "শব্দ পরিবর্তন",
+      "শব্দ গঠন",
+      "শব্দ প্রয়োগ",
+      "শব্দদ্বিত্ব"
+    ],
+    "correct_answer": "শব্দদ্বিত্ব",
+    "explanation": "📖 একই শব্দ বা সামান্য পরিবর্তিত শব্দ পরপর দুইবার ব্যবহৃত হলে তাকে শব্দদ্বিত্ব বা দ্বিরুক্ত শব্দ বলে। যেমন: জর-জর, আম-টাম।<br/> ⇢ <br/>⛳ শব্দদ্বিত্ব তিন প্রকার:<br/>❏ ১. অনুকার দ্বিত্ব: একই শব্দের পরপর ব্যবহার (যেমন: বড় বড়)।<br/>❏ ২. ধন্যাত্মক দ্বিত্ব: কোনো প্রাকৃতিক ধ্বনির অনুকরণ (যেমন: সন সন)।<br/>❏ ৩. পুনরাবৃত্ত দ্বিত্ব: সামান্য পরিবর্তনসহ ব্যবহার (যেমন: কাপড়-চোপড়)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333211,
+    "question": "সন্ধির প্রধান কাজ কী?",
+    "options": [
+      "ধ্বনি পরিবর্তন",
+      "অর্থের পরিবর্তন",
+      "বাক্য সংকোচন",
+      "পদের পরিবর্তন"
+    ],
+    "correct_answer": "ধ্বনি পরিবর্তন",
+    "explanation": "📖 সন্ধির প্রধান কাজ হলো ধ্বনি পরিবর্তন এবং উচ্চারণের সহজসাধ্যতা। পাশাপাশি ধ্বনির মিলনও ঘটায়।<br/> ⇢ <br/>⛳ বৈয়াকরণ নানাভাবে সন্ধির সংজ্ঞার্থ দিয়েছেন। <br/>❆ যেমন :<br/>❐ 'বর্ণদ্বয়ের মিলনকে সন্ধি বলে।'<br/>▣<b> 'একাধিক ধ্বনির মিলন, লোপ বা পরিবর্তনের নাম সন্ধি।'</b><br/>❐ 'পরস্পর অত্যন্ত সন্নিহিত দুই বর্ণের মিলনকে সন্ধি বলে।'<br/>❐ 'একান্ত সন্নিহিত বা অব্যবহিত দুটি ধ্বনির মিলনের নাম সন্ধি।'<br/>❐ 'দ্রুত উচ্চারণের ফলে পরস্পর সন্নিহিত ধ্বনির পরিবর্তন হয়। এতে দুটি ধ্বনির মিলন, পরিবর্তন কিংবা লোপ হতে পারে। <b>এরূপ মিলন বা লোপ বা পরিবর্তনকে সন্ধি বলে।'</b> <br/> ⇢ <br/>⛳ সন্নিহিত দুটি ধ্বনির মিলনকে সন্ধি বলে।<br/>❐ সন্ধির প্রধান উদ্দেশ্য স্বাভাবিক উচ্চারণের সহজপ্রবণতা এবং ধ্বনিগত মাধুর্য সম্পাদন৷<br/>❐ সন্ধি শব্দ গঠনেরও একটি উপায়।<br/>❐ তবে সন্ধির প্রধান সুবিধা হলো উচ্চারণের সুবিধা।<br/>▣ সন্ধির কতিপয় উদ্দেশ্য:<br/>❐ সন্ধি মাধ্যমে ধ্বনির মিলন হয়।<br/>❐ নতুন শব্দ তৈরি করা হয়।<br/>❐ উচ্চারণে সহজতা আসে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333212,
+    "question": "তুমি কখন এলে? কর্তাবাচ্য থেকে ভাববাচ্যে পরিবর্তন কর।",
+    "options": [
+      "কখন আসা হলো?",
+      "কখন আসা হল?",
+      "কখন আসতে হলো?",
+      "কখন জাসতে হবে?"
+    ],
+    "correct_answer": "কখন আসা হলো?",
+    "explanation": "📖 ভাববাচ্যে ক্রিয়ার প্রাধান্য থাকে এবং কর্তা কর্মরূপে বা সম্বন্ধ পদে পরিণত হয় অথবা উহ্য থাকে। এখানে 'তোমার কখন আসা হলো?' বা সংক্ষেপে 'কখন আসা হলো?' সঠিক রূপান্তর।<br/> ⇢ <br/>⛳ ভাববাচ্যে রূপান্তরের নিয়ম:<br/>❏ ১. কর্তার সাথে 'র' বা 'এর' বিভক্তি যুক্ত হয় (তুমি → তোমার)।<br/>❏ ২. ক্রিয়াটি নাম পুরুষের রূপ ধারণ করে এবং 'হ' ধাতু যুক্ত হয় (এলে → আসা হলো)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333213,
+    "question": "‘ভোরে সূর্য উদয় হয়’ উদাহরণ টি কোন বর্তমান কালের?",
+    "options": [
+      "নিত্যবৃত্ত",
+      "সাধারণ",
+      "ঘটমান",
+      "পুরাঘটিত"
+    ],
+    "correct_answer": "নিত্যবৃত্ত",
+    "explanation": "📖 স্বাভাবিক বা অভ্যস্ততা বোঝালে সাধারণ বর্তমান বা নিত্যবৃত্ত বর্তমান কাল হয়। সূর্য ওঠা একটি চিরন্তন সত্য ও স্বাভাবিক ঘটনা, তাই এটি নিত্যবৃত্ত বর্তমান।<br/> ⇢ <br/>⛳ নিত্যবৃত্ত বর্তমান কালের ব্যবহার:<br/>❏ ১. স্বাভাবিক বা অভ্যস্ততা বোঝাতে (আমি রোজ সকালে হাঁটি)।<br/>❏ ২. চিরন্তন সত্য বোঝাতে (সূর্য পূর্বে ওঠে)।<br/>❏ ৩. ঐতিহাসিক বর্তমান বোঝাতে (বাবর দীল্লি দখল করেন)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333214,
+    "question": "লুইপা কোন যুগের কবি?",
+    "options": [
+      "মধ্যযুগ",
+      "আধুনিক যুগ",
+      "আদি- মধ্যযুগ",
+      "প্রাচীন যুগ"
+    ],
+    "correct_answer": "প্রাচীন যুগ",
+    "explanation": "📖 লুইপা বাংলা সাহিত্যের আদি নিদর্শন চর্যাপদের আদি কবি। চর্যাপদ প্রাচীন যুগের (৬৫০-১২০০ খ্রি.) নিদর্শন।<br/> ⇢ <br/>⛳ লুইপাকে বাংলা সাহিত্যের 'আদি কবি' বলা হয়। চর্যাপদের প্রথম পদটি (\"কাআ তরুবর পঞ্চ বি ডাল\") তাঁরই রচিত। তিনি চুরাশি জন বৌদ্ধ সিদ্ধাচার্যের মধ্যে একজন।<br/> ⇢ <br/>⛳ 📖 হরপ্রসাদ শাস্ত্রীর মতে, চর্যাপদের আদি রচয়িতা হলেন লুইপা তথা মৎস্যেন্দ্রনাথ। তিনি চর্যাপদের ১ ও ২৯ নং পদের রচয়িতা। চর্যাপদের ১ নং পদটি হলো কাআ তরুবর পঞ্চ বি ডাল, চঞ্চল চীএ পইঠো কাল। এর অর্থ হলো মানুষের শরীরের পঞ্চ ইন্দ্রিয় হলো গাছের ডালের মতো। এগুলো দিয়ে চঞ্চল মনে কাল প্রবেশ করে। লুইপা রচিত ৫ টি গ্রন্থ হলো অভিসময়বিহঙ্গ, বজ্রস্বত্ব সাধন, বুদ্ধোদয়, ভগবদাভসার ও তত্ত্ব স্বভাব। ড. মুহম্মদ শহীদুল্লাহর মতে, চর্যাপদের প্রাচীনতম কবি হলেন শবরপা এবং আধুনিকতম কবি হলেন ভুসুকুপা।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333215,
+    "question": "\"অভয়া\" শরৎচন্দ্র চট্টোপাধ্যায় এর কোন উপন্যাসের চরিত্র?",
+    "options": [
+      "শ্রীকান্ত",
+      "দেবদাস",
+      "গৃহদাহ",
+      "পল্লীসমাজ"
+    ],
+    "correct_answer": "শ্রীকান্ত",
+    "explanation": "📖 'অভয়া' শরৎচন্দ্র চট্টোপাধ্যায়ের বিখ্যাত উপন্যাস 'শ্রীকান্ত' (দ্বিতীয় পর্ব)-এর একটি বলিষ্ঠ নারী চরিত্র।<br/> ⇢ <br/>⛳ 📖শ্রীকান্ত শরৎচন্দ্র চট্টোপাধ্যায়ের চারখন্ডে সমাপ্ত একখানা আত্মজীবনীমূলক উপন্যাস। ভ্রমণ-কাহিনীর লক্ষণাক্রান্ত এ উপন্যাসটির প্রথম খন্ড প্রকাশিত হয় ১৯১৭ সালে এবং শেষখন্ড ১৯৩৩ সালে।<br/>শ্রীকান্ত-রাজলক্ষ্মীর পাশাপাশি শ্রীকান্তের সঙ্গে সম্পর্কিত প্রথম পর্বের ইন্দ্রনাথ ও অন্নদাদিদি, দ্বিতীয় পর্বের অভয়া, তৃতীয় পর্বের ব্রজানন্দ ও সুনন্দা এবং চতুর্থ পর্বের গহর ও কমললতার হার্দিক ও সামাজিক সম্পর্কের বহু বর্ণিল বিষয় এতে চিত্রিত হয়েছে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333216,
+    "question": "এক কথায় প্রকাশ করুন: ইতিহাস বিষয়ে অভিজ্ঞ যিনি",
+    "options": [
+      "ঐতিহাসিক",
+      "ইতিহাসবেত্তা",
+      "ইতিহাসবিদ",
+      "ইতিহাসজ্ঞ"
+    ],
+    "correct_answer": "ইতিহাসবেত্তা",
+    "explanation": "📖 ইতিহাস বিষয়ে অভিজ্ঞ যিনি তাকে বলা হয় 'ইতিহাসবেত্তা'। যিনি ইতিহাস রচনা করেন তাকে বলা হয় 'ঐতিহাসিক'।<br/> ⇢ <br/>⛳ শব্দগঠন: ইতিহাস + বেত্তা (জ্ঞানী) = ইতিহাসবেত্তা। অন্যদিকে, ইতিহাস + ইক = ঐতিহাসিক (ইতিহাস সম্বন্ধীয় বা ইতিহাস লেখক)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333217,
+    "question": "অনুসর্গকে কত ভাগে ভাগ করা যায়?",
+    "options": [
+      "দুই",
+      "তিন",
+      "চার",
+      "পাঁচ"
+    ],
+    "correct_answer": "দুই",
+    "explanation": "📖 গঠন ও কার্যের ভিত্তিতে অনুসর্গকে প্রধানত দুই ভাগে ভাগ করা যায়: ১. সাধারণ অনুসর্গ বা নাম অনুসর্গ এবং ২. ক্রিয়াজাত অনুসর্গ।<br/> ⇢ <br/>⛳ 📖 অনুসর্গ বা কর্মপ্রবচনীয় হলো এক প্রকার অব্যয়। যেহেতু অনুসর্গ এক প্রকার অব্যয় এবং এটি স্বতন্ত্র বা আলাদাভাবে বসে বিশেষ্যকে নিয়ন্ত্রিত করে বিধায় অনুসর্গের অপর নাম কর্মপ্রবচনীয়। বাংলা ব্যাকরণে এর বিশেষ স্থান রয়েছে। ইংরেজি suffix শব্দের অর্থ অনুসর্গ । বাংলা ভাষায় প্রচুর অনুসর্গ রয়েছে। অনুসর্গ শব্দের পরে বসে বাক্যের অর্থ আরো সুস্পষ্ট করে তোলে ।<br/>❏ ⇢<br/>▣ অনুসর্গগুলো প্রধানত দু'ভাবে বিভক্ত। যথা—<br/>❏ ক. নাম অনুসর্গ (বিশেষ্য, বিশেষণ) এবং বিনা, জন্যে, কাছে, কারণে, অপেক্ষা, নিকট, মধ্যে ইত্যাদি নাম অনুসর্গ।<br/>❏ খ. ক্রিয়া অনুসর্গ (অসমাপিকা) ।করিয়া/করে, চাইতে/চেয়ে, থেকে, দিয়ে, হইতে/হতে, ধরিয়া/ধরে, লাগিয়া/লেগে প্রভৃতি ক্রিয়াজাত অনুসর্গ।<br/>❏ প্রকারভেদ<br/>❏ অনুসর্গ কোন পদের পরে বসে বাক্যের সাথে ওই পদকে সম্পর্কিত করতে পারে, তার প্রকৃতি বিচার করে ৩টি ভাগে ভাগ করা যেতে পারে।<br/>❏ ১. বিশেষ্য অনুসর্গ :এই জাতীয় বিশেষ্য পদের পরে বসে। যেমন–<br/>❏ প্রাণের চেয়ে প্রিয়<br/>❏ ছাদের উপর খোলা আকাশ<br/>❏ ২. সর্বনাম উপসর্গ : এই জাতীয় সর্বনাম পদের পরে বসে। যেমন–<br/>❏ আমার চেয়ে সে বড়।<br/>❏ ওর কাছে বইটি আছে।<br/>❏ ৩. বিশেষণ উপসর্গ : এই জাতীয় বিশেষণ পদের পরে বসে। যেমন–<br/>❏ মন্দের চেয়ে একটু ভালো<br/>❏ খারাপের চেয়ে খারাপ<br/>❏ উৎস ও উৎপন্নের বিচারে অনুসর্গ<br/>❏ উৎসের বিচারে অনুসর্গ তিন প্রকার।<br/>❏ ১. সংস্কৃত উপসর্গ : সংস্কৃত শব্দ সরাসরি বসেছে এমন উপসর্গ। যেমন–<br/>❏ অপেক্ষা, অভিমুখে, উপরে, কর্তৃক, ইত্যাদি।<br/>❏ ২. সংস্কৃত-বিবর্তিত : সংস্কৃত শব্দের ক্রমবিবর্তনের মধ্য আগত কোন শব্দ যখন অনুসর্গ হিসাবে ব্যবহৃত হয়। যেমন–<br/>❏ সংস্কৃত অগ্রে>প্রাকৃত অগ্‌গে>বাংলা আগে।<br/>❏ এরূপ অন্যান্য অনুসর্গ হতে পারে কাছে, ছাড়া, পাশে<br/>❏ ৩. বিদেশী অনুসর্গ : বাংলা, সংস্কৃত, সংস্কৃত থেকে ক্রমবিবর্তিত অপরাপর শব্দ যা অনুসর্গ হিসাবে ব্যবহৃত হয়। যেমন–<br/>❏ ফারসি : দরুন, বদলে,বনাম।<br/>❏ উৎপন্নের বিচারে অনুসর্গ দুই প্রকার।<br/>❏ ১. নামজাত অনুসর্গ : ক্রিয়ামূল থেকে উৎপন্ন অনুসর্গ ছাড়া অন্যান্য অনুসর্গের সাধারণ পরিচয় দেওয়া হয় নামজাত অনুসর্গ বলা হয়। যেমন-উপরে, অপেক্ষা ইত্যাদি।<br/>❏ ২. ক্রিয়াজাত অনুসর্গ : কোনো ক্রিয়ামূলের সাথে থেকে উৎপন্ন এমন কিছু শব্দ, যেগুলো অনুসর্গ হিসাবে ব্যবহৃত হয়। যেমন–<br/>❏ √কর্+ইয়া=করিয়া>করে বা ক’রে। [ভালো করে কাজ করো]<br/>❏ বিভক্তির সংযুক্তির বিচারে অনুসর্গ<br/>❏ অনুসর্গের সাথে বিভক্তি আছে কি নেই তার উপর ভিত্তি করে, অনুসর্গকে দুই ভাগে ভাগ করা যায়। যেমন–<br/>❏ ১. বিভক্তিহীন অনুসর্গ : এই সকল অনুসর্গের সাথে কোনো বিভক্তি থাকে না বা বিভক্তি যুক্ত করা যায় না। যেমন–<br/>❏ দ্বারা, কর্তৃক, নাগাদ ইত্যাদি।<br/>❏ ২. বিভক্তিযুক্ত অনুসর্গ : এই সকল অনুসর্গের সাথে বিভক্তি যুক্ত থাকে।<br/>❏ নামজাত অনুসর্গে ‘এ’ বিভক্তি যুক্ত থাকে। যেমন–<br/>❏ আগ>আগে, উপর>উপরে, কারণ>কারণে<br/>❏ ক্রিয়ামূলজাত অনুসর্গে ‘ইয়া’ বিভক্তযুক্ত হয়ে অনুসর্গ তৈরি হয়। যা সাধু রূপে ব্যবহৃত হয়। চলিত রূপে এর সংক্ষিপ্ত রূপ ব্যবহৃত হয়। যেমন–<br/>❏ √কর্+ইয়া=করিয়া>করে বা ক’রে।<br/>❏ √ধর্+ইয়া=ধরিয়া>ধরে বা ধ’রে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333218,
+    "question": "\"চাঁদ\" এর সমার্থক শব্দ -",
+    "options": [
+      "তটিনী",
+      "যামিনী",
+      "উর্মি",
+      "বিধু"
+    ],
+    "correct_answer": "বিধু",
+    "explanation": "📖 চাঁদের সমার্থক শব্দগুলো হলো: সুধাংশু, শশাঙ্ক, বিধু, নিশাকর, সোম, হিমাংশু ইত্যাদি। তটিনী (নদী), যামিনী (রাত), উর্মি (ঢেউ)।<br/> ⇢ <br/>⛳ আরও কিছু গুরুত্বপূর্ণ সমার্থক শব্দ:<br/>❏ চাঁদ: সুধাকর, রজনীকান্ত, মৃগাঙ্ক, কলানিধি, দ্বিজরাজ।<br/>❏ বিধু শব্দটি সংস্কৃত 'ব্যধ' ধাতু থেকে এসেছে, যার অর্থ কিরণ বা আলো।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333219,
+    "question": "বাংলা ভাষায় মৌলিক স্বরধ্বনির সংখ্যা কত?",
+    "options": [
+      "দুটি",
+      "চারটি",
+      "ছয়টি",
+      "সাতটি"
+    ],
+    "correct_answer": "সাতটি",
+    "explanation": "📖 বাংলা ভাষায় মৌলিক স্বরধ্বনি ৭টি। এগুলো হলো: অ, আ, ই, উ, এ, ও, অ্যা।<br/> ⇢ <br/>⛳ ▣ উচ্চারণানুসারে স্বর ২ ধরনের। যথা-হ্রস্বস্বর ও দীর্ঘস্বর।<br/>❏ ১. হ্রস্বম্বর: যে স্বরের উচ্চারণে অল্প সময় লাগে তাকে হ্রস্বম্বর বলে। হ্রস্বস্বর বর্ণ ৪টি। যথা- অ, ই, উ, ঋ।<br/>❏ ২. দীর্ঘস্বর: যে স্বরের উচ্চারণে দীর্ঘ সময় লাগে তাকে দীর্ঘস্বর বলে। দীর্ঘস্বর বর্ণ ৭টি। যথা- আ, ঈ, উ, এ, ঐ, ও, ঔ। [হস্বস্বর ৪টি ছাড়া বাকি ৭টি দীর্ঘ স্বর।। আরবি ও ফারসি ভাষা থেকে আগত ধ্বনির উচ্চারণ সাধারণত দীর্ঘ হয়ে থাকে।<br/>▣ গঠনানুসারে স্বর ২ ধরনের। যথা- মৌলিক স্বর ও যৌগিক স্বর।<br/>❏ মৌলিক স্বরবর্ণ: যে স্বরবর্ণ ভেঙে উচ্চারণ করা যায় না বা বিশ্লেষণ করা যায় না, তাদের মৌলিক স্বরবর্ণ বলে। বাংলা ভাষায় মৌলিক স্বরবর্ণের সংখ্যা ৬টি। যথা- অ, আ, ই, উ, এ, ও।<br/>❏ মৌলিক স্বরধ্বনি: যে স্বরধ্বনি ভেঙে উচ্চারণ করা যায় না বা বিশ্লেষণ করা যায় না, তাদের মৌলিক স্বরধ্বনি বলে। বাংলা ভাষায় মৌলিক স্বরধ্বনি বা আন্তর্জাতিক স্বীকৃত মৌলিক স্বরধ্বনি ৭টি। যথা- অ, আ, ই, উ, এ, ও, অ্যা। এখানে 'অ্যা' ধ্বনি হিসেবে গণ্য হবে, কিন্তু বর্ণ হিসেবে গণ্য হবে না। তাই মৌলিক স্বরবর্ণ থেকে বাদ পড়েছে, কারণ ১১টি স্বরবর্ণের মধ্যে 'অ্যা' বর্ণটি নেই। ✓ 'অ্যা' ধ্বনির প্রবক্তা বা নামকরণ করেন ১৯৭৪ সালে ভাষাবিজ্ঞানী ড. মুহম্মদ আব্দুল হাই।<br/>❏ ২. যৌগিক স্বরবর্ণ: দুটি স্বর যুক্তভাবে অবিভাজ্যরূপে উচ্চারিত হলে তাই যৌগিক স্বরবর্ণ। বাংলা ভাষায় যৌগিক স্বরবর্ণের সংখ্যা ২টি। যথা- ঐ, ঔ। লক্ষ করুন, 'ঐ' ও 'ঔ' বাংলা বর্ণমালায় একক ও স্বতন্ত্র ২টি বর্ণ কিন্তু এদের বিশ্লেষণ করলে দুটি করে বর্ণ পাওয়া যাবে। ঐ (অ+ই), ঔ (অ+উ) অর্থাৎ দুটি বর্ণ মিলে একটি বর্ণ তৈরি করেছে, তাই এই ২টি বর্ণকে যৌগিক স্বরবর্ণ বলা হয়। যৌগিক স্বরবর্ণের অপর নাম যৌগিক স্বরজ্ঞাপক বর্ণ।<br/>❏ যৌগিক স্বরধ্বনি: পাশাপাশি দুটি স্বরধ্বনি থাকলে দ্রুত উচ্চারণের সময় তা একটি সংযুক্ত স্বরধ্বনি রূপে উচ্চারিত হয়। এরূপ একসঙ্গে উচ্চারিত দুটো মিলিত স্বরধ্বনিকে যৌগিক স্বর বা দ্বিম্বর বলা হয়। যেমন: পড়াই। এখানে লক্ষ করুন, 'পড়াই' শব্দটি 'পড়' এর সাথে পাশাপাশি দুটি স্বরধ্বনি (আই) যুক্ত হয়ে একটি ধ্বনি 'আই' তৈরি করেছে। আর এই 'আই' ধ্বনিটি বাংলা বর্ণমালায় একক কোনো ধ্বনি বা লিখিত রূপ নেই, তাই একে একত্রে (আই) যৌগিক স্বরধ্বনি বলে। বাংলা ভাষায় যৌগিক স্বরধ্বনি মোট ২৫টি। তবে যৌগিক স্বরবর্ণ মাত্র ২টি ঐ, ঔ। অন্য যৌগিক স্বরধ্বনি ২৩টির নিজস্ব প্রতীক বা বর্ণ নেই।<br/>❏ অর্ধস্বরধ্বনি (semi-vowel): যেসব স্বরধ্বনি পুরোপুরি উচ্চারিত হয় না সেগুলোকে অর্ধস্বরধ্বনি বলে। এই ধ্বনিগুলি স্বরধ্বনির মতো হলেও ব্যাবহারিক দিক থেকে এদের আচরণ অনেকটাই ব্যঞ্জনধ্বনির মতো। বাংলা ভাষায় অর্ধস্বরধ্বনি ৪টি ই, উ, এ (=য়), ও.। স্বরধ্বনি উচ্চারণের সময় টেনে দীর্ঘ করা যায়, কিন্তু অর্ধস্বরধ্বনি কোনোভাবেই দীর্ঘ করা যায় না।<br/> ⇢ <br/>⛳ ❀ এক নজরে ধ্বনিতত্ত্বের সংখ্যাতত্ত্ব<br/>❏ বাংলা ভাষায় বর্ণমালা ➺ ১টি।<br/>❏ মোট বর্ণ/সরল বর্ণ/অসংযুক্ত বর্ণ ➺ ৫০ ⇢ অ-ঁ পর্যন্ত।<br/>❏ বাংলা ভাষায় মোট ধ্বনি ➺ ৩৭টি।<br/>❏ বাংলা ভাষায় বর্ণ ➺ ২ ধরনের ⇢ স্বরবর্ণ, ব্যঞ্জনবর্ণ।<br/>❏ স্বরবর্ণ ➺ ১১টি ⇢ স্বরধ্বনি ৭টি)।<br/>❏ ব্যঞ্জন বর্ণ ➺ ৩৯টি ⇢ ব্যঞ্জন ধ্বনি ৩০টি)।<br/>❏ মৌলিক স্বরবর্ণ ➺ ৬টি ⇢ অ, আ, ই, উ, এ, ও।)<br/>❏ মৌলিক স্বরধ্বনি ➺ ৭টি ⇢ অ, আ, ই, উ, এ, ও, অ্যা)<br/>❏ হ্রস্বস্বর ➺ ৪টি ⇢ অ, ই, উ, ঋ।)<br/>❏ দীর্ঘস্বর ➺ ৭টি ⇢ আ, ঈ, উ, এ, ঐ, ও, ঔ।)<br/>❏ যৌগিক স্বরবর্ণ/ যৌগিক স্বরজ্ঞাপক বর্ণ ➺ ২টি ⇢ ঐ, ঔ।<br/>❏ যৌগিক স্বরধ্বনি/ দ্বিস্বর/ যুগ্মস্বর/ সান্ধ্যস্বর ➺ ২৫টি।<br/>❏ অর্ধস্বর ধ্বনি ➺ ৪টি ⇢ ই, উ, এ, ও।<br/>❏ সম্মুখ স্বরধ্বনি ➺ ৩টি ⇢ ই, এ, অ্যা।<br/>❏ পশ্চাৎ স্বরধ্বনি ➺ ৩টি ⇢ উ, ও, অ।<br/>❏ কেন্দ্রীয় স্বরধ্বনি ➺ ১টি ⇢ আ।<br/>❏ উচ্চ-স্বরধ্বনি ➺ ২টি ⇢ ই, উ।<br/>❏ উচ্চমধ্য স্বরধ্বনি ➺ ২টি ⇢ এ, ও।<br/>❏ নিম্নমধ্য স্বরধ্বনি ➺ ২টি ⇢ অ্যা, অ।<br/>❏ নিম্ন-স্বরধ্বনি ➺ ১টি ⇢ আ।<br/>❏ সংবৃত স্বরধ্বনি ➺ ২টি ⇢ ই, উ।<br/>❏ অর্ধসংবৃত স্বরধ্বনি ➺ ২টি ⇢ এ, ও।<br/>❏ অর্ধবিবৃত স্বরধ্বনি ➺ ২টি ⇢ অ্যা, অ।<br/>❏ বিবৃত স্বরধ্বনি ➺ ১টি ⇢ আ।<br/>❏ স্বরবর্ণের সংক্ষিপ্ত রূপ বা কার ➺ ১০টি।<br/>❏ স্বরবর্ণের সংক্ষিপ্ত রূপ বা কার হয় না ➺ ১টি ➺ অ।<br/>❏ স্বরবর্ণের পূর্ণরূপ আছে ➺ ১১টি।<br/>❏ ব্যঞ্জনবর্ণের সংক্ষিপ্ত রূপ/ ফলা বর্ণ ➺ ৬টি ⇢ ম, ন, র, ব, য, ল।<br/>❏ পূর্ণমাত্রা বর্ণ মোট ➺ ৩২টি।<br/>❏ অর্ধমাত্রা বর্ণ মোট ➺ ৮টি ⇢ ঋ, খ, গ, ণ, থ, ধ, প, শ।<br/>❏ মাত্রাহীন বর্ণ ➺ ১০টি ⇢ এ, ঐ, ও, ঔ, ঙ, ঞ, ৎ, ং,৪,।<br/>❏ পূর্ণমাত্রার স্বরবর্ণ ➺ ৬টি ⇢ অ, আ, ই, ঈ, উ, উ।<br/>❏ পূর্ণমাত্রার ব্যঞ্জনবর্ণ ➺ ২৬টি।<br/>❏ অর্ধমাত্রার স্বরবর্ণ ➺ ১টি ⇢ ঋ।<br/>❏ অর্ধমাত্রার ব্যঞ্জনবর্ণ ➺ ৭টি ⇢ খ, গ, ণ, থ, ধ, প, শ।<br/>❏ মাত্রাহীন স্বরবর্ণ ➺ ৪টি ⇢ এ, ঐ, ও, ঔ।<br/>❏ মাত্রাহীন ব্যঞ্জনবর্ণ ➺ ৬টি ⇢ ঙ, ঞ, ৎ, ং, ঃ, ।<br/>❏ বর্গীয় বর্ণ মোট ➺ ২৫টি ➺ ক-ম পর্যন্ত।<br/>❏ স্পর্শ বা স্পৃষ্ট ব্যঞ্জন ➺ ১৬টি/২০টি/২৫টি।<br/>❏ অন্তঃস্থ বর্ণ ➺ ৪টি ⇢ য, র, ল, ব (অন্তঃস্থ ধ্বনি ৩টি)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333220,
+    "question": "\"উপাচার্য” শব্দটি কোন উপসর্গ?",
+    "options": [
+      "বিদেশি",
+      "সংস্কৃত বা তৎসম",
+      "খাঁটি বাংলা",
+      "ফারসি"
+    ],
+    "correct_answer": "সংস্কৃত বা তৎসম",
+    "explanation": "📖 'উপাচার্য' শব্দে 'উপ' উপসর্গটি ব্যবহৃত হয়েছে। 'উপ' একটি সংস্কৃত বা তৎসম উপসর্গ।<br/> ⇢ <br/>⛳ বাংলা ভাষায় ব্যবহৃত সংস্কৃত বা তৎসম উপসর্গ মোট ২০টি। যথা: প্র, পরা, অপ, সম, নি, অব, অনু, নির্, দুর্, বি, অধি, সু, উৎ, পরি, প্রতি, অতি, অপি, অভি, উপ, আ। এখানে 'উপ' উপসর্গটি 'সহকারী' বা 'ক্ষুদ্র' অর্থে ব্যবহৃত হয়েছে।<br/> ⇢ <br/>⛳ ❏ উপসর্গ:<br/>❏ বাংলা ভাষায় যেসব শব্দখণ্ড বা শব্দাংশ ধাতুর পূর্বে বসে নতুন শব্দ গঠন করে, সেগুলোকে বলে উপসর্গ।<br/>▣ বাংলা ভাষায় ব্যবহৃত উপসর্গকে তিন ভাগে ভাগ করা যায়। যথা-<br/>❏ ১. খাটি বাংলা উপসর্গ,<br/>❏ ২. সংস্কৃত বা তৎসম উপসর্গ এবং<br/>❏ ৩. বিদেশি উপসর্গ।<br/>❏ সংস্কৃত বা তৎসম উপসর্গ:<br/>❏ বাংলা ভাষায় যে সকল সংস্কৃত উপসর্গ ব্যবহার করা হয় তাদের সংস্কৃত বা তৎসম উপসর্গ বলে। সংস্কৃত বা তৎসম উপসর্গ ২০টি।<br/>❏ যথা: প্র, পরা, অপ, সম, নি, অনু, অব, নির, দুর, বি, অধি, সু, উৎ, পরি, প্রতি, অতি, অভি, অপি, উপ, আ।<br/>▣ খাঁটি বাংলা উপসর্গ:<br/>❏ বাংলা ভাষায় ব্যবহৃত নিজস্ব উপসর্গকে খাঁটি বাংলা উপসর্গ বলা হয়। খাঁটি বাংলা উপসর্গ ২১টি।<br/>❏ যথা: অ, অঘা, অজ, অনা, আ, আড়, আন, আব, ইতি, ঊন (ঊনা), কদ, কু, নি, পাতি, বি, ভর, রাম, স, সা, সু, হা।<br/>▣ [বাংলা উপসর্গের মধ্যে আ, সু, বি, নি এই চারটি উপসর্গ খাঁটি বাংলা ও তৎসম শব্দেও পাওয়া যায়।]<br/>▣ বিদেশি উপসর্গ:<br/>❏ আরবি, ফারসি, ইংরে জি, হিন্দি এসব ভাষার বহু শব্দ দীর্ঘকাল ধরে বাংলা ভাষায় প্রচলিত আছে।<br/>❏ এছাড়া কিছু বিদেশি উপসর্গও বাংলায় চালু আছে।<br/>▣ বিদেশি উপসর্গ অনির্দিষ্ট বা অনির্ণেয়।<br/>❏ যেমন:<br/>❏ আরবি উপসর্গ: আম, খাস, লা, গর, বাজে এবং খয়ের।<br/>❏ ফারসি উপসর্গ: কার, দর, না, নিম, ফি, বদ, বে, বর, ব, কম।<br/>❏ উর্দু উপসর্গ: হর।<br/>❏ ইংরেজি উপসর্গ: হেড, সাব, ফুল, হাফ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333221,
+    "question": "কেবলা হাকিম বাগধারাটির অর্থ কী?",
+    "options": [
+      "বোকা",
+      "অনভিজ্ঞ",
+      "অপদার্থ",
+      "মূর্খ"
+    ],
+    "correct_answer": "অনভিজ্ঞ",
+    "explanation": "📖 'কেবলা হাকিম' বাগধারাটির অর্থ হলো অনভিজ্ঞ বা আনাড়ি লোক।<br/> ⇢ <br/>⛳ 'হাকিম' শব্দের অর্থ বিচারক বা উচ্চপদস্থ কর্মকর্তা। 'কেবলা' বলতে বোকা বা দিকভ্রান্ত বোঝায়। অর্থাৎ যে বিচারক বা কর্মকর্তা অনভিজ্ঞ বা কাজ বোঝে না, তাকেই ব্যঙ্গ করে 'কেবলা হাকিম' বলা হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333222,
+    "question": "\"সওগাত” পত্রিকার সম্পাদক কে ছিলেন?",
+    "options": [
+      "কাজী নজরুল ইসলাম",
+      "আবুল কালাম শামসুদ্দীন",
+      "খান মুহাম্মদ মইনুদ্দীন",
+      "মোহাম্মদ নাসির উদ্দিন"
+    ],
+    "correct_answer": "মোহাম্মদ নাসির উদ্দিন",
+    "explanation": "📖 সওগাত পত্রিকার সম্পাদক ছিলেন মোহাম্মদ নাসির উদ্দিন। পত্রিকাটি ১৯১৮ সালে কলকাতা থেকে প্রথম প্রকাশিত হয়।<br/> ⇢ <br/>⛳ <b>▣ 'সওগাত' পত্রিকা: </b><br/>❏ ১৩২৫ বঙ্গাব্দের (১৯১৮ সাল) অগ্রহায়ণ মাসে <i><b>মোহাম্মদ নাসিরউদ্দীনের সম্পাদনায়</b></i> কলকাতা থেকে এটি প্রকাশিত হয়।<br/>❏ কাজী নজরুল ইসলাম ছিলেন সওগাতের প্রধান লেখকদের অন্যতম।<br/>❏ তিনি যখন করাচিতে বেঙ্গল রেজিমেন্টে কর্মরত, তখন ‘বাউন্ডুলের আত্মকাহিনী’ নামে একটি ছোট গল্প পাঠান।<br/>❏ এটিই ছিল তাঁর সওগাতে প্রকাশিত প্রথম লেখা।<br/>❏ সওগাতের অন্যান্য প্রধান লেখক ছিলেন বেগম রোকেয়া, কাজী আবদুল ওদুদ, আবুল কালাম শামসুদ্দীন, আবুল মনসুর আহমদ এবং আবুল ফজল।<br/>❏ রবীন্দ্রনাথ ঠাকুর, অবনীন্দ্রনাথ ঠাকুর এবং সত্যেন্দ্রনাথ ঠাকুরও এতে লিখেছেন।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333223,
+    "question": "প্যারীচাঁদ মিত্র রচিত উপন্যাস কোনটি?",
+    "options": [
+      "আলালের ঘরের দুলাল",
+      "কুহেলিকা",
+      "চঞ্চলা",
+      "সীতারাম"
+    ],
+    "correct_answer": "আলালের ঘরের দুলাল",
+    "explanation": "📖 প্যারীচাঁদ মিত্রের 'আলালের ঘরের দুলাল' (১৮৫৮) বাংলা সাহিত্যের প্রথম উপন্যাস হিসেবে স্বীকৃত। তিনি 'টেকচাঁদ ঠাকুর' ছদ্মনামে লিখতেন।<br/> ⇢ <br/>⛳ \"আলালের ঘরের দুলাল\" উপন্যাস:<br/>❏ প্যারীচাঁদ মিত্রের প্রথম গ্রন্থ 'আলালের ঘরের দুলাল'। আলালের ঘরের দুলাল বাংলা ভাষায় রচিত প্রথম সফল উপন্যাসও। আলালের ঘরের দুলাল উপন্যাসটি ১৮৫৮ সালে গ্রন্থাকারে প্রকাশ পায়। এর আগে ১৮৫৪ সাল থেকে 'মাসিক পত্রিকা'তে ধারাবাহিকভাবে এটি প্রকাশিত হতে থাকে।<br/>❏ উপন্যাসটিতে সর্বাপেক্ষা উল্লেখযোগ্য চরিত্র হলো মোকাজান মিয়া বা ঠকচাচা।এছাড়াও অন্যান্য চরিত্রে রয়েছে- <br/>❏ বাবুরাম, বাবুরামের পুত্র মতিলাল, ধূর্ত উকিল বটলর, অর্থলোভী বাঞ্ছারাম, তোষামোদকারী বক্রেশ্বর ইত্যাদি।<br/>▣ প্যারীচাঁদ মিত্র:<br/>❏ প্যারীচাঁদ মিত্র ছিলেন একজন লেখক, সাংবাদিক, সংস্কৃতিসেবী ও ব্যবসায়ী। ১৮১৪ সালের ২২ জুলাই কলকাতায় তাঁর জন্ম।<br/>❏ প্যারীচাঁদ মিত্রের শিক্ষাজীবন শুরু হয় পারিবারিক পরিমণ্ডলে। তিনি পণ্ডিত ও মুনশির নিকট যথাক্রমে বাংলা ও ফারসি শেখেন। ১৮২৭ সালে তিনি হিন্দু কলেজে ভর্তি হন এবং খ্যাতিমান শিক্ষক হেনরি ডিরোজিওর তত্ত্বাবধানে থেকে শিক্ষা সম্পন্ন করেন।।<br/>❏ কলকাতা পাবলিক লাইব্রেরির ডেপুটি লাইব্রেরিয়ান হিসেবে ১৮৩৬ সালে প্যারীচাঁদ মিত্রের কর্মজীবন শুরু হয়। <br/>❏ বাংলা গদ্যের অবয়ব নির্মাণে এবং বিবর্তনের ইতিহাসে প্যারীচাঁদ মিত্র ওরফে টেকচাঁদ ঠাকুরের (১৮৪১-৮৩) নাম সবিশেষ উল্লেখযোগ্য। ঈশ্বরচন্দ্র বিদ্যাসাগরের হাতে বাংলা গদ্যের যে সাধুরূপ গড়ে উঠেছিল, প্যারীচাঁদ মিত্র তা অনুকরণ না করে বাংলা গদ্যের ধারায় এক অভিনব লঘু ভঙ্গির প্রবর্তন করেন।<br/>❏ প্যারীচাঁদ মিত্রের সাহিত্যকর্মগুলো হলো-<br/>❏ প্যারীচাঁদ মিত্রের দ্বিতীয় গ্রন্থ 'মদ খাওয়া বড় দায়, জাত থাকার কি উপায়' ১৮৫৯ সালে প্রকাশিত হয়। গ্রন্থটির মধ্যে তৎকালীন গোঁড়া শ্রেণির ব্যক্তিদের চিত্রাঙ্কন করা হয়েছে। আলালের ঘরের দুলালের ভাষার মতই সহজ সরল এর ভাষা, কিন্তু কিছু পরিমাণে সাধুভাষা ঘেঁষা বলে বিশুদ্ধতর। সমসাময়িক কোন কোন লেখকের ওপর এই গ্রন্থ বেশ প্রভাব বিস্তার করতে পেরেছিল।<br/>❏ প্যারীচাঁদের অন্যান্য গ্রন্থ 'রামারঞ্জিকা' (১৮৬০) স্ত্রীশিক্ষামূলক গ্রন্থ।<br/>❏ 'কৃষিপাঠ' (১৮৬১), 'যৎকিঞ্চিৎ' (১৮৬৫), 'ডেবিড হেয়ারের জীবনচরিত' (১৮৭৮) প্রভৃতি তাঁর প্রবন্ধ পুস্তক। • 'অভেদী' (১৮৭১), 'আধ্যাত্মিকা' (১৮৮০) ইত্যাদি গ্রন্থ সংলাপপ্রধান গল্পমূলক রচনা এবং মূলত নীতিবিষয়ক। <br/>❏ 'গীতাঙ্কুর' (৩য় সংস্করণ, ১৮৭০) ব্রহ্মবিষয়ক গানের সমষ্টি।<br/>❏ 'এতদ্দেশীয় স্ত্রীলোকদিগের পূর্বাবস্থা' (১৮৭৮) গ্রন্থে প্রাচীন ভারতের নারীদের শিক্ষা ও মহত্ত্বের পরিচয় উপলক্ষে পৌরাণিক নারীচরিত্রের বর্ণনা দেওয়া হয়েছে।<br/>❏ 'বামাতোষিণী' (১৮৮১) প্যারীচাঁদ মিত্রের সর্বশেষ রচনা-নারীশিক্ষার উদ্দেশ্যে গ্রন্থটির রচিত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333224,
+    "question": "'Many a little makes a mickle' এর সঠিক অনুবাদ কোনটি?",
+    "options": [
+      "নেই মামার চেয়ে কানা মামা ভালো",
+      "যারে দেখতে নারি তার চলন বাঁকা",
+      "বিন্দু থেকে সিন্ধুর সৃষ্টি হয়",
+      "বজ্র আঁটুনি ফস্কা গেরো"
+    ],
+    "correct_answer": "বিন্দু থেকে সিন্ধুর সৃষ্টি হয়",
+    "explanation": "📖 'Many a little makes a mickle' প্রবাদটির অর্থ হলো অনেক অল্প বা ছোট জিনিস মিলে বড় কিছু তৈরি হয়। এর ভাবার্থের সাথে 'বিন্দু থেকে সিন্ধুর সৃষ্টি হয়' বা 'রাই কুড়িয়ে বেল' সামঞ্জস্যপূর্ণ।<br/> ⇢ <br/>⛳ এই প্রবাদটি মূলত স্কটিশ প্রবাদ থেকে এসেছে। এর আক্ষরিক অর্থ: অনেকগুলো ছোট পরিমাণ একত্রিত হয়ে একটি বড় পরিমাণ তৈরি করে। এর সমার্থক আরেকটি প্রবাদ হলো: \"Drops of water make the ocean.\"",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333225,
+    "question": "\"ধন হইতে সুখ হয় না\" নিচের শব্দটি কোন কারকে কোন বিভক্তি?",
+    "options": [
+      "কর্মে ৫মী",
+      "করণে ৩য়া",
+      "কর্তায় ৭মী",
+      "অপাদানে ৫মী"
+    ],
+    "correct_answer": "অপাদানে ৫মী",
+    "explanation": "📖 যা থেকে কিছু বিচ্যুত, গৃহিত, জাত, বিরত, আরম্ভ, দূরীভূত ও রক্ষিত হয় এবং যা দেখে কেউ ভীত হয়, তাকে অপাদান কারক বলে। এখানে ধন থেকে সুখ উৎপন্ন বা জাত বোঝাচ্ছে, তাই এটি অপাদান কারক। 'হইতে' অনুসর্গটি পঞ্চমী বিভক্তির চিহ্ন।<br/> ⇢ <br/>⛳ সহজ কথায়, 'থেকে' বা 'হতে' বোঝালে অপাদান কারক হয়। আর 'দ্বারা', 'দিয়ে', 'কর্তৃক' বোঝালে করণ কারক হয়। এখানে সুখের উৎস 'ধন', তাই এটি অপাদান।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333226,
+    "question": "শব্দের কোথায় প্রত্যয় যুক্ত হয়?",
+    "options": [
+      "মধ্যে",
+      "প্রথমে",
+      "শেষে",
+      "যে কোন স্থানে"
+    ],
+    "correct_answer": "শেষে",
+    "explanation": "📖 ধাতু বা শব্দের শেষে প্রত্যয় যুক্ত হয়ে নতুন শব্দ গঠন করে। আর উপসর্গ যুক্ত হয় শব্দের প্রথমে।<br/> ⇢ <br/>⛳ প্রত্যয় প্রধানত দুই প্রকার:<br/>❏ ১. কৃৎ প্রত্যয়: ধাতুর (ক্রিয়ামূল) শেষে যুক্ত হয়। (যেমন: চল্ + অন্ত = চলন্ত)।<br/>❏ ২. তদ্ধিত প্রত্যয়: নাম শব্দের শেষে যুক্ত হয়। (যেমন: ঢাকা + আই = ঢাকাই)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333227,
+    "question": "কোন শাসকদের সময়কে বাংলা সাহিত্যের অন্ধকার যুগ বলা হয়?",
+    "options": [
+      "পাল",
+      "গুপ্ত",
+      "সেন",
+      "তুর্কি"
+    ],
+    "correct_answer": "তুর্কি",
+    "explanation": "📖 ১২০১ থেকে ১৩৫০ সাল পর্যন্ত সময়কে বাংলা সাহিত্যের অন্ধকার যুগ বা তমসাচ্ছন্ন যুগ বলা হয়। তুর্কি আক্রমণের ফলে সৃষ্ট অরাজকতার কারণে এ সময়ে উল্লেখযোগ্য কোনো সাহিত্য রচিত হয়নি বলে ধারণা করা হয়।<br/> ⇢ <br/>⛳ বাংলা সাহিত্যকে তিন যুগে ভাগ করা হয়েছে। যথা:<br/>❐ প্রাচীন যুগ (৬৫০ - ১২০০),<br/>❐ মধ্যযুগ (১২০১ - ১৮০০) এবং<br/>❐ আধুনিক যুগ (১৮০১ - বর্তমান)।<br/>[মধ্যযুগের প্রথম ১৫০ বছর <b>(১২০১ - ১৩৫০) </b>অন্ধকার যুগ ছিল।]<br/> ⇢ <br/>⛳ বাংলা সাহিত্যের ১২০১ - ১৩৫০ খ্রি. পর্যন্ত সময়কে “অন্ধকার যুগ” বা “বন্ধ্যা যুগ” বলে কেউ কেউ মনে করেন। হুমায়ুন আজাদ তার “লাল নীল দীপাবলি বা বাঙলা সাহিত্যের জীবনী” গ্রন্থে লিখেছেন -<br/>❏ “১২০১ থেকে ১৩৫০ পর্যন্ত সময়ের মধ্যে রচিত কোন সাহিত্য কর্মের পরিচয় পাওয়া যায়না বলে এ - সময়টাকে বলা হয় ‘অন্ধকার যুগ’। পণ্ডিতেরা এ - সময়টাকে নিয়ে অনেক ভেবেছেন, অনেক আলোচনা করেছেন, কিন্তু কেউ অন্ধকার সরিয়ে ফেলতে পারেন নি। এ - সময়টির দিকে তাকালে তাই চোখে কোন আলো আসেনা, কেবল আঁধার ঢাকা চারদিক। ”<br/>❏ এসময়ের সাহিত্য নিদর্শন: ১. প্রাকৃত ভাষার গীতি কবিতার সংকলিত গ্রন্থ ‘প্রাকৃত পৈঙ্গল’ ২. রামাই পন্ডিত রচিত ‘শূন্যপুরাণ’ (গদ্যপদ্য মিশ্রিত) ৩. হলায়ুধ মিশ্র রচিত ‘সেক শুভোদয়া’ (গদ্যপদ্য মিশ্রিত) ৪. ডাক ও খনার বচন",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333228,
+    "question": "\"চন্দ্রমুখ” কোন প্রকার সমাস",
+    "options": [
+      "উপমিত কর্মধারয়",
+      "রূপক কর্মধারয়",
+      "মধ্যপদলোপী কর্মধারয়",
+      "উপমান কর্মধারয়"
+    ],
+    "correct_answer": "উপমিত কর্মধারয়",
+    "explanation": "📖 মুখ চন্দ্রের ন্যায় = চন্দ্রমুখ। এখানে সাধারণ গুণের উল্লেখ নেই এবং উপমেয় (মুখ) আগে ও উপমান (চন্দ্র) পরে বসেছে, তাই এটি উপমিত কর্মধারয় সমাস।<br/> ⇢ <br/>⛳ উপমান ও উপমিত চেনার সহজ উপায়:<br/>❏ ১. উপমান কর্মধারয়: প্রত্যক্ষ বস্তুর সাথে পরোক্ষ বস্তুর তুলনা এবং সাধারণ গুণের উল্লেখ থাকে। (ন্যায় মাঝখানে বসে)। যেমন: তুষারের ন্যায় শুভ্র = তুষারশুভ্র।<br/>❏ ২. উপমিত কর্মধারয়: সাধারণ গুণের উল্লেখ থাকে না। (ন্যায় শেষে বসে)। যেমন: পুরুষ সিংহের ন্যায় = পুরুষসিংহ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333229,
+    "question": "'কালবেলা' নাটকটির লেখক কে?",
+    "options": [
+      "আনিস চৌধুরী",
+      "সাঈদ আহমেদ",
+      "কল্যাণ মিত্র",
+      "মুনীর চৌধুরী"
+    ],
+    "correct_answer": "সাঈদ আহমেদ",
+    "explanation": "📖 'কালবেলা' (১৯৬২) নাটকটির রচয়িতা সাঈদ আহমেদ। উল্লেখ্য, সমরেশ মজুমদারের বিখ্যাত উপন্যাসের নামও 'কালবেলা', তবে প্রশ্নে নাটকের কথা বলা হয়েছে।<br/> ⇢ <br/>⛳ সাঈদ আহমেদ বাংলা নাটকে অ্যাবসার্ড বা উদ্ভট নাট্যধারার প্রবর্তক হিসেবে পরিচিত। তাঁর রচিত অন্যান্য বিখ্যাত নাটক হলো: 'তৃষ্ণায়' (১৯৬৮), 'মাইলপোস্ট' (১৯৬৫)।<br/> ⇢ <br/>⛳ সাঈদ আহমদ (জানুয়ারি ১, ১৯৩১ - জানুয়ারি ২১, ২০১০) ছিলেন বাংলাদেশি নাট্যব্যক্তিত্ব, যাঁকে বাংলা নাটকে আধুনিক নাট্যধারার প্রবর্তক বলে বিবেচনা করা হয়। নানামুখী প্রতিভার অধিকারী হলেও সাঈদ আহমদ মূলত নাট্যকার হিসেবেই খ্যাতিমান ছিলেন। ষাটের দশকে ইংরেজি ভাষায় দি থিং শীর্ষক নাটক রচনার মাধ্যমে তিনি বাংলা নাটকে ইউরোপীয় প্রতীকীবাদী অসম্ভবের (ইংরেজি: Absurd) নাট্যধারা প্রবর্তন করেন। প্রকৃতির শক্তির বিরুদ্ধে মানুষ কীভাবে লড়াই করে টিকে থাকে তাঁর লেখায় তা তীব্রভাবে উঠে এসেছে। কালবেলা (১৯৬২), মাইলপোস্ট (১৯৬৫), এক দিন প্রতিদিন (১৯৭৪), শেষ নবাব (১৯৮৮) ইত্যাদি তাঁর প্রসিদ্ধ নাটক। তাঁর কয়েকটি নাটক ইংরেজি, ফরাসি, জার্মান ও ইতালীয় ভাষাতেও অনূদিত হয়েছে। জীবিকাসূত্রে তিনি বাংলাদেশ সিভিল সার্ভিসের একজন সদস্য ছিলেন",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333230,
+    "question": "কোনটি দেশি শব্দ?",
+    "options": [
+      "আনারস",
+      "উকিল",
+      "কাগজ",
+      "খোঁপা"
+    ],
+    "correct_answer": "খোঁপা",
+    "explanation": "📖 'খোঁপা' একটি দেশি শব্দ। আনারস (পর্তুগিজ), উকিল (আরবি), কাগজ (ফারসি) বিদেশি শব্দ। আরও কিছু দেশি শব্দ হলো: কুলা, গঞ্জ, চোঙ্গা, টোপর, ডাব, ডাগর, ঢেঁকি ইত্যাদি।<br/> ⇢ <br/>⛳ 📌 দেশি শব্দ: আড়, কুড়ি, কোলা, খর, খেয়া, খোকা, গঞ্জ, বাদুড় , চোঙ্গা, চুলা, চাল, পেট, কয়লা, চৌঙ্গা, মুড়ি, তামাক, নারিকেল, টোপর, ডাব, ডাগর, ডিঙ্গা, ঢেঁকি, ঢোল, ঢেউ, মই ইত্যাদি।<br/>❏ টেকনিক :ডাগর ডাগর ছেলেরা টোপর মাথায় দিয়ে ডাঁসা পেয়ারা কামড় দিয়ে খেয়ে পয়লা ডিঙ্গা নিয়ে গঞ্জে গেল। তারা কুড়ি টাকা দিয়ে এক পেট খেয়ে সাথে চুলাউ, কুলা, ঝানু, ঢেঁকি, ঢোল, ঝামা, কয়লা, খড়, বাগুড়া, বাঙ্গি, মৃগেল ও লম্বা লতি নিয়ে ঢেউয়ে ভাসতে ভাসতে বাড়িতে এসে ঝিনুক মামির কাছে গেল ।<br/>❏ 📌টেকনিক : রাইদা চাল, ডাল ঢেকিতে কুটে কুলায় ঝেড়ে চুলায় ভাত এবং লাউ ঝিঙ্গা ও উচ্ছেদ দিয়ে মাছ (গজার, টেংরা, কাতল ইত্যাদি) রান্না করে টোপর মাথায় দিয়ে ডিঙি নিয়ে গঞ্জে গিয়ে গৃহস্থালি দ্রব্য (পাতিল, ধামা, কুলা ইত্যাদি) কিনে বাড়ি ফিরল।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333231,
+    "question": "কিসের ভেদে ক্রিয়ার রূপের পরিবর্তন হয় না?",
+    "options": [
+      "বচনভেদে",
+      "পুরুষভেদে",
+      "অর্থভেদে",
+      "প্রয়োগভেদে"
+    ],
+    "correct_answer": "বচনভেদে",
+    "explanation": "📖 বাংলা ভাষায় বচনভেদে ক্রিয়ার রূপের কোনো পরিবর্তন হয় না। যেমন: 'সে খায়' (একবচন) এবং 'তারা খায়' (বহুবচন)—উভয় ক্ষেত্রেই ক্রিয়া 'খায়' অপরিবর্তিত রয়েছে। তবে কাল ও পুরুষভেদে ক্রিয়ার রূপ পরিবর্তিত হয়।<br/> ⇢ <br/>⛳ ইংরেজিতে Number বা বচনভেদে Verb পরিবর্তন হয় (He eats, They eat), কিন্তু বাংলায় হয় না। বাংলায় ক্রিয়ার রূপ বদলায় শুধুমাত্র 'কাল' (Tense) এবং 'পুরুষ' (Person) ভেদে। যেমন: আমি খাই (উত্তম পুরুষ), তুমি খাও (মধ্যম পুরুষ), সে খায় (নাম পুরুষ)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333232,
+    "question": "সমাপিকা ও অসমাপিকা ক্রিয়া যুক্ত হয়ে যে ক্রিয়া গঠন করে তাকে কী বলে?",
+    "options": [
+      "সরল ক্রিয়া",
+      "নাম ক্রিয়া",
+      "সংযোগ ক্রিয়া",
+      "যৌগিক ক্রিয়া"
+    ],
+    "correct_answer": "যৌগিক ক্রিয়া",
+    "explanation": "📖 একটি সমাপিকা ও একটি অসমাপিকা ক্রিয়া মিলিত হয়ে যদি একটি বিশেষ বা সম্প্রসারিত অর্থ প্রকাশ করে, তবে তাকে যৌগিক ক্রিয়া বলে। যেমন: ঘটনাটা শুনে রাখ।<br/> ⇢ <br/>⛳ যৌগিক ক্রিয়ার গঠন: অসমাপিকা ক্রিয়া + সমাপিকা ক্রিয়া। এখানে প্রথম ক্রিয়াটি (অসমাপিকা) প্রধান অর্থ প্রকাশ করে এবং দ্বিতীয়টি (সমাপিকা) অর্থের সূক্ষ্মতা বা বিশিষ্টতা প্রকাশ করে। যেমন: 'সাইরেন বেজে উঠল' (এখানে 'বেজে' প্রধান কাজ, 'উঠল' আকস্মিকতা বোঝাচ্ছে)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333233,
+    "question": "ভাষার ক্ষুদ্রতম একক কোনটি?",
+    "options": [
+      "বর্ণ",
+      "শব্দ",
+      "ধ্বনি",
+      "অক্ষর"
+    ],
+    "correct_answer": "ধ্বনি",
+    "explanation": "📖 ভাষার ক্ষুদ্রতম একক হলো 'ধ্বনি' (Sound)। ধ্বনির লিখিত রূপকে বলা হয় বর্ণ। আর অর্থবোধক ধ্বনি বা ধ্বনিসমষ্টিকে বলা হয় শব্দ।<br/> ⇢ <br/>⛳ বাগযন্ত্রের দ্বারা উচ্চারিত অর্থবোধক ধ্বনির সাহায্যে মানুষের মনের ভাব প্রকাশের মাধ্যমকে ভাষা বলে। <br/>▣<b>- ভাষার ক্ষুদ্রতম একক হলো 'ধ্বনি'।</b> <br/>❏ ধ্বনি ভাষার মূল উপাদান। <br/>❏ ধ্বনিকে শব্দের ক্ষুদ্রতম এককও বলা হয়। <br/>▣অন্যদিকে, <br/>❏ ধ্বনির লিখিত রূপ হলো বর্ণ। ধ্বনি চেনার স্মারক বা চিহ্ন বা প্রতীকই বর্ণ। <br/>❏ ভাষার মৌলিক উপাদান শব্দ। <br/>❏ শব্দের ক্ষুদ্রতম অংশ হলো অক্ষর।<br/>▣ মূল উপাদান<br/>❏ ১. ভাষার মূল উপাদান ➺ ধ্বনি (বর্ণ)।<br/>❏ ২. বাক্যের মূল উপাদান ➺ ধ্বনি (বর্ণ)।<br/>❏ ৩. শব্দের মূল উপাদান ➺ ধ্বনি (বর্ণ)।<br/>▣ প্রধান উপাদান<br/>❏ ৪. ভাষার প্রধান উপাদান ➺ ধ্বনি (বর্ণ)।<br/>❏ ৫. বাক্যের প্রধান উপাদান ➺ ধ্বনি (বর্ণ)।<br/>❏ ৬. শব্দের প্রধান উপাদান ➺ ধ্বনি (বর্ণ)।<br/>▣ ক্ষুদ্রতম একক<br/>❏ ৭. ভাষার ক্ষুদ্রতম একক ➺ ধ্বনি (বর্ণ)।<br/>❏ ৮. বাক্যের ক্ষুদ্রতম একক ➺ ধ্বনি (বর্ণ)।<br/>❏ ৯. শব্দের ক্ষুদ্রতম একক ➺ ধ্বনি (বর্ণ)।<br/>▣ মূল উপকরণ<br/>❏ ১০. ভাষার মূল উপকরণ ➺ বাক্য।<br/>❏ ১১. বাক্যের মূল উপকরণ ➺ শব্দ।<br/>❏ ১২. শব্দের মূল উপকরণ ➺ ধ্বনি (বর্ণ)।<br/>▣ একক/ মূল একক<br/>❏ ১৩. ভাষার একক ➺ বাক্য।<br/>❏ ১৪. বাক্যের একক ➺ শব্দ।<br/>❏ ১৫. শব্দের একক ➺ ধ্বনি (বর্ণ)।<br/>▣ বৃহত্তম একক<br/>❏ ১৬. ভাষার বৃহত্তম একক ➺ বাক্য।<br/>❏ ১৭. বাক্যের বৃহত্তম একক ➺ শব্দ<br/>❏ ১৮. শব্দের বৃহত্তম একক ➺ হয় না।<br/>❏ ১৯. ভাষার মৌলিক উপাদান ➺ অর্থবোধক ধ্বনি বা শব্দ। কারণ, সকল ধ্বনির অর্থ হয় না, তাই কেবল অর্থবোধক ধ্বনি। আর শব্দেই প্রথম অর্থের সংশ্লিষ্টতা দেখা দেয়। ভাষার প্রধান উদ্দেশ্য যেহেতু অর্থবাচকতা প্রকাশ করা, সেহেতু এক্ষেত্রে শব্দ ভাষার মৌলিক উপাদান। লক্ষণীয়: বাক্যের মৌলিক উপাদনও 'শব্দ'।<br/>❏ ২০. ভাষার ইট ➺ শব্দ (আওয়াজ)। রবীন্দ্রনাথ ঠাকুরের মতবাদ অনুসারে, ধ্বনি দিয়ে আটবাঁধা শব্দই ভাষার ইট, বাংলায় তাকে বলি 'কথা'। এখানে 'শব্দ' বা 'আওয়াজ'-কে ভাষার ইট বলা হয়েছে। (সূত্র: বাংলাভাষা পরিচয়, রবীন্দ্রনাথ ঠাকুর।<br/>❏ ২১. ভাষার প্রাণ ➺ বাক্য।<br/>❏ ২২. বাক্যের প্রাণ ➺ শব্দ।<br/>❏ ২৩. শব্দের ক্ষুদ্রতম একককে বলে ➺ ধ্বনি। তবে শব্দের অর্থযুক্ত ক্ষুদ্রতম এককে বলে ➺ রূপ (Morpheme)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333234,
+    "question": "\"সূর্যোদয়\" শব্দটির সন্ধি বিচ্ছেদ কোনটি?",
+    "options": [
+      "সূর্য+দয়",
+      "সূর্য+উদয়",
+      "সূর্যো+দয়",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "সূর্য+উদয়",
+    "explanation": "📖 সূর্য + উদয় = সূর্যোদয়। এটি স্বরসন্ধির উদাহরণ (অ + উ = ও)।<br/> ⇢ <br/>⛳ স্বরসন্ধির সূত্র: অ-কার কিংবা আ-কারের পর উ-কার কিংবা ঊ-কার থাকলে উভয়ে মিলে ও-কার (ো) হয়। সেই ও-কার পূর্ববর্তী ব্যঞ্জনে যুক্ত হয়। যেমন: প্রশ্ন + উত্তর = প্রশ্নোত্তর।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333235,
+    "question": "নিচের কোন বানানটি শুদ্ধ?",
+    "options": [
+      "যথোপযুক্ত",
+      "যথপযুক্ত",
+      "যথাউপযুক্ত",
+      "যথাপযুক্ত"
+    ],
+    "correct_answer": "যথোপযুক্ত",
+    "explanation": "📖 সন্ধির নিয়ম অনুযায়ী, অ-কার কিংবা আ-কারের পর উ-কার কিংবা ঊ-কার থাকলে উভয়ে মিলে ও-কার হয়। যেমন: যথা + উপযুক্ত = যথোপযুক্ত।<br/> ⇢ <br/>⛳ একই নিয়মের আরও কিছু উদাহরণ:<br/>❏ ১. সূর্য + উদয় = সূর্যোদয়।<br/>❏ ২. নীল + উৎপল = নীলোৎপল।<br/>❏ ৩. হিত + উপদেশ = হিতোপদেশ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  },
+  {
+    "id": 333236,
+    "question": "\"প্রতীচ্য\" শব্দের বিপরীত শব্দ কোনটি?",
+    "options": [
+      "তীচ্য",
+      "প্রাচী",
+      "অপ্রতীচ্য",
+      "প্রাচ্য"
+    ],
+    "correct_answer": "প্রাচ্য",
+    "explanation": "📖 'প্রতীচ্য' শব্দের অর্থ পশ্চিম বা পশ্চিম দেশীয়। এর বিপরীত শব্দ হলো 'প্রাচ্য' যার অর্থ পূর্ব বা পূর্ব দেশীয়। অন্যদিকে 'প্রাচী' অর্থ পূর্ব দিক এবং 'প্রতীচী' অর্থ পশ্চিম দিক।<br/> ⇢ <br/>⛳ দিক সংক্রান্ত বিপরীত শব্দগুলো মনে রাখা জরুরি:<br/>❏ ১. প্রাচ্য (পূর্ব দেশীয়) ↔ প্রতীচ্য (পশ্চিম দেশীয়)।<br/>❏ ২. উদীচী (উত্তর দিক) ↔ অবাচী (দক্ষিণ দিক)।<br/>❏ ৩. প্রাচী (পূর্ব দিক) ↔ প্রতীচী (পশ্চিম দিক)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অফিস সহকারী কাম-কম্পিউটার অপারেটর",
+    "exam": "৫০৯৩@ভূমি রেকর্ড অধিদপ্তর ➺ পেশকার ☞ 28.11.25"
+  }
+]

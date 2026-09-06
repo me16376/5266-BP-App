@@ -1,0 +1,1022 @@
+[
+  {
+    "id": 184499,
+    "question": "If k is divisible by 3, 9 and 12, which of the following is also divisible by these numbers?",
+    "options": [
+      "k + 15",
+      "k + 35",
+      "k + 45",
+      "k + 72"
+    ],
+    "correct_answer": "k + 72",
+    "explanation": "🔖72 is divisible by 3, 9 and 12. Therefore, if 'k' is divisible by those numbers, (k+72) will also be divisible by them.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184507,
+    "question": "The price of a DVD Player is discounted by 10 percent, and the reduced price is then discounted again by 10 percent. The series of successive discounts is equivalent to a single discount of ----",
+    "options": [
+      "20%",
+      "19%",
+      "18%",
+      "11%"
+    ],
+    "correct_answer": "19%",
+    "explanation": "🔖As we know that ,<br/>Equivalent single discount =<br/>D1 + D2 −<br/>D1 × D2<br/>%<br/>100<br/>Single equivalent discount =<br/>10 + 10 −<br/>10 × 10<br/>% = 19%<br/>100",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184509,
+    "question": "Basar bought equal numbers of 50-paisa and 75-paisa stamps. If the total cost of the stamps was Tk. 50.00, what was the total number of stamps bought?",
+    "options": [
+      "25",
+      "34",
+      "40",
+      "80"
+    ],
+    "correct_answer": "80",
+    "explanation": "🔖let, equal number=x<br/>atq,<br/>0.75x+0.50x=50<br/>or, 1.25x=50<br/>or, x=40<br/>total stamp=40+40=80 stamp",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184510,
+    "question": "Each of two groups of tourists has 60 people. If three-fourth of the first group and two-third of the second group board buses to travel to a museum, how many more people of the first group board buses than that of the second group?",
+    "options": [
+      "5",
+      "6",
+      "10",
+      "15"
+    ],
+    "correct_answer": "5",
+    "explanation": "🔖Tourists of first group board buses is 3/4 of 60 = 45<br/>Tourists of 2nd group board buses 2/3 of 60 = 40<br/>Difference is 45 - 40 = 5",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184511,
+    "question": "If an integer y is subtracted from an integer x, and the result is greater than x, then y must be :",
+    "options": [
+      "Equal to x",
+      "Less than 0",
+      "Less than x",
+      "Greater than 0"
+    ],
+    "correct_answer": "Less than 0",
+    "explanation": "🔖x - y > x<br/>x = 1 এবং y = - 1 হলে, x - y = 1 - (-1) = 2>1<br/>x = 1 এবং y = - 2 হলে, x - y = 1 + 2 = 3 >1<br/>y <0 হলে x - y > x শর্তটি সিদ্ধ হয়।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184512,
+    "question": "A two-digit number has 3 in its unit digit. The sum of its digit is one-seventh of the number itself. What is the number?",
+    "options": [
+      "73",
+      "63",
+      "53",
+      "83"
+    ],
+    "correct_answer": "63",
+    "explanation": "🔖Since it is in the form of a two digit number, then we can write it as a decimal expansion with a three in the units place.<br/>Let y = 10x + 3<br/>We also know that x+3=y⋅17x+3=y⋅17<br/>This means if we multiply both sides by 7 we get:<br/>y=7(x+3)y=7(x+3)<br/>y=7x+21y=7x+21<br/>Since these are both equal to y, we can set them equal one another to find x, the tens digit value:<br/>7x+21=10x+37x+21=10x+3<br/>−3x+21=3−3x+21=3<br/>−3x=−18−3x=−18<br/>x=6x=6<br/>y = 10x + 3 = 10(6) + 3 = 63",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184513,
+    "question": "The total cost of a bouquet of roses at a flower shop depends on the number of roses ordered. The vase costs $5, and each rose costs $2.25. Which equation can be used to find 'c', the total cost of a bouquet with 'r' roses?",
+    "options": [
+      "c = (5 + 2.25)r",
+      "c = 5r + 2.25",
+      "c = 5 + 2.25r",
+      "c = 5 + (5-2.25)r"
+    ],
+    "correct_answer": "c = 5 + 2.25r",
+    "explanation": "🔖Cost of the roses only = 2.25 x r = 2.25r<br/>Cost of the vase = 5<br/>So, tatal cost, c = 5 + 2.25r",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184514,
+    "question": "If 6 workers can complete 9 identical jobs in 3 days, how long (in days) will it take 4 workers to complete 10 such jobs?",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "3"
+    ],
+    "correct_answer": "5",
+    "explanation": "🔖6 workers-9 jobs in 3 daysIn one day 6 workers can do 3 jobsIn one day 1 worker can do 0.5 job4 workers can so 2 jobs in a day<br/>So. They can do 10 jobs in 5 days",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184515,
+    "question": "The area of a rectangle R with width 4 feet is equal to the area of a square S, which has a perimeter of 24 feet. The perimeter of the rectangle R, in feet, is :",
+    "options": [
+      "9",
+      "16",
+      "24",
+      "26"
+    ],
+    "correct_answer": "26",
+    "explanation": "🔖we know,<br/>perimeter of square=4a<br/>atq,<br/>4a=24<br/>or, a=6<br/>so, area of square=6*6=36<br/>according to the question,<br/>area of rectangle=36<br/>or, L*W=36<br/>or, l=36/4<br/>or, l=9<br/>perimeter of rectangle=2*(9+4)=26 ft (ans)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184516,
+    "question": "If y = ( 3x - 6 )/x, then for what values of x, y will be positive?",
+    "options": [
+      "x>2 or x <0",
+      "x>0",
+      "x<0",
+      "-2"
+    ],
+    "correct_answer": "x>2 or x <0",
+    "explanation": "<p>সমীকরণ হতে দেখা যাচ্ছে,&nbsp;&nbsp;</p><br/><p>x</p><br/><p>−</p><br/><p>2</p><br/><p>x</p><br/><p>&nbsp;এর ধনাত্মক মানের জন্য y এর মান ধনাত্মক হবে। এখন,&nbsp;</p><br/><p>x</p><br/><p>−</p><br/><p>2</p><br/><p>x</p><br/><p>&nbsp;এর মান ঋণাত্মক হবে, যদি (i) x  -  2 &gt; 0 হয় এবং x &gt; 0 হয় অথবা (ii) x  -  2 &lt; 0 হয় এবং x &lt; 0 হয়।</p><br/><p>(i) হতে x &gt; 2 হলে y এর মান ধনাত্মক হবে</p><br/><p>(ii) হতে x &lt; 0 হলে y   \"      \"         \"        \"&nbsp;</p><br/><p>∴<span style=\"font-size: 1rem;\">&nbsp;নির্ণেয় সীমা x &gt; 2 or x&lt; 0</span></p><br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184517,
+    "question": "Six consecutive whole numbers are given. The sum of the first three numbers is 27. What is the sum of the last three numbers?",
+    "options": [
+      "36",
+      "33",
+      "32",
+      "30"
+    ],
+    "correct_answer": "36",
+    "explanation": "🔖Let the numbers be x,x+1,x+2, x+3,x+4,x+5<br/>So now ATQ,<br/>x+x+1+x+2=27<br/>So that's equal to 3x+3=27<br/>which is equal to x+1=9.<br/>So x=8<br/>Now the sum of other three numbers=x+3+x+4+x+5=3x+12= 3*8+12=24+12=36<br/>Hence Answer is 36",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184518,
+    "question": "120 students in a class play cricket or football or both. If 75 students play cricket and 60 students play football, how many play both?",
+    "options": [
+      "15",
+      "16",
+      "76",
+      "38"
+    ],
+    "correct_answer": "15",
+    "explanation": "🔖120 জন ছাত্রের সবাই ত্রিকেট, ফুটবল অথবা উভয়টি খেলে । যদি 75 জন ক্রিকেট এবং 60 জন<br/>ফুটবল খেলে, তাহলে কতজন উভয়টি খেলে ?<br/>শুধু ক্রিকেট খেলে = 75 জন<br/>এবং ফুটবল খেলে = 60 জন<br/>ক্রিকেট ও ফুটবল খেলে = 75 + 60 = 135 জন<br/>মোট ছাত্র 120 জন হলে তাদের মধ্যে উভয়টি খেলে = 135 - 120 = 15 জন ।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184519,
+    "question": "Three boys have marbles in the ratio of 19 : 5 : 3. If the boy with the least number has 9 marbles, how many marbles does the boy with the highest number have?",
+    "options": [
+      "57",
+      "15",
+      "76",
+      "38"
+    ],
+    "correct_answer": "57",
+    "explanation": "🔖Here 3 is equivalent to 9<br/>So, 19 is equivalent to 9*19/3 = 57<br/>Ans: 57",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184520,
+    "question": "After taking 30 socks out of the washing machine, Shamim noticed that the ratio of blue socks to brown socks to black socks was 2:3:5. How many black socks were in the washing machine?",
+    "options": [
+      "21",
+      "15",
+      "9",
+      "6"
+    ],
+    "correct_answer": "15",
+    "explanation": "🔖Dryer মেশিন থেকে 30 টি মোঝা নেয়ার পর Dina খেয়াল করলো যে নীল, বাদামি ও কালো<br/>রংয়ের মোজার অনুপাত হলো 2 : 3 : 5. Dryer মেশিনে কয়টি কালো রংয়ের মোজা ছিলো ?<br/>Black মোজার সংখ্যা = 30 ×52+3+5×52+3+5 = 15 টি",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184523,
+    "question": "If b <2 and 2x-3b=0, which of the following must be true?",
+    "options": [
+      "x>-3",
+      "x<2",
+      "x=3",
+      "x<3"
+    ],
+    "correct_answer": "x<3",
+    "explanation": "🔖given 2x-3b=0 or x =3b/2 and b<2<br/>St 1: x>-3 lets consider possible value of b if b =-24 then x =-36 so x>-3 could be true but not must be true<br/>St2: x<2 if b=1.9 the x= 3*1.9/2 or x> 2 so this condition could be true but not must be true<br/>St3: x=3 for x =3 we need b=1 which is possible but again falls under could be true cause b can take any value Less than 2<br/>St4: x<3 -------> or 3b/2<3 we get (3b-6)/2< 0 or 3b-6< 0 Or b< 2 which is same as the original given condition",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184524,
+    "question": "If an inspector rejects 0.08% of a product as defective, how many units of the product will be examined in order to reject 2?",
+    "options": [
+      "1500",
+      "500",
+      "2000",
+      "2500"
+    ],
+    "correct_answer": "2500",
+    "explanation": "🔖0.08 % rejected<br/>0.08 is rejected out of 100<br/>1 is rejected out of = 100/(0.08) = 10000/8 = 1250<br/>2 is rejected out of = 2*1250 = 2500",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184525,
+    "question": "Ms. Zareen purchased stock for Tk. 15,000 and 2/3 of it after its value doubled. She sold the remaining stock at 5 times its purchase price , what was her total profit?",
+    "options": [
+      "Tk. 15,000",
+      "Tk. 20,000",
+      "Tk. 25,000",
+      "Tk. 30,000"
+    ],
+    "correct_answer": "Tk. 30,000",
+    "explanation": "🔖Original price:<br/>2/3 of stock = 10000<br/>1/3 of stock = 5000<br/>Sale price:<br/>2/3 doubled = 2*10000 = 20000<br/>1/3 quintupled = 5*5000 = 25000<br/>Total profit = Total selling price - Total purchase price of stock =<br/>(20000 + 25000) - (10000 + 5000) = 45000 - 15000 = 30000 tk",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184526,
+    "question": "A car goes 15 miles on a gallon of octane when it is driven at 50 miles per hour. When the car is driven at 60 miles per hour, it only goes 80% as far. How many gallons of octane is needed to travel 200 miles if half the distance is traveled at 50 miles per hour and the rest at 60 miles per hour?",
+    "options": [
+      "13.33",
+      "16.67",
+      "10.6",
+      "15"
+    ],
+    "correct_answer": "15",
+    "explanation": "🔖A car goes 15 km with a gallon of octane at 50 km/hr.<br/>Again,<br/>If travels with 60 km/hr, it goes 80% far as that of before. i.e.<br/>D=80%×15=12 km.<br/>Now,<br/>According to question, if 100 km is travelled in 50 km/hr and another 100 km in 60 km/hr then,<br/>In 50 km/hr: 1 gallon= 15 km<br/>In 60 km/hr: 1 gallon=12 km<br/>Hence,<br/>Total required gallons of octane is;<br/>100/15 + 100/12<br/>=15 gallons.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184527,
+    "question": "The sum of two numbers is 56. If three times of the smaller number is one-half of the larger number, what is the larger number?",
+    "options": [
+      "16",
+      "7.5",
+      "4",
+      "48"
+    ],
+    "correct_answer": "48",
+    "explanation": "🔖let, the larger number=x<br/>smaller number =x-56<br/>atq,<br/>3(56-x)=x/2<br/>or,7x/2=168<br/>or,x=24*2=48<br/>so, the larger number is =48 (ans)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184528,
+    "question": "Mr. Zaman is insured completely for Tk. 1,50,000 against damages to his machinery. For any damage over Tk. 1,50,000 the insurance company will pay Tk. 1,50,000 plus 15% of the additional damage. For a recent accident, Mr. Zaman was paid Tk. 1,56,000 by the insurance company. What was the total amount to the damage estimated?",
+    "options": [
+      "Tk. 1,04,000",
+      "Tk. 90,000",
+      "Tk. 40,000",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖প্রশ্নমতে, 50000 টাকার অতিরিক্ত ক্ষতিপূরণ প্রদান করেছিল = 56,000 - 50,000 = 6,000 টাকা<br/>এখন, 20% ক্ষতির সমমূল্য = 6,000 টাকা<br/>100% ক্ষতির সমমূল্য = 100×600020100×600020 = 30,000 টাকা<br/>মোট ক্ষতির পরিমাণ = (50,000 + 30,000)<br/>= 80,000 টাকা ।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184529,
+    "question": "The country which ranks second in terms of land area is :",
+    "options": [
+      "China",
+      "Canada",
+      "Russia",
+      "USA"
+    ],
+    "correct_answer": "Canada",
+    "explanation": "✐ 🔖Canada is a country in the northern part of North America.<br/>Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area.<br/>Its southern and western border with the United States, stretching 8,891 kilometres (5,525 mi), is the world's longest bi-national land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184530,
+    "question": "Who is the current governor of Bangladesh Bank?",
+    "options": [
+      "Dr. Fakhruddin Ahmed",
+      "Dr. Farashuddin",
+      "Dr. Salehuddin Ahmed",
+      "Dr. Atiur Rahman"
+    ],
+    "correct_answer": "Dr. Atiur Rahman",
+    "explanation": "🔖সঠিক উত্তর হবে (ঘ)। কারণ সবগুলোই কায়কোবাদের রচনাকর্ম। ‘অশ্রুমালা’ (১৮৯৫) বিখ্যাত গীতিকাব্য, ‘মহাশ্মশান’ (১৯০৪) মহাকাব্য তাকে অমরত্ব দান করেছে। আর ‘অমিয় ধারা’ (১৯২৩) তার অন্যতম কাব্যগ্রন্থ।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184531,
+    "question": "According to ADB/World bank, the expected GDP growth rate of Bangladesh in the current fiscal year is expected to be close to :",
+    "options": [
+      "9%",
+      "8%",
+      "7%",
+      "5%"
+    ],
+    "correct_answer": "5%",
+    "explanation": "🔖বিশ্বকবি রবীন্দ্রনাথ ঠাকুর ১৯১২ খ্রিষ্টাব্দে ইংল্যান্ডে গমনকালে জাহাজে বসেই বাংলা ‘গীতাঞ্জলী’ ও অন্যান্য কাব্য থেকে কিছু কবিতা ইংরেজিতে অনুবাদ করেন। সেগুলো Song Offerings নামে ১৯১২-র নভেম্বরে ইংল্যান্ডেই প্রকাশিত হয় এবং ঐ গ্রন্থের আলোকেই ১৯১৩ সালে তিনি সাহিত্যে নোবেল পুরস্কার লাভ করেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184532,
+    "question": "What does NBFI stand for?",
+    "options": [
+      "Non-Bank Financial Institution",
+      "Neo-Bangla Funding Institution",
+      "Non-Bangladeshi Formal Industries",
+      "Non-Banking Foreign Institution"
+    ],
+    "correct_answer": "Non-Bank Financial Institution",
+    "explanation": "🔖চতুর্ভুজ অঙ্কন করতে নিম্নের উপাত্তগুলো জানা প্রয়োজনঃ (ক) চারটি বাহু ও একটি কোণ, (খ) চারটি বাহু ও একটি কর্ণ, (গ) তিনটি বাহু ও দুইটি কর্ণ, (ঘ) তিনটি বাহু ও তাদের অন্তর্ভুক্ত দুইটি কোণ, (ঙ) দুইটি বাহু ও তিনটি কোণ, (চ) দুইটি কর্ণের খন্ডিত অংশসমূহ ও কর্ণ দুইটির অন্তর্ভুক্ত একটি কোণ। কাজেই সঠিক উত্তর (ঘ)।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184533,
+    "question": "The current inflation rate of Bangladesh is close to which of the following?",
+    "options": [
+      "5%",
+      "6%",
+      "7%",
+      "8%"
+    ],
+    "correct_answer": "5%",
+    "explanation": "🔖ধরি, ঘরের বিস্তার (প্রস্থ) = x মি.<br/>সুতরাং \" \" দৈর্ঘ্য = ২x \"<br/>\" \" \" ক্ষেত্রফল = \\( ২{x}^{২} \\) বর্গ মি.<br/>প্রশ্নমতে, \\( ২{x}^{২} \\) = ৫১২<br/>\\( {x}^{২} \\) = ২৫৬<br/>সুতরাং x = ১৬<br/>ঘরের প্রস্থ = ১৬ মি.<br/>\" দৈর্ঘ্য = ৩২ মি.<br/>আমরা জানি,<br/>আয়তক্ষেত্রের পরিসীমা = ২ (দৈর্ঘ্য + প্রস্থ) = ২×৪৮ = ৯৬ মি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184534,
+    "question": "Which organization tries to find solutions to world problems and disputes?",
+    "options": [
+      "The United Nations",
+      "IMF",
+      "UNICEF",
+      "Green Peace"
+    ],
+    "correct_answer": "The United Nations",
+    "explanation": "🔖ধরি, একটি সংখ্যা x<br/>সুতরাং অপর সংখ্যা \\( \\frac{২x}{৩} \\)<br/>প্রশ্নমতে, \\( x+\\frac{২x}{৩} \\) = ১০০<br/>৩x+২x = ৩০০<br/>x = ৬০<br/>একটি সংখ্যা = ৬০<br/>অপর সংখ্যা = \\( \\frac{২\\times ৬০}{৩} \\) = ৪০<br/>অর্থাৎ বড় সংখ্যার মান ৬০।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184535,
+    "question": "The largest ocean of the world is the ----",
+    "options": [
+      "Antarctic",
+      "Atlantic",
+      "Indian",
+      "Pacific"
+    ],
+    "correct_answer": "Pacific",
+    "explanation": "🔖১ থেকে ২০ পর্যন্ত মৌলিক সংখ্যাগুলো হলোঃ ২, ৩, ৬, ৭, ১১, ১৩, ১৭, ১৯ অর্থাৎ ৮ টি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184536,
+    "question": "The world's largest diamond producing country is :",
+    "options": [
+      "South Africa",
+      "Saudi Arabia",
+      "USA",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "It’s worth noting that in 2023, the global production level of diamonds fell by 8% compared to 2022, reaching 111.52 million carats or 22 tons (1 carat = 0.2 grams). The decline was caused by a reduction in demand from cutters and weak sales.<br/><br/>Russia tops the list with a production level of around 37.32 million carats in 2023 – an 11% decrease from the previous year.<br/>Botswana, the second-largest producer, mined 25.1 million carats, which is a 2% drop from 2022. In the same period, Angola (4th largest producer) registered an 11% drop in diamond production, with a figure of 9.75 million carats.<br/>Canada has also registered a drop of 2%, registering production of 16 million carats.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184537,
+    "question": "The first Prime Minister of Bangladesh was ---",
+    "options": [
+      "Sheikh Mujibur Rahman",
+      "syed Nazrul Islam",
+      "AHM Kamruzzaman",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖দেয়া আছে,<br/>ভাজক = ০.৫<br/>প্রশ্নমতে, ভাগফল = ০.৫×১০=৫<br/>আমরা জানি, ভাজ্য= ভাজক×ভাগফল= ০৫.×৫=২.৫",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184538,
+    "question": "The permanent secretariat of the SAARC is located at ---",
+    "options": [
+      "Dhaka",
+      "Thimpu",
+      "Mumbai",
+      "Kathmandu"
+    ],
+    "correct_answer": "Kathmandu",
+    "explanation": "🔖'ভাগ' প্রক্রিয়ার সম্পর্কগুলো হলোঃ<br/>(১) ভাজ্য ÷ ভাজক = ভাগফল<br/>(২) ভাজক × ভাগফল = ভাজ্য<br/>(৩) ভাজ্য ÷ ভাগফল = ভাজক<br/>(৪) ভাজ্য = ভাজক×ভাগফল+ভাগশেষ<br/>(৫) ভাজক = (ভাজ্য-ভাগশেষ)÷ভাগফল<br/>(৬) ভাগফল = (ভাগ্য-ভাগশেষ)÷ভাজক<br/>অতএব সঠিক উত্তর (ঘ)।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184539,
+    "question": "The first industrial revolution took place in ----",
+    "options": [
+      "USA",
+      "England",
+      "France",
+      "Germany"
+    ],
+    "correct_answer": "England",
+    "explanation": "🔖১০% ক্ষতিতে<br/>ঘড়ির বিক্রয়মূল্য ৯০ টাকা হলে ক্রয়মূল্য ১০০ টাকা<br/>\" \" ১ \" \" \" \\( \\frac{১০০}{৯০} \\) টাকা<br/>\" \" ৫৪০ \" \" \" \\( \\frac{১০০\\times ৫৪০}{৯০} \\) টাকা<br/>= ৬০০ টাকা।<br/>৬৬০ টাকায় বিক্রয় করলে লাভ = ৬৬০-৬০০= ৬০ টাকা<br/>৬০০ টাকায় লাভ ৬০ টাকা<br/>১ \" \" \\( \\frac{৬০}{৬০০} \\) টাকা<br/>১০০ \" \" \" \\( \\frac{৬০\\times ১০০}{৬০০} \\)<br/>= ১০% লাভ",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184540,
+    "question": "\"Paradise Regained\" was written by ---",
+    "options": [
+      "Lord Byron",
+      "William Shakespeare",
+      "John Milton",
+      "Percy Bysshe Shelley"
+    ],
+    "correct_answer": "John Milton",
+    "explanation": "🔖Paradise Regained is a poem by English poet John Milton, first published in 1671.<br/>The volume in which it appeared also contained the poet's closet drama Samson Agonistes.<br/>Paradise Regained is connected by name to his earlier and more famous epic poem Paradise Lost, with which it shares similar theological themes; indeed, its title, its use of blank verse, and its progression through Christian history recall the earlier work.<br/>However, this effort deals primarily with the temptation of Christ as recounted in the Gospel of Luke.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184541,
+    "question": "The first woman Prime Minister of Britain was :",
+    "options": [
+      "Golda Meir",
+      "Gro Harlem Brundtland",
+      "Dame Eugenia Charles",
+      "Margeret Thatcher"
+    ],
+    "correct_answer": "Margeret Thatcher",
+    "explanation": "<p>Margaret Hilda Thatcher, Baroness Thatcher, LG, OM, DStJ, PC, FRS, HonFRSC (née Roberts; 13 October 1925 – 8 April 2013) was Prime Minister of the United Kingdom from 1979 to 1990 and Leader of the Conservative Party from 1975 to 1990.</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184542,
+    "question": "Money appears to have a major influence on :",
+    "options": [
+      "inflation",
+      "the business cycle",
+      "interest rates",
+      "all of these"
+    ],
+    "correct_answer": "all of these",
+    "explanation": "Money appears to have a major influence on. inflation, the business cycle and interest rates.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184543,
+    "question": "An increase in the growth rate of the money supply is most likely to be followed by :",
+    "options": [
+      "Recession",
+      "a decline in economic activity",
+      "Inflation",
+      "all of these"
+    ],
+    "correct_answer": "Inflation",
+    "explanation": "<p>A sharp increase in the growth of the money supply is likely followed by an increase in the inflation rate, which measures the increase in the general price level of goods and services.</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184544,
+    "question": "When you purchase shares of corporate stock, then ----",
+    "options": [
+      "You have loaned money to the corporation",
+      "You own part of the corporation",
+      "You have made new funds available to the corporation",
+      "All of the above"
+    ],
+    "correct_answer": "You own part of the corporation",
+    "explanation": "🔖Stock (also capital stock) is all of the shares into which ownership of a corporation is divided.<br/>In American English, the shares are collectively known as \"stock\".<br/>A single share of the stock represents fractional ownership of the corporation in proportion to the total number of shares.<br/>This typically entitles the stockholder to that fraction of the company's earnings, proceeds from liquidation of assets (after discharge of all senior claims such as secured and unsecured debt), or voting power, often dividing these up in proportion to the amount of money each stockholder has invested.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184545,
+    "question": "The name of the strand of virus, known as 'swine flu' virus, that has been declared as a pandemic worldwide is :",
+    "options": [
+      "H1N2",
+      "H2N2",
+      "H2N1",
+      "H1N1"
+    ],
+    "correct_answer": "H1N1",
+    "explanation": "🔖Swine influenza is an infection caused by any one of several types of swine influenza viruses.<br/>Swine influenza virus (SIV) or swine-origin influenza virus (S-OIV) is any strain of the influenza family of viruses that is endemic in pigs.<br/>As of 2009, the known SIV strains include influenza C and the subtypes of influenza A known as H1N1, H1N2, H2N1, H3N1, H3N2, and H2N3.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184546,
+    "question": "Which city is known as the Pink City?",
+    "options": [
+      "Tokyo",
+      "Joypur",
+      "Delhi",
+      "Beijing"
+    ],
+    "correct_answer": "Joypur",
+    "explanation": "<p>A romantic dusty pink hue -- which has defined the city since 1876, after it was painted pink to welcome Queen Victoria's husband, Prince Albert -- gives Jaipur its status as the \"Pink City,\" as it is commonly known.</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184547,
+    "question": "NBFIs constitute of which of the following?",
+    "options": [
+      "banks and leasing firms",
+      "leasing firms and insurance companies",
+      "banks and insurance firms",
+      "banks, leasing firms and insurance companies"
+    ],
+    "correct_answer": "leasing firms and insurance companies",
+    "explanation": "🔖A non-banking financial institution (NBFI) or non-bank financial company (NBFC) is a financial institution that does not have a full banking license or is not supervised by a national or international banking regulatory agency. NBFC facilitate bank-related financial services, such as investment, risk pooling, contractual savings, and market brokering.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184548,
+    "question": "Olympic 2012 will be held in ----",
+    "options": [
+      "London",
+      "Paris",
+      "New York",
+      "Beijing"
+    ],
+    "correct_answer": "London",
+    "explanation": "<p>The 2012 Summer Olympics was an international multi-sport event held from 27 July to 12 August 2012 in London, England, United Kingdom.</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184549,
+    "question": "Select the word, which most appropriately fills in the gap in each sentence : Some people believe that money is the primary ------ that drives individuals.",
+    "options": [
+      "effect",
+      "issue",
+      "aspect",
+      "motivator"
+    ],
+    "correct_answer": "motivator",
+    "explanation": "<p>Select the word, which most appropriately fills in the gap in each sentence : Some people believe that money is the primary ------ that drives individuals.</p><br/><p>Answer: Motivator</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184550,
+    "question": "Select the word, which most appropriately fills in the gap in each sentence : It is a stereotyping ------ that all people prefer basketball as a sport over all others.",
+    "options": [
+      "belief",
+      "information",
+      "fact",
+      "reality"
+    ],
+    "correct_answer": "belief",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184551,
+    "question": "Select the word, which most appropriately fills in the gap in each sentence : Frankly, I find it too ----- a situation for him to have berated his child like that.",
+    "options": [
+      "insignificant",
+      "grave",
+      "acute",
+      "delicate"
+    ],
+    "correct_answer": "insignificant",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184552,
+    "question": "Select the word, which most appropriately fills in the gap in each sentence : He ---- pursued the implementation of the project.",
+    "options": [
+      "arrogantly",
+      "absolutely",
+      "doggedle",
+      "instinctively"
+    ],
+    "correct_answer": "doggedle",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184553,
+    "question": "Select the word, which most appropriately fills in the gap in each sentence : It is an old ----- that says 'Only the wearer known where the shoe pinches.'",
+    "options": [
+      "belief",
+      "perception",
+      "person",
+      "adage"
+    ],
+    "correct_answer": "adage",
+    "explanation": "<p>এটি একটি প্রবাদবাক্য।&nbsp;</p><br/><p>Adage শন্দের অর্থ হলো প্রবাদবাক্য।&nbsp; তাই সঠিক উত্তর হলো D</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184554,
+    "question": "Synonyms : Select the word that best expresses the quotation word in each sentence. Every individual is responsible for \"upholding\" the moral of society.",
+    "options": [
+      "developing",
+      "judging",
+      "keeping up",
+      "maintaining"
+    ],
+    "correct_answer": "keeping up",
+    "explanation": "<p>Upholding is to defend or keep a principle or law, or to say that a decision that has already been made, especially a legal one, is correct: As a police officer you are expected to uphold the law whether you agree with it or not. Judge Davis upheld the county court's decision.</p><br/><p>Hence, upholding is similar to keeping up.</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184555,
+    "question": "Synonyms : Select the word that best expresses the quotation word in each sentence. You can reach your goal only when you \"aspire\".",
+    "options": [
+      "aim high",
+      "attempt it",
+      "try",
+      "dream"
+    ],
+    "correct_answer": "aim high",
+    "explanation": "🔖যে noun কোনো এক শ্রেণির ব্যাক্তি বা বস্তুর প্রত্যেকের সাধারণ নাম বোঝায় তাকে Common noun বলে। এখানে Salt হলো material noun. Army সমষ্টি অর্থে collective noun, studentship গুন অর্থে abstract noun, infant অর্থ শিশু। Common noun- এর সংজ্ঞানুসারে (ঘ) সঠিক উত্তর।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184556,
+    "question": "Synonyms : Select the word that best expresses the quotation word in each sentence. Read the \"abridged\" version of the novel to get an overall idea of the book.",
+    "options": [
+      "summarized",
+      "condensed",
+      "critique's",
+      "accurate"
+    ],
+    "correct_answer": "summarized",
+    "explanation": "🔖Advice অর্থ উপদেশ। এটি বিশেষ্য (noun) আর যখন বানান হবে Advise তখন এর অর্থ দাঁড়ায় উপদেশ দেয়া যা ক্রিয়া (verb) হিসেবে ব্যবহৃত হয়। অতএব, সঠিক উত্তর (ঘ)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184557,
+    "question": "Synonyms : Select the word that best expresses the quotation word in each sentence. In comparison to the history of the world, human life is very \"transient\".",
+    "options": [
+      "Meaningless",
+      "poignant",
+      "short-lived",
+      "arbitrary"
+    ],
+    "correct_answer": "short-lived",
+    "explanation": "🔖Verb+ ing noun- এর কাজ করলে তাকে Gerund বলে। Verb+ ing adjective এর কাজ করলে তাকে present participle বলে। তাই (ক) correct answer.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184558,
+    "question": "Synonyms : Select the word that best expresses the quotation word in each sentence. Employers look for \"agility\" in workers in small part production plants.",
+    "options": [
+      "dexterity",
+      "flexibility",
+      "liveliness",
+      "alertness"
+    ],
+    "correct_answer": "liveliness",
+    "explanation": "🔖Little- এর comparative form হচ্ছে less এবং superlative form হলো least, Lest একটি conjunction. এর অর্থ পাছে (ঘটে তাই)। কাজেই সঠিক উত্তর (ঘ)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184559,
+    "question": "Select on option that best expresses a relationship similar to that expressed in the original pair. LAZY : INDOLENT",
+    "options": [
+      "Introvert : Sociable",
+      "Work : Toil",
+      "Novice : Veteran",
+      "Stubborn : Inflexible"
+    ],
+    "correct_answer": "Stubborn : Inflexible",
+    "explanation": "🔖Louse অর্থ উকুন বা উকুন জাতীয় পোকা। Louse হচ্ছে singular; এর plural form হচ্ছে lice. এরকম অন্য একটি উদাহরণ হলো mouse থেকে mice, সঠিক উত্তর (গ)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184560,
+    "question": "Select on option that best expresses a relationship similar to that expressed in the original pair. EVIDENCE : PROVE",
+    "options": [
+      "Facts : Establish",
+      "Illustration : Justify",
+      "Data : Measure",
+      "Fortification : Defend"
+    ],
+    "correct_answer": "Fortification : Defend",
+    "explanation": "🔖Masculine Gender অর্থ পুংলিঙ্গ। Heir অর্থ উত্তরাধিকারী, যুবরাজ। Cow অর্থ গাভী। Niece অর্থ ভাগিনেয়ী বা ভাইয়ের মেয়ে এবং Bee অর্থ মৌমাছি। তবে এটি Common gender হিসেবেও ব্যবহৃত হয়।তাহলে একমাত্র Heir-ই Masculine gender. এর Feminine gender হবে heiress (উত্তরাধিকারিনী)। সঠিক উত্তর হবে (ক)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184561,
+    "question": "Select on option that best expresses a relationship similar to that expressed in the original pair. CRIME : PUNISHMENT",
+    "options": [
+      "Fun : Enjoyment",
+      "Collection : Set",
+      "Theft : Law",
+      "Misdeed : Penalty"
+    ],
+    "correct_answer": "Misdeed : Penalty",
+    "explanation": "🔖Withdraw অর্থ ফিরিয়ে নেয়া বা প্রত্যাহার করা (ক) give out অর্থ বিলি করা; (গ) give up অর্থ পরিত্যাগ করা বা ছেড়ে দেয়া; (ঘ) give away অর্থ বিতরণ করা; (খ) give from- এর কোনো ব্যবহার নেই। এখানে withdraw এর সাথে give up এর অর্থ সামঞ্জস্যপূর্ণ। তাই (গ) correct answer.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184562,
+    "question": "Select on option that best expresses a relationship similar to that expressed in the original pair. SOW : HARVEST",
+    "options": [
+      "Reap : Autumn",
+      "Grow : Field",
+      "Plant : Yield",
+      "Crop : Seed"
+    ],
+    "correct_answer": "Plant : Yield",
+    "explanation": "🔖এখানে correct spelling হচ্ছে Diarrhoea। অর্থ উদারময়। তাই (ক)-ই correct answer.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184563,
+    "question": "Select on option that best expresses a relationship similar to that expressed in the original pair. FLOCK : BIRDS",
+    "options": [
+      "Pool : Water",
+      "Pack : Wolves",
+      "Stray : Dogs",
+      "Zoo : Animals"
+    ],
+    "correct_answer": "Pack : Wolves",
+    "explanation": "🔖এখানে correct spelling হচ্ছে colonel (কর্নেল)। সঠিক উত্তর (ক)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184564,
+    "question": "Identifying Correct Sentence : SET 1",
+    "options": [
+      "It is further from here.",
+      "It is still further from here.",
+      "What you say is fur from the truth",
+      "It is far from here."
+    ],
+    "correct_answer": "It is far from here.",
+    "explanation": "🔖Bad হচ্ছে positive form. Bad এর comparative form হচ্ছে worse এবং superlative form হচ্ছে worst. প্রশ্নানুসারে (খ) বা (গ) উভয়ই সঠিক উত্তর।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184565,
+    "question": "Identifying Correct Sentence : SET 2",
+    "options": [
+      "Beside being clever, she is very perceptive.",
+      "Besides being clever, she is very perceptive.",
+      "Beside being clever, she is also perceptive.",
+      "Asides being clever, she is very perceptive."
+    ],
+    "correct_answer": "Besides being clever, she is very perceptive.",
+    "explanation": "🔖Participle একই সাথে verb ও adjective এর কাজ করে। Present participle গঠিত হয় verb + ing যোগে। সঠিক উত্তর (খ)। Verb ও noun- এর কাজ একসাথে করে gerund.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184566,
+    "question": "Identifying Correct Sentence : SET 3",
+    "options": [
+      "It is neither true nor valid.",
+      "It is not true and nor valid.",
+      "It is nor true and definitely not valid.",
+      "It is neither true or valid."
+    ],
+    "correct_answer": "It is neither true nor valid.",
+    "explanation": "🔖Defect: tactful = ত্রুটিঃ সুবুদ্ধিসম্পন্ন gay: joyful = হাসিখুশি, উচ্ছলঃ আনন্দিত excite: accept = আন্দোলিত করাঃ নেয়া, গ্রহণ করা submissive: proud= বাধ্য, অনুগতঃ গর্বিত। প্রদত্ত option- গুলোর একমাত্র Gay ও Joyful-ই সমার্থক। অতএব, সঠিক উত্তর (খ)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184567,
+    "question": "Identifying Correct Sentence : SET 4",
+    "options": [
+      "You have achieve much more than expected.",
+      "You achieved much more than expected.",
+      "You have achieved too much more than we expected.",
+      "You have achieved more than we expected."
+    ],
+    "correct_answer": "You have achieved more than we expected.",
+    "explanation": "🔖Gentle অর্থ ভদ্র; অমায়িক; নম্র। এর antonym হচ্ছে rude (অভদ্র; অমার্জিত) Harsh অর্থ – রুঢ, কর্কশ; Native অর্থ- সাদাসিধা; সরল; Shrewd অর্থ- বিচক্ষণ; চৌকশ। তাই (ক)-ই correct answer",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  },
+  {
+    "id": 184568,
+    "question": "Identifying Correct Sentence : SET 5",
+    "options": [
+      "Actions speak louder than words",
+      "An action speak louder than words",
+      "The actions speak much louder than words",
+      "Action speak louder than words"
+    ],
+    "correct_answer": "Actions speak louder than words",
+    "explanation": "🔖সঠিক উত্তর (গ)। কারণ অন্যগুলো conjunction। একমাত্র (গ) preposition",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "09@National Bank Ltd - Officer - 11.09.09"
+  }
+]

@@ -1,0 +1,1022 @@
+[
+  {
+    "id": 292643,
+    "question": "নিচের কোনটি সি প্রোগ্রামিং ভাষায় সঠিক ভ্যারিয়েবল নাম? (Which one is a valid variable name in C programming language?",
+    "options": [
+      "123unsigned",
+      "%unsigned",
+      "unsigned",
+      "_unsigned"
+    ],
+    "correct_answer": "_unsigned",
+    "explanation": "<p><span style=\"font-size: 1rem;\">Variable এর নাম অবশ্যই ডলার সাইন ( $ ) দিয়ে শুরু হতে হবে। Variable এর নাম সংখ্যা দিয়ে শুরু হতে পারবে না। Variable এর নামের মাঝে হাইফেন(” – “) থাকা যাবে না প্রয়োজনে underscore (” _ “) ব্যবহার করা যাবে। Variable এর নাম case sensitive অর্থাৎ $age এবং $AGE দুটি পৃথক variable ।</span></p>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292644,
+    "question": "এইচটিএমএল এ হাইপারলিংক কীভাবে লিখতে হয়? (How to Insert hyperlink in HTML?)",
+    "options": [
+      "<a url = ‘www.abc.com’>ABC</a>",
+      "<a href = ‘www.abc.com’>ABC</a>",
+      "<a target = ‘www.abc.com’>ABC</a>",
+      "<url link = ‘www.abc.com’>ABC</url>"
+    ],
+    "correct_answer": "<a href = ‘www.abc.com’>ABC</a>",
+    "explanation": "<p><p><br/></p><br/>HTML এ হাইপারলিংক লিখতে, আপনাকে অ্যাঙ্কর (<a>) ট্যাগ ব্যবহার করতে হবে। এই ট্যাগের দুটি প্রধান অ্যাট্রিবিউট আছে:<br/><br/>href: এটি হাইপারলিংকের URL নির্ধারণ করে।<br/>link text: এটি হাইপারলিংকে প্রদর্শিত টেক্সট।<br/></a><br/></p><br/><p><br/></p><br/><p><br/></p><br/>বিভিন্ন ধরণের হাইপারলিংক:<br/><br/>আপনি বিভিন্ন ধরণের হাইপারলিংক তৈরি করতে পারেন, যেমন:<br/><br/>অভ্যন্তরীণ লিংক: একই ওয়েবসাইটের বিভিন্ন পৃষ্ঠার মধ্যে লিঙ্ক করতে ব্যবহৃত হয়।<br/>बाह्य লিংক: অন্য ওয়েবসাইটের সাথে লিঙ্ক করতে ব্যবহৃত হয়।<br/>Email লিংক: একটি ইমেইল ঠিকানার সাথে লিঙ্ক করতে ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292645,
+    "question": "’wikipedia.org’ ..........এর উদাহরণ- (‘wikipedia.org’ is an example of......)",
+    "options": [
+      "সার্ভার নেম (Server name)",
+      "ডোমাইন নেম (Domain name)",
+      "রাউটার নেম (Router name)",
+      "ম্যাক এড্রেস (MAC address)"
+    ],
+    "correct_answer": "ডোমাইন নেম (Domain name)",
+    "explanation": "ডোমেইন নেম হলো ইন্টারনেটে একটি ওয়েবসাইটের ঠিকানা যা মানুষের সহজে মনে রাখার জন্য ব্যবহার করা হয়। এটি একটি অনন্য নাম যা একটি আইপি ঠিকানার পরিবর্তে ব্যবহার করা হয়। <br/>ডোমেইন নেম মূলত ইন্টারনেটে একটি নির্দিষ্ট ওয়েব সার্ভার বা রিসোর্সকে নির্দেশ করে। যখন আপনি একটি ব্রাউজারে ডোমেইন নেম টাইপ করেন, তখন এটি একটি আইপি ঠিকানায় রূপান্তরিত হয় এবং সেই আইপি ঠিকানার মাধ্যমে আপনার কাঙ্ক্ষিত ওয়েবসাইটে নিয়ে যাওয়া হয়। <br/>উদাহরণস্বরূপ, \"example.com\" একটি ডোমেইন নেম। যখন আপনি এই ডোমেইনটি ব্রাউজারে টাইপ করেন, তখন এটি একটি আইপি ঠিকানায় রূপান্তরিত হয়ে example.com ওয়েবসাইটে নিয়ে যায়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292646,
+    "question": "৪টি ডিভাইস দিয়ে তৈরি একটি মেশ টপোলজি নেটওয়ার্কের প্রতিটি লিংকের মূল্য 100 টাকা হলে, নেটওয়ার্কটির মোট ক্যাবলিং খরচ হবে (কত টাকায়) (In a Mesh topology network of 8 devices, the cost of each link is 100 taka. What would be the total cabling cost of the network (in taka)?)",
+    "options": [
+      "2800",
+      "800",
+      "5600",
+      "1600"
+    ],
+    "correct_answer": "2800",
+    "explanation": "<p>Total 8&nbsp; computer connect with each other&nbsp;</p><br/><p>Total Cable link is 8c2= 28&nbsp;</p><br/><p><br/></p><br/><p>28*100=2800 Taka</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292647,
+    "question": "কোনটি অপটিক্যাল ফাইবার ক্যাবলের সবচেয়ে ভিতরের উপাদান? (Which one is the innermost component of the optical fiber cable?",
+    "options": [
+      "জ্যাকেট (Jacket)",
+      "ক্ল্যাডিং (Cladding)",
+      "বাফার (Buffer)",
+      "কোর (Core)"
+    ],
+    "correct_answer": "কোর (Core)",
+    "explanation": "<p>অপটিক্যাল ফাইবার (ইংরেজি: Optical fiber) একধরনের পাতলা, স্বচ্ছ তন্তু বিশেষ, সাধারণত বিশুদ্ধ কাচ (সিলিকা) অথবা প্লাস্টিক দিয়ে বানানো হয়, যা আলো পরিবহনে ব্যবহৃত হয়। অপটিক্যাল ফাইবার ক্যাবলের সবচেয়ে ভিতরের উপাদান: কোর</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292648,
+    "question": "নিচের কোন নেটওয়ার্ক ডিভাইসটি দুইটি নেটওয়ার্ককে যুক্ত করে? (Which one of the following network devices connect two networks?)",
+    "options": [
+      "রিপিটার (Repeater)",
+      "ব্রিজ (Bridge)",
+      "গেটওয়ে (Gateway)",
+      "হাব (Hub)"
+    ],
+    "correct_answer": "ব্রিজ (Bridge)",
+    "explanation": "<p>একটি ব্রিজ এমন এক ধরণের কম্পিউটার নেটওয়ার্ক ডিভাইস যা একই প্রোটোকল ব্যবহার করে এমন অন্যান্য ব্রিজ নেটওয়ার্কগুলির সাথে আন্তঃসংযোগ সরবরাহ করে।</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292649,
+    "question": "নিচের কোনটি কম্পিউটার ট্রান্সলেটর প্রোগ্রাম নয়? (Which of the following is not a computer translator program?)",
+    "options": [
+      "ইন্টারপ্রেটার (Interpreter)",
+      "অ্যাসেম্বলার (Assembler)",
+      "ডিবাগার (Debugger)",
+      "কম্পাইলার (Compiler)"
+    ],
+    "correct_answer": "ডিবাগার (Debugger)",
+    "explanation": "<p>একটি ডিবাগার বা ডিবাগিং টুল হল একটি কম্পিউটার প্রোগ্রাম যা অন্যান্য প্রোগ্রাম পরীক্ষা এবং ডিবাগ করতে ব্যবহৃত হয়।</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292650,
+    "question": "উচ্চ ফলনশীল ফসল উৎপাদন ........এর উদাহরণ। (Production of high yielding crops is an example of ....... )",
+    "options": [
+      "ন্যানোটেকনোলজি (Nanotechnology)",
+      "ক্রায়োসার্জারি (Cryosurgery)",
+      "কৃত্রিম বুদ্ধিমত্তা (Artificial Intelligence)",
+      "জীনতত্ত্ব প্রকৌশল (Genetic Engineering)"
+    ],
+    "correct_answer": "জীনতত্ত্ব প্রকৌশল (Genetic Engineering)",
+    "explanation": "<p>জীববিজ্ঞানের যে শাখায় জিনের গঠন, কাজ, বংশপরম্পরায় সঞ্চারণের ধরণ ও ফলাফল সম্বন্ধে বিস্তারিত আলোচনা করা হয় তাকে বংশগতিবিদ্যা বা জিনতত্ত্ব বা জেনেটিক্স (Genetics) বলে। উইলিয়াম বেটসন (William Bateson, 1861–1926) ১৯০৫ খ্রিস্টাব্দে সর্বপ্রথম Genetics শব্দ প্রচলন করেন।</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292651,
+    "question": "নিচের প্রোগ্রামটির আউটপুট কী হবে? (What is the output of the following program?)int main(){int i;for(i=0; i<5; i++)printf(‘%d’,i+2);return 0; }",
+    "options": [
+      "2 3 4 5 6",
+      "0 2 4 6 8",
+      "2 4 6 8 10",
+      "0 1 2 3 4"
+    ],
+    "correct_answer": "2 3 4 5 6",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292652,
+    "question": "নিচের কোনটি বায়োমেট্রিক-এর উদাহরণ নয়? (Which one is not an example of biometric ? )",
+    "options": [
+      "আইরিস (Iris)",
+      "ফিঙ্গারপ্রিন্ট (Fingerprint)",
+      "ভয়েস (Voice)",
+      "প্যাটার্ন (Pattern)"
+    ],
+    "correct_answer": "প্যাটার্ন (Pattern)",
+    "explanation": "<p>বায়োমেট্রিক সিস্টেম হলো এমন একটি প্রযুক্তি যা কোনও ব্যক্তির শারীরবৃত্তীয়, আচরণগত বা উভয় বৈশিষ্ট্যকে ইনপুট হিসাবে গ্রহণ করে, এটি বিশ্লেষণ করে এবং প্রকৃত ব্যবহারকারী হিসাবে ব্যক্তিকে চিহ্নিত করে।</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292653,
+    "question": "A এবং B একটি হাফ অ্যাডার-এর ইনপুট হলে তার sum নির্ণয়ের সূত্র কোনটি? ( If A and B are inputs of a half adder, the sum is given by which equation?)",
+    "options": [
+      "A OR B",
+      "A AND B",
+      "A XNOR B",
+      "A XOR B"
+    ],
+    "correct_answer": "A XOR B",
+    "explanation": "<p><p><span style=\"font-size: 1rem;\">যে সমবায় সার্কিট দুটি বিট যোগ করে একটি যোগফল(S) ও একটি ক্যারি(C) আউটপুট দেয় তাকে হাফ অ্যাডার সার্কিট বা অর্ধযোগের বর্তনী বলে।</span><span style=\"font-size: 1rem;\">দুটি ইনপুট এর মান একই হলে আউটপুট ০ হয় অন্যথায় ১ হবে।</span></p></p><br/><p><span style=\"font-size: 1rem;\">Sum এর ক্ষেত্রে-&nbsp;</span><span style=\"font-size: 1rem;\">S&nbsp; = A XOR B = A ⊕ B</span></p>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292654,
+    "question": "6 বিট দিয়ে তৈরি সর্বোচ্চ ডেসিমেল নম্বরটি কত হবে, যদি ম্যাক্সিমাম সিগনিফিকেন্ট বিট হয়? (What is the maximum decimal number that can be represented using 6 bits with the maximum significant bit (msb) set to 0?)",
+    "options": [
+      "15",
+      "62",
+      "32",
+      "31"
+    ],
+    "correct_answer": "62",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292655,
+    "question": "অক্টাল সংখ্যা 7051 এর সমতুল্য বাইনারি সংখ্যা কোনটি? (Which one is the Binary equivalent of the Octal number 70517)",
+    "options": [
+      "111000101001",
+      "111000111001",
+      "111000110001",
+      "111000100111"
+    ],
+    "correct_answer": "111000101001",
+    "explanation": "<p>(7051)8=(?)2</p><br/><p>অক্টালের প্রতিটি ডিজিকে তার সমতুল্য তিন বিট বাইনারিতে লিখতে হবে।</p><br/><p>7 এর ৩বিট বাইনারি=111</p><br/><p>0 এর ৩বিট বাইনারি=000</p><br/><p>5 এর ৩বিট বাইনারি=101</p><br/><p><span style=\"font-size: 1rem;\">1 এর ৩বিট বাইনারি=001</span></p><br/><p>অতএব 7051 (octal) এর সমতুল্য বাইনারি সংখ্যা 111000101001</p><br/><p></p>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292656,
+    "question": "ডেসিমেল সংখ্যা 9 এর 2's complement কত? (What is the 2's complement representation of the decimal number 9?)",
+    "options": [
+      "11110111",
+      "00101111",
+      "11110110",
+      "01001001"
+    ],
+    "correct_answer": "11110111",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292657,
+    "question": "নিচের কোনটি উচ্চস্তরের প্রোগ্রামিং ভাষা নয়? (Which one is not a high level programming language?)",
+    "options": [
+      "জাভা (Java)",
+      "সি++ (C++)",
+      "পাইথন (Python)",
+      "সি (C)"
+    ],
+    "correct_answer": "সি (C)",
+    "explanation": "<p>উচ্চস্তরের ভাষা (High Level Language):<span style=\"font-size: 1rem;\">এটি তৃতীয় প্রজন্মের ভাষা। যেমন- Fortran, Basic, Pascal, Cobol, C, C++, Visual Basic, Java, Python ইত্যাদি।</span></p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292658,
+    "question": "বাংলাদেশের কোন এলাকায় ইউরেনিয়ামের সন্ধান পাওয়া গিয়েছে? (Uranium has been found in which area(of Bangladesh?)",
+    "options": [
+      "সিলেটের ভোলাগঞ্জে (Bholaganj of Sylhet",
+      "মৌলভীবাজারের কুলাউড়ায় (Kulaura of Moulvibazar).",
+      "দিনাজপুরের ফুলবাড়ীতে (Phulbari of Dinajpur",
+      "মুন্সীগঞ্জের রামপালে (Rampal of Munshiganj)"
+    ],
+    "correct_answer": "মৌলভীবাজারের কুলাউড়ায় (Kulaura of Moulvibazar).",
+    "explanation": "<p>বিশ্বের যেসব খনি থেকে ইউরেনিয়াম সংগ্রহনকরা হয় সেখানে ৩০০ -১০০০ পিপিএম মাত্রায় ইউরেনিয়াম আছে,, আর মৌলভীবাজারের খনিতে ৫০০ পিপিএম মাত্রায় ইউরেনিয়াম আছে। এখানে ২০১৫ সালে ইউরেনিয়াম আবিষ্কৃত হয়&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292659,
+    "question": "প্রবল জোয়ারের কারণ কোনটি? (Which is the cause of high tides )",
+    "options": [
+      "পৃথিবী সূর্যের সবচেয়ে কাছে থাকে (Earth is the closest to Sun)",
+      "চন্দ্র পৃথিবীর সবচেয়ে কাছে থাকে (Moon is the closest to Earth)",
+      "চন্দ্র, সূর্য ও পৃথিবী একই সরলরেখায় থাকে (Moon, Sun and Earth are in the same straight line)",
+      "চন্দ্র-সূর্যের সমকৌণিক অবস্থান (Moon-Sun equiangular position)"
+    ],
+    "correct_answer": "চন্দ্র, সূর্য ও পৃথিবী একই সরলরেখায় থাকে (Moon, Sun and Earth are in the same straight line)",
+    "explanation": "",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292660,
+    "question": "প্রণালী বলতে কি বুঝ?(What do you mean by strait)",
+    "options": [
+      "আন্তর্জাতিক জলপথ (International waterways)",
+      "দুটি সাগর/মহাসাগরের সংযোগকারী সংকীর্ণ সমুদ্রপথ (Narrow channel connecting two seas / oceans)",
+      "সমুদ্রবন্দর (Seaport)",
+      "সাগরের তলদেশের ভূমিরূপ (Landforms of sea floor)"
+    ],
+    "correct_answer": "দুটি সাগর/মহাসাগরের সংযোগকারী সংকীর্ণ সমুদ্রপথ (Narrow channel connecting two seas / oceans)",
+    "explanation": "",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292661,
+    "question": "বাংলাদেশের জিডিপিতে কোন খাতের সবচেয়ে বেশি অবদান? (Which sector is the highest contributor inBangladesh's GDP?)",
+    "options": [
+      "সেবা (Services)",
+      "কৃষি (Agriculture)",
+      "মৎস্য(Fisheries)",
+      "শিল্প (Indistry)"
+    ],
+    "correct_answer": "সেবা (Services)",
+    "explanation": "",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292662,
+    "question": "বাংলাদেশে গ্যাসের পর কোন প্রাকৃতিক সম্পদ সবচেয়ে বেশি রয়েছে (Which natural resource besides gasis highly abundant in Bangladesh?)",
+    "options": [
+      "কয়লা (Coal)",
+      "কঠিন শিলা (Hard rock)",
+      "চুনাপাথর (Limestone)",
+      "খনিজ বালু (Mineral sand)"
+    ],
+    "correct_answer": "কয়লা (Coal)",
+    "explanation": "",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292663,
+    "question": "বাংলাদেশে দ্রুত জনসংখ্যা বৃদ্ধির কারণ নিচের কোনটি? (Which one is the major reason for rapidpopulation growth in Bangladesh?)",
+    "options": [
+      "কৃষিভিত্তিক সমাজ (Agro-based society)",
+      "নিরক্ষরতা ও অসচেতনতা (Illiteracy and unawareness)",
+      "খাদ্য নিরাপত্তা (Food security)",
+      "দারিদ্র্যতা (Poverty)"
+    ],
+    "correct_answer": "নিরক্ষরতা ও অসচেতনতা (Illiteracy and unawareness)",
+    "explanation": "<p>নিরক্ষরতা ও অসচেতনতার কারনে এদেশের মানুষ বেশি সন্তান নিতে আগ্রহী,, তাই এ দেশে নিরক্ষরতা ও অসচেতনতার কারনে দিন দিন জনসংখ্যা বাড়ছে।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292664,
+    "question": "পৃথিবীর ভূ-অভ্যন্তরের কোন স্তরটি সবচেয়ে পুরু স্তর (Which layer in the earth's Interior is the thickent )",
+    "options": [
+      "বহিঃ কেন্দ্রমন্ডল (Outer core)",
+      "ভূত্বক (Crust)",
+      "অন্তঃ কেন্দ্রমন্ডল(Inner core)",
+      "ম্যান্টেল(Mental)"
+    ],
+    "correct_answer": "অন্তঃ কেন্দ্রমন্ডল(Inner core)",
+    "explanation": "<p>পৃথিবীর সবচেয়ে ভেতরের ভূত্বকের যে অংশ সেটাকে বলা হয় ইনার কোর।।&nbsp; বা একদম ভেতরের অঞ্চল&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292665,
+    "question": "বাংলাদেশের শহরগুলোতে বায়ুদূষণের প্রধান অংশ নয় কোনটি? (Which one is not a major source of air pollution in the cities of Bangladesh?)",
+    "options": [
+      "নির্মান এলাকা (Construction sites)",
+      "গাড়ি (Vehicles)",
+      "বায়োমাস পোড়ানো (Blomass burning)",
+      "ইটভাটা (Brickfield)"
+    ],
+    "correct_answer": "বায়োমাস পোড়ানো (Blomass burning)",
+    "explanation": "",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292666,
+    "question": "অনমিতিক ট্রানজিশনাল মডেল কে প্রদান করেন? ( Who has presented Demographic Transitional Model?)",
+    "options": [
+      "ওয়ারেন থমসন (Warren Thompson",
+      "স্টিফেন থমসন (Stephen Thompson)",
+      "মজি বেয়ার্ড (Lozi Beard)",
+      "জন লিংকন (John Linkon)"
+    ],
+    "correct_answer": "ওয়ারেন থমসন (Warren Thompson",
+    "explanation": "<p>জনসংখ্যা বিষয়ক ট্রানজিশনাল মডেলের ধারনা দেন ওয়ারেন থমসন। তিনি ১৯২৯ সালে ট্রানজিশনাল মডেলের ধারনা দেন।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292667,
+    "question": "গ্রীনল্যান্ড কোন মহাদেশের অধীনে? (Greenland is located under which continent ?)",
+    "options": [
+      "ইউরোপ (Europe)",
+      "উত্তর আমেরিকা (North America)",
+      "এন্টার্কটিকা (Antarctica)",
+      "দক্ষিণ আমেরিকা (South America)"
+    ],
+    "correct_answer": "ইউরোপ (Europe)",
+    "explanation": "",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292668,
+    "question": "রাজস্ব আদায় ও প্রশাসনিক কাজে কোন মানচিত্র ব্যবহৃত হয়? (Which map is used for revenue collectionand administrative purposes?)",
+    "options": [
+      "থানা মানচিত্র (Thana map)",
+      "স্থানীয় বৈচিত্র্য সূচক মানচিত্র (Topographic map)",
+      "এলাকা মানচিত্র (Area map)",
+      "মৌজা মানচিত্র (Cadastral map)"
+    ],
+    "correct_answer": "মৌজা মানচিত্র (Cadastral map)",
+    "explanation": "",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292669,
+    "question": "চা রপ্তানিতে বিশ্বের শীর্ষ দেশ কোনটি? (Which country is the leading exporter of tea in theworld?)",
+    "options": [
+      "কেনিয়া (Kenya)",
+      "চীন (China)",
+      "শ্রীলংকা (Sri Lanka)",
+      "ভারত (India)"
+    ],
+    "correct_answer": "চীন (China)",
+    "explanation": "<p>বিশ্বে চা&nbsp; উৎপাদনে এবং রপ্তানীতে&nbsp; চীনের অবস্থান ১ম। চা&nbsp; &nbsp;উৎপাদনে বর্তমানে বাংলাদেশের অবস্থান নবম।।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292670,
+    "question": "বৃষ্টিবহুল শীতকাল এবং বৃষ্টিহীন গ্রীষ্মকাল কোন জলবায়ুর বৈশিষ্ট্য? (Heavy rainfall in the winter and norainfall in the summer is the property of which climate?)",
+    "options": [
+      "ভূমধ্যসাগরীয় (Mediterranean)",
+      "মৌসুমী (Monsoon)",
+      "মেরুদেশীয় (Polar)",
+      "নিরক্ষীয় (Equatorial)"
+    ],
+    "correct_answer": "ভূমধ্যসাগরীয় (Mediterranean)",
+    "explanation": "",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292671,
+    "question": "ট্রপোমণ্ডলের বৈশিষ্ট্য কোনটি? (Which is the property of the Troposphere?)",
+    "options": [
+      "অতিবেগুনী রশ্মির শোষণ (Absorption of ultraviolet rays)",
+      "উচ্চতা বৃদ্ধির সাথে বায়ুর উষ্ণতার বৃদ্ধি (Increase of air temperature with increasing altitude)",
+      "উচ্চতা বৃদ্ধির সাথে বায়ুর তাপমাত্রা হ্রাস (Decrease of air temperature with increasing altitude)",
+      "বেতার তরঙ্গের প্রতিফলন (Reflection of radio waves)"
+    ],
+    "correct_answer": "উচ্চতা বৃদ্ধির সাথে বায়ুর তাপমাত্রা হ্রাস (Decrease of air temperature with increasing altitude)",
+    "explanation": "ট্রপোবিরতি হচ্ছে ট্রপোমণ্ডলও স্ট্রাটোমণ্ডলের মধ্যে সীমারেখা সরূপ। বায়ুমণ্ডলের এই স্তরের বায়ুতে প্রায় ৯০ শতাংশ ধূলিকণা, জলীয় বাষ্প, কুয়াশা, মেঘ প্রভৃতি থাকায় এই স্তরে ঝড়, বৃষ্টি, শিলাবৃষ্টি, বজ্রপাত, তুষারপাত প্রভৃতি ঘটনাগুলি ঘটতে দেখা যায়, এজন্য ভূপৃষ্ঠ সংলগ্ন বায়ুমণ্ডলীয় এই স্তরকে ক্ষুব্ধমন্ডল বলে।",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292672,
+    "question": "যমুনা নদীর উৎপত্তি কোথায়? (Where is the origin of the Jamuna River ? )",
+    "options": [
+      "লুসাই পাহাড়ে (Lusain Mountains)",
+      "গঙ্গোত্রী হিমবাহে (Gangotri Glacier)",
+      "মানস সরোবরে (Manasarovar)",
+      "নাগা-মণিপুরে (Naga Manipur)"
+    ],
+    "correct_answer": "মানস সরোবরে (Manasarovar)",
+    "explanation": "হরিদ্বারের উত্তরে উত্তরাখণ্ডের উত্তরকাশী জেলায় মধ্য হিমালয়ের মুসৌরি পর্বতশ্রেণীর বান্দারপুচ শৃঙ্গের দক্ষিণ-পশ্চিম পাদদেশে যমুনোত্রী হিমবাহের ৬,৩৮৭ মিটার উচ্চতায় যমুনা নদীর উৎপত্তি। এখানে দেবী যমুনার প্রতি উৎসর্গিত যমুনোত্রী মন্দির হিন্দুধর্মের পবিত্র তীর্থগুলির অন্যতম।",
+    "hints": "",
+    "subject": "ভূগোল ও পরিবেশ",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292673,
+    "question": "Those who are vulnerable are……..",
+    "options": [
+      "guilty of a crime",
+      "aggressive and uncooperative",
+      "susceptible to injury or disease",
+      "need to be treated in intensive care units"
+    ],
+    "correct_answer": "susceptible to injury or disease",
+    "explanation": "vulnerable adjective&nbsp;জেয়&nbsp;vulnerable, vincible&nbsp;ভেদ্য&nbsp;permeable, penetrable, vulnerable, attackable<br/>ভেদনীয়<br/>vulnerable, pervious<br/><br/>Vulnerable এর অর্থ কি?<br/>ক্ষতিগ্রস্ত হতে পারে এমন; আক্রম্য; অরক্ষিত: find somebody\\\"s vulnerable spot; people who are vulnerable to criticism. vulnerability আক্রম্যতা; ঘাতোপযোগিতা।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292674,
+    "question": "Rahat will be going to the US, …….she?",
+    "options": [
+      "won't",
+      "isn't",
+      "didn't",
+      "can't"
+    ],
+    "correct_answer": "won't",
+    "explanation": "Tag question কি : Tag শব্দের অর্থ, জুড়ে দেওয়া। কথা বলার সময় Statement এর শেষে যে একটি সমর্থন সূচক প্রশ্ন সংযোগ করা হয় তাকে Tag question বলে। You are Anas, aren\\\"t you ? Tag Question গঠন : Statement এর পর একটি কমা বসবে + সাহায্যকারী verb বসবে + Statement এর subject এর pronoun বসবে + প্রশ্নবোধক চিহ্ন বসবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292675,
+    "question": "For myself, I chose the cheapest dish on the menu ……. a mutton chap.",
+    "options": [
+      "likely",
+      "and that was",
+      "for example",
+      "but it was"
+    ],
+    "correct_answer": "and that was",
+    "explanation": "For myself, I chose the cheapest dish on the menu ___ a mutton chap. Correct Answer and that was",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292676,
+    "question": "If his friend had not helped him, Arif……. it really difficult to complete the assignment.",
+    "options": [
+      "would have found",
+      "would have to find",
+      "might not have done",
+      "might have done"
+    ],
+    "correct_answer": "would have found",
+    "explanation": "<p>বাক্যটি third conditional sentence তাই would have found হয়েছে। যেহেতু বাক্যটি if + had +v3 আছে তাই বাক্যটি third conditional sentence&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292677,
+    "question": "Arriving late at a meeting is rude, and shows……. other people's time.",
+    "options": [
+      "carelessness",
+      "lack of respect",
+      "insult",
+      "a lack of respect for"
+    ],
+    "correct_answer": "a lack of respect for",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292678,
+    "question": "Nuclear energy is…….dangerous to be used widely.",
+    "options": [
+      "too",
+      "so",
+      "that",
+      "such"
+    ],
+    "correct_answer": "too",
+    "explanation": "TOO + ADJECTIVE/ ADVERB + TO –INFINITIVE<br/>She\\\"s too short to reach the shelf. She draws too terribly to win the first prize. The teacher is reading too quickly for me to catch up with.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292679,
+    "question": "The _of the moon on the river never fails to amaze us.",
+    "options": [
+      "panacea",
+      "glimmer",
+      "garrulity",
+      "plethora"
+    ],
+    "correct_answer": "glimmer",
+    "explanation": "glimmer<br/>noun<br/>আভাস<br/>glimpse, glimmer, semblance, inkling, guise, hint<br/>ক্ষীণ আলো<br/>glimmer, glimpse, glim<br/>মিট্মিট্ আলোক<br/>flicker, glimmer",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292680,
+    "question": "The verb form of the word 'prison' is……..",
+    "options": [
+      "imprison",
+      "enprison",
+      "imprisonment",
+      "inprison"
+    ],
+    "correct_answer": "imprison",
+    "explanation": "verb. prisoned; prisoning; prisons. transitive verb. : imprison, confine. Ans a.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292681,
+    "question": "The CEO suddenly resigned……. rumors of misconduct",
+    "options": [
+      "amongst",
+      "between",
+      "amidst",
+      "among"
+    ],
+    "correct_answer": "amidst",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292682,
+    "question": "Even though the former boss has always been rude with me, I do not hold any more ___ against him.",
+    "options": [
+      "consolation",
+      "prejudice",
+      "prowess",
+      "grudge"
+    ],
+    "correct_answer": "grudge",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292683,
+    "question": "Which of the following is not a synonym for 'speculate?",
+    "options": [
+      "wonder",
+      "guess",
+      "abstain",
+      "figure out"
+    ],
+    "correct_answer": "abstain",
+    "explanation": "<p>Abstain বিরত থাকা</p><br/><p>Speculate --Some thing are made conjugated. So Abstain is not synonym of it</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292684,
+    "question": "Identify the sentence with correct punctuation marks:",
+    "options": [
+      "’Yes, Jim said to Della, I'll be home by ten.",
+      "’Yes’ Jim said to Della, ‘I'll be home by ten,",
+      "’Yes,’ Jim said to Della, ‘I'll be home by ten.’",
+      "’Yes Jim said to Della, I'll be home by ten’"
+    ],
+    "correct_answer": "’Yes,’ Jim said to Della, ‘I'll be home by ten.’",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292685,
+    "question": "She says, ‘I had a headache yesterday.’ Which of the following is its indirect speech form?",
+    "options": [
+      "She says that she has a headache the previous day",
+      "She said she had a headache the day before yesterday",
+      "She said that she was having a headache the day before yesterday.",
+      "She says that she had a headache yesterday."
+    ],
+    "correct_answer": "She says that she has a headache the previous day",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292686,
+    "question": "What is the antonym of the word 'pernicious'?",
+    "options": [
+      "beneficial",
+      "mellifluous",
+      "spurious",
+      "onerous"
+    ],
+    "correct_answer": "beneficial",
+    "explanation": "<p>Pernicious ক্ষতিকর কোন কিছু বুঝায়</p><br/><p>Beneficial অর্থ উপকারী&nbsp;</p><br/><p>so Beneficial is the Antonym&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292687,
+    "question": "Which of the following words has been properly spelled?",
+    "options": [
+      "cemetry",
+      "bizarre",
+      "liasion",
+      "decídous"
+    ],
+    "correct_answer": "bizarre",
+    "explanation": "<p>Bizarre বাংলা অর্থ হল অদ্ভুত। So it is the right answer.&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292688,
+    "question": "নিচের কোনটি 'পাথার' শব্দের সমার্থক শব্দ নয়?",
+    "options": [
+      "তটিনি",
+      "অর্ণব",
+      "সমুদ্র",
+      "জলধি"
+    ],
+    "correct_answer": "তটিনি",
+    "explanation": "সমুদ্র /বিশেষ্য পদ/ অর্ণব, জলধি, উদধি, পয়োধি, পয়োনিধি, তোয়ধি, পারাবার, সাগর, সিন্ধু, বারিধি, বারীশ, রত্নাকর।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292689,
+    "question": "তরুছায়ামসী-মাথা গ্রামখানি কোথায় আঁকা?",
+    "options": [
+      "পরপারে",
+      "এপারেতে",
+      "শূন্য নদীর তীরে",
+      "নদীকূলে"
+    ],
+    "correct_answer": "পরপারে",
+    "explanation": "<p>তরু ছায়ামাসী গ্রামখানা পরপারে আঁকা।।&nbsp;</p><br/><p>এটা মূলত একটি কবিতার লাইন থেকে তুলে দেওয়া হয়েছে।।</p><br/><p>তাই পরপারে শব্দটি সঠিক</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292690,
+    "question": "কোনটি দেশি শব্দ নয়?",
+    "options": [
+      "গরিব",
+      "ঢেঁকি",
+      "ডিভি",
+      "ঘুড়ি"
+    ],
+    "correct_answer": "গরিব",
+    "explanation": "<p>গরীব মূলত আরবি ভাষার শব্দ।।</p><br/><p>গারীবুন শব্দ থেকে এই শব্দটি এসেছে</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292691,
+    "question": "'I have not yet come round' বাক্যটির সঠিক অনুবাদ -",
+    "options": [
+      "আমি এখনও সুস্থ হইনি।",
+      "আমি এখনও এসে পৌঁছাইনি।",
+      "আমি এখন আর ঘোরাঘুরি করি না।",
+      "আমি এখনও পরাজিত হইনি।"
+    ],
+    "correct_answer": "আমি এখনও সুস্থ হইনি।",
+    "explanation": "<p>সুস্থ হওয়ার ইংরেজি হল কাম রাউন্ড Come round..</p><br/><p>So come round the correct answer&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292692,
+    "question": "নিচের কোন শব্দে বচনঘটিত অশুদ্ধি ঘটেছে?",
+    "options": [
+      "বন্ধুগণেরা",
+      "গুণীগণ",
+      "শিক্ষার্থীবৃন্দ",
+      "বিদ্বান সমাজ"
+    ],
+    "correct_answer": "বন্ধুগণেরা",
+    "explanation": "<p>এখানে মূলত বচনের ভুল প্রয়োগ হয়েছে।।&nbsp; বন্ধু সাথে সাধারণত রা হয়ে বহুবচন হয় । অথবা গণ&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292693,
+    "question": "কোনটি উপসর্গযোগে গঠিত শব্দ?",
+    "options": [
+      "শয়ন",
+      "দিগভ্রান্ত",
+      "নিমগ্ন",
+      "একাদশ"
+    ],
+    "correct_answer": "নিমগ্ন",
+    "explanation": "<p>সব শব্দগুলো সাধারণত শব্দের পূর্বে বসে নতুন শব্দের সৃষ্টি করে তাকে উপসর্গ বলে।।&nbsp;</p><br/><p>আ সু বি নি উপসর্গ হিসেবে ব্যবহৃত হয়।।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292694,
+    "question": "কোন গুচ্ছটি শুদ্ধ?",
+    "options": [
+      "কাহিনি, ঠান্ডা",
+      "কর্ম্ম, মূর্চ্ছা",
+      "গননা, ঘনিষ্ট",
+      "প্রায়শঃ, দায়ি"
+    ],
+    "correct_answer": "কাহিনি, ঠান্ডা",
+    "explanation": "বাংলা একাডেমী মানুষের মুখের উচ্চারণ অনুসারে এখন বানান লিখছে । আমরা সাধারণত কাহিনি উচ্চারণ করি, কাহিনী নয় । সেই জন্যে বাংলা একাডেমীর অভিধানে&nbsp; কাহিনি,&nbsp; কাহিনী । দুটোই সঠিক ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292695,
+    "question": "'সমুদ্রের হাওয়া গায়ে মেখে হৃদয়-যমুনায় ঝড় তুলল । - বাক্যটির যোগ্যতা হারানোর কারণ কী?",
+    "options": [
+      "গুরুচণ্ডালী দোষ",
+      "অলংকারের ভুল প্রয়োগ",
+      "দুর্বোধ্যতা ক",
+      "বাহুল্য দোষ"
+    ],
+    "correct_answer": "অলংকারের ভুল প্রয়োগ",
+    "explanation": "<p>আসলে বাক্যটিতে উপমার ভুল প্রয়োগ বা সঠিক অলংকরণ হয়নি তাই বাক্যটি সঠিক নয়</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292696,
+    "question": "নিচের কোন বাক্যটি শুদ্ধ নয়?",
+    "options": [
+      "সব সভ্য এসেছেন।",
+      "উপরোক্ত বাক্যটি শুদ্ধ নয়।",
+      "ইহার আবশ্যকতা নাই",
+      "এ কথা প্রমাণিত হয়েছে।"
+    ],
+    "correct_answer": "উপরোক্ত বাক্যটি শুদ্ধ নয়।",
+    "explanation": "<p>শুদ্ধ রূপ - উপর্যুক্ত বাক্যটি সঠিক নয়। তাই উত্তর হবে খ</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292697,
+    "question": "'পঙ্কজ' কোন সমাস?",
+    "options": [
+      "অলুক বহুব্রীহি",
+      "রূপক কর্মধারয়",
+      "নিত্য সমাস",
+      "উপপদ তৎপুরুষ"
+    ],
+    "correct_answer": "উপপদ তৎপুরুষ",
+    "explanation": "উপপদ তৎপুরুষ সমাস<br/>যে পদের পরবর্তী ক্রিয়ামূলের সঙ্গে কৃৎ প্রত্যয় যুক্ত হয়, সে পদকে উপপদ বলে। কৃদন্ত পদের সাথে উপপদের যে সমাস হয়, তাকে উপপদ তৎপুরুষ সমাস বলে। যেমন: জলে চরে যা= জলচর, জল দেয় যা= জলদ, পঙ্কে জন্মে যা= পঙ্কজ ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292698,
+    "question": "'অভিপ্রেত' শব্দের প্রমিত উচ্চারণ –",
+    "options": [
+      "ওভিপ্রেতো",
+      "অভিপ্রেত",
+      "ওভিপ্রেতো",
+      "অভিে"
+    ],
+    "correct_answer": "ওভিপ্রেতো",
+    "explanation": "<p>'অভিপ্রেত' শব্দের প্রমিত উচ্চারণ – সঠিক উত্তর ওভিপ্রেতো।</p><br/><p>অভিপ্রেত এর অর্থ ঈপ্সিত, উদ্দিষ্ট, বাঞ্ছিত (চাওয়া হয়েছে এমন। )</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292699,
+    "question": "'বিশ্বাসের পাথরে যেন খোদাই সেই চোখ।'- কার চোখ?",
+    "options": [
+      "আক্কাসের",
+      "মজিদের",
+      "গ্রামবাসীর",
+      "রহিমার"
+    ],
+    "correct_answer": "গ্রামবাসীর",
+    "explanation": "<p>বিশ্বাসের পাথরে যেন খোদাই চোখ এটা মূলত হচ্ছে একটা প্রবন্ধ থেকে তুলে দেয়া হয়েছে ‌। চোখ বলতে বোঝানো হয়েছে গ্রামবাসীদের চোখকে</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292700,
+    "question": "'হরিৎ উপত্যকা' অর্থ কী?",
+    "options": [
+      "সবুজ উপত্যকা",
+      "ঝলমলে প্রান্তর",
+      "রক্তাক্ত উপত্যকা",
+      "হলুদ উপত্যকা"
+    ],
+    "correct_answer": "সবুজ উপত্যকা",
+    "explanation": "<p>হরিৎ শব্দের অর্থ হলো সবুজ।। হরিৎ উপত্যকা অর্থ সবুজ উপত্যকা&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292701,
+    "question": "'বিলাসী' গল্পটি প্রথম প্রকাশিত হয় কোন পত্রিকায়?",
+    "options": [
+      "বঙ্গদর্শন",
+      "চতুরঙ্গ",
+      "সাধনা",
+      "ভারতী"
+    ],
+    "correct_answer": "ভারতী",
+    "explanation": "<p>বিলাসী গল্পটি মূলত শরৎচন্দ্র চট্টোপাধ্যায়ের লেখা এটি সর্বপ্রথম ভারতী পত্রিকায় প্রকাশিত হয়</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  },
+  {
+    "id": 292702,
+    "question": "'অপরিচিতা' গল্পে অনুপমের সুন্দর চেহারাকে পণ্ডিতমশায় কিসের সঙ্গে তুলনা করেছিলেন?",
+    "options": [
+      "শিমুল ফুল ও মাকাল ফল",
+      "জবা ফুল ও আম",
+      "জবা ফুল ও আপেল",
+      "গোলাপ ফুল ও তরমুজ"
+    ],
+    "correct_answer": "শিমুল ফুল ও মাকাল ফল",
+    "explanation": "<span style=\"color: rgb(53, 53, 53); font-family: Georgia, &quot;Times New Roman&quot;, Times, serif; font-size: medium;\">উত্তর : সুন্দর চেহারার জন্য অনুপমকে পণ্ডিত মশায়েরা বিদ্রƒপ করতেন।</span><br style=\"color: rgb(53, 53, 53); font-family: Georgia, &quot;Times New Roman&quot;, Times, serif; font-size: medium;\"><span style=\"color: rgb(53, 53, 53); font-family: Georgia, &quot;Times New Roman&quot;, Times, serif; font-size: medium;\">ছোটবেলায় অনুপমের চেহারা সুন্দর ছিল বলে পণ্ডিত মশায়েরা তাকে শিমুল ফুল ও মাকাল ফলের সাথে তুলনা করতেন। তখন লজ্জা পেলেও বয়স বাড়ার সাথে সাথে সে ভাবে, যদি জন্মান্তর থাকে তবে তার মুখের স্বরূপ এবং পণ্ডিত মশায়দের মুখে বিদ্রƒপ আবার যেন এমনি করেই প্রকাশ পায়।</span>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "ঢাকা বিশ্ববিদ্যালয়",
+    "exam": "ঢাকা বিশ্ববিদ্যালয়➟2023➯বিজ্ঞান ইউনিট(সকল শাখা) ☞22-23"
+  }
+]

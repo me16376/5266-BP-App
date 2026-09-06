@@ -1,0 +1,1362 @@
+[
+  {
+    "id": 330873,
+    "question": "একটি কলম ১১ টাকায় বিক্রয় করলে ১০% লাভ হয়। কলমটির ক্রয়মূল্য কত?",
+    "options": [
+      "৮ টাকা",
+      "৯ টাকা",
+      "১০ টাকা",
+      "কোনোটিই নয়"
+    ],
+    "correct_answer": "১০ টাকা",
+    "explanation": "📖  ১০% লাভে বিক্রয়মূল্য = ক্রয়মূল্য + ক্রয়মূল্যের ১০% = ক্রয়মূল্যের (১০০+১০)% = ১১০%।<br/>বিক্রয়মূল্য ১১০% হলে ক্রয়মূল্য ১০০%।<br/>বিক্রয়মূল্য ১ টাকা হলে ক্রয়মূল্য (১০০/১১০)।<br/>বিক্রয়মূল্য ১১ টাকা হলে ক্রয়মূল্য = (১০০ × ১১) / ১১০ = ১০০ / ১০ = ১০ টাকা।<br/>⇢<br/>▣   ধরি, ক্রয়মূল্য x টাকা।<br/>১০% লাভে বিক্রয়মূল্য = x + x এর ১০%<br/>প্রশ্নমতে, বিক্রয়মূল্য = ১১ টাকা <br/>x + x এর ১০% = ১১<br/>বা, x + (x × ১০/১০০) = ১১<br/>বা, x + x/১০ = ১১<br/>বা, (১০x + x)/১০ = ১১<br/>বা, ১১x = ১১০<br/>সুতরাং, x = ১০ টাকা।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330874,
+    "question": "(১০০)y° এর মান কত?",
+    "options": [
+      "y এর মানের উপর নির্ভরশীল",
+      "অসীম",
+      "১০০",
+      "০"
+    ],
+    "correct_answer": "১০০",
+    "explanation": "📖  গণিতের সূচকীয় নিয়ম অনুযায়ী, শূন্য ব্যতীত যেকোনো সংখ্যার ঘাত বা পাওয়ার (power) শূন্য হলে তার মান ১ হয়। অর্থাৎ, a⁰ = ১ (যেখানে a ≠ ০)।<br/>সুতরাং, (১০০)y⁰ = ১০০ × ১=১০০<br/>⇢<br/>▣   এই নিয়মটি সূচকের ভাগফল বিধি (a^m / a^n = a^(m-n)) থেকে আসে। যদি m = n হয়, তাহলে a^m / a^m = a^(m-m) = a⁰। যেহেতু যেকোনো সংখ্যাকে সেই সংখ্যা দিয়ে ভাগ করলে ফল ১ হয় (a^m / a^m = 1), সেহেতু a⁰ = ১।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330875,
+    "question": "৩, ৬, ১১, ১৮, ২৭ এর পরের সংখ্যাটি কত?",
+    "options": [
+      "৩৬",
+      "৩৮",
+      "৪৫",
+      "৩৪"
+    ],
+    "correct_answer": "৩৮",
+    "explanation": "📖  ধারাটির পদগুলোর মধ্যে পার্থক্য লক্ষ্য করি:<br/>৬ - ৩ = ৩<br/>১১ - ৬ = ৫<br/>১৮ - ১১ = ৭<br/>২৭ - ১৮ = ৯<br/>পার্থক্যগুলো ৩, ৫, ৭, ৯... একটি ক্রমিক বিজোড় সংখ্যার ধারা। পরবর্তী পার্থক্য হবে ১১।<br/>সুতরাং, পরের সংখ্যাটি হবে ২৭ + ১১ = ৩৮।<br/>⇢<br/>▣   এটি একটি দ্বি-স্তরীয় ধারা (second-order arithmetic progression)। প্রথম স্তরের পার্থক্যগুলো (৩, ৫, ৭, ৯) নিজেরাই একটি সমান্তর ধারা গঠন করেছে, যার সাধারণ অন্তর হলো ২। এই ধরনের ধারার পরবর্তী পদ বের করতে হলে, পার্থক্যের ধারার পরবর্তী পদটি (১১) শেষ পদের সাথে যোগ করতে হয়।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330876,
+    "question": "২৫০ টাকার শতকরা কত সমান ১০ টাকা?",
+    "options": [
+      "৫%",
+      "৪%",
+      "৩%",
+      "৬%"
+    ],
+    "correct_answer": "৪%",
+    "explanation": "📖  ধরি, ২৫০ টাকার x% = ১০ টাকা।<br/>২৫০ × (x/১০০) = ১০<br/>বা, (৫/২)x = ১০<br/>বা, ৫x = ২০<br/>সুতরাং, x = ৪।<br/>অতএব, ৪%।<br/>⇢<br/>▣   শতকরা হিসাব অনুযায়ী, শতকরা x = (অংশ × ১০০)/সমগ্র। <br/>প্রশ্নমতে, অংশ = ১০ টাকা এবং সমগ্র = ২৫০ টাকা। <br/>সুতরাং, শতকরা x = (১০ × ১০০)/২৫০ = ১০০০/২৫০ = ৪। <br/>অতএব, ২৫০ টাকার শতকরা ৪% সমান ১০ টাকা। সুতরাং, উত্তর ৪%।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330877,
+    "question": "x টাকার x % সরল মুনাফায় 4 বছরের মুনাফা x টাকা হলে x এর মান কত?",
+    "options": [
+      "10",
+      "20",
+      "25",
+      "50"
+    ],
+    "correct_answer": "25",
+    "explanation": "📖  আমরা জানি, সরল মুনাফা (I) = আসল (P) × মুনাফার হার (r) × সময় (n)।<br/>এখানে, I = x, P = x, r = x/১০০, n = ৪।<br/>x = x × (x/১০০) × ৪<br/>বা, x = ৪x²/১০০<br/>বা, ১ = ৪x/১০০ (উভয় পক্ষকে x দ্বারা ভাগ করে, ধরে নিচ্ছি x≠0)<br/>বা, ১০০ = ৪x<br/>সুতরাং, x = ১০০ ÷ ৪ = ২৫।<br/>⇢<br/>▣   সরল মুনাফার সূত্র অনুযায়ী, মুনাফা = (মূলধন × হার × সময়)/১০০। <br/>প্রশ্নমতে, মূলধন = x টাকা, হার = x%, সময় = ৪ বছর, এবং মুনাফা = x টাকা। <br/>সুতরাং, x = (x × x × ৪)/১০০, <br/>বা, x = (4x²)/১০০, <br/>বা, ১০০x = 4x², <br/>বা, 4x² - ১০০x = ০, <br/>বা, 4x(x - ২৫) = ০। <br/>অতএব, x = ০ বা x = ২৫। যেহেতু x = ০ গ্রহণযোগ্য নয়, তাই x = ২৫। সুতরাং, x এর মান ২৫।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330878,
+    "question": "দুইটি সংখ্যার যোগফল ১৫, বিয়োগফল ১৩, ছোট সংখ্যাটি কত?",
+    "options": [
+      "১",
+      "২",
+      "৩",
+      "৪"
+    ],
+    "correct_answer": "১",
+    "explanation": "📖  ধরি, বড় সংখ্যাটি x এবং ছোট সংখ্যাটি y।<br/>x + y = ১৫<br/>x - y = ১৩<br/>যোগ করে পাই, ২x = ২৮, সুতরাং x = ১৪।<br/>x এর মান বসিয়ে পাই, ১৪ + y = ১৫, সুতরাং y = ১।<br/>ছোট সংখ্যাটি হলো ১।<br/>⇢<br/>▣   ধরি, দুইটি সংখ্যা = x এবং y, এবং x > y। <br/>প্রশ্নমতে, যোগফল = ১৫ এবং বিয়োগফল = ১৩। <br/>সুতরাং, x + y = ১৫ এবং x - y = ১৩। <br/>দুটি সমীকরণ যোগ করে পাই: <br/>(x + y) + (x - y) = ১৫ + ১৩, <br/>বা, ২x = ২৮, <br/>বা, x = ১৪। <br/>প্রথম সমীকরণে x এর মান বসিয়ে পাই: ১৪ + y = ১৫, বা, y = ১। অতএব, ছোট সংখ্যাটি ১।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330879,
+    "question": "একটি বৃত্তের ব্যাস দ্বিগুণ করা হলে ক্ষেত্রফল কতগুণ হবে?",
+    "options": [
+      "২ গুণ",
+      "৩ গুণ",
+      "৪ গুণ",
+      "৬ গুণ"
+    ],
+    "correct_answer": "৪ গুণ",
+    "explanation": "📖  ধরি, বৃত্তের ব্যাস d এবং ব্যাসার্ধ r = d/২।<br/>বৃত্তের ক্ষেত্রফল = πr² = π(d/২)² = πd²/৪।<br/>ব্যাস দ্বিগুণ করা হলে নতুন ব্যাস = ২d এবং নতুন ব্যাসার্ধ = ২d/২ = d।<br/>নতুন ক্ষেত্রফল = π(d)² = πd²।<br/>ক্ষেত্রফল বৃদ্ধি = নতুন ক্ষেত্রফল / পুরাতন ক্ষেত্রফল = (πd²) / (πd²/৪) = ৪ গুণ।<br/>⇢<br/>▣   বৃত্তের ক্ষেত্রফলের সূত্র = πr², যেখানে r = ব্যাসার্ধ। ধরি, প্রথম বৃত্তের ব্যাস = d, তাহলে ব্যাসার্ধ = d/2। প্রথম বৃত্তের ক্ষেত্রফল = π(d/2)² = πd²/4। ব্যাস দ্বিগুণ করলে নতুন ব্যাস = 2d, তাহলে নতুন ব্যাসার্ধ = 2d/2 = d। নতুন বৃত্তের ক্ষেত্রফল = πd²। অতএব, ক্ষেত্রফলের অনুপাত = (πd²)/(πd²/4) = 4। সুতরাং, বৃত্তের ব্যাস দ্বিগুণ করলে ক্ষেত্রফল ৪ গুণ হবে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330880,
+    "question": "ত্রিভুজের একটি কোণ এর অপর দুইটি কোণের সমষ্টির সমান হলে ত্রিভুজটি হবে-",
+    "options": [
+      "স্থূলকোণী",
+      "সমকোণী",
+      "সমবাহু",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "সমকোণী",
+    "explanation": "📖  আমরা জানি, ত্রিভুজের তিন কোণের সমষ্টি ১৮০°।<br/>ধরি, কোণ তিনটি A, B, এবং C।<br/>প্রশ্নমতে, A = B + C।<br/>তিন কোণের সমষ্টি, A + B + C = ১৮০°<br/>বা, A + A = ১৮০°<br/>বা, ২A = ১৮০°<br/>সুতরাং, A = ৯০°।<br/>যে ত্রিভুজের একটি কোণ ৯০° বা সমকোণ, তাকে সমকোণী ত্রিভুজ বলে।<br/>⇢<br/>▣   ধরি, ত্রিভুজের তিনটি কোণ = a, b, এবং c। প্রশ্নমতে, একটি কোণ অপর দুইটি কোণের সমষ্টির সমান। ধরি, a = b + c। আমরা জানি, ত্রিভুজের তিনটি কোণের সমষ্টি = ১৮০°। সুতরাং, a + b + c = ১৮০°। যেহেতু a = b + c, তাই (b + c) + b + c = ১৮০°, বা, ২(b + c) = ১৮০°, বা, b + c = ৯০°। অতএব, a = ৯০°। সুতরাং, ত্রিভুজটির একটি কোণ ৯০°, যা একটি সমকোণী ত্রিভুজ। সুতরাং, ত্রিভুজটি সমকোণী হবে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330881,
+    "question": "একটি সংখ্যার অর্ধেক তার এক তৃতীয়াংশের চেয়ে ১৭বেশী, সংখ্যাটি কত?",
+    "options": [
+      "৫১",
+      "৬৮",
+      "৮৫",
+      "১০২"
+    ],
+    "correct_answer": "১০২",
+    "explanation": "📖  ধরি, সংখ্যাটি x।<br/>প্রশ্নমতে, x/২ - x/৩ = ১৭<br/>বা, (৩x - ২x) / ৬ = ১৭<br/>বা, x / ৬ = ১৭<br/>সুতরাং, x = ১৭ × ৬ = ১০২।<br/>⇢<br/>▣   ধরি, সংখ্যাটি = x। <br/>প্রশ্নমতে, সংখ্যাটির অর্ধেক তার এক তৃতীয়াংশের চেয়ে ১৭ বেশি। <br/>সুতরাং, x/২ = x/৩ + ১৭। <br/>উভয় পক্ষকে ৬ দ্বারা গুণ করে পাই: <br/>৩x = ২x + ১০২, <br/>বা, ৩x - ২x = ১০২, <br/>বা, x = ১০২। <br/>অতএব, সংখ্যাটি ১০২। <br/>যাচাই: সংখ্যাটির অর্ধেক = ১০২/২ = ৫১ এবং এক তৃতীয়াংশ = ১০২/৩ = ৩৪। ৫১ - ৩৪ = ১৭, যা প্রশ্নের সাথে মিলে যায়। সুতরাং, সংখ্যাটি ১০২।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330882,
+    "question": "দুটি সংখ্যার ল.সা.গু ৭৫ এবং গ.সা.গু ৫। একটি সংখ্যার দ্বিগুণ ৩০ হলে অপর সংখ্যাটি কত?",
+    "options": [
+      "২০",
+      "২৫",
+      "৩০",
+      "৩৫"
+    ],
+    "correct_answer": "২৫",
+    "explanation": "📖  একটি সংখ্যার দ্বিগুণ = ৩০।<br/>সুতরাং, একটি সংখ্যা = ৩০ ÷ ২ = ১৫।<br/>আমরা জানি, দুটি সংখ্যার গুণফল = তাদের ল.সা.গু × গ.সা.গু।<br/>১৫ × অপর সংখ্যা = ৭৫ × ৫<br/>অপর সংখ্যা = (৭৫ × ৫) ÷ ১৫ = ৫ × ৫ = ২৫।<br/>⇢<br/>▣   ধরি, দুটি সংখ্যা = a এবং b। <br/>প্রশ্নমতে, ল.সা.গু (LCM) = ৭৫ এবং গ.সা.গু (GCD) = ৫। <br/>আমরা জানি, দুটি সংখ্যার গুণফল = ল.সা.গু × গ.সা.গু। <br/>সুতরাং, a × b = ৭৫ × ৫ = ৩৭৫। <br/>ধরি, একটি সংখ্যার দ্বিগুণ = ৩০। <br/>সুতরাং, সংখ্যাটি = ৩০/২ = ১৫। <br/>অতএব, অপর সংখ্যাটি = ৩৭৫/১৫ = ২৫। <br/>সুতরাং, অপর সংখ্যাটি ২৫।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330883,
+    "question": "x + y = 12 এবং x-y= 2 হলে xy এর মান কত?",
+    "options": [
+      "35",
+      "140",
+      "155",
+      "70"
+    ],
+    "correct_answer": "35",
+    "explanation": "📖  আমরা জানি, 4xy = (x+y)² - (x-y)²<br/>বা, 4xy = (12)² - (2)²<br/>বা, 4xy = 144 - 4<br/>বা, 4xy = 140<br/>সুতরাং, xy = 140 ÷ 4 = 35।<br/>⇢<br/>▣   বিকল্প পদ্ধতি হিসেবে, প্রথমে x ও y এর মান বের করা যায়।<br/>x + y = 12<br/>x - y = 2<br/>যোগ করে পাই, 2x = 14, সুতরাং x = 7।<br/>x এর মান বসালে, 7 + y = 12, সুতরাং y = 5।<br/>এখন, xy = 7 × 5 = 35। এই পদ্ধতিটিও বেশ সহজ।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330884,
+    "question": "একটি কোণের দ্বিগুণ ৬০° হলে তার পূরক কোণ কত?",
+    "options": [
+      "৬০°",
+      "১৫°",
+      "৩০°",
+      "২০°"
+    ],
+    "correct_answer": "৬০°",
+    "explanation": "📖  ধরি, কোণটি x।<br/>প্রশ্নমতে, ২x = ৬০°<br/>সুতরাং, x = ৩০°।<br/>দুটি কোণের সমষ্টি ৯০° হলে একটিকে অপরটির পূরক কোণ বলে।<br/>৩০° কোণের পূরক কোণ = ৯০° - ৩০° = ৬০°।<br/>⇢<br/>▣   এখানে দুটি ধারণা জড়িত: একটি হলো সমীকরণ সমাধান এবং অন্যটি হলো পূরক কোণের সংজ্ঞা। প্রথমে সমীকরণ থেকে মূল কোণটি (৩০°) বের করতে হবে। তারপর পূরক কোণের সংজ্ঞা (যে দুটি কোণের যোগফল ৯০°) ব্যবহার করে নির্ণেয় কোণটি (৯০°-৩০°=৬০°) বের করতে হবে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330885,
+    "question": "পানিভর্তি একটি বালতির ওজন ১২ কেজি। বালতির অর্ধেক পানিভর্তি হলে তার ওজন ৭ কেজি। খালি বালতির ওজন কত?",
+    "options": [
+      "২ কেজি",
+      "৩ কেজি",
+      "৪ কেজি",
+      "৫ কেজি"
+    ],
+    "correct_answer": "২ কেজি",
+    "explanation": "📖  সম্পূর্ণ পানি + বালতির ওজন = ১২ কেজি।<br/>অর্ধেক পানি + বালতির ওজন = ৭ কেজি।<br/>বিয়োগ করে পাই, অর্ধেক পানির ওজন = (১২ - ৭) = ৫ কেজি।<br/>সম্পূর্ণ পানির ওজন = ৫ × ২ = ১০ কেজি।<br/>খালি বালতির ওজন = (সম্পূর্ণ পানিভর্তি বালতির ওজন) - (সম্পূর্ণ পানির ওজন) = ১২ - ১০ = ২ কেজি।<br/>⇢<br/>▣   ধরি, খালি বালতির ওজন = x কেজি <br/>এবং পানিভর্তি বালতির পানির ওজন = y কেজি। <br/>প্রশ্নমতে, পানিভর্তি বালতির ওজন = ১২ কেজি। <br/>সুতরাং, x + y = ১২। <br/>বালতির অর্ধেক পানিভর্তি হলে ওজন = ৭ কেজি। <br/>সুতরাং, x + y/২ = ৭। <br/>প্রথম সমীকরণ থেকে দ্বিতীয় সমীকরণ বিয়োগ করে পাই: <br/>(x + y) - (x + y/২) = ১২ - ৭, <br/>বা, y/২ = ৫, বা, y = ১০। <br/>অতএব, x = ১২ - ১০ = ২। <br/>সুতরাং, খালি বালতির ওজন ২ কেজি।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330886,
+    "question": "কোনো ত্রিভুজের তিনটি বাহুকে বর্ধিত করলে উৎপন্ন বহিস্থ কোণ ৩টির সমষ্টি কত?",
+    "options": [
+      "১৮০°",
+      "৩৬০°",
+      "২৭০°",
+      "৩৩০°"
+    ],
+    "correct_answer": "৩৬০°",
+    "explanation": "📖   যেকোনো বহুভুজের বহিস্থ কোণগুলোর সমষ্টি ৩৬০° হয়। ত্রিভুজ একটি বহুভুজ হওয়ায় এর তিনটি বাহুকে বর্ধিত করলে যে তিনটি বহিস্থ কোণ উৎপন্ন হয়, তাদের সমষ্টিও ৩৬০° হবে।<br/>⇢<br/>▣   ত্রিভুজের একটি বহিস্থ কোণ তার বিপরীত অন্তঃস্থ কোণদ্বয়ের সমষ্টির সমান। ধরি, ত্রিভুজের তিনটি অন্তঃস্থ কোণ A, B, C। তাহলে বহিস্থ কোণগুলো হবে (B+C), (A+C), এবং (A+B)। এদের সমষ্টি = (B+C) + (A+C) + (A+B) = 2(A+B+C)। আমরা জানি, A+B+C = ১৮০°। সুতরাং, সমষ্টি = ২ × ১৮০° = ৩৬০°।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330887,
+    "question": "একটি সংখ্যা ৩০১ হলে যত বড় ৩৮১ হতে তত ছোট। সংখ্যাটি কত?",
+    "options": [
+      "৩৪০",
+      "৩৪২",
+      "৩৪৪",
+      "৩৪১"
+    ],
+    "correct_answer": "৩৪১",
+    "explanation": "📖  ধরি, সংখ্যাটি x।<br/>প্রশ্নমতে, x - ৩০১ = ৩৮১ - x<br/>বা, x + x = ৩৮১ + ৩০১<br/>বা, ২x = ৬৮২<br/>সুতরাং, x = ৩৪১।<br/>সহজ উপায়: সংখ্যাটি হবে (৩০১ + ৩৮১) ÷ ২ = ৬৮২ ÷ ২ = ৩৪১।<br/>যাচাই: ৩৮১ - ৩৪১ = ৪০ এবং ৩৪১ - ৩০১ = ৪০। সুতরাং, সংখ্যাটি ৩০১ হলে যত বড় ৩৮১ হতে তত ছোট।<br/>⇢<br/>▣   এই ধরনের সমস্যা সমাধানের মূলনীতি হলো, সংখ্যাটি প্রদত্ত দুটি সংখ্যার ঠিক মাঝখানে অবস্থিত। অর্থাৎ, সংখ্যাটি হলো প্রদত্ত সংখ্যা দুটির গড়। তাই সংখ্যা দুটিকে যোগ করে ২ দিয়ে ভাগ করলেই উত্তর পাওয়া যায়। এটি সবচেয়ে দ্রুত এবং কার্যকর পদ্ধতি।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330888,
+    "question": "পিতা ও পুত্রের বয়সের সমষ্টি ৬০ বছর এবং তাদের বয়সের অনুপাত ৭ : ৩। ১২ বছর আগে তাদের বয়সের অনুপাত কত ছিল?",
+    "options": [
+      "৪ : ১",
+      "৫ : ১",
+      "৬ : ১",
+      "২ : ১"
+    ],
+    "correct_answer": "৫ : ১",
+    "explanation": "📖  পিতার বর্তমান বয়স = ৬০ × (৭ / (৭+৩)) = ৬০ × (৭/১০) = ৪২ বছর।<br/>পুত্রের বর্তমান বয়স = ৬০ × (৩ / (৭+৩)) = ৬০ × (৩/১০) = ১৮ বছর।<br/>১২ বছর আগে পিতার বয়স ছিল = ৪২ - ১২ = ৩০ বছর।<br/>১২ বছর আগে পুত্রের বয়স ছিল = ১৮ - ১২ = ৬ বছর।<br/>১২ বছর আগে তাদের বয়সের অনুপাত = ৩০ : ৬ = ৫ : ১।<br/>⇢<br/>▣   পিতা ও পুত্রের বয়সের সমষ্টি = ৬০ বছর এবং অনুপাত = ৭ : ৩। <br/>ধরি, পিতার বয়স = ৭x বছর এবং পুত্রের বয়স = ৩x বছর। <br/>সুতরাং, ৭x + ৩x = ৬০, <br/>বা, ১০x = ৬০, <br/>বা, x = ৬। <br/>অতএব, পিতার বর্তমান বয়স = ৭ × ৬ = ৪২ বছর <br/>এবং পুত্রের বর্তমান বয়স = ৩ × ৬ = ১৮ বছর। <br/>১২ বছর আগে, পিতার বয়স = ৪২ - ১২ = ৩০ বছর <br/>এবং পুত্রের বয়স = ১৮ - ১২ = ৬ বছর। <br/>অতএব, ১২ বছর আগে তাদের বয়সের অনুপাত = ৩০ : ৬ = ৫ : ১। <br/>সুতরাং, ১২ বছর আগে তাদের বয়সের অনুপাত ৫ : ১ ছিল।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330889,
+    "question": "একটি নৌকায় নদীর স্রোতের অনুকূলে ২১ কি.মি. পথ যেতে ৩ ঘণ্টা সময় লেগেছে। নৌকার প্রকৃত গতি ঘণ্টায় ৫ কি.মি. হলে ফিরে আসার সময় নৌকাটির কত ঘণ্টা সময় লাগবে?",
+    "options": [
+      "৫ ঘণ্টা",
+      "৬ ঘণ্টা",
+      "৭ ঘণ্টা",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "৭ ঘণ্টা",
+    "explanation": "📖  স্রোতের অনুকূলে নৌকার গতি = ২১ ÷ ৩ = ৭ কি.মি./ঘণ্টা।<br/>আমরা জানি, অনুকূলে গতি = নৌকার গতি + স্রোতের গতি।<br/>৭ = ৫ + স্রোতের গতি।<br/>সুতরাং, স্রোতের গতি = ৭ - ৫ = ২ কি.মি./ঘণ্টা।<br/>ফিরে আসার সময় স্রোত প্রতিকূলে থাকবে।<br/>স্রোতের প্রতিকূলে নৌকার গতি = নৌকার গতি - স্রোতের গতি = ৫ - ২ = ৩ কি.মি./ঘণ্টা।<br/>ফিরে আসার সময় লাগবে = মোট দূরত্ব ÷ প্রতিকূলে গতি = ২১ ÷ ৩ = ৭ ঘণ্টা।<br/>⇢<br/>▣   এখানে মূল ধারণা হলো, স্রোতের দিকে যাওয়ার সময় নৌকার গতির সাথে স্রোতের গতি যোগ হয় (অনুকূল) এবং স্রোতের বিপরীতে আসার সময় নৌকার গতি থেকে স্রোতের গতি বিয়োগ হয় (প্রতিকূল)। প্রথমে আমরা অনুকূলের গতি থেকে স্রোতের গতি বের করেছি, তারপর সেই স্রোতের গতি ব্যবহার করে প্রতিকূলের গতি নির্ণয় করেছি এবং সবশেষে সময় বের করেছি।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330890,
+    "question": "তিনটি ক্রমিক সংখ্যার যোগফল ৩৩ হলে তাদের গুণফল কত হবে?",
+    "options": [
+      "১২৩৩",
+      "১২১৩",
+      "১৪৪৩",
+      "১৩২০"
+    ],
+    "correct_answer": "১৩২০",
+    "explanation": "📖  ধরি, ক্রমিক সংখ্যা তিনটি হলো x, x+১, এবং x+২।<br/>প্রশ্নমতে, x + (x+১) + (x+২) = ৩৩<br/>বা, ৩x + ৩ = ৩৩<br/>বা, ৩x = ৩০<br/>সুতরাং, x = ১০।<br/>সংখ্যা তিনটি হলো ১০, ১১, এবং ১২।<br/>তাদের গুণফল = ১০ × ১১ × ১২ = ১৩২০।<br/>⇢<br/>▣   তিনটি ক্রমিক সংখ্যার যোগফল দেওয়া থাকলে, যোগফলকে ৩ দিয়ে ভাগ করলে মাঝের সংখ্যাটি পাওয়া যায়। এখানে, ৩৩ ÷ ৩ = ১১। সুতরাং, মাঝের সংখ্যাটি ১১। তাহলে সংখ্যা তিনটি হলো ১০, ১১, ও ১২। তাদের গুণফল = ১০ × ১১ × ১২ = ১৩২০। এই পদ্ধতিটি দ্রুত উত্তর বের করতে সাহায্য করে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330891,
+    "question": "একটি আয়তক্ষেত্রের ক্ষেত্রফল ৪৮ বর্গ একক। যদি দৈর্ঘ্য প্রস্থের তিনগুণ হয় তবে আয়তক্ষেত্রের পরিসীমা কত?",
+    "options": [
+      "১৬ একক",
+      "৩২ একক",
+      "৩৮ একক",
+      "৪৩ একক"
+    ],
+    "correct_answer": "৩২ একক",
+    "explanation": "📖  ধরি, আয়তক্ষেত্রের প্রস্থ = x একক।<br/>তাহলে, দৈর্ঘ্য = ৩x একক।<br/>ক্ষেত্রফল = দৈর্ঘ্য × প্রস্থ = ৩x × x = ৩x² বর্গ একক।<br/>প্রশ্নমতে, ৩x² = ৪৮<br/>বা, x² = ১৬<br/>সুতরাং, x = ৪ একক (প্রস্থ)।<br/>দৈর্ঘ্য = ৩ × ৪ = ১২ একক।<br/>পরিসীমা = ২ × (দৈর্ঘ্য + প্রস্থ) = ২ × (১২ + ৪) = ২ × ১৬ = ৩২ একক।<br/>⇢<br/>▣   এখানে আমরা সমীকরণ গঠন করে সমাধান করেছি। বিকল্পভাবে, আমরা অনুপাত দিয়েও চিন্তা করতে পারি। দৈর্ঘ্য ও প্রস্থের অনুপাত ৩:১। ক্ষেত্রফল হলো ৪৮। যদি আমরা অনুপাতের গুণফল (৩×১=৩) দিয়ে ক্ষেত্রফলকে ভাগ করি, পাই ৪৮÷৩=১৬। এর বর্গমূল (√১৬=৪) হলো সাধারণ গুণিতক। সুতরাং, প্রস্থ = ১×৪=৪ এবং দৈর্ঘ্য = ৩×৪=১২। পরিসীমা = ২(৪+১২) = ৩২ একক।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330892,
+    "question": "সমবাহু ত্রিভুজের বাহুগুলোর মধ্যবিন্দুসমূহ যোগ করলে উৎপন্ন ত্রিভুজটি-",
+    "options": [
+      "সমবাহু",
+      "সমকোণী",
+      "সমদ্বিবাহু",
+      "কোনোটিই নয়"
+    ],
+    "correct_answer": "সমবাহু",
+    "explanation": "📖   কোনো ত্রিভুজের যেকোনো দুই বাহুর মধ্যবিন্দুর সংযোজক রেখাংশ তৃতীয় বাহুর সমান্তরাল এবং তার অর্ধেক হয়। সমবাহু ত্রিভুজের তিনটি বাহুই সমান হওয়ায় তাদের মধ্যবিন্দুগুলো যোগ করে যে ত্রিভুজটি গঠিত হয়, তার তিনটি বাহুও পরস্পর সমান হয়। তাই উৎপন্ন ত্রিভুজটিও একটি সমবাহু ত্রিভুজ হবে।<br/>⇢<br/>▣   মধ্যবিন্দু উপপাদ্য (Midpoint Theorem) অনুসারে, নতুন ত্রিভুজের প্রতিটি বাহুর দৈর্ঘ্য হবে মূল ত্রিভুজের বাহুর দৈর্ঘ্যের অর্ধেক। যেহেতু মূল সমবাহু ত্রিভুজের তিনটি বাহুই সমান (ধরি, a), তাই নতুন ত্রিভুজের তিনটি বাহুর প্রতিটির দৈর্ঘ্য হবে a/2। যেহেতু নতুন ত্রিভুজেরও তিনটি বাহু পরস্পর সমান, সুতরাং এটিও একটি সমবাহু ত্রিভুজ।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330893,
+    "question": "Antonym of 'Gentle' is:",
+    "options": [
+      "Modest",
+      "Brash",
+      "Claret",
+      "Rude"
+    ],
+    "correct_answer": "Rude",
+    "explanation": "📖 'Gentle' অর্থ ভদ্র বা নম্র। এর বিপরীত শব্দ হলো 'Rude' (অভদ্র, রূঢ়)। 'Modest' অর্থ বিনয়ী, 'Brash' অর্থ উদ্ধত, এবং 'Claret' এক প্রকার মদ।<br/>⇢<br/>▣ 'Gentle' বলতে বোঝায় নরম, দয়ালু এবং শান্ত স্বভাব। এর বিপরীত শব্দ হবে কঠোর, অভদ্র বা আক্রমণাত্মক। 'Rude' শব্দটি এই অর্থটি সবচেয়ে ভালোভাবে প্রকাশ করে। 'Brash' (উদ্ধত) কাছাকাছি হলেও 'Rude' (রূঢ়) সরাসরি বিপরীত। 'Modest' (বিনয়ী) প্রায় সমার্থক। 'Claret' সম্পূর্ণ ভিন্ন একটি শব্দ।<br/>▣ 'Gentle' এর antonym হলো 'Rude'। 'Gentle' অর্থ কোমল, ভদ্র, নম্র। এর বিপরীত অর্থ হলো 'Rude', যার অর্থ অভদ্র, রূঢ়, খারাপ। অন্যদিকে 'Modest' অর্থ বিনয়ী, 'Brash' অর্থ অসভ্য, আক্রমণাত্মক, এবং 'Claret' অর্থ একটি রঙ বা ওয়াইন। যদিও 'Brash' 'Gentle' এর একটি antonym হতে পারে, কিন্তু 'Rude' সবচেয়ে সঠিক এবং সরাসরি antonym। সুতরাং 'Gentle' এর antonym 'Rude'।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330894,
+    "question": "Singular form of 'data' is:",
+    "options": [
+      "dat",
+      "datas",
+      "datum",
+      "none"
+    ],
+    "correct_answer": "datum",
+    "explanation": "📖 'Data' (উপাত্ত) শব্দটি ল্যাটিন শব্দ 'Datum' এর Plural form। যদিও আধুনিক ইংরেজিতে 'data' শব্দটি Singular এবং Plural উভয় অর্থেই ব্যবহৃত হয়, তবে এর মূল Singular form হলো 'Datum'।<br/>⇢<br/>▣ ল্যাটিন ভাষায় '-um' দিয়ে শেষ হওয়া শব্দের Plural সাধারণত '-a' দিয়ে হয় (e.g., medium -> media, curriculum -> curricula)। যদিও ভাষাগতভাবে 'datum' হলো singular, কিন্তু বর্তমানে কম্পিউটার বিজ্ঞান ও সাধারণ ব্যবহারে 'data' শব্দটিকেই একটি mass noun (uncountable) হিসেবে singular verb-এর সাথে ব্যবহার করা হয় (e.g., \"The data is correct.\")।<br/>▣ 'Data' এর singular form হলো 'datum'। 'Data' একটি Latin শব্দ, যা বহুবচন। এর একবচন form হলো 'datum'। যদিও আধুনিক ইংরেজিতে 'data' কে একবচন হিসেবেও ব্যবহার করা হয়, কিন্তু traditional grammar অনুযায়ী 'data' এর singular form 'datum'। অন্যদিকে 'dat', 'datas' ভুল singular form, এবং 'none' সঠিক নয়। সুতরাং 'data' এর singular form 'datum'।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330895,
+    "question": "Fill in the gap. A rich man purchased a ………. jewellery.",
+    "options": [
+      "stunned",
+      "stunning",
+      "stun",
+      "amazed"
+    ],
+    "correct_answer": "stunning",
+    "explanation": "📖 এখানে 'jewellery' (Noun) কে করার জন্য একটি Adjective প্রয়োজন। 'Stunning' (চমৎকার, আকর্ষণীয়) একটি Adjective (Present Participle) যা এখানে সঠিক অর্থ প্রকাশ করছে। 'Stunned' এবং 'amazed' হলো Past Participle, যা সাধারণত ব্যক্তির অনুভূতি বোঝাতে ব্যবহৃত হয়।<br/>❏ এই প্রশ্নে \"A rich man purchased a ………. jewellery.\" বাক্যে শূন্যস্থান পূরণ করতে হবে।<br/>❏ stunned: এটি past participle of stun।<br/>❏ stunning: এটি adjective।<br/>❏ stun: এটি verb।<br/>❏ amazed: এটি past participle of amaze।<br/>⇢<br/>▣ 'Stunning' (Present Participle) এখানে Adjective হিসেবে কাজ করে এবং এটি 'jewellery'-এর গুণ বর্ণনা করছে (কেমন গহনা? - চমৎকার গহনা)। অন্যদিকে 'Stunned' (Past Participle) সাধারণত কোনো ব্যক্তি বা প্রাণীর অনুভূতি বোঝায় (e.g., I was stunned)। গহনা নিজে 'stunned' হতে পারে না, কিন্তু এটি অন্যকে 'stun' করতে পারে, তাই এটি 'stunning'।<br/>▣ \"A rich man purchased a ………. jewellery.\" বাক্যে শূন্যস্থানে 'stunning' বসবে। সম্পূর্ণ বাক্যটি হবে: \"A rich man purchased a stunning jewellery.\" অর্থাৎ \"একজন ধনী ব্যক্তি একটি অসাধারণ সুন্দর গহনা কিনল।\" এখানে 'stunning' একটি adjective, যার অর্থ অসাধারণ সুন্দর, চমৎকার। এটি 'jewellery' noun টির বিশেষণ হিসেবে ব্যবহৃত হয়েছে। অন্যদিকে 'stunned' past participle, 'stun' verb, এবং 'amazed' past participle এই প্রেক্ষাপটে সঠিক নয়। সুতরাং শূন্যস্থানে 'stunning' বসবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330896,
+    "question": "Which is plural form of mouse?",
+    "options": [
+      "Mouses",
+      "Mices",
+      "Mice",
+      "Mouse"
+    ],
+    "correct_answer": "Mice",
+    "explanation": "📖 কিছু Noun-এর Plural form অনিয়মিতভাবে গঠিত হয়। 'Mouse' (ইঁদুর) এর Plural form হলো 'Mice'।<br/>⇢<br/>▣ এটি একটি Irregular Plural Noun। এর উৎস প্রাচীন ইংরেজি ভাষা, যেখানে Vowel পরিবর্তন করে Plural করা হতো (i-mutation)। একই ধরনের উদাহরণ হলো: man -> men, foot -> feet, goose -> geese, tooth -> teeth। তবে কম্পিউটার 'mouse'-এর plural 'mouses' বা 'mice' দুটোই ব্যবহৃত হয়।<br/>▣ 'Mouse' এর plural form হলো 'Mice'। 'Mouse' একটি irregular noun, যার plural form 'Mice'। এটি একটি irregular plural, যা নিয়মিত plural formation (-s, -es যোগ করা) অনুসরণ করে না। অন্যদিকে 'Mouses', 'Mices' ভুল plural form, এবং 'Mouse' singular form। সুতরাং 'Mouse' এর plural form 'Mice'।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330897,
+    "question": "যত শীঘ্র তত ভালো। বাক্যটির ইংরেজি অনুবাদ কোনটি?",
+    "options": [
+      "The earlier is so better.",
+      "The sooner, the better.",
+      "The earlier is so the better.",
+      "The sooner is so better."
+    ],
+    "correct_answer": "The sooner, the better.",
+    "explanation": "📖 \"যত...তত\" বোঝাতে Comparative Degree-এর আগে 'The' বসে। এর গঠন হলো: The + Comparative + ..., the + Comparative + ...। তাই সঠিক অনুবাদ \"The sooner, the better.\"।<br/>⇢<br/>▣ এটি Parallel Comparative বা Correlative Comparative নামে পরিচিত। এই গঠনে দুটি clause থাকে, এবং দুটিরই শুরুতে 'the' + comparative form বসে। এটি বোঝায় যে একটি জিনিসের পরিবর্তন অন্য একটি জিনিসের আনুপাতিক পরিবর্তনের কারণ। যেমন: \"The more you read, the more you learn.\"<br/>▣ \"যত শীঘ্র তত ভালো।\" বাক্যটির সঠিক ইংরেজি অনুবাদ \"The sooner, the better.\" এটি একটি ইংরেজি প্রবাদ বা প্রবচন, যার অর্থ যত দ্রুত তত ভালো। এটি একটি comparative structure, যেখানে দুটি comparative adjective পাশাপাশি ব্যবহৃত হয়েছে। অন্যদিকে \"The earlier is so better\", \"The earlier is so the better\", এবং \"The sooner is so better\" অশুদ্ধ অনুবাদ। সুতরাং বাক্যটির সঠিক ইংরেজি অনুবাদ \"The sooner, the better.\"।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330898,
+    "question": "“This is a very peaceful place.\"- Change into an exclamatory sentence.",
+    "options": [
+      "This place is very peaceful!",
+      "How peaceful place this is!",
+      "What a peaceful place this is!",
+      "No place is as peaceful as this!"
+    ],
+    "correct_answer": "What a peaceful place this is!",
+    "explanation": "📖 Assertive sentence-এ 'a/an' থাকলে Exclamatory করার সময় 'What a/an' দিয়ে শুরু হয়। আর 'a/an' না থাকলে 'How' দিয়ে শুরু হয়। এখানে 'a very peaceful place' থাকায় 'What a' দিয়ে বাক্য শুরু হবে। গঠন: What a/an + Adjective + Noun + Subject + Verb!<br/>❏ এই প্রশ্নে \"This is a very peaceful place.\" বাক্যটি exclamatory sentence এ রূপান্তর করতে হবে।<br/>❏ This place is very peaceful!: এটি assertive sentence।<br/>❏ How peaceful place this is!: এটি exclamatory sentence।<br/>❏ What a peaceful place this is!: এটি exclamatory sentence।<br/>❏ No place is as peaceful as this!: এটি assertive sentence।<br/>⇢<br/>▣ Exclamatory sentence তৈরির নিয়ম হলো: যদি Adjective-এর পর Noun থাকে, তবে 'What' দিয়ে শুরু হয় (What a beautiful bird it is!)। আর যদি শুধু Adjective থাকে, তবে 'How' দিয়ে শুরু হয় (How beautiful the bird is!)। যেহেতু এখানে Adjective (peaceful) এর পর Noun (place) আছে, তাই 'What a' ব্যবহার করাটাই সঠিক।<br/>▣ \"This is a very peaceful place.\" বাক্যটি exclamatory sentence এ রূপান্তর করলে হবে \"How peaceful place this is!\" এবং \"What a peaceful place this is!\"। কিন্তু \"How peaceful place this is!\" বেশি সঠিক, কারণ এটি 'How' দ্বারা শুরু হয়েছে এবং adjective 'peaceful' এর আগে বসেছে। সাধারণত 'How' দ্বারা শুরু হওয়া exclamatory sentence এর structure হলো: How + adjective + subject + verb! অন্যদিকে 'What' দ্বারা শুরু হওয়া exclamatory sentence এর structure হলো: What + a/an + adjective + noun + subject + verb! সুতরাং \"How peaceful place this is!\" সঠিক exclamatory sentence।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330899,
+    "question": "Fill in the gap. This is the play ground ………. football match will be held.",
+    "options": [
+      "whom",
+      "where",
+      "when",
+      "whose"
+    ],
+    "correct_answer": "where",
+    "explanation": "📖 শূন্যস্থানের আগে 'play ground' একটি স্থানকে নির্দেশ করছে। স্থান বোঝাতে Relative Adverb হিসেবে 'where' ব্যবহৃত হয়।<br/>❏ এই প্রশ্নে \"This is the play ground ………. football match will be held.\" বাক্যে শূন্যস্থান পূরণ করতে হবে।<br/>❏ whom: এটি people এর জন্য object relative pronoun।<br/>❏ where: এটি place এর জন্য relative adverb।<br/>❏ when: এটি time এর জন্য relative adverb।<br/>❏ whose: এটি possession এর জন্য relative pronoun।<br/>⇢<br/>▣ 'Where' এখানে 'in which' বা 'at which' এর সমতুল্য। পুরো বাক্যটি হলো: \"This is the play ground in which the football match will be held.\"। স্থান বোঝানোর জন্য Relative Adverb 'where' ব্যবহার করা হয়। 'When' সময়, 'whose' মালিকানা, এবং 'whom' ব্যক্তিকে (object হিসেবে) বোঝাতে ব্যবহৃত হয়।<br/>▣ \"This is the play ground ………. football match will be held.\" বাক্যে শূন্যস্থানে 'where' বসবে। সম্পূর্ণ বাক্যটি হবে: \"This is the play ground where football match will be held.\" অর্থাৎ \"এটি সেই খেলার মাঠ যেখানে ফুটবল ম্যাচ অনুষ্ঠিত হবে।\" এখানে 'play ground' একটি স্থান, তাই এর জন্য 'where' relative adverb ব্যবহার করতে হবে। অন্যদিকে 'whom' people এর জন্য object relative pronoun, 'when' time এর জন্য relative adverb, এবং 'whose' possession এর জন্য relative pronoun। সুতরাং শূন্যস্থানে 'where' বসবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330900,
+    "question": "Choose the right form of verb in the sentence - 'I (see) him recently.'",
+    "options": [
+      "I saw him recently.",
+      "I have seen him recently.",
+      "I had seen him recently.",
+      "I seeing him recently."
+    ],
+    "correct_answer": "I have seen him recently.",
+    "explanation": "📖 বাক্যে 'recently', 'lately', 'just', 'already', 'yet' ইত্যাদি adverb থাকলে বাক্যটি Present Perfect Tense হয়। Present Perfect Tense-এর গঠন: Subject + have/has + Verb-এর Past Participle।<br/>❏ এই প্রশ্নে \"I (see) him recently.\" বাক্যে সঠিক verb form চাওয়া হয়েছে।<br/>❏ I saw him recently: এটি Simple Past Tense।<br/>❏ I have seen him recently: এটি Present Perfect Tense।<br/>❏ I had seen him recently: এটি Past Perfect Tense।<br/>❏ I seeing him recently: এটি অশুদ্ধ verb form।<br/>⇢<br/>▣ 'Recently' (সম্প্রতি) এমন একটি সময়কে নির্দেশ করে যা অতীত থেকে শুরু হয়ে বর্তমান পর্যন্ত বিস্তৃত বা বর্তমানের সাথে যার সংযোগ আছে। এই ধরনের ক্ষেত্রে Present Perfect Tense (have/has + V3) ব্যবহার করা হয়। Past Indefinite (saw) ব্যবহার করা হতো যদি একটি নির্দিষ্ট অতীত সময় উল্লেখ থাকত (e.g., yesterday, last week)।<br/>▣ \"I (see) him recently.\" বাক্যে সঠিক verb form হবে \"I have seen him recently.\" এখানে 'recently' শব্দটি ব্যবহার করা হয়েছে, যা অতীতের কোনো কাজ বর্তমানের সাথে সম্পর্কিত কিন্তু নির্দিষ্ট সময় উল্লেখ নেই এমন অবস্থায় ব্যবহৃত হয়। এরূপ অবস্থায় Present Perfect Tense (have/has + V3) ব্যবহার করতে হয়। অন্যদিকে Simple Past Tense (saw) নির্দিষ্ট অতীত সময়ের জন্য ব্যবহৃত হয়, Past Perfect Tense (had seen) অতীতের কোনো কাজের পূর্বে সংঘটিত অন্য কোনো কাজের জন্য ব্যবহৃত হয়, এবং 'seeing' অশুদ্ধ verb form। সুতরাং সঠিক verb form \"I have seen him recently.\"।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330901,
+    "question": "'মেয়েটি হাসতে হাসতে ঘরে ঢুকল।'- বাক্যটির সঠিক ইংরেজি অনুবাদ কি?",
+    "options": [
+      "The girl entered the room laughing.",
+      "The girl laughed and entered the room.",
+      "The girl laughing entered the room.",
+      "The girl laughing enter the room."
+    ],
+    "correct_answer": "The girl entered the room laughing.",
+    "explanation": "📖 'হাসতে হাসতে' (একটি কাজ চলাকালীন অন্য কাজ) বোঝাতে Present Participle (verb+ing) ব্যবহৃত হয়। এখানে 'laughing' শব্দটি মেয়েটির ঘরে ঢোকার অবস্থাকে বর্ণনা করছে। তাই সঠিক অনুবাদ \"The girl entered the room laughing.\"।<br/>⇢<br/>▣ এখানে 'laughing' একটি Participle যা Adverb-এর মতো কাজ করে 'entered' verb-টিকে modify করছে (কীভাবে ঢুকল? - হাসতে হাসতে)। \"The girl laughed and entered the room\" এর অর্থ হলো সে আগে হাসল এবং তারপর ঢুকল, যা মূল বাক্যের অর্থ (একই সাথে দুটি কাজ) প্রকাশ করে না।<br/>▣ \"মেয়েটি হাসতে হাসতে ঘরে ঢুকল।\" বাক্যটির সঠিক ইংরেজি অনুবাদ \"The girl entered the room laughing.\" এখানে 'হাসতে হাসতে' অর্থাৎ হাসতে হাসতে ঘরে প্রবেশ করা, যা ইংরেজিতে 'entered the room laughing' দ্বারা প্রকাশিত হয়। এটি Present Participle (laughing) ব্যবহার করে ক্রিয়াটির সাথে সাথে অন্য ক্রিয়াটি চলাকালীন অবস্থা বোঝায়। অন্যদিকে \"The girl laughed and entered the room\" বাক্যটি বোঝায় মেয়েটি প্রথমে হেসেছে এবং পরে ঘরে প্রবেশ করেছে, যা মূল বাক্যের অর্থের সাথে মেলে না। \"The girl laughing entered the room\" এবং \"The girl laughing enter the room\" অশুদ্ধ অনুবাদ। সুতরাং বাক্যটির সঠিক ইংরেজি অনুবাদ \"The girl entered the room laughing.\"।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330902,
+    "question": "Do you know them?- বাক্যটির Passive form কোনটি?",
+    "options": [
+      "Are they known by you?",
+      "Would they be known by you?",
+      "Are they known with you?",
+      "Are they known to you?"
+    ],
+    "correct_answer": "Are they known to you?",
+    "explanation": "📖 'Know' verb-টির পর passive voice-এ preposition হিসেবে 'by' না বসে 'to' বসে। বাক্যটি Present Indefinite Tense-এর Interrogative sentence। তাই এর Passive form হবে: Am/is/are + object-এর subject form + known to + subject-এর object form?<br/>⇢<br/>▣ কিছু verb আছে যেগুলোর পর Passive Voice-এ 'by' এর পরিবর্তে অন্য Preposition (Prepositional Passive) বসে। যেমন: known to, surprised at, pleased with, contained in ইত্যাদি। যেহেতু 'know' এর পর 'to' বসে, তাই সঠিক উত্তর \"Are they known to you?\"।<br/>▣ \"Do you know them?\" বাক্যটির passive form হবে \"Are they known to you?\"। এটি একটি Present Simple Tense এর active voice বাক্য। 'Know' verb এর passive voice হলো 'be known'। এবং 'know' verb এর সাথে সাধারণত 'to' preposition ব্যবহৃত হয়। অন্যদিকে 'by' preposition এখানে সঠিক নয়, কারণ 'know' verb এর সাথে 'by' ব্যবহার করা হয় না। সুতরাং সঠিক passive form \"Are they known to you?\"।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330903,
+    "question": "Change the voice- 'They were flying kites'-",
+    "options": [
+      "Kites were being flew by them.",
+      "Kites were been flown by them.",
+      "Kites were being flown by them.",
+      "They were being flown by kites."
+    ],
+    "correct_answer": "Kites were being flown by them.",
+    "explanation": "📖 বাক্যটি Past Continuous Tense-এ আছে। এর Passive Voice করার নিয়ম হলো: Object (Kites) + were + being + Verb-এর Past Participle (flown) + by + Subject (them)।<br/>⇢<br/>▣ Past Continuous Tense (Active) এর গঠন হলো Sub + was/were + V1+ing + Obj। এটিকে Passive করার সময় Object-টি Subject হয়, Tense অনুযায়ী was/were বসে, continuous-এর জন্য 'being' যুক্ত হয়, মূল verb-এর V3 (Past Participle) form বসে, এবং শেষে by + original subject বসে। 'Fly' এর V3 হলো 'flown', 'flew' নয়।<br/>▣ \"They were flying kites\" বাক্যটির passive voice হবে \"Kites were being flown by them\"। এটি একটি Past Continuous Tense এর active voice বাক্য। Past Continuous Tense এর passive voice structure হলো: Subject + was/were + being + V3 + by + object। এখানে 'They' subject, 'were flying' verb, এবং 'kites' object। Passive voice হবে: 'Kites' (subject) + 'were being' (verb) + 'flown' (V3 of fly) + 'by them' (by phrase)। অন্যদিকে 'Kites were being flew by them', 'Kites were been flown by them', এবং 'They were being flown by kites' ভুল passive voice। সুতরাং সঠিক passive voice \"Kites were being flown by them\"।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330904,
+    "question": "Choose the correctly spelt word?",
+    "options": [
+      "Tsunami",
+      "Sunami",
+      "Suname",
+      "Sonamee"
+    ],
+    "correct_answer": "Tsunami",
+    "explanation": "📖 সঠিক বানানটি হলো 'Tsunami'। এটি একটি জাপানি শব্দ, যার অর্থ সামুদ্রিক জলোচ্ছ্বাস। এর উচ্চারণ 'সুনামি' হলেও বানানে 'T' অক্ষরটি silent থাকে। Tsunami' একটি জাপানি শব্দ, যার অর্থ সুনামি বা বিশাল আকারের সমুদ্র তরঙ্গ। এটি ইংরেজি ভাষায় 'Tsunami' হিসেবে বানান করা হয়। অন্যদিকে 'Sunami', 'Suname', এবং 'Sonamee' ভুল বানান। সুতরাং সঠিক বানান 'Tsunami'।<br/>⇢<br/>▣ 'Tsunami' শব্দটি দুটি জাপানি শব্দ থেকে এসেছে: 'tsu' (津) অর্থ 'বন্দর' এবং 'nami' (波) অর্থ 'ঢেউ'। অর্থাৎ, এর আক্ষরিক অর্থ 'বন্দরের ঢেউ'। ইংরেজি ভাষায় বিদেশি শব্দ অপরিবর্তিত বানানে গৃহীত হওয়ার এটি একটি উদাহরণ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330905,
+    "question": "'bring to light' কথাটির অর্থ কী?",
+    "options": [
+      "প্রজ্বলিত করা",
+      "প্রকাশ পাওয়া",
+      "দ্রুত গতি",
+      "হালকা বস্তু"
+    ],
+    "correct_answer": "প্রকাশ পাওয়া",
+    "explanation": "📖 'Bring to light' একটি phrase যার অর্থ কোনো কিছু জনসমক্ষে প্রকাশ করা বা উন্মোচন করা।<br/>⇢<br/>▣ এই phrase-টি রূপক অর্থে ব্যবহৃত। 'Light' বা আলো এখানে জ্ঞান বা উন্মোচনের প্রতীক এবং 'darkness' বা অন্ধকার অজ্ঞতা বা গোপনীয়তার প্রতীক। কোনো কিছুকে অন্ধকার থেকে আলোতে আনার অর্থ হলো কোনো গোপন তথ্য বা সত্যকে সবার সামনে প্রকাশ করা। যেমন: \"The investigation brought some shocking facts to light.\"",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330906,
+    "question": "Fill in the gap. The girl  ....... is wearing a red dress is my sister.",
+    "options": [
+      "which",
+      "that",
+      "who",
+      "whom"
+    ],
+    "correct_answer": "who",
+    "explanation": "📖 এই প্রশ্নে \"The girl ....... is wearing a red dress is my sister.\" বাক্যে শূন্যস্থান পূরণ করতে হবে।<br/>❏ which: এটি non-living things বা animals এর জন্য ব্যবহৃত হয়।<br/>❏ that: এটি people, things, বা animals এর জন্য ব্যবহৃত হয়।<br/>❏ who: এটি people এর জন্য ব্যবহৃত হয়।<br/>❏ whom: এটি object position এ people এর জন্য ব্যবহৃত হয়।<br/>❏ এখানে antecedent 'The girl' একজন ব্যক্তি। ব্যক্তিকে নির্দেশ করার জন্য Relative Pronoun হিসেবে 'who' ব্যবহৃত হয়। 'Which' বস্তু বা প্রাণীর ক্ষেত্রে এবং 'whom' object-এর ক্ষেত্রে ব্যবহৃত হয়।<br/>⇢<br/>▣ Relative Pronoun তার পূর্ববর্তী Noun বা Pronoun (antecedent)-কে নির্দেশ করে। এখানে antecedent হলো 'The girl'। যেহেতু 'The girl' একজন ব্যক্তি এবং পরবর্তী clause-এ Subject-এর ভূমিকা পালন করছে ('who is wearing'), তাই Subjective case 'who' ব্যবহার করা সঠিক। 'Whom' হলো Objective case, যা এখানে প্রযোজ্য নয়। 'That' ব্যক্তি ও বস্তু উভয়ের ক্ষেত্রে ব্যবহার করা গেলেও, 'who' এখানে অধিকতর সুনির্দিষ্ট ও প্রচলিত।<br/>▣ \"The girl ....... is wearing a red dress is my sister.\" বাক্যে শূন্যস্থানে 'who' বসবে। সম্পূর্ণ বাক্যটি হবে: \"The girl who is wearing a red dress is my sister.\" অর্থাৎ \"যে মেয়েটি লাল পোশাক পরিধান করছে সে আমার বোন।\" এখানে 'girl' একটি মানুষ, তাই এর জন্য 'who' relative pronoun ব্যবহার করতে হবে। অন্যদিকে 'which' non-living things বা animals এর জন্য, 'that' people, things, বা animals এর জন্য, এবং 'whom' object position এ people এর জন্য ব্যবহৃত হয়। সুতরাং শূন্যস্থানে 'who' বসবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330907,
+    "question": "People forget their 'roots' -what does 'root' mean in this sentence?",
+    "options": [
+      "Country-side",
+      "Lower portion of trees",
+      "Place of birth and sorroundings",
+      "World heritage"
+    ],
+    "correct_answer": "Place of birth and sorroundings",
+    "explanation": "📖 এই বাক্যে 'roots' শব্দটি রূপক অর্থে ব্যবহৃত হয়েছে। এর দ্বারা কোনো ব্যক্তির জন্মস্থান, উৎস, পারিবারিক বা সাংস্কৃতিক পটভূমিকে বোঝানো হয়েছে।<br/>❏ এই প্রশ্নে \"People forget their 'roots'\" বাক্যে 'root' শব্দের অর্থ চাওয়া হয়েছে।<br/>❏ Country-side: এটি গ্রামাঞ্চল বোঝায়।<br/>❏ Lower portion of trees: এটি গাছের নিচের অংশ বোঝায়।<br/>❏ Place of birth and surroundings: এটি জন্মস্থান ও তার আশপাশ বোঝায়।<br/>❏ World heritage: এটি বিশ্ব ঐতিহ্য বোঝায়।<br/>⇢<br/>▣ গাছের 'root' বা শিকড় যেমন গাছকে মাটির সাথে সংযুক্ত রাখে এবং তার পরিচয়ের ভিত্তি তৈরি করে, তেমনি মানুষের 'roots' বা শিকড় বলতে তার উৎস, পরিবার, সংস্কৃতি এবং ঐতিহ্যকে বোঝায় যা তার পরিচয় গঠন করে। বাক্যটির অর্থ হলো, মানুষ প্রায়শই তাদের উৎস বা অতীত ভুলে যায়।<br/>▣ \"People forget their 'roots'\" বাক্যে 'root' শব্দের অর্থ হলো 'Place of birth and surroundings' (জন্মস্থান ও তার আশপাশ)। এখানে 'roots' শব্দটি রূপক অর্থে ব্যবহৃত হয়েছে, যা কোনো ব্যক্তির উৎপত্তি, পরিবার, সংস্কৃতি, বা পটভূমিকে নির্দেশ করে। যখন বলা হয় \"People forget their roots\", তখন বোঝায় মানুষ তাদের উৎপত্তি, পরিবার, সংস্কৃতি, বা পটভূমিকে ভুলে যায়। অন্যদিকে 'Country-side', 'Lower portion of trees', এবং 'World heritage' এই প্রেক্ষাপটে সঠিক অর্থ প্রকাশ করে না। সুতরাং বাক্যে 'root' শব্দের অর্থ 'Place of birth and surroundings'।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330908,
+    "question": "'Bolt from the blue'- কথাটির অর্থ কী?",
+    "options": [
+      "রাতের আঁধারে",
+      "মন ভাঙ্গা",
+      "বিনা মেঘে বজ্রপাত",
+      "কান্নায় ভেংগে পড়া"
+    ],
+    "correct_answer": "বিনা মেঘে বজ্রপাত",
+    "explanation": "📖 'Bolt from the blue' একটি idiom যার অর্থ সম্পূর্ণ অপ্রত্যাশিত ঘটনা বা আকস্মিক বিপদ, যা বাংলায় 'বিনা মেঘে বজ্রপাত' এর সমার্থক।<br/>⇢<br/>▣ এই idiom-টির উৎস হলো পরিষ্কার নীল (blue) আকাশ থেকে হঠাৎ বজ্রপাত (bolt of lightning) হওয়ার ধারণা, যা একটি অসম্ভব এবং সম্পূর্ণ অপ্রত্যাশিত ঘটনা। তাই কোনো আকস্মিক ও আশ্চর্যজনক ঘটনা, বিশেষ করে কোনো খারাপ খবর বোঝাতে এটি ব্যবহৃত হয়। যেমন: \"His resignation was a bolt from the blue.\"<br/>▣ 'Bolt from the blue' কথাটির অর্থ হলো 'বিনা মেঘে বজ্রপাত'। এটি একটি ইংরেজি প্রবাদ, যার আক্ষরিক অর্থ হলো নীল আকাশ থেকে বজ্রপাত, অর্থাৎ আকাশে মেঘ না থাকা সত্ত্বেও বজ্রপাত হওয়া। এর রূপক অর্থ হলো সম্পূর্ণ অপ্রত্যাশিত ঘটনা বা আকস্মিক বিপদ। অন্যদিকে 'রাতের আঁধারে', 'মন ভাঙ্গা', এবং 'কান্নায় ভেংগে পড়া' ভিন্ন অর্থ প্রকাশ করে। সুতরাং 'Bolt from the blue' কথাটির অর্থ 'বিনা মেঘে বজ্রপাত'।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330909,
+    "question": "ভুল করা মানুষের স্বভাব।- বাক্যটির সঠিক ইংরেজি অনুবাদ হবে-",
+    "options": [
+      "To err is human",
+      "To err is a human",
+      "To err is humans",
+      "To err are human"
+    ],
+    "correct_answer": "To err is human",
+    "explanation": "📖 \"To err is human\" একটি প্রবাদ বাক্য, যার অর্থ ভুল করা মানুষের স্বভাব। এখানে 'To err' (ভুল করা) একটি infinitive phrase যা বাক্যের subject হিসেবে ব্যবহৃত হয়েছে এবং এটি singular। তাই verb 'is' ব্যবহৃত হয়েছে।<br/>⇢<br/>▣ পুরো প্রবাদটি হলো \"To err is human, to forgive divine.\" (ভুল করা মানবিক, ক্ষমা করা স্বর্গীয়)। এখানে 'To err' একটি Gerundial Infinitive যা বাক্যের Subject হিসেবে কাজ করছে। যেহেতু Subject টি একটি ক্রিয়া বা ধারণা, এটি Singular হিসেবে গণ্য হয়। তাই এর সাথে Singular verb 'is' বসে।<br/>▣ \"ভুল করা মানুষের স্বভাব\" বাক্যটির সঠিক ইংরেজি অনুবাদ \"To err is human\"। এটি একটি ইংরেজি প্রবাদ বা প্রবচন, যা বহুলভাবে ব্যবহৃত হয়। এর অর্থ হলো মানুষ স্বাভাবিকভাবেই ভুল করে, ভুল করা মানুষের প্রকৃতি। অন্যদিকে \"To err is a human\", \"To err is humans\", এবং \"To err are human\" অশুদ্ধ অনুবাদ। সুতরাং বাক্যটির সঠিক ইংরেজি অনুবাদ \"To err is human\"।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330910,
+    "question": "Fill in the gap. He blessed them his ....... heart.",
+    "options": [
+      "from",
+      "by",
+      "with",
+      "none"
+    ],
+    "correct_answer": "from",
+    "explanation": "📖 \"From his heart\" একটি phrase যার অর্থ আন্তরিকভাবে বা মন থেকে। বাক্যটির অর্থ হলো: সে তাদেরকে মন থেকে আশীর্বাদ করেছিল। এখানে 'from' সঠিক preposition।<br/>⇢<br/>▣ এই বাক্যে 'from' উৎস বা origin নির্দেশ করছে। আশীর্বাদটি কোথা থেকে আসছে? তার হৃদয় থেকে। তাই 'from his heart' একটি idiomatic expression যা আন্তরিকতা বোঝাতে ব্যবহৃত হয়। 'With his heart' বা 'by his heart' এখানে ব্যাকরণগতভাবে বা অর্থগতভাবে সঠিক নয়।<br/>▣ \"He blessed them his ....... heart.\" বাক্যে শূন্যস্থানে 'from' বসবে। সম্পূর্ণ বাক্যটি হবে: \"He blessed them from his heart.\" অর্থাৎ \"তিনি তাদের তার হৃদয় থেকে আশীর্বাদ করলেন।\" এখানে 'from' অব্যয়টি উৎস বোঝায়, অর্থাৎ আশীর্বাদটি কোথা থেকে এসেছে। অন্যদিকে 'by', 'with', এবং 'none' এই প্রেক্ষাপটে সঠিক নয়। সুতরাং শূন্যস্থানে 'from' বসবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330911,
+    "question": "Which kind of noun is Cattle?",
+    "options": [
+      "Proper",
+      "Common",
+      "Collective",
+      "Material"
+    ],
+    "correct_answer": "Collective",
+    "explanation": "📖 Collective Noun: 'Cattle' (গবাদি পশু) একটি Collective Noun কারণ এটি এক জাতীয় একাধিক প্রাণী বা বস্তুর সমষ্টিকে একটি একক দল হিসেবে বোঝায়।<br/>❏ Proper Noun: নির্দিষ্ট কোনো ব্যক্তি, বস্তু বা স্থানের নাম বোঝায় (যেমন: Dhaka)।<br/>❏ Common Noun: এক জাতীয় সকলকে বোঝায় (যেমন: cow)।<br/>❏ Material Noun: কোনো পদার্থের নাম বোঝায় (যেমন: wood)।<br/>⇢<br/>▣ Collective Noun দেখতে Singular হলেও এটি একটি দলকে বোঝানোর কারণে প্রায়শই Plural verb গ্রহণ করে (e.g., \"The cattle are grazing in the field.\")। অন্যান্য Collective Noun-এর উদাহরণ হলো: team, army, flock, herd, jury ইত্যাদি। 'Cattle' শব্দটি নিজেই বহুবচন, এর কোনো Singular form নেই। একটি গরুকে 'cow' বা 'bull' বলা হয়।<br/>▣ 'Cattle' একটি Collective noun (সমষ্টিবাচক বিশেষ্য)। Collective noun এমন একটি বিশেষ্য, যা একই জাতীয় অনেকগুলো বস্তু বা প্রাণীকে একসাথে বোঝায়। 'Cattle' শব্দটি গরু, মহিষ ইত্যাদি প্রাণীদের একটি দলকে একসাথে বোঝায়। অন্যদিকে Proper noun নির্দিষ্ট ব্যক্তি, স্থান, বা বস্তুর নাম বোঝায়, Common noun সাধারণ বস্তু, প্রাণী, বা ব্যক্তি বোঝায়, এবং Material noun কোনো পদার্থ বোঝায়। সুতরাং 'Cattle' একটি Collective noun।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330912,
+    "question": "Which is the noun of the word 'young'?",
+    "options": [
+      "Youth",
+      "Youthful",
+      "Youngest",
+      "Younger"
+    ],
+    "correct_answer": "Youth",
+    "explanation": "📖 অপশন বিশ্লেষণ: এই প্রশ্নে 'young' শব্দের noun form (বিশেষ্য রূপ) চাওয়া হয়েছে।<br/>❏ Youth: এটি 'young' এর বিশেষ্য রূপ, যার অর্থ যৌবন বা তরুণ বয়স।<br/>❏ Youthful: এটি একটি adjective (বিশেষণ), যার অর্থ যৌবনপূর্ণ।<br/>❏ Youngest: এটি superlative adjective (অতিশয়োক্তি বিশেষণ), যার অর্থ কনিষ্ঠতম।<br/>❏ Younger: এটি comparative adjective (তুলনামূলক বিশেষণ), যার অর্থ অপেক্ষাকৃত তরুণ।<br/>▣ 'Young' শব্দের noun form হলো 'Youth'। 'Youth' একটি বিশেষ্য পদ, যার অর্থ যৌবন বা তরুণ বয়স। এটি একটি অবস্থা বা সময়কে নির্দেশ করে। অন্যদিকে 'Youthful', 'Youngest', এবং 'Younger' বিশেষণ পদ, যা কোনো ব্যক্তি বা বস্তুর গুণাবলী বর্ণনা করে। সুতরাং 'young' শব্দের noun form 'Youth'।<br/>⇢<br/>▣ Parts of speech রূপান্তরের একটি উদাহরণ এটি। 'Young' শব্দটি একটি Adjective (বিশেষণ), যা কোনো Noun বা Pronoun-কে বর্ণনা করে (e.g., a young boy)। এই Adjective-কে Noun (বিশেষ্য) পদে রূপান্তর করলে 'Youth' হয়, যা একটি অবস্থা বা গুণকে বোঝায় (e.g., the days of his youth)। 'Youthful' আরেকটি Adjective, যার অর্থ 'তরুণের মতো'।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330913,
+    "question": "স্ক্যানার এক ধরনের",
+    "options": [
+      "ইনপুট ডিভাইস",
+      "আউটপুট ডিভাইস",
+      "স্মৃতি",
+      "মাইক্রোপ্রসেসর"
+    ],
+    "correct_answer": "ইনপুট ডিভাইস",
+    "explanation": "📖 স্ক্যানার একটি ইনপুট ডিভাইস যা ছবি, ডকুমেন্ট বা যেকোনো বস্তুর ভৌত রূপকে ডিজিটাল ডেটাতে রূপান্তর করে কম্পিউটারে প্রবেশ করায়।<br/>⇢<br/>▣ স্ক্যানার আলোর প্রতিফলন ব্যবহার করে একটি ডকুমেন্টের ছবি তোলে এবং সেটিকে ডিজিটাল সিগন্যালে (সাধারণত একটি ইমেজ ফাইল) রূপান্তর করে। এটি কম্পিউটারের জন্য চোখ হিসেবে কাজ করে, যা বাইরের ভৌত তথ্যকে কম্পিউটারের বোধগম্য ডিজিটাল ফরম্যাটে নিয়ে আসে। প্রিন্টার যেমন একটি আউটপুট ডিভাইস, স্ক্যানার তার বিপরীত কাজ করে।<br/>▣ স্ক্যানার এক ধরনের ইনপুট ডিভাইস। স্ক্যানার এমন একটি ডিভাইস, যা কোনো নথি, ছবি, বা অন্য কোনো ভৌত বস্তুকে ডিজিটাল আকারে রূপান্তর করে কম্পিউটারে প্রেরণ করে। এটি কম্পিউটারে তথ্য ইনপুট করার জন্য ব্যবহৃত হয়, তাই এটি একটি ইনপুট ডিভাইস। অন্যদিকে আউটপুট ডিভাইস কম্পিউটার থেকে তথ্য বের করার জন্য ব্যবহৃত হয়, স্মৃতি তথ্য সংরক্ষণের জন্য ব্যবহৃত হয়, এবং মাইক্রোপ্রসেসর কম্পিউটারের প্রধান প্রক্রিয়াকরণ অংশ। সুতরাং স্ক্যানার এক ধরনের ইনপুট ডিভাইস।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330914,
+    "question": "LINUX কী?",
+    "options": [
+      "Malware",
+      "Operating System",
+      "Firmware",
+      "Application Program"
+    ],
+    "correct_answer": "Operating System",
+    "explanation": "📖 লিনাক্স (Linux) একটি ওপেন-সোর্স অপারেটিং সিস্টেম, যা কম্পিউটার হার্ডওয়্যার এবং সফটওয়্যারের মধ্যে সমন্বয় সাধন করে।<br/>⇢<br/>▣ লিনাক্স মূলত একটি কার্নেল (Kernel), যা অপারেটিং সিস্টেমের মূল অংশ। এই কার্নেলের উপর ভিত্তি করে বিভিন্ন ডিস্ট্রিবিউশন (যেমন: Ubuntu, Fedora, Debian) তৈরি করা হয়েছে, যেগুলোকে সম্মিলিতভাবে লিনাক্স অপারেটিং সিস্টেম বলা হয়। এর ওপেন-সোর্স প্রকৃতির কারণে ব্যবহারকারীরা এটিকে নিজেদের প্রয়োজন অনুযায়ী পরিবর্তন ও বিতরণ করতে পারে।<br/>▣ LINUX হলো একটি অপারেটিং সিস্টেম। LINUX একটি ওপেন সোর্স অপারেটিং সিস্টেম, যা ইউনিক্স-ভিত্তিক। এটি ১৯৯১ সালে লিনাস টরভাল্ডস আবিষ্কার করেন। LINUX অপারেটিং সিস্টেম সার্ভার, কম্পিউটার, স্মার্টফোন, ট্যাবলেট ইত্যাদি ডিভাইসে ব্যবহৃত হয়। অন্যদিকে Malware হলো ক্ষতিকারক সফটওয়্যার, Firmware হলো হার্ডওয়্যারের জন্য সফটওয়্যার, এবং Application Program হলো একটি নির্দিষ্ট কাজ সম্পাদনের জন্য সফটওয়্যার। সুতরাং LINUX হলো একটি অপারেটিং সিস্টেম।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330915,
+    "question": "WWW এর পূর্ণ নাম লিখ?",
+    "options": [
+      "World Web Wide",
+      "World Web Wide",
+      "World wide wep",
+      "World wide web"
+    ],
+    "correct_answer": "World wide web",
+    "explanation": "📖 WWW এর পূর্ণরূপ হলো World Wide Web। এটি ইন্টারনেটের মাধ্যমে পরস্পরের সাথে সংযুক্ত হাইপারটেক্সট ডকুমেন্টের একটি সিস্টেম।<br/>⇢<br/>▣ অনেকেই ইন্টারনেট এবং ওয়ার্ল্ড ওয়াইড ওয়েবকে এক মনে করেন, কিন্তু দুটি ভিন্ন জিনিস। ইন্টারনেট হলো একটি বৈশ্বিক নেটওয়ার্ক যা কম্পিউটারগুলোকে সংযুক্ত করে। আর WWW হলো সেই নেটওয়ার্ক ব্যবহার করে তথ্য আদান-প্রদানের একটি মাধ্যম বা সার্ভিস, যা হাইপারলিংকের মাধ্যমে সংযুক্ত ওয়েব পেজ নিয়ে গঠিত। টিম বার্নার্স-লি ১৯৮৯ সালে এটি উদ্ভাবন করেন।<br/>▣ WWW-এর পূর্ণ নাম World Wide Web। World Wide Web (WWW) হলো ইন্টারনেটের একটি প্রধান অংশ, যা হাইপারটেক্সট ডকুমেন্টগুলোকে একসাথে সংযুক্ত করে। এটি ১৯৮৯ সালে টিম বার্নার্স-লি আবিষ্কার করেন। অন্যদিকে World Web Wide, World wide wep সঠিক পূর্ণ নাম নয়। সুতরাং WWW-এর পূর্ণ নাম World Wide Web।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330916,
+    "question": "কোনটি অস্থায়ী মেমোরি?",
+    "options": [
+      "RAM",
+      "ROM",
+      "Drive",
+      "কোনোটিই নয়"
+    ],
+    "correct_answer": "RAM",
+    "explanation": "📖 RAM (Random Access Memory) একটি অস্থায়ী বা উদ্বায়ী (Volatile) মেমোরি। বিদ্যুৎ সংযোগ বিচ্ছিন্ন হলে এর মধ্যে থাকা সমস্ত তথ্য মুছে যায়।<br/>⇢<br/>▣ কম্পিউটার যখন চালু থাকে, তখন অপারেটিং সিস্টেম এবং চলমান অ্যাপ্লিকেশনগুলোর প্রয়োজনীয় ডেটা RAM-এ সংরক্ষিত থাকে যাতে প্রসেসর দ্রুত সেগুলো অ্যাক্সেস করতে পারে। ROM (Read-Only Memory) একটি স্থায়ী (Non-volatile) মেমোরি, যেখানে কম্পিউটারের ফার্মওয়্যার বা বুট করার নির্দেশনা সংরক্ষিত থাকে এবং বিদ্যুৎ চলে গেলেও তা মুছে যায় না।<br/>▣ RAM (র‍্যান্ডম অ্যাক্সেস মেমোরি) হলো অস্থায়ী মেমোরি। RAM একটি অস্থায়ী মেমোরি, যা কম্পিউটার চালু থাকা অবস্থায় তথ্য সংরক্ষণ করে। কম্পিউটার বন্ধ হয়ে গেলে RAM-এ সংরক্ষিত তথ্য মুছে যায়। অন্যদিকে ROM (রিড-অনলি মেমোরি) একটি স্থায়ী মেমোরি, যা কম্পিউটার বন্ধ হয়ে গেলেও তথ্য সংরক্ষণ করে। Drive (হার্ড ড্রাইভ, SSD ইত্যাদি) একটি স্থায়ী সংরক্ষণ ডিভাইস। সুতরাং RAM হলো অস্থায়ী মেমোরি।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330917,
+    "question": "কম্পিউটার এর ব্রেইন বলা হয় কোনটিকে?",
+    "options": [
+      "প্রসেসর",
+      "RAM",
+      "ROM",
+      "হার্ড ডিক্স"
+    ],
+    "correct_answer": "প্রসেসর",
+    "explanation": "📖 প্রসেসর বা সিপিইউ (সেন্ট্রাল প্রসেসিং ইউনিট) কম্পিউটারের সকল ডেটা প্রক্রিয়াকরণ এবং নির্দেশনা নিয়ন্ত্রণের কাজ করে, তাই একে কম্পিউটারের মস্তিষ্ক বা ব্রেইন বলা হয়।<br/>⇢<br/>▣ সিপিইউ-এর প্রধান দুটি অংশ হলো অ্যারিথমেটিক লজিক ইউনিট (ALU) এবং কন্ট্রোল ইউনিট (CU)। ALU গাণিতিক ও যৌক্তিক কাজগুলো সম্পন্ন করে এবং CU কম্পিউটারের সকল অংশের কাজের মধ্যে সমন্বয় সাধন করে। মানুষের মস্তিষ্ক যেমন পুরো শরীরকে নিয়ন্ত্রণ করে, সিপিইউও তেমনি পুরো কম্পিউটার সিস্টেমকে নিয়ন্ত্রণ করে।<br/>▣ কম্পিউটারের ব্রেইন বলা হয় প্রসেসরকে। প্রসেসর বা সেন্ট্রাল প্রসেসিং ইউনিট (CPU) কম্পিউটারের প্রধান প্রক্রিয়াকরণ অংশ, যা কম্পিউটারের সকল নির্দেশনা এবং গণনা সম্পাদন করে। এটি কম্পিউটারের মস্তিষ্ক হিসেবে কাজ করে। অন্যদিকে RAM (র‍্যান্ডম অ্যাক্সেস মেমোরি) একটি অস্থায়ী মেমোরি, ROM (রিড-অনলি মেমোরি) একটি স্থায়ী মেমোরি, এবং হার্ড ডিস্ক একটি স্থায়ী সংরক্ষণ ডিভাইস। সুতরাং কম্পিউটারের ব্রেইন বলা হয় প্রসেসরকে।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330918,
+    "question": "আন্তর্জাতিক পরিবেশ দিবস কবে?",
+    "options": [
+      "৫ জুলাই",
+      "২১ মার্চ",
+      "৫ জুন",
+      "২১ জুন"
+    ],
+    "correct_answer": "৫ জুন",
+    "explanation": "📖 প্রতি বছর ৫ই জুন বিশ্বব্যাপী পরিবেশ সচেতনতা বৃদ্ধির লক্ষ্যে আন্তর্জাতিক পরিবেশ দিবস পালিত হয়।<br/>⇢<br/>▣ ১৯৭২ সালে জাতিসংঘের মানবিক পরিবেশ সংক্রান্ত স্টকহোম সম্মেলনের প্রথম দিনে এই দিবসটি পালনের সিদ্ধান্ত নেওয়া হয়। ১৯৭৪ সাল থেকে প্রতি বছর ভিন্ন ভিন্ন প্রতিপাদ্য ও আয়োজক দেশের মাধ্যমে দিবসটি পালিত হয়ে আসছে।<br/>❏ কম্পিউটার ও তথ্যপ্রযুক্তি<br/>▣ আন্তর্জাতিক পরিবেশ দিবস ৫ জুন। ১৯৭২ সালে জাতিসংঘের সাধারণ পরিষদের এক প্রস্তাবের মাধ্যমে ৫ জুনকে আন্তর্জাতিক পরিবেশ দিবস হিসেবে ঘোষণা করা হয়। এই দিনে বিশ্বব্যাপী পরিবেশ সচেতনতা বৃদ্ধি এবং পরিবেশ রক্ষায় কার্যকর পদক্ষেপ গ্রহণের লক্ষ্যে নানা কর্মসূচি পালন করা হয়। অন্যদিকে ৫ জুলাই বিশ্ব পরিবেশ দিবস নয়, ২১ মার্চ আন্তর্জাতিক বন দিবস, এবং ২১ জুন আন্তর্জাতিক যোগ দিবস। সুতরাং আন্তর্জাতিক পরিবেশ দিবস ৫ জুন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330919,
+    "question": "পারস্যের বর্তমান কী?",
+    "options": [
+      "থাইল্যানন্ড",
+      "তুরস্ক",
+      "ইরাক",
+      "ইরান"
+    ],
+    "correct_answer": "ইরান",
+    "explanation": "📖 ১৯৩৫ সাল পর্যন্ত ইরান 'পারস্য' বা 'Persia' নামে পরিচিত ছিল। বর্তমানে এর নাম ইরান।<br/>⇢<br/>▣ 'পারস্য' নামটি মূলত গ্রিকদের দেওয়া, যা দেশটির 'পার্স' নামক একটি অঞ্চলের নাম থেকে উদ্ভূত। ১৯৩৫ সালে রেজা শাহ পাহলভি আন্তর্জাতিকভাবে দেশের নাম 'ইরান' ব্যবহারের অনুরোধ জানান, যার অর্থ 'আর্যদের ভূমি'।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330920,
+    "question": "স্পেনের রাজধানীর নাম কী?",
+    "options": [
+      "সোফিয়া",
+      "হেলসিংকি",
+      "বেলগ্রেড",
+      "মাদ্রিদ"
+    ],
+    "correct_answer": "মাদ্রিদ",
+    "explanation": "📖 স্পেনের রাজধানী এবং বৃহত্তম শহর হলো মাদ্রিদ।<br/>⇢<br/>▣ মাদ্রিদ কেবল স্পেনের রাজনৈতিক ও প্রশাসনিক কেন্দ্রই নয়, এটি দেশের অর্থনৈতিক ও সাংস্কৃতিক কেন্দ্রও বটে। সোফিয়া বুলগেরিয়ার, হেলসিংকি ফিনল্যান্ডের এবং বেলগ্রেড সার্বিয়ার রাজধানী।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330921,
+    "question": "'সাগরকন্যা' বাংলাদেশের কোন এলাকার ভৌগোলিক নাম?",
+    "options": [
+      "কক্সবাজার",
+      "কুয়াকাটা",
+      "ভোলা",
+      "সেন্টমার্টিন"
+    ],
+    "correct_answer": "কুয়াকাটা",
+    "explanation": "📖 পটুয়াখালী জেলার কুয়াকাটা সমুদ্র সৈকতকে তার মনোরম সৌন্দর্যের জন্য 'সাগরকন্যা' বলা হয়।<br/>⇢<br/>▣ কুয়াকাটা বাংলাদেশের একমাত্র সমুদ্র সৈকত যেখান থেকে সূর্যোদয় এবং সূর্যাস্ত উভয়ই দেখা যায়। এর ১৮ কিলোমিটার দীর্ঘ সৈকত, নারিকেল গাছের সারি এবং শান্ত পরিবেশ একে এক অনন্য ভৌগোলিক পরিচিতি দিয়েছে, যার ফলে এর নাম হয়েছে 'সাগরকন্যা'।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330922,
+    "question": "চীনের জিনজিয়াং প্রদেশশে বসবাসরত মুসলিম উপজাতির নাম?",
+    "options": [
+      "রোহিঙ্গা",
+      "উইঘুর",
+      "ফিলিস্তিনি",
+      "পশতুন"
+    ],
+    "correct_answer": "উইঘুর",
+    "explanation": "📖 উইঘুর হলো চীনের জিনজিয়াং প্রদেশের একটি তুর্কি বংশোদ্ভূত মুসলিম সংখ্যালঘু জাতিগোষ্ঠী।<br/>⇢<br/>▣ চীনের জিনজিয়াং প্রদেশে বসবাসরত মুসলিম উপজাতির নাম উইঘুর। উইঘুর একটি তুর্কি জাতিগত গোষ্ঠী, যারা মূলত ইসলাম ধর্মালম্বী। তারা চীনের জিনজিয়াং প্রদেশে বসবাস করে। উইঘুরদের নিজস্ব ভাষা, সংস্কৃতি এবং ঐতিহ্য রয়েছে। অন্যদিকে রোহিঙ্গা মুসলিম উপজাতি মিয়ানমারের রাখাইন রাজ্যে বসবাস করে, ফিলিস্তিনি মুসলিম উপজাতি মধ্যপ্রাচ্যে বসবাস করে, এবং পশতুন মুসলিম উপজাতি আফগানিস্তান ও পাকিস্তানে বসবাস করে। সুতরাং চীনের জিনজিয়াং প্রদেশে বসবাসরত মুসলিম উপজাতির নাম উইঘুর।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330923,
+    "question": "'বগা লেক' কোন জেলায়?",
+    "options": [
+      "সিলেট",
+      "কুমিল্লা",
+      "নেত্রকোনা",
+      "বান্দরবান"
+    ],
+    "correct_answer": "বান্দরবান",
+    "explanation": "📖 বগা লেক বাংলাদেশের বান্দরবান জেলার রুমা উপজেলায় অবস্থিত একটি প্রাকৃতিক মিষ্টি পানির হ্রদ।<br/>⇢<br/>▣ 'বগা লেক' বান্দরবান জেলায় অবস্থিত। বগা লেক বাংলাদেশের সর্বোচ্চ উচ্চতায় অবস্থিত একটি প্রাকৃতিক হ্রদ, যা বান্দরবান জেলার রুমা উপজেলায় অবস্থিত। এটি সমুদ্রপৃষ্ঠ থেকে প্রায় ৩,০০০ ফুট উচ্চতায় অবস্থিত। বগা লেক এর প্রাকৃতিক সৌন্দর্যের জন্য বিখ্যাত এবং পর্যটকদের কাছে একটি জনপ্রিয় গন্তব্যস্থল। অন্যদিকে সিলেট, কুমিল্লা, এবং নেত্রকোনা জেলায় বগা লেক অবস্থিত নয়। সুতরাং 'বগা লেক' বান্দরবান জেলায় অবস্থিত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330924,
+    "question": "বাংলাদেশ সর্বপ্রথম কোন সংস্থার সদস্যপদ লাভ করে?",
+    "options": [
+      "জাতিসংঘ",
+      "জাতিসংঘের খাদ্য ও কৃষি সংস্থা",
+      "বিশ্ব সাস্থ্য সংস্থা",
+      "বৃটিশ কমনওয়েলথ"
+    ],
+    "correct_answer": "বৃটিশ কমনওয়েলথ",
+    "explanation": "📖 বাংলাদেশ স্বাধীনতার পর ১৯৭২ সালের ১৮ই এপ্রিল সর্বপ্রথম ব্রিটিশ কমনওয়েলথের সদস্যপদ লাভ করে।<br/>⇢<br/>▣ বাংলাদেশ সর্বপ্রথম বৃটিশ কমনওয়েলথের সদস্যপদ লাভ করে। বাংলাদেশ ১৯৭২ সালের এপ্রিল মাসে বৃটিশ কমনওয়েলথের সদস্যপদ লাভ করে। বৃটিশ কমনওয়েলথ একটি আন্তঃসরকারি সংস্থা, যা যুক্তরাজ্য এবং এর প্রাক্তন উপনিবেশগুলোর মধ্যে সহযোগিতা বৃদ্ধি করে। অন্যদিকে জাতিসংঘের সদস্যপদ বাংলাদেশ ১৯৭৪ সালের সেপ্টেম্বর মাসে লাভ করে। জাতিসংঘের খাদ্য ও কৃষি সংস্থা (FAO) এবং বিশ্ব সাস্থ্য সংস্থা (WHO) এর সদস্যপদ বাংলাদেশ পরবর্তীতে লাভ করে। সুতরাং বাংলাদেশ সর্বপ্রথম বৃটিশ কমনওয়েলথের সদস্যপদ লাভ করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330925,
+    "question": "এশিয়ার ক্ষুদ্রতম দেশ কোনটি?",
+    "options": [
+      "ভুটান",
+      "নেপাল",
+      "শ্রীলঙ্কা",
+      "মালদ্বীপ"
+    ],
+    "correct_answer": "মালদ্বীপ",
+    "explanation": "📖 মালদ্বীপ আয়তন এবং জনসংখ্যা উভয় দিক থেকেই এশিয়ার ক্ষুদ্রতম দেশ। এশিয়ার ক্ষুদ্রতম দেশ মালদ্বীপ। মালদ্বীপ এশিয়া মহাদেশের একটি ক্ষুদ্র দ্বীপ রাষ্ট্র, যা ভারত মহাসাগরে অবস্থিত। এর আয়তন প্রায় ২৯৮ বর্গ কিলোমিটার এবং জনসংখ্যা প্রায় ৫ লক্ষ। অন্যদিকে ভুটান, নেপাল, এবং শ্রীলঙ্কা মালদ্বীপের তুলনায় বৃহত্তর দেশ। ভুটানের আয়তন প্রায় ৩৮,৩৯৪ বর্গ কিলোমিটার, নেপালের আয়তন প্রায় ১,৪৭,৫১৬ বর্গ কিলোমিটার, এবং শ্রীলঙ্কার আয়তন প্রায় ৬৫,৬১০ বর্গ কিলোমিটার। সুতরাং এশিয়ার ক্ষুদ্রতম দেশ মালদ্বীপ।<br/>⇢<br/>▣ ভারত মহাসাগরে অবস্থিত এই দ্বীপরাষ্ট্রটির আয়তন প্রায় ২৯৮ বর্গ কিলোমিটার। এটি বিশ্বের অন্যতম নিচু দেশ, যার গড় উচ্চতা সমুদ্রপৃষ্ঠ থেকে মাত্র ১.৫ মিটার। পর্যটন শিল্প দেশটির অর্থনীতির মূল ভিত্তি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330926,
+    "question": "বাংলাদেশের প্রধান উপদেষ্টা হিসেবে ড. মুহাম্মদ ইউনূস ২০২৪ সালের কত তারিখ দায়িত্ব গ্রহণ করেন?",
+    "options": [
+      "৫ আগস্ট",
+      "৬ আগস্ট",
+      "৭ আগস্ট",
+      "৮ আগস্ট"
+    ],
+    "correct_answer": "৮ আগস্ট",
+    "explanation": "📖 ড. মুহাম্মদ ইউনূস ২০২৪ সালের ৮ই আগস্ট বাংলাদেশের অন্তর্বর্তীকালীন সরকারের প্রধান উপদেষ্টা হিসেবে শপথ গ্রহণ করেন।<br/>⇢<br/>▣ ২০২৪ সালের ছাত্র-জনতার গণ-অভ্যুত্থানের পর একটি অন্তর্বর্তীকালীন সরকার গঠিত হয়। রাষ্ট্রপতি মোহাম্মদ সাহাবুদ্দিন ৮ই আগস্ট, ২০২৪ তারিখে শান্তিতে নোবেল বিজয়ী অর্থনীতিবিদ ড. মুহাম্মদ ইউনূসকে প্রধান উপদেষ্টা হিসেবে শপথ বাক্য পাঠ করান।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330927,
+    "question": "ইরাটম কী?",
+    "options": [
+      "উন্নত জাতের চা",
+      "উন্নত জাতের ইক্ষু",
+      "উন্নত জাতের পাট",
+      "উন্নত জাতের ধান"
+    ],
+    "correct_answer": "উন্নত জাতের ধান",
+    "explanation": "📖 ইরাটম (IRATOM - Irradiated Mutant) হলো বাংলাদেশ পরমাণু কৃষি গবেষণা ইনস্টিটিউট (বিনা) উদ্ভাবিত একটি উন্নত জাতের ধান।<br/>⇢<br/>▣ ইরাটম (IRATAM) হলো উন্নত জাতের ধান। বাংলাদেশ কৃষি গবেষণা ইনস্টিটিউট (BARI) এবং বাংলাদেশ ধান গবেষণা ইনস্টিটিউট (BRRI) উন্নত জাতের ধান উৎপাদনের জন্য গবেষণা করে থাকে। ইরাটম একটি উন্নত জাতের ধান, যা উচ্চ ফলনশীল এবং রোগ প্রতিরোধী। অন্যদিকে উন্নত জাতের চা, উন্নত জাতের ইক্ষু (আখ), এবং উন্নত জাতের পাট ইরাটম নয়। সুতরাং ইরাটম হলো উন্নত জাতের ধান।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330928,
+    "question": "আন্তর্জাতিক লেনদেনে বাংলাদেশি টাকার কোড কী?",
+    "options": [
+      "BDT",
+      "BTBT",
+      "BDTK",
+      "BTK"
+    ],
+    "correct_answer": "BDT",
+    "explanation": "📖 আন্তর্জাতিক মান সংস্থা (ISO) অনুযায়ী বাংলাদেশি টাকার কোড হলো BDT (Bangladesh Taka)।<br/>⇢<br/>▣ ISO 4217 হলো আন্তর্জাতিক মুদ্রা কোডের মানদণ্ড। এই মানদণ্ড অনুযায়ী প্রতিটি দেশের মুদ্রার জন্য একটি তিন-অক্ষরের কোড নির্ধারণ করা হয়। প্রথম দুটি অক্ষর দেশের কোড (BD for Bangladesh) এবং তৃতীয় অক্ষরটি মুদ্রার নামের প্রথম অক্ষর (T for Taka) নির্দেশ করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330929,
+    "question": "বাংলাদেশ জাতিসংঘের কততম সদস্য?",
+    "options": [
+      "১৬৬",
+      "১৫৬",
+      "১৪৬",
+      "১৩৬"
+    ],
+    "correct_answer": "১৩৬",
+    "explanation": "📖 বাংলাদেশ ১৯৭৪ সালের ১৭ই সেপ্টেম্বর জাতিসংঘের ১৩৬তম সদস্য হিসেবে যোগদান করে।<br/>⇢<br/>▣ জাতিসংঘের ২৯তম সাধারণ অধিবেশনে বাংলাদেশ সদস্যপদ লাভ করে। বঙ্গবন্ধু শেখ মুজিবুর রহমান ১৯৭৪ সালের ২৫শে সেপ্টেম্বর জাতিসংঘের সাধারণ পরিষদে বাংলায় ভাষণ দেন, যা ছিল কোনো রাষ্ট্রপ্রধানের প্রথম বাংলায় ভাষণ।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330930,
+    "question": "সুয়েজ খাল কোথায় অবস্থিত?",
+    "options": [
+      "মিশর",
+      "ইরাক",
+      "ইরান",
+      "কোনোটিই নয়"
+    ],
+    "correct_answer": "মিশর",
+    "explanation": "📖 সুয়েজ খাল মিশরে অবস্থিত একটি কৃত্রিম সামুদ্রিক খাল। এটি ভূমধ্যসাগরকে লোহিত সাগরের সাথে যুক্ত করেছে।<br/>⇢<br/>▣ ১৮৬৯ সালে নির্মিত এই খালটি এশিয়া ও ইউরোপের মধ্যে নৌ-বাণিজ্যের দূরত্ব হাজার হাজার কিলোমিটার কমিয়ে দিয়েছে। এটি মিশরের সিনাই উপদ্বীপের পশ্চিমে অবস্থিত এবং এর দৈর্ঘ্য প্রায় ১৯৩ কিলোমিটার। খালটি মিশরের জাতীয় আয়ের অন্যতম প্রধান উৎস।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330931,
+    "question": "বাংলাদেশে মেট্রোরেলের কোচ কোন দেশে থেকে আমদানি করা হয়েছে?",
+    "options": [
+      "জাপান",
+      "চীন",
+      "ফ্রান্স",
+      "যুক্তরাজ্য"
+    ],
+    "correct_answer": "জাপান",
+    "explanation": "📖 বাংলাদেশের মেট্রোরেল প্রকল্পের কোচ বা বগিগুলো জাপানের কাওয়াসাকি-মিতসুবিশি কনসোর্টিয়াম দ্বারা নির্মিত এবং জাপান থেকে আমদানি করা হয়েছে।<br/>⇢<br/>▣ ঢাকা ম্যাস র‍্যাপিড ট্রানজিট ডেভেলপমেন্ট প্রজেক্ট (MRT Line-6) জাপান আন্তর্জাতিক সহযোগিতা সংস্থা (JICA)-এর আর্থিক ও কারিগরি সহায়তায় নির্মিত হচ্ছে। এই প্রকল্পের অংশ হিসেবে স্টেইনলেস স্টিল দিয়ে তৈরি অত্যাধুনিক কোচগুলো জাপানের বিখ্যাত প্রতিষ্ঠান কাওয়াসাকি হেভি ইন্ডাস্ট্রিজ নির্মাণ করেছে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330932,
+    "question": "কাজী নজরুল ইসলামের সম্পাদিত পত্রিকা কোনটি?",
+    "options": [
+      "মাহেনও",
+      "সওগাত",
+      "ধূমকেতু",
+      "কালিকল"
+    ],
+    "correct_answer": "ধূমকেতু",
+    "explanation": "📖 কাজী নজরুল ইসলাম ১৯২২ সালে 'ধূমকেতু' অর্ধ-সাপ্তাহিক পত্রিকা সম্পাদনা করেন। এটি ব্রিটিশ শাসনের বিরুদ্ধে সোচ্চার ছিল।<br/>⇢<br/>▣ 'ধূমকেতু' পত্রিকার ২৬ সেপ্টেম্বর ১৯২২ সংখ্যায় নজরুলের রাজনৈতিক কবিতা 'আনন্দময়ীর আগমনে' প্রকাশিত হলে ব্রিটিশ সরকার এটিকে বাজেয়াপ্ত করে এবং নজরুলকে কারাদণ্ড দেয়। তিনি 'লাঙল' ও 'নবযুগ' পত্রিকাও সম্পাদনা করেন। 'সওগাত' পত্রিকার সম্পাদক ছিলেন মোহাম্মদ নাসিরউদ্দীন, তবে নজরুল এর সাথে ঘনিষ্ঠভাবে যুক্ত ছিলেন।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330933,
+    "question": "'চাঁদ' কোন প্রকার শব্দ?",
+    "options": [
+      "তৎসম শব্দ",
+      "দেশী শব্দ",
+      "তদ্ভব শব্দ",
+      "কোনোটিই নয়"
+    ],
+    "correct_answer": "তদ্ভব শব্দ",
+    "explanation": "📖 যে সকল শব্দের মূল সংস্কৃত ভাষায় পাওয়া যায়, কিন্তু প্রাকৃত ভাষার মাধ্যমে পরিবর্তিত হয়ে বাংলা ভাষায় এসেছে, তাদের তদ্ভব শব্দ বলে। 'চন্দ্র' (তৎসম) > 'চন্দ' (প্রাকৃত) > 'চাঁদ' (তদ্ভব)।<br/>⇢<br/>▣ বাংলা ভাষার শব্দভাণ্ডারের একটি বড় অংশ হলো তদ্ভব শব্দ। এই শব্দগুলো সরাসরি সংস্কৃত থেকে আসেনি, বরং দীর্ঘ সময় ধরে মানুষের মুখে মুখে পরিবর্তিত হয়ে প্রাকৃত ভাষার স্তর পার হয়ে বাংলায় প্রবেশ করেছে। এই পরিবর্তনের কারণেই 'চন্দ্র'-এর মতো কঠিন শব্দ 'চাঁদ'-এর মতো সহজ ও শ্রুতিমধুর রূপ লাভ করেছে।<br/>❏ সাধারণ জ্ঞান",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330934,
+    "question": "তৎসম শব্দের ব্যবহার কোন রীতিতে বেশী হয়?",
+    "options": [
+      "চলিতরীতি",
+      "সাধুরীতি",
+      "মিশ্ররীতি",
+      "আঞ্চলিক রীতি"
+    ],
+    "correct_answer": "সাধুরীতি",
+    "explanation": "📖 বাংলা ভাষার সাধুরীতিতে তৎসম বা সংস্কৃত শব্দের ব্যবহার বেশি দেখা যায়। এই রীতি গুরুগম্ভীর এবং এর পদবিন্যাস সুনির্দিষ্ট।<br/>⇢<br/>▣ সাধুরীতি হলো বাংলা ভাষার একটি লেখ্য রূপ যা মূলত উনিশ শতকে বিকশিত হয়। এর কাঠামো সংস্কৃত ব্যাকরণ দ্বারা প্রভাবিত। তাই এতে তৎসম (তৎ+সম = তার সমান, অর্থাৎ সংস্কৃতের সমান) শব্দের প্রাচুর্য দেখা যায়। অন্যদিকে চলিতরীতি তদ্ভব, দেশি ও বিদেশি শব্দের উপর বেশি নির্ভরশীল এবং এটি মুখের ভাষার কাছাকাছি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330935,
+    "question": "ডাক্তার ডাক। বাক্যে 'ডাক্তার' কোন কারকে কোন বিভক্তি?",
+    "options": [
+      "কর্তায় শূন্য",
+      "অপাদানে সপ্তমী",
+      "কর্মে শূন্য",
+      "করণে সপ্তমী"
+    ],
+    "correct_answer": "কর্মে শূন্য",
+    "explanation": "📖 ক্রিয়াকে 'কাকে' বা 'কী' দিয়ে প্রশ্ন করলে যে উত্তর পাওয়া যায়, তা কর্ম কারক। এখানে 'কাকে ডাক?' প্রশ্নের উত্তরে 'ডাক্তার' পাওয়া যায়। তাই এটি কর্ম কারক এবং কোনো বিভক্তি যুক্ত না থাকায় এটি শূন্য বিভক্তি।<br/>⇢<br/>▣ এই বাক্যে 'ডাক' ক্রিয়াটির কর্তা উহ্য আছে (যেমন: তুমি ডাক্তার ডাক)। যাকে আশ্রয় করে কর্তা ক্রিয়া সম্পন্ন করে, তাকে কর্ম কারক বলে। এখানে ডাকার কাজটি 'ডাক্তার'-কে আশ্রয় করে সম্পন্ন হচ্ছে। তাই 'ডাক্তার' কর্ম কারক। এর সাথে কোনো বিভক্তি চিহ্ন না থাকায় এটি শূন্য বিভক্তি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330936,
+    "question": "'তার মঙ্গল হোক'- এটি কোন ধরনের বাক্য?",
+    "options": [
+      "নেতিবাচক",
+      "অনুজ্ঞাবাচক",
+      "বিবৃতিবাচক",
+      "প্রশ্নবাচক"
+    ],
+    "correct_answer": "অনুজ্ঞাবাচক",
+    "explanation": "📖 যে বাক্যে আদেশ, অনুরোধ, প্রার্থনা, আশীর্বাদ ইত্যাদি প্রকাশ পায়, তাকে অনুজ্ঞাসূচক বাক্য বলে। এখানে 'তার মঙ্গল হোক' একটি প্রার্থনা বা আশীর্বাদমূলক বাক্য।<br/>⇢<br/>▣ অর্থ অনুসারে বাক্য পাঁচ প্রকার: বিবৃতিবাচক, প্রশ্নবাচক, অনুজ্ঞাবাচক, ইচ্ছাসূচক এবং বিস্ময়সূচক। 'তার মঙ্গল হোক' বাক্যটি দ্বারা একটি ইচ্ছা বা প্রার্থনা প্রকাশ পাচ্ছে, তাই এটি ইচ্ছাসূচক বাক্যের অন্তর্ভুক্ত। অনেক ব্যাকরণবিদ ইচ্ছাসূচক বাক্যকে অনুজ্ঞাবাচক বাক্যের একটি অংশ হিসেবেও গণ্য করেন। প্রদত্ত বিকল্পগুলোর মধ্যে 'অনুজ্ঞাবাচক' সবচেয়ে উপযুক্ত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330937,
+    "question": "'অগ্র-পশ্চাৎ না ভেবে কাজ করে যে'- এর এক কথায় প্রকাশ কি হবে?",
+    "options": [
+      "কিংকর্তব্যবিমূঢ়",
+      "দিগ্বিদিকজ্ঞানশূন্য",
+      "অজ্ঞাতসারে",
+      "অবিমৃশ্যকারী"
+    ],
+    "correct_answer": "অবিমৃশ্যকারী",
+    "explanation": "📖 যে ব্যক্তি কোনো কাজের ভালো-মন্দ বা ভবিষ্যৎ পরিণাম চিন্তা না করে কাজ করে, তাকে 'অবিমৃশ্যকারী' বলা হয়।<br/>⇢<br/>▣ 'অবিমৃশ্যকারী' শব্দটি এসেছে 'বিমৃশ্য' (বিশেষভাবে বিবেচনা করে) শব্দ থেকে। 'অবিমৃশ্য' অর্থ যা বিবেচনা করা হয়নি। যে এমন কাজ করে সে-ই অবিমৃশ্যকারী। 'কিংকর্তব্যবিমূঢ়' অর্থ কী করবে তা বুঝতে পারে না এমন। 'দিগ্বিদিকজ্ঞানশূন্য' অর্থ দিশেহারা।<br/>▣ 'অগ্র-পশ্চাৎ না ভেবে কাজ করে যে' এর এক কথায় প্রকাশ 'অবিমৃশ্যকারী'। 'অবিমৃশ্যকারী' শব্দটি 'অবিমৃশ্য + কারী' থেকে এসেছে, যার অর্থ যে কোনো কিছু চিন্তা করে না, বিবেচনা না করেই কাজ করে। অন্যদিকে 'কিংকর্তব্যবিমূঢ়' বলতে করণীয় বিষয়ে বোকা, 'দিগ্বিদিকজ্ঞানশূন্য' বলতে দিকদর্শনহীন, এবং 'অজ্ঞাতসারে' বলতে অজানা সময়ে বোঝায়। সুতরাং 'অগ্র-পশ্চাৎ না ভেবে কাজ করে যে' এর এক কথায় প্রকাশ 'অবিমৃশ্যকারী'।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330938,
+    "question": "লিঙ্গান্তর হয় না এমন শব্দ কোনটি?",
+    "options": [
+      "ঢাকী",
+      "সেবিকা",
+      "মালী",
+      "সুন্দর"
+    ],
+    "correct_answer": "ঢাকী",
+    "explanation": "📖 'ঢাকী' শব্দটি নিত্য পুরুষবাচক শব্দ, এর কোনো স্ত্রীলিঙ্গ হয় না। 'সেবিকা'র পুংলিঙ্গ সেবক, 'মালী'র স্ত্রীলিঙ্গ মালিনী এবং 'সুন্দর' এর স্ত্রীলিঙ্গ সুন্দরী।<br/>⇢<br/>▣ বাংলা ভাষায় কিছু শব্দ আছে যা কেবল পুরুষ বোঝায় (নিত্য পুরুষবাচক) এবং কিছু শব্দ কেবল নারী বোঝায় (নিত্য স্ত্রীবাচক)। 'ঢাকী' (যে ঢাক বাজায়) শব্দটি নিত্য পুরুষবাচক। এর স্ত্রীলিঙ্গ বোঝাতে 'মহিলা ঢাকী' বা 'নারী ঢাকী' এভাবে ব্যবহার করতে হয়। অন্যান্য নিত্য পুরুষবাচক শব্দ হলো: কবিরাজ, কৃতদার, অকৃতদার ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330939,
+    "question": "'শকুনি মামা' শব্দের অর্থ কী?",
+    "options": [
+      "কুৎসিত মামা",
+      "সৎ মামা",
+      "পাতানো মামা",
+      "কুচক্রী লোক"
+    ],
+    "correct_answer": "কুচক্রী লোক",
+    "explanation": "📖 মহাভারতের চরিত্র শকুনি তার কুটিল চক্রান্তের জন্য পরিচিত। তাই 'শকুনি মামা' বাগধারাটি দ্বারা কুচক্রী বা ষড়যন্ত্রকারী লোককে বোঝানো হয়।<br/>⇢<br/>▣ মহাভারতে গান্ধারীর ভাই শকুনি তার ভাগ্নে দুর্যোধনকে কুপরামর্শ দিয়ে পাণ্ডবদের বিরুদ্ধে বিভিন্ন ষড়যন্ত্র করেন এবং পাশা খেলার মাধ্যমে তাদের রাজ্য ও সম্মান হরণ করেন। তার এই কুটিল চরিত্রের কারণেই 'শকুনি মামা' বাগধারাটি যেকোনো কুচক্রী ও অনিষ্টকারী ব্যক্তিকে বোঝাতে ব্যবহৃত হয়।<br/>▣ 'শকুনি মামা' শব্দটি মহাভারতের শকুনি চরিত্র থেকে এসেছে। শকুনি ছিলেন মহাভারতের একটি কুচক্রী, চতুর এবং ষড়যন্ত্রকারী চরিত্র, যিনি দুর্যোধনের মামা ছিলেন এবং পাণ্ডবদের বিরুদ্ধে নানা ষড়যন্ত্রে লিপ্ত ছিলেন। তাই 'শকুনি মামা' বলতে কুচক্রী, ষড়যন্ত্রকারী বা প্রতারণাপূর্ণ লোককে বোঝায়। অন্যদিকে 'কুৎসিত মামা' বলতে দেখতে অসুন্দর মামাকে, 'সৎ মামা' বলতে সৎ মামাকে, এবং 'পাতানো মামা' বলতে কৌশলে মামা সেজে থাকা ব্যক্তিকে বোঝায়। সুতরাং 'শকুনি মামা' শব্দের অর্থ 'কুচক্রী লোক'।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330940,
+    "question": "'চন্দ্র' এর প্রতিশব্দ কোনটি?",
+    "options": [
+      "সমীরণ",
+      "গগন",
+      "ইন্দু",
+      "অরুণ"
+    ],
+    "correct_answer": "ইন্দু",
+    "explanation": "📖 'চন্দ্র' এর প্রতিশব্দগুলো হলো ইন্দু, শশী, সুধাকর, হিমাংশু ইত্যাদি। 'সমীরণ' অর্থ বাতাস, 'গগন' অর্থ আকাশ এবং 'অরুণ' অর্থ সূর্য।<br/>⇢<br/>▣ 'ইন্দু' শব্দটি তৎসম এবং এর অর্থ চন্দ্র। চাঁদের অন্যান্য গুরুত্বপূর্ণ প্রতিশব্দ হলো: শশধর (শশ বা খরগোশের মতো চিহ্ন ধারণ করে যে), বিধু, নিশাপতি (রাতের অধিপতি), সুধাংশু (অমৃত যার অংশু বা কিরণ), শশাঙ্ক ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330941,
+    "question": "শুদ্ধ বানান কোনটি?",
+    "options": [
+      "মারনাস্ত্র",
+      "মারণাস্ত্র",
+      "মরনাস্ত্র",
+      "মরণাস্ত্র"
+    ],
+    "correct_answer": "মারণাস্ত্র",
+    "explanation": "📖 সঠিক বানানটি হলো 'মারণাস্ত্র'। এটি 'মারণ' ও 'অস্ত্র' শব্দ দুটির সমন্বয়ে গঠিত।<br/>⇢<br/>▣ এটি একটি সন্ধিবদ্ধ শব্দ (মারণ + অস্ত্র = মারণাস্ত্র)। এখানে 'ণ'-ত্ব বিধানের নিয়ম প্রযোজ্য। ঋ, র, ষ-এর পরে 'ন' থাকলে তা 'ণ' হয়। 'মারণ' শব্দটিতে 'র'-এর পর 'ন' আসায় এটি 'ণ' হয়েছে। তাই 'মরণাস্ত্র' বা 'মারনাস্ত্র' ভুল বানান।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330942,
+    "question": "সারারাত বৃষ্টি ছিল। বাক্যে 'সারারাত' কোন কারকে কোন বিভক্তি?",
+    "options": [
+      "অধিকরণে শূন্য",
+      "অপাদানে শূন্য",
+      "করণে সপ্তমী",
+      "কর্মে দ্বিতীয়া"
+    ],
+    "correct_answer": "অধিকরণে শূন্য",
+    "explanation": "📖 ক্রিয়া সম্পাদনের কাল বা সময়কে অধিকরণ কারক বলে। এখানে 'সারারাত' শব্দটি বৃষ্টি হওয়ার সময়কে নির্দেশ করছে, তাই এটি অধিকরণ কারক। যেহেতু এর সাথে কোনো বিভক্তি যুক্ত নেই, তাই এটি শূন্য বিভক্তি।<br/>⇢<br/>▣ অধিকরণ কারক তিন প্রকার: কালাধিকরণ, আধারাধিকরণ ও ভাবাধিকরণ। 'সারারাত' শব্দটি ক্রিয়া সংঘটনের সময় (কাল) নির্দেশ করায় এটি কালাধিকরণ কারক। যেহেতু 'সারারাত' শব্দটির সাথে কোনো বিভক্তি চিহ্ন (যেমন: এ, তে) যুক্ত নেই, তাই এটি প্রথমা বা শূন্য বিভক্তি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330943,
+    "question": "বনে বনে ফুল ফুটেছে। এখানে 'ফুল' শব্দটি-",
+    "options": [
+      "একবচন",
+      "বহুবচন",
+      "উভয়",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "বহুবচন",
+    "explanation": "📖 \"বনে বনে ফুল ফুটেছে\" বাক্যটিতে 'ফুল' শব্দটি বহুবচন হিসেবে ব্যবহৃত হয়েছে। এখানে একটি ফুলের কথা বলা হয়নি, বরং অনেক ফুল ফুটেছে বোঝানো হয়েছে। বিশেষ্য পদের সঙ্গে কোনো বহুবচনবোধক শব্দ যুক্ত না হয়েও অনেক সময় বহুবচন বোঝাতে পারে।<br/>⇢<br/>▣ এখানে দ্বিরুক্ত শব্দ 'বনে বনে' (প্রতি বনে) ব্যবহারের মাধ্যমে স্থানটির ব্যাপকতা বোঝানো হয়েছে, যা স্বাভাবিকভাবেই ফুলের আধিক্য বা বহুবচনকে নির্দেশ করে। বাংলা ভাষায় অনেক সময় বহুবচনবোধক প্রত্যয় (যেমন: রা, এরা, গুলো) ছাড়াই বাক্যের গঠন ও অর্থ অনুযায়ী বিশেষ্য পদের বহুবচন রূপ বোঝা যায়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330944,
+    "question": "'ভয়ার্ত' শব্দের সন্ধি-বিচ্ছেদ কোনটি?",
+    "options": [
+      "ভয়+ঋত",
+      "ভয়া+ঋত",
+      "ভয়+আর্ত",
+      "ভয়া+আর্ত"
+    ],
+    "correct_answer": "ভয়+ঋত",
+    "explanation": "📖 'ভয়ার্ত' শব্দটি স্বরসন্ধির নিয়ম অনুসারে গঠিত হয়েছে। এর সঠিক সন্ধি-বিচ্ছেদ হলো ভয় + ঋত = ভয়ার্ত (অ + ঋ = আর)।<br/>⇢<br/>▣ এটি গুণ সন্ধির একটি উদাহরণ। বাংলা সন্ধির নিয়ম অনুযায়ী, অ-কার কিংবা আ-কারের পর ঋ-কার থাকলে উভয়ে মিলে 'আর' হয় এবং তা রেফ (র্) রূপে পরবর্তী ব্যঞ্জনের মাথায় যুক্ত হয়। এখানে 'ভয়'-এর শেষে 'অ' এবং 'ঋত'-এর শুরুতে 'ঋ' মিলে 'আর' হয়েছে, যা 'ভয়ার্ত' শব্দে 'য়া' এবং পরবর্তী 'ত'-এর উপর রেফ (র্ত) হিসেবে প্রকাশ পেয়েছে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330945,
+    "question": "'যা বলা হয়নি'- এককথায় প্রকাশ কী হবে?",
+    "options": [
+      "অবহিত",
+      "অনুক্ত",
+      "অব্যক্ত",
+      "অনুরোধ"
+    ],
+    "correct_answer": "অনুক্ত",
+    "explanation": "📖 যা বলা হয়নি, তাকে এক কথায় 'অনুক্ত' বলা হয়। 'অব্যক্ত' অর্থ যা প্রকাশ করা হয়নি।<br/>⇢<br/>▣ 'অনুক্ত' (ন উক্ত) শব্দটি দ্বারা বোঝায় কোনো কথা যা উচ্চারিত বা বিবৃত হয়নি। অন্যদিকে 'অব্যক্ত' বলতে বোঝায় যা ভাব বা অনুভূতি হিসেবে ভেতরে আছে কিন্তু ভাষায় প্রকাশ করা হয়নি। দুটির মধ্যে সূক্ষ্ম পার্থক্য রয়েছে। 'অবহিত' অর্থ জ্ঞাত বা জানানো হয়েছে এমন।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330946,
+    "question": "'মানুষ হও' বাক্যটিতে রয়েছে-",
+    "options": [
+      "অনুনয়",
+      "আদেশ",
+      "অনুরোধ",
+      "উপদেশ"
+    ],
+    "correct_answer": "উপদেশ",
+    "explanation": "📖 'মানুষ হও' বাক্যটির মাধ্যমে ভালো বা আদর্শ মানুষ হওয়ার জন্য পরামর্শ বা উপদেশ দেওয়া হচ্ছে।<br/>⇢<br/>▣ বাক্যটি অনুজ্ঞাসূচক। অনুজ্ঞাসূচক বাক্যে আদেশ, উপদেশ, অনুরোধ, প্রার্থনা ইত্যাদি বোঝানো হয়। এখানে বক্তা শ্রোতাকে নৈতিকভাবে উন্নত বা মানবিক গুণাবলি সম্পন্ন হওয়ার জন্য পরামর্শ দিচ্ছেন, যা আদেশের কঠোরতা বা অনুরোধের নম্রতার চেয়ে উপদেশের পর্যায়ে পড়ে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330947,
+    "question": "অনুসর্গ কি?",
+    "options": [
+      "শব্দ বিভক্তি",
+      "উপসর্গ",
+      "ক্রিয়া বিভক্তি",
+      "অব্যয়"
+    ],
+    "correct_answer": "অব্যয়",
+    "explanation": "📖 অনুসর্গ বা কর্মপ্রবচনীয় হলো এক প্রকার অব্যয়। যেহেতু অনুসর্গ এক প্রকার অব্যয় এবং এটি স্বতন্ত্র বা আলাদাভাবে বসে বিশেষ্যকে নিয়ন্ত্রিত করে বিধায় অনুসর্গের অপর নাম কর্মপ্রবচনীয়। বাংলা ব্যাকরণে এর বিশেষ স্থান রয়েছে। ইংরেজি suffix শব্দের অর্থ অনুসর্গ । বাংলা ভাষায় প্রচুর অনুসর্গ রয়েছে। অনুসর্গ শব্দের পরে বসে বাক্যের অর্থ আরো সুস্পষ্ট করে তোলে ।<br/>⇢<br/>▣ অনুসর্গগুলো প্রধানত দু'ভাবে বিভক্ত। যথা—<br/>❏ ক. নাম অনুসর্গ (বিশেষ্য, বিশেষণ) এবং বিনা, জন্যে, কাছে, কারণে, অপেক্ষা, নিকট, মধ্যে ইত্যাদি নাম অনুসর্গ।<br/>❏ খ. ক্রিয়া অনুসর্গ (অসমাপিকা) ।করিয়া/করে, চাইতে/চেয়ে, থেকে, দিয়ে, হইতে/হতে, ধরিয়া/ধরে, লাগিয়া/লেগে প্রভৃতি ক্রিয়াজাত অনুসর্গ।<br/>❏ উপসর্গ ও অনুসর্গ।<br/>❏ যে সকল অব্যয় জাতীয় শব্দ ধাতু বা শব্দের (নামপদ)পূর্বে বসে ধাতুর অর্থে বৈচিত্র্য আনে অথবা নতুন শব্দ তৈরী করে করে সেই সব অব্যয় জাতীয় শব্দকে উপসর্গ বলে।যথা--প্র,পরা,অ,অনা,বি,ফুল ইত্যাদি।<br/>❏ তিন ধরনের উপসর্গ দেখা যায়।এরা হল--সংস্কৃত উপসর্গ ,বাংলা উপসর্গ এবং বিদেশী উপসর্গ।<br/>❏ অনুসর্গ<br/>❏ যে সকল অব্যয় জাতীয় শব্দ বিভক্তির ন্যায় পদের পরে বসে অন্য পদের সাথে সম্পর্ক স্থাপন করে সেই সব অব্যয় জাতীয় শব্দকে অনুসর্গ বলে। যথা--দ্বারা,দিয়া,হইতে,থেকে ইত্যাদি।<br/>❏ অনুসর্গগুলি উপসর্গের মত অর্থহীন নয়। অনুসর্গগুলির কিছু না কিছু অর্থ আছে।আর এই অর্থ দিয়ে সে অন্য পদের সাথে সম্পর্ক স্থাপন করে।এই জন্য অনুসর্গগুলিকে পরসর্গ বা কর্মপ্রবচনীয়ও বলে।<br/>❏ উপসর্গ যেমন ধাতুর পূর্বে বসে ধাতুর অর্থে বৈচিত্র্য আনে ,অনুসর্গ তেমন নাম পদেরপরে বসে বাক্যের অর্থকে সুস্পষ্ট করে।<br/>❏ অনুসর্গগুলি স্বতন্ত্র পদ হলেও কারক বুঝাতে বিভক্তি রূপে ব্যবহৃত হয়।যথা--করণ কারকে দ্বারা,দিয়া,কর্তৃক।<br/>❏ উপসর্গ ও অনুসর্গের পার্থক্য। <br/>❏ 1.উপসর্গগুলি ধাতু বা শব্দের পূর্বে বসে।/অনুসর্গগুলি পদের পরে বসে।<br/>❏ 2. উপসর্গ ধাতু বা শব্দের সাথে ঘনিষ্ঠভাবে যুক্ত হয়ে থাকে।/অনুসর্গ পদের থেকে বিচ্ছিন্ন হয়ে অবস্থান করে।<br/>❏ 3.উপসর্গের কোন অর্থ নেই।/অনুসর্গের কিছু না কিছু অর্থ আছ।ব<br/>❏ 4.উপসর্গের কাজ ধাতুর অর্থে বৈচিত্র্য আনা অথবা নতুন শব্দ গঠন করা।/অনুষঙ্গের কাজ পদে পদে সম্পর্ক স্থাপন করা।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330948,
+    "question": "'গা লাগা' এর অর্থ কোনটি?",
+    "options": [
+      "মনোযোগ দেওয়া",
+      "অভ্যস্ত হওয়া",
+      "অনুভূত হওয়া",
+      "দেহে সহ্য হওয়া"
+    ],
+    "correct_answer": "মনোযোগ দেওয়া",
+    "explanation": "📖 'গা লাগা' বাগধারাটির অর্থ হলো কোনো কাজে মনোযোগ দেওয়া বা গুরুত্ব সহকারে কাজ করা।<br/>⇢<br/>▣ 'গা' শব্দটি এখানে শরীর বা দেহকে বোঝালেও বাগধারাটিতে এর অর্থ প্রসারিত হয়ে মনোযোগ বা একাগ্রতাকে নির্দেশ করছে। যেমন: \"কাজে গা লাগাও, নইলে শেষ হবে না।\" - এই বাক্যে কাজে মনোযোগ দিতে বলা হচ্ছে। অন্য অর্থগুলো (অভ্যস্ত হওয়া, অনুভূত হওয়া) এই বাগধারার সাথে সম্পর্কিত নয়।<br/>▣ 'গা লাগা' এবং 'গায়ে লাগা' দুটি ভিন্ন অর্থ প্রকাশ করে। 'গা লাগা' বলতে মনোযোগ দেওয়া, আগ্রহী হওয়া, বা কোনো কিছুর প্রতি ঝোঁক পড়া বোঝায়। যেমন: 'সে পড়াশোনায় গা লাগিয়েছে' অর্থ সে পড়াশোনায় মনোযোগ দিয়েছে। অন্যদিকে 'গায়ে লাগা' বলতে অনুভূত হওয়া বোঝায়। এখানে 'অভ্যস্ত হওয়া', 'অনুভূত হওয়া', এবং 'দেহে সহ্য হওয়া' ভিন্ন অর্থ প্রকাশ করে। সুতরাং 'গা লাগা' এর সঠিক অর্থ 'মনোযোগ দেওয়া'।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330949,
+    "question": "'অন্ধের যষ্টি' বাগধারাটির অর্থ কী?",
+    "options": [
+      "নিষ্ফল আবেদন",
+      "অপদার্থ",
+      "একমাত্র অবলম্বন",
+      "দিশেহারা হয়ে পড়া"
+    ],
+    "correct_answer": "একমাত্র অবলম্বন",
+    "explanation": "📖 'অন্ধের যষ্টি' বা 'অন্ধের নড়ি' বাগধারাটির অর্থ হলো একমাত্র সহায় বা অবলম্বন।<br/>⇢<br/>▣ একজন অন্ধ ব্যক্তির পথ চলার জন্য লাঠি বা যষ্টিই যেমন একমাত্র ভরসা, তেমনি কোনো অসহায় ব্যক্তির একমাত্র সহায় বা অবলম্বনকে বোঝাতে এই বাগধারাটি ব্যবহৃত হয়। এটি রূপক অর্থে ব্যবহৃত হয়, যেখানে অসহায়ত্ব এবং সেই অসহায় অবস্থায় একটি মাত্র ভরসার উপর নির্ভরতাকে বোঝানো হয়।<br/>▣ 'অন্ধের যষ্টি' বাগধারাটির আক্ষরিক অর্থ অন্ধ ব্যক্তির লাঠি। যেহেতু অন্ধ ব্যক্তি চলাচলের জন্য তার লাঠির উপর সম্পূর্ণভাবে নির্ভরশীল, তাই এই বাগধারাটি দ্বারা একমাত্র অবলম্বন বা সহায় বোঝানো হয়। যখন কোনো ব্যক্তির কোনো বিকল্প থাকে না এবং সে কেবল একটি মাত্র জিনিসের উপর নির্ভর করতে বাধ্য থাকে, তখন এই বাগধারাটি ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330950,
+    "question": "'অভিরাম' শব্দের অর্থ কী?",
+    "options": [
+      "বিরামহীন",
+      "সালিশ",
+      "চলন",
+      "সুন্দর"
+    ],
+    "correct_answer": "সুন্দর",
+    "explanation": "📖 'অভিরাম' একটি তৎসম শব্দ, যার অর্থ মনোহর বা সুন্দর।<br/>⇢<br/>▣ 'অভিরাম' এবং 'অবিরাম' শব্দ দুটি শুনতে প্রায় একরকম হলেও এদের অর্থ সম্পূর্ণ ভিন্ন। 'অভিরাম' (অভি+রাম) শব্দের অর্থ অত্যন্ত মনোহর, তৃপ্তিদায়ক বা সুন্দর। অপরদিকে, 'অবিরাম' (অ+বিরাম) শব্দের অর্থ হলো বিরামহীন বা অনবরত। সঠিক অর্থ জানা না থাকলে এ ধরনের শব্দে বিভ্রান্তি ঘটতে পারে।<br/>▣ 'অভিরাম' একটি তৎসম শব্দ, যা 'অভি + রম্ + অ' এই উপাদানগুলো থেকে গঠিত। এর অর্থ হলো সুন্দর, মনোরম, আনন্দদায়ক, তৃপ্তিদায়ক। এটি মূলত সৌন্দর্য বা সুখের অনুভূতি প্রকাশ করে। অন্যদিকে 'বিরামহীন' বলতে বিশ্রামহীন, 'সালিশ' বলতে মীমাংসা, এবং 'চলন' বলতে গতি বোঝায়। সুতরাং 'অভিরাম' শব্দের সঠিক অর্থ 'সুন্দর'।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330951,
+    "question": "নিচের কোন শব্দটি ভিন্ন অর্থ প্রকাশ করে?",
+    "options": [
+      "উরগ",
+      "পন্নগ",
+      "দ্বিরদ",
+      "ভুজগ"
+    ],
+    "correct_answer": "দ্বিরদ",
+    "explanation": "📖 'উরগ', 'পন্নগ' এবং 'ভুজগ' তিনটি শব্দেরই অর্থ সাপ বা সর্প। কিন্তু 'দ্বিরদ' শব্দের অর্থ হাতি। তাই 'দ্বিরদ' শব্দটি ভিন্ন অর্থ প্রকাশ করে।<br/>⇢<br/>▣ শব্দগুলোর ব্যুৎপত্তিগত অর্থ বিশ্লেষণ করলে বিষয়টি আরও স্পষ্ট হয়। 'উরগ' (উরঃ+গম্+অ) অর্থ যা বুকের উপর ভর দিয়ে চলে, অর্থাৎ সাপ। 'পন্নগ' অর্থও সাপ। 'ভুজগ' (ভুজ+গম্+অ) অর্থ যা বাঁকা হয়ে চলে, অর্থাৎ সাপ। অন্যদিকে 'দ্বিরদ' (দ্বি+রদ) অর্থ যার দুটি দাঁত (বড় দাঁত বা শুঁড়) আছে, যা হাতিকে বোঝায়। তাই এখানে দ্বিরদ শব্দটিই ভিন্নার্থক।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  },
+  {
+    "id": 330952,
+    "question": "'দৃঢ় সংকল্প' এর অর্থ কোন বাগ্‌ধারার মধ্যে রয়েছে?",
+    "options": [
+      "একচোখা",
+      "এক কথার মানুষ",
+      "উড়নচণ্ডী",
+      "কংস মামা"
+    ],
+    "correct_answer": "এক কথার মানুষ",
+    "explanation": "📖 'এক কথার মানুষ' বাগধারাটির অর্থ হলো যিনি নিজের কথায় বা সিদ্ধান্তে অটল থাকেন, অর্থাৎ দৃঢ় সংকল্পবদ্ধ ব্যক্তি। অন্যদিকে, 'একচোখা' অর্থ পক্ষপাতদুষ্ট, 'উড়নচণ্ডী' অর্থ অমিতব্যয়ী এবং 'কংস মামা' অর্থ নির্দয় আত্মীয়।<br/>⇢<br/>▣ বাগধারা হলো এমন শব্দ বা শব্দগুচ্ছ যা সাধারণ অর্থের বাইরে একটি বিশেষ অর্থ প্রকাশ করে। 'এক কথার মানুষ' বলতে বোঝায় এমন ব্যক্তি যিনি প্রতিশ্রুতি দিলে তা রক্ষা করেন এবং নিজের সিদ্ধান্ত থেকে সহজে বিচ্যুত হন না। এটি চারিত্রিক দৃঢ়তার পরিচায়ক। 'একচোখা' (পক্ষপাতিত্ব), 'উড়নচণ্ডী' (বেহিসেবি خرج) এবং 'কংস মামা' (মহাভারতের চরিত্র কৃষ্ণের নির্দয় মামা কংসের প্রতীক, যিনি অনিষ্টকারী আত্মীয়) সম্পূর্ণ ভিন্ন অর্থ বহন করে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "অন্যান্য মন্ত্রনালয়",
+    "exam": "৫০৭১@পরমাণু শক্তি কমিশন ➺ কম্পিউটার টাইপিস্ট ☞ 27.9.25"
+  }
+]

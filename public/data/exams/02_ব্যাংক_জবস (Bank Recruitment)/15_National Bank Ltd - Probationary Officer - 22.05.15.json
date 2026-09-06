@@ -1,0 +1,801 @@
+[
+  {
+    "id": 197218,
+    "question": "A culprit was spotted by a policeman from a distance of 250 meter. When the policeman started running towards the culprit at a speed of 10 km/h, the culprit also fled. If his speed was 8 km/h, find how far the culprit had run before he was overpowered.",
+    "options": [
+      "1km",
+      "1.5 km",
+      "2 km",
+      "0.8 km"
+    ],
+    "correct_answer": "1km",
+    "explanation": "🔖পুলিশের গতিবেগ 10 km/hr<br/>অপরাধীর ” 8 km/hr<br/>অপরাধী সাপেক্ষে পুলিশের আপেক্ষিক গতিবেগ 2 km/hr<br/>অর্থাৎ পুলিশ প্রতি ঘণ্টায় 2 km সামনে আগায়।<br/>এখন, 25O1m = 0.25 km<br/>পুলিশ 2k আগায়1 ঘণ্টায়<br/>\\( \\therefore \\) \" 0.25 \" \\( \\frac{0.25}{2} \\) = 0.125 \"<br/>এই সময়ে অপরাধী অতিক্রম করে (0.125 \\( \\times \\) 8) km = 1 km ",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197219,
+    "question": "A shopkeeper sells a pair of sunglasses at a profit of 25%. If he had bought it at 25% less and sold it for Tk. 10 less, he would have gained 40%. Determine the cost price of the pair of sunglasses.",
+    "options": [
+      "Tk. 25",
+      "Tk. 50",
+      "Tk. 60",
+      "Tk. 75"
+    ],
+    "correct_answer": "Tk. 50",
+    "explanation": "🔖ধরি, সানগ্লাসের ক্রয়মূল্য 100 টাকা<br/>25% লাভে বিক্রয়মূল্য = 100 + 100 এর 25% = 100 + 25 = 125 টাকা<br/>আবার, 25% কমে কিনলে ক্রয়মূল্য হতো (100 – 100 এর 25%) টাকা= (100 – 25) বা, 75 টাকা<br/>সেক্ষেত্রে, 40% লাভে বিক্রয়মূল্য = 75 + 75 এর 40% = 75 + 30 = 105 টাকা<br/>বিক্রয়মূল্যের পার্থক্য (125 – 105) বা 20 টাকা<br/>বিক্রয়মূল্য 20 টাকা কম হলে মূল ক্রয়মূল্য 100 টাকা<br/>\\( \\therefore \\) ‘’ 10 ” ” ” ” ” \\( \\frac{100\\times 10}{20} \\) = 50 টাকা",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197220,
+    "question": "A tea merchant blends 2 kinds of tea, putting in 3 parts of a Tk. 25 per kg grade to 1 part of a Tk. 15 per kg. If the mixture is changed to 1 part of the Tk. 25 per kg grade to 3 parts of the less expensive grade, how much will the shop lose or save in blending 200 kg?",
+    "options": [
+      "lose Tk. 500",
+      "loss Tk. 1,000",
+      "save Tk. 1,500",
+      "save Tk. 1,000"
+    ],
+    "correct_answer": "save Tk. 1,000",
+    "explanation": "🔖মোট চা 200 kg.<br/>25 টাকা মূল্যের ও 15 টাকা মূল্যের দুই ধরনের চা<br/>প্রথম শর্তের অনুপাতের reverse হয় দ্বিতীয় শর্তে (3 : 1 ও 1 : 3)<br/>প্রথম শর্তে,<br/>25 টাকা মূল্যের চা \\( \\left(\\frac{3}{4}\\times 200 \\right) \\) kg = 150kg<br/>15 টাকা মূল্যের চা \\( \\left(\\frac{1}{4}\\times 200 \\right) \\) kg = 50kg<br/>সুতরাং দ্বিতীয় শর্তে, 25 টাকা মূল্যের চা 50 kg ও15 টাকা মূল্যের চা 150 kg<br/>প্রথম ক্ষেত্রে মোট মূল্য (150\\( \\times \\) 25 + 50 \\( \\times \\) 15) = 4500 টাকা<br/>দ্বিতী ,, ,, ,, (50 \\( \\times \\) 25 + 150 \\( \\times \\) 15) = 3500 টাকা<br/>\\( \\therefore \\)খরচ বাচবে (4500 - 3500) = 1000 টাকা<br/>সুতরাং লাভ (gain) হয় 1000 টাকা।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197221,
+    "question": "A man has Tk. 210 in coins alone. The coins consist of one taka, 50 paisa and whose numbers form a ratio of 5 : 6 : 8 respectively. How many coins are there in the 50 paisa denomination?",
+    "options": [
+      "210",
+      "168",
+      "126",
+      "105"
+    ],
+    "correct_answer": "126",
+    "explanation": "🔖ধরি, 1 টাকা 5x টি<br/>50 পয়সা 6x ”<br/>25 ” 8x ”<br/>শর্তমতে, 5x \\( \\times \\) 1 + \\( \\frac{6x \\times 50}{100} \\) + \\( \\frac{8x \\times 25}{100} \\) = 210<br/>\\( \\Rightarrow \\) 5x + 3x + 2x = 210<br/>\\( \\Rightarrow \\)10x = 210<br/>\\( \\therefore \\) x = 21<br/>\\( \\therefore \\) 50 পয়সার মুদ্রা আছে (6 \\( \\times \\) 21) টি = 126 টি",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197222,
+    "question": "উন্নীত শব্দের বিপরীতার্থক শব্দ কি?",
+    "options": [
+      "অধোগতি",
+      "অবনতি",
+      "অবনমিত",
+      "অবনমন"
+    ],
+    "correct_answer": "অবনমিত",
+    "explanation": "<p>উন্নীত এর বিপরীত শব্দ - অবনমিত।</p><br/><p>উদ্ধত শব্দের বিপরীত শব্দ - বিনীত।</p><br/><p>উন্নতি শব্দের বিপরীত শব্দ - অবনতি, অধোগতি, অবনমন।</p><br/><p>সঠিক উত্তর হবে - অবনমিত।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197223,
+    "question": "The difference between the compound interest and simple interest on a certain amount of money at 5% per annum for 2 years is Tk. 15. Find the principal amount.",
+    "options": [
+      "Tk. 4,500",
+      "Tk. 7,500",
+      "Tk. 5,000",
+      "Tk. 6,000"
+    ],
+    "correct_answer": "Tk. 6,000",
+    "explanation": "🔖\\( {I}_{1}=pnr = p\\times 2\\times \\frac{5}{1200}=\\frac{p}{10} \\)<br/>\\( c =p {\\left(1 + \\frac{5}{100}\\right)}^{2} =1.1025p \\)<br/>\\( {I}_{2}=1.1.25p - p= 0.1025p \\)<br/>শর্তমতে, \\( 0.1025p - \\frac{p}{10} =15 \\)<br/>\\( \\Rightarrow 0.1025p =150 \\)<br/>\\( \\therefore p=6000 \\)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197224,
+    "question": "In order to pass an examination, a student is required to get 35% of the maximum marks. If a student scored a total of 381 marks and failed by 144 marks, determine the maximum marks for the examination.",
+    "options": [
+      "1,350",
+      "1,500",
+      "1,750",
+      "2,000"
+    ],
+    "correct_answer": "1,500",
+    "explanation": "🔖ধরি, সর্বোচ্চ নম্বর x<br/>শর্তমতে, x এর \\( \\frac{35}{100} \\) = 381 + 144<br/>\\( \\Rightarrow \\frac{7x}{20} = 525 \\)<br/>\\( \\Rightarrow x \\frac{525 \\times 20}{7} \\)<br/>\\( \\therefore \\)x = 1500",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197225,
+    "question": "The cost of preparing a cricket ground of rectangular shape at 70 paisa per square meter is Tk. 420. Find the perimeter of the field if its sides are in the ratio of 3 : 2.",
+    "options": [
+      "100m",
+      "50m",
+      "110m",
+      "600m"
+    ],
+    "correct_answer": "100m",
+    "explanation": "🔖ধরি, দৈর্ঘ্য 3x মিটার<br/>প্রস্থ মিটার<br/>\\( \\therefore \\) ক্ষেত্রফল \\( 6{x}^{2} \\) বর্গমিটার<br/>শর্তমতে, \\( 6{x}^{2} \\) \\( \\times \\) 70 = 420 \\( \\times \\) 100 = 420<br/>\\( \\Rightarrow \\)\\( 420{x}^{2} \\) \\( \\times \\) 100<br/>\\( \\Rightarrow {x}^{2} \\) = 100<br/>\\( \\therefore \\)x = 10<br/>\\( \\therefore \\) পরিসীমা = 2(3x + 2) = 10x = 10 \\( \\times \\) 10 = 100",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197226,
+    "question": "The number (6n²+ 6n) for natural n is always divisible by",
+    "options": [
+      "6 only",
+      "12 only",
+      "6 and 12",
+      "18"
+    ],
+    "correct_answer": "6 and 12",
+    "explanation": "🔖\\( 6{n}^{2} \\)+ 6n = 6n(n + 1)<br/>n = 1 হলে, 6n(n + 1) = 6.1(1 + 1) = 12<br/>n = 2 ” 6n(n + 1) = 6.2(2 + 1) = 36<br/>n = 3 ” 6n(n + 1) = 6.33 + 1) = 72<br/>\\( \\therefore \\) (\\( 6{n}^{2} \\) + 6n) সর্বদা 6 ও12 দ্বারা বিভাজ্য।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197227,
+    "question": "\"Epsom\" is associated with -----",
+    "options": [
+      "Polo",
+      "Water Polo",
+      "Table Tennis",
+      "Horse Riding"
+    ],
+    "correct_answer": "Horse Riding",
+    "explanation": "🔖Epsom (England) is the place associated with Horse racing.<br/>Epsom is a market town in Surrey, England, 22.0 km south-west of London.<br/>Epsom Downs Racecourse holds The Derby, now a generic name for sports competitions in English-speaking countries.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197228,
+    "question": "LASER is an acronym for Light Amplification by ----",
+    "options": [
+      "Stimulated Emission of Radio waves",
+      "Stimulated Emission of Radiation",
+      "Spontaneous Emission of Radio waves",
+      "Spontaneous Emission of Radiation"
+    ],
+    "correct_answer": "Stimulated Emission of Radiation",
+    "explanation": "🔖The word laser is an acronym for the expression \"light amplification by stimulated emission of radiation.\"<br/>In other words, a laser is a device capable of converting light or electrical energy into a focused, high energy beam.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197229,
+    "question": "Which of the following international organization is dedicated to the cause of wild life conservation?",
+    "options": [
+      "UNDP",
+      "WHO",
+      "UNESCO",
+      "UNFPA"
+    ],
+    "correct_answer": "UNESCO",
+    "explanation": "🔖UNESCO- এর পূর্ণরুপ হলো United Nations Educational, Scientific and Cultural Organization এই সংস্থা বন্য প্রাণী সংরক্ষণ নিয়েও কাজ করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197230,
+    "question": "Which of the following combination is wrong?",
+    "options": [
+      "Empire City : New York",
+      "Dark Continent : Africa",
+      "City of Palaces : London",
+      "Emerald Isle : Ireland"
+    ],
+    "correct_answer": "City of Palaces : London",
+    "explanation": "🔖City of Palaces বা প্রাসাদের শহর বলা হয় মেক্সিকো সিটিকে। আবার ভারতের কলকাতাকেও<br/>প্রাসাদের শহর বলা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197231,
+    "question": "Which of the following diseases is not water-borne?",
+    "options": [
+      "Cholera",
+      "Influenza",
+      "Amoebiasis",
+      "Typhoid"
+    ],
+    "correct_answer": "Influenza",
+    "explanation": "🔖Water-borne বা পানিবাহিত রোগগুলো হলো Cholera, Amoebiasis, Typhoid ইত্যাদি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197232,
+    "question": "The intensity of an earthquake is measured with a ----",
+    "options": [
+      "Barometer",
+      "Hydrometer",
+      "Polygraph",
+      "Seismograph"
+    ],
+    "correct_answer": "Seismograph",
+    "explanation": "🔖ভূমিকম্প পরিমাপক যন্ত্রের নাম সিসমোগ্রাফ। অন্যদিকে ব্যারোমিটার হলো বায়ুমন্ডলে চাপ নির্ণায়ক যন্ত্র, হাইড্রমিটার হলো তরলের আপেক্ষিক গুরুত্ব নির্ণায়ক যন্ত্র।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197233,
+    "question": "How many woman freedom fighters received the \"Bir Protik\" award for their contribution in the liberation war of Bangladesh?",
+    "options": [
+      "2",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_answer": "2",
+    "explanation": "🔖‘বীর প্রতীক’ খেতাবপ্রাপ্ত মহিলা মুক্তিযোদ্ধা হলো ২ জন। (i) তারামন বিবি, (ii) ডা. সিতারা বেগম।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197234,
+    "question": "Who is the president of newly formed multilateral development bank called ' New Development Bank'?",
+    "options": [
+      "R.K. Narayanan",
+      "K. V Kamath",
+      "Y. V. Reddy",
+      "Bimal Jalan"
+    ],
+    "correct_answer": "K. V Kamath",
+    "explanation": "🔖New Development Bank এর প্রেসিডেন্ট হলেন কে. ভি। কামাত। তিনি ভারতের নাগরিক।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197236,
+    "question": "Which of the following players of Bangladesh has the highest average score in test cricket?",
+    "options": [
+      "Tamim Iqbal",
+      "Shakib Al Hasan",
+      "Mushfiqur Rahim",
+      "Mominul Haque"
+    ],
+    "correct_answer": "Mominul Haque",
+    "explanation": "🔖জানুয়ারি ২০১৮ পর্যন্ত বাংলাদেশি খেলোয়াড়দের মধ্যে টেস্টে সর্বোচ্চ গড় রান মমিনুল হকের। ২৬ ম্যাচে তার মোট রান হলো ২১২১ এবং গড় ৪৮.২। এর পর রয়েছে যথাক্রমে সাকিব আল হাসান ও তামিম ইকবাল।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197237,
+    "question": "First published novel of Sunil Gangopadhyay was ---",
+    "options": [
+      "Eka O Koyekjon",
+      "Jugalbondi",
+      "Atmaprakash",
+      "Aranyer dinratri"
+    ],
+    "correct_answer": "Atmaprakash",
+    "explanation": "🔖সুনীল গঙ্গোপাধ্যায়ের প্রথম উপন্যাস হলো ‘আত্নপ্রকাশ’।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197238,
+    "question": "This passage is mainly about",
+    "options": [
+      "using folk medicines in place of modern medicines",
+      "antibiotics in the field medicine",
+      "the validity of folk remedies and their use for advances in modern medicines",
+      "isolating antibiotics in cheese sugar, and slime"
+    ],
+    "correct_answer": "the validity of folk remedies and their use for advances in modern medicines",
+    "explanation": "🔖Splendor- ঐশ্বর্য, জাঁকজমক<br/>Vicarious- বদলিরূপে কাজ করছে এমন।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197239,
+    "question": "The word 'therapeutic' is closest in meaning to",
+    "options": [
+      "physiological",
+      "medicinal",
+      "traditional",
+      "psychological"
+    ],
+    "correct_answer": "medicinal",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197240,
+    "question": "It can be inferred from the passage that Alexander Fleming",
+    "options": [
+      "discovered moldy cheese",
+      "suspected medicinal properties of mold",
+      "isolated infectious patients",
+      "enjoyed eating cheese"
+    ],
+    "correct_answer": "suspected medicinal properties of mold",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197241,
+    "question": "According to the passage",
+    "options": [
+      "bacteria feed on sugar",
+      "kills unhealthy cells",
+      "glass is formed from sugar",
+      "sugar promotes healing"
+    ],
+    "correct_answer": "sugar promotes healing",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197242,
+    "question": "The gel-like substance which promotes healing comes from",
+    "options": [
+      "catfish bodies",
+      "Arab fishermen",
+      "coagulants",
+      "catfish venom"
+    ],
+    "correct_answer": "catfish venom",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197243,
+    "question": "Find out which quotation parts of the following sentences has an error. The 'oceans' contain many 'forms' of life that 'has' not 'yet' been discovered.",
+    "options": [
+      "oceans",
+      "forms",
+      "has",
+      "yet"
+    ],
+    "correct_answer": "has",
+    "explanation": "🔖That clause- এর verb form ‘plural’ হবে অর্থাৎ ‘has’ –এর স্থলে ‘have’ হবে। কারণ এর antecedent (পূর্ববর্তী NP) plural।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197244,
+    "question": "Find out which quotation parts of the following sentences has an error. There have 'recently' been 'any' important 'findings' in medical 'technology.'",
+    "options": [
+      "recently",
+      "any",
+      "findings",
+      "technology"
+    ],
+    "correct_answer": "any",
+    "explanation": "🔖‘Affirmative sentence-এ ‘any’ এর ব্যবহার সঠিক নয়। বাক্যটিতে Determiner হিসেবে ‘some’ ব্যবহৃত হবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197245,
+    "question": "Find out which quotation parts of the following sentences has an error. In recent 'years', automobile emissions 'have disfigured' stone 'carvings', corroded bronze monuments, and 'soil' ancient buildings.",
+    "options": [
+      "years",
+      "have disfigured",
+      "carving",
+      "soil"
+    ],
+    "correct_answer": "soil",
+    "explanation": "🔖Parallelism of verb অনুযায়ী soil (ময়লা করা) এর Past participle form ‘Soiled’ ব্যবহৃত হবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197246,
+    "question": "Find out which quotation parts of the following sentences has an error. The rings 'of' Saturn are 'so' distant to 'be' seen from the Earth 'without' telescope.",
+    "options": [
+      "of",
+      "so",
+      "be",
+      "without"
+    ],
+    "correct_answer": "so",
+    "explanation": "🔖Too-to হলো একটি structure। সে হিসেবে option (b)-তে so এর পরিবর্তে too হলে সঠিক হতো।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197247,
+    "question": "Find out which quotation parts of the following sentences has an error. 'Drying' food 'by means' of solar energy 'is ancient' process 'applied' wherever",
+    "options": [
+      "Drying",
+      "by means",
+      "is ancient",
+      "applied"
+    ],
+    "correct_answer": "is ancient",
+    "explanation": "🔖Ancient process হলো countable noun তাই এর পূর্বে article an ব্যবহার করলে অর্থাৎ an ancient process হলে বাক্যটি সঠিক হতো। তাই option (c) সঠিক নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197248,
+    "question": "The new owners of the paper changed the ----completely.",
+    "options": [
+      "outlay",
+      "layout",
+      "outlet",
+      "outlook"
+    ],
+    "correct_answer": "layout",
+    "explanation": "🔖Out lay- মূলধন, Layout- নকশা, বিন্যাস, Outlet- দ্বার, নির্গমপথ, Outlook- দৃষ্টিভঙ্গি। বাক্যের অর্থ অনুযায়ী শূন্যস্থানে Layout- ব্যবহার যুক্তিযুক্ত।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197249,
+    "question": "Patriotism, like so many other objects of this imperfect world, is a -----web of good and evil.",
+    "options": [
+      "complicated",
+      "intricate",
+      "tangled",
+      "entangled"
+    ],
+    "correct_answer": "tangled",
+    "explanation": "🔖Complicated- জটিল। Intricate- জটিল, Tangled- জট, জটিল, entangled- বিজরিত। Intricate এবং Intangled শব্দ দুটির প্রথমে vowel থাকায় a এর সাথে বসবে না। ভালো এবং খারাপ দুটি বিষয় একসাথে থাকায় শূন্যস্থানে complicated না বসে tangled বসবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197250,
+    "question": "During the ---many buildings were -----to the ground.",
+    "options": [
+      "riots, collapsed",
+      "fire, razed",
+      "floods, razed",
+      "disturbances, brought"
+    ],
+    "correct_answer": "riots, collapsed",
+    "explanation": "🔖Riots (দাঙ্গা) চলাকালীন অনেক buildings মাটির সঙ্গে মিশিয়ে দেওয়া হয়। বাক্যের প্রসঙ্গে অনুযায়ী, ‘floods’ এবং ‘fire’ –এর পরবর্তী verb active construction-এ হয়। কিন্তু প্রশ্নে উল্লিখিত বাক্যটির verb passive form এ আছে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197251,
+    "question": "In a changing and ----unstructured business environment, creativity and innovations are being ----demanded of executives.",
+    "options": [
+      "excessively, rapidly",
+      "highly, extremely",
+      "increasingly, moderately",
+      "progressively, increasingly"
+    ],
+    "correct_answer": "highly, extremely",
+    "explanation": "🔖Highly (অত্যন্ত) এবং extremely (অত্যন্ত) শব্দ দুটি শূন্যস্থান্দ্বয়ে বসালে বাক্যটি পরিপূর্ণভাবে অর্থবোধক হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197252,
+    "question": "He deals -----foreign good only, but out firm deals ----several leading merchants who trade----variety -----goods.",
+    "options": [
+      "in, with, in, of",
+      "with, with, with, of",
+      "with, in, of, with",
+      "in, in, with, of"
+    ],
+    "correct_answer": "in, with, in, of",
+    "explanation": "🔖Deal in- ব্যবসা করা, Deal with-আচরণ করা। বাক্যটি অর্থবোধক করার জন্য প্রথম শূন্যস্থানে in এবং দ্বিতীয় শূন্যস্থানে with বসাতে হবে। সে হিসেবে শুধু option (a)-তে প্রথমে in তারপর with রয়েছে। তাই option (a) হলো সঠিক উত্তর।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197253,
+    "question": "'প্রসন্ন পাষাণ' উপন্যাসটির রচয়িতা কে?",
+    "options": [
+      "আলাউদ্দিন আল আজাদ",
+      "আবুল হোসেন",
+      "রাবেয়া খাতুন",
+      "রশীদ করিম"
+    ],
+    "correct_answer": "রশীদ করিম",
+    "explanation": "🔖‘প্রসন্ন পাষান’ উপন্যাসটির রচয়িতা রশীদ করিম। তার আরো কয়েকটি উপন্যাস হলো- উত্তর পুরুষ, আমার যত গ্লানি, প্রেম একটি লাল গোলাপ, একালের রুপকথা, সোনার পাথর বাটি, মায়ের কাছে যাচ্ছি। তার প্রথম প্রকাশিত উপন্যাস ‘উত্তম পুরুষ’ (১৯৬১)। ‘অন্যদিকে ‘তেইশ নম্বর তৈলচিত্র’ ও ‘কর্ণফুলী’ আলাউদ্দিন আল আজাদের উল্লেখযোগ্য উপন্যাস। মধুমতী, ফেরারী সূর্য, বায়ান্ন গলির এক গলি রাবেয়া খাতুনের উল্লেখযোগ্য উপন্যাস।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197254,
+    "question": "শুদ্ধ বানানটি হচ্ছে ----",
+    "options": [
+      "নিসুতী",
+      "নিসুতি",
+      "নিষুতী",
+      "নিষুতি"
+    ],
+    "correct_answer": "নিষুতি",
+    "explanation": "🔖প্রদত্ত অপশনে শুদ্ধ বানান হচ্ছে- নিষুতি। ‘নিষুতি’ বিশেষ্য শব্দটির অর্থ গভীর রাত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197255,
+    "question": "বাংলা ভাষা কোন শব্দ দুটি গ্রহণ করেছে চীনা ভাষা হতে?",
+    "options": [
+      "চাকু, চাকর",
+      "খদ্দর, হরতাল",
+      "চা, চিনি",
+      "রিক্সা, রেস্তোরাঁ"
+    ],
+    "correct_answer": "চা, চিনি",
+    "explanation": "🔖চা, চিনি , লিচু, এলাচি, তুফান, সাম্পান, লবি ইত্যাদি শব্দ চীনা ভাষা হতে বাংলা ভাষায় এসেছে। অন্যদিকে খদ্দর ও হরতাল গুজরাটি শব্দ। চাকু ও চাকর চিনা শব্দ। রিকশা ও রেস্তোরাঁ যথাক্রমে- জাপানি ও ফরাসি শব্দ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197256,
+    "question": "'শশী' ও 'কুমুদ' বাংলা সাহিত্যের কোন বিখ্যাত উপন্যাসের দুটি চরিত্র?",
+    "options": [
+      "পুতুল নাচের ইতিকথা",
+      "গোরা",
+      "কবি",
+      "উত্তম পুরুষ"
+    ],
+    "correct_answer": "পুতুল নাচের ইতিকথা",
+    "explanation": "🔖মানিক বন্দ্যোপাধ্যায় রচিত ‘পুতুল নাচের ইতিকথা’ (১৯৩৬) উপন্যাসের প্রধান চরিত্র- শশী, কুমুদ, কুসুম, গোপাল প্রমুখ। অন্যদিকে রবীন্দ্রনাথের ‘গোরা উপন্যাসের প্রধান চরিত্র- গোরা, সুচরিতা, ললিতা, বিনয় প্রমুখ। তারাশস্কর বন্দ্যোপাধ্যায়ের ‘কবি’ ও রশীদ করিমের ‘উত্তর পুরুষ’ উপন্যাসের প্রধান চরিত্র যথাক্রমে- নিতাই ও শাকের।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197257,
+    "question": "'নির্বন্ধ' ও 'প্রথিত' শব্দদ্বয়ের অর্থ যথাক্রমে ---",
+    "options": [
+      "নিবিড়, পার্থিব",
+      "উপযোগী, প্রার্থনা",
+      "বিধান, বিখ্যাত",
+      "আগ্রহ, প্রথা অনুসারে"
+    ],
+    "correct_answer": "বিধান, বিখ্যাত",
+    "explanation": "<p>নির্বন্ধ শব্দের অর্থ হলো-- নিয়ম, বিধি, বিধান।</p><br/><p>প্রথিত শব্দের অর্থ হলো-- বিখ্যাত, খ্যাতিমান, প্রসিদ্ধ।</p><br/><p>প্রদত্ত অপশন অনুযায়ী সঠিক উত্তর হবে যথাক্রমে- বিধান, বিখ্যাত।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197258,
+    "question": "'দহন' শব্দের নিশেষণ কোনটি?",
+    "options": [
+      "দাহা",
+      "দহনীয়",
+      "দহনকারী",
+      "বিগগ্ধ"
+    ],
+    "correct_answer": "দহনীয়",
+    "explanation": "🔖‘দহন’ বিশেষ্য শব্দের বিশেষণ হলো- দহনীয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 197259,
+    "question": "চাঁদ কোন শ্রেণির শব্দ?",
+    "options": [
+      "তৎসম",
+      "তদ্ভব",
+      "অর্ধতৎসম",
+      "দেশি"
+    ],
+    "correct_answer": "তদ্ভব",
+    "explanation": "🔖যেসব সংস্কৃত শব্দ যুগ-যুগান্তর ধরে বিবর্তনের পথে প্রাকৃত অপভ্রংশের মধ্য দিয়ে পরিবর্তিত হয়ে বাংলা ভাষায় গৃহীত ও ব্যবহৃত হয়েছে, সেসব শব্দকে বলা হয় তদ্ভব শব্দ। যেমন- চাঁদ, হাত, কামার, চামার, কান, মাথা, মা ইত্যাদি। চাঁদ, শব্দের তৎসম ও অর্থতৎসম শব্দ হলো যথাক্রমে- চন্দ্র ও চন্দ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 205512,
+    "question": "In the decade there has been significant decrease in coffee consumption.During this same time, there has been increasing publicity about the caffeine in coffee's adverse long term effects on health. Therefore, the decrease in coffee consumption must have been caused by consumer's awareness of the harmful caffeine. Which of the following, if true,most seriously calls into question the explanation above ? ",
+    "options": [
+      "On average,people consume 30% less coffee today than they did 10 years ago",
+      "Sales of specialty types of coffee have held steady as sales of regular brands have declined",
+      "The consumption of fruit juice and caffeine-free herbal tea has increased over the decade",
+      "Coffee prices increased steadily in the past decade because of unusually severs frosts in coffee-growing nation's."
+    ],
+    "correct_answer": "Coffee prices increased steadily in the past decade because of unusually severs frosts in coffee-growing nation's.",
+    "explanation": "🔖Ireland:<br/>According to the Grant Thornton International Business Report (IBR), Ireland has been ranked no.1 in terms of the business optimism. India Inc has emerged as the second most optimistic in terms of the business optimism. As per the survey, 86 per cent Indian businesses are optimistic about an increase in revenue compared to 83 per cent last quarter.",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 205521,
+    "question": "Typically, the entrepreneur is seen as an individual who owns and operates a small business. But simply to own and operate a small business- or ever a big business-dose not make someone an entrepreneur. If this person is a true entrepreneur, then new products are being created and new ways of providing services are being implemented . Which of the following conclusions can best be drawn from the above passage ?",
+    "options": [
+      "An owner of a large business may be an entrepreneur.",
+      "Someone who develops an enterprise may be considered an entrepreneur.",
+      "Entrepreneurs do not own and operate small businesses.",
+      "Entrepreneurs are main actors in economic growth."
+    ],
+    "correct_answer": "Someone who develops an enterprise may be considered an entrepreneur.",
+    "explanation": "🔖Revise (পুনর্বিবেচনা করা, সংশোধন ও মনোন্নয়নের উদ্দেশ্যে পুনরায় পড়া)-এর most similar শব্দ হলো edit, যার অর্থ সম্পাদন করা।",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 205535,
+    "question": "City High School must put together a debating team consisting of four debaters.There are candidates of equal ability : X,Y and Z who are all seniors; and A,B,C and D who are all juniors..The school requires that there should be two seniors and two juniors in the team.It is also necessary that all of the debaters be able to work with one another. *Debaters Y and A cannot work together. *Debaters Z and C cannot work together. *Debaters A and B cannot work together. If debater B is selected and debater Y is rejected,the team will consist of which foursome?",
+    "options": [
+      "X,Z,A and B",
+      "X,Z,D and ?B",
+      "X,Z,C and B",
+      "None of these"
+    ],
+    "correct_answer": "X,Z,D and ?B",
+    "explanation": "🔖B কে Select ও Y কে reject করা হলো।<br/>B কে ‍Select করা হলে, A এখানে অযোগ্য। শর্ত<br/>(iii)<br/>Y-কে reject করা হলো অর্থাৎ সিনিয়র হিসাবে X ও Z বাধ্যতামূলক। কেননা মোট সিনিয়র ৩ জনের মধ্যে ১ জন বাদ দিলে দু’জনকে নিতেই হবে। আবার, Z কার করবেনা C-এর সাথে। সুতরাং C এখানে অযোগ্য। সুতরাং C এখানে অযোগ্য। সুতরাং junior হিসাবে B ও D চূড়ান্ত। অর্থাৎ দল গঠনে Combination হলো X, Z, D and D.",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 205536,
+    "question": "City High School must put together a debating team consisting of four debaters.There are candidates of equal ability : X,Y and Z who are all seniors; and A,B,C and D who are all juniors..The school requires that there should be two seniors and two juniors in the team.It is also necessary that all of the debaters be able to work with one another. *Debaters Y and A cannot work together. *Debaters Z and C cannot work together. *Debaters A and B cannot work together. If debater A is in the team, which other debaters must be in the ream as well?",
+    "options": [
+      "X,T and B",
+      "X,Z and D",
+      "X,Z and B",
+      "X,Z and C"
+    ],
+    "correct_answer": "X,Z and D",
+    "explanation": "🔖প্রশ্নমতে, A থাকবে। সুতরাং Y অবশ্যই বাদ যাবে। তাহলে Senior Member হিসেবে X ও Z কে must থাকতে হবে। অপর দিকে A থাকলে junior হিসেবে B অযোগ্য। সুতরাং junior হিসেবে D অথবা C কে নিতে হবে। কিন্তু Z অবশ্যই C-er কাজ করবে না। সুতরাং D-ই হবে 2nd Junior এক্ষেত্রে Combination হলো X, Z, and D.",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 205537,
+    "question": "City High School must put together a debating team consisting of four debaters.There are candidates of equal ability : X,Y and Z who are all seniors; and A,B,C and D who are all juniors..The school requires that there should be two seniors and two juniors in the team.It is also necessary that all of the debaters be able to work with one another. *Debaters Y and A cannot work together. *Debaters Z and C cannot work together. *Debaters A and B cannot work together. If both Y and Z are selected, which of the other debaters must be in the team as well ?",
+    "options": [
+      "Both C and D",
+      "Only D",
+      "Both B and A",
+      "Both B and D"
+    ],
+    "correct_answer": "Both B and D",
+    "explanation": "🔖প্রশ্নমতে, Y ও Z selected । সুতরাং Junior হিসেবে যথাক্রমে A ও C বাদ যাবে। Junior বাকি থাকে B ও D। সুতরাং team- গঠনে এরা দু’জনই বাধ্যতামূলক। এক্ষেত্রে Combination Both B and D.",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  },
+  {
+    "id": 205543,
+    "question": "City High School must put together a debating team consisting of four debaters.There are candidates of equal ability : X,Y and Z who are all seniors; and A,B,C and D who are all juniors..The school requires that there should be two seniors and two juniors in the team.It is also necessary that all of the debaters be able to work with one another. *Debaters Y and A cannot work together. *Debaters Z and C cannot work together. *Debaters A and B cannot work together. which of the following statements must be false? 1.Debaters Y and C are never selected together. 2.Debaters Z and D are never selected together. 3.Debaters Z and D are never selected together.",
+    "options": [
+      "Only III",
+      "All of these",
+      "Only I",
+      "Only II"
+    ],
+    "correct_answer": "All of these",
+    "explanation": "🔖এই option টিতে বলা হয়েছে Y ও C কখনোই একত্রে সিলেক্ট হতে পারে না। এবার বিশ্লেষণে আসা যাকঃ প্রথম শর্ত অনুযায়ী Y সিলেক্ট হলে A কাজ করবে না। ফলে Junior হিসেবে B, C, D-এর যে কোনো দু’জনকে নেয়া যাবে। এখন senior হিসেবে Z-কে select করলে Junior হিসেবে C বাদ পড়বে। সেক্ষেত্রে B ও D কে junior হিসেবে selected হবে। কিন্তু যদি সিনিয়র হিসেবে X-কে select করা হয় তবে C-এর B ও D-এর যে কাউকেই নেয়া যাবে। অর্থাৎ combination টি হবে XY BC/XYCD। সুতরাং(i) নং অপশনটি অবশ্যই মিথ্যা (false)। আবার, 34 নং ও 35 নং question-এর উত্তর অনুযায়ী অপশন (ii) ও (iii) দুটিই ভুল। অর্থাৎ এই প্রশ্নটির সবগুলো option-ই ভুল। সুতরাং Ans. (d) হবে All of these।",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "National Bank Ltd",
+    "exam": "15@National Bank Ltd - Probationary Officer - 22.05.15"
+  }
+]

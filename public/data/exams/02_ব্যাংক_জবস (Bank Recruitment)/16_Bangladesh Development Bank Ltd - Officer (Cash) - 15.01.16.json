@@ -1,0 +1,852 @@
+[
+  {
+    "id": 184862,
+    "question": "৪, ১৩, ৪০, ১২১..........?",
+    "options": [
+      "২০৮",
+      "২৪৩",
+      "১৯৯",
+      "৩৬৪"
+    ],
+    "correct_answer": "৩৬৪",
+    "explanation": "🔖৪ + ৩২ = ১৩<br/>১৩ + ৩৩ = ৪০<br/>৪০ + ৩৪ = ১২১<br/>১২১ + ৩৫ = ৩৬৪",
+    "hints": "📖ধারাটিতে আগের পদকে তিন দিয়ে গুণ করে গুণফলের সাথে ১ যোগ করলে পরবর্তী সংখ্যা পাওয়া যায়।<br/>তাই ১২১ এর পরবর্তী সংখ্যা = (১২১ ✕ ৩) + ১ = ৩৬৪",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184893,
+    "question": "কোন পন্যের পুর্বমূল্যঃ বর্তমান মূল্য = ৫ঃ৭ হলে শতকরা মূল্য বৃদ্ধির পরিমাণ কত?",
+    "options": [
+      "৪০%",
+      "২০%",
+      "৫০%",
+      "৩৫%"
+    ],
+    "correct_answer": "৪০%",
+    "explanation": "🔖মূল্যের অনুপাতের পারথক্য=৭-৫<br/>=২<br/>সুতরাং,শতকরা মূল্য বৃদ্ধি=(২/৫)X১০০<br/>=৪০%",
+    "hints": "📖মূল্যের অনুপাতের পার্থক্য = ৭ - ৫ = ২<br/>সুতরাং, শতকরা মূল্য বৃদ্ধি = (২/৫)✕১০০ = ৪০%",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184905,
+    "question": "দুইটি ক্রমিক সংখ্যার বর্গের অন্তর ২৫১ হলে বড় সংখ্যাটি কত?",
+    "options": [
+      "১২৫",
+      "১২৬",
+      "১২৭",
+      "১২৮"
+    ],
+    "correct_answer": "১২৬",
+    "explanation": "🔖ধরি, বড় সংখ্যাটি a<br/>ছোট সংখ্যাটি a-1<br/>প্রশ্নমতে, a² - ( a - 1)² = 251<br/>a² - ( a² - 2a + 1) = 251<br/>a² - a² +2a - 1 = 251<br/>2a = 252<br/>a = 126<br/>∴বড় সংখ্যাটি a = 126<br/>∴ছোট সংখ্যাটি (a-1) = (126-1)=125",
+    "hints": "📖বড় সংখ্যাটি হবে = (২৫১ + ১)/২ = ১২৬",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184906,
+    "question": "একটি ঘরের দৈর্ঘ্য ২০% বৃদ্ধি পেল এবং প্রস্থ ১০% হ্রাস পেলো। তা হলে ঐ ঘরের ক্ষেত্রফল কত বৃদ্ধি পেল?",
+    "options": [
+      "১২%",
+      "৮%",
+      "১০%",
+      "১৪%"
+    ],
+    "correct_answer": "৮%",
+    "explanation": "🔖২০% বৃদ্ধি তে , দৈর্ঘ্য ১০০ হলে<br/>পরবর্তী দৈর্ঘ্য = ১২০ ১০% হ্রাসে ,<br/>প্রস্থ ১০০ হলে প্রস্থ = ৯০<br/>ক্ষেত্র ফল = (১২০ x ৯০) = ১০৮০০<br/>প্রথম ক্ষেত্রে ক্ষেত্রফল = (১০০ x ১০০)= ১০০০০<br/>বৃদ্ধি = (১০৮০০-১০০০০) =৮০০<br/>তাহলে , শতকরা বৃদ্ধি = (৮০০/১০০০০) X ১০০<br/>= ৮%",
+    "hints": "📖ধরি, দৈর্ঘ্য ১০০ ও প্রস্থ ১০০<br/>তাহলে, ক্ষেত্রফল = ১০০০০<br/>দৈর্ঘ্য ২০% বৃদ্ধি হলে নতুন দৈর্ঘ্য = ১২০<br/>ও প্রস্থ ১০% হ্রাস হলে নতুন প্রস্থ = ৯০<br/>নতুন ক্ষেত্রফল = ১০৮০০<br/>ক্ষেত্রফল বৃদ্ধি = ১০৮০০ ➝ ১০০০০ = ৮০০<br/>∴ শতকরা ক্ষেত্রফল বৃদ্ধি = (৮০০ ✕ ১০০)/১০০০০ = ৮",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184907,
+    "question": "০.১+(০.১)২+(০.১)৩ = কত?",
+    "options": [
+      ".১১১",
+      ".৩",
+      ".১২১১",
+      ".২৩৪১"
+    ],
+    "correct_answer": ".১১১",
+    "explanation": "🔖০.১+(০.১)২+(০.১)৩<br/>=০.১+০.০১+০.০০১<br/>=০.১১১<br/>উত্তরঃ ০.১১১",
+    "hints": "📖০.১ + (০.১)^২ + (০.১)^৩ <br/>= ০.১ + ০.০১ + ০.০০১<br/>= ০.১১১",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184908,
+    "question": "যে চতুর্থভুজের কেবলমাত্র দুটি বাহু সমান্তরাল, তাকে বলে-",
+    "options": [
+      "ট্রাপিজিয়াম",
+      "রম্বস",
+      "আয়তক্ষেত্র",
+      "সামন্তরিক"
+    ],
+    "correct_answer": "ট্রাপিজিয়াম",
+    "explanation": "🔖ট্রাপিজিয়াম হলো চতুর্ভুজের একটি বিশেষ রূপ। যে চতুর্ভুজের একজোড়া বাহু সমান্তরাল তাকে দুই বাহু সমান্তরাল চতুর্ভুজ বা ট্রাপিজিয়াম বলে।<br/>ভাষা ও ভৌগলিক অবস্থানের ভিত্তিতে ট্রাপিজিয়াম ও ট্রাপিজয়িড সম্পর্কে সারা দুনিয়ায় পরস্পরবিরোধী একটি ধারণা প্রচলিত আছে।<br/>ট্রাপিজিয়াম শেখার শুরুতে সে বিষয়টি সম্পর্কে পরিস্কার ধারণা থাকা জরুরী। বৃটেনে যা ট্রাপিজিয়াম (Trapezium in UK) = যুক্তরাষ্ট্রে তা ট্রাপিজয়িড (Trapezoid in US) বৃটেনে যা বিষমবাহু চতুর্ভুজ (Irregular Quadrilateral in UK) = যুক্তরাষ্ট্রে তা ট্রাপিজিয়াম (Trapezium in US)",
+    "hints": "📖যে চতুর্ভুজের একজোড়া বিপরীত বাহু সমান্তরাল তাকে ট্রাপিজিয়াম বলে। ট্রাপিজিয়াম হলো চতুর্ভুজের একটি বিশেষ রূপ।<br/>উল্লেখ্য যে ট্রাপিজিয়ামের সমান্তরাল বাহু কখনো সমান হয় না।<br/>যে চতুর্ভুজের বিপরীত বাহুগুলি সমান ও সমান্তরাল এবং প্রত্যেকটি কোণ এক সমকোণ (৯০°) তাকে আয়তক্ষেত্র (Rectangle) বলে।<br/>রম্বস, আয়তক্ষেত্র এবং সামান্তরিকের চারটি বিপরীত বাহু পরস্পর সমান্তরাল।",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184909,
+    "question": "কাজের দিন ২টাকা পাওয়া এবং অনুপস্থিতির দিন ৫০ পয়সা জরিমান দেওয়ার শর্তে কাজ করে এক ব্যক্তি সেপ্টেম্বর মাসে ৪০টাকা পেল। ব্যক্তিটি কতদিন কাজে উপস্থিত ছিল?",
+    "options": [
+      "২২দিন",
+      "১৮দিন",
+      "২০দিন",
+      "১৫দিন"
+    ],
+    "correct_answer": "২২দিন",
+    "explanation": "🔖সেপ্টেম্বর মাস ৩০ দিনের। ধরি, ব্যক্তিটি ক দিন উপস্থিত ও ৩০-ক দিন অনুপস্থিত ছিল।<br/>তার আয় = ২ক টাকা ও জরিমানা = ০.৫(৩০-ক) টাকা।<br/>প্রশ্নমতে, ২ক - ০.৫(৩০-ক) = ৪০<br/>বা, ২ক - ০.৫x৩০ + ০.৫ক = ৪০<br/>বা, ২.৫ক = ৪০ + ১৫<br/>বা, ২.৫ক = ৫৫<br/>বা, ক = ২২ দিন",
+    "hints": "📖সেপ্টেম্বর মাস = ৩০ দিন<br/>ধরি, কাজ করেছিল = x দিন<br/>শর্তমতে, 2x - 0.5(30 - x) = 40<br/>➜ 2x - 15 + 0.5x = 40<br/>∴ x = 22<br/>∴ উপস্থিত ছিল = 22 দিন",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184910,
+    "question": "কোন ব্যবসায়ে ক, খ ও গ এর মূল্ধন যথাক্রমে ৩০২, ৪০০ এবং ৪৮০ টাকা । ব্যবসায় ৩০০টাকা লাভ হলে গ অপেক্ষা ক কত টাকা কম পাবে?",
+    "options": [
+      "৫০টাকা",
+      "৪৫টাকা",
+      "৪০টাকা",
+      "৩৫টাকা"
+    ],
+    "correct_answer": "৪০টাকা",
+    "explanation": "🔖ক, খ ও গ এর মূলধনের অনুপাত,<br/>কঃখঃগ=৩২০:৪০০:৪৮০<br/>=৩২:৪০:৪৮<br/>=৪:৫:৬<br/>আনুপাতিক যোগফল=১৫<br/>সুতরাং, ক পায় লাভের ৩০০ এর ৪/১৫=৮০ টাকা<br/>গ ,, ,, ৩০০ এর ৬/১৫=১২০ টাকা<br/>গ অপেক্ষা ক কম পেয়েছে= (১২০-৮০) টাকা<br/>=৪০ টাকা",
+    "hints": "📖ক, খ ও গ এর মূলধনের অনুপাত যথাক্রমে ৩২০ : ৪০০ : ৪৮০ = ৪ঃ৫ঃ৬<br/>অনুপাতগুলোর যোগফল = ৪ + ৫ + ৬ = ১৫<br/>ক পায় ৩০০ এর ৪/১৫ = ৮০ টাকা<br/>এবং গ পায় ৩০০ এর ৬/১৫ = ১২০ টাকা<br/>সুতরা, গ অপেক্ষা ক কম পাবে = (১২০ - ৮০) টাকা = ৪০ টাকা।",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184911,
+    "question": "যদি (১৭/১০)y=০.৫১ হয়,তাহলে y=?",
+    "options": [
+      "০.৩",
+      "১.৩",
+      "১.২",
+      "৩"
+    ],
+    "correct_answer": "০.৩",
+    "explanation": "🔖দেওয়া আছে,<br/>(১৭/১০)y=০.৫১<br/>বা, y=০.৫১ * ১০/১৭<br/>বা, y= ৫.১/১৭<br/>সুতরাং, y=০.৩<br/>উত্তরঃ ০.৩",
+    "hints": "📖দেওয়া আছে, (১৭/১০)y = ০.৫১<br/>বা, y = (০.৫১ ✕ ১০)/১৭ = ০.৩",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184912,
+    "question": "যদি সমকোণী ত্রিভুজের সমকোণ সন্নিহিত বাহু দুটির দৈর্ঘ্য ৬ ফুট ও ৮ফুট হলে এর অতিভুজের দৈর্ঘ্য কত?",
+    "options": [
+      "৭ফুট",
+      "১০ফুট",
+      "৯ফুট",
+      "১৩ফুট"
+    ],
+    "correct_answer": "১০ফুট",
+    "explanation": "🔖আমরা জানি,<br/>(অতিভুজ)২ = (ভূমি)২ + (লম্ব)২<br/>=(৬)২ +(৮)২<br/>=৩৬+৬৪<br/>=১০০<br/>সুতরাং, অতিভুজ=√১০০= ১০ ফুট (উত্তর)",
+    "hints": "📖অতিভুজ = √(ভূমি^২ + লম্ব^২) <br/>=  √(৮^২ + ৬^২)<br/>= √(৬৪ + ৩৬)<br/>= ১০",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184940,
+    "question": "কোন shortcut key দিয়ে spelling check করা যায়?",
+    "options": [
+      "F2",
+      "F1",
+      "F6",
+      "F7"
+    ],
+    "correct_answer": "F7",
+    "explanation": "🔖Microsoft word-এ বানান বা spelling check করার জন্য ফাংশন কী F-7 ব্যবহার করা যায়। আবার ম্যানুয়ালি মেন্যুবারে টুলস অপশনে গিয়ে spelling and grammar select করেও বানান ঠিক করা যায়।",
+    "hints": "📖To start a check of the spelling and grammar in your file just press F7",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184941,
+    "question": "নিচের কোনটি volatile memory ?",
+    "options": [
+      "RAM",
+      "BIOS",
+      "PROM",
+      "ROM"
+    ],
+    "correct_answer": "RAM",
+    "explanation": "🔖Volatile বা উদ্বায়ী (বা অস্থায়ী) মেমোরিগুলোতে সংরক্ষিত ডেটা বিদ্যুৎ চলে যাওয়ার সাথে সাথে মুছে যায় বা হারিয়ে যায়। RAM মেমোরিতে চলমান প্রোগ্রাম, ডেটা, হিসাব-নিকাশের ফলাফল ইত্যাদি অস্থায়ীভাবে সংরক্ষিত থাকে। বিদ্যুৎ সংযোগ বিচ্ছিন্ন হলে সংরক্ষিত এ ডেটা মুছে যায় বা হারিয়ে যায়। এটিই সকল ধরনের RAM মেমোরির (DRAM, SRAM, PRAM ইত্যাদি) অন্যতম বৈশিষ্ট।",
+    "hints": "📖RAM is known as read/write memory.<br/>❏ RAM is much faster to read from and write to than the other kinds of storage in a computer, such as the hard disk or removable media.<br/>❏ RAM is used as a short memory because it is Volatile.<br/>❏ RAM is called 'volatile' memory by analogy because if the computer loses power, all the data stored in RAM (or other volatile memory) is lost or 'evaporates'.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184942,
+    "question": "Microsoft acess দ্বারা কতজন ব্যবহারকারী এক সাথে update করা যায় ?",
+    "options": [
+      "৩",
+      "১৫০",
+      "২০০০০",
+      "২৫৫"
+    ],
+    "correct_answer": "২৫৫",
+    "explanation": "🔖MS Access 2010 ভার্সন অনুসারে সর্বোচ্চ ২৫৫ জন ব্যবহারকারী।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184943,
+    "question": "নিচের কোনটি Sytem software?",
+    "options": [
+      "MS Excel",
+      "MS Word",
+      "Oracle",
+      "Windows Vista"
+    ],
+    "correct_answer": "Windows Vista",
+    "explanation": "🔖MS Excel, Ms Word, MS Power Point, MS Access হলো Microsoft প্রবর্তিত Application Software । এরা Pakage program ধরনের Software। Word processing, Spread sheet, Database management-এ জাতীয় কাজের জন্য Microsoft Office নামের এই Pakage software-টি ব্যবহৃত হয়। Oracle হলো একটি Programming Language । কম্পিউটার Programming এর জন্য হাই লেভেল Language এটি। Windows vista হলো Microsoft প্রবর্তিত একটি 64 বিটের Operating system । Operating System Software গুলোকে System software-ও বলা হয়। Notepad হলো একটি plain text editing program যা microsoft windows এর (1.0 version থেকে শুরু করে) সকল version-এ পাওয়া যায়।",
+    "hints": "📖সফট্ওয়্যার প্রধানত দুই ধরনের।<br/>এর একটি হল - অপারেটিং সিস্টেম (Operating System) বা সিস্টেম সফট্ওয়্যার (System Software) এবং অপরটি হল - ব্যবহারিক কর্মসূচি বা এ্যাপ্লিকেশন প্রোগ্রাম (Application Programme)।<br/>অপারেটিং সিস্টেম বা সিস্টেম সফট্ওয়্যার হল কম্পিউটারের নিয়ন্ত্রক।এটি কম্পিউটারের হার্ডওয়্যার ও এ্যাপ্লিকেশন প্রোগ্রামের মধ্যে যোগসূত্র রচনা ও রক্ষা করে। সিস্টেম সফট্ওয়্যার ছাড়া কম্পিউটার চালু করা যায় না। <br/>অপারেটিং সিস্টেম বা সিস্টেম সফট্ওয়্যার বিভিন্ন ধরনের হতে পারে।<br/>তার মধ্যে Dos, MacOS, Windows, Windows Vista এবং Xenix/Unix বহুলভাবে ব্যবহৃত। <br/>Compiler, Interpreter, Assembler প্রোগ্রাম সমূহও সিস্টেম সফট্ওয়্যারের অর্ন্তগত।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184944,
+    "question": "নিচের কোন পদ্ধতি অনুসারে সকল সিস্টেম প্রোগ্রাম লিখতে হয়?",
+    "options": [
+      "Syntax",
+      "Grammer",
+      "Style",
+      "Symbol"
+    ],
+    "correct_answer": "Syntax",
+    "explanation": "🔖Program লেখার জন্য কতগুলো সুনির্দিষ্ট Syntax ব্যবহার করা হয়। একটি Program রচনার মূল বিষয় হলো কোডিং। কোডিং এর জন্য সুনির্দিষ্ট যে বর্ণক্রম ব্যবহৃত হয় তাই হলো Syntax । কোনো program রচনায় যেকোনো code এর syntax ভুল হলে ঐ program সম্পূর্ণ হবে না। যেমন ‘PRINT’-এর স্থলে ‘PRIMT’ Code লেখা হলে সেটি একটি syntax error, সর্বোপরি syntax হলো programming-এর ব্যাকরণ। এর উপর ভিত্তি করেই Program রচিত হয়।",
+    "hints": "📖In programming, syntax refers to the rules that specify the correct combined sequence of symbols that can be used to form a correctly structured program using a given programming language. Programmers communicate with computers through the correctly structured syntax, semantics and grammar of a programming language.<br/> Programming syntax contains strings similar to words, much like a human language. Correctly formed syntax strings produce syntactically correct sentences within a specified programming language.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184945,
+    "question": "নিচের কোনটি ইন্টারনেট ব্রাউজার না-",
+    "options": [
+      "Drupal",
+      "Crome",
+      "Net scape navigator",
+      "Opera"
+    ],
+    "correct_answer": "Drupal",
+    "explanation": "🔖Netscape, Navigator, Google Crome ও Opera এগুলো ওয়েব ব্রাউজার। সাইবার জগতে এ ব্রাউজারগুলোর আবির্ভাব ঘটে যথাক্রমে 1994, 2008 ও 1996 সালে। Maxthon হলো ২০০৫ সালে চীনা Maxthon Ltd কোম্পানি প্রবর্তিত web browser, যা মূলত MyIE-2 নামে অধিক পরিচিত। এটি windows phone, iOS ও Android- মোবাইলের জন্য Maxthon Mobile হিসেবে পাওয়া যায়। অপরদিকে Drupal হলো একটি content management সফটওয়্যার। এটি দ্বারা সাধারণত ওয়েবসাইট ও বিভিন্ন ধরনের অ্যাপ্লিকেশন তৈরি করা হয়। বর্তমানে এর অষ্টম (Drupal-8) ভার্সন পর্যন্ত পাওয়া যাচ্ছে।",
+    "hints": "📖বর্তমানে ইন্টারনেটে অসংখ্য ওয়েবসাইট রয়েছে। এই ওয়েবসাইটগুলো নিজের কম্পিউটার থেকে দেখা বা ব্রাউজ করার জন্য আমরা সাধারণত বিভিন্ন সফটওয়্যার ব্যবহার করি। এই সফটওয়্যারগুলোকে বলা হয় ওয়েব ব্রাউজার।<br/>জনপ্রিয় কিছু ওয়েব ব্রাউজার হলোঃ Internet Explorer, Edge, Mozilla Firefox, Netscape Communicator, Safari, Opera, Google Chrome, Maxthon ইত্যাদি৷<br/>Drupal হচ্ছে web content management প্লাটফর্ম।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184946,
+    "question": "Spreedsheet এ নিচের কোনটি দ্বারা worksheet content সম্পর্কে ধারনা করা সম্ভব ?",
+    "options": [
+      "Formula",
+      "Values",
+      "Labels",
+      "Cell format"
+    ],
+    "correct_answer": "Labels",
+    "explanation": "🔖In a spreadsheet program such as Microsoft Excel, a label is text within a cell, usually describing data in the rows or columns surrounding it.",
+    "hints": "📖In a spreadsheet program, such as Microsoft Excel, a label is text in a cell, usually describing data in the rows or columns surrounding it, which helps to get an idea about the worksheet content.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184948,
+    "question": "Find out the correct meaning of quoted word - He is in \"Hot water:\" over the report.",
+    "options": [
+      "In warm water",
+      "clean",
+      "accused",
+      "in trouble"
+    ],
+    "correct_answer": "in trouble",
+    "explanation": "🔖(be) in hot water একটি phrase যার অর্থঃ মুশকিলে পড়া, (e)তে (be) in trouble-মুশকিলে পড়া। সুতরাং এটিই সঠিক উত্তর।",
+    "hints": "📖Be in hot water - in trouble because of something that one has done; মুশকিলে পড়া।<br/>Example:<br/>❏ He is in hot water over the report.<br/>❏ Rick’s temper had landed him in hot water again.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184949,
+    "question": "কম্পিউটার আই কিউ হচ্ছে-",
+    "options": [
+      "Unlimited",
+      "Greater than 120",
+      "Less than 120",
+      "Zero"
+    ],
+    "correct_answer": "Zero",
+    "explanation": "🔖সর্বাধুনিক কম্পিউটার স্বয়ংক্রিয়ভাবে অনেক সমস্যার সমাধান করতে পারে। কিন্তু এ ক্ষেত্রেও প্রদত্ত ইনপুট ডেটা এর উপর ভিত্তি করে এটি প্রক্রিয়াকরণ করে। প্রদত্ত তথ্যের বাইরে কিছুই করতে পারে না। এর নিজস্ব বুদ্ধিমত্তা বলতে কিছু নেই। তাই এর IQ হবে শূন্য (0)।",
+    "hints": "📖কম্পিউটারের কোন নিজস্ব বুদ্ধিমত্তা নেই। <br/>এতে দেয়া ইনপুট ডেটা এর উপর ভিত্তি করে এটি ডেটা প্রক্রিয়া করে থাকে। <br/>তাই কম্পিউটারের আই কিউ (IQ) শূন্য ধরা হয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184950,
+    "question": "নিচের কোনটি তারবিহীন দ্রুতগতির নতুন সার্চ ইঞ্জিন ?",
+    "options": [
+      "WIMAX",
+      "Bluethooth",
+      "Broadband",
+      "CMOS"
+    ],
+    "correct_answer": "WIMAX",
+    "explanation": "🔖প্রশ্ন ও অপশন সঙ্গতিপূর্ণ নয়। সার্চ ইঞ্জিনের সাথে প্রদত্ত অপশনগুলোর কোনো সম্পর্কেই নেই।",
+    "hints": "📖<b>ওয়াইম্যাক্স:</b><br/>ওয়াইম্যাক্স এর পুরো অর্থ হলো ওয়ার্ল্ডওয়াইড ইন্টারঅপেরিবিলিটি ফর মাইক্রোওয়েভ অ্যাকসেস (WiMAX- Worldwide Interoperability for Microwave Access) এবং এর IEEE নাম হলো ৮০২.১৬। ওয়াইম্যাক্স নামটি দিয়েছে ওয়াইম্যাক্স ফোরাম যা গঠিত হয়েছিল ২০০১ সালের জুনে।<br/>ওয়াইম্যাক্স এর মাধ্যমে আপনি উচ্চ গতির ব্রডব্যান্ড সেবা, তারবিহীন ব্যবস্থা বিস্তৃত এলাকাজুড়ে ইন্টারনেট অ্যাকসেস করার সুযোগ পাবেন।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184951,
+    "question": "HTTP 404 কোন ধরনের সতর্কবার্তা?",
+    "options": [
+      "সার্ভার বন্ধ",
+      "সার্ভার পাওয়া যাচ্ছে না",
+      "সম্পূর্ণভাবে পরিবর্তন",
+      "পেইজ পাওয়া যাচ্ছে না"
+    ],
+    "correct_answer": "পেইজ পাওয়া যাচ্ছে না",
+    "explanation": "🔖HTTP 404 হলো HTTP স্ট্যান্ডার্ড একটি রেসপন্স কোড। এর অর্থ হলো request করা page বা contentটি সার্ভারে পাওয়া যায়নি। এ ধরনের code-এর সাথে যে message টি পাওয়া যায় তা হলো-“HTTP Error 404-File or Directory not found”",
+    "hints": "📖One of the most common errors on the web &mdash; so common it's slipped into non-internet slang &mdash; is the 404 error. Also known by its longer name, ''404 Page Not Found,'' this is an error that indicates that the page or resource you're looking for can't be found. This usually means that it's been deleted or moved.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184952,
+    "question": "জাতিসংঘের ২০২০ সালের মানব উন্নয়ন প্রতিবেদনের উন্নয়ন সূচকে ১৮৮ টি দেশের মধ্যে বাংলাদেশের স্থান কততম?",
+    "options": [
+      "১৪১",
+      "১৪৭",
+      "১৫৫",
+      "১৩৩"
+    ],
+    "correct_answer": "১৩৩",
+    "explanation": "🔖১৪ ডিসেম্বর ২০১৫ জাতিসংঘ উন্নয়ন কর্মসূচি (UNDP) ইথিওপিয়ার রাজধানী আদ্দিস আবাবায় মানব উন্নয়ন রিপোর্ট ২০১৫ প্রকাশ করে। এ রিপোর্ট অনুযায়ী ১৮৮টি দেশের মধ্যে বাংলাদেশের অবস্থান ১৪২ তম।",
+    "hints": "📖মানব উন্নয়ন প্রতিবেদন ২০২০ঃ<br/>১৫ ডিসেম্বর ২০২০ জাতিসংঘ উন্নয়ন কর্মসূচি (UNDP) Human Development Report 2020 : The next frontier Human Development and the Anthropocene শীর্ষক প্রতিবেদন প্রকাশ করে। প্রতিবেদন অনুযায়ী বিশ্বেঃ<br/>❏ মানব উন্নয়ন সূচকে শীর্ষ দেশ- নরওয়ে<br/>❏ মানব উন্নয়ন সূচকে সর্বনিম্ন দেশ- নাইজার<br/>প্রতিবেদনে সার্কভুক্ত দেশঃ<br/>❏ মানব উন্নয়ন সূচকে শীর্ষ- শ্রীলংকা ও সর্বনিম্ন- আফগানিস্তান<br/>❏ বাংলাদেশের অবস্থান- ১৩৩ তম",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184953,
+    "question": "বাংলাদেশ উন্নয়ন ব্যাংক প্রতিষ্ঠিত হয় কত সালে?",
+    "options": [
+      "২০০৮",
+      "২০০৯",
+      "২০০৭",
+      "২০১০"
+    ],
+    "correct_answer": "২০০৯",
+    "explanation": "🔖সরকারি সিদ্ধান্তের আলোকে ৩১ ডিসেম্বর ২০০৯ সরকার ও সরকার কতৃক মনোনীত বাংলাদেশ ডেভেলপমেন্ট ব্যাংক লি. এর পরিচালনা পর্ষদের মধ্যে Vendors Agreement স্বাক্ষরের মাধ্যমে বাংলাদেশ শিল্প ব্যাংক (বিএসবি) ও বাংলাদেশ শিল্প ঋন সংস্থা (বিএসআরএস) নামে প্রতিষ্ঠান দুটি একীভূত হয়ে ‘বাংলাদেশ ডেভেলপমেন্ট ব্যাংক লি’ (বিডিবিএল) গঠিত হয়। এর আনুষ্ঠানিক কার্যক্রম শুরু হয় ৩ জানুয়ারি ২০১০।",
+    "hints": "📖With the decision of the Government, Bangladesh Development Bank Ltd. (BDBL) was incorporated on 16 November, 2009 as a Public Company Limited by shares under the Companies Act, 1994 by amalgamation of former Bangladesh Shilpa Bank (BSB) and Bangladesh Shilpa Rin Sangstha (BSRS), two Development Financial Institutions (DFIs) in the public sector.<br/>Bangladesh Shilpa Bank (BSB) was established on October 31, 1972 for accelerating the industrial pace of the country through providing loan and equity to the industrial projects as per Bangladesh Shilpa Bank Order, 1972 (President’s Order No. 129 of 1972).<br/>With the same objective, Bangladesh Shilpa Rin Sangstha (BSRS) was also established on October 31, 1972 as per Bangladesh Shilpa Rin Sangstha Order, 1972 (President’s Order No. 128 of 1972).",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184954,
+    "question": "নিচের কোন ব্যাংকটি একটি বিশেষায়িত ব্যাংক?",
+    "options": [
+      "সোনালী ব্যাংক লিমিটেড",
+      "উত্তরা ব্যাংক লিমিটেড",
+      "রূপালী ব্যাংক লিমিটেড",
+      "বাংলাদেশ কৃষি ব্যাংক"
+    ],
+    "correct_answer": "বাংলাদেশ কৃষি ব্যাংক",
+    "explanation": "🔖বাংলাদেশে তফসিলভুক্ত বিশেষায়িত ব্যাংক দুটি, যথাঃ বাংলাদেশ কৃষি ব্যাংক ও রাজশাহী কৃষি উন্নয়ন ব্যাংক। উত্তরা ব্যাংক লিমিটেড তফসিলভুক্ত স্থানীয় বেসরকারি বাণিজ্যিক ব্যাংক। অপরদিকে, সোনালী ব্যাংক লিমিটেড, রুপালী ব্যাংক লিমিটেড এবং জনতা ব্যাংক লিমিটেড তফসিলভুক্ত রাষ্ট্রায়ও্ব বাণিজ্যিক ব্যাংক।",
+    "hints": "📖বাংলাদেশে রাষ্ট্রায়ত্ত বাণিজ্যিক ব্যাংকের সংখ্যা ৬টি।<br/>এগুলো হলোঃ<br/>❏ সোনালী ব্যাংক লিমিটেড<br/>❏ জনতা ব্যাংক লিমিটেড<br/>❏ অগ্রণী ব্যাংক লিমিটেড<br/>❏ রূপালি ব্যাংক লিমিটেড<br/>❏ বেসিক ব্যাংক লিমিটেড<br/>❏ বাংলাদেশ উন্নয়ন ব্যাংক লিমিটেড।<br/>অন্যদিকে,<br/>❏ বাংলাদেশ কৃষি ব্যাংক : রাষ্ট্রায়ত্ত বিশেষায়িত ব্যাংক<br/>উত্তরা ব্যাংক লিমিটেড একটি বেসরকারি বাণিজ্যিক ব্যাংক।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184955,
+    "question": "মুক্তিযুদ্দের সময় যুদ্ধ পরিচালনার সুবিধার্থে বাংলাদেশকে কয়টি সেক্টরে বিভক্ত করেছিলো?",
+    "options": [
+      "৯টি",
+      "৭টি",
+      "১২টি",
+      "১১টি"
+    ],
+    "correct_answer": "১১টি",
+    "explanation": "🔖মুক্তিযুদ্ধের সময় যুদ্ধ পরিচালনার সুবিধার্থে বাংলাদেশকে ১১টি সেক্টরে বিভক্ত করা হয়। এর মধ্যে ১০ নং সেক্টর নৌ সেক্টর হিসেবে পরিচিত।",
+    "hints": "📖১৯৭১ সালের মুক্তিযুদ্ধের সময় মুজিবনগর সরকার যুদ্ধ পরিচালনার সুবিধার্থে সমগ্র দেশকে ১১টি সেক্টরে ভাগ করে।<br/>❏ এসব সেক্টরকে আবার কতগুলো সাব সেক্টরে বিভক্ত করা হয়। প্রত্যেক সেক্টরে একজন করে সেক্টর কমান্ডার নিযুক্ত করা হয়।<br/>মুক্তিকালীন ১১টি সেক্টরের কমান্ডারগণ:<br/><b>১ নং সেক্টর:</b><br/>❏ মেজর জিয়াউর রহমান<br/>❏ মেজর রফিকুল ইসলাম<br/><b>২ নং সেক্টর:</b><br/>❏ মেজর খালেদ মোশাররফ<br/>❏ মেজর এ.টি.এম হায়দার<br/><b>৩ নং সেক্টর:</b><br/>❏ মেজর কে. এম শফিউল্লাহ<br/>❏ মেজর এ.এন.এম নূরুজ্জামান<br/><b>৪ নং সেক্টর:</b><br/>❏ মেজর চিত্তরঞ্জন দত্ত<br/>❏ ক্যাপ্টেন এ রব<br/><b>৫ নং সেক্টর:</b><br/>❏ মেজর মীর শওকত আলী<br/><b>৬ নং সেক্টর:</b><br/>❏ উইং কমান্ডার এম খাদেমুল বাশার<br/><b>৭ নং সেক্টর:</b><br/>❏ মেজর নাজমুল হক<br/>❏ সুবেদার মেজর এ. রব<br/>❏ মেজর কাজী নূরুজ্জামান<br/><b>৮ নং সেক্টর:</b><br/>❏ মেজর আবু ওসমান চৌধুরী<br/>❏ মেজর এম.এ মঞ্জুর<br/><b>৯ নং সেক্টর:</b><br/>❏ মেজর এম.এ জলিল<br/>❏ মেজর এম. এ মঞ্জুর ও<br/>❏ মেজর জয়নাল আবেদীন<br/><b>১০ নং সেক্টর:</b><br/>কোন নিয়মিত সেক্টর ছিলো না<br/><b>১১ নং সেক্টর:</b><br/>❏ মেজর এম. আবু তাহের<br/>❏ স্কোয়াড্রন লীডার হামিদুল্লাহ।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184958,
+    "question": "নিচের কোন কারনে একটি চেক ফেরত যায় ?",
+    "options": [
+      "হিসাবে যথেষ্ট উদ্বৃত্ত আছে",
+      "স্বাক্ষরে গরমিল নেই",
+      "চেকটি ছেড়া নয়",
+      "সংখ্যায় ও কথায় কোন মিল নেই"
+    ],
+    "correct_answer": "সংখ্যায় ও কথায় কোন মিল নেই",
+    "explanation": "🔖আমানতকারী কর্তৃক কোনো চেক ব্যাংকে উপস্থাপিত হওয়ার পর ব্যাংক উক্ত চেকের অর্থ পরিশোধ করতে অস্বীকৃতি জানালে তাকে চেক প্রত্যাখ্যান বলে। এক বা একাধিক ন্যায়সঙ্গত কারণে ব্যাংক চেক পরিশোধে অস্বীকৃতি জানাতে পারে। বিভিন্ন কারণে চেক ফেরত যেতে পারে। তন্মধ্যে কয়েকটি কারণ হলো- (১) বাহক চেক লেখকের উপযুক্ত পরিমাণ অর্থ না থাকলে; (২) চেকে আদেষ্টার স্বাক্ষর না থাকলে; (৩) চেকে প্রদত্ত আদেষ্টার স্বাক্ষর অস্পষ্ট হলে; (৪) চেকে প্রদত্ত স্বাক্ষর এবং ব্যাংকে সংরক্ষিত স্বাক্ষর না মিললে; (৫) চেকে সংখ্যায় ও কথায় না মিললে ইত্যাদি।",
+    "hints": "📖<b>Reasons for Cheque Bounce<br/></b><br/>❏ Insufficient Funds.<br/>❏ Date Mentioned on Cheques.<br/>The date is a vital part of the cheque and any sort of difference or problem with the date would end in your cheque being bounced.<br/>❏ Signature Mismatch. <br/>❏ Difference in Amount Mentioned in Numbers &amp; Words. <br/>❏ Damaged Cheque.  <br/>❏ Overwriting on Cheque.",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184959,
+    "question": "বিহিত মুদ্রা কি?",
+    "options": [
+      "কেন্দ্রীয় ব্যাংক কর্তৃক প্রচলিত মুদ্রা",
+      "বিদেশ থেকে আগত মুদ্রা",
+      "অর্থ মন্ত্রনালয়ের কর্তৃক প্রচিলিত মুদ্রা",
+      "কেন্দ্রীয় ব্যাংক কর্তৃক বাতিলকৃত মুদ্রা"
+    ],
+    "correct_answer": "কেন্দ্রীয় ব্যাংক কর্তৃক প্রচলিত মুদ্রা",
+    "explanation": "🔖যে অর্থ-সরকারি আইন দ্বারা পরিচালিত এবং লেনদেনের মাধ্যম হিসেবে জনগ্ণ গ্রহণ করতে আইনগত বাধ্য তাকে বিহিত মুদ্রা বলে। অন্যভাবে বলা যায়, সরকারের পক্ষে কেন্দ্রীয় ব্যাংক কর্তৃক ইস্যুকৃত নোট ও মুদ্রাকেই বিহিত মুদ্রা বলা হয়। অর্থাৎ বিহিত মুদ্রা কেন্দ্রীয় ব্যাংক কর্তৃক প্রচলিত মুদ্রা।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184960,
+    "question": "বঙ্গবন্ধুর অসমাপ্ত আত্মজীবনি কবে প্রকাশিত হয়?",
+    "options": [
+      "জুন ২০১১",
+      "জুন ২০১০",
+      "জুন ২০১২",
+      "জানুয়ারি ২০১৪"
+    ],
+    "correct_answer": "জুন ২০১২",
+    "explanation": "🔖‘অসমাপ্ত আত্নজীবনী’ প্রকাশিত হয় ১৮ জুন ২০১২। বঙ্গবন্ধু শেখ মুজিবর রহমান ১৯৬৬-৬৯ সালে ঢাকা কেন্দ্রীয় কারাগারে অন্তরিন অবস্থায় এ আত্নজীবনী লিখেছিলেন।",
+    "hints": "📖‘অসমাপ্ত আত্মজীবনী’ বঙ্গবন্ধু শেখ মুজিবুর রহমান রচিত তার প্রথম আত্মজীবনীমূলক বই।<br/>❏ ২০১২ সালের জুন মাসে বইটি প্রথম প্রকাশিত হয়।<br/>এটির ভূমিকা লিখেছেন প্রধানমন্ত্রী শেখ হাসিনা। ইংরেজি অনুবাদ করেছেন ড. ফকরুল আলম।<br/>প্রকাশক ইউনিভার্সিটি প্রেস লিমিটেড। বর্তমান পর্যন্ত বইটি ১৪টি ভাষায় অনূদিত হয়েছে।<br/>বঙ্গবন্ধু রচিত অপর দুটি বই হলো:<br/>❏ ‘কারাগারের রোজনামচা’ (২০১৭)<br/>❏ ‘আমার দেখা নয়াচীন’ (২০২০)।<br/>❖(",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184961,
+    "question": "নিচের কোন পন্থাটি ব্যবহার করে কোন কোম্পানির বিলোপসাধন করা যায়না?",
+    "options": [
+      "শেয়ারমালিকগণ কর্তৃক স্বচ্ছাকৃত অবসায়ন",
+      "আদালত কর্তৃক বাধ্যতামূলক অবসায়ন",
+      "আদালতের তত্ত্বাবধানে স্বেচ্ছাকৃত অবসায়ন",
+      "কর্মচারিগণ কর্তৃক বাধ্যতামূলক অবসায়ন"
+    ],
+    "correct_answer": "কর্মচারিগণ কর্তৃক বাধ্যতামূলক অবসায়ন",
+    "explanation": "🔖১৯৯৪ সালের কোম্পানি আইনের বিধান অনুযায়ী কোম্পানির বিলোপ সাধন করতে হয়। বিলোপ সাধন প্রক্রিয়ার অর্থ হলো কোম্পানির ব্যবসায় বন্ধ করে দিয়ে এর সম্পত্তি ও সম্পদসমূহ বিক্রয়লব্ধ অর্থ পাওনাদার এবং শেয়ারমালিকদের মধ্যে বন্টন করে দেয়া। কোম্পানি আইনের ২৩৪ ধারা অনুযায়ী কোম্পানি বিলোপ সাধনের পদ্ধতিগুলো হচ্ছে নিম্নরূপঃ শেয়ার মালিকগণ কর্তৃক স্বেচ্ছাকৃত অবসায়ন, পাওনাদার কতৃক স্বেচ্ছাকৃত অবসায়ন, আদালত কর্তৃক বাধ্যতামূলক অবসায়ন ও আদালতের তত্ত্বাবধানে স্বেচ্ছাকৃত অবসায়ন।",
+    "hints": "📖কর্মচারিগণ কর্তৃক কোন কোম্পানির বিলোপসাধন করা যায়না। এটার জন্য শেয়ারমালিক, পাওনাদার অথবা আদালতের হস্তক্ষেপ প্রয়োজন হয়।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184962,
+    "question": "কর্মচারিদের প্রেষোণাদানের ক্ষেত্রে বিবেচিত মানুষের মৌলিক চাহিদাগুলোর মধ্যে কোনটি পড়ে না?",
+    "options": [
+      "শারীরিক চাহিদা",
+      "নিরাপত্তা চাহিদা",
+      "স্বকীয়তা চাহিদা",
+      "জৈবিক চাহিদা"
+    ],
+    "correct_answer": "জৈবিক চাহিদা",
+    "explanation": "🔖কর্মচারীদের প্রেষণাদানের ক্ষেত্রে বিবেচিত মানুষের মৌলিক চাহিদাগুলোর জন্য আব্রাহাম মাসলো একটি তত্ত্ব দাড় করিয়েছেন, যা চাহিদা সোপান তও্ব নামে পরিচিত। এ তত্ত্বে পাঁচটি চাহিদার কথা বলা হয়েহে যা প্রেষণাদানের ক্ষেত্রে প্রযোজ্য। এ তও্বের চাহিদাগুলো হলো, জৈবিক/শারীরিক চাহিদা, নিরাপত্তা চাহিদা, সামাজিক চাহিদা, আত্নতৃপ্তির চাহিদা, আত্নপ্রতিষ্ঠার চাহিদা।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184981,
+    "question": "'এলাটিং বেলাটিং' গ্রন্থের প্রনেতা কে?",
+    "options": [
+      "শামসুর রাহমান",
+      "শহীদুল্লাহ কায়সার",
+      "হুমায়ূন আজাদ",
+      "সৈয়দ শামসুল"
+    ],
+    "correct_answer": "শামসুর রাহমান",
+    "explanation": "🔖‘এলাটিং বেলাটিং’ শামসুর রাহমান রচিত শিশুতোষ গ্রন্থ। এছাড়াও তার রচিত শিশুতোষ গ্রন্থ হলোঃ ধান ভানলে কুঁড়ো দেবো, রংধনু সাঁকো, লাল ফুলকির ছড়া ও স্মৃতির শহর।",
+    "hints": "📖শামসুর রাহমান (১৯২৯-২০০৬) আধুনিক বাংলা সাহিত্যের অন্যতম প্রধান ও একজন নাগরিক কবি। <br/>❖তাঁর রচিত শিশু-কিশোর সাহিত্যঃ<br/>❏ এলাটিং বেলাটিং,<br/>❏ ধান ভানলে কুঁড়ো দেব,<br/>❏ গোলাপ ফুটে খুকীর হাতে,<br/>❏ আমের কুঁড়ি জামের কুঁড়ি ইত্যাদি।  এবং বাংলা ভাষা ও সাহিত্য জিজ্ঞাসা, ড. সৌমিত্র শেখর।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184982,
+    "question": "ঠাই না ঠাই না, ছোট সে তরী/ আমারি সোনার ধান নিয়েছি ভরি। এটি কোন কবিতার অংশ ?",
+    "options": [
+      "রবীন্দ্রনাথ ঠাকুরঃ সোনার তরী",
+      "কবি জসীমদ্দীনঃ কবর",
+      "কবি নজ্রুল ইসলামঃ সর্বহারা",
+      "কবি রবীন্দ্রনাথ ঠাকুরঃ হিং টিং ছট"
+    ],
+    "correct_answer": "রবীন্দ্রনাথ ঠাকুরঃ সোনার তরী",
+    "explanation": "🔖ঠাঁই নাই, ঠাঁই নাই। ছোটো সে তরী/আমারি সোনার ধানে গিয়েছে ভরি’- পংকক্তিদ্বয় কবি রবীন্দ্রনাথ ঠাকুর রচিত ‘সোনার তরী’ কবিতার অংশ। এটি ‘সোনার তরী’ কাব্যের ‘সোনারতরী’ নামকবিতা। এছাড়া এ কাব্যের উল্লেখযোগ্য কবিতাঃ নিদ্রিতা, হিংটং ছট, পরশপাথর, পুরষ্কার, নিরুদ্দেশ যাত্রা।",
+    "hints": "📖“ঠাঁই নাই, ঠাঁই নাই-- ছোটো সে তরী<br/>আমারি সোনার ধানে গিয়েছে ভরি।'' - এটি রবীন্দ্রনাথ ঠাকুরের ‘সোনার তরী’ কবিতার লাইন।<br/>❏ 'সোনার তরী'(১৮৯৪) রবীন্দ্রনাথের রচিত কাব্যগ্রন্থের নামকবিতা।<br/>❏ এই কবিতাটি মাত্রাবৃত্ত ছন্দে রচিত।<br/>❏ এই কবিতাটিতে কবির জীবনদর্শন অপূর্ব মহিমায় প্রকাশিত হয়েছে। <br/>❖",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184983,
+    "question": "নিচের কোন বর্ননাটি সঠিক ?",
+    "options": [
+      "প্রত্যেক ব্যক্তি সাধারন স্বার্থের চেয়ে নিজের স্বার্থ সমুন্নত রাখবে",
+      "কর্মচারীদের পদকে দীর্ঘ সময় অস্থায়ী রাখবে",
+      "একটি নির্দেশনায় সামাঞ্জস্যহীন বিষয় থাকতে পারে",
+      "প্রত্যেক ব্যক্তি নিজের চেয়ে সাধারন স্বার্থ সমুন্নত রাখবে"
+    ],
+    "correct_answer": "প্রত্যেক ব্যক্তি নিজের চেয়ে সাধারন স্বার্থ সমুন্নত রাখবে",
+    "explanation": "",
+    "hints": "📖ঙ) তে প্রদত্ত বাক্যটি অর্থপূর্ণ।<br/>অন্যান্য অপশনে প্রদত্ত বাক্যগুলো অর্থপূর্ণ নয়।<br/>ক) তে প্রদত্ত বাক্যটিতে \"সাধারন স্বার্থের চেয়ে নিজের স্বার্থ সমুন্নত রাখবে\" থাকায় গ্রহণয়োগ্যতা হারিয়েছে।<br/>খ) কর্মচারীদের পদকে দীর্ঘ সময় অস্থায়ী রাখা হলে কাজের প্রণোদনা/অনুপ্রেরণা হারিয়ে ফেলবে। তাই এটিও গ্রহণযোগ্য নয়।<br/>গ) একটি নির্দেশনায় সামঞ্জস্যহীন বিষয় থাকার সুযোগ নেই। তাই এই বাক্যটিও অগ্রহণযোগ্য।<br/>ঘ) এই অপশনে প্রদত্ত বাক্যটি অর্থপূর্ণ নয়।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184984,
+    "question": "রুপতত্ত্বের অপর নাম কি?",
+    "options": [
+      "বাক্য তত্ত্ব",
+      "পদক্রম",
+      "ধ্বনি তত্ত্ব",
+      "শব্দ তত্ত্ব"
+    ],
+    "correct_answer": "শব্দ তত্ত্ব",
+    "explanation": "🔖রুপতও্বের অপর নাম ‘শব্দতও্ব’। ব্যাকরণের প্রধান আলোচ্য বিষয় চারটি। যথাঃ ধ্বনিতও্ব, শব্দতও্ব বা রুপতও্ব, বাক্যক্রম বা পদক্রম এবং অর্থতও্ব বা বাগর্থ বিজ্ঞান। সুতরাং সঠিক উত্তর (b)।",
+    "hints": "📖<b>রূপতত্ত্ব বা শব্দতত্ত্বঃ</b> ব্যাকরণে শব্দ বা পদের আলোচনাকে বলে রূপতত্ত্ব বা শব্দতত্ত্ব।<br/>❖এর আলোচ্য বিষয় হলোঃ<br/>❏ শব্দগঠন,<br/>❏ প্রত্যয়,<br/>❏ উপসর্গ,<br/>❏ পদপরিচয়,<br/>❏ লিঙ্গ,<br/>❏ পুরুষ,<br/>❏ বচন,<br/>❏ শব্দ ও ধাতুরূপ,<br/>❏ সমাস,<br/>❏ কারক।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184985,
+    "question": "মুজিবনগর সরকার কতসালে কত তারিখে গঠন করা হয়েছিল?",
+    "options": [
+      "৯ ই এপ্রিল ১৯৭১",
+      "১২ই এপ্রিল ১৯৭১",
+      "১৩ই এপ্রিল ১৯৭১",
+      "১০ই এপ্রিল ১৯৭১"
+    ],
+    "correct_answer": "১০ই এপ্রিল ১৯৭১",
+    "explanation": "🔖মুজিবনগর সরকার গঠন করা হয় ১০ এপ্রিল ১৯৭১। এ সরকারের রাষ্ট্রপতি ছিলেন বঙ্গবন্ধু শেখ মুজিবর রহমান। অস্থায়ী/উপ-রাষ্ট্রপতি ছিলেন সৈয়দ নজরুল ইসলাম, প্রধানমন্ত্রী ছিলেন তাজউদ্দীন আহমদ।",
+    "hints": "📖মুজিবনগর সরকার মুক্তিযুদ্ধ পরিচালনার জন্য গঠিত বাংলাদেশের প্রথম সরকার।<br/>❏ ১৯৭১ সালের ২৬ মার্চ স্বাধীনতা ঘোষণার পর ১০ এপ্রিল এ সরকার গঠিত হয়। ১৯৭১ সালের ১৭ এপ্রিল মেহেরপুর জেলার বৈদ্যনাথতলা গ্রামে মুজিবনগর সরকার শপথ গ্রহণ করে। যা বাংলাদেশের প্রথম অস্থায়ী রাজধানী।<br/>❏ বঙ্গবন্ধু শেখ মুজিবুর রহমানের নামে বৈদ্যনাথতলা গ্রামের নামকরণ হয় মুজিবনগর।<br/>❏ মুজিবনগর সরকারের কর্মকান্ড বাংলাদেশ ভূখন্ডের বাইরে থেকে পরিচালিত হয়েছিল বলে এ সরকার প্রবাসী মুজিবনগর সরকার হিসেবেও খ্যাত। <br/>❖",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184986,
+    "question": "'অগ্নিবীণা' কাব্যগ্রন্থের প্রথম কবিতা কোনটি?",
+    "options": [
+      "বিদ্রোহী",
+      "অগ্রপথিক",
+      "মুক্তি",
+      "প্রলয়োল্লাস"
+    ],
+    "correct_answer": "প্রলয়োল্লাস",
+    "explanation": "🔖‘অগ্নিবীণা’ কাজী নজরুল ইসলাম রচিত প্রথম কাব্যগ্রন্থ। এ কাব্যগন্থের প্রথম কবিতা ‘প্রলয়োল্লাস’। এছাড়া এ কাব্যের উল্লেখযোগ্য কবিতা হলোঃ বিদ্রোহী, রক্তাস্বর-ধারিণী মা, আগমনী, ধূমকেতু, খেয়াপারের তরনী, মোহররম। ‘অগ্রপথিক’ তার ‘জিঞ্জীর’ কাব্যগ্রন্থের অন্তর্গত কবিতা এবং ‘মুক্তি’ তার প্রথম প্রকাশিত কবিতা।",
+    "hints": "📖কাজী নজরুল ইসলামের প্রথম প্রকাশিত কাব্যগ্রন্থ 'অগ্নিবীণা'।<br/>❏ এই কাব্যগ্রন্থটি তিনি বিপ্লবী বারীন্দ্রকুমার ঘোষকে উৎসর্গ করেন।<br/>❏ এতে মোট ১২টি কবিতা রয়েছে। <br/>কবিতা গুলো হলোঃ<br/>❏ প্রলয়োল্লাস (প্রথম কবিতা),<br/>❏ বিদ্রোহী,<br/>❏ রক্তাম্বরধারিণী মা,<br/>❏ আগমনী,<br/>❏ ধুমকেতু,<br/>❏ কামালপাশা,<br/>❏ আনোয়ার,<br/>❏ রণভেরী,<br/>❏ শাত-ইল-আরব,<br/>❏ খেয়াপারের তরণী,<br/>❏ কোরবানী এবং<br/>❏ মোহররম।।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184987,
+    "question": "'মৃগাঙ্ক' শব্দটির অর্থ হলো?",
+    "options": [
+      "হরিণ শিশু",
+      "বল্গা হরিণ",
+      "চিত্রা হরিণ",
+      "চন্দ্র"
+    ],
+    "correct_answer": "চন্দ্র",
+    "explanation": "🔖‘মৃগাস্ক’ বিশেষ্যবাচক শব্দটির অর্থঃ চন্দ্র।",
+    "hints": "📖｡মৃগাঙ্ক (বিশেষ্য) - চন্দ্র; চন্দ্রচূড়।<br/>❏ এটি একটি তৎসম বা সংস্কৃত শব্দ।<br/>❖",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184988,
+    "question": "Choose the correct bengali translation \"Time is a great healer\" -",
+    "options": [
+      "সময় উত্তম উপশমকারী",
+      "সময় উত্তম শিক্ষক",
+      "সময় কথা বলে",
+      "সময়ের এক ফোঁড় অসময়ের দশ ফোঁড়"
+    ],
+    "correct_answer": "সময় উত্তম উপশমকারী",
+    "explanation": "🔖Time is great healer- সময় উত্তম উপসমকারী। এটি একটি প্রবাদ।",
+    "hints": "📖Healer অর্থ - আরোগ্যকর্তা বা উপশমকারী।<br/>তাই Time is a great healer এর সঠিক বাংলা অর্থ হলো - সময় উত্তম উপশমকারী।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184989,
+    "question": "নিচের কোনটি সূর্য এর প্রতি শব্দ নয়?",
+    "options": [
+      "বিভাকর",
+      "বিলম্বন",
+      "মিহির",
+      "উর্বী"
+    ],
+    "correct_answer": "উর্বী",
+    "explanation": "🔖‘সূর্য’ শব্দের সমার্থক শব্দঃ বিভাকর, বিভাবসু, মিহির, বিবস্বান, দিবাবসু ইত্যাদি। ‘উরবী’ হচ্ছে ‘পৃথিবী’ শব্দের সমার্থক।",
+    "hints": "📖সূর্য শব্দের সমার্থক শব্দ - বিভাকর, বিভাবসু, মিহির, আদিত্য, দিবাকর, ভাস্কর, ভানু, মার্তণ্ড, রবি, সবিতা, অর্ক, দিবাবসু, অরুণ, দ্যুমণি, প্রভাকর ইত্যাদি৷<br/>অপরদিকে,<br/>উর্বী শব্দের অর্থ হলো - পৃথিবী।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184990,
+    "question": "বিচরন শব্দে বি উপসর্গটি কি অর্থে ব্যবহিত হয়েছে?",
+    "options": [
+      "সাধারন",
+      "অভাব",
+      "প্রভাব",
+      "গতি"
+    ],
+    "correct_answer": "গতি",
+    "explanation": "🔖যেসব অব্যয়জাতীয় শব্দ বা শব্দাংশ শব্দ বা ধাতুর আগে বসে নতুন শব্দ গঠন করে এদেরকে উপসর্গ বলে। ‘বিচরণ’ শব্দটি সংস্কৃত ‘বি’ উপসর্গযোগে গঠিত হয়েছে। এখানে ‘বি’ উপসর্গটি ‘গতি’ অর্থে ব্যবহৃত হয়েছে।",
+    "hints": "📖বিচরন শব্দটি সংস্কৃত ‘বি’ উপসর্গযোগে গঠিত হয়েছে।<br/>এটি ‘গতি’ অর্থে ব্যবহৃত হয়েছে।<br/>এরূপঃ <br/>❏ বিক্ষেপ।<br/>❖",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184991,
+    "question": "'মশগুল' কোন ভাষার শব্দ?",
+    "options": [
+      "তুর্কী",
+      "হিন্দি",
+      "ফার্সি",
+      "আরবি"
+    ],
+    "correct_answer": "আরবি",
+    "explanation": "🔖‘মশগুল’ আরবি ভাষার শব্দ; যার অর্থঃ বিভোর। এছাড়া আরবি ভাষার আরো কিছু শব্দ হলোঃ ইনকিলাব, দুনিয়া, মহকুমা, খবর ইত্যাদি। হিন্দি ভাষার কিছু শব্দ হলোঃ পানি, চানাচুর, কাহিনি ইত্যাদি। তুর্কি ভাষার কিছু শব্দঃ আনারস, আচার, আলমারি, বাসন ইত্যাদি। ফারসি ভাষার শব্দঃ আইন, কানুন, নবাব, বাগান ইত্যাদি।",
+    "hints": "📖মশগুল, মসগুল (বিশেষণ) - মগ্ন; আবিষ্ট; বিভোর; বিহ্বল।<br/>❏ এটি একটি আরবি শব্দ। <br/>❖- বাংলা ভাষায় ব্যবহৃত আরো কিছু গুরুত্বপূর্ণ আরবি শব্দ হলোঃ<br/>❏ জান্নাত, জাহান্নাম, তওবা, তসবি, জাকাত, হজ, হাদিস, হারাম, হালাল, আদালত, আলেম, ইনসান, ঈদ, উকিল, ওজর, এজলাস, এলেম, কানুন, কলম, কিতাব।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184992,
+    "question": "নিচের কোন বানানটি সঠিক ?",
+    "options": [
+      "ক্ষনজীবী",
+      "ক্ষীনজীবি",
+      "ক্ষিনজীবী",
+      "ক্ষীণজীবী"
+    ],
+    "correct_answer": "ক্ষীণজীবী",
+    "explanation": "🔖প্রশ্নে প্রদত্ত শব্দগুলোর মধ্যে শুদ্ধ বানানটি হলো ‘ক্ষীণজীবী,’ যার অর্থঃ অল্পপ্রাণ সম্পন্ন।",
+    "hints": "📖ক্ষীণজীবী (বিশেষণ) - অল্পপ্রাণ; অতিদুর্বল; অল্প জীবনীশক্তিবিশিষ্ট; জীবন সহজেই বিনষ্ট হতে পারে এমন।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184993,
+    "question": "What is the bengali meaning of the word \"Reprimend\"?",
+    "options": [
+      "তিরস্কার",
+      "এদেশ",
+      "বিনয়ী",
+      "পুরুস্কার"
+    ],
+    "correct_answer": "তিরস্কার",
+    "explanation": "",
+    "hints": "📖Reprimand - a formal expression of disapproval; কঠোরভাবে তিরস্কার করা<br/>Similar:<br/>❏ rebuke<br/>❏ reproof<br/>❏ admonishment<br/>❏ admonition",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184994,
+    "question": "Kamal repented ________ his wrong doing.",
+    "options": [
+      "For",
+      "At",
+      "With",
+      "Of"
+    ],
+    "correct_answer": "Of",
+    "explanation": "🔖Repent এর সাথে preposition হিসেবে সবসময় of বসে। Repent of-অনুশোচনা করা।",
+    "hints": "📖Repent of - to be very sorry for something bad you have done in the past and wish that you had not done it;<br/>বাংলা অর্থ - অনুশোচনা করা।<br/>যেমনঃ<br/>❏ Kamal repented of his wrong doing.<br/>❏ He repented of his sins just hours before he died.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184995,
+    "question": "The phrase \" out and out\" means-",
+    "options": [
+      "Outside",
+      "Not at all",
+      "To go out",
+      "Thoroughly"
+    ],
+    "correct_answer": "Thoroughly",
+    "explanation": "🔖Out and out- একটি phrase যার অর্থ ; পুরোপুরি (Thoroughly)।",
+    "hints": "📖Out and out - complete or in every way; used to emphasize an unpleasant quality of a person or thing; <b>thoroughly</b>;<br/>বাংলা অর্থ - সম্পূর্ণরূপে; পুরোপুরি।<br/>যেমনঃ<br/>❏ That's an out-and-out lie!<br/>❏ The whole project was an out-and-out disaster.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184996,
+    "question": "Identify the correct sentence?",
+    "options": [
+      "Robin enjoys hunting rabbits,socializing with friends and to read comics",
+      "Robin enjoys to hunt rabbits, socializing with friends, and to read the comics",
+      "Robin enjoys hunting rabbits, socializing with friend, and reading comics",
+      "Robin enjoys to hunting rabbits, socializing with friends, and to read the comics"
+    ],
+    "correct_answer": "Robin enjoys hunting rabbits, socializing with friend, and reading comics",
+    "explanation": "🔖Option (c) তে hunting, socializing, reading তিনটিতেই মিল (Parallelism) আছে। বাকি option-গুলোতে মিল নেই যেমনঃ (a) তে প্রথমে hunting পরে to read (b) তে socializing তারপর to read. এরুপ (d) এবং তে মিল (parallelism) দেখা যায় না।",
+    "hints": "📖Parallel rule অনুসারে hunt, socialize এবং read -verb গুলোর সাথে ing বসবে।<br/>❏ আর enjoy -verb টির পর verb এর সাথে ing যুক্ত হয়।<br/>❏ অর্থাৎ, enjoy hunting, enjoy socializing, enjoy reading.<br/>❏ তাই সঠিক বাক্য - Robin enjoys hunting rabbits, socializing with friends, and reading comics.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184997,
+    "question": "Choose the correct synonym of Impel",
+    "options": [
+      "Hinder",
+      "Discredit",
+      "Block",
+      "Goad"
+    ],
+    "correct_answer": "Goad",
+    "explanation": "🔖Impel-অনুপ্রাণিত করা, Goad-অনুপ্রাণিত করা, Hinder-বাধা দেওয়া, Dwell-বাস করা, সুতরাং Impel এর synonym হলো Goad।",
+    "hints": "📖Impel - drive, force, or urge (someone) to do something;<br/>বাংলা অর্থ - অনুপ্রাণিত করা; বাধ্য করা।<br/>Similar:<br/>❏ goad<br/>❏ force<br/>❏ compel<br/>❏ constrain <br/>❖অপরদিকে,<br/>Discredit - বদনাম,<br/>Hinder - বাধা,<br/>Dwell - বাস করা, <br/>Block - বাধা।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184998,
+    "question": "There is no doubt that Humayun Ahmed was a genuine _______: He excelled at telling stories that fascinated his readers.",
+    "options": [
+      "braggart",
+      "dilettante",
+      "raconteur",
+      "prevaricator"
+    ],
+    "correct_answer": "raconteur",
+    "explanation": "🔖Braggart-দাম্ভিক, dilettante অপটুকর্মী। Pilferer-হিচঁকে চোর, prevaricator-সত্যের আলাপকারী, raconteur-গল্প বলিয়ে ব্যাক্তি। সুতরাং শূন্যস্থানে raconteur বসালে বাক্যটি সঠিক অর্থপ্রকাশ করে।",
+    "hints": "📖Raconteur - a person who tells anecdotes in a skilful and amusing way; গল্পপটু লোক; গল্প-কথক।<br/>Braggart - a person who boasts about their achievements or possessions; দাম্ভিক লোক।<br/>Dilettante - a person who cultivates an area of interest, such as the arts, without real commitment or knowledge; অপটু কর্মী।<br/>Prevaricator - সত্যের অপলাপকারী।<br/>Pilferer - ছিঁচকে চোর।<br/>❖বাক্যের অর্থঃ এতে কোন সন্দেহ নেই যে হুমায়ূন আহমেদ একজন সত্যিকারের গল্পপটু লোক/ গল্প-কথক ছিলেন। তিনি তার পাঠকদের মুগ্ধ করে এমন গল্প বলতে পারদর্শী ছিলেন।<br/>❖অতএব, সঠিক উত্তর হবে অপশন (গ)।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 184999,
+    "question": "What is the antonym of \"Inimical\"?",
+    "options": [
+      "Hostile",
+      "Angry",
+      "Indifferent",
+      "Friendly"
+    ],
+    "correct_answer": "Friendly",
+    "explanation": "🔖Inimical-(শত্রুভাবাপন্ন) এর বিপরীত শব্দ friendly (বন্ধুত্ত্বপূর্ণ), Hostile-(শত্রুভাবাপন্ন) এটি সমার্থক শব্দ।",
+    "hints": "📖Inimical - unfriendly; hostile; শত্রুভাবাপন্ন; বৈরী।<br/>এর Opposite:<br/>❏ friendly<br/>❏ warm",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  },
+  {
+    "id": 185000,
+    "question": "Find out the correctly spelt word-",
+    "options": [
+      "Committee",
+      "Comitte",
+      "Commite",
+      "Comitte"
+    ],
+    "correct_answer": "Committee",
+    "explanation": "",
+    "hints": "📖Committee (noun) - a group of people appointed for a specific function by a larger group and typically consisting of members of that group.<br/>এর plural form হলো - committees.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Development Bank Ltd",
+    "exam": "16@Bangladesh Development Bank Ltd - Officer (Cash) - 15.01.16"
+  }
+]

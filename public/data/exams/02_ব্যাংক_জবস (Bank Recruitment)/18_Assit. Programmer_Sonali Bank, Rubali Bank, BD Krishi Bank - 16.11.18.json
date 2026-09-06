@@ -1,0 +1,1362 @@
+[
+  {
+    "id": 203453,
+    "question": "A ball and a bat costs 110 taka. The bat costs 100 taka more than the ball. How much does the ball cost ? ",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "100"
+    ],
+    "correct_answer": "5",
+    "explanation": "<p>Total cost 110</p><br/><p>Given that the bat costs tk 100 more than the ball.</p><br/><p>So the ball costs (110-100)/2= 5</p><br/>",
+    "hints": "📝<b>প্রশ্ন:</b> একটি ব্যাট ও বলের মূল্য একত্রে ১১০ টাকা। ব্যাটের দাম বলের থেকে ১০০ টাকা বেশি হলে, বলের দাম কত?<br/>❐ <b>সমাধান:</b><br/>ধরি,<br/>বলের দাম = p টাকা<br/>∴ ব্যাটের দাম = p + 100<br/>❐ প্রশ্নমতে,<br/>p + p + 100 = 110<br/>2p = 10<br/>p = 5<br/>❐ ∴ বলের দাম = 5 টাকা",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203536,
+    "question": "Domain of a function is :",
+    "options": [
+      "the maximal set of numbers for which a function is defined",
+      "the maximal set of numbers which a function can take values",
+      "it is the set of natural numbers for which a function is defined",
+      "any set of positive numbers"
+    ],
+    "correct_answer": "the maximal set of numbers for which a function is defined",
+    "explanation": "In mathematics, the domain of a function is the set of inputs accepted by the function. It is sometimes denoted by or, where f is the function. In layman\\\"s terms, the domain of a function can generally be thought of as \"what x can be\". More precisely, given a function, the domain of f is X.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203569,
+    "question": "which country is the highest exporter of natural gas in the Middle East region ?",
+    "options": [
+      "Qatar",
+      "Kuwait",
+      "Saudi Arabia",
+      "United Arab Emirate"
+    ],
+    "correct_answer": "Qatar",
+    "explanation": "🔖The leading players of the natural gas sector from the Middle East are Iran, with a production volume of 244.2 billion cubic meters, and Qatar, with over 178 billion cubic meters.<br/>Saudi Arabia is the ninth largest gas producer with 113.6 billion cubic meters",
+    "hints": "📝বর্তমানে মধ্যপ্রাচ্যের দেশ কাতার বিশ্বে গ্যাস রপ্তানিতে শীর্ষে অবস্থান করছে।<br/><br/>❐ <b>কাতার</b> Liquefied Natural Gas (LNG) রপ্তানি করে থাকে।<br/>❐ বিশ্বের তরল প্রাকৃতিক গ্যাস (এলএনজি) রপ্তানিতে শীর্ষ দেশসমূহ:<br/>❐ প্রথম : কাতার<br/>❐ দ্বিতীয় : অস্ট্রেলিয়া<br/>❐ তৃতীয় : যুক্তরাষ্ট্র<br/>❐ চতুর্থ : রাশিয়া<br/>❐ আমদানিতে শীর্ষ দেশ : জাপান।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203573,
+    "question": "If for a square matrix A , \\( {A}^{2}=A \\) then such a matrix is known as :",
+    "options": [
+      "Idempotent matrix",
+      "Orthagonal matrix",
+      "Null matrix",
+      "Identity matrix"
+    ],
+    "correct_answer": "Idempotent matrix",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203574,
+    "question": "The time complexity of binary search is :",
+    "options": [
+      "constant",
+      "quardratic",
+      "exponential",
+      "logarithmic"
+    ],
+    "correct_answer": "logarithmic",
+    "explanation": "🔖In computer science, binary search, also known as half-interval search,logarithmic search,or binary chop,<br/>is a search algorithm that finds the position of a target value within a sorted array.<br/>Binary search compares the target value to the middle element of the array.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203575,
+    "question": "How many bits string of length 4 are possible such that they contain 2 ones and 2 zeroes ? ",
+    "options": [
+      "4",
+      "2",
+      "5",
+      "6"
+    ],
+    "correct_answer": "6",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203576,
+    "question": "If A has 4 elements and B has 8 elements then the minimum and maximum number of elements in \\( A\\cup B \\) are respectively __",
+    "options": [
+      "4,8",
+      "8,12",
+      "4,12",
+      "6,12"
+    ],
+    "correct_answer": "8,12",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203577,
+    "question": "In the given AP series find the number of terms 5, 8, 11, 14, 17, 20 , ..... 50.",
+    "options": [
+      "11",
+      "13",
+      "15",
+      "16"
+    ],
+    "correct_answer": "16",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203578,
+    "question": "For some base r, the digits which are allowed in its representation are?",
+    "options": [
+      "Digits from 1 to r",
+      "Digits from 0 to r -1",
+      "Digits from 1 to r -1",
+      "Digits from 0 to r"
+    ],
+    "correct_answer": "Digits from 0 to r -1",
+    "explanation": "For a base r number system, the allowed digits are 0 up to r-1. For example, in base 10 (decimal), the digits are 0-9. In base 2 (binary), the digits are 0 and 1. In base 16 (hexadecimal), the digits are 0-9 and A-F, where A represents 10, B represents 11, and so on up to F representing 15.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203579,
+    "question": "A polygon with 25 sides a can be triangulated into ___ ",
+    "options": [
+      "23",
+      "20",
+      "22",
+      "21"
+    ],
+    "correct_answer": "23",
+    "explanation": "<p>বহুভুজকে ত্রিভুজ করা যায় সূত্র =n-2 </p><br/><p>সুতারাং, 25-2=23( ২৫ হচ্ছে বাহুবিশিষ্ট বহুভুজ)</p><br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203580,
+    "question": "what is a long -term scheduler ?",
+    "options": [
+      "It selects which process has to be brought into the ready queue",
+      "It selects which process has to be executed nest and allocates CPU",
+      "It selects which process to remove front memory by swapping",
+      "It selects which process needs to be killed next"
+    ],
+    "correct_answer": "It selects which process has to be executed nest and allocates CPU",
+    "explanation": "A long-term scheduler, also known as a job scheduler, is a component of an operating system that decides which processes should be admitted to the system for execution. It manages the overall degree of multiprogramming by selecting processes from a pool of waiting jobs and bringing them into the ready state for execution. Essentially, it controls which programs are allowed to run at any given time.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203581,
+    "question": "what is the Cartesian product of A ={ 1,2} and B = { a,b } ? ",
+    "options": [
+      "{(1,a),(1,b)(2,a)(b,b)}",
+      "{(1,1),(2,2),(a,a),(b,b)}",
+      "{(1,a),(2,a), (1,b), (2,b)}",
+      "{(1,1),(a,a),(2,a),(1,b)}"
+    ],
+    "correct_answer": "{(1,a),(2,a), (1,b), (2,b)}",
+    "explanation": "🔖প্রদত্ত বাক্যের অর্থ- তাপ ও বৃষ্টি থাকা সত্ত্বেও টহলদল-পাহাড়ের দিকে এগিয়েছিল যেখানে শত্ররা- বলে বিশ্বাস করা হতো। প্রথম শূন্যস্থানে doggedly (দৃঢ় সংল্পবদ্ধ ভাবে) এবং দ্বিতীয় শূন্যস্থান wating (অপেক্ষা করছিল) শব্দদ্বয়ই যথোপযুক্ত। তাই সঠিক উত্তটি হবে। (c)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203582,
+    "question": "The Ex-nor of this string '01010101' with '11111111' is ",
+    "options": [
+      "10101010",
+      "00110100",
+      "01010101",
+      "10101001"
+    ],
+    "correct_answer": "01010101",
+    "explanation": "🔖Option a, c, d কোনোটিই বাক্যের অর্ত পরিপূর্ণ করতে পারে না। শূন্যস্থানে বসালে বাক্যের অর্থ হয়- আহত লোকটি কী বলল যখন যে আমাদের কাছে পৌঁচাল? সুতরাং সঠিক উত্তর (b).",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203583,
+    "question": "If f is a function defined from R is given by f (x) = 3x -5, then \\( {f}^{-1} \\) (x) is given by :",
+    "options": [
+      "1/(3x-5)",
+      "(x +5)/3",
+      "does not exist since it is not a bisection",
+      "(3x + 5)/3"
+    ],
+    "correct_answer": "(x +5)/3",
+    "explanation": "🔖প্রদত্ত বাক্যের বাংলা অর্থ- তার একটি বদ অভ্যাস হলো- এবং এ কারণে তার বয়স বাড়ার সাথে সাথে- আশ্চর্য কিছু নয়। 1ম শূন্যস্থানে greed (লোভ) এবং 2য় শূন্যস্থানে disillusioned (মোহভঙ্গ হওয়া) শব্দদ্বই যথোপযুক্ত। সুতরাং সঠিক উত্তরটি হবে (b)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203584,
+    "question": "An algorithm which uses the past results to find the new results is",
+    "options": [
+      "Brute Force",
+      "Divide and Conquer",
+      "Dynamic programming algorithms",
+      "All of the above"
+    ],
+    "correct_answer": "Dynamic programming algorithms",
+    "explanation": "🔖Deterrent effect এমন প্রভাব যার কারণে অন্য কোনো অপরাধ সংগঠিত হয় না; waive মওকুফ করা। অর্থ্যাৎ আইন ভঙ্গের অপরাধ যদি প্রায়শই মওকুফ করা হয় তবে তা আইন ভঙ্গের শাস্তির প্রভাব কমিয়ে দেয়। সুতরাং সঠিক উত্তরটি (b)",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203585,
+    "question": "If number a is \\( {2}^{2}\\times {3}^{1}\\times {5}^{0}andbis{2}^{1}\\times {3}^{1}\\times {5}^{1}then1cmofa,bis: \\)",
+    "options": [
+      "\\( {2}^{2}\\times {3}^{1}\\times {5}^{1} \\)",
+      "\\( {2}^{2}\\times {3}^{2}\\times {5}^{2} \\)",
+      "\\( {2}^{3}\\times {3}^{1}\\times {5}^{0} \\)",
+      "\\( {2}^{2}\\times {3}^{2}\\times {5}^{0} \\)"
+    ],
+    "correct_answer": "\\( {2}^{2}\\times {3}^{1}\\times {5}^{1} \\)",
+    "explanation": "🔖Sentence ‍টিতে ভূল নেই। ‘সুতরাং, সঠিক উত্তরটি (e).",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203586,
+    "question": "RPC provides a (an) __ on the client side , a separate one for each remote procedure.",
+    "options": [
+      "stub",
+      "identifier",
+      "name",
+      "process identifier"
+    ],
+    "correct_answer": "stub",
+    "explanation": "🔖Sentence ‍টিতে `Sometimes' থাকায় এটি Present indefinite Tense হবে। সুতরাং `will' এর ব্যবহার ভূল।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203587,
+    "question": "which of these keywords can be used in a subclass to call the constructor of superclass?",
+    "options": [
+      "Extent",
+      "Extends",
+      "Super",
+      "This"
+    ],
+    "correct_answer": "Super",
+    "explanation": "🔖The super keyword refers to superclass (parent) objects. It is used to call superclass methods, and to access the superclass constructor.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203588,
+    "question": "Multi threaded programs are :",
+    "options": [
+      "lesser prone to deadlocks",
+      "more prone to deadlocks",
+      "not at all prone to deadlocks",
+      "always results in deadlock"
+    ],
+    "correct_answer": "more prone to deadlocks",
+    "explanation": "🔖A multi-threaded program will take advantage of additional threads — and cores — to distribute the load of the program more efficiently, as opposed to have one poor core do all the work while the others simply watch. The premise of concurrency is to run two or more different programs, kind of at the same time.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203589,
+    "question": "when there is a large logical address space, the best way of paging would be:",
+    "options": [
+      "not to page",
+      "a tow level paging algorithm",
+      "the page table itself",
+      "all of the above"
+    ],
+    "correct_answer": "a tow level paging algorithm",
+    "explanation": "🔖গত পঞ্চাশ বছরে In the last fifty years; অর্থাৎ In শব্দটি Missing রয়েছে। সুতরাংসঠিকউত্তরটিহবে(b)",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203590,
+    "question": "CPU fetches the instruction form memory according to the value of __",
+    "options": [
+      "Program counter",
+      "status register",
+      "instruction register",
+      "program status word"
+    ],
+    "correct_answer": "Program counter",
+    "explanation": "🔖The CPU fetches instructions from memory according to the value of the program counter.<br/>These instructions may cause additional loading from and storing to specific memory addresses. Usually, a program resides on a disk as a binary executable file.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203591,
+    "question": "what is the mounting of file system ?",
+    "options": [
+      "crating of a file system",
+      "deleting a file system",
+      "attaching portion of the file system into a directory structure",
+      "removing portion of the file system into a directory structure"
+    ],
+    "correct_answer": "attaching portion of the file system into a directory structure",
+    "explanation": "🔖Mounting is a process by which the operating system makes files and directories on a storage device (such as hard drive, CD-ROM, or network share) available for users to access via the computer's file system.<br/>In general, the process of mounting comprises the operating system acquiring access to the storage medium; recognizing, reading, and processing file system structure and metadata on it before registering them to the virtual file system (VFS) component.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203592,
+    "question": "In the ___ normal form , a composite attribute is converted to individual attributes . ",
+    "options": [
+      "First",
+      "Second",
+      "Third",
+      "Fourth"
+    ],
+    "correct_answer": "First",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203602,
+    "question": "ইসমাইল হোসেন সিরাজী রচিত কাব্যগ্রন্থ কোনটি? ",
+    "options": [
+      "অমিয়ধারা",
+      "কুসুমকানন",
+      "গীতাঞ্জলি",
+      "অনল প্রবাহ"
+    ],
+    "correct_answer": "অনল প্রবাহ",
+    "explanation": "🔖সৈয়দ ইসমাইল হোসেন সিরাজী ছিলেন একজন বাঙালি লেখক ও কবি।<br/>তিনি ১৯ ও ২০ শতকে বাঙালি মুসলিম পুনর্জাগরণের প্রবক্তাদের একজন।<br/>তিনি মুসলিমদের জন্যে বিজ্ঞানসাধনা, মাতৃভাষাচর্চা, নারীদের শিক্ষা এসবের পক্ষে লেখালেখি করেন।<br/>তার অনল-প্রবাহ কাব্যগ্রন্থটি সরকার বাজেয়াপ্ত করে এবং তিনি কারাবন্দী হন।<br/>তার বিখ্যাত কাব্যগ্রন্থ হলো - অনল প্রবাহ।",
+    "hints": "📝ইসমাঈল হোসেন সিরাজী রচিত কাব্যগ্রন্থ হলো 'অনল প্রবাহ'।<br/><b>ইসমাঈল হোসেন সিরাজী<br/></b>- তিনি ১৮৮০ সালে সিরাজগঞ্জে জন্মগ্রহণ করেন।<b><br/></b>- তিনি সিরাজগঞ্জ জেলায় জন্মগ্রহণ করেন (এ কারণেই তিনি তাঁর নামের সঙ্গে ‘সিরাজী’ উপাধি যুক্ত করেন)।<br/>❐ সমসাময়িক পত্রিকা আল-এসলাম, ইসলাম প্রচারক, প্রবাসী, প্রচারক, কোহিনূর, সোলতান, মোহাম্মদী, সওগাত, নবযুগ ও নবনূর প্রভৃতিতে সিরাজীর লেখা প্রকাশিত হতো।<br/>তাঁর কাব্য গ্রন্থগুলি হলো- অনল প্রবাহ, আকাঙ্ক্ষা, উচ্ছ্বাস , উদ্বোধন, নব উদ্দীপনা, স্পেন বিজয় কাব্য, সঙ্গীত সঞ্জীবনী, প্রেমাঞ্জলি । <br/>তাঁর উল্লেখযোগ্য উপন্যাস- রায়নন্দিনী , তারাবাঈ , ফিরোজা বেগম ও নূরুদ্দীন ।<br/>❐ <b>অনল প্রবাহ </b>কাব্যের পরিচয়-<br/>❐ সৈয়দ ইসমাইল হোসেন সিরাজী রচিত মুসলিম জাগরণমূলক কাব্য 'অনল প্রবাহ' প্রকাশিত হয় ১৯০০ সালে। <br/>❐ 'যা চলে গেছে তার জন্য শোক বৃথা বরং জাতির হৃতগৌরব উদ্ধারের প্রচেষ্টাই মুখ্য'-এই বাণীতে মুসলমানদের দুরবস্থা ও অধঃপতন ব্যক্ত করে ইংরেজদের বিরুদ্ধে ক্ষোভ ও রোষ প্রকাশ করা হয়েছে এই কাব্যটিতে।<br/>❐ 'অনল প্রবাহে' কবি হেমচন্দ্ৰ বন্দ্যোপাধ্যায়ের ‘ভারত ভিক্ষা’, ‘ভারত বিলাপ' ইত্যাদি কবিতার সুস্পষ্ট প্রভাব আছে। <br/>❐ ১৩১৫ বঙ্গাব্দে (১৯০৮) পরিবর্তিত ও পরিবর্ধিত দ্বিতীয় সংস্করণ বের হয়।<br/>❐ প্রথম সংস্করণে কবিতা ছিল মাত্র নয়টি। <br/>❐ এগুলো হচ্ছে : অনল-প্রবাহ, তুর্যধ্বনি, মূর্ছনা, বীর-পূজা, অভিভাষণ : ছাত্রগণের প্রতি, মরক্কো-সঙ্কটে, আমীর- আগমনে, দীপনা, আমীর-অভ্যর্থনা।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203603,
+    "question": "which of the following has the smallest value? ",
+    "options": [
+      "1/0.2",
+      "0.1/2",
+      "0.1/1",
+      "0.2/0.1"
+    ],
+    "correct_answer": "0.1/2",
+    "explanation": "",
+    "hints": "📝<b>সমাধান:</b><br/>1/0.2 = 5<br/><b>0.1/2 = 0.05</b><br/>0.1/1 = 0.1<br/>0.2/0.1 = 2",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203604,
+    "question": "'মানুষ ও পশুর ধর্ম পৃথক ' -এ বাক্যে ধর্ম শব্দটি কি অর্থে ব্যবহৃত হয়েছে? ",
+    "options": [
+      "নিয়মনীতি",
+      "স্বভাব",
+      "আচার-অনুষ্ঠান",
+      "গ্রহণযোগ্যতা"
+    ],
+    "correct_answer": "স্বভাব",
+    "explanation": "🔖এখানে ধর্ম বলতে পশু ও মানুষের আচার-আচরণ বোঝানো হয়েছে",
+    "hints": "📝উল্লেখিত বাক্যে 'ধর্ম' শব্দ দ্বরা <b>স্বভাব </b>কে বুঝানো হয়েছে।<br/>- উক্ত শব্দটি বাগর্থ এর উদাহরণ।<br/>❐ তাই একই শব্দের বিভিন্ন অর্থ থাকতে পারে। এটি বাক্যে ব্যবহারের উপর নির্ভর করে থাকে।<br/><b><br/>বাক্যের অর্থ পরিবর্তন</b><br/>শব্দের অর্থগত পরিবর্তন কেবল রূপমূলের অর্থের মধ্যে সীমিত থাকে না। বাক্যে প্রয়োগভেদে শব্দের নানারকম অর্থ-বৈচিত্র্য তৈরি হতে পারে। তাছাড়া এমনিতেও একটি শব্দের দ্বি-অর্থবাচকতা বা বহু- অর্থবাচকতা থাকতে পারে। এমনকি বাকভঙ্গির কারণে অর্থ-ভিন্নতা পাওয়া যায় ।<br/><b>উদাহরণ:</b><br/>(ক)মানুষ ও পশুর <u>ধর্ম</u> পৃথক।<br/>(খ) আমাদের দেশে নানা<u> ধর্মের </u>মানুষ বসবাস করে।<br/>(গ) দানশীলতা লোকটির প্রধান <u>ধর্ম</u>।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203605,
+    "question": "নিচের কোন বানানটি শুদ্ধ ? ",
+    "options": [
+      "ভুতপূর্ব",
+      "ভুতপুর্ব",
+      "ভূতপূর্ব",
+      "ভুতপর্ব ু"
+    ],
+    "correct_answer": "ভূতপূর্ব",
+    "explanation": "🔖শুদ্ধ বানান - ভূতপূর্ব : (বিশেষণ পদ) পূর্বতন।",
+    "hints": "📝এখানে শুদ্ধ বানান হলো<b> 'ভূতপূর্ব'</b>।<br/>❐ আরও কিছু শুদ্ধ বানান হলো-<br/>বর্ণচোরা।<br/>মিতব্যয়ী।<br/>কৃতার্থম্মন্য।<br/>ক্রন্দসী ।<br/>আদ্যন্ত।<br/>অনাদি।<br/>অবগাহন।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203606,
+    "question": "'আটকপালে' বাগধারটির অর্থ কি? ",
+    "options": [
+      "অমিতব্যয়ী",
+      "দিশেহারা",
+      "অসাবধান",
+      "হতভাগ্য"
+    ],
+    "correct_answer": "হতভাগ্য",
+    "explanation": "🔖আট কপালে (হতভাগ্য): আট কপালে লোকের ক্ষেত্রে চাকরি জোটা মুশকিল।",
+    "hints": "📝আটকপালে বাগধারাটির অর্থ হলো <b>হতভাগ্য</b><br/>❐ আটকপালে মেয়েটি সুনামিতে তার পরিবারের সবাইকে হারিয়েছে।<br/><b><br/>আরও কিছু বাগধারা হলো-</b><br/>»আক্কেল সেলামি (বোকামির দণ্ড) : বিনা টিকেটে গাড়িতে চড়ায় পঞ্চাশ টাকা আক্কেল সেলামি দিতে হলো। <br/>»আদায় কাঁচকলায় (শত্রুতা) : রীনা আর রীমার মধ্যে আদায় কাঁচকলায় সম্পর্ক। <br/>»আকাশের চাঁদ হাতে পাওয়া (দুর্লভ বস্তু প্রাপ্তি) : হারানো ছেলেকে ফিরে পেয়ে মা যেন আকাশের চাঁদ হাতে পেলেন। <br/>»আক্কেল গুড়ুম (হতবুদ্ধি হওয়া) : ছেলের দুর্ঘটনার কথা শুনে বাবার আক্কেল গুড়ুম হয়ে গেল।<br/>»আঁধার ঘরের মানিক (অত্যন্ত প্রিয়জন) : দুঃখিনী মায়ের আঁধার ঘরের মানিক একমাত্র ছেলে করিম। <br/>»আদা জল খেয়ে লাগা (প্রাণপণ চেষ্টা করা) : পরীক্ষায় পাস করার জন্য শামীম আদা জল খেয়ে লেগেছে।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203607,
+    "question": "কারক ও বিভক্তি নির্ণয় করুন : \" ফুলে ফুলে\" ঘর ভরেছে। ",
+    "options": [
+      "করণ কারকে সপ্তমী বিভক্তি",
+      "করণ কারকে তৃতীয়া বিভক্তি",
+      "অধিকরণ কারকে শূণ্য বিভক্তি",
+      "করণ কারকে শূণ্য বিভক্তি"
+    ],
+    "correct_answer": "করণ কারকে সপ্তমী বিভক্তি",
+    "explanation": "🔖করণ শব্দের অর্থ যন্ত্র, সহায়ক বা উপায়। যা দিয়ে বা যে উপায়ে ক্রিয়া সম্পাদন করা হয়, তাকে করণ কারক বলে। ক্রিয়াকে 'কী দিয়ে/ কী উপায়ে' দিয়ে প্রশ্ন করলে যে উত্তর পাওয়া যায়, তাই করণ কারক।<br/>. ক্রিয়া সম্পাদনের কাল এবং আধারকে (সময় এবং স্থানকে) অধিকরণ কারক বলে।<br/>ফুলে ফুলে ঘর ভরেছে - করণ কারকে সপ্তমী বিভক্তি।",
+    "hints": "📝উল্লেখিত বাক্যে 'ফুলে ফুলে' হলো করণ কারকে সপ্তমী বিভক্তির অন্তর্গত।<br/><b>করণ কারক<br/></b>- 'করণ' শব্দটির অর্থ : যন্ত্র, সহায়ক বা উপায়।<b><br/></b>- ক্রিয়া সম্পাদনের যন্ত্র, উপকরণ বা সহায়ককেই করণ কারক বলা হয়।<br/>❐ বাক্যস্থিত ক্রিয়াপদের সঙ্গে ‘কীসের দ্বারা’ বা ‘কী উপায়ে' প্রশ্ন করলে যে উত্তরটি পাওয়া যায়, তা-ই করণ কারক।<br/><b>যেমন -</b><br/>»নীরা <u>কলম </u>দিয়ে লিখে।<br/>»শিকারি বিড়াল <u>গোঁফে </u>চিনা যায়।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203608,
+    "question": "'নয়ন' এর সঠিক সন্ধি বিচ্ছেদ হলো: ",
+    "options": [
+      "নৈ +অন",
+      "নে + অন",
+      "নো + অন",
+      "না + অন"
+    ],
+    "correct_answer": "নে + অন",
+    "explanation": "🔖'নয়ন' এর সঠিক সন্ধি বিচ্ছেদ হলো: নে + অন।<br/>এ/ঐ এরপরে অন্য কোন স্বরধ্বনি আসলে ‘এ’ এর জায়গায় ‘অয়’ এবং ‘ঐ’ এর জায়গায় ‘আয়’ হয়।<br/>এ+অ = অয়+অ<br/>নে+অন = নয়ন,<br/>শে+অন = শয়ন,<br/>ঐ+অ = আয়+অ,<br/>নৈ+অক = নায়ক,<br/>গৈ+অক = গায়ক।",
+    "hints": "📝'নয়ন' শব্দের সঠিক সন্ধি-বিচ্ছেদ হলো <b>নে + অন<br/>নিয়ম অনুযায়ী -<br/></b>এ, ঐ, ও, ঔ-কারের পর এ, ঐ স্থানে যথাক্রমে অয়, আয় এবং ও, ঔ স্থানে যথাক্রমে অব্ ও আব্ হয়।<br/>❐ <b>যেমন-</b><br/>নে + অন = নয়ন।<br/>শে + অন = শয়ন।<br/>নৈ + অক = নায়ক।<br/>গৈ + অক =গায়ক।<br/>পো + অন = পবন।<br/>লো + অন = লবণ ।<br/>গো + আদি = গবাদি।<br/>গো + এষণা = গবেষণা।<br/>পো + ইত্র = পবিত্র।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203609,
+    "question": "'কাল নিরবধি' গ্রন্থটি কার আত্মজীবনী? ",
+    "options": [
+      "আনিসুজ্জামান",
+      "মাহমুদুল হক",
+      "আবদুল্লাহ আবু সায়ীদ",
+      "বাদশাহ বাবর"
+    ],
+    "correct_answer": "আনিসুজ্জামান",
+    "explanation": "🔖আনিসুজ্জামান (১৮ ফেব্রুয়ারি ১৯৩৭ - ১৪ মে ২০২০) ছিলেন একজন বাংলাদেশী শিক্ষাবিদ, লেখক ও জাতীয় অধ্যাপক।<br/>তিনি ঢাকা বিশ্ববিদ্যালয়ের বাংলা ভাষা ও সাহিত্যের ইমেরিটাস অধ্যাপক ছিলেন।<br/>তিনি ভাষা আন্দোলন (১৯৫২), উনসত্তরের গণঅভ্যুত্থান (১৯৬৯) ও ১৯৭১ সালে বাংলাদেশের মুক্তিযুদ্ধে অংশগ্রহণ করেন।<br/>এছাড়াও বাংলাদেশ স্বাধীন হওয়ার পর ১৯৭২ সালে কুদরাত-এ-খুদাকে প্রধান করে গঠিত জাতীয় শিক্ষা কমিশনের সদস্য ছিলেন।<br/>বাংলা সাহিত্যের ইতিহাস নিয়ে তার গবেষণা সবিশেষ উল্লেখযোগ্য।<br/>কাল নিরবধি হলো তার আত্মজীবনী।",
+    "hints": "📝‘কাল নিরবধি’ গ্রন্থটি অধ্যাপক আনিসুজ্জামানের লেখা।<br/>❐ তিনি ছিলেন একজন বাংলাদেশী শিক্ষাবিদ, লেখক ও জাতীয় অধ্যাপক।<br/>❐ প্রবন্ধ গবেষণায় অবদানের জন্য ১৯৭০ সালে তিনি বাংলা একাডেমি থেকে প্রদত্ত বাংলা একাডেমি সাহিত্য পুরস্কার লাভ করেন।<br/><b><br/>তাঁর উল্লেখ্যযোগ্য গ্রন্থ -<br/></b>- স্বরূপের সন্ধানে<br/>❐ পুরোনো বাংলা গদ্য<br/>❐ আমার একাত্তর<br/>❐ মুক্তিযুদ্ধ এবং তারপর",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203610,
+    "question": "বাংলা কোন ভাষাগোষ্ঠীর অন্তর্গত ? ",
+    "options": [
+      "বঙ্গীয়",
+      "ইন্দো-ইউরোপীয়",
+      "মাগধী",
+      "ইউরোপীয়"
+    ],
+    "correct_answer": "ইন্দো-ইউরোপীয়",
+    "explanation": "🔖বাংলা ইন্দো-ইউরোপীয় ভাষাগোষ্ঠীর অন্তর্গত।<br/>ইন্দো-ইউরোপীয় ভাষাসমূহ পৃথিবীর আদি ভাষা পরিবারের একটি। এই ভাষা পরিবারের অন্তর্গত ভাষা ও উপভাষাসমূহ বিশ্বের ৬টি মহাদেশে পাওয়া যায়।<br/>বেশির ভাগ ইন্দো-ইউরোপীয় ভাষা ইউরোপ ও দক্ষিণ এশিয়ায় বিবর্তন হয়। হিন্দি,বাংলা, ইংরেজি, লাতিন, ফার্সি ও রুশ ছাড়াও বিশ্বের অনেক অনেক ভাষা এই পরিবারের অন্তর্গত।",
+    "hints": "📝বাংলা ভাষা ইন্দো-ইউরোপীয় ভাষার অন্তর্গত ছিল।<br/>পৃথিবীর অনেকগুলো ভাষাগোষ্ঠী রয়েছে। তার মধ্যে ‘আদি আর্য ভাষাগোষ্ঠী' কিংবা ‘ইন্দো-ইউরোপীয়' থেকে বাংলা ভাষার উৎপত্তি লাভ করেছে। আনুমানিক খ্রিষ্ট পূর্ব ৫০০০ বছর আগে ভারতীয় উপমহাদেশ ও ইউরোপের ভাষাই হলো ইন্দো-ইউরোপীয় কিংবা আদি আর্য ভাষা।<br/>❐ এই ভাষার প্রধান শাখা ১০ টি।<br/>❖ ১. গ্রিক,<br/>❖ ২. ইটালিক,<br/>❖ ৩. কেলটিক, <br/>❖ ৪. জার্মানিক,<br/>❖ ৫. হিট্টাইট<br/>❖ ৬. তুখারীয়<br/>❖ ৭. বালটো-স্লাভিক<br/>❖ ৮. অ্যালবানীয়<br/>❖ ৯. আর্মেনীয়<br/>১.০. ইন্দো-ইরানীয় ।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203611,
+    "question": "'নদী' শব্দের সমার্থক নয়। ",
+    "options": [
+      "তরঙ্গিণী",
+      "শৈবলিনী",
+      "পাটনি",
+      "ফল্গুন"
+    ],
+    "correct_answer": "পাটনি",
+    "explanation": "🔖নদী শব্দের কিছু সমার্থক শব্দ - তটিনী, তরঙ্গিনী, প্রবাহিনী, শৈবালিনী, স্রোতস্বতী, স্রোতস্বিনী, গাঙ, স্বরিৎ, নির্ঝরিনী, কল্লোলিনী, গিরি নিঃস্রাব, মন্দাকিনী, কূলবতী, স্রোতোবহা, সমুদ্রবল্লতা, সমুদ্রকান্তা।",
+    "hints": "📌📝বাংলা একাডেমি আধুনিক বাংলা অভিধান অনুসারে, ফল্গু শব্দের অর্থ- ভারতের গয়ার মধ্যদিয়ে প্রবাহিত অন্তঃসলিলা নদী।<br/>▣ নদী শব্দের সমার্থক শব্দ হবে না 'পাটনি'। 'পাটনি' শব্দের অর্থ- 'খেয়াঘাটের মাঝি'।<br/>❐নদী শব্দের সমার্থক শব্দ-<br/>❐ নদ<br/>❐ তটিনী<br/>❐ প্রবাহিণী<br/>❐ শৈবলিনী<br/>❐ স্রোতস্বিনী<br/>❐ নির্ঝরিণী<br/>❐ সমুদ্রকান্তা<br/>❐ মন্দাকিনী",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203612,
+    "question": "'Cognizable' শব্দটির বাংলা পরিভাষা _ ",
+    "options": [
+      "আমলযোগ্য",
+      "অবহিতি",
+      "বোধজাত",
+      "সুষম"
+    ],
+    "correct_answer": "বোধজাত",
+    "explanation": "🔖আমলযোগ্য - Actionable.<br/>অবহিতি - Information.<br/>বোধজাত - Cognizable.<br/>সুষম - Balanced.",
+    "hints": "📝`Cognizable' শব্দের বাংলা পরিভাষা <b>বোধজাত/ প্রগ্রাহ্য<br/></b>- এছাড়া Cognizable শব্দের আরও অর্থ হলো আদালাতগ্রাহ্য বা এমন কোন আদেশ যা আদালতের মাধ্যমে স্বীকৃত আদেশ।<br/><b><br/>এছাড়া আরও কিছু পারিভাষিক শব্দ হলো-<br/></b>▣ Co-extension ⇢ সহব্যাপ্তি।<br/>▣ Co-extensive ⇢ সহব্যাপী।<br/>▣ Co-extensiveness সহব্যাপিতা।<br/>▣ Cognate ⇢সমজাতীয় ; বন্ধু।<br/>▣ Cognition জ্ঞান।<br/>▣ Cognitive faculty জ্ঞানশক্তি।<br/>▣ Cognizability প্রগ্রাহ্যতা।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203618,
+    "question": "Choose the correct spelling . ",
+    "options": [
+      "Entrepreneur",
+      "Enterprener",
+      "Enterpreneure",
+      "Enterperneur"
+    ],
+    "correct_answer": "Entrepreneur",
+    "explanation": "🔖সঠিক বানানযুক্ত শব্দটি হলো en-tre-pre-neur যার অর্থ উদ্যোক্তা, শিল্প/বাণিজ্য সংগঠক।",
+    "hints": "📝প্রদত্ত প্রশ্নের সঠিক বানান হচ্ছে <b>Entrepreneur</b>.<br/><b>▣ Entrepreneur</b><br/>English Meaning: a person who sets up a business or businesses, taking on financial risks in the hope of profit.<br/>Bangla Meaning: উদ্যোক্তা; বাণিজ্য/শিল্প সংগঠক।<br/><b>Example: </b>many entrepreneurs see potential in this market",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203619,
+    "question": "choose the appropriate translation of : ' ঝড়ো হাওয়া সহ বৃষ্টিপাত হলো' ",
+    "options": [
+      "The rain fell in torrent",
+      "The rain came down in torrent",
+      "It was raining cats and dogs",
+      "It was drizzling with gusty wind"
+    ],
+    "correct_answer": "It was drizzling with gusty wind",
+    "explanation": "",
+    "hints": "📝ঝড়ো হাওয়া সহ -এর ইংরেজি <b>with gusty wind.<br/></b>তাছাড়া in torrents এবং cats and dogs অর্থ হচ্ছে মুষল্ধারে।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203620,
+    "question": "Substitute in one word : 'The study and treatment of mental illness.' ",
+    "options": [
+      "Psychosis",
+      "Psychology",
+      "Psycholinguistics",
+      "psychiatry"
+    ],
+    "correct_answer": "psychiatry",
+    "explanation": "",
+    "hints": "📝প্রদত্ত প্রশ্নের সঠিক উত্তর- <b>Psychiatry</b>.<br/><b>▣ Psychiatry:</b><br/>Meaning: The study and treatment of mental illness, emotional disturbance, and abnormal behavior.<br/>Bangla Meaning: মানসিক রোগের পর্যেষণা ও চিকিৎসা; মনঃচিকিৎসা।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203621,
+    "question": "The correctly spelt word is __ ",
+    "options": [
+      "Schizophrenic",
+      "Siziophrynic",
+      "Sciziphrinic",
+      "scizophrenic"
+    ],
+    "correct_answer": "Schizophrenic",
+    "explanation": "",
+    "hints": "📝<b>▣ প্রদত্ত প্রশ্নের সঠিক উত্তর হচ্ছে Schizophrenia.<br/>▣ Schizophrenia (noun)</b><br/>❐ মানসিক রোগবিশেষ যাতে চিন্তা, অনুভূতি ও কাজের মধ্যে সম্বন্ধের অভাব লক্ষিত হয়; বিভক্ত ব্যক্তিতা; ভগ্নমনস্কতা।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203628,
+    "question": "change the form of speech : They said, 'We cannot live without air' . ",
+    "options": [
+      "They realized that people could not live without air.",
+      "They said that human cannot live without air.",
+      "They said that we cannot live without air.",
+      "They said that it is not possible to live without air."
+    ],
+    "correct_answer": "They said that we cannot live without air.",
+    "explanation": "<p>চিরন্তন সত্য বুঝালে narration এ কোন পরিবর্তন হয় না।&nbsp;</p><br/><p>এখানে we can not live without air.</p><br/><p>এটা চিরন্তন সত্য।&nbsp;</p><br/>",
+    "hints": "📝<b>They said that we cannot live without air</b> হচ্ছে সঠিক উত্তর।<br/>▣ প্রদত্ত প্রশ্নের Reported speech টি চিরন্তন সত্য। তাই indirect narration এর ক্ষেত্রে verb-এর রূপ পরিবর্তন হবে না।<br/>অতএব, প্রদত্ত বাক্যটির Indirect speech: They said that we cannot live without air.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203629,
+    "question": "Nilufer had never visited the Taj Mahal , but she could appreciate its splendor ________ through the descriptions of others .",
+    "options": [
+      "Vicariously",
+      "Heedlessly",
+      "Innocuously",
+      "Mystically"
+    ],
+    "correct_answer": "Vicariously",
+    "explanation": "",
+    "hints": "📝প্রদত্ত প্রশ্নের সঠিক উত্তর- <b>Vicariously</b>.<br/><b>▣ Complete the Sentence:</b><br/>❐ Nilufer had never visited the Taj Mahal, but she could appreciate its splendor <b>vicariously</b> through the descriptions of others.<br/>❐ এখানে Vicariously শব্দটি বসাতে বাক্যটি অর্থপূর্ণ হয়েছে।<br/>❐ নীলুফা কখনো তাজমহল পরিদর্শন করেননি, তবে তিনি অন্যদের বর্ণনার মাধ্যমে এর জাঁকজমকের প্রশংসা করতে পারেন।<br/>❐ <b>অপশনগুলোর বাংলা অর্থ-</b><br/>▣ Vicariously - অন্যের জন্য এক ব্যক্তি কর্তৃক কৃত বা ভুক্ত; প্রাতিনিধিক; বৈকল্পিক।ত<br/>▣ Heedlessly- অমনোযোগী; অনবধান; অসাবধান।<br/>▣ Innocuously- অনপকারী; নির্বিষ।<br/>▣ mystical- গূঢ় তাৎপর্যপূর্ণ বা আধ্যাত্মিক শক্তিসম্পন্ন; ভয় ও বিস্ময় উদ্রেকর; অতীন্দ্রিয়; মরমি।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203630,
+    "question": "The practice of storytelling for entertainment and instruction was at one time so widespread that it was virtually __ . ",
+    "options": [
+      "Rigorous",
+      "Universal",
+      "Elevating",
+      "Uncommon"
+    ],
+    "correct_answer": "Universal",
+    "explanation": "",
+    "hints": "📝প্রদত্ত প্রশ্নের সঠিক উত্তর- <b>Universal</b>.<br/><b><br/>▣ Complete the sentence:</b><br/>❐ The practice of storytelling for entertainment and instruction was at one time so widespread that it was virtually universal.<br/>এখানে Universal শব্দটি বসাতে বাক্যটি অর্থপূর্ণ হয়েছে।<br/>❐ বিনোদন এবং নির্দেশনার জন্য গল্প বলার চর্চা এক সময় এত ব্যাপক ছিল যে এটি কার্যত সর্বজনীন ছিল।<br/>❐ <b>অপশনগুলোর বাংলা অর্থ-</b><br/>Rigorous- কঠোর; প্রচণ্ড।<br/>Universal- সর্বজনীন; সার্বলৌকিক; বিশ্বজনীন।<br/>Elevating- উত্তোলন করা; উন্নীত করা।<br/>Uncommon- অসামান্য; অসাধারণ; বিরল; অনন্যসাধারণ।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203631,
+    "question": "Synonym of 'Probity' : ",
+    "options": [
+      "Expanse",
+      "Determination",
+      "Virtue",
+      "Proclivity"
+    ],
+    "correct_answer": "Virtue",
+    "explanation": "<p><span style=\"font-size: 1rem;\">Synonyms for probity:</span><br/></p><br/>character, decency, goodness, honesty, integrity, morality, rectitude, righteousness, rightness, uprightness, virtue, virtuousness",
+    "hints": "📝<b>▣ Probity</b><br/>English Meaning: The quality of being honest and behaving correctly.<br/>Bangla Meaning: (আনুষ্ঠানিক) চারিত্রিক সরলতা; সততা; সাধুতা।<br/>▣ Virtue এর অর্থ হচ্ছে গুণ; সদ্∘গুণ যা Probity এর প্রতিশব্দ।<br/>❐ Others Option:<br/>Expanse - বিস্তৃত এবং উন্মুক্ত এলাকা।<br/>Determination - দৃঢ়সংকল্প।<br/>Proclivity - প্রবণতা।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203632,
+    "question": "Antonym of 'Reluctant ' : ",
+    "options": [
+      "Creative",
+      "Enthusiastic",
+      "Hesitant",
+      "Resourceful"
+    ],
+    "correct_answer": "Enthusiastic",
+    "explanation": "<p>Reluctant=<br/>unwilling and hesitant; disinclined.</p><br/><p><span style=\"font-size: 1rem;\">Antonyms for reluctant:</span><br/></p><br/>eager, enthusiastic, glad, happy, keen<br/>ready, willing<br/>certain, decided, determined, resolute, sure, unquestioning",
+    "hints": "📝<b>▣ Reluctant<br/></b>English Meaning: Unwilling and hesitant; disinclined.<br/>Bangla Meaning: অনিচ্ছুক; বিমুখ; অনীহ; নারাজ।<br/>▣ <b>Enthusiastic</b> শব্দের অর্থ হচ্ছে অত্যুৎসাহী যা Reluctant এর বিপরীতার্থক।<br/>❐ <b>Others Option:</b><br/>Creative - সৃজনশীল।<br/>Hesitant - দ্বিধান্বিত; চলচিত্ত; দ্বিধাগ্রস্ত; দোলায়মানচিত্ত।<br/>Resourceful - সম্পদের সম্ভাবনা সন্ধানে দক্ষ।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203633,
+    "question": "He has no good cause __ complaint Darkness was the cause __ his losing his way. ",
+    "options": [
+      "about .... in",
+      "at ..... about",
+      "for ....... of",
+      "of ....... with"
+    ],
+    "correct_answer": "for ....... of",
+    "explanation": "",
+    "hints": "📝কোন particular feeling বা action বুঝানোর জন্য <b>cause for</b> ব্যবহৃত হয়।<br/><b>Example:</b><br/>❐ Only a few people can find any cause for celebration.<br/>❐ He has no good cause for complaint.<br/>▣ কোন event (usually a bad event) সংঘটিত হওয়ার কারণ বুঝানোর জন্য <b>cause of</b> বসে।<br/><b>Example:</b><br/>❐ Smoking is the biggest preventable cause of death and disease.<br/>❐ Darkness was the cause of his losing his way.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203634,
+    "question": "when was the Constitution of Bangladesh adopted in the National Parliament of Bangladesh ?",
+    "options": [
+      "2 October 1971",
+      "16 December 1972",
+      "4 November 1972",
+      "4 January 1973"
+    ],
+    "correct_answer": "4 November 1972",
+    "explanation": "🔖The Constitution of the People's Republic of Bangladesh is the constitutional document of Bangladesh.<br/>It was adopted on 4 November 1972 and went into effect from 16 December 1972.<br/>It provides the framework of the Bangladeshi republic with a parliamentary government, fundamental human rights and freedoms, an independent judiciary, democratic local government and a national bureaucracy.<br/>The constitution includes references to socialism, secular democracy and Bengali nationalism.",
+    "hints": "📝Correct answer: 4 November 1972.<br/><br/>❐ সংবিধান গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান ১৯৭২ সালের <b>৪ নভেম্বর</b> গণপরিষদে গৃহীত হয়।<br/>❐ সংবিধান কার্যকর হয় - ১৬ ডিসেম্বর, ১৯৭২ সালে।<br/>-গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধানে মোট ১৫৩ টি অনুচ্ছেদ আছে।<br/>❐ সংবিধানের ভাগ বা অধ্যায় আছে ১১টি।<br/>❐ তফসিল আছে ৭টি।<br/>❐ মূলনীতি আছে ৪টি।<br/>❐ প্রস্তাবনা আছে ১টি।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203635,
+    "question": "The 8th division of Bangladesh is __",
+    "options": [
+      "Mymensingh",
+      "Cumilla",
+      "Barisal",
+      "Rangpur"
+    ],
+    "correct_answer": "Mymensingh",
+    "explanation": "🔖ময়মনসিংহ বিভাগ বাংলাদেশের অষ্টম প্রশাসনিক বিভাগ। জামালপুর, শেরপুর, ময়মনসিংহ ও নেত্রকোণা জেলা নিয়ে ময়মনসিংহ বিভাগ গঠিত।<br/>১৮২৯ সালে ঢাকা বিভাগ প্রতিষ্ঠার সময় থেকে ২০১৫ সালের ১৩ সেপ্টেম্বর পর্যন্ত এই বৃহত্তর ময়মনসিংহ অঞ্চল ঢাকা বিভাগের অংশ ছিল।<br/>২০১৫ সালের ১২ জানুয়ারি প্রধানমন্ত্রী শেখ হাসিনা মন্ত্রিসভার এক বৈঠকে ঢাকা বিভাগ ভেঙ্গে নতুন ময়মনসিংহ বিভাগ গঠনের ঘোষণা দেন।<br/>শুরুতে ঢাকা বিভাগের উত্তর অংশ থেকে প্রতিবেশী ৮টি জেলা নিয়ে পরে ৬টি জেলা নিয়ে ময়মনসিংহ বিভাগ গঠনের পরিকল্পনা করা হয়।",
+    "hints": "📝The 8th division of Bangladesh is Mymensingh.<br/><br/>❐ বাংলাদেশে মোট ৮টি প্রশাসনিক বিভাগ রয়েছে। এগুলো হলো:<br/>❐ ঢাকা<br/>❐ চট্টগ্রাম<br/>❐ খুলনা<br/>❐ রাজশাহী<br/>❐ সিলেট<br/>❐ বরিশাল<br/>❐ রংপুর<br/>❐ ময়মনসিংহ।<br/><br/>❐ ময়মনসিংহ বাংলাদেশের ৮ম বিভাগ।<br/><br/>❐ এর মধ্যে আয়তনে সবচেয়ে ছোট বিভাগ ময়মনসিংহ এবং সবচেয়ে বড় বিভাগ চট্টগ্রাম ।<br/>❐ জনসংখ্যায় সবচেয়ে বড় ঢাকা বিভাগ এবং সবচেয়ে ছোট বরিশাল বিভাগ। <br/>❐ সবচেয়ে বেশি জেলা রয়েছে ঢাকা বিভাগে (১৩ টি) এবং সবচেয়ে কম চারটি করে জেলা রয়েছে সিলেট ও ময়মনসিংহ বিভাগে।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203636,
+    "question": "'Black Monday ' is related to __",
+    "options": [
+      "Terrorism",
+      "Stock Market",
+      "Women's Right",
+      "Environment"
+    ],
+    "correct_answer": "Stock Market",
+    "explanation": "🔖Black Monday refers to the stock market crash that occurred on Oct. 19, 1987 when the DJIA lost almost 22% in a single day, triggering a global stock market decline.<br/>The SEC has built a number of protective mechanisms, such as trading curbs and circuit breakers, to prevent panic-selling.",
+    "hints": "📝'Black Monday' is related to Stock Market.<br/>▣ ১৯২৯ সালেের ৮ অক্টোবর, রোজ সোমবার, যুক্তরাষ্ট্রের বিনিয়োগকারীরা পুঁজিবাজারের ধসের ধসের কবলে পড়ে। <br/>❐ পুঁজিবাজারের এই ধস যুক্তরাষ্ট্রসহ অধিকাংশ দেশকে মহামন্দার দিকে ঠেলে দেয়। <br/>❐ অন্যদিকে, ১৯৮৭ সালে ১৯ অক্টোবর সোমবার বিশ্বব্যাপী আবারও পুঁজিবাজারে ভয়াবহ ধস নামে। <br/>❐ হংকং শেয়ার বাজার থেকে এ বিপর্যয় শুরু হয়ে পর্যায়ক্রমে ইউরোপ, এশিয়া ও আমেরিকায় ছড়িয়ে পড়ে। <br/>❐ পুঁজিবাজারের আলোচিত এ ধস সোমবার ঘটেছিল বলে <br/>❐ এ দুটি ঘটনাকে Black Monday নামে অভিহিত করা হয়।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203638,
+    "question": "who was the Secretary General of the UN during the Liberation War of Bangladesh ?",
+    "options": [
+      "Boutros -Ghali",
+      "U Thant",
+      "Kurt waldheim",
+      "Dag Hammarskjold"
+    ],
+    "correct_answer": "U Thant",
+    "explanation": "🔖A United Nations Secretary-General selection was held in 1971 to succeed U Thant, who was stepping down after two full terms.<br/>Three candidates received enough votes in the Security Council to be selected Secretary-General: Carlos Ortiz de Rozas of Argentina, Kurt Waldheim of Austria, and Max Jakobson of Finland. However, all of the frontrunners were vetoed in the first two rounds of voting.<br/>In the third round, Waldheim accidentally escaped a triple-veto when three permanent members failed to coordinate their votes and all abstained.<br/>As a result, Kurt Waldheim was selected Secretary-General of the United Nations for a term starting 1 January",
+    "hints": "📝বাংলাদেশের মুক্তিযুদ্ধের সময় জাতিসংঘের মহাসচিব ছিলেন উ থান্ট।<br/>▣ জাতিসংঘের প্রথম মহাসচিব ছিলেন নরওয়ের নাগরিক ট্রিগভে লাই।<br/>❐ তিনি ২ ফেব্রুয়ারী ১৯৪৬ সাল থেকে ১০ নভেম্বর ১৯৫২ পর্যন্ত দায়িত্ব পালন করেন।<br/>❐ তবে ২৪ অক্টোবর ১৯৪৫ সালে ১ ফেব্রুয়ারী ১৯৪৬ পর্যন্ত জাতিসংঘের ভারপ্রাপ্ত মহাসচিব হিসেবে দায়িত্ব পালন করেন গল্ডউইন জেব। <br/>❐ কিন্তু প্রথম মহাসচিব হিসেবে ট্রিগভে লাই কেই ধরা হয়। তার স্থলাভিষিক্ত হন সুইডেনের নাগরিক ডাগ হ্যামারশোল্ড যিনি বিমান দুর্ঘটনায় মারা যান।<br/>❐ মিয়ানমারের নাগরিক উ থান্ট ছিলেন জাতিসংঘের তৃতীয় মহাসচিব।<br/>❐ পেরু পেরেজ দ্য কুয়েলার ও মিশরের ড. বুট্রোস ঘালি ছিল যথাক্রমে চতুর্থ ও ষষ্ঠ মহাসচিব। <br/>❐ বাংলাদেশের মুক্তিযুদ্ধের সময় জাতিসংঘের মহাসচিব ছিলেন <b>উ থান্ট</b>।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203639,
+    "question": "The head quarter of IOM is located in : ",
+    "options": [
+      "USA",
+      "Sweden",
+      "Switzerland",
+      "Belgium"
+    ],
+    "correct_answer": "Switzerland",
+    "explanation": "🔖The International Organization for Migration (IOM) is an intergovernmental organization that provides services and advice concerning migration to governments and migrants, including internally displaced persons, refugees, and migrant workers.<br/>In September 2016, IOM became a related organization of the United Nations.<br/>IOM headquarters is a Switzerland, Geneva.",
+    "hints": "📝The head quarter of IOM is located in Switzerland.<br/>▣ <b>IOM</b>:<br/>❐ জাতিসংঘের অভিবাসন বিষয়ক সংস্থা INTERNATIONAL ORGANIZATION FOR MIGRATION (IOM) ১৯৫১ সালে প্রতিষ্ঠিত হয়।<br/>❐ সদস্য ১৭৫টি দেশ এবং পর্যবেক্ষক - ৮টি ।<br/>❐ মহাপরিচালক - এন্টনিও ভিটোরিনো।<br/>❐ সদর দপ্তর <b>জেনেভা, সুইজারল্যান্ড।</b>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203640,
+    "question": "which country is hosting the 'ICC Women's World T20 2018? ",
+    "options": [
+      "New Zealand",
+      "South Africa",
+      "Ireland",
+      "West Indies"
+    ],
+    "correct_answer": "West Indies",
+    "explanation": "🔖The 2018 ICC Women's World Twenty20 was hosted in the West Indies from 9 to 24 November 2018, during the 2018–19 international cricket season.<br/>It was the sixth edition of the ICC Women's T20 World Cup, and the second hosted by the West Indies (after the 2010 edition).<br/>The West Indies were the defending champions.",
+    "hints": "📝West Indies was hosting the 'ICC Women's World T20 2018.<br/>❐ The 2018 ICC Women's World Twenty20 was the sixth edition of the ICC Women's World Twenty20, hosted in the West Indies from 9 to 24 November 2018.<br/>❐ The first match scheduled to be played in Saint Lucia, between England and Sri Lanka, was abandoned due to rain.",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203641,
+    "question": "which day is observed as 'World Autism awareness Day'? ",
+    "options": [
+      "4th March",
+      "7th september",
+      "2nd April",
+      "9th June"
+    ],
+    "correct_answer": "2nd April",
+    "explanation": "🔖World Autism Awareness Day is an internationally recognized day on 2 April every year, encouraging Member States of the United Nations to take measures to raise awareness about people with autistic spectrum disorders including autism and Asperger syndrome throughout the world.<br/>It was designated by the United Nations General Assembly resolution (A/RES/62/139).<br/>World Autism Awareness Day\", passed in council on 1 November 2007, and adopted on 18 December 2007.",
+    "hints": "📝World Autism Awareness Day- 2nd April.<br/><br/>❐ ২ এপ্রিল - বিশ্ব অটিজম সচেতনতা দিবস।<br/>❐ দিবসটিতে এবারের প্রতিপাদ্য ‘রূপান্তরের অভিযাত্রায় সবার জন্য নিউরোবান্ধব অন্তর্ভুক্তিমূলক বিশ্ব গঠন’।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203642,
+    "question": "Six point Demand was proclaimed in the year ___. ",
+    "options": [
+      "1959",
+      "1966",
+      "1969",
+      "1971"
+    ],
+    "correct_answer": "1966",
+    "explanation": "🔖The movement's main agenda was to realize the six demands put forward by a coalition of Bengali nationalist political parties in 1966, to end the perceived exploitation of East Pakistan by the West Pakistani rulers.<br/>It is considered a milestone on the road to Bangladesh's independence.",
+    "hints": "📝Six Point Demand was proclaimed in the year 1966.<br/>▣ <b> ছয় দফা</b> :<br/>❐ পূর্ব পাকিস্তানের স্বাধিকার প্রশ্নে ১৯৬৬ সালের ৫ ফেব্রুয়ারি লাহোরে বিরোধী দলগুলোর এক মহাসম্মেলন অনুষ্ঠিত হয়। উক্ত সম্মেলনে আওয়ামী লীগ সভাপতি শেখ মুজিবুর রহমান পূর্ব পাকিস্তানের রাজনৈতিক, অর্থতিক ও প্রতিরক্ষার দাবি সম্মিলিত ৬ দফাভিত্তিক ঘোষণা উত্থাপন বা পেশ করেন। <br/>❐ এটাই ইতিহাসে ‘ছয় দফা কর্মসূচি' নামে পরিচিত।<br/>❐ ১৯৬৬ সালের ৫ ৬ ফেব্রুয়ারী বঙ্গবন্ধু শেখ মুজিবুর রহমান লাহোরে বিরোধী দলের একটি সম্মেলনে ছয় দফা দাবী পেশ করেন। আর এটি ২৩ মার্চ, ১৯৬৬ আনুষ্ঠানিকভাবে ঘোষিত হয়।<br/>❐ ঐতিহাসিক ছয় দফার খসড়া প্রণেতা - রুহুল কুদ্দুস। তিনি একজন সি এস পি কর্মকর্তা।<br/>▣ দফা গুলো হলো:-<br/>❐ প্রথম দফা: প্রাদেশিক স্বায়ত্তশাসন।<br/>❐ দ্বিতীয় দফা: কেন্দ্রীয় সরকারের ক্ষমতা, <br/>❐ তৃতীয় দফা: মুদ্রা বা অর্থ-সম্বন্ধীয় ক্ষমতা, <br/>❐ চতুর্থ দফা: রাজস্ব, কর বা শুল্ক সম্বন্ধীয় ক্ষমতা, <br/>❐ পঞ্চম দফা: বৈদেশিক বাণিজ্য বিষয়ক ক্ষমতা এবং<br/>❐ ষষ্ঠ দফা: আঞ্চলিক সেনাবাহিনী গঠনের ক্ষমতা।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203643,
+    "question": "which of the following is full form of IFC? ",
+    "options": [
+      "International Football Committee",
+      "International Finance Corporation",
+      "Investment Finance Corporation",
+      "Investment Football Corporation"
+    ],
+    "correct_answer": "International Finance Corporation",
+    "explanation": "🔖The International Finance Corporation (IFC) is an international financial institution that offers investment, advisory, and asset-management services to encourage private-sector development in less developed countries.<br/>The IFC is a member of the World Bank Group and is headquartered in Washington, D.C. in the United States.",
+    "hints": "📝Full form of IFC International Finance Corporation.<br/><br/>❐ এটি ১৯৫৬ সালের ২০ জুলাই প্রতিষ্ঠিত হয়। <br/>❐ বর্তমান সদস্য সংখ্যা ১৮৬টি। IFC উন্নয়নশীল দেশগুলোর ব্যক্তিমালিকানাধীন বা বেসরকারি খাতের উন্নয়নে ঋণদান করে থাকে। <br/>❐ IFC এর সহায়তায় লন্ডন স্টক এক্সচেঞ্জে বাংলা বন্ড চালু হয়।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203644,
+    "question": "A picnic attracts 240 persons. There are 20 more men than women and 20 more adults than children . How many men are at this picnic? ",
+    "options": [
+      "250",
+      "75",
+      "110",
+      "200"
+    ],
+    "correct_answer": "75",
+    "explanation": "",
+    "hints": "📝<b>question:</b> A picnic attracts 240 persons. There are 20 more men than women and 20 more adults than children. How many men are at this picnic?<br/>❐ <b>solution:</b><br/>let,<br/>chilldren = X<br/>∴ Adults = X + 20<br/>❐ so,<br/>X + X + 20 = 240<br/>2X = 220<br/>X = 110<br/>∴ Adults = X + 20 = 110 + 20 = 130<br/>❐ again let,<br/>men = P<br/>women = P - 20<br/>❐ so,<br/>P + P - 20 = 130<br/>2P = 150<br/>P = 75<br/>❐ the number of men is 75",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203645,
+    "question": "If three boys can paint a wall in 2 days , what part of the job can be completed by two boys in 1 day ? ",
+    "options": [
+      "1/3",
+      "2/3",
+      "3/4",
+      "4/2"
+    ],
+    "correct_answer": "1/3",
+    "explanation": "",
+    "hints": "📝<b>question:</b> If three boys can paint a wall in 2 days, what part of the job can be completed by two boys in 1 day?<br/>❐ <b>solution:</b><br/>given,<br/>M1 = 3 boys (member)<br/>D1 = 2 days ( days to complete the work)<br/>W1 = 1 ( ratio of work )<br/>M2 = 2 boys<br/>D2 = 1 day<br/>W2 = ?<br/>❐ we know,<br/>M1 × D1 × W2 = M2 × D2 × W1<br/>W2 = (M2 × D2 × W1)/ (M1 × D1)<br/>➾ (2 × 1 × 1)/(3 × 2)<br/>➾ 1/3",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203646,
+    "question": "which one of the following fractions is closest to \\( \\frac{1}{4}? \\)",
+    "options": [
+      "\\( \\frac{1}{5} \\)",
+      "\\( \\frac{3}{10} \\)",
+      "\\( \\frac{3}{20} \\)",
+      "\\( \\frac{4}{15} \\)"
+    ],
+    "correct_answer": "\\( \\frac{4}{15} \\)",
+    "explanation": "",
+    "hints": "📝<b>question:</b> Which one of the following fractions is closest to 1/4?<br/>❐ <b>solution:</b><br/>1/4 = 0.25<br/>❐ given options,<br/>1/5 = 0.2<br/>3/10 = 0.3<br/>3/20 = 0.15<br/>4/15 = 0.266<br/>❐ so, the closest fraction to 1/4 is 4/15",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203647,
+    "question": "How many hours will it take a man to travel M miles at miles at the rate of H miles per hour? ",
+    "options": [
+      "HM",
+      "H/M",
+      "M/H",
+      "H/2M"
+    ],
+    "correct_answer": "M/H",
+    "explanation": "",
+    "hints": "📝<b>question:</b> How many hours will it take a man to travel M miles at the rate of H miles per hour?<br/>❐ <b>solution:</b><br/>given,<br/>Distance = M miles<br/>Speed = H miles per hour<br/>Time = ?<br/>❐ we know,<br/>Distance = Speed × Time<br/>Time = Distance/Speed<br/>➾ M/H",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203648,
+    "question": "7 in 5 percent of what number ? ",
+    "options": [
+      "35",
+      "140",
+      "75",
+      "49"
+    ],
+    "correct_answer": "140",
+    "explanation": "",
+    "hints": "📝<b>question:</b>7 is 5 percent of what number?<br/>❐ <b>solution:</b><br/>let the number is X<br/>❐ So,<br/>5% of X = 7<br/>X = 7 × 20<br/>X = 140",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203649,
+    "question": "what is the simplified value of ( \\( {a}^{4}{b}^{3}{)}^{2}? \\)",
+    "options": [
+      "\\( (ab{)}^{9} \\)",
+      "\\( {a}^{8}{b}^{6} \\)",
+      "\\( (ab{)}^{24} \\)",
+      "\\( {a}^{6}{b}^{5} \\)"
+    ],
+    "correct_answer": "\\( {a}^{8}{b}^{6} \\)",
+    "explanation": "",
+    "hints": "📝<b>question:</b> What is the simplified value of (a⁴b³)²<br/>❐ <b>solution:</b><br/>(a⁴b³)² = a^(8)b⁶",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203650,
+    "question": "If 3 / (x-1) = 2/(x+1), what is the value of x ? ",
+    "options": [
+      "-5",
+      "-1",
+      "0",
+      "1"
+    ],
+    "correct_answer": "-5",
+    "explanation": "",
+    "hints": "📝<b>question: </b>If 3/(x - 1) = 2/ (x + 1), what is the value of x?<br/>❐ <b>solution:</b><br/>3/(x -1) = 2/(x + 1)<br/>➾ 3(x + 1) = 2(x -1)<br/>➾ 3x + 3 = 2x - 2<br/>x = - 5",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203651,
+    "question": "One number is 3 more that 2 times of another number . Their sum is 21 . Find the numbers.",
+    "options": [
+      "7,14",
+      "2,19",
+      "6,15",
+      "10, 11"
+    ],
+    "correct_answer": "6,15",
+    "explanation": "",
+    "hints": "📝প্রশ্ন: একটি সংখ্যা অপর একটি সংখ্যার দ্বিগুণের থেকে 3 বেশি। সংখ্যাদ্বয়ের সমষ্টি 21 হলে, সংখ্যাদ্বয়-<br/>❐ <b>সমাধান:</b><br/>ধরি,<br/>একটি সংখ্যা = Y<br/>∴ অপর সংখ্যাটি = 2Y + 3<br/>❐ প্রশ্নমতে,<br/>Y + 2Y + 3 = 21<br/>3Y = 18<br/>Y = 6<br/>❐ অন্য সংখ্যাটি = 15",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 203652,
+    "question": "what is an example of iteration in C? ",
+    "options": [
+      "for",
+      "while",
+      "do -while",
+      "all of the above"
+    ],
+    "correct_answer": "all of the above",
+    "explanation": "🔖একই কাজ (Operation) বারবার করার জন্য সি প্রোগ্রামিং ল্যাঙ্গুয়েজ-এ বিভিন্ন ফাংশন ব্যবহার করা হয় যার মধ্যে For loop, do... while statement, if… else statement উল্লেখযোগ্য।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204640,
+    "question": "Which of the following is a correct format for declaration of function?",
+    "options": [
+      "\"return-type function name (argument type;)",
+      "\"return-type function -name (argument type){}",
+      "\"return -type (argument type ) function-name",
+      "\"return-type {} function -name"
+    ],
+    "correct_answer": "\"return-type function name (argument type;)",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204705,
+    "question": "What is an example of iteration in C?",
+    "options": [
+      "for",
+      "while",
+      "do-while",
+      "all of the above"
+    ],
+    "correct_answer": "all of the above",
+    "explanation": "🔖একই কাজ (Opeartion) বারবার করার জন্য সি প্রোগ্রামিং ল্যাঙ্গুয়েজ-এ বিভিন্ন ফাংশন ব্যবহার করা হয় যার মধ্যে For loop, do... while statement, if… else statement উল্লেখযোগ্য।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204706,
+    "question": "What is the time complexity to count the number of elementts in the liked list?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(logn)",
+      "O(nlogn)"
+    ],
+    "correct_answer": "O(n)",
+    "explanation": "🔖Linked List হল একটি Linear Search algorithm যার Complexity হল O(n). সুতরাং O(n) অপশনটি সঠিক।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204707,
+    "question": "Create table employee (name varcher, id integer)",
+    "options": [
+      "DML",
+      "DDL",
+      "View",
+      "Integrity constraing"
+    ],
+    "correct_answer": "DDL",
+    "explanation": "CREATE TABLE employee (name varchar, id integer), is a Data Definition Language (DDL) statement. Specifically, it\\\"s a CREATE TABLE statement, which is used to define the structure of a new table in a database. This statement defines a table named \"employee\" with two columns: \"name\" which is a string (varchar) and \"id\" which is an integer.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204708,
+    "question": "The _______clause is used to list the attributes desired in the result of a query.",
+    "options": [
+      "Where",
+      "select",
+      "From",
+      "Distint"
+    ],
+    "correct_answer": "select",
+    "explanation": "The SELECT clause is used to list the attributes (columns) desired in the result of a query. It specifies which columns from the database table(s) should be included in the output.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204709,
+    "question": "In SQL_____, aggregate function can be used in the select list or the _____clause of a select statement of sub query. They cannot be used in a _____clause.",
+    "options": [
+      "where, having",
+      "having, where",
+      "Group by, having",
+      "Group by, where"
+    ],
+    "correct_answer": "Group by, where",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204710,
+    "question": "The data structure required to check whether an expression contains balanced parenthesis is?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Array",
+      "Tree"
+    ],
+    "correct_answer": "Stack",
+    "explanation": "🔖The data structure required to check whether an expression contains balanced parenthesis is a stack.<br/>This is a simple data structure in which elements can be added and removed in a specific order. In other words, it follows a LIFO or a FILO structure.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204711,
+    "question": "Which of the following is false about a binary search tree?",
+    "options": [
+      "The left child is always lesser than its parent",
+      "The right child is always greater than its parent",
+      "The left and right sub-should also be binary search trees",
+      "Either the left of the right sub- tree should be be binary search tree but not both."
+    ],
+    "correct_answer": "Either the left of the right sub- tree should be be binary search tree but not both.",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204712,
+    "question": "Which of the following is a valid declaration of an object of class Box?",
+    "options": [
+      "\"Box obhj -new BOx();",
+      "Box obj=new Box;",
+      "obj=new Box();",
+      "new Box obj;"
+    ],
+    "correct_answer": "\"Box obhj -new BOx();",
+    "explanation": "The valid declaration of an object of class Box is: Box obj = new Box();. <br/>Explanation: <br/>Box: This specifies the class name, indicating that the object being created will be of type Box.<br/>obj: This is the variable name given to the newly created object.<br/>new Box(): This part uses the new keyword to allocate memory for the object and call the Box class\\\"s constructor.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204713,
+    "question": "What is the process of defining two or more methods within the same class that have same name but different parameters declaration?",
+    "options": [
+      "method overding",
+      "method overloading",
+      "method hiding",
+      "method duplication"
+    ],
+    "correct_answer": "method overloading",
+    "explanation": "The process of defining two or more methods with the same name but different parameter declarations within the same class is called method overloading. This allows a class to have multiple methods that perform similar tasks but handle different types or numbers of input parameters.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204714,
+    "question": "The main program in an operating system is called:",
+    "options": [
+      "Kernel",
+      "file manager",
+      "Directly",
+      "NOS"
+    ],
+    "correct_answer": "Kernel",
+    "explanation": "🔖An Operating System (OS) is an interface between a computer user and computer hardware.<br/>An operating system is a software which performs all the basic tasks like file management, memory management, process management, handling input and output, and controlling peripheral devices such as disk drives and printers.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204715,
+    "question": "Which of the following sends packes over uproteced stream",
+    "options": [
+      "OSL",
+      "NAT",
+      "TCP",
+      "UDP"
+    ],
+    "correct_answer": "NAT",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204716,
+    "question": "\"Pushing an elemnt into stack already having five elements and stack size of 5, results in ",
+    "options": [
+      "\"Overflow",
+      "\"Crash",
+      "\"Underflow",
+      "\"User flow"
+    ],
+    "correct_answer": "\"Overflow ",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204717,
+    "question": "When is linear search used/",
+    "options": [
+      "When the list has only a few elements",
+      "When performing a single earch in an unordered list",
+      "Used all the time",
+      "When list has only a few elements and when performing a single search in an underdone ist"
+    ],
+    "correct_answer": "When list has only a few elements and when performing a single search in an underdone ist",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204718,
+    "question": "A grapgh having an edge from vertex to every other vertex is called.",
+    "options": [
+      "\"Lightly connected",
+      "\"Strongly connected",
+      "\" Weakly connected",
+      "\" Loosely connected"
+    ],
+    "correct_answer": "\"Lightly connected",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204719,
+    "question": "Quickrt can be categorized as",
+    "options": [
+      "Brute Force technique",
+      "Divide and Conquer",
+      "Greedy algorithm",
+      "Dynamic programming"
+    ],
+    "correct_answer": "Divide and Conquer",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204720,
+    "question": "Which of the following doesn't requirement an & for the input in Scant()?",
+    "options": [
+      "\"char name [10].",
+      "\"int name [10];",
+      "\"float name [10];",
+      "\"double name [10];"
+    ],
+    "correct_answer": "\"char name [10].",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  },
+  {
+    "id": 204721,
+    "question": "A picnic atracts 240 persons. There are 20 more men than women and 20 more adults than children. How many men are at this picnic?",
+    "options": [
+      "250",
+      "75",
+      "110",
+      "200"
+    ],
+    "correct_answer": "75",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+  }
+]

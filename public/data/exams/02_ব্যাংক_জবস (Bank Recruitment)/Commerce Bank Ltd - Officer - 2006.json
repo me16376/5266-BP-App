@@ -1,0 +1,1683 @@
+[
+  {
+    "id": 189347,
+    "question": "A collection of books went on sale and 2/3 of these were sold for Tk. 2.30 each. None of the 36 remaining books were sold. What was the total amount received for the books that were sold?",
+    "options": [
+      "180",
+      "135",
+      "90",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖Remaining books = 1 - 2/3 = 1/3<br/>1/3 of the books = 36<br/>So, 2/3 of the books = 36 x (2/3) / (1/3) = 72<br/>Then, total amount received from the sold books = 72 x 2.3 = 165.6 TK.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189348,
+    "question": "A gas tank that is 1/3 full requires 6 gallons to make it 5/6 full. What is its full capacity?",
+    "options": [
+      "10 gallons",
+      "6 gallons",
+      "18 gallons",
+      "12 gallons"
+    ],
+    "correct_answer": "12 gallons",
+    "explanation": "🔖1/3 x + 6 = 5/6 x<br/>=> 6 = 1/2 x<br/>∴x = 12",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189349,
+    "question": "10 men survive 24 days on 15 cans of food. How many cans are needed for 8 men to survive 36 days?",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correct_answer": "18",
+    "explanation": "🔖1 men can survive 1 day on= 15/ 10×24 = 15/240 cans<br/>8 men can survive 1 day = 8×15/240= 1/2 cans<br/>8 men can survive for 36 days = 36/2= 18 cans<br/>therefore, 8 men can survive for 36 days = 36/2= 18 cans",
+    "hints": "📖10 জন মানুষের 24 দিনে প্রয়োজন 15 cans<br/>10 জন মানুষের 1 দিনে প্রয়োজন  15/24 cans<br/>10 জন মানুষের 36 দিনে প্রয়োজন ( 15✕ 36)/24<br/>1 জন মানুষের 36 দিনে প্রয়োজন ( 15✕ 36)/(24✕ 10) cans<br/>8 জন মানুষের 36 দিনে প্রয়োজন = (15✕ 36✕ 8)/(24✕ 10) <br/>                                                = 18",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189350,
+    "question": "Harun is twice as old as Jasim, who is three years older than Dina. If Harun's age is five times Dina's age, how old in years is Jasim?",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "8"
+    ],
+    "correct_answer": "5",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189351,
+    "question": "How much interest will Tk. 2000 earn at an annul rate of 8% in one year if the interest is compounded every six months?",
+    "options": [
+      "Tk. 160",
+      "Tk. 163.20",
+      "Tk. 249.73",
+      "Tk. 332.80"
+    ],
+    "correct_answer": "Tk. 163.20",
+    "explanation": "🔖Here, P = 2000 Tk; r = 0.08; n = 1 and m = 2<br/>C = P(1+r/m)n×m<br/>=2000(1+.08/2)1×2<br/>= Tk. 2163.20<br/>Interest is (2163.20 - 2000) = Tk. 163.20",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189352,
+    "question": "If 3 is subtracted from a number, the result is 6 more than twice the number. The number is ---",
+    "options": [
+      "-3",
+      "-9",
+      "3",
+      "9/7"
+    ],
+    "correct_answer": "-9",
+    "explanation": "🔖Let the number be X.<br/>Then, X - 3 = 2X + 6<br/>or, 2X - X = -3 - 6<br/>or, X = -9",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189353,
+    "question": "If 40% of all women are voters, and 52% of the population is women, what percent of the population are women voters?",
+    "options": [
+      "18.1",
+      "20.8",
+      "26.4",
+      "40"
+    ],
+    "correct_answer": "20.8",
+    "explanation": "🔖মনে করি, মোট জনসংখ্যা = 100 জন<br/>Women দের সংখ্যা = 52 জন<br/>Women দের ভোটার সংখ্যা = 52×(40/100)<br/>= 20.8",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189354,
+    "question": "If 8x+8y=64, what is the average of x and y?",
+    "options": [
+      "16",
+      "4",
+      "1"
+    ],
+    "correct_answer": "4",
+    "explanation": "🔖x এবং y এর গড় অর্থাৎ (x+y)/2 এর মান বের করতে হবে ।<br/>এখন, 8x + 8y = 64<br/>=> 8 (x + y) = 64<br/>=> 8(x+y)/16=64/16 [ 16 দ্বারা উভয় পক্ষকে ভাগ করে ]<br/>=> (x+y)/2 = 4",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189355,
+    "question": "If 60% of a rectangular floor is covered by a rectangular rug of 9 feet by 12 feet, what is the area in square feet of the floor?",
+    "options": [
+      "65",
+      "108",
+      "180",
+      "270"
+    ],
+    "correct_answer": "180",
+    "explanation": "🔖Area of rectangular RUG = (base)(height) = (9)(12) =108<br/>This RUG covers 60% of the FLOOR<br/>In other words, 108 = 60% of the area of the FLOOR<br/>Or we can write: 108 = 0.6(area of FLOOR)<br/>So, 108 /0.6 = area of FLOOR<br/>Evaluate to get: 180 = area of FLOOR",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189356,
+    "question": "If b<2 and 2x-3b=0, which of the following must be true?",
+    "options": [
+      "x>-3",
+      "x<2",
+      "x=3",
+      "x<3"
+    ],
+    "correct_answer": "x<3",
+    "explanation": "🔖If b < 2, then multiplying the inequality by 3 yields 3b < 6<br/>Manipulating the equation, we have 2x = 3b; thus:<br/>= 2x < 6<br/>∴x < 3",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189357,
+    "question": "If both length and width of a rectangular plot for a garden are increased by 20%, how many percent of the plot would be increased?",
+    "options": [
+      "20%",
+      "24%",
+      "36%",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖20 + 20 + {(20×20)/100} = 44 [ A + B + {(A×B)/100} এই সূত্রমতে ]",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189358,
+    "question": "If x+5y=16 and x=-3y, then y= ?",
+    "options": [
+      "-24",
+      "-8",
+      "-2",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖x + 5y = 16......... (1)<br/>x = -3y................ (2)<br/>1 নং সমীকরণে x এর মান বসাই<br/>- 3y + 5y = 16<br/>=> 2y = 16<br/>∴y = 8",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189359,
+    "question": "Which one of the following is greater than 2/3?",
+    "options": [
+      "33/50",
+      "8/11",
+      "3/5",
+      "13/27"
+    ],
+    "correct_answer": "8/11",
+    "explanation": "🔖2/3 = .67<br/>33/50 = .66<br/>8/11 = .73<br/>3/5 = .6<br/>13/27 = .48",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189361,
+    "question": "If an inspector rejects 0.08% of a product as defective, how many products will he examine in order to reject 2?",
+    "options": [
+      "1500",
+      "500",
+      "2000",
+      "2500"
+    ],
+    "correct_answer": "2500",
+    "explanation": "🔖Inspector rejects 0.08%<br/>Let there be x meters.<br/>No. if defective maters =0.08% of x<br/>=> 2= (0.08/100)×x<br/>=> (200/0.8) =x<br/>=> x= 20000/8​<br/>∴ x = 2500<br/>∴ Inspector examines 2500 meters and reject 2",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189362,
+    "question": "A train travels at an average speed of 50 miles per hour for 2.5 hour, and then travels at an average speed of 70 miles per hour for 1.5 hours. How far did the train travel in the entire 4 hour?",
+    "options": [
+      "200 miles",
+      "230 miles",
+      "150 miles",
+      "300 miles"
+    ],
+    "correct_answer": "230 miles",
+    "explanation": "🔖The train travelled = 50×2.5 + 70×1.5 = 125 + 105 = 230 miles",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189363,
+    "question": "A motor pool has 300 vehicles of which 30% are trucks. 20% of all the vehicles in the motor pool are diesel, including 15 trucks. What percent of the motor pool is composed of vehicles that are neither trucks nor diesel?",
+    "options": [
+      "165%",
+      "90%",
+      "65%",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖Trucks = 30% of 300 = 90<br/>Other Vehicles (Excluding Trucks) = 300-90 = 210<br/>Diesel Vehicle = 20% of 300 = 60 (Including 15 Trucks)<br/>Other Diesel Vehicles (Excluding Trucks) = 60-15 = 45<br/>Trucks that are NOT diesel = 90 - 15 = 75<br/>Other Vehicles that are NOT diesel Vehicles = 210-45 = 165<br/>Required % = (165/300)×100 = 55%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189364,
+    "question": "After taking 30 socks out of the dryer. Dina noticed that the ratio of blue socks to brown socks to black socks was 2 : 3 : 5. How many black socks were in the dryer?",
+    "options": [
+      "21",
+      "15",
+      "9",
+      "6"
+    ],
+    "correct_answer": "15",
+    "explanation": "🔖অনুপাতের যোগফল = (2+3+5) = 10<br/>Black মোজার সংখ্যা = 30 ×(5/10) = 15 টি",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189365,
+    "question": "Tina rented a rickshaw for Tk. 18 plus Tk. 0.10 per km. ruby rented another rickshaw for Tk. 25 plus Tk. 0.05 per km. If each move d km. and paid exactly the same amount of rental, the d equals.",
+    "options": [
+      "100",
+      "120",
+      "135",
+      "140"
+    ],
+    "correct_answer": "140",
+    "explanation": "🔖প্রথম Rickshaw এর ক্ষেত্রে মোট ভাড়া = 18 + ( d × 0.10) = 18 + 0.10d টাকা<br/>দ্বিতীয় Rickshaw এর ক্ষেত্রে মোট ভাড়া = 25 + ( d × 0.05) = 25 + 0.5d টাকা<br/>প্রশ্নমতে, 18 + 0.10d = 25 + 0.05d 0.05d = 7<br/>d = 7/0.05<br/>= 7/(5/100)<br/>= (7×100)/5<br/>= 140 কিমি",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189366,
+    "question": "To avoid paying a toll on a direct road, I go west 10 miles, south 5 miles, west 30 miles and north 35 miles. What is the length of the toll road",
+    "options": [
+      "30",
+      "45",
+      "50",
+      "70"
+    ],
+    "correct_answer": "50",
+    "explanation": "🔖I drive west 10 miles, south 5 miles, west 30 miles, and north 35 miles=west 40 miles, north 30<br/>so we get, (30)²+(40)²=n²<br/>or,900+1600=n²<br/>or,2500=n²<br/>∴n=50 or -50<br/>Throwing out the negative answer, we get the distance to be 50 miles<br/>ans: 50 miles",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189367,
+    "question": "The length of a rectangle is increased by 50%, by what percent would the width have to be decreased to maintain sane area?",
+    "options": [
+      "33.33",
+      "50",
+      "66.67",
+      "150"
+    ],
+    "correct_answer": "33.33",
+    "explanation": "🔖Let, the length of the rectangle be x cm and the breadth of the rectangle y cm<br/>Therefore area of the rectangle = x * y = xy cm²<br/>as the length is increased by 50%<br/>∴ length = x + 50% of x<br/>= x + 50/100 *x<br/>= x + x/2<br/>= 3x/2<br/>Given that area is constant<br/>so, xy = 3x/2 * breadth<br/>breadth = 2xy/3x = 2y/3 cm<br/>Percentage of increase in breadth = decrease in breadth/original breadth *100<br/>= (y - 2y/3)/y * 100<br/>= {(3y - 2y) / 3}/y*100<br/>= y/3y *100<br/>= 100/3<br/>= 33.333%<br/>The breadth is decreased by 33.333% (Ans)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189368,
+    "question": "C is the midpoint of the line segment AE, B and D are on the line segment AE so that AB=BC and CD=DE, what percentage of AC is AD?",
+    "options": [
+      "160",
+      "150",
+      "166",
+      "133"
+    ],
+    "correct_answer": "150",
+    "explanation": "🔖A হচ্ছে 40%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189369,
+    "question": "How many spokes are there in a wheel of a car, if any two spokes form an angle if 15 degree?",
+    "options": [
+      "12",
+      "15",
+      "22",
+      "24"
+    ],
+    "correct_answer": "24",
+    "explanation": "🔖All the spokes will form a total angle of 360°. Two consecutive spokes form an angle of 15° but every spoke takes part in forming two such angles. So, the number of spokes will be equal to the number of 15° angles formed.<br/>So, the number of spokes will be = 360/15 = 24",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189370,
+    "question": "A line segment is drawn from point (8, -2) to point (4, 6). The coordinates of the midpoint of this line segment are ---",
+    "options": [
+      "(12, 4)",
+      "(12, 8)",
+      "(6, 4)",
+      "(6, 2)"
+    ],
+    "correct_answer": "(6, 2)",
+    "explanation": "🔖Coordinates of the midpoint of a line segment made by joining two points are the averages of the respective coordinates of the two points.<br/>So, coordinate of the midpoint is {(8+4)/2 , (-2+6)/2} = (6,2)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189371,
+    "question": "Point P in on line segment AB, which of the following is always true?",
+    "options": [
+      "AP=PB",
+      "AP>PB",
+      "PB>AP",
+      "AB>AP"
+    ],
+    "correct_answer": "AB>AP",
+    "explanation": "🔖\\( 6{c}_{1}\\times 1!+6{c}_{2}\\times 2!+6{c}_{3}\\times 3!+6{c}_{4}\\times 4!+6{c}_{5}\\times 5!+6{c}_{6}\\times 6!=1956 \\)<br/>যেহেতু one or more at a time বলছে তাই নিজেদের মধ্যে ও factorial দিয়ে গুণ হয়েছে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189372,
+    "question": "To avoid paying a toll on a direct road, I drive west 10 miles, south 5 miles, west 30 miles and north 35 miles. What is the length of the toll road?",
+    "options": [
+      "30",
+      "45",
+      "50",
+      "70"
+    ],
+    "correct_answer": "50",
+    "explanation": "🔖I drive west 10 miles, south 5 miles, west 30 miles, and north 35 miles=west 40 miles, north 30<br/>so we get, (30)²+(40)²=n²<br/>or,900+1600=n²<br/>or,2500=n²<br/>∴n=50 or -50<br/>Throwing out the negative answer, we get the distance to be 50 miles<br/>ans: 50 miles",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189374,
+    "question": "A small factory with 3 machines has a job of stamping out a number of pan covers. The newest machine can do the job is 3 days, another machine can do it in 4 days, and the third machine can do it in 6 days. How many days will the factory take to do the job using all the machine?",
+    "options": [
+      "1.333",
+      "4.333",
+      "6",
+      "13"
+    ],
+    "correct_answer": "1.333",
+    "explanation": "🔖First machine can finish stamping out 1/3 of the pan covers in 1 day<br/>Second machine can finish stamping out 1/4 of the pan covers in 1 day<br/>Third machine can finish stamping out 1/6 of the pan covers in 1 day<br/>Together they can finish (1/3+1/4+1/6=) 9/12 = 3/4 of the pan covers in 1 day.<br/>So, they can finish stamping all of the pan covers in 3/4 = 1.33 days",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189635,
+    "question": "The Richter scale is used for measuring.",
+    "options": [
+      "Tsunami",
+      "Flood",
+      "Hurricane",
+      "Earthquake"
+    ],
+    "correct_answer": "Earthquake",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189636,
+    "question": "In year 2005, two Australians have won the Nobel Prize in medicine for discovering causes of ---",
+    "options": [
+      "heart Disease",
+      "Breast Cancer",
+      "Stomach Ulcer",
+      "Iung Cancer"
+    ],
+    "correct_answer": "Stomach Ulcer",
+    "explanation": "🔖Two Australian scientists who upset medical dogma by discovering a bacterium that causes stomach inflammation, ulcers and cancer won the 2005 Nobel Prize for Physiology or Medicine yesterday.<br/>The winners were Dr. Barry J. Marshall, 54, a gastroenterologist from the University of Western Australia in Nedlands, and Dr.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189637,
+    "question": "Blue chip is --",
+    "options": [
+      "A first class equity share",
+      "A extremely risky equity share",
+      "Used in color televisions",
+      "Used in mobile phones"
+    ],
+    "correct_answer": "A first class equity share",
+    "explanation": "🔖A blue chip is a nationally recognized, well-established, and financially sound company.<br/>Blue-chip companies are known to weather downturns and operate profitably in the face of adverse economic conditions, which helps to contribute to their long record of stable and reliable growth.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189638,
+    "question": "A citrus fruit means that the fruit is rich in ----",
+    "options": [
+      "Carbohydrate",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin A"
+    ],
+    "correct_answer": "Vitamin C",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189639,
+    "question": "Bird Flu is caused by ----",
+    "options": [
+      "Migratory birds",
+      "Sparrow",
+      "Crow",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189640,
+    "question": "Bishad Shindhu was written by ----",
+    "options": [
+      "Akbar Hossain",
+      "Emperor Shajahan",
+      "Man Singh",
+      "Mir Musharraf Hossain"
+    ],
+    "correct_answer": "Mir Musharraf Hossain",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189641,
+    "question": "What is the name of earth's moon?",
+    "options": [
+      "Europa",
+      "Lexton",
+      "Luna",
+      "Titan"
+    ],
+    "correct_answer": "Luna",
+    "explanation": "🔖Earth has one moon.<br/>We call it \"the Moon\" because for a long time it was the only one we knew about. Many languages have beautiful words for Moon.<br/>It is \"Luna\" in Italian, Latin and Spanish, \"Lune\" in French, \"Mond\" in German, and \"Selene\" in Greek.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189642,
+    "question": "Which of the followings is not a component of oral saline?",
+    "options": [
+      "Milk",
+      "Sugar",
+      "Water",
+      "Salt"
+    ],
+    "correct_answer": "Milk",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189644,
+    "question": "Which of the following is a computer operating system?",
+    "options": [
+      "Linux",
+      "C++",
+      "Java",
+      "Oracle"
+    ],
+    "correct_answer": "Linux",
+    "explanation": "🔖The three most common operating systems for personal computers are Microsoft Windows, macOS, and Linux.<br/>Modern operating systems use a graphical user interface, or GUI (pronounced gooey).",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189645,
+    "question": "The name Margaret Thatcher relates to ---",
+    "options": [
+      "Information Technology",
+      "Politics",
+      "Book",
+      "Space technology"
+    ],
+    "correct_answer": "Politics",
+    "explanation": "🔖She was the longest-serving British prime minister of the 20th century and the first woman to hold that office.<br/>A Soviet journalist dubbed her the \"Iron Lady\", a nickname that became associated with her uncompromising politics and leadership style.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189646,
+    "question": "The head of the first 'caretaker government' in Bangladesh was ----",
+    "options": [
+      "Latifur Rahman",
+      "Abdur Rahman",
+      "Abdur Rauf Chowdhury",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖Fakhruddin Ahmed (born 1 May 1940) is a Bangladeshi economist, civil servant, and a former governor of the Bangladesh Bank, the country's central bank.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189647,
+    "question": "Which country was the first to recognize Bangladesh as an Independent Nation?",
+    "options": [
+      "Bhutan",
+      "India",
+      "USSR",
+      "USA"
+    ],
+    "correct_answer": "Bhutan",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189648,
+    "question": "Anopheles mosquito causes which of the following diseases?",
+    "options": [
+      "Dengue",
+      "Malaria",
+      "Typhoid",
+      "Cholera"
+    ],
+    "correct_answer": "Malaria",
+    "explanation": "✐ 🔖Other diseases transmitted by Anopheles mosquitoes: Apart from malaria, anopheles mosquitoes are also known to transmit W. bancrofti (filarial worm); the Timorese filaria, Brugia timori; several arboviruses including eastern and western equine encephalitis, Venezualan equine encephalitis, onyong-nyong, tataguine etc.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189649,
+    "question": "2012 summer Olympic game will be held in ----",
+    "options": [
+      "New York",
+      "London",
+      "Paris",
+      "Madrid"
+    ],
+    "correct_answer": "London",
+    "explanation": "The 2012 Summer Olympics, officially the Games of the XXX Olympiad[a] and also known as London 2012, were an international multi-sport event held from 27 July to 12 August 2012 in London, England, United Kingdom. The first event, the group stage in women\\\"s football, began on 25 July at the Millennium Stadium in Cardiff, Wales, followed by the opening ceremony on 27 July. There were 10,518 athletes from 206 National Olympic Committees (NOCs) who participated in the 2012 Olympics",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189650,
+    "question": "Which city has the largest population?",
+    "options": [
+      "New York",
+      "London",
+      "Tokyo",
+      "Dhaka"
+    ],
+    "correct_answer": "Tokyo",
+    "explanation": "<p><span style=\"font-size: 1rem;\">As of the latest available data, Tokyo, Japan, holds the distinction of being the city with the largest population. The Tokyo metropolitan area, also known as Greater Tokyo, has a population exceeding 37 million people, making it the most populous urban area in the world.</span></p>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189651,
+    "question": "With which device are earthquakes recorded?",
+    "options": [
+      "Barometer",
+      "Oscillator",
+      "Voltmeter",
+      "Seismograph"
+    ],
+    "correct_answer": "Seismograph",
+    "explanation": "✐ 🔖A seismograph is the device that scientists use to measure earthquakes.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189652,
+    "question": "Windows is a computer software developed by ----",
+    "options": [
+      "IBM",
+      "Microsoft Corporation",
+      "Hewlett Packard",
+      "UNIX"
+    ],
+    "correct_answer": "Microsoft Corporation",
+    "explanation": "🔖Microsoft Windows, also called Windows and Windows OS, computer operating system (OS) developed by Microsoft Corporation to run personal computers (PCs).<br/>Featuring the first graphical user interface (GUI) for IBM-compatible PCs, the Windows OS soon dominated the PC market.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189653,
+    "question": "The longest day is in the month of ---",
+    "options": [
+      "April",
+      "May",
+      "June",
+      "July"
+    ],
+    "correct_answer": "June",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189654,
+    "question": "Which is the world's largest country in land area?",
+    "options": [
+      "China",
+      "Canada",
+      "Russia",
+      "Brazil"
+    ],
+    "correct_answer": "Russia",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189655,
+    "question": "A universal donor is a person having blood group of ----",
+    "options": [
+      "A+",
+      "B+",
+      "C+",
+      "O+"
+    ],
+    "correct_answer": "O+",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189656,
+    "question": "Which country does not have access to sea?",
+    "options": [
+      "Thailand",
+      "France",
+      "Japan",
+      "Afghanistan"
+    ],
+    "correct_answer": "Afghanistan",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189657,
+    "question": "What is the world's largest island?",
+    "options": [
+      "Maldives",
+      "Greenland",
+      "Alaska",
+      "Hawaii"
+    ],
+    "correct_answer": "Greenland",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189658,
+    "question": "What do you understand by the term Call Money?",
+    "options": [
+      "Inter-bank short-term lending and borrowing",
+      "borrowing from central bank",
+      "Lending by commercial banks to insurance companies",
+      "Lending by leasing companies to industrial sector"
+    ],
+    "correct_answer": "Inter-bank short-term lending and borrowing",
+    "explanation": "🔖Call money is a short-term, interest-paying loan from one to 14 days made by a financial institution to another financial institution.<br/>. The interest charged on a call loan between financial institutions is referred to as the call loan rate.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189659,
+    "question": "First Atom Bomb has dropped on ----",
+    "options": [
+      "Germany",
+      "Japan",
+      "Italy",
+      "Austria"
+    ],
+    "correct_answer": "Japan",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189660,
+    "question": "Martina Hingis is a ----",
+    "options": [
+      "Movie actress",
+      "Singer",
+      "Tennis Player",
+      "Writer"
+    ],
+    "correct_answer": "Tennis Player",
+    "explanation": "🔖Martina Hingis is a Swiss former professional tennis player.<br/>She spent a total of 209 weeks as the singles world No. 1 and 90 weeks as doubles world No. 1, holding both No. 1 rankings simultaneously for 29 weeks.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189661,
+    "question": "Hepatitis ----C increases the risk of ---",
+    "options": [
+      "Blood Cancer",
+      "Stomach Cancer",
+      "Liver Cancer",
+      "HIV AIDS"
+    ],
+    "correct_answer": "Liver Cancer",
+    "explanation": "🔖Chronic hepatitis C virus (HCV) increases the risk of chronic kidney disease (CKD) while effective HCV treatment decreases the incidence of CKD.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189662,
+    "question": "Which of the followings is not a part of milk?",
+    "options": [
+      "Proteins",
+      "Carbohydrate",
+      "Sugar",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189664,
+    "question": "When you deposit money in a bank, you are ----",
+    "options": [
+      "taking credit from it",
+      "earning money",
+      "lending it money",
+      "creating money"
+    ],
+    "correct_answer": "lending it money",
+    "explanation": "🔖Deposit শব্দের অর্থ আমানত । সুদ লাভের আশায় ব্যাংকে জমানো অর্থই হলো Deposit বা আমানত । কোনো ব্যক্তি ব্যাংকে অর্থ আমানত রাখলে সে এর বিনিময়ে নির্দিষ্ট হারে সুদ পায় । তাই উত্তর হবে ‘c’।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189665,
+    "question": "Which country does not belong to the group of G-8 countries?",
+    "options": [
+      "Japan",
+      "China",
+      "USA",
+      "Canada"
+    ],
+    "correct_answer": "China",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189666,
+    "question": "What is the largest living bird?",
+    "options": [
+      "Ostrich",
+      "Eagle",
+      "Hawk",
+      "Swan"
+    ],
+    "correct_answer": "Ostrich",
+    "explanation": "The largest bird is the Struthio, also referred to as the ostrich. They are the largest of all the birds in terms of weight, with males reaching 220 to 287 pounds and standing 6.9 to 9 feet tall.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189696,
+    "question": "Select the pair of words that best expresses a relationship similar to that expressed in the pair if world in capital letters. REFLECTION : LIGHT",
+    "options": [
+      "emotion : feeling",
+      "echo : sound",
+      "film : scene",
+      "Microphone : hearing"
+    ],
+    "correct_answer": "echo : sound",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189714,
+    "question": "Select the one word or phrase that best completes the sentence. Mr. Mehedi welcomed the delegates ----the conference.",
+    "options": [
+      "into",
+      "to",
+      "at",
+      "in"
+    ],
+    "correct_answer": "to",
+    "explanation": "🔖Welcome এর পরে to বসে । এখানে মেহেদী প্রতিনিধি দলকে কনফারেন্সে স্বাগত জানাচ্ছে বলে Welcome to হবে ।<br/>অনুবাদঃ জনাব মেহেদী প্রতিনিধি দলকে সম্মেলনে স্বাগত জানালেন ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189715,
+    "question": "Select the one word or phrase that best completes the sentence. You must ask apology ----him -----your rudeness.",
+    "options": [
+      "to, of",
+      "at, for",
+      "to, for",
+      "with, by"
+    ],
+    "correct_answer": "to, for",
+    "explanation": "🔖Apology to মানে কারো কাছে ক্ষমা প্রার্থনা করা । আর এই ক্ষমা প্রার্থনা করা হচ্ছে Rudeness বা খারাপ ব্যবহারের জন্য । তাই Rudeness এর আগে for বসবে । এ কারণে to, for সঠিক ।<br/>বাক্যের অর্থঃ তোমাকে অবশ্যই তোমার রূঢ় ব্যবহারের জন্য তার কাছে ক্ষমা চাইতে হবে ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189716,
+    "question": "Select the one word or phrase that best completes the sentence. I can give you no assurance -----help.",
+    "options": [
+      "for",
+      "of",
+      "about",
+      "to"
+    ],
+    "correct_answer": "of",
+    "explanation": "🔖কোন কিছুর নিশ্চয়তা প্রদান করা বোঝাতে Assurance এর পর of বসে ।<br/>বাক্যের অর্থঃ আমি তোমাকে সাহায্যের জন্য কোন নিশ্চয়তা দিতে পারি না ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189717,
+    "question": "Select the one word or phrase that best completes the sentence. The principal had an inquiry -----the case.",
+    "options": [
+      "at",
+      "in",
+      "to",
+      "into"
+    ],
+    "correct_answer": "into",
+    "explanation": "🔖Inquiry into মানে কোন বিষয়ের তদন্ত করা । এখানে অধ্যক্ষ Case বা ঘটনাটির তদন্ত করেছিলেন বলে Inquiry এর পরে Into হবে । Into যোগে বাক্যটির বাংলা অধ্যক্ষ ঘটনাটির তদন্ত করেছিলেন ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189718,
+    "question": "Select the one word or phrase that best completes the sentence. The traditional method of rich cultivation leads -----a yield ----about 700 kg/acre of Amon paddy.",
+    "options": [
+      "to, for",
+      "to, of",
+      "on, of",
+      "for, of"
+    ],
+    "correct_answer": "to, of",
+    "explanation": "🔖Lead পরে Preposition হিসেবে to বসে; যার অর্থ কোনো কিছু ঘটানো । আর এক্ষেত্রে Yield এর পরে Preposition হিসেবে of বসে; যার অর্থ উৎপাদন করা।<br/>সঠিক বাক্যঃ The traditional method of rice cultivation leads to a yield of about 700 kg./acre of Amon paddy.<br/>বাক্যের অর্থঃ চাল চাষের প্রচলিত পদ্ধতি প্রতি একরে প্রায় ৭০০ কেজি আমন ধান উৎপাদন করে ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189719,
+    "question": "Select the one word or phrase that best completes the sentence. On the night before the exam, she was seen pouring ---the books.",
+    "options": [
+      "into",
+      "through",
+      "over",
+      "in"
+    ],
+    "correct_answer": "over",
+    "explanation": "🔖pore over - সতর্কতার/নিবিষ্টভাবে সাথে (বই) পড়া ।<br/>On the night before the exam, she was seen poring over the books.<br/>বাক্যের অর্থঃ পরীক্ষার আগের রাতে তাকে নিবিষ্টভাবে বই পড়তে দেখা গিয়েছিল ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189720,
+    "question": "Select the one word or phrase that best completes the sentence. The jacket costs ----.",
+    "options": [
+      "too much",
+      "too many",
+      "many",
+      "expensive"
+    ],
+    "correct_answer": "too much",
+    "explanation": "🔖অনেক বেশি বোঝাতে too এবং uncountable noun-এর আগে much বসে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189721,
+    "question": "Select the one word or phrase that best completes the sentence. He was so exhausted that he decided to ----down for a while.",
+    "options": [
+      "lay",
+      "laid",
+      "lie",
+      "lied"
+    ],
+    "correct_answer": "lie",
+    "explanation": "🔖Lie down for a while মানে কিছুক্ষণের জন্য বিশ্রাম নেওয়া এবং Laid down অর্থ উৎসর্গ করা । এখানে সে যেহেতু অনেক ক্লান্ত ছিল, তাই সে কিছুক্ষণের জন্য বিশ্রাম নিয়েছে । এ কারণে Lie down for a while হয়েছে ।<br/>বাক্যটির বাংলা: সে এত ক্লান্ত ছিলো যে, সে কিছুক্ষণের জন্য বিশ্রাম নেয়ার সিদ্ধান্ত নিল।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189722,
+    "question": "Select the one word or phrase that best completes the sentence. My hobby is different -----her hobby.",
+    "options": [
+      "than",
+      "to",
+      "with",
+      "from"
+    ],
+    "correct_answer": "from",
+    "explanation": "🔖Different from - পৃথক, আলাদা, ভিন্ন ।<br/>From যোগে বাক্যটির বাংলা আমার শখ তার শখের চেয়ে ভিন্ন।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189723,
+    "question": "Select the one word or phrase that best completes the sentence. Onion prices have ------too much this month.",
+    "options": [
+      "raised",
+      "risen",
+      "rise",
+      "rose"
+    ],
+    "correct_answer": "risen",
+    "explanation": "🔖বৃদ্ধি পাওয়া অর্থে rise এর past participle risen হয়। সঠিক বাক্য -<br/>Onion prices have risen too much this month.<br/>অনুবাদঃ পিয়াজের মূল্য এ মাসে অত্যাধিক বৃদ্ধি পেয়েছে ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189724,
+    "question": "Select a word having the opposite meaning. SCARCITY",
+    "options": [
+      "abundance",
+      "mediocre",
+      "remote",
+      "little"
+    ],
+    "correct_answer": "abundance",
+    "explanation": "🔖scarcity - অভাব, ঘাটতি।<br/>abundance - প্রাচুর্য।<br/>mediocre - মাঝারি রকমের।<br/>remote - দূরবর্তী।<br/>little - অল্প।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189725,
+    "question": "Identify the incorrect part of the following sentences. He 'didn't' know 'that' it 'was' 'me' who did it. 'No error'",
+    "options": [
+      "didn't",
+      "that",
+      "was",
+      "me"
+    ],
+    "correct_answer": "me",
+    "explanation": "🔖Me এর বদলে Me শব্দটির Subjective case হিসেবে I হবে ।<br/>সঠিক বাক্যঃ He didn't know that it was I who did it.<br/>বাক্যের অর্থঃ তিনি জানতেন না যে আমিই এটা করেছিলাম ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189726,
+    "question": "Identify the incorrect part of the following sentences. It must 'have' 'been' 'her' at 'the door'. 'No error'",
+    "options": [
+      "have",
+      "been",
+      "her",
+      "the door"
+    ],
+    "correct_answer": "her",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189727,
+    "question": "Identify the incorrect part of the following sentences. No 'sooner' 'had' he arrived 'then' the rain 'started' 'No error'",
+    "options": [
+      "sooner",
+      "had",
+      "then",
+      "No error"
+    ],
+    "correct_answer": "then",
+    "explanation": "🔖No sooner had –than এর প্রথম অংশে past perfect tense অনুযায়ী হয় অর্থাৎ verb এর past participle form হবে । দ্বিতীয় অংশে past Indefinite tense অনুযায়ী হয় অর্থাৎ verb এর past form হয় ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189728,
+    "question": "Identify the incorrect part of the following sentences. Not 'one' of the children 'has ever performed' in 'public' 'before' 'No error'",
+    "options": [
+      "one",
+      "has ever performed",
+      "public",
+      "before"
+    ],
+    "correct_answer": "one",
+    "explanation": "🔖বাক্যটিতে Subject হলো One যা 3rd person singular number. তাই Verb হিসেবে অপশন Have না হয়ে Has হবে ।<br/>সঠিক বাক্যঃ Not one of the children has even performed in public before.<br/>বাক্যের অর্থঃ ছেলে-মেয়েদের কেউই জনগণের সামনে আগে কখনো পারফর্ম করেনি ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189729,
+    "question": "Identify the incorrect part of the following sentences. Not 'only' he 'cheated' in the exam 'but also' he argued 'at' the teacher, 'No error'",
+    "options": [
+      "only",
+      "cheated",
+      "but also",
+      "at"
+    ],
+    "correct_answer": "at",
+    "explanation": "🔖Argue with মানে কারো সাথে তর্ক করা বা রাগান্বিত হয়ে কথা বলা । যেহেতু এখানে Argued এর পরে at আছে, তাই Argue এরপরে at এর পরিবর্তে With বসবে ।<br/>বাক্যের অর্থঃ সে শুধু পরীক্ষার হলে নকলই করল না, শিক্ষকের সাথে রূঢভাবে তর্কও করল ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189730,
+    "question": "Identify the incorrect part of the following sentences. Cholera 'is' a very 'common disease' which 'usually ' 'effects' chidren. 'No error'",
+    "options": [
+      "is",
+      "common disease",
+      "usually",
+      "effects"
+    ],
+    "correct_answer": "effects",
+    "explanation": "🔖effects (noun) প্রভাব এর স্থলে affects (verb) প্রভাব ফেলা বসবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189731,
+    "question": "Identify the incorrect part of the following sentences. The price of 'crude' oil 'used' to be a 'great' deal 'low' than now 'No error'",
+    "options": [
+      "crude",
+      "used",
+      "great",
+      "low"
+    ],
+    "correct_answer": "low",
+    "explanation": "🔖দেখুন বাক্যের শেষ শব্দ Now এর আগে Than আছে; যা Comparative degree প্রকাশ করে । তাই A great deal এরপর Low না হয়ে Low এর Comparative degree হিসেবে Lower হবে ।<br/>বাক্যের অর্থঃ Crude oil এর দাম বর্তমানের চেয়েও পূর্বে কম ছিল ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189732,
+    "question": "Identify the incorrect part of the following sentences. Mr. Ashfaq lived 'in' Dhaka 'since' 1960 to 1975 'but' he is 'now living' in sylhet. 'No error'",
+    "options": [
+      "in",
+      "since",
+      "but",
+      "now living"
+    ],
+    "correct_answer": "since",
+    "explanation": "🔖Since এবং For দুটিই ব্যবহার সময়-সংশ্লিষ্ট কথা বলার জন্য করা হয়। Since এটা বলে যে কোন ঘটনা কখন থেকে শুরু হয়ছে। এর ব্যবহার কোন ঘটনার (activity) শুরুর সময় করা হয়। এটা কাজের শুরুর সময়কে প্রকাশিত করে।<br/>For কোন কাজের বা ঘটনার কালকে প্রদর্শিত করে এটি বলে ঘটনা কতক্ষণ পর্যন্ত চলেছে।<br/>1960 to 1975 দ্বারা আসলে কোন সময় থেকে শুরু হয়ে কোন সময় পর্যন্ত ঘটনাটি চলেছে তার কথা বলা হয়েছে, তাই এই বাক্যে Since এর পরিবর্তে From হবে ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189733,
+    "question": "Identify the incorrect part of the following sentences. Suriya was upset 'last' night 'because' she 'had to do' 'too many home works', 'No error'",
+    "options": [
+      "last",
+      "because",
+      "had to do",
+      "too many home works"
+    ],
+    "correct_answer": "too many home works",
+    "explanation": "🔖too many home works এর স্থলে too much homework বসবে। কারণ homework হচ্ছে uncountable noun, এর পূর্বে much বসে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189734,
+    "question": "Identify the incorrect part of the following sentences. It 'is' often 'difficulty' for 'an' individual to 'adjust' to new environment. 'No error'",
+    "options": [
+      "is",
+      "difficulty",
+      "an",
+      "adjust"
+    ],
+    "correct_answer": "difficulty",
+    "explanation": "🔖Is এর পরে Often আছে যা Adverb; তাই Often এরপরে আর একটি Adverb হিসেবে Difficulty টি না বসে বরং Adjective হিসেবে Difficult বসবে ।<br/>বাক্যের অর্থঃ নতুন পরিবেশে খাপ খাইয়ে নেয়াটা কোন ব্যক্তির জন্য প্রায়ই কষ্টকর/কঠিন হয়ে পড়ে ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189735,
+    "question": "Select the pair of words that best expresses a relationship similar to that expressed in the pair if world in capital letters. INVENTORY : STOCK",
+    "options": [
+      "calculation : ledger",
+      "poll : balloting",
+      "petition : names",
+      "census : population"
+    ],
+    "correct_answer": "census : population",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189736,
+    "question": "Select a word having the opposite meaning. SPACIOUS",
+    "options": [
+      "typical",
+      "norrow",
+      "golden",
+      "genuine"
+    ],
+    "correct_answer": "norrow",
+    "explanation": "🔖spacious - বিস্তৃত; প্রশস্ত।<br/>typical - প্রতিনিধিত্বকারী।<br/>narrow - সংকীর্ণ ।<br/>golden - সোনালী।<br/>genuine - খাঁটি।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189737,
+    "question": "Select a word having the opposite meaning. MAGNIFY",
+    "options": [
+      "forgive",
+      "extract",
+      "reduce",
+      "electrify"
+    ],
+    "correct_answer": "reduce",
+    "explanation": "🔖magnify - বিবর্ধিত করা।<br/>forgive - ক্ষমা।<br/>extract - নির্যাস।<br/>reduce - কমানো।<br/>electrify - বিদ্যুতায়িত করা।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189738,
+    "question": "Select a word having the opposite meaning. STABILITY",
+    "options": [
+      "disparity",
+      "inconsistency",
+      "carelessness",
+      "weariness"
+    ],
+    "correct_answer": "inconsistency",
+    "explanation": "🔖stability - স্থায়িত্ব ।<br/>disparity - অসাম্য।<br/>inconsistency - অসংগতি ।<br/>carelessness - অমনোযোগিতা।<br/>weariness - ক্লান্তি।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189739,
+    "question": "Select a word having the opposite meaning. OUTSET",
+    "options": [
+      "regression",
+      "termination",
+      "series",
+      "exit"
+    ],
+    "correct_answer": "termination",
+    "explanation": "🔖outset - আরম্ভ, শুরু, সূত্রপাত।<br/>regression - পশ্চাদগতি।<br/>termination - সমাপ্তি, শেষ, সমাপন ।<br/>series - ধারা, ধারাবাহিকতা।<br/>exit - প্রস্থান।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189740,
+    "question": "Select a word having the opposite meaning. CONSOLIDATION",
+    "options": [
+      "restriction",
+      "fragmentation",
+      "opposition",
+      "provication"
+    ],
+    "correct_answer": "fragmentation",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189741,
+    "question": "Select a word having the opposite meaning. VAGUE",
+    "options": [
+      "experssive",
+      "felicitous",
+      "well-defined",
+      "provocation"
+    ],
+    "correct_answer": "well-defined",
+    "explanation": "🔖vague - অস্পষ্ট ।<br/>expressive - ভাবপ্রবণ।<br/>felicitous - সম্মানজনক।<br/>well-defined - ভালভাবে সংজ্ঞায়িত।<br/>provocation - উস্কানি।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189742,
+    "question": "Select a word having the opposite meaning. FOCUS",
+    "options": [
+      "disappear",
+      "acquired",
+      "redundant",
+      "sterile"
+    ],
+    "correct_answer": "disappear",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189743,
+    "question": "Select a word having the opposite meaning. INDIGENOUS",
+    "options": [
+      "thoughtful",
+      "disperse",
+      "link",
+      "none of these"
+    ],
+    "correct_answer": "none of these",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189744,
+    "question": "Select a word having the opposite meaning. EVACUATE",
+    "options": [
+      "boil off",
+      "fill up",
+      "neutralize",
+      "melt down"
+    ],
+    "correct_answer": "fill up",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189745,
+    "question": "Select the pair of words that best expresses a relationship similar to that expressed in the pair if world in capital letters. ENTREPRENEURS : PROFITS",
+    "options": [
+      "laborer : wages",
+      "managers : employees",
+      "moonlighter : debts",
+      "arbitrator : complaints"
+    ],
+    "correct_answer": "laborer : wages",
+    "explanation": "🔖An Entrepreneur (উদ্যোক্তা) works for Profits (লাভ) & Laborer (শ্রমিক) works for wages (মজুরি)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189746,
+    "question": "Select the pair of words that best expresses a relationship similar to that expressed in the pair if world in capital letters. VARIABLE : EQUATION",
+    "options": [
+      "oxygen : water",
+      "parmecia : amoeba",
+      "analysis : summary",
+      "clay : sculpure"
+    ],
+    "correct_answer": "oxygen : water",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189747,
+    "question": "Select the pair of words that best expresses a relationship similar to that expressed in the pair if world in capital letters. PATRON : SUPPORT",
+    "options": [
+      "spouse : divorce",
+      "restaurant : management",
+      "counselor : advice",
+      "host : hostility"
+    ],
+    "correct_answer": "counselor : advice",
+    "explanation": "🔖Patron (পৃষ্ঠপোষক) support (সমর্থন) দেয় এবং Counselor ( উপদেষ্টা) advice (উপদেশ) দেয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189748,
+    "question": "Select the pair of words that best expresses a relationship similar to that expressed in the pair if world in capital letters. SILO : CORN",
+    "options": [
+      "acre : wheat",
+      "reservoir : water",
+      "mill : grain",
+      "paddy : rice"
+    ],
+    "correct_answer": "reservoir : water",
+    "explanation": "🔖Silo (শস্য গার) হল corn (শস্য) রাখার আধার। reservoir (পাত্র) হল water রাখার আধার।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189749,
+    "question": "Select the pair of words that best expresses a relationship similar to that expressed in the pair if world in capital letters. VACCINE : PREVENT",
+    "options": [
+      "wound : heal",
+      "victim : attend",
+      "antiseptic : sand",
+      "yardstick : distance"
+    ],
+    "correct_answer": "yardstick : distance",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189750,
+    "question": "Select the pair of words that best expresses a relationship similar to that expressed in the pair if world in capital letters. CLOCK : TIME",
+    "options": [
+      "watch : wrist",
+      "odometer : speed",
+      "hourglass : sand",
+      "yardstick : distance"
+    ],
+    "correct_answer": "yardstick : distance",
+    "explanation": "🔖Clock দ্বারা সময় পরিমাপ করা যায়, yardstick দ্বারা দূরত্ব পরিমাপ করা যায়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189751,
+    "question": "Select the pair of words that best expresses a relationship similar to that expressed in the pair if world in capital letters. SOUND : AIR",
+    "options": [
+      "oil : tanker",
+      "snigal : wave",
+      "electricity : copper",
+      "light : camera"
+    ],
+    "correct_answer": "electricity : copper",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 189753,
+    "question": "Select the pair of words that best expresses a relationship similar to that expressed in the pair if world in capital letters. WORDS : WRIRER",
+    "options": [
+      "honor : thief",
+      "brick : bricklayer",
+      "child : teacher",
+      "laws : policeman"
+    ],
+    "correct_answer": "brick : bricklayer",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 204142,
+    "question": "If (b-3){4+2/b}=0, then b=?",
+    "options": [
+      "-8",
+      "-2",
+      "-1/2",
+      "1/2"
+    ],
+    "correct_answer": "-1/2",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 204143,
+    "question": "If \\( {8}^{2x+3} \\) = \\( {2}^{2x+6} \\) , then x=?",
+    "options": [
+      "-3",
+      "-1",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  },
+  {
+    "id": 204144,
+    "question": "Which equation gives the relationship between R and S in the table below? R 1 2 3 4 5 6, S 2 5 8 11 14 17",
+    "options": [
+      "S=2R",
+      "S= \\( {R}^{2} \\) +1",
+      "S=3R-1",
+      "S=2R+5"
+    ],
+    "correct_answer": "S=3R-1",
+    "explanation": "🔖bring forth- (synonym) to give birth to; deliver; bear: to bring forth a son. to give rise to; introduce: to bring forth a proposal for reducing costs.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Commerce Bank Ltd",
+    "exam": "Commerce Bank Ltd - Officer - 2006"
+  }
+]

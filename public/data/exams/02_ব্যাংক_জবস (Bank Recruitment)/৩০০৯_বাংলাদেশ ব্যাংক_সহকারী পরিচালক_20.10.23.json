@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 298255,
+    "question": "In MS-Excel, '#Name?' error occurs when -",
+    "options": [
+      "Cell reference is invalid",
+      "Function name is wrong",
+      "All of the above",
+      "Argument is wrong"
+    ],
+    "correct_answer": "All of the above",
+    "explanation": "Function name misspelled<br/>One of the most common causes of a #NAME error in Excel is the incorrect spelling of a function\\\"s name. Microsoft Excel has a large library of built-in functions that allow users to perform a variety of calculations. However, if the function\\\"s name is typed incorrectly, Excel will be unable to identify it and will display the #NAME error.<br/><br/>For instance, let\\\"s say you need to use a XLOOKUP or VLOOKUP formula to retrieve data from a table. If you accidentally misspell the function name as XLOKUP or VLOKUP, Excel won\\\"t recognize it as a valid function, resulting in a #NAME error being returned.",
+    "hints": "📝 #NAME? is a common Excel error notation that appears when a formula or function cannot find the referenced data it needs to complete the calculation. This could be caused by a few different things, such as a misspelling in the formula name or an invalid reference. It can also occur when a cell or range has been named incorrectly. #NAME? Error ঘটে,<br/>▣ Function name misspelled,<br/>▣ Using new functions in older versions,<br/>▣ Invalid named range,<br/>▣ Incorrect range reference,<br/>▣ Text values without quotation marks,<br/>▣ Add-in or custom function missing.<br/>❐ এখানে, <br/>❐ ক) Function name is wrong: যদি ফাংশনের বানান ভুল থাকে, Excel তাকে চিনতে পারে না এবং #NAME? Error প্রদর্শন করে।<br/>❐ খ) Argument is wrong: যদি কোনো ফাংশনে দেয়া আর্গুমেন্টের সংখ্যা বা ধরন ভুল হয়, Excel তখন #NAME? Error প্রদর্শন করে। যেমন: =SUM(1, 2, \"3\") SUM ফাংশন নিউমেরিক ডাটা নেয়. কিন্তু এখানে ‘’3’’একটি স্ট্রিং ডাটা। এ কারণে, Excel #NAME? Error প্রদর্শন করে। ভুলটি সংশোধন করতে হলে, তৃতীয় আর্গুমেন্ট এর টাইপ স্ট্রিং থেকে নিউমেরিক করতে হবে। যেমন, =SUM(1, 2, 3) তাহলে ফাংশনটি সঠিক ফল দিবে 6.<br/>❐ গ) Cell reference is invalid: যদি একটি সূত্রে বা ফাংশনে সেল রেফারেন্স ভুল হয়, তাহলে Excel তখন #NAME? Error প্রদর্শন করে। যেমন, নিচের ফাংশনটি #NAME? Error দেখাবে, =SUM(A1:B100) যদি A1:B100 সেল পরিসরে (range) কোনো ডাটা খুঁজে না পায় , কারণ, Excel তখন ডাটার অভাবে হিসাব করতে পারেনা এবং #NAME? Error প্রদর্শন করে।<br/>❐ সঠিক উত্তর: All of the above.  \r\n",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298256,
+    "question": "What will be the result of the formula =Min (Average (B1, B2), Product (B3:B4)) where value of B1=20, B2=24, B3=15, B4=20?",
+    "options": [
+      "300",
+      "20",
+      "None of the above",
+      "22"
+    ],
+    "correct_answer": "22",
+    "explanation": "<p>প্রথমত এটি মাইক্রোসফট এক্সেলের একটি ফর্মুলা। উপরের সমীকরণ দুইটি অংশ।&nbsp; প্রথম্ অংশটি গড় (average)&nbsp; যা B1 ও B2 এর গড় ফল।&nbsp; দ্বিতীয় অংশটি product যা B3 ও B4 এর গুণফল।&nbsp; এই দুইটার মধ্যে যেটি ছোট সেটি minimum (min) function, বড় হলে maximum function.&nbsp; যেমন,&nbsp;&nbsp;</p><br/><p>20+24=44&nbsp;<span style=\"font-size: 1rem;\">44÷2=22 অন্যদিকে 15×20=300 এখানে ২২ ছোট, তাই এটি উত্তর।&nbsp;</span></p><br/>",
+    "hints": "📝 দেওয়া আছে,<br/>❐ B1 = 20, B2 = 24, B3 = 15, B4 = 20<br/>❐ Average (B1, B2) দ্বারা বুঝায় B1 ও B2 এর গড় বের করতে হবে<br/>❐ Average (B1, B2) = (20 + 24) / 2 = 22<br/>❐ Product (B3 : B4) দ্বারা বুঝায় B3 ও B4 এর গুণফল বের করতে হবে <br/>❐ Product (B3 : B4) = 15 × 20 = 300<br/>❐ Min (Average (B1, B2), Product (B3 : B4)) দ্বারা বুঝায় Average (B1, B2) ও Product (B3 : B4) এর মাঝে কে ছোট তা বের করতে হবে<br/>❐ Min (22, 300) = 22<br/>❐ সুতরাং,ফর্মুলাটির ফল হবে 22.\r\n",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298257,
+    "question": "In MS-Word, which of the following shortcut keys are used for aligning text to center?",
+    "options": [
+      "Ctrl+E",
+      "Ctrl+M",
+      "None of the above",
+      "Ctrl+C"
+    ],
+    "correct_answer": "Ctrl+E",
+    "explanation": "<br/><br/><br/>উঠিক উত্তর <br/><br/>Ctrl + E<br/><br/>ব্যাখ্যার জন্য ছবি যুক্ত করা হলো<br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298258,
+    "question": "What is the meaning of 'BCC' in an email?",
+    "options": [
+      "Bearer Carbon Copy",
+      "Blind Carbon Copy",
+      "Blind Close Contact",
+      "Blind Close Copy"
+    ],
+    "correct_answer": "Blind Carbon Copy",
+    "explanation": "Solution:<br/>BCC<br/><br/>ই-মেইল ঠিকানার BCC ক্ষেত্রে এর পূর্ণরূপ Blind Carbon Copy BCC.<br/>BCCএর ঘরে সে সমস্ত ঠিকানা যাদেরকে প্রেরক ই-মেইল কপি পাঠাতে চায় কিন্তু টাইপ করতে হয় প্রাপকদের জানাতে চায় না কাকে কাকে পাঠানো হয়েছে।<br/>এর কপি CC এবং BCC এর কাজ প্রায় একই রকম তবে CC তে | যাদের উল্লেখ থাকে ই-মেইলের প্রাপক ডকুমেন্টের শেষে তাদেরকে প্রত্যেকের ঠিকানা ছাপানো অবস্থায় দেখতে পায়। অর্থাৎ প্রাপক ই-মেইলটি পেয়ে বুঝতে পারে কাকে কাকে এর কপি প্রেরণ করা হয়েছে। | কিন্তু BCC তে টাইপ করা ঠিকানাসমূহ ডকুমেন্টের সাথে যাবে না। ফলে প্রাপক জানতে পারবে না কাদেরকে ই-মেইলের কপি পাঠানো হয়েছে।",
+    "hints": "📝 BCC (<b>Blind carbon copy</b>):<br/>❐ Meaning: a copy of a message (such as an e-mail) that is sent without the knowledge of the other recipients.<br/>❐ For security and privacy reasons, it is best to use the <b>Blind Carbon Copy (BCC)</b> feature when sending an email message to a large number of people.<br/>❐ When you place email addresses in the BCC field of a message, those addresses are invisible to the recipients of the email.;<br/>❐ Conversely, any email addresses that you place in the To field or the CC field are visible to everyone who receives the message.\r\n",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298259,
+    "question": "What is the name given to the sequence of steps which a computer follows?",
+    "options": [
+      "Flowcharts",
+      "Instructions",
+      "Software",
+      "Algorithm"
+    ],
+    "correct_answer": "Algorithm",
+    "explanation": "In computer science, an algorithm is a finite sequence of well-defined, computer-implementable instructions, typically to solve a class of problems or to perform a computation. A sequence of steps that together form a problem-solving procedure.",
+    "hints": "📝 - A set of step -by-step procedures for accomplishing a task is known as a ''algorithm''.<br/>▣ An algorithm is a procedure used for solving a problem or performing a computation. Algorithms act as an exact list of instructions that conduct specified actions step by step in either hardware- or software-based routines. The other options are also related to computers, but they do not specifically refer to the sequence of steps that a computer follows. <br/>▣ Instructions are the individual steps in an algorithm. <br/>▣ Software is a collection of programs that contain algorithms. <br/>▣ Flowcharts are a way of representing algorithms visually.\r\n",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298260,
+    "question": "Which of the following tools is used in business intelligence?",
+    "options": [
+      "Web Mining",
+      "OLAP",
+      "All of these",
+      "Data Mining"
+    ],
+    "correct_answer": "All of these",
+    "explanation": "সব অপশন ই সঠিক। কিছু টুলস ছবিতে উল্লেখ করা হলো। এর মাঝে অপশনের সবগুলো বিদ্যমান।",
+    "hints": "📝 <b>OLAP</b> (Online Analytical Processing) is a technology that allows users to analyze data from multiple dimensions. OLAP tools are often used for business intelligence to analyze sales, marketing, and customer data.<br/>❐ <b>Data mining</b> is the process of extracting useful information from large datasets. Data mining tools are often used for business intelligence to identify trends, patterns, and anomalies in data.<br/>❐ <b>Web mining</b> is the process of extracting useful information from the World Wide Web. Web mining tools are often used for business intelligence to gather data on competitors, customers, and markets.<br/>❐ For example, an OLAP tool could be used to analyze sales data by product, region, and time period. A data mining tool could be used to identify customer segments based on their purchase history. A web mining tool could be used to gather data on competitor pricing.<br/>❐ সঠিক উত্তর: ঘ) All of these\r\n",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298261,
+    "question": "Webcam is a type of ……… device in a computer system.",
+    "options": [
+      "Input",
+      "System",
+      "Output",
+      "Analogue"
+    ],
+    "correct_answer": "Input",
+    "explanation": "A webcam is an input device because it captures a video image of the scene in front of it. It is either built in to the computer (e.g. laptop) or it is connected through an USB cable.",
+    "hints": "📝 ইনপুট ডিভাইস: যেসব ডিভাইসের মাধ্যমে কম্পিউটারে ডাটা বা তথ্য ইনপুট বা কমান্ড দেওয়া যায়, সেগুলোই ইনপুট ডিভাইস।<br/>▣ কি-বোর্ড<br/>▣ মাউস<br/>▣ অপটিকাল রিডার<br/>▣ জয়স্টিক<br/>▣ মাইক্রোফোন<br/>▣ স্ক্যানার<br/>▣ গ্রাফিক্স প্যাড<br/>▣ লাইট পেন<br/>▣ <b>ওয়েবক্যাম</b><br/>▣ ওসিআর ইত্যাদি।<br/>❐ আউটপুট ডিভাইস: যেগুলোর মাধ্যমে কম্পিউটার থেকে ডাটা/তথ্য বা যেকোনো কিছু আউটপুট নেওয়া যায়, সেগুলোই আউটপুট ডিভাইস।<br/>▣ মনিটর<br/>▣ প্রিন্টার,<br/>▣ প্রজেক্টর,<br/>▣ স্পিকার,<br/>▣ প্লটার,<br/>▣ হেডফোন<br/>❐ ইনপুট-আউটপুট ডিভাইস: কিছু ডিভাইস আছে যেগুলো ইনপুট-আউটপুট দুটোরই কাজ করে<br/>▣ পেনড্রাইভ<br/>▣ টাচ স্ক্রিন<br/>▣ মডেম\r\n",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298262,
+    "question": "Which of the following commands is given to invoke 'Task Manager'?",
+    "options": [
+      "Ctrl+Del+F12",
+      "Ctrl+Alt+Del",
+      "Alt+Del+F4",
+      "Ctrl+Alt+F4"
+    ],
+    "correct_answer": "Ctrl+Alt+Del",
+    "explanation": "Important Points<br/>Another way to open the Task Manager is by pressing Ctrl+Alt+Del on the keyboard and selecting Task Manager or Start Task Manager.",
+    "hints": "📝 Task Manager মূলত কম্পিউটারে চলমান সবকিছু পরিচালনা করার জন্য প্রয়োজন।<br/>❐ Task Manager ব্যবহার করা হয়:<br/>▣ একটি অনাকাঙ্ক্ষিত অ্যাপকে জোরপূর্বক বন্ধ করতে,<br/>▣ একটি চলমান অ্যাপ বন্ধ করার পরে, অ্যাপের আনুসঙ্গিক বাকি প্রসেসগুলিকে নিষ্ক্রিয় করতে, <br/>▣ ব্যাকগ্রাউন্ডে চলমান অ্যাপগুলি দেখতে<br/>▣ সিস্টেম রিসোর্সের বর্তমান অবস্থা দেখতে<br/>❐ Task Manager খোলার কয়েকটি পদ্ধতি নিচে দেয়া হলো:<br/>▣ Ctrl + Alt + Del<br/>▣ Ctrl + Shift + Esc<br/>▣ Open from Windows power user menu<br/>▣ Access from the taskbar menu<br/>▣ Press (Windows + R) keys to open the Run dialog. Here type ‘taskmgr’ and click on the OK button to open the Task Manager.\r\n",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298263,
+    "question": "Which of the following is considered to measure the printing quality?",
+    "options": [
+      "cpi",
+      "ppm",
+      "cps",
+      "dpi"
+    ],
+    "correct_answer": "dpi",
+    "explanation": "The quality of the print largely depends on the resolution, which is the number of dots per inch (DPI) or pixels per inch (PPI). The higher the resolution, the sharper and more defined the image will be.",
+    "hints": "📝 Printing quality বলতে একটি প্রিন্টার দ্বারা উৎপাদিত হার্ড কপি বা প্রিন্ট আউটের গুণগতমানকে বোঝায়। Printing quality অনেকভাবে নির্ণয় করা যায়।<br/>❐ DPI (dots per inch) হল একটি প্রিন্টারের মুদ্রণের মানের একটি পরিমাপ। এক ইঞ্চি আনুভূমিক রেখা পরিমাণ জায়গায় প্রিন্টার মোট কতটি বিন্দু প্রিন্ট আউট করতে পারে তাকে DPI (dots per inch) বলে।<br/>❐ অন্যদিকে,<br/>❐ PPM (pages per minute) প্রিন্টারের প্রিন্টিং স্পীডকে বুঝায়।<br/>❐ CPI (characters per inch) হলো প্রিন্টেড ডকুমেন্টের ফন্ট সাইজের পরিমাপ।<br/>❐ CPS (characters per second) কী-বোর্ডের টাইপিং স্পীডের পরিমাপ।\r\n",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298264,
+    "question": "What kind of storage device can be affected by fragmentation?",
+    "options": [
+      "Solid-state",
+      "Optical",
+      "Magnetic",
+      "Laser"
+    ],
+    "correct_answer": "Magnetic",
+    "explanation": "",
+    "hints": "📝 - ফ্র্যাগমেন্টেশন থেকে মূলত ম্যাগনেটিক স্টোরেজ ডিভাইস ,যেমন হার্ড ডিস্ক ড্রাইভ (HDD) প্রভাবিত হয়।<br/>▣ অপ্টিক্যাল, লেজার বা সলিড-স্টেট স্টোরেজ ডিভাইসগুলি ফ্র্যাগমেন্টেশন থেকে প্রভাবিত হয় না।<br/>▣ ফ্র্যাগমেন্টেশন হল ডাটার একটি স্টোরেজ মিডিয়ামে বিভিন্ন জায়গায় ছড়িয়ে পড়া অবস্থা। এটি HDD এ সময়ের সাথে সাথে ঘটে যায়, যখন ফাইল তৈরি, পরিবর্তিত এবং মুছে ফেলা হয় ডিস্কে ডাটা ছড়িয়ে পড়ে এবং ফ্র্যাগমেন্ট হয়ে যায়।<br/>❐ অন্যদিকে,<br/>❐ অপ্টিক্যাল ডিস্ক ফ্র্যাগমেন্টেশন থেকে প্রভাবিত হয় না কারণ ডাটা শুরু থেকে শেষ পর্যন্ত একটি দীর্ঘ স্পাইরাল ট্র্যাকে লেখা হয়। লেজার এবং সলিড-স্টেট ডিভাইসগুলিতে ডাটা ম্যাগনেটিকভাবে না রেখে ইলেকট্রনিকভাবে সংরক্ষণ করা হয়, তাই ফ্র্যাগমেন্টেশন তাদের ক্ষেত্রে প্রযোজ্য নয়।\r\n",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298265,
+    "question": "Which of the following revolutions is related to Egg production?",
+    "options": [
+      "Red Revolution",
+      "Round Revolution",
+      "Silver Revolution",
+      "Yellow Revolution"
+    ],
+    "correct_answer": "Silver Revolution",
+    "explanation": "Silver Revolution is related to Egg Production. It refers to the period in which egg production rises considerably. It was done with the help of medical science and a diet rich in protein for the hens. It was like the green and the white revolution in India",
+    "hints": "📝 Silver Revolution:<br/>▣ Silver Revolution ডিম উৎপাদনের সাথে সম্পর্কিত।<br/>▣ Silver Revolution বলতে একটি দেশে ডিম এবং মুরগির মাংসের বর্ধিত উৎপাদনকে বোঝায়। এটি বৈজ্ঞানিক পদ্ধতি এবং সরঞ্জাম ব্যবহার করে হাঁস-মুরগি পালন এবং বাণিজ্যিক ডিম উৎপাদনের উন্নয়নের সাথে যুক্ত।<br/>▣ ডিম ও হাঁস-মুরগিকে দক্ষতার সাথে বাজারে আনার জন্য পরিবহন ও কোল্ড স্টোরেজ অবকাঠামো জড়িত।<br/>▣Silver Revolution ভারত, চীন, মেক্সিকো প্রভৃতি দেশে ডিম ও মুরগির উৎপাদনে উল্লেখযোগ্য উল্লম্ফন ঘটায়\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298266,
+    "question": "Who is called the father of Modern education?",
+    "options": [
+      "Henry Fisched",
+      "Horace Mann",
+      "Greg Barclay",
+      "John Amos Comenius"
+    ],
+    "correct_answer": "John Amos Comenius",
+    "explanation": "John Amos Comenius Called the Father of Modern Education. He is also known as Jan Amos Komensky and was born on March 28, 1592 in Nivnice, Moravia (which is now in the Czech Republic) and he died on November 15, 1670.",
+    "hints": "📝 -The father of modern education is John Amos Comenius.<br/>▣ তিনি শিক্ষার বিষয়ে আধুনিক ধারণা তুলে ধরেছিলেন এবং শিক্ষাকে সহজ ও সুষম করার পক্ষ প্রচার করেছিলেন।<br/>❐ কমেনিউসের প্রধান অবদান নিম্নরূপ:<br/>▣ শিশুর বয়স ও মনোবিকাশের উপযুক্ত শিক্ষাদানের গুরুত্ব তুলে ধরা,<br/>▣ মাতৃভাষায় শিক্ষার প্রসার ঘটানো,<br/>▣ পাঠ্যবই ও শিক্ষামূলক খেলাধুলার ব্যবহার,<br/>▣ স্বাভাবিক ও প্রাকৃতিক পদ্ধতিতে শিক্ষাদান,<br/>▣ শারীরিক শাস্তির বিরুদ্ধে যুক্তিসঙ্গত প্রতিবাদ।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298267,
+    "question": "On peacekeeping mission, Bangladesh Police first went to -",
+    "options": [
+      "Congo",
+      "Ethiopia",
+      "Kenya",
+      "Namibia"
+    ],
+    "correct_answer": "Namibia",
+    "explanation": "As regards the historic background of Bangladesh\\\"s engagement in peacekeeping, Bangladesh first deployed troops in UN Peacekeeping operations in 1988 in two separate operations namely UNIMOG in Iraq and UNTAG in Namibia. Since then Bangladesh became an integral part of global efforts to restore peace in the world.",
+    "hints": "📝 জাতিসংঘ শান্তিরক্ষা মিশন:<br/>▣ জাতিসংঘ শান্তিরক্ষা মিশনে প্রথমবারের মতো বাংলাদেশি পুলিশ সদস্যদের মোতায়েন করা হয়েছিল ১৯৮৯  সালে।<br/>▣ তাদের <b>নামিবিয়ায় জাতিসংঘের ট্রানজিশন অ্যাসিসট্যান্স গ্রুপে (UNTAG) পাঠানো হয়েছিল</b>। <br/>▣ এই মিশনটি দক্ষিণ আফ্রিকা থেকে নামিবিয়ার স্বাধীনতা লাভের প্রক্রিয়ার তদারকি করার জন্য প্রতিষ্ঠিত হয়েছিল।<br/>❐ এছাড়াও,<br/>▣ মালিতে শান্তি প্রতিষ্ঠায় মিনুসমা ম্যান্ডেট বাস্তবায়নের লক্ষ্যে জাতিসংঘ শান্তিরক্ষা কার্যক্রমে নিষ্ঠার সাথে দায়িত্ব পালনের স্বীকৃতি হিসেবে United Nation Multidimensional Integrated Stabilization Mission in Mali (MINUSMA) - তে নিয়োজিত বাংলাদেশের ১৪০ পুলিশ সদস্য জাতিসংঘ শান্তিরক্ষা পদকে ভূষিত হন।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298268,
+    "question": "The Great Wall of Gorgon is located in -",
+    "options": [
+      "China",
+      "Iran",
+      "Britain",
+      "Scotland"
+    ],
+    "correct_answer": "Iran",
+    "explanation": "The Great Wall of Gorgon is an incredible and sophisticated defensive construction located in north-eastern Iran; it has around 30 military forts, an aqueduct, and water channels that go along the route.",
+    "hints": "📝 <b>The Great Wall of Gorgon</b><br/>▣ এটি ৪২০ খ্রিস্টাব্দ থেকে ৫৩০ খ্রিস্টাব্দ পর্যন্ত নির্মিত হয়েছিল।<br/>▣ The Great Wall of Gorgon - <b>উত্তর-পূর্ব ইরানে অবস্থিত</b> ।<br/>▣ এটি একটি পরিশীলিত প্রতিরক্ষামূলক নির্মাণ।<br/>▣ এটিতে প্রায় ৩০টি সামরিক দূর্গ, একটি জলাশয় এবং জলের চ্যানেল রয়েছে যা রুট বরাবর কাজ করে।<br/>▣ এটি মধ্য ইউরোপ এবং চীনের মধ্যে দীর্ঘতম দুর্গ ও রেখাযুক্ত প্রাচীন বাধা, এটি হ্যাড্রিয়ানের প্রাচীর এবং অ্যান্টোনিন প্রাচীরের চেয়ে ও দীর্ঘ।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298269,
+    "question": "The national symbol of Bangladesh was approved by the Cabinet on -",
+    "options": [
+      "28 February, 1972",
+      "25 February, 1972",
+      "21 January, 1972",
+      "18 January, 1972"
+    ],
+    "correct_answer": "28 February, 1972",
+    "explanation": "approved by Cabinet in its meeting on 28th February, 1972 is shown in Annexure \\\"A\\\" The Emblem consists of Shapla Flower on water flanked on two sides by shoots of paddy and decorated by four stars and three jute leaves at the top.",
+    "hints": "📝 <b>বাংলাদেশের জাতীয় প্রতীক:</b><br/>▣ বাংলাদেশের জাতীয় প্রতীকে ৪টি তারকা আছে।<br/>▣ এ প্রতীক হলো পানিতে ভাসমান জাতীয় ফুল শাপলা এবং এর উভয় পার্শ্বে একটি করে ধানের শীষ, চূড়ায় পাটগাছের পরস্পরযুক্ত তিনটি পাতা এবং পাতার উভয় পার্শ্বে দুটি করে তারকা।<br/>▣ বাংলাদেশের জাতীয় প্রতীক মন্ত্রিসভা কর্তৃক অনুমোদিত হয়- <b>২৮ ফেব্রুয়ারী, ১৯৭২সালে।</b><br/>❐ এছাড়াও,<br/>▣ বাংলাদেশের জাতীয় প্রতীকের কেন্দ্রে রয়েছে পানিতে ভাসমান একটি শাপলা ফুল।<br/>▣ পানি, ধান ও পাট প্রতীকে বৈশিষ্ট্যমন্ডিত হয়েছে বাংলাদেশের নিসর্গ ও অর্থনীতি।<br/>▣ এ তিনটি উপাদানের উপর স্থাপিত জলজ প্রস্ফুটিত শাপলা হলো অঙ্গীকার, সৌন্দর্য ও সুরুচির প্রতীক।<br/>▣ তারকাগুলোতে ব্যক্ত হয়েছে জাতির লক্ষ্য ও উচ্চাকাঙ্ক্ষা।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298270,
+    "question": "The first tribal cultural academy of Bangladesh is located in -",
+    "options": [
+      "Rangpur",
+      "Rangamati",
+      "Netrokona",
+      "Chattogram"
+    ],
+    "correct_answer": "Netrokona",
+    "explanation": "১৯৭৭ সালে নেত্রকোনার বিরিশিরিতে ‘ক্ষুদ্র নৃ - গোষ্ঠী কালচারাল একাডেমি’ প্রতিষ্ঠিত হয়। তবে ১৯৭৬ সালে মৌলভীবাজারের কমলগঞ্জে ক্ষুদ্র নৃগোষ্ঠীর প্রথম সাংস্কৃতিক প্রতিষ্ঠান হিসেবে ‘মণিপুরী ললিতকলা একাডেমী’ প্রতিষ্ঠিত হয়। অন্যুদিকে রাঙামাটিতে ‘ক্ষুদ্র নৃ - গোষ্ঠীর সাংস্কৃতিক ইনস্টিটিউট’ প্রতিষ্ঠা হয় ১৯৭৮ সালে।",
+    "hints": "📝 উপজাতি সাংস্কৃতিক কেন্দ্র:<br/>▣ বাংলাদেশে প্রথম উপজাতীয় কালচারাল একাডেমি অবস্থিত - <b>বিরিশিরি, নেত্রকোনা</b>।<br/>▣ এটি নেত্রকোনা জেলার দুর্গাপুর উপজেলার বিরিশিরিতে অবস্থিত যা ১৯৭৭ সালে প্রতিষ্ঠিত হয়।<br/>▣ বিরিশিরি ব্যতীত কক্সবাজার, রাঙামাটি, বান্দরবান, খাগড়াছড়ি, মৌলভীবাজার ও রাজশাহী জেলায় সরকারি উপজাতীয় সাংস্কৃতিক প্রতিষ্ঠান রয়েছে।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298271,
+    "question": "Which of the following is used in pencil?",
+    "options": [
+      "Charcoal",
+      "Silicon",
+      "Phosphorous",
+      "Graphite"
+    ],
+    "correct_answer": "Graphite",
+    "explanation": "Graphite is highly used in the making of pencils. So the right answer is graphite.",
+    "hints": "📝 - কার্বন একটি অধাতু ও বিজারক পদার্থ। <br/>▣ কার্বনের দানাদার রূপভেদ হলো- গ্রাফাইট ও হীরক। <br/>▣ প্রকৃতিতে প্রাপ্ত সবচেয়ে শক্ত বা কঠিন পদার্থ হচ্ছে হীরক। <br/>▣ হীরক কাঁচ কাটতে ব্যবহার করা হয়। <br/>▣ গ্রাফাইট উত্তম বিদ্যুৎ পরিবাহী বলে তা ইলেকট্রোড হিসেবে ব্যবহৃত হয়। <br/>▣ যন্ত্রাংশ লুব্রিকেশন করার জন্য এবং <b>কাদা সহযোগে পুড়িয়ে কাঠ পেন্সিলের সীস  তৈরীতে গ্রাফাইট ব্যবহৃত হয়</b>।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298272,
+    "question": "\"White Color Job\" means -",
+    "options": [
+      "a job with much hardship",
+      "a job without any work",
+      "a job without manual labour",
+      "a thankless job"
+    ],
+    "correct_answer": "a job without manual labour",
+    "explanation": "What Is White Collar?<br/>A white-collar worker belongs to a class of employees known for earning higher average salaries doing highly skilled work, but not by performing manual labor at their jobs. White-collar workers historically have been the \"shirt and tie\" set, defined by office jobs and management, and not \"getting their hands dirty.\"<br/><br/>This class of workers stands in contrast to blue-collar workers, who traditionally wore blue shirts and worked in plants, mills, and factories.",
+    "hints": "📝 প্রশ্নটি মূলত হবে - <b>White-collar Job.<br/>❐ White-collar:</b><br/>❐ English Meaning: relating to people who work in offices, doing work that needs mental rather than physical effort.<br/>❐ Bangla Meaning: শারীরিক পরিশ্রম বিহীন কাজ / যেসব কাজে মানসিক শ্রম প্রয়োজন হয়<br/>❐ Ex. Sentence: Everyone is looking for white-collar jobs, because it gets higher payment.<br/>❐ Bangla Meaning: সবাই মানসিক পরিশ্রমের চাকরি খুঁজছে, কারণ এর বেতন / মূল্য বেশি।<br/>❐  অর্থাৎ সঠিক উত্তর হবে -<b> a job without manual labour.</b>\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298273,
+    "question": "What is the signature rate of Bangladesh as per Population and Housing Cencus-2022?",
+    "options": [
+      "68.76%",
+      "74.66%",
+      "75.79%",
+      "76.74%"
+    ],
+    "correct_answer": "74.66%",
+    "explanation": "The signature (people able to write) rate population has increased to 74.66% from the previous census figure of 51.77%.",
+    "hints": "📝 ষষ্ঠ জনশুমারি ও গৃহগণনা ২০২২:<br/>▣ জনশুমারি পরিচালনা করে - বাংলাদেশ পরিসংখ্যান ব্যুরো (BBS).<br/>▣ ষষ্ঠ জনশুমারি ও গৃহগণনা ২০২২ অনুষ্ঠিত হয় ১৫-২১ জুন ২০২২।<br/>▣ জনসংখ্যা - ১৬,৫১,৫৮,৬১৬ জন। <br/>▣ সাক্ষরতার হার (৭ বছর বা তদূর্ধ্ব) - <b>৭৪.৬৬%</b>।<br/>▣ পুরুষ - ৭৬.৫৬%।<br/>▣ নারী - ৭২.৮২%।<br/>▣ অন্যদিকে, <br/>▣ বাংলাদেশ অর্থনৈতিক সমীক্ষা-২০২২ অনুসারে,<br/>▣ বর্তমানে দেশে স্বাক্ষরতার হার (৭ বছরের অধিক) ৭৫.২%। \r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298274,
+    "question": "Who is the writer of the book titled ‘The Cruel Birth of Bangladesh’?",
+    "options": [
+      "Simon Deming",
+      "Richard Nixon",
+      "Mark Tally",
+      "Archer Kent Blood"
+    ],
+    "correct_answer": "Archer Kent Blood",
+    "explanation": "The Cruel Birth of Bangladesh: Memoirs of an American Diplomat, is American Diplomat Archer Blood\\\"s account of the emergence of Bangladesh, published by University Press Limited in 2002. After the State Department declassified the documents, telegrams and other messages relating to this period, Blood wrote 24 chapters describing the events of 1971 as he and the staff of the United States Mission in Dhaka witnessed.[",
+    "hints": "📝 - \"The Cruel Birth of Bangladesh\" বইটির লেখক হলেন Archer Kent Blood।<br/>▣ আর্চার কে. ব্লাড ছিলেন মার্কিন রাষ্ট্রদূত যিনি ১৯৭০-এর দশকের শুরুতে ঢাকা, পূর্ব পাকিস্তানে (বর্তমান বাংলাদেশ) কর্মরত ছিলেন।<br/>▣ ১৯৭১ সালের বাংলাদেশের মুক্তিযুদ্ধের সময় তিনি ঢাকায় মার্কিন কনস্যুল জেনারেল ছিলেন। <br/>▣ তিনি পাকিস্তানি সেনাবাহিনীর দ্বারা বাঙালিদের বিরুদ্ধে নৃশংসতার নিবিড় বর্ণনা প্রেরণ করেছিলেন। <br/>▣ এই বইটি ২০০২ সালে প্রকাশিত হয় যেখানে তিনি যুদ্ধ ও পাকিস্তানি সেনাদের অত্যাচারের বিবরণ দিয়েছেন। <br/>▣ \"নিষ্ঠুর জন্ম\" শিরোনামটি বাংলাদেশের অত্যন্ত সংঘর্ষপূর্ণ জন্ম প্রসঙ্গে ইঙ্গিত করে।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298275,
+    "question": "The largest part of the human brain is -",
+    "options": [
+      "Cere bellum",
+      "Cerebrum",
+      "None of these",
+      "Medulla oblongata"
+    ],
+    "correct_answer": "Cerebrum",
+    "explanation": "Cerebrum: is the largest part of the brain and is composed of right and left hemispheres. It performs higher functions like interpreting touch, vision and hearing, as well as speech, reasoning, emotions, learning, and fine control of movement.",
+    "hints": "📝 মানব মস্তিষ্কের সবচেয়ে বড় অংশের নাম <b>সেরেব্রাম</b>।<br/>▣ সেরেব্রাম: মস্তিষ্কের সবচেয়ে বড় অংশ (মস্তিষ্কের প্রায় ৮০% গঠন করে) এবং মস্তিষ্কের অন্যান্য অংশকে ঢেকে রাখে।<br/>▣ দুটি সেরেব্রাল হেমিস্ফিয়ার সমন্বয়ে সেরেব্রাম গঠিত।<br/>▣ খণ্ডদুটি ভেতরের দিকে কর্পাস ক্যালোসাম নামে চওড়া স্নাযুগুচ্ছ দিয়ে যুক্ত।<br/>▣ প্রতিটি সেরেব্রাল হেমিস্ফিয়ার ৫টি খণ্ডে বিভক্ত। যথা- ফ্রন্টাল লোব, প্যারাইটাল লোব, অক্সিপিটাল লোব, টেম্পোরাল লোব ও লিম্বিক লোব।<br/>❐ <b>\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298276,
+    "question": "Which of the following vitamins helps in blood clotting?",
+    "options": [
+      "Vitamin D",
+      "Vitamin A",
+      "Vitamin K",
+      "Vitamin C"
+    ],
+    "correct_answer": "Vitamin K",
+    "explanation": "Vitamin K is a group of vitamins that the body needs for blood clotting, helping wounds to heal.",
+    "hints": "📝 -<b> ভিটামিন কে</b> রক্ত জমাট বাঁধতে সাহায্য করে। <br/>❐ <b>ভিটামিন কে (Vitamin K): </b><br/>▣ ভিটামিন কে -এর রাসায়নিক নাম ফাইটাল নেপথোকুইনোন। <br/>▣ এটি তাপ, আর্দ্রতা ও বায়ুর সংস্পর্শে ক্ষতিগ্রস্ত হয় না। <br/>❐ <b>ভিটামিন কে-এর\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298277,
+    "question": "Which strait separates Australia and Tasmania?",
+    "options": [
+      "Berring",
+      "Bab-el-Mandeb",
+      "Palk",
+      "Bass"
+    ],
+    "correct_answer": "Bass",
+    "explanation": "Bass Strait, channel separating Victoria, Australia, from the island of Tasmania on the south.",
+    "hints": "📝 অস্ট্রেলিয়া ও তাসমানিয়াকে পৃথক করে রেখেছে বাস স্ট্রেট (Bass Strait)। <br/>❐ এছাড়াও গুরুত্বপূর্ণ তথ্য:<br/>▣ বাস স্ট্রেট হল একটি সমুদ্র সৈকত যা অস্ট্রেলিয়ার দক্ষিণ-পূর্ব সংলগ্ন তট এবং তাসমানিয়ার উত্তর সংলগ্ন তটকে পৃথক করে রাখে।<br/>▣ এটি প্রায় ২৪০ কিলোমিটার দীর্ঘ এবং সর্বোচ্চ পয়েন্টে ১৫০ কিলোমিটার চওড়া। <br/>▣ গভীরতা প্রায় ৫০-৭০ মিটার।<br/>▣ বাস স্ট্রেট দক্ষিণে টাসমান সাগর এবং উত্তরে গ্রেট অস্ট্রেলিয়ান বাইটকে সংযুক্ত করে। <br/>▣ এটি দুটি মহাদেশকে আলাদা করে রাখায় একটি গুরুত্বপূর্ণ ভৌগলিক বৈশিষ্ট্য।<br/>❐ অন্যদিকে,<br/>▣ বাব এল মান্দেব প্রণালী এশিয়া থেকে আফ্রিকাকে পৃথক করেছে।<br/>▣ বেরিং প্রণালি - এশিয়াকে উত্তর আমেরিকা মহাদেশ থেকে পৃথক করেছে।<br/>▣ বসফরাস প্রণালি - এশিয়াকে ইউরোপ মহাদেশ থেকে পৃথক করেছে। এটি তুরস্কে অবস্থিত।<br/>▣ জিব্রাল্টার প্রণালি - ইউরোপকে আফ্রিকা মহাদেশ থেকে পৃথক করেছে।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298278,
+    "question": "What is the name of the Inventors of Virus?",
+    "options": [
+      "Louis Pateur",
+      "Dmitri Ivanovsky",
+      "Antoni",
+      "Robert Mentel"
+    ],
+    "correct_answer": "Dmitri Ivanovsky",
+    "explanation": "In 1892, Dmitri Ivanovsky used one of these filters to show that sap from a diseased tobacco plant remained infectious to healthy tobacco plants despite having been filtered. Martinus Beijerinck called the filtered, infectious substance a \"virus\" and this discovery is considered to be the beginning of virology.",
+    "hints": "📝 <b>ভাইরাস:</b><br/>▣ দিমিত্রি ইভানভস্কি ভাইরাসের আবিষ্কারে গুরুত্বপূর্ণ ভূমিকা পালন করেছিলেন।<br/>▣ তিনি একজন রুশ বিজ্ঞানী ছিলেন যিনি ১৮৯২ সালে প্রথম ভাইরাসটিকে আংশিকভাবে শুদ্ধ করে তাকে 'ফিল্টারেবল ভাইরাস' হিসেবে চিহ্নিত করেছিলেন।<br/>▣ তিনি টবাকো মোজাইক ভাইরাসকে শুদ্ধকরে তার সংক্রামক প্রকৃতি প্রমাণ করেছিলেন।<br/>▣ এটি ছিল প্রথম ভাইরাস যাকে একজন বিজ্ঞানী দ্বারা পরিশোধিত ও পরীক্ষা করা হয়েছিল।<br/>▣ ভাইরাসের বিদ্যমানতা আবিষ্কারে ইভানভস্কির অবদান অনস্বীকার্য।<br/>❐ এছাড়াও,<br/>▣ প্রথম ভাইরাসটি আবিষ্কার করেছিলেন অ্যাডলফ মায়ার ১৮৮৬ সালে। তিনি টবাকো মোজাইক ভাইরাসটি আবিষ্কার করেন।<br/>▣ ১৮৯২ সালে দিমিত্রি ইভানভস্কি প্রথম ভাইরাসটিকে আংশিকভাবে শুদ্ধ করেন।<br/>▣ ১৯০০ সালে ফরেস্ট মার্শ এবং উলরিচ লোফফলার ফুট এ্যান্ড মাউথ ডিজিজ ভাইরাস আবিষ্কার করেন।<br/>❐  - ১৯০৩ সালে মার্টিনাস বেইজারিঙ্ক ভাইরাসকে একটি পৃথক 'ফিল্টারেবল বিষাক্ত পদার্থ' হিসেবে শ্রেণীবিভক্ত করেন।<br/>❐ <b>[অ্যাডলফ মায়ার না থাকায় অধিকগ্রহনযোগ্য হিসেবে দিমিত্রি ইভানভস্কি উত্তর নেওয়া হয়েছে।] </b>\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298279,
+    "question": "World's first budget was presented in-",
+    "options": [
+      "USA",
+      "UK",
+      "Germany",
+      "Finland"
+    ],
+    "correct_answer": "UK",
+    "explanation": "",
+    "hints": "📝 <b>বাজেট:</b><br/>▣ বিশ্বের প্রথম বাজেট পেশ করা হয় <b>যুক্তরাজ্যে।</b><br/>▣ প্রথম জাতীয় বাজেট প্রবর্তন করেছিলেন উইলিয়াম ইওয়ার্ট গ্ল্যাডস্টোন, যিনি ১৮৫২ থেকে ১৮৮২ সাল পর্যন্ত যুক্তরাজ্যে এক্সচেকারের চ্যান্সেলর হিসেবে দায়িত্ব পালন করেছিলেন।<br/>❐ এছাড়াও,<br/>▣ ১৫ এপ্রিল, ১৮৫৩-এ, গ্ল্যাডস্টোন হাউস অফ কমন্সে প্রথম ব্যাপক বার্ষিক জাতীয় বাজেট পেশ করেন। এটি যুক্তরাজ্যে একটি বার্ষিক বাজেট উপস্থাপনার মান নির্ধারণ করে।<br/>▣ গ্ল্যাডস্টোনের উদ্যোগের আগে, যুক্তরাজ্যে সরকারি অর্থায়নের কোনো কেন্দ্রীভূত ব্যবস্থা বা সমন্বিত বাজেট প্রক্রিয়া ছিল না। সরকারি ব্যয় ও রাজস্ব আদায় ছিল অসংগঠিত।<br/>▣ একটি আনুষ্ঠানিক বাজেট প্রক্রিয়ার দিকে যুক্তরাজ্যের পদক্ষেপ শীঘ্রই অন্যান্য দেশগুলিও অনুলিপি করেছিল। এটি রাজস্ব পরিকল্পনা, ব্যবস্থাপনা এবং জনসাধারণের অর্থের তদারকির গুরুত্ব প্রদর্শন করে।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298280,
+    "question": "Who was the British Prime Minister during the Partition of India?",
+    "options": [
+      "Clement Attlee",
+      "Benjamin Disraeli",
+      "William E. Gladstone",
+      "Winston Churchill"
+    ],
+    "correct_answer": "Clement Attlee",
+    "explanation": "Clement Richard Attlee, 1st Earl Attlee, KG, OM, CH, PC, FRS (3 January 1883 – 8 October 1967) was a British statesman and Labour Party politician who served as Prime Minister of the United Kingdom from 1945 to 1951 and Leader of the Labour Party from 1935 to 1955. He was Deputy Prime Minister during the wartime coalition government under Winston Churchill, and served twice as Leader of the Opposition from 1935 to 1940 and from 1951 to 1955. Attlee remains the longest serving Labour leader and is widely considered by historians and members of the public through various polls to be one of the greatest Prime Ministers of the United Kingdom.",
+    "hints": "📝 দেশভাগ:<br/>▣ ভারত বিভাজনের সময় ব্রিটিশ প্রধানমন্ত্রী ছিলেন ক্লিমেন্ট অ্যাটলি।<br/>▣ ক্লেমেন্ট অ্যাটলি ১৯৩৫ থেকে ১৯৫৫ সাল পর্যন্ত লেবার পার্টির নেতা ছিলেন এবং ১৯৪৫ থেকে ১৯৪৭ সাল পর্যন্ত ব্রিটেনের প্রধানমন্ত্রী হিসেবে দায়িত্ব পালন করেন।<br/>▣ প্রধানমন্ত্রী হিসেবে তিনি যুদ্ধোত্তর ব্রিটেনে সামাজিক পরিষেবা এবং পাবলিক সেক্টরকে বিস্তৃত ও উন্নত করেছিলেন, জাতীয় স্বাস্থ্য পরিষেবা তৈরি করেছিলেন এবং প্রধান শিল্প ও পাবলিক ইউটিলিটি জাতীয়করণ।<br/>▣ অ্যাটলির সরকার ভারত, পাকিস্তান, বার্মা, সিলন এবং জর্ডানের উপনিবেশকরণেরও সভাপতিত্ব করেছিল এবং ফিলিস্তিন থেকে ব্রিটেনের প্রত্যাহারের পরে ইসরাইল রাষ্ট্রের সৃষ্টি হয়েছিল।<br/>❐ এছাড়াও,<br/>▣ যুক্তরাজ্যের ন্যাশনাল আর্কাইভস, \"ভারতের বিভাজন: দ্য মাউন্টব্যাটেন প্ল্যান\" শিরোনামের একটি নিবন্ধে উল্লেখ করেছে যে ক্লেমেন্ট অ্যাটলির শ্রম সরকার ১৯৪৫ সালে ক্ষমতা গ্রহণের পর ১৯৪৭ সালে দেশভাগের তত্ত্বাবধান করেছিল।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298281,
+    "question": "What are the two most abundant elements in the Universe?",
+    "options": [
+      "Helium and Lithium",
+      "Carbon and Oxygen",
+      "Hydrogen and Helium",
+      "Nitrogen and Oxygen"
+    ],
+    "correct_answer": "Hydrogen and Helium",
+    "explanation": "Hydrogen is the most abundant element in the Universe; helium is second. However, after this, the rank of abundance does not continue to correspond to the atomic number; oxygen has abundance rank 3, but atomic number 8. All others are substantially less common.",
+    "hints": "📝 <i><b><br/>▣ মহাবিশ্বে থাকা সবচেয়ে প্রাচুর্যপূর্ণ গ্যাস হলো হাইড্রোজেন এবং দ্বিতীয় হলো হিলিয়াম।</b></i><br/>▣ পক্ষান্তরে পৃথিবীর বায়ুমণ্ডলে সবচেয়ে বেশি পরিমাণে রয়েছে নাইট্রোজেন গ্যাস।<br/><br/>▣ হাইড্রোজেন গ্যাস মহাবিশ্বের মৌলিক গঠনের প্রায় 75% (ভর) তৈরি করে। এটি আমাদের সূর্য সহ নক্ষত্রগুলিতে প্রচুর পরিমাণে পাওয়া যায় এবং এটি পারমাণবিক ফিউশন প্রতিক্রিয়াগুলির জন্য প্রাথমিক জ্বালানী উৎস। হাইড্রোজেন আন্তঃনাক্ষত্রিক মহাকাশেও প্রচুর পরিমাণে উপস্থিত থাকে এবং এটি আণবিক মেঘের একটি মূল উপাদান যেখানে নতুন তারকা গঠিত হয়।<br/>▣ মহাবিশ্বের দ্বিতীয় সর্বোচ্চ উপাদান হচ্ছে হিলিয়াম, প্রায় ২৫%। হাইড্রোজেন ও হিলিমায় যৌথভাবে মহাবিশ্বের ৯৯.৯% উপাদান গঠন করেছে।<br/>▣ এই সারিতে তৃতীয় অবস্থানে রয়েছে অক্সিজেন।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298282,
+    "question": "What is the term for the area where the river meets the ocean?",
+    "options": [
+      "Inlet",
+      "Delta",
+      "Fjord",
+      "Estuary"
+    ],
+    "correct_answer": "Estuary",
+    "explanation": "An estuary is an area where a freshwater river or stream meets the ocean. In estuaries, the salty ocean mixes with a freshwater river, resulting in brackish water. Brackish water is somewhat salty, but not as salty as the ocean. An estuary may also be called a bay, lagoon, sound, or slough.",
+    "hints": "📝 <b>নদী</b><br/>❐ মোহনা: নদী যখন কোন হ্রদ বা সাগরে এসে পতিত হয়, তখন সেই পতিত স্থানকে মোহনা বলে।<br/>❐ বিশেষত, একটি মোহনা হল একটি নদীর প্রশস্ত অংশ যেখানে এটি সমুদ্রে প্রবাহিত হয়। মোহনার কিছু প্রধান বৈশিষ্ট্য:<br/>❐ অন্যদিকে,<br/>❐ খাঁড়ি: নদীর অধিক বিস্তৃত মোহনাকে বলা হয় খাঁড়ি।<br/>❐ দোয়াব: প্রবাহমান দুইটি নদীর মধ্যবর্তী ভূমিকে দোয়াব বলে।<br/>❐ নদী উপত্যকা: উৎস থেকে মোহনা পর্যন্ত যে খাতের মধ্য দিয়ে নদী প্রবাহিত হয় সে খাতকে উক্ত নদী উপত্যকা বলে।<br/>❐ উৎস- ভূগোল ও পরিবেশ, ৯ম-১০ম শ্রেণি এবং ভূগোল ও পরিবেশ,এসএসসি পোগ্রাম, উন্মুক্ত বিশ্ববিদ্যালয়।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298283,
+    "question": "Which country is known as the \"Land of Cakes\"?",
+    "options": [
+      "Scotland",
+      "Belgium",
+      "Italy",
+      "France"
+    ],
+    "correct_answer": "Scotland",
+    "explanation": "",
+    "hints": "📝 দেশ:<br/>▣ <b>স্কটল্যান্ড \"কেকের দেশ\" নামে পরিচিত।</b><br/>▣ স্কটল্যান্ড হল ডান্ডী কেক, এডিনবার্গ কেক, ক্রানাচান এবং ব্ল্যাক বুনের মতো অনেক প্রিয় কেকের জন্য বিখ্যাত। <br/>▣ সেলকির্ক ব্যানক, স্কচ প্যানকেকস, স্কটিশ ওটকেকস এবং পিটকেথলি ব্যানকের মতো আঞ্চলিক বিশেষত্ব হল স্কটিশ বেকড পণ্য।<br/>▣ স্কটল্যান্ডের সমৃদ্ধ বেকিং ঐতিহ্য এবং ইতিহাসকে তুলে ধরার জন্য ১৯ শতকের প্রথম দিক থেকে \"কেকের ভূমি\" শব্দটি ব্যবহার করা হয়েছে।<br/>▣ এটি রবার্ট লুই স্টিভেনসনের মতো লেখকদের বিখ্যাত রচনাগুলিতে উপস্থিত হয়েছিল।<br/>▣ স্কটল্যান্ডে ঐতিহাসিকভাবে প্রচুর পরিমাণে ওটস, গম, দুগ্ধজাত খাবার এবং ফলের মতো কেক ব্যবহার করা হয়।<br/>▣ তাই স্কটল্যান্ড স্কটিশ রন্ধনপ্রণালীর একটি গুরুত্বপূর্ণ অংশ কেক তৈরি এবং বেকিং এর বিস্তৃত ইতিহাস এবং উদ্ভাবনের কারণে \"ল্যান্ড অফ কেক\" বলা হয়।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298284,
+    "question": "Tartar tribe lives in -",
+    "options": [
+      "China",
+      "Russia",
+      "Greece",
+      "Belgium"
+    ],
+    "correct_answer": "Russia",
+    "explanation": "",
+    "hints": "📝 <b>জনগোষ্ঠী:</b><br/>▣ তাতার বা তারতার  তুর্কি-ভাষী জনগোষ্ঠী।<br/>▣ তাতার বা তারতার জনগোষ্ঠী জনসংখ্যায় ৫ মিলিয়নেরও বেশি।<br/>▣ এই জনগোষ্ঠী ভলগা নদী কেন্দ্রীক  পশ্চিম-মধ্য <b>রাশিয়ায়</b> বাস করে।<br/>▣ কাজাখস্তানে এবং পশ্চিম সাইবেরিয়ায়  ও কিছু তাতাররাও বসবাস করে।<br/>▣ তাতার সমাজের মধ্যে বিভিন্ন স্তরবিন্যাস ১৯১৭ সালের রাশিয়ান বিপ্লব পর্যন্ত অব্যাহত ছিল।<br/>▣ চেঙ্গিস খানের সাম্রাজ্য ভেঙ্গে যাওয়ার পর, তাতাররা বেশিরভাগ  রাশিয়া অঞ্চলে অন্তর্ভুক্ত ছিল এবং গোল্ডেন হোর্ড নামে পরিচিত ছিল। <br/>❐ এছাড়াও,<br/>▣ ৯ম থেকে ১৫ শতকের মধ্যে, তাতার অর্থনীতি মিশ্র চাষ এবং পশুপালনের উপর ভিত্তি করে তৈরি হয়েছিল, যা এখনও অব্যাহত রয়েছে।<br/>▣ তাতাররাও কাঠ, সিরামিক, চামড়া, কাপড় এবং ধাতুতে কারুশিল্পের একটি ঐতিহ্য গড়ে তুলেছিল এবং তারা দীর্ঘদিন ধরে ব্যবসায়ী হিসেবে পরিচিত ছিল।<br/>❐ অন্যদিকে,<br/>▣ চীনে প্রায় ৫,১০০জন তাতার রয়েছে, যাদের অধিকাংশই জিনজিয়াং উইগুর স্বায়ত্তশাসিত অঞ্চলের ইইনিং, তাচেং এবং উরুমকিতে বসবাস করে। <b>[অধিক গ্রহনযোগ্য হিসেবে রাশিয়া উত্তর নেওয়া হয়েছে।]</b>\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298285,
+    "question": "In a class of 65 students and 4 teachers, each student got sweets that are 20% of the total number of students and each teacher got sweets that are 40% of the total number of students. How many sweets are there?",
+    "options": [
+      "949",
+      "104",
+      "897",
+      "845"
+    ],
+    "correct_answer": "949",
+    "explanation": "",
+    "hints": "📝 <b>Question:</b> In a class of 65 students and 4 teachers, each student got sweets that are 20% of the total number of students and each teacher got sweets that are 40% of the total number of students. How many sweets are there?<br/>❐ <u><b>Solution:</b></u><br/>❐ There are 65 students and 4 teachers<br/>❐ Each student got sweets that are 20% of the total number of students.<br/>❐ So each student got sweets = 65 × 20% <br/> = 13 sweets.<br/>  ∴ Total sweets for students is = 65 × 13 = 845<br/>❐ Each teacher got sweets that are 40% of the total number of students. <br/>❐ So each teacher got sweets = 65 × 40% = 26 sweets.<br/>❐ There are 4 teachers, so total sweets for teachers = 4 × 26 = 104<br/>  ∴ Total sweets = sweets for students + sweets for teachers <br/> = 845 + 104 <br/> = 949<br/>❐ Therefore, the total number of sweets is 949.\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298286,
+    "question": "The present age of three persons are in the proportion of 4:7:9. Eight years ago, the sum of their ages was 56 years. The present age of the eldest person is -",
+    "options": [
+      "45",
+      "28",
+      "None of these",
+      "36"
+    ],
+    "correct_answer": "36",
+    "explanation": "",
+    "hints": "📝 <b>Question:</b> The present age of three persons are in the proportion of 4 : 7 : 9. Eight years ago, the sum of their ages was 56 years. The present age of the eldest person is - <b>Solution: </b><br/>❐ Let, present ages of three persons 4x, 7x, 9x <br/>❐ Eight years ago, the sum of their ages was 56 years<br/>❐ At present, the sum of their ages is = 56 + 8 + 8 + 8 <br/> = 56 + 24 years <br/> = 80 years <br/>❐ 4x + 7x + 9x = 80 <br/> ➾ 20x = 80<br/> ➾ x = 4 <br/>❐ The present age of the eldest person is = 4 × 9 = 36 years \r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298287,
+    "question": "A cricketer whose bowling average is 12.4 runs per wicket takes 5 wickets for 26 runs and thereby decreases his average by 0.4. The number of wickets taken by him till the last match was-",
+    "options": [
+      "80",
+      "64",
+      "85",
+      "72"
+    ],
+    "correct_answer": "85",
+    "explanation": "",
+    "hints": "📝 Question:  A cricketer whose bowling average is 12.4 runs per wicket takes 5 wickets for 26 runs and thereby decreases his average by 0.4. The number of wickets taken by him till the last match was -<br/>❐ Solution: <br/>❐ Let the cricketer takes x wickets before last match <br/>❐ Total run = 12.4x + 26 <br/>❐ New average = (12.4x + 26) / (x + 5)<br/>❐ ATQ,<br/>❐ (12.4x + 26) / (x + 5) = 12.4 - 0.4 <br/> ➾ (12.4x + 26) = 12 (x + 5)<br/> ➾ 12.4x - 12x = 60 - 26<br/> ➾ 0.4x = 34<br/> ➾ x = 34/0.4<br/> = 85 <br/>❐ The number of wickets taken by him till the last match was = 85 wickets \r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298288,
+    "question": "Three boys agree to divide a bag of marbles in the following manner. The first boy takes one more than half the marbles. The second takes a third of the number remaining. The third boy finds that he is left with twice as many marbles as the second boy. The original number of marbles is-",
+    "options": [
+      "32",
+      "38",
+      "Cannot be determined",
+      "36"
+    ],
+    "correct_answer": "Cannot be determined",
+    "explanation": "",
+    "hints": "📝 Question: Three boys agree to divide a bag of marbles in the following manner. The first boy takes one more than half the marbles. The second takes a third of the number remaining. The third boy finds that he is left with twice as many marbles as the second boy. The original number of marbles is -<br/>❐ Solution: <br/>❐ মোট মার্বেল সংখ্যা ৩৮ হলে, <br/>❐ প্রথম জন পাবে = (৩৮/২) + ১ = ১৯ + ১ = ২০ <br/>❐ দ্বিতীয় জন পাবে = (৩৮ - ২০)/৩ = ১৮/৩ = ৬ <br/>❐ তৃতীয় জন পায় = ৩৮ - (২০ + ৬) = ৩৮ - ২৬ = ১২ ; যা দ্বিতীয় জনের দ্বিগুণ।  <br/>❐ মোট মার্বেল সংখ্যা ৩৬ হলে, <br/>❐ প্রথম জন পাবে = (৩৬/২) + ১ = ১৮ + ১ = ১৯<br/>❐ দ্বিতীয় জন পাবে = (৩৬ - ১৯)/৩ = ১৭/৩  <br/>❐ তৃতীয় জন পায় = ৩৮ - (১৯ + ১৭/৩) = ৩৪/৩ ; যা দ্বিতীয় জনের দ্বিগুণ। <br/>❐ মোট মার্বেল সংখ্যা ৩২ হলে, <br/>❐ প্রথম জন পাবে = (৩২/২) + ১ = ১৬ + ১ = ১৭ <br/>❐ দ্বিতীয় জন পাবে = (৩২ - ১৭)/৩ = ১৫/৩ = ৫ <br/>❐ তৃতীয় জন পায় = ৩২ - (১৭ + ৫) = ৩২ - ২২ = ১০ ; যা দ্বিতীয় জনের দ্বিগুণ। <br/>❐ অতএব, প্রশ্নের প্রদত্ত তথ্য অনুযায়ী তিনটিই উত্তর হিসেবে গ্রহণযোগ্য। মূলত কয়টি মার্বেল ছিল তা নির্ণয় করার জন্য পর্যাপ্ত তথ্য প্রশ্নে দেয়া নেই।\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298289,
+    "question": "To fill a tank, 25 buckets of water are required. How many buckets of water will be required to fill the same tank if the capacity of the bucket is reduced to two-fifth of its present capacity?",
+    "options": [
+      "10",
+      "62.5",
+      "Cannot be determined",
+      "35"
+    ],
+    "correct_answer": "62.5",
+    "explanation": "",
+    "hints": "📝 <b>Question:</b> To fill a tank, 25 buckets of water are required. How many buckets of water will be required to fill the same tank if the capacity of the bucket is reduced to two-fifth of its present capacity?<br/>❐ <u><b>Solution:</b></u><br/>❐ Let, <br/>❐ the capacity of 1 bucket = x<br/>❐ the capacity of tank = 25x <br/>❐ Capacity of the new bucket = 2x/5<br/>  ∴ Required number of buckets = 25x/(2x/5)<br/> = (25x × 5)/2x<br/> = 125/2<br/> = 62.5\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298290,
+    "question": "If 3 sides of a triangle are 6 cm, 8 cm, and 10 cm, then the altitude of the triangle, using the largest side as its base, will be-",
+    "options": [
+      "6 cm",
+      "4.8 cm",
+      "8 cm",
+      "4.4 cm"
+    ],
+    "correct_answer": "4.8 cm",
+    "explanation": "",
+    "hints": "📝 <b>Question:</b> If 3 sides of a triangle are 6 cm, 8 cm, and 10 cm, then the altitude of the triangle, using the largest side as its base, will be -<br/>❐ <u><b>Solution:</b></u><br/>❐ Semi perimeter of the triangle is, S = (6 + 8 + 10)/2 <br/> = 12 cm<br/>❐ Area of the triangle is = √{s(s - a)(s - b)(s - c)}<br/> = √{12(12 - 6) (12 - 8) (12 - 10)<br/> = √(12 × 6 × 4 × 2)<br/> = √576<br/> = 24 sq. cm<br/>❐ Area of the triangle = (1/2) × base x height<br/> ➾ 24 = (1/2) × b × h<br/> ➾ b × h = 48<br/> ➾ h = 48/b<br/> ➾ h = 48/10<br/>  ∴ h = 4.8 cm\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298291,
+    "question": "A circle and a rectangle have the same perimeter. The sides of the rectangle are 18 cm and 26 cm. what is the area of the circle?",
+    "options": [
+      "154 sq. cm",
+      "1250 sq. cm",
+      "88 sq. cm",
+      "616 sq. cm"
+    ],
+    "correct_answer": "616 sq. cm",
+    "explanation": "",
+    "hints": "📝 <b>Question:</b> A circle and a rectangle have the same perimeter. The sides of the rectangle are 18 cm and 26 cm. what is the area of the circle?<br/>❐ <u><b>Solution:</b></u><br/>❐ Perimeter of the rectangle =2(18 + 26)<br/> = 88 cm<br/>  ∴ Circumference of circle = 88 cm<br/> ➾ 2πr = 88<br/> ➾ r = 88/2π<br/> ➾ r = (88 × 7)/(2 × 22)<br/>  ∴ r = 14 cm<br/>  ∴ Area of circle = πr²<br/> = (22/7) × (14)²<br/> = 616 sq. cm\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298292,
+    "question": "The area of a rectangular field is 52000 sq. meters. This rectangular area has been drawn on a map to the scale 1 cm to 100 m. The length is shown as 3.25 cm on the map. The breadth of the rectangular field in the map is -",
+    "options": [
+      "160 cm",
+      "1.6 m",
+      "1.6 cm",
+      "160 m"
+    ],
+    "correct_answer": "1.6 cm",
+    "explanation": "উত্তর<br/>একটি আয়তক্ষেত্রাকার ক্ষেত্রের ক্ষেত্রফল হল 52000 m2 এর জন্য ধাপে ধাপে ভিডিও এবং চিত্র সমাধান। এই আয়তক্ষেত্রাকার এলাকাটি একটি মানচিত্রে 1 সেমি থেকে 100 মিটার স্কেলে আঁকা হয়েছে। মানচিত্রে দৈর্ঘ্য 3.25 সেমি হিসাবে দেখানো হয়েছে। আয়তক্ষেত্রাকার ক্ষেত্রের প্রস্থ হল (a) 150m (b) 160m (c) 200.5m (d) 300.5m গণিত বিশেষজ্ঞরা আপনাকে সন্দেহ দূর করতে এবং 14 তম শ্রেণির পরীক্ষায় চমৎকার নম্বর পেতে সাহায্য করে।",
+    "hints": "📝 <b>Question:</b> The area of a rectangular field is 52000 sq. meters. This rectangular area has been drawn on a map to the scale 1 cm to 100 m. The length is shown as 3.25 cm on the map. The breadth of the rectangular field in the map is -<br/>❐ <u><b>Solution:</b></u><br/>❐ Length of the field = (3.25 × 100) m <br/> = 325 m<br/>❐ We know,<br/>❐ Length × Breadth = 52000<br/>❐ Or, Breadth = 52000/325<br/>  ∴ Breadth of the field = 160 m.<br/>❐ The breadth of the rectangular field in the map is = 160/100 cm<br/> = 1.6 cm\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298293,
+    "question": "A square park is surrounded by a path of uniform width 2 meters all around it. The area of the path is 288 sq. meters. Find the perimeter of the park.",
+    "options": [
+      "136 m",
+      "34 m",
+      "Cannot be determined",
+      "1156 m"
+    ],
+    "correct_answer": "136 m",
+    "explanation": "",
+    "hints": "📝 <b>Question:</b> A square park is surrounded by a path of uniform width 2 meters all around it. The area of the path is 288 sq. meters. Find the perimeter of the park.<br/>❐ <u><b>Solution:</b></u><br/>❐ Let, one side of the park is x meter.<br/>❐ So, one side of the park with path = x + (2 + 2) <br/> = x + 4<br/>❐ We know,<br/>❐ Area of the park = x²<br/>❐ Area of the path, (x + 4)² - x² = 288<br/> ➾ x² + 8x + 16 - x² = 288 <br/> ➾ 8x + 16 = 288<br/> ➾ 8x = 288 - 16<br/> ➾ 8x = 272<br/> ➾ x = 272/8<br/>  ∴ x = 34<br/>❐ One side of the square = 34 m.<br/>❐ So, perimeter of the square =4 × 34 <br/> = 136 m\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298294,
+    "question": "P and Q started a business in the ratio of 2: 3. After 2 years P left the business but Q continued. After 3 years he had a profit of Tk.26000. What was the profit of P?",
+    "options": [
+      "Tk.18000",
+      "Tk.8000",
+      "No Profit",
+      "Tk. 15600"
+    ],
+    "correct_answer": "Tk.8000",
+    "explanation": "",
+    "hints": "📝 <b>Question:</b> P and Q started a business in the ratio of 2 : 3. After 2 years P left the business but Q continued. After 3 years he had a profit of Tk 26000. What was the profit of P?<br/>❐ <u><b>Solution:</b></u><br/>❐ Let,<br/>❐ the initial capital of P and Q be Tk. 2x and Tk. 3x respectively.<br/>❐ Then, ratio of profits = (2x × 24) : (3x × 36)<br/> = (2x × 2) : (3x × 3)<br/> = 4x : 9y<br/> = 4 : 9<br/>  ∴ Profit of P = 26000 × (4/13)<br/> = 2000 × 4<br/> = Tk. 8000\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298295,
+    "question": "If the average of 'm' numbers is n2 and that of 'n' numbers is m2, then the average of (m + n) numbers is -",
+    "options": [
+      "m/n",
+      "m+n",
+      "mn",
+      "m-n"
+    ],
+    "correct_answer": "mn",
+    "explanation": "",
+    "hints": "📝 <b>Question:</b> If the average of 'm' numbers is n² and that of 'n' numbers is m², then the average of (m + n) numbers is - <br/>❐ <u><b>Solution:</b></u><br/>❐ Sum of m numbers = mn²<br/>❐ Sum of n numbers = nm²<br/>  ∴ Sum of m and sum of n numbers = mn² + nm²<br/> = mn(n + m)<br/>  ∴ Average of (m + n) numbers = mn(n + m)/(m + n)<br/> = mn\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298296,
+    "question": "If \\(\\frac{{x}}{{{2}{x}+{y}+{z}}}=\\frac{{y}}{{{x}+{2}{y}+{z}}}=\\frac{{z}}{{{x}+{y}+{2}{z}}}={a}\\)</u>then find the value of ‘a’ if (x+y+z)≠0",
+    "options": [
+      "1/4",
+      "1/2",
+      "1/8",
+      "1/3"
+    ],
+    "correct_answer": "1/4",
+    "explanation": "<br data-mce-bogus=\"1\"><br/>",
+    "hints": "❐ <u><b>Solution:</b></u><br/>❐ Given,<br/>❐ x/(2x + y + z) = a<br/> ➾ x = a(2x + y + z) .................... (1)<br/>❐ y/(x + 2y + z) = a<br/> ➾ y = a(x + 2y + z) .................... (2)<br/>❐ z/(x + y + 2z) = a<br/> ➾ z = a(x + y + 2z) .................... (3)<br/>❐ (1) + (2) + (3) <br/>❐ x + y + z = a(2x + y + z + x + 2y + z + x + y + 2z)<br/> ➾ x + y + z = a(4x + 4y + 4z)<br/> ➾ x + y + z = 4a( x + y + z)<br/> ➾ 4a = (x + y + z)/(x + y + z)<br/> ➾ 4a = 1<br/>  ∴ a = 1/4",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298297,
+    "question": "One third of Aman's marks in Mathematics exceeds a half of his marks in English by 30. If he got 240 marks in the two subjects together, how many marks did he get in English?",
+    "options": [
+      "90",
+      "180",
+      "60",
+      "120"
+    ],
+    "correct_answer": "60",
+    "explanation": "",
+    "hints": "📝 <b>Question: </b>One third of Aman's marks in Mathematics exceeds a half of his marks in English by 30. If he got 240 marks in the two subjects together, how many marks did he get in English?<br/>❐ <u><b>Solution:</b></u><br/>❐ Let, Aman's marks in Mathematics be x and marks in English be y.<br/>❐ Total marks in both the subject = 240<br/>  ∴ x + y = 240<br/> ➾ 2(x + y) = 240 × 2<br/> ➾ 2x + 2y = 480 ..................(1)<br/>❐ (x/3) - (y/2) = 30<br/> ➾ (2x - 3y)/6 = 30<br/> ➾ 2x - 3y = (30 × 6)<br/> ➾ 2x - 3y = 180 ..................(2)<br/>❐ Subtracting equation (1) from equation (2) we get,<br/>❐ 2x - 3y = 180<br/>❐ <u>2x + 2y = 480</u><br/>▣ 5y = - 300<br/> ➾ y = - 300/- 5<br/>  ∴ y = 60<br/>  ∴ He scored 60 marks in English.\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298298,
+    "question": "Find the largest number of 5-digits which, when divided by 16, 24, 30 or 36, leaves the same remainder 10 each case.",
+    "options": [
+      "99350",
+      "99370",
+      "99340",
+      "99360"
+    ],
+    "correct_answer": "99370",
+    "explanation": "",
+    "hints": "📝 Question: Find the largest number of 5-digits which, when divided by 16, 24, 30 or 36, leaves the same remainder 10 each case.<br/>❐ Solution: <br/>❐ ১৬ = ২ × ২ × ২ × ২<br/>❐ ২৪ = ২ × ২ × ২ × ৩ <br/>❐ ৩০ = ২ × ৩ × ৫ <br/>❐ ৩৬ = ৩ × ৩ × ২ × ২<br/>❐ ১৬, ২৪, ৩০, ৩৬ এর ল সা গু = ২ × ২ × ২ × ২  × ৩ × ৩ × ৫ <br/> = ১৬ × ৯ ×৫ <br/> = ৭২০ <br/>❐ পাঁচ অঙ্কের বৃহত্তম সংখ্যা ৯৯৯৯৯ কে ৭২০ দ্বারা ভাগ করলে ৬৩৯ অবশিষ্ট থাকে। <br/>❐ অতএব ৭২০ দ্বারা বিভাজ্য ৫ অঙ্কের বৃহত্তম সংখ্যা = ৯৯৯৯৯ - ৬৩৯ <br/> = ৯৯৩৬০ <br/>  ∴ নির্ণেয় সংখ্যাটি হবে = ৯৯৩৬০ + ১০ <br/> = ৯৯৩৭০ <br/>❐  \r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298299,
+    "question": "P and Q are two positive integers such that PQ = 64 Which of the following cannot be the value of P +Q?",
+    "options": [
+      "35",
+      "16",
+      "65",
+      "20"
+    ],
+    "correct_answer": "35",
+    "explanation": "",
+    "hints": "📝 <b>Question: </b>P and Q are two positive integers such that PQ = 64. Which of the following cannot be the value of P + Q?<br/>❐ <u><b>Solution:<br/>❐ </b></u>Given,<br/>❐ P and Q are two positive integers and PQ = 64<br/>❐ 64 = 1 × 64<br/> = 2 × 32<br/> = 4 × 16<br/> = 8 × 8<br/>❐ The possible combinations of (P, Q) <br/>❐ So that, the product is 64 are (1, 64), (2, 32), (4, 16) and (8, 8)<br/>  ∴ P + Q cannot be 35.\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298300,
+    "question": "Tk.6000 becomes Tk.7200 in 4 years at a certain rate of simple interest. If the rate becomes 1.5 times of itself, the amount of same principal in 5 years will be-",
+    "options": [
+      "Tk.9000",
+      "Tk.8000",
+      "Tk.9250",
+      "Tk.8250"
+    ],
+    "correct_answer": "Tk.8250",
+    "explanation": "",
+    "hints": "📝 Question: Tk. 6000 becomes Tk. 7200 in 4 years at a certain rate of simple interest. If the rate becomes 1.5 times of itself, the amount of same principal in 5 years will be -<br/>❐ Solution: <br/>❐ ৬০০০ টাকা ৪ বছরে ৭২০০ টাকা হয়। <br/>❐ ৪ বছরে সুদ = ৭২০০ - ৬০০০ টাকা <br/> = ১২০০ টাকা <br/>❐ ১ বছরে সুদ = ১২০০/৪ = ৩০০ টাকা <br/>❐ ১.৫ গুণ বৃদ্ধিতে ১ বছরে সুদ = ৩০০ × ১.৫ টাকা <br/> = ৪৫০ টাকা <br/>❐ ৫ বছরে সুদ = ৪৫০ × ৫ টাকা <br/> = ২২৫০ টাকা <br/>  ∴ ৫ বছর পর সুদাসলে হবে = ৬০০০ + ২২৫০ টাকা <br/> = ৮২৫০ টাকা <br/>❐  \r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298301,
+    "question": "When 30% of one number is subtracted from another number, the second number reduces to its four-fifths. What is the ratio of the first to the second number?",
+    "options": [
+      "2 : 5",
+      "3 : 2",
+      "4 : 7",
+      "2 : 3"
+    ],
+    "correct_answer": "2 : 3",
+    "explanation": "",
+    "hints": "📝 <b>Question:</b> When 30% of one number is subtracted from another number, the second number reduces to its four-fifths. What is the ratio of the first to the second number? <br/>❐ <u><b>Solution:</b></u><br/>❐ Let,<br/>❐ the first and second numbers be x and y,<br/>❐ ATQ,<br/>❐ y - 30% of x = y (4/5)<br/> ➾ y - (30x/100) = 4y/5<br/> ➾ y - (3x/10) = 4y/5<br/> ➾ (10y - 3x)/10 = 4y/5<br/> ➾ (10y - 3x)/2 = 4y<br/> ➾ 10y - 3x = 8y<br/> ➾ - 3x = 8y - 10y<br/> ➾ 3x = 2y<br/> ➾ x/y = 2/3<br/>  ∴ x : y = 2 : 3\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298302,
+    "question": "Fresh grapes contain 80 percent water while dry grapes contain 10 percent water. If the weight of the dry grapes is 250 kg what is total weight when it was fresh?",
+    "options": [
+      "1125 kg",
+      "1000 kg",
+      "1225 kg",
+      "1100 kg"
+    ],
+    "correct_answer": "1125 kg",
+    "explanation": "",
+    "hints": "📝 <b>Question:</b> Fresh grapes contain 80 percent water while dry grapes contain 10 percent water. If the weight of the dry grapes is 250 kg what is total weight when it was fresh?<br/>❐ <u><b>Solution:<br/>❐ </b></u>Quantity of water in 250 kg dry grapes = 250 × (10/100)<br/> = 25 kg<br/>❐ Then, pulp of grapes = (250 - 25) kg = 225 kg.<br/>❐ We get 20 kg pulp in 100 kg fresh grapes <br/>❐ To get 225 kg pulp, we need fresh grapes = (100 × 225)/20 kg<br/> = 1125 kg.\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298303,
+    "question": "A man purchases two clocks A and B at a total cost of Tk 650. He sells A with a 20% profit and B at a loss of 25% and gets the same selling price for both clocks. What are the purchasing prices of A and B respectively?",
+    "options": [
+      "300, 350",
+      "225, 425",
+      "250, 400",
+      "275, 375"
+    ],
+    "correct_answer": "250, 400",
+    "explanation": "",
+    "hints": "📝 Question: A man purchases two clocks A and B at a total cost of Tk. 650. He sells A with a 20% profit and B at a loss of 25% and gets the same selling price for both clocks. What are the purchasing prices of A and B respectively?<br/>❐ Solution: <br/>❐ Let<br/>❐ selling price  for both clocks is x taka<br/>❐ Purchasing price of A is = x/1.2 taka<br/>❐ Purchasing price of B is = x/0.75 taka <br/>❐ Now<br/>❐ (x/1.2) + (x/0.75 ) = 650 <br/> ➾ (100x/120) + (100x/75) = 650 <br/> ➾ x/120 + x/75 = 650/100 <br/> ➾ x (5 + 8)/600 = 650/100 <br/> ➾ x = (650 × 600)/ (100 × 13) <br/> = 300 Taka <br/>❐ Purchasing price of A is = x/1.2 taka = 300/1.2 taka = 250 taka<br/>❐ Purchasing price of B is = x/0.75 taka = 300/0.75 = 400 taka\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298304,
+    "question": "The profit earned by selling an article for Tk 900 is double the loss incurred when the same article is sold for Tk 450. At what price should the article be sold to make 25% profit?",
+    "options": [
+      "Tk:600",
+      "Tk.750",
+      "Data Inadequate",
+      "Tk.800"
+    ],
+    "correct_answer": "Tk.750",
+    "explanation": "",
+    "hints": "📝 <b>Question: </b>The profit earned by selling an article for Tk 900 is double the loss incurred when the same article is sold for Tk 450. At what price should the article be sold to make 25% profit?<br/>❐ <u><b>Solution:</b></u> <br/>❐ Let,<br/>❐ The cost price be Tk. x. <br/>❐ ATQ,<br/>❐ 900 - x = 2(x - 450)<br/> ➾ 900 - x = 2x - 900<br/> ➾ 2x + x = 900 + 900<br/> ➾ 3x = 1800<br/> ➾ x = 1800/3<br/>  ∴ x = 600<br/>  ∴ Cost price = Tk. 600, <br/>❐ Profit = 25%<br/>  ∴ The selling price of the article = Tk. (600 × 125)/100<br/> = Tk. 750\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298305,
+    "question": "Find the odd word from the following options.",
+    "options": [
+      "Acclaim",
+      "Plaudit",
+      "Revere",
+      "Approbation"
+    ],
+    "correct_answer": "Revere",
+    "explanation": "<p>Revere means respected in religious sense.</p><br/><p>Otger words means respected in general.</p><br/>",
+    "hints": "📝 ক) Plaudit (noun):<br/>❐ English Meaning - Praise. <br/>❐ Bangla Meaning - অনুমোদনসূচক চিৎকার, করতালি বা অন্য সংকেত; প্রশংসাধ্বনি; জয়শব্দ।<br/>❐ খ) Approbation (noun): <br/>❐ English Meaning - Approval or agreement, often given by an official group. <br/>❐ Bangla Meaning - (আনুষ্ঠানিক) অনুমোদন; ক্ষমতা বা অধিকার দান।<br/>❐ গ) Acclaim (noun): <br/>❐ English Meaning - Public approval and praise. <br/>❐ Bangla Meaning - করতালি; সমর্থন; জয়ধ্বনি।<br/>❐ ঘ) <b>Revere </b>(verb): <br/>❐ English Meaning - To very much respect and admire someone or something. <br/>❐ Bangla Meaning - গভীরভাবে শ্রদ্ধা করা; পবিত্র হিসেবে শ্রদ্ধা করা। <br/>❐ <b><br/>▣ অপশনসমূহ বিবেচনা করে দেখা যায়, ব্যতিক্রম শব্দটি হচ্ছে Revere. </b><br/>❐ কেননা, বাকি তিনটি শব্দ কোন কিছু সমর্থন বা প্রশংসা করার ক্ষেত্রে positive meaning প্রকাশ করে। <br/>❐ আর, <b>Revere </b>দ্বারা কাউকে গভীরভাবে শ্রদ্ধা করা বুঝায়। \r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298306,
+    "question": "Three of the following words are related in some way. Which is not related to others?",
+    "options": [
+      "Percolation",
+      "Drip",
+      "Effluence",
+      "Intrusion"
+    ],
+    "correct_answer": "Intrusion",
+    "explanation": "",
+    "hints": "📝 অপশনে উল্লেখিত শব্দগুলোর অর্থ -<br/>❐ ক) Drip (verb): <br/>❐ English Meaning - If a liquid drips, it falls in drops, or you make it fall in drops. <br/>❐ Bangla Meaning - (তরল পদার্থ) ফোঁটায় ফোঁটায় পড়া বা পড়তে দেওয়া; ঝরা বা ঝরানো। <br/>❐ খ) <b>Intrusion </b>(noun): <br/>❐ English Meaning - An occasion when someone goes into a place or situation where they are not wanted or expected to be. <br/>❐ Bangla Meaning - অনাহূতপ্রবেশ; অবাঞ্ছিতপ্রবেশ। <br/>❐ গ) Percolation (noun): <br/>❐ English Meaning - The process of a liquid moving slowly through a substance that has very small holes in it. <br/>❐ Bangla Meaning - অনুস্রবণ। <br/>❐ ঘ) Effluence (noun): <br/>❐ English Meaning - A substance that flows out from something.<br/>❐ Bangla Meaning - প্রবাহ। <br/>▣ অপশনসমূহ বিবেচনা করে দেখা যায়, ব্যতিক্রম শব্দটি হচ্ছে <b>Intrusion</b>. <br/>▣ কেননা, বাকি তিনটি শব্দ প্রবাহীর প্রবাহ বুঝায়। <br/>▣ আর, <b>Intrusion দ্বারা কাউকে গভীরভাবে শ্রদ্ধা করা বুঝায়। <br/>❐ </b>Source: Accessible Dictionary by Bangla Academy.\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298307,
+    "question": "Find the synonym of the underlined word in the sentence 'I [relinquished] my place in line to back and talk with my friend\".",
+    "options": [
+      "yielded",
+      "defended",
+      "remanded",
+      "delayed"
+    ],
+    "correct_answer": "yielded",
+    "explanation": "",
+    "hints": "📝 <b><br/>▣ Relinquish</b> (verb): <br/>❐ English Meaning - To give up something such as a responsibility or claim. <br/>❐ Bangla Meaning - ছেড়ে দেওয়া; ত্যাগ করা; বর্জন/উৎসর্জন করা। <br/>❐ <b><br/>▣ Given options: </b>সব গুলো অপশন past form এ রয়েছে।<br/>❐ ক) Defend (verb) - রক্ষা বা আত্মরক্ষা করা; নিরাপত্তাবিধান করা।<br/>❐ খ) Delay (verb) - বিলম্ব/দেরি করা; বিলম্ব/দেরি করানো; কালক্ষেপ করা। <br/>❐ <b>গ) Yield </b>(verb) - আত্মসমর্পণ করা; বিরোধিতা করা থেকে বিরত হওয়া। <br/>❐ ঘ) Remand (verb) - পুলিশের হেফাজতে পাঠানো; পুনঃপ্রেষণ করা। <br/>▣ অপশনসমূহ বিবেচনা করে দেখা যায়, উল্লেখিত অপশন গুলোর মধ্যে- <b>Yielded </b>শব্দটি Relinquish এর সমার্থক অর্থ প্রকাশ করছে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298308,
+    "question": "Select the word that cannot be replaced for the word underlined in the sentence “The speaker's address about a career is a little nebulous at this point”.",
+    "options": [
+      "vague",
+      "sententious",
+      "tenuous",
+      "jumbled"
+    ],
+    "correct_answer": "sententious",
+    "explanation": "<p>Sententious অর্থ সংক্ষিপ্ত অথবা সরস ভঙ্গিত বলতে অথবা লিখতে অভ্যস্ত। Nebulous অর্থ ঝাপসা, অস্পষ্ট; Vogue অর্থ অস্পষ্ট, আবছা; Tenuous অর্থ ক্ষীণ, সরু; Jumble অর্থ তালগোল পাকানো।&nbsp;</p><br/>",
+    "hints": "📝 <b><br/>▣ Nebulous </b>(adjective): <br/>❐ English Meaning - Not clear and having no form. <br/>❐ Bangla Meaning - মেঘসদৃশ; ঝাপসা; অস্পষ্ট; ধূমান্ধকার।<br/>▣ অপশনে উল্লেখিত শব্দগুলোর অর্থ -<br/>❐ <b>ক) Sententious </b>(adjective) - সংক্ষিপ্ত অথচ সরস ভঙ্গিতে বলতে বা লিখতে অভ্যস্ত।<br/>❐ খ) Jumbled (noun) - তালগোল পাকানো অবস্থা।<br/>❐ গ) Vague (adjective) -  অস্পষ্ট; ভাসাভাসা; আবছা। <br/>❐ ঘ) Tenuous (adjective) - ক্ষীণ; সরু।<br/>▣ অপশনসমূহ বিবেচনা করে দেখা যায়, সঠিক উত্তরটি হচ্ছে - <b>Sententious. </b><br/>▣ কেননা, Jumbled, Vague, Tenuous হচ্ছে Nebulous এর synonyms. <br/>▣ এই তিনটি শব্দ দিয়ে Nebulous শব্দটিকে replace করা যাবে অন্যদিকে Sententious দ্বারা Nebulous কে replace করা সম্ভব না।\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298309,
+    "question": "Choose the word that forms antonym of original with the prefix 'Ir'",
+    "options": [
+      "responsible",
+      "rational",
+      "All of the these",
+      "resolute"
+    ],
+    "correct_answer": "All of the these",
+    "explanation": "",
+    "hints": "📝 অপশনে উল্লেখিত শব্দগুলোর মধ্যে - <br/>❐ ক) <b>Rational </b>(adjective) - যৌক্তিক, যুক্তিসংক্রান্ত।<br/>▣ Opposite Word - Irrational. <br/>▣ Meaning - বিচারশক্তিহীন; বিচারবুদ্ধিরহিত। <br/>▣ 'Ir' prefix যোগে গঠিত। <br/>❐ খ) <b>Resolute </b>(adjective) - দৃঢ়সংকল্প।<br/>▣ Opposite word - Irresolute. <br/>▣ Meaning - অস্থিরমতি; চলচিত্ত; অস্থিরমনস্ক; অনবস্থিত।<br/>▣ 'Ir' prefix যোগে গঠিত। <br/>❐ গ) <b>Responsible </b>(adjective) - আইনত অথবা নীতিগতভাবে দায়ী। <br/>❐ Opposite word - Irresponsible. <br/>❐ Meaning - আচরণের জন্য দায়ী নয়; দায়িত্বহীন। <br/>▣ 'Ir' prefix যোগে গঠিত। <br/>▣ অর্থাৎ, অপশন গুলো বিবেচনা করলে বোঝা যাচ্ছে যে, অপশনে উল্লেখিত প্রতিটি শব্দই 'Ir' prefix যোগে বিপরীত শব্দ গঠন করতে সক্ষম।<br/>▣ তাই, সঠিক উত্তর হচ্ছে - <b>ঘ) All of the these. <br/>❐ </b>Source: Accessible Dictionary by Bangla Academy.\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298310,
+    "question": "Identify the missing word in the sentence \"Tomal behaves strangely at times and, therefore, nobody gets with him.\"",
+    "options": [
+      "along",
+      "about",
+      "up",
+      "through"
+    ],
+    "correct_answer": "along",
+    "explanation": "",
+    "hints": "📝 <b>Get along (phrasal verb): </b><br/>❐ English Meaning - If two or more people get along, they like each other and are friendly to each other. <br/>❐ Bangla Meaning - (কারো সঙ্গে) পড়তা পড়া বা মানিয়ে চলা। <br/>❐ তাই, missing word টি হচ্ছে - along. <br/>❐ Complete Sentence - <b>'Tomal behaves strangely at times and, therefore, nobody gets along with him.' </b>\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298311,
+    "question": "Identify the missing word in the sentence \"Which method of organizing content points you did feel more comfortable?\"",
+    "options": [
+      "have",
+      "among",
+      "between",
+      "with"
+    ],
+    "correct_answer": "with",
+    "explanation": "",
+    "hints": "📝 Which method of organizing content points you did feel more comfortable? – বাক্যটিকে শুরুতে ভেঙে ভেঙে বুঝা যাক -<br/>❐ ১. “Which method of organizing content points” – এই অংশটি বাক্যের subject.<br/>❐ এখানে “Content points” means - points of a content.<br/>❐ ২. “<b><u>with</u> </b>you” - (বাক্যের প&zwnj;রের অংশের সাথে সম্পর্ক বুঝাচ্ছে অর্থাৎ comfortable with you).<br/>❐ ৩. “did feel” - verb (জোর প্রদানের জন্য এখানে did ব্যবহৃত হয়েছে).<br/>❐ ৪. “more comfortable” - বাক্যে subjective complement হিসেবে ব্যবহৃত হয়েছে।<br/>❐ সম্পূর্ণ বাক্য - \"Which method of organizing content points with you did feel more comfortable?\"<br/>❐ বাক&zwnj;্যটা য&zwnj;দি এভা&zwnj;বে চিন্তা ক&zwnj;রেন, তাহ&zwnj;লে আ&zwnj;রো সহজ হয়,<br/>❐ Which method of organizing content points did feel more comfortable with you?<br/>▣ এর বাংলা অনুবাদ হল:<br/>❐ \"কন্টেন্ট এর প&zwnj;য়েন্টগু&zwnj;লো সাজানোর কোন পদ্ধতি আপনার জন&zwnj;্য অধিক সুবিধাজনক?\"<br/>❐ সুতরাং, বাক্যের missing word হচ্ছে - with.<br/> =<br/>❐ <b>For clearing Confusion –</b><br/>❐ কিছু কিছু সাইটে বাক্যটিকে এভাবে উপস্থাপন করা হয়েছে – <br/>❐ \"Which method of organizing content among points you did feel more comfortable?\" <br/>❐ এভাবে বাক্যটিকে বিবেচনা করলে - বাক্যে you এর অবস্থান grammatically ভুল হয়। কারণ বাক&zwnj;্যটা Interrogative. আর Interrogative এ Auxiliary Verb, Subject এর পূ&zwnj;র্বে ব&zwnj;সে। কিন্তু এখা&zwnj;নে you Subject ধর&zwnj;লে দেখা যা&zwnj;চ্ছে did Auxiliary Verb Subject এর পূ&zwnj;র্বে ব&zwnj;সে নি। <br/>❐ ত&zwnj;বে Subject য&zwnj;দি Wh Word বা Wh Word যুক্ত Phrase হয়, তাহ&zwnj;লে Auxiliary Verb অবশ&zwnj;্যই Subject এর প&zwnj;রে বস&zwnj;বে। তাই এখা&zwnj;নে গঠন অনুযায়ী বাক&zwnj;্য শুদ্ধ রাখ&zwnj;তে হ&zwnj;লে Wh Word যুক্ত Phrase “Which method of organizing content points” কে Subject ধর&zwnj;তে হ&zwnj;বে। তখন বাক্যটা Quasi-Passive হ&zwnj;বে অর্থাৎ object-টাই Subject এর মত ব&zwnj;্যবহৃত হ&zwnj;বে।<br/>❐ আরেকটা উদাহরণ দিলে স্পষ্ট হবে -<br/>❐ Honey tastes sweet. বাক্যটাকে এই ফরমেটে লিখলে -<br/> => Which sweet item to you does taste more?<br/>❐ একইভাবে এই বাক্যটিও হবে - Which method of organizing content points with you did feel more comfortable? <br/>❐ ত&zwnj;বে ‘taste’ Verb এর সা&zwnj;থে to হ&zwnj;চ্ছে Appropriate Preposition, আর ‘comfortable’ Adjective এর সা&zwnj;থে with হ&zwnj;চ্ছে appropriate preposition. <br/>❐ সুতরাং বাক্যের missing word হচ্ছে - with.\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298312,
+    "question": "The passive form of the sentence 'I had already shown her photo to the policeman' should be -",
+    "options": [
+      "Her photo was already been shown to policeman",
+      "The policeman was already shown her photo",
+      "The policeman have already been shown her photo",
+      "The policeman had already been shown her photo"
+    ],
+    "correct_answer": "The policeman had already been shown her photo",
+    "explanation": "",
+    "hints": "📝 প্রশ্নে উল্লেখিত বাক্যটি Past Perfect Tense এ রয়েছে।<br/>▣ Past Perfect Tense এর Active voice থেকে Passive voice করার নিয়ম:<br/>▣ Object টির subjective form + had been + মূল verb এর past participle + by + subject এর objective form. <br/>▣ সুতরাং নিয়মানুযায়ী,<br/>❐ Active: I had already shown her photo to the policeman. <br/>❐ Passive: <b>The policeman had already been shown her photo</b>.<br/>❐ <b>Source: </b>Advanced Learner's HSC English Grammar & Composition by Chowdhury & Hossain.\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298313,
+    "question": "Identify the correct spelling.",
+    "options": [
+      "Scizphrenic",
+      "Sizophrenic",
+      "Schizophrenic",
+      "Schizophranic"
+    ],
+    "correct_answer": "Schizophrenic",
+    "explanation": "",
+    "hints": "📝 <b><br/>▣ Schizophrenia (noun): </b><br/>❐ English meaning: A mental illness in which a person becomes unable to link thought, emotion and behaviour, leading to withdrawal from reality and personal relationships<br/>❐ Bangla Meaning: মানসিক রোগবিশেষ (কথ্য split personality) যাতে চিন্তা, অনুভূতি ও কাজের মধ্যে সম্বন্ধের অভাব লক্ষিত হয়; বিভক্ত ব্যক্তিতা; ভগ্নমনস্কতা।<br/>▣ Other forms: <br/>▣ <b>Schizophrenic (adjective)</b> ভগ্নমনস্কতা-বিষয়ক<br/>▣ Schizophrenically (adverb) ভগ্নমনস্ক ভাবে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298314,
+    "question": "Which of the following spelling is correct?",
+    "options": [
+      "Precedance",
+      "Precedence",
+      "Prescedence",
+      "Presedence"
+    ],
+    "correct_answer": "Precedence",
+    "explanation": "",
+    "hints": "📝 <b>Precedence (Noun): </b><br/>❐ English Meaning: the condition of being considered more important than someone or something else; priority in importance, order, or rank.<br/>❐ Bangla Meaning: অগ্রপদ বা অগ্রবর্তিতার অধিকার; অগ্রাধিকার; অগ্রগণ্যতা।<br/>❐ Synonym: priority, outweigh, supersede, prevail over, come before<br/>❐ Example Sentence: his desire for power soon took precedence over any other consideration<br/>❐ <b>Source: </b>Oxford Dictionary and Accessible Dictionary by Bangla Academy.\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298315,
+    "question": "Choose the appropriate preposition to complete the sentence 'The baby clings ………… his mother's cloak'.",
+    "options": [
+      "at",
+      "to",
+      "from",
+      "with"
+    ],
+    "correct_answer": "to",
+    "explanation": "<p>Cling to এর অর্থ হলো \"জড়িয়ে ধরে রাখা, আটকে থাকা বা লেগে থাকা\"&nbsp;</p><br/><p></p>",
+    "hints": "📝 শূন্যস্থানে সঠিক উত্তর হবে - to.<br/>❐ Complete Sentence - The baby clings to his mother's cloak. <b><br/>❐ Cling to something (phrasal verb): </b><br/>❐ English Meaning - To refuse to stop believing or hoping for something. <br/>❐ Bangla Meaning -  সংলগ্ন হওয়া।<br/>❐ Example Sentence - She clings to the hope that her husband will come back to her.\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298316,
+    "question": "Complete the sentence Soils are the result of …………. interacting processes ………… bring different materials together\".",
+    "options": [
+      "most of, which",
+      "such, as",
+      "a few, by which",
+      "some, that"
+    ],
+    "correct_answer": "some, that",
+    "explanation": "",
+    "hints": "📝 শূন্যস্থানে সঠিক উত্তর হবে - some, that.<br/>▣ Complete sentence: Soils are the result of some interacting processes that bring different materials together.<br/>▣ কারণ মাটি বা মাটির গঠন হচ্ছে কিছু পারস্পরিক প্রক্রিয়ার ফল।<br/>▣ Some\" দ্বারা এখানে 'কিছু' অর্থ প্রকাশ করছে।<br/>▣ আর 'that' পূর্বের অংশের সঙ্গে সম্পর্ক তৈরি করছে।<br/>❐ <b><br/>▣ অন্য অপশন গুলোর মধ্যে - <br/>❐ </b><br/>❐ ক) such, as: এই অপশনটি সঠিক নয়। <br/>▣ \"Such as\" মূলত উদাহরণ উল্লেখ করার জন্য ব্যবহার করা হয়। <br/>▣ যেমন:\"I like fruits, such as apples and bananas.\" <br/>❐ গ) most of, which: এই অপশনটি সঠিক নয়, কারণ - <br/>▣ \"most of interacting processes\" - Grammatically ভুল। <br/>▣ most of এরপর the ব্যবহার করতে হয়।<br/>❐ ঘ) a few, by which - এই অপশনটি সঠিক নয়। <br/>▣ \"A few\" অর্থ অল্প সংখ্যক। <br/>▣ যদি মাটি কেবল অল্প কিছু প্রক্রিয়ার ফলে তৈরি হতো, তাহলে সেটি সঠিক হতো, কিন্তু মাটি অনেক প্রক্রিয়ার ফলে তৈরি হয়।<br/>▣ তাছাড়া \"by which bring\" সঠিক grammatical structure নয়।<br/>❐ সুতরাং, সবদিক বিবেচনায় সবচেয়ে সঠিক অপশন হল খ) some, that.\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298317,
+    "question": "Fill the gap in the sentence 'Recent linguistic research has shed light on the role played by ___ regardless of their gender\".",
+    "options": [
+      "how do people speak",
+      "the way people speak",
+      "people are speaking",
+      "how people were spoken"
+    ],
+    "correct_answer": "the way people speak",
+    "explanation": "",
+    "hints": "📝 <b><br/>▣ the way (adverbial):</b><br/>▣ Meaning - মতো; যেমন। <br/>▣ Example - He did it the way I do.<br/>▣ কারো দ্বারা সম্পন্ন কোন কাজের ধরণ বুঝাতে 'the way' ব্যবহৃত হয়। <br/>▣ বাক্যটি বলছে যে সাম্প্রতিক ভাষাবিজ্ঞানিক গবেষণায় people কিভাবে speak করে সে সম্পর্কে আরও তথ্য/ধারণা প্রদান করেছে।<br/>▣ \"The way people speak\" হল মানুষেরা যেভাবে কথা বলে - তাদের speech pattern, language use, pronunciation ইত্যাদি। <br/>▣ এটি সাধারণভাবে মানুষের কথা বলার অভ্যাস ও প্রবণতাকে প্রকাশ করে। <br/>▣ তাই, সঠিক উত্তরটি হচ্ছে - <b>the way people speak. <br/>❐ </b>- Complete Sentence: 'Recent linguistic research has shed light on the role played by the way people speak regardless of their gender'.<br/>❐ <b><br/>▣ Other options, </b><br/>❐ খ) how people were spoken - এটি passive voice ব্যবহার করেছে, যা এখানে অনুপযুক্ত। এটি প্রকাশ করে যে মানুষদের উপর কিছু করা হয়েছিল।<br/>❐ গ) how do people speak - এটি grammatically ভুল। এখানে do ব্যবহার করা ঠিক নয়।<br/>❐ ঘ) people are speaking - এটি শুধু বর্তমানে কথা বলাকে প্রকাশ করে, ঐতিহাসিক কথা বলার প্রবণতা নয়। \r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298318,
+    "question": "Which of the following sentence construction is incorrect?",
+    "options": [
+      "He is your brother, isn't he?",
+      "Nobody called, did they?",
+      "The meeting is at 10, isn't it?",
+      "Open the door, would you?"
+    ],
+    "correct_answer": "Open the door, would you?",
+    "explanation": "",
+    "hints": "🎯Which of the following sentence construction is incorrect?✪➭Nobody called, did they?✪➭Open the door, would you?✪➭He is your brother, isn't he?✪➭The meeting is at 10, isn't it?🔴✪🗸➭Open the door, would you?\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298319,
+    "question": "Which of the following sentence is correct?",
+    "options": [
+      "The mobile set is almost the same as mine",
+      "The mobile set is almost same like mine",
+      "The mobile set is almost same like myself",
+      "The mobile set is almost same like me"
+    ],
+    "correct_answer": "The mobile set is almost the same as mine",
+    "explanation": "",
+    "hints": "📝 উল্লেখিত অপশন গুলোর মধ্যে - The mobile set is almost the same as mine - এই বাক্যটি সঠিক।<br/>▣ \"The same as\" is a fixed expression।<br/>▣ Meaning: exactly like<br/>▣ অর্থাৎ একই রকম বা সাদৃশ্যতা বোঝাতে the same as ব্যবহৃত হয়।\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298320,
+    "question": "Identify the error from the following underlined parts of the sentence. As [road traffic (a)] increases, elevated [highways (b)] are built [to help solve (c)] the problem of [traffic jam (d)].",
+    "options": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "correct_answer": "d",
+    "explanation": "",
+    "hints": "📝 ক) road traffic <br/>❐ \"road traffic\" বা সড়ক যানবাহন কে বুঝানো হয়েছে। <br/>❐ Traffic বিভিন্নভাবে ব্যবহৃত হতে পারে। যেমন - air traffic, sea traffic, internet traffic, etc.<br/>❐ সুতরাং, এখানে road traffic দ্বারা traffic কে specify করে বুঝানো হয়েছে। <br/>❐ এটাকে Redundant বলা যাবে না, Collins Dictionary অনুসারে - road traffic term - টি সঠিক। ❐ খ) highways <br/>▣ \"highways\" অর্থাৎ উঁচু সড়ক বা হাইওয়ে বলতে যানজট কমানোর জন্য নির্মিত উঁচু স্তরের সড়কগুলোকে বোঝানো হয়েছে, যা সম্পূর্ণ ঠিক।<br/>❐ গ) to help solve <br/>❐ Help এর পরে bare infinitive হিসেবে solve এর ব্যবহারও ঠিক আছে।<br/>❐ <b>ঘ) traffic jam </b><br/>▣ \"traffic jam\" এর পরিবর্তে <b>traffic jams</b> অধিক মানানসই।<br/>❐ কেননা traffic jam হচ্ছে countable noun. তাই এর পূর্বে article - a ব্যবহার করতে হবে অথবা শব্দটির plural form ব্যবহার করতে হবে। যেহেতু context অনুসারে একাধিক traffic jam বুঝা যাচ্ছে তাই এর পরে 's' যুক্ত করে plural করতে হবে।<br/>❐ সুতরাং, \"traffic jam\" এর পরিবর্তে traffic jams বসালে বাক্যটি সঠিক হবে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298321,
+    "question": "Which underlined part of the following sentence has an error? [Each furniture (a)] on display in the central mall [is (b)] on sale for thirty [percent off(c)] the [regular price (d)].",
+    "options": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "correct_answer": "a",
+    "explanation": "",
+    "hints": "📝 Furniture [uncountable noun] - আসবাবপত্র; গৃহসজ্জা।<br/>❐ Each - প্রত্যেক (আলাদাভাবে); (বিশেষত singular countable noun-এর পূর্বে) বসে। <br/>▣ Furniture শব্দটি uncountable noun হওয়ায় এর পূর্বে 'Each' বসবে না। <br/>▣ The correct way is to say \"All furniture\" or \"Every piece of furniture\".<br/>❐ So, <strong>ক) Each furniture</strong> অংশটি ভুল।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298322,
+    "question": "Identify the substitute word for the sentence \"One who is not easily pleased by anything\".",
+    "options": [
+      "Precarious",
+      "Maiden",
+      "Fastidious",
+      "Mediaeval"
+    ],
+    "correct_answer": "Fastidious",
+    "explanation": "<p>Fastidious এর অর্থ হলো খুতখুতে। অর্থাৎ One who is not easily pleased by anything ( যে সহজে সন্তুষ্ট হয় না) সে হলো Fastidious</p>",
+    "hints": "📝 অপশনে উল্লেখিত শব্দগুলোর অর্থ - <br/>❐ ক) <b>Maiden</b><br/>❐ English Meaning: An unmarried girl or young woman.<br/>❐ Bangla Meaning:  বালিকা; অবিবাহিতা তরুণী।<br/>❐ খ) <b>Mediaeval</b><br/>❐ English Meaning: Relating to the Middle Ages.<br/>❐ Bangla Meaning: মধ্যযুগীয়।<br/>❐ গ)<b> Precarious</b><br/>❐ English Meaning: Not securely held or in position; dangerously likely to fall or collapse<br/>❐ Bangla Meaning: অনিশ্চিত; আশঙ্কাজনক; দৈবাধীন<br/>❐ ঘ) <b>Fastidious</b><br/>❐ English Meaning: Very attentive to and concerned about accuracy and detail/ extremely or excessively careful or detailed.<br/>❐ Bangla Meaning: খুঁতখুঁতে; দোষ ধরতে তৎপর।<br/>▣ সুতরাং, বোঝা যাচ্ছে, উল্লেখিত অপশন গুলোর মধ্যে - Fastidious শব্দটি can be the correct one word for 'One who is not easily pleased by anything'.\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298323,
+    "question": "Which one is singular?",
+    "options": [
+      "Media",
+      "Agenda",
+      "Syllabi",
+      "Hypothesis"
+    ],
+    "correct_answer": "Hypothesis",
+    "explanation": "",
+    "hints": "📝 অপশনে উল্লেখিত শব্দগুলোর মধ্যে - Hypothesis (অনুমান) শব্দটি singular.<br/>▣ এর plural form হবে Hypotheses.<br/>▣ অন্য অপশন গুলোর মধ্যে - <br/>❐ ক) Agenda হচ্ছে plural. যার singular হচ্ছে - Agendum (আলোচ্যসূচি)।<br/>❐ গ) Media (plural) এর singular form হচ্ছে - Medium (মাধ্যম)।<br/>❐ ঘ) Syllabi/ syllabuses.  (plural) এর singular হবে syllabus (পাঠ্যসূচি) শব্দটি।\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298324,
+    "question": "The term 'Prima facie' means -",
+    "options": [
+      "Main facilities",
+      "Primal face",
+      "At first sight",
+      "Primitive man"
+    ],
+    "correct_answer": "At first sight",
+    "explanation": "",
+    "hints": "📝 <b>Prima Facie (Adjective)</b>:<br/>❐ Meaning: Based on the first impression; accepted as correct until proved otherwise.<br/>❐ Bangla Meaning: প্রথমলব্ধ ধারণার ভিত্তিতে; আপাতদৃষ্টিতে; প্রথমদর্শনে; আপাতদৃষ্টে<br/>❐  Here, <b>'At the first sight' is the closest meaning of the phrase 'Prima Facie'</b>. <br/>❐ <b>Source: </b>Oxford Dictionary, Bangla Academy<br/>❐  \r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298325,
+    "question": "Which of the following word is equivalent to MELEE?",
+    "options": [
+      "Simple Song",
+      "Kindness",
+      "Primitive Dance",
+      "Brawl"
+    ],
+    "correct_answer": "Brawl",
+    "explanation": "",
+    "hints": "📝 প্রশ্নে উল্লেখিত শব্দটির অর্থ - <br/>▣ MELEE - (ফরাসি) এলোমেলো লড়াই; বিশৃঙ্খল মানুষের ভিড়।<br/>▣ অপশনে উল্লেখিত শব্দ গুলোর অর্থ - <br/>❐ ক) Kindness - সদয়; অপরের প্রতি সহানুভূতিশীল।<br/>❐ খ) Brawl - তুমুল ঝগড়া বা যুদ্ধ (প্রায়ই প্রকাশ্যে)-  এ ধরনের ঝগড়ায় অংশ নেওয়া; <br/>❐ গ) Simple Song - সাদামাটা; সরল; অনলংকৃত; অনাড়ম্বর এক ধরনের গান।<br/>❐ ঘ) Primitive Dance - সাদামাটা; আদিম এক ধরনের নৃত্য।<br/>▣ সুতরাং, বোঝা যাচ্ছে, উল্লেখিত অপশন গুলোর মধ্যে - Brawl শব্দটি MELEE এর সমার্থক অর্থ প্রকাশ করছে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298326,
+    "question": "Which of the following is the antonym of the word SAGACIOUS?",
+    "options": [
+      "Fatuous",
+      "Affectionate",
+      "Sedentary",
+      "Incisive"
+    ],
+    "correct_answer": "Fatuous",
+    "explanation": "",
+    "hints": "📝 <b>Sagacious</b> (adjective): <br/>❐ English Meaning - Having or showing understanding and the ability to make good judgments. <br/>❐ Bangla Meaning - সুস্থ বিচারবুদ্ধি সম্পন্ন; কাণ্ডজ্ঞানসম্পন্ন; বিচক্ষণ; (জীবজন্তু) বোধশক্তিসম্পন্ন।<br/>❐ Given options, <br/>▣ Affectionate - স্নেহময়; মমতাময়; স্নেহশীল। <br/>▣ Incisive - ছেদকর; তীক্ষ্ণ।<br/>❐ <b><br/>▣ Fatuous </b>- বোকা; জড়বুদ্ধি; বোকার ন্যায় আত্মতুষ্টি প্রদর্শনকারী। <br/>▣ Sedentary - সে বসে করতে হয় এমন; (ব্যক্তি) অধিকাংশ সময় উপবিষ্ট থাকে এমন; আসনাশ্রিত; আসনারূঢ়।<br/>❐ অপশনসমূহ বিবেচনা করে দেখা যায়, সঠিক উত্তরটি হচ্ছে - <b>Fatuous</b>. \r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298327,
+    "question": "Which of the following resembles PRUNE : HEDGE?",
+    "options": [
+      "Trim : Hair",
+      "Shuck : Corn",
+      "Reap : Crop",
+      "Cut : Bouquet"
+    ],
+    "correct_answer": "Trim : Hair",
+    "explanation": "",
+    "hints": "📝 প্রশ্নে উল্লেখিত শব্দগুলোর অর্থ:<br/>▣ PRUNE<br/>❐ English Meaning: to cut off branches from a tree, bush, or plant, especially so that it will grow better in the future<br/>❐ Bangla Meaning: অংশবিশেষ ছাঁটা; ছেঁটে দেওয়া; (লাক্ষণিক) কাটছাঁট/ছাঁটাই করা<br/>▣ HEDGE<br/>❐ English meaning: a fence or boundary formed by closely growing bushes or shrubs.<br/>❐ Bangla Meaning: মাঠ, বাগান ইত্যাদির সীমানানির্দেশক ঝোপ, গুল্ম বা (সাধারণত উপরের দিক সমান করে কাটা) দীর্ঘতরুর সারি; বৃতি; বেড়া।<br/>▣ অপশনে উল্লেখিত শব্দগুলোর অর্থ - <br/>❐ ক) <br/>▣ Shuck<br/>❐ English meaning:  the outer covering of a nut or a plant (such as corn)<br/>❐ Bangla Meaning: - তুষ; খোসা; শুঁটি; বীজকোষ; বহিরাবরণ।<br/>▣ Corn<br/>❐ English meaning:  any plant that is grown for its grain, such as wheat.<br/>❐ Bangla Meaning - শস্যকণা; শস্য বা বীজ; গম; ভুট্টা।<br/>❐ খ)<br/>▣ Cut<br/>❐ English meaning: divide into pieces<br/>❐ Bangla Meaning- কেটে ফেলা।<br/>▣ Bouquet<br/>❐ English meaning: an attractively arranged bunch of flowers, especially one presented as a gift or carried at a ceremony.<br/>❐ Bangla Meaning- ফুলের তোড়া; কুসুমস্তবক।<br/>❐ গ)<br/>▣ Trim<br/>❐ English meaning: make (something) neat or of the required size or form by cutting away irregular or unwanted parts.<br/>❐ Bangla Meaning: ছেঁটে পরিপাটি/সুষম করা: সুশৃঙ্খল; পরিচ্ছন্ন; পরিপাটি।<br/>▣ Hair<br/>❐ English meaning: any of the fine threadlike strands growing from the skin of humans, mammals, and some other animals.<br/>❐ Bangla Meaning: চুল; লোম।<br/>❐ ঘ)<br/>▣ Reap<br/>❐ English meaning: cut or gather (a crop or harvest)<br/>❐ Bangla Meaning- কাটা; চয়ন/আহরণ করা।<br/>▣ Crop<br/>❐ English meaning: a cultivated plant that is grown on a large scale commercially, especially a cereal, fruit, or vegetable.<br/>❐ Bangla Meaning- শস্য।<br/>▣ সুতরাং, বোঝা যাচ্ছে, উল্লেখিত অপশন গুলোর মধ্যে - সঠিক analogy টি হচ্ছে - Trim : Hair.<br/>▣ PRUNE শব্দটি ব্যবহৃত হয় গাছের অপ্রয়োজনীয়  শাখা কেটে সেটিকে সমান করা অর্থে, আর HEDGE শব্দটি ব্যবহৃত হয় ঝোপঝাড় বা সীমান্ত সংলগ্ন গাছপালা কেটে সেটিকে সুন্দর করা অর্থে। যেমন - বাগানের HEDGE কেটে সীমানা সংরক্ষণ করা হয়।<br/>▣ অন্যদিকে, TRIM শব্দটি ব্যবহৃত হয় চুল কাটা বা স্টাইল করা অর্থে আর hair অর্থ চুল। চুলের অপ্রয়োজনীয় অংশ TRIM করা হয় সুন্দর করার জন্য।<br/>▣ সুতরাং, PRUNE এর সাথে HEDGE এর মতোই TRIM এর সাথে HAIR এর একই ধরনের সম্পর্ক রয়েছে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298328,
+    "question": "Which of the following is the analogy of COWARD : CRAVEN?",
+    "options": [
+      "Judge : Impartial",
+      "Liar : Facetious",
+      "Dupe : Gullible",
+      "Commentator: Caustic"
+    ],
+    "correct_answer": "Dupe : Gullible",
+    "explanation": "",
+    "hints": "📝 প্রশ্নে উল্লেখিত শব্দগুলোর অর্থ - <br/>▣ COWARD - ভীরু; কাপুরুষ।<br/>▣ CRAVEN - কাপুরুষ; ভীরু।<br/>▣ অপশনে উল্লেখিত শব্দগুলোর অর্থ - <br/>❐ ক)<br/>❐ Liar  - মিথ্যাবাদী; যে মিথ্যা কথা বলে।<br/>❐ Facetious - ইয়ারকিপূর্ণ বা ঠাট্টাবিদ্রূপপূর্ণ; অশালীন ঠাট্টাপূর্ণ বা তাতে অভ্যস্ত।<br/>❐ খ)<br/>❐ Commentator - ভাষ্যকার; ভাষালেখক।<br/>❐ Caustic -  রাসায়নিক ক্রিয়ার দ্বারা পোড়াতে বা ধ্বংস করতে সক্ষম; দাহক; ক্ষারীয়।<br/>❐ গ)<br/>❐ Judge - পরম বিচারক; আদালতের বিচার; জজ।<br/>❐ Impartial - নিরপেক্ষ; পক্ষপাতহীন; সমদর্শী।<br/>❐ ঘ)<br/>❐ Dupe - প্রতারণা করা; বোকা বানানো।<br/>❐ Gullible -  সহজে প্রতারণাযোগ্য, সহজে ধোঁকা দেওয়া, সহজে ঠকানো যায় এমন।<br/>▣ সুতরাং, শব্দগুলোর অর্থ বিবেচনায় দেখা যাচ্ছে সঠিক analogy টি হচ্ছে - Dupe : Gullible.<br/>▣ COWARD: CRAVEN যেমন একে অপরের সমার্থক অর্থ প্রকাশ করছে, ঠিক তেমনি ভাবেই Dupe : Gullible ও একে অপরের সমার্থক অর্থ প্রকাশ করছে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298329,
+    "question": "Choose the sentence that has an adjective.",
+    "options": [
+      "That is a well",
+      "He is doing well",
+      "Well, I am not looking for him",
+      "He is well"
+    ],
+    "correct_answer": "He is well",
+    "explanation": "",
+    "hints": "📝 বাক্যে অবস্থান ভেদে, well শব্দটি বিভিন্ন parts of speech হিসাবে ব্যবহৃত হতে পারে।<br/>▣ প্রশ্নে উল্লেখিত অপশন গুলোর মধ্যে, He is well - এই বাক্যেও well শব্দটি adjective হিসাবে ব্যবহৃত হয়েছে।<br/>▣ এখানে he হচ্ছে subject এবং well দ্বারা subject এর অবস্থা প্রকাশ পাচ্ছে।<br/>▣ We use well as an adjective, normally after a linking verb such as be, look or get, to mean ‘in good health’:<br/>▣ আর যে শব্দ Noun/ Pronoun এর দোষ গুণ, অবস্থা, সংখ্যা, পরিমাণ ইত্যাদি প্রকাশ করে তাকে Adjective বলে।<br/>❐ অন্যদিকে, <br/>❐ <b><br/>▣ Adverb </b><br/>▣ be doing well (শুধু ঘটমান কালসমূহে) (স্বাস্থ্য ইত্যাদি) পুনরুদ্ধার করতে; দ্রুত আরোগ্য লাভ করছে<br/>❐ <b>যেমন - He is doing well.<br/>❐ </b>- এই বাক্যে - well” শব্দটি adverb হিসেবে ব্যবহৃত হয়েছে এটি verb 'doing; কে modify করছে।<br/>❐ <b><br/>▣ Noun</b><br/>▣ Well (noun) - কূপ; কুয়া।<br/>❐ <b>- This is a well.<br/>❐ </b>- এই বাক্যে 'কুয়া' অর্থাৎ নাম অর্থে এটি noun হয়েছে।<br/>▣ Well, I am not looking for him - এই বাক্যে 'well' শব্দটি adverb হিসেবে ব্যবহৃত হয়েছে, বাক্যের শুরুতে বসে বাক্যকে qualify করে।<br/>▣ আবার, <b>discourse marker হিসেবেও well শব্দটি ব্যবহৃত হয়।</b><br/>▣ Discourse markers are words or phrases like anyway, right, okay, as I say, to begin with. We use them to connect, organise and manage what we say or write or to express attitude:<br/>▣ যেমন - Well, I am not looking for him.\r\n",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298330,
+    "question": "একুশে ফেব্রুয়ারি নিয়ে প্রথম গান কোনটি?",
+    "options": [
+      "ভুলবো না ভুলবো না, একুশে ফেব্রুয়ারি",
+      "আমার ভাইয়ের রক্তে রাঙানো একুশে ফেব্রুয়ারি",
+      "কাঁদতে আসিনি, ফাঁসির দাবি নিয়ে এসেছি",
+      "ওরা আমার মুখের ভাষা কাইড়া নিতে চায়"
+    ],
+    "correct_answer": "ভুলবো না ভুলবো না, একুশে ফেব্রুয়ারি",
+    "explanation": "<p>একুশের প্রথম গান রচনা করেন ভাষাসৈনিক আ ন ম গাজীউল হক। গানটির প্রথম চরণ ‘ভুলব না, ভুলব না, একুশে ফেব্রুয়ারি ভুলব না’। এটি সে সময়ে ব্যাপক জনপ্রিয়তা লাভ করে। ‘দূর হটো দূর হটো আই দুনিয়াওয়ালো, হিন্দুস্তান হামারা হায়’—জনপ্রিয় এই হিন্দি গান থেকে নেওয়া হয় গানটির সুর। ১৯৫৩ সালের একুশে ফেব্রুয়ারি আরমানিটোলা ময়দানে আয়োজিত এক জনসভায় গানটি প্রথম গাওয়া হয়। এ সম্পর্কে গাজীউল হক তাঁর স্মৃতিচারণায় বলেছেন, ‘সভায় শেখ মুজিবুর রহমানের অনুরোধে ভাষা আন্দোলনের ওপর লেখা গানটি আমাকে গেয়ে শোনাতে হয়। সময়ের প্রয়োজনেই গানটি লিখেছিলাম।’ একুশের প্রথম গান ও গানের রচয়িতা সম্পর্কে আবদুল গাফ্‌ফার চৌধুরী বলেন, ‘আমার ভাইয়ের রক্তে রাঙানো’ রচনার আগেই গাজী ভাই (গাজীউল হক) লিখেছিলেন ‘ভুলব না ভুলব না’। এটাই ছিল তখনকার দিনে রাজপথের গান। এ গানটি খুব পপুলার হয়েছিল। সবাই এ গান গাইত।</p><br/>",
+    "hints": "📝 - একুশের প্রথম গানের রচনা করেন আ. ন. ম. গাজীউল হক।<br/>▣ গানটির প্রথম চরণ- '<b>ভুলবো না ভুলব না, একুশে ফেব্রুয়ারি ভুলবো না'।</b><br/>▣ ৫৩ সালের একুশে ফেব্রুয়ারি আরমানিটোলা ময়দানে আয়োজিত এক জনসভায় গানটি প্রথম গাওয়া হয়।<br/>▣ ১৯৫৩-৫৪ সাল পর্যন্ত ওই গানটি গেয়েই প্রভাতফেরি করা হতো।<br/>▣ গানটির সুরকার ছিলেন গাজীউল হক নিজেই। <br/>▣ “আমার ভাইয়ের রক্তে রাঙানো একুশে ফেব্রুয়ারী, আমি কি ভুলিতে পারি।” - এই গানটি রচনা করেছিলেন ঢাকা কলেজের ছাত্র আবদুল গাফ্ফার চৌধুরী।<br/>▣ এটি প্রথমে সুর করেন - আবদুল লতিফ এবং বর্তমানে যে সুরে গাওয়া হয়, তা করেছেন - আলতাফ মাহমুদ।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298331,
+    "question": "নিচের কোন প্রাচীন গ্রন্থে 'বঙ্গ' কথাটির উল্লেখ আছে?",
+    "options": [
+      "মহাভারত",
+      "ঋগ্বেদ",
+      "সব কয়টি",
+      "চর্যাপদ"
+    ],
+    "correct_answer": "ঋগ্বেদ",
+    "explanation": "<p><span style=\"font-size: 1rem;\"><b>ঐতরেয় আরণ্যক</b> গ্রন্থে বঙ্গ নামে উল্লেখ পাওয়া যায়। এছাড়া <b>রামায়ণ</b>, <b>মহাভারতে</b> এবং কালিদাসের <b>রঘুবংশ</b> গ্রন্থে বঙ্গ নামের উল্লেখ পাওয়া যায়।</span></p>",
+    "hints": "📝 &lt;b&gt;বঙ্গ&lt;/b&gt;&lt;br/&gt;▣ দেশবিশেষ, বঙ্গভূমি। &lt;br/&gt;▣ বঙ্গ একটি প্রাচীন জনপদ।&lt;br/&gt; ➾ বঙ্গ' শব্দটির প্রথম উল্লেখ পাওয়া যায় &lt;b&gt;'ঐতরেয় আরণ্যক'&lt;/b&gt; গ্রন্থে, যা &lt;b&gt;ঋগ্বেদের অন্তর্গত&lt;/b&gt;।&lt;br/&gt; ➾ &lt;b&gt;মহাভারতে&lt;/b&gt; এই জনপদের উল্লেখ আছে- '&lt;i&gt;অঙ্গস্যাঙ্গো ভবেদ্দেশো বঙ্গে বঙ্গস্য চ স্মৃতঃ&lt;/i&gt;।' (ভারত ১ǀ১০৪ǀ৫০)&lt;br/&gt; ➾ এছাড়া &lt;b&gt;চর্যাপদের&lt;/b&gt; ৩৯নং পদে বঙ্গ শব্দের উল্লেখ আছে।&lt;br/&gt;▣ মহাকবি কালীদাসের রঘুবংশ কাব্যে আছে বঙ্গের অবস্থান ও সীমানা সম্পর্কিত কিছু তথ্য।&lt;br/&gt;▣ উল্লেখ্য, দেশবাচক শব্দ হিসাবে 'বঙ্গ' বা 'বাঙ্গাল' শব্দটি প্রথম পাওয়া যায় আবুল ফজল রচিত 'আইন-ই-আকবরী' গ্রন্থে।&lt;br/&gt;❐ &lt;i&gt;&lt;b&gt;[ঋগ্বেদ, চর্যাপদ ও মহাভারত ৩টি গ্রন্থেই 'বঙ্গ' কথাটির উল্লেখ রয়েছে।&nbsp;<br/>",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298332,
+    "question": "নিচের কোনটি স্বরভক্তি বা বিপ্রকর্ষ এর উদাহরণ?",
+    "options": [
+      "স্পর্ধা → আস্পর্ধা",
+      "শুক্রবার → শুক্কুরবার",
+      "মোকদ্দমা → মোকর্দমা",
+      "আহ্লাদ → আল্‌হাদ"
+    ],
+    "correct_answer": "শুক্রবার → শুক্কুরবার",
+    "explanation": "<p>মাঝে মাঝে উচ্চারণের সুবিধার জন্য সংযুক্ত ব্যঞ্জন ধ্বনির মাঝখানে স্বরধ্বনি এলে তাকে মধ্যে স্বরাগম, বিপ্রকর্ষ বা স্বরভক্তি বলে। যেমন - অ : রত্ম&gt;রতন, স্বপ্ন&gt;স্বপন, হর্ষ &gt;হরষ। ই : প্রীতি&gt;পিরীতি ,ক্লিপ &gt; কিলিপ। উ: শুক্রবার &gt;শুক্কুরবার,&nbsp; মুক্ত&gt; মুকুতা, তুর্ক &gt;তুরুক। এ : গ্রাম&gt;গেরাম ,প্রেক&gt; পেরেক।</p><br/>",
+    "hints": "📝 <b><br/>▣ মধ্য স্বরাগম, বিপ্রকর্ষ বা স্বরভক্তি (Anaptyxis):</b><br/>❐ সময় সময় উচ্চারণের সুবিধার জন্য সংযুক্ত ব্যঞ্জনধ্বনির মাঝখানে স্বরধ্বনি আসে। একে বলা হয় মধ্য স্বরাগম বা বিপ্রকর্ষ বা স্বরভক্তি।<br/>❐ যেমন:<br/>❐ অ – রত্ন > রতন, ধর্ম > ধরম, স্বপ্ন > স্বপন, হর্ষ > হরষ ইত্যাদি।<br/>❐ ই – প্রীতি > পিরীতি, ক্লিপ > কিলিপ, ফিল্ম > ফিলিম ইত্যাদি।<br/>❐ উ – মুক্তা >মুকুতা, তুর্ক > তুরুক, ক্রু > ভুরু, <b>শুক্রবার > শুক্কুরবার</b> ইত্যাদি।<br/>❐ এ – গ্রাম > গেরাম, প্ৰেক > পেরেক, স্রেফ > সেরেফ ইত্যাদি।<br/>❐ ও – শ্লোক ❖ শোলোক, মুরগ > মুরোগ > মোরগ ইত্যাদি।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298333,
+    "question": "কাঁধ থেকে কটি পর্যন্ত এক কথায় প্রকাশ?",
+    "options": [
+      "ধটিক",
+      "পাঁচধর",
+      "ঘট",
+      "আগধর"
+    ],
+    "correct_answer": "আগধর",
+    "explanation": "",
+    "hints": "📝 ধড়, ধর(মধ্যযুগীয় বাংলা): আগধড়/আগধর,<br/>▣ বিশেষ্য শব্দ।<br/>❐ <b>অর্থ: কাঁধ থেকে কটি পর্যন্ত অংশ।</b>\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298334,
+    "question": "তাত শব্দের অর্থ কি?",
+    "options": [
+      "তন্তু",
+      "পিতা",
+      "গাছবিশেষ",
+      "যন্ত্রবিশেষ"
+    ],
+    "correct_answer": "পিতা",
+    "explanation": "<p>তাত বিশেষ্য পদ এর অর্থ হলো:-- পিতা, পিতৃতুল্য ব্যক্তি; পিতৃসম গুরুজন খুল্লতাত, পিতৃব্য; পুত্রতুল্য ব্যক্তিকে স্নেহ সম্বোধন।</p><br/>",
+    "hints": "📝 তাত (বিশেষ্য),<br/>▣ তৎসম বা সংস্কৃত শব্দ। <br/>❐ অর্থ: <br/>❐ <b>- পিতা; </b>বাবা।<br/>▣ পিতৃব্য; চাচা; কাকা; খুড়া (খুল্লতাত); পিতৃস্থানীয় গুরুজন।<br/>▣ পুত্র বা পুত্রতুল্য ব্যক্তিকে সস্নেহ সম্বোধন।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298335,
+    "question": "বাংলা ভাষার ব্যাকরণ প্রথম কখন প্রকাশিত হয়?",
+    "options": [
+      "১৭৩৪",
+      "১৭৪৩",
+      "১৮৪৩",
+      "১৮৩৪"
+    ],
+    "correct_answer": "১৭৪৩",
+    "explanation": "প্রথম বাংলা ব্যাকরণ প্রকাশিত হয় ১৭৪৩ সালে পর্তুগিজ ভাষায়। এর লেখক ছিলেন মানোএল দা আসসুম্পাসাঁউ। ∎ ১৭৭৮ সালে প্রকাশিত হয় নাথানিয়েল ব্রাসি হ্যালহেড প্রণীত ইংরেজি ভাষায় রচিত পূর্ণাঙ্গ একটি বাংলা ব্যাকরণ। বইটির নাম \\\"এ গ্রামার অব দি বেঙ্গল ল্যাঙ্গুয়েজ\\\"।",
+    "hints": "📝 <b>১৭৪৩ সালে, </b>পর্তুগিজ ভাষায় মনোএল দা আসসুম্পসাঁউ রচিত বাংলা ব্যাকরণ প্রকাশিত হয়।<br/>▣ ১৭৭৮ সালে নাথানিয়েল ব্রাসি হ্যালহেড রচনা করেন ইংরেজি ভাষায়, এ গ্রামার অব দি বেঙ্গল ল্যাঙ্গুয়েজ নামে।<br/>▣ ১৮০১ সালে উইলিয়াম কেরি এবং ১৮২৬ সালে রামমোহন রায় ইংরেজী ভাষা ব্যাকরণ রচনা করেন।<br/>▣ ১৮৩৩ সালে প্রকাশিত রামমোহন রায়ের 'গৌড়ীয় ব্যাকরণ' ব্যাকরণ বাংলা ভাষায় রচিত প্রথম বাংলা ব্যাকরণ।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298336,
+    "question": "কোন লেখক চলিত ভাষাকে মান ভাষারূপে প্রতিষ্ঠা করার জন্য আন্দোলন করেছিলেন?",
+    "options": [
+      "প্রমথ চৌধুরী",
+      "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+      "জসীমউদ্দিন",
+      "বুদ্ধদেব বসু"
+    ],
+    "correct_answer": "প্রমথ চৌধুরী",
+    "explanation": "তিনি বাংলা গদ্যে চলিত রীতির প্রবর্তক হিসাবে প্রসিদ্ধ। সবুজপত্র পত্রিকা সম্পাদনার মাধ্যমে বাংলা সাহিত্যে চলিতরীতি প্রবর্তন করেন।এছাড়া বাংলা সাহিত্যে প্রথম বিদ্রূপাত্মক প্রবন্ধ রচনা করেন। ছোটগল্প ও সনেট রচনাতেও হিসেবেও তার বিশিষ্ট অবদান রয়েছে। তিনি সবুজপত্র এবং বিশ্বভারতী পত্রিকা সম্পাদনা করেন।",
+    "hints": "📝 - প্রমথ চৌধুরী সাহিত্যিক, বাংলা চলিত গদ্যরীতির প্রবর্তক।<br/>▣ ১৯১৪ সালে মাসিক  সবুজপত্র প্রকাশনা এবং তার মাধ্যমে বাংলা চলিত গদ্যরীতির প্রবর্তন তাঁর জীবনের শ্রেষ্ঠ কীর্তি।<br/>▣ একে কেন্দ্র করে তখন একটি শক্তিশালী লেখকগোষ্ঠী গড়ে ওঠে। <br/>▣ স্বয়ং রবীন্দ্রনাথও এর অন্তর্ভুক্ত ছিলেন। প্রমথ চৌধুরী ‘বীরবল’ ছদ্মনামে এ পত্রিকায় ব্যঙ্গরসাত্মক প্রবন্ধ ও নানা গল্প প্রকাশ করেন।<br/>▣ তাঁর এ ছদ্মনাম থেকে তখন বাংলা সাহিত্যে বীরবলী ধারা প্রবর্তিত হয়।<br/>▣ তিনিই চলিত ভাষাকে মান ভাষারূপে প্রতিষ্ঠা করার জন্য আন্দোলন করেছিলেন। \r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298337,
+    "question": "“এবারের সংগ্রাম, স্বাধীনতার সংগ্রাম\" - এ বাক্যটিতে 'স্বাধীনতার শব্দটি কোন কারকে কোন বিভক্তি?",
+    "options": [
+      "নিমিত্তার্থে ষষ্ঠী",
+      "কর্মে ষষ্ঠী",
+      "সম্প্রদানে ষষ্ঠী",
+      "করণে ষষ্ঠী"
+    ],
+    "correct_answer": "নিমিত্তার্থে ষষ্ঠী",
+    "explanation": "<p><p><br/></p><br/>“এবারের সংগ্রাম, স্বাধীনতার সংগ্রাম”- বাক্যটিতে \\\"স্বাধীনতার\\\" শব্দটি কোন কারকে কোন বিভক্তি?&nbsp;</p><br/><p> · নিমিত্তার্থে ষষ্ঠী</p><br/>",
+    "hints": "📝 <b><br/>▣ নিমিত্ত কারক:</b><br/>❐ কর্তা যার জন্য, যার উদ্দেশ্যে বা যে অভিপ্রায়ে ক্রিয়া সম্পাদন করে, তাকে নিমিত্ত কারক বলে।<br/>❐ ❖ \"এবারের সংগ্রাম, স্বাধীনতার সংগ্রাম।\" - এর বাক্যে 'স্বাধিনতার' বলতে বুঝানো হয়েছে স্বাধিনতার জন্য সংগ্রাম।<br/>▣ তাই এটি নিমিত্তার্থে 'র' বিভক্তি বা ষষ্ঠী বিভক্তি হয়েছে।<br/>❐ নিচে নিমিত্ত কারকের কিছু উদাহরণ - <br/>❐ যেমন: <br/>▣ তোমার জন্য কলম আনবো। - নিমিত্ত কারকে ‘জন্য' অনুসর্গ।<br/>▣ মহারাজ শিকারে গেছেন। – নিমিত্ত কারকে 'এ' বিভক্তি।<br/>▣ সখি, জলকে চল। - নিমিত্ত কারকে ‘কে’ বিভক্তি।<br/>▣ চিকিৎসার উদ্দেশ্যে শহরে এসেছি। – নিমিত্ত কারকে ‘উদ্দেশ্যে' অনুসর্গ।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298338,
+    "question": "'নিরপেক্ষ' এর সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+    "options": [
+      "নিঃ + পেক্ষ",
+      "নিঃ + অপেক্ষ",
+      "নীর + পেক্ষ",
+      "নির + পেক্ষ"
+    ],
+    "correct_answer": "নিঃ + অপেক্ষ",
+    "explanation": "",
+    "hints": "📝 <b><br/>▣ বিসর্গ সন্ধি:</b><br/>❐ বিসর্গের সাথে স্বর বা ব্যঞ্জনধ্বনির যে সন্ধি হয় তাকে বিসর্গ সন্ধি বলে।<br/>▣ বিসর্গ সন্ধি দুই ভাগে বিভক্ত যথা:<br/>❐  ১. র্-জাত বিসর্গ,<br/>❐  ২. স্-জাত বিসর্গ।<br/>❐ কয়েকটি বিসর্গ সন্ধির উদাহরণ হলো:<br/>▣ তিরঃ + ধান = তিরোধান,<br/>▣ মনঃ + রম = মনোরম,<br/>❐ <b>- নিঃ + অপেক্ষ = নিরপেক্ষ, </b><br/>▣ মনঃ + যোগ = মনোযোগ,<br/>▣ মনঃ + হর = মনোহর,<br/>▣ তপঃ + বন = তপোবন ইত্যাদি।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298339,
+    "question": "'ছাতা দিয়ে মাথা রক্ষা' বাগধারাটির অর্থ কি?",
+    "options": [
+      "স্বার্থপর হওয়া",
+      "সম্মান রক্ষা করা",
+      "ঊর্ধ্বতন কর্তৃপক্ষের ভূমিকা",
+      "সামান্য উপকার"
+    ],
+    "correct_answer": "সম্মান রক্ষা করা",
+    "explanation": "",
+    "hints": "❐ বাংলা ভাষা ও সাহিত্য জিজ্ঞাসা অনুসারে - <br/>❐ <b><br/>▣ ছাতা দিয়ে মাথা রাখা<br/>❐ </b>অর্থ - বিপদে সাহায্য করা। <br/>❐ উদাহরণ বাক্য - তিনি ছাতা দিয়ে আমার মাথা রেখেছেন, আমি তাঁর প্রতি চিরদিন কৃতজ্ঞ থাকব। <b><br/>❐ </b><b>উল্লেখ্য - </b>‘ছাতাদিয়ে মাথা রাখা’ এবং 'ছাতা দিয়ে মাথা রক্ষা' বাগধারা দুটি প্রায় একই অর্থ প্রকাশক। তাই কাছাকাছি<b> </b>উত্তর হিসেবে অপশন ‘ক’ গ্রহণ করা হলো।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298340,
+    "question": "নিচের কোনটি ব্যতিক্রম?",
+    "options": [
+      "যুদ্ধ",
+      "মেঘের পরে মেঘ",
+      "হিজল কাঠের নৌকা",
+      "যাত্রা"
+    ],
+    "correct_answer": "হিজল কাঠের নৌকা",
+    "explanation": "<p>যাত্রা শওকত আলীর উপন্যাস, যুদ্ধ সেলিনা হোসেনের উপন্যাস, মেঘের পরে মেঘ রাবেয়া খাতুনের উপন্যাস, হিজল কাঠের নৌকা আলাউদ্দিন আল আজাদের নাটক।&nbsp;</p><br/>",
+    "hints": "📝 ➾ স্বাধীন বাংলাদেশে ১৯৭৬ সালে প্রকাশিত হয়েছিল সাহিত্যিক আলাউদ্দিন আল আজাদ রচিত <b>নাটক ‘হিজল কাঠের নৌকা’</b>।<br/>❐ অন্যদিকে,<br/>❐ <b>➾ “মেঘের পর মেঘ” উপন্যাস:</b><br/>▣ রাবেয়া খাতুন রচিত মুক্তিযুদ্ধ ভিত্তিক জনপ্রিয় উপন্যাস “মেঘের পর মেঘ”। উপন্যাসটি অবলম্বনে, বিখ্যাত চলচ্চিত্র পরিচালক চাষী নজরুল ইসলাম ২০০৪ সালে একই শিরোনামে নির্মাণ করেন চলচ্চিত্র - মেঘের পরে মেঘ।<br/>❐ <b>➾ 'যাত্রা' উপন্যাস:</b><br/>▣ শওকত আলীর রচিত 'যাত্রা' মুক্তিযুদ্ধভিত্তিক উপন্যাস। উপন্যাসটি ১৯৭৬সালে প্রকাশিত হয়।<br/>▣ ১৯৭১ সালের ২৫মে মার্চের ভয়াল কালরাতে পাকিস্তানি বর্বর হানাদার বাহিনীর পৈশাচিক আক্রমণ থেকে প্রাণরক্ষার জন্য ঢাকাবাসীর অনিশ্চিত গন্তেব্যের দিকে ছুটে চলার কাহিনিই ‘যাত্রা’। প্রাত্যহিক দিনপঞ্জি বা ডায়েরির আদলে লেখা ‘যাত্রা’ উপন্যাসের কাহিনি, মার্চের শেষ সপ্তাহ থেকে এপ্রিলের প্রথম সপ্তাহ পর্যন্ত সময়কারের ঘটনার শিল্পরূপ।<br/>▣ ‘যাত্রা’ উপন্যাসটির কেন্দ্রীয় চরিত্র: অধ্যাপক রায়হান ।<br/>❐ <b>➾ 'যুদ্ধ' উপন্যাস:</b><br/>▣ 'যুদ্ধ' ১৯৭১ সালে সংঘটিত আমাদের মুক্তিযুদ্ধের পটভূমিতে সেলিনা হোসেন রচিত উপন্যাস।<br/>▣ লেখক এ উপন্যাসে যুদ্ধের বিভিন্ন মাত্রা অনুসন্ধানে তীক্ষ্ণ পর্যবেক্ষণ, মনন এবং কল্পনাশক্তির ব্যবহার করছেন। তিনি যুদ্ধের প্রেক্ষাপট নির্মাণ করেছেন ব্যক্তির বেঁচে থাকার সঙ্কট, মূল্যবোধের রূপান্তর, ধর্মীয় বিশ্বাসের অনুষঙ্গে আঘাত, মৃত্যু, স্বজন হারানোর বেদনার ভেতর দিয়ে।<br/>▣ তিনি যুদ্ধের দেশীয় প্রেক্ষাপট নির্মাণ করেছেন একটি সেক্টরের সরাসরি যুদ্ধকে চিত্রিত করে এবং অগণিত মানুষের যুদ্ধে অংশগ্রহণ ও যুদ্ধ সম্পর্কিত দেশজ-ঐতিহ্য সংলগ্ন ভাবনার ভেতর দিয়ে।<br/>▣ এ উপন্যাসে একটি চরিত্র আছে। যার কোনো নাম নেই। 'লোকটি' অভিধায় যে দেশের সর্বত্র ঘুরে বেড়ায়। অস্ত্রচালনার ট্রেনিং নেয়- যুদ্ধক্ষেত্রে যোদ্ধাদের পাশে পাশে থাকে । গ্রামে, গঞ্জে, শহরে, মানুষের বাড়িতে বাড়িতে ঘুরে বেড়ায়। পুরো উপন্যাস জুড়ে সে একটি প্রতীকী চরিত্র।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298341,
+    "question": "'আয়নায় মুখ দেখ না' এখানে 'মুখ' কি অর্থে বাক্যে ব্যবহৃত হয়েছে?",
+    "options": [
+      "প্রতিবিম্ব",
+      "বদন",
+      "বদন-গহবর",
+      "মর্যাদা"
+    ],
+    "correct_answer": "প্রতিবিম্ব",
+    "explanation": "",
+    "hints": "📝 ➾ 'আয়নায় মুখ দেখ না' এখানে 'মুখ' শব্দটি <b>প্রতিবিম্ব</b> অর্থে ব্যবহৃত হয়েছে। <br/>❐ আয়নায় যে প্রতিবিম্ব দেখা যায়, তাকেই 'মুখ' বলা হয়েছে। সুতরাং এখানে 'মুখ' শব্দটি প্রতিবিম্ব অর্থে ব্যবহৃত হয়েছে।<br/>▣ বাংলা ভাষায় কতকগুলো বিশেষ্য, বিশেষণ ও ক্রিয়া-জাতীয় পদ রয়েছে যেগুলো বাক্যে বিশিষ্ট অর্থে ব্যবহৃত হয় এবং একই শব্দ ভিন্ন ভিন্ন বাক্যে ব্যবহৃত হয়ে ভিন্ন ভিন্ন অর্থ প্রকাশ করে। এ জাতীয় বাক্যের পরিবেশ ও পরিস্থিতির সঙ্গে সঙ্গতি রেখে এক একটা শব্দের অর্থ নির্ণীত হয়ে থাকে।<br/> =<br/>❐ অন্যদিকে,<br/>❐ 'বদন/ বদন-গহবর' অর্থে 'মুখ' শব্দটি ব্যবহৃত হতে পারে, কিন্তু এই বাক্যে সেটা সঠিক হবে না।<br/>❐ 'বদন' অর্থ মুখের বাহ্যিক অংশ। কিন্তু 'আয়নায় মুখ দেখা' বলতে আয়নায় নিজের প্রতিবিম্ব দেখাটাই বোঝায়, মুখের বাহ্যিক অংশ নয়।<br/>❐ তাছাড়া, মর্যাদা - 'মর্যাদা' অর্থ মান-মর্যাদা বা ঐশ্বর্য। এই অর্থে 'মুখ' ব্যবহার করলে বাক্যটির অর্থ হবে না।<br/> =<br/>❐ বাক্যে অর্থ ভেদে ‘মুখ’ শব্দের কিছু ব্যবহার দেয়া হলো-<br/>▣ ‘অঙ্গ বিশেষ’ অর্থে: তোমার<b><u> মুখের</u> </b>গড়নটা সুন্দর।<br/>▣ ‘প্রবেশ পথ’ অর্থে: গ্রামের<b><u> মুখেই</u></b> দোকানটা।<br/>▣ ‘সম্মান’ অর্থে: ছেলেটা চৌধুরী সাহেবের<b><u> মুখ </u></b>রেখেছে।<br/>▣ ‘কথা’ অর্থে: মুখে<b> </b><u><b>মধু</b> </u>অন্তরে বিষ।<br/>▣ ‘ক্ষমতা’ অর্থে: যত বড়<b> <u>মুখ</u> </b>নয় তত বড় কথা।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298342,
+    "question": "নিচের কোনটি অপ্রধান সমাস?",
+    "options": [
+      "অলুক সমাস",
+      "প্রাদি সমাস",
+      "সবকটি",
+      "নিত্যসমাস"
+    ],
+    "correct_answer": "সবকটি",
+    "explanation": "ছয়টি প্রধান সমাস ছাড়াও কয়েকটি অপ্রধান সমাস রয়েছে। যেমন: প্রাদি, নিত্য, অলুক, উপপদ ইত্যাদি। এসব সমাসের প্রচুর উদাহরণ পাওয়া",
+    "hints": "📝 বাংলা ভাষার ব্যাকরণ ও নির্মিতি, নবম-দশম শ্রেণি (২০২৩ সংস্করণ) অনুসারে, <b>➾ সমাস:</b><br/>❐ সমাসের মাধ্যমে নতুন শব্দ গঠিত হয়। বাক্যের মধ্যে পরস্পর সম্পর্কিত একাধিক পদের এক শব্দে পরিণত হওয়ার নাম সমাস। <br/>❐ সমাস মূলত চার প্রকার। যথা: <br/>❐ ১. দ্বন্দ্ব, <br/>❐ ২. কর্মধারয়,<br/>❐ ৩. তৎপুরুষ ও <br/>❐ ৪. বহুব্রীহি।<br/>❐ <b>➾ দ্বন্দ্ব সমাস:</b><br/>❐ দ্বন্দ্ব সমাসে পূর্বপদ ও পরপদ উভয় পদের অর্থের সমান প্রাধান্য থাকে।<br/>❐ যেমন:-  ‘সোনা-রুপা সমস্তপদের ব্যাসবাক্য ‘সোনা ও রুপা।<br/>❐ <b>➾ কর্মধারয় সমাস:</b><br/>❐ যে সমাসে পরপদের অর্থ প্রাধান্য পায়, তাকে কর্মধারয় সমাস বলে।<br/>❐ যেমন:-  গোলাপ নামের ফুল = গোলাপফুল।<br/>▣ যা কাঁচা তাই মিঠা = কাঁচা-মিঠা।<br/>❐ <b>➾ তৎপুরুষ সমাস:</b><br/>❐ সমস্যমান পদের বিভক্তি ও সন্নিহিত অনুসর্গ লোপ পেয়ে যে সমাস হয়, তার নাম তৎপুরুষ সমাস।<br/>❐ এই সমাসে পরপদের অর্থ প্রাধান্য পায়।<br/>❐ যেমন:-  দুঃখকে প্রাপ্ত = দুঃখপ্রাপ্ত।<br/>▣ মধু দিয়ে মাখা = মধুমাখা।<br/>❐ <b>➾ বহুব্রীহি সমাস:</b><br/>❐ যে সমাসে পূর্বপদ বা পরপদ কোনোটির অর্থ না বুঝিয়ে অন্য কিছু বোঝায়, তাকে বহুব্রীহি সমাস বলে।<br/>❐ যেমন:-  বউ ভাত পরিবেশন করে যে অনুষ্ঠানে = বউভাত,<br/>▣ লাঠিতে লাঠিতে যে যুদ্ধ = লাঠালাঠি ইত্যাদি।<br/>❐ বাংলা ভাষার ব্যাকরণ, নবম-দশম শ্রেণি (২০১৯ সংস্করণ) অনুসারে,<br/>❐ সমাস প্রধানত ছয় প্রকার। যথা:<br/>❐ ১. দ্বন্দ্ব, <br/>❐ ২. কর্মধারয়,<br/>❐ ৩. তৎপুরুষ  <br/>❐ ৪. বহুব্রীহি, <br/>❐ ৫. দ্বিগু ও <br/>❐ ৬. অব্যয়ীভাব। <b>➾ অপরদিকে প্রাদি, নিত্য ও অলুক ইত্যাদি কয়েকটি হচ্ছে অপ্রধান সমাস। </b>\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298343,
+    "question": "বাংলা সাহিত্যের প্রথম ব্যঙ্গ উপন্যাস কোনটি?",
+    "options": [
+      "দৃষ্টি প্রদীপ",
+      "কল্পতরু",
+      "বৈতালিক",
+      "একটি কালো মেয়ের কাহিনি"
+    ],
+    "correct_answer": "কল্পতরু",
+    "explanation": "",
+    "hints": "📝 <b>➾ ইন্দ্রনাথ বন্দ্যোপাধ্যায় ও ‘কল্পতরু’ উপন্যাস:</b><br/>▣ ইন্দ্রনাথ বন্দ্যোপাধ্যায়ের (১৮৪৯-১৯১১) জন্ম যদিও বর্ধমানের একটি গ্রামে, সাত মাস থেকে ন বছর বয়স পর্যন্ত তিনি ছিলেন পিতার কর্মস্থল পূর্ণিয়ায়। ফলে বাংলা ভাষা তাঁর ঠিকমতো রপ্ত হয়নি। <br/>▣ ইন্দ্রনাথ পরবর্তী উচ্চ শ্রেণিতে উত্তীর্ণ হয়েছিলেন এবং সাহিত্যিকরূপে প্রতিষ্ঠালাভ করে বাংলা ভাষা ও তার সংস্কার সম্পর্কে প্রবন্ধ ও অভিভাষণ লিখেছিলেন। বস্তুত বাংলা সাহিত্যে <b>ব্যঙ্গ ও হাস্যরসের স্রষ্টা </b>হিসেবে একসময়ে তিনি অতি উচ্চ স্থান অধিকার করেছিলেন।<br/>▣ সাহিত্যক্ষেত্রে ইন্দ্ৰনাথ বন্দ্যোপাধ্যায়ের আবির্ভাব অনেকটা আকস্মিক। তিনি যখন কলকাতা হাইকোর্টে ওকালতি করেন, তখন কিছুটা খেয়ালের বশেই ক্ষুদ্রকায় ব্যঙ্গকাব্য “উৎকৃষ্ট কাব্যম” (১৮৭০) রচনা করেন। পরে তারকনাথ গঙ্গোপাধ্যায়ের অনুরোধে লেখেন “কল্পতরু” (১৮৭৪)।<br/>❐ <b><br/>▣ কল্পতরু বাংলা সাহিত্যের প্রথম ব্যঙ্গ-উপন্যাস।</b><br/>▣ বঙ্গদর্শনে সমালোচনা করতে গিয়ে বঙ্কিমচন্দ্র কল্পতরুকে ‘বঙ্গভাষার একটি উৎকৃষ্ট উপন্যাস' আখ্যা দিয়েছেন এবং মতপ্রকাশ করেছেন যে, “বাবু ইন্দ্ৰনাথ বন্দ্যোপাধ্যায় একখানি মাত্র গ্রন্থ প্রচার করিয়া বাঙ্গালায় প্রধান লেখকদিগের মধ্যে স্থান পাইবার যোগ্য বলিয়া পরিচিত হইয়াছেন।' তবে তিনি যে কল্পতরুকে আলালের ঘরের দুলাল ও হুতোম প্যাঁচার নকশা ওপরে স্থান দিয়েছেন, তার সঙ্গে অনেকেই একমত হবেন না।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298344,
+    "question": "‘বিপরীতার্থক’ ব্যাকরণের কোন মৌলিক অংশে আলোচিত হয়?",
+    "options": [
+      "বাক্যতত্ত্ব",
+      "ধ্বনিতত্ত্ব",
+      "অর্থতত্ত্ব",
+      "রূপতত্ত্ব"
+    ],
+    "correct_answer": "অর্থতত্ত্ব",
+    "explanation": "<p>ব্যাকরণের অর্থতত্ত্বে আলোচ্যবিষয়ঃ&nbsp;</p><br/><p>বিপরীত শব্দ</p><br/><p>প্রতিশব্দ&nbsp;</p><br/><p>শব্দজোড়&nbsp;</p><br/><p>বাগধারা&nbsp;</p><br/><p>এছাড়া, শব্দ,বর্গ ও বাক্যের ব্যঞ্জনা নিয়েও এই অংশে আলোচনা করা হয়।&nbsp;</p><br/><p>★অর্থতত্ত্ব এর অপর নাম - বাগর্থতত্ত্ব।&nbsp;</p><br/>",
+    "hints": "📝 <b><br/>▣ ব্যাকরণের আলোচ্য বিষয়:</b><br/>❐ ভাষা হলো বাক্যের সমষ্টি। বাক্য গঠিত হয় শব্দ দিয়ে। আবার শব্দ তৈরি হয় ধ্বনি দিয়ে। এদিক থেকে ভাষার ক্ষুদ্রতম উপাদান হলো ধ্বনি। এই ধ্বনি, শব্দ, বাক্য – প্রত্যেকটি অংশই ব্যাকরণের আলোচ্য। এছাড়া শব্দের ও বাক্যের বহু ধরনের অর্থ হয়। সেসব অর্থ নিয়েও ব্যাকরণে আলোচনা করা হয়। <br/>❐ ব্যাকরণের এসব আলোচ্য বিষয় বিভক্ত হয় অন্তত চারটি ভাগে, <br/>❐ যথা: <br/>▣ ধ্বনিতত্ত্ব,<br/>▣ রূপতত্ত্ব,<br/>▣ বাক্যতত্ত্ব ও <br/>▣ অর্থতত্ত্ব।<br/>❐ <b><br/>▣ ধ্বনিতত্ত্ব:</b><br/>❐ ধ্বনিতত্ত্বের আলোচ্য বিষয় ধ্বনি। লিখিত ভাষায় ধ্বনিকে যেহেতু বর্ণ দিয়ে প্রকাশ করা হয়, তাই বর্ণমালা সংক্রান্ত আলোচনা এর অন্তর্ভুক্ত। ধ্বনিতত্ত্বের মূল আলোচ্য বাগ্যন্ত্র, বাগ্যন্ত্রের উচ্চারণ-প্রক্রিয়া, ধ্বনির বিন্যাস, স্বর ও ব্যঞ্জনধ্বনির বৈশিষ্ট্য, ধ্বনিদল প্রভৃতি।<br/>❐ <b><br/>▣ রূপতত্ত্ব:</b><br/>❐ রূপতত্ত্বে শব্দ ও তার উপাদান নিয়ে আলোচনা করা হয়। এই আলোচনায় বিশেষ্য, সর্বনাম, বিশেষণ, ক্রিয়া, ক্রিয়াবিশেষণ ইত্যাদি স্থান পায়। বিশেষ গুরুত্ব পায় শব্দগঠন প্রক্রিয়া।<br/>❐ <b><br/>▣ বাক্যতত্ত্ব:</b><br/>❐ বাক্যতত্ত্বে বাক্য নিয়ে আলোচনা করা হয়। বাক্যের নির্মাণ এবং এর গঠন বাক্যতত্ত্বের মূল আলোচ্য। বাক্যের মধ্যে পদ ও বর্গ কীভাবে বিন্যস্ত থাকে, বাক্যতত্ত্বে তা বর্ণনা করা হয়। এছাড়া এক ধরনের বাক্যকে অন্য ধরনের বাক্যে রূপান্তর, বাক্যের বাচ্য, উক্তি ইত্যাদি বাক্যতত্ত্বের আলোচ্য বিষয়। কারক বিশ্লেষণ, বাক্যের যোগ্যতা, বাক্যের উপাদান লোপ, যতিচিহ্ন প্রভৃতিও বাক্যতত্ত্বে আলোচিত হয়ে থাকে।<br/>❐ <b><br/>▣ অর্থতত্ত্ব:</b><br/>❐ ব্যাকরণের যে অংশে শব্দ, বর্গ ও বাক্যের অর্থ নিয়ে আলোচনা করা হয়, সেই অংশের নাম অর্থতত্ত্ব। একে বাগর্থতত্ত্বও বলা হয়। <b>বিপরীত শব্দ,</b> প্রতিশব্দ, শব্দজোড়, বাগ্&zwnj;ধারা প্রভৃতি বিষয় অর্থতত্ত্বের অন্তর্ভুক্ত। এছাড়া শব্দ, বর্গ ও বাক্যের ব্যঞ্জনা নিয়েও ব্যাকরণের এই অংশে আলোচনা থাকে।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298345,
+    "question": "সে ঘুমাচ্ছে বাক্যে 'ঘুমা' কোন ধাতু?",
+    "options": [
+      "যৌগিক ধাতু",
+      "মৌলিক ধাতু",
+      "সংযোগমূলক ধাতু",
+      "সাধিত ধাতু"
+    ],
+    "correct_answer": "সাধিত ধাতু",
+    "explanation": "<p><p><br/></p><br/>সে ঘুমাচ্ছে। \\\"ঘুম\\\" বিশেষ্যের সঙ্গে \\\"আ\\\" যোগ করে \\\"ঘুমা\\\" ধাতুটি গঠিত হয়েছে। এর সঙ্গে ক্রিয়া বিভক্তি যোগ করে ক্রিয়াপদ গঠিত হয়েছে- \\\"</p><br/><p>সুতরাং এটি সাধিত ধাতু।</p><br/><p> </p><br/>",
+    "hints": "📝 <b>➾ সাধিত ধাতু: </b><br/>❐ মৌলিক ধাতু কিংবা কোনো কোনো নাম-শব্দের সঙ্গে ‘আ’ প্রত্যয় যোগে সাধিত ধাতু গঠিত হয়। আবার যেসব ধাতু বিশ্লেষণ করলে এক বা একাধিক প্রত্যয় পাওয়া যায় তাকেও সাধিত ধাতু বলা হয়।<br/>❐ যেমন:-  দেখ্&zwnj; + আ= দেখা।<br/>▣ পড় + আ= পড়া।<br/>▣ বল + আ=বলা।<br/>▣ সাধিত ধাতু আবার ৩ প্রকার। যথা:<br/>❐ ১. নাম ধাতু,<br/>❐ ২. প্রযোজক (নিজন্ত) ধাতু ও<br/>❐ ৩. কর্মবাচ্যের ধাতু।<br/>❐ <b><br/>▣ নাম ধাতু:</b><br/>❐ বিশেষ্য, বিশেষণ ও অনুকার অব্যয়ের পর ‘আ’ প্রত্যয়যোগে যে সব ধাতু গঠিত হয়, তা-ই নামধাতু।<br/>❐ যেমন:<br/>❐ <b>- সে ঘুমাচ্ছে।</b><br/>❐ [বাক্যে ঘুম থেকে <b>নাম ধাতু ‘ঘুমা’ </b>হয়েছে।]<br/>❐ <b><br/>▣ প্রযোজক ধাতু:</b><br/>❐ মৌলিক ধাতুর পরে প্রেরণার্থে (অপরকে নিয়োজিত করা অর্থে) 'আ' প্রত্যয় যোগ করে প্রযোজক ধাতু বা ণিজন্ত ধাতু গঠিত হয়।<br/>❐ যেমন: কর্&zwnj; + আ = করা (এখানে 'করা' একটি ধাতু)।<br/>❐ বাক্য: সে নিজে চুরি করে না, অন্যকে দিয়ে করায়।<br/>❐ <b><br/>▣ কর্মবাচ্যের ধাতু:</b><br/>❐ মৌলিক ধাতুর সাথে 'আ' প্রত্যয় যোগে কর্মবাচ্যরে ধাতু সাধিত হয়। এটি বাক্যমধ্যস্ত কর্মপদের অনুসারী ক্রিয়ার ধাতু।<br/>❐ যেমন: হার্&zwnj; + আ = হারা;<br/>❐ বাক্য: যা কিছু হারায় গিন্নী বলেন কেষ্টা বেটায় চোর।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298346,
+    "question": "বাংলা বানান রীতি অনুযায়ী একই শব্দের দুটি বানানই শুদ্ধ কোনটি?",
+    "options": [
+      "সুচি/সূচী",
+      "কলস/কলশ",
+      "সবকটি",
+      "দিঘি/দীঘি"
+    ],
+    "correct_answer": "সবকটি",
+    "explanation": "<p><span style=\"color: rgb(44, 47, 52); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, &quot;Open Sans&quot;, Arial, sans-serif; font-size: 15px;\">সবকটি [বাংলা একাডেমির বাংলা বানান রীতি অনুযায়ী একই শব্দের দুটি বানানই শুদ্ধ; এমন কিছু শব্দ: অন্তঃস্থ/অন্তস্থ; পাখি/পাখী; বাড়ি/বাড়ী; বাঁশি/বাঁশী; রজনি/রজনী; শ্রেণি/শ্রেণী; সূচী/সূচি; হাতি/হাতী; স্বামি/স্বামী; কলস/কলশ; কুটির/কুটীর; কুমির/কুমীর; গাড়ি/গাড়ী; তরণি/তরণী; দীঘি/দিঘী; দাদি/দাদী।]</span></p>",
+    "hints": "📝 অভিগম্য অভিধান অনুসারে সব কটি বানানই সঠিক। <br/>▣ কলস, কলসি, কলসী, কলশ, কলশী (বিশেষ্য),<br/>▣ তৎসম বা সংস্কৃত শব্দ।<br/>❐ অর্থ: ঘড়া; গাগরি; জলপাত্র বিশেষ। <br/>▣ দিঘি, দীঘি, দিঘী (বিশেষ্য),<br/>▣ তৎসম বা সংস্কৃত।<br/>❐ অর্থ: বড় পুকুর বা জলাশয় (দীঘির জলে ঝলক ঝলে-রবীন্দ্রনাথ ঠাকুর)। <br/>▣ সূচি, সূচী।<br/>▣ তৎসম বা সংস্কৃত শব্দ,<br/>❐ অর্থ:<br/>❐ ১.<br/>▣ (বিশেষ্য) সুচ (সূচিকর্ম)। <br/>▣ (বিশেষণ) তীক্ষ্ন অগ্রভাগযুক্ত (সূচিমুখ)। <br/>❐ ২.<br/>▣ জ্ঞাপনী, নির্ঘন্ট, পুস্তকের বিষয় নির্দেশক পৃষ্ঠাঙ্কযুক্ত তালিকা; অনুক্রমণিকা। \r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298347,
+    "question": "'কোন রাতে খাতা নাহি পায়' বাক্যটিতে খাতা কি অর্থে ব্যবহৃত হয়েছে?",
+    "options": [
+      "হিসাবের বই",
+      "দোষ",
+      "শুভ",
+      "দল"
+    ],
+    "correct_answer": "দোষ",
+    "explanation": "<p>\"দোষ\" বোঝানো হয়েছে।&nbsp;<span style=\"background-color: rgb(32, 33, 36); color: rgb(189, 193, 198); font-family: Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 14px;\">কোন বাতে খাতা নাহি পায়' বাকাটিতে খাতা কি অর্থে ব্যবহৃত হয়েছে?</span><span style=\"background-color: rgb(32, 33, 36); color: rgb(189, 193, 198); font-family: Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 14px;\">&nbsp;</span></p><br/>",
+    "hints": "📝 <b>খাতা </b>(বিশেষ্য)<br/>❐ আরবি শব্দ (খতা)। <br/>❐ অর্থ:<br/>▣ দোষ;<br/>▣ ত্রুটি; <br/>▣ অপরাধ;<br/>▣ <b>ভুল। </b>(গুনা খাতা; কোন বাতে খাতা নাহি পায় - সৈয়দ হামজা)।<br/>❐ কোন বাতে খাতা নাহি পায়। বাক্যটিতে খাতা ‘দোষ’ অর্থে ব্যবহৃত হয়েছে। <br/>❐ <i>সূত্র: অভিগম্য অভিধান ও বাংলা একাডেমি আধুনিক বাংলা অভিধান।</i>\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298348,
+    "question": "উচ্চারণস্থান অনুযায়ী নিচের কোনটি মূর্ধন্য বর্ণ?",
+    "options": [
+      "উ",
+      "ঋ",
+      "কোনটি নয়",
+      "ঈ"
+    ],
+    "correct_answer": "ঋ",
+    "explanation": "",
+    "hints": "📝 <b>ঋ </b>[রি]  - বাংলা ভাষার সপ্তম স্বরবর্ণ। <br/>❐ এর উচ্চারণ-স্থান <b>মূর্ধা। </b><br/>❐ ধ্বনিবিজ্ঞান অনুসারে বাংলা ঋ-এর উচ্চারণ -<br/>❐ (১) শব্দের প্রথমে কোনো বর্ণের সঙ্গে যুক্ত না হয়ে স্বাধীনভাবে ব্যবহৃত হলে ‘রি’ (ঋণ, ঋষি); <br/>❐ (২) অন্য বর্ণের সঙ্গে যুক্ত হলে ঋ-এর উচ্চারণ হয় র-ফলা (হৃদয় = হ্রিদয়, আদৃত = আদ্রিত)।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298349,
+    "question": "নিচের কোনটি অনুবর্ণের অন্তর্ভুক্ত?",
+    "options": [
+      "বর্ণসংক্ষেপ",
+      "রেফ",
+      "সবকয়টি",
+      "ফলা"
+    ],
+    "correct_answer": "সবকয়টি",
+    "explanation": "অনুবর্ণ: ব্যঞ্জনবর্ণের বিকল্প রূপের নাম অনুবর্ণ। অনুবর্ণের মধ্যে রয়েছে ফলা, রেফ ও বর্ণসংক্ষেপ।<br/><br/>ফলা: ব্যঞ্জনবর্ণের কিছু সংক্ষিপ্ত রূপ অন্য ব্যঞ্জনের নিচে অথবা ডান পাশে ঝুলে থাকে, সেগুলােকে ফলা বলে।<br/>যেমন – ন-ফলা, ব-ফলা, ম-ফলা, য-ফলা, র-ফলা, ল-ফলা।<br/><br/>রেফ: র-এর একটি অনুবর্ণ রেফ।",
+    "hints": "📝 ব্যঞ্জনবর্ণের বিকল্প রূপের নাম অনুবর্ণ।<br/>▣ অনুবর্ণের মধ্যে রয়েছে ফলা, রেফ ও বর্ণসংক্ষেপ।<br/>❐  <br/>❐ <b>➾ ফলা:</b> ব্যঞ্জনবর্ণের কিছু সংক্ষিপ্ত রূপ অন্য ব্যঞ্জনের নিচে অথবা ডান পাশে ঝুলে থাকে, সেগুলোকে ফলা বলে,<br/>❐ যেমন – ন-ফলা, ব-ফলা, ম-ফলা, য-ফলা, র ফলা, ল-ফলা।<br/>❐ <b>➾ রেফ:</b> র-এর একটি অনুবর্ণ রেফ।<br/>❐ <b>➾ বর্ণসংক্ষেপ:</b> যুক্তবর্ণ লিখতে অনেক সময়ে বর্ণকে সংক্ষেপ করার প্রয়োজন হয়। এগুলো বর্ণসংক্ষেপ। <br/>❐ যেমন ৎ বর্ণটি ত-এর একটি বর্ণসংক্ষেপ, যা বাংলা বর্ণমালায় স্বতন্ত্র বর্ণ হিসেবে স্বীকৃত। \r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298350,
+    "question": "‘সুরবালা’ রবীন্দ্রনাথ ঠাকুরের কোন ছোট গল্পের চরিত্র?",
+    "options": [
+      "একরাত্রি",
+      "ভিখারিনী",
+      "সাধনা",
+      "ল্যাবরেটরী"
+    ],
+    "correct_answer": "একরাত্রি",
+    "explanation": "",
+    "hints": "📝 <b>➾ একরাত্রি ছোট গল্প:</b><i> </i><br/>▣ রবীন্দ্রনাথ ঠাকুরের শ্রেষ্ঠ গল্পসমূহের মধ্যে ‘একরাত্রি' বিশিষ্ট স্থান অধিকার করে আছে। গল্পটি প্রথম প্রকাশিত হয় ১২৯৯ বঙ্গাব্দের জ্যৈষ্ঠ সংখ্যা 'সাধনা' পত্রিকায়। <br/>▣ ১৮৯৪ খ্রিস্টাব্দে প্রকাশিত ছোটগল্প' শীর্ষক রবীন্দ্র গল্পগ্রন্থে এটি প্রথম গ্রন্থিত হয়। <br/>▣ গল্পের উল্লেখযোগ্য চরিত্র 'সুরবালা'। <br/>❐ <b><br/>▣ রবীন্দ্রনাথ ঠাকুর:</b><br/>▣ রবীন্দ্রনাথ ঠাকুরের জন্ম ১৮৬১ সালের ৭ মে (১২৬৮ বঙ্গাব্দের ২৫ বৈশাখ) কলকাতার জোড়াসাঁকোর অভিজাত ঠাকুর পরিবারে।<br/>▣ তাঁর পিতা মহর্ষি দেবেন্দ্রনাথ ঠাকুর এবং পিতামহ প্রিন্স দ্বারকানাথ ঠাকুর।<br/>▣ এই পরিবারের পূর্বপুরুষ পূর্ববঙ্গ থেকে ব্যবসায়ের সূত্রে কলকাতায় গিয়ে বসবাস শুরু করেন।<br/>▣ তিনি একাধারে কবি, সঙ্গীতজ্ঞ, কথাসাহিত্যিক, নাট্যকার, চিত্রশিল্পী, প্রাবন্ধিক, দার্শনিক, শিক্ষাবিদ ও সমাজ-সংস্কারক।<br/>▣ মূলত কবি হিসেবেই তাঁর প্রতিভা বিশ্বময় স্বীকৃত।<br/>▣ ১৯১৩ সালে তাঁকে নোবেল পুরস্কারে ভূষিত করা হয়। এশিয়ার বিদগ্ধ ও বরেণ্য ব্যক্তিদের মধ্যে তিনিই প্রথম এই পুরস্কার জয়ের গৌরব অর্জন করেন।<br/>▣ বাংলা ছোট গল্পের জনক হলেন রবীন্দ্রনাথ ঠাকুর।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298351,
+    "question": "'শবল' এর বিপরীতার্থক শব্দ কোনটি?",
+    "options": [
+      "সওয়াল",
+      "বিচিত্র",
+      "শুচি",
+      "একবর্ণা"
+    ],
+    "correct_answer": "একবর্ণা",
+    "explanation": "<p>&nbsp;শবল শব্দের অর্থ বিবিধ বর্ণযুক্ত তাই শবল এর বিপরীত শব্দ একবর্ণা।&nbsp;</p><br/>",
+    "hints": "📝 'শবল' শব্দের অর্থ নানা <b>বর্ণযুক্ত, বিচিত্র বর্ণে শোভিত</b>।<br/>▣ এর বিপরীত <b>একবর্ণা।</b> <br/>❐ অন্যদিকে: <br/>▣ সওয়াল (প্রশ্ন) এর বিপরীতার্থক শব্দ - জবাব। <br/>▣ শুচি (পবিত্র) এর বিপরীতার্থক শব্দ - অশুচি।<br/>▣ বিচিত্র এর বিপরীতার্থক শব্দ - একবর্ণা। <br/>▣ আরো কিছু বিপরীতার্থক শব্দ:<br/>▣ 'আকুঞ্চন' শব্দের বিপরীতর্থক শব্দ = প্রসারণ।<br/>▣ 'সংহত' শব্দের বিপরীতার্থক শব্দ = বিভক্ত।<br/>▣ 'প্রসারিত' শব্দের বিপরীতার্থক শব্দ = সংকুচিত।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298352,
+    "question": "কাজী নজরুল ইসলামের কাব্য খ্যাতিতে কোন পত্রিকার অবদান রয়েছে?",
+    "options": [
+      "সমকাল",
+      "কালী ও কলম",
+      "সওগাত",
+      "মোসলেম ভারত"
+    ],
+    "correct_answer": "মোসলেম ভারত",
+    "explanation": "লাঙল হল বিংশ শতাব্দীর প্রথম দিকে কলকাতা থেকে প্রকাশিত একটি বামপন্থী-সাহিত্যিক পত্রিকা। এটি সম্পাদনা করেছেন কাজী নজরুল ইসলাম।",
+    "hints": "📝 ➾ নজরুলের কবি প্রতিভার বিকাশে <b>মোসলেম ভারত পত্রিকা </b>বিরাট ভূমিকা পালন করে।<br/>▣ ১৯২০ সালের মার্চ মাসে নজরুল করাচির সৈনিকজীবন ত্যাগ করে কলকাতায় ফিরে এলে আফজালুল হকের সঙ্গে তাঁর পরিচয় হয়।<br/>❐ তিনি নজরুলকে তাঁর নতুন পত্রিকা মোসলেম ভারতে লেখার জন্য অনুরোধ জানান।<br/>▣ কাজী নজরুল ইসলামের পত্রোপন্যাস বাঁধনহারার প্রথম কিস্তি মোসলেম ভারতের প্রথম সংখ্যায় প্রকাশিত হয়। এর চতুর্থ সংখ্যায় তাঁর বিখ্যাত কবিতা ‘খেয়াপারের তরণী’ মুদ্রিত হয়। এ কবিতাটির অনুপ্রেরণা ছিল ঢাকার নবাব আহসানুল্লাহর মেয়ে  মেহেরবানু খানম অঙ্কিত একটি চিত্র, যা এ সংখ্যারই প্রচ্ছদে মুদ্রিত হয়। কবিতাটি পাঠ করার পর বিশিষ্ট সমালোচক  মোহিতলাল মজুমদার নজরুলের কবিতার প্রশংসাজ্ঞাপক একটি পত্র পত্রিকার সম্পাদকের নিকট প্রেরণ করেন।<br/>▣ <i>নজরুলের মোট ৪০টি লেখা মোসলেম ভারতে প্রকাশিত হয়। </i>সেগুলির মধ্যে রয়েছে বাঁধনহারার নয় কিস্তি এবং কিছু বিখ্যাত কবিতা, যেমন- ‘শাত-ইল-আরব’, ‘মোহররম’, ‘ফাতেহা-ই-দোয়াজ্দাহম্’, ‘কামাল পাশা’,<b> ‘বিদ্রোহী’ </b>ইত্যাদি। <br/>▣ মোসলেম ভারত পত্রিকার প্রচ্ছদে সৈনিকের পোশাকে নজরুলের প্রতিকৃতিসহ তাঁর বিখ্যাত কবিতা ‘বিদ্রোহী’ প্রথম প্রকাশিত হয় ১৩২৮ বঙ্গাব্দের কার্তিক মাসে (১৯২১)। কবিতাটি বঙ্গীয় সাহিত্য সমাজে বিপুল সাড়া জাগায়। ‘বিদ্রোহী’ কবিতার জন্য প্রথমে তাঁকে ‘বিদ্রোহীর কবি’ বলা হয়, পরে ‘বিদ্রোহী কবি’।<br/>▣ এটি বিভিন্ন পত্রিকায় পুনর্মুদ্রিতও হয় এবং নজরুল ‘বিদ্রোহী কবি’ নামে পরিচিতি লাভ করেন। <br/>▣ নজরুল ব্যতীত আরও কয়েকজন বিশিষ্ট মুসলিম লেখকের রচনা মোসলেম ভারতে প্রকাশিত হয়। সেগুলির মধ্যে উল্লেখযোগ্য হলো: কাজী ইমদাদুল হকের আবদুল্লাহ (উপন্যাস), সৈয়দ এমদাদ আলীর হাফেজা (জীবনী), শেখ ফজলুল করিমের রাজর্ষি এবরাহীম (জীবনী) এবং মোহাম্মদ বরকতউল্লাহর ‘পারস্য সাহিত্য’ (প্রবন্ধ)।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298353,
+    "question": "‘পাক’ এর সঠিক প্রকৃতি প্রত্যয় কোনটি?",
+    "options": [
+      "√পচ্ + ঘঞ্‌",
+      "√প + আঁক",
+      "পাক্ + অ",
+      "পাক + √অ"
+    ],
+    "correct_answer": "√পচ্ + ঘঞ্‌",
+    "explanation": "<p><p><br/></p><br/>সঠিক উত্তর : √পচ্‌ + ঘঞ্‌ অপশন </p><br/><p>সঠিক উত্তর : √পচ্‌ + ঘঞ্‌ অপশন </p><br/>",
+    "hints": "📝 <b>➾ ঘঞ-প্রত্যয় [(কৃদন্ত বিশেষ্য গঠনে), ঘৃ এবং ঞ ইৎ, ‘অ' থাকে]।<br/>❐ </b>যেমন:<br/>▣ √বস্ + ঘঞ = বাস,<br/>▣ √ক্রুধ + য = ক্রোধ,<br/>▣ √যুজ্ + ঘঞ = যোগ, <br/>▣ √খুদ্ + ঘঞ = খেদ, <br/>▣ √ভিদ্ + ঘঞ = ভেদ। <br/>❐ বিশেষ নিয়ম:<br/>❐ <b>√পচ্ +ঘঞ্&zwnj; = পাক,</b><br/>❐ √শুচ্+ঘঞ্&zwnj; = শোক। <br/>❐ কিন্তু, √নন্দি + অন = নন্দন। এক্ষেত্রে আ যোগে ‘নন্দনা’ হয় না। \r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  },
+  {
+    "id": 298354,
+    "question": "'আমাকে কী মাল্য দেবে দাও' কবিতার রচয়িতা কে?",
+    "options": [
+      "সেলিনা হোসেন",
+      "নির্মলেন্দু গুণ",
+      "ফজল এ খোদা",
+      "মো. মনিরুজ্জামান"
+    ],
+    "correct_answer": "নির্মলেন্দু গুণ",
+    "explanation": "কবিতা : আমাকে কী মাল্য দেবে দাও (Poem : Amake Ki Mallya Debe dau) কবি : নির্মলেন্দু গুণ (Pooet : Nirmalendu Goon ) আবৃত্তি : ফয়সাল আজিজ (Recitation: Foysal Aziz) তোমার পায়ের নিচে আমিও অমর হবো আমাকে কী মাল্য দেবে দাও।",
+    "hints": "📝 ➾ “আমাকে কী মাল্য দেবে, দাও” <b>নির্মলেন্দু গুণ </b>রচিত একটি কবিতা। <b><br/>▣ নির্মলেন্দু গুণ: </b><br/>▣ নির্মলেন্দু গুণ ১৯৪৫ সালে নেত্রকোনার বারহাট্টার কাশবন গ্রামে জন্মগ্রহণ করেন।<br/>▣ নির্মলেন্দু গুণ এর সম্পূর্ণ নাম ‘নির্মলেন্দু প্রকাশ গুণ চৌধুরী’।<br/>▣ বাংলাদেশের কবিদের কবি বলা হয় নির্মলেন্দু গুণ কে। <br/>▣ তাঁকে  ১৯৮২ সালে বাংলা একাডেমি সাহিত্য পুরস্কারে ভূষিত করা হয়।<br/>▣ এছাড়া ১৯৮২ সালেই আলাওল সাহিত্য পুরস্কার, ২০০১ সালে একুশে পদক প্রদান করা হয়। <br/>❐ <b>নির্মলেন্দু গুণ রচিত কাব্যগ্রন্থগুলো -</b><br/>▣ প্রেমাংশুর রক্ত চাই,<br/>▣ না প্রেমিক না বিপ্লবী,<br/>▣ দীর্ঘ দিবস দীর্ঘ রজনী,<br/>▣ ও বন্ধু আমার,<br/>▣ চাষাভূষার কাব্য,<br/>▣ পৃথিবীজোড়া গান,<br/>▣ দূর হ দুঃশাসন,<br/>▣ ইসক্রা,<br/>▣ নেই কেন সেই পাখি,<br/>▣ মুজিব-লেনিন-ইন্দিরা,<br/>▣ শিয়রে বাংলাদেশ ইত্যাদি। <b>কবিতাটির সংক্ষিপ্তরূপ-</b> <b>আমাকে কী মাল্য দেবে, দাও</b><br/>❐ <b>- নির্মলেন্দু গুণ</b><br/>❐ <i>তোমার পায়ের নিচে আমিও অমর হব,</i><br/>❐ <i>আমাকে কী মাল্য দেবে, দাও।</i><br/>❐ <i>এই নাও আমার যৌতুক, এক-বুক রক্তের প্রতিজ্ঞা।</i><br/>❐ <i>ধুয়েছি অস্থির আত্মা শ্রাবণের জলে, আমিও প্লাবন হব,</i><br/>❐ <i>শুধু চন্দনচর্চিত হাত একবার বোলাও কপালে।</i><br/>❐ <i>আমি জলে-স্থলে-অন্তরীক্ষে উড়াব গাণ্ডীব,</i><br/>❐ <i>তোমার পায়ের কাছে নামাব পাহাড়।<br/>❐ </i>\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "৩০০৯@বাংলাদেশ ব্যাংক ➺সহকারী পরিচালক ☞20.10.23"
+  }
+]

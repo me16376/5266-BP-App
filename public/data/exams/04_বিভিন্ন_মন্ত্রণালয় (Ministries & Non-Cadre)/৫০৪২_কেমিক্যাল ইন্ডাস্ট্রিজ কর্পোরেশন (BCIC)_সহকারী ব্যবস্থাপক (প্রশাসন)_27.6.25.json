@@ -1,0 +1,1362 @@
+[
+  {
+    "id": 325345,
+    "question": "List A has 8 consecutive even integers and List B has 6 consecutive odd integers. The smallest number in List A is 5 more than the smallest number in B. How larger is the mean of the numbers in A than mean of the numbers in B?",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "4"
+    ],
+    "correct_answer": "7",
+    "explanation": "<p><i>প্রশ্ন (সংক্ষেপে বাংলায়):</i></p><br/><p><i><br/></i></p><br/><p><i>List A: ৮টি ধারাবাহিক জোড় সংখ্যা</i></p><br/><p><i style=\"font-size: 1rem;\">List B: ৬টি ধারাবাহিক বিজোড় সংখ্যা</i></p><br/><p><i style=\"font-size: 1rem;\">A-র সবচেয়ে ছোট সংখ্যা = B-র সবচেয়ে ছোট সংখ্যার চেয়ে ৫ বেশি</i></p><br/><p><i style=\"font-size: 1rem;\">প্র</i><i style=\"font-size: 1rem;\">শ্ন: A-র গড়, B-র গড় থেকে কত বেশি?</i></p><br/><p><i style=\"font-size: 1rem;\">সমাধান:</i><i></i></p><br/><p><i style=\"font-size: 1rem;\">ধরি,</i><i></i></p><br/><p><i>B-র সবচেয়ে ছোট সংখ্যা = x</i></p><br/><p><i>→ তাহলে A-র সবচেয়ে ছোট = x+5</i></p><br/><p><i><br/></i></p><br/><p><i>List B (বিজোড় সংখ্যা): x,x+2,x+4,...,x+10</i></p><br/><p><i><br/></i></p><br/><p><i>→ গড় = (x+x+10)/2=x+5</i></p><br/><p><i><br/></i></p><br/><p><i>List A (জোড় সংখ্যা): x+5,x+7,...,x+19</i></p><br/><p><i style=\"font-size: 1rem;\">→ গড় = (x+5+x+19)/2=x+12</i><i></i></p><br/><p><i style=\"font-size: 1rem;\">গড়ের পার্থক্যঃ</i><i></i></p><br/><p><i style=\"font-size: 1rem;\">(x + 12) - (x + 5) = x+12-x-5= 7</i><i></i></p><br/><p><i style=\"font-size: 1rem;\">তালিকা A-র গড়, তালিকা B-র গড় থেকে ৭ বেশি।</i></p><br/><p><i style=\"font-size: 1rem;\">Ans: 7</i><i></i></p><br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325346,
+    "question": "In the first 10 overs of a cricket game, the run rate was only 3.2. What should be the run rate in the remaining 40 overs to reach the target of 282 runs?",
+    "options": [
+      "6.25",
+      "6.5",
+      "6.75",
+      "7"
+    ],
+    "correct_answer": "6.25",
+    "explanation": "<p><span style=\"font-size: 1rem;\">Given:</span><span style=\"font-size: 1rem;\">- Run rate for the first 10 overs = 3.2 runs per over.&nbsp;</span><span style=\"font-size: 1rem;\">Total runs scored in the first 10 overs = Run rate × Number of overs&nbsp;</span><span style=\"font-size: 1rem;\">= 3.2 runs/over × 10 overs = 32 runs.</span></p><br/>Total target runs = 282 runs.<br/>Runs already scored = 32 runs.<br/>Remaining runs needed = Total target - Runs scored<br/>= 282 - 32 = 250 runs.<br/>The remaining number of overs is 40 (since the total match is 50 overs and 10 have been bowled).<br/>Required run rate = Remaining runs needed / Remaining overs<br/>= 250 runs / 40 overs = 6.25 runs per over.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325347,
+    "question": "Zeba walks to school al 3/5th of her normal pace. causing her journey to take 10 minutes longer than usual. How many minutes does she usually take to walk to school?",
+    "options": [
+      "40",
+      "35",
+      "20",
+      "15"
+    ],
+    "correct_answer": "15",
+    "explanation": "<p><p><span style=\"font-size: 1rem;\">Since time is inversely proportional to pace: New Time = {5}/{3} × Normal Time.&nbsp;</span><span style=\"font-size: 1rem;\">The problem states that the new time is 10 minutes longer than the usual time so,&nbsp;</span><span style=\"font-size: 1rem;\">{New Time} = Normal Time + 10.....&nbsp;</span><span style=\"font-size: 1rem;\">But we have:</span></p><br/>New Time = {5}/{3}×Normal Time<br/>Therefore, we can set up the equation: {5}/{3}T = T + 10 L<span style=\"font-size: 1rem;\">et's&nbsp;</span><span style=\"font-size: 1rem;\">Multiply both sides by 3 to eliminate the denominator:</span><span style=\"font-size: 1rem;\">&nbsp;5T = 3(T + 10)</span></p><br/><p>5T = 3T + 30<br/>2T = 30<br/>T = 15</p><br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325348,
+    "question": "A fraction is such that if the numerator is multiplied by 3 and denominator is reduced by 3, we get 18/11, but if the numerator is increased by 8 and the denominator is doubled, we get 2/5. What is the fraction?",
+    "options": [
+      "11/21",
+      "12/25",
+      "12/33",
+      "15/19"
+    ],
+    "correct_answer": "12/25",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325349,
+    "question": "What percentage of numbers from 1 to 70 has 1 or 9 in the units digit?",
+    "options": [
+      "10%",
+      "14%",
+      "20%",
+      "21%"
+    ],
+    "correct_answer": "20%",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325350,
+    "question": "If a – b = 3 and \\({a}^{{2}}+{b}^{{2}}={29}\\)</u>what is the value of ab?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "18"
+    ],
+    "correct_answer": "10",
+    "explanation": "<br data-mce-bogus=\"1\"><br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325351,
+    "question": "Two numbers A and B are such that the sum of 5% of A and 4% of B is two-third of the sum of 6% of A and 8% of B. Find the ratio of A and B.",
+    "options": [
+      "2 : 3",
+      "3 : 4",
+      "4 : 3",
+      "4 : 5"
+    ],
+    "correct_answer": "4 : 3",
+    "explanation": "5% of A + 4% of B = 2/3 (6% of A + 8% of B) Therefore, A : B = 4 : 3.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325352,
+    "question": "If - 1 &lt; m &lt; 0 then which of the following must be true?",
+    "options": [
+      "\\({m}^{{9}}<{m}^{{4}}\\)",
+      "\\({m}^{{7}}>{m}^{{2}}\\)",
+      "\\({m}^{{9}}>{1}−{m}\\)",
+      "\\({m}^{{7}}>{m}^{{9}}\\)"
+    ],
+    "correct_answer": "\\({m}^{{9}}<{m}^{{4}}\\)",
+    "explanation": "<br data-mce-bogus=\"1\"><br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325353,
+    "question": "A two-digit number is such that the product of the two digit is 8. When 18 is added to the number the digits are reversed. What is the number?",
+    "options": [
+      "18",
+      "24",
+      "42",
+      "81"
+    ],
+    "correct_answer": "24",
+    "explanation": "Detailed Solution<br/>There are two combinations of 2 and 4. 24 and 42 but in the question given that by adding 18 number the number reversed. So, the number has to be 24.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325354,
+    "question": "The average of x and y is 50 and the average of y and z is 35. What is the value of (x-z)?",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "correct_answer": "30",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325355,
+    "question": "In what proportion should coffee costing Tk. 12.5 Tk. Per gram be blended with coffee costing Tk. 14 per gram that the final blend costs Tk. 13 per gram?",
+    "options": [
+      "1 : 2",
+      "2 : 1",
+      "4 : 5",
+      "5 : 3"
+    ],
+    "correct_answer": "2 : 1",
+    "explanation": "<p><span style=\"font-size: 1rem;\">Let’s&nbsp;</span></p><br/>( x ) = grams of Coffee A (Tk. 12.5/g)<br/>( y ) = grams of Coffee B (Tk. 14/g)<br/><br/>The average cost of the blend is given by:<br/>{12.5x + 14y}/{x + y} = 13<br/>   12.5x + 14y = 13(x + y)<br/>   12.5x + 14y = 13x + 13y<br/>   14y - 13y = 13x - 12.5x<br/>   y = 0.5x<br/>Express the Ratio ( x : y ):<br/>   y = 0.5x implies {x}/{y} = \f{1}/{0.5} = {2}/{1}<br/><br/>   So, the ratio is 2:1",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325356,
+    "question": "In a certain fraction, the denominator is 4 times of the numerator. If 6 is added to both the numerator and denominator, the resulting fraction becomes 1/2.What is the value of the original denominator?",
+    "options": [
+      "3",
+      "9",
+      "12",
+      "15"
+    ],
+    "correct_answer": "12",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325357,
+    "question": "In a blueprint of a city, 0.5cm represents 5.5km. Two landmark in a city is 72.5 cm apart of in the map, what is the real world distance in km between these two landmark?",
+    "options": [
+      "7.25",
+      "72.5",
+      "792",
+      "797.5"
+    ],
+    "correct_answer": "797.5",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325358,
+    "question": "The sum of 25 consecutive integers is 54. What is the median of these integers?",
+    "options": [
+      "25",
+      "75",
+      "125",
+      "625"
+    ],
+    "correct_answer": "25",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325359,
+    "question": "Printer P, Printer Q and Printer R can print a batch of flyers in 4,8 and 16 hours respectively. How many Printer R are needed with One Printer P and three Printer Q to complete the lot in 1 hour?",
+    "options": [
+      "3",
+      "6",
+      "8",
+      "12"
+    ],
+    "correct_answer": "6",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325360,
+    "question": "Netflix's subscriber drops by one-fifth in every 4 years. If Netflix currently has 100,000 subscribers, how many subscribers will it have in 12 years from now?",
+    "options": [
+      "8000",
+      "40000",
+      "51200",
+      "60000"
+    ],
+    "correct_answer": "51200",
+    "explanation": "<p><span style=\"font-size: 1rem;\">If Netflix\\\"s subscriber base decreases by one-fifth every 4 years, and it currently has 100,000 subscribers, after 12 years it will have 40,960 subscribers. This is because a reduction of one-fifth means 80% (1 - 1/5 = 4/5) of the subscribers remain each 4-year period. 12 years is three 4-year periods, so we calculate (100,000 * (4/5) * (4/5) * (4/5)) = 40,960.</span></p><br/>Here\\\"s the breakdown: <br/>Year 0: 100,000 subscribers<br/>Year 4: 100,000 * (4/5) = 80,000 subscribers<br/>Year 8: 80,000 * (4/5) = 64,000 subscribers<br/>Year 12: 64,000 * (4/5) = 51,200 subscribers",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325361,
+    "question": "The cost of 18 articles is the same as the selling price of n articles. If the profit is 20%. Then what is the value of n?",
+    "options": [
+      "23",
+      "21",
+      "15",
+      "14"
+    ],
+    "correct_answer": "15",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325362,
+    "question": "If&nbsp;\\(\\sqrt{{{9}+\\sqrt{{y}}}}=\\sqrt{{{y}+{3}}}\\)</u> then y could be equal to which of the following?",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "correct_answer": "9",
+    "explanation": "<br data-mce-bogus=\"1\"><br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325363,
+    "question": "Zaid's mother contributes to her son's savings by giving him 10% of his total savings. If Zaid saves Tk.200 in June, Tk. 250 in July and Tk.150 in August. How much will he have in savings at the end of August?",
+    "options": [
+      "Tk. 630",
+      "Tk. 640",
+      "Tk. 650",
+      "Tk. 660"
+    ],
+    "correct_answer": "Tk. 660",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325364,
+    "question": "A seasoned workers efficiency is twice as much as an apprentice's. If they work together for 10 days on a project and earn Tk.45000 together, what is the daily wage of the apprentice?",
+    "options": [
+      "Tk. 1000",
+      "Tk. 1200",
+      "Tk. 1500",
+      "Tk. 1600"
+    ],
+    "correct_answer": "Tk. 1500",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325365,
+    "question": "Which mineral is commonly referred to as \"Fool's Gold\" due to its metallic luster and pale brass-yellow color?",
+    "options": [
+      "Mica",
+      "Galena",
+      "Pyrite",
+      "Magnetite"
+    ],
+    "correct_answer": "Pyrite",
+    "explanation": "📖 পাইরাইটকে (Pyrite) প্রায়শই \"ফুলের গোল্ড\" বা \"মূর্খের সোনা\" বলা হয় কারণ এর ধাতব চকচকে এবং ফ্যাকাশে পিতল-হলুদ রঙের কারণে এটি সোনার মতো দেখতে মনে হতে পারে।<br/>▣ পাইরাইট (FeS₂) একটি সালফাইড খনিজ যার চেহারা সোনার সাথে সাদৃশ্যপূর্ণ, তাই এটি প্রায়শই ভুল করে সোনা মনে করা হয়। মাইকা, গ্যালেনা এবং ম্যাগনেটাইটের রঙ ও গঠন ভিন্ন, তাই তারা এই নামে পরিচিত নয়। <br/>❏",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325366,
+    "question": "World Consumer Rights Day is observed annually on which day?",
+    "options": [
+      "March 13",
+      "March 14",
+      "March 15",
+      "March 16"
+    ],
+    "correct_answer": "March 15",
+    "explanation": "📖 বিশ্ব ভোক্তা অধিকার দিবস প্রতি বছর ১৫ই মার্চ পালিত হয়।<br/>▣ ১৫ই মার্চ ১৯৮৩ সাল থেকে বিশ্ব ভোক্তা অধিকার দিবস হিসেবে পালিত হয়, যা ভোক্তা সুরক্ষা ও অধিকার সম্পর্কে সচেতনতা বৃদ্ধির লক্ষ্যে প্রতিষ্ঠিত। অন্য তারিখগুলো এই দিবসের সাথে সম্পর্কিত নয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325367,
+    "question": "Which country has launched the \"Perm Nuclear Powered Submarine\"?",
+    "options": [
+      "Russia",
+      "China",
+      "USA",
+      "North Korea"
+    ],
+    "correct_answer": "Russia",
+    "explanation": "📖 \"পার্ম নিউক্লিয়ার পাওয়ার্ড সাবমেরিন\" চালু করেছে রাশিয়া।<br/>▣ রাশিয়া তার নৌবাহিনীর জন্য উন্নত পারমাণবিক শক্তিচালিত সাবমেরিন, যেমন পার্ম, উৎক্ষেপণ করেছে। এটি তাদের সামরিক কৌশলের অংশ। অন্য দেশগুলোর এই নির্দিষ্ট সাবমেরিনের সাথে সম্পর্ক নেই।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325368,
+    "question": "Which countries are the organizers of the third UN Ocean Conference?",
+    "options": [
+      "China and Panama",
+      "Iceland and Germany",
+      "Spain and Morocco",
+      "France and Costa Rica"
+    ],
+    "correct_answer": "France and Costa Rica",
+    "explanation": "📖 তৃতীয় UN মহাসাগর সম্মেলনের আয়োজক দেশ হলো ফ্রান্স এবং কোস্টারিকা।<br/>▣ ফ্রান্স এবং কোস্টারিকা তৃতীয় UN মহাসাগর সম্মেলন (২০২৫) আয়োজনের জন্য নির্বাচিত হয়েছে, যা মহাসাগর সংরক্ষণ ও টেকসই উন্নয়নের উপর গুরুত্ব দেয়। অন্য দেশগুলো এই সম্মেলনের আয়োজক হিসেবে জড়িত নয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325369,
+    "question": "The Global Education Monitoring (GEM) Report is published by which organization?",
+    "options": [
+      "UNICEF",
+      "UNESCO",
+      "UNDP",
+      "IMF"
+    ],
+    "correct_answer": "UNESCO",
+    "explanation": "📖 গ্লোবাল এডুকেশন মনিটরিং (GEM) রিপোর্ট UNESCO (জাতিসংঘের শিক্ষা, বৈজ্ঞানিক ও সাংস্কৃতিক সংস্থা) দ্বারা প্রকাশিত হয়।<br/>▣ UNESCO শিক্ষার উন্নয়ন ও পর্যবেক্ষণের জন্য GEM রিপোর্ট প্রকাশ করে, যা বিশ্বব্যাপী শিক্ষার অগ্রগতি মূল্যায়ন করে। UNICEF শিশু কল্যাণ, UNDP উন্নয়ন, এবং IMF অর্থনৈতিক বিষয়ে কাজ করে, তাই এই রিপোর্টের সাথে তাদের সম্পর্ক নেই।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325370,
+    "question": "Mount Etna, that had a recent volcanic eruption on June 2nd, 2025, is located in which country?",
+    "options": [
+      "Spain",
+      "France",
+      "Italy",
+      "Germany"
+    ],
+    "correct_answer": "Italy",
+    "explanation": "📖 মাউন্ট এটনা, যা ২০২৫ সালের ২ জুন তারিখে সম্প্রতি আগ্নেয়গিরির অগ্ন্যুৎপাত ঘটিয়েছে, এটি ইতালিতে অবস্থিত। এটি ইউরোপের অন্যতম সক্রিয় আগ্নেয়গিরি।<br/>▣ মাউন্ট এটনা সিসিলি দ্বীপে অবস্থিত এবং এটি ইতালির সবচেয়ে উল্লেখযোগ্য ভূতাত্ত্বিক স্থানগুলোর একটি। এটি প্রায়শই অগ্ন্যুৎপাত ঘটায়, এবং ২০২৫ সালের ঘটনাটি এর সক্রিয়তার প্রমাণ। অন্য দেশগুলোর সাথে এটির কোনো সম্পর্ক নেই।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325371,
+    "question": "In which city did the 51st G7 Annual Summit take place?",
+    "options": [
+      "Ontario",
+      "Alberta",
+      "Manitoba",
+      "British Columbia"
+    ],
+    "correct_answer": "Alberta",
+    "explanation": "📖 ৫১তম G7 বার্ষিক শীর্ষ সম্মেলন আলবার্টা, কানাডার ক্যালগেরি শহরে অনুষ্ঠিত হয়েছিল। বর্তমান সময় অনুযায়ী এটি ২০২৫ সালের তথ্য।<br/>▣ ক্যালগেরি, আলবার্টায় অবস্থিত, ২০২৫ সালে G7 শীর্ষ সম্মেলনের আয়োজক শহর হিসেবে নির্বাচিত হয়। এটি কানাডার জন্য গুরুত্বপূর্ণ ইভেন্ট ছিল, এবং অন্য প্রদেশগুলো এই সম্মেলনের সাথে যুক্ত ছিল না।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325372,
+    "question": "China has deployed a Large Phased Array Radar (LPAR) near which country's border?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Russia",
+      "Myanmar"
+    ],
+    "correct_answer": "Myanmar",
+    "explanation": "📖 চীন মায়ানমার সীমান্তের কাছে একটি বড় ফেজড অ্যারে রাডার (LPAR) স্থাপন করেছে বলে জানা গেছে।<br/>▣ এই রাডারটি চীনের কৌশলগত প্রতিরক্ষা ব্যবস্থার অংশ হিসেবে মায়ানমারের সীমান্তবর্তী অঞ্চলে স্থাপিত হয়েছে, যা দক্ষিণ-পূর্ব এশিয়ায় নজরদারি জোরদার করার লক্ষ্যে। অন্য দেশগুলোর সীমান্তে এই ধরনের রাডারের উল্লেখ পাওয়া যায়নি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325373,
+    "question": "Which element has the highest electrical conductivity?",
+    "options": [
+      "Copper",
+      "Silver",
+      "Gold",
+      "Aluminum"
+    ],
+    "correct_answer": "Silver",
+    "explanation": "📖 ইলেক্ট্রন প্রবাহের সুবিধার দিক থেকে সিলভারের (রূপা) বৈদ্যুতিক পরিবাহিতা সর্বোচ্চ।<br/>▣ সিলভারের বৈদ্যুতিক পরিবাহিতা প্রায় ৬.৩ x ১০^৭ S/m, যা তামা, সোনা ও অ্যালুমিনিয়ামের তুলনায় বেশি। তবে, খরচ ও স্থায়িত্বের কারণে তামা বেশি ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325374,
+    "question": "Which ancient archaeological site in Bangladesh is associated with the earliest urban settlement of Bengal?",
+    "options": [
+      "Mahasthangarh",
+      "Somapura Mahavihara",
+      "Mainamati",
+      "Wari-Bateshwar"
+    ],
+    "correct_answer": "Mahasthangarh",
+    "explanation": "📖 বাংলাদেশের প্রাচীন প্রত্নতাত্ত্বিক স্থান মহাস্থানগড় বাংলার প্রাচীনতম নগর বসতির সাথে সম্পর্কিত। এটি পুন্ড্রনগরের ধ্বংসাবশেষ বলে মনে করা হয়।<br/>▣ মহাস্থানগড়, বগুড়ায় অবস্থিত, খ্রিস্টপূর্ব ৩য় শতক থেকে বাংলার প্রাচীন নগরায়নের প্রমাণ বহন করে। এটি পুন্ড্রবর্ধন নগরের কেন্দ্র ছিল। অন্য স্থানগুলো পরবর্তী সময়ের বা ভিন্ন প্রেক্ষাপটের।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325375,
+    "question": "Which empire is credited with constructing the extensive network of roads known as the Royal Road?",
+    "options": [
+      "Roman",
+      "Ottoman",
+      "Persian",
+      "Byzantine"
+    ],
+    "correct_answer": "Persian",
+    "explanation": "📖 রয়্যাল রোড নামে পরিচিত বিস্তৃত রাস্তা নেটওয়ার্ক নির্মাণের জন্য পারস্য সাম্রাজ্যকে (আকেমেনিদ সাম্রাজ্য) কৃতিত্ব দেওয়া হয়।<br/>▣ পারস্য সাম্রাজ্যের রাজা দারিয়ুস প্রথম রয়্যাল রোড নির্মাণ করেন, যা সুসা থেকে সার্ডিস পর্যন্ত প্রায় ২৭০০ কিলোমিটার বিস্তৃত ছিল। এটি প্রশাসন ও বাণিজ্যের জন্য গুরুত্বপূর্ণ ছিল। অন্য সাম্রাজ্যগুলোর এই রাস্তার সাথে সম্পর্ক নেই।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325376,
+    "question": "Which African nation hosted the Global Al Summit on Africa 2025?",
+    "options": [
+      "Nigeria",
+      "Kenya",
+      "Egypt",
+      "Rwanda"
+    ],
+    "correct_answer": "Rwanda",
+    "explanation": "📖 ২০২৫ সালের গ্লোবাল এআই সামিট অন আফ্রিকা আয়োজন করেছে রুয়ান্ডা।<br/>▣ রুয়ান্ডা, আফ্রিকার একটি প্রযুক্তি কেন্দ্র হিসেবে উদীয়মান, এআই গবেষণা ও উন্নয়নের জন্য গুরুত্বপূর্ণ প্ল্যাটফর্ম হিসেবে ২০২৫ সালে এই সম্মেলন আয়োজন করে। অন্য দেশগুলো এই ইভেন্টের সাথে যুক্ত ছিল না।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325377,
+    "question": "Which body of water does the Strait of Hormuz connect to the Persian Gulf?",
+    "options": [
+      "Gulf of Oman",
+      "Red Sea",
+      "Gulf of Aden",
+      "Arabian Gulf"
+    ],
+    "correct_answer": "Gulf of Oman",
+    "explanation": "📖 হরমুজ প্রণালী ওমান উপসাগরকে পারস্য উপসাগরের সাথে সংযুক্ত করে। এটি বিশ্বের অন্যতম গুরুত্বপূর্ণ তেল পরিবহন পথ।<br/>▣ হরমুজ প্রণালী ইরান ও ওমানের মধ্যে অবস্থিত, এবং এটি পারস্য উপসাগরকে ওমান উপসাগরের মাধ্যমে আরব সাগর ও ভারত মহাসাগরের সাথে যুক্ত করে। অন্য বিকল্পগুলো এই প্রণালীর সাথে সংযুক্ত নয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325378,
+    "question": "Which space mission achieved the milestone of capturing the first-ever images of the Sun's south pole?",
+    "options": [
+      "Solar Orbiter",
+      "Parker Solar Probe",
+      "Aditya-L1",
+      "Solar H-alpha"
+    ],
+    "correct_answer": "Solar Orbiter",
+    "explanation": "📖 সোলার অরবিটার (Solar Orbiter) মহাকাশ মিশনটি সূর্যের দক্ষিণ মেরুর প্রথম ছবি তুলে একটি মাইলফলক অর্জন করেছে।<br/>▣ সোলার অরবিটার, ইউরোপীয় মহাকাশ সংস্থা ও নাসার যৌথ উদ্যোগে ২০২০ সালে উৎক্ষেপিত, সূর্যের মেরু অঞ্চলের চিত্র ধারণ করার জন্য ডিজাইন করা হয়েছিল। অন্য মিশনগুলো এই নির্দিষ্ট কাজের জন্য নয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325379,
+    "question": "The Kurdistan Region with official autonomous status is located in which country?",
+    "options": [
+      "Syria",
+      "Turkey",
+      "Iraq",
+      "Iran"
+    ],
+    "correct_answer": "Iraq",
+    "explanation": "📖 দাপ্তরিক স্বায়ত্তশাসিত কুর্দিস্তান অঞ্চলটি ইরাকে অবস্থিত। এর নিজস্ব সংসদ, সরকার এবং সশস্ত্র বাহিনী রয়েছে।<br/>▣ ইরাকের উত্তরাঞ্চলে কুর্দিস্তান অঞ্চল ১৯৯১ সাল থেকে স্বায়ত্তশাসন পেয়েছে, এবং এটি ইরাকের সংবিধানে স্বীকৃত। সিরিয়া, তুরস্ক ও ইরানে কুর্দি জনগোষ্ঠী থাকলেও, শুধুমাত্র ইরাকে স্বায়ত্তশাসিত অঞ্চল রয়েছে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325380,
+    "question": "The 'Invisible Hand' concept in free-market economics was coined by which economist?",
+    "options": [
+      "Adam Smith",
+      "Milton Friedman",
+      "David Ricardo",
+      "Karl Marx"
+    ],
+    "correct_answer": "Adam Smith",
+    "explanation": "📖 মুক্ত-বাজার অর্থনীতিতে 'অদৃশ্য হাত' (Invisible Hand) ধারণাটি অর্থনীতিবিদ অ্যাডাম স্মিথ তাঁর ১৭৭৬ সালের বই \"An Inquiry into the Nature and Causes of the Wealth of Nations\" এ প্রবর্তন করেন। এটি ব্যক্তি স্বার্থের অনিচ্ছাকৃত সামাজিক সুবিধার বর্ণনা করে।<br/>▣ অ্যাডাম স্মিথের ‘অদৃশ্য হাত’ ধারণাটি বোঝায় যে ব্যক্তিরা নিজেদের স্বার্থে কাজ করলেও, বাজারের প্রক্রিয়া সমাজের সামগ্রিক কল্যাণে অবদান রাখে। অন্য অর্থনীতিবিদরা এই ধারণার সাথে যুক্ত নন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325381,
+    "question": "What is the minimum percentage of Uranium-235 enrichment required to produce military-grade nuclear warheads?",
+    "options": [
+      "60%",
+      "70%",
+      "80%",
+      "90%"
+    ],
+    "correct_answer": "90%",
+    "explanation": "📖 সামরিক-গ্রেডের পারমাণবিক ওয়ারহেড তৈরির জন্য ইউরেনিয়াম-২৩৫ এর ন্যূনতম ৯০% সমৃদ্ধকরণ প্রয়োজন।<br/>▣ ইউরেনিয়াম-২৩৫ এর উচ্চ সমৃদ্ধকরণ (৯০% বা তার বেশি) পারমাণবিক অস্ত্রের জন্য প্রয়োজন কারণ এটি দ্রুত শৃঙ্খলা বিক্রিয়া সৃষ্টি করতে পারে। নিম্ন সমৃদ্ধকরণ (যেমন ৩-৫%) শুধুমাত্র পারমাণবিক বিদ্যুৎ উৎপাদনে ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325382,
+    "question": "Which nation defaulted on its sovereign debt for the first time in its history in 2023?",
+    "options": [
+      "Sri Lanka",
+      "Ghana",
+      "Nauru",
+      "Lebanon"
+    ],
+    "correct_answer": "Ghana",
+    "explanation": "📖 ২০২৩ সালে ঘানা তার ইতিহাসের প্রথমবারের মতো সার্বভৌম ঋণ পরিশোধে ব্যর্থ হয়।<br/>▣ ঘানা ২০২৩ সালে অর্থনৈতিক সংকটের কারণে তার বৈদেশিক ঋণ পরিশোধে অক্ষম হয়, যা দেশটির ইতিহাসে প্রথম ঘটনা। শ্রীলঙ্কা ও লেবাননও ঋণ সংকটের মুখোমুখি হয়েছিল, কিন্তু ঘানার এটি প্রথম ডিফল্ট ছিল।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325383,
+    "question": "Which country is hosting the 2025 FIFA Club World Cup?",
+    "options": [
+      "Italy",
+      "Brazil",
+      "Russia",
+      "USA"
+    ],
+    "correct_answer": "USA",
+    "explanation": "📖 ২০২৫ সালের ফিফা ক্লাব বিশ্বকাপ মার্কিন যুক্তরাষ্ট্র আয়োজন করবে। এটি ৩২টি দল নিয়ে অনুষ্ঠিত প্রথম বর্ধিত ক্লাব বিশ্বকাপ হবে।<br/>▣ ফিফা ২০২৫ সালে মার্কিন যুক্তরাষ্ট্রকে এই টুর্নামেন্টের আয়োজক হিসেবে নির্বাচিত করেছে, যা ১১টি শহরে ২৯ জুন থেকে ১৩ জুলাই পর্যন্ত অনুষ্ঠিত হবে। এটি বিশ্ব ফুটবলের একটি বড় ইভেন্ট হিসেবে গণ্য হচ্ছে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325384,
+    "question": "Which one of the following is not a Polynesian country?",
+    "options": [
+      "Vanuatu",
+      "Samoa",
+      "Tonga",
+      "New Zealand"
+    ],
+    "correct_answer": "Vanuatu",
+    "explanation": "📖 ভানুয়াতু একটি মেলানেশিয়ান দেশ, পলিনেশিয়ান নয়। সামোয়া, টোঙ্গা এবং নিউজিল্যান্ড হলো পলিনেশিয়ান দেশ।<br/>▣ পলিনেশিয়া প্রশান্ত মহাসাগরের একটি উপ-অঞ্চল, যার মধ্যে সামোয়া, টোঙ্গা এবং নিউজিল্যান্ডের মাওরি সংস্কৃতি অন্তর্ভুক্ত। ভানুয়াতু মেলানেশিয়া অঞ্চলের অংশ, যার সংস্কৃতি ও ভাষা পলিনেশিয়ান দেশগুলোর থেকে ভিন্ন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325385,
+    "question": "Find the correctly spelled word.",
+    "options": [
+      "Lackadasicle",
+      "Lacadiasical",
+      "Lackadasical",
+      "Lackadaisical"
+    ],
+    "correct_answer": "Lackadaisical",
+    "explanation": "📖 সঠিক বানানটি হলো Lackadaisical। এর অর্থ উৎসাহহীন বা অলস।<br/>▣ Lackadaisical শব্দটি পুরানো ইংরেজি শব্দ \"lackaday\" (আফসোসের অভিব্যক্তি) থেকে উৎপন্ন। অন্য বিকল্পগুলোতে অক্ষরের ভুল বিন্যাস রয়েছে, যেমন \"Lackadasicle\" তে \"si\" এর পরিবর্তে \"sic\" এবং \"Lacadiasical\" তে \"ck\" এর পরিবর্তে \"c\"।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325386,
+    "question": "Find the correctly spelled word.",
+    "options": [
+      "Survailance",
+      "Surveillane",
+      "Survillance",
+      "Surveillance"
+    ],
+    "correct_answer": "Surveillance",
+    "explanation": "📖 সঠিক বানানটি হলো Surveillance। এর অর্থ নজরদারি বা পর্যবেক্ষণ।<br/>▣ Surveillance ফরাসি শব্দ \"surveiller\" (নজর রাখা) থেকে এসেছে। অন্য বিকল্পগুলোতে অক্ষরের ভুল বিন্যাস রয়েছে, যেমন \"Survailance\" তে \"ei\" এর পরিবর্তে \"ai\" এবং \"Survillance\" তে \"ei\" এর পরিবর্তে \"i\" ব্যবহৃত।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325387,
+    "question": "Find the correctly spelled word.",
+    "options": [
+      "Chancellery",
+      "Chancelery",
+      "Chancelliary",
+      "Cancellary"
+    ],
+    "correct_answer": "Chancellery",
+    "explanation": "📖 সঠিক বানানটি হলো Chancellery। এর অর্থ রাষ্ট্রীয় কার্যালয় বা দূতাবাসের প্রধানের পদ।<br/>▣ Chancellery শব্দটি \"chancellor\" থেকে উৎপন্ন, যা প্রশাসনিক বা কূটনৈতিক কার্যালয় বোঝায়। অন্য বিকল্পগুলোতে অক্ষরের ভুল বিন্যাস রয়েছে, যেমন \"Chancelery\" তে দ্বিতীয় \"l\" অনুপস্থিত এবং \"Chancelliary\" তে অতিরিক্ত \"i\" যুক্ত হয়েছে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325388,
+    "question": "Find the correctly spelled word.",
+    "options": [
+      "Forcast",
+      "Forecaste",
+      "Forecist",
+      "Forecast"
+    ],
+    "correct_answer": "Forecast",
+    "explanation": "📖 সঠিক বানানটি হলো Forecast। এর অর্থ পূর্বাভাস।<br/>▣ Forecast শব্দটি ইংরেজি \"fore\" (আগে) এবং \"cast\" (নিক্ষেপ বা ভবিষ্যদ্বাণী) থেকে গঠিত। অন্য বিকল্পগুলোতে ভুল অক্ষর ব্যবহৃত হয়েছে, যেমন \"Forcast\" এ \"e\" অনুপস্থিত এবং \"Forecist\" এ \"a\" এর পরিবর্তে \"i\" ব্যবহৃত।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325389,
+    "question": "Find the correctly spelled word.",
+    "options": [
+      "Equaminity",
+      "Eqouanimity",
+      "Equanvimity",
+      "Equanimity"
+    ],
+    "correct_answer": "Equanimity",
+    "explanation": "📖 সঠিক বানানটি হলো Equanimity। এর অর্থ মানসিক শান্তি বা স্থিরতা, বিশেষ করে কঠিন পরিস্থিতিতে।<br/>▣ Equanimity শব্দটি ল্যাটিন মূল \"aequus\" (সমান) এবং \"animus\" (মন) থেকে উৎপন্ন। অন্যান্য বিকল্পগুলোতে অক্ষরের ভুল অবস্থান বা অতিরিক্ত অক্ষর রয়েছে, যেমন \"Equaminity\" তে \"ni\" এর পরিবর্তে \"mi\" বা \"Eqouanimity\" তে অতিরিক্ত \"o\"।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325390,
+    "question": "Correct Analogy: Sage : Wisdom::",
+    "options": [
+      "Doctor : Stethoscope",
+      "Pharmacist : Medicine",
+      "Teacher : Classroom",
+      "Athlete: Agility"
+    ],
+    "correct_answer": "Athlete: Agility",
+    "explanation": "📖 Sage (জ্ঞানী): Wisdom (জ্ঞান): জ্ঞানীর প্রধান বৈশিষ্ট্য বা গুণ হলো জ্ঞান। <br/>❏ Doctor (ডাক্তার): Stethoscope (স্টেথোস্কোপ): স্টেথোস্কোপ ডাক্তারের একটি যন্ত্র। <br/>❏ Pharmacist (ফার্মাসিস্ট): Medicine (ওষুধ): ফার্মাসিস্ট ওষুধ নিয়ে কাজ করে। <br/>❏ Teacher (শিক্ষক): Classroom (শ্রেণিকক্ষ): শ্রেণিকক্ষ শিক্ষকের কাজের স্থান। <br/>❏ Athlete (ক্রীড়াবিদ): Agility (চটপটে ভাব): একজন ক্রীড়াবিদের (বিশেষত অনেক ধরনের ক্রীড়াবিদের) একটি গুরুত্বপূর্ণ গুণ বা বৈশিষ্ট্য হলো চটপটে ভাব (agility)।<br/>❏ যেমন জ্ঞানীর সাথে জ্ঞান জড়িত, তেমনি ক্রীড়াবিদের সাথে চটপটে ভাব জড়িত। তাই \"Athlete: Agility\" সঠিক সাদৃশ্য।<br/>▣ এই সাদৃশ্যে প্রথম পদটি একটি ব্যক্তি বা পেশা, এবং দ্বিতীয় পদটি তার প্রধান গুণ বা বৈশিষ্ট্য। \"Sage\" এর জন্য জ্ঞান এবং \"Athlete\" এর জন্য চটপটে ভাব সবচেয়ে উপযুক্ত। অন্য বিকল্পগুলো যন্ত্র, স্থান বা উপকরণ বোঝায়, যা গুণ নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325391,
+    "question": "Correct Analogy: EVANESCENT : DISAPPEAR : :",
+    "options": [
+      "Onerous : Struggle",
+      "Feckless : Succeed",
+      "Illusory : Exist",
+      "Pliant : Yield"
+    ],
+    "correct_answer": "Pliant : Yield",
+    "explanation": "📖 EVANESCENT (ক্ষণস্থায়ী): DISAPPEAR (অদৃশ্য হওয়া): ক্ষণস্থায়ী মানে যা দ্রুত অদৃশ্য হয়ে যায়। \"Evanescent\" এর অর্থই হলো অদৃশ্য হয়ে যাওয়া। <br/>❏ Onerous (কষ্টসাধ্য): Struggle (সংগ্রাম): কষ্টসাধ্য কাজ করতে সংগ্রাম করতে হয়। <br/>❏ Feckless (অযোগ্য): Succeed (সফল হওয়া): অযোগ্যতা সফলতার বিপরীত। <br/>❏ Illusory (মায়াময়): Exist (বিদ্যমান থাকা): মায়াময় জিনিস বাস্তবে নাও থাকতে পারে। <br/>❏ Pliant (নমনীয়): Yield (নতি স্বীকার করা): নমনীয় মানে যা সহজে বাঁকানো যায় বা নতি স্বীকার করে। \"Pliant\" এর অর্থই হলো নতি স্বীকার করা।<br/>❏ যেমন \"Evanescent\" এর অর্থ হলো \"disappear\", তেমনি \"Pliant\" এর অর্থ হলো \"yield\"। তাই \"Pliant : Yield\" সঠিক সাদৃশ্য।<br/>▣ এই সাদৃশ্যে প্রথম পদটি একটি বিশেষণ যার অর্থ দ্বিতীয় পদের ক্রিয়ার সাথে সমার্থক। \"Evanescent\" অদৃশ্য হওয়ার বৈশিষ্ট্য বোঝায়, এবং \"Pliant\" নমনীয়তা বা নতি স্বীকারের বৈশিষ্ট্য। অন্য বিকল্পগুলো এই সম্পর্ক সঠিকভাবে প্রকাশ করে না।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325392,
+    "question": "Correct Analogy: FRUGAL : MISERLY : :",
+    "options": [
+      "Confident : Arrogant",
+      "Courageous : Pugnacious",
+      "Famous : Aggressive",
+      "Rash : Foolhardy"
+    ],
+    "correct_answer": "Confident : Arrogant",
+    "explanation": "📖 FRUGAL (মিতব্যয়ী): MISERLY (কৃপণ): মিতব্যয়ী ভালো গুণ, কিন্তু কৃপণতা মিতব্যয়িতার একটি চরম ও নেতিবাচক রূপ। <br/>❏ Confident (আত্মবিশ্বাসী): Arrogant (অহংকারী): আত্মবিশ্বাস ভালো গুণ, কিন্তু অহংকার আত্মবিশ্বাসের একটি চরম ও নেতিবাচক রূপ। <br/>❏ Courageous (সাহসী): Pugnacious (ঝগড়াটে): সাহসিকতা এবং ঝগড়াটে মনোভাব একরকম নয়। <br/>❏ Famous (বিখ্যাত): Aggressive (আক্রমনাত্মক): দুটি ভিন্ন বৈশিষ্ট্য। <br/>❏ Rash (বেপরোয়া): Foolhardy (নির্বোধের মতো সাহসী): \"Foolhardy\" হলো \"Rash\" এর একটি চরম রূপ। এই অপশনটিও কাছাকাছি।<br/>❏ আত্মবিশ্বাসের নেতিবাচক বাড়াবাড়ি হলো অহংকার। তাই \"Confident : Arrogant\" সবচেয়ে উপযুক্ত সাদৃশ্য।<br/>▣ এই সাদৃশ্যে প্রথম পদটি একটি ইতিবাচক গুণ, এবং দ্বিতীয় পদটি তার অতিরঞ্জিত বা নেতিবাচক রূপ। \"Confident : Arrogant\" এই সম্পর্কটি স্পষ্টভাবে প্রকাশ করে কারণ অহংকার আত্মবিশ্বাসের চরম রূপ। \"Rash : Foolhardy\" ও কাছাকাছি, কিন্তু \"Confident : Arrogant\" বেশি সাধারণ ও স্পষ্ট।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325393,
+    "question": "Correct Analogy: CURIOSITY : KNOW ::",
+    "options": [
+      "Temptation : Conquer",
+      "Starvation : Eat",
+      "Wanderlust : Travel",
+      "Humor : Laugh"
+    ],
+    "correct_answer": "Wanderlust : Travel",
+    "explanation": "📖 CURIOSITY (কৌতূহল): KNOW (জানা): কৌতূহল হলো জানার আকাঙ্ক্ষা। <br/>❏ Temptation (প্রলোভন): Conquer (জয় করা): প্রলোভন জয়ের আকাঙ্ক্ষা নয়, বরং কিছু করার প্ররোচনা। <br/>❏ Starvation (ক্ষুধা): Eat (খাওয়া): ক্ষুধা হলো খাওয়ার প্রয়োজন। <br/>❏ Wanderlust (ভ্রমণপিপাসা): Travel (ভ্রমণ করা): ভ্রমণপিপাসা হলো ভ্রমণের আকাঙ্ক্ষা। <br/>❏ Humor (হাস্যরস): Laugh (হাসা): হাস্যরস হাসির কারণ।<br/>❏ কৌতূহল যেমন জানার জন্ম দেয়, তেমনি ভ্রমণপিপাসা ভ্রমণের জন্ম দেয়। তাই \"Wanderlust : Travel\" সঠিক সাদৃশ্য।<br/>▣ এই সাদৃশ্যে প্রথম পদটি একটি আকাঙ্ক্ষা বা প্রবৃত্তি বোঝায়, এবং দ্বিতীয় পদটি সেই আকাঙ্ক্ষার ফলাফল বা ক্রিয়া। \"Curiosity\" জানার ইচ্ছা, আর \"Wanderlust\" ভ্রমণের ইচ্ছা। অন্য বিকল্পগুলোতে এই সম্পর্ক সঠিকভাবে প্রতিফলিত হয় না, যেমন \"Starvation : Eat\" প্রয়োজন বোঝায়, আকাঙ্ক্ষা নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325394,
+    "question": "Correct Analogy: DISPUTE: MEDIATION ::",
+    "options": [
+      "War : Peace",
+      "Argument : Altercation",
+      "Judgment : Trial",
+      "Stalemate : Negotiation"
+    ],
+    "correct_answer": "Stalemate : Negotiation",
+    "explanation": "📖 DISPUTE (বিরোধ): MEDIATION (মধ্যস্থতা): বিরোধ নিষ্পত্তির জন্য মধ্যস্থতা করা হয়। <br/>❏ War (যুদ্ধ): Peace (শান্তি): যুদ্ধ শান্তির বিপরীত, সম্পর্ক নিষ্পত্তির প্রক্রিয়া নয়। <br/>❏ Argument (যুক্তি): Altercation (ঝগড়া): দুটিই বিতর্কের ধরন। <br/>❏ Judgment (রায়): Trial (বিচার): বিচার রায় প্রদানের একটি প্রক্রিয়া। <br/>❏ Stalemate (স্থবিরতা): Negotiation (আলোচনা): স্থবির পরিস্থিতি থেকে উত্তরণের জন্য আলোচনা করা হয়।<br/>❏ মধ্যস্থতা যেমন বিরোধের সমাধান করে, তেমনি আলোচনা স্থবিরতার সমাধান করে। তাই \"Stalemate : Negotiation\" সঠিক সাদৃশ্য।<br/>▣ এই সাদৃশ্যে প্রথম পদটি একটি সমস্যা বা জটিল পরিস্থিতি বোঝায় (DISPUTE, STALEMATE), এবং দ্বিতীয় পদটি তার সমাধানের প্রক্রিয়া (MEDIATION, NEGOTIATION)। \"War : Peace\" বিপরীত সম্পর্ক দেখায়, এবং \"Argument : Altercation\" একই ধরনের ঘটনার বিভিন্ন রূপ। শুধুমাত্র \"Stalemate : Negotiation\" সমাধানের প্রক্রিয়ার সাথে সঠিকভাবে মিলে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325395,
+    "question": "Incorrectly Used Words: My [memory] of my childhood is blurry [rather] pleasant, filled with fun, [laughing] and stories.",
+    "options": [
+      "Only memory",
+      "Only rather",
+      "Both memory and rather",
+      "Both rather and laughing"
+    ],
+    "correct_answer": "Both rather and laughing",
+    "explanation": "📖 rather: \"blurry rather pleasant\" বাক্যটিতে \"rather\" এর ব্যবহার অসম্পূর্ণ। যদি বোঝাতে চাওয়া হয় যে স্মৃতিটি ঝাপসা, তবে সুখকর নয়, তাহলে \"rather than pleasant\" হবে। যদি \"rather\" দিয়ে \"quite\" বা \"somewhat\" বোঝানো হয়, তবে এর অবস্থান বা কাঠামো ভুল। <br/>❏ laughing: \"filled with fun, laughing and stories\" - এখানে \"fun\" এবং \"stories\" বিশেষ্য পদ, তাই \"laughing\" এর পরিবর্তে \"laughter\" (হাসি, বিশেষ্য) ব্যবহার করা উচিত।<br/>❏ \"memory\" এর ব্যবহার সঠিক। তাই \"rather\" এবং \"laughing\" উভয়ই ভুলভাবে ব্যবহৃত হয়েছে।<br/>▣ ইংরেজি বাক্যে সমান্তরাল গঠন (parallel structure) বজায় রাখতে হয়। \"Fun\" এবং \"stories\" বিশেষ্য হওয়ায় তালিকায় \"laughing\" (ক্রিয়া) এর পরিবর্তে \"laughter\" (বিশেষ্য) ব্যবহার করা উচিত। \"Rather\" এর ব্যবহার তুলনা বা সংশোধন বোঝাতে হলে \"than\" এর সাথে যুক্ত হওয়া প্রয়োজন, অন্যথায় এটি অর্থহীন।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325396,
+    "question": "Incorrectly Used Words: [Having] always [prompted] his followers, the leader was [beloved] and respected by all.",
+    "options": [
+      "Only prompted",
+      "Only Having",
+      "Only beloved",
+      "Both Having and beloved"
+    ],
+    "correct_answer": "Only prompted",
+    "explanation": "📖 এখানে \"prompted\" শব্দের ভুল ব্যবহার করা হয়েছে। বাক্যটির অর্থ অনুযায়ী, নেতা তার অনুসারীদেরকে উৎসাহিত বা সমর্থন করতেন, যার জন্য \"promoted\" (উন্নতি করা বা সমর্থন করা) শব্দটি অধিক উপযুক্ত। \"prompted\" মানে কাউকে কিছু করতে প্ররোচিত করা বা স্মরণ করিয়ে দেওয়া। \"Having\" এবং \"beloved\" এর ব্যবহার এখানে সঠিক।<br/>▣ \"Prompted\" শব্দটি এখানে প্রেক্ষাপটের সাথে মানানসই নয় কারণ এটি সাধারণত তাড়না বা স্মরণ করানোর অর্থ বহন করে। \"Promoted\" নেতৃত্বের প্রেক্ষাপটে উপযুক্ত কারণ এটি অনুসারীদের উন্নতি বা সমর্থনের অর্থ প্রকাশ করে। \"Having\" এবং \"beloved\" বাক্যের গঠন ও অর্থের সাথে সামঞ্জস্যপূর্ণ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325397,
+    "question": " Incorrectly Used Words: This is one of the rare [occasion] where the press has not [been] intrusive and have instead acted [tactful].",
+    "options": [
+      "Only been",
+      "Only occasion",
+      "Both occasion and tactful",
+      "Only tactful"
+    ],
+    "correct_answer": "Both occasion and tactful",
+    "explanation": "📖 occasion: \"one of the rare\" এর পরে বহুবচন বিশেষ্য বসবে। তাই \"occasion\" এর বদলে \"occasions\" হবে। <br/>❏ tactful: \"acted\" (ক্রিয়া) এর পরে ক্রিয়া বিশেষণ (adverb) বসবে। \"tactful\" একটি বিশেষণ। এর বদলে \"tactfully\" (ক্রিয়া বিশেষণ) হবে।<br/>❏ \"been\" এর ব্যবহার এখানে সঠিক। তাই \"occasion\" এবং \"tactful\" উভয়ই ভুলভাবে ব্যবহৃত হয়েছে।<br/>▣ ইংরেজি ব্যাকরণে \"one of the\" কাঠামোর পরে বহুবচন বিশেষ্য ব্যবহৃত হয় কারণ এটি একটি গোষ্ঠীর একটি উপাদান নির্দেশ করে। তেমনি, ক্রিয়ার পদ্ধতি বা ধরন বর্ণনা করতে ক্রিয়া বিশেষণ প্রয়োজন, তাই \"tactful\" এর পরিবর্তে \"tactfully\" সঠিক। \"Been\" সঠিকভাবে ব্যবহৃত হয়েছে কারণ এটি সহায়ক ক্রিয়া হিসেবে কাজ করে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325398,
+    "question": "Incorrectly Used Words: It is a [primitive] instinct to [fled] a place [of] danger.",
+    "options": [
+      "Only primitive",
+      "Only fled",
+      "Only of",
+      "Both primitive and fled"
+    ],
+    "correct_answer": "Only fled",
+    "explanation": "📖 \"to\" এর পরে ক্রিয়ার মূল রূপ (infinitive) বসে। \"fled\" হলো \"flee\" এর অতীত রূপ। তাই \"to fled\" এর পরিবর্তে \"to flee\" হবে। \"primitive\" এবং \"of\" এখানে সঠিক ব্যবহার করা হয়েছে।<br/>▣ ইংরেজি ব্যাকরণে \"to\" এর পরে ক্রিয়ার base form ব্যবহৃত হয়, যেমন \"to run\", \"to eat\"। \"Fled\" অতীত কালের রূপ হওয়ায় এটি এখানে ভুল। \"Primitive\" সঠিক কারণ এটি স্বাভাবিক প্রবৃত্তিকে বোঝায়, এবং \"of\" বিপদের স্থান বোঝাতে সঠিকভাবে ব্যবহৃত।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325399,
+    "question": "Incorrectly Used Words: Every [worker] must sign [their] name on the register when [they] arrive.",
+    "options": [
+      "Only worker",
+      "Only their",
+      "Only they",
+      "Both their and they"
+    ],
+    "correct_answer": "Both their and they",
+    "explanation": "📖 \"Every worker\" একটি একবচন পদ। এর সাথে \"their\" এবং \"they\" (যা বহুবচন বোঝাতে ব্যবহৃত হয়) ব্যবহার করা ব্যাকরণগতভাবে ভুল। সঠিক বাক্যটি হতে পারতো \"Every worker must sign his or her name on the register when he or she arrives\" অথবা \"All workers must sign their name on the register when they arrive.\" আধুনিক ইংরেজিতে যদিও \"their\" এবং \"they\" কে জেন্ডার-নিরপেক্ষ একবচন হিসেবে ব্যবহার করা হয়, তবে কঠোর ব্যাকরণগত নিয়মে এটি ভুল। তাই, \"their\" এবং \"they\" উভয়ই ভুলভাবে ব্যবহৃত হয়েছে।<br/>▣ ইংরেজি ব্যাকরণে সর্বনামের সংখ্যা ও লিঙ্গের সাথে বিশেষ্যের সংখ্যা ও লিঙ্গের মিল থাকতে হয়। \"Every worker\" একবচন হওয়ায় \"their\" এবং \"they\" এর ব্যবহার সংখ্যার দিক থেকে অসামঞ্জস্যপূর্ণ। আধুনিক ব্যবহারে \"their\" জেন্ডার-নিরপেক্ষ হিসেবে গ্রহণযোগ্য হলেও, প্রশ্নে কঠোর ব্যাকরণের নিয়ম অনুসরণ করা হয়েছে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325400,
+    "question": "He  …………. in the meeting.",
+    "options": [
+      "hit the mark",
+      "cut a sorry figure",
+      "lived on the breadline",
+      "tied the knot"
+    ],
+    "correct_answer": "cut a sorry figure",
+    "explanation": "📖 hit the mark: লক্ষ্য অর্জন করা বা সঠিক হওয়া। <br/>❏ cut a sorry figure: খারাপ ছাপ ফেলা বা হতাশাজনকভাবে ব্যর্থ হওয়া। <br/>❏ lived on the breadline: অত্যন্ত দরিদ্র অবস্থায় জীবনযাপন করা। <br/>❏ tied the knot: বিবাহ করা।<br/>❏ মিটিংয়ে খারাপ পারফরম্যান্স বোঝাতে cut a sorry figure সবচেয়ে উপযুক্ত। তাই সঠিক উত্তর হলো \"cut a sorry figure\"।<br/>▣ ‘Cut a sorry figure’ বাগধারাটি এমন পরিস্থিতি বোঝায় যেখানে কেউ অপ্রস্তুত বা অক্ষম হয়ে সবার সামনে হাস্যকর বা হতাশাজনক ছাপ ফেলে। মিটিংয়ের প্রেক্ষাপটে এটি ব্যর্থতা বা দুর্বল উপস্থিতি বোঝায়। অন্য বিকল্পগুলো এই অর্থ প্রকাশ করে না।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325401,
+    "question": "Those souvenirs are  …………. at the tourist shops.",
+    "options": [
+      "Split the details",
+      "nail on the head",
+      "lion's share",
+      "a dime a dozen"
+    ],
+    "correct_answer": "a dime a dozen",
+    "explanation": "📖 Split the details: বিস্তারিত ভাগ করা। <br/>❏ nail on the head: সঠিক কথা বলা বা সঠিক কাজটি করা। <br/>❏ lion's share: সবচেয়ে বড় অংশ। <br/>❏ a dime a dozen: অত্যন্ত সাধারণ বা সহজলভ্য, যার ফলে মূল্যহীন।<br/>❏ পর্যটন দোকানে স্যুভেনিয়ারের সহজলভ্যতা প্রসঙ্গে a dime a dozen সবচেয়ে উপযুক্ত। তাই সঠিক উত্তর হলো \"a dime a dozen\"।<br/>▣ ‘A dime a dozen’ বাগধারাটি এমন কিছু বোঝায় যা প্রচুর পরিমাণে পাওয়া যায় এবং তাই এর মূল্য কম। পর্যটন দোকানে স্যুভেনিয়ার সাধারণত ব্যাপকভাবে উৎপাদিত হয়, তাই এটি এই বাগধারার সাথে মানানসই। অন্য বিকল্পগুলো এই প্রেক্ষাপটে প্রযোজ্য নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325402,
+    "question": "His unexpected win prompts him to be a  …………. in the election.",
+    "options": [
+      "dark horse",
+      "dog in the manger",
+      "drawn game",
+      "white knight"
+    ],
+    "correct_answer": "dark horse",
+    "explanation": "📖 dark horse: অপ্রত্যাশিতভাবে জয়ী হওয়া প্রার্থী বা প্রতিযোগী। <br/>❏ dog in the manger: যে নিজে কোনো কিছু ব্যবহার করে না এবং অন্যকেও ব্যবহার করতে দেয় না। <br/>❏ drawn game: অমীমাংসিত খেলা বা পরিস্থিতি। <br/>❏ white knight: বিপদে সাহায্যকারী ব্যক্তি।<br/>❏ অপ্রত্যাশিত জয় প্রসঙ্গে ডার্ক হর্স সবচেয়ে উপযুক্ত। তাই সঠিক উত্তর হলো \"dark horse\"।<br/>▣ ‘Dark horse’ বাগধারাটি এমন প্রার্থী বা প্রতিযোগীকে বোঝায় যার সম্পর্কে খুব কম প্রত্যাশা ছিল, কিন্তু তিনি অপ্রত্যাশিতভাবে জয়ী হন। এটি নির্বাচন বা প্রতিযোগিতার প্রেক্ষাপটে সঠিকভাবে প্রযোজ্য। অন্য বিকল্পগুলো এই অর্থ বহন করে না।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325403,
+    "question": "There are no  …………. rules in the office.",
+    "options": [
+      "cut to quick",
+      "cut and dried",
+      "sink and swim",
+      "drawn game"
+    ],
+    "correct_answer": "cut and dried",
+    "explanation": "📖 cut to quick: মর্মাহত করা বা কাউকে আঘাত দেওয়া। <br/>❏ cut and dried: পূর্বনির্ধারিত, অপরিবর্তনীয় বা নীরস ও গতানুগতিক। <br/>❏ sink and swim: নিজের চেষ্টা দ্বারা সফল হওয়া বা ব্যর্থ হওয়া। <br/>❏ drawn game: অমীমাংসিত খেলা বা পরিস্থিতি।<br/>❏ অফিসের নিয়ম প্রসঙ্গে পূর্বনির্ধারিত বা অপরিবর্তনীয় সবচেয়ে উপযুক্ত। তাই সঠিক উত্তর হলো \"cut and dried\"।<br/>▣ ‘Cut and dried’ বাগধারাটি এমন নিয়ম বা প্রক্রিয়া বোঝায় যা পূর্বনির্ধারিত এবং পরিবর্তনের সুযোগ নেই। অফিসের প্রেক্ষাপটে এটি কঠোর, অপরিবর্তনীয় নীতি বোঝায়। অন্য বিকল্পগুলো এই প্রেক্ষাপটে অপ্রযোজ্য।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325404,
+    "question": "They finally …………. on the business deal.",
+    "options": [
+      "hit the sack",
+      "nail on the head",
+      "saw eye to eye",
+      "learned the ropes"
+    ],
+    "correct_answer": "saw eye to eye",
+    "explanation": "📖 hit the sack: ঘুমাতে যাওয়া। <br/>❏ nail on the head: সঠিক কথা বলা বা সঠিক কাজটি করা। <br/>❏ saw eye to eye: একমত হওয়া। <br/>❏ learned the ropes: কোনো কাজের নিয়মকানুন শেখা।<br/>❏ ব্যবসার চুক্তি প্রসঙ্গে একমত হওয়া সবচেয়ে উপযুক্ত। তাই সঠিক উত্তর হলো \"saw eye to eye\"।<br/>▣ ‘Saw eye to eye’ বাগধারাটি ব্যবসায়িক প্রেক্ষাপটে প্রায়শই ব্যবহৃত হয়, যখন দুই বা ততোধিক পক্ষ দীর্ঘ আলোচনার পর একটি চুক্তিতে সম্মত হয়। এটি পারস্পরিক বোঝাপড়া ও ঐকমত্যের অভিব্যক্তি। অন্য বিকল্পগুলো এই প্রেক্ষাপটের সাথে মানানসই নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325405,
+    "question": "বাংলা সাহিতের প্রথম মুদ্রিত গ্রন্থের নাম কি?",
+    "options": [
+      "কথোপকথন",
+      "রাজা প্রতাপাদিত্য চরিত্র",
+      "ইতিহাসমালা",
+      "হিতোপদেশ"
+    ],
+    "correct_answer": "রাজা প্রতাপাদিত্য চরিত্র",
+    "explanation": "📖 ১৮০১ সালে উইলিয়াম কেরির তত্ত্বাবধানে রামরাম বসু কর্তৃক রচিত 'রাজা প্রতাপাদিত্য চরিত্র' বাংলা সাহিত্যের প্রথম মুদ্রিত গ্রন্থ।<br/>▣ এই গ্রন্থটি শ্রীরামপুর মিশন প্রেস থেকে প্রকাশিত হয়, যা বাংলা ভাষায় মুদ্রণের প্রথম পদক্ষেপ ছিল। এটি একটি ঐতিহাসিক গদ্য রচনা, যা রাজা প্রতাপাদিত্যের জীবন ও শাসনকালের উপর ভিত্তি করে লেখা। অন্য বিকল্পগুলোর মধ্যে কোনোটিই প্রথম মুদ্রিত গ্রন্থ নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325406,
+    "question": "‘ঢাকের কাঠি’ বাগধারার অর্থ কি?",
+    "options": [
+      "সাহায্যকারী",
+      "তোষামুদে",
+      "বাদক",
+      "স্বাস্থ্যহীন লোক"
+    ],
+    "correct_answer": "তোষামুদে",
+    "explanation": "📖 ‘ঢাকের কাঠি’ বাগধারার অর্থ হলো তোষামুদে ব্যক্তি বা যে অন্যকে উসকানি দেয়।<br/>▣ এই বাগধারাটি বাংলা ভাষায় এমন ব্যক্তিকে বোঝায় যে নিজে কিছু না করে অন্যকে উত্তেজিত করে বা তোষামোদ করে কাজ হাসিল করতে চায়। ‘ঢাক’ বাজানোর কাঠির রূপক এখানে উসকানির প্রতীক। উদাহরণস্বরূপ, কেউ যদি অন্যকে ঝগড়া করতে উৎসাহ দেয় কিন্তু নিজে জড়ায় না, তাকে ‘ঢাকের কাঠি’ বলা হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325407,
+    "question": "নিচের কোনটি রবীন্দ্রনাথ ঠাকুরের রচনা?",
+    "options": [
+      "চতুরঙ্গ",
+      "চতুষ্কোণ",
+      "চতুর্দশী",
+      "চতুষ্পদী"
+    ],
+    "correct_answer": "চতুরঙ্গ",
+    "explanation": "📖 'চতুরঙ্গ' রবীন্দ্রনাথ ঠাকুরের একটি উপন্যাস। বাকিগুলো তার রচনা নয়।<br/>▣ 'চতুরঙ্গ' ১৯১৬ সালে প্রকাশিত হয়, যা রবীন্দ্রনাথের একটি সংক্ষিপ্ত উপন্যাস। এটি চারটি চরিত্রের জীবন ও সম্পর্কের মাধ্যমে মানব-মনের জটিলতা তুলে ধরে। অন্য তিনটি বিকল্প—চতুষ্কোণ, চতুর্দশী, এবং চতুষ্পদী—রবীন্দ্রনাথের রচনা নয় এবং বাংলা সাহিত্যে এই নামে কোনো উল্লেখযোগ্য রচনা নেই।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325408,
+    "question": "আধুনিক যুগে পুরাতন রীতির শেষ বাংলা কবি কে?",
+    "options": [
+      "ঈশ্বরচন্দ্র গুপ্ত",
+      "মদনমোহন তর্কালঙ্কার",
+      "রঙ্গলাল বন্দ্যোপাধ্যায়",
+      "নবীন চন্দ্র সেন"
+    ],
+    "correct_answer": "ঈশ্বরচন্দ্র গুপ্ত",
+    "explanation": "📖 ঈশ্বরচন্দ্র গুপ্তকে বাংলা সাহিত্যের আধুনিক যুগের প্রবেশপথের কবি বলা হয়। তিনি পুরাতন রীতির শেষ এবং আধুনিক রীতির প্রথম দিকের কবি।<br/>▣ ঈশ্বরচন্দ্র গুপ্তের কবিতায় মধ্যযুগীয় বাংলা কবিতার প্রভাব ছিল, তবে তিনি আধুনিক বিষয়বস্তু ও সামাজিক সমালোচনার মাধ্যমে নতুন যুগের সূচনা করেন। তাঁর 'সম্বাদ প্রভাকর' পত্রিকা আধুনিক বাংলা সাংবাদিকতার পথিকৃৎ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325409,
+    "question": "কোন সমাসে প্রত্যেকটি সমস্যমান পদের অর্থের প্রাধান্য থাকে?",
+    "options": [
+      "দ্বন্দ্বসমাস",
+      "নিত্য সমাস",
+      "প্রাদি সমাস",
+      "অলুক সমাস"
+    ],
+    "correct_answer": "দ্বন্দ্বসমাস",
+    "explanation": "📖 দ্বন্দ্ব সমাসে পূর্বপদ ও পরপদ উভয় পদের অর্থেরই প্রাধান্য থাকে। যেমন: মা-বাবা (মা এবং বাবা)।<br/>▣ দ্বন্দ্ব সমাসে দুটি বা ততোধিক পদের মধ্যে 'এবং' বা 'ও' সম্পর্ক থাকে, এবং প্রতিটি পদ তার স্বাধীন অর্থ বজায় রাখে। উদাহরণস্বরূপ, 'হাত-পা' মানে হাত এবং পা, যেখানে উভয়ের অর্থই গুরুত্বপূর্ণ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325410,
+    "question": "বাংলা শব্দের উৎপত্তি সম্পর্কে কোন গ্রন্থে উল্লেখ আছে?",
+    "options": [
+      "আকবরনামা",
+      "আকবর-ই-তুজুক",
+      "তুজুক-ই-আকবরী",
+      "আইন-ই-আকবরী"
+    ],
+    "correct_answer": "আইন-ই-আকবরী",
+    "explanation": "📖 আবুল ফজলের রচিত 'আইন-ই-আকবরী' গ্রন্থে বাংলা শব্দের উৎপত্তি এবং বাংলার বিভিন্ন তথ্য সম্পর্কে উল্লেখ আছে।<br/>▣ 'আইন-ই-আকবরী' মুঘল সম্রাট আকবরের শাসনকালের বিভিন্ন দিক নিয়ে বিস্তারিত বিবরণ দেয়, যার মধ্যে বাংলার ভাষা, সংস্কৃতি ও প্রশাসনিক তথ্যও অন্তর্ভুক্ত। এটি বাংলা ভাষার ঐতিহাসিক উৎপত্তি সম্পর্কে গুরুত্বপূর্ণ তথ্যসূত্র।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325411,
+    "question": "ক্রমের দিক থেকে বাংলা ভাষার দ্বিতীয় গ্রন্থের নাম কি?",
+    "options": [
+      "চর্যাপদ",
+      "শ্রীকৃষ্ণবিজয়",
+      "শ্রীকৃষ্ণকীর্তন",
+      "দেব শুভলিয়া"
+    ],
+    "correct_answer": "শ্রীকৃষ্ণকীর্তন",
+    "explanation": "📖 বাংলা ভাষার প্রথম নিদর্শন চর্যাপদ। এরপরেই মধ্যযুগের প্রথম কাব্যগ্রন্থ হিসেবে 'শ্রীকৃষ্ণকীর্তন' কাব্যকে ধরা হয়।<br/>▣ 'শ্রীকৃষ্ণকীর্তন' বড়ু চণ্ডীদাস রচিত একটি মধ্যযুগীয় কাব্য, যা ১৪১৪ শতকে রচিত। এটি বাংলা সাহিত্যের প্রাচীনতম কাব্যগ্রন্থগুলোর মধ্যে দ্বিতীয় স্থানে রয়েছে, চর্যাপদের পর।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325412,
+    "question": "নিচের কোনটির 'অর্থবাচকতা নেই, কিন্তু অর্থদ্যোতকতা আছে'?",
+    "options": [
+      "কারক",
+      "সমাস",
+      "উপসর্গ",
+      "অনুসর্গ"
+    ],
+    "correct_answer": "উপসর্গ",
+    "explanation": "📖 উপসর্গের নিজস্ব কোনো অর্থ নেই, কিন্তু যখন কোনো শব্দের আগে বসে তখন সেই শব্দের অর্থের পরিবর্তন বা সম্প্রসারণ ঘটায়। অর্থাৎ এর অর্থদ্যোতকতা আছে কিন্তু অর্থবাচকতা নেই।<br/>▣ উপসর্গ, যেমন 'অনু', 'প্র', 'উপ', শব্দের সাথে যুক্ত হয়ে তার অর্থকে পরিবর্তন বা তীব্র করে, যেমন 'অনু' + 'করা' = 'অনুকরণ'। কিন্তু 'অনু' একা কোনো স্বাধীন অর্থ প্রকাশ করে না।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325413,
+    "question": "'প্রাতরাশ' শব্দের সন্ধিজাত বিশ্লেষণটি সঠিক ?",
+    "options": [
+      "প্রাত+রাশ",
+      "প্রাতঃ+রাশ",
+      "প্রাতঃ+আশ",
+      "প্রাত+আশ"
+    ],
+    "correct_answer": "প্রাতঃ+আশ",
+    "explanation": "📖 'প্রাতরাশ' শব্দটি বিসর্গ সন্ধির উদাহরণ। এর সঠিক বিশ্লেষণ হলো 'প্রাতঃ + আশ'।<br/>▣ বিসর্গ সন্ধির নিয়ম অনুসারে, 'প্রাতঃ' এর বিসর্গ (:) এবং 'আশ' এর 'আ' মিলে 'প্রাতরাশ' গঠিত হয়। এখানে বিসর্গের পরে স্বরবর্ণ এলে বিসর্গ 'র' ধ্বনিতে পরিণত হয়, যেমন প্রাতঃ + আশ = প্রাতরাশ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325414,
+    "question": "শ্রীরামপুর মিশনারী কর্তৃক মুদ্রিত প্রথম সাময়িকী কোনটি?",
+    "options": [
+      "সমাচার দর্পণ",
+      "বাঙ্গাল গেজেট",
+      "কথোপকথন",
+      "দিগদর্শন"
+    ],
+    "correct_answer": "দিগদর্শন",
+    "explanation": "📖 শ্রীরামপুর মিশনারী কর্তৃক প্রকাশিত প্রথম বাংলা সাময়িকী ছিল 'দিগদর্শন', যা ১৮১৮ সালে প্রকাশিত হয়। 'সমাচার দর্পণ' ছিল প্রথম বাংলা সংবাদপত্র, যা এর পরপরই প্রকাশিত হয়।<br/>▣ 'দিগদর্শন' শ্রীরামপুর মিশন প্রেস থেকে প্রকাশিত হয়েছিল, যা বাংলা ভাষায় মুদ্রণের প্রথম উদ্যোগগুলোর একটি। এটি শিক্ষামূলক বিষয়বস্তু নিয়ে প্রকাশিত হতো এবং বাংলা সাংবাদিকতার পথিকৃৎ হিসেবে বিবেচিত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325415,
+    "question": "বাক্য সংকোচন করুন ‘খেয়া পার করে যে’",
+    "options": [
+      "পাটনী",
+      "ঘাটাল",
+      "মাঝি",
+      "খাটিয়া"
+    ],
+    "correct_answer": "পাটনী",
+    "explanation": "📖 ‘খেয়া পার করে যে’ এর বাক্য সংকোচন হলো ‘পাটনী’। মাঝি নৌকা চালায়, কিন্তু খেয়া পারাপারের জন্য নির্দিষ্ট ব্যক্তিকে পাটনী বলা হয়।<br/>▣ 'পাটনী' শব্দটি 'পার' (পারাপার) থেকে উৎপন্ন, যা খেয়া পার করার কাজের সাথে সম্পর্কিত। এটি বাংলা ভাষায় একটি কৃৎ প্রত্যয়যুক্ত শব্দ, যা ব্যক্তির পেশা বোঝায়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325416,
+    "question": "কোন শব্দকে বিশ্লেষণ করা যায় না?",
+    "options": [
+      "মৌলিক শব্দ",
+      "যোগরূঢ় শব্দ",
+      "রূঢ় শব্দ",
+      "যৌগিক শব্দ"
+    ],
+    "correct_answer": "মৌলিক শব্দ",
+    "explanation": "📖 মৌলিক শব্দ হলো এমন শব্দ যাকে আর ভাঙা বা বিশ্লেষণ করা যায় না। যেমন: মা, বাবা, জল, হাত ইত্যাদি।<br/>▣ মৌলিক শব্দ বাংলা ভাষার মূল শব্দভাণ্ডারের অংশ, যা কোনো প্রকৃতি-প্রত্যয় বা সমাসের মাধ্যমে গঠিত হয় না। এগুলো ভাষার প্রাথমিক উপাদান, যেমন 'আকাশ', 'পানি'।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325417,
+    "question": "'বেসাতি' শব্দের অর্থ কোনটি?",
+    "options": [
+      "কেনা বেচা",
+      "পোশাক",
+      "সাজসজ্জা",
+      "উপকরণ"
+    ],
+    "correct_answer": "কেনা বেচা",
+    "explanation": "📖 'বেসাতি' শব্দের অর্থ কেনা-বেচা বা ব্যবসা-বাণিজ্য।<br/>▣ 'বেসাতি' শব্দটি ফারসি 'বিসাত' থেকে এসেছে, যার অর্থ ব্যবসায়ের পণ্য বা কেনা-বেচার কারবার। এটি বাংলায় ব্যবসায়িক প্রসঙ্গে ব্যবহৃত হয়, যেমন 'বেসাতি করা' মানে ব্যবসা করা।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325418,
+    "question": "বাংলা চলিত ভাষার জন্ম কোন অঞ্চলকে ভিত্তি করে?",
+    "options": [
+      "মৈথিলী",
+      "ঢাকা",
+      "নদীয়া",
+      "কলকাতা"
+    ],
+    "correct_answer": "নদীয়া",
+    "explanation": "📖 বাংলা চলিত ভাষার উদ্ভব ও বিকাশ মূলত নদীয়ার শান্তিপুর অঞ্চলের উপভাষাকে কেন্দ্র করে হয়েছে।<br/>▣ নদীয়া অঞ্চলের উপভাষা, বিশেষ করে শান্তিপুর ও কৃষ্ণনগরের কথ্য ভাষা, বাংলা চলিত রীতির ভিত্তি হিসেবে গৃহীত হয়েছে। এটি প্রমিত বাংলা ভাষার সরলীকৃত রূপ হিসেবে ১৯শ শতাব্দীতে জনপ্রিয় হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325419,
+    "question": "ক্রিয়া প্রকৃতির সাথে কোন প্রত্যয় যুক্ত হয়?",
+    "options": [
+      "স্ত্রী প্রত্যয়",
+      "তদ্ধিত প্রত্যয়",
+      "কৃৎ প্রত্যয়",
+      "বচন প্রত্যয়"
+    ],
+    "correct_answer": "কৃৎ প্রত্যয়",
+    "explanation": "📖 ক্রিয়া প্রকৃতির সাথে কৃৎ প্রত্যয় যুক্ত হয়ে নতুন শব্দ গঠিত হয়। তদ্ধিত প্রত্যয় নাম বা বিশেষ্য পদের সাথে যুক্ত হয়।<br/>▣ কৃৎ প্রত্যয়, যেমন 'আন', 'উনি', 'অল', ক্রিয়া থেকে বিশেষ্য বা বিশেষণ তৈরি করে। উদাহরণস্বরূপ, 'খেলা' থেকে 'খেলুড়ি' (খেলা + উড়ি)। তদ্ধিত প্রত্যয়, যেমন 'ইক', 'আলয়', বিশেষ্য থেকে নতুন বিশেষ্য বা বিশেষণ তৈরি করে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325420,
+    "question": "নিচের কোন বানানের ক্ষেত্রে দন্ত্য 'স' হবে?",
+    "options": [
+      "আবিষ্কার",
+      "বিশ্বস্ত",
+      "ষ্টেশন",
+      "পরিষ্কার"
+    ],
+    "correct_answer": "ষ্টেশন",
+    "explanation": "📖 বাংলা বানানের নিয়ম অনুযায়ী, বিদেশি শব্দে 'স্ট', 'স্প', 'স্ম' ইত্যাদি যুক্তাক্ষরে দন্ত্য 'স' ব্যবহৃত হয়। 'ষ্টেশন' একটি ইংরেজি শব্দ 'station' থেকে আগত, তাই এখানে দন্ত্য 'স' হবে। বাকি শব্দগুলো তৎসম শব্দ বা তৎসম শব্দের নিয়মে গঠিত।<br/>▣ বাংলা ভাষায় তিনটি 'স' ধ্বনি (দন্ত্য, তালব্য, মূর্ধন্য) আছে। বিদেশি শব্দে, বিশেষ করে ইংরেজি থেকে আগত শব্দে, দন্ত্য 'স' ব্যবহার করা হয় কারণ এটি ইংরেজি 's' ধ্বনির সাথে সামঞ্জস্যপূর্ণ। 'ষ্টেশন' এর ক্ষেত্রে 'স্ট' ধ্বনি ইংরেজি 'station' থেকে এসেছে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325421,
+    "question": "’লোকটি হাড়ে হাড়ে শয়তান’ এখানে ’হাড়ে হাড়ে’ কী অর্থ প্রকাশ করেছে?",
+    "options": [
+      "ভাবের প্রগাঢ়তা",
+      "আধিক্য",
+      "কালের বিস্তার",
+      "সতর্কতা"
+    ],
+    "correct_answer": "আধিক্য",
+    "explanation": "📖 'হাড়ে হাড়ে' বাগধারাটি এখানে 'আধিক্য' বা 'সম্পূর্ণরূপে' শয়তানি বোঝাতে ব্যবহৃত হয়েছে, অর্থাৎ তার প্রতিটি অস্থিমজ্জায় শয়তানি ভরা।<br/>▣ এই বাগধারাটি বাংলায় তীব্রতা বা সম্পূর্ণতার অর্থ বোঝাতে ব্যবহৃত হয়, যেমন কোনো গুণ বা দোষ কারও মধ্যে গভীরভাবে বিদ্যমান থাকলে। এটি একটি রূপক অভিব্যক্তি যা শারীরিক গঠনের মাধ্যমে মানসিক বা চরিত্রগত বৈশিষ্ট্য বোঝায়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325422,
+    "question": "”ক্ষ” এর বিশ্লিষ্ট রূপ কোনটি?",
+    "options": [
+      "ক+ষ",
+      "ক+হ",
+      "ক + ঘ",
+      "ক + ন"
+    ],
+    "correct_answer": "ক+ষ",
+    "explanation": "📖 'ক্ষ' একটি যুক্তবর্ণ, যা 'ক' এবং 'ষ' এই দুটি ব্যঞ্জনবর্ণের সমন্বয়ে গঠিত।<br/>▣ বাংলা ভাষায় যুক্তবর্ণ গঠনের নিয়ম অনুসারে, 'ক' এবং 'ষ' মিলে 'ক্ষ' হয়, যা 'ক্ষণ' বা 'ক্ষতি' শব্দে দেখা যায়। এটি সংস্কৃত থেকে বাংলায় এসেছে এবং একটি স্বতন্ত্র ধ্বনি হিসেবে বিবেচিত হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325423,
+    "question": "সংস্কৃত প্রয়োগ অনুসারে বাংলা বর্ণমালায় 'ঋ' কোন বর্ণের মধ্যে রক্ষিত?",
+    "options": [
+      "ব্যঞ্জনবর্ণ",
+      "উষ্ম বর্ণ",
+      "স্বরবর্ণ",
+      "ঘোষবর্ন"
+    ],
+    "correct_answer": "স্বরবর্ণ",
+    "explanation": "📖 বাংলা বর্ণমালায় 'ঋ' বর্ণটি স্বরবর্ণের অন্তর্ভুক্ত, যদিও এর উচ্চারণ ব্যঞ্জনবর্ণের মতো হয়। এটি সংস্কৃত ভাষার প্রভাবের কারণে স্বরবর্ণ হিসেবে বিবেচিত।<br/>▣ সংস্কৃত ব্যাকরণে 'ঋ' একটি স্বরবর্ণ হিসেবে গণ্য হয় কারণ এটি স্বতন্ত্রভাবে উচ্চারিত হয় এবং ব্যঞ্জনবর্ণের সাথে যুক্ত না হয়ে স্বাধীনভাবে শব্দ গঠন করে, যেমন 'ঋষি' বা 'ঋতু'।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  },
+  {
+    "id": 325424,
+    "question": "বাবুর্চি কোন ভাষার শব্দ -",
+    "options": [
+      "আরবি",
+      "তুর্কি",
+      "ফারসি",
+      "উর্দু"
+    ],
+    "correct_answer": "তুর্কি",
+    "explanation": "📖 'বাবুর্চি' শব্দটি তুর্কি ভাষা থেকে বাংলা ভাষায় এসেছে। এটি একটি বিদেশি শব্দ যা বাংলায় বহুল প্রচলিত।<br/>▣ তুর্কি ভাষায় 'বাবুর্চি' শব্দটি 'বাওয়ার্চি' থেকে এসেছে, যার অর্থ রান্নার কাজে দক্ষ ব্যক্তি। মুঘল আমলে এই শব্দটি ভারতীয় উপমহাদেশে প্রচলিত হয় এবং বাংলায় গৃহীত হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৪২@কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) ➺ সহকারী ব্যবস্থাপক (প্রশাসন) ☞ 27.6.25"
+  }
+]

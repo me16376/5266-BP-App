@@ -1,0 +1,682 @@
+[
+  {
+    "id": 234598,
+    "question": "What is the weight of 1 cubic meter of water?",
+    "options": [
+      "10kg",
+      "100kg",
+      "500kg",
+      "1000kg"
+    ],
+    "correct_answer": "1000kg",
+    "explanation": "📝A cubic meter is 1000 liters<br/>1 liter of water weight 1 kg <br/>so, 1 cubic meter of water weight 1000 kg",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234599,
+    "question": "A man's salary was reduced by 50%, again the reduce salary was increased by 50%. Find the loss of in terms of percentage.",
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "No loss"
+    ],
+    "correct_answer": "25%",
+    "explanation": "📝ধরি <br/>বেতন ছিল 100 টাকা <br/> 50% কমে বেতন হবে =100−50=50 টাকা <br/>50% বৃদ্ধিতে বেতন হবে = 50 + 50 এর 50%<br/>                                     = 50 + 50 এর 50/100<br/>                                     = 50 + 25 <br/>                                    = 75 টাকা <br/>শতকরা ক্ষতি = (100 - 75) টাকা <br/>                      = 25 টাকা",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234600,
+    "question": "If (x + 3) is a factor of 3x2 +ax + 6, then what is the value of a?",
+    "options": [
+      "3",
+      "8",
+      "11",
+      "18"
+    ],
+    "correct_answer": "11",
+    "explanation": "📝(x + 3) রাশিটি 3x^2 +ax + 6 এর একটি উৎপাদক হলে x + 3 = 0 হবে।  <br/>x = - 3 হলে, 3x^2 +ax + 6 এর মান  শূন্য হবে. <br/>এখানে,<br/>3x^2 +ax + 6 = 0<br/>3(− 3)^2+(−3)a + 6=0<br/>27 −3a + 6= 0<br/>33 −3a=0<br/>3a = 33<br/>a = 11",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234601,
+    "question": "A product is sold at a profit of 20%. If the cost price is increased by 10% and sale price by Tk. 26, then the percentage of the profit reduce by 5%, cost price is -",
+    "options": [
+      "200",
+      "250",
+      "320",
+      "400"
+    ],
+    "correct_answer": "400",
+    "explanation": "📝ধরি,<br/>পণ্যটির ক্রয়মূল্য x  টাকা <br/>20% লাভে, <br/>বিক্রয়মূল্য = (120 ✕ x)/100 টাকা <br/>                  =6x/5 টাকা <br/>10% খরচ বৃদ্ধিতে,<br/>নতুন ক্রয়মূল্য = (110 ✕ x)/100 <br/>                       = 11x/10 টাকা <br/>নতুন বিক্রয়মূল্য = (6x/5) + 26  টাকা<br/>                         =  (6x+130)/5<br/>নতুন লাভ= {(6x+130)/5} -(11x/10)<br/>                  = (2(6x+130) -11x)/10<br/>                  = (12x-11x+260)/10<br/>                  = (x+260)/10 <br/>প্রশ্নমতে,<br/>15 =[{(x+260)/10} ✕ 100]/(11x/10)<br/>15 =(x + 260)✕10 ✕ 10/11x<br/>11x ✕ 15 = 100(x+260)<br/>165x = 100x + 26000<br/>165x - 100x = 26000<br/>65x = 26000<br/>x = 26000/65 = 2000/5= 400 TK<br/>পণ্যটির ক্রয়মূল্য 400 টাকা",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234602,
+    "question": "If 0 < x ≤ 1, then which one of the following is the maximum value of (x - 1)2 + x ?",
+    "options": [
+      "- 1",
+      "- 2",
+      "0",
+      "1"
+    ],
+    "correct_answer": "1",
+    "explanation": "📝0 < x ≤ 1, হলে x এর মান 0 থেকে বড় কিন্তু 1 এর চেয়ে ছোট বা সমান।  <br/>❏(x - 1)^2 + x এর সর্বোচ্চ মান বের করার জন্য x = 1 ধরে পাই, <br/>❏(x - 1)^2 + x = (1 - 1)^2 + 1<br/>                  = 0^2 + 1 <br/>                  = 0 + 1 <br/>                  = 1",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234603,
+    "question": "Which one of the following is the minimum value of the sum of two integers whose product is 36?",
+    "options": [
+      "37",
+      "20",
+      "15",
+      "12"
+    ],
+    "correct_answer": "12",
+    "explanation": "📝36 = 1 ✕ 36 <br/>36 = 2 ✕ 18<br/>36 = 3 ✕ 12 <br/>36 = 4 ✕ 9<br/>36 = 6 ✕ 6<br/>সংখ্যা দুটির যোগফল = 6 + 6 = 12",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234604,
+    "question": "If x is the length of a median of an equilateral triangle, then the area is",
+    "options": [
+      "√(x2 +2)",
+      "x - 2",
+      "x2√3/3",
+      "x/2"
+    ],
+    "correct_answer": "x2√3/3",
+    "explanation": "📝Consider an equilateral triangle ABC having sides a and a median AD of length x unit'.<br/>In an equilateral triangle, the median is always the perpendicular bisector of the triangle. <br/>So, BD=a/2<br/>In triangle ABD, by pythagoras theorem, we have<br/>AB^2=AD^2+BD^2<br/>⟹a^2=x^2+(a/2)^2<br/>⟹a^2=x^2+ a^2/4<br/>⟹3a^2/4=x^2<br/>or,a^2=4x^2/3<br/>Now, area of equilateral triangle =√3a^2/4<br/>                                                     =(√3/4) ✕ (4x^2/3)<br/>                                                   =√3x^2/3",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234605,
+    "question": "80% of a number is equal to the (4/5)th of the other number. What is the ratio between the first number and the second number respectively?",
+    "options": [
+      "1 : 1",
+      "3 : 4",
+      "3 : 5",
+      "5 : 3"
+    ],
+    "correct_answer": "1 : 1",
+    "explanation": "📝ধরি, <br/>একটি সংখ্যা a <br/>অপর সংখ্যা b.<br/>প্রশ্নমতে,<br/>a এর 80% = b এর 4/5 <br/>80a /100 = 4b/5<br/>4a/5 = 4b/5<br/>a= b<br/>a/ b = 1/1 <br/>a : b = 1:1",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234606,
+    "question": "a/(b + c) = b/(c + a) =c/(a + b) = k, then the value of k is-",
+    "options": [
+      "1/2",
+      "±1/2",
+      "1",
+      "- 1"
+    ],
+    "correct_answer": "1/2",
+    "explanation": "📝দেয়া আছে, <br/>a/(b + c) = b/(c + a) =c/(a + b) = k<br/>a/(b + c) = k<br/>a = k(b + c)........ (1)<br/>b/(c + a) = k <br/>b = k(c + a).......... (2)<br/>c/(a + b) = k<br/>c=K(a + b)............ (3)<br/>❏(1)নং, (2)নং এবং (3)নং যোগ করে পাই, <br/>a + b + c = k(b + c) + k(c + a) + K(a + b)<br/>a + b + c = k(b + c + c + a + a + b)<br/>k(2a+ 2b+ 2c) =(a + b + c)<br/>2k(a + b + c) = (a + b + c)<br/>k = (a + b + c)/2(a + b + c)<br/>k = 1/2",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234607,
+    "question": "If x is a whole number greater than 1, then x2(x2 - 1) is always divisible by?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "16"
+    ],
+    "correct_answer": "12",
+    "explanation": "📝1এর চেয়ে বড় সংখ্যা 2 <br/> ধরি <br/> x = 2<br/>প্রদত্ত রাশিমালা = x^2(x^2 - 1)<br/>                        = 2^2(2^2 - 1)<br/>                        = 4(4 - 1) <br/>                        = 4 ✕ 3 <br/>                        = 12 <br/> x^2(x^2 - 1) রাশিটি সর্বদা 12 দ্বারা বিভাজ্য হবে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234608,
+    "question": "Blue chip is-",
+    "options": [
+      "an extremely risky equity share",
+      "used in mobile phones",
+      "used in colour televisions",
+      "a first class equity share"
+    ],
+    "correct_answer": "a first class equity share",
+    "explanation": "📝<b>Blue chips (Adjective)</b><br/>Meaning:-<br/>❏ <b>a stock issue of high investment quality</b> that usually pertains to a substantial well-established company and enjoys public confidence in its worth and stability<br/>❏ Also : a company that offers such stocks.<br/>❏ a business or undertaking with an outstanding record or likelihood of profitability.<br/>বাংলা অর্থ:- নির্ভরযোগ্য ও মূল্যবান (ব্যক্তি) (শিল্প শেয়ার)।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234609,
+    "question": "Karakas is the capital city of-",
+    "options": [
+      "Honduras",
+      "Lithunia",
+      "Venezuela",
+      "Panama"
+    ],
+    "correct_answer": "Venezuela",
+    "explanation": "📝ভেনেজুয়েলার রাজধানীর নাম -কারাকাস । <br/>ভেনেজুয়েলার মুদ্রার নাম - বলিভার।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234610,
+    "question": "'SWIFT' term is used in-",
+    "options": [
+      "Banking",
+      "Share Market",
+      "Capital Market",
+      "Money Market"
+    ],
+    "correct_answer": "Banking",
+    "explanation": "📝Society for Worldwide Interbank Financial Telecommunication (SWIFT) হচ্ছে অর্থ লেনদেনের আন্তর্জাতিক মাধ্যম।<br/>বিশ্বের কেন্দ্রীয় ও বাণিজ্যিক ব্যাংকগুলো সুইফটের সদস্য। <br/>এক দেশ থেকে আরেক দেশে সুইফটের মাধ্যমে অর্থ স্থানান্তরিত হয়ে থাকে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234611,
+    "question": "'NNP' stands for",
+    "options": [
+      "Net National Profit",
+      "Net Nominal Product",
+      "Net Nominal Price",
+      "Net National Product"
+    ],
+    "correct_answer": "Net National Product",
+    "explanation": "📝<b>Net national product (NNP)</b> is gross national product (GNP), the total value of finished goods and services produced by a country's citizens overseas and domestically, minus depreciation.<br/>❏ NNP is often examined on an annual basis as a way to measure a nation's success in continuing minimum production standards.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234612,
+    "question": "Which of the following is not a direct tax?",
+    "options": [
+      "Value Added Tax",
+      "Travel Tax",
+      "Wealth Tax",
+      "Income Tax"
+    ],
+    "correct_answer": "Value Added Tax",
+    "explanation": "📝প্রত্যক্ষ কর হলো এরূপ কর যার বোঝা সরাসরি ব্যক্তিকে বহন করতে হয়।<br/>প্রত্যক্ষ করসমূহ হলো:<br/>❏ আয়কর<br/>❏ দানকর<br/>❏ ভূমি উন্নয়ন কর<br/>❏ ভ্রমণ কর ইত্যাদি।<br/>এখানে,<br/>ক) Value Added Tax প্রত্যক্ষ কর নয়।<br/>এটি একটি পরোক্ষ কর।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234613,
+    "question": "SDR is the currency unit of -",
+    "options": [
+      "ADB",
+      "IBRD",
+      "IDA",
+      "IMF"
+    ],
+    "correct_answer": "IMF",
+    "explanation": "📝Special Drawing Rights (SDR) - একটি সংগৃহীত ও পরিপূরক বৈদেশিক বিনিময় মুদ্রা ব্যবস্থা যা IMF কর্তৃক প্রবর্তিত ও নিয়ন্ত্রিত।<br/>১৯৬৯ সালে আইএমএফ SDR প্রবর্তন করে।<br/>বর্তমানে ৫টি SDR হচ্ছে - মার্কিন ডলার, ইউরো, ব্রিটিশ পাউন্ড (স্টারলিং), চীনা ইউয়ান ও জাপানি ইয়েন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234614,
+    "question": "A clock seen through the mirror reads a quarter to nine. What is the actual time?",
+    "options": [
+      "1 : 15",
+      "8 : 45",
+      "3 : 15",
+      "11 : 15"
+    ],
+    "correct_answer": "3 : 15",
+    "explanation": "📝Quarter to nine = 8.45<br/>সুতরাং,<br/>আয়নায় দেখানো সময় ৮.৪৫ হলে প্রকৃত সময় = ১১.৬০ - ৮.৪৫ = ৩.১৫।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234615,
+    "question": "The Euro-Zone crisis is mainly caused by",
+    "options": [
+      "Fiscal restraint",
+      "Subprime landing",
+      "Exchange rate volatility",
+      "Sovereign debt"
+    ],
+    "correct_answer": "Sovereign debt",
+    "explanation": "📝The Eurozone Crisis began in 2009 when investors became concerned about growing levels of <b>sovereign debt </b>among several members of the European Union. <br/>As they began to assign a higher risk premium to the region, sovereign bond yields increased and put a strain on national budgets.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234616,
+    "question": "When is the world population day observed?",
+    "options": [
+      "December 10",
+      "October 4",
+      "July 11",
+      "May 11"
+    ],
+    "correct_answer": "July 11",
+    "explanation": "📝The world population day Iis observed on <b>11 July.<br/></b>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234617,
+    "question": "Which Indian state was known as Mysore in the past?",
+    "options": [
+      "Mydhya Pradesh",
+      "Karnataka",
+      "Maharashtra",
+      "Kerala"
+    ],
+    "correct_answer": "Karnataka",
+    "explanation": "📝Mysuru, also called <b>Mysore</b>, city, <b>south-central Karnataka state</b>, southern India. <br/>It lies northwest of Chamundi Hill and midway between the Kaveri (Cauvery) and Kabani (Kabbani) rivers on the undulating Deccan plateau at an elevation of 2,525 feet (770 metres).",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234618,
+    "question": "One third of the students __ present in the class.",
+    "options": [
+      "remains",
+      "is",
+      "are",
+      "had"
+    ],
+    "correct_answer": "are",
+    "explanation": "📝সাধারণত ভগ্নাংশের ক্ষেত্রে প্রথমটি one এর বেশি হলে দ্বিতীয়টির সঙ্গে ‘s’ যোগ হয় যেমন- two-thirds. <br/>কিন্তু প্রথমটি one হলে দ্বিতীয়টির সঙ্গে ‘s’ যোগ হয় না যেমন- one-third । <br/>আবার এই ভগ্নাংশের পরে singular noun হলে singular verb এবং plural noun হলে plural verb হয়।<br/>প্রদত্ত বাক্যে Students হলো Plural Noun. তাই verb plural হবে। <br/>সে অনুসারে সঠিক বাক্য হবে: One-third of the students are present in the class.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234619,
+    "question": "'By the rule of thumb' means-",
+    "options": [
+      "By practical experience which is rather rough",
+      "By the use of trickery",
+      "By the use of force",
+      "By cheating"
+    ],
+    "correct_answer": "By practical experience which is rather rough",
+    "explanation": "📝<b>Rule of thumb (phrase)</b><br/>Meaning: A broadly accurate guide or principle, based on practice rather than theory.<br/>Bengali meaning: অভিজ্ঞতা ও অনুশীলনের পর প্রতিষ্ঠিত পদ্ধতি বা প্রক্রিয়া।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234620,
+    "question": "The hypocrite ______ feeling which he does not _____ but which he feels he should display.",
+    "options": [
+      "decries/hold",
+      "simulates/admire",
+      "shows/apprehend",
+      "depicts/possess"
+    ],
+    "correct_answer": "depicts/possess",
+    "explanation": "📝<b>Hypocrite means</b><br/>❏ a person who puts on a false appearance of virtue or religion<br/>❏ a person who acts in contradiction to his or her stated beliefs or feelings<br/>উপরের ব্যাখ্যা অনুযায়ী,<br/>'shows' and 'apprehend' both are appropriate words to fill in the blank.<br/>পূর্ণাঙ্গ বাক্য: The hypocrite shows feeling which he does not apprehend but which he feels he should display.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234621,
+    "question": "'Tomorrow the lines of the department store were longer than we have ever seen'. Which correction should be made to this sentence?",
+    "options": [
+      "change were to will be",
+      "replace we with they",
+      "change have ever seen to ever seen",
+      "change store to store's"
+    ],
+    "correct_answer": "change were to will be",
+    "explanation": "📝উপরের বাক্যটিতে 'Tomorrow' থাকায় বাক্যটি 'Future Tense' এ হবে। <br/>অতএব বাক্যে 'were' এর পরিবর্তে 'will be' বসবে। <br/>পূর্ণাঙ্গ বাক্য: Tomorrow the lines of the department store will be longer than we have ever seen.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234622,
+    "question": "In spite of the ___ view of the country dismantled by war and its development blocked by illiteracy, locals like to _____ .",
+    "options": [
+      "chaotic/display",
+      "pleasing/conceal",
+      "diverse/exhibit",
+      "sickening/unveil"
+    ],
+    "correct_answer": "diverse/exhibit",
+    "explanation": "📝'diverse' and 'exhibit' both are appropriate words to fill in the blank.<br/> পূর্ণাঙ্গ বাক্য: In spite of the  diverse view of the country dismantled by war and its development blocked by illiteracy, locals like to exhibit.<br/> অর্থ: যুদ্ধে বিধ্বস্ত দেশটির বৈচিত্র্যময় দৃষ্টিভঙ্গি এবং নিরক্ষরতার কারণে এর উন্নয়ন অবরুদ্ধ হওয়া সত্ত্বেও, স্থানীয়রা পরিচয় তুলে ধরতে পছন্দ করে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234623,
+    "question": "This car is __, if you are interested in buying it.",
+    "options": [
+      "in sale",
+      "for sale",
+      "at sale",
+      "to sail"
+    ],
+    "correct_answer": "for sale",
+    "explanation": "📝<b>For sale (Phrase)<br/></b>Meaning: Offered for purchase; to be bought.<br/>Example Sentence: cars for sale at reasonable prices.<br/>'For sale' is an appropriate word to fill in the blank.<br/> পূর্ণাঙ্গ বাক্য: This car is for sale if you are interested in buying it.<br/><b><br/></b>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234624,
+    "question": "Everyone in the group shook hands with ______ .",
+    "options": [
+      "one other",
+      "them selves",
+      "each one other",
+      "each other"
+    ],
+    "correct_answer": "each other",
+    "explanation": "📝সাধারণত দুজনের মধ্যে পারস্পরিক সম্পর্ক বুঝাতে each other এবং দুয়ের অধিক ব্যক্তির মধ্যে পারস্পরিক সম্পর্ক বোঝাতে one another ব্যবহৃত হয়।<br/>❏ সর্বদাই one another/each other বাক্যের শেষে বসে।<br/>উদাহরণ:<br/>❏ Ten students love one another.<br/>❏ Mehedi and Marufa like each other.<br/>উপরের ব্যাখ্যানুযায়ী,<br/>'each other' is an appropriate word to fill in the blank.<br/> পূর্ণাঙ্গ বাক্য: Everyone in the group shook hands with each other.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234625,
+    "question": "You haven't eaten your curd. __ it?",
+    "options": [
+      "don't want you",
+      "don't you want",
+      "are you not want",
+      "do you not want"
+    ],
+    "correct_answer": "don't you want",
+    "explanation": "📝Present indefinite tense interrogative হলে <br/>❏ Do/Don't, Does/Doesn't বাক্যের প্রথমে বসে। <br/>❏ তারপর Subject বসে। <br/>অতএব নিয়মানুযায়ী, বাক্যের শূন্যস্থানে don't you want বসবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234626,
+    "question": "Rahim _____ ill for three weeks. He is still in hospital.",
+    "options": [
+      "has been",
+      "is being",
+      "was",
+      "had been"
+    ],
+    "correct_answer": "has been",
+    "explanation": "📝For/Since থাকলে sentence -টি Perfect Tense অথবা Perfect Continuous Tense হয়।<br/>প্রদত্ত বাক্যে সময়ের উল্লেখ (three weeks) থাকাতে বাক্যটি Perfect Continuous Tense হবে।<br/>অতএব বাক্যের শূন্যস্থানে \"has been\" বসবে। <br/>পূর্ণাঙ্গ বাক্য: Rahim has been ill for three weeks. He is still in hospital.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234627,
+    "question": "We gave ____ a meal.",
+    "options": [
+      "for the visitor",
+      "to the visitor",
+      "the visitor",
+      "at the visitor"
+    ],
+    "correct_answer": "the visitor",
+    "explanation": "📝পূর্বোক্ত ব্যক্তি বা বস্তুকে নির্দেশ করার জন্য  definite article 'THE' বসে। <br/>অতএব বাক্যের শূন্যস্থানে \"the visitor\" বসবে। <br/>পূর্ণাঙ্গ বাক্য: We gave the visitor a meal.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234628,
+    "question": "'ত্বরা’ শব্দের বিপরীত শব্দ হলো -",
+    "options": [
+      "ধীর",
+      "আশু",
+      "দ্রুত",
+      "হ্রস্ব"
+    ],
+    "correct_answer": "ধীর",
+    "explanation": "📝<b>'ত্বরা' এর বিপরীত শব্দ 'ধীর' বা 'শ্লথ'।</b><br/>আরও কিছু শব্দের বিপরীত রূপ- <br/>ঘাতক - পালক<br/>ধৃষ্ট - নম্র<br/>জ্বলন - নির্বাপণ<br/>ইস্তফা - যোগদান <br/>গৃহী - সন্ন্যাসী<br/>প্রাচী - প্রতীচী <br/>স্ববাস - প্রবাস<br/>মৌন - মুখর<br/>যাচিত - অযাচিত ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234629,
+    "question": "নিচের কোন বানানটি শুদ্ধ?",
+    "options": [
+      "আশীষ",
+      "আশিস",
+      "আসিশ",
+      "আষিশ"
+    ],
+    "correct_answer": "আশিস",
+    "explanation": "📝<b>আশিস [আশিশ্]</b> <br/>❏ (বিশেষ্য) <br/>❏ আশীর্বাদ; শুভেচ্ছা; দোয়া ।<br/>{সংস্কৃত. আ+√শাস্▫+ক্কিপ্▫}",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234630,
+    "question": "নিচের কোনটি অপাদান সম্বন্ধ কারক?",
+    "options": [
+      "দেশের লোক",
+      "বাঘের ভয়",
+      "দুঃখের দহন",
+      "রোগের কষ্ট"
+    ],
+    "correct_answer": "বাঘের ভয়",
+    "explanation": "📝সম্বন্ধ পদ: ক্রিয়ার সাথে সম্পর্ক না রেখে যে নামপদ বাক্যস্থিত ন্য পদের সাথে সম্পর্কযুক্ত হয় তাকে সম্বন্ধ পদ বলে। <br/>কারক সম্বন্ধ: কর্তৃ সম্বন্ধ: রাজার হুকুম। <br/>                     কর্ম সম্বন্ধ: প্রভুর দেখা, সাধুর দর্শন।<br/>                   করন সম্বন্ধ: চোখের দেখা, হাতের লাঠি। <br/>                   <b>অপাদান সম্বন্ধ: বাঘের ভয়, বৃষ্টির আপনি। </b><br/>                  অধিকরণ সম্বন্ধ: ক্ষেতের ধান, দেশের লোক।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234631,
+    "question": "কোনটি মুক্তিযুদ্ধভিত্তিক উপন্যাস নয়?",
+    "options": [
+      "জীবন আমার বোন",
+      "বৃষ্টি ও বিদ্রোহীগণ",
+      "খাঁচায়",
+      "আর্তনাদ"
+    ],
+    "correct_answer": "আর্তনাদ",
+    "explanation": "📝<b>- আর্তনাদ উপন্যাসটি শওকত ওসমানের ভাষা আন্দোলনের প্রেক্ষাপটে রচিত। </b><br/>কথাসাহিত্যিক, প্রাবন্ধিক শওকত ওসমান এর প্রকৃত নাম প্রকৃত নাম শেখ আজিজুর রহমান। <br/>❏ তাঁর উল্লেখযোগ্য কয়েকটি রচনা হলো:<br/>তাঁর উল্লেখযোগ্য উপন্যাস:<br/>❏ জননী (১৯৫৮),<br/>❏ ক্রীতদাসের হাসি (১৯৬২),<br/>❏ সমাগম (১৯৬৭),<br/>❏ চৌরসন্ধি (১৯৬৮),<br/>❏ রাজা উপাখ্যান (১৯৭১),<br/>❏ জাহান্নাম হইতে বিদায় (১৯৭১),<br/>❏ দুই সৈনিক (১৯৭৩),<br/>❏ নেকড়ে অরণ্য (১৯৭৩),<br/>❏ পতঙ্গ পিঞ্জর (১৯৮৩),<br/>❏ আর্তনাদ (১৯৮৫),<br/>❏ রাজপুরুষ (১৯৯২);",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234632,
+    "question": "‘তোমাকে হাঁটতে হবে' কোন বাচ্যের উদাহরণ?",
+    "options": [
+      "কর্তৃবাচ্য",
+      "ভাববাচ্য",
+      "কর্মকর্তৃবাচ্য",
+      "কর্মবাচ্য"
+    ],
+    "correct_answer": "ভাববাচ্য",
+    "explanation": "📝ভাববাচ্য: যে বাচ্যে কর্ম থাকে না এবং বাক্যে ক্রিয়ার অর্থই বিশেষভাবে ব্যক্ত হয় তাকে ভাববাচ্য বলে। <br/><b>- ভাববাচ্যের ক্রিয়া সর্বদাই নাম পুরুষের হয় ভাবভাচ্যের কর্তায় ষষ্ঠী, দ্বিতীয়া অথবা তৃতিয়া বিভক্তি প্রযুক্ত হয়। </b><br/><b>যেমন, আমার খাওয়া হলো না ।</b><br/><b> অনুরূপভাবে,তোমাকে হাঁটতে হবে।</b><br/>❏ কখনো কখনো ভাববাচ্যে কর্তা উহ্য থাকে, কর্ম দ্বারাই ভাববাচ্য গঠিত হয়।<br/>যেমন, এ পথে চলা যায় না। <br/>❏ মূল ক্রিয়ার সঙ্গে সহযোগী ক্রিয়ার সংযোগ ও বিভিন্ন অর্থে ভাববাচ্য ক্রিয়া গঠিত হয়। <br/>যেমন, এ ব্যাপারে আমাকে দায়ী করা চলে না। ",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234633,
+    "question": "নিচের কোনটি সমার্থক নয়?",
+    "options": [
+      "আটকপালে - ইদুরকপালে",
+      "অকালকুষ্মাণ্ড - আমড়াকাঠের ঢেঁকি",
+      "ঢাকেরকাঠি - খয়ের খাঁ",
+      "গোঁফ খেজুরে - কাছাঢিলা"
+    ],
+    "correct_answer": "গোঁফ খেজুরে - কাছাঢিলা",
+    "explanation": "📝গোঁফ খেজুরে = অলস <br/>❏ কাছাঢিলা = অসাবধান <br/>❏ অকালকুষ্মাণ্ড = অকেজো<br/>❏ আমড়াকাঠের ঢেঁকি = অপদার্থ <br/>❏ ঢাকেরকাঠি = তোষামোদে<br/>❏ আটকপালে = হতভাগ্য <br/>❏ ইদুরকপালে = মন্দভাগ্য",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234634,
+    "question": "বাংলা একাক্ষর শব্দে ও-কারের উচ্চারণ কেমন হয়?",
+    "options": [
+      "হ্রস্ব",
+      "দীর্ঘ",
+      "সংবৃত",
+      "বিবৃত"
+    ],
+    "correct_answer": "দীর্ঘ",
+    "explanation": "📝বাংলা একাক্ষর শব্দে <b>'ও'</b> - এর উচ্চারণ <b>দীর্ঘ </b>হয়।<br/>যেমন - গো, জোর, রোগ, ভোর, কোন, বোন ইত্যাদি।<br/>একাক্ষর ব্যতীত অন্যত্র উচ্চারণ হ্রস্ব হয়।<br/>যেমন - সোনা, কারো, পুরোভাগ ইত্যাদি।<br/>ও - এর উচ্চারণ ইংরেজি বোট (Boat) শব্দের oa - এর মতো।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234635,
+    "question": "বাংলা ভাষায় কতগুলো অর্ধ-স্বরধ্বনি রয়েছে?",
+    "options": [
+      "১টি",
+      "২টি",
+      "৩টি",
+      "৪টি"
+    ],
+    "correct_answer": "৪টি",
+    "explanation": "📝<b>অর্ধস্বরধ্বনি: </b><br/>❏ যেসব স্বরধ্বনি পুরোপুরি উচ্চারিত হয় না সেগুলোকে অর্ধস্বরধ্বনি বলে। <br/><b>- বাংলা ভাষায় অর্ধস্বরধ্বনি চারটি: [ই], [উ], [এ] এবং [ও]।</b> <br/>❏ স্বরধ্বনি উচ্চারণ করার সময়ে টেনে দীর্ঘ করা যায়, কিন্তু অর্ধস্বরধ্বনিকে কোনোভাবেই দীর্ঘ করা যায় না। <br/>যেমন ➝ ‘চাই’ শব্দে দুটি স্বরধ্বনি আছে: [আ] এবং [ই]। এখানে [আ] হলো পূর্ণ স্বরধ্বনি, [ই] হলো অর্ধস্বরধ্বনি। <br/>           একইভাবে ‘লাউ’ শব্দে দুটি স্বরধ্বনি আছে: [আ] এবং [উ]। এখানে [আ] হলো পূর্ণ স্বরধ্বনি, [উ] হলো অর্ধস্বরধ্বনি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234636,
+    "question": "আল মাহমুদের ‘সোনালি কাবিন' একটি-",
+    "options": [
+      "নাটক",
+      "কাব্যগ্রন্থ",
+      "উপন্যাস",
+      "কোনোটিই নয়"
+    ],
+    "correct_answer": "কাব্যগ্রন্থ",
+    "explanation": "📝<b>আল মাহমুদের কবি প্রতিষ্ঠা নিশ্চিত করেছিল ‘সোনালী কাবিন’ (১৯৭৩) কাব্যগ্রন্থটি।</b><br/>❏ এই গ্রন্থে বিভিন্ন শিরোনামের কবিতার সঙ্গে ‘সোনালি কাবিন’ নামে চৌদ্দটি সনেটের সমন্বয়ে একটি দীর্ঘ কবিতাও অন্তর্ভুক্ত আছে।  এটিকে একটি ক্ষুদ্র কাব্যগ্রন্থও বলা যেতে পারে।<br/>কবি আল মাহমুদের প্রকৃত নাম মীর আবদুস শুকুর আল মাহমুদ।<br/>❏ আল মাহমুদ ১৯৩৬ সালের ১১ জুলাই ব্রাহ্মণবাড়ীয়া জেলার মোড়াইল গ্রামে জন্মগ্রহণ করেন।<br/>❏ ১৯৭১ সালে বাংলাদেশের স্বাধীনতা যুদ্ধে অংশ নিয়েছেন প্রবাসী সরকারের দায়িত্ব পালনের মধ্য দিয়ে।<br/>তাঁর উল্লেখযোগ্য গ্রন্থ:<br/>❏ লোক লোকান্তর (১৯৬৩)<br/>❏ কালের কলস (১৯৬৬)<br/>❏ সোনালী কাবিন (১৯৭৩)<br/>❏ মায়াবী পর্দা দুলে ওঠো (১৯৭৬)<br/>❏ আরব্য রজনীর রাজহাঁস<br/>❏ বখতিয়ারের ঘোড়া<br/>❏ অদৃশ্যবাদীদের রান্নাবান্না<br/>❏ দিনযাপন<br/>❏ দ্বিতীয় ভাঙ্গন<br/>❏ একটি পাখি লেজ ঝোলা<br/>❏ পাখির কাছে ফুলের কাছে ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  },
+  {
+    "id": 234637,
+    "question": " কোনটি ‘মেঘ’ শব্দের সমার্থক শব্দ নয়?",
+    "options": [
+      "বলাহক",
+      "পর্জন্য",
+      "অম্বুদ",
+      "তড়াক"
+    ],
+    "correct_answer": "তড়াক",
+    "explanation": "📝মেঘ এর সমার্থক শব্দ - ঘন, জলদ, জলধর, নীরদ, বারিদ, ঘন, জীমূত, অভ্র, অম্বুদ, পর্জন্য, অম্বুবাহ, বলাহক, পয়োদ, তয়োধর, পায়োধর, তোয়দ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "২০@Combined 3 Banks➺Assistant Engineer (IT)☞31.10.20"
+  }
+]

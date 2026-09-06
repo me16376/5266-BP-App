@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 326559,
+    "question": "Which kind of memory has the highest access speed?",
+    "options": [
+      "HDD",
+      "SSD",
+      "RAM",
+      "Cache"
+    ],
+    "correct_answer": "Cache",
+    "explanation": "📖 কম্পিউটারে মেমরির গতি অনুক্রমে সাজালে: ক্যাশ মেমোরি (Cache) > র‍্যাম (RAM) > এসএসডি (SSD) > হার্ড ডিস্ক ড্রাইভ (HDD)। ক্যাশ মেমোরি সিপিইউ-এর সবচেয়ে কাছে থাকে এবং এর ডেটা অ্যাক্সেস করার গতি সর্বোচ্চ।<br/>▣ ক্যাশ মেমোরি (Cache) হলো CPU-এর নিকটতম এবং দ্রুততম মেমোরি, যা প্রায়ই ন্যানোসেকেন্ডে ডেটা অ্যাক্সেস করে। RAM দ্রুত কিন্তু ক্যাশের চেয়ে ধীর, SSD ফ্ল্যাশ-ভিত্তিক এবং HDD যান্ত্রিক, তাই তাদের গতি অনেক কম। ক্যাশের উচ্চ গতির কারণ এটি CPU-এর অভ্যন্তরে বা নিকটে থাকে। তাই Cache সঠিক উত্তর।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326560,
+    "question": "Which of the following is not an open-source software?",
+    "options": [
+      "Libre Office",
+      "Mozilla Firefox",
+      "Microsoft Excel",
+      "Ubuntu"
+    ],
+    "correct_answer": "Microsoft Excel",
+    "explanation": "📖 Microsoft Excel একটি মালিকানাধীন (proprietary) সফটওয়্যার, যার জন্য লাইসেন্স কিনতে হয়। LibreOffice, Mozilla Firefox, এবং Ubuntu (একটি লিনাক্স ডিস্ট্রিবিউশন) হলো ওপেন-সোর্স সফটওয়্যার, যা বিনামূল্যে ব্যবহার ও বিতরণ করা যায়।<br/>▣ ওপেন-সোর্স সফটওয়্যারের সোর্স কোড সর্বজনীন এবং বিনামূল্যে পরিবর্তনযোগ্য। LibreOffice, Mozilla Firefox এবং Ubuntu (Linux-ভিত্তিক) এই শ্রেণিতে পড়ে। Microsoft Excel মাইক্রোসফটের মালিকানাধীন সফটওয়্যার, যার সোর্স কোড উন্মুক্ত নয় এবং ব্যবহারের জন্য লাইসেন্স প্রয়োজন। তাই Excel সঠিক উত্তর।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326561,
+    "question": "Which data structure uses a Last In, First Out (LIFO) principle?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Hash table",
+      "Array"
+    ],
+    "correct_answer": "Stack",
+    "explanation": "📖 স্ট্যাক (Stack) একটি ডেটা স্ট্রাকচার যা Last-In, First-Out (LIFO) নীতি অনুসরণ করে। এর মানে হলো, যে ডেটা আইটেমটি সবশেষে প্রবেশ করানো হয়, সেটিই সবার আগে বের করা হয়। অন্যদিকে, কিউ (Queue) First-In, First-Out (FIFO) নীতি অনুসরণ করে।<br/>▣ স্ট্যাক ডেটা স্ট্রাকচারে উপাদানগুলো LIFO নীতিতে কাজ করে, যেমন একটি প্লেটের স্তূপ যেখানে শেষ প্লেটটি প্রথমে সরানো হয়। উদাহরণস্বরূপ, ফাংশন কল স্ট্যাক এভাবে কাজ করে। কিউ FIFO নীতি অনুসরণ করে, হ্যাশ টেবিল ডেটা ম্যাপিংয়ের জন্য এবং অ্যারে রৈখিক স্টোরেজের জন্য ব্যবহৃত হয়। তাই Stack সঠিক উত্তর।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326562,
+    "question": "A macro in software like Excel is used to:",
+    "options": [
+      "Zoom sheet",
+      "Automate tasks",
+      "Size font",
+      "Encrypt files"
+    ],
+    "correct_answer": "Automate tasks",
+    "explanation": "📖 মাইক্রোসফট এক্সেলের মতো সফটওয়্যারে ম্যাক্রো হলো একটি রেকর্ড করা কর্ম বা স্ক্রিপ্ট যা বারবার করতে হয় এমন কাজগুলোকে স্বয়ংক্রিয়ভাবে (Automate tasks) সম্পাদন করার জন্য ব্যবহৃত হয়।<br/>▣ এক্সেলে ম্যাক্রো হলো VBA (Visual Basic for Applications) স্ক্রিপ্ট, যা পুনরাবৃত্তিমূলক কাজ যেমন ডেটা ফরম্যাটিং বা গণনা স্বয়ংক্রিয় করে। এটি জুম, ফন্ট সাইজ পরিবর্তন বা ফাইল এনক্রিপশনের জন্য নয়। তাই Automate tasks সঠিক উত্তর।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326563,
+    "question": "In a computer, which unit is responsible for fetching and executing instructions?",
+    "options": [
+      "ALU",
+      "Motherboard",
+      "Control Unit",
+      "RAM"
+    ],
+    "correct_answer": "Control Unit",
+    "explanation": "📖 কম্পিউটারের সেন্ট্রাল প্রসেসিং ইউনিট (CPU) এর কন্ট্রোল ইউনিট (Control Unit - CU) মেমোরি থেকে নির্দেশনা (instruction) আনা (fetch), ডিকোড করা এবং সম্পাদন (execute) করার জন্য দায়ী।<br/>▣ কন্ট্রোল ইউনিট (CU) হলো CPU-এর একটি অংশ, যা প্রোগ্রামের নির্দেশনা মেমোরি থেকে আনে, ডিকোড করে এবং ALU (Arithmetic Logic Unit) বা অন্যান্য ইউনিটের মাধ্যমে তা সম্পাদন করে। ALU গণনা ও লজিক অপারেশন করে, RAM ডেটা সংরক্ষণ করে এবং মাদারবোর্ড হার্ডওয়্যার সংযোগ করে। তাই CU সঠিক উত্তর।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326564,
+    "question": "Which one is the open source operating system?",
+    "options": [
+      "Linux",
+      "iOS",
+      "Windows",
+      "Google"
+    ],
+    "correct_answer": "Linux",
+    "explanation": "📖 Linux একটি ওপেন-সোর্স অপারেটিং সিস্টেম, যার মানে হলো এর সোর্স কোড সবার জন্য উন্মুক্ত এবং যে কেউ এটি পরিবর্তন ও বিতরণ করতে পারে। Windows, iOS হলো মালিকানাধীন (proprietary) অপারেটিং সিস্টেম।<br/>▣ Linux একটি ওপেন-সোর্স অপারেটিং সিস্টেম, যার সোর্স কোড বিনামূল্যে উপলব্ধ এবং কমিউনিটি দ্বারা উন্নত করা হয়। iOS (Apple) এবং Windows (Microsoft) মালিকানাধীন এবং তাদের কোড বন্ধ। Google একটি কোম্পানি, অপারেটিং সিস্টেম নয়, যদিও তাদের Android ওপেন-সোর্স। তাই Linux সঠিক উত্তর।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326565,
+    "question": "Which one is not an AI tool?",
+    "options": [
+      "Copilot",
+      "ChatGPT",
+      "Volt",
+      "DeepSeek"
+    ],
+    "correct_answer": "Volt",
+    "explanation": "📖 Copilot (Microsoft), ChatGPT (OpenAI), এবং DeepSeek হলো পরিচিত কৃত্রিম বুদ্ধিমত্তা (AI) টুল। Volt কোনো বহুল পরিচিত AI টুল নয় এবং এটি বিভিন্ন প্রযুক্তি বা পণ্যের নাম হিসেবে ব্যবহৃত হতে পারে।<br/>▣ Copilot কোডিং সহায়তা প্রদান করে, ChatGPT কথোপকথন-ভিত্তিক AI এবং DeepSeek গবেষণা ও ডেটা বিশ্লেষণের AI টুল। Volt কোনো স্বীকৃত AI টুল নয়; এটি প্রযুক্তি বা অন্য ক্ষেত্রে ভিন্ন প্রসঙ্গে ব্যবহৃত হতে পারে। তাই Volt সঠিক উত্তর।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326566,
+    "question": "Name of the word processing application in Work suit is:",
+    "options": [
+      "Word",
+      "Express",
+      "Pages",
+      "Docx"
+    ],
+    "correct_answer": "Pages",
+    "explanation": "📖 প্রশ্নটি কিছুটা অস্পষ্ট। তবে Apple-এর অফিস স্যুটকে iWork বলা হয় এবং এর ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশনটির নাম হলো Pages। Microsoft Office স্যুটের ওয়ার্ড প্রসেসরের নাম Word। প্রদত্ত অপশনগুলোর মধ্যে Pages একটি স্বতন্ত্র ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন।<br/>▣ Apple-এর iWork স্যুটের ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন হলো Pages, যা ডকুমেন্ট তৈরি, সম্পাদনা এবং ফরম্যাটিংয়ের জন্য ব্যবহৃত হয়। Microsoft Word হলো Microsoft Office-এর অংশ। Express কোনো ওয়ার্ড প্রসেসর নয় এবং Docx হলো ফাইল ফরম্যাট, অ্যাপ্লিকেশন নয়। তাই Pages সঠিক উত্তর।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326567,
+    "question": "Which of the following is not a data visualization tool?",
+    "options": [
+      "Power Bl",
+      "Tableau",
+      "MySQL",
+      "Looker"
+    ],
+    "correct_answer": "MySQL",
+    "explanation": "📖 Power BI, Tableau, এবং Looker হলো ডেটা ভিজ্যুয়ালাইজেশন টুল, যা ডেটাকে চার্ট, গ্রাফ এবং ড্যাশবোর্ডের মাধ্যমে উপস্থাপন করে। অন্যদিকে, MySQL একটি রিলেশনাল ডেটাবেস ম্যানেজমেন্ট সিস্টেম (RDBMS), যা ডেটা সংরক্ষণ ও ব্যবস্থাপনার জন্য ব্যবহৃত হয়, ভিজ্যুয়ালাইজেশনের জন্য নয়।<br/>▣ Power BI, Tableau এবং Looker হলো বিশেষায়িত ডেটা ভিজ্যুয়ালাইজেশন টুল, যা ব্যবহারকারীদের ডেটা থেকে দৃশ্যমান উপস্থাপনা তৈরি করতে সহায়তা করে। MySQL একটি ডেটাবেস ম্যানেজমেন্ট সিস্টেম, যা ডেটা সংরক্ষণ, পুনরুদ্ধার এবং পরিচালনার জন্য ব্যবহৃত হয়, কিন্তু এটির কোনো ভিজ্যুয়ালাইজেশন ক্ষমতা নেই। তাই MySQL এখানে সঠিক উত্তর।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326568,
+    "question": "What is the address length of IPv6?",
+    "options": [
+      "32-bit",
+      "64-bit",
+      "128-bit",
+      "256-bit"
+    ],
+    "correct_answer": "128-bit",
+    "explanation": "📖 IPv6 (Internet Protocol version 6) অ্যাড্রেসের দৈর্ঘ্য হলো ১২৮-বিট। এটি IPv4 (যা ৩২-বিট) এর তুলনায় অনেক বেশি সংখ্যক ইউনিক আইপি অ্যাড্রেস প্রদান করতে পারে।<br/>▣ IPv6 ইন্টারনেট প্রোটোকলের সর্বশেষ সংস্করণ, যা ১২৮-বিট অ্যাড্রেস ব্যবহার করে, ফলে ৩৪০ ট্রিলিয়ন ট্রিলিয়ন ট্রিলিয়নেরও বেশি ইউনিক অ্যাড্রেস তৈরি করা সম্ভব। IPv4-এর ৩২-বিট অ্যাড্রেসের সীমাবদ্ধতার কারণে IPv6 বিকশিত হয়। ৬৪-বিট বা ২৫৬-বিট অ্যাড্রেস কোনো ইন্টারনেট প্রোটোকলের জন্য ব্যবহৃত হয় না।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326569,
+    "question": "In the 2024-25 season, the champion of the French Ligue 1 is:",
+    "options": [
+      "Paris Saint-Germain",
+      "Marseille",
+      "Saint-E’tienne",
+      "Strasbourg"
+    ],
+    "correct_answer": "Paris Saint-Germain",
+    "explanation": "<p><span style=\"font-size: 1rem;\">প্যারিস সেন্ট-জার্মেই (PSG) ২০১৪-২০১৫ মৌসুমে ফরাসি লিগ ওয়ান (Ligue 1)-এর চ্যাম্পিয়ন হয়েছিল। লিগ ওয়ানে তারা অন্য সকল ফরাসি ক্লাবের বিপক্ষেই খেলেছিল।</span></p><br/>এছাড়াও, সেই মৌসুমে PSG উয়েফা চ্যাম্পিয়ন্স লিগেও (UEFA Champions League) অংশ নিয়েছিল। সেখানে তারা নকআউট পর্বে চেলসি এবং বার্সেলোনার মতো বড় দলের বিপক্ষে খেলেছিল। বার্সেলোনার সাথে তাদের কোয়ার্টার ফাইনালে দেখা হয়েছিল, যেখানে তারা হেরে বাদ পড়েছিল।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326570,
+    "question": "787 Dreamliner is an American wide-bodied airliner developed and manufactured by:",
+    "options": [
+      "Boeing",
+      "Airbus",
+      "Bombardier",
+      "Lockheed Martin"
+    ],
+    "correct_answer": "Boeing",
+    "explanation": "📖 ৭৮৭ ড্রিমলাইনার একটি প্রশস্ত দেহের (wide-body) যাত্রীবাহী বিমান যা আমেরিকান বিমান নির্মাতা প্রতিষ্ঠান বোয়িং (Boeing) দ্বারা তৈরি ও বাজারজাত করা হয়।<br/>▣ বোয়িং ৭৮৭ ড্রিমলাইনার একটি দীর্ঘপাল্লার, জ্বালানি-সাশ্রয়ী, প্রশস্ত দেহের বিমান, যা ২০১১ সালে প্রথম বাণিজ্যিকভাবে চালু হয়। এয়ারবাস (Airbus) ইউরোপীয় কোম্পানি, বোম্বারডিয়ার (Bombardier) ছোট বিমান তৈরি করে এবং লকহিড মার্টিন (Lockheed Martin) প্রধানত সামরিক বিমান নির্মাণে বিশেষজ্ঞ।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326571,
+    "question": "Using algorithms to analyze financial data for investment decision making purpose is:",
+    "options": [
+      "ai computing",
+      "wealthtech",
+      "algorithmic Trading",
+      "sourcing"
+    ],
+    "correct_answer": "algorithmic Trading",
+    "explanation": "📖 অ্যালগরিদম বা কম্পিউটার প্রোগ্রাম ব্যবহার করে আর্থিক তথ্য বিশ্লেষণ করে স্বয়ংক্রিয়ভাবে শেয়ার বাজারে লেনদেন বা বিনিয়োগের সিদ্ধান্ত গ্রহণ করার প্রক্রিয়াকে অ্যালগরিদমিক ট্রেডিং (Algorithmic Trading) বলা হয়।<br/>▣ অ্যালগরিদমিক ট্রেডিং হলো কম্পিউটার প্রোগ্রামের মাধ্যমে আর্থিক তথ্য বিশ্লেষণ করে দ্রুত এবং স্বয়ংক্রিয়ভাবে শেয়ার ক্রয়-বিক্রয়ের সিদ্ধান্ত গ্রহণ। Wealthtech আর্থিক পরিষেবার একটি বিস্তৃত ক্ষেত্র, AI computing সাধারণ প্রযুক্তি এবং sourcing সম্পর্কিত নয়। <br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326572,
+    "question": "In Fintech, what is the primary purpose of Robo-adviscrs?",
+    "options": [
+      "ATM transaction",
+      "financial planning",
+      "mining",
+      "cybersecurity"
+    ],
+    "correct_answer": "financial planning",
+    "explanation": "📖 ফিনটেক-এ রোবো-অ্যাডভাইজর হলো এমন একটি ডিজিটাল প্ল্যাটফর্ম যা অ্যালগরিদম ব্যবহার করে স্বয়ংক্রিয়ভাবে আর্থিক পরিকল্পনা এবং বিনিয়োগ ব্যবস্থাপনা সেবা প্রদান করে।<br/>▣ রোবো-অ্যাডভাইজররা AI-চালিত অ্যালগরিদম ব্যবহার করে কম খরচে বিনিয়োগ পরামর্শ, পোর্টফোলিও ব্যবস্থাপনা এবং আর্থিক পরিকল্পনা প্রদান করে। ATM লেনদেন, মাইনিং (ক্রিপ্টোকারেন্সি) বা সাইবার নিরাপত্তা এর কাজ নয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326573,
+    "question": "Which company owns ChatGPT?",
+    "options": [
+      "Open AI",
+      "nVIDIA",
+      "Meta",
+      "Palantir"
+    ],
+    "correct_answer": "Open AI",
+    "explanation": "📖 ChatGPT হলো একটি জনপ্রিয় কৃত্রিম বুদ্ধিমত্তা চ্যাটবট যা মার্কিন গবেষণা সংস্থা OpenAI দ্বারা তৈরি করা হয়েছে।<br/>▣ OpenAI, ২০১৫ সালে প্রতিষ্ঠিত, ChatGPT এবং DALL·E-এর মতো AI প্রযুক্তির উন্নয়নকারী। nVIDIA হার্ডওয়্যার, Meta সোশ্যাল মিডিয়া এবং Palantir ডেটা অ্যানালিটিক্সে কাজ করে, ChatGPT-এর সঙ্গে তাদের কোনো সম্পর্ক নেই।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326574,
+    "question": "Which of the following is not a scheduled bank in Bangladesh?",
+    "options": [
+      "Rupali Bank",
+      "Agrani Bank",
+      "AB Bank",
+      "Bangladesh Bank"
+    ],
+    "correct_answer": "Bangladesh Bank",
+    "explanation": "📖 বাংলাদেশ ব্যাংক হলো দেশের কেন্দ্রীয় ব্যাংক। এটি অন্যান্য তফসিলি ব্যাংকগুলোকে (Scheduled Banks) নিয়ন্ত্রণ ও তত্ত্বাবধান করে, কিন্তু নিজে কোনো তফসিলি ব্যাংক নয়। রুপালী, অগ্রণী এবং এবি ব্যাংক তফসিলি বাণিজ্যিক ব্যাংক।<br/>▣ তফসিলি ব্যাংক হলো বাংলাদেশ ব্যাংকের তালিকাভুক্ত বাণিজ্যিক ব্যাংক, যেমন রুপালী, অগ্রণী এবং এবি ব্যাংক। বাংলাদেশ ব্যাংক কেন্দ্রীয় ব্যাংক হিসেবে নিয়ন্ত্রক ভূমিকা পালন করে এবং তফসিলি ব্যাংক নয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326575,
+    "question": "Which type of deposit is least costly to the bank?",
+    "options": [
+      "Pension",
+      "STD",
+      "Saving",
+      "Term"
+    ],
+    "correct_answer": "Saving",
+    "explanation": "📖 সাধারণত সেভিংস বা সঞ্চয়ী হিসাব এবং চলতি হিসাবে ব্যাংক সবচেয়ে কম সুদ প্রদান করে। অপশনগুলোর মধ্যে, সেভিংস অ্যাকাউন্টে মেয়াদী আমানত (Term deposit) বা পেনশনের চেয়ে কম সুদ দিতে হয়, তাই এটি ব্যাংকের জন্য কম ব্যয়বহুল।<br/>▣ সেভিংস অ্যাকাউন্টে সাধারণত নিম্ন সুদের হার থাকে (যেমন, ২-৪%), যেখানে টার্ম ডিপোজিট (৫-৭%) বা পেনশন স্কিমে উচ্চ সুদ দেওয়া হয়। STD (Short-Term Deposit) এর সুদও সেভিংসের চেয়ে বেশি হতে পারে। তাই সেভিংস অ্যাকাউন্ট ব্যাংকের জন্য সবচেয়ে কম ব্যয়বহুল।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326576,
+    "question": "A bridge bank is a:",
+    "options": [
+      "islamic bank",
+      "green bank",
+      "SDG bank",
+      "Temporary bank"
+    ],
+    "correct_answer": "Temporary bank",
+    "explanation": "📖 একটি ব্রিজ ব্যাংক হলো একটি অস্থায়ী ব্যাংক যা কোনো ব্যর্থ বা দেউলিয়া ব্যাংকের কার্যক্রম সাময়িকভাবে পরিচালনার জন্য নিয়ন্ত্রক সংস্থা দ্বারা তৈরি করা হয়, যতক্ষণ না একজন স্থায়ী ক্রেতা পাওয়া যায়।<br/>▣ ব্রিজ ব্যাংক হলো একটি অস্থায়ী আর্থিক প্রতিষ্ঠান, যা দেউলিয়া বা সমস্যাগ্রস্ত ব্যাংকের সম্পদ ও দায় পরিচালনার জন্য স্থাপিত হয় যতক্ষণ না এটি বিক্রি বা একীভূত হয়। এটি ইসলামিক ব্যাংক, গ্রিন ব্যাংক বা SDG ব্যাংক নয়, যেগুলো ভিন্ন উদ্দেশ্যে কাজ করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326577,
+    "question": "Which of the following is the most traded security in DSE?",
+    "options": [
+      "Ordinary Share",
+      "Sukuk",
+      "Bond",
+      "T-bill"
+    ],
+    "correct_answer": "T-bill",
+    "explanation": "📖 ঢাকা স্টক এক্সচেঞ্জে (DSE) সবচেয়ে বেশি লেনদেন হয় সাধারণ শেয়ার (Ordinary Share)। তবে সামগ্রিক আর্থিক বাজারে ট্রেজারি বিল (T-bill) বা সরকারি সিকিউরিটিজের লেনদেনের পরিমাণ অনেক বেশি। প্রশ্নের প্রেক্ষাপট অনুযায়ী, DSE-এর লেনদেনের ক্ষেত্রে শেয়ার প্রধান হলেও, সামগ্রিক সিকিউরিটিজ মার্কেটে T-bill একটি উচ্চ-ভলিউম উপকরণ।<br/>▣ ঢাকা স্টক এক্সচেঞ্জে (DSE) সাধারণ শেয়ার (Ordinary Share) সর্বাধিক লেনদেন হয়, কারণ এটি বিনিয়োগকারীদের মধ্যে জনপ্রিয়। তবে, T-bill (ট্রেজারি বিল) সরকারি সিকিউরিটিজ হিসেবে আর্থিক বাজারে উচ্চ লেনদেনের উপকরণ। প্রশ্নের অপশনগুলোর মধ্যে T-bill উত্তর হিসেবে চিহ্নিত হলেও, DSE-এর প্রেক্ষাপটে Ordinary Share বেশি প্রযোজ্য হতে পারে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326578,
+    "question": "What is the size of ADP in the national budget 2025-26 in crore taka?",
+    "options": [
+      "250,000",
+      "230,000",
+      "412,000",
+      "316,000"
+    ],
+    "correct_answer": "230,000",
+    "explanation": "The size of the Annual Development Programme (ADP) in the national budget for FY2025-26 is Taka 2,30,000 crore. This includes Taka 1,44,000 crore from the government\\\"s own sources and Taka 86,000 crore from external sources (loans and grants). Additionally, there\\\"s an allocation of Taka 8,599.71 crore from the concerned organization\\\"s own funds, bringing the overall ADP to Taka 2,38,599.71 crore.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326579,
+    "question": "What is the chemical symbol for gold?",
+    "options": [
+      "Au",
+      "Ag",
+      "Ga",
+      "Ge"
+    ],
+    "correct_answer": "Au",
+    "explanation": "📖 সোনার রাসায়নিক প্রতীক হলো Au। এটি ল্যাটিন শব্দ 'Aurum' থেকে এসেছে। Ag হলো রুপার (Silver), Ga হলো গ্যালিয়ামের (Gallium) এবং Ge হলো জার্মেনিয়ামের (Germanium) প্রতীক।<br/>▣ পর্যায় সারণীতে সোনার রাসায়নিক প্রতীক হলো ‘Au’, যা ল্যাটিন ‘Aurum’ (সোনা) থেকে উদ্ভূত। ‘Ag’ (রুপা, Argentum), ‘Ga’ (গ্যালিয়াম) এবং ‘Ge’ (জার্মেনিয়াম) ভিন্ন মৌলিক পদার্থের প্রতীক।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326580,
+    "question": "How many scheduled banks are there in Bangladesh?",
+    "options": [
+      "45",
+      "56",
+      "62",
+      "79"
+    ],
+    "correct_answer": "62",
+    "explanation": "📖 বাংলাদেশে তফসিলি ব্যাংকের সংখ্যা পরিবর্তনশীল। বর্তমানে (২০২৪ সাল অনুযায়ী) ৬২টি তফসিলি ব্যাংক রয়েছে। তফসিলি ব্যাংক হলো সেই সব ব্যাংক যা বাংলাদেশ ব্যাংক অর্ডার, ১৯৭২ অনুযায়ী তালিকাভুক্ত।<br/>▣ বাংলাদেশ ব্যাংকের তালিকা অনুযায়ী, ২০২৪ সাল পর্যন্ত ৬২টি তফসিলি ব্যাংক রয়েছে, যার মধ্যে রাষ্ট্রায়ত্ত, বেসরকারি, বিদেশি এবং বিশেষায়িত ব্যাংক রয়েছে। এই সংখ্যা সময়ের সঙ্গে পরিবর্তিত হতে পারে। অন্যান্য অপশনগুলো বর্তমান তথ্যের সঙ্গে সামঞ্জস্যপূর্ণ নয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326581,
+    "question": "Which is the largest division in Bangladesh in terms of area?",
+    "options": [
+      "Chittagong",
+      "Dhaka",
+      "Sylhet",
+      "Rajshahi"
+    ],
+    "correct_answer": "Chittagong",
+    "explanation": "📖 আয়তনের দিক থেকে বাংলাদেশের বৃহত্তম বিভাগ হলো চট্টগ্রাম বিভাগ। এর আয়তন প্রায় ৩৩,৯০৯ বর্গ কিলোমিটার।<br/>▣ চট্টগ্রাম বিভাগের আয়তন ৩৩,৯০৯ বর্গ কিলোমিটার, যা ঢাকা (২০,৫৯৪ বর্গ কিলোমিটার), সিলেট (১২,৬৩৫ বর্গ কিলোমিটার) এবং রাজশাহী (১৮,১৮৪ বর্গ কিলোমিটার) থেকে বড়। এটি বাংলাদেশের ভৌগোলিক তথ্যের ভিত্তিতে নিশ্চিত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326582,
+    "question": "What is the area of Bangladesh in square kilometers?",
+    "options": [
+      "56,977",
+      "96,497",
+      "137,274",
+      "147,570"
+    ],
+    "correct_answer": "147,570",
+    "explanation": "📖 বাংলাদেশ পরিসংখ্যান ব্যুরো (BBS) অনুযায়ী, বাংলাদেশের মোট আয়তন ১,৪৭,৫৭০ বর্গ কিলোমিটার।<br/>▣ বাংলাদেশের ভৌগোলিক আয়তন ১,৪৭,৫৭০ বর্গ কিলোমিটার, যা BBS এবং আন্তর্জাতিক উৎস দ্বারা নিশ্চিত। অন্যান্য অপশনগুলো ভুল, কারণ এগুলো বাংলাদেশের প্রকৃত আয়তনের থেকে অনেক কম বা বেশি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326583,
+    "question": "Which of the following is not a function of the central bank?",
+    "options": [
+      "credit control",
+      "clearing",
+      "supervision",
+      "capital formation"
+    ],
+    "correct_answer": "capital formation",
+    "explanation": "📖 কেন্দ্রীয় ব্যাংকের প্রধান কাজগুলো হলো মুদ্রা ছাপানো, ঋণ নিয়ন্ত্রণ (credit control), নিকাশ ঘর (clearing house) হিসেবে কাজ করা এবং অন্যান্য ব্যাংকগুলোর তত্ত্বাবধান (supervision) করা। মূলধন গঠন (capital formation) সাধারণত বাণিজ্যিক ব্যাংক এবং অন্যান্য আর্থিক প্রতিষ্ঠানের কাজ।<br/>▣ কেন্দ্রীয় ব্যাংক (যেমন, বাংলাদেশ ব্যাংক) মুদ্রানীতি, ঋণ নিয়ন্ত্রণ, ব্যাংক তত্ত্বাবধান এবং নিকাশ ঘরের কাজ করে। মূলধন গঠন বিনিয়োগ ও অর্থনৈতিক কার্যক্রমের মাধ্যমে ঘটে, যা কেন্দ্রীয় ব্যাংকের সরাসরি কাজ নয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326584,
+    "question": "Which is the oldest city center of Bangladesh?",
+    "options": [
+      "Moynamoti",
+      "Paharpur",
+      "Mahasthangarh",
+      "Sonargaon"
+    ],
+    "correct_answer": "Mahasthangarh",
+    "explanation": "📖 বগুড়ায় অবস্থিত মহাস্থানগড় বাংলাদেশের সবচেয়ে প্রাচীন প্রত্নতাত্ত্বিক স্থান এবং নগর কেন্দ্র। এটি প্রায় আড়াই হাজার বছরের পুরনো বলে মনে করা হয় এবং এটি পুণ্ড্রবর্ধন রাজ্যের রাজধানী ছিল।<br/>▣ মহাস্থানগড়, খ্রিস্টপূর্ব ৩য় শতাব্দী থেকে পুণ্ড্রবর্ধনের রাজধানী হিসেবে পরিচিত, বাংলাদেশের প্রাচীনতম নগর কেন্দ্র। প্রত্নতাত্ত্বিক নিদর্শনগুলো এর ঐতিহাসিক গুরুত্ব প্রমাণ করে। ময়মনসিংহ, পাহাড়পুর ও সোনারগাঁও তুলনামূলকভাবে পরবর্তী সময়ের।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326585,
+    "question": "‘C’ in CAMELS stands for:",
+    "options": [
+      "Capital adequacy",
+      "Capital ratio",
+      "Capital rate",
+      "Capital yield"
+    ],
+    "correct_answer": "Capital adequacy",
+    "explanation": "📖 CAMELS হলো ব্যাংক ও আর্থিক প্রতিষ্ঠানের পারফরম্যান্স মূল্যায়নের একটি আন্তর্জাতিক রেটিং সিস্টেম। এখানে C দ্বারা Capital Adequacy বা মূলধনের পর্যাপ্ততা বোঝানো হয়।<br/>▣ CAMELS রেটিং সিস্টেমে C মানে Capital Adequacy, যা ব্যাংকের আর্থিক স্থিতিশীলতা ও ঝুঁকি মোকাবিলার ক্ষমতা নির্দেশ করে। এটি ব্যাংকের মূলধনের পর্যাপ্ততা পরিমাপ করে। অন্যান্য অপশন যেমন Capital Ratio, Capital Rate বা Capital Yield এই সিস্টেমের অংশ নয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326586,
+    "question": "Which city is known as the ‘Big Apple’?",
+    "options": [
+      "Los Angeles",
+      "New York",
+      "Oklahoma",
+      "San Francisco"
+    ],
+    "correct_answer": "New York",
+    "explanation": "📖 যুক্তরাষ্ট্রের নিউ ইয়র্ক শহরকে 'The Big Apple' বা 'বড় আপেল' নামে ডাকা হয়। এই ডাকনামটি ১৯২০-এর দশকে জনপ্রিয় হয়।<br/>▣ নিউ ইয়র্ক শহরকে ‘বিগ অ্যাপল’ বলা হয়, যা ১৯২০-এর দশকে জন হ্যান্ডলির একটি সংবাদপত্রের কলামে প্রথম ব্যবহৃত হয়েছিল, যেখানে এটি শহরের সাংস্কৃতিক ও অর্থনৈতিক গুরুত্ব বোঝায়। লস অ্যাঞ্জেলেস, ওকলাহোমা বা সান ফ্রান্সিসকোর এমন কোনো উপাধি নেই।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326587,
+    "question": "How many countries are members of the ASEAN?",
+    "options": [
+      "10",
+      "15",
+      "7",
+      "9"
+    ],
+    "correct_answer": "10",
+    "explanation": "📖 ASEAN (Association of Southeast Asian Nations) এর সদস্য দেশ ১০টি। দেশগুলো হলো: ব্রুনাই, কম্বোডিয়া, ইন্দোনেশিয়া, লাওস, মালয়েশিয়া, মিয়ানমার, ফিলিপাইন, সিঙ্গাপুর, থাইল্যান্ড এবং ভিয়েতনাম।<br/>▣ ASEAN ১৯৬৭ সালে প্রতিষ্ঠিত হয় এবং বর্তমানে এর ১০টি সদস্য রাষ্ট্র রয়েছে। এই দেশগুলো দক্ষিণ-পূর্ব এশিয়ার অর্থনৈতিক, রাজনৈতিক ও সাংস্কৃতিক সহযোগিতার জন্য কাজ করে। অন্যান্য অপশন (৭, ৯, ১৫) এর সঙ্গে সদস্য সংখ্যার কোনো মিল নেই।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326588,
+    "question": "What is the height from ground of each cricket stump?",
+    "options": [
+      "28 inches",
+      "32 inches",
+      "2 feet",
+      "4 feet"
+    ],
+    "correct_answer": "28 inches",
+    "explanation": "📖 আন্তর্জাতিক ক্রিকেট কাউন্সিল (ICC) এর নিয়ম অনুযায়ী, মাটি থেকে প্রতিটি ক্রিকেট স্টাম্পের উচ্চতা ২৮ ইঞ্চি (বা ৭১.১ সেমি) হতে হবে।<br/>▣ ICC-এর নিয়মাবলী অনুযায়ী, একটি ক্রিকেট স্টাম্পের মাটি থেকে উচ্চতা ২৮ ইঞ্চি, যার মধ্যে ৮ ইঞ্চি মাটির নিচে থাকে এবং বাকি ২০ ইঞ্চি দৃশ্যমান। এটি স্টাম্পের উপরে বেল (bails) বসানোর জন্য ডিজাইন করা হয়। অন্যান্য অপশনগুলো (৩২ ইঞ্চি, ২ ফুট, ৪ ফুট) এই মানের সঙ্গে সামঞ্জস্যপূর্ণ নয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326589,
+    "question": "If sum of two consecutive numbers is multiplied by 5, then the result is 105, What are the numbers?",
+    "options": [
+      "15,16",
+      "20,21",
+      "8,9",
+      "10,11"
+    ],
+    "correct_answer": "10,11",
+    "explanation": "📖 ধরি, ক্রমিক সংখ্যা দুটি হলো x এবং x+1।<br/>প্রশ্নমতে, 5 × (x + (x+1)) = 105<br/>5 × (2x + 1) = 105<br/>2x + 1 = 105 / 5<br/>2x + 1 = 21<br/>2x = 20<br/>x = 10<br/>সুতরাং, সংখ্যা দুটি হলো ১০ এবং (১০+১) = ১১।<br/><br/> ",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326590,
+    "question": "Triangle PQR has angles in the ratio of 2 :3: 5. Which type of triangle is PQR?",
+    "options": [
+      "acule",
+      "obtuse",
+      "isosceles",
+      "right"
+    ],
+    "correct_answer": "right",
+    "explanation": "📖 ধরি, কোণগুলো হলো 2x, 3x, এবং 5x।<br/>ত্রিভুজের তিন কোণের সমষ্টি ১৮০°।<br/>2x + 3x + 5x = 180°<br/>10x = 180°<br/>x = 18°<br/>কোণগুলো হলো:<br/>2x = 2 × 18° = 36°<br/>3x = 3 × 18° = 54°<br/>5x = 5 × 18° = 90°<br/>যেহেতু ত্রিভুজটির একটি কোণ ৯০°, তাই এটি একটি সমকোণী (right) ত্রিভুজ।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326591,
+    "question": "The area of a rectangle that has length =&nbsp;\\({2}{a}^{{2}}{b}\\)</u> and breadth =&nbsp;\\({3}{a}{b}^{{2}}\\)</u> is:",
+    "options": [
+      "\\({6}{a}^{{3}}{b}^{{3}}\\)",
+      "\\({a}^{{3}}{b}^{{3}}\\)",
+      "\\({2}{a}^{{3}}{b}^{{3}}\\)",
+      "\\({4}{a}^{{3}}{b}^{{3}}\\)"
+    ],
+    "correct_answer": "\\({6}{a}^{{3}}{b}^{{3}}\\)",
+    "explanation": "📖 আয়তক্ষেত্রের ক্ষেত্রফল = দৈর্ঘ্য × প্রস্থ<br/>= (2a²b) × (3ab²)<br/>= (2 × 3) × (a² × a) × (b × b²)<br/>= 6 × a⁽²⁺¹⁾ × b⁽¹⁺²⁾<br/>= 6a³b³।<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326592,
+    "question": "The volume of a cuboid with length, breadth and height as&nbsp;\\({5}{x},{3}{x}^{{2}}\\)</u> and&nbsp;\\({7}{x}^{{4}}\\)</u> respeclively is:",
+    "options": [
+      "\\({105}{x}^{{7}}\\)",
+      "\\({105}{x}^{{2}}\\)",
+      "\\({105}{x}^{{4}}\\)",
+      "105x"
+    ],
+    "correct_answer": "\\({105}{x}^{{7}}\\)",
+    "explanation": "📖 দৈর্ঘ্য, প্রস্থ, উচ্চতা 5x, 3x², 7x⁴ হলে উত্তর 105x⁷ হয়।<br/>ধরি, দৈর্ঘ্য = 5x, প্রস্থ = 3x², উচ্চতা = 7x⁴<br/>আয়তাকার ঘনবস্তুর আয়তন = দৈর্ঘ্য × প্রস্থ × উচ্চতা<br/>= (5x) × (3x²) × (7x⁴)<br/>= (5 × 3 × 7) × (x¹ × x² × x⁴)<br/>= 105 × x⁽¹⁺²⁺⁴⁾ = 105x⁷।<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326593,
+    "question": "If\\({p}×{q}={p}+{q}+\\frac{{p}}{{q}}\\)</u>, then according to this the value of 8 × 2 is?",
+    "options": [
+      "6",
+      "10",
+      "14",
+      "16"
+    ],
+    "correct_answer": "14",
+    "explanation": "📖 প্রদত্ত নিয়ম অনুযায়ী, p × q = p + q + p/q।<br/>এখানে p = 8 এবং q = 2।<br/>সুতরাং, 8 × 2 = 8 + 2 + (8/2) = 10 + 4 = 14।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326594,
+    "question": "What is the probability of rolling an even number on a standard six-sided die?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "correct_answer": "1/2",
+    "explanation": "📖একটি ছক্কায় মোট সম্ভাব্য ফলাফল ৬টি: {১, ২, ৩, ৪, ৫, ৬}।<br/>জোড় সংখ্যা আসার অনুকূল ফলাফল ৩টি: {২, ৪, ৬}।<br/>সম্ভাবনা = (অনুকূল ফলাফলের সংখ্যা) / (মোট ফলাফলের সংখ্যা) = ৩ / ৬ = ১/২।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326595,
+    "question": "Solve for x :&nbsp;\\({{\\log}_{{2}}{\\left({x}+{3}\\right)}}={4}\\)</u>",
+    "options": [
+      "x = 1",
+      "x = 19",
+      "x = 13",
+      "x = 8"
+    ],
+    "correct_answer": "x = 13",
+    "explanation": "📖 লগারিদমের সংজ্ঞা অনুযায়ী, logₐ(b) = c হলে, aᶜ = b হয়।<br/>এখানে, log₂(x + 3) = 4<br/>সুতরাং, 2⁴ = x + 3<br/>16 = x + 3<br/>x = 16 - 3 = 13।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326596,
+    "question": "Solve for x :&nbsp;\\(\\sqrt{{{2}{x}-{3}}}={5}\\)</u>",
+    "options": [
+      "x = 4",
+      "x = 5.5",
+      "x = 14",
+      "x = 28"
+    ],
+    "correct_answer": "x = 14",
+    "explanation": "📖 √(2x - 3) = 5<br/>উভয় পক্ষকে বর্গ করে পাই,<br/>(√(2x - 3))² = 5²<br/>2x - 3 = 25<br/>2x = 25 + 3<br/>2x = 28<br/>x = 28 / 2 = 14।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326597,
+    "question": "How many years will it take for an investment of tk. 5000 to earn Tk. 1200 in simple interest rate of 6%?",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "2.5"
+    ],
+    "correct_answer": "4",
+    "explanation": "📖 সরল সুদের সূত্র: I = Pnr, যেখানে I=সুদ, P=আসল, n=সময়, r=সুদের হার।<br/>এখানে, I = ১২০০ টাকা, P = ৫০০০ টাকা, r = ৬% = ০.০৬।<br/>১২০০ = ৫০০০ × n × ০.০৬<br/>১২০০ = ৩০০ × n<br/>n = ১২০০ / ৩০০ = ৪ বছর।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326598,
+    "question": "If an exponent or index has base 25 and power zero, then which of the following will be its value?",
+    "options": [
+      "25",
+      "5",
+      "1",
+      "250"
+    ],
+    "correct_answer": "1",
+    "explanation": "📖 গণিতের নিয়ম অনুযায়ী, যেকোনো অশূন্য সংখ্যার (non-zero number) ঘাত বা শক্তি (power) শূন্য হলে তার মান ১ হয়।<br/>সুতরাং, 25⁰ = 1।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326599,
+    "question": "A mango kept in a basket doubles in every one minute. If the basket gets completely filled in 3o minutes, then in how many minutes will half of the basket be filled?",
+    "options": [
+      "15",
+      "25",
+      "27",
+      "29"
+    ],
+    "correct_answer": "29",
+    "explanation": "📖 যেহেতু ঝুড়িতে আমের সংখ্যা প্রতি মিনিটে দ্বিগুণ হয়, তাই ঝুড়িটি পূর্ণ হওয়ার ঠিক এক মিনিট আগে এটি অর্ধেক পূর্ণ ছিল।<br/>ঝুড়িটি পূর্ণ হয় ৩০ মিনিটে।<br/>সুতরাং, ঝুড়িটি অর্ধেক পূর্ণ ছিল = ৩০ - ১ = ২৯ মিনিটে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326600,
+    "question": "What is the slope of a line perpendicular to the line whose equation is 20x -2y = 6?",
+    "options": [
+      "-10",
+      "-1/10",
+      "10",
+      "1/10"
+    ],
+    "correct_answer": "-1/10",
+    "explanation": "📖 প্রদত্ত রেখার সমীকরণ: 20x - 2y = 6<br/>এটিকে y = mx + c আকারে সাজিয়ে পাই,<br/>2y = 20x - 6<br/>y = 10x - 3<br/>এই রেখার ঢাল (slope), m₁ = 10।<br/>একটি রেখার উপর লম্ব রেখার ঢাল (m₂) হবে ঐ রেখার ঢালের ঋণাত্মক বিপরীত (negative reciprocal)।<br/>m₂ = -1 / m₁ = -1 / 10।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326601,
+    "question": "Karim weight 65.7 kg. If he reduces his weight in the ratio 5:4 find his reduced weight in kg.",
+    "options": [
+      "55.25",
+      "52.56",
+      "57.20",
+      "61.25"
+    ],
+    "correct_answer": "52.56",
+    "explanation": "📖 করিমের বর্তমান ওজন = ৬৫.৭ কেজি।<br/>ওজন কমানোর অনুপাত ৫:৪, অর্থাৎ পূর্বের ওজন ৫ ভাগ হলে বর্তমান ওজন ৪ ভাগ।<br/>কমানোর পর ওজন হবে = ৬৫.৭ × (৪/৫) = ২৬২.৮ / ৫ = ৫২.৫৬ কেজি।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326602,
+    "question": "If&nbsp;\\({P}^{{x}}={Q}^{{y}}={R}^{{z}}\\)</u> and \\(\\frac{{Q}}{{P}}=\\frac{{R}}{{Q}}\\), then \\(\\frac{{{2}{z}}}{{{x}+{z}}}=\\) ?",
+    "options": [
+      "x/y",
+      "z/y",
+      "y/x",
+      "y/z"
+    ],
+    "correct_answer": "y/x",
+    "explanation": "📖 এখানে Px, Qy, Rz দ্বারা Pˣ, Qʸ, Rᶻ বোঝানো হয়েছে।<br/>ধরি, Pˣ = Qʸ = Rᶻ = k।<br/>তাহলে, P = k¹/ˣ, Q = k¹/ʸ, R = k¹/ᶻ।<br/>দেওয়া আছে, Q/P = R/Q =&gt; Q² = PR।<br/>মান বসিয়ে পাই, (k¹/ʸ)² = (k¹/ˣ) × (k¹/ᶻ)<br/>=&gt; k²/ʸ = k⁽¹/ˣ ⁺ ¹/ᶻ⁾<br/>ভিত্তি (base) একই হওয়ায়, ঘাত (power) সমান হবে।<br/>=&gt; 2/y = 1/x + 1/z<br/>=&gt; 2/y = (z+x)/xz<br/>=&gt; y = 2xz / (x+z)<br/>এখন, আমাদের 2z/(x+z) এর মান বের করতে হবে।<br/>উপরের সমীকরণ থেকে পাই, x+z = 2xz/y<br/>সুতরাং, 2z/(x+z) = 2z / (2xz/y) = 2z × y / 2xz = y/x।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326603,
+    "question": "If a right-angled isosceles triangle has base 4cm, then height is:",
+    "options": [
+      "2cm",
+      "4cm",
+      "6cm",
+      "8cm"
+    ],
+    "correct_answer": "4cm",
+    "explanation": "📖 সমকোণী সমদ্বিবাহু ত্রিভুজের (right-angled isosceles triangle) সমকোণ সংলগ্ন বাহু দুটি (ভূমি ও উচ্চতা) সমান হয়। যেহেতু ভূমি ৪ সেমি, সুতরাং এর উচ্চতাও ৪ সেমি হবে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326604,
+    "question": "If&nbsp;\\({x}^{{2}}+{2}{x}{y}+{y}^{{2}}={25}\\)</u> and xy = 6, then x + y is:",
+    "options": [
+      "±5",
+      "±10",
+      "±13",
+      "±4"
+    ],
+    "correct_answer": "±5",
+    "explanation": "📖 প্রদত্ত সমীকরণটি হলো x² + 2xy + y² = 25।<br/>এটি (x + y)² এর সূত্র।<br/>সুতরাং, (x + y)² = 25<br/>উভয়পক্ষে বর্গমূল করে পাই,<br/>x + y = √25<br/>x + y = ±5।<br/>(এখানে xy = 6 তথ্যটি অপ্রয়োজনীয়)।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326605,
+    "question": "What is the LCM of 12, 15 and 20?",
+    "options": [
+      "60",
+      "120",
+      "180",
+      "240"
+    ],
+    "correct_answer": "60",
+    "explanation": "📖 ১২ = ২ × ২ × ৩<br/>১৫ = ৩ × ৫<br/>২০ = ২ × ২ × ৫<br/>লসাগু (LCM) হলো সকল মৌলিক উৎপাদকের সর্বোচ্চ ঘাতের গুণফল।<br/>লসাগু = ২² × ৩ × ৫ = ৪ × ৩ × ৫ = ৬০।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326606,
+    "question": "A can do a work in 20 days, and B in 30 days. They work together for 6 days. How much of the work is left?",
+    "options": [
+      "⅓",
+      "¼",
+      "½",
+      "⅖"
+    ],
+    "correct_answer": "½",
+    "explanation": "📖 A একদিনে কাজ করে = ১/২০ অংশ<br/>B একদিনে কাজ করে = ১/৩০ অংশ<br/>দুজনে একসাথে একদিনে কাজ করে = (১/২০ + ১/৩০) অংশ = (৩+২)/৬০ অংশ = ৫/৬০ = ১/১২ অংশ।<br/>দুজনে একসাথে ৬ দিনে কাজ করে = ৬ × (১/১২) = ৬/১২ = ১/২ অংশ।<br/>বাকি কাজের পরিমাণ = মোট কাজ - সম্পন্ন কাজ = ১ - ১/২ = ১/২ অংশ।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326607,
+    "question": "If measures of the angles in a triangle are in the ratio of 1:2:6, then the degree in the largest angle:",
+    "options": [
+      "20 ডিগ্রি",
+      "40 ডিগ্রি",
+      "90 ডিগ্রি",
+      "120 ডিগ্রি"
+    ],
+    "correct_answer": "120 ডিগ্রি",
+    "explanation": "📖 ধরি, ত্রিভুজের কোণগুলো হলো x, 2x, এবং 6x।<br/>আমরা জানি, ত্রিভুজের তিন কোণের সমষ্টি ১৮০°।<br/>সুতরাং, x + 2x + 6x = 180°<br/>=> 9x = 180°<br/>=> x = 180° / 9 = 20°<br/>বৃহত্তম কোণটি হলো 6x = 6 × 20° = 120°।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326608,
+    "question": "In a class of 78 students, 41 are taking French, 22 are taking German and 9 are taking both courses. How many students are not enrolled in either course?",
+    "options": [
+      "6",
+      "15",
+      "24",
+      "33"
+    ],
+    "correct_answer": "24",
+    "explanation": "📖 মোট ছাত্র-ছাত্রী = ৭৮<br/>শুধু ফ্রেঞ্চ নেয় = ৪১ - ৯ = ৩২ জন<br/>শুধু জার্মান নেয় = ২২ - ৯ = ১৩ জন<br/>উভয় বিষয় নেয় = ৯ জন<br/>যেকোনো একটি বা উভয় বিষয় নেয় এমন ছাত্র-ছাত্রীর সংখ্যা = ৩২ + ১৩ + ৯ = ৫৪ জন<br/>কোনো বিষয়ই নেয় না এমন ছাত্র-ছাত্রীর সংখ্যা = মোট ছাত্র-ছাত্রী - (যারা অন্তত একটি বিষয় নেয়)<br/>= ৭৮ - ৫৪ = ২৪ জন।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326609,
+    "question": "নিচের কোন বানানটি শুদ্ধ?",
+    "options": [
+      "শারীরীক",
+      "শারীরিক",
+      "শারিরিক",
+      "শারিরীক"
+    ],
+    "correct_answer": "শারীরিক",
+    "explanation": "📖 শুদ্ধ বানানটি হলো 'শারীরিক'। এটি 'শরীর' শব্দের সাথে 'ইক' প্রত্যয় যোগে গঠিত। নিয়ম অনুযায়ী, ইক প্রত্যয় যুক্ত হলে মূল শব্দের প্রথম স্বরের বৃদ্ধি ঘটে (অ থাকলে আ হয়), কিন্তু এখানে 'শরীর' শব্দের প্রথম স্বরে 'অ' না থাকায় কোনো পরিবর্তন হয়নি।<br/>▣ ‘শারীরিক’ শব্দটি ‘শরীর’ (দেহ) এবং ‘ইক’ প্রত্যয় থেকে গঠিত, যার অর্থ শরীর সম্পর্কিত। বাংলা ব্যাকরণে ‘ইক’ প্রত্যয় যোগে বিশেষণ গঠনের সময় মূল শব্দের বানান অক্ষুণ্ণ থাকে। ‘শারীরীক’ ও ‘শারিরীক’-এ অতিরিক্ত ‘ঈ’ ব্যবহৃত হয়েছে এবং ‘শারিরিক’-এ ভুল বানান। তাই ‘শারীরিক’ই শুদ্ধ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326610,
+    "question": "সামান্য বিরতি নির্দেশ করে কোন যতি চিহ্নটি?",
+    "options": [
+      "কমা",
+      "দাঁড়ি",
+      "সেমিকোলন",
+      "কোলন"
+    ],
+    "correct_answer": "কমা",
+    "explanation": "📖 বাক্যের মধ্যে স্বল্প বিরতির জন্য কমা (,) ব্যবহৃত হয়। দাঁড়ি (।) পূর্ণ বিরতি, সেমিকোলন (;) কমার চেয়ে বেশি কিন্তু দাঁড়ির চেয়ে কম বিরতি, এবং কোলন (:) উদাহরণ বা তালিকা দেওয়ার আগে ব্যবহৃত হয়।<br/>▣ কমা (,) বাক্যের মধ্যে শব্দ বা বাক্যাংশের মধ্যে সামান্য বিরতি নির্দেশ করে, যেমন তালিকা বা ব্যাখ্যামূলক অংশের ক্ষেত্রে। দাঁড়ি (।) বাক্যের সমাপ্তি, সেমিকোলন (;) সম্পর্কিত বাক্যাংশের মধ্যে বিরতি এবং কোলন (:) তালিকা বা ব্যাখ্যার পূর্বে ব্যবহৃত হয়। তাই কমাই সঠিক উত্তর।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326611,
+    "question": "‘নন্দিত’ এর বিপরীতার্থক শব্দ কোনটি?",
+    "options": [
+      "বিষণ্ণ",
+      "বিষাদ",
+      "প্রচ্ছন্ন",
+      "নিন্দিত"
+    ],
+    "correct_answer": "নিন্দিত",
+    "explanation": "📖 'নন্দিত' অর্থ প্রশংসিত বা আনন্দিত। এর সঠিক বিপরীত শব্দ হলো 'নিন্দিত', যার অর্থ নিন্দা করা হয়েছে এমন।<br/>▣ ‘নন্দিত’ (‘নন্দ’ থেকে, অর্থ আনন্দ বা প্রশংসা) অর্থ যিনি প্রশংসিত বা সম্মানিত। ‘নিন্দিত’ (‘নিন্দা’ থেকে) অর্থ যিনি নিন্দিত বা অপমানিত, যা এর সরাসরি বিপরীত। ‘বিষণ্ণ’ (দুঃখী), ‘বিষাদ’ (দুঃখ) এবং ‘প্রচ্ছন্ন’ (গোপন) এর সঙ্গে এর বিপরীতার্থক সম্পর্ক নেই।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326612,
+    "question": "আঘাত এর সমার্থক নয় কোনটি?",
+    "options": [
+      "প্রতিঘাত",
+      "ব্যথা",
+      "জ্বালা",
+      "যন্ত্রনা"
+    ],
+    "correct_answer": "প্রতিঘাত",
+    "explanation": "📖 'আঘাত' অর্থ চোট বা প্রহার। এর ফলে ব্যথা, জ্বালা, যন্ত্রণা অনুভূত হয়। তাই এগুলো সম্পর্কিত শব্দ। কিন্তু 'প্রতিঘাত' অর্থ পাল্টা আঘাত বা প্রতিরোধ, যা 'আঘাত' এর সমার্থক নয়।<br/>▣ ‘আঘাত’ শব্দের অর্থ প্রহার বা চোট। ‘ব্যথা’, ‘জ্বালা’, এবং ‘যন্ত্রণা’ আঘাতের ফলাফল বা সম্পর্কিত অর্থ বোঝায়। কিন্তু ‘প্রতিঘাত’ (‘প্রতি’ + ‘আঘাত’) অর্থ পাল্টা আঘাত বা প্রতিক্রিয়া, যা আঘাতের সমার্থক নয়, বরং একটি ভিন্ন ধারণা।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326613,
+    "question": "“আকাশ শব্দের সমার্থক কোনটি?",
+    "options": [
+      "ময়ূখ",
+      "অম্বর",
+      "নীলানু",
+      "বিভাবরী"
+    ],
+    "correct_answer": "অম্বর",
+    "explanation": "📖 আকাশ শব্দের সমার্থক শব্দগুলো হলো গগন, অম্বর, ব্যোম, নভঃ, অন্তরীক্ষ ইত্যাদি। 'ময়ূখ' অর্থ কিরণ এবং 'বিভাবরী' অর্থ রাত্রি।<br/>▣ ‘আকাশ’ শব্দটি সংস্কৃত ‘আকাশম্’ থেকে এসেছে, যার অর্থ গগন বা মহাশূন্য। ‘অম্বর’ এর সমার্থক শব্দ, যা আকাশ বা বস্ত্র বোঝাতেও ব্যবহৃত হয়। ‘ময়ূখ’ (কিরণ), ‘নীলানু’ (অপ্রচলিত শব্দ) এবং ‘বিভাবরী’ (রাত্রি) আকাশের সমার্থক নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326614,
+    "question": "অগ্নি শব্দের সমার্থক কোনটি?",
+    "options": [
+      "কৃশানু",
+      "ভানু",
+      "সবিতা",
+      "প্রভা"
+    ],
+    "correct_answer": "কৃশানু",
+    "explanation": "📖 অগ্নি শব্দের সমার্থক শব্দগুলো হলো অনল, পাবক, আগুন, বহ্নি, হুতাশন, কৃশানু ইত্যাদি। 'ভানু' ও 'সবিতা' সূর্যের সমার্থক শব্দ।<br/>▣ ‘অগ্নি’ শব্দের অর্থ আগুন, এবং এর সমার্থক শব্দ হলো ‘কৃশানু’ (অগ্নির সংস্কৃত সমার্থক), অনল, বহ্নি প্রভৃতি। ‘ভানু’ ও ‘সবিতা’ সূর্যের সমার্থক, এবং ‘প্রভা’ অর্থ উজ্জ্বলতা বা আলো, যা অগ্নির সঠিক সমার্থক নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326615,
+    "question": "বিভক্তিহীন নাম শব্দকে কী বলে? বলে?",
+    "options": [
+      "প্রাতিপাদিক",
+      "প্রতিপাদিক",
+      "ধাপাদিক",
+      "নৃপাদিক"
+    ],
+    "correct_answer": "প্রাতিপাদিক",
+    "explanation": "📖 বিভক্তিহীন নাম শব্দ বা ধাতুকে প্রাতিপাদিক বলা হয়। যেমন: 'কলম' একটি প্রাতিপাদিক, কিন্তু 'কলমটি' বা 'কলমের' প্রাতিপাদিক নয়।<br/>▣ প্রাতিপাদিক হলো বিশেষ্য, সর্বনাম বা ধাতুর মূল রূপ, যার সঙ্গে বিভক্তি যুক্ত হয়ে পদ গঠিত হয়। উদাহরণস্বরূপ, ‘গাছ’ একটি প্রাতিপাদিক, কিন্তু ‘গাছের’ (গাছ+এর) প্রাতিপাদিক নয়। ‘প্রতিপাদিক’, ‘ধাপাদিক’, ‘নৃপাদিক’ বাংলা ব্যাকরণে প্রচলিত শব্দ নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326616,
+    "question": "যে সব পদের সাহায্যে মনোভাব সম্পূর্ণরূপে প্রকাশ পায় তাকে কি বলে?",
+    "options": [
+      "কারক",
+      "শব্দ",
+      "বাক্য",
+      "বিভক্তি"
+    ],
+    "correct_answer": "বাক্য",
+    "explanation": "📖 এক বা একাধিক পদের সমন্বয়ে গঠিত যে শব্দসমষ্টি বক্তার মনোভাব সম্পূর্ণরূপে প্রকাশ করে, তাকে বাক্য বলে। এটি বাক্যের সংজ্ঞা।<br/>▣ বাক্য হলো এমন শব্দসমষ্টি যা একটি সম্পূর্ণ অর্থ বা মনোভাব প্রকাশ করে এবং সাধারণত একটি উদ্দেশ্য ও বিধেয় থাকে। উদাহরণস্বরূপ, “আমি খুশি” একটি বাক্য যা একটি সম্পূর্ণ ভাব প্রকাশ করে। কারক, শব্দ বা বিভক্তি আলাদাভাবে এই কাজ করে না।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326617,
+    "question": "সচেষ্ট শব্দের বিপরীতার্থক শব্দ কোনটি?",
+    "options": [
+      "প্রচেষ্টা",
+      "যথেষ্ট",
+      "নিরত",
+      "নিশ্চেষ্ট"
+    ],
+    "correct_answer": "নিশ্চেষ্ট",
+    "explanation": "📖 'সচেষ্ট' অর্থ চেষ্টাযুক্ত বা সক্রিয়। এর সঠিক বিপরীত শব্দ হলো 'নিশ্চেষ্ট', যার অর্থ চেষ্টাহীন বা নিষ্ক্রিয়।<br/>▣ ‘সচেষ্ট’ শব্দটি ‘স’ (সম্পন্ন) এবং ‘চেষ্টা’ (প্রয়াস) থেকে গঠিত, যার অর্থ সক্রিয়ভাবে চেষ্টাশীল। ‘নিশ্চেষ্ট’ (‘নিঃ’ + ‘চেষ্টা’, অর্থাৎ চেষ্টার অভাব) এর ঠিক বিপরীত অর্থ প্রকাশ করে। ‘প্রচেষ্টা’ (বড় চেষ্টা), ‘যথেষ্ট’ (পর্যাপ্ত) এবং ‘নিরত’ (নিয়োজিত) বিপরীতার্থক নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326618,
+    "question": "যে ব্যক্তির দুহাত সমান চলে – তাকে এক কথায় কি বলে?",
+    "options": [
+      "দোহাতী",
+      "কুশাল",
+      "দ্বিজ",
+      "সব্যসাচী"
+    ],
+    "correct_answer": "সব্যসাচী",
+    "explanation": "📖 যে ব্যক্তি তার উভয় হাত সমান দক্ষতায় ব্যবহার করতে পারে, তাকে এক কথায় 'সব্যসাচী' বলা হয়।<br/>▣ ‘সব্যসাচী’ শব্দটি সংস্কৃত ‘সব্য’ (বাম) এবং ‘সাচী’ (ধনুকধারী) থেকে এসেছে, যার অর্থ যিনি উভয় হাতে সমান দক্ষতার সঙ্গে ধনুক চালাতে পারেন। এটি মহাভারতের অর্জুনের একটি উপাধি ছিল। অন্যান্য অপশন যেমন ‘দোহাতী’ (অপ্রচলিত), ‘কুশল’ (দক্ষ) বা ‘দ্বিজ’ (ব্রাহ্মণ) এই অর্থ প্রকাশ করে না।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326619,
+    "question": "জগতে অসম্ভব বলে কিছু নেই – গঠন অনুসারে এটি কোন বাক্য?",
+    "options": [
+      "জটিল",
+      "সরল",
+      "যৌগিক",
+      "মিশ্র"
+    ],
+    "correct_answer": "সরল",
+    "explanation": "📖 যে বাক্যে একটি মাত্র কর্তা (উদ্দেশ্য) এবং একটি মাত্র সমাপিকা ক্রিয়া (বিধেয়) থাকে, তাকে সরল বাক্য বলে। এই বাক্যে একটিই সমাপিকা ক্রিয়া ('নেই') রয়েছে। তাই এটি একটি সরল বাক্য।<br/>▣ সরল বাক্যে একটি মাত্র উদ্দেশ্য এবং একটি মাত্র বিধেয় থাকে, যা একটি সম্পূর্ণ অর্থ প্রকাশ করে। ‘জগতে অসম্ভব বলে কিছু নেই’ বাক্যে ‘কিছু’ উদ্দেশ্য এবং ‘নেই’ বিধেয়। এটি একটি একক বাক্যাংশ, তাই সরল বাক্য। যৌগিক বাক্যে একাধিক সমানাধিকরণ বাক্যাংশ থাকে, মিশ্র বাক্যে প্রধান ও অধীন বাক্যাংশ থাকে এবং জটিল বাক্য সাধারণত মিশ্র বাক্যেরই একটি রূপ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326620,
+    "question": "পাশাপাশি অবস্থিত দুটো ধ্বনির মিলনে এক ধ্বনি সৃষ্টি হওয়াকে কি বলে?",
+    "options": [
+      "স্বরসন্ধি",
+      "সন্ধি",
+      "ব্যঞ্জন সন্ধি",
+      "বিসর্গ সন্ধি"
+    ],
+    "correct_answer": "সন্ধি",
+    "explanation": "📖 এটি সন্ধির সংজ্ঞা। দুটি সন্নিহিত ধ্বনির মিলনকে সন্ধি বলে। স্বরসন্ধি, ব্যঞ্জন সন্ধি ও বিসর্গ সন্ধি হলো সন্ধির প্রকারভেদ।<br/>▣ সন্ধি হলো দুটি পাশাপাশি ধ্বনির (স্বর বা ব্যঞ্জন) মিলনের ফলে তাদের পরিবর্তন বা একীভূত হওয়া। উদাহরণস্বরূপ, ‘দিবা’ + ‘অকর’ = ‘দিবাকর’ (স্বরসন্ধি)। স্বরসন্ধি, ব্যঞ্জন সন্ধি এবং বিসর্গ সন্ধি হলো সন্ধির বিভিন্ন প্রকার। তাই ‘সন্ধি’ই এখানে সঠিক সাধারণ উত্তর।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326621,
+    "question": "কোনটি সংগীত শব্দের সঠিক সন্ধি বিচ্ছেদ?",
+    "options": [
+      "সম্‌+গীত",
+      "সং+গীত",
+      "সংগী+ত",
+      "সংগ+ইত"
+    ],
+    "correct_answer": "সম্‌+গীত",
+    "explanation": "📖 এটি ব্যঞ্জন সন্ধির একটি নিয়ম। ম্-এর পরে বর্গীয় ধ্বনি (ক থেকে ম পর্যন্ত) থাকলে ম্ সেই বর্গের পঞ্চম ধ্বনিতে (ঙ, ঞ, ণ, ন, ম) পরিণত হয় অথবা অনুস্বার (ং) হয়। এখানে সম্ + গীত = সংগীত।<br/>▣ ‘সংগীত’ শব্দটি ‘সম্’ (উপসর্গ) এবং ‘গীত’ (গান) থেকে গঠিত। ব্যঞ্জন সন্ধির নিয়মandoli: ‘সম্’ এর ‘ম্’ এবং ‘গীত’-এর ‘গ’ একত্রিত হয়ে ‘ম্’ গ-বর্গের পঞ্চম ব্যঞ্জন ‘ঙ’-এ পরিণত হয়, ফলে ‘সংগীত’। অন্যান্য অপশনগুলো এই নিয়মের সঙ্গে সামঞ্জস্যপূর্ণ নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326622,
+    "question": "মা রান্না করছেন- এখানে করছেন কোন ক্রিয়া?",
+    "options": [
+      "সকর্মক",
+      "অকর্মক",
+      "সমাপিকা",
+      "অসমাপিকা"
+    ],
+    "correct_answer": "সকর্মক",
+    "explanation": "📖 যে ক্রিয়াপদ দ্বারা বাক্যের অর্থ সম্পূর্ণভাবে প্রকাশ পায়, তাকে সমাপিকা ক্রিয়া বলে। 'করছেন' ক্রিয়াপদটি দ্বারা 'মা রান্না করছেন' বাক্যটির অর্থ সম্পূর্ণ হয়েছে। তাই এটি সমাপিকা ক্রিয়া। (উল্লেখ্য, এটি একটি সকর্মক ক্রিয়াও বটে, কারণ এর কর্ম 'রান্না' আছে, কিন্তু অপশনগুলোর মধ্যে সমাপিকা সবচেয়ে উপযুক্ত)।<br/>▣ সমাপিকা ক্রিয়া হলো এমন ক্রিয়া যা বাক্যের অর্থ সম্পূর্ণ করে এবং স্বাধীনভাবে বাক্যে ব্যবহৃত হয়। ‘করছেন’ একটি সমাপিকা ক্রিয়া, কারণ এটি বাক্যের অর্থ পূর্ণ করে। এটি সকর্মকও, কারণ ‘রান্না’ এর কর্ম রয়েছে। তবে প্রশ্নে সমাপিকা বা অসমাপিকার প্রেক্ষাপটে ‘সমাপিকা’ই সঠিক উত্তর। অসমাপিকা ক্রিয়া (যেমন, করে, করিয়া) অসম্পূর্ণ অর্থ প্রকাশ করে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326623,
+    "question": "ভাষার ক্ষুদ্রতম উপাদান কোনটি?",
+    "options": [
+      "অক্ষর",
+      "শব্দ",
+      "বাক্য",
+      "ধ্বনি"
+    ],
+    "correct_answer": "ধ্বনি",
+    "explanation": "📖 ভাষার মূল ভিত্তি হলো ধ্বনি। কয়েকটি ধ্বনি মিলে শব্দ এবং কয়েকটি শব্দ মিলে বাক্য তৈরি হয়। তাই ভাষার ক্ষুদ্রতম মৌলিক উপাদান হলো ধ্বনি।<br/>▣ ভাষার ক্ষুদ্রতম একক হলো ধ্বনি, যা উচ্চারণের মাধ্যমে উৎপন্ন হয় এবং শব্দ গঠনের ভিত্তি হিসেবে কাজ করে। ধ্বনি থেকে অক্ষর (বর্ণ), অক্ষর থেকে শব্দ এবং শব্দ থেকে বাক্য গঠিত হয়। উদাহরণস্বরূপ, ‘ক’ একটি ধ্বনি, যা ‘কলম’ শব্দের অংশ। তাই ধ্বনিই ভাষার মৌলিক উপাদান।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326624,
+    "question": "ধাতুর সঙ্গে কী যুক্ত হয়ে ক্রিয়া হয়?",
+    "options": [
+      "বিভক্তি",
+      "অনুসর্গ",
+      "উপসর্গ",
+      "প্রত্যয়"
+    ],
+    "correct_answer": "বিভক্তি",
+    "explanation": "📖 ক্রিয়ার মূল অংশকে ধাতু বলে। এই ধাতুর সঙ্গে কাল ও পুরুষ অনুযায়ী ক্রিয়া বিভক্তি যুক্ত হয়ে ক্রিয়াপদ গঠিত হয়। যেমন: কর্ (ধাতু) + ছেন (বিভক্তি) = করছেন (ক্রিয়াপদ)।<br/>▣ ধাতু হলো ক্রিয়ার মূল বা মৌলিক অংশ, যা ক্রিয়ার মূল অর্থ বহন করে। যেমন, ‘কর্’ ধাতুতে ‘কাজ করা’ অর্থ নিহিত। এই ধাতুর সঙ্গে ক্রিয়া বিভক্তি (যেমন, -ছি, -ছেন, -লাম) যুক্ত হয়ে ক্রিয়ার পূর্ণাঙ্গ রূপ তৈরি হয়। উপসর্গ ক্রিয়ার অর্থ পরিবর্তন করে, প্রত্যয় নামপদ গঠনে ব্যবহৃত হয় এবং অনুসর্গ বিশেষ্যের সঙ্গে সম্পর্ক স্থাপন করে। তাই বিভক্তিই এখানে সঠিক।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326625,
+    "question": "সন্ধিতে কিসের সংকোচন হয়?",
+    "options": [
+      "পদের",
+      "বাক্যের",
+      "শব্দের",
+      "ধ্বনির"
+    ],
+    "correct_answer": "ধ্বনির",
+    "explanation": "📖 সন্ধি হলো দুটি সন্নিহিত ধ্বনির মিলন। এতে উচ্চারণের সুবিধার জন্য দুটি ধ্বনি সংকুচিত হয়ে একটি ধ্বনিতে পরিণত হয়। তাই সন্ধিতে ধ্বনির সংকোচন হয়।<br/>▣ সন্ধি হলো বাংলা বা সংস্কৃত ভাষায় দুটি পাশাপাশি ধ্বনির (স্বরধ্বনি বা ব্যঞ্জনধ্বনি) মিলনের ফলে তাদের রূপান্তর বা সংকোচন। উদাহরণস্বরূপ, ‘বিদ্যা’ + ‘আলয়’ = ‘বিদ্যালয়’। এখানে ‘আ’ ও ‘আ’ ধ্বনি মিলে ‘আ’ ধ্বনিতে সংকুচিত হয়েছে। পদ বা শব্দের সংকোচন সন্ধির উদ্দেশ্য নয়, বরং ধ্বনির সংকোচনই এর মূল লক্ষ্য।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326626,
+    "question": "নিচের কোনটি বিশেষণ পদ?",
+    "options": [
+      "বুদ্ধিমান",
+      "ঢাকা",
+      "বৃদ্ধি",
+      "সংযোজন"
+    ],
+    "correct_answer": "বুদ্ধিমান",
+    "explanation": "📖 যে পদ অন্য পদের দোষ, গুণ, অবস্থা, সংখ্যা, পরিমাণ ইত্যাদি প্রকাশ করে, তাকে বিশেষণ পদ বলে। 'বুদ্ধিমান' শব্দটি কোনো ব্যক্তি বা বিশেষ্যের গুণ প্রকাশ করে (যেমন: বুদ্ধিমান ছেলে)। তাই এটি বিশেষণ পদ। 'ঢাকা' বিশেষ্য (নাম), 'বৃদ্ধি' বিশেষ্য (ভাব), 'সংযোজন' বিশেষ্য (ভাব)।<br/>▣ বিশেষণ হলো এমন শব্দ যা বিশেষ্য বা সর্বনামের গুণ, পরিমাণ, অবস্থা বা সংখ্যা বর্ণনা করে। ‘বুদ্ধিমান’ একটি গুণবাচক বিশেষণ, যা কোনো ব্যক্তির বুদ্ধির গুণ বোঝায়। ‘ঢাকা’ একটি স্থানবাচক বিশেষ্য, ‘বৃদ্ধি’ ও ‘সংযোজন’ ভাববাচক বিশেষ্য। তাই শুধুমাত্র ‘বুদ্ধিমান’ এখানে বিশেষণ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326627,
+    "question": "‘অন্তরীক্ষ’ শব্দের প্রকৃত অর্থ কী?",
+    "options": [
+      "মনের গভীরতা",
+      "অন্তস্থ স্থ্যন",
+      "মহাশূন্য",
+      "আকাশের নিচে"
+    ],
+    "correct_answer": "মহাশূন্য",
+    "explanation": "📖 'অন্তরীক্ষ' শব্দের অর্থ হলো আকাশ, গগন বা পৃথিবী ও আকাশের মধ্যবর্তী স্থান, অর্থাৎ মহাশূন্য।<br/>▣ ‘অন্তরীক্ষ’ শব্দটি সংস্কৃত ‘অন্তর’ (মধ্যবর্তী) এবং ‘ঈক্ষ’ (দেখা বা স্থান) থেকে উদ্ভূত, যা পৃথিবী ও নাক্ষত্রিক জগতের মধ্যবর্তী স্থান বা মহাশূন্যকে বোঝায়। এটি আকাশ বা গগনের সমার্থক হিসেবে ব্যবহৃত হয়। অন্যান্য অপশন যেমন ‘মনের গভীরতা’ (অভিধানিক অর্থ নয়), ‘অন্তস্থ স্থ্যন’ (অস্তিত্বহীন বা ভুল) এবং ‘আকাশের নিচে’ (অন্তরীক্ষের সঠিক অর্থ নয়) প্রযোজ্য নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326628,
+    "question": "‘অজর’ শব্দের প্রকৃত অর্থ কী?",
+    "options": [
+      "অস্থির",
+      "র্কাপনহীন",
+      "চিরসবুজ",
+      "বার্ধক্যহীন"
+    ],
+    "correct_answer": "বার্ধক্যহীন",
+    "explanation": "📖 'অজর' শব্দটি 'অ' (নাই) + 'জরা' (বার্ধক্য) থেকে এসেছে। সুতরাং, 'অজর' শব্দের অর্থ হলো যার জরা বা বার্ধক্য নেই, অর্থাৎ বার্ধক্যহীন।<br/>▣ ‘অজর’ শব্দটি সংস্কৃত ‘অ’ (নঞ্ তৎপুরুষ, অর্থাৎ না) এবং ‘জরা’ (বৃদ্ধাবস্থা বা বার্ধক্য) থেকে গঠিত। এটি এমন কিছু বা কাউকে বোঝায় যার বার্ধক্য নেই, অর্থাৎ চিরযৌবনপ্রাপ্ত। অন্যান্য অপশন যেমন ‘অস্থির’ (চঞ্চল), ‘র্কাপনহীন’ (কৃপণতাহীন, যা ভুল বানান), বা ‘চিরসবুজ’ (সর্বদা সতেজ) এর সঙ্গে অর্থগত মিল নেই।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326629,
+    "question": "‘যিনি বিদ্যা লাভ করেছেন’-তাকে এক কথায় কী বলে?",
+    "options": [
+      "কৃতবিদ্যা",
+      "জ্ঞানী",
+      "বিদ্বান",
+      "সর্বজ্ঞানী"
+    ],
+    "correct_answer": "কৃতবিদ্যা",
+    "explanation": "📖 'যিনি বিদ্যা লাভ করেছেন'— এই বাক্যটির এক কথায় প্রকাশ হলো 'কৃতবিদ্য'।<br/>▣ ‘কৃতবিদ্যা’ শব্দটি ‘কৃত’ (সম্পন্ন) এবং ‘বিদ্যা’ (জ্ঞান) থেকে গঠিত, যার অর্থ যিনি বিদ্যা অর্জন করেছেন। এটি সুনির্দিষ্টভাবে বাক্যটির অর্থ প্রকাশ করে। ‘জ্ঞানী’ ও ‘বিদ্বান’ বুদ্ধিমান বা শিক্ষিত ব্যক্তিকে বোঝায়, তবে এগুলো সাধারণ অর্থে ব্যবহৃত হয় এবং ‘সর্বজ্ঞানী’ সব বিষয়ে জ্ঞানী ব্যক্তিকে বোঝায়, যা প্রশ্নের সঙ্গে সামঞ্জস্যপূর্ণ নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326630,
+    "question": "‘জলধি’ কোন শব্দ?",
+    "options": [
+      "যৌগিক",
+      "মৌলিক",
+      "রুঢ়ি",
+      "যোগরূঢ়"
+    ],
+    "correct_answer": "যোগরূঢ়",
+    "explanation": "📖 যে সকল শব্দের ব্যুৎপত্তিগত অর্থ ও প্রচলিত অর্থ ভিন্ন না হয়ে একই থাকে কিন্তু একটি নির্দিষ্ট অর্থে ব্যবহৃত হয়, তাদের যোগরূঢ় শব্দ বলে। 'জলধি' শব্দের ব্যুৎপত্তিগত অর্থ 'জল ধারণ করে যা', এই অর্থে পুকুর, নদী সবই বোঝাতে পারত। কিন্তু এটি শুধু 'সমুদ্র' অর্থে ব্যবহৃত হয়। তাই এটি যোগরূঢ় শব্দ।<br/>▣ ‘জলধি’ শব্দটি ‘জল’ ও ‘ধি’ (ধারণকারী) থেকে গঠিত, যার ব্যুৎপত্তিগত অর্থ ‘জল ধারণকারী’। তবে এটি শুধুমাত্র ‘সমুদ্র’ বোঝাতে ব্যবহৃত হয়, অন্য জলাশয় যেমন পুকুর বা নদীর ক্ষেত্রে নয়। এই নির্দিষ্ট অর্থে ব্যবহারের কারণে এটি যোগরূঢ় শব্দ। যৌগিক শব্দে অর্থ সাধারণ থাকে, মৌলিক শব্দ স্বাধীনভাবে গঠিত হয় এবং রুঢ়ি শব্দের ব্যুৎপত্তিগত অর্থ প্রচলিত অর্থ থেকে ভিন্ন হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326631,
+    "question": "‘আশীবিষ’ কোন বহুব্রীহি সমাসের উদাহরণ?",
+    "options": [
+      "ব্যধিকরণ",
+      "সমানাধিকরণ",
+      "ব্যতিহার",
+      "প্রত্যয়্যন্ত"
+    ],
+    "correct_answer": "ব্যধিকরণ",
+    "explanation": "📖 আশীবিষ-এর ব্যাসবাক্য হলো 'আশীতে (দাঁতে) বিষ যার'। এখানে পূর্বপদ 'আশীতে' বিভক্তিযুক্ত এবং পরপদ 'বিষ' প্রথমা বিভক্তিযুক্ত। বহুব্রীহি সমাসে পূর্বপদ ও পরপদ ভিন্ন বিভক্তিযুক্ত হলে তাকে ব্যধিকরণ বহুব্রীহি সমাস বলে।<br/>▣ বহুব্রীহি সমাসে দুটি পদ মিলে তৃতীয় একটি পদ বোঝায়। ‘আশীবিষ’ শব্দে ‘আশী’ (সাপের দাঁত) ও ‘বিষ’ পদ দুটি মিলে একটি নতুন অর্থ (বিষাক্ত সাপ) প্রকাশ করে। যেহেতু পূর্বপদ ও পরপদ ভিন্ন বিভক্তিতে রয়েছে (‘আশীতে’ সপ্তমী এবং ‘বিষ’ প্রথমা), তাই এটি ব্যধিকরণ বহুব্রীহি। সমানাধিকরণে উভয় পদ একই বিভক্তিতে থাকে, যা এখানে প্রযোজ্য নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326632,
+    "question": "‘দুঃখ বিনা সুখ লাভ হয় কি মহীতে’- এখানে বিনা কি?",
+    "options": [
+      "উপসর্গ",
+      "অনুসর্গ",
+      "বিভক্তি",
+      "কারক"
+    ],
+    "correct_answer": "অনুসর্গ",
+    "explanation": "📖 'বিনা' একটি অনুসর্গ বা পদান্বয়ী অব্যয়। যে সকল অব্যয় শব্দ বিশেষ্য বা সর্বনাম পদের পরে বসে শব্দটিকে বাক্যের সাথে সম্পর্কিত করে, তাদের অনুসর্গ বলে। এখানে 'বিনা' শব্দটি 'দুঃখ' পদের পরে বসেছে।<br/>▣ বাংলা ব্যাকরণে অনুসর্গ হলো এমন অব্যয় যা বিশেষ্য বা সর্বনামের সঙ্গে যুক্ত হয়ে তাদের অন্য পদের সঙ্গে সম্পর্ক স্থাপন করে। ‘বিনা’ শব্দটি এখানে ‘দুঃখ’ শব্দের সঙ্গে যুক্ত হয়ে ‘ব্যতীত’ বা ‘ছাড়া’ অর্থ প্রকাশ করছে। উপসর্গ ক্রিয়ার সঙ্গে, বিভক্তি বিশেষ্য বা সর্বনামের শেষে এবং কারক শব্দের ভূমিকা নির্দেশ করে, তাই এগুলো এখানে প্রযোজ্য নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326633,
+    "question": "নিচের কোন বানানটি শুদ্ধ?",
+    "options": [
+      "নীরিহ",
+      "নিরিহ",
+      "নিরীহ",
+      "নীরীহ"
+    ],
+    "correct_answer": "নিরীহ",
+    "explanation": "📖 শুদ্ধ বানানটি হলো 'নিরীহ'। এটি ন্+ই+র্+ঈ+হ্+অ দ্বারা গঠিত। এর অর্থ হলো অহিংস, শান্ত বা যার কোনো ক্ষতি করার ইচ্ছা নেই।<br/>▣ 'নিরীহ' শব্দটি সংস্কৃত ‘নিরী’ (নিঃ+ঈ) থেকে উদ্ভূত, যার অর্থ ক্ষতি বা হিংসার অভাব। এটি বাংলা ভাষায় অহিংস বা নির্দোষ ব্যক্তি বা প্রাণীকে বোঝাতে ব্যবহৃত হয়। অন্যান্য বিকল্পগুলোর মধ্যে ‘নীরিহ’ ও ‘নিরিহ’ ভুল বানান এবং ‘নীরীহ’-এ দীর্ঘ ‘ঈ’-এর অতিরিক্ত ব্যবহার রয়েছে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326634,
+    "question": "appropriate phrase: Elephant in the room",
+    "options": [
+      "large company",
+      "big investment",
+      "obvious issue",
+      "negotiation"
+    ],
+    "correct_answer": "obvious issue",
+    "explanation": "📖 'Elephant in the room' একটি idiom যা দ্বারা এমন একটি বড় ও স্পষ্ট সমস্যাকে বোঝানো হয় যা সবাই জানে কিন্তু আলোচনা করতে চায় না বা এড়িয়ে চলে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326635,
+    "question": "appropriate phrase: Call it a day",
+    "options": [
+      "start working",
+      "finish working",
+      "take a break",
+      "work overtime"
+    ],
+    "correct_answer": "finish working",
+    "explanation": "📖 'Call it a day' একটি idiom যার অর্থ দিনের মতো কাজ শেষ করা বা কোনো কাজ করা বন্ধ করা।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326636,
+    "question": "correct sentence: The prices of essentials [has risen] unexpectedly, causing a lot of hardship to the common people.",
+    "options": [
+      "has risen",
+      "has been rising",
+      "have risen",
+      "have rose"
+    ],
+    "correct_answer": "have risen",
+    "explanation": "📖 এই বাক্যের মূল subject হলো 'The prices', যা plural। তাই verb-ও plural হতে হবে। 'have risen' হলো সঠিক plural present perfect form। 'rose' হলো simple past এবং 'risen' হলো past participle।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326637,
+    "question": "correct sentence: The committee, along with the CEO, [have decided] to postpone the meeting until next week.",
+    "options": [
+      "have decided",
+      "has decided",
+      "are deciding",
+      "were deciding"
+    ],
+    "correct_answer": "has decided",
+    "explanation": "📖 যখন দুটি subject 'along with', 'with', 'as well as' ইত্যাদি দ্বারা যুক্ত হয়, তখন verb প্রথম subject অনুযায়ী বসে। এখানে প্রথম subject হলো 'The committee', যা একটি singular collective noun। তাই verb-ও singular হবে, অর্থাৎ 'has decided'।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326638,
+    "question": "correct sentence: The man [to who I sold] my house was a gentleman.",
+    "options": [
+      "to whom I sell",
+      "to who I sell",
+      "who was sold to",
+      "to whom I sold"
+    ],
+    "correct_answer": "to whom I sold",
+    "explanation": "📖 Preposition ('to') এর object হিসেবে 'whom' ব্যবহৃত হয়, 'who' নয়। 'who' subject হিসেবে ব্যবহৃত হয়। যেহেতু লোকটি আমার দ্বারা বিক্রির object, তাই 'to whom I sold' সঠিক।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326639,
+    "question": "correct sentence: They reached the cinema early [so as they might] get a good seat.",
+    "options": [
+      "so that they might",
+      "for as they may",
+      "in order to they might",
+      "so as they"
+    ],
+    "correct_answer": "so that they might",
+    "explanation": "📖 উদ্দেশ্য (purpose) বোঝাতে 'so that' conjunction-টি ব্যবহৃত হয়। এর গঠন হলো: so that + subject + modal verb (may/might/can/could)। 'in order to' এর পর verb এর base form বসে, subject বসে না। তাই 'so that they might' সঠিক।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326640,
+    "question": "Karim displayed an air of ........... when the officer asked him knew the speed limit.",
+    "options": [
+      "omniscience",
+      "obstinacy",
+      "nescience",
+      "platitude"
+    ],
+    "correct_answer": "nescience",
+    "explanation": "📖 বাক্যটির অর্থ অনুযায়ী, করিম গতিসীমা জানত না এমন একটি ভাব প্রকাশ করেছিল। 'Nescience' শব্দের অর্থ অজ্ঞতা বা জ্ঞানের অভাব, যা এখানে প্রাসঙ্গিক। 'Omniscience' অর্থ সর্বজ্ঞতা, যা বিপরীত। 'Obstinacy' অর্থ একগুঁয়েমি। 'Platitude' অর্থ মামুলি উক্তি।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326641,
+    "question": "I sat ........... on the couch and watched a documentary.",
+    "options": [
+      "comfortable",
+      "quiet",
+      "comfortably",
+      "silent"
+    ],
+    "correct_answer": "comfortably",
+    "explanation": "📖 এখানে verb 'sat' (বসা) কে modify করার জন্য একটি adverb প্রয়োজন। 'comfortable' একটি adjective, এর adverb form হলো 'comfortably' (আরামদায়কভাবে)। তাই সঠিক উত্তর comfortably।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326642,
+    "question": "........... sugar do you want in your tea?",
+    "options": [
+      "How much",
+      "How many",
+      "What many",
+      "What"
+    ],
+    "correct_answer": "How much",
+    "explanation": "📖 'Sugar' একটি uncountable noun (যা গণনা করা যায় না)। Uncountable noun-এর পরিমাণ জানতে 'How much' ব্যবহৃত হয়। Countable noun (যা গণনা করা যায়) এর জন্য 'How many' ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326643,
+    "question": "........... summer, I get up early ........... Sunday mornings.",
+    "options": [
+      "In/in",
+      "At/on",
+      "In/on",
+      "On/in"
+    ],
+    "correct_answer": "In/on",
+    "explanation": "📖 ঋতু (season) যেমন summer, winter এর আগে 'in' বসে। সপ্তাহের নির্দিষ্ট দিনের (day) নামের আগে 'on' বসে। তাই 'In summer' এবং 'on Sunday mornings' সঠিক ব্যবহার।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326644,
+    "question": "You should not ........... back with your teachers.",
+    "options": [
+      "talk",
+      "talks",
+      "had talked",
+      "had"
+    ],
+    "correct_answer": "talk",
+    "explanation": "📖 Modal verb (can, could, may, might, should, must ইত্যাদি) এর পরে সর্বদা verb-এর base form (V1) বসে। এখানে 'should' একটি modal verb, তাই এর পরে 'talk' বসবে। 'talk back' একটি phrasal verb যার অর্থ মুখে মুখে তর্ক করা।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326645,
+    "question": "The concert was cancelled ...........the heavy rain.",
+    "options": [
+      "owing to",
+      "because",
+      "because of",
+      "due to"
+    ],
+    "correct_answer": "because of",
+    "explanation": "📖 'due to' এবং 'because of' উভয়ই কারণ বোঝাতে ব্যবহৃত হয়। তবে verb 'to be' (was) এর পর কারণ দর্শাতে 'due to' ব্যবহার করা অধিক প্রচলিত ও ব্যাকরণসম্মত। 'due to' একটি adjective phrase হিসেবে কাজ করে যা 'cancellation' কে modify করে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326646,
+    "question": "I prefer coffee ............. tea.",
+    "options": [
+      "Rather than",
+      "rather more that",
+      "relative than",
+      "to"
+    ],
+    "correct_answer": "to",
+    "explanation": "📖 'prefer' verb-টির পর দুটি জিনিসের মধ্যে তুলনা করার জন্য preposition 'to' ব্যবহৃত হয়। গঠনটি হলো: prefer + noun + to + noun। তাই 'I prefer coffee to tea' সঠিক বাক্য।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326647,
+    "question": "correctly spelt:",
+    "options": [
+      "precinct",
+      "presinct",
+      "prisinct",
+      "precinct"
+    ],
+    "correct_answer": "precinct",
+    "explanation": "📖 'precinct' হলো সঠিক বানান, যার অর্থ এলাকা বা চৌহদ্দি।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326648,
+    "question": "correctly spelt:",
+    "options": [
+      "ridiculous",
+      "rediculous",
+      "ridiculus",
+      "ridiculas"
+    ],
+    "correct_answer": "ridiculous",
+    "explanation": "📖 'ridiculous' হলো সঠিক বানান, যার অর্থ হাস্যকর বা অযৌক্তিক।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326649,
+    "question": "Correct Synonym: Jingoism",
+    "options": [
+      "nepotism",
+      "altruism",
+      "chauvinism",
+      "solecism"
+    ],
+    "correct_answer": "chauvinism",
+    "explanation": "📖 Jingoism শব্দের অর্থ উগ্র দেশপ্রেম বা যুদ্ধংদেহী মনোভাব। এর সঠিক সমার্থক শব্দ হলো chauvinism, যার অর্থও অন্ধ বা উগ্র স্বদেশপ্রেম।<br/>Option Analysis:<br/>❏ nepotism: (স্বজনপ্রীতি) ➺ এটি সম্পর্কিত নয়।<br/>❏ altruism: (পরার্থপরতা) ➺ এটি বিপরীত ধারণা।<br/>❏ chauvinism: (উগ্র স্বদেশপ্রেম) ➺ এটি Jingoism এর সঠিক সমার্থক শব্দ।<br/>❏ solecism: (ভাষাগত ভুল) ➺ এটি সম্পর্কিত নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326650,
+    "question": "Correct Synonym: Auspicious",
+    "options": [
+      "tenacious",
+      "prolific",
+      "propitious",
+      "dubious"
+    ],
+    "correct_answer": "propitious",
+    "explanation": "📖 Auspicious শব্দের অর্থ শুভ, মঙ্গলজনক বা অনুকূল। এর সঠিক সমার্থক শব্দ হলো propitious, যার অর্থও অনুকূল বা শুভ।<br/>Option Analysis:<br/>❏ tenacious: (নাছোড়বান্দা) ➺ এটি সম্পর্কিত নয়।<br/>❏ prolific: (প্রচুর উৎপাদনশীল) ➺ এটি সম্পর্কিত নয়।<br/>❏ propitious: (অনুকূল) ➺ এটি Auspicious এর সঠিক সমার্থক শব্দ।<br/>❏ dubious: (সন্দেহজনক) ➺ এটি বিপরীতার্থক হতে পারে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326651,
+    "question": "Correct Synonym: Ameliorate",
+    "options": [
+      "worsen",
+      "improve",
+      "neglect",
+      "reject"
+    ],
+    "correct_answer": "improve",
+    "explanation": "📖 Ameliorate শব্দের অর্থ কোনো কিছুর উন্নতি সাধন করা বা ভালো করা। এর সঠিক সমার্থক শব্দ হলো improve, যার অর্থও উন্নতি করা।<br/>Option Analysis:<br/>❏ worsen: (আরও খারাপ করা) ➺ এটি বিপরীত শব্দ।<br/>❏ improve: (উন্নতি করা) ➺ এটি Ameliorate এর সঠিক সমার্থক শব্দ।<br/>❏ neglect: (অবহেলা করা) ➺ এটি সম্পর্কিত নয়।<br/>❏ reject: (প্রত্যাখ্যান করা) ➺ এটি সম্পর্কিত নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326652,
+    "question": "Correct Synonym: Perfunctory",
+    "options": [
+      "thorough",
+      "superficial",
+      "passionate",
+      "careful"
+    ],
+    "correct_answer": "superficial",
+    "explanation": "📖 Perfunctory শব্দের অর্থ দায়সারাভাবে বা অগভীরভাবে করা কোনো কাজ। এর সঠিক সমার্থক শব্দ হলো superficial, যার অর্থ ভাসাভাসা বা অগভীর।<br/>Option Analysis:<br/>❏ thorough: (পুঙ্খানুপুঙ্খ) ➺ এটি বিপরীত শব্দ।<br/>❏ superficial: (ভাসাভাসা) ➺ এটি Perfunctory এর সঠিক সমার্থক শব্দ।<br/>❏ passionate: (আবেগপ্রবণ) ➺ এটি সম্পর্কিত নয়।<br/>❏ careful: (সতর্ক) ➺ এটি বিপরীত শব্দ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326653,
+    "question": "Correct Synonym: Ubiquitous",
+    "options": [
+      "rare",
+      "widespread",
+      "local",
+      "invisible"
+    ],
+    "correct_answer": "widespread",
+    "explanation": "📖 Ubiquitous শব্দের অর্থ সর্বব্যাপী বা যা সর্বত্র বিদ্যমান। এর সঠিক সমার্থক শব্দ হলো widespread, যার অর্থ সুদূরপ্রসারী বা বিস্তৃত।<br/>Option Analysis:<br/>❏ rare: (দুর্লভ) ➺ এটি বিপরীত শব্দ।<br/>❏ widespread: (বিস্তৃত) ➺ এটি Ubiquitous এর সঠিক সমার্থক শব্দ।<br/>❏ local: (স্থানীয়) ➺ এটি বিপরীত অর্থ প্রকাশ করে।<br/>❏ invisible: (অদৃশ্য) ➺ এটি সম্পর্কিত নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326654,
+    "question": "Correct Antonym: Innocuous",
+    "options": [
+      "Harmless",
+      "dangerous",
+      "insignificant",
+      "gentle"
+    ],
+    "correct_answer": "dangerous",
+    "explanation": "📖 Innocuous শব্দের অর্থ নিরীহ বা ক্ষতি করে না এমন। এর সঠিক বিপরীত শব্দ হলো dangerous, যার অর্থ বিপজ্জনক।<br/>Option Analysis:<br/>❏ Harmless: (নিরীহ) ➺ এটি Innocuous এর সমার্থক শব্দ।<br/>❏ dangerous: (বিপজ্জনক) ➺ এটি Innocuous এর সঠিক বিপরীত শব্দ।<br/>❏ insignificant: (গুরুত্বহীন) ➺ এটি সম্পর্কিত নয়।<br/>❏ gentle: (শান্ত) ➺ এটি সম্পর্কিত হতে পারে কিন্তু dangerous সবচেয়ে উপযুক্ত বিপরীত শব্দ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326655,
+    "question": "Correct Antonym: Mollify",
+    "options": [
+      "stultify",
+      "infuriate",
+      "placale",
+      "squander"
+    ],
+    "correct_answer": "infuriate",
+    "explanation": "📖 Mollify শব্দের অর্থ শান্ত করা বা রাগ কমানো। এর সঠিক বিপরীত শব্দ হলো infuriate, যার অর্থ অত্যন্ত ক্রুদ্ধ করা।<br/>Option Analysis:<br/>❏ stultify: (ব্যর্থ করা) ➺ এটি সম্পর্কিত নয়।<br/>❏ infuriate: (ক্রুদ্ধ করা) ➺ এটি Mollify এর সঠিক বিপরীত শব্দ।<br/>❏ placate: (শান্ত করা) ➺ এটি Mollify এর সমার্থক শব্দ। এখানে বানানটি ভুল (placale) দেওয়া আছে।<br/>❏ squander: (অপচয় করা) ➺ এটি সম্পর্কিত নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326656,
+    "question": "Correct Antonym: Contrite",
+    "options": [
+      "angry",
+      "protracted",
+      "unrepentant",
+      "surfeit"
+    ],
+    "correct_answer": "unrepentant",
+    "explanation": "📖 Contrite শব্দের অর্থ অনুতপ্ত বা অনুশোচনাগ্রস্ত। এর সঠিক বিপরীত শব্দ হলো unrepentant, যার অর্থ অনুশোচনাহীন বা অনুতাপহীন।<br/>Option Analysis:<br/>❏ angry: (রাগান্বিত) ➺ এটি সম্পর্কিত নয়।<br/>❏ protracted: (দীর্ঘায়িত) ➺ এটি সম্পর্কিত নয়।<br/>❏ unrepentant: (অনুতাপহীন) ➺ এটি Contrite এর সঠিক বিপরীত শব্দ।<br/>❏ surfeit: (আতিশয্য) ➺ এটি সম্পর্কিত নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326657,
+    "question": "Correct Antonym: Frivolous",
+    "options": [
+      "Serious",
+      "trivial",
+      "fun",
+      "silly"
+    ],
+    "correct_answer": "Serious",
+    "explanation": "📖 Frivolous শব্দের অর্থ তুচ্ছ, চপল বা গুরুত্বহীন। এর সঠিক বিপরীত শব্দ হলো Serious, যার অর্থ গুরুতর বা গম্ভীর।<br/>Option Analysis:<br/>❏ Serious: (গুরুতর) ➺ এটি Frivolous এর সঠিক বিপরীত শব্দ।<br/>❏ trivial: (তুচ্ছ) ➺ এটি Frivolous এর সমার্থক শব্দ।<br/>❏ fun: (মজাদার) ➺ এটি Frivolous এর সাথে সম্পর্কিত কিন্তু বিপরীত নয়।<br/>❏ silly: (বোকাটে) ➺ এটি Frivolous এর সমার্থক হতে পারে, কিন্তু Serious হলো সবচেয়ে উপযুক্ত বিপরীত শব্দ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  },
+  {
+    "id": 326658,
+    "question": "Correct Antonym: Audacious",
+    "options": [
+      "bold",
+      "timid",
+      "fearless",
+      "daring"
+    ],
+    "correct_answer": "timid",
+    "explanation": "📖 Audacious শব্দের অর্থ দুঃসাহসী, নির্ভীক বা বেপরোয়া। এর সঠিক বিপরীত শব্দ হলো timid, যার অর্থ ভীরু বা লাজুক।<br/>Option Analysis:<br/>❏ bold: (সাহসী) ➺ এটি Audacious এর সমার্থক শব্দ।<br/>❏ timid: (ভীরু) ➺ এটি Audacious এর সঠিক বিপরীত শব্দ।<br/>❏ fearless: (নির্ভীক) ➺ এটি Audacious এর সমার্থক শব্দ।<br/>❏ daring: (দুঃসাহসী) ➺ এটি Audacious এর সমার্থক শব্দ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
+    "exam": "৫০৪৫@সমন্বিত ৫ ব্যাংক ➺ অফিসার (ক্যাশ) ☞ 11.7.25"
+  }
+]

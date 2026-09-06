@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 206751,
+    "question": "The ratio of boys and girls in a club is 3 : 2 . Which of the following could be the actual number of members ? ",
+    "options": [
+      "16",
+      "18",
+      "25",
+      "24"
+    ],
+    "correct_answer": "25",
+    "explanation": "🔖Let, the number of boys and girls be 3x abd 2x.<br/>sum= 3x+2x=5x অর্থাৎ 5 দ্বারা বিভাজ্য সংখ্যা<br/>কেবল option (c) তেই 25 আছে যা 5 দ্বারা বিভাজ্য ।",
+    "hints": "📝Question: The ratio of boys and girls in a club is 3 : 2 Which of the following could be the actual number of members?<br/>❐ Solution:<br/>Sum of the ratio = 2 + 3 = 5<br/>So, the actual number must be divided by 5.<br/>Here, only 25 is the only number that can be divided by 5.",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206752,
+    "question": "30% apples out of 450 are rotten . How many apples are in good condition? ",
+    "options": [
+      "125",
+      "315",
+      "240",
+      "180"
+    ],
+    "correct_answer": "315",
+    "explanation": "🔖450×(70/100)<br/>= 315",
+    "hints": "📝Question: 30% of apples out of 450 are rotten. How many apples are in good condition?<br/>❐ Solution:<br/>30% of 450 = (450 × 30/100) = 135<br/>So, 450 - 135 = 315 apples are in good condition.",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206753,
+    "question": "The present age of son is half of the present age of his mother. Ten years ago, his mother's age was thrice the age of her son . What is the present age of the son? ",
+    "options": [
+      "25 years",
+      "20 years",
+      "30 years",
+      "40 years"
+    ],
+    "correct_answer": "20 years",
+    "explanation": "🔖Let, present age of son be 'x'<br/>\" \" \" mother be '2x'<br/>So, 10 years ago, age of son was 'x-10'<br/>\" \" \" \" mother was '2x-10'<br/>ATQ,<br/>2x-10 = 3(x-10)<br/>=> 3x-2x = 30-10<br/>∴x = 20 Ans.",
+    "hints": "📝Question: The present age of son is half of the present age of his mother. Ten years ago, his mother's age was thrice the age of her son. What is the present age of the son?<br/>❐ Solution:<br/>Let the mother's age be 2x years<br/>Then, Son's age = x years<br/>❐ ATQ,<br/>2x - 10 = 3(x - 10)<br/>➾ 2x - 10 = 3x - 30<br/>➾ x = 20",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206754,
+    "question": "The average of two numbers is 6.5 and square root of their product is 6 . What are the number?",
+    "options": [
+      "11 and 2",
+      "8 and 5",
+      "10 and 3",
+      "9 and 4"
+    ],
+    "correct_answer": "9 and 4",
+    "explanation": "🔖{(x+y)/2}=6.5<br/>=> x+y=13<br/>আবার, ✓(xy)=6<br/>=> xy=36<br/>Option থেকে 9+4=14 এবং 6×4=36<br/>So, Ans. 9 and 4",
+    "hints": "📝Question: The average of two numbers is 6.5 and square root of their product is 6. What are the numbers?<br/>❐ Solution:<br/>Let the number be x and y<br/>❐ According to the question,<br/>(x + y)/2 = 6.5,<br/>➾ x + y = 13 <br/>❐ and,<br/>√xy = 6<br/>➾ xy = 36<br/>➾ x = 36/y<br/>❐ Now,<br/>(36/y) + y = 13<br/>➾ (36 + y²)/y = 13<br/>➾ 36 + y² = 13y<br/>➾ y² - 13y + 36 = 0<br/>➾ (y - 9)(y - 4) = 0<br/>So, y = 4 or, 9<br/>❐ If y = 4 then, x = 9<br/>If y = 9 then, x = 4<br/>❐ So, the numbers are 4 and 9",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206755,
+    "question": "a is greater than b by 2 and b is greater than c by 10 . If a+ b+ c =130 , then (b+c) -a =? ",
+    "options": [
+      "42",
+      "38",
+      "34",
+      "44"
+    ],
+    "correct_answer": "34",
+    "explanation": "🔖Let, c=x<br/>∴b= x+10 and<br/>a= x+12<br/>Now,a+b+c=130<br/>=> x+12+x+10+x=130<br/>=> 3x = 130-22 = 108<br/>∴x=(108/3)= 36 i.e, c = 36<br/>∴ b = 46 and a = 48<br/>∴(b+c)-a = (46+36) - 48 = 34 Ans.",
+    "hints": "📝<b>Question:</b> a is greater than b by 2 and b is greater than c by 10. If a + b + c = 130, then (b + c) - a =?<br/>❐ <b>Solution:</b><br/>According to the question,<br/>b = c + 10<br/>a = b + 2<br/>Or, a = c + 10 + 2<br/>Or, a = c + 12<br/>Now, a + b + c = 130<br/>Or, c + 12 + c + 10 + c = 130<br/>Or, 3c + 22 = 130<br/>Or, 3c = 108<br/>∴ c = 36<br/>❐ Now, (b + c) - a = (c + 10 + c) - (c + 12)<br/>➾ 2c + 10 - c - 12<br/>➾ c - 2<br/>➾ 36 - 2<br/>➾ 34",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206756,
+    "question": "The least number which should be added 2497 so that the sum is exactly divisible 5,6,4 and 3 is - ",
+    "options": [
+      "23",
+      "13",
+      "3",
+      "33"
+    ],
+    "correct_answer": "23",
+    "explanation": "🔖5,6,4 এবং 3 এর ল.সা.গু = 60<br/>Now, 2497÷60 = 41, অবশিষ্ট 37<br/>∴(60-37) = 23 যােগ করতে হবে।",
+    "hints": "📝<b>Question:</b> The least number which should be added to 2,497 so that the sum is exactly divisible 5, 6, 4 and 3 is<br/>❐ <b>Solution:</b><br/>L.C.M. of 5, 6, 4, and 3 = 60.<br/>On dividing 2497 by 60, the remainder is 37.<br/>Number to be added = (60 - 37)<br/>➾ 23",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206757,
+    "question": "The face value of 8 in the number 458926 is - ",
+    "options": [
+      "8000",
+      "1000",
+      "8",
+      "8926"
+    ],
+    "correct_answer": "8",
+    "explanation": "🔖458926 এখানে 8 এর face value 8 (Ans)<br/>8 এর place value 8000",
+    "hints": "📝The face value of 8 in the number 458926 is 8<br/>The place value of 8 in the number 458926 is 8000",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206758,
+    "question": "The total cost of flooring a room at Tk. 8.50 per square metre is TK. 510. If the length the room is 8 m , its breadth is - ",
+    "options": [
+      "8.5 m",
+      "7.5 m",
+      "10.5 m",
+      "12.5 m"
+    ],
+    "correct_answer": "7.5 m",
+    "explanation": "🔖Area = (510/8.50)<br/>=(510/85)×10<br/>= 60m²<br/>∴Breadth = 60/8<br/>= 7.5 m",
+    "hints": "📝<b>Question: </b>The total cost of flooring a room at Tk. 8.50 per square meter is Tk. 510. If the length of the room is 8m, its breadth is<br/>❐ <b>Solution:</b><br/>Tk. 8.50 cost of flooring for 1 square meter.<br/>Tk. 510 cost of flooring for (510/8.50) square meter.<br/>➾ 60 square meter.<br/>We know,<br/>Length × Breadth = 60 square meter.<br/>∴ Breadth = 60/8 meter.<br/>➾ 7.5 meter.",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206759,
+    "question": "A can do a piece of work in 4 hours, B and C together in 3 hours , and A and C together in 2 hours. How long will B alone take to do it?",
+    "options": [
+      "8 hours",
+      "12 hours",
+      "s10hours",
+      "24 hours"
+    ],
+    "correct_answer": "12 hours",
+    "explanation": "🔖A,B and C together need = (3×4)/(3+4) = 12/7 hours<br/>And C need 2 hours<br/>∴B need = {(12/7)×2}/{2-(12/7)} hours<br/>= (24/7)/{(14-12)/7}<br/>= 24/2 hours<br/>= 12 hours",
+    "hints": "📝Question: A can do a piece of work in 4 hours, B and C together in 3 hours, and A and C together in 2 hours. How long will B alone take to do it?<br/>❐ Solution:<br/>A's 1 hour's work = 1/4<br/>(B + C)'s 1 hour's work = 1/3<br/>(A + C)'s 1 hour's work = 1/2<br/>❐ ∴C's 1 hour's work = (1/2) - (1/4) = 1/4<br/>❐ B's 1 hour's work = (1/3) - (1/4) = 1/12<br/>❐ Hence, B will complete the whole work in 12 hours.",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206760,
+    "question": "A speed of 14 meters per second is the same as- ",
+    "options": [
+      "50 km/hr",
+      "46.6 km/hr",
+      "28 km/hr",
+      "70 km/hr"
+    ],
+    "correct_answer": "50 km/hr",
+    "explanation": "🔖14m/sec = 14×(18/5)km/hour<br/>= 50.4 km/hour",
+    "hints": "📝<b>Question:</b> A speed of 14 meters per second is the same as<br/>❐ <b>Solution:</b><br/>1 second speed = 14 meters.<br/>1 hour or 3600 seconds speed = (14 × 3600) meters<br/>➾ 50400 meters<br/>➾ 50400/100 km/hr.<br/>➾ 50.4 km/hr.<br/>≈ 50 km/hr.<br/>❐ <b><i>[আসন্ন মান হিসেবে অপশন (ক) অধিকগ্রহণযোগ্য]</i></b>",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206761,
+    "question": "Oranges are bought at 5 for Tk. 10 and sold at 6 for Tk. 15 . The gain percent is - ",
+    "options": [
+      "50%",
+      "40%",
+      "25%",
+      "35%"
+    ],
+    "correct_answer": "25%",
+    "explanation": "🔖Cost per orange = (10/2)=2 Tk<br/>Sell per orange = (15/6)=2.5 Tk<br/>∴gain percentage = {(2.5-2)/2}×100<br/>= 25%",
+    "hints": "📝Question: Oranges are bought at 5 for Tk. 10 and sold at 6 for Tk.15. The gain percent is-<br/>❐ Solution:<br/>CP of 1 oranges=(10/5) =Tk. 2<br/>CP of 1 oranges=(15/6) =Tk. 5/2<br/>❐ Profit = Tk. (5/2 - 2)<br/>➾ Tk. (5 - 4)/2<br/>➾ 1/2<br/>❐ ∴Profit percent = [{(1/2)/2} × 100]%<br/>➾ {(1/2) × (1/2) × 100}%<br/>➾ 25%",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206762,
+    "question": "By selling an article for Tk. 100, a man gains Tk. 15. Then, his gain % is",
+    "options": [
+      "15%",
+      "(38/3)%",
+      "(69/4)%",
+      "(300/17)%"
+    ],
+    "correct_answer": "(300/17)%",
+    "explanation": "🔖Selling Price = 100 Tk, Gain = 15Tk<br/>∴Cost Price = 100-15 = 85 Tk<br/>gain Percentage = (15/85)×100<br/>= 17(11/17)%",
+    "hints": "📝<b>Question:</b> By selling an article for Tk. 100, a man gains Tk. 15. Then, his gain % is<br/><b><br/>Solution:</b> <br/>Selling price = Tk. 100<br/>profit =Tk. 15<br/>Cost price = S.P. - Profit<br/>➾ 100 -15<br/>➾ 85<br/>Gain % = (Profit/C.P.) × 100<br/>➾ (15/85) ×100<br/>➾ (300/17)%",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206763,
+    "question": "\\( (0.04{)}^{2}÷((0.008)\\times (0.2{)}^{6}=(0.2)? \\)",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖0.04)<br/>2<br/>÷ 0.008×(0.2)<br/>6<br/>= (0.2)<br/>x<br/>=> (0.0016/0.008)×(0.2)<br/>6<br/>= (0.2)<br/>x<br/>=> (0.2)<br/>1<br/>×(0.2)<br/>6<br/>= (0.2)<br/>x<br/>=> (0.2)<br/>7<br/>= (0.2)<br/>x<br/>∴x = 7",
+    "hints": "📝<b>Question:</b> (0.04)² ÷ ( 0.008) × (0.2)⁶ = (0.2)^(?)<br/>❐ <b>Solution:<br/></b>Let x instead of ?<br/>(0.04)² ÷ ( 0.008) × (0.2)⁶ = (0.2)ᕽ<br/>➾ (0.0016 ÷ 0.008) × (0.2)⁶ = (0.2)ᕽ<br/>➾ 0.2 × (0.2)⁶ = (0.2)ᕽ<br/>➾ (0.2)⁷ = (0.2)ᕽ<br/>∴ x = 7",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206764,
+    "question": "Two numbers differ by 5. If their product is 336, then the sum of the two numbers is - ",
+    "options": [
+      "21",
+      "37",
+      "28",
+      "51"
+    ],
+    "correct_answer": "37",
+    "explanation": "🔖(x+y)² = (x-y)² + 4xy<br/>=5²+4×336<br/>= 25 + 1344<br/>= 1369<br/>∴(x+y) = 37",
+    "hints": "📝<b>Question:</b> Two number differ by 5. If their product is 336, then the sum of the two numbers is<br/>❐ <b>Solution:</b><br/>Let the number be x and y.<br/>Then, x - y = 5 and xy = 336<br/>We know,<br/>(x + y)² = (x - y)² + 4xy<br/>➾ (5)² + (4 × 336)<br/>➾ 25 + 1344<br/>➾ 1369<br/>➾ x + y = √1369<br/>∴ x + y = 37.",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206765,
+    "question": "Evaluate \\( \\sqrt{248+\\sqrt{52+\\sqrt{144}}} \\)",
+    "options": [
+      "20",
+      "16",
+      "24",
+      "30"
+    ],
+    "correct_answer": "16",
+    "explanation": "🔖✓{248 +✓(52 + ✓144)}<br/>=✓{ 248 + ✓(52 + 12)}<br/>= ✓(248 + ✓64)<br/>= ✓(248 + 8)<br/>= ✓256<br/>=16",
+    "hints": "📝<b>Question:</b> Evaluate : <br/>❐ <b>Solution:</b> <br/>√{248 + √(52 + √144)}<br/>➾ √{248 + √(52 + 12)}<br/>➾ √(248 + √64)<br/>➾ √(248 + 8)<br/>➾ √256<br/>➾ 16",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206766,
+    "question": "\\( (0.75\\times 4.4\\times 2.4)÷0.6=? \\)",
+    "options": [
+      "4.752",
+      "12",
+      "15.84",
+      "13.2"
+    ],
+    "correct_answer": "13.2",
+    "explanation": "🔖(0.75×4.4×2.4)÷6<br/>= (75×44×24×10)/(100×10×10×6)<br/>= 13.2",
+    "hints": "📝<b>Question:</b> (0.75 × 4.4 × 2.4)/0.6 =?<br/>❐ <b>Solution:</b><br/>(0.75 × 4.4 × 2.4)/0.6<br/>➾ 7.92/0.6<br/>➾ 13.2",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206767,
+    "question": "48.95-32 .006 =? ",
+    "options": [
+      "16.089",
+      "16.35",
+      "16.944",
+      "16.89"
+    ],
+    "correct_answer": "16.944",
+    "explanation": "🔖48.950 - 32.006 = 16.944",
+    "hints": "📝<b>Question:</b> 48.95 - 32.006 =?<br/>❐ <b>Solution:</b><br/>48.95 - 32.006<br/>➾ 16.944",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206768,
+    "question": "P and Q started a business in the ratio of 2:3 . After 1 year P left the business but Q continues. After 2 years he had the profit of TK. 26000. What is the profit of Q? ",
+    "options": [
+      "Tk. 10400",
+      "Tk. 1300",
+      "Tk. 15600",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206769,
+    "question": "How much time will it take for an amount of Tk 450 to yield Tk. 81 as interest at 4.5% per annum of simple interest? ",
+    "options": [
+      "3.5 years",
+      "4.5 years",
+      "4 years",
+      "5 years"
+    ],
+    "correct_answer": "4 years",
+    "explanation": "🔖n = (I×100)/(p×r)<br/>= (81×100)/(450×4.5)<br/>= 4 years",
+    "hints": "📝Question: How much time will it take for an amount of Tk. 450 to yield Tk. 81 as interest at 4.5% per annum of simple interest?<br/>❐ Solution:<br/>Given that<br/>Principal = Tk. 450,<br/>Rate of interest = 4.5% and<br/>simple interest = Tk. 81<br/>❐ Time = (100 × 81)/(450 × 4.5)<br/>= 4 years",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206770,
+    "question": "A Person crosses a 600 m long street in 5 minutes. What is his speed in km per hour? ",
+    "options": [
+      "7.2",
+      "3.6",
+      "8.4",
+      "10"
+    ],
+    "correct_answer": "7.2",
+    "explanation": "🔖Speed = 600 meters / 5 minutes<br/>= 600 × 60 /5 × 1000 km/hr<br/>= 7.2 km/hr",
+    "hints": "📝Question: A person crosses a 600m long street in 5 minutes. What is his speed in km per hour?<br/>❐ Solution:<br/>Speed = 600 meters/5 minutes<br/>➾ (600 × 60)/(5 × 1000) km/hr<br/>➾ 7.2 km/hr",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206771,
+    "question": "If 8 men can reap 80 hectares in 24 days, then dhow many hectares can 36 men reap in 30 days?",
+    "options": [
+      "350",
+      "400",
+      "450",
+      "425"
+    ],
+    "correct_answer": "450",
+    "explanation": "🔖8 men in 24 days reap 80 hectares<br/>∴1 men in 1 days reap 80/(8×24) hectares<br/>∴36 men in 30 days reap (80×36×30)/(24×8) hectares<br/>= 450 hectares",
+    "hints": "📝Question: If 8 men can reap 80 hectares in 24 days, then how many hectares can 36 men reap in 30 days?<br/>❐ Solution:<br/>৮ জনে ২৪ দিনে কাটতে ৮০ হেক্টর<br/>১ জনে ১ দিনে কাটতে ৮০/(৮ × ২৪) হেক্টর<br/>৩৬ জনে ৩০ দিনে কাটতে (৮০ × ৩০ × ৩৬)/(৮ × ২৪) হেক্টর<br/>➾ ৪৫০ হেক্টর",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206772,
+    "question": "The ratio 5 :4 expressed as a percent equals ",
+    "options": [
+      "125%",
+      "40%",
+      "80%",
+      "12.5%"
+    ],
+    "correct_answer": "125%",
+    "explanation": "🔖(5/4)×100<br/>= 125%",
+    "hints": "📝Question: The ratio 5 : 4 expressed as a percent equals<br/>❐ Solution:<br/>5 : 4 = 5/4<br/>➾ (5/4) × (100/100)<br/>➾ (5 × 100)/4 × (1/100)<br/>➾ 125 × (1/100)<br/>➾ 125%",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206773,
+    "question": "The average of 6 numbers is 7. The average of three numbers of them is 5. What will be the average of remaining numbers? ",
+    "options": [
+      "15",
+      "30",
+      "42",
+      "9"
+    ],
+    "correct_answer": "9",
+    "explanation": "🔖6 টি নাম্বার এর সমষ্টি ( 6×7) = 42<br/>3 টি নাম্বার এর সমষ্টি ( 3 ×5) = 15<br/>( -) বিয়োগ করে,<br/>3 টি নাম্বার এর সমষ্টি = 27<br/>Average =27/3<br/>= 9",
+    "hints": "📝",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206774,
+    "question": "In a group of 52 persons , 16 drink tea but not coffee and 33 drink tea. How many drink coffee but not tea? ",
+    "options": [
+      "3",
+      "7",
+      "19",
+      "17"
+    ],
+    "correct_answer": "19",
+    "explanation": "🔖Total persons = 52<br/>Tea but not coffee = 16 and tea = 33<br/>∴Both tea and coffee = 33-16=17<br/>∴Coffee but not tea = 52-(16-17)=19",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206775,
+    "question": "The least prime number is . ",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "2"
+    ],
+    "correct_answer": "2",
+    "explanation": "",
+    "hints": "📝১ এর চেয়ে বড় যে সকল সংখ্যাকে শুধু ১ এবং ঐ সংখ্যা ছাড়া আর কোনো সংখ্যা দ্বারা ভাগ করা যায় না, তাদেরকে মৌলিক সংখ্যা বলে। <br/>অর্থাৎ মৌলিক সংখ্যার উৎপাদক হবে দুইটি: ১ এবং শুধুমাত্র সেই সংখ্যাটি।<br/>যেমন : ২, ৩, ৫, ৭, ১১, ১৩... ইত্যাদি মৌলিক সংখ্যা।<br/>❐ অর্থাৎ সবচেয়ে ক্ষুদ্র মৌলিক সংখ্যা ২.",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206776,
+    "question": "'পদ্ম' শব্দের সমার্থক শব্দ নয় কোনটি? ",
+    "options": [
+      "রঙ্গন",
+      "কমল",
+      "পঙ্কজ",
+      "উৎপল"
+    ],
+    "correct_answer": "রঙ্গন",
+    "explanation": "🔖'পদ্ম' শব্দের সমার্থক শব্দ : পঙ্কজ, রাজীব, উৎপল, কমল, কুমুদ, কুবলয়, শতদল, অরবিন্দ, তামরস, নলিনী, সরোবর, কোকনদ, সরোজ, পুষ্কর।<br/>রঙ্গন শব্দের অর্থ- রক্তবর্ণ ফুলবিশেষ।",
+    "hints": "📝পদ্ম (বিশেষ্য)<br/>শব্দের অর্থ: একপ্রকার জলজ পুষ্প।<br/>সমার্থক শব্দ: <b>কমল</b>, <b>উৎপল</b>, <b>পঙ্কজ</b>, কুমুদ, কুবলয়, শতদল, অরবিন্দ, রাজীব, নলিনী, সরোজ।<br/>❐ উংস: বাংলা ভাষার ব্যাকরণ ও নির্মিতি, নবম-দশম শ্রেণি (২০২১ সংস্করণ) এবং বাংলা অভিধান।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206777,
+    "question": "নিচের কোনটি নিত্য স্ত্রীবাচক শব্দ? ",
+    "options": [
+      "গাভী",
+      "জননী",
+      "সতীন",
+      "আয়া"
+    ],
+    "correct_answer": "সতীন",
+    "explanation": "🔖নিত্য স্ত্রীবাচক শব্দ: সতীন, সপত্নী, সৎ মা, ডাইনি, অর্ধাঙ্গিনী, বাইজী, কুলটা, এয়ো, দাই, বিধবা, অসূর্যস্পর্শা, অরক্ষণীয়া, কলঙ্কিনী, পেত্নী, শাকচুন্নি, অপ্সরা, পরী ইত্যাদি",
+    "hints": "📝কিছু শব্দ আছে যা কেবল স্ত্রীবাচক এদেরকে<b> নিত্য স্ত্রীবাচাক শব্দ</b> বলে।<br/>❐ যেমন - <b>সতীন</b>, অর্ধাঙ্গিনী, কুলটা, অরক্ষণীয়া, সৎমা, সধবা ইত্যাদি। <br/>▣ আবার কিছু শব্দ আছে তা কেবল পুরুষকে নির্দেশ করে এদেরকে নিত্য পুরুষবাচক শব্দ বলে<br/>❐ যেমন - কবিরাজ, কৃতদার, অকৃতদার, ঢাকী ইত্যাদি।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206778,
+    "question": "নিচের কোন বানানটি শুদ্ধ ? ",
+    "options": [
+      "আকাংখা",
+      "কৃতিত্ব",
+      "কার্য্য",
+      "অহঙ্কার"
+    ],
+    "correct_answer": "কৃতিত্ব",
+    "explanation": "🔖শুদ্ধ বানান: আকাঙ্ক্ষা, কার্য, অহংকার ।",
+    "hints": "📝শুদ্ধ বানান - কৃতিত্ব (বিশেষ্য)<br/>❐ সংস্কৃত শব্দ।<br/>❐ প্রকৃতি প্রত্যয় = কৃতিন্+ত্ব<br/>অর্থ: কার্যদক্ষতা, নিপুণতা।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206779,
+    "question": "একই বাক্য রচনায় সাধু ও চলিত ভাষারীতির মিশ্রণকে কী বলে? ",
+    "options": [
+      "গুরুচণ্ডলী দোষ",
+      "বাহুল্য দোষ",
+      "দ্বিত্বজনিত ভুল",
+      "বাচ্যজনিত দোষ"
+    ],
+    "correct_answer": "গুরুচণ্ডলী দোষ",
+    "explanation": "🔖গুরুচণ্ডালী দোষ: তৎসম শব্দের সঙ্গে দেশীয় শব্দের প্রয়োগ কখনো কখনো গুরুচণ্ডালী দোষ সৃষ্টি করে। এই দোষে দুষ্ট শব্দ তার যোগ্যতা হারায়। যেমন-<br/>অশুদ্ধ - গরুর শকট ( দেশি + তৎসম ) ।<br/>শুদ্ধ রূপ - গরুর গাড়ি ( দেশি + দেশি ) ।",
+    "hints": "📝<b>সাধু ও চলিত ভাষারীতির মিশ্রণকে গুরুচণ্ডালী দোষ</b>। অর্থাৎ তৎসম শব্দের সাথে দেশীয় শব্দ কখনো কখনো গুরুচণ্ডালী দোষ সৃষ্টি করে। এ দোষে দুষ্ট শব্দ তার যোগ্যতা হারায়।<br/>যেমন-<br/>অশুদ্ধ- গরুর শকট (দেশি + তৎসম)<br/>শুদ্ধ- গরুর গাড়ি (দেশি + দেশি)<br/>❐ অশুদ্ধ- মড়াদাহ (দেশি + তৎসম)<br/>শুদ্ধ- শবদাহ (তৎসম + তৎসম)<br/>শুদ্ধ- মড়াপোড়া (দেশি + দেশি)।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206780,
+    "question": "আঁতে ঘা -এর বাগধারা কি? ",
+    "options": [
+      "ক্ষণস্থায়ী",
+      "অবিশ্বাস্য ঘটনা",
+      "মনে কষ্ট",
+      "বিশৃঙ্খল"
+    ],
+    "correct_answer": "মনে কষ্ট",
+    "explanation": "🔖আঁতে ঘা (মনে ব্যথা দেওয়া): দিপু তোমার আঁতে ঘা দিয়ে কথা বলেছে, তুমি কাপুরুষ বলে এখনো চুপ করে রয়েছ?",
+    "hints": "📝আঁতে ঘা বাগধারার অর্থ -<b> মনে কষ্ট</b>।<br/>❐ কয়েকটি গুরুত্বপূর্ণ বাগধারা হলো:<br/>▣ চুলোয় যাওয়া - নষ্ট হওয়া।<br/>▣ গুড়ে বালি - আশায় নৈরাশ্য।<br/>▣ গোড়ায় গলদ - শুরুতেই ভুল।<br/>▣ কৈয় মাছের জান - যা সহজে মরে না।<br/>▣ পুটি মাছের প্রাণ - ছোটো মন।<br/>▣ তানকানা - কাণ্ডজ্ঞানহীন।<br/>▣ তিলকে তাল করা - ছোটকে বড় করা।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206782,
+    "question": "ইতিহাস বিষয়ে অভিজ্ঞা যিনি -এক কথায় কী হবে ? ",
+    "options": [
+      "ঐতিহাসিক",
+      "ইতিহাসিক",
+      "ইতিহাসবিদ",
+      "ইতিহাসবেত্তা"
+    ],
+    "correct_answer": "ইতিহাসবেত্তা",
+    "explanation": "🔖ইতিহাস রচনা করেন যিনি: ঐতিহাসিক<br/>ইতিহাস বিষয়ে অভিজ্ঞা যিনি: ইতিহাসবেত্তা<br/>ইতিহাস জানেন যিনি: ইতিহাসবিদ",
+    "hints": "📝ইতিহাস বিষয়ে অভিজ্ঞ যিনি =<b> ইতিহাসবেত্তা।</b><br/>অন্যদিকে,<br/>ইতিহাস রচনা করেন যিনি= ঐতিহাসিক।<br/>❐ দেখতে একই রকম কিছু এক কথায় প্রকাশ:<br/>সকলের জন্য প্রযোজ্য =সার্বজনীন।<br/>সকলের জন্য মঙ্গলজনক =সর্বজনীন।<br/>❐ ইন্দ্রকে জয় করেন যিনি=ইন্দ্রজিৎ।<br/>ইন্দ্রিয়কে জয় করেন যিনি=জিতেন্দ্রিয়।<br/>❐ ইতিহাস রচনা করেন যিনি= ঐতিহাসিক।<br/>ইতিহাস বিষয়ে অভিজ্ঞ যিনি = ইতিহাসবেত্তা।<br/>❐ উপকারীর উপকার স্বীকার করে যে= কৃতজ্ঞ।<br/>উপকারীর অপকার/অনিষ্ট করে যে = কৃতঘ্ন।<br/>❐ যা বলা হয়নি = অনুক্ত।<br/>যা প্রকাশ/ব্যক্ত করা হয়নি = অব্যক্ত।<br/>যা বলা হয়েছে = উক্ত।<br/>❐ যা নিবারণ করা কষ্টকর = দুর্নিবার।<br/>যা নিবারণ করা যায় না = অনিবার্য।<br/>❐ ক্ষমার যোগ্য = ক্ষমার্হ।<br/>ক্ষমার অযোগ্য = ক্ষমার্য।<br/>❐ একই সময়ে = যুগপৎ।<br/>একই সময়ে বর্তমান = সমসাময়িক।<br/>❐ যে ভবিষ্যৎ না ভেবেই কাজ করে = অবিমৃষ্যকারী।<br/>যে ভবিষ্যতের চিন্তা করে না দেখে না= অপরিণামদর্শী।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206783,
+    "question": "কবি বন্দে আলী মিয়া কোন জেলায় জন্মগ্রহণ করেন? ",
+    "options": [
+      "পাবনা",
+      "কুষ্টিয়া",
+      "সিলেট",
+      "রংপুর"
+    ],
+    "correct_answer": "পাবনা",
+    "explanation": "🔖বন্দে আলী মিয়া ১৫ ডিসেম্বর ১৯০৬ সালে পাবনা জেলার -রাধনগর গ্রামেজন্মগ্রহণ করেন।<br/>তিনিছিলেন একজন স্বনামধন্য বাংলাদেশি কবি, ঔপন্যাসিক, শিশু-সাহিত্যিক, সাংবাদিক ও চিত্রকর।<br/>তিনি ১৭ জুন ১৯৭৯ সালে মৃত্যু বরণ করে।",
+    "hints": "📝বন্দে আলী মিয়া (১৯০৬-১৯৭৯) <br/>সাহিত্যিক, সাংবাদিক, চিত্রকর বন্দে আলী মিয়া ১৯০৬ সালের ১৫ ডিসেম্বর <b>পাবনা জেলার</b> রাধানগর গ্রামে জন্মগ্রহন করেন।<br/>❐ বন্দে আলী মিয়া কবিতা, উপন্যাস, নাটক, জীবনী, শিশুসাহিত্য প্রভৃতি মাধ্যমে গ্রন্থ রচনা করেন।<br/>❐ তাঁর রচনায় বাংলার মানুষ, সমাজ ও প্রকৃতির প্রতিফলন ঘটেছে।<br/>❐ তাঁর অন্যান্য শিশুসাহিত্য<br/>❐ চোর জামাই (১৯২৭),<br/>❐ মেঘকুমারী (১৯৩২),<br/>❐ বাঘের ঘরে ঘোগের বাসা (১৯৩২),<br/>❐ সোনার হরিণ (১৯৩৯),<br/>❐ শিয়াল পন্ডিতের পাঠশালা (১৯৫৬),<br/>❐ কুঁচবরণ কন্যা (১৯৬০),<br/>❐ সাত রাজ্যের গল্প (১৯৭৭)",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206784,
+    "question": "'টাকায় সবই হয়’ এখানে 'টাকায়' কোন কারকে কোন বিভক্তি?",
+    "options": [
+      "কর্মে দ্বিতীয়া",
+      "সম্প্রদানে সপ্তমী",
+      "অপাদানে সপ্তমী",
+      "করণে সপ্তমী"
+    ],
+    "correct_answer": "করণে সপ্তমী",
+    "explanation": "",
+    "hints": "📝'টাকায় সবই হয় এখানে 'টাকায় <b>করণে ৭মী বিভক্তি</b>।<br/>❐ <b>করণ কারক:</b><br/>❐ যার দ্বারা বা যার সাহায্যে ক্রিয়া সম্পাদিত হয় তাকে করণ কারক বলে।<br/>❐ ‘করণ' শব্দের অর্থ উপায় বা সহায়।<br/>❐ বাক্যের ক্রিয়াপদকে ‘কার দ্বারা' বা 'কী উপায়ে' জিজ্ঞাসা করলে যে উত্তর পাওয়া যায় তা-ই করণ কারক।<br/><br/>❐ 'নীলু ফুল দিয়ে ঘর সাজায়।' - নীলু কী দিয়ে ঘর সাজায়? ফুল দিয়ে সুতরাং ‘ফুল’ করণ কারক।<br/>❐ 'কাঠুরে কুড়াল দ্বারা গাছ কাটে।' ➞ কাঠুরে কী দ্বারা গাছ কাটে? কুড়াল দ্বারা। কুড়াল’ করণ কারক।<br/>❐ করণ কারকে বিভক্তির ব্যবহার ➞<br/>❐ করণ কারকে সাধারণত দ্বারা, দিয়া, কর্তৃক ইত্যাদি তৃতীয়া বিভক্তির (অনুসর্গের) ব্যবহার হয়।<br/>-তবে অন্য বিভক্তিগুলোরও প্রয়োগ রয়েছে।<br/>❐ করণ কারকে ‘দ্বারা বিভক্তি (অনুসর্গ) - তোমাদের দ্বারা দেশের ক্ষতি হবে।<br/>❐ করণ কারকে ‘দিয়া বিভক্তি (অনুসর্গ) - তোমার লোক দিয়ে কাজটা করাবে।<br/>❐ করণ কারকে শূন্য (০) বা অ-বিভক্তি ➞ রফিক তাস খেলে।<br/>❐ করণ কারকে এ-বিভক্তি ➞ গ্যাসে গাড়ি চলে।<br/>❐ <b>করণ কারকে য়-বিভক্তি ➞ টাকায় সবই হয়।</b><br/>❐ করণ কারকে তে-বিভক্তি ➞ তার কথা যেন মধুতে মাখা<br/>❐ আবার, এ, য়, তে সপ্তমী বিভক্তির উদাহরণ।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206785,
+    "question": "যার জিহ্বা লকলক করে- এক কথায় কী বলে? ",
+    "options": [
+      "লেহ্য",
+      "লিপ্সা",
+      "লেলিহান",
+      "যুযুৎসু"
+    ],
+    "correct_answer": "লেলিহান",
+    "explanation": "🔖যার জিহ্বা লকলক করে- লেলিহান<br/>লাভ করার ইচ্ছা - লিপ্সা<br/>যা চেটে খাবার যোগ্য - লেহ্য",
+    "hints": "📝লেলিহান - লকলকে জিহ্বাযুক্ত।<br/>যেমন: বিশাল কুণ্ডের লেলিহান অগ্নি শিখাগুলি হাঁ হাঁ করে জ্বলে উঠলো।<br/>❐ অতএব, বলা যায়,<br/>যার জিহ্বা লকলক করে- এককথায় প্রকাশ হলো - <b>লেলিহান</b>।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206786,
+    "question": "'প্রত্যূষ' শব্দের সমার্থক শব্দ কোনটি? ",
+    "options": [
+      "অবত্রু",
+      "ঊষা",
+      "সলিল",
+      "অম্বর"
+    ],
+    "correct_answer": "ঊষা",
+    "explanation": "🔖ঊষা শব্দের সমার্থক শব্দ সমূহঃ এখানে ঊষা শব্দটির সমার্থক শব্দ বা প্রতিশব্দ দেওয়া হয়েছে।<br/>প্রত্যুষ,প্রভাত, ভোর , সকাল,, ভোরবেলা,, প্রাতঃকাল।",
+    "hints": "📝প্রত্যুষ শব্দের সমার্থক শব্দ ‘ঊষা’<br/>‘ঊষা’ শব্দের আরো কিছু সমার্থক শব্দ হলো: প্রভাত, ভোর, সকাল, ভোরবেলা, প্রতঃকাল, অরুণোদয়।<br/>❐ অন্যদিকে,<br/>‘আকাশ’ এর প্রতিশব্দ: অম্বর, গগন,নভঃ, ব্যোম, দ্যুলোক, শূন্যলোক।<br/>‘পানি’ এর প্রতিশব্দ: সলিল, জল, বারি, অম্বু, অপ্, নীর, উদক, উদ, পয়, অম্ভ, তোয়া, বারুণ, জীবন।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206787,
+    "question": "'সুষম' শব্দের বিপরীত শব্দ কোনটি? ",
+    "options": [
+      "অনন্ত",
+      "পরলৌকিক",
+      "সৌন্দর্য",
+      "অসম"
+    ],
+    "correct_answer": "অসম",
+    "explanation": "🔖সুষম এর বিপরীত শব্দ হলো- অসম।<br/>অনন্ত এর বিপরীত শব্দ হলো- শেষ।<br/>সৌন্দর্য এর বিপরীত শব্দ হলো- অসৌন্দর্য।<br/>ইহলৌকিক এর বিপরীত শব্দ হলো- পারলৌকিক।",
+    "hints": "📝'সুষম' শব্দের বিপরীত শব্দ - <b>অসম</b>।<br/>❐ কয়েকটি গুরুত্বপূর্ণ বিপরীতার্থক শব্দ:<br/>'উদ্ধত' এর বিপরীত শব্দ- বিনীত<br/>'ভূত' এর বিপরীত শব্দ- ভবিষৎ<br/>'লিপ্ত' এর বিপরীত শব্দ- নির্লিপ্ত<br/>'লগ্ন' এর বিপরীত শব্দ- চ্যুত<br/>'মরমি' এর বিপরীত শব্দ- নিষ্ঠুর<br/>'লেশ' এর বিপরীত শব্দ-যথেষ্ঠ<br/>'হৃদ্যতা' এর বিপরীত শব্দ- কপটতা",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206788,
+    "question": "'সদর' শব্দের বিপরীত শব্দ কোনটি? ",
+    "options": [
+      "অন্ধকার",
+      "প্রকাশ্য",
+      "অন্দর",
+      "প্রান্ত"
+    ],
+    "correct_answer": "অন্দর",
+    "explanation": "🔖সদর এর বিপরীত শব্দ হলো- অন্দর।<br/>প্রকাশ্যে এর বিপরীত শব্দ হলো- গোপনে।<br/>অন্ধকার এর বিপরীত শব্দ হলো- আলো।",
+    "hints": "📝‘সদর’ শব্দের বিপরীতার্থক শব্দ = অন্দর।<br/>❐ কয়েকটি গুরুত্বপূর্ণ বিপরীতার্থক শব্দ হলো:<br/>সাকার = নিরাকার<br/>মত্ত = নির্লিপ্তভক্তি = অভক্তি/ঘৃণা/বিতৃষ্ণা<br/>বিষাদ = প্রসাদ<br/>প্রকৃষ্ট = নিকৃষ্ট<br/>নিন্দুক = স্তাবক<br/>তোয়াজ = তাচ্ছিল্য",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206789,
+    "question": "কাকে যুগসন্ধিক্ষণের কবি বলা হয়? ",
+    "options": [
+      "মুকুন্দরাম চক্রবর্তী",
+      "রবীন্দ্রনাথ ঠাকুর",
+      "শঙ্খ ঘোষ",
+      "ঈশ্বরচন্দ্র গুপ্ত"
+    ],
+    "correct_answer": "ঈশ্বরচন্দ্র গুপ্ত",
+    "explanation": "🔖ঈশ্বরচন্দ্র বাংলা সাহিত্যের ইতিহাসে যুগসন্ধির কবি হিসেবে পরিচিত, কারণ তিনি সমকালের সামাজিক ও ঐতিহাসিক বিষয় নিয়ে কবিতা রচনা করলেও তাঁর ভাষা, ছন্দ ও অলঙ্কার ছিল মধ্যযুগীয়।",
+    "hints": "📝ঈশ্বরচন্দ্র গুপ্ত বাংলা সাহিত্যের ইতিহসে যুগসন্ধির/যুগসন্ধিক্ষণের কবি হিসেবে পরিচিত।<br/>❐ ১৭০০-১৮৬০ খ্রিষ্টাব্দ কে বাংলা সাহিত্যে যুগসন্ধিকাল ধরা হয়ে থাকে।<br/>❐ মধ্যযুগের শেষ প্রতিনিধি ভারতচন্দ্র এবং আধুনিক যুগের প্রথম পুরুষ মাইকেল মধুসূদন, এই দমনীষীর মধ্যবর্তীকালে ঈশ্বরচন্দ্র গুপ্তের আবির্ভাব।<br/>❐ তাঁর মধ্যে মধ্যযুগের কাব্য বৈশিষ্ট্য ও আধুনিক যুগের সূচনা বৈশিষ্ট্য সমানভাবে লক্ষ্য করা যায় বলেতাঁকে যুগসন্ধির কবি বলা হয়।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206791,
+    "question": "'সত্য' শব্দটির শুদ্ধ উচ্চারণ কোনটি? ",
+    "options": [
+      "শোত্যত",
+      "শত্য",
+      "সোততো",
+      "শোততো"
+    ],
+    "correct_answer": "শোততো",
+    "explanation": "🔖‘সত্য' শব্দটির শুদ্ধ উচ্চারণ = শোততো ( আদ্য অ-এর পরে য-ফলা থাকলে অ-এর উচ্চারণ ‘ও’ হয়।)",
+    "hints": "📝‘সত্য’ শব্দের শুদ্ধ উচ্চরণ (শোত্∘তো)<br/>❐ সংস্কৃত শব্দ<br/>❐ প্রকৃতি প্রত্যয় = সৎ+য<br/>❐ অর্থ: মিথ্যা নয়, প্রকৃত, বাস্তব, চির-কালীন, নিত্য।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206792,
+    "question": "নিচের কোন বানানটি শুদ্ধ? ",
+    "options": [
+      "আতংক",
+      "ভট্রাচার্য্য",
+      "প্রবীণ",
+      "সম্পূর্ণ"
+    ],
+    "correct_answer": "সম্পূর্ণ",
+    "explanation": "",
+    "hints": "📝শুদ্ধ বানান - প্রবীণ<br/><br/>❐ সংস্কৃত শব্দ।<br/>❐ প্রকৃতি প্রত্যয় = প্র+√বীণি+অ<br/>❐ অশুদ্ধ বানানগুলোর শুদ্ধরূপ:<br/>❐ আতঙ্ক<br/>❐ ভট্টাচার্য<br/>❐ সম্পূর্ণ",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206793,
+    "question": "'দুই ভাইয়ের মধ্যে কোন কথা নেই'। এখানে 'কথা' শব্দটি কোন অর্থে প্রয়োগ করা হয়েছে?",
+    "options": [
+      "গল্প",
+      "তর্ক",
+      "অসৎভাবে",
+      "পরামর্শ"
+    ],
+    "correct_answer": "অসৎভাবে",
+    "explanation": "🔖'কথা' শব্দটির বিভিন্ন অর্থে প্রয়োগ:<br/>অসগদ্ভাব – দুই ভাইয়ের মধ্যে কোন কথা নেই।<br/>প্রতিশ্রুতি – কথা দিচ্ছি, তোমার কাজটি আমি করে দেব।<br/>অনুরোধ- আশা করি আমার কথা রাখবেন।<br/>প্রসঙ্গ – এ প্রজন্মকে মুক্তিযুদ্ধের কথা জানতে হবে।<br/>বাক্যলাপ- তার সাথে কথা বলে বড় আনন্দ পেয়েছি।<br/>গল্প – অনেক দিন আগের কথা, এক দেশে এক রাজা ছিল।",
+    "hints": "📝বাংলা ভাষায় কতকগুলো বিশেষ্য, বিশেষণ ও ক্রিয়া-জাতীয় পদ রয়েছে যেগুলো বাক্যে বিশিষ্ট অর্থে ব্যবহৃত হয় এবং একই শব্দ ভিন্ন ভিন্ন বাক্যে ব্যবহৃত হয়ে ভিন্ন ভিন্ন অর্থ প্রকাশ করে। এ জাতীয় বাক্যের পরিবেশ ও পরিস্থিতির সঙ্গে সঙ্গতি রেখে এক একটা শব্দের অর্থ নির্ণীত হয়ে থাকে।<br/>❐ যেমন: 'কথা' শব্দের অর্থ মনের ভাব প্রকাশ করা, কোন কিছু বলা। <br/>কিন্তু, \"দুই ভাইয়ের মধ্যে কোন কথা নেই।\" এ বাক্যে 'কথা' শব্দটি মনোমালিন্য বা অসৎভাব বোঝাতে প্রয়োগ হয়েছে।<br/>❐ তেমনিভাবে, 'গা' শব্দের আর্থ দেহ, শরীর। কিন্তু,<br/>কাজে গা লাগা- এ বাক্যে গা শব্দটি 'মনোযোগ' অর্থ বোঝাতে ব্যবহৃত হয়েছে হয়েছে।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206794,
+    "question": "'জলে কুমির ডাঙ্গায় বাঘ' - প্রবাদটির অর্থ কী? ",
+    "options": [
+      "গা বাঁচিয়ে চলা",
+      "ক্ষণস্থায়ী",
+      "উত্তেজনা বৃদ্ধি করা",
+      "উভয় দিকে বিপদ"
+    ],
+    "correct_answer": "উভয় দিকে বিপদ",
+    "explanation": "🔖জলে কুমির ডাঙায় বাঘ (উভয় দিকে বিপদ) : একদিকে সন্ত্রাসীদের হুমকি অন্যদিকে পুলিশের নজরদারি আমারতো জলে কুমির ডাঙ্গায় বাঘ অবস্থা।",
+    "hints": "📝'জলে কুমির ডাঙ্গায় বাঘ' এর অর্থ <b>উভয় দিকে বিপদ</b>/<b>সর্বত্র বিপদ</b>।<br/>❐ বহুপ্রচরিত কিছু প্রবাদ হলো:<br/>❐ ‘ঢেঁকি স্বর্গে গেলেও ধান ভানে’ এই প্রবাদটির অর্থ দুর্ভাগ্য সর্বত্রগামী।<br/>❐ 'চাঁদেরও কলঙ্ক আছে' এর অর্থ যোগ্য ব্যাক্তিরা ত্রুটিমুক্ত নন।<br/>❐ 'ন্যাড়া বারবার বেল-তলায় যায় না' এর অর্থ ভুক্তভোগী কখনো বারবার ঠকে না।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206795,
+    "question": "'হার-হাভাতে'- এর বাগধারা কী? ",
+    "options": [
+      "কষ্ট পাওয়া",
+      "হতভাগ্য",
+      "অপচয়",
+      "ভিক্ষে করা"
+    ],
+    "correct_answer": "হতভাগ্য",
+    "explanation": "🔖হার-হাভাতে (হতভাগ্য) — হার-হাভাতে লোকটির ভাগ্যে সারা জীবনেও সুখ মিলল না।",
+    "hints": "📝'হাড় হাভাতে' বাগধারার অর্থ হতভাগ্য।<br/>❐ আরও কিছু বাগ্∘ধারা এবং এর অর্থ-<br/>❐ 'হাত ধরা' বাগধারার অর্থ বশীভূত।<br/>❐ 'হাত-ভারি' বাগধারার অর্থ কৃপণ<br/>❐ 'হাল ছাড়া' বাগধারার অর্থ হতাশ হওয়া।<br/>❐ 'হাত পাকান' বাগধারার অর্থ দক্ষতা।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206796,
+    "question": "'চাল নেই , চুলো নেই, মুখে বড় কথা।'- এখানে 'চাল' শব্দটি কোন অর্থে প্রয়োগ হয়েছে?",
+    "options": [
+      "ফন্দি",
+      "আশ্রয়",
+      "ব্যবহার",
+      "গুণ"
+    ],
+    "correct_answer": "আশ্রয়",
+    "explanation": "🔖'চাল নেই ,চুলো নেই, মুখে বড় কথা (আশ্রয়হীন) : চাল নেই চুলো নেই, মুখে বড় কথা, চৌধুরীরা তোমায় একঘরে করবে তা আর এমন কঠিন কথা কি?",
+    "hints": "📝বাংলা ভাষায় কতকগুলো বিশেষ্য, বিশেষণ ও ক্রিয়া-জাতীয় পদ রয়েছে যেগুলো বাক্যে বিশিষ্ট অর্থে ব্যবহৃত হয় এবং একই শব্দ ভিন্ন ভিন্ন বাক্যে ব্যবহৃত হয়ে ভিন্ন ভিন্ন অর্থ প্রকাশ করে। এ জাতীয় বাক্যের পরিবেশ ও পরিস্থিতির সঙ্গে সঙ্গতি রেখে এক একটা শব্দের অর্থ নির্ণীত হয়ে থাকে।<br/>❐ যেমন: 'চাল' অর্থ অন্ন কিন্তু,<br/>\"চাল নেই, চুলো নেই, মুখে বড় কথা।\" বাক্যে চাল 'আশ্রয়' অর্থ প্রকাশ করে।<br/>❐ তেমনিভাবে, \"এ কাজে আমার কোন হাত নেই।\" এ বাক্যে হাত 'ক্ষমতা' অর্থ বোঝাতে প্রয়োগ হয়েছে।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206797,
+    "question": "কাল নির্ণয় কর: সূর্য পূর্ব দিকে ওঠে। ",
+    "options": [
+      "নিত্যবৃত্ত অতীত",
+      "সাধারণ অতীত",
+      "সাধারণ বর্তমান",
+      "সাধারণ ভবিষ্যত"
+    ],
+    "correct_answer": "সাধারণ বর্তমান",
+    "explanation": "🔖সাধারণ বা নিত্যবৃত্ত বর্তমান : স্বাভাবিক বা অভ্যস্ততা বোঝালে সাধারণ বর্তমান কালের ক্রিয়ারকে সাধারণত বা নিত্যবৃত্ত বর্তমান বলে । যেমন-<br/>স্বাভাবিকতা : সন্ধ্যায় সূর্য অস্ত যায় ।<br/>অভ্যস্ততা : আমি রোজ সকালে হাটতে যাই ।",
+    "hints": "📝⇒ সাধারণ বর্তমান : যে ক্রিয়া বর্তমান কালে নিয়মিতভাবে ঘটে, তাকে সাধারণ বর্তমান কাল বলে। যেমন:<br/>- আমি স্কুলে যাই। <br/>❐ সূর্য পূর্ব দিকে ওঠে।<br/>➾সাধারণ ভবিষ্যৎ : ভবিষ্যৎ কালে যে কাজ সাধারণভাবে সম্পন্ন হবে বোঝায়, তাকে সাধারণ ভবিষ্যৎ কাল বলে। যেমন: <br/>❐ আমবা রংপুরে যাব।<br/>❐ দু-এক দিনের মধ্যে সে আসবে।<br/>➾নিত্য অতীত: অতীত কালে প্রায়ই ঘটতো এমন বোঝালে নিত্য অতীত কাল হয়। যেমন:<br/>❐ খুব সকালে ঘুম থেকে উঠতাম।<br/>❐ তারা সাগরের তীরে ঝিনুক কুড়াত।<br/>➾সাধারণ অতীত: অতীত কালে যে কাজ সম্পন্ন হয়ে গিয়েছে বোঝায়, তাকে সাধারণ অতীত কাল বলে। যেমন:<br/>❐ আকাশ কুয়াকাটায় বেড়াতে গিয়েছিল।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206798,
+    "question": "আহমদ ছফা রচিত উপন্যাস কোনটি? ",
+    "options": [
+      "মা",
+      "গড়শ্রী খণ্ড",
+      "ওঙ্কার",
+      "অলীক মানুষ"
+    ],
+    "correct_answer": "ওঙ্কার",
+    "explanation": "🔖আহমদ ছফা একজন বাংলাদেশি লেখক, ঔপন্যাসিক, কবি, চিন্তাবিদ ও গণবুদ্ধিজীবী ছিলেন।<br/>ওঙ্কার তার বিখ্যাত উপন্যাস।<br/>জাতীয় অধ্যাপক আব্দুর রাজ্জাক ও সলিমুল্লাহ খানসহ আরো অনেকের মতে, মীর মশাররফ হোসেন ও কাজী নজরুল ইসলামের পরে সবচেয়ে গুরুত্বপূর্ণ বাঙালি মুসলমান লেখক হলেন আহমদ ছফা।<br/>তার লেখায় বাংলাদেশি জাতিসত্তার পরিচয় নির্ধারণ প্রাধান্য পেয়েছে।",
+    "hints": "📝ওঙ্কার উপন্যাসটি মূলত ঊনসত্তরের গণঅভ্যুত্থানের পটভূমিতে লেখা হয়েছে।<br/>❐ আহমদ ছফা রচিত ওঙ্কার উপন্যাসটি প্রকাশিত হয় ১৯৭৫ সালে।<br/>❐ আহমদ ছফা রচিত এই উপন্যাসের নায়ক, আবু নসরের বোবা মেয়েকে বিয়ে করে। আবু নসরের সঙ্গে আইয়ুব খানের সম্পর্ক থাকায় সে এক ধরনের ক্ষমতা লাভ করে। আর এই ঘটনার সূত্র ধরে উপন্যাসটির কাহিনী গতি লাভ করেছে।<br/>❐ ওঙ্কার উপন্যাস অবলম্বনে 'বাঙলা' চলচ্চিত্র নির্মিত হয়।<br/>▣ আহমদ ছফা রচিত উপন্যাস:<br/>❐ সূর্য তুমি সাথী,<br/>❐ ওঙ্কার,<br/>❐ মরণ বিলাস,<br/>❐ গাভি বিত্তান্ত,<br/>❐ অর্ধেক নারী অর্ধেক ঈশ্বরী,<br/>❐ বিহঙ্গ পুরাণ,<br/>❐ একজন আলী কেনানের উত্থান-পতন।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206799,
+    "question": "A person interested in reading books and nothing else . ",
+    "options": [
+      "book-keeper",
+      "bookworm",
+      "scholar",
+      "student"
+    ],
+    "correct_answer": "bookworm",
+    "explanation": "🔖যে ব্যক্তি শুধু বই পড়া ছাড়া অন্য কিছু বোঝে না তাকে Bookworm বা বইপোকা বলা হয়।<br/>Book-keeper- হিসাব রক্ষক,<br/>Scholar- পন্ডিত,<br/>Student- শিক্ষার্থী ।",
+    "hints": "📝A person interested in reading books and nothing else - bookworm<br/>Bangla Meaning: বইপাগল; অত্যন্ত পঠনশীল ব্যক্তি; গ্রন্থকীট।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206800,
+    "question": "কোন ব্যক্তি সম্প্রতি নতুন চর্যাপদ আবিষ্কার করেন? ",
+    "options": [
+      "সৈয়দ মোহাম্মদ শাহেদ",
+      "হরপ্রসাদ শাস্ত্রী",
+      "আনিসুজ্জামান",
+      "ড. মুহম্মদ শহীদুল্লাহ"
+    ],
+    "correct_answer": "সৈয়দ মোহাম্মদ শাহেদ",
+    "explanation": "🔖নতুন চর্যাপদে সংকলিত মূলত বজ্রযানী দেবদেবীর আরাধনার গীত। এসব পদে তান্ত্রিক নানা দেবদেবীর রূপসৌন্দর্য, মুখ ও বাহুর বর্ণনা, তাঁদের আসন, মুদ্রা ও দেহভঙ্গি, তাঁদের আভরণ ও আয়ুধ ইত্যাদি সম্পর্কিত তথ্য ও বর্ণনা আছে। 2017 সালে বাংলা একাডেমী বইমেলায় বইটি প্রকাশিত হয়।",
+    "hints": "📝নতুন চর্যাপদ<br/>❐ সৈয়দ মোহাম্মদ শাহেদ<br/>➾ নতুন চর্যাপদে সংকলিত মূলত বজ্রযানী দেবদেবীর আরাধনার গীত। এসব পদে তান্ত্রিক নানা দেবদেবীর রূপসৌন্দর্য, মুখ ও বাহুর বর্ণনা, তাঁদের আসন, মুদ্রা ও দেহভঙ্গি, তাঁদের আভরণ ও আয়ুধ ইত্যাদি সম্পর্কিত তথ্য ও বর্ণনা আছে। দীর্ঘ শ্রম ও নিষ্ঠার সঙ্গে গবেষক এসবের ঋদ্ধ পরিচয় তুলে ধরেছেন। এ-কাজ করতে গিয়ে গবেষক লক্ষ করেন যে, বিভিন্ন পাঠে কেবল যে পাঠান্তর আছে তা নয়, অনেক পাঠে পুনরাবৃত্তিও রয়েছে। তাছাড়া অনেক চর্যাপদের পুরোভাগে পদকর্তার নাম থাকলেও বেশকিছু পদের পদকর্তার নাম পাওয়া যায়নি। বেশকিছু চর্যাপদের রচনাকাল নির্ণয় করতে না পারায় সেগুলোর কালানুক্রমিক বিন্যাসও সম্ভব হয়নি। সেজন্য গবেষক ৩৩৫টি চর্যাপদের পা-লিপি তৈরি করে সেগুলো বর্ণানুক্রমিকভাবে সন্নিবেশ করেছেন।<br/>❐",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206801,
+    "question": "নিচের কোন কবি লোকসাহিত্য সংগ্রাহক ছিলেন? ",
+    "options": [
+      "কাজী নজরুল ইসলাম",
+      "সমর সেন",
+      "আবুল হোসেন",
+      "জসীমউদ্দীন"
+    ],
+    "correct_answer": "জসীমউদ্দীন",
+    "explanation": "🔖পল্লীকবি জসীমউদ্দীন এম.এ শ্রেণীতে অধ্যায়নকালে ড. দীনেশচন্দ্র সেনের আনুকূল্যে কলকাতা বিশ্ববিদ্যালয়ের পল্লীগীতি সংগ্রাহক পদে নিয়োগ লাভ করেন। তিনি 1931 - 1937 সালে পর্যন্ত কলকাতা বিশ্ববিদ্যালয়ে দীনেশচন্দ্র সেনের অধীনে রামতনু লাহিড়ী রিচার্জ অ্যাসিস্ট্যান্ট পদে চাকরি করেন।",
+    "hints": "📝জসীমউদ্দীন (১৯০৩-১৯৭৬) কবি, শিক্ষাবিদ। ১৯০৩ সালের ১ জানুয়ারি ফরিদপুর জেলার তাম্বুলখানা গ্রামে মাতুলালয়ে তাঁর জন্ম।<br/>▣ জসীমউদ্দীনের কর্মজীবন শুরু হয় পল্লিসাহিত্যের সংগ্রাহক হিসেবে।<br/>▣ স্নাতকোত্তর শ্রেণীতে অধ্যয়নকালে দীনেশচন্দ্র সেনের আনুকূল্যে কলকাতা বিশ্ববিদ্যালয় কর্তৃক এ কাজে তিনি নিযুক্ত হন। <br/>▣ এমএ পাস করার পর থেকে ১৯৩৭ সাল পর্যন্ত তিনি উক্ত বিশ্ববিদ্যালয়ে দীনেশচন্দ্র সেনের অধীনে রামতনু লাহিড়ী গবেষণা সহকারী ছিলেন।<br/>▣ ১৯৩৮ সালে তিনি ঢাকা বিশ্ববিদ্যালয়ের বাংলা বিভাগে লেকচারার পদে যোগদান করেন। এখানে ১৯৪৩ সাল পর্যন্ত চাকরি করার পর ১৯৪৪ সাল থেকে তিনি প্রথমে বঙ্গীয় প্রাদেশিক সরকার এবং পরে পূর্ব পাকিস্তান সরকারের প্রচার বিভাগের কর্মকর্তা হিসেবে দায়িত্ব পালন করেন।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206802,
+    "question": "'অথৈ জল' শব্দটির বাগধারা কী? ",
+    "options": [
+      "সাংঘাতিক",
+      "অর্তি",
+      "ভীষণ বিপদ",
+      "অকেজো"
+    ],
+    "correct_answer": "ভীষণ বিপদ",
+    "explanation": "🔖অথৈ জল (ভীষণ বিপদ) : হঠাৎ চাকরি হারিয়ে মামুন অথৈ জলে পড়েছে ।",
+    "hints": "📝‘অথৈ জল’ বাগধারার অর্থ = ভীষণ বিপদ<br/>❐ যেমন: ব্যবসায় ক্ষতিগ্রস্থ হয়ে নিজাম সাহেব অথৈ জলে পড়েছেন।<br/>কয়েকটি গুরুত্বপূর্ণ বাগধারা ও অর্থ:<br/>❐ অকাল কুসুম = অসম্ভব জিনিষ।<br/>❐ আদা জল খেয়ে লাগা = প্রাণপণ চেষ্টা করা।<br/>❐ আখাম্বা = বেখাপ্পা।<br/>❐ আঠারো আনা = বাড়াবাড়ি।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206803,
+    "question": "বাংলা বর্ণমালায় মাত্রাহীন বর্ণ কয়টি? ",
+    "options": [
+      "৩২ টি",
+      "৮ টি",
+      "১০ টি",
+      "১১ টি"
+    ],
+    "correct_answer": "১০ টি",
+    "explanation": "🔖 বর্ণের নাম<br/>সংখ্যা<br/>স্বরবর্ণ<br/>ব্যঞ্জনবর্ণ<br/>মাত্রাহীন বর্ণ<br/>১০টি<br/>৪ টি ( এ, ঐ, ও, ঔ)<br/>৬টি (ঙ, ঞ, ৎ, ং, ঃ)<br/>অর্ধমাত্রার বর্ণ<br/>৮টি<br/>১টি (ঋ)<br/>৭টি (খ, গ, ণ, থ, ধ, প, শ)<br/>পূর্ণমাত্রার বর্ণ<br/>৩২টি<br/>৬টি (অ, আ, ই, ঈ, উ, ঊ)<br/>২৬টি",
+    "hints": "📝উপযুক্ত বর্ণসমূহকে মাত্রার উপর ভিত্তি করে তিন ভাগে ভাগ করা যায়। ।<br/>মাত্রাহীন বর্ণ: বাংলা বর্ণমালায় মাত্রাহীন বর্ণের সংখ্যা<b> ১০ টি</b>।<br/>এর মধ্যে স্বরবর্ণ ৪টি এ, ঐ, ও, ঔ এবং ব্যঞ্জনবর্ণ ৬টি (ঙ, ঞ, ৎ, ং, ঃ, ঁ)।<br/>❐ অর্ধমাত্রার বর্ণ: বাংলা বর্ণমালায় অর্ধমাত্রার বর্ণ ৮টি।<br/>এর মধ্যে স্বরবর্ণ ১টি (ঋ) এবং ব্যঞ্জনবর্ণ ৭টি (খ, গ, ণ, থ, ধ, প, শ)।<br/>❐ পূর্ণমাত্রার বর্ণ: বাংলা বর্ণমালায় পূর্ণ মাত্রার বর্ণ ৩২টি।<br/>এর মধ্যে স্বরবর্ণ ৬টি এবং ব্যঞ্জনবর্ণ ২৬টি।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206804,
+    "question": "Virtue",
+    "options": [
+      "Untrue",
+      "Defeat",
+      "Vice",
+      "Fool"
+    ],
+    "correct_answer": "Vice",
+    "explanation": "🔖Virtue- পুণ্য<br/>Unture- অসত্য<br/>Defeat- পরাজয়<br/>Vice- কলঙ্ক<br/>Fool- মূর্খ<br/>অতএব, virtue এর বিপরীত শব্দ vice .",
+    "hints": "📝Virtue - গুণ; সদ্∘গুণ<br/>প্রশ্নে উল্লেখিত অপশন গুলোর মধ্যে -<br/>ক) Untrue - অসত্য; নিঃসত্য; অলীক; অযথার্থ।<br/>খ) Defeat - পরাজিত/পরাভূত/ব্যর্থ করা।<br/>গ) Vice - পাপ; দোষ; খুঁত; অধর্ম; অনাচার; ব্যভিচার; ব্যাধি; ব্যসন; কুঅভ্যাস<br/>ঘ) Fool - বোকা; মুঢ়; মূর্খ; হাবা; ভ্যাবা।<br/>❐ সুতরাং, বোঝা যাচ্ছে যে, প্রশ্নে উল্লেখিত অপশন গুলোর মধ্যে কেবলমাত্র Vice শব্দটি Virtue এর বিপরীত অর্থ প্রকাশ করে।<br/>❐ তাই সঠিক উত্তর - Vice.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206805,
+    "question": "Assent ",
+    "options": [
+      "Separation",
+      "Self-interest",
+      "Dissent",
+      "Confusion"
+    ],
+    "correct_answer": "Dissent",
+    "explanation": "🔖Assent- সম্মতি, অনুমোদন;<br/>Separation- বিচ্ছেদ;<br/>Self-interest- স্বার্থ;<br/>Dissent- আপত্তি, বিরোধিতা;<br/>Confusion- বিহ্বলতা, ভেবাচেকা ।<br/>সুতরাং Assent এর বিপরীত শব্দ Dissent.",
+    "hints": "📝Assent - সম্মতি; সংসদে গৃহীত কোনো বিলের প্রতি রাষ্ট্রপতির অনুমোদন; প্রতিগ্রহ।<br/>প্রশ্নে উল্লেখিত অপশন গুলোর মধ্যে -<br/>ক) Separation - বিচ্ছেদ; বিচ্ছিন্নতা; বিচ্ছিন্নকরণ; বিচ্ছিন্নাবস্থা; পৃথককরণ।<br/>খ) Self-interest - স্বার্থ।<br/>গ) Dissent - ভিন্নমতাবলম্বন করা; ভিন্নমত প্রকাশ করা; অনুমোদন করতে অস্বীকার করা<br/>ঘ) Confusion - বিশৃঙ্খলা; গোলমাল; বিভ্রান্তি; কিংকর্তব্যবিমূঢ় অবস্থা; দুই জিনিসের মধ্যে পার্থক্য করতে অক্ষমতা<br/><br/>❐ সুতরাং, বোঝা যাচ্ছে যে, প্রশ্নে উল্লেখিত অপশন গুলোর মধ্যে কেবলমাত্র Dissent শব্দটি Assent এর বিপরীত অর্থ প্রকাশ করে।<br/>❐ তাই সঠিক উত্তর - Dissent.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206806,
+    "question": "Relentless",
+    "options": [
+      "kind",
+      "Yielding",
+      "Gentle",
+      "Sensitive"
+    ],
+    "correct_answer": "kind",
+    "explanation": "🔖Relentless- নির্দয়/ অবিরাম,<br/>Kind- সদয়,<br/>Yielding- ফলাফল/ প্রদায়ক,<br/>Gentle- অমায়িক,<br/>Sensitive- সংবেদনশীল।<br/>অতএব, Relentless এর বিপরীত শব্দ Kind.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206807,
+    "question": "Evasive ",
+    "options": [
+      "Unclear",
+      "Explicit",
+      "Categorical",
+      "Indefinite"
+    ],
+    "correct_answer": "Explicit",
+    "explanation": "🔖Evasive- অস্পষ্ট বা ছলনাময়ী,<br/>Unclear- অস্পষ্ট,<br/>Explicit- সুব্যক্ত,<br/>Categorical- সুনিশ্চিত,<br/>Indefinite- অনিশ্চিত।<br/>সুতরাং Evasive এর বিপরীত শব্দ Categorical.",
+    "hints": "📝Explicit - এড়িয়ে যেতে সচেষ্ট।, চাতুরী দ্বারা এড়িয়ে যায় এমন।<br/>প্রশ্নে উল্লেখিত অপশন গুলোর মধ্যে -<br/>ক) Unclear - অস্পষ্ট।<br/>খ) Explicit - পরিষ্কারভাবে ও পরিপূর্ণভাবে প্রকাশিত; সুনির্দিষ্ট।<br/>গ) Categorical - নিঃশর্ত; চরম<br/>ঘ) Indefinite - অনির্দিষ্ট; অনিশ্চিত; অস্পষ্ট; ভাসাভাসা<br/>❐ সুতরাং, বোঝা যাচ্ছে যে, প্রশ্নে উল্লেখিত অপশন গুলোর মধ্যে Explicit শব্দটি Evasive এর বিপরীত অর্থ প্রকাশ করে।<br/>❐ তাই সঠিক উত্তর - Explicit.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206808,
+    "question": "What is the antonym of Hostility ?",
+    "options": [
+      "Partnership",
+      "Friendship",
+      "Enmity",
+      "Relationship"
+    ],
+    "correct_answer": "Friendship",
+    "explanation": "🔖Hostility- শত্রুতা,<br/>Partnership- অংশীদারিত্ব,<br/>Friendship- মিত্রতা,<br/>Enmity- বিরোধিতা,<br/>Relationship- অন্তরঙ্গতা।<br/>অতএব, Hostility এর বিপরীত শব্দ Friendship.",
+    "hints": "📝Hostility - বৈর; বৈরিতা; বৈরভাব; শত্রুতা; বিপক্ষতা<br/>প্রশ্নে উল্লেখিত অপশন গুলোর মধ্যে -<br/>ক) Partnership - অংশীদার, সঙ্গী<br/>খ) Friendship - বন্ধুত্ব; সখ্য; মিত্রতা;মৈত্রী; সৌহার্দ; মৈত্র; বন্ধুতা।<br/>গ) Enmity - শত্রুতা<br/>ঘ) Relationship - আত্মীয়তা / সম্পর্ক।<br/><br/>❐ সুতরাং, বোঝা যাচ্ছে যে, প্রশ্নে উল্লেখিত অপশন গুলোর মধ্যে Friendship শব্দটি Hostility এর বিপরীত অর্থ প্রকাশ করে।<br/>❐ তাই সঠিক উত্তর - Friendship",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206809,
+    "question": "Yearly celebration of a date or an event . ",
+    "options": [
+      "anniversary",
+      "birthday",
+      "jubilee",
+      "centenary"
+    ],
+    "correct_answer": "anniversary",
+    "explanation": "🔖প্রতিবছর নির্দিষ্ট দিন বা তারিখে কোন ঘটনার উদযাপনকে বার্ষিকী (Anniversary) বলা হয়। Birthday- জন্মদিন, Jubilee বা জয়ন্তী হচ্ছে কোনো ঘটনা বা প্রতিষ্ঠানের বিশেষ উৎসব অনুষ্ঠান যা সাধারণত ২৫, ৫০, ৬০ কিংবা ১০০ বছরের হয়ে থাকে । কোন ঘটনার শতবর্ষ উদযাপনকে centenary বলা হয় ।",
+    "hints": "📝Yearly celebration of a date or an event - anniversary.<br/>Bangla Meaning: কোনো ঘটনার সঙ্গে সংশ্লিষ্ট তারিখের বার্ষিক আবর্তন; এ উপলক্ষে আয়োজিত অনুষ্ঠান; বার্ষিকী<br/>▣ অন্য অপশন গুলোর মধ্যে -<br/>❐ Birthday - the day in each year that is the same date as the one on which you were born<br/>❐ Jubilee - a special anniversary of an event, especially one celebrating twenty-five or fifty years of a reign or activity<br/>❐ the hundredth anniversary of a significant event.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206810,
+    "question": "A person who studies the formation of the earth . ",
+    "options": [
+      "geologist",
+      "anthropologist",
+      "meteorologist",
+      "seismologist"
+    ],
+    "correct_answer": "geologist",
+    "explanation": "🔖যিনি পৃথিবীর গঠন নিয়ে গবেষণা করেন তাঁকে ভূবিজ্ঞানী (Geologist) বলা হয়।<br/>নৃবিজ্ঞানী (Anthropology): মানুষের অতীত বর্তমান ও বিকাশ নিয়ে গবেষণা করেন ।<br/>আবহাওয়াবিদ (Meteorologist): যিনি আবহাওয়া বিষয়ে গবেষণা ও পূর্বাভাস দেন।<br/>ভূকম্পবিদ (Seismologist): যিনি ভূমিকম্প ও বলবিদ্যা বিষয়ে গবেষণা করেন ।",
+    "hints": "📝A person who studies the formation of the earth - geologist<br/>Bangla Meaning: ভূতত্ত্ববিদ; ভূতাত্ত্বিক।<br/>❐ অন্য অপশন গুলোর মধ্যে -<br/>▣ anthropologist - an expert in or student of anthropology<br/>Bangla Meaning: নৃতত্ত্ববিদ; নৃতাত্ত্বিক; নৃবিজ্ঞানী।<br/>▣ meteorologist - a person who studies the weather.<br/>Bangla Meaning: আবহাওয়াবিজ্ঞানী; আবহাওয়াবিদ।<br/>▣ seismologist - a person who studies earthquakes and their waves to figure out the Earth's structure and composition.<br/>Bangla Meaning: ভূকম্পবিদ।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206811,
+    "question": "A tank in which fish are kept is called an - ",
+    "options": [
+      "aquacade",
+      "aquarium",
+      "aquatint",
+      "aqua tone"
+    ],
+    "correct_answer": "aquarium",
+    "explanation": "🔖যেখানে মাছ রাখা হয় তাকে Aquarium বা মাছের চৌবাচ্চা বলে। নাইট্রিক এসিড প্রয়োগ করে তামার উপর চিত্র খোদাই করার প্রক্রিয়াকে Aquatint বলা হয়। Aquacade বা Aqua tone বলতে কিছু নেই।",
+    "hints": "📝A tank in which fish are kept is called an - aquarium.<br/>Bangla Meaning: জীবন্ত মাছ ও জলজ উদ্ভিদ সংরক্ষণ ও প্রদর্শনের কৃত্রিম জলাধার; মৎস্যাধার।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206812,
+    "question": "One who sacrifices his life for a cause - ",
+    "options": [
+      "patroit",
+      "revolutionary",
+      "soldier",
+      "martyr"
+    ],
+    "correct_answer": "martyr",
+    "explanation": "🔖যিনি স্বদেশের মুক্তিকল্পে কোনো বিশেষ উদ্দেশ্যে নিজের জীবনকে উৎসর্গ করে তাকে শহীদ বা Martyr বলা হয়।<br/>Revolutionary (বিপ্লবী): যিনি রাজনৈতিক আমূল পরিবর্তনে জীবন উৎসর্গ করেন।<br/>Soldier (সৈনিক): যিনি সেনাবাহিনীতে চাকরি করেন।<br/>Patriot (স্বদেশপ্রেমিক): যিনি দেশকে ভালবাসেন এবং দেশকে রক্ষার্থে সদাপ্রস্তুত থাকেন ।",
+    "hints": "📝Martyr - A person who sacrifices his life for a cause.<br/>Bangla Meaning: শহীদ; ধর্মযুদ্ধ বা কোনো মহৎ কাজে আত্মোৎসর্গকারী।<br/>❐ অন্য অপশন গুলোর মধ্যে -<br/>▣ patriot - one who loves and supports his or her country<br/>Bangla Meaning: দেশপ্রেমিক; স্বদেশানুরাগী; স্বদেশের প্রবল সমর্থক বা ভক্ত।<br/>▣ revolutionary - involving or causing a complete or dramatic change.<br/>Bangla Meaning: বিপ্লবী; বৈপ্লবিক।<br/>▣ soldier - : one engaged in military service and especially in the army<br/>Bangla Meaning: সৈনিক; সৈন্য।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206813,
+    "question": "Opulent ",
+    "options": [
+      "hard-working",
+      "rich",
+      "obscure",
+      "comfortable"
+    ],
+    "correct_answer": "rich",
+    "explanation": "🔖Opulent- ঐশ্বর্যশীল<br/>Hard-working- কর্মঠ<br/>Rich- সম্পদশালী<br/>Obscure- অন্ধকারময়<br/>Comfortable- আরামদায়ক<br/>অতএব, Opulent এর প্রতিশব্দ Rich",
+    "hints": "📝<b>Opulent (adjective)</b><br/>Meaning: Wealthy.<br/>Bengali meaning: ধনী; বিত্তবান; অতি বাড়ন্ত; প্রবলভাবে বৃদ্ধিশীল।<br/>Synonym: Wealthy, Rich, Affluent, Well off, Well-to-do<br/>Antonym: Poor, Impoverished, Penurious, penniless.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206814,
+    "question": "Transform ",
+    "options": [
+      "transfer",
+      "change",
+      "continue",
+      "transact"
+    ],
+    "correct_answer": "change",
+    "explanation": "🔖Transform- রূপান্তর করা,<br/>Transfer- হস্তান্তর,<br/>Change- পরিবর্তন,<br/>Continue- অবিরত,<br/>Transact- পরিচালনা করা ।<br/>অতএব, Transform এর প্রতিশব্দ Change.",
+    "hints": "📝<b>Transform</b><br/>❐ পরিবর্তন, রুপান্তর।<br/>❐ make a marked change in the form, nature, or appearance of.<br/>❐ Synonym: alchemize, convert, metamorphose, transfigure, transmute, transpose, transubstantiate, change.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206815,
+    "question": "Recapitulation ",
+    "options": [
+      "introduction",
+      "recall",
+      "withdrawal",
+      "capture"
+    ],
+    "correct_answer": "recall",
+    "explanation": "🔖Recapitulation- অনুচিন্তা,<br/>introduction- সূচনা,<br/>Recall- অনুচিন্তা/ প্রত্যাহার/ স্মরণ করা,<br/>Withdrawal- প্রত্যাহার,<br/>Capture- নিয়ন্ত্রনে আনা, গ্রহণ ।<br/>অতএব, Recapitulation এর সমার্থক Recall.",
+    "hints": "📝<b>Recapitulation</b><br/>❐ সার-সংক্ষেপ, বিতর্ক, পুনরাবৃত্তি প্রভৃতি।<br/>❐ A concise summary.<br/>❐ Synonym: summary, outline, summarization, recap, précis, brief, resume, rundown, encapsulation, abstract, roundup, recall.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206816,
+    "question": "Complacent ",
+    "options": [
+      "recommend",
+      "satisfied",
+      "witty",
+      "confuse"
+    ],
+    "correct_answer": "satisfied",
+    "explanation": "🔖Complacent- আত্মসন্তুষ্টি,<br/>Recommend- সুপারিশ করা,<br/>Satisfied - সন্তুষ্ট,<br/>Witty- রসাত্মক,<br/>Confuse- বিহ্বল করা ।<br/>অতএব, Complacent এর প্রতিশব্দ Satisfied.",
+    "hints": "📝Complacent - আত্মতুষ্ট; পরিতৃপ্ত।<br/>অন্য অপশন গুলোর মধ্যে -<br/>ক) recommend - অনুকূলে বা সপক্ষে বলা; সুপারিশ করা।<br/>খ) satisfied - সন্তুষ্ট/পরিতৃপ্ত<br/>গ) witty - সিক; রসালো<br/>ঘ) confuse - গুলিয়ে ফেলা; বিশৃঙ্খল করা; বিভ্রান্ত বা কিংকর্তব্যবিমূঢ় হওয়া বা করা<br/>❐ সুতরাং বোঝা যাচ্ছে, অপশন গুলোর মধ্যে satisfied শব্দটি Complacent এর সমার্থক অর্থ প্রকাশ করে।<br/>❐ satisfied isthe one that can be substituted for the given word Complacent.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206817,
+    "question": "Visceral ",
+    "options": [
+      "cloudy",
+      "heavenly",
+      "bodily",
+      "intelligent"
+    ],
+    "correct_answer": "bodily",
+    "explanation": "🔖Visceral- আন্ত্রিক,<br/>Cloudy- মেঘলা,<br/>Heavenly- স্বর্গীয়,<br/>Bodily- দৈহিক,<br/>Intelligent- মেধাবী।<br/>অতএব, Visceral এর প্রতিশব্দ Bodily.",
+    "hints": "📝Visceral - আন্তরয়ন্ত্রীয়; নাড়ীভুঁড়ি-সম্বন্ধীয়;<br/>প্রশ্নে উল্লেখিত অপশন গুলোর মধ্যে -<br/>ক) cloudy - মেঘাচ্ছন্ন।<br/>খ heavenly - স্বর্গীয়; দিব্য; অমর্ত্য; অন্তরীক্ষ<br/>গ) bodily -দৈহিক; কায়িক; শারীরিক<br/>ঘ) intelligent - বুদ্ধিমান; মেধাবী; বিচক্ষণ; ধীমান<br/>❐ সুতরাং, বোঝা যাচ্ছে উল্লেখিত অপশন গুলোর মধ্যে bodily এবং Visceral শব্দ দুইটি শরীরের সাথে সম্পর্কিত ।<br/>❐ তাই সঠিক উত্তর - bodily",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206818,
+    "question": "Find the correct sentence :",
+    "options": [
+      "vaccum",
+      "vacum",
+      "vacuum",
+      "vaccuum"
+    ],
+    "correct_answer": "vacuum",
+    "explanation": "🔖Correct spelling হচ্ছে Vacuum ।<br/>Vacuum অর্থ বায়ুশূন্য স্থান ।",
+    "hints": "📝<b>Vacuum (noun)</b><br/>❐ সম্পূর্ণ বায়ুশূন্য বা বস্তুশূন্য স্থান; <br/>❐ শূন্য। <br/>❐ <b>Vacuum cleaner</b> <br/>যন্ত্রবিশেষ, যা ধূলি, ময়লা ইত্যাদি শুষে নেয়; শোষকল। <br/>❐",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206819,
+    "question": "Find the correct sentence :",
+    "options": [
+      "Sanquin",
+      "Sanguin",
+      "Sanguine",
+      "Sankuine"
+    ],
+    "correct_answer": "Sanguine",
+    "explanation": "🔖Correct spelling হচ্ছে Sanguine.<br/>Sanguine(adj)- অর্থ: আশাবাদী ।<br/>Sanguine (noun)- অর্থ: রক্তিম ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206820,
+    "question": "Find the correct sentence :",
+    "options": [
+      "Miscellaneous",
+      "Miscellanous",
+      "Misellaneous",
+      "M iscelaneous"
+    ],
+    "correct_answer": "Miscellaneous",
+    "explanation": "🔖Correct spelling হচ্ছে Miscellaneous.<br/>Miscellaneous - অর্থ: পাঁচমিশালী/বিবিধ ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206821,
+    "question": "Find the incorrect sentence : ",
+    "options": [
+      "orthopeadic",
+      "orthopedic",
+      "orthopadic",
+      "orthopaedic"
+    ],
+    "correct_answer": "orthopaedic",
+    "explanation": "🔖Correct spelling হচ্ছে Orthopedic/ Orthopaedic .<br/>Orthopedic / Orthopaedic দুটিই সঠিক যার অর্থ: অস্থিচিকিৎসা ।",
+    "hints": "📝<b>Orthopedic/ orthopaedic</b><br/>❐ অস্থির চিকিৎসা-সংক্রান্ত;<br/>❐ অস্থির বিকলাঙ্গতার চিকিৎসা-সম্পর্কিত।<br/>-Orthopedic/ orthopaedic means relating to problems affecting people's joints and spines.<br/><b>▣ Orthopaedic, orthopedic both are correct.</b><br/>❐ কিন্তু “<b>Orthopaedics” is commonly regarded as the British</b> and academic spelling of the term while <b>“orthopedics” can be considered its Americanized version।<br/></b>- সাধারণত চাকুরীর পরীক্ষায় এবং academic spelling এর ক্ষেত্রে British spelling অনুসরণ করা হয়।<br/>❐ সে অনুযায়ী <b>orthopaedic</b> বানান টিকে উত্তর হিসাবে নেয়া হয়েছে।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206822,
+    "question": "Find the incorrect sentence : ",
+    "options": [
+      "Brodcaster",
+      "Broodcaster",
+      "Boardcaster",
+      "Broadcaster"
+    ],
+    "correct_answer": "Broadcaster",
+    "explanation": "🔖Correct spelling হচ্ছে Broadcast.<br/>Broadcast- অর্থ: ঘোষক/ প্রচারক ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206823,
+    "question": "I ___ him on this point. ",
+    "options": [
+      "admitted to",
+      "agreed with",
+      "agree to",
+      "agreeing with"
+    ],
+    "correct_answer": "agreed with",
+    "explanation": "🔖admitted to- কোন কিছু স্বীকার বা কোন কাজে যোগ দেওয়াতে ব্যবহৃত হয়,<br/>Agree with- কোন ব্যক্তির সাথে কোন বিষয়ে সম্মতি দেয়ার অর্থে ব্যবহৃত হয়,<br/>Agree to- কারো প্রস্তাবে রাজি হওয়ার জন্য ব্যবহৃত হয় ।",
+    "hints": "📝Agree with- কারো সাথে একমত হওয়া, <br/>Agree to- কারো প্রস্তাবে রাজি হওয়া, <br/>Agree on- কোনো বিষয়ে একমত হওয়া।<br/>❐ I agreed with him on this point.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206824,
+    "question": "The specialist __ you want to meet is available only on Thursday . ",
+    "options": [
+      "whose",
+      "who",
+      "whom",
+      "which"
+    ],
+    "correct_answer": "whom",
+    "explanation": "🔖দুই clause বিশিষ্ট বাক্যে Gap এর পরে noun/pronoun থাকলে এবং antecedent টি person হলে Gap এ whom বসে ।",
+    "hints": "📝Whom ব্যক্তিকে নির্দেশ করে এবং object হিসেবে ব্যবহৃত হয়। <br/>❐ Sentence এ gap এর পর যদি সরাসরি একটি subject এবং একটি finite verb থাকে তাহলে gap এর মধ্যে object হিসেবে whom ব্যবহৃত হবে।<br/>❐ তাই নিয়মানুযায়ী সঠিক উত্তর - whom.<br/>❐ Complete Sentence: The specialist whom you want to meet is available only on Thursday.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206825,
+    "question": "They___ living here since 2000. ",
+    "options": [
+      "are",
+      "have been",
+      "are still",
+      "will be"
+    ],
+    "correct_answer": "have been",
+    "explanation": "🔖কোন কাজ পূর্বে শুরু হয় বর্তমানে চলছে এরূপ বোঝাতে present perfect continuous tense ব্যবহৃত হয় । এর গঠন: Subject+have been/has been+ মূল verb+ing+Extension. যেমন: They have been living here since 2000.",
+    "hints": "📝শূন্যস্থানে সঠিক উত্তর হবে - have been<br/>Since এর ব্যবহারঃ<br/>Point of time এর পূর্বে since বসে।<br/>Point of time হচ্ছে সেই সময়কাল যাকে এক, দুই, তিন ইত্যাদি গণনার একক দ্বারা গণনা করা যায় বরং কোনো মুহূর্ত বা সময়কে নির্দেশ করে।<br/>যেমন- গত সোমবার, গত সপ্তাহ/মাস/বছর, তিনটা, সাড়ে তিনটা ইত্যাদি।<br/>আবার,<br/>Since (হতে/থেকে) এর পরের বাক্যাংশ Past Indefinite Tense হলে পূর্বের বাক্যাংশ Present Indefinite/Present Perfect হয়।<br/>তবে since এর পূর্বের বাক্যাংশ দ্বারা অতীত থেকে এখন পর্যন্ত কোন কাজ চলমান আছে বুঝালে Present Perfect Continuous হয়।<br/>যেমন- I have been living in Dhaka since 2007.<br/>I have been waiting since half past three.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206826,
+    "question": "The stranger ___ in through the window last night . ",
+    "options": [
+      "creeping",
+      "crept",
+      "creeps",
+      "creep"
+    ],
+    "correct_answer": "crept",
+    "explanation": "🔖প্রদত্ত বাক্যে last night দ্বারা অতীতকাল বুঝানো হয়েছে। তাই verb- এর past form অর্থাৎ Crept in (অলক্ষিতভাবে প্রবেশ করা) ব্যবহৃত হয়েছে ।",
+    "hints": "📝শূন্যস্থানে সঠিক উত্ত হবে - crept.<br/>❐ last night থাকায় বোঝা যাচ্ছে বাক্যটি past tense এ আছে, তাই সঠিক verb form হবে crept.<br/>❐ Creep (verb):<br/>Meaning: Move slowly and carefully in order to avoid being heard or noticed.<br/>Bengali meaning: হামাগুড়ি দিয়ে চলা; চুপিসারে চলা ।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206827,
+    "question": "Do not look ___ on women. ",
+    "options": [
+      "right",
+      "left",
+      "up",
+      "down"
+    ],
+    "correct_answer": "down",
+    "explanation": "🔖কাউকে ঘৃণা করার অর্থে 'look down' group verb টি ব্যবহৃত হয়।<br/>কোন কিছু তন্ন তন্ন করে খোঁজা/ মূল্য বেড়ে যাওয়ার ক্ষেত্রে 'look up' ব্যবহৃত হয় ।<br/>Look right- দ্বারা কোথাও male- কে বুঝায়।<br/>অন্যদিকে look left- দ্বারা মনোবিজ্ঞানে মিথ্যা বোঝায় ।",
+    "hints": "📝শুন্যস্থানে সঠিক উত্তর হবে - down.<br/>Look down on<br/>English Meaning: to feel that someone is less important than them or does not deserve respect.<br/>Bangla Meaning: নিজের থেকে অন্যদের ছোট ভাবা",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206828,
+    "question": "who was the main singer of the ' Concert for Bangladesh' in 1971 ? ",
+    "options": [
+      "Runa Laila",
+      "George Harrison",
+      "Mark Anthony",
+      "Bappi Lahiri"
+    ],
+    "correct_answer": "George Harrison",
+    "explanation": "🔖মুক্তিযুদ্ধকালে বাংলাদেশি শরণার্থীদের পক্ষে জনমত ও তহবিল সংগ্রহের উদ্দেশ্যে 'Concert for Bangladesh' এর আয়োজন করা হয় নিউইয়র্ক (যুক্তরাষ্ট্র) সিটির ম্যাডিসন স্কয়ারে 1971 সালের 1 আগস্ট। এই অনুষ্ঠানের মূল গায়ক ছিলেন জর্জ হ্যারিসন এবং তিনিসহ রবিশংকর ছিলেন উদ্যোক্তা। অন্যদিকে এ অনুষ্ঠানের পরিচালক ছিলেন সল সুইমার ।",
+    "hints": "📝১৯৭১ সালের কনসার্ট অব বাংলাদেশ-এর প্রধান গায়ক ছিলেন - <b>জর্জ হ্যারিসন</b>।<br/>❐ 'দ্য কনসার্ট ফর বাংলাদেশ' ➞ মূলত শিরোনাম ছিল 'দ্য কনসার্ট ফর বাংলা দেশ' হল একটি লাইভ ট্রিপল অ্যালবাম, যা অ্যাপল রেকর্ডস কর্তৃক মুক্তি পেয়েছিল। <br/>❐ অ্যালবামটিতে কণ্ঠশিল্পী ছিলেন জর্জ হ্যারিসন ও তার বন্ধুরা। <br/>❐ এটি ১৯৭১ সালের ডিসেম্বরে যুক্তরাষ্ট্রে ও ১৯৭২ সালের জানুয়ারিতে ব্রিটেনে মুক্তি পেয়েছিল।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206829,
+    "question": "A Groupware is a - ",
+    "options": [
+      "Hardware",
+      "Software",
+      "Network",
+      "Foilmware"
+    ],
+    "correct_answer": "Software",
+    "explanation": "🔖Groupware বিস্তৃত ও সুনির্দিষ্ট সফটওয়্যার বাস্তবায়নের উভয় ওভার। সেখানে একই সরঞ্জাম এবং প্রসেসগুলি ব্যবহার করে একাধিক ব্যবহারকারী এই পরিবেশে সহযোগিতা করে। যেমন: আইবিএম- এর নোটিশ ভৌগোলিকভাবে দূরে অবস্থিত ব্যবহারকারীদের একসাথে কাজ করতে ব্যবহৃত হয়।",
+    "hints": "📝A groupware is a Software.<br/>❐ Groupware software কে Collaborative software বলা হয়।<br/>❐ Groupware software এক ধরনের Application Software যা একই ধরনের কাজের ডেটা ভাগ করে নিয়ে কার্য সম্পাদনের জন্য ব্যবহৃত হয়।<br/>❐ Groupware software এর উদাহরণ: Outlook, Office Suite, Gmail, Google Workspace।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206830,
+    "question": "As per World Bank criteria, Bangladesh has been graduated to the lower-middle income status in the year- ",
+    "options": [
+      "2013",
+      "2015",
+      "2014",
+      "2016"
+    ],
+    "correct_answer": "2015",
+    "explanation": "",
+    "hints": "📝<b>▣ নিম্ন মধ্যম আয়ের দেশ:</b><br/>❐ যেসব দেশের মাথাপিছু আয় ১ হাজার ৪৬ ডলার থেকে শুরু করে ৪ হাজার ১২৫ পর্যন্ত সেসব দেশকে নিম্ন মধ্যম আয়ের দেশের তালিকায় রাখা হয়।<br/>❐ বাংলাদেশ পরিসংখ্যান ব্যুরোর (বিবিএস) হিসাবে ২০১৪-১৫ অর্থবছরে বাংলাদেশের মাথাপিছু জাতীয় আয় ১ হাজার ৩১৪ ডলার।<br/>❐ বিশ্বব্যাংকের পদ্ধতি অনুযায়ী তা এখন ১ হাজার ৪৫ ডলারকে ছাড়িয়ে গেছে।<br/>❐ এ কারণেই নতুন তালিকায় <b>২০১৫ সালে</b> নিম্ন মধ্যম আয়ের দেশ হতে পেরেছে বাংলাদেশ।<br/>❐ বাংলাদেশের সঙ্গে কেনিয়া, মিয়ানমার ও তাজিকিস্তানও নিম্ন আয়ের দেশ থেকে নিম্ন-মধ্য আয়ের দেশে উন্নীত হয়েছে বলে বিশ্ব ব্যাংক জানিয়েছে।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206831,
+    "question": "'RAM' stands for- ",
+    "options": [
+      "Read access Memory",
+      "Random Access Memory",
+      "Read Arithmetic Memory",
+      "Random Arithmetic Memory"
+    ],
+    "correct_answer": "Random Access Memory",
+    "explanation": "🔖Random access memory (RAM) is a computer's short-term memory.<br/>None of your programs, files, or Netflix streams would work without RAM, which is your computer’s working space.<br/>In this article, we explain what RAM means in computer terms and why it’s important.",
+    "hints": "📝'RAM' stands for Random Access Memory.<br/>▣ <b>RAM:</b> মাদারবোর্ডের সাথে সরাসরি সংযুক্ত যে মেমোরিতে রিড (পঠন) এবং রাইট (লিখন) দুইটি কাজই সম্পন্ন করা যায় সে মেমোরিকে র‍্যাম বলা হয় ৷ <br/>❐ এটি একটি অস্থায়ী মেমোরি। <br/>❐ কম্পিউটারে যতক্ষণ বিদ্যুৎ সরবরাহ চালিত থাকে ততক্ষণ র‍্যামে তথ্যসমূহ সংরক্ষিত থাকে। <br/>❐ বিদ্যুৎ সরবরাহ বন্ধ হওয়ার সাথে সাথে র‍্যাম তার সমস্ত তথ্য মুছে ফেলে। <br/>❐ তাই একে অস্থায়ী মেমোরি হিসেবে অভিহিত করা হয়। <br/>❐ সাধারণত তথ্যসমূহ পঠন ও পরিবর্তনে র‍্যাম ব্যবহৃত হয়ে থাকে।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206832,
+    "question": "Which district of Bangladesh was a part of Assam? ",
+    "options": [
+      "Chittagong",
+      "Khulna",
+      "Feni",
+      "Sylhet"
+    ],
+    "correct_answer": "Sylhet",
+    "explanation": "🔖The 1947 Sylhet referendum was a referendum held in the British Raj's District of Sylhet to decide whether it would remain in Assam and join the Dominion of India, or leave Assam for East Bengal and thus join the Dominion of Pakistan.<br/>The referendum decided in favour of joining Pakistan; however, the district's Karimganj subdivision joined India.",
+    "hints": "📝<b>▣ সিলেট জেলা:</b><br/>১৮৭৪ - ১৯৪৭ পর্যন্ত সময়কালে সিলেট জেলা আসামের অন্তর্ভুক্ত থাকলেও ১৯৪৭ সালে ভারত বিভক্তির সময় গণভোটের মাধ্যমে<b> সিলেট জেলা</b> তৎকালীন পূর্ব পাকিস্তানের চট্টগ্রাম বিভাগের অন্তর্ভুক্ত হয়।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206833,
+    "question": "According to the Article 48 of Constitution of Bangladesh, what should be the minimum age of the president? ",
+    "options": [
+      "30",
+      "32",
+      "40",
+      "35"
+    ],
+    "correct_answer": "35",
+    "explanation": "🔖রাষ্ট্রপতি বাংলাদেশের রাষ্ট্রপ্রধান। যিনি বাংলাদেশ সংবিধানের 48 নং অনুচ্ছেদ অনুযায়ী সংসদ-সদস্য কর্তৃক নির্বাচিত হন। যার সর্বনিম্ন বয়স 35 বছর। তাছাড়া তিনি 50 নং অনুচ্ছেদ অনুযায়ী 5 বছর করে দুই মেয়াদের বেশি নির্বাচিত হবেন না ।",
+    "hints": "📝বাংলাদেশের প্রধানমন্ত্রী হওয়ার নূন্যতম বয়স ২৫ বছর।<br/>❐ সংবিধানের ৪৮(৪) অনুচ্ছেদ অনুযায়ী রাষ্ট্রপতি পদে নির্বাচিত হওয়ার ন্যূনতম বয়স<b> ৩৫ বছর</b>।<br/>❐ বাংলাদেশ সংবিধানের ১২২(২) খ অনুচ্ছেদ অনুযায়ী ব্যক্তির ভোটাধিকার প্রাপ্তির নূন্যতম বয়স ১৮ বছর।<br/>❐ সংবিধানের ১২২(১) অনুচ্ছেদে বলা আছে 'প্রাপ্ত বয়স্কদের ভোটাধিকার- এই নীতির ভিত্তিতে সংসদের নির্বাচন অনুষ্ঠিত হয়।'<br/>❐ তাই ভোটার হওয়ার নূন্যতম বয়স ১৮ বছর।<br/>❐ রাষ্ট্রপতি হওয়ার নূন্যতম বয়স ৩৫ বছর।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206834,
+    "question": "Which river of Bangladesh has its origin in Tibet ? ",
+    "options": [
+      "Padma",
+      "Brahmaputra",
+      "Surma",
+      "Meghna"
+    ],
+    "correct_answer": "Brahmaputra",
+    "explanation": "🔖ব্রহ্মপুত্র- তিব্বতের হিমালয়ের কৈলাসশৃঙ্গের মানস সরোবর,<br/>পদ্মা- হিমালয় পর্বতের গঙ্গোত্রী হিমবাহ,<br/>সুরমা- নাগা মনিপুর পাহাড়ের দক্ষিণাংশ এবং<br/>মেঘনা- আসামের নাগা মনিপুর পাহাড়ের দক্ষিণে লুইস পাহাড় থেকে উৎপত্তি লাভ করেছে।",
+    "hints": "📝<b>▣ </b><b>ব্রহ্মপুত্র:</b><br/>❐ হিমালয় পর্বতের কৈলাস শৃঙ্গের নিকটে ‘মানস সরোবর হ্রদ’ থেকে<b> ব্রহ্মপুত্র </b>নদের উৎপত্তি হয়েছে।<br/>❐ এটি<b> তিব্বত ও আসামের</b> উপর দিয়ে প্রবাহিত হয়ে কুড়িগ্রাম জেলার মধ্য দিয়ে বাংলাদেশে প্রবেশ করেছে।<br/>❐ ব্রহ্মপুত্র নদ ভৈরববাজারের নিকট মেঘনা নদীতে মিলিত হয়েছে।<br/>❐ ধরলা ও তিস্তা ব্রহ্মপুত্রের প্রধান উপনদী এবং বংশী ও শীতলক্ষ্যা প্রধান শাখা নদী।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206835,
+    "question": "Central Processing Unit (CUP) consists of - ",
+    "options": [
+      "control unit",
+      "arithmetic & logic unit",
+      "main store",
+      "all of the above"
+    ],
+    "correct_answer": "all of the above",
+    "explanation": "🔖Central processing unit (CPU), principal part of any digital computer system, generally composed of the main memory, control unit, and arithmetic-logic unit.<br/>.. In modern computers, the CPU is contained on an integrated circuit chip called a microprocessor.",
+    "hints": "📝CPU এর পূর্ণরুপ Central Processing Unit।<br/>❐ কম্পিউটারের ব্রেইন বা মস্তিষ্ক বলতে CPU কে বোঝায়।<br/>❐ কম্পিউটারের প্রদত্ত সব কমান্ড প্রক্রিয়াকরণ হয় CPU তে।<br/>❐ এটিই সব কিছুর নিয়ন্ত্রক।<br/><b>▣ CPU এর তিনটি প্রধান অংশ নিয়ে গঠিত-</b><br/><b> 1. ALU (Arithmetic Logic Unit)</b><br/><b> 2. Control Unit</b><br/><b> 3. Memory/Register</b>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206836,
+    "question": "Who was the promoter of Chinese 'One Road ' initiative? ",
+    "options": [
+      "Jing Zemin",
+      "Hanyu Pinyin",
+      "Sinzo Abe",
+      "Xi Jinping"
+    ],
+    "correct_answer": "Xi Jinping",
+    "explanation": "🔖The Belt and Road Initiative known in Chinese and formerly in English or OBOR for short, is a global infrastructure development strategy adopted by the Chinese government in 2013 to invest in nearly 70 countries and international organizations.<br/>It is considered a centerpiece of Chinese Communist Party general secretary and paramount leader Xi Jinping's foreign policy,<br/>who originally announced the strategy as the \"Silk Road Economic Belt\" during an official visit to Kazakhstan in September 2013.",
+    "hints": "📝<b>▣ 'ওয়ান বেল্ট ওয়ান রোড':</b><br/>❐ ২০১৩ সালে 'ওয়ান বেল্ট ওয়ান রোড' নামে একটি উন্নয়ন কৌশল ও কাঠামো উপস্থাপন করেন চীনের প্রেসিডেন্ট শি জিং পিং।<br/>❐ ২০১৬ সালের অক্টোবরে চীনের প্রেসিডেন্ট শি জিং পিং এর ঢাকা সফরের সময় 'ওয়ান বেল্ট, ওয়ান রোড' উদ্যোগে আনুষ্ঠানিকভাবে বাংলাদেশ যোগ দিয়েছিলো।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206837,
+    "question": "The High Commissioner of India Bangladesh who has been appointed as the new Indian Ambassador to USA-",
+    "options": [
+      "Pinak RanJan Chakravarty",
+      "Riva anguly Das",
+      "Harsha Varshan Shringla",
+      "None of them"
+    ],
+    "correct_answer": "Harsha Varshan Shringla",
+    "explanation": "🔖বাংলাদেশে প্রাক্তন ভারতীয় হাইকমিশনার জ্যেষ্ঠ কূটনীতিক হর্ষ বর্ধন শ্রিংলা সম্প্রতি যুক্তরাষ্ট্রে ভারতীয় রাষ্ট্রদূত হিসেবে দায়িত্ব পেয়েছেন। অন্যদিকে, রিভ গাঙ্গুলি দাস বাংলাদেশে বর্তমানে ভারতীয় হাইকমিশনার। পিনাক রঞ্জন চক্রবর্তী ২০০৭ সালে এক-এগারাের তত্ত্বাবধায়কের সময়কালে বাংলাদেশে ভারতের হাইকমিশনার ছিলেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206838,
+    "question": "What is the global rank of Bangladesh in terms of population ? ",
+    "options": [
+      "7th",
+      "9th",
+      "8th",
+      "10 th"
+    ],
+    "correct_answer": "8th",
+    "explanation": "🔖Bangladesh officially the People's Republic of Bangladesh, is a country in South Asia.<br/>It is the eighth-most populous country in the world, with a population exceeding 164 million people.<br/>In terms of landmass, Bangladesh ranks 92nd, spanning 148,460 square kilometres (57,320 sq mi), making it one of the most densely populated countries in the world.<br/>Bangladesh shares land borders with India to the west, north, and east, Myanmar to the southeast, and the Bay of Bengal to the south.",
+    "hints": "📝জনসংখ্যায় বিশ্বে <b>অষ্টম</b> বৃহত্তম দেশ বাংলাদেশ<br/>❐ World Population Prospects 2022:<br/>জুলাই ২০২২ এ জাতিসংঘের জনসংখ্যা বিভাগ 'World Population Prospects 2022' শিরোনামে একটি প্রতিবেদন প্রকাশ করে।<br/>❐ প্রতিবেদন অনুসারে ➞<br/>▣ জনসংখ্যার দিক থেকে পৃথিবীর শীর্ষ তিন দেশ ➞ ১. চীন (১৪২৬ মিলিয়ন); ২. ভারত (১৪১২ মিলিয়ন) ও ৩. যুক্তরাষ্ট্র (৩৩৭ মিলিয়ন)।<br/>▣ জনসংখ্যার দিক থেকে বিশ্বে বাংলাদেশের অবস্থান অষ্টম (১৭০ মিলিয়ন)।<br/>▣ জনসংখ্যার ঘনত্বে বিশ্বের শীর্ষ দেশ - মোনাকো (২৪,৪৭৬ জন/বর্গ কিমি)।<br/>▣ জনসংখ্যার ঘনত্বে বাংলাদেশের অবস্থান - ষষ্ঠ (১,৩১৫ জন/বর্গ কিমি)<br/>▣ সার্কভুক্ত দেশের মধ্যে জনসংখ্যার ঘনত্ব সবচেয়ে বেশি ➞ মালদ্বীপ (চতুর্থ) (১,৭৪৬ জন/বর্গ কিমি)।<br/>▣ ২০৫০ সালে বিশ্বের সবচেয়ে জনবহুল দেশ হবে ভারত, দ্বিতীয় চীন।<br/>▣ ২০৫০ সালে বাংলাদেশের জনসংখ্যা হবে ২০৪ মিলিয়ন।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206839,
+    "question": "During the War of Liberation, Barishal was under sector number - ",
+    "options": [
+      "1",
+      "6",
+      "9",
+      "8"
+    ],
+    "correct_answer": "9",
+    "explanation": "🔖৯ নম্বর সেক্টর<br/>দৌলতপ‍ুর-সাতক্ষীরা সড়ক থেকে খুলনার দক্ষিণাঞ্চল এবং সমগ্র বরিশাল ও পটুয়াখালী জেলা নিয়ে এ সেক্টর গঠিত।",
+    "hints": "📝কৌশলগত কারণে যুদ্ধ পরিচালনার জন্য সমগ্র বাংলাদেশকে ১১টি সেক্টরে (১০টি ভৌগলিক অঞ্চল এবং একটি অঞ্চল বিহীন বিশেষ সেক্টর) ভাগ করা হয়।<br/>সমগ্র বরিশাল, পটুয়াখালী ও খুলনা জেলা (সাতক্ষীরা বাদে), ফরিদপুর জেলার অংশ বিশেষ এবং গোপালগঞ্জ নিয়ে ৯নং সেক্টর গঠিত হয়েছিল।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206840,
+    "question": "which of these organizations has been awarded the Nobel Prize three times? ",
+    "options": [
+      "International Committee of Red Cross",
+      "Amnesty International",
+      "Transparency International",
+      "United Nations Organization"
+    ],
+    "correct_answer": "International Committee of Red Cross",
+    "explanation": "🔖The Nobel Peace Prize has been awarded 101 times to 135 Nobel Laureates between 1901 and 2020, 107 individuals and 28 organizations.<br/>Since the International Committee of the Red Cross has been awarded the Nobel Peace Prize three times (in 1917, 1944 and 1963),<br/>and the Office of the United Nations High Commissioner for Refugees has been awarded the Nobel Peace Prize two times (in 1954 and 1981), there are 25 individual organizations which have been awarded the Nobel Peace Prize. Click on the links to get more information.",
+    "hints": "📝<b>▣ রেডক্রস:</b><br/>❐ সুইজারল্যান্ডের নাগরিক হেনরি ডুনান্ট ১৮৬৩ সালে ‘রেডক্রস’ প্রতিষ্ঠা করেন।<br/>❐ এটি মুসলিম বিশ্বে ‘রেডক্রিসেন্ট’ নামে পরিচিত।<br/>❐ এটির সদরদপ্তর সুইজারল্যান্ডের জেনেভায় অবস্থিত।<br/>❐ হেনরি ডুনান্টের জন্ম তারিখ ৮ মে ‘বিশ্ব রেডক্রস ও রেডক্রিসেন্ট দিবস’ হিসেবে পালন করা হয়।<br/>❐ আন্তর্জাতিক রেডক্রস কমিটি মোট<b> তিনবার (১৯১৭, ১৯৪৪ ও ১৯৬৩ সালে) শান্তিতে নোবেল পুরস্কার লাভ করে।</b><br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206841,
+    "question": "Antivirus software is a type of - ",
+    "options": [
+      "System software",
+      "Utility Software",
+      "Application Software",
+      "Publishing"
+    ],
+    "correct_answer": "Utility Software",
+    "explanation": "🔖Utility Software- কম্পিউটারকে রক্ষণাবেক্ষণ, বিশ্লেষণ, ভাইরাস থেকে সুরক্ষা, উপাত্ত ও প্রােগ্রামের ব্যাক আপ, বিভিন্ন রিকোভারি কাজসহ সুবিধা প্রদানকারী প্রােগ্রামসমূহ। যেমন Anti- virus Software, library Program, Disk Fragmentation.",
+    "hints": "📝Antivirus software is a type of Utility software.<br/>❐ কম্পিউটার বা আইসিটি যন্ত্রের প্রতিষেধক হল এন্টিভাইরাস। <br/>❐ কম্পিউটার ভাইরাসের সংক্রমণ থেকে কম্পিউটার বা আইসিটি যন্ত্রসমূহকে রক্ষা করতে এন্টিভাইরাস ইউটিলিটি সফ্টওয়্যার ব্যবহার করতে হয়। <br/>❐ এই প্রোগাম গুলো প্রথমে আক্রান্ত কম্পিউটারে ভাইরাসের চিহ্নের সাথে পরিচিত ভাইরাসের চিহ্ন গুলোর মিলকরণ করে। <br/>❐ অতঃপর এটি সংক্রমিত অবস্থান থেকে আসল প্রোগ্রামকে ঠিক করে।<br/>❐ সাধারণত একটি ভাল মানের এন্টিভাইরাস কয়েকশ ভাইরাস নির্মূল করতে পারে। <br/>❐ বর্তমান সময়ের এন্টিভাইরাস গুলো ভাইরাস আক্রমণ করার পূর্বেই তা ধ্বংস করে কিংবা ব্যবহারকারীকে সতর্ক করে দেয়। <br/>❐ ফলে এগুলো ভাইরাস প্রতিকারে অনেক বেশি কার্যকর। <br/>❐ তবে মনে রাখতে হবে যে এন্টিভাইরাস সফ্টওয়্যার সবসময় হালনাগাদ বা আপডেট করে নিতে হবে।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206842,
+    "question": "The currency of Japan is known as - ",
+    "options": [
+      "Yen",
+      "Dollar",
+      "Renminbi",
+      "Ringgit"
+    ],
+    "correct_answer": "Yen",
+    "explanation": "🔖জাপানের মুদ্রা হলো- ইয়েন।<br/>মালয়েশিয়ার মুদ্রা হলো - রিংগিত।<br/>অস্ট্রেলিয়ার মুদ্রা হলো - ডলার।",
+    "hints": "📝<b>ইয়েন</b> : জাপানের মুদ্রা<br/>❐ এছাড়াও<br/>❐ ইউয়ান : চীনের মুদ্রা<br/>❐ রিঙ্গিত : মালয়েশিয়ার মুদ্রা<br/>❐ উন : দক্ষিণ কোরিয়ার মুদ্রা।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206844,
+    "question": "who has been awarded posthumous 'Ekushey Padak' in 2018 ? ",
+    "options": [
+      "Humayun Ahmed",
+      "Humayun Faridi",
+      "Humayun Kabir",
+      "Humayun Azad"
+    ],
+    "correct_answer": "Humayun Faridi",
+    "explanation": "🔖১৯৭৬ সালে একুশে পদক চালু করা হয়। ২০১৮ সালে ২১ ব্যক্তিকে একুশে পদকে পুরস্কৃত করা হয়। তন্মধ্যে শিল্পকলা (অভিনয়) এ মরণােত্তর পুরস্কার প্রদান করা হয় হুমায়ুন ফরীদি (হুমায়ুন কামরুল ইসলাম) কে। প্রসঙ্গত, এ পদকে প্রদেয় বস্তু: ৩৫ গ্রাম ওজনের একটি পদক এবং পদকের একটি রেপ্লিকা, ২ লক্ষ টাকা এবং একটি সম্মাননাপত্র।",
+    "hints": "📝একুশে পদক ২০১৮ :<br/>❐ ভাষা, সমাজসেবা, সঙ্গীত, সাংবাদিকতা, অভিনয়, চারুকলাসহ নিজ নিজ ক্ষেত্রে অবদান রাখায় ২১ গুণীজনকে একুশে পদকে ভূষিত করা হয়েছিলো।<br/>❐ পদকপ্রাপ্তরা হলেন -<br/>❐ ভাষা আন্দোলনে - প্রয়াত আ জ ম তকীয়ুল্লাহ (মরণোত্তর) ও অধ্যাপক মির্জা মাজহারুল ইসলাম।<br/>❐ সমাজসেবায় নিরাপদ সড়কের জন্য সামাজিক আন্দোলন গড়ে তোলা ইলিয়াস কাঞ্চন।<br/>❐ অভিনয়ে হুমায়ূন ফরীদি (মরণোত্তর)।<br/>❐ সঙ্গীতে শেখ সাদী খান, সুজেয় শ্যাম, ইন্দ্র মোহন রাজবংশী, মো. খুরশীদ আলম ও মতিউল হক খান।<br/>❐ নৃত্যে একুশে পদক পেয়েছেন মীনু হক।<br/>❐ নাটকে পেয়েছেন নিখিল সেন।<br/>❐ চারুকলায় কালিদাস কর্মকার এবং আলোকচিত্রে গোলাম মুস্তাফা।<br/>❐ সাংবাদিকতায় রণেশ মৈত্র।<br/>❐ গবেষণায় প্রয়াত ভাষাসৈনিক অধ্যাপক জুলেখা হক (মরণোত্তর)।<br/>❐ অর্থনীতিতে মইনুল ইসলাম।<br/>❐ ভাষা ও সাহিত্যে সৈয়দ মনজুরুল ইসলাম, সাইফুল ইসলাম খান (কবি হায়াৎ সাইফ), সুব্রত বড়ুয়া, রবিউল হুসাইন ও মরহুম খালেকদাদ চৌধুরী একুশে পদক পেয়েছেন।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206845,
+    "question": "The Procedure for starting or re-starting a computer is called- ",
+    "options": [
+      "Warm Boot",
+      "cold Boot",
+      "Booting",
+      "Loading of Windows"
+    ],
+    "correct_answer": "Booting",
+    "explanation": "🔖বুটিং (Booting) একটি স্বয়ংক্রিয় প্রক্রিয়া যা কম্পিউটার চালু বা পুন:চালু করতে ব্যবহৃত হয়। এক্ষেত্রে কম্পিউটার চালু করা হলে সিপিইউ প্রয়ােজনীয় হার্ডওয়্যারকে যাচাই করার অপারেটিং সিস্টেমকে হার্ডডিস্ক থেকে স্বয়ংক্রিয়ভাবে র্যামের মধ্যে তুলে নেয় এবং ব্যবহারকারীর নির্দেশ গ্রহণের জন্য প্রস্তুত করে।",
+    "hints": "📝কম্পিউটার চালু করা বা পুনঃরায় চালু করার প্রক্রিয়াকে Booting বলে।<br/>❐ যখন কম্পিউটারটি প্রথমবার চালু করা হয় তখন সিস্টেমটি রম BIOS চিপ গুলোতে প্রাপ্ত স্টার্টআপ নির্দেশাবলীটি পড়ে।<br/>❐ এই নির্দেশাবলী কম্পিউটারে পরীক্ষা করার জন্য পাওয়ার অন সেলফ টেস্ট (POST) নামে কিছু পরীক্ষা করে।<br/>❐ এটি সিস্টেমের হার্ডওয়্যারটি সঠিক কিনা তা পরীক্ষা করে। এই প্রক্রিয়াটিকে Booting বলে।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206846,
+    "question": "What is the name of the Central Bank of India? ",
+    "options": [
+      "Bank of India",
+      "Reserve Bank of India",
+      "Central Bank of India",
+      "None of these"
+    ],
+    "correct_answer": "Reserve Bank of India",
+    "explanation": "🔖Central Bank of India, a government-owned bank, is one of the oldest and largest commercial banks in India.<br/>It is based in Mumbai which is the financial capital of India and capital city of state of Maharashtra.",
+    "hints": "📝ভারতের কেন্দ্রীয় ব্যাঙ্কের নাম রিজার্ভ ব্যাঙ্ক অফ ইন্ডিয়া।<br/><b>▣ ভারতীয় রিজার্ভ ব্যাঙ্ক:</b><br/>প্রতিষ্ঠা লাভ করে-১ এপ্রিল, ১৯৩৫ সাল।<br/>এটি তার প্রাতিষ্ঠানিক ইতিহাসের নথিভুক্ত কয়েকটি কেন্দ্রীয় ব্যাঙ্কের মধ্যে একটি।<br/>এ পর্যন্ত, এটি এর ইতিহাসের চারটি খণ্ড বের করেছে।<br/>ভলিউম-১: - ১৯৩৫ থেকে ১৯৫১ সময়কালকে কভার করে, যা ১৯৭০ সালে প্রকাশিত হয়েছিল।<br/>ভলিউম-২: - ১৯৫১ থেকে ১৯৬৭ সময়কাল কভার করে, যা ১৯৯৮ সালে প্রদর্শিত হয়েছিল।<br/>ভলিউম-৩: ১৮ মার্চ, ২০০৬ সালে মাননীয় প্রধানমন্ত্রী, ডঃ মনমোহন সিং ১৯৬৭ থেকে ১৯৮১ সাল পর্যন্ত রিজার্ভ ব্যাঙ্কের ইতিহাসের তৃতীয় খণ্ড প্রকাশ করেন।<br/>ভলিউম-৪: রিজার্ভ ব্যাঙ্কের ইতিহাসের ভলিউম ৪ টিও ১৭ আগস্ট, ২০১৩-এ ভারতের মাননীয় প্রধানমন্ত্রী ড. মনমোহন সিং প্রকাশ করেছিলেন৷ এটি ১৯৮১ থেকে ১৯৯৭সাল পর্যন্ত ঘটনাবহুল ১৬ বছর কভার করে।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206847,
+    "question": "which of the following is the deepest river in the world ? ",
+    "options": [
+      "Volga",
+      "Nile",
+      "Congo",
+      "Amazon"
+    ],
+    "correct_answer": "Congo",
+    "explanation": "🔖কঙ্গো নদী আফ্রিকা মহাদেশেের দ্বিতীয় দীর্ঘতম নদী এবং জলপ্রবাহের দিক থেকে পৃথিবীর দ্বিতীয় সর্বাধিক জলপ্রবাহিত হওয়া নদী।<br/>গভীরতার দিক থেকে এটি পৃথিবীর গভীরতম নদী যার গভীরতা ২২০ মি (৭২০ ফু)।",
+    "hints": "📝<b>বিশ্বের গভীরতম নদী:</b><br/>বিশ্বের গভীরতম নদী হলো কঙ্গো (Congo ) নদী।<br/>বিশ্বের ২য় শীর্ষ গভীরতম নদী হলো Yangtze নদী।<br/>❐ বিশ্বের গভীরতম নদীর তালিকা :<br/>1. Congo <br/>2. Yangzte <br/>3. Danube <br/>4. Zambezi <br/>5. Amazon",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206848,
+    "question": "General A.K Niazi surrendered at - ",
+    "options": [
+      "Suhrawardy Udyan",
+      "Paltan Maidan",
+      "Osmani Udyan",
+      "Lalbagh"
+    ],
+    "correct_answer": "Suhrawardy Udyan",
+    "explanation": "🔖১৯৭১ সালের ১৬ ডিসেম্বর তকালীন রেসকোর্স ময়দানে (বর্তমান সােহরাওয়ার্দী উদ্যান) জেনারেল এ.কে নিয়াজী ৯৩ হাজার পাকিস্তানি সৈন্য নিয়ে যৌথ কমান্ডের প্রধান জেনারেল জগজিৎ সিং অরােরার কাছে আত্মসমর্পণ করেন। এ অনুষ্ঠানে বাংলাদেশের পক্ষে নেতৃত্ব দেন তঙ্কালীন বিমান বাহিনীর প্রধান এয়ার কমােডর এ কে খন্দকার।",
+    "hints": "📝১৯৭১ সালের ৬-১৬ ডিসেম্বর যৌথ বাহিনীর দুর্বার আক্রমণে পর্যুদস্ত পাকিস্তানি হানাদার বাহিনী অবশেষে আত্মসমর্পণে সম্মত হয়।<br/>❐ ১৬ ডিসেম্বর তৎকালীন রেসকোর্স ময়দানে (বর্তমান সোহরাওয়ার্দী উদ্যান) পাকিস্তান বাহিনীর ইস্টার্ন কমান্ডের প্রধান লে. জেনারেল আমীর আবদুল্লাহ খান নিয়াজী ৯৩ হাজার সৈন্যসহ যৌথ বাহিনীর নিকট আত্মসমর্পণ করেন।<br/>❐ পাকিস্তানের পক্ষে নিয়াজী এবং যৌথ বাহিনীর পক্ষে আত্মসমর্পণ দলিলে স্বাক্ষর করেন ভারতীয় সেনাবাহিনীর ইস্টার্ন কমান্ডের প্রধান লে. জেনারেল জগজিৎ সিং অরোরা।<br/>- বাংলাদেশ সরকারের পক্ষে গ্রুপ ক্যাপ্টেন এ কে খন্দকার উপস্থিত ছিলেন।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206849,
+    "question": "who was the Finance Minister of Mujibnagar Government ? ",
+    "options": [
+      "Professor Yousur ALi",
+      "AHM Kamaruzzaman",
+      "Captain M Mansur Ali",
+      "Tajuddin Ahmad"
+    ],
+    "correct_answer": "Captain M Mansur Ali",
+    "explanation": "🔖মোঃ মনসুর আলী (১৬ জানুয়ারি ১৯১৯ - ৩ নভেম্বর ১৯৭৫) একজন আইনজীবি, রাজনৈতিক এবং বাংলাদেশের সাবেক প্রধানমন্ত্রী।<br/>তিনি শেখ মুজিবুর রহমান কর্তৃক বাকশাল প্রতিষ্ঠার পর তিনি বাংলাদেশের প্রধানমন্ত্রী ছিলেন। ১৯৪৮ সালে তিনি পি.এল জি’র ক্যাপ্টেন পদে অধিষ্ঠিত হয়ে যশোর সেনানিবাসে প্রশিক্ষণ নেন।<br/>তখন থেকেই তিনি ‘ক্যাপ্টেন মনসুর’ নামেই অধিক পরিচিত ছিলেন। ১৯৭১ সালে মুক্তিযুদ্ধের প্রাক্কালে মেহেরপুরের বৈদ্যনাথতলার আম্রকাননে গঠিত বাংলাদেশ সরকারে তিনি অর্থ মন্ত্রণালয়ের দায়িত্ব নিয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।<br/>১৯৭৫ সালের ৩ নভেম্বর জেলহত্যার ফলে নিহত চার জাতীয় নেতার মধ্যে তিনিও একজন।<br/>তার পুত্র মোহাম্মদ নাসিম বাংলাদেশ আওয়ামী লীগের একজন প্রভাবশালী নেতা এবং ১৯৯৬-২০০১ সময়কালে বাংলাদেশ সরকারের স্বরাষ্ট্রমন্ত্রীর দায়িত্ব পালন করেন এবং ২০১৩ থেকে ২০১৮ পর্যন্ত স্বাস্থ্যমন্ত্রীর দায়িত্ব পালন করেছেন।",
+    "hints": "📝<b>মুজিবনগর সরকার:</b><br/>❐ ১৯৭১ সালের ১০ এপ্রিল অস্থায়ী প্রবাসী সরকার গঠিত হয় যা মুজিবনগর সরকার নামে পরিচিত।<br/>❐ এই সরকারের রাষ্ট্রপতি ছিলেন - বঙ্গবন্ধু শেখ মুজিবুর রহমান।<br/>❐ উপ রাষ্ট্রপতি ছিলেন - সৈয়দ নজরুল ইসলাম।<br/>❐ প্রধানমন্ত্রী ও প্রতিরক্ষা মন্ত্রী ছিলেন - তাজউদ্দিন আহমেদ।<br/>❐ স্বরাষ্ট্র, ত্রাণ, পুনর্বাসন ও কৃষি মন্ত্রী ছিলেন - এএইচএম কামারুজ্জামান।<br/>❐ অর্থ ও বাণিজ্য মন্ত্রী ছিলেন - ক্যাপ্টেন এম মনসুর আলী।<br/>❐ পররাষ্ট্র, আইন ও সংসদ বিষয়ক মন্ত্রী ছিলেন - খন্দকার মোশতাক আহমদ।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206850,
+    "question": "Two valiant freedom fighters who have been awarded 'Bir Protik' title- ",
+    "options": [
+      "Sultana Kabir & Salma Khan",
+      "Anzuman Ara & Kaniz Fatema",
+      "Dr. Setara Begum & Taramon Bibi",
+      "None of them"
+    ],
+    "correct_answer": "Dr. Setara Begum & Taramon Bibi",
+    "explanation": "🔖বাংলাদেশের স্বাধীনতা যুদ্ধে যাঁরা অবদান রেখেছিলেন তাদের মধ্যে থেকে বাংলাদেশ সরকার বিভিন্ন জনকে তাদের অবদানের ভিত্তিতে বীর শ্রেষ্ঠ, বীর উত্তম, বীর বিক্রম ও বীর প্রতীক উপাধিতে ভূষিত করেন। বীর প্রতীক চতুর্থ সর্বোচ্চ উপাধি।<br/>মোট ৪২৬ জনকে এই উপাধিতে ভূষিত করা হয়।<br/>বাংলাদেশের মুক্তিযুদ্ধের সময় ২ জন মহিলা অংশগ্রহণ করে তারা হলেন সেতারা বেগম ও তারামন বিবি।",
+    "hints": "📝বাংলাদেশের স্বাধীনতা যুদ্ধে সাহসী ভূমিকা পালনের জন্য যে দুই নারী 'বীরপ্রতীক' খেতাব পেয়েছেন।<br/>❐ ক্যাপ্টেন ডা. সিতারা বেগম ও<br/>❐ তারামন বিবি।<br/>❐ ▪ তারামন বিবি ও ডা. সেতারা বেগম ১৯৭১ সালের স্বাধীনতাযুদ্ধে যথাক্রমে ১১ ও ২ নং সেক্টরে যুদ্ধ করেন।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206851,
+    "question": "A megabyte is actually equal to ___ kilobytes. ",
+    "options": [
+      "100",
+      "1000",
+      "1028",
+      "1024"
+    ],
+    "correct_answer": "1024",
+    "explanation": "🔖1 Megabyte is equal to 1000 kilobytes (decimal).<br/>1 MB = 103 KB in base 10 (SI). 1 Megabyte is equal to 1024 kilobytes (binary).",
+    "hints": "📝৮ বিট = ১ বাইট<br/>১০২৪ বাইট = ১ কিলোবাইট<br/>১০২৪ কিলোবাইট = ১ মেগাবাইট<br/>১০২৪ মেগাবাইট = ১ গিগাবাইট<br/>১০২৪ গিগাবাইট = ১ টেরাবাইট<br/>১০২৪ টেরাবাইট = ১ পেটাবাইট<br/>১০২৪ পেটাবাইট = ১ এক্সাবাইট<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206852,
+    "question": "which of the following Indian states has a boundary with Myanmar as well as Bangladesh ? ",
+    "options": [
+      "Manipur",
+      "Tripura",
+      "Mizaram",
+      "Nagaland"
+    ],
+    "correct_answer": "Mizaram",
+    "explanation": "🔖বাংলাদেশের সীমান্তবর্তী রাষ্ট্র ২টি (ভারত ও মিয়ানমার) এবং সীমান্তবর্তী জেলা ৩২টি বাংলাদেশের পূর্বে ভারতের আসাম ত্রিপুরা, মিজোরাম ও মিয়ানমার; পশ্চিমে পশ্চিমবঙ্গ; উত্তরে পশ্চিবঙ্গ, আসাম ও আসাম ও মেঘালয় এবং দক্ষিণে বঙ্গোপসাগর। বাংলাদেশের সীমান্ত সংলগ্ন ভারতের ৫টি প্রদেশের (মেঘালয়, আসাম, পশ্চিমবঙ্গ, ত্রিপুরা ও মিজোরাম) এর মধ্যে একমাত্র মিজোরামের সাথে বাংলাদেশ ও মিয়ানমারের সীমান্ত রয়েছে। মণিপুর ও নাগাল্যান্ডের সাথে বাংলাদেশ সীমান্ত নেই।",
+    "hints": "📝ভারতের যে রাজ্যের সাথে বাংলাদেশ ও মিয়ানমারের সীমানা রয়েছে - মিজোরাম।<br/>▣ বাংলাদেশের সীমান্তবর্তী জেলা মোট ৩২টি।<br/>❐ তার মধ্যে -<br/>❐ ভারতের সাথে ৩০টি জেলার এবং<br/>❐ মিয়ানমারের সাথে ৩টি (কক্সবাজার, রাঙ্গামাটি ও বান্দরবান) জেলার সীমান্ত রয়েছে।<br/>❐ রাঙ্গামাটি একমাত্র জেলা যার সাথে ভারত ও মিয়ানমার ২টি দেশের সাথেই সীমান্ত রয়েছে।",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  },
+  {
+    "id": 206853,
+    "question": "which cricketer has scored fastest century in ODI cricket? ",
+    "options": [
+      "Vivian Richards",
+      "AB De Villiers",
+      "Shahid Afridi",
+      "Corey Anderson"
+    ],
+    "correct_answer": "AB De Villiers",
+    "explanation": "🔖Abraham Benjamin de Villiers (born 17 February 1984) is a South African cricketer.<br/>Considered as one of the best players in the world, he was named as the ICC ODI Player of the Year three times during his 15-year international career and was one of the five Wisden cricketers of the decade at the end of 2019.<br/>he has fasted century of odi cricketer.",
+    "hints": "📝<b>দ্রুততম সেঞ্চুরি:</b><br/>❐ ওয়ানডেতে ৩১ বলে দ্রুততম সেঞ্চুরি করেছেন এবি ডি ভিলিয়ার্স।<br/>❐ ওয়ানডেতে এর চেয়ে কম বলে সেঞ্চুরি আর নেই।<br/>❐ এবি ডি এই রেকর্ড গড়েন ওয়েস্ট ইন্ডিজ এর বিপক্ষে।<br/>",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Pubali Bank Ltd",
+    "exam": "১৯@জুনিয়র অফিসার ০১. ০৩. .১৯"
+  }
+]

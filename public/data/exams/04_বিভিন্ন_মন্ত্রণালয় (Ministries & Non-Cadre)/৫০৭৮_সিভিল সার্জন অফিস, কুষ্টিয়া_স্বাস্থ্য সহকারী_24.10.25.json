@@ -1,0 +1,1362 @@
+[
+  {
+    "id": 331768,
+    "question": "X এবং Y উভয় বিজোড় সংখ্যা হলে নিচের কোনটি জোড় সংখ্যা হয়ে?",
+    "options": [
+      "x + y + 1",
+      "xy",
+      "xy+2",
+      "x+y"
+    ],
+    "correct_answer": "x+y",
+    "explanation": "📖 দুটি বিজোড় সংখ্যার যোগফল সর্বদা একটি জোড় সংখ্যা হয়।<br/>উদাহরণস্বরূপ, x=3 এবং y=5 হলে, x+y = 3+5 = 8 (জোড় সংখ্যা)।<br/> ⇢ <br/>📚 যেকোনো বিজোড় সংখ্যাকে 2n+1 আকারে প্রকাশ করা যায়, যেখানে n একটি পূর্ণসংখ্যা।<br/>ধরি, x = 2a+1 এবং y = 2b+1 (যেখানে a, b পূর্ণসংখ্যা)।<br/>এখন বিকল্পগুলো পরীক্ষা করি:<br/>x+y = (2a+1) + (2b+1) = 2a+2b+2 = 2(a+b+1)। যেহেতু এটি ২ এর গুণিতক, তাই এটি একটি জোড় সংখ্যা।<br/>x+y+1 = 2(a+b+1) + 1। এটি একটি জোড় সংখ্যার সাথে ১ যোগ করার ফলে বিজোড় হবে।<br/>xy = (2a+1)(2b+1) = 4ab+2a+2b+1 = 2(2ab+a+b)+1। এটি একটি বিজোড় সংখ্যা।<br/>xy+2 = (বিজোড় সংখ্যা) + ২ = বিজোড় সংখ্যা।<br/>সুতরাং, শুধুমাত্র x+y সর্বদা জোড় সংখ্যা হবে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331769,
+    "question": "পরস্পর লম্ব দুইটি রশ্মির মধ্যবর্তী কোণ হবে-",
+    "options": [
+      "৬০°",
+      "১২০°",
+      "৯০°",
+      "১৮০°"
+    ],
+    "correct_answer": "৯০°",
+    "explanation": "📖 দুটি রশ্মি পরস্পর লম্ব হলে তাদের মধ্যবর্তী কোণ এক সমকোণ বা ৯০° হয়।<br/> ⇢ <br/>📚 জ্যামিতির সংজ্ঞানুসারে, যখন দুটি সরলরেখা বা রশ্মি একে অপরকে এমনভাবে ছেদ করে যে তাদের ছেদবিন্দুতে উৎপন্ন চারটি কোণের প্রতিটির মান সমান হয়, তখন প্রতিটি কোণকে সমকোণ বলা হয় এবং রেখা দুটিকে পরস্পরের উপর লম্ব বলা হয়। একটি সমকোণের পরিমাপ হলো ৯০ ডিগ্রী।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331770,
+    "question": "x+y=12 এবং x-y=2 হলে xy এর মান কত?",
+    "options": [
+      "৩৫",
+      "১৪০",
+      "৭০",
+      "১৪৪"
+    ],
+    "correct_answer": "৩৫",
+    "explanation": "📖 যদি x+y=12 এবং x-y=2 হয়, তবে xy এর মান ৩৫ হবে। নিচে সেই অনুযায়ী সমাধান দেওয়া হলো:<br/>x + y = 12<br/>x - y = 2<br/>2x = 14 (যোগ করে)<br/>x = 7<br/>y = 12 - x = 12 - 7 = 5<br/>সুতরাং, xy = 7 × 5 = 35।<br/> ⇢ <br/>📚 বীজগণিতের সূত্র ব্যবহার করে এর সমাধান করা যায়। আমরা জানি, 4xy = (x+y)² - (x-y)²।<br/>প্রদত্ত মান (সংশোধিত প্রশ্ন অনুযায়ী) x+y = 12 এবং x-y = 2।<br/>মান বসিয়ে পাই,<br/>4xy = (12)² - (2)²<br/>4xy = 144 - 4<br/>4xy = 140<br/>xy = 140 / 4<br/>xy = 35।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331771,
+    "question": "নিচের ভগ্নাংশ গুলোর মধ্যে কোনটি বৃহতম?",
+    "options": [
+      "১১/১৩",
+      "১৩/১৪",
+      "৯/১১",
+      "১৫/১৭"
+    ],
+    "correct_answer": "১৩/১৪",
+    "explanation": "📖 ভগ্নাংশগুলোকে দশমিকে প্রকাশ করে পাই:<br/>১১/১৩ ≈ ০.৮৪৬<br/>১৩/১৪ ≈ ০.৯২৮<br/>৯/১১ ≈ ০.৮১৮<br/>১৫/১৭ ≈ ০.৮৮২<br/>সুতরাং, বৃহত্তম ভগ্নাংশটি হলো ১৩/১৪।<br/> ⇢ <br/>📚 ভগ্নাংশগুলোর লব ও হরের মধ্যে পার্থক্য লক্ষ্য করলে দেখা যায়:<br/>১৩ - ১১ = ২<br/>১৪ - ১৩ = ১<br/>১১ - ৯ = ২<br/>১৭ - ১৫ = ২<br/>যেহেতু ১৩/১৪ ভগ্নাংশের লব ও হরের পার্থক্য (১) অন্যগুলোর (২) চেয়ে কম এবং এটি একটি প্রকৃত ভগ্নাংশ (লব < হর), তাই এটিই বৃহত্তম হবে। যখন প্রকৃত ভগ্নাংশের লব ও হরের পার্থক্য সবচেয়ে কম হয়, তখন সেই ভগ্নাংশের মান সাধারণত বেশি হয়।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331772,
+    "question": "ভাজক ৭৬৮ ভাগফল ২৫ এবং ভাগশেষ ভার্জকের এক তৃতীয়াংশ। ভাজ্য কত?",
+    "options": [
+      "১৯৭৬",
+      "১৯৭৮",
+      "১৯৭৫",
+      "১৯৮০"
+    ],
+    "correct_answer": "১৯৭৬",
+    "explanation": "📖 ভাজক = ৭৬৮<br/>ভাগফল = ২৫<br/>ভাগশেষ = ৭৬৮ এর (১/৩) = ২৫৬<br/>আমরা জানি, ভাজ্য = (ভাজক × ভাগফল) + ভাগশেষ<br/>= (৭৬৮ × ২৫) + ২৫৬<br/>= ১৯২০০ + ২৫৬<br/>= ১৯৪৫৬ (এখানে অপশনে ভুল আছে, সঠিক উত্তর হবে ১৯৪৫৬)<br/>বিঃদ্রঃ প্রদত্ত অপশনগুলোর মধ্যে সঠিক উত্তর নেই। তবে কাছাকাছি উত্তর ১৯৭৬। সম্ভবত প্রশ্নে কোথাও ভুল আছে।<br/> ⇢ <br/>📚 ভাজ্য, ভাজক, ভাগফল ও ভাগশেষের সম্পর্কটি হলো একটি মৌলিক পাটিগণিতীয় সূত্র: ভাজ্য = (ভাজক × ভাগফল) + ভাগশেষ।<br/>প্রদত্ত তথ্য:<br/>ভাজক = ৭৬৮<br/>ভাগফল = ২৫<br/>ভাগশেষ = ভাজকের এক তৃতীয়াংশ = ৭৬৮ ÷ ৩ = ২৫৬।<br/>মানগুলো সূত্রে বসিয়ে পাই:<br/>ভাজ্য = (৭৬৮ × ২৫) + ২৫৬<br/>ভাজ্য = ১৯২০০ + ২৫৬<br/>ভাজ্য = ১৯৪৫৬।<br/>প্রদত্ত বিকল্পগুলির মধ্যে সঠিক উত্তরটি নেই, যা প্রশ্নে বা বিকল্পগুলিতে একটি মুদ্রণ ত্রুটি নির্দেশ করে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331773,
+    "question": "কত জন শিশুর মধ্যে কোন ফল না কেটে ১১৫ টি কমলা এবং ১০৫টি কলা ভাগ করে দেওয়া যাবে?",
+    "options": [
+      "৫",
+      "১০",
+      "১২",
+      "১৫"
+    ],
+    "correct_answer": "৫",
+    "explanation": "📖 শিশুর সংখ্যা হবে ১১৫ এবং ১০৫ এর গ.সা.গু.।<br/>১১৫ = ৫ × ২৩<br/>১০৫ = ৫ × ২১<br/>সুতরাং, গ.সা.গু. = ৫।<br/>অতএব, ৫ জন শিশুর মধ্যে ফলগুলো সমানভাবে ভাগ করে দেওয়া যাবে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331774,
+    "question": "বাজার থেকে ২৫০ টি আম কিনে আনার পর তার মধ্যে ১৫ টি আম পড়া পাওয়া গেল। শতকরা কত শতাংশ আম ভাল ছিল।",
+    "options": [
+      "৯১%",
+      "৯২%",
+      "৩৯%",
+      "৯৪%"
+    ],
+    "correct_answer": "৯৪%",
+    "explanation": "📖 ভালো আমের সংখ্যা = ২৫০ - ১৫ = ২৩৫ টি।<br/>শতকরা ভালো আমের পরিমাণ = (২৩৫ / ২৫০) × ১০০ = ৯৪%।<br/> ⇢ <br/>📚 প্রথমে পচা আমের শতকরা হার বের করা যাক।<br/>শতকরা পচা আম = (পচা আমের সংখ্যা / মোট আমের সংখ্যা) × ১০০<br/>= (১৫ / ২৫০) × ১০০ = ৬%।<br/>যেহেতু মোট আম ১০০%, তাই ভালো আমের শতকরা হার হবে (১০০ - ৬)% = ৯৪%।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331775,
+    "question": "০.২ এর ২০% কত?",
+    "options": [
+      "১",
+      "৪",
+      "০.০৪",
+      "০.৪"
+    ],
+    "correct_answer": "০.০৪",
+    "explanation": "📖 ০.২ এর ২০% = ০.২ × (২০/১০০) = ০.২ × ০.২ = ০.০৪।<br/> ⇢ <br/>📚 \"এর\" অর্থ গুণ এবং \"%\" অর্থ \"১/১০০\"।<br/>সুতরাং, ০.২ এর ২০% = ০.২ × ২০ × (১/১০০)<br/>= (২/১০) × ২০ × (১/১০০)<br/>= ৪০ / ১০০০<br/>= ৪ / ১০০<br/>= ০.০৪।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331776,
+    "question": "কোনো স্কুলে ৭০% শিক্ষার্থী ইংরেজি এবং ৮০% বাংলায় পাশ করেছে। কিন্তু ১০% উভয় বিষয়ে ফেল করেছে। যদি উভয় বিষয়ে ৩০০ জন শিক্ষার্থী পাশ করে থাকে তবে ঐ স্কুলে কতজন শিক্ষার্থী পরীক্ষা দিয়েছে",
+    "options": [
+      "৪০০ জন",
+      "৫০০ জন",
+      "৫৬০ জন",
+      "৭৬০ জন"
+    ],
+    "correct_answer": "৫০০ জন",
+    "explanation": "📖 কমপক্ষে এক বিষয়ে পাশ করেছে = ১০০% - ১০% = ৯০%।<br/>উভয় বিষয়ে পাশ করেছে = (৭০% + ৮০%) - ৯০% = ৬০%।<br/>প্রশ্নমতে, ৬০% = ৩০০ জন।<br/>১% = ৩০০/৬০ = ৫ জন।<br/>১০০% = ৫ × ১০০ = ৫০০ জন।<br/>সুতরাং, মোট পরীক্ষার্থীর সংখ্যা ৫০০ জন।<br/> ⇢ <br/>📚 ভেন চিত্রের মাধ্যমে বিষয়টি সহজে বোঝা যায়।<br/>মোট শিক্ষার্থী ১০০%। উভয় বিষয়ে ফেল করেছে ১০%।<br/>সুতরাং, অন্তত একটি বিষয়ে পাশ করেছে (১০০ - ১০)% = ৯০%।<br/>শুধু ইংরেজিতে পাশ করেছে = (মোট পাশ - বাংলায় পাশ করা) অথবা, সূত্র অনুযায়ী, শুধু ইংরেজিতে পাশ = (ইংরেজিতে পাশ - উভয় বিষয়ে পাশ)।<br/>আমরা জানি, P(A∪B) = P(A) + P(B) - P(A∩B)।<br/>এখানে, ৯০% = ৭০% + ৮০% - উভয় বিষয়ে পাশ।<br/>বা, উভয় বিষয়ে পাশ = (১৫০ - ৯০)% = ৬০%।<br/>দেওয়া আছে, উভয় বিষয়ে পাশ করা শিক্ষার্থীর সংখ্যা ৩০০ জন।<br/>তাহলে, ৬০% শিক্ষার্থী = ৩০০ জন।<br/>১% শিক্ষার্থী = ৩০০/৬০ = ৫ জন।<br/>সুতরাং, মোট শিক্ষার্থী (১০০%) = ৫ × ১০০ = ৫০০ জন।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331777,
+    "question": "১০০ টাকায় ১০ টি ডিম কিনে ১০০ টাকায় ৮ টি ডিম বিক্রয় করলে শতকরা কত লাঞ্চ হবে?",
+    "options": [
+      "১৬%",
+      "২০%",
+      "২৫%",
+      "২৮%"
+    ],
+    "correct_answer": "২৫%",
+    "explanation": "📖 ১০ টি ডিমের ক্রয়মূল্য ১০০ টাকা, সুতরাং ১ টি ডিমের ক্রয়মূল্য ১০ টাকা।<br/>৮ টি ডিমের বিক্রয়মূল্য ১০০ টাকা, সুতরাং ১ টি ডিমের বিক্রয়মূল্য ১২.৫ টাকা।<br/>১ টি ডিমে লাভ হয় = ১২.৫ - ১০ = ২.৫ টাকা।<br/>শতকরা লাভ = (লাভ / ক্রয়মূল্য) × ১০০ = (২.৫ / ১০) × ১০০ = ২৫%।<br/> ⇢ <br/>📚 এই ধরনের অঙ্কে যেখানে টাকার পরিমাণ সমান, সেখানে পণ্যের সংখ্যা দিয়ে লাভ-লোকসান বের করা যায়।<br/>এখানে, ১০টি ডিমের ক্রয়মূল্য = ৮টি ডিমের বিক্রয়মূল্য।<br/>লাভ হয়েছে (১০ - ৮) = ২টি ডিমের বিক্রয়মূল্যের সমান।<br/>শতকরা লাভ = (লাভকৃত পণ্যের সংখ্যা / বিক্রিত পণ্যের সংখ্যা) × ১০০<br/>= (২ / ৮) × ১০০<br/>= ২৫%।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331778,
+    "question": "একটি মোটরগাড়ি ১০ লিটার ডিজেলে ৮০ কিলোমিটার যায়। ১০ কিলোমিটার যেতে কী পরিমান ডিজেল প্রয়োজন হবে?",
+    "options": [
+      "১.২ লিটার",
+      "১.৪ লিটার",
+      "২লিটার",
+      "১.২৫ লিটার"
+    ],
+    "correct_answer": "১.২৫ লিটার",
+    "explanation": "📖 ৮০ কিলোমিটার যেতে ডিজেল প্রয়োজন হয় ১০ লিটার।<br/>১ কিলোমিটার যেতে ডিজেল প্রয়োজন হয় ১০/৮০ লিটার।<br/>১০ কিলোমিটার যেতে ডিজেল প্রয়োজন হয় (১০/৮০) × ১০ = ১.২৫ লিটার।<br/> ⇢ <br/>📚 ঐকিক নিয়ম ব্যবহার করে এই সমস্যার সমাধান করা যায়।<br/>গাড়িটির প্রতি লিটার ডিজেলে অতিক্রান্ত দূরত্ব = মোট দূরত্ব / মোট ডিজেল = ৮০ কিমি / ১০ লিটার = ৮ কিমি/লিটার।<br/>এর অর্থ হলো, ৮ কিলোমিটার যেতে গাড়িটির ১ লিটার ডিজেল প্রয়োজন।<br/>তাহলে, ১ কিলোমিটার যেতে ডিজেল প্রয়োজন = ১/৮ লিটার।<br/>সুতরাং, ১০ কিলোমিটার যেতে ডিজেল প্রয়োজন = (১/৮) × ১০ লিটার = ১.২৫ লিটার।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331779,
+    "question": "০.৪ × ০.০২ × ০.০৮=?",
+    "options": [
+      "০.৬৪",
+      "০.০৬৪",
+      "০.০০০৬৪",
+      "৬.৪"
+    ],
+    "correct_answer": "০.০০০৬৪",
+    "explanation": "📖 এখানে, ৪ × ২ × ৮ = ৬৪।<br/>দশমিকের পরে মোট ঘরের সংখ্যা ১ + ২ + ২ = ৫।<br/>সুতরাং, নির্ণেয় গুণফল হবে ০.০০০৬৪।<br/> ⇢ <br/>📚 দশমিক সংখ্যাকে ভগ্নাংশে রূপান্তর করে গুণ করা যেতে পারে।<br/>০.৪ = ৪/১০<br/>০.০২ = ২/১০০<br/>০.০৮ = ৮/১০০<br/>এখন, (৪/১০) × (২/১০০) × (৮/১০০) = (৪ × ২ × ৮) / (১০ × ১০০ × ১০০)<br/>= ৬৪ / ১০০০০০<br/>= ০.০০০৬৪।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331780,
+    "question": "১২ এর কত শতাংশ ১৮ হবে?",
+    "options": [
+      "১১০",
+      "১৫০",
+      "১২৫",
+      "১৬০"
+    ],
+    "correct_answer": "১৫০",
+    "explanation": "📖 মনে করি, ১২ এর ক% = ১৮<br/>বা, ১২ × (ক/১০০) = ১৮<br/>বা, ১২ক = ১৮০০<br/>বা, ক = ১৮০০/১২<br/>বা, ক = ১৫০।<br/>সুতরাং, ১২ এর ১৫০ শতাংশ ১৮ হবে।<br/> ⇢ <br/>📚 \"কত শতাংশ\" বের করার জন্য সূত্রটি হলো: (যার শতাংশ বের করতে হবে / যার উপর শতাংশ বের করতে হবে) × ১০০।<br/>এখানে, ১৮ সংখ্যাটি ১২ এর কত শতাংশ তা বের করতে হবে।<br/>সুতরাং, প্রয়োজনীয় শতাংশ = (১৮ / ১২) × ১০০<br/>= ১.৫ × ১০০<br/>= ১৫০%।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331781,
+    "question": "একজন ব্যক্তির বেতন ৫% কমেছে। কিছু এক বছর পর তা আবার ৫% বেড়েছে। মোটের উপর ভার বেতন শতকরা কত বৃদ্ধি বা হ্রাস পেয়েছে।",
+    "options": [
+      "০.৫% বেড়েছে",
+      "০.২৫% বেড়েছে",
+      "০.২৫% কমেছে",
+      "০.৫% কমেছে"
+    ],
+    "correct_answer": "০.২৫% কমেছে",
+    "explanation": "📖 ধরি, ব্যক্তির প্রাথমিক বেতন ১০০ টাকা।<br/>৫% কমার পর বেতন হয় = ১০০ - (১০০ এর ৫%) = ১০০ - ৫ = ৯৫ টাকা।<br/>আবার, ৫% বাড়ার পর বেতন হয় = ৯৫ + (৯৫ এর ৫%) = ৯৫ + ৪.৭৫ = ৯৯.৭৫ টাকা।<br/>সুতরাং, মোটের উপর বেতন হ্রাস পেয়েছে = ১০০ - ৯৯.৭৫ = ০.২৫%।<br/> ⇢ <br/>📚 শতকরা হ্রাস-বৃদ্ধির ক্ষেত্রে ধারাবাহিক পরিবর্তনের জন্য একটি সূত্র ব্যবহার করা যায়: (±x ±y ±(xy/100))%। এখানে, প্রথম পরিবর্তন x = -৫% (হ্রাস) এবং দ্বিতীয় পরিবর্তন y = +৫% (বৃদ্ধি)।<br/>সূত্রানুযায়ী, মোটের উপর পরিবর্তন = (-৫ + ৫ - (৫×৫)/১০০)%<br/>= (০ - ২৫/১০০)%<br/>= -০.২৫%।<br/>ঋণাত্মক চিহ্ন (-) দ্বারা হ্রাস বোঝানো হয়েছে। সুতরাং, মোটের উপর বেতন ০.২৫% কমেছে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331782,
+    "question": "একটি স্কুলে ছেলে ও মেয়ের অনুপাত ৭:৩। যদি স্কুলে মেয়ের সংখ্যা ২১০ হয় তবে ছেলের সংখ্যা কত?",
+    "options": [
+      "১৪৭",
+      "৬৩",
+      "৪৯০",
+      "২৭০"
+    ],
+    "correct_answer": "৪৯০",
+    "explanation": "📖 ছেলে ও মেয়ের অনুপাত ৭:৩।<br/>ধরি, ছেলের সংখ্যা ৭ক এবং মেয়ের সংখ্যা ৩ক।<br/>প্রশ্নমতে, ৩ক = ২১০<br/>বা, ক = ২১০/৩<br/>বা, ক = ৭০<br/>ছেলের সংখ্যা = ৭ক = ৭ × ৭০ = ৪৯০।<br/> ⇢ <br/>📚 অনুপাতের অঙ্ক সমাধানের একটি সহজ পদ্ধতি হলো অনুপাতের সাধারণ রাশি বের করা। এখানে ছেলে ও মেয়ের অনুপাত ৭:৩, যার অর্থ হলো স্কুলে প্রতি (৭+৩) = ১০ জন শিক্ষার্থীর মধ্যে ৭ জন ছেলে এবং ৩ জন মেয়ে।<br/>দেওয়া আছে, মেয়ের সংখ্যা ২১০।<br/>অনুপাত অনুযায়ী, ৩ ভাগ মেয়ে = ২১০ জন।<br/>সুতরাং, ১ ভাগ = ২১০ ÷ ৩ = ৭০ জন।<br/>যেহেতু ছেলের অনুপাত ৭ ভাগ, তাই ছেলের সংখ্যা হবে ৭ × ৭০ = ৪৯০ জন।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331783,
+    "question": "Which of the following was not written by William Shakespeare?",
+    "options": [
+      "Merchant of Venice",
+      "Othello",
+      "Macbeth",
+      "Cleopatra"
+    ],
+    "correct_answer": "Cleopatra",
+    "explanation": "📖 'The Merchant of Venice', 'Othello', এবং 'Macbeth' উইলিয়াম শেক্সপিয়ারের বিখ্যাত নাটক। 'Antony and Cleopatra' শেক্সপিয়ারের লেখা হলেও, শুধু 'Cleopatra' নামে তার কোনো নাটক নেই। তবে George Bernard Shaw-এর একটি বিখ্যাত নাটক আছে 'Caesar and Cleopatra' নামে। প্রদত্ত অপশনগুলোর মধ্যে 'Cleopatra' শেক্সপিয়ারের লেখা নয়।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ Merchant of Venice: শেক্সপিয়ারের লেখা (সঠিক)।<br/>❏ Othello: শেক্সপিয়ারের লেখা (সঠিক)।<br/>❏ Macbeth: শেক্সপিয়ারের লেখা (সঠিক)।<br/>❏ Cleopatra: শুধু 'Cleopatra' নামে শেক্সপিয়ারের কোনো নাটক নেই। তার নাটকটির নাম 'Antony and Cleopatra' (সঠিক নয়)।<br/> ⇢ <br/>📚 উইলিয়াম শেক্সপিয়ারের বিখ্যাত ট্র্যাজেডিগুলোর মধ্যে 'Othello' এবং 'Macbeth' অন্যতম। 'The Merchant of Venice' তাঁর বিখ্যাত কমেডিগুলোর মধ্যে একটি। 'Cleopatra' নামে এককভাবে কোনো নাটক তিনি লেখেননি, তবে 'Antony and Cleopatra' তাঁর একটি ঐতিহাসিক ট্র্যাজেডি।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331784,
+    "question": "Opposite word of “clever\" is",
+    "options": [
+      "Foolish",
+      "Stupid",
+      "Idiot",
+      "Simple"
+    ],
+    "correct_answer": "Foolish",
+    "explanation": "📖 'Clever' অর্থ চালাক বা বুদ্ধিমান। এর সরাসরি বিপরীত শব্দ হলো 'Foolish' (বোকা)। যদিও 'Stupid' বা 'Idiot' কাছাকাছি অর্থ বহন করে, 'Foolish' হলো সবচেয়ে উপযুক্ত বিপরীত শব্দ।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ Foolish: বোকা (সঠিক বিপরীত শব্দ)।<br/>❏ Stupid: নির্বোধ (কাছাকাছি হলেও 'Foolish' বেশি উপযুক্ত)।<br/>❏ Idiot: মূর্খ।<br/>❏ Simple: সরল।<br/> ⇢ <br/>📚 'Clever' (চালাক) একটি Adjective। এর বিপরীত শব্দ হিসেবে 'Foolish' (বোকা) সবচেয়ে বেশি ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331785,
+    "question": "Masculine gender of \"bride\" is",
+    "options": [
+      "Brider",
+      "Bridegroom",
+      "Bridal",
+      "Male bride"
+    ],
+    "correct_answer": "Bridegroom",
+    "explanation": "📖 'Bride' (কনে) একটি feminine gender। এর masculine gender হলো 'Bridegroom' (বর)।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ Brider/Male bride: ভুল শব্দ।<br/>❏ Bridegroom: বর (সঠিক)।<br/>❏ Bridal: Adjective, অর্থ 'বিয়ে সংক্রান্ত'।<br/> ⇢ <br/>📚 'Bride' (কনে) হলো Feminine Gender। এর Masculine Gender হলো 'Bridegroom' (বর)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331786,
+    "question": "The doctor who treats cancer patients is called",
+    "options": [
+      "Oncologist",
+      "Urologist",
+      "Cardiologist",
+      "Pathologist"
+    ],
+    "correct_answer": "Oncologist",
+    "explanation": "📖 ক্যান্সার বিষয়ক চিকিৎসাবিজ্ঞানকে Oncology বলে এবং যিনি এই বিষয়ে বিশেষজ্ঞ, তাকে Oncologist বলা হয়।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ Oncologist: ক্যান্সার বিশেষজ্ঞ (সঠিক)।<br/>❏ Urologist: মূত্রনালী ও মূত্রথলির রোগ বিশেষজ্ঞ।<br/>❏ Cardiologist: হৃদরোগ বিশেষজ্ঞ।<br/>❏ Pathologist: রোগ নির্ণয় ও টিস্যু পরীক্ষা বিশেষজ্ঞ।<br/> ⇢ <br/>📚 'Oncology' হলো চিকিৎসাবিজ্ঞানের সেই শাখা যা ক্যান্সার নিয়ে গবেষণা ও চিকিৎসা করে। তাই ক্যান্সার রোগীদের চিকিৎসা করেন যিনি, তাকে Oncologist বলা হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331787,
+    "question": "\"Advice\" is a",
+    "options": [
+      "verb",
+      "adverb",
+      "adjective",
+      "noun"
+    ],
+    "correct_answer": "noun",
+    "explanation": "📖 'Advice' (c দিয়ে) শব্দটি একটি Noun, যার অর্থ 'উপদেশ'। এর Verb form হলো 'Advise' (s দিয়ে), যার অর্থ 'উপদেশ দেওয়া'।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ verb: Advise (s দিয়ে)।<br/>❏ adverb: Advisedly।<br/>❏ adjective: Advisable।<br/>❏ noun: Advice (c দিয়ে) (সঠিক)।<br/> ⇢ <br/>📚 'Advice' (c দিয়ে) শব্দটি একটি Noun (বিশেষ্য) এবং এটি একটি Uncountable Noun (অগণনযোগ্য বিশেষ্য)। এর Verb রূপ হলো 'Advise' (s দিয়ে)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331788,
+    "question": "Noun form of the word \"long\" is",
+    "options": [
+      "length",
+      "longer",
+      "longest",
+      "lengthen"
+    ],
+    "correct_answer": "length",
+    "explanation": "📖 'Long' (দীর্ঘ) একটি adjective। এর Noun form হলো 'Length' (দৈর্ঘ্য)।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ length: Noun (সঠিক)।<br/>❏ longer: Comparative adjective।<br/>❏ longest: Superlative adjective।<br/>❏ lengthen: Verb।<br/> ⇢ <br/>📚 'Long' হলো একটি Adjective। এর Noun রূপ হলো 'Length' (দৈর্ঘ্য)। 'Lengthen' হলো এর Verb রূপ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331789,
+    "question": "She couldn't stop ………..",
+    "options": [
+      "laughing",
+      "to laugh",
+      "laughed",
+      "laughter"
+    ],
+    "correct_answer": "laughing",
+    "explanation": "📖 'Stop' verb-টির পর যদি অন্য কোনো verb আসে, তবে তার সাথে 'ing' যুক্ত হয় (Gerund)। 'Stop laughing' অর্থ 'হাসা বন্ধ করা'।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ laughing: Gerund, 'stop' ক্রিয়ার পর এটিই সঠিক (সঠিক)।<br/>❏ to laugh: Infinitive, 'stop to laugh' অর্থ 'হাসার জন্য থামা', যা এখানে অর্থবহ নয়।<br/>❏ laughed: Past form, ভুল।<br/>❏ laughter: Noun, ভুল।<br/> ⇢ <br/>📚 কিছু Verb আছে, যেমন 'stop', 'enjoy', 'mind', 'finish' ইত্যাদির পরে অন্য কোনো Verb এলে তার সাথে -ing যুক্ত হয়ে Gerund হিসেবে ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331790,
+    "question": "If you read, you will lean. The sentence is",
+    "options": [
+      "simple",
+      "complex",
+      "compound",
+      "negative"
+    ],
+    "correct_answer": "complex",
+    "explanation": "📖 এটি একটি Complex sentence। কারণ এখানে একটি subordinate clause ('If you read') এবং একটি principal clause ('you will learn') রয়েছে। 'If' দ্বারা শুরু হওয়া conditional sentence গুলো complex sentence হয়।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ simple: একটি মাত্র clause থাকে।<br/>❏ complex: একটি Principal Clause এবং এক বা একাধিক Subordinate Clause থাকে (সঠিক)।<br/>❏ compound: দুই বা ততোধিক Independent Clause থাকে।<br/>❏ negative: না-বোধক বাক্য।<br/> ⇢ <br/>📚 যে বাক্যে একটি Principal Clause (প্রধান খণ্ডবাক্য) এবং এক বা একাধিক Subordinate Clause (অপ্রধান খণ্ডবাক্য) থাকে, তাকে Complex Sentence বলে। এখানে 'you will learn' হলো Principal Clause এবং 'If you read' হলো Subordinate Clause।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331791,
+    "question": "He is ……….. in the village.",
+    "options": [
+      "tall",
+      "taller",
+      "tallest",
+      "the tallest"
+    ],
+    "correct_answer": "the tallest",
+    "explanation": "📖 গ্রামের 'সকলের মধ্যে' তুলনা বোঝানো হচ্ছে, যা Superlative degree নির্দেশ করে। Superlative degree (tallest) এর আগে 'the' বসে।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ tall: Positive degree।<br/>❏ taller: Comparative degree।<br/>❏ tallest: Superlative degree।<br/>❏ the tallest: Superlative degree এর সঠিক ব্যবহার (সঠিক)।<br/> ⇢ <br/>📚 যখন কোনো ব্যক্তি বা বস্তুকে তার গোষ্ঠীর সকলের সাথে তুলনা করে শ্রেষ্ঠত্ব বোঝানো হয়, তখন Adjective-এর Superlative Degree ব্যবহৃত হয়। Superlative Degree-এর আগে অবশ্যই Definite Article 'the' বসাতে হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331792,
+    "question": "Which is the past form of 'set'?",
+    "options": [
+      "sat",
+      "sit",
+      "set",
+      "sought"
+    ],
+    "correct_answer": "set",
+    "explanation": "📖 'Set' একটি strong verb যার তিনটি form (Present, Past, Past Participle) একই থাকে: Set - Set - Set।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ sat: 'sit' এর past form।<br/>❏ sit: 'sit' এর present form।<br/>❏ set: 'set' এর past form (সঠিক)।<br/>❏ sought: 'seek' এর past form।<br/> ⇢ <br/>📚 'Set' হলো একটি Irregular Verb, যার Present, Past এবং Past Participle রূপ একই থাকে। এই ধরনের আরও কিছু Verb হলো 'Put', 'Cut', 'Hit' ইত্যাদি।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331793,
+    "question": "‘A red letter day' means a",
+    "options": [
+      "red day",
+      "memorable day",
+      "bloody day",
+      "day of sorrow"
+    ],
+    "correct_answer": "memorable day",
+    "explanation": "📖 'A red letter day' একটি idiom যার অর্থ হলো একটি স্মরণীয় বা গুরুত্বপূর্ণ দিন (a day that is pleasantly noteworthy or memorable)।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ red day: লাল দিন (আক্ষরিক অর্থ, ভুল)।<br/>❏ memorable day: স্মরণীয় দিন (সঠিক অর্থ)।<br/>❏ bloody day: রক্তাক্ত দিন (ভুল)।<br/>❏ day of sorrow: দুঃখের দিন (ভুল)।<br/> ⇢ <br/>📚 প্রাচীনকালে গুরুত্বপূর্ণ দিনগুলো ক্যালেন্ডারে লাল কালি দিয়ে চিহ্নিত করা হতো। সেই ধারণা থেকেই 'A red letter day' বাগধারাটির উৎপত্তি, যার অর্থ হলো একটি অত্যন্ত গুরুত্বপূর্ণ বা স্মরণীয় দিন।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331794,
+    "question": "Century means a period of ………",
+    "options": [
+      "50 years",
+      "100 years",
+      "500 years",
+      "1000 years"
+    ],
+    "correct_answer": "100 years",
+    "explanation": "📖 'Century' শব্দের অর্থ হলো শতাব্দী, যা ১০০ বছরের একটি সময়কাল।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ 50 years: অর্ধ শতাব্দী (Half-century)।<br/>❏ 100 years: শতাব্দী (Century) (সঠিক)।<br/>❏ 1000 years: সহস্রাব্দ (Millennium)।<br/> ⇢ <br/>📚 'Century' শব্দটি ল্যাটিন শব্দ 'centum' থেকে এসেছে, যার অর্থ 'একশো'। তাই এটি ১০০ বছরের একটি সময়কালকে বোঝায়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331795,
+    "question": "Look ……….. the word in the dictionary",
+    "options": [
+      "at",
+      "up",
+      "the",
+      "down"
+    ],
+    "correct_answer": "up",
+    "explanation": "📖 'Look up' একটি phrasal verb যার অর্থ হলো কোনো বই বা অভিধানে কোনো তথ্য খোঁজা (to search for information in a book or dictionary)।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ Look at: তাকানো।<br/>❏ Look up: খোঁজা বা সন্ধান করা (সঠিক Phrasal Verb)।<br/>❏ Look the: ভুল।<br/>❏ Look down: নিচু করে দেখা বা অবজ্ঞা করা।<br/> ⇢ <br/>📚 'Look up' হলো একটি Phrasal Verb। যখন অভিধান বা অন্য কোনো রেফারেন্স বইয়ে কোনো শব্দ বা তথ্য খোঁজা হয়, তখন এই Phrasal Verb টি ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331796,
+    "question": "The Padma is ……….. largest river in Bangladesh.",
+    "options": [
+      "at",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correct_answer": "the",
+    "explanation": "📖 Superlative degree (largest, biggest, tallest) এর আগে সর্বদা definite article 'the' বসে।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ at/an: ভুল।<br/>❏ the: Superlative degree (largest) এর আগে বসে, তাই এটি সঠিক।<br/>❏ no article: ভুল।<br/> ⇢ <br/>📚 Adjective-এর Superlative Degree (যেমন: largest) এর আগে নির্দিষ্ট করে বোঝানোর জন্য Definite Article 'the' ব্যবহার করা হয়। এটি একটি সাধারণ ব্যাকরণগত নিয়ম।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331797,
+    "question": "Synonym of 'Altitude' is",
+    "options": [
+      "Height",
+      "Weight",
+      "Length",
+      "Depth"
+    ],
+    "correct_answer": "Height",
+    "explanation": "📖 'Altitude' শব্দের অর্থ হলো উচ্চতা, বিশেষ করে সমুদ্রপৃষ্ঠ থেকে কোনো স্থানের উচ্চতা। 'Height' শব্দের অর্থও উচ্চতা। তাই এরা সমার্থক।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ Height: উচ্চতা (সঠিক সমার্থক শব্দ)।<br/>❏ Weight: ওজন।<br/>❏ Length: দৈর্ঘ্য।<br/>❏ Depth: গভীরতা।<br/> ⇢ <br/>📚 'Altitude' এবং 'Height' উভয় শব্দের অর্থই উচ্চতা। তবে 'Altitude' শব্দটি সাধারণত সমুদ্রপৃষ্ঠ থেকে কোনো বস্তুর বা স্থানের উল্লম্ব দূরত্ব বোঝাতে ব্যবহৃত হয়, বিশেষ করে বিমান চালনা বা ভূগোলের ক্ষেত্রে। 'Height' শব্দটি আরও সাধারণ অর্থে ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331798,
+    "question": "'Fresh blood' means",
+    "options": [
+      "instantly collected blood",
+      "pure blood",
+      "new member",
+      "whole blood"
+    ],
+    "correct_answer": "new member",
+    "explanation": "📖 'Fresh blood' একটি idiom যার অর্থ হলো কোনো দল বা প্রতিষ্ঠানে নতুন সদস্য বা নতুন ধারণা (new members of a group or organization who will bring new ideas and energy)।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ instantly collected blood: সদ্য সংগৃহীত রক্ত (আক্ষরিক অর্থ, ভুল)।<br/>❏ pure blood: বিশুদ্ধ রক্ত (ভুল)।<br/>❏ new member: নতুন সদস্য, যারা নতুন শক্তি ও ধারণা নিয়ে আসে (সঠিক)।<br/>❏ whole blood: পূর্ণ রক্ত (ভুল)।<br/> ⇢ <br/>📚 'Fresh blood' বাগধারাটি রূপক অর্থে ব্যবহৃত হয়। এটি কোনো দল, সংস্থা বা প্রতিষ্ঠানে নতুন, উদ্যমী এবং প্রায়শই তরুণ সদস্যদের আগমনকে বোঝায়, যারা নতুন ধারণা ও শক্তি নিয়ে আসে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331799,
+    "question": "Father said to me, 'Do not use social media too much.' Change the narration.",
+    "options": [
+      "Father said to me not to use social media too much.",
+      "Father asked me why I used social media too much",
+      "Father wished me that I should not use social media too much.",
+      "Father advised me not to use social media too much."
+    ],
+    "correct_answer": "Father advised me not to use social media too much.",
+    "explanation": "📖 এটি একটি Imperative sentence এবং এখানে উপদেশ দেওয়া বোঝাচ্ছে। তাই reporting verb 'said to' পরিবর্তিত হয়ে 'advised' হবে এবং 'do not' এর পরিবর্তে 'not to' বসবে।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ Father said to me not to use social media too much: গঠন ঠিক থাকলেও বাক্যের ভাব অনুযায়ী 'advised' বেশি উপযুক্ত।<br/>❏ Father asked me...: এটি Interrogative sentence এর জন্য ব্যবহৃত হয়।<br/>❏ Father wished me...: এটি Optative sentence এর জন্য ব্যবহৃত হয়।<br/>❏ Father advised me not to use social media too much: বাক্যের ভাব (উপদেশ) অনুযায়ী এটি সবচেয়ে সঠিক (সঠিক)।<br/> ⇢ <br/>📚 Direct Speech-এর Imperative Sentence-কে Indirect Speech-এ পরিবর্তন করার সময়, রিপোর্টিং ভার্ব (said to) বাক্যের ভাব অনুযায়ী 'advised', 'ordered', 'requested' ইত্যাদিতে পরিবর্তিত হয়। এখানে 'Do not use social media too much' একটি উপদেশমূলক বাক্য, তাই 'advised' ব্যবহার করা সঠিক। Negative Imperative-এর ক্ষেত্রে 'not to' ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331800,
+    "question": "Every mother loves her child. Make it negative without changing meaning",
+    "options": [
+      "Every mother does not love her child.",
+      "There is no mother but loves her child",
+      "No mother loves her child.",
+      "Every mother loves no child."
+    ],
+    "correct_answer": "There is no mother but loves her child",
+    "explanation": "📖 Affirmative থেকে Negative করার নিয়ম অনুযায়ী, 'Every' যুক্ত বাক্যকে 'There is no... but' দিয়ে পরিবর্তন করা হয়। এর অর্থ দাঁড়ায় \"এমন কোনো মা নেই যে তার সন্তানকে ভালোবাসে না\"।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ Every mother does not love her child: অর্থ বদলে গেছে (প্রত্যেক মা ভালোবাসে না)।<br/>❏ There is no mother but loves her child: অর্থ অপরিবর্তিত রেখে negative করা হয়েছে (সঠিক)। 'But' এখানে 'who does not' অর্থে ব্যবহৃত হয়েছে।<br/>❏ No mother loves her child: অর্থ সম্পূর্ণ বিপরীত হয়ে গেছে (কোনো মা-ই ভালোবাসে না)।<br/>❏ Every mother loves no child: অর্থ বদলে গেছে।<br/> ⇢ <br/>📚 'Every' যুক্ত Affirmative বাক্যকে Negative করার একটি প্রচলিত নিয়ম হলো 'There is no... but' ব্যবহার করা। এখানে 'but' একটি Relative Pronoun হিসেবে কাজ করে এবং এর অর্থ হয় 'who does not' বা 'যা নয়'। তাই 'There is no mother but loves her child' এর অর্থ হলো 'এমন কোনো মা নেই যে তার সন্তানকে ভালোবাসে না'।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331801,
+    "question": "Which of the following word is correct?",
+    "options": [
+      "Neumonia",
+      "Restaurant",
+      "Burucrat",
+      "Renaissa"
+    ],
+    "correct_answer": "Restaurant",
+    "explanation": "📖 'Restaurant' বানানটি সঠিক।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ Neumonia: ভুল। সঠিক বানান Pneumonia।<br/>❏ Restaurant: সঠিক বানান।<br/>❏ Burucrat: ভুল। সঠিক বানান Bureaucrat।<br/>❏ Renaissa: ভুল। সঠিক বানান Renaissance।<br/> ⇢ <br/>📚 ইংরেজি বানানের ক্ষেত্রে, 'Restaurant' শব্দটি ফরাসি ভাষা থেকে এসেছে এবং এর বানানটি প্রায়শই ভুল হয়। সঠিক বানানটি হলো R-E-S-T-A-U-R-A-N-T।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331802,
+    "question": "Honey tastes sweet. Which is the passive form of this sentence?",
+    "options": [
+      "Honey is tasted by sweet.",
+      "Honey is sweet by taste.",
+      "Honey is tasted when it is sweet.",
+      "Honey is sweet when it is tasted."
+    ],
+    "correct_answer": "Honey is sweet when it is tasted.",
+    "explanation": "📖 এটি একটি Quasi-passive voice। এই ধরনের বাক্যের passive করার নিয়ম হলো: Subject + be verb + adjective + when + pronoun + be verb + verb-এর past participle form।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ Honey is tasted by sweet: ভুল গঠন।<br/>❏ Honey is sweet by taste: অর্থ ঠিক থাকলেও passive form এর সঠিক গঠন নয়।<br/>❏ Honey is tasted when it is sweet: অর্থের পরিবর্তন ঘটেছে।<br/>❏ Honey is sweet when it is tasted: Quasi-passive voice এর নিয়ম অনুযায়ী সঠিক গঠন (সঠিক)।<br/> ⇢ <br/>📚 'Honey tastes sweet' বাক্যটি Quasi-passive (বা Pseudo-passive) Voice-এর উদাহরণ। এই ধরনের বাক্যের Passive Voice-এর গঠন হলো: Subject + be verb + Adjective + when + Pronoun + be verb + V3 (Past Participle)। এখানে 'Honey' (Subject) + 'is' (be verb) + 'sweet' (Adjective) + 'when' + 'it' (Pronoun) + 'is' (be verb) + 'tasted' (V3)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331803,
+    "question": "'Burning question' means",
+    "options": [
+      "a fire accident",
+      "a difficult question",
+      "an important issue",
+      "a dead lock situation"
+    ],
+    "correct_answer": "an important issue",
+    "explanation": "📖 'Burning question' একটি idiom যার অর্থ হলো একটি অত্যন্ত গুরুত্বপূর্ণ এবং আলোচিত বিষয় (an important issue that people are discussing or arguing about)।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ a fire accident: একটি অগ্নি দুর্ঘটনা (আক্ষরিক অর্থ, ভুল)।<br/>❏ a difficult question: একটি কঠিন প্রশ্ন (সঠিক অর্থ নয়)।<br/>❏ an important issue: একটি গুরুত্বপূর্ণ ও আলোচিত বিষয় (সঠিক অর্থ)।<br/>❏ a dead lock situation: একটি অচলাবস্থা (ভুল)।<br/> ⇢ <br/>📚 'Burning question' একটি বাগধারা (Idiom) যা এমন একটি বিষয়কে বোঝায় যা অত্যন্ত জরুরি, গুরুত্বপূর্ণ এবং বর্তমানে আলোচনার কেন্দ্রে রয়েছে। এটি আক্ষরিক অর্থে 'জ্বলন্ত প্রশ্ন' নয়, বরং 'তীব্রভাবে আলোচিত বিষয়'।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331804,
+    "question": "A good administrator is accessible ……….. all.",
+    "options": [
+      "for",
+      "to",
+      "with",
+      "above"
+    ],
+    "correct_answer": "to",
+    "explanation": "📖 'Accessible' শব্দটির পর preposition হিসেবে 'to' বসে, যার অর্থ 'সহজলভ্য' বা 'কাছে পৌঁছানো যায় এমন'। বাক্যটির অর্থ: একজন ভালো প্রশাসক সকলের কাছে সহজলভ্য।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ for: জন্য (ভুল)।<br/>❏ to: প্রতি/কাছে। 'Accessible to' একটি সঠিক Prepositional Phrase, যার অর্থ 'কারো কাছে সহজলভ্য' (সঠিক)।<br/>❏ with: সাথে (ভুল)।<br/>❏ above: উপরে (ভুল)।<br/> ⇢ <br/>📚 'Accessible' একটি Adjective যার অর্থ হলো 'সহজে পৌঁছানো যায় এমন' বা 'সহজলভ্য'। এই Adjective-এর পরে সাধারণত 'to' Preposition টি বসে, যা প্রাপক বা লক্ষ্যকে নির্দেশ করে। তাই 'accessible to all' হলো সঠিক ব্যবহার।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331805,
+    "question": "Find out the correct sentence.",
+    "options": [
+      "I, you and he are present.",
+      "What time is it in your watch?",
+      "Kushtia is famous for its cultural heritage.",
+      "It is raining since morning"
+    ],
+    "correct_answer": "Kushtia is famous for its cultural heritage.",
+    "explanation": "📖 বাক্যটি গঠন এবং তথ্যের দিক থেকে সঠিক। কুষ্টিয়া তার সাংস্কৃতিক ঐতিহ্যের জন্য বিখ্যাত।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ I, you and he are present: ভুল। একাধিক Person (পুরুষ) ব্যবহারের সঠিক ক্রম হলো 2nd, 3rd, 1st (You, he and I)।<br/>❏ What time is it in your watch?: ভুল। ঘড়িতে সময় জানতে 'by your watch' (by) preposition টি ব্যবহৃত হয়।<br/>❏ Kushtia is famous for its cultural heritage: সঠিক। বাক্যটি ব্যাকরণগতভাবে শুদ্ধ।<br/>❏ It is raining since morning: ভুল। নির্দিষ্ট সময় (point of time) থেকে কোনো কাজ চলছে বোঝালে Present Perfect Continuous Tense হয় (It has been raining since morning)।<br/> ⇢ <br/>📚 সঠিক বাক্যটি হলো 'Kushtia is famous for its cultural heritage'।<br/>❏ প্রথম বাক্যে, Pronoun-এর ক্রম (2, 3, 1) অনুসরণ করা হয়নি।<br/>❏ দ্বিতীয় বাক্যে, সঠিক Preposition 'by' এর পরিবর্তে 'in' ব্যবহার করা হয়েছে।<br/>❏ চতুর্থ বাক্যে, 'since morning' থাকায় Present Perfect Continuous Tense (has been raining) ব্যবহার করা উচিত ছিল।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331806,
+    "question": "He is ……….. university student. Fill up the blank with suitable article.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "No Article"
+    ],
+    "correct_answer": "a",
+    "explanation": "📖 Article 'a' বা 'an' এর ব্যবহার নির্ভর করে পরবর্তী শব্দের উচ্চারণের উপর, বানানের উপর নয়। 'University' শব্দটি vowel 'u' দিয়ে শুরু হলেও এর উচ্চারণ 'ইউ' (consonant sound 'Y') এর মতো। তাই এর আগে 'a' বসবে।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ a: ব্যঞ্জন ধ্বনির (consonant sound) আগে বসে। 'University' এর উচ্চারণ 'ইউ' দিয়ে শুরু, যা একটি ব্যঞ্জন ধ্বনি, তাই 'a' সঠিক।<br/>❏ an: স্বর ধ্বনির (vowel sound) আগে বসে।<br/>❏ the: নির্দিষ্ট করে বোঝাতে বসে, এখানে অনির্দিষ্টভাবে একজন ছাত্র বোঝানো হয়েছে।<br/> ⇢ <br/>📚 Article ব্যবহারের ক্ষেত্রে শব্দের প্রথম অক্ষরের উচ্চারণ গুরুত্বপূর্ণ। 'University' শব্দটি 'U' (স্বরবর্ণ) দিয়ে শুরু হলেও এর উচ্চারণ 'Yoo' (ইউ) এর মতো, যা একটি ব্যঞ্জন ধ্বনি (consonant sound)। তাই অনির্দিষ্টভাবে বোঝানোর জন্য 'a' ব্যবহৃত হবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331807,
+    "question": "Which is the plural form of 'mouse?",
+    "options": [
+      "Mouse",
+      "Mices",
+      "Mouses",
+      "Mice"
+    ],
+    "correct_answer": "Mice",
+    "explanation": "📖 'Mouse' একটি irregular noun। এর plural form বা বহুবচন হলো 'Mice'। কিছু noun-এর plural form নিয়ম মেনে -s বা -es যোগ করে হয় না, তাদের মধ্যে এটি একটি।<br/>❏ Option Analysis (বাংলা ব্যাখ্যা):<br/>❏ Mouse: একবচন রূপ।<br/>❏ Mices/Mouses: এই বানানগুলো ভুল এবং ইংরেজিতে প্রচলিত নয়।<br/>❏ Mice: সঠিক বহুবচন রূপ। এটি একটি অনিয়মিত বহুবচন (Irregular Plural)।<br/> ⇢ <br/>📚 'Mouse' শব্দটি একটি অনিয়মিত বিশেষ্য (Irregular Noun)। এই ধরনের বিশেষ্যের বহুবচন গঠনের জন্য কোনো নির্দিষ্ট নিয়ম (যেমন -s বা -es যোগ করা) অনুসরণ করা হয় না। 'Mouse' এর বহুবচন হলো 'Mice', যেমন 'Foot' এর বহুবচন 'Feet'।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331808,
+    "question": "কোন গ্যাস বায়ুমন্ডলের ওজোন স্তরের ক্ষয়ের জন্য দায়ী?",
+    "options": [
+      "কার্বন মনো অক্সাইড",
+      "কার্বন ডাই অক্সাইড",
+      "ক্লোরো ফ্লোরো কার্বন",
+      "সালফার ডাই-অক্সাইড"
+    ],
+    "correct_answer": "ক্লোরো ফ্লোরো কার্বন",
+    "explanation": "📖 ক্লোরোফ্লোরোকার্বন (CFC) গ্যাসটি ফ্রিজ, এসি ইত্যাদি থেকে নির্গত হয়ে বায়ুমণ্ডলের স্ট্র্যাটোস্ফিয়ারে থাকা ওজোন (O3) স্তরকে ভেঙে দেয়। এর ফলে ওজোন স্তরে ছিদ্র তৈরি হয়, যা সূর্যের ক্ষতিকর অতিবেগুনি রশ্মিকে পৃথিবীতে আসতে দেয়।<br/> ⇢ <br/>📚 ক্লোরোফ্লোরোকার্বন (CFCs) হলো এক ধরনের রাসায়নিক যৌগ যা রেফ্রিজারেটর, এয়ার কন্ডিশনার এবং অ্যারোসল স্প্রেতে ব্যবহৃত হয়। এই গ্যাসগুলো স্ট্র্যাটোস্ফিয়ারে পৌঁছে সূর্যের অতিবেগুনি রশ্মির প্রভাবে ভেঙে গিয়ে ক্লোরিন পরমাণু মুক্ত করে, যা ওজোন অণুকে (O3) ভেঙে দেয় এবং ওজোন স্তরকে ক্ষয় করে।<br/>❏ English Language",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331809,
+    "question": "গর্ভাবস্থায় মায়েদের জন্য কোন টিকা অত্যাবশ্যকীয়?",
+    "options": [
+      "ডিপিটি",
+      "এইচপিভি",
+      "টিটি",
+      "ওপিডি"
+    ],
+    "correct_answer": "টিটি",
+    "explanation": "📖 গর্ভাবস্থায় মা ও নবজাতককে ধনুষ্টংকার (Tetanus) রোগ থেকে রক্ষা করার জন্য টিটি (Tetanus Toxoid) টিকা দেওয়া অত্যাবশ্যকীয়। এটি নির্দিষ্ট সময়ে দুটি ডোজে দেওয়া হয়।<br/> ⇢ <br/>📚 টিটি (Tetanus Toxoid) টিকা গর্ভাবস্থায় দেওয়া হয় যাতে মায়ের শরীরে ধনুষ্টংকার রোগের বিরুদ্ধে প্রতিরোধ ক্ষমতা তৈরি হয় এবং এই প্রতিরোধ ক্ষমতা প্ল্যাসেন্টার মাধ্যমে নবজাতকের শরীরেও স্থানান্তরিত হয়। এটি নবজাতকের ধনুষ্টংকার (Neonatal Tetanus) প্রতিরোধে অত্যন্ত গুরুত্বপূর্ণ।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331810,
+    "question": "নিচের কোনটি রক্তের উপাদান নয়?",
+    "options": [
+      "শ্বেতকণিকা",
+      "লোহিত কণিকা",
+      "সিএসএফ",
+      "অনুচক্রিকা"
+    ],
+    "correct_answer": "সিএসএফ",
+    "explanation": "📖 রক্ত প্রধানত রক্তরস ও রক্তকণিকা (লোহিত কণিকা, শ্বেতকণিকা, অনুচক্রিকা) নিয়ে গঠিত। সিএসএফ (CSF - Cerebrospinal Fluid) বা সেরিব্রোস্পাইনাল ফ্লুইড হলো মস্তিষ্ক ও সুষুম্নাকাণ্ডের চারপাশে থাকা একটি তরল, এটি রক্তের উপাদান নয়।<br/> ⇢ <br/>📚 রক্ত একটি তরল যোজক কলা, যার প্রধান উপাদান হলো রক্তরস (Plasma) এবং রক্তকণিকা (Blood Cells)। সিএসএফ (Cerebrospinal Fluid) হলো মস্তিষ্ক ও সুষুম্নাকাণ্ডকে রক্ষা ও পুষ্টি জোগানোর জন্য ব্যবহৃত একটি পরিষ্কার তরল, যা রক্ত থেকে আলাদা।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331811,
+    "question": "অতিরিক্ত শর্করা মানবদেহে জমা থাকে কিভাবে?",
+    "options": [
+      "সুক্রোজরূপে",
+      "ফ্রুক্টোজরূপে",
+      "গ্লাইকোজেনরূপে",
+      "স্টার্চরূপে"
+    ],
+    "correct_answer": "গ্লাইকোজেনরূপে",
+    "explanation": "📖 মানবদেহে গ্রহণ করা অতিরিক্ত গ্লুকোজ বা শর্করা যকৃৎ (লিভার) এবং পেশিতে গ্লাইকোজেন (Glycogen) রূপে সঞ্চিত থাকে। প্রয়োজনের সময় এই গ্লাইকোজেন ভেঙে আবার গ্লুকোজে পরিণত হয়ে শক্তি সরবরাহ করে।<br/> ⇢ <br/>📚 গ্লাইকোজেন হলো গ্লুকোজের একটি পলিস্যাকারাইড যা প্রাণীদেহে শক্তি সঞ্চয়ের প্রধান মাধ্যম হিসেবে কাজ করে। এই প্রক্রিয়াটি ইনসুলিন হরমোন দ্বারা নিয়ন্ত্রিত হয়। উদ্ভিদদেহে অতিরিক্ত শর্করা স্টার্চরূপে জমা থাকে।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331812,
+    "question": "কোনটিকে Greatest Show on Earth বলা হয় ?",
+    "options": [
+      "অলিম্পিক গেমস",
+      "বিশ্বকাপ ফুটবল",
+      "বিশ্বকাপ ক্রিকেট",
+      "আইপিএল"
+    ],
+    "correct_answer": "অলিম্পিক গেমস",
+    "explanation": "📖 অলিম্পিক গেমসকে তার বিশালতা, ঐতিহ্য, অংশগ্রহণকারী দেশের সংখ্যা এবং বিভিন্ন ধরনের খেলার সমাবেশের জন্য \"The Greatest Show on Earth\" বলা হয়। যদিও বিশ্বকাপ ফুটবলও অত্যন্ত জনপ্রিয়, তবে অলিম্পিকের পরিধি আরও ব্যাপক।<br/> ⇢ <br/>📚 আধুনিক অলিম্পিক গেমস বিশ্বের সবচেয়ে বড় ক্রীড়া প্রতিযোগিতা। এর ব্যাপকতা, বিভিন্ন দেশের অংশগ্রহণ এবং বিভিন্ন ধরনের খেলার সমাহার এটিকে \"The Greatest Show on Earth\" উপাধি এনে দিয়েছে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331813,
+    "question": "সোমপুর বিহার কোন জেলায় অবস্থিত?",
+    "options": [
+      "বগুড়া",
+      "কুমিল্লা",
+      "রাজশাহী",
+      "নওগাঁ"
+    ],
+    "correct_answer": "নওগাঁ",
+    "explanation": "📖 সোমপুর মহাবিহার বা পাহাড়পুর বৌদ্ধবিহার বাংলাদেশের নওগাঁ জেলার বদলগাছী উপজেলায় অবস্থিত। এটি পাল রাজা ধর্মপাল কর্তৃক নির্মিত এবং ইউনেস্কো বিশ্ব ঐতিহ্যবাহী স্থানের অন্তর্ভুক্ত।<br/> ⇢ <br/>📚 সোমপুর মহাবিহার অষ্টম শতকে পাল বংশের দ্বিতীয় রাজা ধর্মপাল কর্তৃক নির্মিত হয়। এটি ভারতীয় উপমহাদেশের বৃহত্তম বৌদ্ধবিহারগুলোর মধ্যে অন্যতম। ১৯৮৫ সালে ইউনেস্কো এটিকে বিশ্ব ঐতিহ্যবাহী স্থান (World Heritage Site) হিসেবে ঘোষণা করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331814,
+    "question": "নিচের কোনটি G-8 ভুক্ত দেশ নয়?",
+    "options": [
+      "কানাডা",
+      "অস্ট্রেলিয়া",
+      "ইতালি",
+      "যুক্তরাজ্য"
+    ],
+    "correct_answer": "অস্ট্রেলিয়া",
+    "explanation": "📖 G-8 (বর্তমানে G-7, রাশিয়া বাদ পড়ার পর) বিশ্বের শীর্ষ শিল্পোন্নত দেশগুলোর একটি জোট। <br/>❏ ৫১তম G-7 শীর্ষ সম্মেলন-২০২৫<br/>❏ সম্প্রতি ৫১তম G-7 শীর্ষ সম্মেলন-২০২৫ অনুষ্ঠিত হয়েছে ➺ আলবার্টা, কানাডা (১৫-১৭ জুন, ২০২৫)।<br/>❏ এবারের জি-৭ অন্যতম গুরুত্বপূর্ণ আলোচ্য বিষয় হচ্ছে মধ্যপ্রাচ্যের বর্তমান উত্তেজনা।<br/>❏ বর্তমান চেয়ারম্যান: ➺ মার্ক কার্নি (কানাডা)<br/>❏ G-7-এর পূর্ণরূপ হলো ➺ Group of 7। এটি গঠিত হয় ➺ ১৫ নভেম্বর, ১৯৭৫।<br/>❏ জি-৭ ভুক্ত জোটের সদস্য রাষ্ট্র সংখ্যা ➺ ৭টি। জোটভুক্ত দেশসমূহ হলো: ➺ যুক্তরাষ্ট্র, যুক্তরাজ্য, ইতালি, কানাডা, জাপান, জার্মানি ও ফ্রান্স।<br/>❏ জি-৭ এর লক্ষ্য ও উদ্দেশ্য ➺ সদস্য দেশগুলোর পারস্পরিক অর্থনৈতিক সহযোগিতা।<br/>❏ জি-৭ ভুক্ত একমাত্র এশীয় রাষ্ট্র ➺ জাপান।<br/>❏ জি-৭ এ একবার যোগদান করে পুনরায় বের হয়ে গেছে ➺ রাশিয়া<br/>❏ জি-৭ এর সদর দপ্তর ➺ নেই<br/>❏ প্রথম শীর্ষ সম্মেলন অনুষ্ঠিত হয় ➺ ১৫-১৭ নভেম্বর ১৯৭৫ (রামবুইলে, ফ্রান্স)।<br/>❏ নামকরণ: প্রথমে এটির নাম ছিল G-6। কানাডা যোগ দিলে এর নামকরণ করা হয় G-7। ১৯৯৮ সালে রাশিয়া যোগ দেয়ায় পরিণত হয় G-8 (Group of Eight) এ। কিন্তু ২০১৪ সালে ইউক্রেন এর সাথে যুদ্ধে জড়িয়ে<br/>❏ পড়া এবং ক্রিমিয়া দখলের অভিযোগে রাশিয়াকে সদস্যপদ বাতিল হলে জোটের পুনরায় নাম হয় G-7।<br/>❏ G-7 হলো বিশ্বে অর্থনৈতিক ভাবে সমৃদ্ধ ৭ টি দেশের একটি জোট । এটি ১৯৭৫ সালে গঠিত হয়।<br/>❏ সদস্য দেশসমূহ: 🇺🇸 যুক্তরাষ্ট্র, 🇬🇧 যুক্তরাজ্য 🇫🇷 ফ্রান্স, 🇮🇹 ইতালি 🇩🇪 জার্মানি, 🇯🇵 জাপান ( একমাত্র এশীয় দেশ) 🇨🇦 কানাডা (১৯৭৬ সালে যোগ দেয়)। + 🇪🇺 ইউরোপীয় ইউনিয়ন পর্যবেক্ষক হিসেবে অংশ নিয়েছে।<br/>❏ উদ্দেশ্য: বিশ্বের প্রধান উন্নত অর্থনীতির দেশগুলোর মধ্যে সহযোগিতা বৃদ্ধি করা এবং বিশ্ব অর্থনীতি, নিরাপত্তা, এবং অন্যান্য বৈশ্বিক সমস্যা সমাধানে একসঙ্গে কাজ করা।<br/>❏ ২০১৪ সালে ক্রিমিয়া দখল করার কারনে রাশিয়াকে G-8 থেকে বের করে দেয়া হয়।<br/>❏ G-7+5 বলতে মুল ৭ টি সদস্য দেশের সাথে আরও পাঁচটি দেশকে বোঝায়। এগুলো হল : ব্রাজিল, চীন, ভারত, মেক্সিকো এবং দক্ষিণ আফ্রিকা।<br/>❏ G-7 Summit 2024 অনুষ্ঠিত হয় ইতালির ➺ বোরগো এগনাজিয়াতে (Borgo Egnazia)।<br/>❏ G-7 Summit 2025 আয়োজিত হয়েছে ➺ আলবার্টা, কানাডায় 🇨🇦 (১৫–১৭ জুন)।<br/>❏ এটি G7-এর ➺ ৫১তম সম্মেলন (৫০ তম বার্ষিক বছর) এবং কানাডায় দ্বিতীয়বারের মতো আয়োজন করা হয়েছে। G8-র ২৮তম কনফারেন্স এখানেই হয়েছিল।<br/>❏ এই বছরের সম্মেলনে G7 লিডাররা “ইরানের পারমাণবিক ক্ষমতা বৃদ্ধি প্রতিরোধ” বিষয়ে একতা প্রকাশ করে যৌথ বিবৃতিতে স্বাক্ষর করেছেন।<br/>❏ GROUP OF SEVEN<br/>❏ এটি জাতিসংঘ বা বিশ্বব্যাংকের মতো আন্তর্জাতিক প্রতিষ্ঠান নয়।<br/>❏ এর কোনো স্থায়ী সদর দপ্তর নেই<br/>❏ এটি ধনী এবং উন্নত ( অর্থনৈতিকভাবে সমৃদ্ধ ) দেশগুলোর আলোচনার প্লাটফর্ম।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331815,
+    "question": "সার্ক সচিবালয় কোথায় অবস্থিত?",
+    "options": [
+      "নয়াদিল্লি",
+      "ইসলামাবাদ",
+      "কাঠমুণ্ড",
+      "কলম্বো"
+    ],
+    "correct_answer": "কাঠমুণ্ড",
+    "explanation": "📖 দক্ষিণ এশীয় আঞ্চলিক সহযোগিতা সংস্থা বা সার্ক (SAARC) এর সচিবালয় নেপালের রাজধানী কাঠমান্ডুতে অবস্থিত। এটি ১৯৮৭ সালে প্রতিষ্ঠিত হয়।<br/> ⇢ <br/>📚 সার্ক (SAARC - South Asian Association for Regional Cooperation) ১৯৮৫ সালের ৮ ডিসেম্বর প্রতিষ্ঠিত হয়। এর সদস্য দেশগুলো হলো বাংলাদেশ, ভারত, পাকিস্তান, নেপাল, ভুটান, মালদ্বীপ, শ্রীলঙ্কা এবং আফগানিস্তান। এর স্থায়ী সচিবালয় নেপালের কাঠমান্ডুতে অবস্থিত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331816,
+    "question": "মর্মর সাগর ও কৃষ্ণ সাগরকে সংযোগকারী প্রণালীর নাম কী?",
+    "options": [
+      "হরমুজ",
+      "জিব্রাল্টার",
+      "বসফরাস",
+      "পক"
+    ],
+    "correct_answer": "বসফরাস",
+    "explanation": "📖 বসফরাস প্রণালী তুরস্কের ইস্তাম্বুল শহরের মধ্যে দিয়ে প্রবাহিত হয়ে এশিয়া ও ইউরোপকে বিভক্ত করেছে এবং কৃষ্ণ সাগরকে মর্মর সাগরের সাথে যুক্ত করেছে।<br/> ⇢ <br/>📚 <br/>❏ এক নজরে গুরুত্বপূর্ণ প্রণালী<br/>❏ ১. বসফরাস/ ইস্তানবুল প্রণালী<br/>❏ পৃথক করেছে :- ইস্তানবুল (ইউরোপ) - ইস্তানবুল (এশিয়া) ⇢ যুক্ত করেছে :- কৃষ্ণসাগর + মর্মর সাগর <br/>❏ ২. তাতার প্রণালী<br/>❏ পৃথক করেছে :- রাশিয়া – শাখালিন ⇢ যুক্ত করেছে :- জাপান সাগর + ওখটস্ক সাগর<br/>❏ ৩. ফরমোসা/তাইওয়ান প্রণালী <br/>❏ পৃথক করেছে :- চীন – তাইওয়ান ⇢ যুক্ত করেছে :- পূর্ব চীন সাগর + দক্ষিণ চীন সাগর<br/>❏ মালাক্কা প্রণালী<br/>❏ পৃথক করেছে :- মালয়েশিয়া - ইন্দোনেশিয়া (সুমাত্রা) ⇢ যুক্ত করেছে :- আন্দামান সাগর (ভারত মহাসাগর) + দক্ষিণ চীন সাগর (প্রশান্ত মহাসাগর)<br/>❏ ৫. পক প্রণালী<br/>❏ পৃথক করেছে :- ভারত – শ্রীলঙ্কা ⇢ যুক্ত করেছে :- মান্নার উপসাগর (আরব সাগর) + বঙ্গপোসাগর<br/>❏ ৬. হরমুজ প্রণালী<br/>❏ পৃথক করেছে :- আরব আমিরাত - ইরান, ওমান ⇢ যুক্ত করেছে :- পারস্য উপসাগর + ওমান উপসাগর, আরব সাগর<br/>❏ ৭. বাব আল মান্দেব প্রণালী<br/>❏ পৃথক করেছে :- জিবুতি (আফ্রিকা) - ইয়েমেন (এশিয়া) ⇢ যুক্ত করেছে : লোহিত সাগর + এডেন উপসাগর, আরব সাগর<br/>❏ ৮. দার্দানেলিস প্রণালী<br/>❏ পৃথক করেছে :- থ্রেস (ইউরোপ) - আনাতেলিয়া (এশিয়া) ⇢ যুক্ত করেছে :- এজিয়ান সাগর + মর্মর সাগর<br/>❏ ৯. বেরিং প্রণালী<br/>❏ পৃথক করেছে :- আমেরিকা (আমেরিকা মহাদেশ) - রাশিয়া (এশিয়া মহাদেশ) ⇢ যুক্ত করেছে :- (আর্কটিক মহাসাগর) ঢুকচি সাগর + বেরিং সাগর (প্রশান্ত মহাসাগর)<br/>❏ ১০ ডেভিস প্রণালী<br/>❏ পৃথক করেছে : কানাডা – গ্রিনল্যান্ড ⇢ যুক্ত করেছে : বেফিন সাগর + ল্যাব্রাডার সাগর<br/>❏ ১১. কোরিয়া প্রণালী<br/>❏ পৃথক করেছে : কোরিয়া উপদ্বীপ – জাপান ⇢ যুক্ত করেছে :- জাপান সাগর + পূর্ব চীন সাগর <br/>❏ ১২. ফ্লোরিডা প্রণালী<br/>❏ পৃথক করেছে :- কিউবা - ফ্লোরিডা ( যুক্তরাষ্ট্র) ⇢ যুক্ত করেছে :- মেক্সিকো উপসাগর + আটলান্টিক উপসাগর <br/>❏ ১৩. ডোভার প্রণালী<br/>❏ পৃথক করেছে :- ফ্রান্স- ব্রিটেন ⇢ যুক্ত করেছে :- আটলান্টিক মহাসাগর + উত্তর সাগর<br/>❏ ১৪. সুন্দা প্রণালী<br/>❏ পৃথক করেছে :- ইন্দোনেশিয়া - সুমাত্রা ⇢ যুক্ত করেছে :- ভারত মহাসাগর + জাভা সাগর<br/>❏ ১৫. জিব্রাল্টার প্রণালী<br/>❏ পৃথক করেছে :- স্পেন (ইউরোপ) - মরক্কো (আফ্রিকা) ⇢ যুক্ত করেছে :- ভূমধ্যসাগর + আটলান্টিক মহাসাগর",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331817,
+    "question": "পদ্মা ও যমুনা নদী কোন স্থানে মিলিত হয়েছে?",
+    "options": [
+      "রদিপুর",
+      "গোয়ালন্দ",
+      "চিলমারী",
+      "নারায়ণগঞ্জ"
+    ],
+    "correct_answer": "গোয়ালন্দ",
+    "explanation": "📖 গঙ্গা নদী বাংলাদেশে প্রবেশ করে 'পদ্মা' নাম ধারণ করেছে এবং ব্রহ্মপুত্র নদ 'যমুনা' নামে প্রবাহিত হয়েছে। এই দুটি বিশাল নদী রাজবাড়ী জেলার গোয়ালন্দ ঘাটের কাছে মিলিত হয়েছে এবং মিলিত প্রবাহ 'পদ্মা' নামে চাঁদপুরের দিকে এগিয়ে গেছে।<br/> ⇢ <br/>📚 পদ্মা ও যমুনা নদীর মিলনস্থলটি রাজবাড়ী জেলার গোয়ালন্দ উপজেলার দৌলতদিয়া এবং পাবনা জেলার নগরবাড়ী ঘাটের মাঝামাঝি স্থানে অবস্থিত। এই মিলনস্থলের পর নদীটি 'পদ্মা' নামেই দক্ষিণ-পূর্ব দিকে প্রবাহিত হয়েছে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331818,
+    "question": "‘নারিকেল জিঞ্জিরা' কোন দ্বীপের অপর নাম?",
+    "options": [
+      "সেন্টমার্টিন",
+      "হাতিয়া",
+      "কুতুবদিয়া",
+      "মহেশখালি"
+    ],
+    "correct_answer": "সেন্টমার্টিন",
+    "explanation": "📖 বাংলাদেশের একমাত্র প্রবাল দ্বীপ সেন্টমার্টিন-এর স্থানীয় বা অপর নাম হলো 'নারিকেল জিঞ্জিরা'। প্রচুর পরিমাণে নারিকেল গাছ থাকায় এই নামকরণ করা হয়েছে।<br/> ⇢ <br/>📚 সেন্টমার্টিন দ্বীপটি কক্সবাজার জেলার টেকনাফ থেকে প্রায় ৯ কিলোমিটার দক্ষিণে অবস্থিত। এর স্থানীয় নাম 'নারিকেল জিঞ্জিরা' বা 'দারুচিনি দ্বীপ'। এটি বাংলাদেশের একমাত্র প্রবাল দ্বীপ এবং জীববৈচিত্র্যের জন্য বিখ্যাত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331819,
+    "question": "কোন গুরুত্বপূর্ণ অক্ষরেখা বাংলাদেশের উপর দিয়ে গেছে?",
+    "options": [
+      "কর্কট ক্রান্তি রেখা",
+      "আন্তর্জাতিক তারিখ রেখা",
+      "মকর ক্রান্তি রেখা",
+      "বিষুব রেখা"
+    ],
+    "correct_answer": "কর্কট ক্রান্তি রেখা",
+    "explanation": "📖 কর্কটক্রান্তি রেখা (Tropic of Cancer) বা ২৩.৫° উত্তর অক্ষরেখা বাংলাদেশের প্রায় মধ্যভাগ দিয়ে অতিক্রম করেছে। এটি ঢাকা, কুমিল্লা, ফরিদপুর, ঝিনাইদহ, মাগুরা ইত্যাদি জেলার উপর দিয়ে গেছে।<br/> ⇢ <br/>📚 কর্কটক্রান্তি রেখা (২৩°২৬' উত্তর অক্ষাংশ) বাংলাদেশের প্রায় মাঝখান দিয়ে পূর্ব-পশ্চিমে বিস্তৃত। এই রেখাটি বাংলাদেশের জলবায়ু ও ঋতু পরিবর্তনের উপর গুরুত্বপূর্ণ প্রভাব ফেলে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331820,
+    "question": "মুক্তিযুদ্ধের সময় কুষ্টিয়া কত নম্বর সেক্টরের অধীনে ছিল?",
+    "options": [
+      "৩",
+      "৫",
+      "৮",
+      "৯"
+    ],
+    "correct_answer": "৮",
+    "explanation": "⛳ মুক্তিযুদ্ধের ৮ নম্বর সেক্টর<br/>❏ সমগ্র কুষ্টিয়া ও যশোর জেলা, ফরিদপুরের অধিকাংশ এলাকা ও দৌলতপুর-সাতক্ষীরা সড়কের উত্তরাংশ নিয়ে ➺ ৮ নম্বর সেক্টর গঠিত হয়।<br/>❏ ৮ নম্বর সেক্টরের সদরদপ্তর ছিলো ➺ পশ্চিমবঙ্গের কল্যাণীতে।<br/>❏ ৮ নম্বর সেক্টরের প্রথম সেক্টর কমান্ডার ছিলেন মেজর আবু ওসমান চৌধুরী ও পরে মেজর এমএ মঞ্জুর।<br/>❏ ৮ নম্বর সেক্টরের অধীনে সাব-সেক্টর ছিলো ➺ ৭টি।<br/>❏ ৮ নম্বর সেক্টরে যুদ্ধ করে শহিদ হন ➺ বীরশ্রেষ্ঠ ল্যান্স নায়েক নূর মোহাম্মদ শেখ।<br/>❏ ল্যান্স নায়েক নূর মোহাম্মদ শেখ শহিদ হন ➺ ১৯৭১ সালের ৫ সেপ্টেম্বর।<br/>❏ তার সমাধি ➺ যশোরের কাশিমপুরে। <br/> ⇢ <br/>📚 মুক্তিযুদ্ধের ১১টি সেক্টর কে বিভক্ত করা হয় ১৯৭১ সালের ১২ই জুলাই। পুরো বাংলাদেশকে ১১টি সেক্টের বিভক্ত করা পর সেক্টরগুলোর কমান্ডারও গঠন করা হয়।<br/>❏ মুক্তিবাহিনীর সর্বাধিনায়ক ছিলেন ➺ এমএজি ওসমানী<br/>❏ বাংলাদেশের মোট সেক্টর ➺ ১১টি<br/>❏ সাব সেক্টর ➺ ৬৪টি<br/>❏ সেক্টরগুলোকে বিভক্ত করেন ➺ তাজউদ্দিন আহমেদের নির্দেশে এমএজি ওসমানী<br/>❏ নিয়মিত সেক্টর কমান্ডার ছিল না এবং একমাত্র নৌ সেক্টর ➺ ১০<br/>❏ ১২ জুলাই ১৯৭১ : বাংলাদেশকে ১১টি সেক্টরে বিভক্ত করা হয়।<br/>❏ সেকটরস কম্যান্ডার সম্মেলনের ২য় দিন কলকাতা ৮ নম্বর থিয়েটার রোডের অস্থায়ী সরকারের সচিবালয়ে শুরু হয়। <br/>❏ মুক্তিযুদ্ধের সময় চট্টগ্রাম ও পার্বত্য চট্টগ্রাম ছিল ➺ ১ নং সেক্টরে<br/>❏ মুক্তিযুদ্ধের সময় ঢাকা ছিল ➺ ২ নং সেক্টর<br/>❏ নারী বীর প্রতীক ক্যাপ্টেন সিতারা বেগম। ➺ ২ নং সেক্টর<br/>❏ একমাত্র বিদেশি বীর প্রতীক ডব্লিউ, এইচ, ওডারল্যান্ড ➺ ২ নং সেক্টর<br/>❏ ক্র্যাক প্লাটুন ➺ ২ নং সেক্টর<br/>❏ কাকন বিবি যুদ্ধ করেন ➺ ৫ নং সেক্টরে<br/>❏ একমাত্র আদিবাসী বীর বিক্রম ইউকে চিং মারমা ➺ ৬ নং সেক্টর<br/>❏ মুক্তিযুদ্ধের সময় মুজিবনগর ছিল ➺ ৮ নং সেক্টরে<br/>❏ মেহেরপুরের বৈদ্যনাথতলা ছিল ➺ ৮ নং সেক্টরে<br/>❏ মুক্তিযুদ্ধের সময় সুন্দরবন ছিল ➺ ৯ নং সেক্টরে।<br/>❏ নিয়মিত সেক্টর কমান্ডার ছিল না ➺ ১০ নং সেক্টরে (নৌ সেক্টর)<br/>❏ মুক্তিযুদ্ধের ব্রাদার্স প্লাটুন বলা হয় ➺ ১১ নং সেক্টর<br/>❏ তারামন বিবি যুদ্ধে অংশ নেয় ➺ ১১ নং সেক্টর<br/>❏ সর্বকনিষ্ঠ বীর প্রতীক শহিদুল ইসলাম লালু (১৯৩ বছর) ➺ ১১ নং সেক্টর<br/>❏ সকল সেক্টর বিলুপ্তির ঘোষণা ➺ ১৪ ফেব্রুয়ারি ১৯৭২<br/>❏ সবচেয়ে বয়স্ক সেক্টর কমান্ডার ➺ মেজর কাজী নুরুজ্জামান<br/>❏ সর্বকনিষ্ঠ সেক্টর কমান্ডার ➺ মেজর রফিকুল ইসলাম <br/>❏ মুক্তিযুদ্ধ কালে বাংলাদেশকে ভাগ করে ➺ ১১ টি সেক্টরে।<br/>❏ চট্টগ্রাম ছিল ➺ ১ নং সেক্টর।<br/>❏ নৌ কমান্ডো দ্বারা গঠিত ➺ ১০ নং সেক্টর।<br/>❏ মুক্তিযুদ্ধের প্রথম সশস্ত্র প্রতিরোধ সংঘটিত হয় ➺ গাজীপুরে।<br/>❏ বাংলাদেশের মুক্তিযুদ্ধে প্রথম শত্রুমুক্ত জেলা ➺ যশোর।<br/>❏ শহীদ বুদ্ধিজীবী দিবস ➺ ১৪ ডিসেম্বর।<br/>❏ স্বাধীনতা যুদ্ধে বাংলাদেশ -ভারত মিত্র বাহিনীর কাছে পাকিস্তান সেনাবাহিনী আত্মসমর্পণ করেন ➺ ১৬ ডিসেম্বর।<br/>❏ ১৯৭১ সালে পাক- বাহিনীর আত্মসমর্পণের সময় মুক্তিবাহিনীর প্রতিনিধিত্ব করেন ➺ জেনারেল জগজিৎ সিং অরোরা।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331821,
+    "question": "কোন মুঘল সুবাদার ঢাকায় প্রথমবারের মতো বাংলার রাজধানী স্থাপন করেন?",
+    "options": [
+      "ইসলাম খান",
+      "মুর্শিদকুলি খান",
+      "শায়েস্তা খান",
+      "মীর জুমলা"
+    ],
+    "correct_answer": "ইসলাম খান",
+    "explanation": "📖 মুঘল সুবাদার ইসলাম খান চিশতি ১৬১০ সালে রাজমহল থেকে বাংলার রাজধানী ঢাকায় স্থানান্তর করেন এবং সম্রাট জাহাঙ্গীরের নামানুসারে এর নাম রাখেন 'জাহাঙ্গীরনগর'।<br/> ⇢ <br/>📚 মুঘল সম্রাট জাহাঙ্গীরের সুবাদার ইসলাম খান চিশতি ১৬১০ সালে বাংলার রাজধানী রাজমহল থেকে ঢাকায় স্থানান্তর করেন। তিনি প্রশাসনিক ও সামরিক সুবিধার জন্য এই সিদ্ধান্ত নেন এবং ঢাকার নাম পরিবর্তন করে সম্রাট জাহাঙ্গীরের নামানুসারে 'জাহাঙ্গীরনগর' রাখেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331822,
+    "question": "নিচের কোনটি মুক্তিযুদ্ধভিত্তিক চলচিত্র নয়?",
+    "options": [
+      "গোলাপি কেন ট্রেনে",
+      "ওরা এগার জন",
+      "অরুণোদয়ের অগ্নিসাক্ষী",
+      "আগুনের পরশমনি"
+    ],
+    "correct_answer": "গোলাপি কেন ট্রেনে",
+    "explanation": "📖 'গোলাপি এখন ট্রেনে' (১৯৭৮) একটি সামাজিক চলচ্চিত্র, যা গ্রামীণ নারীর সংগ্রাম ও সামাজিক অবিচারের চিত্র তুলে ধরে। 'ওরা এগার জন', 'অরুণোদয়ের অগ্নিসাক্ষী' এবং 'আগুনের পরশমনি'—এই তিনটিই বিখ্যাত মুক্তিযুদ্ধভিত্তিক চলচ্চিত্র।<br/> ⇢ <br/>📚 'গোলাপি এখন ট্রেনে' চলচ্চিত্রটি আমজাদ হোসেন পরিচালিত এবং এটি গ্রামীণ পটভূমিতে নির্মিত একটি সামাজিক ও পারিবারিক গল্পের চলচ্চিত্র। অন্যদিকে, 'ওরা এগার জন' (চাষী নজরুল ইসলাম), 'অরুণোদয়ের অগ্নিসাক্ষী' (সুভাষ দত্ত) এবং 'আগুনের পরশমনি' (হুমায়ূন আহমেদ) সরাসরি বাংলাদেশের মুক্তিযুদ্ধকে কেন্দ্র করে নির্মিত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331823,
+    "question": "‘দুধের মাছি‘ বাগধারাটির সঙ্গে অর্থের মিল আছে কোনটির?",
+    "options": [
+      "তীর্থের কাক",
+      "বসন্তের কোকিল",
+      "বক ধার্মিক",
+      "ভেজা বেড়াল"
+    ],
+    "correct_answer": "বসন্তের কোকিল",
+    "explanation": "📖 'দুধের মাছি' এবং 'বসন্তের কোকিল'—উভয় বাগধারার অর্থ হলো 'সুসময়ের বন্ধু'। অর্থাৎ, যে শুধু ভালো সময়ে পাশে থাকে এবং দুঃসময়ে চলে যায়। 'তীর্থের কাক' অর্থ প্রতীক্ষারত, 'বক ধার্মিক' অর্থ ভণ্ড সাধু এবং 'ভেজা বেড়াল' অর্থ নিরীহ সেজে থাকা ধূর্ত ব্যক্তি।<br/> ⇢ <br/>📚 'দুধের মাছি' বলতে বোঝায় যে মাছি শুধু দুধের মতো সুস্বাদু বস্তুর কাছেই আসে, অর্থাৎ শুধু সুসময়েই যার আনাগোনা। 'বসন্তের কোকিল'ও একই অর্থে ব্যবহৃত হয়, অর্থাৎ বসন্তকালে কোকিলের আগমন ঘটে, কিন্তু দুঃসময়ে সে থাকে না।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331824,
+    "question": "‘উর্ণনাভ' শব্দটির অর্থ কী?",
+    "options": [
+      "টিকটিকি",
+      "মাকড়সা",
+      "তেলাপোকা",
+      "উইপোকা"
+    ],
+    "correct_answer": "মাকড়সা",
+    "explanation": "📖 'উর্ণনাভ' একটি তৎসম শব্দ। এর অর্থ হলো মাকড়সা। 'উর্ণ' অর্থ সুতা বা জাল এবং 'নাভ' অর্থ নাভি; যার নাভি থেকে জাল বের হয়, সেই হলো উর্ণনাভ বা মাকড়সা।<br/> ⇢ <br/>📚 'উর্ণনাভ' শব্দটি সংস্কৃত থেকে আগত। 'উর্ণ' শব্দের অর্থ হলো মাকড়সার জাল বা সুতা এবং 'নাভ' শব্দের অর্থ নাভি। মাকড়সা তার নাভি থেকে জাল তৈরি করে বলে এর নাম 'উর্ণনাভ'।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331825,
+    "question": "‘কুল কাঠের আগুন' বাগধারাটির অর্থ কী?",
+    "options": [
+      "পরগানে আগুন",
+      "যে আগুন সহজে নেভে না",
+      "শুকনা কাঠের আগুন",
+      "তীব্র জ্বালা"
+    ],
+    "correct_answer": "তীব্র জ্বালা",
+    "explanation": "📖 'কুল কাঠের আগুন' বাগধারাটির অর্থ তীব্র জ্বালা বা দীর্ঘস্থায়ী মনঃকষ্ট। কুল গাছের কাঠ ধীরে ধীরে জ্বলে এবং দীর্ঘ সময় ধরে কষ্ট দেয়, সেই ধারণা থেকে এই বাগধারাটির উৎপত্তি।<br/> ⇢ <br/>📚 কুল কাঠের আগুন খুব ধীরে ধীরে জ্বলে এবং সহজে নেভে না। এই উপমাটি দীর্ঘস্থায়ী, গোপন বা তীব্র মানসিক কষ্ট বা জ্বালাকে বোঝাতে ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331826,
+    "question": "নিচের কোন বাক্যটি শুদ্ধ?",
+    "options": [
+      "অধ্যায়নই ছাত্রদের তপস্যা",
+      "সে ইতঃপূর্বে তিনবার জেল খেটেছে",
+      "এ কি দুরাবস্থা হলো আমার",
+      "দারিদ্রতা আমাদের প্রধান সমস্যা।"
+    ],
+    "correct_answer": "সে ইতঃপূর্বে তিনবার জেল খেটেছে",
+    "explanation": "📖 'অধ্যায়ন' ভুল, সঠিক বানান 'অধ্যয়ন'।<br/>❏ 'দুরাবস্থা' ভুল, সঠিক শব্দ 'দুরবস্থা' (দুঃ + অবস্থা)।<br/>❏ 'দারিদ্রতা' একটি বাহুল্য দোষ। হয় 'দরিদ্রতা' হবে অথবা 'দারিদ্র্য' হবে।<br/>❏ 'সে ইতঃপূর্বে তিনবার জেল খেটেছে' বাক্যটি গঠন ও বানানগতভাবে শুদ্ধ।<br/> ⇢ <br/>📚 'অধ্যায়নই ছাত্রদের তপস্যা' - বানান ভুল: 'অধ্যায়ন' নয়, 'অধ্যয়ন'।<br/>❏ 'এ কি দুরাবস্থা হলো আমার' - বানান ভুল: 'দুরাবস্থা' নয়, 'দুরবস্থা'।<br/>❏ 'দারিদ্রতা আমাদের প্রধান সমস্যা' - বাহুল্য দোষ: 'দারিদ্রতা' নয়, 'দরিদ্রতা' বা 'দারিদ্র্য'।<br/>❏ 'সে ইতঃপূর্বে তিনবার জেল খেটেছে' - বাক্যটি ব্যাকরণগতভাবে এবং বানানগতভাবে সম্পূর্ণ শুদ্ধ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331827,
+    "question": "নিচের কোন শব্দটি সঠিক নয়?",
+    "options": [
+      "মুমুর্ষু",
+      "মুহূর্ত",
+      "স্বায়ত্বশাসন",
+      "অংশীদারত্ব"
+    ],
+    "correct_answer": "মুমুর্ষু",
+    "explanation": "📖 সঠিক বানানটি হলো 'স্বায়ত্তশাসন'। এটি 'স্ব' এবং 'আয়ত্ত' শব্দ দুটি মিলে গঠিত হয়েছে। 'স্বায়ত্ত' বানানটি ভুল। অন্য বানানগুলো (মুমূর্ষু, মুহূর্ত, অংশীদারত্ব) সঠিক।<br/> ⇢ <br/>📚 'স্বায়ত্বশাসন' বানানটি ভুল। সঠিক বানানটি হলো 'স্বায়ত্তশাসন'। এটি 'স্ব' (নিজস্ব) এবং 'আয়ত্ত' (অধীন) শব্দ দুটির সমন্বয়ে গঠিত। 'স্বায়ত্ত' শব্দের অর্থ হলো নিজের অধীন বা নিজের আয়ত্তে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331828,
+    "question": "‘বাবুর্চি' শব্দটি কোন ভাষা থেকে বাংলায় এসেছে?",
+    "options": [
+      "ফারসি",
+      "উর্দু",
+      "তুর্কি",
+      "পর্তুগিজ"
+    ],
+    "correct_answer": "তুর্কি",
+    "explanation": "📖 'বাবুর্চি' শব্দটি তুর্কি ভাষা থেকে বাংলা ভাষায় এসেছে। তুর্কি ভাষা থেকে আগত আরও কিছু শব্দ হলো— চাকু, তোপ, দারোগা, বাবা ইত্যাদি।<br/> ⇢ <br/>📚 বাংলা ভাষায় ব্যবহৃত 'বাবুর্চি' শব্দটি একটি তুর্কি শব্দ। তুর্কিরা যখন ভারতীয় উপমহাদেশে আসে, তখন তাদের ব্যবহৃত অনেক শব্দ বাংলা ভাষায় প্রবেশ করে। যেমন: চাকর, বেগম, কুলি, কাঁচি, উজবুক ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331829,
+    "question": "‘উক্ত' শব্দটির প্রকৃতি ও প্রত্যয় কোনটি?",
+    "options": [
+      "বক+ত",
+      "বচ্ + ত",
+      "উক্+ত",
+      "উ + ক্ত"
+    ],
+    "correct_answer": "বচ্ + ত",
+    "explanation": "📖 'উক্ত' শব্দটি সংস্কৃত 'বচ্' (বলা) ধাতুর সাথে 'ক্ত' প্রত্যয় যোগে গঠিত হয়েছে। নিয়ম অনুযায়ী, বচ্ + ক্ত = উক্ত। এটি একটি কৃৎ প্রত্যয়ের উদাহরণ।<br/> ⇢ <br/>📚 'উক্ত' শব্দটি কৃৎ প্রত্যয়ের উদাহরণ। সংস্কৃত ব্যাকরণের নিয়ম অনুযায়ী, 'বচ্' (বলা) ধাতুর সাথে 'ক্ত' প্রত্যয় যুক্ত হলে 'বচ্'-এর 'ব' স্থানে 'উ' এবং 'চ্' স্থানে 'ক্' হয়ে 'উক্ত' শব্দটি গঠিত হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331830,
+    "question": "'[আকাশে] তো আমি রাখি নাই মোর উড়িবার ইতিহাস'- 'আকাশে' শব্দটি কোন কারকে কোন বিভক্তি?",
+    "options": [
+      "কর্তৃকারকে ৭মী",
+      "কর্মকারকে ৭মী",
+      "অপাদান কারকে ৩য়া",
+      "অধিকরণে ৭মী"
+    ],
+    "correct_answer": "অধিকরণে ৭মী",
+    "explanation": "📖 ক্রিয়া সম্পাদনের স্থান, কাল বা আধারকে অধিকরণ কারক বলে। 'কোথায়' বা 'কখন' দিয়ে প্রশ্ন করলে অধিকরণ কারক পাওয়া যায়। এখানে 'কোথায় রাখি নাই?'—এর উত্তর 'আকাশে'। স্থান বোঝানোয় এটি অধিকরণ কারক এবং 'এ' বিভক্তি থাকায় ৭মী বিভক্তি।<br/> ⇢ <br/>📚 'আকাশে' শব্দটি ক্রিয়া 'রাখি নাই' এর স্থান নির্দেশ করছে। যেহেতু এটি ক্রিয়া সম্পাদনের স্থান বা আধার, তাই এটি অধিকরণ কারক। 'আকাশ' শব্দের সাথে 'এ' বিভক্তি যুক্ত হওয়ায় এটি অধিকরণে ৭মী বিভক্তি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331831,
+    "question": "কোনটি জহির রায়হান রচিত উপন্যাস?",
+    "options": [
+      "হাজার বছর ধরে",
+      "পথের পাঁচালী",
+      "শেষের কবিতা",
+      "চরিত্রহীন"
+    ],
+    "correct_answer": "হাজার বছর ধরে",
+    "explanation": "📖 'হাজার বছর ধরে' জহির রায়হানের একটি বিখ্যাত উপন্যাস। 'পথের পাঁচালী' বিভূতিভূষণ বন্দ্যোপাধ্যায়ের, 'শেষের কবিতা' রবীন্দ্রনাথ ঠাকুরের এবং 'চরিত্রহীন' শরৎচন্দ্র চট্টোপাধ্যায়ের রচিত উপন্যাস।<br/> ⇢ <br/>📚 জহির রায়হান রচিত 'হাজার বছর ধরে' (১৯৬৪) উপন্যাসটি গ্রামীণ জীবনের পটভূমিতে রচিত। এটি তাঁর অন্যতম শ্রেষ্ঠ সাহিত্যকর্ম এবং পরবর্তীতে এটি চলচ্চিত্র রূপ লাভ করে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331832,
+    "question": "‘হাতাহাতি' কোন সমাসের উদাহরণ?",
+    "options": [
+      "দ্বন্দ্ব",
+      "কর্মধারয়",
+      "বহুব্রীহি",
+      "তৎপুরুষ"
+    ],
+    "correct_answer": "বহুব্রীহি",
+    "explanation": "📖 যে সমাসে একই ধরনের ক্রিয়ার পারস্পরিকতা বোঝায়, তাকে ব্যতিহার বহুব্রীহি সমাস বলে। 'হাতাহাতি'-এর ব্যাসবাক্য হলো 'হাতে হাতে যে লড়াই'। এখানে ক্রিয়ার পারস্পরিকতা বোঝানো হয়েছে। যেমন: কানাকানি, লাঠালাঠি ইত্যাদি।<br/> ⇢ <br/>📚 ব্যতিহার বহুব্রীহি সমাসে পূর্বপদ ও পরপদ একই ধরনের ক্রিয়ার পারস্পরিকতা বা বিনিময় বোঝায়। এই সমাসে সাধারণত পূর্বপদে 'আ' এবং পরপদে 'ই' ধ্বনি যুক্ত হয়। যেমন: 'হাতাহাতি' (হাতে হাতে যে যুদ্ধ), 'কোলাকুলি' (কোলে কোলে যে মিলন), 'মারামারি' (মারা মারি)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331833,
+    "question": "একটি সার্থক বাক্যের বৈশিষ্টা নয় কোনটি?",
+    "options": [
+      "আসক্তি",
+      "আকাঙ্ক্ষা",
+      "আসত্তি",
+      "যোগ্যতা"
+    ],
+    "correct_answer": "আসক্তি",
+    "explanation": "📖 একটি সার্থক বাক্যের তিনটি প্রধান গুণ বা বৈশিষ্ট্য থাকে: আকাঙ্ক্ষা (বাক্যের অর্থ পুরোপুরি বোঝার ইচ্ছা), আসত্তি (পদের সঠিক) এবং যোগ্যতা (ভাবগত ও অর্থগত সংগতি)। 'আসক্তি' (Attachment) কোনো বাক্যের বৈশিষ্ট্য নয়।<br/> ⇢ <br/>📚 একটি সার্থক বাক্যের তিনটি অপরিহার্য গুণ হলো:<br/>❏ ১. আকাঙ্ক্ষা: বাক্যের অর্থ সম্পূর্ণভাবে জানার জন্য এক পদের পর অন্য পদ শোনার ইচ্ছা।<br/>❏ ২. আসত্তি (বা নৈকট্য): বাক্যের পদগুলোর অর্থগত ও ভাবগত সংগতি রক্ষার জন্য সুবিন্যস্তভাবে সন্নিবেশিত হওয়া।<br/>❏ ৩. যোগ্যতা: বাক্যের পদগুলোর অর্থগত ও ভাবগত মিল থাকা।<br/>❏ 'আসক্তি' (Attachment) একটি মানসিক অবস্থা, যা ব্যাকরণের বাক্যের বৈশিষ্ট্য নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331834,
+    "question": "Wisdom শব্দের বাংলা পরিভাষা কী হবে?",
+    "options": [
+      "প্রজ্ঞা",
+      "বুদ্ধি",
+      "জ্ঞান",
+      "মেধা"
+    ],
+    "correct_answer": "প্রজ্ঞা",
+    "explanation": "📖 Wisdom-এর সবচেয়ে উপযুক্ত বাংলা পরিভাষা হলো 'প্রজ্ঞা'। 'জ্ঞান' (Knowledge) হলো তথ্য বা ধারণা, 'বুদ্ধি' (Intelligence) হলো জ্ঞান ব্যবহারের ক্ষমতা এবং 'মেধা' (Merit) হলো প্রতিভা। কিন্তু 'প্রজ্ঞা' হলো অভিজ্ঞতা, জ্ঞান ও বিচক্ষণতার সমন্বিত রূপ, যা Wisdom-এর অর্থকে সঠিকভাবে প্রকাশ করে।<br/> ⇢ <br/>📚 'Wisdom' শব্দটি কেবল জ্ঞান বা বুদ্ধিকে বোঝায় না, বরং এটি গভীর উপলব্ধি, বিচক্ষণতা এবং সঠিক সিদ্ধান্ত নেওয়ার ক্ষমতাকে বোঝায়। এই অর্থে 'প্রজ্ঞা' শব্দটিই সবচেয়ে সঠিক পরিভাষা।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331835,
+    "question": "কোনটি মধ্যপদলোপী কর্মধারয় সমাসের উদাহরণ?",
+    "options": [
+      "মহাপুরুষ",
+      "সিংহাসন",
+      "কুসুমকোমল",
+      "দম্পতি"
+    ],
+    "correct_answer": "সিংহাসন",
+    "explanation": "📖 যে কর্মধারয় সমাসে ব্যাসবাক্যের মধ্যবর্তী পদ লোপ পায়, তাকে মধ্যপদলোপী কর্মধারয় সমাস বলে। 'সিংহাসন'-এর ব্যাসবাক্য হলো 'সিংহ চিহ্নিত আসন'। এখানে 'চিহ্নিত' মধ্যপদটি লোপ পেয়েছে। 'মহাপুরুষ' (মহান যে পুরুষ) সাধারণ কর্মধারয়, 'কুসুমকোমল' (কুসুমের ন্যায় কোমল) উপমান কর্মধারয়।<br/> ⇢ <br/>📚 মধ্যপদলোপী কর্মধারয় সমাসে ব্যাসবাক্যের মধ্যবর্তী অংশটি সমাসবদ্ধ পদে বিলুপ্ত হয়ে যায়। 'সিংহাসন' (সিংহ চিহ্নিত আসন), 'সাহিত্যসভা' (সাহিত্য বিষয়ক সভা), 'পলান্ন' (পল মিশ্রিত অন্ন) ইত্যাদি এই সমাসের উদাহরণ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331836,
+    "question": "‘সূর্য' এর প্রতিশব্দ নয় কোনটি?",
+    "options": [
+      "প্রভাকর",
+      "অম্বর",
+      "দিবাকর",
+      "আদিত্য"
+    ],
+    "correct_answer": "অম্বর",
+    "explanation": "📖 প্রভাকর, দিবাকর, আদিত্য, রবি, ভানু, তপন ইত্যাদি সূর্যের প্রতিশব্দ। 'অম্বর' শব্দের অর্থ হলো আকাশ। সুতরাং, অম্বর সূর্যের প্রতিশব্দ নয়।<br/> ⇢ <br/>📚 'অম্বর' শব্দের একাধিক অর্থ রয়েছে, যেমন: আকাশ, বস্ত্র বা মেঘ। এটি কোনোভাবেই সূর্যের প্রতিশব্দ নয়। অন্যদিকে, 'প্রভাকর' (প্রভা বা আলো দানকারী), 'দিবাকর' (দিন বা আলো দানকারী) এবং 'আদিত্য' (অদিতি-পুত্র) সবই সূর্যের সমার্থক শব্দ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331837,
+    "question": "যে বন হিংস্র জন্তুতে পরিপূর্ণ, তাকে এক কথায় কী বলে?",
+    "options": [
+      "শ্বাপদসংকুল",
+      "বিপদসংকুল",
+      "সুন্দরবন",
+      "আমাজন"
+    ],
+    "correct_answer": "শ্বাপদসংকুল",
+    "explanation": "📖 'শ্বাপদ' শব্দের অর্থ হিংস্র জন্তু বা মাংসাশী পশু। 'সংকুল' অর্থ পরিপূর্ণ । সুতরাং, যে বন হিংস্র জন্তুতে পরিপূর্ণ, তাকে এক কথায় 'শ্বাপদসংকুল' বলে।<br/> ⇢ <br/>📚 'শ্বাপদসংকুল' শব্দটি দুটি অংশের সমন্বয়ে গঠিত: 'শ্বাপদ' (হিংস্র পশু) এবং 'সংকুল' (পরিপূর্ণ)। এই শব্দটি বিশেষভাবে সেই বন বা স্থানকে বোঝায় যেখানে হিংস্র পশুর কারণে প্রবেশ করা বিপজ্জনক।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331838,
+    "question": "‘প্রাচ্য' শব্দের বিপরীত শব্দ কোনটি?",
+    "options": [
+      "প্রাচীন",
+      "পাশ্চাত্য",
+      "প্রাচীর",
+      "প্রতীচী"
+    ],
+    "correct_answer": "পাশ্চাত্য",
+    "explanation": "📖 'প্রাচ্য' অর্থ পূর্বদিক বা পূর্বদেশীয়। এর বিপরীত শব্দ হলো 'পাশ্চাত্য', যার অর্থ পশ্চিমদিক বা পশ্চিমদেশীয়। 'প্রতীচী' শব্দের অর্থও পশ্চিমদিক, তবে 'প্রাচ্য'-এর সর্বাধিক প্রচলিত বিপরীত শব্দ 'পাশ্চাত্য'।<br/> ⇢ <br/>📚 'প্রাচ্য' শব্দটি সাধারণত পূর্ব গোলার্ধের দেশ বা সংস্কৃতিকে বোঝাতে ব্যবহৃত হয়। এর বিপরীত শব্দ হিসেবে 'পাশ্চাত্য' শব্দটি পশ্চিম গোলার্ধের দেশ বা সংস্কৃতিকে বোঝাতে ব্যবহৃত হয়। এটি একটি বহুল প্রচলিত বিপরীত শব্দজোড়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331839,
+    "question": "‘খাতক' শব্দের বিপরীত শব্দ কোনটি?",
+    "options": [
+      "যাতক",
+      "চাতক",
+      "পাতক",
+      "মহাজন"
+    ],
+    "correct_answer": "মহাজন",
+    "explanation": "📖 'খাতক' শব্দের অর্থ ঋণী বা দেনাদার ব্যক্তি। এর বিপরীত শব্দ হলো 'মহাজন', যার অর্থ ঋণদাতা বা পাওনাদার।<br/> ⇢ <br/>📚 'খাতক' শব্দটি ঋণগ্রহীতাকে বোঝায়। অন্যদিকে, 'মহাজন' শব্দটি ঋণ প্রদানকারী বা পাওনাদারকে বোঝায়। এই দুটি শব্দ অর্থনৈতিক লেনদেনের ক্ষেত্রে একে অপরের বিপরীত অর্থ প্রকাশ করে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331840,
+    "question": "‘যা চিরস্থায়ী নয়' তাকে এক কথায় কী বলে?",
+    "options": [
+      "অস্থায়ী",
+      "ক্ষণস্থায়ী",
+      "নশ্বর",
+      "অবিনশ্বর"
+    ],
+    "correct_answer": "নশ্বর",
+    "explanation": "📖 যা চিরস্থায়ী নয়, অর্থাৎ যার নাশ বা ক্ষয় আছে, তাকে এক কথায় 'নশ্বর' বলে। 'অস্থায়ী' বা 'ক্ষণস্থায়ী' অর্থ অল্প সময়ের জন্য স্থায়ী, কিন্তু 'নশ্বর' শব্দটি বিশেষভাবে ধ্বংস বা বিনাশশীল জগতকে বোঝায়। 'অবিনশ্বর' হলো নশ্বর-এর বিপরীত শব্দ।<br/> ⇢ <br/>📚 'নশ্বর' শব্দটি এসেছে 'নশ' (ধ্বংস হওয়া) ধাতু থেকে। এর অর্থ হলো বিনাশশীল বা ক্ষণভঙ্গুর। যা চিরস্থায়ী নয়, তার অনিবার্য পরিণতি হলো ধ্বংস বা নাশ। তাই 'নশ্বর' শব্দটিই এখানে সবচেয়ে উপযুক্ত এক কথায় প্রকাশ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331841,
+    "question": "দুঃখ বিনা সুখ লাভ হয় কি মহীতে এখানে ‘বিনা’ শব্দটি একটি",
+    "options": [
+      "উপসর্গ",
+      "অনুসর্গ",
+      "বিভক্তি",
+      "প্রত্যয়"
+    ],
+    "correct_answer": "অনুসর্গ",
+    "explanation": "📖 অনুসর্গ হলো এমন কিছু অব্যয় শব্দ যা বিশেষ্য বা সর্বনাম পদের পরে বসে শব্দ বিভক্তির মতো কাজ করে এবং কারক সম্বন্ধ নির্ধারণ করে। এখানে 'বিনা' শব্দটি 'দুঃখ' পদের পরে বসে একটি অর্থ প্রকাশ করেছে, তাই এটি একটি অনুসর্গ। একে কর্মপ্রবচনীয়ও বলা হয়।<br/> ⇢ <br/>📚 'বিনা' শব্দটি একটি অব্যয় পদ যা 'দুঃখ' বিশেষ্য পদের পরে বসেছে এবং একটি সম্পর্ক স্থাপন করেছে। অনুসর্গগুলো সাধারণত বিভক্তির মতো কাজ করে এবং বাক্যের অর্থকে স্পষ্ট করে। 'বিনা' অনুসর্গটি এখানে 'ব্যতীত' বা 'ছাড়া' অর্থে ব্যবহৃত হয়েছে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331842,
+    "question": "কোনটিতে ণ-ত্ব বিধি অনুসরণ করে 'ণ' ব্যবহার করা হয়েছে?",
+    "options": [
+      "কল্যাণ",
+      "প্রবণ",
+      "নিক্কণ",
+      "বিপণি"
+    ],
+    "correct_answer": "প্রবণ",
+    "explanation": "📖 ণ-ত্ব বিধানের নিয়ম অনুযায়ী, ঋ, র, ষ-এর পরে 'ণ' হয়। 'কল্যাণ' শব্দটিতে 'ল'-এর পরে 'ণ' হয়েছে, যা একটি বিশেষ নিয়ম (ঋ, র, ষ ছাড়াও ক-বর্গের পর য, ব, হ, ং এবং প-বর্গের পরস্থিত 'ণ' হয়)। অন্য শব্দগুলো (প্রবণ, নিক্কণ, বিপণি) স্বভাবতই 'ণ' হয়েছে, অর্থাৎ এগুলো ণ-ত্ব বিধানের সাধারণ নিয়ম অনুসরণ করে না। তবে প্রশ্নটির বিকল্পগুলোর মধ্যে 'কল্যাণ' সর্বাধিক গ্রহণযোগ্য। [বি.দ্র.: কিছু ব্যাকরণবিদ প্রবণ (প্র+বণ) শব্দটিকে নিয়মসিদ্ধ মনে করেন কারণ এখানে 'র'-ফলার প্রভাব রয়েছে।] তবে প্রদত্ত অপশনগুলোর মধ্যে 'কল্যাণ' সর্বাধিক গ্রহণযোগ্য।<br/> ⇢ <br/>📚 ণ-ত্ব বিধানের মূল নিয়ম হলো ঋ, র, ষ-এর পরে দন্ত্য 'ন' মূর্ধন্য 'ণ' হয়। তবে কিছু শব্দে এই নিয়ম ছাড়াও 'ণ' ব্যবহৃত হয়, যা স্বভাবতই 'ণ' হয় (যেমন: বিপণি, নিক্কণ)। 'কল্যাণ' শব্দটি ণ-ত্ব বিধানের একটি ব্যতিক্রমী নিয়ম অনুসরণ করে, যেখানে 'ল'-এর পরে 'ণ' হয়েছে। এটি মূলত সংস্কৃত ব্যাকরণের একটি বিশেষ নিয়ম, যেখানে 'ল' এর পরে 'ণ' হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331843,
+    "question": "মহর্ষি শব্দের সন্ধি বিচ্ছেদ কি হবে?",
+    "options": [
+      "মহ+ঋষি",
+      "মহৎ+ঋষি",
+      "মহ+অর্থি",
+      "মহা+ঋষি"
+    ],
+    "correct_answer": "মহা+ঋষি",
+    "explanation": "📖 এটি স্বরসন্ধির একটি উদাহরণ। গুণসন্ধির নিয়ম অনুযায়ী, অ-কার কিংবা আ-কারের পর ঋ-কার থাকলে উভয়ে মিলে 'অর' হয়। এখানে, মহা (আ) + ঋষি (ঋ) = মহর্ষি (অর্)।<br/> ⇢ <br/>📚 'মহর্ষি' শব্দটি সংস্কৃত ব্যাকরণের গুণসন্ধির একটি উদাহরণ। সূত্রটি হলো: 'আ' (মহা) + 'ঋ' (ঋষি) = 'অর'। অর্থাৎ, আ-কার এবং ঋ-কার মিলে 'অর' হয় এবং তা পূর্ববর্তী ব্যঞ্জনের সাথে যুক্ত হয়ে 'মহর্ষি' শব্দটি গঠিত হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331844,
+    "question": "সাধু ও চলিত রীতির পার্থক্য বেশি দেখা যায় কোন কোন পদে ?",
+    "options": [
+      "সর্বনাম ও ক্রিয়া",
+      "বিশেষ্য ও বিশেষণ",
+      "বিশেষণ ও সর্বনাম",
+      "অব্যয় ও ক্রিয়া"
+    ],
+    "correct_answer": "সর্বনাম ও ক্রিয়া",
+    "explanation": "📖 বাংলা গদ্যের সাধু ও চলিত রীতির মধ্যে মূল পার্থক্য সর্বনাম ও ক্রিয়াপদের রূপে দেখা যায়। যেমন: (সর্বনাম) সাধু- তাঁহার, চলিত- তাঁর; (ক্রিয়া) সাধু- করিতেছেন, চলিত- করছেন। বিশেষ্য, বিশেষণ ও অব্যয় পদের রূপ সাধারণত উভয় রীতিতে একই থাকে।<br/> ⇢ <br/>📚 সাধু ও চলিত রীতির পার্থক্য নির্ণয়ের প্রধান মাপকাঠি হলো ক্রিয়াপদ ও সর্বনাম পদ। সাধু রীতিতে ক্রিয়াপদ ও সর্বনাম পদ পূর্ণাঙ্গ রূপে ব্যবহৃত হয় (যেমন: করিয়াছিল, তাহারা), কিন্তু চলিত রীতিতে এই পদগুলো সংক্ষিপ্ত রূপে ব্যবহৃত হয় (যেমন: করেছিল, তারা)। বিশেষ্য, বিশেষণ ও অব্যয় পদের ক্ষেত্রে এই পার্থক্য নগণ্য বা অনুপস্থিত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331845,
+    "question": "নিচের কোনটি মীর মশাররফ হোসেন রচিত নাটক?",
+    "options": [
+      "বিষাদসিন্ধু",
+      "নীল দর্পণ",
+      "গাজী মিয়ার বস্তানী",
+      "জমিদার দর্পণ"
+    ],
+    "correct_answer": "জমিদার দর্পণ",
+    "explanation": "📖 'জমিদার দর্পণ' (১৮৭৩) মীর মশাররফ হোসেন রচিত একটি নাটক। 'বিষাদসিন্ধু' তাঁর শ্রেষ্ঠ উপন্যাস, 'গাজী মিয়ার বস্তানী' একটি ব্যঙ্গাত্মক রচনা এবং 'নীল দর্পণ' দীনবন্ধু মিত্রের বিখ্যাত নাটক।<br/> ⇢ <br/>📚 মীর মশাররফ হোসেন রচিত 'জমিদার দর্পণ' নাটকটি ১৮৭৩ সালে প্রকাশিত হয়। এটি ছিল তৎকালীন সমাজে জমিদারদের অত্যাচার ও শোষণের বিরুদ্ধে রচিত একটি প্রতিবাদী নাটক। এটি তাঁর প্রথম প্রকাশিত নাটক।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331846,
+    "question": "গাহি সাম্যের গান, মানুষের চেয়ে বড় কিছু নাই, নহে কিছু মহীয়ান' কোন কবিতা থেকে নেয়া?",
+    "options": [
+      "সাম্যবাদী",
+      "মানুষ",
+      "বিদ্রোহী",
+      "কুলিমজুর"
+    ],
+    "correct_answer": "মানুষ",
+    "explanation": "📖 এই বিখ্যাত পঙক্তিটি কাজী নজরুল ইসলামের 'সাম্যবাদী' কাব্যগ্রন্থের অন্তর্গত 'মানুষ' কবিতা থেকে নেওয়া হয়েছে। এই কবিতায় কবি ধর্ম-বর্ণ-গোত্রের ঊর্ধ্বে মানুষের জয়গান গেয়েছেন।<br/> ⇢ <br/>📚 কাজী নজরুল ইসলামের 'মানুষ' কবিতাটি তাঁর 'সাম্যবাদী' (১৯২৫) কাব্যগ্রন্থের অন্তর্ভুক্ত। এই পঙক্তিটির মাধ্যমে কবি মানবধর্মকে সর্বোচ্চ স্থান দিয়েছেন এবং ধর্ম-বর্ণ নির্বিশেষে সকল মানুষের সমান অধিকার ও মর্যাদার কথা তুলে ধরেছেন। এটি নজরুলের মানবতাবাদী চেতনার শ্রেষ্ঠ প্রকাশ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  },
+  {
+    "id": 331847,
+    "question": "সবচেয়ে বেশি চর্যাপদ পাওয়া গেছে কোন কবির?",
+    "options": [
+      "কাহ্নপা",
+      "ভুসুকুপা",
+      "লুইপা",
+      "স্বরপা"
+    ],
+    "correct_answer": "কাহ্নপা",
+    "explanation": "📖 'চর্যাপদ' হলো বাংলা ভাষা ও সাহিত্যের প্রাচীনতম নিদর্শন। যা মহামহোপাধ্যায় হরপ্রসাদ শাস্ত্রী ১৯০৭ সালে নেপালের রাজদরবারের গ্রন্থাগার থেকে আবিষ্কার করেন। এগুলো মূলত বৌদ্ধ সহজযানী সিদ্ধাচার্যদের দ্বারা রচিত গানের সংকলন। এই গানগুলোর বাহ্যিক অর্থ সহজবোধ্য হলেও এর গভীরে বৌদ্ধধর্মের নিগূঢ় আধ্যাত্মিক সাধনার কথা রূপকের মাধ্যমে বলা হয়েছে। তাই এগুলোকে ধর্মীয় সাধন সংগীত বা দোহা হিসেবেই বিবেচনা করা হয়।<br/>❏ ড. মুহম্মদ শহীদুল্লাহর সম্পাদিত \"Buddhist Mystic Songs\" (১৯৬০) গ্রন্থে তিনি ২৩ জন কবির কথা উল্লেখ করেছেন। অন্যদিকে, ড. সুকুমার সেন তাঁর \"বাংলা সাহিত্যের ইতিহাস\" গ্রন্থে ২৪ জন কবির কথাই বলেছেন এবং এই মতটিই বর্তমানে অধিক প্রচলিত ও গ্রহণযোগ্য। এই কবিরা 'সিদ্ধাচার্য' নামে পরিচিত ছিলেন এবং তারা মূলত বৌদ্ধ সহজিয়া মতের অনুসারী ছিলেন।<br/>❏ ড. মুহম্মদ শহীদুল্লাহর মতে চর্যাপদের মোট পদকর্তা ২৩ জন। কিন্তু ডক্টর মুহাম্মদ সুকুমার সেনের মতে চর্যাপদের পদকর্তা বা কবির সংখ্যা মোট ২৪ জন।<br/>❏ ২৩ নম্বর পদটি খন্ডিত আকারে পাওয়া গেছে।<br/>❏ ২৪, ২৫, ৪৮ নম্বর পদ পাওয়া যায় নি<br/>❏ ড. মুহম্মদ শহীদুল্লাহ্ 'র মতে চর্যাপদের পদসংখ্যা ৫০ টি এবং পদকর্তা ২৩ জন<br/>❏ ড. সুকুমার সেন'র মতে চর্যাপদের পদসংখ্যা ৫১টি এবং পদকর্তা ২৪ জন<br/>❏ সবচেয়ে বেশি পদ রচনা করেছেন - কাহ্নপা ( ১৩টি) <br/>❏ কাহ্নপা- কৃষ্ণাচার্য নামে পরিচিত ছিলেন।<br/>❏ কাহ্নপা:<br/>❏ চর্যাপদের পদকর্তার মধ্যে সর্বাধিক পদ রচনা করেন- কাহ্নপা।<br/>❏ তিনি ছিলেন শজিয়া তান্ত্রিক বৌদ্ধযোগী।<br/>❏ তিনি ধর্মশাস্ত্র ও সঙ্গীত শাস্ত্র উভয় দিকেই দক্ষ ছিলেন।<br/>❏ কাহ্নপা ১৩ টি পদ রচনা করেন। <br/>❏ কাহ্নপা রচিত ২৪ নং পদটি পাওয়া যায় নি।<br/>❏ চর্যাপদে তাঁর কাহ্নিল, কাহ্নি, কৃষ্ণাচার্য, কৃষ্ণবজ্রপাদ, কাহ্নু নাম পাওয়া যায়।<br/>❏ গুরুত্বপূর্ণঃ<br/>❏ চর্যাপদের প্রথম বা আদি কবি➤ লুইপা। তবে, ড. মুহম্মদ শহীদুল্লাহর মতে, চর্যাপদের➤আদি কবি শবরপা । শবরপা চর্যাপদের শ্রেষ্ঠ কবি।<br/>❏ চর্যাপদের সবচেয়ে বেশি পদের রচয়িতা কাহ্নপা/কৃষ্ণপা। (সর্বমোট ১৩টি পদ রচনা করেন)<br/>❏ চর্যাপদে নিজেকে বাঙালি বলে পরিচয় দিয়েছেন, ভুসুকুপা। তিনি চর্যাপদের দ্বিতীয় সর্বাধিক পদের রচয়িতা। তিনি সর্বমোট ০৮ টি পদ রচনা করেন। (চর্যাপদের বাঙালি কবি হিসেবে মীননাথের নামও উঠে এসেছে)<br/>❏ চর্যাপদের একমাত্র মহিলা কবি মনে করা হয় কুক্কুরীপা কে।<br/>❏ চর্যাপদে নাম আছে কিন্তু কবিতা নেই লাড়ীডোম্বীপা এর।<br/>❏ চর্যাপদের ২৫ নং পদের রচয়িতা তন্ত্রীপা এর পদটিও পাওয়া যায়নি।<br/>❏ চর্যাপদের ২৯, ২৫ ও ৪৮ নং পদ পাওয়া যায়নি।<br/>❏ ২৩ নং পদ খণ্ডিত অবস্থায় পাওয়া গেছে।<br/>❏ সংস্কৃত টীকাকার মুণিদত্ত ১১নং পদের ব্যাখ্যা করেননি।<br/>❏ ২য় সর্বোচ্চ পদ রচনা করেছেন - ভুসুকুপা (৮টি) - তিনি নিজেকে বাঙালি কবি বলে পরিচয় দিয়েছেন<br/>❏ কোনো পদ পাওয়া যায় নি - লাড়ীডোম্বিপা'র<br/>❏ চর্যাপদের একমাত্র নারী পদকর্তা - কুক্কুরিপা<br/>❏ ১ম পদ রচনা করেন - লুইপা<br/>❏ 'চর্যাপদ' সম্পর্কিত আরো কিছু তথ্য:<br/>❏ বাংলা সাহিত্যের প্রাচীনযুগের একমাত্র নিদর্শন চর্যাচর্যবিনিশ্চয় বা চর্যাগীতিকোষ বা চর্যাগীতি বা চর্যাপদ।<br/>❏ ড. হরপ্রসাদ শাস্ত্রী ১৯০৭ সালে নেপালের রাজ দরবার গ্রন্থাগার থেকে এটি আবিষ্কার করেন।<br/>❏ চর্যাপদের পদ সংখ্যা: চর্যাপদের পদ সংখ্যা ৫০টি। তবে সুকুমার সেন মনে করেন পদসংখ্যা ৫১টি।<br/>❏ উদ্ধারকৃত পদের সংখ্যা: চর্যাপদের সাড়ে ৪৬টি পদ পাওয়া যায়। <br/>❏ অনুদ্ধারকৃত/বিলুপ্ত পদের সংখ্যা: সাড়ে ৩টি। প্রাপ্ত সাড়ে ৪৬টি পদের মধ্যে ভুসুকুপা রচিত ২৩নং পদটি খণ্ডিত আকারে পাওয়া গেছে। পদটির ৬টি পদ পাওয়া গেছে কিন্তু বাকি ৪টি পদ পাওয়া যায়নি।<br/>❏ এছাড়াও চর্যাপদের ২৪নং (কাহ্নপা রচিত), ২৫নং (তন্ত্রীপা রচিত) এবং ৪৮নং (কুক্কুরীপা রচিত) পদগুলো পাওয়া যায়নি। <br/>❏ চর্যাপদ তিব্বতি ভাষায় অনুবাদ করেন কীর্তিচন্দ্র। <br/>❏ ১৯৩৮ সালে প্রবোধচন্দ্র বাগচী চর্যাপদের তিব্বতি ভাষার অনুবাদ আবিষ্কার করেন।<br/>❏ সংস্কৃত ভাষায় মুনিদত্ত চর্যাপদের ব্যাখ্যা করেন। তিনি ১১নং পদের ব্যাখ্যা করেননি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫০৭৮@সিভিল সার্জন অফিস, কুষ্টিয়া ➺ স্বাস্থ্য সহকারী ☞ 24.10.25"
+  }
+]

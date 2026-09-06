@@ -1,0 +1,1275 @@
+[
+  {
+    "id": 187778,
+    "question": "If 4 times an integer x is increased by 10 , the result is always greater than 18 and less than 34 . what is the least value of x?",
+    "options": [
+      "None of these",
+      "4",
+      "5",
+      "3"
+    ],
+    "correct_answer": "3",
+    "explanation": "🔖You have to go through the options here to find out the answer.<br/>Option 1:<br/>2*4 + 10 = 18<br/>This is not greater than 18.<br/>Option 2:<br/>3*4 + 10 = 22<br/>This is greater than 18 and less than 34.<br/>Plus, this is the lowest integer that follows the given conditions.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187779,
+    "question": "when a positive integer K is divided by 6 , the remainder is 3 , what is the remainder when 5 k is divided by 3?",
+    "options": [
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187780,
+    "question": "For some value of x , 5(x+2) =y . After the value of x is increased by ,3 5(x+2) =z. what is the value of (z -y) ?",
+    "options": [
+      "18",
+      "12",
+      "15",
+      "10"
+    ],
+    "correct_answer": "15",
+    "explanation": "🔖Here, y=5(x+2)<br/>z=5(x+3+2) [using x+3 in place of x]<br/>Now, z-y = 5(x+5)-5(x+2)=5x+25-5x-10=15",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187781,
+    "question": "An ice cream parlour makes an ice cream using one of six different flavors of ice cream, one of three different flavor of syrup, and one of four different toppings. what is the total number of different ice creams that this ice cream paolour can make?",
+    "options": [
+      "72",
+      "36",
+      "30",
+      "26"
+    ],
+    "correct_answer": "72",
+    "explanation": "🔖Making ice cream parlour depends on chosing flavors of ice cream, syrup and toppings.<br/>Now, ways of coosing ice cream flavor = 6C1<br/>Ways of coosing ice cream flavor = 3C1<br/>Ways of coosing ice cream flavor = 4C1<br/>So, total number of ice cream = 6C1 x 3C1 x 4C1 = 6 x 3 x 4 = 72",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187782,
+    "question": "A recipe for 4 servings requires salt and pepper to be added in the ratio of 2: 3 . If the recipe is adjusted to make 8 servings, what is the ratio of the salt and pepper that must now be added?",
+    "options": [
+      "4: 3",
+      "2 : 6",
+      "2 : 3",
+      "3 : 2"
+    ],
+    "correct_answer": "2 : 3",
+    "explanation": "🔖Here, the number of servings just got doubled. But the ingredients of the recipe are unchanged. Therefore, salt and pepper will need to be added in the same ratio.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187783,
+    "question": "At a book fair, Danesh buys three pencils that cost Tk. 3.25 each, and a color pen that costs Tk. 5 . Which expression represents the amount of change , he should get when paying with a twenty taka note?",
+    "options": [
+      "20 -3.25 -3 (5)",
+      "20- 3(3.25) -5",
+      "3 (3.25) -5",
+      "20 - 3.25 -5"
+    ],
+    "correct_answer": "20- 3(3.25) -5",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187784,
+    "question": "There are 92 girls in the anthropology class . This is 40% of all the students. What is the total number of students?",
+    "options": [
+      "300",
+      "192",
+      "230",
+      "92"
+    ],
+    "correct_answer": "230",
+    "explanation": "🔖40% of the students = 92<br/>So, all or 100% of the students = 92 x 100 / 40 = 230",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187785,
+    "question": "Amer is working in an insurance company as traveling salesman. He drove 373.5 miles on Monday, 481.6 miles on Tuesday, 392.8 miles on Wednesday, 502 miles on Thursday and 53.7 miles on Friday . What is his average traveling?",
+    "options": [
+      "351.8 miles",
+      "360.72 miles",
+      "413.6 miles",
+      "286.9 miles"
+    ],
+    "correct_answer": "360.72 miles",
+    "explanation": "🔖Total days = 5<br/>Total driving = 373.5+481.6+392.8+502+53.7 = 1803.6 miles<br/>Average travelling = 1803.6 / 5 = 360.72 miles",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187786,
+    "question": "zinat's father contributes to his daughter's savings by giving her 10% of her total saving . If Zinat saves Tk. 100 in June , Tk. 250 in July and Tk. 130 in August, how much will she have in savings at the end of that time?",
+    "options": [
+      "Tk. 528",
+      "Tk. 524",
+      "Tk. 539",
+      "Tk. 480"
+    ],
+    "correct_answer": "Tk. 528",
+    "explanation": "🔖At the end of that time she will have = (100+10% of 100) + (250+10% of 250) + (130+10% of 130)<br/>= 100+10 + 250+25 + 130+13 = 528 TK",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187787,
+    "question": "At 5 : 15 p.m. waht angle do the hands of a clock form?",
+    "options": [
+      "67.5 degree",
+      "72 degree",
+      "72.5 degree",
+      "64 degree"
+    ],
+    "correct_answer": "67.5 degree",
+    "explanation": "🔖Clock angle = । (60H - 11M)/2 । = । (60 x 5 - 11 x 15)/2 । = । (300 - 165)/2 । = 135/2 = 67.5°<br/>[If the clock angle is greater than 180°, its subtraction from 360° will be the actual angle.]",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187788,
+    "question": "what is the perimeter of the rectangle with diagonal 10 cm and width 6 cm?",
+    "options": [
+      "28",
+      "24",
+      "20",
+      "18"
+    ],
+    "correct_answer": "28",
+    "explanation": "🔖The adjacent diagonal, width and length of a rectangle form a right angled triangle where diagonal is the hypotenuse.<br/>So, Diagonal2 = Length2 + Width2<br/>or, Length = √(Diagonal2 - Width2) = √(102 - 62) = √(100-36) = 8<br/>So, perimeter = 2(Length + Width) = 2(8+6) = 28 cm",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187789,
+    "question": "In Dhanmondi Lake the current flows at 3 kilometres per hour. The boatmen takes twice as long to travel upstream between two points as it does to travel downstream between the same two points. In still water what is the speed of the boat?",
+    "options": [
+      "3 miles per hour",
+      "6 miles per hour",
+      "9 miles per hour",
+      "12 miles per hour"
+    ],
+    "correct_answer": "9 miles per hour",
+    "explanation": "🔖Let the boat speed and current flow be U and V respectively. According to the question, the relative speed of boat downstream (U+V) is twice as that of upstream (U-V).<br/>So, U+V=2(U-V)<br/>or, U+V=2U-2V<br/>or, 2U-U=V+2V<br/>or, U=3V= 3 x 3 = 9 km per hour",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187790,
+    "question": "Jonyh bought a shirt, a pair of pants and a pair of shoes , which cost Tk. 1,000 Tk. 2,000 , and Tk. 3,000 respectively. What percent of the total expense was spent for the pants?",
+    "options": [
+      "16.66%",
+      "20%",
+      "30%",
+      "33.33%"
+    ],
+    "correct_answer": "33.33%",
+    "explanation": "🔖Percent of total expense spent for pants = 2000 / (1000+2000+3000) x 100% = 33.33%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187791,
+    "question": "In a village the growth rate of population is 5% every year . There are 1600 people in the beginning of 2008 . what will be the approximate number of people in the beginning of 2011?",
+    "options": [
+      "2,012",
+      "1,696",
+      "1,698",
+      "1,689"
+    ],
+    "correct_answer": "1,696",
+    "explanation": "🔖The next World Cup Football will be hosted by Russia in 2018 and Qutar in 2022.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187792,
+    "question": "The surface area of a cubic box is 150 cm2. what is the volume of that box?",
+    "options": [
+      "450 cm3",
+      "216 cm3",
+      "125 cm3",
+      "150 cm3"
+    ],
+    "correct_answer": "125 cm3",
+    "explanation": "🔖rface area of a cubic box is 150 cm2. what is the volume of t<br/>Let the side of the cube be X.<br/>Now, surface area, 6X2 = 150<br/>or, X2 = 25<br/>or, X = 5<br/>So, Volume, X3 = 53 = 125 cm3",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187793,
+    "question": "By how much is the value of {-10-(-7)} greater than the value of {-10 + (-7) }?",
+    "options": [
+      "-20",
+      "20",
+      "14"
+    ],
+    "correct_answer": "14",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187794,
+    "question": "Tanveer earns Tk. 5.00 for every hour he works . Last weeks worked for x hours. He purchased y kg of rice. Price of per kg rice is Tk. 12.00. He saved the remaining amount. which expression below shows his savings?",
+    "options": [
+      "Tk. ( 5.00x +12.00y)",
+      "Tk. (5.00 x - 12.00y)",
+      "Tk. 5.00 (x-y)",
+      "Tk. 7.00 (xy)"
+    ],
+    "correct_answer": "Tk. (5.00 x - 12.00y)",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187795,
+    "question": "If x5=243 , what is the value of x-3 ?",
+    "options": [
+      "1/27",
+      "1/20",
+      "1/16",
+      "1/9"
+    ],
+    "correct_answer": "1/27",
+    "explanation": "🔖Here, x5 = 243<br/>or, x5 = 35<br/>or, x = 3<br/>So, x-3 = 3-3 = 1/33 = 1/27",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187796,
+    "question": "A brand of paint costs Tk. 14 per liter and 1 liter of paint will cover an area of 150 square feet. what is the minimum cost of paint needed to cover the 4 walls of a rectangular room that ix 12 feet wide, 16 feet long and 8 feet high?",
+    "options": [
+      "Tk. 42",
+      "Tk. 32",
+      "Tk. 50",
+      "Tk. 30"
+    ],
+    "correct_answer": "Tk. 42",
+    "explanation": "🔖Total surface area of the 4 walls = 2(length x height + width x height)<br/>= 2(16 x 8 + 12 x 8) = 448 ft2<br/>Total paint required = 448/150 ≈ 2.99 liter<br/>Total cost of paint = 2.99 x 14 ≈ 42 TK",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187797,
+    "question": "Of the 50 students in a college , 32 are enrolled in psychology class and 37 are enrolled in logic. If 6 of the students did not enroll in either class, how many of the students are in only one of these two classes?",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖Students who enrolled in atleast one of the classes = 50 - 6 = 44<br/>Students who enrolled in both of the classes = 32 + 37 - 44 = 25<br/>Students who enrolled only in psychology = 32 - 25 = 7<br/>Students who enrolled only in logic = 37 - 25 = 12<br/>Total number of students who enrolled only in one class = 7 + 12 = 19",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187798,
+    "question": "Danny attended a test containing 40 questions. If he had corrected 18 questions out of the first 22 and two-third of the remaining questions, what percent of all the questions did he answer correctly?",
+    "options": [
+      "80%",
+      "65%",
+      "70%",
+      "75%"
+    ],
+    "correct_answer": "75%",
+    "explanation": "🔖Danny attended a test containing 40 questions. If he had corrected 18 questions out of the first 22 and two-third of the remaining questions, what percent of all the questions did he answer correctly?<br/>Total number of correctly answered questions = 18 + 2/3 of (40-22)<br/>= 18+ 2/3 of 18 = 18+12 = 30<br/>Percentage of correctly answered questions = 30 / 40 x 100% = 75%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187800,
+    "question": "Bonds Telecom sold 140 SIM cards for Tk. 250 each, 120 SIM cards for Tk. 215 each and 50 SIM cards for TK. 200 each. If each. SIM card costs TK. 220 , what was Bond's profit or loss?",
+    "options": [
+      "Tk. 2, 600 loss",
+      "Tk. 2,600 profit",
+      "No profit or loss",
+      "Tk. 800 loss"
+    ],
+    "correct_answer": "Tk. 2,600 profit",
+    "explanation": "🔖Total number of sold SIM cards = 140+120+50 = 310<br/>Total cost of SIM cards = 310 x 220 = 68200 TK<br/>Revenue from sell = 140 x 250 + 120 x 215 + 50 x 200 = 70800<br/>Profit = 70800 - 68200 = 2600 TK",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187801,
+    "question": "An athlete running at 24 km /hr crosses a square field diagonally in 3 minutes. what is the area of the field?",
+    "options": [
+      "500,000 m2",
+      "480,000m2",
+      "640,000m2",
+      "720,000m2"
+    ],
+    "correct_answer": "720,000m2",
+    "explanation": "🔖Speed = 24 km/hr<br/>Time = 3 min = 3/60 hr = 1/20 hr<br/>Diagonal length of the field = 24 x 1/20 = 1.2 km = 1200 m<br/>Side of the square field = 1200/√2 = 848.53 m [Diagonal of square = √2 x side length]<br/>So, area of the field = 848.532 m2 ≈ 720000 m2",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187802,
+    "question": "If w= 4x, 12y=8x , 6y=2z and 9v=6z then what is the value of 'w' in terms of 'V'?",
+    "options": [
+      "w=v",
+      "w=2v",
+      "w=3v",
+      "3w=v"
+    ],
+    "correct_answer": "w=3v",
+    "explanation": "🔖Here, 6z = 9v<br/>or, z = 9v / 6 = 3v/2<br/>Again, 6y = 2z<br/>Again, 8x = 12y<br/>or, 4x = 6y = 2z = 2 x 3v/2 = 3v<br/>So, w = 4x = 3v",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187803,
+    "question": "In a school 80% students passed in Bangla and 65% passed in Science . If 50% of the students have passed both the subjects, what percent of the students have failed in both Bangla and Science?",
+    "options": [
+      "5%",
+      "10%",
+      "15%",
+      "20%"
+    ],
+    "correct_answer": "5%",
+    "explanation": "🔖Students passed in atleast one subject = 80% + 65% - 50% = 95%<br/>Students failed in both subjects = 100% - 95% = 5%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187814,
+    "question": "which of the following can be used as a search engine to find some data using the internet?",
+    "options": [
+      "MS Access",
+      "Power DVD",
+      "Notepad",
+      "Bing"
+    ],
+    "correct_answer": "Bing",
+    "explanation": "Other examples of search engines include Bing, Yahoo, Baidu, and DuckDuckGo. One of the most well-known and widely used search engines is Google. Google is a web search engine that allows users to search for information on the internet.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187815,
+    "question": "which of the following symbols must exist in an email address?",
+    "options": [
+      "dolor",
+      "#",
+      "&",
+      "@"
+    ],
+    "correct_answer": "@",
+    "explanation": "<p>উত্তর ভুল দেওয়া আছে। উত্তর&nbsp; D হবে। অর্থাৎ এখানে উত্তর হবে @</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187816,
+    "question": "The average daily income of Mr. A and Mr. B is Tk. 350 , of Mr. B and Mr. C is Tk. 365 and of Mr. A and Mr. c is tk. 340 . what is the weekly income of Mr. A if he works 5 days in a week?",
+    "options": [
+      "Tk. 1,875",
+      "Tk. 1,625",
+      "Tk. 1,775",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖Let their daily incomes be A, B and C respectively.<br/>Now, A + B = 2 x 350<br/>or, A + B = 700 --------(i)<br/>Again, B + C = 2 x 365<br/>or, B+C = 730 ----------(ii)<br/>Again, A + C = 2 x 340<br/>or, A + C = 680 ----------(iii)<br/>{(i) + (ii) + (iii)}>>> A + B + B + C + A + C = 700 + 730 + 680<br/>or, 2(A + B + C) = 2110<br/>or, A + B + C = 1055<br/>or, A + 730 = 1055<br/>or, A = 1055 - 730<br/>or, A = 325 TK<br/>So, the weekly income of A = 5 x 325 = 1625 TK",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187817,
+    "question": "A retailer buys a Panjabi and a Fatua jointly at Tk. 500. If he sells the Fatua at 10% profit and the panjabi at 5% loss , then he gets, Tk. 520 as total sales price. What is the cost price of the Fatua?",
+    "options": [
+      "Tk. 150",
+      "Tk. 200",
+      "Tk. 280",
+      "Tk. 300"
+    ],
+    "correct_answer": "Tk. 300",
+    "explanation": "🔖Let the cost price of the Fatua and the Panjabi be F and (500-F) respectively.<br/>Now, total sales price, F + 10% of F + (500-F) - 5% of (500-F) = 520<br/>or, F + 10/100 F + 500 - F - 5/100 of 500 + 5/100 of F = 520<br/>or, F/10 + F/20 = 520 + 25 - 500<br/>or, 3F/20 = 45<br/>or, F = 45 x 20 / 3 = 300 TK",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187818,
+    "question": "Mr. Jamal employed 50 workers to finish a work within 30 days . After 20 days he found out that only 50% work had been completed. How many additional workers did Mr. Jamal need to finish the work in time?",
+    "options": [
+      "100",
+      "50",
+      "40",
+      "35"
+    ],
+    "correct_answer": "50",
+    "explanation": "🔖Remaining days = 30 - 20 = 10 days<br/>Remaining work = 100% - 50% = 50%<br/>Now, 50% work can be completed in 20 days by 50 workers<br/>So, 50% work can be completed in 10 days by 50 x 20 / 10 = 100 workers<br/>Therefore, additional workers needed = 100 - 50 = 50",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187819,
+    "question": "A container full of water weighs 18.5 kg. If one -fourth of the container is full of water , it weighs 6.5 kg . What is the weight of the empty container?",
+    "options": [
+      "2.5 kg",
+      "3 kg",
+      "2 kg",
+      "2.3 kg"
+    ],
+    "correct_answer": "2.5 kg",
+    "explanation": "🔖Weight of container + weight of totally filled water = 18.5 kg<br/>Weight of container + weight of 1/4 th filled water = 6.5 kg<br/>----------------------------------------------------------------------------------------------------------<br/>[Subtraction] Weight of the 3/4th [1-1/4=3/4] filled water = 18.5 - 6.5 = 12 kg<br/>So, weight of fully filled water = 12 x 4 / 3 = 16 kg<br/>Therefore, weight of the container = 18.5 - 16 = 2.5 kg",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187831,
+    "question": "what is the second highest export earning product of Bangladesh?",
+    "options": [
+      "Jute",
+      "Knitwear",
+      "Ready Made Garments",
+      "Shrimp and frozen food"
+    ],
+    "correct_answer": "Jute",
+    "explanation": "Jute and Jute Products<br/>It is the second-most exported item after readymade garments in the recently-ended fiscal year. The country produces from 7.0 to 8.0 million bales of raw jute each year, and exports 0.6 to 0.8 million bales. Faridpur district is the main producer of jute.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187832,
+    "question": "In which district is Dahagram enclave situated?",
+    "options": [
+      "Lalmonirhat",
+      "Panchagar",
+      "kurigram",
+      "Rajshahi"
+    ],
+    "correct_answer": "Lalmonirhat",
+    "explanation": "দহগ্রাম ইউনিয়ন বাংলাদেশের লালমনিরহাট জেলার পাটগ্রাম উপজেলার একটি ইউনিয়ন ও বাংলাদেশের অন্যতম বৃহৎ ছিটমহল, যা ভারতের মূল ভূখণ্ডের মধ্যে অবস্থিত। এর তিন দিকে ভারতের পশ্চিমবঙ্গ রাজ্যের কোচবিহার জেলা, একদিকে তিস্তা নদী, নদীর ওপারেও ভারতীয় ভূখণ্ড। ভৌগোলিক কারণে এটি দহগ্রাম-আঙ্গোরপোতা ছিটমহল নামেই বেশি পরিচিত। এ ইউনিয়নের মোট আয়তন ২২.৬৮ বর্গ কিমি. ও মোট জনসংখ্যা প্রায় ২০,০০০ জন। ১৯৮৫ সালে দহগ্রাম ও আঙ্গরপোতা ছিটমহল একত্রে পাটগ্রাম উপজেলার একটি স্বতন্ত্র ইউনিয়ন (দহগ্রাম ইউনিয়ন) হিসেবে ঘোষণা করা হয়। ১৯৮৯ খ্রিষ্টাব্দের ১৯ আগস্টে এখানে ইউনিয়ন পরিষদের উদ্বোধন করা হয়",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187833,
+    "question": "In which year was Grameen Bank Established?",
+    "options": [
+      "1982",
+      "1980",
+      "1983",
+      "1984"
+    ],
+    "correct_answer": "1983",
+    "explanation": "Grameen became an independent bank in 1983; headquartered in Dhaka, Bangladesh, it has more than 2,200 branches in the country. The Grameen model has come to symbolize an efficient means of helping the poor by providing them with opportunities to help themselves.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187834,
+    "question": "when was the Mujib Nagar Government formed?",
+    "options": [
+      "10 April 1971",
+      "17 April 1971",
+      "26 March 1971",
+      "16 December 1971"
+    ],
+    "correct_answer": "10 April 1971",
+    "explanation": "Mujib Nagar cabinet took oath on 17 April 1971 in the town of Mujibnagar. It attracted many defectors from the Pakistani civil, diplomatic and military services",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187835,
+    "question": "How many freedom fighters were awqarded the title 'Bir Uttom' for the valiant role in the Freedom Fight in 1971 ?",
+    "options": [
+      "7",
+      "689",
+      "176",
+      "426"
+    ],
+    "correct_answer": "689",
+    "explanation": "This award was declared on 15 December 1973. A total of 67 people have been rewarded for their bravery and dedication in the liberation war of Bangladesh in 1971. Lieutenant G. M. Mushfiqur Rahman Bir Uttam (1966-1989) was posted in 1 Field Artillery Regiment of Bangladesh Army in the Chittagong Hill Tracts.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187836,
+    "question": "what does WiFi mean?",
+    "options": [
+      "Wireless Fidelity",
+      "World wide interconnection through Fibre optic",
+      "Worldwide inter network for Faster internet",
+      "World internet frequency initiative"
+    ],
+    "correct_answer": "Wireless Fidelity",
+    "explanation": "IEEE is a separate, but related, organization and their website has stated \"WiFi is a short name for Wireless Fidelity\".",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187837,
+    "question": "which of the following is not a function of the Central Bank?",
+    "options": [
+      "To help manage the exchange rate when necessary",
+      "Implementing government's monetary policy",
+      "Prepatation and implementation of national budget",
+      "Management of public debt"
+    ],
+    "correct_answer": "Prepatation and implementation of national budget",
+    "explanation": "<p>National budget is decided by the Members of the Parliament.</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187838,
+    "question": "In banking , CRR stands for --",
+    "options": [
+      "Cash Reserve Rate",
+      "Cash Reconciliation Rate",
+      "Cash Reserve Ratio",
+      "Cash Reconciliation Ratio"
+    ],
+    "correct_answer": "Cash Reserve Ratio",
+    "explanation": "The Cash Reserve Ratio (CRR) is a monetary policy tool used by central banks to regulate the money supply and control inflation.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187839,
+    "question": "Who is the first woman to win the Nobel Prize in Economics?",
+    "options": [
+      "Doris Lessing",
+      "Bertha Von Suttner",
+      "Shirin Ebadi",
+      "Elinor Ostrom"
+    ],
+    "correct_answer": "Elinor Ostrom",
+    "explanation": "🔖C++ is used to write C program code, Ms outlook express is used for e-mail writing; Acrobat Reader is used to view PDF files.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187840,
+    "question": "Recently Bangladesh Shilpa Rin Sangstha (BSRS) and Bangladesh Shilpa Bank (BSB) were merged to form which of the following ?",
+    "options": [
+      "Bangladesh Industrial Credit Bank Limited",
+      "Bangladesh Enterprise Credit Bank Limited",
+      "Banglasesh Development Bank Limited",
+      "Bangladesh Industrial & Enterpreneurship Funding Institution"
+    ],
+    "correct_answer": "Banglasesh Development Bank Limited",
+    "explanation": "🔖By default windows chooses C Drive as main and “My computer” is there.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187841,
+    "question": "Highest single contribution to the GDP in Bangladesh comes from which sector?",
+    "options": [
+      "Agricultural",
+      "Service",
+      "Shrimp",
+      "Garmemts"
+    ],
+    "correct_answer": "Service",
+    "explanation": "🔖Windows is the most popular operating system.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187842,
+    "question": "21st February was declared as the International Mother Language Day by which organization?",
+    "options": [
+      "UNICEF",
+      "UNHCER",
+      "UNESCO",
+      "EU"
+    ],
+    "correct_answer": "UNESCO",
+    "explanation": "🔖@ is used to signify the domain the e-mail is sent to.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187843,
+    "question": "who scored the highest run in an innings in one day cricket?",
+    "options": [
+      "Syed ANwar",
+      "Virnder Sehwag",
+      "Sachin Tendulkar",
+      "Brian Lara"
+    ],
+    "correct_answer": "Virnder Sehwag",
+    "explanation": "🔖All other three are famous Anti-virus software.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187868,
+    "question": "physics my favorite subject .",
+    "options": [
+      "on",
+      "to",
+      "are",
+      "is"
+    ],
+    "correct_answer": "is",
+    "explanation": "🔖Lavish (adj) sumptuously rich, elaborate, or luxurious.<br/>Profusion (n) an abundance or large quantity of something.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187869,
+    "question": "Fahim was looking forward the authority for the confirmation of his status.",
+    "options": [
+      "to",
+      "in",
+      "onto",
+      "around"
+    ],
+    "correct_answer": "to",
+    "explanation": "🔖Entertained (from entertain) (v) give attention or consideration to.<br/>Dissuaded (from dissuade) (v) persuade someone not to take (a course of action).",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187870,
+    "question": "But for your timely help, I would have failed and I am forever indebted you.",
+    "options": [
+      "of",
+      "since",
+      "without",
+      "to"
+    ],
+    "correct_answer": "to",
+    "explanation": "🔖Legislature মানে হলো বিধান সভা যার কাজ আইন তৈরি করা। Court মানে আদালত যার কাজ হলো বিচার করা। Tribunal হলো বিচারালয় অর্থাৎ court. bar হলো আদালতের সমিতি। সুতরাং Legislature ই সঠিক উত্তর।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187871,
+    "question": "Currently the banking sector is one of the largest job providers Bangladesh.",
+    "options": [
+      "in",
+      "credit",
+      "financial",
+      "remuneration"
+    ],
+    "correct_answer": "in",
+    "explanation": "🔖প্রশ্নে বলা হচ্ছে যে ‘মোমবাতির কেন্দ্রে যে দড়ি বা সূতা থাকে তার নাম কি’ । (a) তে দেয়া আছে Yoke যার অর্থ জোয়াল। (b) তে দেয়া আছে wick যার অর্থ শলিতা/পলিতা। (c) তে দেয়া আছে vane যার অর্থ বায়ুমানমত্ত এবং (d) তে দেয়া Tenor অর্থাৎ প্রচলিত ধারা। সুতরাং c সঠিক।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187872,
+    "question": "You should avail yourself this opportunity.",
+    "options": [
+      "of",
+      "to",
+      "in",
+      "from"
+    ],
+    "correct_answer": "of",
+    "explanation": "🔖প্রশ্নে বলা হচ্ছে যে ‘যে ব্যক্তি কাদামাটি দিয়ে মূর্তি তৈরি শিল্পকর্ম সমাধা করে তার নাম কি’। a তে বলা হচ্ছে Mediator যার অর্থ মধ্যস্থতাকারী। b তে বলা হচ্ছে Arbitrator অর্থাৎ মধ্যস্থতাকারী । c তে বলা হচ্ছে Sculptor অর্থাৎ ভাস্কর এবং d তে বলা হচ্ছে Miniature অর্থাৎ কোন কিছুকে ছোট বা বামন আকৃতিতে রূপান্তর। সুতরাং c সঠিক ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187873,
+    "question": "The gravity will apply the same to an airplane flying in the-- ship floating on the water.",
+    "options": [
+      "air as to a",
+      "air as a",
+      "as air as a",
+      "air compared to the"
+    ],
+    "correct_answer": "air as to a",
+    "explanation": "🔖প্রশ্নে বলা হচ্ছে যে ‘কোনকিছুর ভিতর দিয়ে দেখতে অক্ষম’। a তে বলা হচ্ছে Ductile যার অর্থ নমনীয়। b তে বলা হচ্ছে Opaque বা অস্বচ্ছ। c তে বলা হচ্ছে Obsolete বা অপ্রচলিত। d তে বলা হচ্ছে potable বা পন করার যোগ্য । সুতরাং b সঠিক।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187874,
+    "question": "This is a --- question and should not be lightly disposed.",
+    "options": [
+      "difficult ,on",
+      "silly,on",
+      "important , in",
+      "vexed, of"
+    ],
+    "correct_answer": "difficult ,on",
+    "explanation": "🔖(a) August = মহিমান্বিত, (b) Dignified = মহিমান্বিত, (c) Venrable = মহিমান্বিত , (d) Esteemed = গণ্যমাণ্য এবং (e) Corpulent = মোটা। সুতরাং বেমানান হলো (e) ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187875,
+    "question": "Company employees were quite pleased with their efficient new work area because it provided an ideal climate --- increased productivity.",
+    "options": [
+      "unfavorable to",
+      "conducive to",
+      "shadowed by",
+      "supported by"
+    ],
+    "correct_answer": "supported by",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187876,
+    "question": "Because the Standing Committee has the votes to override the veto of the Chairperson--",
+    "options": [
+      "the Chairperson has no choice but object",
+      "the Chairperson has no choice but to compromise",
+      "the Chairperson has no choice but abstain",
+      "the Chairperson has no choice but to submit"
+    ],
+    "correct_answer": "the Chairperson has no choice but to compromise",
+    "explanation": "🔖(a) Recalcitrant = অবাধ্য। (b) Stubborn = একগুঁয়ে। (c) obstinate = একগুঁয়ে । (d) Pliable = নমনীয় এবং (e) Intractable = অবাধ্য। সুতরাং সঠিক উত্তর (d) ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187877,
+    "question": "At present the world economy, though suffers downturns , it also has strong correction tendencies.",
+    "options": [
+      "confetti",
+      "recidivist",
+      "ominous",
+      "recuperative"
+    ],
+    "correct_answer": "recuperative",
+    "explanation": "🔖(a) Hasten ত্বরান্বিত করা, (b) Accelerate = ত্বরান্বিত করা, (c) Rush ধাবিত হওয়া, (d) Expedite = ত্বরান্বিত করা এবং (e) Impede = বাধা দেয়া। সুতরাং (e) সঠিক উত্তর।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187878,
+    "question": "Finding the odd one from a list of words.",
+    "options": [
+      "Acidulous",
+      "Vitriolic",
+      "Polite",
+      "wit"
+    ],
+    "correct_answer": "Polite",
+    "explanation": "🔖(a) Friendless = বন্ধুহীন, (b) Solitary = নিঃসঙ্গ, (c) Lonely = নিঃসঙ্গ, (d) Introverted = অন্তমুর্খী এবং (e) Verbose = বাগবহুল । সুতরাং (e) সঠিক উত্তর হবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187879,
+    "question": "Finding the odd one from a list of words.",
+    "options": [
+      "Disheveled",
+      "primp",
+      "Tousled",
+      "look"
+    ],
+    "correct_answer": "primp",
+    "explanation": "🔖মূলতঃ বাক্যটি হবে The tea-estate administration is in such a mess that there is no to set the things right.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187880,
+    "question": "Finding the odd one from a list of words.",
+    "options": [
+      "poltroon",
+      "Timid",
+      "Dastard",
+      "None"
+    ],
+    "correct_answer": "None",
+    "explanation": "🔖At বসবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187881,
+    "question": "Finding the odd one from a list of words.",
+    "options": [
+      "Recalcitrant",
+      "Stubborn",
+      "Obstinate",
+      "get"
+    ],
+    "correct_answer": "get",
+    "explanation": "🔖Appointed to -পদে নিযুক্ত করা। সঠিক বাক্যটি হবে He was appointed to and dismissed from fire post on the same day.।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187882,
+    "question": "Finding the odd one from a list of words.",
+    "options": [
+      "Fugitive",
+      "Renegade",
+      "Allegiance",
+      "Recreant"
+    ],
+    "correct_answer": "Allegiance",
+    "explanation": "🔖Dozen plural হয় না।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187883,
+    "question": "I was \"in two minds\" about what I should do.",
+    "options": [
+      "unsure",
+      "warned",
+      "careful",
+      "determined"
+    ],
+    "correct_answer": "unsure",
+    "explanation": "🔖“The long and short” is a phrase.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187884,
+    "question": "The khondokars are proud of their \"blue blood\".",
+    "options": [
+      "riches",
+      "aristocracy",
+      "background",
+      "strength"
+    ],
+    "correct_answer": "aristocracy",
+    "explanation": "🔖Resembles এর সাথে to নিষিদ্ধ। তাই No word is missing.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187885,
+    "question": "According to the rules and regulation of the organization there is no \"hindrance to\" his succeeding to the chairmanship .",
+    "options": [
+      "opportunity",
+      "obstruction",
+      "was building",
+      "was build"
+    ],
+    "correct_answer": "obstruction",
+    "explanation": "🔖Look at খুটিঁনাটি পরীক্ষা করে দেখা।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187886,
+    "question": "The supply of food and beverage for the program was \"abundant.",
+    "options": [
+      "inadequate",
+      "substandard",
+      "excellent",
+      "plentiful"
+    ],
+    "correct_answer": "plentiful",
+    "explanation": "🔖Whether .... or হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 187887,
+    "question": "Mr. Arman was instigated by his colleagues to speak against the director in the meeting .",
+    "options": [
+      "provoked",
+      "followed",
+      "restrained",
+      "protected"
+    ],
+    "correct_answer": "provoked",
+    "explanation": "🔖মূল বাক্যটি হবে – The drama had many scenes which were so humorous that it was hardly possible to keep a straight face.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 192676,
+    "question": "waht is the number of bones in a human body?",
+    "options": [
+      "103",
+      "150",
+      "198",
+      "206"
+    ],
+    "correct_answer": "206",
+    "explanation": "The human skeleton of an adult consists of around 206 bones, depending on the counting of sternum (which may alternatively be included as the manubrium, body of sternum, and the xiphoid process).",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 192683,
+    "question": "which of the following is suitable for storing and carrying data from one computer to another ?",
+    "options": [
+      "Power supply",
+      "Processor",
+      "Read Only Memory",
+      "Pen Drive"
+    ],
+    "correct_answer": "Pen Drive",
+    "explanation": "A pen drive is a portable Universal Serial Bus (USB) flash memory device for storing and transferring audio, video, and data files from a computer.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 192708,
+    "question": "which of the following is the name of the official match ball of the World Cup Football 2010?",
+    "options": [
+      "Jabulani",
+      "Rand",
+      "Mandela",
+      "None of these"
+    ],
+    "correct_answer": "Jabulani",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 192709,
+    "question": "Where is Darfur located?",
+    "options": [
+      "Somalia",
+      "Congo",
+      "Zimbabwe",
+      "Sudan"
+    ],
+    "correct_answer": "Sudan",
+    "explanation": "The Darfur region lies in the western part of the Sudan (Africa\\\"s largest country), near the borders with Libya, Chad, and Central African .",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 192710,
+    "question": "who is the designer of our national flag?",
+    "options": [
+      "Abdur Rab",
+      "Moinul Hossain",
+      "Kamrul Hasan",
+      "Jainul Abedin"
+    ],
+    "correct_answer": "Kamrul Hasan",
+    "explanation": "<p>📝 ব্যাখ্যাঃ 🔖জাতীয় পতাকার প্রথম নকশা করেন শিব নারায়ন দাস। পরবর্তীতে জাতীয় পতাকার ডিজাইন করেন চিত্রশিল্পী কামরুল হাসান। অন্যদিকে হামিদুজ্জামান ও শামীম শিকদার হলেন বাংলাদেশ দুজন বিখ্যাত স্থপতি। সংশপ্তক, রুই-কাতলা, ক্যাঁকটাস, শান্তির পায়রা ভাস্কর্যগুলোর স্থপতি হামিদুজ্জামান খান। স্বোপার্জিত স্বাধীনতা, বিজয় উল্লাস, স্বাধীনতা সংগ্রাম প্রভৃতি ভাস্কর্যগুলোর স্থপতি হলেন শামীম শিকদার।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 192711,
+    "question": "which of the following is an Antivirus software?",
+    "options": [
+      "None of them",
+      "Outlook",
+      "Google",
+      "Kaspersky"
+    ],
+    "correct_answer": "Kaspersky",
+    "explanation": "Popular antivirus programs are Norton, McAfee, Sophos, Bitdefender, AVG and Kaspersky.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 192712,
+    "question": "what is elaboration of \"www\" written at the beginning of the name of a webpage?",
+    "options": [
+      "Worldwide Wireless Windows",
+      "World wide web",
+      "World Wide WAN",
+      "World wide Wire -free Wofer"
+    ],
+    "correct_answer": "World wide web",
+    "explanation": "Many hostnames used for the World Wide Web begin with www because of the long ... www to an institution\\\"s website domain name was subsequently copied",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 204508,
+    "question": "In a triangle the lengths of two sides are 5 and 9, the length of the third side is represented by x. Which statement is always true?",
+    "options": [
+      "None of these",
+      "4",
+      "\\( 5\\le x\\le 9 \\)",
+      "x<9"
+    ],
+    "correct_answer": "4",
+    "explanation": "🔖এই বাক্য Nayan = Sunject, was = verb, kind and loving = object । সুতরাং বাক্য গঠনের নিয়মানুসারে option (d) 31425 অর্থাৎ সঠিক।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 204514,
+    "question": "What is the elaboration of 'CC' in an email?",
+    "options": [
+      "Close Circuit",
+      "Carbon Copy",
+      "Close Contact",
+      "Conter"
+    ],
+    "correct_answer": "Carbon Copy",
+    "explanation": "🔖According to the question,<br/>30 pens + 75 pencils =Tk. 510<br/>Average price of a pencil =Tk. 2<br/>Price of 75 pencils<br/>= 2 × 75 = Tk. 150<br/>∴ Price of 30 pens<br/>= 510 - 150 = Tk. 360<br/>∴ Average price of pen<br/>= 360/30<br/>= Tk. 12",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 204515,
+    "question": "Which of the following is a Spread Sheet Program?",
+    "options": [
+      "MS Word",
+      "MS Power Point",
+      "MS Excel",
+      "Yahoo"
+    ],
+    "correct_answer": "MS Excel",
+    "explanation": "🔖Speed downstream<br/>= (10 + 3) km/hr<br/>= 13 km/hr<br/>Time taken to travel 52 km downstream<br/>= 52/13 hours<br/>= 4 hours",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  },
+  {
+    "id": 204516,
+    "question": "When sending an e-mail, which of the following must be mentioned?",
+    "options": [
+      "Subject of the e-mail",
+      "Receiver's address",
+      "Attachment",
+      "Both (A) and (B)"
+    ],
+    "correct_answer": "Receiver's address",
+    "explanation": "🔖Correct Option: B<br/>Let the speed of boat in still water = 16x, speed of stream = 5x<br/>Upstream speed = 16x – 5x = 11x<br/>S =<br/>D<br/>t<br/>11x =<br/>16.5<br/>× 60<br/>45<br/>x = 2<br/>speed of boat in still water = 32 km/h, speed of stream = 10 km/h<br/>Downstream speed = 32 + 10 = 42 km/h<br/>Distance = 17.5 km<br/>time =<br/>17.5<br/>42<br/>=<br/>5<br/>hour<br/>12<br/>or<br/>5<br/>× 60 = 25 minutes<br/>12<br/>Hence, option B is correct.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Trust Bank Ltd",
+    "exam": "11@Trust Bank Ltd - Assistant Officer - 14.01.11"
+  }
+]

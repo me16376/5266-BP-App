@@ -1,0 +1,852 @@
+[
+  {
+    "id": 195160,
+    "question": "Find the largest number of four digits exactly divisible by 12, 15, 18 and 27.",
+    "options": [
+      "9620",
+      "9720",
+      "9820",
+      "9920"
+    ],
+    "correct_answer": "9720",
+    "explanation": "🔖Hints: L.C.M. of 12, 15, 18, 27 =540<br/>largest 4 digit number =9999<br/>So, 9999/540,<br/>We get 279 as remainder so the largest 4 digit exactly diviisible by 12, 15, 18, 27 =9999 - 279 =9720.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195161,
+    "question": "When 0.232323-----is converted into a fraction, then the results is :",
+    "options": [
+      "1/5",
+      "2/9",
+      "23/99",
+      "23/100"
+    ],
+    "correct_answer": "23/99",
+    "explanation": "🔖Hints: 232323.. =. 23 পৌনঃপুনিক = 23 /99<br/>যে কয়টা সংখ্যার মাথায় পৌনঃপুনিক থাকে সে কয়টা 9 দ্বারা ভাগ হয়। এখানে ২ টা সংখ্যর মাথায় পৌনঃপুনিক তাই ২ টা 99 দ্বারা ভাগ।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195162,
+    "question": "By how much is three-fifth of 350 greater than four-seventh of 210?",
+    "options": [
+      "95",
+      "110",
+      "120",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖Hints: 3/5 of 350 - 4/7 of 210 = 210 - 120 = 90",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195163,
+    "question": "50 is divided into two parts such that the sum of their reciprocals is 1/12. Find the two parts.",
+    "options": [
+      "30 and 20",
+      "30 and 25",
+      "30 and 40",
+      "30 and 35"
+    ],
+    "correct_answer": "30 and 20",
+    "explanation": "🔖Hints: Look at the answer, only A has 30 and 20, 30+20 = 50, which is the answer.<br/>Alternatively, let the two parts be x, y ; so x + y = 50<br/>1/x + 1/y =1/12<br/>(y+x)/xy =1/12<br/>50 /xy =1/12<br/>xy = 600<br/>x( 50 - x) =600<br/>50x -x2=600<br/>x2 -50x +600 =0<br/>(x-30) (x-20) =0<br/>x = 30, 20",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195164,
+    "question": "The ratio between the present ages of P and Q is 5 : 7 respectively. If the difference between Q's present age and P's age after 6 years is 2, what is the total of P's and Q's present ages?",
+    "options": [
+      "48 years",
+      "52 years",
+      "56 years",
+      "None of these"
+    ],
+    "correct_answer": "48 years",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195165,
+    "question": "If 35% of a number is 175, then what percent of 175 is that number?",
+    "options": [
+      "35%",
+      "65%",
+      "280%",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖Hints: Let the number be x<br/>35% of x = 175<br/>(35/100) × x = 175<br/>x = 500<br/>Let, y% of 175 =500<br/>( y/100) ×175 =500<br/>y =285.714286<br/>So, 285%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195166,
+    "question": "An article is sold at a certain price. By selling it at 2/3 of that price one loses 10%. Find the gain percent at original price.",
+    "options": [
+      "25%",
+      "30%",
+      "35%",
+      "40%"
+    ],
+    "correct_answer": "35%",
+    "explanation": "🔖Hints: Original selling price be x, new S.P = 2/3 of x = 2x/3<br/>Here, Loss =10%<br/>CP = 100/(100-loss) × SP<br/>= 100/(100-10) × 2x/ 3<br/>= 100/90 × 2x/3<br/>= 20x/27<br/>Gain = x- (20x/27) = 7x/27<br/>Gain % = (7x/27) / (20x/27) × 100% = 35%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195167,
+    "question": "A and B started a partnership business investing some amount in the ratio of 3 : 5. C joined them after six months with an amount equal to that of B. In what proportion should the profit at the end of one year be distributed among A, B and C?",
+    "options": [
+      "3 : 5 : 2",
+      "3 : 5 : 5",
+      "6 : 10 : 5",
+      "None of these"
+    ],
+    "correct_answer": "6 : 10 : 5",
+    "explanation": "🔖Hints: Let the initial investments of A and B be 3x and 5x A : B : C = (3x × 12) : ( 5x × 12) : ( 5x × 6) = 36 : 60 : 30 = 6 : 10 : 5",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195168,
+    "question": "If 17 labourers can dig a ditch 26 m long in 18 days, working 8 hours a day; how many more labourer working 9 hours a day?",
+    "options": [
+      "34",
+      "51",
+      "68",
+      "85"
+    ],
+    "correct_answer": "51",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195169,
+    "question": "Bengalis are \"innate\" poets.",
+    "options": [
+      "excellent",
+      "romantic",
+      "dull",
+      "inborn"
+    ],
+    "correct_answer": "inborn",
+    "explanation": "🔖Innate - জন্মগত।<br/>Excellent - চমৎকার।<br/>Dull - সচল।<br/>Inborn- জন্মগত।<br/>সঠিক উত্তর -inborn.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195170,
+    "question": "It became an instant \"truism\" that politics meant selfishness.",
+    "options": [
+      "universal belief",
+      "quick judgement",
+      "obvious truth",
+      "immediate guess"
+    ],
+    "correct_answer": "obvious truth",
+    "explanation": "🔖Truism - স্বতঃসিদ্ধ সত্য।<br/>Quick judgement - দ্রুত বিচার।<br/>Obvious truth - স্বতঃসিদ্ধ সত্য।<br/>Universal belief - বাস্তব বিশ্বাসী।<br/>সঠিক উত্তর - obvious truth.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195171,
+    "question": "Select from the alternative, the word that is most closely opposite in meaning to the word given in capital letter : EXTANT",
+    "options": [
+      "existing",
+      "fashionable",
+      "dynamic",
+      "lost"
+    ],
+    "correct_answer": "lost",
+    "explanation": "🔖Extant মানে still existing অর্থাৎ এখনও বিদ্যমান আর lost হচ্ছে যা হারিয়ে গেছে বা বিলুপ্ত।<br/>fashionable - আধুনিক।<br/>সুতরাং সঠিক উত্তর - lost.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195172,
+    "question": "Select from the alternative, the word that is most closely opposite in meaning to the word given in capital letter : INADVERTENTLY",
+    "options": [
+      "fearful",
+      "impartial",
+      "divide",
+      "purposely"
+    ],
+    "correct_answer": "purposely",
+    "explanation": "🔖Inadvertently -অনাকাঙ্ক্ষিতভাবে।<br/>Fearful - ভীতিকর।<br/>Divided - ভাগ করা।<br/>Purposely - ইচ্ছাকৃত।<br/>সঠিক উত্তর - purposely.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195173,
+    "question": "Select from the alternative, the word that is most closely opposite in meaning to the word given in capital letter : AUDACIOUS",
+    "options": [
+      "manifest",
+      "obvious",
+      "venture",
+      "cowardly"
+    ],
+    "correct_answer": "cowardly",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195174,
+    "question": "Select the options the pair having a similar relationship to the first pair in capital letters. MORPHINE : SEDATES : :",
+    "options": [
+      "Drug : Addicts",
+      "Liquor : Intoxicates",
+      "Medicine : Soothes",
+      "Oil : Smears"
+    ],
+    "correct_answer": "Medicine : Soothes",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195175,
+    "question": "Select the options the pair having a similar relationship to the first pair in capital letters. NAIVE : INGENUOUS : :",
+    "options": [
+      "Ordinary : Ingenious",
+      "Old : Wise",
+      "Simple : Kind",
+      "Sophisticated : Urbane"
+    ],
+    "correct_answer": "Sophisticated : Urbane",
+    "explanation": "🔖Hints- যারা naive ( সাদাসিদা) তারা সাধারণত ingenuous (মনখোলা) হয়ে থাকে।<br/>আর যারা sophisticated ( বাস্তববুদ্ধিসম্পন্ন) তারা সাধারণত urbane (মার্জিত রুচিসম্পন্ন) হয়ে থাকে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195176,
+    "question": "Select the options the pair having a similar relationship to the first pair in capital letters. DOCTOR : DISEASE : :",
+    "options": [
+      "psychiatrist : Maladjustment",
+      "Teacher : Pupils",
+      "Scholar : Knowledge",
+      "Judge : Crime"
+    ],
+    "correct_answer": "psychiatrist : Maladjustment",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195177,
+    "question": "Fill in the blanks : Education is a strong -----of poverty status.",
+    "options": [
+      "requirement",
+      "predictor",
+      "discolor",
+      "exposure"
+    ],
+    "correct_answer": "predictor",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195178,
+    "question": "Fill in the blanks : He ---the gathering in impressive English.",
+    "options": [
+      "directed",
+      "approached",
+      "undertaken",
+      "addressed"
+    ],
+    "correct_answer": "addressed",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195179,
+    "question": "নিচের কোনটি বহুবচন বাচক শব্দ নয়?",
+    "options": [
+      "গ্রাম",
+      "কুল",
+      "সভা",
+      "মঙ্গল"
+    ],
+    "correct_answer": "মঙ্গল",
+    "explanation": "",
+    "hints": "📖গ্রাম, কুল, সভা ইত্যাদি বহুবচন বাচক শব্দ।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195180,
+    "question": "নিচের কোনজন বাংলা ভাষার কবি?",
+    "options": [
+      "সুরদাস",
+      "কালিদাস",
+      "জ্ঞানদাস",
+      "জয়দেব"
+    ],
+    "correct_answer": "জ্ঞানদাস",
+    "explanation": "<br/>জ্ঞানদাস<br/>★আনুমানিক ১৫৬০ সালে  বর্ধমান জেলার কাদড়া গ্রামে কবি জ্ঞান দাসের জন্ম। <br/>★ চৈতন্য পরবর্তী কালের পদকর্তাদের মধ্যে একজন শ্রেষ্ঠ পদকর্তা।<br/>★চন্ডিদাসের ভাবশিষ্য ছিলেন।<br/>★বাংলা ও ব্রজবুলি ভাষায় রাধা কৃষ্ণ বিষয়ক কবিতা লেখেন।<br/>★তিনি শ্রীমঙ্গল,মঙ্গলঠাকুর,মদনমঙ্গলা ইত্যাদি নামে পরিচিত।<br/>★তার রচিত দুইটি বৈষ্ণব গীতিকাব্য মাথুর ও মুরালীশিক্ষা। <br/>★ বিখ্যাত উক্তি<br/>রুপ লাগি আখিঁ ঝুরে গুণে মন ভোর।<br/>এবং<br/>সুখের লাগিয়া এ ঘর বাধিনু আনলে পুড়িয়া গেলো।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195181,
+    "question": "ণ-ত্ব বিধান অনুসারে নিচের কোন বানানটি অশুদ্ধ?",
+    "options": [
+      "নির্নিমেষ",
+      "রুগ্‌ণ",
+      "পরিবহণ",
+      "অপরাহ্ন"
+    ],
+    "correct_answer": "অপরাহ্ন",
+    "explanation": "সমাসবদ্ধ শব্দে সাধারণত ণ-ত্ব বিধান খাটে না। এরূপ ক্ষেত্রে ন হয়। যেমন – ত্রিনয়ন, সর্বনাম, দুর্নীতি, দুর্নাম, দুর্নিবার, পরনিন্দা, অগ্রনায়ক। ত-বর্গীয় বর্ণের সঙ্গে যুক্ত ন কখনো ণ হয় না, ন হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195182,
+    "question": "'ব্যবধান' অর্থে 'দূর' শব্দের অপপ্রয়োগ ঘটেছে কোন শব্দে?",
+    "options": [
+      "দূরদৃষ্টি",
+      "দূরালাপনী",
+      "দূরাশা",
+      "দূরবর্তী"
+    ],
+    "correct_answer": "দূরাশা",
+    "explanation": "",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195183,
+    "question": "নিচের কোন শব্দের 'ইক' প্রত্যয়যুক্ত গঠন ব্যাকরণসিদ্ধ না হলেও বহুল প্রচলিত?",
+    "options": [
+      "প্রশাসনিক",
+      "মৌখিক",
+      "ঔপনিবেশিক",
+      "শারীরিক"
+    ],
+    "correct_answer": "ঔপনিবেশিক",
+    "explanation": "🔖শব্দের প্রথমে হ্রস্ব উ-কার, দীর্ঘ ঊ-কার, ও-কার থাকলে তা পরিবর্তিত হয়ে ঔ বা ঔ-কারে পরিণত হয়। যেমন— উপন্যাস+ইক = ঔপন্যাসিক উপনিবেশ+ইক = ঔপনিবেশিক",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195184,
+    "question": "নিচের অশুদ্ধ বানানটি শনাক্ত করুন ---",
+    "options": [
+      "কিম্ভূত",
+      "উদ্ভূত",
+      "অদ্ভূত",
+      "অভূতপূর্ব"
+    ],
+    "correct_answer": "অদ্ভূত",
+    "explanation": "",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195185,
+    "question": "নিচের কোন শব্দ অপপ্রয়োগের দৃষ্টান্ত নয়?",
+    "options": [
+      "পরিবারবর্গ",
+      "অশ্রুজল",
+      "ইদানীংকালে",
+      "উৎকর্ষ"
+    ],
+    "correct_answer": "উৎকর্ষ",
+    "explanation": "",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195186,
+    "question": "'যে জলে আগুন জ্বলে' কাব্যগ্রন্থের কবি --",
+    "options": [
+      "হুমায়ুন আজাদ",
+      "হেলাল হাফিজ",
+      "আবুল হাসান",
+      "কামাল চৌধুরী"
+    ],
+    "correct_answer": "হেলাল হাফিজ",
+    "explanation": "হেলাল হাফিজ (জন্ম: ৭ অক্টোবর, ১৯৪৮) বাংলাদেশের একজন আধুনিক কবি যিনি স্বল্পপ্রজ হলেও বিংশ শতাব্দীর শেষাংশে বিশেষ জনপ্রিয়তা অর্জন করেন। তার কবিতা সংকলন যে জলে আগুন জ্বলে ১৯৮৬ সালে প্রকাশিত হওয়ার পর ৩৩টিরও বেশি সংস্করণ প্রকাশিত হয়েছে। ২৬ বছর পর ২০১২ সালে আসে তার দ্বিতীয় কাব্যগ্রন্থ কবিতা একাত্তর।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195187,
+    "question": "নিচের কোনটি রাজনৈতিক উপন্যাস নয়?",
+    "options": [
+      "ঘরে-বাইরে",
+      "পথের দাবী",
+      "চাঁদের অমাবস্যা",
+      "চিলেকোঠার সেপাই"
+    ],
+    "correct_answer": "চাঁদের অমাবস্যা",
+    "explanation": "",
+    "hints": "📖সৈয়দ ওয়ালীউল্লাহ রচিত ''<b>চাঁদের অমাবস্যা</b>'' (১৯৪৬) মনোসমীক্ষণমূলক উপন্যাস। <br/>❏ ''পথের দাবী'' শরৎচন্দ্রের রাজনৈতিক উপন্যাস। <br/>❏ ''ঘরে-বাইরে'' রবীন্দ্রনাথ ঠাকুরের রাজনৈতিক উপন্যাস এবং <br/>❏ ঊনসত্তরের গণঅভ্যুত্থান নিয়ে রচিত আখতারুজ্জামান ইলিয়াসের উপন্যাস ''চিলেকোঠার সেপাই''।",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195188,
+    "question": "শুদ্ধ শব্দগুচ্ছ শনাক্ত করুন ---",
+    "options": [
+      "স্বচ্ছন্দ, স্বচ্ছল, শিরোচ্ছেদ",
+      "ধৈর্য, স্থৈর্যতা, সখ্যতা",
+      "একত্রিত, অধীনস্থ, ভাষাভাষী",
+      "জন্মবার্ষিক, পরিষ্কার, পুরস্কার"
+    ],
+    "correct_answer": "জন্মবার্ষিক, পরিষ্কার, পুরস্কার",
+    "explanation": "",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195189,
+    "question": "MERS is the name of a --",
+    "options": [
+      "Virus",
+      "Galaxy",
+      "Drug",
+      "President Office"
+    ],
+    "correct_answer": "Virus",
+    "explanation": "🔖Middle East respiratory syndrome (MERS), also known as camel flu,is a viral respiratory infection caused by the Middle East respiratory syndrome-related coronavirus (MERS-CoV).<br/>Symptoms may range from none, to mild, to severe.<br/>Typical symptoms include fever, cough, diarrhea, and shortness of breath.<br/>The disease is typically more severe in those with other health problems.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195190,
+    "question": "The 'Limits to Growth' Report was published by ---",
+    "options": [
+      "the Club of Rome",
+      "the Brundtland Commission",
+      "the Nathan Commission",
+      "Our Common Future"
+    ],
+    "correct_answer": "the Club of Rome",
+    "explanation": "🔖Hints: 1972, the club of Rome's report presented some challenging scenarios for global sustainability, based on a computer model.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195191,
+    "question": "The Crimean Peninsula became the part of Ukraine during the Soviet era in ---",
+    "options": [
+      "1921",
+      "1954",
+      "1935",
+      "1945"
+    ],
+    "correct_answer": "1954",
+    "explanation": "🔖Hints: The transfer of Crimea in 1954 was an administrative action of the supreme soviet which transferred the government of most of the crimean peninsula from the Russian Soviet Federative Socialist Republic to the Ukrainian SSR.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195192,
+    "question": "The G20 members represent about ----",
+    "options": [
+      "50% of global GDP",
+      "90% of global GDP",
+      "75% of global GDP",
+      "79% of global GDP"
+    ],
+    "correct_answer": "90% of global GDP",
+    "explanation": "🔖Together, the economies of the G-20 countries represent about 90% of the gross world product (GWP), 80% of world trade, and two-thirds of the world population.<br/>After its inaugural leaders' summit in 2008, the leaders of the G-20 announced that the group would replace the G-8 as the main economic council of nations.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195193,
+    "question": "The largest landlocked country in Europe is ----",
+    "options": [
+      "Poland",
+      "Albania",
+      "Croatia",
+      "Hungary"
+    ],
+    "correct_answer": "Hungary",
+    "explanation": "🔖Hints: The largest land locked country of Europe is republic of Hungry, 9300 sq km approximately 2nd and 3rd countries are: Republic of Austria, 8300 sq km apr. Czech republic, 78000 sq km.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195194,
+    "question": "The world's most heavily fortified border is located between ----",
+    "options": [
+      "North and South Korea",
+      "Israel and Lebanon",
+      "India and Pakistan",
+      "North and South Sudan"
+    ],
+    "correct_answer": "North and South Korea",
+    "explanation": "🔖Hints: The Korean Demilitarized Zone (DMZ) is a strip of land running across Korean peninsula that serves as a buffer zone between North and South Korea. It is 250 km long, 4km wide, is the most heavily fortified border in the world.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195195,
+    "question": "Narendra Modi became the Chief Minister of Gujrat, India in ---",
+    "options": [
+      "October 2001",
+      "April 2003",
+      "March 2003",
+      "March 2000"
+    ],
+    "correct_answer": "October 2001",
+    "explanation": "🔖Hints: On 3 October 2001, Modi was named as the replacement of Patel as the chief minister of Gujrat.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195196,
+    "question": "The global campaign \"The Future We Want\" was launched by ---",
+    "options": [
+      "the G20",
+      "the UNDP",
+      "IPCC",
+      "the Rio+20"
+    ],
+    "correct_answer": "the Rio+20",
+    "explanation": "🔖Hints: On 22 November, the United Nations launched \"Rio+20: The Future we went\", a campaign to rise global awareness on the importance of sustainable development, to promote the Rio+20 conference in June 2012, and to engage people in a global conversation on the kind of communities they would like to live in twenty years.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195197,
+    "question": "The youngest winner of the Man Booker Prize is :",
+    "options": [
+      "MacFarlane",
+      "Daniel Glaser",
+      "Eleanor Catton",
+      "Alastain Niven"
+    ],
+    "correct_answer": "Eleanor Catton",
+    "explanation": "🔖Hints: On 15 October, the Chair of the Judges Robert Mac forlanc announced that the winner of the 2013 man Booker Prize was New Zealand author Cleanor.Catton for her 2nd novel The Luminaries. At the age of 28, the youngest ever to win.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195198,
+    "question": "According to the Forbes Magazine, the biggest company in the world in 2013 was :",
+    "options": [
+      "ICBC",
+      "Exxon Mobil",
+      "General Motors",
+      "Jp Morgan Chase"
+    ],
+    "correct_answer": "ICBC",
+    "explanation": "🔖Hints: According to \" Forbes Global 2000\" Industrial and commercial Bank of china (ICBC) is the largest company in the world in 2014 yet.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195199,
+    "question": "The current Secretary General of SAARC is :",
+    "options": [
+      "Ahmed Salim",
+      "Dipanker Bannerjee",
+      "Suba Chandaran",
+      "Arjun Bahadur Thapa"
+    ],
+    "correct_answer": "Arjun Bahadur Thapa",
+    "explanation": "🔖H.E. Esala Ruwan Weerakoon of Sri Lanka assumed office of the Secretary General of the South Asian Association for Regional Cooperation (SAARC) on 01 March 2020.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195200,
+    "question": "\"All power in the Republic belong to the people\" is enshrined in the Constitution of Bangladesh by the Article :",
+    "options": [
+      "5(2)",
+      "7(1)",
+      "15(3)",
+      "29(1)"
+    ],
+    "correct_answer": "7(1)",
+    "explanation": "🔖The people of Bangladesh shall be known as Bangalees as a nation and the citizens of Bangladesh shall be known as Bangladeshies.<br/>7(a) All powers in the Republic belong to the people, and their exercise on behalf of the people shall be effected only under, and by the authority of, this Constitution.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195201,
+    "question": "The First Population Census of Bangladesh was held in ---",
+    "options": [
+      "1972",
+      "1978",
+      "1981",
+      "1974"
+    ],
+    "correct_answer": "1974",
+    "explanation": "🔖Hints: The first Agricultural Census was in 1977.<br/>and Economic in 1986.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195202,
+    "question": "The film Guerilla has been adapted from the novel Nishiddo Loban is written by ---",
+    "options": [
+      "Rabindranath Tagore",
+      "Syed Shamsul Huq",
+      "Humayun Ahmed",
+      "Mohammad Zafar Iqbal"
+    ],
+    "correct_answer": "Syed Shamsul Huq",
+    "explanation": "🔖Hints: Guerilla is a 2011 Bangladeshi film based on the events of Bangladesh liberation war.<br/>An adaptation of the novel Nishiddo Loban by Syed Shamsul Haq. it was released on 14 April 2011.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195203,
+    "question": "Which European country first recognized Bangladesh as a sovereign state?",
+    "options": [
+      "Albania",
+      "East Germany",
+      "Poland",
+      "Romania"
+    ],
+    "correct_answer": "East Germany",
+    "explanation": "🔖Hints: Poland recongnized Bangladesh on 12 January, 1972. The 3rd country to do so, first European country.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195204,
+    "question": "Portable program means?",
+    "options": [
+      "Program with wheels",
+      "Independent from its authors",
+      "Independent of platform",
+      "None"
+    ],
+    "correct_answer": "None",
+    "explanation": "🔖Hints: A portable application, is a program designed to run on a compatible computer without being installed.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195205,
+    "question": "When a computer is first turned on or restarted, a special type of absolute loader is executed, called ---",
+    "options": [
+      "Compile and go loader",
+      "Boot loader",
+      "Bootstrap loader",
+      "None"
+    ],
+    "correct_answer": "Bootstrap loader",
+    "explanation": "🔖Hints: Bootstap louder : A short program loaded from non-volatile storage and used to boot strap a computer.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195207,
+    "question": "Each IP packet must contain",
+    "options": [
+      "Only Source address",
+      "Only Destination address",
+      "Source and Destination address",
+      "None"
+    ],
+    "correct_answer": "Source and Destination address",
+    "explanation": "🔖টেলিফোনের ক্ষেত্রে প্রতিটি ফোন সেটের জন্য যেমন একটি নাম্বার থাকে, ঠিক তেমনি ইন্টারনেটে প্রতিটি কম্পিউটারের জন্য একটি আইডেন্টিটি থাকে, যা IP ( Internet Protocol) অ্যাড্রেস নামে পরিচিত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195208,
+    "question": "In a client/server model, a client program -----.",
+    "options": [
+      "asks for information",
+      "provides information and files",
+      "distributes data files to other computers",
+      "None"
+    ],
+    "correct_answer": "asks for information",
+    "explanation": "🔖Client–server model is a distributed application structure that partitions tasks or workloads between the providers of a resource or service, called servers, and service requesters, called clients.<br/>Often clients and servers communicate over a computer network on separate hardware, but both client and server may reside in the same system.<br/>A server host runs one or more server programs, which share their resources with clients. A client usually does not share any of its resources, but it requests content or service from a server.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 195209,
+    "question": "How do the main components of the computer communicate with each other?",
+    "options": [
+      "System bus",
+      "Memory",
+      "Keyboard",
+      "None"
+    ],
+    "correct_answer": "System bus",
+    "explanation": "🔖Answer. The main components of the computer communicate with each other, through the System bus. Keyboard, Monitor and Memory are only things which USE the system bus to communicate with CPU, etc.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  },
+  {
+    "id": 206171,
+    "question": "Evaluate \\( \\sqrt{41-\\sqrt{21+\\sqrt{19-\\sqrt{9}}}} \\)",
+    "options": [
+      "30 \\( ° \\)",
+      "5",
+      "6",
+      "6.4"
+    ],
+    "correct_answer": "6",
+    "explanation": "🔖Unit digit মানে এককের স্থানের অংক<br/>\\( {7}^{1} \\) =7 একক স্থানের অংক 7<br/>\\( {7}^{2} \\) =21 \" \" \" 9<br/>\\( {7}^{3} \\) = 49×7 = 343; ফলে 3 হবে \\( {7}^{3} \\) এর একক স্থানের অংক<br/>\\( {7}^{4} \\) = \\( ~{7}^{3} \\)×7 = 2401 একক স্থানের অংক 1<br/>\\( {7}^{5} \\) \\( ~{7}^{4} \\)×7 = \\( ~16807 \\) একক স্থানের অঙ্ক 7<br/>এখন \\( {7}^{1} \\) এবং \\( {7}^{5} \\) repeat হয়েছে, তাহলে \\( {7}^{9} \\) এরও একক স্থানের অঙ্ক 7, তাহলে (7-6) = 7-6 = 1",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "14@Investment Corporation - Senior Officer - 13.06.14"
+  }
+]

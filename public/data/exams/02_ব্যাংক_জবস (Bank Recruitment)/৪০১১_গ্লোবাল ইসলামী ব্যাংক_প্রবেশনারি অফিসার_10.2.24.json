@@ -1,0 +1,852 @@
+[
+  {
+    "id": 302610,
+    "question": "\\({x}^{{2}}-{25}={12}\\)</u>, x + 5 = 4, x - 5 = ?",
+    "options": [
+      "4",
+      "2",
+      "6",
+      "3"
+    ],
+    "correct_answer": "3",
+    "explanation": "<br data-mce-bogus=\"1\"><br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302611,
+    "question": "In the coordinate plane, line m passes through the origin and has slope of 3. If points (6,y) and (x, 12) are on line m, then y - x = ?",
+    "options": [
+      "22",
+      "14",
+      "26",
+      "18"
+    ],
+    "correct_answer": "14",
+    "explanation": "সমতল স্থানাঙ্ক ব্যবস্থায়, রেখা m মূলবিন্দু দিয়ে যায় এবং এর ঢাল 3। যদি বিন্দু (6, y) এবং (x, 12) রেখা m-এ থাকে, তাহলে y - x = ?<br/><br/>প্রক্রিয়া:<br/><br/>যেহেতু রেখা m মূলবিন্দু দিয়ে যায়, তাই এর সমীকরণটি y = mx হবে, যেখানে m হলো ঢাল (এ ক্ষেত্রে, m = 3)।<br/>আমরা জানি (6, y) এবং (x, 12) বিন্দুগুলিও রেখা m-এ রয়েছে। তাই, আমরা এই বিন্দুগুলিকে সমীকরণে প্রতিস্থাপন করতে পারি।<br/>(6, y) বিন্দুটি প্রতিস্থাপন করলে, আমরা পাই: y = 3 * 6 = 18।<br/>(x, 12) বিন্দুটি প্রতিস্থাপন করলে, আমরা পাই: 12 = 3 * x =&gt; x = 4।<br/>এখন, আমরা (y - x) এর মান খুঁজতে পারি: y - x = 18 - 4 = 14।<br/>উত্তর: y - x = 14.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302612,
+    "question": "X = {- 4, - 2, 1, 3} Y = {- 1, 4, 5} If x is a number from set X, and y is a number from set Y. The probability that x + y is positive is closest to",
+    "options": [
+      "0.7",
+      "0.5",
+      "0.8",
+      "0.6"
+    ],
+    "correct_answer": "0.7",
+    "explanation": "Split the problem into four cases, one for each possible value of x. Then add each possible value of y(−1,4,5).<br/><br/>x=−4<br/>x+y=−4+−1=−5<br/>x+y=−4+4=0<br/>x+y=−4+5=1<br/>x=1<br/>x+y=1+−1=0<br/>x+y=1+4=5<br/>x+y=1+5=6<br/>​<br/>  <br/>x=−2<br/>x+y=−2+−1=−3<br/>x+y=−2+4=2<br/>x+y=−2+5=3<br/>x=3<br/>x+y=3+−1=2<br/>x+y=3+4=7<br/>x+y=3+5=8<br/>​<br/> <br/>There are 12 answers to (x+y). Eight of these are greater than 0 .<br/>The probability that the sums of x and y are positive (greater than zero) is  <br/>12<br/>8<br/>​<br/> =0.66…, which is closest to 0.7.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302613,
+    "question": "Five people want to rent the last two copies of a movie. How many ways can these five people rent the two movies?",
+    "options": [
+      "8",
+      "10",
+      "7",
+      "9"
+    ],
+    "correct_answer": "10",
+    "explanation": "<br/>এই ক্ষেত্রে, আমাদের 2 টি সিনেমা আছে এবং 5 জন লোক আছে। প্রথম সিনেমাটি যে কেউ নিতে পারে, তারপরে বাকি 4 জন দ্বিতীয় সিনেমাটি নিতে পারে। তাই প্রথম সিনেমা নেওয়ার 5 টি উপায় আছে এবং দ্বিতীয় সিনেমা নেওয়ার 4 টি উপায় আছে। তবে, আমরা একই ক্রমে দুটি সিনেমা ভাড়া নেওয়ার দুটি উপায়কে আলাদাভাবে গণনা করেছি, যেমনঃ লোক A প্রথমে এবং লোক B পরে নেওয়া আলাদা এবং B প্রথমে নেওয়া এবং A পরে নেওয়া আলাদা।<br/><br/>এই সমস্যায় আসলে আমাদের ব্যবহার করা উচিত \"সংমিশ্রণ\" (combination) নামক ধারণাটি। সংমিশ্রণ হলো একটি গ্রুপ থেকে নির্দিষ্ট সংখ্যক উপাদান নির্বাচন করার উপায়, ক্রম নির্বিশেষে।<br/><br/>এই ক্ষেত্রে, আমাদেরকে দুটি সিনেমা বেছে নিতে হবে 5 জন লোকের মধ্যে থেকে। 5 জন লোকের মধ্যে থেকে 2 জনকে বেছে নেওয়ার উপায়:<br/><br/>5C2 = 5! / (2! * 3!) = 10<br/><br/>উপসংহারে, পাঁচ জন লোক শেষের দুটি সিনেমা ভাড়া নিতে পারে 10 টি ভিন্ন ভিন্নভাবে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302614,
+    "question": "Club A has 20 members and Club B has 27. If a total of 42 people belong to the two clubs, how many people belong to both clubs?",
+    "options": [
+      "5",
+      "3",
+      "6",
+      "4"
+    ],
+    "correct_answer": "5",
+    "explanation": "<br/>ক্লাব A-এ ২০ জন সদস্য এবং ক্লাব B-এ ২৭ জন সদস্য আছেন। মোট ৪২ জন এই দুই ক্লাবের সদস্য। এখন প্রশ্ন হলো, কয়জন সদস্য দুই ক্লাবেই সদস্য?<br/><br/>এই সমস্যার সমাধানের জন্য আমরা নিচের সূত্রটি ব্যবহার করতে পারি:<br/><br/>দুই ক্লাবেই সদস্য = মোট সদস্য - (A-এর সদস্য + B-এর সদস্য - দুই ক্লাবেই সদস্য)<br/><br/>এখানে,<br/><br/>মোট সদস্য = ৪২ জন<br/>A-এর সদস্য = ২০ জন<br/>B-এর সদস্য = ২৭ জন<br/>দুই ক্লাবেই সদস্য = অজানা<br/>সূত্রটি ব্যবহার করে,<br/><br/>দুই ক্লাবেই সদস্য = ৪২ - (২০ + ২৭ - দুই ক্লাবেই সদস্য)<br/>দুই ক্লাবেই সদস্য = ৪২ - ৪৭ + দুই ক্লাবেই সদস্য<br/>দুই ক্লাবেই সদস্য = -৫ + দুই ক্লাবেই সদস্য<br/><br/>এখন, উভয় পক্ষের সমীকরণটি মিলিয়ে, আমরা পাই:<br/><br/>দুই ক্লাবেই সদস্য = -৫",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302615,
+    "question": "Which of the following is the average of first five prime numbers?",
+    "options": [
+      "7.5",
+      "4.5",
+      "8.6",
+      "5.6"
+    ],
+    "correct_answer": "5.6",
+    "explanation": "পাঁচটি প্রধান সংখ্যা হলো: 2, 3, 5, 7, এবং 11। এদের গড় খুঁজতে হলে, আমাদের সেগুলোকে যোগ করে যোগফলকে 5 দ্বারা ভাগ করতে হবে।<br/><br/>গড় = (2 + 3 + 5 + 7 + 11) / 5<br/><br/>গড় = 28 / 5<br/><br/>গড় = 5.6<br/><br/>অতএব, প্রথম পাঁচটি প্রধান সংখ্যার গড় হলো 5.6।<br/><br/>উত্তর: 5.6",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302616,
+    "question": "To fill a tank, 25 buckets of water is required. How many buckets of water will be required to fill the same tank if the capacity of the bucket is reduced to two-fifth of its present?",
+    "options": [
+      "60.5",
+      "10",
+      "62.5",
+      "35"
+    ],
+    "correct_answer": "62.5",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302617,
+    "question": "If Elias makes a box every 5 minutes and Nadim takes minutes to make a box, what will be the ratio of the number of boxes produced by Elias to the number of boxes produced by Nadim if they work for 5 hours and 50 minutes?",
+    "options": [
+      "6 to 5",
+      "5 to 6",
+      "7 to 5",
+      "5 to 7"
+    ],
+    "correct_answer": "7 to 5",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302618,
+    "question": "Melissa is four times as old as Jim. Pat is 5 years older that Melissa. If Jim is y years old, how old is Pat?",
+    "options": [
+      "4 - 5y",
+      "4y + 5",
+      "y + 5",
+      "5y + 4"
+    ],
+    "correct_answer": "4y + 5",
+    "explanation": "<p>Given, Jim's age = y years</p><br/><p>Meliss is four times as old as Jim. So,&nbsp;<span style=\"font-size: 1rem;\">Melissa's age =4y years.</span></p><br/><p>Again, Pat is 5 years older that Melissa,</p><br/><p>So Pat's age= (4y+5) years [Ans]</p><br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302619,
+    "question": "What is the greatest common factor of 24 and 64?",
+    "options": [
+      "12",
+      "8",
+      "36",
+      "4"
+    ],
+    "correct_answer": "8",
+    "explanation": "<p>Factors of 24=2,3,4,6,(8),12,24</p><br/><p>Factors of 64=2,4,(8),16,32,64</p><br/><p>So, the highest common factor between 24 and 64 is 8 (Ans).</p><br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302620,
+    "question": "Jennifer flipped a coin three times and got heads each time What is the probability that she gets heads on the next flip",
+    "options": [
+      "1/2",
+      "1",
+      "0",
+      "1/16"
+    ],
+    "correct_answer": "1/2",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302621,
+    "question": "The area of a rectangular classroom is&nbsp;﻿\\({x}^{{2}}-{25}\\)</u></u> Which of the following binomials could represent the length and the width of the room?",
+    "options": [
+      "(x + 5)(x - 5)",
+      "(x + 5)(x + 5)",
+      "x(x - 25)",
+      "(x - 5)(x - 5)"
+    ],
+    "correct_answer": "(x + 5)(x - 5)",
+    "explanation": "<br data-mce-bogus=\"1\"><br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302622,
+    "question": "A sector of a circle of radius 5 cm is recast into a right circular cone of height 4 cm. What is the volume of the resulting cone?",
+    "options": [
+      "32 πcm³",
+      "12 πcm³",
+      "4 πcm³",
+      "33 πcm³"
+    ],
+    "correct_answer": "12 πcm³",
+    "explanation": "Given, a section of circle is made to right circular cone.<br/><br/>So, r = radius of cone = sqrt (5^2-4^2) = sqrt(9) = 3<br/><br/>Volume of circular cone = 1/3 * Pie *r^2 *h = 1/3 * pie *3^2 *4 = 12*pie cm^3",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302623,
+    "question": "A train takes 10 seconds to cross a pole and 20 seconds to cross a platform of length 200 m. What is the length of the train?",
+    "options": [
+      "200m",
+      "400m",
+      "800m",
+      "600m"
+    ],
+    "correct_answer": "200m",
+    "explanation": "<p><span style=\"font-size: 1rem;\">Let L be the length of the train, and let P be the length of the pole. We\\\"re given that the train takes 10 seconds to cross the pole and 20 seconds to cross a platform of length 200 meters.</span></p><br/><p><span style=\"font-size: 1rem;\">L = 10 * Train\\\"s Speed</span></p><br/>When the train crosses the platform, it covers its own length plus the length of the platform, which is 200 meters, so we can write:<br/>L + 200 = 20 * Train\\\"s Speed<br/>Now, we can solve this system of equations. First, isolate Train\\\"s Speed in the first equation:<br/>Train\\\"s Speed = L / 10<br/>Now, substitute this expression for Train\\\"s Speed into the second equation:<br/>L + 200 = 20 * (L / 10)<br/>L + 200 = 2L<br/>Now, subtract L from both sides:<br/>200 = L<br/>So, the length of the train (L) is 200 meters. Therefore, the length of the train is 200 meters.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302624,
+    "question": "If a bookstore owner buys 15 books less for Tk. 900 when the price of each book goes up by Tk. 3, then find the original price of a book.",
+    "options": [
+      "Tk. 15",
+      "Tk.20",
+      "Tk. 12",
+      "Tk. 18"
+    ],
+    "correct_answer": "Tk. 12",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302625,
+    "question": "Great Barrier Reef is in-",
+    "options": [
+      "Germany",
+      "the UK",
+      "Australia",
+      "the USA"
+    ],
+    "correct_answer": "Australia",
+    "explanation": "<p>গ্রেট ব্যারিয়ার রিফ হচ্ছে পৃথিবীর দীর্ঘতম প্রবাল রিফ। যা ২,৯০০ এর বেশি একক রিফের সমন্বয়ে গঠিত। রিফটি অস্ট্রেলিয়ার কুইন্সল্যান্ড রাজ্যের উপকূল ঘেঁষা কোরাল সাগরে অবস্থিত।মহাশূন্য থেকে পৃথিবীর যে কয়েকটি বস্তু দৃশ্যমান তার মধ্যে গ্রেট ব্যারিয়ার রিফ অন্যতম।প্রবাল, পলিপস ইত্যাদি কোটি কোটি ক্ষুদ্র অর্গানিজমস দ্বারা এই রিফ কাঠামো গঠিত।এখানে অনেক প্রানের অস্তিত্ব আছে, ১৯৮১ সালে এটাকে বিশ্ব হেরিটেজ সাইটে অন্তর্ভুক্ত করা হয়।সিএনএন এই প্রবাল প্রাচীরকে পৃথিবীর প্রাকৃতিক সপ্তাচার্য্যের একটি বলে ঘোষণা করে। কুইন্সল্যান্ড ন্যাশনাল ট্রাস্ট এই রিফকে কুইন্সল্যান্ড রাজ্যের প্রতীক হিসেবে ঘোষণা করে।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302626,
+    "question": "International Day for the Preservation of the Ozone Layer is observed on -",
+    "options": [
+      "17 October",
+      "17 September",
+      "16 November",
+      "16 September"
+    ],
+    "correct_answer": "16 September",
+    "explanation": "<p>ওজন স্তর রক্ষা দিবস ১৬ সেপ্টেম্বর, প্রতি বছর বিশ্ব ব্যাপি পালন করা হয়</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302627,
+    "question": "G-20 consists of-",
+    "options": [
+      "19 Countries + NATO",
+      "19 Countries + Common Wealth of Nations",
+      "19 Countries + ASEAN",
+      "19 Countries + European Union"
+    ],
+    "correct_answer": "19 Countries + European Union",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302628,
+    "question": "USA's second biggest city is -",
+    "options": [
+      "New York city",
+      "Seattle",
+      "Los Angeles",
+      "Atlanta"
+    ],
+    "correct_answer": "Los Angeles",
+    "explanation": "<p>Rank\tCity\tPopulation:---</p><br/><p>1. New York, New York\t8,804,190</p><br/><p>2. Los Angeles, California\t3,898,747</p><br/><p>3. Chicago, Illinois\t2,746,388</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302629,
+    "question": "What is the term for a malicious software that disguises itself as legitimate software to gain unauthorized access to a computer system?",
+    "options": [
+      "Encryption",
+      "Firewall",
+      "Phishing",
+      "Malware"
+    ],
+    "correct_answer": "Malware",
+    "explanation": "<p>A Trojan (Trojan Horse) is a type of malware that disguises itself as a legitimate piece of software in order to convince a victim to install it. Once installed, the malware is able to perform its malicious activity in the background.</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302630,
+    "question": "What is the name of the grasslands found in the African continent?’",
+    "options": [
+      "Pampass",
+      "Prairies",
+      "Savannah",
+      "Steppes"
+    ],
+    "correct_answer": "Savannah",
+    "explanation": "<p>Savanna is the biggest tropical grassland in Africa.</p><br/><p>সাভ্যানা মার্কিন যুক্তরাষ্ট্রের জর্জিয়া অঙ্গরাজ্যের প্রাচীনতম শহর ও চ্যাটহাম কাউন্টির আসন। ১৭৩৩ সালে স্যাভানা নদীর তীরে শহরটি প্রতিষ্ঠিত হয়। ব্রিটিশ ঔপনিবেশিক সরকার স্যাভানাকে রাজধানী করে। এছাড়াও জর্জিয়া অঙ্গরাজ্য হিসেবে ইউনিয়নে অন্তর্ভুক্ত হওয়ার পর এটি নবগঠিত রাজ্যের রাজধানী হিসেবে স্বীকৃত হয়।[১] আমেরিকান স্বাধীনতাযুদ্ধ ও গৃহযুদ্ধ - উভয় ক্ষেত্রেই বন্দরনগরী হিসেবে সাভ্যানা গুরুত্বপূর্ণ ভূমিকা পালন করে। বর্তমানে শহরটি বন্দরনগরী হিসেবে যেমন গুরুত্বপূর্ণ ভূমিকা পালন করে চলেছে, তেমনি শিল্পের প্রগতিতেও অবদান রাখছে। জনসংখ্যায় এটি জর্জিয়ার পঞ্চম বৃহত্তম শহর।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302631,
+    "question": "Which book was written by Harper Lee?",
+    "options": [
+      "Great Expectations",
+      "The Scarlet Letter",
+      "The Adventures of Tom Sawyer",
+      "To Kill a Mockingbird"
+    ],
+    "correct_answer": "To Kill a Mockingbird",
+    "explanation": "<p>Nelle Harper Lee (April 28, 1926 – February 19, 2016) was an American novelist whose 1960 novel To Kill a Mockingbird won the 1961 Pulitzer Prize.&nbsp;</p><br/><p></p>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302632,
+    "question": "Which company became the first to reach a market capitalization of $3 trillion?",
+    "options": [
+      "Apple",
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "correct_answer": "Apple",
+    "explanation": "<p>Apple Inc (AAPL. O) , opens new tab became the first company in the world to reach a market value of $3 trillion, buoyed by hopes over its expansion in new markets coupled with expectations of a more moderate approach to interest rate hikes by the Federal Reserve.</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302633,
+    "question": "What is the currency of Vietnam?",
+    "options": [
+      "Yuan",
+      "Yen",
+      "Dong",
+      "Won"
+    ],
+    "correct_answer": "Dong",
+    "explanation": "<p>ভিয়েতনামের মুদ্রার নাম হল ডং। এর রাজধানীর নাম হলো হ্যানয়।</p><br/><p>ভিয়েতনাম (ভিয়েতনামী:&nbsp; সরকারী নাম ভিয়েতনাম সমাজতান্ত্রিক প্রজাতন্ত্র (ভিয়েতনামী। এটি ইন্দোচীনের একটি রাষ্ট্র। ভিয়েতনামের উত্তরে গণচীন, পশ্চিমে লাওস ও কম্বোডিয়া, দক্ষিণ ও পূর্বে দক্ষিণ চীন সাগর অবস্থিত। হ্যানয় ভিয়েতনামের রাজধানী ও হো চি মিন সিটি বৃহত্তম শহর।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302634,
+    "question": "In which sport slam dunk is performed?",
+    "options": [
+      "Tennis",
+      "Soccer",
+      "Golf",
+      "Basketball"
+    ],
+    "correct_answer": "Basketball",
+    "explanation": "<p>A slam dunk, also simply known as dunk, is a type of basketball shot that is performed when a player jumps in the air, controls the ball above the horizontal plane of the rim, and scores by shoving the ball directly through the basket with one or both hands.</p><br/><p>একটি স্ল্যাম ডাঙ্ক, যা কেবল ডাঙ্ক নামেও পরিচিত, হল এক ধরনের বাস্কেটবল শট যা করা হয় যখন একজন খেলোয়াড় বাতাসে লাফ দেয়, বলটিকে রিমের অনুভূমিক সমতলের উপরে নিয়ন্ত্রণ করে এবং ধাক্কা দিয়ে স্কোর করে।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302635,
+    "question": "Select the word most similar in meaning to ‘tenacious’:",
+    "options": [
+      "Capricious",
+      "Resilient",
+      "Garrulous",
+      "Surreptitious"
+    ],
+    "correct_answer": "Resilient",
+    "explanation": "<p>Tenacious =&nbsp;দৃঢ়</p><br/><p>Resilient =&nbsp;স্থিতিস্থাপক</p><br/><p>As the meaning are same so the answer will be <b>Resilient</b></p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302636,
+    "question": "She told me that its her first time visiting the city.",
+    "options": [
+      "She told me that its' her firs time visiting the city.",
+      "She told me that it's her first time visiting the city.",
+      "She told me that it was her first time visiting the city",
+      "She told me that its her first time visiting the city."
+    ],
+    "correct_answer": "She told me that it was her first time visiting the city",
+    "explanation": "<p>Narration এ Direct থেকে Indirect করার সময় Reported Speech এর Tense গত পরিবর্তন সাধিত হয়।যেমন,</p><br/><p>Present indefinite থাকলে ➤Past Indefinite.&nbsp;</p><br/><p>Present continues থাকলে ➤Past continues&nbsp;</p><br/><p>Present Perfect থাকলে ➤Past Perfect</p><br/>একারণে নিয়ম অনুসারে,She told me that it was her first time visiting the city হবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302637,
+    "question": "The book, along with its illustrations, were captivating.",
+    "options": [
+      "The book along with its illustrations, were captivating.",
+      "The book, along with its illustrations, were captivating.",
+      "The book, along with its illustrations, is captivating.",
+      "The book, along with its illustrations, was captivating."
+    ],
+    "correct_answer": "The book, along with its illustrations, is captivating.",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302638,
+    "question": "The team are playing exceptionally well this season.",
+    "options": [
+      "The team be playing exceptionally well this season.",
+      "The team are playing exceptionally well this season.",
+      "The team were playing exceptionally well this season.",
+      "The team is playing exceptionally well this season."
+    ],
+    "correct_answer": "The team is playing exceptionally well this season.",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302639,
+    "question": "Neither John or Mary was aware of the surprise party,",
+    "options": [
+      "Neither John or Mary were aware of the surprise party.",
+      "Neither John nor Mary were aware of the surprise party.",
+      "Neither John or Mary was aware of the surprise party.",
+      "Neither John nor Mary was aware of the surprise party."
+    ],
+    "correct_answer": "Neither John nor Mary was aware of the surprise party.",
+    "explanation": "<p><span style=\"font-size: 1rem;\">Neither এর পর nor হয়। এবং এরপর verb হবে nor এর পরের noun/pronoun অনুযায়ী। Mary 3rd person singular তাই was হবে।</span></p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302640,
+    "question": "Choose the antonym for ‘ephemeral’:",
+    "options": [
+      "Transitory",
+      "Perpetual",
+      "Fleeting",
+      "Enduring"
+    ],
+    "correct_answer": "Perpetual",
+    "explanation": "<p>Emphemeral= ক্ষণস্থায়ী&nbsp;</p><br/><p>There are some important antonym of the upper word&nbsp;</p><br/><p><br/></p><br/><p>Long-lived=দীর্ঘজীবী,</p><br/><p> </p><br/><p><br/></p><br/><p>permanent= চিরস্থায়ী,</p><br/><p> </p><br/><p><br/></p><br/><p>perpetual= চিরস্থায়ী।</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302641,
+    "question": "Pick the antonym for ‘ubiquitous’:",
+    "options": [
+      "Common",
+      "Rare",
+      "Widespread",
+      "Pervasive"
+    ],
+    "correct_answer": "Rare",
+    "explanation": "Word: ubiquitous<br/>Type: Adjective<br/>Definition: ever-present<br/>Synonym: all-over, everywhere, omnipresent, pervasive, ubiquitary, universal, wall-to-wall<br/>Antonym: rare, scarce",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302642,
+    "question": "What does the expression ‘jump on the bandwagon’ imply?",
+    "options": [
+      "To create a new trend",
+      "To criticize others",
+      "To avoid public attention",
+      "To join others in a popular activity"
+    ],
+    "correct_answer": "To join others in a popular activity",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302643,
+    "question": "Choose the synonym for ‘obfuscate’:",
+    "options": [
+      "Clarify",
+      "Illuminate",
+      "Elucidate",
+      "Confuse"
+    ],
+    "correct_answer": "Confuse",
+    "explanation": "<p>Obfuscate - বিভ্রান্ত করা।</p><br/><p>এখানে option গুলোর মধ্যে confuse অর্থ বিভ্রান্ত। তাই obfuscate এর synonym হবে confuse.</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302644,
+    "question": "Select the opposite of ‘exacerbate’:",
+    "options": [
+      "Intensify",
+      "Aggravate",
+      "Escalate",
+      "Mitigate"
+    ],
+    "correct_answer": "Mitigate",
+    "explanation": "<p>এখানে exacerbate এর অর্থ বর্ধিত করা / বিরক্ত করা / উত্যক্ত করা।</p><br/><p>⏩ Intensify = প্রবল / তীব্র করে তোলা</p><br/><p>⏩ Aggravate = বাড়া / উত্যক্ত করা</p><br/><p>⏩ Escalate = ধাপে ধাপে বৃদ্ধি করা</p><br/><p>⏩ Mitigate = লাঘব করা / উপশম করা / প্রশমিত করা</p><br/><p>সুতরাং Synonym বিবেচনায় সঠিক উত্তর Aggravate.</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302645,
+    "question": "The detective was able to solve the case ………….. careful observation.",
+    "options": [
+      "towards",
+      "through",
+      "during",
+      "along"
+    ],
+    "correct_answer": "through",
+    "explanation": "<p>কোনোকিছু নিখুঁত ভাবে পর্যবেক্ষণের ক্ষেত্রে&nbsp; through ব্যবহার করা হয়ে থাকে।</p><br/><p>তাই case ভালো ভাবে পর্যবেক্ষণের জন্য through ব্যবহৃত হয়েছে 🥰</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302646,
+    "question": "She insisted ………….. going to the concert despite the rain.",
+    "options": [
+      "for",
+      "on",
+      "by",
+      "about"
+    ],
+    "correct_answer": "on",
+    "explanation": "<p><b>Insisted on এক টি Appropriate preposition.&nbsp;</b></p><br/><p><b>যার বাংলা অর্থ জেদ করা।&nbsp;</b></p><br/><p><b><br/></b></p><br/><p><b><br/></b></p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302647,
+    "question": "He is skilled ………….. both science and art.",
+    "options": [
+      "at",
+      "with",
+      "under",
+      "in"
+    ],
+    "correct_answer": "at",
+    "explanation": "<p><b>Skilled at একটি Appropriate preposition.&nbsp;</b></p><br/><p><b><br/></b></p><br/><p><b><br/></b></p><br/><p><b>Skilled at একটি Appropriate preposition.&nbsp;</b></p><br/><p><b><br/></b></p><br/><p><b><br/></b></p><br/><p><b>Skilled at একটি Appropriate preposition.&nbsp;</b></p><br/><p><b><br/></b></p><br/><p><b><br/></b></p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302648,
+    "question": "The artist painted a beautiful scene ………….. a canvas.",
+    "options": [
+      "against",
+      "among",
+      "beside",
+      "upon"
+    ],
+    "correct_answer": "upon",
+    "explanation": "<p><span style=\"color: rgb(0, 158, 247); font-family: Poppins, Helvetica, sans-serif, Kalpurush; font-size: 16.8744px; font-weight: 600;\">The artist painted a beautiful scene upon a canvas.</span></p><br/><p><span style=\"color: rgb(0, 158, 247); font-family: Poppins, Helvetica, sans-serif, Kalpurush; font-size: 16.8744px; font-weight: 600;\">বা</span><span style=\"color: rgb(0, 158, 247); font-family: Poppins, Helvetica, sans-serif, Kalpurush; font-size: 16.8744px; font-weight: 600;\">ক্যটির অর্থ হলো-শিল্পী ক্যানভাসে একটি সুন্দর দৃশ্য এঁকেছেন।</span></p><br/><p><span style=\"color: rgb(0, 158, 247); font-family: Poppins, Helvetica, sans-serif, Kalpurush; font-size: 16.8744px; font-weight: 600;\">*painted upon-কোনো কিছুর উপর অঙ্কন করা।&nbsp;&nbsp;</span></p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302649,
+    "question": "The mysterious package was hidden ………….. the floorboards.",
+    "options": [
+      "onto",
+      "below",
+      "without",
+      "between"
+    ],
+    "correct_answer": "below",
+    "explanation": "<p><p><p></p>The mysterious package was hidden __below___ the floorboards</p><br/><p></p>রহস্যময় প্যাকেজটি ফ্লোরবোর্ডের __নীচে__ লুকানো ছিল</p><br/><p>এখানে below শব্দটি appropriate.</p><br/><p></p>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302650,
+    "question": "'ভুষণ্ডির কাক' বাগধারাটি কি অর্থে ব্যবহৃত?",
+    "options": [
+      "নিষ্ক্রিয় দর্শক",
+      "নিরেট মূর্খ",
+      "কপটচারী",
+      "দীর্ঘজীবী"
+    ],
+    "correct_answer": "দীর্ঘজীবী",
+    "explanation": "ভূষন্ডির কাক পথ বাগধারাটি দীর্ঘজীবী অর্থে ব্যবহৃত হয়েছে । বাকি তিনটি ভুল উত্তর দেয়া হয়েছে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302651,
+    "question": "নিচের কোনটি নাসিক্য বর্ণ নয়?",
+    "options": [
+      "ল",
+      "ঙ",
+      "ণ",
+      "ঞ"
+    ],
+    "correct_answer": "ল",
+    "explanation": "<p>যেসব ব্যঞ্জনধ্বনি উচ্চারণকালে শ্বাসের বায়ু মুখ দিয়ে বের না হয়ে নাক দিয়ে বের হয়, সেগুলোকে নাসিক্য বা আনুনাসিক ব্যঞ্জনধ্বনি বলা হয়। বর্তমান বাংলা ভাষায় তিনটি নাসিক্য ধ্বনিমূলগুলো আছেঃ \"ঙ\", \"ন\", ও \"ম\"।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302652,
+    "question": "দ্বিস্বরধ্বনিযুক্ত শব্দ -",
+    "options": [
+      "স্বর্ণ",
+      "তৈল",
+      "আবরণ",
+      "রক্ষক"
+    ],
+    "correct_answer": "তৈল",
+    "explanation": "<p>পূর্ণ স্বরধ্বনি ও অর্ধস্বরধ্বনি একত্রে উচ্চারিত হলে দ্বিস্বরধ্বনি হয়। যেমন: 'লাউ' শব্দের [আ] পূর্ণ স্বরধ্বনি এবং /উ] অর্ধ্বস্বরধ্বনি মিলে দ্বিশ্বরধ্বনি [আঊ] তৈরি হয়েছে।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302653,
+    "question": "বিজ্ঞান শব্দে 'জ্ঞ' যুক্তবর্ণের কোন বর্ণ রয়েছে?",
+    "options": [
+      "জ, ঞ",
+      "জ, ষ",
+      "গ, জ",
+      "ঞ, জ"
+    ],
+    "correct_answer": "জ, ঞ",
+    "explanation": "<p>বিজ্ঞান' শব্দের যুক্তবর্ণের সঠিক রুপ : জ্ + ঞ । এছাড়া এ যুক্ত বর্ণ দ্বারা এ যুক্ত বর্ণ দ্বারা গঠিত শব্দ : জ্ঞান, সংজ্ঞা ইত্যাদি।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302654,
+    "question": "'টাকাটা ধার দিয়ে তুমি আবার মুখ রেখেছ'- এ বাক্যে 'মুখ' কি অর্থে ব্যবহৃত হয়েছে?",
+    "options": [
+      "মূল্য",
+      "সুনাম",
+      "সম্মান",
+      "প্রত্যঙ্গ বিশেষ"
+    ],
+    "correct_answer": "সম্মান",
+    "explanation": "<p>টাকাটা ধার দিয়ে তুমি আবার মুখ রেখেছো কথাটি সম্মান অর্থে ব্যবহৃত হয়েছে ।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302655,
+    "question": "বাক্যের প্রকাশভঙ্গি অনুসারে কর্তা কত প্রকার?",
+    "options": [
+      "৪",
+      "২",
+      "৬",
+      "৩"
+    ],
+    "correct_answer": "৩",
+    "explanation": "বাক্যের বাচ্য বা প্রকাশভঙ্গি অনুসারে কর্তা তিন রকমের হতে পারে:<div>কর্মবাচ্যের কর্তা: কর্মপদের প্রাধান্যসূচক বাক্যে বসে। যেমন- পুলিশ দ্বারা চোর ধৃত হয়েছে।</div><div>ভাববাচ্যের কর্তা: ক্রিয়ার প্রাধান্যসূচক বাক্যে বসে। যেমন- আমার যাওয়া হবে না।</div><div>কর্ম-কর্তৃবাচ্যের কর্তা: বাক্যে কর্মপদই যখন কর্তৃস্থানীয় হয়। যেমন- বাঁশি বাজে।</div>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302656,
+    "question": "নিচের কোন বানানটি সঠিক?",
+    "options": [
+      "জিগীষা",
+      "জিগিষা",
+      "জীগিষা",
+      "জীগীষা"
+    ],
+    "correct_answer": "জিগীষা",
+    "explanation": "<p>এ ধরনের বানানের ক্ষেত্রে শুদ্ধ বানান মনে রাখার জন্য একটা টেকনিক মনে রাখতে পারেন।</p><br/><p>টেকনিকটা হলো: উ, ঊ, উ এবং ই, ঈ, ই।</p><br/><p>অর্থাৎ কোনো বানানে যদি ই কার এবং ঈ কার অথবা উ কার এবং ঈ কার একসাথে থাকে তাহলে বেশিরভাগ ক্ষেত্রেই উল্লিখিত সিকুয়েন্স এ থাকে।</p><br/><p>যেমন: মুমূর্ষু, জিগীষা ইত্যাদি।</p><br/><p>তবে এই টেকনিক অনেক ক্ষেত্রেই খাটে না, তাই সাবধানে ব্যবহার করবেন।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302657,
+    "question": "'লাজুক' কোন ধরনের শব্দ?",
+    "options": [
+      "যৌগিক শব্দ",
+      "মৌলিক শব্দ",
+      "যোগরূঢ় শব্দ",
+      "রূঢ়ি শব্দ"
+    ],
+    "correct_answer": "যৌগিক শব্দ",
+    "explanation": "<p>যৌগিক শব্দ : যে সকল শব্দের ব্যুৎপত্তিগত অর্থ ও ব্যবহারিক অর্থ একই রকম, সেগুলোকে যৌগিক শব্দ বলে। যেমন- গায়ক = গৈ + ণক (অক) – অর্থ : গান করে যে । - কর্তব্য = কৃ + তব্য – অর্থ : যা করা উচিত । বাবুয়ানা = বাবু + আনা – অর্থ : বাবুর ভাব।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302658,
+    "question": "কোনটি 'পরপদ' প্রধান সমাস?",
+    "options": [
+      "দ্বন্দ্ব",
+      "কর্মধারয়",
+      "বহুব্রীহি",
+      "অব্যয়ীভাব"
+    ],
+    "correct_answer": "কর্মধারয়",
+    "explanation": "<p>যেখানে বিশেষণ বা বিশেষণভাবাপন্ন পদের সাথে বিশেষ্য বা বিশেষ্যভাবাপন্ন পদের সমাস হয় এবং পরপদের অর্থই প্রধান রূপে প্রতীয়মান হয়, তাকে কর্মধারয় সমাস বলে। যেমন নীল যে পদ্ম নীলপদ্ম। শান্ত অথচ = শিষ্ট শান্তশিষ্ট।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  },
+  {
+    "id": 302659,
+    "question": "'ক' বর্গের ধ্বনিসমূহের উচ্চারণ স্থান কোনটি?",
+    "options": [
+      "পশ্চাৎ দন্তমূল",
+      "জিহ্বামূল",
+      "অগ্রদন্তমূল",
+      "অগ্রতালু"
+    ],
+    "correct_answer": "জিহ্বামূল",
+    "explanation": "<p><b>ক' বর্ণ, 'ক'-বর্গের প্রথম বর্ণ। 'ক' ধ্বনি উচ্চারণের সময় স্বরযন্ত্রের ভিতরের স্বরতন্ত্রী কাঁপে না তাই এটি অঘোষ ধ্বনি। স্পর্শ ধ্বনি 'ক' উচ্চারণের সময় নিঃশ্বাস জোরে সংযোজিত হয় না তাই এটি অল্পপ্রাণ স্পর্শ ধ্বনি।</b></p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৪০১১@গ্লোবাল ইসলামী ব্যাংক ➺প্রবেশনারি অফিসার ☞10.2.24"
+  }
+]

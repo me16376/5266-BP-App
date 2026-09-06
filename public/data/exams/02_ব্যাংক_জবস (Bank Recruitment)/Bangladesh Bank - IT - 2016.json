@@ -1,0 +1,682 @@
+[
+  {
+    "id": 183936,
+    "question": "Which of the following memories needs refreshing ?",
+    "options": [
+      "SRAM",
+      "DRAM",
+      "ROM",
+      "All of them"
+    ],
+    "correct_answer": "DRAM",
+    "explanation": "🔖DRAM (ডাইনামিক র‌্যাম)-এ বাইনারি বিট (০, ১) capacitor-এ বৈদ্যুতিক চার্য আকারে জমা থাকে। এ র‌্যামের চিপের মধ্যে MOS Transistor দ্বারা capacitor তৈরি করা হয় যার ফলে ধারণকৃত চার্য সময় বাড়ার সাথে সাথে ডিসচার্জ হওয়ার প্রবণতা থাকে। এ জন্য নির্ধারিত সময় পরপর DRAM গুলো রিফ্রেশিং এর মাধ্যমে চার্জ করে নিতে হয়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183937,
+    "question": "Which of the items below are considered removable storage media ?",
+    "options": [
+      "Removable hard disk cartridges",
+      "(Magneto-optical) disk",
+      "Flexible disks cartridges",
+      "All of them"
+    ],
+    "correct_answer": "All of them",
+    "explanation": "🔖অস্থায়ী মেমরিকে সাধারণত removable storage media বলা হয় উদাহারণ হলো- CD, DVD, Pendrive ইত্যাদি।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183938,
+    "question": "Which of the following is not a form of data ?",
+    "options": [
+      "numbers and characters",
+      "images",
+      "sound",
+      "None of them"
+    ],
+    "correct_answer": "None of them",
+    "explanation": "🔖a, b, ও, c তে উল্লিখিত সবেগুলো ডেটা। Image, sound, video, যে কোনো প্রকার text বা number বা symbol সবই ডেটা।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183939,
+    "question": "The control unit of a microprocessor",
+    "options": [
+      "stores data in the memory",
+      "accepts input data from keyboard",
+      "performs arithmetic/logic function",
+      "None of them"
+    ],
+    "correct_answer": "None of them",
+    "explanation": "🔖processor-এর যে অংশটি গাণিতিক যুক্তি-তর্কের নিয়ন্ত্রণ করে সেটিকে Arithmatic Logic Unit (গাণিতিক যুক্তি অংশ) বলে।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183940,
+    "question": "Which of the following is internal memory ?",
+    "options": [
+      "Disks",
+      "Pen Drives",
+      "RAM",
+      "CDs"
+    ],
+    "correct_answer": "RAM",
+    "explanation": "🔖Flopy Disk, Compact Disk (CD), DVD, pen Drive, Memory Card, portable Hard Disk- এ সবই external memory। Ram, Resister, ROM, Cache Memory হলো internal memory।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183941,
+    "question": "On which aspect the analog computers are better than digital ?",
+    "options": [
+      "Speed",
+      "Accuracy",
+      "Reliability",
+      "Automatic"
+    ],
+    "correct_answer": "Accuracy",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183942,
+    "question": "How many numbers could ENIAC store in its internal memory ?",
+    "options": [
+      "100",
+      "20",
+      "80",
+      "40"
+    ],
+    "correct_answer": "20",
+    "explanation": "🔖ENIAC কম্পিউটারের ওজন ছিল ৩০ টনের মত। এটি প্রতি সেকেন্ডে ৫০০০টি যােগ ও ৩৫৭টি গুণ করতে পারতো। এটি চালানাের জন্য ১৩০ থেকে ১৪০ কিলােওয়াট বিদ্যুৎশক্তির প্রয়ােজন হত। তবে এ কম্পিউটারে প্রােগ্রাম সংরক্ষণের কোনাে ব্যবস্থা ছিল না।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183943,
+    "question": "Binary circuit elements have",
+    "options": [
+      "One stable state",
+      "Two stable state",
+      "Three stable state",
+      "None of them"
+    ],
+    "correct_answer": "Two stable state",
+    "explanation": "<p><span style=\"color: rgb(26, 26, 26); font-family: Georgia, serif; font-size: 18px;\">Circuit design with binary quantities, “on” and “off” representing 1 and 0 (i.e., true and false), uses the logic of Boolean algebra.&nbsp;</span></p>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183944,
+    "question": "Which of the following is used for manufacturing chips ?",
+    "options": [
+      "Control bus",
+      "Control unit",
+      "Parity unit",
+      "Semiconductor"
+    ],
+    "correct_answer": "Semiconductor",
+    "explanation": "🔖চিপ হলো একধরনের মাইক্রোসার্কিট। এতে রেজিস্টার, ক্যাপসিটর, ট্রানজিস্টর ইত্যাদির সমাবশ থাকে। এ ক্ষুদ্র ইলেক্ট্রনিক যন্ত্রাংশগুলো আবার সেমিকন্ডাক্টর বা অর্ধ-পরিবাহী দ্বারা গঠিত। সুতরাং চিপ তৈরিতে semiconductor ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183945,
+    "question": "Which of the following terms is the most closely related to main memory ?",
+    "options": [
+      "Non volatile",
+      "Permanent",
+      "Control unit",
+      "Temporary"
+    ],
+    "correct_answer": "Temporary",
+    "explanation": "🔖Non-volatile- বা অনুদ্বায়ী মেমোরি বা স্মৃতি বলতে স্থায়ী মেমোরিকে বুঝায়। Volatile মেমোরি বলতে অস্থায়ী বা উদ্বায়াী মেমোরিকে বুঝায়। বিদ্যুৎ চলে যাওয়ার সাথে সাথে এ মেমোরির স্মৃতি হারিয়ে যায়। অর্থাৎ এটি temporary প্রকৃতির। প্রধান মেমোরি বলতে volatile বা উদ্বায়ী মেমোরিকেই বুঝায়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183946,
+    "question": "The word length of a computer is measured in",
+    "options": [
+      "Bytes",
+      "Millimeters",
+      "Meters",
+      "Bits"
+    ],
+    "correct_answer": "Bits",
+    "explanation": "🔖কম্পিউটারে যেকোন তথ্য প্রকাশের ক্ষুদ্রতম ইউনিট হলো বিট (bit) সাধারণত ৮টি বিট নিয়ে তৈরি হয় ১ বাইট (byte)। কয়েকটি বিট নিয়ে গঠিত অক্ষর বা শব্দকে বাইট ধরা হয়। বাইট হলো বাইনারি পদ্ধতিতে তথ্য প্রকাশের মৌলিক একক। একটি শব্দ বা অক্ষর উপস্থাপন করতে কমপক্ষে ৮টি বিটের প্রয়োজন।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183947,
+    "question": "Which unit holds data permanently ?",
+    "options": [
+      "Input unit",
+      "Secondary unit",
+      "Output unit",
+      "Primary Memory unit"
+    ],
+    "correct_answer": "Secondary unit",
+    "explanation": "🔖সহায়ক স্মৃতি বা Secondary Storage Unit যেমন- Hard Disk, Optical Disk, Flopy Disk, USB Flash/removeable Disk- এ কোনো data স্থায়ীভাবে সংরক্ষিত হয়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183948,
+    "question": "Before a disk can be used to store data , it must be",
+    "options": [
+      "Formatted",
+      "Reformatted",
+      "Addressed",
+      "None of them"
+    ],
+    "correct_answer": "Formatted",
+    "explanation": "🔖কোনো একটি disk-এ data store করতে হলে ঐ Disk টি অবশ্যই Formate করে নিতে হবে। Unformatted Disk-এ শুধুমাত্র Primary বা Basic Partition-টি তেরি থাকে।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183949,
+    "question": "Magnetic tape can serve as",
+    "options": [
+      "Secondary storage media",
+      "Output media",
+      "Input media",
+      "All of them"
+    ],
+    "correct_answer": "Secondary storage media",
+    "explanation": "🔖Magnetic tape কে secondary storage device/media হিসাবে ব্যবহার করা যায়। বর্তমানে এটি লুপ্ত হলেও magnetic tape (চৌম্বক ফিতা) সহায়ক স্মৃতি হিসাবে পরিগণিত ছিল। এটি কম্পিউটার প্রযুক্তির গোড়ার দিকে মেইনফ্রেম, মিনি এবং পার্সোনাল কম্পিউটারে স্হায়ীভাবে তথ্য ধারণে ব্যবহৃর হত। তবে এর গতি অনেক কম ছিলো ও নিরাপত্তা নিশ্চিত ছিলো না।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183950,
+    "question": "Which technology is used in computer disks ?",
+    "options": [
+      "Mechanical",
+      "Electrical",
+      "Electro Magnetic",
+      "Laser"
+    ],
+    "correct_answer": "Laser",
+    "explanation": "🔖CD (Compact Disk)-এ লেজার প্রযুক্তি ব্যবহৃত হয়। CD-এর ট্র্যাকগুলো তৈরি হয় ১-২ মাইক্রন দৈর্ঘ্য, ০.৫ মাইক্রোন চওড়া এবং১/১০ মাইক্রোন গভীরতা বিশিষ্ট ক্ষুদ্রাকৃতির গর্ত বা পীটস্ দ্বারা।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183951,
+    "question": "Which of the following is a storage device ?",
+    "options": [
+      "Tape",
+      "Hard Disk",
+      "Floppy Disk",
+      "All of them"
+    ],
+    "correct_answer": "All of them",
+    "explanation": "🔖ভবিষ্যতে ব্যবহার করার জন্য data-সংরক্ষণ করে রাখতে যে মেমোরি ডিভাইস বা স্পেস ব্যবহার করা হয় তাকে সহায়ক বা secondary মেমোরি বা শুধু storage বলে। যেমন- Hard Disk, Floppy Disk, Magnetic Tape, USB Flash Disk, SSD, MMC, SD Card, Optical Disk (CD, DVD) ইত্যাদি।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183952,
+    "question": "Which of the following is a class of computers based on model ?",
+    "options": [
+      "Digital computers",
+      "Hybrid computers",
+      "Analog computers",
+      "AT computers"
+    ],
+    "correct_answer": "AT computers",
+    "explanation": "🔖গঠন ও কার্যপ্রণালী অনুসারে, কম্পিউটার তিন ধরনের। যথা: ১. এনালগ; ২. ডিজিটাল ও ৩. হাইব্রিড। কম্পিউটারের মডেলের উপর ভিত্তি করে কম্পিউটারকে AT, HP, DELL, IBM, Apple ইত্যাদি নামে নামকরণ করা হয়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183953,
+    "question": "Central Processing Unit is combination of",
+    "options": [
+      "Control and storage",
+      "Control and output unit",
+      "Arithmetic logic and input unit",
+      "Arithmetic logic and control unit"
+    ],
+    "correct_answer": "Arithmetic logic and control unit",
+    "explanation": "🔖CPU বা Central Processing Unit যে তিনটি অংশ নিয়ে গঠিত তা হলো- 1.ALU, 2. Control Unit ও 3. Register।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183954,
+    "question": "What does the disk drive of a computer do ?",
+    "options": [
+      "Rotate the disk",
+      "Read the disk",
+      "Load a program from the disk into the memory",
+      "Both B and C"
+    ],
+    "correct_answer": "Both B and C",
+    "explanation": "🔖Disk Drive বলতে মূলত Optical Disk Storage Device কে বুঝানো হয়েছে। এতে কোনো Disk insert তাকে পড়া যায়, Disk থেকে Program বা Data কম্পিউটারের memory তে load হয়। আবার কম্পিউটার থেকে Data বা program Disk-এ write বা load করা যায় যদি অব্যবহৃত task থাকে।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183955,
+    "question": "Which of the following produces the best quality graphics reproduction?",
+    "options": [
+      "Laser printer",
+      "Ink Jet printer",
+      "Plotter",
+      "Dot matrix printer"
+    ],
+    "correct_answer": "Plotter",
+    "explanation": "🔖প্লটার প্রিন্টারের মতই আউটপুট যন্ত্র। এর সাহায্যে বড় আকারের ছবি, বাড়ি, সেতু ইত্যাদি প্ল্যানের গঠন চিত্র সুন্দরভাবে ফুটিয়ে তোলা হয়। ডট ম্যাট্রিক প্রিন্টার বা লেজার প্রিন্টারের মত কালি বা টোনার ব্যবহহার না করে এতে কলম বা পেন্সিলের মত অনেকগুলো অংকন যন্ত্র ব্যবহৃত হয়। ফলে গ্রাফিক্যাল দিক থেকে এর ছবি অনেক বেশি সুন্দর হয়।",
+    "hints": "📖<b>প্লটার (Ploter):</b><br/>প্লটার এক ধরনের বিশেষ ধরনের আউটপুট ডিভাইজ যা প্রিন্টারের মতোই কাজ করে।<br/>❏ মূলত বৃহৎ আকারের ছবি, প্রতীক, মানচিত্র, আর্কিটেকচারাল ডিজাইন ইত্যাদির কাজে প্লটার ব্যবহৃত হয়।<br/>❏ তাছাড়া ভবনের নকশা, বিশাল ও সূক্ষ্ম যন্ত্রপাতির নকশা, মানচিত্র ইত্যাদির মুদ্রণ নেওয়ার জন্যও প্লটার ব্যবহৃত হয়।<br/>প্লটার সাধারণত ২ প্রকার।<br/>যথা:<br/>১. ফ্ল্যাটবেড (Flat bed) প্লটার ও<br/> ২. ড্রাম (Drum) প্লটার  <br/>❖",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183967,
+    "question": "What type of device is computer keyboard ?",
+    "options": [
+      "Memory",
+      "Output",
+      "Storage",
+      "Input"
+    ],
+    "correct_answer": "Input",
+    "explanation": "🔖Input Device গুলোর মধ্যে mouse ও key board হলো অপরিহার্য Input device। এছাড়া জয়স্টিক, ডিজিটাল ক্যামেরা, স্ক্যানার, OCR, OMR ইত্যাদিও Input device।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183968,
+    "question": "Which of the following is not true ?",
+    "options": [
+      "Transistors are much smaller",
+      "Transistors produce low heat",
+      "Transistors were less reliable",
+      "Transistors were used in radios and other electronic devices"
+    ],
+    "correct_answer": "Transistors were less reliable",
+    "explanation": "🔖ট্রানজিস্টর আবিষ্কারের পর ইলেক্ট্রনিক্স জগতে বৈপ্লবিক পরিবর্তন এসেছে। এর কারণে কম্পিউটারের দাম বহুগুণে হ্রাস পেয়েছে। কম্পিউটারের দ্রুত গতি এসেছে।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183969,
+    "question": "Typical data transfer rates in LAN are of the order of",
+    "options": [
+      "Bits per sec",
+      "Kilo bits per sec",
+      "Mega bits per sec",
+      "None of them"
+    ],
+    "correct_answer": "Mega bits per sec",
+    "explanation": "🔖Local Area Network- এর ক্ষেত্রে ডেটা ট্রান্সফারের গতি 10-100 mbps।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183970,
+    "question": "Which was the most popular first generation computer ?",
+    "options": [
+      "IBM 1650",
+      "IBM 360",
+      "IMB 1130",
+      "IBM 2700"
+    ],
+    "correct_answer": "IBM 1650",
+    "explanation": "🔖কম্পিউটারের প্রথম প্রজন্নের কম্পিউটারগুলাের মধ্যে IBM-650 সর্বাধিক জনপ্রিয়তা পেয়েছিল। মূলত বাণিজ্যিকভাবে মেটাল কম্পিউটার তৈরি ও বিক্রয় এ সময় (১৯৫৩) থেকেই শুরু হয়। এটি সহস্রাধিক পরিমাণে বিক্রি হয়। এ প্রােডাক্টির মাধ্যমেই ।BM কোম্পানি UNIVAC-কে অতিক্রম করে। তবে IBM-360 মডেলের কম্পিউটারটিতে সর্বপ্রথম ট্রানজিস্টর ব্যবহার করা হয়। এটির মাধ্যমে তখনকার সময়ে কম্পিউটার নতুন আদর্শে প্রবেশ করে। এটি ছিল দ্বিতীয় প্রজন্মের কম্পিউটার।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183971,
+    "question": "The computer code of the interchange of information between terminals is",
+    "options": [
+      "ASCII",
+      "BCD",
+      "EBCDIC",
+      "All of them"
+    ],
+    "correct_answer": "ASCII",
+    "explanation": "🔖ASCII-এর পূর্ণরূপ হলো- American Standard Code for Information Interchange। A -এর ASCII কোড হলো-65 এবং a- এর ASCII কোড হলো- 97।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183972,
+    "question": "What is the tenure of the Governor of Bangladesh Bank ?",
+    "options": [
+      "2 years",
+      "3 years",
+      "4 years",
+      "5 years"
+    ],
+    "correct_answer": "4 years",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183973,
+    "question": "Which international weekly recognized Bangabandhu Sheikh Mujibur Rahman as 'Poet of Polities' ?",
+    "options": [
+      "Time",
+      "The Newsweek",
+      "Outlook",
+      "The Week UK"
+    ],
+    "correct_answer": "The Newsweek",
+    "explanation": "🔖ব্যাখ্যা ১৯৭১-এর এপ্রিলে মার্কিন সাপ্তাহিক Newsweek- এর সাংবাদিক লোবেন জেঙ্কিন্স তার প্রতিবেদনে বঙ্গবন্ধু শেখ মুজিবুর রহমানকে Poet of Politics হিসাবে উল্লেখ করেন।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183974,
+    "question": "Bangladesh shares land boundary with",
+    "options": [
+      "India and Nepal",
+      "Nepal and Bhutan",
+      "Myanmar and Bhutan",
+      "India and Mayanmar"
+    ],
+    "correct_answer": "India and Mayanmar",
+    "explanation": "🔖বাংলাদেশের সীমান্তে রয়েছে ২টি দেশের সাথে। এর মধ্যে ভারতের সাথে সীমান্ত দৈর্ঘ্যের পরিমাণ ৪,১৫৬ কিমি, এবং মিয়ানমারের সাথে সীমান্ত দৈর্ঘ্যের পরিমাণ ২৭১ কিমি.। [বাংলাদেশ বর্ডার গার্ড বাংলাদেশ]",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183975,
+    "question": "Which one is the longest river of Bangladesh ?",
+    "options": [
+      "Padma",
+      "Meghna",
+      "Jamuna",
+      "Surma"
+    ],
+    "correct_answer": "Padma",
+    "explanation": "<p>পদ্মা বাংলাদেশের দীর্ঘতম&nbsp; নদী।নদীটির দৈর্ঘ্য ৩৪১ কিলোমিটার (নদীরক্ষা কমিশন রিপোর্ট ২০২৩</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183976,
+    "question": "In the Indian sub-continent the first woman graduate with honours was",
+    "options": [
+      "Shantisudha bose",
+      "Kamini Roy",
+      "Parul Ghosh",
+      "Abala Bose"
+    ],
+    "correct_answer": "Kamini Roy",
+    "explanation": "🔖১২ অক্টোবর ১৮৬৪ সালে বরিশালের বাকেরগঞ্জে জন্ম গ্রহণ করেন প্রথিতযশা বাঙালি কবি ও সমাজকর্মী কামিনী রায়। ব্রিটিশ ভারতের প্রথম নারী স্নাতক ডিগ্রিধারী এ ব্যক্তিত্ব ১৮৮৬ খ্রিস্টাব্দে সংস্কৃত ভাষায় সম্মাসহ স্নাতক ডিগ্রি লাভ করেন।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183978,
+    "question": "Which Bangladeshi person received the title 'Knight' from the French government ?",
+    "options": [
+      "Dr. Muhammad Shahidullah",
+      "Partha Pratim Majumder",
+      "Artist Shahabuddin Ahmed",
+      "All of them"
+    ],
+    "correct_answer": "Artist Shahabuddin Ahmed",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183979,
+    "question": "Avro Key-board was made by",
+    "options": [
+      "Mehdi Hasan Khan",
+      "Muhammad Zafar Iqbal",
+      "Bangladesh Computer Research Center",
+      "Maksudul Alam"
+    ],
+    "correct_answer": "Mehdi Hasan Khan",
+    "explanation": "🔖উইন্ডোজ ইউনিকোড ভিত্তিক বাংলা লেখার Software ‘অভ্র কি-বোর্ড’ আবির্ভূত হয় ২৬ মার্চ ২০০৩। এ Software-টির নির্মাতা মেহেদী হাসান খান। তবে পরবর্তীতে এ অভ্র কি-বোর্ডের Developed-এর সাথে যুক্ত হন রিফাত-উন-নবী, তানবিন ইসলাম সিয়াম, রাইয়ান কামাল, শাবাব মুস্তফা এবং নিপুন হক।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183980,
+    "question": "'Mohasen' is related to",
+    "options": [
+      "Cyclone",
+      "Tornedo",
+      "Earthquake",
+      "Flood"
+    ],
+    "correct_answer": "Cyclone",
+    "explanation": "🔖১০ মে ২০১৩ সৃষ্টি হওয়া নিম্নচাপটি ‘মহাসেন’ রূপে বাংলাদেশের পটুয়াখালী জেলার খেপুপাড়ায় আঘাত হানে ১৬ মে ২০১৩ । ২৭৭-৩০৪ খ্রিস্টাব্দ পর্যন্ত সিংল দ্বীপ (বর্তমান শ্রীলংকা) শাসন করা বৌদ্ধ রাজা মহাসেনের নামে এই ঘুর্ণিঝড়টির নামকরণ করা হয়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183981,
+    "question": "The British Prime Minister is :",
+    "options": [
+      "Tony Blair",
+      "Edward Heath",
+      "Brendan Cameron",
+      "David Cameron"
+    ],
+    "correct_answer": "David Cameron",
+    "explanation": "🔖যুক্তরাজ্যে বর্তমান প্রধানমন্ত্রীর নাম ‘টেরেসা মে’ দায়িত্ব গ্রহণ করেন ১৩ জুলাই ২০১৬।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183982,
+    "question": "Which sports star is the highest medal winner in Olympics ?",
+    "options": [
+      "Laris Latynina",
+      "Ben Johnson",
+      "Mark Spitz",
+      "Michael phelps"
+    ],
+    "correct_answer": "Michael phelps",
+    "explanation": "🔖২০১৬ রিও অলিম্পিকে সর্বাদিক পদকজয়ী ক্রীড়াবিদ মার্কিন সাঁতারু Michael Phelps (৫টি স্বর্ণ, ৩টি বোপ্য ও ব্রোঞ্জ ২টি) লাভ করে অলিম্পিকের ইতিহাসে সবচেয়ে বেশি পদক লাভকারী ক্রীড়াবিদের রেকর্ড গরেন।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183983,
+    "question": "What is the world's smallest landlocked country ?",
+    "options": [
+      "Lesotho",
+      "Vatican City",
+      "Nepal",
+      "Bhutan"
+    ],
+    "correct_answer": "Vatican City",
+    "explanation": "🔖পৃথিবীর ক্ষুদ্রতম দেশের নাম ‘ভ্যাটিকান সিটি’ যার আয়তন ০.৪৪ বর্গকিলোমিটার। তেমনি করে বিশ্বের সংক্ষিপ্ত সীমান্ত সীমানাও এ দেশটির। ভ্যাটিকান সিটির সীমান্ত সংযোগ রয়েছে শুধুমাত্র ইতালির সাথে।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183984,
+    "question": "Julian Assange is best known for starting which controversial website in 2006 ?",
+    "options": [
+      "youtube",
+      "facebook",
+      "wikileaks",
+      "wikipedia"
+    ],
+    "correct_answer": "wikileaks",
+    "explanation": "🔖দ্য সানশাইন প্রেস মালিকানাধীন Wikileaks ওয়েবসাইটটি তৈরি করেন জুলিয়ান অ্যাসেঞ্জ। এ প্রচারমাধ্যমটি চালু হয় ৪ অক্টোবর ২০০৬। অন্যদিকে You Tube-এর প্রতিষ্ঠাতা চ্যড হার্লি, স্টিভ চেন এবং বাংলাদেশী বংশদ্ভুত জাবেদ করিম। Facebook- এর প্রতিষ্ঠাতা প্রধান মার্ক জাকারবার্গ। আর Wikipedia-এর প্রতিষ্ঠাতা উইকিমিডিয়া ফউন্ডেশন এবং তৈরি করেন জিমি ওয়েলস, ল্যারি স্যাঙ্গার।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183985,
+    "question": "What is the official press agency of the government of China ?",
+    "options": [
+      "Renter's",
+      "Xinhua",
+      "Tianshan",
+      "Shihezi"
+    ],
+    "correct_answer": "Xinhua",
+    "explanation": "🔖Xinhua News Agency চীনের রাষ্টীয় সংবাদ সংস্হার নাম। Reuters (রয়টার্স) হচ্ছে ব্রিটেনের সংবাদ সংস্হা।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183986,
+    "question": "France's high speed rail service is known by what three-letter name ?",
+    "options": [
+      "FFT",
+      "TGV",
+      "MRT",
+      "RTS"
+    ],
+    "correct_answer": "TGV",
+    "explanation": "🔖উচ্চগতির রেল সার্ভিসভিত্তিক ফ্রান্সের ট্রেনটির নাম TGV। TGV এর পূর্ণরূপ Train a Grande Vitesse বা High-speed train। ৩ এপ্রিল ২০০৭ ট্রেনটি পরীক্ষামূলকভাবে ৫৭৪.৮ কিমি বেগে চলতে সমর্থ হয়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  },
+  {
+    "id": 183988,
+    "question": "Red Barn, now a historic site in the US, was the original manufacturing site of which company ?",
+    "options": [
+      "Boeing",
+      "Coca Cola",
+      "Kodak",
+      "Red Rooster"
+    ],
+    "correct_answer": "Boeing",
+    "explanation": "🔖দ্য বোয়িং কোম্পানির ‘বোয়িং প্লট-১’ ১৯৭০ সালে বিক্রি করা হয়। কেবল দুটি বিল্ডিং বিক্রয় আওতামুক্ত থাকে। এর একটি হলো Building No. 105 যা `Red Barn` নামেও পরিচিত।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Bangladesh Bank",
+    "exam": "Bangladesh Bank - IT - 2016"
+  }
+]

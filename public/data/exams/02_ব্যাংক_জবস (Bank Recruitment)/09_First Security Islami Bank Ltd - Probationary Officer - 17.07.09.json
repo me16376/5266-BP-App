@@ -1,0 +1,1276 @@
+[
+  {
+    "id": 187902,
+    "question": "A special lottery is to be held to select the student who will live in the only deluxe room in a dormitory. There are 100 seniors, 150 juniors, and 200 sophomores who applied. Each senior's name is placed in the lottery 3 times, each junior's name, 2 times, and each sophomore's, 1 time. What is the probability that a senior's name will be chosen?",
+    "options": [
+      "1/8",
+      "2/9",
+      "2/7",
+      "3/8"
+    ],
+    "correct_answer": "3/8",
+    "explanation": "🔖Total number of seniors' names = 3 x 100 = 300<br/>Total number of juniors' names = 2 x 150 = 300<br/>Total number of sophomores' names = 200<br/>Total student names for lottery = 300 + 300 + 200 = 800<br/>Probability of a senior's name to be chosen = 300 / 800 = 3/8",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187903,
+    "question": "If k is divisible by 2, 3 and 15, which of the following is also divisible by these numbers?",
+    "options": [
+      "k+5",
+      "K+15",
+      "K+20",
+      "K+30"
+    ],
+    "correct_answer": "K+30",
+    "explanation": "🔖Only the number 30 from the options is divisible by 2, 3 and 15. As 'K' is divisible by 2, 3 and 15, (K+30) is also divisible by these numbers.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187904,
+    "question": "The price of a DVD Player is discounted by 10 percent, and the reduced price is then discounted again by 10 percent. The series of successive discounts is equivalent to a single discount of ----",
+    "options": [
+      "20%",
+      "19%",
+      "18%",
+      "11%"
+    ],
+    "correct_answer": "19%",
+    "explanation": "🔖Let the initial price be 100.<br/>Now, first discounted price = 100 - 10% of 100 = 100 - 10 = 90<br/>Again, second discounted price = 90 - 10% of 90 = 90 - 9 = 81<br/>Actual discount = (100 - 81)% = 19%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187905,
+    "question": "A restaurant meal costs Tk. 35.50 and there was no tax. If the tip was more than 10 percent but less than 15 percent of the cost of the meal, then the total amount paid must have been between ---",
+    "options": [
+      "Tk. 40 & Tk. 42",
+      "Tk. 39 & Tk. 41",
+      "Tk. 33 & Tk. 40",
+      "Tk. 37 & Tk. 39"
+    ],
+    "correct_answer": "Tk. 39 & Tk. 41",
+    "explanation": "🔖let, Tip = t<br/>10<t<15<br/>Min = 35.50*1.10 = 39.05<br/>Max = 35.50*1.15 = 40.825<br/>39.05 < t < 40.825<br/>so,the total amount paid must have been between Tk.39 & Tk.41 (ans)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187906,
+    "question": "Barkat bought equal numbers of 2-paisa and 30-paisa stamps. If the total cost of the stamps was Tk. 10.00, what was the total number of stamps bought?",
+    "options": [
+      "25",
+      "34",
+      "40",
+      "46"
+    ],
+    "correct_answer": "40",
+    "explanation": "🔖***The question is erroneous.<br/>Let the number of each type stamps is S.<br/>Now, 10 TK = 10 x 100 paisa = 1000 paisa<br/>So, 20S + 30S = 1000<br/>or, 50S = 1000<br/>or, S = 100/50 = 20<br/>So, the number of total stamps = 20 + 20 = 40",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187907,
+    "question": "Of two groups of tourists, each has 60 people. If three fourth (i.e. 75%) of the first group and two-third of the second group board buses to travel to a museum, how many more people of the first group board buses than of the second group?",
+    "options": [
+      "5",
+      "6",
+      "10",
+      "15"
+    ],
+    "correct_answer": "5",
+    "explanation": "🔖3/4 th of 60 = 45<br/>2/3 rd of 60 = 40<br/>Difference = 45 - 5 = 5",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187908,
+    "question": "If an integer y is subtracted from an integer x, and the result is greater than x, then y must be ---",
+    "options": [
+      "Equal to x",
+      "Less than 0",
+      "Less than x",
+      "Greater than 0"
+    ],
+    "correct_answer": "Less than 0",
+    "explanation": "🔖x - y > x<br/>x = 1 এবং y = - 1 হলে, x - y = 1 - (-1) = 2>1<br/>x = 1 এবং y = - 2 হলে, x - y = 1 + 2 = 3 >1<br/>y <0 হলে x - y > x শর্তটি সিদ্ধ হয়।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187909,
+    "question": "A circular wheel 28 inches in diameter rotates (moves) the same number of inches per second as a circular wheel 35 inches in diameter. If the smaller wheel makes x revolutions per second, how many revolutions per minute does the larger wheel make in terms of x?",
+    "options": [
+      "12x",
+      "48x",
+      "24x",
+      "36x"
+    ],
+    "correct_answer": "48x",
+    "explanation": "🔖Let the revolutions made by larger wheel per minute be R.<br/>Circumference of smaller wheel, 2 π r = 2 x π x (28/2) = 28π<br/>Circumference of larger wheel, 2 π r = 2 x π x (35/2) = 35π<br/>Speed of smaller wheel per minute = 60x<br/>Distance covered by larger wheel per minute = Distance covered by smaller wheel per minute<br/>or, R x 35π = 28π x 60x<br/>or, R = 28π x 60x / 35π = 48x",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187910,
+    "question": "A two-digit number has 3 in its unit digit. The sum of its digits is one-seventh of the number itself. What is the number?",
+    "options": [
+      "73",
+      "63",
+      "53",
+      "50"
+    ],
+    "correct_answer": "63",
+    "explanation": "🔖Let the decimal placed digit be X.<br/>Then the number is (10X+3).<br/>Again, X+3 = (10X+3) / 7<br/>or, 7X + 21 = 10X +3<br/>or, 10X - 7X = 21 - 3<br/>or, 3X = 18<br/>or, X = 6<br/>So, the number is 63.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187911,
+    "question": "The total cost of a bouquet of roses at a flower shop depends on the number of roses ordered. The vase costs $5, and each rose costs $2.25. Which equation can be used to find 'c', the total cost of a bouquet with 'r' roses?",
+    "options": [
+      "c=(5+2.25)r",
+      "c=5r+2.25",
+      "c= 5+2.25r",
+      "c=5+(5-2.25)r"
+    ],
+    "correct_answer": "c= 5+2.25r",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187912,
+    "question": "If 6 workers can complete 9 identical jobs in 3 days, how long (in days) will it take 4 workers to complete 10 such jobs?",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "3"
+    ],
+    "correct_answer": "5",
+    "explanation": "🔖6 workers can complete 9 identical jobs in 3 days<br/>6 workers can complete 10 identical jobs in 3 x 10 / 9 days<br/>4 workers can complete 10 identical jobs in (3 x 10 x 6) / (9 x 4) days = 5 days",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187914,
+    "question": "If there are 300 calories in 100 grams of a food, how many calories are there in a 30-gram portion of that food?",
+    "options": [
+      "90",
+      "100",
+      "900",
+      "1000"
+    ],
+    "correct_answer": "90",
+    "explanation": "🔖Calories remained in the 30gram portion = 30 / 100 x 300 = 90 calories",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187915,
+    "question": "Equal amounts of water were poured into two empty jars of different capacities, which made one jar 1/4 full and the other jar 1/3 full. If the water in the jar with the lesser capacity is then poured into the jar with the greater capacity, what fraction of the larger jar will be filled with water?",
+    "options": [
+      "1/3",
+      "1/4",
+      "1/2",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖Evidently, 1/3 full jar is of the lesser capacity as 1/3 is greater than 1/4. As equal amount of water was poured into each jar, pouring water from the jar of lesser capacity to the larger jar will make the amount of water in the larger jar to get doubled.<br/>Therefore, the fraction of larger jar filled with water will be = 2 x 1/4 = 1/2",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187916,
+    "question": "If Rahim was 32 years old 8 years ago, how old was he x years ago?",
+    "options": [
+      "x-40",
+      "x-24",
+      "40-x",
+      "24-x"
+    ],
+    "correct_answer": "40-x",
+    "explanation": "🔖Rahim's present age = 32 + 8 = 40<br/>Rahim's age at x years back = 40 - x",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187917,
+    "question": "The area of a rectangle R with width 4 feet is equal to the area of a square S, which has a perimeter of 24 feet. The perimeter of the rectangle R, in feet, is :",
+    "options": [
+      "9",
+      "16",
+      "24",
+      "26"
+    ],
+    "correct_answer": "26",
+    "explanation": "🔖Side of the square = 24/4 = 6 feet<br/>Area of the square = 62 = 36 ft2<br/>Now, area of the rectangle = area of the square<br/>or, Length x Width = 36<br/>or, Length x 4 = 36<br/>or, Length = 36/4 = 9<br/>So, perimeter of the rectangle = 2(Length + Width) = 2(9 + 4) = 26 feet",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187918,
+    "question": "In a group of 15 high school students, 7 study Latin, 8 study French, and 3 study neither Latin nor French. How many students study both Latin and French?",
+    "options": [
+      "3",
+      "15",
+      "4"
+    ],
+    "correct_answer": "3",
+    "explanation": "🔖Number of students studying atleast one language = 15 - 3 = 12<br/>Number of students studying both language = 7 + 8 - 12 = 3",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187919,
+    "question": "If two planes leave the same airport at 1:00 PM, how many miles apart will they be at 3:00 PM if one travels directly north at 150 mph and the other travels directly west at 200 mph?",
+    "options": [
+      "50 miles",
+      "100 miles",
+      "500 miles",
+      "700 miles"
+    ],
+    "correct_answer": "500 miles",
+    "explanation": "🔖The initial position of the plane along with their final positions will make a right-angled triangle and the hypotenuse of that triangle will be the direct distance between them at 3 pm. Now, travel time from 1 pm to 3 pm is 2 hours.<br/>So, distance covered towards North = 150 x 2 = 300 miles and towards west = 200 x 2 = 400 miles.<br/>Therefore, their direct distance = (3002 + 4002)1/2 = (90000 + 160000)1/2 = 2500001/2 = 500 miles.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187920,
+    "question": "Sarah needs to make a cake and some coolies. The cake requires 3/8 cup of sugar and the coolies require 3/5 cup of sugar. Sarah has 15/16 cups of sugar. Does she have enough sugar, or how much more does she need?",
+    "options": [
+      "has enough sugar",
+      "needs 1/8 of a cup of sugar",
+      "needs 3/80 of a cup of sugar",
+      "needs 6/19 of a cup of sugar"
+    ],
+    "correct_answer": "needs 6/19 of a cup of sugar",
+    "explanation": "🔖Sugar required = 3/8 + 3/5 = (15 + 24) / 40 = 39/40 cup<br/>Shortage of sugar = 39/40 - 15/16 = (78 - 75)/80 = 3/80 cup",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187921,
+    "question": "Mr. Jaman is insured completely for Tk. 1,50,000 against damages to his machinery. For any damage over Tk. 1,50,000, the insurance company will pay Tk. 1,50,000 plus plus only 15% of the additional damage. For a recent accident, Mr. Jaman was paid Tk. 1,50,000 by the insurance company. What was the total amount of the damage estimated?",
+    "options": [
+      "Tk. 1,04,000",
+      "Tk. 90,000",
+      "Tk. 40,000",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187922,
+    "question": "Employees of a discount appliance store receive an additional 20% off of the lowest price on an item. If an employee purchases a dishwasher during a 15% off sale, how much will he pay if the dishwasher originally cost $450?",
+    "options": [
+      "$280.90",
+      "$287",
+      "$292.50",
+      "$306"
+    ],
+    "correct_answer": "$306",
+    "explanation": "🔖Price at 15% off sale = 450 - 15% of 450 = 450 - 67.5 = $382.5<br/>Price at additional 20% discount = 382.5 - 20% of 382.5 = 382.5 - 76.5 = $306",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 187923,
+    "question": "To produce an old photograph, a photographer charges x dollars to make a negative, 3x/5 dollars for each of the first 10 prints, and x/5 dollars for each print in excess of 10 prints. If 45 dollars is the total charge to make a negative and 20 prints from an old photograph, how many dollars the photographer charges to make a negative?",
+    "options": [
+      "3",
+      "3.5",
+      "4",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖According to the question,<br/>x + 10 × (3x/5) + (20-10) × x/5 = 45<br/>or, x + 6x + 2x = 45<br/>or, 9x = 45<br/>or, x = 45/9 = $5",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188209,
+    "question": "Fill in the blanks : It is necessary to be -------while dealing with mounting outstanding loans.",
+    "options": [
+      "confident",
+      "aggressive",
+      "active",
+      "prudent"
+    ],
+    "correct_answer": "prudent",
+    "explanation": "🔖Prudent- সর্তক/বিচক্ষন। It is necessary to be prudent- সর্তক থাকা প্রয়োজন- while dealing with mounting outstanding loans- অপরিশোধিত ক্রমবর্ধমান ঋণ নিয়ে কাজ সময়। আর Active- কর্মঠ; confident- আত্মবিশ্বাসী; bold- সাহসি এবং aggressive- আক্রমণাত্মক।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188210,
+    "question": "Fill in the blanks : It is hardly worth while ------invest more time -----this matter.",
+    "options": [
+      "to, at",
+      "for, to",
+      "to, on",
+      "for, on"
+    ],
+    "correct_answer": "to, on",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188211,
+    "question": "Fill in the blanks : Frankly, I find it too ------a situation for him to have berated his child like that.",
+    "options": [
+      "insignificant",
+      "grave",
+      "acute",
+      "delicate"
+    ],
+    "correct_answer": "insignificant",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188212,
+    "question": "Fill in the blanks : He -----pursued the implementation of the project.",
+    "options": [
+      "arrogantly",
+      "absolutely",
+      "doggely",
+      "instinctively"
+    ],
+    "correct_answer": "doggely",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188213,
+    "question": "Fill in the blanks : The ----option left for you is not an option at all.",
+    "options": [
+      "prime",
+      "only",
+      "first",
+      "best"
+    ],
+    "correct_answer": "only",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188214,
+    "question": "From the four quotation words or phrases in each sentence, select the one that needs correction/deletion. It is 'easier' 'said' 'then' 'done'. 'No Error'.",
+    "options": [
+      "easier",
+      "said",
+      "then",
+      "done"
+    ],
+    "correct_answer": "then",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188215,
+    "question": "From the four quotation words or phrases in each sentence, select the one that needs correction/deletion. Your progress report 'show' you 'have' 'more' thing to 'learn'. 'No Error'.",
+    "options": [
+      "show",
+      "have",
+      "more",
+      "learn"
+    ],
+    "correct_answer": "show",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188216,
+    "question": "From the four quotation words or phrases in each sentence, select the one that needs correction/deletion. Perception is 'all' 'about' 'what' you 'want to' see! 'No Error'.",
+    "options": [
+      "all",
+      "about",
+      "what",
+      "No Error"
+    ],
+    "correct_answer": "No Error",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188217,
+    "question": "From the four quotation words or phrases in each sentence, select the one that needs correction/deletion. Diversification is a 'strategy' to 'investing' in 'many' 'unrelated' businesses. 'No Error'.",
+    "options": [
+      "strategy",
+      "investing",
+      "many",
+      "unrelated"
+    ],
+    "correct_answer": "investing",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188218,
+    "question": "From the four quotation words or phrases in each sentence, select the one that needs correction/deletion. A person, authoritative 'in' nature, 'will' never settle 'for' status 'quo'. 'No Error'.",
+    "options": [
+      "in",
+      "will",
+      "for",
+      "No Error"
+    ],
+    "correct_answer": "No Error",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188219,
+    "question": "Her brother, along with her parents, 'insist' that she remains in school.",
+    "options": [
+      "are insisting",
+      "were insisting",
+      "insists",
+      "he thought who"
+    ],
+    "correct_answer": "insists",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188220,
+    "question": "He interviewed several candidates, 'who he thought' had the experience and qualifications the position required.",
+    "options": [
+      "whom he thought",
+      "of whom he thought",
+      "which he thought",
+      "none of these"
+    ],
+    "correct_answer": "none of these",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188221,
+    "question": "'Using it wisely' leisure promotes health, efficiency and happiness.",
+    "options": [
+      "Because of usefulness",
+      "Having used it wisely",
+      "If used wisely",
+      "Because it is used wisely"
+    ],
+    "correct_answer": "If used wisely",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188223,
+    "question": "The principal reason for our failure was quite apparent 'to those whom' we had brought into the venture.",
+    "options": [
+      "to them who",
+      "to them whom",
+      "to those who",
+      "to the ones who"
+    ],
+    "correct_answer": "to them whom",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188224,
+    "question": "Writing a beautiful sonnet is as much an achievement as 'to finish' a 400 page novel.",
+    "options": [
+      "it is to finish",
+      "finishing",
+      "if to finish",
+      "to have finished"
+    ],
+    "correct_answer": "finishing",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188225,
+    "question": "Select the word that is synonymous to the quotation word or phrase in each sentence. He has a natural 'aversion' toward duplicity.",
+    "options": [
+      "affinity",
+      "attraction",
+      "distaste",
+      "tendency"
+    ],
+    "correct_answer": "distaste",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188226,
+    "question": "Select the word that is synonymous to the quotation word or phrase in each sentence. The doctors are 'baffled' why the patient is taking so long to recuperate.",
+    "options": [
+      "confused",
+      "worried",
+      "shocked",
+      "stunned"
+    ],
+    "correct_answer": "stunned",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188227,
+    "question": "Select the word that is synonymous to the quotation word or phrase in each sentence. It is in his nature to 'belittle' his opponents when faced with criticism.",
+    "options": [
+      "avoid",
+      "demean",
+      "annoy",
+      "stop"
+    ],
+    "correct_answer": "demean",
+    "explanation": "<p>Belittle: treat someone or something as unimportant.</p><br/><p><span style=\"font-size: 1rem;\">Demean: to cause someone to become less respected.</span></p><br/><p><span style=\"font-size: 1rem;\">Synonym of belittle:</span><span style=\"font-size: 1rem;\">decry, depreciate, and disparage</span></p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188228,
+    "question": "Select the word that is synonymous to the quotation word or phrase in each sentence. 'Assertive' people are generally more decisive.",
+    "options": [
+      "Docile",
+      "Articulate",
+      "Confident",
+      "Intelligent"
+    ],
+    "correct_answer": "Confident",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188229,
+    "question": "Select the word that is synonymous to the quotation word or phrase in each sentence. The reduced 'commuting' time was an additional perk that came with came with his new job.",
+    "options": [
+      "communicating",
+      "traveling",
+      "working",
+      "supervising"
+    ],
+    "correct_answer": "traveling",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188230,
+    "question": "Select an option that best expresses a relationship similar to that expressed in the original pair. HEAT : CALORIES",
+    "options": [
+      "exercise : energy",
+      "liquid : gallons",
+      "steam : force",
+      "lamp : watts"
+    ],
+    "correct_answer": "liquid : gallons",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188231,
+    "question": "Select an option that best expresses a relationship similar to that expressed in the original pair. TEACHER : CERTIFICATION",
+    "options": [
+      "driver : license",
+      "librarian : book",
+      "mechanic : tool",
+      "architect : blueprint"
+    ],
+    "correct_answer": "driver : license",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188232,
+    "question": "Select an option that best expresses a relationship similar to that expressed in the original pair. SUPERIMPOSE : ABOVE",
+    "options": [
+      "focus : inside",
+      "insert : between",
+      "permeate : beside",
+      "fuse : behind"
+    ],
+    "correct_answer": "insert : between",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188233,
+    "question": "Select an option that best expresses a relationship similar to that expressed in the original pair. LAZY : INDOLENT",
+    "options": [
+      "introvert : sociable",
+      "work : toil",
+      "novice : veteran",
+      "stubborn : obstinate"
+    ],
+    "correct_answer": "stubborn : obstinate",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188234,
+    "question": "Select an option that best expresses a relationship similar to that expressed in the original pair. FLOCK : BIRDS",
+    "options": [
+      "pool : water",
+      "school : fish",
+      "stray : dogs",
+      "pack : cats"
+    ],
+    "correct_answer": "school : fish",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188235,
+    "question": "Identifying correct sentence : SET 1",
+    "options": [
+      "It is further from here.",
+      "It is still further from here.",
+      "What you say is far from the truth",
+      "It is far from here."
+    ],
+    "correct_answer": "It is far from here.",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188236,
+    "question": "Identifying correct sentence : SET 2",
+    "options": [
+      "Beside being clever, she is very perceptive.",
+      "Besides being clever, she is very perceptive.",
+      "Beside being clever, she is also perceptive",
+      "Aside being clever, she is very perceptive."
+    ],
+    "correct_answer": "Besides being clever, she is very perceptive.",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188237,
+    "question": "Identifying correct sentence : SET 3",
+    "options": [
+      "It is neither true nor valid",
+      "It is not true and nor valid",
+      "It is nor true and definitely not valid",
+      "It is neither true or valid"
+    ],
+    "correct_answer": "It is neither true nor valid",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188238,
+    "question": "Identifying correct sentence : SET 4",
+    "options": [
+      "You have achieve much more than expected.",
+      "You achieved much more then expected.",
+      "You have achieved too much more than what we expected.",
+      "You have achieved more than what we expected."
+    ],
+    "correct_answer": "You have achieved more than what we expected.",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188239,
+    "question": "Identifying correct sentence : SET 5",
+    "options": [
+      "Actions speak louder than words.",
+      "Action speak louder than words.",
+      "The actions speak much louder than words.",
+      "An action speak louder than words."
+    ],
+    "correct_answer": "Actions speak louder than words.",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188274,
+    "question": "The country which ranks second in terms of land area is :",
+    "options": [
+      "China",
+      "Canada",
+      "Russia",
+      "USA"
+    ],
+    "correct_answer": "Canada",
+    "explanation": "🔖Canada is a country in the northern part of North America.<br/>Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area.<br/>Its southern and western border with the United States, stretching 8,891 kilometres (5,525 mi), is the world's longest bi-national land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188275,
+    "question": "The Japanese call their country :",
+    "options": [
+      "Nipun",
+      "Osaka",
+      "Nippon",
+      "Toyta"
+    ],
+    "correct_answer": "Nippon",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188276,
+    "question": "Where is the Mazar of Hazrat Ali (R) located?",
+    "options": [
+      "UAE",
+      "Saudi Arabia",
+      "Moscow",
+      "Iraq"
+    ],
+    "correct_answer": "Iraq",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188277,
+    "question": "The permanent secretariat of the SAARC is located at :",
+    "options": [
+      "Kathmandu",
+      "Colombo",
+      "New Delhi",
+      "Dhaka"
+    ],
+    "correct_answer": "Kathmandu",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188278,
+    "question": "What is the percentage of the value of gold or property a person has to pay when he/she is entitled to pay Zakat?",
+    "options": [
+      "1%",
+      "5%",
+      "2%",
+      "2.5%"
+    ],
+    "correct_answer": "2.5%",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188279,
+    "question": "Who developed the small opx vaccination?",
+    "options": [
+      "Eduard Jenner",
+      "Alexander Fleming",
+      "Albert Einstein",
+      "Isaac Newton"
+    ],
+    "correct_answer": "Eduard Jenner",
+    "explanation": "🔖The smallpox vaccine, introduced by Edward Jenner in 1796, was the first successful vaccine to be developed.<br/>He observed that milkmaids who previously had caught cowpox did not catch smallpox and showed that inoculated vaccinia protected against inoculated variola virus.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188280,
+    "question": "The country known as the Land of the Rising Sun is :",
+    "options": [
+      "Singapore",
+      "Hong Kong",
+      "Japan",
+      "Bangladesh"
+    ],
+    "correct_answer": "Japan",
+    "explanation": "🔖Land of the Rising Sun is a popular Western name for Japan.<br/>Land of the Rising Sun may also refer to: \"Land of the Rising Sun\" (national anthem), of the secessionist African state of Biafra.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188281,
+    "question": "Name of the first Mu-Azzin in Islam was :",
+    "options": [
+      "Hazrat Imam Bukhari (R)",
+      "Hazrat Bellal (R)",
+      "Hazrat Ali (R)",
+      "Hazrat Hasan (R)"
+    ],
+    "correct_answer": "Hazrat Bellal (R)",
+    "explanation": "🔖The institution of the muezzin has existed since the time of Muhammad.<br/>The first muezzin was a former slave Bilal ibn Rabah, one of the most trusted and loyal Sahabah (companions) of the Islamic prophet Muhammad.<br/>He was born in Mecca and is considered to have been the first mu'azzin, chosen by Muhammad himself.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188282,
+    "question": "The largest ocean of the world is the :",
+    "options": [
+      "Atlantic",
+      "Pacific",
+      "Indian",
+      "Gulf"
+    ],
+    "correct_answer": "Pacific",
+    "explanation": "🔖The Pacific Ocean is the largest and deepest of the world ocean basins.<br/>Covering approximately 63 million square miles and containing more than half of the free water on Earth, the Pacific is by far the largest of the world's ocean basins.<br/>All of the world's continents could fit into the Pacific basin.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188283,
+    "question": "The Industrial Revolution started in :",
+    "options": [
+      "England",
+      "Germany",
+      "USA",
+      "Italy"
+    ],
+    "correct_answer": "England",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188284,
+    "question": "The country famous for Samba dance is :",
+    "options": [
+      "Brazil",
+      "Argentina",
+      "Peru",
+      "Bolivia"
+    ],
+    "correct_answer": "Brazil",
+    "explanation": "It is recognized around the world as a symbol of Brazil and the Brazilian Carnival. Considered one of the most popular Brazilian cultural expressions, samba has become an icon of Brazilian national identity.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188285,
+    "question": "The Holy Quran has ------chapters (paras).",
+    "options": [
+      "29",
+      "30",
+      "19",
+      "77"
+    ],
+    "correct_answer": "30",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188286,
+    "question": "The earlier name of Sri Lanka was :",
+    "options": [
+      "Tamilnadu",
+      "Ceylon",
+      "Sin Hua",
+      "Jafna"
+    ],
+    "correct_answer": "Ceylon",
+    "explanation": "🔖Ancient Greek geographers called it Taprobane.<br/>Arabs referred to it as Serendib. Later European mapmakers called it Ceylon, a name still used occasionally for trade purposes.<br/>It officially became Sri Lanka in 1972.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188287,
+    "question": "The American General who led the revolt against the British & declared American independence was :",
+    "options": [
+      "Colin Powel",
+      "George Washington",
+      "Bill Clinton",
+      "George Bush"
+    ],
+    "correct_answer": "George Washington",
+    "explanation": "🔖The American General who led the revolt against the British and declared American independence was George Washington.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188288,
+    "question": "Eskimos hunt using a dog-driven vehicle called :",
+    "options": [
+      "Cart",
+      "Bus",
+      "Sledge",
+      "Snow Cart"
+    ],
+    "correct_answer": "Sledge",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188289,
+    "question": "In Muslim Law, a daughter gets what percentage of the parent's property compared to that of a son?",
+    "options": [
+      "20%",
+      "50%",
+      "30%",
+      "23%"
+    ],
+    "correct_answer": "50%",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188290,
+    "question": "Karakas is the capital city of :",
+    "options": [
+      "Venezuela",
+      "Czechoslovakia",
+      "Honduras",
+      "Lithuania"
+    ],
+    "correct_answer": "Venezuela",
+    "explanation": "✐ 🔖ঘড়ির সময়ের পূর্বে by বসে। এই সূত্র অনুসারে a সঠিক",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188291,
+    "question": "What Invention brought Alfred Nobel fame and fortune?",
+    "options": [
+      "Electricity",
+      "Radio",
+      "Television",
+      "Dynamite"
+    ],
+    "correct_answer": "Dynamite",
+    "explanation": "✐ 🔖অতীতে সংঘটিত দুটি ঘটনার মধ্যে যে ঘটনাটি পূর্বে ঘটে তার past perfect tense হয়। এ নিয়মানুসারে সঠিক উত্তর হলো option (b).",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188292,
+    "question": "Which of these is not a primary color?",
+    "options": [
+      "Pruple",
+      "Blue",
+      "Yellow",
+      "Red"
+    ],
+    "correct_answer": "Pruple",
+    "explanation": "🔖The colours which cannot be obtained by mixing of two or more colours are called primary colours.<br/>Red, yellow and blue are primary colours.<br/>Hence, Green is not a primary colour.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188293,
+    "question": "The largest coffee growing country in the world is :",
+    "options": [
+      "China",
+      "India",
+      "Brazil",
+      "South Africa"
+    ],
+    "correct_answer": "Brazil",
+    "explanation": "🔖Brazil, the top coffee producing country, accounted for 40 percent of the global coffee supply.<br/>Vietnam, was the second largest coffee producer, accounting for roughly 20 percent of the world coffee production. The coffee trade is one of Brazil's most prolific industries.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188294,
+    "question": "The country known as the land of the midnight sun is :",
+    "options": [
+      "Switzerland",
+      "Romania",
+      "Norway",
+      "Sweden"
+    ],
+    "correct_answer": "Norway",
+    "explanation": "🔖The midnight sun is a natural phenomenon that occurs during the summer in places south of the Antarctic Circle and north of the Arctic Circle – including Northern Norway.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 188295,
+    "question": "In Islamic Banking the customers are considered as -----and thus entitled to profit sharing.",
+    "options": [
+      "partners",
+      "employees",
+      "creditors",
+      "outsiders"
+    ],
+    "correct_answer": "partners",
+    "explanation": "🔖Profit and Loss Sharing (also called PLS or \"participatory\" banking is a method of finance used by Islamic financial or Shariah-compliant institutions to comply with the religious prohibition on interest on loans that most Muslims subscribe to.<br/>Many sources state there are two varieties of profit and loss sharing used by Islamic banks – Mudarabah (\"trustee finance\" or passive partnership contract) and Musharakah (equity participation contract).",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 204193,
+    "question": "If two sides of the triangle below have lengths 5 and 6, the perimeter of the triangle could be which of following? I.11 II. 15 III. 24",
+    "options": [
+      "II and III only",
+      "III only",
+      "I only",
+      "II only"
+    ],
+    "correct_answer": "II only",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  },
+  {
+    "id": 204194,
+    "question": "Two cyclists start biking from a trail start 3 hours apart. The second cyclist travels at 10 miles per hour and starts 3 hours after the first cyclist who is traveling at 6 miles per hour. How much time will pass before the second cyclist catches up with the first from the time the second cyclist started biking?",
+    "options": [
+      "None of these",
+      "6 hours",
+      "\\( 5\\frac{3}{4} \\) hours",
+      "\\( 4\\frac{1}{2} \\) hours"
+    ],
+    "correct_answer": "\\( 4\\frac{1}{2} \\) hours",
+    "explanation": "",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "First Security Islami Bank Ltd",
+    "exam": "09@First Security Islami Bank Ltd - Probationary Officer - 17.07.09"
+  }
+]

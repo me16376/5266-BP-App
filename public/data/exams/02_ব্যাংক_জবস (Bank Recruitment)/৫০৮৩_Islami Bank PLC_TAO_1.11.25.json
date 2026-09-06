@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 332143,
+    "question": "ক একটি কাজ ২৫ দিনে করে। খ, ক এর চাইতে ২৫% বেশী কর্মক্ষম। তাহলে খ কাজটি কত দিনে করতে পারবে?",
+    "options": [
+      "২০ দিনে",
+      "১৮.৭৫ দিনের",
+      "২২ দিনে",
+      "১৫ দিনে"
+    ],
+    "correct_answer": "২০ দিনে",
+    "explanation": "📖 ধরি, ক এর কর্মক্ষমতা = ১০০ একক।<br/>যেহেতু খ, ক এর চাইতে ২৫% বেশী কর্মক্ষম, তাই খ এর কর্মক্ষমতা = ১০০ + ২৫ = ১২৫ একক।<br/>ক ও খ এর কর্মক্ষমতার অনুপাত = ১০০ : ১২৫ = ৪ : ৫।<br/>আমরা জানি, কাজ করার জন্য প্রয়োজনীয় সময় কর্মক্ষমতার ব্যস্তানুপাতিক।<br/>সুতরাং, ক ও খ এর প্রয়োজনীয় সময়ের অনুপাত হবে ৫ : ৪।<br/>প্রশ্নমতে, ক এর সময় লাগে ২৫ দিন, অর্থাৎ ৫ অনুপাত = ২৫ দিন।<br/>তাহলে, ১ অনুপাত = ২৫ / ৫ = ৫ দিন।<br/>সুতরাং, খ এর প্রয়োজনীয় সময় (৪ অনুপাত) = ৪ × ৫ = ২০ দিন।<br/>অতএব, খ কাজটি ২০ দিনে করতে পারবে।<br/> ⇢ <br/>📚 ধাপ-১: মোট কাজের পরিমাণ নির্ণয়।<br/>ধরি, ক প্রতিদিন ৪ একক কাজ করে।<br/>তাহলে মোট কাজ = ক এর প্রতিদিনের কাজ × মোট দিন = ৪ × ২৫ = ১০০ একক।<br/>ধাপ-২: খ এর কর্মক্ষমতা নির্ণয়।<br/>খ, ক এর চেয়ে ২৫% বেশি কর্মক্ষম।<br/>সুতরাং, খ প্রতিদিন কাজ করে = ৪ + (৪ এর ২৫%) = ৪ + ১ = ৫ একক।<br/>ধাপ-৩: খ এর প্রয়োজনীয় সময় নির্ণয়।<br/>খ এর কাজটি করতে সময় লাগবে = মোট কাজ / খ এর প্রতিদিনের কাজ = ১০০ / ৫ = ২০ দিন। <br/> ⇢ <br/>📚 ক 25 দিনে করে = 1 টি কাজ<br/>.. খ 25 দিনে করে = (1 + 1 এর 25%) অংশ কাজ<br/>= (1 + 1/4) = 5/4 অংশ কাজ<br/>অর্থাৎ খ কাজটির 5/4 অংশ করে 25 দিনে<br/>.. খ 1 বা সম্পূর্ণ অংশ কাজ করে = (25 x 4) / 5 = 20 দিনে<br/>Shortcut: Time taken by খ : ক = 100 : 125<br/>⇒ খ / 25 = 100 / 125 [কারণ, ক = 25 day]<br/>.. খ = 20 days",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332144,
+    "question": "বার্ষিক পরীক্ষায় একটি শ্রেনির ৮০% শিক্ষার্থী ইংরেজীতে পাশ করে, ৮৫% শিক্ষার্থী গণিতে পাশ করে এবং ৭৫% শিক্ষার্থী উভয় বিষয়ে পাশ করে। যদি মোট ৪০ জন উভয় বিষয়ে ফেল করে থাকে, তা হলে ঐ শ্রেণিতে মোট শিক্ষার্থীর সংখ্যা কত?",
+    "options": [
+      "৫০০ জন",
+      "৪৫০ জন",
+      "৪০০ জন",
+      "৪২০ জন"
+    ],
+    "correct_answer": "৪০০ জন",
+    "explanation": "📖 শুধু ইংরেজিতে পাশ করে = (৮০ - ৭৫)% = ৫%।<br/>শুধু গণিতে পাশ করে = (৮৫ - ৭৫)% = ১০%।<br/>উভয় বিষয়ে পাশ করে = ৭৫%।<br/>সুতরাং, অন্তত একটি বিষয়ে পাশ করা শিক্ষার্থীর হার = (৫ + ১০ + ৭৫)% = ৯০%।<br/>তাহলে, উভয় বিষয়ে ফেল করা শিক্ষার্থীর হার = (১০০ - ৯০)% = ১০%।<br/>প্রশ্নমতে, এই ১০% শিক্ষার্থীর সংখ্যা হলো ৪০ জন।<br/>১০% = ৪০ জন<br/>১% = ৪০ / ১০ = ৪ জন<br/>১০০% (মোট শিক্ষার্থী) = ৪ × ১০০ = ৪০০ জন।<br/>অতএব, ঐ শ্রেণিতে মোট শিক্ষার্থীর সংখ্যা ৪০০ জন।<br/> ⇢ <br/>📚 সেট তত্ত্বের সূত্রানুযায়ী,<br/>মোট পাশ করা শিক্ষার্থীর হার = (ইংরেজিতে পাশের হার) + (গণিতে পাশের হার) - (উভয় বিষয়ে পাশের হার)<br/>= (৮০% + ৮৫% - ৭৫%)<br/>= (১৬৫% - ৭৫%) = ৯০%।<br/>এই ৯০% শিক্ষার্থী অন্তত একটি বিষয়ে পাশ করেছে।<br/>সুতরাং, উভয় বিষয়ে ফেল করা শিক্ষার্থীর হার = (১০০ - ৯০)% = ১০%।<br/>প্রশ্নমতে, ১০% শিক্ষার্থী = ৪০ জন।<br/>তাহলে, ১০০% শিক্ষার্থী (মোট) = (৪০/১০) × ১০০ = ৪০০ জন।<br/> ⇢ <br/>📚 দেয়া আছে, ইংরেজিতে পাশ করে 80% ও গণিতে পাশ করে 85%<br/>.. মোট পাশ করে = (80 + 85)% - 75% = 90%<br/>এবং ফেল করে = (100 - 90)% = 10%<br/>10% এ ছাত্রছাত্রী = 40 জন<br/>.. 100% এ ছাত্রছাত্রী = (40 × 100) / 10 = 400 জন",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332145,
+    "question": "২২০ মিটার দীর্ঘ একটি ট্রেনের গতি ঘন্টায় ৫৯ কিলোমিটার। ট্রেনটির বিপরীত দিক থেকে ঘন্টায় ৭ কিলোমিটার গতিতে আসা এক ব্যক্তিকে অতিক্রম করতে উহার কত সময় লাগবে?",
+    "options": [
+      "১২ সেকেন্ড",
+      "১৫ সেকেন্ড",
+      "১৮ সেকেন্ড",
+      "২০ সেকেন্ড"
+    ],
+    "correct_answer": "১২ সেকেন্ড",
+    "explanation": "📖 ট্রেন ও ব্যক্তি বিপরীত দিক থেকে আসায় তাদের আপেক্ষিক গতিবেগ হবে গতিবেগদ্বয়ের যোগফলের সমান।<br/>আপেক্ষিক গতিবেগ = (৫৯ + ৭) কিমি/ঘন্টা = ৬৬ কিমি/ঘন্টা।<br/>আমরা জানি, ১ কিমি/ঘন্টা = ৫/১৮ মিটার/সেকেন্ড।<br/>সুতরাং, ৬৬ কিমি/ঘন্টা = ৬৬ × (৫/১৮) মিটার/সেকেন্ড = ৫৫/৩ মিটার/সেকেন্ড।<br/>ব্যক্তিকে অতিক্রম করতে ট্রেনটিকে তার নিজের দৈর্ঘ্য (২২০ মিটার) অতিক্রম করতে হবে।<br/>প্রয়োজনীয় সময় = দূরত্ব / আপেক্ষিক গতিবেগ<br/>= ২২০ / (৫৫/৩) সেকেন্ড<br/>= (২২০ × ৩) / ৫৫ সেকেন্ড<br/>= ৪ × ৩ সেকেন্ড<br/>= ১২ সেকেন্ড।<br/> ⇢ <br/>📚 ধাপ-১: আপেক্ষিক গতিবেগ নির্ণয় (কিমি/ঘন্টায়)।<br/>বিপরীত দিক হওয়ায় গতিবেগ যোগ হবে।<br/>আপেক্ষিক গতিবেগ = (৫৯ + ৭) = ৬৬ কিমি/ঘন্টা।<br/>ধাপ-২: গতিবেগকে মিটার/সেকেন্ডে রূপান্তর।<br/>গতিবেগ (মি/সে) = ৬৬ × (১০০০ মিটার / ৩৬০০ সেকেন্ড) = ৬৬ × (৫/১৮) = ৫৫/৩ মি/সে।<br/>ধাপ-৩: সময় নির্ণয়।<br/>কোনো ব্যক্তিকে অতিক্রম করতে ট্রেনকে নিজের দৈর্ঘ্য সমান পথ যেতে হয়।<br/>সময় = দূরত্ব / গতিবেগ = ২২০ মিটার / (৫৫/৩ মি/সে) = (২২০ × ৩) / ৫৫ = ১২ সেকেন্ড।<br/> ⇢ <br/>📚 ট্রেনটির আপেক্ষিক গতিবেগ = 59 + 7 = 66 কিমি<br/>যেহেতু ট্রেন ও ব্যক্তি পরস্পর বিপরীতমুখী, তাই<br/>ব্যক্তিকে অতিক্রমের সময়, t = (d₁ + d₂) / (v₁ + v₂)<br/>এখানে, d₁ = ট্রেনের দৈর্ঘ্য; d₂ = ব্যক্তির দৈর্ঘ্য;<br/>v₁ = ট্রেনের গতিবেগ; v₁ = ব্যক্তির গতিবেগ; t = ?<br/>t = (220+0) / ((59 + 7) x 5/18) = 220 / (66 x 5/18) = 220 / (55/3)<br/>.. t = 220 x (3/55) = 12 সেকেন্ড",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332146,
+    "question": "২টি শাড়ী ও ৪ টি শার্ট এর মূল্য ১৬০০ টাকা। সমপরিমাণ টাকা দিয়ে কোন ব্যক্তি ১ টি শাড়ী ও ৬ টি শার্ট ক্রয় করতে পারে। যদি কোন ব্যক্তি ১২ টি শার্ট কিনতে চায়, তাহলে তাকে কত ব্যয় করতে হবে?",
+    "options": [
+      "১২০০",
+      "৪৮০০",
+      "৩৬০০",
+      "২৪০০"
+    ],
+    "correct_answer": "২৪০০",
+    "explanation": "📖 ধরি, ১টি শাড়ীর মূল্য = x টাকা এবং ১টি শার্টের মূল্য = y টাকা।<br/>প্রথম শর্তানুযায়ী, 2x + 4y = 1600 ---(i)<br/>দ্বিতীয় শর্তানুযায়ী, x + 6y = 1600 ---(ii)<br/>সমীকরণ (ii) থেকে পাই, x = 1600 - 6y<br/>x এর এই মান সমীকরণ (i) এ বসিয়ে পাই,<br/>2(1600 - 6y) + 4y = 1600<br/>=> 3200 - 12y + 4y = 1600<br/>=> 3200 - 8y = 1600<br/>=> 8y = 3200 - 1600<br/>=> 8y = 1600<br/>=> y = 200<br/>সুতরাং, ১টি শার্টের মূল্য ২০০ টাকা।<br/>অতএব, ১২টি শার্টের মূল্য = ১২ × ২০০ = ২৪০০ টাকা।<br/> ⇢ <br/>📚 অপনয়ন পদ্ধতিতে সমাধান:<br/>দেওয়া আছে,<br/>2x + 4y = 1600 ---(i)<br/>x + 6y = 1600 ---(ii)<br/>সমীকরণ (ii) কে ২ দ্বারা গুণ করে পাই,<br/>2x + 12y = 3200 ---(iii)<br/>এখন, সমীকরণ (iii) থেকে সমীকরণ (i) বিয়োগ করে পাই,<br/>(2x + 12y) - (2x + 4y) = 3200 - 1600<br/>=> 8y = 1600<br/>=> y = ২০০<br/>সুতরাং, ১টি শার্টের মূল্য ২০০ টাকা।<br/>অতএব, ১২টি শার্টের মূল্য = ১২ × ২০০ = ২৪০০ টাকা।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332147,
+    "question": "একটি আয়তক্ষেত্রের প্রন্থ অপেক্ষা দৈর্ঘ্য ৪ মিটার বেশী। এর ক্ষেত্রফল ১৯২ বর্গমিটার হলে পরিসীমা কত মিটার?",
+    "options": [
+      "৫২",
+      "৫৬",
+      "৫০",
+      "৬৫"
+    ],
+    "correct_answer": "৫৬",
+    "explanation": "📖 ধরি, আয়তক্ষেত্রটির প্রস্থ = x মিটার।<br/>তাহলে, দৈর্ঘ্য = (x + ৪) মিটার।<br/>আমরা জানি, আয়তক্ষেত্রের ক্ষেত্রফল = দৈর্ঘ্য × প্রস্থ।<br/>প্রশ্নমতে, x(x + ৪) = ১৯২<br/>=> x² + 4x - 192 = 0<br/>=> x² + 16x - 12x - 192 = 0<br/>=> x(x + 16) - 12(x + 16) = 0<br/>=> (x + 16)(x - 12) = 0<br/>যেহেতু প্রস্থ ঋণাত্মক হতে পারে না, তাই x = 12।<br/>সুতরাং, প্রস্থ = ১২ মিটার এবং দৈর্ঘ্য = ১২ + ৪ = ১৬ মিটার।<br/>আয়তক্ষেত্রটির পরিসীমা = ২ × (দৈর্ঘ্য + প্রস্থ)<br/>= ২ × (১৬ + ১২) মিটার<br/>= ২ × ২৮ মিটার<br/>= ৫৬ মিটার।<br/> ⇢ <br/>📚 বিকল্প পদ্ধতি (উৎপাদকের সাহায্যে):<br/>ক্ষেত্রফল = ১৯২। আমাদের এমন দুটি সংখ্যা বের করতে হবে যাদের গুণফল ১৯২ এবং পার্থক্য ৪।<br/>১৯২ এর উৎপাদকগুলো হলো: (১, ১৯২), (২, ৯৬), (৩, ৬৪), (৪, ৪৮), (৬, ৩২), (৮, ২৪), (১২, ১৬)।<br/>এখানে শুধুমাত্র (১২, ১৬) জোড়ার পার্থক্য ৪ (১৬ - ১২ = ৪)।<br/>সুতরাং, প্রস্থ = ১২ মিটার এবং দৈর্ঘ্য = ১৬ মিটার।<br/>পরিসীমা = ২ × (দৈর্ঘ্য + প্রস্থ)<br/>= ২ × (১৬ + ১২)<br/>= ২ × ২৮<br/>= ৫৬ মিটার।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332148,
+    "question": "চিনির মূল্য শতকরা ২৫ টাকা বেড়ে গেলে, চিনির ব্যবহার শতকরা কী পরিমাণ কমালে খরচের কোন পরিবর্তন হবে না?",
+    "options": [
+      "২০%",
+      "২৫%",
+      "১৮%",
+      "১২%"
+    ],
+    "correct_answer": "২০%",
+    "explanation": "📖 ধরি, পূর্বে চিনির মূল্য ছিল ১০০ টাকা।<br/>২৫% মূল্য বৃদ্ধিতে বর্তমান মূল্য = ১০০ + ২৫ = ১২৫ টাকা।<br/>খরচ অপরিবর্তিত রাখতে হলে, বর্তমানে ১২৫ টাকায় যে চিনি পাওয়া যায়, পূর্বে তা ১০০ টাকায় পাওয়া যেত।<br/>অর্থাৎ, ১২৫ টাকায় ব্যবহার কমাতে হবে (১২৫ - ১০০) = ২৫ টাকার চিনি।<br/>সুতরাং, ব্যবহার কমানোর হার = (কমাতে হবে / বর্তমান মূল্য) × ১০০%<br/>= (২৫ / ১২৫) × ১০০%<br/>= (১ / ৫) × ১০০%<br/>= ২০%।<br/>অতএব, চিনির ব্যবহার ২০% কমাতে হবে।<br/> ⇢ <br/>📚 এই ধরনের সমস্যার জন্য একটি সহজ সূত্র ব্যবহার করা যায়:<br/>ব্যবহার কমানোর হার = [ r / (100 + r) ] × 100%<br/>এখানে, মূল্য বৃদ্ধির হার r = ২৫।<br/>মান বসিয়ে পাই,<br/>= [ ২৫ / (১০০ + ২৫) ] × ১০০%<br/>= (২৫ / ১২৫) × ১০০%<br/>= (১/৫) × ১০০%<br/>= ২০%।<br/> ⇢ <br/>📚 25% বৃদ্ধিতে, পূর্বমূল্য 100 টাকা হলে বর্তমান মূল্য = 125 টাকা<br/>125 টাকায় কমাতে হয় = 25 টাকা<br/>... 100 টাকায় কমাতে হয় = (25 x 100) / 125 = 20 টাকা।<br/>Shortcut: (100 x 25) / (100+25) = 20%",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332149,
+    "question": "১০ একরে কত বর্গগজ?",
+    "options": [
+      "৪৪৮৪০",
+      "৪৮০",
+      "৪৮৪০০",
+      "৪৮৪"
+    ],
+    "correct_answer": "৪৮৪০০",
+    "explanation": "📖 আমরা জানি, ১ একর = ৪৮৪০ বর্গগজ।<br/>সুতরাং, ১০ একর = ১০ × ৪৮৪০ বর্গগজ।<br/>= ৪৮৪০০ বর্গগজ।<br/>অতএব, সঠিক উত্তর ৪৮৪০০।<br/> ⇢ <br/>📚 ভূমি পরিমাপের একক অনুযায়ী,<br/>১ একর = ১০০ শতক<br/>এবং ১ শতক = ৪৮.৪ বর্গগজ<br/>সুতরাং, ১ একর = ১০০ × ৪৮.৪ = ৪৮৪০ বর্গগজ।<br/>অতএব, ১০ একর = ১০ × ৪৮৪০ = ৪৮৪০০ বর্গগজ।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332150,
+    "question": "Verb of 'Master' is-",
+    "options": [
+      "Mister",
+      "Mistress",
+      "Mastery",
+      "Master"
+    ],
+    "correct_answer": "Master",
+    "explanation": "📖 'Master' শব্দটি Noun এবং Verb উভয় রূপেই ব্যবহৃত হতে পারে।<br/>❏ Noun হিসেবে 'Master' অর্থ প্রভু, গুরু বা বিশেষজ্ঞ।<br/>❏ Verb হিসেবে 'Master' অর্থ কোনো কিছুতে দক্ষতা অর্জন করা বা আয়ত্ত করা (to gain expertise in something)। যেমন: \"He wants to master the English language.\"<br/>❏ Mastery হলো Noun (অর্থ: দক্ষতা)। Mister ও Mistress হলো Noun।<br/>❏ সুতরাং, 'Master' শব্দটির Verb form হলো 'Master' নিজেই।<br/> ⇢ <br/>📚 ইংরেজিতে এই প্রক্রিয়াটিকে \"Conversion\" বা \"Zero Derivation\" বলা হয়, যেখানে কোনো প্রত্যয় (suffix) যোগ না করেই একটি শব্দ তার পদ পরিবর্তন করে (যেমন Noun থেকে Verb)। 'Master' শব্দটি এর একটি উৎকৃষ্ট উদাহরণ। Noun (প্রভু) থেকে Verb (দক্ষতা অর্জন করা) হিসেবে ব্যবহৃত হয়। অন্যান্য উদাহরণ: 'email' (noun) থেকে 'to email' (verb), 'google' (noun) থেকে 'to google' (verb)।<br/> ⇢ <br/>📚 Master অর্থ আয়ত্ত্ব করা। কিন্তু, Mister অর্থ জনাব আর এটি হলো Noun. Mistress অর্থ শিক্ষিকা; শিক্ষায়ত্রী যা একটি Noun. Mastery অর্থ ওস্তাদি যা একটি Noun.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332151,
+    "question": "I suggested that he  ……… take legal advice.",
+    "options": [
+      "will",
+      "must",
+      "should",
+      "can"
+    ],
+    "correct_answer": "should",
+    "explanation": "📖 Suggest, recommend, insist, demand, propose ইত্যাদি verb-এর পরে 'that' clause থাকলে, সেখানে subjunctive mood ব্যবহৃত হয়। এই ক্ষেত্রে, subject-এর পরে modal verb 'should' বসে অথবা 'should' উহ্য রেখে verb-এর base form বসে। যেমন: I suggested that he (should) take legal advice. প্রদত্ত অপশনগুলোর মধ্যে 'should' থাকায় এটিই সঠিক উত্তর।<br/> ⇢ <br/>📚 এই বাক্যটি Subjunctive Mood-এর একটি উদাহরণ। Suggest, advise, demand, require, recommend ইত্যাদি verb এর পর 'that' clause এ subject যেই হোক না কেন, verb এর base form বসে অথবা 'should' + verb এর base form বসে। আমেরিকান ইংরেজিতে verb-এর base form (take) বেশি প্রচলিত, আর ব্রিটিশ ইংরেজিতে 'should take' বেশি প্রচলিত। যেহেতু অপশনে 'should' আছে, এটিই সবচেয়ে উপযুক্ত উত্তর।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332152,
+    "question": "Which one of the following is an adverb-",
+    "options": [
+      "Somebody",
+      "Something",
+      "Someone",
+      "Sometime"
+    ],
+    "correct_answer": "Sometime",
+    "explanation": "📖 Option Analysis:<br/>❏ Somebody, Something, Someone: এই তিনটিই Indefinite Pronoun (অনির্দিষ্ট সর্বনাম), যা কোনো ব্যক্তি বা বস্তুকে অনির্দিষ্টভাবে বোঝাতে ব্যবহৃত হয়।<br/>❏ Sometime: এটি একটি Adverb of time (সময়বাচক ক্রিয়া বিশেষণ), যার অর্থ 'কখনো' বা 'কোনো এক সময়ে'। যেমন: \"Let's meet sometime next week.\"<br/>❏ সুতরাং, প্রদত্ত অপশনগুলোর মধ্যে 'Sometime' হলো adverb।<br/> ⇢ <br/>📚 এখানে sometime, sometimes এবং some time এর মধ্যে পার্থক্য বোঝা জরুরি।<br/>❏ Sometime (Adverb): কোনো এক অনির্দিষ্ট সময়ে। (e.g., We should talk sometime.)<br/>❏ Sometimes (Adverb): মাঝে মাঝে। (e.g., Sometimes he feels sad.)<br/>❏ Some time (Noun Phrase): কিছু সময়। (e.g., I need some time.)<br/>❏ প্রদত্ত অপশনগুলোর মধ্যে Sometime একটি Adverb। বাকিগুলো (Somebody, Someone, Something) Indefinite Pronoun।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332153,
+    "question": "Choose the correct sentence",
+    "options": [
+      "He acted in a cowardly manner",
+      "He acted coward manner",
+      "He acted in cowardly",
+      "He acted in coward manner"
+    ],
+    "correct_answer": "He acted in a cowardly manner",
+    "explanation": "📖 'Cowardly' শব্দটি একটি adjective, adverb নয়, যদিও এর শেষে 'ly' আছে। Verb 'act'-কে modify করার জন্য একটি adverb বা adverbial phrase প্রয়োজন। Adjective-কে adverbial phrase-এ রূপান্তর করার নিয়ম হলো: in a + adjective + manner/way। এই নিয়ম অনুযায়ী, 'cowardly' এর adverbial phrase হলো 'in a cowardly manner'। তাই সঠিক বাক্যটি হলো 'He acted in a cowardly manner'।<br/> ⇢ <br/>📚 কিছু Adjective আছে যাদের শেষে '-ly' থাকে (যেমন: friendly, manly, lovely, cowardly)। এগুলোকে Adverb হিসেবে সরাসরি ব্যবহার করা যায় না। Verb-কে modify করার জন্য এদেরকে Adverbial Phrase of Manner-এ রূপান্তরিত করতে হয়। এর গঠন হলো: in a/an + Adjective + manner/way। তাই 'cowardly' (ভীরু) adjective-টির adverbial phrase হলো 'in a cowardly manner' (ভীরুভাবে)।<br/> ⇢ <br/>📚 Coward – ভীরু ব্যক্তি; কাপুরুষ। Cowardly – ভীরুতার সাথে করা হয় এমন।<br/>❏ এখানে সে কিভাবে Act করেছে সেটা বুঝানো হচ্ছে। Act শব্দটি Verb. আর এই Verb কে Modify করার জন্য Adverb লাগবে, Adjective নয়। তাই Coward না হয়ে Cowardly হবে। একারণে অপশন a) এবং b) বাদ। অপশন c) বাদ কারণ, এক্ষেত্রে বাক্যটি শেষ বা সম্পূর্ণ হয় নি। তাই উত্তর অপশন d) এর In a cowardly manner.<br/>❏ বাক্যের অর্থঃ সে কাপুরুষের মত আচরণ করেছিলো।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332154,
+    "question": "Which one is a complex sentence?",
+    "options": [
+      "He is poor but honest",
+      "There is no mother but loves her child",
+      "Do or die",
+      "He tried hard to help me"
+    ],
+    "correct_answer": "There is no mother but loves her child",
+    "explanation": "📖 যে বাক্যে একটি principal (স্বাধীন) clause এবং এক বা একাধিক subordinate (অধীন) clause থাকে, তাকে Complex Sentence বলে।<br/>❏ Option Analysis:<br/>❏ He is poor but honest: এটি একটি Compound Sentence, কারণ 'but' conjunction দ্বারা দুটি independent clause যুক্ত হয়েছে।<br/>❏ There is no mother but loves her child: এখানে 'but' শব্দটি 'who does not' এর সমার্থক এবং এটি একটি relative pronoun হিসেবে কাজ করে একটি subordinate clause (but loves her child) তৈরি করেছে। তাই এটি একটি Complex Sentence।<br/>❏ Do or die: এটি একটি Compound Sentence, কারণ 'or' conjunction দ্বারা দুটি imperative clause যুক্ত হয়েছে।<br/>❏ He tried hard to help me: এটি একটি Simple Sentence, কারণ এখানে একটি মাত্র finite verb ('tried') আছে।<br/> ⇢ <br/>📚 একটি Complex Sentence-এ একটি স্বাধীন খণ্ডবাক্য (Independent Clause) এবং অন্তত একটি পরাধীন খণ্ডবাক্য (Dependent/Subordinate Clause) থাকে। \"There is no mother but loves her child\" বাক্যটিতে, \"There is no mother\" হলো Independent Clause। \"but loves her child\" অংশটি একটি Dependent Adjective Clause যা 'mother'-কে modify করছে। এখানে 'but' একটি negative relative pronoun হিসেবে কাজ করছে, যার অর্থ 'who does not'। বাক্যটিকে \"There is no mother who does not love her child\" হিসেবেও লেখা যায়, যা এর জটিল গঠনকে স্পষ্ট করে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332155,
+    "question": "He said, 'Good morning, Mr. Kamal'-make it indirect speech.",
+    "options": [
+      "He said wished Mr. Kamal good morning",
+      "He wished Mr. Kamal good morning",
+      "He said Mr. Kamal good morning",
+      "He told Mr. Kamal good morning"
+    ],
+    "correct_answer": "He wished Mr. Kamal good morning",
+    "explanation": "📖 Direct speech-এ 'Good morning', 'Good evening', 'Happy Birthday' ইত্যাদি শুভেচ্ছা বা অভিবাদনমূলক বাক্য থাকলে, indirect speech-এ reporting verb 'said'-এর পরিবর্তে 'wished' ব্যবহৃত হয়। এরপর object (এখানে Mr. Kamal) এবং তারপর greeting-টি (good morning) বসে। এই নিয়ম অনুযায়ী সঠিক উত্তর হলো 'He wished Mr. Kamal good morning'।<br/> ⇢ <br/>📚 এটি Optative Sentence এর Narration। ইচ্ছা, প্রার্থনা বা অভিবাদন বোঝাতে reporting verb 'said' পরিবর্তিত হয়ে 'wished' বা 'prayed' হয় এবং conjunction 'that' বসে না। এর গঠন হলো: Subject + wished + object (person) + greeting। তাই 'He wished Mr. Kamal good morning' বাক্যটিই সঠিক গঠন অনুসরণ করে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332156,
+    "question": "It is not ……… who are to blame.",
+    "options": [
+      "me",
+      "we",
+      "us",
+      "him"
+    ],
+    "correct_answer": "we",
+    "explanation": "📖 Verb 'to be' (am, is, are, was, were) এর পরে pronoun-এর subjective বা nominative form (I, we, you, he, she, they) ব্যবহৃত হয়। বাক্যটিতে 'is' থাকায় subjective form বসবে।<br/>❏ Option Analysis:<br/>❏ me, us, him: এগুলো pronoun-এর objective form, যা এখানে ভুল।<br/>❏ we: এটি pronoun-এর subjective form, যা সঠিক।<br/>❏ সুতরাং, সঠিক বাক্যটি হলো: It is not we who are to blame.<br/> ⇢ <br/>📚 এখানে ব্যাকরণের Predicate Nominative নিয়মটি প্রযোজ্য। Linking verb 'is' এর পরে যে pronoun বসে, তা subject 'It'-কে নির্দেশ করে, তাই pronoun-টি nominative বা subjective case (we) এ হবে। এছাড়া, relative pronoun 'who' তার antecedent 'we' (plural) কে নির্দেশ করায় পরবর্তী verb 'are' (plural) ব্যবহৃত হয়েছে, যা বাক্যটিকে ব্যাকরণগতভাবে শুদ্ধ করেছে।<br/>❏ অপশন বিশ্লেষণ:<br/>❏ me, us, him: এগুলো Objective case pronoun। Linking verb (is, am, are) এর পরে pronoun এর subjective form বসে।<br/>❏ we: এটি Subjective case pronoun এবং 'who' এর antecedent (পূর্বপদ) হিসেবে ব্যবহৃত হওয়ায় পরবর্তী verb 'are' (plural) এর সাথে সঙ্গতিপূর্ণ।<br/> ⇢ <br/>📚 Be verb (am, is, are, was, were ইত্যাদি) এরপরে Subjective form বসে। যেমনঃ I who am the guilty person in this matter/ It is not for you to take the responsibility.<br/>❏ বাক্যের অর্থঃ দোষী/দায়ী আমরা নই।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332157,
+    "question": "কোনটি শুদ্ধ বানান?",
+    "options": [
+      "Comittee",
+      "Committee",
+      "Committe",
+      "Commitee"
+    ],
+    "correct_answer": "Committee",
+    "explanation": "📖 \"Committee\" একটি বহুল ব্যবহৃত শব্দ যার সঠিক বানান মনে রাখার একটি সহজ উপায় হলো এতে তিনটি বর্ণ (m, t, e) দুইবার করে ব্যবহৃত হয়। অর্থাৎ, double 'm', double 't', এবং double 'e' রয়েছে। তাই সঠিক বানানটি হলো Committee।<br/> ⇢ <br/>📚 শব্দটি ফরাসি 'comité' থেকে উদ্ভূত, যা ল্যাটিন 'committere' (অর্থ: to entrust বা অর্পণ করা) থেকে এসেছে। এটি একটি Collective Noun। বানানের জটিলতার কারণে এটি প্রতিযোগিতামূলক পরীক্ষাগুলোতে প্রায়ই আসে। মনে রাখার কৌশল: \"Commit to memory: double M, double T, double E\"।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332158,
+    "question": "'রিয়াদুস সালেহীন' একটি-",
+    "options": [
+      "ইসলামের ইতিহাস গ্রন্থ",
+      "ইতিহাস সংকলন গ্রন্থ",
+      "ফিকাহ গ্রন্থ",
+      "হাদীস সংকলন গ্রন্থ"
+    ],
+    "correct_answer": "হাদীস সংকলন গ্রন্থ",
+    "explanation": "<p>রিয়াযুস সালিহিন বা রিয়াযুস স্বা-লিহীন হল ইয়াহিয়া নববী রচিত আল কুরআনের আয়াতের সমর্থনে নির্বাচিত হাদিস সংকলন গ্রন্থ। এ সংকলনে ইসলামী নৈতিকতা এবং ইবাদত ও বিনয়ী কাজের কথা বলা হয়েছে, যা মুসলিম পন্ডিতদের দ্বারা স্বীকৃত এবং কুরআন ও মোহাম্মাদ এর সংগ্রহের অন্তভূক্ত। বইটি সালাফি পণ্ডিতদের কাছে ব্যাপকভাবে সমাদৃত।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332159,
+    "question": "আল মাহমুদের মুক্তিযুদ্ধ ভিত্তিক উপন্যাস কোনটি?",
+    "options": [
+      "কাবিলের বোন",
+      "উপমহাদেশ",
+      "আগুনের মেয়ে",
+      "ডাহুকী"
+    ],
+    "correct_answer": "উপমহাদেশ",
+    "explanation": "<p>আল মাহমুদ&nbsp;</p><br/><p>&nbsp;\"কাবিলের বোন\" নামে একটি উপন্যাস লিখেছেন, যা বাংলাদেশের মুক্তিযুদ্ধ এবং তার পূর্ববর্তী সময়ের প্রেক্ষাপটে রচিত। এটি একটি কাল্পনিক উপন্যাস এবং এর বিষয়বস্তু মূলত বাঙালি-বিহারী সমস্যা এবং প্রেম-বিরহ নিয়ে।</p><br/><p>কাবিলের বোন' উপন্যাসের প্রধান চরিত্র হলো কাবিল এবং তার প্রেমিকা রোকসানা। এছাড়া উপন্যাসে অন্যান্য গুরুত্বপূর্ণ চরিত্রগুলো হলো আন্দালিব এবং মোমি, যাদের মধ্যে প্রেমের সম্পর্ক রয়েছে। উপন্যাসে মোমেনা নামে একটি চরিত্রও আছে, যার সঙ্গে কাবিলের বিয়ের একটি সম্পর্ক ছিল।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332160,
+    "question": "ওহুদ যুদ্ধে কোন সাহাবী ৫০ জন তীরন্দাজ বাহিনীর নেতৃত্ব দিয়েছেন?",
+    "options": [
+      "আব্দুল্লাহ ইবনে যুবায়ের",
+      "যায়েদ ইবনে সাবিত",
+      "জাফর ইবনে আবু তালিব",
+      "জাফর ইবনে আবু তালিব"
+    ],
+    "correct_answer": "আব্দুল্লাহ ইবনে যুবায়ের",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332161,
+    "question": "প্রথম আকাবার বাইয়াতের অংশগ্রহণকারীর সংখ্যা কতজন?",
+    "options": [
+      "১২",
+      "২২",
+      "৩৫",
+      "৩০"
+    ],
+    "correct_answer": "১২",
+    "explanation": "<p>প্রথম আকাবার বাইয়াতে ১২ জন ব্যক্তি অংশগ্রহণ করেন। মদিনা থেকে আসা এই ১২ জন ব্যক্তি মক্কায় নবী মুহাম্মদ (সা.)-এর সঙ্গে সাক্ষাৎ করে ইসলাম গ্রহণ করেন এবং আনুগত্যের শপথ নেন।&nbsp;</p><br/><p>প্রথম বাইয়াত: আকাবার প্রথম বাইয়াতে মদিনার ১২ জন ব্যক্তি অংশগ্রহণ করেন, যারা ছিলেন ইসলামে ধর্মান্তরিত প্রথম ব্যক্তি।</p><br/><p>অংশগ্রহণ: এই ১২ জন ব্যক্তি মক্কায় নবী মুহাম্মদ (সা.)-এর সঙ্গে সাক্ষাৎ করে আনুগত্যের শপথ নেন, যা 'আকাবার প্রথম শপথ' নামে পরিচিত।</p><br/><p>সময়কাল: এই ঘটনাটি হজ موسمের সময় ঘটেছিল, পরবর্তী বছর মদিনা থেকে আরও বেশি সংখ্যক হাজি হজ করতে মক্কায় আসেন।</p><br/><p>শপথের উদ্দেশ্য: তারা আল্লাহর প্রতি ঈমান আনার এবং জাহেলিয়া যুগের গোত্রীয় গোঁড়ামি পরিত্যাগ করার অঙ্গীকার করেন।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332162,
+    "question": "হুদাইবিয়ার সন্ধিতে কুরাইশদের পক্ষ থেকে প্রতিনিধি হিসেবে কে ছিলেন?",
+    "options": [
+      "আবু সুফিয়ান",
+      "ইকরামা",
+      "সুহাইল ইবনে আমর",
+      "ওলিদ ইবনে মুগীরা"
+    ],
+    "correct_answer": "সুহাইল ইবনে আমর",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332163,
+    "question": "'বাইয়াত' শব্দের মৌলিক অর্থ কি?",
+    "options": [
+      "মুরিদ হওয়া",
+      "দলে যোগ দেয়া",
+      "ক্রয়-বিক্রয়",
+      "নিজেকে বিসর্জন দেওয়া"
+    ],
+    "correct_answer": "ক্রয়-বিক্রয়",
+    "explanation": "<p>বাইয়াত' শব্দের মৌলিক অর্থ হলো শপথ গ্রহণ বা আনুগত্যের চুক্তি। এই শব্দটি আরবি 'بَيْعٌ' (বাইয়ুন) থেকে এসেছে, যার আভিধানিক অর্থ 'ক্রয়-বিক্রয়'। ইসলামে এটি দ্বারা সাধারণত আল্লাহ ও তাঁর রাসুল (সা.)-এর প্রতি আনুগত্যের শপথ বা অঙ্গীকারকে বোঝানো হয়।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332164,
+    "question": "ইসলাম ও অর্থনৈতিক চ্যালেঞ্জ বইটির লেখক কে?",
+    "options": [
+      "ড. এম. উমর চাপড়া",
+      "মাওলানা মওদূদী (রঃ)",
+      "শাহ আব্দুল হান্নান",
+      "অধ্যাপক হাবিবুর রহমান"
+    ],
+    "correct_answer": "ড. এম. উমর চাপড়া",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332165,
+    "question": "রাসুল (সাঃ) কার বাড়ি-ঘড় পুড়িয়ে দিতে চেয়েছেন?",
+    "options": [
+      "যারা জিহাদ করেনা",
+      "যারা জামাতে নামাজ পড়ে না",
+      "যারা বাবা মার অবাধ্য",
+      "যারা নামাজ পড়ে না"
+    ],
+    "correct_answer": "যারা জামাতে নামাজ পড়ে না",
+    "explanation": "<p>যারা ইচ্ছাকৃত ভাবে জামাতে নামাজ পড়েনা মহানবী (স:) তাদের সম্পর্কে বলেছেন।উনি বলেছেন উনার ইচ্ছা হয় এরকম নির্দেশ দেওয়ার।তবে প্রকৃত পক্ষে এরকম নির্দেশ দেয়া হয় নি।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332166,
+    "question": "'আন কাবুত' শব্দের অর্থ কি?",
+    "options": [
+      "মাকড়সা",
+      "পিপড়া",
+      "মৌমাছি",
+      "কানা"
+    ],
+    "correct_answer": "মাকড়সা",
+    "explanation": "<p>আন কাবুত নামে পবিত্র কোনআন এ একটি সূরা রয়েছে।আমন কাবুত অর্থ মাকড়সা।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332167,
+    "question": "ইসলামের ইতিহাসে মহিলাদের মধ্যে প্রথম কে শাহাদাত্বরণ করেন?",
+    "options": [
+      "হযরত আয়েশা (রাঃ)",
+      "হযরত খাদিজা (রাঃ)",
+      "হযরত রমলা বিনতে আবু আউফ (রাঃ)",
+      "হযরত সুমাইয়া (রাঃ)"
+    ],
+    "correct_answer": "হযরত সুমাইয়া (রাঃ)",
+    "explanation": "<p>হযরত সুমাইয়া (রাঃ) ছিলেন ইসলামের ইতিহাসে প্রথম শহীদ নারী। তিনি ছিলেন কুরাইশ বংশের একজন দাসী এবং পরবর্তীতে হযরত ইয়াসির ইবনে আমিরের (রাঃ) স্ত্রী এবং হযরত আম্মার ইবনে ইয়াসিরের (রাঃ) মা। ইসলাম গ্রহণের কারণে তাকে আবু জাহেলের হাতে চরম নির্যাতন সহ্য করতে হয় এবং শেষ পর্যন্ত তিনি শাহাদাত বরণ করেন।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332168,
+    "question": "মুসলিম মিল্লাতে পিতা হিসাবে কোন নবীকে অভিহিত করা হয়েছে?",
+    "options": [
+      "মুসা (আঃ)",
+      "ইব্রাহীম (আঃ)",
+      "মুহাম্মদ (সাঃ)",
+      "আদম (আঃ)"
+    ],
+    "correct_answer": "ইব্রাহীম (আঃ)",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332169,
+    "question": "কুরআন সংরক্ষণের দায়িত্ব কার?",
+    "options": [
+      "ফেরেস্তার",
+      "হাফিজ সাহেবদের",
+      "আল্লাহর",
+      "নবীদের"
+    ],
+    "correct_answer": "আল্লাহর",
+    "explanation": "<p>পবিত্র কোরআন মহান আল্লাহ&nbsp; পাক নিজেই সংরক্ষন করবেন।তিনিই এর রক্ষক।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332170,
+    "question": "আল কুরআনের মূল আলোচ্য বিষয় কি?",
+    "options": [
+      "মানুষ",
+      "মুসলমান",
+      "নবীদের ইতিহাস",
+      "কাফির"
+    ],
+    "correct_answer": "মানুষ",
+    "explanation": "<p>আল কুরআনের মূল আলোচ্য বিষয় হলো আল্লাহর একত্ববাদ, নবী-রাসুলদের প্রতি নির্দেশনা এবং পরকালের জীবন ও পুনরুত্থান। </p><br/><p>এছাড়া, মানব জীবনের জন্য প্রয়োজনীয় দিকনির্দেশনা, যেমন — ইবাদত, জাগতিক কার্যকলাপ, নৈতিকতা, এবং ন্যায়বিচারও এর অন্তর্ভুক্ত। এটি মানুষের ইহকাল ও পরকালের কল্যাণ সাধনের জন্য একটি পূর্ণাঙ্গ জীবন বিধান হিসেবে উপস্থাপিত হয়েছে।&nbsp;</p><br/><p></p>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332171,
+    "question": "কোন যুদ্ধে রাসূল (সাঃ) এর দন্ত মোবারক শহীদ হয়?",
+    "options": [
+      "বদর",
+      "আহযাব",
+      "খন্দক",
+      "ওহুদ"
+    ],
+    "correct_answer": "ওহুদ",
+    "explanation": "<p>উহুদ যুদ্ধ ছিল ৩ হিজরি (৬২৫ খ্রিস্টাব্দ) সালের ৭ শাওয়ালে মদিনার মুসলিম ও মক্কার কুরাইশদের মধ্যে সংঘটিত একটি গুরুত্বপূর্ণ যুদ্ধ। বদর যুদ্ধের প্রতিশোধ নিতে কুরাইশরা আবু সুফিয়ানের নেতৃত্বে একটি বিশাল বাহিনী নিয়ে মদিনা আক্রমণ করে, যা উহুদ পর্বতের কাছে সংঘটিত হয়। এই যুদ্ধে মুসলিমরা প্রথমে ভালো অবস্থানে থাকলেও, কিছু সাহাবির ভুল সিদ্ধান্তের কারণে এটি তাদের জন্য একটি বড় পরীক্ষার কারণ হয়ে দাঁড়ায়।&nbsp;</p><br/><p>যুদ্ধ শুরু হওয়ার পর মুসলিমরা প্রাথমিক পর্যায়ে কুরাইশদের পরাজিত করতে সক্ষম হয়।</p><br/><p>ভুল সিদ্ধান্ত: যুদ্ধের একটি গুরুত্বপূর্ণ মোড়ে, নবী মুহাম্মদ (সা.) উহুদ পর্বতের গিরিপথটি ৫০ জন তীরন্দাজের হাতে সুরক্ষিত রাখতে বলেছিলেন। কিন্তু, যুদ্ধজয়ের আনন্দে কিছু সাহাবী গিরিপথ ছেড়ে যুদ্ধক্ষেত্রে নেমে আসে।</p><br/><p>কুরাইশদের আক্রমণ: এই সুযোগে কুরাইশরা গিরিপথ দখল করে মুসলিমদের আক্রমণ করে, যার ফলে মুসলিমরা বিশৃঙ্খল হয়ে পড়ে।</p><br/><p>নবীজির আহত হওয়া: এই বিশৃঙ্খলার মধ্যে, নবী মুহাম্মদ (সা.) আহত হন এবং তার একটি দাঁত ভেঙে যায়। এই যুদ্ধে হামযা (রা.) সহ ৭০ জন মুসলিম শহীদ হন।</p><br/><p></p>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332172,
+    "question": "সালেহ (আঃ) কে কোন জাতির নিকট পাঠানো হয়েছিল?",
+    "options": [
+      "কাহাফের জনগণ",
+      "সামুদ",
+      "মাদাইনের জনগণ",
+      "আদ"
+    ],
+    "correct_answer": "সামুদ",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332173,
+    "question": "কার কক্ষে রাসূল (সাঃ) ইন্তেকাল করেন?",
+    "options": [
+      "ফাতেমা (রাঃ)",
+      "হাফসা (রাঃ)",
+      "মায়মুন (রাঃ)",
+      "আয়েশা (রাঃ)"
+    ],
+    "correct_answer": "আয়েশা (রাঃ)",
+    "explanation": "<p><span style=\"font-size: 1rem;\">রাসূল (সাঃ) উম্মুল মুমিনিন হযরত আয়েশা (রাঃ)-এর কক্ষে ইন্তেকাল করেন। যখন তিনি অসুস্থ ছিলেন, তখন তিনি তাঁর সহধর্মিণীদের কাছে জানতে চেয়েছিলেন যে তিনি পরের দিন কার ঘরে থাকবেন এবং তাঁরা তাঁকে আয়েশা (রাঃ)-এর ঘরে থাকার অনুমতি দিয়েছিলেন। শেষ পর্যন্ত, তিনি তাঁর জীবনের শেষ সময়টি হযরত আয়েশা (রাঃ)-এর ঘরেই কাটান এবং সেখানেই তাঁর ইন্তেকাল হয়।&nbsp;</span></p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332174,
+    "question": "কোন যুদ্ধে হামজা (রাঃ) শহীদ হন?",
+    "options": [
+      "বদর",
+      "ওহুদ",
+      "খন্দক",
+      "তাবুক"
+    ],
+    "correct_answer": "ওহুদ",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332175,
+    "question": "'হুজ্জাতুল ইসলাম' কে?",
+    "options": [
+      "ইমাম আবু হানিফা (রঃ)",
+      "ইমাম গাজ্জালী (রঃ)",
+      "ইমাম খোমেন (রঃ)",
+      "ইমাম হোসেন (রাঃ)"
+    ],
+    "correct_answer": "ইমাম গাজ্জালী (রঃ)",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332176,
+    "question": "কোন দেশে বিশ্বের প্রথম ইসলামী ব্যাংক চালু হয়?",
+    "options": [
+      "মিশর",
+      "মালেশিয়া",
+      "সৌদি আরব",
+      "বাহরাইন"
+    ],
+    "correct_answer": "মিশর",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332177,
+    "question": "'জেরুজালেমঃ বিশ্ব মুসলিম সমস্যা'- বইটি কার লেখা?",
+    "options": [
+      "ড. ইউসুফ আল কারযাবী",
+      "সাইয়্যেদ আবুল আলা মওদুদী",
+      "সাইয়্যেদ কুতুব",
+      "আব্বাস আলী খান"
+    ],
+    "correct_answer": "ড. ইউসুফ আল কারযাবী",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332178,
+    "question": "সুদ সম্পর্কে কুরআন মজীদে প্রথম আয়াত কোনটি?",
+    "options": [
+      "সূরা আন নিসাঃ ১৩০",
+      "সূরা আর রুমঃ ৩৯",
+      "সূরা আলে ইমরানঃ ১৩০",
+      "সূরা হাশরঃ ৭"
+    ],
+    "correct_answer": "সূরা আর রুমঃ ৩৯",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332179,
+    "question": "সূরা আল হাশরের শেষ ২ আয়াতে কতগুলো 'আসমাউল হুসনা' এর বর্ণনা আছে?",
+    "options": [
+      "২১",
+      "১৭",
+      "১৫",
+      "১০"
+    ],
+    "correct_answer": "১০",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332180,
+    "question": "২৭ রজব কি কারণে তাৎপর্যপূর্ণ?",
+    "options": [
+      "মিরাজ",
+      "আবিসিনিয়ায় হিজরত",
+      "লাইলাতুল কদর",
+      "মদীনায় হিজরত"
+    ],
+    "correct_answer": "মিরাজ",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332181,
+    "question": "ইসলামী পরিভাষায় ভূমি কর হচ্ছে-",
+    "options": [
+      "উশর",
+      "খারাজ",
+      "জিজিয়া",
+      "ফাই"
+    ],
+    "correct_answer": "খারাজ",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332182,
+    "question": "আসমাউল হুসনা কাকে বলে",
+    "options": [
+      "রাসুল (সাঃ) এর নাম সমূহ",
+      "আল্লাহর নামসমূহ",
+      "ফেরেস্তাদের নামসমূহ",
+      "আম্বিয়া কেরামের নামসমূহে"
+    ],
+    "correct_answer": "আল্লাহর নামসমূহ",
+    "explanation": "<p>আল্লাহর সুন্দর সুন্দর ৯৯ টি নামকে একত্রে আসমাঊল হুসনা বলা হয়।এটি হৃদয়ঙ্গম করলে অনেক সওয়াব রয়েছে।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332183,
+    "question": "গোনাহগার কে?",
+    "options": [
+      "সুদ দাতা",
+      "সুদ গ্রহীতা",
+      "সুদের সাক্ষী",
+      "সকলে"
+    ],
+    "correct_answer": "সকলে",
+    "explanation": "<p>সুদের সাথে সংশ্লিষ্ট সকলেই গোনাহগার। তাই আমাদের উচিত সুদ সংশ্লিষ্ট সকল কাজ থেকে দূরে থাকা।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332184,
+    "question": "কুরআনের ভাষ্যমতে কোনটা সবচেয়ে বড় জুলুম?",
+    "options": [
+      "পিতা-মাতার অবাধ্য হওয়া",
+      "এতিমের সম্পদ ভক্ষণ করা",
+      "অসহয়াকে নিপীড়ন করা",
+      "আল্লাহর সাথে শিরক করা"
+    ],
+    "correct_answer": "আল্লাহর সাথে শিরক করা",
+    "explanation": "<p><span style=\"font-size: 1rem;\">আল্লাহর সাথে শিরক করার শাস্তি হলো জান্নাত থেকে বঞ্চিত হওয়া এবং জাহান্নামে যাবার শাস্তি। আল্লাহ বলেন, \"যে ব্যক্তি আল্লাহর সাথে শিরক করবে, আল্লাহ তার জন্য জান্নাত হারাম করে দিয়েছেন এবং তার আবাস হবে জাহান্নাম\" (সূরা মায়েদা: ৭২)। এছাছাড়াও, শিরক করা মানুষ কখনো আল্লাহর ক্ষমা পাবে না আর তাঁকে কঠোর শাস্তি ভোগ করতে হবে</span></p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332185,
+    "question": "দাউদ (আঃ) এর উপর অবতীর্ণ কিতাব কোনটি?",
+    "options": [
+      "তাওরাত",
+      "যাবুর",
+      "ইনজিল",
+      "সহিফা"
+    ],
+    "correct_answer": "যাবুর",
+    "explanation": "<p><span style=\"font-size: 1rem;\">হজরত দাউদ (আ.) এর উপর আল্লাহর পক্ষ থেকে <b>\"যাবুর\"</b> নামক কিতাব নাজিল হয়েছিল। <b>যাবুর</b> ছিল একটি আসমানী কিতাব, যার মধ্যে <b>আল্লাহর প্রশংসা ও নীতিবাক্য ছিল।</b> তিনি ছিলেন একজন নবী ও রাজা, যিনি অসাধারণ বীরত্বের জন্য পরিচিত ছিলেন এবং আল্লাহ তাঁকে বিশেষ মোনা দিয়েছিলেন যেমন যাদুর সুর মোহনশক্তি। কুরআনে বিভিন্ন স্থানে তাঁর গুনতি এবং যেসব মুজিজা তিনি প্রদর্শন করেছেন তা উল্লেখ আছে</span></p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332186,
+    "question": "কুরআনের ভাষ্যমতে হাজার রাত অপেক্ষা শ্রেষ্ঠ রাত কোনটি?",
+    "options": [
+      "লাইলাতুল মিরাজ",
+      "লাইলাতুল বরাত",
+      "লাইলাতুল কদর",
+      "ক ও গ"
+    ],
+    "correct_answer": "লাইলাতুল কদর",
+    "explanation": "<p>২১-২৯ রমজান মাসের বিজোড় রজনীতে শবে কদর হয়।যা হাজার মাস অপেক্ষা উত্তম।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332187,
+    "question": "সিরাত বলতে কী বুঝায়?",
+    "options": [
+      "সরল পথ",
+      "বিধান",
+      "জীবনী",
+      "সুন্নাত"
+    ],
+    "correct_answer": "জীবনী",
+    "explanation": "<p>সিরাত আরবী শব্দ। এর অর্থ জীবনকাল বা জীবনী। সিরাত বলতে রাসূল (স:) এর জীবনি বোঝায়।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332188,
+    "question": "হাদিস হলো রাসূল (সাঃ) এর-",
+    "options": [
+      "কথা",
+      "কাজ",
+      "সম্মতি",
+      "সবগুলো"
+    ],
+    "correct_answer": "সবগুলো",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332189,
+    "question": "রাসুল (সাঃ) কোন পদ্ধতিতে খাদিজা (রাঃ) এর সাথে ব্যবসা করতেন?",
+    "options": [
+      "মুশারাকা",
+      "ওয়াকালাহ্",
+      "উজরাহ",
+      "মুদারাবা"
+    ],
+    "correct_answer": "মুদারাবা",
+    "explanation": "রাসুল (সাঃ) এবং খাদিজা (রাঃ) \"মুদারাবা\" পদ্ধতিতে ব্যবসা করতেন। এই পদ্ধতিতে খাদিজা (রাঃ) মূলধন সরবরাহ করতেন এবং রাসুল (সাঃ) তার মেধা, দক্ষতা ও সততা দিয়ে ব্যবসা পরিচালনা করতেন। এই ব্যবস্থার মূল বিষয় ছিল মূলধনের ওপর ভিত্তি করে একটি অংশীদারিত্ব, যেখানে লাভ হলে তা নির্ধারিত অনুপাতে ভাগ হতো, আর ক্ষতি হলে তার দায় ছিল মূলধন সরবরাহকারীর।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332190,
+    "question": "ইসলামী উন্নয়ন ব্যাংক-এর সদস্য দেশ কয়টি?",
+    "options": [
+      "৫৭ টি",
+      "৬৭ টি",
+      "৫০ টি",
+      "৫৩ টি"
+    ],
+    "correct_answer": "৫৭ টি",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332191,
+    "question": "আল-কুরআনে প্রথম নাজিলকৃত পূর্নাঙ্গ সূরা কোনটি?",
+    "options": [
+      "সূরা আলাক",
+      "সূরা ফাতিহা",
+      "সূরা ফাতিহা",
+      "সূরা ইখলাস"
+    ],
+    "correct_answer": "সূরা ফাতিহা",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332192,
+    "question": "নিম্নের কোনটি তাফসীর গ্রন্থ নয়?",
+    "options": [
+      "তাফহিমুল কুরআন",
+      "মারীফুল কুরআন",
+      "ফি যিলালিল কুরআন",
+      "আর রাহীকুল মাখতূম"
+    ],
+    "correct_answer": "আর রাহীকুল মাখতূম",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332193,
+    "question": "'মোস্তফা চরিত' এর লেখক কে?",
+    "options": [
+      "গোলাম মোস্তফা",
+      "আকরাম খাঁ",
+      "শিবলী নো'মানী",
+      "শিবলী নো'মানী"
+    ],
+    "correct_answer": "আকরাম খাঁ",
+    "explanation": "",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332194,
+    "question": "কোনটি যাকাতযোগ্য সম্পদ নয়?",
+    "options": [
+      "গবাদি পশু",
+      "ব্যবসায়ের পণ্য",
+      "শেয়ার, বন্ড",
+      "কারখানার যন্ত্রপাতি"
+    ],
+    "correct_answer": "কারখানার যন্ত্রপাতি",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332195,
+    "question": "'মাহরাম' কী?",
+    "options": [
+      "যার সাথে বিবাহ বন্ধনে আবদ্ধ হওয়া নিষিদ্ধ",
+      "যার সাথে বিবাহ বন্ধনে আবদ্ধ হওয়া নিষিদ্ধ নয়",
+      "হজ্জের সময় পরিধেয় সাদা কাপড় বিশেষ",
+      "এর কোনটিই নয়"
+    ],
+    "correct_answer": "যার সাথে বিবাহ বন্ধনে আবদ্ধ হওয়া নিষিদ্ধ",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332196,
+    "question": "শরীয়াহ শব্দের অর্থ কী?",
+    "options": [
+      "বিধি-বিধান",
+      "আত্মসমর্পণ",
+      "আইন",
+      "ক ও গ"
+    ],
+    "correct_answer": "ক ও গ",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332197,
+    "question": "কোনটি সালাতের ফরজ নয়?",
+    "options": [
+      "রুকু থেকে সোজা হওয়া",
+      "কেরাত পড়া",
+      "তাকবীরে তাহরীমা বলা",
+      "দাড়িয়ে নামাজ পড়া"
+    ],
+    "correct_answer": "রুকু থেকে সোজা হওয়া",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332198,
+    "question": "হজ্জ কত প্রকার?",
+    "options": [
+      "২",
+      "৩",
+      "৫",
+      "৭"
+    ],
+    "correct_answer": "৩",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332199,
+    "question": "জান্নাতুল বাক্বী কী?",
+    "options": [
+      "মদীনায় একটি কবরস্থান",
+      "মক্কার একটি স্থান",
+      "মক্কার মসজিদ",
+      "একটি জান্নাতের নাম"
+    ],
+    "correct_answer": "মদীনায় একটি কবরস্থান",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332200,
+    "question": "রাসুল (সাঃ) কোন মসজিদের ভিত্তিপ্রস্তর স্থাপন করেন এবং নির্মাণ কাজে অংশ নেন?",
+    "options": [
+      "মসজিদে নববী",
+      "মসজিদে জুর কাবলাতাইন",
+      "মসজিদে কুবা",
+      "মসজিদে নামেরাহ"
+    ],
+    "correct_answer": "মসজিদে কুবা",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332201,
+    "question": "জামাতে সালাত আদায় করলে একাকী আদায়ের চেয়ে কত গুন বেশি সাওয়ার পাওয়া যায়?",
+    "options": [
+      "১০",
+      "৭০",
+      "২৭",
+      "১০০"
+    ],
+    "correct_answer": "২৭",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332202,
+    "question": "হিজরী সন কত দিনে?",
+    "options": [
+      "৩৬০",
+      "৩৬৫",
+      "৩৫৪",
+      "৩২৪"
+    ],
+    "correct_answer": "৩৫৪",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332203,
+    "question": "উম্মুল কুরা হল-",
+    "options": [
+      "মা হাফসা (রাঃ) এর উপাধি",
+      "আরবের একটি বেদুইন গোত্র",
+      "মক্কানগরীর অপর নাম",
+      "একটি অন্ধ কুপের নাম"
+    ],
+    "correct_answer": "মক্কানগরীর অপর নাম",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332204,
+    "question": "যুননাকাতাইন কার উপাধি?",
+    "options": [
+      "ফাতিমা (রাঃ)",
+      "আয়েশা (রাঃ)",
+      "আসমা বিনতে আবুবকর (রাঃ)",
+      "জয়নব বিনতে জাহাশ (রাঃ)"
+    ],
+    "correct_answer": "আসমা বিনতে আবুবকর (রাঃ)",
+    "explanation": "<p><span style=\"font-size: 1rem;\">যুননাকাতাইন উপাধি হযরত আসমা বিনতে আবু বকর (রা)-এর। তাঁর এই উপাধির অর্থ হলো \"দুই রাশি (দুই কমরবন্ধনী) ওয়ালা\"। এটি সৃষ্ট হয়েছিল যখন রাসূল (সা) এর হিজরতের সময় হযরত আসমা তাঁর কোমরের বন্ধনী খুলে দু\\\"ভাগ করে একটিতে খাদ্য সামগ্রী বেঁধেছিলেন এবং অন্যটিতে নিজে বেঁধে ছিলেন। এই কারণে তাঁকে \"যুননাকাতাইন\" উপাধি দেওয়া হয়েছিল, যা দুই রাশিওয়ালা অর্থে পরিচিত।</span></p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332205,
+    "question": "কুরআনের বর্ণনা অনুযায়ী মুসা (আঃ) এর লাঠি কিসে আকৃতি ধারণ করেছিল?",
+    "options": [
+      "বাঘ",
+      "সাপ",
+      "রশি",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "সাপ",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332206,
+    "question": "সিহাহ্ সিত্তাহ্ কী?",
+    "options": [
+      "রাসুলের জীবনী",
+      "৬ টি বিশুদ্ধ হাদিসগ্রন্থ",
+      "কুরআনের সূরা",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "৬ টি বিশুদ্ধ হাদিসগ্রন্থ",
+    "explanation": "📖 'সিহাহ সিত্তাহ' আরবি শব্দ। এর দুটি অংশ, একটি সিহাহ্ এবং অপরটি সিত্তাহ। 'সিহাহ' অর্থ বিশুদ্ধ এবং 'সিত্তাহ' শব্দের অর্থ ছয়। সুতরাং 'সিহাহ সিত্তাহ' অর্থ ছয়টি বিশুদ্ধ হাদীসগ্রন্থ। ইলমে হাদীসের পরিভাষায়, হাদীসগ্রন্থের বিশুদ্ধ ছয়খানা কিতাবকে 'সিহাহ সিত্তাহ' বলা হয়। সিহাহ সিত্তাহর সংকলকবৃন্দ<br/>❏ হাদীস গ্রন্থ ➺ সংকলকের নাম ➺ জীবনীকাল ➺ হাদীসের সংখ্যা<br/>❏ ১. বুখারী শরীফ ➺ আবু আবদুল্লাহ ইবনে ইসমাঈল আল বুখারী ➺ ১৯৪-২৫৬ হিঃ ➺ ৭৩৯৭ টি<br/>❏ ২. মুসলিম শরীফ ➺ আবুল হোসাইন মুসলিম ইবনুল হাজ্জাজ ➺ ২০৪-২৬১ হিঃ ➺ ৪০০০ টি<br/>❏ ৩. তিরমিযী শরীফ ➺ আবু ঈসা মুহাম্মদ ইবনে ঈসা ➺ ২০৯-২৭৯ হিঃ ➺ ৩৮১২ টি<br/>❏ ৪. আবু দাউদ শরীফ ➺ আবু দাউদ সুলাইমান ইবনে আশআমা ইবনে ইসহাক ➺ ২০২-২৭৫হিঃ ➺ ৪৮০০ টি<br/>❏ ৫. নাসাঈ শরীফ ➺ আবু আবদুর রহমান আহমদ ইবনে শুয়াইব ➺ ২১৪-৩০৩ হিঃ ➺ ৪৪৮২ টি<br/>❏ ৬. ইবনে মাযাহ শরীফ ➺ আবু আবদুল্লাহ মুহাম্মদ ইবনে ইয়াযীদ ➺ ২০৯-২৭৩ হিঃ ➺ ৪৩৩৮ টি",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332207,
+    "question": "মহানবী (সাঃ)-এর হিজরতের পূর্বে মুসলিমদের একটি দল কোথায় হিজরত করেছিলেন?",
+    "options": [
+      "মদীনায়",
+      "আবিসিনিয়ায়",
+      "তায়েফে",
+      "সিরিয়ায়"
+    ],
+    "correct_answer": "আবিসিনিয়ায়",
+    "explanation": "<p>কুরাইশদের অত্যাচারের কারণে সাধারণ মুসলমানদের একটি দলকে আবসিনিয়াতে(বর্তমান ইতিয়পিয়া) হিজরত করার জন্য মহানবী (স) নির্দেশ দেন।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332208,
+    "question": "আয়নাঘর কি?",
+    "options": [
+      "স্বচ্ছ কামড়া",
+      "পরিবেশ বান্ধব কৃষিকাজ",
+      "গোপন কারাগার",
+      "একটি হলিউড মুভি"
+    ],
+    "correct_answer": "গোপন কারাগার",
+    "explanation": "<p>আয়নাঘর হল গণহত্যাকারী খুনি হাসিনা কতৃক তৈরী&nbsp; নির্যাতনের জন্য গোপন কারাগার।এখানে হাসিনার নির্দেশে মানুষকে গুম করে এনে বছরের পর বছর অমানবিক নির্যাতন করা হত।এটি ৩ ফুট জায়গায় একজন বন্দিকে রাখা হত।</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332209,
+    "question": "জাকসু ভিপির নাম কি?",
+    "options": [
+      "আবদুর রশিদ জিতু",
+      "সাদিক কায়েম",
+      "মোস্তাকুর রহমান",
+      "ইব্রাহীম হোসেন রনি"
+    ],
+    "correct_answer": "আবদুর রশিদ জিতু",
+    "explanation": "<p><span style=\"font-size: 1rem;\">জাকসু (জাহাঙ্গীরনগর বিশ্ববিদ্যালয় কেন্দ্রিয় শিক্ষার্থী সংসদ) এর বর্তমান ভিপির নাম আব্দুর রশিদ জিতু। তিনি স্বতন্ত্র প্রার্থী হিসেবে জাকসু নির্বাচনে সহসভাপতি (ভিপি) পদে নির্বাচিত হয়েছেন। আব্দুর রশিদ জিতু জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ে গণঅভ্যুত্থান রক্ষা আন্দোলনের আহ্বায়ক হিসেবে পরিচিত এবং তিনি ২০২৫ সালের নির্বাচন জয়ী হয়েছেন</span></p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332210,
+    "question": "গ্লোবাল সুমুদ ফ্লোটিলা গাজার পথে নির্ভিক অভিযাত্রায় বাংলাদেশের কে অংশগ্রহণ করেন?",
+    "options": [
+      "আলোকচিত্রী শহিদুল আলম",
+      "আদিলুর রহমান খান",
+      "আইরিন খান",
+      "কল্পনা আখতার"
+    ],
+    "correct_answer": "আলোকচিত্রী শহিদুল আলম",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332211,
+    "question": "বাংলাদেশে সর্বপ্রথম গণভোট কবে অনুষ্ঠিত হয়?",
+    "options": [
+      "২২ মার্চ, ১৯৭৭",
+      "২২ এপ্রিল, ১৯৭৭",
+      "২২ মে, ১৯৭৭",
+      "২২ জুন ১৯৭৭"
+    ],
+    "correct_answer": "২২ এপ্রিল, ১৯৭৭",
+    "explanation": "<strong>▣ বাংলাদেশে গণভোট</strong><br/>▣ ১৯৯১ সালে তৃতীয় গণভোটের আগে গণভোট আইন হয়।<br/>❑ জাতীয় সংসদে পাস হওয়া সেই আইনের প্রস্তাবনায় বলা হয়, 'যেহেতু গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধানের প্রস্তাবনার অথবা ৮, ৪৮, ৫৬, ৫৮, ৮০, ৯২ক বা ১৪২ অনুচ্ছেদ সংশোধনের ব্যবস্থা করিয়া কোনো বিল উক্ত সংবিধানের ১৪২(১) অনুচ্ছেদ অনুযায়ী সংসদে গৃহীত হইবার পর উহাতে রাষ্ট্রপতি সম্মতি দান করিবেন কি করিবেন না, এই প্রশ্ন যাচাইয়ের জন্য সংবিধানের ১৪২ (১ক) অনুচ্ছেদ মোতাবেক গণভোটের বিধান করা সমীচীন ও প্রয়োজনীয়; সেহেতু এতদ্বারা নিম্নরূপ আইন করা হইল।'<br/>❑ ২০১১ সালে সংবিধানের পঞ্চদশ সংশোধনীর মাধ্যমে গণভোটের সেই বিধান বাতিল করা হয়।<br/>❑ কিন্তু জুলাই গণঅভ্যুত্থানের পর ১৭ ডিসেম্বর ২০২৪ ওই সংশোধনী বাতিলের মামলায় হাইকোর্ট তত্ত্বাবধায়ক সরকারব্যবস্থা ফিরিয়ে আনার পাশাপাশি গণভোটও পুনর্বহাল করে রায় দেয়।<br/><strong>▣ দেশে অনুষ্ঠিত গণভোট</strong><br/>❑ বাংলাদেশে মোট তিনবার গণভোট অনুষ্ঠিত হয়। এর মধ্যে দুটি প্রশাসনিক গণভোট এবং আরেকটি সাংবিধানিক গণভোট।<br/><strong>▣ প্রথম গণভোট</strong><br/>❑ ২২ এপ্রিল ১৯৭৭ মেজর জেনারেল জিয়াউর রহমান রাষ্ট্রপতির দায়িত্ব নিয়ে জাতির উদ্দেশে বেতার ও টেলিভিশনে দেওয়া ভাষণে গণভোটের ঘোষণা দেন। ৩০ মে ১৯৭৭ রাষ্ট্রপতি জিয়াউর রহমান এবং তার নীতি ও কর্মসূচির প্রতি আস্থা আছে কি না, সে বিষয়ে গণভোটের আয়োজন করে।<br/>❑ গণভোটে ৮৮.১% মানুষ ভোট দেয়।<br/>❑ এর মধ্যে 'হ্যাঁ' ভোট পড়ে ৯৮.৯%<br/>❑ আর 'না' ভোট পড়ে ১.১%।<br/><strong>▣ দ্বিতীয় গণভোট</strong><br/>❑ ২১ মার্চ ১৯৮৫ দেশে দ্বিতীয় গণভোট অনুষ্ঠিত হয়। রাষ্ট্রপতি ও প্রধান সামরিক আইন প্রশাসক লেফটেন্যান্ট জেনারেল হুসেইন মুহাম্মদ এরশাদের নীতি ও কর্মসূচি এবং স্থগিত সংবিধান অনুযায়ী নির্বাচন না হওয়া পর্যন্ত রাষ্ট্রপতি হিসেবে তার দায়িত্ব পালনের ওপর জনগণের আস্থা আছে কি না, তা যাচাইয়ের জন্য ওই গণভোটের আয়োজন করা হয়। জনগণের আস্থা থাকলে জেনারেল এরশাদের ছবিসহ 'হ্যাঁ' বাক্সে এবং আস্থা না থাকলে 'না' বাক্সে ভোট দেওয়ার ব্যবস্থা রাখা হয়।<br/>❑ গণভোটে ভোট পড়ে ৭২.২%।<br/>❑ এর মধ্যে 'হ্যাঁ' ভোট ছিল ৯৪.৫%<br/>❑ আর 'না' ভোট ছিল ৫.৫%।<br/><strong>▣ তৃতীয় গণভোট</strong><br/>❑ গণ আন্দোলনে ৬ ডিসেম্বর ১৯৯০ পদত্যাগ করেন সামরিক শাসক হুসেইন মুহাম্মদ এরশাদ। ২৭ ফেব্রুয়ারি ১৯৯১ অনুষ্ঠিত পঞ্চম সংসদ নির্বাচনে বিজয়ী হয় বিএনপি। ১৬ বছরের রাষ্ট্রপতি শাসিত সরকারব্যবস্থা থেকে প্রধানমন্ত্রী শাসিত সংসদীয় পদ্ধতির সরকার প্রতিষ্ঠার জন্য ৬ আগস্ট ১৯৯১ জাতীয় সংসদে সংবিধানের দ্বাদশ সংশোধনী বিল পাস হয়। জাতীয় সংসদে গৃহীত সংসদীয় পদ্ধতির সরকার প্রতিষ্ঠার পর সংবিধানের দ্বাদশ সংশোধনীতে রাষ্ট্রপ্রধানের দায়িত্বে থাকা বিচারপতি সাহাবুদ্দীন আহমদ সম্মতি দেবেন কি না; সে প্রশ্নে দেশব্যাপী গণভোট আয়োজনের সর্বসম্মত সিদ্ধান্ত হয়। গণভোটে ভোট পড়ে ৩৫.২%। ভোটে সংসদীয় গণতন্ত্রের পক্ষে, অর্থাৎ<br/>❑ হ্যাঁ' ভোট ছিল ৮৪.৩৮%। অন্যদিকে রাষ্ট্রপতিশাসিত শাসনব্যবস্থার পক্ষে অর্থাৎ<br/>❑ 'না' ভোটের হার ছিল ১৫.৬২%।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332212,
+    "question": "বিশ্বকাপ ফুটবলের মাসকটের নাম কি?",
+    "options": [
+      "Maple",
+      "Zayu",
+      "Clutch",
+      "সবগুলো"
+    ],
+    "correct_answer": "সবগুলো",
+    "explanation": "📖 ২০২৬ বিশ্বকাপ ফুটবলের তিনটি মাসকট উন্মোচন করে ফিফা। তিনটি মাসকট হলো 'ক্লাচ' নামের টাক ঈগল, 'মেপল' নামের মুজ আর মেক্সিকোর জঙ্গল থেকে আসা 'জায়ু' নামের জাগুয়ার। ২০২৬ সালের জুন-জুলাইয়ে যুক্তরাষ্ট্র, কানাডা ও মেক্সিকোয় আয়োজন করা হবে ফুটবল বিশ্বকাপ।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332213,
+    "question": "আন্তর্জাতিক মুদ্রা তহবিলের (আইএমএফ) এর বর্তমান সদস্য দেশ কতটি?",
+    "options": [
+      "১৯০ টি",
+      "১৯১ টি",
+      "১৯২ টি",
+      "১৯৩ টি"
+    ],
+    "correct_answer": "১৯১ টি",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332214,
+    "question": "দেশের ১৪ তম প্রধান নির্বাচন কমিশনার (সিইসি) হিসেবে নিয়োগ পান কে?",
+    "options": [
+      "ড. মোশাররফ হোসেন",
+      "এ.এম.এম. নাসির উদ্দিন",
+      "ড. খলিলুর রহমান",
+      "অধ্যাপক তোফায়েল আহমেদ"
+    ],
+    "correct_answer": "এ.এম.এম. নাসির উদ্দিন",
+    "explanation": "📖 জনাব এ, এম, এম, নাসির উদ্দিন ২০২৪ সালের ২১ নভেম্বর তারিখে বাংলাদেশের ১৪তম প্রধান নির্বাচন কমিশনার (সিইসি) হিসেবে নিয়োগ লাভ করেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332215,
+    "question": "বিটকয়েন কোন দেশের অফিসিয়াল মুদ্রা?",
+    "options": [
+      "উত্তর কোরিয়া",
+      "এল সালভাদর",
+      "ভিয়েতনাম",
+      "ভেনিজুয়েলা"
+    ],
+    "correct_answer": "এল সালভাদর",
+    "explanation": "📖 বিটকয়েন কোনো দেশের অফিসিয়াল মুদ্রা নয়, এটি একটি বিকেন্দ্রীকৃত ডিজিটাল মুদ্রা। তবে, এল সালভাদর ২০২১ সালে বিটকয়েনকে আইনি দরপত্র হিসেবে গ্রহণকারী প্রথম দেশ ছিল।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332216,
+    "question": "বর্তমান দেশে চাকরিতে প্রবেশের বয়সসীমা কত বছর?",
+    "options": [
+      "৩০ বছর",
+      "৩২ বছর",
+      "৩৪ বছর",
+      "৩৫ বছর"
+    ],
+    "correct_answer": "৩২ বছর",
+    "explanation": "📖 বর্তমানে বাংলাদেশের সরকারি চাকরিতে প্রবেশের সর্বোচ্চ বয়সসীমা ৩২ বছর। এটি সরকারি, স্বায়ত্তশাসিত, আধা-স্বায়ত্তশাসিত, সংবিধিবদ্ধ সরকারি কর্তৃপক্ষ এবং পাবলিক নন-ফাইন্যান্সিয়াল করপোরেশনসহ বিভিন্ন সংস্থায় সরাসরি নিয়োগের ক্ষেত্রে প্রযোজ্য।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332217,
+    "question": "দেশের বৃহত্তম অর্থনৈতিক অঞ্চলের বর্তমান নাম কী?",
+    "options": [
+      "জাতীয় বিশেষ অর্থনৈতিক অঞ্চল",
+      "বাংলাদেশ বিশেষ অর্থনৈতিক অঞ্চল",
+      "বাংলাদেশ শিল্পনগর",
+      "বেজা বিশেষ অর্থনৈতিক অঞ্চল"
+    ],
+    "correct_answer": "জাতীয় বিশেষ অর্থনৈতিক অঞ্চল",
+    "explanation": "📖 দেশের বৃহত্তম অর্থনৈতিক অঞ্চলের বর্তমান নাম জাতীয় বিশেষ অর্থনৈতিক অঞ্চল। উল্লেখ্য, যে সকল প্রতিষ্ঠানের নাম পরিবর্তন করা হয়েছেঃ<br/>❏ পূর্বনাম ➺ বর্তমান নাম ➺ অবস্থান<br/>❏ বঙ্গবন্ধু শেখ মুজিব শিল্পনগর ➺ জাতীয় বিশেষ অর্থনৈতিক অঞ্চল ➺ মিরসরাই, চট্টগ্রাম<br/>❏ বঙ্গবন্ধু শেখ মুজিব সাফারি পার্ক ➺ গাজীপুর সাফারি পার্ক ➺ শ্রীপুর, গাজীপুর<br/>❏ বঙ্গবন্ধু ফিল্ম সিটি ➺ বাংলাদেশ ফিল্ম সিটি ➺ কবিরপুর, গাজীপুর<br/>❏ শেখ হাসিনা জাতীয় যুব উন্নয়ন ইনস্টিটিউট ➺ জাতীয় যুব উন্নয়ন ইনস্টিটিউট ➺ সাভার, ঢাকা<br/>❏ কর্ণেল মালেক মেডিকেল কলেজ ➺ মানিকগঞ্জ মেডিকেল ইনস্টিটিউট ➺ মানিকগঞ্জ<br/>❏ আব্দুল মালেক উকিল মেডিকেল কলেজ ➺ নোয়াখালী মেডিকেল কলেজ ➺ নোয়াখালী<br/>❏ শেখ হাসিনা মেডিকেল কলেজ ➺ জামালপুর মেডিকেল কলেজ ➺ জামালপুর<br/>❏ শেখ হাসিনা মেডিকেল কলেজ ➺ টাঙ্গাইল মেডিকেল কলেজ ➺ টাঙ্গাইল<br/>❏ বঙ্গবন্ধু শেখ মুজিব মেডিকেল কলেজ ➺ ফরিদপুর মেডিকেল কলেজ ➺ ফরিদপুর<br/>❏ এম. আব্দুর রহিম মেডিকেল কলেজ ➺ দিনাজপুর মেডিকেল কলেজ ➺ দিনাজপুর<br/>❏ শেখ ফজিলাতুন্নেচ্ছা মুজিব চক্ষু হাসপাতাল ও প্রশিক্ষণ ইন্সটিটিউট ➺ গোপালগঞ্জ চক্ষু হাসপাতাল ও প্রশিক্ষণ ইনস্টিটিউট ➺ গোপালগঞ্জ<br/>❏ শেখ হাসিনা জাতীয় বার্ন অ্যান্ড প্লাস্টিক সার্জারি ইউনিট ➺ ন্যাশনাল ইনস্টিটিউট অব বার্ন অ্যান্ড প্লাস্টিক সার্জারি ➺ ঢাকা<br/>❏ শেখ রাসেল ন্যাশনাল গ্যাস্ট্রেলিভার ইনস্টিটিউট ও হাসপাতাল ➺ ন্যাশনাল গ্যাস্ট্রোলিভার ইনস্টিটিউট ও হাসপাতাল ➺ ঢাকা<br/>❏ শেখ লুৎফর রহমান ডেন্টাল কলেজ হাসপাতাল ➺ গোপালগঞ্জ ডেন্টাল কলেজ হাসপাতাল ➺ গোপালগঞ্জ<br/>❏ শেখ সায়েরা খাতুন মেডিকেল কলেজ হাসপাতাল ➺ গোপালগঞ্জ মেডিকেল কলেজ হাসপাতাল ➺ গোপালগঞ্জ<br/>❏ শেখ সায়রা খাতুন ট্রমা সেন্টার ➺ গোপালগঞ্জ ট্রমা সেন্টার ➺ গোপালগঞ্জ<br/>❏ বঙ্গমাতা শেখ ফজিলাতুন্নেচ্ছা মুজিব জেনারেল হাসপাতাল ➺ সিরাজগঞ্জ জেনারেল হাসপাতাল ➺ সিরাজগঞ্জ<br/>❏ শহিদ শেখ আবু নাসের বিশেষায়িত হাসপাতাল ➺ খুলনা বিশেষায়িত হাসপাতাল ➺ খুলনা<br/>❏ কটিয়াদীর বঙ্গবন্ধু (দলদিয়া) ইউনিয়ন স্বাস্থ্য উপকেন্দ্র ➺ দলদিয়া ইউনিয়ন স্বাস্থ্য উপকেন্দ্র ➺ কিশোরগঞ্জ<br/>❏ বাংলাদেশ জাতীয় সংসদ ভবন প্রাঙ্গণ মাঠ ➺ শহিদ ফারহান ফাইয়াজ খেলার মাঠ ➺ ঢাকা<br/>❏ শেখ কামাল স্টেডিয়াম ➺ শহিদ আবরার ফাহাদ স্টেডিয়াম ➺ কুষ্টিয়া<br/>❏ টাঙ্গাইল জেলা স্টেডিয়াম ➺ শহিদ মারুফ স্টেডিয়াম ➺ টাঙ্গাইল<br/>❏ জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান রেলসেতু ➺ যমুনা রেলসেতু ➺ যমুনা নদী",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332218,
+    "question": "বাংলাদেশের মূল রপ্তানি পণ্য রেডিমেড গার্মেন্টসের একক বৃহত্তম বাজার-",
+    "options": [
+      "ইউরোপীয় ইউনিয়ন",
+      "যুক্তরাষ্ট্র",
+      "মধ্যপ্রাচ্য",
+      "যুক্তরাজ্য"
+    ],
+    "correct_answer": "যুক্তরাষ্ট্র",
+    "explanation": "📖 বাংলাদেশের তৈরি পোশাকের একক বৃহত্তম বাজার হলো যুক্তরাষ্ট্র। এটি একক দেশ হিসেবে তৈরি পোশাক রপ্তানির সবচেয়ে বড় বাজার, যদিও ইউরোপীয় ইউনিয়ন একটি ব্লক হিসেবে এর চেয়ে বড় বাজার।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332219,
+    "question": "ভাষা আন্দোলনের ফলে কোন প্রতিষ্ঠানটি সৃষ্টি হয়?",
+    "options": [
+      "এশিয়াটিক সোসাইটি",
+      "বাংলা একাডেমি",
+      "ঢাকা বিশ্ববিদ্যালয়",
+      "শহীদ মিনার"
+    ],
+    "correct_answer": "বাংলা একাডেমি",
+    "explanation": "📖 বাংলা একাডেমি ১৯৫৫ খ্রিষ্টাব্দের ৩ ডিসেম্বর (১৭ অগ্রহায়ণ, ১৩৬২ বঙ্গাব্দ) প্রতিষ্ঠিত হয়। বাংলা ভাষা ও সাহিত্যের চর্চা, গবেষণা ও প্রচারের লক্ষ্যে তৎকালীন পূর্ব পাকিস্তানে (বর্তমান বাংলাদেশে) এই একাডেমি প্রতিষ্ঠা করা হয়। রাষ্ট্রভাষা আন্দোলন-পরবর্তী কালের প্রেক্ষাপটে বাংলা একাডেমি প্রতিষ্ঠার দাবি ওঠে। তৎকালীন পূর্ব পাকিস্তানের প্রধানমন্ত্রীর সরকারি বাসভবন 'বর্ধমান হাউজ'- এ এই একাডেমির সদর দপ্তর স্থাপিত হয়। একাডেমির 'বর্ধমান হাউজে' একটি 'ভাষা আন্দোলন জাদুঘর' আছে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332220,
+    "question": "বিতর্কিত 'এভিন কারাগার' কোথায় অবস্থিত?",
+    "options": [
+      "কিউবা",
+      "যুক্তরাষ্ট্র",
+      "তেল আবিব",
+      "তেহরান"
+    ],
+    "correct_answer": "তেহরান",
+    "explanation": "📖 বিতর্কিত এভিন কারাগারটি ইরানের রাজধানী তেহরানে অবস্থিত। এটি দেশটির রাজনৈতিক বন্দীদের জন্য কুখ্যাত একটি কারাগার, যেখানে সাধারণত রাজনৈতিক বন্দী, পশ্চিমা দেশের নাগরিক এবং দ্বৈত নাগরিকত্বধারী বন্দীদের রাখা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332221,
+    "question": "জনসংখ্যার দিক থেকে বিশ্বে বাংলাদেশের অবস্থান কততম?",
+    "options": [
+      "৭ম",
+      "৮ম",
+      "৯ম",
+      "১০ম"
+    ],
+    "correct_answer": "৮ম",
+    "explanation": "📖 বিশ্ব জনসংখ্যা প্রতিবেদন ২০২৫ অনুযায়ী, জনসংখ্যার দিক থেকে বাংলাদেশের অবস্থান ৮ম।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332222,
+    "question": "তাজমহল, খাসমহল, শীষমহল নির্মান করেন কে?",
+    "options": [
+      "হুমায়ূন",
+      "আকবর",
+      "জাহাঙ্গীর",
+      "শাহজাহান"
+    ],
+    "correct_answer": "শাহজাহান",
+    "explanation": "📖 তাজমহল, খাসমহল এবং শীষমহল নির্মাণ করেছিলেন মুঘল সম্রাট শাহজাহান। তিনি তার প্রিয়তমা স্ত্রী মমতাজ মহলের স্মরণে এই স্থাপত্যগুলো নির্মাণ করেছিলেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332223,
+    "question": "'এগারো সিন্ধু' দূর্গের নির্মাতা কে?",
+    "options": [
+      "শেরশাহ",
+      "ঈশা খাঁ",
+      "মুসা খান",
+      "প্রতাপাদিত্য"
+    ],
+    "correct_answer": "ঈশা খাঁ",
+    "explanation": "📖 'এগারো সিন্ধু' দুর্গের নির্মাতা হিসেবে বিভিন্ন মত প্রচলিত আছে, তবে ঈশা খাঁ ছিলেন এই দুর্গটির সবচেয়ে পরিচিত দখলদার এবং এটিকে তাঁর শক্ত ঘাঁটিতে পরিণত করেছিলেন। ঐতিহাসিকদের মতে, দুর্গটি প্রথমে বেবুধ রাজার ছিল এবং পরে ঈশা খাঁ তাঁকে পরাজিত করে দুর্গটি দখল করেন। অন্য মত অনুসারে, রাজা আজাহাবা বা রাজা গৌরেরও এই দুর্গ নির্মাণের সাথে জড়িত থাকার কথা বলা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332224,
+    "question": "এবছর শান্তিতে নোবেল বিজয়ী মারিয়া কোরিনা মাচাদো কোন দেশের নাগরিক?",
+    "options": [
+      "ভেনিজুয়েলা",
+      "যুক্তরাষ্ট্র",
+      "মেক্সিকো",
+      "ইউক্রেন"
+    ],
+    "correct_answer": "ভেনিজুয়েলা",
+    "explanation": "📖 ২০২৫ সালের নোবেল শান্তি পুরস্কার লাভ করেন ভেনেজুয়েলার মারিয়া কোরিনা মাচাদো। গণতন্ত্র ও মানবাধিকারের জন্য দীর্ঘদিনের সংগ্রামের স্বীকৃতি হিসেবে ভেনেজুয়েলার এই রাজনীতিককে এ বছরের নোবেল শান্তি পুরস্কার দেওয়া হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332225,
+    "question": "কে বাঁশের কেল্লা নির্মান করে বৃটিশ বিরোধী আন্দোলনে কৃষক-প্রজাদের সংগঠিত করেছিলেন?",
+    "options": [
+      "হাজী শরীয়তুল্লাহ",
+      "মজনু শাহ",
+      "আহমেদ বেরলভী",
+      "সৈয়দ নিসার আলী তিতুমীর"
+    ],
+    "correct_answer": "সৈয়দ নিসার আলী তিতুমীর",
+    "explanation": "📖 ব্রিটিশ বিরোধী আন্দোলনে কৃষক-প্রজাদের সংগঠিত করে 'বাঁশের কেল্লা' নির্মাণ করেছিলেন তিতুমীর (সৈয়দ মীর নিসার আলী)। তিনি ব্রিটিশ শাসক এবং অত্যাচারী জমিদারদের বিরুদ্ধে লড়াই শুরু করেন এবং এতে সাধারণ মানুষ ব্যাপকভাবে অংশগ্রহণ করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332226,
+    "question": "বাংলাদেশে বিচারপতিদের সর্বোচ্চ বয়সসীমা কত?",
+    "options": [
+      "৫৭ বছর",
+      "৬০ বছর",
+      "৬২ বছর",
+      "৬৭ বছর"
+    ],
+    "correct_answer": "৬৭ বছর",
+    "explanation": "📖 সংবিধানের ৯৬ (১) অনুচ্ছেদ অনুসারে, কোনো বিচারক ৬৭ বৎসর পূর্ণ হওয়া পর্যন্ত স্বীয় পদে বহাল থাকবেন। আবার ৬৪(৪) অনুচ্ছেদে বলা হয়েছে, রাষ্ট্রপতির সন্তোষানুযায়ী সময়সীমা পর্যন্ত অ্যাটর্নি জেনারেল স্বীয় পদে বহাল থাকবেন'। উল্লেখ্য, বাংলাদেশের সংবিধানের ৬৬(১) অনুযায়ী সংসদ সদস্য পদে নির্বাচনে প্রার্থী হওয়ার সর্বনিম্ন বয়স ২৫ বছর হতে হবে। আর সংবিধানের ৪৮(৪)ক অনুযায়ী রাষ্ট্রপতি হওয়ার সর্বনিম্ন বয়স ৩৫ বছর হতে হবে। সংবিধান অনুযায়ী প্রধান বিচারপতির অবসরসীমা ৬৭ বছর। সংবিধান অনুযায়ী PSC এর চেয়ারম্যানের অবসরসীমা ৬৭ বছর।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332227,
+    "question": "'Long Walk to Freedom'-এটি কার আত্মজীবনীমূলক বই?",
+    "options": [
+      "বেনজির ভুট্টো",
+      "নেলসন ম্যান্ডেলা",
+      "মহাত্মা গান্ধী",
+      "হিলারী ক্লিনটন"
+    ],
+    "correct_answer": "নেলসন ম্যান্ডেলা",
+    "explanation": "📖 দক্ষিণ আফ্রিকার কুখ্যাত প্রেসিডেন্ট নেলসন ম্যান্ডেলার আত্মজীবনীমূলক বই Long walk to Freedom যা ১৯৪৪ সালে প্রথম প্রকাশিত হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332228,
+    "question": "বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ-এর পদবি কী ছিল?",
+    "options": [
+      "ক্যাপ্টেন",
+      "লেফটেন্যান্ট",
+      "ল্যান্স নায়েক",
+      "সিপাহী"
+    ],
+    "correct_answer": "ল্যান্স নায়েক",
+    "explanation": "📖 সকল বীরশ্রেষ্ঠদের পদবীঃ<br/>❏ বীরশ্রেষ্ঠের নাম ➺ কর্মক্ষেত্র ➺ পদবি<br/>❏ মুন্সী আব্দুর রউফ ➺ রাইফেল্স ➺ ল্যান্সনায়েক<br/>❏ মোহাম্মদ মোস্তফা কামাল ➺ সেনাবাহিনী ➺ সিপাহি<br/>❏ মতিউর রহমান ➺ বিমানবাহিনী ➺ ফ্লাইট লেফটেন্যান্ট<br/>❏ নূর মোহাম্মদ শেখ ➺ রাইফেলস ➺ ল্যান্সনায়েক<br/>❏ হামিদুর রহমান ➺ সেনাবাহিনী ➺ সিপাহি<br/>❏ রুহুল আমিন ➺ নৌবাহিনী ➺ ইঞ্জিনরুম আর্টিফিসার<br/>❏ মহিউদ্দিন জাহাঙ্গীর ➺ সেনাবাহিনী ➺ ক্যাপ্টেন",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332229,
+    "question": "বাংলাদেশ সিকিউরিটি প্রিন্টিং প্রেস কোথায় অবস্থিত?",
+    "options": [
+      "চট্টগ্রাম",
+      "গাজীপুর",
+      "ময়মনসিংহ",
+      "খুলনা"
+    ],
+    "correct_answer": "গাজীপুর",
+    "explanation": "📖 বাংলাদেশ সিকিউরিটি প্রিন্টিং প্রেস গাজীপুরে অবস্থিত। এটি শিমুলতলীতে অবস্থিত এবং বাংলাদেশের একমাত্র টাকা ছাপানোর কারখানা।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332230,
+    "question": "নির্বাচন বিধি অনুসারে প্রতিটি রাজনৈতিক দলে নারী সদস্য থাকতে হবে কত শতাংশ?",
+    "options": [
+      "১০%",
+      "১৫%",
+      "২০%",
+      "৩৩%"
+    ],
+    "correct_answer": "৩৩%",
+    "explanation": "📖 নির্বাচন বিধি অনুযায়ী, বাংলাদেশের রাজনৈতিক দলগুলোর কমিটিতে ৩৩% নারী সদস্য থাকা বাধ্যতামূলক, যা ২০২০ সালের মধ্যে বাস্তবায়ন করার কথা থাকলেও তা এখনো অনেক দলই পূরণ করতে পারেনি। এটি একটি গুরুত্বপূর্ণ বিধান যা রাজনৈতিক দলগুলোতে নারীর অংশগ্রহণ বৃদ্ধি এবং নেতৃত্ব পর্যায়ে তাদের প্রতিনিধিত্ব নিশ্চিত করার জন্য প্রণীত হয়েছে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332231,
+    "question": "বাংলাদেশের সফটওয়্যার প্রস্তুতকারীদের সমিতির নাম-",
+    "options": [
+      "সফটএস",
+      "বেসিস",
+      "কাটেক্সপো",
+      "বিএসসিআইস"
+    ],
+    "correct_answer": "বেসিস",
+    "explanation": "📖 বাংলাদেশের সফটওয়্যার প্রস্তুতকারীদের সমিতির নাম হলো বাংলাদেশ অ্যাসোসিয়েশন অব সফটওয়্যার অ্যান্ড ইনফরমেশন সার্ভিসেস (বেসিস)। এটি বাংলাদেশের সফটওয়্যার ও তথ্যপ্রযুক্তি খাতের একটি জাতীয় সংগঠন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332232,
+    "question": "জাপানের প্রথম নারী প্রধানমন্ত্রী কে?",
+    "options": [
+      "তোশিকো আবে",
+      "জুনকো তাবেই",
+      "সানায়ে তাকাইচি",
+      "আনালিনা বেয়ারবক"
+    ],
+    "correct_answer": "সানায়ে তাকাইচি",
+    "explanation": "📖 জাপানের ক্ষমতাসীন লিবারেল ডেমোক্রেটিক পার্টি (এলডিপি) সানায়ে তাকাইচিকে নতুন সভাপতি হিসেবে নির্বাচিত করেন। তাকাইচিই কার্যত জাপানের বর্তমান প্রধানমন্ত্রী। প্রথমবারের মতো তিনি দেশটি নারী প্রধানমন্ত্রী হন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332233,
+    "question": "জুলাই সনদ আনুষ্ঠানিকভাবে স্বাক্ষর করা হয় কবে?",
+    "options": [
+      "৭ অক্টোবর, ২০২৫",
+      "১০ অক্টোবর, ২০২৫",
+      "১৫ অক্টোবর, ২০২৫",
+      "১৭ অক্টোবর, ২০২৫"
+    ],
+    "correct_answer": "১৭ অক্টোবর, ২০২৫",
+    "explanation": "📖 জুলাই সনদ আনুষ্ঠানিকভাবে স্বাক্ষরিত হয়েছিল ১৭ অক্টোবর ২০২৫ তারিখে। জাতীয় ঐকমত্য কমিশন এবং বাংলাদেশের ২৫টি রাজনৈতিক দল জাতীয় সংসদের দক্ষিণ প্লাজায় এই সনদটিতে স্বাক্ষর করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332234,
+    "question": "কোন ভিটামিনটি পানিতে দ্রবনীয়?",
+    "options": [
+      "ভিটামিন এ",
+      "ভিটামিন বি",
+      "ভিটামিন ডি",
+      "ভিটামিন ডি"
+    ],
+    "correct_answer": "ভিটামিন বি",
+    "explanation": "📖 পানিতে দ্রবণীয় ভিটামিনঃ যে ভিটামিনগুলো পানিতে দ্রবীভূত হয় কিন্তু তেল বা চর্বিতে অদ্রবীভূত থাকে তাদের পানিতে দ্রবণীয় ভিটামিন (Water soluble vitamin) বলে। এ ভিটামিনগুলো হলো বিভিন্ন প্রকারের ভিটামিন বি ও ভিটামিন সি বা এসকরবিক এসিড। বি ভিটামিনগুলোকে একত্রে ভিটামিন বি কমপ্লেক্স বলে। ভিটামিন বি₁ বা থায়ামিন, ভিটামিন বি₂ বা রিবোফ্লাভিন, ভিটামিন বি₃ বা নায়াসিন, ভিটামিন বি₆ বা পিরিডক্সিন, ভিটামিন বি₁₂ বা কোবালামিন, ফলিক এসিড, পেন্টোথেনিক এসিড, বায়োটিন ইত্যাদি গুরুত্বপূর্ণ বি ভিটামিন। এগুলো মানবদেহের জন্য আবশ্যক।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332235,
+    "question": "মানবদেহে লোহিত রক্ত কনিকার গড় আয়ু কত?",
+    "options": [
+      "৯০ দিন",
+      "১০০ দিন",
+      "১১০ দিন",
+      "১২০ দিন"
+    ],
+    "correct_answer": "১২০ দিন",
+    "explanation": "📖 লোহিত রক্তকণিকা দেখতে অনেকটা বৃত্তের মতো দ্বি-অবতল। লোহিত রক্তকণিকায় হিমোগ্লোবিন থাকে। লোহিত রক্তকণিকার সংখ্যা শ্বেত রক্তকণিকার তুলনায় অনেক বেশি। এদের অনুপাত প্রায় ৭০০ : ১। লোহিত রক্তকণিকার গড় আয়ু ১২০ দিন। আর শ্বেত রক্তকণিকার গড় আয়ু ১-১৫ দিন।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332236,
+    "question": "'ভূগোল' শব্দটির বিশেষণ পদ কোনটি?",
+    "options": [
+      "ভূগোলক",
+      "ভৌগোলিক",
+      "ভৌগলিক",
+      "ভূগোলিক"
+    ],
+    "correct_answer": "ভৌগোলিক",
+    "explanation": "<p>ভূগোল একটি বিশেষ্য পদ এর বিশেষণ হল ভৌগোলিক। এটি সঠিক উত্তর।🎉🎉🎉</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332237,
+    "question": "'আবির্ভাব' এর বিপরীত শব্দ কোনটি?",
+    "options": [
+      "অভাব",
+      "স্বভাব",
+      "তিরোভাব",
+      "অনুভাব"
+    ],
+    "correct_answer": "তিরোভাব",
+    "explanation": "<p>আবির্ভাব এর বিপরীত তিরোভাব। এটি সঠিক উত্তর। 🎊🎉🎊🎉।তিরোভাব অর্থ চলে যাওয়া।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332238,
+    "question": "'জনৈক' শব্দটির সন্ধি বিচ্ছেদ-",
+    "options": [
+      "জন + এক",
+      "জন + ইক",
+      "জনৈ + এক",
+      "জন + ঈক"
+    ],
+    "correct_answer": "জন + এক",
+    "explanation": "📖 'অ' কার কিংবা 'আ' কারের পর 'এ' কার কিংবা 'ঐ' কার হয়; 'ঐ' কার পূর্ববর্তী ব্যঞ্জনের সাথে যুক্ত হয়। যেমনঃ<br/>❏ অ + এ = ঐ জন + এক = জনৈক।<br/>❏ আ + এ = ঐ সদা + এব = সদৈব।<br/>❏ অ + ঐ = ঐ মত + ঐক্য = মতৈক্য।<br/>❏ আ + ঐ = ঐ মহা + ঐশ্বর্য = মহৈশ্বর্য।<br/>❏ এরূপঃ হিতৈষী, সর্বৈব, অতুলৈশ্বর্য ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332239,
+    "question": "নিচের কোন শব্দটি 'আলো' এর সমার্থক নয়?",
+    "options": [
+      "অংশু",
+      "প্রভা",
+      "ময়ূখ",
+      "দীপ্ত"
+    ],
+    "correct_answer": "দীপ্ত",
+    "explanation": "📖 'আলো' শব্দের সমার্থক শব্দগুলো হলোঃ জ্যোতি, অংশু, কিরণ, আলোক, ময়ূখ, রশ্মি, দীপ্তি, প্রভা, কর।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332240,
+    "question": "'দহন' শব্দের বিশেষণ কোনটি?",
+    "options": [
+      "দাহ্য",
+      "দগ্ধ",
+      "দহনকারী",
+      "দহনীয়"
+    ],
+    "correct_answer": "দাহ্য",
+    "explanation": "",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332241,
+    "question": "'বদনাম' শব্দের 'বদ' কোন ভাষার উপসর্গ?",
+    "options": [
+      "বাংলা",
+      "ফারসি",
+      "আরবি",
+      "হিন্দি"
+    ],
+    "correct_answer": "ফারসি",
+    "explanation": "📖 কতিপয় ফারসি উপসর্গ হলোঃ<br/>❏ উপসর্গ ➺ যে অর্থে প্রযুক্ত ➺ উদাহরণ<br/>❏ বদ্ ➺ মন্দ ➺ বদমেজাজ, বদরাগী, বদমাশ, বদহজম, বদনাম<br/>❏ বে ➺ না ➺ বেআদব, বেআক্কেল, বেকসুর, বেকায়দা, বেতার, বেকার<br/>❏ বর্ ➺ বাইরে, মধ্যে ➺ বরখাস্ত, বরদাস্ত, বরখেলাপ, বরবাদ<br/>❏ ব্‌ ➺ সহিত ➺ বমাল, বনাম, বকলম",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  },
+  {
+    "id": 332242,
+    "question": "'গরীয়সী' এর বিপরীত লিঙ্গ কী?",
+    "options": [
+      "মহৎ",
+      "মহান",
+      "গরীয়ান",
+      "মহীয়ান"
+    ],
+    "correct_answer": "গরীয়ান",
+    "explanation": "📖 'গরীয়সী' এর বিপরীত লিঙ্গ হলো গরীয়ান। উল্লেখ্য<br/>❏ পুংবাচক থাকলে ➺ স্ত্রীবাচক থাকলে ➺ উদাহরণ<br/>❏ ঈয়ান ➺ ঈয়সী ➺ মহীয়ান-মহীয়সী, গরীয়ান-গরীয়সী",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Islami Bank Bangladesh Ltd (IBBL)",
+    "exam": "৫০৮৩@Islami Bank PLC ➺ TAO ☞ 1.11.25"
+  }
+]

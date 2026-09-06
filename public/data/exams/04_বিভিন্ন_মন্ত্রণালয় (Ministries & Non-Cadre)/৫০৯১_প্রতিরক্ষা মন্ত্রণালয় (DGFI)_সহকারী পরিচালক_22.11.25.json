@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 332937,
+    "question": "কোনটি প্রশ্নবোধক স্থানে বসবে? A, C, F, J, O, ?",
+    "options": [
+      "Q",
+      "S",
+      "U",
+      "T"
+    ],
+    "correct_answer": "U",
+    "explanation": "📖 A (1) -> +2 -> C (3)<br/>C (3) -> +3 -> F (6)<br/>F (6) -> +4 -> J (10)<br/>J (10) -> +5 -> O (15)<br/>O (15) -> +6 -> U (21)<br/>সঠিক উত্তর U।<br/> ⇢ <br/>⛳ অক্ষরের মাঝখানের গ্যাপ লক্ষ্য করি:<br/>A (B বাদ) C<br/>C (D, E বাদ) F<br/>F (G, H, I বাদ) J<br/>J (K, L, M, N বাদ) O<br/>O (P, Q, R, S, T - ৫টি বাদ) U<br/>অর্থাৎ গ্যাপ ১, ২, ৩, ৪, ৫ করে বাড়ছে।<br/><br/>❏",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332938,
+    "question": "একটি সুষম বহুভুজের একটি অন্তঃকোণের পরিমাণ 135 ডিগ্রী হলে বহুভুজের বাহুর সংখ্যা কত?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "10"
+    ],
+    "correct_answer": "8",
+    "explanation": "📖 বহিঃস্থ কোণ = 180⁰ - অন্তঃকোণ<br/>= 180⁰ - 135⁰ = 45⁰<br/>বাহুর সংখ্যা (n) = 360⁰ / বহিঃস্থ কোণ<br/>= 360⁰ / 45⁰<br/>= 8<br/> ⇢ <br/>⛳ অন্তঃকোণের সূত্র দিয়েও করা যায়:<br/>অন্তঃকোণ = (2n - 4) × 90⁰ / n<br/>135 = (180n - 360) / n<br/>135n = 180n - 360<br/>45n = 360<br/>n = 8<br/> ⇢ <br/>⛳ আমরা জানি, অন্তঃকোণের পরিমাণ<br/>= (n - 2) × 180° / n<br/>প্রশ্নমতে, 135° = (n - 2) × 180° / n<br/>⇒ 135° n = 180° n - 360°<br/>⇒ 180° n - 360° = 135° n<br/>⇒ 180° n - 135° n = 360°<br/>⇒ 45° n = 360°<br/>∴ n = 360° / 45° = 8",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332939,
+    "question": "x + y = 4, x - y = 2 হলে y এর মান কত?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "1",
+    "explanation": "📖 সমীকরণ দুটি বিয়োগ করে পাই:<br/>(x + y) - (x - y) = 4 - 2<br/>বা, 2y = 2<br/>বা, y = 1<br/> ⇢ <br/>⛳ যোগ করে x এর মান বের করি:<br/>2x = 6 => x = 3<br/>যেকোনো সমীকরণে x এর মান বসাই:<br/>3 + y = 4<br/>y = 4 - 3 = 1<br/>শর্টকাট: y = (যোগফল - বিয়োগফল) / 2 = (4 - 2) / 2 = 1।<br/> ⇢ <br/>⛳ দেওয়া আছে, x - y = 2 ............ (i)<br/>x + y = 4 ........................ (ii)<br/>সমীকরণ (i) এবং (ii) যোগ করে পাই,<br/>x + y = 2<br/>x - y = 4<br/>2x = 6<br/>∴ x = 3<br/>x এর মান (i) নং এ বসাই<br/>x - y = 2<br/>∴ y = x - 2 = 3 - 2 = 1",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332940,
+    "question": "একটি ত্রিভুজের তিনটি কোণের অনুপাত 2 : 3 : 4 হলে বৃহত্তম কোণের পরিমাণ কত ডিগ্রী?",
+    "options": [
+      "60",
+      "80",
+      "70",
+      "90"
+    ],
+    "correct_answer": "80",
+    "explanation": "📖 তিন কোণের সমষ্টি 180⁰।<br/>অনুপাতের যোগফল = 2 + 3 + 4 = 9।<br/>বৃহত্তম কোণটি আনুপাতিক হারে 4।<br/>সুতরাং বৃহত্তম কোণ = (180⁰ × 4) / 9<br/>= 20⁰ × 4<br/>= 80⁰<br/> ⇢ <br/>⛳ কোণগুলো ধরি 2x, 3x, 4x।<br/>প্রশ্নমতে, 2x + 3x + 4x = 180<br/>9x = 180<br/>x = 20<br/>বৃহত্তম কোণ = 4x = 4 × 20 = 80 ডিগ্রী।<br/> ⇢ <br/>⛳ আমরা জানি, ত্রিভুজের ৩ কোণের সমষ্টি = 180°<br/>দেয়া আছে, ত্রিভুজের তিনটি কোণের অনুপাত 2 : 3 : 4<br/>∴ তিনটি কোণের অনুপাতের সমষ্টি = 2 + 3 + 4 = 9<br/>∴ বড় কোণ হল = (180° × 4) / 9 = 80°<br/>Shortcut: বড় কোণ = 180° × 4 / (2+3+4) = 80°",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332941,
+    "question": "একটি বৃত্তের ব্যাসার্ধ দ্বিগুণ করা হলে ক্ষেত্রফল কতগুণ বৃদ্ধি পাবে?",
+    "options": [
+      "2 গুণ",
+      "3 গুণ",
+      "4 গুণ",
+      "5 গুণ"
+    ],
+    "correct_answer": "4 গুণ",
+    "explanation": "📖 বৃত্তের ক্ষেত্রফল A ∝ r² (ব্যাসার্ধের বর্গের সমানুপাতিক)।<br/>ব্যাসার্ধ 2 গুণ করলে ক্ষেত্রফল হবে 2² = 4 গুণ।<br/> ⇢ <br/>⛳ ধরি, আদি ব্যাসার্ধ = r, আদি ক্ষেত্রফল = πr²<br/>নতুন ব্যাসার্ধ = 2r<br/>নতুন ক্ষেত্রফল = π(2r)² = π(4r²) = 4πr²<br/>সুতরাং, নতুন ক্ষেত্রফল আদি ক্ষেত্রফলের 4 গুণ।<br/> ⇢ <br/>⛳ ধরি, পূর্ব ব্যাসার্ধ r একক।<br/>∴ নতুন ব্যাসার্ধ ২r একক।<br/>পূর্ব ক্ষেত্রফল πr² বর্গএকক।<br/>এবং নতুন ক্ষেত্রফল π(২r)² = ৪πr² বর্গএকক।<br/>∴ ক্ষেত্রফল বাড়বে = (৪πr²) / (πr²) = ৪ গুণ।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332942,
+    "question": "একটি ত্রিভুজের তিনটি বাহুর অনুপাত 7 : 4 : 3 এবং পরিসীমা 14 মিটার হলে, ছোট বাহু কত?",
+    "options": [
+      "7 মিটার",
+      "3 মিটার",
+      "6 মিটার",
+      "4 মিটার"
+    ],
+    "correct_answer": "3 মিটার",
+    "explanation": "📖 অনুপাতের যোগফল = 7 + 4 + 3 = 14।<br/>পরিসীমাও 14 মিটার।<br/>সুতরাং বাহুগুলো যথাক্রমে 7, 4 এবং 3 মিটার।<br/>সবচেয়ে ছোট বাহু = 3 মিটার।<br/> ⇢ <br/>⛳ সাধারণ নিয়ম:<br/>ছোট বাহু = (পরিসীমা × ছোট অনুপাত) / অনুপাতের যোগফল<br/>= (14 × 3) / (7+4+3)<br/>= (14 × 3) / 14<br/>= 3 মিটার।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332943,
+    "question": "নিচের প্রশ্নবোধক স্থানে বসবে? 2, 3, 5, 9, ?",
+    "options": [
+      "15",
+      "17",
+      "19",
+      "21"
+    ],
+    "correct_answer": "17",
+    "explanation": "📖 পার্থক্যগুলো লক্ষ্য করি:<br/>3 - 2 = 1<br/>5 - 3 = 2<br/>9 - 5 = 4<br/>পার্থক্য দ্বিগুণ হচ্ছে (1, 2, 4)। পরবর্তী পার্থক্য হবে 8।<br/>সুতরাং, পরবর্তী সংখ্যা = 9 + 8 = 17।<br/> ⇢ <br/>⛳ ধারাটির প্যাটার্ন:<br/>2 + 2⁰ = 3<br/>3 + 2¹ = 5<br/>5 + 2² = 9<br/>9 + 2³ = 9 + 8 = 17<br/>অর্থাৎ প্রতি পদের সাথে 2 এর পাওয়ার যোগ হচ্ছে।<br/> ⇢ <br/>⛳ ২য় পদ = ১ম পদ × ২ - ১ = ২ × ২ - ১ = ৩<br/>৩য় পদ = ২য় পদ × ২ - ১ = ৩ × ২ - ১ = ৫<br/>৪র্থ পদ = ৩য় × ২ - ১ = ৫ × ২ - ১ = ৯<br/>৫ম পদ = ৪র্থ × ২ - ১ = ৯ × ২ - ১ = ১৭",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332944,
+    "question": "\\({x}^{{2}}-{3}{x}-{2}\\)</u>&nbsp;কে x+1 দ্বারা ভাগ করলে ভাগশেষ কত হবে?",
+    "options": [
+      "4",
+      "2",
+      "0",
+      "1"
+    ],
+    "correct_answer": "2",
+    "explanation": "📖 ধরি, f(x) = x² - 3x - 2<br/>ভাজক (x + 1) হলে, ভাগশেষ হবে f(-1)।<br/>f(-1) = (-1)² - 3(-1) - 2<br/>= 1 + 3 - 2<br/>= 4 - 2<br/>= 2<br/>⇢ <br/>⛳ ভাগশেষ উপপাদ্য (Remainder Theorem) অনুযায়ী, কোনো বহুপদী f(x) কে (x-a) দ্বারা ভাগ করলে ভাগশেষ হয় f(a)।<br/>এখানে ভাজক (x+1) বা (x - (-1))।<br/>তাই x এর পরিবর্তে -1 বসালে যে মান পাওয়া যাবে, তাই ভাগশেষ।<br/>(-1)² - 3(-1) - 2 = 1 + 3 - 2 = 2।<br/>⇢ <br/>⛳ x + 1) x² - 3x - 2 (x - 4<br/>-x² + x<br/>----------<br/>-4x - 2<br/>-4x - 4<br/>----------<br/>2<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332945,
+    "question": "কোন সংখ্যার দুই-তৃতীয়াংশ ঐ সংখ্যার চেয়ে ৫০ কম হলে সংখ্যাটি কত?",
+    "options": [
+      "208",
+      "350",
+      "150",
+      "225"
+    ],
+    "correct_answer": "150",
+    "explanation": "📖 ধরি, সংখ্যাটি x<br/>প্রশ্নমতে, x - (2x/3) = 50<br/>বা, (3x - 2x) / 3 = 50<br/>বা, x / 3 = 50<br/>বা, x = 150<br/> ⇢ <br/>⛳ ভগ্নাংশের ধারণা থেকে:<br/>সংখ্যাটি সম্পূর্ণ অংশ = 1 বা 3/3<br/>দেওয়া আছে, 2/3 অংশ।<br/>পার্থক্য = 1 - 2/3 = 1/3 অংশ।<br/>প্রশ্নমতে, এই 1/3 অংশ সমান 50।<br/>সুতরাং, সম্পূর্ণ সংখ্যাটি (1 অংশ) = 50 × 3 = 150।<br/> ⇢ <br/>⛳ মনে করি, সংখ্যাটি = ক<br/>প্রশ্নমতে, ২ক/৩ = ক - ৫০<br/>⇒ ২ক = ৩ক - ১৫০<br/>∴ ক = ১৫০",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332946,
+    "question": "পিতা ও পুত্রের বয়সের অনুপাত 3 : 1, 5 বছর পূর্বে তাদের বয়সের সমষ্টি ছিল ৫০ বছর। পুত্রের বর্তমান বয়স কত?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct_answer": "15",
+    "explanation": "📖 5 বছর পূর্বে সমষ্টি ছিল 50।<br/>বর্তমানে দুজনের মোট বয়স বেড়েছে (5 + 5) = 10 বছর।<br/>বর্তমান বয়সের সমষ্টি = 50 + 10 = 60 বছর।<br/>অনুপাত 3 : 1, অনুপাতের যোগফল = 4।<br/>পুত্রের বর্তমান বয়স = 60 এর 1/4 = 15 বছর।<br/> ⇢ <br/>⛳ ধরি, বর্তমানে পিতার বয়স 3x এবং পুত্রের বয়স x।<br/>5 বছর আগে তাদের বয়স ছিল (3x-5) এবং (x-5)।<br/>প্রশ্নমতে, (3x-5) + (x-5) = 50<br/>4x - 10 = 50<br/>4x = 60<br/>x = 15<br/>পুত্রের বর্তমান বয়স (x) = 15 বছর।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332947,
+    "question": "বৃত্তের কেন্দ্রে ছেদকারী জ্যা কে বলা হয়?",
+    "options": [
+      "ব্যাস",
+      "বৃত্তচাপ",
+      "ব্যাসার্ধ",
+      "পরিধি"
+    ],
+    "correct_answer": "ব্যাস",
+    "explanation": "📖 বৃত্তের যে জ্যা কেন্দ্র দিয়ে গমন করে তাকে ব্যাস (Diameter) বলে। ব্যাস হলো বৃত্তের বৃহত্তম জ্যা।<br/> ⇢ <br/>⛳ জ্যা হলো পরিধির যেকোনো দুটি বিন্দুর সংযোজক রেখাংশ। যখন এই রেখাংশটি কেন্দ্র দিয়ে যায়, তখন তাকে বিশেষ নাম 'ব্যাস' দেওয়া হয়। ব্যাস ব্যাসার্ধের দ্বিগুণ (d = 2r)।<br/> ⇢ <br/>⛳ Basic: বৃত্তের কেন্দ্র ছেদকারী বা বৃত্তে কেন্দ্র দিয়ে অতিক্রম করে বা গমন করে এরূপ জ্যাকে ব্যাস বলে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332948,
+    "question": "যদি মোবাইল ফোনের পূর্বমূল্য : বর্তমান মূল্য 5 : 3 হয়, তবে মূল্য হ্রাসের শতকরা হার কত?",
+    "options": [
+      "30%",
+      "45%",
+      "35%",
+      "40%"
+    ],
+    "correct_answer": "40%",
+    "explanation": "📖 পূর্বমূল্য 5 টাকা হলে বর্তমান মূল্য 3 টাকা।<br/>মূল্য হ্রাস = 5 - 3 = 2 টাকা।<br/>5 টাকায় হ্রাস পায় 2 টাকা।<br/>100 টাকায় হ্রাস পায় = (2 × 100) / 5 = 40 টাকা।<br/>অর্থাৎ মূল্য হ্রাসের হার 40%।<br/> ⇢ <br/>⛳ ভগ্নাংশ পদ্ধতি:<br/>হ্রাস = (পূর্বমূল্য - বর্তমান মূল্য) / পূর্বমূল্য<br/>= (5 - 3) / 5<br/>= 2/5 অংশ<br/>শতকরায় প্রকাশ = (2/5) × 100%<br/>= 2 × 20%<br/>= 40%<br/> ⇢ <br/>⛳ Shortcut: (3 - 5) / 5 × 100% = -40% = 40% হ্রাস",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332949,
+    "question": "একটি সংখ্যার ১২% নিলে ৯৬ পাওয়া যায়, সংখ্যাটি কত?",
+    "options": [
+      "700",
+      "800",
+      "820",
+      "960"
+    ],
+    "correct_answer": "800",
+    "explanation": "📖 ধরি, সংখ্যাটি x<br/>প্রশ্নমতে, x এর 12% = 96<br/>বা, x × (12/100) = 96<br/>বা, x = (96 × 100) / 12<br/>বা, x = 8 × 100<br/>বা, x = 800<br/> ⇢ <br/>⛳ শর্টকাট:<br/>12% = 96<br/>1% = 96/12 = 8<br/>100% (সম্পূর্ণ সংখ্যা) = 8 × 100 = 800<br/> ⇢ <br/>⛳ সংখ্যাটির ১২% = ৯৬<br/>∴ ১০০% = (৯৬ / ১২) × ১০০% = ৮০০",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332950,
+    "question": "যদি&nbsp;\\({2}^{{{x}−{6}}}=\\frac{{1}}{{64}}\\)</u> হয় তবে x এর মান কত?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correct_answer": "0",
+    "explanation": "📖 2^(x-6) = 1/64<br/>বা, 2^(x-6) = 1 / 2⁶<br/>বা, 2^(x-6) = 2⁻⁶<br/>ভিত্তি সমান হলে সূচক সমান হয়।<br/>সুতরাং, x - 6 = -6<br/>বা, x = -6 + 6<br/>বা, x = 0<br/>⇢ <br/>⛳ বিকল্প পদ্ধতি:<br/>বামপক্ষ = 2^(x-6)<br/>ডানপক্ষ = 1/64 = 1/(2⁶) = 2⁻⁶<br/>উভয় পক্ষের ভিত্তি 2 বাদ দিলে পাই:<br/>x - 6 = -6<br/>x = 0<br/>শুদ্ধি পরীক্ষা: x=0 বসালে, 2^(0-6) = 2⁻⁶ = 1/2⁶ = 1/64 (মিলে গেছে)।<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332951,
+    "question": "একটি গাড়ির চাকা প্রতি মিনিটে 90 বার ঘুরলে, এক সেকেন্ডে চাকাটি কত ডিগ্রী ঘুরবে?",
+    "options": [
+      "180",
+      "270",
+      "540",
+      "360"
+    ],
+    "correct_answer": "540",
+    "explanation": "📖 1 মিনিট বা 60 সেকেন্ডে ঘোরে 90 বার।<br/>1 সেকেন্ডে ঘোরে = 90/60 = 1.5 বার।<br/>1 বার ঘুরলে কোণ উৎপন্ন হয় 360⁰।<br/>1.5 বার ঘুরলে কোণ উৎপন্ন হয় = 360⁰ × 1.5 = 540⁰।<br/> ⇢ <br/>⛳ ঐকিক নিয়ম:<br/>60 সেকেন্ডে ঘোরে = 90 বার<br/>1 সেকেন্ডে ঘোরে = 90/60 = 3/2 বার<br/>1 বার ঘূর্ণনে কোণ = 360⁰<br/>3/2 বার ঘূর্ণনে কোণ = 360⁰ × (3/2)<br/>= 180⁰ × 3<br/>= 540⁰<br/> ⇢ <br/>⛳ ১ বার ঘুরলে অতিক্রম করে = ৩৬০°<br/>∴ ৯০ বার ঘুরলে অতিক্রম করে = (৩৬০ × ৯০)°<br/>∴ ৬০ সেকেন্ডে চাকাটি ঘুরে = (৩৬০ × ৯০)°<br/>∴ ১ সেকেন্ডে ঘুরে = (৩৬০ × ৯০) / ৬০ বা ৫৪০°",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332952,
+    "question": "1+5 + 9+13+ ………… ধারাটির 15-তম পদ কতো ?",
+    "options": [
+      "57",
+      "61",
+      "47",
+      "65"
+    ],
+    "correct_answer": "57",
+    "explanation": "📖 এটি একটি সমান্তর ধারা।<br/>প্রথম পদ, a = 1<br/>সাধারণ অন্তর, d = 5 - 1 = 4<br/>n-তম পদ = a + (n-1)d<br/>15-তম পদ = 1 + (15-1) × 4<br/>= 1 + 14 × 4<br/>= 1 + 56<br/>= 57<br/> ⇢ <br/>⛳ শর্টকাট চিন্তা:<br/>পদসংখ্যা 15। প্রতি পদের সাথে 4 করে বাড়ছে।<br/>প্রথম পদ 1।<br/>বাকি 14টি পদে মোট বাড়বে = 14 × 4 = 56।<br/>সুতরাং 15তম পদ = 1 + 56 = 57।<br/> ⇢ <br/>⛳ প্রথম পদ a = 1, সাধারণ অন্তর d = 5 - 1 = 4<br/>15 তম পদ = a + (n - 1) d<br/>= 1 + (15 - 1) 4<br/>= 1 + 56 = 57",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332953,
+    "question": "ABC ত্রিভুজের ∠ B = 90 ডিগ্রী এবং ∠ A : ∠ C = 3 : 6 হলে কোণ দুটির অনুপাত কতো ?",
+    "options": [
+      "15 : 75",
+      "40 : 50",
+      "45 : 90",
+      "30 : 60"
+    ],
+    "correct_answer": "30 : 60",
+    "explanation": "📖 ত্রিভুজের তিন কোণের সমষ্টি 180⁰।<br/>∠B = 90⁰ হলে, ∠A + ∠C = 180⁰ - 90⁰ = 90⁰।<br/>অনুপাত 3 : 6 বা 1 : 2।<br/>অনুপাতের যোগফল = 1 + 2 = 3।<br/>∠A = 90⁰ এর 1/3 = 30⁰<br/>∠C = 90⁰ এর 2/3 = 60⁰<br/>সুতরাং কোণ দুটি 30⁰ ও 60⁰।<br/> ⇢ <br/>⛳ দেওয়া আছে অনুপাত 3 : 6।<br/>অনুপাতটিকে লঘিষ্ঠ আকারে প্রকাশ করলে পাই 1 : 2।<br/>অপশনগুলোর মধ্যে একমাত্র 30 : 60 কেই লঘিষ্ঠ করলে 1 : 2 পাওয়া যায় এবং এদের যোগফল (30+60)=90 হয়, যা সমকোণী ত্রিভুজের অপর দুই কোণের সমষ্টির সমান।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332954,
+    "question": "18 এবং 72 এর গুণোত্তর গড় কোনটি?",
+    "options": [
+      "45",
+      "1296",
+      "36",
+      "4"
+    ],
+    "correct_answer": "36",
+    "explanation": "📖 গুণোত্তর গড় (Geometric Mean) = √(সংখ্যা দুটির গুণফল)<br/>= √(18 × 72)<br/>= √1296<br/>= 36<br/> ⇢ <br/>⛳ গুণোত্তর গড় (GM) নির্ণয়ের সূত্র: GM = √(ab)<br/>এখানে, a = 18, b = 72<br/>18 কে ভাঙলে পাই: 9 × 2<br/>72 কে ভাঙলে পাই: 36 × 2<br/>গুণফল = 9 × 2 × 36 × 2 = 9 × 36 × 4<br/>বর্গমূল = √9 × √36 × √4 = 3 × 6 × 2 = 36<br/> ⇢ <br/>⛳ এখানে, ১৮ এবং ৭২ এর গুণোত্তর গড়<br/>√(১৮ × ৭২) = √(৯ × ২ × ৮ × ৯) = √(৯² × ৪²)<br/>= ৯ × ৪ = ৩৬",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332955,
+    "question": "If Heart : Human then",
+    "options": [
+      "Wall : Brick",
+      "Hand : Child",
+      "Kitchen : House",
+      "Engine : car"
+    ],
+    "correct_answer": "Engine : car",
+    "explanation": "📖 হার্ট (Heart) ছাড়া যেমন মানুষ (Human) বাঁচতে পারে না বা অচল, তেমনি ইঞ্জিন (Engine) ছাড়া গাড়ি (Car) অচল। ইঞ্জিন গাড়ির হৃৎপিণ্ডস্বরূপ।<br/> ⇢ <br/>⛳ Analogy Type: Essential Functional Part.<br/>❏ A human cannot function without a heart. A car cannot function without an engine.<br/>❏ Kitchen is a part of a house, but a house can exist without a kitchen (technically). Wall is made of bricks (Composition), not functional center.<br/> ⇢ <br/>⛳ Human এর প্রাণ সচল থাকে Heart এর মাধ্যমে। আর Car এর প্রাণ সচল থাকে Engine এর মাধ্যমে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332956,
+    "question": "Choose the right sentence.",
+    "options": [
+      "I know where he lives",
+      "। know where does he live",
+      "I know where he living",
+      "None"
+    ],
+    "correct_answer": "I know where he lives",
+    "explanation": "📖 Embedded Question-এ WH word এর পর subject + verb বসে (Assertive structure), interrogative structure হয় না। তাই 'where he lives' সঠিক।<br/> ⇢ <br/>⛳ Embedded Question Rule:<br/>❏ Main Clause + WH word + Subject + Verb.<br/>❏ Incorrect: I know where does he live. (Double interrogative structure is wrong in statement form).<br/>❏ Correct: I know where he lives.<br/> ⇢ <br/>⛳ বাক্যের অর্থঃ আমি জানি সে কোথায় থাকে/ কোথায় বাস করে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332957,
+    "question": "One should be careful about ……… duty.",
+    "options": [
+      "his",
+      "her",
+      "one's",
+      "their"
+    ],
+    "correct_answer": "one's",
+    "explanation": "📖 Subject যদি 'One' হয়, তবে তার possessive form হিসেবে 'one's' ব্যবহৃত হয়।<br/> ⇢ <br/>⛳ Pronoun Agreement:<br/>❏ He -> his<br/>❏ She -> her<br/>❏ One -> one's (Not his/her in formal English).<br/>❏ Example: One must do one's duty.<br/> ⇢ <br/>⛳ One of বাক্যের Subject হলে এরপর Plural noun/ Pronoun হয় কিন্তু Verb টি Singular হয়। বাক্যের অর্থঃ প্রত্যেকের উচিত তার দায়িত্ব সম্পর্কে সচেতন হওয়া।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332958,
+    "question": "Choose the correct sentence.",
+    "options": [
+      "You, he and I will go to school",
+      "I, you and he will go to school",
+      "He, you and me will go to school",
+      "You, I and he will go to school"
+    ],
+    "correct_answer": "You, he and I will go to school",
+    "explanation": "📖 সাধারণ কাজ বা ভালো কাজের ক্ষেত্রে Person এর ক্রম হয় 231 (Second, Third, First)। অর্থাৎ You, he and I। দোষ স্বীকারের ক্ষেত্রে ক্রম হয় 123।<br/> ⇢ <br/>⛳ 231 Rule:<br/>❏ 2nd Person (You) + 3rd Person (He) + 1st Person (I).<br/>❏ Verb হবে Plural (will go).<br/>❏ দোষ স্বীকার বোঝালে: I, you and he are guilty (1-2-3 Rule).<br/> ⇢ <br/>⛳ Verb এর পূর্বে বিভিন্ন Number এবং Person এর Subject যদি 'and' বা 'or' দ্বারা যুক্ত হয় তবে প্রথমে Second, তারপর Third এবং শেষে 1𝑠𝑡 person বসে। মনে রাখার জন্য 231 খেয়াল রাখতে হবে। তবে এক্ষেত্রে সবগুলোতেই Subjective রূপ বসে এবং সংশ্লিষ্ট Verb টি সর্বদাই Plural হয়। বাক্যের অর্থঃ আমি, তুমি ও সে স্কুলে যাবো।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332959,
+    "question": "Bibliography related to",
+    "options": [
+      "Astronomy",
+      "Books",
+      "Astrology",
+      "None"
+    ],
+    "correct_answer": "Books",
+    "explanation": "📖 Bibliography অর্থ গ্রন্থপঞ্জি বা বইয়ের তালিকা। এটি বই বা প্রকাশনার সাথে সম্পর্কিত।<br/> ⇢ <br/>⛳ Root Word: 'Biblio' comes from Greek 'Biblion' meaning Book. 'Graphy' means writing or description. So, Bibliography is the list of books referred to in a scholarly work.<br/>❏ Related words: Bibliophile (Book lover), Bible.<br/> ⇢ <br/>⛳ ইংরেজি Substitution গুলো ভালো করে অনুধাবন করার জন্য নিম্নোক্ত Suffix বা Prefix গুলো মনোযোগ সহকারে অধ্যয়ন করুনঃ<br/>❏ Suffix/Prefix ➺ Examples <br/>❏ Biblio (পুস্তক) ➺ Bibliography (গ্রন্থপঞ্জি) <br/>❏ Phile (প্রেম, Love) ➺ Philanthropist (মানবপ্রেমী) <br/>❏ Gyne (নারী) ➺ Misogynist (নারী বিদ্বেষী), Philogynist (নারীপ্রেম) <br/>❏ Cide (হত্যা, Killing) ➺ Matricide (মাতৃহত্যা), Patricide (পিতৃহত্যা) <br/>❏ Vorous (Eater, খাদক) ➺ Omnivorous (সর্বভুক) <br/>❏ Phobia (আতঙ্ক) ➺ Hydrophobia (জলাতঙ্ক) <br/>❏ Poly (বহু) ➺ Polygamy (বহুবিবাহ)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332960,
+    "question": "He has visited Cinema Hall with a view to ……… movie?",
+    "options": [
+      "watch",
+      "watching",
+      "watched",
+      "have watched"
+    ],
+    "correct_answer": "watching",
+    "explanation": "📖 With a view to, look forward to, get used to ইত্যাদির পর verb এর সাথে ing যুক্ত হয়।<br/> ⇢ <br/>⛳ সাধারণ নিয়মে 'to' এর পর verb-এর base form বসে (Infinitive)। কিন্তু কিছু নির্দিষ্ট phrase যেমন: 'with a view to', 'look forward to', 'addicted to', 'object to', 'confess to' ইত্যাদিতে 'to' preposition হিসেবে কাজ করে, তাই এরপর Gerund (V+ing) বসে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332961,
+    "question": "The antonym of word \"Abdication\" is ………",
+    "options": [
+      "Resignation",
+      "Coronation",
+      "Denial",
+      "Weary"
+    ],
+    "correct_answer": "Coronation",
+    "explanation": "📖 Abdication অর্থ সিংহাসন ত্যাগ বা পদত্যাগ। এর বিপরীত শব্দ Coronation যার অর্থ রাজ্যাভিষেক বা সিংহাসন আরোহণ।<br/> ⇢ <br/>⛳ Word Analysis:<br/>❏ Abdication: Renouncing the throne/power.<br/>❏ Coronation: The ceremony of crowning a sovereign.<br/>❏ Resignation: Synonym of Abdication.<br/>❏ Denial: Refusal.<br/> ⇢ <br/>⛳ Abdication অর্থ অধিকার বা সিংহাসন ত্যাগ। Coronation অর্থ রাজ্যাভিষেক রাজা বা রানীর সিংহাসনে আরোহণের অনুষ্ঠান। উল্লেখ্য,<br/>❏ Resignation ➺ পদত্যাগ; বিনা প্রতিবাদে গ্রহণ<br/>❏ Denial ➺ অস্বীকার; প্রত্যাখ্যান<br/>❏ Weary ➺ ক্লান্ত",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332962,
+    "question": "Identify the word with correct spelling?",
+    "options": [
+      "Synargy",
+      "Recipient",
+      "Catastrophy",
+      "Camoflage"
+    ],
+    "correct_answer": "Recipient",
+    "explanation": "📖 সঠিক বানানটি হলো Recipient (গ্রহীতা)। অন্যগুলোর সঠিক রূপ: Synergy, Catastrophe, Camouflage।<br/> ⇢ <br/>⛳ Spelling Breakdown:<br/>❏ Re + cipi + ent = Recipient.<br/>❏ Synergy (Not Synargy).<br/>❏ Catastrophe (Not Catastrophy - ends with 'e').<br/>❏ Camouflage (Not Camoflage - needs 'u').<br/> ⇢ <br/>⛳ Recipient অর্থ প্রাপক; গ্রাহক। উল্লেখ্য,<br/>❏ Synergy ➺ ঐকতান <br/>❏ Catastrophe ➺ বিপর্যয়<br/>❏ Camouflage ➺ ছদ্মবেশ",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332963,
+    "question": "\"Life is a tale told by an idiot\" is a line of ………",
+    "options": [
+      "John Keats",
+      "William Shakespeare",
+      "John Milton",
+      "Charles Dickens"
+    ],
+    "correct_answer": "William Shakespeare",
+    "explanation": "📖 এই বিখ্যাত উক্তিটি উইলিয়াম শেক্সপিয়রের ট্র্যাজেডি নাটক 'Macbeth' থেকে নেওয়া হয়েছে।<br/> ⇢ <br/>⛳ সম্পূর্ণ উক্তিটি হলো: \"Life's but a walking shadow, a poor player... It is a tale told by an idiot, full of sound and fury, signifying nothing.\" এটি জীবনের নিরর্থকতা প্রকাশ করে।<br/> ⇢ <br/>⛳ William Shakespeare এর বিখ্যাত কিছু Quote হলোঃ 'Frailty the name is woman'; 'To be or not to be that is the question' is the beginning of a famous soliloquy of Hamlet'; 'Brevity is the soul of wit'; There are nothing either good or bad but thinking makes it so'; 'Neither a borrower nor a lender be; For loan oft loses both itself and friend'.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332964,
+    "question": "Which one is correct?",
+    "options": [
+      "Very kind of you",
+      "So kind of you",
+      "So kindness of you",
+      "None"
+    ],
+    "correct_answer": "So kind of you",
+    "explanation": "📖 কারো দয়া বা উপকারের প্রশংসা করতে 'So kind of you' বা 'It is very kind of you' বলা হয়। অপশন অনুযায়ী 'So kind of you' সঠিক এক্সপ্রেশন।<br/> ⇢ <br/>⛳ Phrase Structure: \"It is so kind of you\" (Subject + verb often omitted in spoken English).<br/>❏ 'So kindness' is wrong because 'kindness' is a noun, but we need an adjective (kind) after 'so'.<br/>❏ 'Very kind of you' is also acceptable informally, but 'So kind of you' is a more standard exclamatory phrase.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332965,
+    "question": "Nobody knows when he will die. Here \"he will die\" is ………",
+    "options": [
+      "Principal Clause",
+      "adverbial clause",
+      "adjective clause",
+      "Noun clause"
+    ],
+    "correct_answer": "Noun clause",
+    "explanation": "📖 এখানে 'when he will die' অংশটি 'knows' ক্রিয়ার object হিসেবে কাজ করছে। Verb-এর object হিসেবে Noun Clause বসে।<br/> ⇢ <br/>⛳ Clause Identification:<br/>❏ বাক্যটিকে প্রশ্ন করুন: \"Nobody knows what?\"<br/>❏ Answer: \"when he will die\".<br/>❏ যে Clause 'What' দ্বারা প্রশ্নের উত্তর দেয় এবং Object হিসেবে কাজ করে, সেটি Noun Clause.<br/> ⇢ <br/>⛳ যে সকল Subordinate clause কোনো Noun হিসেবে কাজ করে তাকে Noun clause বলে। Noun clause টি যদি Information question এ থাকে Noun clause গুলো Who, what, which, when, where, why, if, whether, that ইত্যাদি Clause maker বা Clause connective দ্বারা যুক্ত হয়। তখন 'what + subject + verb' হয়। যেমনঃ I do not know what Hanjala wants.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332966,
+    "question": "\"Melinda\" is character from ………?",
+    "options": [
+      "Rape of the lock",
+      "The Alchemist",
+      "To a Skylark",
+      "None"
+    ],
+    "correct_answer": "None",
+    "explanation": "📖 'The Rape of the Lock' কাব্যের প্রধান চরিত্র 'Belinda'। Melinda নামে কোনো বিখ্যাত চরিত্র এই অপশনগুলোর বইয়ে নেই। তাই সঠিক উত্তর None।<br/> ⇢ <br/>⛳ Alexander Pope-এর 'The Rape of the Lock' এ Belinda, Ariel, Baron চরিত্রগুলো আছে। Melinda নামে একটি চরিত্র George Farquhar-এর নাটক 'The Recruiting Officer'-এ পাওয়া যায়, কিন্তু প্রদত্ত অপশনগুলোর কোনোটিতেই নেই।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332967,
+    "question": "\"Murder in Cathedral\" is written by ………?",
+    "options": [
+      "John Milton",
+      "Bertrand Russell",
+      "George Eliot",
+      "T.S. Eliot"
+    ],
+    "correct_answer": "T.S. Eliot",
+    "explanation": "📖 'Murder in the Cathedral' আধুনিক যুগের কবি ও নাট্যকার টি এস এলিয়ট (T.S. Eliot) রচিত একটি নাটক।<br/> ⇢ <br/>⛳ এটি একটি কাব্যনাট্য (Verse Drama) যা ১১৭০ সালে আর্চবিশপ থমাস বেকেট (Thomas Becket)-এর হত্যাকাণ্ডের ঘটনার ওপর ভিত্তি করে রচিত। টি এস এলিয়ট ১৯৪৮ সালে সাহিত্যে নোবেল পুরস্কার পান।<br/> ⇢ <br/>⛳ T. S. Eliot এর বিখ্যাত কবিতা \"The Waste Land\" এর জন্য 1948 সালে নোবেল পুরস্কার পান। তার উল্লেখযোগ্য কিছু সাহিত্যকর্ম হলো - i) The Hollow Men, ii) Ash Wednesday, iii) Murder in the Cathedral, iv) Gerontion.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332968,
+    "question": "It is 10 minutes to 10 ………",
+    "options": [
+      "in my watch",
+      "by my watch",
+      "according to my watch",
+      "None"
+    ],
+    "correct_answer": "by my watch",
+    "explanation": "📖 ঘড়িতে সময় বোঝাতে বা ঘড়ি অনুসারে সময় বলতে 'by' preposition ব্যবহৃত হয়।<br/> ⇢ <br/>⛳ Idiomatic Usage: \"What is the time by your watch?\" is the correct English expression. 'In my watch' implies inside the mechanism of the watch, which is incorrect for telling time.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332969,
+    "question": "'Blue chips' means?",
+    "options": [
+      "Blue coloured chips",
+      "Neutral",
+      "Safe investment",
+      "Obsolete"
+    ],
+    "correct_answer": "Safe investment",
+    "explanation": "📖 শেয়ার বাজারে 'Blue chips' বলতে এমন কোম্পানির শেয়ার বোঝায় যা আর্থিকভাবে স্বচ্ছল, লাভজনক এবং যেখানে বিনিয়োগ করা নিরাপদ (Safe investment)।<br/> ⇢ <br/>⛳ পোকার (Poker) খেলায় নীল রঙের চিপসের দাম সবচেয়ে বেশি থাকে, সেখান থেকেই এই শব্দগুচ্ছটি এসেছে। Blue Chip কোম্পানিগুলো সাধারণত দীর্ঘমেয়াদে স্থিতিশীল এবং নিয়মিত লভ্যাংশ (Dividend) প্রদান করে।<br/> ⇢ <br/>⛳ Blue chips (নির্ভরযোগ্য ও মূল্যবান ব্যক্তি বা শেয়ার) Blue chip is an informal term for the most reliable and valuable companies on the market.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332970,
+    "question": "This was equally versatile. Here versatile means",
+    "options": [
+      "Incept",
+      "multifaceted",
+      "Gregarious",
+      "skilled"
+    ],
+    "correct_answer": "multifaceted",
+    "explanation": "📖 Versatile অর্থ বহুমুখী প্রতিভাসম্পন্ন। Multifaceted অর্থও বহুমুখী। Gregarious অর্থ মিশুক।<br/> ⇢ <br/>⛳ Vocabulary Analysis:<br/>❏ Versatile: Able to adapt or be used for many different functions or activities.<br/>❏ Multifaceted: Having many facets or aspects.<br/>❏ Incept: To begin.<br/>❏ Gregarious: Fond of company; sociable.<br/> ⇢ <br/>⛳ Versatile অর্থ বহুপ্রতিভাবান। Multifaceted অর্থ বহুমুখী। উল্লেখ্য,<br/>❏ Incept ➺ শুরু করা; আরম্ভ করা <br/>❏ Skilled ➺ দক্ষ <br/>❏ Gregarious ➺ মিশুক",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332971,
+    "question": "Poverty is an obstacle ……… peace",
+    "options": [
+      "of",
+      "against",
+      "to",
+      "for"
+    ],
+    "correct_answer": "to",
+    "explanation": "📖 Obstacle to অর্থ বাধা বা প্রতিবন্ধকতা। তাই সঠিক preposition হলো 'to'।<br/> ⇢ <br/>⛳ Appropriate Preposition:<br/>❏ Obstacle to: Poverty is an obstacle to progress.<br/>❏ Barrier to: Corruption is a barrier to development.<br/>❏ Hindrance to: It is a hindrance to success.<br/> ⇢ <br/>⛳ বাধা বা প্রতিবন্ধক অর্থে Obstacle to বসে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332972,
+    "question": "Our boss makes us ……… very hard",
+    "options": [
+      "worked",
+      "working",
+      "had worked",
+      "work"
+    ],
+    "correct_answer": "work",
+    "explanation": "📖 Causative Verb 'Make' এর পর ব্যক্তিবাচক বা বস্তুবাচক object থাকলে পরবর্তী verb টির base form (V1) হয়। তাই 'work' সঠিক।<br/> ⇢ <br/>⛳ Structure: Subject + Make (any tense) + Person/Thing + Verb (Base form).<br/>❏ Example: He made me laugh. (Not 'to laugh' or 'laughing').<br/>❏ Exception: In Passive voice, 'to' is used (We were made to work). But here it is Active voice.<br/> ⇢ <br/>⛳ Make, hear, let, need, dare, had better, would rather ইত্যাদি পর Verb এর Present form হয় এবং Verb এর পূর্বে To থাকলে তা উঠে যায়। আবার Had better + verb Base form হয়। তাই সঠিক উত্তর হবে অপশন c) (বিঃদ্রঃ পিডিএফে অপশন c বলা হলেও সঠিক উত্তর work যা অপশন d তে আছে, ব্যাখ্যায় নিয়মটি সঠিক দেওয়া আছে)। বাক্যের অর্থঃ আমাদের মনিব আমাদেরকে কঠোর পরিশ্রম করালেন।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332973,
+    "question": "Which sentence is correct",
+    "options": [
+      "This is an unique case",
+      "This is a very unique case",
+      "This is a unique case",
+      "none"
+    ],
+    "correct_answer": "This is a unique case",
+    "explanation": "📖 Unique এর উচ্চারণ 'ইউ' (You) এর মতো হওয়ায় তার আগে Article 'an' না বসে 'a' বসে।<br/> ⇢ <br/>⛳ Article Rule: Vowel (u) এর উচ্চারণ যদি 'yu' (ইউ) এর মতো হয়, তবে তার পূর্বে 'a' বসে। Examples: A university, A European, A one-eyed man.<br/>❏ Note: 'Very unique' is grammatically controversial because 'unique' is an absolute adjective, but 'A unique case' is the standard correct form here.<br/> ⇢ <br/>⛳ শব্দের প্রথমে 'u' বা 'eu' বা 'ew' থাকলে তার উচ্চারণ যদি 'ইউ' বা 'ew' এর মতো হয় তবে বর্ণটি Vowel হওয়া সত্ত্বেও তার পূর্বে 'an' না বসে 'a' বসে। যেমনঃ The new guest is a European. Hanjala is a University student. আবার, কিছু কিছু Word যেমন Unique (অদ্বিতীয়), Supreme (সর্বোচ্চ), Complete (সম্পূর্ণ) ইত্যাদি সর্বদা Superlative অর্থ প্রদান করে বলে এদের পূর্বে 'most' বা 'very' বসে না। বাক্যের অর্থঃ এটি একটি অনন্য ঘটনা।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332974,
+    "question": "Which one belongs to romantic period in English literature?",
+    "options": [
+      "God of Small Things",
+      "Julius Caesar",
+      "Ode to the West Wind",
+      "All of the above"
+    ],
+    "correct_answer": "Ode to the West Wind",
+    "explanation": "📖 'Ode to the West Wind' রোমান্টিক যুগের বিখ্যাত কবি P.B. Shelley রচিত একটি কবিতা। Julius Caesar শেক্সপিয়রের নাটক এবং God of Small Things অরুন্ধতী রায়ের উপন্যাস।<br/> ⇢ <br/>⛳ Romantic Period (1798-1832) এর প্রধান কবিরা হলেন Wordsworth, Coleridge, Shelley, Keats, এবং Byron। 'Ode to the West Wind' শেলীর একটি বিখ্যাত লিরিক কবিতা। অন্যদিকে 'Julius Caesar' এলিজাবেথান যুগের এবং 'God of Small Things' আধুনিক যুগের (Post-colonial) রচনা।<br/> ⇢ <br/>⛳ P.B Shelley হলেন Romantic যুগের অন্যতম একজন শ্রেষ্ঠ রোমান্টিক কবি। তাঁর কিছু Quotation হলোঃ 'If winter comes, can spring be far behind? (শীত যদি আসে, বসন্ত কি আর দূরে থাকে?) (Ode to the West wind); 'Our Sweetest songs are those that tell of saddest thought. ('To a Skylark'); 'We look before and after, And pine for what is not'. 'Poets are the unacknowledged legislators of the world' (A Defense of Poetry world).",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332975,
+    "question": "Which word is adjective?",
+    "options": [
+      "miser",
+      "crime",
+      "special",
+      "laugh"
+    ],
+    "correct_answer": "special",
+    "explanation": "📖 Special (বিশেষ) শব্দটি Adjective। Miser (কৃপণ ব্যক্তি) Noun, Crime (অপরাধ) Noun, Laugh (হাসা) Verb।<br/> ⇢ <br/>⛳ Suffix Analysis:<br/>❏ Special: Ends with '-al', which is a common Adjective suffix (e.g., National, Natural).<br/>❏ Miser: Though it describes a trait, grammatically it is a Noun. Adjective form is 'Miserly'.<br/>❏ Crime: Noun. Adjective is 'Criminal'.<br/> ⇢ <br/>⛳ এখানে,<br/>❏ Word ➺ Parts of Speech ➺ অর্থ <br/>❏ Crime ➺ Noun ➺ অপরাধ <br/>❏ Criminal ➺ Adjective ➺ অপরাধ সম্পর্কিত <br/>❏ Miser ➺ Noun ➺ কৃপণ <br/>❏ Miserly ➺ Adjective ➺ কৃপণ <br/>❏ Laugh ➺ Verb ➺ হাসা <br/>❏ Laughing/Laughable ➺ Adjective ➺ হাস্যময়",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332976,
+    "question": "A person who knows many languages is called ………",
+    "options": [
+      "multi-lingual",
+      "bilingual",
+      "polyglot",
+      "versatile lingual"
+    ],
+    "correct_answer": "polyglot",
+    "explanation": "📖 যে ব্যক্তি বহু ভাষায় কথা বলতে পারে তাকে Polyglot বলে। Bilingual মানে দোভাষী।<br/> ⇢ <br/>⛳ Option Analysis:<br/>❏ Bilingual: Speaks two languages fluently.<br/>❏ Polyglot: Speaks or knows several languages.<br/>❏ Linguist: Someone who studies the science of language (Linguistics).<br/>❏ Multilingual: Often used for societies or communities, but 'Polyglot' is the specific term for a person.<br/> ⇢ <br/>⛳ উল্লেখ্য,<br/>❏ Word ➺ Meaning <br/>❏ Sculptor (ভাস্কর) ➺ One who carves on stone/ makes statues using clay. <br/>❏ Architect (স্থপতি) ➺ One who plans and draws the designs of building. <br/>❏ Geologist (ভূতত্ত্ববিদ) ➺ One who studies rocks and soil/ the formation of earth. <br/>❏ Meteorologist (আবহাওয়াবিদ) ➺ One who studies meteorology <br/>❏ Hawker (ফেরিওয়ালা) ➺ One who travels for selling articles. <br/>❏ Lexicographer (অভিধান রচয়িতা) ➺ A person who writes/ complies/ edits dictionary. <br/>❏ Linguist ( বহুভাষাবিদ) ➺ A person who is skilled in several foreign languages <br/>❏ Polyglot (বহুভাষাভাষী, বহুভাষিক) ➺ A person who knows many languages. <br/>❏ Novelist (ঔপন্যাসিক) ➺ One who writes novel.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332977,
+    "question": "\"War and Peace\" is a ………",
+    "options": [
+      "Poetry",
+      "Play",
+      "Novel",
+      "Epic"
+    ],
+    "correct_answer": "Novel",
+    "explanation": "📖 'War and Peace' বিখ্যাত রুশ লেখক লিও টলস্টয় (Leo Tolstoy) রচিত একটি কালজয়ী উপন্যাস (Novel)।<br/> ⇢ <br/>⛳ ১৮৬৯ সালে প্রকাশিত এই উপন্যাসটি নেপোলিয়নের রাশিয়া আক্রমণের প্রেক্ষাপটে রচিত। এটি বিশ্বসাহিত্যের অন্যতম দীর্ঘ এবং শ্রেষ্ঠ উপন্যাস হিসেবে বিবেচিত হয়। টলস্টয়ের আরেকটি বিখ্যাত উপন্যাস হলো 'Anna Karenina'।<br/> ⇢ <br/>⛳ রুশ ও বিশ্ব সাহিত্যের শ্রেষ্ঠ ঔপন্যাসিক হলেন Leo Tolstoy. তাঁর রচিত বিখ্যাত উপন্যাস হলোঃ 'War and Peace', 'Anna Karenina', 'A Confession'.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332978,
+    "question": "If you ……… , you would have passed the examination",
+    "options": [
+      "have studied",
+      "studied",
+      "had studied",
+      "would have studied"
+    ],
+    "correct_answer": "had studied",
+    "explanation": "📖 এটি Third Conditional Sentence। গঠন: If + Past Perfect Tense + Future Perfect in the Past (would have + V3)। তাই শূন্যস্থানে 'had studied' বসবে।<br/> ⇢ <br/>⛳ Third Conditional অতীতে কোনো কাজ হয়নি এবং তার ফলাফলও পাওয়া যায়নি এমন কাল্পনিক পরিস্থিতি বোঝাতে ব্যবহৃত হয়।<br/>❏ Structure: If + Sub + had + V3, Sub + would/could/might + have + V3.<br/>❏ Example: If I had seen him, I would have told him.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332979,
+    "question": "He said to me, \"you ate rice\". What will be the indirect form of this sentence?",
+    "options": [
+      "He told me that I had eaten rice",
+      "He told me that I ate rice",
+      "He told me that I have eaten rice",
+      "He told me that I would have eaten rice"
+    ],
+    "correct_answer": "He told me that I had eaten rice",
+    "explanation": "📖 Reporting verb Past Tense-এ থাকলে Reported Speech-এর Past Indefinite Tense পরিবর্তিত হয়ে Past Perfect Tense হয়। তাই 'ate' পরিবর্তিত হয়ে 'had eaten' হয়েছে।<br/> ⇢ <br/>⛳ Narration Change Rule:<br/>❏ Reporting Verb: said to -> told.<br/>❏ Connector: that.<br/>❏ Person: 'You' (2nd person) changes according to Object (me) -> 'I'.<br/>❏ Tense: Past Indefinite (ate) -> Past Perfect (had eaten).<br/>❏ Structure: Subject + had + V3.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332980,
+    "question": "মানুষের রক্তে PH কত?",
+    "options": [
+      "৭",
+      "৩",
+      "১৪",
+      "১"
+    ],
+    "correct_answer": "৭",
+    "explanation": "📖 মানবদেহের রক্তের pH এর স্বাভাবিক মাত্রা হলো ৭.৩৫ থেকে ৭.৪৫। অর্থাৎ রক্ত সামান্য ক্ষারীয়। অপশনগুলোর মধ্যে ৭ সঠিক উত্তরের সবচেয়ে কাছাকাছি।<br/> ⇢ <br/>⛳ রক্তে বাইকার্বনেট বাফার সিস্টেম pH এর এই মাত্রা নিয়ন্ত্রণ করে। রক্তের pH ৭-এর নিচে নেমে গেলে তাকে অ্যাসিডোসিস (Acidosis) এবং ৭.৪৫-এর উপরে গেলে অ্যালকালসিস (Alkalosis) বলা হয়, যা শরীরের জন্য বিপজ্জনক।<br/> ⇢ <br/>⛳ মানুষের রক্তের pH এর মাত্রা ৭.৩৫ থেকে ৭.৪৫ এবং তাপমাত্রা ৩৬° থেকে ৩৮° সেলসিয়াস। রক্তের আপেক্ষিক গুরুত্ব পানির চেয়ে বেশি, ১.০৬৫ (প্রায়)। উল্লেখ্য, হাইড্রোজেন আয়ন (𝐻+) দ্রবণের মোলার ঘনমাত্রার ঋণাত্মক লগারিদমকে pHবলে। <br/>❏ pH এর মান দ্বারা পানিতে হাইড্রোজেনের পরিমাণ নির্ণয় করা হয়। বিভিন্ন ক্ষেত্রে <br/>❏ pH এর মানঃ<br/>❏ নির্দেশক ➺ pH<br/>❏ রক্ত ➺ ৭.৩৫-৭.৪৫ <br/>❏ বিশুদ্ধ পানি ➺ ৭ <br/>❏ চোখের পানি ➺ ৭.৩-৭.৪<br/>❏ মাতৃদুগ্ধ ➺ ৭.০-৭.৪ <br/>❏ মুখের লালা ➺ ৬.২-৭.৬ <br/>❏ ত্বক ➺ ৫.৫০-৫.৬০ <br/>❏ পাকস্থলী ➺ ২.০ <br/>❏ প্রস্রাব ➺ ৪.৫-৮ <br/>❏ মাটি ➺ ৪.০-৮.০",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332981,
+    "question": "শব্দের তীক্ষ্ণতা মাপা হয় কি দিয়ে?",
+    "options": [
+      "ডেসিবল",
+      "অ্যাম্পিয়ার",
+      "ক্যালরি",
+      "জুল"
+    ],
+    "correct_answer": "ডেসিবল",
+    "explanation": "📖 শব্দের তীব্রতা বা প্রাবল্য পরিমাপের একক হলো ডেসিবল (Decibel)। যদিও তীক্ষ্ণতা (Pitch) কম্পাঙ্কের (Hz) উপর নির্ভর করে, কিন্তু সাধারণ অর্থে শব্দের মাত্রা বা শব্দদূষণ পরিমাপে ডেসিবল ব্যবহৃত হয়।<br/> ⇢ <br/>⛳ পদার্থবিজ্ঞানের ভাষায় তীক্ষ্ণতা (Pitch) মাপা হয় হার্টজ (Hz) এককে। তবে সাধারণ জ্ঞান বা চাকরির পরীক্ষায় প্রায়ই শব্দের তীব্রতা বা Loudness বোঝাতে ‘তীক্ষ্ণতা’ শব্দটি ব্যবহার করা হয় এবং সেক্ষেত্রে উত্তর ‘ডেসিবল’ ধরা হয়। ডেসিবল হলো শব্দের শক্তির লগারিদমিক একক।<br/> ⇢ <br/>⛳ শব্দ বা Sound মাপার একককে বলা হয় ডেসিবল। সাধারণত কথাবার্তায় ৬০ ডেসিবল শব্দ উৎপন্ন হয়। তবে ৮০ ডেসিবলের উপরে শব্দ হলে সেটা কর্কশ ও বিরক্তিকর শোনায়। বিভিন্ন ধরনের শব্দের পরিমাণঃ<br/>❏ শব্দ ➺ গ্রহণযোগ্য মাত্রা <br/>❏ নিঃশ্বাস ➺ ১০ ডেসিবল <br/>❏ নীরব এলাকায় ➺ ৪৫ ডেসিবল <br/>❏ আবাসিক এলাকায় ➺ ৫০ ডেসিবল <br/>❏ মিশ্র এলাকায় ➺ ৬০ ডেসিবল <br/>❏ বাণিজ্যিক এলাকায় ➺ ৭০ ডেসিবল <br/>❏ শিল্প এলাকায় ➺ ৭৫ ডেসিবল",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332982,
+    "question": "কোন বস্তুর ওজন কোথায় সবচেয়ে বেশী?",
+    "options": [
+      "খনির ভিতরে",
+      "পাহাড়ের উপর",
+      "মেরু অঞ্চলে",
+      "বিষুব অঞ্চলে"
+    ],
+    "correct_answer": "মেরু অঞ্চলে",
+    "explanation": "📖 পৃথিবীর মেরু অঞ্চলে অভিকর্ষজ ত্বরণ (g) এর মান সবচেয়ে বেশি, তাই সেখানে কোনো বস্তুর ওজনও সবচেয়ে বেশি হয়। বিষুবীয় অঞ্চলে ওজন সবচেয়ে কম।<br/> ⇢ <br/>⛳ বস্তুর ওজন W = mg। পৃথিবী সম্পূর্ণ গোলাকার নয়, মেরু অঞ্চল কিছুটা চ্যাপ্টা। তাই পৃথিবীর কেন্দ্র থেকে মেরু অঞ্চলের দূরত্ব (ব্যাসার্ধ) কম হওয়ায় সেখানে অভিকর্ষজ ত্বরণ (g) বেশি হয়, ফলে ওজনও বাড়ে।<br/> ⇢ <br/>⛳ মেরু অঞ্চলে 'g' এর মান বেশি এবং বিষুব অঞ্চলে 'g' এর মান কম। কাজেই পৃথিবীর পৃষ্ঠে, কোন বস্তুর মেরু অঞ্চলে ওজন বেশি এবং বিষুব অঞ্চলে ওজন কম। তাই বিষুব অঞ্চল থেকে মেরু অঞ্চলের দিকে বস্তুর ওজন ক্রমশ বাড়ে। পৃথিবীর কেন্দ্রে g = 0 বলে বস্তুর ওজন শূন্য হয়।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332983,
+    "question": "কোনটির মাধ্যমে পেশীগুলো অস্থির সাথে যুক্ত থাকে?",
+    "options": [
+      "টেনডন",
+      "স্নায়ু",
+      "লিগামেন্ট",
+      "ফিমার"
+    ],
+    "correct_answer": "টেনডন",
+    "explanation": "📖 টেনডন (Tendon) পেশিকে হাড়ের বা অস্থির সাথে সংযুক্ত করে। আর লিগামেন্ট (Ligament) হাড়ের সাথে হাড়কে যুক্ত করে।<br/> ⇢ <br/>⛳ টেনডন কোলাজেন টিস্যু দিয়ে তৈরি শক্ত এবং অস্থিতিস্থাপক অংশ। এটি পেশির সংকোচনকে হাড়ের সঞ্চালনে রূপান্তরিত করে। মানবদেহের সবচেয়ে শক্তিশালী টেনডন হলো ‘অ্যাকিলিস টেনডন’ (Achilles tendon)।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332984,
+    "question": "মানব দেহের কোন অংশে নিউমোনিয়া রোগ হয়?",
+    "options": [
+      "হার্টে",
+      "গলায়",
+      "ফুসফুসে",
+      "নাকে"
+    ],
+    "correct_answer": "ফুসফুসে",
+    "explanation": "📖 নিউমোনিয়া হলো ফুসফুসের একটি সংক্রমণজনিত রোগ। এতে ফুসফুসের বায়ুথলিগুলোতে (Alveoli) প্রদাহ সৃষ্টি হয় এবং তরল জমে যায়।<br/> ⇢ <br/>⛳ ব্যাকটেরিয়া (যেমন: Streptococcus pneumoniae), ভাইরাস বা ছত্রাকের সংক্রমণে নিউমোনিয়া হতে পারে। এর লক্ষণগুলো হলো জ্বর, কাশি, শ্বাসকষ্ট এবং বুকে ব্যথা। শিশু ও বয়স্কদের জন্য এটি মারাত্মক হতে পারে।<br/> ⇢ <br/>⛳ নিউমোনিয়া একটি ফুসফুসের রোগ যা সাধারণত মাইক্রো অরগানিজম থেকে জন্মায়। এই রোগের যন্ত্রণাদায়ক আক্রমণের ফলে ফুসফুসের থলিতে অস্বস্তিকর যন্ত্রণা হয়। এর ফলে শৈত্যানুভূতি, জ্বরের আক্রমণ, বুকে ব্যথা, কাশি এবং নিঃশ্বাস-প্রশ্বাসে কষ্ট হয়।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332985,
+    "question": "কোন ভিটামিন রক্ত জমাট বাঁধতে সাহায্য করে ?",
+    "options": [
+      "ভিটামিন -'এ '",
+      "ভিটামিন-'সি'",
+      "ভিটামিন-'বি'",
+      "ভিটামিন-'কে'"
+    ],
+    "correct_answer": "ভিটামিন-'কে'",
+    "explanation": "📖 ভিটামিন ‘কে’ (Vitamin K) রক্ত জমাট বাঁধতে সাহায্য করে। এটি যকৃতে প্রোথ্রম্বিন তৈরি করে যা রক্ত তঞ্চনে সহায়তা করে।<br/> ⇢ <br/>⛳ সবুজ শাকসবজি যেমন পালং শাক, ব্রোকলি, বাঁধাকপি ইত্যাদিতে প্রচুর ভিটামিন ‘কে’ পাওয়া যায়। এই ভিটামিনের অভাবে শরীরের কোনো স্থান কেটে গেলে রক্তপড়া সহজে বন্ধ হয় না।<br/> ⇢ <br/>⛳ ভিটামিন 'কে' রক্ত জমাট বাঁধতে সাহায্য করে। রক্তে হেপারিনের উপস্থিতি থাকায় রক্ত জমাট বাঁধতে শুরু করে। এই ভিটামিন চর্বিতে দ্রবণীয়। উল্লেখ্য, ভিটামিন 'কে' এর উৎস হলোঃ যকৃৎ, সবুজ শাকসবজি, দুগ্ধজাত দ্রব্য, আমাদের শরীরের নরমাল ফ্লোরা তৈরি করে।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332986,
+    "question": "বাংলাদেশ জাতিসংঘের কততম সদস্য?",
+    "options": [
+      "১২৪",
+      "১১৮",
+      "১৩৬",
+      "১৪৮"
+    ],
+    "correct_answer": "১৩৬",
+    "explanation": "📖 বাংলাদেশ ১৯৭৪ সালের ১৭ সেপ্টেম্বর জাতিসংঘের ১৩৬তম সদস্যপদ লাভ করে।<br/> ⇢ <br/>⛳ ❐ বাংলাদেশ আনুষ্ঠানিক ভাবে ১৩৬ তম দেশ হিসেবে জাতিসংঘের সদস্যপদ লাভ করে কবে ➺ ১৯৭৪ সালের ১৭ সেপ্টেম্বর<br/>❏ বাংলাদেশ জাতিসংঘের সদস্যপদ এর জন্য আবেদন করে ➺ ১৯৭২ সালে, ভেটো দিয়েছিল-চীন<br/>❏ বাংলাদেশ জাতিসংঘের স্থায়ী পর্যবেক্ষকের মযাদা লাভ করে ➺ ১৭ অক্টোবর, ১৯৭২সালে<br/>❏ বাংলাদেশ জাতিসংঘের সদস্যপদ লাভ করে ➺ -১৭সেপ্টেম্বর, ১৯৭৪ সালে (১৬বিসিএস<br/>❏ বিভিন্ন আন্তর্জাতিক সংস্থায় বাংলাদেশের সদস্যপদ লাভ<br/>❏ সংস্থা/ সংগঠন ➺ সদস্যপদ লাভের তারিখ<br/>❏ কমনওয়েলথ (বাংলাদেশ সর্বপ্রথম আন্তর্জাতিক সংস্থার মধ্য কমনওয়েলথ এর সদস্যপদ লাভ করে) ➺ ১৮ এপ্রিল, ১৯৭২<br/>❏ জাতিসংঘ (UN) এর স্থায়ী পর্যবেক্ষক ➺ ১৭ অক্টোবর, ১৯৭২<br/>❏ জাতিসংঘ (UN) এর পূর্ণ সদস্যপদ (২৯তম অধিবেশনে) ➺ ১৭ সেপ্টেম্বর, ১৯৭৪<br/>❏ আন্তর্জাতিক অর্থ তহবিল (IMF) ➺ ১৭ জুন, ১৯৭২<br/>❏ পুনর্গঠন ও উন্নয়নের জন্য আন্তর্জাতিক ব্যাংক (IBRD) ➺ ১৭ আগস্ট, ১৯৭২<br/>❏ আন্তর্জাতিক উন্নয়ন সমিতি (IDA) ➺ ১৭ আগস্ট, ১৯৭২<br/>❏ আন্তর্জাতিক পুঁজি বিনিয়োগ সংস্থা (IFC) ➺ ১৮ জুন, ১৯৭৬<br/>❏ পুঁজি বিনিয়োগজনিত বিরোধ নিষ্পত্তির আন্তর্জাতিক কেন্দ্র (ICSID) ➺ ২৬ এপ্রিল, ১৯৮০<br/>❏ বহুপাক্ষিক বিনিয়োগ গ্যারান্টি সংস্থা (MIGA) ➺ ১২ এপ্রিল, ১৯৮৮<br/>❏ জাতিসংঘ শিক্ষা বিজ্ঞান ও সংস্কৃতি সংস্থা (UNESCO) ➺ ২৭ অক্টোবর, ১৯৭২<br/>❏ জাতিসংঘ শিল্প উন্নয়ন সংস্থা (UNIDO) ➺ ১১ ডিসেম্বর, ১৯৭২<br/>❏ জাতিসংঘের উন্নয়ন ও বাণিজ্য কর্মসূচি (UNCTAD) ➺ ২০ মে, ১৯৭২<br/>❏ বিশ্ব বাণিজ্য সংস্থা (WTO) ➺ ১ জানুয়ারি, ১৯৯৫<br/>❏ বিশ্ব স্বাস্থ্য সংস্থা (WHO) ➺ ১৭ মে, ১৯৭২<br/>❏ আন্তর্জাতিক শ্রম সংস্থা (ILO) ➺ ২২ জুন, ১৯৭২<br/>❏ খাদ্য ও কৃষি সংস্থা (FAO) ➺ ১২ নভেম্বর, ১৯৭৩<br/>❏ আন্তর্জাতিক আণবিক শক্তি সংস্থা (IAEA) ➺ ১৯৭২<br/>❏ এসকাপ (ESCAP) ➺ ১৭ এপ্রিল, ১৯৭৩<br/>❏ অর্থনৈতিক সহযোগিতা সংস্থা (ECO) ➺ ১৬ ফেব্রুয়ারি, ১৯৯২<br/>❏ জোট নিরপেক্ষ আন্দোলন (NAM) ➺ ১৯৭৩<br/>❏ ইসলামী সম্মেলন সংস্থা (OIC) ➺ ২৩ ফেব্রুয়ারি, ১৯৭৪<br/>❏ ইসলামী উন্নয়ন ব্যাংক (IDB) ➺ ১৯৭৪<br/>❏ এশীয় উন্নয়ন ব্যাংক (ADB) ➺ ১৯৭৩<br/>❏ আন্তর্জাতিক পুলিশ সংস্থা (Interpol) ➺ ১৪ অক্টোবর, ১৯৭৬<br/>❏ রেডক্রস ও রেড ক্রিসেন্ট ➺ ৩১ মার্চ, ১৯৭৩<br/> ⇢ <br/>⛳ ১৭ সেপ্টেম্বর ১৯৭৪ সালে বাংলাদেশ ১৩৬তম রাষ্ট্র হিসেবে জাতিসংঘে যোগদান করে। জাতিসংঘের ২৯তম সাধারণ অধিবেশনে বাংলাদেশ সদস্যপদ পায়। ২৫ সেপ্টেম্বর ১৯৭৪ সালে বঙ্গবন্ধু শেখ মুজিবুর রহমান জাতিসংঘের সাধারণ পরিষদে ভাষণ দেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332987,
+    "question": "বাকল্যান্ড বাঁধ কোথায় অবস্থিত?",
+    "options": [
+      "সদরঘাট",
+      "জিঞ্জিরা",
+      "শরীয়তপুর",
+      "চাঁদপুর"
+    ],
+    "correct_answer": "সদরঘাট",
+    "explanation": "📖 বাকল্যান্ড বাঁধ ঢাকার বুড়িগঙ্গা নদীর তীরে অবস্থিত। ১৮৬৪ সালে ঢাকার কমিশনার চার্লস টমাস বাকল্যান্ড এটি নির্মাণ করেন। এটি সদরঘাট এলাকায় অবস্থিত।<br/> ⇢ <br/>⛳ বাকল্যান্ড বাঁধ বুড়িগঙ্গা নদীর তীরে অবস্থিত। বাংলাদেশের পুরান ঢাকার বুড়িগঙ্গা নদীর তীরে অবস্থিত বাকল্যান্ড বাঁধ একটি তাৎপর্যপূর্ণ স্থাপত্যকীর্তি। ১৮৬৪ সালে ঢাকার তৎকালীন কমিশনার চার্লস থমাস বাকল্যান্ড কর্তৃক বাঁধটি নির্মিত হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332988,
+    "question": "ইলন মাস্ক কোন দেশে জন্মগ্রহণ করেন?",
+    "options": [
+      "মার্কিন যুক্তরাষ্ট্র",
+      "কানাডা",
+      "দক্ষিণ আফ্রিকা",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "দক্ষিণ আফ্রিকা",
+    "explanation": "📖 ইলন মাস্ক ১৯৭১ সালে দক্ষিণ আফ্রিকার প্রিটোরিয়ায় জন্মগ্রহণ করেন। তিনি স্পেস এক্স এবং টেসলার প্রধান নির্বাহী।<br/> ⇢ <br/>⛳ ইলন মাস্ক দক্ষিণ আফ্রিকা, কানাডা এবং মার্কিন যুক্তরাষ্ট্র—এই তিন দেশের নাগরিকত্ব রাখেন। তিনি উচ্চশিক্ষার জন্য কানাডা এবং পরে যুক্তরাষ্ট্রে পাড়ি জমান। পে-পাল (PayPal)-এর সহ-প্রতিষ্ঠাতা হিসেবে তিনি প্রথম বড় সাফল্য পান।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332989,
+    "question": "নিঝুম দ্বীপ কোথায় অবস্থিত?",
+    "options": [
+      "কুতুবদিয়া",
+      "হাতিয়া",
+      "ভোলা",
+      "সন্দ্বীপ"
+    ],
+    "correct_answer": "হাতিয়া",
+    "explanation": "📖 নিঝুম দ্বীপ নোয়াখালী জেলার হাতিয়া উপজেলার অন্তর্গত একটি ছোট্ট দ্বীপ। এটি মেঘনা নদীর মোহনায় অবস্থিত এবং হরিণের জন্য বিখ্যাত।<br/> ⇢ <br/>⛳ এই দ্বীপের পূর্ব নাম ছিল ‘চর ওসমান’ বা ‘বাউলার চর’। ২০০১ সালে বাংলাদেশ সরকার একে জাতীয় উদ্যান হিসেবে ঘোষণা করে। শীতকালে এখানে প্রচুর অতিথি পাখির সমাগম ঘটে।<br/> ⇢ <br/>⛳ নিঝুম দ্বীপ অবস্থিত হাতিয়া, নোয়াখালীতে। উল্লেখ্য, নিঝুম দ্বীপকে 'সামুদ্রিক সংরক্ষিত এলাকা' হিসেবে ঘোষণা করা হয়। বাংলাদেশ মৎস্য জলসীমার অভ্যন্তরে 'নিঝুম দ্বীপ সামুদ্রিক সংরক্ষিত (Marine Reserves) এলাকা' হিসেবে ঘোষণা করা হয়।<br/>❏ দ্বীপের নাম ➺ অন্য নাম ➺ আয়তন বর্গ কিঃমিঃ ➺ অবস্থান ➺ বৈশিষ্ট্য <br/>❏ সেন্ট মার্টিন ➺ নারিকেল জিনজিরা ➺ ৮ ➺ টেকনাফ, কক্সবাজার ➺ একমাত্র সামুদ্রিক প্রবাল দ্বীপ <br/>❏ কুতুবদিয়া ➺ - ➺ ২১৫.০৮ ➺ কুতুবদিয়া, কক্সবাজার ➺ কুতুবদিয়া বাতিঘর অবস্থিত <br/>❏ সোনাদিয়া ➺ দিয়া বা প্যারা দ্বীপ ➺ ৯ ➺ মহেশখালী, কক্সবাজার ➺ এ দ্বীপে গভীর সমুদ্র বন্দর স্থাপন করা হবে <br/>❏ নিঝুম দ্বীপ ➺ চর ওসমান বা ইছামতি ➺ ৫৯.৮৫৮ ➺ হাতিয়া, নোয়াখালী ➺ -",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332990,
+    "question": "স্পেস এক্স এর সদর দপ্তর কোথায় অবস্থিত?",
+    "options": [
+      "ক্যালিফোর্নিয়া",
+      "নিউইয়র্ক",
+      "লন্ডন",
+      "জেনেভা"
+    ],
+    "correct_answer": "ক্যালিফোর্নিয়া",
+    "explanation": "📖 স্পেস এক্স (SpaceX) একটি মার্কিন মহাকাশ ভ্রমণ ও প্রযুক্তি কোম্পানি। এর সদর দপ্তর যুক্তরাষ্ট্রের ক্যালিফোর্নিয়ায় অবস্থিত।<br/> ⇢ <br/>⛳ ইলন মাস্ক ২০০২ সালে স্পেস এক্স প্রতিষ্ঠা করেন। এর প্রধান লক্ষ্য মহাকাশ ভ্রমণ সহজলভ্য করা এবং মঙ্গলে জনবসতি স্থাপন। ফ্যালকন-৯ এবং স্টারশিপ রকেট তৈরির জন্য কোম্পানিটি বিশ্বজুড়ে বিখ্যাত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332991,
+    "question": "আয়রণ ডোম কি?",
+    "options": [
+      "আকাশ প্রতিরক্ষা ব্যবস্থা",
+      "লোহার দেয়াল",
+      "নিরস্ত্রীকরণ",
+      "বন্দিশালা"
+    ],
+    "correct_answer": "আকাশ প্রতিরক্ষা ব্যবস্থা",
+    "explanation": "📖 আয়রন ডোম (Iron Dome) হলো ইসরায়েলের তৈরি একটি আকাশ প্রতিরক্ষা ব্যবস্থা (Air Defence System), যা স্বল্পপাল্লার রকেট ও আর্টিলারি শেল ধ্বংস করতে সক্ষম।<br/> ⇢ <br/>⛳ এটি রাফায়েল অ্যাডভান্সড ডিফেন্স সিস্টেমস এবং ইসরায়েল অ্যারোস্পেস ইন্ডাস্ট্রিজ দ্বারা তৈরি। এটি ২০১১ সালে মোতায়েন করা হয় এবং এর সাফল্যের হার ৯০ শতাংশের বেশি বলে দাবি করা হয়। এটি রাডারের মাধ্যমে রকেট শনাক্ত করে এবং আকাশে থাকতেই তা ধ্বংস করে দেয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332992,
+    "question": "কিয়োটো চুক্তির গুরুত্বের বিষয় কি ছিল?",
+    "options": [
+      "জনসংখ্যা কমানো",
+      "দারিদ্র্য বিমোচন",
+      "গুপ্তচরবৃত্তি",
+      "বিশ্ব উষ্ণতা হ্রাস"
+    ],
+    "correct_answer": "বিশ্ব উষ্ণতা হ্রাস",
+    "explanation": "📖 কিয়োটো প্রটোকল হলো বিশ্ব উষ্ণায়ন ও গ্রিনহাউজ গ্যাস নির্গমন হ্রাসের লক্ষ্যে স্বাক্ষরিত একটি আন্তর্জাতিক চুক্তি। এটি ১৯৯৭ সালে জাপানের কিয়োটো শহরে গৃহীত হয়।<br/> ⇢ <br/>⛳ এই চুক্তিটি ২০০৫ সালে কার্যকর হয়। এর মূল লক্ষ্য ছিল শিল্পোন্নত দেশগুলোর কার্বন ডাই-অক্সাইড ও অন্যান্য গ্রিনহাউজ গ্যাস নির্গমন কমানো। পরবর্তীতে ২০১৫ সালে প্যারিস জলবায়ু চুক্তির মাধ্যমে এর স্থলাভিষিক্ত করা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332993,
+    "question": "অপারেশন সিঁদুর কোন দেশগুলোর মধ্যে যুদ্ধ শুরু করে?",
+    "options": [
+      "পাকিস্তান-আফগানিস্তান",
+      "ভারত-পাকিস্তান",
+      "ভারত-চীন",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "ভারত-পাকিস্তান",
+    "explanation": "📖 অপারেশন সিঁদুর ভারত ও পাকিস্তানের মধ্যে যুদ্ধ শুরু করে। এটি ছিল ২০২৫ সালের ৭ মে ভারত কর্তৃক পাকিস্তানের উপর ক্ষেপণাস্ত্র হামলা শুরু করার পর একটি সামরিক অভিযান, যার পরে উভয় দেশের মধ্যে সংঘাতের শুরু হয়। <br/>❏ 🔥 ভারত-পাকিস্তান যুদ্ধ<br/>❏ হামলার তারিখ: ২২ এপ্রিল ২০২৫।<br/>❏ হামলার স্থান: ভারত-শান্তি জম্মু ও কাশ্মীরের পেহেলগামের বৈসারন উপত্যকায়।<br/>❏ হামলায় নিহত: ২৬ জন (২৫ জন ভারতীয় এবং ১ জন নেপালি পর্যটক)।<br/>❏ ▣ অপারেশন সিন্দুর: ভারতশাসিত কাশ্মীরের সন্ত্রাসী হামলার জেরে পারমাণবিক শক্তিধর প্রতিবেশি ভারত-পাকিস্তানের মধ্যকার দ্বন্দ্ব সংঘাতে রূপ নিয়েছে। ৭ মে, ২০২৫ রাত ১টা ৫ মিনিট থেকে দেড়টার মধ্যে পাকিস্তানও পাকিস্তান-শাসিত কাশ্মীরের মোট ৯টি জায়গার ২৪টি স্থাপনায় মিসাইল হামলা চালায় ভারত। অভিযানটির নাম দেয়া হয়েছে 'অপারেশন সিন্দুর' (Operation Sindoor)। এ হামলায় ৭ মে ২০২৫ পর্যন্ত পাকিস্তানের অন্তত ৩১ নিহত এবং ৫৬ জন আহত হয়েছে। ভারত দাবি করেছে, 'কোল্যাটারাল ড্যামেজ' বা পারিপার্শ্বিক ক্ষয়ক্ষতি যতটা কম রেখে শুধুমাত্র 'সন্ত্রাসবাদী' ঘাঁটি ও বিভিন্ন প্রশিক্ষণ শিবিরেই এই হামলা চালানো হয়েছে, যেটাকে তারা 'প্রিসিশন স্ট্রাইক' বলে বর্ণনা করছে।<br/>❏ ▣ অপারেশন বুনিয়ান -উন-মারসুস: ১০ মে ২০২৫ রাতে পাকিস্তানের তিনটি সামরিক ঘাঁটিতে (এয়ারবেস) হামলা চালায় ভারত। ভারতের হামলার জবাবে পাল্টা হামলা চালিয়েছে পাকিস্তান। এতে ভারতের ব্রহ্মোস ক্ষেপণাস্ত্র সংরক্ষণ কেন্দ্র ধ্বংস করা হয়েছে বলে জানানো হয়। বিমানঘাঁটি ধ্বংস করা হয়েছে। ইসলামাবাদ এই অপারেশনের নাম দিয়েছে 'অপারেশন বুনিয়ান-উন-মারসুস। 'বুনিয়ান-উন-মারসুস' এর অর্থ দাঁড়ায় 'কংক্রিট কাঠামো' বা 'দৃঢ় ভিত্তি'। পাকিস্তানের তথ্যমন্ত্রী আতাউল্লাহ তারার অবশ্য একে, 'সীসাধাতু দিয়ে সুরক্ষিত প্রাচীর' বলে উল্লেখ করেছেন। এর আগে ভারতের ক্ষেপণাস্ত্র হামলার এর জবাবে পাল্টা হামলা চালায় পাকিস্তান। সবমিলিয়ে ১০ মে, ২০২৫ পর্যন্ত ভারতের ২৬টি সামরিক লক্ষ্যবস্তুতে পাল্টা হামলা চালিয়েছে পাকিস্তান। এর আগে নিজেদের ভুখণ্ডে ভারতের এ হামলাকে 'অ্যাক্ট অব ওয়ার' হিসেবে আখ্যা দিয়েছে পাকিস্তান।<br/>❏ ▣ কাশ্মীর যেভাবে দু'ভাগ হয়: প্রথম ভারত-পাকিস্তান যুদ্ধের (১৯৪৭-১৯৪৮) ফলে কাশ্মীর দুই ভাগে বিভক্ত হয়। যথা: ভারত নিয়ন্ত্রিত জম্মু ও কাশ্মীর এবং পাকিস্তান নিয়ন্ত্রিত আজাদ কাশ্মীর। বর্তমানে জম্মু ও কাশ্মীর এবং পাকিস্তান নিয়ন্ত্রিত আজাদ কাশ্মীর। বর্তমানে জম্মু ও কাশ্মীর ভারতের একটি কেন্দ্রশাসিত অঞ্চল।<br/>❏ 🔥 কাশ্মীরের পেহেলগামে সন্ত্রাসী হামলায় পাক-ভারত সংঘাত<br/>❏ ভারত নিয়ন্ত্রিত জম্মু-কাশ্মীরের পেহেলগামের বৈসারনে পর্যটকদের ওপর হামলার ঘটনায় ২৬ জন নিহত হলে ভারত ও পাকিস্তানের মধ্যে শুরু হয় ➺ ২২ এপ্রিল, ২০২৫ সালে।<br/>❏ কাশ্মীর অঞ্চলে স্বল্প পরিচিত সশস্ত্র গোষ্ঠী 'দ্য রেজিস্ট্যান্স ফ্রন্ট (TRF) কে পেহেলগাম হামলার জন্য দায়ী করা হলেও সংগঠনটির পক্ষ থেকে তা অস্বীকার করা হয়। সংগঠনটিকে ‘কাশ্মীর রেজিস্ট্যান্স<br/>❏ বলা হয়।<br/>❏ পেহেলগাম শব্দের অর্থ ➺ পশুপালকদের জনপদ (কাশ্মীরি ভাষায় পশুপালকদের বলা হয় পেহেল, গাম অর্থ গ্রাম)<br/>❏ এই সন্ত্রাসী হামলায় পাকিস্তানের মদদ রয়েছে মনে করে পাল্টাপাল্টি পদক্ষেপ গ্রহণ করে ➺ ভারত ও পাকিস্তান ।<br/>❏ ৭ মে, ২০২৫ পাকিস্তানের বিরুদ্ধে ভারতের সামরিক অভিযানের নাম ➺ অপারেশন সিঁদুর<br/>❏ ১০ মে ২০২৫ ভারতের বিরুদ্ধে পাকিস্তানের সামরিক অভিযানের নাম ➺ অপারেশন বুনিয়ানুন মারসুস।<br/>❏ ২০১৯ সালের ১৪ ফেব্রুয়ারি কাশ্মীরের পুলওয়ামায় পাকিস্তানভিত্তিক জঙ্গি সংগঠন জাইশ-ই-মোহাম্মদ হামলা করে কেন্দ্রীয় রিজার্ভ পুলিশের (সিআরপিএফ) ৪০ জন সদস্যকে হত্যা করে। ফলে ২০১৯ সালে পাক-ভারত উত্তেজনা দেখা দিয়েছিল।<br/>❏ পৃথিবীর ভূ-স্বর্গ' বলা হয় ➺ কাশ্মীরকে।<br/>❏ ভারতের সুইজারল্যান্ড বলা হয় ➺ পেহেলগাম কে ।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332994,
+    "question": "হাইফা কোন দেশের সমুদ্র বন্দর",
+    "options": [
+      "তুরস্ক",
+      "ইসরাইয়েল",
+      "সিরিয়া",
+      "আফগানিস্তান"
+    ],
+    "correct_answer": "ইসরাইয়েল",
+    "explanation": "📖 হাইফা (Haifa) ইসরায়েলের একটি প্রধান সমুদ্রবন্দর ও পর্যটন নগরী।<br/> ⇢ <br/>⛳ হাইফা মাউন্ট কারমেল-এর পাদদেশে অবস্থিত এবং এটি বাহাই ধর্মের বিশ্বকেন্দ্র (Bahá'í World Centre) হিসেবেও বিখ্যাত। ভূমধ্যসাগরের তীরে অবস্থিত এই বন্দরটি ইসরায়েলের অর্থনীতিতে গুরুত্বপূর্ণ ভূমিকা রাখে।<br/> ⇢ <br/>⛳ 'হাইফা' হলো ইসরাইলের বন্দর-নগরী। উল্লেখ্য,<br/>❏ দেশ ➺ সমুদ্রবন্দর <br/>❏ জর্ডান ➺ আকাবা <br/>❏ মালয়েশিয়া ➺ কেলাং <br/>❏ যুক্তরাজ্য ➺ গ্লাসগো, সাউদাম্পটন <br/>❏ মিশর ➺ আলেকজান্দ্রিয়া, পোর্ট সৈয়দ <br/>❏ বেলজিয়াম ➺ অ্যান্টওয়ার্প <br/>❏ মায়ানমার ➺ আকিয়াব <br/>❏ ইরান ➺ আবাদান <br/>❏ পাকিস্তান ➺ গোয়াদর",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332995,
+    "question": "গ্রেট বেরিয়ার রিফ কোথায় অবস্থিত?",
+    "options": [
+      "প্রশান্ত মহাসাগর",
+      "আটলান্টিক মহাসাগর",
+      "ভারত মহাসাগর",
+      "পারস্য উপসাগর"
+    ],
+    "correct_answer": "প্রশান্ত মহাসাগর",
+    "explanation": "📖 গ্রেট বেরিয়ার রিফ বিশ্বের দীর্ঘতম প্রবাল প্রাচীর। এটি অস্ট্রেলিয়ার কুইন্সল্যান্ডের উপকূলে প্রশান্ত মহাসাগরে অবস্থিত।<br/> ⇢ <br/>⛳ এটি মহাকাশ থেকেও দেখা যায় এবং এটি বিশ্বের বৃহত্তম একক কাঠামো যা জীবন্ত প্রাণীর (কোরাল পলিপ) দ্বারা তৈরি। ১৯৮১ সালে ইউনেস্কো একে বিশ্ব ঐতিহ্যবাহী স্থান হিসেবে ঘোষণা করে।<br/> ⇢ <br/>⛳ 'গ্রেট বেরিয়ার রিফ' প্রশান্ত মহাসাগরে অবস্থিত। উল্লেখ্য, উত্তরপূর্ব অস্ট্রেলিয়ার কুইন্সল্যান্ড উপকূলের কাছে অবস্থিত গ্রেট বেরিয়ার রিফ। এটিকে পৃথিবীর বৃহত্তম 'জীবিত' বিস্ময় বলা হয়। এর দৈর্ঘ্য ২,৩০০ কিলোমিটার। অন্তত ৬০০ রকমের প্রবাল দিয়ে তৈরি হাজার খানেক প্রাচীর আর অসংখ্য ছোট ছোট দ্বীপ। এটি হলো বিশ্বের একটি 'হেরিটেজ'।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332996,
+    "question": "বরেন্দ্র মিউজিয়াম কোথায় অবস্থিত?",
+    "options": [
+      "রাজশাহী",
+      "বগুড়া",
+      "ময়নামতি",
+      "দিনাজপুর"
+    ],
+    "correct_answer": "রাজশাহী",
+    "explanation": "📖 বরেন্দ্র গবেষণা জাদুঘর বাংলাদেশের প্রথম জাদুঘর। এটি ১৯১০ সালে প্রতিষ্ঠিত হয় এবং রাজশাহী শহরে অবস্থিত।<br/> ⇢ <br/>⛳ দিঘাপতিয়ার রাজকুমার শরৎকুমার রায় এই জাদুঘরটি প্রতিষ্ঠা করেন। বর্তমানে এটি রাজশাহী বিশ্ববিদ্যালয়ের অধীনে পরিচালিত হয়। এখানে পাল ও সেন আমলের অনেক দুর্লভ প্রত্নতাত্ত্বিক নিদর্শন সংরক্ষিত আছে।<br/> ⇢ <br/>⛳ দুর্লভ ঐতিহ্যের ধারক রাজশাহীর 'বরেন্দ্র জাদুঘর'। এটি দেশের প্রথম জাদুঘর এবং দক্ষিণ এশিয়ার অন্যতম প্রত্নতাত্ত্বিক সংগ্রহশালা। দুষ্প্রাপ্য সব প্রত্নসম্পদ নিয়ে আজও স্বমহিমায় দাঁড়িয়ে আছে এ জাদুঘর। যুগের পর যুগ ধরে প্রাচীন ঐতিহ্যের সাক্ষ্য বহন করে আসছে। রাজশাহী মহানগরের প্রাণকেন্দ্র হেতেম খাঁ সদর হাসপাতালের সামনে অবস্থিত প্রাচীন সংগ্রহশালা বরেন্দ্র গবেষণা জাদুঘর। প্রত্নতাত্ত্বিক সংগ্রহশালা এ জাদুঘরে উত্তরের বরেন্দ্র অঞ্চলের পাল, সেন, মৌর্য ও গুপ্ত আমলসহ হাজার হাজার বছরের প্রাচীন সভ্যতার নিদর্শন সংরক্ষিত করে রাখা আছে। কয়েকটি গুরুত্বপূর্ণ জাদুঘরঃ<br/>❏ জাদুঘর ➺ অবস্থান <br/>❏ বাংলাদেশ লোকশিল্প জাদুঘর ➺ সোনারগাঁও, নারায়ণগঞ্জ <br/>❏ স্বাধীনতা জাদুঘর ➺ সোহরাওয়ার্দী উদ্যান <br/>❏ জাতীয় চার নেতা স্মৃতি জাদুঘর ➺ ঢাকা কেন্দ্রীয় কারাগার <br/>❏ সামরিক জাদুঘর ➺ বিজয় সরণি, ঢাকা <br/>❏ বিজ্ঞান জাদুঘর ➺ আগারগাঁও, ঢাকা <br/>❏ মুদ্রা জাদুঘর ➺ মিরপুর-২, ঢাকা",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332997,
+    "question": "TIN দ্বারা কি বুঝায়?",
+    "options": [
+      "ট্রান্সফার অব ইনফরমেশন নেটওয়ার্ক",
+      "ট্যাক্স ইন্ডেক্স নাম্বার",
+      "ট্যাক্স ইনফরমেশন নেটওয়ার্ক",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "কোনটিই নয়",
+    "explanation": "📖 TIN-এর পূর্ণরূপ হলো Taxpayer Identification Number (করদাতা শনাক্তকরণ নম্বর)। অপশনগুলোতে সঠিক উত্তর না থাকায় ‘কোনটিই নয়’ সঠিক।<br/> ⇢ <br/>⛳ বাংলাদেশে আয়কর রিটার্ন দাখিল, বড় অঙ্কের ব্যাংক ঋণ গ্রহণ, জমি ক্রয়, ক্রেডিট কার্ড গ্রহণ ইত্যাদি ক্ষেত্রে ১২ ডিজিটের এই ই-টিআইএন (e-TIN) বাধ্যতামূলক।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332998,
+    "question": "আমাদের দেশে 'ভিটামিন সি' সমৃদ্ধ সবচেয়ে লাভজনক ফল কোনটি?",
+    "options": [
+      "কমলালেবু",
+      "বাতাবী লেবু",
+      "আনারস",
+      "পেয়ারা"
+    ],
+    "correct_answer": "পেয়ারা",
+    "explanation": "📖 পেয়ারাকে ‘বাংলার আপেল’ বলা হয়। দেশীয় ফলগুলোর মধ্যে পেয়ারাতে প্রচুর পরিমাণে ভিটামিন-সি থাকে এবং এটি চাষাবাদ করা অর্থনৈতিকভাবে বেশ লাভজনক।<br/> ⇢ <br/>⛳ পুষ্টিবিজ্ঞানীদের মতে, পেয়ারাতে কমলালেবুর চেয়ে প্রায় ৪-৫ গুণ বেশি ভিটামিন-সি থাকে। বাংলাদেশে ‘কাজী পেয়ারা’ ও অন্যান্য হাইব্রিড জাতের পেয়ারা চাষ কৃষকদের জন্য অত্যন্ত লাভজনক অর্থকরী ফসল হিসেবে বিবেচিত হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 332999,
+    "question": "আরব বসন্ত কোন দেশে শুরু হয়",
+    "options": [
+      "মিশর",
+      "ইয়েমেন",
+      "তিউনেশিয়া",
+      "লিবিয়া"
+    ],
+    "correct_answer": "তিউনেশিয়া",
+    "explanation": "📖 আরব বসন্ত (Arab Spring) হলো আরব বিশ্বের বিভিন্ন দেশে স্বৈরশাসকদের বিরুদ্ধে গড়ে ওঠা গণজাগরণ। ২০১০ সালের শেষের দিকে তিউনিসিয়া থেকে এই আন্দোলনের সূচনা হয়।<br/> ⇢ <br/>⛳ তিউনিসিয়ার ফল বিক্রেতা মোহাম্মদ বুয়াজিজির আত্মাহুতির মাধ্যমে এই আন্দোলনের সূত্রপাত হয়। তিউনিসিয়ায় এই বিপ্লবকে ‘জেসমিন বিপ্লব’ (Jasmine Revolution) বলা হয়, যা পরবর্তীতে মিশর, লিবিয়া, ইয়েমেন ও সিরিয়ায় ছড়িয়ে পড়ে।<br/> ⇢ <br/>⛳ ২০১০ সালের ১৭ ডিসেম্বর থেকে আরব বিশ্বের বিভিন্ন দেশে যে গণজাগরণ সৃষ্টি হয়েছে তাকে উল্লেখ করা হয়েছে আরব বসন্ত (Arab Spring) হিসেবে। ২০১০ সালের ১৭ ডিসেম্বর জন্ম নেয়া এই আন্দোলন ২০১১ সালের শুরুতে ব্যাপক আকার ধারণ করে তিউনিসিয়ায়। আরব যুবকদের মনে এ আন্দোলন নিয়ে আসে অর্থনৈতিক স্বাধীনতা, রাজনৈতিক সচেতনতা ও গণতন্ত্রের স্পৃহা। আরব বসন্ত-এর সূতিকাগার হিসেবে খ্যাত দেশ হচ্ছে তিউনিসিয়া। দেশটিতে Jasmine Revolution বা জুঁই বিপ্লব ঘটে ১৪ জানুয়ারি, ২০১১ সালে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333000,
+    "question": "বাংলাদেশের পক্ষে প্রথম ১০০তম টেস্ট ক্রিকেট খেলোয়াড় কে?",
+    "options": [
+      "মমিনুল হক",
+      "খালেদ মাসুদ পাইলট",
+      "সৌম্য সরকার",
+      "মুশফিকুর রহমান"
+    ],
+    "correct_answer": "মুশফিকুর রহমান",
+    "explanation": "<p>মুশফিকুর রহিম ১০০ তম টেস্ট খেলা খেলেন এবং সেঞ্চুরি করেন, প্রথম দিন ৯৯ করে অপরাজিত এবং মোট ১০৬ রান করেন</p><br/><p>উল্লেখ্য তিনি প্রথম ডাবল সেঞ্চুরি করে টেস্ট খেলায়</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333001,
+    "question": "আব্রাহাম অ্যাকর্ড কোন দেশ উত্থাপন করেন",
+    "options": [
+      "রাশিয়া",
+      "ইসরাইল",
+      "মার্কিন যুক্তরাষ্ট্র",
+      "যুক্তরাজ্য"
+    ],
+    "correct_answer": "মার্কিন যুক্তরাষ্ট্র",
+    "explanation": "",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333002,
+    "question": "নীচের কোন সংস্থাটি ভিন্ন?",
+    "options": [
+      "রয়টার্স",
+      "তাস",
+      "হিউম্যান রাইটস ওয়াচ",
+      "সিএনএন"
+    ],
+    "correct_answer": "হিউম্যান রাইটস ওয়াচ",
+    "explanation": "📖 রয়টার্স (যুক্তরাজ্য), তাস (রাশিয়া) এবং সিএনএন (যুক্তরাষ্ট্র) হলো সংবাদ সংস্থা বা সংবাদ মাধ্যম। অন্যদিকে হিউম্যান রাইটস ওয়াচ (Human Rights Watch) হলো মানবাধিকার বিষয়ক একটি আন্তর্জাতিক বেসরকারি সংস্থা।<br/> ⇢ <br/>⛳ হিউম্যান রাইটস ওয়াচ (HRW) ১৯৭৮ সালে প্রতিষ্ঠিত হয় এবং এর সদর দপ্তর নিউইয়র্কে অবস্থিত। এটি বিশ্বজুড়ে মানবাধিকার লঙ্ঘন পর্যবেক্ষণ ও প্রতিবেদন প্রকাশ করে। বাকি তিনটি সংস্থা সংবাদ সংগ্রহ ও প্রচারের সাথে যুক্ত।<br/> ⇢ <br/>⛳ 'রয়টার্স' 'তাস' 'সিএনএন' বিখ্যাত সংবাদ সংস্থা। বিশ্ব বিখ্যাত কিছু সংবাদ সংস্থা হলোঃ<br/>❏ সংবাদ সংস্থা ➺ দেশ <br/>❏ এএফপি ➺ ফ্রান্স <br/>❏ সিএনএন ➺ যুক্তরাষ্ট্র <br/>❏ বিবিসি ➺ যুক্তরাজ্য <br/>❏ মেনা ➺ মিশর <br/>❏ ইরনা ➺ ইরান <br/>❏ সানা ➺ পাকিস্তান <br/>❏ ইতার তাস ➺ রাশিয়া <br/>❏ এপিএস ➺ আলজেরিয়া",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333003,
+    "question": "কোনটি স্থলবন্দর নয়?",
+    "options": [
+      "ভোমরা",
+      "পায়রা",
+      "আখাউড়া",
+      "বুড়িমারী"
+    ],
+    "correct_answer": "পায়রা",
+    "explanation": "📖 ভোমরা (সাতক্ষীরা), আখাউড়া (ব্রাহ্মণবাড়িয়া) ও বুড়িমারী (লালমনিরহাট) বাংলাদেশের স্থলবন্দর। অন্যদিকে পায়রা (পটুয়াখালী) বাংলাদেশের ৩য় সমুদ্রবন্দর।<br/> ⇢ <br/>⛳ ❐ দেশের ১৮তম স্থলবন্দর 'সোনাহাট স্থলবন্দর' কোথায় অবস্থিত? ➺ কুড়িগ্রামের ভূরুঙ্গামারীতে<br/>❏ দেশের প্রধান স্থলবন্দর ➺ বেনাপোল, যশোর।<br/>❏ বর্তমানে দেশে সরকারি স্থলবন্দর আছে ➺ ২১টি (পূর্বে ছিল ➺ ২৪টি)। চালু =২০টি।<br/>❏ কার্যকরভাবে চালু ➺ ১৪টি।<br/>❏ বর্তমানে দেশে সরকারিভাবে কয়টি স্থলবন্দর রয়েছে? ➺ ২৪টি।<br/>❏ নৌপরিবহন মন্ত্রণালয় যে ৩টি স্থলবন্দরের কার্যক্রম সম্পূর্ণরুপে বন্ধ ঘোষণা করেছে অন্তর্বর্তীকালীন সরকার?- ➺ নীলফামারীর চিলাহাটি, চুয়াডাঙ্গার দৌলতগঞ্জ ও রাঙামাটির তেগামুখ স্থলবন্দর।<br/>❏ সম্প্রতি ২৮ আগস্ট ৩টি স্থলবন্দর সম্পূর্ণভাবে বন্ধ ঘোষণা করা হয়েছে ও ১টির অপারেশনাল কার্যক্রম সাময়িক স্থগিত করা হয়েছে। [ ডেইলি স্টার, প্রথম আলো, কালের কন্ঠ]<br/>❏ নদীবন্দর ➺ ৫৫টি। সর্বশেষ ➺ হাতিয়া, নোয়াখালী।<br/>❏ কার্যকর অভাবের সরকার কয়টি স্থলবন্দরকে শুল্ক ঘোষণা করেছে? ➺ ২১টি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333004,
+    "question": "সম্প্রতি কোন দেশে বিদেশী মুদ্রার ব্যবহার নিষিদ্ধ করা হয়েছে?",
+    "options": [
+      "মায়ানমার",
+      "উত্তর কোরিয়া",
+      "আফগানিস্তান",
+      "রাশিয়া"
+    ],
+    "correct_answer": "আফগানিস্তান",
+    "explanation": "<p>সম্প্রতি আফগানিস্তানে বিদেশি মুদ্রার ব্যবহার নিষিদ্ধ করা হয়েছে। তালেবান সরকার এই নিষেধাজ্ঞা জারি করেছে, যার উদ্দেশ্য হলো আফগানি মুদ্রার ব্যবহার বাড়ানো এবং দেশের অর্থনীতিকে স্থিতিশীল করা। এই সিদ্ধান্তের ফলে দেশটির অর্থনীতিতে আরও সংকট দেখা দিতে পারে বলে আশঙ্কা করা হচ্ছে।&nbsp;</p><br/><p>নিষেধাজ্ঞার উদ্দেশ্য: আফগানিস্তানের অর্থনৈতিক পরিস্থিতি এবং জাতীয় স্বার্থ রক্ষার জন্য তালেবান এই সিদ্ধান্ত নিয়েছে।&nbsp;</p><br/><p>বাস্তবায়ন: এই নিষেধাজ্ঞার ফলে এখন থেকে দেশের অভ্যন্তরে সব ধরনের বাণিজ্যিক লেনদেন আফগানিতে করতে হবে এবং বিদেশি মুদ্রার ব্যবহার কঠোরভাবে নিষিদ্ধ করা হয়েছে।&nbsp;</p><br/><p>প্রভাব: বিশ্লেষকদের আশঙ্কা, এই পদক্ষেপ আফগানিস্তানের ভঙ্গুর অর্থনীতিকে আরও ক্ষতিগ্রস্ত করতে পারে।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333005,
+    "question": "যুক্তরাষ্ট্রের সর্বশেষ প্রেসিডেন্ট নির্বাচনে ডোনাল্ড ট্রাম্পের প্রতিদ্বন্দ্বী কে ছিলেন?",
+    "options": [
+      "জো বাইডেন",
+      "কমলা হ্যারিস",
+      "হিলারী ক্লিনটন",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "কমলা হ্যারিস",
+    "explanation": "📖 ২০২৪ সালের যুক্তরাষ্ট্রের প্রেসিডেন্ট নির্বাচনে রিপাবলিকান প্রার্থী ডোনাল্ড ট্রাম্পের প্রধান প্রতিদ্বন্দ্বী ছিলেন ডেমোক্রেটিক পার্টির কমলা হ্যারিস।<br/> ⇢ <br/>⛳ এক নজরে ৬০তম মার্কিন প্রেসিডেন্ট নির্বাচন ২০২৪ <br/>❏ (৪৭তম) প্রেসিডেন্ট: ➺ ডোনাল্ড ট্রাম্প<br/>❏ নিকটতম প্রতিদ্বন্দ্বী প্রার্থী: ➺ কমলা হ্যারিস<br/>❏ রিপাবলিকান পার্টি ইলেক্টোরাল ভোট ➺ ৩১২টি [ইলেক্টোরাল ভোট জয়ী হতে প্রয়োজন ২৭০ ভোট]<br/>❏ ডেমোক্র্যাট পার্টি ইলেক্টোরাল ভোট ➺ ২২৬টি<br/>❏ রিপাবলিকান পার্টি সিনেট (১০০ আসন) ➺ ৫৩<br/>❏ ডেমোক্র্যাট পার্টি সিনেট (১০০ আসন) ➺ ৪৭<br/>❏ রিপাবলিকান পার্টি হাউজ (৪৩৫ আসন) ➺ ২১৮<br/>❏ ডেমোক্র্যাট পার্টি হাউজ (৪৩৫ আসন) ➺ ২১২<br/>❏ দ্রষ্টব্য: নব-নির্বাচিত প্রেসিডেন্টের শপথ গ্রহণ- ২০ জানুয়ারি, ২০২৫<br/>❏ মার্কিন যুক্তরাষ্ট্রের ৪৭তম প্রেসিডেন্ট নির্বাচিত হয়েছেন ➺ রিপাবলিকান প্রার্থী ডোনাল্ড ট্রাম্প<br/>❏ ৪৭তম প্রেসিডেন্ট ডোনাল্ড ট্রাম্পের প্রাপ্ত ইলেকটোরাল কলেজ ভোট ➺ ২৯৫<br/>❏ কত বছরের রেকর্ড ভেঙ্গে ২য় মেয়াদে প্রেসিডেন্ট হলেন ট্রাম্প? ➺ ১৩২ বছরের।<br/>❏ সবচেয়ে বেশি বয়সে মার্কিন প্রেসিডেন্ট নির্বাচিত হবার রেকর্ড ➺ ডোনাল্ড ট্রাম্পের (৭৮বছর)।<br/>❏ নির্বাচন অনুষ্ঠিত হয় ➺ ৫ নভেম্বর, ২০২৪ (মঙ্গলবার)<br/>❏ মার্কিন নির্বাচন অনুষ্ঠিত ➺ প্রতি ৪ বছর পর পর নভেম্বর মাসের প্রথম সোমবারের পরের মঙ্গলবার<br/>❏ যুক্তরাষ্ট্রের মোট অঙ্গরাজ্য ➺ ৫০ টি।<br/>❏ সিনেট সদস্য সংখ্যা ➺ ১০০ জন।<br/>❏ হাউজ অব রিপ্রেজেন্টিটিভ এর সদস্য সংখ্যা ➺ ৪৩৫ জন।<br/>❏ মার্কিন ইলেক্টোরাল ভোট ➺ ৫৩৮ টি।<br/>❏ মার্কিন প্রেসিডেন্ট নির্বাচিত হতে ইলেক্টোরাল ভোট প্রয়োজন ➺ ২৭০ টি।<br/>❏ রিপাবলিকান দলের প্রতিষ্ঠাতা ➺ টমাস জেফারসন।<br/>❏ ডেমোক্রেটিক দলের প্রতিষ্ঠাতা ➺ এন্ড্রু জ্যাকসন।<br/>❏ জো বাইডেন কততম প্রেসিডেন্ট ছিলেন? ➺ ৪৬তম<br/>❏ ৫ নভেম্বর ২০২৪ এ কততম মার্কিন প্রেসিডেন্ট নির্বাচন হলো? ➺ ৬০ তম<br/>❏ মার্কিন সংবিধানের কততম সংশোধনী অনুসারে দুই মেয়াদের বেশি কেউ প্রেসিডেন্ট নির্বাচিত হতে পারবে ➺ ২২তম (১৯৫১ সালে সংশোধিত)<br/>❏ পার্লামেন্টের উচ্চ কক্ষের নাম ➺ সিনেট<br/>❏ নিম্ন কক্ষের নাম ➺ হাউজ অব রিপ্রেজেন্টিটিভ।<br/>❏ মার্কিন প্রেসিডেন্টের কার্যালয়ের নাম ➺ ওভাল অফিস<br/>❏ মার্কিন প্রেসিডেন্টের সরকারি বাসভবনের নাম ➺ হোয়াইট হাউজ<br/>❏ যুক্তরাষ্ট্রের রাষ্ট্রপতি নির্বাচন অনুষ্ঠিত হয় ➺ নভেম্বর মাসের প্রথম মঙ্গলবারে<br/>❏ সংবিধানের কততম অনুচ্ছেদ অনুযায়ী মার্কিন নির্বাচন অনুষ্ঠিত হয় ➺ ২ নং অনুচ্ছেদ (১৮০৪ সালের দ্বাদশ সংশোধনীর ভিত্তিতে)<br/>❏ মার্কিন নির্বাচন ব্যাবস্থাকে বলা হয় – First Past of the Post System<br/>❏ Bradley Effect ➺ মার্কিন নির্বাচন সম্পর্কিত শব্দ<br/>❏ ২০২৪ এর নির্বাচনে বিজয়ী: ➺ ডোনাল্ড ট্রাম্প (৪৭তম মার্কিন প্রেসিডেন্ট)<br/>❏ হোম স্টেট ➺ ফ্লোরিডা<br/>❏ দলের নাম ➺ রিপাবলিকান পার্টি<br/>❏ দলীয় প্রতীক ➺ হাতি<br/>❏ কালার ➺ লাল<br/>❏ রানিং মেট ➺ জেমস ডেভিড (জেডি) ভ্যান্স<br/>❏ নির্বাচনী স্লোগান ➺ Make America Great Again!<br/>❏ নির্বাচনী ইশতেহার ➺ Project 2025<br/>❏ ২০২৪ এর নির্বাচনে পরাজিত প্রার্থী: ➺ কমলা হ্যারিস<br/>❏ হোম স্টেট ➺ ক্যালিফোর্নিয়া<br/>❏ দলের নাম ➺ ডেমোক্র্যাটিক পার্টি<br/>❏ দলীয় প্রতীক ➺ গাঁধা<br/>❏ কালার ➺ নীল<br/>❏ রানিং মেট ➺ টিম ওয়ালেজ<br/>❏ নির্বাচনী স্লোগান ➺ Let's Win This!<br/>❏ নির্বাচনী ইশতেহার ➺ Freedom, Investing in America",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333006,
+    "question": "সংসদ ভবনের স্থপতি কে?",
+    "options": [
+      "নভেরা আহমেদ",
+      "লুই আই কান",
+      "এফ আর খান",
+      "মাজহারুল ইসলাম"
+    ],
+    "correct_answer": "লুই আই কান",
+    "explanation": "📖 বাংলাদেশের জাতীয় সংসদ ভবনের স্থপতি লুই আই কান (Louis I. Kahn)। তিনি যুক্তরাষ্ট্রের নাগরিক ছিলেন (জন্মসূত্রে এস্তোনিয়ান)।<br/> ⇢ <br/>⛳ এই ভবনটির নির্মাণ কাজ শুরু হয় ১৯৬১ সালে এবং সম্পন্ন হয় ১৯৮২ সালে। এটি আধুনিক স্থাপত্যশৈলীর এক অনন্য নিদর্শন। লুই আই কান প্রাকৃতিক আলোর ব্যবহার এবং জ্যামিতিক আকৃতির (বৃত্ত, ত্রিভুজ, চতুর্ভুজ) সমন্বয়ে এর নকশা করেছেন।<br/> ⇢ <br/>⛳ বাংলাদেশের জাতীয় সংসদের স্থপতি লুই আই কান। উল্লেখ্য,<br/>❏ স্থপতি ➺ লুই আই কান <br/>❏ ভিত্তিপ্রস্তর স্থাপন করেন ➺ আইয়ুব খান (১৯৬২) <br/>❏ উদ্বোধন করা হয় ➺ ২৮ জানুয়ারি, ১৯৮২ (বিচারপতি আব্দুস সাত্তার) <br/>❏ সংসদ ভবন প্রতিষ্ঠিত ➺ ২১৫ একর জমির ওপর <br/>❏ প্রথম অধিবেশন বসে ➺ ১৫ ফেব্রুয়ারি, ১৯৮২",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333007,
+    "question": "কোন দেশের সৈন্যদের প্রধানত গাজায় শান্তিরক্ষীর দায়িত্বে প্রেরণের জন্য সিদ্ধান্ত নেয়া হয়েছে?",
+    "options": [
+      "বাংলাদেশ",
+      "সৌদিআরব",
+      "মালয়েশিয়া",
+      "ইন্দোনেশিয়া"
+    ],
+    "correct_answer": "ইন্দোনেশিয়া",
+    "explanation": "<p>ইন্দোনেশিয়া গাজায় শান্তিরক্ষী বাহিনী পাঠানোর জন্য ২০ হাজার সেনা প্রস্তুত রেখেছে, তবে চূড়ান্ত সিদ্ধান্ত এখনও হয়নি। দেশটির প্রতিরক্ষামন্ত্রী সাজাফ্রি সাজামসোয়েদ্দিন জানিয়েছেন যে, এই সেনারা মূলত স্বাস্থ্যসেবা এবং অবকাঠামোগত পুনর্গঠনের কাজ করবে। যুক্তরাষ্ট্র গাজায় একটি বহুজাতিক স্থিতিশীলতা বাহিনী গঠনের জন্য যেসব দেশের সাথে আলোচনা করছে, ইন্দোনেশিয়া তাদের মধ্যে অন্যতম।&nbsp;</p><br/><p>সেনা প্রস্তুত রেখেছে: ইন্দোনেশিয়া ২০ হাজার সেনাকে প্রশিক্ষিত করেছে, যারা স্বাস্থ্যসেবা ও পুনর্গঠনের কাজে নিয়োজিত হবে।</p><br/><p>চূড়ান্ত সিদ্ধান্ত: মোতায়েনের চূড়ান্ত সিদ্ধান্ত ইন্দোনেশিয়ার প্রেসিডেন্ট প্রাবোও সুবিয়ান্তো নেবেন।</p><br/><p>আন্তর্জাতিক আলোচনা: যুক্তরাষ্ট্র গাজায় একটি বহুজাতিক শান্তিরক্ষা বাহিনী গঠনের পরিকল্পনা করছে এবং এই বিষয়ে ইন্দোনেশিয়ার পাশাপাশি আজারবাইজান, মিশর এবং কাতারের সঙ্গেও আলোচনা করেছে।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333008,
+    "question": "বাংলাদেশের কোন জেলার সাথে দুটি দেশের সীমান্ত রয়েছে?",
+    "options": [
+      "রাঙ্গামটি",
+      "বান্দরবান",
+      "কক্সবাজার",
+      "কুমিল্লা"
+    ],
+    "correct_answer": "রাঙ্গামটি",
+    "explanation": "📖 রাঙ্গামাটি জেলার সাথে ভারত ও মিয়ানমার—এই দুটি দেশের সীমান্ত সংযোগ রয়েছে। এটি বাংলাদেশের একমাত্র জেলা যার সাথে দুটি দেশের সীমানা রয়েছে।<br/> ⇢ <br/>⛳ 📖 বাংলাদেশের ভৌগোলিক অবস্থান ও সীমানা<br/>❏ সীমান্তবর্তী জেলা ➺ ৩২টি (ভারতের সাথে ২৯টি ,মায়ানমার সাথে ৩টি,, রাঙামাটির সাথে উভয়)<br/>❏ উপকূলীয় জেলা ➺ ১৯টি<br/>❏ বাংলাদেশের সীমান্তবর্তী ভারতের রাজ্য ➺ ৫টি<br/>❏ বাংলাদেশের সীমান্তবর্তী ভারতের পশ্চিমবঙ্গের জেলা ➺ ৮টি<br/>❏ ভারতের পশ্চিমবঙ্গ, মেঘালয় ও আসাম রাজ্য; এর অবস্থান বাংলাদেশের কোন দিকে ➺ উত্তরে<br/>❏ বঙ্গোপসাগর, আন্দামান ও নিকোবর দ্বীপপুঞ্জ; এর অবস্থান বাংলাদেশের কোন দিকে ➺ দক্ষিণে<br/>❏ ভারতের আসাম, ত্রিপুরা, মিজোরাম রাজ্য এবং মিয়ানমার; এর অবস্থান বাংলাদেশের কোন দিকে ➺ পূর্বে<br/>❏ ভারতের পশ্চিমবঙ্গ; এর অবস্থান বাংলাদেশের কোন দিকে ➺ পশ্চিমে<br/>❏ অথবা<br/>❏ বাংলাদেশের উত্তরে ভারতের ➺ পশ্চিমবঙ্গের কিছু অংশ, মেঘালয়, আসাম রাজ্য।<br/>❏ বাংলাদেশের পূর্বে ভারতের ➺ আসাম, ত্রিপুরা, মিজোরাম, মায়ানমার।<br/>❏ বাংলাদেশের পশ্চিমে ভারতের ➺ পশ্চিমবঙ্গ।<br/>❏ বাংলাদেশের দক্ষিণে ➺ বঙ্গোপসাগর।<br/>❏ 📚 বাংলাদেশের সীমারেখা বা সীমান্ত<br/>❏ বাংলাদেশের সর্বমোট সীমারেখা ➺ ৪৭১২ কি.মি. (সূত্র: মাধ্যমিক ভূগোল) ➺ ৫১৩৮ কি.মি. (সূত্র: বর্ডার গার্ড বাংলাদেশ)<br/>❏ বাংলাদেশের সর্বমোট স্থলসীমা ➺ ৩৯৯৫ কি.মি. (সূত্র: মাধ্যমিক ভূগোল) ➺ ৪৪২৭ কি.মি. (সূত্র: বর্ডার গার্ড বাংলাদেশ) ➺ ৪,২৪৭ কিলোমিটার (সূত্র: উইকিপিডিয়া) [যার ৯৪% ভারতের সাথে এবং বাকি ৬% মিয়ানমারের সাথে]<br/>❏ উপকূলীয়/তটরেখার দৈর্ঘ্য ➺ বিজিবি'র তথ্য: ৭১১ কি. মি. ; মাধ্যমিক ভূগোল: ৭১৬ কি.মি<br/>❏ ভারতের সাথে সীমান্ত দৈর্ঘ্য (৯২%) ➺ বিজিবি'র তথ্য: ৪১৫৬ কি. মি. ; মাধ্যমিক ভূগোল: ৩৭১৫ কি.মি.<br/>❏ মিয়ানমারের সাথে সীমান্ত দৈর্ঘ্য (৮%) ➺ বিজিবি'র তথ্য: ২৭১ কি.মি. ; মাধ্যমিক ভূগোল: ২৮০ কি.মি<br/>❏ 📚 মোট সীমান্ত দৈর্ঘ্য ➺ ৫১৩৮ কি.মি [স্থল সীমান্ত দৈর্ঘ্য ➺ ৪৪২৭ কি. মি. (ভারতের সাথে সীমান্ত দৈর্ঘ্য ➺ ৪১৫৬ কি. মি. + মিয়ানমারের সাথে সীমান্ত দৈর্ঘ্য ➺ ২৭১ কি.মি ) + উপকূলীয় সীমান্ত দৈর্ঘ্য ➺ ৭১১ কি. মি.]<br/>❏ বাংলাদেশের বর্তমান মোট সমুদ্রসীমা ➺ ১,১৮,৮১৩ বর্গ কি.মি.<br/>❏ বাংলাদেশ-ভারত অমীমাংসিত সীমান্ত ➺ ২.৫ কি.মি. (ফেনী জেলার মহুরীর চর)<br/>❏ বাংলাদেশের সমুদ্র উপকূলের দৈর্ঘ্য/ দক্ষিণে অবস্থিত বঙ্গোপসাগরের তটরেখার দৈর্ঘ্য ➺ ৭১৬ কি.মি. (সূত্র: মাধ্যমিক ভূগোল) ➺ ৭১১ কি.মি. (বর্ডার গার্ড বাংলাদেশ)<br/>❏ বাংলাদেশের রাজনৈতিক বা ভূখণ্ডগত সমুদ্রসীমা ➺ ১২ নটিক্যাল মাইল (২২.২২ কিমি) (১ নটিক্যাল মাইল = ১.১৫ মাইল বা ১.৮৫২ কি.মি.)<br/>❏ বাংলাদেশের অর্থনৈতিক সমুদ্রসীমা উপকূল থেকে ➺ ২০০ নটিক্যাল মাইল (৩৭০.৪০ কিমি)<br/>❏ বাংলাদেশের সমুদ্রের মহীসোপান অঞ্চল ➺ ৩৫৪ নটিক্যাল মাইল<br/>❏ বাংলাদেশের সমুদ্রতট রেখার দৈর্ঘ্য ➺ ৫৮০ কিলোমিটার।<br/>❏ পৃথিবীর দীর্ঘতম অনবচ্ছিন্ন সমুদ্র সৈকত ➺ কক্সবাজার<br/>❏ বাংলাদেশের উচ্চতম স্থান দেশের দক্ষিণ-পূর্বাঞ্চলে পার্বত্য চট্টগ্রামের ➺ মোদক মুয়াল, সমুদ্রতল থেকে যার উচ্চতা ১,০৫২ মিটার (৩,৪৫১ ফুট)<br/>❏ সর্বোচ্চ শৃঙ্গ “বিজয়” (তাজিং ডং)-এর উচ্চতা ➺ ১,২৮০ মিটার যা রাঙ্গামাটি জেলার সাইচল পর্বতসারির অন্তর্ভুক্ত।<br/> ⇢ <br/>⛳ রাঙ্গামাটির সাথে ভারত ও মিয়ানমার উভয় দেশের সীমান্ত রয়েছে। উল্লেখ্য, বাংলাদেশের সাথে ২টি দেশের সীমানা রয়েছে। যথাঃ ভারত ও মিয়ানমার। ভারতের সাথে বাংলাদেশের সীমান্ত জেলা ৩০টি এবং মিয়ানমারের সাথে ৩টি। মোট সীমান্ত জেলা ৩২টি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333009,
+    "question": "তিস্তা নদীর তীরবর্তী নীচের জেলা কোনটি?",
+    "options": [
+      "লালমনিরহাট",
+      "নীলফামারী",
+      "রংপুর",
+      "সবকয়টি"
+    ],
+    "correct_answer": "সবকয়টি",
+    "explanation": "📖 তিস্তা নদী ভারতের সিকিম ও পশ্চিমবঙ্গ হয়ে নীলফামারী ও লালমনিরহাট জেলার মধ্য দিয়ে বাংলাদেশে প্রবেশ করেছে এবং রংপুর ও কুড়িগ্রাম হয়ে ব্রহ্মপুত্রে মিলিত হয়েছে। তাই উপরের সবকয়টি জেলা তিস্তা বিধৌত।<br/> ⇢ <br/>⛳ <b>▣ তিস্তা (Teesta):</b><br/>❐ ভারতের<b> সিকিমের পাবর্ত্য অঞ্চলে</b> তিস্তা নদী উৎপত্তি হয়েছে। <br/>❐ এরপর অগ্রসর হয়ে পশ্চিমবঙ্গের জলপাইগুড়ি ও দার্জিলিং জেলার মধ্য দিয়ে প্রবাহিত হয়ে বাংলাদেশের নীলফামারী জেলার ডিমলা দিয়ে প্রবেশ করেছে।<br/>❐ তিস্তা নদীর বর্তমান দৈর্ঘ্য প্রায় ১৭৭ কিলেমিটার এবং চওড়া ৩০০ থেকে ৫৫০ মিটার।<br/>❐ এ নদীতে তিস্তা ব্যারেজ নির্মাণ করা হয়েছে।<br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333010,
+    "question": "বাংলাদেশের ইউনেস্কো ঘোষিত বিশ্ব-ঐতিহ্যবাহী স্থান নয় কোনটি ?",
+    "options": [
+      "ঢাকাই জামদানী",
+      "সুন্দরবন",
+      "সোমপুর বিহার",
+      "ষাট গম্বুজ মসজিদ"
+    ],
+    "correct_answer": "ঢাকাই জামদানী",
+    "explanation": "📖 সুন্দরবন, সোমপুর বিহার এবং ষাট গম্বুজ মসজিদ ইউনেস্কো ঘোষিত বিশ্ব ঐতিহ্যবাহী ‘স্থান’ (World Heritage Site)। অন্যদিকে ‘ঢাকাই জামদানি’ ইউনেস্কোর ‘বিমূর্ত সাংস্কৃতিক ঐতিহ্য’ (Intangible Cultural Heritage), এটি কোনো ভৌগোলিক স্থান নয়।<br/> ⇢ <br/>⛳ স্বীকৃতির সালসমূহ:<br/>❏ ঐতিহাসিক ষাট গম্বুজ মসজিদ: ১৯৮৫<br/>❏ পাহাড়পুর বৌদ্ধ বিহার (সোমপুর বিহার): ১৯৮৫<br/>❏ সুন্দরবন: ১৯৯৭<br/>❏ জামদানি: ২০১৩ (ইনট্যানজিবল কালচারাল হেরিটেজ)।<br/> ⇢ <br/>⛳ সুন্দরবন ১৯৯৭ সালে ইউনেস্কো (UNESCO) বিশ্ব ঐতিহ্যবাহী স্থান হিসেবে স্বীকৃতি লাভ করে। ইউনেস্কোর বিশ্ব ঐতিহ্যের তালিকায় 'সুন্দরবন' ও 'সুন্দরবন জাতীয় উদ্যান' নামে তালিকাভুক্ত হয়েছে। উল্লেখ্য, ঢাকাই জামদানী কোন স্থানের নাম নয়। এটি বাংলাদেশের প্রথম জিআই পণ্য হিসেবে স্বীকৃত।<br/>❏ নাম ➺ অবস্থান ➺ ঘোষণা ➺ যততম <br/>❏ ষাট গম্বুজ মসজিদ ➺ বাগেরহাট ➺ ১৯৮৫ সালে ➺ ৩২১ তম <br/>❏ পাহাড়পুর বৌদ্ধ বিহার ➺ নওগাঁ ➺ ১৯৮৫ সালে ➺ ৩২২ তম <br/>❏ সুন্দরবন ➺ - ➺ ১৯৯৭ সালে ➺ ৭৯৮ তম",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333011,
+    "question": "'চাকা' কোন সভ্যতার আবিষ্কার?",
+    "options": [
+      "ক্যালডীয়",
+      "অ্যাসেরীয়",
+      "সুমেরীয়",
+      "ব্যাবিলনীয়"
+    ],
+    "correct_answer": "সুমেরীয়",
+    "explanation": "📖 বর্তমান ইরাকের টাইগ্রীস ও ইউফ্রেটিস (তৎকালীন দজলা ও ফোরাত) নদীর মধ্যবর্তী উর্বর স্থানে সুমেরীয় সভ্যতার গোড়াপত্তন ঘটে। পশ্চিম এশিয়ার জাতিগোষ্ঠীর মধ্যে নবপোলীয় পর্যায় থেকে উত্তরণ ঘটিয়ে মেসোপটেমিয়া অঞ্চলে প্রথম যে সভ্যতা গড়ে উঠে তাই সুমেরীয় সভ্যতা। এ জন্যই সুমেরীয় সভ্যতা কে মেসোপটেমিয়া সভ্যতার স্রষ্টা বলা হয়। সুমেরীয় সভ্যতার সবচেয়ে গুরুত্বপূর্ণ অবদান তাদের লিখনপদ্ধতি আবিষ্কার। লিখিতভাবে পাওয়া পৃথিবীর সবচেয়ে প্রাচীন ভাষা সুমেরীয় ভাষা। এ লিখনপদ্ধতি আবিষ্কারের পূর্বে মিশরের সুমেরীয় লিখন ধারণা ছিলো চিত্রভিত্তিক। <br/>❏ চাকা মেসোপটেমিয়া সভ্যতার সুমেরীয়দের দ্বারা আবিষ্কৃত হয়েছিল বলে মনে করা হয়, যা খ্রিস্টপূর্ব চতুর্থ শতাব্দীতে (আনুমানিক ৫০০০ খ্রিস্টপূর্বাব্দ) ঘটেছিল। এটি প্রথমবার কুমোরদের কাজের জন্য ব্যবহার করা হয়েছিল এবং পরবর্তীতে পরিবহন ও অন্যান্য কাজে এর ব্যবহার শুরু হয়। ভারী বস্তু সরানোর জন্য মানুষ গাছের গুঁড়িকে গোল করে কেটে তার উপর জিনিস রেখে গড়িয়ে নিয়ে যেত, যা ছিল চাকা আবিষ্কারের পূর্বসূরী। মেসোপটেমিয়ার সুমেরীয়রা এই ধারণাকে বিকশিত করে কাঠের চাকতি ব্যবহার করে এবং এর কেন্দ্রে একটি ঘূর্ণায়মান অক্ষ স্থাপন করে, যা চাকার প্রথম রূপ ছিল।<br/>❏ মেসোপটেমীয়া অঞ্চলে সবচেয়ে প্রাচীন যে সভ্যতাটি গড়ে উঠেছিল, তার নাম - সুমেরীয় সভ্যতা।<br/>❏ বর্তমানে ইরাকের টাইগ্রীস ও ইউফ্রেটিস (তৎকালীন দজলা ও ফোরাত) নদীর মধ্যবর্তী উর্বর স্থানে সুমেরীয় সভ্যতার গোড়াপত্তন ঘটে।<br/>❏ দক্ষিণ মেসোপটেমিয়ার আদি অ-সেমেটিকবাসীরা সাধারণভাবে ‘সুমেরিয়ান’ নামে পরিচিত ছিল।<br/>❏ টাইগ্রিস সুমেরীয়রা প্রথম চাকার ব্যবহার শুরু করে। তাদের কৃষকরা প্রথম দুই চাকা বিশিষ্ট ‘রথ’ (Chariot) ব্যবহার শুরু করেছিল। পরবর্তীতে সেগুলো যুদ্ধের উপযোগী করে নির্মাণ করা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333012,
+    "question": "ধ্বনি উচ্চারণের প্রত্যঙ্গগুলিকে একত্রে বলেঃ",
+    "options": [
+      "স্বরযন্ত্র",
+      "ষড়যন্ত্র",
+      "বাগ্‌যন্ত্র",
+      "বাকযন্ত্র"
+    ],
+    "correct_answer": "বাগ্‌যন্ত্র",
+    "explanation": "📖 ধ্বনি উচ্চারণের জন্য ব্যবহৃত মুখবিবর, কণ্ঠ, জিহ্বা, দন্ত, ওষ্ঠ, নাসিকা ইত্যাদিকে একত্রে বাগ্‌যন্ত্র (Vocal Organs) বলা হয়।<br/> ⇢ <br/>⛳ বাগ্‌যন্ত্রের প্রধান অংশগুলো হলো: ফুসফুস, শ্বাসনালি, ষড়যন্ত্র (Larynx), জিভ, আলজিভ, তালু (শক্ত ও নরম), দাঁত, মাড়ি, ঠোঁট ও নাসারন্ধ্র। ফুসফুস থেকে আসা বাতাস এই অঙ্গগুলোর সাহায্যে ধ্বনিতে রূপান্তরিত হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333013,
+    "question": "দোষ স্বীকার করলে তোমাকে কোন শাস্তি দেবনা এটি কোন ধরনের বাক্য?",
+    "options": [
+      "জটিল",
+      "মিশ্র",
+      "যৌগিক",
+      "সরল"
+    ],
+    "correct_answer": "সরল",
+    "explanation": "📖 যে বাক্যে একটিমাত্র কর্তা ও একটিমাত্র সমাপিকা ক্রিয়া থাকে, তাকে সরল বাক্য বলে। এখানে ‘দোষ স্বীকার করলে’ অংশটি অসমাপিকা ক্রিয়া এবং ‘দেব না’ সমাপিকা ক্রিয়া, তাই এটি সরল বাক্য।<br/> ⇢ <br/>⛳ বাক্য রূপান্তর:<br/>❏ জটিল: যদি দোষ স্বীকার করো, তবে তোমাকে কোনো শাস্তি দেব না।<br/>❏ যৌগিক: দোষ স্বীকার করো, নতুবা তোমাকে শাস্তি দেব।<br/>❏ যেহেতু প্রদত্ত বাক্যে কোনো সংযোজক অব্যয় বা শর্তবাচক খণ্ডবাক্য নেই, তাই এটি সরল বাক্য।<br/> ⇢ <br/>⛳ যে বাক্যে একটি মাত্র কর্তা (উদ্দেশ্য) এবং একটি মাত্র সমাপিকা ক্রিয়া (বিধেয়) থাকে তাকে, সরল বাক্য বলে। যেমনঃ পুকুরে পদ্মফুল জন্মে। এখানে 'পদ্মফুল' উদ্দেশ্য এবং 'জন্মে' বিধেয়। সরল বাক্যের দুটি প্রধান ভাগকে নির্দেশ করা যায়ঃ লক্ষ্যভাগ এবং বিবরণভাগ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333014,
+    "question": "পণ্ডিতমশাই “গণিতে” পাকা-এটি কোন কারক?",
+    "options": [
+      "কর্মকারক",
+      "অধিকরণ কারক",
+      "অপাদান কারক",
+      "সম্প্রদান কারক"
+    ],
+    "correct_answer": "অধিকরণ কারক",
+    "explanation": "📖 কোনো বিষয়ে দক্ষতা বা দুর্বলতা বোঝালে তাকে বিষয়াধিকরণ কারক বলে। এখানে ‘গণিতে’ দ্বারা একটি বিষয় বোঝাচ্ছে এবং তাতে দক্ষতার কথা বলা হয়েছে, তাই এটি অধিকরণ কারক।<br/> ⇢ <br/>⛳ অধিকরণ কারক তিন প্রকার: কালাধিকরণ, আধারাধিকরণ ও ভাবাধিকরণ। কোনো নির্দিষ্ট বিষয়ে পারদর্শিতা বা অপরিপক্কতা বোঝালে তা ভাবাধিকরণ বা বিষয়াধিকরণ হয়। যেমন: “তিনি ব্যাকরণে ভালো।”",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333015,
+    "question": "অকপট এর প্রতিশব্দ নয় কোনটি?",
+    "options": [
+      "বাঞ্ছা",
+      "সরল",
+      "ঋজু",
+      "অবক্র"
+    ],
+    "correct_answer": "বাঞ্ছা",
+    "explanation": "📖 ‘অকপট’ শব্দের অর্থ কপটতা নেই যার, সরল, সোজা, ঋজু বা অবক্র। অন্যদিকে ‘বাঞ্ছা’ শব্দের অর্থ ইচ্ছা বা আকাঙ্ক্ষা, যা অকপট-এর প্রতিশব্দ নয়।<br/> ⇢ <br/>⛳ অপশন বিশ্লেষণ:<br/>❏ সরল, ঋজু, অবক্র: তিনটিই ‘সোজা’ বা ‘সততা’ নির্দেশ করে, যা অকপটের সমার্থক।<br/>❏ বাঞ্ছা: এর অর্থ অভিলাষ, কামনা বা বাসনা। এটি মনের ইচ্ছাকে বোঝায়, চরিত্রের গুণাবলীকে নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333016,
+    "question": "মূর্ধন্য 'ণ' হয় না কার পরে?",
+    "options": [
+      "ষ",
+      "ট-বর্গীয়",
+      "ঋ",
+      "র"
+    ],
+    "correct_answer": "ট-বর্গীয়",
+    "explanation": "📖 ণত্ব বিধানের নিয়ম অনুযায়ী ঋ, র, ষ-এর পরে মূর্ধন্য 'ণ' হয়। ট-বর্গীয় ধ্বনির (ট, ঠ, ড, ঢ) সাথে যুক্ত হলে 'ণ' হয় (যেমন- ঘণ্টা, কাণ্ড), কিন্তু প্রশ্নটি সম্ভবত জানতে চেয়েছে কোনটির প্রভাবে 'ণ' হয় না বা কোনটির পরে স্বাভাবিক নিয়মে 'ণ' আসে না। অপশনগুলোর মধ্যে ঋ, র, ষ হলো 'ণ' হওয়ার কারণ।<br/> ⇢ <br/>⛳ যে রীতি অনুসারে বাংলা ভাষায় ব্যবহৃত তৎসম বা সংস্কৃত শব্দের বানানে মূর্ধন্য (ণ) হয় তাকে ণত্ব বিধান বলে। অর্থাৎ তৎসম শব্দের বানানে ণ-এর সঠিক ব্যবহারের নিয়মই ণত্ব বিধান।<br/>❏ নিচে ণত্ব বিধানের পাঁচটি নিয়ম উল্লেখ করা হলো:<br/>❏ ক. তৎসম শব্দের বানানে ঋ, র, ষ-এর পরে ‘ণ’ ব্যবহৃত হয়। যেমন: চরণ, মরণ, ঋণ, তৃণ, ক্ষীণ, জীর্ণ।<br/>❏ খ. যুক্ত ব্যঞ্জনবর্ণের ক্ষেত্রে ট-বর্গীয় বর্ণের আগে ‘ণ’ বসে। যেমন: বণ্টন, লুণ্ঠন, কণ্ঠ, খণ্ড, ভন্ড, মুন্ড, কুন্ড।<br/>❏ গ. প্র, পরি, নির-এ তিনটি উপসর্গের পর সাধারণত ‘ণ’ ব্যবহৃত হয়। যেমন: প্রণয়, প্রণাম, পরিণয়, নির্ণয়।<br/>❏ ঘ. নার, পার, রাম, রবীন্দ্র, চন্দ্র, উত্তর ইত্যাদি শব্দের পর ‘অয়ন’ বা ‘আয়ন’ থাকলে তার পরের ‘ন’ ধ্বনিটি ‘ণ’ হয়। যেমন: নারায়ণ, পরায়ণ, রামায়ণ, রবীন্দ্রায়ণ, চন্দ্রায়ণ, উত্তরায়ণ ইত্যাদি।<br/>❏ ঙ. বিদেশি শব্দের ক্ষেত্রে ণত্ব বিধান প্রযোজ্য না। যেমনঃ ফ্রান্স, অ্যাপরোন ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333017,
+    "question": "প্রবাসী শব্দের সঠিক অর্থ কি?",
+    "options": [
+      "অন্যদেশে থাকেন যিনি",
+      "অন্যদেশী",
+      "বিদেশে কাজ করেন",
+      "বিদেশে থাকে যে"
+    ],
+    "correct_answer": "বিদেশে থাকে যে",
+    "explanation": "📖 যে ব্যক্তি ভিন্ন দেশে বা বিদেশে বাস করে, তাকে প্রবাসী বলা হয়।<br/> ⇢ <br/>⛳ ব্যাকরণগতভাবে: প্র (উপসর্গ) + বাস (ধাতু) + ইন (ণিন) = প্রবাসী। এর অর্থ প্রবাসে বা ভিনদেশে বসবাসকারী। বিপরীত শব্দ: স্বদেশী বা অধিবাসী।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333018,
+    "question": "মহাকবি কায়কোবাদ এর মহাকাব্য 'মহাশ্মশান' এর মূল উপজীব্যঃ",
+    "options": [
+      "মোগল সাম্রাজ্যের ইতিহাস",
+      "বাংলা অঞ্চলের প্রাচীন ঘটনাসমূহ",
+      "পানিপথের তৃতীয় যুদ্ধ",
+      "একটিও নয়"
+    ],
+    "correct_answer": "পানিপথের তৃতীয় যুদ্ধ",
+    "explanation": "📖 মহাকবি কায়কোবাদ রচিত ‘মহাশ্মশান’ (১৯০৪) মহাকাব্যটি পানিপথের তৃতীয় যুদ্ধের (১৭৬১) কাহিনী অবলম্বনে রচিত। এটি বাংলা সাহিত্যের অন্যতম বিখ্যাত মহাকাব্য।<br/> ⇢ <br/>⛳ 📖 'মহাশ্মশান' মহাকাব্য:<br/>❏ কায়কোবাদের শ্রেষ্ঠ কাব্যগ্রন্থ 'মহাশ্মশান' ১৯০৫ সালে প্রকাশিত হয়।<br/>❏ কাব্যটি ধারাবাহিকভাবে মোহাম্মদরওশন আলী সম্পাদিত 'কোহিনূর' পত্রিকায় প্রকাশিত হয়।<br/>❏ - পানিপথের তৃতীয় যুদ্ধ (১৭৬১) অবলম্বনে কাব্যটি রচিত।<br/>❏ কাব্যটি তিনটি খণ্ড রচিত।<br/>❏ প্রথম খণ্ডে ২৯টি সর্গ, দ্বিতীয় খণ্ডে ২৪টি সর্গ, তৃতীয় খণ্ডে ৭টি সর্গ বিদ্যমান।<br/>❏ মহাকাব্যের প্রধান চরিত্রগুলো হলো:<br/>❏ ইব্রাহিম কার্দি, জোহরা বেগম, হিরণ বালা, আতা খাঁ, লঙ্গ, রত্নজি, সুজাউদ্দৌলা, সেলিনা, আহমদ শাহ্ আব্দালী।<br/>❏ কায়কোবাদ:<br/>❏ আধুনিক বাংলা সাহিত্যের প্রথম মুসলিম কবি কায়কোবাদ।<br/>❏ তাঁর প্রকৃত নাম কাজেম আল কোরেশী।<br/>❏ কায়কোবাদ তাঁর সাহিত্যিক ছদ্মনাম।<br/>❏ তাঁর প্রথম কাব্যগ্রন্থ- বিরহ বিলাপ (১৮৭০)।<br/>❏ মাত্র তের বছর বয়সে তাঁর এই কাব্যগ্রন্থটি প্রকাশিত হয়।<br/>❏ তাঁর রচিত অন্যান্য কাব্যগ্রন্থ:<br/>❏ মহাশ্মশান (মহাকাব্য), কুসুম কানন, অশ্রুমালা, শিবমন্দির, অমিয়ধারা, শ্মশান-ভস্ম, মহররম শরীফ ইত্যাদি।<br/> ⇢ <br/>⛳ মহাকবি কায়কোবাদের (১৮৫৮-১৯৫২) শ্রেষ্ঠ মহাকাব্য 'মহাশ্মশান' (১৯০৪)। কাব্যটির ঐতিহাসিক পটভূমি হলো তৃতীয় পানিপথের যুদ্ধ (১৭৬১)। পানিপথের তৃতীয় যুদ্ধ (১৭৬১) অবলম্বনে কাব্যটি রচিত। এই মহাকাব্যের প্রধান চরিত্রগুলো হলোঃ ইব্রাহিম কার্দি, জোহরা বেগম, হিরণ বালা, আতা খাঁ, লঙ্গ, রত্নজি, সুজাউদ্দৌলা, সেলিনা, আহমদ শাহ আবদালী। বিখ্যাত নাট্যকার মুনীর চৌধুরীর 'রক্তাক্ত প্রান্তর'এর কাহিনী-উৎস এই গ্রন্থ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333019,
+    "question": "ঐতিহ্য এর প্রতিশব্দ হলঃ",
+    "options": [
+      "বিভূতি",
+      "বিরাগ",
+      "নিপাত",
+      "বিশ্রুতি"
+    ],
+    "correct_answer": "বিশ্রুতি",
+    "explanation": "📖 ‘ঐতিহ্য’ শব্দের অর্থ হলো অতীতের গর্ব ও গৌরবের বস্তু, যা ভবিষ্যৎ বংশধরদের জন্য সংরক্ষিত থাকে বা পরম্পরা। প্রদত্ত অপশনগুলোর মধ্যে ‘বিশ্রুতি’ (খ্যাতি/জনশ্রুতি/কিংবদন্তি) শব্দটি ঐতিহ্যের সাথে কিছুটা সামঞ্জস্যপূর্ণ।<br/> ⇢ <br/>⛳ অপশনগুলোর অর্থ:<br/>❏ বিভূতি: ঐশ্বর্য বা ভস্ম।<br/>❏ বিরাগ: অনাগ্রহ বা উদাসীনতা।<br/>❏ নিপাত: ধ্বংস বা মৃত্যু।<br/>❏ বিশ্রুতি: যা লোকমুখে শোনা যায় বা খ্যাতি। ঐতিহ্যের সাথে ‘বিশ্রুতি’র অর্থগত নৈকট্য রয়েছে কারণ ঐতিহ্যও লোকপরম্পরায় শ্রুত ও বাহিত হয়।<br/> ⇢ <br/>⛳ 'ঐতিহ্য' এর প্রতিশব্দ হলোঃ পরম্পরাগত কথা; কিংবদন্তি, বিশ্ৰুতি, লোক প্রসিদ্ধি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333020,
+    "question": "বেগম রোকেয়ার জন্ম কোন বৃহত্তর জেলায়?",
+    "options": [
+      "কলকাতায়",
+      "ঢাকায়",
+      "বরিশালে",
+      "রংপুরে"
+    ],
+    "correct_answer": "রংপুরে",
+    "explanation": "📖 নারী জাগরণের অগ্রদূত বেগম রোকেয়া ১৮৮০ সালে রংপুর জেলার মিঠাপুকুর উপজেলার পায়রাবন্দ গ্রামে জন্মগ্রহণ করেন।<br/> ⇢ <br/>⛳ <b> রোকেয়া সাখাওয়াত হোসেন: </b><br/>❏ নারী জাগরণের পথিকৃৎ রোকেয়া সাখাওয়াত হোসেন ৯ই ডিসেম্বর, ১৮৮০ সালে রংপুর জেলার পায়রাবন্দ গ্রামে জন্মগ্রহণ করেন।<br/>❏ বাংলাদেশের নারী আন্দোলনের ইতিহাসে তাঁর অবদান চিরঅম্লান।<br/>❏ মুসলমান মেয়েদের মধ্যে সচেতনতা সৃষ্টি এবং তাদের অধিকার আদায়ের জন্য ১৯১৬ সালে তিনি প্রতিষ্ঠা করেন 'আঞ্জুমানে খাওয়াতীনে ইসলাম' বা 'মুসলিম মহিলা সমিতি'। <br/>❏ 'Sultana’s Dream' গ্রন্থটি রোকেয়া সাখাওয়াত হোসেন নিজেই বাংলায় অনুবাদ করেন 'সুলতানার স্বপ্ন' নামে।<br/>❏ এটি একটি প্রতীকী রচনা এবং এতে বর্ণিত 'Lady Land' বা 'নারীস্থান' মূলত রোকেয়া সাখাওয়াত হোসেনেরই স্বপ্নকল্পনার প্রতীক। <br/>❏ তিনি ৯ই ডিসেম্বর, ১৯৩২ সালে মৃত্যুবরণ করেন।<br/><br/>▣ তাঁর উলে&shy;খযোগ্য রচনা:<br/>❏ মতিচূর (প্রবন্ধ, দুই খণ্ড: ১ম খণ্ড ১৯০৪, ২য় খণ্ড ১৯২২), <br/>❏ <b> সুলতানার স্বপ্ন (নকশাধর্মী উপন্যাস রচনা),</b><br/>❏ পদ্মরাগ (উপন্যাস),<br/>❏ অবরোধবাসিনী (নকশাধর্মী গদ্যগ্রন্থ) প্রভৃতি।<br/> ⇢ <br/>⛳ বেগম রোকেয়া বৃহত্তর রংপুর জেলায় জন্মগ্রহণ করেন, যা এখনকার রংপুর ও কুড়িগ্রাম জেলা নিয়ে গঠিত। তাঁর জন্মস্থান পায়রাবন্দ গ্রামটি রংপুর জেলার মিঠাপুকুর উপজেলায় অবস্থিত, যা পূর্বে বৃহত্তর রংপুর জেলার অংশ ছিল।<br/>❏ রোকেয়া বাংলা ও ইংরেজি ভাষা শিখেছিলেন – বড় ভাই-বোনের সাহচর্যে ।<br/>❏ রোকেয়া বিবাহ বন্ধনে আবদ্ধ হন ১৬বছর বয়সে।<br/>❏ রোকেয়ার ইংরেজি রচনা Sultana’s Dream.<br/>❏ রোকেয়া সাখাওয়াত হোসেনের পিতৃপ্রদত্ত নাম ও বিবাহের পরের নাম রোকেয়া খাতুন, বিবাহের পরে নামের শেষে স্বামীর নাম সাখাওয়াত হোসেন যুক্ত হয়।<br/>❏ তিনি প্রথমে যে নামে লিখতেন মিসেস আর.এস. হোসেন।<br/>❏ বিপত্নীক সৈয়দ সাখাওয়াত হোসেনের সঙ্গে তিনি বিবাহ বন্ধনে আবদ্ধ হন – ১৮৯৮ সালে।<br/>❏ তিনি সাহিত্য সাধনায় আত্মনিয়োগ করেন ভাগুলপুরে বসে।<br/>❏ তার স্বামীর মৃত্যু হয় – ১৯০৯ সালে।<br/>❏ নারীর অধিকার প্রতিষ্ঠার লক্ষ্যে তিনি ১৯১৬ সালে স্থাপন করেন – আঞ্জুমান খাওয়াতিনে ইসলাম (মুসলিম মহিলা সমিতি)।<br/>❏ রোকেয়া সাখাওয়াত হোসেন লেখনী ধারণ করেন মুসলিম সমাজের কুসংস্কার ও জড়তা দূর করার জন্য।<br/>❏ রোকেয়া কলকাতায় গমন করেন ১৯১০ সালে।<br/>❏ রোকেয়া দিবস পালিত হয় – ৯ডিসেম্বর।<br/>❏ রোকেয়া ভাঞ্চলপুরে একটি প্রাথমিক বিদ্যালয় স্থাপন করেন- স্বামীর নামে।<br/>❏ রোকেয়া কলকাতায় সাখাওয়াত মেমোরিয়াল উর্দু প্রাইমারি স্কুল স্থাপন করেন – ১৬ মার্চ ১৯১১ সালে।<br/>❏ বিবিসির জরিপকৃত শ্রেষ্ঠ বাঙালির তালিকায় রোকেয়ার স্থান – ৬ষ্ঠ।<br/>❏ ‘পিপাসা’ নামক একটি বাংলা গল্প লিখে সাহিত্যজগতে রোকেয়া অবদান রাখতে শুরু করেন – ১৯০২ সালে।<br/>❏ পায়রাবন্দ গ্রামে পৈতৃক ভিটায় ‘বেগম রোকেয়া স্মৃতি কেন্দ্র’ প্রতিষ্ঠিত হয়েছে – ৩.১৫ একর জমির উপর।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333021,
+    "question": "সৌম্য শব্দের বিপরীত শব্দ কোনটি?",
+    "options": [
+      "ব্যগ্র",
+      "উগ্র",
+      "নম্র",
+      "বিনীত"
+    ],
+    "correct_answer": "উগ্র",
+    "explanation": "📖 ‘সৌম্য’ শব্দের অর্থ শান্ত, ধীর, সুন্দর বা নম্র। এর বিপরীত শব্দ হলো উগ্র বা দুরন্ত।<br/> ⇢ <br/>⛳ অপশন বিশ্লেষণ:<br/>❏ ব্যগ্র: এর বিপরীত ‘নিস্পৃহ’।<br/>❏ নম্র/বিনীত: এগুলো ‘সৌম্য’র সমার্থক শব্দ।<br/>❏ উগ্র: এর অর্থ কড়া, তীব্র বা মেজাজি, যা সৌম্যর (শান্ত) সরাসরি বিপরীত।<br/> ⇢ <br/>⛳ 'সৌম্য' এর বিপরীত শব্দ উগ্র। 'সৌম্য' শব্দের কিছু সমার্থক শব্দ প্রশান্ত; ধীর; স্থির; মনোরম; মনোহর; প্রসন্ন ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333022,
+    "question": "জাতীয় কবি কাজী নজরুল ইসলামের সম্পাদিত পত্রিকা হলঃ",
+    "options": [
+      "ধুপছায়া",
+      "ধূমকেতু",
+      "সংগ্রাম",
+      "একটিও নয়"
+    ],
+    "correct_answer": "ধূমকেতু",
+    "explanation": "📖 কাজী নজরুল ইসলাম সম্পাদিত পত্রিকাগুলো হলো—ধূমকেতু (১৯২২), লাঙল (১৯২৫) এবং দৈনিক নবযুগ (১৯৪১)।<br/> ⇢ <br/>⛳ ‘ধূমকেতু’ একটি অর্ধ-সাপ্তাহিক পত্রিকা ছিল। এই পত্রিকায় প্রকাশিত নজরুলের ‘আনন্দময়ীর আগমনে’ কবিতার জন্য তাঁকে কারাবরণ করতে হয়েছিল। পত্রিকাটি ব্রিটিশ বিরোধী আন্দোলনে গুরুত্বপূর্ণ ভূমিকা রাখে।<br/> ⇢ <br/>⛳ কাজী নজরুল ইসলাম 'ধূমকেতু' (১৯২২) অর্ধসাপ্তাহিক পত্রিকার সম্পাদক ছিলেন। কাজী নজরুল ইসলাম সম্পাদিত পত্রিকা হলোঃ 'ধূমকেতু' (১৯২২), 'লাঙল' (১৯২৫) এবং 'নবযুগ' (১৯৪১)।<br/>❏ সংবাদ পত্র ➺ প্রকাশকাল ➺ সম্পাদক <br/>❏ সমাচার চন্দ্রিকা ➺ ১৮২২ ➺ ভবানীচরণ বন্দ্যোপাধ্যায় <br/>❏ বঙ্গদূত ➺ ১৮২৯ ➺ নীলমনি হালদার <br/>❏ সমাচার সভারাজেন্দ্র ➺ ১৮৩১ ➺ শেখ আলিমুল্লাহ <br/>❏ সংবাদ প্রভাকর ➺ ১৮৩১ ➺ ঈশ্বরচন্দ্র গুপ্ত <br/>❏ তত্ত্ববোধিনী পত্রিকা ➺ ১৮৪৩ ➺ অক্ষয়কুমার দত্ত <br/>❏ রংপুর বার্তাবহ ➺ ১৮৪৭ ➺ গুরুচরণ রায় <br/>❏ বিবিধার্থ সংগ্রহ ➺ ১৮৫১ ➺ রাজেন্দ্রলাল মিত্র <br/>❏ ঢাকা প্রকাশ ➺ ১৮৬১ ➺ কৃষ্ণচন্দ্র মজুমদার <br/>❏ গ্রাম বার্তা প্রকাশিকা ➺ ১৮৬৩ ➺ কাঙাল হরিনাথ <br/>❏ ভারতী ➺ ১৮৭৭ ➺ দ্বিজেন্দ্রনাথ ঠাকুর <br/>❏ জ্ঞানান্বেষণ ➺ ১৮৮১ ➺ দক্ষিণারঞ্জন মুখোপাধ্যায় <br/>❏ সুধাকর ➺ ১৮৮৯ ➺ শেখ আবদুর রহিম <br/>❏ সাহিত্য ➺ ১৮৯০ ➺ সুরেশচন্দ্র সমাজপতি <br/>❏ মিহির ➺ ১৮৯২ ➺ শেখ আবদুর রহিম <br/>❏ হাফেজ ➺ ১৮৯৭ ➺ শেখ আবদুর রহিম <br/>❏ কোহিনূর ➺ ১৮৯৮ ➺ মোঃ রওশন আলী <br/>❏ লহরী ➺ ১৯০০ ➺ মোজাম্মেল হক <br/>❏ প্রবাসী ➺ ১৯০১ ➺ রামানন্দ চট্টোপাধ্যায় <br/>❏ নবনূর ➺ ১৯০৩ ➺ সৈয়দ এমদাদ আলী <br/>❏ বাসনা ➺ ১৯০৮ ➺ শেখ ফজলুল করিম <br/>❏ ভারতবর্ষ ➺ ১৯১৩ ➺ জলধর সেন ও অমূল্যচরণ বিদ্যাভূষণ <br/>❏ আল-এদলাম ➺ ১৯১৫ ➺ মাওলানা আকরাম খাঁ <br/>❏ মাসিক সওগাত ➺ ১৯১৮ ➺ মোহাম্মদ নাসিরুদ্দিন <br/>❏ সাপ্তাহিক সওগাত ➺ ১৯২৬ ➺ মোহাম্মদ নাসিরুদ্দিন <br/>❏ মোসলেম ভারত ➺ ১৯২০ ➺ মোজাম্মেল হক <br/>❏ কল্লোল ➺ ১৯২৩ ➺ দীনেশ চন্দ্র দাশ <br/>❏ কালী-কলম ➺ ১৯২৬ ➺ প্রেমেন্দ্র মিত্র <br/>❏ প্রগতি ➺ চল্লিশের দশক ➺ কিরণ শঙ্কর সেনগুপ্ত <br/>❏ দৈনিক আজাদ ➺ ১৯৩৬ ➺ মাওলানা আকরাম খাঁ <br/>❏ সাহিত্যপত্র ➺ ১৯৪২ ➺ বিষ্ণু দে <br/>❏ নতুন কবিতা ➺ ১৯৫০ ➺ আব্দুর রশীদ খান ও আশরাফ সিদ্দিকী <br/>❏ সমকাল ➺ ১৯৫৪ ➺ সিকান্দার আবু জাফর <br/>❏ সাম্যবাদী ➺ ১৯২৩ ➺ মোহাম্মদ ওয়াজেদ আলী <br/>❏ নারীশক্তি ➺ - ➺ ডাঃ লুৎফর রহমান <br/>❏ স্বাক্ষর ➺ ১৯৬৩ ➺ রফিক আজাদ ও সিকদার আমিনুল হক <br/>❏ সাপ্তাহিক মোহাম্মদী ➺ ১৯০৮ ➺ মোহাম্মদ আকরাম খাঁ <br/>❏ দৈনিক মোহাম্মদী ➺ ১৯২২ ➺ মোহাম্মদ আকরাম খাঁ <br/>❏ মাসিক মোহাম্মদী ➺ ১৯২৭ ➺ মোহাম্মদ আকরাম খাঁ <br/>❏ লোকায়ত ➺ - ➺ আবুল কাশেম ফজলুল হক <br/>❏ চতুরঙ্গ ➺ - ➺ হুমায়ুন কবির <br/>❏ দেশবাণী ➺ - ➺ শহীদুল হাসান খান <br/>❏ ইত্তেফাক ➺ - ➺ তোফাজ্জল হোসেন (মানিক মিয়া) <br/>❏ উত্তরাধিকার (মাসিক) ➺ - ➺ বাংলা একাডেমি <br/>❏ বাংলা একাডেমি পত্রিকা (ত্রৈমাসিক) ➺ - ➺ বাংলা একাডেমি <br/>❏ ধান শালিকের দেশ (মাসিক) ➺ - ➺ বাংলা একাডেমি <br/>❏ বাংলা একাডেমি বিজ্ঞান পত্রিকা (ষাণ্মাসিক) ➺ - ➺ বাংলা একাডেমি <br/>❏ বাংলা একাডেমি জার্নাল ➺ - ➺ বাংলা একাডেমি",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333023,
+    "question": "‘ইঁদুর কপালে’ বলতে কি বোঝায়?",
+    "options": [
+      "নিতান্তই মন্দ ভাগ্য",
+      "বোকামির দণ্ড",
+      "ভাগ্য সুপ্রসন্ন নয়",
+      "সৌভাগ্যের অধিকারী"
+    ],
+    "correct_answer": "নিতান্তই মন্দ ভাগ্য",
+    "explanation": "📖 ‘ইঁদুর কপালে’ বাগধারাটির অর্থ নিতান্তই মন্দভাগ্য বা ভাগ্য সুপ্রসন্ন নয় এমন। এর বিপরীত বাগধারা হলো ‘একাদশে বৃহস্পতি’ (সৌভাগ্যের বিষয়)।<br/> ⇢ <br/>⛳ লোকবিশ্বাস অনুযায়ী ইঁদুর যেমন শস্য নষ্ট করে বা গর্ত করে ক্ষতি করে, তেমনি যার ভাগ্য ইঁদুরের মতো ক্ষতিকর বা নড়বড়ে, তাকে ‘ইঁদুর কপালে’ বলা হয়। সমার্থক বাগধারা: ‘আটকপালে’ (হতভাগ্য)।<br/> ⇢ <br/>⛳ ইঁদুর কপালে (মন্দভাগ্য)ঃ সোহেল অনার্স পাশ করেও চাকরি পেল না, এমন ইঁদুর কপালে আর দেখি নি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333024,
+    "question": "সার্থক বাক্যের গুণ নয় কোনটি?",
+    "options": [
+      "আসত্তি",
+      "রীতি",
+      "আকাঙক্ষা",
+      "যোগ্যতা"
+    ],
+    "correct_answer": "রীতি",
+    "explanation": "📖 একটি সার্থক বাক্যের তিনটি গুণ থাকে—আকাঙ্ক্ষা, আসত্তি ও যোগ্যতা। ‘রীতি’ বাক্যের কোনো গুণ নয়।<br/> ⇢ <br/>⛳ আকাঙ্ক্ষা: বাক্যের অর্থ পুরোপুরি বোঝার জন্য এক পদের পর অন্য পদ শোনার ইচ্ছা।<br/>❏ আসত্তি: পদগুলোকে সুশৃঙ্খলভাবে সাজানো।<br/>❏ যোগ্যতা: পদের অর্থ ও ভাবগত মিলবন্ধন।<br/>❏ ‘রীতি’ বলতে সাধারণত ভাষারীতি (সাধু বা চলিত) বোঝায়, যা বাক্যের অপরিহার্য গুণ হিসেবে গণ্য হয় না।<br/> ⇢ <br/>⛳ একটি সার্থক বাক্যের তিনটি বৈশিষ্ট্য থাকে। যথাঃ ১. আকাঙ্ক্ষা, ২. আসত্তি ও ৩. যোগ্যতা।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333025,
+    "question": "'বসন্তকুমারী' একটি প্রখ্যাত",
+    "options": [
+      "উপন্যাস",
+      "নাটক",
+      "কাব্যগ্রন্থ",
+      "একটিও নয়"
+    ],
+    "correct_answer": "নাটক",
+    "explanation": "📖 ‘বসন্তকুমারী’ মীর মশাররফ হোসেন রচিত একটি নাটক। এটি ১৮৭৩ সালে প্রকাশিত হয়। তাঁর রচিত অন্য একটি বিখ্যাত নাটক হলো ‘জমিদার দর্পণ’।<br/> ⇢ <br/>⛳ ‘বসন্তকুমারী’ নাটক <b>মীর মোশাররফ হোসেন</b> এর রচনা।<br/>▣ <b>মীর মোশাররফ হোসেন:</b><br/>❐ তিনি ১৮৪৭ সালের ১৩ নভেম্বর কুষ্টিয়া জেলার লাহিনীপাড়ায় জন্মগ্রহণ করেন।<br/>❐ তিনি ছিলেন ঔপন্যাসিক, নাট্যকার, প্রাবন্ধিক।<br/>❐ তিনি ছিলেন বঙ্কিমযুগের অন্যতম প্রধান গদ্যশিল্পী ও উনিশ শতকের বাঙালি মুসলমান সাহিত্যিকদের পথিকৃৎ।<br/>❐ মীর মশাররফ হোসেন ছাত্রাবস্থায় 'সংবাদ প্রভাকর' (১৮৩১) ও কুমারখালির 'গ্রামবার্তা প্রকাশিকা'-র (১৮৬৩) মফঃস্বল সংবাদদাতার দায়িত্ব পালন করেন। এখানেই তাঁর সাহিত্যজীবনের শুরু। <br/>❐ গ্রামবার্তার সম্পাদক <i>কাঙাল হরিনাথ</i> ছিলেন তাঁর সাহিত্যগুরু।<br/>❐ মীর মশাররফ হোসেন 'আজীজননেহার' (১৮৭৪) ও 'হিতকরী' (১৮৯০) নামে দুটি পত্রিকাও সম্পাদনা করেন।<br/>❐ মীর মশাররফ হোসেন 'গাজী মিয়াঁ' ছদ্মনামে লিখতেন।<br/>❐ বাংলা সাহিত্যে মুসলমান রচিত প্রথম উপন্যাস <i>'রত্নবতী'</i> ও নাটক <i>'বসন্তকুমারী'</i> তাঁর রচনা।<br/>❐ তাঁর শ্রেষ্ঠ রচনা <i>'বিষাদ-সিন্ধু'</i> উপন্যাস।<br/>▣ <b>তাঁর রচিত উপন্যাস:</b><br/>❐ রত্নবতী,<br/>❐ বিষাদ-সিন্ধু,<br/>❐ উদাসীন পথিকের মনের কথা।<br/>▣ <b>তাঁর রচিত নাটক:</b><br/>❐ <b>বসন্তকুমারী</b>,<br/>❐ জমিদার দর্পণ,<br/>❐ বেহুলা গীতাভিনয়,<br/>❐ টালা অভিনয়।<br/>▣ <b>তাঁর রচিত আত্মজীবনীমূলক গ্রন্থ:</b><br/>❐ গাজী মিয়াঁর বস্তানী,<br/>❐ আমার জীবনী,<br/>❐ কুলসুম জীবনী।<br/>▣ <b>তাঁর রচিত প্রবন্ধগ্রন্থ:</b><br/>❐ গো-জীবন।<br/> ⇢ <br/>⛳ 'বসন্তকুমারী' (ফেব্রুয়ারি ১৮৭৩) নাটকের নাট্যকার হলেন মীর মশাররফ হোসেন। এটি বাংলা সাহিত্যে মুসলিম সাহিত্যিক রচিত প্রথম নাটক। এই নাটকটি তিনি নওয়াব আবদুল লতিফকে উৎসর্গ করেন। মীর মশাররফ হোসেনের কিছু উল্লেখযোগ্য নাটকঃ 'জমিদার দর্পণ', 'বেহুলা গীতাভিনয়', 'নিয়তি কি অবনতি' এবং 'টালা অভিনয়'।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333026,
+    "question": "জীবনানন্দ দাশের কবিতা মূলত প্রকাশ ঘটেছেঃ",
+    "options": [
+      "বাংলার সমাজ ব্যবস্থা",
+      "গ্রাম বাংলার অর্থনৈতিক বঞ্চনা",
+      "গ্রাম বাংলার নিসর্গ",
+      "একটিও নয়"
+    ],
+    "correct_answer": "গ্রাম বাংলার নিসর্গ",
+    "explanation": "📖 জীবনানন্দ দাশ বাংলা কাব্যে আধুনিকতার পথিকৃৎদের একজন। তাঁর কবিতায় গ্রামবাংলার নিসর্গ, প্রকৃতি ও রূপচেতনা প্রধান হয়ে উঠেছে। প্রকৃতির প্রতি গভীর মমত্ববোধের কারণে তাঁকে ‘রূপসী বাংলার কবি’ বলা হয়।<br/> ⇢ <br/>⛳ 📖 রূপসী বাংলার, তিমির হননের ও ধূসরতার কবি জীবনানন্দ দাশ রচিত উল্লেখযোগ্য কাব্যগ্রন্থ হলো - ঝরাপালক (১৯২৭, এটি কবির ১ম প্রকাশিত কাব্যগ্রন্থ) , ধূসর পান্ডুলিপি (১৯৩৬), বনলতা সেন (১৯৪২), মহাপৃথিবী (১৯৪৪), সাতটি তারার তিমির (১৯৪৮), রূপসী বাংলা (১৯৫৭), বেলা অবেলা কালবেলা (১৯৬১) ।<br/>❏ তাঁর ১ম উপন্যাস - মাল্যবান (১৯৭৩)। অন্যান্য উল্লেখযোগ্য উপন্যাস - সুতীর্থ, কল্যাণী, কারুবাসনা।<br/>❏ জীবনানন্দ দাশ রচিত প্রবন্ধ: কবিতার কথা।<br/>❏ তাঁর একটি আলোচিত কবিতা হলো - অদ্ভুত আঁধার এক।<br/>❏ জীবনানন্দ দাশ কবি পরিচিত ও সাহিত্যকর্ম<br/>❏ জন্ম পরিচয়:<br/>❏ ১৭ ফেব্রুয়ারি ১৮৯৯ খ্রিস্টাব্দ, বরিশাল । পিতা: সত্যানন্দ দাশ । মাতা: কুসুমকুমারী দাশ।<br/>❏ শিক্ষাজীবন:<br/>❏ ম্যাট্রিক (১৯১৫) ব্রজমোহন স্কুল, বরিশাল। আই.এ. (১৯১৭) ব্রজমোহন কলেজ, বরিশাল। বি.এ. অনার্স (১৯১৯) কলকাতা প্রেসিডেন্সি কলেজ। এম. এ. ইংরেজি (১৯২১) কলকাতা বিশ্ববিদ্যালয়।<br/>❏ পেশা/কর্মজীবন:<br/>❏ অধ্যাপনা। কলকাতা সিটি কলেজ, বাগেরহাট কলেজ, দিল্লির রামযশ কলেজ, ব্রজমোহন কলেজ, খড়গপুর কলেজ, বড়িষা কলেজ, হাওড়া গার্লস কলেজ। উপাধি: রূপসী বাংলা, নির্জনতার, তিমির হননের ও ধূসরতার কবি।<br/>❏ মৃত্যুবরণ:<br/>❏ ১৯৫৪ সালে ২২ অক্টোবর।<br/>❏ কাব্যগ্রন্থ:<br/>❏ ঝরা পালক(১৯২৮), ধূসর পাণ্ডুলিপি (১৯৩৬), বনলতা সেন (১৯৪২), মহাপৃথিবী (১৯৪৪), সাতটি তারার তিমির (১৯৪৮), রূপসী বাংলা (১৯৫৭), বেলা অবেলা কালবেলা (১৯৬১)।<br/>❏ উপন্যাস:<br/>❏ মাল্যবান (১৯৭৩), সুতীর্থ (১৯৭৪), কল্যাণী (১৯৩১), মৃণাল (১৯৩৩), কারুবাসনা (১৯৩৩), বিরাজ (১৯৩৩), বাসমতির উপাখ্যান। প্রবন্ধগ্রন্থ: কবিতার কথা (১৯৫৬)।<br/>❏ কবি সম্পর্কিত গুরুত্বপূর্ণ তথ্যাবলি<br/>❏ আধুনিক বাংলা কাব্যের অন্যতম শ্রেষ্ঠ কবি জীবনানন্দ দাশ ।<br/>❏ জীবনানন্দ দাশের আদি নিবাস – গাওপাড়া গ্রাম, বিক্রমপুর।<br/>❏ তার গল্প সংকলন ‘জীবনানন্দ দাশের গল্প’ যাদের সম্পাদনায় প্রকাশিত হয় সুকুমার ঘোষ, সুবিনয় মুস্তাফীর সম্পাদনায়।<br/>❏ রবীন্দ্রনাথ ঠাকুর কোন কবিতাগ্রন্থ পাঠ করে জীবনানন্দ দাশের কবিতাকে চিত্ররূপময় কবিতা বলেছেন ধূসর পাণ্ডলিপি।<br/>❏ পিতা সত্যানন্দ দাশ ছিলেন বরিশাল ব্রজমোহন স্কুলের প্রধান শিক্ষক।<br/>❏ তিনি জীবন অতিবাহিত করেন- ইংরেজি সাহিত্যের অধ্যাপক হিসেবে।<br/>❏ জীবনানন্দ দাশের মৃত্যুর পর তার যে দুটি কাব্য প্রকাশিত হয় – রূপসী বাংলা ও বেলা অবেলা কালবেলা।<br/>❏ বাংলা সাহিত্যে ‘রূপসী বাংলার কবি’ হিসেবে খ্যাত জীবনানন্দ দাশ।<br/>❏ কবির ‘হায় চিল’ কবিতার সঙ্গে WB Yeats এর যে কবিতার মিল আছে- ‘He reproves the curlow’ কবিতার।<br/>❏ জীবনানন্দ দাশের মৃত্যু হয় কলকাতায় ট্রামের নিচে পড়ে আহত হন এবং পরে হাসপাতালে মারা যায়।<br/>❏ জীবনানন্দ দাশের ওপর গবেষণা করেন- ক্লিনটন বি-সীলি। ।<br/>❏ জীবনানন্দ দাশ প্রধানত প্রকৃতির কবি। তাঁর কবিতার মৌলিক প্রেরণা - প্রকৃতির রহস্যময় সৌন্দর্য ।<br/>❏ জীবনানন্দের প্রথম কাব্যে কাজী নজরুল ইসলামের প্রভাব থাকলেও দ্বিতীয় কাব্য থেকেই তিনি হয়ে ওঠেন মৌলিক ও ভিন্ন পথের অনুসন্ধানী।<br/>❏ জীবনানন্দ দাশ কবিতায় যে জগৎ তৈরি করে তা -সূক্ষ্ম ও গভীর অনুভবের।<br/>❏ জীবনানন্দ দাশের কবিতাকে রবীন্দ্রনাথ ঠাকুর বলেছেন- চিত্ররূপময় কবিতা ।<br/>❏ জীবনানন্দ দাশকে বুদ্ধদেব বসু 'নির্জনতার কবি' বলে আখ্যায়িত করেছেন।<br/>❏ অন্নদাশঙ্কর রায় তাঁকে ‘শুদ্ধতম কবি’ অভিধায় আখ্যায়িত করেছেন<br/>❏ জীবনানন্দ দাশের উপর গবেষণা করেন- ক্লিনটন বি-সীলি ।<br/>❏ তাঁর কবিতায় স্থান পেয়েছে- উপমা, প্রতীক, চিত্রকল্প, রঙের ব্যবহার।<br/>❏ ১৯৭১ সালে মুক্তিবাহিনীকে অনুপ্রাণিত করে- তাঁর নিসর্গ বিষয়ক কবিতাগুলো।<br/>❏ জীবনানন্দ দাশ এর ‘এই পৃথিবীতে এক স্থান আছে’ নামক কবিতায় ব্যবহৃত ‘শঙ্খমালা’ নামক নারী চরিত্রটি হলো - রোমান্টিক কবি কল্পনা।<br/>❏ মৃত্যুর পূর্বে তিনি ২১টি উপন্যাস এবং ১২৬টি ছোটগল্প রচনা করেছিলেন যার একটিও তাঁর জীবদ্দশায় প্রকাশিত হয়নি।<br/>❏ জীবনানন্দের ‘বনলতা সেন’ কাব্যগ্রন্থ নিখিলবঙ্গ রবীন্দ্রসাহিত্য সম্মেলনে পুরস্কৃত (১৯৫৩) হয়।<br/>❏ ১৯৫৫ সালে ‘শ্রেষ্ঠ কবিতা’ গ্রন্থটি ভারত সরকারের সাহিত্য আকাদেমি পুরস্কার লাভ করে।<br/>❏ বাংলা ভাষায় তাকে ‘শুদ্ধতম কবি’ বলে আখ্যায়িত করা হয়<br/>❏ ‘বর্ষ-আবাহন’ জীবনানন্দ দাশের প্রথম প্রকাশিত কবিতা।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333027,
+    "question": "‘স্থিরপ্রতিজ্ঞ’ এর সঠিক ব্যাসবাক্য কোনটি?",
+    "options": [
+      "স্থির প্রতিজ্ঞা",
+      "স্থির প্রতিজ্ঞা করা",
+      "স্থির প্রতিজ্ঞা যার",
+      "একটিও নয়"
+    ],
+    "correct_answer": "স্থির প্রতিজ্ঞা যার",
+    "explanation": "📖 স্থিরপ্রতিজ্ঞ = স্থির প্রতিজ্ঞা যার। এটি বহুব্রীহি সমাসের উদাহরণ। যে সমাসে সমস্যমান পদগুলোর কোনোটির অর্থ না বুঝিয়ে অন্য কোনো পদকে বোঝায়, তাকে বহুব্রীহি সমাস বলে।<br/> ⇢ <br/>⛳ এটি সমানাধিকরণ বহুব্রীহি সমাসের উদাহরণ। এখানে ‘স্থির’ (বিশেষণ) এবং ‘প্রতিজ্ঞা’ (বিশেষ্য) মিলে তৃতীয় কোনো ব্যক্তিকে নির্দেশ করছে যিনি তার প্রতিজ্ঞায় অটল। শব্দটি মূলত একটি বিশেষণ হিসেবে কাজ করে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333028,
+    "question": "“পাপে” বিরত হও-এটি কোন কারক?",
+    "options": [
+      "কর্তৃকারক",
+      "করণকারক",
+      "অধিকরণ কারক",
+      "অপাদান কারক"
+    ],
+    "correct_answer": "অপাদান কারক",
+    "explanation": "📖 যা থেকে কিছু বিচ্যুত, গৃহীত, জাত, বিরত, আরম্ভ, দূরীভূত ও রক্ষিত হয় এবং যা দেখে কেউ ভীত হয়, তাকে অপাদান কারক বলে। ‘পাপে বিরত হও’ মানে পাপ থেকে বিরত হওয়া, তাই এটি অপাদান কারক।<br/> ⇢ <br/>⛳ ক্রিয়াকে ‘কি হতে’ বা ‘কোথা হতে’ দিয়ে প্রশ্ন করলে অপাদান কারক পাওয়া যায়। এখানে ‘কি হতে বিরত হও?’ উত্তর: পাপ হতে। তাই এটি অপাদান কারকে ৭মী বিভক্তি।<br/> ⇢ <br/>⛳ যা থেকে কিছু বিচ্যুত, গৃহীত, জাত, বিরত, আরম্ভ, দূরীভূত ও রক্ষিত হয় এবং যা দেখে কেউ ভীত হয়, তাকেই অপাদান কারক বলে।<br/>❏ 'বিচ্যুত' অর্থে অপাদান কারকঃ ‘গাছ থেকে’ পাতা পড়ে।<br/>❏ 'গৃহীত' অর্থে অপাদান কারকঃ ‘দুধ থেকে’ দই হয়।<br/>❏ 'জাত' অর্থে অপাদান কারকঃ ‘টাকায়’ টাকা হয়।<br/>❏ 'বিরত' অর্থে অপাদান কারকঃ ‘পাপে’ বিরত হওয়া।<br/>❏ 'রক্ষিত' অর্থে অপাদান কারকঃ ‘বিপদে’ মোরে রক্ষা কর।<br/>❏ 'ভীত' অর্থে অপাদান কারকঃ আমি কি ডরাই সখি ভিখারী ‘রাঘবে’।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333029,
+    "question": "‘শীতার্ত’ এর সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+    "options": [
+      "শী+তার্ত",
+      "শী+আর্ত",
+      "শীত+আর্ত",
+      "শীত+ঋত"
+    ],
+    "correct_answer": "শীত+ঋত",
+    "explanation": "📖 সন্ধির নিয়ম অনুযায়ী, অ-কার কিংবা আ-কারের পর ‘ঋ’ থাকলে উভয় মিলে ‘আর’ হয় এবং তা রেফ (র্) রূপে পরবর্তী বর্ণের মাথায় বসে। যেমন: শীত + ঋত = শীতার্ত।<br/> ⇢ <br/>⛳ একই নিয়মে গঠিত আরও কিছু সন্ধি:<br/>❏ তৃষ্ণা + ঋত = তৃষ্ণার্ত<br/>❏ ভয় + ঋত = ভয়ার্ত<br/>❏ ক্ষুধা + ঋত = ক্ষুধার্ত<br/>❏ এখানে ‘ঋ’ কারটি ‘র্’ (রেফ) এ পরিণত হয়েছে।<br/> ⇢ <br/>⛳ 'অ'-কার কিংবা 'আ'-কারের পর 'ঋত' শব্দ থাকলে (অ, আ + ঋ) উভয় মিলে 'আর' হয় এবং বানানে পূর্ববর্তী বর্ণে 'আ' ও পরবর্তী বর্ণে রেফ লেখা হয়। যেমনঃ<br/>❏ অ + ঋ = আর (তৃষ্ণা + ঋত = তৃষ্ণার্ত)<br/>❏ অ + ঋ = আর (শীত + ঋত = শীতার্ত)",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333030,
+    "question": "কূল এর প্রতিশব্দ হলঃ",
+    "options": [
+      "পুলিন",
+      "ধার",
+      "উভয়",
+      "একটিও নয়"
+    ],
+    "correct_answer": "উভয়",
+    "explanation": "📖 ‘কূল’ শব্দের অর্থ তট, তীর, পাড়, সৈকত, পুলিন, কিনারা, ধার ইত্যাদি। প্রদত্ত অপশনে ‘পুলিন’ এবং ‘ধার’ দুটিই কূল-এর সমার্থক, তাই সঠিক উত্তর ‘উভয়’।<br/> ⇢ <br/>⛳ ‘কূল’ (দীর্ঘ উ-কার) অর্থ নদীর তীর বা কিনারা। এর আরও কিছু প্রতিশব্দ হলো—তট, বেলাভূমি, সৈকত। অন্যদিকে ‘কুল’ (হ্রস্ব উ-কার) অর্থ বংশ বা ফল বিশেষ (বরই)। বানানভেদে অর্থের এই পার্থক্য মনে রাখা জরুরি।<br/> ⇢ <br/>⛳ পুলিন -এর আরো কিছু সমার্থক শব্দ হলোঃ কূল, শর, পাড়, আশ্রয়, তীর, ধার, অবধি, কিনারা, সৈকত, তট।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333031,
+    "question": "বাংলাভাষার মৌলিক ব্যঞ্জন ধ্বনি কয়টি?",
+    "options": [
+      "৩৭টি",
+      "৩০টি",
+      "২৭টি",
+      "৭টি"
+    ],
+    "correct_answer": "৩০টি",
+    "explanation": "📖 বাংলা ভাষায় মৌলিক ব্যঞ্জনধ্বনি ৩০টি। (সূত্র: বাংলা ভাষার ব্যাকরণ ও নির্মিতি, ৯ম-১০ম শ্রেণি, ২০২১ সংস্করণ)। উল্লেখ্য, মৌলিক স্বরধ্বনি ৭টি।<br/> ⇢ <br/>⛳ বাংলা বর্ণমালায় ব্যঞ্জনবর্ণ ৩৯টি হলেও ধ্বনিবিজ্ঞান অনুযায়ী মৌলিক ব্যঞ্জনধ্বনি ৩০টি। ঙ, ঞ, ণ, য, ৎ, ং, ঃ, ঁ এবং ক্ষ—এগুলোকে স্বতন্ত্র মৌলিক ধ্বনি হিসেবে ধরা হয় না।<br/> ⇢ <br/>⛳ মৌলিক স্বরধ্বনি ৭টিঃ ই, এ, অ্যা, আ, অ, ও, উ এবং মৌলিক ব্যঞ্জনধ্বনি ৩০টিঃ প, ফ, ব, ভ, ত, থ, দ, ধ, ট, ঠ, ড, ঢ, চ, ছ, জ, ঝ, ক, খ, গ, ঘ, ম, ন, ঙ, স, শ, হ, ল, র, ড়, ঢ়।<br/>❏ বাংলা ভাষায় বর্ণমালা ➺ ১টি<br/>❏ বাংলা ভাষায় মোট বর্ণ ➺ ৫০টি<br/>❏ বাংলা ভাষায় মৌলিক ধ্বনি ➺ ৩৭ টি<br/>❏ বাংলা ভাষায় বর্ণ ➺ ২ ধরনের (স্বরবর্ণ, ব্যঞ্জনবর্ণ)<br/>❏ স্বরবর্ণ ➺ ১১টি (স্বরধ্বনি ৭টি)<br/>❏ মৌলিক স্বরধ্বনি ➺ ৭টি (অ, আ, ই, উ, এ, ও, অ্যা)<br/>❏ ব্যঞ্জন বর্ণ ➺ ৩৯টি (ব্যঞ্জন ধ্বনি ৩০টি)<br/>❏ মৌলিক ব্যঞ্জনধ্বনি ➺ ৩০টি<br/>❏ হ্রস্বস্বর ➺ ৪টি -অ, ই, উ, ঋ<br/>❏ দীর্ঘস্বর ➺ ৭টি- আ, ঈ, উ, এ, ঐ, ও, ঔ<br/>❏ যৌগিক স্বরবর্ণ/যৌগিক স্বরজ্ঞাপক ➺ ২টি (ঐ, ঔ)<br/>❏ যৌগিক স্বরধ্বনি/দ্বিস্বর/যুগ্মস্বর/সান্ধ্যস্বর ➺ ২৫টি<br/>❏ অর্ধস্বর ধ্বনি ➺ ৪টি (ই, উ, এ, ও)<br/>❏ সম্মুখ স্বরধ্বনি ➺ ৩টি (ই, এ, অ্যা)<br/>❏ পশ্চাৎ স্বরধ্বনি ➺ ৩টি (উ, ও, অ)<br/>❏ কেন্দ্রীয় স্বরধ্বনি ➺ ১টি (আ)<br/>❏ উচ্চ -স্বরধ্বনি ➺ ২টি (ই, উ)<br/>❏ উচ্চমধ্য স্বরধ্বনি ➺ ২টি (এ, ও)<br/>❏ নিম্নমধ্য স্বরধ্বনি ➺ ২টি (অ্যা, অ)<br/>❏ নিম্ন - স্বরধ্বনি ➺ ১টি (আ)<br/>❏ সংবৃত স্বরধ্বনি ➺ ২টি (ই, উ)<br/>❏ অর্ধসংবৃত স্বরধ্বনি ➺ ২টি (এ, ও)<br/>❏ অর্ধবিবৃত স্বরধ্বনি ➺ ২টি (অ্যা, অ)<br/>❏ বিবৃত স্বরধ্বনি ➺ ১টি (আ)<br/>❏ স্বরবর্ণের সংক্ষিপ্ত রূপ বা কার ➺ ১০টি<br/>❏ স্বরবর্ণের সংক্ষিপ্ত রূপ বা কার হয়না ➺ ১টি (অ)<br/>❏ স্বরবর্ণের পূর্ণরূপ আছে ➺ ১১টি<br/>❏ ব্যঞ্জবর্ণের সংক্ষিপ্ত রূপ ➺ ফলা (৬টি ➺ ম, ন, র, ব, য, ল)<br/>❏ পূর্ণমাত্রার বর্ণ বাকি মোট ➺ ৩২টি<br/>❏ পূর্ণমাত্রার স্বরবর্ণ ➺ ৬টি অ,আ,ই,ঈ,উ,ঊ)<br/>❏ পূর্ণমাত্রার ব্যঞ্জনবর্ণ ➺ ২৬টি - ক,ঘ,চ,ছ,জ,ঝ,ট,ঠ,ড,ঢ,ত,দ,ন,ফ,ব,ভ,ম,য,র,ল,ষ,স,হ,ড়,ঢ়,য়)<br/>❏ অর্ধমাত্রার বর্ণ মোট ➺ ৮টি (ঋ, খ, গ, ণ, থ, ধ, প, শ)<br/>❏ অর্ধমাত্রার স্বরবর্ণ ➺ ১টি - ঋ<br/>❏ অর্ধমাত্রার ব্যঞ্জনবর্ণ ➺ ৭টি - খ,গ,ণ,থ,ধ,প,শ<br/>❏ মাত্রাহীন বর্ণ ➺ ১০টি (এ, ঐ, ও, ঔ, ঙ, ঞ, ९, ০২, ০৪, ০)<br/>❏ মাত্রাহীন স্বরবর্ণ ➺ ৪টি -এ,ঐ,ও,ঔ<br/>❏ মাত্রাহীন ব্যঞ্জনবর্ণ ➺ ৬টি - ঙ,ঞ,ৎ,ং,ঃ,ঁ<br/>❏ পূর্ণমাত্রার স্বরবর্ণ ➺ ৬টি (অ, আ, ই, ঈ, উ, ঊ)",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333032,
+    "question": "কোনটি অনুকার দ্বিত্ব ?",
+    "options": [
+      "সুরে সুরে",
+      "অল্পসল্প",
+      "দমাদম",
+      "ঘুম ঘুম"
+    ],
+    "correct_answer": "অল্পসল্প",
+    "explanation": "📖 পরপর প্রয়োগ হওয়া দুটি কাছাকাছি শব্দের প্রথমটি অর্থপূর্ণ হলেও দ্বিতীয়টি অর্থহীন হয়, এমন দ্বিত্বকে অনুকার দ্বিত্ব বলে। যেমন—অল্পসল্প, আমটাম, কাপড়চোপড়। এখানে ‘সল্প’ শব্দটির নিজস্ব অর্থ নেই, এটি ‘অল্প’র অনুকার মাত্র।<br/> ⇢ <br/>⛳ অনুকার দ্বিত্বে দ্বিতীয় শব্দটি প্রথম শব্দের বিকৃত রূপ হিসেবে ব্যবহৃত হয় এবং সাধারণত ‘ট’, ‘ফ’ বা অন্য ব্যঞ্জনধ্বনি যোগে গঠিত হয়। এখানে ‘অল্প’ শব্দের সাথে মিল রেখে নিরর্থক ‘সল্প’ যুক্ত হয়েছে। ‘সুরে সুরে’ ও ‘ঘুম ঘুম’ হলো পুনরাবৃত্ত দ্বিত্ব এবং ‘দমাদম’ হলো ধ্বন্যাত্মক দ্বিত্ব।<br/> ⇢ <br/>⛳ উল্লেখ্য, অব্যয় পদ বিভিন্নভাবে গঠিত হতে পারে। যেমনঃ<br/>❏ ০১. একটি মাত্র বর্ণ বা শব্দখণ্ড বা শব্দ দ্বারা। যেমনঃ তো, বটে, হ, না ইত্যাদি।<br/>❏ ০২. একাধিক অব্যয় শব্দযোগেঃ নতুবা, অথবা, অতএব, কদাপি ইত্যাদি।<br/>❏ ০৩. একই শব্দের দুবার প্রয়োগেঃ হায় হায়, ছি ছি, ধিক ধিক, বেশ বেশ ইত্যাদি।<br/>❏ ০৪. দুটো ভিন্ন শব্দযোগেঃ যাহোক, যেহেতু, মোটকথা, নইলে, হয়ত ইত্যাদি।<br/>❏ ০৫. অনুকার শব্দযোগেঃ ঝমঝম, টুপটাপ, কুহু কুহু, গুনগুন, ঘেউ ঘেউ, শন্ শন্, কনকন ইত্যাদি।<br/>❏ ০৬. তৎসম প্রত্যয়ের সঙ্গে 'ত' প্রত্যয় যোগ করে (ধর্মত, প্রথমত, স্পষ্টত ইত্যাদি)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333033,
+    "question": "'এয়ো' শব্দটি কোন শব্দের উদাহরণ?",
+    "options": [
+      "সংস্কৃত",
+      "প্রাকৃত",
+      "বাংলা",
+      "তদ্ভব"
+    ],
+    "correct_answer": "তদ্ভব",
+    "explanation": "📖 ‘এয়ো’ একটি তদ্ভব শব্দ। সংস্কৃত ‘অবিধবা’ থেকে প্রাকৃত ‘অহিঅবা’ হয়ে বাংলায় ‘এয়ো’ শব্দটি এসেছে। যেসব শব্দ সংস্কৃত থেকে পরিবর্তিত হয়ে প্রাকৃতের মাধ্যমে বাংলায় এসেছে, তাদের তদ্ভব শব্দ বলে।<br/> ⇢ <br/>⛳ ‘এয়ো’ বলতে এমন নারীকে বোঝায় যার স্বামী জীবিত (সধবা)। ধ্বনিতাত্ত্বিক বিবর্তনের ধারায়: অবিধবা > অহিঅবা > এয়হ > এয়ো। এটি খাঁটি বাংলা বা তদ্ভব শব্দের একটি উৎকৃষ্ট উদাহরণ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333034,
+    "question": "'হরদম' শব্দের বিপরীত শব্দ কোনটি?",
+    "options": [
+      "হঠাৎ",
+      "ব্যর্থ",
+      "সমস্ত",
+      "সদা"
+    ],
+    "correct_answer": "হঠাৎ",
+    "explanation": "📖 ‘হরদম’ শব্দটির অর্থ সর্বদা, সব সময় বা অহরহ। এর বিপরীতার্থক শব্দ হলো ‘হঠাৎ’ বা ‘কদাচিৎ’।<br/> ⇢ <br/>⛳ ‘হরদম’ শব্দটি ফারসি ‘হর’ (প্রত্যেক) এবং ‘দম’ (মুহূর্ত/শ্বাস) যোগে গঠিত, যার আক্ষরিক অর্থ ‘প্রতি মুহূর্তে’। তাই এর সঠিক বিপরীত শব্দ হলো যা নিয়মিত ঘটে না, অর্থাৎ ‘হঠাৎ’ বা ‘মাঝে মাঝে’।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333035,
+    "question": "কোনটি পুনরাবৃত্ত দ্বিত্ব ?",
+    "options": [
+      "ঝিলমিল",
+      "লুচিফুচি",
+      "এলোমেলো",
+      "কবি কবি"
+    ],
+    "correct_answer": "কবি কবি",
+    "explanation": "📖 বিভক্তিহীন বা বিভক্তিযুক্ত একই শব্দের দুবার ব্যবহারকে পুনরাবৃত্ত দ্বিত্ব বলে। যেমন—কবি কবি, কথায় কথায়, ভালোয় ভালোয়। অন্যদিকে ‘ঝিলমিল’ ধ্বন্যাত্মক দ্বিত্ব এবং ‘লুচিফুচি’ অনুকার দ্বিত্বের উদাহরণ।<br/> ⇢ <br/>⛳ ‘কবি কবি’ শব্দটিতে একই শব্দ অবিকৃতভাবে দুইবার ব্যবহৃত হয়েছে এবং এর মাধ্যমে বহুবচন বা ভাবের আধিক্য (কবির মতো ভাব) প্রকাশ পেয়েছে। অপশনগুলোর বিশ্লেষণ:<br/>❏ ঝিলমিল: ধ্বন্যাত্মক দ্বিত্ব (শব্দের কাল্পনিক ধ্বনি)।<br/>❏ লুচিফুচি: অনুকার দ্বিত্ব (দ্বিতীয় অংশ অর্থহীন)।<br/>❏ এলোমেলো: ভিন্নার্থক শব্দযোগে দ্বিত্ব।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  },
+  {
+    "id": 333036,
+    "question": "আমদানি শব্দটি কোন শব্দের উদাহরণ",
+    "options": [
+      "ফারসি",
+      "ফরাসি",
+      "পুতুগিজ",
+      "হিন্দি"
+    ],
+    "correct_answer": "ফারসি",
+    "explanation": "📖 ‘আমদানি’ শব্দটি ফারসি ভাষা থেকে আগত। ফারসি ভাষার আরও কিছু উল্লেখযোগ্য শব্দ হলো—রপ্তানি, হাঙ্গামা, আইন, আদালত, তারিখ, তোশক, দফতর, দোকান, চশমা ইত্যাদি।<br/> ⇢ <br/>⛳ ফারসি শব্দ ‘আমদান’ (Amadan) থেকে ‘আমদানি’ শব্দটি এসেছে, যার অর্থ ‘আসা’ বা ‘আগমন’। ব্যবসায়িক বা দাপ্তরিক কাজে ব্যবহৃত বাংলা ভাষার অনেক শব্দই ফারসি উৎস থেকে এসেছে। যেমন—কারখানা, চশমা, জবানবন্দি, নালিশ ইত্যাদি।<br/> ⇢ <br/>⛳ বাংলা ভাষায় আগত ফারসি শব্দগুলোকে তিনভাগে ভাগ করতে পারিঃ<br/>❏ ক. ধর্মসংক্রান্তঃ নামাজ, রোজা, বেহেশত, দোযখ, ফেরেশতা, খোদা, গোনাহ, পয়গম্বর ইত্যাদি।<br/>❏ খ. প্রশাসনিক ও সাংস্কৃতিক শব্দঃ দস্তখত, দৌলত, নালিশ, কারখানা, জবানবন্দি, তারিখ, তোশক, দফতর ইত্যাদি।<br/>❏ গ. বিবিধ শব্দঃ আমদানি, রপ্তানি, জিন্দা, আদমী, বদমাস, জানোয়ার, হাঙ্গামা, নমুনা ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "প্রতিরক্ষা মন্ত্রণালয়",
+    "exam": "৫০৯১@প্রতিরক্ষা মন্ত্রণালয় (DGFI) ➺ সহকারী পরিচালক ☞ 22.11.25"
+  }
+]

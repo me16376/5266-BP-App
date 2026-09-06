@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 330259,
+    "question": "এক ব্যক্তি বছরের প্রারম্ভে ৩টি গাছ রোপণ করলেন। এরপর প্রতি বছর ৫টি করে অতিরিক্ত গাছ রোপণ করলে, ২০তম বছরে তিনি কতটি গাছ রোপণ করবেন?",
+    "options": [
+      "৯৩",
+      "৯৮",
+      "১০৩",
+      "১০৮"
+    ],
+    "correct_answer": "৯৮",
+    "explanation": "📖 এটি একটি সমান্তর ধারার সমস্যা।<br/>প্রথম বছরে রোপিত গাছ (প্রথম পদ, a) = ৩<br/>প্রতি বছর অতিরিক্ত গাছ রোপণ (সাধারণ অন্তর, d) = ৫<br/>আমাদের ২০তম বছরে রোপিত গাছের সংখ্যা বের করতে হবে, অর্থাৎ ২০তম পদ (a₂₀) বের করতে হবে।<br/>সমান্তর ধারার n-তম পদের সূত্র: aₙ = a + (n-1)d<br/>এখানে, n = ২০।<br/>a₂₀ = ৩ + (২০ - ১) × ৫<br/>= ৩ + ১৯ × ৫<br/>= ৩ + ৯৫<br/>= ৯৮<br/>সুতরাং, তিনি ২০তম বছরে ৯৮টি গাছ রোপণ করবেন।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330260,
+    "question": "১১ সে.মি. ব্যাসার্ধের বৃত্তের কেন্দ্র হতে ৫ সে.মি. দূরত্বে অবস্থিত উক্ত বৃত্তের কোন জ্যা এর দৈর্ঘ্য কত সে.মি.?",
+    "options": [
+      "৩√৬",
+      "৪√৬",
+      "৬√৬",
+      "৮√৬"
+    ],
+    "correct_answer": "৮√৬",
+    "explanation": "📖 ধরি, বৃত্তের কেন্দ্র O, ব্যাসার্ধ (OA) = ১১ সে.মি. এবং জ্যা AB।<br/>কেন্দ্র O থেকে জ্যা AB এর উপর লম্ব দূরত্ব (OC) = ৫ সে.মি.।<br/>আমরা জানি, বৃত্তের কেন্দ্র থেকে জ্যা-এর উপর অঙ্কিত লম্ব জ্যা-কে সমদ্বিখণ্ডিত করে।<br/>এখন, OAC একটি সমকোণী ত্রিভুজ, যেখানে OA হলো অতিভুজ।<br/>পিথাগোরাসের উপপাদ্য অনুযায়ী, OA² = OC² + AC²<br/>=> (১১)² = (৫)² + AC²<br/>=> ১২১ = ২৫ + AC²<br/>=> AC² = ১২১ - ২৫<br/>=> AC² = ৯৬<br/>=> AC = √৯৬ = √(১৬ × ৬) = ৪√৬ সে.মি.<br/>জ্যা-এর দৈর্ঘ্য AB = ২ × AC<br/>= ২ × ৪√৬ সে.মি.<br/>= ৮√৬ সে.মি.<br/>সুতরাং, সঠিক উত্তর ৮√৬।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330261,
+    "question": "\\({{\\log}_{{8}}{0.25}}\\)</u>&nbsp;= কত?",
+    "options": [
+      "3/2",
+      "2/3",
+      "− 2/3",
+      "− 3/2"
+    ],
+    "correct_answer": "− 2/3",
+    "explanation": "📖 ধরি, log₈ 0.25 = x<br/>সূচকের সংজ্ঞানুসারে, 8ˣ = 0.25<br/>=&gt; (2³)ˣ = 1/4<br/>=&gt; 2³ˣ = 1/2²<br/>=&gt; 2³ˣ = 2⁻²<br/>যেহেতু ভিত্তি (base) উভয় পাশে সমান (2), সুতরাং ঘাত (power) গুলোও সমান হবে।<br/>3x = -2<br/>x = -2/3<br/>সুতরাং, সঠিক উত্তর − 2/3।<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330262,
+    "question": "k এর মান কত হলে \\({x}^{{2}}-{3}{x}+{2}+{k}={0}\\)</u>সমীকরণের একটি উৎপাদক (x - 3) হবে?",
+    "options": [
+      "-3",
+      "-2",
+      "2",
+      "3"
+    ],
+    "correct_answer": "-2",
+    "explanation": "📖 উৎপাদক উপপাদ্য অনুযায়ী, যদি (x - a) কোনো বহুপদী f(x) এর একটি উৎপাদক হয়, তবে f(a) = 0 হবে।<br/>এখানে, f(x) = x² - 3x + 2 + k এবং উৎপাদক হলো (x - 3)।<br/>সুতরাং, a = 3।<br/>f(3) = 0 হতে হবে।<br/>f(3) = (3)² - 3(3) + 2 + k = 0<br/>=&gt; 9 - 9 + 2 + k = 0<br/>=&gt; 2 + k = 0<br/>=&gt; k = -2<br/>সুতরাং, k এর মান -2।<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330263,
+    "question": "কোনটি মূলদ সংখ্যা?",
+    "options": [
+      "e",
+      "π",
+      "1/√3",
+      "√3/√108"
+    ],
+    "correct_answer": "√3/√108",
+    "explanation": "📖 মূলদ সংখ্যা হলো সেই সংখ্যা যাকে p/q আকারে প্রকাশ করা যায়, যেখানে p ও q পূর্ণসংখ্যা এবং q ≠ 0।<br/>(ক) e (ইউলারের সংখ্যা) একটি অমূলদ সংখ্যা।<br/>(খ) π (পাই) একটি অমূলদ সংখ্যা।<br/>(গ) 1/√3 একটি অমূলদ সংখ্যা।<br/>(ঘ) √3/√108 = √3 / √(36 × 3) = √3 / (6√3) = 1/6।<br/>যেহেতু 1/6 কে p/q আকারে প্রকাশ করা যায়, তাই এটি একটি মূলদ সংখ্যা।<br/>সুতরাং, সঠিক উত্তর √3/√108।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330264,
+    "question": "|2 – 8x| ≤ 6 এর সমাধান-",
+    "options": [
+      "− 1/2≤x≤1",
+      "− 1/2≤x<1",
+      "− 1/2<x≤1",
+      "− 1/2<x<1"
+    ],
+    "correct_answer": "− 1/2≤x≤1",
+    "explanation": "📖 আমরা জানি, |a| ≤ b হলে, -b ≤ a ≤ b হয়।<br/>এখানে, |2 – 8x| ≤ 6<br/>সুতরাং, -6 ≤ 2 – 8x ≤ 6<br/>এখন, অসমতা থেকে ২ বিয়োগ করি:<br/>-6 – 2 ≤ 2 – 8x – 2 ≤ 6 – 2<br/>-8 ≤ -8x ≤ 4<br/>এখন, অসমতাকে -8 দ্বারা ভাগ করি। ঋণাত্মক সংখ্যা দ্বারা ভাগ বা গুণ করলে অসমতার চিহ্ন পরিবর্তিত হয়।<br/>-8/(-8) ≥ -8x/(-8) ≥ 4/(-8)<br/>1 ≥ x ≥ -1/2<br/>অর্থাৎ, -1/2 ≤ x ≤ 1<br/>সুতরাং, সঠিক উত্তর − 1/2≤x≤1।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330265,
+    "question": "\\({x}^{{{x}\\sqrt{{x}}}}={\\left({x}\\sqrt{{x}}\\right)}^{{x}}\\)&nbsp;হলে, x = কত?",
+    "options": [
+      "9/4",
+      "3/2",
+      "2/3",
+      "1/4"
+    ],
+    "correct_answer": "9/4",
+    "explanation": "<p>📖 প্রদত্ত সমীকরণ:&nbsp;<span class=\"tinymce-mathText\">\\({x}^{{{x}√{x}}}={\\left({x}√{x}\\right)}^{{x}}\\)</span><br><span class=\"tinymce-mathText\">\\({x}^{{{x}√{x}}}={\\left({x}×{x}^{{\\frac{{1}}{{2}}}}\\right)}^{{x}}\\)</span><br><span class=\"tinymce-mathText\">\\({x}^{{{x}√{x}}}={\\left({x}^{{{1}+\\frac{{1}}{{2}}}}\\right)}^{{x}}\\)</span><br><span class=\"tinymce-mathText\">\\({x}^{{{x}√{x}}}={\\left({x}^{{\\frac{{3}}{{2}}}}\\right)}^{{x}}\\)</span><br><span class=\"tinymce-mathText\">\\({x}^{{{x}√{x}}}={x}^{{{3}\\frac{{x}}{{2}}}}\\)</span><br>যেহেতু ভিত্তি (base) উভয় পাশে সমান (x), সুতরাং ঘাত (power) গুলোও সমান হবে।<br>x√x = 3x/2<br><span class=\"tinymce-mathText\">\\({x}×{x}^{{\\frac{{1}}{{2}}}}={3}\\frac{{x}}{{2}}\\)</span><br><span class=\"tinymce-mathText\">\\({x}^{{\\frac{{3}}{{2}}}}={3}\\frac{{x}}{{2}}\\)</span><br>উভয় পক্ষকে x দ্বারা ভাগ করে পাই (ধরি x ≠ 0),<br><span class=\"tinymce-mathText\">\\({x}^{{\\frac{{3}}{{2}}-{1}}}=\\frac{{3}}{{2}}\\)</span><br><span class=\"tinymce-mathText\">\\({x}^{{\\frac{{1}}{{2}}}}=\\frac{{3}}{{2}}\\)</span><br>√x = 3/2<br>উভয় পক্ষকে বর্গ করে পাই,<br>x = (3/2)²<br>x = 9/4<br>সুতরাং, সঠিক উত্তর 9/4।<br></p>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330266,
+    "question": "একটি পঞ্চভুজের কৌণিক বিন্দুগুলো সংযোগে উৎপন্ন ত্রিভুজের সংখ্যা -",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "60"
+    ],
+    "correct_answer": "10",
+    "explanation": "📖 একটি ত্রিভুজ গঠন করতে ৩টি কৌণিক বিন্দু প্রয়োজন।<br/>n সংখ্যক বাহুবিশিষ্ট বহুভুজের কৌণিক বিন্দুর সংখ্যা n।<br/>এখানে, পঞ্চভুজের কৌণিক বিন্দুর সংখ্যা (n) = ৫।<br/>৫টি বিন্দু থেকে প্রতিবারে ৩টি বিন্দু নিয়ে যতগুলো সমাবেশ গঠন করা যায়, ততগুলো ত্রিভুজ উৎপন্ন হবে।<br/>∴ ত্রিভুজের সংখ্যা = ⁵C₃<br/>= ৫! / {৩! (৫-৩)!}<br/>= ৫! / (৩! × ২!)<br/>= (৫ × ৪ × ৩ × ২ × ১) / {(৩ × ২ × ১) × (২ × ১)}<br/>= (৫ × ৪) / ২<br/>= ২০ / ২<br/>= ১০।<br/>সুতরাং, ১০টি ত্রিভুজ উৎপন্ন হবে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330267,
+    "question": "৩০,০০০ টাকার যৌগিক মুনাফায় ১২% হারে ২ বছর পর মুনাফা কত টাকা হবে?",
+    "options": [
+      "৩৬০০",
+      "৩৮১৬",
+      "৭২০০",
+      "৭৬৩২"
+    ],
+    "correct_answer": "৭৬৩২",
+    "explanation": "📖 আমরা জানি, যৌগিক মুনাফার ক্ষেত্রে সবৃদ্ধিমূল (C) = P(1 + r)ⁿ<br/>এখানে, আসল (P) = ৩০,০০০ টাকা, মুনাফার হার (r) = ১২% = ০.১২, সময় (n) = ২ বছর।<br/>C = ৩০০০০(১ + ০.১২)²<br/>= ৩০০০০(১.১২)²<br/>= ৩০০০০ × ১.২৫৪৪<br/>= ৩৭,৬৩২ টাকা।<br/>যৌগিক মুনাফা (I) = C - P<br/>= ৩৭,৬৩২ - ৩০,০০০<br/>= ৭,৬৩২ টাকা।<br/>সুতরাং, সঠিক উত্তর ৭৬৩২।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330268,
+    "question": "একটি লোহার ফাঁপা গোলকের বাইরের ব্যাস ১০ সে.মি. ও বেধ ২ সে.মি. হলে, গোলকের ফাঁপা অংশের আয়তন কত ঘন সে.মি.?",
+    "options": [
+      "১৮π",
+      "৩৬π",
+      "১৩৭২π/৪",
+      "৪০০০π/৩"
+    ],
+    "correct_answer": "৩৬π",
+    "explanation": "📖 গোলকের বাইরের ব্যাস = ১০ সে.মি.<br/>∴ গোলকের বাইরের ব্যাসার্ধ (R) = ১০/২ = ৫ সে.মি.<br/>গোলকের বেধ = ২ সে.মি.<br/>∴ গোলকের ভিতরের ব্যাসার্ধ (r) = বাইরের ব্যাসার্ধ - বেধ = ৫ - ২ = ৩ সে.মি.<br/>আমরা জানি, গোলকের আয়তন = (৪/৩)πr³<br/>ফাঁপা অংশের আয়তন = ভিতরের গোলকের আয়তন<br/>= (৪/৩)π(r)³<br/>= (৪/৩)π(৩)³ ঘন সে.মি.<br/>= (৪/৩)π × ২৭ ঘন সে.মি.<br/>= ৪π × ৯ ঘন সে.মি.<br/>= ৩৬π ঘন সে.মি.<br/>সুতরাং, সঠিক উত্তর ৩৬π।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330269,
+    "question": "\\({1}–{x}^{{2}}+{2}{x}{y}–{y}^{{2}}\\)</u>&nbsp;এর উৎপাদক কোনটি?",
+    "options": [
+      "(1 + x − y) (1 − x + y)",
+      "(1 + x + y)(1 + x + y)",
+      "(1 + x − y) (1 + x + y)",
+      "(1 + x + y)(1 − x − y)"
+    ],
+    "correct_answer": "(1 + x − y) (1 − x + y)",
+    "explanation": "📖 প্রদত্ত রাশি = 1 – x² + 2xy – y²<br/>= 1 – (x² – 2xy + y²)<br/>= 1 – (x – y)² [যেহেতু, (a-b)² = a²-2ab+b²]<br/>= (1)² – (x – y)²<br/>= {1 + (x – y)} {1 – (x – y)} [যেহেতু, a²-b² = (a+b)(a-b)]<br/>= (1 + x – y) (1 – x + y)<br/>সুতরাং, সঠিক উত্তর (1 + x − y) (1 − x + y)।<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330270,
+    "question": "\\(৫×\\frac{১}{৪}ও২×\\frac{১}{৮}\\)</u>&nbsp;এর ল.সা.গু -",
+    "options": [
+      "১/৮",
+      "১/৪",
+      "৩৫৭/৩২",
+      "৩৫৭/৪"
+    ],
+    "correct_answer": "৩৫৭/৪",
+    "explanation": "📖 প্রথমে মিশ্র ভগ্নাংশগুলোকে অপ্রকৃত ভগ্নাংশে রূপান্তর করি:<br/>৫×১/৪ = (৫×৪ + ১)/৪ = ২১/৪<br/>২×১/৮ = (২×৮ + ১)/৮ = ১৭/৮<br/>এখন, ভগ্নাংশের ল.সা.গু. = (লবগুলোর ল.সা.গু.) / (হরগুলোর গ.সা.গু.)<br/>লবগুলো হলো ২১ এবং ১৭। ২১ ও ১৭ এর ল.সা.গু. = ২১ × ১৭ = ৩৫৭ (কারণ এরা সহমৌলিক)।<br/>হরগুলো হলো ৪ এবং ৮। ৪ ও ৮ এর গ.সা.গু. = ৪।<br/>∴ নির্ণেয় ল.সা.গু. = ৩৫৭ / ৪।<br/>সুতরাং, সঠিক উত্তর ৩৫৭/৪।<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330271,
+    "question": "৫০০ এর চেয়ে বড় ক্ষুদ্রতম মৌলিক সংখ্যা কোনটি?",
+    "options": [
+      "৫০৯",
+      "৫০৭",
+      "৫০৩",
+      "৫০১"
+    ],
+    "correct_answer": "৫০৩",
+    "explanation": "📖 মৌলিক সংখ্যা হলো সেই সংখ্যা যা ১ এবং সেই সংখ্যা ছাড়া অন্য কোনো সংখ্যা দ্বারা নিঃশেষে বিভাজ্য নয়।<br/>(ক) ৫০৯: এটি একটি মৌলিক সংখ্যা।<br/>(খ) ৫০৭: এটি ৩ দ্বারা বিভাজ্য (৫+০+৭=১২, যা ৩ দ্বারা বিভাজ্য)। ৫০৭ = ৩ × ১৬৯।<br/>(গ) ৫০৩: এটি একটি মৌলিক সংখ্যা।<br/>(ঘ) ৫০১: এটি ৩ দ্বারা বিভাজ্য (৫+০+১=৬, যা ৩ দ্বারা বিভাজ্য)। ৫০১ = ৩ × ১৬৭।<br/>এখন আমাদের ৫০০ এর চেয়ে বড় ক্ষুদ্রতম মৌলিক সংখ্যাটি বের করতে হবে। ৫০৩ এবং ৫০৯ উভয়ই মৌলিক, কিন্তু এদের মধ্যে ৫০৩ ছোট।<br/>সুতরাং, সঠিক উত্তর ৫০৩।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330272,
+    "question": "সার্বিক সেট U এর যে কোন উপসেট A ও B এর জন্য কোনটি সঠিক?",
+    "options": [
+      "A/B = AUB'",
+      "(AUB)' = A'UB'",
+      "(A∩B)' = A' U B'",
+      "(A∩B)' = A' ∩ B'"
+    ],
+    "correct_answer": "(A∩B)' = A' U B'",
+    "explanation": "📖 এটি ডি মরগ্যানের সূত্র (De Morgan's Laws) সম্পর্কিত প্রশ্ন। ডি মরগ্যানের সূত্র দুটি হলো:<br/>১. (A ∪ B)' = A' ∩ B'<br/>২. (A ∩ B)' = A' ∪ B'<br/>প্রদত্ত অপশনগুলোর মধ্যে (গ) বা (C) নম্বর অপশনটি ডি মরগ্যানের দ্বিতীয় সূত্রের সাথে মিলে যায়।<br/>সুতরাং, (A∩B)' = A' U B' সঠিক।<br/>▣ সেট তত্ত্ব অনুসারে, ডি মর্গানের সূত্র ব্যবহার করে আমরা জানি যে, (A∩B)' = A' U B'। এখানে, (A∩B)' দ্বারা A এবং B এর ছেদবিন্দুর সম্পূরক সেট বোঝানো হয়েছে। ডি মর্গানের সূত্র অনুযায়ী, দুটি সেটের ছেদবিন্দুর সম্পূরক সেট সেই দুটি সেটের সম্পূরক সেটের সম্মিলনের সমান।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330273,
+    "question": "একটি সমবাহু ত্রিভুজের একটি বাহুর দৈর্ঘ্য ১৮ মিটার হলে, ত্রিভুজটির ক্ষেত্রফল কত বর্গমিটার?",
+    "options": [
+      "৭২√৩",
+      "৭৯√৩",
+      "৮১√৩",
+      "৯১√৩"
+    ],
+    "correct_answer": "৮১√৩",
+    "explanation": "📖 আমরা জানি, সমবাহু ত্রিভুজের ক্ষেত্রফল = (√৩/৪) × (বাহুর দৈর্ঘ্য)²<br/>এখানে, বাহুর দৈর্ঘ্য (a) = ১৮ মিটার।<br/>∴ ক্ষেত্রফল = (√৩/৪) × (১৮)² বর্গমিটার<br/>= (√৩/৪) × (১৮ × ১৮) বর্গমিটার<br/>= (√৩/৪) × ৩২৪ বর্গমিটার<br/>= ৮১√৩ বর্গমিটার।<br/>সুতরাং, সঠিক উত্তর ৮১√৩।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330274,
+    "question": "A concrete noun is not the name of an object that can be-",
+    "options": [
+      "felt",
+      "tasted",
+      "seen",
+      "touched"
+    ],
+    "correct_answer": "felt",
+    "explanation": "📖 Concrete Noun হলো সেইসব বিশেষ্য যাদের শারীরিক অস্তিত্ব আছে এবং পঞ্চ ইন্দ্রিয়ের (দেখা, শোনা, স্পর্শ করা, স্বাদ নেওয়া, গন্ধ নেওয়া) মাধ্যমে অনুভব করা যায়। Abstract Noun-কে ইন্দ্রিয় দ্বারা অনুভব করা যায় না, কিন্তু মন দিয়ে অনুভব করা যায় (e.g., love, anger, happiness)। 'Felt' (অনুভব করা) শব্দটি এখানে মন দিয়ে অনুভব করা অর্থে ব্যবহৃত হয়েছে, যা Abstract Noun-এর বৈশিষ্ট্য।<br/>▣ Option Analysis:<br/>❏ (a) felt: (মানসিকভাবে) অনুভব করা যায় না (Abstract Noun)।<br/>❏ (b) tasted: স্বাদ নেওয়া যায় (Concrete Noun)।<br/>❏ (c) seen: দেখা যায় (Concrete Noun)।<br/>❏ (d) touched: স্পর্শ করা যায় (Concrete Noun)।<br/>প্রশ্নটি হলো কোনটি করা যায় না, তাই উত্তর 'felt'।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330275,
+    "question": "Which of the following verbs changes its base form in past and past participle forms?",
+    "options": [
+      "read",
+      "breed",
+      "spread",
+      "hurt"
+    ],
+    "correct_answer": "breed",
+    "explanation": "📖 এখানে Strong Verb খুঁজে বের করতে বলা হয়েছে, যার রূপ পরিবর্তন হয়।<br/>▣ Option Analysis:<br/>❏ (a) read - read (রেড) - read (রেড) (উচ্চারণ বদলায়, বানান নয়)।<br/>❏ (b) breed - bred - bred (রূপ পরিবর্তন হয়েছে)।<br/>❏ (c) spread - spread - spread (রূপ পরিবর্তন হয়নি)।<br/>❏ (d) hurt - hurt - hurt (রূপ পরিবর্তন হয়নি)।<br/>'breed' এর base form, past form এবং past participle form ভিন্ন (breed -> bred)। তাই এটি সঠিক উত্তর।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330276,
+    "question": "Intellectual montage is a/an…",
+    "options": [
+      "mental condition",
+      "film editing technique that juxtaposes contrasting images",
+      "philosophical terminology",
+      "alternative term for a flashback"
+    ],
+    "correct_answer": "film editing technique that juxtaposes contrasting images",
+    "explanation": "📖 Intellectual montage হলো সোভিয়েত চলচ্চিত্র নির্মাতা সের্গেই আইজেনস্টাইন প্রবর্তিত একটি চলচ্চিত্র সম্পাদনা কৌশল। এই কৌশলে দুটি ভিন্ন বা বিপরীতধর্মী শটকে পরপর জুড়ে দিয়ে একটি নতুন ধারণা বা অর্থ তৈরি করা হয়, যা শট দুটিতে পৃথকভাবে উপস্থিত ছিল না।<br/>▣ \"Intellectual montage\" হলো একটি film editing technique that juxtaposes contrasting images (বিপরীত চিত্র সংযোজনকারী চলচ্চিত্র সম্পাদনা কৌশল)। Intellectual montage হলো একটি চলচ্চিত্র সম্পাদনা কৌশল, যা সোভিয়েত চলচ্চিত্র নির্মাতা সার্গেই আইজেনস্টাইন দ্বারা জনপ্রিয় করা হয়েছিল। এই কৌশলে দুটি বা ততোধিক বিপরীধর্মী চিত্র একসাথে সংযোজন করা হয়, যার ফলে দর্শকের মনে একটি নতুন ধারণা বা চিন্তার সৃষ্টি হয়। এই কৌশলের মাধ্যমে চলচ্চিত্র নির্মাতা দর্শকের মনে কোনো বিশেষ ধারণা বা ভাবনা তৈরি করতে পারেন, যা সরাসরি চিত্রে দেখানো সম্ভব নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330277,
+    "question": "Change into indirect speech: \"Are you alone, my son?\" asked a soft voice close behind me.",
+    "options": [
+      "What I was doing these alone was asked by a soft voice.",
+      "Addressing me as his son a soft voice asked if I was alone.",
+      "A soft voice told me as his son and asked me if I was alone.",
+      "A soft voice from my behind asked me if I was alone."
+    ],
+    "correct_answer": "Addressing me as his son a soft voice asked if I was alone.",
+    "explanation": "📖 এটি একটি Interrogative Sentence-এর narration। 'my son' বলে সম্বোধন করা হয়েছে, তাই 'Addressing me as his son' দিয়ে শুরু করা সবচেয়ে উপযুক্ত। প্রশ্নটি 'yes/no' question হওয়ায় 'if' বা 'whether' বসবে। 'are' পরিবর্তিত হয়ে 'was' হবে।<br/>▣ Option Analysis:<br/>❏ (a) অর্থ এবং গঠন উভয়ই ভুল।<br/>❏ (b) সম্বোধন (addressing), রিপোর্টিং ভার্ব (asked), লিঙ্কার (if) এবং tense পরিবর্তন (are -> was) সবই সঠিকভাবে করা হয়েছে।<br/>❏ (c) 'told me as his son' এর চেয়ে 'addressing' বেশি উপযুক্ত।<br/>❏ (d) 'my son' সম্বোধনটি বাদ দেওয়া হয়েছে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330278,
+    "question": "Complete the sentence: \"If I had much money, I ……….",
+    "options": [
+      "would build an orphanage",
+      "would have built an orphanage",
+      "might have built an orphanage",
+      "should have built an orphanage"
+    ],
+    "correct_answer": "would build an orphanage",
+    "explanation": "📖 এটি Second Conditional Sentence-এর উদাহরণ, যা একটি অবাস্তব বর্তমান বা ভবিষ্যতের কল্পনা প্রকাশ করে। এর গঠন হলো: If + Past Simple, ... would + Base Verb।<br/>▣ Option Analysis:<br/>❏ (a) would build: would + base verb। এটি Second Conditional-এর সঠিক গঠন।<br/>❏ (b) would have built: would have + V3। এটি Third Conditional-এর অংশ, যা অতীতের অবাস্তব কল্পনা বোঝায়।<br/>❏ (c) might have built: might have + V3। এটিও Third Conditional-এর অংশ।<br/>❏ (d) should have built: should have + V3। এটিও Third Conditional-এর অংশ।<br/>▣ \"If I had much money, I would build an orphanage\" বাক্যটি সঠিক। এটি একটি second conditional sentence, যেখানে অসম্ভব বা কাল্পনিক অবস্থা বোঝানো হচ্ছে। Second conditional sentence-এর structure হলো: If + simple past tense, would + base form of verb। এই বাক্যে \"If I had much money\" অংশটি simple past tense-এ লেখা হয়েছে, এবং \"I would build an orphanage\" অংশটি would + base form of verb-এ লেখা হয়েছে। এই বাক্যের অর্থ হলো, যদি আমার অনেক টাকা থাকত (যা বাস্তবে নেই), তাহলে আমি একটি এতিমখানা তৈরি করতাম।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330279,
+    "question": "\"She enjoyed herself immensely at the party.\" Which of the following options is the closest to the above sentence?",
+    "options": [
+      "She had a terrific time at the party.",
+      "She had a terrible time at the party.",
+      "She had a horrible time at the party.",
+      "She had a horrific time at the party."
+    ],
+    "correct_answer": "She had a terrific time at the party.",
+    "explanation": "📖 \"enjoyed herself immensely\" অর্থ হলো 'প্রচুর আনন্দ করা'।<br/>▣ Option Analysis:<br/>❏ (a) had a terrific time: দারুণ সময় কাটানো (positive, synonym)।<br/>❏ (b) had a terrible time: ভয়ংকর খারাপ সময় কাটানো (negative, antonym)।<br/>❏ (c) had a horrible time: জঘন্য সময় কাটানো (negative, antonym)।<br/>❏ (d) had a horrific time: বীভৎস সময় কাটানো (negative, antonym)।<br/>'terrific' শব্দটি ইতিবাচক অর্থে 'চমৎকার' বা 'দারুণ' বোঝায়। তাই এটিই সঠিক উত্তর।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330280,
+    "question": "All collective nouns are ………. gender.",
+    "options": [
+      "masculine",
+      "feminine",
+      "common",
+      "neuter"
+    ],
+    "correct_answer": "neuter",
+    "explanation": "📖 Collective Noun (সমষ্টিবাচক বিশেষ্য) যেমন: team, army, jury, flock ইত্যাদি যখন একটি একক ইউনিট বা সমষ্টি হিসেবে বিবেচিত হয়, তখন এদেরকে Neuter Gender (ক্লীবলিঙ্গ) হিসেবে ধরা হয় এবং এদের পরিবর্তে pronoun 'it' ব্যবহৃত হয়।<br/>▣ Option Analysis:<br/>❏ (a) masculine: পুংলিঙ্গ।<br/>❏ (b) feminine: স্ত্রীলিঙ্গ।<br/>❏ (c) common: উভয়লিঙ্গ (e.g., child, parent)।<br/>❏ (d) neuter: ক্লীবলিঙ্গ। (সঠিক)<br/>▣ All collective nouns are neuter gender.\" বাক্যটি সঠিক। Collective nouns (সমষ্টিবাচক বিশেষ্য) সাধারণত neuter gender (ক্লীব লিঙ্গ) হয়। Neuter gender হলো এমন লিঙ্গ, যা পুংলিঙ্গ বা স্ত্রীলিঙ্গ নয়, বরং এটি জড় বস্তু বা অজীব বস্তুকে বোঝায়। Collective nouns যদিও মানুষ বা প্রাণীদের গোষ্ঠীকে বোঝায়, কিন্তু ইংরেজি ব্যাকরণে এগুলো neuter gender হিসেবে বিবেচিত হয়। উদাহরণস্বরূপ, \"The team is playing well\" বাক্যে \"team\" একটি collective noun, এবং এটি neuter gender।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330281,
+    "question": "Complete the following proverb: Fools rush in where -",
+    "options": [
+      "an angel fears to tread",
+      "all angels fear to tread",
+      "every angel fears to tread",
+      "angels fear to tread"
+    ],
+    "correct_answer": "angels fear to tread",
+    "explanation": "📖 এটি Alexander Pope-এর একটি বিখ্যাত প্রবাদ। পুরো প্রবাদটি হলো: \"Fools rush in where angels fear to tread.\" এর অর্থ হলো, বোকা বা অনভিজ্ঞ লোকেরা এমন সব কাজে ঝাঁপিয়ে পড়ে, যা জ্ঞানী ও বিচক্ষণ ব্যক্তিরা সতর্কতার সাথে এড়িয়ে চলেন। সঠিক phrase হলো 'angels fear to tread'।<br/>▣ \"Fools rush in where angels fear to tread\" প্রবাদটি সঠিক। এটি একটি ইংরেজি প্রবাদ, যার অর্থ হলো বোকা লোকেরা এমন জায়গায় ঝাঁপিয়ে পড়ে, যেখানে বুদ্ধিমান বা সাবধানী লোকেরা যেতে ভয় পায়। এই প্রবাদটি দ্বারা বোঝানো হয় যে, বোকা লোকেরা বিপদের কথা না ভেবে ঝুঁকি নিতে পছন্দ করে। এই প্রবাদটি আলেকজান্ডার পোপের একটি কবিতা থেকে এসেছে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330282,
+    "question": "Which of the following nouns has two plural forms?",
+    "options": [
+      "father",
+      "mother",
+      "sister",
+      "brother"
+    ],
+    "correct_answer": "sister",
+    "explanation": "📖 কিছু noun-এর দুটি plural form থাকে, যার অর্থ ভিন্ন।<br/>▣ Option Analysis:<br/>❏ (a) father -> fathers<br/>❏ (b) mother -> mothers<br/>❏ (c) sister -> sisters (রক্তের সম্পর্কের বোন) এবং sistren (ধর্মীয় সংগঠনের বোন বা সিস্টার)। (সঠিক)<br/>❏ (d) brother -> brothers (রক্তের সম্পর্কের ভাই) এবং brethren (একই সমাজ বা সংগঠনের সদস্য/ভাই)।<br/>(এখানে sister ও brother দুটিরই দুটি plural form আছে, তবে সাধারণত sister-এর sistren formটি বেশি পরিচিত উদাহরণ হিসেবে ব্যবহৃত হয়)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330283,
+    "question": "Macbeth killed the king. He was arrested on the charge of -",
+    "options": [
+      "patricide",
+      "regicide",
+      "fratricide",
+      "homicide"
+    ],
+    "correct_answer": "regicide",
+    "explanation": "📖 নির্দিষ্ট ধরনের হত্যাকাণ্ডকে বোঝানোর জন্য নির্দিষ্ট শব্দ রয়েছে।<br/>▣ Option Analysis:<br/>❏ (a) patricide: পিতৃহত্যা।<br/>❏ (b) regicide: রাজহত্যা (rex/regis = king, cide = killing)। (সঠিক)<br/>❏ (c) fratricide: ভ্রাতৃহত্যা।<br/>❏ (d) homicide: নরহত্যা (যেকোনো মানুষ হত্যা)।<br/>যেহেতু ম্যাকবেথ রাজাকে হত্যা করেছিল, তাই তার অপরাধ হলো regicide।<br/>▣ Macbeth রাজাকে হত্যা করার জন্য তার বিরুদ্ধে regicide (রাজাহত্যা) অভিযোগ আনা হবে। Regicide হলো একটি অপরাধ, যা রাজাকে হত্যা করার জন্য দেওয়া হয়। শেক্সপিয়রের বিখ্যাত নাটক \"Macbeth\"-এ Macbeth স্কটল্যান্ডের রাজা ডাঙ্কানকে হত্যা করে এবং রাজা হয়। অন্যান্য অপশনগুলো এই প্রেক্ষিতে প্রযোজ্য নয়: Patricide হলো নিজের পিতাকে হত্যা করা। Fratricide হলো নিজের ভাইকে হত্যা করা।<br/>Homicide হলো একজন মানুষকে হত্যা করা, যা একটি সাধারণ অভিযোগ। সুতরাং, Macbeth-এর বিরুদ্ধে সঠিক অভিযোগ হলো regicide।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330284,
+    "question": "Which of the following is a synonym of \"diminutive\"?",
+    "options": [
+      "petite",
+      "large",
+      "pigmy",
+      "huge"
+    ],
+    "correct_answer": "petite",
+    "explanation": "📖 \"Diminutive\" শব্দের অর্থ হলো অত্যন্ত ছোট বা ক্ষুদ্রাকৃতির।<br/>▣ Option Analysis:<br/>❏ (a) petite: (নারীদের ক্ষেত্রে) ছোট ও সুগঠিত (synonym)।<br/>❏ (b) large: বড় (antonym)।<br/>❏ (c) pigmy: (Pygmy) খর্বাকৃতির মানুষ, এটি একটি নির্দিষ্ট নৃ-গোষ্ঠীকে বোঝায়, সাধারণ সমার্থক শব্দ নয়।<br/>❏ (d) huge: বিশাল (antonym)।<br/>প্রদত্ত অপশনগুলোর মধ্যে 'petite' সবচেয়ে কাছের সমার্থক শব্দ।<br/>▣ \"Diminutive\" শব্দটির সঠিক synonym হলো \"petite\" (ক্ষুদ্রাকৃতি)। \"Diminutive\" শব্দটি দ্বারা সাধারণত অত্যন্ত ছোট আকারের কিছু বোঝানো হয়। \"Petite\" শব্দটিও একই অর্থে ব্যবহৃত হয়, বিশেষ করে মহিলাদের ক্ষেত্রে। অন্যান্য অপশনগুলো \"diminutive\" শব্দের synonym নয়:",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330285,
+    "question": "She's mad ………. me for being late.",
+    "options": [
+      "to",
+      "towards",
+      "at",
+      "against"
+    ],
+    "correct_answer": "at",
+    "explanation": "📖 কারো উপর রাগান্বিত বা ক্ষুব্ধ বোঝাতে 'mad at someone' ব্যবহৃত হয়। কোনো কিছুর জন্য রাগান্বিত হলে 'mad about something' ব্যবহৃত হয়। এখানে ব্যক্তির উপর রাগ বোঝানো হয়েছে, তাই 'at' হবে সঠিক preposition।<br/>▣ Option Analysis:<br/>❏ (a) to - ভুল।<br/>❏ (b) towards - ভুল।<br/>❏ (c) at - সঠিক। (mad at someone)<br/>❏ (d) against - ভুল।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330286,
+    "question": "“A way of speaking or writing that makes something sound better or more exciting than it really is.\"- this can be the best definition of -",
+    "options": [
+      "oxymoron",
+      "synecdoche",
+      "sarcasm",
+      "hyperbole"
+    ],
+    "correct_answer": "hyperbole",
+    "explanation": "📖 Hyperbole (হাইপারবোল) একটি, যেখানে কোনো কিছুকে বাস্তবতার চেয়ে অনেক বাড়িয়ে বা অতিরঞ্জিত করে বলা হয়, যাতে একটি শক্তিশালী প্রভাব তৈরি হয়। সংজ্ঞাটি Hyperbole-এর সাথে মিলে যায়।<br/>▣ Option Analysis:<br/>❏ (a) oxymoron: দুটি বিপরীতার্থক শব্দ পাশাপাশি ব্যবহার (e.g., open secret)।<br/>❏ (b) synecdoche: অংশ দিয়ে সমগ্র বা সমগ্র দিয়ে অংশ বোঝানো (e.g., all hands on deck)।<br/>❏ (c) sarcasm: বিদ্রূপ বা শ্লেষ।<br/>❏ (d) hyperbole: অতিরঞ্জন। (সঠিক)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330287,
+    "question": "The noun form of \"replete\" is -",
+    "options": [
+      "repletation",
+      "repletance",
+      "replecacy",
+      "repletion"
+    ],
+    "correct_answer": "repletion",
+    "explanation": "📖 \"Replete\" একটি adjective, যার অর্থ পরিপূর্ণ বা ভরপুর। এর noun form হলো \"repletion\", যার অর্থ পরিপূর্ণতা বা পরিতৃপ্তি।<br/>▣ Option Analysis:<br/>❏ (a) repletation - ভুল শব্দ।<br/>❏ (b) repletance - ভুল শব্দ।<br/>❏ (c) replecacy - ভুল শব্দ।<br/>❏ (d) repletion - সঠিক noun form।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330288,
+    "question": "Come on, it's time to go home. Here \"home\" is a/an-",
+    "options": [
+      "noun",
+      "adjective",
+      "adverb",
+      "verb"
+    ],
+    "correct_answer": "adverb",
+    "explanation": "📖 এই বাক্যে 'home' শব্দটি 'go' (verb)-কে modify করছে। 'কোথায় যেতে হবে?' (go where?) - এর উত্তর হলো 'home'। যে word verb-কে modify করে স্থান নির্দেশ করে, তাকে Adverb of Place বলে। তাই এখানে 'home' একটি adverb।<br/>▣ Option Analysis:<br/>❏ (a) noun: যখন 'home' বলতে বাড়ি বা বাসস্থান বোঝায় (e.g., My home is beautiful)।<br/>❏ (b) adjective: যখন noun-এর আগে বসে (e.g., home address)।<br/>❏ (c) adverb: যখন verb-কে modify করে (e.g., go home, come home)। (সঠিক)<br/>❏ (d) verb: ক্রিয়া।<br/>▣ \"Come on, it's time to go home\" বাক্যে \"home\" শব্দটি একটি adverb (ক্রিয়া বিশেষণ)। সাধারণত \"home\" শব্দটি noun হিসেবে ব্যবহৃত হয়, কিন্তু এই বাক্যে এটি adverb হিসেবে ব্যবহৃত হয়েছে। এখানে \"home\" শব্দটি \"go\" verb-টির স্থান বা দিক নির্দেশ করছে, যা adverb-এর কাজ। অর্থাৎ, \"go home\" বাক্যাংশের অর্থ হলো \"বাড়িতে যাওয়া\"। এটি noun নয়, কারণ এটি কোনো বস্তু, ব্যক্তি বা স্থান হিসেবে কাজ করছে না। এটি adjective নয়, কারণ এটি কোনো noun বর্ণনা করছে না। এটি verbও নয়, কারণ এটি কোনো কাজ বা অবস্থা বোঝাচ্ছে না। সুতরাং, এই বাক্যে \"home\" শব্দটি একটি adverb।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330289,
+    "question": "A burnt child dreads the fire. Here \"burnt\" is a-",
+    "options": [
+      "gerund",
+      "past participle",
+      "finite verbs",
+      "present participle"
+    ],
+    "correct_answer": "past participle",
+    "explanation": "📖 এখানে 'burnt' শব্দটি 'child' (noun)-কে modify করছে, অর্থাৎ child-টির অবস্থা বর্ণনা করছে। Verb-এর past participle form (V3) যখন adjective-এর মতো কাজ করে, তখন তাকে Participle Adjective বলে। তাই 'burnt' একটি past participle।<br/>▣ Option Analysis:<br/>❏ (a) gerund: verb+ing যা noun-এর কাজ করে।<br/>❏ (b) past participle: V3 যা adjective-এর কাজ করতে পারে। (সঠিক)<br/>❏ (c) finite verbs: বাক্যের মূল ক্রিয়া যা tense ও subject অনুযায়ী পরিবর্তিত হয়।<br/>❏ (d) present participle: verb+ing যা adjective-এর কাজ করে।<br/>▣ \"A burnt child dreads the fire\" বাক্যে \"burnt\" শব্দটি একটি past participle (অতীত কৃদন্ত)। Past participle হলো verb-এর একটি রূপ, যা সাধারণত perfect tense বা passive voice-এ ব্যবহৃত হয়। এই বাক্যে \"burnt\" শব্দটি \"child\" noun-টির বিশেষণ হিসেবে কাজ করছে, যা নির্দেশ করছে যে শিশুটি পুড়েছে। এটি একটি past participle হিসেবে ব্যবহৃত হয়েছে, যা \"child\" noun-টিকে বর্ণনা করছে। এটি gerund নয়, কারণ gerund noun-এর মতো কাজ করে, কিন্তু এখানে \"burnt\" noun-এর মতো কাজ করছে না। এটি finite verbও নয়, কারণ এটি subject-এর সাথে সরাসরি যুক্ত নয়। এটি present participleও নয়, কারণ present participle সাধারণত \"-ing\" যুক্ত হয়। সুতরাং, \"burnt\" শব্দটি একটি past participle।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330290,
+    "question": "Choose the correct antonym of the word \"macho”:",
+    "options": [
+      "arrogant",
+      "haughty",
+      "modest",
+      "machismo"
+    ],
+    "correct_answer": "modest",
+    "explanation": "📖 \"Macho\" (মাচো) শব্দের অর্থ হলো আগ্রাসীভাবে পুরুষালি, অহংকারী বা গর্বিত পুরুষ। এর বিপরীত শব্দ হবে বিনয়ী বা নম্র।<br/>▣ Option Analysis:<br/>❏ (a) arrogant: অহংকারী (synonym)।<br/>❏ (b) haughty: উদ্ধত (synonym)।<br/>❏ (c) modest: বিনয়ী, নম্র (antonym)।<br/>❏ (d) machismo: পুরুষালি দম্ভ (noun form of macho)।<br/>▣ \"Macho\" শব্দটির সঠিক antonym হলো \"modest\" (বিনয়ী)। \"Macho\" শব্দটি দ্বারা সাধারণত এমন একজন পুরুষকে বোঝানো হয়, যে শারীরিকভাবে শক্তিশালী, আত্মবিশ্বাসী, এবং পুরুষালি গুণ প্রকাশ করে। এর বিপরীতে \"modest\" শব্দটি দ্বারা এমন একজন ব্যক্তিকে বোঝানো হয়, যে বিনয়ী, নম্র, এবং নিজের গুণাবলী নিয়ে অহংকারী নয়। অন্যান্য অপশনগুলো \"macho\" শব্দের antonym নয়:",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330291,
+    "question": "The number of COVID-19 related deaths...",
+    "options": [
+      "are overwhelming the world",
+      "have overwhelmed the world",
+      "has overwhelmed world",
+      "has been overwhelmed the world"
+    ],
+    "correct_answer": "has overwhelmed world",
+    "explanation": "📖 \"The number of...\" phrase-টি subject হিসেবে ব্যবহৃত হলে verb সবসময় singular হয়। কারণ এখানে 'number' শব্দটিই মূল subject। অন্যদিকে, \"A number of...\" থাকলে verb plural হয়। তাই 'The number of... deaths' এর পর singular verb 'has' বসবে।<br/>▣ Option Analysis:<br/>❏ (a) are - plural verb, ভুল।<br/>❏ (b) have - plural verb, ভুল।<br/>❏ (c) has - singular verb, সঠিক।<br/>❏ (d) has been overwhelmed - passive voice, যা এখানে অর্থগতভাবে ভুল।<br/>▣ \"The number of COVID-19 related deaths has overwhelmed world\" বাক্যটি সঠিক। \"The number of\" একটি singular collective noun, যার সাথে singular verb ব্যবহার করতে হয়। এখানে \"has\" একটি singular verb, যা \"The number of COVID-19 related deaths\" subject-এর সাথে মিলে গেছে। \"overwhelmed\" হলো verb-এর past participle রূপ, যা present perfect tense-এ ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330292,
+    "question": "The supervisor knows [when the bus will depart from the terminal]. The underlined clause is a/an -",
+    "options": [
+      "adjective clause",
+      "adverbial clause",
+      "independent clause",
+      "noun clause"
+    ],
+    "correct_answer": "noun clause",
+    "explanation": "📖 এখানে 'knows' verb-টির object হিসেবে [when the bus will depart from the terminal] clause-টি ব্যবহৃত হয়েছে। 'knows' কে 'কী' (what) দিয়ে প্রশ্ন করলে (The supervisor knows what?) উত্তর আসে এই clause-টি। যে clause বাক্যে noun-এর মতো কাজ করে (subject, object, complement হিসেবে), তাকে Noun Clause বলে।<br/>▣ Option Analysis:<br/>❏ (a) adjective clause: noun/pronoun-কে modify করে।<br/>❏ (b) adverbial clause: verb/adjective/adverb-কে modify করে।<br/>❏ (c) independent clause: নিজে নিজে সম্পূর্ণ অর্থ প্রকাশ করে।<br/>❏ (d) noun clause: noun-এর কাজ করে। (সঠিক)<br/>▣ \"The supervisor knows [when the bus will depart from the terminal]\" বাক্যে নিচে আন্ডারলাইন করা অংশটি একটি noun clause (নাম সংযোজক অধীন উপবাক্য)। Noun clause হলো একটি অধীন উপবাক্য, যা একটি noun-এর মতো কাজ করে। এই বাক্যে \"when the bus will depart from the terminal\" অংশটি \"knows\" ক্রিয়াটির object হিসেবে কাজ করছে, যা noun-এর কাজ। এটি একটি সম্পূর্ণ চিন্তা প্রকাশ করে, কিন্তু এটি একা দাঁড়াতে পারে না, বরং মূল বাক্যের সাথে যুক্ত থাকতে হয়। এটি adjective clause নয়, কারণ এটি কোনো noun বর্ণনা করছে না। এটি adverbial clauseও নয়, কারণ এটি কোনো ক্রিয়া সম্পর্কে তথ্য দিচ্ছে না। এটি independent clauseও নয়, কারণ এটি একা দাঁড়িয়ে সম্পূর্ণ বাক্য হিসেবে কাজ করতে পারে না। সুতরাং, এটি একটি noun clause।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330293,
+    "question": "\"These are more things in heaven and earth, Horatio, than are dreamt of in your philosophy.\" This line has been quoted from Shakespeare's -",
+    "options": [
+      "Hamlet",
+      "Macbeth",
+      "King Lear",
+      "Measure for Measure"
+    ],
+    "correct_answer": "Hamlet",
+    "explanation": "📖 এই বিখ্যাত উক্তিটি উইলিয়াম শেক্সপিয়রের 'Hamlet' নাটক থেকে নেওয়া হয়েছে। নাটকের প্রধান চরিত্র হ্যামলেট তার বন্ধু হোরাশিওকে এই কথাটি বলে, যার অর্থ হলো পৃথিবীতে এমন অনেক কিছু ঘটে যা সাধারণ দর্শন বা যুক্তির মাধ্যমে ব্যাখ্যা করা যায় না।<br/>▣ These are more things in heaven and earth, Horatio, than are dreamt of in your philosophy.\" এই বাক্যটি শেক্সপিয়রের বিখ্যাত নাটক \"Hamlet\" থেকে উদ্ধৃত। এই বাক্যটি হ্যামলেট চরিত্রটি তার বন্ধু হোরেশিওকে বলে। এই বাক্যে হ্যামলেট বোঝাতে চেয়েছেন যে, পৃথিবী এবং আকাশে এমন অনেক কিছু আছে যা মানুষের দর্শন বা চিন্তাধারার বাইরে। এই বাক্যটি জ্ঞান, দর্শন এবং মানব জীবনের রহস্যময়তা সম্পর্কে গভীর চিন্তার পরিচায়ক। Hamlet নাটকটি শেক্সপিয়রের অন্যতম শ্রেষ্ঠ নাটক হিসেবে বিবেচিত হয়, যা প্রতিশোধ, বিশ্বাসঘাতকতা এবং মানবিক মনের জটিলতা নিয়ে আলোচনা করে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330294,
+    "question": "Which one is the correct spelling?",
+    "options": [
+      "assasination",
+      "aquarium",
+      "armatur",
+      "assylum"
+    ],
+    "correct_answer": "aquarium",
+    "explanation": "📖 এখানে একমাত্র 'aquarium' বানানটি সঠিক।<br/>▣ Option Analysis:<br/>❏ (a) assasination - ভুল। সঠিক বানান: assassination (ass-ass-i-nation)।<br/>❏ (b) aquarium - সঠিক। অর্থ: মাছ বা জলজ প্রাণী রাখার কাচের পাত্র।<br/>❏ (c) armatur - ভুল। সঠিক বানান: armature।<br/>❏ (d) assylum - ভুল। সঠিক বানান: asylum।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330295,
+    "question": "Choose the correct sentence from the following.",
+    "options": [
+      "I prohibited him to go there.",
+      "I prohibited to his going there.",
+      "I Prohibited him from going there.",
+      "I prohibited his going there."
+    ],
+    "correct_answer": "I Prohibited him from going there.",
+    "explanation": "📖 'prohibit' verb-টির পর object এবং তারপর 'from' preposition বসে এবং এরপর verb-এর সাথে ing (gerund) যুক্ত হয়। সঠিক structure হলো: prohibit + object + from + verb(ing)।<br/>▣ Option Analysis:<br/>❏ (a) 'prohibited... to go' - ভুল গঠন।<br/>❏ (b) 'prohibited to his going' - ভুল গঠন।<br/>❏ (c) 'Prohibited him from going' - সঠিক গঠন অনুসরণ করেছে।<br/>❏ (d) 'prohibited his going' - ভুল গঠন।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330296,
+    "question": "\"Besides looting all the valuables, the hoodlum also stabbed the pedestrian violently.\" This an example of a/an-",
+    "options": [
+      "simple sentence",
+      "complex sentence",
+      "compound sentence",
+      "optative sentence"
+    ],
+    "correct_answer": "simple sentence",
+    "explanation": "📖 এই বাক্যটিতে একটি মাত্র স্বাধীন বা প্রধান খণ্ডবাক্য (independent clause) আছে, যার Subject হলো 'the hoodlum' এবং Finite Verb হলো 'stabbed'। 'Besides looting...' অংশটি একটি prepositional phrase। যেহেতু একটি মাত্র independent clause আছে, তাই এটি একটি Simple Sentence।<br/>▣ Option Analysis:<br/>❏ (a) simple sentence: একটি independent clause থাকে। (সঠিক)<br/>❏ (b) complex sentence: একটি independent ও এক বা একাধিক dependent clause থাকে।<br/>❏ (c) compound sentence: দুই বা ততোধিক independent clause থাকে যা conjunction দ্বারা যুক্ত।<br/>❏ (d) optative sentence: ইচ্ছা বা প্রার্থনা প্রকাশ করে।<br/>▣ \"Besides looting all the valuables, the hoodlum also stabbed the pedestrian violently.\" বাক্যটি একটি simple sentence (সরল বাক্য)। সরল বাক্য হলো এমন একটি বাক্য যাতে একটি মাত্র independent clause (স্বাধীন উপবাক্য) থাকে এবং এতে একটি মাত্র subject (কর্তা) এবং একটি মাত্র finite verb (সসীম ক্রিয়া) থাকে। এই বাক্যে \"the hoodlum\" হলো subject এবং \"stabbed\" হলো finite verb। \"Besides looting all the valuables\" একটি prepositional phrase (পদান্বয়ী অব্যয়সহ বাক্যাংশ), যা বাক্যের অংশ হিসেবে ব্যবহৃত হয়েছে। এই বাক্যে কোনো dependent clause (অধীন উপবাক্য) নেই এবং এটি অন্য কোনো independent clause-এর সাথে যুক্তও নয়। সুতরাং, এটি একটি simple sentence।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330297,
+    "question": "The problem is anything but easy. Here \"but\" is a/an-",
+    "options": [
+      "conjunction",
+      "adverb",
+      "preposition",
+      "pronoun"
+    ],
+    "correct_answer": "preposition",
+    "explanation": "📖 \"anything but\" একটি phrase যার অর্থ 'মোটেও না' (not at all)। বাক্যটির অর্থ: সমস্যাটি মোটেও সহজ নয়। এই গঠনে 'but' শব্দটি 'except' বা 'ব্যতীত' অর্থে ব্যবহৃত হয় এবং এটি একটি preposition হিসেবে কাজ করে।<br/>▣ Option Analysis:<br/>❏ (a) conjunction: দুটি clause যুক্ত করে, এখানে তা করেনি।<br/>❏ (b) adverb: verb/adjective/adverb-কে modify করে, এখানে তা করেনি।<br/>❏ (c) preposition: noun/pronoun-এর পূর্বে বসে সম্পর্ক স্থাপন করে। এখানে 'but' এর ফাংশন prepositional।<br/>❏ (d) pronoun: noun-এর পরিবর্তে বসে।<br/>▣ \"The problem is anything but easy\" বাক্যে \"but\" শব্দটি একটি preposition (পদান্বয়ী অব্যয়) হিসেবে ব্যবহৃত হয়েছে। সাধারণত \"but\" শব্দটি conjunction (সংযোজক অব্যয়) হিসেবে ব্যবহৃত হয়, কিন্তু এই বাক্যে এটি preposition হিসেবে ব্যবহৃত হয়েছে। \"Anything but\" একটি ইংরেজি প্রবচন, যার অর্থ \"কিছুতেই নয়\" বা \"একেবারেই নয়\"। অর্থাৎ, \"The problem is anything but easy\" বাক্যের অর্থ হলো \"সমস্যাটি একেবারেই সহজ নয়\"। এখানে \"but\" শব্দটি \"except\" (ব্যতীত) অর্থে ব্যবহৃত হয়েছে, যা preposition-এর একটি বৈশিষ্ট্য। সুতরাং, এই বাক্যে \"but\" একটি preposition।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330298,
+    "question": "\"The green-eyed monster\" means-",
+    "options": [
+      "danger",
+      "hatred",
+      "envy",
+      "jealousy"
+    ],
+    "correct_answer": "jealousy",
+    "explanation": "📖 \"The green-eyed monster\" একটি Idiom, যার অর্থ হলো ঈর্ষা বা হিংসা। শেক্সপিয়রের 'Othello' নাটকে ইয়াগো চরিত্রটি প্রথম এই উক্তিটি ব্যবহার করে।<br/>▣ Option Analysis:<br/>❏ (a) danger: বিপদ।<br/>❏ (b) hatred: ঘৃণা।<br/>❏ (c) envy: ঈর্ষা (অন্যের কিছু দেখে তা নিজের জন্য আকাঙ্ক্ষা করা)।<br/>❏ (d) jealousy: ঈর্ষা, পরশ্রীকাতরতা (নিজের যা আছে তা হারানোর ভয় থেকে সৃষ্ট তীব্র আবেগ, যা প্রায়শই হিংসাত্মক হয়)। Idiom-টির সবচেয়ে সঠিক অর্থ jealousy।<br/>▣ \"The green-eyed monster\" বাক্যাংশটির অর্থ \"jealousy\" (ঈর্ষা/দ্বেষ)। এটি একটি ইংরেজি প্রবচন, যা প্রথম উইলিয়াম শেক্সপিয়র তার বিখ্যাত নাটক \"অথেলো\"-তে ব্যবহার করেছিলেন। এই বাক্যাংশটি দ্বারা সাধারণত প্রেম বা সম্পর্কের ক্ষেত্রে একজন ব্যক্তির মনে অন্য ব্যক্তির প্রতি যে ঈর্ষা বা দ্বেষ জন্মায়, তাকে বোঝানো হয়। এটি একটি নেতিবাচক আবেগ, যা মানুষের মনকে বিষাক্ত করে তুলতে পারে। \"Envy\" এবং \"jealousy\" শব্দ দুটি প্রায় একই অর্থে ব্যবহৃত হলেও, \"jealousy\" বেশিরভাগ ক্ষেত্রে প্রেম বা সম্পর্কের ক্ষেত্রে ব্যবহৃত হয়, যেখানে \"envy\" অন্যের সম্পদ, সাফল্য বা গুণাবলীর প্রতি ঈর্ষাকে বোঝায়। সুতরাং, \"The green-eyed monster\" বাক্যাংশটির সঠিক অর্থ \"jealousy\"।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330299,
+    "question": "চাঁদে কোন বস্তুর ওজন ৩০ কেজি হলে, পৃথিবীতে ঐ বস্তুর ওজন কত কেজি হবে?",
+    "options": [
+      "৫ কেজি",
+      "৯০ কেজি",
+      "১৮০ কেজি",
+      "২১০ কেজি"
+    ],
+    "correct_answer": "১৮০ কেজি",
+    "explanation": "📖 চাঁদের মাধ্যাকর্ষণ শক্তি পৃথিবীর মাধ্যাকর্ষণ শক্তির প্রায় ১/৬ ভাগ। অর্থাৎ, পৃথিবীতে কোনো বস্তুর ওজন চাঁদের ওজনের প্রায় ৬ গুণ। সুতরাং, পৃথিবীতে বস্তুটির ওজন হবে = চাঁদে ওজন × ৬ = ৩০ কেজি × ৬ = ১৮০ কেজি।<br/>▣ এখানে একটি বিষয় স্পষ্ট করা প্রয়োজন। 'কেজি' (kg) হলো ভরের (mass) একক, ওজনের (weight) একক নয়। ওজন হলো একটি বল, যার একক নিউটন (N)। কোনো বস্তুর ভর সব জায়গায় (পৃথিবী, চাঁদ বা মহাশূন্যে) স্থির থাকে, কিন্তু মাধ্যাকর্ষণ বলের পরিবর্তনের কারণে তার ওজন পরিবর্তিত হয়। প্রশ্নটিতে সম্ভবত '৩০ কেজি' বলতে '৩০ কেজি-ভার' বা 30 kg-wt বোঝানো হয়েছে, যা ওজনের একটি প্রচলিত একক। যদি চাঁদে বস্তুটির ওজন ৩০ কেজি-ভার হয়, তবে পৃথিবীতে তার ওজন হবে প্রায় ৬ গুণ বেশি, কারণ পৃথিবীর মাধ্যাকর্ষণ চাঁদের চেয়ে ৬ গুণ শক্তিশালী। তাই, পৃথিবীতে ওজন হবে ৩০ × ৬ = ১৮০ কেজি-ভার। অর্থাৎ, বস্তুটি পৃথিবীতে ১৮০ কেজি ভরের সমান বল অনুভব করবে।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330300,
+    "question": "ভূপৃষ্ঠে কোন ধাতু সবচেয়ে বেশি পরিমাণে আছে?",
+    "options": [
+      "অ্যালুমিনিয়াম",
+      "লোহা",
+      "তামা",
+      "জিংক"
+    ],
+    "correct_answer": "অ্যালুমিনিয়াম",
+    "explanation": "📖 ভূপৃষ্ঠ বা ভূত্বকে (Earth's crust) সবচেয়ে বেশি পরিমাণে প্রাপ্ত মৌল হলো অক্সিজেন, এরপর সিলিকন। ধাতুগুলোর মধ্যে সবচেয়ে বেশি পরিমাণে রয়েছে অ্যালুমিনিয়াম (প্রায় ৮%), এরপরই লোহার (প্রায় ৫%) অবস্থান।<br/>▣ ভূত্বকের উপাদানগুলোর প্রাচুর্যের ক্রম নিম্নরূপ: ১. অক্সিজেন (প্রায় ৪৬.৬%), ২. সিলিকন (প্রায় ২৭.৭%), ৩. অ্যালুমিনিয়াম (প্রায় ৮.১%), ৪. লোহা (প্রায় ৫.০%), ৫. ক্যালসিয়াম (প্রায় ৩.৬%)। এই তালিকা থেকে দেখা যায়, সবচেয়ে সহজলভ্য মৌল হলো অক্সিজেন (অধাতু) এবং দ্বিতীয় সহজলভ্য মৌল হলো সিলিকন (উপধাতু)। কিন্তু প্রশ্নটি যেহেতু ধাতু সম্পর্কে, তাই সবচেয়ে সহজলভ্য ধাতু হলো অ্যালুমিনিয়াম। এটি বক্সাইট নামক আকরিক থেকে নিষ্কাশন করা হয়।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330301,
+    "question": "কলায় বিদ্যমান প্রধান জৈব এসিড কোনটি?",
+    "options": [
+      "অক্সালিক এসিড",
+      "ম্যালিক এসিড",
+      "এসিটিক এসিড",
+      "ল্যাকটিক এসিড"
+    ],
+    "correct_answer": "ম্যালিক এসিড",
+    "explanation": "📖 কলায় বিভিন্ন ধরনের জৈব এসিড থাকলেও এর মধ্যে ম্যালিক এসিডের (Malic Acid) পরিমাণ সবচেয়ে বেশি, যা কলার বৈশিষ্ট্যপূর্ণ স্বাদ ও গন্ধের জন্য দায়ী। আপেলেও প্রধান এসিড হলো ম্যালিক এসিড।<br/>▣ ফল পাকার সময় বিভিন্ন জৈব এসিড তৈরি হয় যা ফলের স্বাদ, গন্ধ ও সংরক্ষণশীলতায় ভূমিকা রাখে। কলার মধ্যে ম্যালিক এসিড, সাইট্রিক এসিড এবং অক্সালিক এসিড পাওয়া গেলেও, ম্যালিক এসিডের পরিমাণই সর্বাধিক। ল্যাটিন শব্দ 'malum' (আপেল) থেকে ম্যালিক এসিডের নামকরণ হয়েছে, কারণ আপেলেও এটি প্রধান এসিড। অ্যাসিটিক এসিড ভিনেগারে পাওয়া যায়, আর ল্যাকটিক এসিড পাওয়া যায় দই এবং অন্যান্য দুগ্ধজাত খাদ্যে।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330302,
+    "question": "কোনটি ব্যাকটেরিয়া দ্বারা সৃষ্ট রোগ নয়?",
+    "options": [
+      "হেপাটাইটিস",
+      "গনোরিয়া",
+      "কুষ্ঠ",
+      "টাইফয়েড জ্বর"
+    ],
+    "correct_answer": "হেপাটাইটিস",
+    "explanation": "📖 হেপাটাইটিস একটি ভাইরাসজনিত রোগ, যা হেপাটাইটিস ভাইরাস (A, B, C, D, E) দ্বারা যকৃতে প্রদাহ সৃষ্টি করে। অন্যদিকে, গনোরিয়া (Neisseria gonorrhoeae), কুষ্ঠ (Mycobacterium leprae) এবং টাইফয়েড জ্বর (Salmonella Typhi) ব্যাকটেরিয়া দ্বারা সৃষ্ট রোগ।<br/>▣ রোগ সৃষ্টিকারী অণুজীব প্রধানত ভাইরাস, ব্যাকটেরিয়া, ছত্রাক এবং প্রোটোজোয়া—এই কয়েক প্রকারের হয়। হেপাটাইটিস হলো যকৃতের প্রদাহ, যা মূলত হেপাটাইটিস এ, বি, সি, ডি, ই—এই পাঁচ ধরনের ভাইরাসের আক্রমণে হয়। গনোরিয়া একটি যৌনবাহিত রোগ যা 'Neisseria gonorrhoeae' নামক ব্যাকটেরিয়া ঘটায়। কুষ্ঠ বা Leprosy 'Mycobacterium leprae' ব্যাকটেরিয়ার কারণে হয়, যা ত্বক ও স্নায়ুতন্ত্রকে আক্রমণ করে। টাইফয়েড একটি পানিবাহিত রোগ, যা 'Salmonella Typhi' ব্যাকটেরিয়ার সংক্রমণে হয়ে থাকে।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330303,
+    "question": "কোন আলোতে সালোকসংশ্লেষণ সবচেয়ে বেশি পরিমাণে হয়?",
+    "options": [
+      "বেগুনি",
+      "নীল",
+      "লাল",
+      "হলুদ"
+    ],
+    "correct_answer": "লাল",
+    "explanation": "📖 সালোকসংশ্লেষণ প্রক্রিয়ায় ক্লোরোফিল নামক রঞ্জক পদার্থ আলোর শক্তি শোষণ করে। ক্লোরোফিল দৃশ্যমান আলোর লাল এবং নীল-বেগুনি অংশ সবচেয়ে বেশি শোষণ করে, কিন্তু সবুজ ও হলুদ আলো প্রায় শোষণ করে না (প্রতিফলিত করে, তাই পাতার রঙ সবুজ দেখায়)। তবে সামগ্রিকভাবে লাল আলোতে সালোকসংশ্লেষণের হার সবচেয়ে বেশি হয়।<br/>▣ উদ্ভিদের সালোকসংশ্লেষণের হার আলোর বিভিন্ন তরঙ্গদৈর্ঘ্যের উপর নির্ভর করে, যাকে 'অ্যাকশন স্পেকট্রাম' বলা হয়। ক্লোরোফিল-এ এবং ক্লোরোফিল-বি নামক রঞ্জক পদার্থগুলো নীল-বেগুনি (প্রায় ৪৩০-৪৫০ ন্যানোমিটার) এবং লাল (প্রায় ৬৬০-৬৭০ ন্যানোমিটার) তরঙ্গদৈর্ঘ্যের আলো সবচেয়ে ভালোভাবে শোষণ করে। যদিও নীল আলো লাল আলোর চেয়ে বেশি শোষিত হয়, কিন্তু সালোকসংশ্লেষণের সামগ্রিক হার লাল আলোতে সর্বোচ্চ হয়। এর কারণ হলো, নীল আলোর উচ্চ শক্তি কিছুটা তাপ হিসেবে নষ্ট হয়ে যায় এবং অন্যান্য রঞ্জক (যেমন ক্যারোটিনয়েড) নীল আলো শোষণ করলেও তা সালোকসংশ্লেষণে কম কার্যকর। তাই, লাল আলো সালোকসংশ্লেষণের জন্য সবচেয়ে কার্যকর (most efficient)।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330304,
+    "question": "লোহা মাধ্যমে শব্দ বাতাসের তুলনায় কত গুণ দ্রুত চলে?",
+    "options": [
+      "২০ গুণ",
+      "১৮ গুণ",
+      "১৫ গুণ",
+      "১২ গুণ"
+    ],
+    "correct_answer": "১৫ গুণ",
+    "explanation": "📖 শব্দের বেগ মাধ্যমের ঘনত্বের উপর নির্ভর করে। কঠিন মাধ্যমে অণুগুলো কাছাকাছি থাকায় শব্দ খুব দ্রুত চলাচল করে। বায়ুতে শব্দের বেগ প্রায় ৩৪৩ মি/সে, যেখানে লোহা বা স্টিলে শব্দের বেগ প্রায় ৫১৩০ মি/সে। ভাগ করলে দেখা যায়, লোহাতে শব্দের বেগ বাতাসের তুলনায় প্রায় ১৫ গুণ বেশি।<br/>▣ শব্দ এক প্রকার তরঙ্গ যা মাধ্যমের কণার কম্পনের মাধ্যমে সঞ্চালিত হয়। মাধ্যমের কণাগুলো যত কাছাকাছি ও দৃঢ়ভাবে আবদ্ধ থাকে, কম্পন তত দ্রুত এক কণা থেকে অন্য কণায় সঞ্চালিত হতে পারে। কঠিন পদার্থের (যেমন লোহা) অণুগুলো খুব কাছাকাছি ও শক্তিশালী বন্ধনে আবদ্ধ থাকে। তরল পদার্থে অণুগুলো কিছুটা দূরে এবং বায়বীয় পদার্থে (যেমন বাতাস) অণুগুলো অনেক দূরে দূরে অবস্থান করে। একারণে, কঠিন মাধ্যমে শব্দের বেগ সবচেয়ে বেশি, তরলে তার চেয়ে কম এবং বায়বীয় মাধ্যমে সবচেয়ে কম। ২০° সেলসিয়াস তাপমাত্রায় বাতাসে শব্দের বেগ প্রায় ৩৪৩ মিটার/সেকেন্ড, পানিতে প্রায় ১৪৮০ মি/সে এবং লোহাতে প্রায় ৫১৩০ মি/সে। সুতরাং, ৫১৩০ ÷ ৩৪৩ ≈ ১৪.৯৫, যা প্রায় ১৫ গুণ।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330305,
+    "question": "কোথায় সাঁতার কাটা সহজ?",
+    "options": [
+      "সুইমিংপুলে",
+      "পুকুরে",
+      "নদীতে",
+      "সাগরে"
+    ],
+    "correct_answer": "সাগরে",
+    "explanation": "📖 সাগরের পানিতে লবণ মিশ্রিত থাকায় এর ঘনত্ব (density) নদী বা পুকুরের মিষ্টি পানির চেয়ে বেশি। আর্কিমিডিসের সূত্র অনুযায়ী, কোনো বস্তুকে তরলে নিমজ্জিত করলে বস্তুটি তার অপসারিত তরলের ওজনের সমান ঊর্ধ্বমুখী বল (প্লবতা) লাভ করে। ঘনত্ব বেশি হওয়ায় সাগরের পানির প্লবতাও বেশি, তাই শরীর বেশি ভেসে থাকে এবং সাঁতার কাটা সহজ হয়।<br/>▣ এই ঘটনাটি প্লবতা (Buoyancy) এবং ঘনত্বের ধারণার উপর ভিত্তি করে প্রতিষ্ঠিত। প্লবতা হলো তরল কর্তৃক কোনো বস্তুর উপর প্রযুক্ত ঊর্ধ্বমুখী বল। যে তরলের ঘনত্ব যত বেশি, তার প্লবতাও তত বেশি। সাগরের পানিতে প্রচুর পরিমাণে লবণ (সোডিয়াম ক্লোরাইড) দ্রবীভূত থাকায় এর ঘনত্ব বিশুদ্ধ পানির (পুকুর বা নদীর পানি) চেয়ে প্রায় ২.৫% বেশি। এই অতিরিক্ত ঘনত্বের কারণে সাগরের পানি সাঁতারুর শরীরকে বেশি জোরে উপরের দিকে ঠেলে দেয়, ফলে শরীর সহজেই ভেসে থাকে এবং সাঁতার কাটার জন্য কম শক্তির প্রয়োজন হয়। মৃত সাগর বা ডেড সি-তে লবণের পরিমাণ এত বেশি যে সেখানে মানুষ না সাঁতার কেটেই ভেসে থাকতে পারে।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330306,
+    "question": "স্বর্ণ গলাতে কোন কোন এসিডের মিশ্রণ ব্যবহৃত হয়?",
+    "options": [
+      "H2SO4; HCl",
+      "H2SO4; HNO3",
+      "HCl; HNO3",
+      "উপরের যে কোনটি"
+    ],
+    "correct_answer": "HCl; HNO3",
+    "explanation": "📖 স্বর্ণ গলাতে 'অ্যাকোয়া রিজিয়া' বা 'রাজাম্ল' ব্যবহৃত হয়। এটি হলো এক ভাগ গাঢ় নাইট্রিক এসিড (HNO₃) এবং তিন ভাগ গাঢ় হাইড্রোক্লোরিক এসিডের (HCl) মিশ্রণ। এই মিশ্রণটি স্বর্ণ ও প্লাটিনামের মতো নিষ্ক্রিয় ধাতুগুলোকেও দ্রবীভূত করতে পারে।<br/>▣ অ্যাকোয়া রিজিয়া (Aqua Regia) একটি ল্যাটিন শব্দ, যার অর্থ 'রাজকীয় জল' (royal water)। স্বর্ণকে 'রাজকীয় ধাতু' হিসেবে বিবেচনা করা হতো এবং এই মিশ্রণটি স্বর্ণকে দ্রবীভূত করতে পারে বলেই এর এমন নামকরণ।单独ভাবে নাইট্রিক বা হাইড্রোক্লোরিক এসিড স্বর্ণকে দ্রবীভূত করতে পারে না। কিন্তু মিশ্রিত অবস্থায়, নাইট্রিক এসিড স্বর্ণকে জারিত করে স্বর্ণের আয়নে (Au³⁺) পরিণত করে এবং হাইড্রোক্লোরিক এসিড সেই আয়নের সাথে বিক্রিয়া করে টেট্রাক্লোরোঅরেট (III) অ্যানায়ন ([AuCl₄]⁻) তৈরি করে, যা দ্রবণে স্থিতিশীল। এই সম্মিলিত ক্রিয়ার ফলেই স্বর্ণ দ্রবীভূত হয়।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330307,
+    "question": "বাংলাদেশের জলবায়ু কী ধরনের?",
+    "options": [
+      "ক্রান্তীয় ও উপক্রান্তীয় জলবায়ু",
+      "ক্রান্তীয় ও মৌসুমি জলবায়ু",
+      "উপক্রান্তীয় জলবায়ু",
+      "আর্দ্র ক্রান্তীয় জলবায়ু"
+    ],
+    "correct_answer": "ক্রান্তীয় ও মৌসুমি জলবায়ু",
+    "explanation": "📖 বাংলাদেশ ক্রান্তীয় অঞ্চলে অবস্থিত এবং এখানকার জলবায়ু মৌসুমি বায়ু দ্বারা ব্যাপকভাবে প্রভাবিত হয়। তাই বাংলাদেশের জলবায়ুকে সামগ্রিকভাবে ক্রান্তীয় মৌসুমি জলবায়ু (Tropical Monsoon Climate) বলা হয়। এর বৈশিষ্ট্য হলো উষ্ণ ও আর্দ্র গ্রীষ্মকাল এবং শুষ্ক শীতকাল।<br/>▣ ভৌগোলিকভাবে বাংলাদেশ কর্কটক্রান্তি রেখার (Tropic of Cancer) উপর অবস্থিত, যা একে ক্রান্তীয় অঞ্চলের অন্তর্ভুক্ত করেছে। 'মৌসুমি' শব্দটি এসেছে আরবি 'মওসিম' থেকে, যার অর্থ ঋতু। বাংলাদেশের জলবায়ুর প্রধান নিয়ন্ত্রক হলো দক্ষিণ-পশ্চিম মৌসুমি বায়ু এবং উত্তর-পূর্ব মৌসুমি বায়ু। গ্রীষ্মকালে (জুন-অক্টোবর) বঙ্গোপসাগর থেকে আগত আর্দ্র দক্ষিণ-পশ্চিম মৌসুমি বায়ুর প্রভাবে প্রচুর বৃষ্টিপাত হয় (বর্ষাকাল)। শীতকালে (নভেম্বর-ফেব্রুয়ারি) স্থলভাগ থেকে আগত শুষ্ক উত্তর-পূর্ব মৌসুমি বায়ুর প্রভাবে আবহাওয়া শুষ্ক ও শীতল থাকে। এই ঋতুভিত্তিক বায়ুপ্রবাহের কারণেই একে 'ক্রান্তীয় মৌসুমি জলবায়ু' বলা হয়।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330308,
+    "question": "কোন রংয়ের কাপে চা বেশী সময় গরম থাকে?",
+    "options": [
+      "সাদা",
+      "কালো",
+      "নীল",
+      "সকল রংয়ের কাপে সমান"
+    ],
+    "correct_answer": "সাদা",
+    "explanation": "📖 কালো বা গাঢ় রঙের বস্তু তাপ শোষণ যেমন বেশি করে, তেমনি তাপ বিকিরণও বেশি করে। অন্যদিকে, সাদা বা হালকা রঙের বস্তু তাপ শোষণ কম করে এবং তাপ বিকিরণও কম করে। তাই সাদা রঙের কাপ কালো কাপের তুলনায় ধীরে ধীরে তাপ বিকিরণ করবে, ফলে চা বেশি সময় গরম থাকবে।<br/>▣ পদার্থবিজ্ঞানের সূত্র অনুযায়ী, যে বস্তু যত ভালো তাপ শোষক (absorber), সে তত ভালো তাপ বিকিরকও (emitter)। একটি কালো বস্তু প্রায় সমস্ত আলোকরশ্মি শোষণ করে, তাই এটি দ্রুত গরম হয়। একই কারণে, এটি তাপ শক্তি বিকিরণও করে সবচেয়ে দ্রুত। অন্যদিকে, একটি সাদা বস্তু প্রায় সমস্ত আলোকরশ্মি প্রতিফলিত করে, তাই এটি একটি দুর্বল তাপ শোষক। ফলস্বরূপ, এটি তাপ বিকিরণও করে খুব ধীরে। তাই গরম চা সাদা কাপে রাখলে তা কালো কাপের তুলনায় ধীরে তাপ হারাবে এবং বেশিক্ষণ গরম থাকবে।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330309,
+    "question": "প্রজন্ম “জেড” কারা?",
+    "options": [
+      "১৯৯৭-২০১২ সালে জন্মগ্রহণকারী প্রজন্ম",
+      "১৯৯৭-২০১১ সালে জন্মগ্রহণকারী প্রজন্ম",
+      "১৯৯৮-২০১২ সালে জন্মগ্রহণকারী প্রজন্ম",
+      "১৯৯৯-২০১১ সালে জন্মগ্রহণকারী প্রজন্ম"
+    ],
+    "correct_answer": "১৯৯৭-২০১২ সালে জন্মগ্রহণকারী প্রজন্ম",
+    "explanation": "📖 প্রজন্ম জেড (Generation Z বা Gen Z) বলতে সাধারণত সেই জনগোষ্ঠীকে বোঝানো হয় যাদের জন্ম ১৯৯০-এর দশকের মাঝামাঝি থেকে ২০১০-এর দশকের শুরুর দিকে। বিভিন্ন গবেষণা প্রতিষ্ঠান ভিন্ন ভিন্ন সময়সীমা ব্যবহার করলেও, পিউ রিসার্চ সেন্টারের মতে, ১৯৯৭ থেকে ২০১২ সালের মধ্যে জন্মগ্রহণকারীরাই হলো জেন জি।<br/>▣ প্রজন্ম জেড (Gen Z) হলো প্রথম প্রজন্ম যারা শৈশব থেকেই ইন্টারনেট, স্মার্টফোন এবং সোশ্যাল মিডিয়ার জগতে বড় হয়েছে, তাই তাদের 'ডিজিটাল নেটিভ' (Digital Natives) বলা হয়। তারা প্রযুক্তিগতভাবে অত্যন্ত দক্ষ, বৈচিত্র্যের প্রতি সহনশীল এবং সামাজিক ও পরিবেশগত বিষয়ে অনেক বেশি সচেতন। তাদের পূর্ববর্তী প্রজন্ম হলো মিলেনিয়ালস (Millennials, জন্ম ১৯৮১-১৯৯৬) এবং পরবর্তী প্রজন্ম হলো জেনারেশন আলফা (Gen Alpha, জন্ম ২০১৩-২০২৫)।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330310,
+    "question": "কোন সম্মেলনের মাধ্যমে NAM (Non Aligned Movement) এর সূচনা হয়?",
+    "options": [
+      "নয়াদিল্লি, ভারত",
+      "বান্দুং, ইন্দোনেশিয়া",
+      "কায়রো, মিশর",
+      "মস্কো, রাশিয়া"
+    ],
+    "correct_answer": "বান্দুং, ইন্দোনেশিয়া",
+    "explanation": "📖 ১৯৫৫ সালে ইন্দোনেশিয়ার বান্দুং-এ অনুষ্ঠিত আফ্রো-এশীয় সম্মেলনকে জোট নিরপেক্ষ আন্দোলন (NAM)-এর সূচনাবিন্দু হিসেবে বিবেচনা করা হয়। এই সম্মেলনেই জোট নিরপেক্ষতার ধারণাটি প্রথম প্রাতিষ্ঠানিক রূপ পায়। পরবর্তীতে ১৯৬১ সালে বেলগ্রেডে প্রথম আনুষ্ঠানিক শীর্ষ সম্মেলনের মাধ্যমে NAM যাত্রা শুরু করে।<br/>▣ বান্দুং সম্মেলনকে জোট নিরপেক্ষ আন্দোলনের (NAM) আধ্যাত্মিক জন্মস্থান বলা হয়। এই সম্মেলনে এশিয়া ও আফ্রিকার ২৯টি সদ্য স্বাধীন দেশ একত্রিত হয়ে ঔপনিবেশিকতা এবং মার্কিন যুক্তরাষ্ট্র ও সোভিয়েত ইউনিয়ন—এই দুই পরাশক্তির স্নায়ুযুদ্ধের রাজনীতির বিরুদ্ধে নিজেদের অবস্থান ঘোষণা করে। যদিও NAM আনুষ্ঠানিকভাবে প্রতিষ্ঠিত হয় ১৯৬১ সালে যুগোস্লাভিয়ার বেলগ্রেডে, কিন্তু এর মূল নীতি ও আদর্শ (যেমন: পারস্পরিক সম্মান, আগ্রাসন থেকে বিরত থাকা, অভ্যন্তরীণ বিষয়ে হস্তক্ষেপ না করা) বান্দুং সম্মেলনেই নির্ধারিত হয়েছিল।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330311,
+    "question": "বাংলার সর্বপ্রাচীন জনপদের নাম কি?",
+    "options": [
+      "পুণ্ড্র",
+      "তাম্রলিপি",
+      "গৌড়",
+      "হরিকেল"
+    ],
+    "correct_answer": "পুণ্ড্র",
+    "explanation": "📖 পুণ্ড্র হলো বাংলার সর্বপ্রাচীন জনপদ। এর রাজধানী ছিল পুণ্ড্রনগর, যা বর্তমান বগুড়া জেলার মহাস্থানগড় বলে পরিচিত। মৌর্য যুগ থেকেই এর অস্তিত্বের প্রমাণ পাওয়া যায়।<br/>▣ প্রত্নতাত্ত্বিক নিদর্শন ও প্রাচীন লিপির ভিত্তিতে পুণ্ড্রকে বাংলার সবচেয়ে প্রাচীন জনপদ হিসেবে চিহ্নিত করা হয়। খ্রিস্টপূর্ব ৩য় শতকে মৌর্য সম্রাট অশোকের শিলালিপিতে (মহাস্থান ব্রাহ্মী লিপি) 'পুণ্ড্রনগর'-এর উল্লেখ পাওয়া যায়, যা এর প্রাচীনত্বের সবচেয়ে শক্তিশালী প্রমাণ। এই জনপদটি উত্তরবঙ্গের বগুড়া, রংপুর, রাজশাহী ও দিনাজপুর অঞ্চল নিয়ে গঠিত ছিল। এর রাজধানী পুণ্ড্রনগর (বর্তমান মহাস্থানগড়) ছিল একটি অত্যন্ত সমৃদ্ধ নগরী ও প্রাদেশিক প্রশাসনিক কেন্দ্র।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330312,
+    "question": "কোন আন্তর্জাতিক চুক্তি বাংলাদেশকে জলবায়ু অভিযোজন/ কূটনীতি (Climate Diplomacy) সংক্রান্ত তহবিল পেতে সাহায্য করে?",
+    "options": [
+      "প্যারিস চুক্তি",
+      "ন্যাটো",
+      "G-7 সম্মেলন",
+      "ASEAN"
+    ],
+    "correct_answer": "প্যারিস চুক্তি",
+    "explanation": "📖 ২০১৫ সালের প্যারিস জলবায়ু চুক্তি একটি যুগান্তকারী আন্তর্জাতিক চুক্তি, যার লক্ষ্য বৈশ্বিক উষ্ণায়ন মোকাবেলা করা। এই চুক্তির আওতায় উন্নত দেশগুলো জলবায়ু পরিবর্তনের কারণে ক্ষতিগ্রস্ত ও ঝুঁকিপূর্ণ উন্নয়নশীল দেশগুলোকে (যেমন বাংলাদেশ) অভিযোজন ও প্রশমনের জন্য আর্থিক ও প্রযুক্তিগত সহায়তা প্রদানে প্রতিশ্রুতিবদ্ধ।<br/>▣ প্যারিস চুক্তি (Paris Agreement) একটি আইনিভাবে বাধ্যতামূলক আন্তর্জাতিক চুক্তি যা জলবায়ু পরিবর্তন মোকাবেলায় কাজ করে। এর অন্যতম প্রধান স্তম্ভ হলো 'জলবায়ু অর্থায়ন' (Climate Finance)। এই চুক্তির অধীনে, উন্নত দেশগুলো সম্মিলিতভাবে ২০২০ সাল থেকে প্রতি বছর ১০০ বিলিয়ন ডলার উন্নয়নশীল দেশগুলোকে দেওয়ার প্রতিশ্রুতি দিয়েছে, যাতে তারা গ্রিনহাউস গ্যাস নির্গমন কমাতে (mitigation) এবং জলবায়ু পরিবর্তনের প্রভাবের সাথে খাপ খাওয়াতে (adaptation) পারে। বাংলাদেশ জলবায়ু পরিবর্তনের কারণে বিশ্বের অন্যতম ঝুঁকিপূর্ণ দেশ হওয়ায়, এই চুক্তির আওতায় গ্রিন ক্লাইমেট ফান্ড (GCF) এবং অন্যান্য তহবিল থেকে আর্থিক সহায়তা পাওয়ার অন্যতম দাবিদার।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330313,
+    "question": "পাকিস্তান গণপরিষদের অধিবেশনে বাংলাকে রাষ্ট্রভাষা করার প্রথম দাবি কে উত্থাপন করেন?",
+    "options": [
+      "আবদুল মতিন",
+      "শহীদ ধীরেন্দ্রনাথ দত্ত",
+      "শেরে বাংলা এ কে ফজলুল হক",
+      "মাওলানা ভাষানী"
+    ],
+    "correct_answer": "শহীদ ধীরেন্দ্রনাথ দত্ত",
+    "explanation": "📖 ১৯৪৮ সালের ২৫ ফেব্রুয়ারি পাকিস্তান গণপরিষদের অধিবেশনে কুমিল্লার সদস্য ধীরেন্দ্রনাথ দত্ত প্রথম বাংলাকে পাকিস্তানের অন্যতম রাষ্ট্রভাষা করার দাবি উত্থাপন করেন।<br/>▣ পাকিস্তান সৃষ্টির পর করাচিতে অনুষ্ঠিত গণপরিষদের প্রথম অধিবেশনগুলোতে উর্দু ও ইংরেজিকে পরিষদের ভাষা হিসেবে নির্ধারণ করা হয়। এর প্রতিবাদে, ১৯৪৮ সালের ২৫ ফেব্রুয়ারি, পূর্ব বাংলার প্রতিনিধি ধীরেন্দ্রনাথ দত্ত একটি সংশোধনী প্রস্তাব উত্থাপন করে বলেন যে, পাকিস্তানের অধিকাংশ মানুষের ভাষা বাংলা হওয়ায় উর্দু ও ইংরেজির পাশাপাশি বাংলাকেও গণপরিষদের ভাষা হিসেবে গ্রহণ করা হোক। কিন্তু প্রধানমন্ত্রী লিয়াকত আলী খানসহ মুসলিম লীগের সদস্যরা এই প্রস্তাবের তীব্র বিরোধিতা করেন এবং এটি বাতিল হয়ে যায়। ধীরেন্দ্রনাথ দত্তের এই সাহসী পদক্ষেপই ছিল ভাষা আন্দোলনের আনুষ্ঠানিক সূচনা।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330314,
+    "question": "নীল নদের পানি নিয়ে দ্বন্দ্ব কোন দুই দেশের?",
+    "options": [
+      "মিশর ও ইথিওপিয়া",
+      "সোমালিয়া ও মিশর",
+      "কেনিয়া ও তানজানিয়া",
+      "লিবিয়া ও উগান্ডা"
+    ],
+    "correct_answer": "মিশর ও ইথিওপিয়া",
+    "explanation": "📖 নীল নদের পানির বণ্টন নিয়ে মূলত ভাটির দেশ মিশর ও সুদান এবং উজানের দেশ ইথিওপিয়ার মধ্যে দীর্ঘদিনের বিরোধ রয়েছে। ইথিওপিয়া কর্তৃক ব্লু নীলের উপর 'গ্র্যান্ড ইথিওপিয়ান রেনেসাঁ ড্যাম' (GERD) নির্মাণ এই দ্বন্দ্বকে আরও তীব্র করেছে।<br/>▣ নীল নদের দুটি প্রধান উৎস— শ্বেত নীল ও নীলাভ নীল (Blue Nile)। এর পানির প্রায় ৮৫% আসে ইথিওপিয়ার উচ্চভূমি থেকে প্রবাহিত নীলাভ নীল নদ থেকে। মিশর তার পানির প্রয়োজনের প্রায় ৯৭% এর জন্য নীল নদের উপর নির্ভরশীল। ইথিওপিয়া বিদ্যুৎ উৎপাদনের জন্য নীলাভ নীলের উপর বিশাল 'গ্র্যান্ড ইথিওপিয়ান রেনেসাঁ ড্যাম' (GERD) নির্মাণ করেছে। মিশরের আশঙ্কা, এই বাঁধের কারণে তাদের দিকে প্রবাহিত পানির পরিমাণ মারাত্মকভাবে কমে যাবে, যা দেশটির কৃষি ও জীবনযাত্রায় ভয়াবহ প্রভাব ফেলবে। এই নিয়েই দেশ দুটির মধ্যে তীব্র কূটনৈতিক উত্তেজনা বিরাজ করছে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330315,
+    "question": "সোমপুর মহাবিহার বাংলার কোন শাসন আমলের স্থাপত্য কীর্তির নিদর্শন?",
+    "options": [
+      "মৌর্য",
+      "পাল",
+      "গুপ্ত",
+      "চন্দ্র"
+    ],
+    "correct_answer": "পাল",
+    "explanation": "📖 সোমপুর মহাবিহার (বর্তমানে পাহাড়পুর বৌদ্ধবিহার নামে পরিচিত) নওগাঁ জেলায় অবস্থিত। এটি পাল বংশের দ্বিতীয় রাজা ধর্মপাল (আনুমানিক ৭৮১-৮২১ খ্রি.) নির্মাণ করেন। এটি ইউনেস্কো বিশ্ব ঐতিহ্যবাহী স্থানের অন্তর্ভুক্ত।<br/>▣ সোমপুর মহাবিহার ছিল প্রাচীন বাংলার অন্যতম শ্রেষ্ঠ বৌদ্ধ শিক্ষা কেন্দ্র। এটি প্রায় ৩০০ বছর ধরে বৌদ্ধধর্মের মহাযান শাখার দর্শন, যুক্তিবিদ্যা, চিকিৎসাশাস্ত্র ইত্যাদি বিষয়ে জ্ঞানচর্চার একটি গুরুত্বপূর্ণ কেন্দ্র ছিল। এর স্থাপত্যশৈলী অনন্য, যা পরবর্তীতে মায়ানমার ও ইন্দোনেশিয়ার স্থাপত্যকে প্রভাবিত করেছিল। ১৯৮৫ সালে ইউনেস্কো এটিকে বিশ্ব ঐতিহ্যবাহী স্থান (World Heritage Site) হিসেবে ঘোষণা করে, যা এর আন্তর্জাতিক গুরুত্বকে স্বীকৃতি দেয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330316,
+    "question": "বাংলাদেশের ধান গবেষণা ইনস্টিটিউট মোট কয়টি উচ্চ ফলনশীল ধানের উদ্ভাবন করেছে?",
+    "options": [
+      "১৩৩ টি",
+      "১২৬ টি",
+      "১২১ টি",
+      "১০১ টি"
+    ],
+    "correct_answer": "১২১ টি",
+    "explanation": "📖 বাংলাদেশ ধান গবেষণা ইনস্টিটিউট (BRRI) একটি রাষ্ট্রীয় গবেষণা প্রতিষ্ঠান যা ধানের জাত উন্নয়ন ও সংশ্লিষ্ট প্রযুক্তি উদ্ভাবনে কাজ করে। ১৯৭০ সালে প্রতিষ্ঠার পর থেকে এই প্রতিষ্ঠানটি বিভিন্ন পরিবেশ ও মৌসুমের উপযোগী (যেমন: আউশ, আমন, বোরো), খরা ও লবণাক্ততা সহনশীল, এবং জিংক সমৃদ্ধসহ নানা বৈশিষ্ট্যসম্পন্ন শতাধিক উচ্চ ফলনশীল ধানের জাত উদ্ভাবন করেছে। <br/>❏ বাংলাদেশ ধান গবেষণা ইনস্টিটিউট (BRRI) প্রতিষ্ঠার পর থেকে ২০২৫ সালের তথ্য অনুযায়ী ১২১টিরও বেশি উচ্চ ফলনশীল (উফশী) ধানের জাত উদ্ভাবন করেছে, যা দেশের খাদ্য নিরাপত্তায় গুরুত্বপূর্ণ ভূমিকা রাখছে। <br/>❏ বাংলাদেশ ধান গবেষণা ইনস্টিটিউটে উদ্ভাবিত ১১৪টি জাত রয়েছে। নতুন এই ৮টি জাত পর এ সংখ্যা দাঁড়াবে ১২১টিতে।<br/>বাংলাদেশ ধান গবেষণা ইনস্টিটিউট (ব্রি) ধানের আরও তিনটি নতুন জাত উদ্ভাবন করেছে। এর মধ্যে একটি লবণাক্ততা সহনশীল, একটি উচ্চফলনশীল বোরো এবং অন্যটি ব্লাস্ট রোগ প্রতিরোধী। এ নিয়ে ব্রি আটটি উচ্চফলনশীল বা হাইব্রিড জাতসহ মোট ১২১টি ধানের জাত উদ্ভাবন করেছে। <br/>❏ নতুন উদ্ভাবিত জাত হলো; <br/>❏ <br/><br/>❏ লবণাক্ততা সহনশীল ব্রি-১১২, <br/>❏ উচ্চফলনশীল বোরো ব্রি-১১৩ <br/>❏ ব্লাস্ট রোগ প্রতিরোধী ব্রি-১১৪। <br/>❏ ব্রিধান-১১৫ ➝ ভিটামিন ই সমৃদ্ধ (১৫ পিপিএম) <br/>❏ ব্রিধান-১১৬ ➝ ব্যাক্টেরিয়াল ব্লাইট সহনশীল জাত<br/>❏ ব্রিধান-১১৭ ➝ অতিমাত্রায় লবণাক্ত সহনশীল জাত<br/>❏ ব্রিধান-১১৮ ➝ হাওর অঞ্চলের জন্যে,শীতল সহনশীল<br/>❏ ব্রিধান-১১৯ ➝ দীর্ঘ জীবনকাল (প্রায় ১৬০ দিন)",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330317,
+    "question": "আলুর একটি জাতের নাম-",
+    "options": [
+      "ডায়মন্ড",
+      "রূপালী",
+      "ড্রামহেড",
+      "ব্রিশাইল"
+    ],
+    "correct_answer": "ডায়মন্ড",
+    "explanation": "📖 ডায়মন্ড আলুর একটি বহুল প্রচলিত এবং উচ্চ ফলনশীল জাত। রূপালী হলো ইলিশ মাছের একটি জাত, ড্রামহেড বাঁধাকপির জাত এবং ব্রিশাইল (BRRI-শাইল) হলো বাংলাদেশ ধান গবেষণা ইনস্টিটিউট (BRRI) উদ্ভাবিত ধানের জাত।<br/>▣ প্রতিটি বিকল্প একটি নির্দিষ্ট কৃষি বা মৎস্য পণ্যের জাতকে নির্দেশ করে। 'ডায়মন্ড' নেদারল্যান্ডস থেকে আগত একটি জনপ্রিয় আলুর জাত যা বাংলাদেশে ব্যাপকভাবে চাষ হয়। 'রূপালী' ইলিশের একটি বিখ্যাত জাত, যা স্বাদের জন্য পরিচিত। 'ড্রামহেড' একটি জনপ্রিয় বাঁধাকপির জাত, যা তার বড় ও গোলাকার মাথার জন্য পরিচিত। 'ব্রিশাইল' হলো BRRI (বাংলাদেশ ধান গবেষণা ইনস্টিটিউট) কর্তৃক উদ্ভাবিত আমন মৌসুমের একটি ধানের জাতের নাম।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330318,
+    "question": "বিশ্ব মানবাধিকার দিবসটি কবে পালিত হয়?",
+    "options": [
+      "২৬ জুন",
+      "১ আগস্ট",
+      "১ মে",
+      "১০ ডিসেম্বর"
+    ],
+    "correct_answer": "১০ ডিসেম্বর",
+    "explanation": "📖 ১৯৪৮ সালের ১০ ডিসেম্বর জাতিসংঘের সাধারণ পরিষদে মানবাধিকারের সর্বজনীন ঘোষণাপত্র গৃহীত হয়। এই দিনটিকে স্মরণীয় করে রাখতে প্রতি বছর ১০ ডিসেম্বর বিশ্ব মানবাধিকার দিবস হিসেবে পালন করা হয়।<br/>▣ দ্বিতীয় বিশ্বযুদ্ধের ভয়াবহতা প্রত্যক্ষ করার পর বিশ্ব নেতারা মানবাধিকারকে সুরক্ষা দেওয়ার জন্য একটি সার্বজনীন দলিল তৈরির প্রয়োজনীয়তা অনুভব করেন। এরই ফলশ্রুতিতে, ১৯৪৮ সালের ১০ ডিসেম্বর প্যারিসে অনুষ্ঠিত জাতিসংঘ সাধারণ পরিষদে 'মানবাধিকারের সর্বজনীন ঘোষণাপত্র' (Universal Declaration of Human Rights - UDHR) গৃহীত হয়। এই ঘোষণাপত্রে ৩০টি ধারায় মানুষের মৌলিক অধিকারগুলোর রূপরেখা দেওয়া হয়েছে। ১৯৫০ সাল থেকে জাতিসংঘ এই দিনটিকে বিশ্ব মানবাধিকার দিবস হিসেবে পালনের জন্য আহ্বান জানায়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330319,
+    "question": "বাংলাদেশের ঘোষিত গ্যাসক্ষেত্রের সংখ্যা কত?",
+    "options": [
+      "৩৭ টি",
+      "৫৭ টি",
+      "৫৯ টি",
+      "২৯ টি"
+    ],
+    "correct_answer": "২৯ টি",
+    "explanation": "📖 বাংলাদেশে এখন পর্যন্ত মোট ২৯টি গ্যাসক্ষেত্র আবিষ্কৃত হয়েছে। সর্বশেষ আবিষ্কৃত গ্যাসক্ষেত্রটি হলো ভোলার ইলিশা-১, যা ২০২৩ সালে ঘোষণা করা হয়।<br/>▣ বাংলাদেশে প্রথম গ্যাসক্ষেত্র আবিষ্কৃত হয় ১৯৫৫ সালে সিলেটের হরিপুরে। এরপর থেকে পর্যায়ক্রমে বিভিন্ন গ্যাসক্ষেত্র আবিষ্কৃত হয়েছে। পেট্রোবাংলার তথ্য অনুযায়ী, দেশে আবিষ্কৃত মোট গ্যাসক্ষেত্রের সংখ্যা ২৯টি। এর মধ্যে কিছু গ্যাসক্ষেত্র থেকে উৎপাদন চালু আছে, কিছু বন্ধ এবং কিছু এখনও অনুৎপাদনশীল। ২০২৩ সালের এপ্রিলে ভোলার ইলিশা-১ কে দেশের ২৯তম গ্যাসক্ষেত্র হিসেবে ঘোষণা করা হয়। এই গ্যাসক্ষেত্রগুলো দেশের জ্বালানি নিরাপত্তার জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330320,
+    "question": "বাংলাদেশ কবে New Development Bank এর সদস্য পদ লাভ করে?",
+    "options": [
+      "২০২১ সালে",
+      "২০২২ সালে",
+      "২০২৩ সালে",
+      "২০২৪ সালে"
+    ],
+    "correct_answer": "২০২১ সালে",
+    "explanation": "📖 NDB (New Development Bank): এর মোট সদস্য ৯টি (কার্যকরী সদস্য- ৭টি) (সর্বশেষ - আলজেরিয়া; ১৯ মে, ২০২৫)। <br/>▣ বাংলাদেশ New Development Bank এর সদস্য পদ লাভ করে ২০ আগস্ট, ২০২১ <br/>❏ ২০ আগষ্টের সভায় বাংলাদেশ সহ আরো যে দুটি দেশ কে NDB এর নতুন সদস্য হিসেবে ঘোষণা করা হয়েছে। দেশ দুটি হলোঃ সংযুক্ত আরব আমিরাত। উরুগুয়ে।<br/>❏ NDB সম্পর্কে কিছু তথ্যঃ <br/>❏ ব্যাংকটি আনুষ্ঠানিকভাবে যাত্রা শুরু করে:২০১৫ সালের জুলাই। <br/>❏ সদর দপ্তর অবস্থিতঃ চীনের,সাংহাই। <br/>❏ ব্যাংকটি গঠন করে যে দেশগুলোঃ ব্রাজিল, রাশিয়া, ভারত, চীন এবং দক্ষিণ আফ্রিকা এই ৫টি দেশের সমন্বয়ে গঠিত হয় জোট \"ব্রিকস\" ( নিউ ডেভেলপমেন্ট ব্যাংক) গঠন করে। <br/>❏ <br/>❏ সদস্য দেশসগুলোঃ ব্রাজিল, রাশিয়া, ভারত, চীন, দক্ষিণ আফ্রিকা, বাংলাদেশ, সংযুক্ত আরব আমিরাত, উরুগুয়ে, আলজেরিয়া । <br/>❏ বিশেষ দ্রষ্টব্যঃ ব্রিকসের সদস্য নয় কিন্তু New Development Bank এর সদস্য এমন ৩টি দেশ হলোঃ ◼বাংলাদেশ, ◼ সংযুক্ত আরব আমিরাত, ◼উরুগুয়ে",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330321,
+    "question": "পপি উৎপাদনকারী কোন দেশটি গোল্ডেন ট্রায়াঙ্গেলের অন্তর্ভুক্ত নয়?",
+    "options": [
+      "কম্বোডিয়া",
+      "লাওস",
+      "থাইল্যান্ড",
+      "মিয়ানমার"
+    ],
+    "correct_answer": "কম্বোডিয়া",
+    "explanation": "📖 গোল্ডেন ট্রায়াঙ্গেল হলো মায়ানমার, লাওস এবং থাইল্যান্ডের সীমান্তবর্তী একটি অঞ্চল, যা বিশ্বের অন্যতম প্রধান আফিম ও পপি উৎপাদনকারী এলাকা হিসেবে পরিচিত। কম্বোডিয়া এই অঞ্চলের অন্তর্ভুক্ত নয়।<br/>▣ 'গোল্ডেন ট্রায়াঙ্গেল' নামটি সিআইএ (CIA) কর্তৃক প্রদত্ত। এটি মায়ানমার, লাওস এবং থাইল্যান্ডের সেই পাহাড়ি সীমান্ত অঞ্চলকে বোঝায় যেখানে এই তিনটি দেশের সীমানা মিলিত হয়েছে। এই অঞ্চলটি দীর্ঘদিন ধরে বিশ্বের বৃহত্তম অবৈধ আফিম উৎপাদনকারী এলাকা ছিল। যদিও বর্তমানে আফগানিস্তান আফিম উৎপাদনে এগিয়ে গেছে, গোল্ডেন ট্রায়াঙ্গেল এখনও হেরোইন এবং বিশেষ করে সিন্থেটিক ড্রাগস (যেমন: মেথামফেটামিন) উৎপাদনের একটি প্রধান কেন্দ্র। কম্বোডিয়া ভৌগোলিকভাবে এই অঞ্চলের সংলগ্ন হলেও 'গোল্ডেন ট্রায়াঙ্গেল'-এর অংশ হিসেবে বিবেচিত হয় না।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330322,
+    "question": "বাংলাদেশের সমতলে সবচেয়ে বেশি জনসংখ্যার কোন নৃ-গোষ্ঠীর বাস?",
+    "options": [
+      "মনিপুরি",
+      "গারো",
+      "সাঁওতাল",
+      "বম"
+    ],
+    "correct_answer": "সাঁওতাল",
+    "explanation": "📖 বাংলাদেশের সমতল ভূমিতে বসবাসকারী নৃ-গোষ্ঠীগুলোর মধ্যে সাঁওতাল জনগোষ্ঠীর জনসংখ্যা সবচেয়ে বেশি। তারা মূলত দেশের উত্তর-পশ্চিমাঞ্চলের রাজশাহী ও দিনাজপুর অঞ্চলে বসবাস করে।<br/>▣ সাঁওতাল <br/>❏ বসবাস- নওগাঁ, দিনাজপুর, ঠাকুরগাঁও ও পঞ্চগড় <br/>❏ বংশধর - অস্ট্রেলীয় <br/>❏ পরিবার- পিতৃতান্ত্রিক <br/>❏ ধর্ম- সনাতন ও খ্রিষ্টান <br/>❏ উৎসব- সোহরা <br/>❏ সাঁওতাল সমাজের মূল ভিত্তি হলো: গ্রাম-পঞ্চায়েত <br/>❏ ঝুমুর, দোন ও ঝিকা হলো: সাঁওতাল নাচ । <br/>❏ সাঁওতালদের গ্রামের প্রধানকে বলা হয়- মাজি। <br/>❏ সাঁওতালি ভাষা বাংলাদেশের কোন অঞ্চলে ব্যবহৃত হয়- রাজশাহী। <br/>❏",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330323,
+    "question": "নিচের কোন কার্যক্রমের সাথে অ্যামনেস্টি ইন্টারন্যাশনালের নাম যুক্ত?",
+    "options": [
+      "প্রাণীর প্রতি নিষ্ঠুরতা রোধ",
+      "পরিবেশ সংরক্ষণ",
+      "মানবাধিকার সংরক্ষণ",
+      "প্রত্ন সম্পদ সংরক্ষণ"
+    ],
+    "correct_answer": "মানবাধিকার সংরক্ষণ",
+    "explanation": "📖 অ্যামনেস্টি ইন্টারন্যাশনাল একটি আন্তর্জাতিক বেসরকারি সংস্থা, যা বিশ্বজুড়ে মানবাধিকার লঙ্ঘনের বিরুদ্ধে কাজ করে এবং মানবাধিকারের সুরক্ষা ও প্রসারের জন্য প্রচারণা চালায়। এর সদর দপ্তর লন্ডনে অবস্থিত।<br/>▣ ১৯৬১ সালে ব্রিটিশ আইনজীবী পিটার বেনেনসন কর্তৃক প্রতিষ্ঠিত এই সংস্থাটি বর্তমানে বিশ্বের অন্যতম প্রভাবশালী মানবাধিকার সংগঠন। এটি কোনো সরকার, রাজনৈতিক মতাদর্শ, অর্থনৈতিক স্বার্থ বা ধর্ম দ্বারা প্রভাবিত নয়। এর মূল কাজ হলো গবেষণা, তথ্য সংগ্রহ এবং অ্যাডভোকেসির মাধ্যমে বিশ্বজুড়ে মানবাধিকার লঙ্ঘন, যেমন—রাজনৈতিক নিপীড়ন, গুম, বিচারবহির্ভূত হত্যাকাণ্ড, এবং মত প্রকাশের স্বাধীনতায় হস্তক্ষেপের বিরুদ্ধে জনমত তৈরি করা ও চাপ সৃষ্টি করা। ১৯৭৭ সালে সংস্থাটি শান্তিতে নোবেল পুরস্কার লাভ করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330324,
+    "question": "বাংলাদেশের প্রথম আদমশুমারি অনুষ্ঠিত হয় কোন সালে?",
+    "options": [
+      "১৯৭২",
+      "১৯৭৩",
+      "১৯৭৪",
+      "১৯৭৬"
+    ],
+    "correct_answer": "১৯৭৪",
+    "explanation": "📖 স্বাধীন বাংলাদেশে প্রথম আদমশুমারি (বর্তমানে জনশুমারি ও গৃহগণনা) অনুষ্ঠিত হয় ১৯৭৪ সালে। এরপর থেকে প্রতি দশ বছর পর পর আদমশুমারি অনুষ্ঠিত হয়ে আসছে (১৯৮১, ১৯৯১, ২০০১, ২০১১, ২০২২)।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330325,
+    "question": "\"নেকড়ে যোদ্ধা কূটনীতি\" কোন দেশের সাথে সংশ্লিষ্ট?",
+    "options": [
+      "ভিয়েতনাম",
+      "উত্তর কোরিয়া",
+      "চীন",
+      "রাশিয়া"
+    ],
+    "correct_answer": "চীন",
+    "explanation": "📖 \"Wolf Warrior Diplomacy\" বা \"নেকড়ে যোদ্ধা কূটনীতি\" হলো চীনের নীতির একটি আক্রমণাত্মক ও আগ্রাসী শৈলী। চীনের কূটনীতিকরা পশ্চিমা দেশগুলোর সমালোচনার বিরুদ্ধে কঠোর ও আক্রমণাত্মক ভাষায় জবাব দেওয়ার নীতি গ্রহণ করলে এই পরিভাষাটি জনপ্রিয় হয়।<br/>▣ এই পরিভাষাটি চীনের জনপ্রিয় দেশাত্মবোধক অ্যাকশন ফিল্ম \"Wolf Warrior\" থেকে উদ্ভূত হয়েছে। শি জিনপিংয়ের শাসনামলে চীনের কূটনীতিকরা পূর্বের রক্ষণাত্মক ও সংযত আচরণের পরিবর্তে অনেক বেশি আক্রমণাত্মক ও প্রকাশ্য confrontational নীতি গ্রহণ করেন। বিশেষ করে টুইটারের মতো সোশ্যাল মিডিয়া প্ল্যাটফর্মে তারা যেকোনো সমালোচনার বিরুদ্ধে অত্যন্ত কঠোর ভাষায় প্রতিক্রিয়া জানাতে শুরু করেন। এই নতুন ধারার কূটনীতিকেই \"নেকড়ে যোদ্ধা কূটনীতি\" হিসেবে আখ্যায়িত করা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330326,
+    "question": "বাংলাদেশের প্রথম জাতীয় সংসদ নির্বাচন কবে অনুষ্ঠিত হয়?",
+    "options": [
+      "৭ ফেব্রুয়ারি ১৯৭৩",
+      "৭ জানুয়ারি ১৯৭৩",
+      "৭ মার্চ ১৯৭৩",
+      "৭ এপ্রিল ১৯৭৩"
+    ],
+    "correct_answer": "৭ মার্চ ১৯৭৩",
+    "explanation": "📖 স্বাধীন বাংলাদেশের প্রথম জাতীয় সংসদ নির্বাচন অনুষ্ঠিত হয় ১৯৭৩ সালের ৭ মার্চ। এই নির্বাচনে বঙ্গবন্ধু শেখ মুজিবুর রহমানের নেতৃত্বে বাংলাদেশ আওয়ামী লীগ ৩০০টি আসনের মধ্যে ২৯৩টি আসন লাভ করে নিরঙ্কুশ সংখ্যাগরিষ্ঠতা অর্জন করে।<br/>▣ ১৯৭২ সালের ৪ নভেম্বর বাংলাদেশের সংবিধান গৃহীত হওয়ার পর, সেই সংবিধানের অধীনে একটি গণতান্ত্রিক সরকার প্রতিষ্ঠার লক্ষ্যে এই নির্বাচন অনুষ্ঠিত হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330327,
+    "question": "পলাশীর যুদ্ধ কবে হয়েছিল?",
+    "options": [
+      "২২ জুন ১৭৫৭",
+      "২৪ জুন ১৭৫৭",
+      "২৩ জুন ১৭৫৭",
+      "২৫ জুন ১৭৫৭"
+    ],
+    "correct_answer": "২৩ জুন ১৭৫৭",
+    "explanation": "📖 ১৭৫৭ সালের ২৩ জুন পলাশীর আম্রকাননে বাংলার শেষ স্বাধীন নবাব সিরাজউদ্দৌলার সাথে ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির ক্লাইভের নেতৃত্বে এক যুদ্ধ সংঘটিত হয়। এই যুদ্ধে বিশ্বাসঘাতকতার কারণে নবাব পরাজিত হন এবং বাংলায় ব্রিটিশ শাসনের সূচনা হয়।<br/>▣ পলাশীর যুদ্ধকে একটি যুদ্ধ না বলে ষড়যন্ত্রমূলক প্রহসন বলা হয়। মুর্শিদাবাদ থেকে প্রায় ২৭ মাইল দক্ষিণে ভাগীরথী নদীর তীরে পলাশীর প্রান্তরে এই যুদ্ধ সংঘটিত হয়। নবাবের পক্ষে প্রায় ৫০,০০০ সৈন্য থাকলেও, প্রধান সেনাপতি মীরজাফর, রায়দুর্লভ এবং ইয়ার লতিফ খানের বিশ্বাসঘাতকতার কারণে সেনাবাহিনীর একটি বিশাল অংশ যুদ্ধে নিষ্ক্রিয় থাকে। মীর মদন ও মোহনলালের নেতৃত্বে একটি ক্ষুদ্র অংশ বীরত্বের সাথে যুদ্ধ করলেও তারা পরাজিত ও নিহত হন। এই যুদ্ধের ফলে বাংলায় প্রায় ২০০ বছরের ব্রিটিশ ঔপনিবেশিক শাসনের ভিত্তি স্থাপিত হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330328,
+    "question": "ঢাকা গেটের নির্মাতা কে?",
+    "options": [
+      "শায়েস্তা খান",
+      "মীর জুমলা",
+      "আবদুল গনি",
+      "লর্ড কার্জন"
+    ],
+    "correct_answer": "মীর জুমলা",
+    "explanation": "📖 ঢাকা গেট, যা মীর জুমলার গেট নামেও পরিচিত, মুঘল আমলে নির্মিত হয়েছিল। ধারণা করা হয়, মুঘল সুবাদার মীর জুমলা ১৬৬০-১৬৬৩ সালের মধ্যে ঢাকার সীমানা চিহ্নিত করতে এবং স্থলপথে শত্রুদের আক্রমণ থেকে শহরকে রক্ষা করতে এই গেটটি নির্মাণ করেন।<br/>▣ বর্তমানে ঢাকা বিশ্ববিদ্যালয় এলাকায় অবস্থিত এই ঐতিহাসিক স্থাপনাটি 'মীর জুমলার গেট' নামেই সর্বাধিক পরিচিত। এর নির্মাণকাল নিয়ে ঐতিহাসিকদের মধ্যে কিছুটা ভিন্নমত থাকলেও, অধিকাংশের মতে এটি সুবাদার মীর জুমলা নির্মাণ করেন। এর মূল উদ্দেশ্য ছিল উত্তর দিক থেকে মগ ও পর্তুগিজ জলদস্যুদের সম্ভাব্য আক্রমণ থেকে রাজধানী ঢাকাকে রক্ষা করা এবং শহরের সীমানা নির্ধারণ করা। পরবর্তীকালে ব্রিটিশ ম্যাজিস্ট্রেট চার্লস ডস এটিকে সংস্কার করেন বলে এটি 'রমনা গেট' বা 'ড'স গেট' নামেও পরিচিতি পায়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330329,
+    "question": "জাতিসংঘ সাধারণ পরিষদে এ পর্যন্ত কতজন নারী সভাপতিত্ব করেছেন?",
+    "options": [
+      "৫ জন",
+      "৯ জন",
+      "১১ জন",
+      "৭ জন"
+    ],
+    "correct_answer": "৫ জন",
+    "explanation": "📖 জাতিসংঘ সাধারণ পরিষদে এ পর্যন্ত ৫ জন নারী সভাপতিত্ব করেছেন। তারা হলেন: <br/>❏ ১. বিজয়া লক্ষ্মী পণ্ডিত (ভারত) - ১৯৫৩ সালের অষ্টম অধিবেশন<br/>❏ ২. অ্যাঞ্জেলা কিং (লাইবেরিয়া) - ১৯৬৯ সালের ২৪তম অধিবেশন<br/>❏ ৩. লুসিয়ানি মার্সেডেস (ডোমিনিকান প্রজাতন্ত্র) - ১৯৮৩ সালের ৩৮তম অধিবেশন<br/>❏ ৪. হাজা আলাসানে (গাম্বিয়া) - ১৯৯৯ সালের ৫৪তম অধিবেশন<br/>❏ ৫. মারিয়া ফার্নান্দা এস্পিনোসা (ইকুয়েডর) - ২০১৮ সালের ৭৩তম অধিবেশন",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330330,
+    "question": "'Semptember on Jessore Road' কবিতাটির রচয়িতা--",
+    "options": [
+      "জর্জ হ্যারিসন",
+      "মাইকেল জ্যাকসন",
+      "অ্যালেন গিন্সবার্গ",
+      "বব ডিলান"
+    ],
+    "correct_answer": "অ্যালেন গিন্সবার্গ",
+    "explanation": "📖 'September on Jessore Road' কবিতাটি আমেরিকার বিখ্যাত 'বিট জেনারেশন' এর কবি অ্যালেন গিন্সবার্গ রচনা করেন। ১৯৭১ সালে বাংলাদেশের মুক্তিযুদ্ধের সময় তিনি ভারতে অবস্থিত শরণার্থী শিবিরগুলো পরিদর্শন করেন এবং শরণার্থীদের অবর্ণনীয় দুঃখ-দুর্দশা দেখে এই দীর্ঘ কবিতাটি লেখেন।<br/>▣ অ্যালেন গিন্সবার্গ ১৯৭১ সালের সেপ্টেম্বরে পশ্চিমবঙ্গের যশোর রোড সংলগ্ন বাংলাদেশি শরণার্থী শিবিরগুলো পরিদর্শন করেন। লক্ষ লক্ষ শরণার্থীর অবর্ণনীয় কষ্ট, ক্ষুধা, রোগ এবং মৃত্যু তাঁকে গভীরভাবে ব্যথিত করে। এই অভিজ্ঞতার ভিত্তিতে তিনি ১৫২ লাইনের দীর্ঘ কবিতাটি রচনা করেন, যা নিউ ইয়র্ক টাইমস ম্যাগাজিনে প্রকাশিত হয়। পরবর্তীতে তিনি এই কবিতাকে গানে রূপান্তর করেন এবং বিভিন্ন কনসার্টে গেয়ে মুক্তিযুদ্ধের পক্ষে বিশ্ব জনমত গঠনে সহায়তা করেন। জর্জ হ্যারিসন ও বব ডিলান 'কনসার্ট ফর বাংলাদেশ'-এর মাধ্যমে সহায়তা করেছিলেন, কিন্তু এই নির্দিষ্ট কবিতাটি গিন্সবার্গের রচনা।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330331,
+    "question": "একটি বড় মাপের ভূমিকম্পের পর কী ঘটার সম্ভাবনা থাকে?",
+    "options": [
+      "জলোচ্ছ্বাস",
+      "বন্যা",
+      "ঘূর্ণিঝড়",
+      "সুনামি"
+    ],
+    "correct_answer": "সুনামি",
+    "explanation": "📖 সমুদ্রের তলদেশে বড় ধরনের ভূমিকম্প বা আগ্নেয়গিরির অগ্ন্যুৎপাতের ফলে সমুদ্রের পানিতে যে বিশাল আকারের ঢেউ সৃষ্টি হয়, তাকে সুনামি বলে। এই ঢেউ উপকূলে এসে ভয়াবহ ধ্বংসযজ্ঞ ঘটায়।<br/>▣ সুনামি (Tsunami) একটি জাপানি শব্দ, যার অর্থ 'পোতাশ্রয়ের ঢেউ' (harbour wave)। যখন সমুদ্রের তলদেশে টেকটোনিক প্লেটের আকস্মিক সঞ্চালনের কারণে বড় মাত্রার ভূমিকম্প (সাধারণত ৭.৫ রিখটারের বেশি) হয়, তখন বিপুল পরিমাণ পানি স্থানচ্যুত হয়। এই স্থানচ্যুত পানি চারিদিকে গতিতে (ঘণ্টায় প্রায় ৮০০ কিমি) ছড়িয়ে পড়ে এবং উপকূলে এসে বিশাল উচ্চতার ঢেউ হিসেবে আছড়ে পড়ে। ২০০৪ সালের ভারত মহাসাগরের সুনামি এবং ২০১১ সালের জাপানের তোহোকু অঞ্চলের সুনামি এর ভয়াবহ উদাহরণ। জলোচ্ছ্বাস সাধারণত ঘূর্ণিঝড়ের কারণে ঘটে, বন্যার কারণ অতিবৃষ্টি বা নদীর পানি বৃদ্ধি, এবং ঘূর্ণিঝড় একটি বায়ুমণ্ডলীয় দুর্যোগ।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330332,
+    "question": "বাংলাদেশের প্রধান বীজ উৎপাদনকারী সরকারি প্রতিষ্ঠান-",
+    "options": [
+      "BARI",
+      "BRRI",
+      "BADC",
+      "BINA"
+    ],
+    "correct_answer": "BADC",
+    "explanation": "📖 BADC (Bangladesh Agricultural Development Corporation) বা বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন হলো বাংলাদেশের প্রধান সরকারি বীজ উৎপাদন, সংগ্রহ, সংরক্ষণ এবং বিতরণকারী প্রতিষ্ঠান। BARI (কৃষি গবেষণা ইনস্টিটিউট), BRRI (ধান গবেষণা ইনস্টিটিউট) এবং BINA (পরমাণু কৃষি গবেষণা ইনস্টিটিউট) মূলত গবেষণা ও নতুন জাত উদ্ভাবনের কাজ করে।<br/>▣ এই প্রতিষ্ঠানগুলোর কার্যক্রমে সুস্পষ্ট পার্থক্য রয়েছে। BARI (Bangladesh Agricultural Research Institute), BRRI (Bangladesh Rice Research Institute) এবং BINA (Bangladesh Institute of Nuclear Agriculture) হলো গবেষণা প্রতিষ্ঠান। তাদের মূল কাজ হলো বিভিন্ন ফসলের (যেমন: ধান, গম, ডাল, তেলবীজ) উচ্চ ফলনশীল ও উন্নত জাত উদ্ভাবন করা। অন্যদিকে, BADC একটি উন্নয়ন ও সেবা প্রদানকারী সংস্থা। এর প্রধান দায়িত্ব হলো গবেষকদের উদ্ভাবিত বীজকে ভিত্তি বীজ (foundation seed) থেকে প্রত্যায়িত বীজ (certified seed) হিসেবে বিপুল পরিমাণে উৎপাদন করা এবং তা সারা দেশের কৃষকদের কাছে পৌঁছে দেওয়া। এছাড়াও সার ও সেচ ব্যবস্থাপনার দায়িত্বও BADC পালন করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330333,
+    "question": "ঢাকায় প্রথম শহীদ মিনার তৈরি হয়-",
+    "options": [
+      "২২ ফেব্রুয়ারি ১৯৫২",
+      "২৩ ফেব্রুয়ারি ১৯৫২",
+      "২৪ ফেব্রুয়ারি ১৯৫২",
+      "২৫ ফেব্রুয়ারি ১৯৫২"
+    ],
+    "correct_answer": "২৩ ফেব্রুয়ারি ১৯৫২",
+    "explanation": "📖 ১৯৫২ সালের ২১শে ফেব্রুয়ারির হত্যাকাণ্ডের পর ২২ ফেব্রুয়ারি রাতে ঢাকা মেডিকেল কলেজের ছাত্ররা একটি শহীদ মিনার তৈরির কাজ শুরু করেন এবং ২৩ ফেব্রুয়ারি ভোরে এর নির্মাণ কাজ শেষ হয়। এটিই ছিল প্রথম শহীদ মিনার।<br/>▣ ২১শে ফেব্রুয়ারির গুলির ঘটনার পর সমগ্র ঢাকা বিক্ষোভে ফেটে পড়ে। ২২ ফেব্রুয়ারি রাতে ঢাকা মেডিকেল কলেজের ছাত্ররা স্বতঃস্ফূর্তভাবে একটি স্মৃতিস্তম্ভ নির্মাণের সিদ্ধান্ত নেন। ছাত্রনেতা গোলাম মাওলা ও অন্যান্যদের তত্ত্বাবধানে এবং নকশা অনুযায়ী (বদরুল আলম ও সাঈদ হায়দারের পরিকল্পনায়) ছাত্ররা সারারাত কাজ করে ২৩ ফেব্রুয়ারি ভোরে প্রায় ১০ ফুট উঁচু এবং ৬ ফুট চওড়া একটি মিনার তৈরি করেন। ২৪ ফেব্রুয়ারি সকালে শহীদ শফিউরের পিতা এটি আনুষ্ঠানিকভাবে উদ্বোধন করেন। ২৬ ফেব্রুয়ারি পাকিস্তানি পুলিশ ও সেনাবাহিনী এই প্রথম শহীদ মিনারটি ভেঙে ফেলে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330334,
+    "question": "'গভীর নিশীথে প্রকৃতি সুপ্ত' এখানে 'নিশীথে' কোন পদ?",
+    "options": [
+      "নাম বিশেষণ",
+      "বিশেষ্য",
+      "ভাব বিশেষণ",
+      "সর্বনাম"
+    ],
+    "correct_answer": "বিশেষ্য",
+    "explanation": "📖 'নিশীথ' শব্দের অর্থ গভীর রাত। এটি একটি বিশেষ্য পদ। বাক্যে 'নিশীথে' শব্দটি 'কখন' বা 'কোথায়' এর উত্তর না দিয়ে 'নিশীথ' নামক সময়কে বোঝাচ্ছে, তাই এটি বিশেষ্য। যদি এটি ক্রিয়ার কাল বা স্থান বোঝাতো, তবে অধিকরণ কারক বা ক্রিয়া বিশেষণ হতো। কিন্তু এখানে পদ হিসেবে এটি বিশেষ্য।<br/>▣ পদ নির্ণয়ের ক্ষেত্রে বাক্যে তার ভূমিকা দেখা জরুরি। 'নিশীথ' শব্দটি একটি সময় বা কালের নাম, তাই এটি একটি বিশেষ্য পদ (noun)। বাক্যে 'নিশীথে' শব্দটি 'এ' বিভক্তিযুক্ত হয়ে অধিকরণ কারকে ব্যবহৃত হয়েছে, যা 'সুপ্ত' থাকার (ক্রিয়ার) সময়কে নির্দেশ করছে। তাই কারকের বিচারে এটি অধিকরণ কারক, কিন্তু পদের বিচারে এটি বিশেষ্য পদ। ক্রিয়া বিশেষণ হতো যদি শব্দটি ক্রিয়ার ধরণ, অবস্থা বা প্রকৃতি বোঝাতো (যেমন: সে দ্রুত হাঁটে)। এখানে 'নিশীথ' একটি নাম, তাই এটি বিশেষ্য।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330335,
+    "question": "'শূণ্যপুরান' কাব্য কার রচনা?",
+    "options": [
+      "হর্ষবর্ধন",
+      "গোবিন্দদাস",
+      "রামাই পণ্ডিত",
+      "বিপ্রদাস"
+    ],
+    "correct_answer": "রামাই পণ্ডিত",
+    "explanation": "📖 'শূন্যপুরাণ' মধ্যযুগের একটি গুরুত্বপূর্ণ কাব্য যা রামাই পণ্ডিত রচনা করেন। এটি মূলত বৌদ্ধধর্মের শূন্যবাদ এবং লৌকিক হিন্দুধর্মের মিশ্রণে সৃষ্ট 'ধর্মঠাকুর' পূজার শাস্ত্রগ্রন্থ।<br/>▣ 'শূন্যপুরাণ' বাংলা সাহিত্যের একটি unique গ্রন্থ, যা মধ্যযুগের ধর্মীয় সমন্বয়বাদের এক চমৎকার উদাহরণ। রামাই পণ্ডিত রচিত এই গ্রন্থে বৌদ্ধ শূন্যবাদ ও সহজিয়া তত্ত্বের সাথে স্থানীয় লোকজ হিন্দু দেব-দেবী ও আচারের সংমিশ্রণ ঘটেছে। গ্রন্থটি মূলত ধর্মঠাকুরের পূজাপদ্ধতি, মাহাত্ম্য ও সৃষ্টিতত্ত্ব নিয়ে রচিত। এর একটি অংশে, \"নিরঞ্জনের রুষ্মা\"-তে, মুসলিমদের বাংলা আক্রমণকে ধর্মঠাকুরের ক্রোধের প্রকাশ হিসেবে দেখানো হয়েছে, যা তৎকালীন সামাজিক-রাজনৈতিক পরিস্থিতির একটি প্রতিফলন।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330336,
+    "question": "মধ্যযুগের বাংলা সাহিত্যের নিদর্শন নয় কোনটি?",
+    "options": [
+      "বৈষ্ণব পদাবলি",
+      "মঙ্গলকাব্য",
+      "প্রণয়কাব্য",
+      "কথোপকথন"
+    ],
+    "correct_answer": "কথোপকথন",
+    "explanation": "📖 বৈষ্ণব পদাবলি, মঙ্গলকাব্য এবং প্রণয়কাব্য (যেমন: রোমান্টিক কাব্য) মধ্যযুগের বাংলা সাহিত্যের প্রধান ধারা। 'কথোপকথন' (১৮০১) আধুনিক যুগের বাংলা গদ্যের প্রাথমিক নিদর্শন, যা ফোর্ট উইলিয়াম কলেজের অধ্যক্ষ উইলিয়াম কেরি রচনা করেন।<br/>▣ বাংলা সাহিত্যের মধ্যযুগ (আনুমানিক ১২০১-১৮০০ খ্রি.) ছিল মূলত পদ্যনির্ভর। এই সময়ে দেবদেবীর মাহাত্ম্যসূচক মঙ্গলকাব্য, রাধাকৃষ্ণের প্রেমলীলা বিষয়ক বৈষ্ণব পদাবলি, এবং মানব-মানবীর প্রেম কাহিনি নিয়ে প্রণয়োপাখ্যান বা রোমান্টিক কাব্য রচিত হতো। অন্যদিকে, 'কথোপকথন' (১৮০১) গ্রন্থটি আধুনিক যুগের সূচনাপর্বে রচিত। এটি ফোর্ট উইলিয়াম কলেজের শিক্ষার্থীদের বাংলা ভাষা শেখানোর উদ্দেশ্যে উইলিয়াম কেরি কর্তৃক সংকলিত হয়েছিল। এটি বাংলা ভাষায় মুদ্রিত প্রথম গদ্যগ্রন্থগুলোর একটি এবং এর মাধ্যমে বাংলা গদ্যের আনুষ্ঠানিক চর্চা শুরু হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330337,
+    "question": "বঙ্কিমচন্দ্র চট্টোপাধ্যায় রচিত 'বিড়াল' কী ধরনের রচনা?",
+    "options": [
+      "উপন্যাস",
+      "কবিতা",
+      "গল্প",
+      "প্রবন্ধ"
+    ],
+    "correct_answer": "প্রবন্ধ",
+    "explanation": "📖 'বিড়াল' বঙ্কিমচন্দ্র চট্টোপাধ্যায়ের 'কমলাকান্তের দপ্তর' (১৮৭৫) গ্রন্থের একটি বিখ্যাত রসরচনা বা প্রবন্ধ। এতে সামাজিক বৈষম্য ও ধনী-দরিদ্রের ব্যবধানকে ব্যঙ্গাত্মকভাবে তুলে ধরা হয়েছে।<br/>▣ 'বিড়াল' প্রবন্ধটি একটি অনবদ্য ব্যঙ্গাত্মক রচনা। এখানে লেখক কমলাকান্ত নামের এক আফিমখোর ব্যক্তির জবানিতে কথা বলিয়েছেন। কমলাকান্তের সাথে একটি বিড়ালের কাল্পনিক কথোপকথনের মাধ্যমে তৎকালীন সমাজের ধনী ও দরিদ্রের মধ্যেকার চরম বৈষম্য, ধনীদের স্বার্থপরতা এবং সামাজিক অবিচারকে তীব্রভাবে কশাঘাত করা হয়েছে। বিড়ালের মুখ দিয়ে বলানো \"চোর দোষী বটে, কিন্তু কৃপণ ধনী তদপেক্ষা শতগুণে দোষী\" – এই উক্তিটি প্রবন্ধের মূল সুরকে প্রকাশ করে। এটি প্রবন্ধ হলেও এর মধ্যে কাহিনির একটি চমৎকার আবহ রয়েছে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330338,
+    "question": "'প্রতীচী' শব্দের বিপরীত শব্দ কোনটি?",
+    "options": [
+      "ম্লান",
+      "প্রাচ্য",
+      "মিলন",
+      "ত্যাগ"
+    ],
+    "correct_answer": "প্রাচ্য",
+    "explanation": "📖 'প্রতীচী' শব্দের অর্থ পশ্চিম দিক বা পাশ্চাত্য। এর বিপরীত শব্দ হলো 'প্রাচ্য', যার অর্থ পূর্ব দিক বা প্রাচ্যদেশ।<br/>▣ 'প্রতীচী' একটি তৎসম শব্দ, যার মূল অর্থ হলো পশ্চিম দিক। এই শব্দটি প্রায়শই পাশ্চাত্য জগৎ বা Western world-কে বোঝাতে ব্যবহৃত হয়। এর বিপরীত শব্দ 'প্রাচ্য', যা পূর্ব দিক বা Eastern world-কে নির্দেশ করে। যেমন: প্রাচ্য ও প্রতীচীর সংস্কৃতি। অন্য বিকল্পগুলোর মধ্যে 'ম্লান' (উজ্জ্বল)-এর বিপরীত, 'মিলন' (বিরহ)-এর বিপরীত এবং 'ত্যাগ' (গ্রহণ)-এর বিপরীত শব্দ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330339,
+    "question": "'Ethics' শব্দের সঠিক পারিভাষিক শব্দ কোনটি?",
+    "options": [
+      "তথ্যচিত্র",
+      "ব্রতকথা",
+      "তথ্যকথা",
+      "নীতিশাস্ত্র"
+    ],
+    "correct_answer": "নীতিশাস্ত্র",
+    "explanation": "📖 'Ethics' শব্দটি দর্শনশাস্ত্রের একটি শাখা, যা মানুষের আচরণের নৈতিক মানদণ্ড, অর্থাৎ ভালো-মন্দ, উচিত-অনুচিত ইত্যাদি বিষয় নিয়ে আলোচনা করে। এর সঠিক বাংলা পারিভাষিক শব্দ হলো 'নীতিশাস্ত্র' বা 'নীতিবিদ্যা'।<br/>▣ পারিভাষিক শব্দ হলো কোনো বিশেষ জ্ঞানকাণ্ডে ব্যবহৃত নির্দিষ্ট অর্থবোধক শব্দ। 'Ethics' বা 'Moral Philosophy' দর্শনশাস্ত্রের সেই শাখা যা নৈতিকতা নিয়ে আলোচনা করে। এটি সঠিক আচরণ (right conduct) এবং সদ্ জীবন (good life) যাপনের আদর্শ অনুসন্ধান করে। 'নীতি' (moral principles) এবং 'শাস্ত্র' (systematic study or science) - এই দুই শব্দের সমন্বয়ে 'নীতিশাস্ত্র' শব্দটি গঠিত, যা 'Ethics' এর অর্থকে যথার্থভাবে প্রকাশ করে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330340,
+    "question": "'বার্ষিক' শব্দটির সঠিক প্রকৃতি প্রত্যয় কোনটি?",
+    "options": [
+      "বর্ষ + ষ্ণিক",
+      "বর্ষা + ষ্ণিক",
+      "বরষ + ইক",
+      "ব + ষ্ণিক"
+    ],
+    "correct_answer": "বর্ষ + ষ্ণিক",
+    "explanation": "📖 'বার্ষিক' শব্দটি 'বর্ষ' শব্দের সাথে 'ষ্ণিক (ইক)' প্রত্যয় যোগে গঠিত হয়েছে। নিয়ম অনুযায়ী, ষ্ণিক প্রত্যয় যুক্ত হলে মূল শব্দের প্রথম স্বরের বৃদ্ধি ঘটে (অ থাকলে আ হয়)। তাই বর্ষ + ষ্ণিক = বার্ষিক।<br/>▣ এটি একটি সংস্কৃত তদ্ধিত প্রত্যয়ের উদাহরণ। 'ষ্ণিক' (এর 'ষ্ণ' ইৎ বা লুপ্ত হয়ে 'ইক' অবশিষ্ট থাকে) প্রত্যয়টি 'संबंध' বা 'related to' অর্থে ব্যবহৃত হয়। এই প্রত্যয় যুক্ত হলে শব্দের আদি স্বরের বৃদ্ধি ঘটে, যা একটি গুরুত্বপূর্ণ নিয়ম। এই নিয়ম অনুযায়ী, অ → আ, ই/ঈ → ঐ, উ/ঊ → ঔ, এবং ঋ → আর হয়। এখানে 'বর্ষ' শব্দের প্রথম স্বর 'অ', যা বৃদ্ধি পেয়ে 'আ' হয়েছে। তাই, বর্ষ + ষ্ণিক (ইক) = বার্ষিক (বর্ষ সম্বন্ধীয়)। একই নিয়মে, নগর + ষ্ণিক = নাগরিক, দিন + ষ্ণিক = দৈনিক।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330341,
+    "question": "'রাজমিস্ত্রী' শব্দের ব্যাসবাক্য -",
+    "options": [
+      "রাজার মিস্ত্রী",
+      "মিস্ত্রীর রাজা",
+      "রাজ যে মিস্ত্রী",
+      "মিস্ত্রী যার রাজা"
+    ],
+    "correct_answer": "মিস্ত্রীর রাজা",
+    "explanation": "📖 'রাজমিস্ত্রী' ষষ্ঠী তৎপুরুষ সমাসের উদাহরণ। এর ব্যাসবাক্য হলো 'মিস্ত্রীদের রাজা' বা 'মিস্ত্রীর রাজা'। এখানে 'রাজা' শব্দটি শ্রেষ্ঠ অর্থে ব্যবহৃত হয়েছে।<br/>▣ সমাসের ক্ষেত্রে 'রাজা' শব্দটি যখন অন্য পদের পরে বসে, তখন তা প্রায়শই 'শ্রেষ্ঠ' অর্থ প্রকাশ করে। যেমন: রাজহাঁস (হাঁসের রাজা বা শ্রেষ্ঠ হাঁস), কবিরাজ (কবিদের রাজা বা শ্রেষ্ঠ কবি)। একইভাবে, 'রাজমিস্ত্রী' শব্দটির ব্যাসবাক্য হলো 'মিস্ত্রীদের রাজা', অর্থাৎ যিনি মিস্ত্রীদের মধ্যে প্রধান বা শ্রেষ্ঠ। এটি 'রাজার মিস্ত্রী' (রাজার ব্যক্তিগত মিস্ত্রী) অর্থ প্রকাশ করে না। তাই এটি ষষ্ঠী তৎপুরুষ সমাস (মিস্ত্রীর রাজা = রাজমিস্ত্রী)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330342,
+    "question": "পশুপাখির কাহিনি অবলম্বনে রচিত লোকসাহিত্যকে বলে -",
+    "options": [
+      "উপকথা",
+      "ব্রতকথা",
+      "রূপকথা",
+      "গ্রাম্যগীতিকা"
+    ],
+    "correct_answer": "উপকথা",
+    "explanation": "📖 পশুপাখিকে চরিত্র হিসেবে ব্যবহার করে যে শিক্ষামূলক বা নীতিকথামূলক কাহিনি তৈরি হয়, তাকে উপকথা (Fable) বলে। যেমন: ঈশপের গল্প, পঞ্চতন্ত্রের গল্প ইত্যাদি।<br/>▣ উপকথা (Fable) হলো এক বিশেষ ধরনের লোককাহিনি যেখানে প্রধান চরিত্রগুলো হয় পশুপাখি, উদ্ভিদ বা জড়বস্তু, যাদের উপর মানবিক গুণাবলি আরোপ করা হয়। এই কাহিনিগুলোর মূল উদ্দেশ্য থাকে একটি নৈতিক শিক্ষা (moral lesson) প্রদান করা। বিশ্বসাহিত্যে ঈশপের উপকথা এবং বিষ্ণুশর্মার 'পঞ্চতন্ত্র' এর শ্রেষ্ঠ উদাহরণ। অন্যদিকে, রূপকথা (Fairy Tale) হলো জাদুকরী ও কাল্পনিক জগৎ নিয়ে রচিত কাহিনি যেখানে মানুষ, দৈত্য, পরি, রাক্ষস ইত্যাদি চরিত্র থাকে। ব্রতকথা ধর্মীয় আচার-অনুষ্ঠানের সাথে সম্পর্কিত কাহিনি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330343,
+    "question": "\"আপনারে বড় বলে, বড় সেই নয়। লোকে যারে বড় বলে, বড় সেই হয়।\" কবিতাংশটির রচয়িতা-",
+    "options": [
+      "কামিনী রায়",
+      "সুভাষ মুখোপাধ্যায়",
+      "সুকান্ত ভট্টাচার্য",
+      "হরিশচন্দ্র মিত্র"
+    ],
+    "correct_answer": "হরিশচন্দ্র মিত্র",
+    "explanation": "📖 এই বিখ্যাত নীতিবাক্যমূলক কবিতাংশটির রচয়িতা হলেন উনিশ শতকের কবি হরিশচন্দ্র মিত্র। এটি তাঁর 'বড় কে?' কবিতার অংশ।<br/>▣ হরিশচন্দ্র মিত্র (১৮৩৮-১৮৯২) ছিলেন একজন স্বল্পখ্যাত কবি, কিন্তু তাঁর এই কবিতাংশটি লোকশিক্ষার এক অমূল্য উপাদান হিসেবে বাংলায় ব্যাপকভাবে সমাদৃত হয়েছে। 'বড় কে?' কবিতাটিতে তিনি প্রকৃত বড় বা মহান হওয়ার মাপকাঠি নির্ধারণ করেছেন। তাঁর মতে, আত্মম্ভরিতা বা নিজের ঢাক নিজে পেটানো মহত্ত্বের লক্ষণ নয়। বরং, যাঁর গুণ ও কর্মের কারণে সাধারণ মানুষ তাঁকে স্বতঃস্ফূর্তভাবে বড় বলে স্বীকার করে, তিনিই প্রকৃত অর্থে বড়। এই সহজবোধ্য কিন্তু গভীর অর্থবহ চরণ দুটি আজও প্রাসঙ্গিক।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330344,
+    "question": "'নগর পুড়িলে দেবালয় কি এড়ায়?'- উক্তিটি করেছেন",
+    "options": [
+      "মুকুন্দরাম চক্রবর্তী",
+      "ভারতচন্দ্র রায়",
+      "চন্ডীদাস",
+      "বড়ু চণ্ডীদাস"
+    ],
+    "correct_answer": "ভারতচন্দ্র রায়",
+    "explanation": "📖 উক্তিটি মধ্যযুগের বিখ্যাত কবি ভারতচন্দ্র রায়গুণাকরের 'অন্নদামঙ্গল' কাব্যের অংশ। এর দ্বারা বোঝানো হয়েছে যে, কোনো বড় ধরনের বিপর্যয় ঘটলে সমাজের কেউই তা থেকে রক্ষা পায় না।<br/>▣ এই প্রবাদতুল্য উক্তিটি ভারতচন্দ্রের 'অন্নদামঙ্গল' কাব্যের \"মানসিংহ\" পর্ব থেকে নেওয়া হয়েছে। বর্গী বা মারাঠা দস্যুদের বাংলা আক্রমণের প্রেক্ষাপটে ঈশ্বরী পাটনি দেবী অন্নদার কাছে এই কথাটি বলেছিলেন। এর আক্ষরিক অর্থ হলো, নগরে আগুন লাগলে দেবালয় বা মন্দিরও সেই আগুন থেকে রক্ষা পায় না। এর অন্তর্নিহিত তাৎপর্য হলো, সামাজিক বা রাষ্ট্রীয় বিপর্যয় সর্বগ্রাসী হয়; তা থেকে সমাজের কোনো অংশ, এমনকি পবিত্র স্থান বা সম্মানিত ব্যক্তিরাও রেহাই পান না।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330345,
+    "question": "রবীন্দ্রনাথ ঠাকুর তাঁর রচিত কোন নাটকটি কাজী নজরুল ইসলামকে উৎসর্গ করেন?",
+    "options": [
+      "বিসর্জন",
+      "ডাকঘর",
+      "বসন্ত",
+      "অচলায়তন"
+    ],
+    "correct_answer": "বসন্ত",
+    "explanation": "📖 রবীন্দ্রনাথ ঠাকুর তাঁর 'বসন্ত' (১৯২৩) গীতিনাট্যটি কাজী নজরুল ইসলামকে উৎসর্গ করেন। নজরুল তখন হুলিয়া মাথায় নিয়ে আত্মগোপনে ছিলেন এবং পরে জেলে বন্দী হন। তরুণ কবির প্রতি রবীন্দ্রনাথের স্নেহ ও শ্রদ্ধার নিদর্শন এই উৎসর্গ।<br/>▣ ১৯২৩ সালে রবীন্দ্রনাথ তাঁর 'বসন্ত' গীতিনাট্যটি \"কবি কাজী নজরুল ইসলাম স্নেহভাজনেষু\" লিখে উৎসর্গ করেন। সেই সময় নজরুল তাঁর 'আনন্দময়ীর আগমনে' কবিতার জন্য রাজদ্রোহের অভিযোগে হুগলি জেলে বন্দী ছিলেন। রবীন্দ্রনাথ এই উৎসর্গের মাধ্যমে একদিকে যেমন ব্রিটিশ সরকারের অন্যায় আচরণের প্রতিবাদ জানিয়েছিলেন, তেমনই তরুণ কবি নজরুলের বিদ্রোহী সত্তা ও প্রতিভার প্রতি তাঁর গভীর আস্থা ও স্নেহ প্রকাশ করেছিলেন। এই ঘটনা বাংলা সাহিত্যের দুই দিকপাল কবির মধ্যে পারস্পরিক শ্রদ্ধাবোধের এক উজ্জ্বল দৃষ্টান্ত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330346,
+    "question": "'কোকিল' _ এর সমার্থক শব্দ কোনটি?",
+    "options": [
+      "মহি",
+      "বিধু",
+      "কলকণ্ঠ",
+      "ইন্দু"
+    ],
+    "correct_answer": "কলকণ্ঠ",
+    "explanation": "📖 'কোকিল' শব্দের অর্থ যার কণ্ঠস্বর মধুর। 'কলকণ্ঠ' শব্দের অর্থও তাই। কোকিলের অন্যান্য সমার্থক শব্দ হলো: পরভৃৎ, পিক, বসন্তদূত। 'মহি' অর্থ পৃথিবী, 'বিধু' ও 'ইন্দু' অর্থ চাঁদ।<br/>▣ সমার্থক শব্দ বা প্রতিশব্দ হলো একই অর্থবোধক ভিন্ন শব্দ। 'কোকিল' তার সুমধুর কণ্ঠের জন্য পরিচিত, তাই তাকে 'কলকণ্ঠ' (সুন্দর বা মধুর কণ্ঠ যার) বলা হয়। বসন্তকালে কোকিলের ডাক শোনা যায় বলে এর আরেক নাম 'বসন্তদূত'। অন্য একটি আকর্ষণীয় সমার্থক শব্দ হলো 'পরভৃৎ', যার অর্থ 'অন্যের দ্বারা পালিত'। কারণ কোকিল কাকের বাসায় ডিম পাড়ে এবং কাক সেই ডিম তা দিয়ে বাচ্চা ফোটায়। প্রদত্ত অন্য বিকল্পগুলোর মধ্যে 'মহি' অর্থ পৃথিবী (অন্যান্য প্রতিশব্দ: অবনী, মেদিনী, ধরা), এবং 'বিধু' ও 'ইন্দু' উভয়ই চাঁদের প্রতিশব্দ (অন্যান্য প্রতিশব্দ: শশী, সুধাকর, হিমাংশু)।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330347,
+    "question": "কোনটি রবীন্দ্রনাথ ঠাকুরের রচনা?",
+    "options": [
+      "চতুরঙ্গ",
+      "চতুর্দশী",
+      "চতুষ্কোণ",
+      "চতুষ্পাঠী"
+    ],
+    "correct_answer": "চতুরঙ্গ",
+    "explanation": "📖 'চতুরঙ্গ' (১৯১৬) রবীন্দ্রনাথ ঠাকুর রচিত একটি সামাজিক ও মনস্তাত্ত্বিক উপন্যাস। অন্যদিকে, 'চতুর্দশী' হলো মাইকেল মধুসূদন দত্তের সনেট সংকলন।<br/>▣ 'চতুরঙ্গ' রবীন্দ্রনাথের একটি পরীক্ষামূলক উপন্যাস, যা আকারে ছোট হলেও এর বিষয়বস্তু ও গঠনশৈলী অত্যন্ত গভীর। শচীশ, দামিনী, শ্রীবিলাস ও জ্যাঠামশাই—এই চারটি চরিত্রের দৃষ্টিকোণ থেকে চারটি পর্বে কাহিনিটি বর্ণিত হয়েছে, যা উপন্যাসের 'চতুরঙ্গ' (চার অঙ্গ) নামকরণের সার্থকতা প্রমাণ করে। এটি মানব মনের জটিলতা, বিশ্বাস-অবিশ্বাস এবং সম্পর্কের টানাপোড়েন নিয়ে রচিত। অন্যদিকে, 'চতুর্দশী কবিতাবলী' (১৮৬৬) মাইকেল মধুসূদন দত্ত রচিত ১০২টি সনেটের একটি সংকলন, যা বাংলা সাহিত্যে সনেট ধারার প্রবর্তক।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330348,
+    "question": "'স্বাধীন' এর সন্ধি বিচ্ছেদ -",
+    "options": [
+      "স্ব + অধীন",
+      "স্বা + অধীন",
+      "স্বা + ধীন",
+      "স্ব + ধীন"
+    ],
+    "correct_answer": "স্ব + অধীন",
+    "explanation": "📖 'স্বাধীন' শব্দটি স্বরসন্ধির নিয়মে গঠিত। এর সঠিক সন্ধি বিচ্ছেদ হলো স্ব + অধীন। এখানে 'স্ব' এর 'অ' এবং 'অধীন' এর 'অ' মিলে 'আ' (া) হয়েছে (অ + অ = আ)।<br/>▣ এটি স্বরসন্ধির একটি সরল উদাহরণ। সন্ধির নিয়ম অনুযায়ী, প্রথম শব্দের শেষে থাকা 'অ'-কার এবং দ্বিতীয় শব্দের শুরুতে থাকা 'অ'-কার উভয় মিলে 'আ'-কার হয় এবং এই 'আ'-কারটি প্রথম শব্দের শেষ ব্যঞ্জনের সাথে যুক্ত হয়। এখানে, 'স্ব' (নিজের) এবং 'অধীন' (বশীভূত) শব্দ দুটি মিলিত হয়ে 'স্বাধীন' শব্দটি গঠন করেছে, যার অর্থ হলো 'যে নিজের অধীন' বা 'মুক্ত'।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330349,
+    "question": "'ষ্ণ' যুক্তবর্ণটির মধ্যে রয়েছে -",
+    "options": [
+      "ষ্ + ঞ",
+      "ষ্ + ন",
+      "ঞ + ষ্",
+      "ষ্ + ণ"
+    ],
+    "correct_answer": "ষ্ + ণ",
+    "explanation": "📖 'ষ্ণ' একটি যুক্তবর্ণ যা মূর্ধন্য-ষ (ষ্) এবং মূর্ধন্য-ণ (ণ) এর সমন্বয়ে গঠিত। যেমন: কৃষ্ণ, তৃষ্ণা, উষ্ণ ইত্যাদি।<br/>▣ বাংলা বর্ণমালায় যুক্তবর্ণগুলো দুটি বা তার বেশি ব্যঞ্জনবর্ণের মিলিত রূপ। 'ষ্ণ' যুক্তবর্ণটি ষ-ফলা-ণ হিসেবেও পরিচিত, যেখানে মূর্ধন্য-ষ (ষ্) এর সাথে মূর্ধন্য-ণ (ণ) যুক্ত হয়েছে। এর উচ্চারণ অনেকটা ইংরেজি 'shn' এর মতো। এই যুক্তবর্ণটি তৎসম বা সংস্কৃত শব্দে ব্যবহৃত হয়। উদাহরণ: বিষ্ণু, সহিষ্ণু, বৈষ্ণব ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330350,
+    "question": "মৌলিক শব্দ কোনটি?",
+    "options": [
+      "কবিতা",
+      "কাব্য",
+      "কলম",
+      "পদ্য"
+    ],
+    "correct_answer": "কলম",
+    "explanation": "📖 যে শব্দকে আর কোনো ক্ষুদ্রতর অর্থপূর্ণ অংশে বিশ্লেষণ বা ভাঙা যায় না, তাকে মৌলিক শব্দ বলে। এখানে 'কলম' শব্দটি মৌলিক, কারণ একে ভাঙলে কোনো অর্থপূর্ণ অংশ পাওয়া যায় না। অন্যদিকে, কবিতা (কবি+তা), কাব্য (কবি+য), পদ্য (পদ+য) এগুলো সাধিত শব্দ।<br/>▣ বাংলা শব্দ ভান্ডারকে গঠন অনুসারে দুই ভাগে ভাগ করা যায়: মৌলিক ও সাধিত। মৌলিক শব্দ হলো ভাষার মূল উপকরণ, এগুলোকে 'স্বয়ংসিদ্ধ' বা 'অবিভাজ্য' শব্দও বলা হয়। যেমন: মা, বাবা, হাত, পা, গোলাপ, বই, কলম ইত্যাদি। অন্যদিকে, সাধিত শব্দ গঠিত হয় মৌলিক শব্দের সাথে উপসর্গ, প্রত্যয় বা সমাসের মাধ্যমে। যেমন: 'কবি' (মৌলিক) শব্দের সাথে 'তা' প্রত্যয় যোগে 'কবিতা' (সাধিত), 'পদ' (মৌল) শব্দের সাথে 'য' প্রত্যয় যোগে 'পদ্য' (সাধিত) এবং 'কবি' শব্দের সাথে 'য' প্রত্যয় যোগে 'কাব্য' (সাধিত) শব্দ গঠিত হয়েছে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330351,
+    "question": "কোন বানানটি অশুদ্ধ?",
+    "options": [
+      "আবিষ্কার",
+      "পরিষ্কার",
+      "তিরষ্কার",
+      "পুরস্কার"
+    ],
+    "correct_answer": "তিরষ্কার",
+    "explanation": "📖 এখানে 'তিরষ্কার' বানানটি অশুদ্ধ। সঠিক বানান হলো 'তিরস্কার'। বাংলা বানানরীতি অনুযায়ী, 'অ' বা 'আ' ধ্বনির পর বিসর্গ (ঃ) থাকলে এবং তারপর ক, খ, প, ফ থাকলে বিসর্গের স্থলে 'স' হয়। যেমন: তিরঃ + কার = তিরস্কার, পুরঃ + কার = পুরস্কার। কিন্তু ই-কার বা উ-কারের পর বিসর্গ থাকলে এবং তারপর ক, খ, প, ফ থাকলে বিসর্গের স্থলে 'ষ' হয়। যেমন: আবিঃ + কার = আবিষ্কার, পরিঃ + কার = পরিষ্কার।<br/>▣ এটি বিসর্গ সন্ধির একটি নিয়ম। নিয়মটি হলো: অ/আ ভিন্ন অন্য স্বরধ্বনির (যেমন ই, উ) পর যদি বিসর্গ (ঃ) থাকে এবং তার পরে ক, খ, প, ফ—এই চারটি বর্ণের যেকোনো একটি থাকে, তাহলে বিসর্গটি মূর্ধন্য-ষ (ষ) হয়ে যায়। যেমন: বহিঃ + কার = বহিষ্কার, চতুঃ + পদ = চতুষ্পদ। অন্যদিকে, বিসর্গের আগে যদি অ বা আ ধ্বনি থাকে, তাহলে বিসর্গের স্থানে দন্ত্য-স (স) হয়। যেমন: নমঃ + কার = নমস্কার, ভাঃ + কর = ভাস্কর। তাই 'তিরঃ + কার' সন্ধিবদ্ধ হয়ে 'তিরস্কার' হবে, 'তিরষ্কার' নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330352,
+    "question": "মুক্তিযুদ্ধের পটভূমিতে রচিত কাব্যগ্রন্থ কোনটি?",
+    "options": [
+      "বন্দী শিবির থেকে",
+      "নেকড়ে অরণ্য",
+      "জীবন ও রাজনৈতিক বাস্তবতা",
+      "প্রিয়যোদ্ধা প্রিয়তম"
+    ],
+    "correct_answer": "বন্দী শিবির থেকে",
+    "explanation": "📖 'বন্দী শিবির থেকে' (১৯৭২) শামসুর রাহমান রচিত একটি বিখ্যাত কাব্যগ্রন্থ। ১৯৭১ সালে মুক্তিযুদ্ধের সময় ঢাকায় অবরুদ্ধ অবস্থায় থাকাকালীন তিনি এই কাব্যগ্রন্থের কবিতাগুলো রচনা করেন। 'নেকড়ে অরণ্য' শওকত ওসমানের উপন্যাস।<br/>▣ 'বন্দী শিবির থেকে' কাব্যগ্রন্থটি মুক্তিযুদ্ধের এক জীবন্ত দলিল। অবরুদ্ধ ঢাকায় বসে কবির প্রত্যক্ষ অভিজ্ঞতা, যেমন—গেরিলাদের দুঃসাহসিক আক্রমণ, হানাদার বাহিনীর অত্যাচার, সাধারণ মানুষের আতঙ্ক এবং মুক্তির জন্য তীব্র আকাঙ্ক্ষা—এই কাব্যের কবিতাগুলোতে মূর্ত হয়ে উঠেছে। এর বিখ্যাত কবিতাগুলোর মধ্যে \"তোমাকে পাওয়ার জন্যে, হে স্বাধীনতা\" এবং \"স্বাধীনতা তুমি\" অন্যতম, যা বাঙালির স্বাধীনতা সংগ্রামের এক অমর শৈল্পিক প্রকাশ। 'নেকড়ে অরণ্য' (১৯৭৩) শওকত ওসমান রচিত একটি উপন্যাস, যেখানে মুক্তিযুদ্ধের সময় পাকিস্তানি হানাদার বাহিনী কর্তৃক বাঙালি নারীদের উপর চালানো পাশবিক নির্যাতনের চিত্র তুলে ধরা হয়েছে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330353,
+    "question": "মীর মশাররফ হোসেনের 'মোসলেম বীরত্ব' কোন ধরনের গ্রন্থ?",
+    "options": [
+      "উপন্যাস",
+      "কাব্যগ্রন্থ",
+      "প্রবন্ধ",
+      "নাটক"
+    ],
+    "correct_answer": "কাব্যগ্রন্থ",
+    "explanation": "📖 'মোসলেম বীরত্ব' (১৯০৮) মীর মশাররফ হোসেন রচিত একটি মহাকাব্য। এটি মূলত কারবালার প্রান্তরের বিষাদময় ঘটনা এবং হাসান-হোসেনের বীরত্বগাথা অবলম্বনে রচিত হয়েছে। তাই এটি একটি কাব্যগ্রন্থ।<br/>▣ মীর মশাররফ হোসেনের 'মোসলেম বীরত্ব' একটি মহাকাব্যের আঙ্গিকে রচিত কাব্যগ্রন্থ। যদিও তিনি 'বিষাদ-সিন্ধু' নামক গদ্যে কারবালার করুণ ইতিহাস বর্ণনা করে সর্বাধিক খ্যাতি অর্জন করেছেন, 'মোসলেম বীরত্ব' কাব্যে তিনি একই ঘটনাকে অমিত্রাক্ষর ছন্দে কাব্যরূপ দিয়েছেন। এটি চারটি খণ্ডে বিভক্ত। এই কাব্যে তিনি ইসলামের প্রথম খলিফাদের বিজয় এবং হাসান-হোসেনের বীরত্বপূর্ণ কাহিনি বর্ণনা করেছেন। মাইকেল মধুসূদন দত্তের 'মেঘনাদবধ কাব্য'-এর দ্বারা প্রভাবিত হয়ে তিনি এই মহাকাব্য রচনায় প্রয়াসী হন।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330354,
+    "question": "'ডেঙ্গু' শব্দের উৎস ভাষা -",
+    "options": [
+      "স্প্যানিশ",
+      "ইংরেজি",
+      "পর্তুগিজ",
+      "তুর্কি"
+    ],
+    "correct_answer": "স্প্যানিশ",
+    "explanation": "📖 'ডেঙ্গু' শব্দটি স্প্যানিশ ভাষা থেকে এসেছে। মনে করা হয়, সোয়াহিলি ভাষার phrase \"Ka-dinga pepo\" থেকে স্প্যানিশ শব্দ \"Dengue\" এর উৎপত্তি, যার অর্থ \"শয়তানের দ্বারা সৃষ্ট খিঁচুনি\"।<br/>▣ 'ডেঙ্গু' শব্দটির ব্যুৎপত্তি বেশ আকর্ষণীয়। এটি স্প্যানিশ ভাষার মাধ্যমে বিশ্বজুড়ে পরিচিতি পেলেও এর মূল উৎস পূর্ব আফ্রিকার সোয়াহিলি ভাষায়। সোয়াহিলি phrase \"Ki-dinga pepo\" বা \"Ka-dinga pepo\" বলতে বোঝানো হতো \"শয়তানের আত্মা দ্বারা সৃষ্ট আকস্মিক খিঁচুনি বা ব্যথা\"। ১৮২৮ সালে কিউবায় ডেঙ্গুর প্রাদুর্ভাব ঘটলে স্থানীয়ভাবে এটিকে \"dengue\" বলা শুরু হয়, যা স্প্যানিশ ভাষায় 'pretence' বা 'affectation' বোঝাতে ব্যবহৃত হতো। সম্ভবত তীব্র হাড়ের ব্যথায় আক্রান্ত রোগীর বিশেষ ধরনের হাঁটার ভঙ্গি বা আড়ষ্টতা বোঝাতেই এই শব্দটি ব্যবহৃত হয়েছিল। পরে এই নামটিই বৈশ্বিকভাবে গৃহীত হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330355,
+    "question": "'রাজা যায় রাজা আসে' কাব্যগ্রন্থের রচয়িতা -",
+    "options": [
+      "আবুল হসেন",
+      "আবুল হাসান",
+      "আবুল ফজল",
+      "শামসুর রাহমান"
+    ],
+    "correct_answer": "আবুল হাসান",
+    "explanation": "📖 'রাজা যায় রাজা আসে' (১৯৭২) কবি আবুল হাসানের প্রথম কাব্যগ্রন্থ। তিনি সত্তরের দশকের অন্যতম জনপ্রিয় কবি। তাঁর অন্যান্য উল্লেখযোগ্য কাব্যগ্রন্থ হলো 'যে তুমি হরণ করো' এবং 'পৃথক পালঙ্ক'।<br/>▣ আবুল হাসান (১৯৪৭-১৯৭৫) ছিলেন ক্ষণজন্মা এক কবি, যিনি তাঁর সংক্ষিপ্ত জীবনে বাংলা কবিতায় এক স্বতন্ত্র ছাপ রেখে গেছেন। 'রাজা যায় রাজা আসে' কাব্যগ্রন্থটি সদ্য স্বাধীন বাংলাদেশের প্রেক্ষাপটে রচিত, যেখানে রাজনৈতিক পটপরিবর্তন, আশা-নিরাশা এবং ব্যক্তি মানুষের বিচ্ছিন্নতাবোধ অত্যন্ত শৈল্পিকভাবে ফুটে উঠেছে। কাব্যগ্রন্থটির নাম কবিতা \"রাজা যায় রাজা আসে\" তে ক্ষমতার পালাবদলকে নির্দেশ করে এক গভীর সত্য উচ্চারিত হয়েছে। মাত্র ২৮ বছর বয়সে প্রয়াত এই কবির লেখনীতে মৃত্যুচেতনা ও একাকিত্বের সুর প্রবলভাবে উপস্থিত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330356,
+    "question": "চর্যাপদে কতজন কবির পদ রয়েছে?",
+    "options": [
+      "২১ জন",
+      "২২ জন",
+      "২৩ জন",
+      "২৪ জন"
+    ],
+    "correct_answer": "২৪ জন",
+    "explanation": "📖 ড. মুহম্মদ শহীদুল্লাহর সম্পাদিত \"Buddhist Mystic Songs\" (১৯৬০) গ্রন্থে তিনি ২৩ জন কবির কথা উল্লেখ করেছেন। অন্যদিকে, ড. সুকুমার সেন তাঁর \"বাংলা সাহিত্যের ইতিহাস\" গ্রন্থে ২৪ জন কবির কথাই বলেছেন এবং এই মতটিই বর্তমানে অধিক প্রচলিত ও গ্রহণযোগ্য। এই কবিরা 'সিদ্ধাচার্য' নামে পরিচিত ছিলেন এবং তারা মূলত বৌদ্ধ সহজিয়া মতের অনুসারী ছিলেন। <br/>❏ ড. মুহম্মদ শহীদুল্লাহর মতে চর্যাপদের মোট পদকর্তা ২৩ জন। কিন্তু ডক্টর মুহাম্মদ সুকুমার সেনের মতে চর্যাপদের পদকর্তা বা কবির সংখ্যা মোট ২৪ জন।<br/>❏ উপরের ২৪ জন কবির মধ্যে একমাত্র বাঙালি কবি ছিলে কবি ভুসুকাপা। তিনি নিজেই নিজেকে বাঙালি ভুসুকু বলেছেন।<br/>❏ আবার চর্যাপদের মোট পদ বা গানের সংখ্যা হলো ৫০টি। এই ৫০টি পদ উপরের ২৪ জনে মিলে রচনা করেছেন।<br/>❏ তবে সকল পদ বা গান পাওয়া যায়নি। যেমন: ২৪ নং, ২৫ নং, ৪৮ নং পদ পাওয়া যাইনি। আর ২৩ নং পদের অর্ধেক পাওয়া গেছে।<br/>❏ আবার ২৩ নং পদ রচনা করেছিলেন আমাদের বাঙালি কবি ভুসুকুপা।<br/>❏ আবার ২৪ নং পদের পদকর্তা ছিলেন কাহ্নপা, ২৫ নং পদের পদকর্তা ছিলেন তান্তীপা এবং ৪৮ নং পদের পদকর্তা ছিলেন কুক্করীপা।<br/>❏ জেনে রাখা ভালো যে উপরের ২৪ জন পদকর্তাদের মধ্যে চর্যাপদের একমাত্র মহিলা কবি ছিলেন কুক্করীপা।<br/>❏ চর্যাপদের ২৪ জন কবি হলেন – লুইপা, কুকুরীপা, বিরুআপা, গুণ্ডরীপা, চাটিলপা, ভুসুকুপা, কাহ্নপা,কামলিপা, ডােম্বীপা, শান্তিপা, মহিত্তাপা, বীণাপা, সরহপা, শবরপা, আজাদেবপা, ঢেণ্ডনপা, দারিকপা,ভাদেপা, লাড়ীডােম্বীপা, তাড়কপা, কঙ্কণপা, জঅনন্দিপা, ধামপা , তন্ত্রীপা। -এরা পদ রচনা করতেন বলে এদের নামের শেষে সম্মান করে পাদ বা পা বলা হতাে। আজকের দিনে যেমন কবি বলা হয়।<br/>❏ চর্যাপদ শুধু প্রাচীন বাংলা সাহিত্যেরই নিদর্শন নয়, প্রাচীন বাংলা গানেরও নিদর্শন। প্রতিটি পদের শুরুতে রাগ-তাল ও প্রতি জোড়-পদে ‘ধ্রুব’ শব্দের উল্লেখ থাকায় নিশ্চিত প্রমাণিত হয় যে, এগুলি তখন গাওয়া হতো। এ ছাড়া পদগুলি থেকে তৎকালীন বাঙালি জীবনের আচার-আচরণ ও সমাজের বাস্তবঘন পরিচয়ও পাওয়া যায়। যেমন তখনকার মানুষ হরিণ শিকার, নৌকা চালনা, চেঙারি তৈরি, শুঁড়ির কাজ ইত্যাদি করত। কাড়া-নাকাড়া ও ঢাক-ঢোল বাজিয়ে বর-কনেকে বিয়ের আসরে নিয়ে যাওয়া হতো। সমাজে যৌতুক প্রথা প্রচলিত ছিল। গরু ছিল গৃহপালিত পশু; হাতিরও উল্লেখ আছে। মেয়েরা পরিধানে ময়ূরপুচ্ছ, গলায় গুঞ্জার মালা এবং কর্ণে কুন্ডল পরত। টাঙ্গি, কুঠার, নখলি বা খন্তা ছিল উল্লেখযোগ্য অস্ত্র। তবে সমকালীন সমাজের এসব চিত্র অঙ্কন করলেও চর্যাকারেরা প্রধানত ছিলেন বৈরাগ্যপন্থি, জগৎমুখী নন।<br/>❏ হরপ্রসাদ শাস্ত্রী যে পুঁথিটি দেখেছিলেন, সেটি ছিল তালপাতার। <br/>❏ চর্যাপদের তালপাতার পুথিতে লেখা রয়েছে পূর্ব-ভারতের হাজার বছর আগের জীবনযাত্রা, গানের ছলে। এটি মূলত তান্ত্রিক-বৌদ্ধমতের গানের সংকলন।হরপ্রসাদ শাস্ত্রী যে পুঁথিটি দেখেছিলেন, সেটি ছিল তালপাতার।<br/>❏ গুরুত্বপূর্ণঃ<br/>❏ চর্যাপদের প্রথম বা আদি কবি➤ লুইপা। তবে, ড. মুহম্মদ শহীদুল্লাহর মতে, চর্যাপদের➤আদি কবি শবরপা । শবরপা চর্যাপদের শ্রেষ্ঠ কবি।<br/>❏ চর্যাপদের সবচেয়ে বেশি পদের রচয়িতা কাহ্নপা/কৃষ্ণপা। (সর্বমোট ১৩টি পদ রচনা করেন) <br/>❏ চর্যাপদে নিজেকে বাঙালি বলে পরিচয় দিয়েছেন, ভুসুকুপা। তিনি চর্যাপদের দ্বিতীয় সর্বাধিক পদের রচয়িতা। তিনি সর্বমোট ০৮ টি পদ রচনা করেন। (চর্যাপদের বাঙালি কবি হিসেবে মীননাথের নামও উঠে এসেছে) <br/>❏ চর্যাপদের একমাত্র মহিলা কবি মনে করা হয় কুক্কুরীপা কে।<br/>❏ চর্যাপদে নাম আছে কিন্তু কবিতা নেই লাড়ীডোম্বীপা এর।<br/>❏ চর্যাপদের ২৫ নং পদের রচয়িতা তন্ত্রীপা এর পদটিও পাওয়া যায়নি।<br/>❏ চর্যাপদের ২৯, ২৫ ও ৪৮ নং পদ পাওয়া যায়নি।<br/>❏ ২৩ নং পদ খণ্ডিত অবস্থায় পাওয়া গেছে।<br/>❏ সংস্কৃত টীকাকার মুণিদত্ত ১১নং পদের ব্যাখ্যা করেননি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330357,
+    "question": "\"স্বাধীনতা হীনতায় কে বাঁচিতে চায়।\" চরণটির রচয়িতা-",
+    "options": [
+      "ঈশ্বরচন্দ্র গুপ্ত",
+      "হেমচন্দ্র বন্দ্যোপাধ্যায়",
+      "রঙ্গলাল বন্দ্যোপাধ্যায়",
+      "মধুসূদন দত্ত"
+    ],
+    "correct_answer": "রঙ্গলাল বন্দ্যোপাধ্যায়",
+    "explanation": "📖 উক্তিটি উনিশ শতকের কবি রঙ্গলাল বন্দ্যোপাধ্যায়ের ‘পদ্মিনী উপাখ্যান’ (১৮৫৮) কাব্যগ্রন্থ থেকে নেওয়া হয়েছে। রাজপুতদের বীরত্বগাথা অবলম্বনে রচিত এই কাব্যে দেশপ্রেম ও স্বাধীনতার আকাঙ্ক্ষা প্রবলভাবে ফুটে উঠেছে।<br/>▣ এই বিখ্যাত চরণটি ‘পদ্মিনী উপাখ্যান’ কাব্যের স্বাধীনতা সংক্রান্ত একটি দীর্ঘ কবিতার অংশ। পুরো কবিতাটি হলো: \"স্বাধীনতা-হীনতায় কে বাঁচিতে চায় হে, / কে বাঁচিতে চায়? / দাসত্ব-শৃঙ্খল বল কে পরিবে পায় হে, / কে পরিবে পায়?\"। ১৮৫৭ সালের সিপাহী বিদ্রোহের ঠিক পরের বছর প্রকাশিত এই কাব্যটিতে রাজপুতদের বীরত্বের আড়ালে মূলত পরাধীন ভারতবর্ষের মুক্তির আকাঙ্ক্ষাই ধ্বনিত হয়েছে। এটি বাংলা সাহিত্যে দেশাত্মবোধক কবিতার অন্যতম আদি ও শক্তিশালী উদাহরণ হিসেবে বিবেচিত হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  },
+  {
+    "id": 330358,
+    "question": "'পঞ্চপাণ্ডব' বলা হয় -",
+    "options": [
+      "তিরিশের কবিদের",
+      "চল্লিশের কবিদের",
+      "পঞ্চাশের কবিদের",
+      "রবীন্দ্রযুগের কবিদের"
+    ],
+    "correct_answer": "তিরিশের কবিদের",
+    "explanation": "📖 ত্রিশের দশকের বিশিষ্ঠ ৫ জন কবি রবীন্দ্র প্রভাবের বাইরে গিয়ে বাংলা ভাষায় আধুনিক কবিতা সৃষ্টি করেছিলেন। তাদের ৫ জনকে বাংলা সাহিত্যে পঞ্চ পান্ডব/ ত্রিশের কবি/কল্লোলের কবি বলা হয়। তারা হলেনঃ- ১.অমিয় চক্রবর্তী ২. বুদ্ধদেব বসু ৩. জীবনানন্দ দাশ ৪. বিষ্ণু দে ৫. সুধীন্দ্রনাথ দত্ত। <br/>❏ নিচে তাদের জীবনী সম্পর্কে সংক্ষেপে আলোচনা করা হল। <br/>❏ অমিয় চক্রবর্তীঃ (১৯০১-১৯৮৬) কবি, গবেষক ও শিক্ষাবিদ। জন্ম ১০ এপ্রিল, ১৯০১ শ্রীরামপুর, হুগলি, পশ্চিমবঙ্গ। তাঁর পিতা দ্বিজেশচন্দ্র চক্রবর্তী আসামের গৌরীপুর রাজ্যের দীউয়ান ছিলেন। অমিয় চক্রবর্তী পাটনা বিশ্ববিদ্যালয় থেকে বি.এ পাস (১৯২১) করে শান্তিনিকেতনের গবেষণা বিভাগে যোগদান করেন। পাটনা বিশ্ববিদ্যালয় থেকে দর্শন ও সাহিত্যে এম.এ ডিগ্রি লাভ (১৯২৬) করেন। পরে তিনি রবীন্দ্রনাথের সাহিত্য সচিব হিসেবে দায়িত্ব পালন করেন (১৯২৬-১৯৩৩)। তিনি ১৯৩৩ সালে অক্সফোর্ড বিশ্ববিদ্যালয়ে গবেষণা কাজে যোগ দেন এবং ১৯৩৭ সালে সে বিশ্ববিদ্যালয় থেকে ডিফিল ডিগ্রি লাভ করেন। তিনি ১৯৪০ থেকে ১৯৪৮ সাল পর্যন্ত কলকাতা বিশ্ববিদ্যালয়ে ইংরেজি সাহিত্যে অধ্যাপনা করেন। ১৯৪৮-১৯৭৭ সাল পর্যন্ত তিনি সপরিবারে আমেরিকায় বসবাস করেন। এ সময়ের মধ্যে তিনি ১৯৪৮ থেকে ১৯৬৭ সাল পর্যন্ত হাওয়ার্ড, বস্টন ইত্যাদি বিশ্ববিদ্যালয়ে তুলনামূলক প্রাচ্য ধর্ম ও সাহিত্যে অধ্যাপনা কাজে নিয়োজিত ছিলেন। কবি ইয়েটস, জর্জ বার্নাড’শ, আলবার্ট আইনস্টাইন, রবার্টফ্রস্ট, আলবার্ট সোয়ইটজর, বোরিস পান্তেরনাক, পাবলো কাসালস্ প্রমুখ বিশ্ববরেণ্য লেখকদের সঙ্গে তাঁর ছিল অন্তরঙ্গ সম্পর্ক। প্রায় সব ক’টি মহাদেশের অসংখ্য দেশে নানাবিধ কর্মসূত্রে তিনি ভ্রমণ করেন। বিশ্বের বিভিন্ন বিশ্ববিদ্যালয়ে অতিথি অধ্যাপক হিসেবে বক্তৃতা দিয়েছেন। এ কারণে অমিয় চক্রবর্তীর কবিতায় আন্তর্জাতিক বিশ্বপরিবেশের অনেক ভৌগোলিক স্থানের নাম, বর্ণনা ও চিত্র লক্ষ করার মতো। তার কবিতা বিশ্বময়তাকে ধারণ করেছে; এটি তার কবিতাকে দিয়েছে বিশিষ্টতা। এ ছাড়া তাঁর কবিতায় আছে এ অঞ্চলের চিরায়ত বিষয় মরমী সুর ও আধ্যাত্মিকতা। অমিয় চক্রবর্তী তাঁর জীবনের প্রথম দিকে রবীন্দ্রনাথ ঠাকুরের নিকট-সান্নিধ্যে এসেছিলেন। <br/>❏ বুদ্ধদেব বসুঃ (১৯০৮-১৯৭৪) সাহিত্যিক, সমালোচক, সম্পাদক। ১৯০৮ সালের ৩০ নভেম্বর কুমিল্লায় জন্ম। তাঁর পরিবারের আদি নিবাস ছিল বিক্রমপুরের মালখানগরে। জন্মের অল্প পরেই ধনুষ্টংকারে তাঁর মাতৃবিয়োগ ঘটে এবং পিতা ঢাকা বারের উকিল ভূদেবচন্দ্র বসু পরিব্রজ্যা গ্রহণ করে নিরুদ্দেশ হন। এমতাবস্থায় বুদ্ধদেব মাতুলালয়ে লালিত-পালিত হন। তাঁর শৈশব, কৈশোর ও যৌবনের প্রথমভাগ কাটে কুমিল্লা, নোয়াখালী ও ঢাকায়। ঢাকা থেকে প্রগতি (১৯২৭-১৯২৯) এবং কলকাতা থেকে কবিতা (১৯৩৫-১৯৬০) পত্রিকা প্রকাশ ও সম্পাদনা তাঁর জীবনের উল্লেখযোগ্য কর্ম। কবিতাবিষয়ক কবিতা পত্রিকাটি তখন সাহিত্যিক মহলে উচ্চ প্রশংসা লাভ করে; রবীন্দ্রোত্তর কবিতা-আন্দোলনেও এর ভূমিকা স্বীকৃত। বুদ্ধদেব নিজেও রবীন্দ্র-প্রভাববলয় থেকে বেরিয়ে আসেন।শুধু কবিতা নয়, বাংলা সাহিত্যের বিভিন্ন শাখায় বুদ্ধদেবের স্বচ্ছন্দ বিচরণ ছিল। তিনি রোম্যান্টিক কবিচেতনার অধিকারী ছিলেন; তবে পরবর্তীকালে তিনি আবেগ অপেক্ষা মননশীলতার ওপর গুরুত্বারোপ করেন। মননশীল প্রবন্ধ ও সাহিত্য-সমালোচনায় তিনি সূক্ষ্ম বুদ্ধিবৃত্তির পরিচয় দিয়েছেন। তাঁর গদ্যশৈলীতে আছে ব্যক্তিত্বের ছাপ। পদ্যগদ্য মিলিয়ে তাঁর গ্রন্থসংখ্যা শতাধিক <br/>❏ জীবনানন্দ দাশঃ (১৮৯৯-১৯৫৪) কবি, শিক্ষাবিদ। তিনি ১৮৯৯ সালের ১৭ ফেব্রুয়ারি বরিশালে জন্মগ্রহণ করেন। তাঁদের আদি নিবাস ছিল বিক্রমপুরের গাওপাড়া গ্রামে। তাঁর পিতা সত্যানন্দ দাশ ছিলেন স্কুলশিক্ষক ও সমাজসেবক। তিনি ব্রহ্মবাদী পত্রিকার প্রতিষ্ঠাতা সম্পাদক ছিলেন। মাতা কুসুমকুমারী দাশ ছিলেন একজন কবি।জীবনানন্দ বরিশাল ব্রজমোহন স্কুল থেকে ম্যাট্রিক (১৯১৫), বি এম কলেজ থেকে আই.এ (১৯১৭) এবং কলকাতার প্রেসিডেন্সি কলেজ থেকে ইংরেজিতে অনার্সসহ বি.এ (১৯১৯) ও ইংরেজিতে এম.এ (১৯২১) পাস করেন। আইন কলেজে ভর্তি হলেও শেষ পর্যন্ত তিনি পরীক্ষা দেননি। জীবনানন্দ কলকাতা সিটি কলেজে ১৯২২ সালে ইংরেজি সাহিত্যে অধ্যাপনা শুরু করেন। ১৯২৯ সালে তিনি সদ্য প্রতিষ্ঠিত বাগেরহাট প্রফুল্লচন্দ্র কলেজে যোগ দেন, কিন্তু কিছুদিন পর চাকরি ছেড়ে কলকাতায় চলে যান। ওই বছরই (১৯২৯) তিনি দিল্লির রামযশ কলেজে যোগ দেন এবং ১৯৩০-এ আবার দেশে প্রত্যাবর্তন করেন। পরে কিছুকাল বেকার থেকে জীবনানন্দ ১৯৩৫ সালে বরিশালের বিএম কলেজে যোগদান করেন। এভাবে তাঁর কর্মজীবন বিভিন্ন কলেজে অধ্যাপনায় এবং মাঝে মাঝে অন্য পেশায় অতিবাহিত হয়। ১৯৪৭ সালে দেশবিভাগের কিছু আগে তিনি সপরিবারে কলকাতা চলে যান।জীবনানন্দ ছিলেন বাংলা কাব্যান্দোলনে রবীন্দ্রবিরোধী তিরিশের কবিতা নামে খ্যাত কাব্যধারার অন্যতম কবি। পাশ্চাত্যের মডার্নিজম ও প্রথম বিশ্বযুদ্ধ পরবর্তী বঙ্গীয় সমাজের বিদগ্ধ মধ্যবিত্তের মনন ও চৈতন্যের সমন্বয় ঘটে ওই কাব্যান্দোলনে। <br/>❏ বিষ্ণু দেঃ (১৯০৯-১৯৮২) কবি, প্রাবন্ধিক, চিত্রসমালোচক ও শিল্পানুরাগী। ১৯০৯ সালের ১৮ জুলাই কলকাতার পটলডাঙ্গায় তাঁর জন্ম। পিতা অবিনাশচন্দ্র দে ছিলেন অ্যাটর্নি। কলকাতার মিত্র ইনস্টিটিউট ও সংস্কৃত কলেজিয়েট স্কুলে বিষ্ণু দে অধ্যয়ন করেন। ১৯২৭ সালে তিনি এ স্কুল থেকে ম্যাট্রিক পাস করেন। তারপর বঙ্গবাসী কলেজ থেকে আইএ (১৯৩০), সেন্ট পলস কলেজ থেকে ইংরেজিতে বিএ অনার্স (১৯৩২) এবং থেকে ইংরেজিতে এমএ (১৯৩৪) ডিগ্রি লাভ করেন। শিক্ষা সমাপনান্তে তিনি অধ্যাপনাকে পেশা হিসেবে বেছে নিয়ে ১৯৩৫ সালে কলকাতার রিপন কলেজে যোগদান করেন। পরে (১৯৪৪-১৯৪৭), মৌলানা আজাদ কলেজ (১৯৪৭-১৯৬৯) ও কৃষ্ণনগর কলেজে তিনি অধ্যাপনা করেন। বিষ্ণু দে ত্রিশোত্তর বাংলা কবিতার নব্যধারার আন্দোলনের প্রধান পাঁচজন কবির অন্যতম ছিলেন। তিনি মার্কসবাদী চেতনায় উদ্বুদ্ধ ছিলেন। কাব্যভাবনা ও প্রকাশরীতিতে বুদ্ধিবৃত্তি ও মননশীলতাকে অঙ্গীকার করেই তিনি কবিতা লেখেন। তাঁর কবিতায় টি.এস এলিয়টের কবিতার প্রভাব রয়েছে। দেশের অতীত ও বর্তমানের নানা বিষয় এবং বিদেশের বিশেষত ইউরোপের শিল্প-সাহিত্যের বিচিত্র প্রসঙ্গ তাঁর কাব্যের শরীর ও চিত্রকল্প নির্মাণ করেছে। এসব কারণে তাঁর কাব্য দুর্বোধ্যতার অভিযোগ থেকে মুক্ত নয়। খ্যাতনামা কবি বিষ্ণু দে ছিলেন সঙ্গীতশিল্পী ভীষ্মদেব চট্টোপাধ্যায়ের সতীর্থ এবং চিত্রশিল্পী যামিনী রায়ের বন্ধু। যামিনী রায়ের অনুপ্রেরণায়ই তিনি শিল্প-সমালোচনায় উদ্বুদ্ধ হয়ে বেশ কয়েকখানি মূল্যবান গ্রন্থ রচনা করেন। তিরিশের কাব্যধারায় বিষ্ণুদের মধ্যেই প্রথম রাবীন্দ্রিক কাব্যবলয় অতিক্রমণের প্রয়াস লক্ষ করা যায়। মার্কসীয় তত্ত্বকে জীবনাবেগ ও শিল্পসম্মত করে উপস্থাপনার ক্ষেত্রে তাঁর সাফল্য অপরিসীম। <br/>❏ সুধীন্দ্রনাথ দত্তঃ (৩০ অক্টোবর ১৯০১ – ২৫ জুন ১৯৬০) বাংলা ভাষার একজন প্রধান আধুনিক কবি। বিংশ শতকের ত্রিশ দশকের যে পাঁচ জন কবি বাংলা কবিতায় রবীন্দ্র প্রভাব কাটিয়ে আধুনিকতার সূচনা ঘটান তাদের মধ্যে সুধীন্দ্রনাথ অন্যতম। তাকে বাংলা কবিতায় “ধ্রুপদী রীতির প্রবর্তক” বলা হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "পিএসসি নন-ক্যাডার",
+    "exam": "৫০৬৪@সরকারি কর্ম কমিশন(PSC) ➺ সহকারী পরিচালক ☞ 15.9.25"
+  }
+]

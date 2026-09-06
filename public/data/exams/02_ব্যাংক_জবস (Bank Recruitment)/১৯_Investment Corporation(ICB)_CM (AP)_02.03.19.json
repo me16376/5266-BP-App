@@ -1,0 +1,512 @@
+[
+  {
+    "id": 290642,
+    "question": "Why would a hacker use a proxy server?",
+    "options": [
+      "To create a stronger connection with the target.",
+      "To create a ghost server on the network.",
+      "To hide malicious activity on the network.",
+      "To obtain a remote access connection."
+    ],
+    "correct_answer": "To hide malicious activity on the network.",
+    "explanation": "",
+    "hints": "📝<b>▣ A hacker usually uses a proxy server to hide malicious activity on the network.</b><br/>❐ হ্যাকার প্রক্সি সার্ভারে টার্গেট করা ওয়েবপেজের অনুলিপি তৈরি করে।<br/>❐ সার্চ ইঞ্জিনের র‍্যাঙ্কিং আর্টিফিসিয়ালি বাড়ানোর জন্য অন্য সাইট থেকে কী-ওয়ার্ড স্টাফিং কপি করে মেইন ওয়েবপেজের মত তৈরি করে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290643,
+    "question": "Which of the following creates a new type?",
+    "options": [
+      "Class",
+      "Object",
+      "Attribute",
+      "Method"
+    ],
+    "correct_answer": "Object",
+    "explanation": "",
+    "hints": "📝<b>▣ Object </b>creates a new type.<br/>❐ অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং এর ভাষায় কোন বস্তু কিংবা ঘটনার প্রোগ্রামিং সংস্করণ হলো অব্জেক্ট।<br/>❐ যেমন- একটি ব্যাংক একাউন্টকে একাউন্ট নাম্বার, একাউন্ট টাইপ এবং ব্যালেন্স দ্বারা নির্দিষ্ট করা যেতে পারে। এক্ষেত্রে ব্যাংক হলো একটা অবজেক্ট।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290644,
+    "question": "Which of the following words best means to add something at the end?",
+    "options": [
+      "Concatenate",
+      "Append",
+      "Join",
+      "Add"
+    ],
+    "correct_answer": "Append",
+    "explanation": "",
+    "hints": "📝<b>Append </b>(verb transitive) append something (to)<br/>English Meaning: To <b>append </b>means to add on, usually to the end of something.<br/>Bangla Meaning: (আনুষ্ঠানিক) লেখায় বা ছাপায় সংযুক্ত করা; (কোনো কিছু) পরিশেষে যোগ করা।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290645,
+    "question": "DRY principle makes the code:",
+    "options": [
+      "Reusable",
+      "Loop forever",
+      "Bad Repetitive",
+      "Complex"
+    ],
+    "correct_answer": "Reusable",
+    "explanation": "",
+    "hints": "📝DRY principle makes the code <b>Reusable.</b><br/>❐ DRY principle এর পূর্ণরূপ- “Don't Repeat Yourself” ।<br/>❐ এটি লজিক ডুপলিকেশন বাদ দেয়া হয় অ্যাবস্ট্রাকশনের মাধ্যমে।<br/>❐ এর অর্থ ডেভলপমেন্ট এর প্রোসেস এর সময় ডুপ্লিকেট কোড বাদ দেয়া।<br/>❐ এই প্রিন্সিপল যেকোন প্রোগ্রামিং ল্যাংগুয়েজ এ ব্যবহৃত করা যায়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290646,
+    "question": "How many numbers will be printed? i = 10 While true:print (i)i = i - 1if i < = 7:break",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "3",
+    "explanation": "",
+    "hints": "📝i = 10<br/>While true:<br/>print (i)<br/>i = i - 1<br/>if i < = 7:<br/>break<br/>এখানে কন্ডিশন দেয়া আছে, i এর মান হবে 7 এর বেশি।<br/>যেহেতু, i এর মান দেয়া আছে 10<br/>তাই প্রোগ্রাম এর শর্ত অনুযায়ী output হবে 3টি সংখ্যা।<br/>Output = 10, 9, 8<br/>❐ সুতরাং, 3টি নাম্বার প্রিন্ট হবে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290647,
+    "question": "Which concept enables programmers to assign a different meaning or usage to a variable, function, or an object in different contexts?",
+    "options": [
+      "Inheritance",
+      "Message passing",
+      "Polymorphism",
+      "Abstraction"
+    ],
+    "correct_answer": "Polymorphism",
+    "explanation": "",
+    "hints": "📝<b>Polymorphism (পলিমরফিজম)</b><br/>পলিমরফিজম অর্থ হচ্ছে বহুরূপ। একই ফাংশন বিভিন্নভাবে ব্যবহার করার উপায়কে পলিমরফিজম বলে।<br/>অর্থাৎ পলিমরফিজম হচ্ছে ভিন্ন ভিন্ন অবজেক্ট (object) কোনো নির্দিষ্ট একটি মেসেজ (Message) এর উত্তরে তাদের নিজেদের মতো করে সাড়া দিবে।<br/>❐ <i>",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290648,
+    "question": "Techniques of using fixed words for machine code function is classified as:",
+    "options": [
+      "Compiler",
+      "Translator",
+      "Mechanics",
+      "Mnemonics"
+    ],
+    "correct_answer": "Mnemonics",
+    "explanation": "",
+    "hints": "📝Techniques of using fixed words for machine code function is classified as <b>Mnemonics.<br/></b>- মেশিন ল্যাঙ্গুয়েজ প্রোগ্রামিং এ, <b>Mnemonics </b>ফাংশন হিসেবে ব্যবহৃত হয়।<br/>❐ যেমন- COM1 হল Mnemonics অ্যাসাইন করা পিসি এর serial port #1 এর জন্য।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290649,
+    "question": "Function which is used in stepwise refinement of program is classified",
+    "options": [
+      "Procedure",
+      "Library Format",
+      "Routine Format",
+      "Subroutine Format"
+    ],
+    "correct_answer": "Procedure",
+    "explanation": "",
+    "hints": "📝Function which is used in stepwise refinement of program is classified as Procedure<b>.<br/>-</b>প্রোগ্রামে যখন কতগুলো স্টেটমেন্ট কোনো নামে একটি ব্লকের মধ্যে অবস্থান করে কোনো নির্দিষ্ট কাজ সম্পাদন করে, তাকে ফাংশন বলা হয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290650,
+    "question": "The process to discover plain text or key is known as:",
+    "options": [
+      "Cryptanalysis",
+      "Crypoto design",
+      "Crypto process",
+      "Crypto graphic"
+    ],
+    "correct_answer": "Cryptanalysis",
+    "explanation": "",
+    "hints": "📝<b>▣ The process to discover plain text or key is known as Cryptanalysis.</b><br/>▣ কম্পিউটারে যে শাখায় ডেটার এনক্রিপ্ট ও ডিক্রিপ্ট করার বিষয় নিয়ে গবেষণা ও কাজ করা হয়, তাকে<b> ক্রিপ্টোগ্রাফি (Cryptography)</b> বলা হয়।<br/>❐ প্রকৃত বা মূল ডেটাকে <b>প্লেইন (Plane Text) টেক্সট </b>বলা হয়। <br/>❐ এনক্রিপ্ট করার পর যে ডেটা পাওয়া যায়, তাকে বলা হয় <b>সাইফার টেক্সট (Cipher Text)</b>।<br/>",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290651,
+    "question": "A compiler can check:",
+    "options": [
+      "Logical error",
+      "Syntax error",
+      "Both logical and Syntax error",
+      "Non logical and Syntax error"
+    ],
+    "correct_answer": "Syntax error",
+    "explanation": "",
+    "hints": "📝<b>▣ A compiler can check Syntax error.</b><br/><b>▣ কম্পাইলার (Compiler):</b> কম্পাইলার হল এমন একটি অনুবাদক যা সোর্স প্রোগ্রাম একসাথে সম্পূর্ণরূপে মেশিনের ভাষায় অনুবাদ করে একটি অবজেক্ট প্রোগ্রাম তৈরি করে এবং একটি এক্সিকিউশন ফাইল (.exe) তৈরি করে। <br/>❐ এখানকার এক্সিকিউশন ফাইল অত্যন্ত দ্রুততার সাথে এক্সিকিউট হয়ে থাকে। <br/>❐ ফলে প্রোগ্রামিং প্রক্রিয়া অত্যন্ত দ্রুততর হয় এবং প্রোগ্রামারকে নিজ হাতে কোন অনুবাদকের কাজ করতে হয় না।<br/>❐ ভিন্ন ভিন্ন উচ্চতর ভাষার প্রোগ্রামের জন্য ভিন্ন ভিন্ন কম্পাইলার ব্যবহৃত হয়। <br/>❐ কারণ কোন নির্দিষ্ট কম্পাইলার একটি মাত্র উচ্চতর ভাষার প্রোগ্রামকে কম্পাইল করতে পারে। যেমন- যে কম্পাইলার COBOL প্রোগ্রামকে কম্পাইল করতে পারে<br/>সেই কম্পাইলার বেসিক প্রোগ্রাম কম্পাইল করতে পারে না। <br/>❐ কম্পাইলার অনুবাদ করা ছাড়াও উৎস প্রোগ্রামের গুণাগুণও বিচার করতে পারে।<br/>❐ কম্পাইলারের প্রধান কাজ:<br/>❖ ১. উৎস প্রোগ্রামকে অনুবাদ করে অবজেক্ট প্রোগ্রাম তৈরি করা।<br/>❖ ২. প্রোগ্রামের সঙ্গে প্রয়োজনীয় রুটিন যোগ করা । রুটিন হলো প্রোথামের ছোট অংশ যাতে কোনো নির্দিষ্ট কাজ করার<br/>জন্য নির্দেশ দেয়া থাকে।<br/>❖ ৩. প্রোগ্রামে কোনো ভুল থাকলে তা জানানো ।<br/>❖ ৪. প্রোগ্রামের যেকোনো ভুল-ত্রুটি সংশোধন করা।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290652,
+    "question": "4x + 1 = 32 হলে x = ?",
+    "options": [
+      "2/3",
+      "3/5",
+      "1/8",
+      "3/2"
+    ],
+    "correct_answer": "3/2",
+    "explanation": "",
+    "hints": "📝প্রশ্ন: 4^(x + 1) = 32 হলে x = ?<br/>❐ সমাধান:<br/>4^(x + 1) = 32<br/>➾ (2²)^(x + 1) = 32<br/>➾ 2^(2x + 2) = 2⁵<br/>➾ 2x + 2 = 5<br/>➾ 2x = 5 - 2<br/>➾ 2x = 3<br/>∴ x = 3/2",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290653,
+    "question": "28√x + 1426 = three-fourths of 2984, find x.",
+    "options": [
+      "659",
+      "694",
+      "841",
+      "859"
+    ],
+    "correct_answer": "841",
+    "explanation": "",
+    "hints": "📝<b>প্রশ্ন:</b> 28√x + 1426 = three-fourths of 2984, find x.<br/>❐ <b>সমাধান:</b><br/>28√x +1426 = (3/4) × 2984<br/>➾ 28√x +1426 = 2238<br/>➾ 28√x = 2238 - 1426<br/>➾ 28√x = 812<br/>➾ √x = 812/28<br/>➾ √x = 29<br/>➾ x = (29)²<br/>∴ x = 841",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290654,
+    "question": "১০ টি সংখ্যার যোগফল ৪৬২, প্রথম ৪টির গড় ৫২ ও শেষ ৫টির গড় ৩৮ হলে ৫ম সংখ্যাটি কত?",
+    "options": [
+      "৬২",
+      "৭২",
+      "৬৪",
+      "৫৪"
+    ],
+    "correct_answer": "৬৪",
+    "explanation": "",
+    "hints": "📝<b>প্রশ্ন: </b>১০ টি সংখ্যার যোগফল ৪৬২, প্রথম ৪টির গড় ৫২ ও শেষ ৫টির গড় ৩৮ হলে ৫ম সংখ্যাটি কত?<br/>❐ <b>সমাধান:</b><br/>প্রথম ৪টি সংখ্যার গড় ৫২<br/>প্রথম ৪টির সংখ্যার সমষ্টি = (৫২ × ৪) = ২০৮<br/>❐ আবার,<br/>শেষ ৫টি সংখ্যার গড় ৩৮<br/>শেষ ৫টি সংখ্যার সমষ্টি = (৩৮ × ৫) = ১৯০<br/>❐ ∴ ৫ম সংখ্যাটি = {৪৬২ - (২০৮ + ১৯০)}<br/>➾ ৬৪",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290655,
+    "question": "একটি পণ্য বিক্রয় করে পাইকারী বিক্রেতা ২০% এবং খুচরা বিক্রেতা ২০% লাভ করে। যদি দ্রব্যটির খুচরা বিক্রয়মূল্য ৫৭৬ টাকা হয়, তবে পাইকারী বিক্রেতার ক্রয়মূল্য কত?",
+    "options": [
+      "২৫০ টাকা",
+      "৩০০ টাকা",
+      "৪০০ টাকা",
+      "৪৮০ টাকা"
+    ],
+    "correct_answer": "৪০০ টাকা",
+    "explanation": "",
+    "hints": "📝<b>প্রশ্ন:</b> একটি পণ্য বিক্রয় করে পাইকারী বিক্রেতা ২০% এবং খুচরা বিক্রেতা ২০% লাভ করে। যদি দ্রব্যটির খুচরা বিক্রয়মূল্য ৫৭৬ টাকা হয়, তবে পাইকারী বিক্রেতার ক্রয়মূল্য কত?<br/>❐ <b>সমাধান:</b><br/>খুচরা বিক্রেতার ক্ষেত্রে,<br/>২০% লাভে দ্রব্যটির ক্রয়মূল্য ১০০ টাকা হলে<br/>বিক্রয়মূল্য (১০০ + ২০) টাকা = ১২০ টাকা<br/>❐ বিক্রয়মূল্য ১২০ টাকা হলে ক্রয়মূল্য ১০০ টাকা<br/>∴ বিক্রয়মূল্য ১ টাকা হলে ক্রয়মূল্য ১০০/১২০ টাকা<br/>∴ বিক্রয়মূল্য ৫৭৬ টাকা হলে ক্রয়মূল্য (১০০ × ৫৭৬)/১২০ টাকা<br/>➾ ৪৮০ টাকা<br/>❐ খুচরা বিক্রেতার ক্রয়মূল্য = পাইকারী বিক্রেতার বিক্রয়মূল্য <br/>❐ পাইকারি বিক্রেতার ক্ষেত্রে,<br/>২০% লাভে দ্রব্যটির ক্রয়মূল্য ১০০ টাকা হলে<br/>বিক্রয়মূল্য (১০০ + ২০) টাকা = ১২০ টাকা<br/>❐ বিক্রয়মূল্য ১২০ টাকা হলে ক্রয়মূল্য ১০০ টাকা<br/>∴ বিক্রয়মূল্য ১ টাকা হলে ক্রয়মূল্য ১০০/১২০ টাকা<br/>∴ বিক্রয়মূল্য ৪৮০ টাকা হলে ক্রয়মূল্য (১০০ × ৪৮০)/১২০ টাকা<br/>➾ ৪০০ টাকা",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290656,
+    "question": "একটি গাড়ির চাকার ব্যাস ১.৬৭ মিটার। ২১ কিলোমিটার পথ যেতে চাকাটি কতবার ঘুরবে?",
+    "options": [
+      "১,০০০ বার",
+      "৩,০০০ বার",
+      "২৫,০০০ বার",
+      "৪,০০০ বার"
+    ],
+    "correct_answer": "৪,০০০ বার",
+    "explanation": "",
+    "hints": "📝<b>প্রশ্ন: </b>একটি গাড়ির চাকার ব্যাস ১.৬৭ মিটার। ২১ কিলোমিটার পথ যেতে চাকাটি কতবার ঘুরবে?<br/>❐ <b>সমাধান:</b><br/>চাকার ব্যাস = ১.৬৭ মিটার; ব্যাসার্ধ r = (১.৬৭/২) = ০.৮৩৫ মিটার<br/>একটি চাকা একবার ঘুরলে তার পরিধির সমান দুরত্ব অতিক্রম করে।<br/>পরিধি = ২πr = ২ × π × ০.৮৩৫ মিটার = ৫.২৪৬৭২ মি.<br/>২১ কিলোমিটার= ২১০০০ মি.<br/>তাহলে চাকাটি ঘুরবে = (২১০০০/৫.২৪৬৭২) বার = ৪০০২.৫০ বার।<br/>❐ কাছাকাছি উত্তর হিসেবে = ৪০০০ বার কে ধরা হয়েছে।",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290657,
+    "question": "a = √3 + √2 হলে a3 + 1/a3 = ?",
+    "options": [
+      "18√3",
+      "5√3",
+      "6√3",
+      "12√3"
+    ],
+    "correct_answer": "18√3",
+    "explanation": "",
+    "hints": "📝<b>প্রশ্ন:</b> a = √3 + √2 হলে a³ + 1/a³ = ?<br/>❐ <b>সমাধান:</b><br/>a = √3 + √2<br/>এখন,<br/>1/a = 1/(√3 + √2)<br/>➾ (√3 - √2)/(√3 + √2) (√3 - √2)<br/>➾ (√3 - √2)/(3 - 2)<br/>➾ √3 - √2<br/>❐ ∴ a + 1/a = √3 + √2 + √3 - √2 = 2√3<br/>a³ + 1/a³ = (a + 1/a)³ - 3 . a . 1/a . (a + 1/a)<br/>➾ (a + 1/a)³ - 3 × 2√3<br/>➾ (2√3)³ - 6√3<br/>➾ 24√3 - 6√3<br/>➾ 18√3",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290658,
+    "question": "a, b, c, d চারটি ক্রমিক স্বাভাবিক সংখ্যা হলে নিচের কোনটি পূর্ণবর্গ সংখ্যা?",
+    "options": [
+      "abcd",
+      "ab + cd",
+      "abcd + 1",
+      "abcd - 1"
+    ],
+    "correct_answer": "abcd + 1",
+    "explanation": "",
+    "hints": "📝<b>প্রশ্ন:</b> a, b, c, d চারটি ক্রমিক স্বাভাবিক সংখ্যা হলে নিচের কোনটি পূর্ণবর্গ সংখ্যা?<br/>❐ <b>সমাধান:</b><br/>আমরা জানি,<br/>যে কোনো চারটি ক্রমিক স্বাভাবিক সংখ্যার গুণফলের সাথে 1 যোগ করলে যোগফল একটি পূর্ণবর্গ সংখ্যা হবে।<br/>a, b, c, d চারটি ক্রমিক স্বাভাবিক সংখ্যা।<br/>a, b, c, d এর গুণফল = abcd<br/>❐ abcd গুণফলের সাথে 1 যোগ করলে যোগফল = abcd + 1<br/>abcd + 1 একটি পূর্ণবর্গ সংখ্যা হবে।",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290659,
+    "question": "পুলক আবিরের চেয়ে দ্বিগুণ দক্ষ এবং একই কাজ আবিরের চেয়ে ৬০ দিন কম সময়ে সম্পন্ন করতে পারে। তারা উভয়ে একত্রে কতদিনে কাজটি শেষ করতে পারবে?",
+    "options": [
+      "৯০ দিন",
+      "৬০ দিন",
+      "৪০ দিন",
+      "৩০ দিন"
+    ],
+    "correct_answer": "৪০ দিন",
+    "explanation": "",
+    "hints": "📝<b>প্রশ্ন:</b> পুলক আবিরের চেয়ে দ্বিগুণ দক্ষ এবং একই কাজ আবিরের চেয়ে ৬০ দিন কম সময়ে সম্পন্ন করতে পারে। তারা উভয়ে একত্রে কতদিনে কাজটি শেষ করতে পারবে?<br/>❐ <b>সমাধান:</b><br/>যেহেতু, পুলক আবিরের চেয়ে দ্বিগুণ দক্ষ।<br/>আবিরের প্রয়োজন ১২০ দিন<br/>∴ পুলকের প্রয়োজন ৬০ দিন<br/>❐ ∴ একত্রে করলে সময় লাগবে = (১২০ × ৬০)/(১২০ + ৬০) দিন<br/>➾ ৪০ দিন",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290660,
+    "question": "একটি টাকার থলেতে ১ টাকা, ৫০ পয়সা ও ২৫ পয়সা মূল্যমানের ৩৪২ টি মুদ্রা রয়েছে। মুদ্রাগুলোর মূল্যমানের অনুপাত ১১ : ৯ : ৫ হলে ৫০ পয়সা মূল্যমানের মুদ্রার সংখ্যা কয়টি?",
+    "options": [
+      "৯৯ টি",
+      "১৮০ টি",
+      "১৫০ টি",
+      "১২৫.৬ টি"
+    ],
+    "correct_answer": "১২৫.৬ টি",
+    "explanation": "",
+    "hints": "📌📝<b>প্রশ্ন: </b>একটি টাকার থলেতে ১ টাকা, ৫০ পয়সা ও ২৫ পয়সা মূল্যমানের ৩৪২ টি মুদ্রা রয়েছে। মুদ্রাগুলোর মূল্যমানের অনুপাত ১১ : ৯ : ৫ হলে ৫০ পয়সা মূল্যমানের মুদ্রার সংখ্যা কয়টি?<br/>❐ <b>সমাধান:</b><br/>ধরি, <br/>১ টাকা, ৫০ পয়সা ও ২৫ পয়সা মূল্যমানের মুদ্রাগুলোর মোট মূল্যমান যথাক্রমে ১১ক, ৯ক, ও ৫ক<br/>❐ প্রশ্নমতে,<br/>(১১ক/১) + (৯ক/০.৫) + (৫ক/০.২৫) = ৩৪২<br/>➾ {(১১ক + ১৮ক + ২০ক)/১} = ৩৪২<br/>➾ ৪৯ক = ৩৪২<br/>➾ ক= ৩৪২/৪৯<br/>∴ ৫০ পয়সা মূল্যমানের মুদ্রার সংখ্যা = (৯ক/০.৫)<br/>➾ ১৮ক<br/>➾ ১৮ × ৩৪২/৪৯<br/>➾ ১২৫.৬৩ ≅ ১২৬ টি<br/>",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290661,
+    "question": "সুদের হার দশমিক ৭৫ শতাংশ হ্রাস পাওয়াতে একজন আমানতকারীর আমানতের উপর ৪ বছরের প্রাপ্ত আয় ৭৫০ টাকা কমে যায়। তার আমানতের মোট পরিমাণ কত?",
+    "options": [
+      "২৫,০০০ টাকা",
+      "১৮,৭৫০ টাকা",
+      "৩০,০০০ টাকা",
+      "১,০০,০০০ টাকা"
+    ],
+    "correct_answer": "২৫,০০০ টাকা",
+    "explanation": "",
+    "hints": "📝<b>প্রশ্ন: </b>সুদের হার দশমিক ৭৫ শতাংশ হ্রাস পাওয়াতে একজন আমানতকারীর আমানতের উপর ৪ বছরের প্রাপ্ত আয় ৭৫০ টাকা কমে যায়। তার আমানতের মোট পরিমাণ কত?<br/>❐ <b>সমাধান:</b><br/>৪ বছরে কমে = ৭৫০ টাকা<br/>১ বছরে কমে = ৭৫০/৪ = ১৮৭.৫ টাকা<br/>❐ ০.৭৫ টাকা হ্রাস পেলে আমানত = ১০০ টাকা<br/>১ টাকা হ্রাস পেলে আমানত = ১০০/০.৭৫ টাকা<br/>∴ ১৮৭.৫ টাকা হ্রাস পেলে আমানত = (১০০ × ১৮৭.৫)/০.৭৫ টাকা<br/>➾ ২৫,০০০ টাকা",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290662,
+    "question": "A way of making a group of people all think about something at the same time to solve a problem is known as:",
+    "options": [
+      "co-operation",
+      "instruction",
+      "collaborating",
+      "brainstorming"
+    ],
+    "correct_answer": "brainstorming",
+    "explanation": "",
+    "hints": "📝Co-operation - the act of working together with someone or doing what they ask you.<b><br/></b>▣ Instruction - something that someone tells you to do:<br/>▣ Collaborating - to work together or with someone else for a special purpose.<br/>▣ <b>Brainstorming </b>- an activity or business method in which a group of people meet to suggest a lot of new ideas for possible development.<br/>❐ So, the correct answer is - <b>Brainstorming</b>.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290663,
+    "question": "Meaning of the idiom 'have one's duck in a row' is:",
+    "options": [
+      "well organized",
+      "being close",
+      "full count",
+      "do everything"
+    ],
+    "correct_answer": "well organized",
+    "explanation": "",
+    "hints": "📝Get your ducks in a row [mainly US]<br/>Meaning: to get everything <b>properly</b> <b>organized</b> and under control.<br/>Example Sentence: The government needs to get its ducks in a row.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290664,
+    "question": "No spelling error occurs in:",
+    "options": [
+      "ascientain",
+      "ascertane",
+      "ascertaain",
+      "ancient"
+    ],
+    "correct_answer": "ancient",
+    "explanation": "",
+    "hints": "📝সঠিক বানানটি - Ancient<br/>যার অর্থ - সুদূর অতীতের অন্তর্গত প্রাচীন.<br/>❐ অন্য অপশনগুলোর সঠিক বানান হতে পারে Ascertain.<br/>যার অর্থ - নিশ্চিত করা; নির্ধারণ করা; নিরূপণ করা; স্থির করা।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290665,
+    "question": "Find the synonym of the word 'cadaver'.",
+    "options": [
+      "Ascend",
+      "Develop",
+      "Corpse",
+      "Drop"
+    ],
+    "correct_answer": "Corpse",
+    "explanation": "",
+    "hints": "📝Cadaver (noun) - মড়া; শব; লাশ।<br/>❐ ক) Ascend - আরোহণ করা; উপরে ওঠা; চড়া<br/>খ) Develop - বড় হওয়া (বা করা); পূর্ণতর; পক্বতর হওয়া (বা করা)<br/>গ) Corpse - মৃতদেহ; শব (বিশেষত মানুষের)।<br/>ঘ) Drop - বিন্দু; ফোঁটা।<br/>❐ সুতরাং, বুঝা যাচ্ছে cadaver এর synonym হচ্ছে - <b>Corpse</b>.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290666,
+    "question": "She was hardly-hit by recent recession. Which word (s) make this sentence incorrect?",
+    "options": [
+      "was",
+      "hardly-hit",
+      "recent",
+      "recession"
+    ],
+    "correct_answer": "hardly-hit",
+    "explanation": "",
+    "hints": "📝Hardly-hit এর পরিবর্তে hard-hit হবে।<br/>❐ <b>Hard-hit:</b> profoundly stricken: affected in an especially negative way<br/>Ex: one of the industries particularly <b>hard-hit</b> during the downturn.",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290667,
+    "question": "Which one of the following words is an odd to the others?",
+    "options": [
+      "Joey",
+      "Filly",
+      "Vixen",
+      "Calf"
+    ],
+    "correct_answer": "Vixen",
+    "explanation": "",
+    "hints": "📝ক) Joey - a young kangaroo.<br/>খ) Filly - a young female horse, especially one that is less than 4 years old.<br/>গ) Vixen - a female fox.<br/>ঘ) Calf - a young cow, or the young of various other large mammals such as elephants and whales.<br/>❐ অর্থাৎ, Vixen ছাড়া বাকি সবগুলো young (শাবক/কমবয়সী) অর্থ প্রকাশ করছে।<br/>❐ <i>Source: Oxford Dictionary and Cambridge Dictionary</i>",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290668,
+    "question": "Find the correctly spelt word:",
+    "options": [
+      "Atomosphere",
+      "Atmosphere",
+      "Atmosphare",
+      "Atomosphare"
+    ],
+    "correct_answer": "Atmosphere",
+    "explanation": "",
+    "hints": "📝The correct spelling is - Atmosphere<br/>Meaning - বায়ুমণ্ডল; আবহমণ্ডল।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290669,
+    "question": "What is the meaning of the word 'Tranquil'?",
+    "options": [
+      "Awesome",
+      "Stupidly",
+      "Placid",
+      "Foolishness"
+    ],
+    "correct_answer": "Placid",
+    "explanation": "",
+    "hints": "📝🞕 Tranquil (adjective) - শান্ত; চুপচাপ।<br/>▣ Placid (adjective) - শান্ত; প্রসন্ন; সৌম্য।<br/>▣ Awesome (adjective) - ভীষণ; দারুণ।<br/>▣ Stupidly (noun) - নির্বুদ্ধিতা; বোকামি।<br/>▣ Foolishness (noun) - বোকামি; মূঢ়তা।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290670,
+    "question": "We had to face a lot of ________ due to their _____ act.",
+    "options": [
+      "Problems, desirable",
+      "Consequences, immeasurable",
+      "Worries, kind",
+      "Humiliation, disgraceful"
+    ],
+    "correct_answer": "Humiliation, disgraceful",
+    "explanation": "",
+    "hints": "📝Humiliation - অবমাননা<br/>disgraceful - অপযশস্কর, কলঙ্ককর, মন্দকাজ।<br/>❐ সম্পূর্ণ বাক্যের অর্থ - তাদের মন্দ কাজের জন্য আমাদের অনেক অপমানিত হতে হয়েছে।<br/>অন্যান্য অপশনের শব্দগুলোর অর্থ -<br/>Problems - সমস্যা<br/>desirable - কাম্য; কাঙ্ক্ষিত।<br/>❐ Consequences - ফলাফল; পরিণতি।<br/>immeasurable - অমেয়; অপ্রমেয়; অপরিমেয়।<br/>❐ Worries (plural form of worry) - দুশ্চিন্তা<br/>kind - সদয়; অপরের প্রতি সহানুভূতিশীল।<br/>❐ Context অনুসারে শূন্যস্থানে কেবল ঘ) অপশনের শব্দদ্বয় মানানসই।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  },
+  {
+    "id": 290671,
+    "question": "A person in a family who lived a long time ago is called:",
+    "options": [
+      "Ancestor",
+      "Follower",
+      "Past Member",
+      "Successor"
+    ],
+    "correct_answer": "Ancestor",
+    "explanation": "",
+    "hints": "📝Ancestor<br/>❐ a person in your family who lived a long time ago.<br/>❐ পূর্বপুরুষ; পিতৃপুরুষ।",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "Investment Corporation Of Bangladesh",
+    "exam": "১৯@Investment Corporation(ICB) ➺CM (AP)☞02.03.19"
+  }
+]

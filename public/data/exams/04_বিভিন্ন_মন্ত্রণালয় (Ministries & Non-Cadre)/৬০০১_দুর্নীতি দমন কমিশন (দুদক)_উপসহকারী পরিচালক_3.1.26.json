@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 334533,
+    "question": "f(x)=&nbsp;\\(\\frac{{{2}{x}+{5}}}{{{x}–{3}}}\\)</u> হলে f(4) = ?",
+    "options": [
+      "7",
+      "9/3",
+      "কোনটি নয়",
+      "13"
+    ],
+    "correct_answer": "13",
+    "explanation": "📖 f(x) = (২x + ৫) / (x - ৩)<br/>f(৪) = (২ × ৪ + ৫) / (৪ - ৩)<br/>= (৮ + ৫) / ১<br/>= ১৩<br/>উত্তর: ১৩<br/><br/>❏<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334534,
+    "question": "\\({x}+\\frac{{1}}{{x}}=\\frac{{1}}{{3}}\\)</u> হলে,&nbsp;\\({x}^{{3}}+\\frac{{1}}{{x}^{{3}}}\\)</u> এর মান কত?",
+    "options": [
+      "− 27/26",
+      "27/26",
+      "26/27",
+      "− 26/27"
+    ],
+    "correct_answer": "− 26/27",
+    "explanation": "📖 আমরা জানি, a³ + b³ = (a+b)³ - 3ab(a+b)<br/>∴ x³ + 1/x³ = (x + 1/x)³ - 3.x.(1/x)(x + 1/x)<br/>= (1/3)³ - 3(1/3)<br/>= 1/27 - 1<br/>= (1 - 27) / 27<br/>= -26/27<br/>⇢ <br/>⛳ x + ১/x = ১/৩<br/>x³ + ১/x³ = (x + ১/x)³ - ৩.x.১/x(x + ১/x)<br/>= (১/৩)³ - ৩(১/৩)<br/>= ১/২৭ - ১<br/>= (১ - ২৭) / ২৭<br/>= -২৬/২৭<br/>⇢ <br/>⛳ আমরা জানি সূত্র: a³ + b³ = (a + b)³ - 3ab(a + b)<br/>এখানে, a = x এবং b = 1/x<br/>তাই, x³ + 1/x³ = (x + 1/x)³ - 3 × x × (1/x) × (x + 1/x)<br/>= (1/3)³ - 3 × 1 × (1/3)<br/>= 1/27 - 1<br/>= (1 - 27) / 27<br/>= - 26 / 27<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334535,
+    "question": "A : B = 5 : 4, A : C = 6 : 5 হলে C : B = ?",
+    "options": [
+      "5 : 4",
+      "6 : 5",
+      "25 : 24",
+      "24 : 25"
+    ],
+    "correct_answer": "25 : 24",
+    "explanation": "📖 A/B = 5/4 এবং A/C = 6/5<br/>আমাদের বের করতে হবে C/B<br/>C/B = (C/A) × (A/B)<br/>= (5/6) × (5/4) [যেহেতু A/C = 6/5, তাই C/A = 5/6]<br/>= 25/24<br/>∴ C : B = 25 : 24<br/> ⇢ <br/>⛳ A : B = ৫ : ৪ = (৫ × ৬) : (৪ × ৬) = ৩০ : ২৪<br/>A : C = ৬ : ৫ = (৬ × ৫) : (৫ × ৫) = ৩০ : ২৫<br/>∴ A : B : C = ৩০ : ২৪ : ২৫<br/>∴ C : B = ২৫ : ২৪<br/> ⇢ <br/>⛳ প্রদত্ত, A : B = ৫ : ৪ এবং A : C = ৬ : ৫<br/>A কে একই করার জন্য প্রথম অনুপাতকে ৬ দিয়ে এবং দ্বিতীয় অনুপাতকে ৫ দিয়ে গুণ করি।<br/>A : B = (৫ × ৬) : (৪ × ৬) = ৩০ : ২৪<br/>A : C = (৬ × ৫) : (৫ × ৫) = ৩০ : ২৫<br/>এখন, A : B : C = ৩০ : ২৪ : ২৫<br/>তাই, C : B = ২৫ : ২৪",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334536,
+    "question": "|x-5| = 6 এর সমাধান সেট কোনটি?",
+    "options": [
+      "{1, -11}",
+      "{-1, 11}",
+      "{1, 11}",
+      "(-1,-11}"
+    ],
+    "correct_answer": "{-1, 11}",
+    "explanation": "📖 | x - 5| ➺ = 6<br/>পরমমান তুলে দিলে,<br/>হয়, x - 5 = 6<br/>বা, x = 6 + 5 = 11<br/>অথবা, x - 5 = -6<br/>বা, x = -6 + 5 = -1<br/>∴ নির্ণেয় সমাধান সেট {-1, 11}<br/>⇢ <br/>⛳ | x - ৫|➺ = ৬<br/>হয়, x - ৫ = ৬ ⇒ x = ১১<br/>অথবা, x - ৫ = -৬ ⇒ x = -১<br/>সমাধান সেট: {-১, ১১}<br/>⇢ <br/>⛳ প্রদত্ত সমীকরণ, | x - ৫ | = ৬<br/>আমরা জানি, | a | = b হলে a = ±b<br/>তাই, x - ৫ = ±৬<br/>ক্ষেত্র ১: x - ৫ = ৬ ⇒ x = ১১<br/>ক্ষেত্র ২: x - ৫ = -৬ ⇒ x = -১<br/>সুতরাং, সমাধান সেটটি হলো {-১, ১১}।<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334537,
+    "question": "18 মিটার লম্বা একটি মই ভূমির সাথে 30° কোণ করে দেয়ালের শীর্ষ স্পর্শ করে। দেয়ালের উচ্চতা কত?",
+    "options": [
+      "৪ মিটার",
+      "9 মিটার",
+      "10 মিটার",
+      "7 মিটার"
+    ],
+    "correct_answer": "9 মিটার",
+    "explanation": "📖 এখানে মইটি অতিভুজ = ১৮ মিটার।<br/>দেয়ালের উচ্চতা = লম্ব = h মিটার।<br/>কোণ = ৩০°<br/>আমরা জানি, sinθ = লম্ব/অতিভুজ<br/>sin ৩০° = h/১৮<br/>বা, ১/২ = h/১৮<br/>বা, 2h = ১৮<br/>বা, h = ৯<br/>উত্তর: ৯ মিটার।<br/> ⇢ <br/>⛳ মনে করি, AB একটি দেয়াল। AC মইটি ৩০°<br/>কোণ উৎপন্ন করে দেয়ালের ছাদ A বিন্দুতে স্পর্শ করে।<br/>∴ AC = ১৮<br/>∆ABC এ ∠B = ৯০°<br/>∴ Sin C = AB / AC<br/>⇒ Sin ৩০° = AB / ১৮<br/>⇒ ১ / ২ = AB / ১৮<br/>⇒ ২AB = ১৮<br/>⇒ AB = ১৮ / ২ = ৯<br/>উত্তর: ৯ মিটার।<br/> ⇢ <br/>⛳ মইটি অর্থাৎ কর্ণ (Hypotenuse) = ১৮ মিটার<br/>মই এবং মাটির মধ্যবর্তী কোণ = ৩০°<br/>আমরা জানি, sinθ = লম্ব / কর্ণ<br/>এখানে, sin30° = দেয়ালের উচ্চতা / ১৮<br/>বা, ১/২ = উচ্চতা / ১৮<br/>বা, উচ্চতা = ১৮ / ২<br/>বা, উচ্চতা = ৯ মিটার",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334538,
+    "question": "একজন কলা বিক্রেতা তার কাছে যে কলা ছিল তার ৪০% বিক্রয় করতে পারলো। সে গুনে দেখলো এখনো তার কাছে ১০ ডজন কলা আছে। তার তার কাছে প্রথমে কতটি কলা ছিল?",
+    "options": [
+      "১৮০টি",
+      "১২০টি",
+      "৪০০টি",
+      "২০০টি"
+    ],
+    "correct_answer": "২০০টি",
+    "explanation": "📖 বিক্রয় করেছে ৪০%, তাই অবশিষ্ট আছে (১০০ - ৪০)% = ৬০%<br/>প্রশ্নমতে, ৬০% কলা = ১০ ডজন<br/>বা, ৬০% কলা = ১০ × ১২ = ১২০ টি<br/>বা, ১% কলা = ১২০/৬০ = ২ টি<br/>বা, ১০০% কলা = ২ × ১০০ = ২০০ টি<br/>উত্তর: ২০০টি।<br/> ⇢ <br/>⛳ অবশিষ্ট কলার হার = ১০০% - ৪০% = ৬০%<br/>১০ ডজন = ১২০ টি<br/>প্রশ্নমতে, ৬০% = ১২০<br/>১% = ১২০ / ৬০ = ২<br/>১০০% = ২ × ১০০ = ২০০ টি।<br/> ⇢ <br/>⛳ ধরি, মোট কলা = x টি<br/>৪০% বিক্রি হলে ৬০% থাকে।<br/>১০ ডজন = ১২০ টি<br/>x এর ৬০% = ১২০<br/>বা, (৬০/১০০)x = ১২০<br/>বা, (৩/৫)x = ১২০<br/>বা, ৩x = ৬০০<br/>বা, x = ২০০<br/>সুতরাং, প্রথমে তার কাছে ২০০টি কলা ছিল।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334539,
+    "question": "m ও n উভয়ে বিজোড় সংখ্যা হলে নিচের কোনটি বিজোড়?",
+    "options": [
+      "mn",
+      "mn+2",
+      "mn+4",
+      "সবকটি"
+    ],
+    "correct_answer": "সবকটি",
+    "explanation": "📖 ধরি, m = 3, n = 5 (উভয়ে বিজোড়)<br/>১. mn = 3 × 5 = 15 (বিজোড়)<br/>২. mn + 2 = 15 + 2 = 17 (বিজোড়)<br/>৩. mn + 4 = 15 + 4 = 19 (বিজোড়)<br/>দুটি বিজোড় সংখ্যার গুণফল সর্বদা বিজোড় হয় এবং বিজোড় সংখ্যার সাথে জোড় সংখ্যা (২, ৪) যোগ করলে তা বিজোড়ই থাকে। তাই সবকটি সঠিক।<br/> ⇢ <br/>⛳ ধরি, m এবং n প্রত্যেকের মান ১,<br/>তাহলে প্রদত্ত মানটি দাঁড়ায়:<br/>অপশন a) mn = ১ × ১ = ১ (বিজোড়)।<br/>অপশন b) mn + ২ = (১ × ১) + ২ = ৩ (বিজোড়)।<br/>অপশন c) mn + ৪ = (১ × ১) + ৪ = ৫ (বিজোড়)।<br/>সুতরাং সবকটি সঠিক।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334540,
+    "question": "\\({35}−{2}{x}−{x}^{{2}}\\)</u>&nbsp;এর একটি উৎপাদক (7+x) হলে অপর উৎপাদক কত?",
+    "options": [
+      "5+x",
+      "5-x",
+      "7+x",
+      "7-x"
+    ],
+    "correct_answer": "5-x",
+    "explanation": "📖 রাশিটি: 35 - 2x - x²<br/>= 35 - 7x + 5x - x² (মিডল টার্ম ব্রেক)<br/>= 7(5 - x) + x(5 - x)<br/>= (5 - x) (7 + x)<br/>যেহেতু একটি উৎপাদক (7 + x), তাই অপরটি (5 - x)।<br/>⇢ <br/>⛳ দেওয়া আছে, ৩৫ - ২x - x²<br/>= -x² - ২x + ৩৫<br/>= -x² - ৭x + ৫x + ৩৫<br/>= -x(x + ৭) + ৫(x + ৭)<br/>= (x + ৭) (-x + ৫)<br/>= (x + ৭) (৫ - x)<br/>অর্থাৎ অপর উৎপাদক হলো (৫ - x)<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334541,
+    "question": "ঝন্টু ও তার বাবার বয়সের সমষ্টি বর্তমানে ৪০ বছর। ঝন্টুর বাবা তার চাইতে ২৮ বছরের বড়। ১৩ বছর পর তাদের দু'জনের বয়সের সমষ্টি কত হবে?",
+    "options": [
+      "৫৩ বছর",
+      "৬৬ বছর",
+      "৬৮ বছর",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "৬৬ বছর",
+    "explanation": "📖 বর্তমানে দুজনের বয়সের সমষ্টি = ৪০ বছর।<br/>১৩ বছর পর ঝন্টুর বয়স বাড়বে ১৩ এবং বাবার বয়স বাড়বে ১৩।<br/>মোট বাড়বে = ১৩ + ১৩ = ২৬ বছর।<br/>১৩ বছর পর তাদের বয়সের সমষ্টি হবে = ৪০ + ২৬ = ৬৬ বছর।<br/>(বাবার বয়স ঝন্টুর চেয়ে কত বড় তা এই অংকে সমষ্টি বের করতে প্রয়োজন নেই)।<br/> ⇢ <br/>⛳ বর্তমানে সমষ্টি = ৪০ বছর<br/>১৩ বছর পর ঝন্টুর বয়স বাড়বে ১৩ বছর<br/>১৩ বছর পর বাবার বয়স বাড়বে ১৩ বছর<br/>১৩ বছর পর মোট সমষ্টি হবে = ৪০ + ১৩ + ১৩ = ৬৬ বছর।<br/> ⇢ <br/>⛳ ধরি, ঝন্টুর বর্তমান বয়স = x বছর<br/>তাহলে, ঝন্টুর বাবার বর্তমান বয়স = (x + ২৮) বছর<br/>বর্তমানে তাদের বয়সের সমষ্টি = ৪০ বছর<br/>x + (x + ২৮) = ৪০<br/>বা, ২x + ২৮ = ৪০<br/>বা, ২x = ১২<br/>বা, x = ৬<br/>সুতরাং, ঝন্টুর বয়স = ৬ বছর এবং বাবার বয়স = ৩৪ বছর<br/>১৩ বছর পর:<br/>ঝন্টুর বয়স হবে = (৬ + ১৩) = ১৯ বছর<br/>বাবার বয়স হবে = (৩৪ + ১৩) = ৪৭ বছর<br/>সমষ্টি হবে = (১৯ + ৪৭) = ৬৬ বছর",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334542,
+    "question": "\\({{\\Log}_{{{2}\\sqrt{{2}}}}{x}}={4}\\)</u>&nbsp;হলে x =?",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "112"
+    ],
+    "correct_answer": "64",
+    "explanation": "📖 লগের সূত্রানুসারে, logₐ(x) = b হলে x = aᵇ<br/>এখানে ভিত্তি a = 2√2 এবং b = 4<br/>∴ x = (2√2)⁴<br/>= 2⁴ × (√2)⁴<br/>= 16 × 4<br/>= 64<br/>উত্তর: 64<br/>⇢ <br/>⛳ দেওয়া আছে, log₂√₂ x = 4<br/>⇒ x = (2√2)⁴<br/>= 2⁴ × (√2)⁴<br/>= ১৬ × ৪<br/>= ৬৪<br/>উত্তর: ৬৪<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334543,
+    "question": "\\({\\left({2}{x}^{{-{{1}}}}\\right)}^{{2}}÷{x}^{{-{{5}}}}\\)</u>=?",
+    "options": [
+      "\\({4}{x}^{{3}}\\)",
+      "\\({2}{x}^{{2}}\\)",
+      "\\({4}{x}^{−}{3}\\)",
+      "\\({4}{x}^{{−{7}}}\\)"
+    ],
+    "correct_answer": "\\({4}{x}^{{3}}\\)",
+    "explanation": "📖 প্রদত্ত রাশি: (2x⁻¹)² ÷ x⁻⁵<br/>= 2² × (x⁻¹)² ÷ x⁻⁵<br/>= 4 × x⁻² ÷ x⁻⁵<br/>= 4x⁽⁻²⁻⁽⁻⁵⁾<br/>= 4x³<br/>⇢ <br/>⛳ দেওয়া আছে: (2x⁻¹)² ÷ x⁻⁵<br/>= 4x⁻² ÷ x⁻⁵<br/>ভাগশেষের সূত্র অনুযায়ী, xᵃ ÷ xᵇ = x⁽ᵃ⁻ᵇ⁾<br/>= 4x⁻²⁻⁽⁻⁵⁾<br/>= 4x⁻²⁺⁵<br/>= 4x³<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334544,
+    "question": "৯ জন খেলোয়াড়ের একটি দল থেকে ৬ জন খেলোয়াড় কতভাবে নির্বাচন করা যাবে?",
+    "options": [
+      "২৭",
+      "৭২",
+      "৮০",
+      "৮৪"
+    ],
+    "correct_answer": "৮৪",
+    "explanation": "📖 ৯ জন থেকে ৬ জন নির্বাচনের উপায় = ⁹C₆<br/>⁹C₆ = ⁹C₍₉₋₆₎ = ⁹C₃<br/>= (৯ × ৮ × ৭) / (৩ × ২ × ১)<br/>= ৩ × ৪ × ৭<br/>= ৮৪<br/>উত্তর: ৮৪ ভাবে।<br/> ⇢ <br/>⛳ ৯ জন থেকে ৬ জনকে বাছাই করার উপায় = ⁹C₆<br/>= ⁹C₃ (যেহেতু ⁿCᵣ = ⁿCₙ₋ᵣ)<br/>= (৯ × ৮ × ৭) / (৩ × ২ × ১)<br/>= ৩ × ৪ × ৭<br/>= ৮৪ উপায়ে।<br/> ⇢ <br/>⛳ ৯ জনের মধ্য থেকে ৬ জনকে নির্বাচন করার উপায় হলো Combination বা nCr ব্যবহার করা।<br/>এখানে, n = ৯ এবং r = ৬<br/>উপায় = ⁹C₆<br/>আমরা জানি, ⁿCᵣ = ⁿC₍ₙ₋ᵣ₎<br/>তাই, ⁹C₆ = ⁹C₍₉₋₆₎ = ⁹C₃<br/>⁹C₃ = (৯ × ৮ × ৭) / (৩ × ২ × ১)<br/>= (৫০৪) / (৬)<br/>= ৮৪<br/>অথবা,<br/>⁹C₆ = (৯ × ৮ × ৭ × ৬ × ৫ × ৪) / (৬ × ৫ × ৪ × ৩ × ২ × ১)<br/>= (৬০৪৮০) / (৭২০)<br/>= ৮৪",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334545,
+    "question": "একটি ছক্কা পরপর ২ বার নিক্ষেপ করলে ২বারই ছয় উঠার সম্ভাব্যতা কত?",
+    "options": [
+      "১/২×১/২",
+      "১/৬×১/৬",
+      "১/২×১/৬",
+      "১/৬×২/৫"
+    ],
+    "correct_answer": "১/৬×১/৬",
+    "explanation": "📖 একটি ছক্কায় ৬ উঠার সম্ভাবনা = ১/৬<br/>পরপর দুইবার নিক্ষেপ স্বাধীন ঘটনা।<br/>তাই, দুইবারই ৬ উঠার সম্ভাবনা = (১ম বার ৬ উঠার সম্ভাবনা) × (২য় বার ৬ উঠার সম্ভাবনা)<br/>= ১/৬ × ১/৬<br/>= ১/৩৬<br/> ⇢ <br/>⛳ একবার ছক্কা নিক্ষেপে ৬ ওঠার সম্ভাবনা = ১/৬<br/>পরপর দুইবার নিক্ষেপে দুইবারই ৬ ওঠার সম্ভাবনা = ১/৬ × ১/৬<br/>উত্তর: ১/৬ × ১/৬<br/> ⇢ <br/>⛳ ছক্কায় ৬টি ফলাফল (1, 2, 3, 4, 5, 6) আসার সম্ভাবনা সমান।<br/>একবার ছক্কা মারলে ৬ উঠার সম্ভাব্যতা = ১/৬<br/>দুইবার ছক্কা মারলে প্রতিবারই ৬ উঠতে হবে।<br/>যেহেতু দুটি ঘটনা স্বাধীন, তাই মোট সম্ভাব্যতা = প্রতিটি ঘটনার সম্ভাব্যতার গুণফল<br/>= (১/৬) × (১/৬)<br/>= ১/৩৬",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334546,
+    "question": "যদি A = {1, 2, 3} এবং B = {2, 3, 5} হয় তাহলে A/B= কত?",
+    "options": [
+      "{1,5}",
+      "{1/2, 2/3, 3/5}",
+      "{1/2,1/3,1/5}",
+      "{1}"
+    ],
+    "correct_answer": "{1}",
+    "explanation": "📖 A/B বা A - B মানে হলো A সেটের উপাদানগুলো থেকে B সেটের উপাদানগুলো বাদ দেওয়া।<br/>A = {১, ২, ৩}<br/>B = {২, ৩, ৫}<br/>A - B = {১, ২, ৩} - {২, ৩, ৫}<br/>= {১} (এখানে ২ ও ৩ বাদ যাবে কারণ তারা B সেটে আছে)<br/>উত্তর: {১}<br/> ⇢ <br/>⛳ A / B মানে A সেট থেকে B সেটের উপাদানগুলো বাদ দেওয়া।<br/>A = {১, ২, ৩}<br/>B = {২, ৩, ৫}<br/>A / B = {১}<br/>উত্তর: {১}<br/> ⇢ <br/>⛳ A/B মানে হলো A - B বা A থেকে B কে বিয়োগ করা।<br/>অর্থাৎ, A এর উপাদানের মধ্যে যেগুলো B তে নেই, শুধুমাত্র সেগুলোই থাকবে।<br/>A = {1, 2, 3}<br/>B = {2, 3, 5}<br/>এখানে,<br/>A এর উপাদান ১ -> B তে নেই (থাকবে)<br/>A এর উপাদান ২ -> B তে আছে (বাদ যাবে)<br/>A এর উপাদান ৩ -> B তে আছে (বাদ যাবে)<br/>তাই, A - B = {1}",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334547,
+    "question": "একটি ধারার সংখ্যাগুলো নিম্নরূপ 1, 1, 2, 3, 5, 8, এর ১০তম সংখ্যা কত হবে?",
+    "options": [
+      "67",
+      "55",
+      "40",
+      "64"
+    ],
+    "correct_answer": "55",
+    "explanation": "📖 এটি একটি ফিবোনাচ্চি ধারা (পূর্ববর্তী দুটি সংখ্যার যোগফল পরবর্তী সংখ্যা)।<br/>১ম = ১<br/>২য় = ১<br/>৩য় = ১+১ = ২<br/>৪র্থ = ১+২ = ৩<br/>৫ম = ২+৩ = ৫<br/>৬ষ্ঠ = ৩+৫ = ৮<br/>৭ম = ৫+৮ = ১৩<br/>৮ম = ৮+১৩ = ২১<br/>৯ম = ১৩+২১ = ৩৪<br/>১০ম = ২১+৩৪ = ৫৫<br/>উত্তর: ৫৫<br/> ⇢ <br/>⛳ ধারাটি হলো: ১, ১, ২, ৩, ৫, ৮... (ফিবোনাচ্চি ধারা)<br/>৭ম সংখ্যা = ৫ + ৮ = ১৩<br/>৮ম সংখ্যা = ৮ + ১৩ = ২১<br/>৯ম সংখ্যা = ১৩ + ২১ = ৩৪<br/>১০ম সংখ্যা = ২১ + ৩৪ = ৫৫<br/>উত্তর: ৫৫",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334548,
+    "question": "∆ABC এর < A = 37°, < C = 53° হলে এটি কি ধরনের ত্রিভুজ?",
+    "options": [
+      "সমবাহু ত্রিভুজ",
+      "বৃত্তস্থ ত্রিভুজ",
+      "সমকোণী ত্রিভুজ",
+      "ত্রিভুজ হবে না"
+    ],
+    "correct_answer": "সমকোণী ত্রিভুজ",
+    "explanation": "📖 ত্রিভুজের তিন কোণের সমষ্টি ১৮০°।<br/>দেওয়া আছে, <A = ৩৭° এবং <C = ৫৩°<br/>∴ <B = ১৮০° - (৩৭° + ৫৩°)<br/>= ১৮০° - ৯০°<br/>= ৯০°<br/>যেহেতু একটি কোণ ৯০° বা সমকোণ, তাই এটি একটি সমকোণী ত্রিভুজ।<br/> ⇢ <br/>⛳ ত্রিভুজের তিন কোণের সমষ্টি ১৮০°<br/>তৃতীয় কোণ = ১৮০° - (৩৭° + ৫৩°)<br/>= ১৮০° - ৯০°<br/>= ৯০°<br/>যেহেতু একটি কোণ ৯০°, তাই এটি সমকোণী ত্রিভুজ।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334549,
+    "question": "একটি সমবাহু ত্রিভুজের এক বাহুর দৈর্ঘ্য a একক হলে ত্রিভুজটির ক্ষেত্রফল কত বর্গ একক?",
+    "options": [
+      "\\(\\frac{\\sqrt{{3}}}{{2}}{a}^{{2}}\\) বর্গ একক",
+      "\\({a}^{{3}}\\) বর্গ একক",
+      "\\(\\frac{{2}}{\\sqrt{{3}}}{a}^{{2}}\\) বর্গ একক",
+      "\\(\\frac{\\sqrt{{3}}}{{4}}{a}^{{2}}\\) বর্গ একক"
+    ],
+    "correct_answer": "\\(\\frac{\\sqrt{{3}}}{{4}}{a}^{{2}}\\) বর্গ একক",
+    "explanation": "📖 সমবাহু ত্রিভুজের ক্ষেত্রফল নির্ণয়ের সূত্র হলো (√৩/৪) × (বাহু)²।<br/>সুতরাং, বাহুর দৈর্ঘ্য a হলে ক্ষেত্রফল = (√৩/৪)a² বর্গ একক।<br/>⇢ <br/>⛳ সমবাহু ত্রিভুজের একটি বাহু a একক হলে সমবাহু<br/>ত্রিভুজের ক্ষেত্রফল √৩/৪ a² বর্গ একক।<br/>⇢ <br/>⛳ আমরা জানি, সমবাহু ত্রিভুজের ক্ষেত্রফল = (√3/4) × (বাহু)²<br/>এখানে, বাহু = a<br/>তাই, ক্ষেত্রফল = (√3/4) × a²<br/>= √3/4 a² বর্গ একক<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334550,
+    "question": "একটি বর্গাকার মাঠের বাইরে চারদিকে 5 মিটার চওড়া একটি রাস্তা আছে। রাস্তার ক্ষেত্রফল 500 বর্গমিটার হলে মাঠের ক্ষেত্রফল কত?",
+    "options": [
+      "২০০ বর্গমিটার",
+      "৩০০ বর্গমিটার",
+      "৬০০ বর্গমিটার",
+      "৪০০ বর্গমিটার"
+    ],
+    "correct_answer": "৪০০ বর্গমিটার",
+    "explanation": "📖 ধরি, বর্গাকার মাঠের এক বাহুর দৈর্ঘ্য = x মিটার<br/>∴ মাঠের ক্ষেত্রফল = x² বর্গমিটার<br/>রাস্তাসহ মাঠের এক বাহুর দৈর্ঘ্য = (x + ৫ + ৫) = (x + ১০) মিটার<br/>রাস্তাসহ মাঠের ক্ষেত্রফল = (x + ১০)² বর্গমিটার<br/>প্রশ্নমতে, রাস্তার ক্ষেত্রফল = (x + ১০)² - x² = ৫০০<br/>বা, x² + ২০x + ১০০ - x² = ৫০০<br/>বা, ২০x = ৫০০ - ১০০<br/>বা, ২০x = ৪০০<br/>বা, x = ২০<br/>∴ মাঠের ক্ষেত্রফল = (২০)² = ৪০০ বর্গমিটার।<br/> ⇢ <br/>⛳ ধরি, বর্গাকার মাঠের এক বাহুর দৈর্ঘ্য = x মিটার<br/>তাহলে, রাস্তাসহ বাইরের বর্গটির বাহু = (x + 5 + 5) মিটার = (x + ১০) মিটার<br/>প্রশ্নে বলা আছে, রাস্তার ক্ষেত্রফল = ৫০০ বর্গমিটার<br/>আমরা জানি, রাস্তার ক্ষেত্রফল = বড় বর্গের ক্ষেত্রফল - ছোট বর্গের ক্ষেত্রফল<br/>অর্থাৎ, (x + ১০)² - x² = ৫০০<br/>বা, (x² + ২০x + ১০০) - x² = ৫০০<br/>বা, ২০x + ১০০ = ৫০০<br/>বা, ২০x = ৫০০ - ১০০<br/>বা, ২০x = ৪০০<br/>বা, x = ৪০০ / ২০<br/>বা, x = ২০ মিটার<br/>তাই, মাঠের ক্ষেত্রফল = x² = (২০)² = ৪০০ বর্গমিটার",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334551,
+    "question": "\"ক\" একটি কাজ ৬ দিনে করতে পারে। \"খ\" ঐ কাজটি ১২ দিনে করতে পারে। ক ও খ একত্রে ঐ কাজটি কত দিনে করতে পারবে?",
+    "options": [
+      "৬ দিনে",
+      "৫ দিনে",
+      "৪ দিনে",
+      "১২ দিনে"
+    ],
+    "correct_answer": "৪ দিনে",
+    "explanation": "📖 ক ১ দিনে করে কাজটির ১/৬ অংশ<br/>খ ১ দিনে করে কাজটির ১/১২ অংশ<br/>ক ও খ একত্রে ১ দিনে করে = (১/৬ + ১/১২) অংশ<br/>= (২ + ১)/১২ অংশ<br/>= ৩/১২ অংশ<br/>= ১/৪ অংশ<br/>∴ তারা একত্রে সম্পূর্ণ কাজটি করবে ৪ দিনে।<br/> ⇢ <br/>⛳ ক এর ১ দিনের কাজ = ১/৬ অংশ<br/>খ এর ১ দিনের কাজ = ১/১২ অংশ<br/>ক ও খ একত্রে ১ দিনের কাজ = (১/৬ + ১/১২) অংশ<br/>= (২ + ১) / ১২ অংশ<br/>= ৩/১২ অংশ<br/>= ১/৪ অংশ<br/>তাই, কাজটি সম্পন্ন করতে মোট সময় লাগবে = ১ / (১/৪) দিন = ৪ দিন",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334552,
+    "question": "দুইটি সংখ্যার অনুপাত 3 : 4 এবং তাদের ল.সা.গু 180 হলে সংখ্যা দুইটি কত?",
+    "options": [
+      "৪৫, ৬০",
+      "২৭, ৩৬",
+      "৩০, ৪০",
+      "৬০, ৮০"
+    ],
+    "correct_answer": "৪৫, ৬০",
+    "explanation": "📖 ধরি, সংখ্যা দুটি ৩ক এবং ৪ক।<br/>সংখ্যা দুটির ল.সা.গু = ৩ × ৪ × ক = ১২ক<br/>প্রশ্নমতে, ১২ক = ১৮০<br/>বা, ক = ১৮০/১২ = ১৫<br/>∴ ১ম সংখ্যাটি = ৩ × ১৫ = ৪৫<br/>∴ ২য় সংখ্যাটি = ৪ × ১৫ = ৬০<br/>উত্তর: ৪৫, ৬০<br/> ⇢ <br/>⛳ ধরি, সংখ্যা দুটি ৩x এবং ৪x<br/>তাদের ল.সা.গু = ১২x<br/>প্রশ্নমতে, ১২x = ১৮০<br/>বা, x = ১৮০ / ১২<br/>বা, x = ১৫<br/>সংখ্যা দুটি হলো:<br/>৩ × ১৫ = ৪৫<br/>৪ × ১৫ = ৬০<br/>উত্তর: ৪৫, ৬০<br/> ⇢ <br/>⛳ ধরি, সংখ্যা দুইটি 3x এবং 4x<br/>প্রশ্নে দেওয়া আছে, ল.সা.গু (LCM) = 180<br/>আমরা জানি, দুটি সংখ্যার গুণফল = ল.সা.গু × গ.সা.গু<br/>এবং অনুপাতের সংখ্যাগুলোর গুণফল = 3x × 4x = 12x²<br/>অনুপাতের সংখ্যাগুলোর ল.সা.গু হবে 12x এর উৎপাদক (যেহেতু 3 এবং 4 সহমৌলিক, তাদের ল.সা.গু হলো 3×4 = 12)<br/>তাই, 12x = 180<br/>বা, x = 180 / 12<br/>বা, x = 15<br/>সুতরাং সংখ্যা দুইটি হলো:<br/>3x = 3 × 15 = 45<br/>4x = 4 × 15 = 60",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334553,
+    "question": "The synonym of 'altitude' is-",
+    "options": [
+      "height",
+      "width",
+      "length",
+      "depth"
+    ],
+    "correct_answer": "height",
+    "explanation": "📖 Altitude: উচ্চতা (সমুদ্রপৃষ্ঠ থেকে)।<br/>❏ Height: উচ্চতা।<br/>❏ তাই সঠিক সমার্থক শব্দ Height।<br/> ⇢ <br/>⛳ Altitude অর্থ উচ্চতা (Height); কিন্তু Width অর্থ প্রস্থ। Length অর্থ দৈর্ঘ্য। আর Depth অর্থ গভীরতা।<br/>❏ Option Analysis:<br/>❏ a) height: সঠিক উত্তর।<br/>❏ b) width: প্রস্থ।<br/>❏ c) length: দৈর্ঘ্য।<br/>❏ d) depth: গভীরতা।<br/> ⇢ <br/>⛳ 'Altitude' শব্দের অর্থ উচ্চতা বা উচ্চভূমি। এর সমার্থক শব্ণ (Synonym) হলো 'height'।<br/>❏ Option Analysis:<br/>❏ Width (প্রস্থ), Length (দৈর্ঘ্য), Depth (গভীরতা)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334554,
+    "question": "Who is not a Victorian poet?",
+    "options": [
+      "Alfred Tennyson",
+      "Robert Browning",
+      "William Wordsworth",
+      "Matthew Arnold"
+    ],
+    "correct_answer": "William Wordsworth",
+    "explanation": "📖 Alfred Tennyson, Robert Browning এবং Matthew Arnold সবাই ভিক্টোরিয়ান যুগের (1832-1901) কবি। কিন্তু William Wordsworth হলেন রোমান্টিক যুগের (1798-1832) অন্যতম প্রধান কবি।<br/> ⇢ <br/>⛳ The victorian period শুরু হয়েছিল ১৮৩২ সালে এবং শেষ হয়েছিল ১৯০১ সালে। অনেক কবি সাহিত্যিক এই যুগকে তাদের লেখনীর মাধ্যমে সমৃদ্ধ করেছেন। এদের মধ্যে আছে এই যুগের একজন শ্রেষ্ঠ Poet & Critic Mathew Arnold. Robert Browning যিনি Dramatic Monologue এর জন্য বিখ্যাত। তিনিও এই Victorian যুগের লেখক এবং Lord Alfred Tennyson হলেন Victorian যুগের Representative poet। তিনি Poet Laureate ও নির্বাচিত হয়েছিলেন। কিন্তু William Wordsworth (রোমান্টিক যুগের কবি) তার title গুলো হলো: Poet of Nature, Poet of Childhood, Believer in Pantheism.<br/> ⇢ <br/>⛳ ভিক্টোরিয়ান যুগ (১৮৩৭-১৯০১) এর কবিরা হলেন Alfred Tennyson, Robert Browning, Matthew Arnold। কিন্তু William Wordsworth (১৭৭০-১৮৫০) ছিলেন Romantic Age (রোমান্টিক যুগ) এর কবি। তাই তিনি ভিক্টোরিয়ান কবি নন।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334555,
+    "question": "Millennium is a period of",
+    "options": [
+      "100 year",
+      "1000 year",
+      "1 million year",
+      "1 billion year"
+    ],
+    "correct_answer": "1000 year",
+    "explanation": "📖 Decade = 10 years.<br/>❏ Century = 100 years.<br/>❏ Millennium = 1000 years (সহস্রাব্দ)।<br/> ⇢ <br/>⛳ Millennium is a period of 1000 year.<br/>❏ 1 biennium ➺ 2 years<br/>❏ 1 lustrum ➺ 5 years<br/>❏ 1 decade ➺ 10 years<br/>❏ 1 century ➺ 100 years<br/>❏ 1 millennium ➺ 1000 years<br/>❏ 1 Decamillennial ➺ 10000 years<br/>❏ 1 Centamillennium ➺ 100000 years<br/> ⇢ <br/>⛳ মিলেনিয়াম বা সহস্রাব্দ হলো এক হাজার বছরের সময়কাল। এক শতাব্দী হলো Century (১০০ বছর)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334556,
+    "question": "He does not adhere ………. any principle",
+    "options": [
+      "by",
+      "on",
+      "at",
+      "to"
+    ],
+    "correct_answer": "to",
+    "explanation": "📖 Adhere to একটি Appropriate Preposition যার অর্থ হলো লেগে থাকা, অটল থাকা বা মেনে চলা।<br/> ⇢ <br/>⛳ Adhere to something অর্থ দৃঢ়ভাবে লেগে থাকা/অবিচল থাকা। কিন্তু Principle অর্থ নীতি। বাক্যটির অর্থ: সে যেকোনো নীতিতে/আদর্শে অবিচল থাকে না।<br/>❏ Option Analysis:<br/>❏ a) by: ভুল।<br/>❏ b) on: ভুল।<br/>❏ c) at: ভুল।<br/>❏ d) to: সঠিক উত্তর (Appropriate Preposition)।<br/> ⇢ <br/>⛳ 'Adhere' শব্দের সাথে সাধারণত 'to' প্রিপোজিশন বসে। Adhere to মানে 'মেনে চলা' বা 'আঁকড়ে ধরা'। সঠিক বাক্য: \"He does not adhere to any principle.\"",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334557,
+    "question": "She insisted on ………. leaving the house",
+    "options": [
+      "he",
+      "him",
+      "himself",
+      "his"
+    ],
+    "correct_answer": "his",
+    "explanation": "📖 Preposition (on) এর পরে যদি Verb+ing (Gerund) থাকে, তবে তার আগে Noun/Pronoun এর Possessive form বসে। এখানে 'leaving' (Gerund) এর আগে 'him' না বসে 'his' বসবে। (Insisted on his leaving)।<br/> ⇢ <br/>⛳ বাক্যে জেদ করা অর্থে Insist on বসে। এরপরে Possessive adjective যেমন: My, his, her, their ইত্যাদি বসে + Gerund (verb + ing) বসে। বাক্যের অর্থ: সে তাকে কক্ষ ত্যাগের জন্য পীড়াপীড়ি করল।<br/>❏ Option Analysis:<br/>❏ a) he: Nominative case বসবে না।<br/>❏ b) him: Objective case বসবে না।<br/>❏ c) himself: Reflexive case বসবে না।<br/>❏ d) his: সঠিক উত্তর (Possessive case)।<br/> ⇢ <br/>⛳ 'Insisted on' একটি Phrasal Verb। এর পরে যেহেতু ক্রিয়াবাচক শব্দ (leaving) ব্যবহৃত হয়েছে, তাই সাধারণত এর আগে জেনিটিভ কেস বা possessive form (His) বসে। অর্থাৎ কার বা কার উপর জোর দেওয়া হচ্ছে তার possessive form। সঠিক বাক্য: \"She insisted on his leaving the house.\"<br/>❏ Option Analysis:<br/>❏ আধুনিক ইংরেজিতে 'him' ব্যবহার করা যেতে পারে, তবে ব্যাকরণগত দিক থেকে নির্দিষ্ট কর্তা বোঝাতে 'his' সবচেয়ে গ্রহণযোগ্য।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334558,
+    "question": "The two cities in \"A Tale of Two Cities\" are-",
+    "options": [
+      "London and Edinburgh",
+      "London and Paris",
+      "Paris and Tokyo",
+      "Paris and Geneva"
+    ],
+    "correct_answer": "London and Paris",
+    "explanation": "📖 চার্লস ডিকেন্সের বিখ্যাত ঐতিহাসিক উপন্যাস \"A Tale of Two Cities\"-এ ফরাসি বিপ্লবের প্রেক্ষাপটে লন্ডন এবং প্যারিস এই দুটি শহরের কাহিনী বর্ণিত হয়েছে।<br/> ⇢ <br/>⛳ Victorian যুগের সবচেয়ে প্রতিভাবান ও জনপ্রিয় ঔপন্যাসিক Charles Dicknes। তাঁর রচিত বিখ্যাত উপন্যাসগুলো হলো: A Tale of Two Cities (এই উপন্যাসটি লেখা হয়েছে যে দুটি শহরের কাহিনী নিয়ে সেগুলোর নাম হচ্ছে লন্ডন এবং প্যারিস; ফরাসি বিপ্লবের প্রেক্ষাপটে লেখা)। 'Great Expectations' (তাঁর রচিত সবচাইতে জনপ্রিয় উপন্যাস), The Adventures of Oliver Twist (এটি একটি বালকের দুর্বিষহ জীবন কাহিনী), The Old Curiosity Shop, David Copperfield (এটি আত্মজীবনীমূলক; সৎ বাবার নির্মম নির্যাতনের কাহিনী)।<br/> ⇢ <br/>⛳ চার্লস ডিকেন্সের (Charles Dickens) বিখ্যাত উপন্যাস \"A Tale of Two Cities\"-এর পটভূমি ফরাসি বিপ্লব। এখানে উল্লিখিত দুটি শহর হলো লন্ডন (ইংল্যান্ড) এবং প্যারিস (ফ্রান্স)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334559,
+    "question": "Who of the following compiled an English Dictionary?",
+    "options": [
+      "Samuel Johnson",
+      "T.S. Eliot",
+      "John Dryden",
+      "William Congreve"
+    ],
+    "correct_answer": "Samuel Johnson",
+    "explanation": "📖 ১৭৫৫ সালে Samuel Johnson ইংরেজি ভাষার প্রথম পূর্ণাঙ্গ ও সার্থক অভিধান (Dictionary of the English Language) সংকলন করেন। এজন্য তাঁকে 'Father of English Dictionary' বলা হয়।<br/> ⇢ <br/>⛳ ইংরেজি ভাষার একজন বিখ্যাত কবি, সমালোচক, প্রাবন্ধিক, অভিধান প্রণেতা হলেন ড. স্যামুয়েল জনসন। তিনি ইংরেজি ভাষার অভিধান রচনা করেন। জনসন আজীবন শেক্সপীয়রের একজন ছাত্র ছিলেন। ১৭৫৫ সালে তিনি একক হাতে A Dictionary of the English Language নামক এই শব্দকোষটি রচনা করেন। তাঁর বিখ্যাত কিছু গ্রন্থের নাম হলো: A Voyage to Abyssinia, London: A Poem, The Vanity of Human Wishes, Preface to Shakespeare, The False alarms, The Patriot (Pamphlet).<br/>❏ William Congreve ➺ একজন বিখ্যাত লেখক যার সুপরিচিত গ্রন্থগুলি হলো The old Bachelor, Love for love, The doable dealer.<br/>❏ John Dryden ➺ ইংরেজি লেখক ও নাট্যকার। তাঁর একটি বিখ্যাত নাটক হলো All for love.<br/>❏ T. S. Eliot ➺ একজন আমেরিকান কবি। তাঁর রচিত একটি বিখ্যাত গ্রন্থ 'মার্ডার ইন ক্যাথিড্রাল'।<br/> ⇢ <br/>⛳ স্যামুয়েল জনসন (Samuel Johnson) ১৭৫৫ সালে প্রথম বিশ্বস্ত ও পূর্ণাঙ্গ ইংরেজি অভিধান (A Dictionary of the English Language) প্রকাশ করেন।<br/>❏ Option Analysis:<br/>❏ T.S. Eliot (কবি), John Dryden (কবি), William Congreve (নাট্যকার)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334560,
+    "question": "'Plagiarism' means -",
+    "options": [
+      "The act of using someone else's idea as one's own",
+      "The act of planning everything beforehand",
+      "The act of playing a musical instrument",
+      "The art of dealing with forgery"
+    ],
+    "correct_answer": "The act of using someone else's idea as one's own",
+    "explanation": "📖 Plagiarism (কুম্ভীলকবৃত্তি) অর্থ হলো অন্যের লেখা, গবেষণা বা ধারণা চুরি করে নিজের নামে চালিয়ে দেওয়া।<br/> ⇢ <br/>⛳ Plagiarism অর্থ অন্যের লেখা তার অনুমতি ছাড়াই নকল করে প্রাপ্তিস্বীকার না করে নিজের নামে চালানো; কুম্ভীলকবৃত্তি; চৌর্যলতা। উল্লেখ্য,<br/>❏ The act of using someone's else's idea as one's own. ➺ কারো ধারণা বা চুরি করে নিজের নামে চালিয়ে দেওয়া।<br/>❏ The act of planning everything beforehand. ➺ পূর্বেই কোনো কিছুর পরিকল্পনা করা<br/>❏ The act of playing a musical instrument. ➺ বাজনা বাজানো<br/>❏ The art of dealing with forgery. ➺ জালিয়াতির বিরুদ্ধে কৌশল অবলম্বনের জন্য শিক্ষা<br/> ⇢ <br/>⛳ Plagiarism (প্ল্যাগিয়ারিজম) শব্দের অর্থ হলো অন্যের লেখা, ধারণা বা সৃষ্টিকর্মকে নিজের নামে চালিয়ে দেওয়া বা অনুমতি ছাড়াই ব্যবহার করা।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334561,
+    "question": "Do you know the solution ………. the problem?",
+    "options": [
+      "of",
+      "for",
+      "about",
+      "to"
+    ],
+    "correct_answer": "to",
+    "explanation": "📖 কোনো সমস্যার সমাধান বোঝাতে 'Solution' এর পর Appropriate Preposition হিসেবে 'to' বসে। (Solution to the problem)।<br/> ⇢ <br/>⛳ Solution এরপর to, for বা of বসতে পারে। কিন্তু কোনো সমস্যা সমাধানের পথ বা উপায় হিসেবে Solution to বসে। বাক্যের অর্থ: এই সমস্যার সমাধান কেউ কি জানে?<br/>❏ Option Analysis:<br/>❏ a) of: সাধারণত ব্যবহৃত হয় না।<br/>❏ b) for: কোনো কিছুর জন্য সমাধান (কম প্রচলিত)।<br/>❏ c) about: ভুল।<br/>❏ d) to: সঠিক উত্তর (Appropriate Preposition)।<br/> ⇢ <br/>⛳ 'Solution' (সমাধান) শব্দের পর সাধারণত 'to' প্রিপোজিশন ব্যবহৃত হয়। তাই বাক্যটি হবে \"Do you know the solution to the problem?\"<br/>❏ Option Analysis:<br/>❏ Solution of / for / about প্রচলিত নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334562,
+    "question": "What is the meaning of \"French Leave\"?",
+    "options": [
+      "Leave on holidays",
+      "Spending time in France",
+      "Leave without permission",
+      "Emergency Leave"
+    ],
+    "correct_answer": "Leave without permission",
+    "explanation": "📖 French Leave একটি Idiom যার অর্থ হলো অনুমতি না নিয়ে চলে যাওয়া বা কর্মস্থল ত্যাগ করা (Leave without permission)।<br/> ⇢ <br/>⛳ Take French leave অর্থ কর্তৃপক্ষের অনুমতি না নিয়ে ছুটি ভোগ করা। তাই সঠিক উত্তর অপশন c)।<br/>❏ Authorized leave অর্থ বৈধ ছুটি ➺ Leave for visiting France অর্থ ফ্রান্সে ভ্রমণের জন্য ছুটি<br/>❏ Leave for enjoyment অর্থ আনন্দ উপভোগের জন্য ছুটি ➺ <br/>❏ জানার জন্য:<br/>❏ French leave (বিনা অনুমতিতে কর্তব্যে অনুপস্থিত): The boy was punished for taking French leave from his class.<br/>❏ Fish in a troubled water (বিশৃঙ্খলা অবস্থার সুযোগ নেওয়া): He wanted to fish in the troubled water.<br/>❏ Foot the bill (বিল পরিশোধ করা): He asked me to dine with him, but I had to foot the bill.<br/>❏ For good (চিরতরে; চিরকালের জন্য): He left the country for good.<br/>❏ Flying visit (খুব কম সময়ের ভ্রমণ): He paid a flying visit to us last month.<br/> ⇢ <br/>⛳ \"French Leave\" হলো একটি Idiom। এর অর্থ হলো কোনো কাজ বা অনুষ্ঠান থেকে অনুমতি না নিয়ে বা না বলে চুপিচুপি চলে যাওয়া।<br/>❏ Option Analysis:<br/>❏ এটি ফ্রান্সে ছুটি কাটানো বা জরুরি ছুটি নেওয়ার অর্থ প্রকাশ করে না।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334563,
+    "question": "\"Doctor Faustus\" is-",
+    "options": [
+      "A Comedy",
+      "A Tragedy",
+      "A Historical Novel",
+      "An Absurd Play"
+    ],
+    "correct_answer": "A Tragedy",
+    "explanation": "📖 \"Doctor Faustus\" হলো Christopher Marlowe রচিত একটি বিখ্যাত নাটক। এটি একটি Tragedy (বিয়োগান্তক নাটক), যেখানে নায়ক ফস্টাস শয়তানের কাছে নিজের আত্মা বিক্রি করে দেন এবং করুণ পরিণতির শিকার হন।<br/> ⇢ <br/>⛳ The Tragical History of the life and Death of Doctor Faustus (সংক্ষেপে Doctor Faustus) একটি ট্র্যাজিডি নাটক যা ক্রিস্টোফার মার্লোর লেখা। ফাউস্টাস শয়তানের কাছে আত্মা বিক্রয়ের বিখ্যাত কাহিনীটি অবলম্বনে এই নাটক রচিত হয়েছে।<br/>❏ Option Analysis:<br/>❏ a) Comedy: এটি মিলনান্তক নয়।<br/>❏ b) Tragedy: সঠিক উত্তর।<br/>❏ c) Historical Novel: এটি উপন্যাস নয়।<br/>❏ d) Absurd Play: এটি অ্যাবসার্ড ড্রামা নয়।<br/> ⇢ <br/>⛳ ক্রিস্টোফার মার্লো (Christopher Marlowe) রচিত \"Doctor Faustus\" একটি বিখ্যাত ট্র্যাজেডি বা দুর্যোগপূর্ণ নাটক। এতে নায়ক ডক্টর ফস্টাস শয়তানের সাথে চুক্তি করে চূড়ান্ত ধ্বংসের দিকে এগিয়ে যায়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334564,
+    "question": "Select the Synonym for 'inclement'",
+    "options": [
+      "Affable",
+      "Mild",
+      "Rough",
+      "Genial"
+    ],
+    "correct_answer": "Rough",
+    "explanation": "📖 Inclement: (আবহাওয়া সম্পর্কে) কঠোর, দুর্যোগপূর্ণ বা রুক্ষ।<br/>❏ Rough: রুক্ষ বা অমসৃণ।<br/>❏ Affable, Mild, Genial অর্থ নম্র বা ভদ্র।<br/>❏ তাই সঠিক সমার্থক শব্দ Rough।<br/> ⇢ <br/>⛳ Inclement অর্থ হলো কঠোর বা দুর্যোগপূর্ণ (বিশেষ করে আবহাওয়া)। Rough অর্থও রুক্ষ বা কঠোর।<br/>❏ Option Analysis:<br/>❏ a) Affable: অমায়িক বা ভদ্র।<br/>❏ b) Mild: শান্ত বা মৃদু।<br/>❏ c) Rough: সঠিক উত্তর।<br/>❏ d) Genial: হাসিখুশি বা বন্ধুসুলভ।<br/> ⇢ <br/>⛳ 'Inclement'-এর অর্থ হলো অমৃদু, রুক্ষ (বিশেষত আবহাওয়া বোঝাতে)। এর সমার্থক শব্দ বা Synonym হলো Rough (রুক্ষ)।<br/>❏ Option Analysis:<br/>❏ Affable (মিশুক/সুশীল) এবং Mild (হালকা/মৃদু) হলো বিপরীতার্থক শব্দ (Antonym)।<br/>❏ Genial (প্রিয়/মৃদু) ও বিপরীতার্থক।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334565,
+    "question": "\"He started teaching Hamlet\". Here 'teaching' is a/an-",
+    "options": [
+      "Participle",
+      "Infinitive",
+      "Verbal Noun",
+      "Gerund"
+    ],
+    "correct_answer": "Gerund",
+    "explanation": "📖 এখানে 'teaching' শব্দটি Verb (teach) + ing যোগে গঠিত এবং এটি 'started' ভার্বের Object হিসেবে কাজ করছে (Noun-এর কাজ করছে)। তাই এটি Gerund।<br/> ⇢ <br/>⛳ যখন Verb+ing একই সাথে Verb এবং Noun এর কাজ করে, তখন তাকে Gerund বলে। এখানে teaching শব্দটি started ভার্বের অবজেক্ট হিসেবে কাজ করছে।<br/>❏ Option Analysis:<br/>❏ a) Participle: এটি Adjective এর কাজ করছে না।<br/>❏ b) Infinitive: to + verb নেই।<br/>❏ c) Verbal Noun: এর আগে 'the' এবং পরে 'of' নেই।<br/>❏ d) Gerund: সঠিক উত্তর।<br/> ⇢ <br/>⛳ 'Teaching' এখানে 'He' কর্তার কাজ বোঝাচ্ছে এবং এর পূর্বে 'started' ক্রিয়া আছে। ক্রিয়ার পূর্বে থেকে কর্তা নির্দেশ করলে এবং নাম হিসেবে কাজ করলে তাকে Gerund বলে।<br/>❏ Option Analysis:<br/>❏ Participle: বিশেষণের মতো কাজ করে (Teaching Hamlet...)।<br/>❏ Infinitive: ক্রিয়ার মূল রূপ (To teach)।<br/>❏ Verbal Noun: ক্রিয়া থেকে সৃষ্ট বিশেষ্য (The teaching of Hamlet...)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334566,
+    "question": "Which one has the identical singular and plural form?",
+    "options": [
+      "Memorandum",
+      "Stimulus",
+      "Dice",
+      "Oasis"
+    ],
+    "correct_answer": "Dice",
+    "explanation": "📖 Memorandum (Singular) -> Memoranda (Plural).<br/>❏ Stimulus (Singular) -> Stimuli (Plural).<br/>❏ Oasis (Singular) -> Oases (Plural).<br/>❏ Dice: ঐতিহাসিকভাবে 'Die' হলো Singular এবং 'Dice' হলো Plural। কিন্তু আধুনিক ইংরেজিতে 'Dice' শব্দটি Singular এবং Plural উভয় হিসেবেই বহুল ব্যবহৃত হয়। প্রদত্ত অপশনগুলোর মধ্যে এটিই সবচেয়ে গ্রহণযোগ্য উত্তর।<br/> ⇢ <br/>⛳ পাশা বা জুয়ার অর্থে Die (Singular) – Dice (Plural) এবং মুদ্রাদির ছাঁচ অর্থে Die (Singular) – Dies (Plural)। N.B. Current English usage এ Dice এর Singular এবং Plural দুটোই একই অর্থাৎ Dice।<br/>❏ Option Analysis:<br/>❏ a) Memorandum: Plural হলো Memoranda.<br/>❏ b) Stimulus: Plural হলো Stimuli.<br/>❏ c) Dice: সঠিক উত্তর (আধুনিক ইংরেজিতে)।<br/>❏ d) Oasis: Plural হলো Oases.<br/> ⇢ <br/>⛳ 'Dice' শব্দটির একবচন (Singular) এবং বহুবচন (Plural) উভয় রূপ একই, অর্থাৎ Dice। (যদিও আগে 'Die' ব্যবহৃত হতো, বর্তমানে Dice প্রচলিত)।<br/>❏ Option Analysis:<br/>❏ Memorandum - Memoranda।<br/>❏ Stimulus - Stimuli।<br/>❏ Oasis - Oases।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334567,
+    "question": "Which gender is the word 'neighbour'?",
+    "options": [
+      "Masculine",
+      "Feminine",
+      "Neuter",
+      "Common"
+    ],
+    "correct_answer": "Common",
+    "explanation": "📖 'Neighbour' (প্রতিবেশী) শব্দটি দ্বারা পুরুষ বা নারী উভয়কেই বোঝাতে পারে। তাই এটি Common Gender (উভলিঙ্গ)। যেমন- Teacher, Student, Doctor ইত্যাদি।<br/> ⇢ <br/>⛳ Neighbour শব্দটি দ্বারা নারী বা পুরুষ উভয়কেই বোঝানো যায়, তাই এটি Common Gender।<br/>❏ Option Analysis:<br/>❏ a) Masculine: শুধু পুরুষ বোঝায় না।<br/>❏ b) Feminine: শুধু নারী বোঝায় না।<br/>❏ c) Neuter: জড় পদার্থ নয়।<br/>❏ d) Common: সঠিক উত্তর।<br/> ⇢ <br/>⛳ 'Neighbour' (প্রতিবেশী) শব্দটি Common Gender বা সাধারণ লিঙ্গের অন্তর্ভুক্ত। এটি পুরুষ বা মহিলা উভয়ের ক্ষেত্রেই ব্যবহৃত হতে পারে।<br/>❏ Option Analysis:<br/>❏ Masculine (পুংলিঙ্গ): যেমন- Boy, Man।<br/>❏ Feminine (স্ত্রীলিঙ্গ): যেমন- Girl, Woman।<br/>❏ Neuter (ক্লীবলিঙ্গ): যেমন- Book, Pen।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334568,
+    "question": "\"We work every day except Friday\". In this sentence 'except' is a/an",
+    "options": [
+      "Adjective",
+      "Noun",
+      "Preposition",
+      "Pronoun"
+    ],
+    "correct_answer": "Preposition",
+    "explanation": "📖 এখানে 'except' শব্দটি Friday (Noun) এর আগে বসে বাক্যের অন্য অংশের সাথে সম্পর্ক স্থাপন করছে এবং 'ব্যতীত' বা 'ছাড়া' অর্থ প্রকাশ করছে। তাই এটি একটি Preposition।<br/> ⇢ <br/>⛳ ব্যতীত বা ছাড়া অর্থে Except শব্দটি Preposition হিসেবে ব্যবহৃত হয়। বাক্যের অর্থ: শুক্রবার ছাড়া আমরা প্রতিদিনই কাজ করি।<br/>❏ Option Analysis:<br/>❏ a) Adjective: নাউনকে বিশেষিত করে না।<br/>❏ b) Noun: এটি কোনো নাম নয়।<br/>❏ c) Preposition: সঠিক উত্তর, কারণ এটি Noun (Friday) এর আগে বসেছে।<br/>❏ d) Pronoun: এটি নাউনের পরিবর্তে বসেনি।<br/> ⇢ <br/>⛳ 'Except' শব্দটি এখানে 'Friday' শব্দের সাথে সম্পর্ক স্থাপন করছে এবং বাক্যে 'except Friday' (শুক্রবার বাদে) একটি শব্দাংশ হিসেবে কাজ করছে। সংযোজক অব্যয় বা Preposition হলো সেই শব্দ যা কোনো সম্পর্ক প্রকাশ করে।<br/>❏ Option Analysis:<br/>❏ এটি Noun (বিশেষ্য) বা Adjective (বিশেষণ) নয়।<br/>❏ এটি Pronoun (সর্বনাম) হিসেবে কাজ করতে পারে (যেমন: Everyone except him came), তবে এখানে Preposition।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334569,
+    "question": "The Play \"Englishman for my Money\" was written by",
+    "options": [
+      "Christopher Marlowe",
+      "Thomas Kyd",
+      "William Haughton",
+      "Ben Johnson"
+    ],
+    "correct_answer": "William Haughton",
+    "explanation": "📖 \"Englishman for my Money\" এলিজাবেথান যুগের একটি জনপ্রিয় কমেডি নাটক। এটি রচনা করেন William Haughton। এটি প্রথম সিটি কমেডি (City Comedy) হিসেবে পরিচিত।<br/> ⇢ <br/>⛳ এটি ১৫৯৮ সালে লেখা একটি এলিজাবেথান কমেডি নাটক। এটি উইলিয়াম হটন (William Haughton) এর একমাত্র এককভাবে লেখা নাটক যা টিকে আছে।<br/>❏ Option Analysis:<br/>❏ a) Christopher Marlowe: 'Doctor Faustus' এর লেখক।<br/>❏ b) Thomas Kyd: 'The Spanish Tragedy' এর লেখক।<br/>❏ c) William Haughton: সঠিক উত্তর।<br/>❏ d) Ben Johnson: 'Every Man in His Humour' এর লেখক।<br/> ⇢ <br/>⛳ \"Englishman for my Money\" নাটকটির রচয়িতা উইলিয়াম হটন (William Haughton)। এটি এলিজাবেথিয়ান যুগের একটি হাস্যরসাত্মক নাটক।<br/>❏ Option Analysis:<br/>❏ Christopher Marlowe: Doctor Faustus-এর রচয়িতা।<br/>❏ Thomas Kyd: The Spanish Tragedy-এর রচয়িতা।<br/>❏ Ben Johnson: Volpone-এর রচয়িতা।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334570,
+    "question": "A Person who leaves his/her own country to settle permanently in another country is called a/an",
+    "options": [
+      "Immigrant",
+      "Expatriate",
+      "Emigrant",
+      "Migrant"
+    ],
+    "correct_answer": "Emigrant",
+    "explanation": "📖 Emigrant: যে নিজের দেশ ত্যাগ করে অন্য দেশে যায় (Exit করে)।<br/>❏ Immigrant: যে অন্য দেশ থেকে এসে কোনো দেশে স্থায়ী হয় (In করে)।<br/>❏ Expatriate: যে বিদেশে বাস করে (স্থায়ী নাও হতে পারে)।<br/>❏ প্রশ্নে \"leaves his/her own country\" বলা হয়েছে, তাই সঠিক উত্তর Emigrant.<br/> ⇢ <br/>⛳ Immigrant অর্থ অভিবাসী। উল্লেখ্য,<br/>❏ Foreigner (বিদেশি) ➺ Emigrant, Expatriate (প্রবাসী)<br/>❏ Philanthropist (মানবপ্রেমিক) ➺ Misogynist (মনুষ্যবিদ্বেষী)<br/>❏ Feminist (নারীবাদী) ➺ Imposter (প্রতারক)<br/>❏ Option Analysis:<br/>❏ a) Immigrant: যে অন্য দেশ থেকে এসে স্থায়ী হয়।<br/>❏ b) Expatriate: যে বিদেশে বসবাস করে।<br/>❏ c) Emigrant: যে নিজের দেশ ছেড়ে চলে যায়। (সঠিক উত্তর)<br/>❏ d) Migrant: যে এক স্থান থেকে অন্য স্থানে যায়।<br/> ⇢ <br/>⛳ যে ব্যক্তি নিজের দেশ ত্যাগ করে অন্য কোনো দেশে স্থায়ীভাবে বসবাস করতে যায়, তাকে ইমিগ্রান্ট (Immigrant) বলা হয়। আবার যে দেশ থেকে বের হয়ে যায়, সেই দেশের প্রেক্ষাপটে তাকে এমিগ্রান্ট (Emigrant) বলা হয়। প্রশ্নে নিজের দেশ ছেড়ে অন্যত্র যাওয়ার কথা বলা হয়েছে, তাই Emigrant সঠিক।<br/>❏ Option Analysis:<br/>❏ Immigrant: যে অন্য দেশে আসে।<br/>❏ Expatriate: যে নিজ দেশের বাইরে বসবাস করে (অস্থায়ী বা কর্মসূত্রে)।<br/>❏ Migrant: পরিযায়ী বা এক স্থান থেকে অন্য স্থানে যায়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334571,
+    "question": "Who wrote \"A Vindication of the Rights of Woman\"?",
+    "options": [
+      "Claire Clairmont",
+      "Mary Wollstonecraft",
+      "Mary Wollstonecraft Godwin",
+      "Mary Shelley"
+    ],
+    "correct_answer": "Mary Wollstonecraft",
+    "explanation": "📖 \"A Vindication of the Rights of Woman\" (1792) নারীবাদী সাহিত্যের একটি আদি ও গুরুত্বপূর্ণ দলিল। এটি রচনা করেন Mary Wollstonecraft। তিনি বিখ্যাত কবি P.B. Shelley-র শাশুড়ি এবং 'Frankenstein' এর লেখিকা Mary Shelley-র মা।<br/> ⇢ <br/>⛳ Mary Wollstonecraft ছিলেন একজন ইংরেজ লেখক এবং দার্শনিক যিনি নারী অধিকারের পক্ষে সওয়াল করেছিলেন। ১৭৯২ সালে প্রকাশিত এই বইটি নারীবাদী দর্শনের অন্যতম ভিত্তি।<br/>❏ Option Analysis:<br/>❏ a) Claire Clairmont: লর্ড বায়রনের বান্ধবী।<br/>❏ b) Mary Wollstonecraft: সঠিক উত্তর।<br/>❏ c) Mary Wollstonecraft Godwin: মেরি শেলির কুমারী নাম।<br/>❏ d) Mary Shelley: 'Frankenstein' এর লেখিকা।<br/> ⇢ <br/>⛳ মেরি ওলস্টোনক্রাফট (Mary Wollstonecraft) ১৭৯২ সালে \"A Vindication of the Rights of Woman\" গ্রন্থটি রচনা করেন। এটি নারীমুক্তি আন্দোলনের অন্যতম গুরুত্বপূর্ণ রচনা।<br/>❏ Option Analysis:<br/>❏ Claire Clairmont (তিনি ছিলেন লেখক নন, মেরি শেলির সৎবোন)।<br/>❏ Mary Wollstonecraft Godwin (এটি তার মেয়ের বিয়ের পূর্ব নাম, মেরি শেলি)।<br/>❏ Mary Shelley (ফ্রাঙ্কেনস্টাইনের লেখিকা, ওলস্টোনক্রাফটের মেয়ে)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334572,
+    "question": "Pick the correctly spelt word :",
+    "options": [
+      "Conscintious",
+      "Consientious",
+      "Concientious",
+      "Conscientious"
+    ],
+    "correct_answer": "Conscientious",
+    "explanation": "📖 সঠিক বানানটি হলো Conscientious। এর অর্থ হলো কর্তব্যপরায়ণ বা বিবেকবান। মনে রাখার উপায়: Con + science + tious.<br/> ⇢ <br/>⛳ Conscientious – বিবেকবান; বিবেকবুদ্ধিসম্পন্ন।<br/>❏ Option Analysis:<br/>❏ a) Conscintious: ভুল বানান।<br/>❏ b) Consientious: ভুল বানান।<br/>❏ c) Concientious: ভুল বানান।<br/>❏ d) Conscientious: সঠিক বানান। (Con + science + tious)<br/> ⇢ <br/>⛳ সঠিক বানান হলো \"Conscientious\"। অর্থাৎ নিজের দায়িত্ব সম্পর্কে সচেতন বা মনোযোগী।<br/>❏ Option Analysis:<br/>❏ Conscintious (ভুল, 'ti' এর স্থলে 't' নেই)।<br/>❏ Consientious (ভুল, 'c' বাদ পড়েছে)।<br/>❏ Concientious (ভুল, 's' বাদ পড়েছে)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334573,
+    "question": "বাংলাদেশের প্রথম ই-বুক কোনটি?",
+    "options": [
+      "বায়ান্নো ই-বুক",
+      "একাত্তর ই-বুক",
+      "একুশ ই-বুক",
+      "পঁচাত্তর ই-বুক"
+    ],
+    "correct_answer": "একুশ ই-বুক",
+    "explanation": "📖 বাংলাসহ বিভিন্ন ভাষায় রচিত বিশ্বের উল্লেখযোগ্য সাহিত্যকর্ম ও গুরুত্বপূর্ণ রচনা গুলোকে ইলেকট্রনিক মাধ্যমে নিয়ে আসার প্রয়াসে প্রকাশিত হয়েছে 'একুশ ই-বুক'। এটি মূলত ওকে মোবাইলের একুশে ট্যাবের একটি অ্যাপ। বিজ্ঞানী সংস্থা 'মাত্রা'র সহযোগিতায় মোবাইল ফোন কোম্পানি 'ওকে মোবাইল' বের করেছে এ ই-বুক। ৩০ জানুয়ারি ২০১৬ 'একুশ ই-বুক' এর মোড়ক উন্মোচন করা হয়। পরবর্তীতে ২ ফেব্রুয়ারি ২০১৬ কলকাতায় ও ২১ ফেব্রুয়ারি ২০১৬ আন্তর্জাতিক মাতৃভাষা দিবসে একসাথে বিশ্বের ৩৮ টি দেশে 'একুশ ই-বুক' উন্মোচন করা হয়। পাঠক এ অ্যাপটির মাধ্যমে অনলাইনে বই কিনতে পারবে অথবা 'একুশ ই-বুক' গ্রন্থাগারের সদস্য হয়েও পছন্দের বইগুলো পড়তে পারবে<br/>❏ e-book- ই-বুক এর জনক ➺ মাইকেল স্টার্ন হার্ট, যুক্তরাষ্ট্র। [১৯৭১ সালে প্রথম ই-বুক তৈরি করেন এবং Project Gutenberg শুরু করেন।তার প্রথম ই-বুক ছিল আমেরিকার স্বাধীনতার ঘোষণা (U.S. Declaration of Independence)। যা আজও বিশ্বের সবচেয়ে বড় ফ্রি ই-বুক লাইব্রেরি হিসেবে পরিচিত।]",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334574,
+    "question": "Sina Weibo উদ্ভাবন করে--?",
+    "options": [
+      "জ্যাক ডর্সি",
+      "সিনা কর্পোরেশন",
+      "লুডিকর্প",
+      "ডেভিড কার্প"
+    ],
+    "correct_answer": "সিনা কর্পোরেশন",
+    "explanation": "📖 Sina Weibo হলো চীনের একটি জনপ্রিয় মাইক্রোব্লগিং ওয়েবসাইট (টুইটারের মতো)। এটি ২০০৯ সালে চীনের প্রযুক্তি কোম্পানি 'Sina Corporation' চালু করে।<br/> ⇢ <br/>⛳ সিনা ওয়েইবো (Sina Weibo) উদ্ভাবন করেছে চীনের প্রযুক্তি সংস্থা সিনা কর্পোরেশন (Sina Corporation), যা মূলত একটি মাইক্রোব্লগিং প্ল্যাটফর্ম এবং চীনের অন্যতম জনপ্রিয় সোশ্যাল মিডিয়া এবং এটি ২০০৯ সালে চালু হয়েছিল। এটি চীনের টুইটার (Twitter) হিসেবে পরিচিত এবং এটিতে ব্যবহারকারীরা সংক্ষিপ্ত পোস্ট, ছবি ও ভিডিও শেয়ার করতে পারেন।<br/> ⇢ <br/>⛳ সিনা ওয়েইবো (Sina Weibo) চীনের একটি জনপ্রিয় মাইক্রোব্লগিং ওয়েবসাইট। এটি চীনের প্রযুক্তি কোম্পানি সিনা কর্পোরেশন কর্তৃক উদ্ভাবিত ও পরিচালিত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334575,
+    "question": "নারিকা-১ কী?",
+    "options": [
+      "অপারেটিং সিস্টেম",
+      "তামাকের জাত",
+      "খরা সহিষ্ণু ধান",
+      "পাটের জাত"
+    ],
+    "correct_answer": "খরা সহিষ্ণু ধান",
+    "explanation": "📖 নারিকা-১ কী?➺ খরা সহিষ্ণু ধান <br/>❏ 'নারিকা-১' (NERICA-1) হলো আফ্রিকা থেকে আমদানিকৃত এক ধরণের খরা সহিষ্ণু ধান। এটি উগান্ডা থেকে বাংলাদেশে আনা হয়েছে এবং কম সেচে চাষ করা যায়।<br/> ⇢ <br/>⛳ ⛳ ধান নিয়ে গুরুত্বপূর্ণ তথ্য।<br/>❏ পৃথিবীর প্রধান ধান উৎপাদনকারী দেশ ➺ চীন।<br/>❏ ধান উৎপাদনে শীর্ষ জেলা ➺ ময়মনসিংহ।<br/>❏ বাংলাদেশের কত ভাগ জমিতে ধান চাষ হয়। ➺ ৭০ ভাগ<br/>❏ কাটারিভোগ চাল উৎপাদনের জন্য বিখ্যাত ➺ দিনাজপুর<br/>❏ দেশে সবচেয়ে বেশি চালকল রয়েছে ➺ নওগা জেলায় (ধানের রাজধানী)<br/>❏ দেশে সবচেয়ে বেশি উৎপাদিত হয় ➺ বোরো ধান বা বাসস্তিক ধান।<br/>❏ বোরো ধান রোপণ শুরু হয়: ➺ বাংলা কার্তিক (অক্টোবর-নভেম্বর) মাস থেকে এবং ধান কাটা চলে বাংলা ➺ বৈশাখ-জ্যৈষ্ঠ (এপ্রিল-জুন) মাস পর্যন্ত।<br/>❏ ধান মাড়াইয়ের মেশিন ➺ পাওয়ার থ্রেসার।<br/>❏ রোপা আমন ধান কাটা হয়: ➺ অগ্রহায়ণ- পৌষ মাসে।<br/>❏ উন্নতজাতের ধানের জাত: ➺ হরি, হীরা, ময়না, ইরাটম, ব্রিশাইল, চান্দিনা, সুপার রাইস, মুক্তা, প্রগতি ইত্যাদি।<br/>❏ ধানের শ্রেণিভেদ ➺ ৩টি। আউশ, আমন, বোরো।<br/>❏ বাংলাদেশ পরমাণু কৃষি গবেষণা ইনস্টিটিউট কর্তৃক উদ্ভাবিত ধান; ➺ বিনা-৮ ও ৯ যা লবণাক্ততা সহ্য করতে পারে।<br/>❏ বাংলাদেশের উৎকৃষ্টমানের ধান হিসেবে বরিশাল ও পটুয়াখালী অঞ্চলের ➺ বালাম,<br/>❏ দিনাজপুরের ➺ কাটারি ভোগ, চিনিগুড়া,<br/>❏ ময়মনসিংহের ➺ বিরই<br/>❏ চট্টগ্রাম অঞ্চলের ➺ (মিরসরাই) কালিজিরা বিশেষভাবে উল্লেখযাগ্য।<br/>❏ প্রথম উফশী ধান (উন্নত ফলনশীল) ➺ ইরি-৮<br/>❏ নারিকা-১: খরা সহিষ্ণু ধান। ধান ভেজালেই ভাত ➺ অঘনিবোরা<br/>❏ পৃথিবীর প্রথম জিংক সমৃদ্ধ ধান: ➺ ব্রি-৬২<br/>❏ ব্রি-৩৩: ➺ উত্তরাঞ্চলের মঙ্গা পীড়িত অঞ্চলের জন্য<br/>❏ ব্রি-৪৬: ➺ বন্যা পরবর্তী এলাকার উপযোগী ধান<br/>❏ ব্রি-৬২: ➺ পৃথিবীর প্রথম জিংক সমৃদ্ধ ধান<br/>❏ হরিধান: ➺ আবিষ্কারক: হরিপদ কাপালী<br/> ⇢ <br/>⛳ বাংলাদেশে উৎপাদিত উন্নত ফসলের জাত<br/>❏ শস্য ➺ নাম<br/>❏ ধান ➺ ব্রিশাইল, ময়না, হরিধান, সোনার বাংলা-১, ইরাটম, নারিকা-১, চান্দিনাম, বিপ্লব, দুলাভোগ, আশা, প্রগতি, মুক্তা, সুপার রাইস।<br/>❏ গম ➺ সোনালিকা, আনন্দ, আকবর, কাঞ্চন, বলাকা, দোয়েল, শতাব্দী, অঘ্রাণী, বরকত।<br/>❏ টমেটো ➺ বাহার, মানিক, রতন, অপূর্ব, ঝুমকা, সিঁদুর ও শ্রাবণী, মিন্টু (বাংলাদেশে উদ্ভাবিত প্রথম হাইব্রিড টমেটো)।<br/>❏ বাঁধাকপি ➺ গোল্ডেন ক্রস, কে ওয়াই ক্রস, গ্রিন এক্সপ্রেক্স, ড্রাম হেড।<br/>❏ কলা ➺ অমৃতসাগর, অগ্নিশ্বর, কানাইবাঁশী, মোহনবাঁশী, বীট জবা।<br/>❏ আম ➺ ল্যাংড়া, গোপালভোগ, মহানন্দা, মোহনভোগ।<br/>❏ তেলবীজ (সরিষা) ➺ সফল, অগ্রণী<br/>❏ ভুট্টা ➺ শুভ্রা, উত্তরণ, বর্ণালী<br/>❏ তুলা ➺ রূপালী, ডেলফোজ<br/>❏ তামাক ➺ সুমাত্রা ও ম্যানিলা<br/>❏ আলু ➺ কার্ডিনেল, ডায়মন্ড, কুফরী ও সিন্দুরী<br/>❏ তরমুজ ➺ মধুবালা (হলদে জাতের তরমুজ), পদ্মা<br/>❏ বেগুন ➺ শুকতারা<br/>❏ মরিচ ➺ যমুনা<br/>❏ পেয়ারা ➺ বারি পেয়ারা চার (বিচিমুক্ত)",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334576,
+    "question": "সার্বজনীন পেনশন কর্মসূচির সর্বশেষযুক্ত স্কিম কোনটি?",
+    "options": [
+      "প্রগতি",
+      "সুরক্ষা",
+      "প্রত্যয়",
+      "প্রবাসী"
+    ],
+    "correct_answer": "প্রত্যয়",
+    "explanation": "📖  সর্বজনীন পেনশন স্কিম<br/>❏ ২০০৮ সালে আওয়ামী লীগের নির্বাচনের ইশতেহারে পেনশন স্কিমের কথা বলা হয়। ২০১৫ সালে আবুল মাল আব্দুল মুহিত উদ্যোগ গ্রহণ করেন। ২০২৩ সালের ৩১ জানুয়ারি রাষ্ট্রপতি বিলটিতে স্বাক্ষর করলে আইনে পরিণত হয়। ১৩ আগস্ট, ২০২৩ সরকার সর্বজনীন পেনশন স্কিম বিধিমালা, ২০২৩ জারি করেন।<br/>❏ পেনশন ব্যবস্থা পরিচালনা ও বাস্তবায়ন সংস্থা ➺ NPA<br/>❏ অনলাইনে নিবন্ধনের জন্য অ্যাপস ➺ Upension।<br/>❏ সংসদে পেনশন স্কিম পাস হয় ➺ ২৪ জানুয়ারি, ২০২৩।<br/>❏ আনুষ্ঠানিক উদ্বোধন ➺ ১৭ আগস্ট, ২০২৩।<br/>❏ ভারতে পেনশন ব্যবস্থা চালু হয় ➺ ১ জানুয়ারি, ২০০৪ সালে।<br/>❏ সর্বজনীন পেনশন স্কিমের ধরন ➺ ৫টি<br/>❏ বিদেশে কর্মরত বাংলাদেশিদের জন্য পেনশন স্কিম ➺ প্রবাস (চাঁদার পরিমাণ ➺ সর্বোচ্চ ১০,০০০ টাকা এবং সর্বনিম্ন ৫০০০ টাকা)<br/>❏ বেসরকারি প্রতিষ্ঠানের কর্মচারী জন্য পেনশন স্কিম ➺ প্রগতি ( চাঁদার পরিমাণ ➺ সর্বোচ্চ ৫০০০ টাকা এবং সর্বনিম্ন ২০০০ টাকা)<br/>❏ স্বকর্মে নিয়োজিত (কৃষক, শ্রমিক, কামার, কুমার, তাঁতী, জেলে) জন্য পেনশন স্কিম ➺ সুরক্ষা (চাঁদার পরিমাণ সর্বোচ্চ ৫০০০ টাকা এবং সর্বনিম্ন ১০০০ টাকা)<br/>❏ স্বল্প আয়ের ব্যক্তি জন্য পেনশন স্কিম ➺ সমতা (চাঁদার পরিমাণ ➺ ১০০০ টাকা (অনুদান ➺ ৫০০ টাকা এবং ব্যক্তি ৫০০ টাকা)<br/>❏ স্ব-শাসিত, স্বায়ত্তশাসিত, রাষ্ট্রায়ত্ত প্রতিষ্ঠানের কর্মকর্তা-কর্মচারী জন্য পেনশন স্কিম ➺ প্রত্যয় (চাঁদার পরিমাণ ➺ সর্বোচ্চ ১০,০০০ টাকা এবং সর্বনিম্ন ২০০০ টাকা )<br/>❏ বিশ্বে কত ধরনের পেনশন ব্যবস্থা চালু আছেো ➺ ৪ [ ১. আনফান্ডেড, ফান্ডেড, ডিফাইন্ড বেনিফিটস (ডিবি), ডিফাইন্ড কন্ট্রিবিউশনস (ডিসি)]<br/>❏ প্রত্যয় স্কিমের অন্তর্ভুক্ত ব্যক্তিরা সর্বজনীন পেনশনের আওতাভুক্ত হবেন ➺ ১ জুলাই, ২০২৪ থেকে।<br/>❏ পেনশনের শর্ত, সুবিধা ও চাঁদা<br/>❏ পেনশন ব্যবস্থায় অন্তর্ভুক্তির বয়স ➺ ১৮-৫০ বছর (বিশেষ বিবেচনায় ৫০ বছর ঊর্ধ্ব নাগরিকও এ ব্যবস্থায় যুক্ত হতে পারবে। সেক্ষেত্রে টানা ১০ বছর পেনশনের চাঁদা দিতে হবে)<br/>❏ পেনশন পাবে কত বছর পূর্ণ হলেই ➺ ৬০ বছর<br/>❏ আয়করমুক্ত, কর রেয়াত সুবিধা পাবে ➺ চাঁদার টাকা<br/>❏ আনফান্ডেড পেনশন ব্যবস্থায় কোনো চাঁদা দিতে হয় না।<br/>❏ পেনশন কর্তৃপক্ষের ওয়েবসাইট ➺ www.upension.gov.bd<br/>❏ পেনশন কর্তৃপক্ষের ওয়েবসাইট এটি চালু হয় ➺ ১৬ আগস্ট, ২০২৩",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334577,
+    "question": "২০২৫ সালে সমাজসেবায় একুশে পদক লাভ করেন কে?",
+    "options": [
+      "মেহেদী হাসান খান",
+      "রিফাত নবী",
+      "শাবাব মুস্তফা",
+      "মো: ইউসুফ চৌধুরী"
+    ],
+    "correct_answer": "মো: ইউসুফ চৌধুরী",
+    "explanation": "📖 একুশে পদক ২০২৫<br/>❏ একুশে পদক ২০২৫ লাভ করেছেন ১৪ জন বিশিষ্ট নাগরিক ও একটি প্রতিষ্ঠান। ১৯৭৬ সালে প্রবর্তিত একুশে পদক বাংলাদেশের দ্বিতীয় সর্বোচ্চ বেসামরিক পুরস্কার, যা সংস্কৃতি বিষয়ক মন্ত্রণালয় থেকে প্রদান করা হয়। এটি ১১টি বিভাগে প্রদান করা হয়ে থাকে, সম্মাননা হিসেবে দেশের গুণী ব্যক্তিদের বিশেষ অবদানকে স্বীকৃতি জানানো হয়।<br/>❏ মনোনীত ব্যক্তি/দলের নাম ➺ ক্ষেত্র<br/>❏ ০১. আজিজুর রহমান (মরণোত্তর) ➺ শিল্পকলা (চলচ্চিত্র)<br/>❏ ০২. ওস্তাদ নীরদ বরণ বড়ুয়া (মরণোত্তর) ➺ শিল্পকলা (সংগীত)<br/>❏ ০৩. ফেরদৌস আরা ➺ শিল্পকলা (সংগীত)<br/>❏ ০৪. নাসির আলী মামুন ➺ শিল্পকলা (আলোকচিত্র)<br/>❏ ০৫. রোকেয়া সুলতানা ➺ শিল্পকলা (চিত্রকলা)<br/>❏ ০৬. মাহফুজ উল্লা (মরণোত্তর) ➺ সাংবাদিকতা<br/>❏ ০৭. মাহমুদুর রহমান ➺ সাংবাদিকতা ও মানবাধিকার<br/>❏ ০৮. ড. শহীদুল আলম ➺ সংস্কৃতি ও শিক্ষা<br/>❏ ০৯. ড. নিয়াজ জামান ➺ শিক্ষা<br/>❏ ১০. মেহেদী হাসান খান ➺ বিজ্ঞান ও প্রযুক্তি<br/>❏ ১১. মোহাম্মদ ইউসুফ চৌধুরী (মরণোত্তর) ➺ সমাজসেবা<br/>❏ ১২. হেলাল হাফিজ (মরণোত্তর) ➺ ভাষা ও সাহিত্য<br/>❏ ১৩. শহীদুল জহির (মো: শহীদুল হক) (মরণোত্তর) ➺ ভাষা ও সাহিত্য<br/>❏ ১৪. মঈদুল হাসান ➺ গবেষণা<br/>❏ ১৫. বাংলাদেশ জাতীয় নারী ফুটবল দল ➺ ক্রীড়া<br/> ⇢ <br/>⛳ ▣ ২০২৫ সালের একুশে পদক লাভ করেন কত জন ব্যক্তি/দল? ⇢ ✔১৮<br/>▣ বাংলাদেশের সর্বোচ্চ পুরস্কারের নাম- [সামরিক ভূমি ও ক্যান্টনমেন্ট অধিদপ্তর (জুনিয়র শিক্ষক): ২০২৪; মৎস্য অধিদপ্তর (উপ-সহকারী প্রকৌশলী): ২০২৫] ➺ ✔ স্বাধীনতা পদক<br/>▣ একুশে পদক ও স্বাধীনতা পদক দুটোই পেয়েছেন- [৪৭তম বিসিএস] ➺ ✔ ভাস্কর নভেরা আহমেদ<br/>❏ 📖 ভাস্কর নভেরা আহমেদ ১৯৯৭ সালে বাংলাদেশ সরকার প্রদত্ত দ্বিতীয় সর্বোচ্চ সম্মাননা 'একুশে পদক' এবং ২০২৫ সালে মরণোত্তর স্বাধীনতা পদক লাভ করেন।<br/>▣ ক্রীড়া ক্যাটাগরিতে 'একুশে পদক- ২০২৫' প্রাপ্ত হয়- [খাদ্য অধিদপ্তর-এর (উপ-খাদ্য পরিদর্শক): ২০২৫] ➺ ✔ বাংলাদেশ জাতীয় নারী ফুটবল দল<br/>▣ ২০২৫ সালে একুশে পদক পেয়েছেন কতজন? [মৎস্য অধিদপ্তর (উপসহকারী প্রকৌশলী): ২০২৫] ➺ ✔ ১৪ জন ব্যক্তি ও ১টি প্রতিষ্ঠান<br/>▣ 'প্রতিবাদী তারুণ্য' ক্যাটাগরিতে মরণোত্তর স্বাধীনতা পুরস্কার কে পেয়েছেন? [বাংলাদেশ সরকারী কর্ম কমিশন-এর বিদ্যুৎ জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয় (ইলেকট্রিক ইন্সপেক্টর): ২০২৫] ➺ ✔ আবরার ফাহাদ<br/>❏ বাংলাদেশের দ্বিতীয় সর্বোচ্চ বেসামরিক পুরস্কারের নাম কী? ➺ একুশে পদক।<br/>❏ একুশে পদক প্রবর্তন করেন ➺ রাষ্ট্রপতি জিয়াউর রহমান, ১৯৭৬ সালে।<br/>❏ একুশে পদক” কতটি বিভাগে প্রদান করা হয়ে থাকে? ➺ ১১টি।<br/>❏ সাংবাদিকতা ও মানবাধিকার\" ক্ষেত্রে কে 'একুশে পদক-২০২৫' লাভ করেছেন? ➺ মাহমুদুর রহমান।<br/>❏ ২০২৫ সালে 'বিজ্ঞান ও প্রযুক্তিতে' একুশে পদক পাচ্ছেন কে? ➺ মেহেদী হাসান খান। [অভ্র কি-বোর্ডের আবিষ্কারক]<br/>❏ ২০২৫ সালে \"ভাষা ও সাহিত্য\" ক্ষেত্রে মরণোত্তর একুশে পদক পাচ্ছেন কে? ➺ কবি হেলাল হাফিজ।<br/>❏ ২০২৫ সালে একুশে পদক পাওয়া একমাত্র প্রতিষ্ঠানের নাম কী? ➺ বাংলাদেশ জাতীয় নারী ফুটবল দল (ক্ষেত্র: ক্রীড়া)<br/>❏ একুশে পদক-২০২৫ লাভ করেছেন কতজন ব্যক্তি ও প্রতিষ্ঠান? ➺ ১৪ জন বিশিষ্ট নাগরিক ও ১ প্রতিষ্ঠান- জাতীয় নারী ফুটবল দলকে।<br/>❏ ২০২৫ সালে একুশে পদক পাওয়া একমাত্র প্রতিষ্ঠানের নাম কী? ➺ জাতীয় নারী ফুটবল দল।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334578,
+    "question": "দুর্নীতি ধারণাসূচক-২০২৪, সবচেয়ে কম দুর্নীতিগ্রস্ত দেশ?",
+    "options": [
+      "ডেনমার্ক",
+      "ফিনল্যান্ড",
+      "সুইডেন",
+      "আয়ারল্যান্ড"
+    ],
+    "correct_answer": "ডেনমার্ক",
+    "explanation": "📖  দুর্নীতি ধারণা সূচক ২০২৫ ☞ প্রকাশক: TI (Transparency International) <br/>❏ ➚ শীর্ষ দেশ: ডেনমার্ক <br/>❏ ➘ সর্বনিন্ম: দক্ষিণ সুদান <br/>❏  বাংলাদেশের অবস্থান: ➺ ১০ম (ঊর্ধ্ব: ➺ ১৫১ ; নিম্ন: ➺ ১৪)<br/>❏ দুর্নীতির ধারণা সূচক-২০২৪ ➚ দক্ষিণ সুদান ➘ ডেনমার্ক (সবচেয়ে কম) ➺ ১৪তম (নিম্নক্রম)<br/>❏ ⛳ দুর্নীতি ধারণা সূচক ২০২৪<br/>▣ শীর্ষ দুর্নীতিগ্রস্ত দেশ কোনটি? ⇢ ✔দক্ষিণ সুদান <br/>▣ কম দুর্নীতিগ্রস্ত দেশ কোনটি? ⇢ ✔ডেনমার্ক<br/>▣ নিম্নক্রম অনুযায়ী বাংলাদেশের অবস্থান কততম? ⇢ ✔১৪তম <br/>▣ ঊর্ধ্বক্রম অনুযায়ী বাংলাদেশের অবস্থান কততম? ⇢ ✔১৫১তম<br/>❏ বিশ্বে কম দুর্নীতিগ্রস্ত দেশ কোনটি? ➺ ডেনর্মাক,<br/>❏ শীর্ষ দুর্নীতিগ্রস্ত দেশ কোনটি? ➺ দক্ষিন সুদান<br/>❏ নিম্নক্রম অনুসারে দুর্নীতিতে বাংলাদেশের অবস্থান কততম? ➺ ১৪তম, ঊর্ধ্বক্রম অনুসারে ➺ ১৫১ তম",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334579,
+    "question": "বগা লেক কোন উপজেলায় অবস্থিত? বগা লেক",
+    "options": [
+      "থানচি",
+      "রুমা",
+      "আলীকদম",
+      "রোয়াংছড়ি"
+    ],
+    "correct_answer": "রুমা",
+    "explanation": "📖 বগা লেক (Boga Lake) বাংলাদেশের সর্বোচ্চ উচ্চতার মিষ্টি পানির হ্রদগুলোর একটি। এটি বান্দরবান জেলার রুমা উপজেলায় অবস্থিত। বগাকাইন হ্রদ বা বগা লেক বাংলাদেশের সর্বোচ্চ উচ্চতার স্বাদু পানির একটি হ্রদ। বান্দরবান শহর থেকে প্রায় ৭০ কিলোমিটার দূরে বগাকাইন হ্রদের অবস্থান কেওকারাডং পর্বতের গা ঘেষে, রুমা উপজেলায়।<br/> ⇢ <br/>⛳ বান্দরবান জেলার রুমা উপজেলায় সমুদ্রপৃষ্ঠ থেকে প্রায় ১২০০ ফুট উচ্চতায় বগা লেক অবস্থিত। এটি একটি প্রাকৃতিক হ্রদ।<br/> ⇢ <br/>⛳ 'বগা লেক' বান্দরবান জেলায় অবস্থিত। বগা লেক বাংলাদেশের সর্বোচ্চ উচ্চতায় অবস্থিত একটি প্রাকৃতিক হ্রদ, যা বান্দরবান জেলার রুমা উপজেলায় অবস্থিত। এটি সমুদ্রপৃষ্ঠ থেকে প্রায় ৩,০০০ ফুট উচ্চতায় অবস্থিত। বগা লেক এর প্রাকৃতিক সৌন্দর্যের জন্য বিখ্যাত এবং পর্যটকদের কাছে একটি জনপ্রিয় গন্তব্যস্থল। অন্যদিকে সিলেট, কুমিল্লা, এবং নেত্রকোনা জেলায় বগা লেক অবস্থিত নয়। সুতরাং 'বগা লেক' বান্দরবান জেলায় অবস্থিত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334580,
+    "question": "তপশিল শব্দের অর্থ কী?",
+    "options": [
+      "বিবরণ",
+      "আইন",
+      "অধ্যাদেশ",
+      "বিধি"
+    ],
+    "correct_answer": "বিবরণ",
+    "explanation": "📖 ‘তপশিল’ আরবি উৎসের শব্দ। বাক্যে বিশেষ্যে হিসেবে ব্যবহৃত ‘তপশিল’ অর্থ— জমির চৌহদ্দির বিবরণ; বিশেষ উদ্দেশ্যে প্রণীত তালিকা, schedule। যেমন: সংবিধানের তপশিল, নির্বাচনের তপশিল, বিশেষ গ্রন্থের তপশিল।<br/>❏ ‘তপশিল’ থেকে ‘তপশিলি’। এটি বিশেষণ। এর অর্থ— তপশিলভুক্ত; তালিকাভুক্ত, নির্ধারিত। যেমন: তপশিলি সম্প্রদায়, তপশিলি ব্যাংক, তপশিলি সংস্থা, তপশিলি বিষয়।<br/>❏ আরবি শব্দ তফসিল। এবং আধুনিক বানানরীতি অনুযায়ী তফসিল বানান শুদ্ধ। 'তপশিল' শব্দের আভিধানিক অর্থ হলো তালিকা, নির্ঘণ্ট বা বিস্তারিত বিবরণ। সংবিধান বা আইনের শেষে সংযুক্ত তালিকা বা বিবরণীকেও তপশিল (Schedule) বলা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334581,
+    "question": "খাসিয়া গ্রামগুলো কি নামে পরিচিতি?",
+    "options": [
+      "বারাং",
+      "পাড়া",
+      "পুঞ্জি",
+      "মৌজা"
+    ],
+    "correct_answer": "পুঞ্জি",
+    "explanation": "📖 <b>▣ খাসিয়া:</b><br/>❐ বাংলাদেশের <b>সিলেট অঞ্চলে</b> ও ভারতের আসামে এই জনগোষ্ঠী বাস করে। <br/>❐ সিলেটের খাসিয়ারা সিনতেং গোত্রভুক্ত জাতি।<br/>❐ তারা মাতৃপ্রধান পরিবারে বসবাস করে।<br/>❐ খাসিয়া গ্রাম পুঞ্জি এবং পুঞ্জি প্রধান সিয়েম নামে পরিচিত।<br/>❐ এদের আদি নিবাস ছিলো তিব্বতে।<br/>❐ খাসিয়াদের ভাষা বর্মী।<br/>❐ খাসিয়াদের পরিবার মাতৃতান্ত্রিক।<br/>❐ খাসিয়াদের ধর্ম খ্রিস্টান।<br/><br/> ⇢ <br/>⛳ খাসিয়া নৃগোষ্ঠীর লোকেরা সাধারণত পাহাড়ের ওপর ছোট ছোট গ্রামে বাস করে, যেগুলোকে স্থানীয়ভাবে 'পুঞ্জি' বলা হয়।<br/>📝 বাংলাদেশে বসবাসরত একটি মাতৃতান্ত্রিক নৃগোষ্ঠি।<br/>❐ এরা মঙ্গোলীয় বংশোদ্ভূত।<br/>❐ বাংলাদেশে তাদের আদি নিবাস বাংলাদেশের উত্তর-পূর্ব সীমান্তবর্তী সুনামগঞ্জ জেলায়।<br/>▣<b> বর্তমানে সিলেট, সুনামগঞ্জের বিশ্বম্ভরপুর, তাহিরপুর, ছাতক ও সদর থানায় খাসিয়ারা ছড়িয়ে ছিটিয়ে আছে।</b><br/>❐ পুঞ্জি প্রধানকে সিয়েম বলা হয়।<br/>❐ বর্তমানে ৮০%-৯০% খাসিয়াই খ্রিস্টান।<br/>❐ প্রায় প্রতি পুঞ্জিতেই গির্জা আছে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334582,
+    "question": "নোট অব ডিসেন্ট বলতে কি বুঝায়?",
+    "options": [
+      "চুড়ান্ত সিদ্ধান্ত",
+      "আনুষ্ঠানিক ভিন্নমত",
+      "আনুষ্ঠানিফ ঐক্যমত্য",
+      "সভার কার্যবিবরণী"
+    ],
+    "correct_answer": "আনুষ্ঠানিক ভিন্নমত",
+    "explanation": "📖 কোনো সভা বা কমিটিতে সংখ্যাগরিষ্ঠের সিদ্ধান্তের সাথে কোনো সদস্য একমত না হলে তিনি লিখিতভাবে যে ভিন্নমত পোষণ করেন, তাকে 'নোট অব ডিসেন্ট' (Note of Dissent) বা বিসংবাদি প্রতিবেদন বলা হয়।<br/> ⇢ <br/>⛳ প্রশাসনিক, বিচারিক বা প্রাতিষ্ঠানিক কোনো সভায় যখন কোনো সিদ্ধান্ত গৃহীত হয়, তখন যদি কোনো সদস্য সেই সিদ্ধান্তের সাথে একমত না হন, তবে তিনি তার দ্বিমত বা আপত্তির কারণ লিখিতভাবে জানান। এই লিখিত দ্বিমতকেই 'নোট অব ডিসেন্ট' বা 'বিসংবাদী প্রতিবেদন' বলা হয়। এটি গণতান্ত্রিক প্রক্রিয়ার একটি অংশ।<br/>❏ ⛳ নোট অব ডিসেন্ট (Note of Dissent) বলতে বোঝায় কোনো আলোচনা, কমিটি, আদালত বা বোর্ড কর্তৃক গৃহীত সিদ্ধান্তের সাথে কোনো সদস্যের দ্বিমত বা অসম্মতি লিখিতভাবে প্রকাশ করা, যেখানে তিনি সংখ্যাগরিষ্ঠের মতামতের বিপরীতে নিজের ভিন্ন যুক্তি ও ব্যাখ্যা তুলে ধরেন। এটি সাধারণত আনুষ্ঠানিক কার্যবিবরণীতে (Meeting minutes) অন্তর্ভুক্ত করা হয় এবং ভবিষ্যতে আইন ব্যাখ্যা বা নীতি নির্ধারণে গুরুত্বপূর্ণ হতে পারে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334583,
+    "question": "ফখরউদ্দিন মুবারক শাহ কত সালে সোনারগাঁয়ের শাসন ক্ষমতা দখল করেন?",
+    "options": [
+      "১৩৪৯",
+      "১৩৪২",
+      "১৩৩৫",
+      "১৩৩৮"
+    ],
+    "correct_answer": "১৩৩৮",
+    "explanation": "📖 ফখরউদ্দিন মুবারক শাহের পূর্বনাম ফখরা। ১৩৩৮ সালে তিনি সোনারগাঁয়ের শাসন ক্ষমতা দখল ও স্বাধীনতা ঘোষণা করেন। স্বাধীন সুলতান হিসেবে তিনি উপাধি গ্রহণ করেন ফখরউদ্দিন মুবারক শাহ। তিনি ছিলেন বাংলার প্রথম স্বাধীন সুলতান। তিনিই সর্বপ্রথম চট্টগ্রাম জয় করেন। তবে তিনি পুরো বাংলা জয় করতে পারেননি।<br/>❏ ফখরুদ্দীন মুবারক শাহ চৌদ্দ শতকে বাংলার সার্বভৌম শাসক ছিলেন। তার শাসনাধীন এলাকা বর্তমান বাংলাদেশের পূর্ব ও দক্ষিণ-পূর্বাঞ্চল নিয়ে গঠিত ছিল। তিনি ছিলেন স্বাধীন মুসলিম সালতানাতের প্রতিষ্ঠাতা। তিনিই বাংলার সার্বভৌম ‘সুলতান’। তার রাজধানী ছিল ঢাকার অদূরে ঐতিহাসিক নগর সোনারগাঁ। ফখরুদ্দীন জাতিতে তুর্কি এবং খুব সম্ভবত তুর্কিদের কারাউনা গোত্রীয় ছিলেন। তিনি দিল্লির তুগলক সুলতানের অধীনে সোনারগাঁয়ের শাসনকর্তা বাহরাম খানের সিলাহদার বা অস্ত্রাগারের তত্ত্বাবধায়ক হিসাবে নিযুক্ত ছিলেন। ১৩৩৭ সালে বাহরাম খানের মৃত্যুর পর ফখরুদ্দীন সোনারগাঁয়ের শাসন ক্ষমতা করায়ত্ত করেন। ফখরুদ্দীন মোবারক শাহের রাজধানী ছিল সোনারগাঁ। তিনি কুমিল্লা, নোয়াখালী, সিলেট ও চট্টগ্রাম জয় করেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334584,
+    "question": "বিক্রমাদিত্য কার উপাধি ছিল?",
+    "options": [
+      "১ম চন্দ্রগুপ্ত",
+      "২য় চন্দ্রগুপ্ত",
+      "শ্রীগুপ্ত",
+      "ভিনসেন্ট স্মিথ"
+    ],
+    "correct_answer": "২য় চন্দ্রগুপ্ত",
+    "explanation": "📖 গুপ্ত সাম্রাজ্যের প্রতিষ্ঠাতা শ্রীগুপ্তের পৌত্র এবং ঘটোৎকচের পুত্র দ্বিতীয় চন্দ্রগুপ্তের উপাধি ছিল 'বিক্রমাদিত্য'। তিনি সামন্ত রাজাদের পরাজিত করে গুপ্ত সাম্রাজ্যের পত্তন করেন। গুপ্ত সম্রাট দ্বিতীয় চন্দ্রগুপ্ত শকদের পরাজিত করে 'বিক্রমাদিত্য' বা 'শকারি' উপাধি গ্রহণ করেন।<br/>❏ দ্বিতীয় চন্দ্রগুপ্ত :-<br/>❏ গুপ্ত বংশের সবচেয়ে শক্তিশালী সম্রাটদের মধ্যে একজন ছিলেন দ্বিতীয় চন্দ্রগুপ্ত, যিনি তাঁর আসল নাম বিক্রমাদিত্য এবং চন্দ্রগুপ্ত বিক্রমাদিত্য নামেও পরিচিত। <br/>❏ তিনি ভারতের গুপ্ত সাম্রাজ্যের তৃতীয় শাসক ছিলেন।<br/>❏ খ্যাতিমান দ্বিতীয় চন্দ্রগুপ্ত ছিলেন সমুদ্রগুপ্ত এবং দত্ত দেবীর সন্তান।<br/>❏ দ্বিতীয় চন্দ্রগুপ্ত গুপ্ত সাম্রাজ্যকে পশ্চিম সমুদ্র উপকূলে, বাণিজ্য ও ব্যবসার জন্য একটি গুরুত্বপূর্ণ এলাকা পর্যন্ত বিস্তৃত করেছিলেন।<br/>❏ ফলে, মালওয়া এবং উজ্জয়িনী (উজ্জয়িনী), অঞ্চলের রাজধানী, সমৃদ্ধি লাভ করে।<br/>❏ দ্বিতীয় চন্দ্রগুপ্তের দ্বিতীয় রাজধানী ছিল উজ্জয়িনী।<br/>❏ চন্দ্রগুপ্ত প্রথম (319AD-334 AD):<br/>❏ তিনি মহারাজাধিরাজ উপাধি গ্রহণকারী প্রথম গুপ্ত শাসক ছিলেন।<br/>❏ মিথিলার শাসক, শক্তিশালী লিচ্ছবি পরিবারের সাথে বৈবাহিক সম্পর্কের মাধ্যমে তিনি তাঁর রাজ্যকে শক্তিশালী করেছিলেন।<br/>❏ তিনি লিচ্ছবি রাজকন্যা কুমারদেবী এর সাথে বিবাহ করেছিলেন।<br/>❏ তিনি 319AD-320 AD সালে গুপ্ত যুগের সূচনা করেছিলেন।<br/>❏ তিনি মগধ, সাকেত এবং প্রয়াগ এর উপর তাঁর কর্তৃত্ব প্রতিষ্ঠা করেছিলেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334585,
+    "question": "বাংলাদেশের সাথে ভারতের সীমানা কত কিঃমিঃ?",
+    "options": [
+      "৫১৩৮ কিঃমিঃ",
+      "৪৩৭১ কিঃমিঃ",
+      "৪১৫৬ কিঃমিঃ",
+      "৩৯৭৮ কিঃমিঃ"
+    ],
+    "correct_answer": "৪১৫৬ কিঃমিঃ",
+    "explanation": "📖  বাংলাদেশের সীমারেখা বা সীমান্ত<br/>❏ বাংলাদেশের সর্বমোট সীমারেখা ➺ ৪৭১২ কি.মি. (সূত্র: মাধ্যমিক ভূগোল) ➺ ৫১৩৮ কি.মি. (সূত্র: বর্ডার গার্ড বাংলাদেশ)<br/>❏ বাংলাদেশের সর্বমোট স্থলসীমা ➺ ৩৯৯৫ কি.মি. (সূত্র: মাধ্যমিক ভূগোল) ➺ ৪৪২৭ কি.মি. (সূত্র: বর্ডার গার্ড বাংলাদেশ) ➺ ৪,২৪৭ কিলোমিটার (সূত্র: উইকিপিডিয়া) [যার ৯৪% ভারতের সাথে এবং বাকি ৬% মিয়ানমারের সাথে]<br/>❏ উপকূলীয়/তটরেখার দৈর্ঘ্য ➺ বিজিবি'র তথ্য: ৭১১ কি. মি. ; মাধ্যমিক ভূগোল: ৭১৬ কি.মি<br/>❏ ভারতের সাথে সীমান্ত দৈর্ঘ্য (৯২%) ➺ বিজিবি'র তথ্য: ৪১৫৬ কি. মি. ; মাধ্যমিক ভূগোল: ৩৭১৫ কি.মি.<br/>❏ মিয়ানমারের সাথে সীমান্ত দৈর্ঘ্য (৮%) ➺ বিজিবি'র তথ্য: ২৭১ কি.মি. ; মাধ্যমিক ভূগোল: ২৮০ কি.মি<br/>❏ 📖 বিজিবির তথ্য অনুযায়ী ভারতের ৫টি রাজ্যের সাথে বাংলাদেশের মোট ৪১৫৬ কি.মি. সীমান্ত বিদ্যমান। যার মধ্যে বাংলাদেশের সাথে পশ্চিমবঙ্গের ২২১৬.৭ কি.মি. সীমান্ত বিদ্যমান।<br/>❏ বাংলাদেশের দীর্ঘতম স্থলসীমান্ত রয়েছে ভারতের পশ্চিমবঙ্গ রাজ্যের সাথে। ভারতের সাথে স্থলসীমান্ত চুক্তি স্বাক্ষরিত হয় ১৬ মে, ১৯৭৪ সালে নয়াদিলি, ভারতে। আর চুক্তিটি কার্যকর হয় ৬ জুন ২০১৫ সালে। উল্লেখ্য, এক নজরে ভারতের বিভিন্ন রাজ্যের সাথে স্থলসীমান্ত দৈর্ঘ্যঃ<br/>❏ রাজ্য ➺ সীমান্ত দৈর্ঘ্য (কিমি) ➺ স্ট্রিপম্যাপ<br/>❏ পশ্চিমবঙ্গ ➺ ২,২৬২ ➺ ৬২৮<br/>❏ ত্রিপুরা ➺ ৮৭৪ ➺ ২৬৯<br/>❏ মেঘালয় ➺ ৪৩৬ ➺ ১৩৯<br/>❏ মিজোরাম ➺ ৩২০ ➺ ২০<br/>❏ আসাম ➺ ২৬৪ ➺ ৯৩<br/>❏ মোট ➺ ৪,১৫৬ ➺ ১,১৪৯<br/> ⇢ <br/>⛳ বাংলাদেশের জেলা ও সীমান্ত<br/>❏ বাংলাদেশের মোট জেলা ➺ ৬৪টি।<br/>❏ বাংলাদেশের বৃহত্তম জেলা ছিল ➺ ১৭টি।<br/>❏ স্বাধীনতার সময় বাংলাদেশের জেলা ছিল ➺ ১৯টি।<br/>❏ ১৯৭৮ সালে ২০তম জেলা হিসেবে প্রতিষ্ঠিত হয় ➺ জামালপুর।<br/>❏ ২০টি জেলাকে ভেঙ্গে এরশাদ ৬৪টি জেলায় উন্নীত করেন ➺ ১৯৮৪ সালে।<br/>❏ সীমান্তবর্তী জেলা ➺ ৩২টি (ভারতের সাথে ২৯টি ,মায়ানমার সাথে ৩টি,, রাঙামাটির সাথে উভয়)<br/>❏ বাংলাদেশের সাথে ভারতের কয়টি জেলা ➺ ৩০টি<br/>❏ মিয়ানমারের সাথে সীমান্তবর্তী জেলা ➺ ৩টি (রাঙ্গামাটি, বান্দরবান, কক্সবাজার)।<br/>❏ উপকূলীয় জেলা ➺ ১৯টি<br/>❏ বাংলাদেশের সীমান্তবর্তী ভারতের রাজ্য ➺ ৫টি<br/>❏ ভারত ও মিয়ানমার উভয় দেশের সাথে সীমানা আছে ➺ রাঙ্গামাটির।<br/>❏ বাংলাদেশের সীমানা সংলগ্ন মিয়ানমারের রাজ্য ➺ ২টি (রাখাইন ও চিন)। রাখাইন রাজ্যের পূর্ব নাম: ➺ আরাকান।<br/>❏ একমাত্র রাঙ্গামাটি জেলার সাথে ভারত ও মিয়ানমারের সীমানা রয়েছে ➺ রাঙ্গামাটি জেলা:<br/>❏ মিয়ানমারের সাথে বাংলাদেশের জেলার সীমান্ত রয়েছে ➺ ৩টি (রাঙ্গামাটি, বান্দরবান এবং কক্সবাজার) ।<br/>❏ পার্বত্য চট্টগ্রাম কয়টি জেলা নিয়ে গঠিত ➺ ৩টি (খাগড়াছড়ি, রাঙ্গামাটি এবং বান্দরবান)।<br/>❏ জেনে রাখা ভালো: খাগড়াছড়ি ও রাঙ্গামাটি জেলার সাথে ভারতের এবং রাঙ্গামাটি ও বান্দরবান জেলার সাথে মিয়ানমারের সীমানা রয়েছে। উল্লেখ্য, রাঙ্গামাটি জেলার সাথে ভারত ও মিয়ানমার এই ২টি দেশের সীমানা রয়েছে।<br/>❏ সিলেট (৪টি) এবং ময়মনসিংহ (৪টি) বিভাগের ভারতের সীমানা রয়েছে। ➺ সবগুলো জেলার সাথে<br/>❏ বাংলাদেশের সীমানা সংলগ্ন ভারতের রাজ্য রয়েছে ➺ ৫টি (পশ্চিমবঙ্গ, আসাম, মেঘালয়, ত্রিপুরা ও মিজোরাম)।<br/>❏ বাংলাদেশের কয়টি বিভাগের সাথে ভারতের সীমানা সংযোগ আছে ➺ ৬টি",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334586,
+    "question": "ই-পাসপোর্টের মেয়াদ ১৮ বছরের কম বয়সীদের জন্য কত?",
+    "options": [
+      "৫ বছর",
+      "১০ বছর",
+      "৩ বছর",
+      "১৫ বছর"
+    ],
+    "correct_answer": "৫ বছর",
+    "explanation": "📖 ই-পাসপোর্ট বিধিমাল অনুযায়ী, ১৮ বছরের কম বয়সী এবং ৬৫ বছরের বেশি বয়সী নাগরিকদের জন্য পাসপোর্টের মেয়াদ ৫ বছর (৪৮ পৃষ্ঠা)। প্রাপ্তবয়স্কদের জন্য ১০ বছর মেয়াদী পাসপোর্ট দেওয়া হয়।<br/>❏ আঠারো বছরের কম বয়সী সকল আবেদনকারীর জন্য ই-পাসপোর্টের মেয়াদ ০৫ বছর হয়ে থাকে।<br/>❏ অপ্রাপ্তবয়স্কদের শারীরিক গঠন ও চেহারা দ্রুত পরিবর্তনশীল হওয়ার কারণে তাদের ১০ বছর মেয়াদী পাসপোর্ট দেওয়া হয় না।<br/>❏ তবে, আবেদনকারীর বয়স ১৮ থেকে ৬৫ বছর হলে তারা ৫ বা ১০ বছর মেয়াদী পাসপোর্টের জন্য আবেদন করতে পারেন।<br/>❏ ৬৫ বছরের বেশি বয়সীদের ক্ষেত্রেও ই-পাসপোর্টের মেয়াদ সাধারণত ৫ বছর নির্ধারণ করা হয়েছে।<br/>❏ ৪৮ পৃষ্ঠার পাসপোর্ট এবং ৬৪ পৃষ্ঠার পাসপোর্ট- উভয় ক্ষেত্রেই এই নিয়ম প্রযোজ্য।<br/> ⇢ <br/>⛳ বাংলাদেশে ১৮ বছরের কম বয়সীদের জন্য ই-পাসপোর্ট বা ইলেকট্রনিক মেশিন রিডেবল পাসপোর্টের (MRP) মেয়াদ ৫ বছর নির্ধারণ করা হয়েছে। ১৮ বছর বা তার বেশি বয়সীদের মেয়াদ ১০ বছর।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334587,
+    "question": "LNG ভিত্তিক বিদ্যুৎ কেন্দ্র নির্মিত হচ্ছে কোথায়?",
+    "options": [
+      "মাতারবাড়ি",
+      "ফুলবাড়ী",
+      "পায়রা",
+      "রূপপুর"
+    ],
+    "correct_answer": "পায়রা",
+    "explanation": "📖 পটুয়াখালীর পায়রাতে এলএনজি (তরলীকৃত প্রাকৃতিক গ্যাস) ভিত্তিক বড় বিদ্যুৎ কেন্দ্র নির্মাণের প্রকল্প গ্রহণ করা হয়েছে। এখানে ৩৬০০ মেগাওয়াট ক্ষমতার বিদ্যুৎ কেন্দ্র স্থাপনের কাজ চলছে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334588,
+    "question": "সাঁওতাল বিদ্রোহ দিবস কোন তারিখে?",
+    "options": [
+      "৩০ জুন",
+      "১৬ জুলাই",
+      "১৯ নভেম্বর",
+      "৮ এপ্রিল"
+    ],
+    "correct_answer": "৩০ জুন",
+    "explanation": "📖 ১৮৫৫ সালের ৩০ জুন সিধু ও কানুর নেতৃত্বে সাঁওতালরা ব্রিটিশ ও মহাজনদের শোষণের বিরুদ্ধে বিদ্রোহ ঘোষণা করে। তাই প্রতি বছর ৩০ জুন 'সাঁওতাল বিদ্রোহ দিবস' বা 'হুল দিবস' পালন করা হয়।<br/>❏ ৩০ শে জুন ২০২৫ ঐতিহাসিক সাঁওতাল বিদ্রোহ দিবসের ১৭৩-তম সিধু, কানু দিবস। ১৮৫৫ সালে উপমহাদেশে ভগনাদিঘী গ্রামে প্রায় প্রাথমিক ভাবে ১০ হাজার সাঁওতাল আদিবাসী সহ খেটে খাওয়া মানুষ ইংরেজ শোষনের বিরুদ্ধে যে বিদ্রোহের ডাক দিয়েছিল এটাই সাঁওতাল বিদ্রোহ দিবস নামে পরিচিত। দামিন ই-কোহ নামে ভোগলপুর, বীরভূম মুর্শিদাবাদ রাজমোহলের পাহাড়তলী এলাকায় ১৩৬৩ বর্গমাইল বিস্মৃত এক বনাঞ্চলের গাছ- পালা কেটে আদিবাসীরা আবাদযোগ্য জমি গড়ে তোলে এবং সেখানে ফসল ফলাতে শুরু করে।<br/>❏ এসব অবস্থা দেখে বিট্রিশ সরকার তাদের কাছ থেকে খাঁজনা নিতে শুরু করে। পরবর্তীতে এর মাত্রা আরো অনেক গুনে বেড়ে যায়। এর পরও সাঁওতালদের উপর বিভিন্ন সময় বিভিন্ন কায়দায় নির্যাতন চলে। তাদের অক্লান্ত পরিশ্রমে দামিন-ই-কোহতে যখন ফসলের মাঠ ভরে যায়, তখন জমিদারদের চোখ পড়ে সে দিকে। এ অঞ্চলের ফসলের ভাল অবস্থা দেখে বীরভূম বর্ধমান থেকে কিছু বাঙ্গালী এ অঞ্চলে এসে বসতি স্থাপন শুরু করে।<br/>❏ এর পর সাঁওতাল আদিবাসীদের সাথে তারা মহাজনী কারবার শুরু করে দেয়। কিছু দিনের মধ্যেই অনেক আদিবাসী পরিবার ঋণের জালে আটকা পড়ে। আবার কিছু দিনের মধ্যেই অঞ্চলে থানা, আদালত ও আমলারা আসে। এর পর শুরু হলো জমিদার, মহাজন, পুলিশ ও আমলাদের জুলুম নির্যাতন। ফলে সে অঞ্চলে আদিবাসীদের টিকে থাকা প্রায় অনিশ্চিত হয়ে পড়ল।<br/>❏ ১৮৪৮ সালে দিকে মহাজনদের জ্বালায় দামিন-ই-কোহ এলাকায় ৩ টি গ্রামের সাঁওতাল পরিবার দেশ ত্যাগ করতে বাধ্য হয়। অন্যায় অত্যাচার সাঁওতালদের ধর্য্যরে মধ্যে থাকলেও মহাজনদের অত্যাচার সহ্যের সীমা ছাড়িয়ে যায়। সাঁওতাল আদিবাসীরা মাঠে ফসল ফলায়, আর ফসলের অধিকাংশ যায় মহাজন ও জমিদারদের গোলায়। তাদের এ অবস্থা দেখে ভগনাডির নারায়ন মাঝির চার ছেলে সিধু, কানু, চাঁদ ও ভৈরব বসে থাকতে পারলেন না। তাদের অন্তরে প্রতিবাদের ঝড় বইতে শুরু করল।<br/>❏ সাঁওতাল কৃষকদের ওপর সরকার, মহাজন ও ব্যাপারীদের নির্মম নির্যাতন এবং শোষণ থেকে মুক্তির আকাঙ্ক্ষা পেতেই সংঘটিত হয়েছিল এই বিদ্রোহ। জঙ্গল কেটে আদিবাসীরা যে আবাদি জমি তৈরি করে তার উপর নিজেদের অধিকার নিশ্চিত করতে হয়েছিল এই সংগ্রাম। তাই বিদ্রোহের মূল দাবি ছিল— জমির অধিকার , জমি থেকে উৎপন্ন ফসল ভাগ করার অধিকার, ঠকবাজ মহাজন, ব্যবসায়ী ও বিদেশি শোষণ ও শাসন থেকে মুক্তি।<br/>❏ সিধু-কানু-চাঁদ-ভৈরব-ঝালমনি ও ফুলমনির নেতৃত্বে বিদ্রোহের স্ফুলিঙ্গ ছড়িয়ে পড়েছিল ভগনাডিহি থেকে চারিদিকে। এই বিদ্রোহ দমনের জন্য কোম্পানি সরকারও বেশিক্ষণ চুপ করে বসে থাকেনি।<br/>❏ প্রথমে বিদ্রোহীদের কাছে পরাজিত হলেও পরবর্তীতে বিদ্রোহ দমনের নামে সরকারি সৈন্যদল ব্যাপক গণহত্যা চালায় এবং সাঁওতাল গ্রামগুলা আগুনে পুড়িয়ে ধ্বংস করে। এক পর্যায়ে জেনারেল লয়েড ও জেনারেল বার্ডের নেতৃত্বে ১ হাজার ৪০০ সৈন্য সাঁওতাল এলাকা ঘেরাও করে ১০ হাজার বিদ্রোহীসহ ৩০ হাজার মানুষকে হত্যা করে।<br/>❏ ১৮৫৬ সালের ২৭ জানুয়ারী ভাগলপুর হিলরেঞ্জার্স বাহিনীর সঙ্গে মুখোমুখি যুদ্ধে বিদ্রোহের নেতা চাঁদ ও ভৈরব মৃত্যুবরণ করেন। ফেব্রুয়ারির দ্বিতীয় ও তৃতীয় সপ্তাহে ইংরেজ সৈন্যের গুলিতে সিধু নিহত হন এবং পরের সপ্তাহে কানুকে ফাঁসি দিয়ে হত্যা করা হয়। তবে আপাত ব্যর্থ হলেও এই বিদ্রোহের পথ ধরে এগিয়ে আসে সিপাহি বিদ্রোহ, তেভাগা আন্দোলনের মতো আরও অনেক ঐতিহাসিক সংগ্রাম।<br/>❏ বিদ্রোহের সেই স্মৃতিকে অম্লান করে রাখতে দিনাজপুরের বোচাগঞ্জের মহেশপুরে নির্মিত হয়েছে দুই মহানায়ক ও দুই ভাই সিধু-কানুর ভাস্কর্য। কান্তনগরের তেভাগা চত্বরেও রয়েছে তাদের প্রতিকৃতি।<br/> ⇢ <br/>⛳ 📖 বাংলাদেশের সমতল ভূমিতে বসবাসকারী নৃ-গোষ্ঠীগুলোর মধ্যে সাঁওতাল জনগোষ্ঠীর জনসংখ্যা সবচেয়ে বেশি। তারা মূলত দেশের উত্তর-পশ্চিমাঞ্চলের রাজশাহী ও দিনাজপুর অঞ্চলে বসবাস করে।<br/>▣ সাঁওতাল<br/>❏ বসবাস- নওগাঁ, দিনাজপুর, ঠাকুরগাঁও ও পঞ্চগড়<br/>❏ বংশধর - অস্ট্রেলীয়<br/>❏ পরিবার- পিতৃতান্ত্রিক<br/>❏ ধর্ম- সনাতন ও খ্রিষ্টান<br/>❏ উৎসব- সোহরা<br/>❏ সাঁওতাল সমাজের মূল ভিত্তি হলো: গ্রাম-পঞ্চায়েত<br/>❏ ঝুমুর, দোন ও ঝিকা হলো: সাঁওতাল নাচ ।<br/>❏ সাঁওতালদের গ্রামের প্রধানকে বলা হয়- মাজি।<br/>❏ সাঁওতালি ভাষা বাংলাদেশের কোন অঞ্চলে ব্যবহৃত হয়- রাজশাহী।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334589,
+    "question": "হলুদ বিহার বাংলাদেশের কোন জেলায় অবস্থিত?",
+    "options": [
+      "নওগাঁ",
+      "নীলফামারী",
+      "নাটোর",
+      "লালমনিরহাট"
+    ],
+    "correct_answer": "নওগাঁ",
+    "explanation": "📖 হলুদ বিহার একটি প্রত্নস্থল। পাহাড়পুর বৌদ্ধমঠ হতে পনেরো কিলোমিটার দক্ষিণে, মহাস্থান হতে পঞ্চাশ কিলোমিটার উত্তর-পশ্চিমে এবং নওগাঁ জেলা শহর হতে আঠারো কিলোমিটার উত্তরে বদলগাছি উপজেলার বিলাসবাড়ি ইউনিয়নে তুলসীগঙ্গা এবং যমুনা নদীর মাঝখানে অবস্থিত হলুদবিহার গ্রামে অনেকগুলি বিক্ষিপ্ত প্রাচীন ঢিবি আছে। এ নিদর্শনগুলি এক বিশাল এলাকা জুড়ে বিদ্যমান। কিন্তু এগুলির মধ্যে উলে­খযোগ্যভাবে অনধিকার প্রবেশ ঘটেছে এবং স্থানীয় অধিবাসীদের দ্বারা বেশ কিছু নিদর্শন ধ্বংসপ্রাপ্ত হয়েছে। স্থানীয়ভাবে দ্বীপগঞ্জ নামে পরিচিত সম্পূর্ণ গ্রামটিতে প্রচুর পুরানো ইট, ভাঙ্গা মৃণ্ময় পাত্রাদির টুকরা ও অন্যান্য সাংস্কৃতিক ধ্বংসাবশেষ অগোছালোভাবে ইতস্তত ছড়িয়ে আছে। এ পুরানো ঢিবিগুলি এবং গ্রামের নাম থেকে ধারণা করা যায় যে, এখানে প্রাচীন বৌদ্ধ বসতির নিদর্শন রয়েছে।<br/>❏ হলুদবিহার, নওগাঁ<br/>❏ পাথর এবং ধাতুনির্মিত মূর্তি, পোড়ামাটির ফলক, অলংকৃত ইট, প্রভৃতি বিবিধ প্রাচীন নিদর্শনাদি সম্পর্কে অতীতে এ স্থান হতে জানা গেছে। এলাকার সর্বত্রই প্রাচীন দালান কোঠার নিদর্শন বিদ্যমান, বিশেষ করে গ্রামীণ হাটের চারদিকে কেন্দ্রীভূত স্থানে। গ্রামের মধ্যবর্তী স্থান জুড়ে আছে এক বিশাল সমতলভূমি। গ্রামটির একটি উল্লেখযোগ্য বৈশিষ্ট্য হলো সংলগ্ন ভূমি হতে ৭.৫ মিটার উঁচু ও প্রায় ৩০ মিটার দীর্ঘ একটি বিরাট ঢিবি, যা হাট বা বাজার হতে পশ্চিমে অবস্থিত। একটি স্থানীয় পরিবার দ্বারা নিদর্শনটির ভীষণ ক্ষতি সাধিত হয়েছে। এর দক্ষিণ-পশ্চিম কোণে নিজেদের বাড়ি নির্মাণ করতে গিয়ে প্রায় সাত মিটার পুরু শক্ত ইটের দেয়াল ঘেরা বসতির ধ্বংসাবশেষ সরিয়ে ফেলে প্রকৃতপক্ষে ঢিবিটির এক চতুর্থাংশ ধ্বংস করে ফেলেছে।<br/>❏ বাজারস্থান হতে সামান্য দূরে উত্তরদিকে রয়েছে অন্যান্য নিদর্শনসমূহ।<br/> ⇢ <br/>⛳ বিভিন্ন বিহার পরিচিতি<br/>▣ সোমপুর বিহার<br/>❏ ধর্মপাল নওগাঁ জেলার বদলগাছী উপজেলা পাহাড়পুরে এই শিক্ষা প্রতিষ্ঠান স্থাপন করেন।<br/>❏ বিহারটির নাম ছিল সোমপুর বিহার। অষ্টম শতাব্দীতে ধর্মপাল এটি নির্মাণ করেন।<br/>❏ ভারতীয় উপমহাদেশে প্রত্নতাত্ত্বিক বৃহত্তম বৌদ্ধবিহারের নাম- সোমপুর বিহার।<br/>❏ সত্য পীরের ভিটা সোমপুর বিহারের একটি উল্লেখযোগ্য স্থান।<br/>❏ সোমপুর বিহারে বাগদাদের খলিফা হারুন-অর রশিদের আমলের রৌপ্য মুদ্রা পাওয়া গেছে<br/>❏ ১৮০৭-১৮১২ সালের মধ্যে কোনো এক সময়ে বুকানন হ্যামিল্টন পাহাড়পুর পরিদর্শন করেন। এটি ছিল পাহাড়পুরের প্রথম প্রত্নতাত্ত্বিক পরিদর্শন। সেই সূত্র ধরে ১৮৭৯ সালে কানিংহাম এই বিশালকীর্তি আবিষ্কার করেন।<br/>▣ ময়নামতি বিহার<br/>❏ কুমিল্লার বিখ্যাত ঐতিহাসিক স্থান ময়নামতি (Moynamoti)।<br/>❏ ময়নামতির পূর্ব নাম ছিল রোহিতগিরি।<br/>❏ এলাকাটি প্রকৃতপক্ষে একটি প্রাচীন নগরী এবং বৌদ্ধ বিহারের অবশিষ্টাংশ।<br/>❏ সপ্তম-দ্বাদশ শতাব্দীর মধ্যে এই নগরী ও বিহারগুলো নির্মিত হয়েছিল।<br/>❏ রাজা মানিকচন্দ্রের স্ত্রী রানী ময়নামতির নামানুসারে এ স্থানের নামকরণ করা হয়।<br/>❏ ময়নামতি জয়কর্মান্তবসাক নামক একটি প্রাচীন নগরীর ধ্বংসাবশেষ।<br/>❏ উল্লেখযোগ্য স্থাপনা হলো- শালবন বিহার, আনন্দ বিহার, ভোজ বিহার, লালমাই পাহাড়, কুটিলা মুড়া, ইটাখোলা মুড়া, রূপবান মুড়া, চারপত্র মুড়া, রানির বাংলো ইত্যাদি।<br/>▣ অতীশ দীপঙ্কর<br/>❏ প্রখ্যাত বৌদ্ধ ধর্মপ্রচারক ও পণ্ডিত অতীশ দীপঙ্কর জন্মস্থান প্রাচীন বিক্রমপুর বা বর্তমান মুন্সিগঞ্জ জেলার বজ্রযোগিণী গ্রামে একটি বৌদ্ধ বিহারের সন্ধান পাওয়া গেছে।<br/>❏ ইতিহাসবিদেরা এতদিন যে বিক্রমপুর বিহারের কথা বলেছেন, এটি সেই বিহার।<br/>❏ প্রাক-মধ্যযুগীয় এ স্থাপনাটি খ্রিষ্টীয় অষ্টম বা নবম শতকে নির্মিত ।<br/>❏ এই মুন্সিগঞ্জের টঙ্গীবাড়ি উপজেলার নাটেশ্বর গ্রামে আবিষ্কৃত হয় প্রাচীন বাংলার বৌদ্ধদের স্মৃতিচিহ্ন নাটেশ্বর দেওল (দেবালয়)।<br/>❏ এ দেওল বৌদ্ধদের বিহার বা বেশ কয়েকটি মন্দিরের সমষ্টি বলে ধারণা করা হয় ।<br/>▣ শালবন বিহার<br/>❏ কুমিল্লার ময়নামতিতে খননকৃত সব প্রত্নতাত্ত্বিক নিদর্শনের মধ্যে শালবন বিহার অন্যতম প্রধান। বি<br/>❏ হারটির আশপাশে এক সময় শাল-গজারির ঘন বন ছিল বলে এ বিহারটির নামকরণ হয়েছিল শালবন বিহার।<br/>❏ এর সন্নিহিত গ্রামটির নাম শালবনপুর।<br/>❏ শালবন বিহারের ছয়টি নির্মাণ ও পুনর্নির্মাণ পর্বের কথা জানা যায়।<br/>❏ চতুর্থ ও পঞ্চম পর্যায়ের নির্মাণকাজ ও সংস্কার কাজ সম্পন্ন হয় নবম-দশম শতাব্দীতে।<br/>▣ আনন্দ বিহার<br/>❏ আনন্দবিহার বাংলাদেশের অন্যতম সমৃদ্ধ ও প্রাচীন একটি প্রত্নতাত্ত্বিক নিদর্শন।<br/>❏ এটি কুমিল্লা জেলার সদর উপজেলার অন্তর্গত কোটবাড়ি এলাকায় অবস্থিত। এই অঞ্চলটি প্রসিদ্ধ প্রত্নতাত্ত্বিক স্থান ময়নামতীর অন্তর্ভুক্ত।<br/>❏ ময়নামতীতে আবিষ্কৃত প্রাচীন সৌধমালার মধ্যে আনন্দবিহার বৃহত্তম।<br/>▣ সীতাকোট বিহার<br/>❏ সীতাকোট বিহার বাংলাদেশের দিনাজপুর জেলার নবাবগঞ্জ উপজেলায় অবস্থিত একটি বৌদ্ধ বিহার ।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334590,
+    "question": "সংযুক্ত তহবিলের উপর ধার্য ব্যয় বলে উল্লিখিত বিষয়সমূহ সংবিধানের কোন ধারার অন্তর্ভুক্ত-",
+    "options": [
+      "৮৪",
+      "৮১",
+      "৮৮",
+      "৮৫"
+    ],
+    "correct_answer": "৮৮",
+    "explanation": "📖 বাংলাদেশ সংবিধানের ৮৪ অনুচ্ছেদ অনুযায়ী বাংলাদেশ সরকার তথা রাষ্ট্রের সকল অর্থ দুটি তহবিলে জমা হয়। যথা-<br/>❏ ১ ৷ সংযুক্ত তহবিল(Consolidated Fund)<br/>❏ ২ ৷ প্রজাতন্ত্রের সরকারি হিসাব(Public Account of the Republic)<br/>❏ ১ ৷ সংযুক্ত তহবিল(Consolidated Fund)<br/>❏ নিম্নোক্ত তিন ধরনের অর্থ জমা হবে :- <br/>❏ ক) সরকার কর্তৃক প্রাপ্ত সকল রাজস্ব ৷<br/>❏ খ) সরকার কর্তৃক সংগৃহীত সকল ঋণ ৷<br/>❏ গ) কোন ঋণ পরিশোধ থেকে সরকার যে অর্থ পায়৷<br/>❏ সংযুক্ত তহবিলে বর্ণীত জমাকৃত অর্থ ব্যতীত সরকার কতৃর্ক বা সরকারের পক্ষে প্রাপ্ত অন্য সকল অর্থ সংবিধানের ৮৪(২) অনুচ্ছেদের এর বিধান অনুযায়ী প্রজাতন্ত্রের সরকারি হিসাবে জমা হবে। <br/>❏ ২ ৷ প্রজাতন্ত্রের সরকারি হিসাব(Public Account of the Republic) গুলির মধ্যে উল্লেখযোগ্য খাত হল :-<br/>❏ ক) জিপিএফ ৷<br/>❏ খ) নিরাপত্তা জামানত ৷<br/>❏ গ) দেওয়ানী ও ফৌজদারী অাদালতের জমা ৷<br/>❏ ঘ) নির্বাচনী জমা সহ অারও অনেক খাতে জমা ৷<br/>❏ গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধানের ৮৮ অনুচ্ছেদে 'সংযুক্ত তহবিলের উপর দায়যুক্ত ব্যয়' (Charges on Consolidated Fund) সম্পর্কে আলোচনা করা হয়েছে। <br/>❏ সংবিধানের ৮৪ (১) অনুচ্ছেদে লিখিত আছে : ‘সরকার কর্তৃক প্রাপ্ত সকল রাজস্ব, সরকার কর্তৃক সংগৃহীত সকল ঋণ এবং কোনো ঋণ পরিশোধ হইতে সরকার কর্তৃক প্রাপ্ত সকল অর্থ একটি মাত্র তহবিলের অংশে পরিণত হইবে এবং তাহা “সংযুক্ত তহবিল” নামে অভিহিত হইবে।’<br/>❏ সংযুক্ত তহবিলের উপর দায় সম্পর্কিত সংবিধানের ৮৮ অনুচ্ছেদে লিখিত আছে : ‘সংযুক্ত তহবিলের দায়যুক্ত ব্যয় নিম্নরূপ হইবে :<br/>❏ ধারা ৮৮ – অংশগ্রহণ তহবিল, কল্যাণ তহবিল ও শ্রমিক কল্যাণ ফাউন্ডেশন তহবিলে প্রদত্ত অর্থ হইতে উৎসে কর্তন<br/>❏ বাংলাদেশে বিদ্যমান কোনো আইনে যাহা কিছুই থাকুক না কেন, শ্রম আইন, ২০০৬ এর ধারা ২৩৪ অনুযায়ী অংশগ্রহণ তহবিল, কল্যাণ তহবিল এবং শ্রমিক কল্যাণ ফাউন্ডেশন তহবিলে অর্থ পরিশোধের জন্য দায়িত্বপ্রাপ্ত ব্যক্তি উক্তরূপ অর্থ পরিশোধ বা ক্রেডিটকালে ১০% (দশ শতাংশ) হারে কর কর্তন করিবেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334591,
+    "question": "যুক্তরাষ্ট্রের পরিচালিত \"অপারেশন মিডনাইট হ্যামার\" ইরানে কবে হামলা করে?",
+    "options": [
+      "২০ জুন ২০২৫",
+      "২১ জুন ২০২৫",
+      "২২ জুন ২০২৫",
+      "২৩ জুন ২০২৫"
+    ],
+    "correct_answer": "২২ জুন ২০২৫",
+    "explanation": "📖  যুক্তরাষ্ট্রের পরিচালিত 'অপারেশন মিডনাইট হ্যামার' ইরানে কবে হামলা করে? [৪৭তম বিসিএস] ⇢ ✔২২ জুন ২০২৫ <br/>▣ ইরানের ফর্দো (Fordow) পারমাণবিক সমৃদ্ধকরণ কেন্দ্রটি কোন প্রদেশে অবস্থিত? [৪৭তম বিসিএস] ⇢ ✔কোম <br/>📝 ইরানের ফর্দো (Fordow) পারমাণবিক সমৃদ্ধকরণ কেন্দ্রটি কোম (Qom) প্রদেশে অবস্থিত। ইরান-ইসরায়েল সংঘাতে ইরানের পরমাণু স্থাপনা ধ্বংসের লক্ষ্যে যুক্তরাষ্ট্র বি-২ স্টিলথ বোমারু বিমান দিয়ে হামলা চালিয়ে ফার্দো, নাতাঞ্জ ও ইস্পাহান পরমাণু স্থাপনায় (২২ জুন ২০২৫ খ্রিস্টাব্দ)। এই হামলায় ফর্দোকে গুঁড়িয়ে দেয়ার জন্য ব্যবহার করা হয় ➺ জিবিইউ-৫৭ বোমা। পাশাপাশি নাতাঞ্জ (Natanz) এবং ইস্পাহান (Esfahan) ধ্বংস করতে ব্যবহার করা হয়েছে টোমাহক ক্ষেপণাস্ত্র। এই অপারেশনের নাম: অপারেশন মিডনাইট হ্যামার<br/>▣ কোন তারিখে ইরান-ইসরাইল যুদ্ধ বিরতি হয়? [বাংলাদেশ সরকারী কর্ম কমিশন - বিদ্যুৎ জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয় (ইলেকট্রিক ইন্সপেক্টর): ২০২৫] ⇢ ✔২৪ জুন ২০২৫<br/>❏ ইরান-ইসরাইলের ১২ দিনের যুদ্ধের পর যুদ্ধবিরতি হয় ➺ ২৪ জুন ২০২৫ খ্রিস্টাব্দে।<br/>▣ Which US military base in Qatar did Iran attack during the recent Iran-Israel conflict? [সমন্বিত ৮টি ব্যাংক ও ১টি আর্থিক প্রতিষ্ঠান-এর সিনিয়র অফিসার: ২০২৫] ⇢ ✔Al Udeld Air Base <br/>📝 ইরানের পারমাণবিক কেন্দ্রে ক্ষেপণাস্ত্র হামলার প্রতিশোধে ইরান কাতারে অবস্থিত মার্কিন যে ঘাটিতে বিমান হামলা চালায় ➺ আল উদেইদ ঘাঁটি, কাতার।<br/>❏ ইরানের পারমাণবিক স্থাপনায় যুক্তরাষ্ট্রের সামরিক অভিযানের সাংকেতিক নাম ‘অপারেশন মিডনাইট হ্যামার’।<br/>❏ যুক্তরাষ্ট্রের পরিচালিত অপারেশন মিডনাইট হ্যামার ইরানে কবে হামলা করে? ➺ ২২ জুন ২০২৫<br/>❏ ফোর্দো, নাতাঞ্জ ও ইস্পাহান: ➺ ইরানের এই পারমাণবিক স্থাপনায় যুক্তরাষ্ট্র ২০২৫ সালের ২২ জুন 'অপারেশন মিডনাইট হ্যামার' চালায়। এই অপারেশনে 'বি - ২' বোমারু বিমান ব্যবহার করে যুক্তরাষ্ট্র।<br/>❏ ইরানে যুক্তরাষ্ট্রের হামলা ➺ ২২ জুন ২০২৪ মার্কিন বাহিনী ইরানের তিনটি প্রধান পরমাণু স্থাপনায় হামলা চালায়। নাতাজ, ইস্পাহান ও ফোরদো। যুক্তরাষ্ট্র এই সামরিক অভিযানের নাম দেয় 'অপারেশন মিডনাইট হ্যামার'। যুক্তরাষ্ট্র ইরানে হামলায় 'বি-২ স্পিরিট' স্টেলথ বোমারু বিমান, বাঙ্কার বাস্টার বোম্য 'জিবিইউ-৫৭' ও 'টিমাহক' ক্ষেপণাস্ত্র ব্যবহার করে। মার্কিন ৫০৯তম বোম্ব উইংয়ের ১২৫টি যুদ্ধবিমান হামলায় অংশ নেয়। উল্লেখ্য, যুক্তরাষ্ট্র প্রথমবারের মতো এই বাচ্চার ব্যস্টার বোমা 'জিবিইউ-৫৭' ইরানে হামলায় ব্যবহার করে।<br/>❏ ইরানের পাল্টা হামলা ➺ পারমাণবিক স্থাপনায় যুক্তরাষ্ট্রের নজিরবিহীন হামলার জবাবে ইরান ২৪ জুন ২০২৫ কাতারে অবস্থিত মার্কিন বিমান ঘাঁটি 'আল উদেইদ'-এ ক্ষেপণাস্ত্র হামলা চালায়। ইরান এই অভিযানের নামকরণ করে 'অপারেশন গসপেল অফ ভিক্টরি' (Operation Gospel of Victory)<br/>❏ যুদ্ধবিরতি কার্যকর ➺ যুক্তরাষ্ট্রের মধ্যস্থতায় ২৪ জুন ২০২৫ ইরান-ইসরায়েল যুদ্ধবিরতি কার্যকর হয়। তবে আনুষ্ঠানিক চুক্তি না থাকলেও মার্কিন প্রেসিডেন্ট ট্রাম্প এ ঘোষণা দেন। উল্লেখ্য, ডোনাল্ড ট্রাম্প এ যুদ্ধকে '১২ দিনের যুদ্ধ' বলে অভিহিত করেন।<br/>❏ 🔥 মধ্যপ্রাচ্যে সাম্প্রতিক আলোচিত অপারেশন<br/>❏ আলোচিত অপারেশন ➟ বিবরণ ➺ তারিখ<br/>❏ অপারেশন ব্ল‍্যাক ফ্ল্যাগ ➟ হুথিদের বিরুদ্ধে ইসরায়েলের পরিচালিত অভিযান ➺ ৭ জুলাই ২০২৫<br/>❏ অপারেশন গসপেল অফ ভিক্টরি ➟ বিভিন্ন দেশে অবস্থিত যুক্তরাষ্ট্রের সেনা ঘাঁটিতে ইরান কর্তৃক হামলা ➺ ২৩ জুন ২০২৫<br/>❏ অপারেশন মিডনাইট হ্যামার ➟ যুক্তরাষ্ট্র কর্তৃক ইরানের পারমাণবিক স্থাপনায় পরিচালিত অভিযান ➺ ২২ জুন ২০২৫<br/>❏ অপারেশন রাইজিং লায়ন ➟ ইরানে পরিচালিত ইসরায়েলের সামরিক অভিযান ➺ ১৩ জুন ২০২৫<br/>❏ অপারেশন ট্রু প্রমিজ ৩ ➟ ইসরায়েলের বিরুদ্ধে ইরানের পরিচালিত সামরিক অভিযান ➺ ১৩ জুন ২০২৫<br/>❏ অপারেশন ট্র প্রমিজ ২ ➟ ইসরাইলে ইরানের দ্বিতীয় অভিযানের সাংকেতিক নাম ➺ ১ অক্টোবর ২০২৪<br/>❏ অপারেশন ট্র প্রমিজ ➟ ইসরায়েলের ভূখণ্ড লক্ষ্য করে ইরানের প্রথম সরাসরি হামলা ➺ ১৩ এপ্রিল ২০২৪<br/>❏ অপারেশন ব্ল‍্যাক ফরেস্ট ➟ ভারতের ছত্তিশগড়ে মাওবাদী গেরিলাদের বিরুদ্ধে পরিচালিত অভিযান ➺ ২১ এপ্রিল ২০২৫<br/>❏ অপারেশন আয়রন ওয়াল ➟ পশ্চিম তীরে ইসরাইল পরিচালিত সামরিক অভিযান ➺ ২১ জানুয়ারি ২০২৫<br/>❏ ডে'স অব রিপেন্টেনস ➟ ইরানের হামলার জবাবে ইসরাইল পরিচালিত অভিযান ➺ ২৬ অক্টোবর ২০২৪<br/>❏ অপারেশন আয়রন সোর্ড ➟ গাজায় পরিচালিত ইসরায়েলি সামরিক অভিযান ➺ ৮ অক্টোবর ২০২৩<br/>❏ অপারেশন মেনি ওয়েজ ➟ ইসরাইল কর্তৃক সিরিয়ায় ভূগর্ভস্থ ক্ষেপণাস্ত্র কারখানা ধ্বংস অভিযান ➺ ৮ সেপ্টেম্বর ২০২৪<br/>❏ অপারেশন নর্দান অ্যারোস ➟ ইসরাইল কর্তৃক লেবাননে পরিচালিত স্থল হামলার সাংকেতিক নাম ➺ ২৩ সেপ্টেম্বর ২০২৪<br/>❏ প্রসপারিটি গার্ডিয়ান ➟ হুতি বিদ্রোহীদের বিরুদ্ধে যুক্তরাষ্ট্রের নেতৃত্বে পরিচালিত অভিযান ➺ ২০২৪<br/>❏ অপারেশন আল-আকসা ফ্ল্যাড ➟ ইসরায়েলে পরিচালিত হামাসের অভিযান ➺ ৭ অক্টোবর ২০২৩<br/>❏ 🔥 ২০২৫ সালে সংঘটিত কয়েকটি সামরিক অভিযান<br/>▣ অপারেশন সিদূর:<br/>❏ ৭ মে ২০২৫ তারিখে ভারত কর্তৃক পরিচালিত একটি সীমিত সামরিক অভিযান, যেখানে পাকিস্তান ও পাকিস্তান-অধীকৃত কাশ্মীরের ৯টি জঙ্গি ঘাঁটিতে আক্রমণ চালানো হয়। এটি কাশ্মীরে ভারতীয় সেনার ওপর বড় জঙ্গি হামলার জবাবে করা হয়। পাকিস্তান পাল্টা হামলা চালালে ভারত লাহোরের একটি ক্ষেপণাস্ত্র ঘাঁটি ধ্বংস করে। দু'দেশের মধ্যে কয়েকদিন স্থায়ী সীমান্ত যুদ্ধাবস্থা তৈরি হয়। ১০ মে যুদ্ধবিরতির মাধ্যমে সংঘর্ষের অবসান ঘটে।<br/>▣ অপারেশন বুনিয়ান-উন-মারসুস:<br/>❏ ১০ মে ২০২৫ তারিখে অপারেশন সিদূর এর প্রতিক্রিয়ায় পরিচালিত অপারেশন, যেখানে তারা ভারতের ২০+ সামরিক ঘাঁটি ও বিমানবন্দর, রাডার ও সরবরাহ-সাপোর্ট স্থাপনা লক্ষ্য করে Fateh ব্যালিস্টিক মিসাইল এবং কামিকেইজ ড্রোন ব্যবহার করে শক্তিশালী আক্রমণ চালায়। দুই দেশের মধ্যে প্রথম ড্রোন-বেসড যুদ্ধ হিসেবে এটি ইতিহাসের পাতায় স্থান পায়। সন্ধ্যায় উভয় দেশ সরকারি যুদ্ধবিরতির মাধ্যমে সংঘর্ষ থামিয়ে দেয়।<br/>▣ (III) অপারেশন রাইজিং লায়ন:<br/>❏ ১৩ জুন ২০২৫ তারিখে ইসরায়েল পরিচালিত একটি পূর্বনির্ধারিত সামরিক অভিযান, যা ইরানের গুরুত্বপূর্ণ পারমাণবিক ও সামরিক স্থাপনা লক্ষ্য করে চালানো হয়। অভিযানে ড্রোন, স্টেলথ ফাইটার ও স্যাটেলাইট সহযোগে বিস্তৃত হামলা চালানো হয়। ইরানের IRGC এর শীর্ষস্থানীয় সামরিক কর্মকর্তারা এতে নিহত হন। এই অপারেশন ছিল ইসরায়েলের তরফ থেকে ইরানের পারমাণবিক কর্মসূচি ঠেকাতে সবচেয়ে বড় সামরিক পদক্ষেপ।<br/>▣ অপারেশন টু প্রমিজ-৩:<br/>❏ ইসরায়েলের অপারেশন রাইজিং লায়ন এর জবাবে ইরান পরিচালিত প্রতিশোধমূলক সামরিক অভিযান। এটি ১৪-১৬ জুন ২০২৫ তারিখে সংঘটিত হয়, যেখানে ইরান প্রায় ৩০০টির বেশি ব্যালিস্টিক মিসাইল ও ড্রোন নিক্ষেপ করে ইসরায়েলের সামরিক ঘাঁটি, রাডার সাইট ও গুরুত্বপূর্ণ স্থাপনায়। আঘাতে ইসরায়েলে বেশ কিছু ক্ষয়ক্ষতি ও প্রাণহানি ঘটে, যদিও Iron Dome ও মিত্র প্রতিরক্ষা ব্যবস্থায় বহু মিসাইল প্রতিহত হয়। ইরান এই হামলাকে \"সত্যিকারের প্রতিশ্রুতি' রক্ষা বলা হয়।<br/>▣ অপারেশন মিডনাইট হ্যামার:<br/>❏ ২২ জুন ২০২৫ তারিখে যুক্তরাষ্ট্রের পরিচালিত একটি গোপন সামরিক হামলা, যেখানে ইরানের তিনটি গুরুত্বপূর্ণ পারমাণবিক স্থাপনা-ফোর্ডো, নাতাঞ্জ এবং ইসফাহান তিনটি একযোগে আঘাতপ্রাপ্ত হয়। এতে B-2 স্টেলথ বোম্বার ও টমাহক ক্রুজ মিসাইল ব্যবহার করে গভীর ভূগর্ভস্থ স্থাপনা ধ্বংস করা হয়। এই অভিযানে GBU-57 (Massive Ordnance Penetrator) বোমা ব্যবহার করা হয়। ইরানের প্রতিরক্ষা ব্যবস্থা হামলা প্রতিহত করতে ব্যর্থ হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334592,
+    "question": "কোন দেশগুলো মেডিসিন লাইন/সীমানা দ্বারা বিভক্ত?",
+    "options": [
+      "ব্রাজিল ও বলিভিয়া",
+      "যুক্তরাষ্ট্র ও কানাডা",
+      "জার্মানি ও পোল্যান্ড",
+      "মিশর ও সুদান"
+    ],
+    "correct_answer": "যুক্তরাষ্ট্র ও কানাডা",
+    "explanation": "📖 যুক্তরাষ্ট্র ও কানাডার মধ্যকার দীর্ঘ সীমানাটি ৪৯তম প্যারালাল (49th Parallel) নামে পরিচিত। স্থানীয় আদিবাসীরা এই সীমানাকে 'মেডিসিন লাইন' (Medicine Line) বলে অভিহিত করত, কারণ তারা বিশ্বাস করত এই রেখা পার হলে জাদুকরীভাবে তারা এক দেশের আইন থেকে অন্য দেশের সুরক্ষায় চলে যেতে পারে।<br/> ⇢ <br/>⛳ যুক্তরাষ্ট্র ও কানাডা মেডিসিন লাইন দ্বারা বিভক্ত।<br/>▣ মেডিসিন লাইন/সীমানা (Medicine Line):<br/>❏ মেডিসিন লাইন (Medicine Line) হলো যুক্তরাষ্ট্র ও কানাডার মধ্যকার সীমানা।<br/>❏ বিশেষ করে ৪৯° উত্তর অক্ষরেখা (49th parallel) বরাবর টানা সীমারেখাকে বোঝাতে মেডিসিন লাইন ব্যবহার করা হয়।<br/>❏ ৪৯° উত্তর অক্ষরেখা (49° N latitude) হলো মার্কিন যুক্তরাষ্ট্র এবং কানাডার মধ্যে দীর্ঘতম আন্তর্জাতিক সীমান্তের একটি অংশ যা প্রধানত সোজা রেখা।<br/>❏ এটি বিশ্বের সবচেয়ে দীর্ঘ অরক্ষিত (unfortified) সীমান্ত হিসেবে পরিচিত।<br/>❏ এটি প্রায় ৫,৫২৫ মাইল দীর্ঘ সীমান্ত।<br/>❏ এই সীমান্ত ১৮৪৬ সালের ওরেগন ট্রিটি (Oregon Treaty) দিয়ে নির্ধারিত হয়।<br/>▣ উল্লেখ্য,<br/>❏ কানাডার স্থানীয়রা এই লাইনটিকে মেডিসিন লাইন হিসেবে উল্লেখ করে থাকেন।<br/>▣ অন্যদিকে,<br/>❏ ওডার-নীস লাইন হলো জার্মানি এবং পোল্যান্ডের মধ্যে একটি আন্তর্জাতিক সীমানা।<br/>❏ ২২° উত্তর অক্ষরেখা (22°N parallel) মিশর এবং সুদানের মধ্যে একটি আন্তর্জাতিক সীমানা। এটি হালায়েব ত্রিভুজ (Hala'ib Triangle) নামেও পরিচিত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334593,
+    "question": "১৯৪৭ সালে প্যালেস্টাইনকে বিভাজনের পরিকল্পনা জাতিসংঘের কোন প্রস্তাবের মাধ্যমে গৃহীত হয়?",
+    "options": [
+      "১৮০ নং প্রস্তাব",
+      "১৮১ নং প্রস্তাব",
+      "১৬০ নং প্রস্তাব",
+      "১৬১ নং প্রস্তাব"
+    ],
+    "correct_answer": "১৮১ নং প্রস্তাব",
+    "explanation": "📖 ১৯৪৭ সালের ২৯ নভেম্বর জাতিসংঘের সাধারণ পরিষদে ১৮১ নং প্রস্তাব (Resolution 181) গৃহীত হয়। এই প্রস্তাবে ফিলিস্তিনকে দ্বিখণ্ডিত করে একটি ইহুদি রাষ্ট্র এবং একটি আরব রাষ্ট্র গঠনের পরিকল্পনা করা হয়।<br/> ⇢ <br/>⛳ ১৯৪৭ সালের ২৯ নভেম্বর জাতিসংঘের সাধারণ পরিষদে ১৮১ নম্বর প্রস্তাব পাসের মাধ্যমে ফিলিস্তিনকে বিভক্ত করে একটি ইহুদি ও একটি আরব রাষ্ট্র গঠনের পরিকল্পনা করা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334594,
+    "question": "নর্থ আন্টলান্টিক ট্রিটি অর্গানাইজেশন বা সামরিক জোট কত সালে স্বাক্ষরিত হয়?",
+    "options": [
+      "১৯৩৯",
+      "১৯৪৩",
+      "১৯৪৯",
+      "১৯৬০"
+    ],
+    "correct_answer": "১৯৪৯",
+    "explanation": "📖 ১৯৪৯ সালের ৪ এপ্রিল যুক্তরাষ্ট্রের ওয়াশিংটন ডি.সি.-তে ১২টি দেশের স্বাক্ষরের মাধ্যমে ন্যাটো (NATO) প্রতিষ্ঠিত হয়। এটি একটি পশ্চিমা সামরিক জোট।<br/> ⇢ <br/>⛳ দ্বিতীয় বিশ্বযুদ্ধের পর সোভিয়েত ইউনিয়নের প্রভাব ঠেকাতে ১৯৪৯ সালে উত্তর আটলান্টিক চুক্তি স্বাক্ষরিত হয় এবং ন্যাটো গঠিত হয়।<br/> ⇢ <br/>⛳ NATO ন্যাটো ☞ মহাসচিব ➺ মার্ক রুটে (সাবেক প্রধানমন্ত্রী) (১৪তম) ⇢ নেদারল্যান্ডস<br/>▣ 34th NATO summits 2025<br/>❏ Location: World Forum, The Hague, Netherlands / Date: 24 ➺ 25 June, 2025<br/>❏ সদস্যরাষ্ট্রগুলো ২০৩৫ সালের মধ্যে প্রতিবছর জিডিপির ৫% (৩.৫% বরাদ্দ মূল প্রতিরক্ষা খাতে ও ১.৫% নিরাপত্তা সংশ্লিষ্ট; নিরাপত্তা ও অবকাঠামো উন্নয়নে) বিনিয়োগ করবে; স্পেন এই বিনিয়োগ করবে না বলে ঘোষণা দেয়। ন্যাটো ৫ দফা বিবৃতি প্রকাশ করে; ‘ওয়াশিংটন চুক্তির ৫ নম্বর অনুচ্ছেদ – জোটের কোনো সদস্য আক্রান্ত হলে তা সবার বিরুদ্ধে হামলা হিসেবে বিবেচিত হবে।’ অঙ্গীকারটি মেনে চলতে প্রতিজ্ঞাবদ্ধ হয় ৩২টি সদস্য দেশ।<br/>❏ ন্যাটোর সর্বশেষ সদস্য রাষ্ট্র কোনটি? ➺ ন্যাটোর সর্বশেষ বা ৩২তম সদস্য রাষ্ট্র সুইডেন।<br/>▣ ন্যাটোর ৩৪তম সম্মেলন ➺ ২৪ - ২৫ জুনে নেদারল্যান্ডসের হেগ শহরে<br/>▣ NATO-এর পূর্ণরূপ কী? ➺ North Atlantic Treaty Organisation / উত্তর আটলান্টিক নিরাপত্তা জোট।<br/>❏ NATO এর প্রতিষ্ঠাকাল ➺ ৪এপ্রিল, ১৯৪৯ সাল (১৬,১৭,২১,৪১বিসিএস)<br/>▣ NATO কী ধরনের জোট? ➺ সামরিক সহযোগিতার জোট।<br/>▣ NATO-এর প্রতিষ্ঠাতা সদস্য সংখ্যা কত? ➺ ১২।<br/>▣ NATO-এর বর্তমান সদস্য সংখ্যা কত? ➺ ৩২।<br/>▣ NATO-এর সদর দপ্তর কোথায়? ➺ ব্রাসেলস, বেলজিয়াম।<br/>▣ বর্তমান NATO মহাসচিব কে? ➺ মার্ক রুটে।<br/>▣ NATO-এর মুসলিম দেশগুলো কোনগুলো? ➺ আলবেনিয়া ও তুরস্ক।<br/>▣ সর্বশেষ ৩২তম NATO সদস্য কোন দেশ? ➺ সুইডেন।<br/>▣ ন্যাটোর বর্তমান সদস্য দেশ- ৩২টি। ন্যাটোর সর্বশেষ দুটি সদস্য দেশ- ৩২তম সুইডেন ও ৩১তম ফিনল্যান্ড। (ন্যাটোভুক্ত মুসলিম সংখ্যাগরিষ্ঠ দেশ দুটি- তুরস্ক ও আলবেনিয়া। খেয়াল করুন- 'আলবেনিয়া' ইউরোপ মহাদেশের একটি দেশ। তবে, 'আলজেরিয়া' আফ্রিকা মহাদেশের একটি দেশ; 'আলজেরিয়া' ন্যাটোভুক্ত দেশ নয়। আবার, তুরস্ক ও আলবেনিয়া ন্যাটোভুক্ত দেশ হলেও ইউরোপীয় ইউনিয়নভুক্ত দেশ নয়। তারা কেবল ন্যাটোভুক্ত দেশ।)<br/>❏ ⛳ NATO বা North Atlantic Treaty Organization, একটি আন্তর্জাতিক আঞ্চলিক সামরিক জোট, যা ১৯৪৯ সালে প্রতিষ্ঠিত হয়। এর মূল উদ্দেশ্য হলো সদস্য রাষ্ট্রগুলোর সামরিক ও রাজনৈতিক নিরাপত্তা নিশ্চিত করা, বিশেষ করে ইউরোপ ও উত্তর আমেরিকার দেশগুলোর মধ্যে।<br/>❏ প্রতিষ্ঠার প্রেক্ষাপট ও সময়কাল<br/>❏ প্রতিষ্ঠা: ৪ এপ্রিল, ১৯৪৯<br/>❏ চুক্তি: North Atlantic Treaty (ওয়াশিংটন চুক্তি)<br/>❏ প্রেক্ষাপট: দ্বিতীয় বিশ্বযুদ্ধের পর সোভিয়েত ইউনিয়নের হুমকি মোকাবেলায় পশ্চিমা দেশগুলো একত্রিত হয়ে NATO গঠন করে।<br/>❏ সদর দপ্তর - অবস্থান: ব্রাসেলস, বেলজিয়াম<br/>❏ এখান থেকেই NATO-র রাজনৈতিক ও সামরিক সিদ্ধান্ত গ্রহণ করা হয়।<br/>❏ সিদ্ধান্ত গ্রহণ: ন্যাটোতে সিদ্ধান্ত গ্রহণ করা হয় 'সর্বসম্মতি'র নীতিতে।<br/>❏ NATO একটি সামরিক সহযোগিতার জোট যা প্রতিষ্ঠিত হয় ➺ ১৯৪৯ সালের ৪ এপ্রিল<br/>❏ এশিয়ার একমাত্র দেশ হিসেবে এই জোটের সদস্য ➺ তুরস্কও<br/>❏ প্রতিষ্ঠাকালীন সদস্য ➺ ১২টি [যুক্তরাষ্ট্র, যুক্তরাজ্য, কানাডা, ফ্রান্স, ইতালি, বেলজিয়াম, নেদারল্যান্ডস, লুক্সেমবার্গ, নরওয়ে, ডেনমার্ক, আইসল্যান্ড, পর্তুগাল।]<br/>❏ বর্তমান সদস্য ➺ ৩২টি।<br/>❏ ন্যাটোর বর্তমান সদর দপ্তর ➺ বেলজিয়ামের ব্রাসেলসে।<br/>❏ সদস্য রাষ্ট্রগুলোর মধ্যে মুসলিম দেশ ➺ তুরস্ক ও আলবেনিয়াই",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334595,
+    "question": "আফিম যুদ্ধ কোন দুইটি দেশের মধ্যে সংঘটিত হয়?",
+    "options": [
+      "চীন ও আফগানিস্তান",
+      "চীন ও ইংল্যান্ড",
+      "চীন ও রাশিয়া",
+      "ইংল্যান্ড ও আফগানিস্তান"
+    ],
+    "correct_answer": "চীন ও ইংল্যান্ড",
+    "explanation": "📖 আফিম যুদ্ধ (Opium War) চীন এবং ইংল্যান্ডের (যুক্তরাজ্য) মধ্যে সংঘটিত হয়। প্রথম আফিম যুদ্ধ (১৮৩৯-১৮৪২) এবং দ্বিতীয় আফিম যুদ্ধ (১৮৫৬-১৮৬০) উভয়টিতেই চীন পরাজিত হয় এবং হংকং ব্রিটেনের অধীনে চলে যায়।<br/> ⇢ <br/>⛳ ▣ ১৮শ শতকের শেষের দিকে ব্রিটেনের চীনের সাথে বাণিজ্য ঘাটতি ছিল। চা, রেশম, ও চীনা মাটির পাত্র আমদানির বিপরীতে ব্রিটেনের রপ্তানি ছিল নগণ্য। এই ঘাটতি পূরণের জন্য ইস্ট ইন্ডিয়া কোম্পানি ভারতের বঙ্গদেশ থেকে চীনে আফিম রপ্তানি শুরু করে। আফিমে আসক্তি চীনা সমাজে ভয়াবহ রূপ নেয়, ফলে ১৮৩৯ সালে চীনের সম্রাট আফিম বাণিজ্য নিষিদ্ধ করেন এবং বিদেশি ব্যবসায়ীদের বিরুদ্ধে অভিযান চালান।<br/>▣ প্রথম আফিম যুদ্ধ (১৮৩৯-১৮৪২): ১৮৩৯ সালে চীনা কর্মকর্তা লিন জে সু বিপুল পরিমাণ আফিম ধ্বংস করলে ব্রিটিশ ব্যবসায়ীদের ক্ষতি হয়। এর ফলে ব্রিটেন চীনের বিরুদ্ধে যুদ্ধ ঘোষণা করে, যা প্রথম আফিম যুদ্ধ হিসেবে পরিচিত। চীন এই যুদ্ধে পরাজিত হয় এবং ১৮৪২ সালের ২৯ আগস্ট নানকিং চুক্তি স্বাক্ষরিত হয়। এই চুক্তির মাধ্যমে চীন হংকং দ্বীপ ব্রিটেনের হাতে হস্তান্তর করে, পাঁচটি বন্দর (ক্যান্টন, আময়, ফুজু, নিংপো, সাংহাই) ব্রিটিশ বাণিজ্যের জন্য উন্মুক্ত করে, ২ কোটি ১০ লাখ ডলার ক্ষতিপূরণ প্রদান করে, এবং ব্রিটিশ নাগরিকদের উপর চীনা আদালতের বিচারিক ক্ষমতা রহিত করে। এটি ছিল চীনের প্রথম \"অসম চুক্তি”।<br/>▣ দ্বিতীয় আফিম যুদ্ধ (১৮৫৬-১৮৬০): দ্বিতীয় আফিম যুদ্ধে ব্রিটেনের সাথে ফ্রান্সও যোগ দেয়। চীন আবারও পরাজিত হয়, এবং ১৮৬০ সালে বেইজিং চুক্তি স্বাক্ষরিত হয়, যা চীনের উপর পশ্চিমা প্রভাব আরও বাড়ায়।<br/>▣ হংকং প্রসঙ্গ: নানকিং চুক্তির মাধ্যমে ১৮৪২ সালে হংকং ব্রিটেনের নিয়ন্ত্রণে যায়। ১৮৯৮ সালে চীন নিউ টেরিটরিজ ৯৯ বছরের জন্য লিজ দেয়। ১৯৯৭ সালের ১ জুলাই লিজের মেয়াদ শেষে হংকং চীনের নিয়ন্ত্রণে ফিরে আসে।<br/>▣ তথ্যসূত্র: Encyclopedia Britannica.<br/> ⇢ <br/>⛳ ১৯শ শতকে চীনে আফিম ব্যবসায় একচ্ছত্র আধিপত্য ও বাণিজ্যিক স্বার্থ নিয়ে ইংল্যান্ড (ব্রিটিশ সাম্রাজ্য) এবং চীনের মধ্যে দুইবার (১৮৩৯-১৮৪২ ও ১৮৫৬-১৮৬০) যুদ্ধ হয়, যা আফিম যুদ্ধ নামে পরিচিত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334596,
+    "question": "চীনা অর্থায়নে নির্মিত মোম্বাসা সমুদ্রবন্দরের অবস্থান-",
+    "options": [
+      "কেনিয়া",
+      "মোজাম্বিক",
+      "জিবুতি",
+      "পাকিস্তান"
+    ],
+    "correct_answer": "কেনিয়া",
+    "explanation": "📖 মোম্বাসা (Mombasa) কেনিয়ার প্রধান সমুদ্রবন্দর এবং পূর্ব আফ্রিকার অন্যতম গুরুত্বপূর্ণ বন্দর। চীনের 'বেল্ট অ্যান্ড রোড ইনিশিয়েটিভ' এর আওতায় এই বন্দরের উন্নয়ন ও রেল সংযোগ প্রকল্পে চীন অর্থায়ন করেছে।<br/> ⇢ <br/>⛳ মোম্বাসা কেনিয়ার একটি প্রধান শহর এবং সমুদ্রবন্দর। এটি পূর্ব আফ্রিকার অন্যতম গুরুত্বপূর্ণ বাণিজ্যিক কেন্দ্র।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334597,
+    "question": "ইন্দোনেশিয়ার নতুন রাজধানী নুসান্তারা কোন প্রদেশে অবস্থিত?",
+    "options": [
+      "জাভা",
+      "বালি",
+      "অচেহ",
+      "কালিমান্তান"
+    ],
+    "correct_answer": "কালিমান্তান",
+    "explanation": "📖 ইন্দোনেশিয়া ➺ নুসানতারা বা নুসান্তারা ☞ পূর্বে রাজধানী ছিল ➟ জাকার্তা (আসিয়ানের সদর দপ্তর) পুরানো রাজধানী: জাকার্তা <br/>❏ ইন্দোনেশিয়ার নতুন রাজধানী 'নুসান্তারা' বোর্নিও দ্বীপের পূর্ব কালিমান্তান (East Kalimantan) প্রদেশে অবস্থিত। জাকার্তা থেকে রাজধানী এখানে স্থানান্তরের প্রক্রিয়া চলছে।<br/> ⇢ <br/>⛳ জাকার্তার ক্রমবর্ধমান জনসংখ্যা এবং পরিবেশগত সমস্যার কারণে ইন্দোনেশিয়া তাদের রাজধানী বোর্নিও দ্বীপের কালিমান্তান প্রদেশে স্থানান্তরের সিদ্ধান্ত নেয়, যার নাম দেওয়া হয়েছে নুসান্তারা।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334598,
+    "question": "মিশর কত সালে সুয়েজ খাল জাতীয়করণ করে?",
+    "options": [
+      "১৯৫৬",
+      "১৮৮৯",
+      "১৮৫৬",
+      "১৯৪৫"
+    ],
+    "correct_answer": "১৯৫৬",
+    "explanation": "📖 মিশরের প্রেসিডেন্ট গামাল আবদেল নাসের ১৯৫৬ সালের ২৬ জুলাই সুয়েজ খাল জাতীয়করণ (Nationalization) করেন। এর ফলে সুয়েজ সংকট বা দ্বিতীয় আরব-ইসরায়েল যুদ্ধ শুরু হয়।<br/>❏ পৃথিবীর দীর্ঘতম খাল (কৃত্রিম) ( জাহাজ চলাচলের উপযোগী) ➺ সুয়েজ খাল (মিশর) (লোহিত সাগর ও ভূমধ্যসাগর কে যুক্ত করেছে)<br/>❏ ২য় আরব ইসরাইল যুদ্ধ-১৯৫৬ সালে, ফলাফল ➺ মিশর সুয়েজ খাল জাতীয়করণ করে (২৬ বিসিএস)<br/>❏ মিশর সুয়েজ খালকে জাতীয়করণ করে ➺ ১৯৫৬ সালে (২৬বিসিএস)<br/>❏ ২য় আরব ইসরাইল যুদ্ধ ➺ ১৯৫৬, মিশর সুয়েজ খাল জাতীয়করণ করে ১৯৫৬সালে (২৬বিসিএস)<br/>❏ পৃথিবীর প্রশস্ততম খাল ➺ সুয়েজ খাল।<br/>❏ সুয়েজ খাল এর অবস্থান ও দৈর্ঘ্য (কি.মি.) ➺ মিশর; ১৯৩ কি.মি.<br/> ⇢ <br/>⛳ সুয়েজখাল লোহিতসাগর ও ভূ-মধ্যসাগর দুইটি সাগরকে সংযুক্ত করেছে। সুয়েজ খাল খনন করেন ফরাসি ইঞ্জিনিয়ার ফার্ডিনান্দ দ্য লিসেপস। ২৫ এপ্রিল ১৮৫৯ সালে এটির খনন কাজ শুরু হয় এবং ১৭ নভেম্বর ১৮৬৯ সালে এটি উদ্বোধন করা হয়। মিশর সুয়েজ খাল জাতীয়করণ করেছিল ২৬ জুলাই ১৯৫৬ সালে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334599,
+    "question": "বিশ্বের প্রথম দেশ হিসেবে ধুমপান নিষিদ্ধ করে কোন দেশ?",
+    "options": [
+      "বাংলাদেশ",
+      "ভুটান",
+      "চীন",
+      "নেপাল"
+    ],
+    "correct_answer": "ভুটান",
+    "explanation": "📖 ভুটান বিশ্বের প্রথম দেশ হিসেবে ২০০৪ সালে তামাকজাত দ্রব্য বিক্রি এবং জনসমক্ষে ধূমপান সম্পূর্ণ নিষিদ্ধ করে। ২০১০ সালে তারা তামাক নিয়ন্ত্রণ আইন আরও কঠোর করে।<br/> ⇢ <br/>⛳ বিশ্বের প্রথম দেশ হিসেবে ধূমপান নিষিদ্ধ করে ভুটান ২০১০ সালে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334600,
+    "question": "মার্কিন যুক্তরাষ্ট্রের স্বাধীনতা যুদ্ধে কোন দেশ প্রত্যক্ষভাবে সাহায্য করে?",
+    "options": [
+      "স্পেন",
+      "ফ্রান্স",
+      "রাশিয়া",
+      "জার্মানি"
+    ],
+    "correct_answer": "ফ্রান্স",
+    "explanation": "📖 ১৭৭৬ সালে শুরু হওয়া আমেরিকার স্বাধীনতা যুদ্ধে ফ্রান্স প্রত্যক্ষভাবে অর্থ, অস্ত্র এবং সৈন্য দিয়ে ব্রিটেন-বিরোধী পক্ষকে (আমেরিকাকে) সহায়তা করেছিল।<br/> ⇢ <br/>⛳ আমেরিকার স্বাধীনতা যুদ্ধে ফ্রান্স ব্রিটিশদের বিরুদ্ধে আমেরিকানদের পক্ষে সরাসরি অংশগ্রহণ করে এবং সামরিক ও আর্থিক সহায়তা প্রদান করে।<br/> ⇢ <br/>⛳ আমেরিকার স্বাধীনতা যুদ্ধে (১৭৭৫-১৭৮৩) ব্রিটেনের বিরুদ্ধে যুদ্ধে ফ্রান্স তেরোটি উপনিবেশকে (বর্তমান যুক্তরাষ্ট্র) সবচেয়ে বেশি সামরিক ও আর্থিক সহায়তা প্রদান করেছিল।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334601,
+    "question": "গাজায় ইসরাইলী বর্বরতার এবং গণহত্যার বিরুদ্ধে কোন দেশ আন্তর্জাতিক আদালতে মামলা করেছে?",
+    "options": [
+      "দক্ষিণ আফ্রিকা",
+      "বাংলাদেশ",
+      "সুদান",
+      "সৌদি আরব"
+    ],
+    "correct_answer": "দক্ষিণ আফ্রিকা",
+    "explanation": "📖  ফিলিস্তিন ইস্যুতে দুই দেশের ICJ-তে মামলা<br/>❏ ২৯ ডিসেম্বর, ২০২৩<br/>❏ ইসরায়েলের বিরুদ্ধে দক্ষিণ আফ্রিকার মামলা<br/>❏ দক্ষিণ আফ্রিকা -> ইসরায়েল<br/>❏ গাজায় ফিলিস্তিনদের উপর গণহত্যা চালানোয় ইসরায়েলের বিরুদ্ধে ICJ (International Court of Justice)-তে মামলা করে দক্ষিণ আফ্রিকা।<br/>❏ ১ মার্চ, ২০২৪<br/>❏ জার্মানির বিরুদ্ধে নিকারাগুয়ার মামলা<br/>❏ নিকারাগুয়া -> জার্মানি<br/>❏ ইসরায়েলকে সহায়তা এবং UNRWA-কে সহযোগিতা করে জার্মানি গাজায় 'গণহত্যায়' সহায়তা করছে এমন অভিযোগে জার্মানির বিরুদ্ধে মামলা করে মধ্য আমেরিকার দেশ নিকারাগুয়া।<br/>📝 হামাস ইসরায়েলে রকেট হামলা চালায় ➺ ৭ অক্টোবর ২০২৩ খ্রিস্টাব্দ। এই হামলার নাম অপারেশন আল আকসা ফ্লাড। হামাসের সামরিক শাখা 'আল কাসসাম ব্রিগেড' এই অপারেশনের নাম দেয় ➺ অপারেশন আল আকসা স্ট্রম। হামাস নিয়ন্ত্রিত ফিলিস্তিনের গাজায় ইসরায়েল সর্বাত্মক যুদ্ধ ঘোষণা করে ➺ ৮ অক্টোবর ২০২৩ খ্রিস্টাব্দ। গাজায় হামাসের বিরুদ্ধে ইসরায়েলের অভিযানের নাম ➺ অপারেশন আয়রন সোর্ডস (লৌহ তরবারি অভিযান)। গাজা ভূখণ্ড অবস্থিত ➺ ভূমধ্যসাগরের পূর্ব তীরে।<br/>▣ গাজা ইস্যুতে ICJ-তে ইজরাইলের বিরুদ্ধে মামলা করে- [ঢাকা ইলেকট্রিক সাপ্লাই কোম্পানী (ডেসকো) লিমিটেড (সাবস্টেশন অ্যাসিসটেন্ট): ২০২৫] ⇢ ✔দক্ষিণ আফ্রিকা <br/>📝 গাজায় ইসরায়েলের কর্মকাণ্ডকে গণহত্যা আখ্যা দিয়ে আন্তর্জাতিক বিচার আদালত (ICJ) তে মামলা করে ➺ দক্ষিণ আফ্রিকা।<br/>▣ কোন তারিখে ইরান-ইসরাইল যুদ্ধ বিরতি হয়? [বাংলাদেশ সরকারী কর্ম কমিশন - বিদ্যুৎ জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়-এর (ইলেকট্রিক ইন্সপেক্টর): ২০২৫] ⇢ ✔২৪ জুন ২০২৫<br/>▣ The name of the organizer of the 'March for Gaza' which was held in Dhaka on 12 April 2025. [সমন্বিত ৮টি ব্যাংক ও ১টি আর্থিক প্রতিষ্ঠান-এর সিনিয়র অফিসার: ২০২৫] ⇢ ✔Palestine Solidarity Movement Bangladesh <br/>📝 বাংলাদেশে 'March for Gaza' প্রোগামটির নাম ➺ 'Palestine Solidarity Movement Bangladesh'.<br/>▣ স্বাধীন ফিলিস্তিন রাষ্ট্রকে সর্বপ্রথম কোন দেশ স্বীকৃতি প্রদান করে? [ফরেন সার্ভিস একাডেমি, পররাষ্ট্র মন্ত্রণালয়-এর (প্রশাসনিক কর্মকর্তা): ২০২৫] ⇢ ✔আলজেরিয়া<br/>📝 ফিলিস্তিন কে স্বীকৃতি দেয়া মোট দেশের সংখ্যা ➺ ১৫৭টি।<br/>❏ নিরাপত্তা পরিষদের সদস্যদের মধ্যে স্বীকৃতি দেয়নি ➺ যুক্তরাষ্ট্র।<br/>❏ প্রথম স্বীকৃতি দেয় ➺ আলজেরিয়া।<br/>❏ বাংলাদেশ স্বীকৃতি দেয় ➺ ১৬ নভেম্বর ১৯৮৮ সালে।<br/> ⇢ <br/>⛳ হামাস-ইসরায়েল যুদ্ধ<br/>❏ হামাস ইসরায়েলে রকেট হামলা চালায় ➺ ৭ অক্টোবর ২০২৩ (কিবুৎজে শহরে সুপারনোভা ফেস্টিভ্যাল এ)<br/>❏ ইসরায়েলে হামাসের অভিযানের নাম ➺ অপারেশন আল-আকসা ফ্লাড<br/>❏ হামাস নিয়ন্ত্রিত ফিলিস্তিনের গাজায় ইসরায়েল সর্বাত্মক যুদ্ধ ঘোষণা করে ➺ ৮ অক্টোবর ২০২৩<br/>❏ গাজায় হামাসের বিরুদ্ধে ইসরায়েলের অভিযানের নাম ➺ অপারেশন আয়রন সোর্ডস<br/>❏ গাজায় ইসরায়েলের গণহত্যার প্রেক্ষিতে আইসিজে-তে মামলা করে ➺ দক্ষিণ আফ্রিকা<br/>❏ ২০২৫ সালের ২২ আগস্ট ফিলিস্তিনের গাজায় প্রথমবার ➺ আনুষ্ঠানিকভাবে দুর্ভিক্ষ ঘোষণা করে জাতিসংঘ।<br/>❏ ২০২৫ সালের ১০ অক্টোবর গাজায় ➺ আনুষ্ঠানিকভাবে যুদ্ধবিরতি চুক্তি কার্যকর হয়। যুক্তরাষ্ট্রের মধ্যস্থতায় ১০ অক্টোবর থেকে গাজা উপত্যকায় যুদ্ধবিরতি কার্যকর হয়। যুক্তরাষ্ট্রের দেওয়া ২০ দফা প্রস্তাবের ভিত্তিতে এই যুদ্ধবিরতি হয়েছে। গত সেপ্টেম্বরের শেষের দিকে যুক্তরাষ্ট্র প্রস্তাবটি উপস্থাপন করে এবং কাতার, মিশর ও তুরস্কের সহায়তায় যুদ্ধবিরতিতে মধ্যস্থতা করা হয়। তবে যুদ্ধবিরতি চলার মধ্যেও পরবর্তী কয়েক দিনে গাজায় ইসরায়েলের নির্বিচার হামলায় প্রায় ১০০ ফিলিস্তিনি নিহত হয়েছেন। আহত হয়েছেন আরও ২৩০ জন।<br/>❏ ⛳ ⛳ সাম্প্রতিক সময়ের ফিলিস্তিন-ইসরায়েল সংকটের টাইমলাইন<br/>❏ ১. ৭ অক্টোবর, ২০২৩ অপারেশন আল-আকসা ফ্লাড<br/>❏ ইসরায়েলে হামাস পরিচালিত অভিযানের নাম ছিল 'অপারেশন আল-আকসা ফ্লাড' (আল-আকসা প্লাবন অভিযান)।<br/>❏ হামাসের সামরিক শাখা 'আল-কাসসাম বিগ্রেড' এ অপারেশনের নাম দেয় 'অপারেশন আল-আকসা স্ট্রম'।<br/>❏ হামাসের অপারেশনের অন্যতম একটি ধরন ছিল প্যারাগ্লাইডিং।<br/>❏ ২. ৮ অক্টোবর, ২০২৩ অপারেশন আয়রন সোর্ডস<br/>❏ গাজায় পরিচালিত ইসরায়েলের অভিযানের নাম 'অপারেশন আয়রন সোর্ডস' (লৌহ তরবারি অভিযান)।<br/>❏ ৩. ১০ মে, ২০২৪ জাতিসংঘের সাধারণ পরিষদে ফিলিস্তিন<br/>❏ ফিলিস্তিনকে জাতিসংঘের পূর্ণ সদস্য করার প্রস্তাব পাস।<br/>❏ প্রস্তাবটির উপস্থাপক সংযুক্ত আরব আমিরাত।<br/>❏ প্রস্তাবের পক্ষে ভোট দেয় ১৪৩টি দেশ।<br/>❏ ৪. ২১ জানুয়ারি, ২০২৫ অপারেশন আয়রন ওয়াল (লৌহ প্রাচীর)<br/>❏ ইসরায়েল কর্তৃক পশ্চিম তীরের 'জেনিন', 'নূর শামস' ও 'তুরকার্ম' শরণার্থী শিবিরে অভিযান।<br/>❏ ৫. ১৬ মে, ২০২৫ অপারেশন গিডিয়ন চ্যারিয়টস<br/>❏ ইসরায়েল কর্তৃক গাজায় সামরিক অভিযান।<br/>❏ অভিযানটির অর্থ ➺ গিদিয়নের রথ অভিযান।<br/>❏ ৬. ২০ আগস্ট, ২০২৫ অপারেশন গিডিয়ন চ্যারিয়টস ২<br/>❏ ইসরায়েল কর্তৃক গাজা উপত্যকার 'গাজা শহর' ও 'জাবালিয়ায়' সামরিক অভিযান।<br/>❏ ৭. গাজা শান্তি পরিকল্পনা<br/>❏ পরিকল্পনা ঘোষিত হয় ➺ ২৯ সেপ্টেম্বর, ২০২৫।<br/>❏ স্বাক্ষরিত হয় ➺ ৯ অক্টোবর, ২০২৫।<br/>❏ কার্যকর হয় (যুদ্ধ বিরতি) ➺ ১০ অক্টোবর, ২০২৫।<br/>❏ পক্ষ ➺ ইসরায়েল ও হামাস।<br/>❏ মধ্যস্থতাকারী দেশ ➺ যুক্তরাষ্ট্র, তুরস্ক, কাতার ও মিশর।<br/>❏ লক্ষ্য ➺ যুদ্ধ বিরতি এবং বন্দি বিনিময়।<br/>❏ যুদ্ধ বিরতি হয় ➺ ডোনাল্ড ট্রাম্পের ঘোষিত ২০ দফা শান্তি পরিকল্পনার ভিত্তিতে।<br/>❏ বৈশিষ্ট্য ➺ এটি যুদ্ধ বিরতির প্রথম ধাপ।<br/>❏ ৮. গাজা শান্তি শীর্ষ সম্মেলন<br/>❏ সম্মেলনটির অন্যনাম ➺ শারম আল-শেখ শীর্ষ সম্মেলন।<br/>❏ অনুষ্ঠিত হয় ➺ ১৩ অক্টোবর, ২০২৫।<br/>❏ স্থান ➺ শারম আল-শেখ, সিনাই উপত্যকা, মিশর।<br/>❏ সভাপতি ➺ যুক্তরাষ্ট্রের প্রেসিডেন্ট ডোনাল্ড ট্রাম্প ও মিশরের প্রেসিডেন্ট আবদেল ফাত্তাহ আল-সিসি।<br/>❏ গাজায় যুদ্ধবিরতি নিশ্চিত করতে স্বাক্ষরিত ঘোষণাপত্র ➺ 'ট্রাম্প ডিক্লারেশন ফর এন্ডিউরিং পিস অ্যান্ড প্রসপারিটি' বা 'টেকসই শান্তি ও সমৃদ্ধির জন্য ট্রাম্প ঘোষণা'।<br/>❏ ঘোষণাপত্রে স্বাক্ষর করেন ➺ যুক্তরাষ্ট্রের প্রেসিডেন্ট ডোনাল্ড ট্রাম্প, মিসরের প্রেসিডেন্ট আবদেল ফাত্তাহ আল-সিসি, কাতারের আমির শেখ তামিম বিন হামাদ আল-থানি এবং তুরস্কের প্রেসিডেন্ট এরদোয়ান।<br/>❏ লক্ষ্য ➺ গাজা উপত্যকায় যুদ্ধবিরতির বাস্তবায়ন নিশ্চিত করা।<br/>❏ PEACE 2025 গাজা শান্তি শীর্ষ সম্মেলনে অংশগ্রহণ করে ৩০টি দেশের প্রতিনিধি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334602,
+    "question": "\"জনসাধারণই সার্বভৌম ক্ষমতার অধিকারী\" উক্তিটি কার?",
+    "options": [
+      "কার্ল মার্কস",
+      "হিটলার",
+      "রুশো",
+      "প্লেটো"
+    ],
+    "correct_answer": "রুশো",
+    "explanation": "📖 ফরাসি দার্শনিক জঁ জ্যাক রুশো (Jean-Jacques Rousseau) তাঁর বিখ্যাত 'The Social Contract' গ্রন্থে এই মতবাদ ব্যক্ত করেন। তিনি মনে করতেন, রাষ্ট্রের সার্বভৌম ক্ষমতা কোনো রাজার হাতে নয়, বরং জনগণের হাতে ন্যস্ত থাকা উচিত।<br/> ⇢ <br/>⛳ ফরাসি দার্শনিক জঁ জ্যাক রুশো তাঁর 'সোশ্যাল কন্ট্রাক্ট' গ্রন্থে এই বিখ্যাত উক্তিটি করেন। তিনি গণতন্ত্রের অন্যতম প্রধান প্রবক্তা ছিলেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334603,
+    "question": "ফ্যাসিবাদের জনক বলা হয় কাকে?",
+    "options": [
+      "জোসেফ স্ট্যালিন",
+      "এডলফ হিটলার",
+      "কাইজার",
+      "বেনিতো মুসোলিনি"
+    ],
+    "correct_answer": "বেনিতো মুসোলিনি",
+    "explanation": "📖 ফ্যাসিবাদের জনক হলেন ইতালির একনায়ক বেনিতো মুসোলিনি। তিনি ১৯১৯ সালে ইতালিতে ফ্যাসিস্ট পার্টি গঠন করেন। হিটলার ছিলেন নাৎসিবাদের জনক।<br/>❏ 📖 ফ্যাসিবাদ (Fascism)<br/>❏ উৎপত্তি: ইতালীয় শব্দ Fascismo fascio শব্দ থেকে উদ্ভূত যার অর্থ লাঠির বান্ডিল যা ল্যাটিন শব্দ fascces থেকে উদ্ভূত।<br/>❏ ইতালির একনায়ক বেনিতো মুসোলিনি ফ্যাসিবাদের জনক। ফ্যাসিবাদের বৈশিষ্ট্য: স্বৈরাচারী নেতৃত্ব, বিরোধীদের জোরপূর্বক দমন, রাষ্ট্রীয় প্রতিষ্ঠানে কঠোর নিয়ন্ত্রণ।<br/>❏ ইতালির মুসোলিনি তার নিজের আন্দোলনের প্রতীক হিসেবে ফ্যাসেস গ্রহণ করেন। ফ্যাসিবাদে বৈশিষ্ট্য: ১. স্বৈরাচারী নেতৃত্ব, ২. বিরোধীদের জোরপূর্বক দমন, ৩. রাষ্ট্রের সকল বিভাগের ওপর কঠোর নিয়ন্ত্রণ আরোপ করা ইত্যাদি।<br/> ⇢ <br/>⛳ ফ্যাসিবাদ একটি রাজনৈতিক মতবাদ, যা স্বৈরতান্ত্রিক ক্ষমতা, উগ্র জাতীয়তাবাদ এবং ব্যক্তিগত স্বাধীনতার ওপর কঠোর নিয়ন্ত্রণের ওপর ভিত্তি করে গঠিত। বেনিতো মুসোলিনিকেই ফ্যাসিবাদের জনক বলা হয়, কারণ তিনি প্রথম এই মতবাদটি চালু করেন এবং এটি কার্যকর করেন। বেনিতো মুসোলিনি ছিলেন ইতালির ফ্যাসিবাদী আন্দোলনের প্রতিষ্ঠাতা এবং ১৯২২ থেকে ১৯৪৩ সাল পর্যন্ত ইতালির স্বৈরশাসক। তিনি ১৯১৯ সালে ইতালিতে ফ্যাসিস্ট পার্টি প্রতিষ্ঠা করেন এবং 'ফ্যাসিবাদ' শব্দটি প্রথম প্রবর্তন করেন। তার নেতৃত্বে ফ্যাসিবাদ একটি রাজনৈতিক মতবাদ হিসেবে প্রতিষ্ঠিত হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334604,
+    "question": "ডোনাল্ড ট্রাম্প প্রথম মেয়াদে যুক্তরাষ্ট্রের কততম প্রেসিডেন্ট ছিলেন?",
+    "options": [
+      "৪৩তম",
+      "৪৪তম",
+      "৪৫তম",
+      "৪৭তম"
+    ],
+    "correct_answer": "৪৫তম",
+    "explanation": "📖 ডোনাল্ড ট্রাম্প যুক্তরাষ্ট্রের ৪৫তম প্রেসিডেন্ট হিসেবে ২০১৭-২০২১ মেয়াদে দায়িত্ব পালন করেন। জো বাইডেন ছিলেন ৪৬তম। পরবর্তীতে ২০২৪ সালের নির্বাচনে জয়ী হয়ে ট্রাম্প ৪৭তম প্রেসিডেন্ট হিসেবে নির্বাচিত হন।<br/> ⇢ <br/>⛳ ডোনাল্ড ট্রাম্প মার্কিন যুক্তরাষ্ট্রের ৪৫তম প্রেসিডেন্ট। তিনি ২০১৭ সালের ২০ জানুয়ারি ৪৫তম প্রেসিডেন্ট হিসেবে শপথ গ্রহণ করেন।<br/> ⇢ <br/>⛳ ⛳ এক নজরে ৬০তম মার্কিন প্রেসিডেন্ট নির্বাচন ২০২৪<br/>❏ (৪৭তম) প্রেসিডেন্ট: ➺ ডোনাল্ড ট্রাম্প<br/>❏ নিকটতম প্রতিদ্বন্দ্বী প্রার্থী: ➺ কমলা হ্যারিস<br/>❏ রিপাবলিকান পার্টি ইলেক্টোরাল ভোট ➺ ৩১২টি [ইলেক্টোরাল ভোট জয়ী হতে প্রয়োজন ২৭০ ভোট]<br/>❏ ডেমোক্র্যাট পার্টি ইলেক্টোরাল ভোট ➺ ২২৬টি<br/>❏ রিপাবলিকান পার্টি সিনেট (১০০ আসন) ➺ ৫৩<br/>❏ ডেমোক্র্যাট পার্টি সিনেট (১০০ আসন) ➺ ৪৭<br/>❏ রিপাবলিকান পার্টি হাউজ (৪৩৫ আসন) ➺ ২১৮<br/>❏ ডেমোক্র্যাট পার্টি হাউজ (৪৩৫ আসন) ➺ ২১২<br/>❏ দ্রষ্টব্য: নব-নির্বাচিত প্রেসিডেন্টের শপথ গ্রহণ- ২০ জানুয়ারি, ২০২৫<br/>❏ মার্কিন যুক্তরাষ্ট্রের ৪৭তম প্রেসিডেন্ট নির্বাচিত হয়েছেন ➺ রিপাবলিকান প্রার্থী ডোনাল্ড ট্রাম্প<br/>❏ ৪৭তম প্রেসিডেন্ট ডোনাল্ড ট্রাম্পের প্রাপ্ত ইলেকটোরাল কলেজ ভোট ➺ ২৯৫<br/>❏ কত বছরের রেকর্ড ভেঙ্গে ২য় মেয়াদে প্রেসিডেন্ট হলেন ট্রাম্প? ➺ ১৩২ বছরের।<br/>❏ সবচেয়ে বেশি বয়সে মার্কিন প্রেসিডেন্ট নির্বাচিত হবার রেকর্ড ➺ ডোনাল্ড ট্রাম্পের (৭৮বছর)।<br/>❏ নির্বাচন অনুষ্ঠিত হয় ➺ ৫ নভেম্বর, ২০২৪ (মঙ্গলবার)<br/>❏ মার্কিন নির্বাচন অনুষ্ঠিত ➺ প্রতি ৪ বছর পর পর নভেম্বর মাসের প্রথম সোমবারের পরের মঙ্গলবার<br/>❏ যুক্তরাষ্ট্রের মোট অঙ্গরাজ্য ➺ ৫০ টি।<br/>❏ সিনেট সদস্য সংখ্যা ➺ ১০০ জন।<br/>❏ হাউজ অব রিপ্রেজেন্টিটিভ এর সদস্য সংখ্যা ➺ ৪৩৫ জন।<br/>❏ মার্কিন ইলেক্টোরাল ভোট ➺ ৫৩৮ টি।<br/>❏ মার্কিন প্রেসিডেন্ট নির্বাচিত হতে ইলেক্টোরাল ভোট প্রয়োজন ➺ ২৭০ টি।<br/>❏ রিপাবলিকান দলের প্রতিষ্ঠাতা ➺ টমাস জেফারসন।<br/>❏ ডেমোক্রেটিক দলের প্রতিষ্ঠাতা ➺ এন্ড্রু জ্যাকসন।<br/>❏ জো বাইডেন কততম প্রেসিডেন্ট ছিলেন? ➺ ৪৬তম<br/>❏ ৫ নভেম্বর ২০২৪ এ কততম মার্কিন প্রেসিডেন্ট নির্বাচন হলো? ➺ ৬০ তম<br/>❏ মার্কিন সংবিধানের কততম সংশোধনী অনুসারে দুই মেয়াদের বেশি কেউ প্রেসিডেন্ট নির্বাচিত হতে পারবে ➺ ২২তম (১৯৫১ সালে সংশোধিত)<br/>❏ পার্লামেন্টের উচ্চ কক্ষের নাম ➺ সিনেট<br/>❏ নিম্ন কক্ষের নাম ➺ হাউজ অব রিপ্রেজেন্টিটিভ।<br/>❏ মার্কিন প্রেসিডেন্টের কার্যালয়ের নাম ➺ ওভাল অফিস<br/>❏ মার্কিন প্রেসিডেন্টের সরকারি বাসভবনের নাম ➺ হোয়াইট হাউজ<br/>❏ যুক্তরাষ্ট্রের রাষ্ট্রপতি নির্বাচন অনুষ্ঠিত হয় ➺ নভেম্বর মাসের প্রথম মঙ্গলবারে<br/>❏ সংবিধানের কততম অনুচ্ছেদ অনুযায়ী মার্কিন নির্বাচন অনুষ্ঠিত হয় ➺ ২ নং অনুচ্ছেদ (১৮০৪ সালের দ্বাদশ সংশোধনীর ভিত্তিতে)<br/>❏ মার্কিন নির্বাচন ব্যাবস্থাকে বলা হয় – First Past of the Post System<br/>❏ Bradley Effect ➺ মার্কিন নির্বাচন সম্পর্কিত শব্দ<br/>❏ ২০২৪ এর নির্বাচনে বিজয়ী: ➺ ডোনাল্ড ট্রাম্প (৪৭তম মার্কিন প্রেসিডেন্ট)<br/>❏ হোম স্টেট ➺ ফ্লোরিডা<br/>❏ দলের নাম ➺ রিপাবলিকান পার্টি<br/>❏ দলীয় প্রতীক ➺ হাতি<br/>❏ কালার ➺ লাল<br/>❏ রানিং মেট ➺ জেমস ডেভিড (জেডি) ভ্যান্স<br/>❏ নির্বাচনী স্লোগান ➺ Make America Great Again!<br/>❏ নির্বাচনী ইশতেহার ➺ Project 2025<br/>❏ ২০২৪ এর নির্বাচনে পরাজিত প্রার্থী: ➺ কমলা হ্যারিস<br/>❏ হোম স্টেট ➺ ক্যালিফোর্নিয়া<br/>❏ দলের নাম ➺ ডেমোক্র্যাটিক পার্টি<br/>❏ দলীয় প্রতীক ➺ গাঁধা<br/>❏ কালার ➺ নীল<br/>❏ রানিং মেট ➺ টিম ওয়ালেজ<br/>❏ নির্বাচনী স্লোগান ➺ Let's Win This!<br/>❏ নির্বাচনী ইশতেহার ➺ Freedom, Investing in America",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334605,
+    "question": "পাপুয়া নিউ গিনি কোন অঞ্চলের অন্তর্ভুক্ত?",
+    "options": [
+      "পলিনেশিয়া",
+      "মাইক্রোনেশিয়া",
+      "মেলানেশিয়া",
+      "ওরিয়েন্টাল অঞ্চল"
+    ],
+    "correct_answer": "মেলানেশিয়া",
+    "explanation": "📖 ওশেনিয়া মহাদেশের তিনটি প্রধান ভাগ হলো- মেলানেশিয়া, মাইক্রোনেশিয়া ও পলিনেশিয়া। পাপুয়া নিউ গিনি 'মেলানেশিয়া' (কৃষ্ণদ্বীপ) অঞ্চলের অন্তর্ভুক্ত সবচেয়ে বড় দেশ।<br/> ⇢ <br/>⛳ পাপুয়া নিউগিনিয়ার রাজধানী হলো পোর্ট মোর্সবি আর আইন সভার নাম হলো জাতীয় সংসদ। উল্লেখ্য, পাপুয়া নিউগিনি প্রশান্ত মহাসাগরের একটি দ্বীপ রাষ্ট্র। এটি ওশেনিয়া মহাদেশের মেলানেশিয়া অঞ্চলে অবস্থিত। প্রথম বিশ্বযুদ্ধের সময় জার্মানির নিকট থেকে অস্ট্রেলিয়া জার্মান নিউ গিনি অধিকার করে। ১৯৭৫ সালে এটি অস্ট্রেলিয়ার নিকট থেকে স্বাধীনতা লাভ করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334606,
+    "question": "বলশেভিক বিপ্লব কত সালে সংগঠিত হয়?",
+    "options": [
+      "১৯২৭",
+      "১৯৪৯",
+      "১৯৭৯",
+      "১৯১৭"
+    ],
+    "correct_answer": "১৯১৭",
+    "explanation": "📖 ১৯১৭ সালে রাশিয়ায় ভ্লাদিমির ইলিচ লেনিনের নেতৃত্বে বলশেভিক বিপ্লব (অক্টোবর বিপ্লব) সংঘটিত হয়। এই বিপ্লবের মাধ্যমে জারতন্ত্রের পতন ঘটে এবং সমাজতান্ত্রিক সোভিয়েত ইউনিয়নের উত্থান হয়।<br/> ⇢ <br/>⛳ কিছু আলোচিত বিপ্লব:<br/>❏ বিপ্লবের নাম ➺ সময়কাল ➺ দেশ<br/>❏ অরেঞ্জ বিপ্লব ➺ ২০০৪ ➺ ইউক্রেন<br/>❏ রুশ/অক্টোবর/বলশেভিক বিপ্লব ➺ ১৯১৭ ➺ রাশিয়া<br/>❏ ফরাসি বিপ্লব ➺ ১৭৮৯-১৭৯৯ ➺ ফ্রান্স<br/>❏ শিল্প বিপ্লব ➺ ১৭৬০-১৮৪০ ➺ ইংল্যান্ড<br/>❏ টিউলিপ বিপ্লব ➺ ২০০৫ ➺ কিরগিজস্তান<br/>❏ ভেলভেট বিপ্লব ➺ ১৯৮৯ ➺ চেকোস্লোভাকিয়া",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334607,
+    "question": "আটলান্টিক সনদের ভিত্তিতে গঠিত হয়-",
+    "options": [
+      "ন্যাটো",
+      "আইএমএফ",
+      "জাতিসংঘ",
+      "ওয়ার্ল্ড ব্যাংক"
+    ],
+    "correct_answer": "জাতিসংঘ",
+    "explanation": "📖 ১৯৪৫ সালে মার্কিন প্রেসিডেন্ট ফ্রাঙ্কলিন ডি. রুজভেল্ট এবং ব্রিটিশ প্রধানমন্ত্রী উইনস্টন চার্চিল আটলান্টিক সনদ (Atlantic Charter) স্বাক্ষর করেন। এই সনদের নীতিমালার ওপর ভিত্তি করেই পরবর্তীতে জাতিসংঘ (UN) প্রতিষ্ঠিত হয়।<br/> ⇢ <br/>⛳ ১৯৪১ খ্রিষ্টাব্দের ৯ আগস্ট মার্কিন যুক্তরাষ্ট্রের রাষ্ট্রপতি ফ্রাঙ্কলিন রুজভেল্ট ও ব্রিটিশ প্রধানমন্ত্রী উইনস্টন চার্চিল আমেরিকার নিউফাউন্ডল্যান্ড দ্বীপের কাছে উত্তর আটলান্টিক মহাসাগরের বুকে 'প্রিন্স অফ ওয়েলস' নামে একটি যুদ্ধজাহাজে পৃথিবীতে স্থায়ী শান্তি স্থাপনের উদ্দেশ্যে আটদফা সূত্র সম্বলিত একটি চুক্তিতে স্বাক্ষর করেন। এই চুক্তিটি 'আটলান্টিক সনদ' (Atlantic charter 1941) নামে পরিচিত।<br/> ⇢ <br/>⛳ দ্বিতীয় বিশ্বযুদ্ধের পর ১৯৪৫ সালে সান ফ্রান্সিসকো সম্মেলনে ৫১টি দেশের স্বাক্ষরের মাধ্যমে 'আটলান্টিক সনদ' বা 'চার্টার অব দ্য ইউনাইটেড নেশনস'-এর অধীনে জাতিসংঘ প্রতিষ্ঠিত হয়। এটি জাতিসংঘের মূল সনদ।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334608,
+    "question": "কোন দেশটি ইউরোপীয় ইউনিয়নের সদস্য নয়?",
+    "options": [
+      "সুইজারল্যান্ড",
+      "ডেনমার্ক",
+      "পোল্যান্ড",
+      "বুলগেরিয়া"
+    ],
+    "correct_answer": "সুইজারল্যান্ড",
+    "explanation": "📖 নরওয়ে এবং সুইজারল্যান্ড ইউরোপের দেশ হলেও তারা ইউরোপীয় ইউনিয়ন (EU) এর সদস্য নয়। <br/>❏ ১৯৫৭ সালের রোম চুক্তির মাধ্যমে সবচেয়ে বড় ইউরোপীয় অর্থনৈতিক, রাজনৈতিক ও বাণিজ্যিক জোট EU ১৯৫৮ সালে EC (European community) বা EEC (European Economic Community) নামে গঠিত হয়েছিল। ১৯৯২ সালে স্বাক্ষরিত ম্যাসস্ট্রিচ চুক্তি অনুযায়ী ১ নভেম্বর ১৯৯৩ঃব EU (European Union) এর জন্ম।<br/>▣ সদস্য সংখ্যা: ➺ ২৭টি। (সর্বশেষ আপডেট ২০২৫)<br/>▣ সর্বশেষ সদস্য: ➺ ক্রোয়েশিয়া।<br/>▣ ট্রয়কা: ➺ EC, IMF, ECB (এই ৩টি একত্রে)।<br/>▣ ইউরো মুদ্রা চালু: ➺ ১ জানুয়ারি ১৯৯৯ সাল<br/>▣ ইউরোজোন: ➺ ইউরো মুদ্রা গ্রহণ করেছে এমন রাষ্ট্র।<br/>▣ সদর দপ্তর: ➺ বেলজিয়ামের ব্রাসেলস্।<br/>▣ সীমান্তরক্ষী বাহিনী: ➺ ফ্রনটেক্স।<br/>▣ ইউরো মুদ্রাভুক্ত রাষ্ট্র: ➺ ২০টি (EU এর)।<br/>▣ মুদ্রার জনক: ➺ রবার্ট মুন্ডেল।<br/>▣ ইউরোপীয় পার্লামেন্ট: ➺ Roberta Metsola (প্রেসিডেন্ট)<br/>❏ মন্টিনিগ্রো, মোনাকো, ভ্যাটিকান সিটি, কসোভো, এন্ডোরা, সান ম্যারিনো ইইউবিহীন এই ৬টি রাষ্ট্র ও ইইউভুক্ত ২০টি রাষ্ট্র অর্থাৎ মোট ২৭টি রাষ্ট্রে ইউরো মুদ্রা চালু আছে। EU ভুক্ত ১৯তম দেশ হিসেবে লিথুয়ানিয়া ইউরো মুদ্রা গ্রহণ করে। সর্বশেষ EU ভুক্ত ২০তম দেশ হিসেবে Croatia ইউরো মুদ্রা গ্রহণ করে। (https://european-union.europa.eu/)<br/>❏ ১৯৭৪ সালে গঠিত ইউরোপীয়ান পার্লামেন্টের সদর দপ্তর ফ্রান্সের স্ট্রাসবার্গে।<br/>❏ জার্মানির উরসুলা ভন ডারলেন ইউরোপীয় কমিশনের প্রথম নারী প্রেসিডেন্ট হিসেবে নির্বাচিত হয়েছেন।<br/>▣ EU ⇢ European Union বা ইউরোপীয় ইউনিয়ন ➺ সদস্য: ২৭ ☞ সর্বশেষ সদস্য: ক্রোয়েশিয়া 🕚 যোগদান সময়: ১ জুলাই ২০১৩  সদর দপ্তর: ব্রাসেলস, বেলজিয়াম<br/>▣ Euro Currency ইউরো মুদ্রা ব্যবহারকারী ➺ সদস্য: ২৬ ☞ সর্বশেষ সদস্য: ক্রোয়েশিয়া  সদর দপ্তর: ইউরো কেন্দ্রীয় ব্যাংক ফ্রাঙ্কফুট, জার্মানি।<br/>▣ Eurozone (ইউরোজোন) ➺ সদস্য: ২০ ☞ সর্বশেষ সদস্য: ক্রোয়েশিয়া 🕚 যোগদান সময়: ১ জানুয়ারি, ২০২৩  সদর দপ্তর: ব্রাসেলস, বেলজিয়াম<br/>▣ Schengen (শেনজেন অঞ্চল) শেনজেনভুক্ত দেশ ➺ সদস্য: ২৯ ☞ সর্বশেষ সদস্য: রোমানিয়া ও বুলগেরিয়া 🕚 যোগদান সময়: ৩১ মার্চ, ২০২৪  সদর দপ্তর: ব্রাসেলস, বেলজিয়াম<br/> ⇢ <br/>⛳ ইউরোপীয় ইউনিয়ন (European Union - EU)<br/>▣ বিশ্বের বৃহত্তম অর্থনৈতিক ও রাজনৈতিক জোট।<br/>▣ উদ্দেশ্য: ইউরোপীয় দেশগুলোর মধ্যে অর্থনৈতিক, সামাজিক ও রাজনৈতিক সহযোগিতা করা।<br/>▣ প্রতিষ্ঠা ও সদর দপ্তর<br/>❏ প্রতিষ্ঠার তারিখ: ১ নভেম্বর, ১৯৯৩ (ম্যাস্ট্রিক্ট চুক্তি)<br/>❏ সদর দপ্তর: ব্রাসেলস, বেলজিয়াম<br/>❏ প্রাথমিক সদস্য: ৬ দেশ – বেলজিয়াম, ফ্রান্স, ইতালি, লুক্সেমবার্গ, নেদারল্যান্ডস, পশ্চিম জার্মানি<br/>❏ বর্তমান সদস্য: ২৭ দেশ।<br/>❏ ২০টি ইইউ সদস্য দেশ ইউরো মুদ্রা ব্যবহার করে।<br/>▣ সুইজারল্যান্ড ইইউ-এর সদস্য নয়।<br/>❏ সাল ➺ ঘটনা<br/>❏ ১৯৫১ ➺ ECSC – ইউরোপীয় কয়লা ও ইস্পাত পরিষদ, ৬ দেশ দ্বারা প্যারিস চুক্তি<br/>❏ ১৯৫৭ ➺ রোম চুক্তি – EEC ও Euratom প্রতিষ্ঠা<br/>❏ ১৯৬৫ ➺ ব্রাসেলস চুক্তি – EEC, ECSC ও Euratom একত্রিত → ইউরোপীয় কমিউনিটি (EC)<br/>❏ ১৯৯২ ➺ ম্যাস্ট্রিক্ট চুক্তি – EC → EU, কার্যকর: ১৯৯৩<br/>▣ তথ্যসূত্র: EU ওয়েবসাইট।<br/> ⇢ <br/>⛳ <b> সুইজারল্যান্ড ইউরোপিয়ান ইউনিয়নের (EU) সদস্য নয়। অন্যদিকে বুলগেরিয়া, হাঙ্গেরি, পোল্যান্ড ইউরোপিয়ান ইউনিয়নের (EU) সদস্য। <br/> <br/> ইউরোপিয়ান ইউনিয়ন (</b>European Union):<br/>❏ বিশ্বের সবচেয়ে বড় অর্থনৈতিক জোট ইউরোপীয় ইউনিয়ন (EU)।<br/>❏ প্রতিষ্ঠিত হয়: ১ নভেম্বর, ১৯৯৩ সালে।<br/>❏ সদরদপ্তর: ব্রাসেলস, বেলজিয়াম।<br/>❏ প্রতিষ্ঠাতা সদস্য দেশ: ৬টি।<br/>❏ ইউরোপীয় ইউনিয়নভুক্ত দেশ: ২৭টি।<br/>▣ ইইউ দেশগুলো হলো: অস্ট্রিয়া, বেলজিয়াম<b>, বুলগেরিয়া, </b>ক্রোয়েশিয়া, সাইপ্রাস, চেক প্রজাতন্ত্র, ডেনমার্ক, এস্তোনিয়া, ফিনল্যান্ড, ফ্রান্স, জার্মানি, গ্রীস,<b> হাঙ্গেরি,</b> আয়ারল্যান্ড, ইতালি, লাটভিয়া, লিথুয়ানিয়া, লুক্সেমবার্গ, মাল্টা, নেদারল্যান্ডস, <b>পোল্যান্ড, </b>পর্তুগাল, রোমানিয়া, স্লোভাকিয়া , স্লোভেনিয়া, স্পেন এবং সুইডেন। <br/> উল্লেখ্য,<br/>❏ দ্বিতীয় বিশ্বযুদ্ধের পর ইউরোপিয়ান দেশগুলো তাদের অর্থনৈতিক পুনর্গঠনের জন্য একটি অর্থনৈতিক জোট গঠনের প্রয়োজনীয়তা উপলদ্ধি করে।<br/>▣ ১৮ এপ্রিল, ১৯৫১ সালে প্যারিসে একচুক্তির মাধ্যমে ইউরোপিয় কয়লা ও ইস্পাত পরিষদ (ECSE- European Coal and Steel Community) গঠিত হয়।<br/>▣ ২৫ মার্চ, ১৯৫৭ সালে বেলজিয়াম, লুক্সেমবার্গ, নেদারল্যান্ডস্, ইতালি ফ্রান্স ও সাবেক পশ্চিম জার্মানী এ ৬টি রাষ্ট্রের মধ্যে 'রোম চুক্তি' স্বাক্ষরিত হয়।<br/>❏ এ চুক্তি অনুযায়ী ১৭ জানুয়ারি, ১৯৫৮ সালে European Economic Community (EEC) এবং Euratom প্রতিষ্ঠিত হয়।<br/>▣ পরবর্তীতে EEC একটি একক ইউরোপিয় অর্থনীতি গঠন করার প্রয়াস চালায়।<br/>❏ ১৯৬৫ সালে সম্পাদিত 'ব্রাসেলস চুক্তি' সংগঠনটিকে European Community (EC) রূপান্তরিত করে।<br/>▣ ১৯৯২ সালে স্বাক্ষরিত 'ম্যাসট্রিক্ট চুক্তি'র ভিত্তিতে EC রূপান্তরিত হয়ে বর্তমান ইউরোপিয়ান ইউনিয়ন European Union (EU) হিসেবে প্রতিষ্ঠা পায়। <br/>▣ এছাড়াও,<br/>❏ শেনজেনভুক্ত দেশ: ২৯টি।<br/>❏ ইউরো মুদ্রা ব্যবহারকারী দেশ: ২০টি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334609,
+    "question": "'নাভাইয়া' পারমাণবিক পরীক্ষা স্থানটি কোন দেশে অবস্থিত?",
+    "options": [
+      "রাশিয়া",
+      "ভারত",
+      "যুক্তরাষ্ট্র",
+      "ফ্রান্স"
+    ],
+    "correct_answer": "রাশিয়া",
+    "explanation": "📖 'নাভাইয়া জেমলিয়া' (Novaya Zemlya) রাশিয়ার একটি দ্বীপপুঞ্জ। এটি সোভিয়েত ইউনিয়নের প্রধান পারমাণবিক পরীক্ষার স্থান ছিল। এখানেই ইতিহাসের সবচেয়ে শক্তিশালী পারমাণবিক বোমা 'জার বোম্বা' (Tsar Bomba) পরীক্ষা করা হয়েছিল।<br/> ⇢ <br/>⛳ নাভাইয়া জেমলিয়া (Novaya Zemlya) রাশিয়ার একটি দ্বীপপুঞ্জ যা আর্কটিক মহাসাগরে অবস্থিত। এটি রাশিয়ার প্রধান পারমাণবিক পরীক্ষার কেন্দ্র হিসেবে ব্যবহৃত হতো।<br/> ⇢ <br/>⛳ 'নাভাইয়া' (Novaya Zemlya) উত্তর মহাসাগরে অবস্থিত একটি দ্বীপপুঞ্জ, যা রাশিয়ার অন্তর্ভুক্ত। সোভিয়েত ইউনিয়ন ও রাশিয়া এখানে বহু পারমাণবিক পরীক্ষা চালিয়েছে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334610,
+    "question": "IDA স্বল্পোন্নত দেশগুলোকে কোন জাতীয় ঋণ দিয়ে থাকে?",
+    "options": [
+      "মাইক্রোক্রেডিট",
+      "সফট লোন",
+      "বাণিজ্যিক লোন",
+      "পণ্য সাহায্য"
+    ],
+    "correct_answer": "সফট লোন",
+    "explanation": "📖 IDA (International Development Association) বিশ্বব্যাংকের একটি শাখা। এটি বিশ্বের দরিদ্রতম দেশগুলোকে দীর্ঘমেয়াদী এবং বিনাসুদে বা নামমাত্র সুদে ঋণ প্রদান করে। এই সহজ শর্তের ঋণকে 'Soft Loan' বলা হয় এবং IDA-কে 'Soft Loan Window' বলা হয়।<br/> ⇢ <br/>⛳ IDA হলো বিশ্বব্যাংকের একটি অঙ্গসংস্থা। IDA (International Development Association) বা আন্তর্জাতিক উন্নয়ন সমিতি। যুক্তরাষ্ট্রের ওয়াশিংটন ডিসিতে এর সদর দপ্তর অবস্থিত। এটি IDA, Soft Loan Window নামেও পরিচিত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334611,
+    "question": "কোন ই-মেইলে \"CC\" এর অর্থ কী?",
+    "options": [
+      "Close Circuit",
+      "Carbon Copy",
+      "Close Contact",
+      "Close Cope"
+    ],
+    "correct_answer": "Carbon Copy",
+    "explanation": "📖 ই-মেইলে CC এর পূর্ণরূপ হলো Carbon Copy। যখন একই ই-মেইল মূল প্রাপক ছাড়াও অবগতির জন্য অন্য কাউকে পাঠানো হয় এবং সবাই দেখতে পায় আর কাকে পাঠানো হয়েছে, তখন CC ব্যবহার করা হয়। (BCC = Blind Carbon Copy)।<br/> ⇢ <br/>⛳ 'CC' এর পূর্ণরূপ হলো Carbon Copy। CC এর ঘরে সে সমস্ত ঠিকানা টাইপ করতে হয় যাদের বরাবর প্রেরক ই-মেইল কপি পাঠাতে চায়। এখানে ই-মেইল ঠিকানাগুলো পরপর কমা দিয়ে টাইপ করতে হয়। উল্লেখ্য, ই-মেইল ঠিকানার BCC ক্ষেত্রে এর পূর্ণরূপ Blind Carbon Copy বা BCC। BCC এর ঘরে সে সমস্ত ঠিকানা টাইপ করতে হয় যাদেরকে প্রেরক ই-মেইল কপি পাঠাতে চায় কিন্তু প্রাপকদের জানাতে চায় না কাকে কাকে এর কপি পাঠানো হয়েছে। CC এবং BCC এর কাজ প্রায় একই রকম তবে CC তে যাদের উল্লেখ থাকে ই-মেইলের প্রাপক ডকুমেন্টের শেষে তাদেরকে প্রত্যেকের ঠিকানা ছাপানো অবস্থায় দেখতে পায়। অর্থাৎ প্রাপক ই-মেইলটি দেখে বুঝতে পারে কাকে কাকে এর কপি প্রেরণ করা হয়েছে। কিন্তু BCC তে টাইপ করা ঠিকানাসমূহ ডকুমেন্টের সাথে যাবে না। ফলে প্রাপক জানতে পারবে না কাদেরকে ই-মেইলের কপি পাঠানো হয়েছে।<br/> ⇢ <br/>⛳ ই-মেইলে CC এর পূর্ণরূপ হলো Carbon Copy। এর মাধ্যমে প্রধান প্রাপকের (To) পাশাপাশি অন্য কাউকে একই মেইলের কপি পাঠানো হয়, যা সবাই দেখতে পায়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334612,
+    "question": "SQL এর পূর্ণরূপ কী?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "System Query Logic",
+      "Sequential Question Language"
+    ],
+    "correct_answer": "Structured Query Language",
+    "explanation": "📖 SQL হলো Structured Query Language। এটি রিলেশনাল ডাটাবেস ম্যানেজমেন্ট সিস্টেমে (RDBMS) ডাটা সংরক্ষণ, পুনরুদ্ধার এবং ম্যানিপুলেট করার জন্য ব্যবহৃত একটি প্রোগ্রামিং ভাষা।<br/> ⇢ <br/>⛳ SQL এর পূর্ণরূপ হলো Structured Query Language। এটি ডাটাবেস তৈরি, ডাটা সংরক্ষণ, পুনরুদ্ধার, হালনাগাদ এবং ব্যবস্থাপনার জন্য ব্যবহৃত একটি বিশেষায়িত প্রোগ্রামিং ভাষা, যা ডাটাবেসের সাথে যোগাযোগের মাধ্যম হিসেবে কাজ করে।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334613,
+    "question": "'অনুগ্রহ'-এর বিপরীতার্থক শব্দ কোনটি?",
+    "options": [
+      "প্রতিগ্রহ",
+      "বিগ্রহ",
+      "নিগ্রহ",
+      "দয়া"
+    ],
+    "correct_answer": "নিগ্রহ",
+    "explanation": "📖 'অনুগ্রহ' অর্থ দয়া বা কৃপা। এর বিপরীত শব্দ হলো 'নিগ্রহ', যার অর্থ শাস্তি, পীড়ন বা অত্যাচার।<br/> ⇢ <br/>⛳ 'অনুগ্রহ' এর বিপরীত শব্দ 'নিগ্রহ'। উল্লেখ্য,<br/>❏ শব্দ ➺ বিপরীত শব্দ<br/>❏ বিপরীতার্থক শব্দ ➺ প্রসাদ ➺ নিগ্রহ<br/>❏ দয়া ➺ শাস্তি<br/> ⇢ <br/>⛳ 'অনুগ্রহ'-এর অর্থ দয়া বা সাহায্য করা। আর 'নিগ্রহ'-এর অর্থ দমন বা শাস্তি দেওয়া, যা অনুগ্রহের বিপরীত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334614,
+    "question": "ড় , ঢ় কোন ধরনের বর্ণ?",
+    "options": [
+      "পার্শ্বিক",
+      "কম্পনজাত",
+      "তাড়নাজাত",
+      "অযোগবাহ"
+    ],
+    "correct_answer": "তাড়নাজাত",
+    "explanation": "📖 'ড়' এবং 'ঢ়' উচ্চারণের সময় জিভের ডগা উল্টে গিয়ে মূর্ধায় টোকা বা তাড়না দেয়, তাই এদের তাড়নজাত ধ্বনি (Flapped Consonants) বলা হয়।<br/>❏ 📖 বাংলা 'ট' ও 'ড' বর্ণের উচ্চারণস্থান মুর্ধা। নিম্নে উচ্চারণ স্থান অনুযায়ী বাংলা ব্যঞ্জনধ্বনির বিভাজন দেখানো হলোঃ উচ্চারণ স্থান ➺ ব্যঞ্জনধ্বনির বর্ণসমূহ ➺ উচ্চারণস্থান অনুযায়ী নাম <br/>❏ জিহ্বামূল ➺ ক খ গ ঘ ঙ ➺ কণ্ঠ্য বা জিহ্বামূলীয় বর্ণ <br/>❏ অগ্রতালু ➺ চ ছ জ ঝ ঞ য শ ➺ তালব্য বর্ণ <br/>❏ পশ্চাৎ দন্তমূল ➺ ট ঠ ড ঢ ণ র ড় ঢ় ষ ➺ মূর্ধন্য বা পশ্চাৎ দন্তমূলীয় বর্ণ <br/>❏ অগ্র দন্তমূল ➺ ত থ দ ধ ন ল স ➺ দন্ত্য বর্ণ <br/>❏ ওষ্ঠ ➺ প ফ ব ভ ম ➺ ওষ্ঠ্য বর্ণ<br/> ⇢ <br/>⛳ ড়, ঢ় তাড়নজাত বর্ণ। উল্লেখ্য, ধ্বনি সম্পর্কে খুঁটিনাটি কিছু তথ্য দেওয়া হলো যেগুলো বিভিন্ন প্রতিযোগিতামূলক পরীক্ষায় আসে।<br/>❏ বিষয় ➺ সংখ্যা ➺ বর্ণসমূহ<br/>❏ মৌলিক স্বরধ্বনি ➺ ৭টি ➺ অ, আ, ই, এ, উ, ও, অ্যা<br/>❏ পূর্ণমাত্রা ➺ ৩২টি ➺ অ, আ, ই, ঈ, উ, ঊ, ক, গ, ঘ, চ, ছ, জ, ঝ, ট, ঠ, ড, ঢ, ত, দ, ন, প, ফ, ব, ভ, ম, য, র, ল, ষ, স, হ, ড়, ঢ়, য়<br/>❏ স্বরবর্ণ ➺ ১১টি ➺ <br/>❏ হ্রস্বস্বর ধ্বনি ➺ ৪টি ➺ অ, ই, উ, ঋ<br/>❏ অর্ধমাত্রা ➺ ৮টি ➺ ঋ, খ, গ, ণ, থ, ধ, প, শ<br/>❏ কার ➺ ১০টি ➺ <br/>❏ অন্তঃস্থ বর্ণ ➺ ৪টি ➺ য, র, ল, ব<br/>❏ কম্পনজাত ধ্বনি ➺ ১টি ➺ র<br/>❏ তাড়নজাত ধ্বনি ➺ ২টি ➺ ড়, ঢ়<br/>❏ শিস ধ্বনি ➺ ৩টি ➺ শ, ষ, স<br/>❏ পার্শ্বিক বর্ণ ➺ ১টি ➺ ল<br/>❏ খণ্ডব্যঞ্জন ➺ ১টি ➺ ৎ<br/>❏ যৌগিক স্বরধ্বনি ➺ ২টি ➺ ঐ, ঔ<br/>❏ ওষ্ঠ্যবর্ণ ধ্বনি ➺ ৫টি ➺ প, ফ, ব, ভ, ম<br/>❏ মাত্রাহীন ➺ ১০টি ➺ এ, ঐ, ও, ঔ, ঙ, ঞ, ৎ, ং, ঃ, ঁ<br/>❏ নাসিক্য বর্ণ বা অনুনাসিক বর্ণ ➺ ৫টি ➺ ঙ, ঞ, ণ, ন, ম<br/>❏ নীলীন বর্ণ ➺ ১টি ➺ অ<br/> ⇢ <br/>⛳ বাংলা ভাষায় মোট বর্ণ ➺ ৫০টি<br/>❏ বাংলা ভাষায় মৌলিক ধ্বনি ➺ ৩৭ টি<br/>❏ বাংলা ভাষায় বর্ণ ➺ ২ ধরনের (স্বরবর্ণ, ব্যঞ্জনবর্ণ)<br/>❏ স্বরবর্ণ ➺ ১১টি (স্বরধ্বনি ৭টি)<br/>❏ মৌলিক স্বরধ্বনি ➺ ৭টি (অ, আ, ই, উ, এ, ও, অ্যা)<br/>❏ ব্যঞ্জন বর্ণ ➺ ৩৯টি (ব্যঞ্জন ধ্বনি ৩০টি)<br/>❏ মৌলিক ব্যঞ্জনধ্বনি ➺ ৩০টি<br/>❏ হ্রস্বস্বর ➺ ৪টি -অ, ই, উ, ঋ<br/>❏ দীর্ঘস্বর ➺ ৭টি- আ, ঈ, উ, এ, ঐ, ও, ঔ<br/>❏ যৌগিক স্বরবর্ণ/যৌগিক স্বরজ্ঞাপক ➺ ২টি (ঐ, ঔ)<br/>❏ যৌগিক স্বরধ্বনি/দ্বিস্বর/যুগ্মস্বর/সান্ধ্যস্বর ➺ ২৫টি<br/>❏ পূর্ণমাত্রার বর্ণ বাকি মোট ➺ ৩২টি<br/>❏ পূর্ণমাত্রার স্বরবর্ণ ➺ ৬টি অ,আ,ই,ঈ,উ,ঊ)<br/>❏ পূর্ণমাত্রার ব্যঞ্জনবর্ণ ➺ ২৬টি - ক,ঘ,চ,ছ,জ,ঝ,ট,ঠ,ড,ঢ,ত,দ,ন,ফ,ব,ভ,ম,য,র,ল,ষ,স,হ,ড়,ঢ়,য়)<br/>❏ অর্ধমাত্রার বর্ণ মোট ➺ ৮টি (ঋ, খ, গ, ণ, থ, ধ, প, শ)<br/>❏ অর্ধমাত্রার স্বরবর্ণ ➺ ১টি - ঋ<br/>❏ অর্ধমাত্রার ব্যঞ্জনবর্ণ ➺ ৭টি - খ,গ,ণ,থ,ধ,প,শ<br/>❏ মাত্রাহীন বর্ণ ➺ ১০টি (এ, ঐ, ও, ঔ, ঙ, ঞ, ९, ০২, ০৪, ০)<br/>❏ মাত্রাহীন স্বরবর্ণ ➺ ৪টি -এ,ঐ,ও,ঔ<br/>❏ মাত্রাহীন ব্যঞ্জনবর্ণ ➺ ৬টি - ঙ,ঞ,ৎ,ং,ঃ,ঁ<br/>❏ পূর্ণমাত্রার স্বরবর্ণ ➺ ৬টি (অ, আ, ই, ঈ, উ, ঊ)<br/>▣ বর্ণমালা: যে কোনো ভাষায় ব্যবহৃত লিখিত বর্ণসমষ্টটিকে বলা হয় বর্ণমালা (Alphabet)। বাংলা ভাষায় বর্ণমালার সংখ্যা ১টি। বাংলা ভাষা লেখার মোট বর্ণের সংখ্যা বা সাংকেতিক চিহ্ন বা প্রতীক ৫০টি। এই ৫০টি বর্ণ দুই ভাগে বিভক্ত। যথা- স্বরবর্ণ (১১টি) ও ব্যঞ্জনবর্ণ (৩৯টি)। তবে বাংলা ভাষায় মোট ধ্বনির সংখ্যা ৩৭টি। এই ৩৭টি ধ্বনি দুই ভাগে বিভক্ত। যথা- স্বরধ্বনি (৭টি) ও ব্যঞ্জনধ্বনি (৩০টি)। সূত্র: বাংলা একাডেমির 'প্রমিত বাংলা ব্যবহারিক ব্যাকরণ (সংস্করণ: ২০১৬); 'প্রমিত বাংলা ভাষার ব্যাকরণ (১ম খণ্ড)')<br/>❏ এক নজরে উপাদান ➺ উপকরণ ➺ একক :<br/>❏ ভাষার মূল উপকরণ ➺ বাক্য [প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা ২০১২।<br/>❏ ভাষার মূল উপাদান ➺ ধ্বনি[/রা.বি. ২০১৮-১৯, জ.বি. ক ২০১৫-১৬)<br/>❏ ভাষার মৌলিক উপাদান ➺ শব্দ (রা.বি. ক ২০১৮-১৯/)<br/>❏ ভাষার ক্ষুদ্রতম একক ➺ ধ্বনি (৩২তম BCS)<br/>❏ ভাষার একক / বৃহত্তম একক ➺ বাক্য<br/>❏ বাক্যের মূল উপকরণ ➺ শব্দ<br/>❏ বাক্যের মূল উপাদান ➺ ধ্বনি<br/>❏ বাক্যের মৌলিক উপাদান ➺ শব্দ (NSI সহকারী পরিচালক ২০১৫)<br/>❏ বাক্যের ক্ষুদ্রতম একক ➺ ধ্বনি (১৮ম BCS)<br/>❏ বাক্যের একক / বৃহত্তম একক ➺ শব্দ (রা.বি এ ২০১৫-১৬/<br/>❏ শব্দের মূল উপকরণ ➺ ধ্বনি<br/>❏ শব্দের মূল উপাদান ➺ ধ্বনি<br/>❏ শব্দের মৌলিক উপাদান ➺ হয় না<br/>❏ শব্দের ক্ষুদ্রতম একক ➺ ধ্বনি [ নোবিপ্রবি ১৭-১৮, বা.বি. এ০১৫-১৬)<br/>❏ শব্দের একক / বৃহত্তম একক ➺ হয় না",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334615,
+    "question": "'পঞ্চগড়' কোন সমাস?",
+    "options": [
+      "সংখ্যাবাচক বহুব্রীহি",
+      "দ্বন্দ্ব",
+      "দ্বিত্ত",
+      "কর্মধারয়"
+    ],
+    "correct_answer": "দ্বিত্ত",
+    "explanation": "📖 'পঞ্চগড়' এর ব্যাসবাক্য হলো 'পঞ্চ গড়ের সমাহার'। সমাহার বা সমষ্টি বোঝালে এবং পূর্বপদ সংখ্যাবাচক হলে তা 'দ্বিগু সমাস' হয়। প্রদত্ত অপশনে 'দ্বিগু' নেই, তবে 'দ্বিত্ত' শব্দটি সম্ভবত 'দ্বিগু' এর মুদ্রণত্রুটি বা বিকল্প নাম হিসেবে ব্যবহৃত হয়েছে। সঠিক উত্তর দ্বিগু সমাস।<br/> ⇢ <br/>⛳ যে সমাসে 'পঞ্চ' (পাঁচ) এবং 'গড়' (গড়ি) শব্দ মিলে পঞ্চগড় (পাঁচটি গড়) শব্দটি গঠিত হয়েছে, এটি দ্বিত্ত সমাসের উদাহরণ (যেখানে দুটি শব্দ একত্রিত হয়ে তৃতীয় অর্থ প্রকাশ করে না, বরং মিশে একটি বিশেষ্যবাচক নামে পরিণত হয়)। সাধারণত পঞ্চগড় নামক স্থানের নাম হিসেবে এটি প্রচলিত। তবে পরীক্ষার প্রশ্নে 'দ্বিত্ত' সঠিক উত্তর হিসেবে গৃহীত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334616,
+    "question": "'তন্ময়' এর সন্ধি বিচ্ছেদ কোনটি?",
+    "options": [
+      "তনু + ময়",
+      "তৎ+ ময়",
+      "তনু + ময়",
+      "তদ্ + ময়"
+    ],
+    "correct_answer": "তৎ+ ময়",
+    "explanation": "📖 'তন্ময়' ব্যঞ্জনসন্ধির উদাহরণ। নিয়ম অনুযায়ী, বর্গের ১ম বর্ণের পর নাসিক্য বর্ণ (ম, ন) থাকলে ১ম বর্ণটি সেই বর্গের ৫ম বর্ণে (নাসিক্য) পরিণত হয়। তাই, তৎ (ৎ) + ময় = তন্ময়।<br/> ⇢ <br/>⛳ 'ঙ, ঞ, ণ, ন, ম' পরে থাকলে পূর্ববর্তী অঘোষ অল্পপ্রাণ স্পর্শধ্বনি সেই বর্গীয় ঘোষ স্পর্শধ্বনি কিংবা নাসিক্যধ্বনি হয়। যেমন: ক + ন = গ + ন; দিক + নির্ণয় = দিগনির্ণয় বা দিঙনির্ণয়। ত + ম = দ/ন + ম; তৎ + মধ্যে = তদমধ্যে বা তনমধ্যে। এখানে লক্ষণীয় যে, এরূপ ক্ষেত্রে সাধারণত নাসিক্য ব্যঞ্জনই বেশি প্রচলিত। যেমন: বাক + ময় = বাঙ্ময়; তৎ + ময় = তন্ময়; জগৎ + নাথ = জগন্নাথ ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334617,
+    "question": "'দূর্যোগ' এর সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+    "options": [
+      "দুহঃ + যোগ",
+      "দুঃ + যোগ",
+      "দুর + যোগ",
+      "দুরঃ + যোগ"
+    ],
+    "correct_answer": "দুঃ + যোগ",
+    "explanation": "📖 'দুর্যোগ' শব্দটি বিসর্গ সন্ধির নিয়মে গঠিত। এর সঠিক সন্ধি বিচ্ছেদ হলো: দুঃ + যোগ = দুর্যোগ। এখানে বিসর্গ (ঃ) এর পর ঘোষ বর্ণ থাকায় বিসর্গটি 'র্' (রেফ) এ পরিণত হয়েছে।<br/> ⇢ <br/>⛳ বিসর্গ সন্ধির নিয়ম অনুযায়ী, অ বা আ ভিন্ন অন্য স্বরবর্ণের পরে বিসর্গ থাকলে এবং তার পরে ঘোষ বর্ণ থাকলে বিসর্গ স্থানে 'র' হয়। সেই নিয়ম অনুযায়ী: দুঃ + যোগ = দুর্যোগ।<br/> ⇢ <br/>⛳ 'দূর্যোগ' শব্দটি 'দুঃ' (দুঃখ বা মন্দ) এবং 'যোগ' শব্দ থেকে গঠিত। দুঃ + যোগ = দূর্যোগ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334618,
+    "question": "'ক' হতে 'ম' পর্যন্ত ২৫টি ব্যঞ্জনধ্বনিকে একত্রে বলা হয়-",
+    "options": [
+      "মৌলিক ধ্বনি",
+      "যৌগিক ধ্বনি",
+      "স্পর্শ ধ্বনি",
+      "নাসিক্য ধ্বনি"
+    ],
+    "correct_answer": "স্পর্শ ধ্বনি",
+    "explanation": "📖 বাংলা বর্ণমালার 'ক' থেকে 'ম' পর্যন্ত ২৫টি ব্যঞ্জনবর্ণ উচ্চারণের সময় জিভ মুখের ভেতরের কোনো না কোনো অংশে স্পর্শ করে। তাই এদের স্পর্শ ধ্বনি বা স্পৃষ্ট ধ্বনি (Plosives) বলা হয়।<br/> ⇢ <br/>⛳ 'ক' হতে 'ম' পর্যন্ত ২৫টি ব্যঞ্জনধ্বনিকে একত্রে বলা হয় স্পর্শ ধ্বনি। যথা:<br/>❏ কণ্ঠ ধ্বনি ➺ ক, খ, গ, ঘ, ঙ <br/>❏ তালব্য ধ্বনি ➺ চ, ছ, জ, ঝ, ঞ<br/>❏ মূর্ধন্য ধ্বনি ➺ ট, ঠ, ড, ঢ, ণ <br/>❏ দন্ত্য ধ্বনি ➺ ত, থ, দ, ধ, ন<br/>❏ ওষ্ঠ্য ধ্বনি ➺ প, ফ, ব, ভ, ম <br/> ⇢ <br/>⛳ ▣ ব্যঞ্জনধ্বনি<br/>❏ যে সকল ধ্বনি উচ্চারণের সময় ফুসফুসতাড়িত বাতাস বেরিয়ে যেতে মুখবিবরের কোথাও না কোথাও বাধা পায় কিংবা ধাক্কা লাগে তাকে ব্যঞ্জনধ্বনি বলে। ব্যঞ্জনধ্বনি স্বরধ্বনির সাহায্য ছাড়া নিজে নিজে উচ্চারিত হতে পারে না। উচ্চারণের রীতি অনুযায়ী ব্যঞ্জনধ্বনিকে কয়েকভাগে ভাগ করা হয়েছে। নিচে সেগুলো আলোচনা করা হলো:<br/>▣ স্পর্শধ্বনি : মুখের মধ্যে ফুসফুস থেকে আসা বাতাস মুহূর্তের জন্য সম্পূর্ণ রুদ্ধ বা বন্ধ হওয়ার পর অকস্মাৎ মুখ দিয়ে বের হয়ে যে সমস্ত ধ্বনি উচ্চারিত হয় সে ধ্বনিগুলোকে স্পর্শ বা স্পৃষ্ট ধ্বনি বলে।<br/>❏ ক্ থেকে ম্ পর্যন্ত (ক-ম) ধ্বনিগুলোকে স্পর্শ ধ্বনি বলে। বাংলা ভাষায় স্পর্শ ধ্বনি ২৫ টি। এই ২৫টি ধ্বনি পাঁচটি বর্গে বিভক্ত।<br/>▣ উচ্চারণের স্থান ও উচ্চারণ রীতি অনুযায়ী ব্যঞ্জনধ্বনির বিভাজন দেখানো হলো-<br/>▣ বর্ণ হিসেবে নাম ➺ উচ্চারণের স্থান অনুযায়ী নাম ➺ উচ্চারণের স্থান ➺ ; অঘোষ:- ➺ অল্পপ্রাণ ➺ মহাপ্রাণ ➺ ; ঘোষ:- ➺ অল্পপ্রাণ ➺ মহাপ্রাণ ➺ নাসিক্য<br/>❏ ক বর্গীয় ➺ কণ্ঠ্য বা জিহ্বামূলীয় বর্ণ ➺ জিহ্বার গোড়ালি ও তালুর নরম অংশের সহযোগে। ➺ ; অঘোষ:- ক খ ; ঘোষ:- গ ঘ ঙ<br/>❏ চ বর্গীয় ➺ তালব্য বা অগ্রতালুজাত বর্ণ ➺ দন্তমূলের শেষাংশ ও জিহ্বার সহযোগে। ➺ ; অঘোষ:- চ ছ ; ঘোষ:- জ ঝ ঞ<br/>❏ ট বর্গীয় ➺ মূর্ধন্য বা পশ্চাৎ দন্তমূলীয় বর্ণ ➺ দন্তমূল ও জিহ্বার সম্মুখভাগ। ➺ ; অঘোষ:- ট ঠ ; ঘোষ:- ড ঢ ণ<br/>❏ ত বর্গীয় ➺ দন্ত্য বা অগ্রদন্তমূলীয় বর্ণ ➺ জিহ্বার আর দাঁতের উপরের পাটির সংস্পর্শে। ➺ ; অঘোষ:- ত থ ; ঘোষ:- দ ধ ন<br/>❏ প বর্গীয় ➺ ওষ্ঠ্যবর্ণ ➺ দুই ঠোঁটের সংস্পর্শ। ➺ ; অঘোষ:- প ফ ; ঘোষ:- ব ভ ম<br/>▣ বর্ণ ➺ উচ্চারণস্থান অনুসারে বর্ণের নাম ➺ উচ্চারণের স্থান<br/>❏ অ, আ, ক, খ, গ, ঘ, ঙ, হ ➺ কণ্ঠ্য বা জিহ্বামূলীয় বর্ণ ➺ কণ্ঠ্য বা জিহ্বামূল<br/>❏ ই, ঈ, চ, ছ, জ, ঝ, ঞ. শ, য, য় ➺ তালব্য বা অগ্রতালুজাত বর্ণ ➺ তালু<br/>❏ ঋ, ট, ঠ, ড, ঢ, ণ, ষ, র, ড়, ঢ় ➺ মূর্ধন্য বা পশ্চাৎ দন্তমূলীয় বর্ণ ➺ মূর্ধা<br/>❏ ত, থ, দ, ধ, ন, ল, স ➺ দন্ত্য বা অগ্রদন্তমূলীয় বর্ণ ➺ দন্ত্য বর্ণ<br/>❏ উ, ঊ, প, ফ, ব, ভ, ম ➺ ওষ্ঠ্যবর্ণ ➺ ওষ্ঠ্য<br/>❏ এ, ঐ ➺ কণ্ঠ তালব্য বর্ণ ➺ কণ্ঠ ও তালু<br/>❏ ও, ঔ ➺ কণ্ঠৌষ্ঠ্য বর্ণ ➺ কণ্ঠ ও ওষ্ঠ<br/>▣ অল্পপ্রাণ ও মহাপ্রাণ এবং ঘোষ ও অঘোষ ধ্বনি<br/>❏ অল্পপ্রাণ : যে সকল ধ্বনির উচ্চারণের সময় নিশ্বাস জোরে সংযোজিত হয় না/ শ্বাসবায়ুর বেগ অল্প থাকে তাকে অল্পপ্রাণ ধ্বনি বলে। যেমন- ক, চ, ট, ত, প ইত্যাদি। [প্রতিটি বর্গের প্রথম ও তৃতীয় বর্ণ অল্পপ্রাণ]<br/>❏ মহাপ্রাণ : যে সকল ধ্বনির উচ্চারণের সময় নিশ্বাস জোরে সংযোজিত হয়/ শ্বাসবায়ুর বেগ বেশি থাকে তাকে মহাপ্রাণ ধ্বনি বলে। যেমন- খ, ছ, ধ ইত্যাদি। [প্রতিটি বর্গের দ্বিতীয় ও চতুর্থ বর্ণ মহাপ্রাণ]<br/>❏ ঘোষ ধ্বনি : যে বর্ণ উচ্চারণের সময় স্বরতন্ত্রী কাঁপে, তাকে ঘোষ বর্ণ বা নাদ বর্ণ বলে। বর্গের তৃতীয়, চতুর্থ এবং পঞ্চম ধ্বনিকে ঘোষ ধ্বনি বলে। যেমন- গ, ঘ ইত্যাদি।<br/>❏ অঘোষ ধ্বনি : যে বর্ণ উচ্চারণের সময় স্বরতন্ত্রী কাঁপে না, তাকে অঘোষ বর্ণ বলে। বর্গের প্রথম এবং দ্বিতীয় ধ্বনিকে অঘোষ ধ্বনি বলে। যেমন- ক, খ, ইত্যাদি।<br/>❏ উচ্চারণ রীতি অনুযায়ী স্পর্শ ব্যঞ্জন ধ্বনিগুলোর ধ্বনিতাত্ত্বিক বিশ্লেষণ নিম্নরূপ<br/>❏ উষ্ম বা শিশ ধ্বনি : শ, ষ, স- এই তিনটি বর্ণকে উষ্ম বর্ণ বলে। শিশ দেয়ার ধ্বনির সাথে এর মিল আছে বলে, এদের ঘর্ষণজাত ধ্বনি বা শিশ ধ্বনি বা শিশবর্ণও বলা হয়। এই বর্ণগুলোর উচ্চারণ ইংরেজি Sh এর মতো। 'হ' বর্ণও একটি উষ্ম ঘোষ বর্ণ। কণ্ঠনালিতে এটি উৎপন্ন হয়।<br/>❏ স্পৃষ্ট-ঘর্ষণজাত : এই ধ্বনিগুলো উচ্চারণের সময় বাতাস প্রথমে স্পৃষ্ট ধ্বনির মতো মুখের মধ্যে সম্পূর্ণ রুদ্ধ হয়, কিন্তু দ্রুত বের না হয়ে কিছুটা বিলম্বে ঘর্ষণ ধ্বনি তৈরি করে বের হয়। অর্থাৎ স্পৃষ্ট + ঘর্ষণজাত = সৃষ্ট। চ, ছ, জ্, ব্ এ জাতীয় ধ্বনি। তবে মুহম্মদ আবদুল হাই এগুলোকে স্পৃষ্ট ব্যঞ্জনধ্বনি বলে স্বীকৃতি দিয়েছেন।<br/>❏ পরাশ্রয়ী ধ্বনি : এরা কখনও স্বাধীনভাবে ব্যবহৃত হতে পারে না। অন্য বর্ণের সাহায্যে এরা ব্যবহৃত হয়। পরাশ্রয়ী বর্ণ ৩টি। যথা: (ং,ঃ,)।<br/>❏ অন্তঃস্থ ধ্বনি : স্পর্শ ধ্বনির মাঝে আছে বলে য, র, ল, ব- এ ধ্বনিগুলোকে অন্তঃস্থ ধ্বনি/বর্ণ বলা হয়।<br/>❏ পার্শ্বিক ধ্বনি : জিহ্বার দু'পাশ দিয়ে বায়ু নিঃসৃত হয় বলে একে পার্শ্বিক ধ্বনি বলে। যেমন: ল (১টি)।<br/>❏ তাড়নজাত ধ্বনি : জিহ্বার উলটো পিঠের দ্বারা উপরের দন্তমূলে আঘাত বা তাড়না করে উচ্চারিত হয় বলে তাড়নজাত ধ্বনি বলে। যেমন- ড়, ঢ়।<br/>❏ কম্পনজাত ধ্বনি : জিহ্বার অগ্রভাগকে কম্পিত করে উচ্চারিত হলে তা কম্পনজাত ধ্বনি। কম্পনজাত ধ্বনি হলো ➺ র।<br/>❏ স্পর্শধ্বনি ➺ ২৫টি।<br/>❏ শিশধ্বনি/উষ্মধ্বনি/ঘর্ষণজাত ধ্বনি ➺ শ, ষ, স, হ<br/>❏ পরাশ্রয়ী ধ্বনি ➺ ং, ঃ,<br/>❏ অন্তঃস্থ ধ্বনি ➺ য, র, ল, ব<br/>❏ কম্পনজাত ধ্বনি ➺ র<br/>❏ পার্শ্বিক ধ্বনি ➺ ল<br/>❏ তাড়নজাত ধ্বনি ➺ ড়, ঢ়<br/>❏ নাসিক্য বর্ণ ➺ ঙ, ঞ, ণ, ন, ম",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334619,
+    "question": "\"ইউসুফ-জুলেখা” কাব্য রচনা করেননি কে?",
+    "options": [
+      "আবদুল হাকীম",
+      "শাহ মুহম্মদ সগীর",
+      "শাহ গরীবুল্লাহ",
+      "মুহম্মদ কবীর"
+    ],
+    "correct_answer": "মুহম্মদ কবীর",
+    "explanation": "📖 মধ্যযুগে 'ইউসুফ-জুলেখা' প্রণয়কাব্য অনেকেই রচনা করেছেন। তাঁদের মধ্যে শাহ মুহম্মদ সগীর (প্রাচীনতম), শাহ গরীবুল্লাহ, আবদুল হাকীম অন্যতম। কিন্তু মুহম্মদ কবীর রচনা করেছেন 'মধুমালতী' কাব্য।<br/>❏ ইউসুফ-জুলেখা<br/>❏ ইউসুফ-জোলেখা মধ্যযুগের পুঁথি লেখকদের রচিত বাংলা সাহিত্যের একটি প্রণয়-কাব্য। বাংলা সাহিত্যের প্রথম মুসলমান কবি শাহ মুহম্মদ সগীর, গৌড়ের সুলতান গিয়াসউদ্দিন আজম শাহের রাজত্বকালে(১৩৯৩-১৪০৯ খ্রিষ্টাব্দ) ইউসুফ-জোলেখা কাব্য রচনা করেন। শাহ মুহম্মদ সগীর ছাড়াও মধ্যযুগের আরো অনেক কবি ইউসুফ-জোলেখা নাম দিয়ে কাব্য রচনা করেন। তার মধ্যে আবদুল হাকিম, শাহ গরিবুল্লাহ, গোলাম সফাতুল্লাহ, সাদেক আলী এবং ফকির মোহাম্মদ উল্লেখযোগ্য।<br/>❏ উৎস - ইউসুফ-জুলেখা<br/> ⇢ <br/>⛳ 'ইউসুফ-জুলেখা' বাংলা রোমান্টিক কাব্য। পনেরো শতকে শাহ মুহম্মদ সগীর এটি রচনা করেন। এটি মূলত আখ্যানকাব্য যা তিনি গৌড়ের সুলতান গিয়াসউদ্দিন আজম শাহের নির্দেশে মহাকাব্য কোরআন থেকে কাহিনী সংগ্রহ করে রচনা করেন।<br/> ⇢ <br/>⛳ শাহ মুহম্মদ সগীরের হাতে রচিত হয় রোমান্টিক প্রণয়োপাখ্যান ধারার প্রথম কাব্য ‘ইউসুফ-জুলেখা>।<br/>❏ এই কাব্য রচনার কারণে শাহ মুহম্মদ সগীরকে বাংলা সাহিত্যের প্রথম মুসলিম কবি হিসেবে অভিহিত করা হয়। বাইবেল ও কোর>আনে ইউসুফ জুলেখার কাহিনী বর্ণিত আছে।<br/>এই কাব্যের অংশঃ<br/>''ব্যাধি এ পীড়িত মোর বিকল শরীর।<br/>ঔষধ দর্শনে প্রাণ শান্ত নহে স্থির॥<br/>এহেন নির্জন পুরী বিরল সম্ভোগ।<br/>পরিহরি লজ্জা ভীতি কর উপভোগ॥<br/>না জানি কেমন আছে নিষেধ কারণ।<br/>বুঝিলু তোমার ইচ্ছা আমার মরণ॥'', বাংলা ভাষা ও সাহিত্য জিজ্ঞাসা, ড. সৌমিত্র শেখর।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334620,
+    "question": "ব্যতিহারিক সর্বনাম কোনটি?",
+    "options": [
+      "ইহারা",
+      "যিনি",
+      "নিজে নিজে",
+      "কেহ"
+    ],
+    "correct_answer": "নিজে নিজে",
+    "explanation": "📖 যে সর্বনাম পদ দিয়ে দুই পক্ষের সহযোগিতা বা পারস্পরিক ক্রিয়া বোঝায়, তাকে ব্যতিহারিক সর্বনাম বলে। যেমন- নিজে নিজে, আপনা আপনি, আপসে ইত্যাদি।<br/> ⇢ <br/>⛳ যে সর্বনাম দ্বারা দুইয়ের মধ্যে পারস্পরিক কাজ বা অবস্থা বোঝায় তাকে ব্যতিহারিক সর্বনাম বলে। যেমন: নিজে নিজে, আপনা আপনি, আপসে, পরস্পর ইত্যাদি।<br/> ⇢ <br/>⛳ ব্যতিহারিক সর্বনাম হলো সেই সর্বনাম যা নিজের অস্তিত্ব নির্দেশ করে। যেমন: নিজে, আপনি, স্বয়ং, নিজে নিজে ইত্যাদি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334621,
+    "question": "চর্যাপদ কোন ছন্দে লেখা?",
+    "options": [
+      "অক্ষরবৃত্ত",
+      "মাত্রাবৃত্ত",
+      "স্বরবৃত্ত",
+      "অমিত্রাক্ষর ছন্দ"
+    ],
+    "correct_answer": "মাত্রাবৃত্ত",
+    "explanation": "📖 চর্যাপদ বাংলা ভাষার আদি নিদর্শন। চর্যাপদের পদগুলো মূলত গান এবং এগুলো মাত্রাবৃত্ত ছন্দে রচিত। অধিকাংশ পদ ১৬ মাত্রার পাদাকুলক ছন্দে লেখা।<br/> ⇢ <br/>⛳ চর্যাপদের পদগুলো প্রাচীন কোন ছন্দে রচিত তা আজ বলা সম্ভব নয়। আধুনিক ছন্দের বিচারে এই পদগুলো মাত্রাবৃত্ত ছন্দের অধীনে বিবেচ্য।<br/>❏ চর্যাপদ বাংলা সাহিত্যের আদি নিদর্শন। এর ভাষা 'সান্ধ্য ভাষা'। ছান্দসিকদের মতে, চর্যাপদ মূলত মাত্রাবৃত্ত ছন্দের একটি প্রাচীন রূপ, যাকে 'পাদাকুলক' ছন্দ বলা হতো। এতে অন্ত্যমিল লক্ষ্য করা যায়।<br/>❏ বাংলা সাহিত্যের প্রাচীনতম নিদর্শন চর্যাপদগুলো 'মাত্রাবৃত্ত' ছন্দে রচিত। এই ছন্দে কবিতার মাত্রার গণনা করা হয়, স্বরবর্ণের সংখ্যা নয়।<br/>❏ চর্যা বৃত্তান্ত:<br/>❏ চর্যার পদগুলি প্রধানত পয়ার ও ত্রিপদী ছন্দে রচিত।<br/>❏ আধুনিক ছন্দ বিচারে ‘মাত্রাবৃত্ত ছন্দ'।<br/>❏ এর ভাষা 'সান্ধ্যভাষা' বা আলো-আঁধারী ভাষা নামে পরিচিত।<br/>❏ 'চর্যাপদ’ ইংরেজিতে অনুবাদ করেন 'হাসনা জসীমউদ্দীন মওদুদ'।<br/>❏ ২০১৭ সালে হাসনা জসীমউদ্দীন মওদুদ চর্যাপদের ইংরেজি অনুবাদ করেন।<br/>❏ হাসনা জসীমউদ্দীন মওদুদ কর্তৃক ইংরেজিতে অনূদিত চর্যাপদের নাম মিস্টিক পোয়েট্রি অব বাংলাদেশ।<br/> ⇢ <br/>⛳ বাংলা সাহিত্যের আদি নিদর্শন 'চর্যাপদ'। ১৯০৭ সালে মহামহোপাধ্যায় হরপ্রসাদ শাস্ত্রী নেপালের 'রয়্যাল লাইব্রেরি' (রাজদরবার গ্রন্থশালা) থেকে এর পুঁথি আবিষ্কার করেন। পুঁথিটির মূল নাম ছিল 'চর্যাচর্যবিনিশ্চয়'। পরবর্তীতে ১৯১৬ সালে বঙ্গীয় সাহিত্য পরিষদ থেকে 'হাজার বছরের পুরাণ বাঙ্গালা ভাষায় বৌদ্ধ গান ও দোহা' নামে এটি প্রকাশিত হয়।<br/>❏ ⛳ বাংলা সাহিত্যের প্রাচীনযুগের একমাত্র নিদর্শন চর্যাচর্যবিনিশ্চয় বা চর্যাগীতিকোষ বা চর্যাগীতি বা চর্যাপদ।<br/>❏ ড. হরপ্রসাদ শাস্ত্রী ১৯০৭ সালে নেপালের রাজ দরবার গ্রন্থাগার থেকে এটি আবিষ্কার করেন।<br/>❏ চর্যাপদের পদ সংখ্যা: চর্যাপদের পদ সংখ্যা ৫০টি। তবে সুকুমার সেন মনে করেন পদসংখ্যা ৫১টি।<br/>❏ উদ্ধারকৃত পদের সংখ্যা: চর্যাপদের সাড়ে ৪৬টি পদ পাওয়া যায়।<br/>❏ অনুদ্ধারকৃত/বিলুপ্ত পদের সংখ্যা: সাড়ে ৩টি। প্রাপ্ত সাড়ে ৪৬টি পদের মধ্যে ভুসুকুপা রচিত ২৩নং পদটি খণ্ডিত আকারে পাওয়া গেছে। পদটির ৬টি পদ পাওয়া গেছে কিন্তু বাকি ৪টি পদ পাওয়া যায়নি।<br/>❏ এছাড়াও চর্যাপদের ২৪নং (কাহ্নপা রচিত), ২৫নং (তন্ত্রীপা রচিত) এবং ৪৮নং (কুক্কুরীপা রচিত) পদগুলো পাওয়া যায়নি।<br/>❏ চর্যাপদ তিব্বতি ভাষায় অনুবাদ করেন কীর্তিচন্দ্র।<br/>❏ ১৯৩৮ সালে প্রবোধচন্দ্র বাগচী চর্যাপদের তিব্বতি ভাষার অনুবাদ আবিষ্কার করেন।<br/>❏ সংস্কৃত ভাষায় মুনিদত্ত চর্যাপদের ব্যাখ্যা করেন। তিনি ১১নং পদের ব্যাখ্যা করেননি।<br/>❏ ড. মুহম্মদ শহীদুল্লাহর সম্পাদিত \"Buddhist Mystic Songs\" (১৯৬০) গ্রন্থে তিনি ২৩ জন কবির কথা উল্লেখ করেছেন। অন্যদিকে, ড. সুকুমার সেন তাঁর \"বাংলা সাহিত্যের ইতিহাস\" গ্রন্থে ২৪ জন কবির কথাই বলেছেন এবং এই মতটিই বর্তমানে অধিক প্রচলিত ও গ্রহণযোগ্য। এই কবিরা 'সিদ্ধাচার্য' নামে পরিচিত ছিলেন এবং তারা মূলত বৌদ্ধ সহজিয়া মতের অনুসারী ছিলেন।<br/>❏ ড. মুহম্মদ শহীদুল্লাহর মতে চর্যাপদের মোট পদকর্তা ২৩ জন। কিন্তু ডক্টর মুহাম্মদ সুকুমার সেনের মতে চর্যাপদের পদকর্তা বা কবির সংখ্যা মোট ২৪ জন।<br/>❏ ২৩ নম্বর পদটি খন্ডিত আকারে পাওয়া গেছে।<br/>❏ ২৪, ২৫, ৪৮ নম্বর পদ পাওয়া যায় নি<br/>❏ ড. মুহম্মদ শহীদুল্লাহ্ 'র মতে চর্যাপদের পদসংখ্যা ৫০ টি এবং পদকর্তা ২৩ জন<br/>❏ ড. সুকুমার সেন'র মতে চর্যাপদের পদসংখ্যা ৫১টি এবং পদকর্তা ২৪ জন<br/>❏ সবচেয়ে বেশি পদ রচনা করেছেন - কাহ্নপা ( ১৩টি)<br/>❏ কাহ্নপা- কৃষ্ণাচার্য নামে পরিচিত ছিলেন।<br/>❏ কাহ্নপা:<br/>❏ চর্যাপদের পদকর্তার মধ্যে সর্বাধিক পদ রচনা করেন- কাহ্নপা।<br/>❏ তিনি ছিলেন শজিয়া তান্ত্রিক বৌদ্ধযোগী।<br/>❏ তিনি ধর্মশাস্ত্র ও সঙ্গীত শাস্ত্র উভয় দিকেই দক্ষ ছিলেন।<br/>❏ কাহ্নপা ১৩ টি পদ রচনা করেন।<br/>❏ কাহ্নপা রচিত ২৪ নং পদটি পাওয়া যায় নি।<br/>❏ চর্যাপদে তাঁর কাহ্নিল, কাহ্নি, কৃষ্ণাচার্য, কৃষ্ণবজ্রপাদ, কাহ্নু নাম পাওয়া যায়।<br/>❏ গুরুত্বপূর্ণঃ<br/>❏ চর্যাপদের প্রথম বা আদি কবি➤ লুইপা। তবে, ড. মুহম্মদ শহীদুল্লাহর মতে, চর্যাপদের➤আদি কবি শবরপা । শবরপা চর্যাপদের শ্রেষ্ঠ কবি।<br/>❏ চর্যাপদের সবচেয়ে বেশি পদের রচয়িতা কাহ্নপা/কৃষ্ণপা। (সর্বমোট ১৩টি পদ রচনা করেন)<br/>❏ চর্যাপদে নিজেকে বাঙালি বলে পরিচয় দিয়েছেন, ভুসুকুপা। তিনি চর্যাপদের দ্বিতীয় সর্বাধিক পদের রচয়িতা। তিনি সর্বমোট ০৮ টি পদ রচনা করেন। (চর্যাপদের বাঙালি কবি হিসেবে মীননাথের নামও উঠে এসেছে)<br/>❏ চর্যাপদের একমাত্র মহিলা কবি মনে করা হয় কুক্কুরীপা কে।<br/>❏ চর্যাপদে নাম আছে কিন্তু কবিতা নেই লাড়ীডোম্বীপা এর।<br/>❏ চর্যাপদের ২৫ নং পদের রচয়িতা তন্ত্রীপা এর পদটিও পাওয়া যায়নি।<br/>❏ চর্যাপদের ২৯, ২৫ ও ৪৮ নং পদ পাওয়া যায়নি।<br/>❏ ২৩ নং পদ খণ্ডিত অবস্থায় পাওয়া গেছে।<br/>❏ সংস্কৃত টীকাকার মুণিদত্ত ১১নং পদের ব্যাখ্যা করেননি।<br/>❏ ২য় সর্বোচ্চ পদ রচনা করেছেন - ভুসুকুপা (৮টি) - তিনি নিজেকে বাঙালি কবি বলে পরিচয় দিয়েছেন<br/>❏ কোনো পদ পাওয়া যায় নি - লাড়ীডোম্বিপা'র<br/>❏ চর্যাপদের একমাত্র নারী পদকর্তা - কুক্কুরিপা<br/>❏ ১ম পদ রচনা করেন - লুইপা<br/>❏ 'চর্যাপদ' সম্পর্কিত আরো কিছু তথ্য:<br/>❏ বাংলা সাহিত্যের প্রাচীনযুগের একমাত্র নিদর্শন চর্যাচর্যবিনিশ্চয় বা চর্যাগীতিকোষ বা চর্যাগীতি বা চর্যাপদ।<br/>❏ ড. হরপ্রসাদ শাস্ত্রী ১৯০৭ সালে নেপালের রাজ দরবার গ্রন্থাগার থেকে এটি আবিষ্কার করেন।<br/>❏ চর্যাপদের পদ সংখ্যা: চর্যাপদের পদ সংখ্যা ৫০টি। তবে সুকুমার সেন মনে করেন পদসংখ্যা ৫১টি।<br/>❏ উদ্ধারকৃত পদের সংখ্যা: চর্যাপদের সাড়ে ৪৬টি পদ পাওয়া যায়।<br/>❏ অনুদ্ধারকৃত/বিলুপ্ত পদের সংখ্যা: সাড়ে ৩টি। প্রাপ্ত সাড়ে ৪৬টি পদের মধ্যে ভুসুকুপা রচিত ২৩নং পদটি খণ্ডিত আকারে পাওয়া গেছে। পদটির ৬টি পদ পাওয়া গেছে কিন্তু বাকি ৪টি পদ পাওয়া যায়নি।<br/>❏ এছাড়াও চর্যাপদের ২৪নং (কাহ্নপা রচিত), ২৫নং (তন্ত্রীপা রচিত) এবং ৪৮নং (কুক্কুরীপা রচিত) পদগুলো পাওয়া যায়নি।<br/>❏ চর্যাপদ তিব্বতি ভাষায় অনুবাদ করেন কীর্তিচন্দ্র।<br/>❏ ১৯৩৮ সালে প্রবোধচন্দ্র বাগচী চর্যাপদের তিব্বতি ভাষার অনুবাদ আবিষ্কার করেন।<br/>❏ সংস্কৃত ভাষায় মুনিদত্ত চর্যাপদের ব্যাখ্যা করেন। তিনি ১১নং পদের ব্যাখ্যা করেননি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334622,
+    "question": "\"ত্রিশঙ্কু দশা” বলতে বুঝায়-",
+    "options": [
+      "বিপর্যন্ত হওয়া",
+      "অবাক হওয়া",
+      "দোটানা অবস্থা হওয়া",
+      "হতবুদ্ধি হওয়া"
+    ],
+    "correct_answer": "দোটানা অবস্থা হওয়া",
+    "explanation": "📖 'ত্রিশঙ্কু দশা' একটি বাগধারা যার অর্থ উভয় সংকট বা দোটানা অবস্থা। পৌরাণিক কাহিনী অনুযায়ী রাজা ত্রিশঙ্কু স্বর্গেও যেতে পারেননি আবার মর্ত্যেও ফিরে আসতে পারেননি, তিনি মাঝখানের শূন্যে ঝুলে ছিলেন। সেখান থেকেই এই বাগধারার উৎপত্তি। যখন কোনো ব্যক্তি দুই দিকের কোনোটিই গ্রহণ করতে পারে না বা মাঝপথে আটকে থাকে, তখন তাকে ত্রিশঙ্কু দশা বলা হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334623,
+    "question": "কোনটি তৎসম উপসর্গ নয়?",
+    "options": [
+      "প্রতি",
+      "অতি",
+      "প্র",
+      "কু"
+    ],
+    "correct_answer": "কু",
+    "explanation": "📖 বাংলা ভাষায় ব্যবহৃত তৎসম বা সংস্কৃত উপসর্গ ২০টি (যেমন- প্র, পরা, অপ, সম, নি, অব, অনু, নির্, দুর্, বি, অধি, সু, উৎস, পরি, প্রতি, অতি, অপি, অভি, উপ, আ)। অন্যদিকে 'কু' হলো খাঁটি বাংলা উপসর্গ (যেমন- কুকথা, কুঅভ্যাস)।<br/> ⇢ <br/>⛳ বাংলা ভাষায় এমন কতগুলো অব্যয়সূচক শব্দাংশ রয়েছে যা স্বাধীন পদ হিসেবে বাক্যে ব্যবহৃত হতে পারে না কিন্তু অন্য শব্দের আগে বসে শব্দের অর্থের পরিবর্তন ও পরিবর্ধনে সহায়তা করে, তাদের উপসর্গ বলে।<br/>❏ নাম ➺ সংখ্যা ➺ উপসর্গসমূহ<br/>❏ বাংলা উপসর্গ ➺ ২১টি ➺ অ, অঘা, অজ, অনা, আ, আড়, আন, আব, ইতি, উন, কদ, কু, নি, পাতি, বি, ভর, রাম, স, সা, সু, হা<br/>❏ তৎসম উপসর্গ ➺ ২০টি ➺ প্র, পরা, অপ, সম, নি, অব, অনু, নির্, দুর্, বি, সু, উৎ, অধি, পরি, প্রতি, উপ, আ, অভি, অতি, অপি<br/>❏ বিদেশি উপসর্গ ➺ সংখ্যা নির্দিষ্ট হয়নি ➺ ফারসি: কার, দর, না, নিম, ফি, বদ, বে, বর, ব, কম। আরবি: আম, খাস, লা, গর। ইংরেজি: ফুল, হাফ, হেড, সাব। উর্দু-হিন্দি: হর।<br/> ⇢ <br/>⛳ 'কু' বাংলা উপসর্গ (যেমন: কুলক্ষণ, কুড়ি)। অন্যদিকে 'প্রতি', 'অতি', 'প্র' সংস্কৃত বা তৎসম উপসর্গ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334624,
+    "question": "\"ইসলামের ইতিহাস ও ঐতিহ্য\" কোন কাব্যের উপজীব্য?",
+    "options": [
+      "দিলরুবা- আব্দুল কাদির",
+      "সাত সাগরের মাঝি- ফররুখ আহমেদ",
+      "নূরনামা- আব্দুল হাকিম",
+      "জীবন কথা- জসীম উদদীন"
+    ],
+    "correct_answer": "সাত সাগরের মাঝি- ফররুখ আহমেদ",
+    "explanation": "📖 ফররুখ আহমদকে মুসলিম রেনেসাঁসের কবি বলা হয়। তাঁর রচিত 'সাত সাগরের মাঝি' কাব্যে ইসলামের ইতিহাস, ঐতিহ্য এবং মুসলিম জাগরণের বিষয়টি রূপক ও প্রতীকের মাধ্যমে তুলে ধরা হয়েছে।<br/> ⇢ <br/>⛳ ‘সাত সাগরের মাঝি’ কাব্যগ্রন্থ:<br/>❏ ফররুখ আহমদ রচিত 'পাঞ্জেরি' কবিতাটি ‘সাত সাগরের মাঝি’ কাব্যগ্রন্থের অন্তর্গত।<br/>❏ মুসলিম জাগরণের কবি ফররুখ আহমদ রচিত প্রথম ও শ্রেষ্ঠ কাব্যগ্রন্থ ‘সাত সাগরের মাঝি’ ১৯৪৪ সালে প্রকাশিত হয়।<br/>❏ ‘সাত সাগরের মাঝি’ কাব্যগ্রন্থে মোট ১৯ টি কবিতা আছে।<br/>❏ সাত সাগরের মাঝি নামে একটি কবিতা আছে গ্রন্থের সর্বশেষে।<br/>❏ অন্যান্য উল্লেখযোগ্য কবিতা:- সিন্দাবাদ, পাঞ্জেরি, লাশ, আউলাদ, দরিয়ার শেষরাত্রি ইত্যাদি।<br/>▣ ফররুখ আহমদ:<br/>❏ তিনি ১৯১৮ সালের ১০ জুন মাগুরা জেলার শ্রীপুর থানার মাঝাইল গ্রামে জন্মগ্রহণ করেন।<br/>❏ তিনি ছিলেন মুসলিম পুনর্জাগরণবাদী কবি।<br/>❏ ১৯৪৪ সালে কলকাতার দুর্ভিক্ষের পটভূমিতে ‘লাশ’ কবিতা লিখে তিনি প্রথম খ্যাতি অর্জন করেন।<br/>❏ ‘সাত সাগরের মাঝি' (১৯৪৪) ফররুখ আহমদ রচিত শ্রেষ্ঠ এবং প্রথম প্রকাশিত কাব্যগ্রন্থ।<br/>❏ তাঁর রচিত কাব্যনাট্য 'নৌফেল ও হাতেম' (১৯৬১)।<br/>❏ ‘মুহূর্তের কবিতা' (১৯৬৩) তাঁর রচিত একটি সনেট সংকলন।<br/>❏ ফররুখ আহমদ তাঁর বিখ্যাত কাহিনিকাব্য 'হাতেমতায়ী' এর জন্য ১৯৬৬ সালে আদমজি পুরস্কার লাভ করেন।<br/>❏ ১৯৬৬ সালেই 'পাখির বাসা' শিশুতোষ গ্রন্থের জন্য ইউনেস্কো পুরস্কার লাভ করেন।<br/>❏ ১৯৭৪ সালের ১৯ অক্টোবর ঢাকায় তাঁর মৃত্যু হয়।<br/>▣ তাঁর রচিত অন্যান্য কাব্যগ্রন্থ: আজাদ কর পাকিস্তান, সিরাজাম মুনীরা, হে বন্য স্বপ্নেরা, ইকবালের নির্বাচিত কবিতা, কাফেলা, হাবেদা মরুর কাহিনী, তসবির নামা, দিলরুবা, ঐতিহাসিক অনৈতিহাসিক কাব্য, অনুস্বার, ধোলাই কাব্য।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334625,
+    "question": "কোন শব্দটি উপসর্গসহযোগে গঠিত নয়?",
+    "options": [
+      "ব্যাপ্ত",
+      "বিতর্ক",
+      "বিনয়",
+      "বিফল"
+    ],
+    "correct_answer": "ব্যাপ্ত",
+    "explanation": "📖 প্রদত্ত অপশনগুলোর মধ্যে 'বিতর্ক' (বি+তর্ক), 'বিনয়' (বি+নয়) এবং 'বিফল' (বি+ফল) শব্দগুলো সরাসরি 'বি' উপসর্গ যোগে গঠিত। অন্যদিকে 'ব্যাপ্ত' শব্দটি সন্ধি সাধিত (বি + আপ্ত = ব্যাপ্ত), যেখানে য-ফলা সন্ধির নিয়ম প্রযুক্ত হয়েছে। যদিও 'বি' একটি উপসর্গ, কিন্তু ব্যাকরণগত গঠনের দিক থেকে 'ব্যাপ্ত' শব্দটিকে সন্ধিজাত হিসেবেই প্রাধান্য দেওয়া হয়।<br/> ⇢ <br/>⛳ 'ব্যাপ্ত' শব্দটি সংস্কৃত 'ব্যাপ্ত' শব্দ থেকে সরাসরি তৎসম রূপে এসেছে। এটি বাংলা উপসর্গ বা প্রত্যয় দিয়ে গঠিত নয়। অন্যদিকে 'বিতর্ক' (বি+তর্ক), 'বিনয়' (বি+নয়), 'বিফল' (বি+ফল) উপসর্গসহযোগে গঠিত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334626,
+    "question": "বাংলা ভাষার ব্যাকরণ প্রথম কখন প্রকাশিত হয়?",
+    "options": [
+      "১৭৪৩",
+      "১৮৩৪",
+      "১৭৩৪",
+      "১৮৪৩"
+    ],
+    "correct_answer": "১৭৪৩",
+    "explanation": "📖 বাংলা ভাষার প্রথম ব্যাকরণ ও অভিধান রচনা করেন পর্তুগিজ পাদ্রি ম্যানুয়েল দা আসুম্পসাঁউ। তাঁর রচিত \"Vocabulario em idioma Bengalla, e Portuguez\" গ্রন্থটি ১৭৪৩ সালে পর্তুগালের লিসবন থেকে প্রকাশিত হয়।<br/>❏ প্রথম বাংলা ব্যাকরণ রচনা করেন (পর্তুগিজ ভাষায়) - মনোএল দা আসুসাম্পসাঁউ (ভোকাবুলারিও এম ইদিওমা বেনগল্লা ই পোরতুগিজ)।<br/>❏ প্রথম বাংলা ব্যাকরণগ্রন্থ রচনা করেন (মূলত ইংরেজী ভাষায়) - নাথিনিয়েল ব্রাশি হ্যালহেড (এ গ্রামার অফ দি বেঙ্গলি ল্যাঙ্গুয়েজ)।<br/>❏ বাঙালি রচিত প্রথম বাংলা ব্যাকরণ গ্রন্থ (বাংলায়) - গৌড়ীয় ব্যাকরণ (রামমোহন রায়)।<br/>❏ বাংলা ভাষার প্রথম ব্যাকরণ রচনা করেন কে? ➺ মনো-এল দ্য আসসুস্পসাও<br/>❏ বাংলা ভাষায় ব্যাকরণ প্রথম কখন প্রকাশিত হয় ? ➺ ১৭৪৩ সালে<br/>❏ ইংরেজদের মধ্যে প্রথম বাংলা ভাষার ব্যাকরণ রচনা করেন কে? ➺ নাথানিয়েল ব্রাসি হ্যালহেড<br/>❏ প্রথম বাংলা ব্যাকরণের নাম কী ? ➺ ভোকাবুলারিও এম ইদ্‌ওিমা-ই পর্তুগীজ<br/>❏ গৌড়ীয় ব্যাকরণ প্রন্থটি রচনা করেন কে? ➺ রামমোহন রায়<br/>❏ বাঙালিদের মধ্যে প্রথম কে ইংরেজি ভাষায় বাংলা ভাষার ব্যাকরণ রচনা করেন? ➺ রাজা রামমোহন রায়।<br/>❏ বাংলা ভাষার ব্যাকরণ প্রথম কে লেখেন? ➺ উইলিয়াম কেরি<br/>❏ প্রথম বাংলা ব্যাকরণের নাম কী? ➺ ভোকাবুলারিও এম ইত্তিমা ই পতুগীজ<br/>❏ হাথানিয়েল ব্রাসি হ্যালহেড রচিত -A Grammar of the Bengali language 'গ্রন্থটি কত সালে প্রকাশিত হয়? ➺ ১৭৭৮ সালে<br/>❏ ব্যাকরণ মঞ্জরী গ্রন্থটি কে রচনা করেন? ➺ ড.মুহাম্মদ এনামুল হক<br/>❏ The Origin in and Development of the Bengali Language গ্রন্থের রচিয়তা কে এবং কত সলে এটি প্রকাশিত হয়? ➺ ড, সুনীতিকুমার চট্টোপাধ্যায় ১৯২৬ সালে<br/> ⇢ <br/>⛳ - 'নাথানিয়েল ব্রাসি হ্যালহেড' ইংরেজি ভাষায় লেখা প্রথম বাংলা ব্যাকরণ রচনা করেন।<br/>❆ <br/>❏ প্রথম বাংলা ব্যাকরণ প্রকাশিত হয় ১৭৪৩ সালে পর্তুগিজ ভাষায়। এর লেখক ছিলেন মানোএল দা আসসুম্পসাঁউ।<br/>❏ এরপর ১৭৭৮ সালে প্রকাশিত হয় নাথানিয়েল ব্রাসি হ্যালহেড প্রণীত ইংরেজি ভাষায় রচিত পূর্ণাঙ্গ একটি বাংলা ব্যাকরণ।<br/>❏ বইটির নাম ‘এ গ্রামার অব দি বেঙ্গল ল্যাঙ্গুয়েজ'।<br/>❏ ১৮০১ সালে উইলিয়াম কেরি এবং ১৮২৬ সালে রামমোহন রায় ইংরেজি ভাষায় আরো দুটি উল্লেখযোগ্য বাংলা ব্যাকরণ রচনা করেন।<br/>❏ ১৮৩৩ সালে প্রকাশিত হয় রামমোহন রায়ের ‘গৌড়ীয় ব্যাকরণ বাংলা ভাষায় রচিত প্রথম বাংলা ব্যাকরণ।<br/>📝 'গৌড়ীয় ব্যাকরণ' বাঙালি রচিত প্রথম বাংলা ব্যাকরণ। এর রচয়িতা রাজা রামমোহন রায়।<br/>❏ প্রকাশিত ১৮৩৩ খ্রিস্টাব্দে। এটি তাঁর সর্বশেষ গ্রন্থ।<br/>❏ এর আগে তিনি ইংরেজিতে Bengali Grammar in the English Language নামের একটি ব্যাকরণ গ্রন্থ রচনা করেন।<br/>❏ গৌড়ীয় ব্যাকরণ রচিত হয় তৎকালীন স্কুল-বুক সোসাইটির অভিপ্রায়ে এবং ছাত্রদের পাঠোপযোগী করে। সর্বমোট বারোটি অধ্যায়ে এটি বিন্যস্ত। প্রথম অধ্যায়ে ধ্বনি, বর্ণ, উচ্চারণ, শব্দ, অক্ষর প্রভৃতি সম্পর্কে দৃষ্টান্তসহ আলোচনা করা হয়েছে। গ্রন্থে বাংলা ভাষার স্বকীয় উচ্চারণ-পদ্ধতি সম্পর্কে রামমোহন কিছু মৌলিক বক্তব্য উপস্থাপন করেছেন। পরবর্তী অধ্যায়গুলিতে ব্যাখ্যা করা হয়েছে বাংলা ভাষার লিঙ্গ, প্রত্যয়, পদান্বয়, বাক্যরীতি, ছন্দ ইত্যাদি। মোটামুটিভাবে গৌড়ীয় ব্যাকরণে রয়েছে বাংলা ভাষার ধ্বনি ও রূপগত বৈশিষ্ট্যের বৈয়াকরণিক বিশ্লেষণ।<br/> ⇢ <br/>⛳ বাংলা ব্যাকরণ রচনা সম্পর্কিত আলোচনা:<br/>❐ প্রথম বাংলা ভাষার ব্যাকরণ রচনা করেন - মানোএল দ্য আস্সুম্পসাঁও।<br/>❐ পর্তুগালের রাজধানী লিসবন থেকে ১৭৪৩ সালে পোর্তুগীজ ভাষায় এটি প্রকাশিত হয়।<br/>❐ গ্রন্থের নাম ছিলো - Vocabulario em Idioma Bengalla E Portugues।<br/>❐ কিন্তু সেটা বাংলা ভাষার ব্যাকরণের কোনো গ্রন্থ ছিল না, একটা অধ্যায়ে বাংলা ভাষা নিয়ে কিছু আলোচনা করেছিলেন মাত্র।<br/>❐ অন্যদিকে,<br/>❐ বাংলা ভাষার প্রথম ব্যাকরণ গ্রন্থ রচনা করেন - নাথায়িল ব্রাসি হ্যালহেড।<br/>❐ এই বইয়ের নাম ছিল - A Grammar of the Bengal Language।<br/>❐ গ্রন্থটি হুগলী থেকে প্রকাশিত হয় - ১৭৭৮ সালে।<br/>❐ এটি ছিলো ইংরেজি ভাষায় রচিত গ্রন্থ।<br/>❐ আবার,<br/>❐ বাংলা ভাষায় বাংলা ব্যাকরণগ্রন্থ রচনা করেন - রাজা রামমোহন রায়। <br/>❐ তার রচিত বইয়ের নাম ছিল - ‘গোড়ীয় ব্যাকরণ’।<br/>❐ গৌড়ীয় ব্যাকরণ প্রকাশিত হয় ১৮৩৩ সালে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334627,
+    "question": "\"রাইফেল রোটি আওরাত\" উপন্যাসের রচিয়তা কে?",
+    "options": [
+      "আনোয়ার পাশা",
+      "হাসান হাফিজুর রহমান",
+      "শহীদুল্লাহ কায়সার",
+      "জহির রায়হান"
+    ],
+    "correct_answer": "আনোয়ার পাশা",
+    "explanation": "📖 মুক্তিযুদ্ধভিত্তিক উপন্যাস 'রাইফেল রোটি আওরাত' এর রচয়িতা- 'আনোয়ার পাশা'।<br/>▣ ▣ রাইফেল রোটি আওরাত:<br/>❐ 'রাইফেল রোটি আওরাত' (১৯৭৩), আনোয়ার পাশা রচিত একটি মুক্তিযুদ্ধভিত্তিক উপন্যাস।<br/>❐ অধ্যাপক সুদীপ্ত শাহীন এই উপন্যাসের অন্যতম গুরুত্বপূর্ণ চরিত্র।<br/>❐ এই উপন্যাসের অন্যান্য চরিত্রগুলো হচ্ছে - ড. খালেক, ড. মালেক, ছাবেদ আলী, হাসমত, জামাল সাহেব প্রমুখ।<br/>❐ উপন্যাসটি মুক্তিযুদ্ধকালীন রচিত এবং ১৯৭৩ সালে গ্রন্থাকারে প্রকাশিত।<br/>▣ ▣ আনোয়ার পাশা:<br/>❐ আনোয়ার পাশা বুদ্ধিজীবী, শিক্ষাবিদ, সাহিত্যিক।<br/>❏ ১৯৭২ সালে তিনি মরণোত্তর বাংলা একাডেমী পুরস্কার পান। <br/>▣ তাঁর রচিত উপন্যাস:<br/>❐ নীড় সন্ধানী (১৯৬৮), <br/>❐ নিষুতি রাতের গাথা (১৯৬৮)।<br/>▣ তাঁর মুক্তিযুদ্ধভিত্তিক উপন্যাস:<br/>❆ - রাইফেল রোটি আওরাত (১৯৭৩)।<br/>▣ তাঁর রচিত গল্পগ্রন্থ: <br/>❐ নিরুপায় হরিণী (১৯৭০)।<br/>▣ তাঁর রচিত কাব্য: <br/>❐ নদী নিঃশেষিত হলে, <br/>❐ সমুদ্র শৃঙ্খলতা উজ্জয়িনী।<br/> ⇢ <br/>⛳ \"রাইফেল রোটি আওরাত\" উপন্যাসের রচয়িতা আনোয়ার পাশা। উল্লেখ্য,<br/>❏ মুক্তিযুদ্ধভিত্তিক উপন্যাসের নাম ➺ রচয়িতা<br/>❏ রাইফেল রোটি আওরাত ➺ আনোয়ার পাশা<br/>❏ দুই সৈনিক, জল্লাদ, জাহান্নাম হইতে বিদায়, নেকড়ে অরণ্য ➺ শওকত ওসমান<br/>❏ হাঙ্গর নদী গ্রেনেড, যুদ্ধ ➺ সেলিনা হোসেন<br/>❏ জীবন আমার বোন, ফেরারি ➺ মাহমুদুল হক<br/>❏ নিষিদ্ধ লোবান, নীল দংশন, দ্বিতীয় দিনের কাহিনী, বৃষ্টি ও বিদ্রোহীগণ, এক যুবকের প্রতিকৃতি, আমি, অন্তর্গত ➺ সৈয়দ শামসুল হক<br/>❏ একটি কালো মেয়ের কথা ➺ তারাশঙ্কর বন্দ্যোপাধ্যায়<br/>❏ জোছনা ও জননীর গল্প, আগুনের পরশমণি, শ্যামল ছায়া, অনিল বাগচীর একদিন ➺ হুমায়ূন আহমেদ<br/> ⇢ <br/>⛳ আনোয়ার পাশা:<br/>❏ কবি, কথা সাহিত্যিক এবং শিক্ষাবিদ আনোয়ার পাশা ১৫ এপ্রিল ১৯২৮ সালে জন্মগ্রহণ করেন।<br/>▣ তিনি মুক্তিযুদ্ধের প্রথম উপন্যাস রাইফেল, রোটি, আওরাতের রচয়িতা।<br/>❏ এটি মুক্তিযুদ্ধ চলাকালীন সময়ে লেখা বাংলা সাহিত্যের একমাত্র উপন্যাস।<br/>❏ এর রচনাকাল এপ্রিল থেকে জুন মাস।<br/>❏ ২৫ মার্চের কালরাত্রিতে বর্বর পাকবাহিনী নিরীহ বাঙালী জাতির ওপর যে অমানুষিক হত্যাযজ্ঞ চালায়, উপন্যাসটি শুরু করেছেন তিনি সেই ২৫ মার্চের ভোরের বর্ণনা দিয়ে।<br/>❏ রাইফেল রোটি আওরাত উপন্যাসটি ১৯৭৩ সালে প্রকাশিত হয়।<br/>❏ ১৯৭১ সালের ১৪ ডিসেম্বর, মুক্তিযুদ্ধে বাংলাদেশে বিজয়ের একদিন আগে বাংলাদেশের ঢাকার মিরপুরের বধ্যভূমিতে পাকিস্তান সামরিক বাহিনীর সহযোগী আল বদর বাহিনীর সদস্যদের হাতে তিনি শহীদ হন।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334628,
+    "question": "'জঙ্গম' এর বিপরীত শব্দ কী ?",
+    "options": [
+      "অরণ্য",
+      "পর্বত",
+      "স্থাবর",
+      "সমুদ্র"
+    ],
+    "correct_answer": "স্থাবর",
+    "explanation": "📖 'জঙ্গম' শব্দের অর্থ যা গতিশীল বা গমন করতে পারে। চলনশীল বা যা চলতে পারে। এর বিপরীত শব্দ হলো 'স্থাবর' (যা নিশ্চল বা এক স্থানে স্থির)।<br/> ⇢ <br/>⛳ 'জঙ্গম' এর বিপরীত শব্দ হলো 'স্থাবর'।<br/>❏ মূলশব্দ ➺ বিপরীত শব্দ <br/>❏ বিচিত্র ➺ সদৃশ <br/>❏ খেদ ➺ আহ্লাদ/হর্ষ<br/>❏ উর্বর ➺ অনুর্বর <br/>❏ জ্বলন ➺ নির্বাপণ<br/>❏ জঙ্গম ➺ স্থাবর <br/>❏ দুর্জন ➺ সজ্জন<br/>❏ উত্তরণ ➺ অবতরণ <br/>❏ উন্মীলন ➺ নিমীলন<br/>❏ অর্পণ ➺ গ্রহণ <br/>❏ খাতক ➺ মহাজন",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334629,
+    "question": "কাজী নজরুল ইসলাম এর কোন উপন্যাসের কেন্দ্রীয় চরিত্র 'জাহাঙ্গীর'?",
+    "options": [
+      "বাঁধন-হারা",
+      "মৃত্যুক্ষুধা",
+      "কুহেলিকা",
+      "শিউলিমালা"
+    ],
+    "correct_answer": "কুহেলিকা",
+    "explanation": "📖 কাজী নজরুল ইসলামের রচিত উপন্যাস তিনটি- 'বাঁধন-হারা', 'মৃত্যুক্ষুধা' ও 'কুহেলিকা'। 'কুহেলিকা' উপন্যাসের কেন্দ্রীয় চরিত্র হলো বিপ্লবী জাহাঙ্গীর। এই উপন্যাসে স্বদেশি আন্দোলনের চিত্র ফুটে উঠেছে।<br/>▣ কুহেলিকা<br/>❏ জাহাঙ্গীর: উপন্যাসের কেন্দ্রীয় চরিত্রগুলোর মধ্যে একজন, যিনি একজন বিপ্লবী স্বদেশী দলের কর্মী।<br/>❏ হারুন: একজন তরুণ কবি।<br/>❏ প্রমথ: একজন হিন্দু বিপ্লবী, যাঁর চরিত্রটি বেশ বলিষ্ঠ এবং এম.এন. রায় ও বিপ্লবী বাঘা যতীনের চরিত্র দ্বারা প্রভাবিত বলে মনে করা হয়।<br/>❏ চম্পা: উপন্যাসের একটি গুরুত্বপূর্ণ নারী চরিত্র।<br/>❏ তাহমিনা (ভূনী): জাহাঙ্গীরের স্ত্রী এবং উপন্যাসের একটি উল্লেখযোগ্য চরিত্র।<br/>❏ ফিরদৌস বেগম: উপন্যাসের অন্যতম চরিত্র।<br/>❏ উৎস: বাংলা ভাষা ও সাহিত্য জিজ্ঞাসা।<br/>❏ 📖 'কুহেলিকা' হলো কাজী নজরুল ইসলাম রচিত উপন্যাস। উল্লেখ্য, তার রচিত উল্লেখযোগ্য সাহিত্যকর্মগুলো হলোঃ উপন্যাস ➺ বাঁধনহারা, মৃত্যুক্ষুধা, কুহেলিকা। <br/>❏ কাব্যগ্রন্থ ➺ অগ্নিবীণা, দোলনচাঁপা, বিষের বাঁশি, ভাঙার গান, ছায়ানট, ঝিঙেফুল, সিন্ধু-হিন্দোল, সঞ্চিতা, চক্রবাক, প্রলয়শিখা, সাম্যবাদী, ফণী-মনসা, মরুভাস্বর ইত্যাদি। <br/>❏ গল্পগ্রন্থ ➺ ব্যথারদান, রিক্তের বেদন। <br/>❏ নাটক ➺ ঝিলিমিলি, আলেয়া, মধুমালা, পুতুলের বিয়ে। <br/>❏ প্রবন্ধ ➺ রাজবন্দীর জবানবন্দী, যৌবনের গান, যুগবাণী, রুদ্রমঙ্গল, ধূমকেতু, দুর্দিনের যাত্রী।<br/> ⇢ <br/>⛳ 'জাহাঙ্গীর' কুহেলিকা উপন্যাসের কেন্দ্রীয় চরিত্র। এটি কাজী নজরুল ইসলামের লেখা একটি বিখ্যাত উপন্যাস। তাঁর রচিত উপন্যাস ও চরিত্রগুলো হলো:<br/>❏ উপন্যাস ➺ চরিত্র<br/>❏ মৃত্যুক্ষুধা ➺ আনসার<br/>❏ বাঁধন-হারা ➺ নূরুল হুদা, রাবেয়া, মাহবুবা<br/>❏ কুহেলিকা ➺ জাহাঙ্গীর, তহমিনা",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334630,
+    "question": "বাংলা বর্ণমালায় পূর্ণমাত্রা, অর্ধমাত্রা, ও মাত্রাহীন বর্ণের সংখ্যা যথাক্রমে-",
+    "options": [
+      "৩১, ৯, ১০",
+      "৩২, ৭, ১১",
+      "৩০, ৮, ১২",
+      "৩২, ৮, ১০"
+    ],
+    "correct_answer": "৩২, ৮, ১০",
+    "explanation": "📖 বাংলা বর্ণমালায় মোট বর্ণ ৫০টি। এর মধ্যে:<br/>❏ পূর্ণমাত্রার বর্ণ ৩২টি (স্বরবর্ণ ৬টি + ব্যঞ্জনবর্ণ ২৬টি)।<br/>❏ অর্ধমাত্রার বর্ণ ৮টি (স্বরবর্ণ ১টি + ব্যঞ্জনবর্ণ ৭টি)।<br/>❏ মাত্রাহীন বর্ণ ১০টি (স্বরবর্ণ ৪টি + ব্যঞ্জনবর্ণ ৬টি)।<br/> ⇢ <br/>⛳ মাত্রা : স্বরবর্ণ এবং ব্যঞ্জনবর্ণের মাথার ওপরে যে সোজা দাগ (-) থাকে তাকে মাত্রা বলে । যেমন: ➺ 'এ' বর্ণে কোনো মাত্রা নেই । কিন্তু মাত্রা (এ) দেয়া হলে এটি ভিন্ন বর্ণে পরিণত হয়। (ত্র) মাত্রার কারণে তখন বর্ণটি হয়- ত +[-<br/>❏ মাত্রার উপর ভিত্তি করে বর্ণ ৩ প্রকার। যথা<br/>❏ বর্ণ ➺ সংখ্যা ➺ স্বরবর্ণ ➺ ব্যঞ্জনবর্ণ<br/>❏ মাত্রাহীন বর্ণ ➺ ১০টি ➺ ৪টি (এ, ঐ, ও, ঔ) ➺ ৬টি (ঙ, ঞ, ৎ, ং, ঃ,)<br/>❏ অর্ধমাত্রার বর্ণ ➺ ৮টি ➺ ১টি (ঋ) ➺ ৭টি (খ, গ, ণ, থ, ধ, প, শ)<br/>❏ পূর্ণমাত্রার বর্ণ ➺ ৩২টি ➺ ৬টি (অ, আ, ই, ঈ, উ, ঊ) ➺ ২৬টি<br/>▣ পূর্ণমাত্রা বর্ণ মোট ➺ ৩২টি।<br/>❏ অর্ধমাত্রা বর্ণ মোট ➺ ৮টি ⇢ ঋ, খ, গ, ণ, থ, ধ, প, শ।<br/>❏ মাত্রাহীন বর্ণ ➺ ১০টি ⇢ এ, ঐ, ও, ঔ, ঙ, ঞ, ৎ, ং,৪,।<br/>❏ পূর্ণমাত্রার স্বরবর্ণ ➺ ৬টি ⇢ অ, আ, ই, ঈ, উ, উ।<br/>❏ পূর্ণমাত্রার ব্যঞ্জনবর্ণ ➺ ২৬টি।<br/>❏ অর্ধমাত্রার স্বরবর্ণ ➺ ১টি ⇢ ঋ।<br/>❏ অর্ধমাত্রার ব্যঞ্জনবর্ণ ➺ ৭টি ⇢ খ, গ, ণ, থ, ধ, প, শ।<br/>❏ মাত্রাহীন স্বরবর্ণ ➺ ৪টি ⇢ এ, ঐ, ও, ঔ।<br/>❏ মাত্রাহীন ব্যঞ্জনবর্ণ ➺ ৬টি ⇢ ঙ, ঞ, ৎ, ং, ঃ, ।<br/>❏ বর্গীয় বর্ণ মোট ➺ ২৫টি ➺ ক-ম পর্যন্ত।<br/>▣ বাংলা বর্ণমালার ৫০টি বর্ণের মধ্যে মাত্রার ভিত্তিতে বিভাজন:<br/>❏ ১. পূর্ণমাত্রা: ৩২টি (স্বরবর্ণ ৬টি + ব্যঞ্জনবর্ণ ২৬টি)।<br/>❏ ২. অর্ধমাত্রা: ৮টি (স্বরবর্ণ ১টি: ঋ + ব্যঞ্জনবর্ণ ৭টি: খ, গ, ণ, থ, ধ, প, শ)।<br/>❏ ৩. মাত্রাহীন: ১০টি (স্বরবর্ণ ৪টি + ব্যঞ্জনবর্ণ ৬টি)।<br/>▣ বাংলা বর্ণমালায় অর্ধমাত্রা যুক্ত বর্ণ ৮টি। উল্লেখ্য,<br/>❏ বর্ণের নাম ➺ স্বরবর্ণ ➺ ব্যঞ্জনবর্ণ ➺ মোট সংখ্যা<br/>❏ মাত্রাহীন বর্ণ ➺ ৪টি যথাঃ এ, ঐ, ও, ঔ ➺ ৬টি যথাঃ ঙ, ঞ, ৎ, ং, ঃ, ঁ ➺ ১০টি<br/>❏ অর্ধমাত্রার বর্ণ ➺ ১টি যথাঃ ঋ ➺ ৭টি যথাঃ খ, গ, ণ, থ, ধ, প, শ ➺ ৮টি<br/>❏ পূর্ণমাত্রার বর্ণ ➺ ৬টি যথাঃ অ, আ, ই, ঈ, উ, ঊ ➺ ২৬টি ➺ ৩২টি",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334631,
+    "question": "\"মুচলেকা, লাশ, কুর্নিশ\" কোন ভাষার অন্তর্গত শব্দ?",
+    "options": [
+      "তৎসম",
+      "তদ্ভব",
+      "ফারসী",
+      "তুর্কি"
+    ],
+    "correct_answer": "তুর্কি",
+    "explanation": "📖 বাংলা ভাষায় আগত কিছু উল্লেখযোগ্য তুর্কি শব্দ হলো- উজবুক, কাঁচি, কুর্নিশ, কোর্তা, চাকু, চাকর, তোপ, দারোগা, বাবুর্চি, বাবা, বেগম, মুচলেকা, লাশ, সওগাত ইত্যাদি।<br/> ⇢ <br/>⛳ বাংলা ভাষায় ব্যবহৃত তুর্কি শব্দগুলো মূলত মধ্যযুগে মুসলিম শাসনের সময় প্রবেশ করেছে। উল্লেখযোগ্য কিছু তুর্কি শব্দ হলো: বাবা, মা, বেগম, কুলি, চকমক, তোপ, বারুদ, লাশ, মুচলেকা, কুর্নিশ, বাবুর্চি, সওগাত ইত্যাদি।<br/> ⇢ <br/>⛳ বাংলা ভাষায় তুর্কি শাসনামলে অনেক তুর্কি শব্দ বাংলায় প্রবেশ করে। এর মধ্যে 'মুচলেকা' (অঙ্গীকারনামা), 'লাশ' (মৃতদেহ), 'কুর্নিশ' (সম্মান প্রদর্শন) উল্লেখযোগ্য তুর্কি শব্দ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  },
+  {
+    "id": 334632,
+    "question": "মানুষের দেহের যে সব অঙ্গ-প্রত্যঙ্গ ধ্বনি তৈরিতে সহায়তা করে তাকে বলে-",
+    "options": [
+      "বাক প্রত্যঙ্গ",
+      "অঙ্গ ধ্বনি",
+      "স্বরতন্ত্রী",
+      "নাসিকাতন্ত্র"
+    ],
+    "correct_answer": "বাক প্রত্যঙ্গ",
+    "explanation": "📖 মানুষের ফুসফুস থেকে বাতাস বেরিয়ে আসার সময় বিভিন্ন অঙ্গ-প্রত্যঙ্গের সংস্পর্শে এসে ধ্বনির সৃষ্টি করে। ধ্বনি উচ্চারণে মানব শরীরের যেসব অঙ্গ-প্রত্যঙ্গ (যেমন- ফুসফুস, শ্বাসনালি, ষড়যন্ত্র, স্বরতন্ত্রী, জিভ, ঠোঁট, দাঁত, তালু ইত্যাদি) জড়িত থাকে, সেগুলোকে একত্রে বাক প্রত্যঙ্গ (Speech Organs) বলা হয়।<br/>❏ বাগযন্ত্র হলো মানুষের কথা বলার জন্য প্রয়োজনীয় বিভিন্ন অঙ্গের সমষ্টি। বাগযন্ত্রের অন্তর্ভুক্ত হলো:<br/>❏ ফুসফুস: ফুসফুস হলো শ্বাস-প্রশ্বাসের প্রধান অঙ্গ। ফুসফুসের সংকোচন ও প্রসারণের মাধ্যমে বাতাস প্রবেশ ও বের হয়।<br/>❏ শ্বাসনালি: শ্বাসনালি হলো ফুসফুসের সাথে মুখ ও নাকের সংযোগকারী নল।<br/>❏ স্বরযন্ত্র: স্বরযন্ত্র হলো শ্বাসনালির একটি অংশ। স্বরযন্ত্রের মধ্যে দুটি পর্দা থাকে, যা কম্পিত হয়ে ধ্বনি তৈরি করে।<br/>❏ জিহ্বা: জিহ্বা হলো মুখের একটি গুরুত্বপূর্ণ অঙ্গ। জিহ্বার সাহায্যে আমরা শব্দ উচ্চারণ করি। এটা সবচেয়ে সক্রিয়<br/>❏ তালুর বিভিন্ন অংশ: তালুর বিভিন্ন অংশ যেমন, কঠোর তালু, নরম তালু, আলজিভ, ইত্যাদিও বাগযন্ত্রের অন্তর্ভুক্ত।<br/>❏ দাঁত: দাঁতের সাহায্যে আমরা শব্দ উচ্চারণে সাহায্য করি।<br/>❏ ঠোঁট: ঠোঁটের সাহায্যে আমরা শব্দ উচ্চারণ করি।<br/>📝 বাগযন্ত্র: <br/>❏ ধ্বনি উচ্চারণ করতে যেসব প্রত্যঙ্গ কাজে লাগে, সেগুলোকে একত্রে বাগযন্ত্র বলে।<br/>❏ মানবদেহের উপরিভাগে অবস্থিত ফুসফুস থেকে শুরু করে ঠোঁট পর্যন্ত ধ্বনি উৎপাদনে ব্যবহৃত প্রতিটি প্রত্যঙ্গই বাগযন্ত্রের অন্তর্ভুক্ত।<br/>▣ বাগযন্ত্রের অংশের মধ্যে রয়েছে:<br/>❐ ফুসফুস<br/>❐ শ্বাসনালি<br/>❐ স্বরযন্ত্র<br/>❐ জিভ<br/>❐ আলজিভ<br/>❐ তালু<br/>❐ মূর্ধা<br/>❐ দন্তমূল ও দন্ত<br/>❐ ওষ্ঠ<br/>❐ নাসিকা<br/>▣ বাক্প্রত্যঙ্গের সবচেয়ে বাইরের অংশ ওষ্ঠ বা ঠোঁট।<br/>❐ ওষ্ঠের মধ্যেকার ফাঁকের কম বেশির ভিত্তিতে স্বরধ্বনিকে সংবৃত ও বিবৃত এই দুই ভাগে ভাগ করা হয়।<br/>❐ এছাড়া ব্যঞ্জনধ্বনি উচ্চারণ করতে ওষ্ঠ গুরুত্বপূর্ণ ভূমিকা পালন করে।<br/>▣জিভ:<br/>❏ মুখগহ্বরের নিচের অংশে জিভের অবস্থান।<br/>❏  বাগযন্ত্রের মধ্যে জিভ সবচেয়ে সচল ও সক্রিয় প্রত্যঙ্গ।<br/>❏ জিভের উচ্চতা অনুযায়ী, সম্মুখ-পশ্চাৎ অবস্থান অনুযায়ী এবং<br/>❏ মুখগহ্বরের বিভিন্ন অংশের সঙ্গে জিভের স্পর্শের প্রকৃতি অনুযায়ী ধ্বনির বৈচিত্র্য তৈরি হয়।<br/>▣ ধ্বনি উৎপাদনে দুটি বিষয় থাকে: উচ্চারক (active articulator) ও উচ্চারণ স্থান (passive articulator)। উচ্চারক হলো সচল অঙ্গ এবং উচ্চারণ স্থান হলো স্থির অঙ্গ। জিহ্বা হলো প্রধান উচ্চারক, যা মুখের ভেতরের বিভিন্ন উচ্চারণ স্থান যেমন— তালু, মূর্ধা, দন্তমূল ইত্যাদিকে স্পর্শ করে বা তাদের কাছাকাছি এসে বিভিন্ন ধ্বনি তৈরি করে। এর অসাধারণ নমনীয়তা ও গতির কারণেই মানুষ এত বিচিত্র ধ্বনি উচ্চারণ করতে পারে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "দুর্নীতি দমন কমিশনে",
+    "exam": "৬০০১@দুর্নীতি দমন কমিশন (দুদক) ➺ উপসহকারী পরিচালক ☞ 3.1.26"
+  }
+]

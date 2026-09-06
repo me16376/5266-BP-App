@@ -1,0 +1,801 @@
+[
+  {
+    "id": 267171,
+    "question": "4, 8, C, অনুক্রমটির পরের মান কত?",
+    "options": [
+      "D",
+      "F",
+      "12",
+      "22"
+    ],
+    "correct_answer": "12",
+    "explanation": "<p>4 8 c 10&nbsp; হেক্যাডেসিমেল নাম্বারের সিরিজ c=12 এবং 10= 16</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267172,
+    "question": "গ্লোবাল ভিলেজ-এর backbone কোনটি?",
+    "options": [
+      "হার্ডওয়্যার",
+      "সফট্ওয়্যার",
+      "কানেক্টিভিটি",
+      "ডাটা"
+    ],
+    "correct_answer": "কানেক্টিভিটি",
+    "explanation": "<p><p>&nbsp;ভিলেজ এর ব্যাকবন হলো কানেকটিভিটি।&nbsp;<span style=\"font-size: 1rem;\">কারন,&nbsp;</span><span style=\"font-size: 1rem;\">গ্লোবাল ভিলেজ বা ভুবনগ্রাম বা বিশ্বগ্রাম হলো তথ্য ও যোগাযোগ প্রযুক্তি নির্ভর এমন একটি সামাজিক বা সাংস্কৃতিক ব্যবস্থা, যেখানে পৃথিবীর সকল প্রান্তের মানুষই একটি একক সমাজে বসবাস করে এবং আই.সি.টি ব্যবহারের মাধ্যমে সহজেই তাদের চিন্তা-ভাবনা,সংস্কৃতি-কৃষ্টি ইত্যাদির মিস্ক্রিয়াসহ একে অপরকে সহযোগিতা করে থাকে।</span></p></p>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267173,
+    "question": "2's Complement ব্যবহার করে কীভাবে বিয়োগ করা হয়?",
+    "options": [
+      "যোগ করে",
+      "বিয়োগ করে",
+      "ভাগ করে",
+      "গুণ করে"
+    ],
+    "correct_answer": "যোগ করে",
+    "explanation": "<p>-২৫ থেকে ১২ বিয়োগ করা হয়েছে 2's complement ব্যাবহার করে।</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267174,
+    "question": "C ভাষায় সমজাতীয় ডাটা সংরক্ষণের জন্য কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "ফাইল",
+      "পয়েন্টার",
+      "স্ট্রাকচার",
+      "এ্যারে"
+    ],
+    "correct_answer": "এ্যারে",
+    "explanation": "<p>In programming language Array is a collection of same type data. সুতরাং একই ধরনের একাধিক ডাটা রাখার জন্য array ব্যাবহার করা হয়। একাধিক integer রাখার জন্য ইন্টিজার array, দশমিক যুক্ত সংখ্যা রাখার জন্য floating point / double type এর array প্রয়োজন।কিন্তু floating point এর ভেতরে ইন্টিজার বা ইন্টিজারের ভেতরে ফ্লোটিং পয়েন্ট ডাটা রাখা যাবে না।</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267175,
+    "question": "(A¯+B¯)+AB¯¯ এর সরলীকৃত মান কত?",
+    "options": [
+      "AB",
+      "¯AB",
+      "1",
+      "0"
+    ],
+    "correct_answer": "AB",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267176,
+    "question": "192.168.0.254 কী নির্দেশ করে?",
+    "options": [
+      "URL",
+      "Broadcast address",
+      "IP address",
+      "Domain name"
+    ],
+    "correct_answer": "IP address",
+    "explanation": "IP Address stands for Internet Protocol Address (IP Address). ইন্টারনেটের সাথে সংযুক্ত প্রতিটি কম্পিউটারের একটি Unique ঠিকানা থাকে। আর এই ঠিকানা কেই বলা হয় IP Address. IP Address এর কারনেই ইন্টারনেটের লক্ষ লক্ষ কম্পিউটারকে আলাদা আলাদা ভাবে সনাক্ত করা যায়। IP Address এর দুইটি ভার্সন রয়েছে। IPv-4(Internet Protocol Version 4) এবং IPv-4(Internet Protocol Version 6). IPv-4 হলো 32 bit এর address. এবং IPv-6 হলো 128 bit এর address. <br/><br/>আমাদের প্রশ্নে প্রদত্ত 192.168.0.254 একটি IPv-4 Address.",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267177,
+    "question": "কোন ধরনের ওয়েবসাইট ডাটাবেসের সাথে সংযুক্ত থাকে?",
+    "options": [
+      "Static",
+      "Dynamic",
+      "Global",
+      "Local"
+    ],
+    "correct_answer": "Dynamic",
+    "explanation": "<p>Dynamic Website is a website cintaining data that can be mutable or changeable. It uses client-side or server scripting to generate mutable content. Like a static website, it also contains HTML data. And databse is used to store information for the site. And to change the website content in realtime we connect the Dynamic website to the database.</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267178,
+    "question": "কোনটি C ভাষায় ফাংশন নির্দেশ করে?",
+    "options": [
+      "int",
+      "break",
+      "getch()",
+      "stdio.h"
+    ],
+    "correct_answer": "getch()",
+    "explanation": "<p><span style=\"font-size: 1rem;\">C Language এ Function হলো a block of code. যেই কোড এর ব্লকটি তখনই রান হবে যখন সেই Block of code বা ফাংশন কে কল করা হয়। এবং প্রতিটি সি প্রোগ্রামে কমপক্ষে একটি ফাংশন থাকে এবং সেটি হলো <b>main()</b> ফাংশন। এবং আমাদের প্রশ্নে প্রদত্ত <b>getch()</b> ও একটি ফাংশন। এবং এই ফাংশনটি সি প্রোগ্রামে Character Input নেয়ার জন্য ব্যাবহার করা হয়।&nbsp;</span></p>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267179,
+    "question": "কোন লুপটি কমপক্ষে একবার চলবে?",
+    "options": [
+      "do while",
+      "while",
+      "for",
+      "সরকয়টি"
+    ],
+    "correct_answer": "do while",
+    "explanation": "<p>The do/while loop is known as a post-test loop. এর মানে হলোঃ do---whiile() loop, minimum একবার execute হয় এবং তারপর কন্ডিশন চেক করে। যার জন্য, কন্ডশন যদি False বা মিথ্যাও যদি হয় তবুও লুপটি minimum একবার রান হয়।&nbsp;</p><br/><p><b>Syntax:</b></p><br/><p><b>do{</b></p><br/><p><b>//codes to execute</b></p><br/><p><b>}while(condition)</b></p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267180,
+    "question": "RGB (255,255,0) কোন রং নির্দেশ করে?",
+    "options": [
+      "সাদা",
+      "লাল",
+      "হলুদ",
+      "মেজেন্টা"
+    ],
+    "correct_answer": "হলুদ",
+    "explanation": "<p>RGB কালার প্রকাশ করা হই rgb(red,green,blue) এভাবে।</p><br/><p>এখানে rgb(255,255,0) অর্থ লাল আর সবুজ রঙের মিশ্রন।&nbsp;</p><br/><p>আর আমরা জানি লাল আর সবুজ রঙের মিশ্রনে হলুদ রঙ তৈরি হই।</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267181,
+    "question": "ভিন্ন ভিন্ন প্রটোকলের একাধিক নেটওয়ার্ককে সংযুক্ত করতে কোন ডিভাইস ব্যবহৃত হয় ?",
+    "options": [
+      "রিপিটার",
+      "গেটওয়ে",
+      "ব্রিজ",
+      "হাব"
+    ],
+    "correct_answer": "গেটওয়ে",
+    "explanation": "গেটওয়ে একটি নেটওয়ার্ক ডিভাইস এবং একে WAN ডিভাইসও বলা হয়। এটি ভিন্ন প্রটোকল বিশিষ্ট দুই বা ততোধিক নেটওয়ার্ককে(LAN,MAN,WAN) সংযুক্ত করে WAN তৈরি করে। ভিন্ন প্রোটোকল বিশিষ্ট নেটওয়ার্ক সংযুক্ত করার সময় গেটওয়ে প্রটোকল ট্রান্সলেশন করে থাকে।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267182,
+    "question": "কোনটি (250)8 এর পূর্ববর্তী সংখ্যা?",
+    "options": [
+      "1010 0111",
+      "1010 0101",
+      "1011 0111",
+      "1101 1111"
+    ],
+    "correct_answer": "1010 0111",
+    "explanation": "<p>(২৫০) অক্টাল সংখ্যা কে বাইনারি সংখ্যাই রুপান্তর করলে হবে ০১০ ১০১ ০০০</p><br/><p>অক্টাল ২৫০ এর পূর্বের সংখা হলো ২৪৭,&nbsp;</p><br/><p>অক্টাল ২৪৭ এর বাইনারি সংখ্যা </p><br/><p>&nbsp; ২&nbsp; &nbsp; ৪&nbsp; &nbsp; ৭&nbsp;</p><br/><p>০১০&nbsp; ১০০&nbsp; ১১১</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267183,
+    "question": "কোনটি তারবিহীন MAN এর সাথে সম্পর্কিত?",
+    "options": [
+      "স্যাটেলাইট",
+      "WiMAX",
+      "Wi-Fi",
+      "ইনফ্রারেড"
+    ],
+    "correct_answer": "WiMAX",
+    "explanation": "<p><b>WiMAX </b>Stands for<b> Worldwide Interoperability for Microwave Access. </b>বহনযোগ্য কম্পিউটার এবং মোবাইল ফোনে ব্রডব্যান্ড ইন্টারনেট সংযোগ দেওয়ার সুবিধাকেই বলা হয় WiMAX প্রযুক্তি।</p><br/><p>এটি একটি তারবিহীন ব্রডব্যান্ড ইন্টারনেট প্রযুক্তি। IEEE 802.16 Standard এর Wireless মেট্রোপলিটন এরিয়া নেটওয়ার্ক। ২০০১ সালের এপ্রিলে WiMAX এর জন্ম হয়।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267184,
+    "question": "ডাটার গোপনীয়তা নিশ্চিতে কোন প্রযুক্তি ব্যবহৃত হয়?",
+    "options": [
+      "ইনডেক্সিং",
+      "এনক্রিপশান",
+      "ডিক্রিপশান",
+      "ইনফরমাটিক্স"
+    ],
+    "correct_answer": "এনক্রিপশান",
+    "explanation": "Data Encryption হলো একটি প্রক্রিয়া, যেখানে প্লেইন টেক্সট (Plain Text) ডেটাগুলোকে সাইফার টেক্সট (Cipher Text) ডেটাতে রূপান্তরিত হয়। সুতরাং, ডেটা এনক্রিপশন বা ডাটা এনক্রিপ্ট করা মানে হলো ডেটাকে মানুষের জন্য বোঝার অনুপযোগী করে তোলা। ডঃটা এনক্রিপ্ট করা হলে যেগুলো আর কোন মানুষ বুঝতে পারে না। সেগুলো বুঝতে এনক্রিপ্ট করা ডেটাগুলো আবার Decrypt করতে হয়। এর ফলে ডেটাগুলো বোঝার উপযোগী হয়ে ওঠে।&nbsp;",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267185,
+    "question": "কোন প্রজন্মের মোবাইলে IP ডাটা নেটওয়ার্ক অন্তর্ভুক্ত করা হয়েছে?",
+    "options": [
+      "১ম",
+      "২য়",
+      "৩য়",
+      "৪র্থ"
+    ],
+    "correct_answer": "২য়",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267186,
+    "question": "RJ45 কানেক্টর ব্যবহার করে ৩০টি কম্পিউটার একটি সুইচের সাথে সংযোগ স্থাপন করা হলো। নেটওয়ার্কটিতে কোন টপোলজির ব্যবহার হয়েছে?",
+    "options": [
+      "স্টার",
+      "রিং",
+      "বাস",
+      "মেশ"
+    ],
+    "correct_answer": "স্টার",
+    "explanation": "<p>Star Topology তে একাধিক কম্পিউটার একটি কেন্দ্রীয় হাব এর সাথে সংযুক্ত থাকে। এবং আমাদের প্রদত্ত প্রশ্নে সেই কেন্দ্রীয় হব হিসেবে সুইচ ব্যাবহার করা হয়েছে।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267187,
+    "question": "ভার্চুয়াল রিয়েলিটিতে কোন ধরনের ইমেজ ব্যবহার করা হয়?",
+    "options": [
+      "একমাত্রিক",
+      "দ্বিমাত্রিক",
+      "ত্রিমাত্রিক",
+      "বহুমাত্রিক"
+    ],
+    "correct_answer": "ত্রিমাত্রিক",
+    "explanation": "<p>ভার্চুয়াল রিয়্যালিটিতে ব্যবহার হয় থ্রিডি মডেল/ ত্রিমাত্রিক মডেল।</p><br/><p>ভার্চুয়াল রিয়্যালিটিতে কৃত্রিম ত্রিমাত্রিক ছবি,শব্দ ও সেন্সর নিয়ন্ত্রিত গতি মডেল ব্যবহারের মাধ্যমে বাস্তব অভিজ্ঞতা পাওয়া যায় এবং ব্যবহারকারী সম্পুর্ণ বাস্তব উপলব্ধি লাভ করেন।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267188,
+    "question": "কোনটি সোর্স কোডকে এক লাইন করে মেশিন কোডে রূপান্তর করে?",
+    "options": [
+      "কম্পাইলার",
+      "ইন্টারপ্রেটার",
+      "লিংকার",
+      "ডিবাগার"
+    ],
+    "correct_answer": "ইন্টারপ্রেটার",
+    "explanation": "ইন্টারপ্রিটার (Interpreter)<br/><br/>ইন্টারপ্রেটার কম্পিউটার বিজ্ঞানে একটি প্রোগ্রাম যা প্রোগ্রামিং ভাষায় লেখা নির্দেশাবলী লাইন বাই লাইন একজিকিউট করে। এটি হাই লেভেল প্রোগ্রামিং ল্যাংগুয়েজের সোর্স কোড একজিকিউট করে।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267189,
+    "question": "ক্রিকেটের লাইভ স্কোর পেতে আমরা কোন ধরনের ওয়েবসাইট ব্যবহার করি?",
+    "options": [
+      "স্ট্যাটিক",
+      "ডাইনামিক",
+      "রিমোট",
+      "সবগুলো"
+    ],
+    "correct_answer": "ডাইনামিক",
+    "explanation": "যে সকল ওয়েবসাইটের ডেটার মান ওয়েবপেইজ লােডিং বা চালু করার পর পরিবর্তন করা যায় তাকে ডাইনামিক ওয়েবসাইট (Dynamic website) বলে। ডাইনামিক ওয়েবসাইট তৈরির জন্যে HTML ভাষার সাথে স্ক্রিপ্টিং ভাষা যেমন- পিএইচপি (PHP) বা এএসপি (ASP) ভাষা এবং এর সাথে ডেটাবেজ প্রয়ােজন।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267190,
+    "question": "কোনটি ইটের দেয়াল ভেদ করতে পারে না?",
+    "options": [
+      "রেডিও ওয়েভ",
+      "মাইক্রোওয়েভ",
+      "ইনফ্রারেড",
+      "কোনোটিই নয়"
+    ],
+    "correct_answer": "ইনফ্রারেড",
+    "explanation": "Microwave দ্বারা সে সকল Electromagnetic Radiation নির্দেশ করা হয় যাদের wavelength minimum ১ মিলিমিটার হতে সর্বোচ্চ ১ মিটার পর্যন্ত এদের কম্পাংক ৩০০ মেগাহার্জ হতে ৩০০ গিগাহার্জ এর মধ্যে সীমাবদ্ধ। এবং এই মাইক্রোওয়েভ ইটের Wall ভেদ করতে পারে না।&nbsp;",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267191,
+    "question": "IPv6 এর IP এ্যাড্রেস কত বিটের?",
+    "options": [
+      "32",
+      "64",
+      "128",
+      "256"
+    ],
+    "correct_answer": "128",
+    "explanation": "<p>মোবাইল ফোনের ক্ষেত্রে প্রতিটি মোবাইল ফোনের যেমন একটি নাম্বার থাকে। তেমনি ইন্টারনেটের বা নেটওয়ার্কের প্রতিটি কম্পিউটারের জন্য একটি আইডেন্টিটি থাকে, যা IP(Inernet Protocol) Address নামে পরিচিত। বহুল প্রচলিত দুটি IP Address হলো IPv4 এবং <b>IPv6</b>. এখানে IPv4 এর বিট সংখ্যা <b>৩২</b> এবং <b>IPv6 এর বিট সংখ্যা ১২৮</b>।&nbsp;</p><br/><p>নিচে একটি IPv6 এর address দেয়া হলোঃ</p><br/><p><b>0123 : 4567 : 89ab : cdef : 0123 : 4567 : 89ab : cdef</b></p><br/>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267192,
+    "question": "যে সিকুয়েন্সিয়াল সার্কিট ইনপুট পালসের সংখ্যা গণনা করতে পারে তাকে কী বলে?",
+    "options": [
+      "রেজিস্টার",
+      "শিফট রেজিস্টার",
+      "অ্যাডার",
+      "কাউন্টার"
+    ],
+    "correct_answer": "কাউন্টার",
+    "explanation": "Digital Electronics এ Sequential circuit হলো এমন এক ধরনের সার্কিট যেটার Output নির্ভর করে এর পূর্ববর্তী input এবং বর্তমান input এর উপর। এবং এই Counter হলো এমন একটি sequential circuit যেটি ইনপুট Pulse এর সংখ্যা গণনা করতে পারে।&nbsp;",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267193,
+    "question": "ইন্টারনেটে ওয়েবপেজ ব্রাউজ করতে কোন প্রটোকল ব্যবহার করা হয়?",
+    "options": [
+      "FTP",
+      "IP",
+      "TCP",
+      "HTTP"
+    ],
+    "correct_answer": "HTTP",
+    "explanation": "<p><span style=\"font-size: 1rem;\">HTTP stands for HyperText Transfer Protocol. Application Layer এর একটি প্রটোকল হলো HTTP. এবং HTTP হলো www(World Wide Web) এর Foundation এবং HTTP hypertext links ব্যাবহার করে webpage কে Load করার জন্য ব্যাবহার করা হয়। সুতরাং আমরা বলতে পারি ইন্টারনেটের ওয়েবপেজ ব্রাউজ করতে HTTP Protocol ব্যাবহার করা হয়।&nbsp;</span></p>",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267194,
+    "question": "কৃত্রিম বুদ্ধিমত্তা প্রয়োগ করার জন্য কোন প্রোগ্রামিং ভাষা ব্যবহার করা হয়?",
+    "options": [
+      "BASIC",
+      "LIST",
+      "FORTRAN",
+      "PASCAL"
+    ],
+    "correct_answer": "LIST",
+    "explanation": "",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267195,
+    "question": "Which of the following words is closest in meaning to the word \"consumer\"?",
+    "options": [
+      "Borrower",
+      "Investor",
+      "Shopper",
+      "Trader"
+    ],
+    "correct_answer": "Shopper",
+    "explanation": "<p><p><br/></p><br/>consumer<br/>ভোক্তা : consumer<br/>ক্রেতা : consumer<br/>ভোগকারী : consumer<br/>খরিদ্দার : client, consumer<br/>noun - consumer<br/>খাদক : consumer, mouth, trencherman<br/>খাদ্যের ভোক্তা : eater, consumer</p><br/><p><br/></p><br/><p><br/></p><br/>noun - shopper<br/>খরিদ্দার : shopper, purchaser, customer, buyer, patron",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267196,
+    "question": "Which one of the following practices falls under e-commerce?",
+    "options": [
+      "Buying and selling in traditional grocery stores",
+      "Operating a business on bank loans",
+      "Buying and selling of products on online services",
+      "Investing in stock markets"
+    ],
+    "correct_answer": "Buying and selling of products on online services",
+    "explanation": "ই-কমার্স কী? উত্তর : ইলেকট্রনিক কমার্সকে সংক্ষেপে ই-কমার্স বলা হয়। আধুনিক ডেটা প্রসেসিং এবং কম্পিউটার ভিত্তিক নেটওয়ার্ক ব্যবস্থা বিশেষ করে ইন্টারনেটের মাধ্যমে ব্যক্তি বা প্রতিষ্ঠানের মধ্যে পণ্য বা সেবা মার্কেটিং, ক্রয়-বিক্রয়, গ্রহণ-বিলি করা, ব্যবসা সংক্রান্ত লেনদেন ইত্যাদি করাই হচ্ছে ই-কমার্স।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267197,
+    "question": "\"Green banking\" means",
+    "options": [
+      "painting banks and their ATM booths green",
+      "immature banking practices",
+      "promoting environment friendly banking practices",
+      "setting up banks in parks and forests"
+    ],
+    "correct_answer": "promoting environment friendly banking practices",
+    "explanation": "গ্রিন ব্যাংকিং মূলত এক ধরনের পরিবেশবান্ধব ব্যাংকিং কার্যক্রম, যেখানে পরিবেশের যাতে কোনোভাবে ক্ষতি না হয় সেদিকে সর্বোচ্চ নজর দেয়া হয়। প্রথম শিল্প বিপ্লবের পর থেকে পরিবেশকে উপেক্ষা করে যেভাবে শিল্পায়ন হয়েছে, তার ফল বর্তমানে ভোগ করছে সারা বিশ্ব।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267198,
+    "question": "What part of speech is the word \"routinely\"?",
+    "options": [
+      "Noun",
+      "Pronoun",
+      "Adjective",
+      "Adverb"
+    ],
+    "correct_answer": "Adverb",
+    "explanation": "<p><span style=\"color: rgb(71, 71, 71); font-family: &quot;Google Sans&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;\">If something is routinely done, it is done as a normal part of a job or process.</span></p><br/><p><span style=\"color: rgb(71, 71, 71); font-family: &quot;Google Sans&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;\">Routinely-Adverb<br/></span></p>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267199,
+    "question": "When we have an unpleasant and frightening dream, we call it a....",
+    "options": [
+      "daydream",
+      "reverie",
+      "nightmare",
+      "lullaby"
+    ],
+    "correct_answer": "nightmare",
+    "explanation": "A nightmare is a disturbing dream associated with negative feelings, such as anxiety or fear that awakens you. Nightmares are common in children but can happen at any age. Occasional nightmares usually are nothing to worry about.",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267200,
+    "question": "Street children are",
+    "options": [
+      "adolescents who fight on the streets",
+      "boys who love to play on the streets",
+      "minors who live and survive on the streets",
+      "children who walk on the streets"
+    ],
+    "correct_answer": "minors who live and survive on the streets",
+    "explanation": "পথশিশু হল সেইসব শিশু যারা দারিদ্র্য, গৃহহীনতা বা উভয়ের কারণে শহর, নগর বা গ্রামের রাস্তায় বসবাস করছে তারা।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267201,
+    "question": "The building is made ... bricks.",
+    "options": [
+      "of",
+      "in",
+      "by",
+      "on"
+    ],
+    "correct_answer": "of",
+    "explanation": "\"The building is made of bricks.\"<br/><br/>এই বাক্যে \"of\" শব্দটি ব্যবহৃত হয়েছে। এটি দেখায় যে ভবনটি কোন উপাদান বা বস্তু দিয়ে তৈরি হয়েছে। এখানে বিস্তারিত ব্যাখ্যা দেয়া হলো:<br/><br/>1. \"made of\" ও \"made from\" এর মধ্যে পার্থক্য:<br/><br/>\"made of\": যখন কোনো বস্তু এমন উপাদান দিয়ে তৈরি হয় যার আসল রূপ দেখা যায়, তখন \"made of\" ব্যবহার করা হয়। উদাহরণস্বরূপ, ভবনটি ইট দিয়ে তৈরি এবং আমরা ইটের গঠন স্পষ্টভাবে দেখতে পাই, তাই এখানে \"made of\" সঠিক।<br/><br/>\"made from\": যখন কোনো বস্তু এমন উপাদান দিয়ে তৈরি হয় যার মূল গঠন পরিবর্তিত হয়ে গেছে এবং চেনা যায় না, তখন \"made from\" ব্যবহৃত হয়। উদাহরণস্বরূপ, \"Wine is made from grapes\" (মদ আঙুর থেকে তৈরি), যেখানে আঙুরের আসল রূপ আর দেখা যায় না।<br/><br/><br/><br/>2. ব্যাকরণের প্রয়োগ:<br/><br/>\"The building is made of bricks\" বলার মাধ্যমে বোঝানো হচ্ছে যে ভবনটি ইটের মতো একটি দৃশ্যমান উপাদান দিয়ে তৈরি।<br/><br/><br/><br/>3. বাংলায় অনুবাদ:<br/><br/>\"ভবনটি ইট দিয়ে তৈরি।\"<br/><br/><br/><br/><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267202,
+    "question": "The guard stopped me ... entering the building.",
+    "options": [
+      "to",
+      "in",
+      "from",
+      "on"
+    ],
+    "correct_answer": "from",
+    "explanation": "",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267203,
+    "question": "The number of students seeking admission in schools ... increased.",
+    "options": [
+      "have",
+      "has",
+      "have been",
+      "is"
+    ],
+    "correct_answer": "has",
+    "explanation": "One of/each of/neither of/either of/the number of/quality of এদের পরের Noun/subject plural থাকলেও verb singular হয়",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267204,
+    "question": "My friend is not interested- art.",
+    "options": [
+      "in",
+      "at",
+      "for",
+      "into"
+    ],
+    "correct_answer": "in",
+    "explanation": "<p>Interested in - আগ্রহী হওয়া।&nbsp;</p><br/><p><br/></p><br/><p>My friend is not interested in art.</p><br/>",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267205,
+    "question": "“বায়ান্নর দিনগুলোতে বঙ্গবন্ধু কোন জেলে বন্দি অবস্থায় অনশন করেছিলেন?",
+    "options": [
+      "গোপালগঞ্জ",
+      "ফরিদপুর",
+      "ঢাকা",
+      "রাজশাহী"
+    ],
+    "correct_answer": "ফরিদপুর",
+    "explanation": "<p>একই সময়ে শেখ মুজিব জেলে অবস্থান করেই ১৪ই ফেব্রুয়ারি থেকে অনশন পালনের সিদ্ধান্ত নেন। তার এই অনশন ১৩ দিন স্থায়ী ছিল।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267206,
+    "question": "\"আমি উত্তর-বায়ু মলয়-অনিল উদাস পূরবী হাওয়া এ পঙ্ক্তিতে 'বাতাস' শব্দের কয়টি প্রতিশব্দ আছে?",
+    "options": [
+      "২",
+      "৩",
+      "৪",
+      "৫"
+    ],
+    "correct_answer": "৪",
+    "explanation": "<p>বায়ু সমার্থক শব্দ হলো:&nbsp;<span style=\"font-size: 1rem;\">বাতাস, অনিল, পবন, হাও</span><span style=\"font-size: 1rem;\">য়া, সমীর, সমীরণ, মারুত, গন্ধবহ।</span></p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267207,
+    "question": "‘দুধেভাতে' কোন সমাসের উদাহরণ?",
+    "options": [
+      "অলুক দ্বন্ধ",
+      "মধ্যপদলোপী কর্মধারয়",
+      "অলুক তৎপুরুষ",
+      "অব্যয়ীভাব"
+    ],
+    "correct_answer": "অলুক দ্বন্ধ",
+    "explanation": "<p>অলুক দ্বন্দ্ব সমাস: যে দ্বন্দ্ব সমাসে কোনো সমস্যমান পদের বিভক্তি সমস্ত পদে লোপ পায় না, তাকে অলুক দ্বন্দ্ব সমাস বলে। যেমন: দুধে-ভাতে, জলে-স্থলে, দেশে-বিদেশে, হাতে-কলমে।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267208,
+    "question": "নিজগৃহপথ, তাত, দেখাও তস্করে? - এখানে তস্কর কে?",
+    "options": [
+      "রাম",
+      "লক্ষ্মণ",
+      "রাবণ",
+      "বিভীষণ"
+    ],
+    "correct_answer": "লক্ষ্মণ",
+    "explanation": "<p>নিজগৃহপথ, তাত, দেখাও তস্করে? - এখানে তস্কর হলো লক্ষ্মণ</p><br/><p>উক্তিটি বিভীষন কে উদ্দেশ্য করে বলা হয়েছে</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267209,
+    "question": "'দই' শব্দটির উৎসভাষা",
+    "options": [
+      "আরবি",
+      "পর্তুগিজ",
+      "প্রাকৃত",
+      "সংস্কৃত"
+    ],
+    "correct_answer": "সংস্কৃত",
+    "explanation": "<p>দই' শব্দটির উৎসভাষা হলো সংস্কৃত ভাষা</p><br/><p><i style=\"margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-stretch: inherit; line-height: inherit; font-family: &quot;Helvetica Neue&quot;, Helvetica, &quot;Nimbus Sans L&quot;, Arial, &quot;Liberation Sans&quot;, sans-serif; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(34, 34, 34);\">সংস্কৃতভাষা</i><span style=\"color: rgb(34, 34, 34); font-family: &quot;Helvetica Neue&quot;, Helvetica, &quot;Nimbus Sans L&quot;, Arial, &quot;Liberation Sans&quot;, sans-serif;\">, \"(পরিমার্জিত ভাষা\") হল একটি ঐতিহাসিক ইন্দো-ইউরোপীয় ভাষা</span></p>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267210,
+    "question": "নূরলদীনের ডাকে কত বঙ্গাব্দে বাংলার মানুষ জেগে উঠেছিল?",
+    "options": [
+      "১১৮৩",
+      "১২৮৯",
+      "১১৮৮",
+      "১১৮৯"
+    ],
+    "correct_answer": "১১৮৯",
+    "explanation": "<p>নূরলদীনের ডাকে ১১৮৯ বঙ্গাব্দে (১৭৮২ খ্রিস্টাব্দে) ব্রিটিশবিরোধী আন্দোলনে মানুষ যেভাবে জেগে উঠেছিলো, বাঙালির মুক্তি সংগ্রামেও বাংলার জন-মানুষ ঠিক সেইভাবে জেগে ওঠবে এটাই কবির বিশ্বাস। কবির শিল্পভাবনায় নূরলদীন ক্রমান্বয়ে এক চিরায়ত প্রতিবাদের প্রতীকে পরিণত হয়।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267211,
+    "question": "‘বিড়াল' রচনায় কোন যুদ্ধের উল্লেখ রয়েছে?",
+    "options": [
+      "পলাশির যুদ্ধ",
+      "পানিপথের যুদ্ধ",
+      "ওয়াটারলু যুদ্ধ",
+      "মুক্তিযুদ্ধ"
+    ],
+    "correct_answer": "ওয়াটারলু যুদ্ধ",
+    "explanation": "<p>কমলাকান্ত নেপোলিয়ন হলে কীভাবে ওয়াটারলু যুদ্ধে জয়লাভ করতে পারতেন আফিমের নেশায় বুঁদ হয় তারই ছক তৈরিতে তিনি ব্যস্ত ।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267212,
+    "question": "'অপরিচিতা' গল্পটি কোন পুরুষের জবানিতে লেখা?",
+    "options": [
+      "উত্তম পুরুষ",
+      "মধ্যম পুরুষ",
+      "নাম পুরুষ",
+      "বীর পুরুষ"
+    ],
+    "correct_answer": "উত্তম পুরুষ",
+    "explanation": "<p>অপরিচিতা' গল্পটি উত্তর পুরুষের জবানিতে রচিত। বিশ শতকের দ্বিতীয় দশকের যুদ্ধসংলগ্ন বাঙালি যুবক অনুপমের জবানীতে লেখা এ গল্পটি।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267213,
+    "question": "“কী সাংঘাতিক ব্যাপার।\" — এটা কী ধরনের বাক্য?",
+    "options": [
+      "প্রশ্নমূলক",
+      "বিবৃতিধর্মী",
+      "বিস্ময়সূচক",
+      "আদেশমূলক"
+    ],
+    "correct_answer": "বিস্ময়সূচক",
+    "explanation": "<p>যখন অতিরিক্ত আনন্দিত বা দুঃখিত হয়ে মানুষ কোনো কথা বলে তখন বাক্যে তার প্রভাব লক্ষ্য করা যায়। এইসকল বাক্যকে বিষস্ময় সূচক বাক্য বলে।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267214,
+    "question": "‘Death penalty -এর বাংলা পরিভাষা কোনটি?",
+    "options": [
+      "মৃত্যুপরোয়ানা",
+      "মৃত্যুপ্রাপ্ত",
+      "মৃত্যুবিধি",
+      "মৃত্যুদণ্ড"
+    ],
+    "correct_answer": "মৃত্যুদণ্ড",
+    "explanation": "<p>বাংলা ভাষায় প্রচলিত বিদেশি শব্দগুলোর ভাবানুবাদমূলক প্রতিশব্দকে পারিভাষিক শব্দ বলে।&nbsp;&nbsp;</p><br/><p>Death Penalty এর পারিভাষিক অর্থ মৃত্যুদন্ড।&nbsp;</p><br/><p></p><p></p>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267215,
+    "question": "লালসালু উপন্যাসে মহব্বতনগর গ্রামে স্কুল প্রতিষ্ঠার উদ্যোগ নেয় কে?",
+    "options": [
+      "আক্কাস",
+      "মোদাব্বের",
+      "খালেক",
+      "তাহের"
+    ],
+    "correct_answer": "আক্কাস",
+    "explanation": "<p>লালসালু গল্পে উল্লেখিত একমাত্র শিক্ষিত ছেলে আক্কাস। সে গ্রামের শিশুদের শিক্ষার আলো দিয়ে আলোকিত করার জন্য গ্রামে একটা স্কুল প্রতিষ্ঠা করার উদ্যোগ নেয়।</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267216,
+    "question": "‘বৃটিশ সিংহ ভয়ে লেজ গুটিয়ে নিলেন, এ বড় লজ্জার কথা। —উক্তিটি কার?",
+    "options": [
+      "উমিচাঁদের",
+      "মীরজাফরের",
+      "নবাব সিরাজের",
+      "জগৎশেঠের"
+    ],
+    "correct_answer": "উমিচাঁদের",
+    "explanation": "<p>উক্ত লাইন টি সিরাজউদ্দৌলা নাটক থেকে নেওয়া হয়েছে। সিরাজউদ্দৌলা নাটকটির রচয়িতা সিকান্দার আবু জাফর।&nbsp;</p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  },
+  {
+    "id": 267217,
+    "question": "'ঐকতান' কবিতায় কবি রবীন্দ্রনাথ কোন কবির বাণী শুনতে চান?",
+    "options": [
+      "বাউল কবি",
+      "চারণ কবি",
+      "বিশ্বকবি",
+      "অখ্যাতজনের কবি"
+    ],
+    "correct_answer": "অখ্যাতজনের কবি",
+    "explanation": "<p>রবীন্দ্রনাথ তার 'ঐকতান' কবিতায় বলেন, \"<b>এসো কবি অখ্যাত জনের, নির্বাক মনের...\" </b>এবং অন্য এক পঙক্তিতে <b>\" যে আছে মাটির কাছাকাছি\\সেই কবির বাণী লাগি কান পেতে আছি\"।&nbsp;</b></p><br/>",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "ভর্তি পরীক্ষা",
+    "sub_category": "গুচ্ছ বিশ্ববিদ্যালয় (GST)",
+    "exam": "গুচ্ছ বিশ্ববিদ্যালয়(GST) ➺ 2020☞C Unit"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "jobsolutions-mcq-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bijoy2unicode": "^1.0.2",
+    "frida": "^17.17.0",
+    "frida-java-bridge": "^7.0.13",
+    "jszip": "^3.10.1",
+    "lucide-react": "^1.41.0",
+    "mammoth": "^1.12.2",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sql.js": "^1.14.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "frida-compile": "^19.0.5"
+  }
+}

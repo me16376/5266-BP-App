@@ -1,0 +1,1277 @@
+[
+  {
+    "id": 197338,
+    "question": "If y=(3x-6)/x, than for what values of x, y will be positive?",
+    "options": [
+      "x>2 or x<0",
+      "x>0",
+      "-2",
+      "None of these"
+    ],
+    "correct_answer": "x>2 or x<0",
+    "explanation": "🔖সমীকরণ হতে দেখা যাচ্ছে, \\( \\frac{x-2}{x} \\) এর ধনাত্মক মানের জন্য y এর মান ধনাত্মক হবে। এখন, \\( \\frac{x-2}{x} \\) এর মান ঋণাত্মক হবে, যদি (i) x - 2 > 0 হয় এবং x > 0 হয় অথবা (ii) x - 2 < 0 হয় এবং x < 0 হয়।[ঋণাত্মক সংখ্যা দিয়ে ভাগ করলে ধনাত্মক সংখ্যা পাওয়া যায়]।<br/>(i) হতে x > 2 হলে y এর মান ধনাত্মক হবে<br/>(ii) হতে x < 0 হলে y \" \" \" \"<br/>\\( \\therefore \\) নির্ণেয় সীমা x > 2 or x< 0",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197339,
+    "question": "The cost of four rolls, six samuchas and three loaves of bread is Tk. 91. The cost of two rolls, three samuchas and one loaf of bread is Tk. 39. What is the cost of one loaf of bread?",
+    "options": [
+      "Tk. 10.50",
+      "Tk. 11.00",
+      "Tk. 12.00",
+      "Tk. 13.00"
+    ],
+    "correct_answer": "Tk. 13.00",
+    "explanation": "🔖\\( 4 rolls+6 samuchas+3 loaves of bread \\mathrm{cos}t Tk. 91\\phantom{\\rule{0ex}{0ex}}\\overline{)4 \" +6 \" +2 \" \" \" \" Tk.78} \\left[প্রদত্ত উপাত্তের দ্বিগুণ করে\\right]\\phantom{\\rule{0ex}{0ex}} বিয়োগ করে 1 loaf of bread \\mathrm{cos}t Tk. 13; \\)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197340,
+    "question": "If a, b, and c are three sides of a right angled triangle triangle, which of the following statements cannot be true?",
+    "options": [
+      "a=b=c",
+      "a>b and a>c",
+      "b=c or a=c or a=b",
+      "None of these"
+    ],
+    "correct_answer": "a=b=c",
+    "explanation": "🔖সমকোণী ত্রিভুজের তিনটি বাহু কখনােই সমান হয় না। তাই (a)-তে a = b = c কখনাে সত্য হতে পারে না। (b)- তে আছেa > b এবং a>c, এখানে a কে অতিভূজ ধরলে বর্ণনাটি সত্য হতে পারে। তাই (B) । বাদ। (c)-তে আছে = c অথবা a = c অথবা a = b.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197341,
+    "question": "If a square mirror has a 20-inch diagonal, what is the approximate perimeter of the mirror, in inches?",
+    "options": [
+      "40",
+      "60",
+      "80",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖বর্গাকৃতির আয়নাটির কর্ণ (diagonal) 20 inch<br/>আমরা জানি, বর্গের কর্ণ = \\( \\sqrt{2}\\times বাহুর দৈঘ্য\\phantom{\\rule{0ex}{0ex}}\\therefore \\sqrt{2}\\times বাহুর দৈঘ্য=20 বা, \\sqrt{2a}=20 বা, a=\\frac{2}{\\sqrt{2}}=\\frac{20\\sqrt{2}}{\\sqrt{2}\\times \\sqrt{2}}=10\\sqrt{2}=14·14\\phantom{\\rule{0ex}{0ex}}\\therefore বগে পরিসীমা= 4\\times বাহুর দৈঘ্য=4\\times 14·14=56·56 inch \\left(প্রায়\\right) \\)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197342,
+    "question": "The probability is 1/2 that a coin will turn up heads on any toss. If the coin is to be tossed three times, what is the probability that on at least one of the tosses the coin will turn up tails?",
+    "options": [
+      "1/8",
+      "1/2",
+      "7/8",
+      "None of these"
+    ],
+    "correct_answer": "7/8",
+    "explanation": "🔖প্রতিবার টসে Head পড়ার সম্ভাব্যতা \\( \\frac{1}{2} \\)<br/>\\( \\therefore \\) প্রতিবার \" tail \" \" \\( \\frac{1}{2} \\)<br/>\\( \\therefore \\) তিনবার \" tail \" \" \\( 3\\times \\frac{1}{2}=\\frac{3}{2} \\)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197343,
+    "question": "A rectangular box is 10 inches wide, 10 inches long, and 5 inches high. What is the greatest possible (straight line) distance, in inches, between any two points on the box?",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "10"
+    ],
+    "correct_answer": "15",
+    "explanation": "🔖আয়তাকার বক্সটির width (a) = 10 inch; length (b) = 10 inch এবং heigjt © = 5 inch দুটি বিন্দুর মধ্যকার greatest distance (সর্বোচ্চ দূরত্ব) বা কর্ণ d-এর মান বের করতে হবে।<br/>আমরা জানি,<br/>ঘণবস্তুর কর্ণের দৈর্ঘ্য (d) = \\( \\sqrt{{a}^{2}+{b}^{2}+{c}^{2}}\\phantom{\\rule{0ex}{0ex}}=\\sqrt{{10}^{2}+{10}^{2}+{5}^{2}}\\phantom{\\rule{0ex}{0ex}}=\\sqrt{225}\\phantom{\\rule{0ex}{0ex}}=15 \\)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197344,
+    "question": "A small square region inside a larger square is shaded. The diagonal of the larger square is three times the diagonal of the small square in length. What fraction of the area of the larger square is not shaded?",
+    "options": [
+      "1/9",
+      "1/3",
+      "2/3",
+      "8/9"
+    ],
+    "correct_answer": "8/9",
+    "explanation": "🔖ধরি Square - এর side b যেহেতু বড় square- এর কর্ণ ছোট square - এর তিনগুণ সেহেতু বড় square বাহুও ছোট square - এর তিনগুণ হবে।<br/>small square এর side b হলে তার area \\( {b}^{2} \\)<br/>\\( \\therefore \\) larger \" \" \" 3b \" \" \" \\( 9{b}^{2} \\)<br/>\\( \\therefore Unshaded area \\left(9{b}^{2}-{b}^{2}\\right)=8{b}^{2}\\phantom{\\rule{0ex}{0ex}}\\therefore Fraction of the area=\\frac{8{b}^{2}}{9{b}^{2}}=\\frac{8}{9} \\)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197345,
+    "question": "In a class of 55 students, 18 take music, 26 take art, and 2 take both art and music. How many students in the class are not enrolled in either music or art?",
+    "options": [
+      "6",
+      "8",
+      "16",
+      "24"
+    ],
+    "correct_answer": "8",
+    "explanation": "🔖মােট শিক্ষার্থী 50 জন।<br/>music ও art দুটি বিষয়ই নেয় 2 জন। |<br/>শুধু music নেয় 18 – 2 = 16 জন<br/>,, art , 26 -2 = 24 ,,<br/>বিষয়ই বা যেকোনাে একটি বিষয় নেয় (16 + 24 + 2) বা 42 জন<br/>কোনাে বিষয়ই নেয়নি (50 – 42) বা ৪ জন।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197346,
+    "question": "70 students are enrolled in Management, Accounting and Marketing. 40 students are in Management, 35 are in Accounting, and 30 are in Marketing. 15 students are enrolled in all three courses. How many of the students are enrolled in exactly two of the courses?",
+    "options": [
+      "8",
+      "5",
+      "6",
+      "9"
+    ],
+    "correct_answer": "5",
+    "explanation": "🔖শুধু Accounting-এর ছাত্র (40– 15) = 25 জন।<br/>শুধু Management , , (35 - 15) =20 ,,<br/>Marketing (30–15) =15 ,,<br/>তিনটি কোর্সই রয়েছে 15 জন ছাত্র<br/>Accounting, Management & Marketing-এর মােট ছাত্র সংখ্যা (25 + 20 + 15 + 15) = 75 জন।<br/>শুধুমাত্র দুটি subject-নেয় (75–70) = 5 জন।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197347,
+    "question": "In what ratio should a 20% methyl alcohol solution be mixed with a 50% methyl alcohol solution so that the resultant solution has 40% methyl alcohol in it?",
+    "options": [
+      "1 : 2",
+      "2 : 1",
+      "1 : 3",
+      "3 : 1"
+    ],
+    "correct_answer": "1 : 2",
+    "explanation": "🔖এটি একটি Frequently আসা অংক বিধায় শুধু Shortcut-টিই দেখানাে হলাে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197348,
+    "question": "Recently, Sohan's hourly wage has been increase, Sohan's total weekly wage was $137. If his weekly hours were to decrease by 10 percent from last week's total hours, what would be the change, if any, in Sohan's total weekly wage?",
+    "options": [
+      "An increase of $1.37",
+      "An increase of $0.55",
+      "A decrease of $0.55",
+      "A decrease of $1.37"
+    ],
+    "correct_answer": "A decrease of $1.37",
+    "explanation": "🔖10% বৃদ্ধিতে Sohan-এর weekly income হবে (137 + 137 এর 10%) = $ 150.7<br/>Weekly hours 10% কমে যাওয়ায় তার income-ও 10% কমে যাবে।<br/>New income = 150.7_(1507 এর 10%) = $135.63<br/>সুতরাং Sohan-এর beeklv income কমেছে (137–135.63) = $1.37",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197349,
+    "question": "A store has five shelves and average weekly sale is Tk. 30000. Shelf 1 accounted for 1/4 of the store's average weekly sales and shelves 2 and 3 each accounted for 2/3 as much as shelf 1. The shelf 4 alone accounted for as much as shelf 1, then which of the following could have been the average weekly sales of shelf 5 for the store?",
+    "options": [
+      "Tk. 4000",
+      "Tk. 6500",
+      "Tk. 500",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖Shelves 2 and 3 each accounted for \\( \\frac{1}{4}\\times \\frac{2}{3}=\\frac{1}{6} \\) of the stores average wekly sales.<br/>\\( \\therefore \\) 1,2,3,4 সেলফের মোট বিক্রয় = \\( \\frac{1}{4}+\\frac{1}{6}+\\frac{1}{6}+\\frac{1}{4}=\\frac{3+2+2+3}{12}\\phantom{\\rule{0ex}{0ex}}=\\frac{10}{12} \\) মোট বিক্রয়ের \\( \\frac{5}{6} \\) অংশ<br/>Weekly sales of shelf \\( 5=1-\\frac{5}{6}=\\frac{1}{6} \\) অংশ<br/>মোট বিক্রয়ের \\( \\frac{1}{6} \\) অংশ \\( =30,000\\times \\frac{1}{6}=5,000 Taka. \\)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197350,
+    "question": "Rahim averaged 70 in his first m number of exams. After taking n more exams, he had an overall average of 75. In terms of m and n, his average for the last n exams was",
+    "options": [
+      "(5m+75)/n",
+      "(5m/n)+75",
+      "(5n/m)+75",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖m সংখ্যক exam- এ প্রাপ্ত নম্বরের সমষ্টি 70m<br/>ধীর, n সংখ্যক exam- এ গড় x; \\( \\therefore \\) n সংখ্যক exam - এর সমষ্টি nx<br/>প্রশ্নমতে, \\( 70m+nx=75\\left(m+n\\right)\\phantom{\\rule{0ex}{0ex}}\\Rightarrow 70m+nx=75m+75n\\phantom{\\rule{0ex}{0ex}}\\Rightarrow nx=5m+75n\\phantom{\\rule{0ex}{0ex}}\\Rightarrow x=\\frac{5m+75n}{n}=\\frac{5m}{n}+75 \\)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197351,
+    "question": "Two merchants each sell an article for Tk.1000. If Merchant a computes his profit on cost price, while Merchant B computer his profit on selling price, they end up making profits of 25% respectively. By how much is the profit made by Merchant B greater than that of Merchant A?",
+    "options": [
+      "Tk. 66.67",
+      "Tk. 50",
+      "Tk. 125",
+      "Tk. 200"
+    ],
+    "correct_answer": "Tk. 50",
+    "explanation": "🔖দেয়া আছে, A ‘র profit হিসাব করা হয়েছে cost price-এর উপর।<br/>মনে করি, A -এর cost price = x Tk.<br/>প্রশ্নানুযায়ী, 125% of x = 100 \\( \\Rightarrow \\frac{125x}{100}=1000 \\Rightarrow \\frac{5x}{4}=1000\\phantom{\\rule{0ex}{0ex}}\\Rightarrow x=\\frac{4\\times 1000}{5}=800 Tk. \\)<br/>A' র profit = (1000 - 800) = 200 Tk.<br/>\\( \\therefore \\) B' র profit হিসাব করা হয় বিক্রয়মূল্যের উপর।<br/>B' র profit = (25% of1000) = 250 Tk.<br/>\\( \\therefore \\) B' র profit বেশি হয় = (250 - 200) = 50 Tk.",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197352,
+    "question": "Alim and Badrul enter in to a partnership and Alim invests Tk. 10,000 in the partnership. At the end of 4 months he withdraws another Tk. 3000. If Badrul receives Tk. 9600 as his share of the total profit of Tk. 19,100 for the year, how much did Badrul invest in the company?",
+    "options": [
+      "Tk. 12,000",
+      "Tk. 96,000",
+      "Tk, 8,000",
+      "Tk. 6,000"
+    ],
+    "correct_answer": "Tk, 8,000",
+    "explanation": "🔖Total profit = 19,100 Badrul পায় = Tk 9,600; \\( \\therefore \\) Alim পায় =(19,100 - 9,600) = Tk.9,500. Alim- এর মোট investment এক মাসের হিসাবে = (40000 + 40000 + 15000) = 95000 Tk<br/>\\( \\therefore \\) আমরা পাই, 9,500 Tk profit- এর জন্য 12 মাস এর হিসাবে ivestment 95000Tk<br/>\\( \\therefore \\) 9,600 \" \" \" \" 12 \" \" \" হবে 96000 Tk.<br/>অর্থাৎ Badrul এর মূল investment = \\( \\frac{96000}{12}=8000 Tk. \\)<br/>অর্থাৎ Badrul 8000 Tk; 12 মাসের জন্য invest করেছিল।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197353,
+    "question": "Rehana leaves her home early in the morning so that she can reach her office on time. If she walks at the rate of 7 km/hr, then she reaches her office 8 minutes late. But, if she walks at a speed of 8 km/hr, then she reaches her office 4 minutes early. What is the distance in km between Rehana's house and her office?",
+    "options": [
+      "10.5",
+      "11.2",
+      "11.5",
+      "12.2"
+    ],
+    "correct_answer": "11.2",
+    "explanation": "🔖মনে করি, বাসা থেকেoffice- এর দূরত্ব = x km<br/>8 মিনিট দেরি আর 4 মিনিট আগেই পৌঁছে যাওয়া অর্থাৎ দুই গতিবেগে মোট অতিক্রান্ত সময় (8 + 4) মিনিট = 12 মিনিট = \\( \\frac{12}{60}=\\frac{1}{5} \\) ঘন্টা।<br/>আমরা জানি, \\( time=\\frac{Dis\\mathrm{tan}ce}{Speed} \\)<br/>প্রশ্নানুযায়ী, \\( \\frac{x}{7}-\\frac{x}{8}=\\frac{1}{5}\\phantom{\\rule{0ex}{0ex}}\\Rightarrow \\frac{8x-7x}{56}=\\frac{1}{5}\\phantom{\\rule{0ex}{0ex}}\\Rightarrow 5x=56\\phantom{\\rule{0ex}{0ex}}\\Rightarrow x=\\frac{56}{5}=11·2 \\)<br/>অর্থাৎ দূরত্ব = 11.2 km",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197356,
+    "question": "Certain number of children were playing a game of football. There was a trial taking place on the field. In this trial the probability that a goal is scored is 2/5. The probability that a girl hits a goal is 7/10 whereas the probability that a boy hits a goal is 1/5. What will be the probability that not only a goal is hit but it is also hit by a boy?",
+    "options": [
+      "14/50",
+      "7/50",
+      "2/5",
+      "2/25"
+    ],
+    "correct_answer": "2/25",
+    "explanation": "🔖দেয়া আছে, একজন girl -এর goal করার সম্ভাব্যতা \\( =\\frac{7}{10} \\)<br/>boy \" \" \" \" \\( =\\frac{1}{5} \\)<br/>যেকোনো একজন দ্বারা \" \" \" \" \\( =\\frac{2}{5} \\)<br/>\\( \\therefore \\) আমরা জানি, দুটি event একসাথে ঘটার সম্ভাব্যতা হচ্ছে তাদের গুণফলের সমান।<br/>\\( \\therefore \\) goal একজন ছেলে করবে এমন সম্ভব্যতা \\( =\\frac{2}{5}\\times \\frac{1}{5}=\\frac{2}{25} \\)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197499,
+    "question": "Which of the following countries is landlocked?",
+    "options": [
+      "Syria",
+      "Thailand",
+      "Kazakhistan",
+      "Colombia"
+    ],
+    "correct_answer": "Kazakhistan",
+    "explanation": "🔖কাজাখস্তানের কোনো জলসীমানা নেই। মধ্য এশিয়ার স্থলবেষ্টিত এই দেশটির সাথে কিরগিজস্তান, তুর্কমেনিস্তান, উজবেকিস্তান, রাশিয়া ও চীনের সীমান্ত রয়েছে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197500,
+    "question": "Which state of USA was once a part of Russia?",
+    "options": [
+      "Alaska",
+      "Louisiana",
+      "Florida",
+      "California"
+    ],
+    "correct_answer": "Alaska",
+    "explanation": "🔖আয়তনে যুক্তরাষ্ট্রের বৃহত্তম রাজ্য আলাস্কা িএক সময় রাশিয়ার অংশ ছিল। ১৮৬৭ সালে ৭২ লাখ ডলারের বিনিময়ে যুক্তরাষ্ট্র এটি রাশিয়ার কাছ থেকে কিনে নেয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197501,
+    "question": "What is the Time Zone of Bangladesh?",
+    "options": [
+      "UTC+5:00",
+      "UTC +5:30",
+      "UTC + 6:00",
+      "UTC +6:30"
+    ],
+    "correct_answer": "UTC + 6:00",
+    "explanation": "🔖বাংলাদেশের সময় আন্তর্জাতিক সময় (লন্ডনের গ্রিনউইচ মান মন্দিরের যে সময়) এর তুলনায় ৬ ঘন্টা এগিয়ে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197502,
+    "question": "Which one is the national sports of Bangladesh?",
+    "options": [
+      "Cricket",
+      "Field Hockey",
+      "Hadudu",
+      "Football"
+    ],
+    "correct_answer": "Hadudu",
+    "explanation": "🔖বাংলাদেশের জাতীয় খেলা হলো লাডুডু বা কাবাডি। এটি দক্ষিণ এশিয়ার একটি জনপ্রিয় খেলা।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197503,
+    "question": "Stephen Hawking is best known for the study of :",
+    "options": [
+      "Comet",
+      "Galaxy",
+      "Quasars",
+      "Black Holes"
+    ],
+    "correct_answer": "Black Holes",
+    "explanation": "🔖বর্তমান সময়ের সেরা বিজ্ঞানী পদার্থবিদ স্টিফেন হকিংস কৃঞ্চ গহ্বর (Black Holes) এর একটি ব্যাখ্যা প্রদানের জন্য বেশি পরিচিত। তবে তত্ত্বের আধুনিক ব্যাখ্যাকারক হিসেবে তিনি সুপরিচিত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197504,
+    "question": "Light year is related to :",
+    "options": [
+      "Energy",
+      "Speed",
+      "Distance",
+      "Intensity"
+    ],
+    "correct_answer": "Distance",
+    "explanation": "🔖আলোকবর্ষ (light year) হলো জ্যোতির্বিদ্যায় ব্যবহৃত দূরত্বের একক। আলো শূণ্যস্থানে এক বৎসর সময়ে যে দূরত্ব অতিক্রম করে তা হলো এক আলোকবর্ষ। যার গাণিতিক পরিমাণ প্রায় ৬ ট্রিলিয়ন মাইল বা ৯ ট্রিলিয়ন কিলোমিটার।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197505,
+    "question": "The three basic colors are ----",
+    "options": [
+      "Red, white, Yellow",
+      "Green, Red, Blue",
+      "Black, White, Blue",
+      "Pink, Red, White"
+    ],
+    "correct_answer": "Green, Red, Blue",
+    "explanation": "🔖তিনটি মৌলিক রং হলো-নীল, সবুজ ও লাল। এ তিন রং থেকেই অন্য সকল রংয়ের উৎপত্তি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197506,
+    "question": "The first Bangali who crossed English channel is",
+    "options": [
+      "Brojen Das",
+      "Musharraf Hossain",
+      "Altaf Hossain",
+      "Shamiur Rahman"
+    ],
+    "correct_answer": "Brojen Das",
+    "explanation": "🔖প্রথম বাঙালি হিসেবে ব্রজেন দাস ইংলিশ চ্যালেন সাঁতরে পার হয়। তিনি ১৯৫৮ সালের ১৮ আগস্ট এই কৃতিত্ব অর্জন করেন। তিনি মোট ছয়বার ইংলিশ চ্যালেন পাড়ি দেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197507,
+    "question": "Wimbledon is famous for which outdoor sport?",
+    "options": [
+      "cricket",
+      "Lawn Tennis",
+      "Hockey",
+      "Rugby"
+    ],
+    "correct_answer": "Lawn Tennis",
+    "explanation": "🔖লন টেনিসের জন্য উইম্বলডন বিখ্যাত। মূলত উইম্বলডন হলো লন্ডনের একটি জায়গার নাম। প্রতিবছর এখানে লন টেনিসের যে আসরটি অনুষ্ঠিত হয় তা উইলম্বলডন চ্যাম্পিয়নশীপ নামে পরিচিত। যাকে লন টেনিসের সর্বাধিক গুরুত্বপূর্ণ ট্রফি হিসেবে মনে করা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197508,
+    "question": "Which country is not a member of the United Nations?",
+    "options": [
+      "Italy",
+      "Germany",
+      "Switzerland",
+      "All of these"
+    ],
+    "correct_answer": "All of these",
+    "explanation": "🔖অপশনের সবগুলোই জাতিসংঘের সদস্য। এর মধ্যে নবীন সদস্য হলো সুইজারল্যান্ড। যা ১০ সেপ্টেম্বর ২০১২ জাতিসংঘের সদস্যপদ লাভ করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197509,
+    "question": "'To be or not to be that is the question' is a quote from",
+    "options": [
+      "Charles Dickens",
+      "Barnard Shaw",
+      "Shakespeare",
+      "Stephen Hawkins"
+    ],
+    "correct_answer": "Shakespeare",
+    "explanation": "🔖The 2017 FIFA Confederations Cup was won by Germany (1st title). I was held in Russia, from 17 July 2017, as prelude to the 2018 FIFA World Cup.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197510,
+    "question": "What do you understand by the term 'Call Money'?",
+    "options": [
+      "Inter-bank short-term lending and borrowing",
+      "Borrowing from central bank",
+      "Lending by commercial banks to insurance companies",
+      "Lending by leasing companies to industrial sector"
+    ],
+    "correct_answer": "Inter-bank short-term lending and borrowing",
+    "explanation": "🔖Call Money বা তলবি মুদ্রা হলো স্বল্পমেয়াদে আন্তঃব্যাংক লেনদেন। যা এক ব্যাংক অন্য ব্যাংকে স্বল্পমেয়দের জন্য ঋণ প্রদান করে এবং ঐ অর্থ চাহিবা মাত্র গ্রহীতা ব্যাংক ফেরত দিতে বাধ্য থাকে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197511,
+    "question": "First Atom Bomb was dropped in",
+    "options": [
+      "1944",
+      "1945",
+      "1935",
+      "1942"
+    ],
+    "correct_answer": "1945",
+    "explanation": "🔖পারমাণবিক বোমা প্রথমে ফেলা হয় ১৯৪৫ সালের ৬ আগস্ট জাপানের হিরোসিমাতে। যুক্তরাষ্ট্রের নিক্ষিপ্ত এই বোমাটির নাম ছিল লিটল বয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197512,
+    "question": "Paharpur Monastery is in",
+    "options": [
+      "Natore",
+      "Naogaon",
+      "Bogra",
+      "Joypur Hut"
+    ],
+    "correct_answer": "Naogaon",
+    "explanation": "🔖পাহাড়পুর বিহার বাংলাদেশের নওগাঁ জেলার বদলগাছিতে অবস্থিত। এর অপর নাম সোমপুর বিহার। রাজা ধর্মপাল ৮-৯ শতকে এটি নির্মাণ করেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197513,
+    "question": "Main component of natural gas is",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Methane",
+      "Helium"
+    ],
+    "correct_answer": "Methane",
+    "explanation": "🔖প্রাকৃতিক গ্যাসের প্রধান উপাদান মিথেন। অন্য উপাদানগুলো হলো ইথেন, প্রোপেন এবং হাইড্রোকার্বণ।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197514,
+    "question": "How much of money was hacked aou of Bangladesh Bank Recently?",
+    "options": [
+      "$810 cr.",
+      "$101 cr.",
+      "$101 million",
+      "$ 1 billion"
+    ],
+    "correct_answer": "$101 million",
+    "explanation": "🔖৫ ফেব্রুয়ারি ২০১৬ বাংলাদেশ ব্যাংকের রিজার্ভ থেকে হ্যাকিংয়ের মাধ্যমে ১০১ মিলিয়ন মার্কিন ডলার বা প্রায় ৮০০ কোটি টাকা চুরি হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197515,
+    "question": "Which one is a petroleum product?",
+    "options": [
+      "CNG",
+      "LNG",
+      "LPG",
+      "All of these"
+    ],
+    "correct_answer": "LPG",
+    "explanation": "🔖পেট্রেলিয়াম প্রোডাক্ট হলো বিভিন্ন ধরনের তেল দ্রব্য। এখানে Liquefied Petroleum Gas (LPG) হলো তেলের দ্রব্য। যা গ্যাস ও তেলের উপজাত দ্রব্য হিসেবে তৈরি। LPG কে আবার Autogas ও বলা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197516,
+    "question": "Which region of Bangladesh is Baul Abdul Karim from?",
+    "options": [
+      "Kushtia",
+      "Rajshahi",
+      "Chittagong",
+      "Sylhet"
+    ],
+    "correct_answer": "Sylhet",
+    "explanation": "🔖বাউল আব্দুল করিম সিলেট্ অঞ্চলের। তিনি সুনামগঞ্জ জেলার দিরাই উপজেলায় ১৯১৬ সালে জন্মগ্রহণ করেন। মারা যান ১২ সেপ্টেম্বর ২০০৯, সিলেট।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197517,
+    "question": "When stock market fals stubbornly it is called?",
+    "options": [
+      "Bearish",
+      "Bullish",
+      "Booming",
+      "Foolish"
+    ],
+    "correct_answer": "Bearish",
+    "explanation": "🔖স্টক মার্কেটের বা শেয়ার বাজারে শেয়ারের মূল্য পতনের বিপর্য়কর পিরিস্থিকে Bear market বলা হয়, আর বিপরীত অবস্থাকে Bull Market বলা হয়।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197518,
+    "question": "What will be the size of the next national budget of Bangladesh declared recently by the Finance Minister?",
+    "options": [
+      "Tk. 3 lac cr.",
+      "Tk. 3 lac 20000 cr.",
+      "Tk. 3 lac 40000 cr.",
+      "Tk. 3 lac 50000 cr."
+    ],
+    "correct_answer": "Tk. 3 lac 40000 cr.",
+    "explanation": "🔖বাংলাদেশের ২০১৬-২০১৭ অর্থ বছরের ঘোষিত বাজেট ৩৪০৬০৫ কোটি টাকা। ২০১৭-২০১৮ অর্থবছরের ঘোষিত বাজেট ৪,০০,২৬৬ কোটি টাকা।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197519,
+    "question": "Which one is the Microsoft's latest version of Operting system?",
+    "options": [
+      "UNIX 7",
+      "VISA",
+      "LINUX 8",
+      "Windows 10"
+    ],
+    "correct_answer": "Windows 10",
+    "explanation": "🔖Microsoft এর অপারেটিং সিস্টেমের সর্বশেষ ভার্সন হল windows 10.",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197520,
+    "question": "Which one is the latest multilateral development bank?",
+    "options": [
+      "IDB",
+      "AIIB",
+      "ADB",
+      "IMF"
+    ],
+    "correct_answer": "AIIB",
+    "explanation": "🔖সর্বশেষ বহুজাতিক উন্নয়ন ব্যাংক হলো Asian Infrastructure Investment Bank (AIIB) । যা চীনের নেতৃত্বে ২৪ অক্টোবর ২০১৪ প্রতিষ্ঠিত হয়ে ২০১৬ সালের ১৬ জানুযায়ি থেকে কার্য়ক্রম শুরু করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197522,
+    "question": "'এখন যৌবন যার, যুদ্ধে যাবার তার শ্রেষ্ঠ সময়'-- Who is the writher of this line of a poem?",
+    "options": [
+      "Helal Hafiz",
+      "Rafique Azad",
+      "Shamsur Rahman",
+      "Nirmolendu Gun"
+    ],
+    "correct_answer": "Helal Hafiz",
+    "explanation": "🔖“এখন যৌবন যার, যুদ্ধে যাবার তার শ্রেষ্ঠ সময়” কবি হেলাল হাফিজের “নিষিদ্ধ সম্পাদকীয়” কবিতার একটি অমর লাইন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197523,
+    "question": "Where was World Cup ODL cricket 2015 held?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "India",
+      "Australia & New Zealand"
+    ],
+    "correct_answer": "Australia & New Zealand",
+    "explanation": "🔖অস্ট্রেলিয়া ও নিউজিল্যান্ডে বিশ্বকাপ ক্রিকেট -২০১৫ অনুষ্ঠিত হয়। ২০১৯ সালে বিশ্বকাপ ক্রিকেটের আসর বসবে ইংল্যান্ডে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197524,
+    "question": "What is the season now in Bangladesh?",
+    "options": [
+      "Boshonto",
+      "Borsha",
+      "Shorot",
+      "Hemonto"
+    ],
+    "correct_answer": "Borsha",
+    "explanation": "🔖বাংলাদেশে ৬টি ঋতু রয়েছে। সেগুলো হলো বৈশাখ-জ্যৈষ্ঠ নিয়ে গ্রীষ্মকল, আষাঢ়-শ্রাবণ নিয়ে বর্ষাকাল, ভাদ্র-আশ্বিন মাস নিয়ে শরৎকাল, কার্তিক-অগ্রহায়ন মাস নিয়ে হিমন্তকাল, পৌষ-মাঘ নিয়ে শীতকাল ও ফাল্গুন-চৈত্র মাস নিয়ে বসন্তকাল।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197525,
+    "question": "Fill in the gap : People ----to work hard when you ----certain conditions on them.",
+    "options": [
+      "tend, refrain",
+      "refuse, impose",
+      "try, invoke",
+      "strive, place"
+    ],
+    "correct_answer": "refuse, impose",
+    "explanation": "🔖প্রদত্ত অপশনগুলোর মধ্যে (a) tend- কোনো বিশেষ দিকে ঝোঁকা refrain- বিরত থাকা। (b) refuse- অস্বীকার করা; impose- চাপিয়ে দেয়া। (c) try- চেষ্টা করা; invoke- আহবান করা। (d) strive- কঠোর চেষ্টা করা। Place- স্থাপন করা; রাখা। প্রদত্ত বাক্যটি দ্বারা মানুষ শর্তসাপেক্ষে কঠোর পরিশ্রম করতে আগ্রহী হয় এরূপ বোঝাচ্ছে। তাই উত্তর হবে (b)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197526,
+    "question": "Fill in the gap : ------my better judgment, I ----your terms of contract.",
+    "options": [
+      "Despite, choose",
+      "With, allow",
+      "Against, accept",
+      "In accordance with, acknowledge"
+    ],
+    "correct_answer": "Against, accept",
+    "explanation": "🔖প্রদত্ত অপশনগুলোর মধ্যে (a) despite- সত্ত্বেও; choose- বেছে নেয়া। (b) with, allow- অনুমতি দেয়া। (c) against, accept- গ্রহণ করা। (d) In accordance with, acknowledge- স্বীকার করা। আমার ইচ্ছার বিরুদ্ধে তোমার শর্তাবলী মেনে নিয়েছিলাম এরূপ বোঝাচ্ছে। সুতরাং সঠিক উত্তর (c)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197527,
+    "question": "Fill in the gap : The situation can only be ----by------handling the parties involved.",
+    "options": [
+      "Handled, properly",
+      "settled, emphatically",
+      "resolved, carefully",
+      "managed, tactfully"
+    ],
+    "correct_answer": "managed, tactfully",
+    "explanation": "🔖প্রদত্ত অপশনগুলোর মধ্যে (a) handle- সামলানো; properly- সঠিকভাবে। (b) settle- মীমাংসা করা; emphatically- জোরালোভাবে। (c) resolve- সমস্যা সমাধান করা; carefully- যত্নসহকারে। (d) manage- নিয়ন্ত্রণ করা tactfully- কৌশলে। situation (পরিস্থিতি) কে কৌশলে tactfully সংশ্লিষ্ট দলগুলোকে নিয়ন্ত্রণ করার দ্বারা করা যেতে পারে। সুতরাং সঠিক উত্তর (d)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197528,
+    "question": "Fill in the gap : It is not necessarily your opponent, but rather, your own actions that -----your reputation.",
+    "options": [
+      "blemishes",
+      "affects",
+      "highlights",
+      "changes"
+    ],
+    "correct_answer": "blemishes",
+    "explanation": "🔖প্রদত্ত অপশনগুলোর মধ্যে (a) blemishes- কলঙ্কিত করা। (b) affects- প্রভাবিত করা। (c) highlights- ফুটিয়ে তোলা; (d) changes- পরিবর্তন করা। শূণ্যস্থানের পরে your reputation থাকায় option (a) এর blemishes বসালে বাক্যটি অর্থবোধক হয়। অর্থাৎ blemishes your reputaion তোমার সুনাম নষ্ট করে। সুতরাং সঠিক উত্তর (a)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197529,
+    "question": "Fill in the gap : A lot of times people's superiority complex is a result of one's ----.",
+    "options": [
+      "pride",
+      "arrogance",
+      "ineptitude",
+      "calibre"
+    ],
+    "correct_answer": "arrogance",
+    "explanation": "🔖(a) pride- গর্ব। (b) arrogance- ঔদ্ধত্য; অহংকার। (c) ineptitude- অপটুতা/অযোগ্যতা। (d) caliber- ধীশক্তি/চরিত্রশক্তি। superiority comples- নিজেকে অন্যের থেকে বড় মনে করা বা arrogance। তাই সঠিক উত্তর (b)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197530,
+    "question": "Fill in the gap : It is yet be ingrained in people who are ----, to believe that all men are equal and we must not discriminate on account of race, color, and creed.",
+    "options": [
+      "democratic",
+      "narrow-minded",
+      "intolerant",
+      "sensitive"
+    ],
+    "correct_answer": "narrow-minded",
+    "explanation": "🔖প্রদত্ত অপশনগুলোর মধ্যে (a) democratic- গণতান্ত্রিক। (b) narrow-minded- সঙ্কীর্ণমনা। (c) intolerant- অসহিঞ্চু। (d)sensitive- স্পর্শকাতর অর্থাৎ যারা সঙ্কীর্ণমনা তাদের বিশ্বাস করাতে হবে যে সব মানুষ সমান। তাই সঠিক উত্তর (b)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197531,
+    "question": "Fill in the gap : In the informal hearing, we did even not stand a chance in the face of the ----lie he told.",
+    "options": [
+      "blatant",
+      "unashamed",
+      "plausible",
+      "convincing"
+    ],
+    "correct_answer": "blatant",
+    "explanation": "🔖প্রদত্ত অপশনগুলোর মধ্যে (a) blatant- স্পষ্ট। (b) unashamed- লজ্জাহীন। (c) plausible- অপাতদৃষ্টিতে যথার্থ। (d) convincing- বিশ্বাসযোগ্য। অর্থাৎ তার স্পষ্ট মিথ্যার সামনে আমরা কথা বলারও সুযোগ পাইনি। তাই সঠিক উত্তর (a)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197532,
+    "question": "Fill in the gap : Despite the --- of many critiques, many writers believe the current music culture is a means of ----the different emotions of the contemporary society.",
+    "options": [
+      "Skepticism, deciphering",
+      "antipathy, identifying",
+      "criticism, unlocking",
+      "enthusiasm, evaluating"
+    ],
+    "correct_answer": "criticism, unlocking",
+    "explanation": "🔖(a) skepticism- সন্দেহপ্রবণতা; decipher- মর্ম উদ্ধার করা। (b) antipathy- বিদ্বেষ; identify- সনাক্ত করা। criticism- সমালোচনা; unlock- উন্মোচন করা। (d) enthusiasm- সন্দেহপ্রবণতা; evaluate- মূল্যায়ন কর। অর্থগত দিক বিবেচনা করলে দেখা যায় যে gap গুলোতে criticism এবং unlocking বসানো যুক্তিযুক্ত। অতএব, সঠিক উত্তর (c)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197533,
+    "question": "Fill in the gap : One can hardly expect a plan for contingencies, from one with such ----outlook.",
+    "options": [
+      "diverse",
+      "varied",
+      "pedantic",
+      "archaic"
+    ],
+    "correct_answer": "archaic",
+    "explanation": "🔖(a) diverse- বিভিন্ন; (b) varied- বিচিত্র; (c) pedantic- পণ্ডিতি মনোভাবসূলভ (d) archaic- সেকেলে; contigency- আকস্কিক ঘটনা অর্থাৎ এমন সেকেলে চিন্তা ভাবনার মানুষের কাছে এমন সম্ভাব্য দৃষ্টিভঙ্গি আশা করা যায় না। সঠিক উত্তর (d)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197534,
+    "question": "Fill in the gap : It is only your ----belief that your plan alone will succeed!",
+    "options": [
+      "optimistic",
+      "presumptuous",
+      "accepted",
+      "relifious"
+    ],
+    "correct_answer": "presumptuous",
+    "explanation": "🔖(a) Optimistic- আশাবাদী; (b) presumptuous- ঔদ্ধতপূর্ণ; (c) accepted- গ্রহণকৃত (d) religious- ধার্মিক। প্রদত্ত বাক্যটি দ্বারা তারা একগুঁয়েমি বা বা মানসিকতা বোঝায়। অতএব, সঠিক উত্তর (b)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197535,
+    "question": "Fill in the gap : All the branch managers of different locations came prepared on ----from the regional head about the meeting.",
+    "options": [
+      "explanation",
+      "intimation",
+      "account",
+      "requirement"
+    ],
+    "correct_answer": "requirement",
+    "explanation": "🔖(a) explanation- ব্যাখ্যা; (b) intimation- ইঙ্গিত; (c) account- বর্ণনা (d) requirement- প্রয়োজন। সুতরাং option গুলোর মধ্যে শূণ্যস্থানে requirement হবে। অতএব, সঠিক উত্তর (d)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197536,
+    "question": "Fill in the gap : It is -----to see the privileged, well-housed and well-fed, criticizing the needs of the poor.",
+    "options": [
+      "preposterous",
+      "wondrous",
+      "critical",
+      "unusal"
+    ],
+    "correct_answer": "preposterous",
+    "explanation": "🔖(a) preposterous- সম্পূর্ণ অযৌক্তিক; (b) wondrous- বিস্ময়কর; (c) critical- সমালোচনামূলক (d) unusual- অস্বাভাবিক। সুতরাং শূণ্যস্থানে preposterous হবে। সঠিক উত্তর (a)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197537,
+    "question": "Fill in the gap : The committee needs to take action on the extent of his verbal abuse; for which he had already been---many times before.",
+    "options": [
+      "crucial",
+      "historic",
+      "subtle",
+      "poignant"
+    ],
+    "correct_answer": "historic",
+    "explanation": "🔖(a) remind- স্মরণ করা; (b) admonished- সতর্ক করে দেওয়া; (c) told- বলা (d) notified- জানানো। option গুলো বিশ্লেষণ করলে দেখা যায় শূণ্যস্থানে admonished বসবে অর্থাৎ তার দুর্ব্যবহারের জন্য তাকে ইতোমধ্যে সর্তক করা হয়েছে এরূপ বোঝাচ্ছে। সঠিক উত্তর (b)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197538,
+    "question": "Fill in the gap : It was a ---moment when the entire nation acknowledged the sacrifice of the fighters of the Liberation War.",
+    "options": [
+      "crucial",
+      "historic",
+      "subtle",
+      "poignant"
+    ],
+    "correct_answer": "historic",
+    "explanation": "🔖(a) crucial- অত্যন্ত গুরুত্বপূর্ণ; (b) historic- ঐতিহাসিক; (c) subtle- সূক্ষ্ম (d) Poignant- মর্মভেদী। সুতরাং শূণ্যস্থানে historic হবে। সঠিক উত্তর (b)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197539,
+    "question": "Fill in the gap : The traditional method of rice cultivation leads -----a yield -----about 700 kg/acre of Amon paddy.",
+    "options": [
+      "to, for",
+      "to, of",
+      "on, of",
+      "for, of"
+    ],
+    "correct_answer": "to, of",
+    "explanation": "🔖Lead পরে Preposition হিসেবে to বসে; যার অর্থ কোনো কিছু ঘটানো । আর এক্ষেত্রে Yield এর পরে Preposition হিসেবে of বসে; যার অর্থ উৎপাদন করা।<br/>সঠিক বাক্যঃ The traditional method of rice cultivation leads to a yield of about 700 kg./acre of Amon paddy.<br/>বাক্যের অর্থঃ চাল চাষের প্রচলিত পদ্ধতি প্রতি একরে প্রায় ৭০০ কেজি আমন ধান উৎপাদন করে ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197540,
+    "question": "There is no reason for you to chide him over such a small issue!",
+    "options": [
+      "attack",
+      "loathe",
+      "reprimand",
+      "help"
+    ],
+    "correct_answer": "reprimand",
+    "explanation": "🔖(a) attack- আক্রমণ করা; (b) loathe- প্রচন্ড ঘৃণা করা; (c) reprimand- কঠোর তিরস্কার করা (d) help- সাহায্য করা। option গুলো পড়ে বোঝা যাচ্ছে chide এবং reprimand সমার্থক। সঠিক উত্তর (c)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197541,
+    "question": "Contrary to our initial fear that the impact of the project would be disatrous, we now have reason to believe that this will have salutary effects.",
+    "options": [
+      "confounded",
+      "beneficial",
+      "surprising",
+      "negative"
+    ],
+    "correct_answer": "beneficial",
+    "explanation": "🔖(a) confounded- বিভ্রান্ত/হতবুদ্ধি; (b) beneficial-উপকারী; (c) surprising- বিষ্ময়কর (d) negative- নেতিবাচক। option গুলো বিশ্লেষণ করলে দেখা যায় যে, salutary এবং beneficial সমার্থক। সঠিক উত্তর (b)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197542,
+    "question": "I understand if you cannot help; but to impede, that's just deplorable!",
+    "options": [
+      "officiate",
+      "postpone",
+      "delay",
+      "hinder"
+    ],
+    "correct_answer": "hinder",
+    "explanation": "🔖(a) officiate- কোনো অফিস বা পদের সঙ্গে সংশ্লিষ্ট থেকে দায়িত্ব পালন করা। (b) postpone- মূলতবি; (c) delay- বিলম্ব করা (d) hinder- ব্যাহত করা। অতএব, impede এবং hinder সমার্থক ।সঠিক উত্তর (d)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197543,
+    "question": "When you see the problem from both perspectives, you'II find yourself quite ambivalent about the solution ---no longer willing to accept the seemingly obvious.",
+    "options": [
+      "decided",
+      "hesitant",
+      "ready",
+      "sure"
+    ],
+    "correct_answer": "hesitant",
+    "explanation": "🔖(a) decided- সিদ্ধান্ত নেয়া। (b) hesitant- দ্বিধাগ্রন্থ; (c) ready- প্রস্তত (d) sure- নিশ্চিত। সুতারাং ambivalent এবং hesitant পরস্পর সমার্থক ।সঠিক উত্তর (b)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197544,
+    "question": "He sure is a superb swordsman, parrying blows with dexterity.",
+    "options": [
+      "dodging",
+      "sending",
+      "making",
+      "using"
+    ],
+    "correct_answer": "dodging",
+    "explanation": "🔖(a) dodge- এড়িয়ে যাওয়া। (b) send- পাঠানো; (c) make- তৈরি করা (d) using- ব্যবহার করা। option গুলো পড়ে বোঝা যাচ্ছে যে, parrying এবং dodge পরস্পর সমার্থক ।সঠিক উত্তর (a)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197545,
+    "question": "The total damage on account of the flood is an astounding figure.",
+    "options": [
+      "astoishing",
+      "significant",
+      "puny",
+      "absolute"
+    ],
+    "correct_answer": "puny",
+    "explanation": "🔖(a) astonishing- অনেক বড় কিংবা বিশাল। (b) significant- গুরুত্বপূর্ণ; (c) puny- ছোট, ক্ষুদ্র (d) absolute- বিস্ময়কর। astounding এবং puny শব্দদ্বয় বিপরীতার্থক ।সঠিক উত্তর (c)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197546,
+    "question": "The sole purpose of lerning to fight is for you to be able to thwart a blow.",
+    "options": [
+      "impede",
+      "exonerate",
+      "stop",
+      "attract"
+    ],
+    "correct_answer": "attract",
+    "explanation": "🔖(a) inpede- ব্যাহত করা। (b) exonerate- অভিযোগাদি হতে মুক্তি দেয়া; (c) stop- থামানো, thwart প্রতিহত করা; বাধা দেওয়া (d) attract- আকর্ষণ করা। অতএব, thwart এবং attract পরস্পর বিপরীতার্থক ।সঠিক উত্তর (d)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197547,
+    "question": "He is an avid reader and has recently purchased a lot of books.",
+    "options": [
+      "ardent",
+      "apathetic",
+      "keen",
+      "solitary"
+    ],
+    "correct_answer": "apathetic",
+    "explanation": "🔖(a) ardent- উৎসাহী। (b) apathetic- আগ্রহহীন; (c) keen- আগ্রহী। (d) solitary- একাকী, নিঃসঙ্গ। avid-উৎসুক, সুতারাং avid এবং apathetic পরস্পর বিপরীতার্থক ।সঠিক উত্তর (b)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197548,
+    "question": "The houses on this side of the road are more shabby than those in the other side.",
+    "options": [
+      "elegant",
+      "tattered",
+      "poor",
+      "sleek"
+    ],
+    "correct_answer": "elegant",
+    "explanation": "🔖(a) elegant- অভিজাত, রুচিশীল; shabby- জীর্ণ, নোংরা। (b) tattered- জীর্ণ-শীর্ণ; (c) poor- দরিদ্র (d) sleek- নরম, মসৃণ ও চকচকে। option গুলো বিশ্লেষণ করলে দেখা যায়। shbby এবং elegant বিপরীতার্থক । সঠিক উত্তর (a)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 197549,
+    "question": "Please make a thorough appraisal of the proposal.",
+    "options": [
+      "detailed",
+      "exhaustive",
+      "exclusive",
+      "hasty"
+    ],
+    "correct_answer": "exclusive",
+    "explanation": "🔖(a) detailed- খুঁটিনাটি; পুঙ্খানুপুঙ্খ, thorough-সম্পূর্ণ (b) exhaustive- সম্পূর্ণ এবং সবকিছুকে অন্তর্ভুক্ত করে এমন। (c) exclusive- একচেটিয়া, শুধু একজন ব্যক্তি বা এক দল মানুষের মধ্যে সীমাবদ্ধ। (d) hasty- দ্রুত, চটজলদি। অতএব, through এবং exclusive পরস্পর বিরপীতার্থক ।সঠিক উত্তর (c)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 205483,
+    "question": "If x \\( \\ge 8andy\\le 3,itmustbetruethat \\)",
+    "options": [
+      "\\( x+y\\le 5 \\)",
+      "\\( x-y\\le 5 \\)",
+      "\\( x-y\\ge 5 \\)",
+      "\\( x+y\\le 11 \\)"
+    ],
+    "correct_answer": "\\( x-y\\ge 5 \\)",
+    "explanation": "🔖এখানে x ও y যোগ করে must be true কিনা তা বের হবে না; কারণ \\( \\ge 8 \\) এবং \\( \\le 3 \\) দুটি বিপরীতমুখী রাশি। এখানে \\( y\\le 3 \\) বা \\( -y\\ge -3 \\) (উভয় পক্ষকে ( - 1) ) দিয়ে গুণ দিলে অসমতায় চিহৃ উল্টে যায়।]<br/>এখন \\( x\\ge 8\\phantom{\\rule{0ex}{0ex}}\\overline{)-y\\ge -3 }\\phantom{\\rule{0ex}{0ex}}\\left(+\\right)x-y>8-3\\phantom{\\rule{0ex}{0ex}}\\Rightarrow x-y>5; \\)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 205489,
+    "question": "The membership of two committees , football committee and cricket committee , must be drawn exclusively form a group of seven people . Farid, Gaffar , Helal , Iftekhar , Jalil , Kalam and Lalit. * Each of the seven people must serve on a committee. * No one can serve on both committees. * Farid cannot be on a committee with Gaffar or with Jalil. * Helal cannot serve on a committee with Iftekhar. If Helal serves on football committee, which of the following must be true?",
+    "options": [
+      "Iftekhar serves on cricket committee",
+      "Kalam serves on football committee",
+      "Gaffar serves on cricket committee",
+      "Farid serves on football committee"
+    ],
+    "correct_answer": "Gaffar serves on cricket committee",
+    "explanation": "🔖বলা হয়েছে Helal যদি football committee তে থাকে, তবে answer option- এর কোনটি অবশ্যই সত্য হবে? প্রথমে চলুন ‘Helal’ সংক্রান্ত condition দেখা যাক। চতুর্থ condition অনুযায়ী Helal থাকবে না। Iftekhar- এর সাথে। তাই এই শর্তানুযায়ী answer option (B) must be true । কারণ Helal যদি football committee serve করে তাহলে iftekhar অবশ্যই cricket committee serve করবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 205490,
+    "question": "If exactly two people serve on football committee, which pair of the following cannot be on that committee ?",
+    "options": [
+      "Helal , Gaffar",
+      "Jalil , kalam",
+      "None of the given pairs",
+      "Gaffar , Kalam"
+    ],
+    "correct_answer": "None of the given pairs",
+    "explanation": "🔖প্রশ্ন হলো দুইজন ব্যক্তি football committee করলে নিচের কোনো pair এই committee তে থাকতে পারে না? দ্বিতীয় ও তৃতীয় শর্তানুযায়ী (Farid+Gaffar) (Farid+Jalil) এবং (Helal+Iftekhar) এই pair গুলো একই committee তে থাকতে পারবে না। answer option এ এদের কোন pair নেই। অর্থাৎ যে pair গুলো দেয়া আছে সব pair ই football committee serve করতে পারবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 205491,
+    "question": "If Lalit does not serve with Kalam or Iftekhar, which of the following cannot be true?",
+    "options": [
+      "Gaffar serves with Helal .",
+      "Helal serves with Kalam .",
+      "Iftekhar serves with Kalam .",
+      "Farid serves with Iftekhar"
+    ],
+    "correct_answer": "Helal serves with Kalam .",
+    "explanation": "🔖Lalit যদি Kalam ও Iftekhar এর সাথে serve না করে তবে answer option এর কোনটিই সত্য হতে পারে না? প্রশ্নের শর্তানুযায়ী দুটি কমিটি শুধুমাত্র নিম্নোক্তভাবে গঠিত হবে:<br/>i. Farid + Iftakhar + Kalam এবং ii. Gaffar+ Jalil +Helal + Lalit অথবা i. FHL ii. GJK<br/>সুতারাং দেখা যাচ্ছে যে Helal এবং Kalam একই Committe থাকতে পারে না।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 205492,
+    "question": "Ten fabrics of different colors are displayed on ten racks in a cloth store. The racks are placed one after another and numbered consecutively from one to ten. Each rack contains fabric of a single color. One fabric is green , two fabrics are brown , three fabrics are purple and remaining four fabrics are red. If a purple fabric is on rack two and red fabrics are on racks three and four , the green fabric must be on which of the following racks?",
+    "options": [
+      "Eight",
+      "Five",
+      "Six",
+      "Seven"
+    ],
+    "correct_answer": "Seven",
+    "explanation": "🔖বলা হয়েছে Purple fabric যদি হয় rack two তে এবং red fabrics যদি হয় racks three এবং four এ থাকে তবে green fabric অবশ্যই কোন rack- এ থাকবে?<br/>এখন দেখা যাক, Passage এ ‘Purple fabric’ এবং ‘red fabrics’ সংক্রান্ত কী দেয়া আছে। Passage এ বলা হয়েছে three fabrics purple এবং প্রথম condition অনুযায়ী Purple fabric এর 1টি rack এ এবং 1টি rack 10-এ থাকতে হবে। আরও বলা হয়েছে red fabrics চারটি এবং তৃতীয় Condition অনুযায়ী red fabrics এর পাশে brown fabric থাকবে না। তাহলে প্রশ্নানুযায়ী Condition মিলিয়ে পাওয়া যায়-<br/>Rack\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10<br/>Fabrics\tPurple\tPurple\tRed\tRed\tRed\tRed\tGreen\tbrown\tbrown\tPurple<br/>ব্যাখ্যা: দ্বিতীয় শর্তানুযায়ী Two brown fabrics পাশাপাশি থাকবে। চতুর্থ শর্তানুযায়ী green fabric এর পাশে purple fabric থাকবে না। অতএব, উপরের চিত্র অনুযায়ী আমরা পেলাম যে, green fabric অবশ্যই rack-7 এ থাকবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 205493,
+    "question": "If the four red fabrics are on four consecutive racks , the green fabric and one of the brown fabrics could be on which of the following racks respectively?",
+    "options": [
+      "Six and seven",
+      "Five and six",
+      "Three and four",
+      "Two and three"
+    ],
+    "correct_answer": "Six and seven",
+    "explanation": "🔖বলা হয়েছে red fabrics যদি ক্রমান্বয়ে চারটি rack এ থাকে তবে green fabric এবং one brown fabric ক্রমানুযায়ী answer option এর কোন দুটিতে থাকতে পারে? তাহলে প্রশ্নানুযায়ী condition মিলিয়ে নিয়ে পাই-<br/>Rack\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10<br/>Fabrics\tPurple\tPurple\tRed\tRed\tRed\tRed\tGreen\tbrown\tbrown\tPurple<br/>এতএব, উপরের চিত্র অনুযায়ী আমরা পেলাম যে, green fabric এবং brown fabric যথাক্রমে rack six এবং seven এ থাকবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 205495,
+    "question": "which of the following are colors of fabrics that CANNOT be on racks two , three and four respectively ?",
+    "options": [
+      "Brown , Brown , purple",
+      "Purple, brown , brown",
+      "Purple , red, green",
+      "Red, red, green"
+    ],
+    "correct_answer": "Purple , red, green",
+    "explanation": "🔖বলা হয়েছে anser option- এর কোন color- এর fabrics ক্রমান্বয়ে two, three এবং four rack এ থাকতে পারে না। প্রথম শর্তানুযায়ী 1 এবং 10 নম্বরে purple থাকবে। বাকি থাকলো 8 টি rack । Answer option (a) এর purple, red, green যদি two, three and four- এ থাকে তবে rack বাকি থাকে 5টি। আর fabrics থাকলো red 3টি, brown 2টি। যা বাকি rack- এ পাশাপাশি থাকতে হবে। কিন্তু তৃতীয় শর্তানুযায়ী এরা পাশাপাশি হবে না। তাই Answer option (a) এর color গুলো two, three এবং four rack এ থাকতে পারে না। তাই answer option (a) এর color গুলো two, three এবং four rack এ থাকতে পারে না।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 205496,
+    "question": "If a purple fabric is on rack three and a brown fabric is on rack four , the green fabric must be on which of the following racks?",
+    "options": [
+      "Two",
+      "Five",
+      "Six",
+      "Seven"
+    ],
+    "correct_answer": "Six",
+    "explanation": "🔖বলা হয়েছে purple fabric যদি হয় rack-3 এ brown fabrics যদি rack-4 হয় এ থাকে তবে green fabric অবশ্যই কোন rack- এ থাকবে? তাহলে প্রশ্নানুযায়ী condition মিলিয়ে নিলে পাওয়া যায়-<br/>Rack\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10<br/>Fabrics\tPurple\tRed\tPurple\tbrown\tbrown\tgreen\tred\tred\tred\tPurple<br/>ব্যাখ্যা: দ্বিতীয় শর্তানুযায়ী two brown fabrics পাশাপাশি থাকবে। তাই একটি 4 নম্বরে থাকলে অন্যটি 5 নম্বরে হবে। বাকি থাকলো green এবং red । red এবং brown পাশাপাশি থাকে না বিধায় 6 নম্বরে অবশ্যই green থাকতে হবে। green 2 নম্বরে থাকবে না, কারণ purple এবং green এক সাথে থাকে না। অতএব, উপরের চিত্র অনুযায়ী আমরা পেলাম যে, green fabric অবশ্যই rack six এ থাকবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "City Bank Ltd",
+    "exam": "City Bank Ltd - Probationary Officer - 2016"
+  }
+]

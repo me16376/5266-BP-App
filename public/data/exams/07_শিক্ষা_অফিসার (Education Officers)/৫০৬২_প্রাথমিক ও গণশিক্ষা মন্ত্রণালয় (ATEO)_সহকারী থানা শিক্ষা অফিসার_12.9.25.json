@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 330079,
+    "question": "|x - 2| < 5 হলে, নিচের কোনটি সঠিক?",
+    "options": [
+      "- 3 < x < 3",
+      "- 3 < x < 7",
+      "3 < x < 7",
+      "- 5 < x < 3"
+    ],
+    "correct_answer": "- 3 < x < 7",
+    "explanation": "📖 পরম মানের অসমতার সূত্র অনুযায়ী, |a| < b হলে, -b < a < b হয়।<br/>এখানে, a = x - 2 এবং b = 5।<br/>সুতরাং, -5 < x - 2 < 5।<br/>অসমতার সব পক্ষে 2 যোগ করে পাই:<br/>-5 + 2 < x - 2 + 2 < 5 + 2<br/>বা, -3 < x < 7।<br/><br/>❏",
+    "hints": "📖 <b>প্রশ্ন:</b> |x - 2| &lt; 5 হলে, নিচের কোনটি সঠিক?<br/>▣ <b>সমাধান:</b><br/>|x - 2| &lt; 5<br/>⇒ 5 &lt; x - 2 &lt; 5<br/>দুই পাশে 2 যোগ করা<br/>⇒ - 5 + 2 &lt; x - 2 + 2 &lt; 5 + 2<br/>∴ - 3 &lt; x &lt; 7\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330080,
+    "question": "একটি সমবাহু ত্রিভুজের বাহুর দৈর্ঘ্য 4 মিটার হলে, ত্রিভুজটির ক্ষেত্রফল কত বর্গমিটার?",
+    "options": [
+      "√3",
+      "2√3",
+      "3√2",
+      "4√3"
+    ],
+    "correct_answer": "4√3",
+    "explanation": "📖 সমবাহু ত্রিভুজের ক্ষেত্রফল নির্ণয়ের সূত্র হলো (√3 / 4) × (বাহুর দৈর্ঘ্য)²।<br/>দেওয়া আছে, বাহুর দৈর্ঘ্য = 4 মিটার।<br/>ক্ষেত্রফল = (√3 / 4) × (4)² = (√3 / 4) × 16 = 4√3 বর্গমিটার।",
+    "hints": "📖 <b>প্রশ্ন: </b>একটি সমবাহ ত্রিভূজের বাহুর দৈর্ঘ্য 4 মিটার হলে, ত্রিভূজটির ক্ষেত্রফল কত বর্গমিটার?<br/>▣ <b>সমাধান:</b><br/>দেওয়া আছে,<br/>সমবাহু ত্রিভুজের বাহুর দৈর্ঘ্য a = 4 মিটার।<br/>আমরা জানি,<br/>সমবাহু ত্রিভুজের ক্ষেত্রফল = (√3/4) × a<sup>2</sup><br/>= √3/4 × 4<sup>2</sup><br/>= √3/4 × 16<br/>= 4√3<br/> <div class=\"d-flex justify-content-between\"></div>\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330081,
+    "question": "যদি x + y = 2 এবং x - y = 4 হয় তবে (x,y) = কত?",
+    "options": [
+      "(3,-1)",
+      "(-3,1)",
+      "(-1,3)",
+      "(1,-3)"
+    ],
+    "correct_answer": "(3,-1)",
+    "explanation": "📖 প্রদত্ত সমীকরণ দুটি হলো:<br/>x + y = 2 ----(i)<br/>x - y = 4 ----(ii)<br/>সমীকরণ (i) ও (ii) যোগ করে পাই:<br/>2x = 6<br/>বা, x = 3।<br/>x-এর মান সমীকরণ (i)-এ বসিয়ে পাই:<br/>3 + y = 2<br/>বা, y = 2 - 3 = -1।<br/>সুতরাং, (x, y) = (3, -1)।",
+    "hints": "📖 <b>প্রশ্ন:</b> যদি x + y = 2 এবং x - y = 4 হয় তবে (x, y) = কত?<br/>▣ <b>সমধান:</b><br/>দেওয়া আছে,<br/>x + y = 2 ........(১)<br/>x - y = 4 ........(২)<br/>▣ (১) + (২) করে পাই,<br/>(x + y) + (x - y) = 2 + 4<br/>⇒ 2x = 6<br/>∴ x = 3<br/>▣ এখন,<br/>x = 3 (১)  সমীকরণে বসিয়ে পাই,<br/>⇒ 3 + y = 2<br/>∴ y = - 1<br/>সুতরাং (x, y) = (3, - 1).\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330082,
+    "question": "দুটি সংখ্যার গ.সা.গু. 15 এবং ল.সা.গু. 225, একটি সংখ্যা 45 হলে, অপর সংখ্যাটি কত?",
+    "options": [
+      "15",
+      "45",
+      "75",
+      "225"
+    ],
+    "correct_answer": "75",
+    "explanation": "📖 আমরা জানি, দুটি সংখ্যার গুণফল = সংখ্যা দুটির গ.সা.গু. × ল.সা.গু.।<br/>ধরি, অপর সংখ্যাটি x।<br/>প্রশ্নমতে, 45 × x = 15 × 225<br/>বা, x = (15 × 225) / 45<br/>বা, x = 225 / 3<br/>সুতরাং, x = 75।",
+    "hints": "📖 <b>প্রশ্ন:</b> দুটি সংখ্যার গ.সা.গু. 15 এবং ল.সা.গু. 225, একটি সংখ্যা 45 হলে, অপর সংখ্যাটি কত?<br/>▣ <b>সমাধান:</b><br/>দেওয়া আছে,<br/>গ.সা.গু. = 15<br/>ল.সা.গু. = 225<br/>একটি সংখ্যা = 45<br/>ধরি, অপর সংখ্যা = x<br/>▣ প্রশ্নমতে,<br/>45 × x = 15 × 225<br/>⇒ x = 3375/45<br/>∴ x = 75<br/>▣ সুতরাং, অপর সংখ্যা হলো 75।\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330083,
+    "question": "\\({9}^{{{2}{x}−{5}}}=\\frac{{1}}{{27}}\\)</u>&nbsp;হলে, x এর মান কত?",
+    "options": [
+      "7/4",
+      "5/4",
+      "3/4",
+      "9/4"
+    ],
+    "correct_answer": "7/4",
+    "explanation": "📖 সমীকরণটি সমাধানের জন্য উভয় পাশের ভিত্তি একই করতে হবে। আমরা জানি, 9 = 3² এবং 27 = 3³।<br/>9⁽²ˣ⁻⁵⁾ = 1/27<br/>বা, (3²)⁽²ˣ⁻⁵⁾ = 1/3³<br/>বা, 3²⁽²ˣ⁻⁵⁾ = 3⁻³<br/>বা, 3⁽⁴ˣ⁻¹⁰⁾ = 3⁻³<br/>উভয় পাশের ভিত্তি একই হওয়ায়, আমরা সূচকগুলো সমান লিখতে পারি:<br/>4x - 10 = -3<br/>বা, 4x = 10 - 3<br/>বা, 4x = 7<br/>সুতরাং, x = 7/4।",
+    "hints": "📖 <b>প্রশ্ন:</b> 9<sup>2x - 5</sup> = 1/27 হলে, x এর মান কত?<br/>▣ <b>সমাধান:</b><br/>দেওয়া আছে,<br/>9<sup>2x - 5</sup> = 1/27<br/>⇒ (3<sup>2</sup>)<sup>2x - 5</sup> = 1/3<sup>3</sup><br/>⇒ 3<sup>4x - 10</sup> = 3<sup>-3</sup><br/>⇒ 4x - 10 = - 3<br/>⇒ 4x = - 3 + 10<br/>⇒ 4x = 7<br/>∴ x = 7/4<br/>▣ \r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330084,
+    "question": "4 মি. ব্যাসার্ধ বিশিষ্ট বৃত্তের পরিধি কত মি.?",
+    "options": [
+      "4π",
+      "6π",
+      "8π",
+      "16π"
+    ],
+    "correct_answer": "8π",
+    "explanation": "📖 বৃত্তের পরিধি নির্ণয়ের সূত্র হলো 2πr, যেখানে r হলো ব্যাসার্ধ।<br/>দেওয়া আছে, ব্যাসার্ধ r = 4 মিটার।<br/>সুতরাং, পরিধি = 2 × π × 4 = 8π মিটার।",
+    "hints": "📖 <b>প্রশ্ন:</b> 4 মি. ব্যাসার্ধ বিশিষ্ট বৃত্তের পরিধি কত মি.?<br/>▣ <b>সমাধান:</b><br/>আমরা জানি,<br/>বৃত্তের পরিধি = 2πr<br/>এখানে<br/>ব্যাসার্ধ, r = 4 মি.<br/>∴ বৃত্তের পরিধি = 2πr<br/>= 2π × 4<br/>= 8π\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330085,
+    "question": "(3,2) এবং (5,4) বিন্দু দুইটির দূরত্ব কত?",
+    "options": [
+      "4",
+      "3",
+      "3√2",
+      "2√2"
+    ],
+    "correct_answer": "2√2",
+    "explanation": "📖 দুটি বিন্দু (x₁, y₁) এবং (x₂, y₂) এর মধ্যবর্তী দূরত্ব নির্ণয়ের সূত্র হলো: √{(x₂ - x₁)² + (y₂ - y₁)²}।<br/>এখানে, (x₁, y₁) = (3, 2) এবং (x₂, y₂) = (5, 4)।<br/>দূরত্ব = √{(5 - 3)² + (4 - 2)²} = √{(2)² + (2)²} = √(4 + 4) = √8 = √(4 × 2) = 2√2।",
+    "hints": "📖 <b>প্রশ্ন:</b> (3, 2) এবং (5, 4) বিন্দু দুইটির দুরত্ব কত?<br/>▣ <b>সমাধান:</b><br/>দেওয়া আছে,<br/> (3, 2) এবং (5, 4)।<br/>▣ আমরা জানি,<br/>দূরত্ব, d =√(x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup><br/>এখানে,<br/>x<sub>1</sub> = 3, y<sub>1</sub> = 2, x<sub>2</sub> = 5, y<sub>2</sub> = 4<br/>∴ d =√{(5 - 3)<sup>2</sup> + (4 - 2)<sup>2</sup>}<br/>= √{(2)<sup>2</sup> + (2)<sup>2</sup>}<br/>= √(4 + 4)<br/>= √8<br/>= 2√2\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330086,
+    "question": "1, 3, 5, 7, ..... অনুক্রমটির 15 তম পদ কোনটি?",
+    "options": [
+      "27",
+      "29",
+      "31",
+      "33"
+    ],
+    "correct_answer": "29",
+    "explanation": "📖 এটি একটি সমান্তর ধারা, যার প্রথম পদ a = 1 এবং সাধারণ অন্তর d = 3 - 1 = 2।<br/>সমান্তর ধারার n-তম পদের সূত্র হলো: a + (n-1)d।<br/>এখানে, n = 15।<br/>সুতরাং, 15-তম পদ = 1 + (15 - 1) × 2 = 1 + 14 × 2 = 1 + 28 = 29।",
+    "hints": "📖 <b>প্রশ্ন:</b> 1, 3, 5, 7,.....অনুক্রমটির 15 তম পদ কোনটি?<br/>▣ <b>সমাধান:</b><br/>1, 3, 5, 7, ...<br/>এটি একটি সমান্তর ধারা। <br/>যার প্রথম পদ, a = 1<br/>সাধারণ অন্তর, d = 3 - 1 = 2<br/>n তম পদ = a + (n - 1)d<br/>∴ ১৫তম পদ = 1 + (15 - 1) × 2<br/>= 1 + 14 × 2<br/>= 1 + 28<br/>= 29\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330087,
+    "question": "\\({{\\log}_{{10}}{\\left({x}+{6}\\right)}}–{{\\log}_{{10}}{\\left({x}+{2}\\right)}}={\\log{{x}}}\\)</u>&nbsp;হলে, x এর মান কত?",
+    "options": [
+      "2",
+      "3",
+      "-3",
+      "2 বা -3"
+    ],
+    "correct_answer": "2",
+    "explanation": "📖 এখানে সবগুলোর ভিত্তি 10।<br/>log(x+6) – log(x+2) = log x<br/>বা, log {(x+6) / (x+2)} = log x [যেহেতু log M - log N = log(M/N)]<br/>উভয় পক্ষ থেকে log বাদ দিয়ে পাই,<br/>(x+6) / (x+2) = x<br/>বা, x+6 = x(x+2)<br/>বা, x+6 = x² + 2x<br/>বা, x² + 2x - x - 6 = 0<br/>বা, x² + x - 6 = 0<br/>বা, x² + 3x - 2x - 6 = 0<br/>বা, x(x+3) - 2(x+3) = 0<br/>বা, (x+3)(x-2) = 0<br/>সুতরাং, x = 2 অথবা x = -3।<br/>কিন্তু লগারিদমের মান ঋণাত্মক হতে পারে না (log x, log(x+2) অসংজ্ঞায়িত হবে), তাই x = -3 গ্রহণযোগ্য নয়। অতএব, x = 2।",
+    "hints": "📖 প্রশ্ন: log<sub>10</sub> (x + 6) - log<sub>10</sub> (x + 2) = log<sub>10</sub> x হলে, x এর মান কত?<br/>▣ সমাধান:<br/>দেওয়া আছে,<br/>log<sub>10</sub> (x + 6) - log<sub>10</sub> (x + 2) = log<sub>10</sub> x<br/>⇒ log<sub>10</sub> {(x + 6)/(x + 2)} = log<sub>10</sub> x<br/>⇒ (x + 6)/(x + 2) = x<br/>⇒ x<sup>2</sup> + 2x = x + 6<br/>⇒ x<sup>2</sup> + 2x - x - 6 = 0<br/>⇒ x<sup>2</sup> + x - 6 = 0<br/>⇒ x<sup>2</sup> + 3x - 2x - 6 = 0<br/>⇒ x(x + 3) - 2(x + 3) = 0<br/>⇒ (x + 3)(x - 2) = 0<br/>⇒ x = 2, - 3<br/>∴ x = - 3; log<sub>10</sub>(- 3) যা অসম্ভব ⇒ গ্রহণযোগ্য নয়<br/>▣ ∴ x = 2\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330088,
+    "question": "a+b=3 এবং ab=2 হলে, \\({a}^{{3}}+{b}^{{3}}\\)</u>= কত?",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "9"
+    ],
+    "correct_answer": "9",
+    "explanation": "📖 আমরা জানি, a³ + b³ এর অনুসিদ্ধান্ত হলো (a + b)³ - 3ab(a + b)।<br/>দেওয়া আছে, a + b = 3 এবং ab = 2।<br/>মান বসিয়ে পাই, (3)³ - 3(2)(3) = 27 - 18 = 9।",
+    "hints": "📖 <b>প্রশ্ন:</b> a + b = 3 এবং ab = 2 হলে, a<sup>3</sup> + b<sup>3</sup> =  কত?<br/>▣ <b>সমাধান:</b><br/>দেওয়া আছে,<br/>a + b = 3, ab = 2.<br/>▣ আমরা জানি,<br/>a<sup>3</sup> + b<sup>3</sup> = (a + b)<sup>3</sup> - 3ab(a + b)<br/>= (3)<sup>3</sup> - 3 × 2 × 3<br/>= 27 - 18<br/>= 9<br/>▣ অতএব, a<sup>3</sup> + b<sup>3</sup> = 9\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330089,
+    "question": "\\({x}^{{3}}-{2}{x}^{{2}},{x}^{{2}}-{4},{x}{y}-{2}{y}\\)</u>&nbsp;রাশিগুলোর গ.সা.গু. (H.C.F) কত?",
+    "options": [
+      "x+2",
+      "x-2",
+      "xy",
+      "x"
+    ],
+    "correct_answer": "x-2",
+    "explanation": "📖 প্রথমে প্রতিটি রাশিকে উৎপাদকে বিশ্লেষণ করি:<br/>প্রথম রাশি: x³ - 2x² = x²(x - 2)<br/>দ্বিতীয় রাশি: x² - 4 = x² - 2² = (x + 2)(x - 2)<br/>তৃতীয় রাশি: xy - 2y = y(x - 2)<br/>রাশি তিনটির সাধারণ উৎপাদক হলো (x - 2)।<br/>সুতরাং, নির্ণেয় গ.সা.গু. হলো (x - 2)।",
+    "hints": "📖 <b>প্রশ্ন:</b> x<sup>3</sup> - 2x<sup>2</sup>, x<sup>2</sup> - 4, xy - 2y রাশিগুলোর গ.সা.গু. (H.C.F) কত?<br/>▣ <b>সমাধান:</b><br/>১ম রাশি = x<sup>3</sup> - 2x<sup>2 </sup><br/>= x<sup>2</sup>(x - 2)<br/>২য় রাশি = x<sup>2</sup> - 4<br/>= x<sup>2</sup> - 2<sup>2</sup><br/>= (x + 2)(x - 2)<br/>৩য় রাশি = xy - 2y<br/>= y(x - 2)<br/>নির্ণেয় গ.সা.গু = (x - 2)\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330090,
+    "question": "20% কমে একটি পণ্য 1280 টাকায় বিক্রয় হলে, পণ্যটির পূর্বের বিক্রয়মূল্য কত টাকা ছিল?",
+    "options": [
+      "2000",
+      "1800",
+      "1600",
+      "1400"
+    ],
+    "correct_answer": "1600",
+    "explanation": "📖 20% কমে বিক্রয়মূল্য হয় পূর্বমূল্যের (100 - 20)% = 80%।<br/>প্রশ্নমতে, পূর্বমূল্যের 80% = 1280 টাকা।<br/>তাহলে, পূর্বমূল্যের 1% = 1280 / 80 টাকা।<br/>সুতরাং, পূর্বমূল্যের 100% = (1280 / 80) × 100 = 16 × 100 = 1600 টাকা।",
+    "hints": "📖 <b>প্রশ্ন:</b> 20% কমে একটি পণ্য 1280 টাকায় বিক্রয় হলে, পণ্যটির পূর্বের বিক্রয় মূল্য কত টাকা ছিল?<br/>▣ <b>সমাধান:</b><br/>ধরি,<br/>পণ্যটির পূর্বের বিক্রয়মূল্য ছিল 100%।<br/>20% ছাড় দেওয়ায় পণ্যটির বর্তমান বিক্রয়মূল্য হলো (100% - 20%) = 80%।<br/>প্রশ্ন অনুযায়ী, এই 80% মূল্য হলো 1280 টাকা।<br/>সুতরাং,<br/>80% = 1280 টাকা<br/>1% = (1280/80) টাকা = 16 টাকা<br/>100% = (16 × 100) টাকা = 1600 টাকা<br/>অতএব, পণ্যটির পূর্বের বিক্রয়মূল্য ছিল 1600 টাকা।\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330091,
+    "question": "\\({{\\log}_{{10}}{x}}=-{2}\\)</u>হলে, x এর মান কত?",
+    "options": [
+      "100",
+      "10",
+      "0.01",
+      "0.001"
+    ],
+    "correct_answer": "0.01",
+    "explanation": "📖 লগারিদমের সংজ্ঞা অনুযায়ী, logₐ b = c হলে, aᶜ = b হয়।<br/>এখানে, log₁₀ x = -2।<br/>সুতরাং, x = 10⁻² = 1 / 10² = 1 / 100 = 0.01।",
+    "hints": "📖 <b>প্রশ্ন:</b> log<sub>10</sub>x = - 2 হলে, x এর মান কত?<br/>▣ <b>সমাধান:</b><br/>দেওয়া আছে,<br/>log<sub>10</sub>x = - 2<br/>⇒ x = 10<sup>-2</sup><br/>⇒ x = 1/10<sup>2</sup><br/>⇒ x = 1/100<br/>∴ x = 0.01\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330092,
+    "question": "একটি ত্রিভুজের তিনটি কোণের অনুপাত 3 : 4 : 5 হলে, ক্ষুদ্রতর কোনটি কত ডিগ্রী?",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "75°"
+    ],
+    "correct_answer": "45°",
+    "explanation": "📖 মনে করি, ত্রিভুজের কোণ তিনটি যথাক্রমে 3x, 4x এবং 5x।<br/>আমরা জানি, ত্রিভুজের তিন কোণের সমষ্টি 180°।<br/>প্রশ্নমতে, 3x + 4x + 5x = 180°<br/>বা, 12x = 180°<br/>বা, x = 180° / 12 = 15°।<br/>সুতরাং, ক্ষুদ্রতর কোণটি হলো 3x = 3 × 15° = 45°।",
+    "hints": "📖 <b>প্রশ্ন:</b> একটি ত্রিভুজের তিনটি কোণের অনুপাত 3 : 4 : 5 হলে, ক্ষুদ্রতর কোনটি কত ডিগ্রী?<br/>▣ <b>সমাধান:</b><br/>দেওয়া আছে,<br/>3 : 4 : 5<br/>ধরি কোণগুলো হলো 3x, 4x, 5x<br/>▣ আমরা জানি,<br/>ত্রিভুজের কোণগুলোর যোগফল = 180°<br/>▣ প্রশ্নমতে,<br/>3x + 4x + 5x = 180<br/>⇒ 12x = 180<br/>⇒ x = 180/12<br/>∴ x = 15<br/>▣ তাহলে কোণগুলো হল,<br/>3x = 3 × 15 = 45°<br/>4x = 4 × 15 = 60°<br/>5x = 5 × 15 = 75°<br/>▣ ∴ ক্ষুদ্রতম কোণ = 45°\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330093,
+    "question": "(2,3) এবং (4,9) বিন্দুগামী সরলরেখার ঢাল কত?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct_answer": "3",
+    "explanation": "📖 দুটি বিন্দু (x₁, y₁) এবং (x₂, y₂) দিয়ে গমনকারী সরলরেখার ঢাল (m) নির্ণয়ের সূত্র হলো: m = (y₂ - y₁) / (x₂ - x₁)।<br/>এখানে, (x₁, y₁) = (2, 3) এবং (x₂, y₂) = (4, 9)।<br/>ঢাল, m = (9 - 3) / (4 - 2) = 6 / 2 = 3।",
+    "hints": "📖 <b>প্রশ্ন:</b> (2, 3) এবং (4, 9) বিন্দুগামী সরলরেখার ঢাল কত?<br/>▣ <b>সমাধান:</b><br/>বিন্দু দুইটি  (x<sub>1</sub>, y<sub>1</sub>) = (2, 3)<br/> এবং (x<sub>2</sub>, y<sub>2</sub>) = (4, 9)<br/>▣ আমরা জানি,<br/>সরলরেখার ঢাল m = (y<sub>2</sub> - y<sub>1</sub>)/(x<sub>2</sub> - x<sub>1</sub>)<br/>= (9 - 3)/(4 - 2)<br/>= 6/2<br/>= 3\r\n",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330094,
+    "question": "The word ‘biophilic’ means-",
+    "options": [
+      "relating to biology",
+      "human tendency to connect with nature",
+      "study of nature",
+      "biological"
+    ],
+    "correct_answer": "human tendency to connect with nature",
+    "explanation": "📖 'Biophilic' শব্দটি দুটি গ্রিক শব্দ থেকে এসেছে: 'bio' অর্থ 'জীবন' বা 'প্রকৃতি' এবং 'philia' অর্থ 'ভালোবাসা' বা 'অনুরাগ'। 'Biophilia' তত্ত্ব অনুযায়ী, মানুষের সহজাত প্রবণতা হলো প্রকৃতি এবং জীবন্ত জিনিসের সাথে সংযোগ স্থাপন করা। তাই 'biophilic' অর্থ প্রকৃতির প্রতি মানুষের এই সহজাত আকর্ষণ বা সংযোগ স্থাপনের প্রবণতা।<br/>❏",
+    "hints": "📖 <b>Answer  - খ) human tendency to connect with nature.</b><br/>▣ Biophilic:<br/>English meaning: of, relating to, or characterized by biophilia : relating to, showing, or being the human tendency to interact or be closely associated with other forms of life in nature.<br/>Bangla meaning: মানুষের মধ্যে প্রকৃতির সঙ্গে সংযোগ স্থাপনের প্রবণতা বা অনুরাগ।<br/>▣ Example:<br/>❏ Humans have a biophilic tendency, which is why gardens and parks make them feel relaxed.<br/>▣ অন্যান্য অপশনগুলো:<br/>❏ relating to biology → জীববিজ্ঞানের সঙ্গে সম্পর্কিত।<br/>▣ study of nature → প্রকৃতির অধ্যয়ন।<br/>▣ biological → জীববিজ্ঞানসংক্রান্ত।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330095,
+    "question": "'The boys saw him ‘walking’ out.' Here 'walking' is a/an-",
+    "options": [
+      "gerund",
+      "infinitive",
+      "verbal noun",
+      "participle"
+    ],
+    "correct_answer": "participle",
+    "explanation": "📖 যখন verb-এর ing-যুক্ত রূপ কোনো noun বা pronoun-কে modify করে বা তার অবস্থা বর্ণনা করে, তখন তাকে Participle বলে। এখানে 'walking' শব্দটি pronoun 'him'-এর অবস্থা বর্ণনা করছে (বালকেরা তাকে হাঁটতে থাকা অবস্থায় দেখেছিল)। তাই এটি একটি Present Participle। (দ্রষ্টব্য: প্রদত্ত উত্তরে এটিকে Gerund বলা হলেও, আধুনিক ব্যাকরণ অনুযায়ী এটি Participle-এর উদাহরণ)।",
+    "hints": "📖 <b>The boys saw him walking out. Here 'walking' is a/an- participle.</b><br/>❏ এখানে walking হলো present participle.<br/>❏ এটি verb + ing আকারে এসেছে এবং saw verb কে modify করছে।<br/>অর্থাৎ, \"walking out\" বর্ণনা করছে him-এর কার্যকলাপ, তাই এটি participle.<br/>▣ A participle is a verb that ends in -ing (present participle) or -ed, -d, -t, -en, -n (past participle). Participles may function as adjectives, describing or modifying nouns.<br/>❏ Participle একই সাথে Verb ও Adjective এর কাজ করে।<br/>❏ Participle মূলত: তিন প্রকার:<br/>1. Present Participle. Ex: Do not disturb a sleeping dog.<br/>2. Past Participle. Ex: This is a book written by Charles Dickens.<br/>3. Perfect Participle. Ex: Having eaten rice, he went to bed.<br/>▣ অন্যান্য অপশনগুলো:<br/>❏ <b>Gerund: </b><br/>❏ Verb এর সাথে ing যোগ হয়ে যদি noun এর কাজ করে অর্থাৎ Verb ও noun এর কাজ করে, তাহলে তাকে Gerund বলে।<br/>❏ A Gerund is a double part of speech - a Noun and Verb combined. <br/>❏ <b>Infinitive: </b>verb-এর to + base form (যেমন to walk).<br/>❏ এখানে \"walking\" infinitive নয়, কারণ \"to walk\" বলা হতো।<br/>❏ <b>Verbal Noun: </b><br/>❏ কোন বাক্যের Verb + ing - এর পুর্বে the এবং পরে of থাকলে তাকে Verbal Noun বলে।<br/>❏ The + verb+ing + of = verbal noun.<br/>❏ Verbal Noun দ্বারা Noun এর কাজ সম্পন্ন হয়।<br/>❏ নিয়মানুযায়ী The writing of a good letter is very different is the example of verbal noun<br/>❏ কারণ, writing এর পূর্বে the ও পরে of বসেছে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330096,
+    "question": "Fill in the blank with the appropriate article: 'The mother seized …........ boy by the collar.'",
+    "options": [
+      "the",
+      "an",
+      "a",
+      "none of the above"
+    ],
+    "correct_answer": "the",
+    "explanation": "📖 এখানে একজন নির্দিষ্ট বালককে বোঝানো হচ্ছে, যাকে তার মা কলার ধরেছে। কোনো কিছুকে নির্দিষ্ট করে বোঝানোর জন্য Definite Article 'the' ব্যবহৃত হয়। 'a' বা 'an' ব্যবহৃত হলে যেকোনো একজন বালককে বোঝাত, যা এখানে প্রাসঙ্গিক নয়।",
+    "hints": "📖 <b>Answer: ক) the.</b><br/><b>Complete sentence: The mother seized the boy by the collar.</b><br/>▣ boy এখানে definite অর্থে ব্যবহার হয়েছে, কারণ—<br/>❏ কার কথা বলা হচ্ছে তা নির্দিষ্ট (the mother already knew which boy).<br/>❏ \"by the collar\" অংশটিও এটিকে definite করে তুলছে (boy-এর নিজের collar ধরা হয়েছে)।<br/>▣ Article:<br/>❏ Articles মূলত Noun, Pronoun এর আগে বসে তাদের সংখ্যা এবং নির্দিষ্টতা, অনির্দিষ্টতা জ্ঞাপন করে।<br/>❏ Articles কে প্রধানত দুই ভাগে ভাগ করে যায়।<br/>❏ Indefinite Articles: A, An-এরা  Indefinite Article. (এরা নির্দিষ্টভাবে কোনো ব্যক্তি, বস্তু বা কোনো বিষয়কে নির্দেশ করে না)।<br/>❏ Definite Articles: The হলো Definite Article (এটি কোনো বিশেষ ব্যক্তি, বস্তু বা বিষয়কে নির্দিষ্টভাবে বোঝাতে বা চিহ্নিত করতে ব্যবহৃত হয়ে থাকে)।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330097,
+    "question": "'Rise early with the lark.' In this sentence the verb 'rise' is-",
+    "options": [
+      "causative",
+      "intransitive",
+      "transitive",
+      "factitive"
+    ],
+    "correct_answer": "intransitive",
+    "explanation": "📖 যে verb-এর কোনো object (কর্ম) থাকে না, তাকে Intransitive Verb (অকর্মক ক্রিয়া) বলে। এই বাক্যে 'Rise' (ওঠা) verb-টির কোনো object নেই। 'কী' বা 'কাকে' দিয়ে প্রশ্ন করলে উত্তর পাওয়া যায় না। তাই 'rise' একটি Intransitive Verb। Transitive verb-এর object থাকে (যেমন: I eat rice)।",
+    "hints": "📖 <b>Rise early with the lark. In this sentence the verb 'rise' is- intransitive.</b><br/>❏ এখানে rise কোনো object গ্রহণ করছে না।<br/>❏ Intransitive verb হলো সেই verb যা direct object ছাড়া কাজ করে।<br/>❏ অর্থাৎ, subject নিজেই কাজটি সম্পন্ন করছে, কিন্তু কোনো object প্রভাবিত হচ্ছে না।<br/>▣ <b>Intransitive verb:</b><br/>❏ যেসকল verb এর object বা কর্ম থাকে না তাকে Intransitive verb বলে।<br/>❏ সাধারণত Intransitive verb এর পর adverb অথবা preposition ব্যবহৃত হয়।<br/>❏ বাক্যে ব্যবহৃত Intransitive verb-কে কি (what?) বা কাকে (whom?) দ্বারা প্রশ্ন করলে কোনো উত্তর পাওয়া যায় না।<br/>❏ উল্লেখ্য Intransitive Verb এর ক্ষেত্রে কখন(when) বা কোথায় (where) দ্বারা প্রশ্ন করতে হয়।<br/>❏ Intransitive verb যুক্ত sentence-এর সাধারণ Structure হচ্ছে: Subject + verb.<br/>▣ Examples:<br/>❏ They run every morning.<br/>❏ The cat jumped onto the table.<br/>❏ The leaves fall in winter.<br/>❏ উল্লিখিত বাক্যের verb সমূহের Direct Object নেই এবং কি বা কাকে দ্বারা প্রশ্ন করলে কোনো উত্তর পাওয়া যায় না।<br/>▣ <b>Other options,</b><br/>❏ <b>Causative Verb:</b><br/>❏ Subject যখন নিজে কাজ না করে অন্যকে দিয়ে কাজ করিয়ে নেয় তখন এই অর্থে causative verb ব্যবহৃত হয়।<br/>❏ Help, Get, Have, Let, Make ইত্যাদি বহুল প্রচলিত causative verb.<br/>❏ Make, have, get প্রভৃতি যোগে অনেক verb- কে causative verb এ পরিণত করা যায়।<br/>❏ যেমন:<br/>❏ I shall get the work done by him. (আমি তার দ্বারা কাজটি করিয়ে নেব।)<br/>❏ <b>Transitive verb:</b><br/>❏ যে verb এর object আছে তাকে transitive verb বলে৷<br/>❏ Transitive verbs এর সাধারণ Structure  হচ্ছে : subject + verb + object<br/>❏ Object সর্বদাই Noun অথবা Pronoun হয়।<br/>❏ তাই বাক্যে verb এর পরে Noun অথবা Pronoun থাকলে verb টি সাধারণত transitive verb হবে।<br/>❏ আবার intransitive verb এর শেষে preposition + object যুক্ত করেও তাকে transitive verb এ পরিণত করা যায়।<br/>▣ <b> • Factitive object:</b><br/>❏ যে সকল verb এর পরে object complement বসে তাকে Factitive object বলে।<br/>❏ অর্থাৎ যখন verb এর পরে দুটি অংশ থাকবে এবং একটি অপরটিকে নির্দেশ করবে তখন object এর পরের অংশকে objective complement বা Factitive object বলে।<br/>❏ We made him captain.<br/>❏ এখানে captain শব্দটি him object এর complement.<br/>❏ তাই এটি Factitive object.\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330098,
+    "question": "The indirect speech of the sentence: Shila said to him, \"Are you satisfied with your new car?\"",
+    "options": [
+      "Shila asked him whether he is satisfied with his new car.",
+      "Shila asked him if he was satisfied with his new car.",
+      "Shila asked him if he had been satisfied with his new car.",
+      "Shila enquired of him whether he has been satisfied with his new car."
+    ],
+    "correct_answer": "Shila asked him if he was satisfied with his new car.",
+    "explanation": "📖 এটি একটি Interrogative Sentence। Indirect speech-এ পরিবর্তন করার নিয়ম:<br/>❏ 'said to' পরিবর্তিত হয়ে 'asked' হবে।<br/>❏ Inverted comma উঠে গিয়ে 'if' বা 'whether' বসবে।<br/>❏ Reported speech-এর Tense পরিবর্তন হবে। \"Are you satisfied\" (Present Simple) পরিবর্তিত হয়ে \"he was satisfied\" (Past Simple) হবে।<br/>❏ Pronoun পরিবর্তন হবে: 'you' পরিবর্তিত হয়ে 'he' এবং 'your' পরিবর্তিত হয়ে 'his' হবে।<br/>❏ এই নিয়মগুলো অনুযায়ী সঠিক উত্তর হলো (B)।",
+    "hints": "📖 <b>সঠিক উত্তর হলো: খ) Shila asked him if he was satisfied with his new car. </b><br/>▣ Interrogative Sentence যুক্ত Direct Speech কে Indirect Speech করার নিয়ম:<br/>❏ প্রশ্নের ক্ষেত্রে ask / enquire ব্যবহার হয়।<br/>❏ Yes/No প্রশ্ন হলে if / whether ব্যবহার হয়।<br/>❏ Direct speech-এর present tense সাধারণত past tense-এ পরিবর্তিত হয়।<br/>❏ Pronoun ও possessive pronoun ঠিকভাবে পরিবর্তন করতে হয়।<br/>▣ Subject + ask + object + if/whether + reported speech এর subject + Tense অনুসারে verb + extension.<br/><b>Direct: Shila said to him, “Are you satisfied with your new car?\"</b><br/><b>Indirect: Shila asked him if he was satisfied with his new car.<br/>▣ অন্যান্য অপশন বিশ্লেষণ:<br/></b>ক) Shila asked him whether he is satisfied with his new car.<br/> → is satisfied → tense ঠিক করা হয়নি, reported speech past tense হওয়া উচিত।<br/>▣ গ) Shila asked him if he had been satisfied with his new car<br/>❏ “had been” হলো past perfect।<br/>❏ এটা তখনই ব্যবহৃত হয় যদি মূল বাক্য past tense-এ হয় বা পূর্বের কিছু ঘটনার কথা বলা হয়।<br/>❏ এখানে মূল বাক্য present tense, তাই past perfect দরকার নেই।<br/>▣ ঘ)  Shila enquired of him whether he has been satisfied with his new car.<br/>❏ “has been” present perfect, কিন্তু reporting verb past tense।<br/>❏ tense mismatch হয়েছে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330099,
+    "question": "Identify the correct sentence",
+    "options": [
+      "The unfortunate accident had occurred on Monday last",
+      "The unfortunate accident was occurred on Monday last",
+      "The unfortunate accident occurred on Monday last",
+      "The unfortunate accident has occurred on Monday last"
+    ],
+    "correct_answer": "The unfortunate accident occurred on Monday last",
+    "explanation": "📖 বাক্যে 'on Monday last' দ্বারা অতীতের একটি নির্দিষ্ট সময় উল্লেখ করা হয়েছে। অতীতের নির্দিষ্ট সময়ের ঘটনা বোঝাতে Past Simple Tense ব্যবহৃত হয়।<br/>❏ (A) 'had occurred' (Past Perfect) ভুল, কারণ দুটি অতীত ঘটনার মধ্যে তুলনা করা হচ্ছে না।<br/>❏ (B) 'was occurred' ভুল, কারণ 'occur' একটি intransitive verb, এর passive form হয় না।<br/>❏ (C) 'occurred' (Past Simple) সঠিক।<br/>❏ (D) 'has occurred' (Present Perfect) ভুল, কারণ Present Perfect Tense-এর সাথে অতীতের নির্দিষ্ট সময় (last Monday) বসে না।",
+    "hints": "📖 সঠিক উত্তর হলো: গ) The unfortunate accident occurred on Monday last.<br/>যেহেতু Monday last নির্দিষ্ট অতীত সময় নির্দেশ করছে, তাই simple past tense ব্যবহার হবে → occurred.<br/>▣  বাক্যে last থাকায় বোঝা যাচ্ছে বাক্যটি past indefinite tense এ হবে।<br/>❏ Yesterday, ago, long ago, long since, <b>last</b>, last night, last week, last month, last year, the day before yesterday, as soon as ইত্যাদি শব্দগুচ্ছ Past Indefinite Tense নির্দেশক শব্দ অর্থ এরা যদি কোনো বাক্যে থাকে তবে সেই বাক্যটি past indefinite tense এ হয়।<br/>▣ Other options,<br/>ক) The unfortunate accident had occurred on Monday last.<br/>❏ এটি past perfect tense.<br/>❏ Past perfect সাধারণত ব্যবহার হয় দুইটি অতীত ঘটনা মধ্যে প্রথমটি বোঝাতে।<br/>❏ উদাহরণ: The train had left before we reached the station.<br/>❏ এখানে Monday last শুধু নির্দিষ্ট একটি অতীত সময়, অন্য কোন অতীত ঘটনার আগে হয়নি, তাই had occurred প্রয়োজন নেই।<br/>❏ তাই এটি ভুল।<br/>▣ খ) The unfortunate accident was occurred on Monday last.<br/>❏ occur হলো intransitive verb, অর্থাৎ এটি passive voice-এ ব্যবহার হয় না।<br/>❏ অতএব, was occurred ভুল।<br/>▣ ঘ) The unfortunate accident has occurred on Monday last.<br/>❏ has occurred - present perfect tense.<br/>❏ Present perfect সাধারণত অতীতে শুরু হওয়া এবং বর্তমানে প্রভাবিত ঘটনা বোঝাতে ব্যবহার হয়।<br/>❏ কিন্তু Monday last সম্পূর্ণ অতীত → present perfect ব্যবহার করা ভুল।<br/>❏ ভুল।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330100,
+    "question": "The idiom 'cry over spilled milk' means-",
+    "options": [
+      "to be upset about something irretrievably lost",
+      "to cry incessantly",
+      "to cry for a dead pet",
+      "to cry for urgent help"
+    ],
+    "correct_answer": "to be upset about something irretrievably lost",
+    "explanation": "📖 'Cry over spilled milk' একটি জনপ্রিয় idiom, যার আক্ষরিক অর্থ 'পড়ে যাওয়া দুধের জন্য কাঁদা'। এর ভাবার্থ হলো, যে ক্ষতি হয়ে গেছে এবং যা আর ফেরানো সম্ভব নয়, তার জন্য বৃথা অনুশোচনা করা। সুতরাং, এর অর্থ হলো 'to be upset about something irretrievably lost' (যা অপূরণীয়ভাবে হারিয়ে গেছে তার জন্য মন খারাপ করা)।",
+    "hints": "📖 <b>সঠিক উত্তর হলো: ক) to be upset about something irretrievably lost.</b><br/>▣ Cry over spilled milk (idiom):<br/>English Meaning: to express regret about something that has already happened or cannot be changed.<br/>Bangla Meaning: বৃথা অনুশোচনা করা।<br/>Ex. Sentence: Yes, we made a mistake, but there’s no point in crying over spilled milk.<br/>Bangla Meaning: হ্যা, আমরা একটা ভুল করে ফেলেছি, এখন এটা নিয়ে বৃথা অনুশোচনা করার কোনো মানে হয় না।<br/><b>Other options,</b><br/>খ) to cry incessantly<br/>❏   অবিরাম কাঁদা।<br/>▣ গ) to cry for a dead pet<br/>❏ মৃত পোষ্য পশুর জন্য কাঁদা।<br/>▣ ঘ) to cry for urgent help<br/>❏   জরুরি সাহায্যের জন্য চিৎকার করা।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330101,
+    "question": "Select the sentence in which 'after' is a conjunction :",
+    "options": [
+      "The storm came soon after",
+      "The boy takes after his father",
+      "The police went away after we had left",
+      "After ages the nation is likely to sing his glory"
+    ],
+    "correct_answer": "The police went away after we had left",
+    "explanation": "📖 Conjunction দুটি clause (বাক্যাংশ) বা বাক্যকে যুক্ত করে।<br/>❏ (A) The storm came soon after: এখানে 'after' একটি adverb।<br/>❏ (B) The boy takes after his father: এখানে 'takes after' একটি phrasal verb, যার অর্থ 'সদৃশ হওয়া'।<br/>❏ (C) The police went away after we had left: এখানে 'after' শব্দটি \"The police went away\" এবং \"we had left\" এই দুটি clause-কে যুক্ত করেছে। তাই এটি Conjunction।<br/>❏ (D) After ages the nation is...: এখানে 'after' একটি preposition।",
+    "hints": "📖 <b>ঠিক উত্তর: গ) The police went away after we had left.</b><br/>❏ Conjunction হল যে শব্দ দুটি clause বা বাক্যাংশকে যুক্ত করে।<br/>❏ এখানে \"after\" একটি conjunction হিসেবে ব্যবহৃত হয়েছে।<br/>❏ এটি দুটি clause যুক্ত করেছে:Main clause: \"The police went away\".<br/>❏ Subordinate clause: \"we had left\".<br/>▣ After: [conjunction]<br/>English meaning: at a time later than something; when something has finished.<br/>Bangla meaning: পর; পরে<br/>▣ ক) The storm came soon after.<br/>এখানে \"after\" হলো adverb, কারণ এর পরে কোন noun বা clause নেই।<br/>▣ খ) The boy takes after his father.<br/>এখানে \"after\" হলো preposition, অর্থাৎ \"like\" বা \"resemble\" বোঝাচ্ছে।<br/>▣ ঘ) After ages the nation is likely to sing his glory.<br/>এখানে \"after\" হলো preposition, কারণ \"ages\" হলো noun।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330102,
+    "question": "The suffix 'hood' can be added to -",
+    "options": [
+      "friend",
+      "honest",
+      "parent",
+      "wide"
+    ],
+    "correct_answer": "parent",
+    "explanation": "📖 '-hood' একটি suffix যা কোনো অবস্থা, গুণ বা সময়কাল বোঝাতে noun-এর শেষে যুক্ত হয়।<br/>❏ friend: এর সাথে '-ship' যুক্ত হয়ে 'friendship' (বন্ধুত্ব) হয়। 'Friendhood' শব্দটি অপ্রচলিত।<br/>❏ honest: এটি একটি adjective, এর noun form হলো 'honesty'।<br/>❏ parent: এর সাথে '-hood' যুক্ত হয়ে 'parenthood' (পিতৃত্ব বা মাতৃত্ব) হয়, যা একটি অবস্থা বোঝায়।<br/>❏ wide: এটি একটি adjective, এর noun form হলো 'width' (প্রস্থ)।<br/>❏ সুতরাং, 'parent' শব্দটির সাথেই '-hood' প্রত্যয়টি অর্থপূর্ণভাবে যুক্ত হয়।",
+    "hints": "📖 <b>Answer - parent.<br/>সঠিক — parent + hood = parenthood → পিতৃত্ব বা মাতৃত্বের অবস্থা।</b><br/>▣ Word এর মূল অংশের (root) এর ডান পাশে বা শেষে যে বর্ণ বা বর্ণগুচ্ছ যুক্ত হয় তাকে Suffix বলে।<br/>❏ -hood: [suffix]<br/>English meaning: used to form nouns describing the state of being a particular thing.<br/>▣ <br/>ক) friend + [-hood]<br/> - wrong word.<br/>▣ খ) honest + [-hood]<br/>❏ wrong word.<br/>▣ <b>গ) parent + [-hood]</b><br/>❏ <b>parenthood.</b><br/>❏ Meaning: the state of being a parent<br/>▣ ঘ) wide + [-hood]<br/>❏ wrong word.\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330103,
+    "question": "The verb form of the word 'amusement' is :",
+    "options": [
+      "amusing",
+      "amuse",
+      "anused",
+      "amusingly"
+    ],
+    "correct_answer": "amuse",
+    "explanation": "📖 'Amusement' একটি noun, যার অর্থ বিনোদন বা মজা। এর verb form হলো 'amuse', যার অর্থ আনন্দ দেওয়া বা মজা দেওয়া। 'Amusing' হলো present participle বা adjective এবং 'amusingly' হলো adverb।",
+    "hints": "📖 <b>The verb form of the word 'amusement' is: amuse.<br/>▣ Amusement: [noun]</b><br/>English meaning: the feeling that you have when you enjoy something that is funny.<br/>Bangla meaning: হাস্যকৌতুক; কৌতুকানুভূতি; কৌতুকাবিষ্টতা।<br/>▣ Options,<br/><b>ক) amusing: [adjective]</b><br/>English meaning: funny and giving pleasure.<br/>Bangla meaning: মজার; মজাদার।<br/>▣ <b>খ) amuse: [verb]</b><br/>English meaning: to make somebody laugh or smile/ to make time pass pleasantly for somebody/yourself.<br/>Bangla meaning: (১) মজা করে সময় কাটানো: The kids amused themselves playing many games in the park. (২) (কাউকে) হাসানো: His jokes amused all of us.<br/>▣ <b>গ) amused: [adjective]</b><br/>English meaning: thinking that somebody/something is funny, so that you smile or laugh.<br/>Bangla meaning: আনন্দিত বা মজা পেয়েছে।<br/>▣ <b>ঘ) amusingly: [adverb]</b><br/>English meaning: in a funny way that gives pleasure.<br/>Bangla meaning: মজারভাবে বা আনন্দদায়কভাবে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330104,
+    "question": "Fill in the blank with the appropriate preposition: 'Rina does not excel …........English.'",
+    "options": [
+      "in",
+      "at",
+      "for",
+      "of"
+    ],
+    "correct_answer": "at",
+    "explanation": "📖 কোনো বিষয়ে দক্ষ বা পারদর্শী বোঝাতে 'excel at' বা 'excel in' উভয়ই ব্যবহৃত হয়। তবে কোনো নির্দিষ্ট দক্ষতা বা বিষয়ে পারদর্শিতা বোঝাতে 'excel at' বেশি প্রচলিত ও সঠিক (appropriate)। যেমন: excel at mathematics, excel at painting। তাই এখানে 'at' সঠিক উত্তর।",
+    "hints": "📖 \"Excel\" সাধারণত কোন বিষয়ে দক্ষতা দেখানোর ক্ষেত্রে ব্যবহার হয়।<br/>▣ excel (in/at)<br/>English meaning: to be extremely good at something.<br/>Bangla meaning: (১) অন্যদের চেয়ে ভালো করা। (২) ছাড়িয়ে যাওয়া।<br/>▣ তবে,<br/><b>excel in → যখন কোনো subject/field/area বোঝানো হয়।</b><br/>উদাহরণ: She excels in mathematics.<br/>▣ excel at → যখন কোনো particular skill/doing action বোঝানো হয়।<br/>উদাহরণ: He excels at playing football.<br/>▣ <b>Complete sentence - Rina does not excel <u>in</u> English.</b>\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330105,
+    "question": "Identify the word having the same form in both singular and plural :",
+    "options": [
+      "cuff",
+      "hunk",
+      "life",
+      "moose"
+    ],
+    "correct_answer": "moose",
+    "explanation": "📖 কিছু noun আছে যাদের singular এবং plural form একই থাকে।<br/>❏ cuff (singular) -> cuffs (plural)<br/>❏ hunk (singular) -> hunks (plural)<br/>❏ life (singular) -> lives (plural)<br/>❏ moose (singular) -> moose (plural)। Moose (এক প্রকার বড় হরিণ) ছাড়াও sheep, deer, fish ইত্যাদি শব্দের plural form একই থাকে।",
+    "hints": "📖 <b>Answer - moose.<br/>▣ Moose:</b><br/><b>English meaning:</b> a type of large deer with large, flat antlers (= wide horns like branches) and a long nose that lives in the forests of North America, northern Europe, and Asia.<br/><b>Bangla meaning: </b>উত্তর আমেরিকা, উত্তর ইউরোপ (এখানে elk নামে পরিচিত) ও এশিয়ার মোটা লোম ও মোটা শিংওয়ালা হরিণবিশেষ; চমর।<br/>▣ <b>এর Plural form: 'moose'.</b><br/>▣ Option,<br/>ক) cuff:<br/>❏ হাতের কব্জির চারপাশের কাপড় বা বাঁধন<br/>❏ Plural: cuffs.<br/>▣ খ) hunk:<br/>❏ বড় বা মোটা টুকরা, সাধারণত খাবারের বা আকর্ষণীয় পুরুষকে বোঝায়<br/>❏ Plural: hunks.<br/>▣ গ) life:<br/>❏ জীবন; প্রাণ।<br/>❏ Plural: lives.\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330106,
+    "question": "My brother is an ‘elderly’ person.' Here 'elderly' is a/an-",
+    "options": [
+      "adverb",
+      "noun",
+      "adjective",
+      "conjunction"
+    ],
+    "correct_answer": "adjective",
+    "explanation": "📖 এখানে 'elderly' শব্দটি 'person' (noun)-কে বর্ণনা করছে বা তার সম্পর্কে তথ্য দিচ্ছে। যে word noun বা pronoun-কে modify করে তাকে Adjective বলে। তাই 'elderly' একটি Adjective।",
+    "hints": "📖 <b>'My brother is an <u>elderly</u> person.' Here 'elderly' is a/an- adjective.<br/></b>- \"elderly\" describes person → অর্থাৎ এটি person-এর গুণ/বর্ণনা করছে।<br/>❏ Words that describe nouns are called adjectives.<b><br/>▣ elderly: [adjective]</b><br/>English meaning: (of people) used as a polite word for ‘old’.<br/>Bangla meaning: বয়োজ্যেষ্ঠ; প্রৌঢ়; প্রবীণ।<br/>▣ <b>Example: </b><br/>❏ an elderly man/woman/lady<br/>❏ an elderly couple<br/>❏ They were reunited at last with their elderly relatives.\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330107,
+    "question": "Choose the passive form of 'Visitors found him playing football.",
+    "options": [
+      "Visitors were found playing football by him.",
+      "He was found playing football by visitors.",
+      "Visitors found that football was played by him.",
+      "He was playing football that was seen by visitors."
+    ],
+    "correct_answer": "He was found playing football by visitors.",
+    "explanation": "📖 Active voice-এর object ('him') passive voice-এ subject ('He') হবে। মূল verb 'found' (Past Simple) পরিবর্তিত হয়ে 'was found' হবে। Active voice-এর subject ('Visitors') passive voice-এ 'by' preposition-এর object হবে। বাকি অংশ 'playing football' অপরিবর্তিত থাকবে। সুতরাং, সঠিক passive form হলো: 'He was found playing football by visitors.'",
+    "hints": "📖 সঠিক উত্তর: খ) He was found playing football by visitors.<br/>▣ Active voice থেকে passive voice করার নিয়ম:<br/>❏ Active voice এর object টি passive voice এর subject হয়।<br/>❏ Tense অনুযায়ী auxiliary verb বসে।<br/>❏ তারপর মূল verb এর past participle হয়।<br/>❏ preposition (by, with, at, to, in) বসে।<br/>❏ Active voice এর subject টি passive voice এর object হয়।<br/>▣ <b>Active: Visitors found him playing football.</b><br/><b>Passive: He was found playing football by visitors.<br/></b><br/>অন্য অপশনগুলোর সমস্যা:<br/>ক) \"Visitors were found playing football by him\" - এখানে subject ও object ভুলভাবে পরিবর্তিত হয়েছে।<br/>গ) \"Visitors found that football was played by him\" - ভুল, sentence-এর অর্থ ও structure পরিবর্তিত হয়েছে।<br/>ঘ) \"He was playing football that was seen by visitors\" - ভুল, meaning পরিবর্তিত হয়েছে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330108,
+    "question": "Fill in the gap with the right option: 'I can't carry …........ longer; I need help.",
+    "options": [
+      "out along any",
+      "over alone any",
+      "on alone any",
+      "out alone"
+    ],
+    "correct_answer": "on alone any",
+    "explanation": "📖 এখানে অর্থপূর্ণ বাক্য গঠন করতে হবে। 'Carry on' অর্থ চালিয়ে যাওয়া। 'alone' অর্থ একা। 'any longer' অর্থ আর বেশি সময় ধরে। সুতরাং, বাক্যটির অর্থ দাঁড়ায়: \"আমি আর একা চালিয়ে যেতে পারছি না; আমার সাহায্য দরকার।\" তাই সঠিক ক্রম হলো 'on alone any'।",
+    "hints": "📖 <b>সঠিক উত্তর: গ) on alone any.</b><br/>▣ <b>বাক্যটি সম্পূর্ণ হবে: I can't carry on alone any longer; I need help.</b><br/>▣ <b>Carry on:</b><br/>❏ Meaning: to continue doing, pursuing, or operating.<br/>❏ এখানে \"carry on\" phrasal verb ব্যবহৃত হয়েছে যার অর্থ \"চালিয়ে যাওয়া\"।<br/>অন্য অপশনগুলোর সমস্যা:<br/>ক) out along any - \"carry out along\" সঠিক phrasal verb নয়।<br/>খ) over alone any - \"carry over\" অর্থ ভিন্ন (স্থানান্তর করা) এবং এই context এ অর্থহীন।<br/>ঘ) out alone - \"carry out\" মানে \"সম্পাদন করা\", এবং \"any longer\" অংশ বাদ পড়েছে।<br/>\"Carry on\" একটি common phrasal verb যার অর্থ \"continue\" বা \"চালিয়ে যাওয়া\"।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330109,
+    "question": "'The moon goes ‘round’ the earth'. In this sentence 'round' is a/an-",
+    "options": [
+      "noun",
+      "preposition",
+      "verb",
+      "adverb"
+    ],
+    "correct_answer": "preposition",
+    "explanation": "📖 এখানে 'round' শব্দটি 'goes' verb-টিকে modify করছে, অর্থাৎ কীভাবে যায় তা বোঝাচ্ছে। যে word verb-কে modify করে তাকে Adverb বলে। তাই 'round' এখানে একটি Adverb of manner।",
+    "hints": "📖 <b>The moon goes round the earth'.In this sentence 'round' is a/an- preposition.</b><br/>❏ Preposition হলো এমন একটি শব্দ যা noun বা pronoun-এর সঙ্গে সম্পর্ক তৈরি করে।<br/>❏ round এখানে দেখাচ্ছে Moon এর গতি বা অবস্থান relation Earth এর সাথে।<br/>❏ অর্থাৎ, round the earth → prepositional phrase.<br/>❏ the earth হলো preposition-এর object.<br/>❏ round\" এখানে around অর্থে ব্যবহৃত হয়েছে।<br/>▣ <br/>❏ এটি noun বা verb নয়, কারণ এটি কোনো কাজ বা বস্তু বোঝাচ্ছে না।<br/>❏ এটি adverb নয়, কারণ এটি verb \"goes\" কে সরাসরি modify করছে না।<br/>❏ এটি preposition, কারণ এটি \"the earth\" (noun) এর সাথে সম্পর্ক তৈরি করছে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330110,
+    "question": "Fill in the blank with the correct option: 'The family …........ their homeland during the 1960s.'",
+    "options": [
+      "left",
+      "was left",
+      "had been left",
+      "had left"
+    ],
+    "correct_answer": "left",
+    "explanation": "📖 বাক্যটিতে 'during the 1960s' দ্বারা অতীতের একটি নির্দিষ্ট সময়ের কথা বলা হয়েছে। অতীতের কোনো নির্দিষ্ট সময়ের ঘটনা বোঝাতে Past Simple Tense (Subject + V2) ব্যবহৃত হয়। এখানে 'leave'-এর V2 হলো 'left'। তাই সঠিক উত্তর 'left'।",
+    "hints": "📖 সঠিক উত্তর হলো: ক) left.<br/>▣ <b>Complete sentence: The family <u>left</u> their homeland during the 1960s.</b><br/>▣ অতীতের একটি নির্দিষ্ট ঘটনা বোঝাতে Simple Past ব্যবহার হয়।<br/>❏ এখানে 1960s একটি নির্দিষ্ট অতীত সময় নির্দেশ করছে।<br/>❏ অতএব, left (simple past of leave) সঠিক।<br/>▣ <b>Other options,</b><br/>খ) was left<br/>❏ এটি passive form.<br/>❏ অর্থ: \"ছাড়া হয়েছিল\" বা \"পরিত্যক্ত ছিল\"।<br/>❏ উদাহরণ: The house was left in ruins after the storm.<br/>❏ এখানে “the family” মূল subject হওয়ায় passive voice ব্যবহার করা ভুল।<br/>▣ গ) had been left:<br/>❏ এটি Past Perfect Passive। এর অর্থও হবে \"পরিবারটিকে ছেড়ে যাওয়া হয়েছিল\" যা সঠিক নয়।<br/>▣ ঘ) had left:<br/>❏ ভুল — Past perfect, সাধারণত তখন ব্যবহার হয় যখন কোনো ঘটনা আরেকটি অতীত ঘটনার আগে ঘটেছে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330111,
+    "question": "Select the antonym for 'Generous':",
+    "options": [
+      "cruel",
+      "harsh",
+      "friendly",
+      "stingy"
+    ],
+    "correct_answer": "stingy",
+    "explanation": "📖 'Generous' শব্দটির অর্থ হলো উদার বা দানশীল। এর বিপরীত শব্দ খুঁজতে হবে।<br/>❏ cruel: নিষ্ঠুর।<br/>❏ harsh: কঠোর।<br/>❏ friendly: বন্ধুত্বপূর্ণ।<br/>❏ stingy: কৃপণ বা কিপটে।<br/>❏ সুতরাং, 'Generous'-এর সঠিক antonym হলো 'stingy'।",
+    "hints": "📖 ঠিক উত্তর হলো: ঘ) stingy.<br/>❏ Generous:<br/>English meaning: willing to give money, help, kindness, etc., especially more than is usual or expected.<br/>Bangla meaning: উদার; সহৃদয়।<br/>Options,<br/>ক) cruel:<br/>English meaning: extremely unkind and unpleasant and causing pain to people or animals intentionally.<br/>Bangla meaning: নিষ্ঠুর; নির্দয়।<br/>▣ খ) harsh:<br/>English meaning: unpleasant, unkind, cruel, or more severe than is necessary.<br/>Bangla meaning: রূঢ়; কর্কশ।<br/>▣ গ) friendly:<br/>English meaning: behaving in a pleasant, kind way towards someone.<br/>Bangla meaning: বন্ধুত্বপূর্ণ; বন্ধুজনোচিত; বন্ধুভাবাপন্ন; সহৃদয়; মিত্রোচিত; বন্ধুসুলভ; সানুরাগ; প্রীতিপূর্ণ।<br/>▣ <b>ঘ) stingy:</b><br/>English meaning: unwilling to spend money.<br/>Bangla meaning: কৃপণস্বভাব; ব্যয়কুণ্ঠ।<br/>▣ <b>অপশন বিবেচনা করে দেখা যায়, the antonym for 'Generous': stingy.</b>\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330112,
+    "question": "'Walking is beneficial to a healthy life.' Here 'walking' is a/an-",
+    "options": [
+      "participle",
+      "gerund",
+      "infinitive",
+      "verbal noun"
+    ],
+    "correct_answer": "gerund",
+    "explanation": "📖 যখন verb-এর সাথে 'ing' যুক্ত হয়ে তা noun-এর মতো কাজ করে, তখন তাকে Gerund বলে। এখানে 'Walking' শব্দটি বাক্যের subject হিসেবে ব্যবহৃত হয়েছে, যা একটি noun-এর কাজ। তাই 'Walking' একটি Gerund।",
+    "hints": "📖 <b>'Walking is beneficial to a healthy life.' Here 'walking' is a - Gerund.</b><br/>❏ এখানে \"Walking\" বাক্যের subject.<br/>❏ তাই, \"walking\" এখানে noun-এর মতো ব্যবহার হয়েছে।<br/>▣ <b>Gerund: </b><br/>❏ Verb এর সাথে ing যোগ হয়ে যদি noun এর কাজ করে অর্থাৎ Verb ও noun এর কাজ করে, তাহলে তাকে Gerund বলে।<br/>❏ A Gerund is a double part of speech - a Noun and Verb combined. <br/>❏ Gerund ব্যবহৃত হয়:<br/>❏ Subject অথবা object হিসেবে;<br/>❏ Preposition এর object হিসেবে;<br/>❏ Verb এর complement হিসেবে;<br/>❏ Compound noun হিসেবে ব্যবহৃত হয়।<br/>▣ <b>Other options,</b><br/>❏ Participle: সাধারণত verb-এর -ing আকার যা adjective-এর কাজ করে।<br/>উদাহরণ:<br/>The walking man is my father. → এখানে \"walking\" মানে \"যে হাঁটছে\", এটি adjective এর কাজ করছে।<br/>❏ Infinitive: verb-এর to + base form (যেমন to walk).<br/>❏ এখানে \"walking\" infinitive নয়, কারণ \"to walk\" বলা হতো।<br/>❏ Verbal Noun:<br/>❏ কোন বাক্যের Verb + ing - এর পুর্বে the এবং পরে of থাকলে তাকে Verbal Noun বলে।<br/>❏ The + verb+ing + of = verbal noun.<br/>❏ Verbal Noun দ্বারা Noun এর কাজ সম্পন্ন হয়।<br/>❏ নিয়মানুযায়ী The writing of a good letter is very different is the example of verbal noun<br/>❏ কারণ, writing এর পূর্বে the ও পরে of বসেছে।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330113,
+    "question": "Identify the correct spelling:",
+    "options": [
+      "reconaissance",
+      "reconnaisance",
+      "reconnaissance",
+      "reconaisance"
+    ],
+    "correct_answer": "reconnaissance",
+    "explanation": "📖 সঠিক বানানটি হলো 'reconnaissance'। এর অর্থ হলো সামরিক উদ্দেশ্যে কোনো এলাকা পর্যবেক্ষণ বা নিরীক্ষণ। বানানটি মনে রাখার জন্য 'recon-nais-sance' এভাবে ভাগ করে নেওয়া যেতে পারে।",
+    "hints": "📖 সঠিক উত্তর হলো: গ) reconnaissance.<br/>▣ <b>Reconnaissance (noun)</b><br/><b>English Meaning: </b>the process of getting information about enemy forces or positions by sending out small groups of soldiers or by using aircraft, etc..<br/><b>Bangla Meaning: </b>শত্রুপক্ষের অবস্থান, তাদের শক্তি ইত্যাদি জানার উদ্দেশ্যে পরিচালিত তথ্যানুসন্ধান বা তৎসংক্রান্ত অভিযান।<br/><b>Example Sentence:</b><br/>❏ The military conducted a reconnaissance mission to gather information about enemy positions.<br/>❏ Before starting the construction project, engineers conducted a reconnaissance of the site to assess its suitability.<br/>❏ Aerial reconnaissance of the enemy position showed they were ready to attack.\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330114,
+    "question": "The idiom 'carry on with' means-",
+    "options": [
+      "to progress carefully",
+      "to progress fast",
+      "to continue",
+      "to progress gradually"
+    ],
+    "correct_answer": "to continue",
+    "explanation": "📖 'Carry on with' একটি phrasal verb যার অর্থ কোনো কাজ চালিয়ে যাওয়া বা অব্যাহত রাখা (to continue)। যেমন: Please carry on with your work.",
+    "hints": "📖 <b>সঠিক উত্তর হলো: গ) to continue.</b><br/>▣ Carry on with [idiom]<br/>English meaning:  <b>to continue</b> doing or participating in (an activity).<br/>Bangla meaning: কোনো কাজ চালিয়ে যাওয়া বা অব্যাহত রাখা।<br/>▣ Example:<br/>❏ They carried on with their conversation.<br/>▣ Other options,<br/>ক) to progress carefully:<br/> → সাবধানে অগ্রগতি।<br/>▣ খ) to progress fast:<br/> → দ্রুত অগ্রগতি।<br/>▣ ঘ) to progress gradually:<br/> → ধীরে ধীরে অগ্রগতি।<br/> Source: Merriam-Webster Dictionary.\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330115,
+    "question": "The word 'decadent' means-",
+    "options": [
+      "rotten",
+      "morally declined",
+      "dissident",
+      "defiant"
+    ],
+    "correct_answer": "morally declined",
+    "explanation": "📖 'Decadent' শব্দটি দিয়ে নৈতিক বা সাংস্কৃতিকভাবে অধঃপতিত বা ক্ষয়িষ্ণু অবস্থা বোঝানো হয়।<br/>❏ rotten: পচা।<br/>❏ morally declined: নৈতিকভাবে অধঃপতিত। এটি 'decadent'-এর সঠিক অর্থ।<br/>❏ dissident: ভিন্নমতাবলম্বী।<br/>❏ defiant: অবাধ্য বা বিদ্রোহী।",
+    "hints": "📖 <b>Decadent: [adjective]</b><br/><b>English meaning:</b> having or showing low standards, especially moral ones, and an interest only in pleasure and fun rather than serious things.<br/><b>Bangla meaning:</b> নৈতিকভাবে অবনত/পতিত।<br/>▣ <b>Example: </b><br/>❏ There was something very decadent about filling ourselves with so much rich food.<br/>▣ Other options,<br/>ক) rotten:<br/>❏ পচা।<br/>▣ <b>খ) morally declined:</b><br/>❏ নৈতিকভাবে অবনতি হওয়া বা নৈতিকভাবে পতিত হওয়া।<br/>▣ গ) dissident:<br/>❏ ভিন্নমতাবলম্বী/ বিপরীতমতবাদী বা মতবিরোধী।<br/>▣ ঘ) defiant:<br/>❏ স্পর্ধিত; অবজ্ঞাপূর্ণ; অবাধ্য।<br/>▣ অপশন বিবেচনা করে দেখা যায়, The word 'decadent' means- morally declined.\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330116,
+    "question": "Identify the common gender?",
+    "options": [
+      "Mentrix",
+      "Doe",
+      "Gander",
+      "Cousin"
+    ],
+    "correct_answer": "Cousin",
+    "explanation": "📖 Common gender বলতে এমন noun বোঝায় যা পুরুষ ও স্ত্রী উভয়কে বোঝাতে পারে।<br/>❏ Mentrix: নারী পরামর্শদাতা (Feminine)। এর Masculine হলো Mentor।<br/>❏ Doe: হরিণী (Feminine)। এর Masculine হলো Buck/Stag।<br/>❏ Gander: রাজহাঁস (Masculine)। এর Feminine হলো Goose।<br/>❏ Cousin: চাচাতো/মামাতো/খালাতো/ফুফাতো ভাই বা বোন। এটি পুরুষ ও স্ত্রী উভয়কেই বোঝায়, তাই এটি Common gender।",
+    "hints": "📖 <b>সঠিক উত্তর হলো: ঘ) Cousin. </b><br/>▣ <b>Cousin:</b><br/>Meaning: মামাতো/খালাতো/চাচাতো/ফুফাতো ভাই অথবা বোন।<br/>▣ <b>Common Gender:</b><br/>যে Noun পুংবাচক বা স্ত্রীবাচক উভয়কেই বুঝায় তাকে Common Gender বলা হয়।<br/>Example:<br/>❏ Parent, Child, Baby, Teacher, Student, Monarch, Neighbor, etc.<br/>▣ <b>Other options,</b><br/>▣ ক) Mentrix<br/>❏ \"Mentrix\" হলো Mentor এর feminine form.<br/>▣ খ) Doe<br/>❏ (feminine) - স্ত্রীজাতীয় হরিণ অথবা খরগোশ।<br/>❏ এর masculine form - Buck/Hart - পুরুষ হরিণ।<br/>▣ গ) Gander' is a masculine gender.<br/>❏ Gander - কলহংস।<br/>❏ এর feminine form - goose.\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330117,
+    "question": "Identify the correct sentence:",
+    "options": [
+      "It is high time you give up smoking.",
+      "It is high time you have given up smoking.",
+      "It is high time you gave up smoking.",
+      "It is high time you had given up smoking."
+    ],
+    "correct_answer": "It is high time you gave up smoking.",
+    "explanation": "📖 \"It is time\" বা \"It is high time\" এই phrase-গুলোর পরে যদি কোনো subject (এখানে 'you') থাকে, তাহলে verb-এর Past Simple form (V2) ব্যবহৃত হয়। এই গঠনটি বোঝায় যে কাজটি করার জন্য ইতোমধ্যে দেরি হয়ে গেছে।<br/>❏ Option (A) 'give up' (V1) ভুল।<br/>❏ Option (B) 'have given up' (Present Perfect) ভুল।<br/>❏ Option (C) 'gave up' (V2) সঠিক।<br/>❏ Option (D) 'had given up' (Past Perfect) ভুল।",
+    "hints": "📖 <b>Correct sentence: গ) It is high time you gave up smoking.</b><br/>❏ <b>It is time/It is high time এর পরে যদি subject থাকে তাহলে verb -এর past form হয়।</b><br/>❏ যেমন:<br/>❏ It is high time he changed his attitude toward others.<br/>❏ It is high time we finalized our plans for the upcoming event.<br/>▣ উল্লিখিত বাক্যে It is high time এর পর subject 'you' আছে তাই verb -এর past form হবে।<br/>▣ <b>উল্লিখিত অন্য অপশন গুলো </b><br/>ক) It is high time you give up smoking.<br/>❏ এখানে present tense (give) ব্যবহার করা হয়েছে। নিয়ম অনুযায়ী past tense হওয়া উচিত।<br/>খ) It is high time you have given up smoking.<br/>❏ এখানে present perfect (have given) ব্যবহার করা হয়েছে, যা গঠনগতভাবে ভুল।<br/>ঘ) It is high time you had given up smoking.<br/>❏ এখানে past perfect (had given) ব্যবহার করা হয়েছে, যা অতীতের আগের কোনো সময় বোঝায়। এই প্রসঙ্গে প্রযোজ্য নয়।<br/>❏ ---------------- <br/>❏ It is time/It is high time এর পরে যদি subject না থাকে তবে to + verb হয়।<br/>❏ যেমন:<br/>❏ It is high time to stop corruption.<br/>❏ It is time to start the task.<br/>❏ Note: সাধারণত কোনো কিছু করার সময় হয়েছে অর্থে It is time এবং কোনো কিছু করতে দেরি হয়ে গেছে, যা করার এখনই উপযুক্ত সময় অর্থে It is high time ব্যবহৃত হয়।\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330118,
+    "question": "Identify the synonym of 'Denial':",
+    "options": [
+      "rebuff",
+      "refusal",
+      "rebuttal",
+      "refuge"
+    ],
+    "correct_answer": "refusal",
+    "explanation": "📖 'Denial' শব্দটির অর্থ হলো অস্বীকার বা অস্বীকৃতি।<br/>❏ rebuff: রূঢ়ভাবে প্রত্যাখ্যান করা।<br/>❏ refusal: অস্বীকৃতি বা প্রত্যাখ্যান। এটি 'Denial'-এর সবচেয়ে কাছের সমার্থক শব্দ।<br/>❏ rebuttal: যুক্তি দিয়ে খণ্ডন করা বা প্রতিবাদ করা।<br/>❏ refuge: আশ্রয় বা নিরাপদ স্থান।<br/>❏ সুতরাং, সঠিক উত্তর হলো 'refusal'।",
+    "hints": "📖 <b>সঠিক উত্তর: খ) refusal.</b><br/>▣ Denial: [noun]<br/>English meaning: a statement that something is not true or does not exist.<br/>Bangla meaning: অস্বীকার; প্রত্যাখ্যান; ব্যপনয়ন।<br/>▣ Options, <br/>ক) rebuff:<br/>English meaning: an act of unkindly refusing a friendly offer, request or suggestion.<br/>Bangla meaning: রূঢ় প্রত্যাখ্যান; অবজ্ঞাপূর্ণ উপেক্ষা।<br/>▣ <b>খ) refusal:</b><br/>English meaning: the act of refusing to do or accept something.<br/>Bangla meaning: গ্রহণ করতে/প্রদান করতে/মেনে নিতে সম্মতিহীনতা; প্রত্যাখ্যান; অসম্মতি।<br/>▣ গ) rebuttal:<br/>English meaning: a statement that says that something is not true.<br/>Bangla meaning: খণ্ডন; অভিযোগ খণ্ডনকারী সাক্ষ্যপ্রমাণ।<br/>▣ ঘ) refuge<br/>English meaning: shelter or protection from danger, trouble, etc.<br/>Bangla meaning: আশ্রয়; আশয়; সমাশ্রয়; গতি: (লাক্ষণিক)।<br/>▣ \"Rebuff\" কাছাকাছি হলেও exact synonym নয় - এতে emotional intensity বেশি। \"Refusal\" হচ্ছে perfect synonym<br/>❏ \"Denial\" - অস্বীকার/প্রত্যাখ্যান।<br/>❏ \"Refusal\" - প্রত্যাখ্যান/অস্বীকৃতি।<br/>❏ দুটোই একই অর্থ।<br/>❏ Rebuff - কঠোরভাবে প্রত্যাখ্যান (বেশি রুঢ়)।<br/>▣ <b>অপশন বিবেচনা করে দেখা যায়, the synonym of \"Denial': Refusal.<br/></b><br/>Source - Accessible, Cambridge, Oxford Dictionary.\r\n",
+    "subject": "English Language and Literature",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330119,
+    "question": "বায়োগ্যাসের প্রধান উপাদান কোনটি?",
+    "options": [
+      "ইথেন",
+      "নাইট্রোজেন",
+      "হাইড্রোজেন সালফাইড",
+      "মিথেন"
+    ],
+    "correct_answer": "মিথেন",
+    "explanation": "📖 বায়োগ্যাস হলো জৈব পদার্থের অবাত শ্বসন (anaerobic digestion) প্রক্রিয়ায় উৎপন্ন একটি গ্যাস মিশ্রণ। এর প্রধান উপাদান হলো মিথেন (CH₄), যা সাধারণত ৫০-৭৫% পর্যন্ত থাকে। অন্যান্য উপাদানের মধ্যে কার্বন ডাইঅক্সাইড, নাইট্রোজেন এবং হাইড্রোজেন সালফাইড উল্লেখযোগ্য।<br/>▣ বায়োগ্যাস মূলত একটি গ্যাসীয় মিশ্রণ যা অক্সিজেন-বিহীন পরিবেশে (anaerobic digestion) জৈব বস্তু, যেমন গোবর, আবর্জনা বা কৃষি বর্জ্যকে ব্যাকটেরিয়া দ্বারা পচানোর মাধ্যমে তৈরি হয়। এই মিশ্রণের সবচেয়ে বড় অংশ হলো মিথেন (CH₄), যা প্রায় ৫০-৭০%।এর পরেই থাকে কার্বন ডাই অক্সাইড (CO₂), যা প্রায় ২৫-৪৫%। মিথেন একটি দাহ্য গ্যাস হওয়ায় বায়োগ্যাসকে জ্বালানি হিসেবে ব্যবহার করা হয়।",
+    "hints": "📖  <b>বায়োগ্যাসের প্রধান এবং সবচেয়ে গুরুত্বপূর্ণ উপাদান হলো মিথেন (CH<sub>4</sub>)।</b><br/>❏ যা মোট গ্যাসের প্রায় 50-75% পর্যন্ত হতে পারে।<br/>❏ মিথেন দাহ্য পদার্থ হওয়ায় এটি বায়োগ্যাসের মূল জ্বালানি হিসেবে কাজ করে।<br/>❏ বায়োগ্যাসের দ্বিতীয় বৃহত্তম উপাদান হলো কার্বন ডাই অক্সাইড (CO<sub>2</sub>)।<br/>❏ অন্যান্য গ্যাসের মধ্যে হাইড্রোজেন সালফাইড (H<sub>2</sub>S) এবং নাইট্রোজেন (N<sub>2</sub>) খুবই অল্প পরিমাণে থাকে।<br/>❏ <b>বায়োগ্যাস:</b><br/>❏ প্রাকৃতিক গ্যাসের অনুরূপ গ্যাস নানা রকম প্রাণী ও উদ্ভিদের বর্জ্য থেকে তৈরি করার ব্যবস্থা করা যায়। এ ধরনের গ্যাসকে বলে বায়োগ্যাস।<br/>❏ বায়ো অর্থ জীবন। প্রাণী বা উদ্ভিদ জীবনের অধিকারী বিধায় এদের দেহ এবং দেহ নিঃসৃত পদার্থ পচনশীল।<br/>গোবর, মলমূত্র, পাতা, খড়কুটো প্রভৃতি পদার্থ পানিতে মিশিয়ে বাতাসের অনুপস্থিতি রাখলে এক ধরনের ব্যাকটেরিয়ার সাহায্যে গাজন প্রক্রিয়া ঘটে।<br/>ফলে এক ধরনের বর্ণহীন দাহ্য গ্যাস উৎপন্ন হয়।<br/>❏ বায়োগ্যাসের ব্যবহার পরিবেশবান্ধব, কারণ এটি নবায়নযোগ্য শক্তির উৎস এবং এর ব্যবহার জীবাশ্ম জ্বালানির ওপর নির্ভরতা কমায়।<br/>উৎস বিজ্ঞান বই, নবম-দশম শ্রেণি (বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়)।\r\n",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330120,
+    "question": "ভিটামিন B12 এর রাসায়নিক নাম কি?",
+    "options": [
+      "রাইবোফ্লভিন",
+      "কোবালামিন",
+      "থিয়ামিন",
+      "নিয়াসিন"
+    ],
+    "correct_answer": "কোবালামিন",
+    "explanation": "📖 ভিটামিন B12-এর রাসায়নিক নাম হলো সায়ানোকোবালামিন বা কোবালামিন (Cobalamin)। এটি রক্তকণিকা তৈরি এবং স্নায়ুতন্ত্রের কার্যকারিতা বজায় রাখার জন্য অপরিহার্য। রাইবোফ্ল্যাভিন (B2), থিয়ামিন (B1) এবং নিয়াসিন (B3) অন্য ভিটামিন B কমপ্লেক্সের সদস্য।<br/>▣ ভিটামিন B12 একটি জটিল গঠনবিশিষ্ট ভিটামিন, যার রাসায়নিক নাম কোবালামিন। এর অণুর কেন্দ্রে কোবাল্ট নামক একটি খনিজ পদার্থ থাকে, যা থেকেই এই নামের উৎপত্তি। এটি লোহিত রক্তকণিকা গঠন, স্নায়ুতন্ত্রের সঠিক কার্যকারিতা এবং ডিএনএ সংশ্লেষণের জন্য অত্যন্ত প্রয়োজনীয়। এর প্রধান উৎস হলো প্রাণীজ খাদ্য যেমন- মাংস, মাছ, ডিম ও দুধ।",
+    "hints": "📖 <b>ভিটামিন B<sub>12</sub> এর রাসায়নিক নাম কোবালামিন, হলো একটি পানিতে দ্রবণীয় ভিটামিন।</b><br/>❏ <b>ভিটামিন (Vitamin):</b><br/>❏ ভিটামিন হলো এক ধরনের জৈব যৌগ যা জীবের স্বাভাবিক বৃদ্ধি, রোগ প্রতিরোধ এবং সুস্থ থাকার জন্য খুব অল্প পরিমাণে প্রয়োজন হয়। মানব শরীর সাধারণত এগুলো তৈরি করতে পারে না, তাই খাদ্য থেকে এগুলো গ্রহণ করতে হয়।<br/>❏ ভিটামিনকে দুটি প্রধান ভাগে ভাগ করা হয়: স্নেহ পদার্থে দ্রবণীয় ভিটামিন (যেমন: A, D, E, K) এবং পানিতে দ্রবণীয় ভিটামিন (যেমন: B কমপ্লেক্স এবং C)।<br/>❏ <b>ভিটামিন B12 (কোবালামিন):</b><br/>❏  ভিটামিন B12, যা কোবালামিন নামে পরিচিত, একটি পানিতে দ্রবণীয় ভিটামিন।<br/>❏ কোবালামিন নামটি এসেছে কারণ এই ভিটামিনের অণুতে কোবাল্ট নামক একটি খনিজ পদার্থ থাকে, যা এর কার্যকারিতার জন্য অপরিহার্য<br/>❏ এটি নতুন লোহিত রক্তকণিকা তৈরিতে সাহায্য করে। এর অভাবে মেগালোব্লাস্টিক অ্যানিমিয়া (রক্তাল্পতা) হয়, যেখানে লোহিত রক্তকণিকা অস্বাভাবিকভাবে বড় হয় এবং তাদের সংখ্যা কমে যায়।<br/>❏ এটি স্নায়ু কোষের স্বাস্থ্য বজায় রাখতে এবং স্নায়ুতন্ত্রের আবরণ (myelin sheath) গঠনে গুরুত্বপূর্ণ ভূমিকা রাখে।<br/>❏ এর অভাবে স্নায়বিক দুর্বলতা, হাত-পায়ে ঝিঁঝিঁ ধরা বা অসাড়তা এবং স্মৃতিশক্তি হ্রাস পেতে পারে।<br/>❏ এটি শরীরের প্রতিটি কোষে ডিএনএ সংশ্লেষণ এবং নিয়ন্ত্রণে সাহায্য করে।<br/>❏ ভিটামিন B12 সাধারণত প্রাণিজ উৎসে পাওয়া যায়, যেমন: মাংস, মাছ, ডিম, এবং দুগ্ধজাত পণ্য। <br/>উল্লেখ্য-<br/>❏ রাইবোফ্লভিন: এটি ভিটামিন B<sub>2</sub> এর রাসায়নিক নাম।<br/>❏ থিয়ামিন: এটি ভিটামিন B<sub>1</sub> এর রাসায়নিক নাম।<br/>❏ নিয়াসিন: এটি ভিটামিন B<sub>3</sub> এর রাসায়নিক নাম।\r\n",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330121,
+    "question": "দিনের গড় তাপমাত্রা 86°F হলে সেন্টিগ্রেড স্কেলে তা কত ডিগ্রী সেন্টিগ্রেড হবে?",
+    "options": [
+      "30°",
+      "25°",
+      "35°",
+      "36°"
+    ],
+    "correct_answer": "30°",
+    "explanation": "📖 ফারেনহাইট (F) থেকে সেলসিয়াস (C) স্কেলে তাপমাত্রা রূপান্তরের সূত্রটি হলো: C = (F - 32) × 5/9।<br/>❏ এখানে, F = 86°।<br/>❏ সুতরাং, C = (86 - 32) × 5/9 = 54 × 5/9 = 6 × 5 = 30°।<br/>❏ অতএব, তাপমাত্রা হবে 30° সেন্টিগ্রেড।<br/>▣ ফারেনহাইট স্কেলটি জার্মান পদার্থবিদ ড্যানিয়েল গ্যাব্রিয়েল ফারেনহাইট ১৭২৪ সালে প্রস্তাব করেন। এটি পানির হিমাঙ্ককে ৩২°F এবং স্বাভাবিক মানব দেহের তাপমাত্রাকে ৯৬°F (পরে ৯৮.৬°F করা হয়) হিসেবে সংজ্ঞায়িত করে। সেলসিয়াস স্কেল (পূর্বে সেন্টিগ্রেড) সুইডিশ জ্যোতির্বিজ্ঞানী অ্যান্ডার্স সেলসিয়াস ১৭৪২ সালে প্রস্তাব করেন, যেখানে পানির হিমাঙ্ক ০°C এবং স্ফুটনাঙ্ক ১০০°C।<br/>▣ ফারেনহাইট স্কেল থেকে সেলসিয়াস বা সেন্টিগ্রেড স্কেলে তাপমাত্রা রূপান্তরের জন্য ব্যবহৃত গাণিতিক সূত্রটি হলো: °C = (°F − 32) × 5/9। প্রদত্ত তাপমাত্রা ৮৬°F হওয়ায়, সূত্রানুযায়ী গণনাটি হবে:<br/>❏ °C = (86 − 32) × 5/9<br/>❏ °C = 54 × 5/9<br/>❏ °C = 30<br/>❏ সুতরাং, ৮৬° ফারেনহাইট ৩০° সেলসিয়াসের সমান।",
+    "hints": "📖 প্রশ্ন: দিনের গড় তাপমাত্রা 86°F হলে সেন্টিগ্রেড স্কেলে তা কত ডিগ্রী সেন্টিগ্রেড হবে?<br/>সমাধান:<br/>ফারেনহাইট স্কেল থেকে সেন্টিগ্রেড স্কেলে তাপমাত্রা রূপান্তরের সূত্র:<br/>C = (F - 32) × 5/9<br/>এখানে, F = 86<br/>C = (86 - 32) × 5/9<br/>C = 54 × 5/9<br/>C = 270/9<br/>C = 30<br/>সুতরাং, 86°F তাপমাত্রা সেন্টিগ্রেড স্কেলে 30°C হবে।\r\n",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330122,
+    "question": "চন্দ্রে কোনো বস্তুর ওজন পৃথিবীর ওজনের -",
+    "options": [
+      "দ্বিগুণ",
+      "তিনগুণ",
+      "দুইভাগের একভাগ",
+      "ছয়ভাগের একভাগ"
+    ],
+    "correct_answer": "ছয়ভাগের একভাগ",
+    "explanation": "📖 চাঁদের মাধ্যাকর্ষণ শক্তি পৃথিবীর মাধ্যাকর্ষণ শক্তির প্রায় ছয় ভাগের এক ভাগ (1/6)। তাই পৃথিবীতে কোনো বস্তুর ওজন যা হবে, চাঁদে তার ওজন হবে তার ছয় ভাগের এক ভাগ। বস্তুর ভর অপরিবর্তিত থাকলেও, মাধ্যাকর্ষণের তারতম্যের কারণে ওজন পরিবর্তিত হয়।<br/>▣ চাঁদের পৃষ্ঠের মাধ্যাকর্ষণ ত্বরণ প্রায় 1.62 m/s², যা পৃথিবীর (9.8 m/s²) প্রায় ১/৬ অংশ। এর কারণ চাঁদের ভর পৃথিবীর প্রায় ১/৮১ অংশ এবং এর ব্যাসার্ধ প্রায় ১/৪ অংশ। অ্যাপোলো মিশনে অভিযাত্রীরা চাঁদে হাঁটার সময় এই কম মাধ্যাকর্ষণের কারণে লাফিয়ে লাফিয়ে চলাচল করতে পারতেন। চাঁদে কোনো বস্তুর ওজন = (পৃথিবীর ওজন × চাঁদের মাধ্যাকর্ষণ) / পৃথিবীর মাধ্যাকর্ষণ।<br/>▣ কোনো বস্তুর ওজন হলো তার উপর প্রযুক্ত মহাকর্ষীয় বল (ওজন = ভর × অভিকর্ষজ ত্বরণ)। চাঁদের ভর পৃথিবীর ভরের চেয়ে অনেক কম এবং এর ব্যাসার্ধও কম। এই কারণে চাঁদের পৃষ্ঠে অভিকর্ষজ ত্বরণের মান পৃথিবীর প্রায় ১/৬ অংশ (প্রায় ১.৬২ মি/সে² যেখানে পৃথিবীতে প্রায় ৯.৮ মি/সে²)। ফলে, চাঁদে যেকোনো বস্তুর ওজন পৃথিবীতে তার ওজনের ছয় ভাগের এক ভাগ হয়ে যায়, যদিও বস্তুটির ভরের কোনো পরিবর্তন হয় না।",
+    "hints": "📖 <b>চন্দ্রে কোনো বস্তুর ওজন পৃথিবীর ওজনের ছয় ভাগের এক ভাগ।</b><br/>❏ কোন বস্তুকে পৃথিবী তার কেন্দ্রের দিকে যে বলে আকর্ষণ করে, তাকে ঐ বস্তুর ওজন বলে।<br/>❏ পৃথিবী থেকে যতই উপরে উঠা যায় বস্তুর ওজন ততই কমতে থাকে।<br/>❏ কোনো বস্তুর ওজন নির্ভর করে তার ভর এবং যে স্থানে বস্তুটি রয়েছে সেখানকার অভিকর্ষজ ত্বরণের উপর।<br/>❏ ওজনের সূত্র হলো: W = mg (এখানে W হলো ওজন, m হলো ভর এবং g হলো অভিকর্ষজ ত্বরণ)।<br/>❏  চাঁদের অভিকর্ষজ ত্বরণ (g) পৃথিবীর অভিকর্ষজ ত্বরণের মাত্র ছয়ভাগের একভাগ (প্রায় 1.625 m/s<sup>2</sup>)।<br/>❏ উদাহরণস্বরূপ, যদি কোনো বস্তুর ওজন পৃথিবীতে 60 কিলোগ্রাম হয়, তবে চাঁদে তার ওজন হবে মাত্র 10 কিলোগ্রাম<br/>❏ এই কারণে, মহাকাশচারীরা চাঁদের পৃষ্ঠে খুব হালকা অনুভব করে এবং লাফিয়ে লাফিয়ে চলাচল করতে পারে।\r\n",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330123,
+    "question": "বিশুদ্ধ পানির PH কত ?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": "7",
+    "explanation": "📖 pH হলো কোনো দ্রবণের অম্লত্ব বা ক্ষারত্বের পরিমাপক। বিশুদ্ধ পানির pH মান হলো 7, যা নিরপেক্ষ অবস্থা নির্দেশ করে। pH মান 7-এর কম হলে দ্রবণটি অম্লীয় এবং 7-এর বেশি হলে ক্ষারীয় হয়।<br/>▣ pH স্কেল 0 থেকে 14 পর্যন্ত, যেখানে 7 নিরপেক্ষ। বিশুদ্ধ পানিতে হাইড্রোজেন আয়ন (H⁺) এবং হাইড্রক্সাইড আয়ন (OH⁻) এর ঘনমাত্রা সমান থাকে, যা pH 7 নির্দেশ করে। বৃষ্টির পানি সাধারণত সামান্য অম্লীয় (pH 5.6) হয় কারণ বায়ুমণ্ডলে কার্বন ডাইঅক্সাইড দ্রবীভূত হয়। সমুদ্রের পানির pH প্রায় 8.1, যা সামান্য ক্ষারীয়। pH মাপার জন্য pH পেপার বা pH মিটার ব্যবহৃত হয়।<br/>▣ pH স্কেল একটি দ্রবণে হাইড্রোজেন আয়নের (H+) ঘনত্ব পরিমাপ করে। ২৫° সেলসিয়াস তাপমাত্রায়, বিশুদ্ধ পানিতে হাইড্রোজেন আয়ন (H+) এবং হাইড্রোক্সাইড আয়নের (OH−) ঘনত্ব সমান থাকে। এই অবস্থাকে নিরপেক্ষ বলা হয় এবং pH স্কেলে এর মান ৭। যদি H+ এর ঘনত্ব OH− এর চেয়ে বেশি হয়, তবে দ্রবণটি অম্লীয় (pH < 7) এবং যদি কম হয়, তবে ক্ষারীয় (pH > 7)।",
+    "hints": "📖 <b>বিশুদ্ধ পানি নিরপেক্ষ প্রকৃতির, এর pH হলো ৭।</b><br/>❏ <b>pH:<br/></b>-  pH হলো হাইড্রোজেন আয়নের ঘনত্বের একটি পরিমাপ যা কোনো দ্রবণের অম্লতা বা ক্ষারীয়তা নির্দেশ করে।<br/>❏ এর মান 0 থেকে 14 পর্যন্ত হয়।<br/>❏ একটি পদার্থের নিরপেক্ষতা তার pH মানের উপর নির্ভর করে।<br/>❏  pH স্কেলে 7 মানটি নিরপেক্ষতা নির্দেশ করে।<br/>❏ pH মান 7 এর নিচে হলে দ্রবণটি অম্লীয় এবং 7 এর উপরে হলে ক্ষারীয় হয়।<br/>❏ বিশুদ্ধ পানিতে হাইড্রোজেন আয়ন (H<sup>+</sup>) এবং হাইড্রোক্সিল আয়ন (OH<sup>−</sup>) এর ঘনত্ব সমান থাকে, তাই এর pH মান 7 হয়।<br/>❏ বায়ুমণ্ডলের কার্বন ডাই অক্সাইড বৃষ্টির পানির সাথে মিশে কার্বনিক এসিড তৈরি করে, যার কারণে বৃষ্টির পানির pH 7 এর থেকে কিছুটা কম হয় (সাধারণত 5.6-এর কাছাকাছি)।<br/>❏ মাটির pH সাধারণত 4-8 হয়ে থাকে।<br/>❏ স্বাভাবিক অবস্থায় মানব দেহের রক্তের pH = 7.45।<br/>❏ বিশুদ্ধ পানির pH 20°- 27°C তাপমাত্রায় 7।\r\n",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330124,
+    "question": "ল্যাকটিক এসিড নিচের কোনটিতে পাওয়া যায়?",
+    "options": [
+      "দই",
+      "পালংশাক",
+      "লেবু",
+      "ভিনেগার"
+    ],
+    "correct_answer": "দই",
+    "explanation": "📖 দই-এ ল্যাকটিক অ্যাসিড পাওয়া যায়। ল্যাকটোব্যাসিলাস নামক ব্যাকটেরিয়া দুধের ল্যাকটোজ শর্করাকে গাঁজন প্রক্রিয়ার মাধ্যমে ল্যাকটিক অ্যাসিডে পরিণত করে, যার ফলে দুধ জমে দই তৈরি হয়। লেবুতে সাইট্রিক অ্যাসিড, পালংশাকে অক্সালিক অ্যাসিড এবং ভিনেগারে অ্যাসিটিক অ্যাসিড থাকে।<br/>▣ ল্যাকটিক অ্যাসিড (C₃H₆O₃) একটি জৈব অ্যাসিড, যা দই, পনির, টক দই ইত্যাদি দুগ্ধজাত পণ্যে পাওয়া যায়। এটি দুধের ল্যাকটোজকে ল্যাকটিক অ্যাসিড ব্যাকটেরিয়া দ্বারা গাঁজনের মাধ্যমে উৎপাদিত হয়। ল্যাকটিক অ্যাসিড খাদ্য সংরক্ষণেও ব্যবহৃত হয়। এটি মানবদেহে পেশীর ক্লান্তি দূর করতে সাহায্য করে। লেবুতে সাইট্রিক অ্যাসিড (C₆H₈O₇), পালংশাকে অক্সালিক অ্যাসিড (C₂H₂O₄) এবং ভিনেগারে অ্যাসিটিক অ্যাসিড (CH₃COOH) থাকে।<br/>▣ দুধের মধ্যে থাকা ল্যাকটোজ নামক শর্করাকে ল্যাকটোব্যাসিলাস (Lactobacillus) জাতীয় ব্যাকটেরিয়া ফারমেন্টেশন বা গাঁজন প্রক্রিয়ায় ল্যাকটিক অ্যাসিডে রূপান্তরিত করে। এই ল্যাকটিক অ্যাসিড দুধের প্রোটিনকে জমাট বাঁধিয়ে দই তৈরি করে এবং দইয়ের টক স্বাদের জন্যেও এটি দায়ী। অন্যান্য বিকল্পগুলির মধ্যে, লেবুতে সাইট্রিক অ্যাসিড, ভিনেগারে অ্যাসিটিক অ্যাসিড এবং পালংশাকে অক্সালিক অ্যাসিড প্রধান জৈব অ্যাসিড হিসেবে থাকে।",
+    "hints": "📖 <b>দই তৈরির প্রক্রিয়ায় ল্যাকটোব্যাসিলাস ব্যাকটেরিয়া দুধের ল্যাকটোজকে ল্যাকটিক এসিড এ রূপান্তরিত করে।</b><br/>❏ এই ল্যাকটিক এসিডই দইয়ের টক স্বাদ এবং ঘন গঠনের জন্য দায়ী।<br/>❏ <b>ল্যাকটিক এসিড:</b><br/>❏ ল্যাকটিক এসিড হলো এক ধরনের জৈব যৌগ, যা একটি কার্বোক্সিলিক এসিড। এর রাসায়নিক সূত্র হলো C<sub>3</sub>H<sub>6</sub>O<sub>3</sub>।<br/>❏ এটি সাধারণত দুধের শর্করা (ল্যাকটোজ) এবং অন্যান্য শর্করা থেকে গাঁজন (fermentation) প্রক্রিয়ার মাধ্যমে তৈরি হয়।<br/>❏ এটি দই ও অন্যান্য গাঁজনকৃত দুগ্ধজাত পণ্য উৎপাদনে ব্যবহার করা হয়। এটি খাদ্যকে জমাট বাঁধাতে এবং স্বাদ তৈরি করতে সাহায্য করে।<br/>❏ তীব্র শারীরিক কাজের সময় (যেমন: ব্যায়াম), শরীরে অক্সিজেন সীমিত হলে গ্লুকোজ ল্যাকটিক এসিডে রূপান্তরিত হয়, যা শক্তি দেয়।<br/>❏ ল্যাকটিক এসিড অন্ত্রে উপকারী ব্যাকটেরিয়ার বৃদ্ধি ঘটিয়ে এবং ক্ষতিকর ব্যাকটেরিয়ার বিস্তার রোধ করে হজম প্রক্রিয়াকে উন্নত করে।<br/>উল্লেখ্য-<br/>❏ পালংশাক→ অক্সালিক এসিড।<br/>❏ লেবু → সাইট্রিক এসিড।<br/>❏ ভিনেগার → অ্যাসেটিক এসিড।\r\n",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330125,
+    "question": "হৃদপিন্ডের প্রকোষ্ঠের সংখ্যা কত?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": "4",
+    "explanation": "📖 মানুষের হৃদপিণ্ডে চারটি প্রকোষ্ঠ থাকে। উপরের দুটি প্রকোষ্ঠকে ডান ও বাম অলিন্দ (Atrium) এবং নিচের দুটি প্রকোষ্ঠকে ডান ও বাম নিলয় (Ventricle) বলা হয়। এই চারটি প্রকোষ্ঠ রক্ত সঞ্চালন প্রক্রিয়াকে সুসংগঠিতভাবে নিয়ন্ত্রণ করে।<br/>▣ মানুষ ও অন্যান্য স্তন্যপায়ী প্রাণী এবং পাখিদের হৃদপিণ্ড চারটি প্রকোষ্ঠে বিভক্ত। ডান অলিন্দ (Right Atrium) শরীর থেকে অক্সিজেন-বিহীন রক্ত গ্রহণ করে। ডান নিলয় (Right Ventricle) সেই রক্তকে ফুসফুসে পাঠায়। বাম অলিন্দ (Left Atrium) ফুসফুস থেকে অক্সিজেন-সমৃদ্ধ রক্ত গ্রহণ করে এবং বাম নিলয় (Left Ventricle) সেই রক্তকে সারা দেহে পাম্প করে। এই চার-প্রকোষ্ঠ বিশিষ্ট হৃদপিণ্ড অক্সিজেন-যুক্ত ও অক্সিজেন-বিহীন রক্তের মিশ্রণকে প্রতিরোধ করে, যা দক্ষ রক্ত সঞ্চালনের জন্য অপরিহার্য।",
+    "hints": "📖 <b>মানুষের হৃদপিন্ডে ৪টি প্রকোষ্ঠ (chambers) থাকে, যা রক্ত প্রবাহের জন্য গুরুত্বপূর্ণ ভূমিকা পালন করে।</b><br/>❏ <b>হৃদপিন্ড:</b><br/>❏ মানুষের হৃদপিণ্ড একটি পেশিবহুল অঙ্গ যা রক্ত সংবহনতন্ত্রের মাধ্যমে সারা শরীরে রক্ত পাম্প করে।<br/>❏ এটি চারটি প্রকোষ্ঠ বা চেম্বার নিয়ে গঠিত: দুটি অলিন্দ (atria) এবং দুটি নিলয় (ventricles)।<br/>❏ উপরের দুটি ছোট প্রকোষ্ঠকে অলিন্দ (ডান অলিন্দ ও বাম অলিন্দ) বলা হয়, যা সারা শরীর থেকে রক্ত গ্রহণ করে।<br/>❏ নিচের দুটি বড় ও পুরু প্রকোষ্ঠকে নিলয় (ডান নিলয় ও বাম নিলয়) বলা হয়, যা রক্ত পাম্প করে শরীরের বিভিন্ন অংশে পাঠায়।<br/>❏ অলিন্দ এবং নিলয়ের মাঝে কপাটিকা (valve) থাকে যা রক্তকে একমুখী প্রবাহে সাহায্য করে।<br/>❏ ডান অলিন্দ কার্বন ডাই অক্সাইড যুক্ত রক্ত গ্রহণ করে এবং ডান নিলয় থেকে তা ফুসফুসে পাম্প করে। বাম অলিন্দ ফুসফুস থেকে অক্সিজেন সমৃদ্ধ রক্ত গ্রহণ করে এবং বাম নিলয় থেকে তা শরীরের অন্যান্য অংশে পাঠায়।<br/>❏ হৃদপিণ্ডের প্রকোষ্ঠের প্রসারণকে বলে- ডায়াস্টোল এবং সংকোচনকে বলে- সিস্টোল।<br/>❏ প্রবাহমান রক্ত রক্তনালীর গায়ে যে পার্শ্বচাপ দেয় তাকে রক্তচাপ বলে।<br/>❏ <b>রক্তচাপ ২ প্রকার। যথা:</b><br/>১. সিস্টোলিক রক্তচাপ (১১০-১৪০ মি.মি. পারদ)<br/>২. ডায়াস্টোলিক রক্তচাপ (৬০-৯০ মি.মি. পারদ)<br/>❏ একজন পূর্ণবয়স্ক সুস্থ ব্যক্তির সিস্টোলিক চাপ ১২০ মি.মি. পারদ এবং ডায়াস্টোলিক চাপ ৮০ মি.মি. পারদ। একে ১২০/৮০ রূপে প্রকাশ করা হয়।<br/>❏ মানবদেহের রক্তচাপ (Blood Pressure) নির্ণায়ক যন্ত্রের নাম-স্ফিগমোম্যানোমিটার।<br/>উল্লেখ্য-<br/>❏ মাছের হৃদপিণ্ডের প্রকোষ্ঠের সংখ্যা ২টি।<br/>❏ উভচর প্রাণী এবং সরীসৃপদের (কুমির ব্যতীত) হৃদপিণ্ডের প্রকোষ্ঠের সংখ্যা ৩টি।\r\n",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330126,
+    "question": "নিম্নের কোন জলজ প্রাণীটির ফুলকা নেই?",
+    "options": [
+      "স্কুইড",
+      "তিমি",
+      "অক্টোপাস",
+      "ক্লাউন মাছ"
+    ],
+    "correct_answer": "তিমি",
+    "explanation": "📖 তিমি একটি স্তন্যপায়ী প্রাণী, মাছ নয়। তাই এর ফুলকা নেই। তিমি ফুসফুসের সাহায্যে বাতাস থেকে শ্বাস নেয়, যার জন্য তাকে নির্দিষ্ট সময় পর পর পানির উপরে ভেসে উঠতে হয়। স্কুইড, অক্টোপাস এবং ক্লাউন মাছ ফুলকার সাহায্যে শ্বাসকার্য চালায়।<br/>▣ তিমি (Whale) সেটাসিয়ান (Cetacea) বর্গের অন্তর্গত একটি স্তন্যপায়ী প্রাণী। এদের শরীরের গঠন মাছের মতো হলেও এরা ফুলকার পরিবর্তে নাসারন্ধ্র দিয়ে শ্বাস নেয়। তিমির বুকে একটি বিশেষ ধরনের নাসিকা থাকে, যার মাধ্যমে বাতাস নেওয়া ও নিঃশ্বাস ত্যাগ করা হয়। অন্যদিকে, স্কুইড ও অক্টোপাস মোলাস্কা পর্বের প্রাণী, যাদের শরীরে ফুলকা থাকে। ক্লাউন মাছ অ্যানিমোনিফিস পরিবারের একটি মাছ, যার ফুলকা আছে।<br/>▣ তিমি, ডলফিন এবং সীল মাছের মতো দেখতে হলেও এরা জলজ স্তন্যপায়ী প্রাণী। মাছ ফুলকার সাহায্যে জল থেকে অক্সিজেন গ্রহণ করে, কিন্তু তিমির শ্বাস-প্রশ্বাসের জন্য ফুসফুস রয়েছে। তাই তাদের শ্বাস নেওয়ার জন্য নিয়মিত জলের পৃষ্ঠে উঠে আসতে হয়। অন্যদিকে, স্কুইড, অক্টোপাস (উভয়েই সেফালোপড) এবং ক্লাউন মাছ (মাছের প্রজাতি) ফুলকার মাধ্যমে শ্বাসকার্য চালায়।",
+    "hints": "📖 <b>তিমি ফুসফুসের সাহায্যে শ্বাস নেয়, তাই তাদের ফুলকা নেই। </b><br/>❏ তিমি একটি স্তন্যপায়ী প্রাণী, মাছ নয়।<br/>❏ <b>জলজ প্রাণী:</b><br/>❏ জলজ প্রাণী হলো এমন প্রাণী যেগুলো পানিতে বাস করে এবং সাধারণত পানির মাধ্যমে শ্বাস-প্রশ্বাস, খাদ্য গ্রহণ এবং প্রজনন করে।<br/>❏ উদাহরণ: মাছ, তিমি, অক্টোপাস, স্কুইড ইত্যাদি।<br/>❏ <b>ফুলকা ব্যবহারকারী জলজ প্রাণী:</b><br/>❏ ফুলকা হলো পাতলা পর্দাযুক্ত অঙ্গ, যেখানে পানির সংস্পর্শে আসার পর অক্সিজেন রক্তে প্রবেশ করে এবং কার্বন ডাই অক্সাইড পানি থেকে বের হয়ে যায়।<br/>❏ সাধারণত মাছ, অক্টোপাস, স্কুইড, ক্রাস্টেসিয়ান (যেমন কাঁকড়া) ইত্যাদি ফুলকা দিয়ে শ্বাস নেয়।<br/>❏ <b>ফুসফুস ব্যবহারকারী জলজ প্রাণী:</b><br/>❏ জলজ স্তন্যপায়ী প্রাণী যেমন তিমি, ডলফিন, সামুদ্রিক কচ্ছপ ইত্যাদি ফুসফুসের মাধ্যমে শ্বাস নেয়।<br/>❏ এরা বাতাস থেকে সরাসরি অক্সিজেন গ্রহণ করে। এই প্রাণীরা শ্বাস নেওয়ার জন্য নিয়মিত পানির উপরে ভেসে ওঠে।<br/>❏ তিমিরা তাদের ফুসফুসে বাতাস ধরে রেখে দীর্ঘক্ষণ পানির নিচে থাকে এবং যখন তাদের অক্সিজেনের প্রয়োজন হয়, তখন তারা পানির উপরে ভেসে ওঠে এবং \"ব্লোহোল\" (blowhole) নামক নাসারন্ধ্র দিয়ে শ্বাস নেয়।<br/>উল্লেখ্য-<br/>❏ স্কুইড এবং অক্টোপাস উভয়ই Mollusca পর্বের Cephalopoda শ্রেণীর প্রাণী এবং এদের ফুলকা আছে, যা দিয়ে তারা পানি থেকে অক্সিজেন গ্রহণ করে।<br/>❏ ক্লাউন মাছ (Clownfish) একটি মাছ এবং মাছের শ্বাসযন্ত্র হিসেবে ফুলকা ব্যবহার করে।\r\n",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330127,
+    "question": "কোন ভিটামিন একটি এন্টিঅক্সিডেন্ট হিসেবে কাজ করে?",
+    "options": [
+      "ভিটামিন A",
+      "ভিটামিন B",
+      "ভিটামিন C",
+      "ভিটামিন D"
+    ],
+    "correct_answer": "ভিটামিন C",
+    "explanation": "📖 ভিটামিন C (অ্যাসকরবিক অ্যাসিড) একটি শক্তিশালী অ্যান্টিঅক্সিডেন্ট। এটি শরীরের কোষগুলোকে ফ্রি র‍্যাডিকেলের ক্ষতিকর প্রভাব থেকে রক্ষা করে, রোগ প্রতিরোধ ক্ষমতা বাড়ায় এবং ত্বক ও কলার স্বাস্থ্য বজায় রাখতে সাহায্য করে। ভিটামিন A এবং E-ও অ্যান্টিঅক্সিডেন্ট হিসেবে কাজ করে।<br/>▣ ভিটামিন সি একটি জলে দ্রবণীয় ভিটামিন, যা মানবদেহে সংশ্লেষিত হয় না। এটি ফলমূল (যেমন কমলালেবু, আমলকী) এবং সবজিতে পাওয়া যায়। অ্যান্টিঅক্সিডেন্ট হিসেবে এটি ফ্রি র‍্যাডিকেলকে নিষ্ক্রিয় করে কোষের ক্ষতি প্রতিরোধ করে। এটি কোলাজেন সংশ্লেষণে সাহায্য করে, যা ত্বক, হাড় ও রক্তনালীর স্বাস্থ্যের জন্য প্রয়োজনীয়। ভিটামিন সির অভাবে স্কার্ভি রোগ হতে পারে।<br/>▣ অ্যান্টিঅক্সিডেন্ট হলো এমন যৌগ যা শরীরের কোষকে ফ্রি র‍্যাডিকেল নামক ক্ষতিকর অণুর দ্বারা সৃষ্ট ক্ষতি থেকে রক্ষা করে। ভিটামিন সি (অ্যাসকরবিক অ্যাসিড) একটি শক্তিশালী জলে দ্রবণীয় অ্যান্টিঅক্সিডেন্ট। এছাড়াও ভিটামিন ই (টোকোফেরল) এবং বিটা-ক্যারোটিন (ভিটামিন এ-এর পূর্বসূরী) হলো ফ্যাটে দ্রবণীয় গুরুত্বপূর্ণ অ্যান্টিঅক্সিডেন্ট, যা কোষের ঝিল্লিকে রক্ষা করে।",
+    "hints": "📖 <b>ভিটামিন C, যা অ্যাসকরবিক অ্যাসিড নামেও পরিচিত, একটি শক্তিশালী অ্যান্টিঅক্সিডেন্ট। </b><br/>❏ <b>ভিটামিন (Vitamin):</b><br/>❏ ভিটামিন হলো এক ধরনের জৈব যৌগ যা জীবের স্বাভাবিক বৃদ্ধি, রোগ প্রতিরোধ এবং সুস্থ থাকার জন্য খুব অল্প পরিমাণে প্রয়োজন হয়। মানব শরীর সাধারণত এগুলো তৈরি করতে পারে না, তাই খাদ্য থেকে এগুলো গ্রহণ করতে হয়।<br/>❏ ভিটামিনকে দুটি প্রধান ভাগে ভাগ করা হয়: স্নেহ পদার্থে দ্রবণীয় ভিটামিন (যেমন: A, D, E, K) এবং পানিতে দ্রবণীয় ভিটামিন (যেমন: B কমপ্লেক্স এবং C)।<br/>❏ <b>ভিটামিন C :  </b><br/>❏ ভিটামিন C, যা অ্যাসকরবিক অ্যাসিড নামে পরিচিত, একটি পানিতে দ্রবণীয় ভিটামিন।<br/>❏ এটি শ্বেত রক্তকণিকার উৎপাদন ও কার্যকারিতা বাড়িয়ে সংক্রমণের বিরুদ্ধে লড়াইয়ে সাহায্য করে।<br/>❏ কোলাজেন নামক প্রোটিন উৎপাদনে এটি অপরিহার্য, যা ত্বক, হাড়, পেশি এবং রক্তনালীকে শক্তিশালী করে।<br/>❏ এটি নতুন টিস্যু গঠনে সহায়তা করে।<br/>❏ ভিটামিন সি এর দীর্ঘদিনের অভাবে স্কার্ভি রোগ হয়।<br/>❏ ভিটামিন C এর প্রধান উৎসগুলো হলো লেবু, কমলা, পেঁপে, স্ট্রবেরি, টমেটো এবং বিভিন্ন ধরনের সবুজ শাকসবজি।<br/>❏ <b>এন্টিঅক্সিডেন্ট:</b><br/>❏ এন্টিঅক্সিডেন্ট হলো এমন একটি পদার্থ যা ফ্রি রেডিক্যাল নামক অস্থির অণুর ক্ষতিকর প্রভাব থেকে শরীরের কোষগুলোকে রক্ষা করে।<br/>❏ ফ্রি রেডিক্যাল হলো অস্থির অণু, যা অক্সিডেটিভ স্ট্রেস তৈরি করে এবং কোষের ক্ষতি করতে পারে। এই ধরনের ক্ষতি বিভিন্ন দীর্ঘস্থায়ী রোগের কারণ হতে পারে, যেমন হৃদরোগ, ক্যান্সার এবং আর্থ্রাইটিস।<br/>❏  ভিটামিন C এই ফ্রি রেডিক্যালগুলোকে নিষ্ক্রিয় করতে সহায়তা করে, ফলে কোষের ক্ষতি রোধ হয়।\r\n",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330128,
+    "question": "চোখের লেন্সের ধরণ কোনটি?",
+    "options": [
+      "উত্তল",
+      "অবতল",
+      "দ্বি-উত্তল",
+      "দ্বি-অবতল"
+    ],
+    "correct_answer": "দ্বি-উত্তল",
+    "explanation": "📖 মানুষের চোখের লেন্সটি একটি দ্বি-উত্তল (Biconvex) লেন্স। এর অর্থ হলো লেন্সটির উভয় পৃষ্ঠই উত্তল বা বাইরের দিকে বাঁকানো। এই লেন্সটি চোখের রেটিনার উপর আলোর রশ্মি কেন্দ্রীভূত করে প্রতিবিম্ব তৈরি করতে সাহায্য করে।<br/>▣ মানব চোখের লেন্স একটি স্বচ্ছ, নমনীয় কাঠামো যা সিলিয়ারি পেশীর সাহায্যে পুরু বা চ্যাপ্টা হতে পারে। এটি প্রায় ৪ মিমি পুরু এবং এর গড় ব্যাসার্ধ প্রায় ১০ মিমি। দ্বি-উত্তল লেন্সের কারণে এটি আলোক রশ্মিকে রেটিনার উপর কেন্দ্রীভূত করতে পারে। লেন্সের ক্ষমতা ডায়পটারে পরিমাপ করা হয়। বয়স বাড়ার সাথে লেন্সের নমনীয়তা কমে যায়, যাকে প্রেসবায়োপিয়া বলা হয়।<br/>▣ মানব চক্ষুর লেন্সটি একটি স্বচ্ছ, স্থিতিস্থাপক এবং দ্বি-উত্তল (Biconvex) প্রকৃতির। এর দুটি পৃষ্ঠই উত্তল, তবে পেছনের পৃষ্ঠের বক্রতা সামনের পৃষ্ঠের চেয়ে বেশি। সিলিয়ারি পেশির সংকোচন ও প্রসারণের মাধ্যমে এই লেন্স তার ফোকাস দৈর্ঘ্য পরিবর্তন করতে পারে, যার ফলে আমরা কাছের ও দূরের বস্তু স্পষ্টভাবে দেখতে পাই। এই প্রক্রিয়াকে উপযোজন (Accommodation) বলে।",
+    "hints": "📖 <b>মানুষের চোখের লেন্সটি হলো একটি দ্বি-উত্তল লেন্স, যা উভয় দিকেই উত্তল আকৃতির। </b><br/>❏ এই লেন্সটি অভিসারী লেন্স হিসেবে কাজ করে এবং আলোকরশ্মিকে প্রতিসারিত করে রেটিনার উপর ফোকাস করতে সাহায্য করে, যার ফলে আমরা কোনো বস্তুর স্পষ্ট প্রতিবিম্ব দেখতে পাই।<b>দ্বি-উত্তল লেন্স:</b><br/>❏ দ্বি-উত্তল লেন্স হলো একটি বিশেষ ধরনের উত্তল লেন্স, যার উভয় পৃষ্ঠই বাইরের দিকে বক্রাকার বা উত্তল আকৃতির।<br/>❏ এটি অভিসারী (converging) লেন্স হিসেবে পরিচিত, কারণ এটি এর মধ্য দিয়ে যাওয়া সমান্তরাল আলোকরশ্মিকে একটি নির্দিষ্ট বিন্দুতে (ফোকাস বিন্দুতে) একত্রিত করে।<br/>❏ এর প্রধান বৈশিষ্ট্য হলো, এটি এর মধ্য দিয়ে আপতিত সমান্তরাল আলোকরশ্মিকে প্রতিসরণের পর একটি বিন্দুতে মিলিত করে।<br/>❏ এটি সাধারণত বাস্তব (real) এবং উল্টো (inverted) প্রতিবিম্ব তৈরি করে।<br/>❏ রেটিনায় সৃষ্ট উল্টো প্রতিবিম্বের তথ্য অপটিক স্নায়ুর মাধ্যমে মস্তিষ্কে পৌঁছায়, এবং মস্তিষ্ক সেই সংকেতগুলোকে প্রক্রিয়াজাত করে সোজা করে দেখায়।<br/>❏ <b>চোখে দ্বি-উত্তল লেন্সের কার্যকারিতা:</b><br/>❏ চোখের লেন্স হলো একটি প্রাকৃতিক, নমনীয় এবং স্বচ্ছ দ্বি-উত্তল লেন্স।<br/>❏ এর মূল কাজ হলো বিভিন্ন দূরত্বে থাকা বস্তু থেকে আসা আলোকরশ্মিকে রেটিনার ওপর সঠিকভাবে ফোকাস করা, যাতে একটি স্পষ্ট প্রতিবিম্ব তৈরি হয়।<br/>❏ <b>উপযোজন (Accommodation) প্রক্রিয়া:</b><br/>❏ চোখের লেন্সের সবচেয়ে উল্লেখযোগ্য বৈশিষ্ট্য হলো এর উপযোজন ক্ষমতা। এটি চোখের সিলিয়ারি পেশী দ্বারা নিয়ন্ত্রিত হয়।<br/>❏ দূরের বস্তু দেখার জন্য চোখের লেন্স পাতলা হয়ে যায়, যার ফলে ফোকাস দূরত্ব বেড়ে যায় এবং রেটিনার উপর স্পষ্ট প্রতিবিম্ব তৈরি হয়।<br/>❏ আর কাছের বস্তু দেখার সময় লেন্সটি মোটা হয়ে যায়, যার কারণে ফোকাস দূরত্ব কমে যায় এবং রেটিনার উপর প্রতিবিম্ব সঠিকভাবে গঠিত হয়। এই প্রক্রিয়াটিই উপযোজন নামে পরিচিত।<br/>উল্লেখ্য-<br/>❏ উত্তল: এটি লেন্সের একটি সাধারণ প্রকার, কিন্তু চোখের লেন্সের সবচেয়ে সুনির্দিষ্ট ধরণ হলো দ্বি-উত্তল।<br/>❏ অবতল: এটি একটি অপসারী লেন্স এবং এটি দৃষ্টি ত্রুটি (যেমন: মায়োপিয়া) সংশোধনের জন্য চশমায় ব্যবহৃত হয়, চোখে নয়।<br/>❏ দ্বি-অবতল: এটি অবতল লেন্সের একটি প্রকারভেদ এবং এটিও সাধারণত চশমা ও কিছু বিশেষ আলোকীয় যন্ত্রে ব্যবহৃত হয়।\r\n",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330129,
+    "question": "পাপুয়া নিউগিনি কোন দেশ থেকে স্বাধীনতা অর্জন করে?",
+    "options": [
+      "ফ্রান্স",
+      "যুক্তরাস্ট্র",
+      "অস্ট্রেলিয়া",
+      "যুক্তরাজ্য"
+    ],
+    "correct_answer": "অস্ট্রেলিয়া",
+    "explanation": "📖 পাপুয়া নিউগিনি ১৯৭৫ সালের ১৬ সেপ্টেম্বর অস্ট্রেলিয়ার কাছ থেকে স্বাধীনতা লাভ করে। এর আগে এটি অস্ট্রেলিয়ার একটি শাসিত অঞ্চল ছিল।<br/>▣ পাপুয়া নিউগিনি অস্ট্রেলিয়ার অধীনে ছিল ১৯০৬ সাল থেকে। এটি প্রথমে ব্রিটিশ নিউ গিনি নামে পরিচিত ছিল। দ্বিতীয় বিশ্বযুদ্ধের পর এটি অস্ট্রেলিয়ার অধিক্ষেত্রভুক্ত হয়। ১৯৭৫ সালে এটি একটি স্বাধীন রাষ্ট্র হিসেবে আত্মপ্রকাশ করে। পাপুয়া নিউগিনি এখন কমনওয়েলথ অফ নেশনসের সদস্য এবং এর রাজধানী পোর্ট মোরেসবি।<br/>▣ পাপুয়া নিউগিনি ওশেনিয়া মহাদেশের একটি দেশ। প্রথম বিশ্বযুদ্ধের পর এটি অস্ট্রেলিয়ার অধীনে একটি ম্যান্ডেট অঞ্চল হিসেবে শাসিত হতে থাকে। পরবর্তীতে জাতিসংঘের ট্রাস্ট অঞ্চল হিসেবেও অস্ট্রেলিয়াই এর প্রশাসকের দায়িত্বে ছিল। দীর্ঘ সময় অস্ট্রেলীয় প্রশাসনের অধীনে থাকার পর ১৯৭৫ সালের ১৬ সেপ্টেম্বর দেশটি পূর্ণ স্বাধীনতা লাভ করে।",
+    "hints": "📖 <b>• পাপুয়া নিউগিনি:</b><br/>❏ পাপুয়া নিউগিনি প্রশান্ত মহাসাগরের একটি দ্বীপ রাষ্ট্র।<br/>❏ এটি ওশেনিয়া মহাদেশের মেলানেশিয়া অঞ্চলে অবস্থিত।<br/>❏ স্বাধীনতার আগে পাপুয়া নিউগিনি <b>অস্ট্রেলিয়ার </b>অধীন ছিল।<br/>❏  ১৯০৫ সালে পাপুয়া নিউগিনি ব্রিটিশদের নিয়ন্ত্রণ থেকে অস্ট্রেলিয়ার নিয়ন্ত্রনে আসে।<br/>❏ ১৯৭৫ সালে অস্ট্রেলিয়ার নিকট থেকে দেশটি পূর্ণ স্বাধীনতা লাভ করে।<br/>❏ বিশ্বের সবচেয়ে বেশি ভাষার দেশ - পাপুয়া নিউগিনি।<br/>❏ দেশটিতে প্রায় ৮৪০টি ভাষা রয়েছে।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330130,
+    "question": "বাংলাদেশের প্রশাসনিক কাঠামোর সর্বনিম্ন স্তর কোনটি?",
+    "options": [
+      "জেলা",
+      "উপজেলা",
+      "ইউনিয়ন",
+      "ওয়ার্ড"
+    ],
+    "correct_answer": "ইউনিয়ন",
+    "explanation": "📖 বাংলাদেশের প্রশাসনিক কাঠামোতে উপজেলা একটি গুরুত্বপূর্ণ স্তর। উপজেলা পরিষদ আইন, ১৯৯৮ অনুযায়ী উপজেলা একটি স্বায়ত্তশাসিত প্রতিষ্ঠান। উপজেলার প্রধান নির্বাহী কর্মকর্তা (UNO) এবং উপজেলা চেয়ারম্যান দায়িত্ব পালন করেন। ইউনিয়ন পরিষদ ও ওয়ার্ড স্থানীয় সরকারের অধীনে কাজ করে। উপজেলা হলো জেলা ও ইউনিয়নের মধ্যবর্তী স্তর।<br/>▣ বাংলাদেশের প্রশাসনিক কাঠামো কয়েকটি স্তরে বিভক্ত। কেন্দ্রীয় প্রশাসনের পর্যায়গুলো হলো: বিভাগ, জেলা এবং উপজেলা।এই বিকল্পগুলোর মধ্যে উপজেলা হলো সর্বনিম্ন প্রশাসনিক স্তর। তবে, স্থানীয় সরকার কাঠামো বিবেচনা করলে উপজেলার নিচে ইউনিয়ন পরিষদ এবং তার নিচে ওয়ার্ড রয়েছে। প্রশ্নটিতে 'প্রশাসনিক কাঠামো' বলায় উপজেলাকেই সর্বনিম্ন স্তর হিসেবে ধরা হয়।",
+    "hints": "📖 <b>প্রশাসনিক কাঠামোর স্তর: </b><br/>❏ মাঠ পর্যায়ে প্রশাসনিক কাঠামোর স্তর তিনটি। যথা- বিভাগীয় প্রশাসন, জেলা প্রশাসন ও উপজেলা প্রশাসন।<br/>❏ মাঠ পর্যায়ে প্রশাসনিক কাঠামো সর্বোচ্চ স্তর- বিভাগীয় প্রশাসন এবং<b>সর্বনিম্ন স্তর উপজেলা প্রশাসন।</b><br/>▣ অন্যদিকে,<br/>❏ বর্তমানে বাংলাদেশে প্রচলিত স্থানীয় সরকার ব্যবস্থা রয়েছে ৫ ধরনের।<br/>❏ গ্রাম অঞ্চলের ৩ ধরনের এবং শহর অঞ্চলে ২ ধরনের।<br/>❏ গ্রাম অঞ্চলের স্থানীয় সরকার ব্যবস্থা - ইউনিয়ন পরিষদ, উপজেলা পরিষদ এবং জেলা পরিষদ।<br/>❏ শহর অঞ্চলের স্থানীয় সরকার ব্যবস্থা - পৌরসভা এবং সিটি কর্পোরেশন।<br/>❏ মাঠ পর্যায়ে স্থানীয় সরকার ব্যবস্থার সর্বনিম্ন স্তর - ইউনিয়ন পরিষদ।<br/>▣ উৎসঃ পৌরনীতি ও সুশাসন, প্রফেসর মোঃ মোজাম্মেল হক।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330131,
+    "question": "ফোর্ট উইলিয়াম কলেজে বাংলা বিভাগ খোলা হয় -",
+    "options": [
+      "১৮০০ সালে",
+      "১৮০১ সালে",
+      "১৮০২ সালে",
+      "১৮০৩ সালে"
+    ],
+    "correct_answer": "১৮০১ সালে",
+    "explanation": "📖 ব্রিটিশ কর্মকর্তাদের বাংলা ভাষা শেখানোর উদ্দেশ্যে ১৮০০ সালে কলকাতায় ফোর্ট উইলিয়াম কলেজ প্রতিষ্ঠিত হয়। তবে এর বাংলা বিভাগ আনুষ্ঠানিকভাবে চালু হয় ১৮০১ সালে, যার প্রধান ছিলেন উইলিয়াম কেরি। প্রশ্নটিতে কলেজ প্রতিষ্ঠার সাল জানতে চাওয়া হয়েছে বলে ১৮০০ সাল সঠিক উত্তর।<br/>▣ ফোর্ট উইলিয়াম কলেজ প্রতিষ্ঠিত হয় ১৮০০ সালের ৪ মে, তৎকালীন গভর্নর-জেনারেল লর্ড ওয়েলেসলির উদ্যোগে। ব্রিটিশ সিভিলিয়ানদের দেশীয় ভাষা, সংস্কৃতি ও আইন সম্পর্কে প্রশিক্ষণ দেওয়াই ছিল এর মূল উদ্দেশ্য। এই কলেজের অধীনে ১৮০১ সালে বাংলা বিভাগ খোলা হয় এবং এর প্রধান হিসেবে নিযুক্ত হন প্রখ্যাত ব্যাপ্টিস্ট মিশনারি ও ভাষাবিদ উইলিয়াম কেরি। বাংলা গদ্যের বিকাশে এই কলেজের বাংলা বিভাগের ভূমিকা ছিল অপরিসীম।",
+    "hints": "📖 <b>• ফোর্ট উইলিয়াম কলেজ:</b><br/>❏ ফোর্ট উইলিয়াম কলেজ গভর্নর জেনারেল লর্ড ওয়েলেসলী কর্তৃক ১৮০০ সালের ৪মে প্রতিষ্ঠিত প্রাচ্যবিষয়ক একটি প্রশিক্ষণ কেন্দ্র।<br/>❏ নবনিযুক্ত ইউরোপীয় আমলাদের নৈতিক ও বুদ্ধিবৃত্তিক উন্নতি সাধনই ছিল এ কেন্দ্রের উদ্দেশ্য।<br/>❏  <b>১৮০১ সালের ২৪শে নভেম্বর কলেজে বাংলা বিভাগ প্রতিষ্ঠিত হয় </b>এবং প্রথম অধ্যক্ষ হন পাদ্রী উইলিয়াম কেরী।<br/>ফোর্ট উইলিয়াম কলেজের প্রথম অধ্যক্ষ উইলিয়াম কেরী এবং তাঁর দুই সহকারী রামরাম বসু ও মৃত্যুঞ্জয় বিদ্যালঙ্কার ছাড়াও আরো কয়েকজন বাংলা গদ্যে কলেজের পাঠ্যপোযোগী গ্রন্থ রচনা করেন।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330132,
+    "question": "টেকনাফ ও তেঁতুলিয়া স্থান ২টি কোন কোন জেলায় অবস্থিত?",
+    "options": [
+      "বান্দরবান ও নীলফামারী",
+      "কক্সবাজার ও দিনাজপুর",
+      "কক্সবাজার ও পঞ্চগড়",
+      "ফেনী ও টাঙ্গাইল"
+    ],
+    "correct_answer": "কক্সবাজার ও পঞ্চগড়",
+    "explanation": "📖 টেকনাফ হলো বাংলাদেশের সর্ব দক্ষিণের উপজেলা, যা কক্সবাজার জেলায় অবস্থিত। অন্যদিকে, তেঁতুলিয়া হলো বাংলাদেশের সর্ব উত্তরের উপজেলা, যা পঞ্চগড় জেলায় অবস্থিত।<br/>▣ বাংলাদেশের ভৌগোলিক সীমানার দুই প্রান্ত নির্দেশ করতে প্রায়শই \"তেঁতুলিয়া থেকে টেকনাফ\" কথাটি ব্যবহৃত হয়। এর মধ্যে তেঁতুলিয়া হলো পঞ্চগড় জেলার একটি উপজেলা, যা বাংলাদেশের সর্ব উত্তরে অবস্থিত। আর টেকনাফ হলো কক্সবাজার জেলার একটি উপজেলা, যা বাংলাদেশের সর্ব দক্ষিণে অবস্থিত।",
+    "hints": "📖 <b>টেকনাফ উপজেলা:<br/>❏ টেকনাফ কক্সবাজার জেলায় অবস্থিত।<br/>▣ তেতুঁলিয়া উপজেলা: </b><br/>❏ <b>তেতুঁলিয়া পঞ্চগড় জেলার একটি উপজেলা। </b><br/>❏ ইংরেজী ১৮৬০ সন হতে ১৮৬৯ সন পর্যন্ত রংপুর জেলার একটি মহুকুমা হিসেবে প্রশাসনিক ইউনিটের মর্যাদা লাভ করে।<br/>❏ শিল্প, বাণিজ্য ও নদী বন্দর হিসেবে তেতুলিয়া ছিল সুবিখ্যাত।<br/>❏ ১৯৪৭ সনের ১৮ আগস্ট স্যার রেডক্লিপ ভারতের জলপাইগুড়ি জেলার অন্য ৪ টি থানার সঙ্গে তেতুলিয়াকে পূর্ব পাকিস্তানের দিনাজপুরের সাথে যুক্ত করে দেন ।<br/>❏ তেতুলিয়া বাংলাদেশের সর্ব উত্তরের উপজেলা।<br/>❏ এ উপজেলার তিন দিকে ভারত শুধুমাত্র দক্ষিন দিকে পঞ্চগড় সদর উপজেলা।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330133,
+    "question": "ঢাকা বিশ্ববিদ্যালয়ের প্রথম ভারতীয় উপাচার্য কে ছিলেন?",
+    "options": [
+      "ড. মুহাম্মদ শহীদুল্লাহ",
+      "ড. রমেশচন্দ্র মজুমদার",
+      "স্যার এ.এফ. রহমান",
+      "ড. মাহমুদ হোসেন"
+    ],
+    "correct_answer": "স্যার এ.এফ. রহমান",
+    "explanation": "📖 ঢাকা বিশ্ববিদ্যালয়ের প্রথম উপাচার্য ছিলেন স্যার পি. জে. হার্টগ (ব্রিটিশ)। তবে প্রথম ভারতীয় এবং বাঙালি উপাচার্য ছিলেন স্যার আহমেদ ফজলুর রহমান (এ. এফ. রহমান) (১৮৮৯-১৯৪৫) । তিনি ১৯৩৪ থেকে ১৯৩৬ সাল পর্যন্ত এই দায়িত্ব পালন করেন।<br/>▣ ঢাকা বিশ্ববিদ্যালয় ১৯২১ সালে প্রতিষ্ঠিত হয়। এর প্রথম উপাচার্য ছিলেন একজন ব্রিটিশ শিক্ষাবিদ, স্যার ফিলিপ জোসেফ হার্টগ। তাঁর পর দ্বিতীয় উপাচার্য ছিলেন অধ্যাপক জর্জ হ্যারি ল্যাংলি। বিশ্ববিদ্যালয়ের তৃতীয় উপাচার্য এবং প্রথম ভারতীয় ও বাঙালি উপাচার্য ছিলেন স্যার আহমেদ ফজলুর রহমান (এ. এফ. রহমান)। তিনি ১ জুলাই ১৯৩৪ থেকে ৩১ ডিসেম্বর ১৯৩৬ পর্যন্ত দায়িত্ব পালন করেন।",
+    "hints": "📖 <b>স্যার এ এফ রহমান:</b><br/>❏ পুরো নাম আহমদ ফজলুর রহমান।<br/>❏ স্যার আহমদ ফজলুর রহমান একজন বিশিষ্ট শিক্ষাবিদ।<br/>❏ তিনি ১৮৮৯ সালের ২৮ ডিসেম্বর ভারতের জলপাইগুড়িতে জন্মগ্রহণ করেন।<br/>❏ তিনি জলপাইগুড়ি জেলা স্কুল থেকে ১৯০৮ সালে প্রবেশিকা পাস করেন।<br/>❏ তিনি  লন্ডনের অক্সফোর্ড বিশ্ববিদ্যালয় থেকে ১৯১২ সালে ইতিহাস বিষয়ে বি.এ (অনার্স) এবং ১৯১৩ সালে কলকাতা বিশ্ববিদ্যালয় থেকে ইতিহাসে এম.এ ডিগ্রি লাভ করেন।<br/>❏ আহমদ ফজলুর রহমান ১৯৩৪ থেকে ১৯৩৬ সাল পর্যন্ত ঢাকা বিশ্ববিদ্যালয়ের উপাচার্য ছিলেন।<br/>❏ <b>ঢাকা বিশ্ববিদ্যালয়ের প্রথম ভারতীয় ও মুসলমান উপাচার্য ছিলেন স্যার এ এফ রহমান।<br/>❏  </b>ঢাকা বিশ্ববিদ্যালয় ১৯৩৭ সালে তাঁকে সম্মানসূচক ডক্টর অব ল’ ডিগ্রি প্রদান করে।<br/>❏ ১৯৪২ সালে ব্রিটিশ সরকার তাঁকে ‘নাইট’ উপাধিতে ভূষিত করে।<br/>❏ আহমদ ফজলুর রহমান ১৯৪৫ সালে মৃত্যুবরণ করেন।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330134,
+    "question": "কোন দেশটি আরব লীগের সদস্য নয়?",
+    "options": [
+      "লেবানন",
+      "জর্ডান",
+      "ইরান",
+      "কাতার"
+    ],
+    "correct_answer": "ইরান",
+    "explanation": "📖 আরব লীগ ১৯৪৫ সালে প্রতিষ্ঠিত হয়। বর্তমানে এর সদস্য সংখ্যা ২২টি। ইরান আরব লীগের সদস্য না হলেও এটি অন্যান্য আন্তর্জাতিক সংস্থার সঙ্গে সক্রিয়ভাবে কাজ করে। ইরান একটি মুসলিম প্রধান দেশ এবং মধ্যপ্রাচ্যের একটি গুরুত্বপূর্ণ রাষ্ট্র। আরব লীগের সদস্য দেশগুলো মূলত আরব উপদ্বীপ, উত্তর আফ্রিকা ও মধ্যপ্রাচ্যে অবস্থিত।<br/>▣ আরব লীগ বা আরব রাষ্ট্রসমূহের লীগ হলো মধ্যপ্রাচ্য, উত্তর ও পূর্ব আফ্রিকার আরব ভাষাভাষী দেশগুলোর একটি সংগঠন। এর সদস্য দেশগুলোর অধিকাংশই জাতিগতভাবে আরব এবং তাদের রাষ্ট্রভাষা আরবি। ইরান একটি পারস্য উপসাগরীয় দেশ হলেও জাতিগতভাবে পার্সিয়ান এবং এর রাষ্ট্রভাষা ফারসি, আরবি নয়। তাই ইরান আরব লীগের সদস্য নয়।",
+    "hints": "📖 <b>আরব লীগ: </b><br/>❏ মধ্যপ্রাচ্যের দেশগুলোর আঞ্চলিক সংগঠন।<br/>❏ উদ্দেশ্য: সদস্য দেশগুলোর রাজনৈতিক, সাংস্কৃতিক, অর্থনৈতিক ও সামাজিক কর্মকান্ডের সমন্বয় ও বন্ধন শক্তিশালী করা।<br/>❏ ৭ অক্টোবর ১৯৪৪ সালে স্বাক্ষরিত হয়।<br/>❏ আলেকজান্দ্রিয়া প্রটোকল ছিল আরব লীগের ভিত্তি।<br/>❏ ১৯৪৫ সালের ২২ মার্চ আরব লীগ গঠিত হয়।<br/>❏ সদর দপ্তর: কায়রো, মিশর।<br/>❏ <b>সদস্য: মোট ২২টি রাষ্ট্র।<br/></b>- আলজেরিয়া, বাহরাইন, কোমোরোস, জিবুতি, মিশর, ইরাক, জর্ডান, কুয়েত, লেবানন, লিবিয়া, মৌরিতানিয়া, মরক্কো, ওমান, ফিলিস্তিন, কাতার, সৌদি আরব, সোমালিয়া, সুদান, সিরিয়া, তিউনিশিয়া, সংযুক্ত আরব আমিরাত এবং ইয়েমেন।<br/>❏ <b>আরব লীগ বহির্ভূত মধ্যপ্রাচ্যের দেশ: ইরান।</b><br/>❏ অফিসিয়াল ভাষা: আরবি।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330135,
+    "question": "বাংলাদেশের প্রথম শিক্ষা কমিশনের অধীন কে ছিলেন ?",
+    "options": [
+      "ড. আনিসুজ্জামান",
+      "ড. মনিরুজ্জামান মিয়া",
+      "ড. কুদরত-ই-খুদা",
+      "ড. রঙ্গলাল সেন"
+    ],
+    "correct_answer": "ড. কুদরত-ই-খুদা",
+    "explanation": "📖 বাংলাদেশের প্রথম শিক্ষা কমিশনের চেয়ারম্যান ছিলেন প্রখ্যাত বিজ্ঞানী ও শিক্ষাবিদ ড. কুদরত-ই-খুদা(১৯০৬-১৯৭৭) । এই কমিশনটি 'কুদরত-ই-খুদা শিক্ষা কমিশন' নামে পরিচিত, যা ১৯৭২ সালে গঠিত হয় এবং ১৯৭৪ সালে প্রতিবেদন পেশ করে।<br/>▣ বাংলাদেশ স্বাধীন হওয়ার পর, দেশের জন্য একটি বিজ্ঞানসম্মত ও গণমুখী শিক্ষানীতি প্রণয়নের লক্ষ্যে ১৯৭২ সালের ২৬ জুলাই ড. মুহাম্মদ কুদরত-ই-খুদাকে চেয়ারম্যান করে 'জাতীয় শিক্ষা কমিশন' গঠন করা হয়। এই কমিশনটিই 'কুদরত-ই-খুদা শিক্ষা কমিশন' নামে সর্বাধিক পরিচিত। কমিশন ১৯৭৪ সালের মে মাসে সরকারের কাছে তাদের চূড়ান্ত সুপারিশমালা পেশ করে, যা বাংলাদেশের শিক্ষা ব্যবস্থার ভিত্তি হিসেবে বিবেচিত হয়।",
+    "hints": "📖 প্রশ্নটির ভাষাগত ত্রুটি রয়েছে।<br/>❏ প্রশ্নটি হওয়ার কথা, 'বাংলাদেশের প্রথম শিক্ষা কমিশনের অধীন কে ছিলেন?'<br/>❏ তাই আমরা 'শিক্ষা কমিশন' ধরে নিয়ে ড. কুদরাত-ই-খুদা উত্তরটি সঠিক হিসেবে নিলাম।<br/>▣ <b>কুদরত-ই-খুদা কমিশন:</b><br/>❏ <b>জাতীয় শিক্ষা কমিশন (১৯৭২)  বিশিষ্ট শিক্ষাবিদ ও বিজ্ঞানী ড. কুদরাত-ই-খুদাকে চেয়ারম্যান করে ১৯৭২ সালের ২৬ জুলাই গঠিত হয় বাংলাদেশের প্রথম শিক্ষা কমিশন ‘জাতীয় শিক্ষা কমিশন’।</b><br/>❏ চেয়ারম্যানের নামানুসারে এই কমিশন কুদরত-ই-খুদা কমিশন নামেও পরিচিতি পায়।<br/>❏ কমিশন প্রশ্নমালার আকারে শিক্ষিত এলিট শ্রেণীর লোকদের নিকট থেকে মতামত গ্রহণ করে, এবং ঐসব মতামত সতর্কতার সঙ্গে যাচাই বাছাই করে প্রণীত রিপোর্টে দেশের শিক্ষা ব্যবস্থার পুনর্বিন্যাসের সুপারিশ করে।<br/>❏ কমিশন ১৯৭৪ সালের ৩০ মে সরকারের নিকট রিপোর্ট পেশ করে।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330136,
+    "question": "পৃথিবীর সবচেয়ে বড় এনজিও (NGO) এর নাম কি?",
+    "options": [
+      "ব্র্যাক",
+      "প্রশিকা",
+      "গ্রামীণ ব্যাংক",
+      "অ্যামনেস্টি ইন্টারন্যাশনাল"
+    ],
+    "correct_answer": "ব্র্যাক",
+    "explanation": "📖 কর্মী সংখ্যা এবং কার্যক্রমের পরিধি বিবেচনায় বাংলাদেশের ব্র্যাক (BRAC - Bangladesh Rural Advancement Committee) হলো বিশ্বের বৃহত্তম বেসরকারি উন্নয়ন সংস্থা (NGO)।স্যার ফজলে হাসান আবেদ ১৯৭২ সালে এটি প্রতিষ্ঠা করেন।<br/>▣ ব্র্যাক বর্তমানে ১১টি দেশে কাজ করে, যার মধ্যে এশিয়া, আফ্রিকা ও আমেরিকা অন্তর্ভুক্ত। এর কর্মী সংখ্যা প্রায় ১ লাখেরও বেশি। ব্র্যাকের কার্যক্রমের মধ্যে রয়েছে দারিদ্র্য বিমোচন, শিক্ষা, স্বাস্থ্য, আইনি সহায়তা এবং ক্ষুদ্রঋণ প্রদান। এটি বিশ্বের বৃহত্তম বেসরকারি উন্নয়ন সংস্থা হিসেবে গিনেস বুক অফ ওয়ার্ল্ড রেকর্ডসে স্বীকৃত।",
+    "hints": "📖 <b>পৃথিবীর সবচেয়ে বড় এনজিও (NGO) হলো ব্রাক।</b><br/>▣ <b>ব্র্যাক:</b><br/>❏ ব্র্যাক ১৯৭২ সালে বাংলাদেশের স্যার ফজলে হাসান আবেদ প্রতিষ্ঠা করেন।<br/>❏ বর্তমানে এটি বিশ্বের ১০টিরও বেশি দেশে কাজ করছে।<br/>❏ স্বাস্থ্য, শিক্ষা, মাইক্রোফাইন্যান্স, দারিদ্র্য দূরীকরণসহ বহুমুখী কার্যক্রম চালায়।<br/>❏ সদস্য সংখ্যা, কার্যক্রমের পরিধি এবং বাজেট – সবদিক থেকেই এটি বিশ্বের সবচেয়ে বড় বেসরকারি উন্নয়ন সংস্থা (NGO)।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330137,
+    "question": "মন্ত্রী পরিষদের প্রধান কে?",
+    "options": [
+      "স্পীকার",
+      "প্রধানমন্ত্রী",
+      "চীফ হুইপ",
+      "মন্ত্রী পরিষদ সচিব"
+    ],
+    "correct_answer": "প্রধানমন্ত্রী",
+    "explanation": "📖 বাংলাদেশের সংসদীয় সরকার ব্যবস্থায় মন্ত্রিসভা বা মন্ত্রী পরিষদের প্রধান হলেন প্রধানমন্ত্রী। সংবিধান অনুযায়ী, প্রধানমন্ত্রী সরকারের নির্বাহী ক্ষমতার অধিকারী এবং তিনি মন্ত্রিসভার সভাপতিত্ব করেন।<br/>▣ বাংলাদেশের সংবিধানের ৫৫ ও ৫৬ নং অনুচ্ছেদে প্রধানমন্ত্রীর ক্ষমতা ও দায়িত্ব উল্লেখ আছে। প্রধানমন্ত্রী রাষ্ট্রপতি কর্তৃক নিযুক্ত হন এবং তিনি সংসদের কাছে দায়বদ্ধ থাকেন। মন্ত্রিসভার অন্যান্য সদস্যগণ প্রধানমন্ত্রীর পরামর্শে রাষ্ট্রপতি কর্তৃক নিযুক্ত হন। মন্ত্রী পরিষদ সচিব মন্ত্রিসভার সভার আহ্বান করেন এবং এর কার্যবিবরণী রক্ষা করেন।<br/>▣ গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধানের ৫৫(২) অনুচ্ছেদ অনুযায়ী, \"প্রধানমন্ত্রী মন্ত্রীসভার প্রধান থাকিবেন\"। সংসদীয় গণতন্ত্রের রীতি অনুযায়ী, প্রধানমন্ত্রী সরকারের প্রধান নির্বাহী। তিনি মন্ত্রিসভার সদস্যদের নিয়োগ, দপ্তর বণ্টন এবং তাদের কাজের সমন্বয় সাধন করেন। মন্ত্রিসভা সম্মিলিতভাবে জাতীয় সংসদের কাছে দায়বদ্ধ থাকে।",
+    "hints": "📖 <b>মন্ত্রী পরিষদের প্রধান প্রধানমন্ত্রী।</b><br/>▣ বাংলাদেশে সংবিধানের ৫৫ নং অনুচ্ছেদ অনুসারে,<br/>❏ <b>৫৫। (১) প্রধানমন্ত্রীর নেতৃত্বে বাংলাদেশের একটি মন্ত্রিসভা থাকিবে </b>এবং প্রধানমন্ত্রী ও সময়ে সময়ে তিনি যেরূপ স্থির করিবেন, সেইরূপ অন্যান্য মন্ত্রী লইয়া এই মন্ত্রিসভা গঠিত হইবে।<br/>▣ (২) প্রধানমন্ত্রী কর্তৃক বা তাঁহার কর্তত্বে এই সংবিধান-অনুযায়ী প্রজাতন্ত্রের নির্বাহী ক্ষমতা প্রযুক্ত হইবে।<br/>▣ (৩) মন্ত্রিসভা যৌথভাবে সংসদের নিকট দায়ী থাকিবেন।<br/>▣ (৪) সরকারের সকল নির্বাহী ব্যবস্থা রাষ্ট্রপতির নামে গৃহীত হইয়াছে বলিয়া প্রকাশ করা হইবে।<br/>▣ (৫) রাষ্ট্রপতির নামে প্রণীত আদেশসমূহ ও অন্যান্য চুক্তিপত্র কিরূপে সত্যায়িত বা প্রমাণীকৃত হইবে, রাষ্ট্রপতি তাহা বিধিসমূহ-দ্বারা নির্ধারণ করিবেন এবং অনুরূপভাবে সত্যায়িত বা প্রমাণীকৃত কোন আদেশ বা চুক্তিপত্র যথাযথভাবে প্রণীত বা সম্পাদিত হয় নাই বলিয়া তাহার বৈধতা সম্পর্কে কোন আদালতে প্রশ্ন উত্থাপন করা যাইবে না।<br/>▣ (৬) রাষ্ট্রপতি সরকারী কার্যাবলী বন্টন ও পরিচালনার জন্য বিধিসমূহ প্রণয়ন করিবেন।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330138,
+    "question": "বিশ্বের সবচেয়ে বড় বইমেলা কোন শহরে অনুষ্ঠিত হয়?",
+    "options": [
+      "লন্ডন",
+      "ফ্রাঙ্কফুর্ট",
+      "ঢাকা",
+      "কলকাতা"
+    ],
+    "correct_answer": "ফ্রাঙ্কফুর্ট",
+    "explanation": "📖 জার্মানির ফ্রাঙ্কফুর্ট শহরে অনুষ্ঠিত 'ফ্রাঙ্কফুর্ট বইমেলা' (Frankfurter Buchmesse) হলো বিশ্বের সবচেয়ে বড় এবং পুরোনো বইমেলা। এটি মূলত প্রকাশকদের জন্য একটি বাণিজ্য মেলা, যেখানে আন্তর্জাতিক প্রকাশনা স্বত্ব কেনাবেচা হয়।<br/>▣ ফ্রাঙ্কফুর্ট বইমেলা ১৪৮০ সাল থেকে আয়োজিত হচ্ছে, যা বিশ্বের প্রাচীনতম বইমেলা। এটি প্রতি বছর অক্টোবর মাসে অনুষ্ঠিত হয়। মেলায় বিশ্বের ১০০টিরও বেশি দেশের ৭,০০০ এরও বেশি প্রকাশক অংশগ্রহণ করে। এটি আন্তর্জাতিক প্রকাশনা শিল্পের জন্য একটি গুরুত্বপূর্ণ মঞ্চ। ঢাকা আন্তর্জাতিক বইমেলা দক্ষিণ এশিয়ার অন্যতম বড় বইমেলা।",
+    "hints": "📖 <b>ফ্রাঙ্কফুর্ট বইমেলা:</b><br/>❏ <b>বিশ্বের সর্ববৃহৎ বইমেলা জার্মানির ফ্রাঙ্কফুর্টে অনুষ্ঠিত হয়।</b><br/>❏ প্রসঙ্গত, দ্বিতীয় বিশ্বযুদ্ধের পর ১৯৪৯ সালে আধুনিক ফ্রাঙ্কফুর্ট বইমেলার শুরু হলেও এর মূল গোড়াপত্তন হয়েছিল ৫০০ বছর পূর্বে ১৪৬২ খ্রিস্টাব্দে।<br/>❏ প্রতি বছর অক্টোবর মাসে আয়োজিত হয় জার্মানির ফ্রাঙ্কফুর্ট বইমেলা।<br/>❏ বিশ্ববিখ্যাত এই বইমেলার সময়সীমা সাধারণত পাঁচ দিন।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330139,
+    "question": "\"ই-৮\" কি?",
+    "options": [
+      "৮ টি দরিদ্র দেশ",
+      "৮টি ধনী দেশ",
+      "৮টি পরিবেশ দূষণকারী দেশ",
+      "৮টি শিল্পোন্নত দেশ"
+    ],
+    "correct_answer": "৮টি পরিবেশ দূষণকারী দেশ",
+    "explanation": "📖 \"ই-৮\" বা Environmental 8 হলো বিশ্বের আটটি প্রধান পরিবেশ দূষণকারী ও গ্রিনহাউস গ্যাস নির্গমনকারী উন্নয়নশীল দেশের একটি অনানুষ্ঠানিক জোট। এই দেশগুলো হলো—ব্রাজিল, চীন, ভারত, ইন্দোনেশিয়া, মেক্সিকো, রাশিয়া, দক্ষিণ আফ্রিকা এবং তুরস্ক।<br/>▣ ই-৮ জোটটি ২০০৭ সালে গঠিত হয়। এই দেশগুলো বিশ্বের মোট গ্রিনহাউস গ্যাস নির্গমনের প্রায় এক-তৃতীয়াংশের জন্য দায়ী। জোটটি জলবায়ু পরিবর্তনের বিরুদ্ধে লড়াইয়ে এবং টেকসই উন্নয়নে সহযোগিতা করে। এটি জি-৮ (শিল্পোন্নত দেশগুলোর জোট) এর একটি প্রতিক্রিয়া হিসেবে গঠিত হয়েছে।",
+    "hints": "📖 <b>• E-8:</b><br/>❏  <b>পরিবেশ দূষণকারী ৮টি দেশকে একত্রে বলা হয় ই-৮ ।</b><br/>❏ ই-৮ ভুক্ত দেশ সমূহ পরিবেশ দূষণকারী দেশগুলোর জন্য বিভিন্ন আইন জারি করে।<br/>❏ বিশ্বব্যাপী পরিবেশ রক্ষা, জীববৈচিত্র্য সংরক্ষণ ই-৮ অন্তর্ভুক্ত আটটি দেশের মূল লক্ষ্য।<br/>❏ এই দেশগুলো বিশ্বের সবচেয়ে বেশি কার্বন ও গ্রিনহাউস গ্যাস নিঃসরণের জন্য দায়ী।<br/>❏  ই-৮ ভুক্ত দেশসমূহ হলো মার্কিন যুক্তরাষ্ট্র, ইউরোপীয় ইউনিয়ন, জাপান, রাশিয়া, চীন, ভারত, ব্রাজিল এবং দক্ষিণ আফ্রিকা।<br/>▣ অন্যদিকে,<br/>❏ জি-৭ হল শিল্পোন্নত সাতটি দেশের জোট।<br/>❏ ডি-৮ হল উন্নয়নশীল আটটি দেশের জোট।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330140,
+    "question": "সংবিধানের কত অনুচ্ছেদ অনুসারে বাংলাদেশ সরকারী কর্ম কমিশন গঠিত হয়?",
+    "options": [
+      "১৩৭ অনুচ্ছেদ",
+      "১৩৮ অনুচ্ছেদ",
+      "১১১ অনুচ্ছেদ",
+      "১৩৯ অনুচ্ছেদ"
+    ],
+    "correct_answer": "১৩৭ অনুচ্ছেদ",
+    "explanation": "📖 গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধানের ১৩৭ নং অনুচ্ছেদে বাংলাদেশ সরকারী কর্ম কমিশন (BPSC) গঠনের বিধান রাখা হয়েছে। এই অনুচ্ছেদ অনুযায়ী, আইনের দ্বারা সংসদ এই কমিশন প্রতিষ্ঠা করতে পারবে।<br/>▣ বাংলাদেশ সরকারী কর্ম কমিশন (BPSC) ১৯৭৭ সালে গঠিত হয়। এটি বাংলাদেশ সরকারের চাকরিতে নিয়োগ ও পদোন্নতির ক্ষেত্রে সুপারিশ প্রদান করে। সংবিধানের ১৩৭ অনুচ্ছেদে কমিশনের গঠন, ক্ষমতা ও কার্যাবলী নির্ধারিত আছে। কমিশনের চেয়ারম্যান ও সদস্যগণ রাষ্ট্রপতি কর্তৃক নিযুক্ত হন।<br/>▣ বাংলাদেশের সংবিধানের নবম ভাগের দ্বিতীয় পরিচ্ছেদে (কর্মবিভাগ) ১৩৭ থেকে ১৪১ নং অনুচ্ছেদে সরকারী কর্ম কমিশন প্রতিষ্ঠা ও এর কার্যাবলী সম্পর্কে বলা হয়েছে। এর মধ্যে ১৩৭ নং অনুচ্ছেদে সুস্পষ্টভাবে উল্লেখ করা হয়েছে যে, \"আইনের দ্বারা বাংলাদেশের জন্য এক বা একাধিক সরকারী কর্ম কমিশন প্রতিষ্ঠার বিধান করা যাইবে এবং একজন সভাপতিকে ও আইনের দ্বারা যেরূপ নির্ধারিত হইবে, সেইরূপ অন্যান্য সদস্যকে লইয়া প্রত্যেক কমিশন গঠিত হইবে।\"",
+    "hints": "📖 <b> • বাংলাদেশ সরকারি কর্ম কমিশন:</b><br/>❏ <b>বাংলাদেশ সরকারি কর্মকমিশন সংবিধানের ১৩৭ নং অনুচ্ছেদ অনুযায়ী গঠিত।</b><br/>উল্লেখ্য,<br/>❏ বাংলাদেশ সরকারি কর্ম কমিশন প্রধানত বিভিন্ন সরকারি চাকুরি ও পদে নিয়োগ দানের লক্ষ্যে প্রতিষ্ঠিত একটি সাংবিধানিক সংস্থা।<br/>❏ সংস্থাটি সরকারি কর্মচারীদের পদোন্নতি, পদায়ন, বদলি, শৃঙ্খলা ও আপিলের মতো বিষয়ের ক্ষেত্রে সিদ্ধান্ত গ্রহণ প্রক্রিয়ার সঙ্গেও জড়িত।<br/>❏ বাংলাদেশের রাষ্ট্রপতি কমিশনের চেয়ারম্যান এবং সদস্যদের নিয়োগ প্রদান করেন।<br/>❏ সরকারি কর্মকমিশনের চেয়ারম্যান ও সদস্যদের শপথ বাক্য পাঠ করান প্রধান বিচারপতি।<br/>❏ বাংলাদেশের সংবিধানের পাঁচটি অনুচ্ছেদ সংবলিত একটি অধ্যায়ে কমিশনের গঠনপ্রণালী ও কার্যাবলি নির্দেশিত হয়েছে:<br/>❏ ১৩৭ নং: সরকারি কর্ম কমিশন-প্রতিষ্ঠা।<br/>❏ ১৩৮ নং: সরকারি কর্ম কমিশনের সদস্য-নিয়োগ।<br/>❏ ১৩৯ নং: সরকারি কর্ম কমিশনের সদস্যপদের মেয়াদ।<br/>❏ ১৪০ নং: সরকারি কর্ম কমিশনের দায়িত্ব।<br/>❏ ১৪১ নং: সরকারি কর্ম কমিশন বার্ষিক রিপোর্ট কিভাবে জমা দিবে তার কথা উল্লেখ রয়েছে।<br/>▣ অন্যদিকে,<br/>১১১ অনুচ্ছেদ হলো:  সুপ্রীম কোর্টের রায়ের বাধ্যতামূলক কার্যকরতা।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330141,
+    "question": "কোন দেশের মহিলারা প্রথম ভোটাধিকার পেয়েছে?",
+    "options": [
+      "আমেরিকা",
+      "অস্ট্রেলিয়া",
+      "নেপাল",
+      "নিউজিল্যান্ড"
+    ],
+    "correct_answer": "নিউজিল্যান্ড",
+    "explanation": "📖 নিউজিল্যান্ডে ১৮৯৩ সালের নির্বাচনে প্রথমবারের মতো নারীরা ভোট দেওয়ার অধিকার পায়। এই অধিকার প্রদানের পেছনে কেট শেপার্ডের নেতৃত্বে নারী ভোটাধিকার আন্দোলন গুরুত্বপূর্ণ ভূমিকা রাখে। অস্ট্রেলিয়ায় ১৯০২ সালে, আমেরিকায় ১৯২০ সালে এবং যুক্তরাজ্যে ১৯২৮ সালে নারীরা ভোটাধিকার পায়। নিউজিল্যান্ড এই ক্ষেত্রে বিশ্বে প্রথম।<br/>▣ ১৮৯৩ সালে নিউজিল্যান্ড বিশ্বের প্রথম স্ব-শাসিত দেশ হিসেবে সকল প্রাপ্তবয়স্ক নারীকে জাতীয় নির্বাচনে ভোট দেওয়ার অধিকার প্রদান করে। এই ঐতিহাসিক ঘটনাটি বিশ্বজুড়ে নারী ভোটাধিকার আন্দোলনের (Women's Suffrage Movement) জন্য একটি বড় বিজয় ছিল এবং অন্যান্য দেশগুলোকে অনুপ্রাণিত করেছিল। এরপরে অস্ট্রেলিয়া ১৯০২ সালে এই অধিকার প্রদান করে।",
+    "hints": "📖 <b>মহিলারা প্রথম ভোটাধিকার প্রাপ্ত দেশ:<br/>❏ বিশ্বে সর্বপ্রথম ১৮৯৩ সালে নিউজিল্যান্ডের নারীরা ভোটাধিকার লাভ করে।</b><br/>❏ ১৯০২ সালে - অস্ট্রেলিয়া,<br/>❏ ১৯০৬ সালে - ফিনল্যান্ড এবং<br/>❏ ১৯১৫ সালে ডেনমার্কের নারীরা ভোটাধিকার লাভ করে।<br/>❏ যুক্তরাজ্যের নারীরা ১৯১৮ সালে প্রথম শর্ত সাপেক্ষে এবং ১৯২০ যুক্তরাষ্ট্রের নারীরা ভোটাধিকার লাভ করে।<br/>❏ মুসলিম দেশগুলোর মধ্যে ১৯১৮ সালে কিরগিজস্তানের নারীরা প্রথম ভোটাধিকার লাভ করে। ১৯৩০ সালে তুর্কি নারীরা এবং ১৯৪৯ সালে আরববিশ্বে প্রথম সিরিয়ার নারীরা ভোটাধিকার লাভ করে।<br/>❏ পাকিস্তান, ভারত ও বাংলাদেশের নারীরা ভোটাধিকার লাভ করে যথাক্রমে ১৯৪৭, ১৯৫০ এবং ১৯৭২ সালে।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330142,
+    "question": "বাংলাদেশ জাতিসংঘের কত তম সদস্য?",
+    "options": [
+      "১৩৬",
+      "১৩৭",
+      "১৩৮",
+      "১৩৯"
+    ],
+    "correct_answer": "১৩৬",
+    "explanation": "📖 বাংলাদেশ ১৯৭৪ সালের ১৭ সেপ্টেম্বর জাতিসংঘের ১৩৬তম সদস্য হিসেবে যোগদান করে। এর কিছুদিন পরেই, ২৫ সেপ্টেম্বর, বঙ্গবন্ধু শেখ মুজিবুর রহমান জাতিসংঘের সাধারণ পরিষদে বাংলায় ভাষণ দেন।<br/>▣ ১৯৭৪ সালের ১৭ সেপ্টেম্বর, জাতিসংঘের ২৯তম সাধারণ অধিবেশনে বাংলাদেশ ১৩৬তম সদস্য রাষ্ট্র হিসেবে অন্তর্ভুক্ত হয়। একই অধিবেশনে গ্রানাডা (১৩৭তম) এবং গিনি-বিসাউ (১৩৮তম) সদস্যপদ লাভ করে। সদস্যপদ লাভের মাত্র আট দিন পর, ২৫ সেপ্টেম্বর ১৯৭৪, জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমান জাতিসংঘের সাধারণ পরিষদে প্রথমবারের মতো বাংলায় ভাষণ দিয়ে ইতিহাস সৃষ্টি করেন।",
+    "hints": "📖 <b>জাতিসংঘ ও বাংলাদেশ:</b><br/>❏ <b>বাংলাদেশ জাতিসংঘের ১৩৬ তম সদস্য।</b><br/>❏ সদস্য পদ লাভ করে ১৭ সেপ্টেম্বর, ১৯৭৪ সাল।<br/>❏ চীন বাংলাদেশের সদস্য পদ লাভের বিরুদ্ধে ভেটো দেয়।<br/>❏ ১৯৭৯-৮০ ও ২০০০-০১ সালে মোট ২বার নিরাপত্তা পরিষদের অস্থায়ী সদস্য পদ লাভ করে।<br/>❏ ১৯৮৬ সালে হুমায়ুন রশীদ চৌধুরী জাতিসংঘ সাধারণ পরিষদের সভাপতি নির্বাচিত হয়।<br/>❏ মুক্তিযুদ্ধ চলাকালে জাতিসংঘের মহাসচিব ছিলেন উ থান্ট।<br/>❏   বাংলাদেশ ১৯৮৮ সালে সর্বপ্রথম ইরাক-ইরান (UNIIMOG) মিশনে অংশগ্রহণ করে।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330143,
+    "question": "কোনটি প্রত্নতাত্ত্বিক স্থান হিসাবে প্রসিদ্ধ নয়?",
+    "options": [
+      "ময়নামতি",
+      "পাহাড়পুর",
+      "মহাস্থানগড়",
+      "সুন্দরবন"
+    ],
+    "correct_answer": "সুন্দরবন",
+    "explanation": "📖 ময়নামতি (কুমিল্লা), পাহাড়পুর (নওগাঁ) এবং মহাস্থানগড় (বগুড়া) বাংলাদেশের বিখ্যাত প্রত্নতাত্ত্বিক স্থান।[19][20][21][22] অন্যদিকে, সুন্দরবন হলো পৃথিবীর বৃহত্তম ম্যানগ্রোভ বন এবং একটি ইউনেস্কো বিশ্ব ঐতিহ্যবাহী স্থান, যা তার জীববৈচিত্র্যের জন্য পরিচিত, প্রত্নতত্ত্বের জন্য নয়।<br/>▣ মহাস্থানগড় (পুণ্ড্রনগর), পাহাড়পুর (সোমপুর মহাবিহার) এবং ময়নামতি বাংলাদেশের তিনটি অত্যন্ত গুরুত্বপূর্ণ প্রত্নতাত্ত্বিক নিদর্শন, যেখানে প্রাচীন সভ্যতা ও বৌদ্ধ বিহারের ধ্বংসাবশেষ পাওয়া গেছে।পক্ষান্তরে, সুন্দরবন একটি প্রাকৃতিক বিশ্ব ঐতিহ্যবাহী স্থান, যা তার অনন্য ম্যানগ্রোভ ইকোসিস্টেম, রয়েল বেঙ্গল টাইগার এবং সমৃদ্ধ জীববৈচিত্র্যের জন্য বিশ্বজুড়ে পরিচিত, কোনো প্রত্নতাত্ত্বিক নিদর্শনের জন্য নয়।",
+    "hints": "📖 <b> • প্রত্নতাত্ত্বিক স্থান নয় - সুন্দরবন।<br/>▣ প্রত্নতাত্ত্বিক স্থান:<br/></b>- প্রত্ন’ শব্দের অর্থ অতি পুরাতন বা প্রাচীন।<br/>❏ এ-সম্পর্কিত যে তত্ত্ব তা-ই হচ্ছে প্রত্নতত্ত্ব।<br/>❏ আর প্রত্নতাত্ত্বিক স্থান হলো যেসব স্থানে প্রাচীন কালের জিনিসপত্র, মুদ্রা, অট্টালিকা, স্থাপত্য, গহনা, ধাতব বস্ত্র ইত্যাদি পাওয়া যায়।<br/>❏ বাংলাদেশে বেশ কয়েকটি স্থানে প্রাচীন প্রত্নতাত্ত্বিক নিদর্শনের সন্ধান পাওয়া গেছে। সেগুলো হলো <b>মহাস্থানগড়, ময়মামতি, পাহাড়পুর</b> ও উয়ারী-বটেশ্বর।<br/>▣ <b>সুন্দরবন:</b><br/>❏ সুন্দরবন পৃথিবীর বৃহত্তম প্রাকৃতিক ম্যানগ্রোভ বা স্রোতজ বনভূমি।<br/>❏ বাংলাদেশে অবস্থিত সুন্দরবনের আয়তন প্রায় ৬০১৭ বর্গ কিলোমিটার।<br/>❏ ৬ ডিসেম্বর, ১৯৯৭ সালে জাতিসংঘের সংস্থা ইউনেস্কো পৃথিবীর বৃহত্তম ম্যানগ্রোভ বন সুন্দরবনকে ৭৯৮তম World Heritage হিসেবে ঘোষণা করে।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330144,
+    "question": "আয়তন বিবেচনায় পৃথিবীর দ্বিতীয় বৃহত্তম রাষ্ট্র কোনটি?",
+    "options": [
+      "রাশিয়া",
+      "কানাডা",
+      "আমেরিকা",
+      "চীন"
+    ],
+    "correct_answer": "কানাডা",
+    "explanation": "📖 আয়তনের দিক থেকে পৃথিবীর বৃহত্তম রাষ্ট্র রাশিয়া। রাশিয়ার পরেই দ্বিতীয় স্থানে রয়েছে কানাডা। তৃতীয় ও চতুর্থ স্থানে যথাক্রমে চীন ও মার্কিন যুক্তরাষ্ট্র।<br/>▣ কানাডার আয়তন ৯.৯৮ মিলিয়ন বর্গ কিলোমিটার, যা রাশিয়ার (১৭.১ মিলিয়ন বর্গ কিমি) পরে দ্বিতীয় বৃহত্তম। কানাডার উত্তরাঞ্চলে বিশাল টুন্ড্রা অঞ্চল এবং অসংখ্য হ্রদ রয়েছে। এটি বিশ্বের দীর্ঘতম উপকূলরেখার দেশ। কানাডার জনসংখ্যা প্রায় ৩.৮ কোটি, যা আয়তনের তুলনায় খুবই কম।<br/>▣ মোট আয়তনের ভিত্তিতে পৃথিবীর দেশগুলোর তালিকায় রাশিয়ার পরেই কানাডার অবস্থান। কানাডার মোট আয়তন প্রায় ৯.৯৮ মিলিয়ন বর্গকিলোমিটার। এরপরেই রয়েছে চীন (প্রায় ৯.৭ মিলিয়ন বর্গকিমি) এবং মার্কিন যুক্তরাষ্ট্র (প্রায় ৯.৫ মিলিয়ন বর্গকিমি)। কানাডার বিশাল ভূখণ্ড থাকা সত্ত্বেও এর জনসংখ্যা তুলনামূলকভাবে অনেক কম।",
+    "hints": "📖 <b>  আয়তনে পৃথিবীর ২য় বৃহত্তম দেশ কানাডা।<br/>▣   কানাডা:</b><br/>❏ ম্যাপল পাতার দেশ নামে পরিচিতি কানাডা। দেশটিতে ম্যাপল গাছের আধিক্য এবং কানাডার জনজীবনে এর সংশ্লিষ্টতার জন্যে কানাডাকে ম্যাপল পাতার দেশ বলা হয়।<br/>❏ কানাডার জাতীয় পতাকায়ও ম্যাপল পাতার ছবি রয়েছে।<br/>❏ বিশ্বের মোট ম্যাপল সিরাপের ৭০ ভাগই কানাডা থেকে রপ্তানি হয়।<br/>❏ কানাডা উত্তর আমেরিকার একটি দেশ।<br/>❏ এটি আয়তনে পৃথিবীর ২য় বৃহত্তম দেশ।<br/>❏ দেশটির আয়তন - ৩,৮৫৫,০৮১ বর্গ মাইল (৯,৯৮৪,৬৭০ বর্গ কিমি)।<br/>❏ কানাডার রাজধানীর নাম অটোয়া।<br/>অন্যদিকে,<br/>আয়তনের দিক থেকে পৃথিবীর শীর্ষ ৫টি দেশ হলো:<br/>১) রাশিয়া – ১৭,০৯৮,২৪২ কিমি²<br/>২) কানাডা – ৯,৯৮৪,৬৭০ কিমি²<br/>৩) চীন – ৯,৭০৬,৯৬১ কিমি²<br/>৪) যুক্তরাষ্ট্র – ৯,৩৭২,৬১০ কিমি²<br/>৫) ব্রাজিল – ৮,৫১৫,৭৬৭ কিমি²\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330145,
+    "question": "বাংলাদেশের তৈরি ল্যাপটপ কোনটি?",
+    "options": [
+      "শাপলা",
+      "যমুনা",
+      "দোয়েল",
+      "এসার"
+    ],
+    "correct_answer": "দোয়েল",
+    "explanation": "📖 'দোয়েল' হলো বাংলাদেশে সংযোজিত প্রথম ল্যাপটপের ব্র্যান্ড। ২০১১ সালে রাষ্ট্রীয় মালিকানাধীন টেলিফোন শিল্প সংস্থা (টেশিস) এই ল্যাপটপ বাজারজাত শুরু করে।<br/>▣ 'দোয়েল' বাংলাদেশের প্রথম স্থানীয়ভাবে অ্যাসেম্বল করা ল্যাপটপের নাম।২০১১ সালের ১১ অক্টোবর বাংলাদেশ টেলিফোন শিল্প সংস্থা (টেশিস) এই ল্যাপটপটি বাজারে আনে। বাংলাদেশের জাতীয় পাখি দোয়েলের নামে এর নামকরণ করা হয়। সাশ্রয়ী মূল্যে শিক্ষার্থীদের হাতে ল্যাপটপ পৌঁছে দেওয়ার একটি উদ্যোগ হিসেবে এটি চালু হয়েছিল।",
+    "hints": "📖 <b>বাংলাদেশে তৈরি ল্যাপটপ দোয়েল:</b><br/>❏ ২০১১ সালের ১১ অক্টোবর এই ল্যাপটপের উদ্বোধন হয়।<br/>❏ ল্যাপটপের মাদার বোর্ডসহ শতকরা ৬০ ভাগ যন্ত্রাংশই তৈরি করা হয়েছে দেশের মাটিতে।<br/>❏  ১৯৬৭ সালে টেলিফোন সেট উৎপাদনের মাধ্যমে যাত্রা শুরু করেছিল টেশিস কোম্পানি৷<br/>❏ ১৯৬৪ সালে দ্বিতীয় প্রজন্মের IBM 1620 কম্পিউটার দিয়ে বাংলাদেশে কম্পিউটারের ব্যবহার শুরু হয়।<br/>❏ এটি ছিল আইবিএম কোম্পানির একটি মেইনফ্রেইম কম্পিউটার।<br/>❏ IBM 1620  সিরিজের কম্পিউটারটি স্থাপিত হয় তৎকালীন পাকিস্থান পরমাণু গবেষণা কেন্দ্রে যার বর্তমান নাম বাংলাদেশ পরমাণু গবেষণা কেন্দ্র।<br/>❏ কম্পিউটারটি বর্তমানে ঢাকার আগারগাঁও বিজ্ঞান ও প্রযুক্তি যাদুঘরে সংরক্ষিত আছে।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330146,
+    "question": "২০২৬ সালের ফিফা বিশ্বকাপ ফুটবল কোথায় অনুষ্ঠিত হবে?",
+    "options": [
+      "জাপান-দক্ষিণ কোরিয়া-চীন",
+      "ঘানা-কেনিয়া-উগান্ডা",
+      "যুক্তরাষ্ট্র-কানাডা-মেক্সিকো",
+      "ভারত-পাকিস্তান-বাংলাদেশ"
+    ],
+    "correct_answer": "যুক্তরাষ্ট্র-কানাডা-মেক্সিকো",
+    "explanation": "📖 ২০২৬ সালের ফিফা বিশ্বকাপ যৌথভাবে তিনটি দেশ—যুক্তরাষ্ট্র, কানাডা ও মেক্সিকোতে অনুষ্ঠিত হবে। এটিই হবে প্রথম বিশ্বকাপ যেখানে ৪৮টি দল অংশগ্রহণ করবে।<br/>▣ ২০২৬ সালের ২৩তম ফিফা বিশ্বকাপ উত্তর আমেরিকার তিনটি দেশ—যুক্তরাষ্ট্র, কানাডা এবং মেক্সিকো জুড়ে অনুষ্ঠিত হবে। এটি বিশ্বকাপের ইতিহাসে প্রথমবার যেখানে তিনটি দেশ যৌথভাবে আয়োজক হচ্ছে। এই বিশ্বকাপেই প্রথমবারের মতো অংশগ্রহণকারী দলের সংখ্যা ৩২ থেকে বাড়িয়ে ৪৮ করা হবে, যা টুর্নামেন্টের ইতিহাসে একটি নতুন অধ্যায়ের সূচনা করবে।",
+    "hints": "📖 <b>• ফিফা বিশ্বকাপ ফুটবল, ২০২৬:</b><br/>❏ ২০২৬ সালের ৮ জুন থেকে ৩ জুলাই ২৩তম ফিফা ফুটবল বিশ্বকাপ প্রতিযোগিতা <b>যুক্তরাষ্ট্র, কানাডা ও মেক্সিকোতে অনুষ্ঠিত হবে</b>।<br/>❏ ২৩তম বিশ্বকাপের চূড়ান্ত পর্বে প্রথম বারের মতো ৪৮টি দেশ অংশগ্রহণ করবে।<br/>❏ ২২তম ফিফা ফুটবল বিশ্বকাপ চলতি ২০২২ সালের ২১ নভেম্বর থেকে ১৮ ডিসেম্বর কাতারে অনুষ্ঠিত হয়।<br/>❏ প্রথম বিশ্বকাপ ফুটবল প্রতিযোগিতা ১৯৩০ সালে উরুগুয়েতে অনুষ্ঠিত হয়েছিলো।<br/>❏ চূড়ান্ত পর্বে হবে ১০৪টি ম্যাচ।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330147,
+    "question": "বাংলাদেশের জাতীয় শিশুনীতি অনুসারে শিশুর বয়স সীমা কত?",
+    "options": [
+      "০-১৮ বছর",
+      "০-৮ বছর",
+      "১-২০ বছর",
+      "০-১২ বছর"
+    ],
+    "correct_answer": "০-১৮ বছর",
+    "explanation": "📖 বাংলাদেশ জাতীয় শিশুনীতি ২০১১ এবং জাতিসংঘ শিশু অধিকার সনদ অনুযায়ী, জন্ম থেকে ১৮ বছর বয়স পর্যন্ত সকল ব্যক্তিকে শিশু হিসেবে গণ্য করা হয়।<br/>▣ জাতিসংঘ শিশু অধিকার সনদ ১৯৮৯ (UNCRC) এর সংজ্ঞা অনুসরণ করে, বাংলাদেশ জাতীয় শিশুনীতি ২০১১-তে শিশুর বয়সের ঊর্ধ্বসীমা ১৮ বছর নির্ধারণ করা হয়েছে। এই আইন অনুযায়ী, আঠারো বছর পূর্ণ হয়নি এমন যেকোনো ব্যক্তি শিশু হিসেবে বিবেচিত হবে এবং শিশুদের জন্য প্রযোজ্য সকল অধিকার ও সুরক্ষা লাভ করবে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330148,
+    "question": "কোন চুক্তির মাধ্যমে ইউরোপীয় ইউনিয়ন গঠিত হয়?",
+    "options": [
+      "প্যারিস চুক্তি",
+      "মাসট্রিট চুক্তি",
+      "জেনেভা কনভেনশন",
+      "রোম চুক্তি"
+    ],
+    "correct_answer": "মাসট্রিট চুক্তি",
+    "explanation": "📖 ১৯৯২ সালের ৭ ফেব্রুয়ারি নেদারল্যান্ডসের মাসট্রিট শহরে স্বাক্ষরিত 'মাসট্রিট চুক্তি'-র মাধ্যমে ইউরোপীয় ইউনিয়ন (EU) গঠিত হয়। এই চুক্তিটি ১৯৯৩ সালের ১ নভেম্বর কার্যকর হয়। এটি ইউরোপীয় দেশগুলোর মধ্যে রাজনৈতিক ও অর্থনৈতিক একীকরণের একটি গুরুত্বপূর্ণ পদক্ষেপ ছিল।<br/>▣ মাসট্রিট চুক্তি, যা আনুষ্ঠানিকভাবে 'ইউরোপীয় ইউনিয়ন চুক্তি' (Treaty on European Union) নামে পরিচিত, ১৯৯২ সালে স্বাক্ষরিত হয় এবং ১৯৯৩ সালে কার্যকর হয়। এই চুক্তির মাধ্যমেই পূর্ববর্তী 'ইউরোপীয় কমিউনিটি' (EC) রূপান্তরিত হয়ে 'ইউরোপীয় ইউনিয়ন' (EU) নামে পরিচিতি লাভ করে। এই চুক্তিটি সদস্য রাষ্ট্রগুলোর মধ্যে গভীরতর অর্থনৈতিক ও রাজনৈতিক সহযোগিতার ভিত্তি স্থাপন করে, যার মধ্যে অভিন্ন মুদ্রা (ইউরো) এবং সাধারণ পররাষ্ট্র ও নিরাপত্তা নীতি উল্লেখযোগ্য।",
+    "hints": "📖 <b>ইউরোপীয় ইউনিয়ন (EU):</b><br/>❏ বিশ্বের সবচেয়ে বড় অর্থনৈতিক জোট ইউরোপীয় ইউনিয়ন (EU)।<br/>❏ এটি ইউরোপীয় দেশের একটি রাজনৈতিক ও অর্থনৈতিক জোট।<br/>❏  <b>প্রতিষ্ঠিত হয়: ১ নভেম্বর, ১৯৯৩ ম্যাসট্রিচট চুক্তি।</b><br/>❏ সদর দপ্তর: ব্রাসেলস, বেলজিয়াম।<br/>❏ বর্তমান চেয়ারম্যান উরসুলা ভন ডার লিয়েন( জার্মানি)।<br/>❏ ইউরোপীয় ইউনিয়নভুক্ত দেশ: ২৭টি।<br/>❏ ইইউ দেশগুলো হলো: অস্ট্রিয়া, বেলজিয়াম, বুলগেরিয়া, ক্রোয়েশিয়া, সাইপ্রাস, চেক প্রজাতন্ত্র, ডেনমার্ক, এস্তোনিয়া, ফিনল্যান্ড, ফ্রান্স, জার্মানি, গ্রীস, হাঙ্গেরি, আয়ারল্যান্ড, ইতালি, লাটভিয়া, লিথুয়ানিয়া, লুক্সেমবার্গ, মাল্টা, নেদারল্যান্ডস, পোল্যান্ড, পর্তুগাল, রোমানিয়া, স্লোভাকিয়া , স্লোভেনিয়া, স্পেন এবং সুইডেন।<br/>❏ সর্বশেষ - ক্রোয়েশিয়া (২০১৩ সালে)।<br/>❏ ক্রোয়েশিয়া শেনজেন এবং ইউরো মুদ্রা গ্রহন করে ১ জানুয়ারি, ২০২৩ সালে।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330149,
+    "question": "পৃথিবীর ছাদ বলা হয়-",
+    "options": [
+      "গোবি মালভূমিকে",
+      "থর মরুভূমিকে",
+      "পামির মালভূমিকে",
+      "গোলান মালভূমিকে"
+    ],
+    "correct_answer": "পামির মালভূমিকে",
+    "explanation": "📖 মধ্য এশিয়ায় অবস্থিত পামির মালভূমিকে 'পৃথিবীর ছাদ' (Roof of the World) বলা হয়। এটি বিশ্বের সর্বোচ্চ মালভূমিগুলোর মধ্যে অন্যতম এবং এর গড় উচ্চতা অনেক বেশি হওয়ায় এই নামে পরিচিত।<br/>▣ পামির মালভূমির গড় উচ্চতা ৪,০০০ মিটারেরও বেশি। এটি তাজিকিস্তান, আফগানিস্তান, চীন ও কিরগিজস্তানের সীমান্তে অবস্থিত। এই অঞ্চলে বিশ্বের কয়েকটি উচ্চ পর্বতশৃঙ্গ রয়েছে, যেমন ইসমাইল সমানি পিক (৭,৪৯৫ মিটার)। 'পৃথিবীর ছাদ' নামটি প্রথম ব্যবহার করেন ব্রিটিশ অভিযাত্রী জন উড। এটি সিল্ক রোডের একটি গুরুত্বপূর্ণ অংশ ছিল।<br/>▣ মধ্য এশিয়ার পামির মালভূমিকে এর বিশাল উচ্চতার জন্য 'পৃথিবীর ছাদ' বলা হয়।এটি হিমালয়, তিয়েন শান, কারাকোরাম, কুনলুন এবং হিন্দুকুশ পর্বতমালার সংযোগস্থলে অবস্থিত। এটি কেবল বিশ্বের সর্বোচ্চ মালভূমিই নয়, তিব্বত মালভূমির সাথে মিলিতভাবে এটি পৃথিবীর বৃহত্তম মালভূমি অঞ্চলও গঠন করে।",
+    "hints": "📖 <b>পামীর মালভূমি:</b><br/>❏ পৃথিবীর সবচেয়ে উঁচু ভূমির নাম পামীর মালভূমি।<br/>❏ স্থানীয় ভাষায় এর উচ্চারণ হচ্ছে ‘পমির'।<br/>❏ যার অর্থ হচ্ছে সূর্যের পা।<br/>❏ সমুদ্রপৃষ্ঠ থেকে এর উচ্চতা হচ্ছে প্রায় ১৬,০০০ ফুটের মতো।<br/>❏ মধ্য এশিয়ায় অবস্থিত পামীর পর্বতমালাকে ঘিরে এ মালভূমিটির অবস্থান।<br/>❏ তাজিকিস্তান, আফগানিস্তান, উজবেকিস্তান, কিরগিজস্তান, তিব্বত, চীন এবং পাকিস্তানের কিছু অংশ পর্যন্ত এ মালভূমিটি বিস্তৃত।<br/>❏ এ অঞ্চলটি মূলত বিভিন্ন উঁচু পর্বতের মিলনস্থল।<br/>❏ পৃথিবীর সর্বোচ্চ কয়েকটি পর্বতের মধ্যবর্তীস্থানে অবস্থিত হওয়ায় এটি এ পৃথিবীর সবচেয়ে উঁচু মালভূমি হিসেবে মর্যাদা লাভ করেছে।<br/>❏ শুধু পৃথিবীর সর্বোচ্চই নয়, তিব্বত মালভূমির সঙ্গে সম্মিলিতভাবে পামীর পর্বতশ্রেণির সংলগ্ন মালভূমিটি পৃথিবীর সবচেয়ে বড় মালভূমি অঞ্চল।<br/>❏ <b>এ কারণে তাই পামীর মালভূমিকে পৃথিবীর ছাদ বলা হয়।</b>\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330150,
+    "question": "আয়তনের দিক থেকে পৃথিবীতে বাংলাদেশের অবস্থান কত তম?",
+    "options": [
+      "৯০ তম",
+      "৯৪ তম",
+      "১০৯ তম",
+      "১৯৫ তম"
+    ],
+    "correct_answer": "৯৪ তম",
+    "explanation": "📖 আয়তনের দিক থেকে পৃথিবীতে বাংলাদেশের অবস্থান ৯৪তম। বাংলাদেশের মোট আয়তন ১,৪৭,৫৭০ বর্গ কিলোমিটার।<br/>▣ বাংলাদেশের আয়তন ১৪৭,৫৭০ বর্গ কিলোমিটার। বিশ্বের সবচেয়ে বড় দেশ রাশিয়া (১.৭ কোটি বর্গ কিমি) এবং সবচেয়ে ছোট দেশ ভ্যাটিকান সিটি (০.৪৪ বর্গ কিমি)। বাংলাদেশের আয়তনের তুলনায় জনসংখ্যা অনেক বেশি, যা জনসংখ্যার ঘনত্বকে বাড়িয়ে দেয়। দক্ষিণ এশিয়ায় বাংলাদেশের আয়তন ভারত ও পাকিস্তানের পরে তৃতীয় স্থানে।<br/>▣ আয়তনের দিক থেকে বিশ্বে বাংলাদেশের অবস্থান নিয়ে বিভিন্ন উৎসে সামান্য ভিন্ন তথ্য পাওয়া যায়, যা সাধারণত ৯২তম থেকে ৯৪তম এর মধ্যে থাকে।ওয়ার্ল্ডোমিটার এবং সিআইএ ফ্যাক্টবুকের মতো অনেক নির্ভরযোগ্য সূত্রমতে, বাংলাদেশের অবস্থান ৯৪তম। বাংলাদেশের মোট আয়তন ১,৪৭,৫৭০ বর্গ কিলোমিটার। সমুদ্রসীমা বিজয়ের পর দেশের মোট আয়তন বাড়লেও স্থলভাগের হিসেবে এই ক্রমটি ব্যবহৃত হয়।",
+    "hints": "📖 World Atlas ও Worldometer এর তথ্য মতে,<br/>❏ আয়তনের দিক থেকে পৃথিবীতে বাংলাদেশের অবস্থান - ৯৪ তম।<br/>❏ <b>অপশনে ৯৪ না থাকায় অপশন বিবেচনায় ৯৫ উত্তর নেওয়া হল।</b><br/>▣ আয়তনের দিক থেকে পৃথিবীর শীর্ষ ৫টি দেশ হলো:<br/>১) রাশিয়া – ১৭,০৯৮,২৪২ কিমি²<br/>২) কানাডা – ৯,৯৮৪,৬৭০ কিমি²<br/>৩) চীন – ৯,৭০৬,৯৬১ কিমি²<br/>৪) যুক্তরাষ্ট্র – ৯,৩৭২,৬১০ কিমি²<br/>৫) ব্রাজিল – ৮,৫১৫,৭৬৭ কিমি²\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330151,
+    "question": "বর্তমানে বিশ্বে স্বাধীন দেশের সংখ্যা কত?",
+    "options": [
+      "১৯২",
+      "১৯৩",
+      "১৯৪",
+      "১৯৫"
+    ],
+    "correct_answer": "১৯৫",
+    "explanation": "📖 বিশ্বে মোট স্বাধীন দেশের সংখ্যা নিয়ে কিছুটা ভিন্নমত থাকলেও, সাধারণভাবে ১৯৫টি দেশ ধরা হয়। এর মধ্যে ১৯৩টি দেশ জাতিসংঘের সদস্য এবং ২টি দেশ (ভ্যাটিকান সিটি ও ফিলিস্তিন) পর্যবেক্ষক রাষ্ট্র। তাই সর্বমোট ১৯৫টি স্বাধীন রাষ্ট্র হিসেবে গণনা করা হয়।<br/>▣ বিশ্বের স্বাধীন রাষ্ট্রের সংখ্যা গণনার ক্ষেত্রে সাধারণত জাতিসংঘের সদস্যপদকে ভিত্তি ধরা হয়। বর্তমানে জাতিসংঘের সদস্য রাষ্ট্রের সংখ্যা ১৯৩। এর বাইরে দুটি রাষ্ট্র—ভ্যাটিকান সিটি এবং ফিলিস্তিন—জাতিসংঘের স্থায়ী পর্যবেক্ষক রাষ্ট্রের মর্যাদা ভোগ করে। এই দুটিকে যোগ করে মোট স্বাধীন রাষ্ট্রের সংখ্যা ১৯৫ ধরা হয়। তাইওয়ান, কসোভোর মতো কিছু অঞ্চলের সার্বভৌমত্ব নিয়ে বিতর্ক থাকায় এদেরকে এই গণনায় অন্তর্ভুক্ত করা হয় না।",
+    "hints": "📖 <b>বর্তমানে বিশ্বে স্বাধীন দেশের সংখ্যা:</b><br/>❏ জাতিসংঘের তথ্য অনুযায়ী, <b>বিশ্বের মোট ১৯৫টি স্বীকৃত দেশ আছে</b>।<br/>❏ এর মধ্যে ১৯৩টি দেশ জাতিসংঘের সদস্য রাষ্ট্র।<br/>❏ দুটি দেশ সদস্য নয়।<br/>❏ এরা পর্যবেক্ষক রাষ্ট্র – ভ্যাটিকান সিটি এবং প্যালেস্টাইন রাষ্ট্র।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330152,
+    "question": "উপমহাদেশের প্রথম মুসলিম চিকিৎসক কে?",
+    "options": [
+      "ডা. ফিরোজা বেগম",
+      "ডা. রওশন আরা",
+      "ডা. কাজী জোহরা বেগম",
+      "ডা. কানিজ হাসিনা"
+    ],
+    "correct_answer": "ডা. কাজী জোহরা বেগম",
+    "explanation": "📖 ডা. কাজী জোহরা বেগম হলেন ভারতীয় উপমহাদেশের প্রথম মুসলিম মহিলা চিকিৎসক। তিনি ১৯২৯ সালে দিল্লির লেডি হার্ডিঞ্জ মেডিকেল কলেজ থেকে এমবিবিএস ডিগ্রি লাভ করেন এবং চিকিৎসা ক্ষেত্রে নারীদের পথিকৃৎ হিসেবে স্মরণীয় হয়ে আছেন।<br/>▣ ডা. কাজী জোহরা বেগম (১৯১২-২০০৭) ছিলেন একজন অগ্রগণ্য বাঙালি চিকিৎসক ও সমাজসেবী। তিনি কেবল উপমহাদেশের প্রথম মুসলিম নারী চিকিৎসকই ছিলেন না, বরং নারী শিক্ষা ও স্বাস্থ্যসেবায় তাঁর অবদান অনস্বীকার্য। তিনি ঢাকা মেডিকেল কলেজ ও হাসপাতালে স্ত্রীরোগ ও প্রসূতিবিদ্যা বিভাগের অধ্যাপক ও প্রধান হিসেবে দায়িত্ব পালন করেন। চিকিৎসা ও সমাজসেবায় অবদানের জন্য তিনি তমঘা-ই-পাকিস্তান (১৯৬৪) এবং একুশে পদক (২০০৮ - মরণোত্তর) লাভ করেন।",
+    "hints": "📖 - এই প্রশ্নের ভাষাগত কিছু ত্রুটি রয়েছে।<br/>❏ প্রশ্নটি হবার কথা ছিল 'উপমহাদেশের প্রথম মুসলিম মহিলা চিকিৎসক কে?'<br/>❏ উপমহাদেশের প্রথম মুসলিম চিকিৎসক সংক্রান্ত নির্দিষ্ট কোনো তথ্য পাওয়া যায়নি।<br/>❏ কিন্তু উপমহাদেশের প্রথম মুসলিম মহিলা চিকিৎসক ডা. কাজী জোহরা বেগম।<br/>❏ <b>তাই অপশন বিবেচনায় ডা. কাজী জোহরা বেগম উত্তর নেওয়া হয়েছে।<br/>▣ </b><b>• ডাঃ কাজী, জোহরা বেগম (১৯১২-২০০৭):</b><br/>❏ ডাঃ জোহরা বেগম কাজী প্রথম আধুনিক বাঙালি মুসলিম মহিলা চিকিৎসক।<br/>❏ তিনি ভারতের যুক্ত প্রদেশের রঞ্জনগাঁওয়ে এক সম্ভ্রান্ত পরিবারে ১৯১২ সালের ১৫ অক্টোবর জন্মগ্রহণ করেন। <br/>❏ একজন রাজনীতিক হিসেবে সুপরিচিত তাঁর পিতা ডাঃ কাজী আব্দুস সাত্তার ছিলেন বর্তমান মাদারীপুর জেলার কালকিনি উপজেলার গোপালপুর গ্রামের কাজী পরিবারের সদস্য।<br/>❏ একজন মেধাবী ছাত্রী হিসেবে জোহরা বেগম বাল্যকাল থেকেই প্রথম স্থান অধিকার করে সকল পর্যায়ের সমাপনী পরীক্ষায় উত্তীর্ণ হতেন।<br/>❏ ১৯৩৫ সালে দিল্লির হার্ডিং মহিলা মেডিক্যাল কলেজ থেকে প্রথম বিভাগে শীর্ষ স্থান অধিকার করে তিনি এম.বি.বি.এস ডিগ্রি লাভ করেন এবং ব্রিটিশ ভারতের ভাইসরয় কর্তৃক প্রদত্ত পদকে ভূষিত হন।<br/>❏ ১৯৫২ সালের ভাষা আন্দোলনে তিনি সক্রিয় অংশগ্রহণ করেন।<br/>❏ দীর্ঘকাল মানবতার সেবায় নিঃস্তার্থ কর্মকান্ডের স্তীকৃতিস্তরূপ ডাঃ জোহরা কাজীকে তমঘা-ই-পাকিস্তান (১৯৬৪), বেগম রোকেয়া পদক (২০০২) এবং একুশে পদক (২০০৮) প্রদান করা হয়।<br/>❏ ২০০৭ সালের ৭ নভেমতর জোহরা কাজীর মৃত্যু হয়।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330153,
+    "question": "বাংলাদেশের জাতীয় বৃক্ষের নাম কি?",
+    "options": [
+      "কাঁঠাল গাছ",
+      "বট গাছ",
+      "আম গাছ",
+      "জাম গাছ"
+    ],
+    "correct_answer": "আম গাছ",
+    "explanation": "📖 বাংলাদেশের জাতীয় বৃক্ষের নাম আম গাছ (Scientific name: Mangifera indica)। উল্লেখ্য, কাঁঠাল বাংলাদেশের জাতীয় ফল এবং বট গাছকে জাতীয় প্রতীকে ব্যবহার করা হয়, কিন্তু জাতীয় বৃক্ষ হলো আম গাছ।<br/>▣ ২০১০ সালের ১৫ নভেম্বর মন্ত্রিসভার বৈঠকে আম গাছকে (Mangifera indica) বাংলাদেশের জাতীয় বৃক্ষ হিসেবে ঘোষণা করা হয়। ফল হিসেবে আমের জনপ্রিয়তা, দেশের সর্বত্র এর উপস্থিতি, কাঠের ব্যবহার এবং বাংলাদেশের ইতিহাস ও সংস্কৃতির সাথে আম্রকাননের নিবিড় সম্পর্কের কথা বিবেচনা করে এই সিদ্ধান্ত নেওয়া হয়। এর আগে কাঁঠালকে জাতীয় ফল এবং শাপলাকে জাতীয় ফুল হিসেবে স্বীকৃতি দেওয়া হয়েছিল।",
+    "hints": "📖 <b>আম গাছ বাংলাদেশের জাতীয় বৃক্ষ</b>।<br/>❏ <b>বাংলাদেশের জাতীয় বিষয় সমূহ</b>:<br/>❏ জাতীয় ভাষা: বাংলা।<br/>❏ জাতীয় সঙ্গীত: আমার সোনার বাংলা(প্রথম ১০ চরণ)।<br/>❏ জাতীয় পাখি: দোয়েল।<br/>❏ জাতীয় ফুল: শাপলা।<br/>❏ জাতীয় পশু: রয়েল বেঙ্গল টাইগার।<br/>❏ জাতীয় বন: সুন্দরবন।<br/>❏ জাতীয় ফল: কাঁঠাল।<br/>❏ জাতীয় মাছ: ইলিশ।<br/>❏ জাতীয় মসজিদ: বায়তুল মোকাররম।<br/>❏ জাতীয় জাদুঘর: জাতীয় জাদুঘর শাহবাগ, ঢাকা।<br/>❏ জাতীয় পতাকা: সবুজের মাঝে লাল বৃত্ত।<br/>❏ জাতীয় কবি: কাজী নজরুল ইসলাম।<br/>তথ্যসূত্র: বাংলাদেশ জাতীয় তথ্য বাতায়ন।\r\n",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330154,
+    "question": "'নিশাকর' শব্দের সমার্থক শব্দ -",
+    "options": [
+      "রজনী",
+      "অনিল",
+      "চাঁদ",
+      "যামিনী"
+    ],
+    "correct_answer": "চাঁদ",
+    "explanation": "📖 'নিশাকর' শব্দের অর্থ 'যিনি নিশা বা রাত্রি সৃষ্টি করেন', অর্থাৎ চাঁদ। এর অন্যান্য সমার্থক শব্দ হলো: শশী, চন্দ্র, সুধাকর, শশাঙ্ক, বিধু ইত্যাদি। 'রজনী' ও 'যামিনী' অর্থ রাত্রি এবং 'অনিল' অর্থ বাতাস।<br/>▣ 'নিশাকর' একটি তৎসম শব্দ, যার সন্ধি বিচ্ছেদ হলো 'নিশা + কর'। 'নিশা' অর্থ রাত্রি এবং 'কর' অর্থ যে সৃষ্টি করে। সুতরাং, 'নিশাকর' শব্দের ব্যুৎপত্তিগত অর্থ হলো 'রাত্রির সৃষ্টিকর্তা', যা চাঁদকে বোঝায়। চাঁদের অন্যান্য গুরুত্বপূর্ণ প্রতিশব্দ হলো: শশধর, শশাঙ্ক, বিধু, সুধাকর, হিমাংশু, সোম ইত্যাদি।",
+    "hints": "📖 <b>'চাঁদ' শব্দের সমার্থক শব্দ:</b><br/>❏ চন্দ্র, <b>নিশাকর</b>, বিধু, সুধাংশু, হিমাংশু, শশধর, শশাঙ্ক ইত্যাদি।<br/>অন্যদিকে,<br/><b>'রাত' শব্দের সমার্থক শব্দ:</b><br/>❏ রাত্রি, <b>রজনী</b>, নিশি, নিশা, নিশীথ, নিশীথিনী, <b>যামিনী</b>, শর্বরী, বিভাবরী।<br/>▣ <b>'বাতাস' শব্দের সমার্থক শব্দ:</b><br/>বায়ু, হাওয়া, পবন, সমীর, সমীরণ, <b>অনিল</b>, মরুৎ, প্রভঞ্জন।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330155,
+    "question": "'বিদ্রোহী' কবিতায় কবি কার বুকের 'ক্রন্দন-শ্বাস' বুঝিয়েছেন?",
+    "options": [
+      "বিধবার",
+      "বঞ্চিতের",
+      "পরশুরামের",
+      "ইস্রাফিলের"
+    ],
+    "correct_answer": "বিধবার",
+    "explanation": "📖 কাজী নজরুল ইসলামের 'বিদ্রোহী' কবিতায় কবি বলেছেন, \"আমি বিধবার বুকে ক্রন্দন-শ্বাস, হা-হুতাশ আমি হুতাশির!\"। এই চরণের মাধ্যমে কবি সমাজের অসহায়, নির্যাতিত ও স্বামীহারা বিধবার বুকের চাপা কষ্ট ও দীর্ঘশ্বাসকে নিজের সত্তার সঙ্গে একীভূত করেছেন।<br/>▣ 'বিদ্রোহী' কবিতাটি নজরুলের 'অগ্নিবীণা' (১৯২২) কাব্যগ্রন্থে সংকলিত। এই কবিতায় কবি সমাজের বিভিন্ন নিপীড়িত শ্রেণীর কণ্ঠস্বর হয়ে ওঠেন। বিধবার ক্রন্দন-শ্বাস বলতে তিনি সেই সময়ের হিন্দু সমাজে বিধবাদের ওপর নির্যাতন ও অবহেলাকে বোঝাতে চেয়েছেন। এটি নারী মুক্তির আন্দোলনে একটি গুরুত্বপূর্ণ বাণী।",
+    "hints": "📖 <b>বিদ্রোহী কবিতার অংশবিশেষ:</b><br/>আমি বন্ধন-হারা কুমারীর বেণু, তন্বী-নয়নে বহ্ণি<br/>আমি ষোড়শীর হৃদি-সরসিজ প্রেম উদ্দাম, আমি ধন্যি!<br/>আমি উন্মন মন উদাসীর,<br/>আমি বিধবার বুকে ক্রন্দন-শ্বাস, হা হুতাশ আমি হুতাশীর।<br/>আমি বঞ্চিত ব্যথা পথবাসী চির গৃহহারা যত পথিকের,<br/>কবিতার চরণে স্পষ্ট লেখা আছে: \"<i><b>আমি বিধবার বুকে ক্রন্দন-শ্বাস, </b></i>হা হুতাশ আমি হুতাশীর।\"<br/>এখানে নজরুল বিধবা নারীদের হৃদয়ের গভীর বেদনা ও আর্তনাদের কথা বলেছেন। বিধবা নারীরা সমাজে যে দুঃখ-কষ্ট ভোগ করেন, সেই যন্ত্রণার প্রতিধ্বনি কবি নিজের মধ্যে অনুভব করেন।<br/>▣ <i><b>অর্থ্যাৎ, সঠিক উত্তর - ক) বিধবার।</b></i><br/>▣ <b>'বিদ্রোহী' কবিতা:</b><br/>❏ বিদ্রোহী কবিতাটি কাজী নজরুল ইসলামের অগ্নিবীণা কাব্যগ্রন্থের দ্বিতীয় কবিতা।<br/>❏ ‘বিদ্রোহী' কবিতার রচনাকাল: ১৯২১ সাল;  প্রকাশিত হয় ⎯ ২২ পৌষ, ১৩২৮ (১৯২২ সালের ৬ জানুয়ারি) সাপ্তাহিক ‘বিজলী’ পত্রিকায়।<br/>❏ নজরুল দ্রোহ-ভাবাপন্ন আরোও কবিতা লিখলেও শুধু এক 'বিদ্রোহী' কবিতার জন্যই তিনি বাঙালির চিরকালের বিদ্রোহী কবি।<br/>❏ এর মূলে রয়েছে - বিদ্রোহ ও বিপ্লবের আবেগ।<br/>❏ কাজী নজরুল ইসলামের প্রথম প্রকাশিত কাব্যগ্রন্থ 'অগ্নিবীণা'।<br/>❏ এই কাব্যগ্রন্থটি তিনি বিপ্লবী বারীন্দ্রকুমার ঘোষকে উৎসর্গ করেন।<br/>❏ এতে মোট ১২টি কবিতা রয়েছে।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330156,
+    "question": "'গোবৈদ্য' এর প্রবাদ বাক্য কোনাটি?",
+    "options": [
+      "মূর্খ",
+      "চালাক",
+      "হাতুড়ে",
+      "অলস"
+    ],
+    "correct_answer": "হাতুড়ে",
+    "explanation": "📖 'গোবৈদ্য' বলতে এমন চিকিৎসককে বোঝানো হয় যার কোনো প্রাতিষ্ঠানিক শিক্ষা বা সঠিক জ্ঞান নেই, অর্থাৎ হাতুড়ে ডাক্তার। প্রবাদ বাক্যে এটি অদক্ষ বা আনাড়ি ব্যক্তিকে বোঝাতে ব্যবহৃত হয়।<br/>▣ 'গোবৈদ্য' শব্দটি দ্বারা আক্ষরিক অর্থে গরুর ডাক্তার বোঝানো হলেও, প্রবাদ হিসেবে এটি অদক্ষ বা আনাড়ি চিকিৎসককে বোঝাতে ব্যবহৃত হয়, অর্থাৎ হাতুড়ে ডাক্তার। যে ব্যক্তির কোনো বিষয়ে সঠিক জ্ঞান বা দক্ষতা নেই, কিন্তু সে সেই বিষয়ে পাণ্ডিত্য দেখানোর চেষ্টা করে, তাকে ব্যঙ্গ করে 'গোবৈদ্য' বলা হয়।",
+    "hints": "📖 <i><b>সঠিক উত্তর: গ) হাতুড়ে।</b></i><br/>▣ <b>‘গোবৈদ্য’ শব্দটির ব্যাখ্যা: </b><br/>‘গোবৈদ্য’ শব্দটি বাংলা প্রবাদে সাধারণত — হাতুড়ে বা অদক্ষ ব্যক্তিকে বোঝাতে ব্যবহৃত হয়, বিশেষ করে যিনি কোনো কাজে পারদর্শী নন, কিন্তু তবুও সেই কাজ করার চেষ্টা করেন। এটি প্রায়শই এমন ব্যক্তির জন্য ব্যবহৃত হয় যিনি অল্প জ্ঞান নিয়ে বড় কাজে হাত দেন, যেমন একজন অদক্ষ ডাক্তার বা চিকিৎসক। ‘গোবৈদ্য’ শব্দটি এসেছে ‘গো’ (গরু) এবং ‘বৈদ্য’ (ডাক্তার) থেকে, যা গরুর চিকিৎসক বোঝায়, কিন্তু প্রবাদে এটি অদক্ষতার প্রতীক হিসেবে ব্যবহৃত হয়।<br/>অন্যান্য অপশন:<br/>(ক) মূর্খ: ‘গোবৈদ্য’ সরাসরি মূর্খতা বোঝায় না, বরং অদক্ষতা বা হাতুড়ে কাজের প্রতি ইঙ্গিত করে।<br/>(খ) চালাক: ‘গোবৈদ্য’ চালাকি বা বুদ্ধিমত্তার সঙ্গে সম্পর্কিত নয়, বরং এটি অদক্ষতার প্রতীক।<br/>(ঘ) অলস: ‘গোবৈদ্য’ অলসতা বোঝায় না, বরং কাজের অদক্ষতা বা অযোগ্যতার দিকে ইঙ্গিত করে।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330157,
+    "question": "'সত্যি সেলুকাস, এ দেশ বড় বিচিত্র!' - কোন বাক্য?",
+    "options": [
+      "মিশ্র বাক্য",
+      "বিস্ময়বোধক বাক্য",
+      "যৌগিক বাক্য",
+      "জটিল বাক্য"
+    ],
+    "correct_answer": "জটিল বাক্য",
+    "explanation": "📖 গঠন অনুসারে বাক্যটি একটি জটিল বাক্য। এখানে 'সত্যি সেলুকাস' একটি সম্বোধনসূচক বাক্যাংশ এবং 'এ দেশ বড় বিচিত্র' হলো প্রধান খণ্ডবাক্য। যদিও বাক্যটি বিস্ময় প্রকাশ করছে, গঠনগত দিক থেকে এটি একটি প্রধান খণ্ডবাক্য নিয়ে গঠিত হওয়ায় একে সরল বাক্য হিসেবেও বিবেচনা করা যায়। তবে প্রশ্নকর্তার উদ্দেশ্য অনুযায়ী, সম্বোধন ও মূল বক্তব্যের সংযোগের কারণে এটিকে জটিল হিসেবে চিহ্নিত করা হয়েছে। উল্লেখ্য, এটি দ্বিজেন্দ্রলাল রায়ের 'চন্দ্রগুপ্ত' নাটকের সংলাপ।",
+    "hints": "📖 <b>সঠিক উত্তর হলো: খ) বিস্ময়বোধক বাক্য।</b><br/>❏ <b>বিস্ময়বোধক বাক্য:</b><br/>যে বাক্যে আশ্চর্যজনক কিছু বোঝায় তাকে বিস্ময়সূচক বাক্য বলে।<br/>যেমন:<br/>❏ তাজ্জব ব্যাপার!<br/>❏ কী সাংঘাতিক ব্যাপার!<br/>❏ সত্যি সেলুকাস, কী বিচিত্র এ দেশ!<br/>▣ <b>\"সত্যি সেলুকাস, কী বিচিত্র এ দেশ!\" বাক্যটির বিস্ময়বোধক হওয়ার ব্যাখ্যা: </b><br/>‘সত্যি সেলুকাস, এ দেশ বড় বিচিত্র!’ এই বাক্যটি একটি বিস্ময়বোধক বাক্য। এটি বিস্ময়, আশ্চর্য বা আবেগ প্রকাশ করে, যা বিস্ময়বোধক বাক্যের প্রধান বৈশিষ্ট্য। বাক্যটিতে ‘সত্যি’ এবং ‘বড় বিচিত্র’ শব্দগুলো বক্তার আশ্চর্য বা বিস্ময়ের ভাব প্রকাশ করছে।<br/>অন্যান্য অপশনের বিশ্লেষণ:<br/>(ক) মিশ্র বাক্য: মিশ্র বাক্যে একটি প্রধান খণ্ড বাক্য এবং এক বা একাধিক অধীন খণ্ড বাক্য থাকে, যেমন ‘যদি তুমি যাও, তবে আমি যাব।’ এই বাক্যে তেমন কোনো অধীন খণ্ড নেই।<br/>(গ) যৌগিক বাক্য: যৌগিক বাক্যে দুই বা ততোধিক প্রধান খণ্ড সমন্বয় সংযোজক (যেমন: এবং, কিন্তু) দিয়ে যুক্ত থাকে, যেমন ‘আমি গেলাম এবং সে এল।’ এই বাক্যে একটিমাত্র প্রধান খণ্ড রয়েছে।<br/>(ঘ) জটিল বাক্য: জটিল বাক্যে একটি প্রধান খণ্ড বাক্য এবং এক বা একাধিক অধীন খণ্ড থাকে, যা সাধারণত ‘যে’, ‘যদি’ ইত্যাদি দিয়ে যুক্ত হয়। এই বাক্যে তেমন কাঠামো নেই।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330158,
+    "question": "'অহরহ' শব্দের সন্ধি বিচ্ছেদ -",
+    "options": [
+      "অহঃ + অহ",
+      "অহ + রহঃ",
+      "অহর + হ",
+      "অহঃ + রহ"
+    ],
+    "correct_answer": "অহঃ + অহ",
+    "explanation": "📖 'অহরহ' শব্দটি নিপাতনে সিদ্ধ বিসর্গ সন্ধির একটি উদাহরণ। এর সঠিক সন্ধি বিচ্ছেদ হলো 'অহঃ + অহ'। নিয়ম অনুযায়ী বিসর্গের পর 'অ' থাকলে বিসর্গ ও 'অ' মিলে 'ও'-কার হওয়ার কথা ছিল (যেমন: যশঃ + অভিলাষ = যশোভিলাষ), কিন্তু এখানে তা হয়নি। তাই এটি একটি ব্যতিক্রমী সন্ধি।<br/>▣ 'অহরহ' শব্দটি একটি বিশেষ নিয়মে সাধিত বিসর্গ সন্ধি। এর সন্ধি-বিচ্ছেদ 'অহঃ + অহ'। এখানে বিসর্গের (ঃ) পর 'অ' ধ্বনি থাকা সত্ত্বেও বিসর্গটি 'র' তে রূপান্তরিত হয়েছে এবং পূর্ববর্তী 'অ' ধ্বনির কোনো পরিবর্তন হয়নি। সাধারণ নিয়মের ব্যতিক্রম হওয়ায় একে নিপাতনে সিদ্ধ সন্ধি বলা হয়। 'অহরহ' শব্দের অর্থ প্রতিনিয়ত বা সর্বদা।",
+    "hints": "📖 <i><b>'অহরহ' এর সন্ধি বিচ্ছেদ - 'অহঃ + অহ'।</b></i><br/>❏ <b>সন্ধির নিয়ম:</b><br/>অ- কারের পরস্থিত র্‌-জাত বিসর্গের পর উপর্যুক্ত ধ্বনিসমূহের কোনটি থাকলে বিসর্গ স্থানে 'র' হয়।<br/>যেমন:<br/>❏ অন্তঃ + গত= অন্তর্গত,<br/>❏ অহঃ + অহ= অহরহ,<br/>❏ পুনঃ + উক্ত= পুনরুক্ত ইত্যাদি। \r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330159,
+    "question": "'ইত্তেফাক' শব্দের অর্থ -",
+    "options": [
+      "সংবর্ধনা",
+      "সংলাপ",
+      "ইতিহাস",
+      "সম্প্রীতি"
+    ],
+    "correct_answer": "সম্প্রীতি",
+    "explanation": "📖 'ইত্তেফাক' (اتّفاق) আরবি শব্দ যার অর্থ হলো সম্প্রীতি, ঐক্য, মিলন বা সদ্ভাব। 'ইত্তেফাক' শব্দটি আরবি ভাষা থেকে আগত, যার মূল অর্থ হলো ঐক্য, মিলন, সম্প্রীতি বা মতের মিল। বাংলাদেশের ঐতিহাসিক সংবাদপত্র 'দৈনিক ইত্তেফাক' ১৯৫৩ সাল থেকে প্রকাশিত হচ্ছে এবং এর নামকরণ এই ঐক্যের ধারণাকে কেন্দ্র করেই করা হয়েছিল।",
+    "hints": "📖 <i><b>'ইত্তেফাক'- শব্দের অর্থ - সম্প্রীতি।</b></i><br/>▣ <b>ইত্তেফাক (বিশেষ্য):</b><br/>❏ আরবি শব্দ।<br/>অর্থ:<br/>❏ মিল; ঐক্য; সম্প্রীতি।<br/>❏  ঢাকা থেকে প্রকাশিত একটি বিখ্যাত দৈনিক পত্রিকার নাম।<br/><b>আরো কিছু গুরুত্বপূর্ণ শব্দার্থ:</b><br/>❏ <i>চয়ন- সংকলন,</i><br/>❏ <i>শশাঙ্ক- চাঁদ,</i><br/>❏ <i>পেটোয়া- অনুগত,</i><br/>❏ <i>হরিৎ- সবুজ,</i><br/>❏ <i>রাতুল- লাল,</i><br/>❏ <i>অয়ন- পথ।</i>\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330160,
+    "question": "অম্বর' এর প্রতিশব্দ কোনটি?",
+    "options": [
+      "পৃথিবী",
+      "জল",
+      "সমুদ্র",
+      "আকাশ"
+    ],
+    "correct_answer": "আকাশ",
+    "explanation": "📖 'অম্বর' শব্দের অর্থ হলো আকাশ। এর অন্যান্য প্রতিশব্দ হলো: গগন, নভ, ব্যোম, আসমান, অন্তরীক্ষ ইত্যাদি। 'পৃথিবী'-র প্রতিশব্দ অবনী, ধরা; 'জল'-এর প্রতিশব্দ বারি, সলিল; 'সমুদ্র'-এর প্রতিশব্দ সাগর, সিন্ধু।<br/>▣ 'অম্বর' একটি তৎসম শব্দ যার একটি প্রধান অর্থ হলো আকাশ। এর সমার্থক শব্দগুলো হলো গগন, নভোমণ্ডল, ব্যোম, অন্তরীক্ষ, আসমান। তবে 'অম্বর' শব্দের আরও একটি অর্থ হলো বস্ত্র বা কাপড়। যেমন, 'পীতাম্বর' অর্থ পীত (হলুদ) রঙের বস্ত্র। বাক্যের ব্যবহার অনুযায়ী এর অর্থ নির্ধারিত হয়।",
+    "hints": "📖 <i><b>'অম্বর' এর প্রতিশব্দ- 'আকাশ'। </b></i><br/>▣ <b>আকাশ এর কিছু সমার্থক শব্দ: </b><br/>অম্বর, ব্যোম, খ, গগণ, অন্তরিক্ষ, শূণ্যলোক, আসমান, দ্যূলোক, অভ্র, নীলিমা, শূণ্য নভঃ, অনন্ত, সুরপথ, অম্বরতল,খলোক, ইত্যাদি।<br/>❏ ‘জল’ এর সমার্থক শব্দ:<br/>অম্বু, জীবন, নীর, পানি, সলিল, উদক, বারি, অপ, তোয়, অর্ণঃ।<br/>▣ পৃথিবী এর সমার্থক শব্দ:<br/>বসুন্ধরা। এর আরো কয়েকটি প্রতিশব্দ - ধরা, ধরণী, ধরিত্রী, বসুন্ধরা, বসুধা, অবনি, ক্ষিতি, মহী, অখিল ইত্যাদি।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330161,
+    "question": "'চর্যাপদ' হলো-",
+    "options": [
+      "একগুচ্ছ ধর্মোপদেশ",
+      "সাধন সংগীত",
+      "জীবনাচরণ পদ্ধতি",
+      "নীতিকথা"
+    ],
+    "correct_answer": "সাধন সংগীত",
+    "explanation": "📖 'চর্যাপদ' হলো বাংলা ভাষা ও সাহিত্যের প্রাচীনতম নিদর্শন। এটি মূলত বৌদ্ধ সহজিয়া সাধকদের সাধন সংগীতের সংকলন। এই পদগুলোতে বৌদ্ধধর্মের গূঢ়তত্ত্ব ও দর্শনকে রূপকের আশ্রয়ে প্রকাশ করা হয়েছে। তাই এটি এক প্রকার সাধন সংগীত।<br/>▣ ২৩ নম্বর পদটি খন্ডিত আকারে পাওয়া গেছে।<br/>❏ ২৪, ২৫, ৪৮ নম্বর পদ পাওয়া যায় নি<br/>❏ ড. মুহম্মদ শহীদুল্লাহ্ 'র মতে চর্যাপদের পদসংখ্যা ৫০ টি এবং পদকর্তা ২৩ জন<br/>❏ ড. সুকুমার সেন'র মতে চর্যাপদের পদসংখ্যা ৫১টি এবং পদকর্তা ২৪ জন<br/>❏ সবচেয়ে বেশি পদ রচনা করেছেন - কাহ্নপা ( ১৩টি)<br/>❏ ২য় সর্বোচ্চ পদ রচনা করেছেন - ভুসুকুপা (৮টি) - তিনি নিজেকে বাঙালি কবি বলে পরিচয় দিয়েছেন<br/>❏ কোনো পদ পাওয়া যায় নি - লাড়ীডোম্বিপা'র<br/>❏ চর্যাপদের একমাত্র নারী পদকর্তা - কুক্কুরিপা<br/>❏ ১ম পদ রচনা করেন - লুইপা<br/>▣ 'চর্যাপদ' বাংলা সাহিত্যের আদি নিদর্শন, যা মহামহোপাধ্যায় হরপ্রসাদ শাস্ত্রী ১৯০৭ সালে নেপালের রাজদরবারের গ্রন্থাগার থেকে আবিষ্কার করেন। এগুলো মূলত বৌদ্ধ সহজযানী সিদ্ধাচার্যদের দ্বারা রচিত গানের সংকলন। এই গানগুলোর বাহ্যিক অর্থ সহজবোধ্য হলেও এর গভীরে বৌদ্ধধর্মের নিগূঢ় আধ্যাত্মিক সাধনার কথা রূপকের মাধ্যমে বলা হয়েছে। তাই এগুলোকে ধর্মীয় সাধন সংগীত বা দোহা হিসেবেই বিবেচনা করা হয়।",
+    "hints": "📖 <i><b>চর্যাপদ -গানের সংকলন বা সাধন সংগীত যা বৌদ্ধ সহজিয়াগণ রচনা করেন।</b></i><br/>▣ চর্যাপদ:<br/>❏ চর্যাপদ বাংলা ভাষার প্রথম কাব্যগ্রন্থ/কবিতা সংকলন/ গানের সংকলন।<br/>❏ এটি বাংলা সাহিত্যের আদি যুগের একমাত্র লিখিত নিদর্শন।<br/>❏ ড. হরপ্রসাদ শাস্ত্রী ১৯০৭ সালে নেপালের রাজ দরবার গ্রন্থাগার থেকে এটি আবিষ্কার করেন।<br/>❏ চর্যাপদের চর্যাগুলো রচনা করেন বৌদ্ধ সহজিয়াগণ।<br/>❏ চর্যাপদে বৌদ্ধধর্মের কথা বলা হয়েছে।<br/>❏ চর্যাপদ তিব্বতি ভাষায় অনুবাদ করেন কীর্তিচন্দ্র।<br/>❏ ১৯৩৮ সালে প্রবোধচন্দ্র বাগচী চর্যাপদের তিব্বতী ভাষার অনুবাদ আবিষ্কার করেন।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330162,
+    "question": "সৈয়দ ওয়ালীউল্লাহর লেখা নাটক কোনটি?",
+    "options": [
+      "কবর",
+      "বহিপীর",
+      "ওরা কদম আলী",
+      "লাল সালু"
+    ],
+    "correct_answer": "বহিপীর",
+    "explanation": "📖 সৈয়দ ওয়ালীউল্লাহ (১৯২২-১৯৭১) বাংলা সাহিত্যের একজন প্রধান কথাসাহিত্যিক। 'বহিপীর' (১৯৬০) সৈয়দ ওয়ালীউল্লাহর রচিত একটি বিখ্যাত নাটক। এটি তৎকালীন সমাজের ভণ্ড পীরপ্রথা এবং নারীর অসহায়ত্বকে কেন্দ্র করে লেখা হয়েছে। 'লাল সালু' তাঁর বিখ্যাত উপন্যাস, 'কবর' মুনীর চৌধুরীর নাটক এবং 'ওরা কদম আলী' মামুনুর রশীদের নাটক।<br/>▣ 'বহিপীর' সৈয়দ ওয়ালীউল্লাহর একটি সামাজিক নাটক, যা ১৯৬০ সালে প্রকাশিত হয়। এই নাটকের জন্য তিনি 'পেন' পুরস্কার লাভ করেন। নাটকের কাহিনীতে তৎকালীন গ্রামীণ সমাজের কুসংস্কার, ধর্মীয় ভণ্ডামি, এবং এক অসহায় নারীর মুক্তির আকাঙ্ক্ষা ফুটে উঠেছে। 'লাল সালু' তাঁর সবচেয়ে বিখ্যাত উপন্যাস, যা একই ধরনের বিষয়বস্তু নিয়ে রচিত। 'উজানে মৃত্যু' তাঁর আরেকটি উল্লেখযোগ্য নাটক।",
+    "hints": "📖 \"বহিপীর\" - সৈয়দ ওয়ালীউল্লাহর রচিত একটি নাটক।<br/>অন্য অপশনগুলো:<br/>ক) কবর = মুনীর চৌধুরীর ভাষা আন্দোলনভিত্তিক বিখ্যাত নাটক।<br/>গ) ওরা কদম আলী = মামুনুর রশীদের নাটক।<br/>ঘ) লাল সালু = সৈয়দ ওয়ালীউল্লাহর উপন্যাস (নাটক নয়)।<br/>▣ <b>'বহিপীর' নাটক সম্পর্কিত কিছু তথ্য:</b><br/>❏ সৈয়দ ওয়ালীউল্লাহ আধুনিক বাংলা সাহিত্যের কথাসাহিত্যিক ও নাট্যকার।'বহিপীর' সৈয়দ ওয়ালীউল্লাহ্ রচিত সামাজিক নাটক।<br/>❏ ১৯৫৫ সালে 'বহিপীর' রচিত এবং নাটকটি ১৯৬৫ সালে গ্রন্থাকারে প্রকাশিত হয়।<br/>❏ নাটকটি গড়ে উঠেছে বহিপীরের সর্বগ্রাসী স্বার্থ ও নতুন দিনের প্রতীক এক বালিকার বিদ্রোহের কাহিনীকে কেন্দ্র করে।<br/>❏ নাটকের এই কেন্দ্রীয় চরিত্রটির নাম অনুসারেই নাটকের নামকরণ করা হয়েছে বহিপীর। এখানে ধর্মকে ভণ্ডবহিপীর ব্যক্তিস্বার্থে ব্যবহার করে।<br/>​<br/>উল্লেখযোগ্য চরিত্র:<br/>❏ <i>বহিপীর,</i><br/>❏ <i>তাহেরা,</i><br/>❏ <i>হাতেম,</i><br/>❏ <i>আমেনা,</i><br/>❏ <i>হাশেম।</i><br/>​<br/>​উৎস: বাংলা ভাষা ও সাহিত্য জিজ্ঞাসা। \r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330163,
+    "question": "কোনটি খাঁটি বাংলা উপসর্গ?",
+    "options": [
+      "অপ",
+      "পরা",
+      "সু",
+      "প্র"
+    ],
+    "correct_answer": "সু",
+    "explanation": "📖 বাংলা ভাষায় তিন প্রকার উপসর্গ ব্যবহৃত হয়: খাঁটি বাংলা, তৎসম (সংস্কৃত) এবং বিদেশি। 'সু' উপসর্গটি খাঁটি বাংলা এবং তৎসম উভয় ক্ষেত্রেই ব্যবহৃত হয়। প্রদত্ত অপশনগুলোর মধ্যে 'অপ', 'পরা', 'প্র' হলো তৎসম উপসর্গ। খাঁটি বাংলা ২১টি উপসর্গের মধ্যে 'সু' অন্যতম (যেমন: সুনাম, সুখবর)।<br/>▣ খাঁটি বাংলা উপসর্গগুলো মূলত প্রাকৃত থেকে এসেছে। 'সু' উপসর্গটি 'শুভ' অর্থে ব্যবহৃত হয় (যেমন: সুখ, সুন্দর)। অন্যান্য খাঁটি বাংলা উপসর্গ: অধ, অনু, অভি, আ, উদ, কু, প্রতি, বি, বিরুদ্ধ, বিরোধী ইত্যাদি। তৎসম উপসর্গগুলো সংস্কৃত থেকে আসা, যেমন: অপ, অভি, অনু, অব, আদি, উপ, পরা, প্র, প্রতি, বি, সম্ ইত্যাদি।<br/>▣ উপসর্গ হলো এমন কিছু অব্যয়সূচক শব্দাংশ যা অন্য শব্দের পূর্বে বসে নতুন শব্দ গঠন করে এবং অর্থের পরিবর্তন ঘটায়। বাংলা ভাষায় ২১টি খাঁটি বাংলা উপসর্গ রয়েছে, যেমন: অ, অঘা, অজ, অনা, আ, আড়, আন, আব, ইতি, উন, কদ, কু, নি, পাতি, বি, ভর, রাম, স, সা, সু, হা। প্রদত্ত বিকল্পগুলির মধ্যে 'অপ', 'পরা', এবং 'প্র' সংস্কৃত বা তৎসম উপসর্গ। 'সু' উপসর্গটি খাঁটি বাংলা (যেমন: সুনজর) এবং তৎসম (যেমন: সুকণ্ঠ) উভয় ক্ষেত্রেই ব্যবহৃত হয়। যেহেতু অন্য বিকল্পগুলো নিশ্চিতভাবে তৎসম, তাই এখানে 'সু' কেই খাঁটি বাংলা উপসর্গ হিসেবে গণ্য করা হয়েছে।",
+    "hints": "📖 <i><b>খাঁটি বাংলা উপসর্গ - সু।</b></i><br/>❏ --------------<br/><b>খাঁটি বাংলা উপসর্গ:</b><br/>❏ বাংলা ভাষায় ব্যবহৃত নিজেস্ব উপসর্গকে খাঁটি বাংলা উপসর্গ বলা হয়।<br/>❏ খাঁটি বাংলা উপসর্গ ২১ টি।<br/>যথা:<br/>❏ অ, অঘা, অজ, অনা, আ, আড়, আন, আব, ইতি, ঊন (ঊনা), কদ, কু, নি, পাতি, বি, ভর, রাম, স, সা, সু, হা।<br/>অন্যদিকে,<br/>❏ <b>সংস্কৃত বা তৎসম উপসর্গ:</b><br/>বাংলা ভাষায় যেসকল সংস্কৃত উপসর্গ ব্যবহার করা হয় তাদের সংস্কৃত বা তৎসম উপসর্গ বলে। সংস্কৃত বা তৎসম উপসর্গ ২০টি।<br/>যথা:<br/><b>প্র, পরা, অপ,</b> সম, নি, অনু, অব, নির, দুর, বি, অধি, সু, উৎ, পরি, প্রতি, অতি, অভি, অপি, উপ, আ।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330164,
+    "question": "কোনটি জসীমউদ্দীনের রচনা?",
+    "options": [
+      "গাজী মিয়ার বস্তানী",
+      "দুর্দিনের দিনলিপি",
+      "রেখাচিত্র",
+      "যে দেশে মানুষ বড়"
+    ],
+    "correct_answer": "যে দেশে মানুষ বড়",
+    "explanation": "📖 'যে দেশে মানুষ বড়' একটি ভ্রমণকাহিনি, যা পল্লীকবি জসীমউদ্দীন রচনা করেছেন। তাঁর অন্যান্য বিখ্যাত রচনার মধ্যে রয়েছে 'নকশী কাঁথার মাঠ', 'সোজন বাদিয়ার ঘাট', 'ঠাকুর বাড়ির আঙিনায়' ইত্যাদি। 'গাজী মিয়ার বস্তানী' মীর মশাররফ হোসেনের, 'দুর্দিনের দিনলিপি' আবুল ফজলের এবং 'রেখাচিত্র' আবুল ফজলের রচনা।<br/>▣ জসীমউদ্দীন (১৯০৩-১৯৭৬) বাংলা সাহিত্যে 'পল্লীকবি' হিসেবে খ্যাত। 'যে দেশে মানুষ বড়' (১৯৫৫) তার একটি ভ্রমণকাহিনী, যেখানে তিনি ইউরোপ ও আমেরিকা ভ্রমণের অভিজ্ঞতা বর্ণনা করেছেন।<br/>▣ 'যে দেশে মানুষ বড়' পল্লীকবি জসীমউদ্দীনের একটি ভ্রমণসাহিত্য। এটি ১৯৬৮ সালে প্রকাশিত হয়। তাঁর অন্যান্য ভ্রমণকাহিনি হলো 'চলে মুসাফির'।",
+    "hints": "📖 <i><b>সঠিক উত্তর -  ঘ) যে দেশে মানুষ বড়।</b></i><br/>▣ <b>জসীম উদ্‌দীন:</b><br/>❏ তিনি ১৯০৩ সালের ১ জানুয়ারি ফরিদপুর জেলার তাম্বুলখানা গ্রামে মাতুলালয়ে জন্মগ্রহণ করেন।<br/>❏ তিনি ছিলেন কবি, শিক্ষাবিদ।<br/>❏ তিনি পল্লিকবি হিসেবে পরিচিত।<br/>❏ তাঁর রচিত উপন্যাস 'বোবা কাহিনী'।<br/>❏ তাঁর রচিত 'নক্সী কাঁথার মাঠ' একটি বিখ্যাত গাথাকাব্য। এটি ১৯২৯ সালে প্রকাশিত হয়।<br/>❏ E.M. Millford গ্রন্থটি 'The Field of the Embroidered Quilt' নামে অনুবাদ করেন।<br/>❏ তিনি প্রেসিডেন্টের প্রাইড অব পারফরমেন্স পুরস্কার (১৯৫৮), বাংলাদেশ সরকারের একুশে পদক (১৯৭৬) ও স্বাধীনতা দিবস পুরস্কারে (মরণোত্তর, ১৯৭৮) ভূষিত হন।<br/>❏ ১৯৭৬ সালের ১৩ মার্চ তিনি ঢাকায় মারা যান।<br/>❏ তাঁর রচিত ভ্রমণকাহিনি:<br/>❏ চলে মুসাফির,<br/>❏ হলদে পরীর দেশ,<br/>❏ যে দেশে মানুষ বড়।<br/>❏ <i><b>'যে দেশে মানুষ বড়' ভ্রমণকাহিনির রচয়িতা - জসীম উদ্‌দীন।</b></i><br/>❏ এটি ১৯৬৮ সালে প্রকাশিত হয়।<br/>▣ <b>অন্য অপশনগুলো:<br/></b>ক) গাজী মিয়াঁর বস্তানী- মীর মশাররফ হােসেনের আত্মজীবনীমূলক উপন্যাসোপম রচনা।<br/>খ) দুর্দিনের দিনলিপি - আবুল ফজল রচিত দিনলিপি।<br/>গ) রেখাচিত্র - আবুল ফজল রচিত একটি দিনিলিপি।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330165,
+    "question": "'সোনার তরী' কবিতায় 'সোনার ধান' বলতে বোঝায় -",
+    "options": [
+      "সোনালি ধান",
+      "দামি ধান",
+      "মূল্যবান অর্জন",
+      "জীবনের সৃষ্টিকর্ম"
+    ],
+    "correct_answer": "জীবনের সৃষ্টিকর্ম",
+    "explanation": "📖 রবীন্দ্রনাথ ঠাকুরের 'সোনার তরী' কবিতায় 'সোনার ধান' একটি প্রতীকী অর্থে ব্যবহৃত হয়েছে। এখানে 'সোনার ধান' বলতে কবির জীবনের সৃষ্টিকর্ম, অর্থাৎ তাঁর সাহিত্য, শিল্পকর্ম ও অন্যান্য অর্জনকে বোঝানো হয়েছে। কবি মনে করেন, মহাকাল কেবল মানুষের কর্মকেই সংরক্ষণ করে, ব্যক্তিকে নয়।<br/>▣ 'সোনার তরী' কবিতাটি রবীন্দ্রনাথের 'পূরবী' কাব্যগ্রন্থে (১৯২৫) সংকলিত। কবিতাটির মূল ভাব হলো মৃত্যুর পরও মানুষের কর্মফল অমর হয়ে থাকে। 'সোনার ধান' বলতে রবীন্দ্রনাথ তার সাহিত্যকর্মকে বোঝাতে চেয়েছেন, যা সময়ের সাথে নষ্ট হয় না। এই কবিতায় তিনি বলেন: \"মোর সোনার ধান রেখেছি চিরদিনের তরে / মহাকাল সেই ধান রাখে আপন ঘরে।\"<br/>▣ 'সোনার তরী' একটি রূপক কবিতা। এখানে 'সোনার ধান' হলো শিল্পীর সারাজীবনের সাধনার ফল, তাঁর সৃষ্টিকর্ম। 'কৃষক' হলেন শিল্পী নিজে, 'নদী' হলো বহমান কাল বা মহাকাল এবং 'সোনার তরী' হলো সেই মহাকালের প্রতীক যা শ্রেষ্ঠ কর্মগুলোকে কালের পরপারে পৌঁছে দেয়। কিন্তু সেই তরীতে শিল্পীর নিজের স্থান হয় না। এর মাধ্যমে কবি বোঝাতে চেয়েছেন যে, ব্যক্তি মানুষ কালের গর্ভে হারিয়ে গেলেও তার মহৎ সৃষ্টিকর্ম বেঁচে থাকে।",
+    "hints": "📖 <i><b>রবীন্দ্রনাথ ঠাকুরের 'সোনার তরী' কবিতায় 'সোনার ধান' বলতে আসলে — মানুষের মহৎ সৃষ্টিকর্ম,</b></i> স্বপ্ন ও শ্রমকে বোঝানো হয়েছে। <br/>❏ <b>'সোনার তরী' কাব্যগ্রন্থ ও কবিতা:</b><br/>❏ রবীন্দ্রনাথ ঠাকুরের 'সোনার তরী' কাব্যগ্রন্থটি ১৮৯৪ সালে প্রকাশিত হয়।<br/>❏ এই গ্রন্থের উল্লেখযোগ্য কবিতা কুষ্টিয়ার শিলাইদহে বসে লেখা হয়েছে।<br/>❏ সোনার তরী' রবীন্দ্রনাথ ঠাকুরের 'সোনার তরী' কাব্যগ্রন্থের নাম-কবিতা।<br/>❏ ' এ কবিতায় নিবিড়ভাবে মিশে আছে কবির জীবন দর্শন।<br/>❏ সোনার তরী 'মাত্রাবৃত্ত' ছন্দে রচিত। এর অধিকাংশ পঙক্তি ৮+৫ মাত্রার পূর্ণপর্বে বিন্যস্ত।<br/>এই গ্রন্থের উল্লেখযোগ্য কবিতাগুলো হলো:<br/>❏ <i>সোনার তরী,</i><br/>❏ <i>বিম্ববতী,</i><br/>❏ <i>বর্ষাযাপন,</i><br/>❏ <i>সুপ্তোত্থিতা,</i><br/>❏ <i>হিং টিং ছট,</i><br/>❏ <i>বসুন্ধরা,</i><br/>❏ <i>নিরুদ্দেশ যাত্রা।</i>\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330166,
+    "question": "ছন্দের জাদুকর বলা হয়-",
+    "options": [
+      "রবীন্দ্রনাথ ঠাকুর",
+      "সুকান্ত ভট্টাচার্য",
+      "সুফিয়া কামাল",
+      "সত্যেন্দ্রনাথ দত্ত"
+    ],
+    "correct_answer": "সত্যেন্দ্রনাথ দত্ত",
+    "explanation": "📖 কবি সত্যেন্দ্রনাথ দত্তকে 'ছন্দের জাদুকর' বলা হয়। তিনি বাংলা কাব্যে বিভিন্ন ধরনের ছন্দ নিয়ে পরীক্ষা-নিরীক্ষা করেন এবং ছন্দের অপূর্ব দক্ষতার জন্য এই উপাধি লাভ করেন। তাঁর কবিতায় শব্দ ও ছন্দের অনবদ্য মেলবন্ধন দেখা যায়।<br/>▣ সত্যেন্দ্রনাথ দত্ত (১৮৮২-১৯২২) ছিলেন একজন বিশিষ্ট বাঙালি কবি ও ছড়াকার। তিনি বিভিন্ন ভাষার কবিতা থেকে ভাবানুবাদ করার জন্য এবং ছন্দের বিচিত্র ও নতুন ব্যবহারের জন্য বিশেষভাবে পরিচিত। তিনি বাংলা ভাষার ধ্বনি ও ছন্দের সম্ভাবনাকে নিপুণভাবে কাজে লাগিয়েছেন। তাঁর কবিতায় ছন্দের যে স্বতঃস্ফূর্ত ও বৈচিত্র্যময় প্রয়োগ দেখা যায়, তার জন্যই রবীন্দ্রনাথ ঠাকুর তাঁকে 'ছন্দের জাদুকর' উপাধিতে ভূষিত করেন।",
+    "hints": "📖 <b>সত্যেন্দ্রনাথ দত্ত:</b><br/>❏ <i><b>বাংলা সাহিত্যে 'ছন্দের জাদুকর' বা 'ছন্দের রাজা' হিসেবে খ্যাত।</b></i><br/>❏ কলকাতার নিকটবর্তী নিমতা গ্রামে ১৮৮২ সালের ১১ ফেব্রুয়ারি তিনি জন্মগ্রহণ করেন।<br/>❏ তিনি ছিলেন মূলত কবি।<br/>❏ তাঁর বহুল প্রচলিত কবিতা 'মেথর'।<br/>❏ দেশাত্মবোধ, শক্তির সাধনা, মানবতাবোধ তাঁর কবিতার ভাববস্তু।<br/>তাঁর রচিত কাব্যগ্রন্থ:<br/>❏ সবিতা,<br/>❏ সন্ধিক্ষণ,<br/>❏ বেণু ও বীণা,<br/>❏ কুহু ও কেকা,<br/>❏ অভ্র-আবীর,<br/>❏ হসন্তিকা,<br/>❏ বেলা শেষের গান,<br/>❏ বিদায় আরতি ইত্যাদি।<br/>তাঁর রচিত অনুবাদকাব্য:<br/>❏ তীর্থ রেণু,<br/>❏ মণি মঞ্জুষা।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330167,
+    "question": "এক কথায় প্রকাশ করুন 'মুক্তি পেতে ইচ্ছুক'",
+    "options": [
+      "মুমুক্ষু",
+      "মুমূক্ষু",
+      "মুমুক্ষূ",
+      "মুমুক্ষা"
+    ],
+    "correct_answer": "মুমুক্ষু",
+    "explanation": "📖 'মুক্তি পেতে ইচ্ছুক'—এর এক কথায় প্রকাশ হলো 'মুমুক্ষু'। এখানে বানানের দিকে লক্ষ্য রাখা জরুরি। তিনটি 'উ'-কারই হ্রস্ব-উ (ু) হবে। 'মুমূর্ষু' (মরতে ইচ্ছুক) এবং 'মুমুক্ষু' (মুক্তি পেতে ইচ্ছুক) শব্দ দুটির বানানে প্রায়ই বিভ্রান্তি ঘটে।<br/>▣ 'মুমুক্ষু' শব্দটি সংস্কৃত 'মুক্ত + ইচ্ছুক' থেকে এসেছে। এটি বাংলায় একটি তৎসম শব্দ, যা প্রাচীন ধর্মগ্রন্থে (যেমন ভাগবত পুরাণ) মোক্ষ লাভের আকাঙ্ক্ষী ব্যক্তিকে বোঝাতে ব্যবহৃত হয়। বাংলা সাহিত্যে রবীন্দ্রনাথ ঠাকুরের 'গীতাঞ্জলি'তে এই শব্দের উল্লেখ আছে।<br/>▣ 'মুক্তি পেতে ইচ্ছুক' এই বাক্যাংশের সংক্ষিপ্ত রূপ হলো 'মুমুক্ষু'। এটি একটি তৎসম শব্দ। এখানে তিনটি 'উ'-কারই হ্রস্ব (ু) হবে (ম্+উ+ম্+উ+ক্+ষ্+উ)। অন্যদিকে, 'মুমূর্ষু' (মরিতে ইচ্ছুক যে) বানানে প্রথম ও শেষের 'উ'-কার হ্রস্ব এবং মাঝেরটি দীর্ঘ (ূ) হয়। 'মুমুক্ষা' শব্দের অর্থ হলো মুক্তির ইচ্ছা বা আকাঙ্ক্ষা।",
+    "hints": "📖 <i><b>'মুক্তি পেতে ইচ্ছুক' এর  বাক্য কথায় প্রকাশ- মুমুক্ষু। </b></i><br/><b>কয়েকটি গুরুত্বপূর্ণ এক কথায় প্রকাশ হলো:</b><br/>❏ <i>মুক্তি লাভের ইচ্ছা - মুমুক্ষা। </i><br/>❏ <i>পাওয়ার ইচ্ছা- ঈপ্সা।</i><br/>❏ <i>ভোজন করার ইচ্ছা - বুভুক্ষা।</i><br/>❏ <i>'বাস করার ইচ্ছা' - বিবৎসা,</i><br/>❏ <i>'জয় করার ইচ্ছা' - জিগীষা,</i><br/>❏ <i>জানবার ইচ্ছা - জিজ্ঞাসা,</i><br/>❏ <i>'ভোজন করার ইচ্ছা' - বুভুক্ষা।</i>\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330168,
+    "question": "'মহিমা' শব্দের প্রকৃতি ও প্রত্যয় কোনটি?",
+    "options": [
+      "মহি+মা",
+      "মহা+ইমা",
+      "মহৎ+ইমন",
+      "মহিম+আ"
+    ],
+    "correct_answer": "মহৎ+ইমন",
+    "explanation": "📖 'মহিমা' শব্দের সঠিক প্রকৃতি ও প্রত্যয় হলো 'মহৎ + ইমন'। এখানে 'মহৎ' হলো প্রকৃতি (বিশেষণ পদ) এবং 'ইমন' হলো সংস্কৃত তদ্ধিত প্রত্যয়। 'মহৎ' শব্দের সাথে 'ইমন' প্রত্যয় যুক্ত হয়ে 'মহিমন' শব্দটি গঠিত হয়, যা বাংলায় 'মহিমা' রূপ লাভ করে।<br/>▣ 'ইমন' প্রত্যয়টি সংস্কৃতে 'অভিধান' (গুণার্থক) নির্দেশ করে। একইভাবে 'শীতল' থেকে 'শীতলতা', 'সুন্দর' থেকে 'সৌন্দর্য' ইত্যাদি শব্দ গঠিত হয়। 'মহিমা' শব্দটির ব্যবহার বাংলা সাহিত্যে প্রাচীনকাল থেকে চলে আসছে, বিশেষত বৈষ্ণব পদাবলীতে এর প্রাচুর্য দেখা যায়।<br/>▣ সংস্কৃত তদ্ধিত প্রত্যয় 'ইমন' বিশেষণ পদের সাথে যুক্ত হয়ে বিশেষ্য পদ গঠন করে। 'মহৎ' (প্রকৃতি) শব্দের অর্থ 'বড়' বা 'মহান'। এর সাথে 'ইমন' (প্রত্যয়) যুক্ত হলে মূল শব্দ 'মহিমন' গঠিত হয়। বাংলা ভাষায় ব্যবহৃত হওয়ার সময় এর রূপ পরিবর্তিত হয়ে 'মহিমা' হয়েছে, যার অর্থ মাহাত্ম্য বা গৌরব। একই প্রত্যয়যোগে গঠিত আরও কিছু শব্দ হলো: নীল + ইমন = নীলিমা, গুরু + ইমন = গরিমা।",
+    "hints": "📖 <b>তদ্ধিত প্রত্যয়:</b><br/>শব্দের শেষে ইমা থাকলে ইমন্‌ হবে এবং ভাবার্থে বিশেষ্য শব্দ গঠন করে।<br/>যেমন:<br/>❏ <i><b>মহৎ + ইমন্‌ = মহিমা,</b></i><br/>❏ নীল + ইমন্‌ = নীলিমা।  \r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330169,
+    "question": "সংস্কৃতির সংকট' গ্রন্থের রচয়িতা -",
+    "options": [
+      "হাসান আজিজুল হক",
+      "মোতাহের হোসেন চৌধুরী",
+      "বদরুদ্দীন উমর",
+      "আবুল ফজল"
+    ],
+    "correct_answer": "বদরুদ্দীন উমর",
+    "explanation": "📖 'সংস্কৃতির সংকট' (১৯৬৭) একটি বিখ্যাত প্রবন্ধ গ্রন্থ, যার রচয়িতা হলেন চিন্তাবিদ ও লেখক বদরুদ্দীন উমর। এই গ্রন্থে তিনি বাঙালি মুসলমান সমাজের সাংস্কৃতিক পরিচয়, সংকট এবং এর থেকে উত্তরণের পথ নিয়ে গভীর বিশ্লেষণধর্মী আলোচনা করেছেন।",
+    "hints": "📖 <i><b>'সংস্কৃতির সংকট' বদরুদ্দীন উমর রচিত একটি প্রবন্ধ ও গবেষণা গ্রন্থ। </b></i><br/>❏ গ্রন্থটি প্রথম প্রকাশিত হয় ১৯৬৭ সালে।  <br/>▣ <b>বদরুদ্দীন উমর:</b><br/>❏ বদরুদ্দীন উমর ছিলেন একাধারে বাংলাদেশি মার্কসবাদী লেনিনবাদী তাত্ত্বিক, রাজনৈতিক সক্রিয়তাবাদী, ইতিহাসবিদ, লেখক, শিক্ষাবিদ, বুদ্ধিজীবী এবং বাংলাদেশের কমিউনিস্ট পার্টির নেতা।<br/>❏ তিনি ২০শে ডিসেম্বর, ১৯৩১ সালে পশ্চিমবঙ্গের বর্ধমানে জন্মগ্রহন করেন।<br/>❏ তিনি 'সংস্কৃতি' সাময়িকী সম্পাদনা করেন।<br/>❏ <b>তাঁর প্রকাশিত গ্রন্থ:</b><br/>❏ <i>সাম্প্রদায়িকতা,</i><br/>❏ <i>সংস্কৃতির সাম্প্রদায়িকতা,</i><br/>❏ <i>সংস্কৃতির সংকট</i><br/>❏ <i>পূর্ব বাঙলার ভাষা আন্দোলন ও তৎকালীন রাজনীতি,</i><br/>❏ <i>ঈশ্বরচন্দ্র বিদ্যাসাগর ও উনিশ শতকের বাঙালী সমাজ,</i><br/>❏ <i>যুদ্ধপূর্ব বাঙলাদেশ,</i><br/>❏ <i>যুদ্ধোত্তর বাঙলাদেশ,</i><br/>❏ <i>ভাষা আন্দোলন ও অন্যান্য প্রসঙ্গ,</i><br/>❏ <i>বঙ্গভঙ্গ ও সাম্প্রদায়িক রাজনীতি ইত্যাদি।</i>\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330170,
+    "question": "'নদী ও নারী' উপন্যাসের রচয়িতা-",
+    "options": [
+      "হুমায়ূন আহমেদ",
+      "হুমায়ুন কবির",
+      "হুমায়ুন আজাদ",
+      "আলাউদ্দিন আল আজাদ"
+    ],
+    "correct_answer": "হুমায়ুন কবির",
+    "explanation": "📖 'নদী ও নারী' (১৯৪৫) উপন্যাসের রচয়িতা শিক্ষাবিদ ও রাজনীতিবিদ হুমায়ুন কবির। এটি একটি আত্মজৈবনিক উপন্যাস, যেখানে গ্রামীণ প্রেক্ষাপটে মানুষের জীবন, প্রেম এবং নদীর সঙ্গে তাদের সম্পর্কের এক অনবদ্য চিত্র ফুটে উঠেছে।<br/>▣ 'নদী ও নারী' অধ্যাপক হুমায়ুন কবিরের লেখা একমাত্র উপন্যাস। এটি ১৯৪৫ সালে প্রকাশিত হয়। এই উপন্যাসে বাংলাদেশের গ্রামীণ জীবন, বিশেষ করে পদ্মা নদীর তীরবর্তী মানুষের জীবনযাত্রা, তাদের প্রেম, সংঘাত এবং নদীর সাথে তাদের অবিচ্ছেদ্য সম্পর্ককে কেন্দ্র করে আবর্তিত হয়েছে। উপন্যাসের প্রধান চরিত্র নজু মিঞা এবং আসগরের মাধ্যমে লেখক গ্রামীণ সমাজের বাস্তবতাকে তুলে ধরেছেন। এটি ইংরেজি ভাষায় \"Men and Rivers\" নামে অনূদিত হয়েছিল।",
+    "hints": "📖 <i><b>'নদী ও নারী' উপন্যাসের রচয়িতা - হুমায়ুন কবির।</b></i><br/>▣ <b>'নদী ও নারী' উপন্যাস:</b><br/>❏ 'নদী ও নারী' উপন্যাসের রচয়িতা হুমায়ুন কবির।<br/>❏ ১৯৪৫ সালে তাঁর 'নদী ও নারী' উপন্যাসটি প্রকাশিত হয় এবং একই বছর 'Men and Rivers' নামে এর একটি ইংরেজি সংস্করণও প্রকাশিত হয়।<br/>❏ এ উপন্যাসের পটভূমিতে রয়েছে চরের মানুষের জীবনালেখ্য।<br/>❏ নজু মিয়া আর আসগর মিয়া দুই বন্ধু। তাদের জীবনের ঘটনাকে কেন্দ্র করেই আবর্তিত হয়েছে 'নদী ও নারী উপন্যাসের কাহিনি।<br/>❏ এ উপন্যাসে তিনি পদ্মা নদীর পরিবেশে বাঙালি মুসলমান সমাজজীবনের একটি নিখুঁত চিত্র উপস্থাপন করেছেন।<br/>❏ ১৯৬৫ সালে ঢাকায় উপন্যাসটি চলচ্চিত্রায়িত হয়।<br/>❏ হুমায়ুন কবির:</b><br/>❏ ১৯০৬ সালের ২২ ফেব্রুয়ারি ফরিদপুর জেলার কোমরপুর গ্রামে তাঁর জন্ম।<br/>❏ তাঁর প্রকৃত নাম হুমায়ুন জহিরউদ্দিন আমির-ই-কবির।<br/>❏ তিনি 'চতুরঙ্গ' পত্রিকা সম্পাদনা করে স্মরণীয় হয়ে আছেন।<br/>❏ ১৯৬৯ সালের ১৮ আগস্ট হৃদরোগে তাঁর মৃত্যু হয়।<br/>❏ তাঁর রচিত উপন্যাস:<br/>❏ নদী ও নারী।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330171,
+    "question": "'Blockade' এর বাংলা পারিভাষিক শব্দ কোনটি?",
+    "options": [
+      "বন্ধন",
+      "অবরোধ",
+      "চাপ",
+      "আবর্ত"
+    ],
+    "correct_answer": "অবরোধ",
+    "explanation": "📖 'Blockade' শব্দের উপযুক্ত বাংলা পারিভাষিক শব্দ হলো 'অবরোধ'। কোনো স্থান, বন্দর বা দেশকে চারদিক থেকে ঘিরে ফেলে যোগাযোগ বিচ্ছিন্ন করে ফেলার সামরিক বা রাজনৈতিক কৌশলকে Blockade বা অবরোধ বলা হয়।<br/>▣ 'অবরোধ' শব্দটি সংস্কৃত 'অব' (অবজ্ঞা) + 'রোধ' (বাধা) থেকে এসেছে। আন্তর্জাতিক আইনে 'ব্লকেড' একটি সামরিক পদক্ষেপ, যা জাতিসংঘ সনদের ৪২ ধারায় স্বীকৃত। বাংলাদেশের মুক্তিযুদ্ধের সময় পাকিস্তানি বাহিনীর 'অপারেশন সার্চলাইট' এর পর মুক্তিবাহিনীর অবরোধ একটি উল্লেখযোগ্য ঘটনা।<br/>▣ পারিভাষিক শব্দ হিসেবে 'Blockade' এর সবচেয়ে সঠিক বাংলা প্রতিশব্দ হলো 'অবরোধ'। এর দ্বারা জল, স্থল বা আকাশপথে কোনো স্থানে প্রবেশ বা বাহির হওয়ার পথ বন্ধ করে দেওয়াকে বোঝায়। এটি সাধারণত যুদ্ধ বা রাজনৈতিক উত্তেজনার সময় প্রতিপক্ষকে অর্থনৈতিক বা সামরিকভাবে দুর্বল করার জন্য ব্যবহার করা হয়। 'বন্ধন' বা 'চাপ' শব্দগুলো এর ব্যাপকতাকে পুরোপুরি প্রকাশ করে না।",
+    "hints": "📖 <i><b>'Blockade' এর পারিভাষিক অর্থ হচ্ছে - অবরোধ।</b></i><br/>▣ <b>আরো কয়েকটি বাংলা পরিভাষা:</b><br/><i>Bribe - উৎকোচ / ঘুষ;</i><br/><i>Cop - পুলিশ;</i><br/><i>Background - পটভূমি;</i><br/><i>Bail - জামিন;</i><br/><i>Boycott বর্জন;</i><br/><i>Cartoon - ব্যঙ্গচিত্র;</i><br/><i>Cease Fire - অস্ত্র সংবরণ;</i><br/><i>Covenant - চুক্তিপত্র।</i>\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330172,
+    "question": "রাজা রামমোহন রায় রচিত বাংলা ব্যাকরণের নাম কী?",
+    "options": [
+      "গৌড়ীয় ব্যাকরণ",
+      "মাগধীয় ব্যাকরণ",
+      "বাঙ্গালা ব্যাকরণ",
+      "ভাষা ও ব্যাকরণ"
+    ],
+    "correct_answer": "গৌড়ীয় ব্যাকরণ",
+    "explanation": "📖 রাজা রামমোহন রায় ১৮৩৩ সালে 'গৌড়ীয় ব্যাকরণ' রচনা করেন। এটি ইংরেজিতে লেখা তাঁর \"Bengali Grammar in the English Language\" (১৮২৬) এর বাংলা সংস্করণ। এটি বাংলা ভাষায় রচিত প্রথম সার্থক ও পূর্ণাঙ্গ ব্যাকরণ গ্রন্থ হিসেবে স্বীকৃত।<br/>▣ রাজা রামমোহন রায়কে বাংলা গদ্যের জনক বলা হয়। তিনি শুধু সমাজ সংস্কারকই ছিলেন না, বাংলা ভাষার গঠন ও বিকাশেও গুরুত্বপূর্ণ ভূমিকা পালন করেন। প্রথমে তিনি ইংরেজিতে \"Bengali Grammar in the English Language\" (১৮২৬) রচনা করেন। পরবর্তীতে এর উপর ভিত্তি করে বাংলা ভাষায় 'গৌড়ীয় ব্যাকরণ' (১৮৩৩) রচনা করেন। এটিই কোনো বাঙালি কর্তৃক রচিত প্রথম বাংলা ব্যাকরণ। এর আগে ন্যাথানিয়েল ব্রাসি হ্যালহেড ইংরেজিতে একটি বাংলা ব্যাকরণ রচনা করেছিলেন।",
+    "hints": "📖 <i><b>রাজা রামমোহন রায় রচিত বাংলা ভাষায় রচিত প্রথম বাংলা ব্যাকরণ গ্রন্থের নাম- 'গৌড়ীয় ব্যাকরণ'।             </b></i><br/>❏ এর রচয়িতা রাজা রামমোহন রায় এবং এটি প্রকাশিত হয় ১৮৩৩ সালে।<br/>❏ রাজা রামমোহন রায় প্রথম বাঙালি যিনি বাংলা ভাষায় প্রথম বাংলা ব্যাকরণ রচনা করেন।<br/>▣ রাজা রামমোহন রায়:<br/>❏ রাজা রামমোহন রায় রচিত ব্যাকরণ গ্রন্থের নাম = গৌড়ীয় ব্যাকরণ।<br/>❏ রাজা রামমোহন রায় প্রথম বাঙালি যিনি বাংলা ভাষায় প্রথম বাংলা ব্যাকরণ রচনা করেন।<br/>❏ রাজা রামমোহন রায় রচিত বাংলা ভাষায় রচিত প্রথম বাংলা ব্যাকরণ গ্রন্থের নাম- 'গৌড়ীয় ব্যাকরণ'।<br/>❏  রাজা রামমোহন রায় ছিলেন একাধারে সমাজ, শিক্ষা ও ধর্ম সংস্কারক ।<br/>❏ সতীদাহ প্রথা নিষিদ্ধকরণে তিনি জোর প্রচারণা চালান ।<br/>▣ তার রচিত অন্যান্য গ্রন্থ:<br/>❏ বেদান্ত গ্রন্থ,<br/>❏ বেদান্তসার,<br/>❏ পথ্য প্রদান,<br/>❏ গোস্বামীর সহিত বিচার ( সতীদাহ প্রথার অযৌক্তিকতা প্রসঙ্গে)।<br/>▣ আরো উল্লেখযোগ্য কিছু ব্যাকরণ গ্রন্থ রচয়িতা:<br/>❏ <i>'ব্যাকরণ মঞ্জুরী' এর লেখক - ড. মুহম্মদ এনামুল হক।</i><br/>❏ <i>'ব্যাকরণ কৌমুদী' এর লেখক - ঈশ্বরচন্দ্র বিদ্যাসাগর।</i><br/>❏ <i>'বাঙ্গালা ব্যাকরণ' এর রচয়িতা-ড. মুহম্মদ শহীদুল্লাহ। </i><br/>❏ <i>\"ভাষা প্রকাশ বাঙ্গালা ব্যাকরণ \" - গ্রন্থের রচয়িতা ড. সুনীতিকুমার চট্টোপাধ্যায়।</i><br/>❏ <i>১৯০০ সালে হৃষিকেশ শাস্ত্রী রচিত ব্যাকরণ গ্রন্থ: 'বাঙ্গালা ব্যাকরণ'।</i>\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330173,
+    "question": "শুদ্ধ বানান কোনটি?",
+    "options": [
+      "জলচ্ছাস",
+      "জলোচ্ছাস",
+      "জলোচ্ছ্বাস",
+      "জলোচ্চাস"
+    ],
+    "correct_answer": "জলোচ্ছ্বাস",
+    "explanation": "📖 সঠিক বানানটি হলো 'জলোচ্ছ্বাস'। এটি একটি সন্ধিজাত শব্দ। এর সন্ধি বিচ্ছেদ হলো: জল + উচ্ছ্বাস। এখানে 'অ'-কার এবং 'উ'-কার মিলে 'ও'-কার হয়েছে এবং তালব্য 'শ'-এর পূর্বে 'চ'-এর আগম ঘটেছে।<br/>▣ 'উচ্ছ্বাস' শব্দটি সংস্কৃত 'উৎ + √ছ্বাস্' (ফেটে পড়া) থেকে এসেছে। বাংলায় এটি 'বিস্ফোরণ', 'উত্থান' অর্থে ব্যবহৃত হয়। 'জলোচ্ছ্বাস' বানানে 'ছ্ব' যুক্তবর্ণটি তালব্য-মূর্ধন্য উচ্চারণের প্রতীক। ভুল বানান 'জলোচ্ছাস' বা 'জলোচ্চাস' ব্যবহারের কারণ হলো বাংলায় 'ছ্ব' উচ্চারণের অভাব।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330174,
+    "question": "'মর্সিয়া' শব্দের উৎপত্তি কোন ভাষা থেকে?",
+    "options": [
+      "আরবি",
+      "উর্দু",
+      "ফারসি",
+      "তুর্কি"
+    ],
+    "correct_answer": "আরবি",
+    "explanation": "📖 'মর্সিয়া' একটি আরবি শব্দ, যার অর্থ শোককাব্য বা শোকগীতি। সাধারণত কারবালার প্রান্তরে ইমাম হোসেন (রাঃ) এবং তাঁর সঙ্গীদের করুণ মৃত্যুকে কেন্দ্র করে রচিত শোকগাঁথাকে মর্সিয়া সাহিত্য বলা হয়। মীর মশাররফ হোসেনের 'বিষাদ সিন্ধু' একটি বিখ্যাত মর্সিয়া সাহিত্য।<br/>▣ আরবি 'মারসিয়া' (مرثیة) শব্দটি 'রাসিয়া' (رثی) ধাতু থেকে এসেছে, যার অর্থ 'শোক করা'। ভারতীয় উপমহাদেশে এটি উর্দু ও ফারসি সাহিত্যের মাধ্যমে প্রসার লাভ করে। বাংলায় এটি মূলত মুসলিম সমাজের শোকসংগীত হিসেবে প্রচলিত। 'বিষাদ সিন্ধু' (১৮৮৫) ছাড়াও আব্দুল হাকিমের 'মর্সিয়া-ই-মুহাররম' উল্লেখযোগ্য।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330175,
+    "question": "'তামার বিষ' বাগধারাটির অর্থ -",
+    "options": [
+      "ভীষণ বিষাক্ত",
+      "নির্দয়",
+      "অর্থের কুপ্রভাব",
+      "তামা থেকে উৎপন্ন বিষ"
+    ],
+    "correct_answer": "অর্থের কুপ্রভাব",
+    "explanation": "📖 'তামার বিষ' একটি প্রচলিত বাংলা বাগধারা, যার অর্থ অর্থের কুপ্রভাব বা টাকার গরম। টাকা বা সম্পদ মানুষের উপর যে নেতিবাচক প্রভাব ফেলে, যেমন—অহংকার, দম্ভ বা নৈতিক অধঃপতন, তা বোঝাতে এই বাগধারাটি ব্যবহৃত হয়।",
+    "hints": "📖 <b><i>• 'তামার বিষ' বাগধারাটির অর্থ- 'অর্থের কুপ্রভাব' </i></b><br/>বাক্য গঠন: ছাত্রজীবনে তামার বিষে আক্রান্ত হলে লেখাপড়া হয়না। <br/>❏ <b>কিছু গুরুত্বপূর্ণ বাগধারা:</b><br/>❏ <i>'কালে ভদ্রে' বাগধারাটির অর্থ - কদাচিৎ। </i><br/>❏ <i>‘ডাকাবুকো’ বাগধারাটির অর্থ - নির্ভীক।</i><br/>❏ <i>‘কূপমুন্ডক’ বাগধারার অর্থ - সীমাবদ্ধ জ্ঞান।</i><br/>❏ <i>‘কানকাটা’  বাগধারাটির অর্থ - বেহায়া।</i><br/>❏ <i>ইঁদুর কপালে বাগধারাটির অর্থ - মন্দভাগ্য।</i><br/>❏ <i>অদৃষ্টের পরিহাস বাগধারাটির অর্থ - ভাগ্যের নিষ্ঠুরতা।</i><br/>❏ <i>‘তামার বিষ’ বাগধারাটির অর্থ - অর্থের কু-প্রভাব।</i><br/>❏ <i>‘ভূষন্ডির কাক’ - বিচক্ষণ ব্যক্তি/ দীর্ঘজীবী।</i>\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330176,
+    "question": "'কাদম্বিনী মরিয়া প্রমাণ করিল সে মরে নাই।'- এ বাক্যটি যে গল্পে রয়েছে তারা নাম -",
+    "options": [
+      "পোস্টমাস্টার",
+      "মেঘ ও রৌদ্র",
+      "জীবিত ও মৃত",
+      "মধ্যবর্তিনী"
+    ],
+    "correct_answer": "জীবিত ও মৃত",
+    "explanation": "📖 এটি রবীন্দ্রনাথ ঠাকুরের 'জীবিত ও মৃত' ছোটগল্পের শেষ এবং বিখ্যাত উক্তি। গল্পে কাদম্বিনী নামের এক বিধবাকে মৃত ভেবে দাহ করতে নিয়ে যাওয়া হয়, কিন্তু শ্মশানে সে জ্ঞান ফিরে পায়। কিন্তু সমাজে ফিরে এসে সে আবিষ্কার করে যে, জীবিত ও সে সকলের কাছে 'মৃত'। এই জীবন্মৃত অবস্থা থেকে মুক্তি পেতে সে অবশেষে আত্মহত্যা করে, যা দিয়ে সে প্রমাণ করে যে সে আগে জীবিত ছিল।<br/>▣ এই গল্পটি রবীন্দ্রনাথের 'গল্পগুচ্ছ' (১৯১২) সংকলনে প্রকাশিত। কাদম্বিনীর চরিত্রটি ঊনবিংশ শতাব্দীর বাঙালি সমাজে নারীর অবস্থানের এক প্রতীক। গল্পের শেষ বাক্যটি বাংলা সাহিত্যের অন্যতম আলোচিত উক্তি, যা নারীর অস্তিত্ব ও সমাজের প্রতি তীব্র প্রশ্ন তুলে ধরে।",
+    "hints": "📖 <b>'জীবিত ও মৃত' ছোটগল্প:</b><br/>❏ 'জীবিত ও মৃত' ১৮৯২ সালে রবীন্দ্রনাথ ঠাকুর কর্তৃক রচিত একটি ছোটগল্প।<br/>❏ গল্পটি রবীন্দ্রনাথের গল্পগুচ্ছে অন্তর্ভুক্ত আছে।<br/>❏ গল্পটি সাহিত্যের দুটি অনন্য রূপকে একত্রিত করেছে: অতিপ্রাকৃত গল্প এবং ব্যঙ্গাত্মক উপমা । তবে এটি কোনো নিখুঁত অতিপ্রাকৃত গল্প নয়।<br/>❏ গল্পটির প্রধান চরিত্র কাদম্বিনী। কাদম্বিনীর অস্তিত্ব অতিপ্রাকৃত। এতে জীবন এবং মৃত্যুর মধ্যে আটকে থাকার ধারণা চিত্রিত হয়েছে।সংক্ষেপে, এটি মৃত্যুর রহস্য নিয়ে কাজ করে।<br/>❏ <i><b>'কাদম্বিনী মরিয়া প্রমাণ করিল, সে মরে নাই' - উক্তিটি রবীন্দ্রনাথ ঠাকুরের 'জীবিত ও মৃত' গল্প থেকে নেয়া।</b></i><br/><b>রবীন্দ্রনাথ ঠাকুর রচিত উল্লেখযোগ্য ছোটগল্প:</b><br/>❏ <i>দেনাপাওনা,</i><br/>❏ <i>রামকানাইয়ের নির্বুদ্ধিতা,</i><br/>❏ <i>যজ্ঞেশ্বর যজ্ঞ,</i><br/>❏ <i>অনধিকার প্রবেশ,</i><br/>❏ <i>ক্ষুধিত পাষাণ,</i><br/>❏ <i>কঙ্কাল,</i><br/>❏ <i>নিশীথে ও</i><br/>❏ <i>মণিহারা।</i>\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330177,
+    "question": "বাংলা বর্ণমালায় মাত্রাহীন বর্ণ কয়টি?",
+    "options": [
+      "আটটি",
+      "নয়টি",
+      "সাতটি",
+      "দশটি"
+    ],
+    "correct_answer": "দশটি",
+    "explanation": "📖 বাংলা বর্ণমালায় মোট ৫০টি বর্ণের মধ্যে মাত্রাহীন বর্ণ ১০টি। এগুলো হলো: এ, ঐ, ও, ঔ, ঙ, ঞ, ৎ, ং, ঃ, ঁ। এছাড়া অর্ধমাত্রার বর্ণ ৮টি (ঋ, খ, গ, ণ, থ, ধ, প, শ) এবং পূর্ণমাত্রার বর্ণ ৩২টি।<br/>▣ মাত্রাহীন বর্ণগুলো বাংলা ব্যাকরণে 'বর্গীয় ব্যঞ্জন' এবং 'অবর্গীয় ব্যঞ্জন' হিসেবে চিহ্নিত। এদের মধ্যে 'ঙ' ও 'ঞ' বর্গীয় ব্যঞ্জন, কিন্তু মাত্রাহীন। 'এ', 'ঐ', 'ও', 'ঔ' স্বরবর্ণ হলেও মাত্রাহীন। 'ং' (অনুস্বার), 'ঃ' (বিসর্গ), 'ঁ' (চন্দ্রবিন্দু) এবং 'ৎ' (হসন্ত) বিশেষ চিহ্ন হিসেবে মাত্রাহীন। (সূত্র: বাংলা একাডেমি)<br/>▣ বাংলা লিপিতে বর্ণের উপর যে অনুভূমিক রেখা টানা হয়, তাকে 'মাত্রা' বলা হয়। এই মাত্রার উপর ভিত্তি করে বর্ণগুলোকে তিন ভাগে ভাগ করা হয়। যে বর্ণগুলোর উপর পূর্ণমাত্রা থাকে, সেগুলো পূর্ণমাত্রার বর্ণ (৩২টি)। যেগুলোর উপর মাত্রা অর্ধেক থাকে, সেগুলো অর্ধমাত্রার বর্ণ (৮টি)। আর যে বর্ণগুলোর উপর কোনো মাত্রাই থাকে না, সেগুলো মাত্রাহীন বর্ণ (১০টি)। মাত্রাহীন এই দশটি বর্ণ হলো: এ, ঐ, ও, ঔ (স্বরবর্ণ) এবং ঙ, ঞ, ৎ, ং, ঃ, ঁ (ব্যঞ্জনবর্ণ)।",
+    "hints": "📖 <i><b>বাংলা বর্ণমালায় মাত্রাহীন বর্ণ সংখ্যা- ১০টি।</b></i><br/>❏ <b>মাত্রাভেদে বর্ণমালা:</b><br/>❏ বাংলা বর্ণমালায় পূর্ণমাত্রা বর্ণের সংখ্যা ৩২টি।<br/>❏ বাংলা বর্ণমালায় মাত্রাহীন বর্ণ সংখ্যা ১০টি।<br/>❏ বাংলা বর্ণমালায় অর্ধমাত্রার বর্ণ হচ্ছে ৮টি।<br/>❏ <b>মাত্রাভেদে ব্যঞ্জনবর্ণ:</b><br/>❏ ব্যঞ্জনবর্ণে পূর্ণমাত্রার বর্ণের সংখ্যা ২৬টি।<br/>❏ ব্যঞ্জনবর্ণে অর্ধমাত্রার বর্ণ সংখ্যা ৭টি।<br/>❏ ব্যঞ্জনবর্ণে মাত্রাহীন বর্ণের সংখ্যা ৬টি।<br/>❏ <b>মাত্রাভেদে স্বরবর্ণ:</b><br/>❏ স্বরবর্ণে পূর্ণমাত্রার বর্ণের সংখ্যা ৬টি।<br/>❏ স্বরবর্ণে অর্ধমাত্রার বর্ণ সংখ্যা ১টি।<br/>❏ স্বরবর্ণে মাত্রাহীন বর্ণ সংখ্যা ৪টি।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  },
+  {
+    "id": 330178,
+    "question": "'যেখানে আসিয়া এক হয়ে গেছে সব বাধা-ব্যবধান' চরণটি কোন কবিতার?",
+    "options": [
+      "বিদ্রোহী",
+      "কুলিমুজুর",
+      "সাম্যবাদী",
+      "প্রলয়-শিখা"
+    ],
+    "correct_answer": "সাম্যবাদী",
+    "explanation": "📖 চরণটি কাজী নজরুল ইসলামের 'সাম্যবাদী' কবিতার অংশ। এই কবিতায় কবি ধর্ম-বর্ণ-জাতি নির্বিশেষে সকল মানুষের ভেতরের আত্মাকে এক ও অভিন্ন হিসেবে দেখেছেন। তাঁর কাছে মানুষের হৃদয়ই হলো সর্বশ্রেষ্ঠ তীর্থক্ষেত্র, যেখানে সকল ভেদাভেদ এবং বাধা-ব্যবধান বিলীন হয়ে যায়।<br/>▣ কবিতাটি নজরুলের 'অগ্নিবীণা' (১৯২২) কাব্যগ্রন্থে সংকলিত। 'সাম্যবাদী' কবিতায় তিনি বৈষম্যহীন সমাজ প্রতিষ্ঠার স্বপ্ন ব্যক্ত করেছেন। উল্লেখিত চরণটি কবিতার শেষ পংক্তির অংশ, যেখানে তিনি বলেন: \"তোমার হৃদয় মন্দিরের পূজারী সবাই / যেখানে আসিয়া এক হয়ে গেছে সব বাধা-ব্যবধান।\" এই কবিতা বাংলা সাহিত্যে সাম্যবাদী চেতনার এক অনন্য নিদর্শন।<br/>▣ কাজী নজরুল ইসলামের 'সাম্যবাদী' কবিতাটি তাঁর সাম্যবাদী কাব্যগ্রন্থের নাম কবিতা। এই কবিতায় কবি মানবধর্মের জয়গান গেয়েছেন। তিনি দেখিয়েছেন যে, মানুষের আসল পরিচয় তার ধর্ম, বর্ণ বা জাতিতে নয়, বরং তার মনুষ্যত্বে। মানুষের হৃদয়কে তিনি মসজিদ, মন্দির, গির্জার চেয়েও পবিত্র স্থান হিসেবে উল্লেখ করেছেন, কারণ এখানেই স্রষ্টার বাস। উল্লেখিত চরণটির মাধ্যমে কবি বোঝাতে চেয়েছেন যে, এই মানব হৃদয়েই সকল প্রকার সামাজিক, ধর্মীয় ও জাতিগত ভেদাভেদ এবং কৃত্রিম বাধাগুলো বিলীন হয়ে একাকার হয়ে গেছে।",
+    "hints": "📖 <i><b>'যেখানে আসিয়া এক হয়ে গেছে সব বাধা ব্যবধান'- চরণটি কাজী নজরুল ইসলামের 'সাম্যবাদী' কবিতার অন্তর্গত।</b></i><br/>▣ <b>'সাম্যবাদী' কাব্যগ্রন্থ ও 'সাম্যবাদী' কবিতা পরিচিত:</b><br/>❏ সাম্যবাদী' কাজী নজরুল ইসলাম রচিত একটি কাব্যগ্রন্থ।<br/>❏ <i><b>সাম্যবাদী' কাজী নজরুল ইসলামের 'সাম্যবাদী' কাব্যগ্রন্থের নামকবিতা।</b></i><br/>❏ নজরুলের সাম্যবাদী চেতনার বহিঃপ্রকাশ ঘটেছে- সাম্যবাদী, ভাঙার গান, সর্বহারা গ্রন্থগুলোেতে।<br/>❏ 'সাম্যবাদী' কাব্যগ্রন্থটি ১৯২৫ সালে প্রকাশিত হয়।<br/>❏ সবগুলোতেই মানুষের সমতা নিয়েই আলোচনা করা হয়েছে।<br/>❏ কাব্যগ্রন্থটিতে মোট ১১টি কবিতা রয়েছে।<br/><i>সাম্যবাদী- কবিতা,</i><br/><i>কাজী নজরুল ইসলাম</i><br/><i>গাহি সাম্যের গান-</i><br/><i>যেখানে আসিয়া এক হয়ে গেছে সব বাধা-ব্যবধান,</i><br/><i>যেখানে মিশেছে হিন্দু-বৌদ্ধ-মুসলিম ক্রীশ্চান।</i><br/><i>গাহি সাম্যের গান।</i><br/><i>কে তুমি?- পার্সি? জৈন? ইহুদি? সাঁওতাল, ভীল, গারো?</i><br/><i>কনফুসিয়াস্? চার্বাক-চেলা? বলে যাও, বল আরও! (সংক্ষেপিত)<br/></i><br/>উল্লেখ্য,<br/>❏ বিদ্রোহী, প্রলয়-শিখা, ধূমকেতু কাজী নজরুল ইসলামের বিখ্যাত 'অগ্নিবীণা' কাব্যগ্রন্থের কবিতা।<br/>❏ কাজী নজরুল ইসলামের 'কুলি-মজুর' কবিতাটি- 'সাম্যবাদী' কাব্যগ্রন্থে সংকলিত হয়েছে।\r\n",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "শিক্ষা অফিসার",
+    "sub_category": "উপজেলা/থানা শিক্ষা অফিসার",
+    "exam": "৫০৬২@প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (ATEO) ➺ সহকারী থানা শিক্ষা অফিসার ☞ 12.9.25"
+  }
+]

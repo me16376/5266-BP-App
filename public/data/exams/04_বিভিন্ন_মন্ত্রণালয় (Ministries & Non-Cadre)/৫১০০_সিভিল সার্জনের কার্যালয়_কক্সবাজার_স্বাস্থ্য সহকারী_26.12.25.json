@@ -1,0 +1,1362 @@
+[
+  {
+    "id": 334284,
+    "question": "একজন দোকানদার ১২.৫% ক্ষতিতে একটি দ্রব্য বিক্রি করেন। যে মূল্য দিয়ে তিনি দ্রব্যটি বিক্রি করলেন তার চাইতে ৩০ টাকা বেশি মূল্যে বিক্রি করলে ক্রয়মূল্যের উপর ২৫% লাভ হতো। দ্রব্যটির ক্রয়মূল্য কত?",
+    "options": [
+      "৮৫ টাকা",
+      "৮০ টাকা",
+      "৭৫ টাকা",
+      "৯০ টাকা"
+    ],
+    "correct_answer": "৮০ টাকা",
+    "explanation": "📖 ধরি, ক্রয়মূল্য ১০০%<br/>১২.৫% ক্ষতিতে বিক্রয়মূল্য = ৮৭.৫%<br/>২৫% লাভে বিক্রয়মূল্য = ১২৫%<br/>বিক্রয়মূল্যের পার্থক্য = ১২৫% - ৮৭.৫% = ৩৭.৫%<br/>প্রশ্নমতে,<br/>৩৭.৫% = ৩০ টাকা<br/>১% = ৩০ / ৩৭.৫ টাকা<br/>১০০% = (৩০ × ১০০) / ৩৭.৫ = ৮০ টাকা।<br/> ⇢ <br/>⛳ শর্টকাট পদ্ধতি:<br/>ক্রয়মূল্য = (বেশি বিক্রয়মূল্য × ১০০) / (ক্ষতির হার + লাভের হার)<br/>= (৩০ × ১০০) / (১২.৫ + ২৫)<br/>= ৩০০০ / ৩৭.৫<br/>= ৮০ টাকা।<br/> ⇢ <br/>⛳ ধরি, দ্রব্যটির ক্রয়মূল্য = CP<br/>১২.৫% ক্ষতিতে বিক্রয়মূল্য = CP - ১২.৫% of CP = (৮৭.৫/১০০) CP = ০.৮৭৫CP<br/>২৫% লাভে বিক্রয়মূল্য = CP + ২৫% of CP = (১২৫/১০০) CP = ১.২৫CP<br/>প্রশ্ন অনুযায়ী,<br/>১.২৫CP - ০.৮৭৫CP = ৩০<br/>বা, ০.৩৭৫CP = ৩০<br/>বা, CP = ৩০ / ০.৩৭৫<br/>বা, CP = ৩০ / (৩৭৫/১০০০)<br/>বা, CP = (৩০ × ১০০০) / ৩৭৫<br/>বা, CP = ৩০০০০ / ৩৭৫<br/>বা, CP = ৮০<br/>সুতরাং, দ্রব্যটির ক্রয়মূল্য ৮০ টাকা।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334285,
+    "question": "একটি ঘনকের সম্পূর্ণ পৃষ্ঠের ক্ষেত্রফল 96 বর্গমিটার হলে, এর কর্ণের দৈর্ঘ্য নিচের কোনটি?",
+    "options": [
+      "6.928 মিটার (প্রায়)",
+      "16.938 মিটার (প্রায়)",
+      "48.928 মিটার (প্রায়)",
+      "150 মিটার (প্রায়)"
+    ],
+    "correct_answer": "6.928 মিটার (প্রায়)",
+    "explanation": "📖 ঘনকের পৃষ্ঠের ক্ষেত্রফল = 6a²<br/>প্রশ্নমতে, 6a² = 96<br/>=> a² = 16<br/>=> a = 4<br/>ঘনকের কর্ণের দৈর্ঘ্য = a√3<br/>= 4√3<br/>= 4 × 1.732<br/>= 6.928 মিটার (প্রায়)<br/> ⇢ <br/>⛳ ধরি, ঘনকের এক বাহুর দৈর্ঘ্য = a<br/>শর্তমতে, ৬a² = ৯৬<br/>=> a² = ১৬<br/>=> a = ৪<br/>কর্ণের দৈর্ঘ্য = √3 × বাহু<br/>= √3 × ৪<br/>= ১.৭৩২ × ৪<br/>= ৬.৯২৮ মিটার।<br/> ⇢ <br/>⛳ ঘনকের পৃষ্ঠতলের ক্ষেত্রফল = 6a² (যেখানে a = এক বাহুর দৈর্ঘ্য)<br/>প্রশ্নে, 6a² = 96<br/>বা, a² = 16<br/>বা, a = 4<br/>ঘনকের কর্ণ (d) = a√3<br/>= 4 × 1.732 (প্রায়)<br/>= 6.928 মিটার (প্রায়)।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334286,
+    "question": "\\({x}^{{3}}−{6}{x}^{{2}}+{11}{x}−{6}\\)</u>&nbsp;এর উৎপাদকে বিশ্লেষণ কোনটি?",
+    "options": [
+      "(x + 1)(x - 2)(x - 3)",
+      "(x - 1)(x - 2)(x + 3)",
+      "(x - 1)(x + 2)(x - 3)",
+      "(x - 1)(x - 2)(x - 3)"
+    ],
+    "correct_answer": "(x - 1)(x - 2)(x - 3)",
+    "explanation": "📖 রাশিটি হলো (x-1)(x-2)(x-3) এর গুণফল।<br/>গুণ করলে পাই:<br/>(x-1)(x² - 5x + 6)<br/>= x³ - 5x² + 6x - x² + 5x - 6<br/>= x³ - 6x² + 11x - 6<br/>তাই সঠিক উৎপাদক: (x - 1)(x - 2)(x - 3)<br/>⇢ <br/>⛳ ফাংশন মেথড ব্যবহার করে:<br/>f(x) = x³ - 6x² + 11x - 6<br/>x = 1 বসালে, f(1) = 1 - 6 + 11 - 6 = 0; তাই (x-1) একটি উৎপাদক।<br/>x = 2 বসালে, f(2) = 8 - 24 + 22 - 6 = 0; তাই (x-2) একটি উৎপাদক।<br/>x = 3 বসালে, f(3) = 27 - 54 + 33 - 6 = 0; তাই (x-3) একটি উৎপাদক।<br/>সুতরাং নির্ণেয় উৎপাদক: (x-1)(x-2)(x-3)<br/>⇢ <br/>⛳ প্রদত্ত রাশিটি হলো x³ - 6x² + 11x - 6<br/>x = 1 বসালে,<br/>1 - 6 + 11 - 6 = 0<br/>তাই, (x - 1) রাশিটির একটি উৎপাদক।<br/>এখন, x³ - 6x² + 11x - 6 কে (x - 1) দিয়ে ভাগ করলে ভাগফল পাওয়া যায় = x² - 5x + 6<br/>আবার, x² - 5x + 6 = x² - 3x - 2x + 6<br/>= x(x - 3) - 2(x - 3)<br/>= (x - 2)(x - 3)<br/>সুতরাং, সম্পূর্ণ উৎপাদক = (x - 1)(x - 2)(x - 3)।<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334287,
+    "question": "A = {1, 5, 6, 7, 8} এবং B = {5, 7, 8} হলে A∩ B = কত?",
+    "options": [
+      "{1,6,7}",
+      "{5,7,8}",
+      "{7,6,8}",
+      "{4,5,6}"
+    ],
+    "correct_answer": "{5,7,8}",
+    "explanation": "📖 A ∩ B মানে হলো সেট A এবং সেট B এর সাধারণ (Common) উপাদানগুলো।<br/>A = {1, 5, 6, 7, 8}<br/>B = {5, 7, 8}<br/>উভয় সেটে আছে: 5, 7, 8<br/>সুতরাং, A ∩ B = {5, 7, 8}<br/> ⇢ <br/>⛳ ইন্টারসেকশন (∩) বা ছেদ সেট নির্ণয়ের ক্ষেত্রে কেবল সেই উপাদানগুলো নিতে হবে যা উভয় সেটের মধ্যেই বিদ্যমান।<br/>A সেটে আছে: ১, ৫, ৬, ৭, ৮<br/>B সেটে আছে: ৫, ৭, ৮<br/>উভয় স্থানে কমন আছে: ৫, ৭, ৮<br/>তাই, A ∩ B = {৫, ৭, ৮}<br/> ⇢ <br/>⛳ A∩B বা A ও B-এর ছেদ বা সাধারণ উপাদান বের করতে হবে।<br/>A = {1, 5, 6, 7, 8}<br/>B = {5, 7, 8}<br/>উভয় সেটে অর্থাৎ A ও B উভয়ের মধ্যে যে উপাদানগুলো আছে সেগুলো হলো ৫, ৭, ৮।<br/>তাই, A∩B = {5, 7, 8}।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334288,
+    "question": "sinθ= 5/13 হলে tan θ এর মান কত?",
+    "options": [
+      "3/4",
+      "5/12",
+      "12/13",
+      "5/13"
+    ],
+    "correct_answer": "5/12",
+    "explanation": "📖 sinθ = লম্ব / অতিভুজ = 5 / 13<br/>ভূমি = √(অতিভুজ² - লম্ব²) = √(13² - 5²) = √(169 - 25) = √144 = 12<br/>tanθ = লম্ব / ভূমি = 5 / 12<br/> ⇢ <br/>⛳ পিথাগোরাসের উপপাদ্য অনুযায়ী সমকোণী ত্রিভুজের বাহুগুলোর অনুপাত (Triplets) হলো ৫, ১২, ১৩।<br/>এখানে, লম্ব = ৫, অতিভুজ = ১৩।<br/>সুতরাং, ভূমি = ১২।<br/>আমরা জানি, tanθ = লম্ব/ভূমি = ৫/১২।<br/> ⇢ <br/>⛳ আমরা জানি,<br/>sinθ = লব / অতিভুজ<br/>এখানে, অতিভুজ = ১৩, লব = ৫<br/>পিথাগোরাসের সূত্রানুসারে,<br/>ভূমি = √(অতিভুজ² - লব²)<br/>= √(১৩² - ৫²)<br/>= √(১৬৯ - ২৫)<br/>= √১৪৪<br/>= ১২<br/>অতএব, tanθ = লব / ভূমি = ৫/১২।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334289,
+    "question": "r ব্যাসার্ধ বিশিষ্ট বৃত্তের পরিধি কোনটি?",
+    "options": [
+      "\\({4}π{r}^{{2}}\\)",
+      "\\(π{r}^{{2}}\\)",
+      "\\({2}π{r}^{{2}}\\)",
+      "2πr"
+    ],
+    "correct_answer": "2πr",
+    "explanation": "📖 বৃত্তের পরিধির সঠিক সূত্র হলো 2πr।<br/>বৃত্তের ক্ষেত্রফলের সূত্র হলো πr²।<br/>⇢ <br/>⛳ বৃত্তের পরিধি (Circumference): 2πr<br/>বৃত্তের ক্ষেত্রফল (Area): πr²<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334290,
+    "question": "কোনটি সামান্তরিকের ক্ষেত্রফল ?",
+    "options": [
+      "1/2 (ভূমি × উচ্চতা)",
+      "দৈর্ঘ্য × প্রস্থ",
+      "(দৈর্ঘ্য + প্রস্থ)",
+      "ভূমি × উচ্চতা"
+    ],
+    "correct_answer": "ভূমি × উচ্চতা",
+    "explanation": "📖 সামান্তরিকের ক্ষেত্রফলের সূত্র হলো: ভূমি × উচ্চতা।<br/>(ত্রিভুজের ক্ষেত্রফল = ১/২ × ভূমি × উচ্চতা)<br/> ⇢ <br/>⛳ সামান্তরিকের ক্ষেত্রফল = ভূমি × উচ্চতা (Base × Height)।<br/>আয়তক্ষেত্রের ক্ষেত্রফল = দৈর্ঘ্য × প্রস্থ।<br/>ত্রিভুজের ক্ষেত্রফল = ১/২ × ভূমি × উচ্চতা।<br/>বর্গক্ষেত্রের ক্ষেত্রফল = (বাহু)²।<br/> ⇢ <br/>⛳ সামান্তরিকের ক্ষেত্রফল = ভূমি × উচ্চতা।<br/>এটি আয়তের ক্ষেত্রফলের (দৈর্ঘ্য × প্রস্থ) মতোই হয়।<br/>যদিও ১/২(ভূমি × উচ্চতা) হলো ত্রিভুজের ক্ষেত্রফল।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334291,
+    "question": "\\({x}^{{−{3}}}−{0.001}={0}\\)</u> হলে&nbsp;\\({x}^{{2}}\\)</u> এর মান কত?",
+    "options": [
+      "1/100",
+      "100",
+      "1/10",
+      "10"
+    ],
+    "correct_answer": "100",
+    "explanation": "📖 x⁻³ - 0.001 = 0<br/>=&gt; 1/x³ = 0.001<br/>=&gt; 1/x³ = 1/1000<br/>=&gt; x³ = 1000<br/>=&gt; x³ = 10³<br/>=&gt; x = 10<br/>সুতরাং, x² = 10² = 100<br/>⇢ <br/>⛳ x⁻³ = ০.০০১<br/>=&gt; ১/x³ = ১/১০০০<br/>=&gt; x³ = ১০০০<br/>=&gt; x = ১০<br/>অতএব, x² = (১০)² = ১০০<br/>⇢ <br/>⛳ x⁻³ - 0.001 = 0<br/>বা, x⁻³ = 0.001<br/>বা, 1/x³ = 1/1000<br/>বা, x³ = 1000<br/>বা, x³ = 10³<br/>বা, x = 10<br/>অতএব, x² = 10² = 100।<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334292,
+    "question": "\\({{\\log}_{{2}}{16}}\\)</u>&nbsp;এর মান কোনটি?",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "1/4"
+    ],
+    "correct_answer": "4",
+    "explanation": "📖 log₂ 16<br/>= log₂ (2⁴)<br/>= 4 log₂ 2 [যেহেতু logₐ (mⁿ) = n logₐ m]<br/>= 4 × 1 [যেহেতু logₐ a = 1]<br/>= 4<br/>⇢ <br/>⛳ আমরা জানি, ১৬ = ২ × ২ × ২ × ২ = ২⁴<br/>সুতরাং,<br/>log₂ ১৬<br/>= log₂ (২⁴)<br/>= ৪ log₂ ২<br/>= ৪ × ১<br/>= ৪<br/>",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334293,
+    "question": "৮, ১১, ১৭, ২৯, ৫৩ …………. ধারাটির পরবর্তী সংখ্যা কত?",
+    "options": [
+      "১০১",
+      "১০৫",
+      "১৫০",
+      "৭৫"
+    ],
+    "correct_answer": "১০১",
+    "explanation": "📖 পার্থক্যগুলো লক্ষ্য করি:<br/>১১ - ৮ = ৩<br/>১৭ - ১১ = ৬ (৩ × ২)<br/>২৯ - ১৭ = ১২ (৬ × ২)<br/>৫৩ - ২৯ = ২৪ (১২ × ২)<br/>পরবর্তী পার্থক্য হবে: ২৪ × ২ = ৪৮<br/>সুতরাং পরবর্তী সংখ্যা: ৫৩ + ৪৮ = ১০১<br/> ⇢ <br/>⛳ ধারাটির প্যাটার্ন হলো পূর্ববর্তী পদের সাথে পার্থক্যের দ্বিগুণ যোগ করা।<br/>১ম পার্থক্য: ৩<br/>২য় পার্থক্য: ৩ × ২ = ৬<br/>৩য় পার্থক্য: ৬ × ২ = ১২<br/>৪র্থ পার্থক্য: ১২ × ২ = ২৪<br/>৫ম পার্থক্য: ২৪ × ২ = ৪৮<br/>পরবর্তী সংখ্যা = ৫৩ + ৪৮ = ১০১<br/> ⇢ <br/>⛳ ধারাটির পার্থক্যগুলো দেখা যাক—<br/>১১ - ৮ = ৩<br/>১৭ - ১১ = ৬<br/>২৯ - ১৭ = ১২<br/>৫৩ - ২৯ = ২৪<br/>এখানে, পার্থক্যগুলো যথাক্রমে ৩, ৬, ১২, ২৪ অর্থাৎ পূর্ববর্তী পার্থক্যের দ্বিগুণ।<br/>তাই পরবর্তী পার্থক্য হবে ২৪ × ২ = ৪৮।<br/>তাই পরবর্তী সংখ্যা = ৫৩ + ৪৮ = ১০১।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334294,
+    "question": "একটি সমবাহু ত্রিভুজের একটি বাহু 16 মিটার। ত্রিভুজটির ক্ষেত্রফল কত?",
+    "options": [
+      "64 বর্গমিটার",
+      "64√3 বর্গমিটার",
+      "16 বর্গমিটার",
+      "32 বর্গমিটার"
+    ],
+    "correct_answer": "64√3 বর্গমিটার",
+    "explanation": "📖 সমবাহু ত্রিভুজের ক্ষেত্রফল = (√3 / 4) × a²<br/>এখানে বাহু, a = 16<br/>ক্ষেত্রফল = (√3 / 4) × 16²<br/>= (√3 / 4) × 256<br/>= 64√3 বর্গমিটার।<br/> ⇢ <br/>⛳ সূত্র: সমবাহু ত্রিভুজের ক্ষেত্রফল = (√3/4) × (বাহু)²<br/>দেওয়া আছে, বাহু = ১৬ মি.<br/>ক্ষেত্রফল = (√3/4) × ১৬ × ১৬<br/>= √3 × ৪ × ১৬<br/>= ৬৪√3 বর্গমিটার।<br/> ⇢ <br/>⛳ সমবাহু ত্রিভুজের বাহু, a = ১৬ মিটার<br/>আমরা জানি, সমবাহু ত্রিভুজের ক্ষেত্রফল = (√৩/৪) × a²<br/>= (√৩/৪) × (১৬)²<br/>= (√৩/৪) × ২৫৬<br/>= ৬৪√3 বর্গমিটার।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334295,
+    "question": "১৫.৬ এর ৮% = কত ?",
+    "options": [
+      "০.১২৪৮",
+      "১.২৪৮",
+      "১২.৪৮",
+      "১২৪"
+    ],
+    "correct_answer": "১.২৪৮",
+    "explanation": "📖 ১৫.৬ এর ৮%<br/>= (১৫.৬ × ৮) / ১০০<br/>= ১২৪.৮ / ১০০<br/>= ১.২৪৮<br/> ⇢ <br/>⛳ ১৫.৬ × ৮%<br/>= ১৫.৬ × ০.০৮<br/>= ১.২৪৮<br/>(সহজ গুণ: ১৫৬ × ৮ = ১২৪৮। মোট দশমিক স্থান ১+২=৩ ঘর। তাই ১.২৪৮)<br/> ⇢ <br/>⛳ ১৫.৬ এর ৮%<br/>= (১৫.৬ × ৮) / ১০০<br/>= ১২৪.৮ / ১০০<br/>= ১.২৪৮",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334296,
+    "question": "কোনো বছরে একটি গ্রামের লোকসংখ্যা ১৫% বাড়ে । বছরের শেষে লোকসংখ্যা ৬৯০০ হলে বছরের শুরুতে লোকসংখ্যা কত ছিল?",
+    "options": [
+      "৫৭০০",
+      "৫৫০০",
+      "৬৩০০",
+      "৬০০০"
+    ],
+    "correct_answer": "৬০০০",
+    "explanation": "📖 ১৫% বৃদ্ধিতে,<br/>বছরের শেষে ১১৫ জন হলে শুরুতে ছিল ১০০ জন<br/>বছরের শেষে ১ জন হলে শুরুতে ছিল ১০০/১১৫ জন<br/>বছরের শেষে ৬৯০০ জন হলে শুরুতে ছিল (১০০ × ৬৯০০) / ১১৫<br/>= ৬০০০ জন।<br/> ⇢ <br/>⛳ ধরি, বছরের শুরুতে লোকসংখ্যা ছিল x জন।<br/>১৫% বৃদ্ধিতে বছরের শেষে লোকসংখ্যা = x এর ১১৫%<br/>প্রশ্নমতে,<br/>x × (১১৫/১০০) = ৬৯০০<br/>=> x = (৬৯০০ × ১০০) / ১১৫<br/>=> x = ৬০০০<br/>সুতরাং, শুরুতে লোকসংখ্যা ছিল ৬০০০ জন।<br/> ⇢ <br/>⛳ ধরি, বছরের শুরুতে লোকসংখ্যা ছিল = x<br/>বৃদ্ধির হার = ১৫%<br/>বছরের শেষে লোকসংখ্যা = x + ১৫% of x<br/>= x + ০.১৫x<br/>= ১.১৫x<br/>প্রশ্ন অনুযায়ী,<br/>১.১৫x = ৬৯০০<br/>বা, x = ৬৯০০ / ১.১৫<br/>বা, x = ৬০০০<br/>সুতরাং, শুরুতে লোকসংখ্যা ছিল ৬০০০।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334297,
+    "question": "একটি ভগ্নাংশের লব ও হরের পার্থক্য 1 এবং সমষ্টি 7 । ভগ্নাংশটি কত?",
+    "options": [
+      "2/5",
+      "2/3",
+      "3/4",
+      "1/7"
+    ],
+    "correct_answer": "3/4",
+    "explanation": "📖 অপশন টেস্ট:<br/>৩/৪ ভগ্নাংশটির লব ৩ এবং হর ৪।<br/>পার্থক্য: ৪ - ৩ = ১ (শর্ত পূরণ হয়েছে)<br/>সমষ্টি: ৩ + ৪ = ৭ (শর্ত পূরণ হয়েছে)<br/>সঠিক উত্তর: ৩/৪<br/> ⇢ <br/>⛳ গাণিতিক সমাধান:<br/>ধরি, লব = x এবং হর = y<br/>শর্ত ১: y - x = 1 => y = x + 1<br/>শর্ত ২: x + y = 7<br/>=> x + (x + 1) = 7<br/>=> 2x = 6<br/>=> x = 3<br/>তাহলে, y = 3 + 1 = 4<br/>ভগ্নাংশটি = x/y = 3/4<br/> ⇢ <br/>⛳ ধরি, ভগ্নাংশের লব = x<br/>এবং হর = y<br/>প্রশ্ন অনুযায়ী,<br/>x + y = 7 ... (i)<br/>এবং, x - y = 1 ... (ii)<br/>(i) ও (ii) যোগ করে পাই,<br/>2x = 8<br/>বা, x = ৪<br/>এখন x এর মান (ii) নং সমীকরণে বসালে,<br/>৪ - y = 1<br/>বা, y = ৩<br/>সুতরাং ভগ্নাংশটি হলো ৪/৩ বা ৩/৪।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334298,
+    "question": "০.০১ × ০.০২ = কত ?",
+    "options": [
+      "০.০০২",
+      "০.০০০২",
+      "০.০০০০২",
+      "০.০২"
+    ],
+    "correct_answer": "০.০০০২",
+    "explanation": "📖 সাধারণ গুণ: ১ × ২ = ২<br/>দশমিকের অবস্থান: প্রথম সংখ্যায় ২ ঘর + দ্বিতীয় সংখ্যায় ২ ঘর = মোট ৪ ঘর বামে দশমিক বসবে।<br/>সুতরাং, উত্তর: ০.০০০২<br/> ⇢ <br/>⛳ ধাপ ১: দশমিক বিন্দু উপেক্ষা করে সংখ্যাগুলো গুণ করুন।<br/>১ × ২ = ২<br/>ধাপ ২: গুণ্য ও গুণকে মোট কত ঘর আগে দশমিক আছে তা গণনা করুন।<br/>০.০১ (২ ঘর) এবং ০.০২ (২ ঘর) = মোট ৪ ঘর।<br/>ধাপ ৩: গুণফলে ডানদিক থেকে ৪ ঘর বামে দশমিক বসান।<br/>২ এর আগে তিনটি শূন্য দিয়ে ৪ ঘর পূর্ণ করতে হবে।<br/>= ০.০০০২<br/> ⇢ <br/>⛳ ০.০১ × ০.০২<br/>= (১/১০০) × (২/১০০)<br/>= ২/১০০০০<br/>= ০.০০০২<br/>অথবা,<br/>দশমিকের ডানের দিকে ১ × ২ = ২<br/>এবং দশমিকের ডানে দশমিক স্থানের সংখ্যা ২+২ = ৪টি।<br/>তাই উত্তর হলো ০.০০০২।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334299,
+    "question": "Do you know.",
+    "options": [
+      "who I am",
+      "who am I",
+      "who was I",
+      "who I shall"
+    ],
+    "correct_answer": "who I am",
+    "explanation": "📖 এটি একটি Embedded Question. যখন কোনো প্রশ্ন অন্য একটি বাক্যের অংশ হিসেবে থাকে, তখন সেই অংশের গঠনটি আর প্রশ্নবোধক থাকে না, সাধারণ বাক্যের (Subject + Verb) মতো হয়। তাই 'who am I' (Verb+Sub) না হয়ে 'who I am' (Sub+Verb) হবে।<br/> ⇢ <br/>⛳ Structure: Do you know (Principal Clause) + wh-word + Subject + Verb?<br/>❏ Incorrect: Do you know who am I?<br/>❏ Correct: Do you know who I am?<br/> ⇢ <br/>⛳ Indirect Speech-এ বা Question-এর বাক্য কিন্তু Subject ও Verb-এর ক্রম (Order) ঠিক থাকে। এখানে 'who' ইন্টেররোগেটিভ প্রোনাউন হিসেবে ব্যবহৃত হয়েছে এবং Verb-এর পর Subject 'I' বসেছে। তাই সঠিক বাক্য হলো 'Do you know who I am'।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334300,
+    "question": "Which one is adverb?",
+    "options": [
+      "lowly",
+      "tall",
+      "class",
+      "inside"
+    ],
+    "correct_answer": "inside",
+    "explanation": "📖 Inside: স্থানবাচক ক্রিয়াবিশেষণ (Adverb of Place) হিসেবে ব্যবহৃত হয়।<br/>❏ Tall: Adjective.<br/>❏ Class: Noun.<br/>❏ Lowly: Adjective (নিচু স্তরের)।<br/> ⇢ <br/>⛳ 'Inside' শব্দটি Preposition এবং Adverb উভয়ভাবেই ব্যবহৃত হতে পারে।<br/>❏ \"Go inside\" (এখানে Inside হলো Adverb, কারণ এটি 'কোথায়' প্রশ্নের উত্তর দিচ্ছে)।<br/>❏ \"Inside the room\" (এখানে Inside হলো Preposition)।<br/> ⇢ <br/>⛳ 'Inside' শব্দটি মূলত Adverb (যেমন: Look inside) এবং Preposition (যেমন: Inside the room) হিসেবে ব্যবহৃত হয়। অন্যদিকে lowly (Adjective), tall (Adjective), class (Noun)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334301,
+    "question": "Antonym of the word 'rotate' is ………..",
+    "options": [
+      "turn",
+      "spin",
+      "whirl",
+      "stay"
+    ],
+    "correct_answer": "stay",
+    "explanation": "📖 Rotate অর্থ ঘোরা বা আবর্তন করা। Turn, Spin, Whirl সবগুলোর অর্থই ঘোরা (Synonyms)। এর বিপরীত শব্দ হলো Stay (স্থির থাকা)।<br/> ⇢ <br/>⛳ Rotate: Move in a circle around an axis (ঘোরা)।<br/>❏ Stay: Remain in the same place (স্থির থাকা)।<br/>❏ বাকি অপশনগুলো (Turn, Spin, Whirl) সবই Rotate-এর সমার্থক শব্দ।<br/> ⇢ <br/>⛳ 'Rotate' শব্দের অর্থ ঘোরানো বা আবর্তিত হওয়া। এর বিপরীত শব্দ বা Antonym হলো 'Stay', যার অর্থ স্থির থাকা বা না ঘোরা। Turn, Spin, Whirl-এর অর্থও ঘোরা।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334302,
+    "question": "Opposite the word for 'delete' is ………..",
+    "options": [
+      "Injure",
+      "Delay",
+      "Insert",
+      "Trap"
+    ],
+    "correct_answer": "Insert",
+    "explanation": "📖 Delete অর্থ মুছে ফেলা। এর বিপরীত শব্দ Insert, যার অর্থ সন্নিবেশ করা বা যুক্ত করা।<br/> ⇢ <br/>⛳ কম্পিউটার বা লেখার ক্ষেত্রে:<br/>❏ Delete: Remove or erase (মুছে ফেলা)।<br/>❏ Insert: Put or place in (ঢোকানো বা যুক্ত করা)।<br/> ⇢ <br/>⛳ 'Delete' শব্দের অর্থ হলো মুছে ফেলা বা বাদ দেওয়া। এর বিপরীত শব্দ বা Antonym হলো 'Insert', যার অর্থ ঢোকানো বা সন্নিবেশ করা।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334303,
+    "question": "Which one is correct?",
+    "options": [
+      "dialog",
+      "diulogue",
+      "dialouge",
+      "dialogue"
+    ],
+    "correct_answer": "dialogue",
+    "explanation": "📖 সঠিক ইংরেজি বানানটি হলো Dialogue। প্রশ্নে প্রদত্ত অপশনগুলোর মধ্যে ব্যবহারকারী 'dialouge' দাগিয়েছেন যা ভুল বানান। সঠিক বানান: D-i-a-l-o-g-u-e. (আমেরিকান ইংরেজিতে অনেক সময় Dialog লেখা হয়, কিন্তু 'dialouge' কোনোভাবেই সঠিক নয়)।<br/> ⇢ <br/>⛳ শব্দটি গ্রিক 'Dialogos' থেকে এসেছে।<br/>❏ সঠিক বানান: Dialogue (Dia + logue).<br/>❏ অপশনগুলোর মধ্যে 'dialouge' ভুল, কিন্তু প্রশ্নে হয়তো টাইপিং মিস্টেক বা ব্যবহারকারীর ভুল সিলেকশন হতে পারে। স্ট্যান্ডার্ড বানান 'Dialogue'।<br/> ⇢ <br/>⛳ সঠিক বানান হলো 'Dialogue'। এর অর্থ হলো কথোপকথন। অনেকে ভুল করে 'Dialog' লিখে থাকেন, যা সঠিক নয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334304,
+    "question": "The lady prides herself ……….. her beauty.",
+    "options": [
+      "upon",
+      "in",
+      "of",
+      "about"
+    ],
+    "correct_answer": "upon",
+    "explanation": "📖 Pride oneself on/upon something - এই গ্রুপ ভার্বটির অর্থ হলো কোনো কিছু নিয়ে গর্ব করা। তাই এখানে 'upon' সঠিক।<br/> ⇢ <br/>⛳ ব্যবহার বিধি:<br/>❏ Pride (verb) oneself on/upon: She prides herself on her cooking.<br/>❏ Take pride (noun) in: She takes pride in her cooking.<br/>❏ Proud (adjective) of: She is proud of her cooking.<br/> ⇢ <br/>⛳ 'Pride' verb-এর সাথে সাধারণত preposition 'on' বা 'upon' বসে। তাই 'Pride herself on/upon' সঠিক অবস্থান। বাক্যটির অর্থ: মহিলাটি তার সৌন্দর্যের জন্য গর্বিত।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334305,
+    "question": "Conflict is the feature of ………..",
+    "options": [
+      "a poem",
+      "a story",
+      "a drama",
+      "a novel"
+    ],
+    "correct_answer": "a drama",
+    "explanation": "📖 সাহিত্যের পরিভাষায় Conflict (দ্বন্দ্ব) হলো নাটকের (Drama) প্রাণ। দ্বন্দ্ব ছাড়া নাটকের কাহিনী এগোতে পারে না।<br/> ⇢ <br/>⛳ নাটকে চরিত্রগুলোর মধ্যে মানসিক বা বাহ্যিক যে সংঘাত বা দ্বন্দ্ব (Conflict) তৈরি হয়, সেটিই ক্লাইম্যাক্সের দিকে নিয়ে যায়। এটি নাটকের অপরিহার্য উপাদান।<br/> ⇢ <br/>⛳ Conflict (বিরোধ) বা দ্বন্দ্ব মূলত Drama বা নাটকের অন্যতম প্রধান উপাদান। নাটকে চরিত্রগুলোর মধ্যে দ্বন্দ্ব বা কাহিনীর গতিপথে সৃষ্ট বাধাই হলো Conflict।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334306,
+    "question": "What is the verb form of 'Officer'?",
+    "options": [
+      "official",
+      "officiate",
+      "officially",
+      "officer"
+    ],
+    "correct_answer": "officiate",
+    "explanation": "📖 Officer (Noun)-এর Verb form হলো Officiate, যার অর্থ পৌরহিত্য করা বা কোনো পদের দায়িত্ব পালন করা।<br/> ⇢ <br/>⛳ Officer (Noun): কর্মকর্তা।<br/>❏ Officiate (Verb): দায়িত্ব পালন করা (To perform the duties of an office).<br/>❏ Official (Adjective/Noun): দাপ্তরিক।<br/>❏ Officially (Adverb): দাপ্তরিকভাবে।<br/> ⇢ <br/>⛳ 'Officer' শব্দটি Noun। এর Verb রূপ হলো 'officiate'। Officiate অর্থ হলো দায়িত্ব পালন করা বা কোনো অনুষ্ঠান পরিচালনা করা। Official (Adjective), Officially (Adverb)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334307,
+    "question": "Water the plants. Here the word 'water' is used as ………..",
+    "options": [
+      "Noun",
+      "Adverb",
+      "Pronoun",
+      "Verb"
+    ],
+    "correct_answer": "Verb",
+    "explanation": "📖 এই বাক্যে 'Water' শব্দটি আদেশমূলক ক্রিয়া (Imperative Verb) হিসেবে ব্যবহৃত হয়েছে, যার অর্থ 'পানি দেওয়া'।<br/> ⇢ <br/>⛳ সাধারণত 'Water' একটি Noun (পানি)। কিন্তু যখন এটি কোনো কাজ করা বোঝায় (গাছে পানি দেওয়া), তখন এটি Verb হয়ে যায়।<br/>❏ Example:<br/>❏ I drink water (Noun).<br/>❏ Please water the garden (Verb).<br/> ⇢ <br/>⛳ সাধারণত 'Water' একটি Noun। কিন্তু 'Water the plants' বাক্যটিতে 'গাছে পানি দাও' অর্থে ব্যবহৃত হওয়ায় এখানে এটি Verb হিসেবে কাজ করছে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334308,
+    "question": "Which one is used as prefix?",
+    "options": [
+      "ness",
+      "fix",
+      "co",
+      "ty"
+    ],
+    "correct_answer": "co",
+    "explanation": "📖 Prefix শব্দের শুরুতে বসে। এখানে 'co-' একটি Prefix (যেমন: Co-operation, Co-worker)।<br/>❏ ness, ty হলো Suffix (শব্দের শেষে বসে)।<br/> ⇢ <br/>⛳ Prefix (উপসর্গ): শব্দের আগে বসে অর্থ পরিবর্তন করে। যেমন: Co-pilot, Co-exist.<br/>❏ Suffix (প্রত্যয়): শব্দের পরে বসে। যেমন: Kind-ness, Honest-y/Beau-ty.<br/> ⇢ <br/>⛳ Prefix হলো শব্দের পূর্বে যুক্ত হয়ে নতুন অর্থ সৃষ্টি করে। 'co-' একটি Prefix (যেমন: co-worker, co-exist)। অন্যদিকে 'ness', 'ty' হলো Suffix এবং 'fix' নিজে একটি শব্দ।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334309,
+    "question": "Which one is common gender?",
+    "options": [
+      "Deer",
+      "Tiger",
+      "Bull",
+      "Dog"
+    ],
+    "correct_answer": "Deer",
+    "explanation": "📖 Deer (হরিণ) শব্দটি পুরুষ ও স্ত্রী উভয় হরিণকেই বোঝাতে পারে, তাই এটি Common Gender।<br/>❏ Tiger: বাঘ (Masculine).<br/>❏ Bull: ষাঁড় (Masculine).<br/>❏ Dog: কুকুর (Masculine, স্ত্রীলিঙ্গ Bitch).<br/> ⇢ <br/>⛳ Common Gender বা উভয়লিঙ্গ শব্দ পুরুষ বা স্ত্রী নির্দিষ্ট করে বোঝায় না।<br/>❏ Deer: Buck (Male) / Doe (Female).<br/>❏ Tiger: Tigress (Female).<br/>❏ Bull: Cow (Female).<br/> ⇢ <br/>⛳ Deer শব্দটি Common Gender (উভয় লিঙ্গ)। অর্থাৎ Deer দিয়ে হরিণ বা হরিণী—উভয়কেই বোঝানো যায়। Bull (ষাড় - Masculine), Tiger (বাঘ - সাধারণত পুরুষালি শব্দ হলেও ব্যাকরণগতভাবে সাধারণত Masculine হিসেবে গণ্য কিন্তু এখানে স্পষ্ট পার্থক্যের জন্য Deer সঠিক উত্তর), Dog (কুকুর - সাধারণত Masculine, বিপরীতার্থক বিচ - মাদী কুকুর)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334310,
+    "question": "Which one is singular?",
+    "options": [
+      "Nuclei",
+      "radii",
+      "agendum",
+      "criteria"
+    ],
+    "correct_answer": "agendum",
+    "explanation": "📖 Agendum (Singular) -> Agenda (Plural).<br/>❏ Nuclei (Plural) -> Nucleus (Singular).<br/>❏ Radii (Plural) -> Radius (Singular).<br/>❏ Criteria (Plural) -> Criterion (Singular).<br/> ⇢ <br/>⛳ ল্যাটিন বা গ্রিক শব্দগুলোর Singular-Plural নিয়ম:<br/>❏ শেষে 'um' থাকলে Plural এ 'a' হয় (Agendum → Agenda).<br/>❏ শেষে 'us' থাকলে Plural এ 'i' হয় (Radius → Radii).<br/>❏ শেষে 'on' থাকলে Plural এ 'a' হয় (Criterion → Criteria).<br/> ⇢ <br/>⛳ 'Agendum' হলো 'Agenda'-র Singular form। এর অর্থ হলো আলোচ্যসূচি। Nuclei (Nucleus-এর Plural), Radii (Radius-এর Plural), Criteria (Criterion-এর Plural)। অতএব শুধুমাত্র 'Agendum' শব্দটি Singular।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334311,
+    "question": "Which one is feminine gender?",
+    "options": [
+      "Spinster",
+      "Boar",
+      "Parent",
+      "Peer"
+    ],
+    "correct_answer": "Spinster",
+    "explanation": "📖 Spinster: চিরকুমারী নারী (Feminine).<br/>❏ Boar: পুরুষ শুকর (Masculine).<br/>❏ Parent: পিতামাতা (Common).<br/>❏ Peer: সমকক্ষ ব্যক্তি (Common/Masculine context).<br/> ⇢ <br/>⛳ Spinster: An unmarried woman, typically an older woman beyond the usual age for marriage. (Masculine: Bachelor).<br/>❏ Boar: Male pig. (Feminine: Sow).<br/>❏ Parent: Father or Mother.<br/> ⇢ <br/>⛳ Spinster শব্দটি Feminine Gender (নারীবাচক)। এর অর্থ হলো বিবাহিত নয় এমন বয়স্ক মহিলা। এর বিপরীত পুরুষবাচক শব্দ হলো Bachelor (কুমার)। Boar (পুরুষ শূকর), Parent (জনক/জননী - Common), Peer (সমকক্ষ - Common)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334312,
+    "question": "Out of sight, out of ……….. .",
+    "options": [
+      "mind",
+      "life",
+      "might",
+      "light"
+    ],
+    "correct_answer": "mind",
+    "explanation": "📖 এটি একটি প্রবাদ: \"Out of sight, out of mind.\" যার অর্থ হলো 'চোখের আড়াল হলে মনের আড়াল হয়'।<br/> ⇢ <br/>⛳ এই প্রবাদটি বোঝায় যে, মানুষ যখন দীর্ঘদিনের জন্য দূরে চলে যায় বা চোখের সামনে থাকে না, তখন ধীরে ধীরে তাকে ভুলে যাওয়ার প্রবণতা তৈরি হয়।<br/> ⇢ <br/>⛳ এটি একটি প্রবাদ (Proverb)। 'Out of sight, out of mind'-এর অর্থ হলো—'যার দেখা নেই, সে স্মৃতি থেকেও মুছে যায়'। অর্থাৎ দীর্ঘদিন না দেখলে মানুষের স্মৃতি থেকে মুছে যেতে বা ভুলে যেতে পারে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334313,
+    "question": "What is the full form of 'TIN'?",
+    "options": [
+      "Tax Index Number",
+      "Taxpayer's Identification Number",
+      "Tax Information Number",
+      "Taxpayer's Information Number"
+    ],
+    "correct_answer": "Taxpayer's Identification Number",
+    "explanation": "📖 TIN-এর পূর্ণরূপ হলো Taxpayer's Identification Number (করদাতা শনাক্তকরণ নম্বর)।<br/> ⇢ <br/>⛳ TIN হলো একটি অনন্য নম্বর যা রাজস্ব বোর্ড করদাতাদের শনাক্ত করার জন্য প্রদান করে। আয়কর রিটার্ন দাখিল এবং বিভিন্ন আর্থিক লেনদেনের জন্য এটি বাধ্যতামূলক।<br/> ⇢ <br/>⛳ TIN এর পূর্ণরূপ হলো Taxpayer's Identification Number। বাংলাদেশে করদাতাদের শনাক্ত করার জন্য এনবিআর (NBR) কর্তৃক ১০ সংখ্যার একটি ইলেকট্রনিক নম্বর প্রদান করা হয়, যা TIN নামে পরিচিত।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334314,
+    "question": "Which is plural?",
+    "options": [
+      "Analysis",
+      "News",
+      "Physics",
+      "Oxen"
+    ],
+    "correct_answer": "Oxen",
+    "explanation": "📖 Oxen হলো Ox (ষাঁড়)-এর Plural form.<br/>❏ Analysis (Singular) -> Analyses (Plural).<br/>❏ News এবং Physics দেখতে Plural মনে হলেও এগুলো Singular হিসেবে ব্যবহৃত হয়।<br/> ⇢ <br/>⛳ ইংরেজি ভাষায় কিছু শব্দ বিদেশি ভাষা থেকে এসেছে এবং তাদের Plural করার নিয়ম ভিন্ন।<br/>❏ Ox (Singular) → Oxen (Plural).<br/>❏ Child (Singular) → Children (Plural).<br/>❏ News, Physics, Mathematics - এগুলো দেখতে Plural হলেও আসলে Singular Noun.<br/> ⇢ <br/>⛳ 'Oxen' শব্দটি 'Ox' (ষাড়) এর Plural form। Analysis, News এবং Physics শব্দগুলো Singular হলেও এদের শেষে 's' থাকা সত্ত্বেও এরা Plural বলে মনে হলেও আসলে Singular (এরা Pluralia tantum নয়, বরং 's' যুক্ত কিছু Singular Noun বা বিজ্ঞানের নাম)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334315,
+    "question": "'Blue Blood' means?",
+    "options": [
+      "colourful blood",
+      "noble birth",
+      "wealthy man",
+      "poor people"
+    ],
+    "correct_answer": "noble birth",
+    "explanation": "📖 'Blue Blood' একটি ইডিয়ম যার অর্থ আভিজাত্য বা উচ্চ বংশীয়। তাই সঠিক উত্তর Noble birth।<br/> ⇢ <br/>⛳ প্রাচীন স্পেনে অভিজাতরা নিজেদের 'Sangre azul' (Blue blood) দাবি করত কারণ তারা রোদে কাজ করত না বলে তাদের ফর্সা ত্বকের নিচে নীল শিরা দেখা যেত। সেখান থেকেই 'Blue Blood' বা আভিজাত্যের ধারণাটি এসেছে।<br/> ⇢ <br/>⛳ 'Blue Blood' একটি Idiom। এর আভিধানিক অর্থ নীল রক্ত না হলেও, বাগধারা হিসেবে এটি উচ্চবংশীয় বা রাজপরিবারের সন্তান (Noble birth) বোঝাতে ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334316,
+    "question": "The word 'verdict' means ……….. .",
+    "options": [
+      "punishment",
+      "comment",
+      "judgement",
+      "remark"
+    ],
+    "correct_answer": "judgement",
+    "explanation": "📖 Verdict অর্থ রায় বা বিচারক/জুরির সিদ্ধান্ত।<br/>❏ Punishment = শাস্তি।<br/>❏ Comment/Remark = মন্তব্য।<br/>❏ Judgement = বিচার বা রায়।<br/> ⇢ <br/>⛳ আদালতে বিচারক বা জুরি বোর্ড কোনো মামলার শুনানি শেষে যে চূড়ান্ত সিদ্ধান্ত বা রায় প্রদান করেন তাকে Verdict বলে।<br/>❏ Synonyms: Decision, Ruling, Judgment, Decree.<br/> ⇢ <br/>⛳ Verdict শব্দটির অর্থ হলো রায় বা বিচারের সিদ্ধান্ত (Judgement)। আদালতে বিচারক বা জুরি যে সিদ্ধান্ত দেন, তাকে Verdict বলে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334317,
+    "question": "The word 'Siblings' means ……….. .",
+    "options": [
+      "brother",
+      "sister",
+      "cousin",
+      "brother and sister"
+    ],
+    "correct_answer": "brother and sister",
+    "explanation": "📖 Sibling অর্থ সহোদর ভাই-বোন। তাই Brother and sister হলো সঠিক উত্তর।<br/> ⇢ <br/>⛳ 'Sibling' শব্দটি লিঙ্গ-নিরপেক্ষ (Gender-neutral)। এটি দ্বারা ভাই বা বোন যে কাউকে বোঝানো যায়।<br/>❏ Brother = ভাই।<br/>❏ Sister = বোন।<br/>❏ Sibling = ভাই বা বোন (সহোদর)।<br/> ⇢ <br/>⛳ Siblings শব্দটি একটি Noun। এর অর্থ হলো একই পিতামাতার সন্তান বা ভাই-বোন। অর্থাৎ ভাই এবং বোন উভয়কে একত্রে Siblings বলা হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334318,
+    "question": "English ……….. across the world.",
+    "options": [
+      "speaks",
+      "is spoken",
+      "is speaking",
+      "has been spoken"
+    ],
+    "correct_answer": "is spoken",
+    "explanation": "📖 বাক্যটি Passive Voice-এ হবে কারণ ইংরেজি নিজে কথা বলে না, মানুষের দ্বারা বলা হয়। Present Indefinite Tense-এর Passive form হলো: am/is/are + V3. তাই সঠিক উত্তর 'is spoken'।<br/> ⇢ <br/>⛳ Structure: Object (English) + Auxiliary Verb (is) + Past Participle of Main Verb (spoken) + Extension.<br/>❏ Active: People speak English across the world.<br/>❏ Passive: English is spoken across the world.<br/> ⇢ <br/>⛳ এখানে Subject 'English' হওয়ায় এবং কাজটি সম্পাদিত হওয়ার (কেউ কথা বলে) কারণে Passive Voice ব্যবহার করতে হবে। তাই 'is spoken' সঠিক উত্তর। অর্থাৎ ইংরেজি সারা বিশ্বে কথা বলা হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334319,
+    "question": "Turmoil means ……….. .",
+    "options": [
+      "অশান্তি",
+      "ময়লা",
+      "অভিযান",
+      "অবরুদ্ধ"
+    ],
+    "correct_answer": "অশান্তি",
+    "explanation": "📖 Turmoil শব্দটির অর্থ হলো গোলযোগ, বিশৃঙ্খলা বা অশান্তি।<br/>❏ ময়লা = Dirt/Filth.<br/>❏ অভিযান = Expedition.<br/>❏ অবরুদ্ধ = Besieged.<br/> ⇢ <br/>⛳ Turmoil (Noun): A state of great disturbance, confusion, or uncertainty.<br/>❏ Synonyms: Chaos, Disorder, Confusion, Commotion (বিশৃঙ্খলা, হট্টগোল)।<br/>❏ Antonyms: Peace, Calm, Order (শান্তি, শৃঙ্খলা)।<br/> ⇢ <br/>⛳ Turmoil শব্দটির অর্থ হলো গুপ্ত, বিশৃঙ্খলা বা অশান্তি। কোনো পরিস্থিতি যখন খুব বিশৃঙ্খল বা অস্থির থাকে, তখন তাকে Turmoil বলা হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334320,
+    "question": "SOS stands for ……….. .",
+    "options": [
+      "Sound of sea",
+      "Save our souls",
+      "Son of Samson",
+      "Sunrays of sunset"
+    ],
+    "correct_answer": "Save our souls",
+    "explanation": "📖 SOS হলো আন্তর্জাতিক মোর্স কোড যা বিপদের সময় সাহায্যের জন্য পাঠানো হয়। লোকমুখে এর পূর্ণরূপ হিসেবে \"Save Our Souls\" বা \"Save Our Ship\" প্রচলিত।<br/> ⇢ <br/>⛳ মূলত SOS কোনো কিছুর সংক্ষিপ্ত রূপ নয়, এটি একটি স্বতন্ত্র মোর্স কোড সংকেত (· · · — — — · · ·) যা সহজে মনে রাখা ও পাঠানো যায়। তবে জনপ্রিয় ব্যাক্রোনিম (Backronym) হিসেবে 'Save Our Souls' সর্বজনস্বীকৃত।<br/> ⇢ <br/>⛳ SOS হলো একটি আন্তর্জাতিক মর্স কোড সিগন্যাল, যা বিপদগ্রস্ত জাহাজ বা বিমান থেকে সাহায্য চাওয়ার জন্য ব্যবহৃত হয়। এর পূর্ণরূপ সাধারণত 'Save Our Souls' (আমাদের আত্মা বা প্রাণ বাঁচাও) হিসেবে ধরা হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334321,
+    "question": "A stitch in time ……….. nine.",
+    "options": [
+      "save",
+      "saves",
+      "should save",
+      "must save"
+    ],
+    "correct_answer": "saves",
+    "explanation": "📖 এটি একটি প্রবাদ বাক্য (Proverb)। \"A stitch in time saves nine\" - যার ভাবার্থ হলো 'সময়ের এক ফোঁড়, অসময়ের দশ ফোঁড়'। এখানে Subject 'A stitch' হলো Third Person Singular Number, তাই verb-এর সাথে 's' যুক্ত হয়ে 'saves' হয়েছে।<br/> ⇢ <br/>⛳ প্রবাদটি বোঝায় যে, কোনো সমস্যা দেখা দেওয়ার সাথে সাথে সমাধান করলে ভবিষ্যতে বড় বিপদ থেকে রক্ষা পাওয়া যায়। ব্যাকরণগতভাবে, Subject (A stitch) Singular হওয়ায় Present Indefinite Tense-এ মূল ভার্বের সাথে 's' যুক্ত হয়েছে।<br/> ⇢ <br/>⛳ 'A stitch in time saves nine' একটি প্রবাদ (Proverb)। এর অর্থ হলো—'সময়মত কাজ করলে অনেক বিপদ থেকে বাঁচা যায়' বা 'দেরি না করে এখনই কাজটি করে ফেললে পরে বড় ক্ষতির হাত থেকে রক্ষা পাওয়া যায়'। বাক্যটি Singular বলে Verb-এর সাথে 's' যুক্ত হয়েছে (saves)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334322,
+    "question": "What is the meaning of 'Silver Tongue'?",
+    "options": [
+      "Having a good time and fortune",
+      "A person who speaks sweetly",
+      "Born in a rich family",
+      "All of the above"
+    ],
+    "correct_answer": "A person who speaks sweetly",
+    "explanation": "📖 'Silver Tongue' একটি ইডিয়ম যার অর্থ হলো মিষ্টভাষী বা যে খুব সুন্দর করে বুঝিয়ে কথা বলতে পারে। তাই সঠিক উত্তর: A person who speaks sweetly.<br/> ⇢ <br/>⛳ Silver Tongue: বাকপটু বা মিষ্টভাষী ব্যক্তি (Eloquent/Persuasive speaker).<br/>❏ Born with a silver spoon: ধনী পরিবারে জন্ম নেওয়া (Born in a rich family).<br/>❏ অপশনগুলোর মধ্যে 'A person who speaks sweetly' ইডিয়মটির সঠিক অর্থ প্রকাশ করে।<br/> ⇢ <br/>⛳ 'Silver Tongue' একটি Idiom। এর বাংলা অর্থ হলো মিষ্টি বা মধুর কণ্ঠের অধিকারী ব্যক্তি। যিনি খুব সুন্দর ও কৌশলে কথা বলতে পারেন, তাকে এই idiom দিয়ে বোঝানো হয়।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334323,
+    "question": "Curd is made ……….. milk.",
+    "options": [
+      "of",
+      "in",
+      "by",
+      "with"
+    ],
+    "correct_answer": "of",
+    "explanation": "📖 কোনো কিছু তৈরির সময় যদি মূল উপাদানটির বাহ্যিক ও রাসায়নিক পরিবর্তন ঘটে, তবে 'made from' বসে। আর যদি উপাদানটি অপরিবর্তিত থাকে বা দেখা যায়, তবে 'made of' বসে। দুধ থেকে দই হলে রাসায়নিক পরিবর্তন হয়, তাই নিয়ম অনুযায়ী 'from' বসার কথা। কিন্তু অপশনে 'from' নেই। প্রদত্ত অপশনগুলোর মধ্যে 'of' উপাদান বোঝাতে ব্যবহৃত হয় বলে এটিই এখানে গ্রহণযোগ্য উত্তর হিসেবে ধরা হয়েছে।<br/>❏ Of /from দুটোই হবে তবে from বেশি গ্রহনযোগ্য। যেহেতু from নেই তাই of দেওয়া যাবে<br/>❏ Make of/from <br/>❏ Curd is made from milk <br/>❏ Cake is made from flour<br/>❏ Wine is made from grape<br/>❏ Paper is made from wood <br/>❏ The cheese is made from milk <br/>❏ N.B:উৎপন্ন বস্তু উপাদান পরিবর্তনশীল বা উপাদান দেখা যাবে না। <br/>❏ Table is made of wood <br/>❏ The ring is made of gold <br/>❏ The house is made of bricks <br/>❏ Plot is made of glass <br/>❏ Chairs are made of wood<br/>❏ Steel is made of iron<br/>❏ <br/>❏ যখন কোনো কিছু থেকে অন্য কিছু তৈরি করা হয় এবং তৈরির পর যদি পূর্বের বস্তুটিকে খালি চোখে শনাক্ত করা যায় তাহলে সেটা made of হয় । যেমন:<br/>❏ The table is made of wood. <br/>❏ The ring is made of gold.<br/>❏ আর যদি পূর্বের বস্তুটিকে সাধারণভাবে শনাক্ত করা না যায় তাহলে made from হয়।<br/>❏ The paper is made from bamboo.<br/>❏ আর Made by মূলত বসে যিনি তৈরি করেছেন তার জন্য বা কোন কোম্পানি তৈরি করেছেন; কি থেকে তৈরি হয়ছে তার জন্য না। <br/>❏ This dish is made by me.<br/>❏ Smart TV is made by Samsung.<br/>❏ Made with মূলত বসে কোন ডিস বা খাবার আইটেম যদি বিভিন্ন উপাদান (Ingredients) এর মিশ্রনে তৈরি হয়।<br/>❏ This fruit custard is made with apple, orange and banana.<br/>❏ The cake is made with eggs, flour and sugar.<br/>❏ Made in মূলত বসে কোন্ দেশে কোনো পণ্য তৈরি হয়েছে সেই দেশের পূর্বে <br/>❏ Sony TV is made in Japan. <br/>❏ Made out of সাধারণত অপ্রচলিত জিনিস থেকে কোন প্রডাক্ট তৈরি হলে:<br/>❏ The sculpture is made out of scrap iron. <br/>❏ Made up of: বিভিন্ন components or ingredients এর সমন্বয়ে তৈরি। অনেকটা made with এর মতো<br/>❏ Water is made up of hydrogen and oxygen. <br/>❏ The committee is made up of engineers and doctors.<br/> ⇢ <br/>⛳ Made of: যখন উপাদানটি দৃশ্যমান থাকে (যেমন: The chair is made of wood).<br/>❏ Made from: যখন উপাদানটি সম্পূর্ণ পরিবর্তিত হয়ে নতুন কিছু তৈরি হয় (যেমন: Paper is made from wood).<br/>❏ এখানে সঠিক উত্তর হওয়া উচিত ছিল 'from'। কিন্তু অপশনে না থাকায় বাধ্য হয়ে 'of' বেছে নিতে হবে।<br/> ⇢ <br/>⛳ এখানে সঠিক preposition হলো 'of'। সাধারণত পদার্থ উৎপাদনের উপাদান বোঝাতে 'Made of' ব্যবহার করা হয়। যেহেতু দই (Curd) দুধ থেকে তৈরি, তাই 'Curd is made of milk' সঠিক বাক্য।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334324,
+    "question": "বাংলাদেশে প্রথম কৃত্রিম পা সংযোজন কেন্দ্র কবে চালু করা হয়?",
+    "options": [
+      "১০ জুন, ১৯৯০",
+      "১০ জুন, ১৯৭২",
+      "১০ জুলাই, ১৯৯৩",
+      "১০ জুলাই, ১৯৯৪"
+    ],
+    "correct_answer": "১০ জুন, ১৯৭২",
+    "explanation": "📖 ১৯৭২ সালে যুদ্ধাহত মুক্তিযোদ্ধাদের চিকিৎসার জন্য ঢাকার শেরেবাংলা নগরে পঙ্গু হাসপাতাল (নিটোর) ও কৃত্রিম পা সংযোজন কেন্দ্র প্রতিষ্ঠিত হয়।<br/> ⇢ <br/>⛳ আমেরিকান শল্যচিকিৎসক ডা. আর জে গার্স্ট (Dr. R.J. Garst) এর প্রত্যক্ষ তত্ত্বাবধানে বাংলাদেশে ১৯৭২ সালের ১০ জুন 'প্রথম কৃত্রিম পা সংযোজন কেন্দ্র' বা 'প্রতিবন্ধী সেবা ও সাহায্য কেন্দ্র' প্রতিষ্ঠিত হয়। মুক্তিযুদ্ধের পরাজিত বাহিনীর আক্রমণে পঙ্গু হওয়া মানুষদের পুনর্বাসনের জন্য বঙ্গবন্ধু শেখ মুজিবুর রহমান এটি প্রতিষ্ঠা করেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334325,
+    "question": "বিশ্ব স্বাস্থ্য দিবস কবে?",
+    "options": [
+      "৭ এপ্রিল",
+      "৮ এপ্রিল",
+      "৭ মে",
+      "৮ মে"
+    ],
+    "correct_answer": "৭ এপ্রিল",
+    "explanation": "📖 ১৯৪৮ সালের ৭ এপ্রিল বিশ্ব স্বাস্থ্য সংস্থা (WHO) প্রতিষ্ঠিত হয়। তাই প্রতি বছর ৭ এপ্রিল বিশ্ব স্বাস্থ্য দিবস পালন করা হয়।<br/> ⇢ <br/>⛳ <b>▣ WHO:</b><br/>❐ WHO এর সংবিধান ১৯৪৮ সালের ৭ এপ্রিল কার্যকর হয়েছিল , তাই এই দিনটিকে বিশ্ব স্বাস্থ্য দিবস হিসেবে ঘোষণা হয়।<br/>❐ ১৯৪৮ সালের ৭ এপ্রিল পর্যন্ত সংবিধান কার্যকর হয়নি।<br/>❐ প্রতিষ্ঠা লাভ করে➞ ৭ এপ্রিল, ১৯৪৮ সালে।<br/>❐ বিশ্ব স্বাস্থ্য দিবস পালিত হয় -<b> ৭ এপ্রিল।</b><br/>❐ বর্তমান সদস্য➞ ১৯৪ টি।<br/>❐ বর্তমান মহাপরিচালক➞ টেদ্রস আদানন গেব্রেয়েসুস (ইথিওপিয়ার নাগরিক)।<br/>❐ সদর দপ্তর➞ জেনেভা, সুইজারল্যান্ড।<br/>",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334326,
+    "question": "জাতিসংঘের নামকরণ করেন কে?",
+    "options": [
+      "চার্চিল",
+      "দ্যা গল",
+      "রুজভেল্ট",
+      "স্ট্যালিন"
+    ],
+    "correct_answer": "রুজভেল্ট",
+    "explanation": "📖 মার্কিন প্রেসিডেন্ট ফ্রাঙ্কলিন ডি. রুজভেল্ট ১৯৪২ সালের ১ জানুয়ারি 'United Nations' বা 'জাতিসংঘ' নামটির প্রবর্তন করেন।<br/> ⇢ <br/>⛳ জাতিসংঘ<br/>❏ ২৪ অক্টোবর ১৯৪৫ সালে ➺ যাত্রা শুরু।<br/>❏ প্রতিষ্ঠাকালীন সদস্য রাষ্ট্র ➺ ৫১ টি।<br/>❏ সনদ স্বাক্ষর ➺ ২৬ জুন ১৯৪৫। যার মাধ্যমে প্রতিষ্ঠিত হয়।<br/>❏ প্রস্তাবক ➺ ফ্রাঙ্কলিন ডি রুজভেল্ট।<br/>❏ জাতিসংঘের সদর দপ্তর ➺ যুক্তরাষ্ট্রের নিউইয়র্কে।<br/>❏ সদস্য রাষ্ট্র ➺ ১৯৩ টি।<br/>❏ সর্বশেষ রাষ্ট্র ➺ দক্ষিণ সুদান।<br/>❏ বাংলাদেশ ➺ ১৩৬ তম সদস্য।<br/>❏ জাতিসংঘের অফিসিয়াল দাপ্তরিক ভাষা ➺ ৬ টি। (ইংরেজি, চীনা, ফ্রেঞ্চ, রুশ, স্প্যানিশ, আরবি)<br/>❏ হালকা নীলের উপর সাদা রঙ জাতিসংঘের পতাকা। যাতে বিশ্ব মানচিত্র ও জলপাই গাছ রয়েছে। জলপাই শান্তির প্রতীক।<br/>❏ ১৯৫০ সালে কোরীয় শান্তি প্রতিষ্ঠা হয় জাতিসংঘের প্রচেষ্টায়।<br/>❏ স্বাধীন দেশের জনগণের মানবাধিকার নিশ্চিত করা ও নির্বিচারে হত্যা বন্ধের লক্ষ্যে জাতিসংঘ কর্তৃক অনুমোদিত তত্ত্ব হল আরটুপি তত্ত্ব।<br/>❏ ১৯৭৩ সালে জাপানের টোকিওতে জাতিসংঘ বিশ্ববিদ্যালয় প্রতিষ্ঠিত হয়েছিল।<br/>❏ ⛳ জাতিসংঘের মূল অঙ্গ সংগঠন<br/>▣ সাধারণ পরিষদ<br/>❏ অধিবেশন আরম্ভ হয় ➺ সেপ্টেম্বর মাসের তৃতীয় সপ্তাহের মঙ্গলবারে। (৫৩নং অনুচ্ছেদ, পৃষ্ঠা ২৩)<br/>❏ অধিবেশনে একটি দেশের সর্বোচ্চ ➺ ৫জন প্রতিনিধি যোগ দিতে পারে।<br/>❏ সাধারণ পরিষদে ➺ ১জন সভাপতি এবং ➺ ২১ জন সহ-সভাপতি থাকে।<br/>❏ বিজয়া লক্ষী পণ্ডিত (ভারত) ➺ সাধারণ পরিষদের ১ম নারী সভাপতি।<br/>❏ এ পরিষদের সদস্য সংখ্যা ➺ ১৯৩। এই পরিষদ জাতিসংঘের মূল কার্যক্রম পরিচালনা করে।<br/>▣ নিরাপত্তা পরিষদ<br/>❏ ৫টি ➺ স্থায়ী সদস্য রয়েছে এ পরিষদে। শান্তি ও নিরাপত্তা রক্ষা ➺ প্রধান কাজ।<br/>❏ এ পরিষদের অস্থায়ী সদস্য সংখ্যা ➺ ১০। যারা ২ বছরের জন্য ➺ নির্বাচিত হয়।<br/>❏ ল্যাটিন ভেটো অর্থ ➺ আমি এটা মানি না। যা স্থায়ী সদস্যের ক্ষেত্রে ➺ প্রযোজ্য।<br/>❏ অস্থায়ী সদস্যপদে সর্বাধিক সংখ্যক বার নির্বাচিত রাষ্ট্র ➺ ব্রাজিল ও জাপান।<br/>▣ অর্থনৈতিক ও সামাজিক পরিষদ<br/>❏ ১৮ জন সদস্য ➺ বছরে নির্বাচন করা হয়। যাদের মেয়াদ ➺ ৩ বছর।<br/>❏ এ পরিষদের সদস্য সংখ্যা ➺ ৫৪। ৫ টি ➺ আঞ্চলিক কমিশন আছে।<br/>▣ জাতিসংঘ সচিবালয়<br/>❏ অ্যান্টনিও গুতেরেস ➺ জাতিসংঘের নবম ও বর্তমান মহাসচিব। যিনি পর্তুগালের নাগরিক।<br/>❏ দ্যাগ হ্যামারশেল্ড ➺ একমাত্র মহাসচিব যিনি বিমান দুর্ঘটনায় মৃত্যুবরণ করেন।<br/>❏ মহাসচিবের মেয়াদ ➺ ৫ বছর। যিনি নিরাপত্তা পরিষদের সুপারিশক্রমে ২/৩ সাধারণ পরিষদের ভোটে নির্বাচিত হয়ে থাকেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334327,
+    "question": "ঢাকার 'ধোলাইখাল' কে খনন করেন?",
+    "options": [
+      "ঈসা খান",
+      "শায়েস্তা খান",
+      "পরিবিবি",
+      "ইসলাম খান"
+    ],
+    "correct_answer": "ইসলাম খান",
+    "explanation": "📖 মুঘল সুবাদার ইসলাম খান চিশতি ১৬০৮-১৬১০ সালের দিকে ঢাকার প্রতিরক্ষা ও নৌ-চলাচলের সুবিধার্থে ধোলাইখাল খনন করেন।<br/> ⇢ <br/>⛳ ধোলাইখাল খননের মূল উদ্দেশ্য ছিল মগ ও পর্তুগিজ জলদস্যুদের আক্রমণ থেকে ঢাকাকে রক্ষা করা এবং বুড়িগঙ্গা ও বালু নদীর মধ্যে সংযোগ স্থাপন করা। এটি শহরের চারপাশে একটি জলদুর্গ বা পরিখা হিসেবে কাজ করত।<br/> ⇢ <br/>⛳ মোগল আমলে ঢাকার সুবাদার ইসলাম খান ১৬১০ সালে ধোলাইখাল খনন করেন। তিনি ঢাকা শহরের সৌন্দর্য বৃদ্ধি এবং নগর পরিকল্পনার অংশ হিসেবে এই খাল খনন করেছিলেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334328,
+    "question": "বর্তমানে দেশের কোন বিভাগে সাক্ষরতার হার সবচেয়ে বেশি?",
+    "options": [
+      "ঢাকা",
+      "সিলেট",
+      "ময়মনসিংহ",
+      "বরিশাল"
+    ],
+    "correct_answer": "বরিশাল",
+    "explanation": "📖 পরিসংখ্যান ব্যুরো (BBS) প্রকাশিত 'বাংলাদেশ স্যাম্পল ভাইটাল স্ট্যাটিসটিক্স(SVRS)' চূড়ান্ত প্রতিবেদন➺ ২৬ আগস্ট ২০২৪<br/>📖 বিভাগ ও জেলাওয়ারি সাক্ষরতার হার<br/>▣ ৭ বছর ও তদূর্ধ্ব: ➺ ৭৭.৯%<br/>❏ পুরুষ: ➺ ৮০.১%<br/>❏ নারী: ➺ ৭৫.৮%<br/>❏ পল্লি: ➺ ৭৫.৫%<br/>❏ শহর: ➺ ৮৫.৪%<br/>❏ শীর্ষ বিভাগ: ➺ বরিশাল: ➺ ৮৪.৩%<br/>❏ সর্বনিম্ন বিভাগ: ➺ ময়মনসিংহ ৭৩.০৯%<br/>❏ শীর্ষ জেলা: ➺ পিরোজপুর ৯০.৬%<br/>❏ সর্বনিম্ন জেলা: ➺ বান্দরবান ৬৪.৪%<br/> ⇢ <br/>⛳ ▣ মৌলিক জনমিতিক পরিসংখ্যান<br/>❏ স্থূল জন্ম হার (প্রতি হাজার জনসংখ্যা), ২০২৩ ➺ ১৯.৪<br/>❏ স্থূল মৃত্যুহার (প্রতি হাজার জনসংখ্যা), ২০২৩ ➺ ৬.১<br/>❏ শিশু মৃত্যুহার (প্রতি হাজার জীবিত জন্মে), ২০২৩ (এক বছরের কম) ➺ ২৭.০<br/>❏ মোট উর্বরতা হার (প্রতি ১৫-৪৯ বৎসর বয়সী মহিলা), ২০২৩ ➺ ২.১৭<br/>❏ জন্মনিয়ন্ত্রণ পদ্ধতি ব্যবহারের হার (%), ২০২৩ ➺ ৬২.১<br/>❏ প্রত্যাশিত আয়ুষ্কাল (বছর), ২০২৩ - মোট ➺ ৭২.৩<br/>❏ প্রত্যাশিত আয়ুষ্কাল (বছর), ২০২৩ - পুরুষ ➺ ৭০.৮<br/>❏ প্রত্যাশিত আয়ুষ্কাল (বছর), ২০২৩ - মহিলা ➺ ৭৩.৮<br/>❏ বিবাহের গড় বয়স (প্রথম বিবাহ), ২০২৩ - পুরুষ ➺ ২৪.২<br/>❏ বিবাহের গড় বয়স (প্রথম বিবাহ), ২০২৩ - মহিলা ➺ ১৮.৪<br/>▣ সামাজিক সেবা<br/>❏ উন্নত টয়লেট সুবিধা (%), ২০২৩ ➺ ৯৩.৬<br/>❏ সাক্ষরতার হার (৭ বছর +), (%), ২০২৩ ➺ ৭৭.৯<br/>❏ সাক্ষরতার হার (৭ বছর +), (%) - পুরুষ ➺ ৮০.১<br/>❏ সাক্ষরতার হার (৭ বছর +), (%) - মহিলা ➺ ৭৫.৮<br/>▣ শ্রমশক্তি ও কর্মসংস্থান (শ্রমশক্তি জরিপ, ২০২৪ মোতাবেক)<br/>❏ মোট শ্রমশক্তি (১৫ বছর +) (মিলিয়ন) ➺ ৭১.৭১<br/>❏ শ্রমশক্তি - পুরুষ ➺ ৪৮.০২<br/>❏ শ্রমশক্তি - মহিলা ➺ ২৩.৬৯<br/>▣ মোট শ্রমশক্তির শতকরা হার হিসেবে (২০২৪)<br/>❏ কৃষি ➺ ৪৪.৬৭<br/>❏ শিল্প ➺ ১৭.৩৭<br/>❏ সেবা ➺ ৩৭.৯৬<br/>❏ বেকারত্বের শতকরা হার ➺ ৩.৬৬<br/>▣ দারিদ্র্য পরিস্থিতি, খানা আয়-ব্যয় জরিপ, ২০২২<br/>❏ দারিদ্র্যের হার (%) ➺ ১৮.৭<br/>❏ চরম দারিদ্র্যের হার (%) ➺ ৫.৬",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334329,
+    "question": "বাংলাদেশ টেস্ট ক্রিকেটের মর্যাদা লাভ করে কোন সালে?",
+    "options": [
+      "১৯৯৯",
+      "২০০০",
+      "২০০১",
+      "২০০২"
+    ],
+    "correct_answer": "২০০০",
+    "explanation": "📖 বাংলাদেশ ২০০০ সালের ২৬ জুন ১০ম টেস্ট খেলুড়ে দেশ হিসেবে আইসিসির পূর্ণ সদস্যপদ ও টেস্ট মর্যাদা লাভ করে।<br/> ⇢ <br/>⛳ বাংলাদেশ তাদের প্রথম টেস্ট ম্যাচ খেলে ২০০০ সালের ১০ নভেম্বর ভারতের বিপক্ষে ঢাকায়। সেই ম্যাচে বাংলাদেশের অধিনায়ক ছিলেন নাইমুর রহমান দুর্জয়।<br/>❏ টেস্ট ক্রিকেটে বাংলাদেশ জাতীয় ক্রিকেট দল:<br/>❏ টেস্ট স্ট্যাটাস লাভ করে: ২০০০ সালে।<br/>❏ সর্বপ্রথম টেস্ট ম্যাচ খেলে ২০০০ সালের ১০ই নভেম্বর ভারতের বিপক্ষে।<br/>❏ প্রথম টেস্ট ম্যাচে বাংলাদেশের অধিনায়ক ছিলেন নাইমুর রহমান।<br/>❏ প্রথম টেস্ট জয় পায় ২০০৫ সালে জিম্বাবুয়ের বিপক্ষে চট্টগ্রামে।<br/>❏ টেস্ট ক্রিকেটে বাংলাদেশের পক্ষে প্রথম সেঞ্চুরি করেন আমিনুল ইসলাম বুলবুল।<br/>❏ টেস্ট ক্রিকেটে বাংলাদেশের পক্ষে প্রথম ডাবল সেঞ্চুরি করেন মুশফিকুর রহিম।<br/>❏ টেস্টে বাংলাদেশের পক্ষে প্রথম ব্যক্তিগত হাজার রান সংগ্রাহক হাবিবুল বাশার।<br/>❏ বাংলাদেশ তার শততম টেস্ট খেলে শ্রীলঙ্কার বিপক্ষে।<br/>❏ ২০১৭ সালে শ্রীলঙ্কার কলম্বোয় ম্যাচটি অনুষ্ঠিত হয়।<br/>❏ শততম টেস্টে সেঞ্চুরি করেন বাংলাদেশের সেরা অলরাউন্ডার সাকিব আল হাসান।<br/>▣ অন্যদিকে,<br/>❏ মোহাম্মদ আশরাফুল টেস্ট ক্রিকেটের ইতিহাসে সর্বকনিষ্ঠ টেস্ট ক্রিকেটার হিসেবে সেঞ্চুরি করার গৌরব অর্জন করেন।<br/>❏ ২০০১ সালে বাংলাদেশ ও শ্রীলঙ্কার টেস্টের তৃতীয় দিনে আশরাফুল সবচেয়ে কম বয়সে টেস্ট সেঞ্চুরির রেকর্ড করেন।<br/>❏ বাংলাদেশ আন্তর্জাতিক ক্রিকেট কাউন্সিলের (ICC) পূর্ণাঙ্গ সদস্য হিসেবে ২০০০ সালের ২৬ জুন টেস্ট মর্যাদা লাভ করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334330,
+    "question": "বাংলাদেশ কোনটির সদস্য নয় ?",
+    "options": [
+      "BCIM EC",
+      "OAS",
+      "OIC",
+      "BIMSTEC"
+    ],
+    "correct_answer": "OAS",
+    "explanation": "📖 OAS (Organization of American States) হলো উত্তর ও দক্ষিণ আমেরিকার দেশগুলোর সংস্থা। বাংলাদেশ এশিয়া মহাদেশের দেশ হওয়ায় এর সদস্য নয়। বাংলাদেশ OIC, BIMSTEC এবং BCIM-এর সদস্য।<br/> ⇢ <br/>⛳ OAS: এর সদর দপ্তর ওয়াশিংটন ডিসি, যুক্তরাষ্ট্র। এটি আমেরিকা মহাদেশের আঞ্চলিক সংস্থা।<br/>❏ OIC: মুসলিম দেশগুলোর সংস্থা (বাংলাদেশ সদস্য)।<br/>❏ BIMSTEC: বঙ্গোপসাগরীয় অঞ্চলের দেশগুলোর সংস্থা (বাংলাদেশ সদস্য)।<br/> ⇢ <br/>⛳ বিভিন্ন আন্তর্জাতিক সংস্থায় বাংলাদেশের সদস্যপদ লাভ <br/>❏ সংস্থা/ সংগঠন ➺ সদস্যপদ লাভের তারিখ<br/>❏ বাংলাদেশ আনুষ্ঠানিক ভাবে ১৩৬ তম দেশ হিসেবে জাতিসংঘের সদস্যপদ লাভ করে কবে ➺ ১৯৭৪ সালের ১৭ সেপ্টেম্বর<br/>❏ কমনওয়েলথ (বাংলাদেশ সর্বপ্রথম আন্তর্জাতিক সংস্থার মধ্য কমনওয়েলথ এর সদস্যপদ লাভ করে) ➺ ১৮ এপ্রিল, ১৯৭২<br/>❏ জাতিসংঘ (UN) এর স্থায়ী পর্যবেক্ষক ➺ ১৭ অক্টোবর, ১৯৭২<br/>❏ জাতিসংঘ (UN) এর পূর্ণ সদস্যপদ (২৯তম অধিবেশনে) ➺ ১৭ সেপ্টেম্বর, ১৯৭৪<br/>❏ আন্তর্জাতিক অর্থ তহবিল (IMF) ➺ ১৭ জুন, ১৯৭২<br/>❏ পুনর্গঠন ও উন্নয়নের জন্য আন্তর্জাতিক ব্যাংক (IBRD) ➺ ১৭ আগস্ট, ১৯৭২<br/>❏ আন্তর্জাতিক উন্নয়ন সমিতি (IDA) ➺ ১৭ আগস্ট, ১৯৭২<br/>❏ আন্তর্জাতিক পুঁজি বিনিয়োগ সংস্থা (IFC) ➺ ১৮ জুন, ১৯৭৬<br/>❏ পুঁজি বিনিয়োগজনিত বিরোধ নিষ্পত্তির আন্তর্জাতিক কেন্দ্র (ICSID) ➺ ২৬ এপ্রিল, ১৯৮০<br/>❏ বহুপাক্ষিক বিনিয়োগ গ্যারান্টি সংস্থা (MIGA) ➺ ১২ এপ্রিল, ১৯৮৮<br/>❏ জাতিসংঘ শিক্ষা বিজ্ঞান ও সংস্কৃতি সংস্থা (UNESCO) ➺ ২৭ অক্টোবর, ১৯৭২<br/>❏ জাতিসংঘ শিল্প উন্নয়ন সংস্থা (UNIDO) ➺ ১১ ডিসেম্বর, ১৯৭২<br/>❏ জাতিসংঘের উন্নয়ন ও বাণিজ্য কর্মসূচি (UNCTAD) ➺ ২০ মে, ১৯৭২<br/>❏ বিশ্ব বাণিজ্য সংস্থা (WTO) ➺ ১ জানুয়ারি, ১৯৯৫<br/>❏ বিশ্ব স্বাস্থ্য সংস্থা (WHO) ➺ ১৭ মে, ১৯৭২<br/>❏ আন্তর্জাতিক শ্রম সংস্থা (ILO) ➺ ২২ জুন, ১৯৭২<br/>❏ খাদ্য ও কৃষি সংস্থা (FAO) ➺ ১২ নভেম্বর, ১৯৭৩<br/>❏ আন্তর্জাতিক আণবিক শক্তি সংস্থা (IAEA) ➺ ১৯৭২<br/>❏ এসকাপ (ESCAP) ➺ ১৭ এপ্রিল, ১৯৭৩<br/>❏ অর্থনৈতিক সহযোগিতা সংস্থা (ECO) ➺ ১৬ ফেব্রুয়ারি, ১৯৯২<br/>❏ জোট নিরপেক্ষ আন্দোলন (NAM) ➺ ১৯৭৩<br/>❏ ইসলামী সম্মেলন সংস্থা (OIC) ➺ ২৩ ফেব্রুয়ারি, ১৯৭৪<br/>❏ ইসলামী উন্নয়ন ব্যাংক (IDB) ➺ ১৯৭৪<br/>❏ এশীয় উন্নয়ন ব্যাংক (ADB) ➺ ১৯৭৩<br/>❏ আন্তর্জাতিক পুলিশ সংস্থা (Interpol) ➺ ১৪ অক্টোবর, ১৯৭৬<br/>❏ রেডক্রস ও রেড ক্রিসেন্ট ➺ ৩১ মার্চ, ১৯৭৩",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334331,
+    "question": "বাংলায় স্বাধীন সুলতানি শাসন প্রতিষ্ঠা করেন কে?",
+    "options": [
+      "আলীবর্দী খাঁ",
+      "ইখতিয়ার উদ্দিন মুহম্মদ বখতিয়ার খলজি",
+      "সিরাজউদ্দৌলা",
+      "ফখরুদ্দিন মোবারক শাহ"
+    ],
+    "correct_answer": "ফখরুদ্দিন মোবারক শাহ",
+    "explanation": "📖 ফখরুদ্দিন মোবারক শাহ ১৩৩৮ সালে সোনারগাঁয়ে স্বাধীন সুলতানি যুগের সূচনা করেন। তিনি ছিলেন বাংলার প্রথম স্বাধীন সুলতান। বাংলায় মুসলিম শাসনের সূচনা করেন ইখতিয়ার উদ্দিন মুহম্মদ বিন বখতিয়ার খলজি । তিনি ১২০৪ সালে বাংলা জয় করেন । বাংলার শেষ স্বাধীন নবাব ছিলেন সিরাজউদ্দৌলা । আলীবর্দী খান ছিলেন তার নানা ।<br/> ⇢ <br/>⛳ দিল্লির তুঘলক সালতানাতের বিরুদ্ধে বিদ্রোহ ঘোষণা করে ফখরুদ্দিন মোবারক শাহ স্বাধীনতা ঘোষণা করেন। তাঁর রাজধানী ছিল সোনারগাঁও। তিনি ১৩৩৮ থেকে ১৩৪৯ সাল পর্যন্ত রাজত্ব করেন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334332,
+    "question": "পলাশীর যুদ্ধ সংঘটিত হয় ১৭৫৭ সালের ?",
+    "options": [
+      "২২ জুন",
+      "২৩ জুন",
+      "২৪ জুন",
+      "২১ জুন"
+    ],
+    "correct_answer": "২৩ জুন",
+    "explanation": "📖 ১৭৫৭ সালের ২৩ জুন ভাগীরথী নদীর তীরে পলাশীর আমবাগানে পলাশীর যুদ্ধ সংঘটিত হয়। এতে নবাব সিরাজউদ্দৌলা পরাজিত হন।<br/> ⇢ <br/>⛳ পলাশীর যুদ্ধ:- পলাশীর যুদ্ধ ভারতের ইতিহাসে নতুন যুগের সূচনা করে।<br/>❏ ১৭৫৭ সালের ২৩ জুন পলাশীর আমবাগানের যুদ্ধে স্বাধীন বাংলার নবাব ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির কাছে পরাজিত হয়।<br/>❏ ফলে প্রায় ২০০ বছরের জন্য বাংলা স্বাধীনতা হারায়।<br/>❏ প্রতি বছর সে জন্য ২৩ জুন পলাশী দিবস হিসাবে পালিত হয়।<br/>❏ বাংলার শেষ স্বাধীন নবাব সিরাজ-উদ-দৌলা ও ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির পলাশী নামক স্থানে যে যুদ্ধ সংঘটতি হয়েছিল তাই পলাশীর যুদ্ধ নামে পরচিতি।<br/>❏ ক্লাইভ ১৭৫৭ সালে সিরাজ-উদ-দৌলাকে পরাজিত করেন এবং কলকাতা দখল করেন।<br/>❏ এই যুদ্ধে সিরাজ-উদ-দৌলা পরাজতি হন এবং ভারতবর্ষে ইংরজে শাসন প্রতষ্ঠিার পথ সূচিত হয়।<br/>❏ নবাবের সাথে বিশ্বাসঘাতকতা করে জগৎশেঠ, মীরজাফর, রায়দুর্লভ ও উমিচাদ।<br/>❏ নবাবের পক্ষে যুদ্ধ করেন মীরমদন, মোহন লাল ও ফরাসি সেনাপতি সিন ফ্রে।<br/>❏ ভাগীরথী নদীর তীরে পলাশীর আম্রকাননে সংঘটিত এই যুদ্ধে নবাব সিরাজুদ্দৌলা পরাজিত হন এবং এর ফলে বাংলার স্বাধীনতার সূর্য স্তিমিত হয়।<br/>❐ বাংলায় প্রায় দুইশ বছরের ইংরেজ শাসনের সূত্রপাত ঘটে।<br/>❐ এই যুদ্ধে নবাবের পক্ষে ছিলেন দেশপ্রেমিক মীরমদন, মোহন লাল এবং ফরাসি সেনাপতি সিন ফ্রে।<br/>❐ জেতার সবধরণের সুযোগ সুবিধা এবং এদের প্রাণপাত লড়াইয়ের পরও নবাব পরাজিত হন তার সেনাপতি মীরজাফরের বিশ্বাসঘাতকতার কারণে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334333,
+    "question": "নিচের কোনটি একই সাথে ইনপুট ও আউটপুট ডিভাইস হিসেবে কাজ করে ?",
+    "options": [
+      "প্রিন্টার",
+      "মাইক্রোফোন",
+      "টাচস্ক্রিন",
+      "মাউস"
+    ],
+    "correct_answer": "টাচস্ক্রিন",
+    "explanation": "📖 টাচস্ক্রিন (Touchscreen) একই সাথে ইনপুট ও আউটপুট ডিভাইস। কারণ স্ক্রিনে আমরা দৃশ্যমান ফলাফল দেখি (আউটপুট) এবং আঙুলের স্পর্শের মাধ্যমে নির্দেশ প্রদান করি (ইনপুট)।<br/> ⇢ <br/>⛳ ইনপুট-আউটপুট উভয় হিসেবে কাজ করে এমন আরও কিছু ডিভাইস হলো:<br/>❏ মডেম (Modem): ডেটা পাঠায় এবং গ্রহণ করে।<br/>❏ নেটওয়ার্ক কার্ড (NIC): ডেটা আদান-প্রদান করে।<br/>❏ হেডসেট (Headset): স্পিকার (আউটপুট) ও মাইক্রোফোন (ইনপুট) একসাথে থাকে।<br/> ⇢ <br/>⛳ টাচস্ক্রিন (Touchscreen) একটি এমন ডিভাইস যা ইনপুট (আঙুলের স্পর্শ) এবং আউটপুট (প্রদর্শন) উভয় কাজই করতে পারে। এটি বর্তমানে স্মার্টফোন, ট্যাবলেট ও অনেক ল্যাপটপে ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334334,
+    "question": "EPI এর পূর্ণরূপ?",
+    "options": [
+      "Expanded Programme on Immune",
+      "Expanded Programme on Immunization",
+      "Expanded Programme on International",
+      "Expanded Programme on Institute"
+    ],
+    "correct_answer": "Expanded Programme on Immunization",
+    "explanation": "📖 EPI-এর পূর্ণরূপ হলো Expanded Programme on Immunization। এটি বিশ্ব স্বাস্থ্য সংস্থার একটি কর্মসূচি যা শিশুদের সংক্রামক রোগ থেকে রক্ষার জন্য টিকা প্রদান করে।<br/> ⇢ <br/>⛳ বাংলাদেশে ১৯৭৯ সালে EPI কর্মসূচি চালু হয়। এর আওতায় শিশুদের যক্ষ্মা, পোলিও, ডিপথেরিয়া, হুপিং কাশি, ধনুষ্টঙ্কার ও হাম - এই ৬টি (বর্তমানে আরও যুক্ত হয়েছে) মারাত্মক রোগের টিকা দেওয়া হয়।<br/> ⇢ <br/>⛳ EPI-এর পূর্ণরূপ হলো \"Expanded Programme on Immunization\"। বাংলায় এটি 'সম্প্রসারিত টিকাদান কর্মসূচি' নামে পরিচিত। বিশ্ব স্বাস্থ্য সংস্থার এই কর্মসূচির আওতায় শিশুদের বিভিন্ন রোগের টিকা দেওয়া হয়।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334335,
+    "question": "কোণ ভিটামিনের অভাবে রক্ত তঞ্চন ব্যহত হয়?",
+    "options": [
+      "ভিটামিন-A",
+      "ভিটামিন- B12",
+      "ভিটামিন-C",
+      "ভিটামিন-K"
+    ],
+    "correct_answer": "ভিটামিন-K",
+    "explanation": "📖 ভিটামিন-K শরীরে 'প্রোথ্রম্বিন' তৈরি করতে সাহায্য করে, যা রক্ত জমাট বাঁধতে বা তঞ্চনে সহায়তা করে। এর অভাবে কোথাও কেটে গেলে রক্তপড়া বন্ধ হতে চায় না।<br/> ⇢ <br/>⛳ ভিটামিন-K এর রাসায়নিক নাম ফাইলোকুইনন (Phylloquinone)। সবুজ শাকসবজি, বাঁধাকপি, পালংশাক ইত্যাদিতে প্রচুর পরিমাণে ভিটামিন-K পাওয়া যায়। এটি রক্তক্ষরণ রোধে অপরিহার্য।<br/> ⇢ <br/>⛳ রক্ত জমাট বাঁধা বা রক্ত তঞ্চন (Blood Clotting) প্রক্রিয়ার জন্য ভিটামিন-K অপরিহার্য। এই ভিটামিনের অভাবে রক্ত জমাট বাঁধতে বিলম্ব হয় এবং অতিরিক্ত রক্তপাত হতে পারে।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334336,
+    "question": "চিকনগুনিয়া কি বাহিত রোগ?",
+    "options": [
+      "মশা",
+      "পানি",
+      "বায়ু",
+      "মানুষ"
+    ],
+    "correct_answer": "মশা",
+    "explanation": "📖 চিকনগুনিয়া একটি ভাইরাসজনিত রোগ যা মশার মাধ্যমে ছড়ায়। এডিস ইজিপ্টি (Aedes aegypti) এবং এডিস অ্যালবোপিকটাস (Aedes albopictus) মশা এই রোগের বাহক।<br/> ⇢ <br/>⛳ চিকনগুনিয়া টোগাভাইরিডি (Togaviridae) গোত্রের আলফা ভাইরাস দ্বারা সৃষ্ট। এই রোগের প্রধান লক্ষণ হলো তীব্র জ্বর এবং হাড়ের জয়েন্টে বা গিঁটে প্রচণ্ড ব্যথা। ডেঙ্গুর মতো এটিও এডিস মশার কামড়ে ছড়ায়।<br/> ⇢ <br/>⛳ চিকনগুনিয়া একটি ভাইরাসজনিত রোগ, যা মূলত 'এডিস মশা' (Aedes Mosquito)-এর কামড়ের মাধ্যমে ছড়ায়। এডিস ইজিপ্টি এবং এডিস অ্যালবোপিকটাস মশার মাধ্যমে এই ভাইরাস মানুষ থেকে মানুষে সংক্রমিত হয়।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334337,
+    "question": "কোথায় সাঁতার কাটা সহজ?",
+    "options": [
+      "পুকুরে",
+      "খালে",
+      "নদীতে",
+      "সাগরে"
+    ],
+    "correct_answer": "সাগরে",
+    "explanation": "📖 সাগরের পানিতে বিভিন্ন লবণ দ্রবীভূত থাকায় এর ঘনত্ব পুকুর বা নদীর পানির চেয়ে বেশি। আর্কিমিডিসের সূত্রানুযায়ী, ঘনত্ব বেশি হলে প্লবতা (ঊর্ধ্বমুখী বল) বেশি হয়, তাই সাগরে শরীর বেশি ভেসে থাকে এবং সাঁতার কাটা সহজ হয়।<br/> ⇢ <br/>⛳ সাধারণ পানির ঘনত্ব ১ গ্রাম/সিসি, কিন্তু সমুদ্রের পানির ঘনত্ব প্রায় ১.০২৫ গ্রাম/সিসি। ঘনত্ব বেশি হওয়ার কারণে সমুদ্রের পানি কোনো বস্তুকে ওপরের দিকে বেশি জোরে ধাক্কা দেয় (প্লবতা)। ফলে সাঁতারুর শরীর সহজে ভেসে থাকে।<br/> ⇢ <br/>⛳ সমুদ্র বা সাগরের পানিতে লবণের পরিমাণ বেশি থাকে। লবণাক্ত পানি মিষ্টি পানির চেয়ে ঘন হয়, ফলে এতে মানুষের দেহ অনেক বেশি ভাসিতে থাকে। তাই সাগরে সাঁতার কাটা পুকুর বা নদীর তুলনায় সহজ।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334338,
+    "question": "অগ্নিনির্বাপক সিলিন্ডারে কী থাকে?",
+    "options": [
+      "তরল কার্বন ডাই অক্সাইড",
+      "তরল অ্যামোনিয়া",
+      "তরল নাইট্রোজেন",
+      "পানি"
+    ],
+    "correct_answer": "তরল কার্বন ডাই অক্সাইড",
+    "explanation": "📖 অগ্নিনির্বাপক সিলিন্ডারে প্রধানত তরল কার্বন ডাই অক্সাইড (CO2) থাকে। এটি বাতাসের অক্সিজেনের চেয়ে ভারী হওয়ায় আগুনের চারপাশে আবরণ তৈরি করে অক্সিজেন সরবরাহ বন্ধ করে দেয়।<br/> ⇢ <br/>⛳ আগুন জ্বলার জন্য অক্সিজেনের প্রয়োজন। কার্বন ডাই অক্সাইড গ্যাস বাতাসের চেয়ে ভারী বলে এটি আগুনের ওপর একটি কম্বলের মতো আস্তরণ তৈরি করে। ফলে বাতাসের অক্সিজেন আগুনের সংস্পর্শে আসতে পারে না এবং আগুন নিভে যায়।<br/> ⇢ <br/>⛳ সাধারণ অগ্নিনির্বাপক সিলিন্ডারে (Red Color) তরল কার্বন ডাই অক্সাইড (CO2) থাকে। এটি জ্বালানির সংস্পর্শে এসে অগ্নি নেভানোর জন্য ব্যবহৃত হয়। এটি বৈদ্যুতিক আগুন নেভাতেও ব্যবহৃত হয়।",
+    "hints": "",
+    "subject": "সাধারণ বিজ্ঞান",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334339,
+    "question": "'মৃতের মতো অবস্থা যার' এর সংক্ষিপ্ত রূপ কোনটি?",
+    "options": [
+      "মুমূর্ষু",
+      "মুমুর্ষ",
+      "মূমুর্ষু",
+      "মুমুর্ষু"
+    ],
+    "correct_answer": "মুমূর্ষু",
+    "explanation": "📖 সঠিক বানান ও এক কথায় প্রকাশ হলো 'মুমূর্ষু' (ময় হ্রস্ব উ, ময় দীর্ঘ ঊ, ষয় রেফ হ্রস্ব উ)।<br/> ⇢ <br/>⛳ বানানটি মনে রাখার সহজ সূত্র: উ-ঊ-উ।<br/>❏ অর্থাৎ, প্রথম 'ম'-এ হ্রস্ব উ-কার (মু), দ্বিতীয় 'ম'-এ দীর্ঘ ঊ-কার (মূ), এবং শেষে 'ষ'-এ রেফ ও হ্রস্ব উ-কার (র্ষু) = মুমূর্ষু।<br/> ⇢ <br/>⛳ 'মৃতের মতো অবস্থা যার' বা যে মৃত্যুশয্যায় শায়িত, তাকে এক কথায় 'মুমূর্ষু' বলা হয়। বানানে 'ত' এবং 'দ' উভয় বর্ণই দ্বিত্ব বা যুক্তবর্ণ (মুম্ + ঊর্ + ষু) বহন করে। তবে মুমূর্ষু শব্দটি প্রমিত বানান।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334340,
+    "question": "জসীমউদ্‌দীনের ১ম প্রকাশিত কাব্যগ্রন্থ কোনটি?",
+    "options": [
+      "রাখালী",
+      "সোজন বাদিয়ার ঘাট",
+      "নকশীকাঁথার মাঠ",
+      "বালুচর"
+    ],
+    "correct_answer": "রাখালী",
+    "explanation": "📖 পল্লিকবি জসীমউদ্‌দীনের প্রথম প্রকাশিত কাব্যগ্রন্থ 'রাখালী' (১৯২৭)। এই কাব্যগ্রন্থেই তাঁর বিখ্যাত 'কবর' কবিতাটি সংকলিত আছে।<br/> ⇢ <br/>📖 'রাখালী' পল্লীকবি জসীমউদ্দীনের প্রথম কাব্যগ্রন্থ। এটি প্রথম প্রকাশিত হয় ১৯২৭ সালে। বইটিতে মোট ১৯টি কবিতা আছে। তাঁর বিখ্যাত কবর কবিতাটি এই কাব্যগ্রন্থের অন্তর্গত।<br/>❏ 'কবর' কবিতাটি প্রথম প্রকাশিত হয় কল্লোল পত্রিকায়। এটি মাত্রাবৃত্ত ছন্দে রচিত যাতে ১১৮টি পঙক্তি আছে। এটি কবি জসীম উদ্দীনের বহুল পঠিত ও নন্দিত কবিতা। এটি একটি শোক-প্রকাশক কবিতা।<br/>❏ জসীমউদ্দীন (১৯০৩-১৯৭৬)<br/>❏ জসীমউদ্দীনের রচনা– ঠাকুরবাড়ির আঙিনায়।<br/>❏ তার রচিত একমাত্র উপন্যাস– ‘বোবাকাহিনী’।<br/>❏ জসীমউদ্দীনের শ্রেষ্ঠ কাহিনিকাব্য– নকশী কাঁথার মাঠ।<br/>❏ ‘কবর’ কবিতা যে ছন্দে রচিত– মাত্রাবৃত্ত।<br/>❏ কবি জসীমউদ্দীনের শিশুতোষ গ্রন্থ– এক পয়সার বাঁশী।<br/>❏ কবি জসীমউদ্দীনের ‘কবর’ কবিতার বিষয়বস্তু হলো– প্রিয়জন হারানোর মর্মান্তিক স্মৃতিচারণ।<br/>❏ ‘The Field of the Embroidered Quilt’ কাব্যটি কবি জসীমউদ্দীনের যে কাব্যের ইংরেজি অনুবাদ– নকশী কাঁথার মাঠ।<br/>❏ ‘কবর’ কবিতায় পঙক্তি রয়েছে– ১১৮টি।<br/>❏ জসীমউদ্দীনের যে কাব্যগ্রন্থ বিভিন্ন ভাষায় অনূদিত হয়েছে– নকশী কাঁথার মাঠ।<br/>❏ ‘সোজন বাদিয়ার ঘাট’ এর রচয়িতা– জসীমউদ্দীন।<br/>❏ ‘নকশী কাঁথার মাঠ’ এর রচয়িতা– জসীমউদ্দীন।<br/>❏ জসীমউদ্দীনের ‘আসমানী’ চরিত্রটির বাড়ি– ফরিদপুর জেলায়।<br/>❏ জসীমউদ্দীন রচিত ‘নিমন্ত্রণ’ কবিতাটি যে গ্রন্থের অন্তর্ভুক্ত– ধানক্ষেত।<br/>❏ ‘নক্সী কাঁথার মাঠ’ কোন জাতীয় কাব্য– কাহিনি কাব্য।<br/>❏ পল্লীকবি জসীমউদ্দীন মারা যান– ১৯৭৬ সালে।<br/>❏ ‘পল্লীকবি’ কাকে বলা হয়– জসীমউদ্দীন।<br/>❏ ‘রাখালী’ কাব্যের রচয়িতা– জসীমউদ্দীন।<br/>❏ ’কবর’ কবিতাটি যে কবির রচনা– জসীমউদ্দীন। ‘<br/>❏ কবি জসীমউদ্দীনের ভ্রমণ কাহিনীমূলক গ্রন্থ– চলে মুসাফির।<br/>❏ জসীমউদ্দীনের কবর কবিতাটি কোন কাব্যগ্রন্থের অন্তর্ভুক্ত– রাখালী।<br/>❏ কবি জসীমউদ্দীনের জীবনকাল– ১৯০৩-১৯৭৬<br/>❏ জসীমউদ্দীনের প্রথম প্রকাশিত কাব্যগ্রন্থ– রাখালী।<br/>❏ জসীমউদ্দীনের ’কবর’ কবিতা যে পত্রিকায় প্রথম প্রকাশিত হয়– কল্লোল।<br/>❏ তাম্বুলখানা গ্রামে জন্মেছিলেন যে কবি– জসীমউদ্দীন।<br/>❏ ‘রাখালী’ কাব্যটির রচয়িতা– পল্লীকবি জসীমউদ্দীন।<br/>❏ জসীমউদ্দীনের নাটক– বেদের মেয়ে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334341,
+    "question": "'বনফুলের' প্রকৃত নাম কি?",
+    "options": [
+      "বলাই চাঁদ চট্টোপাধ্যায়",
+      "বলাইচাঁদ ভট্টাচার্য",
+      "বলাইচাঁদ মুখোপাধ্যায়",
+      "বলাইচাঁদ বন্দোপাধ্যায়"
+    ],
+    "correct_answer": "বলাইচাঁদ মুখোপাধ্যায়",
+    "explanation": "📖 'বনফুল' হলো প্রখ্যাত কথাসাহিত্যিক বলাইচাঁদ মুখোপাধ্যায়ের ছদ্মনাম। তিনি তাঁর ক্ষুদ্রগল্প বা অণুগল্পের জন্য বিখ্যাত।<br/> ⇢ <br/>⛳ বলাইচাঁদ মুখোপাধ্যায়:<br/>▣ লেখক হিসেবে বলাইচাঁদ মুখোপাধ্যায় হাজারেরও বেশি কবিতা, ৫৮৬টি ছোট গল্প, ৬০টি উপন্যাস, ৫টি নাটক, জীবনী ছাড়াও অসংখ্য প্রবন্ধ রচনা করেছেন। তার রচনাবলীসমগ্র ২২ খণ্ডে প্রকাশিত হয়েছে ।<br/>❏ বলাইচাঁদ মুখোপাধ্যায়ের ছদ্মনাম 'বনফুল'।<br/>▣ বলাইচাঁদ মুখোপাধ্যায় নাটক রচনাতে কৃতিত্বের স্বাক্ষর রেখেছেন। প্রহসন, একাঙ্কিকা, চিত্রনাট্য, নাটিকা ছাড়াও তিনি বিখ্যাত ব্যক্তিদের জীবনচরিত অবলম্বন করে নাটক রচনা করেন, যাতে পাওয়া যায় তাঁর সৃজনশীল প্রতিভার অপর একটি ভিন্ন রূপের পরিচয়।<br/>▣ উনিশ শতকের দুই বিখ্যাত ব্যক্তিত্ব মাইকেল মধুসূদন দত্ত ও ঈশ্বরচন্দ্র বিদ্যাসাগরকে নিয়ে লেখা তাঁর নাটক, শ্রীমধুসূদন (১৯৪০) ও বিদ্যাসাগর (১৯৪১)।<br/>▣ বলাইচাঁদ মুখোপাধ্যায় এ দুটি নাটকের মাধ্যমে জনসাধারণের মধ্যে এঁদের ব্যাপকভাবে ও যথার্থরূপে পরিচিত করিয়ে দেন।<br/>▣ বাংলা সাহিত্যে বলাইচাঁদ মুখোপাধ্যায়কে বলা যেতে পারে এ ধারার নাটক রচনার পথিকৃৎ।<br/>▣ ‘পাঠকের মৃত্যু’ বলাইচাঁদ মুখোপাধ্যায় রচিত গল্প।<br/>❏ তাঁর উল্লেখযোগ্য গল্পগ্রন্থ: বনফুলের গল্প, বিন্দুবিসর্গ, অদৃশ্যলোকে, তন্বী, অনুগামিনী, দূরবীণ, মণিহারী, বহুবর্ণ, বনফুলের নতুন গল্প প্রভৃতি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334342,
+    "question": "বাংলা লিপির উৎস কি?",
+    "options": [
+      "সংস্কৃতি লিপি",
+      "চীনা লিপি",
+      "আরবি লিপি",
+      "ব্রাহ্মী লিপি"
+    ],
+    "correct_answer": "ব্রাহ্মী লিপি",
+    "explanation": "📖 বাংলা লিপির উদ্ভব হয়েছে প্রাচীন ব্রাহ্মী লিপি থেকে। ব্রাহ্মী লিপির পূর্ব ভারতীয় রূপ 'কুটিল' লিপি থেকেই কালক্রমে বাংলা লিপির রূপ লাভ করে।<br/>📝 <b>◈ বাংলা লিপির উৎপত্তি:</b><br/>▣ বাংলা ভাষার নিজস্ব লিপি রয়েছে। এই লিপির নাম বাংলা লিপি।<br/>▣ বাংলা লিপিতে মূল বর্ণের সংখ্যা ৫০টি- স্বরবর্ণ ১১টি এবং ব্যঞ্জনবর্ণ ৩৯টি।<br/>▣ বাংলা লিপির উদ্ভব হয়েছে ব্রাহ্মী লিপি থেকে।<br/>❏<b> তাই বাংলা বর্ণমালার উৎস ব্রাহ্মী লিপি। </b><br/>▣ প্রায় আড়াই বছর আগে উপমহদেশে ব্রাহ্মী লিপির জন্ম হয়। ব্রাহ্মী লিপির পূর্ব-ভারতীয় শাখা দশম শতক নাগাদ কুটিল লিপি নামে পরিচিতি লাভ করে। বাংলা লিপি এই কুটিল লিপির পরিবর্তিত রূপ। অহমিয়া, বোড়ো, মণিপুর প্রভৃতি ভাষাও বাংলা লিপিতে রেখা হয়। সংস্কৃত এবং মৈথিলি ভাষা এক সময়ে এই লিপিতে লেখা হত।<br/>▣ বাংলা লিপির উদ্ভব হয়েছে ব্রাহ্মী লিপির পূর্ব-ভারতীয় শাখা কুটিল লিপি থেকে। <br/>ব্রাহ্মী লিপির তিনটি রূপ রয়েছে।<br/>যথা:<br/>❏ সারদা,<br/>❏ নাগর ও<br/>❏ কুটিল।<br/>▣ উল্লেখ্য,<br/>❏ পাল যুগে লিপির কাজ শুরু হলেও সেন যুগে লিপির সুসংগঠন হয়।<br/>❏ চার্লস উইলকিন্স বাংলা লিপির প্রথম নকশা করেন, কিন্তু আধুনিক রূপ দেন পঞ্চানন কর্মকার।<br/>❏ তাই বাংলা লিপির জনক বা প্রথম নকশাকারক চার্লস উইলকিন্স হলেও আধুনিকতার রূপকার পঞ্চানন কর্মকার।<br/>❏ 📝বাংলা লিপির গঠন কাজ শুরু হয় - পাল আমলে।<br/>▣ বাংলা লিপির ইতিবৃত্ত:<br/>❏ জাপানের হরিয়জি বৌদ্ধমঠে ৬ষ্ঠ শতাব্দীর একটি হস্তলিখিত পুথি আছে যেখানে প্রাচ্যলিপির নমুনা পাওয়া যায়।<br/>❏ ৭ম শতাব্দীর লিপির প্রমাণ মেলে আদিত্য সেন নামক এক মগধরাজের অনুশাসনকালে।<br/>❏ পরে এ অঞ্চলের পালরাজাদের সময় লিপি ক্রমবিবর্তিত হয়ে বাংলা লিপির রূপ পরিগ্রহ করে।<br/>❏ ৯ম শতাব্দীতে বাংলাদেশের পালবংশীয় রাজা নারায়ণ পালের তাম্রশাসনে বাংলা লিপির সুস্পষ্টরূপ পরিলক্ষিত হয়। আজকের বাংলা লিপি সেই ধারার পরবর্তী রূপ।<br/> ⇢ <br/>⛳ লিপির বিবর্তনের ধারাটি হলো:<br/>❏ ব্রাহ্মী লিপি → গুপ্ত লিপি → কুটিল লিপি → বাংলা লিপি।<br/>❏ সম্রাট অশোকের শিলালিপিতে ব্রাহ্মী লিপির নিদর্শন পাওয়া যায়।<br/> ⇢ <br/>⛳ বাংলা লিপির উৎস হলো 'ব্রাহ্মী লিপি'। প্রায় খ্রিষ্টপূর্ব তৃতীয় শতকে ভারতবর্ষে ব্রাহ্মী লিপির প্রচলন ছিল, যা থেকে কালক্রমে গুপ্ত, কুটিল ও সিদ্ধমাত্রিক লিপির মাধ্যমে বাংলা লিপির উদ্ভব হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334343,
+    "question": "'সনেট' শব্দটি কোন ভাষা থেকে আগত?",
+    "options": [
+      "ইতালিয়ান",
+      "ইংরেজী",
+      "জার্মানী",
+      "ফ্রেঞ্চ"
+    ],
+    "correct_answer": "ইতালিয়ান",
+    "explanation": "📖 'সনেট' (Sonnet) শব্দটি ইতালিয়ান শব্দ 'Sonetto' থেকে এসেছে, যার অর্থ 'মৃদু ধ্বনি'। সনেটের জনক হলেন ইতালিয়ান কবি পেত্রার্ক।<br/> ⇢ <br/>⛳ সনেট হলো ১৪ চরণ বা লাইনের কবিতা। এর প্রতিটি চরণে সাধারণত ১৪টি অক্ষর বা মাত্রা থাকে। বাংলা সাহিত্যে সনেটের প্রবর্তক মাইকেল মধুসূদন দত্ত। তিনি একে 'চতুর্দশপদী কবিতা' নাম দিয়েছিলেন।<br/> ⇢ <br/>⛳ <b> সনেট (Sonnet):</b><br/>❐ গীতিকবিতার যে রূপটি চৌদ্দ চরণ এবং চৌদ্দ মাত্রার সমন্বয়ে গঠিত হয় তাকে চতুর্দশপদী কবিতা বা সনেট বলে ।<br/>❐ কবিতাগুলো ১৪টি চরণে সংগঠিত হয়।<br/>❐ একটি আদর্শ সনেটের দুটি অংশ থাকে। যেমন: অষ্টক ও ষটক।<br/>❐ প্রথম ৮ চরণকে অষ্টক (Octave) এবং শেষ ৬ চরণকে ষটক (Sestet) বলা হয়।<br/>❐ সনেটের জনক - ইতালীয় কবি পেত্রার্ক।<br/>❐ বাংলা ভাষায় প্রথম সনেট রচনা করেন - মাইকেল মধুসূদন দত্ত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334344,
+    "question": "'নৌকাডুবি' রবীন্দ্রনাথ ঠাকুরের রচিত একটি ……… ।",
+    "options": [
+      "গল্প",
+      "নাটক",
+      "উপন্যাস",
+      "কবিতা"
+    ],
+    "correct_answer": "উপন্যাস",
+    "explanation": "📖 'নৌকাডুবি' রবীন্দ্রনাথ ঠাকুর রচিত একটি সামাজিক উপন্যাস। এটি ১৩১০-১১ বঙ্গাব্দে 'বঙ্গদর্শন' পত্রিকায় প্রকাশিত হয়।<br/> ⇢ <br/>⛳ রবীন্দ্রনাথ ঠাকুর:<br/>❏ তিনি ছিলেন কবি, সঙ্গীতজ্ঞ, কথাসাহিত্যিক, নাট্যকার, চিত্রশিল্পী, প্রাবন্ধিক, দার্শনিক, শিক্ষাবিদ ও সমাজ-সংস্কারক।<br/>❏ রবীন্দ্রনাথ ঠাকুরের জন্ম ১৮৬১ সালের ৭ মে (১২৬৮ বঙ্গাব্দের ২৫ বৈশাখ) কলকাতার জোড়াসাঁকোর অভিজাত ঠাকুর পরিবারে।<br/>❏ তাঁর পিতা মহর্ষি দেবেন্দ্রনাথ ঠাকুর এবং পিতামহ প্রিন্স দ্বারকানাথ ঠাকুর।<br/>❏ এশিয়ার বরেণ্য ব্যক্তিদের মধ্যে তিনিই প্রথম ১৯১৩ সালে নোবেল পুরস্কারে ভূষিত হন।<br/>❏ রবীন্দ্রনাথ ছিলেন দেবেন্দ্রনাথ ঠাকুরের চতুর্দশ সন্তান।<br/>❏ ১৮৮৩ সালের ৯ ডিসেম্বর বেণীমাধব রায়চৌধুরীর মেয়ে মৃণালিনী দেবী রায়চৌধুরীকে বিয়ে করেন রবীন্দ্রনাথ ঠাকুর।<br/>❏ তিনি ১৯১৫ সালে ইংরেজ প্রদত্ত ‘নাইট’ উপাধি পান এবং ১৯১৯ সালে পাঞ্জাবের জালিয়ানওয়ালাবাগ হত্যাকাণ্ডের কারণে ‘নাইট’ উপাধি ফিরিয়ে দেন।<br/>❏ ১৯৪১ সালের ৭ আগস্ট (২২ শ্রাবণ ১৩৪৮) জোড়াসাঁকোর নিজ বাড়িতে রবীন্দ্রনাথ ঠাকুর শেষ নিঃশ্বাস ত্যাগ করেন।<br/>▣ রবীন্দ্রনাথ ঠাকুর মোট নয়টি ছদ্মনাম ব্যবহার করতেন। এগুলো হলো-<br/>❏ ভানুসিংহ ঠাকুর,<br/>❏ অকপটচন্দ্র ভাস্কর,<br/>❏ আন্নাকালী পাকড়াশী,<br/>❏ দিকশূন্য ভট্টাচার্য,<br/>❏ নবীনকিশোর শর্মণঃ,<br/>❏ ষষ্ঠীচরণ দেবশর্মাঃ,<br/>❏ বাণীবিনোদ বিদ্যাবিনোদ,<br/>❏ শ্রীমতি মধ্যমা ও<br/>❏ শ্রীমতি কনিষ্ঠা।<br/> ⇢ <br/>⛳ রবীন্দ্রনাথ ঠাকুর এর প্রধান সাহিত্য কর্ম<br/>❏ ছোটগল্প: (১১৯ টি):রবীন্দ্রনাথের প্রথম ছোটগল্প ‘ ভিখারিনী ’ (১৮৭৭) ভারতী পত্রিকায় ১৮৭৪ খ্রি: প্রকাশিত হয়। এরপর ১৮৮৪– ৮৫ তে ঘাটের কথা, রাজপথের কথা ও মুকুট নামে গল্পগুলো প্রকাশিত হলেও ১৮৯০ সালে হিতবাদী পত্রিকায় প্রকাশিত দেনা-পাওনা গল্পটিই রবীন্দ্রনাথ তথা বাংলা সাহিত্যের প্রথম সার্থক ছোট গল্প। তাই রবীন্দ্রনাথ ঠাকুর সার্থক ছোট গল্পের জনক।<br/>❏ প্রেমের গল্প: পাত্র ও পাত্রী, শেষের রাত্রি, শেষ কথা, একরাত্রি, দৃষ্টিদান, মাল্যদান, সমাপ্তি, ল্যাবরেটরি, নষ্টনীড়, মধ্যবর্তিনী, প্রায়শ্চিত্ত, মানভঞ্জন, দুরাশা, স্ত্রীর পত্র, শেষকথা, অধ্যাপক; মহামায়া, শান্তি, রবিবার।<br/>❏ সামাজিক গল্প: অপরিচিতা, পোস্টমাস্টার, হৈমন্তী — গল্পে যৌতুক প্রথা প্রাধান্য পেয়েছে, ছুটি, কাবুলিওয়ালা, দেনা-পাওনা, পণরক্ষা, কর্মফল, ব্যবধান, মেঘ ও রৌদ্র, দিদি, যজ্ঞেশ্বরের যজ্ঞ, দান-প্রতিদান, পুত্রযজ্ঞ, খোকাবাবুর প্রত্যাবর্তন।<br/>❏ অতিপ্রাকৃত গল্প: ক্ষুধিত পাষাণ,নিশীথে, মণিহার, গুপ্তধন,, কঙ্কাল, জীবিত ও মৃত,মাস্টারমশাই।<br/>❏ মনে রাখুন:<br/>❏ ⇒ দেনা-পাওনা (ছোটগল্প)-রবীন্দ্রনাথ ঠাকুর। দেনা-পাওনা (উপন্যাস) শরৎচন্দ্র চট্টোপাধ্যায়।<br/>❏ ⇒ ক্ষুধিত-পাষাণ, কাবুলিওয়ালা, মুকুট ও সুভা প্রভৃতি সৃষ্টিকর্মে মুসলমান চরিত্র রয়েছে।<br/>❏ ⇒ প্রকৃতি ও মানব মনের নিবিড় সম্পর্ক সূচক গল্পঃ- সুভা – অতিথি-আপদ<br/>❏ নাটকঃ<br/>❏ গীতিনাট্যঃ বাল্মীকি প্রতিভা (১৮৮১); কালমৃগয়া, মায়ার খেলা, বসন্ত (১৯২৩)<br/>❏ কাব্যনাট্যঃ মালিনী, চিত্রাঙ্গদা, বিসর্জন, রূদ্রচন্দ্র, রাজা ও রাণী, প্রকৃতির প্রতিশোধ।<br/>❏ নাট্যকাব্যঃ বিদায় অভিশাপ<br/>❏ নৃত্যনাট্যঃ শ্যামা, চণ্ডালিকা, (চিত্রাঙ্গদা), নটীর পুজা (১৯২৬) – এই নাটকে প্রথম অভিনয়ের সাথে নাচ ও গানের প্রয়োগ হয়।<br/>❏ সামাজিক নাটকঃ বাশরী, শোধবোধ।<br/>❏ সাংকেতিক নাটকঃ মুক্তধারা, রক্তকরবী, অচলায়তন, ফাল্গুনী, শারদোৎসব, কালের যাত্রা, তাসের দেশ (১৯৩৩), রাজা, ডাকঘর, প্রায়শ্চিত্ত।<br/>❏ বসন্ত (১৯২৩)ঃ একটি গীতিনাট্য। এই নাটকের বিষয় যৌবনের প্রতীক ঋতুরাজ বসন্তের জয়গান। রবীন্দ্রনাথ এই গ্রন্থ কাজী নজরুল ইসলামকে উৎসর্গ করেন।<br/>❏ বিসর্জন (১৮৯০) নাটকটি অমিত্রাক্ষর ছন্দে রচিত। এতে রবীন্দ্রনাথ স্বয়ং এই নাটকের প্রধান দুটি চরিত্র রঘুপতি ও জয়সিংহের ভূমিকায় বিভিন্ন সময়ে অভিনয় করেন। এতে গোমতী নদীর উল্লেখ রয়েছে।<br/>❏ ** রবি ঠাকুর তাঁর ১৩ টি নাটকে অভিনয় করেন।<br/>❏ প্রহসনঃ<br/>❏ বৈকুণ্ঠের খাতা, চিরকুমার সভা (১৯২৬), শেষ রক্ষা, ব্যঙ্গকৌতুক, হাস্যকৌতুক, গোড়ায় গলদ।<br/>❏ রবীন্দ্রনাথ (১৯০০-০১) সালে ‘ প্রজাপতি নির্বন্ধ’ নামে এই বঙ্গদর্শন পত্রিকায় একটি আখ্যান রচনা করেন। এটি ১৯০৮ সালে গ্রন্থাকারে প্রকাশিত হয়েছিল। ১৯২৬ সালে ‘ প্রজাপতির নির্বন্ধ ‘-কে’ চিরকুমার সভা ‘ নামে নাট্যরূপ দেন।<br/>❏ উপন্যাস:<br/>❏ গোরা, শেষের কবিতা, শেষ চার অধ্যায়, চতুরঙ্গ, চোখের বালি, দুই বোন, মালঞ্চ, রাজস্বী, ঘরে-বাইরে, যোগাযোগ, বৌ ঠাকুরাণীর হাট, নৌকাডুবি।<br/>❏ রাজনৈতিক উপন্যাস:<br/>❏ ‘ গোরা ’ রচনা (১৯১০) করা হয় বঙ্গভঙ্গ নিয়ে।<br/>❏ ‘ চার অধ্যায় ’ রচিত হয় স্বদেশী আন্দোলনের প্রেক্ষাপটে<br/>❏ ‘ ঘরে-বাইরে ’ রচিত হয় ব্রিটিশ ভারতের রাজনীতিকে ঘিরে। চলিত ভাষায় রচিত তাঁর প্রথম উপন্যাস।<br/>❏ বিশ্লেষণধর্মী উপন্যাস:<br/>❏ ‘ শেষের কবিতা ’ (রোমান্টিক/ কাব্যধর্মী উপন্যাস), চার অধ্যায়।<br/>❏ ঐতিহাসিক উপন্যাস:<br/>❏ ‘ চোখের বালি ’ বাংলা সাহিত্যের প্রথম মনস্তাত্বিক উপন্যাস।<br/>❏ ‘ রাজস্বী ’ ও ‘ বৌ ঠাকুরানীর হাট ‘।<br/>❏ প্ৰবন্ধঃ সমাজ, সাহিত্য, ধর্ম, কালান্তর, সভ্যতার সংকট, ছেলেবেলা,প্রাচীন সাহিত্য, আধুনিক সাহিত্য, লোকসাহিত্য, শিক্ষা, মানুষের ধর্ম, বিশ্বপরিচয়,, সাহিত্যের স্বরূপ, ভারতবর্ষ, শব্দতত্ত্ব,আত্মপরিচয়, বিবিধ প্রসঙ্গ, পঞ্চভূতের ডায়েরি, বাজে কথা,।<br/>❏ স্মৃতিকথাঃ জীবনস্মৃতি (১৯১২) ,ছেলেবেলা (১৯৪০),আত্মপরিচয় (১৯৪৩)<br/>❏ রাজনৈতিক: সভ্যতার সংকট, স্বদেশ, কালান্তর, আত্মশক্তি, ভারতবর্ষ।<br/>❏ কাব্যগ্রন্থের নাম: সোনার তরী, বলাকা, পুনশ্চ, চিত্রা, পুরবী, ক্ষণিকা, পত্রপুট,চৈতালি, বনবাণী, সেঁজুতি ,কল্পনা, ভগ্ন হৃদয় (গীতিকাব্য), প্রভাত সঙ্গীত, কণিকা, কড়ি ও কোমল, কথা ও কাহিনী, নৈবেদ্য, গীতাঞ্জলি, শেষ লেখা (২০ তম ও ৩৮ তম বিসিএস) —শেষ কাব্যগ্রন্থ।<br/>❏ পত্ৰ সাহিত্য: ছিন্নপত্রাবলী (১৯১২), (১৫৩ টি পত্র, আত্মকথন) ১ ম ৮ টি পত্র শ্রীশচন্দ্র মজুমদারকে এবং ১৪৫ টি পত্র ভ্রাতুষ্পুত্রী ইন্দিরা দেবীকে। চিঠিপত্র, য়ুরোপ যাত্রীর পত্র (সর্ব প্রথম পত্র কবিতাটি রবীন্দ্রনাথ ঠাকুরের সংকলন) নির্মলকুমারী কে, পথে ও পথের প্রান্তে,’ ভানুসিংহের পত্রাবলী ‘ (রানী অধিকারীকে লেখা) রবি মোট ১২ বার বিশ্ব ভ্রমণে নেয়া হয়েছে।<br/>❏ ভ্রমণ কাহিনীঃ য়ুরোপ প্রবাসীর পত্র, জাভা যাত্রীর পত্র, জাপান্ন যাত্রী, রাশিয়ার চিঠি রবীন্দ্রনাথের ভ্রমণ কাহিনী বিষয়ক গ্রন্থ।<br/>❏ আত্মজীবনীঃ জীবনস্মৃতি, আমার ছেলেবেলা, আত্মপরিচয়।<br/>❏ গীতাঞ্জলি<br/>❏ → রবীন্দ্রনাথ ঠাকুর রচিত একটি কাব্যগ্রন্থ এবং এই কাব্যটির জন্য তিনি সর্বাধিক বিখ্যাত।<br/>❏ এটি ১৫৭ টি গীতিকবিতার সংকলন। এগুলো মূলতঃ ব্রাহ্ম ভাবাপন্ন ভক্তিমূলক রচনা এবং কবি-আরোপিত সুরে অধিকাংশ গীত হয়ে থাকে।<br/>❏ → ১৯০৮-০৯ সালে রচিত এই কবিতগুলি ১৯১০ সালে গীতাঞ্জলি ‘ নামক গ্রন্থাকারে প্রকাশিত হয়।<br/>❏ ১৯১২ খ্রিষ্টাব্দে শুরুর দিকে রবীন্দ্রনাথের জাহাজযোগে লন্ডন যাওয়ার কথা ছিল। যাত্রার পূর্বে তিনি অসুস্থ হয়ে পড়েন এবং পদ্মা নদীতে বিশ্রাম নিতে শুরু করেন। মূলত: এ সময় তিনি তাঁর গীতাঞ্জলি কাব্যকে বিশ্বে ছড়িয়ে দেওয়ার কথা চিন্তা করে আন্তর্জাতিক ভাষা হিসেবে ইংরেজিতে গীতাঞ্জলি/ The Song Offerings কাব্যগ্রন্থের অনুবাদ শুরু করেন। গীতাঞ্জলি কাব্যগ্রন্থের ইংরেজি অনুবাদে সহায়তা অথবা সম্পাদনা করেছেন- W B Yeats ।<br/>❏ গীতাঞ্জলি কাব্যের ইংরেজি অনুবাদের জন্য ১৯১৩ সালের নভেম্বর মাসে প্রথম ভারতীয় হিসেবে সাহিত্যে নোবেল পুরস্কার লাভ করেন।<br/>❏ ⇢<br/>❏ ⛳ ‘রবীন্দ্রনাথ’ থেকে আসা বিসিএস প্রিলি. প্রশ্নাবলি<br/>❏ বাংলায় টি. এস. এলিয়টের কবিতার প্রথম অনুবাদক— রবীন্দ্রনাথ ঠাকুর। [১০তম]<br/>❏ ‘শেষের কবিতা’ রবীন্দ্রাথ রচিত— উপন্যাসের নাম। [১০তম]<br/>❏ কোন সালে রবীন্দ্রনাথ ঠাকুরের জন্ম-শতবার্ষিকী পালিত হয়— ১৯৬১ সালে। [১৩তম]<br/>❏ রবীন্দ্রনাথ ঠাকুরের ‘নির্ঝরের স্বপ্নভঙ্গ’ কবিতায় কবির উপলব্ধি হচ্ছে— ভবিষ্যৎ বিচিত্র ও বিপুল সম্ভাবনাময়। [১৪তম]<br/>❏ রবীন্দ্রনাথ ঠাকুর তাঁর রচিত নাটকটি কাজী নজরুল ইসলামকে উৎসর্গ করেছিলেন— বসন্ত। [১৫তম]<br/>❏ কোন উপন্যাসটির রচয়িতা রবীন্দ্রনাথ—ঘরে-বাইরে। [১৬তম]<br/>❏ কোন বইটি কবি রবীন্দ্রনাথ ঠাকুর রচিত নয়— দোলন চাঁপা। [১৮তম]<br/>❏ রবীন্দ্রনাথ ঠাকুরের ছদ্মনাম হলো—ভানুসিংহ ঠাকুর। [১৯তম]<br/>❏ কোনটি কাব্যগ্রন্থ— শেষ লেখা। [২০তম, ৩৮তম]<br/>❏ কোনটি রবীন্দ্রনাথের রচনা—চতুরঙ্গ। [২১তম]<br/>❏ ‘সঞ্চয়িতা’ কোন কবির কাব্য সংকলন—রবীন্দ্রনাথ ঠাকুর। [২২তম]<br/>❏ রবীন্দ্রাথের কোন গ্রন্থটি নাটক—রক্তকরবী। [২২তম]<br/>❏ পদাবলী লিখেছেন— রবীন্দ্রনাথ ঠাকুর। [২২তম]<br/>❏ ‘ভানু সিংহ’ কার ছদ্মনাম—রবীন্দ্রনাথ ঠাকুরের। [২৪তম (বাতিলকৃত), ৩৪তম]<br/>❏ রবীন্দ্রনাথ ঠাকুরের কোন গ্রন্থটি উপন্যাস— শেষের কবিতা। [২৪তম]<br/>❏ ‘মৃণ্ময়ী’ রবীন্দ্রনাথ ঠাকুরের কোন গল্পের নায়িকা— সমাপ্তি। [২৫তম]<br/>❏ ‘সন্ধ্যারাগে ঝিলিমিলি ঝিলমের স্রোতখানি বাঁকা’- রবীন্দ্রনাথের কোন কাব্যের কবিতা— বলাকা। [২৫তম]<br/>❏ ‘তোমার সৃষ্টির পথ রেখেছ আকীর্ণ করি’- রবীন্দ্রনাথের কোন কাব্যের কবিতা— শেষ লেখা। [২৬তম]<br/>❏ ‘ভানুসিংহ ঠাকুরের পদাবলী’-এর রচয়িতা কে— রবীন্দ্রনাথ ঠাকুর। [২৬তম]<br/>❏ ‘শিশুরাজ্যে এই মেয়েটি একটি ছোটখাট বর্গির উপদ্রুব বলিলেই হয়।’ রবীন্দ্রনাথ ঠাকুরের কোন গল্পের সংলাপ— সমাপ্তি। [২৭তম]<br/>❏ রবীন্দ্রনাথ ঠাকুরের অতিপ্রাকৃত গল্প কোনটি— ক্ষুধিত পাষাণ। [২৮তম]<br/>❏ রবীন্দ্রনাথের ‘সোনার তরী’ কবিতা কোন ছন্দে রচিত— মাত্রাবৃত্ত। [৩০তম]<br/>❏ ‘ছিন্নপত্রে’র অধিকাংশ পত্র কাকে উদ্দেশ্য করে লেখা— ইন্দিরা দেবী। [৩১তম]<br/>❏ গীতাঞ্জলীর ইংরেজি অনুবাদ সম্পাদনা করেছেন—ডবলিউ. বি. ইয়েটস। [৩৩তম]<br/>❏ ‘ঘরে বাইরে’ উপন্যাসটি কার লেখা—রবীন্দ্রনাথ ঠাকুর। [৩৪তম]<br/>❏ কোনটি রবীন্দ্ররচনার অন্তর্গত নয়— “অগ্নিগ্রাসী বিশ্বত্রাসি জাগুক আবার আত্মদান”। [৩৫তম]<br/>❏ রবীন্দ্রনাথ ঠাকুরের পূর্বপুরুষের আদিবসতি কোথায় ছিল— খুলনার দক্ষিণ ডিহি। [৩৫তম]<br/>❏ কোন চরিত্র দুটি রবীন্দ্রনাথের ‘ঘরে বাইরে’ উপন্যাসের— নিখিলেস-বিমলা। [৩৬তম]<br/>❏ ‘একখানি ছোট ক্ষেতে আমি একেলা’-রবীন্দ্রনাথ ঠাকুরের কোন কবিতার চরণ— সোনার তরী। [৩৬তম]<br/>❏ “আমি এ কথা, এ ব্যথা, সুখব্যাকুলতা কাহার চরণতলে দিব নিছনি।” রবীন্দ্রনাথের এ গানে ‘নিছনি’ কী অর্থে ব্যবহৃত হয়েছে— উপহার অর্থে। [৩৭তম]<br/>❏ রবীন্দ্রনাথ ঠাকুরের “গীতাঞ্জলি” কাব্য প্রকাশিত হয় কত সনে— ১৯১০। [৩৭তম]<br/>❏ চন্দরা কার রচিত উপন্যাস—রবীন্দ্রনাথ ঠাকুর। [৩৮তম]<br/>❏ রবীন্দ্রনাথ ঠাকুর রচিত কৌতুক নাটক— বৈকুণ্ঠের খাতা। [৩৯তম]<br/>❏ ‘কিন্তু আরম্ভের পূর্বেও আরম্ভ আছে। সন্ধ্যাবেলায় দীপ জ্বালার আগে সকালবেলায় সলতে পাকানো’— বাক্যদ্বয় কোন রচনা থেকে উদ্ধৃত— যোগাযোগ। [৪০তম]<br/>❏ ‘জীবনস্মৃতি’ কার রচনা— রবীন্দ্রনাথ ঠাকুর। [৪০তম]",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334345,
+    "question": "মধ্যযুগের প্রথম কবি কে?",
+    "options": [
+      "চন্ডীদাস",
+      "দৌলত কাজী",
+      "বিদ্যাপতি",
+      "বড়ুচন্ডী দাস"
+    ],
+    "correct_answer": "বড়ুচন্ডী দাস",
+    "explanation": "📖 বাংলা সাহিত্যের মধ্যযুগের আদি বা প্রথম কবি হলেন বড়ুচণ্ডীদাস। তাঁর রচিত 'শ্রীকৃষ্ণকীর্তন' মধ্যযুগের প্রথম নিদর্শন।<br/>📖 মধ্যযুগের শুরুতেই রচিত হয় একটি সুদীর্ঘ অসাধারণ কাব্য যার নাম ‘শ্রীকৃষ্ণকীর্তন’ - যার রচয়িতা বড়ু চণ্ডীদাস। তিনিই বাংলা ভাষার প্রথম মহাকবি। গ্রন্থটি ১৯০৯ সালে বাঁকুড়ার এক গৃহস্থের গোয়ালঘর থেকে শ্রীবসন্তরঞ্জন বিদ্বদ্বল্লভ এটি আবিষ্কার করেন।<br/> ⇢ <br/>⛳ বড়ুচণ্ডীদাস চতুর্দশ শতাব্দীর কবি। ১৯০৯ সালে বসন্তরঞ্জন রায় বিদ্বদ্বল্লভ বাঁকুড়া জেলার কাঁকিল্যা গ্রামের এক গৃহস্থ বাড়ির গোয়ালঘর থেকে তাঁর রচিত 'শ্রীকৃষ্ণকীর্তন' কাব্যের পুঁথি উদ্ধার করেন। এটি মধ্যযুগের আদি নিদর্শন।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334346,
+    "question": "'যা নিবারণ করা যায় না' এক কথায় প্রকাশ করুন।",
+    "options": [
+      "অনিবারিত",
+      "নির্বাণ",
+      "অনিবারনযোগ্য",
+      "দুর্নিবার"
+    ],
+    "correct_answer": "অনিবারিত",
+    "explanation": "📖 সাধারণত \"যা নিবারণ করা যায় না\" এর এক কথায় প্রকাশ হলো 'অনিবার্য'। আর \"যা নিবারণ করা কষ্টকর\" তা হলো 'দুর্নিবার'। তবে প্রদত্ত অপশনে 'অনিবার্য' না থাকায় এবং ব্যবহারকারী 'অনিবারিত' দাগিয়েছেন, যার অর্থ \"যা নিবারণ করা হয়নি\"।<br/> ⇢ <br/>⛳ ব্যাকরণগতভাবে সঠিক রূপ:<br/>❏ যা নিবারণ করা যায় না = অনিবার্য।<br/>❏ যা নিবারণ করা কষ্টকর = দুর্নিবার।<br/>❏ যা নিবারণ করা হয়নি = অনিবারিত।<br/>❏ প্রশ্নের অপশনগুলোতে 'অনিবার্য' নেই। তাই অর্থের দিক থেকে কাছাকাছি হওয়ায় 'অনিবারিত' উত্তর হিসেবে চিহ্নিত করা হয়েছে, যদিও এটি সরাসরি এক কথায় প্রকাশ নয়।<br/> ⇢ <br/>⛳ 'যা নিবারণ করা যায় না' বা যা ঠেকানো সম্ভব নয়, তাকে এক কথায় 'অনিবারিত' বলা হয়। যেমন- মৃত্যু অনিবারিত। এটি ক্রিয়া বিশেষণ বা ভাববাচক শব্দ। 'দুর্নিবার' অর্থও প্রায় একই (কঠিন বা অসম্ভব নিবারণযোগ্য), তবে প্রমিত অর্থে 'নিবারণ করা যায় না' এর জন্য 'অনিবারিত' শব্দটি বেশি প্রচলিত।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334347,
+    "question": "'ঢেউ' এর প্রতিশব্দ কোনটি?",
+    "options": [
+      "তটিনী",
+      "জলধি",
+      "বারিধি",
+      "উর্মি"
+    ],
+    "correct_answer": "উর্মি",
+    "explanation": "📖 'ঢেউ' এর প্রতিশব্দ হলো উর্মি, তরঙ্গ, লহরী, বীচি।<br/>❏ তটিনী = নদী।<br/>❏ জলধি/বারিধি = সমুদ্র।<br/> ⇢ <br/>⛳ উর্মি: ঢেউ, তরঙ্গ।<br/>❏ তটিনী: যার তট বা তীর আছে (নদী)।<br/>❏ জলধি/বারিধি: জল বা বারি ধারণ করে যে (সমুদ্র/সাগর)।<br/>❏ সুতরাং, ঢেউ-এর সঠিক প্রতিশব্দ 'উর্মি'।<br/> ⇢ <br/>⛳ 'ঢেউ' শব্দের প্রতিশব্দ বা সমার্থক শব্দ হলো 'উর্মি'। সাগর বা নদীর জলের তরঙ্গকে উর্মি বলা হয়। তটিনী ও বারিধি অর্থ সমুদ্র, আর জলধি অর্থ জলরাশি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334348,
+    "question": "শুদ্ধ বানান কোনটি?",
+    "options": [
+      "পিপীলিকা",
+      "বুদ্ধিজীবি",
+      "অগ্নাশয়",
+      "অন্তঃস্বত্তা"
+    ],
+    "correct_answer": "পিপীলিকা",
+    "explanation": "📖 সঠিক বানান 'পিপীলিকা' (হ্রস্ব ই, দীর্ঘ ঈ, হ্রস্ব ই)।<br/>❏ অন্যগুলোর শুদ্ধ রূপ:<br/>❏ বুদ্ধিজীবী (উভয়টি দীর্ঘ ঈ)।<br/>❏ অগ্ন্যাশয় (য-ফলা হবে)।<br/>❏ অন্তঃসত্ত্বা (স ত্ত্ব ব-ফলা আকার)।<br/> ⇢ <br/>⛳ 'পিপীলিকা' বানানটি মনে রাখার কৌশল: ই-ঈ-ই (প্রথমে হ্রস্ব, মাঝে দীর্ঘ, শেষে হ্রস্ব)।<br/>❏ একই প্যাটার্নের শব্দ: বিভীষিকা, শারীরিক।<br/>❏ অন্যদিকে 'জীব' বা 'জীবী' যুক্ত শব্দে সর্বদা দীর্ঘ-ঈ কার হয় (যেমন: চাকরিজীবী, পেশাজীবী)।<br/> ⇢ <br/>⛳ সঠিক বানান হলো 'পিপীলিকা'। এর অর্থ হলো পিঁপড়া। 'পিপীলিকা' শব্দটি সংস্কৃত 'পিপীলিকা' থেকে এসেছে। অন্যগুলোর শুদ্ধ বানান হবো: বুদ্ধিজীবী, অগ্ন্যাশয়, অন্তঃসত্ত্বা।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334349,
+    "question": "'সাত সাগরের মাঝি' কার রচনা?",
+    "options": [
+      "কাজী নজরুল ইসলাম",
+      "ফররুখ আহমেদ",
+      "গোলাম মোস্তফা",
+      "সৈয়দ আলী আহসান"
+    ],
+    "correct_answer": "ফররুখ আহমেদ",
+    "explanation": "📖 'সাত সাগরের মাঝি' ফররুখ আহমদের রচিত একটি বিখ্যাত কাব্যগ্রন্থ। এটি ১৯৪৪ সালে প্রকাশিত হয়। তিনি মুসলিম রেনেসাঁসের কবি হিসেবে পরিচিত।<br/> ⇢ <br/>⛳ ফররুখ আহমদ ছিলেন ইসলামী ঐতিহ্যের পুনর্জাগরণবাদী কবি। 'সাত সাগরের মাঝি' তাঁর প্রথম কাব্যগ্রন্থ। এই কাব্যের বিখ্যাত কবিতাগুলোর মধ্যে রয়েছে 'সিন্দাবাদ', 'পাঞ্জেরি' ইত্যাদি।<br/> ⇢ <br/>⛳ ▣<b> ‘সাত সাগরের মাঝি’ কাব্যগ্রন্থ: </b><br/>❏ ফররুখ আহমদ রচিত 'পাঞ্জেরি' কবিতাটি ‘সাত সাগরের মাঝি’ কাব্যগ্রন্থের অন্তর্গত। <br/>❏ মুসলিম জাগরণের কবি ফররুখ আহমদ রচিত প্রথম ও শ্রেষ্ঠ কাব্যগ্রন্থ ‘সাত সাগরের মাঝি’ ১৯৪৪ সালে প্রকাশিত হয়।<br/>❏ ‘সাত সাগরের মাঝি’ কাব্যগ্রন্থে মোট ১৯ টি কবিতা আছে।<br/>❏ সাত সাগরের মাঝি নামে একটি কবিতা আছে গ্রন্থের সর্বশেষে।<br/>❏ অন্যান্য উল্লেখযোগ্য কবিতা:- সিন্দাবাদ, পাঞ্জেরি, লাশ, আউলাদ, দরিয়ার শেষরাত্রি ইত্যাদি।<br/>▣<b> ফররুখ আহমদ: </b><br/>❏ তিনি ১৯১৮ সালের ১০ জুন মাগুরা জেলার শ্রীপুর থানার মাঝাইল গ্রামে জন্মগ্রহণ করেন।<br/>❏ তিনি ছিলেন মুসলিম পুনর্জাগরণবাদী কবি।<br/>❏ ১৯৪৪ সালে কলকাতার দুর্ভিক্ষের পটভূমিতে ‘লাশ’ কবিতা লিখে তিনি প্রথম খ্যাতি অর্জন করেন।<br/>❏ ‘সাত সাগরের মাঝি' (১৯৪৪) ফররুখ আহমদ রচিত শ্রেষ্ঠ এবং প্রথম প্রকাশিত কাব্যগ্রন্থ।<br/>❏ তাঁর রচিত কাব্যনাট্য 'নৌফেল ও হাতেম' (১৯৬১)।<br/>❏ ‘মুহূর্তের কবিতা' (১৯৬৩) তাঁর রচিত একটি সনেট সংকলন। <br/>❏ ফররুখ আহমদ তাঁর বিখ্যাত কাহিনিকাব্য 'হাতেমতায়ী' এর জন্য ১৯৬৬ সালে আদমজি পুরস্কার লাভ করেন।<br/>❏ ১৯৬৬ সালেই 'পাখির বাসা' শিশুতোষ গ্রন্থের জন্য ইউনেস্কো পুরস্কার লাভ করেন।<br/>❏ ১৯৭৪ সালের ১৯ অক্টোবর ঢাকায় তাঁর মৃত্যু হয়।<br/>▣<b> তাঁর রচিত অন্যান্য কাব্যগ্রন্থ:</b> আজাদ কর পাকিস্তান, সিরাজাম মুনীরা, হে বন্য স্বপ্নেরা, ইকবালের নির্বাচিত কবিতা, কাফেলা, হাবেদা মরুর কাহিনী, তসবির নামা, দিলরুবা, ঐতিহাসিক অনৈতিহাসিক কাব্য, অনুস্বার, ধোলাই কাব্য।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334350,
+    "question": "খাঁটি বাংলা উপসর্গ কয়টি?",
+    "options": [
+      "২১টি",
+      "২২টি",
+      "২৩টি",
+      "২৪টি"
+    ],
+    "correct_answer": "২১টি",
+    "explanation": "📖 খাঁটি বাংলা উপসর্গ ২১টি। যেমন: অ, অঘা, অজ, অনা, আ, আড়, আন, আব, ইতি, উন, কদ, কু, নি, পাতি, বি, ভর, রাম, স, সা, সু, হা। (সংস্কৃত উপসর্গ ২০টি)।<br/> ⇢ <br/>⛳ উপসর্গ শব্দের আগে বসে নতুন শব্দ গঠন করে।<br/>❏ মনে রাখার কৌশল (ছড়া):<br/>❏ \"অ অঘা অজ অনা, আ আড় আন আব,<br/>❏ ইতি উন কদ কু, নি পাতি বি ভর,<br/>❏ রাম স সা সু হা - এই একুশটি খাঁটি বাংলা উপসর্গ।\"<br/> ⇢ <br/>⛳ ❏ উপসর্গ:<br/>❏ বাংলা ভাষায় যেসব শব্দখণ্ড বা শব্দাংশ ধাতুর পূর্বে বসে নতুন শব্দ গঠন করে, সেগুলোকে বলে উপসর্গ।<br/>▣ বাংলা ভাষায় ব্যবহৃত উপসর্গকে তিন ভাগে ভাগ করা যায়। যথা-<br/>❏ ১. খাটি বাংলা উপসর্গ,<br/>❏ ২. সংস্কৃত বা তৎসম উপসর্গ এবং<br/>❏ ৩. বিদেশি উপসর্গ।<br/>❏ সংস্কৃত বা তৎসম উপসর্গ:<br/>❏ বাংলা ভাষায় যে সকল সংস্কৃত উপসর্গ ব্যবহার করা হয় তাদের সংস্কৃত বা তৎসম উপসর্গ বলে। সংস্কৃত বা তৎসম উপসর্গ ২০টি।<br/>❏ যথা: প্র, পরা, অপ, সম, নি, অনু, অব, নির, দুর, বি, অধি, সু, উৎ, পরি, প্রতি, অতি, অভি, অপি, উপ, আ।<br/>▣ খাঁটি বাংলা উপসর্গ:<br/>❏ বাংলা ভাষায় ব্যবহৃত নিজস্ব উপসর্গকে খাঁটি বাংলা উপসর্গ বলা হয়। খাঁটি বাংলা উপসর্গ ২১টি।<br/>❏ যথা: অ, অঘা, অজ, অনা, আ, আড়, আন, আব, ইতি, ঊন (ঊনা), কদ, কু, নি, পাতি, বি, ভর, রাম, স, সা, সু, হা।<br/>▣ [বাংলা উপসর্গের মধ্যে আ, সু, বি, নি এই চারটি উপসর্গ খাঁটি বাংলা ও তৎসম শব্দেও পাওয়া যায়।]<br/>▣ বিদেশি উপসর্গ:<br/>❏ আরবি, ফারসি, ইংরে জি, হিন্দি এসব ভাষার বহু শব্দ দীর্ঘকাল ধরে বাংলা ভাষায় প্রচলিত আছে।<br/>❏ এছাড়া কিছু বিদেশি উপসর্গও বাংলায় চালু আছে।<br/>▣ বিদেশি উপসর্গ অনির্দিষ্ট বা অনির্ণেয়।<br/>❏ যেমন:<br/>❏ আরবি উপসর্গ: আম, খাস, লা, গর, বাজে এবং খয়ের।<br/>❏ ফারসি উপসর্গ: কার, দর, না, নিম, ফি, বদ, বে, বর, ব, কম।<br/>❏ উর্দু উপসর্গ: হর।<br/>❏ ইংরেজি উপসর্গ: হেড, সাব, ফুল, হাফ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334351,
+    "question": "\"যাহা উচ্চারণ করিতে কষ্ট হয়” এক কথায় ……….. ।",
+    "options": [
+      "কষ্টাচর্চ",
+      "দুর্লঘ্ন",
+      "অনুচ্চার্য",
+      "অপঠিত"
+    ],
+    "correct_answer": "অনুচ্চার্য",
+    "explanation": "📖 প্রশ্নে প্রদত্ত অপশন অনুযায়ী সঠিক উত্তর 'অনুচ্চার্য' দাগানো হয়েছে। তবে ব্যাকরণগতভাবে, \"যা উচ্চারণ করা যায় না\" = অনুচ্চার্য। আর \"যা উচ্চারণ করতে কষ্ট হয়\" = দুরচ্চার্য। যেহেতু অপশনে 'দুরচ্চার্য' নেই, তাই নিকটতম হিসেবে 'অনুচ্চার্য' বা 'কষ্টাচর্চ' (অপ্রচলিত) এর মধ্যে ব্যবহারকারী 'অনুচ্চার্য' বেছে নিয়েছেন।<br/> ⇢ <br/>⛳ সঠিক এক কথায় প্রকাশগুলো হলো:<br/>❏ যা উচ্চারণ করা যায় না = অনুচ্চার্য।<br/>❏ যা উচ্চারণ করতে কষ্ট হয় = দুরচ্চার্য।<br/>❏ যা পাঠ করা হয়নি = অপঠিত।<br/>❏ যা লঙ্ঘন করা কঠিন = দুর্লঙ্ঘ্য।<br/>❏ প্রশ্নে 'দুরচ্চার্য' অপশনে না থাকায় এবং 'অনুচ্চার্য' সবচেয়ে কাছাকাছি অর্থবহ হওয়ায় এটি উত্তর হিসেবে গৃহীত হতে পারে, যদিও তা পুরোপুরি সঠিক নয়।<br/> ⇢ <br/>⛳ যা উচ্চারণ করা কষ্টকর বা যা উচ্চারণ করা প্রয়োজন হয় না (অনুচ্চারিত থাকা), তাকে এক কথায় 'অনুচ্চার্য' বলা হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334352,
+    "question": "'হিল্লোল' শব্দের অর্থ কি?",
+    "options": [
+      "সাহস",
+      "হাসিঠাট্টা",
+      "কম্পন",
+      "তরঙ্গ"
+    ],
+    "correct_answer": "তরঙ্গ",
+    "explanation": "📖 'হিল্লোল' শব্দের অর্থ হলো তরঙ্গ, ঢেউ বা লহর।<br/> ⇢ <br/>⛳ 'হিল্লোল' শব্দটি সাধারণত বাতাস বা পানির মৃদু আন্দোলন বোঝাতে ব্যবহৃত হয়।<br/>❏ সমার্থক শব্দ: কল্লোল, লহরী, বীচি, ঊর্মি।<br/>❏ বাক্য প্রয়োগ: \"বাতাসে ধানের ক্ষেতে হিল্লোল বয়ে যায়।\"<br/> ⇢ <br/>⛳ 'হিল্লোল' শব্দের অর্থ হলো তরঙ্গ, উল্লাস বা আনন্দের ঢেউ। জলরাশির তরঙ্গ বা আনন্দের বিস্তারকে হিল্লোল বলা হয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334353,
+    "question": "'না' কোন জাতীয় শব্দ?",
+    "options": [
+      "সর্বনাম",
+      "অব্যয়",
+      "ক্রিয়া",
+      "বিশেষণ"
+    ],
+    "correct_answer": "অব্যয়",
+    "explanation": "📖 'না' হলো একটি অব্যয় পদ। এটি না-বাচক বা নঞর্থক অব্যয় হিসেবে বাক্যে ব্যবহৃত হয়।<br/> ⇢ <br/>⛳ 'না' শব্দটি বাক্যে ক্রিয়া বা বিশেষণের অর্থকে নেতিবাচক করে কিন্তু এর নিজের কোনো রূপান্তর হয় না। যার ব্যয় বা পরিবর্তন নেই, তাই অব্যয়।<br/>❏ উদাহরণ: \"আমি যাব না।\" এখানে 'না' ক্রিয়াবিশেষণীয় অব্যয় হিসেবে কাজ করছে।<br/> ⇢ <br/>⛳ 'না' শব্দটি বাক্যে সাধারণত নেতিবাচক বা অস্বীকারবোধক অর্থে ব্যবহৃত হয় এবং এটি কোনো ক্রিয়াপদের রূপ পরিবর্তন করে না, তাই এটি 'অব্যয়'।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334354,
+    "question": "বাংলা সাহিত্যে 'কিশোর কবি' নামে পরিচিত কে?",
+    "options": [
+      "সুধীন্দ্রনাথ দত্ত",
+      "আব্দুল কাদির",
+      "সুকান্ত ভট্টাচার্য",
+      "বিষ্ণু দে"
+    ],
+    "correct_answer": "সুকান্ত ভট্টাচার্য",
+    "explanation": "📖 সুকান্ত ভট্টাচার্যকে 'কিশোর কবি' বলা হয়। তিনি মাত্র ২১ বছর বয়সে মারা যান। তাঁর বিখ্যাত কাব্যগ্রন্থ 'ছাড়পত্র'।<br/> ⇢ <br/>⛳ সুকান্ত ভট্টাচার্য (১৯২৬-১৯৪৭) বাংলা সাহিত্যের মার্কসবাদী ভাবধারার তরুণ কবি।<br/>❏ তাঁর উল্লেখযোগ্য রচনা:<br/>❏ কাব্যগ্রন্থ: ছাড়পত্র, ঘুম নেই, পূর্বাভাস।<br/>❏ বিখ্যাত কবিতা: রানার, আঠারো বছর বয়স।<br/> ⇢ <br/>⛳ সুকান্ত ভট্টাচার্য খুব অল্প বয়সে মারা যান বলে তাঁকে ‘কিশোর কবি’ বলা হয়। তাঁর বিখ্যাত কাব্যগ্রন্থগুলোর মধ্যে রয়েছে ‘ছাড়পত্র’, ‘ঘুম নেই’, ‘পূর্বাভাস’, ‘অভিযান’ ইত্যাদি। তাঁর কবিতায় অনাচার ও বৈষম্যের বিরুদ্ধে প্রবল প্রতিবাদ ধ্বনিত হয়েছে।<br/>▣ সুকান্ত ভট্টাচার্য (১৯২৬ – ১৯৪৭)<br/>❏ জন্ম ও জন্মস্থান→ ১৫ আগস্ট ১৯২৬, কলকাতা, তৎকালীন ব্রিটিশ ভারত [পৈতৃক বাড়ি: ঊনশিয়া গ্রাম, কোটালীপাড়া, গোপালগঞ্জ]<br/>❏ বিশেষ পরিচয় → 'কিশোর কবি' → মার্কসবাদী/ সাম্যবাদী কবি → ভারতের কমিউনিস্ট পার্টির সদস্য<br/>❏ মৃত্যু ও শায়িত→ ১৩ মে ১৯৪৭ (২১ বছর) কলকাতা, তৎকালীন ব্রিটিশ ভারত<br/>❏ লেখার বৈশিষ্ট্য ও বিষয়বস্তু<br/>❏ সাম্যবাদ ও বিপ্লবী চেতনা<br/>❏ দ্বিতীয় বিশ্বযুদ্ধ ও তেতাল্লিশের মন্বন্তর<br/>❏ ফ্যাসিবাদী আগ্রাসন ও সাম্প্রদায়িক দাঙ্গা<br/>❏ অসহায়-নিপীড়িত সর্বহারা মানুষের সুখ-দুঃখ<br/>❏ উল্লেখযোগ্য সাহিত্য কর্ম ➺ ছাড়পত্র (১৯৪৭), পূর্বাভাস (১৯৫০), মিঠেকড়া (১৯৫১). অভিযান (১৯৫৩), ঘুম নেই (১৯৫৪), হরতাল (১৯৬২), গীতিগুচ্ছ (১৯৬৫)<br/>❏ সম্পাদনা<br/>❏ হাতে লেখা কাগজ 'সপ্তমিকা'<br/>❏ আকাল [সংকলন গ্রন্থ] (১৯৪৪)<br/>❏ কমিউনিস্ট পার্টির পত্রিকা দৈনিক স্বাধীনতার<br/>❏ (১৯৪৫) 'কিশোর সভা' বিভাগ",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334355,
+    "question": "নিম্নের কোন বানানটি সঠিক?",
+    "options": [
+      "সমীচীন",
+      "সমীচিন",
+      "সমিচিন",
+      "সমিচীন"
+    ],
+    "correct_answer": "সমীচীন",
+    "explanation": "📖 সঠিক বানান হলো 'সমীচীন'। নিয়ম অনুযায়ী, সংস্কৃত বা তৎসম শব্দে পরপর দুটি 'ই' কার থাকলে সাধারণত দুটিই দীর্ঘ-ঈ কার (ী) হয়। যেমন: উদীচী, প্রতীচী, সমীচীন।<br/> ⇢ <br/>⛳ বানানটি মনে রাখার সহজ উপায় হলো 'দুটিই দীর্ঘ-ঈ কার'।<br/>❏ সমীচীন (শুদ্ধ)।<br/>❏ মরীচিকা (দীর্ঘ-হ্রস্ব-দীর্ঘ)।<br/>❏ পিপীলিকা (হ্রস্ব-দীর্ঘ-হ্রস্ব)।<br/>❏ সমীচীন অর্থ হলো সংগত বা উচিত।<br/> ⇢ <br/>⛳ সঠিক বানান হলো 'সমীচীন'। এর অর্থ হলো উপযুক্ত, শুদ্ধ বা যথাযথ। প্রায়শই ভুল করে 'সমিচীন' বা 'সমীচিন' লেখা হয়ে থাকে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334356,
+    "question": "কোনটি উভয় লিঙ্গ?",
+    "options": [
+      "কলম",
+      "সন্তান",
+      "বিদুষী",
+      "কনে"
+    ],
+    "correct_answer": "সন্তান",
+    "explanation": "📖 'সন্তান' শব্দটি দ্বারা ছেলে বা মেয়ে উভয়কেই বোঝানো যায়, তাই এটি উভয়লিঙ্গ।<br/>❏ কলম = ক্লীবলিঙ্গ (অচেতন পদার্থ)।<br/>❏ বিদুষী = স্ত্রীলিঙ্গ (বিদ্বান এর স্ত্রীলিঙ্গ)।<br/>❏ কনে = স্ত্রীলিঙ্গ (বর এর বিপরীত)।<br/> ⇢ <br/>⛳ উভয়লিঙ্গ শব্দ বলতে এমন শব্দ বোঝায় যা দিয়ে পুরুষ ও স্ত্রী উভয়কেই নির্দেশ করে।<br/>❏ অন্যান্য উদাহরণ:<br/>❏ মানুষ (নারী বা পুরুষ হতে পারে)।<br/>❏ শিশু (ছেলে বা মেয়ে শিশু)।<br/>❏ শত্রু, বন্ধু, পাখি ইত্যাদি।<br/> ⇢ <br/>⛳ বাংলা ভাষায় পুরুষ ও নারী উভয় লিঙ্গের জন্য যে শব্দ ব্যবহার করা হয়, তাকে উভয় লিঙ্গ বলা হয়। 'সন্তান' শব্দটি পুত্র ও কন্যা উভয়কে বোঝাতে ব্যবহৃত হয়, তাই এটি উভয় লিঙ্গ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334357,
+    "question": "বাংলা বর্ণমালায় মাত্রাবিহীন বর্ণের সংখ্যা কত?",
+    "options": [
+      "৭",
+      "৮",
+      "৯",
+      "১০"
+    ],
+    "correct_answer": "১০",
+    "explanation": "📖 বাংলা বর্ণমালায় মোট বর্ণ ৫০টি। এর মধ্যে পূর্ণমাত্রার বর্ণ ৩২টি, অর্ধমাত্রার বর্ণ ৮টি এবং মাত্রাবিহীন বর্ণ ১০টি।<br/>❏ মাত্রাবিহীন স্বরবর্ণ ৪টি: এ, ঐ, ও, ঔ।<br/>❏ মাত্রাবিহীন ব্যঞ্জনবর্ণ ৬টি: ঙ, ঞ, ৎ, ং, ঃ, ঁ।<br/> ⇢ <br/>⛳ মাত্রার ভিত্তিতে বর্ণের বিভাজন মনে রাখার তালিকা:<br/>❏ ১. পূর্ণমাত্রা (৩২টি): স্বরবর্ণ ৬টি + ব্যঞ্জনবর্ণ ২৬টি।<br/>❏ ২. অর্ধমাত্রা (৮টি): স্বরবর্ণ ১টি (ঋ) + ব্যঞ্জনবর্ণ ৭টি (খ, গ, ণ, থ, ধ, প, শ)।<br/>❏ ৩. মাত্রাহীন (১০টি): স্বরবর্ণ ৪টি + ব্যঞ্জনবর্ণ ৬টি।<br/> ⇢ <br/>⛳ মাত্রা : স্বরবর্ণ এবং ব্যঞ্জনবর্ণের মাথার ওপরে যে সোজা দাগ (-) থাকে তাকে মাত্রা বলে । যেমন: ➺ 'এ' বর্ণে কোনো মাত্রা নেই । কিন্তু মাত্রা (এ) দেয়া হলে এটি ভিন্ন বর্ণে পরিণত হয়। (ত্র) মাত্রার কারণে তখন বর্ণটি হয়- ত +[-<br/>❏ মাত্রার উপর ভিত্তি করে বর্ণ ৩ প্রকার। যথা<br/>❏ বর্ণ ➺ সংখ্যা ➺ স্বরবর্ণ ➺ ব্যঞ্জনবর্ণ<br/>❏ মাত্রাহীন বর্ণ ➺ ১০টি ➺ ৪টি (এ, ঐ, ও, ঔ) ➺ ৬টি (ঙ, ঞ, ৎ, ং, ঃ,)<br/>❏ অর্ধমাত্রার বর্ণ ➺ ৮টি ➺ ১টি (ঋ) ➺ ৭টি (খ, গ, ণ, থ, ধ, প, শ)<br/>❏ পূর্ণমাত্রার বর্ণ ➺ ৩২টি ➺ ৬টি (অ, আ, ই, ঈ, উ, ঊ) ➺ ২৬টি<br/>▣ পূর্ণমাত্রা বর্ণ মোট ➺ ৩২টি।<br/>❏ অর্ধমাত্রা বর্ণ মোট ➺ ৮টি ⇢ ঋ, খ, গ, ণ, থ, ধ, প, শ।<br/>❏ মাত্রাহীন বর্ণ ➺ ১০টি ⇢ এ, ঐ, ও, ঔ, ঙ, ঞ, ৎ, ং,৪,।<br/>❏ পূর্ণমাত্রার স্বরবর্ণ ➺ ৬টি ⇢ অ, আ, ই, ঈ, উ, উ।<br/>❏ পূর্ণমাত্রার ব্যঞ্জনবর্ণ ➺ ২৬টি।<br/>❏ অর্ধমাত্রার স্বরবর্ণ ➺ ১টি ⇢ ঋ।<br/>❏ অর্ধমাত্রার ব্যঞ্জনবর্ণ ➺ ৭টি ⇢ খ, গ, ণ, থ, ধ, প, শ।<br/>❏ মাত্রাহীন স্বরবর্ণ ➺ ৪টি ⇢ এ, ঐ, ও, ঔ।<br/>❏ মাত্রাহীন ব্যঞ্জনবর্ণ ➺ ৬টি ⇢ ঙ, ঞ, ৎ, ং, ঃ, ।<br/>❏ বর্গীয় বর্ণ মোট ➺ ২৫টি ➺ ক-ম পর্যন্ত।<br/>▣ বাংলা বর্ণমালার ৫০টি বর্ণের মধ্যে মাত্রার ভিত্তিতে বিভাজন:<br/>❏ ১. পূর্ণমাত্রা: ৩২টি (স্বরবর্ণ ৬টি + ব্যঞ্জনবর্ণ ২৬টি)।<br/>❏ ২. অর্ধমাত্রা: ৮টি (স্বরবর্ণ ১টি: ঋ + ব্যঞ্জনবর্ণ ৭টি: খ, গ, ণ, থ, ধ, প, শ)।<br/>❏ ৩. মাত্রাহীন: ১০টি (স্বরবর্ণ ৪টি + ব্যঞ্জনবর্ণ ৬টি)।<br/>▣ বাংলা বর্ণমালায় অর্ধমাত্রা যুক্ত বর্ণ ৮টি। উল্লেখ্য,<br/>❏ বর্ণের নাম ➺ স্বরবর্ণ ➺ ব্যঞ্জনবর্ণ ➺ মোট সংখ্যা<br/>❏ মাত্রাহীন বর্ণ ➺ ৪টি যথাঃ এ, ঐ, ও, ঔ ➺ ৬টি যথাঃ ঙ, ঞ, ৎ, ং, ঃ, ঁ ➺ ১০টি<br/>❏ অর্ধমাত্রার বর্ণ ➺ ১টি যথাঃ ঋ ➺ ৭টি যথাঃ খ, গ, ণ, থ, ধ, প, শ ➺ ৮টি<br/>❏ পূর্ণমাত্রার বর্ণ ➺ ৬টি যথাঃ অ, আ, ই, ঈ, উ, ঊ ➺ ২৬টি ➺ ৩২টি",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334358,
+    "question": "চর্যাপদ কোন ছন্দে রচিত?",
+    "options": [
+      "স্বরবৃত্ত",
+      "পয়ার ছন্দ",
+      "মাত্রাবৃত্ত",
+      "গদ্য ছন্দ"
+    ],
+    "correct_answer": "মাত্রাবৃত্ত",
+    "explanation": "📖 চর্যাপদ মাত্রাবৃত্ত ছন্দে রচিত। চর্যাপদের পদগুলো ১৬ মাত্রার পাদাকুলক ছন্দে রচিত বলে অধিকাংশ ছান্দসিক মনে করেন।<br/> ⇢ <br/>⛳ চর্যাপদ বাংলা সাহিত্যের আদি নিদর্শন। এর ভাষা 'সান্ধ্য ভাষা'। ছান্দসিকদের মতে, চর্যাপদ মূলত মাত্রাবৃত্ত ছন্দের একটি প্রাচীন রূপ, যাকে 'পাদাকুলক' ছন্দ বলা হতো। এতে অন্ত্যমিল লক্ষ্য করা যায়।<br/> ⇢ <br/>⛳ বাংলা সাহিত্যের প্রাচীনতম নিদর্শন চর্যাপদগুলো 'মাত্রাবৃত্ত' ছন্দে রচিত। এই ছন্দে কবিতার মাত্রার গণনা করা হয়, স্বরবর্ণের সংখ্যা নয়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334359,
+    "question": "'উড়ে এসে জুড়ে বসা' বাগধারাটির অর্থ কি?",
+    "options": [
+      "অনধিকার চর্চা",
+      "প্রচার",
+      "লুকোচুরি",
+      "বিরক্তিকর আওয়াজ"
+    ],
+    "correct_answer": "অনধিকার চর্চা",
+    "explanation": "📖 'উড়ে এসে জুড়ে বসা' বাগধারাটির অর্থ হলো অনধিকার চর্চা করা বা বাইরে থেকে এসে সর্বেসর্বা হওয়া। অর্থাৎ যার কোনো অধিকার নেই, সে হঠাৎ এসে কর্তৃত্ব ফলালে এটি ব্যবহৃত হয়।<br/> ⇢ <br/>⛳ এই বাগধারাটি এমন ব্যক্তির ক্ষেত্রে প্রযোজ্য যে অনাহূতভাবে বা হঠাৎ করে এসে কোনো স্থানের বা বিষয়ের ওপর নিজের প্রভাব বিস্তার করে।<br/>❏ সমার্থক বাগধারা:<br/>❏ গাছে কাঁঠাল গোঁফে তেল: প্রাপ্তির আগেই আয়োজন (ভিন্ন অর্থ)।<br/>❏ ফোঁড়ন কাটা: অনধিকার চর্চা বা অযথা কথা বলা (কাছাকাছি অর্থ)।<br/> ⇢ <br/>⛳ 'উড়ে এসে জুড়ে বসা' বাগধারাটির অর্থ হলো না জানিয়ে বা অনুমতি না নিয়ে কোনো কাজে হস্তক্ষেপ করা বা অনধিকারচর্চা করা। যেমন- তারা আমাদের বিষয়ে উড়ে এসে জুড়ে বসেছে।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334360,
+    "question": "'তিমির' শব্দটির বিপরীতার্থক শব্দ কোনটি?",
+    "options": [
+      "অম্বর",
+      "আত্মজ",
+      "সদন",
+      "প্রভা"
+    ],
+    "correct_answer": "প্রভা",
+    "explanation": "📖 'তিমির' শব্দের অর্থ অন্ধকার বা আঁধার। এর সঠিক বিপরীত শব্দ হলো 'প্রভা', যার অর্থ আলো বা দীপ্তি।<br/>❏ অম্বর = আকাশ।<br/>❏ আত্মজ = পুত্র।<br/>❏ সদন = ঘর বা নিবাস।<br/> ⇢ <br/>⛳ তিমির: অন্ধকার, তমঃ, আঁধার।<br/>❏ প্রভা: আলো, কিরণ, জ্যোতি, আলোক।<br/>❏ সুতরাং, অন্ধকারের বিপরীত আলো বা প্রভা। 'অম্বর' এর বিপরীত শব্দ 'ধরা' বা 'পৃথিবী'।<br/> ⇢ <br/>⛳ 'তিমির' শব্দের অর্থ হলো অন্ধকার বা রাত্রি। এর বিপরীতার্থক শব্দ হলো 'প্রভা', যার অর্থ আলো বা জ্যোতি।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334361,
+    "question": "'ক থেকে ম' পর্যন্ত ধ্বনিগুলোকে কি বলা হয়?",
+    "options": [
+      "উষ্মধ্বনি",
+      "স্পর্শধ্বনি",
+      "পরাশ্রয়ী ধ্বনি",
+      "জিহবামূলীয় ধ্বনি"
+    ],
+    "correct_answer": "স্পর্শধ্বনি",
+    "explanation": "📖 বাংলা বর্ণমালায় 'ক' থেকে 'ম' পর্যন্ত ২৫টি ব্যঞ্জনবর্ণ উচ্চারণের সময় জিহ্বার সাথে ফুসফুস তাড়িত বাতাস মুখের কোনো না কোনো অংশের স্পর্শ লাগে। তাই এদের স্পর্শধ্বনি বা স্পৃষ্ট ধ্বনি বলা হয়। এগুলোকে ৫টি বর্গে ভাগ করা হয়েছে (ক-বর্গ, চ-বর্গ, ট-বর্গ, ত-বর্গ, প-বর্গ)।<br/> ⇢ <br/>⛳ এই ২৫টি বর্ণকে ৫টি বর্গে ভাগ করা হয়েছে বলে এদেরকে বর্গীয় বর্ণও বলা হয়।<br/>❏ ক-বর্গ: ক, খ, গ, ঘ, ঙ (কণ্ঠ্য ধ্বনি)।<br/>❏ চ-বর্গ: চ, ছ, জ, ঝ, ঞ (তালব্য ধ্বনি)।<br/>❏ ট-বর্গ: ট, ঠ, ড, ঢ, ণ (মূর্ধা ধ্বনি)।<br/>❏ ত-বর্গ: ত, থ, দ, ধ, ন (দন্ত্য ধ্বনি)।<br/>❏ প-বর্গ: প, ফ, ব, ভ, ম (ওষ্ঠ্য ধ্বনি)।<br/> ⇢ <br/>⛳ ▣ ব্যঞ্জনধ্বনি<br/>❏ যে সকল ধ্বনি উচ্চারণের সময় ফুসফুসতাড়িত বাতাস বেরিয়ে যেতে মুখবিবরের কোথাও না কোথাও বাধা পায় কিংবা ধাক্কা লাগে তাকে ব্যঞ্জনধ্বনি বলে। ব্যঞ্জনধ্বনি স্বরধ্বনির সাহায্য ছাড়া নিজে নিজে উচ্চারিত হতে পারে না। উচ্চারণের রীতি অনুযায়ী ব্যঞ্জনধ্বনিকে কয়েকভাগে ভাগ করা হয়েছে। নিচে সেগুলো আলোচনা করা হলো:<br/>▣ স্পর্শধ্বনি : মুখের মধ্যে ফুসফুস থেকে আসা বাতাস মুহূর্তের জন্য সম্পূর্ণ রুদ্ধ বা বন্ধ হওয়ার পর অকস্মাৎ মুখ দিয়ে বের হয়ে যে সমস্ত ধ্বনি উচ্চারিত হয় সে ধ্বনিগুলোকে স্পর্শ বা স্পৃষ্ট ধ্বনি বলে।<br/>❏ ক্ থেকে ম্ পর্যন্ত (ক-ম) ধ্বনিগুলোকে স্পর্শ ধ্বনি বলে। বাংলা ভাষায় স্পর্শ ধ্বনি ২৫ টি। এই ২৫টি ধ্বনি পাঁচটি বর্গে বিভক্ত।<br/>▣ উচ্চারণের স্থান ও উচ্চারণ রীতি অনুযায়ী ব্যঞ্জনধ্বনির বিভাজন দেখানো হলো-<br/>▣ বর্ণ হিসেবে নাম ➺ উচ্চারণের স্থান অনুযায়ী নাম ➺ উচ্চারণের স্থান ➺ ; অঘোষ:- ➺ অল্পপ্রাণ ➺ মহাপ্রাণ ➺ ; ঘোষ:- ➺ অল্পপ্রাণ ➺ মহাপ্রাণ ➺ নাসিক্য<br/>❏ ক বর্গীয় ➺ কণ্ঠ্য বা জিহ্বামূলীয় বর্ণ ➺ জিহ্বার গোড়ালি ও তালুর নরম অংশের সহযোগে। ➺ ; অঘোষ:- ক খ ; ঘোষ:- গ ঘ ঙ<br/>❏ চ বর্গীয় ➺ তালব্য বা অগ্রতালুজাত বর্ণ ➺ দন্তমূলের শেষাংশ ও জিহ্বার সহযোগে। ➺ ; অঘোষ:- চ ছ ; ঘোষ:- জ ঝ ঞ<br/>❏ ট বর্গীয় ➺ মূর্ধন্য বা পশ্চাৎ দন্তমূলীয় বর্ণ ➺ দন্তমূল ও জিহ্বার সম্মুখভাগ। ➺ ; অঘোষ:- ট ঠ ; ঘোষ:- ড ঢ ণ<br/>❏ ত বর্গীয় ➺ দন্ত্য বা অগ্রদন্তমূলীয় বর্ণ ➺ জিহ্বার আর দাঁতের উপরের পাটির সংস্পর্শে। ➺ ; অঘোষ:- ত থ ; ঘোষ:- দ ধ ন<br/>❏ প বর্গীয় ➺ ওষ্ঠ্যবর্ণ ➺ দুই ঠোঁটের সংস্পর্শ। ➺ ; অঘোষ:- প ফ ; ঘোষ:- ব ভ ম<br/>▣ বর্ণ ➺ উচ্চারণস্থান অনুসারে বর্ণের নাম ➺ উচ্চারণের স্থান<br/>❏ অ, আ, ক, খ, গ, ঘ, ঙ, হ ➺ কণ্ঠ্য বা জিহ্বামূলীয় বর্ণ ➺ কণ্ঠ্য বা জিহ্বামূল<br/>❏ ই, ঈ, চ, ছ, জ, ঝ, ঞ. শ, য, য় ➺ তালব্য বা অগ্রতালুজাত বর্ণ ➺ তালু<br/>❏ ঋ, ট, ঠ, ড, ঢ, ণ, ষ, র, ড়, ঢ় ➺ মূর্ধন্য বা পশ্চাৎ দন্তমূলীয় বর্ণ ➺ মূর্ধা<br/>❏ ত, থ, দ, ধ, ন, ল, স ➺ দন্ত্য বা অগ্রদন্তমূলীয় বর্ণ ➺ দন্ত্য বর্ণ<br/>❏ উ, ঊ, প, ফ, ব, ভ, ম ➺ ওষ্ঠ্যবর্ণ ➺ ওষ্ঠ্য<br/>❏ এ, ঐ ➺ কণ্ঠ তালব্য বর্ণ ➺ কণ্ঠ ও তালু<br/>❏ ও, ঔ ➺ কণ্ঠৌষ্ঠ্য বর্ণ ➺ কণ্ঠ ও ওষ্ঠ<br/>▣ অল্পপ্রাণ ও মহাপ্রাণ এবং ঘোষ ও অঘোষ ধ্বনি<br/>❏ অল্পপ্রাণ : যে সকল ধ্বনির উচ্চারণের সময় নিশ্বাস জোরে সংযোজিত হয় না/ শ্বাসবায়ুর বেগ অল্প থাকে তাকে অল্পপ্রাণ ধ্বনি বলে। যেমন- ক, চ, ট, ত, প ইত্যাদি। [প্রতিটি বর্গের প্রথম ও তৃতীয় বর্ণ অল্পপ্রাণ]<br/>❏ মহাপ্রাণ : যে সকল ধ্বনির উচ্চারণের সময় নিশ্বাস জোরে সংযোজিত হয়/ শ্বাসবায়ুর বেগ বেশি থাকে তাকে মহাপ্রাণ ধ্বনি বলে। যেমন- খ, ছ, ধ ইত্যাদি। [প্রতিটি বর্গের দ্বিতীয় ও চতুর্থ বর্ণ মহাপ্রাণ]<br/>❏ ঘোষ ধ্বনি : যে বর্ণ উচ্চারণের সময় স্বরতন্ত্রী কাঁপে, তাকে ঘোষ বর্ণ বা নাদ বর্ণ বলে। বর্গের তৃতীয়, চতুর্থ এবং পঞ্চম ধ্বনিকে ঘোষ ধ্বনি বলে। যেমন- গ, ঘ ইত্যাদি।<br/>❏ অঘোষ ধ্বনি : যে বর্ণ উচ্চারণের সময় স্বরতন্ত্রী কাঁপে না, তাকে অঘোষ বর্ণ বলে। বর্গের প্রথম এবং দ্বিতীয় ধ্বনিকে অঘোষ ধ্বনি বলে। যেমন- ক, খ, ইত্যাদি।<br/>❏ উচ্চারণ রীতি অনুযায়ী স্পর্শ ব্যঞ্জন ধ্বনিগুলোর ধ্বনিতাত্ত্বিক বিশ্লেষণ নিম্নরূপ<br/>❏ উষ্ম বা শিশ ধ্বনি : শ, ষ, স- এই তিনটি বর্ণকে উষ্ম বর্ণ বলে। শিশ দেয়ার ধ্বনির সাথে এর মিল আছে বলে, এদের ঘর্ষণজাত ধ্বনি বা শিশ ধ্বনি বা শিশবর্ণও বলা হয়। এই বর্ণগুলোর উচ্চারণ ইংরেজি Sh এর মতো। 'হ' বর্ণও একটি উষ্ম ঘোষ বর্ণ। কণ্ঠনালিতে এটি উৎপন্ন হয়।<br/>❏ স্পৃষ্ট-ঘর্ষণজাত : এই ধ্বনিগুলো উচ্চারণের সময় বাতাস প্রথমে স্পৃষ্ট ধ্বনির মতো মুখের মধ্যে সম্পূর্ণ রুদ্ধ হয়, কিন্তু দ্রুত বের না হয়ে কিছুটা বিলম্বে ঘর্ষণ ধ্বনি তৈরি করে বের হয়। অর্থাৎ স্পৃষ্ট + ঘর্ষণজাত = সৃষ্ট। চ, ছ, জ্, ব্ এ জাতীয় ধ্বনি। তবে মুহম্মদ আবদুল হাই এগুলোকে স্পৃষ্ট ব্যঞ্জনধ্বনি বলে স্বীকৃতি দিয়েছেন।<br/>❏ পরাশ্রয়ী ধ্বনি : এরা কখনও স্বাধীনভাবে ব্যবহৃত হতে পারে না। অন্য বর্ণের সাহায্যে এরা ব্যবহৃত হয়। পরাশ্রয়ী বর্ণ ৩টি। যথা: (ং,ঃ,)।<br/>❏ অন্তঃস্থ ধ্বনি : স্পর্শ ধ্বনির মাঝে আছে বলে য, র, ল, ব- এ ধ্বনিগুলোকে অন্তঃস্থ ধ্বনি/বর্ণ বলা হয়।<br/>❏ পার্শ্বিক ধ্বনি : জিহ্বার দু'পাশ দিয়ে বায়ু নিঃসৃত হয় বলে একে পার্শ্বিক ধ্বনি বলে। যেমন: ল (১টি)।<br/>❏ তাড়নজাত ধ্বনি : জিহ্বার উলটো পিঠের দ্বারা উপরের দন্তমূলে আঘাত বা তাড়না করে উচ্চারিত হয় বলে তাড়নজাত ধ্বনি বলে। যেমন- ড়, ঢ়।<br/>❏ কম্পনজাত ধ্বনি : জিহ্বার অগ্রভাগকে কম্পিত করে উচ্চারিত হলে তা কম্পনজাত ধ্বনি। কম্পনজাত ধ্বনি হলো ➺ র।<br/>❏ স্পর্শধ্বনি ➺ ২৫টি।<br/>❏ শিশধ্বনি/উষ্মধ্বনি/ঘর্ষণজাত ধ্বনি ➺ শ, ষ, স, হ<br/>❏ পরাশ্রয়ী ধ্বনি ➺ ং, ঃ,<br/>❏ অন্তঃস্থ ধ্বনি ➺ য, র, ল, ব<br/>❏ কম্পনজাত ধ্বনি ➺ র<br/>❏ পার্শ্বিক ধ্বনি ➺ ল<br/>❏ তাড়নজাত ধ্বনি ➺ ড়, ঢ়<br/>❏ নাসিক্য বর্ণ ➺ ঙ, ঞ, ণ, ন, ম",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334362,
+    "question": "'অর্বাচীন' শব্দের অর্থ কি?",
+    "options": [
+      "চতুর",
+      "প্রাচীন",
+      "নবীন",
+      "সরল"
+    ],
+    "correct_answer": "নবীন",
+    "explanation": "📖 'অর্বাচীন' শব্দের অর্থ হলো নবীন, আধুনিক বা বর্তমানকালীন। এর বিপরীত শব্দ হলো 'প্রাচীন'। অনেক সময় অনভিজ্ঞ বা মূর্খ অর্থেও শব্দটি ব্যবহৃত হয়।<br/> ⇢ <br/>⛳ 'অর্বাচীন' শব্দটি সংস্কৃত শব্দ। এর আভিধানিক অর্থ হলো যা পূর্বে ছিল না বা ইদানীংজাত।<br/>❏ প্রাচীন: বহু কাল আগের বা পুরাতন।<br/>❏ নবীন: নতুন বা সদ্য আগত।<br/>❏ প্রশ্নে 'অর্বাচীন' এর সমার্থক শব্দ হিসেবে 'নবীন' সঠিক। বিপরীত শব্দ চাইলে উত্তর হতো 'প্রাচীন'।<br/> ⇢ <br/>⛳ 'অর্বাচীন' শব্দটির অর্থ হলো 'নবীন' বা 'নতুন'। অর্থাৎ যা এখনো বয়সে কম বা সাম্প্রতিক সময়ের বা আধুনিক। 'প্রাচীন' শব্দটি এর বিপরীত অর্থ বোঝায়।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  },
+  {
+    "id": 334363,
+    "question": "'বেশি কথা বলে যে' এক কথায় লিখুন।",
+    "options": [
+      "হা ঘরে",
+      "বাচাল",
+      "বোকা",
+      "তালকানা"
+    ],
+    "correct_answer": "বাচাল",
+    "explanation": "📖 যে বেশি কথা বলে তাকে এক কথায় 'বাচাল' বলা হয়।<br/>❏ যে নারী বেশি কথা বলে = মুখরা।<br/>❏ যে অগ্রপশ্চাৎ না ভেবে কাজ করে = অবিমৃষ্যকারী।<br/>❏ তালকানা অর্থ কাণ্ডজ্ঞানহীন বা বেহুঁশ।<br/> ⇢ <br/>⛳ বাক্য সংকোচন বা এক কথায় প্রকাশ বাংলা ব্যাকরণের একটি গুরুত্বপূর্ণ অংশ।<br/>❏ বাচাল: যে প্রয়োজনের অতিরিক্ত বা অনর্থক কথা বলে।<br/>❏ মিতভাষী: যে কম কথা বলে (বাচালের বিপরীত)।<br/>❏ হা ঘরে: যার ঘরবাড়ি নেই বা যে অন্নের কাঙাল।<br/>❏ তালকানা: কাণ্ডজ্ঞানহীন ব্যক্তি।<br/> ⇢ <br/>⛳ যে ব্যক্তি অহেতুক বা অতিরিক্ত কথা বলে, বাংলা ভাষায় তাকে 'বাচাল' বলা হয়। এটি একটি এক কথায় প্রকাশ।",
+    "hints": "",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "category": "বিভিন্ন মন্ত্রণালয়",
+    "sub_category": "স্বাস্থ্য মন্ত্রণালয়",
+    "exam": "৫১০০@সিভিল সার্জনের কার্যালয়_কক্সবাজার ➺ স্বাস্থ্য সহকারী ☞ 26.12.25"
+  }
+]

@@ -1,0 +1,1107 @@
+[
+  {
+    "id": 206262,
+    "question": "It is estimated that of living will increase by 8.50 percent per year. How much should a piece of candy cost in tree years if it costs Tk. 1.50 today?",
+    "options": [
+      "Tk. 1.915",
+      "Tk. 1.37",
+      "Tk. 1.635",
+      "Tk. 1.75"
+    ],
+    "correct_answer": "Tk. 1.915",
+    "explanation": "🔖প্রতি বছরে বৃদ্ধির হার ( r ) = 8.50%<br/>\\( \\therefore \\) সবৃদ্ধিমূল C = \\( p(1 + r{)}^{n} \\)<br/>\\( =1.50{\\left(1+\\frac{8.50}{100}\\right)}^{3} \\)<br/>\\( =1.50{\\left(1+0.085\\right)}^{3} \\)<br/>\\( =1.50{\\left(1.085\\right)}^{3}=1.50\\times 1.27 \\) = 1.915",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206263,
+    "question": "At a photocopy center , the first 10 copies cost x taka each. Each of the next 50 copies costs 2 taka less per copy . From the 61 st copy on, the cost 1 Taka per copy, In terms of x how much does it cost in. Taka to have 200 copies made/",
+    "options": [
+      "60x+140",
+      "50(x-5)",
+      "50x-10",
+      "10x+240"
+    ],
+    "correct_answer": "10x+240",
+    "explanation": "🔖প্রতি কপি x টাকা করে 10 কপিতে খরচ 10x টাকা। পরবর্তী 50 কপিতে খরচ টাকা। পরবর্তী 50 কপিতে খরচ 50(x - 2 = 50x)<br/>100 টাকা। পরবর্তী (200 - 60) বা 140 কপিতে খরচ 140 টাকা।<br/>\\( \\therefore \\) 200 কপিতে মোট খরচ (10x + 50x - 100 + 140)টাকা।<br/>Note: সঠিক উত্তর 60x + 40 টাকা।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206264,
+    "question": "Mr. jaman is insured completely for Tk. 150000 of damages to his machinaery . For any damage over Tk. 150000, the insurance company will payTk. 150000 plus only 15% of the additional amount For a recent accident. Mr. jaman was paid Tk. 156000 by the insurance company. What was the total amount of the damage estimated/",
+    "options": [
+      "104000",
+      "190000",
+      "40000",
+      "190000"
+    ],
+    "correct_answer": "190000",
+    "explanation": "🔖কোম্পানি অতিরিক্ত প্রদান করে (156000 - 150000) = 6000 টাকা<br/>15 টাকা প্রদান করা হয় যখন damage হয় 100 টাকার মেশিনারি<br/>\\( \\therefore \\) 6000 \" \" \" \" \" \" \" \\( \\frac{100\\times 6000}{15} \\) = 4000 টাকার মেশিনারি<br/>\\( \\therefore \\) মোট damage estimate করা হয়েছিল (1,50,000 + 40,000)= 1,90,000 টাকার।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206265,
+    "question": "\\( If({x}^{2}-7x+18)=6,whichofthefollowingmustbefalse? \\)",
+    "options": [
+      "x>0",
+      "x>3",
+      "x=-4",
+      "x=4"
+    ],
+    "correct_answer": "x=-4",
+    "explanation": "🔖\\( {x}^{2}-7x+18=6 \\)<br/>\\( \\Rightarrow {x}^{2}-7x+12=0 \\)<br/>\\( \\Rightarrow {x}^{2}-4x-3x+12=0 \\)<br/>\\( \\Rightarrow x\\left(x-4\\right)-3\\left(x-4\\right)=0 \\)<br/>\\( \\Rightarrow \\left(x-4\\right) \\left(x-3\\right)=0 \\)<br/>\\( \\therefore \\) x = 4 অথবা x=3<br/>সুতরাং দেখা যাচ্ছে answer option-এর (a), (c) (d) সবগুলোই সঠিক কারণ এখানে x- এর মান 3, 4 বা 3 থেকে বড় বা শূন্য থেকে বড়। শুধু x- এর মান (-4)হতে পারে না।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206266,
+    "question": "the average of 5 numbes is 40 . If 2 more numbers with an avearge of 21, are added to these numbers, What will be the average of the combined 7 numbers?",
+    "options": [
+      "34.57",
+      "30.35",
+      "30.17",
+      "8.73"
+    ],
+    "correct_answer": "34.57",
+    "explanation": "🔖প্রথম number-এর সমষ্টি (\\( 40\\times 5 \\)) = 200<br/>পরের 2 টি \" \" \" (\\( 21\\times 2 \\) ) = 42<br/>\\( \\therefore \\) 7 টি number-এর সমষ্টি (200 + 42) = 242<br/>\\( \\therefore \\) 7 টি \" \" গড়(\\( 242÷7 \\)) = 34.57",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206268,
+    "question": "A merchant was selling an item at a price then marked it down 20% for a spring sale. During the summer, he marked the item down another 20% from its spring price. If the item sold at the summer price, What percent of the orginal price di it sell for?",
+    "options": [
+      "67%",
+      "64%",
+      "60%",
+      "40%"
+    ],
+    "correct_answer": "64%",
+    "explanation": "🔖Net effect = (\\( -20-20+\\frac{20\\times 20}{100} \\))% = 36%<br/>অর্থাৎ 36% কমবে<br/>\\( \\therefore \\) Item টি বিক্রয় হবে original price-এর (100-36) = 64%দামে।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206269,
+    "question": "Today jishan is twice as old as Farid and Samsu is 2 younger than Farid four years ago Jishan was 4 times as old as Samu. How old is Jishan now?",
+    "options": [
+      "20",
+      "16",
+      "12",
+      "8"
+    ],
+    "correct_answer": "20",
+    "explanation": "🔖ধরি, Farid-এর বর্তমান বয়স x বছর<br/>\\( \\therefore \\) -এর বতমান বয়স 2x বছর<br/>\\( \\therefore \\) Samsu -এর বতমান বয়স (x - 2) বছর<br/>\\( \\therefore \\) 2x - 4 = 4 (x - 2 - 4)<br/>\\( \\Rightarrow \\) 2x - 4 = 4 (x - 6)<br/>\\( \\Rightarrow \\) 2x - 4 = 4x - 24<br/>\\( \\Rightarrow \\) 2x = 20<br/>\\( \\Rightarrow \\) x =10<br/>\\( \\therefore \\) Jishan -এর বতমান বয়স 2x = \\( 2\\times 10 \\) = 20 বছর ",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206270,
+    "question": "There are 8 Job applicants sitting in a waiting room of which four are women and four are men. If two of the applicants are selected at random. What is the probality that both will be women?`",
+    "options": [
+      "3/14",
+      "1/2",
+      "3/7",
+      "1/2"
+    ],
+    "correct_answer": "3/14",
+    "explanation": "🔖এখানে, প্রথম selection-এ একজন woman আসার probability = \\( \\frac{4}{8}=\\frac{1}{2} \\)<br/>প্রথম woman আসার পর 2য় বার একজন woman আসার probability = 3/7<br/>\\( \\therefore \\) দুইবার woman আসার মোট probability = \\( \\frac{1}{2}\\times \\frac{3}{7}=\\frac{3}{14} \\) .",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206271,
+    "question": "A class of 50 girls and 70 boys sponsored a party. If 40% of the girls and 50% of the boys attended the party, approximately what percent of the attended?",
+    "options": [
+      "46",
+      "44",
+      "42",
+      "40"
+    ],
+    "correct_answer": "46",
+    "explanation": "🔖Party-তে girls attend করে(\\( 50\\times 40\\% \\))= 20 জন<br/>\" boys '' '' (\\( 70\\times 50\\% \\)) = 35 জন<br/>\\( \\therefore \\) Party-তে শতকরা attend করে \\( \\frac{20+35}{50+70}\\times 100=\\frac{55}{120}\\times 100 \\) = 45.83 \\( \\approx \\) 46 জন",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206272,
+    "question": "If x⩽ 8 and y⩽ 3, it must be true that",
+    "options": [
+      "x-y⩽5",
+      "x-y⩾5",
+      "x+y⩽11",
+      "x+y⩾ 5"
+    ],
+    "correct_answer": "x-y⩾5",
+    "explanation": "🔖\\( x⩾8 \\) এবং \\( y⩽3 \\)<br/>\\( \\Rightarrow 3⩾y \\)<br/>এখন, x + 3 \\( ⩽ \\) 8 + y<br/>\\( \\therefore \\) x - y \\( ⩾ \\) 5",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206273,
+    "question": "A hawker takes 1.25 hours to deliver newpaper on his route. Another howker takes 15 minutes longer to deliver these papers on the same route. How long would it take to deliver the papers if both of them worked together?",
+    "options": [
+      "65 minitues",
+      "40 minutes",
+      "37.5 minutes",
+      "22.25 minute"
+    ],
+    "correct_answer": "40 minutes",
+    "explanation": "🔖একজনের paper delivery করতে সময় লাগে 1.25 বা 75 মিনিট<br/>অন্যজনের '' '' '' '' '' '' (75 + 15) = 90 মিনিট<br/>\\( \\therefore \\) দুজনের একত্রে সময় লাগে = \\( \\frac{75\\times 90}{75+90}=\\frac{6750}{165} \\) = 40.90 বা 40 মিনিট",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206274,
+    "question": "A manufacturer of TV wants to make a profit of Tk. 30000 on sale of 200 TV sets. It costs Tk. 10000 to make each of the first 100 TV sets and Tk. 7500 make each TV set after the first 100 sets. What should be the selling price of each TV set?",
+    "options": [
+      "10,550",
+      "10,500",
+      "10,350",
+      "10,250"
+    ],
+    "correct_answer": "10,250",
+    "explanation": "🔖প্রথম 100 টিভির cost price (\\( 100\\times 10000 \\)) = 1,00,000 টাকা<br/>পরের 100 \" '' (\\( 100\\times 7500 \\)) = 7,50,00<br/>\\( \\therefore \\) Total cost = (10,00,000 + 7,50,000) = 1,75,000 টাকা<br/>Selling price = (17,50,000 + 3,00,000) = 20,50,000 টাকা<br/>\\( \\therefore \\) প্রতিটি TV-র selling price = \\( \\frac{20,50,000}{200} \\) = 10250",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206275,
+    "question": "A sales respresentive will recieve a 15% commission on a sale of Tk. 28,000 If she has already received Tk. 15000 as an advance that commission, How much more is due on the commission",
+    "options": [
+      "Tk. 32000",
+      "Tk. 2700",
+      "Tk. 12000",
+      "Tk. 4200"
+    ],
+    "correct_answer": "Tk. 2700",
+    "explanation": "🔖Total commission (\\( 28000\\times 15 \\)%) = 4200 টাকা<br/>1500 টাকা অগ্রিম গ্রহণ করায় commission বকেয়া আছে (4200 - 1500) = 2700 টাকা।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206276,
+    "question": "A painter has painted one -third of a rectangular wall which is ten feel high. When he will paint another 75 square feet of that wall, he will have finished three-quaters of the job. What is the length (the horizontal dimension) of the wall?",
+    "options": [
+      "18 feet",
+      "12 feet",
+      "10 feet",
+      "9 feet"
+    ],
+    "correct_answer": "18 feet",
+    "explanation": "🔖ধরি, wall-এর area = x বর্গফুট<br/>\\( \\therefore \\frac{1}{3}\\times x+75=\\frac{3}{4}\\times x \\)<br/>\\( \\Rightarrow \\frac{x}{3}-\\frac{3x}{3} \\) = - 75<br/>\\( \\Rightarrow \\frac{3x}{4}-\\frac{x}{3} \\) = 75<br/>\\( \\Rightarrow \\frac{9x-4x}{12} \\) = 75<br/>\\( \\Rightarrow 5x=12\\times 75 \\)<br/>\\( \\Rightarrow \\) x = 180<br/>\\( \\therefore \\) Wall-এর দৈর্ঘ্য \\( \\frac{180}{10} \\) = 18 feet",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206277,
+    "question": "three business parners Q, R, and S agree to divide thier total profit for certain year in the ratios 2:5:5 respectively . If Q's share was Tk. 4000 what was the total profit of the business partners for the year?",
+    "options": [
+      "Tk 26,000",
+      "Tk. 30,000",
+      "Tk. 52,000",
+      "Tk. 60,000"
+    ],
+    "correct_answer": "Tk. 30,000",
+    "explanation": "🔖A,B ও C -এর বিনিয়োগের অনুপাত 5 : 7 : 8<br/>\\( \\therefore \\) অনুপাতের যোগফল (2 + 5 + 8) = 15<br/>প্রশ্নমতে, ‍Share-এর \\( \\frac{2}{15} \\) অংশ = 4000<br/>\\( \\therefore \\) \" \" 15 বা full \" \\( \\frac{4000\\times 15}{2} \\) = 30000",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206278,
+    "question": "Hashen wants to put up fencing around three of his rectangular yard and leave a side of 20 feet unfenced. If the yard has area of 680 square feet, How many feet of fencing does he need?",
+    "options": [
+      "68",
+      "40",
+      "34",
+      "88"
+    ],
+    "correct_answer": "88",
+    "explanation": "🔖আয়তাকার yard- এর ক্ষেত্রফল 680 বর্গফুট<br/>আয়তাকার yard- এর one side 20 ফুট<br/>\\( \\therefore \\) yard-এর অন্য side = \\( \\frac{680}{20} \\) = 34 ফুট<br/>\\( \\therefore \\) আয়তাকার yard-এর 3 side-এ বেড়ার প্রয়োজন হবে (\\( 2\\times 34 \\)) + 20 = 44 ফুট",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206279,
+    "question": "Increasing the original price of an item by 15 percent and then decreasing the new price by 15 percent is equivalent to increase the orginal price by",
+    "options": [
+      "1.20%",
+      "1.40%",
+      "1.50%",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖Net effect = (\\( 15-15-\\frac{15\\times 15}{100} \\))% = -2.25%<br/>অর্থাৎ original price কমেছে। অতএব, উত্তর হবে 2.25% None of these ।",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206280,
+    "question": "In a weight -lifting competion, the total weight of Jabir's two lifts was 750 pounds. Twice the weight of this lift was 300 pounds more than the weight of his secnd lift. What was the weight , in pounds, of his first lift?",
+    "options": [
+      "350",
+      "325",
+      "225",
+      "275"
+    ],
+    "correct_answer": "350",
+    "explanation": "🔖ধরি, First lift-এর weight x pounds<br/>\\( \\therefore \\) second lift-এর weight (750 - x)pounds<br/>প্রশ্নমতে, 2x = (750 - x) + 300<br/>2x = 1050 - x<br/>3x = 1050<br/>x = 350",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206281,
+    "question": "The average of 6 numbers is 8.5. When one number is discarded the average of the remaining numbers becomes 7.2. What is the discarded number?",
+    "options": [
+      "7.8",
+      "15",
+      "10.0",
+      "9.8"
+    ],
+    "correct_answer": "15",
+    "explanation": "🔖6 টি সংখ্যার সমষ্টি (\\( 8.5\\times 6 \\)) = 51<br/>বাকি ৫ টি সংখ্যার সমষ্টি (\\( 7.2\\times 5 \\)) = 36<br/>\\( \\therefore \\) বাদ দেয়া সংখ্যাটি হলো (51 - 36) = 15",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206282,
+    "question": "A worker union contract specifies a 6 percent salary increase plus a Tk 450 bonus foro each worker. For a worker this is equivalent to 8 percent salary increase,. What was this worker's salary before the new contract",
+    "options": [
+      "Tk 24,300",
+      "Tk. 23500",
+      "Tk. 22500",
+      "Tk. 21500"
+    ],
+    "correct_answer": "Tk. 22500",
+    "explanation": "🔖ধরি, পূর্বে salary ছিল x টাকা<br/>\\( \\therefore \\left(x\\times 6\\%\\right)+450=x\\times 8\\% \\)<br/>\\( \\Rightarrow \\frac{6x}{100}+450=\\frac{8x}{100} \\)<br/>\\( \\Rightarrow \\frac{6x+45000}{100}=\\frac{8x}{100} \\)<br/>\\( \\Rightarrow \\) 6x + 45000 = 8x<br/>\\( \\Rightarrow \\) 2x = 45000<br/>\\( \\therefore \\) x = 22500",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206283,
+    "question": "A business firm reduces the number of hours its emplyess work from 40 hours per week to 36 hours per week while continuing to pay the same amount of money. If an employee earned x taka per hour before the reduction in hours, how much does he earn per hour under the new system?",
+    "options": [
+      "1/10",
+      "10x/9",
+      "x/9",
+      "9x/10"
+    ],
+    "correct_answer": "10x/9",
+    "explanation": "🔖Reduction-এর পূর্বে প্রতি hour-এ আয় x টাকা<br/>\\( \\therefore \\) \" \" পরে \" '' \" \" y \"<br/>\\( \\therefore \\) 40x = 36y<br/>\\( \\Rightarrow y=\\frac{40x}{36}=\\frac{10x}{9} \\)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206284,
+    "question": "Rahim average 70 in his first m number of exams. After taking n more exams, he had an overall average of 75. In items of m and n his average for last n exams was ",
+    "options": [
+      "(70m+75n)/(m+n)",
+      "(5n/m)+75",
+      "(5m/n)+75",
+      "(5m+75)/n"
+    ],
+    "correct_answer": "(5m/n)+75",
+    "explanation": "🔖m সংখ্যক exam-এর সমষ্টি 70m<br/>ধরি, n সংখ্যক exam -এর গড় x<br/>\\( \\therefore \\) n সংখ্যক exam-এর সমষ্টি nx<br/>\\( \\therefore \\) 70m + nx = 75 (m + n)<br/>\\( \\Rightarrow \\) 70m + nx = 75 m + 75 m<br/>\\( \\Rightarrow \\) nx = 5 m + 75n<br/>\\( \\Rightarrow x=\\frac{ 5 m+75n }{n}=\\frac{5m}{n}+75 \\)",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206285,
+    "question": "Last week , Sohan's hourly wage has been increased by 10percent. After this increase Sohan's total wage tk. 1375 . If his weekly hours were to decrease by 10 percent from last week's total hours, What would be the Sohan's weekly wage?",
+    "options": [
+      "Tk. 1200",
+      "none of these",
+      "Tk. 1350",
+      "Tk. 1125"
+    ],
+    "correct_answer": "none of these",
+    "explanation": "🔖10% বৃদ্ধিতে Sohan-এর weekly income হবে (\\( 1375+1375\\times 10\\% \\)) =1512.5 টাকা<br/>Weekly hours 10% কমে যাওয়ায় তার income-ও 10% কমে যাবে<br/>\\( \\therefore \\) New income = \\( 1512.5-\\left(1512.5\\times 10\\%\\right) \\) = 1361.25 টাকা<br/>সুতরাং Sohab-এর weekly income 1361.25 টাকা। সঠিক উত্তর : None of these",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206286,
+    "question": "Asif purchased a ratio from a store and sold it to Rahim and made a profit of 20%. After few months, Rahim sold the same ratio to Fahad and incurred a loss of 15% . If Fahad bought the ratio for Tk. 510, What was the original price of the ratio?",
+    "options": [
+      "None of these",
+      "475",
+      "450",
+      "425"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "🔖ধরি, Radio-এর প্রকৃতমূল্য x টাকা<br/>প্রশ্নমতে,<br/>\\( n\\times 1.2\\times 0.85 \\) = 510<br/>\\( \\Rightarrow x=\\frac{510\\times 10\\times 100}{12\\times 85} \\) = 500.<br/>সঠিক উত্তর : None of these",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206287,
+    "question": "Two third of the members of a department are female. Twelve of the male faculty members are unmarried while 60% of them are married. The total number of faculty members in the department is:",
+    "options": [
+      "None of these",
+      "30",
+      "60",
+      "90"
+    ],
+    "correct_answer": "90",
+    "explanation": "🔖ধরি, total faculty member-এর সংখ্যা x জন<br/>\\( \\therefore \\) female \" \" \" '' \\( \\frac{2x}{3} \\) \"<br/>\\( \\therefore \\) male \" \" \" \" \\( \\frac{x}{3} \\) \"<br/>প্রশ্নমতে,<br/>\\( \\frac{x}{3}-\\frac{x}{3}\\times 60\\% \\) = 12<br/>\\( \\Rightarrow \\frac{x}{3}-\\frac{x}{5} \\) = 12<br/>\\( \\Rightarrow \\frac{2x}{15} \\) = 12<br/>\\( \\therefore \\) x = 90",
+    "hints": "",
+    "subject": "গাণিতিক যুক্তি",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206309,
+    "question": "In 2015, the amount of FDi in Bangladesh amounted about:",
+    "options": [
+      "$ 1.2 billion",
+      "$ 2.2 bilion",
+      "$3.4 billion",
+      "$ 5.1 billion"
+    ],
+    "correct_answer": "$ 5.1 billion",
+    "explanation": "🔖২১ জুন ২০১৬ UNCTAD কর্তৃক প্রকাশিত বিশ্ব বিনিয়োগ প্রতিবেদন ২০১৬ অনুযায়ী বাংলাদেশে ২০১৫ সালে প্রত্যক্ষ বিদেশি বিনিয়োগ (FDI)-এর পরিমাণ ২২৩ কোটি ৫৩ লক্ষ ৯০ হাজার মার্কিন ডলার অথবা ২.২ বিলিয়ন।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206329,
+    "question": "What is the current number of member states in the European Union?",
+    "options": [
+      "26",
+      "24",
+      "22",
+      "28"
+    ],
+    "correct_answer": "28",
+    "explanation": "🔖১ জানুয়ারি ১৯৫৮ প্রতিষ্ঠিত ইউরোপীয় ইউনিয়নের বর্তমান সদস্য দেশ ২৮টি। তবে Brexit কার্যকর হলে অর্থাৎ যুক্তরাজ্য ELI – থেকে বের হয়ে গেলে এ সংস্থার সদস্য সংখ্যা হবে ২৭টি।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206330,
+    "question": "Who is the author of highly popular Game of thrones' fantasy book series?",
+    "options": [
+      "J.R.R.Tolkien",
+      "George R.R.Martin",
+      "J.K Rowling",
+      "Jeffrey Archer"
+    ],
+    "correct_answer": "George R.R.Martin",
+    "explanation": "🔖ডেভিড বেনিওফ ও ডি. বি ওয়েইস কর্তৃক নির্মিত আমেরিকান কাল্পনিক টেলিভিশন সিরিজ নাটক হলো গেইম অব থ্রোন্স। আর এটি নেওয়া হয়েছে জর্জ আর, আর, মার্টিনের কল্প প্রধান উপন্যাস সিরিজ ‘A Song of Ice and Fire’ থেকে যার প্রথমটির নাম’ A Game of Thrones’।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206331,
+    "question": "What is the full of the abbreviation SWIFT, as used with relation to network for financial transactions in the banking industry?",
+    "options": [
+      "Society for Worldwide Inter bank Financial Telecommunication",
+      "Society for Worldwide Inter bank Financial Transaction",
+      "Society for Worldwide International Inter bank Financial Transaction",
+      "Society for Worldwide International Financial telecommunication"
+    ],
+    "correct_answer": "Society for Worldwide Inter bank Financial Telecommunication",
+    "explanation": "🔖SWIFT – এর পূর্ণরুপ Society for world wide Interbank financial Telecommunication। এটি প্রতিষ্ঠিত হয় ১৯৭৩ সালে। এ সংস্থার দপ্তর বেলজিয়ামের লা হালপেতে অবস্থিত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206332,
+    "question": "Hoover Dam is built on which of the following rivers?",
+    "options": [
+      "colorado River",
+      "Seine River",
+      "Rhine River",
+      "Niger River"
+    ],
+    "correct_answer": "colorado River",
+    "explanation": "🔖হুভার ড্যাম বোল্ডার নামেও পরিচিত। এটির নির্মাণ কাজ আরম্ভ হয় ১৯৩১ সালে এবং এর উদ্বোধন করা হয় ১৯৩৬ সালে। এ ড্যাম যুক্তরাষ্ট্রের নেভাদা ও অ্যারিজোনা রাজ্যের মধ্য সীমানায় কলোরাডো নদীর ব্ল্যাক ক্যানিয়নে অবস্থিত।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206333,
+    "question": "How many states do the United States of America consist of?",
+    "options": [
+      "56",
+      "55",
+      "52",
+      "50"
+    ],
+    "correct_answer": "50",
+    "explanation": "🔖মার্কিন যুক্তরাষ্ট্রের অঙ্গরাজ্যের সংখ্যা ৫০টি। তাছাড়া ডিস্ট্রিক্ট অব কলাম্বিয়া নামে একটি স্বতন্ত্র জেলা রয়েছে। সর্ববৃহৎ অঙ্গরাজ্য আলাস্কা।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206334,
+    "question": "Which year was the first parliamentary election held in Bangladesh?",
+    "options": [
+      "1975",
+      "1974",
+      "1973",
+      "1972"
+    ],
+    "correct_answer": "1973",
+    "explanation": "🔖বাংলাদেশের প্রথম জাতীয় সংসদ নির্বাচন অনুষ্ঠিত হয় ৭ মার্চ (বুধবার) ১৯৭৩। এ নির্বাচনে ১৪ টি রাজনৈতিক দল অংশগ্রহণ করে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206335,
+    "question": "Which team is the current champion of the America tournament ?",
+    "options": [
+      "Argentina",
+      "brazil",
+      "Chile",
+      "Uruguay"
+    ],
+    "correct_answer": "Chile",
+    "explanation": "🔖১৯১৬ সালে শুরু হওয়া কোপা আমেরিকা কাপের বর্তমান চ্যাম্পিয়ন চিলি। রানার্সআপ আর্জেন্টিনা।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206336,
+    "question": "Which o fthe following is not a specialized bank in Bangladesh ?",
+    "options": [
+      "Bangladesh Krishi Bank",
+      "Probashi Kallyan Bank",
+      "Probashi Development Bank Ltd.",
+      "Bangladsh Polli unnayon Bank"
+    ],
+    "correct_answer": "Probashi Development Bank Ltd.",
+    "explanation": "🔖তফসিলভুক্ত ও তফসিল বহির্ভূত – সব মিলিয়ে বর্তমানে বাংলাদেশে বিশেষোয়িত ব্যাংকের সংখ্যা ৭টি। যথা : বাংলাদেশ কৃষি ব্যাংক, রাজশাহী কৃষি উন্নয়ন ব্যাংক, প্রবাসী কল্যাণ ব্যাংক, আনসার ভিডিপি উন্নয়ন ব্যাংক, বাংলাদেশ সমবায় ব্যাংক লিমিটেড, কর্মসংস্থান ব্যাংক ও পল্লী সঞ্চয় ব্যাংক।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206337,
+    "question": "Light -year is a measured of;",
+    "options": [
+      "Energy",
+      "Speed",
+      "Intensity",
+      "Distance"
+    ],
+    "correct_answer": "Distance",
+    "explanation": "🔖Light Year আলোকবর্ষ দূরত্বের পরিমাপক। আলোকরশ্মি প্রতি সেকেন্ডে ১,৮৬,৩২৬ মাইল বা ২,৯৯,৮০০ কিমি বেগে বছরে যতটা দূরত্ব যায় অর্থাৎ ৬ × ১০ ১২ মাইল কিংবা ৯.৭ × ১০১২ কিমি তাকে আলোকবর্ষ বলে।",
+    "hints": "",
+    "subject": "সাধারণ জ্ঞান",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206344,
+    "question": "_______at the top my voice, I tried to warn everybody .",
+    "options": [
+      "shouting",
+      "Being shouted",
+      "having shouted",
+      "Since i shouted"
+    ],
+    "correct_answer": "having shouted",
+    "explanation": "🔖কোনো কিছু করা’ বোঝাতে Present Participle (Verb + ing) বসে। সুতরাং সঠিক উত্তর (c)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206345,
+    "question": "I know you will probably be out of town, But I wish you____ come to the party tonight .",
+    "options": [
+      "can",
+      "might",
+      "could",
+      "may"
+    ],
+    "correct_answer": "could",
+    "explanation": "🔖সামর্থ্য অর্থে শূন্যস্থানে could শব্দটি বসবে। সুতরাং সঠিক উত্তর (c)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206346,
+    "question": "If I ____ to feed my pet, it would't be starving now.",
+    "options": [
+      "have had time",
+      "have time",
+      "had had time",
+      "never have time"
+    ],
+    "correct_answer": "had had time",
+    "explanation": "🔖If had had time to feed my pet, it wouldn’t be staruing now. অর্থাৎ যদি আমি আমার পোষা প্রাণীটিকে খাওয়ানোর সময় পেতাম, তাহলে এটা এখনো না খেয়ে থাকত না। সুতরাং সঠিক উত্তর (c)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206347,
+    "question": "Don't you think it is too unprofessional _____you to pass comments ____him like this?",
+    "options": [
+      "for, by",
+      "about, for",
+      "for, for",
+      "of, on"
+    ],
+    "correct_answer": "of, on",
+    "explanation": "🔖Pass a remark / Comment on something- কোনো কিছুতে মতামত ব্যক্ত করা। তাই you - এর পূর্বে of বসবে এবং comunents – এর পর on বসবে। সুতরাং সঠিক উত্তর (d)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206348,
+    "question": "Monkeys use facial expressions to communicate _____each other _____to ensure social orders.",
+    "options": [
+      "with, and",
+      "for, but",
+      "with, so that",
+      "at, only"
+    ],
+    "correct_answer": "with, and",
+    "explanation": "🔖Communicate – এর সাথে preposition হিসেবে with এবং উদ্দেশ্য বোঝাতে infinitiue to – এর ব্যবহার হয়। সুতরাং সঠিক উত্তর (a)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206349,
+    "question": "Iti tooking a long time___ accepted.",
+    "options": [
+      "till the theory was",
+      "still theory was",
+      "for the theory was",
+      "for the theory to be"
+    ],
+    "correct_answer": "for the theory to be",
+    "explanation": "🔖ʹto be acceptedʹ অর্থ ‘গৃহীত হবে’। সুতরাং বাক্যটি অর্থবহ করতে শূন্যস্থানে option – এর ব্যবহারই সঠিক। তখন পুরো sentence-টির অর্থ হবে- তত্ত্বটি গৃহীত হতে অনেক সময় লেগেছিল।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206350,
+    "question": "\\( thereis\\underset{a}{\\overset{nopointinlo\\mathrm{sin}ghope}{\\to }}\\underset{b}{\\overset{orbeworried}{\\to }}what\\underset{c}{\\overset{hastohappenwillhappen}{\\to }}\\underset{d}{\\overset{noError}{\\to }} \\)",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correct_answer": "b",
+    "explanation": "🔖Parallelism- এর নিয়মানুসারে and বা or- এর উভয় পাশে একই গঠন হয়। অর্থাৎ একপাশে losing আছে তাই অন্য পাশে being হবে। অর্থাৎ ... hope or being worried... হবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206351,
+    "question": "\\( hewas\\underset{a}{\\overset{sogulliblethat}{\\to }}he\\underset{b}{\\overset{believesalomost}{\\to }}any\\underset{c}{\\overset{excisesgivenby}{\\to }}hisemployees.\\underset{d}{\\overset{NoError}{\\to }} \\)",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correct_answer": "d",
+    "explanation": "🔖বাক্যটিতে কোনো ভুল নেই। সুতরাং সঠিক উত্তর (d)",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206352,
+    "question": "\\( I\\underset{a}{\\overset{hatetobellyouthis}{\\to }}-\\underset{b}{\\overset{notwiths\\mathrm{tan}dingyourwork}{\\to }}isreally\\underset{c}{\\overset{notuptothemark}{\\to }}.\\underset{d}{\\overset{NoError}{\\to }} \\)",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correct_answer": "b",
+    "explanation": "🔖Notwithstanding- এর অর্থ ‘সত্ত্বেও’। বাক্য থেকে শব্দটি বাদ দিলে বাক্যটি সঠিক হতো। কারণ শব্দটি থাকলে sentence- টি অর্থবোধক হয় না। সুতরাং error অংশ (b)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206354,
+    "question": "\\( \\underset{a}{\\overset{Inflights}{\\to }}astronauts\\underset{b}{\\overset{havetobear}{\\to }}muscle\\underset{c}{\\overset{atrophycaused}{\\to }}weightlessness\\underset{d}{\\overset{NoError}{\\to }} \\)",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correct_answer": "b",
+    "explanation": "🔖In flights, astronauts have to bear muscle atrophy caused by weightlessness. বাক্যটি পড়ে বোঝা যায় এটিতে কোনো ভুল নেই। সুতরাং সঠিক উওর (d)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206355,
+    "question": "Mary is one the few students who \\( \\stackrel{hasbroughtrealhonourto}{\\to } \\) the college.",
+    "options": [
+      "has brought real honour to",
+      "has really honoured",
+      "have brought real honour to",
+      "has brought real honour for"
+    ],
+    "correct_answer": "have brought real honour to",
+    "explanation": "🔖Relative pronoun- এর verb তার antecedent অনুযায়ী হয়। Who-এর antecedent ʹstudentʹ/ সুতরাং has না বসে have হবে।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206356,
+    "question": "Had I know his true intentions, \\( I\\stackrel{wouldhadneveralllowed}{\\to }himtocome. \\)",
+    "options": [
+      "would had never allowed",
+      "would have never allowed",
+      "would never had allowed",
+      "would never allow"
+    ],
+    "correct_answer": "would have never allowed",
+    "explanation": "🔖Had I known = If I had known. সুতরাং এরপর would have +v_3 বসবে। If যুক্ত অংশে Past Perfect Tense হলে পরের অংশ would have done বা would have allowed বসে। সুতরাং সঠিক উত্তর (b)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206357,
+    "question": "Being \\( \\stackrel{alwaysthetopperfomerintheclass}{\\to } \\) he really disappointed his teacher with his poor result this time .",
+    "options": [
+      "Being always the top performer in the class",
+      "Having always been to top perfomer in the class",
+      "He having being the top performer in the class",
+      "He having always been the top performer in the class"
+    ],
+    "correct_answer": "Being always the top performer in the class",
+    "explanation": "🔖বাক্যের underline করা অংশটুকু সঠিক আছে। সুতরাং সঠিক উত্তর (a)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206358,
+    "question": "Thegeneral public didn't care about the trail and was \"apathetic\" about the verdict.",
+    "options": [
+      "enraged",
+      "indifferent",
+      "suspicious",
+      "saddened"
+    ],
+    "correct_answer": "indifferent",
+    "explanation": "🔖Apathetic অর্থ উদাসীন বা আগ্রহহীত। অন্যদিকে, indifferent- রাগানো; suspicious- সন্দেজনক; sadden- বিষণ্ন করা। সুতরাং apathetic ও indifferent শব্দ দুটি সমার্থক। সঠিক উত্তর (b)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206359,
+    "question": "The thief \"jostled\"me in a crowed and was thus able to pick my pocket.",
+    "options": [
+      "mugged",
+      "bumped",
+      "assailed",
+      "hindered"
+    ],
+    "correct_answer": "bumped",
+    "explanation": "🔖নিম্নরেখ শব্দ Jostle অর্থ কনুই দিয়ে ধাক্কা দেয়া। Option- গুলোর মধ্যে mug- ছিনতাই করা; bump- কোনো কিছুর সাথে ধাক্কা খাওয়া; assail-প্রচন্ড শক্তিতে আক্রমণ করা। সুতরাং jostle ও bump শব্দ দুটি সমার্থক বলে উত্তর হবে (b)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206360,
+    "question": "FRAME:PICTURE",
+    "options": [
+      "display:museum",
+      "fence:bankyard",
+      "nail:hammer",
+      "shelf:refrigeator"
+    ],
+    "correct_answer": "fence:bankyard",
+    "explanation": "🔖Frame – কাঠামো : picture – ছবি। প্রদত্ত option – গুলোর মধ্যে (a) display – প্রদর্শন করা : museum – জাদুঘর; (b) fence – বেড়া : backyard – বাড়ির পিছন দিকের উঠান; (c) nail – নখ : hammer – হাতুড়ি। Picture – এর চারদিকে frame থাকে, একইভাবে backyard – এর চারদিকে fence থাকে। সুতরাং সঠিক উত্তর (b)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206361,
+    "question": "RUN:JOG",
+    "options": [
+      "trot;race",
+      "swim:dive",
+      "dance ballet",
+      "rain:drizzle"
+    ],
+    "correct_answer": "rain:drizzle",
+    "explanation": "🔖Run – দৌড়ানো : jog – ব্যায়ামের জন্য আস্তে দৌড়ানো। Trot – মাঝামাঝি গতিতে চলা; race –প্রতিযোগিতা; rain – বৃষ্টি হওয়া : drizzle – হালকাভাবে বৃষ্টি হওয়া। সুতরাং jog –এর গতি বাড়লে হয় run, একইভাবে drizzle - এর গতি বাড়লে হয় rain। সুতরাং সঠিক উত্তর (d)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206362,
+    "question": "PHOBIC:FEARFUL",
+    "options": [
+      "finicky:fussy",
+      "cautinous:emotional",
+      "envious:desiring",
+      "ridiculous:silly"
+    ],
+    "correct_answer": "finicky:fussy",
+    "explanation": "🔖Phobic – তীব্র অপছন্দ বা ভীতি প্রদর্শন করে এমন : fearful – শঙ্কিত; finicky – খুঁতখুঁতে, সহজে সন্তুষ্ট হয় না এমন : fussy – সবকিছু নিখুঁত চায় এমন, খুঁতখুঁতে স্বভাবের; cautious -সতর্ক : emotional – আবেগ সংক্রান্ত; ridiculous – হাস্যকর : silly – নিরীহ, বোকা। সুতরাং Phobic ও Fearful সমার্থক শব্দ, একইভাবে finicky এবং fussy হলো সমার্থক শব্দ। সঠিক উত্তর (a)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206363,
+    "question": "INTEREST:OBSESSION",
+    "options": [
+      "mood:feeling",
+      "weeping:sadness",
+      "dream:fantasy",
+      "plan:negation"
+    ],
+    "correct_answer": "dream:fantasy",
+    "explanation": "🔖Interest – আগ্রহ : obsession – ঘোর, আবিষ্টতা। প্রদ্ত option – শুলোর মধ্যে (a) mood – মেজাজ : feeling – অনুভূতি; (c) dream – স্বপ্ন : fantasy – অলীক কল্পনা; (c) plan –পরিকল্পনা : negation – অস্বীকৃতি। সুতরাং অতিরিক্ত interest হলো obsession, একইভাবে অতিরিক্ত dream হলো fantasy। সঠিক উত্তর (c)।",
+    "hints": "",
+    "subject": "English Language and Literature",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206389,
+    "question": "A boy goes to sea a film and finds a man who is his relative. the man is the husband o fhe sister of his mother. How is the man related to the boy?",
+    "options": [
+      "Uncle",
+      "Brother",
+      "Nephew",
+      "Brother in Law"
+    ],
+    "correct_answer": "Uncle",
+    "explanation": "🔖Husband of the sister of his mother অর্থাৎ তার মায়ের বোনের স্বামী অর্থাৎ ছেলেটির খালু। সুতরাং লোকটি হলো ছেলেটির Uncle।",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206390,
+    "question": "Which is the next logical number in this sequence of numbers 23,5, 48, 12,27,9,37,10,61,7,88?",
+    "options": [
+      "10",
+      "6",
+      "12",
+      "16"
+    ],
+    "correct_answer": "16",
+    "explanation": "🔖এখানে, ১ম সংখ্যা = ২৩; ২য় সংখ্যা = ২+৩ = ৫; ৩য় সংখ্যা = ৪৮; ৪র্থ সংখ্যা = ৪+৮ = ১২; বাকিগুলোও এভাবে এগিয়েছে। অর্থাৎ পূর্ববর্তী সংখ্যার অঙ্কদ্বয়ের যোগফল হবে পরবর্তী সংখ্যা।<br/>∴ ৮৮ এর পরবর্তী সংখ্যা ৮+৮ = ১৬",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206391,
+    "question": "Laura loves to eat apple but not the bana while John Loves to eat mango and the banana. Kim loves to eat mongo but not the apple and Jim loves eat banana but not the mango. If each child loves to eat two tree fruits, Which one has the same preference as John",
+    "options": [
+      "Kim",
+      "Laura",
+      "Jim",
+      "all of them"
+    ],
+    "correct_answer": "Kim",
+    "explanation": "🔖প্রশ্নানুসারে,<br/>i.\tLaura পছন্দ করে apple কিন্তু banana পছন্দ করে না।<br/>ii.\tJohn পছন্দ করে mango এবং banana এ দুটো।<br/>iii.\tKim পছন্দ করে mango কিন্তু apple পছন্দ করে না।<br/>iv.\tjim পছন্দ করে banana কিন্তু mango পছন্দ করে না।<br/>সুতরাং দেখা যাচ্ছে যে, John – এর পছন্দের সাথে মিল রেখে same fruits মানে mango এবং banana পছন্দ করতে পারে শুধুমাত্র Kim।",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206392,
+    "question": "Rehana is one senior to jamila , and two years Junior to Faria. Amina is one year senior to Jamila. Which of the following statements (S)",
+    "options": [
+      "Faria is the most senior",
+      "Rahena and jamila are of same age",
+      "Jamila is the most junior",
+      "Both a and C"
+    ],
+    "correct_answer": "Both a and C",
+    "explanation": "🔖শর্তানুসারে,<br/>i.\tRehana, Jamila- র চেয়ে ১ বছরের senior, মানে Rehana= Jamila + ১,<br/>ii.\tRehana Faria- র চেয়ে ২ বছরের Junior, মানে Faria = Rehana + ২<br/>iii.\tAmina, Jamila- র চেয়ে ১ বছরের senior মানে, Amina = Jamila + ১,<br/>তাহলে (i) ও (iii)-নং অনুসারে Rehana = Amina এবং Jamila < Rehana / Amina।<br/>∴ (i), (ii) ও (iii) শর্তানুযায়ী Faria সবচেয়ে বড় এবং Jamila সবচেয়ে ছোট।",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206393,
+    "question": "X and y agreed to do a particular job. X alone complted 1/3 rd of the Job and then asked y to complete the rest. Y did hald to the rest job and then hired Z. Aftrwards these two (Y & Z ) equally shared the job. Which one of the following statements is true?",
+    "options": [
+      "Z did more than X",
+      "y did as much as X and Z did individually",
+      "Y did as much as X and Z did together",
+      "None of these together"
+    ],
+    "correct_answer": "y did as much as X and Z did individually",
+    "explanation": "🔖X একা 1/3 অংশ করার পর কাজ বাকি থাকে 1-⅓=2/ 3 অংশ।<br/>Y করে অবশিষ্টাংশের অর্ধেক =2/3x1/2=1/3 অংশ<br/>বাকি থাকে ⅔-⅓=1/3 অংশ, যেটুকুY ও Z সমানভাবে করে শেষ করে।<br/>এখন 1/3 অংশ কাজের Y ও Z প্রত্যেকে করে 1/3x1/2=⅙ অংশ<br/>সুতরাং X করে 1/3 অংশ:<br/>Y মোট করে 1/3+1/6 বা 1/2 অংশ এবং Z করে 1/6 অংশ।<br/>অর্থাৎ Y এর ½ অংশ কাজ যা X এবং Z এর একত্রিত কাজের সমান কিন্তু তাদের এক জনের চেয়ে বেশি।",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206394,
+    "question": "Topu and Niloy playing cards Tk. 50 per game. Topu wn 36 games and Niloy won Tk. 1250 net of all games . If there were no ties, How many games did they play in total",
+    "options": [
+      "25",
+      "61",
+      "72",
+      "97"
+    ],
+    "correct_answer": "97",
+    "explanation": "🔖Topu প্রথমে ৩৬ টিতে জয়ী হলে Niloy ঐ ৩৬টি game –হেরেছে। Niloy নিট ১২৫০ টাকা পায় তার মানে সে Net জয়ী হয়েছে (১২৫০ ÷ ৫০) = ২৫টি game –এ। ৩৬টি হারা গেমের টাকা পরিশোধ করে ২৫টি গেম জিতেছে। সুতরাং মোট game (৩৬+৩৬+২৫) বা ৯৭টি।",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206395,
+    "question": "Anis is shorter than Babu, but taller than Camelia. Doli is shorter than Anis but taller than Camelia. Emon is shorter than Babu but taller than Anis. Who is in middle position in items of height?",
+    "options": [
+      "Anis",
+      "Babu",
+      "Camelia",
+      "Doli"
+    ],
+    "correct_answer": "Anis",
+    "explanation": "🔖প্রদত্ত শর্তানুযায়ী, নামের আদ্যাক্ষর অনুসারে উলম্ব রেখা অংকন করে পাই<br/>উচ্চতার ক্রমে সাজিয়ে পাই B>E>A>D>C সুতরাং মধ্যবর্তী (middle) আছে আনিস (Anis)।",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206396,
+    "question": "If A attends a party, B will not attend. C will attend only if both A and D attend. E will attend only if both and D attend. F will attend if any three attend. Out of these total 6 persons, miximum how of them can you expect that they will attend the party?",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "3"
+    ],
+    "correct_answer": "4",
+    "explanation": "🔖প্রদত্ত তথ্য অনুসারে প্যাটার্ন তৈরি করলে পাই<br/>i. A উপস্থিত হলে B উপস্থিত হবে না, অর্থাৎ AB<br/>ii. C যাবে তখনই, যদি A ও D উভয়েই attend করে, অর্থাৎ C→A + D<br/>iii. E যাবে তখনই, যদি B ও D উভয়েই attend করে অর্থাৎ E→B + D<br/>iv. F যাবে তখনই, যদি অন্য সেকোনো তিনজন attend করে অর্থাৎ F → another three\t<br/>মানে, ADC – ও হতে পারে অথবা BDE – ও হতে পাতে পারে।<br/>এখানে বিরোধী অবস্থান শুধুমাত্র A ও B এর। A গেলে ACDF যাবে আর B গেলে BDEF যাবে। অর্থাৎ সর্বোচ্চ যাবে ৪ জন।",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206397,
+    "question": "A basket contains four balls of four diffirent colors -white red, black and green which will be distributed among for persons Rajib, Litu, Simu, and Rida. Rida must not be given the black one. Simu not be given either the black one or the green one. If the above conditions are fulfilled, Which of the following must be true?",
+    "options": [
+      "Simu will be given the red one",
+      "Lity will given the black one",
+      "Rida will be given the green one",
+      "All of these"
+    ],
+    "correct_answer": "All of these",
+    "explanation": "🔖Basket- এ চারটি ভিন্ন রংয়ের – White, red, black ও green বল আছে; এই বলগুলি- Rajib, Litu, Simu ও Rida এই চারজনের মধ্যে প্রদত্ত শর্তানুসারে ভাগ করে দিলে নিচের কোনটি অবশ্যই সত্য হবে তা আমাদের বের করতে হবে।<br/>প্রশ্নে বলা হয়েছে, Rajib অবশ্যই White বল পাবে, অর্থাৎ, Rajib White । বাকি থাকলো red, black ও green।Simu যেহেতু Black বা Green বল- এর কোনটাই পাবে না, তাহলে Simu পাবে red। বাকি থাকলো black, green। Statement অনুযায়ী Rida পাবে না Black বল, অর্থাৎ Rida পাবে green। বাকি থাকল black বল, যা অবশ্যই Litu পাবে। সুতরাং দেখা যাচ্ছে যে answer option – এর সবগুলোই সত্য।",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206399,
+    "question": "How many flowers are there if all them are roses expect two, all of them are tulips except two, and all of them are daisies expect two?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": "3",
+    "explanation": "🔖দুটি বাদে সবগুলো rose<br/>দুটি বাদে সবগুলো tulip<br/>\tদুটি বাদে সবগুলো daisy<br/>স্পষ্ট বোঝা যাচ্ছে মোট ফুল তিনটি এবং প্রতি প্রকারের ফুল আছে ১টি করে।",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  },
+  {
+    "id": 206400,
+    "question": "Rehan must be a cricket > I saw him with a cricket bat. The conclusion above is valid only i fit true that.",
+    "options": [
+      "Cricket often hold cricket bats.",
+      "All crickets hold crickets bats",
+      "Cricketers never hold any other kind of bats",
+      "Only cricketer never hold cricket bats"
+    ],
+    "correct_answer": "All crickets hold crickets bats",
+    "explanation": "🔖অপশন (d) – তে প্রদত্ত তথ্যটি সত্য হলেই প্রশ্নের statement টি সত্য হবে। কেননা বাকি তিনটির দুটি অপশনে ক্রিকেটার ব্যতীত সাধারণ মানুষের ব্যাপারে কোনো স্পষ্ট ধারণা নাই। সাধারণ মানুষও ব্যাট ধরতে পারে।সুতরাং সেক্ষেত্রে সেতো ক্রিকেটার নয়। আবার (c) অনুযায়ী প্রদত্ত statement মিথ্যা।",
+    "hints": "",
+    "subject": "মানসিক দক্ষতা",
+    "category": "ব্যাংক জবস",
+    "sub_category": "United Commercial Bank Ltd (UCB)",
+    "exam": "United Commercial Bank Ltd - Probationary Officer - 2016"
+  }
+]
