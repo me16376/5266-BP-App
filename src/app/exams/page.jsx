@@ -10,7 +10,7 @@ import {
   Timer, 
   Calendar
 } from 'lucide-react';
-import { getExamsCatalog } from '../../lib/examsData';
+import { getExamsCatalog, cleanExamTitle } from '../../lib/examsData';
 
 function ExamsDirectoryContent() {
   const searchParams = useSearchParams();
@@ -241,7 +241,7 @@ function ExamsDirectoryContent() {
                     lineHeight: '1.5',
                     marginBottom: '10px'
                   }}>
-                    {exam.title}
+                    {cleanExamTitle(exam.title)}
                   </h3>
 
                   <div style={{ fontSize: '0.86rem', color: 'var(--text-muted)', marginBottom: '18px' }}>

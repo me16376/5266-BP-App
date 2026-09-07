@@ -11,7 +11,7 @@ import {
   CheckCircle2
 } from 'lucide-react';
 import QuestionCard from '../../components/QuestionCard';
-import { loadExamQuestions } from '../../lib/examsData';
+import { loadExamQuestions, cleanExamTitle } from '../../lib/examsData';
 
 function PracticeContent() {
   const searchParams = useSearchParams();
@@ -166,7 +166,7 @@ function PracticeContent() {
           </div>
 
           <h1 style={{ fontSize: '1.8rem', fontWeight: 800, color: '#0f172a', marginBottom: '8px' }}>
-            {examData ? examData.title : 'পরীক্ষার প্রশ্নব্যাংক'}
+            {examData ? cleanExamTitle(examData.title) : 'পরীক্ষার প্রশ্নব্যাংক'}
           </h1>
 
           <div style={{ fontSize: '0.92rem', color: 'var(--text-muted)' }}>

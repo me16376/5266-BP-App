@@ -26,7 +26,7 @@ import ExamTimer from '../../components/ExamTimer';
 import QuestionNavGrid from '../../components/QuestionNavGrid';
 import QuestionCard from '../../components/QuestionCard';
 import ResultModal from '../../components/ResultModal';
-import { loadExamQuestions, getExamsCatalog } from '../../lib/examsData';
+import { loadExamQuestions, getExamsCatalog, cleanExamTitle } from '../../lib/examsData';
 import { saveTestResult } from '../../lib/storage';
 
 function ModelTestContent() {
@@ -253,7 +253,7 @@ function ModelTestContent() {
                         </span>
                       </div>
                       <h4 style={{ fontSize: '0.96rem', fontWeight: 700, color: '#0f172a', lineHeight: '1.5', marginBottom: '16px' }}>
-                        {exam.title}
+                        {cleanExamTitle(exam.title)}
                       </h4>
                     </div>
 
@@ -347,7 +347,7 @@ function ModelTestContent() {
               </span>
             </div>
             <h2 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#0f172a', margin: 0, lineHeight: 1.3 }}>
-              {examData?.title || 'মডেল টেস্ট'}
+              {cleanExamTitle(examData?.title) || 'মডেল টেস্ট'}
             </h2>
           </div>
 

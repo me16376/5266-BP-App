@@ -18,7 +18,7 @@ import {
   Zap,
   Table
 } from 'lucide-react';
-import { getExamsCatalog } from '../lib/examsData';
+import { getExamsCatalog, cleanExamTitle } from '../lib/examsData';
 
 const CATEGORY_ICONS = {
   bcs: GraduationCap,
@@ -414,7 +414,7 @@ export default function HomePage() {
                       {exam.category_name}
                     </span>
                     <h4 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#0f172a', marginBottom: '8px', lineHeight: '1.5' }}>
-                      {exam.title}
+                      {cleanExamTitle(exam.title)}
                     </h4>
                     <div style={{ fontSize: '0.84rem', color: 'var(--text-muted)', marginBottom: '16px' }}>
                       মোট প্রশ্ন: {exam.question_count} টি {exam.year ? `• সাল: ${exam.year}` : ''}

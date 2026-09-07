@@ -23,17 +23,30 @@ export async function getExamsCatalog() {
   }
 }
 
+export function cleanExamTitle(title) {
+  if (!title || typeof title !== 'string') return '';
+  return title.replace(/^[০-৯0-9]{3,5}_/, '').trim();
+}
+
 export async function getExamBySlug(slugOrId) {
   const catalog = await getExamsCatalog();
   const search = typeof slugOrId === 'string' ? decodeURIComponent(slugOrId).toLowerCase().trim() : '';
+  const searchClean = cleanExamTitle(search).toLowerCase();
   const exam = catalog.exams.find(e => 
     e.slug === slugOrId || 
     e.id === slugOrId || 
     e.slug.toLowerCase() === search ||
     e.title.toLowerCase() === search ||
+    cleanExamTitle(e.title).toLowerCase() === searchClean ||
     (e.clean_filename && e.clean_filename.toLowerCase() === search)
   );
-  return exam || null;
+  if (exam) {
+    return {
+      ...exam,
+      title: cleanExamTitle(exam.title)
+    };
+  }
+  return null;
 }
 
 export async function loadExamQuestions(slugOrId) {
