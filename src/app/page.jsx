@@ -16,7 +16,8 @@ import {
   ArrowRight,
   Flame,
   Zap,
-  Table
+  Table,
+  Award
 } from 'lucide-react';
 import { getExamsCatalog, cleanExamTitle } from '../lib/examsData';
 import { matchesExamSearch } from '../lib/searchUtils';
@@ -24,10 +25,14 @@ import { matchesExamSearch } from '../lib/searchUtils';
 const CATEGORY_ICONS = {
   bcs: GraduationCap,
   bank: Landmark,
+  primary: BookOpen,
+  ntrca: GraduationCap,
   teacher: BookOpen,
   ministry: Building2,
   admission: School,
-  subject: Layers
+  subject: Layers,
+  education: School,
+  judicial: Award
 };
 
 export default function HomePage() {
@@ -307,7 +312,7 @@ export default function HomePage() {
             <div>
               <span className="badge badge-cyan" style={{ marginBottom: '6px' }}>ক্যাটাগরি ভিত্তিক প্রশ্নব্যাংক</span>
               <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a' }}>
-                ৬টি প্রধান পরীক্ষার ক্যাটাগরি
+                প্রধান পরীক্ষার ক্যাটাগরিসমূহ
               </h2>
             </div>
             <Link href="/exams" className="btn-secondary" style={{ padding: '8px 18px', fontSize: '0.88rem' }}>

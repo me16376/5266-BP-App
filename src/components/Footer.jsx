@@ -60,7 +60,8 @@ export default function Footer() {
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '0.9rem' }}>
               <li><Link href="/exams?cat=bcs" style={{ color: '#475569' }}>বিসিএস প্রিলিমিনারি (১০ম-৪৬তম)</Link></li>
               <li><Link href="/exams?cat=bank" style={{ color: '#475569' }}>সরকারি ও বাণিজ্যিক ব্যাংক নিয়োগ</Link></li>
-              <li><Link href="/exams?cat=teacher" style={{ color: '#475569' }}>প্রাইমারি ও শিক্ষক নিবন্ধন (NTRCA)</Link></li>
+              <li><Link href="/exams?cat=primary" style={{ color: '#475569' }}>প্রাথমিক সহকারী শিক্ষক নিয়োগ</Link></li>
+              <li><Link href="/exams?cat=ntrca" style={{ color: '#475569' }}>শিক্ষক নিবন্ধন (NTRCA)</Link></li>
               <li><Link href="/exams?cat=ministry" style={{ color: '#475569' }}>মন্ত্রণালয় ও পিএসসি নন-ক্যাডার</Link></li>
               <li><Link href="/exams?cat=subject" style={{ color: '#475569' }}>বিষয়ভিত্তিক প্রশ্নব্যাংক ও নোট</Link></li>
             </ul>
