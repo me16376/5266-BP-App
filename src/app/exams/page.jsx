@@ -58,9 +58,19 @@ function ExamsDirectoryContent() {
 
   // Helper to score an exam for sorting
   const getExamSortScore = (exam) => {
-    // 1. BCS Number (e.g. 50, 49, 48 ... 10)
-    const bcsMatch = exam.title.match(/(\d+)(?:st|nd|rd|th)/i) || exam.slug.match(/(\d+)(?:st|nd|rd|th)/i);
-    const bcsNum = bcsMatch ? parseInt(bcsMatch[1], 10) : 0;
+    // 1. BCS / Registration Edition Number (e.g. 50, 49, 48 ... 10 BCS, or 18, 17, 16 ... NTRCA)
+    const edMatch = exam.title.match(/(\d+)(?:st|nd|rd|th)/i) || exam.slug.match(/(\d+)(?:st|nd|rd|th)/i);
+    let editionNum = edMatch ? parseInt(edMatch[1], 10) : 0;
+
+    // Bengali edition numbers (e.g. ১৮তম, ১৭তম, ১৬ তম, ১৫ তম)
+    if (!editionNum) {
+      const bnMatch = exam.title.match(/([০-৯0-9]+)\s*(?:তম|ম|ষ্ঠ|র্থ)/);
+      if (bnMatch) {
+        const bnMap = { '০': '0', '১': '1', '২': '2', '৩': '3', '৪': '4', '৫': '5', '৬': '6', '৭': '7', '৮': '8', '৯': '9' };
+        const converted = bnMatch[1].replace(/[০-৯]/g, d => bnMap[d] || d);
+        editionNum = parseInt(converted, 10) || 0;
+      }
+    }
 
     // 2. Year from metadata or parsed from title/filename
     let year = exam.year || 0;
@@ -75,11 +85,19 @@ function ExamsDirectoryContent() {
         year = yy > 50 ? 1900 + yy : 2000 + yy;
       }
     }
+    if (!year) {
+      const bnYearMatch = exam.title.match(/(?:১৯\d\d|২০[০-৯]{2})/);
+      if (bnYearMatch) {
+        const bnMap = { '০': '0', '১': '1', '২': '2', '৩': '3', '৪': '4', '৫': '5', '৬': '6', '৭': '7', '৮': '8', '৯': '9' };
+        const converted = bnYearMatch[0].replace(/[০-৯]/g, d => bnMap[d] || d);
+        year = parseInt(converted, 10) || 0;
+      }
+    }
 
     // 3. ID / Original sequence number
     const idNum = exam.id ? parseInt(exam.id.replace(/\D/g, ''), 10) || 0 : 0;
 
-    return { bcsNum, year, idNum };
+    return { editionNum, year, idNum };
   };
 
   // Filtered & Sorted exams
@@ -111,12 +129,12 @@ function ExamsDirectoryContent() {
       const scoreA = getExamSortScore(a);
       const scoreB = getExamSortScore(b);
 
-      // If category is BCS or both have BCS numbers, strictly sort by BCS edition
-      if (scoreA.bcsNum > 0 && scoreB.bcsNum > 0) {
-        if (scoreA.bcsNum !== scoreB.bcsNum) {
+      // If category has edition numbers (BCS / NTRCA), strictly sort by edition
+      if (scoreA.editionNum > 0 && scoreB.editionNum > 0) {
+        if (scoreA.editionNum !== scoreB.editionNum) {
           return sortBy === 'oldest' 
-            ? scoreA.bcsNum - scoreB.bcsNum 
-            : scoreB.bcsNum - scoreA.bcsNum;
+            ? scoreA.editionNum - scoreB.editionNum 
+            : scoreB.editionNum - scoreA.editionNum;
         }
       }
 
@@ -127,9 +145,9 @@ function ExamsDirectoryContent() {
           : scoreB.year - scoreA.year;
       }
 
-      // If only one is BCS, place BCS on top in newest
-      if (scoreA.bcsNum > 0 && scoreB.bcsNum === 0) return sortBy === 'oldest' ? 1 : -1;
-      if (scoreB.bcsNum > 0 && scoreA.bcsNum === 0) return sortBy === 'oldest' ? -1 : 1;
+      // If only one has edition number, place it on top in newest
+      if (scoreA.editionNum > 0 && scoreB.editionNum === 0) return sortBy === 'oldest' ? 1 : -1;
+      if (scoreB.editionNum > 0 && scoreA.editionNum === 0) return sortBy === 'oldest' ? -1 : 1;
 
       // Default fallback: reverse the original index order (since index is oldest to newest)
       return sortBy === 'oldest' 

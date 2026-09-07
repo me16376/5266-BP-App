@@ -25,7 +25,7 @@ export async function getExamsCatalog() {
 
 export function cleanExamTitle(title) {
   if (!title || typeof title !== 'string') return '';
-  return title.replace(/^[০-৯0-9]{3,5}_/, '').trim();
+  return title.replace(/^[০-৯0-9]+\s*_\s*/, '').trim();
 }
 
 export async function getExamBySlug(slugOrId) {
