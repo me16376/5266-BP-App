@@ -96,9 +96,9 @@ function ExamsDirectoryContent() {
           {/* Category Tabs */}
           <div style={{
             display: 'flex',
+            flexWrap: 'wrap',
             gap: '8px',
-            overflowX: 'auto',
-            paddingBottom: '12px',
+            paddingBottom: '14px',
             marginBottom: '16px',
             borderBottom: '1px solid var(--border-subtle)'
           }}>
@@ -109,11 +109,11 @@ function ExamsDirectoryContent() {
                 borderRadius: '8px',
                 fontSize: '0.88rem',
                 fontWeight: 600,
-                whiteSpace: 'nowrap',
                 cursor: 'pointer',
                 border: selectedCategory === 'all' ? '1px solid var(--emerald-500)' : '1px solid #cbd5e1',
                 background: selectedCategory === 'all' ? '#ecfdf5' : '#ffffff',
-                color: selectedCategory === 'all' ? '#047857' : '#475569'
+                color: selectedCategory === 'all' ? '#047857' : '#475569',
+                transition: 'all 0.15s ease'
               }}
             >
               সকল পরীক্ষা ({catalog.exams.length})
@@ -128,11 +128,11 @@ function ExamsDirectoryContent() {
                   borderRadius: '8px',
                   fontSize: '0.88rem',
                   fontWeight: 600,
-                  whiteSpace: 'nowrap',
                   cursor: 'pointer',
                   border: selectedCategory === cat.id ? '1px solid var(--emerald-500)' : '1px solid #cbd5e1',
                   background: selectedCategory === cat.id ? '#ecfdf5' : '#ffffff',
-                  color: selectedCategory === cat.id ? '#047857' : '#475569'
+                  color: selectedCategory === cat.id ? '#047857' : '#475569',
+                  transition: 'all 0.15s ease'
                 }}
               >
                 {cat.name.split(' (')[0]} ({cat.exam_count})
