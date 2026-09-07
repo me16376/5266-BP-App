@@ -9,9 +9,11 @@ import {
   BookOpen, 
   Timer, 
   Calendar,
-  ArrowUpDown
+  ArrowUpDown,
+  Sparkles
 } from 'lucide-react';
 import { getExamsCatalog, cleanExamTitle } from '../../lib/examsData';
+import { matchesExamSearch, getQueryBengaliSuggestions } from '../../lib/searchUtils';
 
 function ExamsDirectoryContent() {
   const searchParams = useSearchParams();
@@ -25,6 +27,11 @@ function ExamsDirectoryContent() {
   const [sortBy, setSortBy] = useState('newest');
   const [visibleCount, setVisibleCount] = useState(30);
   const [loading, setLoading] = useState(true);
+
+  // Suggested Bengali keywords when user types in English
+  const activeSuggestions = useMemo(() => {
+    return getQueryBengaliSuggestions(searchQuery);
+  }, [searchQuery]);
 
   useEffect(() => {
     getExamsCatalog().then(data => {
@@ -87,12 +94,11 @@ function ExamsDirectoryContent() {
       if (selectedYear !== 'all' && exam.year !== parseInt(selectedYear, 10)) {
         return false;
       }
-      // Search filter
+      // Smart Bilingual Search (English / Banglish / Bengali / Digits)
       if (searchQuery.trim()) {
-        const q = searchQuery.toLowerCase();
-        const matchTitle = exam.title.toLowerCase().includes(q);
-        const matchCat = exam.category_name.toLowerCase().includes(q);
-        if (!matchTitle && !matchCat) return false;
+        if (!matchesExamSearch(exam, searchQuery)) {
+          return false;
+        }
       }
       return true;
     });
@@ -211,10 +217,29 @@ function ExamsDirectoryContent() {
                 type="text"
                 value={searchQuery}
                 onChange={(e) => { setSearchQuery(e.target.value); setVisibleCount(30); }}
-                placeholder="পরীক্ষার নাম দিয়ে ফিল্টার করুন..."
+                placeholder="বাংলা বা ইংরেজিতে সার্চ করুন (যেমন: bcs, bank, shikkhok, 45)..."
                 className="input-glass"
-                style={{ paddingLeft: '42px', height: '46px' }}
+                style={{ paddingLeft: '42px', paddingRight: searchQuery ? '36px' : '14px', height: '46px' }}
               />
+              {searchQuery && (
+                <button
+                  onClick={() => { setSearchQuery(''); setVisibleCount(30); }}
+                  style={{
+                    position: 'absolute',
+                    right: '12px',
+                    top: '12px',
+                    border: 'none',
+                    background: 'transparent',
+                    color: '#94a3b8',
+                    cursor: 'pointer',
+                    fontSize: '1rem',
+                    lineHeight: 1
+                  }}
+                  title="ক্লিয়ার করুন"
+                >
+                  ✕
+                </button>
+              )}
             </div>
 
             {/* Year Dropdown */}
@@ -246,6 +271,33 @@ function ExamsDirectoryContent() {
               </select>
             </div>
           </div>
+
+          {/* Bilingual Search Hint / Recognized Bengali Terms */}
+          {activeSuggestions.length > 0 && (
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px',
+              marginTop: '12px',
+              fontSize: '0.82rem',
+              color: 'var(--emerald-700)',
+              background: '#ecfdf5',
+              padding: '6px 12px',
+              borderRadius: '8px',
+              border: '1px solid #a7f3d0'
+            }}>
+              <Sparkles size={14} />
+              <span>বাংলা রূপান্তর:</span>
+              <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
+                {activeSuggestions.map((sugg, idx) => (
+                  <span key={idx} className="badge badge-emerald" style={{ fontSize: '0.78rem', padding: '2px 8px' }}>
+                    {sugg}
+                  </span>
+                ))}
+              </div>
+              <span style={{ color: 'var(--text-muted)', fontSize: '0.76rem' }}>(বাংলা টাইটেলে ম্যাচ করা হচ্ছে)</span>
+            </div>
+          )}
         </div>
 
         {/* Results Header */}

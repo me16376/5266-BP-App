@@ -19,6 +19,7 @@ import {
   Table
 } from 'lucide-react';
 import { getExamsCatalog, cleanExamTitle } from '../lib/examsData';
+import { matchesExamSearch } from '../lib/searchUtils';
 
 const CATEGORY_ICONS = {
   bcs: GraduationCap,
@@ -47,9 +48,8 @@ export default function HomePage() {
       setSearchResults([]);
       return;
     }
-    const q = searchQuery.toLowerCase();
     const matches = catalog.exams
-      .filter(e => e.title.toLowerCase().includes(q))
+      .filter(e => matchesExamSearch(e, searchQuery))
       .slice(0, 6);
     setSearchResults(matches);
   }, [searchQuery, catalog.exams]);
