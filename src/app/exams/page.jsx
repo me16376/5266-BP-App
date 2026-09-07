@@ -260,7 +260,7 @@ function ExamsDirectoryContent() {
                   </Link>
 
                   <Link
-                    href={`/file-exam?exam=${exam.slug}`}
+                    href={`/model-test?exam=${exam.slug}`}
                     className="btn-secondary"
                     style={{ flex: 1, padding: '9px 12px', fontSize: '0.86rem' }}
                   >

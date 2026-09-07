@@ -133,7 +133,7 @@ function PracticeContent() {
             </button>
 
             <Link
-              href={`/file-exam?exam=${examSlug}`}
+              href={`/model-test?exam=${examSlug}`}
               style={{
                 display: 'flex',
                 alignItems: 'center',

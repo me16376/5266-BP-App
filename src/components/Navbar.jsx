@@ -11,7 +11,8 @@ import {
   Menu, 
   X, 
   Sparkles,
-  Table
+  Table,
+  FileSpreadsheet
 } from 'lucide-react';
 
 export default function Navbar() {
@@ -22,8 +23,9 @@ export default function Navbar() {
     { label: 'হোম', href: '/', icon: Sparkles },
     { label: 'সকল পরীক্ষা', href: '/exams', icon: Layers },
     { label: 'প্র্যাকটিস ও রিড', href: '/practice', icon: BookOpen },
-    { label: 'ফাইল এক্সাম', href: '/file-exam', icon: Timer },
-    { label: 'টেবিল স্টুডিও (CSV/Excel/JSON)', href: '/file-studio', icon: Table },
+    { label: 'মডেল টেস্ট', href: '/model-test', icon: Timer },
+    { label: 'ফাইল এক্সাম', href: '/file-exam', icon: FileSpreadsheet },
+    { label: 'টেবিল স্টুডিও', href: '/file-studio', icon: Table },
     { label: 'বুকমার্কস', href: '/bookmarks', icon: Bookmark },
   ];
 
@@ -104,9 +106,9 @@ export default function Navbar() {
 
         {/* Action Button & Mobile Toggle */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <Link href="/file-exam" className="btn-primary" style={{ padding: '8px 16px', fontSize: '0.86rem' }}>
+          <Link href="/model-test" className="btn-primary" style={{ padding: '8px 16px', fontSize: '0.86rem' }}>
             <Timer size={16} />
-            <span>ফাইল এক্সাম</span>
+            <span>মডেল টেস্ট</span>
           </Link>
 
           <button

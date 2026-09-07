@@ -271,7 +271,7 @@ export default function HomePage() {
             </Link>
 
             {/* Mode 3: Live Exam */}
-            <Link href="/file-exam" className="glass-card-interactive" style={{ padding: '30px' }}>
+            <Link href="/model-test" className="glass-card-interactive" style={{ padding: '30px' }}>
               <div style={{
                 width: '52px',
                 height: '52px',
@@ -286,13 +286,13 @@ export default function HomePage() {
                 <Timer size={28} color="#d97706" />
               </div>
               <h3 style={{ fontSize: '1.3rem', fontWeight: 700, color: '#0f172a', marginBottom: '8px' }}>
-                ৩. ফাইল এক্সাম ও মডেল টেস্ট (File Exam Mode)
+                ৩. লাইভ মডেল টেস্ট (Model Test Room)
               </h3>
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: '1.6', marginBottom: '18px' }}>
-                কাউন্টডাউন টাইমার, CSV/JSON ফাইল আপলোড, প্রশ্ন জাম্পিং প্যালেট, নেগেটিভ মার্কিং সহ এক্সাম ও নির্ভুল মার্কশিট।
+                কাউন্টডাউন টাইমার, প্রশ্ন জাম্পিং প্যালেট, ০.৫০ নেগেটিভ মার্কিং সহ রিয়েল-টাইম এক্সাম ও নির্ভুল মার্কশিট।
               </p>
               <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'var(--amber-600)', fontWeight: 600, fontSize: '0.9rem' }}>
-                <span>এক্সাম দিন</span>
+                <span>মডেল টেস্ট দিন</span>
                 <ArrowRight size={16} />
               </div>
             </Link>
@@ -430,7 +430,7 @@ export default function HomePage() {
                       প্র্যাকটিস
                     </Link>
                     <Link
-                      href={`/file-exam?exam=${exam.slug}`}
+                      href={`/model-test?exam=${exam.slug}`}
                       className="btn-secondary"
                       style={{ flex: 1, padding: '8px 12px', fontSize: '0.82rem' }}
                     >
