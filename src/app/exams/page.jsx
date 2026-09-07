@@ -8,7 +8,8 @@ import {
   Layers, 
   BookOpen, 
   Timer, 
-  Calendar
+  Calendar,
+  ArrowUpDown
 } from 'lucide-react';
 import { getExamsCatalog, cleanExamTitle } from '../../lib/examsData';
 
@@ -21,6 +22,7 @@ function ExamsDirectoryContent() {
   const [selectedCategory, setSelectedCategory] = useState(initialCat);
   const [searchQuery, setSearchQuery] = useState(initialQuery);
   const [selectedYear, setSelectedYear] = useState('all');
+  const [sortBy, setSortBy] = useState('newest');
   const [visibleCount, setVisibleCount] = useState(30);
   const [loading, setLoading] = useState(true);
 
@@ -47,10 +49,36 @@ function ExamsDirectoryContent() {
     return Array.from(set).sort((a, b) => b - a);
   }, [catalog.exams]);
 
-  // Filtered exams
+  // Helper to score an exam for sorting
+  const getExamSortScore = (exam) => {
+    // 1. BCS Number (e.g. 50, 49, 48 ... 10)
+    const bcsMatch = exam.title.match(/(\d+)(?:st|nd|rd|th)/i) || exam.slug.match(/(\d+)(?:st|nd|rd|th)/i);
+    const bcsNum = bcsMatch ? parseInt(bcsMatch[1], 10) : 0;
+
+    // 2. Year from metadata or parsed from title/filename
+    let year = exam.year || 0;
+    if (!year) {
+      const ym = exam.title.match(/\b(19\d\d|20\d\d)\b/);
+      if (ym) year = parseInt(ym[1], 10);
+    }
+    if (!year) {
+      const dm = exam.title.match(/\b\d{1,2}\.\d{1,2}\.(\d{2})\b/);
+      if (dm) {
+        const yy = parseInt(dm[1], 10);
+        year = yy > 50 ? 1900 + yy : 2000 + yy;
+      }
+    }
+
+    // 3. ID / Original sequence number
+    const idNum = exam.id ? parseInt(exam.id.replace(/\D/g, ''), 10) || 0 : 0;
+
+    return { bcsNum, year, idNum };
+  };
+
+  // Filtered & Sorted exams
   const filteredExams = useMemo(() => {
     if (!catalog.exams) return [];
-    return catalog.exams.filter(exam => {
+    const list = catalog.exams.filter(exam => {
       // Category filter
       if (selectedCategory !== 'all' && exam.category_id !== selectedCategory) {
         return false;
@@ -68,7 +96,41 @@ function ExamsDirectoryContent() {
       }
       return true;
     });
-  }, [catalog.exams, selectedCategory, selectedYear, searchQuery]);
+
+    return list.sort((a, b) => {
+      if (sortBy === 'questions') {
+        return (b.question_count || 0) - (a.question_count || 0);
+      }
+
+      const scoreA = getExamSortScore(a);
+      const scoreB = getExamSortScore(b);
+
+      // If category is BCS or both have BCS numbers, strictly sort by BCS edition
+      if (scoreA.bcsNum > 0 && scoreB.bcsNum > 0) {
+        if (scoreA.bcsNum !== scoreB.bcsNum) {
+          return sortBy === 'oldest' 
+            ? scoreA.bcsNum - scoreB.bcsNum 
+            : scoreB.bcsNum - scoreA.bcsNum;
+        }
+      }
+
+      // Next compare Year if different
+      if (scoreA.year !== scoreB.year && scoreA.year > 0 && scoreB.year > 0) {
+        return sortBy === 'oldest' 
+          ? scoreA.year - scoreB.year 
+          : scoreB.year - scoreA.year;
+      }
+
+      // If only one is BCS, place BCS on top in newest
+      if (scoreA.bcsNum > 0 && scoreB.bcsNum === 0) return sortBy === 'oldest' ? 1 : -1;
+      if (scoreB.bcsNum > 0 && scoreA.bcsNum === 0) return sortBy === 'oldest' ? -1 : 1;
+
+      // Default fallback: reverse the original index order (since index is oldest to newest)
+      return sortBy === 'oldest' 
+        ? scoreA.idNum - scoreB.idNum 
+        : scoreB.idNum - scoreA.idNum;
+    });
+  }, [catalog.exams, selectedCategory, selectedYear, searchQuery, sortBy]);
 
   const displayedExams = filteredExams.slice(0, visibleCount);
 
@@ -140,8 +202,8 @@ function ExamsDirectoryContent() {
             ))}
           </div>
 
-          {/* Search & Year Filters */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '14px' }}>
+          {/* Search, Year & Sort Filters */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '14px' }}>
             {/* Text Search */}
             <div style={{ position: 'relative' }}>
               <Search size={18} color="var(--text-muted)" style={{ position: 'absolute', left: '14px', top: '14px' }} />
@@ -167,6 +229,20 @@ function ExamsDirectoryContent() {
                 {availableYears.map(yr => (
                   <option key={yr} value={yr}>{yr} সাল</option>
                 ))}
+              </select>
+            </div>
+
+            {/* Sort Dropdown */}
+            <div style={{ position: 'relative' }}>
+              <select
+                value={sortBy}
+                onChange={(e) => { setSortBy(e.target.value); setVisibleCount(30); }}
+                className="input-glass"
+                style={{ height: '46px', cursor: 'pointer', fontWeight: 600, color: '#0f172a' }}
+              >
+                <option value="newest">সর্বশেষ আপডেট আগে (৫০তম ➔ ১০ম)</option>
+                <option value="oldest">পুরাতন পরীক্ষা আগে (১০ম ➔ ৫০তম)</option>
+                <option value="questions">প্রশ্ন সংখ্যা (বেশি থেকে কম)</option>
               </select>
             </div>
           </div>
