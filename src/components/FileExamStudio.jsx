@@ -43,6 +43,7 @@ import {
   Copy
 } from 'lucide-react';
 import { saveTestResult } from '../lib/storage';
+import FormattedContent from './FormattedContent';
 
 const OPTION_LABELS = ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
 
@@ -2310,15 +2311,15 @@ export default function FileExamStudio({ initialExamSlug = null }) {
                     </div>
 
                     {/* Question Statement */}
-                    <h3 style={{
+                    <div style={{
                       fontSize: '1.12rem',
                       fontWeight: 700,
                       color: '#0f172a',
                       marginBottom: '18px',
                       lineHeight: '1.6'
                     }}>
-                      {q.question}
-                    </h3>
+                      <FormattedContent content={q.question} />
+                    </div>
 
                     {/* Options List */}
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '10px' }}>
@@ -2384,7 +2385,9 @@ export default function FileExamStudio({ initialExamSlug = null }) {
                             }}>
                               {OPTION_LABELS[oIdx] || oIdx + 1}
                             </span>
-                            <span style={{ flex: 1 }}>{opt}</span>
+                            <span style={{ flex: 1 }}>
+                              <FormattedContent content={opt} inline />
+                            </span>
                             {isChosen && <Check size={16} color="#059669" />}
                           </button>
                         );
@@ -2400,15 +2403,16 @@ export default function FileExamStudio({ initialExamSlug = null }) {
                         background: '#f8fafc',
                         borderLeft: '4px solid #0284c7'
                       }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '6px', flexWrap: 'wrap' }}>
                           <Info size={15} color="#0284c7" />
                           <span style={{ fontWeight: 700, color: '#0369a1', fontSize: '0.88rem' }}>
-                            সঠিক উত্তর: <strong>{q.correct_answer}</strong>
+                            সঠিক উত্তর:
                           </span>
+                          <FormattedContent content={q.correct_answer} inline style={{ fontWeight: 700, color: '#0369a1' }} />
                         </div>
                         {q.explanation && (
-                          <div style={{ fontSize: '0.86rem', color: '#475569', marginTop: '4px', lineHeight: '1.6' }}>
-                            {q.explanation}
+                          <div style={{ fontSize: '0.9rem', color: '#475569', marginTop: '6px', lineHeight: '1.65' }}>
+                            <FormattedContent content={q.explanation} />
                           </div>
                         )}
                       </div>
@@ -2728,9 +2732,9 @@ export default function FileExamStudio({ initialExamSlug = null }) {
                     <div>{statusBadge}</div>
                   </div>
 
-                  <h4 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#0f172a', marginBottom: '14px', lineHeight: '1.5' }}>
-                    {q.question}
-                  </h4>
+                  <div style={{ fontSize: '1.05rem', fontWeight: 700, color: '#0f172a', marginBottom: '14px', lineHeight: '1.5' }}>
+                    <FormattedContent content={q.question} />
+                  </div>
 
                   {/* Options */}
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '8px', marginBottom: '12px' }}>
@@ -2764,13 +2768,15 @@ export default function FileExamStudio({ initialExamSlug = null }) {
                             fontSize: '0.88rem',
                             display: 'flex',
                             alignItems: 'center',
-                            justifyContent: 'space-between'
+                            justifyContent: 'space-between',
+                            gap: '12px'
                           }}
                         >
-                          <div>
-                            <strong>({OPTION_LABELS[oIdx] || oIdx + 1})</strong> {opt}
+                          <div style={{ flex: 1, display: 'flex', alignItems: 'center', gap: '6px' }}>
+                            <strong>({OPTION_LABELS[oIdx] || oIdx + 1})</strong>
+                            <FormattedContent content={opt} inline />
                           </div>
-                          <div>
+                          <div style={{ flexShrink: 0 }}>
                             {isThisCorrect && <strong style={{ color: '#059669', fontSize: '0.82rem' }}>[সঠিক উত্তর]</strong>}
                             {isThisSelected && !isThisCorrect && <strong style={{ color: '#e11d48', fontSize: '0.82rem' }}>[আপনার উত্তর]</strong>}
                           </div>
@@ -2783,14 +2789,15 @@ export default function FileExamStudio({ initialExamSlug = null }) {
                   {q.explanation && (
                     <div style={{
                       background: '#f8fafc',
-                      padding: '12px 14px',
+                      padding: '14px 16px',
                       borderRadius: '8px',
                       borderLeft: '4px solid #0284c7',
-                      fontSize: '0.85rem',
+                      fontSize: '0.9rem',
                       color: '#334155',
-                      lineHeight: '1.6'
+                      lineHeight: '1.65'
                     }}>
-                      <strong style={{ color: '#0369a1' }}>ব্যাখ্যা:</strong> {q.explanation}
+                      <strong style={{ color: '#0369a1', display: 'block', marginBottom: '4px' }}>ব্যাখ্যা:</strong>
+                      <FormattedContent content={q.explanation} />
                     </div>
                   )}
                 </div>

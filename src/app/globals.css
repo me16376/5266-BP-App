@@ -343,3 +343,188 @@ a {
   margin-bottom: 6px;
 }
 
+/* Rich Math and HTML Formatted Content */
+.formatted-content {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.formatted-content p {
+  margin: 0.5em 0;
+}
+
+.formatted-content p:first-child {
+  margin-top: 0;
+}
+
+.formatted-content p:last-child {
+  margin-bottom: 0;
+}
+
+.formatted-content table {
+  max-width: 100% !important;
+  width: auto !important;
+  min-width: 220px;
+  border-collapse: collapse !important;
+  margin: 12px 0 !important;
+  display: block;
+  overflow-x: auto;
+  font-size: 0.9em;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.formatted-content th,
+.formatted-content td {
+  padding: 8px 12px !important;
+  border: 1px solid #e2e8f0 !important;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.formatted-content th {
+  background: #f8fafc;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.formatted-content a {
+  color: var(--emerald-600);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+.formatted-content a:hover {
+  color: var(--emerald-700);
+}
+
+.formatted-content ul,
+.formatted-content ol {
+  padding-left: 24px;
+  margin: 8px 0;
+}
+
+.formatted-content li {
+  margin-bottom: 4px;
+}
+
+.formatted-content blockquote {
+  margin: 10px 0;
+  padding: 8px 14px;
+  border-left: 3px solid #cbd5e1;
+  background: #f8fafc;
+  border-radius: 0 6px 6px 0;
+}
+
+/* KaTeX equations in Bengali text */
+.katex {
+  font-size: 1.05em;
+  text-rendering: auto;
+  line-height: 1.2;
+}
+
+.katex-display {
+  margin: 0.75em 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 6px 0;
+}
+
+.katex .brahmic_fallback {
+  font-family: 'Nikosh', 'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif !important;
+  font-size: 0.95em;
+}
+
+/* Code Blocks & Inline Code */
+.formatted-content .formatted-code-container {
+  margin: 14px 0;
+  border-radius: 10px;
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
+}
+
+.formatted-content .code-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+  background: #1e293b;
+  border-bottom: 1px solid #334155;
+  font-size: 0.78rem;
+  color: #94a3b8;
+  user-select: none;
+}
+
+.formatted-content .code-lang-badge {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #38bdf8;
+  letter-spacing: 0.6px;
+}
+
+.formatted-content .code-copy-btn {
+  background: #334155;
+  border: 1px solid #475569;
+  color: #f1f5f9;
+  padding: 3px 12px;
+  border-radius: 5px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.formatted-content .code-copy-btn:hover {
+  background: var(--emerald-600);
+  border-color: var(--emerald-500);
+  color: #ffffff;
+}
+
+.formatted-content .code-copy-btn.copied {
+  background: #059669 !important;
+  border-color: #047857 !important;
+  color: #ffffff !important;
+}
+
+.formatted-content .formatted-code-pre,
+.formatted-content pre {
+  margin: 0;
+  padding: 14px 16px;
+  overflow-x: auto;
+  font-family: 'Fira Code', 'Cascadia Code', Consolas, Monaco, 'Courier New', monospace;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: #f8fafc;
+  background: #0f172a;
+  tab-size: 2;
+  white-space: pre;
+}
+
+.formatted-content .formatted-code-pre code,
+.formatted-content pre code {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+.formatted-content .formatted-inline-code,
+.formatted-content :not(pre) > code {
+  font-family: 'Fira Code', 'Cascadia Code', Consolas, Monaco, 'Courier New', monospace;
+  font-size: 0.88em;
+  padding: 2px 6px;
+  margin: 0 3px;
+  background: #f1f5f9;
+  color: #be123c;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  font-weight: 600;
+  word-break: break-word;
+}

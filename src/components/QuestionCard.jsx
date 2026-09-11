@@ -13,6 +13,7 @@ import {
   ChevronUp
 } from 'lucide-react';
 import { toggleBookmark, isBookmarked } from '../lib/storage';
+import FormattedContent from './FormattedContent';
 
 const OPTION_LABELS = ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
 
@@ -52,10 +53,26 @@ export default function QuestionCard({
   };
 
   const handleCopyQuestion = () => {
-    const text = `${question.question}\n` +
-      question.options.map((o, i) => `(${OPTION_LABELS[i] || i+1}) ${o}`).join('\n') +
-      `\nউত্তর: ${question.correct_answer}` +
-      (question.explanation ? `\nব্যাখ্যা: ${question.explanation}` : '');
+    const cleanText = (str) => {
+      if (!str || typeof str !== 'string') return '';
+      return str
+        .replace(/<br\s*\/?>/gi, '\n')
+        .replace(/<\/p>/gi, '\n')
+        .replace(/<[^>]+>/g, '')
+        .replace(/\$\$([\s\S]*?)\$\$/g, '$1')
+        .replace(/\\\[([\s\S]*?)\\\]/g, '$1')
+        .replace(/\\\(([\s\S]*?)\\\)/g, '$1')
+        .replace(/(^|[^\\])\$([^\$\r\n]+?)\$/g, '$1$2')
+        .replace(/```[a-zA-Z0-9_\-\+]*\n([\s\S]*?)```/g, '$1')
+        .replace(/`([^`\r\n]+)`/g, '$1')
+        .trim();
+    };
+
+    const text = `${cleanText(question.question)}\n` +
+      question.options.map((o, i) => `(${OPTION_LABELS[i] || i+1}) ${cleanText(o)}`).join('\n') +
+      `\nউত্তর: ${cleanText(question.correct_answer)}` +
+      (question.explanation ? `\nব্যাখ্যা: ${cleanText(question.explanation)}` : '') +
+      (question.hints ? `\nশর্টকাট নোট: ${cleanText(question.hints)}` : '');
 
     navigator.clipboard.writeText(text);
     setCopied(true);
@@ -148,10 +165,10 @@ export default function QuestionCard({
         fontSize: '1.15rem',
         fontWeight: 700,
         color: '#0f172a',
-        lineHeight: '1.6',
+        lineHeight: '1.65',
         marginBottom: '20px'
       }}>
-        {question.question}
+        <FormattedContent content={question.question} />
       </h3>
 
       {/* Options Grid */}
@@ -231,7 +248,7 @@ export default function QuestionCard({
                 {OPTION_LABELS[optIdx] || optIdx + 1}
               </div>
               <span style={{ flex: 1, fontSize: '0.98rem' }}>
-                {option}
+                <FormattedContent content={option} inline />
               </span>
               {icon}
             </div>
@@ -280,39 +297,42 @@ export default function QuestionCard({
             gap: '8px',
             color: '#047857',
             fontWeight: 700,
-            marginBottom: '10px',
-            fontSize: '1rem'
+            marginBottom: '14px',
+            fontSize: '1rem',
+            flexWrap: 'wrap'
           }}>
-            <CheckCircle2 size={18} />
-            <span>সঠিক উত্তর: {question.correct_answer}</span>
+            <CheckCircle2 size={18} style={{ flexShrink: 0 }} />
+            <span>সঠিক উত্তর: </span>
+            <FormattedContent content={question.correct_answer} inline style={{ color: '#047857', fontWeight: 700 }} />
           </div>
 
           {question.explanation && (
-            <div style={{ color: '#334155', marginBottom: question.hints ? '12px' : '0' }}>
-              <div style={{ fontWeight: 700, color: '#0f172a', marginBottom: '4px' }}>
-                📖 সাধারণ ব্যাখ্যা:
+            <div style={{ color: '#334155', marginBottom: question.hints ? '14px' : '0' }}>
+              <div style={{ fontWeight: 700, color: '#0f172a', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <BookOpen size={16} color="var(--emerald-600)" />
+                <span>সাধারণ ব্যাখ্যা:</span>
               </div>
-              <div style={{ whiteSpace: 'pre-line', paddingLeft: '8px', borderLeft: '2px solid #94a3b8' }}>
-                {question.explanation}
+              <div style={{ paddingLeft: '12px', borderLeft: '3px solid var(--emerald-500)', lineHeight: '1.75', fontSize: '0.95rem' }}>
+                <FormattedContent content={question.explanation} />
               </div>
             </div>
           )}
 
           {question.hints && (
             <div style={{
-              marginTop: '12px',
-              padding: '14px',
+              marginTop: '14px',
+              padding: '14px 16px',
               borderRadius: '8px',
               background: '#fffbeb',
               border: '1px solid #fde68a',
               color: '#92400e'
             }}>
-              <div style={{ fontWeight: 700, display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px' }}>
+              <div style={{ fontWeight: 700, display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '6px' }}>
                 <Sparkles size={15} color="#b45309" />
                 <span>স্পেশাল নোট ও শর্টকাট (Hints):</span>
               </div>
-              <div style={{ whiteSpace: 'pre-line', fontSize: '0.9rem' }}>
-                {question.hints}
+              <div style={{ lineHeight: '1.75', fontSize: '0.92rem' }}>
+                <FormattedContent content={question.hints} />
               </div>
             </div>
           )}
