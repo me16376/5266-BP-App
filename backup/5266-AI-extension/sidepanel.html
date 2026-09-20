@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>5266 AI Assistant</title>
+  <link rel="stylesheet" href="sidepanel.css" />
+</head>
+<body>
+  <!-- Top Navigation / Status Header -->
+  <header class="panel-header">
+    <div class="brand-info">
+      <div class="brand-logo">
+        <span>5266</span>
+      </div>
+      <div>
+        <h1 class="brand-title">5266 AI Assistant</h1>
+        <p class="brand-subtitle">Powered by Google Gemini</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="btnOpenTab" class="icon-btn" title="পুরো ট্যাবে জেমিনি খুলুন">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+      </button>
+      <button id="btnReload" class="icon-btn" title="রিফ্রেশ করুন">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="23 4 23 10 17 10"></polyline>
+          <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Active MCQ Quick Card -->
+  <div id="activeMcqCard" class="mcq-card" style="display: none;">
+    <div class="mcq-card-header">
+      <span class="badge">বর্তমান প্রশ্ন</span>
+      <button id="btnToggleCard" class="text-btn">সংক্ষেপ করুন</button>
+    </div>
+    <div id="mcqQuestionText" class="mcq-question-text"></div>
+    <div id="mcqOptionsList" class="mcq-options-list"></div>
+    <div class="mcq-actions">
+      <button id="btnSendPrompt" class="btn-primary">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="22" y1="2" x2="11" y2="13"></line>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+        </svg>
+        <span>জেমিনিতে পাঠান</span>
+      </button>
+      <button id="btnCopyPrompt" class="btn-secondary">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+        </svg>
+        <span>প্রম্পট কপি</span>
+      </button>
+    </div>
+    <div id="copySuccessMsg" class="copy-success" style="display: none;">✅ প্রম্পট কপি হয়েছে!</div>
+  </div>
+
+  <!-- Main Gemini Frame Container -->
+  <div class="frame-container">
+    <iframe
+      id="geminiFrame"
+      src="https://gemini.google.com/app"
+      allow="clipboard-read; clipboard-write; microphone; camera"
+      sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-modals"
+    ></iframe>
+
+    <!-- Overlay Helper if iframe has issue or user is logged out -->
+    <div id="frameFallback" class="frame-fallback" style="display: none;">
+      <div class="fallback-box">
+        <div class="fallback-icon">💡</div>
+        <h3>গুগল জেমিনি সক্রিয় করুন</h3>
+        <p>সরাসরি ও আনলিমিটেড ব্যাখ্যা দেখতে আপনার ব্রাউজারে গুগল অ্যাকাউন্টে লগইন থাকা প্রয়োজন।</p>
+        <button id="btnFallbackOpen" class="btn-primary" style="margin-top: 14px; width: 100%;">
+          জেমিনি ওপেন করুন
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>
