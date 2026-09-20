@@ -1226,7 +1226,7 @@ export default function FileExamStudio({ initialExamSlug = null }) {
   if (step === 'setup') {
     return (
       <div style={{ padding: '30px 0 80px', fontFamily: activeFont.family }}>
-        <div className="container" style={{ maxWidth: '960px' }}>
+        <div className="container" style={{ maxWidth: '1300px' }}>
           {/* Header Banner */}
           <div style={{ textAlign: 'center', marginBottom: '32px' }}>
             <div className="badge badge-emerald" style={{ display: 'inline-flex', padding: '6px 14px', marginBottom: '12px', fontSize: '0.85rem' }}>
@@ -2560,7 +2560,7 @@ export default function FileExamStudio({ initialExamSlug = null }) {
 
     return (
       <div style={{ padding: '30px 0 80px', fontFamily: activeFont.family }}>
-        <div className="container" style={{ maxWidth: '920px' }}>
+        <div className="container" style={{ maxWidth: '1300px' }}>
           {/* Result Card Hero */}
           <div className="glass-panel" style={{
             padding: '36px',

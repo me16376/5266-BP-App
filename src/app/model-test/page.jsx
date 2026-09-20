@@ -194,7 +194,7 @@ function ModelTestContent() {
   if (!examSlug || !examData || questions.length === 0) {
     return (
       <div style={{ padding: '40px 0 80px' }}>
-        <div className="container" style={{ maxWidth: '980px' }}>
+        <div className="container" style={{ maxWidth: '1300px' }}>
           <div className="glass-panel" style={{ padding: '36px', background: '#ffffff', textAlign: 'center', marginBottom: '32px' }}>
             <div style={{
               width: '64px',
@@ -465,7 +465,14 @@ function ModelTestContent() {
           </div>
 
           {/* Sticky Sidebar Navigation Grid (Desktop) */}
-          <div className="exam-sidebar-nav">
+          <div className="exam-sidebar-nav" style={{
+            position: 'sticky',
+            top: '148px',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '16px',
+            zIndex: 30
+          }}>
             <QuestionNavGrid
               total={questions.length}
               userAnswers={userAnswers}
@@ -480,7 +487,7 @@ function ModelTestContent() {
             />
 
             {/* Live Stats Box */}
-            <div className="glass-panel" style={{ padding: '16px', marginTop: '16px', background: '#ffffff', fontSize: '0.86rem' }}>
+            <div className="glass-panel" style={{ padding: '16px', background: '#ffffff', fontSize: '0.86rem' }}>
               <div style={{ fontWeight: 700, color: '#0f172a', marginBottom: '10px' }}>
                 পরীক্ষার সারাংশ
               </div>

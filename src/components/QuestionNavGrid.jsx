@@ -9,7 +9,7 @@ export default function QuestionNavGrid({
   onSelectIndex 
 }) {
   return (
-    <div className="glass-panel" style={{ padding: '16px', position: 'sticky', top: '90px', background: '#ffffff' }}>
+    <div className="glass-panel" style={{ padding: '16px', background: '#ffffff', borderRadius: '14px', border: '1px solid #e2e8f0', boxShadow: '0 2px 8px rgba(0,0,0,0.03)' }}>
       <div style={{
         display: 'flex',
         alignItems: 'center',
@@ -39,7 +39,7 @@ export default function QuestionNavGrid({
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fill, minmax(36px, 1fr))',
         gap: '6px',
-        maxHeight: '360px',
+        maxHeight: '240px',
         overflowY: 'auto',
         paddingRight: '4px'
       }}>

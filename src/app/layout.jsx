@@ -2,6 +2,8 @@ import './globals.css';
 import 'katex/dist/katex.min.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import AnnouncementBar from '../components/AnnouncementBar';
+import { AuthProvider } from '../lib/authContext';
 
 export const metadata = {
   title: 'JobSolutions BD — বিসিএস, ব্যাংক ও সরকারি চাকরির ২,৫০,০০০+ MCQ প্রশ্নব্যাংক',
@@ -27,13 +29,16 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
-        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-          <Navbar />
-          <main style={{ flex: 1 }}>
-            {children}
-          </main>
-          <Footer />
-        </div>
+        <AuthProvider>
+          <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+            <AnnouncementBar />
+            <Navbar />
+            <main style={{ flex: 1 }}>
+              {children}
+            </main>
+            <Footer />
+          </div>
+        </AuthProvider>
       </body>
     </html>
   );

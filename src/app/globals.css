@@ -266,7 +266,7 @@ a {
 /* Layout container */
 .container {
   width: 100%;
-  max-width: 1240px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -530,4 +530,21 @@ a {
   border-radius: 5px;
   font-weight: 600;
   word-break: break-word;
+}
+
+/* Exam Mode Sidebar & Responsive Layout */
+.mobile-only-btn {
+  display: none !important;
+}
+
+@media (max-width: 860px) {
+  .exam-layout-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .exam-sidebar-nav {
+    display: none !important;
+  }
+  .mobile-only-btn {
+    display: inline-flex !important;
+  }
 }
