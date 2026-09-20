@@ -145,18 +145,43 @@ export function formatContentHtml(rawText) {
     return addPlaceholder(rendered);
   });
 
-  // 7. Normalize HTML and Line Breaks outside of code & math
+  // 7. Clean excessive spaces, enters, empty tags, and normalize HTML line breaks outside code & math
+  // 7a. Remove empty/corrupted tags
+  text = text.replace(/<p>\s*<p>\s*<\/p>/gi, '<p>');
+  text = text.replace(/<(p|div|span)>\s*(<br\s*\/?>|\s|&nbsp;)*<\/\1>/gi, '');
+
+  // 7b. Collapse excessive spaces & repeated non-breaking spaces
+  text = text.replace(/(&nbsp;[ \t]*){2,}/gi, ' ');
+  text = text.replace(/[ \t]{3,}/g, ' ');
+
+  // 7c. Trim leading and trailing breaks and whitespace
+  text = text.replace(/^(\s*<br\s*\/?>\s*|\r?\n|\s)+/gi, '');
+  text = text.replace(/(\s*<br\s*\/?>\s*|\r?\n|\s)+$/gi, '');
+
+  // 7d. Normalize HTML and Line Breaks
   const hasHtmlTags = /<[a-z][\s\S]*>/i.test(text);
   if (!hasHtmlTags) {
+    // Plain text: collapse 3+ newlines to max two, then convert \n to <br/>
+    text = text.replace(/(\r?\n\s*){3,}/g, '\n\n');
     text = text.replace(/\r\n|\r|\n/g, '<br/>');
   } else {
+    // HTML text: clean mixes of <br> and \n
     text = text
-      .replace(/<br\s*\/?>\s*\n/gi, '<br/>')
-      .replace(/\n\s*<br\s*\/?>/gi, '<br/>')
-      .replace(/(<\/?(table|tbody|thead|tr|th|td|ul|ol|li|div|p|blockquote|h[1-6])[\s\S]*?>)\s*\n/gi, '$1')
-      .replace(/\n\s*(<\/?(table|tbody|thead|tr|th|td|ul|ol|li|div|p|blockquote|h[1-6]))/gi, '$1')
-      .replace(/\n/g, '<br/>');
+      .replace(/(<br\s*\/?>[ \t]*\r?\n|\r?\n[ \t]*<br\s*\/?>)+/gi, '<br/>')
+      .replace(/(<\/?(table|tbody|thead|tr|th|td|ul|ol|li|div|p|blockquote|h[1-6])[\s\S]*?>)[ \t]*\r?\n/gi, '$1')
+      .replace(/\r?\n[ \t]*(<\/?(table|tbody|thead|tr|th|td|ul|ol|li|div|p|blockquote|h[1-6]))/gi, '$1')
+      .replace(/<br\s*\/?>\s*(<\/?(table|tbody|thead|tr|th|td|ul|ol|li|div|p|blockquote|h[1-6]))/gi, '$1')
+      .replace(/(<\/?(table|tbody|thead|tr|th|td|ul|ol|li|div|p|blockquote|h[1-6])[\s\S]*?>)\s*<br\s*\/?>/gi, '$1')
+      .replace(/(\r?\n\s*){3,}/g, '\n\n')
+      .replace(/\r\n|\r|\n/g, '<br/>');
   }
+
+  // 7e. Collapse 3 or more consecutive <br/> tags to max two <br/><br/>
+  text = text.replace(/(<br\s*\/?>\s*){3,}/gi, '<br/><br/>');
+
+  // 7f. Final trim of any remaining leading/trailing breaks
+  text = text.replace(/^(\s*<br\s*\/?>\s*|\s)+/gi, '');
+  text = text.replace(/(\s*<br\s*\/?>\s*|\s)+$/gi, '');
 
   // 8. Secure anchor links (<a href="...">)
   text = text.replace(/<a\s+([^>]*?)>/gi, (match, attrs) => {

@@ -162,11 +162,12 @@ export default function QuestionCard({
 
       {/* Question Text */}
       <h3 style={{
-        fontSize: '1.15rem',
+        fontSize: '1.2rem',
         fontWeight: 700,
         color: '#0f172a',
-        lineHeight: '1.65',
-        marginBottom: '20px'
+        lineHeight: '1.75',
+        marginBottom: '20px',
+        fontFamily: 'var(--font-kalpurush)'
       }}>
         <FormattedContent content={question.question} />
       </h3>
@@ -233,21 +234,22 @@ export default function QuestionCard({
               }}
             >
               <div style={{
-                width: '26px',
-                height: '26px',
-                borderRadius: '6px',
+                width: '28px',
+                height: '28px',
+                borderRadius: '7px',
                 background: isSelected || (isRead && isCorrect) ? 'rgba(0,0,0,0.06)' : '#edf2f7',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
                 fontWeight: 700,
-                fontSize: '0.85rem',
+                fontSize: '0.98rem',
+                fontFamily: 'var(--font-kalpurush)',
                 flexShrink: 0,
                 color: optionColor
               }}>
                 {OPTION_LABELS[optIdx] || optIdx + 1}
               </div>
-              <span style={{ flex: 1, fontSize: '0.98rem' }}>
+              <span style={{ flex: 1, fontSize: '1rem', lineHeight: '1.6' }}>
                 <FormattedContent content={option} inline />
               </span>
               {icon}
@@ -312,7 +314,13 @@ export default function QuestionCard({
                 <BookOpen size={16} color="var(--emerald-600)" />
                 <span>সাধারণ ব্যাখ্যা:</span>
               </div>
-              <div style={{ paddingLeft: '12px', borderLeft: '3px solid var(--emerald-500)', lineHeight: '1.75', fontSize: '0.95rem' }}>
+              <div style={{
+                paddingLeft: '12px',
+                borderLeft: '3px solid var(--emerald-500)',
+                lineHeight: '1.8',
+                fontSize: '1.02rem',
+                fontFamily: 'var(--font-kalpurush)'
+              }}>
                 <FormattedContent content={question.explanation} />
               </div>
             </div>
@@ -331,7 +339,11 @@ export default function QuestionCard({
                 <Sparkles size={15} color="#b45309" />
                 <span>স্পেশাল নোট ও শর্টকাট (Hints):</span>
               </div>
-              <div style={{ lineHeight: '1.75', fontSize: '0.92rem' }}>
+              <div style={{
+                lineHeight: '1.8',
+                fontSize: '0.98rem',
+                fontFamily: 'var(--font-kalpurush)'
+              }}>
                 <FormattedContent content={question.hints} />
               </div>
             </div>

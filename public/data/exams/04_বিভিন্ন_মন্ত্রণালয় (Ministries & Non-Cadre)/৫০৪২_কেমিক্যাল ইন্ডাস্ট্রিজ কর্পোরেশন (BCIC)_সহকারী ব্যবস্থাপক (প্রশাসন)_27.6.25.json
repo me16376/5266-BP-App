@@ -9,7 +9,7 @@
       "4"
     ],
     "correct_answer": "7",
-    "explanation": "<p><i>প্রশ্ন (সংক্ষেপে বাংলায়):</i></p><br/><p><i><br/></i></p><br/><p><i>List A: ৮টি ধারাবাহিক জোড় সংখ্যা</i></p><br/><p><i style=\"font-size: 1rem;\">List B: ৬টি ধারাবাহিক বিজোড় সংখ্যা</i></p><br/><p><i style=\"font-size: 1rem;\">A-র সবচেয়ে ছোট সংখ্যা = B-র সবচেয়ে ছোট সংখ্যার চেয়ে ৫ বেশি</i></p><br/><p><i style=\"font-size: 1rem;\">প্র</i><i style=\"font-size: 1rem;\">শ্ন: A-র গড়, B-র গড় থেকে কত বেশি?</i></p><br/><p><i style=\"font-size: 1rem;\">সমাধান:</i><i></i></p><br/><p><i style=\"font-size: 1rem;\">ধরি,</i><i></i></p><br/><p><i>B-র সবচেয়ে ছোট সংখ্যা = x</i></p><br/><p><i>→ তাহলে A-র সবচেয়ে ছোট = x+5</i></p><br/><p><i><br/></i></p><br/><p><i>List B (বিজোড় সংখ্যা): x,x+2,x+4,...,x+10</i></p><br/><p><i><br/></i></p><br/><p><i>→ গড় = (x+x+10)/2=x+5</i></p><br/><p><i><br/></i></p><br/><p><i>List A (জোড় সংখ্যা): x+5,x+7,...,x+19</i></p><br/><p><i style=\"font-size: 1rem;\">→ গড় = (x+5+x+19)/2=x+12</i><i></i></p><br/><p><i style=\"font-size: 1rem;\">গড়ের পার্থক্যঃ</i><i></i></p><br/><p><i style=\"font-size: 1rem;\">(x + 12) - (x + 5) = x+12-x-5= 7</i><i></i></p><br/><p><i style=\"font-size: 1rem;\">তালিকা A-র গড়, তালিকা B-র গড় থেকে ৭ বেশি।</i></p><br/><p><i style=\"font-size: 1rem;\">Ans: 7</i><i></i></p><br/>",
+    "explanation": "<p><i>প্রশ্ন (সংক্ষেপে বাংলায়):</i></p><br/><p><i><br/></i></p><br/><p><i>List A: ৮টি ধারাবাহিক জোড় সংখ্যা</i></p><br/><p><i style=\"font-size: 1rem;\">List B: ৬টি ধারাবাহিক বিজোড় সংখ্যা</i></p><br/><p><i style=\"font-size: 1rem;\">A-র সবচেয়ে ছোট সংখ্যা = B-র সবচেয়ে ছোট সংখ্যার চেয়ে ৫ বেশি</i></p><br/><p><i style=\"font-size: 1rem;\">প্র</i><i style=\"font-size: 1rem;\">শ্ন: A-র গড়, B-র গড় থেকে কত বেশি?</i></p><br/><p><i style=\"font-size: 1rem;\">সমাধান:</i><i></i></p><br/><p><i style=\"font-size: 1rem;\">ধরি,</i><i></i></p><br/><p><i>B-র সবচেয়ে ছোট সংখ্যা = x</i></p><br/><p><i>→ তাহলে A-র সবচেয়ে ছোট = x+5</i></p><br/><p><i><br/></i></p><br/><p><i>List B (বিজোড় সংখ্যা): x,x+2,x+4,...,x+10</i></p><br/><p><i><br/></i></p><br/><p><i>→ গড় = (x+x+10)/2=x+5</i></p><br/><p><i><br/></i></p><br/><p><i>List A (জোড় সংখ্যা): x+5,x+7,...,x+19</i></p><br/><p><i style=\"font-size: 1rem;\">→ গড় = (x+5+x+19)/2=x+12</i><i></i></p><br/><p><i style=\"font-size: 1rem;\">গড়ের পার্থক্যঃ</i><i></i></p><br/><p><i style=\"font-size: 1rem;\">(x + 12) - (x + 5) = x+12-x-5= 7</i><i></i></p><br/><p><i style=\"font-size: 1rem;\">তালিকা A-র গড়, তালিকা B-র গড় থেকে ৭ বেশি।</i></p><br/><p><i style=\"font-size: 1rem;\">Ans: 7</i><i></i></p>",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -43,7 +43,7 @@
       "15"
     ],
     "correct_answer": "15",
-    "explanation": "<p><p><span style=\"font-size: 1rem;\">Since time is inversely proportional to pace: New Time = {5}/{3} × Normal Time.&nbsp;</span><span style=\"font-size: 1rem;\">The problem states that the new time is 10 minutes longer than the usual time so,&nbsp;</span><span style=\"font-size: 1rem;\">{New Time} = Normal Time + 10.....&nbsp;</span><span style=\"font-size: 1rem;\">But we have:</span></p><br/>New Time = {5}/{3}×Normal Time<br/>Therefore, we can set up the equation: {5}/{3}T = T + 10 L<span style=\"font-size: 1rem;\">et's&nbsp;</span><span style=\"font-size: 1rem;\">Multiply both sides by 3 to eliminate the denominator:</span><span style=\"font-size: 1rem;\">&nbsp;5T = 3(T + 10)</span></p><br/><p>5T = 3T + 30<br/>2T = 30<br/>T = 15</p><br/>",
+    "explanation": "<p><p><span style=\"font-size: 1rem;\">Since time is inversely proportional to pace: New Time = {5}/{3} × Normal Time.&nbsp;</span><span style=\"font-size: 1rem;\">The problem states that the new time is 10 minutes longer than the usual time so,&nbsp;</span><span style=\"font-size: 1rem;\">{New Time} = Normal Time + 10.....&nbsp;</span><span style=\"font-size: 1rem;\">But we have:</span></p><br/>New Time = {5}/{3}×Normal Time<br/>Therefore, we can set up the equation: {5}/{3}T = T + 10 L<span style=\"font-size: 1rem;\">et's&nbsp;</span><span style=\"font-size: 1rem;\">Multiply both sides by 3 to eliminate the denominator:</span><span style=\"font-size: 1rem;\">&nbsp;5T = 3(T + 10)</span></p><br/><p>5T = 3T + 30<br/>2T = 30<br/>T = 15</p>",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -94,7 +94,7 @@
       "18"
     ],
     "correct_answer": "10",
-    "explanation": "<br data-mce-bogus=\"1\"><br/>",
+    "explanation": "<br data-mce-bogus=\"1\">",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -128,7 +128,7 @@
       "\\({m}^{{7}}>{m}^{{9}}\\)"
     ],
     "correct_answer": "\\({m}^{{9}}<{m}^{{4}}\\)",
-    "explanation": "<br data-mce-bogus=\"1\"><br/>",
+    "explanation": "<br data-mce-bogus=\"1\">",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -298,7 +298,7 @@
       "12"
     ],
     "correct_answer": "9",
-    "explanation": "<br data-mce-bogus=\"1\"><br/>",
+    "explanation": "<br data-mce-bogus=\"1\">",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",

@@ -502,7 +502,7 @@
       "একটি বৃত্ত"
     ],
     "correct_answer": "মূলবিন্দুগামী একজোড়া সরলরেখা",
-    "explanation": "📖<br/>3x² - 14xy - 5y² = 0<br/>⇒ 3x² + xy - 15xy - 5y² = 0<br/>⇒ x(3x + y) - 5y(3x + y) = 0<br/>⇒ (3x + y)(x - 5y) = 0<br/><br/>◈ হয়<br/>3x + y = 0 <br/>⇒ y = -3x .... (1)<br/><br/>◈ অথবা, <br/>x - 5y = 0 <br/>⇒ x = 5y ..... (2)<br/><br/>◈ এখানে দুইটি সমীকরণের ক্ষেত্রেই, x = 0 দিলে y = 0 হবে। অর্থাৎ, সরলরেখা মূলবিন্দু (0, 0)-এর মাধ্যমে চলে।<br/>∴ উল্লিখিত দুইটি সমীকরণই মূলবিন্দুগামী সরলরেখা।<br/>",
+    "explanation": "📖<br/>3x² - 14xy - 5y² = 0<br/>⇒ 3x² + xy - 15xy - 5y² = 0<br/>⇒ x(3x + y) - 5y(3x + y) = 0<br/>⇒ (3x + y)(x - 5y) = 0<br/><br/>◈ হয়<br/>3x + y = 0 <br/>⇒ y = -3x .... (1)<br/><br/>◈ অথবা, <br/>x - 5y = 0 <br/>⇒ x = 5y ..... (2)<br/><br/>◈ এখানে দুইটি সমীকরণের ক্ষেত্রেই, x = 0 দিলে y = 0 হবে। অর্থাৎ, সরলরেখা মূলবিন্দু (0, 0)-এর মাধ্যমে চলে।<br/>∴ উল্লিখিত দুইটি সমীকরণই মূলবিন্দুগামী সরলরেখা।",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -604,7 +604,7 @@
       "1"
     ],
     "correct_answer": "1",
-    "explanation": "📖<br/>logba² = 2x<br/>⇒ 2logba = 2x<br/>⇒ logba = x<br/><br/>◈ আবার, 2logₐb = 2y<br/>⇒ logₐb = y<br/><br/>◈ ∴ xy = logba 🞍 logₐb = 1<br/>",
+    "explanation": "📖<br/>logba² = 2x<br/>⇒ 2logba = 2x<br/>⇒ logba = x<br/><br/>◈ আবার, 2logₐb = 2y<br/>⇒ logₐb = y<br/><br/>◈ ∴ xy = logba 🞍 logₐb = 1",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -621,7 +621,7 @@
       "ইলিপস"
     ],
     "correct_answer": "প্যারবোলা",
-    "explanation": "📖<br/>এটি একটি দ্বিঘাত সমীকরণ (quadratic equation), যার সর্বোচ্চ ঘাত x²।<br/>দ্বিঘাত সমীকরণের গ্রাফ সর্বদা প্যারাবোলার আকৃতি ধারণ করে।<br/>▣ যদি a &gt; 0, প্যারাবোলা উপরের দিকে খোলা।<br/>▣ যদি a &lt; 0, প্যারাবোলা নিচের দিকে খোলা।<br/><br/>◈ অন্যান্য অপশন:<br/>▣ বৃত্ত: বৃত্তের সমীকরণ সাধারণত x² + y² = r²-এর আকারে হয় (যেখানে বৃত্তের ব্যাসার্ধ)।<br/>▣ সরলরেখা: সরলরেখার সমীকরণ y = mx + c এর আকারে হয় (যেখানে m হলো ঢাল বা gradient) I<br/>▣ ইলিপস: ইলিপসের সমীকরণ সাধারণত (x²/a²) + (y²/b²)= 1-এর মতো হয়।<br/>",
+    "explanation": "📖<br/>এটি একটি দ্বিঘাত সমীকরণ (quadratic equation), যার সর্বোচ্চ ঘাত x²।<br/>দ্বিঘাত সমীকরণের গ্রাফ সর্বদা প্যারাবোলার আকৃতি ধারণ করে।<br/>▣ যদি a &gt; 0, প্যারাবোলা উপরের দিকে খোলা।<br/>▣ যদি a &lt; 0, প্যারাবোলা নিচের দিকে খোলা।<br/><br/>◈ অন্যান্য অপশন:<br/>▣ বৃত্ত: বৃত্তের সমীকরণ সাধারণত x² + y² = r²-এর আকারে হয় (যেখানে বৃত্তের ব্যাসার্ধ)।<br/>▣ সরলরেখা: সরলরেখার সমীকরণ y = mx + c এর আকারে হয় (যেখানে m হলো ঢাল বা gradient) I<br/>▣ ইলিপস: ইলিপসের সমীকরণ সাধারণত (x²/a²) + (y²/b²)= 1-এর মতো হয়।",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -655,7 +655,7 @@
       "\\({3}{x}^{{2}}-{6}{x}+{13}\\)"
     ],
     "correct_answer": "\\({9}{x}^{{2}}-{18}{x}+{5}\\)",
-    "explanation": "📖<br/>g(x) = 3x - 4<br/>f(g(x)) = f(3x - 4)<br/><br/>◈ এখন,<br/>f(x) = x² + 2x - 3<br/>∴ f(g(x)) = (3x - 4)² + 2(3x - 4) - 3<br/>= 9x² - 24x + 16 + 6x - 8 - 3<br/>= 9x² - 18x + 5<br/>",
+    "explanation": "📖<br/>g(x) = 3x - 4<br/>f(g(x)) = f(3x - 4)<br/><br/>◈ এখন,<br/>f(x) = x² + 2x - 3<br/>∴ f(g(x)) = (3x - 4)² + 2(3x - 4) - 3<br/>= 9x² - 24x + 16 + 6x - 8 - 3<br/>= 9x² - 18x + 5",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -876,7 +876,7 @@
       "False"
     ],
     "correct_answer": "In writing",
-    "explanation": "📝<b> In black and white(idiom):</b><br/>English Meaning:being in writing or print.<br/>Bangla Meaning: লিখিত বা মুদ্রিত।<br/><br/>◈ Ex. Sentence: The contract should be in black-and-white to avoid misunderstanding.<br/>Bangla Meaning: ভুল বোঝাবুঝি এড়ানোর জন্য চুক্তিটি লিখিত হওয়া উচিত।<br/>▣ অন্য অপশন গুলোর মধ্যে -<br/>▣ Orally - মৌখিকভাবে।<br/>▣ Temporary - দীর্ঘস্থায়ী নয় এমন; অস্থায়ী; সাময়িক; ক্ষণস্থায়ী।<br/>▣ False - ভ্রান্ত; মিথ্যা: প্রতারণামূলক।<br/>",
+    "explanation": "📝<b> In black and white(idiom):</b><br/>English Meaning:being in writing or print.<br/>Bangla Meaning: লিখিত বা মুদ্রিত।<br/><br/>◈ Ex. Sentence: The contract should be in black-and-white to avoid misunderstanding.<br/>Bangla Meaning: ভুল বোঝাবুঝি এড়ানোর জন্য চুক্তিটি লিখিত হওয়া উচিত।<br/>▣ অন্য অপশন গুলোর মধ্যে -<br/>▣ Orally - মৌখিকভাবে।<br/>▣ Temporary - দীর্ঘস্থায়ী নয় এমন; অস্থায়ী; সাময়িক; ক্ষণস্থায়ী।<br/>▣ False - ভ্রান্ত; মিথ্যা: প্রতারণামূলক।",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",

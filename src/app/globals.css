@@ -10,6 +10,7 @@
   font-style: normal;
   font-weight: 100 900;
   src: local('Kalpurush'),
+       url('/fonts/kalpurush.woff2') format('woff2'),
        url('https://fonts.maateen.me/kalpurush/Kalpurush-v0.258.woff2') format('woff2'),
        url('https://fonts.maateen.me/kalpurush/Kalpurush-v0.258.ttf') format('truetype');
 }
@@ -20,6 +21,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('SolaimanLipi'),
+       url('/fonts/solaiman-lipi.woff2') format('woff2'),
        url('https://fonts.maateen.me/solaiman-lipi/solaimanlipi-normal-v1.0.woff2') format('woff2'),
        url('https://fonts.maateen.me/solaiman-lipi/solaimanlipi-normal-v1.0.ttf') format('truetype');
 }
@@ -45,14 +47,14 @@
 }
 
 :root {
-  --font-sans: 'Hind Siliguri', 'SolaimanLipi', 'Kalpurush', 'Nikosh', 'Noto Sans Bengali', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-hind: 'Hind Siliguri', sans-serif;
-  --font-noto: 'Noto Sans Bengali', sans-serif;
+  --font-sans: 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', 'Anek Bangla', 'Hind Siliguri', 'Nikosh', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-kalpurush: 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', sans-serif;
+  --font-solaiman: 'SolaimanLipi', 'Kalpurush', 'Noto Sans Bengali', sans-serif;
+  --font-noto: 'Noto Sans Bengali', 'Kalpurush', sans-serif;
   --font-anek: 'Anek Bangla', sans-serif;
+  --font-hind: 'Hind Siliguri', sans-serif;
   --font-tiro: 'Tiro Bangla', serif;
-  --font-kalpurush: 'Kalpurush', 'SolaimanLipi', 'Hind Siliguri', sans-serif;
-  --font-solaiman: 'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif;
-  --font-nikosh: 'Nikosh', 'SolaimanLipi', 'Hind Siliguri', sans-serif;
+  --font-nikosh: 'Nikosh', 'SolaimanLipi', 'Kalpurush', sans-serif;
   --font-noto-serif: 'Noto Serif Bengali', serif;
   
   /* Modern Crisp Light Theme */
@@ -420,9 +422,9 @@ a {
 
 /* KaTeX equations in Bengali text */
 .katex {
-  font-size: 1.05em;
+  font-size: 1.08em;
   text-rendering: auto;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 .katex-display {
@@ -432,9 +434,10 @@ a {
   padding: 6px 0;
 }
 
-.katex .brahmic_fallback {
-  font-family: 'Nikosh', 'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif !important;
-  font-size: 0.95em;
+.katex .brahmic_fallback,
+.katex .mord.text {
+  font-family: 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', 'Nikosh', sans-serif !important;
+  font-size: 1em;
 }
 
 /* Code Blocks & Inline Code */

@@ -26,7 +26,7 @@
       "A.1=A"
     ],
     "correct_answer": "A.A'=1",
-    "explanation": "<p>বুলিয়ান উপপাদ্য অনুসারে A + 0 = A , A.1 = A, A + A' = 1 - এ তিনটি সত্য। এরা বুুলিয়ান উপপাদ্যের মৌলিক (Basic) অংশ। কিন্তু A.A' = 1 সমীকরণটি কোনো বুলিয়ান উপপাদ্য বা স্বতঃসিদ্ধ নয়।</p><br/>",
+    "explanation": "<p>বুলিয়ান উপপাদ্য অনুসারে A + 0 = A , A.1 = A, A + A' = 1 - এ তিনটি সত্য। এরা বুুলিয়ান উপপাদ্যের মৌলিক (Basic) অংশ। কিন্তু A.A' = 1 সমীকরণটি কোনো বুলিয়ান উপপাদ্য বা স্বতঃসিদ্ধ নয়।</p>",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -60,7 +60,7 @@
       "(11000)2"
     ],
     "correct_answer": "(10000)₂",
-    "explanation": "<p>(1011)2+(0101)2=(10000)2 এখানে 1+1= 0 এবং ক্যারি 1 থাকে বুলিয়ান যোগের সূত্রানুসারে</p><br/>",
+    "explanation": "<p>(1011)2+(0101)2=(10000)2 এখানে 1+1= 0 এবং ক্যারি 1 থাকে বুলিয়ান যোগের সূত্রানুসারে</p>",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -77,7 +77,7 @@
       "Stack"
     ],
     "correct_answer": "Stack",
-    "explanation": "<p>স্ট্যাক (Stack) এবং কিউ(Queue) এর অপারেশনগুলো –&nbsp;</p><br/><p><b>push অপারেশন</b>: স্ট্যাক বা কিউ তে কোন ডেটা রাখার অপারেশনকে push অপারেশন বলে। কিউ এর ক্ষেত্রে অনেক সময় এই অপারেশনকে enqueue অপারেশন বলা হয়।</p><br/><p><b>pop অপারেশন</b>: স্ট্যাক বা কিউ থেকে ডেটা ডিলিট করার অপারেশনকে pop অপারেশন বলে। কিউ এর ক্ষেত্রে এই অপারেশনকে dequeue ও বলা হয়।</p><br/><p><b>Top অপারেশন</b>: শুধু স্ট্যাক এর জন্য এই অপারেশনের মাধ্যমে পরীক্ষা করা হয় স্ট্যাকের সবার উপরে কোন ইলিমেন্ট আছে।</p><br/><p><b>Front অপারেশন</b>: শুধু কিউ এর এই অপারেশনের মাধ্যমে দেখা হয় কিউ এর সবার সামনে কোন ইলিমেন্ট আছে।</p><br/>",
+    "explanation": "<p>স্ট্যাক (Stack) এবং কিউ(Queue) এর অপারেশনগুলো –&nbsp;</p><br/><p><b>push অপারেশন</b>: স্ট্যাক বা কিউ তে কোন ডেটা রাখার অপারেশনকে push অপারেশন বলে। কিউ এর ক্ষেত্রে অনেক সময় এই অপারেশনকে enqueue অপারেশন বলা হয়।</p><br/><p><b>pop অপারেশন</b>: স্ট্যাক বা কিউ থেকে ডেটা ডিলিট করার অপারেশনকে pop অপারেশন বলে। কিউ এর ক্ষেত্রে এই অপারেশনকে dequeue ও বলা হয়।</p><br/><p><b>Top অপারেশন</b>: শুধু স্ট্যাক এর জন্য এই অপারেশনের মাধ্যমে পরীক্ষা করা হয় স্ট্যাকের সবার উপরে কোন ইলিমেন্ট আছে।</p><br/><p><b>Front অপারেশন</b>: শুধু কিউ এর এই অপারেশনের মাধ্যমে দেখা হয় কিউ এর সবার সামনে কোন ইলিমেন্ট আছে।</p>",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -94,7 +94,7 @@
       "COM"
     ],
     "correct_answer": "OMR",
-    "explanation": "<p>ইনপুট ডিভাইস : যে সকল যন্ত্রাংশ কম্পিউটারে তথ্য ইনপুট বা তথ্য প্রদান করে তাকে ইনপুট ডিভাইস বলে । যেমন : কি বোর্ড, মাউস, ওয়েব ক্যাম,&nbsp; OMR,&nbsp; ইত্যাদি।&nbsp;</p><br/><p>আউটপুট ডিভাইস : যে সকল যন্ত্রাংশ কম্পিউটার থেকে তথ্য বাইরে প্রদান করে তাকে আউটপুট ডিভাইস বলে । যেমন : মনিটর, প্রিন্টার বা প্লোটার,স্পিকার ইত্যাদি ।&nbsp;</p><br/>",
+    "explanation": "<p>ইনপুট ডিভাইস : যে সকল যন্ত্রাংশ কম্পিউটারে তথ্য ইনপুট বা তথ্য প্রদান করে তাকে ইনপুট ডিভাইস বলে । যেমন : কি বোর্ড, মাউস, ওয়েব ক্যাম,&nbsp; OMR,&nbsp; ইত্যাদি।&nbsp;</p><br/><p>আউটপুট ডিভাইস : যে সকল যন্ত্রাংশ কম্পিউটার থেকে তথ্য বাইরে প্রদান করে তাকে আউটপুট ডিভাইস বলে । যেমন : মনিটর, প্রিন্টার বা প্লোটার,স্পিকার ইত্যাদি ।&nbsp;</p>",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -111,7 +111,7 @@
       "DOS"
     ],
     "correct_answer": "C",
-    "explanation": "<p>C একটি অপারেটিং সিস্টেম নয়। এটি একটি প্রোগ্রামিং ল্যাংগুয়েজ এবং ১৯৮০ সালে C ভাষার বর্ধিত রূপ C++ তৈরী করা হয়।&nbsp;</p><br/>",
+    "explanation": "<p>C একটি অপারেটিং সিস্টেম নয়। এটি একটি প্রোগ্রামিং ল্যাংগুয়েজ এবং ১৯৮০ সালে C ভাষার বর্ধিত রূপ C++ তৈরী করা হয়।&nbsp;</p>",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -145,7 +145,7 @@
       "77"
     ],
     "correct_answer": "19",
-    "explanation": "<p>19 অক্টাল নাম্বার নয়। কারণ এতে 9 আছে। অক্টাল সংখ্যায় শুধু&nbsp; 0, 1,2,3,4,5,6,7 ডিজিট থাকে।&nbsp;</p><br/>",
+    "explanation": "<p>19 অক্টাল নাম্বার নয়। কারণ এতে 9 আছে। অক্টাল সংখ্যায় শুধু&nbsp; 0, 1,2,3,4,5,6,7 ডিজিট থাকে।&nbsp;</p>",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -213,7 +213,7 @@
       "ডিভাগার"
     ],
     "correct_answer": "উভয়টি",
-    "explanation": "<p><span style=\"font-size: 1rem;\">প্রোগ্রাম ডেভেলপমেন্ট টুলস হল সফটওয়্যার এবং ইউটিলিটিজ যা প্রোগ্রামারদের সফটওয়্যার তৈরি, পরীক্ষা, ডিবাগ, এবং বজায় রাখতে সাহায্য করে।</span></p><br/>",
+    "explanation": "<p><span style=\"font-size: 1rem;\">প্রোগ্রাম ডেভেলপমেন্ট টুলস হল সফটওয়্যার এবং ইউটিলিটিজ যা প্রোগ্রামারদের সফটওয়্যার তৈরি, পরীক্ষা, ডিবাগ, এবং বজায় রাখতে সাহায্য করে।</span></p>",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -247,7 +247,7 @@
       "৩টি"
     ],
     "correct_answer": "৪টি",
-    "explanation": "<p>একটি প্রোগ্রামকে একটি প্রক্রিয়ায় পরিণত করার জন্য মেমরিতে রাখা হলে চারটি টুকরোতে বিভক্ত করা যেতে পারে: স্ট্যাক, হিপ, টেক্সট এবং ডেটা ।</p><br/>",
+    "explanation": "<p>একটি প্রোগ্রামকে একটি প্রক্রিয়ায় পরিণত করার জন্য মেমরিতে রাখা হলে চারটি টুকরোতে বিভক্ত করা যেতে পারে: স্ট্যাক, হিপ, টেক্সট এবং ডেটা ।</p>",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -264,7 +264,7 @@
       "৫ MHz"
     ],
     "correct_answer": "১ MHz",
-    "explanation": "<p><p><p><span style=\"font-size: 1rem;\">তরঙ্গের দৈর্ঘ্য (λ) এবং কম্পাংক (f) এর মধ্যে সম্পর্ক হলো:&nbsp;&nbsp;</span><span style=\"font-size: 1rem;\">c=λ×f</span></p>এখানে,<br/>c হলো আলোর গতি (শূন্যস্থানে), এর মান প্রায় 3×10^8 মিটার/সেকেন্ড। তরঙ্গের দৈর্ঘ্য λ=300 মিটার।</p><br/><p>তাহলে কম্পাংক f হবে:</p><br/><p>f = c ÷&nbsp;<span style=\"font-size: 1rem;\">λ</span></p><br/><p><span style=\"font-size: 1rem;\">f = 3×10^8 ÷ 300</span></p><br/><p><span style=\"font-size: 1rem;\">f = 1×10^6 Hz</span></p><br/><p><span style=\"font-size: 1rem;\">বা, f = 1 MHz&nbsp; ( মেগা হার্জ )&nbsp; Ans</span></p></p>",
+    "explanation": "<p><p><p><span style=\"font-size: 1rem;\">তরঙ্গের দৈর্ঘ্য (λ) এবং কম্পাংক (f) এর মধ্যে সম্পর্ক হলো: </span><span style=\"font-size: 1rem;\">c=λ×f</span></p>এখানে,<br/>c হলো আলোর গতি (শূন্যস্থানে), এর মান প্রায় 3×10^8 মিটার/সেকেন্ড। তরঙ্গের দৈর্ঘ্য λ=300 মিটার।</p><br/><p>তাহলে কম্পাংক f হবে:</p><br/><p>f = c ÷&nbsp;<span style=\"font-size: 1rem;\">λ</span></p><br/><p><span style=\"font-size: 1rem;\">f = 3×10^8 ÷ 300</span></p><br/><p><span style=\"font-size: 1rem;\">f = 1×10^6 Hz</span></p><br/><p><span style=\"font-size: 1rem;\">বা, f = 1 MHz&nbsp; ( মেগা হার্জ )&nbsp; Ans</span></p></p>",
     "hints": "",
     "subject": "সাধারণ বিজ্ঞান",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -298,7 +298,7 @@
       "দ্বিমুখী"
     ],
     "correct_answer": "একমুখী",
-    "explanation": "<p>ডায়োড একটি ডিভাইস যা দ্বিমুখী কারেন্টকে একমুখী কারেন্ট এ রুপান্তর করে।&nbsp; এটি ac কে ডিসি করার কাজে ব্যবহার করা হয়</p><br/>",
+    "explanation": "<p>ডায়োড একটি ডিভাইস যা দ্বিমুখী কারেন্টকে একমুখী কারেন্ট এ রুপান্তর করে।&nbsp; এটি ac কে ডিসি করার কাজে ব্যবহার করা হয়</p>",
     "hints": "",
     "subject": "সাধারণ বিজ্ঞান",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -315,7 +315,7 @@
       "১৬টি"
     ],
     "correct_answer": "৩২টি",
-    "explanation": "<p>আমরা জানি পরমানুর ১ম শক্তিস্তরে ইলেকট্রন থাকে ২ টি</p><br/><p>২য়- ৮টি</p><br/><p>৩য় - ১৮ টি</p><br/><p>৪র্থ - ৩২ টি</p><br/>",
+    "explanation": "<p>আমরা জানি পরমানুর ১ম শক্তিস্তরে ইলেকট্রন থাকে ২ টি</p><br/><p>২য়- ৮টি</p><br/><p>৩য় - ১৮ টি</p><br/><p>৪র্থ - ৩২ টি</p>",
     "hints": "",
     "subject": "সাধারণ বিজ্ঞান",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -332,7 +332,7 @@
       "হ্রাস পায়"
     ],
     "correct_answer": "হ্রাস পায়",
-    "explanation": "<p>কোন সেমিকন্ডাকটর ডিভাইস এর তাপমাত্রা যত বাড়বে এর রোধ তত কমবে । অর্থাৎ তাপমাত্রা ও রোধের সম্পর্ক ব্যস্তানুপাতিক</p><br/>",
+    "explanation": "<p>কোন সেমিকন্ডাকটর ডিভাইস এর তাপমাত্রা যত বাড়বে এর রোধ তত কমবে । অর্থাৎ তাপমাত্রা ও রোধের সম্পর্ক ব্যস্তানুপাতিক</p>",
     "hints": "",
     "subject": "সাধারণ বিজ্ঞান",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -349,7 +349,7 @@
       "ছিন্ন শীর্ষ কোণ"
     ],
     "correct_answer": " শঙ্কু",
-    "explanation": "<p>যে সকল ঘনবস্তুর ভূমিতল বৃত্তাকার ও সমতল এবং ভূমির ওপরের দিকের পৃষ্ঠতল কমতে কমতে একটি বিন্দুতে পরিণত হয়েছে তাকে শঙ্কু বলে।</p><br/>",
+    "explanation": "<p>যে সকল ঘনবস্তুর ভূমিতল বৃত্তাকার ও সমতল এবং ভূমির ওপরের দিকের পৃষ্ঠতল কমতে কমতে একটি বিন্দুতে পরিণত হয়েছে তাকে শঙ্কু বলে।</p>",
     "hints": "",
     "subject": "সাধারণ বিজ্ঞান",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -434,7 +434,7 @@
       "৯০"
     ],
     "correct_answer": "১০০",
-    "explanation": "<p>১ মেট্রিক টন = ১০০০ কেজি।&nbsp;</p><br/><p><br/></p><br/><p><br/></p><br/><p>সুতরাং, ৫ মেট্রিক টন = (১০০০× ৫) বা, ৫০০০ কেজি।&nbsp;</p><br/><p><br/></p><br/><p><br/></p><br/><p>আমার জানি,&nbsp; ৫০ কেজি সিমেন্ট থাকে ১ টি বস্তায়।&nbsp;</p><br/><p><br/></p><br/><p><br/></p><br/><p>অতএব,&nbsp; ৫০০০ কেজি সিমেন্ট থাকে = ( ৫০০০\\ ৫০) বা, ১০০ টি বস্তায়</p><br/>",
+    "explanation": "<p>১ মেট্রিক টন = ১০০০ কেজি।&nbsp;</p><br/><br/><p>সুতরাং, ৫ মেট্রিক টন = (১০০০× ৫) বা, ৫০০০ কেজি।&nbsp;</p><br/><br/><p>আমার জানি,&nbsp; ৫০ কেজি সিমেন্ট থাকে ১ টি বস্তায়।&nbsp;</p><br/><br/><p>অতএব,&nbsp; ৫০০০ কেজি সিমেন্ট থাকে = ( ৫০০০\\ ৫০) বা, ১০০ টি বস্তায়</p>",
     "hints": "",
     "subject": "সাধারণ বিজ্ঞান",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -536,7 +536,7 @@
       "সুফিয়া কামাল"
     ],
     "correct_answer": "জীবনানন্দ দাশ",
-    "explanation": "<p>\"রূপসী বাংলা\" বাঙালি কবি জীবনানন্দ দাস&nbsp; ( ১৭ ফেব্রুয়ারী ১৮৯৯ - ২২ অক্টোবর ১৯৫৪ )&nbsp; এর বিখ্যাত কাব্য গ্রন্থ । এতে মোট ২৫ টি কবিতা রয়েছে । এখানে স্থান পেয়েছে গ্রাম বাংলার প্রাকৃতিক অপরুপ সৌন্দর্য, জনজীবন এবং সাংস্কৃতিক আচার অনুষ্ঠান ইত্যাদি । এটি প্রকাশিত হয় তার মৃত্যুর পরে ১৯৫৭ সালে ।&nbsp;</p><br/>",
+    "explanation": "<p>\"রূপসী বাংলা\" বাঙালি কবি জীবনানন্দ দাস&nbsp; ( ১৭ ফেব্রুয়ারী ১৮৯৯ - ২২ অক্টোবর ১৯৫৪ )&nbsp; এর বিখ্যাত কাব্য গ্রন্থ । এতে মোট ২৫ টি কবিতা রয়েছে । এখানে স্থান পেয়েছে গ্রাম বাংলার প্রাকৃতিক অপরুপ সৌন্দর্য, জনজীবন এবং সাংস্কৃতিক আচার অনুষ্ঠান ইত্যাদি । এটি প্রকাশিত হয় তার মৃত্যুর পরে ১৯৫৭ সালে ।&nbsp;</p>",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -638,7 +638,7 @@
       "৬ই ডিসেম্বর"
     ],
     "correct_answer": "৫ই ডিসেম্বর",
-    "explanation": "<p>৫ই ডিসেম্বর বিশ্ব মৃত্তিকা দিবস ( World Soil Day)&nbsp; । ২০১৫ সাল থেকে প্রতিবছর এটি বিশ্বব্যাপী পালিত হয়।&nbsp;</p><br/>",
+    "explanation": "<p>৫ই ডিসেম্বর বিশ্ব মৃত্তিকা দিবস ( World Soil Day)&nbsp; । ২০১৫ সাল থেকে প্রতিবছর এটি বিশ্বব্যাপী পালিত হয়।&nbsp;</p>",
     "hints": "",
     "subject": "সাধারণ জ্ঞান",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -723,7 +723,7 @@
       "১৯৭৩ সালে"
     ],
     "correct_answer": "১৯৭৩ সালে",
-    "explanation": "<p>১৯৭৩ সালে ৭ই মার্চ&nbsp;</p><br/><p> প্রথম জাতীয় নির্বাচন অনুষ্ঠিত হয় এতে&nbsp;</p><br/>",
+    "explanation": "<p>১৯৭৩ সালে ৭ই মার্চ&nbsp;</p><br/><p> প্রথম জাতীয় নির্বাচন অনুষ্ঠিত হয় এতে&nbsp;</p>",
     "hints": "",
     "subject": "সাধারণ জ্ঞান",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -910,7 +910,7 @@
       "ঢাকা সেনানিবাস"
     ],
     "correct_answer": "সোহরাওয়ার্দী উদ্যান",
-    "explanation": "<p>💥শিখা <b>অনির্বাণ</b> বাংলাদেশের স্বাধীনতা যুদ্ধের স্মৃতিস্তম্ভ ।</p><br/><p>●<i><u>ঢাকা সেনানিবাস</u></i> এলাকায় এটি অবস্থিত।</p><br/><p>যুদ্ধে আত্মোৎসর্গকারী সৈনিকদের স্মৃতিকে জাতির জীবনে চির উজ্জ্বল করে রাখার জন্য এই স্মৃতিস্তম্ভে সার্বক্ষণিকভাবে শিখা প্রজ্জ্বলন করে রাখা হয়।</p><br/><p>💥শিখা <b>চিরন্তন</b> 'রাজধানী <i><u>ঢাকার সোহরাওয়ার্দী</u></i> উদ্যানে অবস্থিত একটি স্মরণ স্থাপনা। এ স্থানটি ৭ ই মার্চের ভাষণ ও ১৬ ডিসেম্বরের পাক বাহিনীর আত্মসমর্পণের স্মৃতি বিজড়িত।</p><br/>",
+    "explanation": "<p>💥শিখা <b>অনির্বাণ</b> বাংলাদেশের স্বাধীনতা যুদ্ধের স্মৃতিস্তম্ভ ।</p><br/><p>●<i><u>ঢাকা সেনানিবাস</u></i> এলাকায় এটি অবস্থিত।</p><br/><p>যুদ্ধে আত্মোৎসর্গকারী সৈনিকদের স্মৃতিকে জাতির জীবনে চির উজ্জ্বল করে রাখার জন্য এই স্মৃতিস্তম্ভে সার্বক্ষণিকভাবে শিখা প্রজ্জ্বলন করে রাখা হয়।</p><br/><p>💥শিখা <b>চিরন্তন</b> 'রাজধানী <i><u>ঢাকার সোহরাওয়ার্দী</u></i> উদ্যানে অবস্থিত একটি স্মরণ স্থাপনা। এ স্থানটি ৭ ই মার্চের ভাষণ ও ১৬ ডিসেম্বরের পাক বাহিনীর আত্মসমর্পণের স্মৃতি বিজড়িত।</p>",
     "hints": "",
     "subject": "সাধারণ জ্ঞান",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1233,7 +1233,7 @@
       "Arthur C. Clarke"
     ],
     "correct_answer": "George Orwell",
-    "explanation": "<p>The correct answer is option C. George Orwell is also the writter of the novel \"The Animal Farm\"</p><br/>",
+    "explanation": "<p>The correct answer is option C. George Orwell is also the writter of the novel \"The Animal Farm\"</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1301,7 +1301,7 @@
       "I do not know what his plan is."
     ],
     "correct_answer": "I do not know what his plan is.",
-    "explanation": "<p>Relatine Pronoun তথা WH word দ্বারা দুটি Sentence যুক্ত হলে মূলত একটি Complex Sentence তৈরি হয়, যেখানে WH word (যেমন: what, where, when, who, which, why, how ইত্যাদি) Subordinate Clause শুরু করে এবং এটি মূল বা প্রধান clause-এর সাথে যুক্ত থাকে।</p><br/><p>👉এক্ষেত্রে গঠন পদ্ধতি নিচের মতো হয়:</p><br/><p>🔶 সাধারণ গঠন:</p><br/><p>Main Clause + WH-word + Subordinate Clause</p><br/><p>অথবা</p><br/><p>WH-word + Subordinate Clause + Main Clause</p><br/><p></p>",
+    "explanation": "<p>Relatine Pronoun তথা WH word দ্বারা দুটি Sentence যুক্ত হলে মূলত একটি Complex Sentence তৈরি হয়, যেখানে WH word (যেমন: what, where, when, who, which, why, how ইত্যাদি) Subordinate Clause শুরু করে এবং এটি মূল বা প্রধান clause-এর সাথে যুক্ত থাকে।</p><br/><p>👉এক্ষেত্রে গঠন পদ্ধতি নিচের মতো হয়:</p><br/><p>🔶 সাধারণ গঠন:</p><br/><p>Main Clause + WH-word + Subordinate Clause</p><br/><p>অথবা</p><br/><p>WH-word + Subordinate Clause + Main Clause</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1335,7 +1335,7 @@
       "hearing from you soon."
     ],
     "correct_answer": "hearing from you soon.",
-    "explanation": "<p>সাধারণত to এর পরে verb এর base form বসে। তবে look forward to, get used to, be + used to, with a view to, addicted to, accustomed to, prefer to এর পরে verb থাকলে verb এর সাথে ing যোগ হয়।&nbsp;</p><br/>",
+    "explanation": "<p>সাধারণত to এর পরে verb এর base form বসে। তবে look forward to, get used to, be + used to, with a view to, addicted to, accustomed to, prefer to এর পরে verb থাকলে verb এর সাথে ing যোগ হয়।&nbsp;</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1352,7 +1352,7 @@
       "to check"
     ],
     "correct_answer": "checking",
-    "explanation": "<p>Mind, would you mind, worth, past, cannot help, could not help এর পরে verb থাকলে verb এর সাথে ing যোগ হয়।&nbsp;</p><br/>",
+    "explanation": "<p>Mind, would you mind, worth, past, cannot help, could not help এর পরে verb থাকলে verb এর সাথে ing যোগ হয়।&nbsp;</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1386,7 +1386,7 @@
       "manages"
     ],
     "correct_answer": "tolerates",
-    "explanation": "<p>Put up with = ধৈর্য্যসহকারে সহ্য করা Synonym: Tolerate&nbsp;<span style=\"font-size: 1rem;\">&nbsp;</span></p><br/><p>তাই সঠিক উত্তর : Tolerate</p><br/>",
+    "explanation": "<p>Put up with = ধৈর্য্যসহকারে সহ্য করা Synonym: Tolerate&nbsp;<span style=\"font-size: 1rem;\">&nbsp;</span></p><br/><p>তাই সঠিক উত্তর : Tolerate</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1403,7 +1403,7 @@
       "on the far right"
     ],
     "correct_answer": "without delay",
-    "explanation": "<p>Right away অর্থ - অবিলম্বে</p><br/><p><span style=\"font-size: 1rem;\">কাছাকাছি শব্দ: Right time, Without delay.&nbsp;</span></p><br/>",
+    "explanation": "<p>Right away অর্থ - অবিলম্বে</p><br/><p><span style=\"font-size: 1rem;\">কাছাকাছি শব্দ: Right time, Without delay.&nbsp;</span></p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1420,7 +1420,7 @@
       "By whom will the work be done?"
     ],
     "correct_answer": "By whom will the work be done?",
-    "explanation": "<p>Who দিয়ে শুরু হওয়া Interrogatives Sentence কে Passive voice করতে হলে&nbsp;</p><br/><p>প্রথমে Who এর পরিবর্তে By whom বসে</p><br/><p>Structure = </p><br/><p>By whom+ auxiliary verb+ subject + Verb এর past particple+ object.</p><br/>",
+    "explanation": "<p>Who দিয়ে শুরু হওয়া Interrogatives Sentence কে Passive voice করতে হলে&nbsp;</p><br/><p>প্রথমে Who এর পরিবর্তে By whom বসে</p><br/><p>Structure = </p><br/><p>By whom+ auxiliary verb+ subject + Verb এর past particple+ object.</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1437,7 +1437,7 @@
       "She asked me if I was happy with my life."
     ],
     "correct_answer": "She asked me if I was happy with my life.",
-    "explanation": "<p>Interrogative sentence এ WH question না থাকলে auxiliary verb দিয়ে Reported speech শুরু হলে Reported Verb এ asked/ inquire of + object + if/whether + Reported Speech এর Subject + verb + বাকী অংশ।</p><br/>",
+    "explanation": "<p>Interrogative sentence এ WH question না থাকলে auxiliary verb দিয়ে Reported speech শুরু হলে Reported Verb এ asked/ inquire of + object + if/whether + Reported Speech এর Subject + verb + বাকী অংশ।</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1454,7 +1454,7 @@
       "compound sentence"
     ],
     "correct_answer": "complex sentence",
-    "explanation": "<p><p><br/></p><br/><b>Complex Sentence</b>: A complex sentence contains at least 1 independent clause and at least 1 dependent clause. </p><br/><p><br/></p><br/><p>In the give sentence \"Wherever you go\" is the <b>dependent</b> clause as, it does not fully express an idea and \\\"you can always find beauty\\\" is the <b>independent</b> clause as it can stand</p><br/>",
+    "explanation": "<p><br/><b>Complex Sentence</b>: A complex sentence contains at least 1 independent clause and at least 1 dependent clause. </p><br/><br/><p>In the give sentence \"Wherever you go\" is the <b>dependent</b> clause as, it does not fully express an idea and \\\"you can always find beauty\\\" is the <b>independent</b> clause as it can stand</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1471,7 +1471,7 @@
       "with"
     ],
     "correct_answer": "of",
-    "explanation": "<p>Scholar = পন্ডিত,&nbsp; বিদ্বান। এর Appropriate preposition হল ।</p><br/><p>Ans: Scholar of.</p><br/>",
+    "explanation": "<p>Scholar = পন্ডিত,&nbsp; বিদ্বান। এর Appropriate preposition হল ।</p><br/><p>Ans: Scholar of.</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1488,7 +1488,7 @@
       "over"
     ],
     "correct_answer": "since",
-    "explanation": "<p>Perfect Continue Tense এ</p><br/><p>একের অধিক সময় ব্যাপ্তি বুঝাতে For বসে। তবে দিন /দিনের ভাগ/মাস উল্লেখ থাকলে&nbsp; Since বসে।</p><br/>",
+    "explanation": "<p>Perfect Continue Tense এ</p><br/><p>একের অধিক সময় ব্যাপ্তি বুঝাতে For বসে। তবে দিন /দিনের ভাগ/মাস উল্লেখ থাকলে&nbsp; Since বসে।</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1522,7 +1522,7 @@
       "dancer"
     ],
     "correct_answer": "spinster",
-    "explanation": "<p>Spinster- চিরকুমারী, অবিবাহিত নারী&nbsp;</p><br/><p>Maiden,&nbsp;</p><br/><p>a woman who is not married, especially a woman who is not longer young and seems unlikely ever to marry.</p><br/>",
+    "explanation": "<p>Spinster- চিরকুমারী, অবিবাহিত নারী&nbsp;</p><br/><p>Maiden,&nbsp;</p><br/><p>a woman who is not married, especially a woman who is not longer young and seems unlikely ever to marry.</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1539,7 +1539,7 @@
       "was"
     ],
     "correct_answer": "was",
-    "explanation": "<p>neither...nor, either...or যুক্ত sentence এ nor কিংবা or এর পরের সাব্জেক্ট অনুযায়ী verb বসে। সাব্জেক্ট singular হওয়ায় verb ও singular হবে। yesterday থাকায় verb was হবে।</p><br/>",
+    "explanation": "<p>neither...nor, either...or যুক্ত sentence এ nor কিংবা or এর পরের সাব্জেক্ট অনুযায়ী verb বসে। সাব্জেক্ট singular হওয়ায় verb ও singular হবে। yesterday থাকায় verb was হবে।</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1556,7 +1556,7 @@
       "curriculum"
     ],
     "correct_answer": "bacteria",
-    "explanation": "<p>&nbsp;</p><br/><p>*Bacterium=রোগজীবাণু। এর Plural form হল -Bacteria&nbsp;</p><br/><p>*Curriculum এর Plural Form হল- Curricula&nbsp;</p><br/>",
+    "explanation": "<p>*Bacterium=রোগজীবাণু। এর Plural form হল -Bacteria&nbsp;</p><br/><p>*Curriculum এর Plural Form হল- Curricula&nbsp;</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1573,7 +1573,7 @@
       "admire"
     ],
     "correct_answer": "admire",
-    "explanation": "<p>Hate - ঘৃণা করা; Admire - প্রশংসা করা। সুতরাং, Hate এর opposite হচ্ছে Admire.</p><br/>",
+    "explanation": "<p>Hate - ঘৃণা করা; Admire - প্রশংসা করা। সুতরাং, Hate এর opposite হচ্ছে Admire.</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1590,7 +1590,7 @@
       "reputable"
     ],
     "correct_answer": "admirable",
-    "explanation": "<p>Despicable যার অর্থ ঘৃণ্য এবং এর বিপরীত অর্থ প্রশংসনীয় যার ইংরেজি admirable।</p><br/>",
+    "explanation": "<p>Despicable যার অর্থ ঘৃণ্য এবং এর বিপরীত অর্থ প্রশংসনীয় যার ইংরেজি admirable।</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1607,7 +1607,7 @@
       "humility"
     ],
     "correct_answer": "humility",
-    "explanation": "<p>Modesty _বিনয়ী&nbsp;</p><br/><p>Docility_সহনশীল&nbsp;</p><br/><p>Timidity- ভীরুতা&nbsp;</p><br/><p>Simolicity-অনুরুপ</p><br/><p>Humility -নম্রতা&nbsp;</p><br/><p>Modesty শব্দটির সাথে Humility শব্দটির মিল রয়েছে।</p><br/><p></p>",
+    "explanation": "<p>Modesty _বিনয়ী&nbsp;</p><br/><p>Docility_সহনশীল&nbsp;</p><br/><p>Timidity- ভীরুতা&nbsp;</p><br/><p>Simolicity-অনুরুপ</p><br/><p>Humility -নম্রতা&nbsp;</p><br/><p>Modesty শব্দটির সাথে Humility শব্দটির মিল রয়েছে।</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1624,7 +1624,7 @@
       "careful"
     ],
     "correct_answer": "watchful",
-    "explanation": "<p><p><br/></p><br/>Vigilant - সতর্ক ,হুঁশিয়ারি, এর সঠিক synonym হলো </p><br/><p>●Observant - দৃষ্টিশীল, মনোযোগী।</p><br/><p>●Watchful- জাগ্রদবস্থ</p><br/>",
+    "explanation": "<p><br/>Vigilant - সতর্ক ,হুঁশিয়ারি, এর সঠিক synonym হলো </p><br/><p>●Observant - দৃষ্টিশীল, মনোযোগী।</p><br/><p>●Watchful- জাগ্রদবস্থ</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1641,7 +1641,7 @@
       "vicious"
     ],
     "correct_answer": "serious",
-    "explanation": "<p>Grave অর্থ গুরুত্বপূর্ণ, serious অর্থ গুরুত্বপূর্ণ</p><br/><p>তাই Grave এর synonym serious</p><br/>",
+    "explanation": "<p>Grave অর্থ গুরুত্বপূর্ণ, serious অর্থ গুরুত্বপূর্ণ</p><br/><p>তাই Grave এর synonym serious</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1675,7 +1675,7 @@
       "dias"
     ],
     "correct_answer": "dais",
-    "explanation": "<p>A podium (pl. podiums or podia)/platform, stage/ ✅️<b>Dais</b>/ rostrum/ stand/ soapbox is the raised platform on which the speaker stands to deliver his or her speech.</p><br/><p>(বাদকদলের পরিচালক, বক্তা প্রভৃতির জন্য) মঞ্চ।</p><br/>",
+    "explanation": "<p>A podium (pl. podiums or podia)/platform, stage/ ✅️<b>Dais</b>/ rostrum/ stand/ soapbox is the raised platform on which the speaker stands to deliver his or her speech.</p><br/><p>(বাদকদলের পরিচালক, বক্তা প্রভৃতির জন্য) মঞ্চ।</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1709,7 +1709,7 @@
       "for example"
     ],
     "correct_answer": "as before",
-    "explanation": "<p>সঠিক উত্তর অপশন 'ক'</p><br/><p>Ditto অর্থ পূর্বে উল্লেখিত,আগের মত, একই রকম। তাই সঠিক উত্তর \"ক\"</p><br/>",
+    "explanation": "<p>সঠিক উত্তর অপশন 'ক'</p><br/><p>Ditto অর্থ পূর্বে উল্লেখিত,আগের মত, একই রকম। তাই সঠিক উত্তর \"ক\"</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1777,7 +1777,7 @@
       "compliant"
     ],
     "correct_answer": "compliant",
-    "explanation": "<p>Comply ( verb) যার অর্থ সম্মতি দেওয়া।&nbsp;</p><br/><p>Noun = Compliance, Adverb= Compliantly</p><br/>",
+    "explanation": "<p>Comply ( verb) যার অর্থ সম্মতি দেওয়া।&nbsp;</p><br/><p>Noun = Compliance, Adverb= Compliantly</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1811,7 +1811,7 @@
       "a verb and a noun"
     ],
     "correct_answer": "a verb, a noun and an adjective",
-    "explanation": "<p>Mean as noun অর্থ :-\"মধ্যবর্তী অবস্থান\"/গড়, Mean as adjective অর্থ:- \"মধ্যবর্তী\",মধ্যক, Mean as verb অর্থ:-\"বুঝানো হয়\"</p><br/>",
+    "explanation": "<p>Mean as noun অর্থ :-\"মধ্যবর্তী অবস্থান\"/গড়, Mean as adjective অর্থ:- \"মধ্যবর্তী\",মধ্যক, Mean as verb অর্থ:-\"বুঝানো হয়\"</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1845,7 +1845,7 @@
       "noun"
     ],
     "correct_answer": "adjective",
-    "explanation": "<p>Determer + Adjective + Noun+(Fullstop)</p><br/><p>Determer+ Adver+ Adjective + Noun+(Fullstop)</p><br/><p>অর্থাৎ Det. এবং Noun এর মাঝে একটি Word থাকলে সেটি Adjective হবে।</p><br/>",
+    "explanation": "<p>Determer + Adjective + Noun+(Fullstop)</p><br/><p>Determer+ Adver+ Adjective + Noun+(Fullstop)</p><br/><p>অর্থাৎ Det. এবং Noun এর মাঝে একটি Word থাকলে সেটি Adjective হবে।</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1896,7 +1896,7 @@
       "মাটির দেয়াল"
     ],
     "correct_answer": "বেলা অবেলা কালবেলা",
-    "explanation": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">•বেলা অবলা কালবেলা- জীবনানন্দ দাশ</span></p><br/><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">•ক্রন্দসি- সুধীন্দ্রনাথ দত্ত&nbsp;</span></p><br/><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">•চোরাবালি- বিষ্ণুদে&nbsp;</span></p><br/><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">•মাটির দেয়াল- অমিয় চক্রবর্তী</span></p><br/>",
+    "explanation": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">•বেলা অবলা কালবেলা- জীবনানন্দ দাশ</span></p><br/><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">•ক্রন্দসি- সুধীন্দ্রনাথ দত্ত&nbsp;</span></p><br/><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">•চোরাবালি- বিষ্ণুদে&nbsp;</span></p><br/><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">•মাটির দেয়াল- অমিয় চক্রবর্তী</span></p>",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -1964,7 +1964,7 @@
       "ঘরে থাকে না যে"
     ],
     "correct_answer": "গৃহহীন",
-    "explanation": "<p>হা-ঘরে হলো একটি বাগধারা। যার অর্থ আশ্রয়হীন বা গৃহহীন। অর্থাৎ যার গৃহ নেই বা আশ্রয় নেই তাকে হা-ঘরে বলে।</p><br/>",
+    "explanation": "<p>হা-ঘরে হলো একটি বাগধারা। যার অর্থ আশ্রয়হীন বা গৃহহীন। অর্থাৎ যার গৃহ নেই বা আশ্রয় নেই তাকে হা-ঘরে বলে।</p>",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -2236,7 +2236,7 @@
       "জাপানি"
     ],
     "correct_answer": "ফরাসি",
-    "explanation": "<p>রেস্তোরাঁ = আধুনিক বাংলা অভিধান অনুসারে (বিশেষ্য</p><br/><p>&nbsp;যা ফরাসি ভাষা থেকে আগত শব্দ।</p><br/><p></p>",
+    "explanation": "<p>রেস্তোরাঁ = আধুনিক বাংলা অভিধান অনুসারে (বিশেষ্য</p><br/><p>&nbsp;যা ফরাসি ভাষা থেকে আগত শব্দ।</p>",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -2287,7 +2287,7 @@
       "অর্থতত্ত্বে"
     ],
     "correct_answer": "বাক্যতত্ত্বে",
-    "explanation": "<p>যেহেতু বাক্যের ক্রিয়া পদের সাথে নাম পদের সম্পর্কই কারক এবং&nbsp; কারক নির্ণয় করতে বাক্যের প্রয়োজন হয়,তাই কারক বাক্যতত্ত্বের আলোচ্য বিষয়।</p><br/><p>তবে বিভক্তি শব্দতত্ত্বের আলোচ্য বিষয়</p><br/>",
+    "explanation": "<p>যেহেতু বাক্যের ক্রিয়া পদের সাথে নাম পদের সম্পর্কই কারক এবং&nbsp; কারক নির্ণয় করতে বাক্যের প্রয়োজন হয়,তাই কারক বাক্যতত্ত্বের আলোচ্য বিষয়।</p><br/><p>তবে বিভক্তি শব্দতত্ত্বের আলোচ্য বিষয়</p>",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -2304,7 +2304,7 @@
       "চলিতরীতি"
     ],
     "correct_answer": "চলিতরীতি",
-    "explanation": "<p>সাধু রীতি তৎসম শব্দ বহুল। তৎসম শব্দ বলতে বোঝায় যে সব শব্দ সংস্কৃত ভাষা থেকে সরাসরি বাংলায় এসেছে এবং যাদের রুপ অপরিবর্তিত রয়েছে। যেমন - - চন্দ্র, ভবন, ধর্ম, ইত্যাদি। সঠিক উত্তর - সাধুরীতি।</p><br/>",
+    "explanation": "<p>সাধু রীতি তৎসম শব্দ বহুল। তৎসম শব্দ বলতে বোঝায় যে সব শব্দ সংস্কৃত ভাষা থেকে সরাসরি বাংলায় এসেছে এবং যাদের রুপ অপরিবর্তিত রয়েছে। যেমন - - চন্দ্র, ভবন, ধর্ম, ইত্যাদি। সঠিক উত্তর - সাধুরীতি।</p>",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -2457,7 +2457,7 @@
       "মৃত্যুক্ষুধা"
     ],
     "correct_answer": "মৃত্যুক্ষুধা",
-    "explanation": "<p>মৃত্যুক্ষুধা ১৯৩০ সালে প্রকাশিত একটি রাজনৈতিক উপন্যাস।&nbsp;</p><br/><p>বাঁধন-হারা ( বাংলা সাহিত্যের প্রথম পত্রোপান্যাস)</p><br/><p> তিনি বাংলা গানের জগতে বুলবুল নামে খ্যাত।</p><br/>",
+    "explanation": "<p>মৃত্যুক্ষুধা ১৯৩০ সালে প্রকাশিত একটি রাজনৈতিক উপন্যাস।&nbsp;</p><br/><p>বাঁধন-হারা ( বাংলা সাহিত্যের প্রথম পত্রোপান্যাস)</p><br/><p> তিনি বাংলা গানের জগতে বুলবুল নামে খ্যাত।</p>",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -2474,7 +2474,7 @@
       "বিসর্জন"
     ],
     "correct_answer": "সঞ্চিতা",
-    "explanation": "<p>সঞ্চিতা= কাজী নজরুল ইসলামের কাব্যগ্রন্থ, যা,&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; তিনি রবীন্দ্রনাথ ঠাকুরকে উৎসর্গ করেন।&nbsp;</p><br/><p>সঞ্চিয়তা= রবীন্দ্রনাথ ঠাকুরের কবিতা ও গানের</p><br/><p>&nbsp; &nbsp; &nbsp; &nbsp; সংকলন।</p><br/>",
+    "explanation": "<p>সঞ্চিতা= কাজী নজরুল ইসলামের কাব্যগ্রন্থ, যা, তিনি রবীন্দ্রনাথ ঠাকুরকে উৎসর্গ করেন।&nbsp;</p><br/><p>সঞ্চিয়তা= রবীন্দ্রনাথ ঠাকুরের কবিতা ও গানের</p><br/><p> সংকলন।</p>",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -2508,7 +2508,7 @@
       "চাঁদের অমাবস্যা"
     ],
     "correct_answer": "বিষবৃক্ষ",
-    "explanation": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">বিষবৃক্ষঃ বঙ্কিমচন্দ্রের সামাজিক উপন্যাস</span></p><br/><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">নৌকাডুবিঃ রবীন্দ্রনাথ ঠাকুর উপন্যাস</span></p><br/><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">মৃত্যু ক্ষুধাঃ কাজী নজরুল ইসলামের উপন্যাস</span></p><br/><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">চাঁদের অমাবস্যাঃ সৈয়দ ওয়ালীউল্লাহর উপন্যাস</span></p><br/>",
+    "explanation": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">বিষবৃক্ষঃ বঙ্কিমচন্দ্রের সামাজিক উপন্যাস</span></p><br/><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">নৌকাডুবিঃ রবীন্দ্রনাথ ঠাকুর উপন্যাস</span></p><br/><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">মৃত্যু ক্ষুধাঃ কাজী নজরুল ইসলামের উপন্যাস</span></p><br/><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0.0pt;margin-bottom:0.0pt;\"><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;\">চাঁদের অমাবস্যাঃ সৈয়দ ওয়ালীউল্লাহর উপন্যাস</span></p>",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "বিভিন্ন মন্ত্রণালয়",

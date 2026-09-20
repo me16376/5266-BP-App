@@ -689,7 +689,7 @@
       "If m is even, then p is odd"
     ],
     "correct_answer": "If m is odd , then p is odd",
-    "explanation": "প্রশ্নে দেয়া আছে, (m +p) m হচ্ছে Even, তাই এটি থেকে আমরা দুটি সিদ্ধান্ত পাইঃ<br/>i) হয় m হবে Even অথবা ii) m + p হবে Even.<br/>এখন i) এর ক্ষেত্রে যদি m পূর্ণসংখ্যাটি even হয়, তবে m + p একত্রে Odd হবে শুধুমাত্র যদি p পূর্ণসংখ্যাটি odd হয় । P আবার ii) এর ক্ষেত্রে যদি, m + p একসাথে Even হয়, তবে আবার দুটি ঘটনা ঘটতে পারেঃ<br/>a) m এবং p উভয়ই Even হবে কারণ Even + Even = Even, অথবা<br/>b) m এবং p উভয়ই Odd হবে কারণ Odd + Odd = Even.<br/>যেহেতু আমাদেরকে উত্তরের কোন অপশনটি Must be true বের করতে হবে। তাই আপনার কাজ হলো প্রতিটি অপশনকে False প্রমাণ করা। দেখবেন মাত্র একটি অপশন থাকে যেটিকে আপনি False প্রমাণ করতে পারবেন না। সেটিই হবে উত্তর । আসুন এবার উত্তরের অপশনগুলো দেখিঃ<br/>a) এর অপশনে আছেঃ if m is odd, then p is odd p<br/>এটি সত্যি কারণ, in + p একত্রে Even হবে যদি m এবং p উভয়ই Odd হয় এবং m + p অবশ্যই Even হবে কারণ প্রশ্নমতে (m + p)m হচ্ছে Even (যেহেতু এই অপশনের শর্তমতে m হচ্ছে Odd). তাই এটি উত্তর হতে পারে। তবে অন্য অপশনগুলো দেখে আমরা সিদ্ধান্ত নিব।<br/>b) এর অপশনে আছেঃ if m is odd, then p is even. এটি False কারণ a) এর অপশনে যা বলা হয়েছে, এটি তার P Complete opposite. যেহেতু, a) অপশনকে আমরা True প্রমাণ করেছি তাই এটি False.<br/>c) এর অপশনে আছেঃ if m is even, then p is even<br/>এই অপশন অনুযায়ী যদি m পূর্ণসংখ্যাটি even হয় তবে (m + p)m সংখ্যাটি Even হবে (কারণ even x odd = odd x even = even x even = even) তাই p এর মান Even বা Odd যাই হোক না কেন এটা ফলাফল বা Outcome P কে প্রভাবিত করবে না। এ কারণে আমরা নিশ্চিত ভাবে বলতে পারছি না যে, if m is even, then p is even তাই এই অপশনটি False.<br/>d) এর অপশনে আছেঃ if m is even, then p is odd.<br/>উপরের d) অপশনটির যুক্তি অনুসারে আমরা এটি Determine করতে পারছি না যে, if m is even, then p is odd<br/>তাই এই অপশনটি False.<br/>",
+    "explanation": "প্রশ্নে দেয়া আছে, (m +p) m হচ্ছে Even, তাই এটি থেকে আমরা দুটি সিদ্ধান্ত পাইঃ<br/>i) হয় m হবে Even অথবা ii) m + p হবে Even.<br/>এখন i) এর ক্ষেত্রে যদি m পূর্ণসংখ্যাটি even হয়, তবে m + p একত্রে Odd হবে শুধুমাত্র যদি p পূর্ণসংখ্যাটি odd হয় । P আবার ii) এর ক্ষেত্রে যদি, m + p একসাথে Even হয়, তবে আবার দুটি ঘটনা ঘটতে পারেঃ<br/>a) m এবং p উভয়ই Even হবে কারণ Even + Even = Even, অথবা<br/>b) m এবং p উভয়ই Odd হবে কারণ Odd + Odd = Even.<br/>যেহেতু আমাদেরকে উত্তরের কোন অপশনটি Must be true বের করতে হবে। তাই আপনার কাজ হলো প্রতিটি অপশনকে False প্রমাণ করা। দেখবেন মাত্র একটি অপশন থাকে যেটিকে আপনি False প্রমাণ করতে পারবেন না। সেটিই হবে উত্তর । আসুন এবার উত্তরের অপশনগুলো দেখিঃ<br/>a) এর অপশনে আছেঃ if m is odd, then p is odd p<br/>এটি সত্যি কারণ, in + p একত্রে Even হবে যদি m এবং p উভয়ই Odd হয় এবং m + p অবশ্যই Even হবে কারণ প্রশ্নমতে (m + p)m হচ্ছে Even (যেহেতু এই অপশনের শর্তমতে m হচ্ছে Odd). তাই এটি উত্তর হতে পারে। তবে অন্য অপশনগুলো দেখে আমরা সিদ্ধান্ত নিব।<br/>b) এর অপশনে আছেঃ if m is odd, then p is even. এটি False কারণ a) এর অপশনে যা বলা হয়েছে, এটি তার P Complete opposite. যেহেতু, a) অপশনকে আমরা True প্রমাণ করেছি তাই এটি False.<br/>c) এর অপশনে আছেঃ if m is even, then p is even<br/>এই অপশন অনুযায়ী যদি m পূর্ণসংখ্যাটি even হয় তবে (m + p)m সংখ্যাটি Even হবে (কারণ even x odd = odd x even = even x even = even) তাই p এর মান Even বা Odd যাই হোক না কেন এটা ফলাফল বা Outcome P কে প্রভাবিত করবে না। এ কারণে আমরা নিশ্চিত ভাবে বলতে পারছি না যে, if m is even, then p is even তাই এই অপশনটি False.<br/>d) এর অপশনে আছেঃ if m is even, then p is odd.<br/>উপরের d) অপশনটির যুক্তি অনুসারে আমরা এটি Determine করতে পারছি না যে, if m is even, then p is odd<br/>তাই এই অপশনটি False.",
     "hints": "📖এখানে, আমরা প্রশ্নের option গুলো বিবেচনা করিঃ<br/>a) m যদি বিজোড় হয়, তখন p শুধুমাত্র বিজোড় হলেই (m + p)m জোড় হবে।<br/>b) যদি m বিজোড় হয়, তখন p জোড় হলে কখনই (m + p)m জোড় হবে না।<br/>c + d) যদি m জোড় হয়, তাহলে p জোড় বা বিজোড় যাই হোক না কেন (m + p)m জোড় হবে।<br/>অর্থাৎ, m যদি even হয়, তাহলে প্রশ্নোক্ত সমীকরণ থেকে p জোড় বা বিজোড় যেকোনোটাই হতে পারে যা 'must' শর্তকে মানে না।<br/>তাই উত্তর হবেঃ If m is odd, then p is odd",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
@@ -1217,7 +1217,7 @@
     ],
     "correct_answer": "\\( 2\\sqrt{14}c{m}^{2} \\)",
     "explanation": "",
-    "hints": "📖অর্ধপরিসীমা, s = (3 + 5 + 6)/2 = 7 সে.মি<br/>∴ ক্ষেত্রফল = √{s(s - a)(s - b)(s - c)} বর্গএকক<br/>               = √ {7 (7 - 3) (7 - 5) (7 - 6)} বর্গসে.মি <br/>               = √ (7 ✕ 4 ✕ 2 ✕ 1)<br/>               = 2√14 বর্গসে.মি",
+    "hints": "📖অর্ধপরিসীমা, s = (3 + 5 + 6)/2 = 7 সে.মি<br/>∴ ক্ষেত্রফল = √{s(s - a)(s - b)(s - c)} বর্গএকক<br/> = √ {7 (7 - 3) (7 - 5) (7 - 6)} বর্গসে.মি <br/> = √ (7 ✕ 4 ✕ 2 ✕ 1)<br/> = 2√14 বর্গসে.মি",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Sonali Bank Ltd",
@@ -1301,7 +1301,7 @@
       "application"
     ],
     "correct_answer": "modifier",
-    "explanation": "<p>Total balls 5+3=8&nbsp;</p><br/><p>Black balls=3&nbsp;</p><br/><p>Probability of a black ball= 3/8</p><br/>",
+    "explanation": "<p>Total balls 5+3=8&nbsp;</p><br/><p>Black balls=3&nbsp;</p><br/><p>Probability of a black ball= 3/8</p>",
     "hints": "📝Ctrl, Shift and Alt are called <b>modifier</b> keys.<br/>▣ <b>মডিফায়ার কী (modifier key):</b><br/>❐ কী-বোর্ডের যে সমস্ত কী-এর সাহায্যে অক্ষর বিন্যাস ছাড়া অন্যান্য কাজ করা হয় তাদেরকে বলা হয় মডিফায়ার কী (modifier key)। <br/>❐ যেমন: Ctrl, Shift and Alt এবং windows key.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
@@ -1352,7 +1352,7 @@
       "(x-3)(x-2)"
     ],
     "correct_answer": "(x-6)(x+1)",
-    "explanation": "x²-5x-6 <br/><br/>= x²-6x+x-6 <br/><br/>= x(x-6)+1(x-6)<br/><br/> =(x-6)(x+1)<br/><br/>",
+    "explanation": "x²-5x-6 <br/><br/>= x²-6x+x-6 <br/><br/>= x(x-6)+1(x-6)<br/><br/> =(x-6)(x+1)",
     "hints": "📖x^2 - 5x - 6<br/>x^2 - 6x + x - 6<br/>x(x - 6) + 1(x - 6)<br/>❏(x - 6)(x + 1).",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",

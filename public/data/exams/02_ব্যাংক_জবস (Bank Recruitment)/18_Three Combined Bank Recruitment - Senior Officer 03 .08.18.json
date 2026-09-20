@@ -859,7 +859,7 @@
       "32"
     ],
     "correct_answer": "24",
-    "explanation": "<p>Given that, the average of 6 numbers is 25.</p><br/><p>So, total of 6 numbers = 25*6 = 150</p><br/><p>Now, another 3 numbers with an averages of 22 are added.</p><br/><p>Total of these 3 numbers = 22*3 = 66&nbsp;</p><br/><p><br/></p><br/><p><br/></p><br/><p>So, total of first 6 numbers + total of last 3 numbers = 150+66 = 216&nbsp;</p><br/><p><br/></p><br/><p>Now, the average of those 9 numbers becomes = 216/9 = 24</p><br/>",
+    "explanation": "<p>Given that, the average of 6 numbers is 25.</p><br/><p>So, total of 6 numbers = 25*6 = 150</p><br/><p>Now, another 3 numbers with an averages of 22 are added.</p><br/><p>Total of these 3 numbers = 22*3 = 66&nbsp;</p><br/><br/><p>So, total of first 6 numbers + total of last 3 numbers = 150+66 = 216&nbsp;</p><br/><br/><p>Now, the average of those 9 numbers becomes = 216/9 = 24</p>",
     "hints": "📖Sum of 6 numbers = (6 ✕ 25) = 150. <br/>Sum of 3 additional numbers = (3 ✕ 22) = 66. <br/>Sum of (6 + 3) =9 numbers = (150 + 66) = 216<br/>∴ average of the combined 9 numbers = 216/9 = 24",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
@@ -1301,7 +1301,7 @@
       "Press F7"
     ],
     "correct_answer": "Press F7",
-    "explanation": "<p>মাইক্রোসফট ওয়ার্ড বা কোনও অ্যাপ্লিকেশনে কিছু লেখার পর বানান ও ব্যাকরণগত কোনও ভুল থাকলে&nbsp; F7 বোতাম প্রেস করার মাধ্যমে ভুল নির্ণয় করা যায়।</p><br/>",
+    "explanation": "<p>মাইক্রোসফট ওয়ার্ড বা কোনও অ্যাপ্লিকেশনে কিছু লেখার পর বানান ও ব্যাকরণগত কোনও ভুল থাকলে&nbsp; F7 বোতাম প্রেস করার মাধ্যমে ভুল নির্ণয় করা যায়।</p>",
     "hints": "📖To start a check of the spelling and grammar in your file just press F7",
     "subject": "সাধারণ বিজ্ঞান",
     "category": "ব্যাংক জবস",
@@ -1318,7 +1318,7 @@
       "logging in"
     ],
     "correct_answer": "authentication",
-    "explanation": "<p>কোন ব্যবহারকারী যখন কোন ওয়েব একাউন্টে লগইন করেন তখন তাকে প্রাইভেট ক্রেডেনশিয়াল হিসেবে লগইন আইডি ও পাসওয়ার্ড দিতে হয়। ব্রাউজার ব্যবহারকারীর প্রদত্ত তথ্য ডাটাবেজে সংরক্ষিত তথ্যের সাথে তুলনা করে যদি ব্যবহারকারীর প্রদত্ত তথ্য সঠিক ও নির্ভুল হয়, কেবল তখনই ব্যবহারকারীকে একাউন্ট ব্যবহারের অনুমতি দেওয়া হয় এই প্রক্রিয়াকে Authentication বলা হয়।</p><br/>",
+    "explanation": "<p>কোন ব্যবহারকারী যখন কোন ওয়েব একাউন্টে লগইন করেন তখন তাকে প্রাইভেট ক্রেডেনশিয়াল হিসেবে লগইন আইডি ও পাসওয়ার্ড দিতে হয়। ব্রাউজার ব্যবহারকারীর প্রদত্ত তথ্য ডাটাবেজে সংরক্ষিত তথ্যের সাথে তুলনা করে যদি ব্যবহারকারীর প্রদত্ত তথ্য সঠিক ও নির্ভুল হয়, কেবল তখনই ব্যবহারকারীকে একাউন্ট ব্যবহারের অনুমতি দেওয়া হয় এই প্রক্রিয়াকে Authentication বলা হয়।</p>",
     "hints": "📖Authentication is the process of recognizing a user's identity.<br/>Different systems may require different types of credentials to ascertain a user's identity.<br/>❏ The credential often takes the form of a user id and password, which is a secret and known only to the individual and the system.",
     "subject": "সাধারণ বিজ্ঞান",
     "category": "ব্যাংক জবস",

@@ -534,7 +534,7 @@
       "504"
     ],
     "correct_answer": "720",
-    "explanation": "The question askes you to select a 3 digit number. So we need to selct 3 digits from {1, 2, 3, 4, 5, 6, 7, 8, 9}.<br/><br/>Now number of ways we can select 1 digits = 9. Since there are 9 options to choose from!<br/>Now number of ways we can select 3 digits = <br/><br/>Now the above section contains digits like = 999, 888, 777 ..... they are not allowed (3-digit integers with all alike digits )<br/><br/><br/>So correct answer is 720",
+    "explanation": "The question askes you to select a 3 digit number. So we need to selct 3 digits from {1, 2, 3, 4, 5, 6, 7, 8, 9}.<br/><br/>Now number of ways we can select 1 digits = 9. Since there are 9 options to choose from!<br/>Now number of ways we can select 3 digits = <br/><br/>Now the above section contains digits like = 999, 888, 777 ..... they are not allowed (3-digit integers with all alike digits )<br/><br/>So correct answer is 720",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",

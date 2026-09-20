@@ -26,7 +26,7 @@
       "24xy"
     ],
     "correct_answer": "24xy",
-    "explanation": "<p>9x2+16y2</p><br/><p>=(3x)2+ 2.3x.4y+(4y)2</p><br/><p>=9x2+24xy+16x2&nbsp;</p><br/><p>&nbsp;এখানে 24xy মিসিং&nbsp; আছে যা যোগ করলে একটি পূর্ণবর্গ সংখ্যা হবে।&nbsp;</p><br/>তুমি জানতে চেয়েছো \"x² - 1/x² = 4\" সমীকরণের চলকের ঘাত কত?\"<br/><br/>চলকের ঘাত কী?<br/><br/>কোনো সমীকরণে চলক (x) এর যে সর্বোচ্চ মানের সূচক (power) থাকে, সেটাই চলকের ঘাত (Degree of the equation) বলে।<br/><br/>প্রদত্ত সমীকরণ:<br/><br/>x^2 - \frac{1}{x^2} = 4<br/><br/>এখানে দুটি চলক সম্পর্কিত পদ আছে:<br/><br/>1.  → এখানে  এর সূচক 2<br/><br/><br/>2.  → এটিকে লেখা যায় , যেখানে সূচক -2<br/><br/><br/><br/>চলকের সর্বোচ্চ ঘাত নির্ণয়:<br/><br/>একটি সমীকরণের ঘাত নির্ণয়ের জন্য শুধুমাত্র চলকের ধনাত্মক (positive) সূচকগুলোর মধ্যে সর্বোচ্চ মানটি নেওয়া হয়।<br/><br/> এর সূচক 2<br/><br/> এর সূচক -2 (নেতিবাচক, তাই আমরা এটা ধরি না)<br/><br/><br/>অতএব, চলকের সর্বোচ্চ ঘাত = 2<br/><br/>উত্তর:<br/><br/>এই সমীকরণের চলকের ঘাত 2।<br/><br/>",
+    "explanation": "<p>9x2+16y2</p><br/><p>=(3x)2+ 2.3x.4y+(4y)2</p><br/><p>=9x2+24xy+16x2&nbsp;</p><br/><p>&nbsp;এখানে 24xy মিসিং&nbsp; আছে যা যোগ করলে একটি পূর্ণবর্গ সংখ্যা হবে।&nbsp;</p><br/>তুমি জানতে চেয়েছো \"x² - 1/x² = 4\" সমীকরণের চলকের ঘাত কত?\"<br/><br/>চলকের ঘাত কী?<br/><br/>কোনো সমীকরণে চলক (x) এর যে সর্বোচ্চ মানের সূচক (power) থাকে, সেটাই চলকের ঘাত (Degree of the equation) বলে।<br/><br/>প্রদত্ত সমীকরণ:<br/><br/>x^2 - \frac{1}{x^2} = 4<br/><br/>এখানে দুটি চলক সম্পর্কিত পদ আছে:<br/><br/>1.  → এখানে  এর সূচক 2<br/><br/>2.  → এটিকে লেখা যায় , যেখানে সূচক -2<br/><br/>চলকের সর্বোচ্চ ঘাত নির্ণয়:<br/><br/>একটি সমীকরণের ঘাত নির্ণয়ের জন্য শুধুমাত্র চলকের ধনাত্মক (positive) সূচকগুলোর মধ্যে সর্বোচ্চ মানটি নেওয়া হয়।<br/><br/> এর সূচক 2<br/><br/> এর সূচক -2 (নেতিবাচক, তাই আমরা এটা ধরি না)<br/><br/>অতএব, চলকের সর্বোচ্চ ঘাত = 2<br/><br/>উত্তর:<br/><br/>এই সমীকরণের চলকের ঘাত 2।",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -213,7 +213,7 @@
       "৩৫০ টাকা"
     ],
     "correct_answer": "২৭৩ টাকা",
-    "explanation": "এখানে,<br/> * আসল (P) = ৬৫০ টাকা<br/> * মুনাফার হার (r) = ৭%<br/> * সময় (t) = ৬ বছর<br/>আমরা জানি, সরল মুনাফার সূত্র:<br/>মুনাফা (I) = (P * r * t) / ১০০<br/>অতএব,<br/>I = (৬৫০ * ৭ * ৬) / ১০০<br/>I = ২৭৩ টাকা<br/>সুতরাং, ৬৫০ টাকার ৬ বছরের মুনাফা ২৭৩ টাকা।<br/>",
+    "explanation": "এখানে,<br/> * আসল (P) = ৬৫০ টাকা<br/> * মুনাফার হার (r) = ৭%<br/> * সময় (t) = ৬ বছর<br/>আমরা জানি, সরল মুনাফার সূত্র:<br/>মুনাফা (I) = (P * r * t) / ১০০<br/>অতএব,<br/>I = (৬৫০ * ৭ * ৬) / ১০০<br/>I = ২৭৩ টাকা<br/>সুতরাং, ৬৫০ টাকার ৬ বছরের মুনাফা ২৭৩ টাকা।",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -298,7 +298,7 @@
       "-3, 4"
     ],
     "correct_answer": "-3, 4",
-    "explanation": "<p>x²−x−12 = 0</p><br/><p><span style=\"font-size: 1rem;\">= &gt; x²−4x + 3x−12 = 0</span></p><br/><p><span style=\"font-size: 1rem;\">= &gt; x(x−4) + 3(x−4) = 0</span></p><br/><p><span style=\"font-size: 1rem;\">= &gt;(x + 3)(x−4) = 0</span></p><br/><p><span style=\"font-size: 1rem;\">x + 3 = 0</span></p><br/><p><span style=\"font-size: 1rem;\">∴x = −3 or</span></p><br/><p><span style=\"font-size: 1rem;\">x - 4 = 0&nbsp;</span></p><br/><p><span style=\"font-size: 1rem;\">∴</span><span style=\"font-size: 1rem;\">x = 4</span></p><br/>",
+    "explanation": "<p>x²−x−12 = 0</p><br/><p><span style=\"font-size: 1rem;\">= &gt; x²−4x + 3x−12 = 0</span></p><br/><p><span style=\"font-size: 1rem;\">= &gt; x(x−4) + 3(x−4) = 0</span></p><br/><p><span style=\"font-size: 1rem;\">= &gt;(x + 3)(x−4) = 0</span></p><br/><p><span style=\"font-size: 1rem;\">x + 3 = 0</span></p><br/><p><span style=\"font-size: 1rem;\">∴x = −3 or</span></p><br/><p><span style=\"font-size: 1rem;\">x - 4 = 0&nbsp;</span></p><br/><p><span style=\"font-size: 1rem;\">∴</span><span style=\"font-size: 1rem;\">x = 4</span></p>",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -315,7 +315,7 @@
       "২৩ ²"
     ],
     "correct_answer": "১২ ²",
-    "explanation": "ধারাবাহী বিজোড় সংখ্যাগুলোর যোগফল বের করার একটি সাধারণ সূত্র আছে।<br/><br/>ধারাবাহিক বিজোড় সংখ্যাগুলোর যোগফল নির্ণয়ের সূত্র:<br/><br/>প্রথম  টি ধারাবাহিক বিজোড় সংখ্যার যোগফল হয়:<br/><br/>S = n^2<br/><br/>সূত্রটি কীভাবে কাজ করে?<br/><br/>প্রথম  টি ধারাবাহিক বিজোড় সংখ্যা হলো:<br/>1, 3, 5, 7, 9, ...<br/><br/>এখন, এগুলোর যোগফল দেখি:<br/><br/>প্রথম ১টি সংখ্যা:  <br/><br/>প্রথম ২টি সংখ্যা:  <br/><br/>প্রথম ৩টি সংখ্যা:  <br/><br/>প্রথম ৪টি সংখ্যা:  <br/><br/>প্রথম ৫টি সংখ্যা:  <br/><br/><br/>উদাহরণ:<br/><br/>প্রথম ১০টি ধারাবাহিক বিজোড় সংখ্যার যোগফল কত?<br/><br/>S = 10^2 = 100<br/><br/>উপসংহার:<br/><br/>প্রথম  টি ধারাবাহিক বিজোড় সংখ্যার যোগফল  সূত্র দিয়ে সহজেই বের করা যায়।<br/><br/>",
+    "explanation": "ধারাবাহী বিজোড় সংখ্যাগুলোর যোগফল বের করার একটি সাধারণ সূত্র আছে।<br/><br/>ধারাবাহিক বিজোড় সংখ্যাগুলোর যোগফল নির্ণয়ের সূত্র:<br/><br/>প্রথম  টি ধারাবাহিক বিজোড় সংখ্যার যোগফল হয়:<br/><br/>S = n^2<br/><br/>সূত্রটি কীভাবে কাজ করে?<br/><br/>প্রথম  টি ধারাবাহিক বিজোড় সংখ্যা হলো:<br/>1, 3, 5, 7, 9, ...<br/><br/>এখন, এগুলোর যোগফল দেখি:<br/><br/>প্রথম ১টি সংখ্যা:  <br/><br/>প্রথম ২টি সংখ্যা:  <br/><br/>প্রথম ৩টি সংখ্যা:  <br/><br/>প্রথম ৪টি সংখ্যা:  <br/><br/>প্রথম ৫টি সংখ্যা:  <br/><br/>উদাহরণ:<br/><br/>প্রথম ১০টি ধারাবাহিক বিজোড় সংখ্যার যোগফল কত?<br/><br/>S = 10^2 = 100<br/><br/>উপসংহার:<br/><br/>প্রথম  টি ধারাবাহিক বিজোড় সংখ্যার যোগফল  সূত্র দিয়ে সহজেই বের করা যায়।",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -434,7 +434,7 @@
       "Bright"
     ],
     "correct_answer": "Dull",
-    "explanation": "<p><p><br/></p><br/>Synonyms for \"effulgent\" include: radiant, luminous, resplendent, brilliant, gleaming, dazzling, shining, lustrous, beaming,</p><br/><p><br/></p><br/><p>while antonyms would be: dim, dull, murky, obscure, gloomy, drab, pale, subdued, lusterless. </p><br/>",
+    "explanation": "<p><br/>Synonyms for \"effulgent\" include: radiant, luminous, resplendent, brilliant, gleaming, dazzling, shining, lustrous, beaming,</p><br/><br/><p>while antonyms would be: dim, dull, murky, obscure, gloomy, drab, pale, subdued, lusterless. </p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -451,7 +451,7 @@
       "নির্ণয় করা সম্ভব না"
     ],
     "correct_answer": "সমকোণী ত্রিভুজ",
-    "explanation": "<p>যদি দুটি ছোট বাহুর বর্গক্ষেত্রের যোগফল তৃতীয় (বৃহত্তম) বাহুর বর্গক্ষেত্রের সমান হয়, তাহলে এটি একটি সমকোণী ত্রিভুজ!</p><br/><p><span style=\"font-size: 1rem;\">হ্যাঁ</span></p><br/><p><span style=\"font-size: 1rem;\">একটি ত্রিভুজকে সমকোণী ত্রিভুজ হতে হলে, এটিকে একটি উপপাদ্য (পিথাগোরাস উপপাদ্য) পূরণ করতে হবে।</span></p><br/><p><span style=\"font-size: 1rem;\">a² + b² = c² ; যেখানে c হলো ত্রিভুজের দীর্ঘতম বাহুর দৈর্ঘ্য এবং a, b হলো অন্য দুটি।</span></p><br/><p><span style=\"font-size: 1rem;\">এখানে, 5 হল দীর্ঘতম বাহুর দৈর্ঘ্য। এবং, আমরা স্পষ্ট দেখতে পাচ্ছি</span></p><br/><p><span style=\"font-size: 1rem;\">৫² = ৪² + ৩² = ২৫</span></p><br/><p><span style=\"font-size: 1rem;\">অতএব প্রদত্ত ত্রিভুজটি একটি সমকোণী ত্রিভুজ।</span></p><br/>",
+    "explanation": "<p>যদি দুটি ছোট বাহুর বর্গক্ষেত্রের যোগফল তৃতীয় (বৃহত্তম) বাহুর বর্গক্ষেত্রের সমান হয়, তাহলে এটি একটি সমকোণী ত্রিভুজ!</p><br/><p><span style=\"font-size: 1rem;\">হ্যাঁ</span></p><br/><p><span style=\"font-size: 1rem;\">একটি ত্রিভুজকে সমকোণী ত্রিভুজ হতে হলে, এটিকে একটি উপপাদ্য (পিথাগোরাস উপপাদ্য) পূরণ করতে হবে।</span></p><br/><p><span style=\"font-size: 1rem;\">a² + b² = c² ; যেখানে c হলো ত্রিভুজের দীর্ঘতম বাহুর দৈর্ঘ্য এবং a, b হলো অন্য দুটি।</span></p><br/><p><span style=\"font-size: 1rem;\">এখানে, 5 হল দীর্ঘতম বাহুর দৈর্ঘ্য। এবং, আমরা স্পষ্ট দেখতে পাচ্ছি</span></p><br/><p><span style=\"font-size: 1rem;\">৫² = ৪² + ৩² = ২৫</span></p><br/><p><span style=\"font-size: 1rem;\">অতএব প্রদত্ত ত্রিভুজটি একটি সমকোণী ত্রিভুজ।</span></p>",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -468,7 +468,7 @@
       "৪টি"
     ],
     "correct_answer": "৪টি",
-    "explanation": "<p>বাংলা বর্ণমালায় মাত্রাহীন বর্ণ ১০ টি। এর মধ্যে, মাত্রাহীন সরবর্ণ ৪ টি। যথাক্রমে : এ,ঐ,ও,ঔ।&nbsp; </p><br/><p>আর ব্যাঞ্জনবর্ণে মাত্রাহীন বর্ণ ৬ টি। যথাক্রমে : ঙ,ঞ,ৎ,ং,ঃ,ঁ।&nbsp;</p><br/>",
+    "explanation": "<p>বাংলা বর্ণমালায় মাত্রাহীন বর্ণ ১০ টি। এর মধ্যে, মাত্রাহীন সরবর্ণ ৪ টি। যথাক্রমে : এ,ঐ,ও,ঔ।&nbsp; </p><br/><p>আর ব্যাঞ্জনবর্ণে মাত্রাহীন বর্ণ ৬ টি। যথাক্রমে : ঙ,ঞ,ৎ,ং,ঃ,ঁ।&nbsp;</p>",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -502,7 +502,7 @@
       "নিরাপত্তা"
     ],
     "correct_answer": "নিরাপদ",
-    "explanation": "<p><p><span style=\"font-size: 1rem;\">কোনটি \\\"বিপন্ন\\\" শব্দের বিপরীত শব্দ?</span></p><br/><p><span style=\"font-size: 1rem;\"><br/></span><span style=\"font-size: 1rem;\">দখল</span></p><br/><p><span style=\"font-size: 1rem;\"><br/></span><span style=\"font-size: 1rem;\">পাহাড়</span></p><br/><u><i><b>নিরাপদ</b></i></u></p><br/><p><u><i><b><br/></b></i></u><br/>নিরাপত্তা</p><br/>",
+    "explanation": "<p><p><span style=\"font-size: 1rem;\">কোনটি \\\"বিপন্ন\\\" শব্দের বিপরীত শব্দ?</span></p><br/><p><span style=\"font-size: 1rem;\"><br/></span><span style=\"font-size: 1rem;\">দখল</span></p><br/><p><span style=\"font-size: 1rem;\"><br/></span><span style=\"font-size: 1rem;\">পাহাড়</span></p><br/><u><i><b>নিরাপদ</b></i></u></p><br/><p><u><i><b><br/></b></i></u><br/>নিরাপত্তা</p>",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -519,7 +519,7 @@
       "জাপান"
     ],
     "correct_answer": "জাপান",
-    "explanation": "<p>জাপান স্থায়ী সদস্য নয়</p><br/><p><br/></p><br/>জাপান স্থায়ী সদস্য নয়<br/><br/>জাপান স্থায়ী সদস্য নয়<br/><br/>জাপান স্থায়ী সদস্য নয়<br/><br/>",
+    "explanation": "<p>জাপান স্থায়ী সদস্য নয়</p><br/><br/>জাপান স্থায়ী সদস্য নয়<br/><br/>জাপান স্থায়ী সদস্য নয়<br/><br/>জাপান স্থায়ী সদস্য নয়",
     "hints": "",
     "subject": "সাধারণ জ্ঞান",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -553,7 +553,7 @@
       "টেক্সট এডিটর"
     ],
     "correct_answer": "অ্যান্টিভাইরাস",
-    "explanation": "<p>Antivirus কম্পিউটার কে ম্যালওয়্যার ও নানান ক্ষতি কর ভাইরাস&nbsp; থেকে রক্ষা করে</p><br/>",
+    "explanation": "<p>Antivirus কম্পিউটার কে ম্যালওয়্যার ও নানান ক্ষতি কর ভাইরাস&nbsp; থেকে রক্ষা করে</p>",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -587,7 +587,7 @@
       "৮৪ বর্গ সে.মি."
     ],
     "correct_answer": "৮১ বর্গ সে.মি.",
-    "explanation": "<p>ত্রিভুজের ক্ষেত্রফল = ১/২* ab*sin@</p><br/><p>a=36 semi, b=9 semi, @= 30degree</p><br/><p>=1/2*(36*9)*1/2</p><br/><p>=(36*9)/4</p><br/><p>=81 square semi.</p><br/>",
+    "explanation": "<p>ত্রিভুজের ক্ষেত্রফল = ১/২* ab*sin@</p><br/><p>a=36 semi, b=9 semi, @= 30degree</p><br/><p>=1/2*(36*9)*1/2</p><br/><p>=(36*9)/4</p><br/><p>=81 square semi.</p>",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -655,7 +655,7 @@
       "১৩ সে.মি."
     ],
     "correct_answer": "১৩ সে.মি.",
-    "explanation": "<p>আয়তক্ষেত্রের কণের্র&nbsp; দৈর্ঘ্য = √(দৈর্ঘ্য^২+প্রস্থ^২)</p><br/><p><br/></p><br/><p>বা =√(১২^২+৫^২)</p><br/><p>বা =√(১৪৪+২৫)</p><br/><p>বা =√(১৬৯)</p><br/><p>বা = ১৩ সে.মি.</p><br/>",
+    "explanation": "<p>আয়তক্ষেত্রের কণের্র&nbsp; দৈর্ঘ্য = √(দৈর্ঘ্য^২+প্রস্থ^২)</p><br/><br/><p>বা =√(১২^২+৫^২)</p><br/><p>বা =√(১৪৪+২৫)</p><br/><p>বা =√(১৬৯)</p><br/><p>বা = ১৩ সে.মি.</p>",
     "hints": "",
     "subject": "গাণিতিক যুক্তি",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -689,7 +689,7 @@
       "fewest"
     ],
     "correct_answer": "fewer",
-    "explanation": "<p>&nbsp;I have fewer friends than you.</p><br/><p>এখানে সঠিক উত্তর&nbsp; fewer বসবে।&nbsp;</p><br/>",
+    "explanation": "<p>&nbsp;I have fewer friends than you.</p><br/><p>এখানে সঠিক উত্তর&nbsp; fewer বসবে।&nbsp;</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -723,7 +723,7 @@
       "participate"
     ],
     "correct_answer": "participate",
-    "explanation": "<p>Verb+ing হলে এবং পূর্বে Determine হিসাবে A,An,The বসলে সাধারনত participle হয়।</p><br/><p></p>",
+    "explanation": "<p>Verb+ing হলে এবং পূর্বে Determine হিসাবে A,An,The বসলে সাধারনত participle হয়।</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -740,7 +740,7 @@
       "not sure"
     ],
     "correct_answer": "mark well",
-    "explanation": "<p>\"Nota bene\" means \" mark well\"&nbsp;</p><br/><p>So the right answer is mark well</p><br/>",
+    "explanation": "<p>\"Nota bene\" means \" mark well\"&nbsp;</p><br/><p>So the right answer is mark well</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -757,7 +757,7 @@
       "watered"
     ],
     "correct_answer": "are watered",
-    "explanation": "<p>এখানে passive করা হয়েছে।</p><br/><p>তাই The flowers are watered দিয়ে বাক্য টি পূর্ণ হবে</p><br/>",
+    "explanation": "<p>এখানে passive করা হয়েছে।</p><br/><p>তাই The flowers are watered দিয়ে বাক্য টি পূর্ণ হবে</p>",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -808,7 +808,7 @@
       "হরমুজ"
     ],
     "correct_answer": "জিব্রাল্টার",
-    "explanation": "<p>আফ্রিকা ও ইউরোপের মাঝামাঝি এই এলাকাটি ঐতিহাসিকভাবে অনেক আগে থেকেই আক্রমণ ও প্রতিরক্ষার কৌশলে গুরুত্বপূর্ণ ছিল। ৭১১ খ্রিষ্টাব্দে আরব সেনাপতি তারিক জিব্রাল্টার পাহাড়টি দখল করেন। এখানেই ঘাঁটি করে আক্রমণ চালান স্পেনের অন্যান্য এলাকায়। তার নাম থেকেই নাম থেকেই ‘জাবাল আল তারিক’ বা 'তারিকের পাহাড়' নামকরণ করা হয়। এই নামটি পরিবর্তিত হয়ে জিব্রাল্টার নামধারণ করেছে।</p><br/>",
+    "explanation": "<p>আফ্রিকা ও ইউরোপের মাঝামাঝি এই এলাকাটি ঐতিহাসিকভাবে অনেক আগে থেকেই আক্রমণ ও প্রতিরক্ষার কৌশলে গুরুত্বপূর্ণ ছিল। ৭১১ খ্রিষ্টাব্দে আরব সেনাপতি তারিক জিব্রাল্টার পাহাড়টি দখল করেন। এখানেই ঘাঁটি করে আক্রমণ চালান স্পেনের অন্যান্য এলাকায়। তার নাম থেকেই নাম থেকেই ‘জাবাল আল তারিক’ বা 'তারিকের পাহাড়' নামকরণ করা হয়। এই নামটি পরিবর্তিত হয়ে জিব্রাল্টার নামধারণ করেছে।</p>",
     "hints": "",
     "subject": "সাধারণ জ্ঞান",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -825,7 +825,7 @@
       "বিমান বিদ্যা"
     ],
     "correct_answer": "বিমান ঘাঁটি",
-    "explanation": "<p>এখানে উক্ত বাক্যের Aerodrome শব্দের পারিভাষিক শব্দ হচ্ছে \" বিমান ঘাটি\"</p><br/>",
+    "explanation": "<p>এখানে উক্ত বাক্যের Aerodrome শব্দের পারিভাষিক শব্দ হচ্ছে \" বিমান ঘাটি\"</p>",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "বিভিন্ন মন্ত্রণালয়",
@@ -842,7 +842,7 @@
       "যুক্তরাষ্ট্র"
     ],
     "correct_answer": "চীন",
-    "explanation": "<p>চীনের রাষ্ট্রপতি শি চিনফিং দ্বারা প্রস্তাবিত এ কাঠামো দেশসমূহ, বিশেষ করে গণপ্রজাতন্ত্রী চীন এবং প্রধান দুটি উপাদান- ভূমি-ভিত্তিক রেশম পথ অর্থনৈতিক বলয় (সিল্ক রোড ইকোনমিক বেল্ট) এবং সামুদ্রিক রেশম পথ নিয়ে গঠিত অবশিষ্ট ইউরেশিয়ার মধ্যে যোগাযোগ ও সহযোগিতার উপর গুরুত্ব দেয়।</p><br/>",
+    "explanation": "<p>চীনের রাষ্ট্রপতি শি চিনফিং দ্বারা প্রস্তাবিত এ কাঠামো দেশসমূহ, বিশেষ করে গণপ্রজাতন্ত্রী চীন এবং প্রধান দুটি উপাদান- ভূমি-ভিত্তিক রেশম পথ অর্থনৈতিক বলয় (সিল্ক রোড ইকোনমিক বেল্ট) এবং সামুদ্রিক রেশম পথ নিয়ে গঠিত অবশিষ্ট ইউরেশিয়ার মধ্যে যোগাযোগ ও সহযোগিতার উপর গুরুত্ব দেয়।</p>",
     "hints": "",
     "subject": "সাধারণ জ্ঞান",
     "category": "বিভিন্ন মন্ত্রণালয়",
