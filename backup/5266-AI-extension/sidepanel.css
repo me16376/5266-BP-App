@@ -1,4 +1,4 @@
-/* 5266 AI Assistant — Sidepanel Styling */
+/* 5266 AI Assistant — Modern Space-Optimized Sidepanel */
 
 * {
   box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hind Siliguri", "Noto Sans Bengali", sans-serif;
-  background-color: #f8fafc;
+  background-color: #ffffff;
   color: #0f172a;
   height: 100vh;
   display: flex;
@@ -16,84 +16,130 @@ body {
   overflow: hidden;
 }
 
-/* Header */
+/* Slim Glassmorphic Header (Only 42px tall) */
 .panel-header {
+  height: 42px;
+  min-height: 42px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 14px;
+  padding: 0 10px;
   background: #ffffff;
   border-bottom: 1px solid #e2e8f0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
-  z-index: 10;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  z-index: 100;
+  user-select: none;
 }
 
-.brand-info {
+.brand-section {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+  overflow: hidden;
+  flex: 1;
 }
 
-.brand-logo {
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
+.brand-badge {
   background: linear-gradient(135deg, #059669, #10b981);
   color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-weight: 800;
-  font-size: 0.8rem;
-  letter-spacing: -0.5px;
-  box-shadow: 0 2px 6px rgba(5, 150, 105, 0.25);
-}
-
-.brand-title {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #0f172a;
-  line-height: 1.2;
-}
-
-.brand-subtitle {
   font-size: 0.72rem;
-  color: #059669;
-  font-weight: 600;
-}
-
-.header-actions {
-  display: flex;
-  gap: 6px;
-}
-
-.icon-btn {
-  background: #f1f5f9;
-  border: 1px solid #e2e8f0;
+  letter-spacing: -0.3px;
+  padding: 2px 7px;
   border-radius: 6px;
-  width: 30px;
-  height: 30px;
+  flex-shrink: 0;
+}
+
+.active-question-snippet {
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: #475569;
+  gap: 6px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: #334155;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 190px;
   cursor: pointer;
   transition: all 0.15s ease;
 }
 
-.icon-btn:hover {
-  background: #e2e8f0;
+.active-question-snippet:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
   color: #0f172a;
 }
 
-/* MCQ Active Card */
-.mcq-card {
+.pulse-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #10b981;
+  flex-shrink: 0;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 4px rgba(16, 185, 129, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+/* Header Actions */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.action-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.action-btn:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+  border-color: #cbd5e1;
+}
+
+.action-btn.btn-send-accent {
+  background: #ecfdf5;
+  border-color: #a7f3d0;
+  color: #047857;
+}
+
+.action-btn.btn-send-accent:hover {
+  background: #d1fae5;
+  border-color: #6ee7b7;
+  color: #065f46;
+}
+
+/* Collapsible Detailed Drawer */
+.question-drawer {
   background: #ffffff;
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 2px solid #e2e8f0;
   padding: 12px 14px;
   animation: slideDown 0.2s ease-out;
-  max-height: 220px;
+  max-height: 260px;
   overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  z-index: 90;
 }
 
 @keyframes slideDown {
@@ -101,90 +147,49 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-.mcq-card-header {
+.drawer-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 8px;
 }
 
-.badge {
-  background: #ecfdf5;
-  color: #047857;
-  border: 1px solid #a7f3d0;
+.drawer-badge {
   font-size: 0.72rem;
   font-weight: 700;
+  color: #047857;
+  background: #ecfdf5;
   padding: 2px 8px;
   border-radius: 12px;
+  border: 1px solid #a7f3d0;
 }
 
-.text-btn {
+.drawer-close-btn {
   background: none;
   border: none;
   color: #64748b;
-  font-size: 0.76rem;
+  font-size: 0.74rem;
   cursor: pointer;
+  font-weight: 600;
 }
 
-.text-btn:hover {
+.drawer-close-btn:hover {
   color: #0f172a;
 }
 
-.mcq-question-text {
+.drawer-question {
   font-size: 0.88rem;
   font-weight: 600;
   color: #1e293b;
-  margin-bottom: 6px;
-  line-height: 1.4;
-}
-
-.mcq-options-list {
-  font-size: 0.8rem;
-  color: #475569;
-  margin-bottom: 10px;
   line-height: 1.5;
+  margin-bottom: 8px;
 }
 
-.mcq-actions {
-  display: flex;
-  gap: 8px;
-}
-
-.btn-primary {
-  flex: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  background: #059669;
-  color: #ffffff;
-  border: none;
-  border-radius: 6px;
-  padding: 8px 12px;
+.drawer-options {
   font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.15s ease;
-}
-
-.btn-primary:hover {
-  background: #047857;
-}
-
-.btn-secondary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  background: #f1f5f9;
-  color: #334155;
-  border: 1px solid #cbd5e1;
-  border-radius: 6px;
-  padding: 8px 12px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.15s ease;
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 4px;
 }
 
 .btn-secondary:hover {
@@ -192,20 +197,38 @@ body {
   color: #0f172a;
 }
 
-.copy-success {
-  margin-top: 6px;
-  font-size: 0.76rem;
-  color: #059669;
+/* Toast Notification */
+.toast-popup {
+  position: fixed;
+  top: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0f172a;
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
   font-weight: 600;
-  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 200;
+  pointer-events: none;
+  animation: fadeInOut 2.5s forwards;
 }
 
-/* Gemini Iframe Container */
-.frame-container {
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translate(-50%, -6px); }
+  15% { opacity: 1; transform: translate(-50%, 0); }
+  85% { opacity: 1; transform: translate(-50%, 0); }
+  100% { opacity: 0; transform: translate(-50%, -6px); }
+}
+
+/* Gemini Frame (Occupies Full Height!) */
+.gemini-container {
   flex: 1;
   position: relative;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 #geminiFrame {
@@ -213,9 +236,10 @@ body {
   height: 100%;
   border: none;
   background: #ffffff;
+  display: block;
 }
 
-/* Fallback message */
+/* Fallback Card */
 .frame-fallback {
   position: absolute;
   inset: 0;
@@ -223,33 +247,33 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px;
+  padding: 20px;
 }
 
-.fallback-box {
+.fallback-card {
   background: #ffffff;
-  padding: 24px;
+  padding: 22px;
   border-radius: 12px;
   border: 1px solid #e2e8f0;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-  max-width: 320px;
+  max-width: 300px;
 }
 
 .fallback-icon {
   font-size: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
-.fallback-box h3 {
-  font-size: 1rem;
+.fallback-card h3 {
+  font-size: 0.95rem;
   font-weight: 700;
   color: #0f172a;
   margin-bottom: 6px;
 }
 
-.fallback-box p {
-  font-size: 0.82rem;
+.fallback-card p {
+  font-size: 0.8rem;
   color: #64748b;
   line-height: 1.5;
 }

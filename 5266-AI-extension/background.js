@@ -19,34 +19,48 @@ chrome.action.onClicked.addListener((tab) => {
   }
 });
 
-// Helper: Format MCQ prompt in Bengali
+// Helper: Clean raw text from HTML, LaTeX and tags
+function cleanText(str) {
+  if (!str || typeof str !== 'string') return '';
+  return str
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/p>/gi, '\n')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;/g, "'")
+    .replace(/\$\$([\s\S]*?)\$\$/g, '$1')
+    .replace(/\\\[([\s\S]*?)\\\]/g, '$1')
+    .replace(/\\\(([\s\S]*?)\\\)/g, '$1')
+    .replace(/(^|[^\\])\$([^\$\r\n]+?)\$/g, '$1$2')
+    .replace(/```[a-zA-Z0-9_\-\+]*\n([\s\S]*?)```/g, '$1')
+    .replace(/`([^`\r\n]+)`/g, '$1')
+    .trim();
+}
+
+// Helper: Format MCQ prompt in Bengali (Only Question & Options, prefixed with 5266-bp-app for persistent chat naming)
 function formatBengaliPrompt(mcq) {
-  const qText = mcq.question || mcq.question_text || '';
-  const options = mcq.options || [];
-  const correctAns = mcq.correct_answer || mcq.answer || '';
-  const officialExpl = mcq.explanation || '';
+  const qText = cleanText(mcq.question || mcq.question_text || '');
+  const options = Array.isArray(mcq.options) ? mcq.options.map(cleanText) : [];
   
   const optionLabels = ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
   let optionsText = '';
-  if (Array.isArray(options) && options.length > 0) {
+  if (options.length > 0) {
     optionsText = options.map((opt, i) => `${optionLabels[i] || (i + 1)}) ${opt}`).join('\n');
   }
 
-  let prompt = `অনুগ্রহ করে নিচের চাকরির পরীক্ষার MCQ প্রশ্নটি বিশদভাবে বিশ্লেষণ করে বাংলায় সহজবোধ্য ব্যাখ্যা দিন:\n\n`;
+  let prompt = `【5266-bp-app】MCQ সমাধান ও বিশ্লেষণ:\n\n`;
   prompt += `📌 প্রশ্ন:\n${qText}\n\n`;
   if (optionsText) {
-    prompt += `বিকল্প অপশনসমূহ:\n${optionsText}\n\n`;
+    prompt += `অপশনসমূহ:\n${optionsText}\n\n`;
   }
-  if (correctAns) {
-    prompt += `💡 অফিসিয়াল সঠিক উত্তর: ${correctAns}\n\n`;
-  }
-  if (officialExpl) {
-    prompt += `নোট/সূত্র: ${officialExpl}\n\n`;
-  }
-  prompt += `দয়া করে নিচের পয়েন্টগুলো ক্রমানুসারে বুঝিয়ে দিন:\n`;
-  prompt += `১. সঠিক উত্তরটি কেন সঠিক? (উৎস ও প্রমাণসহ)\n`;
-  prompt += `২. অন্যান্য বিকল্পগুলো কেন সঠিক নয় বা তাদের সাথে সম্পর্কিত গুরুত্বপূর্ণ তথ্যসমূহ কী?\n`;
-  prompt += `৩. এই বিষয়ে ভবিষ্যতে পরীক্ষায় আসার মতো সম্পর্কিত শর্টকাট কৌশল ও মনে রাখার টিপস।`;
+  prompt += `দয়া করে বুঝিয়ে দিন:\n`;
+  prompt += `১. সঠিক উত্তরটি কোনটি এবং কেন সঠিক? (বিশদ সমাধান ও প্রমাণসহ)\n`;
+  prompt += `২. অন্যান্য অপশনগুলো কেন ভুল বা তাদের প্রাসঙ্গিক গুরুত্বপূর্ণ তথ্য কী?\n`;
+  prompt += `৩. ভবিষ্যতে পরীক্ষায় মনে রাখার সহজ টেকনিক ও শর্টকাট কৌশল।`;
 
   return prompt;
 }
@@ -60,10 +74,12 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     const payload = message.payload || {};
     const formattedPrompt = formatBengaliPrompt(payload);
 
-    // Save to storage for sidepanel and tabs
+    // Save to storage for sidepanel and tabs (triggers storage.onChanged immediately)
     chrome.storage.local.set({
       currentMCQ: payload,
       currentPrompt: formattedPrompt,
+      promptTrigger: Date.now(),
+      autoSubmitPending: true,
       updatedAt: Date.now()
     }, () => {
       // Open Sidepanel for the sender's window
@@ -73,12 +89,27 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         });
       }
 
-      // Broadcast to any open sidepanel UI
-      chrome.runtime.sendMessage({
+      function safeBroadcast(msg) {
+        try {
+          chrome.runtime.sendMessage(msg, () => {
+            if (chrome.runtime.lastError) {
+              // Intentionally suppressed when sidepanel or receiver is not active
+            }
+          });
+        } catch (e) {}
+      }
+
+      // Broadcast to sidepanel UI and Gemini frame
+      safeBroadcast({
         type: 'NEW_MCQ_LOADED',
         payload: payload,
         prompt: formattedPrompt
-      }).catch(() => {});
+      });
+
+      safeBroadcast({
+        type: 'EXECUTE_GEMINI_PROMPT',
+        prompt: formattedPrompt
+      });
 
       sendResponse({ status: 'ok', prompt: formattedPrompt });
     });
@@ -86,7 +117,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     return true; // async sendResponse
   }
 
-  // From Sidepanel: Send prompt directly to a Gemini Tab
+  // From Sidepanel or Menu: Open full Gemini Tab if user explicitly requested
   if (message.type === 'OPEN_OR_SEND_TO_GEMINI_TAB') {
     const promptToSend = message.prompt;
 
@@ -101,9 +132,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         });
         sendResponse({ status: 'sent_to_existing_tab', tabId: targetTab.id });
       } else {
-        // Create new Gemini tab
         chrome.tabs.create({ url: 'https://gemini.google.com/app' }, (newTab) => {
-          // Listen for tab load completion
           const listener = (tabId, info) => {
             if (tabId === newTab.id && info.status === 'complete') {
               chrome.tabs.onUpdated.removeListener(listener);

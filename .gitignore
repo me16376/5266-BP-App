@@ -15,6 +15,7 @@ dist/
 *.db.enc
 *.xapk
 *.zip
+!backup/*.zip
 quiz_on_the_go.db
 quiz_on_the_go_decrypted.db
 app_session_pending.db

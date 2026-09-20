@@ -53,16 +53,39 @@ export default function QuestionCard({
     setBookmarked(newState);
   };
 
+  const cleanText = (str) => {
+    if (!str || typeof str !== 'string') return '';
+    return str
+      .replace(/<br\s*\/?>/gi, '\n')
+      .replace(/<\/p>/gi, '\n')
+      .replace(/<[^>]+>/g, '')
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#039;/g, "'")
+      .replace(/\$\$([\s\S]*?)\$\$/g, '$1')
+      .replace(/\\\[([\s\S]*?)\\\]/g, '$1')
+      .replace(/\\\(([\s\S]*?)\\\)/g, '$1')
+      .replace(/(^|[^\\])\$([^\$\r\n]+?)\$/g, '$1$2')
+      .replace(/```[a-zA-Z0-9_\-\+]*\n([\s\S]*?)```/g, '$1')
+      .replace(/`([^`\r\n]+)`/g, '$1')
+      .trim();
+  };
+
   const handleAskAI = () => {
     if (typeof window !== 'undefined') {
+      const qText = cleanText(question.question_text || question.question || '');
+      const cleanOpts = Array.isArray(question.options) ? question.options.map(cleanText) : [];
+
       window.postMessage({
         type: '5266_ASK_AI',
         payload: {
-          question: question.question_text || question.question || '',
-          options: question.options || [],
-          correct_answer: question.correct_answer || '',
-          explanation: question.explanation || '',
-          hints: question.hints || ''
+          question: qText,
+          options: cleanOpts,
+          subject: question.subject || '',
+          exam: question.exam || ''
         }
       }, '*');
 
@@ -77,26 +100,8 @@ export default function QuestionCard({
   };
 
   const handleCopyQuestion = () => {
-    const cleanText = (str) => {
-      if (!str || typeof str !== 'string') return '';
-      return str
-        .replace(/<br\s*\/?>/gi, '\n')
-        .replace(/<\/p>/gi, '\n')
-        .replace(/<[^>]+>/g, '')
-        .replace(/\$\$([\s\S]*?)\$\$/g, '$1')
-        .replace(/\\\[([\s\S]*?)\\\]/g, '$1')
-        .replace(/\\\(([\s\S]*?)\\\)/g, '$1')
-        .replace(/(^|[^\\])\$([^\$\r\n]+?)\$/g, '$1$2')
-        .replace(/```[a-zA-Z0-9_\-\+]*\n([\s\S]*?)```/g, '$1')
-        .replace(/`([^`\r\n]+)`/g, '$1')
-        .trim();
-    };
-
-    const text = `${cleanText(question.question)}\n` +
-      question.options.map((o, i) => `(${OPTION_LABELS[i] || i+1}) ${cleanText(o)}`).join('\n') +
-      `\nউত্তর: ${cleanText(question.correct_answer)}` +
-      (question.explanation ? `\nব্যাখ্যা: ${cleanText(question.explanation)}` : '') +
-      (question.hints ? `\nশর্টকাট নোট: ${cleanText(question.hints)}` : '');
+    const text = `${cleanText(question.question || question.question_text)}\n` +
+      question.options.map((o, i) => `${OPTION_LABELS[i] || i+1}) ${cleanText(o)}`).join('\n');
 
     navigator.clipboard.writeText(text);
     setCopied(true);
