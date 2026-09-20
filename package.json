@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pages:deploy": "next build && npx wrangler pages deploy out --project-name 5266-bp-app --commit-dirty=true"
   },
   "dependencies": {
     "bijoy2unicode": "^1.0.2",

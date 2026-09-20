@@ -29,6 +29,7 @@ export default function QuestionCard({
   const [showExplanation, setShowExplanation] = useState(mode === 'read');
   const [bookmarked, setBookmarked] = useState(() => isBookmarked(question.id));
   const [copied, setCopied] = useState(false);
+  const [aiNotice, setAiNotice] = useState(false);
 
   const activeSelection = mode === 'exam' ? selectedOption : localSelected;
   const isPractice = mode === 'practice';
@@ -50,6 +51,29 @@ export default function QuestionCard({
   const handleBookmarkToggle = () => {
     const newState = toggleBookmark(question);
     setBookmarked(newState);
+  };
+
+  const handleAskAI = () => {
+    if (typeof window !== 'undefined') {
+      window.postMessage({
+        type: '5266_ASK_AI',
+        payload: {
+          question: question.question_text || question.question || '',
+          options: question.options || [],
+          correct_answer: question.correct_answer || '',
+          explanation: question.explanation || '',
+          hints: question.hints || ''
+        }
+      }, '*');
+
+      const isExtInstalled = typeof document !== 'undefined' &&
+        document.documentElement.getAttribute('data-5266-extension-installed') === 'true';
+
+      if (!isExtInstalled) {
+        setAiNotice(true);
+        setTimeout(() => setAiNotice(false), 6000);
+      }
+    }
   };
 
   const handleCopyQuestion = () => {
@@ -258,28 +282,75 @@ export default function QuestionCard({
         })}
       </div>
 
-      {/* Toggle Explanation Button (if practice or read) */}
-      {(isPractice || isRead || showResult) && (question.explanation || question.hints) && (
-        <button
-          onClick={() => setShowExplanation(!showExplanation)}
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '6px',
-            background: 'transparent',
-            border: 'none',
-            color: 'var(--emerald-600)',
-            fontWeight: 700,
-            fontSize: '0.88rem',
-            cursor: 'pointer',
-            padding: '4px 0',
-            marginTop: '8px'
-          }}
-        >
-          <BookOpen size={16} />
-          <span>{showExplanation ? 'ব্যাখ্যা লুকান' : 'বিস্তারিত ব্যাখ্যা ও নোট দেখুন'}</span>
-          {showExplanation ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
-        </button>
+      {/* Explanation & 5266 AI Explainer Action Bar */}
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginTop: '10px' }}>
+        {(isPractice || isRead || showResult) && (question.explanation || question.hints) ? (
+          <button
+            onClick={() => setShowExplanation(!showExplanation)}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              background: 'transparent',
+              border: 'none',
+              color: 'var(--emerald-600)',
+              fontWeight: 700,
+              fontSize: '0.88rem',
+              cursor: 'pointer',
+              padding: '4px 0'
+            }}
+          >
+            <BookOpen size={16} />
+            <span>{showExplanation ? 'ব্যাখ্যা লুকান' : 'বিস্তারিত ব্যাখ্যা ও নোট দেখুন'}</span>
+            {showExplanation ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+          </button>
+        ) : <div />}
+
+        {/* 5266 AI Assistant Trigger Button */}
+        {(isPractice || isRead || showResult) && (
+          <button
+            onClick={handleAskAI}
+            title="5266 AI Assistant দিয়ে গুগল জেমিনিতে তাৎক্ষণিক ব্যাখ্যা পান"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              padding: '5px 12px',
+              borderRadius: '8px',
+              background: '#ecfdf5',
+              border: '1px solid #a7f3d0',
+              color: '#047857',
+              fontSize: '0.82rem',
+              fontWeight: 700,
+              cursor: 'pointer',
+              transition: 'all 0.2s ease',
+              marginLeft: 'auto'
+            }}
+          >
+            <Sparkles size={14} color="#059669" />
+            <span>5266 AI ব্যাখ্যা</span>
+          </button>
+        )}
+      </div>
+
+      {/* Extension Info Notice if extension not yet loaded */}
+      {aiNotice && (
+        <div style={{
+          marginTop: '8px',
+          padding: '9px 14px',
+          borderRadius: '8px',
+          background: '#ecfdf5',
+          border: '1px solid #a7f3d0',
+          color: '#065f46',
+          fontSize: '0.82rem',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: '10px'
+        }}>
+          <span>✨ <strong>5266 AI Assistant</strong> এক্সটেনশনটি ব্রাউজারে চালু থাকলে স্বয়ংক্রিয়ভাবে জেমিনি সাইড প্যানেলে এর ব্যাখ্যা চলে আসবে!</span>
+          <button onClick={() => setAiNotice(false)} style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: '#047857', fontWeight: 700, fontSize: '0.9rem' }}>✕</button>
+        </div>
       )}
 
       {/* Expanded Explanation Section */}
