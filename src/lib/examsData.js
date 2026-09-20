@@ -30,16 +30,40 @@ export function cleanExamTitle(title) {
 
 export async function getExamBySlug(slugOrId) {
   const catalog = await getExamsCatalog();
-  const search = typeof slugOrId === 'string' ? decodeURIComponent(slugOrId).toLowerCase().trim() : '';
-  const searchClean = cleanExamTitle(search).toLowerCase();
-  const exam = catalog.exams.find(e => 
-    e.slug === slugOrId || 
-    e.id === slugOrId || 
-    e.slug.toLowerCase() === search ||
-    e.title.toLowerCase() === search ||
-    cleanExamTitle(e.title).toLowerCase() === searchClean ||
-    (e.clean_filename && e.clean_filename.toLowerCase() === search)
-  );
+  if (!slugOrId || !catalog?.exams) return null;
+  const raw = String(slugOrId).trim();
+  let decoded = raw;
+  try {
+    decoded = decodeURIComponent(raw).trim();
+  } catch (e) {
+    decoded = raw;
+  }
+  const searchLower = decoded.toLowerCase();
+  const searchClean = cleanExamTitle(decoded).toLowerCase();
+
+  // 1. Exact match on slug or id (highest priority)
+  let exam = catalog.exams.find(e => e.slug === raw || e.slug === decoded || e.id === raw);
+
+  // 2. Case-insensitive slug match
+  if (!exam) {
+    exam = catalog.exams.find(e => e.slug && e.slug.toLowerCase() === searchLower);
+  }
+
+  // 3. Exact or case-insensitive title match
+  if (!exam) {
+    exam = catalog.exams.find(e => e.title && e.title.toLowerCase() === searchLower);
+  }
+
+  // 4. Cleaned title match
+  if (!exam) {
+    exam = catalog.exams.find(e => cleanExamTitle(e.title).toLowerCase() === searchClean);
+  }
+
+  // 5. Clean filename match
+  if (!exam) {
+    exam = catalog.exams.find(e => e.clean_filename && e.clean_filename.toLowerCase() === searchLower);
+  }
+
   if (exam) {
     return {
       ...exam,
