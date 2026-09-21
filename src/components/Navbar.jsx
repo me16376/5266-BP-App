@@ -111,7 +111,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav style={{ display: 'none', alignItems: 'center', gap: '6px' }} className="desktop-nav">
+        <nav className="desktop-nav" style={{ alignItems: 'center', gap: '6px' }}>
           {/* Home */}
           <Link
             href="/"

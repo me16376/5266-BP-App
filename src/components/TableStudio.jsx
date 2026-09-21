@@ -172,23 +172,7 @@ export default function TableStudio() {
     return BANGLA_FONTS.find(f => f.id === selectedFontId) || BANGLA_FONTS[0];
   }, [selectedFontId]);
 
-  // Ensure all Bangla web font stylesheets are injected into document.head
-  useEffect(() => {
-    if (typeof document === 'undefined') return;
-    const fontUrls = [
-      'https://fonts.maateen.me/kalpurush/font.css',
-      'https://fonts.maateen.me/solaiman-lipi/font.css',
-      'https://fonts.maateen.me/nikosh/font.css'
-    ];
-    fontUrls.forEach(url => {
-      if (!document.querySelector(`link[href="${url}"]`)) {
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = url;
-        document.head.appendChild(link);
-      }
-    });
-  }, []);
+
 
   // Convert Docx HTML text nodes from Bijoy (ANSI) to Unicode
   const convertDocxHtmlToUnicode = (html) => {

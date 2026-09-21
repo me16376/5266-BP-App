@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300;400;500;600;700&family=Noto+Sans+Bengali:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;600;700&family=Tiro+Bangla&family=Inter:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.maateen.me/kalpurush/font.css');
-@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
-@import url('https://fonts.maateen.me/nikosh/font.css');
+/* Core Navigation Layout (Zero layout shift on SSR and hydration) */
+.desktop-nav {
+  display: none;
+}
+.mobile-menu-btn {
+  display: flex;
+}
+@media (min-width: 900px) {
+  .desktop-nav {
+    display: flex !important;
+  }
+  .mobile-menu-btn {
+    display: none !important;
+  }
+}
 
 /* Direct fallback @font-face declarations for high reliability across print & embedded frames */
 @font-face {

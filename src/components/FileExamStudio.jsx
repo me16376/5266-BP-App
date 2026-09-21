@@ -504,23 +504,7 @@ export default function FileExamStudio({ initialExamSlug = null }) {
   const [testResult, setTestResult] = useState(null);
   const [showExplanationCard, setShowExplanationCard] = useState({}); // For practice mode
 
-  // Ensure font stylesheets are dynamically loaded into document.head
-  useEffect(() => {
-    if (typeof document === 'undefined') return;
-    const fontUrls = [
-      'https://fonts.maateen.me/kalpurush/font.css',
-      'https://fonts.maateen.me/solaiman-lipi/font.css',
-      'https://fonts.maateen.me/nikosh/font.css'
-    ];
-    fontUrls.forEach(url => {
-      if (!document.querySelector(`link[href="${url}"]`)) {
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = url;
-        document.head.appendChild(link);
-      }
-    });
-  }, []);
+
 
   // Handle URL pre-loaded exam if query param is passed
   useEffect(() => {
