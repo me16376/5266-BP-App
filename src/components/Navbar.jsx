@@ -179,6 +179,8 @@ export default function Navbar() {
                 borderRadius: '8px',
                 fontSize: '0.92rem',
                 fontWeight: 600,
+                fontFamily: 'inherit',
+                lineHeight: 1.5,
                 color: isToolsActive ? '#047857' : '#475569',
                 background: isToolsActive ? '#ecfdf5' : toolsDropdownOpen ? '#f8fafc' : 'transparent',
                 border: isToolsActive ? '1px solid #a7f3d0' : '1px solid transparent',
@@ -689,6 +691,7 @@ export default function Navbar() {
                 cursor: 'pointer',
                 fontSize: '0.95rem',
                 fontWeight: 600,
+                fontFamily: 'inherit',
                 color: isToolsActive ? '#047857' : '#1e293b'
               }}
             >
