@@ -557,3 +557,8 @@ a {
     display: inline-flex !important;
   }
 }
+
+/* Search autocomplete hover */
+.search-item-hover:hover {
+  background: #f1f5f9;
+}

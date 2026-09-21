@@ -352,11 +352,7 @@ export default function HomePage() {
 
 
 
-      <style jsx>{`
-        .search-item-hover:hover {
-          background: #f1f5f9;
-        }
-      `}</style>
+
     </div>
   );
 }

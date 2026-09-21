@@ -11,8 +11,6 @@
   },
   "dependencies": {
     "bijoy2unicode": "^1.0.2",
-    "frida": "^17.17.0",
-    "frida-java-bridge": "^7.0.13",
     "jszip": "^3.10.1",
     "katex": "^0.18.7",
     "lucide-react": "^1.41.0",
@@ -23,7 +21,5 @@
     "sql.js": "^1.14.2",
     "xlsx": "^0.18.5"
   },
-  "devDependencies": {
-    "frida-compile": "^19.0.5"
-  }
+  "devDependencies": {}
 }
