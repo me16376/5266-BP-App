@@ -28,8 +28,10 @@ import QuestionCard from '../../../components/QuestionCard';
 import ResultModal from '../../../components/ResultModal';
 import { loadExamQuestions, getExamsCatalog, cleanExamTitle } from '../../../lib/examsData';
 import { saveTestResult } from '../../../lib/storage';
+import { useAuth } from '../../../lib/authContext';
 
 function ModelTestContent() {
+  const { user, loading: authLoading, logout } = useAuth();
   const searchParams = useSearchParams();
   const router = useRouter();
   const examSlug = searchParams.get('exam');
@@ -46,9 +48,14 @@ function ModelTestContent() {
   const [mobilePaletteOpen, setMobilePaletteOpen] = useState(false);
   const [negativeMarkRate, setNegativeMarkRate] = useState(0.5); // Default 0.5 for BCS
 
+  const isOwner = user?.role === 'owner';
+  const isAdmin = user?.role === 'admin';
+  const isApprovedUser = user?.status === 'approved';
+  const isAuthorized = isOwner || isAdmin || isApprovedUser;
+
   // Load exam questions
   useEffect(() => {
-    if (!examSlug) {
+    if (!examSlug || !isAuthorized) {
       setLoading(false);
       return;
     }
@@ -68,7 +75,7 @@ function ModelTestContent() {
       console.error('Error loading exam questions:', err);
       setLoading(false);
     });
-  }, [examSlug]);
+  }, [examSlug, isAuthorized]);
 
   // Handle option selection
   const handleSelectOption = (qIndex, option) => {
@@ -155,7 +162,203 @@ function ModelTestContent() {
     return Math.max(15, Math.ceil(questions.length * 0.7));
   }, [questions]);
 
-  // If no exam selected (Show notice to pick from job solutions page)
+  // 1. Loading State while checking auth
+  if (authLoading) {
+    return (
+      <div style={{ padding: '100px 20px', minHeight: '65vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div className="glass-panel" style={{ padding: '24px 36px', display: 'inline-flex', alignItems: 'center', gap: '14px', background: '#ffffff' }}>
+          <i className="fa-solid fa-circle-notch fa-spin" style={{ color: 'var(--emerald-600)', fontSize: '1.4rem' }}></i>
+          <span style={{ fontSize: '1rem', color: '#0f172a', fontWeight: 600 }}>ব্যবহারকারীর অ্যাকাউন্ট যাচাই করা হচ্ছে...</span>
+        </div>
+      </div>
+    );
+  }
+
+  // 2. Unauthenticated: User is not logged in
+  if (!user) {
+    return (
+      <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div className="glass-panel" style={{
+          maxWidth: '620px',
+          width: '100%',
+          padding: '48px 32px',
+          textAlign: 'center',
+          background: '#ffffff',
+          borderRadius: '24px',
+          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.08)',
+          border: '1px solid var(--border-subtle)'
+        }}>
+          <div style={{
+            width: '84px',
+            height: '84px',
+            borderRadius: '50%',
+            background: 'linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%)',
+            border: '2px solid #fde68a',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            margin: '0 auto 24px',
+            boxShadow: '0 8px 24px rgba(245, 158, 11, 0.15)'
+          }}>
+            <i className="fa-solid fa-lock" style={{ fontSize: '2.4rem', color: '#d97706' }}></i>
+          </div>
+
+          <span className="badge badge-amber" style={{ marginBottom: '14px', padding: '6px 16px', fontSize: '0.84rem' }}>
+            <i className="fa-solid fa-shield-halved" style={{ marginRight: '6px' }}></i> অ্যাক্সেস সীমাবদ্ধ
+          </span>
+
+          <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a', marginBottom: '14px', lineHeight: 1.3 }}>
+            মডেল টেস্ট দিতে লগইন প্রয়োজন
+          </h2>
+
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '28px' }}>
+            টাইমার ও নেগেটিভ মার্কিং সহ লাইভ মডেল টেস্ট দিতে অনুগ্রহ করে লগইন করুন। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong> বা <strong>অ্যাডমিনিস্ট্রেটর</strong> ছাড়া এই পেজটি দেখা যাবে না।
+          </p>
+
+          <div style={{
+            background: '#f8fafc',
+            border: '1px solid #e2e8f0',
+            borderRadius: '14px',
+            padding: '18px 20px',
+            textAlign: 'left',
+            marginBottom: '28px',
+            fontSize: '0.9rem',
+            color: '#334155'
+          }}>
+            <div style={{ fontWeight: 700, color: '#0f172a', marginBottom: '8px' }}>
+              <i className="fa-solid fa-circle-check" style={{ color: 'var(--emerald-600)', marginRight: '8px' }}></i>
+              অনুমোদিত অ্যাকাউন্টে যে সুবিধাসমূহ উন্মুক্ত হবে:
+            </div>
+            <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '6px' }}>
+              <li>• ২,১৫৪টি বিসিএস, ব্যাংক, শিক্ষক ও সরকারি চাকরির লাইভ মডেল টেস্ট</li>
+              <li>• পরীক্ষা ভিত্তিক সঠিক সময় নির্ধারণ ও কাউন্টডাউন টাইমার</li>
+              <li>• স্বয়ংক্রিয় ভুল উত্তরের নেগেটিভ মার্কিং ও বিস্তারিত স্কোরশিট</li>
+            </ul>
+          </div>
+
+          <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <Link
+              href="/profile"
+              className="btn-primary"
+              style={{ padding: '13px 28px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+            >
+              <i className="fa-solid fa-right-to-bracket"></i>
+              <span>লগইন বা সাইন আপ করুন</span>
+            </Link>
+
+            <Link
+              href="/"
+              className="btn-secondary"
+              style={{ padding: '13px 24px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+            >
+              <i className="fa-solid fa-house"></i>
+              <span>হোম পেজে ফিরে যান</span>
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // 3. User logged in, but not approved (pending / suspended)
+  if (user && !isAuthorized) {
+    return (
+      <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div className="glass-panel" style={{
+          maxWidth: '620px',
+          width: '100%',
+          padding: '48px 32px',
+          textAlign: 'center',
+          background: '#ffffff',
+          borderRadius: '24px',
+          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.08)',
+          border: '1px solid #fed7aa'
+        }}>
+          <div style={{
+            width: '84px',
+            height: '84px',
+            borderRadius: '50%',
+            background: '#fffbeb',
+            border: '2px solid #fde68a',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            margin: '0 auto 24px',
+            boxShadow: '0 8px 24px rgba(245, 158, 11, 0.15)'
+          }}>
+            <i className="fa-solid fa-hourglass-half" style={{ fontSize: '2.4rem', color: '#d97706' }}></i>
+          </div>
+
+          <span className="badge badge-amber" style={{ marginBottom: '14px', padding: '6px 16px', fontSize: '0.84rem' }}>
+            <i className="fa-solid fa-clock" style={{ marginRight: '6px' }}></i> অ্যাকাউন্টের অনুমোদন বাকি
+          </span>
+
+          <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a', marginBottom: '14px', lineHeight: 1.3 }}>
+            আপনার অ্যাকাউন্টটি এখনো অনুমোদিত হয়নি
+          </h2>
+
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '24px' }}>
+            প্রিয় <strong>{user.name}</strong>, আপনার অ্যাকাউন্টটি বর্তমানে পর্যালোচনার অধীনে রয়েছে। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong> বা <strong>অ্যাডমিনিস্ট্রেটর</strong> ছাড়া এই পেজটি দেখা যাবে না। সিস্টেম অ্যাডমিন অনুমোদন সম্পন্ন করার পর আপনি মডেল টেস্টে অংশগ্রহণ করতে পারবেন।
+          </p>
+
+          <div style={{
+            background: '#fffbeb',
+            border: '1px solid #fef3c7',
+            borderRadius: '14px',
+            padding: '16px 20px',
+            textAlign: 'left',
+            marginBottom: '28px',
+            fontSize: '0.9rem',
+            color: '#78350f'
+          }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
+              <span>ইউজারনেম:</span>
+              <strong>@{user.username}</strong>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
+              <span>ইমেইল:</span>
+              <strong>{user.email}</strong>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+              <span>বর্তমান স্ট্যাটাস:</span>
+              <span className="badge badge-amber" style={{ fontSize: '0.78rem' }}>পেন্ডিং (অনুমোদনের অপেক্ষায়)</span>
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <Link
+              href="/profile"
+              className="btn-primary"
+              style={{ padding: '13px 26px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+            >
+              <i className="fa-solid fa-user"></i>
+              <span>প্রোফাইল স্ট্যাটাস দেখুন</span>
+            </Link>
+
+            <Link
+              href="/"
+              className="btn-secondary"
+              style={{ padding: '13px 24px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+            >
+              <i className="fa-solid fa-house"></i>
+              <span>হোম পেজে যান</span>
+            </Link>
+
+            <button
+              onClick={logout}
+              className="btn-secondary"
+              style={{ padding: '13px 22px', fontSize: '0.98rem', color: '#ef4444', display: 'inline-flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }}
+            >
+              <i className="fa-solid fa-right-from-bracket"></i>
+              <span>লগআউট</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // 4. If no exam selected (Show notice to pick from job solutions page)
   if (!examSlug) {
     return (
       <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
