@@ -275,6 +275,10 @@ function FileExamStudioInner({ initialExamSlug = null }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  // Bijoy font detection & conversion states
+  const [bijoyDetected, setBijoyDetected] = useState(false);
+  const [isBijoyConverted, setIsBijoyConverted] = useState(false);
+
   // Typography & Smart Auto Font Detection (International Unicode: Bangla, English & Math)
   const [selectedFontId, setSelectedFontId] = useState('auto');
   const activeFont = useMemo(() => {
