@@ -6,12 +6,12 @@ import {
   Shield, 
   Zap, 
   Search, 
-  ArrowUpDown,
-  Download,
-  Printer,
-  Languages
+  ArrowUpDown, 
+  Download, 
+  Printer, 
+  Languages 
 } from 'lucide-react';
-import TableStudio from '../../components/TableStudio';
+import TableStudio from '../../../components/TableStudio';
 
 export default function FileStudioPage() {
   return (

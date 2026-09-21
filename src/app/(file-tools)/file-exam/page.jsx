@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import FileExamStudio from '../../components/FileExamStudio';
+import FileExamStudio from '../../../components/FileExamStudio';
 
 export const metadata = {
   title: 'ফাইল এক্সাম স্টুডিও — CSV বা JSON ফাইল আপলোড করে মডেল টেস্ট দিন | JobSolutions BD',
