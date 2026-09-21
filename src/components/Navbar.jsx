@@ -110,15 +110,23 @@ export default function Navbar() {
           </div>
         </Link>
 
-        {/* Desktop Nav */}
-        <nav className="desktop-nav" style={{ alignItems: 'center', gap: '6px' }}>
-          {/* Home */}
+        {/* Desktop Nav (Right Aligned with margin before User Button) */}
+        <nav 
+          className="desktop-nav" 
+          style={{ 
+            marginLeft: 'auto', 
+            marginRight: '14px', 
+            alignItems: 'center', 
+            gap: '6px' 
+          }}
+        >
+          {/* Home with FontAwesome House Icon */}
           <Link
             href="/"
             style={{
               display: 'flex',
               alignItems: 'center',
-              gap: '6px',
+              gap: '7px',
               padding: '8px 14px',
               borderRadius: '8px',
               fontSize: '0.92rem',
@@ -129,7 +137,7 @@ export default function Navbar() {
               transition: 'all 0.2s ease'
             }}
           >
-            <Sparkles size={16} />
+            <i className="fa-solid fa-house" style={{ fontSize: '15px' }}></i>
             <span>হোম</span>
           </Link>
 
@@ -192,7 +200,7 @@ export default function Navbar() {
               />
             </button>
 
-            {/* Dropdown Menu */}
+            {/* Dropdown Menu - Exact Matching 0.92rem Font Size */}
             {toolsDropdownOpen && (
               <div 
                 className="dropdown-menu-anim"
@@ -200,21 +208,15 @@ export default function Navbar() {
                   position: 'absolute',
                   top: 'calc(100% + 8px)',
                   left: 0,
-                  width: '280px',
+                  width: '210px',
                   background: '#ffffff',
-                  borderRadius: '14px',
-                  boxShadow: '0 14px 35px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.05)',
+                  borderRadius: '12px',
+                  boxShadow: '0 12px 30px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.04)',
                   border: '1px solid #e2e8f0',
-                  padding: '8px',
+                  padding: '6px',
                   zIndex: 100
                 }}
               >
-                <div style={{ padding: '6px 10px 8px', borderBottom: '1px solid #f1f5f9', marginBottom: '6px' }}>
-                  <span style={{ fontSize: '0.72rem', fontWeight: 700, color: '#64748b', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                    ফাইল টুলস প্যাকেজ
-                  </span>
-                </div>
-
                 {/* Option 1: File Exam */}
                 <Link
                   href="/file-exam"
@@ -222,9 +224,12 @@ export default function Navbar() {
                   style={{
                     display: 'flex',
                     alignItems: 'center',
-                    gap: '12px',
-                    padding: '10px 12px',
-                    borderRadius: '10px',
+                    gap: '10px',
+                    padding: '8px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.92rem',
+                    fontWeight: 600,
+                    color: pathname === '/file-exam' ? '#047857' : '#1e293b',
                     background: pathname === '/file-exam' ? '#ecfdf5' : 'transparent',
                     border: pathname === '/file-exam' ? '1px solid #a7f3d0' : '1px solid transparent',
                     textDecoration: 'none',
@@ -237,27 +242,8 @@ export default function Navbar() {
                     if (pathname !== '/file-exam') e.currentTarget.style.background = 'transparent';
                   }}
                 >
-                  <div style={{
-                    width: '36px',
-                    height: '36px',
-                    borderRadius: '8px',
-                    background: pathname === '/file-exam' ? 'var(--emerald-500)' : '#ecfdf5',
-                    color: pathname === '/file-exam' ? '#ffffff' : '#059669',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexShrink: 0
-                  }}>
-                    <FileSpreadsheet size={18} />
-                  </div>
-                  <div>
-                    <div style={{ fontWeight: 700, fontSize: '0.9rem', color: pathname === '/file-exam' ? '#047857' : '#0f172a' }}>
-                      ফাইল এক্সাম
-                    </div>
-                    <div style={{ fontSize: '0.74rem', color: '#64748b', marginTop: '1px' }}>
-                      CSV, JSON বা XLSX দিয়ে মডেল টেস্ট দিন
-                    </div>
-                  </div>
+                  <FileSpreadsheet size={16} color={pathname === '/file-exam' ? '#047857' : '#059669'} />
+                  <span>ফাইল এক্সাম</span>
                 </Link>
 
                 {/* Option 2: Table Studio */}
@@ -267,9 +253,12 @@ export default function Navbar() {
                   style={{
                     display: 'flex',
                     alignItems: 'center',
-                    gap: '12px',
-                    padding: '10px 12px',
-                    borderRadius: '10px',
+                    gap: '10px',
+                    padding: '8px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.92rem',
+                    fontWeight: 600,
+                    color: pathname === '/file-studio' ? '#047857' : '#1e293b',
                     background: pathname === '/file-studio' ? '#ecfdf5' : 'transparent',
                     border: pathname === '/file-studio' ? '1px solid #a7f3d0' : '1px solid transparent',
                     textDecoration: 'none',
@@ -282,27 +271,8 @@ export default function Navbar() {
                     if (pathname !== '/file-studio') e.currentTarget.style.background = 'transparent';
                   }}
                 >
-                  <div style={{
-                    width: '36px',
-                    height: '36px',
-                    borderRadius: '8px',
-                    background: pathname === '/file-studio' ? 'var(--emerald-500)' : '#ecfdf5',
-                    color: pathname === '/file-studio' ? '#ffffff' : '#059669',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexShrink: 0
-                  }}>
-                    <Table size={18} />
-                  </div>
-                  <div>
-                    <div style={{ fontWeight: 700, fontSize: '0.9rem', color: pathname === '/file-studio' ? '#047857' : '#0f172a' }}>
-                      টেবিল স্টুডিও
-                    </div>
-                    <div style={{ fontSize: '0.74rem', color: '#64748b', marginTop: '1px' }}>
-                      ডাটা ভিউয়ার, এডিটর ও কনভার্টার
-                    </div>
-                  </div>
+                  <Table size={16} color={pathname === '/file-studio' ? '#047857' : '#059669'} />
+                  <span>টেবিল স্টুডিও</span>
                 </Link>
               </div>
             )}
@@ -329,6 +299,17 @@ export default function Navbar() {
             <span>বুকমার্কস</span>
           </Link>
         </nav>
+
+        {/* Elegant Vertical Divider Before Profile Button */}
+        <div 
+          className="desktop-divider" 
+          style={{ 
+            width: '1px', 
+            height: '24px', 
+            background: '#e2e8f0', 
+            marginRight: '16px' 
+          }} 
+        />
 
         {/* Action Button: Login / Profile & Mobile Toggle */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
@@ -656,14 +637,14 @@ export default function Navbar() {
               gap: '12px',
               padding: '12px 16px',
               borderRadius: '10px',
-              fontSize: '0.98rem',
+              fontSize: '0.95rem',
               fontWeight: 600,
               color: pathname === '/' ? '#047857' : '#1e293b',
               background: pathname === '/' ? '#ecfdf5' : '#f8fafc',
               border: pathname === '/' ? '1px solid #a7f3d0' : '1px solid #e2e8f0'
             }}
           >
-            <Sparkles size={18} />
+            <i className="fa-solid fa-house" style={{ fontSize: '16px', width: '18px', textAlign: 'center' }}></i>
             <span>হোম</span>
           </Link>
 
@@ -677,7 +658,7 @@ export default function Navbar() {
               gap: '12px',
               padding: '12px 16px',
               borderRadius: '10px',
-              fontSize: '0.98rem',
+              fontSize: '0.95rem',
               fontWeight: 600,
               color: pathname === '/job-solution' ? '#047857' : '#1e293b',
               background: pathname === '/job-solution' ? '#ecfdf5' : '#f8fafc',
@@ -706,7 +687,7 @@ export default function Navbar() {
                 background: 'transparent',
                 border: 'none',
                 cursor: 'pointer',
-                fontSize: '0.98rem',
+                fontSize: '0.95rem',
                 fontWeight: 600,
                 color: isToolsActive ? '#047857' : '#1e293b'
               }}
@@ -742,7 +723,7 @@ export default function Navbar() {
                     gap: '10px',
                     padding: '10px 12px',
                     borderRadius: '8px',
-                    fontSize: '0.92rem',
+                    fontSize: '0.95rem',
                     fontWeight: 600,
                     color: pathname === '/file-exam' ? '#047857' : '#334155',
                     background: pathname === '/file-exam' ? '#ecfdf5' : '#ffffff',
@@ -751,12 +732,7 @@ export default function Navbar() {
                   }}
                 >
                   <FileSpreadsheet size={16} color="var(--emerald-600)" />
-                  <div style={{ display: 'flex', flexDirection: 'column' }}>
-                    <span>ফাইল এক্সাম</span>
-                    <span style={{ fontSize: '0.72rem', color: '#64748b', fontWeight: 500 }}>
-                      CSV/JSON/XLSX মডেল টেস্ট
-                    </span>
-                  </div>
+                  <span>ফাইল এক্সাম</span>
                 </Link>
 
                 <Link
@@ -768,7 +744,7 @@ export default function Navbar() {
                     gap: '10px',
                     padding: '10px 12px',
                     borderRadius: '8px',
-                    fontSize: '0.92rem',
+                    fontSize: '0.95rem',
                     fontWeight: 600,
                     color: pathname === '/file-studio' ? '#047857' : '#334155',
                     background: pathname === '/file-studio' ? '#ecfdf5' : '#ffffff',
@@ -777,12 +753,7 @@ export default function Navbar() {
                   }}
                 >
                   <Table size={16} color="var(--emerald-600)" />
-                  <div style={{ display: 'flex', flexDirection: 'column' }}>
-                    <span>টেবিল স্টুডিও</span>
-                    <span style={{ fontSize: '0.72rem', color: '#64748b', fontWeight: 500 }}>
-                      ডাটা শিট ভিউয়ার ও কনভার্টার
-                    </span>
-                  </div>
+                  <span>টেবিল স্টুডিও</span>
                 </Link>
               </div>
             )}

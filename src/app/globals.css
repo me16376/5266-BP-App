@@ -5,12 +5,18 @@
 .mobile-menu-btn {
   display: flex;
 }
+.desktop-divider {
+  display: none;
+}
 @media (min-width: 900px) {
   .desktop-nav {
     display: flex !important;
   }
   .mobile-menu-btn {
     display: none !important;
+  }
+  .desktop-divider {
+    display: block !important;
   }
 }
 
