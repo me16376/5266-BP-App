@@ -3,7 +3,6 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { useSearchParams } from 'next/navigation';
 import * as XLSX from 'xlsx';
-import { convertBijoyToUnicode, looksLikeBijoy, shouldConvertAsBijoy } from 'bijoy2unicode';
 import { 
   FileSpreadsheet, 
   UploadCloud, 
@@ -50,44 +49,44 @@ const OPTION_LABELS = ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
 const BANGLA_FONTS = [
   { 
     id: 'auto', 
-    name: 'স্বয়ংক্রিয় স্মার্ট ফন্ট (Auto: বাংলা + English + Math)', 
-    family: "'Inter', 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', sans-serif",
-    badge: 'স্মার্ট অটো'
+    name: 'স্বয়ংক্রিয় স্মার্ট ফন্ট (International Unicode: বাংলা + English + Math)', 
+    family: "'Inter', 'Noto Sans Bengali', 'Kalpurush', 'SolaimanLipi', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', sans-serif",
+    badge: 'ইন্টারন্যাশনাল'
+  },
+  { 
+    id: 'noto', 
+    name: 'নোটো সান্স বাংলা (Google Noto Sans — অফিশিয়াল ইউনিকোড)', 
+    family: "'Noto Sans Bengali', 'Inter', 'Anek Bangla', 'KaTeX_Main', sans-serif",
+    badge: 'গুগল ইউনিকোড'
   },
   { 
     id: 'kalpurush', 
-    name: 'কালপুরুষ (Kalpurush — সেরা ক্লাসিক ও নির্ভুল)', 
-    family: "'Kalpurush', 'Inter', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'Cambria Math', sans-serif",
+    name: 'কালপুরুষ (Kalpurush — ক্লাসিক ইউনিকোড)', 
+    family: "'Kalpurush', 'Inter', 'Noto Sans Bengali', 'SolaimanLipi', 'KaTeX_Main', 'Cambria Math', sans-serif",
     badge: 'সেরা বাংলা'
   },
   { 
     id: 'solaiman', 
-    name: 'সোলাইমান লিপি (SolaimanLipi — ক্লিন ও স্পষ্ট)', 
-    family: "'SolaimanLipi', 'Inter', 'Kalpurush', 'Noto Sans Bengali', 'KaTeX_Main', sans-serif",
+    name: 'সোলাইমান লিপি (SolaimanLipi — ক্লিন ইউনিকোড)', 
+    family: "'SolaimanLipi', 'Inter', 'Noto Sans Bengali', 'KaTeX_Main', sans-serif",
     badge: 'ক্লিন'
   },
   { 
-    id: 'noto', 
-    name: 'নোটো সান্স বাংলা (Noto Sans — অফিসিয়াল ইউনিকোড)', 
-    family: "'Noto Sans Bengali', 'Inter', 'Anek Bangla', 'KaTeX_Main', sans-serif",
-    badge: 'ইউনিকোড'
-  },
-  { 
     id: 'anek', 
-    name: 'আনেক বাংলা (Anek Bangla — আধুনিক ও স্টাইলিশ)', 
+    name: 'আনেক বাংলা (Anek Bangla — আধুনিক ইউনিকোড)', 
     family: "'Anek Bangla', 'Inter', 'Noto Sans Bengali', sans-serif",
     badge: 'স্টাইলিশ'
   },
   { 
     id: 'math', 
     name: 'ম্যাথ ও ফর্মুলা ফন্ট (KaTeX & Science Math)', 
-    family: "'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', 'STIX Two Math', 'Inter', 'Kalpurush', serif",
+    family: "'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', 'STIX Two Math', 'Inter', 'Noto Sans Bengali', serif",
     badge: 'গণিত স্পেশাল'
   },
   { 
     id: 'english', 
     name: 'ইংরেজি ও একাডেমিক (Inter & Academic English)', 
-    family: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Kalpurush', sans-serif",
+    family: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans Bengali', sans-serif",
     badge: 'ইংরেজি স্পেশাল'
   }
 ];
@@ -259,18 +258,6 @@ function normalizeQuestion(rawItem, index) {
   };
 }
 
-// Convert question items from Bijoy to Unicode
-function convertQuestionListToUnicode(questions) {
-  return questions.map(q => ({
-    ...q,
-    question: shouldConvertAsBijoy(q.question) ? convertBijoyToUnicode(q.question) : q.question,
-    options: q.options.map(opt => shouldConvertAsBijoy(opt) ? convertBijoyToUnicode(opt) : opt),
-    correct_answer: shouldConvertAsBijoy(q.correct_answer) ? convertBijoyToUnicode(q.correct_answer) : q.correct_answer,
-    explanation: q.explanation && shouldConvertAsBijoy(q.explanation) ? convertBijoyToUnicode(q.explanation) : q.explanation,
-    subject: q.subject && shouldConvertAsBijoy(q.subject) ? convertBijoyToUnicode(q.subject) : q.subject
-  }));
-}
-
 export default function FileExamStudio({ initialExamSlug = null }) {
   const searchParams = useSearchParams();
   const examSlugFromUrl = searchParams ? searchParams.get('exam') : null;
@@ -288,11 +275,7 @@ export default function FileExamStudio({ initialExamSlug = null }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  // Bijoy support
-  const [bijoyDetected, setBijoyDetected] = useState(false);
-  const [isBijoyConverted, setIsBijoyConverted] = useState(false);
-
-  // Typography & Smart Auto Font Detection (Bangla, English & Math)
+  // Typography & Smart Auto Font Detection (International Unicode: Bangla, English & Math)
   const [selectedFontId, setSelectedFontId] = useState('auto');
   const activeFont = useMemo(() => {
     return BANGLA_FONTS.find(f => f.id === selectedFontId) || BANGLA_FONTS[0];
@@ -560,8 +543,6 @@ export default function FileExamStudio({ initialExamSlug = null }) {
     if (!file) return;
     setLoading(true);
     setError(null);
-    setBijoyDetected(false);
-    setIsBijoyConverted(false);
 
     const name = file.name;
     const size = (file.size / 1024).toFixed(1) + ' KB';
@@ -621,22 +602,9 @@ export default function FileExamStudio({ initialExamSlug = null }) {
         throw new Error('ফাইলে প্রশ্ন খুঁজে পাওয়া যায়নি। অনুগ্রহ করে কলামের নাম যেমন question, options, answer অথবা প্রশ্ন, ক, খ, গ, ঘ, সঠিক উত্তর রয়েছে কি না যাচাই করুন।');
       }
 
-      const hasBijoy = normalized.slice(0, 10).some(q => 
-        shouldConvertAsBijoy(q.question) || 
-        q.options.some(o => shouldConvertAsBijoy(o))
-      );
-
+      // Native International Unicode questions
+      setQuestions(normalized);
       setRawQuestions(normalized);
-      setBijoyDetected(hasBijoy);
-
-      if (hasBijoy) {
-        const converted = convertQuestionListToUnicode(normalized);
-        setQuestions(converted);
-        setIsBijoyConverted(true);
-      } else {
-        setQuestions(normalized);
-        setIsBijoyConverted(false);
-      }
 
       const autoMins = Math.min(120, Math.max(10, Math.ceil(normalized.length * 0.8)));
       setDurationMinutes(autoMins);
@@ -648,20 +616,6 @@ export default function FileExamStudio({ initialExamSlug = null }) {
       setRawQuestions([]);
     } finally {
       setLoading(false);
-    }
-  };
-
-  // Toggle Bijoy conversion
-  const handleToggleBijoy = () => {
-    if (!isBijoyConverted) {
-      const converted = convertQuestionListToUnicode(rawQuestions.length > 0 ? rawQuestions : questions);
-      setQuestions(converted);
-      setIsBijoyConverted(true);
-    } else {
-      if (rawQuestions.length > 0) {
-        setQuestions(rawQuestions);
-      }
-      setIsBijoyConverted(false);
     }
   };
 

@@ -2,7 +2,6 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
 import * as XLSX from 'xlsx';
-import { convertBijoyToUnicode, looksLikeBijoy, shouldConvertAsBijoy } from 'bijoy2unicode';
 import { 
   FileSpreadsheet, 
   UploadCloud, 
@@ -32,44 +31,44 @@ import FormattedContent from './FormattedContent';
 const BANGLA_FONTS = [
   { 
     id: 'auto', 
-    name: 'স্বয়ংক্রিয় স্মার্ট ফন্ট (Auto: বাংলা + English + Math)', 
-    family: "'Inter', 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', sans-serif",
-    badge: 'স্মার্ট অটো'
+    name: 'স্বয়ংক্রিয় স্মার্ট ফন্ট (International Unicode: বাংলা + English + Math)', 
+    family: "'Inter', 'Noto Sans Bengali', 'Kalpurush', 'SolaimanLipi', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', sans-serif",
+    badge: 'ইন্টারন্যাশনাল'
+  },
+  { 
+    id: 'noto', 
+    name: 'নোটো সান্স বাংলা (Google Noto Sans — অফিশিয়াল ইউনিকোড)', 
+    family: "'Noto Sans Bengali', 'Inter', 'Anek Bangla', 'KaTeX_Main', sans-serif",
+    badge: 'গুগল ইউনিকোড'
   },
   { 
     id: 'kalpurush', 
-    name: 'কালপুরুষ (Kalpurush — সেরা ক্লাসিক ও নির্ভুল)', 
-    family: "'Kalpurush', 'Inter', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'Cambria Math', sans-serif",
+    name: 'কালপুরুষ (Kalpurush — ক্লাসিক ইউনিকোড)', 
+    family: "'Kalpurush', 'Inter', 'Noto Sans Bengali', 'SolaimanLipi', 'KaTeX_Main', 'Cambria Math', sans-serif",
     badge: 'সেরা বাংলা'
   },
   { 
     id: 'solaiman', 
-    name: 'সোলাইমান লিপি (SolaimanLipi — ক্লিন ও স্পষ্ট)', 
-    family: "'SolaimanLipi', 'Inter', 'Kalpurush', 'Noto Sans Bengali', 'KaTeX_Main', sans-serif",
+    name: 'সোলাইমান লিপি (SolaimanLipi — ক্লিন ইউনিকোড)', 
+    family: "'SolaimanLipi', 'Inter', 'Noto Sans Bengali', 'KaTeX_Main', sans-serif",
     badge: 'ক্লিন'
   },
   { 
-    id: 'noto', 
-    name: 'নোটো সান্স বাংলা (Noto Sans — অফিসিয়াল ইউনিকোড)', 
-    family: "'Noto Sans Bengali', 'Inter', 'Anek Bangla', 'KaTeX_Main', sans-serif",
-    badge: 'ইউনিকোড'
-  },
-  { 
     id: 'anek', 
-    name: 'আনেক বাংলা (Anek Bangla — আধুনিক ও স্টাইলিশ)', 
+    name: 'আনেক বাংলা (Anek Bangla — আধুনিক ইউনিকোড)', 
     family: "'Anek Bangla', 'Inter', 'Noto Sans Bengali', sans-serif",
     badge: 'স্টাইলিশ'
   },
   { 
     id: 'math', 
     name: 'ম্যাথ ও ফর্মুলা ফন্ট (KaTeX & Science Math)', 
-    family: "'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', 'STIX Two Math', 'Inter', 'Kalpurush', serif",
+    family: "'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', 'STIX Two Math', 'Inter', 'Noto Sans Bengali', serif",
     badge: 'গণিত স্পেশাল'
   },
   { 
     id: 'english', 
     name: 'ইংরেজি ও একাডেমিক (Inter & Academic English)', 
-    family: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Kalpurush', sans-serif",
+    family: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans Bengali', sans-serif",
     badge: 'ইংরেজি স্পেশাল'
   }
 ];
@@ -152,94 +151,17 @@ export default function TableStudio() {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  // Typography & Reader Controls (Smart auto Bangla, English & Math detection)
+  // Typography & Reader Controls (International Unicode: Bangla, English & Math)
   const [selectedFontId, setSelectedFontId] = useState('auto');
   const [fontSize, setFontSize] = useState(16);
   const [lineHeight, setLineHeight] = useState('1.8');
-  const [isBijoyConverted, setIsBijoyConverted] = useState(false);
-  const [bijoyDetected, setBijoyDetected] = useState(false);
 
   // Active font object
   const activeFont = useMemo(() => {
     return BANGLA_FONTS.find(f => f.id === selectedFontId) || BANGLA_FONTS[0];
   }, [selectedFontId]);
 
-
-
-  // Convert Docx HTML text nodes from Bijoy (ANSI) to Unicode
-  const convertDocxHtmlToUnicode = (html) => {
-    if (!html || typeof window === 'undefined') return html;
-    try {
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(html, 'text/html');
-      
-      const walk = (node) => {
-        if (node.nodeType === Node.TEXT_NODE) {
-          const val = node.nodeValue;
-          if (val && val.trim() && shouldConvertAsBijoy(val)) {
-            node.nodeValue = convertBijoyToUnicode(val);
-          }
-        } else {
-          node.childNodes.forEach(child => walk(child));
-        }
-      };
-      
-      walk(doc.body);
-      return doc.body.innerHTML;
-    } catch (e) {
-      console.error('Docx Bijoy conversion error:', e);
-      return html;
-    }
-  };
-
-  // Convert Table data from Bijoy (ANSI) to Unicode
-  const convertTableToUnicode = (data) => {
-    if (!data || !data.sheets) return data;
-    return {
-      ...data,
-      sheets: data.sheets.map(sheet => ({
-        ...sheet,
-        name: shouldConvertAsBijoy(sheet.name || '') ? convertBijoyToUnicode(sheet.name) : sheet.name,
-        headers: sheet.headers.map(h => shouldConvertAsBijoy(h || '') ? convertBijoyToUnicode(h) : h),
-        rows: sheet.rows.map(row => row.map(cell => {
-          if (cell === null || cell === undefined) return '';
-          const str = String(cell);
-          return shouldConvertAsBijoy(str) ? convertBijoyToUnicode(str) : str;
-        }))
-      }))
-    };
-  };
-
-  // Toggle Bijoy to Unicode conversion
-  const handleToggleBijoy = () => {
-    if (fileData?.fileType === 'docx') {
-      if (!isBijoyConverted) {
-        const sourceHtml = rawDocxHtml || docxHtml;
-        const converted = convertDocxHtmlToUnicode(sourceHtml);
-        setDocxHtml(converted);
-        setIsBijoyConverted(true);
-      } else {
-        if (rawDocxHtml) {
-          setDocxHtml(rawDocxHtml);
-        }
-        setIsBijoyConverted(false);
-      }
-    } else if (fileData) {
-      if (!isBijoyConverted) {
-        const sourceData = rawFileData || fileData;
-        const converted = convertTableToUnicode(sourceData);
-        setFileData(converted);
-        setIsBijoyConverted(true);
-      } else {
-        if (rawFileData) {
-          setFileData(rawFileData);
-        }
-        setIsBijoyConverted(false);
-      }
-    }
-  };
-
-  // Parse uploaded file (Excel, CSV, JSON, DOCX)
+  // Parse uploaded file (Excel, CSV, JSON, DOCX) - Native International Unicode
   const processFile = async (file) => {
     if (!file) return;
     setLoading(true);
@@ -248,9 +170,6 @@ export default function TableStudio() {
     setSortConfig({ key: null, direction: 'asc' });
     setCurrentPage(1);
     setDocxHtml(null);
-    setRawDocxHtml(null);
-    setIsBijoyConverted(false);
-    setBijoyDetected(false);
 
     const fileName = file.name;
     const fileSize = (file.size / 1024).toFixed(1) + ' KB';
@@ -266,29 +185,8 @@ export default function TableStudio() {
           throw new Error('Word ডকুমেন্টটিতে কোনো লেখা পাওয়া যায়নি।');
         }
 
-        const rawHtml = result.value;
-
-        // Check if the text looks like legacy ANSI text
-        let looksBijoy = false;
-        if (typeof window !== 'undefined') {
-          const tempDiv = document.createElement('div');
-          tempDiv.innerHTML = rawHtml;
-          const plainText = tempDiv.innerText || tempDiv.textContent || '';
-          looksBijoy = looksLikeBijoy(plainText.slice(0, 2000)) || shouldConvertAsBijoy(plainText.slice(0, 2000));
-        }
-
-        setRawDocxHtml(rawHtml);
-        setBijoyDetected(looksBijoy);
-
-        if (looksBijoy) {
-          const converted = convertDocxHtmlToUnicode(rawHtml);
-          setDocxHtml(converted);
-          setIsBijoyConverted(true);
-        } else {
-          setDocxHtml(rawHtml);
-          setIsBijoyConverted(false);
-        }
-
+        // Native Unicode HTML directly from DOCX without any corrupting ANSI-Bijoy conversion
+        setDocxHtml(result.value);
         setFileData({
           fileName,
           fileSize,
@@ -348,21 +246,7 @@ export default function TableStudio() {
           sheets: [{ name: 'JSON Data', headers, rows }]
         };
 
-        // Check for Bijoy text
-        const hasBijoy = headers.some(h => shouldConvertAsBijoy(h)) || 
-                         rows.slice(0, 10).some(row => row.some(cell => shouldConvertAsBijoy(cell)));
-        setBijoyDetected(hasBijoy);
-        setRawFileData(dataObj);
-
-        if (hasBijoy) {
-          const converted = convertTableToUnicode(dataObj);
-          setFileData(converted);
-          setIsBijoyConverted(true);
-        } else {
-          setFileData(dataObj);
-          setIsBijoyConverted(false);
-        }
-
+        setFileData(dataObj);
         setActiveSheetIdx(0);
       } else if (['xlsx', 'xls', 'csv'].includes(ext)) {
         const buffer = await file.arrayBuffer();
@@ -395,17 +279,6 @@ export default function TableStudio() {
           };
         });
 
-        // Check for Bijoy text
-        let looksBijoy = false;
-        for (const s of sheets) {
-          if (s.headers.some(h => shouldConvertAsBijoy(h)) || 
-              s.rows.slice(0, 10).some(row => row.some(cell => shouldConvertAsBijoy(cell)))) {
-            looksBijoy = true;
-            break;
-          }
-        }
-        setBijoyDetected(looksBijoy);
-
         const dataObj = {
           fileName,
           fileSize,
@@ -413,17 +286,7 @@ export default function TableStudio() {
           sheets
         };
 
-        setRawFileData(dataObj);
-
-        if (looksBijoy) {
-          const converted = convertTableToUnicode(dataObj);
-          setFileData(converted);
-          setIsBijoyConverted(true);
-        } else {
-          setFileData(dataObj);
-          setIsBijoyConverted(false);
-        }
-
+        setFileData(dataObj);
         setActiveSheetIdx(0);
       } else {
         throw new Error('অনুগ্রহ করে .docx, .csv, .xlsx, .xls অথবা .json ফরম্যাটের ফাইল দিন।');
@@ -432,9 +295,7 @@ export default function TableStudio() {
       console.error('File parsing error:', err);
       setError(err.message || 'ফাইলটি প্রসেস করতে সমস্যা হয়েছে।');
       setFileData(null);
-      setRawFileData(null);
       setDocxHtml(null);
-      setRawDocxHtml(null);
     } finally {
       setLoading(false);
     }
@@ -443,8 +304,6 @@ export default function TableStudio() {
   // Load sample demo data
   const loadDemoData = (type) => {
     setError(null);
-    setIsBijoyConverted(false);
-    setBijoyDetected(false);
     setSearchQuery('');
     setSortConfig({ key: null, direction: 'asc' });
     setCurrentPage(1);
@@ -473,7 +332,6 @@ export default function TableStudio() {
         ]
       };
       setFileData(dataObj);
-      setRawFileData(dataObj);
       setActiveSheetIdx(0);
     } else if (type === 'quiz') {
       const headers = ['আইডি', 'প্রশ্ন', 'ক', 'খ', 'গ', 'ঘ', 'সঠিক উত্তর'];
@@ -491,7 +349,6 @@ export default function TableStudio() {
         sheets: [{ name: 'MCQ প্রশ্নমালা', headers, rows }]
       };
       setFileData(dataObj);
-      setRawFileData(dataObj);
       setActiveSheetIdx(0);
     } else if (type === 'docx') {
       const demoHtml = `
