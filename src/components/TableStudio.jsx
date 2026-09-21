@@ -27,49 +27,50 @@ import {
   Sliders,
   Languages
 } from 'lucide-react';
+import FormattedContent from './FormattedContent';
 
 const BANGLA_FONTS = [
   { 
+    id: 'auto', 
+    name: 'স্বয়ংক্রিয় স্মার্ট ফন্ট (Auto: বাংলা + English + Math)', 
+    family: "'Inter', 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', sans-serif",
+    badge: 'স্মার্ট অটো'
+  },
+  { 
     id: 'kalpurush', 
-    name: 'কালপুরুষ (Kalpurush / Classic)', 
-    family: "'Kalpurush', 'SolaimanLipi', 'Anek Bangla', sans-serif",
-    badge: 'ডিফল্ট'
+    name: 'কালপুরুষ (Kalpurush — সেরা ক্লাসিক ও নির্ভুল)', 
+    family: "'Kalpurush', 'Inter', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'Cambria Math', sans-serif",
+    badge: 'সেরা বাংলা'
   },
   { 
     id: 'solaiman', 
-    name: 'সোলাইমান লিপি (SolaimanLipi)', 
-    family: "'SolaimanLipi', 'Kalpurush', 'Anek Bangla', sans-serif",
+    name: 'সোলাইমান লিপি (SolaimanLipi — ক্লিন ও স্পষ্ট)', 
+    family: "'SolaimanLipi', 'Inter', 'Kalpurush', 'Noto Sans Bengali', 'KaTeX_Main', sans-serif",
     badge: 'ক্লিন'
   },
   { 
-    id: 'nikosh', 
-    name: 'নিকোশ (Nikosh / Govt)', 
-    family: "'Nikosh', 'SolaimanLipi', 'Kalpurush', sans-serif",
-    badge: 'সরকারি'
-  },
-  { 
     id: 'noto', 
-    name: 'নোটো সান্স বাংলা (Noto Sans)', 
-    family: "'Noto Sans Bengali', sans-serif",
-    badge: 'আধুনিক'
+    name: 'নোটো সান্স বাংলা (Noto Sans — অফিসিয়াল ইউনিকোড)', 
+    family: "'Noto Sans Bengali', 'Inter', 'Anek Bangla', 'KaTeX_Main', sans-serif",
+    badge: 'ইউনিকোড'
   },
   { 
     id: 'anek', 
-    name: 'আনেক বাংলা (Anek Bangla)', 
-    family: "'Anek Bangla', sans-serif",
+    name: 'আনেক বাংলা (Anek Bangla — আধুনিক ও স্টাইলিশ)', 
+    family: "'Anek Bangla', 'Inter', 'Noto Sans Bengali', sans-serif",
     badge: 'স্টাইলিশ'
   },
   { 
-    id: 'tiro', 
-    name: 'তিরো বাংলা (Tiro Bangla)', 
-    family: "'Tiro Bangla', serif",
-    badge: 'সেরিফ'
+    id: 'math', 
+    name: 'ম্যাথ ও ফর্মুলা ফন্ট (KaTeX & Science Math)', 
+    family: "'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', 'STIX Two Math', 'Inter', 'Kalpurush', serif",
+    badge: 'গণিত স্পেশাল'
   },
   { 
-    id: 'serif', 
-    name: 'নোটো সেরিফ বাংলা (Noto Serif)', 
-    family: "'Noto Serif Bengali', serif",
-    badge: 'বইয়ের ফন্ট'
+    id: 'english', 
+    name: 'ইংরেজি ও একাডেমিক (Inter & Academic English)', 
+    family: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Kalpurush', sans-serif",
+    badge: 'ইংরেজি স্পেশাল'
   }
 ];
 
@@ -78,10 +79,10 @@ const FONT_ASSETS_HTML = `
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.maateen.me" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Serif+Bengali:wght@400;600;700&family=Tiro+Bangla&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
   <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
   <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
-  <link href="https://fonts.maateen.me/nikosh/font.css" rel="stylesheet">
   <style>
     @font-face {
       font-family: 'Kalpurush';
@@ -109,15 +110,6 @@ const FONT_ASSETS_HTML = `
       src: local('SolaimanLipi Bold'),
            url('https://fonts.maateen.me/solaiman-lipi/solaimanlipi-bold-v1.0.woff2') format('woff2'),
            url('https://fonts.maateen.me/solaiman-lipi/solaimanlipi-bold-v1.0.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: 'Nikosh';
-      font-display: swap;
-      font-style: normal;
-      font-weight: 100 900;
-      src: local('Nikosh'),
-           url('https://fonts.maateen.me/nikosh/nikosh-v1.0.woff2') format('woff2'),
-           url('https://fonts.maateen.me/nikosh/nikosh-v1.0.ttf') format('truetype');
     }
   </style>
 `;
@@ -160,8 +152,8 @@ export default function TableStudio() {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  // Bangla Typography & Reader Controls
-  const [selectedFontId, setSelectedFontId] = useState('kalpurush');
+  // Typography & Reader Controls (Smart auto Bangla, English & Math detection)
+  const [selectedFontId, setSelectedFontId] = useState('auto');
   const [fontSize, setFontSize] = useState(16);
   const [lineHeight, setLineHeight] = useState('1.8');
   const [isBijoyConverted, setIsBijoyConverted] = useState(false);
@@ -818,7 +810,7 @@ export default function TableStudio() {
         {/* Font Picker */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <Type size={16} color="#059669" />
-          <span style={{ fontSize: '0.85rem', fontWeight: 700, color: '#334155' }}>বাংলা ফন্ট:</span>
+          <span style={{ fontSize: '0.85rem', fontWeight: 700, color: '#334155' }}>ফন্ট সিলেক্ট:</span>
           <select
             value={selectedFontId}
             onChange={(e) => setSelectedFontId(e.target.value)}
@@ -972,7 +964,7 @@ export default function TableStudio() {
               Word (.docx), Excel (.xlsx, .xls), CSV অথবা JSON ফাইল ড্রপ করুন
             </h3>
             <p style={{ color: '#475569', fontSize: '0.94rem', marginBottom: '22px', maxWidth: '640px', margin: '0 auto 22px' }}>
-              যেকোনো Word ডকুমেন্ট, স্প্রেডশিট বা ডেটাসেট সরাসরি ঝকঝকে বাংলা ফন্টে পড়ুন এবং <strong>এক ক্লিকে PDF হিসেবে সেভ বা এক্সপোর্ট করুন</strong>।
+              যেকোনো Word ডকুমেন্ট, স্প্রেডশিট বা ডেটাসেট সরাসরি ঝকঝকে বাংলা, ইংরেজি ও গণিত ফন্টে পড়ুন এবং <strong>এক ক্লিকে PDF হিসেবে সেভ বা এক্সপোর্ট করুন</strong>।
             </p>
 
             <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap', marginBottom: '24px' }}>
@@ -987,9 +979,6 @@ export default function TableStudio() {
               </span>
               <span className="badge badge-amber" style={{ padding: '6px 12px', fontSize: '0.82rem' }}>
                 <FileCode size={13} /> JSON ডেটা (.json)
-              </span>
-              <span className="badge badge-emerald" style={{ padding: '6px 12px', fontSize: '0.82rem' }}>
-                <Languages size={13} /> বাংলা ফন্ট সাপোর্ট
               </span>
             </div>
 
@@ -1453,7 +1442,13 @@ export default function TableStudio() {
                               borderLeft: colIdx > 0 ? '1px solid #f1f5f9' : 'none'
                             }}
                           >
-                            {row[colIdx] !== undefined && row[colIdx] !== '' ? row[colIdx] : (
+                            {row[colIdx] !== undefined && row[colIdx] !== '' ? (
+                              typeof row[colIdx] === 'string' && (row[colIdx].includes('$') || row[colIdx].includes('\\')) ? (
+                                <FormattedContent text={String(row[colIdx])} />
+                              ) : (
+                                row[colIdx]
+                              )
+                            ) : (
                               <span style={{ color: '#cbd5e1' }}>—</span>
                             )}
                           </td>

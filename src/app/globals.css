@@ -53,25 +53,14 @@
        url('https://fonts.maateen.me/solaiman-lipi/solaimanlipi-bold-v1.0.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'Nikosh';
-  font-display: swap;
-  font-style: normal;
-  font-weight: 100 900;
-  src: local('Nikosh'),
-       url('https://fonts.maateen.me/nikosh/nikosh-v1.0.woff2') format('woff2'),
-       url('https://fonts.maateen.me/nikosh/nikosh-v1.0.ttf') format('truetype');
-}
-
 :root {
-  --font-sans: 'Kalpurush', 'SolaimanLipi', 'Anek Bangla', 'Noto Sans Bengali', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-kalpurush: 'Kalpurush', 'SolaimanLipi', 'Anek Bangla', sans-serif;
-  --font-solaiman: 'SolaimanLipi', 'Kalpurush', 'Anek Bangla', sans-serif;
-  --font-anek: 'Anek Bangla', sans-serif;
-  --font-noto: 'Noto Sans Bengali', sans-serif;
-  --font-tiro: 'Tiro Bangla', serif;
-  --font-nikosh: 'Nikosh', 'SolaimanLipi', 'Kalpurush', sans-serif;
-  --font-noto-serif: 'Noto Serif Bengali', serif;
+  --font-sans: 'Inter', 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-kalpurush: 'Kalpurush', 'Inter', 'SolaimanLipi', sans-serif;
+  --font-solaiman: 'SolaimanLipi', 'Inter', 'Kalpurush', sans-serif;
+  --font-anek: 'Anek Bangla', 'Inter', sans-serif;
+  --font-noto: 'Noto Sans Bengali', 'Inter', sans-serif;
+  --font-math: 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', 'STIX Two Math', 'Inter', 'Kalpurush', serif;
+  --font-english: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Kalpurush', sans-serif;
   
   /* Modern Crisp Light Theme */
   --bg-primary: #f8fafc;
@@ -456,7 +445,7 @@ a {
 
 .katex .brahmic_fallback,
 .katex .mord.text {
-  font-family: 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', 'Nikosh', sans-serif !important;
+  font-family: 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', 'Anek Bangla', sans-serif !important;
   font-size: 1em;
 }
 

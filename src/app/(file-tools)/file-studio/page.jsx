@@ -105,10 +105,10 @@ export default function FileStudioPage() {
               <div style={{ padding: '8px', borderRadius: '8px', background: '#fef3c7', color: '#d97706' }}>
                 <Languages size={20} />
               </div>
-              <h4 style={{ fontSize: '1rem', fontWeight: 700, color: '#0f172a' }}>বাংলা ফন্ট স্টুডিও</h4>
+              <h4 style={{ fontSize: '1rem', fontWeight: 700, color: '#0f172a' }}>স্মার্ট মাল্টি-ফন্ট ইঞ্জিন</h4>
             </div>
             <p style={{ fontSize: '0.86rem', color: '#475569', lineHeight: '1.6' }}>
-              কালপুরুষ, সোলাইমানলিপি ও নিকোশসহ জনপ্রিয় বাংলা ফন্ট নির্বাচন এবং টেবিল ও ডেটাসেটের ঝকঝকে স্পষ্ট ভিউ।
+              কালপুরুষ ও সোলাইমান লিপিসহ বাংলা, ইংরেজি ও গণিত (Math/KaTeX) ফন্টের স্বয়ংক্রিয় নির্ভুল ডিসপ্লে।
             </p>
           </div>
         </div>

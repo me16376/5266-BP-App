@@ -48,23 +48,58 @@ import FormattedContent from './FormattedContent';
 const OPTION_LABELS = ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
 
 const BANGLA_FONTS = [
-  { id: 'kalpurush', name: 'কালপুরুষ (Kalpurush / Classic)', family: "'Kalpurush', 'SolaimanLipi', 'Anek Bangla', sans-serif", badge: 'ডিফল্ট' },
-  { id: 'solaiman', name: 'সোলাইমান লিপি (SolaimanLipi)', family: "'SolaimanLipi', 'Kalpurush', 'Anek Bangla', sans-serif", badge: 'ক্লিন' },
-  { id: 'nikosh', name: 'নিকোশ (Nikosh / Govt)', family: "'Nikosh', 'SolaimanLipi', 'Kalpurush', sans-serif", badge: 'সরকারি' },
-  { id: 'noto', name: 'নোটো সান্স বাংলা (Noto Sans)', family: "'Noto Sans Bengali', sans-serif", badge: 'আধুনিক' },
-  { id: 'anek', name: 'আনেক বাংলা (Anek Bangla)', family: "'Anek Bangla', sans-serif", badge: 'স্টাইলিশ' },
-  { id: 'tiro', name: 'তিরো বাংলা (Tiro Bangla)', family: "'Tiro Bangla', serif", badge: 'সেরিফ' },
-  { id: 'serif', name: 'নোটো সেরিফ বাংলা (Noto Serif)', family: "'Noto Serif Bengali', serif", badge: 'বইয়ের ফন্ট' }
+  { 
+    id: 'auto', 
+    name: 'স্বয়ংক্রিয় স্মার্ট ফন্ট (Auto: বাংলা + English + Math)', 
+    family: "'Inter', 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', sans-serif",
+    badge: 'স্মার্ট অটো'
+  },
+  { 
+    id: 'kalpurush', 
+    name: 'কালপুরুষ (Kalpurush — সেরা ক্লাসিক ও নির্ভুল)', 
+    family: "'Kalpurush', 'Inter', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'Cambria Math', sans-serif",
+    badge: 'সেরা বাংলা'
+  },
+  { 
+    id: 'solaiman', 
+    name: 'সোলাইমান লিপি (SolaimanLipi — ক্লিন ও স্পষ্ট)', 
+    family: "'SolaimanLipi', 'Inter', 'Kalpurush', 'Noto Sans Bengali', 'KaTeX_Main', sans-serif",
+    badge: 'ক্লিন'
+  },
+  { 
+    id: 'noto', 
+    name: 'নোটো সান্স বাংলা (Noto Sans — অফিসিয়াল ইউনিকোড)', 
+    family: "'Noto Sans Bengali', 'Inter', 'Anek Bangla', 'KaTeX_Main', sans-serif",
+    badge: 'ইউনিকোড'
+  },
+  { 
+    id: 'anek', 
+    name: 'আনেক বাংলা (Anek Bangla — আধুনিক ও স্টাইলিশ)', 
+    family: "'Anek Bangla', 'Inter', 'Noto Sans Bengali', sans-serif",
+    badge: 'স্টাইলিশ'
+  },
+  { 
+    id: 'math', 
+    name: 'ম্যাথ ও ফর্মুলা ফন্ট (KaTeX & Science Math)', 
+    family: "'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', 'STIX Two Math', 'Inter', 'Kalpurush', serif",
+    badge: 'গণিত স্পেশাল'
+  },
+  { 
+    id: 'english', 
+    name: 'ইংরেজি ও একাডেমিক (Inter & Academic English)', 
+    family: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Kalpurush', sans-serif",
+    badge: 'ইংরেজি স্পেশাল'
+  }
 ];
 
 const FONT_ASSETS_HTML = `
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.maateen.me" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Serif+Bengali:wght@400;600;700&family=Tiro+Bangla&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
   <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
   <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
-  <link href="https://fonts.maateen.me/nikosh/font.css" rel="stylesheet">
   <style>
     @font-face {
       font-family: 'Kalpurush';
@@ -92,15 +127,6 @@ const FONT_ASSETS_HTML = `
       src: local('SolaimanLipi Bold'),
            url('https://fonts.maateen.me/solaiman-lipi/solaimanlipi-bold-v1.0.woff2') format('woff2'),
            url('https://fonts.maateen.me/solaiman-lipi/solaimanlipi-bold-v1.0.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: 'Nikosh';
-      font-display: swap;
-      font-style: normal;
-      font-weight: 100 900;
-      src: local('Nikosh'),
-           url('https://fonts.maateen.me/nikosh/nikosh-v1.0.woff2') format('woff2'),
-           url('https://fonts.maateen.me/nikosh/nikosh-v1.0.ttf') format('truetype');
     }
   </style>
 `;
@@ -266,8 +292,8 @@ export default function FileExamStudio({ initialExamSlug = null }) {
   const [bijoyDetected, setBijoyDetected] = useState(false);
   const [isBijoyConverted, setIsBijoyConverted] = useState(false);
 
-  // Typography
-  const [selectedFontId, setSelectedFontId] = useState('kalpurush');
+  // Typography & Smart Auto Font Detection (Bangla, English & Math)
+  const [selectedFontId, setSelectedFontId] = useState('auto');
   const activeFont = useMemo(() => {
     return BANGLA_FONTS.find(f => f.id === selectedFontId) || BANGLA_FONTS[0];
   }, [selectedFontId]);
@@ -1031,7 +1057,7 @@ export default function FileExamStudio({ initialExamSlug = null }) {
         {/* Font Picker */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <Type size={16} color="#059669" />
-          <span style={{ fontSize: '0.85rem', fontWeight: 700, color: '#334155' }}>বাংলা ফন্ট:</span>
+          <span style={{ fontSize: '0.85rem', fontWeight: 700, color: '#334155' }}>ফন্ট সিলেক্ট:</span>
           <select
             value={selectedFontId}
             onChange={(e) => setSelectedFontId(e.target.value)}
@@ -1669,17 +1695,29 @@ export default function FileExamStudio({ initialExamSlug = null }) {
                                 {serial}
                               </td>
                               <td style={{ padding: '10px 14px', fontWeight: 600, color: '#0f172a' }}>
-                                {q.question}
+                                {typeof q.question === 'string' && (q.question.includes('$') || q.question.includes('\\')) ? (
+                                  <FormattedContent content={q.question} />
+                                ) : (
+                                  q.question
+                                )}
                                 {q.subject && (
                                   <span style={{ display: 'block', fontSize: '0.75rem', color: '#0284c7', marginTop: '2px', fontWeight: 500 }}>
                                     বিষয়: {q.subject}
                                   </span>
                                 )}
                               </td>
-                              <td style={{ padding: '10px 14px', color: '#334155' }}>{optA}</td>
-                              <td style={{ padding: '10px 14px', color: '#334155' }}>{optB}</td>
-                              <td style={{ padding: '10px 14px', color: '#334155' }}>{optC}</td>
-                              <td style={{ padding: '10px 14px', color: '#334155' }}>{optD}</td>
+                              <td style={{ padding: '10px 14px', color: '#334155' }}>
+                                {typeof optA === 'string' && (optA.includes('$') || optA.includes('\\')) ? <FormattedContent content={optA} /> : optA}
+                              </td>
+                              <td style={{ padding: '10px 14px', color: '#334155' }}>
+                                {typeof optB === 'string' && (optB.includes('$') || optB.includes('\\')) ? <FormattedContent content={optB} /> : optB}
+                              </td>
+                              <td style={{ padding: '10px 14px', color: '#334155' }}>
+                                {typeof optC === 'string' && (optC.includes('$') || optC.includes('\\')) ? <FormattedContent content={optC} /> : optC}
+                              </td>
+                              <td style={{ padding: '10px 14px', color: '#334155' }}>
+                                {typeof optD === 'string' && (optD.includes('$') || optD.includes('\\')) ? <FormattedContent content={optD} /> : optD}
+                              </td>
                               <td style={{ padding: '10px 14px' }}>
                                 <span style={{
                                   display: 'inline-block',
@@ -1691,11 +1729,23 @@ export default function FileExamStudio({ initialExamSlug = null }) {
                                   border: '1px solid #a7f3d0',
                                   fontSize: '0.82rem'
                                 }}>
-                                  ✓ {q.correct_answer || '—'}
+                                  ✓ {q.correct_answer ? (
+                                    typeof q.correct_answer === 'string' && (q.correct_answer.includes('$') || q.correct_answer.includes('\\')) ? (
+                                      <FormattedContent content={q.correct_answer} />
+                                    ) : (
+                                      q.correct_answer
+                                    )
+                                  ) : '—'}
                                 </span>
                               </td>
                               <td style={{ padding: '10px 14px', color: '#64748b', fontSize: '0.82rem', lineHeight: '1.5' }}>
-                                {q.explanation || '—'}
+                                {q.explanation ? (
+                                  typeof q.explanation === 'string' && (q.explanation.includes('$') || q.explanation.includes('\\')) ? (
+                                    <FormattedContent content={q.explanation} />
+                                  ) : (
+                                    q.explanation
+                                  )
+                                ) : '—'}
                               </td>
                             </tr>
                           );
@@ -1932,7 +1982,7 @@ export default function FileExamStudio({ initialExamSlug = null }) {
                   {/* 4. Font Selection */}
                   <div style={{ background: '#ffffff', padding: '14px', borderRadius: '12px', border: '1px solid #e2e8f0' }}>
                     <label style={{ display: 'block', fontSize: '0.84rem', fontWeight: 700, color: '#334155', marginBottom: '8px' }}>
-                      বাংলা ফন্ট নির্বাচন:
+                      ফন্ট নির্বাচন (বাংলা, English, Math):
                     </label>
                     <select
                       value={selectedFontId}

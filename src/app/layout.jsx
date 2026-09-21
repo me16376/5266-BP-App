@@ -20,12 +20,11 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://fonts.maateen.me" crossOrigin="anonymous" />
         <link 
-          href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300;400;500;600;700&family=Noto+Sans+Bengali:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;600;700&family=Tiro+Bangla&family=Inter:wght@300;400;500;600;700;800&display=swap" 
+          href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300;400;500;600;700&family=Noto+Sans+Bengali:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" 
           rel="stylesheet" 
         />
         <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet" />
         <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet" />
-        <link href="https://fonts.maateen.me/nikosh/font.css" rel="stylesheet" />
         <link 
           rel="stylesheet" 
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 

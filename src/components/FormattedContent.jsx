@@ -201,12 +201,14 @@ export function formatContentHtml(rawText) {
 
 export default function FormattedContent({
   content,
+  text,
   inline = false,
   className = '',
   style = {}
 }) {
   const containerRef = useRef(null);
-  const html = useMemo(() => formatContentHtml(content), [content]);
+  const rawInput = content !== undefined ? content : text;
+  const html = useMemo(() => formatContentHtml(rawInput), [rawInput]);
 
   // Attach copy listeners for code blocks
   useEffect(() => {
