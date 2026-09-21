@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo, useEffect, useRef } from 'react';
+import React, { useState, useMemo, useEffect, useRef, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import * as XLSX from 'xlsx';
 import { 
@@ -258,7 +258,7 @@ function normalizeQuestion(rawItem, index) {
   };
 }
 
-export default function FileExamStudio({ initialExamSlug = null }) {
+function FileExamStudioInner({ initialExamSlug = null }) {
   const searchParams = useSearchParams();
   const examSlugFromUrl = searchParams ? searchParams.get('exam') : null;
   const effectiveExamSlug = initialExamSlug || examSlugFromUrl;
@@ -2666,4 +2666,14 @@ export default function FileExamStudio({ initialExamSlug = null }) {
   }
 
   return null;
+}
+
+// Exported wrapper — wraps inner component in Suspense so useSearchParams
+// works correctly in Next.js 14 static export mode.
+export default function FileExamStudio(props) {
+  return (
+    <Suspense fallback={<div style={{ padding: '80px', textAlign: 'center', color: '#059669', fontWeight: 600 }}>ফাইল এক্সাম স্টুডিও লোড হচ্ছে...</div>}>
+      <FileExamStudioInner {...props} />
+    </Suspense>
+  );
 }
