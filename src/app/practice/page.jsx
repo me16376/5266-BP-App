@@ -22,7 +22,7 @@ function PracticeContent() {
   const [mode, setMode] = useState(initialMode);
   const [examData, setExamData] = useState(null);
   const [questions, setQuestions] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [searchFilter, setSearchFilter] = useState('');
   const [selectedSubject, setSelectedSubject] = useState('all');
 
@@ -71,40 +71,45 @@ function PracticeContent() {
   if (!examSlug) {
     return (
       <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div className="glass-panel" style={{
+        <div style={{
           maxWidth: '620px',
           width: '100%',
-          padding: '48px 32px',
+          padding: '44px 32px',
           textAlign: 'center',
           background: '#ffffff',
-          borderRadius: '24px',
-          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.08)',
-          border: '1px solid var(--border-subtle)'
+          borderRadius: '16px',
+          border: '1px solid #e2e8f0',
+          boxShadow: '0 4px 16px rgba(0, 0, 0, 0.06)',
+          transition: 'none',
+          animation: 'none',
+          transform: 'none'
         }}>
           <div style={{
-            width: '84px',
-            height: '84px',
+            width: '80px',
+            height: '80px',
             borderRadius: '50%',
-            background: 'linear-gradient(135deg, #ecfdf5 0%, #e0f2fe 100%)',
+            background: '#ecfdf5',
             border: '2px solid #a7f3d0',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            margin: '0 auto 24px',
-            boxShadow: '0 8px 24px rgba(16, 185, 129, 0.15)'
+            margin: '0 auto 22px',
+            boxShadow: 'none',
+            transition: 'none',
+            animation: 'none'
           }}>
-            <BookOpen size={38} color="var(--emerald-600)" />
+            <BookOpen size={36} color="var(--emerald-600)" />
           </div>
 
           <span className="badge badge-emerald" style={{ marginBottom: '14px', padding: '6px 16px', fontSize: '0.84rem' }}>
             প্র্যাকটিস ও রিড মোড
           </span>
 
-          <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a', marginBottom: '16px', lineHeight: 1.3 }}>
+          <h2 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#0f172a', marginBottom: '16px', lineHeight: 1.3 }}>
             কোনো পরীক্ষা নির্বাচন করা হয়নি
           </h2>
 
-          <p style={{ color: 'var(--text-secondary)', fontSize: '1.05rem', lineHeight: 1.7, marginBottom: '28px' }}>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '1.02rem', lineHeight: 1.7, marginBottom: '28px' }}>
             মেইন জব সলিউশন পেজ থেকে একটা একটা এক্সাম চুজ করুন, তারপর প্র্যাকটিস করতে পারবেন।
           </p>
 
@@ -112,7 +117,7 @@ function PracticeContent() {
             <Link
               href="/exams"
               className="btn-primary"
-              style={{ padding: '13px 28px', fontSize: '1rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+              style={{ padding: '12px 26px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px', transition: 'none', transform: 'none' }}
             >
               <Layers size={18} />
               <span>জব সলিউশন পেজে যান (সকল পরীক্ষা)</span>
@@ -121,7 +126,7 @@ function PracticeContent() {
             <Link
               href="/"
               className="btn-secondary"
-              style={{ padding: '13px 24px', fontSize: '1rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+              style={{ padding: '12px 24px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px', transition: 'none', transform: 'none' }}
             >
               <span>হোম পেজে ফিরে যান</span>
             </Link>
@@ -135,8 +140,8 @@ function PracticeContent() {
   if (loading) {
     return (
       <div style={{ padding: '80px 20px', textAlign: 'center', minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div className="glass-panel" style={{ padding: '24px 36px', display: 'inline-flex', alignItems: 'center', gap: '14px', background: '#ffffff' }}>
-          <i className="fa-solid fa-circle-notch fa-spin" style={{ color: 'var(--emerald-600)', fontSize: '1.4rem' }}></i>
+        <div style={{ padding: '20px 32px', display: 'inline-flex', alignItems: 'center', gap: '12px', background: '#ffffff', borderRadius: '12px', border: '1px solid #e2e8f0', boxShadow: '0 2px 8px rgba(0,0,0,0.04)' }}>
+          <div style={{ width: '18px', height: '18px', borderRadius: '50%', border: '2px solid #cbd5e1', borderTopColor: 'var(--emerald-600)' }} />
           <span style={{ fontSize: '1rem', color: '#0f172a', fontWeight: 600 }}>প্রশ্নপত্র লোড হচ্ছে...</span>
         </div>
       </div>

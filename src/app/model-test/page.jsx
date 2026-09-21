@@ -36,7 +36,7 @@ function ModelTestContent() {
 
   const [examData, setExamData] = useState(null);
   const [questions, setQuestions] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [userAnswers, setUserAnswers] = useState({});
   const [currentIdx, setCurrentIdx] = useState(0);
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -156,66 +156,49 @@ function ModelTestContent() {
     return Math.max(15, Math.ceil(questions.length * 0.7));
   }, [questions]);
 
-  // If loading
-  if (loading) {
-    return (
-      <div style={{ minHeight: '65vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '16px' }}>
-        <div style={{
-          width: '46px',
-          height: '46px',
-          borderRadius: '50%',
-          border: '3px solid #e2e8f0',
-          borderTopColor: 'var(--emerald-600)',
-          animation: 'spin 0.8s linear infinite'
-        }} />
-        <div style={{ color: 'var(--emerald-700)', fontWeight: 700, fontSize: '1.1rem' }}>
-          মডেল টেস্ট রুম প্রস্তুত করা হচ্ছে...
-        </div>
-        <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem' }}>
-          প্রশ্নপত্র ও টাইমার লোড হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন।
-        </p>
-      </div>
-    );
-  }
-
   // If no exam selected (Show notice to pick from job solutions page)
   if (!examSlug) {
     return (
       <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div className="glass-panel" style={{
+        <div style={{
           maxWidth: '620px',
           width: '100%',
-          padding: '48px 32px',
+          padding: '44px 32px',
           textAlign: 'center',
           background: '#ffffff',
-          borderRadius: '24px',
-          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.08)',
-          border: '1px solid var(--border-subtle)'
+          borderRadius: '16px',
+          border: '1px solid #e2e8f0',
+          boxShadow: '0 4px 16px rgba(0, 0, 0, 0.06)',
+          transition: 'none',
+          animation: 'none',
+          transform: 'none'
         }}>
           <div style={{
-            width: '84px',
-            height: '84px',
+            width: '80px',
+            height: '80px',
             borderRadius: '50%',
-            background: 'linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%)',
+            background: '#fef3c7',
             border: '2px solid #fde68a',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            margin: '0 auto 24px',
-            boxShadow: '0 8px 24px rgba(245, 158, 11, 0.15)'
+            margin: '0 auto 22px',
+            boxShadow: 'none',
+            transition: 'none',
+            animation: 'none'
           }}>
-            <Timer size={38} color="#d97706" />
+            <Timer size={36} color="#d97706" />
           </div>
 
           <span className="badge badge-amber" style={{ marginBottom: '14px', padding: '6px 16px', fontSize: '0.84rem' }}>
             লাইভ মডেল টেস্ট রুম
           </span>
 
-          <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a', marginBottom: '16px', lineHeight: 1.3 }}>
+          <h2 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#0f172a', marginBottom: '16px', lineHeight: 1.3 }}>
             কোনো পরীক্ষা নির্বাচন করা হয়নি
           </h2>
 
-          <p style={{ color: 'var(--text-secondary)', fontSize: '1.05rem', lineHeight: 1.7, marginBottom: '28px' }}>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '1.02rem', lineHeight: 1.7, marginBottom: '28px' }}>
             মেইন জব সলিউশন পেজ থেকে একটা একটা এক্সাম চুজ করুন, তারপর মডেল টেস্ট দিতে পারবেন।
           </p>
 
@@ -223,7 +206,7 @@ function ModelTestContent() {
             <Link
               href="/exams"
               className="btn-primary"
-              style={{ padding: '13px 28px', fontSize: '1rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+              style={{ padding: '12px 26px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px', transition: 'none', transform: 'none' }}
             >
               <Layers size={18} />
               <span>জব সলিউশন পেজে যান (সকল পরীক্ষা)</span>
@@ -232,12 +215,34 @@ function ModelTestContent() {
             <Link
               href="/"
               className="btn-secondary"
-              style={{ padding: '13px 24px', fontSize: '1rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+              style={{ padding: '12px 24px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px', transition: 'none', transform: 'none' }}
             >
               <span>হোম পেজে ফিরে যান</span>
             </Link>
           </div>
         </div>
+      </div>
+    );
+  }
+
+  // If loading
+  if (loading) {
+    return (
+      <div style={{ minHeight: '65vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '16px' }}>
+        <div style={{
+          width: '42px',
+          height: '42px',
+          borderRadius: '50%',
+          border: '3px solid #cbd5e1',
+          borderTopColor: 'var(--emerald-600)',
+          animation: 'none'
+        }} />
+        <div style={{ color: 'var(--emerald-700)', fontWeight: 700, fontSize: '1.05rem' }}>
+          মডেল টেস্ট রুম প্রস্তুত করা হচ্ছে...
+        </div>
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem' }}>
+          প্রশ্নপত্র ও টাইমার লোড হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন।
+        </p>
       </div>
     );
   }
