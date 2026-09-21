@@ -292,7 +292,7 @@ export default function TableStudio() {
 
         const rawHtml = result.value;
 
-        // Check if the text looks like Bijoy/SutonnyMJ
+        // Check if the text looks like legacy ANSI text
         let looksBijoy = false;
         if (typeof window !== 'undefined') {
           const tempDiv = document.createElement('div');
@@ -573,51 +573,6 @@ export default function TableStudio() {
         fileType: 'docx'
       });
       setDocxHtml(demoHtml);
-      setRawDocxHtml(demoHtml);
-    } else if (type === 'bijoy') {
-      // Demo showing SutonnyMJ / Bijoy text
-      const bijoyHtml = `
-        <h2 style="color: #047857; margin-bottom: 12px; font-weight: 800;">MYcÖRvZš¿x evsjv‡\`k miKvi</h2>
-        <h3 style="color: #0f172a; margin-bottom: 16px; font-weight: 700;">evsjv‡\`k miKvix Kg© Kwgkb (wewcGmwm)</h3>
-        <p><strong>welq:</strong> ৪৬Zg wewcGm cixÿvi weMZ mv‡ji cÖkœ I DËigvjv (weRq/myZšœxGg‡R d›U ডেমো)</p>
-        <p><em>নিচের প্রশ্নগুলো পুরাতন বিজয়/সুতন্নীএমজে ফন্টে লেখা। উপরে "বিজয় ➔ ইউনিকোড" বাটনে চাপ দিয়ে প্রমিত বাংলা ইউনিকোডে রূপান্তর করে সহজে পড়ুন।</em></p>
-        <table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
-          <thead>
-            <tr style="background: #f1f5f9;">
-              <th style="border: 1px solid #cbd5e1; padding: 8px 12px; text-align: center;">µwgK</th>
-              <th style="border: 1px solid #cbd5e1; padding: 8px 12px; text-align: left;">cÖkœ</th>
-              <th style="border: 1px solid #cbd5e1; padding: 8px 12px; text-align: left;">mwVK DËi</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style="border: 1px solid #cbd5e1; padding: 8px 12px; text-align: center;">১</td>
-              <td style="border: 1px solid #cbd5e1; padding: 8px 12px;">evsjv‡\`‡ki RvZxq msm\` feb Gi ¯’cwZ †K?</td>
-              <td style="border: 1px solid #cbd5e1; padding: 8px 12px; font-weight: bold;">jyB AvB Kvb</td>
-            </tr>
-            <tr>
-              <td style="border: 1px solid #cbd5e1; padding: 8px 12px; text-align: center;">২</td>
-              <td style="border: 1px solid #cbd5e1; padding: 8px 12px;">gywRebMi miKvi KZ Zvwi‡L kc_ MÖnY K‡i?</td>
-              <td style="border: 1px solid #cbd5e1; padding: 8px 12px; font-weight: bold;">১৭ GwcÖj ১৯৭১</td>
-            </tr>
-            <tr>
-              <td style="border: 1px solid #cbd5e1; padding: 8px 12px; text-align: center;">৩</td>
-              <td style="border: 1px solid #cbd5e1; padding: 8px 12px;">cÙv †mZzi ˆ\`N©¨ KZ wK‡jvwgUvi?</td>
-              <td style="border: 1px solid #cbd5e1; padding: 8px 12px; font-weight: bold;">৬.১৫ wKwg</td>
-            </tr>
-          </tbody>
-        </table>
-      `;
-      setFileData({
-        fileName: 'demo_bijoy_question_bank.docx',
-        fileSize: '15.2 KB',
-        fileType: 'docx'
-      });
-      setRawDocxHtml(bijoyHtml);
-      const converted = convertDocxHtmlToUnicode(bijoyHtml);
-      setDocxHtml(converted);
-      setBijoyDetected(true);
-      setIsBijoyConverted(true);
     }
   };
 
@@ -977,30 +932,6 @@ export default function TableStudio() {
       </div>
 
       {/* Right: Bijoy to Unicode Toggle */}
-      <div>
-        <button
-          onClick={handleToggleBijoy}
-          style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '6px',
-            padding: '7px 14px',
-            borderRadius: '7px',
-            border: isBijoyConverted ? '1px solid #059669' : '1px solid #f59e0b',
-            background: isBijoyConverted ? '#ecfdf5' : '#fffbeb',
-            color: isBijoyConverted ? '#047857' : '#b45309',
-            fontSize: '0.84rem',
-            fontWeight: 700,
-            cursor: 'pointer',
-            transition: 'all 0.2s ease',
-            boxShadow: '0 1px 3px rgba(0,0,0,0.05)'
-          }}
-          title="বিজয় (SutonnyMJ) ফন্টে লেখা থাকলে ক্লিক করে সঠিক বাংলা ইউনিকোডে রূপান্তর করুন বা মূল রূপে ফেরত যান"
-        >
-          <Wand2 size={14} />
-          <span>{isBijoyConverted ? '✓ ইউনিকোড রূপান্তর সক্রিয় (মূল রূপে ফিরুন)' : 'বিজয় ➔ ইউনিকোড রূপান্তর'}</span>
-        </button>
-      </div>
     </div>
   );
 
@@ -1057,7 +988,7 @@ export default function TableStudio() {
               Word (.docx), Excel (.xlsx, .xls), CSV অথবা JSON ফাইল ড্রপ করুন
             </h3>
             <p style={{ color: '#475569', fontSize: '0.94rem', marginBottom: '22px', maxWidth: '640px', margin: '0 auto 22px' }}>
-              যেকোনো Word ডকুমেন্ট, স্প্রেডশিট বা ডেটাসেট সরাসরি ঝকঝকে বাংলা ফন্টে পড়ুন, বিজয় ফন্ট কনভার্ট করুন এবং <strong>এক ক্লিকে PDF হিসেবে সেভ বা এক্সপোর্ট করুন</strong>।
+              যেকোনো Word ডকুমেন্ট, স্প্রেডশিট বা ডেটাসেট সরাসরি ঝকঝকে বাংলা ফন্টে পড়ুন এবং <strong>এক ক্লিকে PDF হিসেবে সেভ বা এক্সপোর্ট করুন</strong>।
             </p>
 
             <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap', marginBottom: '24px' }}>
@@ -1074,7 +1005,7 @@ export default function TableStudio() {
                 <FileCode size={13} /> JSON ডেটা (.json)
               </span>
               <span className="badge badge-emerald" style={{ padding: '6px 12px', fontSize: '0.82rem' }}>
-                <Languages size={13} /> বাংলা ফন্ট ও বিজয় সাপোর্ট
+                <Languages size={13} /> বাংলা ফন্ট সাপোর্ট
               </span>
             </div>
 
@@ -1120,14 +1051,6 @@ export default function TableStudio() {
                 style={{ fontSize: '0.84rem', padding: '6px 14px' }}
               >
                 📝 ডেমো JSON ডেটা (.json)
-              </button>
-              <button 
-                onClick={() => loadDemoData('bijoy')} 
-                className="btn-secondary" 
-                style={{ fontSize: '0.84rem', padding: '6px 14px', border: '1px solid #f59e0b', color: '#b45309', background: '#fffbeb' }}
-                title="পুরাতন বিজয় ফন্ট টেস্ট করুন"
-              >
-                🔄 বিজয় (SutonnyMJ) ডেমো
               </button>
             </div>
           </div>
@@ -1226,57 +1149,6 @@ export default function TableStudio() {
               </button>
             </div>
           </div>
-
-          {/* Bijoy Detection Banner */}
-          {bijoyDetected && (
-            <div style={{
-              background: isBijoyConverted ? '#ecfdf5' : '#fffbeb',
-              border: isBijoyConverted ? '1px solid #a7f3d0' : '1px solid #fde68a',
-              borderRadius: '10px',
-              padding: '12px 16px',
-              marginBottom: '16px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              flexWrap: 'wrap',
-              gap: '12px'
-            }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <Wand2 size={20} color={isBijoyConverted ? '#059669' : '#d97706'} />
-                <div>
-                  <div style={{ fontWeight: 700, color: isBijoyConverted ? '#065f46' : '#92400e', fontSize: '0.92rem' }}>
-                    {isBijoyConverted 
-                      ? '✓ ফাইলটিতে বিজয় (SutonnyMJ) ফন্ট ছিল এবং স্বয়ংক্রিয়ভাবে ইউনিকোডে রূপান্তর করা হয়েছে!'
-                      : '💡 ফাইলটিতে বিজয় (SutonnyMJ/ANSI) ফন্ট শনাক্ত হয়েছে!'}
-                  </div>
-                  <div style={{ fontSize: '0.82rem', color: isBijoyConverted ? '#047857' : '#b45309' }}>
-                    {isBijoyConverted 
-                      ? 'এখন স্পষ্ট বাংলা ফন্টে পড়তে ও PDF করতে পারবেন। চাইলে মূল বিজয়েও দেখতে পারেন।'
-                      : 'লেখাগুলো স্পষ্ট ও প্রমিত ইউনিকোড বাংলায় পড়তে রূপান্তর করুন।'}
-                  </div>
-                </div>
-              </div>
-              <button
-                onClick={handleToggleBijoy}
-                className="btn-primary"
-                style={{
-                  background: isBijoyConverted ? '#059669' : '#d97706',
-                  fontSize: '0.84rem',
-                  padding: '7px 16px',
-                  border: 'none',
-                  borderRadius: '7px',
-                  color: '#ffffff',
-                  cursor: 'pointer',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '6px'
-                }}
-              >
-                <Wand2 size={14} />
-                <span>{isBijoyConverted ? 'মূল বিজয়ে দেখুন' : 'ইউনিকোডে রূপান্তর করুন'}</span>
-              </button>
-            </div>
-          )}
 
           {/* Bangla Typography & Controls Toolbar */}
           {renderBanglaToolbar()}
@@ -1395,56 +1267,7 @@ export default function TableStudio() {
             </div>
           </div>
 
-          {/* Bijoy Detection Banner for Tables */}
-          {bijoyDetected && (
-            <div style={{
-              background: isBijoyConverted ? '#ecfdf5' : '#fffbeb',
-              border: isBijoyConverted ? '1px solid #a7f3d0' : '1px solid #fde68a',
-              borderRadius: '10px',
-              padding: '12px 16px',
-              marginBottom: '16px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              flexWrap: 'wrap',
-              gap: '12px'
-            }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <Wand2 size={20} color={isBijoyConverted ? '#059669' : '#d97706'} />
-                <div>
-                  <div style={{ fontWeight: 700, color: isBijoyConverted ? '#065f46' : '#92400e', fontSize: '0.92rem' }}>
-                    {isBijoyConverted 
-                      ? '✓ টেবিলে বিজয় (SutonnyMJ) ফন্ট ছিল এবং স্বয়ংক্রিয়ভাবে ইউনিকোডে রূপান্তর করা হয়েছে!'
-                      : '💡 টেবিলে বিজয় (SutonnyMJ/ANSI) ফন্ট শনাক্ত হয়েছে!'}
-                  </div>
-                  <div style={{ fontSize: '0.82rem', color: isBijoyConverted ? '#047857' : '#b45309' }}>
-                    {isBijoyConverted 
-                      ? 'টেবিলের কলাম ও সেলগুলো এখন ইউনিকোড বাংলায় প্রদর্শিত হচ্ছে।'
-                      : 'টেবিলের হেডার ও সেলের লেখাগুলো প্রমিত ইউনিকোড বাংলায় পড়তে রূপান্তর করুন।'}
-                  </div>
-                </div>
-              </div>
-              <button
-                onClick={handleToggleBijoy}
-                className="btn-primary"
-                style={{
-                  background: isBijoyConverted ? '#059669' : '#d97706',
-                  fontSize: '0.84rem',
-                  padding: '7px 16px',
-                  border: 'none',
-                  borderRadius: '7px',
-                  color: '#ffffff',
-                  cursor: 'pointer',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '6px'
-                }}
-              >
-                <Wand2 size={14} />
-                <span>{isBijoyConverted ? 'মূল বিজয়ে দেখুন' : 'ইউনিকোডে রূপান্তর করুন'}</span>
-              </button>
-            </div>
-          )}
+
 
           {/* Bangla Typography Toolbar for Tables */}
           {renderBanglaToolbar()}

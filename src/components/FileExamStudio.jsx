@@ -777,53 +777,6 @@ export default function FileExamStudio({ initialExamSlug = null }) {
       setBijoyDetected(false);
       setIsBijoyConverted(false);
       setDurationMinutes(8);
-      setLoading(false);
-    } else if (type === 'bijoy_demo') {
-      const rawBijoyItems = [
-        {
-          'প্রশ্ন': 'evsjv‡`‡ki RvZxq msm` feb Gi ¯’cwZ †K?',
-          'ক': 'Gd Avi Lvb',
-          'খ': 'jyB AvB Kvb',
-          'গ': 'gvhnviæj Bmjvg',
-          'ঘ': 'n¨vwgjUb',
-          'সঠিক উত্তর': 'jyB AvB Kvb',
-          'ব্যাখ্যা': 'XvKvi †k‡ievsjv bM‡i Aew¯’Z RvZxq msm` feb Gi cÖavb ¯’cwZ jyB AvB Kvb (Louis I. Kahn)|',
-          'বিষয়': 'evsjv‡`k welqvewj'
-        },
-        {
-          'প্রশ্ন': 'gywRebMi miKvi KZ Zvwi‡L kc_ MÖnY K‡i?',
-          'ক': '১০ GwcÖj ১৯৭১',
-          'খ': '১৭ GwcÖj ১৯৭১',
-          'গ': '২৬ gvP© ১৯৭১',
-          'ঘ': '১৬ wW‡m¤^i ১৯৭১',
-          'সঠিক উত্তর': '১৭ GwcÖj ১৯৭১',
-          'ব্যাখ্যা': '১৭ GwcÖj ১৯৭১ Zvwi‡L ˆe`¨bv_Zjvq gywRebMi miKvi AvbyôvwbKfv‡e kc_ MÖnY K‡i|',
-          'বিষয়': 'gyw³hy×'
-        },
-        {
-          'প্রশ্ন': 'cÙv †mZzi ˆ`N©¨ KZ wK‡jvwgUvi?',
-          'ক': '৬.১৫ wKwg',
-          'খ': '৫.৮০ wKwg',
-          'গ': '৬.৫০ wKwg',
-          'ঘ': '৭.০০ wKwg',
-          'সঠিক উত্তর': '৬.১৫ wKwg',
-          'ব্যাখ্যা': 'cÙv †mZzi g~j ˆ`N©¨ ৬.১৫ wK‡jvwgUvi|',
-          'বিষয়': 'RvZxq welqvewj'
-        }
-      ];
-
-      const normalized = rawBijoyItems.map((item, idx) => normalizeQuestion(item, idx));
-      setFileName('demo_bijoy_mcq_questions.csv');
-      setFileSize('6.2 KB');
-      setExamTitle('বিজয় ফন্ট (SutonnyMJ) স্পেশাল মডেল টেস্ট');
-      setRawQuestions(normalized);
-      setBijoyDetected(true);
-
-      const converted = convertQuestionListToUnicode(normalized);
-      setQuestions(converted);
-      setIsBijoyConverted(true);
-      setDurationMinutes(5);
-      setLoading(false);
     }
   };
 
@@ -1192,30 +1145,6 @@ export default function FileExamStudio({ initialExamSlug = null }) {
       </div>
 
       {/* Right: Bijoy to Unicode Toggle */}
-      <div>
-        <button
-          onClick={handleToggleBijoy}
-          style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '6px',
-            padding: '7px 14px',
-            borderRadius: '7px',
-            border: isBijoyConverted ? '1px solid #059669' : '1px solid #f59e0b',
-            background: isBijoyConverted ? '#ecfdf5' : '#fffbeb',
-            color: isBijoyConverted ? '#047857' : '#b45309',
-            fontSize: '0.84rem',
-            fontWeight: 700,
-            cursor: 'pointer',
-            transition: 'all 0.2s ease',
-            boxShadow: '0 1px 3px rgba(0,0,0,0.05)'
-          }}
-          title="বিজয় (SutonnyMJ) ফন্টে লেখা থাকলে ক্লিক করে সঠিক বাংলা ইউনিকোডে রূপান্তর করুন বা মূল রূপে ফেরত যান"
-        >
-          <Wand2 size={14} />
-          <span>{isBijoyConverted ? '✓ ইউনিকোড রূপান্তর সক্রিয় (মূল রূপে ফিরুন)' : 'বিজয় ➔ ইউনিকোড রূপান্তর'}</span>
-        </button>
-      </div>
     </div>
   );
 
@@ -1278,7 +1207,7 @@ export default function FileExamStudio({ initialExamSlug = null }) {
               আপনার MCQ প্রশ্নপত্র ফাইলটি এখানে ড্রপ করুন
             </h3>
             <p style={{ color: '#475569', fontSize: '0.92rem', marginBottom: '20px' }}>
-              সাপোর্টেড ফরম্যাট: <strong>.csv</strong>, <strong>.json</strong>, <strong>.xlsx</strong> (বাংলা কলাম ও বিজয় ফন্ট স্বয়ংক্রিয়ভাবে রূপান্তর হবে)
+              সাপোর্টেড ফরম্যাট: <strong>.csv</strong>, <strong>.json</strong>, <strong>.xlsx</strong>
             </p>
 
             <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', flexWrap: 'wrap', marginBottom: '22px' }}>
@@ -1290,9 +1219,6 @@ export default function FileExamStudio({ initialExamSlug = null }) {
               </span>
               <span className="badge badge-cyan" style={{ padding: '6px 12px' }}>
                 <FileSpreadsheet size={13} /> Excel (.xlsx)
-              </span>
-              <span className="badge badge-emerald" style={{ padding: '6px 12px' }}>
-                <Wand2 size={13} /> বিজয় (SutonnyMJ) সাপোর্ট
               </span>
             </div>
 
@@ -1331,14 +1257,6 @@ export default function FileExamStudio({ initialExamSlug = null }) {
                 style={{ fontSize: '0.82rem', padding: '6px 12px' }}
               >
                 📝 ব্যাংক জব MCQ (.json)
-              </button>
-              <button 
-                onClick={() => loadDemoData('bijoy_demo')} 
-                className="btn-secondary" 
-                style={{ fontSize: '0.82rem', padding: '6px 12px', border: '1px solid #f59e0b', color: '#b45309', background: '#fffbeb' }}
-                title="পুরাতন বিজয়/সুতন্নী ফন্টে লেখা প্রশ্ন স্বয়ংক্রিয়ভাবে টেস্ট করুন"
-              >
-                🔄 বিজয় ফন্ট ডেমো (.csv)
               </button>
             </div>
           </div>
@@ -1482,56 +1400,7 @@ export default function FileExamStudio({ initialExamSlug = null }) {
                   </div>
                 </div>
 
-                {/* Bijoy Detection Banner */}
-                {bijoyDetected && (
-                  <div style={{
-                    background: isBijoyConverted ? '#ecfdf5' : '#fffbeb',
-                    border: isBijoyConverted ? '1px solid #a7f3d0' : '1px solid #fde68a',
-                    borderRadius: '10px',
-                    padding: '12px 16px',
-                    marginBottom: '16px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'space-between',
-                    flexWrap: 'wrap',
-                    gap: '12px'
-                  }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                      <Wand2 size={20} color={isBijoyConverted ? '#059669' : '#d97706'} />
-                      <div>
-                        <div style={{ fontWeight: 700, color: isBijoyConverted ? '#065f46' : '#92400e', fontSize: '0.92rem' }}>
-                          {isBijoyConverted 
-                            ? '✓ টেবিলে বিজয় (SutonnyMJ) ফন্ট ছিল এবং স্বয়ংক্রিয়ভাবে ইউনিকোডে রূপান্তর করা হয়েছে!'
-                            : '💡 টেবিলে বিজয় (SutonnyMJ/ANSI) ফন্ট শনাক্ত হয়েছে!'}
-                        </div>
-                        <div style={{ fontSize: '0.82rem', color: isBijoyConverted ? '#047857' : '#b45309' }}>
-                          {isBijoyConverted 
-                            ? 'টেবিলের কলাম ও সেলগুলো এখন ইউনিকোড বাংলায় প্রদর্শিত হচ্ছে।'
-                            : 'টেবিলের হেডার ও সেলের লেখাগুলো প্রমিত ইউনিকোড বাংলায় পড়তে রূপান্তর করুন।'}
-                        </div>
-                      </div>
-                    </div>
-                    <button
-                      onClick={handleToggleBijoy}
-                      className="btn-primary"
-                      style={{
-                        background: isBijoyConverted ? '#059669' : '#d97706',
-                        fontSize: '0.84rem',
-                        padding: '7px 16px',
-                        border: 'none',
-                        borderRadius: '7px',
-                        color: '#ffffff',
-                        cursor: 'pointer',
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '6px'
-                      }}
-                    >
-                      <Wand2 size={14} />
-                      <span>{isBijoyConverted ? 'মূল বিজয়ে দেখুন' : 'ইউনিকোডে রূপান্তর করুন'}</span>
-                    </button>
-                  </div>
-                )}
+
 
                 {/* Bangla Typography Toolbar (matching /file-studio/) */}
                 {renderBanglaToolbar()}

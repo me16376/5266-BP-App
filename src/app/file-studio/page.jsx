@@ -105,10 +105,10 @@ export default function FileStudioPage() {
               <div style={{ padding: '8px', borderRadius: '8px', background: '#fef3c7', color: '#d97706' }}>
                 <Languages size={20} />
               </div>
-              <h4 style={{ fontSize: '1rem', fontWeight: 700, color: '#0f172a' }}>বাংলা ফন্ট ও বিজয় রিডার</h4>
+              <h4 style={{ fontSize: '1rem', fontWeight: 700, color: '#0f172a' }}>বাংলা ফন্ট স্টুডিও</h4>
             </div>
             <p style={{ fontSize: '0.86rem', color: '#475569', lineHeight: '1.6' }}>
-              হিন্দ শিলিগুড়ি, কালপুরুষ, সোলাইমানলিপিসহ ৭টি বাংলা ফন্ট নির্বাচন এবং পুরাতন বিজয় (SutonnyMJ) ফাইলকে এক ক্লিকে স্পষ্ট ইউনিকোডে রূপান্তর।
+              কালপুরুষ, সোলাইমানলিপি ও নিকোশসহ জনপ্রিয় বাংলা ফন্ট নির্বাচন এবং টেবিল ও ডেটাসেটের ঝকঝকে স্পষ্ট ভিউ।
             </p>
           </div>
         </div>
