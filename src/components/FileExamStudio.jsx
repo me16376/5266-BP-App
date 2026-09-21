@@ -564,7 +564,8 @@ function FileExamStudioInner({ initialExamSlug = null }) {
         const text = await file.text();
         let jsonData;
         try {
-          jsonData = JSON.parse(text);
+          const cleanText = text.charCodeAt(0) === 0xFEFF ? text.slice(1) : text;
+          jsonData = JSON.parse(cleanText);
         } catch (e) {
           throw new Error('JSON ফাইলটি সঠিকভাবে ফরম্যাট করা নয়: ' + e.message);
         }

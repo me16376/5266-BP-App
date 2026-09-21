@@ -196,7 +196,8 @@ export default function TableStudio() {
         const text = await file.text();
         let parsed;
         try {
-          parsed = JSON.parse(text);
+          const cleanText = text.charCodeAt(0) === 0xFEFF ? text.slice(1) : text;
+          parsed = JSON.parse(cleanText);
         } catch (e) {
           throw new Error('JSON ফাইলটি সঠিকভাবে ফরম্যাট করা নয়: ' + e.message);
         }

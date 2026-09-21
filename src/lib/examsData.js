@@ -98,7 +98,9 @@ export async function loadExamQuestions(slugOrId) {
     try {
       const res = await fetch(encodeURI(targetFile));
       if (res.ok) {
-        const questions = await res.json();
+        const text = await res.text();
+        const cleanText = text.charCodeAt(0) === 0xFEFF ? text.slice(1) : text;
+        const questions = JSON.parse(cleanText);
         return {
           exam: examMeta,
           questions: Array.isArray(questions) ? questions : []
