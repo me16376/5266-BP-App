@@ -1,9 +1,9 @@
-name = "5266-bp-app"
+name = "5266-bp-app-v20"
 compatibility_date = "2024-09-01"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "out"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "bp-app-db"
-database_id = "07a4f37d-d04d-406d-ac5c-c71a59eba141"
+database_name = "5266-bp-app-v20"
+database_id = "fdb6ce2a-65b7-4377-83ba-611089352f80"
