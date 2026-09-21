@@ -30,6 +30,8 @@ function JobSolutionsDirectoryContent() {
   const [visibleCount, setVisibleCount] = useState(30);
   const [loading, setLoading] = useState(true);
 
+  const STORAGE_KEY_CAT = 'ujs_job_solution_filter_cat';
+
   // Suggested Bengali keywords when user types in English
   const activeSuggestions = useMemo(() => {
     return getQueryBengaliSuggestions(searchQuery);
@@ -42,11 +44,31 @@ function JobSolutionsDirectoryContent() {
     });
   }, []);
 
+  // Restore category from URL or localStorage
   useEffect(() => {
-    if (searchParams.get('cat')) {
-      setSelectedCategory(searchParams.get('cat'));
+    const urlCat = searchParams.get('cat');
+    if (urlCat) {
+      setSelectedCategory(urlCat);
+      try {
+        localStorage.setItem(STORAGE_KEY_CAT, urlCat);
+      } catch (e) {}
+    } else {
+      try {
+        const savedCat = localStorage.getItem(STORAGE_KEY_CAT);
+        if (savedCat) {
+          setSelectedCategory(savedCat);
+        }
+      } catch (e) {}
     }
   }, [searchParams]);
+
+  const handleCategorySelect = (catId) => {
+    setSelectedCategory(catId);
+    setVisibleCount(30);
+    try {
+      localStorage.setItem(STORAGE_KEY_CAT, catId);
+    } catch (e) {}
+  };
 
   // Extract unique years
   const availableYears = useMemo(() => {
@@ -394,41 +416,46 @@ function JobSolutionsDirectoryContent() {
             borderBottom: '1px solid var(--border-subtle)'
           }}>
             <button
-              onClick={() => { setSelectedCategory('all'); setVisibleCount(30); }}
+              onClick={() => handleCategorySelect('all')}
               style={{
                 padding: '8px 16px',
                 borderRadius: '8px',
                 fontSize: '0.88rem',
                 fontWeight: 600,
                 cursor: 'pointer',
-                border: selectedCategory === 'all' ? '1px solid var(--emerald-500)' : '1px solid #cbd5e1',
+                border: selectedCategory === 'all' ? '1.5px solid var(--emerald-500)' : '1px solid #cbd5e1',
                 background: selectedCategory === 'all' ? '#ecfdf5' : '#ffffff',
                 color: selectedCategory === 'all' ? '#047857' : '#475569',
+                boxShadow: selectedCategory === 'all' ? '0 2px 6px rgba(16, 185, 129, 0.2)' : 'none',
                 transition: 'all 0.15s ease'
               }}
             >
               সকল প্রশ্ন ব্যাংক ({catalog.exams?.length ? catalog.exams.length.toLocaleString('bn-BD') : '২,১৫৪'})
             </button>
 
-            {catalog.categories.map((cat) => (
-              <button
-                key={cat.id}
-                onClick={() => { setSelectedCategory(cat.id); setVisibleCount(30); }}
-                style={{
-                  padding: '8px 16px',
-                  borderRadius: '8px',
-                  fontSize: '0.88rem',
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                  border: selectedCategory === cat.id ? '1px solid var(--emerald-500)' : '1px solid #cbd5e1',
-                  background: selectedCategory === cat.id ? '#ecfdf5' : '#ffffff',
-                  color: selectedCategory === cat.id ? '#047857' : '#475569',
-                  transition: 'all 0.15s ease'
-                }}
-              >
-                {cat.name.split(' (')[0]} ({cat.exam_count?.toLocaleString('bn-BD')})
-              </button>
-            ))}
+            {catalog.categories.map((cat) => {
+              const isSelected = selectedCategory === cat.id;
+              return (
+                <button
+                  key={cat.id}
+                  onClick={() => handleCategorySelect(cat.id)}
+                  style={{
+                    padding: '8px 16px',
+                    borderRadius: '8px',
+                    fontSize: '0.88rem',
+                    fontWeight: 600,
+                    cursor: 'pointer',
+                    border: isSelected ? '1.5px solid var(--emerald-500)' : '1px solid #cbd5e1',
+                    background: isSelected ? '#ecfdf5' : '#ffffff',
+                    color: isSelected ? '#047857' : '#475569',
+                    boxShadow: isSelected ? '0 2px 6px rgba(16, 185, 129, 0.2)' : 'none',
+                    transition: 'all 0.15s ease'
+                  }}
+                >
+                  {cat.name.split(' (')[0]} ({cat.exam_count?.toLocaleString('bn-BD')})
+                </button>
+              );
+            })}
           </div>
 
           {/* Search, Year & Sort Filters */}
