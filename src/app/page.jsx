@@ -9,10 +9,8 @@ import {
   Building2, 
   School, 
   Layers, 
-  Search, 
-  Sparkles, 
-  Timer, 
-  CheckCircle2, 
+  Search,
+  Sparkles,
   ArrowRight,
   Flame,
   Zap,
@@ -206,104 +204,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 3 Core Study Modes Showcase */}
-      <section style={{ padding: '60px 0' }}>
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '36px' }}>
-            <span className="badge badge-emerald" style={{ marginBottom: '8px' }}>৩টি পড়ার ও পরীক্ষার মোড</span>
-            <h2 style={{ fontSize: '2rem', fontWeight: 800, color: '#0f172a' }}>
-              আপনার পছন্দমতো স্টাডি মোড নির্বাচন করুন
-            </h2>
-          </div>
 
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-            gap: '24px'
-          }}>
-            {/* Mode 1: Practice */}
-            <Link href="/practice?mode=practice" className="glass-card-interactive" style={{ padding: '30px' }}>
-              <div style={{
-                width: '52px',
-                height: '52px',
-                borderRadius: '12px',
-                background: '#ecfdf5',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                marginBottom: '18px',
-                border: '1px solid #a7f3d0'
-              }}>
-                <CheckCircle2 size={28} color="#059669" />
-              </div>
-              <h3 style={{ fontSize: '1.3rem', fontWeight: 700, color: '#0f172a', marginBottom: '8px' }}>
-                ১. প্র্যাকটিস মোড (Practice Mode)
-              </h3>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: '1.6', marginBottom: '18px' }}>
-                অপশনে ক্লিক করলেই সাথে সাথে সবুজ/লাল রঙে সঠিক উত্তর চিহ্নিত হবে এবং নিচে বিস্তারিত সাধারণ ব্যাখ্যা ও শর্টকাট নোট খুলবে।
-              </p>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'var(--emerald-600)', fontWeight: 600, fontSize: '0.9rem' }}>
-                <span>শুরু করুন</span>
-                <ArrowRight size={16} />
-              </div>
-            </Link>
-
-            {/* Mode 2: Read Mode */}
-            <Link href="/practice?mode=read" className="glass-card-interactive" style={{ padding: '30px' }}>
-              <div style={{
-                width: '52px',
-                height: '52px',
-                borderRadius: '12px',
-                background: '#f0fdfa',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                marginBottom: '18px',
-                border: '1px solid #99f6e4'
-              }}>
-                <BookOpen size={28} color="#0891b2" />
-              </div>
-              <h3 style={{ fontSize: '1.3rem', fontWeight: 700, color: '#0f172a', marginBottom: '8px' }}>
-                ২. পড়ুন মোড (Read / Revision Mode)
-              </h3>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: '1.6', marginBottom: '18px' }}>
-                দ্রুত রিভিশন দেওয়ার জন্য আদর্শ। প্রতিটি প্রশ্নের সঠিক উত্তর এবং বিস্তারিত রেফারেন্স আগে থেকেই দৃশ্যমান থাকবে।
-              </p>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'var(--cyan-600)', fontWeight: 600, fontSize: '0.9rem' }}>
-                <span>রিভিশন দিন</span>
-                <ArrowRight size={16} />
-              </div>
-            </Link>
-
-            {/* Mode 3: Live Exam */}
-            <Link href="/model-test" className="glass-card-interactive" style={{ padding: '30px' }}>
-              <div style={{
-                width: '52px',
-                height: '52px',
-                borderRadius: '12px',
-                background: '#fffbeb',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                marginBottom: '18px',
-                border: '1px solid #fde68a'
-              }}>
-                <Timer size={28} color="#d97706" />
-              </div>
-              <h3 style={{ fontSize: '1.3rem', fontWeight: 700, color: '#0f172a', marginBottom: '8px' }}>
-                ৩. লাইভ মডেল টেস্ট (Model Test Room)
-              </h3>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: '1.6', marginBottom: '18px' }}>
-                কাউন্টডাউন টাইমার, প্রশ্ন জাম্পিং প্যালেট, ০.৫০ নেগেটিভ মার্কিং সহ রিয়েল-টাইম এক্সাম ও নির্ভুল মার্কশিট।
-              </p>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'var(--amber-600)', fontWeight: 600, fontSize: '0.9rem' }}>
-                <span>মডেল টেস্ট দিন</span>
-                <ArrowRight size={16} />
-              </div>
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* 6 Core Categories Grid */}
       <section style={{ padding: '20px 0 60px' }}>
@@ -449,38 +350,7 @@ export default function HomePage() {
         </section>
       )}
 
-      {/* Universal File Studio Promo Banner */}
-      <section style={{ padding: '20px 0' }}>
-        <div className="container">
-          <div className="glass-panel" style={{
-            padding: '36px',
-            background: 'linear-gradient(135deg, rgba(6, 182, 212, 0.08) 0%, rgba(16, 185, 129, 0.08) 100%)',
-            border: '1px solid rgba(16, 185, 129, 0.3)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            flexWrap: 'wrap',
-            gap: '24px'
-          }}>
-            <div style={{ maxWidth: '640px' }}>
-              <span className="badge badge-cyan" style={{ marginBottom: '10px' }}>
-                <Table size={12} /> ডাটা ও ফাইল স্টুডিও
-              </span>
-              <h3 style={{ fontSize: '1.8rem', fontWeight: 800, color: '#0f172a', marginBottom: '10px' }}>
-                CSV, Excel (.xlsx) অথবা JSON ডেটা টেবিল আকারে দেখুন
-              </h3>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '0.94rem', lineHeight: '1.6' }}>
-                যেকোনো স্প্রেডশিট বা ডেটাসেট সরাসরি ব্রাউজারেই ওপেন করুন। ১০০% অফলাইন ও নিরাপদ প্রসেসিং সহ লাইভ সার্চ, সর্টিং, পেজিনেশন এবং নতুন ফরম্যাটে এক্সপোর্ট করার সুবিধা।
-              </p>
-            </div>
 
-            <Link href="/file-studio" className="btn-primary" style={{ padding: '14px 28px', fontSize: '1rem', whiteSpace: 'nowrap' }}>
-              <Table size={18} />
-              <span>টেবিল স্টুডিও ওপেন করুন</span>
-            </Link>
-          </div>
-        </div>
-      </section>
 
       <style jsx>{`
         .search-item-hover:hover {
