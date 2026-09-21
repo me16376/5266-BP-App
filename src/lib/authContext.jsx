@@ -87,7 +87,7 @@ export function AuthProvider({ children }) {
       setUser(data.user);
       localStorage.setItem('js_auth_token', data.token);
       localStorage.setItem('js_auth_user', JSON.stringify(data.user));
-      document.cookie = `auth_token=${data.token}; path=/; max-age=2592000; SameSite=Lax`;
+      document.cookie = `auth_token=${data.token}; path=/; max-age=31536000; SameSite=Lax`;
 
       return { success: true, user: data.user };
     } catch (err) {
@@ -128,7 +128,7 @@ export function AuthProvider({ children }) {
       setUser(data.user);
       localStorage.setItem('js_auth_token', data.token);
       localStorage.setItem('js_auth_user', JSON.stringify(data.user));
-      document.cookie = `auth_token=${data.token}; path=/; max-age=2592000; SameSite=Lax`;
+      document.cookie = `auth_token=${data.token}; path=/; max-age=31536000; SameSite=Lax`;
 
       return { success: true, user: data.user, message: data.message };
     } catch (err) {

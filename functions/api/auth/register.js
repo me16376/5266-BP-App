@@ -1,5 +1,5 @@
 // functions/api/auth/register.js
-import { jsonResponse, corsHeaders, generateSalt, hashPassword } from './_utils.js';
+import { jsonResponse, corsHeaders, generateSalt, hashPassword, signJwt } from './_utils.js';
 
 export async function onRequestOptions() {
   return new Response(null, { headers: corsHeaders });
@@ -10,6 +10,10 @@ export async function onRequestPost(context) {
 
   if (!env.DB) {
     return jsonResponse({ error: 'Cloudflare D1 binding (DB) is not configured' }, 500);
+  }
+
+  if (!env.JWT_SECRET) {
+    return jsonResponse({ error: 'Server JWT_SECRET is not configured in Cloudflare environment' }, 500);
   }
 
   try {
@@ -62,11 +66,18 @@ export async function onRequestPost(context) {
       return jsonResponse({ error: 'ব্যবহারকারী সংরক্ষণ করতে সমস্যা হয়েছে' }, 500);
     }
 
-    // Generate Session Token (UUID)
-    const token = crypto.randomUUID();
+    // Generate JWT Token (1 Year Expiry)
+    const token = await signJwt({
+      userId,
+      username: cleanUsername,
+      role: 'user',
+      exp: Math.floor(Date.now() / 1000) + (365 * 24 * 60 * 60)
+    }, env.JWT_SECRET);
+
+    // Save session in D1 with 365 days expiry
     await env.DB.prepare(
       `INSERT INTO sessions (token, user_id, expires_at)
-       VALUES (?, ?, datetime('now', '+30 days'))`
+       VALUES (?, ?, datetime('now', '+365 days'))`
     ).bind(token, userId).run();
 
     const user = {

@@ -1,5 +1,5 @@
 // functions/api/auth/users.js
-import { jsonResponse, corsHeaders } from './_utils.js';
+import { jsonResponse, corsHeaders, verifyJwt } from './_utils.js';
 
 export async function onRequestOptions() {
   return new Response(null, { headers: corsHeaders });
@@ -20,6 +20,19 @@ async function getRequester(request, env) {
 
   if (!token) return null;
 
+  // 1. First try verifying JWT
+  const jwtPayload = env.JWT_SECRET ? await verifyJwt(token, env.JWT_SECRET) : null;
+  if (jwtPayload && jwtPayload.userId) {
+    const user = await env.DB.prepare(
+      `SELECT id, username, name, email, role, status
+       FROM users
+       WHERE id = ?
+       LIMIT 1`
+    ).bind(jwtPayload.userId).first();
+    if (user) return user;
+  }
+
+  // 2. Fallback to sessions table (legacy tokens)
   return await env.DB.prepare(
     `SELECT u.id, u.username, u.name, u.email, u.role, u.status
      FROM sessions s
