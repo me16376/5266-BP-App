@@ -166,7 +166,7 @@ function ExamsDirectoryContent() {
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
             <span className="badge badge-emerald">পরীক্ষার তালিকা</span>
             <span style={{ fontSize: '0.86rem', color: 'var(--text-muted)' }}>
-              মোট ২,১১৯টি পরীক্ষার নির্ভুল প্রশ্নব্যাংক
+              মোট {catalog.exams?.length ? catalog.exams.length.toLocaleString('bn-BD') : '২,১৫৪'}টি পরীক্ষার নির্ভুল প্রশ্নব্যাংক
             </span>
           </div>
           <h1 style={{ fontSize: '2.4rem', fontWeight: 800, color: '#0f172a', marginBottom: '10px' }}>
@@ -202,7 +202,7 @@ function ExamsDirectoryContent() {
                 transition: 'all 0.15s ease'
               }}
             >
-              সকল পরীক্ষা ({catalog.exams.length})
+              সকল পরীক্ষা ({catalog.exams?.length ? catalog.exams.length.toLocaleString('bn-BD') : '২,১৫৪'})
             </button>
 
             {catalog.categories.map((cat) => (
@@ -221,7 +221,7 @@ function ExamsDirectoryContent() {
                   transition: 'all 0.15s ease'
                 }}
               >
-                {cat.name.split(' (')[0]} ({cat.exam_count})
+                {cat.name.split(' (')[0]} ({cat.exam_count?.toLocaleString('bn-BD')})
               </button>
             ))}
           </div>
@@ -328,7 +328,7 @@ function ExamsDirectoryContent() {
           fontSize: '0.9rem'
         }}>
           <div>
-            পাওয়া গেছে: <strong style={{ color: '#0f172a' }}>{filteredExams.length}</strong> টি পরীক্ষা
+            পাওয়া গেছে: <strong style={{ color: '#0f172a' }}>{filteredExams.length.toLocaleString('bn-BD')}</strong> টি পরীক্ষা
           </div>
         </div>
 
@@ -391,7 +391,7 @@ function ExamsDirectoryContent() {
                   </h3>
 
                   <div style={{ fontSize: '0.86rem', color: 'var(--text-muted)', marginBottom: '18px' }}>
-                    মোট প্রশ্ন: <strong style={{ color: '#1e293b' }}>{exam.question_count}</strong> টি
+                    মোট প্রশ্ন: <strong style={{ color: '#1e293b' }}>{exam.question_count?.toLocaleString('bn-BD')}</strong> টি
                   </div>
                 </div>
 
