@@ -323,7 +323,7 @@ function PracticeContent() {
               style={{ padding: '12px 26px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px', transition: 'none', transform: 'none' }}
             >
               <Layers size={18} />
-              <span>জব সলিউশন পেজে যান (সকল পরীক্ষা)</span>
+              <span>জব সলিউশন পেজে যান (সকল প্রশ্ন ব্যাংক)</span>
             </Link>
 
             <Link
@@ -518,7 +518,7 @@ function PracticeContent() {
               এই পরীক্ষার জন্য এখনও অফলাইন JSON ফাইল লোড করা হয়নি, অথবা আপনি ফাইল স্টুডিও থেকে সরাসরি লোড করতে পারেন।
             </p>
             <Link href="/job-solution" className="btn-primary">
-              সকল পরীক্ষা দেখুন
+              সকল প্রশ্ন ব্যাংক দেখুন
             </Link>
           </div>
         ) : (

@@ -86,7 +86,7 @@ export default function Footer() {
               সহায়ক সুবিধাসমূহ
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '0.9rem' }}>
-              <li><Link href="/job-solution" style={{ color: '#475569' }}>সকল বিগত পরীক্ষার তালিকা</Link></li>
+              <li><Link href="/job-solution" style={{ color: '#475569' }}>সকল প্রশ্ন ব্যাংক তালিকা</Link></li>
               <li><Link href="/job-solution-practice" style={{ color: '#475569' }}>প্রশ্নব্যাংক সার্চ ও ফিল্টার</Link></li>
               <li><Link href="/job-solution-model-test" style={{ color: '#475569' }}>মডেল টেস্ট রুম</Link></li>
               <li><Link href="/file-exam" style={{ color: '#475569' }}>ফাইল এক্সাম রুম</Link></li>

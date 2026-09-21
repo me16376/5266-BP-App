@@ -411,7 +411,7 @@ function ModelTestContent() {
               style={{ padding: '12px 26px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px', transition: 'none', transform: 'none' }}
             >
               <Layers size={18} />
-              <span>জব সলিউশন পেজে যান (সকল পরীক্ষা)</span>
+              <span>জব সলিউশন পেজে যান (সকল প্রশ্ন ব্যাংক)</span>
             </Link>
 
             <Link
@@ -469,7 +469,7 @@ function ModelTestContent() {
             মেইন জব সলিউশন পেজ থেকে একটি সঠিক পরীক্ষা নির্বাচন করুন।
           </p>
           <Link href="/job-solution" className="btn-primary" style={{ padding: '12px 24px' }}>
-            সকল পরীক্ষার তালিকা দেখুন
+            সকল প্রশ্ন ব্যাংকের তালিকা দেখুন
           </Link>
         </div>
       </div>

@@ -302,7 +302,7 @@ function JobSolutionsDirectoryContent() {
           </h2>
 
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '24px' }}>
-            প্রিয় <strong>{user.name}</strong>, আপনার অ্যাকাউন্টটি বর্তমানে পর্যালোচনার অধীনে রয়েছে। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong> বা <strong>অ্যাডমিনিস্ট্রেটর</strong> ছাড়া এই পেজটি দেখা যাবে না। সিস্টেম অ্যাডমিন অনুমোদন সম্পন্ন করার পর আপনি সকল পরীক্ষার তালিকা দেখতে পারবেন।
+            প্রিয় <strong>{user.name}</strong>, আপনার অ্যাকাউন্টটি বর্তমানে পর্যালোচনার অধীনে রয়েছে। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong> বা <strong>অ্যাডমিনিস্ট্রেটর</strong> ছাড়া এই পেজটি দেখা যাবে না। সিস্টেম অ্যাডমিন অনুমোদন সম্পন্ন করার পর আপনি সকল প্রশ্ন ব্যাংকের তালিকা দেখতে পারবেন।
           </p>
 
           <div style={{
@@ -369,13 +369,13 @@ function JobSolutionsDirectoryContent() {
         {/* Header */}
         <div style={{ marginBottom: '32px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-            <span className="badge badge-emerald">পরীক্ষার তালিকা</span>
+            <span className="badge badge-emerald">সকল প্রশ্ন ব্যাংক</span>
             <span style={{ fontSize: '0.86rem', color: 'var(--text-muted)' }}>
               মোট {catalog.exams?.length ? catalog.exams.length.toLocaleString('bn-BD') : '২,১৫৪'}টি পরীক্ষার নির্ভুল প্রশ্নব্যাংক
             </span>
           </div>
           <h1 style={{ fontSize: '2.4rem', fontWeight: 800, color: '#0f172a', marginBottom: '10px' }}>
-            সকল চাকরির পরীক্ষা ও প্রশ্নভাণ্ডার
+            সকল প্রশ্ন ব্যাংক
           </h1>
           <p style={{ color: 'var(--text-secondary)', fontSize: '1rem', maxWidth: '700px' }}>
             বিসিএস, ব্যাংক, প্রাইমারি শিক্ষক ও মন্ত্রণালয় পরীক্ষার বিগত বছরের প্রশ্নগুলো সাল ও বিষয় অনুযায়ী ফিল্টার করুন।
@@ -407,7 +407,7 @@ function JobSolutionsDirectoryContent() {
                 transition: 'all 0.15s ease'
               }}
             >
-              সকল পরীক্ষা ({catalog.exams?.length ? catalog.exams.length.toLocaleString('bn-BD') : '২,১৫৪'})
+              সকল প্রশ্ন ব্যাংক ({catalog.exams?.length ? catalog.exams.length.toLocaleString('bn-BD') : '২,১৫৪'})
             </button>
 
             {catalog.categories.map((cat) => (

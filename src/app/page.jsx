@@ -193,7 +193,7 @@ export default function HomePage() {
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '14px', flexWrap: 'wrap' }}>
             <Link href="/job-solution" className="btn-primary" style={{ padding: '14px 28px', fontSize: '1rem' }}>
               <Layers size={18} />
-              <span>সকল পরীক্ষা দেখুন ({catalog.total_exams.toLocaleString()} টি)</span>
+              <span>সকল প্রশ্ন ব্যাংক দেখুন ({catalog.total_exams.toLocaleString()} টি)</span>
             </Link>
 
             <Link href="/file-studio" className="btn-secondary" style={{ padding: '14px 24px', fontSize: '1rem' }}>
