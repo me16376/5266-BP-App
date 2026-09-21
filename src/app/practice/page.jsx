@@ -8,14 +8,15 @@ import {
   Timer, 
   ArrowLeft, 
   Search, 
-  CheckCircle2
+  CheckCircle2,
+  Layers
 } from 'lucide-react';
 import QuestionCard from '../../components/QuestionCard';
 import { loadExamQuestions, cleanExamTitle } from '../../lib/examsData';
 
 function PracticeContent() {
   const searchParams = useSearchParams();
-  const examSlug = searchParams.get('exam') || '45th-bcs-general-may-2023';
+  const examSlug = searchParams.get('exam');
   const initialMode = searchParams.get('mode') || 'practice';
 
   const [mode, setMode] = useState(initialMode);
@@ -26,10 +27,17 @@ function PracticeContent() {
   const [selectedSubject, setSelectedSubject] = useState('all');
 
   useEffect(() => {
+    if (!examSlug) {
+      setLoading(false);
+      return;
+    }
     setLoading(true);
     loadExamQuestions(examSlug).then(res => {
       setExamData(res.exam);
-      setQuestions(res.questions);
+      setQuestions(res.questions || []);
+      setLoading(false);
+    }).catch(err => {
+      console.error('Error loading questions:', err);
       setLoading(false);
     });
   }, [examSlug]);
@@ -58,6 +66,82 @@ function PracticeContent() {
       return true;
     });
   }, [questions, selectedSubject, searchFilter]);
+
+  // If no exam selected, show prompt to choose from job solutions (exams) page
+  if (!examSlug) {
+    return (
+      <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div className="glass-panel" style={{
+          maxWidth: '620px',
+          width: '100%',
+          padding: '48px 32px',
+          textAlign: 'center',
+          background: '#ffffff',
+          borderRadius: '24px',
+          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.08)',
+          border: '1px solid var(--border-subtle)'
+        }}>
+          <div style={{
+            width: '84px',
+            height: '84px',
+            borderRadius: '50%',
+            background: 'linear-gradient(135deg, #ecfdf5 0%, #e0f2fe 100%)',
+            border: '2px solid #a7f3d0',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            margin: '0 auto 24px',
+            boxShadow: '0 8px 24px rgba(16, 185, 129, 0.15)'
+          }}>
+            <BookOpen size={38} color="var(--emerald-600)" />
+          </div>
+
+          <span className="badge badge-emerald" style={{ marginBottom: '14px', padding: '6px 16px', fontSize: '0.84rem' }}>
+            প্র্যাকটিস ও রিড মোড
+          </span>
+
+          <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a', marginBottom: '16px', lineHeight: 1.3 }}>
+            কোনো পরীক্ষা নির্বাচন করা হয়নি
+          </h2>
+
+          <p style={{ color: 'var(--text-secondary)', fontSize: '1.05rem', lineHeight: 1.7, marginBottom: '28px' }}>
+            মেইন জব সলিউশন পেজ থেকে একটা একটা এক্সাম চুজ করুন, তারপর প্র্যাকটিস করতে পারবেন।
+          </p>
+
+          <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <Link
+              href="/exams"
+              className="btn-primary"
+              style={{ padding: '13px 28px', fontSize: '1rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+            >
+              <Layers size={18} />
+              <span>জব সলিউশন পেজে যান (সকল পরীক্ষা)</span>
+            </Link>
+
+            <Link
+              href="/"
+              className="btn-secondary"
+              style={{ padding: '13px 24px', fontSize: '1rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+            >
+              <span>হোম পেজে ফিরে যান</span>
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Loading questions state
+  if (loading) {
+    return (
+      <div style={{ padding: '80px 20px', textAlign: 'center', minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div className="glass-panel" style={{ padding: '24px 36px', display: 'inline-flex', alignItems: 'center', gap: '14px', background: '#ffffff' }}>
+          <i className="fa-solid fa-circle-notch fa-spin" style={{ color: 'var(--emerald-600)', fontSize: '1.4rem' }}></i>
+          <span style={{ fontSize: '1rem', color: '#0f172a', fontWeight: 600 }}>প্রশ্নপত্র লোড হচ্ছে...</span>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div style={{ padding: '40px 0 80px' }}>

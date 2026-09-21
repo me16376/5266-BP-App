@@ -45,18 +45,6 @@ function ModelTestContent() {
   const [testResult, setTestResult] = useState(null);
   const [mobilePaletteOpen, setMobilePaletteOpen] = useState(false);
   const [negativeMarkRate, setNegativeMarkRate] = useState(0.5); // Default 0.5 for BCS
-  const [popularExams, setPopularExams] = useState([]);
-
-  // Load popular exams for empty/fallback state
-  useEffect(() => {
-    if (!examSlug) {
-      getExamsCatalog().then(catalog => {
-        if (catalog && catalog.exams) {
-          setPopularExams(catalog.exams.slice(0, 12));
-        }
-      });
-    }
-  }, [examSlug]);
 
   // Load exam questions
   useEffect(() => {
@@ -190,86 +178,92 @@ function ModelTestContent() {
     );
   }
 
-  // If no exam selected (Landing / Fallback Selector)
-  if (!examSlug || !examData || questions.length === 0) {
+  // If no exam selected (Show notice to pick from job solutions page)
+  if (!examSlug) {
     return (
-      <div style={{ padding: '40px 0 80px' }}>
-        <div className="container" style={{ maxWidth: '1300px' }}>
-          <div className="glass-panel" style={{ padding: '36px', background: '#ffffff', textAlign: 'center', marginBottom: '32px' }}>
-            <div style={{
-              width: '64px',
-              height: '64px',
-              borderRadius: '16px',
-              background: '#ecfdf5',
-              border: '1px solid #a7f3d0',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              margin: '0 auto 16px',
-              color: 'var(--emerald-600)'
-            }}>
-              <Timer size={32} />
-            </div>
-
-            <h1 style={{ fontSize: '1.8rem', fontWeight: 800, color: '#0f172a', marginBottom: '10px' }}>
-              লাইভ মডেল টেস্ট রুম
-            </h1>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '0.96rem', maxWidth: '600px', margin: '0 auto 24px', lineHeight: '1.6' }}>
-              কাউন্টডাউন টাইমার, প্রশ্ন জাম্পিং প্যালেট, ০.৫০ নেগেটিভ মার্কিং সহ রিয়েল-টাইম মডেল টেস্ট দিন এবং তাৎক্ষণিক স্কোর ও ব্যাখ্যা দেখুন।
-            </p>
-
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '12px', flexWrap: 'wrap' }}>
-              <Link href="/exams" className="btn-primary" style={{ padding: '10px 22px' }}>
-                <Layers size={18} />
-                <span>সকল ২,১৫৪+ পরীক্ষার তালিকা থেকে নির্বাচন করুন</span>
-              </Link>
-              <Link href="/file-exam" className="btn-secondary" style={{ padding: '10px 20px' }}>
-                <FileSpreadsheet size={18} />
-                <span>ফাইল এক্সাম স্টুডিও (CSV/JSON)</span>
-              </Link>
-            </div>
+      <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div className="glass-panel" style={{
+          maxWidth: '620px',
+          width: '100%',
+          padding: '48px 32px',
+          textAlign: 'center',
+          background: '#ffffff',
+          borderRadius: '24px',
+          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.08)',
+          border: '1px solid var(--border-subtle)'
+        }}>
+          <div style={{
+            width: '84px',
+            height: '84px',
+            borderRadius: '50%',
+            background: 'linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%)',
+            border: '2px solid #fde68a',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            margin: '0 auto 24px',
+            boxShadow: '0 8px 24px rgba(245, 158, 11, 0.15)'
+          }}>
+            <Timer size={38} color="#d97706" />
           </div>
 
-          {popularExams.length > 0 && (
-            <div>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#0f172a', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <Sparkles size={20} color="var(--emerald-600)" />
-                <span>জনপ্রিয় মডেল টেস্টসমূহ</span>
-              </h3>
-              <div style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(290px, 1fr))',
-                gap: '16px'
-              }}>
-                {popularExams.map((exam) => (
-                  <div key={exam.id || exam.slug} className="glass-panel" style={{ padding: '20px', background: '#ffffff', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-                    <div>
-                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-                        <span className="badge badge-emerald" style={{ fontSize: '0.74rem' }}>
-                          {exam.category_name?.split(' ')[0] || 'পরীক্ষা'}
-                        </span>
-                        <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)', fontWeight: 600 }}>
-                          {exam.question_count} প্রশ্ন
-                        </span>
-                      </div>
-                      <h4 style={{ fontSize: '0.96rem', fontWeight: 700, color: '#0f172a', lineHeight: '1.5', marginBottom: '16px' }}>
-                        {cleanExamTitle(exam.title)}
-                      </h4>
-                    </div>
+          <span className="badge badge-amber" style={{ marginBottom: '14px', padding: '6px 16px', fontSize: '0.84rem' }}>
+            লাইভ মডেল টেস্ট রুম
+          </span>
 
-                    <Link
-                      href={`/model-test?exam=${exam.slug}`}
-                      className="btn-primary"
-                      style={{ padding: '8px 14px', fontSize: '0.86rem', justifyContent: 'center' }}
-                    >
-                      <Timer size={15} />
-                      <span>মডেল টেস্ট শুরু করুন</span>
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
+          <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a', marginBottom: '16px', lineHeight: 1.3 }}>
+            কোনো পরীক্ষা নির্বাচন করা হয়নি
+          </h2>
+
+          <p style={{ color: 'var(--text-secondary)', fontSize: '1.05rem', lineHeight: 1.7, marginBottom: '28px' }}>
+            মেইন জব সলিউশন পেজ থেকে একটা একটা এক্সাম চুজ করুন, তারপর মডেল টেস্ট দিতে পারবেন।
+          </p>
+
+          <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <Link
+              href="/exams"
+              className="btn-primary"
+              style={{ padding: '13px 28px', fontSize: '1rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+            >
+              <Layers size={18} />
+              <span>জব সলিউশন পেজে যান (সকল পরীক্ষা)</span>
+            </Link>
+
+            <Link
+              href="/"
+              className="btn-secondary"
+              style={{ padding: '13px 24px', fontSize: '1rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+            >
+              <span>হোম পেজে ফিরে যান</span>
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // If exam slug given but questions not found
+  if (!examData || questions.length === 0) {
+    return (
+      <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div className="glass-panel" style={{
+          maxWidth: '560px',
+          width: '100%',
+          padding: '40px 30px',
+          textAlign: 'center',
+          background: '#ffffff',
+          borderRadius: '24px',
+          border: '1px solid var(--border-subtle)'
+        }}>
+          <h3 style={{ fontSize: '1.4rem', fontWeight: 700, color: '#0f172a', marginBottom: '12px' }}>
+            পরীক্ষার প্রশ্নপত্র পাওয়া যায়নি
+          </h3>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', marginBottom: '24px' }}>
+            মেইন জব সলিউশন পেজ থেকে একটি সঠিক পরীক্ষা নির্বাচন করুন।
+          </p>
+          <Link href="/exams" className="btn-primary" style={{ padding: '12px 24px' }}>
+            সকল পরীক্ষার তালিকা দেখুন
+          </Link>
         </div>
       </div>
     );
