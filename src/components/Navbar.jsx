@@ -274,7 +274,7 @@ export default function Navbar() {
                   }}
                 >
                   <Table size={16} color={pathname === '/file-studio' ? '#047857' : '#059669'} />
-                  <span>টেবিল স্টুডিও</span>
+                  <span>ফাইল কনভার্ট</span>
                 </Link>
               </div>
             )}
@@ -756,7 +756,7 @@ export default function Navbar() {
                   }}
                 >
                   <Table size={16} color="var(--emerald-600)" />
-                  <span>টেবিল স্টুডিও</span>
+                  <span>ফাইল কনভার্ট</span>
                 </Link>
               </div>
             )}

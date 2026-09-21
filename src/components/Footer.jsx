@@ -90,7 +90,7 @@ export default function Footer() {
               <li><Link href="/job-solution-practice" style={{ color: '#475569' }}>প্রশ্নব্যাংক সার্চ ও ফিল্টার</Link></li>
               <li><Link href="/job-solution-model-test" style={{ color: '#475569' }}>মডেল টেস্ট রুম</Link></li>
               <li><Link href="/file-exam" style={{ color: '#475569' }}>ফাইল এক্সাম রুম</Link></li>
-              <li><Link href="/file-studio" style={{ color: '#475569' }}>টেবিল স্টুডিও (CSV / Excel / JSON)</Link></li>
+              <li><Link href="/file-studio" style={{ color: '#475569' }}>ফাইল কনভার্ট (CSV / Excel / JSON)</Link></li>
               <li><Link href="/bookmarks" style={{ color: '#475569' }}>ব্যক্তিগত লাইব্রেরি ও হিস্টোরি</Link></li>
             </ul>
           </div>

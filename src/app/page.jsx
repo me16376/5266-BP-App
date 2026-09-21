@@ -198,7 +198,7 @@ export default function HomePage() {
 
             <Link href="/file-studio" className="btn-secondary" style={{ padding: '14px 24px', fontSize: '1rem' }}>
               <Table size={18} />
-              <span>টেবিল স্টুডিও (CSV/Excel/JSON)</span>
+              <span>ফাইল কনভার্ট (CSV/Excel/JSON)</span>
             </Link>
           </div>
         </div>
