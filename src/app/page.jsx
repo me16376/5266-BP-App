@@ -60,7 +60,7 @@ export default function HomePage() {
   const featuredExams = catalog.exams ? catalog.exams.filter(e => e.is_curated).slice(0, 8) : [];
 
   return (
-    <div style={{ paddingBottom: '60px' }}>
+    <div>
       {/* Hero Section */}
       <section style={{
         position: 'relative',

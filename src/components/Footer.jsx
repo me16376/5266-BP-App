@@ -10,7 +10,6 @@ export default function Footer() {
       background: '#f8fafc',
       borderTop: '1px solid var(--border-subtle)',
       padding: '48px 0 24px',
-      marginTop: '80px',
       color: 'var(--text-secondary)'
     }}>
       <div className="container">
