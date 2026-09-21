@@ -216,7 +216,7 @@ function ExamsDirectoryContent() {
           </h2>
 
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '28px' }}>
-            এই পেজের বিগত ২,১৫৪টি চাকরির প্রশ্নভাণ্ডার ও সমাধান দেখতে অনুগ্রহ করে লগইন করুন। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong>, <strong>অ্যাডমিনিস্ট্রেটর</strong> বা <strong>সিস্টেম ওনার</strong> ছাড়া এই পেজটি দেখা যাবে না।
+            এই পেজের বিগত ২,১৫৪টি চাকরির প্রশ্নভাণ্ডার ও সমাধান দেখতে অনুগ্রহ করে লগইন করুন। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong> বা <strong>অ্যাডমিনিস্ট্রেটর</strong> ছাড়া এই পেজটি দেখা যাবে না।
           </p>
 
           <div style={{
@@ -302,7 +302,7 @@ function ExamsDirectoryContent() {
           </h2>
 
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '24px' }}>
-            প্রিয় <strong>{user.name}</strong>, আপনার অ্যাকাউন্টটি বর্তমানে পর্যালোচনার অধীনে রয়েছে। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong>, <strong>অ্যাডমিনিস্ট্রেটর</strong> বা <strong>সিস্টেম ওনার</strong> ছাড়া এই পেজটি দেখা যাবে না। সিস্টেম অ্যাডমিন বা ওনার অনুমোদন সম্পন্ন করার পর আপনি সকল পরীক্ষার তালিকা দেখতে পারবেন।
+            প্রিয় <strong>{user.name}</strong>, আপনার অ্যাকাউন্টটি বর্তমানে পর্যালোচনার অধীনে রয়েছে। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong> বা <strong>অ্যাডমিনিস্ট্রেটর</strong> ছাড়া এই পেজটি দেখা যাবে না। সিস্টেম অ্যাডমিন অনুমোদন সম্পন্ন করার পর আপনি সকল পরীক্ষার তালিকা দেখতে পারবেন।
           </p>
 
           <div style={{
