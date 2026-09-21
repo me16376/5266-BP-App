@@ -13,6 +13,7 @@ import {
   Sparkles,
   Table,
   FileSpreadsheet,
+  FolderOpen,
   User,
   LogIn,
   LogOut,
@@ -25,29 +26,43 @@ export default function Navbar() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
+  const [toolsDropdownOpen, setToolsDropdownOpen] = useState(false);
+  const [mobileToolsOpen, setMobileToolsOpen] = useState(true);
+
   const dropdownRef = useRef(null);
+  const toolsDropdownRef = useRef(null);
+  const toolsTimeoutRef = useRef(null);
 
   const { user, logout } = useAuth();
 
-  const navItems = [
-    { label: 'হোম', href: '/', icon: Sparkles },
-    { label: 'সকল প্রশ্ন ব্যাংক', href: '/job-solution', icon: Layers },
-    { label: 'প্র্যাকটিস ও রিড', href: '/job-solution-practice', icon: BookOpen },
-    { label: 'মডেল টেস্ট', href: '/job-solution-model-test', icon: Timer },
-    { label: 'ফাইল এক্সাম', href: '/file-exam', icon: FileSpreadsheet },
-    { label: 'টেবিল স্টুডিও', href: '/file-studio', icon: Table },
-    { label: 'বুকমার্কস', href: '/bookmarks', icon: Bookmark },
-  ];
+  const isToolsActive = pathname === '/file-exam' || pathname === '/file-studio' || pathname.startsWith('/file-tools');
 
-  // Close dropdown on outside click
+  const handleMouseEnterTools = () => {
+    if (toolsTimeoutRef.current) clearTimeout(toolsTimeoutRef.current);
+    setToolsDropdownOpen(true);
+  };
+
+  const handleMouseLeaveTools = () => {
+    toolsTimeoutRef.current = setTimeout(() => {
+      setToolsDropdownOpen(false);
+    }, 150);
+  };
+
+  // Close dropdowns on outside click
   useEffect(() => {
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setProfileDropdownOpen(false);
       }
+      if (toolsDropdownRef.current && !toolsDropdownRef.current.contains(event.target)) {
+        setToolsDropdownOpen(false);
+      }
     }
     document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      if (toolsTimeoutRef.current) clearTimeout(toolsTimeoutRef.current);
+    };
   }, []);
 
   return (
@@ -97,32 +112,222 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <nav style={{ display: 'none', alignItems: 'center', gap: '6px' }} className="desktop-nav">
-          {navItems.map((item) => {
-            const Icon = item.icon;
-            const isActive = pathname === item.href;
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
+          {/* Home */}
+          <Link
+            href="/"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              padding: '8px 14px',
+              borderRadius: '8px',
+              fontSize: '0.92rem',
+              fontWeight: 600,
+              color: pathname === '/' ? '#047857' : '#475569',
+              background: pathname === '/' ? '#ecfdf5' : 'transparent',
+              border: pathname === '/' ? '1px solid #a7f3d0' : '1px solid transparent',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            <Sparkles size={16} />
+            <span>হোম</span>
+          </Link>
+
+          {/* All Question Bank */}
+          <Link
+            href="/job-solution"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              padding: '8px 14px',
+              borderRadius: '8px',
+              fontSize: '0.92rem',
+              fontWeight: 600,
+              color: pathname === '/job-solution' ? '#047857' : '#475569',
+              background: pathname === '/job-solution' ? '#ecfdf5' : 'transparent',
+              border: pathname === '/job-solution' ? '1px solid #a7f3d0' : '1px solid transparent',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            <Layers size={16} />
+            <span>সকল প্রশ্ন ব্যাংক</span>
+          </Link>
+
+          {/* File Tools Dropdown */}
+          <div 
+            style={{ position: 'relative' }} 
+            ref={toolsDropdownRef}
+            onMouseEnter={handleMouseEnterTools}
+            onMouseLeave={handleMouseLeaveTools}
+          >
+            <button
+              onClick={() => setToolsDropdownOpen(prev => !prev)}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px',
+                padding: '8px 14px',
+                borderRadius: '8px',
+                fontSize: '0.92rem',
+                fontWeight: 600,
+                color: isToolsActive ? '#047857' : '#475569',
+                background: isToolsActive ? '#ecfdf5' : toolsDropdownOpen ? '#f8fafc' : 'transparent',
+                border: isToolsActive ? '1px solid #a7f3d0' : '1px solid transparent',
+                cursor: 'pointer',
+                transition: 'all 0.2s ease'
+              }}
+              aria-expanded={toolsDropdownOpen}
+              aria-haspopup="true"
+            >
+              <FolderOpen size={16} color={isToolsActive ? '#047857' : '#475569'} />
+              <span>ফাইল টুলস</span>
+              <ChevronDown 
+                size={14} 
                 style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px',
-                  padding: '8px 14px',
-                  borderRadius: '8px',
-                  fontSize: '0.92rem',
-                  fontWeight: 600,
-                  color: isActive ? '#047857' : '#475569',
-                  background: isActive ? '#ecfdf5' : 'transparent',
-                  border: isActive ? '1px solid #a7f3d0' : '1px solid transparent',
-                  transition: 'all 0.2s ease'
+                  transform: toolsDropdownOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+                  transition: 'transform 0.2s ease',
+                  opacity: 0.75
+                }}
+              />
+            </button>
+
+            {/* Dropdown Menu */}
+            {toolsDropdownOpen && (
+              <div 
+                className="dropdown-menu-anim"
+                style={{
+                  position: 'absolute',
+                  top: 'calc(100% + 8px)',
+                  left: 0,
+                  width: '280px',
+                  background: '#ffffff',
+                  borderRadius: '14px',
+                  boxShadow: '0 14px 35px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.05)',
+                  border: '1px solid #e2e8f0',
+                  padding: '8px',
+                  zIndex: 100
                 }}
               >
-                <Icon size={16} />
-                <span>{item.label}</span>
-              </Link>
-            );
-          })}
+                <div style={{ padding: '6px 10px 8px', borderBottom: '1px solid #f1f5f9', marginBottom: '6px' }}>
+                  <span style={{ fontSize: '0.72rem', fontWeight: 700, color: '#64748b', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                    ফাইল টুলস প্যাকেজ
+                  </span>
+                </div>
+
+                {/* Option 1: File Exam */}
+                <Link
+                  href="/file-exam"
+                  onClick={() => setToolsDropdownOpen(false)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '12px',
+                    padding: '10px 12px',
+                    borderRadius: '10px',
+                    background: pathname === '/file-exam' ? '#ecfdf5' : 'transparent',
+                    border: pathname === '/file-exam' ? '1px solid #a7f3d0' : '1px solid transparent',
+                    textDecoration: 'none',
+                    transition: 'all 0.15s ease'
+                  }}
+                  onMouseEnter={(e) => {
+                    if (pathname !== '/file-exam') e.currentTarget.style.background = '#f8fafc';
+                  }}
+                  onMouseLeave={(e) => {
+                    if (pathname !== '/file-exam') e.currentTarget.style.background = 'transparent';
+                  }}
+                >
+                  <div style={{
+                    width: '36px',
+                    height: '36px',
+                    borderRadius: '8px',
+                    background: pathname === '/file-exam' ? 'var(--emerald-500)' : '#ecfdf5',
+                    color: pathname === '/file-exam' ? '#ffffff' : '#059669',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0
+                  }}>
+                    <FileSpreadsheet size={18} />
+                  </div>
+                  <div>
+                    <div style={{ fontWeight: 700, fontSize: '0.9rem', color: pathname === '/file-exam' ? '#047857' : '#0f172a' }}>
+                      ফাইল এক্সাম
+                    </div>
+                    <div style={{ fontSize: '0.74rem', color: '#64748b', marginTop: '1px' }}>
+                      CSV, JSON বা XLSX দিয়ে মডেল টেস্ট দিন
+                    </div>
+                  </div>
+                </Link>
+
+                {/* Option 2: Table Studio */}
+                <Link
+                  href="/file-studio"
+                  onClick={() => setToolsDropdownOpen(false)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '12px',
+                    padding: '10px 12px',
+                    borderRadius: '10px',
+                    background: pathname === '/file-studio' ? '#ecfdf5' : 'transparent',
+                    border: pathname === '/file-studio' ? '1px solid #a7f3d0' : '1px solid transparent',
+                    textDecoration: 'none',
+                    transition: 'all 0.15s ease'
+                  }}
+                  onMouseEnter={(e) => {
+                    if (pathname !== '/file-studio') e.currentTarget.style.background = '#f8fafc';
+                  }}
+                  onMouseLeave={(e) => {
+                    if (pathname !== '/file-studio') e.currentTarget.style.background = 'transparent';
+                  }}
+                >
+                  <div style={{
+                    width: '36px',
+                    height: '36px',
+                    borderRadius: '8px',
+                    background: pathname === '/file-studio' ? 'var(--emerald-500)' : '#ecfdf5',
+                    color: pathname === '/file-studio' ? '#ffffff' : '#059669',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0
+                  }}>
+                    <Table size={18} />
+                  </div>
+                  <div>
+                    <div style={{ fontWeight: 700, fontSize: '0.9rem', color: pathname === '/file-studio' ? '#047857' : '#0f172a' }}>
+                      টেবিল স্টুডিও
+                    </div>
+                    <div style={{ fontSize: '0.74rem', color: '#64748b', marginTop: '1px' }}>
+                      ডাটা ভিউয়ার, এডিটর ও কনভার্টার
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            )}
+          </div>
+
+          {/* Bookmarks */}
+          <Link
+            href="/bookmarks"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              padding: '8px 14px',
+              borderRadius: '8px',
+              fontSize: '0.92rem',
+              fontWeight: 600,
+              color: pathname === '/bookmarks' ? '#047857' : '#475569',
+              background: pathname === '/bookmarks' ? '#ecfdf5' : 'transparent',
+              border: pathname === '/bookmarks' ? '1px solid #a7f3d0' : '1px solid transparent',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            <Bookmark size={16} />
+            <span>বুকমার্কস</span>
+          </Link>
         </nav>
 
         {/* Action Button: Login / Profile & Mobile Toggle */}
@@ -440,32 +645,169 @@ export default function Navbar() {
             </div>
           )}
 
-          {navItems.map((item) => {
-            const Icon = item.icon;
-            const isActive = pathname === item.href;
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={() => setMobileMenuOpen(false)}
+          {/* Mobile Navigation Links */}
+          {/* 1. Home */}
+          <Link
+            href="/"
+            onClick={() => setMobileMenuOpen(false)}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '12px',
+              padding: '12px 16px',
+              borderRadius: '10px',
+              fontSize: '0.98rem',
+              fontWeight: 600,
+              color: pathname === '/' ? '#047857' : '#1e293b',
+              background: pathname === '/' ? '#ecfdf5' : '#f8fafc',
+              border: pathname === '/' ? '1px solid #a7f3d0' : '1px solid #e2e8f0'
+            }}
+          >
+            <Sparkles size={18} />
+            <span>হোম</span>
+          </Link>
+
+          {/* 2. All Question Bank */}
+          <Link
+            href="/job-solution"
+            onClick={() => setMobileMenuOpen(false)}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '12px',
+              padding: '12px 16px',
+              borderRadius: '10px',
+              fontSize: '0.98rem',
+              fontWeight: 600,
+              color: pathname === '/job-solution' ? '#047857' : '#1e293b',
+              background: pathname === '/job-solution' ? '#ecfdf5' : '#f8fafc',
+              border: pathname === '/job-solution' ? '1px solid #a7f3d0' : '1px solid #e2e8f0'
+            }}
+          >
+            <Layers size={18} />
+            <span>সকল প্রশ্ন ব্যাংক</span>
+          </Link>
+
+          {/* 3. File Tools Accordion */}
+          <div style={{
+            borderRadius: '10px',
+            border: isToolsActive ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
+            background: isToolsActive ? '#f0fdf4' : '#f8fafc',
+            overflow: 'hidden'
+          }}>
+            <button
+              onClick={() => setMobileToolsOpen(!mobileToolsOpen)}
+              style={{
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                padding: '12px 16px',
+                background: 'transparent',
+                border: 'none',
+                cursor: 'pointer',
+                fontSize: '0.98rem',
+                fontWeight: 600,
+                color: isToolsActive ? '#047857' : '#1e293b'
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                <FolderOpen size={18} color={isToolsActive ? '#047857' : '#475569'} />
+                <span>ফাইল টুলস</span>
+              </div>
+              <ChevronDown 
+                size={16} 
                 style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '12px',
-                  padding: '12px 16px',
-                  borderRadius: '10px',
-                  fontSize: '0.98rem',
-                  fontWeight: 600,
-                  color: isActive ? '#047857' : '#1e293b',
-                  background: isActive ? '#ecfdf5' : '#f8fafc',
-                  border: isActive ? '1px solid #a7f3d0' : '1px solid #e2e8f0'
-                }}
-              >
-                <Icon size={18} />
-                <span>{item.label}</span>
-              </Link>
-            );
-          })}
+                  transform: mobileToolsOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+                  transition: 'transform 0.2s ease',
+                  opacity: 0.75
+                }} 
+              />
+            </button>
+
+            {mobileToolsOpen && (
+              <div style={{
+                padding: '4px 10px 10px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '6px',
+                borderTop: '1px solid rgba(0,0,0,0.06)'
+              }}>
+                <Link
+                  href="/file-exam"
+                  onClick={() => setMobileMenuOpen(false)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '10px',
+                    padding: '10px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.92rem',
+                    fontWeight: 600,
+                    color: pathname === '/file-exam' ? '#047857' : '#334155',
+                    background: pathname === '/file-exam' ? '#ecfdf5' : '#ffffff',
+                    border: pathname === '/file-exam' ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
+                    textDecoration: 'none'
+                  }}
+                >
+                  <FileSpreadsheet size={16} color="var(--emerald-600)" />
+                  <div style={{ display: 'flex', flexDirection: 'column' }}>
+                    <span>ফাইল এক্সাম</span>
+                    <span style={{ fontSize: '0.72rem', color: '#64748b', fontWeight: 500 }}>
+                      CSV/JSON/XLSX মডেল টেস্ট
+                    </span>
+                  </div>
+                </Link>
+
+                <Link
+                  href="/file-studio"
+                  onClick={() => setMobileMenuOpen(false)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '10px',
+                    padding: '10px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.92rem',
+                    fontWeight: 600,
+                    color: pathname === '/file-studio' ? '#047857' : '#334155',
+                    background: pathname === '/file-studio' ? '#ecfdf5' : '#ffffff',
+                    border: pathname === '/file-studio' ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
+                    textDecoration: 'none'
+                  }}
+                >
+                  <Table size={16} color="var(--emerald-600)" />
+                  <div style={{ display: 'flex', flexDirection: 'column' }}>
+                    <span>টেবিল স্টুডিও</span>
+                    <span style={{ fontSize: '0.72rem', color: '#64748b', fontWeight: 500 }}>
+                      ডাটা শিট ভিউয়ার ও কনভার্টার
+                    </span>
+                  </div>
+                </Link>
+              </div>
+            )}
+          </div>
+
+          {/* 4. Bookmarks */}
+          <Link
+            href="/bookmarks"
+            onClick={() => setMobileMenuOpen(false)}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '12px',
+              padding: '12px 16px',
+              borderRadius: '10px',
+              fontSize: '0.98rem',
+              fontWeight: 600,
+              color: pathname === '/bookmarks' ? '#047857' : '#1e293b',
+              background: pathname === '/bookmarks' ? '#ecfdf5' : '#f8fafc',
+              border: pathname === '/bookmarks' ? '1px solid #a7f3d0' : '1px solid #e2e8f0'
+            }}
+          >
+            <Bookmark size={18} />
+            <span>বুকমার্কস</span>
+          </Link>
 
           {user && (
             <Link
@@ -492,6 +834,19 @@ export default function Navbar() {
       )}
 
       <style jsx>{`
+        @keyframes dropdownFade {
+          from {
+            opacity: 0;
+            transform: translateY(6px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .dropdown-menu-anim {
+          animation: dropdownFade 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
         @media (min-width: 900px) {
           .desktop-nav {
             display: flex !important;
