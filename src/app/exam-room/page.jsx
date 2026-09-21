@@ -9,7 +9,7 @@ function ExamRoomRedirect() {
 
   useEffect(() => {
     const query = searchParams.toString();
-    const destination = query ? `/model-test?${query}` : '/model-test';
+    const destination = query ? `/job-solution-model-test/?${query}` : '/job-solution-model-test/';
     router.replace(destination);
   }, [searchParams, router]);
 

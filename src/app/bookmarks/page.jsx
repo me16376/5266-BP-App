@@ -121,7 +121,7 @@ export default function BookmarksPage() {
                 <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '20px' }}>
                   যেকোনো পরীক্ষা প্র্যাকটিস করার সময় বুকমার্ক আইকনটিতে ক্লিক করলে তা এখানে জমা থাকবে।
                 </p>
-                <Link href="/exams" className="btn-primary">
+                <Link href="/job-solution" className="btn-primary">
                   প্রশ্নব্যাংক এক্সপ্লোর করুন
                 </Link>
               </div>
@@ -152,7 +152,7 @@ export default function BookmarksPage() {
                 <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '20px' }}>
                   টাইমার সহ মডেল টেস্ট দিয়ে আপনার প্রস্তুতি যাচাই করুন।
                 </p>
-                <Link href="/model-test" className="btn-primary">
+                <Link href="/job-solution-model-test" className="btn-primary">
                   মডেল টেস্ট শুরু করুন
                 </Link>
               </div>

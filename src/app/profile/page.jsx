@@ -1238,7 +1238,7 @@ export default function ProfilePage() {
 
                 {/* Hub Card 2: Exams */}
                 <Link
-                  href="/exams"
+                  href="/job-solution"
                   style={{
                     display: 'flex',
                     alignItems: 'center',
@@ -1285,7 +1285,7 @@ export default function ProfilePage() {
 
                 {/* Hub Card 3: Model Test */}
                 <Link
-                  href="/model-test"
+                  href="/job-solution-model-test"
                   style={{
                     display: 'flex',
                     alignItems: 'center',

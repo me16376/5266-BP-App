@@ -57,12 +57,12 @@ export default function Footer() {
               প্রধান ক্যাটাগরি
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '0.9rem' }}>
-              <li><Link href="/exams?cat=bcs" style={{ color: '#475569' }}>বিসিএস প্রিলিমিনারি (১০ম-৪৬তম)</Link></li>
-              <li><Link href="/exams?cat=bank" style={{ color: '#475569' }}>সরকারি ও বাণিজ্যিক ব্যাংক নিয়োগ</Link></li>
-              <li><Link href="/exams?cat=primary" style={{ color: '#475569' }}>প্রাথমিক সহকারী শিক্ষক নিয়োগ</Link></li>
-              <li><Link href="/exams?cat=ntrca" style={{ color: '#475569' }}>শিক্ষক নিবন্ধন (NTRCA)</Link></li>
-              <li><Link href="/exams?cat=ministry" style={{ color: '#475569' }}>মন্ত্রণালয় ও পিএসসি নন-ক্যাডার</Link></li>
-              <li><Link href="/exams?cat=subject" style={{ color: '#475569' }}>বিষয়ভিত্তিক প্রশ্নব্যাংক ও নোট</Link></li>
+              <li><Link href="/job-solution?cat=bcs" style={{ color: '#475569' }}>বিসিএস প্রিলিমিনারি (১০ম-৪৬তম)</Link></li>
+              <li><Link href="/job-solution?cat=bank" style={{ color: '#475569' }}>সরকারি ও বাণিজ্যিক ব্যাংক নিয়োগ</Link></li>
+              <li><Link href="/job-solution?cat=primary" style={{ color: '#475569' }}>প্রাথমিক সহকারী শিক্ষক নিয়োগ</Link></li>
+              <li><Link href="/job-solution?cat=ntrca" style={{ color: '#475569' }}>শিক্ষক নিবন্ধন (NTRCA)</Link></li>
+              <li><Link href="/job-solution?cat=ministry" style={{ color: '#475569' }}>মন্ত্রণালয় ও পিএসসি নন-ক্যাডার</Link></li>
+              <li><Link href="/job-solution?cat=subject" style={{ color: '#475569' }}>বিষয়ভিত্তিক প্রশ্নব্যাংক ও নোট</Link></li>
             </ul>
           </div>
 
@@ -72,9 +72,9 @@ export default function Footer() {
               পড়ার ও পরীক্ষার মোড
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '0.9rem' }}>
-              <li><Link href="/practice?mode=practice" style={{ color: '#475569' }}>প্র্যাকটিস মোড (তাৎক্ষণিক ব্যাখ্যা)</Link></li>
-              <li><Link href="/practice?mode=read" style={{ color: '#475569' }}>পড়ুন মোড (রিভিশন ও উত্তরসহ)</Link></li>
-              <li><Link href="/model-test" style={{ color: '#475569' }}>লাইভ মডেল টেস্ট (টাইমার ও স্কোর)</Link></li>
+              <li><Link href="/job-solution-practice?mode=practice" style={{ color: '#475569' }}>প্র্যাকটিস মোড (তাৎক্ষণিক ব্যাখ্যা)</Link></li>
+              <li><Link href="/job-solution-practice?mode=read" style={{ color: '#475569' }}>পড়ুন মোড (রিভিশন ও উত্তরসহ)</Link></li>
+              <li><Link href="/job-solution-model-test" style={{ color: '#475569' }}>লাইভ মডেল টেস্ট (টাইমার ও স্কোর)</Link></li>
               <li><Link href="/file-exam" style={{ color: '#475569' }}>ফাইল এক্সাম স্টুডিও (CSV/JSON/XLSX)</Link></li>
               <li><Link href="/bookmarks" style={{ color: '#475569' }}>বুকমার্ক ও সংরক্ষিত প্রশ্নমালা</Link></li>
             </ul>
@@ -86,9 +86,9 @@ export default function Footer() {
               সহায়ক সুবিধাসমূহ
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '0.9rem' }}>
-              <li><Link href="/exams" style={{ color: '#475569' }}>সকল বিগত পরীক্ষার তালিকা</Link></li>
-              <li><Link href="/practice" style={{ color: '#475569' }}>প্রশ্নব্যাংক সার্চ ও ফিল্টার</Link></li>
-              <li><Link href="/model-test" style={{ color: '#475569' }}>মডেল টেস্ট রুম</Link></li>
+              <li><Link href="/job-solution" style={{ color: '#475569' }}>সকল বিগত পরীক্ষার তালিকা</Link></li>
+              <li><Link href="/job-solution-practice" style={{ color: '#475569' }}>প্রশ্নব্যাংক সার্চ ও ফিল্টার</Link></li>
+              <li><Link href="/job-solution-model-test" style={{ color: '#475569' }}>মডেল টেস্ট রুম</Link></li>
               <li><Link href="/file-exam" style={{ color: '#475569' }}>ফাইল এক্সাম রুম</Link></li>
               <li><Link href="/file-studio" style={{ color: '#475569' }}>টেবিল স্টুডিও (CSV / Excel / JSON)</Link></li>
               <li><Link href="/bookmarks" style={{ color: '#475569' }}>ব্যক্তিগত লাইব্রেরি ও হিস্টোরি</Link></li>

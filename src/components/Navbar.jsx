@@ -31,9 +31,9 @@ export default function Navbar() {
 
   const navItems = [
     { label: 'হোম', href: '/', icon: Sparkles },
-    { label: 'সকল পরীক্ষা', href: '/exams', icon: Layers },
-    { label: 'প্র্যাকটিস ও রিড', href: '/practice', icon: BookOpen },
-    { label: 'মডেল টেস্ট', href: '/model-test', icon: Timer },
+    { label: 'সকল পরীক্ষা', href: '/job-solution', icon: Layers },
+    { label: 'প্র্যাকটিস ও রিড', href: '/job-solution-practice', icon: BookOpen },
+    { label: 'মডেল টেস্ট', href: '/job-solution-model-test', icon: Timer },
     { label: 'ফাইল এক্সাম', href: '/file-exam', icon: FileSpreadsheet },
     { label: 'টেবিল স্টুডিও', href: '/file-studio', icon: Table },
     { label: 'বুকমার্কস', href: '/bookmarks', icon: Bookmark },

@@ -162,7 +162,7 @@ export default function ResultModal({
             </button>
 
             <Link
-              href="/exams"
+              href="/job-solution"
               className="btn-secondary"
               style={{ flex: 1, padding: '10px' }}
             >

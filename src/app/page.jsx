@@ -131,7 +131,7 @@ export default function HomePage() {
                 }}
               />
               <Link
-                href={`/exams?q=${encodeURIComponent(searchQuery)}`}
+                href={`/job-solution?q=${encodeURIComponent(searchQuery)}`}
                 className="btn-primary"
                 style={{
                   position: 'absolute',
@@ -163,7 +163,7 @@ export default function HomePage() {
                 {searchResults.map((item) => (
                   <Link
                     key={item.id}
-                    href={`/practice?exam=${item.slug}`}
+                    href={`/job-solution-practice?exam=${item.slug}`}
                     style={{
                       display: 'flex',
                       alignItems: 'center',
@@ -191,7 +191,7 @@ export default function HomePage() {
 
           {/* CTA Buttons */}
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '14px', flexWrap: 'wrap' }}>
-            <Link href="/exams" className="btn-primary" style={{ padding: '14px 28px', fontSize: '1rem' }}>
+            <Link href="/job-solution" className="btn-primary" style={{ padding: '14px 28px', fontSize: '1rem' }}>
               <Layers size={18} />
               <span>সকল পরীক্ষা দেখুন ({catalog.total_exams.toLocaleString()} টি)</span>
             </Link>
@@ -216,7 +216,7 @@ export default function HomePage() {
                 প্রধান পরীক্ষার ক্যাটাগরিসমূহ
               </h2>
             </div>
-            <Link href="/exams" className="btn-secondary" style={{ padding: '8px 18px', fontSize: '0.88rem' }}>
+            <Link href="/job-solution" className="btn-secondary" style={{ padding: '8px 18px', fontSize: '0.88rem' }}>
               সকল ক্যাটাগরি এক্সপ্লোর করুন
             </Link>
           </div>
@@ -231,7 +231,7 @@ export default function HomePage() {
               return (
                 <Link
                   key={cat.id}
-                  href={`/exams?cat=${cat.id}`}
+                  href={`/job-solution?cat=${cat.id}`}
                   className="glass-card-interactive"
                   style={{ padding: '24px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}
                 >
@@ -294,7 +294,7 @@ export default function HomePage() {
                   জনপ্রিয় ও নির্বাচিত পরীক্ষা
                 </h2>
               </div>
-              <Link href="/exams" style={{ color: 'var(--emerald-600)', fontSize: '0.9rem', fontWeight: 700 }}>
+              <Link href="/job-solution" style={{ color: 'var(--emerald-600)', fontSize: '0.9rem', fontWeight: 700 }}>
                 সবগুলো দেখুন ({catalog.total_exams.toLocaleString()}) →
               </Link>
             </div>
@@ -329,14 +329,14 @@ export default function HomePage() {
 
                   <div style={{ display: 'flex', gap: '8px' }}>
                     <Link
-                      href={`/practice?exam=${exam.slug}&mode=practice`}
+                      href={`/job-solution-practice?exam=${exam.slug}&mode=practice`}
                       className="btn-primary"
                       style={{ flex: 1, padding: '8px 12px', fontSize: '0.82rem' }}
                     >
                       প্র্যাকটিস
                     </Link>
                     <Link
-                      href={`/model-test?exam=${exam.slug}`}
+                      href={`/job-solution-model-test?exam=${exam.slug}`}
                       className="btn-secondary"
                       style={{ flex: 1, padding: '8px 12px', fontSize: '0.82rem' }}
                     >
