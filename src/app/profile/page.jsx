@@ -438,8 +438,7 @@ export default function ProfilePage() {
                   justifyContent: 'center',
                   fontSize: '2.4rem',
                   fontWeight: 800,
-                  flexShrink: 0,
-                  fontFamily: "'Hind Siliguri', 'Noto Sans Bengali', sans-serif"
+                  flexShrink: 0
                 }}>
                   {user.name ? user.name.charAt(0) : <i className="fa-solid fa-user"></i>}
                 </div>
@@ -452,7 +451,6 @@ export default function ProfilePage() {
                       fontWeight: 800,
                       color: '#ffffff',
                       margin: 0,
-                      fontFamily: "'Hind Siliguri', 'Anek Bangla', sans-serif",
                       lineHeight: 1.2
                     }}>
                       {user.name}
@@ -469,8 +467,7 @@ export default function ProfilePage() {
                       fontWeight: 700,
                       display: 'inline-flex',
                       alignItems: 'center',
-                      gap: '5px',
-                      fontFamily: "'Hind Siliguri', sans-serif"
+                      gap: '5px'
                     }}>
                       {isOwner ? (
                         <>
@@ -501,8 +498,7 @@ export default function ProfilePage() {
                       fontWeight: 700,
                       display: 'inline-flex',
                       alignItems: 'center',
-                      gap: '5px',
-                      fontFamily: "'Hind Siliguri', sans-serif"
+                      gap: '5px'
                     }}>
                       <i 
                         className={user.status === 'approved' ? "fa-solid fa-circle-check" : "fa-solid fa-hourglass-half"} 
@@ -519,8 +515,7 @@ export default function ProfilePage() {
                     gap: '14px',
                     color: 'rgba(255, 255, 255, 0.9)',
                     fontSize: '0.88rem',
-                    flexWrap: 'wrap',
-                    fontFamily: "'Hind Siliguri', 'Inter', sans-serif"
+                    flexWrap: 'wrap'
                   }}>
                     <span style={{ display: 'inline-flex', alignItems: 'center', gap: '5px' }}>
                       <i className="fa-solid fa-at" style={{ opacity: 0.85, fontSize: '0.8rem' }}></i>
@@ -551,8 +546,7 @@ export default function ProfilePage() {
                   fontSize: '0.88rem',
                   fontWeight: 600,
                   cursor: 'pointer',
-                  transition: 'all 0.2s ease',
-                  fontFamily: "'Hind Siliguri', sans-serif"
+                  transition: 'all 0.2s ease'
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.background = '#ef4444';

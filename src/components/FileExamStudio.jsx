@@ -48,10 +48,9 @@ import FormattedContent from './FormattedContent';
 const OPTION_LABELS = ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
 
 const BANGLA_FONTS = [
-  { id: 'hind', name: 'হিন্দ শিলিগুড়ি (Hind Siliguri)', family: "'Hind Siliguri', sans-serif", badge: 'ডিফল্ট' },
-  { id: 'kalpurush', name: 'কালপুরুষ (Kalpurush / Classic)', family: "'Kalpurush', 'SolaimanLipi', 'Hind Siliguri', sans-serif", badge: 'জনপ্রিয়' },
-  { id: 'solaiman', name: 'সোলাইমান লিপি (SolaimanLipi)', family: "'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif", badge: 'ক্লিন' },
-  { id: 'nikosh', name: 'নিকোশ (Nikosh / Govt)', family: "'Nikosh', 'SolaimanLipi', 'Hind Siliguri', sans-serif", badge: 'সরকারি' },
+  { id: 'kalpurush', name: 'কালপুরুষ (Kalpurush / Classic)', family: "'Kalpurush', 'SolaimanLipi', 'Anek Bangla', sans-serif", badge: 'ডিফল্ট' },
+  { id: 'solaiman', name: 'সোলাইমান লিপি (SolaimanLipi)', family: "'SolaimanLipi', 'Kalpurush', 'Anek Bangla', sans-serif", badge: 'ক্লিন' },
+  { id: 'nikosh', name: 'নিকোশ (Nikosh / Govt)', family: "'Nikosh', 'SolaimanLipi', 'Kalpurush', sans-serif", badge: 'সরকারি' },
   { id: 'noto', name: 'নোটো সান্স বাংলা (Noto Sans)', family: "'Noto Sans Bengali', sans-serif", badge: 'আধুনিক' },
   { id: 'anek', name: 'আনেক বাংলা (Anek Bangla)', family: "'Anek Bangla', sans-serif", badge: 'স্টাইলিশ' },
   { id: 'tiro', name: 'তিরো বাংলা (Tiro Bangla)', family: "'Tiro Bangla', serif", badge: 'সেরিফ' },
@@ -62,7 +61,7 @@ const FONT_ASSETS_HTML = `
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.maateen.me" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;600;700&family=Hind+Siliguri:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Serif+Bengali:wght@400;600;700&family=Tiro+Bangla&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Serif+Bengali:wght@400;600;700&family=Tiro+Bangla&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
   <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
   <link href="https://fonts.maateen.me/nikosh/font.css" rel="stylesheet">
@@ -268,7 +267,7 @@ export default function FileExamStudio({ initialExamSlug = null }) {
   const [isBijoyConverted, setIsBijoyConverted] = useState(false);
 
   // Typography
-  const [selectedFontId, setSelectedFontId] = useState('hind');
+  const [selectedFontId, setSelectedFontId] = useState('kalpurush');
   const activeFont = useMemo(() => {
     return BANGLA_FONTS.find(f => f.id === selectedFontId) || BANGLA_FONTS[0];
   }, [selectedFontId]);

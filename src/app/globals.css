@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Sans+Bengali:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;600;700&family=Tiro+Bangla&family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300;400;500;600;700&family=Noto+Sans+Bengali:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;600;700&family=Tiro+Bangla&family=Inter:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.maateen.me/kalpurush/font.css');
 @import url('https://fonts.maateen.me/solaiman-lipi/font.css');
 @import url('https://fonts.maateen.me/nikosh/font.css');
@@ -47,12 +47,11 @@
 }
 
 :root {
-  --font-sans: 'Hind Siliguri', 'Anek Bangla', 'Noto Sans Bengali', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-hind: 'Hind Siliguri', sans-serif;
+  --font-sans: 'Kalpurush', 'SolaimanLipi', 'Anek Bangla', 'Noto Sans Bengali', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-kalpurush: 'Kalpurush', 'SolaimanLipi', 'Anek Bangla', sans-serif;
+  --font-solaiman: 'SolaimanLipi', 'Kalpurush', 'Anek Bangla', sans-serif;
   --font-anek: 'Anek Bangla', sans-serif;
   --font-noto: 'Noto Sans Bengali', sans-serif;
-  --font-kalpurush: 'Kalpurush', 'Hind Siliguri', sans-serif;
-  --font-solaiman: 'SolaimanLipi', 'Hind Siliguri', sans-serif;
   --font-tiro: 'Tiro Bangla', serif;
   --font-nikosh: 'Nikosh', 'SolaimanLipi', 'Kalpurush', sans-serif;
   --font-noto-serif: 'Noto Serif Bengali', serif;
