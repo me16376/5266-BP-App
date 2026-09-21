@@ -1,1 +1,0 @@
-﻿INSERT INTO users (username, name, email, password_hash, role, status, last_login) VALUES ('mosabber', 'Mosabber', 'mosabber.tech@gmail.com', '72069373a88b218710ef59de915f2254:62b04b333f6fd94f54fff98891f21d160b63e584c9e0a19f96906bdf65cfdf91', 'owner', 'approved', CURRENT_TIMESTAMP);
