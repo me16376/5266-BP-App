@@ -1,0 +1,149 @@
+/* ==========================================================================
+   5266 AI Assistant — Compact Gemini Sidepanel Styling Override
+   Specifically eliminates huge gaps between math equations and markdown nodes
+   ========================================================================== */
+
+/* 1. Global CSS Variable Overrides for Gemini Spacing System */
+:root,
+body,
+.md-content,
+.markdown,
+.markdown-main-panel,
+.model-response-text,
+message-content {
+  --gem-sys-spacing-v-small: 3px !important;
+  --gem-sys-spacing-v-medium: 6px !important;
+  --gem-sys-spacing-v-large: 8px !important;
+  --gem-sys-spacing-vertical: 6px !important;
+  --gem-sys-spacing-paragraph: 6px !important;
+}
+
+/* 2. Direct Override on Gemini's Specific @scope Rule (from DevTools) */
+@scope (.md-content) to (.no-md > *) {
+  :where(*) + :where(*):not(#_) {
+    margin-top: 6px !important;
+  }
+
+  /* Math Block Outer Wrapper Divs (e.g. <div data-path-to-node="8">) */
+  div:has(> .math-block),
+  div:has(> [data-math]),
+  [data-path-to-node]:has(.math-block),
+  [data-path-to-node]:has([data-math]),
+  .math-block {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* Consecutive Math Equations in Derivations */
+  div:has(> .math-block) + div:has(> .math-block),
+  div:has(> [data-math]) + div:has(> [data-math]),
+  [data-path-to-node]:has(.math-block) + [data-path-to-node]:has(.math-block),
+  [data-path-to-node]:has([data-math]) + [data-path-to-node]:has([data-math]) {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+  }
+
+  /* Paragraphs inside markdown */
+  p {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    line-height: 1.52 !important;
+  }
+
+  /* Paragraphs containing math formulas */
+  p:has(.katex),
+  p:has(.katex-display) {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+  }
+
+  /* Ordered and unordered lists */
+  ul, ol {
+    margin-top: 3px !important;
+    margin-bottom: 4px !important;
+    padding-left: 18px !important;
+  }
+
+  li {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+  }
+}
+
+/* 3. Global Direct Selectors (Fallback & Reinforcement with Maximum Specificity) */
+.md-content :where(*) + :where(*):not(#_),
+.markdown :where(*) + :where(*):not(#_),
+.model-response-text :where(*) + :where(*):not(#_),
+message-content :where(*) + :where(*):not(#_) {
+  margin-top: 6px !important;
+}
+
+/* Target all outer wrapper divs that hold math-block elements */
+.md-content div:has(> .math-block),
+.markdown div:has(> .math-block),
+.md-content [data-path-to-node]:has(.math-block),
+.markdown [data-path-to-node]:has(.math-block),
+div[data-path-to-node]:has(> .math-block),
+div[data-path-to-node]:has(.math-block),
+div[data-path-to-node]:has([data-math]),
+div:has(> .math-block),
+div:has(> [data-math]),
+.math-block,
+.katex-display {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 1.35 !important;
+}
+
+/* When equations follow each other immediately (like step-by-step math) */
+div:has(> .math-block) + div:has(> .math-block),
+div:has(> [data-math]) + div:has(> [data-math]),
+[data-path-to-node]:has(.math-block) + [data-path-to-node]:has(.math-block),
+[data-path-to-node]:has([data-math]) + [data-path-to-node]:has([data-math]),
+div[data-path-to-node]:has(.math-block) + div[data-path-to-node]:has(.math-block) {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}
+
+/* Inner math block container */
+.math-block {
+  display: block !important;
+  margin: 0 !important;
+  padding: 1px 0 !important;
+  text-align: center !important;
+}
+
+.math-block .katex-display {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 4. Markdown Paragraphs & List Tightening */
+.md-content p,
+.markdown p,
+p[data-path-to-node] {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  line-height: 1.52 !important;
+}
+
+.md-content p:has(.katex),
+.markdown p:has(.katex),
+p[data-path-to-node]:has(.katex) {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}
+
+/* Hide empty or placeholder paragraphs */
+p:empty,
+.md-content p:empty,
+.markdown p:empty,
+message-content p:empty {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}

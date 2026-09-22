@@ -12,9 +12,9 @@ import {
   ArrowUpDown,
   Sparkles
 } from 'lucide-react';
-import { getExamsCatalog, cleanExamTitle } from '../../../lib/examsData';
-import { matchesExamSearch, getQueryBengaliSuggestions } from '../../../lib/searchUtils';
-import { useAuth } from '../../../lib/authContext';
+import { getExamsCatalog, cleanExamTitle } from '../../../../lib/examsData';
+import { matchesExamSearch, getQueryBengaliSuggestions } from '../../../../lib/searchUtils';
+import { useAuth } from '../../../../lib/authContext';
 
 function JobSolutionsDirectoryContent() {
   const { user, loading: authLoading, logout } = useAuth();

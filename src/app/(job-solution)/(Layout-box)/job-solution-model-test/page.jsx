@@ -22,13 +22,13 @@ import {
   Layers,
   FileSpreadsheet
 } from 'lucide-react';
-import ExamTimer from '../../../components/ExamTimer';
-import QuestionNavGrid from '../../../components/QuestionNavGrid';
-import QuestionCard from '../../../components/QuestionCard';
-import ResultModal from '../../../components/ResultModal';
-import { loadExamQuestions, getExamsCatalog, cleanExamTitle } from '../../../lib/examsData';
-import { saveTestResult } from '../../../lib/storage';
-import { useAuth } from '../../../lib/authContext';
+import ExamTimer from '../../../../components/ExamTimer';
+import QuestionNavGrid from '../../../../components/QuestionNavGrid';
+import QuestionCard from '../../../../components/QuestionCard';
+import ResultModal from '../../../../components/ResultModal';
+import { loadExamQuestions, getExamsCatalog, cleanExamTitle } from '../../../../lib/examsData';
+import { saveTestResult } from '../../../../lib/storage';
+import { useAuth } from '../../../../lib/authContext';
 
 function ModelTestContent() {
   const { user, loading: authLoading, logout } = useAuth();

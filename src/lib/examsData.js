@@ -92,9 +92,12 @@ export async function loadExamQuestions(slugOrId) {
 
   // Find metadata in catalog
   const examMeta = await getExamBySlug(slugOrId);
-  const targetFile = examMeta?.file;
+  let targetFile = examMeta?.file;
 
   if (targetFile) {
+    if (targetFile.startsWith('/data/exams/')) {
+      targetFile = targetFile.replace('/data/exams/', '/data/job-solution/');
+    }
     try {
       const res = await fetch(encodeURI(targetFile));
       if (res.ok) {

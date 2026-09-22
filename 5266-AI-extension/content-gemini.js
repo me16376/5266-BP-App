@@ -3,6 +3,133 @@
 (function () {
   console.log('🤖 5266 AI Assistant active on Gemini (URL:', window.location.href, ')');
 
+  // Inject compact styles to remove huge empty gaps around math formulas and paragraphs
+  function injectCompactStyles() {
+    const existing = document.getElementById('5266-compact-gemini-style');
+    if (existing) return;
+    const style = document.createElement('style');
+    style.id = '5266-compact-gemini-style';
+    style.textContent = `
+      :root, body, .md-content, .markdown, .model-response-text, message-content {
+        --gem-sys-spacing-v-small: 3px !important;
+        --gem-sys-spacing-v-medium: 6px !important;
+        --gem-sys-spacing-v-large: 8px !important;
+        --gem-sys-spacing-vertical: 6px !important;
+        --gem-sys-spacing-paragraph: 6px !important;
+      }
+
+      /* Direct Override on Gemini's Specific @scope Rule */
+      @scope (.md-content) to (.no-md > *) {
+        :where(*) + :where(*):not(#_) {
+          margin-top: 6px !important;
+        }
+
+        /* Target math block wrapper divs specifically */
+        div:has(> .math-block),
+        div:has(> [data-math]),
+        [data-path-to-node]:has(.math-block),
+        [data-path-to-node]:has([data-math]),
+        .math-block {
+          margin-top: 2px !important;
+          margin-bottom: 2px !important;
+          padding-top: 0 !important;
+          padding-bottom: 0 !important;
+        }
+
+        div:has(> .math-block) + div:has(> .math-block),
+        div:has(> [data-math]) + div:has(> [data-math]),
+        [data-path-to-node]:has(.math-block) + [data-path-to-node]:has(.math-block) {
+          margin-top: 2px !important;
+          margin-bottom: 2px !important;
+        }
+
+        p {
+          margin-top: 5px !important;
+          margin-bottom: 5px !important;
+          line-height: 1.52 !important;
+        }
+
+        p:has(.katex),
+        p:has(.katex-display) {
+          margin-top: 2px !important;
+          margin-bottom: 2px !important;
+        }
+
+        ul, ol {
+          margin-top: 3px !important;
+          margin-bottom: 4px !important;
+          padding-left: 18px !important;
+        }
+        li {
+          margin-top: 2px !important;
+          margin-bottom: 2px !important;
+        }
+      }
+
+      /* Global Fallback Selectors */
+      .md-content :where(*) + :where(*):not(#_),
+      .markdown :where(*) + :where(*):not(#_),
+      message-content :where(*) + :where(*):not(#_) {
+        margin-top: 6px !important;
+      }
+
+      .md-content div:has(> .math-block),
+      .markdown div:has(> .math-block),
+      .md-content [data-path-to-node]:has(.math-block),
+      .markdown [data-path-to-node]:has(.math-block),
+      div[data-path-to-node]:has(> .math-block),
+      div[data-path-to-node]:has(.math-block),
+      div[data-path-to-node]:has([data-math]),
+      div:has(> .math-block),
+      div:has(> [data-math]),
+      .math-block,
+      .katex-display {
+        margin-top: 2px !important;
+        margin-bottom: 2px !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        line-height: 1.35 !important;
+      }
+
+      div:has(> .math-block) + div:has(> .math-block),
+      div:has(> [data-math]) + div:has(> [data-math]),
+      [data-path-to-node]:has(.math-block) + [data-path-to-node]:has(.math-block),
+      div[data-path-to-node]:has(.math-block) + div[data-path-to-node]:has(.math-block) {
+        margin-top: 2px !important;
+        margin-bottom: 2px !important;
+      }
+
+      .math-block {
+        display: block !important;
+        margin: 0 !important;
+        padding: 1px 0 !important;
+        text-align: center !important;
+      }
+      .math-block .katex-display {
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      .md-content p, .markdown p, p[data-path-to-node] {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        line-height: 1.52 !important;
+      }
+
+      p:empty, .md-content p:empty, .markdown p:empty {
+        display: none !important;
+        margin: 0 !important;
+      }
+    `;
+    (document.head || document.documentElement).appendChild(style);
+  }
+
+  injectCompactStyles();
+  setInterval(injectCompactStyles, 2000);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', injectCompactStyles);
+  }
+
   // Monitor and save active conversation URL
   function saveCurrentChatUrl() {
     try {

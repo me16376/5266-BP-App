@@ -11,9 +11,9 @@ import {
   CheckCircle2,
   Layers
 } from 'lucide-react';
-import QuestionCard from '../../../components/QuestionCard';
-import { loadExamQuestions, cleanExamTitle } from '../../../lib/examsData';
-import { useAuth } from '../../../lib/authContext';
+import QuestionCard from '../../../../components/QuestionCard';
+import { loadExamQuestions, cleanExamTitle } from '../../../../lib/examsData';
+import { useAuth } from '../../../../lib/authContext';
 
 function PracticeContent() {
   const { user, loading: authLoading, logout } = useAuth();

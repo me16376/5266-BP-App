@@ -35,16 +35,14 @@
     "https://gemini.google.com/*",
     "http://localhost/*",
     "http://127.0.0.1/*",
-    "https://*.pages.dev/*",
-    "https://*.topmcqbd.com/*"
+    "https://*.pages.dev/*"
   ],
   "content_scripts": [
     {
       "matches": [
         "http://localhost/*",
         "http://127.0.0.1/*",
-        "https://*.pages.dev/*",
-        "https://*.topmcqbd.com/*"
+        "https://*.pages.dev/*"
       ],
       "js": ["content-site.js"],
       "run_at": "document_start"
@@ -53,8 +51,9 @@
       "matches": [
         "https://gemini.google.com/*"
       ],
+      "css": ["gemini-custom.css"],
       "js": ["content-gemini.js"],
-      "run_at": "document_idle",
+      "run_at": "document_start",
       "all_frames": true
     }
   ],
@@ -69,7 +68,7 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["icons/*", "sidepanel.html"],
+      "resources": ["icons/*", "sidepanel.html", "gemini-custom.css"],
       "matches": ["<all_urls>"]
     }
   ]

@@ -1,4 +1,4 @@
-// 5266 AI Assistant — Content Script for Website (localhost, pages.dev, topmcqbd.com)
+// 5266 AI Assistant — Content Script for Website (localhost, pages.dev)
 
 (function () {
   // Safe helper to check if extension context is valid
@@ -63,7 +63,7 @@
     if (!event.data || typeof event.data !== 'object') return;
     if (!isExtensionValid()) return;
 
-    if (event.data.type === '5266_ASK_AI' || event.data.type === 'TOPMCQBD_ASK_AI') {
+    if (event.data.type === '5266_ASK_AI') {
       const payload = event.data.payload;
 
       try {

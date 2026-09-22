@@ -15,8 +15,8 @@ function isAllowedUrl(url) {
     if (host === '5266-bp-app.pages.dev' || host.endsWith('.5266-bp-app.pages.dev')) {
       return true;
     }
-    // Any pages.dev preview or topmcqbd
-    if (host.endsWith('.pages.dev') || host.includes('topmcqbd')) {
+    // Any pages.dev preview
+    if (host.endsWith('.pages.dev')) {
       return true;
     }
     return false;
@@ -171,7 +171,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   }
 
   // 2. From Website: Ask AI triggered on an MCQ
-  if (message.type === '5266_ASK_AI' || message.type === 'TOPMCQBD_ASK_AI') {
+  if (message.type === '5266_ASK_AI') {
     const payload = message.payload || {};
     const formattedPrompt = formatBengaliPrompt(payload);
 

@@ -26,16 +26,32 @@ export default function Navbar() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
+  const [jobSolutionsDropdownOpen, setJobSolutionsDropdownOpen] = useState(false);
+  const [mobileJobSolutionsOpen, setMobileJobSolutionsOpen] = useState(true);
   const [toolsDropdownOpen, setToolsDropdownOpen] = useState(false);
   const [mobileToolsOpen, setMobileToolsOpen] = useState(true);
 
   const dropdownRef = useRef(null);
+  const jobSolutionsDropdownRef = useRef(null);
+  const jobSolutionsTimeoutRef = useRef(null);
   const toolsDropdownRef = useRef(null);
   const toolsTimeoutRef = useRef(null);
 
   const { user, logout } = useAuth();
 
+  const isJobSolutionActive = pathname === '/job-solution' || pathname.startsWith('/job-solution');
   const isToolsActive = pathname === '/file-exam' || pathname === '/file-studio' || pathname.startsWith('/file-tools');
+
+  const handleMouseEnterJobSolutions = () => {
+    if (jobSolutionsTimeoutRef.current) clearTimeout(jobSolutionsTimeoutRef.current);
+    setJobSolutionsDropdownOpen(true);
+  };
+
+  const handleMouseLeaveJobSolutions = () => {
+    jobSolutionsTimeoutRef.current = setTimeout(() => {
+      setJobSolutionsDropdownOpen(false);
+    }, 150);
+  };
 
   const handleMouseEnterTools = () => {
     if (toolsTimeoutRef.current) clearTimeout(toolsTimeoutRef.current);
@@ -54,6 +70,9 @@ export default function Navbar() {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setProfileDropdownOpen(false);
       }
+      if (jobSolutionsDropdownRef.current && !jobSolutionsDropdownRef.current.contains(event.target)) {
+        setJobSolutionsDropdownOpen(false);
+      }
       if (toolsDropdownRef.current && !toolsDropdownRef.current.contains(event.target)) {
         setToolsDropdownOpen(false);
       }
@@ -61,6 +80,7 @@ export default function Navbar() {
     document.addEventListener('mousedown', handleClickOutside);
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
+      if (jobSolutionsTimeoutRef.current) clearTimeout(jobSolutionsTimeoutRef.current);
       if (toolsTimeoutRef.current) clearTimeout(toolsTimeoutRef.current);
     };
   }, []);
@@ -141,26 +161,146 @@ export default function Navbar() {
             <span>হোম</span>
           </Link>
 
-          {/* All Question Bank */}
-          <Link
-            href="/job-solution"
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px',
-              padding: '8px 14px',
-              borderRadius: '8px',
-              fontSize: '0.92rem',
-              fontWeight: 600,
-              color: pathname === '/job-solution' ? '#047857' : '#475569',
-              background: pathname === '/job-solution' ? '#ecfdf5' : 'transparent',
-              border: pathname === '/job-solution' ? '1px solid #a7f3d0' : '1px solid transparent',
-              transition: 'all 0.2s ease'
-            }}
+          {/* All Question Bank Dropdown (Layout box & Layout smart) */}
+          <div 
+            style={{ position: 'relative' }} 
+            ref={jobSolutionsDropdownRef}
+            onMouseEnter={handleMouseEnterJobSolutions}
+            onMouseLeave={handleMouseLeaveJobSolutions}
           >
-            <Layers size={16} />
-            <span>সকল প্রশ্ন ব্যাংক</span>
-          </Link>
+            <button
+              onClick={() => setJobSolutionsDropdownOpen(prev => !prev)}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px',
+                padding: '8px 14px',
+                borderRadius: '8px',
+                fontSize: '0.92rem',
+                fontWeight: 600,
+                fontFamily: 'inherit',
+                lineHeight: 1.5,
+                color: isJobSolutionActive ? '#047857' : '#475569',
+                background: isJobSolutionActive ? '#ecfdf5' : jobSolutionsDropdownOpen ? '#f8fafc' : 'transparent',
+                border: isJobSolutionActive ? '1px solid #a7f3d0' : '1px solid transparent',
+                cursor: 'pointer',
+                transition: 'all 0.2s ease'
+              }}
+              aria-expanded={jobSolutionsDropdownOpen}
+              aria-haspopup="true"
+            >
+              <Layers size={16} color={isJobSolutionActive ? '#047857' : '#475569'} />
+              <span>সকল প্রশ্ন ব্যাংক</span>
+              <ChevronDown 
+                size={14} 
+                style={{
+                  transform: jobSolutionsDropdownOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+                  transition: 'transform 0.2s ease',
+                  opacity: 0.75
+                }}
+              />
+            </button>
+
+            {/* Dropdown Menu */}
+            {jobSolutionsDropdownOpen && (
+              <div 
+                className="dropdown-menu-anim"
+                style={{
+                  position: 'absolute',
+                  top: 'calc(100% + 8px)',
+                  left: 0,
+                  width: '235px',
+                  background: '#ffffff',
+                  borderRadius: '12px',
+                  boxShadow: '0 12px 30px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.04)',
+                  border: '1px solid #e2e8f0',
+                  padding: '6px',
+                  zIndex: 100
+                }}
+              >
+                {/* Option 1: Layout box */}
+                <Link
+                  href="/job-solution"
+                  onClick={() => setJobSolutionsDropdownOpen(false)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '10px',
+                    padding: '8px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.92rem',
+                    fontWeight: 600,
+                    color: pathname === '/job-solution' ? '#047857' : '#1e293b',
+                    background: pathname === '/job-solution' ? '#ecfdf5' : 'transparent',
+                    border: pathname === '/job-solution' ? '1px solid #a7f3d0' : '1px solid transparent',
+                    textDecoration: 'none',
+                    transition: 'all 0.15s ease'
+                  }}
+                  onMouseEnter={(e) => {
+                    if (pathname !== '/job-solution') e.currentTarget.style.background = '#f8fafc';
+                  }}
+                  onMouseLeave={(e) => {
+                    if (pathname !== '/job-solution') e.currentTarget.style.background = 'transparent';
+                  }}
+                >
+                  <Layers size={16} color={pathname === '/job-solution' ? '#047857' : '#059669'} style={{ marginTop: '2px', flexShrink: 0 }} />
+                  <div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <span>Layout box</span>
+                    </div>
+                    <span style={{ fontSize: '0.74rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px' }}>
+                      পরীক্ষাভিত্তিক প্রশ্নব্যাংক
+                    </span>
+                  </div>
+                </Link>
+
+                {/* Option 2: Layout smart */}
+                <Link
+                  href="/job-solution-question"
+                  onClick={() => setJobSolutionsDropdownOpen(false)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '10px',
+                    padding: '8px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.92rem',
+                    fontWeight: 600,
+                    color: pathname === '/job-solution-question' ? '#047857' : '#1e293b',
+                    background: pathname === '/job-solution-question' ? '#ecfdf5' : 'transparent',
+                    border: pathname === '/job-solution-question' ? '1px solid #a7f3d0' : '1px solid transparent',
+                    textDecoration: 'none',
+                    transition: 'all 0.15s ease'
+                  }}
+                  onMouseEnter={(e) => {
+                    if (pathname !== '/job-solution-question') e.currentTarget.style.background = '#f8fafc';
+                  }}
+                  onMouseLeave={(e) => {
+                    if (pathname !== '/job-solution-question') e.currentTarget.style.background = 'transparent';
+                  }}
+                >
+                  <Sparkles size={16} color={pathname === '/job-solution-question' ? '#047857' : '#0284c7'} style={{ marginTop: '2px', flexShrink: 0 }} />
+                  <div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <span>Layout smart</span>
+                      <span style={{
+                        fontSize: '0.65rem',
+                        padding: '1px 5px',
+                        borderRadius: '6px',
+                        background: '#eff6ff',
+                        color: '#2563eb',
+                        border: '1px solid #bfdbfe',
+                        fontWeight: 700
+                      }}>Soon</span>
+                    </div>
+                    <span style={{ fontSize: '0.74rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px' }}>
+                      প্রশ্নভিত্তিক জব সল্যুশন
+                    </span>
+                  </div>
+                </Link>
+              </div>
+            )}
+          </div>
 
           {/* File Tools Dropdown */}
           <div 
@@ -650,26 +790,110 @@ export default function Navbar() {
             <span>হোম</span>
           </Link>
 
-          {/* 2. All Question Bank */}
-          <Link
-            href="/job-solution"
-            onClick={() => setMobileMenuOpen(false)}
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '12px',
-              padding: '12px 16px',
-              borderRadius: '10px',
-              fontSize: '0.95rem',
-              fontWeight: 600,
-              color: pathname === '/job-solution' ? '#047857' : '#1e293b',
-              background: pathname === '/job-solution' ? '#ecfdf5' : '#f8fafc',
-              border: pathname === '/job-solution' ? '1px solid #a7f3d0' : '1px solid #e2e8f0'
-            }}
-          >
-            <Layers size={18} />
-            <span>সকল প্রশ্ন ব্যাংক</span>
-          </Link>
+          {/* 2. All Question Bank Accordion */}
+          <div style={{
+            borderRadius: '10px',
+            border: isJobSolutionActive ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
+            background: isJobSolutionActive ? '#f0fdf4' : '#f8fafc',
+            overflow: 'hidden'
+          }}>
+            <button
+              onClick={() => setMobileJobSolutionsOpen(!mobileJobSolutionsOpen)}
+              style={{
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                padding: '12px 16px',
+                background: 'transparent',
+                border: 'none',
+                cursor: 'pointer',
+                fontSize: '0.95rem',
+                fontWeight: 600,
+                fontFamily: 'inherit',
+                color: isJobSolutionActive ? '#047857' : '#1e293b'
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                <Layers size={18} color={isJobSolutionActive ? '#047857' : '#475569'} />
+                <span>সকল প্রশ্ন ব্যাংক</span>
+              </div>
+              <ChevronDown 
+                size={16} 
+                style={{
+                  transform: mobileJobSolutionsOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+                  transition: 'transform 0.2s ease',
+                  opacity: 0.75
+                }} 
+              />
+            </button>
+
+            {mobileJobSolutionsOpen && (
+              <div style={{
+                padding: '4px 10px 10px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '6px',
+                borderTop: '1px solid rgba(0,0,0,0.06)'
+              }}>
+                <Link
+                  href="/job-solution"
+                  onClick={() => setMobileMenuOpen(false)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    padding: '10px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.95rem',
+                    fontWeight: 600,
+                    color: pathname === '/job-solution' ? '#047857' : '#334155',
+                    background: pathname === '/job-solution' ? '#ecfdf5' : '#ffffff',
+                    border: pathname === '/job-solution' ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
+                    textDecoration: 'none'
+                  }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <Layers size={16} color="var(--emerald-600)" />
+                    <span>Layout box</span>
+                  </div>
+                  <span style={{ fontSize: '0.75rem', color: '#64748b' }}>পরীক্ষাভিত্তিক</span>
+                </Link>
+
+                <Link
+                  href="/job-solution-question"
+                  onClick={() => setMobileMenuOpen(false)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    padding: '10px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.95rem',
+                    fontWeight: 600,
+                    color: pathname === '/job-solution-question' ? '#047857' : '#334155',
+                    background: pathname === '/job-solution-question' ? '#ecfdf5' : '#ffffff',
+                    border: pathname === '/job-solution-question' ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
+                    textDecoration: 'none'
+                  }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <Sparkles size={16} color="#0284c7" />
+                    <span>Layout smart</span>
+                  </div>
+                  <span style={{
+                    fontSize: '0.68rem',
+                    padding: '1px 6px',
+                    borderRadius: '10px',
+                    background: '#eff6ff',
+                    color: '#2563eb',
+                    border: '1px solid #bfdbfe',
+                    fontWeight: 700
+                  }}>Soon</span>
+                </Link>
+              </div>
+            )}
+          </div>
 
           {/* 3. File Tools Accordion */}
           <div style={{
