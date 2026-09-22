@@ -15,6 +15,10 @@ const btnReload = document.getElementById('btnReload');
 const btnNewChat = document.getElementById('btnNewChat');
 const btnOpenTab = document.getElementById('btnOpenTab');
 
+// Quick prompt follow-up buttons
+const btnOtherOptions = document.getElementById('btnOtherOptions');
+const btnShortcuts = document.getElementById('btnShortcuts');
+
 // Drawer elements
 const questionDrawer = document.getElementById('questionDrawer');
 const drawerQuestionText = document.getElementById('drawerQuestionText');
@@ -62,6 +66,46 @@ function cleanText(str) {
     .trim();
 }
 
+// Core: Send arbitrary prompt / follow-up text to Gemini
+function sendPromptToGemini(text, toastMessage = '🚀 জেমিনিতে পাঠানো হয়েছে') {
+  if (!text) {
+    showToast('⚠️ কোনো প্রম্পট পাওয়া যায়নি');
+    return;
+  }
+
+  currentPromptText = text;
+
+  // 1. Update storage to trigger content-gemini listener
+  chrome.storage.local.set({
+    currentPrompt: text,
+    promptTrigger: Date.now(),
+    autoSubmitPending: true,
+    updatedAt: Date.now()
+  });
+
+  // 2. Broadcast via chrome.runtime
+  try {
+    chrome.runtime.sendMessage({
+      type: 'EXECUTE_GEMINI_PROMPT',
+      prompt: text
+    }, () => {
+      if (chrome.runtime.lastError) {}
+    });
+  } catch (e) {}
+
+  // 3. Post directly to Gemini iframe window
+  if (geminiFrame && geminiFrame.contentWindow) {
+    try {
+      geminiFrame.contentWindow.postMessage({
+        type: '5266_INJECT_PROMPT',
+        prompt: text
+      }, '*');
+    } catch (e) {}
+  }
+
+  showToast(toastMessage);
+}
+
 // Update UI with MCQ Details
 function renderMCQ(mcq, prompt) {
   if (!mcq || (!mcq.question && !mcq.question_text)) {
@@ -85,9 +129,29 @@ function renderMCQ(mcq, prompt) {
   const optionLabels = ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
   if (options.length > 0) {
     drawerOptionsList.innerHTML = options
-      .map((opt, i) => `<div><strong>${optionLabels[i] || (i + 1)})</strong> ${cleanText(opt)}</div>`)
+      .map((opt, i) => {
+        const lbl = optionLabels[i] || (i + 1);
+        const txt = cleanText(opt);
+        return `
+          <div class="clickable-option-row" data-label="${lbl}" data-text="${encodeURIComponent(txt)}" title="অপশনটি নিয়ে জেমিনিতে জিজ্ঞাসা করতে ক্লিক করুন">
+            <span class="opt-label">${lbl})</span>
+            <span class="opt-content">${txt}</span>
+            <span class="opt-ask-badge">ব্যাখ্যা চান ↗</span>
+          </div>
+        `;
+      })
       .join('');
     drawerOptionsList.style.display = 'block';
+
+    // Click handler for individual options
+    drawerOptionsList.querySelectorAll('.clickable-option-row').forEach(row => {
+      row.addEventListener('click', () => {
+        const lbl = row.getAttribute('data-label');
+        const txt = decodeURIComponent(row.getAttribute('data-text') || '');
+        const followUp = `এই প্রশ্নে '${lbl}) ${txt}' অপশনটি কেন সঠিক বা ভুল এবং এর সাথে সম্পর্কিত দরকারি বিষয়গুলো বুঝিয়ে দাও।`;
+        sendPromptToGemini(followUp, `🔍 অপশন (${lbl}) বিশ্লেষণ চাওয়া হয়েছে`);
+      });
+    });
   } else {
     drawerOptionsList.style.display = 'none';
   }
@@ -110,44 +174,7 @@ function toggleDrawer(forceState) {
   }
 }
 
-// Actions
-function handleSendToGemini() {
-  if (!currentPromptText) {
-    showToast('⚠️ কোনো প্রশ্ন সক্রিয় নেই');
-    return;
-  }
-
-  chrome.storage.local.set({
-    promptTrigger: Date.now(),
-    autoSubmitPending: true,
-    updatedAt: Date.now()
-  });
-
-  // Broadcast to content script
-  try {
-    chrome.runtime.sendMessage({
-      type: 'EXECUTE_GEMINI_PROMPT',
-      prompt: currentPromptText
-    }, () => {
-      if (chrome.runtime.lastError) {
-        // Intentionally suppressed
-      }
-    });
-  } catch (e) {}
-
-  // Post directly to iframe
-  if (geminiFrame && geminiFrame.contentWindow) {
-    try {
-      geminiFrame.contentWindow.postMessage({
-        type: '5266_INJECT_PROMPT',
-        prompt: currentPromptText
-      }, '*');
-    } catch (e) {}
-  }
-
-  showToast('🚀 জেমিনিতে পাঠানো হয়েছে');
-}
-
+// Quick Copy
 function handleCopyPrompt() {
   if (!currentPromptText) {
     showToast('⚠️ কোনো প্রম্পট পাওয়া যায়নি');
@@ -164,7 +191,28 @@ function handleCopyPrompt() {
 
 // Event Listeners
 btnQuickCopy.addEventListener('click', handleCopyPrompt);
-btnQuickSend.addEventListener('click', handleSendToGemini);
+btnQuickSend.addEventListener('click', () => {
+  if (currentPromptText) {
+    sendPromptToGemini(currentPromptText, '🚀 জেমিনিতে পুনরায় পাঠানো হয়েছে');
+  } else {
+    showToast('⚠️ কোনো প্রশ্ন সক্রিয় নেই');
+  }
+});
+
+// 2 Dedicated Quick Action Buttons
+if (btnOtherOptions) {
+  btnOtherOptions.addEventListener('click', () => {
+    const text = 'অন্যান্য অপশনগুলো কেন ভুল বা তাদের প্রাসঙ্গিক গুরুত্বপূর্ণ তথ্য দাও';
+    sendPromptToGemini(text, '🔍 অপশনগুলোর বিশ্লেষণ চাওয়া হয়েছে');
+  });
+}
+
+if (btnShortcuts) {
+  btnShortcuts.addEventListener('click', () => {
+    const text = 'ভবিষ্যতে পরীক্ষায় মনে রাখার সহজ টেকনিক ও শর্টকাট কৌশল দাও';
+    sendPromptToGemini(text, '⚡ শর্টকাট ও টেকনিক চাওয়া হয়েছে');
+  });
+}
 
 btnToggleDrawer.addEventListener('click', () => toggleDrawer());
 headerSnippet.addEventListener('click', () => toggleDrawer());

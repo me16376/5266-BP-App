@@ -311,30 +311,37 @@ export default function QuestionCard({
           </button>
         ) : <div />}
 
-        {/* 5266 AI Assistant Trigger Button */}
+        {/* 5266 AI Assistant Trigger Button & Follow-ups */}
         {(isPractice || isRead || showResult) && (
-          <button
-            onClick={handleAskAI}
-            title="5266 AI Assistant দিয়ে গুগল জেমিনিতে তাৎক্ষণিক ব্যাখ্যা পান"
-            style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '6px',
-              padding: '5px 12px',
-              borderRadius: '8px',
-              background: '#ecfdf5',
-              border: '1px solid #a7f3d0',
-              color: '#047857',
-              fontSize: '0.82rem',
-              fontWeight: 700,
-              cursor: 'pointer',
-              transition: 'all 0.2s ease',
-              marginLeft: 'auto'
-            }}
-          >
-            <Sparkles size={14} color="#059669" />
-            <span>5266 AI ব্যাখ্যা</span>
-          </button>
+          <div style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+            marginLeft: 'auto',
+            flexWrap: 'wrap'
+          }}>
+            <button
+              onClick={handleAskAI}
+              title="5266 AI Assistant দিয়ে গুগল জেমিনিতে প্রশ্ন ও অপশন পাঠান"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '6px',
+                padding: '5px 12px',
+                borderRadius: '8px',
+                background: '#ecfdf5',
+                border: '1px solid #a7f3d0',
+                color: '#047857',
+                fontSize: '0.82rem',
+                fontWeight: 700,
+                cursor: 'pointer',
+                transition: 'all 0.2s ease'
+              }}
+            >
+              <Sparkles size={14} color="#059669" />
+              <span>5266 AI ব্যাখ্যা</span>
+            </button>
+          </div>
         )}
       </div>
 

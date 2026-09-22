@@ -1,21 +1,103 @@
 // 5266 AI Assistant — Background Service Worker
 
-// Enable Side Panel on action click
+// Helper: Check if a URL belongs to 5266 app
+function isAllowedUrl(url) {
+  if (!url || typeof url !== 'string') return false;
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.toLowerCase();
+    
+    // localhost or 127.0.0.1
+    if (host === 'localhost' || host === '127.0.0.1') {
+      return true;
+    }
+    // 5266-bp-app on Cloudflare Pages
+    if (host === '5266-bp-app.pages.dev' || host.endsWith('.5266-bp-app.pages.dev')) {
+      return true;
+    }
+    // Any pages.dev preview or topmcqbd
+    if (host.endsWith('.pages.dev') || host.includes('topmcqbd')) {
+      return true;
+    }
+    return false;
+  } catch (e) {
+    return false;
+  }
+}
+
+// Helper: Synchronize side panel state per-tab
+async function syncTabSidePanel(tabId, url) {
+  if (!chrome.sidePanel || !chrome.sidePanel.setOptions) return;
+  if (!url) return;
+
+  const allowed = isAllowedUrl(url);
+  if (allowed) {
+    await chrome.sidePanel.setOptions({
+      tabId,
+      path: 'sidepanel.html',
+      enabled: true
+    }).catch(() => {});
+  } else {
+    // Disable side panel on other websites, new tab (chrome://), etc.
+    await chrome.sidePanel.setOptions({
+      tabId,
+      enabled: false
+    }).catch(() => {});
+  }
+}
+
+// Initialize on install: Side panel disabled by default for non-app tabs
 chrome.runtime.onInstalled.addListener(() => {
+  if (chrome.sidePanel && chrome.sidePanel.setOptions) {
+    chrome.sidePanel.setOptions({ enabled: false }).catch(() => {});
+  }
   if (chrome.sidePanel && chrome.sidePanel.setPanelBehavior) {
-    chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: true }).catch(err => {
-      console.warn('Side panel behavior config error:', err);
-    });
+    chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: false }).catch(() => {});
   }
   console.log('5266 AI Assistant Extension installed successfully!');
 });
 
-// Fallback click listener to open side panel
-chrome.action.onClicked.addListener((tab) => {
-  if (chrome.sidePanel && chrome.sidePanel.open && tab.windowId) {
-    chrome.sidePanel.open({ windowId: tab.windowId }).catch(err => {
-      console.warn('Failed to open sidepanel:', err);
-    });
+// Initialize on startup
+chrome.runtime.onStartup.addListener(() => {
+  if (chrome.sidePanel && chrome.sidePanel.setOptions) {
+    chrome.sidePanel.setOptions({ enabled: false }).catch(() => {});
+  }
+});
+
+// Listen for tab navigation / update
+chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+  const url = changeInfo.url || tab?.url;
+  if (url) {
+    syncTabSidePanel(tabId, url);
+  }
+});
+
+// Listen for tab activation (switching tabs)
+chrome.tabs.onActivated.addListener(async (activeInfo) => {
+  try {
+    const tab = await chrome.tabs.get(activeInfo.tabId);
+    if (tab && tab.url) {
+      syncTabSidePanel(activeInfo.tabId, tab.url);
+    }
+  } catch (e) {}
+});
+
+// Fallback click listener on extension icon (only opens for allowed tabs)
+chrome.action.onClicked.addListener(async (tab) => {
+  if (!tab || !tab.id) return;
+  if (isAllowedUrl(tab.url)) {
+    try {
+      await chrome.sidePanel.setOptions({
+        tabId: tab.id,
+        path: 'sidepanel.html',
+        enabled: true
+      });
+      await chrome.sidePanel.open({ tabId: tab.id });
+    } catch (err) {
+      if (tab.windowId) {
+        chrome.sidePanel.open({ windowId: tab.windowId }).catch(() => {});
+      }
+    }
   }
 });
 
@@ -41,7 +123,7 @@ function cleanText(str) {
     .trim();
 }
 
-// Helper: Format MCQ prompt in Bengali (Only Question & Options, prefixed with 5266-bp-app for persistent chat naming)
+// Helper: Format MCQ prompt in Bengali — ONLY Question & Options
 function formatBengaliPrompt(mcq) {
   const qText = cleanText(mcq.question || mcq.question_text || '');
   const options = Array.isArray(mcq.options) ? mcq.options.map(cleanText) : [];
@@ -49,32 +131,50 @@ function formatBengaliPrompt(mcq) {
   const optionLabels = ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
   let optionsText = '';
   if (options.length > 0) {
-    optionsText = options.map((opt, i) => `${optionLabels[i] || (i + 1)}) ${opt}`).join('\n');
+    optionsText = options.map((opt, i) => {
+      const hasLabel = /^[কখগঘঙa-eA-E0-9][\)\.\-]\s*/.test(opt);
+      return hasLabel ? opt : `${optionLabels[i] || (i + 1)}) ${opt}`;
+    }).join('\n');
   }
 
-  let prompt = `【5266-bp-app】MCQ সমাধান ও বিশ্লেষণ:\n\n`;
-  prompt += `📌 প্রশ্ন:\n${qText}\n\n`;
+  let prompt = qText;
   if (optionsText) {
-    prompt += `অপশনসমূহ:\n${optionsText}\n\n`;
+    prompt += '\n' + optionsText;
   }
-  prompt += `দয়া করে বুঝিয়ে দিন:\n`;
-  prompt += `১. সঠিক উত্তরটি কোনটি এবং কেন সঠিক? (বিশদ সমাধান ও প্রমাণসহ)\n`;
-  prompt += `২. অন্যান্য অপশনগুলো কেন ভুল বা তাদের প্রাসঙ্গিক গুরুত্বপূর্ণ তথ্য কী?\n`;
-  prompt += `৩. ভবিষ্যতে পরীক্ষায় মনে রাখার সহজ টেকনিক ও শর্টকাট কৌশল।`;
+  return prompt.trim();
+}
 
-  return prompt;
+// Safe broadcast helper
+function safeBroadcast(msg) {
+  try {
+    chrome.runtime.sendMessage(msg, () => {
+      if (chrome.runtime.lastError) {}
+    });
+  } catch (e) {}
 }
 
 // Handle incoming messages from Content Scripts and Side Panel
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (!message || !message.type) return;
 
-  // From Website: Ask AI triggered on an MCQ
+  // 1. Site detected active (verified via content script)
+  if (message.type === '5266_SITE_ACTIVE') {
+    if (sender.tab && sender.tab.id) {
+      chrome.sidePanel.setOptions({
+        tabId: sender.tab.id,
+        path: 'sidepanel.html',
+        enabled: true
+      }).catch(() => {});
+    }
+    sendResponse({ status: 'ok' });
+    return;
+  }
+
+  // 2. From Website: Ask AI triggered on an MCQ
   if (message.type === '5266_ASK_AI' || message.type === 'TOPMCQBD_ASK_AI') {
     const payload = message.payload || {};
     const formattedPrompt = formatBengaliPrompt(payload);
 
-    // Save to storage for sidepanel and tabs (triggers storage.onChanged immediately)
     chrome.storage.local.set({
       currentMCQ: payload,
       currentPrompt: formattedPrompt,
@@ -82,21 +182,26 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       autoSubmitPending: true,
       updatedAt: Date.now()
     }, () => {
-      // Open Sidepanel for the sender's window
-      if (chrome.sidePanel && chrome.sidePanel.open && sender.tab?.windowId) {
-        chrome.sidePanel.open({ windowId: sender.tab.windowId }).catch(err => {
-          console.warn('Could not auto-open sidepanel:', err);
-        });
+      // Enable sidepanel specifically for sender's tab
+      if (sender.tab?.id && chrome.sidePanel && chrome.sidePanel.setOptions) {
+        chrome.sidePanel.setOptions({
+          tabId: sender.tab.id,
+          path: 'sidepanel.html',
+          enabled: true
+        }).catch(() => {});
       }
 
-      function safeBroadcast(msg) {
-        try {
-          chrome.runtime.sendMessage(msg, () => {
-            if (chrome.runtime.lastError) {
-              // Intentionally suppressed when sidepanel or receiver is not active
+      // Open Sidepanel for the sender's tab/window
+      if (chrome.sidePanel && chrome.sidePanel.open) {
+        if (sender.tab?.id) {
+          chrome.sidePanel.open({ tabId: sender.tab.id }).catch(err => {
+            if (sender.tab?.windowId) {
+              chrome.sidePanel.open({ windowId: sender.tab.windowId }).catch(() => {});
             }
           });
-        } catch (e) {}
+        } else if (sender.tab?.windowId) {
+          chrome.sidePanel.open({ windowId: sender.tab.windowId }).catch(() => {});
+        }
       }
 
       // Broadcast to sidepanel UI and Gemini frame
@@ -117,7 +222,27 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     return true; // async sendResponse
   }
 
-  // From Sidepanel or Menu: Open full Gemini Tab if user explicitly requested
+  // 3. Custom Follow-up Prompts (e.g. from the 2 buttons)
+  if (message.type === '5266_SEND_CUSTOM_PROMPT') {
+    const customPrompt = (message.prompt || '').trim();
+    if (customPrompt) {
+      chrome.storage.local.set({
+        currentPrompt: customPrompt,
+        promptTrigger: Date.now(),
+        autoSubmitPending: true,
+        updatedAt: Date.now()
+      }, () => {
+        safeBroadcast({
+          type: 'EXECUTE_GEMINI_PROMPT',
+          prompt: customPrompt
+        });
+        sendResponse({ status: 'ok', prompt: customPrompt });
+      });
+    }
+    return true;
+  }
+
+  // 4. From Sidepanel: Open full Gemini Tab if user explicitly requested
   if (message.type === 'OPEN_OR_SEND_TO_GEMINI_TAB') {
     const promptToSend = message.prompt;
 

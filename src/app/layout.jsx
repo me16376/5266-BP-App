@@ -32,8 +32,10 @@ export default function RootLayout({ children }) {
           referrerPolicy="no-referrer" 
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="application-name" content="5266-bp-app" />
+        <meta name="5266-app-id" content="5266-bp-app" />
       </head>
-      <body>
+      <body id="app-5266-root" data-app="5266-bp-app">
         <AuthProvider>
           <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             <AnnouncementBar />
