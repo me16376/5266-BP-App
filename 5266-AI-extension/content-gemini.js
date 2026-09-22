@@ -109,7 +109,13 @@
   }
 
   // Helper: Insert multiline text cleanly into Gemini input
+  // Helper: Insert multiline text cleanly into Gemini input without highlighting document
   function insertFullMultilinePrompt(inputEl, text) {
+    // Clear any existing document selection so nothing is highlighted
+    if (window.getSelection) {
+      window.getSelection().removeAllRanges();
+    }
+
     inputEl.focus();
 
     if (inputEl.tagName && inputEl.tagName.toLowerCase() === 'textarea') {
@@ -119,15 +125,21 @@
       return;
     }
 
-    // Method 1: DataTransfer + ClipboardEvent 'paste' (Preserves multiline in Quill/Gemini)
+    // Format paragraphs for Quill editor (<p>line</p>), blank lines as <p><br></p>
+    const escape = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const lines = text.split('\n');
+    const htmlContent = lines.map(line => {
+      const trimmed = line.trim();
+      return `<p>${trimmed ? escape(line) : '<br>'}</p>`;
+    }).join('');
+
+    // Method 1: DataTransfer + ClipboardEvent 'paste' (Safe without execCommand selectAll)
     try {
-      // Clear existing content
       inputEl.innerHTML = '';
-      document.execCommand('selectAll', false, null);
-      document.execCommand('delete', false, null);
 
       const dt = new DataTransfer();
       dt.setData('text/plain', text);
+      dt.setData('text/html', htmlContent);
       const pasteEvent = new ClipboardEvent('paste', {
         clipboardData: dt,
         bubbles: true,
@@ -136,12 +148,10 @@
       inputEl.dispatchEvent(pasteEvent);
     } catch (e) {}
 
-    // Method 2: If paste didn't populate full text, format into paragraph elements (<p>line</p>)
+    // Method 2: Fallback if paste didn't populate full text
     const currentLength = (inputEl.innerText || inputEl.textContent || '').trim().length;
     if (currentLength < text.trim().length * 0.6) {
-      const escape = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-      const lines = text.split('\n');
-      inputEl.innerHTML = lines.map(line => `<p>${escape(line) || '<br>'}</p>`).join('');
+      inputEl.innerHTML = htmlContent;
 
       inputEl.dispatchEvent(new InputEvent('input', {
         bubbles: true,
@@ -152,6 +162,11 @@
       inputEl.dispatchEvent(new Event('input', { bubbles: true, cancelable: true }));
       inputEl.dispatchEvent(new Event('change', { bubbles: true }));
       inputEl.dispatchEvent(new KeyboardEvent('keyup', { bubbles: true }));
+    }
+
+    // Cleanly remove any residual selection ranges so NO text on screen remains highlighted
+    if (window.getSelection) {
+      window.getSelection().removeAllRanges();
     }
   }
 
@@ -222,6 +237,10 @@
               cancelable: true
             }));
             console.log('✅ 5266 AI: Dispatched prompt via Enter key!');
+          }
+
+          if (window.getSelection) {
+            window.getSelection().removeAllRanges();
           }
 
           setTimeout(saveCurrentChatUrl, 1500);

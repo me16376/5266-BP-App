@@ -139,7 +139,7 @@ function formatBengaliPrompt(mcq) {
 
   let prompt = qText;
   if (optionsText) {
-    prompt += '\n' + optionsText;
+    prompt += '\n\n' + optionsText;
   }
   return prompt.trim();
 }

@@ -100,7 +100,7 @@ export default function QuestionCard({
   };
 
   const handleCopyQuestion = () => {
-    const text = `${cleanText(question.question || question.question_text)}\n` +
+    const text = `${cleanText(question.question || question.question_text)}\n\n` +
       question.options.map((o, i) => `${OPTION_LABELS[i] || i+1}) ${cleanText(o)}`).join('\n');
 
     navigator.clipboard.writeText(text);
