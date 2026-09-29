@@ -256,7 +256,7 @@ export default function Navbar() {
 
                 {/* Option 2: Layout smart */}
                 <Link
-                  href="/job-solution-question"
+                  href="/question-bank-smart/"
                   onClick={() => setJobSolutionsDropdownOpen(false)}
                   style={{
                     display: 'flex',
@@ -266,20 +266,20 @@ export default function Navbar() {
                     borderRadius: '8px',
                     fontSize: '0.92rem',
                     fontWeight: 600,
-                    color: pathname === '/job-solution-question' ? '#047857' : '#1e293b',
-                    background: pathname === '/job-solution-question' ? '#ecfdf5' : 'transparent',
-                    border: pathname === '/job-solution-question' ? '1px solid #a7f3d0' : '1px solid transparent',
+                    color: pathname?.startsWith('/question-bank-smart') ? '#047857' : '#1e293b',
+                    background: pathname?.startsWith('/question-bank-smart') ? '#ecfdf5' : 'transparent',
+                    border: pathname?.startsWith('/question-bank-smart') ? '1px solid #a7f3d0' : '1px solid transparent',
                     textDecoration: 'none',
                     transition: 'all 0.15s ease'
                   }}
                   onMouseEnter={(e) => {
-                    if (pathname !== '/job-solution-question') e.currentTarget.style.background = '#f8fafc';
+                    if (!pathname?.startsWith('/question-bank-smart')) e.currentTarget.style.background = '#f8fafc';
                   }}
                   onMouseLeave={(e) => {
-                    if (pathname !== '/job-solution-question') e.currentTarget.style.background = 'transparent';
+                    if (!pathname?.startsWith('/question-bank-smart')) e.currentTarget.style.background = 'transparent';
                   }}
                 >
-                  <Sparkles size={16} color={pathname === '/job-solution-question' ? '#047857' : '#0284c7'} style={{ marginTop: '2px', flexShrink: 0 }} />
+                  <Sparkles size={16} color={pathname?.startsWith('/question-bank-smart') ? '#047857' : '#0284c7'} style={{ marginTop: '2px', flexShrink: 0 }} />
                   <div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                       <span>Layout smart</span>
@@ -861,7 +861,7 @@ export default function Navbar() {
                 </Link>
 
                 <Link
-                  href="/job-solution-question"
+                  href="/question-bank-smart/"
                   onClick={() => setMobileMenuOpen(false)}
                   style={{
                     display: 'flex',
@@ -871,9 +871,9 @@ export default function Navbar() {
                     borderRadius: '8px',
                     fontSize: '0.95rem',
                     fontWeight: 600,
-                    color: pathname === '/job-solution-question' ? '#047857' : '#334155',
-                    background: pathname === '/job-solution-question' ? '#ecfdf5' : '#ffffff',
-                    border: pathname === '/job-solution-question' ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
+                    color: pathname?.startsWith('/question-bank-smart') ? '#047857' : '#334155',
+                    background: pathname?.startsWith('/question-bank-smart') ? '#ecfdf5' : '#ffffff',
+                    border: pathname?.startsWith('/question-bank-smart') ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
                     textDecoration: 'none'
                   }}
                 >

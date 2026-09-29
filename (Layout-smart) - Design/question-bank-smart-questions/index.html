@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TopMCQBD - প্রশ্নব্যাংক ও কুইজ অনুশীলন</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&family=Noto+Sans+Bengali:wght@300;400;500;600;700;800&family=Noto+Sans+Math&family=Noto+Serif+Bengali:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Main Section Wrapper -->
+  <main class="site-main-content">
+    <div class="quiz-section-wrapper" id="quizSectionWrapper">
+
+      <!-- Interactive Progress Tooltip -->
+      <div id="progressTooltip" class="progress-tooltip-box" style="display: none;"></div>
+
+      <!-- Floating Questions Progress Box at Bottom-Left Corner -->
+      <div id="floatingProgressLeft" class="quiz-floating-progress-left" style="display: none;">
+        <div class="quiz-progress-pill-badge" title="মোট প্রশ্ন, সম্পন্ন ও বাকি প্রশ্নের লাইভ হিসাব">
+          <span>মোট প্রশ্ন: <strong id="progressTotalQ">০</strong></span>
+          <span class="quiz-pill-divider">|</span>
+          <span>সম্পন্ন: <strong id="progressDoneQ">০</strong></span>
+          <span class="quiz-pill-divider">|</span>
+          <span>বাকি: <strong id="progressLeftQ">০</strong></span>
+        </div>
+      </div>
+
+      <!-- Floating Status Bar (Timer & Score at Top-Right) -->
+      <div id="floatingStatusBar" class="quiz-floating-status-bar">
+        <div id="timerBoard" class="quiz-timer-board" style="display: none;">
+          <i class="fa-regular fa-clock"></i>
+          <span id="timerDisplay">০০:০০</span>
+        </div>
+        <div id="scoreBoard" class="quiz-score-board">
+          <span>স্কোর:</span>
+          <span id="scoreDisplay">০</span>
+        </div>
+      </div>
+
+      <!-- Corner Toast Popup (Warnings, Completion, Time Out) -->
+      <div id="cornerPopup" class="quiz-corner-popup" style="display: none;">
+        <button type="button" class="quiz-popup-close-icon" id="btnPopupCloseIcon" aria-label="Close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h4 id="popupTitle">বিজ্ঞপ্তি</h4>
+        <p id="popupMsg">বার্তা</p>
+        <div id="popupExtraActions" class="quiz-popup-extra-actions" style="display: none;">
+          <button type="button" class="quiz-popup-btn btn-popup-view-wrong" id="btnPopupViewWrong">
+            <i class="fa-solid fa-eye"></i> ভুল উত্তর দেখুন
+          </button>
+          <button type="button" class="quiz-popup-btn btn-popup-retake-wrong" id="btnPopupRetakeWrong">
+            <i class="fa-solid fa-pen-to-square"></i> ভুল উত্তরের ওপর পরীক্ষা দিন
+          </button>
+        </div>
+        <div class="quiz-popup-actions" style="flex-wrap: wrap; gap: 8px; justify-content: flex-start;">
+          <button type="button" class="quiz-popup-btn btn-popup-reset" id="btnPopupResetFull" style="display: none;">
+            <i class="fa-solid fa-rotate-right"></i> পুনরায় সম্পূর্ণ পরীক্ষা দিন
+          </button>
+          <button type="button" class="quiz-popup-btn btn-popup-close" id="btnPopupClose">ঠিক আছে</button>
+        </div>
+      </div>
+
+      <!-- Top Navigation & Mode Switcher Bar -->
+      <div class="quiz-top-bar">
+        <div class="quiz-top-bar-left">
+          <div class="quiz-top-breadcrumb">
+            <a href="javascript:void(0)" class="quiz-top-page-title" title="সকল MCQ">
+              <span>সকল MCQ</span>
+            </a>
+          </div>
+
+          <button type="button" class="quiz-top-restart-btn" id="btnTopRestart" style="display: none;" title="পুনরায় সম্পূর্ণ পরীক্ষা / কুইজ শুরু করুন">
+            <i class="fa-solid fa-rotate-right"></i>
+            <span>পুনরায় অনুশীলন শুরু করুন</span>
+          </button>
+        </div>
+
+        <div class="quiz-top-bar-right">
+          <!-- Segmented Mode Switcher Box -->
+          <div class="quiz-mode-switcher-box">
+            <button type="button" class="quiz-mode-btn active" id="btnModePractice" title="অনুশীলন মোড">
+              <i class="fa-regular fa-circle-check"></i>
+              <span>অনুশীলন মোড</span>
+            </button>
+            <button type="button" class="quiz-mode-btn" id="btnModeRead" title="পড়ুন মোড">
+              <i class="fa-solid fa-book-open"></i>
+              <span>পড়ুন মোড</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Quiz Container -->
+      <div class="quiz-container" id="quizContainer">
+
+        <!-- 1. Completion Summary Banner -->
+        <div id="completionBanner" class="quiz-completion-banner" style="display: none;">
+          <div class="quiz-completion-banner-info">
+            <div class="quiz-completion-banner-icon">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="quiz-completion-banner-text">
+              <span class="quiz-banner-score-text">
+                আপনার মোট প্রাপ্ত স্কোর: <strong id="bannerFinalScore">০</strong>
+              </span>
+              <span class="quiz-banner-divider">|</span>
+              <span class="quiz-banner-wrong-text">
+                ভুল উত্তর: <strong id="bannerIncorrectCount">০ টি</strong>
+              </span>
+              <span id="bannerPerfectText" class="quiz-banner-perfect-text" style="display: none;">🎉 কোনো ভুল নেই, সব উত্তর সঠিক!</span>
+            </div>
+          </div>
+
+          <div class="quiz-completion-banner-actions">
+            <div id="bannerWrongActions" style="display: inline-flex; gap: 8px; flex-wrap: wrap;">
+              <button type="button" class="quiz-banner-btn btn-banner-view-wrong" id="btnBannerViewWrong">
+                <i class="fa-solid fa-eye"></i> ভুল উত্তর দেখুন
+              </button>
+              <button type="button" class="quiz-banner-btn btn-banner-retake-wrong" id="btnBannerRetakeWrong">
+                <i class="fa-solid fa-pen-to-square"></i> ভুল উত্তরের ওপর পরীক্ষা দিন
+              </button>
+            </div>
+            <button type="button" class="quiz-banner-btn btn-banner-reset-full" id="btnBannerResetFull">
+              <i class="fa-solid fa-rotate-right"></i> পুনরায় সম্পূর্ণ পরীক্ষা দিন
+            </button>
+          </div>
+        </div>
+
+        <!-- 2. Retake Wrong Questions Banner -->
+        <div id="retakeBanner" class="quiz-retake-mode-banner" style="display: none;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <i class="fa-solid fa-triangle-exclamation" style="color: #e11d48; fontSize: 18px;"></i>
+            <span>
+              ভুল উত্তর দেওয়া <strong id="retakeCountText">০</strong>টি প্রশ্নের ওপর পুনরায় পরীক্ষা দিচ্ছেন।
+            </span>
+          </div>
+          <button type="button" id="btnExitRetake" class="btn-exit-retake">
+            <i class="fa-solid fa-arrow-left"></i> মূল পরীক্ষায় ফিরে যান
+          </button>
+        </div>
+
+        <!-- 3. View Wrong Answers Banner -->
+        <div id="reviewBanner" class="quiz-review-mode-banner" style="display: none;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <i class="fa-solid fa-circle-exclamation" style="color: #d97706; fontSize: 18px;"></i>
+            <span>
+              ভুল উত্তর দেওয়া <strong id="reviewCountText">০</strong>টি প্রশ্নের সঠিক উত্তর ও ব্যাখ্যা নিচে প্রদর্শিত হচ্ছে।
+            </span>
+          </div>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <button type="button" id="btnExitReview" class="btn-banner-reset" style="background: #d97706;">
+              <i class="fa-solid fa-arrow-left"></i> মূল পরীক্ষায় ফিরুন
+            </button>
+            <button type="button" id="btnReviewRetake" class="btn-banner-retake">
+              <i class="fa-solid fa-pen-to-square"></i> ভুল উত্তরের ওপর পরীক্ষা দিন
+            </button>
+          </div>
+        </div>
+
+        <h1>Online Questions & Exam Practice</h1>
+        <h2 id="categoryTitle">সাধারণ জ্ঞান ও বিষয়ভিত্তিক প্রশ্নব্যাংক</h2>
+
+        <div class="quiz-header-info-bar">
+          <div class="quiz-exam-path">
+            <i class="fa-solid fa-square-poll-horizontal" style="margin-right: 6px; color: var(--primary, #007bff);"></i>
+            <span id="breadcrumbCategory">সকল প্রশ্নব্যাংক</span>
+          </div>
+          <div class="quiz-header-right-actions">
+            <!-- Negative Marking Note -->
+            <div class="quiz-negative-mark-note">
+              <i class="fa-solid fa-bell"></i>
+              <span id="negativeMarkNote">প্রতিটি ভুল উত্তরের জন্য ০.৫ নম্বর কাটা যাবে</span>
+            </div>
+          </div>
+        </div>
+
+        <hr style="margin: 12px 0; border: none; border-top: 1px solid #e2e8f0;">
+
+        <!-- Controls Bar -->
+        <div class="quiz-controls-bar">
+          <div class="quiz-nav-actions">
+            <!-- Questions Count Custom Dropdown -->
+            <div class="quiz-layout-dropdown-wrapper" id="limitDropdownWrapper">
+              <button type="button" class="quiz-layout-trigger-btn" id="btnLimitTrigger" title="প্রশ্নের সংখ্যা নির্ধারণ করুন">
+                <i class="fa-solid fa-list-ol" style="color: #007bff;"></i>
+                <span id="limitTriggerLabel">সকল প্রশ্ন</span>
+                <i class="fa-solid fa-chevron-down" id="limitChevron" style="font-size: 11px; color: #64748b;"></i>
+              </button>
+
+              <div class="quiz-layout-popup-menu" id="limitPopupMenu" style="display: none;">
+                <button type="button" class="quiz-layout-menu-item active" data-limit="all">
+                  <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                  <span>সকল প্রশ্ন</span>
+                </button>
+                <button type="button" class="quiz-layout-menu-item" data-limit="20">
+                  <div class="quiz-layout-radio-circle"></div>
+                  <span>২০ টি প্রশ্ন</span>
+                </button>
+                <button type="button" class="quiz-layout-menu-item" data-limit="25">
+                  <div class="quiz-layout-radio-circle"></div>
+                  <span>২৫ টি প্রশ্ন</span>
+                </button>
+                <button type="button" class="quiz-layout-menu-item" data-limit="50">
+                  <div class="quiz-layout-radio-circle"></div>
+                  <span>৫০ টি প্রশ্ন</span>
+                </button>
+                <button type="button" class="quiz-layout-menu-item" data-limit="100">
+                  <div class="quiz-layout-radio-circle"></div>
+                  <span>১০০ টি প্রশ্ন</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Range Custom Dropdown (shown when limit !== 'all') -->
+            <div class="quiz-layout-dropdown-wrapper" id="rangeDropdownWrapper" style="display: none;">
+              <button type="button" class="quiz-layout-trigger-btn" id="btnRangeTrigger" title="প্রশ্নের রেঞ্জ নির্ধারণ করুন">
+                <span id="rangeTriggerLabel">১ - ২০</span>
+                <i class="fa-solid fa-chevron-down" id="rangeChevron" style="font-size: 11px; color: #64748b;"></i>
+              </button>
+
+              <div class="quiz-layout-popup-menu" id="rangePopupMenu" style="display: none; max-height: 220px; overflow-y: auto;">
+                <!-- Dynamically populated -->
+              </div>
+            </div>
+
+            <!-- Ask AI Switcher -->
+            <label class="quiz-switch-label quiz-ask-ai-switcher" id="askAiSwitcherLabel" title="Ask AI বাটন বন্ধ/চালু করুন">
+              <label class="quiz-switch">
+                <input type="checkbox" id="switchAskAi">
+                <span class="quiz-slider" id="sliderAskAi"></span>
+              </label>
+              Ask AI
+            </label>
+          </div>
+
+          <div class="quiz-right-controls-group">
+            <!-- Switches: Explanation, Time, Score -->
+            <div class="quiz-switch-group">
+              <!-- Explanation Switch -->
+              <label class="quiz-switch-label" id="lblExplanationSwitch" title="ব্যাখ্যা">
+                <label class="quiz-switch">
+                  <input type="checkbox" id="switchExplanation" checked>
+                  <span class="quiz-slider"></span>
+                </label>
+                <span id="textExplanationSwitch">ব্যাখ্যা (স্বয়ংক্রিয়)</span>
+              </label>
+
+              <!-- Time Switch -->
+              <label class="quiz-switch-label" id="lblTimeSwitch">
+                <label class="quiz-switch">
+                  <input type="checkbox" id="switchTime">
+                  <span class="quiz-slider"></span>
+                </label>
+                সময়
+              </label>
+
+              <!-- Score Switch -->
+              <label class="quiz-switch-label" id="lblScoreSwitch">
+                <label class="quiz-switch">
+                  <input type="checkbox" id="switchScore" checked>
+                  <span class="quiz-slider"></span>
+                </label>
+                স্কোর
+              </label>
+
+              <!-- প্রশ্ন সেটিংস Custom Dropdown Trigger -->
+              <div class="quiz-layout-dropdown-wrapper" id="globalSettingsDropdownWrapper">
+                <button type="button" class="quiz-layout-trigger-btn quiz-global-settings-trigger" id="btnGlobalSettingsTrigger" title="প্রশ্ন সেটিংস (লেআউট, কাট মার্ক, ফন্ট, উত্তর ও ব্যাখ্যা)">
+                  <i class="fa-solid fa-gear" style="color: #007bff;"></i>
+                  <span>প্রশ্ন সেটিংস</span>
+                  <i class="fa-solid fa-chevron-down" id="settingsChevron" style="font-size: 11px; color: #64748b;"></i>
+                </button>
+
+                <!-- প্রশ্ন সেটিংস Popup Menu -->
+                <div class="quiz-layout-popup-menu quiz-global-settings-popup is-hidden has-active-accordion" id="globalSettingsPopup">
+                  <!-- Settings Header -->
+                  <div class="quiz-global-popup-header">
+                    <div class="quiz-global-popup-title">
+                      <i class="fa-solid fa-gear" style="color: #007bff;"></i>
+                      <span>প্রশ্ন সেটিংস</span>
+                    </div>
+                    <div class="quiz-global-popup-header-actions">
+                      <button type="button" class="quiz-popup-reset-btn" id="btnResetSettings" title="ডিফল্ট সেটিংসে রিসেট করুন">
+                        <i class="fa-solid fa-rotate-left"></i>
+                        <span id="resetSettingsLabel">রিসেট</span>
+                      </button>
+                      <button type="button" class="quiz-popup-close-mini" id="btnCloseSettings" title="বন্ধ করুন">
+                        <i class="fa-solid fa-xmark"></i>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Settings Body -->
+                  <div class="quiz-global-popup-body">
+                    <!-- Preset Profiles Header -->
+                    <div class="quiz-presets-header-box">
+                      <div class="quiz-presets-header">
+                        <span class="quiz-presets-label">
+                          <i class="fa-solid fa-sliders" style="color: #0284c7;"></i>
+                          <span>প্রি-সেট সেটিংস</span>
+                        </span>
+                        <span class="quiz-preset-current-indicator">
+                          সক্রিয়: <strong id="indicatorActivePreset">অনুশীলন</strong>
+                        </span>
+                      </div>
+                      <div class="quiz-presets-description">
+                        <span>যেকোনো প্রি-সেট সিলেক্ট করে নিচের ফিচারগুলো নিজের মতো পরিবর্তন করতে পারবেন, যা এই মোডে সংরক্ষিত থাকবে।</span>
+                      </div>
+                    </div>
+
+                    <!-- Preset Tabs Container -->
+                    <div class="quiz-preset-tabs-container preset-theme-practice" id="presetTabsContainer">
+                      <div class="quiz-presets-bar">
+                        <button type="button" class="quiz-preset-btn active preset-practice" data-preset="practice" title="অনুশীলন মোড সক্রিয় করুন">
+                          <i class="fa-solid fa-graduation-cap"></i>
+                          <span>অনুশীলন</span>
+                        </button>
+                        <button type="button" class="quiz-preset-btn" data-preset="read" title="Read মোড সক্রিয় করুন">
+                          <i class="fa-solid fa-book-open"></i>
+                          <span>Read</span>
+                        </button>
+                        <button type="button" class="quiz-preset-btn" data-preset="exam" title="Live exam মোড সক্রিয় করুন">
+                          <i class="fa-solid fa-stopwatch"></i>
+                          <span>Live exam</span>
+                        </button>
+                        <button type="button" class="quiz-preset-btn" data-preset="custom" title="My setting মোড সক্রিয় করুন">
+                          <i class="fa-solid fa-sliders"></i>
+                          <span>My setting</span>
+                        </button>
+                      </div>
+
+                      <!-- Active Preset Features Box -->
+                      <div class="quiz-preset-features-box preset-theme-practice" id="presetFeaturesBox">
+                        <div class="quiz-preset-features-header">
+                          <div class="quiz-preset-features-header-left">
+                            <span class="quiz-preset-features-icon-badge" id="presetFeaturesIcon">
+                              <i class="fa-solid fa-graduation-cap"></i>
+                            </span>
+                            <div class="quiz-preset-features-title-group">
+                              <div class="quiz-preset-features-main-title">
+                                <span id="presetFeaturesTitle">‘অনুশীলন’ মোডের ফিচারসমূহ</span>
+                                <span class="quiz-preset-features-tag" id="presetFeaturesTag">প্রি-বিল্ট ফিচারস</span>
+                              </div>
+                              <span class="quiz-preset-features-subtitle" id="presetFeaturesSubtitle">
+                                সাধারণ অনুশীলন ও অপশনভিত্তিক স্বয়ংক্রিয় ব্যাখ্যা
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="quiz-preset-features-body">
+                          <!-- Section 1: Layout Accordion -->
+                          <div class="quiz-global-section layout-section active" id="secLayout">
+                            <div class="quiz-global-section-header" id="headerSecLayout" title="লেআউট সেটিংস">
+                              <div class="quiz-global-section-header-left">
+                                <i class="fa-solid fa-table-cells-large" style="color: #007bff;"></i>
+                                <span>লেআউট (Option Layout):</span>
+                              </div>
+                              <div class="quiz-global-section-header-right">
+                                <span class="quiz-font-accordion-badge">
+                                  <span class="quiz-font-accordion-badge-text">৪টি অপশন</span>
+                                </span>
+                                <i class="fa-solid fa-minus quiz-font-accordion-plus-minus" id="iconSecLayout"></i>
+                              </div>
+                            </div>
+
+                            <div class="quiz-global-section-body" id="bodySecLayout" style="display: block;">
+                              <!-- Sub-Accordion 1: ডিজাইন স্টাইল (Question Style) -->
+                              <div class="quiz-font-sub-group active" id="subGrpStyle">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header active" id="headerSubGrpStyle">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-shapes" style="color: #0284c7; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">ডিজাইন স্টাইল (Question Style):</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeQuestionStyle">বর্ডার লাইন</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-up quiz-font-accordion-chevron" id="chevronSubGrpStyle"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpStyle">
+                                  <button type="button" class="quiz-layout-menu-item active" data-qstyle="dotted">
+                                    <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                                    <span>১. বর্ডার লাইন (Border Line)</span>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item" data-qstyle="box">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <span>২. বক্স কার্ড (Box Card)</span>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item" data-qstyle="circle">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <span>৩. সার্কেল অপশন লেবেল (Circle Option Label)</span>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item" data-qstyle="bracket">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <span>৪. ব্র্যাকেট অপশন লেবেল (Bracket Option Label)</span>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item" data-qstyle="nostyle">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <span>৫. নো স্টাইল (No Style)</span>
+                                  </button>
+                                </div>
+                              </div>
+
+                              <!-- Sub-Accordion 2: প্রশ্ন Layout -->
+                              <div class="quiz-font-sub-group active" id="subGrpQLayout" style="margin-top: 8px;">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header active" id="headerSubGrpQLayout">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-table-columns" style="color: #0284c7; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">প্রশ্ন Layout:</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeQLayout">২টি প্রশ্ন (উপর-নিচ)</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-up quiz-font-accordion-chevron" id="chevronSubGrpQLayout"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpQLayout">
+                                  <button type="button" class="quiz-layout-menu-item active" data-qlayout="2q-col">
+                                    <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                                    <span>১ লাইনে ২টি প্রশ্ন (উপর-নিচ ক্রম)</span>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item" data-qlayout="2q-row">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <span>১ লাইনে ২টি প্রশ্ন (পাশাপাশি ক্রম)</span>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item" data-qlayout="3q-col">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <span>১ লাইনে ৩টি প্রশ্ন (উপর-নিচ ক্রম)</span>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item" data-qlayout="3q-row">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <span>১ লাইনে ৩টি প্রশ্ন (পাশাপাশি ক্রম)</span>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item" data-qlayout="1q">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <span>১ লাইনে ১টি প্রশ্ন</span>
+                                  </button>
+                                </div>
+                              </div>
+
+                              <!-- Sub-Accordion 3: Option Layout -->
+                              <div class="quiz-font-sub-group" id="subGrpOptLayout" style="margin-top: 8px;">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header" id="headerSubGrpOptLayout">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-list-ol" style="color: #0284c7; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">Option Layout:</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeOptLayout">১ লাইনে ২টি</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-down quiz-font-accordion-chevron" id="chevronSubGrpOptLayout"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpOptLayout" style="display: none;">
+                                  <button type="button" class="quiz-layout-menu-item" data-optlayout="1">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <span>১ লাইনে ১টি option</span>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item active" data-optlayout="2">
+                                    <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                                    <span>১ লাইনে ২টি option</span>
+                                  </button>
+
+                                  <!-- 4 Options in 1 line button & condition wrapper -->
+                                  <div id="fourOptionWrapper" style="width: 100%;">
+                                    <!-- Populated dynamically by script based on questionLayout -->
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- Sub-Accordion 4: মাঝের লাইন (Middle Line) -->
+                              <div class="quiz-font-sub-group" id="subGrpMidLine" style="margin-top: 8px;">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header" id="headerSubGrpMidLine">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-grip-lines-vertical" style="color: #0284c7; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">মাঝের লাইন (Middle Line style):</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeMidLine">ডটেড লাইন</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-down quiz-font-accordion-chevron" id="chevronSubGrpMidLine"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpMidLine" style="display: none;">
+                                  <button type="button" class="quiz-layout-menu-item quiz-middle-line-item active" data-midline="dotted">
+                                    <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                                    <div class="quiz-middle-line-content">
+                                      <span class="quiz-middle-line-title">১. ডটেড লাইন (Dotted Line)</span>
+                                      <span class="quiz-middle-line-desc">কলামগুলোর মাঝে মার্জিত ডটেড ডিভাইডার লাইন থাকবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-middle-line-item" data-midline="solid">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-middle-line-content">
+                                      <span class="quiz-middle-line-title">২. সলিড লাইন (Solid Line)</span>
+                                      <span class="quiz-middle-line-desc">কলামগুলোর মাঝে পরিষ্কার সলিড ডিভাইডার লাইন থাকবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-middle-line-item" data-midline="none">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-middle-line-content">
+                                      <span class="quiz-middle-line-title">৩. লাইন ছাড়া (No Line)</span>
+                                      <span class="quiz-middle-line-desc">কলামগুলোর মাঝে কোনো ডিভাইডার লাইন থাকবে না।</span>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+
+                              <!-- Sub-Accordion 5: নিচের লাইন (Bottom Line) -->
+                              <div class="quiz-font-sub-group" id="subGrpBottomLine" style="margin-top: 8px;">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header" id="headerSubGrpBottomLine">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-grip-lines" style="color: #0284c7; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">নিচের লাইন (Bottom Line style):</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeBottomLine">ডটেড লাইন</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-down quiz-font-accordion-chevron" id="chevronSubGrpBottomLine"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpBottomLine" style="display: none;">
+                                  <button type="button" class="quiz-layout-menu-item quiz-middle-line-item active" data-bottomline="dotted">
+                                    <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                                    <div class="quiz-middle-line-content">
+                                      <span class="quiz-middle-line-title">১. ডটেড লাইন (Dotted Line)</span>
+                                      <span class="quiz-middle-line-desc">প্রশ্নের নিচে মার্জিত ডটেড ডিভাইডার লাইন থাকবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-middle-line-item" data-bottomline="solid">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-middle-line-content">
+                                      <span class="quiz-middle-line-title">২. সলিড লাইন (Solid Line)</span>
+                                      <span class="quiz-middle-line-desc">প্রশ্নের নিচে পরিষ্কার সলিড ডিভাইডার লাইন থাকবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-middle-line-item" data-bottomline="none">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-middle-line-content">
+                                      <span class="quiz-middle-line-title">৩. লাইন ছাড়া (No Line)</span>
+                                      <span class="quiz-middle-line-desc">প্রশ্নের নিচে কোনো ডিভাইডার লাইন থাকবে না।</span>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+
+                              <!-- Sub-Accordion 6: মাঝের লাইন Gap -->
+                              <div class="quiz-font-sub-group" id="subGrpMidGap" style="margin-top: 8px;">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header" id="headerSubGrpMidGap">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-arrows-left-right" style="color: #0284c7; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">মাঝের লাইন Gap:</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeMidGap">60px</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-down quiz-font-accordion-chevron" id="chevronSubGrpMidGap"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpMidGap" style="display: none;">
+                                  <button type="button" class="quiz-layout-menu-item quiz-middle-line-item" data-midgap="0">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-middle-line-content">
+                                      <span class="quiz-middle-line-title">No Gap (০ পিক্সেল)</span>
+                                      <span class="quiz-middle-line-desc">কলাম বা ডিভাইডার লাইনের দুই পাশে কোনো ফাঁকা জায়গা থাকবে না।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-middle-line-item active" data-midgap="60">
+                                    <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                                    <div class="quiz-middle-line-content">
+                                      <span class="quiz-middle-line-title">60px (৬০ পিক্সেল - ডিফল্ট)</span>
+                                      <span class="quiz-middle-line-desc">মাঝখানে ৬০ পিক্সেল গ্যাপ (ডিভাইডার লাইন থাকলে দুই পাশে ৩০ পিক্সেল করে)।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-middle-line-item" data-midgap="80">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-middle-line-content">
+                                      <span class="quiz-middle-line-title">80px (৮০ পিক্সেল)</span>
+                                      <span class="quiz-middle-line-desc">মাঝখানে ৮০ পিক্সেল গ্যাপ (ডিভাইডার লাইন থাকলে দুই পাশে ৪০ পিক্সেল করে)।</span>
+                                    </div>
+                                  </button>
+
+                                  <div class="quiz-cut-mark-custom-card" style="margin-top: 8px; padding: 10px 12px; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;">
+                                    <div class="quiz-cut-mark-custom-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                                      <span style="font-size: 12.5px; font-weight: 600; color: #334155;">কাস্টম গ্যাপ (Custom Gap - সর্বোচ্চ ২০০px):</span>
+                                      <span class="quiz-font-accordion-badge" id="customGapActiveBadge" style="display: none; font-size: 11px; color: #0284c7; border-color: #bae6fd; background: #f0f9ff;"></span>
+                                    </div>
+                                    <div class="quiz-font-custom-input-row" style="display: flex; gap: 8px; align-items: center;">
+                                      <input type="number" min="0" max="200" id="inputCustomGap" placeholder="পিক্সেল (যেমন: ২৫ বা ১৫০)" class="quiz-font-input" style="flex: 1;">
+                                      <button type="button" id="btnApplyCustomGap" class="quiz-font-apply-btn">সেট করুন</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Section 2: Color Answer Style Accordion -->
+                          <div class="quiz-global-section color-style-section" id="secColorStyle">
+                            <div class="quiz-global-section-header" id="headerSecColorStyle" title="কালার অ্যানসার স্টাইল সেটিংস">
+                              <div class="quiz-global-section-header-left">
+                                <i class="fa-solid fa-palette" style="color: #0284c7;"></i>
+                                <span>Color Answer Style:</span>
+                              </div>
+                              <div class="quiz-global-section-header-right">
+                                <span class="quiz-font-accordion-badge">
+                                  <span class="quiz-font-accordion-badge-text" id="badgeColorStyle">শুধু নির্বাচিত · আইকন+চিহ্ন</span>
+                                </span>
+                                <i class="fa-solid fa-plus quiz-font-accordion-plus-minus" id="iconSecColorStyle"></i>
+                              </div>
+                            </div>
+
+                            <div class="quiz-global-section-body" id="bodySecColorStyle" style="display: none;">
+                              <!-- Sub-Accordion 1: হাইলাইট স্টাইল -->
+                              <div class="quiz-font-sub-group active" id="subGrpHighlightMode">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header active" id="headerSubGrpHighlightMode">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-highlighter" style="color: #0284c7; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">হাইলাইট স্টাইল:</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeHighlightMode">শুধু নির্বাচিত</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-up quiz-font-accordion-chevron" id="chevronSubGrpHighlightMode"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpHighlightMode">
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item active" data-hlmode="single">
+                                    <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">শুধু নির্বাচিত অপশন হাইলাইট</span>
+                                      <span class="quiz-color-style-desc">অপশনে ক্লিক করলে শুধুমাত্র নির্বাচিত অপশনের ফলাফল হাইলাইট হবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-hlmode="both">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">সঠিক ও ভুল উভয়টি দেখান</span>
+                                      <span class="quiz-color-style-desc">ভুল অপশনটি লাল এবং সঠিক অপশনটি সবুজ রঙে হাইলাইট করে উভয় ফলাফল একসাথে দেখানো হবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-hlmode="neutral">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">সঠিক বা ভুল দেখাবে না (শুধু সিলেকশন)</span>
+                                      <span class="quiz-color-style-desc">সঠিক বা ভুল কোনো ফলাফল প্রকাশ পাবে না, শুধুমাত্র অপশনটি নির্বাচন করা হয়েছে তা প্রকাশ পাবে।</span>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+
+                              <!-- Sub-Accordion 2: হাইলাইট কালার -->
+                              <div class="quiz-font-sub-group active" id="subGrpHighlightColor" style="margin-top: 8px;">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header active" id="headerSubGrpHighlightColor">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-palette" style="color: #0284c7; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">হাইলাইট কালার:</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeHighlightColor">আইকন+চিহ্ন</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-up quiz-font-accordion-chevron" id="chevronSubGrpHighlightColor"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpHighlightColor">
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-hlcolor="full-bg">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">পূর্ণ ব্যাকগ্রাউন্ড</span>
+                                      <span class="quiz-color-style-desc">সঠিক বা ভুল অনুযায়ী পুরো অপশনের ব্যাকগ্রাউন্ড সলিড রঙ পরিবর্তন হবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-hlcolor="border-only">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">শুধু বর্ডার পরিবর্তন</span>
+                                      <span class="quiz-color-style-desc">সঠিক বা ভুল অনুযায়ী শুধু অপশনের বর্ডারের রঙ পরিবর্তন হবে, ব্যাকগ্রাউন্ড অপরিবর্তিত থাকবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-hlcolor="label-only">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">শুধু অপশন চিহ্ন পরিবর্তন</span>
+                                      <span class="quiz-color-style-desc">সঠিক বা ভুল অনুযায়ী শুধু ক, খ, গ, ঘ অপশন লেবেলের রঙ পরিবর্তন হবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item active" data-hlcolor="highlight-and-circle">
+                                    <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">আইকন + অপশন চিহ্ন</span>
+                                      <span class="quiz-color-style-desc">সঠিক উত্তরের পাশে ✓ এবং ভুল উত্তরের পাশে ✕ আইকন দেখানোর সাথে ক, খ, গ, ঘ অপশন লেবেলের রঙ পরিবর্তন হবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-hlcolor="with-icons">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">আইকন দিয়ে দেখান</span>
+                                      <span class="quiz-color-style-desc">সঠিক উত্তরের পাশে ✓ এবং ভুল উত্তরের পাশে ✕ আইকন দেখিয়ে ফলাফল বোঝানো হবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-hlcolor="bottom-line">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">লাইন দিয়ে দেখান</span>
+                                      <span class="quiz-color-style-desc">সঠিক বা ভুল অনুযায়ী অপশনের নিচে সবুজ বা লাল লাইন দেখানো হবে, তবে অপশনের ব্যাকগ্রাউন্ড অপরিবর্তিত থাকবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-hlcolor="soft-highlight">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">হালকা হাইলাইট</span>
+                                      <span class="quiz-color-style-desc">সঠিক বা ভুল অনুযায়ী অপশনের ব্যাকগ্রাউন্ডে হালকা সবুজ বা লাল রঙের আভা দেখানো হবে।</span>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Section 3: Answer & Explanation Settings -->
+                          <div class="quiz-global-section explanation-section" id="secExplanation">
+                            <div class="quiz-global-section-header" id="headerSecExplanation" title="উত্তর ও ব্যাখ্যা সেটিংস">
+                              <div class="quiz-global-section-header-left">
+                                <i class="fa-solid fa-list-check" style="color: #0284c7;"></i>
+                                <span>উত্তর ও ব্যাখ্যা (Answer & Explanation):</span>
+                              </div>
+                              <div class="quiz-global-section-header-right">
+                                <span class="quiz-font-accordion-badge">
+                                  <span class="quiz-font-accordion-badge-text">২টি অপশন</span>
+                                </span>
+                                <i class="fa-solid fa-plus quiz-font-accordion-plus-minus" id="iconSecExplanation"></i>
+                              </div>
+                            </div>
+
+                            <div class="quiz-global-section-body" id="bodySecExplanation" style="display: none;">
+                              <!-- Sub-Accordion 1: সঠিক উত্তর (Show Answer) -->
+                              <div class="quiz-font-sub-group active" id="subGrpShowAnswer">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header active" id="headerSubGrpShowAnswer">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-circle-check" style="color: #10b981; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">সঠিক উত্তর (Show Answer):</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeAnswerMode">কোনো উত্তর নেই</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-up quiz-font-accordion-chevron" id="chevronSubGrpShowAnswer"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpShowAnswer">
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-ansmode="on-select">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">১. অপশন নির্বাচনে সঠিক উত্তর দেখান</span>
+                                      <span class="quiz-color-style-desc">অপশনে ক্লিক করা মাত্রই স্বয়ংক্রিয়ভাবে সঠিক উত্তর দেখা যাবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-ansmode="on-button">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">২. উত্তর বাটনে ক্লিক করলে দেখান</span>
+                                      <span class="quiz-color-style-desc">উত্তর বাটনে ম্যানুয়ালি ক্লিক করলে তখন সঠিক উত্তর উন্মোচিত হবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-ansmode="on-wrong">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">৩. ভুল উত্তরে সঠিক উত্তর দেখান</span>
+                                      <span class="quiz-color-style-desc">শুধুমাত্র ভুল উত্তর নির্বাচন করলে সঠিক উত্তর দেখা যাবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-ansmode="explanation-only">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">৪. শুধু ব্যাখ্যা দেখান</span>
+                                      <span class="quiz-color-style-desc">প্রশ্নে শুধু ব্যাখ্যা প্রদর্শিত হবে, কোনো সঠিক উত্তর প্রদর্শিত হবে না।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item active" data-ansmode="none">
+                                    <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">৫. কোনো সঠিক উত্তর দেখাবেন না</span>
+                                      <span class="quiz-color-style-desc">প্রশ্নে কোনো প্রকার সঠিক উত্তর বা উত্তর দেখার বাটন প্রদর্শিত হবে না।</span>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+
+                              <!-- Sub-Accordion 2: ব্যাখ্যা প্রদর্শন (Explanation Mode) -->
+                              <div class="quiz-font-sub-group active" id="subGrpExpMode" style="margin-top: 8px;">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header active" id="headerSubGrpExpMode">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-circle-info" style="color: #0284c7; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">ব্যাখ্যা প্রদর্শন (Explanation Mode):</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeExpMode">অপশন নির্বাচনে</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-up quiz-font-accordion-chevron" id="chevronSubGrpExpMode"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpExpMode">
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item active" data-expmode="on-select">
+                                    <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">১. অপশন নির্বাচনে ব্যাখ্যা দেখান</span>
+                                      <span class="quiz-color-style-desc">অপশনে ক্লিক করা মাত্রই স্বয়ংক্রিয়ভাবে বিস্তারিত ব্যাখ্যা দেখা যাবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-expmode="on-button">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">২. ব্যাখ্যা বাটনে ক্লিক করলে দেখান</span>
+                                      <span class="quiz-color-style-desc">ব্যাখ্যা বাটনে ম্যানুয়ালি ক্লিক করলে তখন ব্যাখ্যা উন্মোচিত হবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-expmode="on-wrong">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">৩. ভুল উত্তরে ব্যাখ্যা দেখান</span>
+                                      <span class="quiz-color-style-desc">শুধুমাত্র ভুল উত্তর নির্বাচন করলে সঠিক সমাধান ও ব্যাখ্যা দেখা যাবে।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-expmode="answer-only">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">৪. শুধু উত্তর দেখান</span>
+                                      <span class="quiz-color-style-desc">প্রশ্নে শুধু সঠিক উত্তর প্রদর্শিত হবে, কোনো ব্যাখ্যা প্রদর্শিত হবে না।</span>
+                                    </div>
+                                  </button>
+                                  <button type="button" class="quiz-layout-menu-item quiz-color-style-item" data-expmode="none">
+                                    <div class="quiz-layout-radio-circle"></div>
+                                    <div class="quiz-color-style-content">
+                                      <span class="quiz-color-style-title">৫. কোনো ব্যাখ্যা দেখাবেন না</span>
+                                      <span class="quiz-color-style-desc">প্রশ্নে কোনো প্রকার ব্যাখ্যা বা সমাধানের বাটন প্রদর্শিত হবে না।</span>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Section 4: Option Letter Settings -->
+                          <div class="quiz-global-section option-letter-section" id="secOptionLetter">
+                            <div class="quiz-global-section-header" id="headerSecOptionLetter" title="অপশন অক্ষর সেটিংস">
+                              <div class="quiz-global-section-header-left">
+                                <i class="fa-solid fa-arrow-down-a-z" style="color: #0284c7;"></i>
+                                <span>অপশন অক্ষর (Option Letter):</span>
+                              </div>
+                              <div class="quiz-global-section-header-right">
+                                <span class="quiz-font-accordion-badge">
+                                  <span class="quiz-font-accordion-badge-text" id="badgeOptionLetter">ক, খ, গ, ঘ</span>
+                                </span>
+                                <i class="fa-solid fa-plus quiz-font-accordion-plus-minus" id="iconSecOptionLetter"></i>
+                              </div>
+                            </div>
+
+                            <div class="quiz-global-section-body" id="bodySecOptionLetter" style="display: none;">
+                              <button type="button" class="quiz-layout-menu-item quiz-middle-line-item active" data-optletter="bangla">
+                                <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                                <div class="quiz-middle-line-content">
+                                  <span class="quiz-middle-line-title">ক, খ, গ, ঘ</span>
+                                  <span class="quiz-middle-line-desc">বাংলা অপশন লেবেল</span>
+                                </div>
+                              </button>
+                              <button type="button" class="quiz-layout-menu-item quiz-middle-line-item" data-optletter="english">
+                                <div class="quiz-layout-radio-circle"></div>
+                                <div class="quiz-middle-line-content">
+                                  <span class="quiz-middle-line-title">A, B, C, D</span>
+                                  <span class="quiz-middle-line-desc">ইংরেজি অপশন লেবেল</span>
+                                </div>
+                              </button>
+                              <button type="button" class="quiz-layout-menu-item quiz-middle-line-item" data-optletter="english-lower">
+                                <div class="quiz-layout-radio-circle"></div>
+                                <div class="quiz-middle-line-content">
+                                  <span class="quiz-middle-line-title">a, b, c, d</span>
+                                  <span class="quiz-middle-line-desc">ইংরেজি ছোট হাতের অপশন লেবেল</span>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+
+                          <!-- Section 5: Cut Mark (Negative Marking) -->
+                          <div class="quiz-global-section cutmark-section" id="secCutMark">
+                            <div class="quiz-global-section-header" id="headerSecCutMark" title="নেগেটিভ মার্কিং / কাট মার্ক সেটিংস">
+                              <div class="quiz-global-section-header-left">
+                                <i class="fa-solid fa-pen-ruler" style="color: #ef4444;"></i>
+                                <span>নেগেটিভ মার্কিং (Cut Mark):</span>
+                              </div>
+                              <div class="quiz-global-section-header-right">
+                                <span class="quiz-font-accordion-badge" style="color: #ef4444; border-color: #fca5a5; background: #fef2f2;">
+                                  <span class="quiz-font-accordion-badge-text" id="badgeCutMark">০.৫ নম্বর</span>
+                                </span>
+                                <i class="fa-solid fa-plus quiz-font-accordion-plus-minus" id="iconSecCutMark"></i>
+                              </div>
+                            </div>
+
+                            <div class="quiz-global-section-body" id="bodySecCutMark" style="display: none;">
+                              <button type="button" class="quiz-layout-menu-item active" data-cutmark="0.5">
+                                <div class="quiz-layout-radio-circle"><div class="quiz-layout-radio-inner"></div></div>
+                                <span>০.৫ নম্বর কাটা যাবে (ডিফল্ট)</span>
+                              </button>
+                              <button type="button" class="quiz-layout-menu-item" data-cutmark="0.25">
+                                <div class="quiz-layout-radio-circle"></div>
+                                <span>০.২৫ নম্বর কাটা যাবে</span>
+                              </button>
+                              <button type="button" class="quiz-layout-menu-item" data-cutmark="0">
+                                <div class="quiz-layout-radio-circle"></div>
+                                <span>No Cut Mark (০ নম্বর)</span>
+                              </button>
+
+                              <div class="quiz-cut-mark-custom-card">
+                                <div class="quiz-cut-mark-custom-header">
+                                  <span style="font-size: 12px; font-weight: 600; color: #475569;">কাস্টম কাট মার্ক:</span>
+                                  <span class="quiz-cut-mark-badge" id="badgeCustomCutMarkActive" style="display: none;"></span>
+                                </div>
+                                <div class="quiz-cut-mark-input-row">
+                                  <input type="number" step="0.05" min="0" max="10" id="inputCustomCutMark" placeholder="যেমন: 0.20 বা 1" class="quiz-cut-mark-input">
+                                  <button type="button" id="btnApplyCustomCutMark" class="quiz-cut-mark-apply-btn">সেট করুন</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Section 6: Font Settings -->
+                          <div class="quiz-global-section font-section" id="secFont">
+                            <div class="quiz-global-section-header" id="headerSecFont" title="ফন্ট সেটিংস">
+                              <div class="quiz-global-section-header-left">
+                                <i class="fa-solid fa-font" style="color: #0284c7;"></i>
+                                <span>ফন্ট সেটিংস (Font):</span>
+                              </div>
+                              <div class="quiz-global-section-header-right">
+                                <span class="quiz-font-accordion-badge">
+                                  <span class="quiz-font-accordion-badge-text">৩টি অপশন</span>
+                                </span>
+                                <i class="fa-solid fa-plus quiz-font-accordion-plus-minus" id="iconSecFont"></i>
+                              </div>
+                            </div>
+
+                            <div class="quiz-global-section-body" id="bodySecFont" style="display: none;">
+                              <!-- Sub-Accordion 1: ফন্ট সাইজ -->
+                              <div class="quiz-font-sub-group active" id="subGrpFontSize">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header active" id="headerSubGrpFontSize">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-text-height" style="color: #0284c7; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">ফন্ট সাইজ:</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeFontSize">16 px</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-up quiz-font-accordion-chevron" id="chevronSubGrpFontSize"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpFontSize">
+                                  <div class="quiz-font-size-pills">
+                                    <button type="button" class="quiz-font-size-pill" data-fontsize="14">14 px</button>
+                                    <button type="button" class="quiz-font-size-pill" data-fontsize="15">15 px</button>
+                                    <button type="button" class="quiz-font-size-pill active" data-fontsize="16">16 px (ডিফল্ট)</button>
+                                  </div>
+                                  <div class="quiz-font-size-pills">
+                                    <button type="button" class="quiz-font-size-pill" data-fontsize="17">17 px</button>
+                                    <button type="button" class="quiz-font-size-pill" data-fontsize="18">18 px</button>
+                                    <button type="button" class="quiz-font-size-pill" data-fontsize="19">19 px</button>
+                                    <button type="button" class="quiz-font-size-pill" data-fontsize="20">20 px</button>
+                                  </div>
+
+                                  <div class="quiz-font-custom-section">
+                                    <div class="quiz-font-custom-header">
+                                      <span>কাস্টম সাইজ (১০ - ৩৬ px):</span>
+                                      <span class="quiz-font-badge" id="badgeCustomFontActive" style="display: none;"></span>
+                                    </div>
+                                    <div class="quiz-font-custom-size-row">
+                                      <input type="number" min="10" max="36" id="inputCustomFontSize" placeholder="যেমন: 22" class="quiz-font-input">
+                                      <button type="button" id="btnApplyCustomFontSize" class="quiz-font-apply-btn">সেট করুন</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- Sub-Accordion 2: ফন্ট ফ্যামিলি -->
+                              <div class="quiz-font-sub-group" id="subGrpFontFamily" style="margin-top: 8px;">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header" id="headerSubGrpFontFamily">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-paragraph" style="color: #0284c7; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">ফন্ট ফ্যামিলি:</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px; max-width: 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeFontFamily">Noto Sans</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-down quiz-font-accordion-chevron" id="chevronSubGrpFontFamily"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpFontFamily" style="display: none;">
+                                  <div class="quiz-font-family-list" id="fontFamilyListContainer">
+                                    <!-- Populated dynamically -->
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- Sub-Accordion 3: ফন্ট ওয়েট -->
+                              <div class="quiz-font-sub-group" id="subGrpFontWeight" style="margin-top: 8px;">
+                                <div class="quiz-font-accordion-header quiz-font-sub-header" id="headerSubGrpFontWeight">
+                                  <div class="quiz-font-accordion-header-left">
+                                    <i class="fa-solid fa-bold" style="color: #0284c7; font-size: 12px;"></i>
+                                    <span style="font-size: 12.5px; font-weight: 600;">ফন্ট ওয়েট:</span>
+                                  </div>
+                                  <div class="quiz-font-accordion-header-right">
+                                    <span class="quiz-font-accordion-badge" style="font-size: 11px;">
+                                      <span class="quiz-font-accordion-badge-text" id="badgeFontWeight">Regular</span>
+                                    </span>
+                                    <i class="fa-solid fa-chevron-down quiz-font-accordion-chevron" id="chevronSubGrpFontWeight"></i>
+                                  </div>
+                                </div>
+                                <div class="quiz-global-sub-card" id="bodySubGrpFontWeight" style="display: none;">
+                                  <div class="quiz-font-family-list" id="fontWeightListContainer">
+                                    <!-- Populated dynamically -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Questions Rendering Container -->
+        <div id="questionsContainerArea">
+          <!-- Populated dynamically with questions in selected layout and styles -->
+        </div>
+
+        <!-- Result Section (Shown after completing all questions) -->
+        <div id="resultSection" class="quiz-result-section" style="display: none;">
+          <h2>পরীক্ষার ফলাফল</h2>
+          <div class="quiz-detailed-stats">
+            সঠিক উত্তর: <span class="quiz-correct-count" id="statCorrect">০</span> টি
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            ভুল উত্তর: <span class="quiz-incorrect-count" id="statIncorrect">০</span> টি
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            উত্তর দেওয়া হয়নি: <span id="statUnanswered">০</span> টি
+          </div>
+
+          <!-- Progress Bar with Interactive Percentage & Hover Tooltip -->
+          <div class="quiz-progress-bar-container">
+            <div id="progressCorrectBar" class="quiz-progress-correct" style="width: 0%;"></div>
+            <div id="progressIncorrectBar" class="quiz-progress-incorrect" style="width: 0%;"></div>
+            <div id="progressUnansweredBar" class="quiz-progress-unanswered" style="width: 100%;"></div>
+          </div>
+
+          <div id="finalScoreDisplay" style="font-size: 17px; font-weight: bold; margin-top: 15px; color: #2c3e50;">
+            আপনার মোট প্রাপ্ত স্কোর: <span id="finalScoreVal">০</span>
+          </div>
+
+          <!-- Result Action Buttons -->
+          <div class="quiz-result-actions">
+            <button type="button" class="quiz-result-btn btn-view-wrong" id="btnResultViewWrong">
+              <i class="fa-solid fa-eye"></i> ভুল উত্তর দেখুন
+            </button>
+            <button type="button" class="quiz-result-btn btn-retake-wrong" id="btnResultRetakeWrong">
+              <i class="fa-solid fa-pen-to-square"></i> ভুল উত্তরের ওপর পরীক্ষা দিন
+            </button>
+            <button type="button" class="quiz-result-btn btn-retake-all" id="btnResultRetakeAll">
+              <i class="fa-solid fa-rotate-right"></i> পুনরায় সম্পূর্ণ পরীক্ষা দিন
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Floating AI Launcher Trigger Button (Bottom Right) -->
+      <button type="button" class="ai-floating-trigger-btn" id="btnFloatingAi" title="TopMCQBD AI শিক্ষক">
+        <img src="images/logo-white-icon.png" alt="AI" style="width: 28px; height: 28px; object-fit: contain;">
+        <span class="ai-floating-pulse"></span>
+      </button>
+
+      <!-- AI Chat Popup Overlay & Window -->
+      <div id="aiChatOverlay" class="ai-chat-popup-overlay" style="display: none;">
+        <div class="ai-chat-popup-window">
+          <div class="ai-chat-header">
+            <div class="ai-chat-header-info">
+              <div class="ai-avatar-badge">
+                <img src="images/logo-white-icon.png" alt="AI" style="width: 20px; height: 20px; object-fit: contain;">
+                <span class="ai-online-indicator"></span>
+              </div>
+              <div>
+                <h4>TopMCQBD AI শিক্ষক</h4>
+                <p>সবসময় সহায়তার জন্য প্রস্তুত</p>
+              </div>
+            </div>
+            <div class="ai-chat-header-actions">
+              <button type="button" class="ai-btn-icon" id="btnClearAiChat" title="নতুন চ্যাট শুরু করুন">
+                <i class="fa-solid fa-rotate-left"></i>
+              </button>
+              <button type="button" class="ai-btn-icon" id="btnCloseAiChat" title="বন্ধ করুন">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Chat Body -->
+          <div class="ai-chat-body" id="aiChatBody">
+            <!-- Messages rendered dynamically -->
+          </div>
+
+          <!-- Quick Chips -->
+          <div class="ai-quick-chips">
+            <button type="button" data-chip="এই প্রশ্নের সঠিক উত্তর ও ব্যাখ্যা কী?">সঠিক উত্তর ও ব্যাখ্যা</button>
+            <button type="button" data-chip="বাকি ৩টি অপশন কেন ভুল?">ভুল অপশন বিশ্লেষণ</button>
+            <button type="button" data-chip="এই সম্পর্কিত গুরুত্বপূর্ণ তথ্য দিন">গুরুত্বপূর্ণ তথ্য</button>
+          </div>
+
+          <!-- Chat Input Footer -->
+          <div style="padding: 10px 12px; background: #ffffff; border-top: 1px solid #e2e8f0; display: flex; gap: 8px;">
+            <input type="text" id="aiInputText" placeholder="প্রশ্ন লিখুন বা জিজ্ঞাসা করুন..." style="flex: 1; padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 13px; outline: none;">
+            <button type="button" id="btnSendAi" style="background: #1666e2; color: #ffffff; border: none; border-radius: 8px; padding: 0 14px; font-weight: 600; cursor: pointer;">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
