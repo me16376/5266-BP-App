@@ -20,25 +20,31 @@ const OPTION_LABELS = ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
 export default function QuestionCard({ 
   question, 
   index, 
-  mode = 'practice', // 'practice' | 'read' | 'exam'
+  mode = 'practice', // 'practice' | 'read' | 'exam' | 'test'
   selectedOption = null,
+  userAnswer = null,
   onSelectOption = null,
-  showResult = false
+  showResult = false,
+  isSubmitted = false
 }) {
   const [localSelected, setLocalSelected] = useState(null);
   const [showExplanation, setShowExplanation] = useState(mode === 'read');
-  const [bookmarked, setBookmarked] = useState(() => isBookmarked(question.id));
+  const [bookmarked, setBookmarked] = useState(() => isBookmarked(question?.id));
   const [copied, setCopied] = useState(false);
   const [aiNotice, setAiNotice] = useState(false);
 
-  const activeSelection = mode === 'exam' ? selectedOption : localSelected;
+  const isExam = mode === 'exam' || mode === 'test';
   const isPractice = mode === 'practice';
   const isRead = mode === 'read';
-  const isExam = mode === 'exam';
+  const actualShowResult = Boolean(showResult || isSubmitted);
+  const activeSelection = isExam ? (selectedOption ?? userAnswer) : localSelected;
 
   const handleOptionClick = (opt) => {
     if (isExam) {
-      if (onSelectOption) onSelectOption(question.id, opt);
+      if (actualShowResult) return;
+      if (onSelectOption) {
+        onSelectOption(opt, question?.id);
+      }
       return;
     }
 
@@ -49,6 +55,7 @@ export default function QuestionCard({
   };
 
   const handleBookmarkToggle = () => {
+    if (!question) return;
     const newState = toggleBookmark(question);
     setBookmarked(newState);
   };
@@ -74,18 +81,23 @@ export default function QuestionCard({
       .trim();
   };
 
+  const rawOptions = Array.isArray(question?.options) ? question.options : [];
+  const qAns = (question?.correct_answer !== null && question?.correct_answer !== undefined) 
+    ? String(question.correct_answer).trim() 
+    : '';
+
   const handleAskAI = () => {
     if (typeof window !== 'undefined') {
-      const qText = cleanText(question.question_text || question.question || '');
-      const cleanOpts = Array.isArray(question.options) ? question.options.map(cleanText) : [];
+      const qText = cleanText(question?.question_text || question?.question || '');
+      const cleanOpts = rawOptions.map(cleanText);
 
       window.postMessage({
         type: '5266_ASK_AI',
         payload: {
           question: qText,
           options: cleanOpts,
-          subject: question.subject || '',
-          exam: question.exam || ''
+          subject: question?.subject || '',
+          exam: question?.exam || ''
         }
       }, '*');
 
@@ -100,13 +112,18 @@ export default function QuestionCard({
   };
 
   const handleCopyQuestion = () => {
-    const text = `${cleanText(question.question || question.question_text)}\n\n` +
-      question.options.map((o, i) => `${OPTION_LABELS[i] || i+1}) ${cleanText(o)}`).join('\n');
+    const qTitle = cleanText(question?.question || question?.question_text || '');
+    const text = `${qTitle}\n\n` +
+      rawOptions.map((o, i) => `${OPTION_LABELS[i] || i+1}) ${cleanText(o)}`).join('\n');
 
-    navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    if (typeof navigator !== 'undefined' && navigator.clipboard) {
+      navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
   };
+
+  if (!question) return null;
 
   return (
     <div className="glass-panel" style={{
@@ -198,7 +215,7 @@ export default function QuestionCard({
         marginBottom: '20px',
         fontFamily: 'var(--font-kalpurush)'
       }}>
-        <FormattedContent content={question.question} />
+        <FormattedContent content={question.question || question.question_text || ''} />
       </h3>
 
       {/* Options Grid */}
@@ -208,16 +225,18 @@ export default function QuestionCard({
         gap: '12px',
         marginBottom: '16px'
       }}>
-        {question.options.map((option, optIdx) => {
-          const isCorrect = option.trim() === question.correct_answer.trim();
-          const isSelected = activeSelection === option;
+        {rawOptions.map((option, optIdx) => {
+          const optStr = (option !== null && option !== undefined) ? String(option).trim() : '';
+          const isCorrect = qAns !== '' && optStr === qAns;
+          const selStr = (activeSelection !== null && activeSelection !== undefined) ? String(activeSelection).trim() : null;
+          const isSelected = selStr !== null && selStr === optStr;
 
           let optionBg = '#f8fafc';
           let optionBorder = '#e2e8f0';
           let optionColor = '#1e293b';
           let icon = null;
 
-          if (isRead || (showResult && isCorrect)) {
+          if (isRead || (actualShowResult && isCorrect)) {
             if (isCorrect) {
               optionBg = '#ecfdf5';
               optionBorder = '#34d399';
@@ -237,10 +256,24 @@ export default function QuestionCard({
               icon = <XCircle size={18} color="#e11d48" />;
             }
           } else if (isExam) {
-            if (isSelected) {
-              optionBg = '#f0fdfa';
-              optionBorder = '#22d3ee';
-              optionColor = '#0f766e';
+            if (actualShowResult) {
+              if (isCorrect) {
+                optionBg = '#ecfdf5';
+                optionBorder = '#34d399';
+                optionColor = '#047857';
+                icon = <CheckCircle2 size={18} color="#059669" />;
+              } else if (isSelected) {
+                optionBg = '#fff1f2';
+                optionBorder = '#fb7185';
+                optionColor = '#be123c';
+                icon = <XCircle size={18} color="#e11d48" />;
+              }
+            } else {
+              if (isSelected) {
+                optionBg = '#ecfdf5';
+                optionBorder = '#10b981';
+                optionColor = '#065f46';
+              }
             }
           }
 
@@ -257,8 +290,8 @@ export default function QuestionCard({
                 background: optionBg,
                 border: `1px solid ${optionBorder}`,
                 color: optionColor,
-                fontWeight: isSelected || (isRead && isCorrect) ? 600 : 500,
-                cursor: (isPractice && activeSelection) ? 'default' : 'pointer',
+                fontWeight: isSelected || (isRead && isCorrect) || (actualShowResult && isCorrect) ? 600 : 500,
+                cursor: (isPractice && activeSelection) || (isExam && actualShowResult) ? 'default' : 'pointer',
                 transition: 'all 0.2s ease'
               }}
             >
@@ -266,7 +299,7 @@ export default function QuestionCard({
                 width: '28px',
                 height: '28px',
                 borderRadius: '7px',
-                background: isSelected || (isRead && isCorrect) ? 'rgba(0,0,0,0.06)' : '#edf2f7',
+                background: isSelected || (isRead && isCorrect) || (actualShowResult && isCorrect) ? 'rgba(0,0,0,0.06)' : '#edf2f7',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -289,7 +322,7 @@ export default function QuestionCard({
 
       {/* Explanation & 5266 AI Explainer Action Bar */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginTop: '10px' }}>
-        {(isPractice || isRead || showResult) && (question.explanation || question.hints) ? (
+        {(isPractice || isRead || actualShowResult) && (question.explanation || question.hints) ? (
           <button
             onClick={() => setShowExplanation(!showExplanation)}
             style={{
@@ -312,7 +345,7 @@ export default function QuestionCard({
         ) : <div />}
 
         {/* 5266 AI Assistant Trigger Button & Follow-ups */}
-        {(isPractice || isRead || showResult) && (
+        {(isPractice || isRead || actualShowResult) && (
           <div style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -388,7 +421,11 @@ export default function QuestionCard({
           }}>
             <CheckCircle2 size={18} style={{ flexShrink: 0 }} />
             <span>সঠিক উত্তর: </span>
-            <FormattedContent content={question.correct_answer} inline style={{ color: '#047857', fontWeight: 700 }} />
+            {qAns ? (
+              <FormattedContent content={question.correct_answer} inline style={{ color: '#047857', fontWeight: 700 }} />
+            ) : (
+              <span style={{ color: '#64748b', fontStyle: 'italic', fontWeight: 500 }}>উত্তর দেওয়া নেই বা তথ্যে নেই</span>
+            )}
           </div>
 
           {question.explanation && (

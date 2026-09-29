@@ -12,6 +12,7 @@ import {
   Layers
 } from 'lucide-react';
 import QuestionCard from '../../../../components/QuestionCard';
+import ExamPickerView from '../../../../components/ExamPickerView';
 import { loadExamQuestions, cleanExamTitle } from '../../../../lib/examsData';
 import { useAuth } from '../../../../lib/authContext';
 
@@ -27,6 +28,7 @@ function PracticeContent() {
   const [loading, setLoading] = useState(false);
   const [searchFilter, setSearchFilter] = useState('');
   const [selectedSubject, setSelectedSubject] = useState('all');
+  const [visibleCount, setVisibleCount] = useState(50);
 
   const isOwner = user?.role === 'owner';
   const isAdmin = user?.role === 'admin';
@@ -39,6 +41,7 @@ function PracticeContent() {
       return;
     }
     setLoading(true);
+    setVisibleCount(50);
     loadExamQuestions(examSlug).then(res => {
       setExamData(res.exam);
       setQuestions(res.questions || []);
@@ -66,8 +69,9 @@ function PracticeContent() {
       }
       if (searchFilter.trim()) {
         const query = searchFilter.toLowerCase();
-        const matchQ = q.question.toLowerCase().includes(query);
-        const matchExp = q.explanation && q.explanation.toLowerCase().includes(query);
+        const qText = String(q.question || q.question_text || '').toLowerCase();
+        const matchQ = qText.includes(query);
+        const matchExp = q.explanation && String(q.explanation).toLowerCase().includes(query);
         if (!matchQ && !matchExp) return false;
       }
       return true;
@@ -270,73 +274,9 @@ function PracticeContent() {
     );
   }
 
-  // 4. If no exam selected, show prompt to choose from job solutions page
+  // 4. If no exam selected, show full searchable catalog picker
   if (!examSlug) {
-    return (
-      <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{
-          maxWidth: '620px',
-          width: '100%',
-          padding: '44px 32px',
-          textAlign: 'center',
-          background: '#ffffff',
-          borderRadius: '16px',
-          border: '1px solid #e2e8f0',
-          boxShadow: '0 4px 16px rgba(0, 0, 0, 0.06)',
-          transition: 'none',
-          animation: 'none',
-          transform: 'none'
-        }}>
-          <div style={{
-            width: '80px',
-            height: '80px',
-            borderRadius: '50%',
-            background: '#ecfdf5',
-            border: '2px solid #a7f3d0',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            margin: '0 auto 22px',
-            boxShadow: 'none',
-            transition: 'none',
-            animation: 'none'
-          }}>
-            <BookOpen size={36} color="var(--emerald-600)" />
-          </div>
-
-          <span className="badge badge-emerald" style={{ marginBottom: '14px', padding: '6px 16px', fontSize: '0.84rem' }}>
-            প্র্যাকটিস ও রিড মোড
-          </span>
-
-          <h2 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#0f172a', marginBottom: '16px', lineHeight: 1.3 }}>
-            কোনো পরীক্ষা নির্বাচন করা হয়নি
-          </h2>
-
-          <p style={{ color: 'var(--text-secondary)', fontSize: '1.02rem', lineHeight: 1.7, marginBottom: '28px' }}>
-            মেইন জব সলিউশন পেজ থেকে একটা একটা এক্সাম চুজ করুন, তারপর প্র্যাকটিস করতে পারবেন।
-          </p>
-
-          <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link
-              href="/job-solution"
-              className="btn-primary"
-              style={{ padding: '12px 26px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px', transition: 'none', transform: 'none' }}
-            >
-              <Layers size={18} />
-              <span>জব সলিউশন পেজে যান (সকল প্রশ্ন ব্যাংক)</span>
-            </Link>
-
-            <Link
-              href="/"
-              className="btn-secondary"
-              style={{ padding: '12px 24px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px', transition: 'none', transform: 'none' }}
-            >
-              <span>হোম পেজে ফিরে যান</span>
-            </Link>
-          </div>
-        </div>
-      </div>
-    );
+    return <ExamPickerView targetMode="practice" />;
   }
 
   // Loading questions state
@@ -425,7 +365,7 @@ function PracticeContent() {
             </button>
 
             <Link
-              href={`/job-solution-model-test?exam=${examSlug}`}
+              href={`/job-solution-model-test?exam=${encodeURIComponent(examSlug || '')}`}
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -464,6 +404,8 @@ function PracticeContent() {
           <div style={{ fontSize: '0.92rem', color: 'var(--text-muted)' }}>
             মোট প্রশ্ন: <strong style={{ color: '#0f172a' }}>{questions.length}</strong> টি
             {subjects.length > 0 && ` • বিষয় অন্তর্ভুক্ত: ${subjects.length} টি`}
+            {filteredQuestions.length !== questions.length && ` • ফিল্টার অনুযায়ী: ${filteredQuestions.length} টি`}
+            {filteredQuestions.length > visibleCount && ` (প্রথম ${visibleCount}টি দেখানো হচ্ছে)`}
           </div>
 
           {/* Search & Subject Filter Bar */}
@@ -480,7 +422,10 @@ function PracticeContent() {
               <input
                 type="text"
                 value={searchFilter}
-                onChange={(e) => setSearchFilter(e.target.value)}
+                onChange={(e) => {
+                  setSearchFilter(e.target.value);
+                  setVisibleCount(50);
+                }}
                 placeholder="এই পরীক্ষার প্রশ্ন বা ব্যাখ্যায় খুঁজুন..."
                 className="input-glass"
                 style={{ paddingLeft: '38px', height: '42px', fontSize: '0.88rem' }}
@@ -490,7 +435,10 @@ function PracticeContent() {
             {subjects.length > 0 && (
               <select
                 value={selectedSubject}
-                onChange={(e) => setSelectedSubject(e.target.value)}
+                onChange={(e) => {
+                  setSelectedSubject(e.target.value);
+                  setVisibleCount(50);
+                }}
                 className="input-glass"
                 style={{ height: '42px', fontSize: '0.88rem', cursor: 'pointer' }}
               >
@@ -515,7 +463,7 @@ function PracticeContent() {
               কোনো প্রশ্ন পাওয়া যায়নি
             </h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '20px' }}>
-              এই পরীক্ষার জন্য এখনও অফলাইন JSON ফাইল লোড করা হয়নি, অথবা আপনি ফাইল স্টুডিও থেকে সরাসরি লোড করতে পারেন।
+              এই ফিল্টারে কোনো প্রশ্ন মেলেনি অথবা এখনও প্রশ্ন লোড করা হয়নি।
             </p>
             <Link href="/job-solution" className="btn-primary">
               সকল প্রশ্ন ব্যাংক দেখুন
@@ -523,7 +471,7 @@ function PracticeContent() {
           </div>
         ) : (
           <div>
-            {filteredQuestions.map((q, idx) => (
+            {filteredQuestions.slice(0, visibleCount).map((q, idx) => (
               <QuestionCard
                 key={q.id || idx}
                 question={q}
@@ -531,6 +479,44 @@ function PracticeContent() {
                 mode={mode}
               />
             ))}
+
+            {/* Load More Controls for large question banks */}
+            {visibleCount < filteredQuestions.length && (
+              <div style={{
+                textAlign: 'center',
+                margin: '36px 0 20px',
+                padding: '24px',
+                background: '#ffffff',
+                borderRadius: '16px',
+                border: '1px solid #e2e8f0',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '12px'
+              }}>
+                <div style={{ fontSize: '0.92rem', color: 'var(--text-muted)' }}>
+                  মোট {filteredQuestions.length} টি প্রশ্নের মধ্যে প্রথম <strong>{visibleCount}</strong> টি দেখানো হয়েছে।
+                </div>
+                <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', justifyContent: 'center' }}>
+                  <button
+                    onClick={() => setVisibleCount(prev => Math.min(filteredQuestions.length, prev + 50))}
+                    className="btn-primary"
+                    style={{ padding: '12px 28px', fontSize: '0.94rem' }}
+                  >
+                    আরো ৫০টি প্রশ্ন লোড করুন (বাকি {filteredQuestions.length - visibleCount}টি)
+                  </button>
+                  {filteredQuestions.length - visibleCount > 50 && (
+                    <button
+                      onClick={() => setVisibleCount(filteredQuestions.length)}
+                      className="btn-secondary"
+                      style={{ padding: '12px 22px', fontSize: '0.94rem' }}
+                    >
+                      সকল প্রশ্ন একসাথে লোড করুন ({filteredQuestions.length}টি)
+                    </button>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         )}
       </div>

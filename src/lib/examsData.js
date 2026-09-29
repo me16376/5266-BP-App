@@ -64,6 +64,16 @@ export async function getExamBySlug(slugOrId) {
     exam = catalog.exams.find(e => e.clean_filename && e.clean_filename.toLowerCase() === searchLower);
   }
 
+  // 6. Hyphen <-> Space flexible match
+  if (!exam) {
+    const searchNoHyphen = decoded.replace(/-/g, ' ').toLowerCase();
+    const searchWithHyphen = decoded.replace(/\s+/g, '-').toLowerCase();
+    exam = catalog.exams.find(e => 
+      (e.slug && (e.slug.toLowerCase() === searchWithHyphen || e.slug.replace(/-/g, ' ').toLowerCase() === searchNoHyphen)) ||
+      (e.title && (e.title.toLowerCase() === searchNoHyphen || e.title.replace(/\s+/g, '-').toLowerCase() === searchWithHyphen))
+    );
+  }
+
   if (exam) {
     return {
       ...exam,
@@ -99,7 +109,10 @@ export async function loadExamQuestions(slugOrId) {
       targetFile = targetFile.replace('/data/exams/', '/data/job-solution/');
     }
     try {
-      const res = await fetch(encodeURI(targetFile));
+      let res = await fetch(encodeURI(targetFile));
+      if (!res.ok) {
+        res = await fetch(targetFile);
+      }
       if (res.ok) {
         const text = await res.text();
         const cleanText = text.charCodeAt(0) === 0xFEFF ? text.slice(1) : text;

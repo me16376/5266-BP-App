@@ -629,7 +629,7 @@ function JobSolutionsDirectoryContent() {
 
                 <div style={{ display: 'flex', gap: '10px' }}>
                   <Link
-                    href={`/job-solution-practice?exam=${exam.slug}&mode=practice`}
+                    href={`/job-solution-practice?exam=${encodeURIComponent(exam.slug)}&mode=practice`}
                     className="btn-primary"
                     style={{ flex: 1, padding: '9px 12px', fontSize: '0.86rem' }}
                   >
@@ -638,7 +638,7 @@ function JobSolutionsDirectoryContent() {
                   </Link>
 
                   <Link
-                    href={`/job-solution-model-test?exam=${exam.slug}`}
+                    href={`/job-solution-model-test?exam=${encodeURIComponent(exam.slug)}`}
                     className="btn-secondary"
                     style={{ flex: 1, padding: '9px 12px', fontSize: '0.86rem' }}
                   >

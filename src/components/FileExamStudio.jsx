@@ -826,7 +826,8 @@ function FileExamStudioInner({ initialExamSlug = null }) {
     questions.forEach((q, idx) => {
       const selected = userAnswers[idx];
       if (selected !== undefined && selected !== null && selected !== '') {
-        if (selected.trim() === q.correct_answer.trim()) {
+        const correctStr = String(q?.correct_answer || '').trim();
+        if (correctStr !== '' && String(selected).trim() === correctStr) {
           correct++;
         } else {
           wrong++;
@@ -871,8 +872,9 @@ function FileExamStudioInner({ initialExamSlug = null }) {
 
     const itemsHtml = questions.map((q, idx) => {
       const userSelected = userAnswers[idx];
-      const isCorrect = userSelected && userSelected.trim() === q.correct_answer.trim();
-      const isWrong = userSelected && userSelected.trim() !== q.correct_answer.trim();
+      const correctStr = String(q?.correct_answer || '').trim();
+      const isCorrect = userSelected && correctStr !== '' && String(userSelected).trim() === correctStr;
+      const isWrong = userSelected && (correctStr === '' || String(userSelected).trim() !== correctStr);
       const isSkipped = !userSelected;
 
       let statusBadge = `<span style="color: #64748b; font-size: 12px; font-weight: 600;">(উত্তর দেওয়া হয়নি)</span>`;
@@ -882,9 +884,10 @@ function FileExamStudioInner({ initialExamSlug = null }) {
         statusBadge = `<span style="color: #e11d48; font-size: 12px; font-weight: 700;">✗ ভুল উত্তর (-${negativeMarks})</span>`;
       }
 
-      const optionsHtml = q.options.map((opt, oIdx) => {
-        const isOptCorrect = opt.trim() === q.correct_answer.trim();
-        const isOptSelected = userSelected && opt.trim() === userSelected.trim();
+      const qOpts = Array.isArray(q?.options) ? q.options : [];
+      const optionsHtml = qOpts.map((opt, oIdx) => {
+        const isOptCorrect = correctStr !== '' && String(opt).trim() === correctStr;
+        const isOptSelected = userSelected && String(opt).trim() === String(userSelected).trim();
         let bg = '#ffffff';
         let border = '#e2e8f0';
         let fontColor = '#1e293b';
@@ -2184,10 +2187,11 @@ function FileExamStudioInner({ initialExamSlug = null }) {
 
                     {/* Options List */}
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '10px' }}>
-                      {q.options.map((opt, oIdx) => {
+                      {(Array.isArray(q?.options) ? q.options : []).map((opt, oIdx) => {
+                        const correctStr = String(q?.correct_answer || '').trim();
                         const isChosen = selected === opt;
-                        const isPracticeCorrect = examMode === 'practice' && showExplanation && opt.trim() === q.correct_answer.trim();
-                        const isPracticeWrong = examMode === 'practice' && showExplanation && isChosen && opt.trim() !== q.correct_answer.trim();
+                        const isPracticeCorrect = examMode === 'practice' && showExplanation && correctStr !== '' && String(opt).trim() === correctStr;
+                        const isPracticeWrong = examMode === 'practice' && showExplanation && isChosen && (correctStr === '' || String(opt).trim() !== correctStr);
 
                         let bg = '#f8fafc';
                         let border = '#e2e8f0';
@@ -2555,8 +2559,9 @@ function FileExamStudioInner({ initialExamSlug = null }) {
 
             {questions.map((q, idx) => {
               const userSelected = userAnswers[idx];
-              const isCorrect = userSelected && userSelected.trim() === q.correct_answer.trim();
-              const isWrong = userSelected && userSelected.trim() !== q.correct_answer.trim();
+              const correctStr = String(q?.correct_answer || '').trim();
+              const isCorrect = userSelected && correctStr !== '' && String(userSelected).trim() === correctStr;
+              const isWrong = userSelected && (correctStr === '' || String(userSelected).trim() !== correctStr);
               const isSkipped = !userSelected;
 
               let statusBg = '#f8fafc';
@@ -2599,9 +2604,9 @@ function FileExamStudioInner({ initialExamSlug = null }) {
 
                   {/* Options */}
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '8px', marginBottom: '12px' }}>
-                    {q.options.map((opt, oIdx) => {
-                      const isThisCorrect = opt.trim() === q.correct_answer.trim();
-                      const isThisSelected = userSelected && opt.trim() === userSelected.trim();
+                    {(Array.isArray(q?.options) ? q.options : []).map((opt, oIdx) => {
+                      const isThisCorrect = correctStr !== '' && String(opt).trim() === correctStr;
+                      const isThisSelected = userSelected && String(opt).trim() === String(userSelected).trim();
 
                       let optBg = '#ffffff';
                       let optBorder = '#e2e8f0';

@@ -163,7 +163,7 @@ export default function HomePage() {
                 {searchResults.map((item) => (
                   <Link
                     key={item.id}
-                    href={`/job-solution-practice?exam=${item.slug}`}
+                    href={`/job-solution-practice?exam=${encodeURIComponent(item.slug)}`}
                     style={{
                       display: 'flex',
                       alignItems: 'center',
@@ -329,14 +329,14 @@ export default function HomePage() {
 
                   <div style={{ display: 'flex', gap: '8px' }}>
                     <Link
-                      href={`/job-solution-practice?exam=${exam.slug}&mode=practice`}
+                      href={`/job-solution-practice?exam=${encodeURIComponent(exam.slug)}&mode=practice`}
                       className="btn-primary"
                       style={{ flex: 1, padding: '8px 12px', fontSize: '0.82rem' }}
                     >
                       প্র্যাকটিস
                     </Link>
                     <Link
-                      href={`/job-solution-model-test?exam=${exam.slug}`}
+                      href={`/job-solution-model-test?exam=${encodeURIComponent(exam.slug)}`}
                       className="btn-secondary"
                       style={{ flex: 1, padding: '8px 12px', fontSize: '0.82rem' }}
                     >

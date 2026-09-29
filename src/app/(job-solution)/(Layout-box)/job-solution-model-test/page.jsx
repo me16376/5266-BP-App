@@ -26,6 +26,7 @@ import ExamTimer from '../../../../components/ExamTimer';
 import QuestionNavGrid from '../../../../components/QuestionNavGrid';
 import QuestionCard from '../../../../components/QuestionCard';
 import ResultModal from '../../../../components/ResultModal';
+import ExamPickerView from '../../../../components/ExamPickerView';
 import { loadExamQuestions, getExamsCatalog, cleanExamTitle } from '../../../../lib/examsData';
 import { saveTestResult } from '../../../../lib/storage';
 import { useAuth } from '../../../../lib/authContext';
@@ -37,7 +38,8 @@ function ModelTestContent() {
   const examSlug = searchParams.get('exam');
 
   const [examData, setExamData] = useState(null);
-  const [questions, setQuestions] = useState([]);
+  const [allQuestions, setAllQuestions] = useState([]);
+  const [questionLimit, setQuestionLimit] = useState(100);
   const [loading, setLoading] = useState(false);
   const [userAnswers, setUserAnswers] = useState({});
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -52,6 +54,14 @@ function ModelTestContent() {
   const isAdmin = user?.role === 'admin';
   const isApprovedUser = user?.status === 'approved';
   const isAuthorized = isOwner || isAdmin || isApprovedUser;
+
+  const questions = useMemo(() => {
+    if (!allQuestions || allQuestions.length === 0) return [];
+    if (!questionLimit || questionLimit === 'all' || allQuestions.length <= Number(questionLimit)) {
+      return allQuestions;
+    }
+    return allQuestions.slice(0, Number(questionLimit));
+  }, [allQuestions, questionLimit]);
 
   // Load exam questions
   useEffect(() => {
@@ -69,7 +79,13 @@ function ModelTestContent() {
 
     loadExamQuestions(examSlug).then(res => {
       setExamData(res.exam);
-      setQuestions(res.questions || []);
+      const loaded = res.questions || [];
+      setAllQuestions(loaded);
+      if (loaded.length > 200) {
+        setQuestionLimit(100);
+      } else {
+        setQuestionLimit('all');
+      }
       setLoading(false);
     }).catch(err => {
       console.error('Error loading exam questions:', err);
@@ -358,73 +374,9 @@ function ModelTestContent() {
     );
   }
 
-  // 4. If no exam selected (Show notice to pick from job solutions page)
+  // 4. If no exam selected, show full searchable catalog picker for model test
   if (!examSlug) {
-    return (
-      <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{
-          maxWidth: '620px',
-          width: '100%',
-          padding: '44px 32px',
-          textAlign: 'center',
-          background: '#ffffff',
-          borderRadius: '16px',
-          border: '1px solid #e2e8f0',
-          boxShadow: '0 4px 16px rgba(0, 0, 0, 0.06)',
-          transition: 'none',
-          animation: 'none',
-          transform: 'none'
-        }}>
-          <div style={{
-            width: '80px',
-            height: '80px',
-            borderRadius: '50%',
-            background: '#fef3c7',
-            border: '2px solid #fde68a',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            margin: '0 auto 22px',
-            boxShadow: 'none',
-            transition: 'none',
-            animation: 'none'
-          }}>
-            <Timer size={36} color="#d97706" />
-          </div>
-
-          <span className="badge badge-amber" style={{ marginBottom: '14px', padding: '6px 16px', fontSize: '0.84rem' }}>
-            লাইভ মডেল টেস্ট রুম
-          </span>
-
-          <h2 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#0f172a', marginBottom: '16px', lineHeight: 1.3 }}>
-            কোনো পরীক্ষা নির্বাচন করা হয়নি
-          </h2>
-
-          <p style={{ color: 'var(--text-secondary)', fontSize: '1.02rem', lineHeight: 1.7, marginBottom: '28px' }}>
-            মেইন জব সলিউশন পেজ থেকে একটা একটা এক্সাম চুজ করুন, তারপর মডেল টেস্ট দিতে পারবেন।
-          </p>
-
-          <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link
-              href="/job-solution"
-              className="btn-primary"
-              style={{ padding: '12px 26px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px', transition: 'none', transform: 'none' }}
-            >
-              <Layers size={18} />
-              <span>জব সলিউশন পেজে যান (সকল প্রশ্ন ব্যাংক)</span>
-            </Link>
-
-            <Link
-              href="/"
-              className="btn-secondary"
-              style={{ padding: '12px 24px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px', transition: 'none', transform: 'none' }}
-            >
-              <span>হোম পেজে ফিরে যান</span>
-            </Link>
-          </div>
-        </div>
-      </div>
-    );
+    return <ExamPickerView targetMode="model-test" />;
   }
 
   // If loading
@@ -493,7 +445,7 @@ function ModelTestContent() {
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             <Link
-              href={`/job-solution-practice?exam=${examSlug}&mode=practice`}
+              href={`/job-solution-practice?exam=${encodeURIComponent(examSlug || '')}&mode=practice`}
               className="btn-secondary"
               style={{ padding: '7px 12px', fontSize: '0.84rem' }}
             >
@@ -511,7 +463,37 @@ function ModelTestContent() {
             </Link>
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+            {allQuestions.length > 100 && !isSubmitted && (
+              <div style={{ display: 'flex', alignItems: 'center', gap: '4px', background: '#f1f5f9', padding: '3px 6px', borderRadius: '8px' }}>
+                <span style={{ fontSize: '0.78rem', color: '#475569', fontWeight: 600 }}>টেস্ট সাইজ:</span>
+                {[50, 100, 'all'].map((lim) => (
+                  <button
+                    key={lim}
+                    onClick={() => {
+                      if (userAnswers && Object.keys(userAnswers).length > 0) {
+                        if (!confirm('প্রশ্ন সংখ্যা পরিবর্তন করলে নির্বাচিত উত্তরসমূহ রিসেট হবে। আপনি কি পরিবর্তন করতে চান?')) return;
+                      }
+                      setUserAnswers({});
+                      setCurrentIdx(0);
+                      setQuestionLimit(lim);
+                    }}
+                    style={{
+                      border: 'none',
+                      padding: '3px 8px',
+                      borderRadius: '6px',
+                      fontSize: '0.76rem',
+                      fontWeight: 700,
+                      cursor: 'pointer',
+                      background: questionLimit === lim ? 'var(--emerald-600)' : 'transparent',
+                      color: questionLimit === lim ? '#ffffff' : '#475569'
+                    }}
+                  >
+                    {lim === 'all' ? `সকল (${allQuestions.length})` : `${lim}টি`}
+                  </button>
+                ))}
+              </div>
+            )}
             <span className="badge badge-amber" style={{ fontSize: '0.8rem', padding: '5px 10px' }}>
               নেগেটিভ মার্ক: -{negativeMarkRate.toFixed(2)}
             </span>
