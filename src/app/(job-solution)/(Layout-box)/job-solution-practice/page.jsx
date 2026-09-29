@@ -28,7 +28,8 @@ function PracticeContent() {
   const [loading, setLoading] = useState(false);
   const [searchFilter, setSearchFilter] = useState('');
   const [selectedSubject, setSelectedSubject] = useState('all');
-  const [visibleCount, setVisibleCount] = useState(50);
+  const [selectedRange, setSelectedRange] = useState('all');
+  const [visibleCount, setVisibleCount] = useState(100);
 
   const isOwner = user?.role === 'owner';
   const isAdmin = user?.role === 'admin';
@@ -41,7 +42,8 @@ function PracticeContent() {
       return;
     }
     setLoading(true);
-    setVisibleCount(50);
+    setVisibleCount(100);
+    setSelectedRange('all');
     loadExamQuestions(examSlug).then(res => {
       setExamData(res.exam);
       setQuestions(res.questions || []);
@@ -61,9 +63,41 @@ function PracticeContent() {
     return Array.from(set);
   }, [questions]);
 
-  // Filtered questions
+  // Range chunks: 1-100, 101-200, 201-300...
+  const rangeChunks = useMemo(() => {
+    const total = questions.length;
+    if (total <= 100) return [];
+    const chunks = [];
+    for (let start = 1; start <= total; start += 100) {
+      const end = Math.min(start + 99, total);
+      chunks.push({
+        id: `${start}-${end}`,
+        start,
+        end,
+        label: `${start} - ${end}`
+      });
+    }
+    return chunks;
+  }, [questions.length]);
+
+  // Questions sliced by selectedRange
+  const rangedQuestions = useMemo(() => {
+    if (selectedRange === 'all') {
+      return questions.map((q, idx) => ({ ...q, originalIndex: idx }));
+    }
+    const [start, end] = selectedRange.split('-').map(Number);
+    if (!start || !end) {
+      return questions.map((q, idx) => ({ ...q, originalIndex: idx }));
+    }
+    return questions.slice(start - 1, end).map((q, idx) => ({
+      ...q,
+      originalIndex: start - 1 + idx
+    }));
+  }, [questions, selectedRange]);
+
+  // Filtered questions (applying range + subject + search)
   const filteredQuestions = useMemo(() => {
-    return questions.filter(q => {
+    return rangedQuestions.filter(q => {
       if (selectedSubject !== 'all' && q.subject !== selectedSubject) {
         return false;
       }
@@ -76,7 +110,7 @@ function PracticeContent() {
       }
       return true;
     });
-  }, [questions, selectedSubject, searchFilter]);
+  }, [rangedQuestions, selectedSubject, searchFilter]);
 
   // 1. Loading State while checking auth
   if (authLoading) {
@@ -403,20 +437,26 @@ function PracticeContent() {
 
           <div style={{ fontSize: '0.92rem', color: 'var(--text-muted)' }}>
             মোট প্রশ্ন: <strong style={{ color: '#0f172a' }}>{questions.length}</strong> টি
+            {selectedRange !== 'all' && (
+              <span className="badge badge-emerald" style={{ marginLeft: '8px', fontSize: '0.8rem', padding: '3px 10px' }}>
+                রেঞ্জ: {selectedRange}
+              </span>
+            )}
             {subjects.length > 0 && ` • বিষয় অন্তর্ভুক্ত: ${subjects.length} টি`}
             {filteredQuestions.length !== questions.length && ` • ফিল্টার অনুযায়ী: ${filteredQuestions.length} টি`}
-            {filteredQuestions.length > visibleCount && ` (প্রথম ${visibleCount}টি দেখানো হচ্ছে)`}
+            {selectedRange === 'all' && filteredQuestions.length > visibleCount && ` (প্রথম ${visibleCount}টি দেখানো হচ্ছে)`}
           </div>
 
-          {/* Search & Subject Filter Bar */}
+          {/* Search, Subject & Range Filter Bar */}
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
             gap: '12px',
             marginTop: '20px',
             paddingTop: '20px',
             borderTop: '1px solid var(--border-subtle)'
           }}>
+            {/* Search Input */}
             <div style={{ position: 'relative' }}>
               <Search size={16} color="var(--text-muted)" style={{ position: 'absolute', left: '12px', top: '12px' }} />
               <input
@@ -424,7 +464,7 @@ function PracticeContent() {
                 value={searchFilter}
                 onChange={(e) => {
                   setSearchFilter(e.target.value);
-                  setVisibleCount(50);
+                  setVisibleCount(100);
                 }}
                 placeholder="এই পরীক্ষার প্রশ্ন বা ব্যাখ্যায় খুঁজুন..."
                 className="input-glass"
@@ -432,12 +472,13 @@ function PracticeContent() {
               />
             </div>
 
+            {/* Subject Dropdown */}
             {subjects.length > 0 && (
               <select
                 value={selectedSubject}
                 onChange={(e) => {
                   setSelectedSubject(e.target.value);
-                  setVisibleCount(50);
+                  setVisibleCount(100);
                 }}
                 className="input-glass"
                 style={{ height: '42px', fontSize: '0.88rem', cursor: 'pointer' }}
@@ -445,6 +486,34 @@ function PracticeContent() {
                 <option value="all">সকল বিষয় ({questions.length})</option>
                 {subjects.map(s => (
                   <option key={s} value={s}>{s}</option>
+                ))}
+              </select>
+            )}
+
+            {/* Question Range Dropdown: 1-100, 101-200, 201-300... */}
+            {rangeChunks.length > 0 && (
+              <select
+                value={selectedRange}
+                onChange={(e) => {
+                  setSelectedRange(e.target.value);
+                  setVisibleCount(100);
+                }}
+                className="input-glass"
+                style={{
+                  height: '42px',
+                  fontSize: '0.88rem',
+                  cursor: 'pointer',
+                  fontWeight: 600,
+                  color: selectedRange !== 'all' ? '#047857' : '#1e293b',
+                  border: selectedRange !== 'all' ? '1.5px solid #10b981' : '1px solid #cbd5e1',
+                  background: selectedRange !== 'all' ? '#ecfdf5' : '#ffffff'
+                }}
+              >
+                <option value="all">সকল প্রশ্ন (১ - {questions.length})</option>
+                {rangeChunks.map(chunk => (
+                  <option key={chunk.id} value={chunk.id}>
+                    প্রশ্ন {chunk.label}
+                  </option>
                 ))}
               </select>
             )}
@@ -475,7 +544,7 @@ function PracticeContent() {
               <QuestionCard
                 key={q.id || idx}
                 question={q}
-                index={idx}
+                index={q.originalIndex ?? idx}
                 mode={mode}
               />
             ))}

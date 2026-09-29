@@ -39,7 +39,7 @@ function ModelTestContent() {
 
   const [examData, setExamData] = useState(null);
   const [allQuestions, setAllQuestions] = useState([]);
-  const [questionLimit, setQuestionLimit] = useState(100);
+  const [selectedRange, setSelectedRange] = useState('1-100');
   const [loading, setLoading] = useState(false);
   const [userAnswers, setUserAnswers] = useState({});
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -55,13 +55,43 @@ function ModelTestContent() {
   const isApprovedUser = user?.status === 'approved';
   const isAuthorized = isOwner || isAdmin || isApprovedUser;
 
+  // Range chunks: 1-100, 101-200, 201-300...
+  const rangeChunks = useMemo(() => {
+    const total = allQuestions.length;
+    if (total <= 100) return [];
+    const chunks = [];
+    for (let start = 1; start <= total; start += 100) {
+      const end = Math.min(start + 99, total);
+      chunks.push({
+        id: `${start}-${end}`,
+        start,
+        end,
+        label: `${start} - ${end}`
+      });
+    }
+    return chunks;
+  }, [allQuestions.length]);
+
+  const startNumber = useMemo(() => {
+    if (selectedRange === 'all' || !selectedRange.includes('-')) return 1;
+    const [start] = selectedRange.split('-').map(Number);
+    return start || 1;
+  }, [selectedRange]);
+
   const questions = useMemo(() => {
     if (!allQuestions || allQuestions.length === 0) return [];
-    if (!questionLimit || questionLimit === 'all' || allQuestions.length <= Number(questionLimit)) {
-      return allQuestions;
+    if (selectedRange === 'all' || allQuestions.length <= 100) {
+      return allQuestions.map((q, idx) => ({ ...q, globalIndex: idx }));
     }
-    return allQuestions.slice(0, Number(questionLimit));
-  }, [allQuestions, questionLimit]);
+    const [start, end] = selectedRange.split('-').map(Number);
+    if (!start || !end) {
+      return allQuestions.map((q, idx) => ({ ...q, globalIndex: idx }));
+    }
+    return allQuestions.slice(start - 1, end).map((q, idx) => ({
+      ...q,
+      globalIndex: start - 1 + idx
+    }));
+  }, [allQuestions, selectedRange]);
 
   // Load exam questions
   useEffect(() => {
@@ -81,10 +111,10 @@ function ModelTestContent() {
       setExamData(res.exam);
       const loaded = res.questions || [];
       setAllQuestions(loaded);
-      if (loaded.length > 200) {
-        setQuestionLimit(100);
+      if (loaded.length > 100) {
+        setSelectedRange('1-100');
       } else {
-        setQuestionLimit('all');
+        setSelectedRange('all');
       }
       setLoading(false);
     }).catch(err => {
@@ -92,6 +122,16 @@ function ModelTestContent() {
       setLoading(false);
     });
   }, [examSlug, isAuthorized]);
+
+  const handleRangeChange = (newRange) => {
+    if (isSubmitted) return;
+    if (userAnswers && Object.keys(userAnswers).length > 0) {
+      if (!confirm('প্রশ্ন রেঞ্জ পরিবর্তন করলে বর্তমান উত্তরসমূহ রিসেট হবে। আপনি কি নিশ্চিত?')) return;
+    }
+    setUserAnswers({});
+    setCurrentIdx(0);
+    setSelectedRange(newRange);
+  };
 
   // Handle option selection
   const handleSelectOption = (qIndex, option) => {
@@ -464,34 +504,31 @@ function ModelTestContent() {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-            {allQuestions.length > 100 && !isSubmitted && (
-              <div style={{ display: 'flex', alignItems: 'center', gap: '4px', background: '#f1f5f9', padding: '3px 6px', borderRadius: '8px' }}>
-                <span style={{ fontSize: '0.78rem', color: '#475569', fontWeight: 600 }}>টেস্ট সাইজ:</span>
-                {[50, 100, 'all'].map((lim) => (
-                  <button
-                    key={lim}
-                    onClick={() => {
-                      if (userAnswers && Object.keys(userAnswers).length > 0) {
-                        if (!confirm('প্রশ্ন সংখ্যা পরিবর্তন করলে নির্বাচিত উত্তরসমূহ রিসেট হবে। আপনি কি পরিবর্তন করতে চান?')) return;
-                      }
-                      setUserAnswers({});
-                      setCurrentIdx(0);
-                      setQuestionLimit(lim);
-                    }}
-                    style={{
-                      border: 'none',
-                      padding: '3px 8px',
-                      borderRadius: '6px',
-                      fontSize: '0.76rem',
-                      fontWeight: 700,
-                      cursor: 'pointer',
-                      background: questionLimit === lim ? 'var(--emerald-600)' : 'transparent',
-                      color: questionLimit === lim ? '#ffffff' : '#475569'
-                    }}
-                  >
-                    {lim === 'all' ? `সকল (${allQuestions.length})` : `${lim}টি`}
-                  </button>
-                ))}
+            {/* Question Range Dropdown: 1-100, 101-200, 201-300... */}
+            {rangeChunks.length > 0 && !isSubmitted && (
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', background: '#f8fafc', padding: '4px 10px', borderRadius: '10px', border: '1px solid #cbd5e1' }}>
+                <span style={{ fontSize: '0.82rem', color: '#334155', fontWeight: 700 }}>প্রশ্ন রেঞ্জ:</span>
+                <select
+                  value={selectedRange}
+                  onChange={(e) => handleRangeChange(e.target.value)}
+                  style={{
+                    padding: '4px 10px',
+                    fontSize: '0.84rem',
+                    fontWeight: 700,
+                    borderRadius: '8px',
+                    cursor: 'pointer',
+                    background: '#ffffff',
+                    border: '1.5px solid #10b981',
+                    color: '#065f46'
+                  }}
+                >
+                  {rangeChunks.map(chunk => (
+                    <option key={chunk.id} value={chunk.id}>
+                      প্রশ্ন {chunk.label}
+                    </option>
+                  ))}
+                  <option value="all">সকল প্রশ্ন (১ - {allQuestions.length})</option>
+                </select>
               </div>
             )}
             <span className="badge badge-amber" style={{ fontSize: '0.8rem', padding: '5px 10px' }}>
@@ -531,6 +568,11 @@ function ModelTestContent() {
             </div>
             <h2 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#0f172a', margin: 0, lineHeight: 1.3 }}>
               {cleanExamTitle(examData?.title) || 'মডেল টেস্ট'}
+              {selectedRange !== 'all' && (
+                <span className="badge badge-emerald" style={{ marginLeft: '10px', fontSize: '0.78rem', verticalAlign: 'middle' }}>
+                  রেঞ্জ: {selectedRange}
+                </span>
+              )}
             </h2>
           </div>
 
@@ -610,7 +652,7 @@ function ModelTestContent() {
               <div key={q.id || idx} id={`q_${idx}`} style={{ scrollMarginTop: '160px', marginBottom: '16px' }}>
                 <QuestionCard
                   question={q}
-                  index={idx}
+                  index={q.globalIndex ?? idx}
                   mode="test"
                   userAnswer={userAnswers[idx]}
                   onSelectOption={(opt) => handleSelectOption(idx, opt)}
@@ -666,6 +708,7 @@ function ModelTestContent() {
 
             <QuestionNavGrid
               total={questions.length}
+              startNumber={startNumber}
               userAnswers={userAnswers}
               currentIndex={currentIdx}
               onSelectIndex={(idx) => {
@@ -800,6 +843,7 @@ function ModelTestContent() {
             </div>
             <QuestionNavGrid
               total={questions.length}
+              startNumber={startNumber}
               userAnswers={userAnswers}
               currentIndex={currentIdx}
               onSelectIndex={(idx) => {

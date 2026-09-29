@@ -6,7 +6,8 @@ export default function QuestionNavGrid({
   total, 
   userAnswers, 
   currentIndex, 
-  onSelectIndex 
+  onSelectIndex,
+  startNumber = 1
 }) {
   return (
     <div className="glass-panel" style={{ padding: '16px', background: '#ffffff', borderRadius: '14px', border: '1px solid #e2e8f0', boxShadow: '0 2px 8px rgba(0,0,0,0.03)' }}>
@@ -81,7 +82,7 @@ export default function QuestionNavGrid({
                 transition: 'all 0.15s ease'
               }}
             >
-              {i + 1}
+              {startNumber + i}
             </button>
           );
         })}
