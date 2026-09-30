@@ -1249,21 +1249,23 @@ function QuestionBankSmartQuestionsContent() {
         </div>
       </div>
 
-      {/* Floating Status Bar (Timer & Score at Top-Right) */}
-      <div className="quiz-floating-status-bar">
-        {showTime && (
-          <div className="quiz-timer-board" id="timerBoard" style={{ display: 'flex' }}>
-            <i className="fa-regular fa-clock"></i>
-            <span id="timerDisplay">{formatTimer(timerSeconds)}</span>
-          </div>
-        )}
-        {showScore && (
-          <div className="quiz-score-board" id="scoreBoard" style={{ display: 'flex' }}>
-            <span>স্কোর:</span>
-            <span id="scoreDisplay">{formatScore(score)}</span>
-          </div>
-        )}
-      </div>
+      {/* Floating Status Bar (Timer & Score at Top-Right) - Hidden in Read Mode */}
+      {activeMode !== 'read' && (showTime || showScore) && (
+        <div className="quiz-floating-status-bar">
+          {showTime && (
+            <div className="quiz-timer-board" id="timerBoard" style={{ display: 'flex' }}>
+              <i className="fa-regular fa-clock"></i>
+              <span id="timerDisplay">{formatTimer(timerSeconds)}</span>
+            </div>
+          )}
+          {showScore && (
+            <div className="quiz-score-board" id="scoreBoard" style={{ display: 'flex' }}>
+              <span>স্কোর:</span>
+              <span id="scoreDisplay">{formatScore(score)}</span>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Top Navigation & Mode Switcher Bar */}
       <div className="quiz-top-bar">
@@ -1601,41 +1603,44 @@ function QuestionBankSmartQuestionsContent() {
                 </span>
               </label>
 
-              {/* Time Switch */}
-              <label className={`quiz-switch-label ${activeMode === 'read' ? 'disabled-switch' : ''}`} id="lblTimeSwitch">
-                <label className="quiz-switch">
-                  <input
-                    type="checkbox"
-                    id="switchTime"
-                    disabled={activeMode === 'read'}
-                    checked={showTime}
-                    onChange={(e) => {
-                      setShowTime(e.target.checked);
-                      saveActivePresetSetting('showTime', e.target.checked);
-                    }}
-                  />
-                  <span className="quiz-slider"></span>
-                </label>
-                সময়
-              </label>
+              {/* Time Switch & Score Switch (Hidden in Read Mode: "পড়ুন মোড mode, swicher 2 ta off thakbe, ba dekhabe na") */}
+              {activeMode !== 'read' && (
+                <>
+                  {/* Time Switch */}
+                  <label className="quiz-switch-label" id="lblTimeSwitch">
+                    <label className="quiz-switch">
+                      <input
+                        type="checkbox"
+                        id="switchTime"
+                        checked={showTime}
+                        onChange={(e) => {
+                          setShowTime(e.target.checked);
+                          saveActivePresetSetting('showTime', e.target.checked);
+                        }}
+                      />
+                      <span className="quiz-slider"></span>
+                    </label>
+                    সময়
+                  </label>
 
-              {/* Score Switch */}
-              <label className={`quiz-switch-label ${activeMode === 'read' ? 'disabled-switch' : ''}`} id="lblScoreSwitch">
-                <label className="quiz-switch">
-                  <input
-                    type="checkbox"
-                    id="switchScore"
-                    disabled={activeMode === 'read'}
-                    checked={showScore}
-                    onChange={(e) => {
-                      setShowScore(e.target.checked);
-                      saveActivePresetSetting('showScore', e.target.checked);
-                    }}
-                  />
-                  <span className="quiz-slider"></span>
-                </label>
-                স্কোর
-              </label>
+                  {/* Score Switch */}
+                  <label className="quiz-switch-label" id="lblScoreSwitch">
+                    <label className="quiz-switch">
+                      <input
+                        type="checkbox"
+                        id="switchScore"
+                        checked={showScore}
+                        onChange={(e) => {
+                          setShowScore(e.target.checked);
+                          saveActivePresetSetting('showScore', e.target.checked);
+                        }}
+                      />
+                      <span className="quiz-slider"></span>
+                    </label>
+                    স্কোর
+                  </label>
+                </>
+              )}
 
               {/* প্রশ্ন সেটিংস Dropdown Trigger & POPUP (100% IDENTICAL TO REFERENCE DESIGN) */}
               <div className="quiz-layout-dropdown-wrapper" id="globalSettingsDropdownWrapper" ref={settingsWrapperRef}>
