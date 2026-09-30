@@ -5,6 +5,34 @@ import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import './style.css';
 import { loadExamQuestions, cleanExamTitle } from '../../../../lib/examsData';
+import FormattedContent from '../../../../components/FormattedContent';
+
+// Prepare explanation content with support for newlines, <br>, code, and HTML
+function prepareExplanation(rawExp) {
+  if (!rawExp) return '';
+  let str = String(rawExp).trim();
+
+  // If text contains HTML-escaped tags like &lt;br or &lt;p or &lt;code&gt;
+  if (/&lt;(?:br|\/?p|\/?div|\/?b|\/?strong|\/?span|\/?code|\/?pre|\/?table|\/?tr|\/?td|\/?th|\/?ul|\/?ol|\/?li)[^&]*?&gt;/i.test(str)) {
+    str = str
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'");
+  }
+
+  // Handle literal escaped \r\n or \n if present as string
+  if (str.includes('\\n')) {
+    str = str.replace(/\\r\\n/g, '\n').replace(/\\n/g, '\n');
+  }
+
+  // Strip duplicate leading 'ব্যাখ্যা:' or 'ব্যাখ্যাঃ' or 'ব্যাখ্যা -' if present at the start
+  str = str.replace(/^(?:<p>\s*)?(?:📝\s*)?ব্যাখ্যা\s*[:ঃ\-=–—]\s*/i, (match) => {
+    return match.startsWith('<p>') ? '<p>' : '';
+  });
+
+  return str;
+}
 
 // Digits mapping
 const BENGALI_DIGITS = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
@@ -1085,8 +1113,9 @@ function QuestionBankSmartQuestionsContent() {
                 </span>
               </div>
             )}
-            <div className="quiz-exp-body-row" style={{ whiteSpace: 'pre-line' }}>
-              <strong>ব্যাখ্যা:</strong> {q.explanation}
+            <div className="quiz-exp-body-row">
+              <strong className="quiz-exp-label">ব্যাখ্যা:</strong>{' '}
+              <FormattedContent content={prepareExplanation(q.explanation)} inline={true} className="quiz-exp-formatted-content" />
             </div>
           </div>
         )}

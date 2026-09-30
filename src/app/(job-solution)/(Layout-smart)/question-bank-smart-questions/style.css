@@ -4513,15 +4513,45 @@ input:disabled + .quiz-slider { cursor: not-allowed; background-color: #cbd5e1; 
 
 .quiz-exp-body-row {
   color: #334155;
-  line-height: 1.6;
+  line-height: 1.65;
   font-size: calc(var(--quiz-font-size, 16px) - 0.5px) !important;
   font-family: var(--quiz-font-family, inherit) !important;
+  word-break: break-word;
 }
 
-.quiz-exp-body-row strong {
+.quiz-exp-body-row strong,
+.quiz-exp-body-row .quiz-exp-label {
   color: #0f172a;
   font-weight: 700;
-  margin-right: 4px;
+  margin-right: 6px;
+  display: inline;
+}
+
+.quiz-exp-formatted-content {
+  display: inline;
+  word-break: break-word;
+}
+
+.quiz-exp-formatted-content > p:first-child {
+  display: inline;
+  margin-top: 0;
+}
+
+.quiz-exp-formatted-content > p {
+  margin: 6px 0;
+}
+
+.quiz-exp-formatted-content pre,
+.quiz-exp-formatted-content .formatted-code-container {
+  display: block;
+  margin: 10px 0;
+  clear: both;
+}
+
+.quiz-exp-formatted-content table {
+  margin: 8px 0;
+  max-width: 100%;
+  border-collapse: collapse;
 }
 
 .quiz-result-section {
