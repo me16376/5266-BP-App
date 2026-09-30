@@ -347,6 +347,8 @@ function QuestionBankSmartQuestionsContent() {
   const settingsWrapperRef = useRef(null);
   const limitWrapperRef = useRef(null);
   const rangeWrapperRef = useRef(null);
+  const prevAnswerModeRef = useRef('on-wrong');
+  const prevExplanationModeRef = useRef('on-wrong');
 
   // Check if any major accordion is active
   const hasActiveAccordion = useMemo(() => {
@@ -444,7 +446,15 @@ function QuestionBankSmartQuestionsContent() {
 
     const resAnsMode = profile.answerMode || (profile.showAnswer ? 'on-select' : 'none');
     setAnswerMode(resAnsMode);
-    setShowAnswer(resAnsMode !== 'none' && resAnsMode !== 'explanation-only');
+    const isAnsOn = resAnsMode !== 'none' && resAnsMode !== 'explanation-only';
+    setShowAnswer(isAnsOn);
+    if (isAnsOn) prevAnswerModeRef.current = resAnsMode;
+
+    const resExpMode = profile.explanationMode || (profile.showExplanation ? 'on-select' : 'none');
+    setExplanationMode(resExpMode);
+    const isExpOn = resExpMode !== 'none' && resExpMode !== 'answer-only';
+    setShowExplanation(isExpOn);
+    if (isExpOn) prevExplanationModeRef.current = resExpMode;
 
     setShowTime(profile.showTime !== undefined ? profile.showTime : (presetId === 'exam'));
     setShowScore(profile.showScore !== undefined ? profile.showScore : (presetId !== 'read'));
@@ -534,11 +544,13 @@ function QuestionBankSmartQuestionsContent() {
       setAnswerMode(value);
       const isAnsVisible = value !== 'none' && value !== 'explanation-only';
       setShowAnswer(isAnsVisible);
+      if (isAnsVisible) prevAnswerModeRef.current = value;
       saveActivePresetSetting('showAnswer', isAnsVisible);
     } else if (key === 'explanationMode') {
       setExplanationMode(value);
       const isExpVisible = value !== 'none' && value !== 'answer-only';
       setShowExplanation(isExpVisible);
+      if (isExpVisible) prevExplanationModeRef.current = value;
       saveActivePresetSetting('showExplanation', isExpVisible);
     } else if (key === 'optionLetter') {
       setOptionLetter(value);
@@ -1606,7 +1618,33 @@ function QuestionBankSmartQuestionsContent() {
 
           <div className="quiz-right-controls-group">
             <div className="quiz-switch-group">
-              {/* Explanation Switch */}
+              {/* Answer Switch (উত্তর) */}
+              <label className="quiz-switch-label" id="lblAnswerSwitch" title="উত্তর">
+                <label className="quiz-switch">
+                  <input
+                    type="checkbox"
+                    id="switchAnswer"
+                    checked={showAnswer}
+                    onChange={(e) => {
+                      const willBeOn = e.target.checked;
+                      setShowAnswer(willBeOn);
+                      const newMode = willBeOn ? (prevAnswerModeRef.current || 'on-select') : 'none';
+                      setAnswerMode(newMode);
+                      saveActivePresetSetting('showAnswer', willBeOn);
+                      saveActivePresetSetting('answerMode', newMode);
+                    }}
+                  />
+                  <span className="quiz-slider"></span>
+                </label>
+                <span id="textAnswerSwitch">
+                  {answerMode === 'on-select' ? 'উত্তর (স্বয়ংক্রিয়)' :
+                   answerMode === 'on-button' ? 'উত্তর (ম্যানুয়াল)' :
+                   answerMode === 'on-wrong' ? 'উত্তর (ভুল প্রশ্নে)' :
+                   answerMode === 'explanation-only' ? 'শুধু ব্যাখ্যা' : 'উত্তর'}
+                </span>
+              </label>
+
+              {/* Explanation Switch (ব্যাখ্যা) */}
               <label className="quiz-switch-label" id="lblExplanationSwitch" title="ব্যাখ্যা">
                 <label className="quiz-switch">
                   <input
@@ -1616,7 +1654,7 @@ function QuestionBankSmartQuestionsContent() {
                     onChange={(e) => {
                       const willBeOn = e.target.checked;
                       setShowExplanation(willBeOn);
-                      const newMode = willBeOn ? 'on-select' : 'none';
+                      const newMode = willBeOn ? (prevExplanationModeRef.current || 'on-select') : 'none';
                       setExplanationMode(newMode);
                       saveActivePresetSetting('showExplanation', willBeOn);
                       saveActivePresetSetting('explanationMode', newMode);
