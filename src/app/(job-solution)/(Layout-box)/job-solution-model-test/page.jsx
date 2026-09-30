@@ -30,6 +30,7 @@ import ExamPickerView from '../../../../components/ExamPickerView';
 import { loadExamQuestions, getExamsCatalog, cleanExamTitle } from '../../../../lib/examsData';
 import { saveTestResult } from '../../../../lib/storage';
 import { useAuth } from '../../../../lib/authContext';
+import LoginRequiredModal from '../../../../components/LoginRequiredModal';
 
 function ModelTestContent() {
   const { user, loading: authLoading, logout } = useAuth();
@@ -230,88 +231,18 @@ function ModelTestContent() {
     );
   }
 
-  // 2. Unauthenticated: User is not logged in
+  // 2. Unauthenticated: User is not logged in -> Show Login Required Modal
   if (!user) {
     return (
-      <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div className="glass-panel" style={{
-          maxWidth: '620px',
-          width: '100%',
-          padding: '48px 32px',
-          textAlign: 'center',
-          background: '#ffffff',
-          borderRadius: '24px',
-          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.08)',
-          border: '1px solid var(--border-subtle)'
-        }}>
-          <div style={{
-            width: '84px',
-            height: '84px',
-            borderRadius: '50%',
-            background: 'linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%)',
-            border: '2px solid #fde68a',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            margin: '0 auto 24px',
-            boxShadow: '0 8px 24px rgba(245, 158, 11, 0.15)'
-          }}>
-            <i className="fa-solid fa-lock" style={{ fontSize: '2.4rem', color: '#d97706' }}></i>
-          </div>
-
-          <span className="badge badge-amber" style={{ marginBottom: '14px', padding: '6px 16px', fontSize: '0.84rem' }}>
-            <i className="fa-solid fa-shield-halved" style={{ marginRight: '6px' }}></i> অ্যাক্সেস সীমাবদ্ধ
-          </span>
-
-          <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a', marginBottom: '14px', lineHeight: 1.3 }}>
-            মডেল টেস্ট দিতে লগইন প্রয়োজন
-          </h2>
-
-          <p style={{ color: 'var(--text-secondary)', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '28px' }}>
-            টাইমার ও নেগেটিভ মার্কিং সহ লাইভ মডেল টেস্ট দিতে অনুগ্রহ করে লগইন করুন। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong> বা <strong>অ্যাডমিনিস্ট্রেটর</strong> ছাড়া এই পেজটি দেখা যাবে না।
-          </p>
-
-          <div style={{
-            background: '#f8fafc',
-            border: '1px solid #e2e8f0',
-            borderRadius: '14px',
-            padding: '18px 20px',
-            textAlign: 'left',
-            marginBottom: '28px',
-            fontSize: '0.9rem',
-            color: '#334155'
-          }}>
-            <div style={{ fontWeight: 700, color: '#0f172a', marginBottom: '8px' }}>
-              <i className="fa-solid fa-circle-check" style={{ color: 'var(--emerald-600)', marginRight: '8px' }}></i>
-              অনুমোদিত অ্যাকাউন্টে যে সুবিধাসমূহ উন্মুক্ত হবে:
-            </div>
-            <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '6px' }}>
-              <li>• ২,১৫৪টি বিসিএস, ব্যাংক, শিক্ষক ও সরকারি চাকরির লাইভ মডেল টেস্ট</li>
-              <li>• পরীক্ষা ভিত্তিক সঠিক সময় নির্ধারণ ও কাউন্টডাউন টাইমার</li>
-              <li>• স্বয়ংক্রিয় ভুল উত্তরের নেগেটিভ মার্কিং ও বিস্তারিত স্কোরশিট</li>
-            </ul>
-          </div>
-
-          <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link
-              href="/profile"
-              className="btn-primary"
-              style={{ padding: '13px 28px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
-            >
-              <i className="fa-solid fa-right-to-bracket"></i>
-              <span>লগইন বা সাইন আপ করুন</span>
-            </Link>
-
-            <Link
-              href="/"
-              className="btn-secondary"
-              style={{ padding: '13px 24px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
-            >
-              <i className="fa-solid fa-house"></i>
-              <span>হোম পেজে ফিরে যান</span>
-            </Link>
-          </div>
-        </div>
+      <div style={{ minHeight: '80vh', position: 'relative' }}>
+        <LoginRequiredModal
+          isOpen={true}
+          title="মডেল টেস্ট দিতে লগইন প্রয়োজন"
+          description="লাইভ মডেল টেস্ট, টাইমার ও নেগেটিভ মার্কিং সহ পরীক্ষা দিতে অনুগ্রহ করে আপনার অ্যাকাউন্টে লগইন করুন।"
+          loginRedirect={`/job-solution-model-test/${examSlug ? `?exam=${encodeURIComponent(examSlug)}` : ''}`}
+          chooseExamUrl="/job-solution"
+          chooseExamText="জব সল্যুশন পরীক্ষা তালিকা"
+        />
       </div>
     );
   }
@@ -414,9 +345,107 @@ function ModelTestContent() {
     );
   }
 
-  // 4. If no exam selected, show full searchable catalog picker for model test
+  // 4. If user is logged in, but no exam selected -> Tell user to choose an exam from /job-solution/
   if (!examSlug) {
-    return <ExamPickerView targetMode="model-test" />;
+    return (
+      <div style={{
+        padding: '60px 16px 100px',
+        minHeight: '75vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}>
+        <div style={{
+          maxWidth: '580px',
+          width: '100%',
+          padding: '44px 32px',
+          textAlign: 'center',
+          background: '#ffffff',
+          borderRadius: '24px',
+          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.06)',
+          border: '1px solid #e2e8f0'
+        }}>
+          <div style={{
+            width: '80px',
+            height: '80px',
+            borderRadius: '50%',
+            background: 'linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%)',
+            border: '2px solid #a7f3d0',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            margin: '0 auto 20px',
+            boxShadow: '0 8px 24px rgba(16, 185, 129, 0.15)'
+          }}>
+            <i className="fa-solid fa-stopwatch-20" style={{ fontSize: '2.2rem', color: '#059669' }}></i>
+          </div>
+
+          <span style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+            background: '#ecfdf5',
+            color: '#047857',
+            padding: '4px 14px',
+            borderRadius: '20px',
+            fontSize: '0.84rem',
+            fontWeight: 700,
+            marginBottom: '14px'
+          }}>
+            <i className="fa-solid fa-clipboard-check"></i> মডেল টেস্ট নির্বাচন
+          </span>
+
+          <h2 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#0f172a', marginBottom: '14px', lineHeight: 1.3 }}>
+            একটি পরীক্ষা নির্বাচন করুন
+          </h2>
+
+          <p style={{ color: '#64748b', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '28px' }}>
+            লাইভ মডেল টেস্ট শুরু করতে অনুগ্রহ করে <strong>/job-solution/</strong> পেজ থেকে যেকোনো একটি পরীক্ষা নির্বাচন করুন।
+          </p>
+
+          <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <Link
+              href="/job-solution"
+              style={{
+                padding: '13px 28px',
+                fontSize: '0.98rem',
+                fontWeight: 700,
+                background: '#059669',
+                color: '#ffffff',
+                borderRadius: '12px',
+                textDecoration: 'none',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '10px',
+                boxShadow: '0 6px 18px rgba(5, 150, 105, 0.25)'
+              }}
+            >
+              <i className="fa-solid fa-arrow-right"></i>
+              <span>পরীক্ষা নির্বাচন করুন (/job-solution)</span>
+            </Link>
+
+            <Link
+              href="/"
+              style={{
+                padding: '13px 24px',
+                fontSize: '0.98rem',
+                fontWeight: 600,
+                background: '#f1f5f9',
+                color: '#475569',
+                borderRadius: '12px',
+                textDecoration: 'none',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px'
+              }}
+            >
+              <i className="fa-solid fa-house"></i>
+              <span>হোম পেজ</span>
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   // If loading

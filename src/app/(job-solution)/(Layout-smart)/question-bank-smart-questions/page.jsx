@@ -6,6 +6,8 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import './style.css';
 import { loadExamQuestions, cleanExamTitle } from '../../../../lib/examsData';
 import FormattedContent from '../../../../components/FormattedContent';
+import { useAuth } from '../../../../lib/authContext';
+import LoginRequiredModal from '../../../../components/LoginRequiredModal';
 
 // Prepare explanation content with support for newlines, <br>, code, and HTML
 function prepareExplanation(rawExp) {
@@ -225,6 +227,7 @@ const DEFAULT_QUESTIONS = [
 function QuestionBankSmartQuestionsContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const { user, loading: authLoading } = useAuth();
   const examSlug = searchParams.get('exam') || searchParams.get('category') || '';
   const initialModeParam = searchParams.get('mode') || 'practice';
 
@@ -1269,6 +1272,137 @@ function QuestionBankSmartQuestionsContent() {
   const answeredTotal = Object.keys(answeredQuestions).length;
   const questionsTotal = displayQuestions.length;
   const questionsLeft = Math.max(0, questionsTotal - answeredTotal);
+
+  // 1. Loading State while checking auth
+  if (authLoading) {
+    return (
+      <div style={{ padding: '100px 20px', minHeight: '65vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ padding: '24px 36px', display: 'inline-flex', alignItems: 'center', gap: '14px', background: '#ffffff', borderRadius: '16px', border: '1px solid #e2e8f0', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
+          <i className="fa-solid fa-circle-notch fa-spin" style={{ color: '#0284c7', fontSize: '1.4rem' }}></i>
+          <span style={{ fontSize: '1rem', color: '#0f172a', fontWeight: 600 }}>অ্যাকাউন্ট যাচাই করা হচ্ছে...</span>
+        </div>
+      </div>
+    );
+  }
+
+  // 2. Unauthenticated: User is not logged in -> Show Login Required Modal
+  if (!user) {
+    return (
+      <div style={{ minHeight: '80vh', position: 'relative' }}>
+        <LoginRequiredModal
+          isOpen={true}
+          title="লগইন প্রয়োজন"
+          description="প্রশ্ন ব্যাংক স্মার্ট মোডে প্রশ্ন ও পরীক্ষা অনুশীলন করতে অনুগ্রহ করে আপনার অ্যাকাউন্টে লগইন করুন।"
+          loginRedirect={`/question-bank-smart-questions/${examSlug ? `?exam=${encodeURIComponent(examSlug)}` : ''}`}
+          chooseExamUrl="/question-bank-smart"
+          chooseExamText="প্রশ্ন ব্যাংক স্মার্ট পেজ"
+        />
+      </div>
+    );
+  }
+
+  // 3. User is logged in, but no exam selected -> Tell user to choose an exam from /question-bank-smart/
+  if (!examSlug) {
+    return (
+      <div style={{
+        padding: '60px 16px 100px',
+        minHeight: '75vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}>
+        <div style={{
+          maxWidth: '580px',
+          width: '100%',
+          padding: '44px 32px',
+          textAlign: 'center',
+          background: '#ffffff',
+          borderRadius: '24px',
+          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.06)',
+          border: '1px solid #e2e8f0'
+        }}>
+          <div style={{
+            width: '80px',
+            height: '80px',
+            borderRadius: '50%',
+            background: 'linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%)',
+            border: '2px solid #7dd3fc',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            margin: '0 auto 20px',
+            boxShadow: '0 8px 24px rgba(2, 132, 199, 0.15)'
+          }}>
+            <i className="fa-solid fa-list-check" style={{ fontSize: '2.2rem', color: '#0284c7' }}></i>
+          </div>
+
+          <span style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+            background: '#e0f2fe',
+            color: '#0369a1',
+            padding: '4px 14px',
+            borderRadius: '20px',
+            fontSize: '0.84rem',
+            fontWeight: 700,
+            marginBottom: '14px'
+          }}>
+            <i className="fa-solid fa-book-open"></i> পরীক্ষা নির্বাচন
+          </span>
+
+          <h2 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#0f172a', marginBottom: '14px', lineHeight: 1.3 }}>
+            একটি পরীক্ষা নির্বাচন করুন
+          </h2>
+
+          <p style={{ color: '#64748b', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '28px' }}>
+            প্রশ্ন ও উত্তর অনুশীলন শুরু করতে অনুগ্রহ করে <strong>/question-bank-smart/</strong> পেজ থেকে যেকোনো একটি পরীক্ষা নির্বাচন করুন।
+          </p>
+
+          <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <Link
+              href="/question-bank-smart"
+              style={{
+                padding: '13px 28px',
+                fontSize: '0.98rem',
+                fontWeight: 700,
+                background: '#0284c7',
+                color: '#ffffff',
+                borderRadius: '12px',
+                textDecoration: 'none',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '10px',
+                boxShadow: '0 6px 18px rgba(2, 132, 199, 0.25)'
+              }}
+            >
+              <i className="fa-solid fa-arrow-right"></i>
+              <span>পরীক্ষা নির্বাচন করুন (/question-bank-smart)</span>
+            </Link>
+
+            <Link
+              href="/"
+              style={{
+                padding: '13px 24px',
+                fontSize: '0.98rem',
+                fontWeight: 600,
+                background: '#f1f5f9',
+                color: '#475569',
+                borderRadius: '12px',
+                textDecoration: 'none',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px'
+              }}
+            >
+              <i className="fa-solid fa-house"></i>
+              <span>হোম পেজ</span>
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div
