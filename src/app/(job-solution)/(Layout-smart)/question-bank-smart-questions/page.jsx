@@ -206,9 +206,10 @@ function QuestionBankSmartQuestionsContent() {
   const [loading, setLoading] = useState(true);
 
   // Active Preset & Top Bar Mode
-  const [activePreset, setActivePreset] = useState(
-    initialModeParam === 'read' ? 'read' : (initialModeParam === 'exam' ? 'exam' : 'practice')
-  );
+  // Top bar mode ('practice' | 'read') and Question Settings preset ('practice' | 'read' | 'exam' | 'custom')
+  // have NO relation to each other. They operate independently.
+  // Initially, Question Settings auto-chooses "My setting" ('custom').
+  const [activePreset, setActivePreset] = useState('custom');
   const [activeMode, setActiveMode] = useState(initialModeParam === 'read' ? 'read' : 'practice');
   const isReadMode = activeMode === 'read';
 
@@ -223,20 +224,20 @@ function QuestionBankSmartQuestionsContent() {
     return DEFAULT_PRESET_PROFILES;
   });
 
-  // Settings State initialized from current preset
+  // Settings State initialized from "My setting" (custom) preset profile
   const [questionLayout, setQuestionLayout] = useState('2q-col');
   const [optionLayout, setOptionLayout] = useState('2');
-  const [middleLine, setMiddleLine] = useState('dotted');
-  const [bottomLine, setBottomLine] = useState('dotted');
-  const [middleGap, setMiddleGap] = useState(60);
+  const [middleLine, setMiddleLine] = useState('none');
+  const [bottomLine, setBottomLine] = useState('none');
+  const [middleGap, setMiddleGap] = useState(80);
   const [customGapInput, setCustomGapInput] = useState('');
-  const [questionStyle, setQuestionStyle] = useState('dotted');
-  const [highlightMode, setHighlightMode] = useState('single');
-  const [highlightColor, setHighlightColor] = useState('highlight-and-circle');
-  const [showAnswer, setShowAnswer] = useState(false);
-  const [answerMode, setAnswerMode] = useState('none');
+  const [questionStyle, setQuestionStyle] = useState('nostyle');
+  const [highlightMode, setHighlightMode] = useState('both');
+  const [highlightColor, setHighlightColor] = useState('with-icons');
+  const [showAnswer, setShowAnswer] = useState(true);
+  const [answerMode, setAnswerMode] = useState('on-wrong');
   const [showExplanation, setShowExplanation] = useState(true);
-  const [explanationMode, setExplanationMode] = useState('on-select');
+  const [explanationMode, setExplanationMode] = useState('on-wrong');
   const [optionLetter, setOptionLetter] = useState('bangla');
   const [cutMark, setCutMark] = useState(0.5);
   const [cutMarkMode, setCutMarkMode] = useState('0.5');
@@ -417,10 +418,10 @@ function QuestionBankSmartQuestionsContent() {
     setAnswerMode(resAnsMode);
     setShowAnswer(resAnsMode !== 'none' && resAnsMode !== 'explanation-only');
 
+    setShowTime(profile.showTime !== undefined ? profile.showTime : (presetId === 'exam'));
+    setShowScore(profile.showScore !== undefined ? profile.showScore : (presetId !== 'read'));
+
     if (presetId === 'read') {
-      setActiveMode('read');
-      setShowTime(false);
-      setShowScore(false);
       setSecOpen({
         secLayout: true,
         secColorStyle: true,
@@ -430,9 +431,6 @@ function QuestionBankSmartQuestionsContent() {
         secFont: false
       });
     } else if (presetId === 'exam') {
-      setActiveMode('practice');
-      setShowTime(true);
-      setShowScore(true);
       setSecOpen({
         secLayout: true,
         secColorStyle: false,
@@ -442,9 +440,6 @@ function QuestionBankSmartQuestionsContent() {
         secFont: false
       });
     } else {
-      setActiveMode('practice');
-      setShowTime(profile.showTime || false);
-      setShowScore(profile.showScore !== undefined ? profile.showScore : true);
       setSecOpen({
         secLayout: true,
         secColorStyle: false,
@@ -460,10 +455,9 @@ function QuestionBankSmartQuestionsContent() {
     } catch (e) {}
   };
 
-  // Initial Preset Loading on Mount
+  // Initial Preset Loading on Mount - auto choose "My setting" (custom)
   useEffect(() => {
-    const initialPreset = initialModeParam === 'read' ? 'read' : (initialModeParam === 'exam' ? 'exam' : 'practice');
-    applyPresetProfile(initialPreset);
+    applyPresetProfile('custom');
   }, []);
 
   // Save changes to active preset in state and localStorage
@@ -857,7 +851,7 @@ function QuestionBankSmartQuestionsContent() {
     ? 'style-nostyle-mode'
     : '';
 
-  const activePresetObj = PRESET_LIST.find((p) => p.id === activePreset) || PRESET_LIST[0];
+  const activePresetObj = PRESET_LIST.find((p) => p.id === activePreset) || PRESET_LIST[3];
 
   // Font weights CSS map
   const fwMap = { thin: '300', regular: '400', medium: '600', bold: '800' };
@@ -1302,7 +1296,6 @@ function QuestionBankSmartQuestionsContent() {
               id="btnModePractice"
               onClick={() => {
                 setActiveMode('practice');
-                applyPresetProfile('practice');
               }}
               title="অনুশীলন মোড"
             >
@@ -1315,7 +1308,6 @@ function QuestionBankSmartQuestionsContent() {
               id="btnModeRead"
               onClick={() => {
                 setActiveMode('read');
-                applyPresetProfile('read');
               }}
               title="পড়ুন মোড"
             >
