@@ -9,7 +9,7 @@
       "_unsigned"
     ],
     "correct_answer": "_unsigned",
-    "explanation": "<p><span style=\"font-size: 1rem;\">Variable এর নাম অবশ্যই ডলার সাইন ( $ ) দিয়ে শুরু হতে হবে। Variable এর নাম সংখ্যা দিয়ে শুরু হতে পারবে না। Variable এর নামের মাঝে হাইফেন(” – “) থাকা যাবে না প্রয়োজনে underscore (” _ “) ব্যবহার করা যাবে। Variable এর নাম case sensitive অর্থাৎ $age এবং $AGE দুটি পৃথক variable ।</span></p>",
+    "explanation": "",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ভর্তি পরীক্ষা",
@@ -26,7 +26,7 @@
       "<url link = ‘www.abc.com’>ABC</url>"
     ],
     "correct_answer": "<a href = ‘www.abc.com’>ABC</a>",
-    "explanation": "<p><br/>HTML এ হাইপারলিংক লিখতে, আপনাকে অ্যাঙ্কর (<a>) ট্যাগ ব্যবহার করতে হবে। এই ট্যাগের দুটি প্রধান অ্যাট্রিবিউট আছে:<br/><br/>href: এটি হাইপারলিংকের URL নির্ধারণ করে।<br/>link text: এটি হাইপারলিংকে প্রদর্শিত টেক্সট।<br/></a><br/></p><br/><br/>বিভিন্ন ধরণের হাইপারলিংক:<br/><br/>আপনি বিভিন্ন ধরণের হাইপারলিংক তৈরি করতে পারেন, যেমন:<br/><br/>অভ্যন্তরীণ লিংক: একই ওয়েবসাইটের বিভিন্ন পৃষ্ঠার মধ্যে লিঙ্ক করতে ব্যবহৃত হয়।<br/>बाह्य লিংক: অন্য ওয়েবসাইটের সাথে লিঙ্ক করতে ব্যবহৃত হয়।<br/>Email লিংক: একটি ইমেইল ঠিকানার সাথে লিঙ্ক করতে ব্যবহৃত হয়।",
+    "explanation": "",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ভর্তি পরীক্ষা",
@@ -43,7 +43,7 @@
       "ম্যাক এড্রেস (MAC address)"
     ],
     "correct_answer": "ডোমাইন নেম (Domain name)",
-    "explanation": "ডোমেইন নেম হলো ইন্টারনেটে একটি ওয়েবসাইটের ঠিকানা যা মানুষের সহজে মনে রাখার জন্য ব্যবহার করা হয়। এটি একটি অনন্য নাম যা একটি আইপি ঠিকানার পরিবর্তে ব্যবহার করা হয়। <br/>ডোমেইন নেম মূলত ইন্টারনেটে একটি নির্দিষ্ট ওয়েব সার্ভার বা রিসোর্সকে নির্দেশ করে। যখন আপনি একটি ব্রাউজারে ডোমেইন নেম টাইপ করেন, তখন এটি একটি আইপি ঠিকানায় রূপান্তরিত হয় এবং সেই আইপি ঠিকানার মাধ্যমে আপনার কাঙ্ক্ষিত ওয়েবসাইটে নিয়ে যাওয়া হয়। <br/>উদাহরণস্বরূপ, \"example.com\" একটি ডোমেইন নেম। যখন আপনি এই ডোমেইনটি ব্রাউজারে টাইপ করেন, তখন এটি একটি আইপি ঠিকানায় রূপান্তরিত হয়ে example.com ওয়েবসাইটে নিয়ে যায়।",
+    "explanation": "",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ভর্তি পরীক্ষা",
@@ -60,7 +60,7 @@
       "1600"
     ],
     "correct_answer": "2800",
-    "explanation": "<p>Total 8&nbsp; computer connect with each other&nbsp;</p><br/><p>Total Cable link is 8c2= 28&nbsp;</p><br/><br/><p>28*100=2800 Taka</p>",
+    "explanation": "",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ভর্তি পরীক্ষা",
@@ -77,7 +77,7 @@
       "কোর (Core)"
     ],
     "correct_answer": "কোর (Core)",
-    "explanation": "<p>অপটিক্যাল ফাইবার (ইংরেজি: Optical fiber) একধরনের পাতলা, স্বচ্ছ তন্তু বিশেষ, সাধারণত বিশুদ্ধ কাচ (সিলিকা) অথবা প্লাস্টিক দিয়ে বানানো হয়, যা আলো পরিবহনে ব্যবহৃত হয়। অপটিক্যাল ফাইবার ক্যাবলের সবচেয়ে ভিতরের উপাদান: কোর</p>",
+    "explanation": "",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ভর্তি পরীক্ষা",
@@ -94,7 +94,7 @@
       "হাব (Hub)"
     ],
     "correct_answer": "ব্রিজ (Bridge)",
-    "explanation": "<p>একটি ব্রিজ এমন এক ধরণের কম্পিউটার নেটওয়ার্ক ডিভাইস যা একই প্রোটোকল ব্যবহার করে এমন অন্যান্য ব্রিজ নেটওয়ার্কগুলির সাথে আন্তঃসংযোগ সরবরাহ করে।</p>",
+    "explanation": "",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ভর্তি পরীক্ষা",
@@ -111,7 +111,7 @@
       "কম্পাইলার (Compiler)"
     ],
     "correct_answer": "ডিবাগার (Debugger)",
-    "explanation": "<p>একটি ডিবাগার বা ডিবাগিং টুল হল একটি কম্পিউটার প্রোগ্রাম যা অন্যান্য প্রোগ্রাম পরীক্ষা এবং ডিবাগ করতে ব্যবহৃত হয়।</p>",
+    "explanation": "",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ভর্তি পরীক্ষা",
@@ -128,7 +128,7 @@
       "জীনতত্ত্ব প্রকৌশল (Genetic Engineering)"
     ],
     "correct_answer": "জীনতত্ত্ব প্রকৌশল (Genetic Engineering)",
-    "explanation": "<p>জীববিজ্ঞানের যে শাখায় জিনের গঠন, কাজ, বংশপরম্পরায় সঞ্চারণের ধরণ ও ফলাফল সম্বন্ধে বিস্তারিত আলোচনা করা হয় তাকে বংশগতিবিদ্যা বা জিনতত্ত্ব বা জেনেটিক্স (Genetics) বলে। উইলিয়াম বেটসন (William Bateson, 1861–1926) ১৯০৫ খ্রিস্টাব্দে সর্বপ্রথম Genetics শব্দ প্রচলন করেন।</p>",
+    "explanation": "",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ভর্তি পরীক্ষা",
@@ -162,7 +162,7 @@
       "প্যাটার্ন (Pattern)"
     ],
     "correct_answer": "প্যাটার্ন (Pattern)",
-    "explanation": "<p>বায়োমেট্রিক সিস্টেম হলো এমন একটি প্রযুক্তি যা কোনও ব্যক্তির শারীরবৃত্তীয়, আচরণগত বা উভয় বৈশিষ্ট্যকে ইনপুট হিসাবে গ্রহণ করে, এটি বিশ্লেষণ করে এবং প্রকৃত ব্যবহারকারী হিসাবে ব্যক্তিকে চিহ্নিত করে।</p>",
+    "explanation": "",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ভর্তি পরীক্ষা",
@@ -179,7 +179,7 @@
       "A XOR B"
     ],
     "correct_answer": "A XOR B",
-    "explanation": "<p><p><span style=\"font-size: 1rem;\">যে সমবায় সার্কিট দুটি বিট যোগ করে একটি যোগফল(S) ও একটি ক্যারি(C) আউটপুট দেয় তাকে হাফ অ্যাডার সার্কিট বা অর্ধযোগের বর্তনী বলে।</span><span style=\"font-size: 1rem;\">দুটি ইনপুট এর মান একই হলে আউটপুট ০ হয় অন্যথায় ১ হবে।</span></p></p><br/><p><span style=\"font-size: 1rem;\">Sum এর ক্ষেত্রে-&nbsp;</span><span style=\"font-size: 1rem;\">S&nbsp; = A XOR B = A ⊕ B</span></p>",
+    "explanation": "",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ভর্তি পরীক্ষা",
@@ -213,7 +213,7 @@
       "111000100111"
     ],
     "correct_answer": "111000101001",
-    "explanation": "<p>(7051)8=(?)2</p><br/><p>অক্টালের প্রতিটি ডিজিকে তার সমতুল্য তিন বিট বাইনারিতে লিখতে হবে।</p><br/><p>7 এর ৩বিট বাইনারি=111</p><br/><p>0 এর ৩বিট বাইনারি=000</p><br/><p>5 এর ৩বিট বাইনারি=101</p><br/><p><span style=\"font-size: 1rem;\">1 এর ৩বিট বাইনারি=001</span></p><br/><p>অতএব 7051 (octal) এর সমতুল্য বাইনারি সংখ্যা 111000101001</p>",
+    "explanation": "",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ভর্তি পরীক্ষা",
@@ -247,7 +247,7 @@
       "সি (C)"
     ],
     "correct_answer": "সি (C)",
-    "explanation": "<p>উচ্চস্তরের ভাষা (High Level Language):<span style=\"font-size: 1rem;\">এটি তৃতীয় প্রজন্মের ভাষা। যেমন- Fortran, Basic, Pascal, Cobol, C, C++, Visual Basic, Java, Python ইত্যাদি।</span></p>",
+    "explanation": "",
     "hints": "",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ভর্তি পরীক্ষা",
@@ -264,7 +264,7 @@
       "মুন্সীগঞ্জের রামপালে (Rampal of Munshiganj)"
     ],
     "correct_answer": "মৌলভীবাজারের কুলাউড়ায় (Kulaura of Moulvibazar).",
-    "explanation": "<p>বিশ্বের যেসব খনি থেকে ইউরেনিয়াম সংগ্রহনকরা হয় সেখানে ৩০০ -১০০০ পিপিএম মাত্রায় ইউরেনিয়াম আছে,, আর মৌলভীবাজারের খনিতে ৫০০ পিপিএম মাত্রায় ইউরেনিয়াম আছে। এখানে ২০১৫ সালে ইউরেনিয়াম আবিষ্কৃত হয়&nbsp;</p>",
+    "explanation": "",
     "hints": "",
     "subject": "ভূগোল ও পরিবেশ",
     "category": "ভর্তি পরীক্ষা",
@@ -349,7 +349,7 @@
       "দারিদ্র্যতা (Poverty)"
     ],
     "correct_answer": "নিরক্ষরতা ও অসচেতনতা (Illiteracy and unawareness)",
-    "explanation": "<p>নিরক্ষরতা ও অসচেতনতার কারনে এদেশের মানুষ বেশি সন্তান নিতে আগ্রহী,, তাই এ দেশে নিরক্ষরতা ও অসচেতনতার কারনে দিন দিন জনসংখ্যা বাড়ছে।&nbsp;</p>",
+    "explanation": "",
     "hints": "",
     "subject": "ভূগোল ও পরিবেশ",
     "category": "ভর্তি পরীক্ষা",
@@ -366,7 +366,7 @@
       "ম্যান্টেল(Mental)"
     ],
     "correct_answer": "অন্তঃ কেন্দ্রমন্ডল(Inner core)",
-    "explanation": "<p>পৃথিবীর সবচেয়ে ভেতরের ভূত্বকের যে অংশ সেটাকে বলা হয় ইনার কোর।।&nbsp; বা একদম ভেতরের অঞ্চল&nbsp;</p>",
+    "explanation": "",
     "hints": "",
     "subject": "ভূগোল ও পরিবেশ",
     "category": "ভর্তি পরীক্ষা",
@@ -400,7 +400,7 @@
       "জন লিংকন (John Linkon)"
     ],
     "correct_answer": "ওয়ারেন থমসন (Warren Thompson",
-    "explanation": "<p>জনসংখ্যা বিষয়ক ট্রানজিশনাল মডেলের ধারনা দেন ওয়ারেন থমসন। তিনি ১৯২৯ সালে ট্রানজিশনাল মডেলের ধারনা দেন।&nbsp;</p>",
+    "explanation": "",
     "hints": "",
     "subject": "ভূগোল ও পরিবেশ",
     "category": "ভর্তি পরীক্ষা",
@@ -451,7 +451,7 @@
       "ভারত (India)"
     ],
     "correct_answer": "চীন (China)",
-    "explanation": "<p>বিশ্বে চা&nbsp; উৎপাদনে এবং রপ্তানীতে&nbsp; চীনের অবস্থান ১ম। চা উৎপাদনে বর্তমানে বাংলাদেশের অবস্থান নবম।।&nbsp;</p>",
+    "explanation": "",
     "hints": "",
     "subject": "ভূগোল ও পরিবেশ",
     "category": "ভর্তি পরীক্ষা",
@@ -485,7 +485,7 @@
       "বেতার তরঙ্গের প্রতিফলন (Reflection of radio waves)"
     ],
     "correct_answer": "উচ্চতা বৃদ্ধির সাথে বায়ুর তাপমাত্রা হ্রাস (Decrease of air temperature with increasing altitude)",
-    "explanation": "ট্রপোবিরতি হচ্ছে ট্রপোমণ্ডলও স্ট্রাটোমণ্ডলের মধ্যে সীমারেখা সরূপ। বায়ুমণ্ডলের এই স্তরের বায়ুতে প্রায় ৯০ শতাংশ ধূলিকণা, জলীয় বাষ্প, কুয়াশা, মেঘ প্রভৃতি থাকায় এই স্তরে ঝড়, বৃষ্টি, শিলাবৃষ্টি, বজ্রপাত, তুষারপাত প্রভৃতি ঘটনাগুলি ঘটতে দেখা যায়, এজন্য ভূপৃষ্ঠ সংলগ্ন বায়ুমণ্ডলীয় এই স্তরকে ক্ষুব্ধমন্ডল বলে।",
+    "explanation": "",
     "hints": "",
     "subject": "ভূগোল ও পরিবেশ",
     "category": "ভর্তি পরীক্ষা",
@@ -502,7 +502,7 @@
       "নাগা-মণিপুরে (Naga Manipur)"
     ],
     "correct_answer": "মানস সরোবরে (Manasarovar)",
-    "explanation": "হরিদ্বারের উত্তরে উত্তরাখণ্ডের উত্তরকাশী জেলায় মধ্য হিমালয়ের মুসৌরি পর্বতশ্রেণীর বান্দারপুচ শৃঙ্গের দক্ষিণ-পশ্চিম পাদদেশে যমুনোত্রী হিমবাহের ৬,৩৮৭ মিটার উচ্চতায় যমুনা নদীর উৎপত্তি। এখানে দেবী যমুনার প্রতি উৎসর্গিত যমুনোত্রী মন্দির হিন্দুধর্মের পবিত্র তীর্থগুলির অন্যতম।",
+    "explanation": "",
     "hints": "",
     "subject": "ভূগোল ও পরিবেশ",
     "category": "ভর্তি পরীক্ষা",
@@ -519,7 +519,7 @@
       "need to be treated in intensive care units"
     ],
     "correct_answer": "susceptible to injury or disease",
-    "explanation": "vulnerable adjective&nbsp;জেয়&nbsp;vulnerable, vincible&nbsp;ভেদ্য&nbsp;permeable, penetrable, vulnerable, attackable<br/>ভেদনীয়<br/>vulnerable, pervious<br/><br/>Vulnerable এর অর্থ কি?<br/>ক্ষতিগ্রস্ত হতে পারে এমন; আক্রম্য; অরক্ষিত: find somebody\\\"s vulnerable spot; people who are vulnerable to criticism. vulnerability আক্রম্যতা; ঘাতোপযোগিতা।",
+    "explanation": "",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "ভর্তি পরীক্ষা",
@@ -536,7 +536,7 @@
       "can't"
     ],
     "correct_answer": "won't",
-    "explanation": "Tag question কি : Tag শব্দের অর্থ, জুড়ে দেওয়া। কথা বলার সময় Statement এর শেষে যে একটি সমর্থন সূচক প্রশ্ন সংযোগ করা হয় তাকে Tag question বলে। You are Anas, aren\\\"t you ? Tag Question গঠন : Statement এর পর একটি কমা বসবে + সাহায্যকারী verb বসবে + Statement এর subject এর pronoun বসবে + প্রশ্নবোধক চিহ্ন বসবে।",
+    "explanation": "",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "ভর্তি পরীক্ষা",
@@ -553,7 +553,7 @@
       "but it was"
     ],
     "correct_answer": "and that was",
-    "explanation": "For myself, I chose the cheapest dish on the menu ___ a mutton chap. Correct Answer and that was",
+    "explanation": "",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "ভর্তি পরীক্ষা",
@@ -570,7 +570,7 @@
       "might have done"
     ],
     "correct_answer": "would have found",
-    "explanation": "<p>বাক্যটি third conditional sentence তাই would have found হয়েছে। যেহেতু বাক্যটি if + had +v3 আছে তাই বাক্যটি third conditional sentence&nbsp;</p>",
+    "explanation": "",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "ভর্তি পরীক্ষা",
@@ -604,7 +604,7 @@
       "such"
     ],
     "correct_answer": "too",
-    "explanation": "TOO + ADJECTIVE/ ADVERB + TO –INFINITIVE<br/>She\\\"s too short to reach the shelf. She draws too terribly to win the first prize. The teacher is reading too quickly for me to catch up with.",
+    "explanation": "",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "ভর্তি পরীক্ষা",
@@ -621,7 +621,7 @@
       "plethora"
     ],
     "correct_answer": "glimmer",
-    "explanation": "glimmer<br/>noun<br/>আভাস<br/>glimpse, glimmer, semblance, inkling, guise, hint<br/>ক্ষীণ আলো<br/>glimmer, glimpse, glim<br/>মিট্মিট্ আলোক<br/>flicker, glimmer",
+    "explanation": "",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "ভর্তি পরীক্ষা",
@@ -638,7 +638,7 @@
       "inprison"
     ],
     "correct_answer": "imprison",
-    "explanation": "verb. prisoned; prisoning; prisons. transitive verb. : imprison, confine. Ans a.",
+    "explanation": "",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "ভর্তি পরীক্ষা",
@@ -689,7 +689,7 @@
       "figure out"
     ],
     "correct_answer": "abstain",
-    "explanation": "<p>Abstain বিরত থাকা</p><br/><p>Speculate --Some thing are made conjugated. So Abstain is not synonym of it</p>",
+    "explanation": "",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "ভর্তি পরীক্ষা",
@@ -740,7 +740,7 @@
       "onerous"
     ],
     "correct_answer": "beneficial",
-    "explanation": "<p>Pernicious ক্ষতিকর কোন কিছু বুঝায়</p><br/><p>Beneficial অর্থ উপকারী&nbsp;</p><br/><p>so Beneficial is the Antonym&nbsp;</p>",
+    "explanation": "",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "ভর্তি পরীক্ষা",
@@ -757,7 +757,7 @@
       "decídous"
     ],
     "correct_answer": "bizarre",
-    "explanation": "<p>Bizarre বাংলা অর্থ হল অদ্ভুত। So it is the right answer.&nbsp;</p>",
+    "explanation": "",
     "hints": "",
     "subject": "English Language and Literature",
     "category": "ভর্তি পরীক্ষা",
@@ -774,7 +774,7 @@
       "জলধি"
     ],
     "correct_answer": "তটিনি",
-    "explanation": "সমুদ্র /বিশেষ্য পদ/ অর্ণব, জলধি, উদধি, পয়োধি, পয়োনিধি, তোয়ধি, পারাবার, সাগর, সিন্ধু, বারিধি, বারীশ, রত্নাকর।",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -791,7 +791,7 @@
       "নদীকূলে"
     ],
     "correct_answer": "পরপারে",
-    "explanation": "<p>তরু ছায়ামাসী গ্রামখানা পরপারে আঁকা।।&nbsp;</p><br/><p>এটা মূলত একটি কবিতার লাইন থেকে তুলে দেওয়া হয়েছে।।</p><br/><p>তাই পরপারে শব্দটি সঠিক</p>",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -808,7 +808,7 @@
       "ঘুড়ি"
     ],
     "correct_answer": "গরিব",
-    "explanation": "<p>গরীব মূলত আরবি ভাষার শব্দ।।</p><br/><p>গারীবুন শব্দ থেকে এই শব্দটি এসেছে</p>",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -825,7 +825,7 @@
       "আমি এখনও পরাজিত হইনি।"
     ],
     "correct_answer": "আমি এখনও সুস্থ হইনি।",
-    "explanation": "<p>সুস্থ হওয়ার ইংরেজি হল কাম রাউন্ড Come round..</p><br/><p>So come round the correct answer&nbsp;</p>",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -842,7 +842,7 @@
       "বিদ্বান সমাজ"
     ],
     "correct_answer": "বন্ধুগণেরা",
-    "explanation": "<p>এখানে মূলত বচনের ভুল প্রয়োগ হয়েছে।।&nbsp; বন্ধু সাথে সাধারণত রা হয়ে বহুবচন হয় । অথবা গণ&nbsp;</p>",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -859,7 +859,7 @@
       "একাদশ"
     ],
     "correct_answer": "নিমগ্ন",
-    "explanation": "<p>সব শব্দগুলো সাধারণত শব্দের পূর্বে বসে নতুন শব্দের সৃষ্টি করে তাকে উপসর্গ বলে।।&nbsp;</p><br/><p>আ সু বি নি উপসর্গ হিসেবে ব্যবহৃত হয়।।</p>",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -876,7 +876,7 @@
       "প্রায়শঃ, দায়ি"
     ],
     "correct_answer": "কাহিনি, ঠান্ডা",
-    "explanation": "বাংলা একাডেমী মানুষের মুখের উচ্চারণ অনুসারে এখন বানান লিখছে । আমরা সাধারণত কাহিনি উচ্চারণ করি, কাহিনী নয় । সেই জন্যে বাংলা একাডেমীর অভিধানে&nbsp; কাহিনি,&nbsp; কাহিনী । দুটোই সঠিক ।",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -893,7 +893,7 @@
       "বাহুল্য দোষ"
     ],
     "correct_answer": "অলংকারের ভুল প্রয়োগ",
-    "explanation": "<p>আসলে বাক্যটিতে উপমার ভুল প্রয়োগ বা সঠিক অলংকরণ হয়নি তাই বাক্যটি সঠিক নয়</p>",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -910,7 +910,7 @@
       "এ কথা প্রমাণিত হয়েছে।"
     ],
     "correct_answer": "উপরোক্ত বাক্যটি শুদ্ধ নয়।",
-    "explanation": "<p>শুদ্ধ রূপ - উপর্যুক্ত বাক্যটি সঠিক নয়। তাই উত্তর হবে খ</p>",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -927,7 +927,7 @@
       "উপপদ তৎপুরুষ"
     ],
     "correct_answer": "উপপদ তৎপুরুষ",
-    "explanation": "উপপদ তৎপুরুষ সমাস<br/>যে পদের পরবর্তী ক্রিয়ামূলের সঙ্গে কৃৎ প্রত্যয় যুক্ত হয়, সে পদকে উপপদ বলে। কৃদন্ত পদের সাথে উপপদের যে সমাস হয়, তাকে উপপদ তৎপুরুষ সমাস বলে। যেমন: জলে চরে যা= জলচর, জল দেয় যা= জলদ, পঙ্কে জন্মে যা= পঙ্কজ ইত্যাদি।",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -944,7 +944,7 @@
       "অভিে"
     ],
     "correct_answer": "ওভিপ্রেতো",
-    "explanation": "<p>'অভিপ্রেত' শব্দের প্রমিত উচ্চারণ – সঠিক উত্তর ওভিপ্রেতো।</p><br/><p>অভিপ্রেত এর অর্থ ঈপ্সিত, উদ্দিষ্ট, বাঞ্ছিত (চাওয়া হয়েছে এমন। )</p>",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -961,7 +961,7 @@
       "রহিমার"
     ],
     "correct_answer": "গ্রামবাসীর",
-    "explanation": "<p>বিশ্বাসের পাথরে যেন খোদাই চোখ এটা মূলত হচ্ছে একটা প্রবন্ধ থেকে তুলে দেয়া হয়েছে ‌। চোখ বলতে বোঝানো হয়েছে গ্রামবাসীদের চোখকে</p>",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -978,7 +978,7 @@
       "হলুদ উপত্যকা"
     ],
     "correct_answer": "সবুজ উপত্যকা",
-    "explanation": "<p>হরিৎ শব্দের অর্থ হলো সবুজ।। হরিৎ উপত্যকা অর্থ সবুজ উপত্যকা&nbsp;</p>",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -995,7 +995,7 @@
       "ভারতী"
     ],
     "correct_answer": "ভারতী",
-    "explanation": "<p>বিলাসী গল্পটি মূলত শরৎচন্দ্র চট্টোপাধ্যায়ের লেখা এটি সর্বপ্রথম ভারতী পত্রিকায় প্রকাশিত হয়</p>",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
@@ -1012,7 +1012,7 @@
       "গোলাপ ফুল ও তরমুজ"
     ],
     "correct_answer": "শিমুল ফুল ও মাকাল ফল",
-    "explanation": "<span style=\"color: rgb(53, 53, 53); font-family: Georgia, &quot;Times New Roman&quot;, Times, serif; font-size: medium;\">উত্তর : সুন্দর চেহারার জন্য অনুপমকে পণ্ডিত মশায়েরা বিদ্রƒপ করতেন।</span><br style=\"color: rgb(53, 53, 53); font-family: Georgia, &quot;Times New Roman&quot;, Times, serif; font-size: medium;\"><span style=\"color: rgb(53, 53, 53); font-family: Georgia, &quot;Times New Roman&quot;, Times, serif; font-size: medium;\">ছোটবেলায় অনুপমের চেহারা সুন্দর ছিল বলে পণ্ডিত মশায়েরা তাকে শিমুল ফুল ও মাকাল ফলের সাথে তুলনা করতেন। তখন লজ্জা পেলেও বয়স বাড়ার সাথে সাথে সে ভাবে, যদি জন্মান্তর থাকে তবে তার মুখের স্বরূপ এবং পণ্ডিত মশায়দের মুখে বিদ্রƒপ আবার যেন এমনি করেই প্রকাশ পায়।</span>",
+    "explanation": "",
     "hints": "",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ভর্তি পরীক্ষা",
