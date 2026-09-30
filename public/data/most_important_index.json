@@ -1,0 +1,164 @@
+{
+  "total_subjects": 12,
+  "total_questions": 4904,
+  "categories": [
+    {
+      "id": "all",
+      "name": "সকল বিষয়",
+      "subject_count": 12,
+      "question_count": 4904
+    },
+    {
+      "id": "language",
+      "name": "ভাষা ও সাহিত্য",
+      "subject_count": 2,
+      "question_count": 2910
+    },
+    {
+      "id": "affairs",
+      "name": "বাংলাদেশ ও আন্তর্জাতিক",
+      "subject_count": 3,
+      "question_count": 1016
+    },
+    {
+      "id": "science",
+      "name": "বিজ্ঞান ও প্রযুক্তি",
+      "subject_count": 2,
+      "question_count": 364
+    },
+    {
+      "id": "math",
+      "name": "গাণিতিক যুক্তি ও দক্ষতা",
+      "subject_count": 2,
+      "question_count": 599
+    },
+    {
+      "id": "geography",
+      "name": "ভূগোল ও নৈতিকতা",
+      "subject_count": 2,
+      "question_count": 15
+    }
+  ],
+  "subjects": [
+    {
+      "id": "english-language-and-literature",
+      "slug": "english-language-and-literature",
+      "title": "English Language and Literature",
+      "category_id": "language",
+      "category_name": "ভাষা ও সাহিত্য",
+      "question_count": 1407,
+      "max_repeated": 32,
+      "file_path": "/data/most-important-questions/english-language-and-literature.json"
+    },
+    {
+      "id": "summary",
+      "slug": "summary",
+      "title": "summary",
+      "category_id": "other",
+      "category_name": "অন্যান্য",
+      "question_count": 0,
+      "max_repeated": 0,
+      "file_path": "/data/most-important-questions/summary.json"
+    },
+    {
+      "id": "international-affairs",
+      "slug": "international-affairs",
+      "title": "আন্তর্জাতিক বিষয়াবলি",
+      "category_id": "affairs",
+      "category_name": "বাংলাদেশ ও আন্তর্জাতিক",
+      "question_count": 134,
+      "max_repeated": 17,
+      "file_path": "/data/most-important-questions/international-affairs.json"
+    },
+    {
+      "id": "computer-and-information-technology",
+      "slug": "computer-and-information-technology",
+      "title": "কম্পিউটার ও তথ্য প্রযুক্তি",
+      "category_id": "science",
+      "category_name": "বিজ্ঞান ও প্রযুক্তি",
+      "question_count": 133,
+      "max_repeated": 7,
+      "file_path": "/data/most-important-questions/computer-and-information-technology.json"
+    },
+    {
+      "id": "mathematical-reasoning",
+      "slug": "mathematical-reasoning",
+      "title": "গাণিতিক যুক্তি",
+      "category_id": "math",
+      "category_name": "গাণিতিক যুক্তি ও দক্ষতা",
+      "question_count": 595,
+      "max_repeated": 20,
+      "file_path": "/data/most-important-questions/mathematical-reasoning.json"
+    },
+    {
+      "id": "ethics-and-values",
+      "slug": "ethics-and-values",
+      "title": "নৈতিকতা-মূল্যবোধ",
+      "category_id": "geography",
+      "category_name": "ভূগোল ও নৈতিকতা",
+      "question_count": 6,
+      "max_repeated": 5,
+      "file_path": "/data/most-important-questions/ethics-and-values.json"
+    },
+    {
+      "id": "bangla-language-and-literature",
+      "slug": "bangla-language-and-literature",
+      "title": "বাংলা ভাষা ও সাহিত্য",
+      "category_id": "language",
+      "category_name": "ভাষা ও সাহিত্য",
+      "question_count": 1503,
+      "max_repeated": 61,
+      "file_path": "/data/most-important-questions/bangla-language-and-literature.json"
+    },
+    {
+      "id": "bangladesh-affairs",
+      "slug": "bangladesh-affairs",
+      "title": "বাংলাদেশ বিষয়াবলি",
+      "category_id": "affairs",
+      "category_name": "বাংলাদেশ ও আন্তর্জাতিক",
+      "question_count": 168,
+      "max_repeated": 23,
+      "file_path": "/data/most-important-questions/bangladesh-affairs.json"
+    },
+    {
+      "id": "geography-and-environment",
+      "slug": "geography-and-environment",
+      "title": "ভূগোল ও পরিবেশ",
+      "category_id": "geography",
+      "category_name": "ভূগোল ও নৈতিকতা",
+      "question_count": 9,
+      "max_repeated": 5,
+      "file_path": "/data/most-important-questions/geography-and-environment.json"
+    },
+    {
+      "id": "mental-ability",
+      "slug": "mental-ability",
+      "title": "মানসিক দক্ষতা",
+      "category_id": "math",
+      "category_name": "গাণিতিক যুক্তি ও দক্ষতা",
+      "question_count": 4,
+      "max_repeated": 3,
+      "file_path": "/data/most-important-questions/mental-ability.json"
+    },
+    {
+      "id": "general-knowledge",
+      "slug": "general-knowledge",
+      "title": "সাধারণ জ্ঞান",
+      "category_id": "affairs",
+      "category_name": "বাংলাদেশ ও আন্তর্জাতিক",
+      "question_count": 714,
+      "max_repeated": 33,
+      "file_path": "/data/most-important-questions/general-knowledge.json"
+    },
+    {
+      "id": "general-science",
+      "slug": "general-science",
+      "title": "সাধারণ বিজ্ঞান",
+      "category_id": "science",
+      "category_name": "বিজ্ঞান ও প্রযুক্তি",
+      "question_count": 231,
+      "max_repeated": 17,
+      "file_path": "/data/most-important-questions/general-science.json"
+    }
+  ]
+}

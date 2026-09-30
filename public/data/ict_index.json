@@ -1,0 +1,198 @@
+{
+  "total_exams": 17,
+  "total_questions": 1758,
+  "categories": [
+    {
+      "id": "class-9-10-computer-gk",
+      "name": "Class 9-10 Computer GK",
+      "bn_name": "নবম-দশম কম্পিউটার ও আইসিটি",
+      "icon": "Laptop",
+      "desc": "নবম-দশম শ্রেণির কম্পিউটার ও তথ্যপ্রযুক্তি অধ্যায়ভিত্তিক নির্ভুল সমাধান ও প্রস্তুতি",
+      "folder": "class 9-10-Computer-GK",
+      "exam_count": 10,
+      "question_count": 1164
+    },
+    {
+      "id": "ict-wizard-ntrca-313-and-325",
+      "name": "ICT Wizard NTRCA (313 & 325)",
+      "bn_name": "আইসিটি উইজার্ড NTRCA ৩১৩ ও ৩২৫",
+      "icon": "Cpu",
+      "desc": "এনটিআরসিএ (NTRCA ৩১৩ ও ৩২৫) আইসিটি উইজার্ড অধ্যায়ভিত্তিক পূর্ণাঙ্গ প্রস্তুতি",
+      "folder": "Ict-wizard-NTRCA-313-and-325",
+      "exam_count": 7,
+      "question_count": 594
+    }
+  ],
+  "exams": [
+    {
+      "id": "ict_1",
+      "slug": "class-9-10-computer-gk-অধ্যায়-০১-কম্পিউটার-ও-কম্পিউটারের-ইতিহাস",
+      "title": "অধ্যায়- ০১. কম্পিউটার ও কম্পিউটারের ইতিহাস",
+      "clean_filename": "অধ্যায়- ০১. কম্পিউটার ও কম্পিউটারের ইতিহাস.json",
+      "category_id": "class-9-10-computer-gk",
+      "category_name": "Class 9-10 Computer GK",
+      "question_count": 119,
+      "file": "/data/ict/class 9-10-Computer-GK/অধ্যায়- ০১. কম্পিউটার ও কম্পিউটারের ইতিহাস.json"
+    },
+    {
+      "id": "ict_2",
+      "slug": "class-9-10-computer-gk-অধ্যায়-০২-কম্পিউটারের-সংগঠন",
+      "title": "অধ্যায়- ০২. কম্পিউটারের সংগঠন",
+      "clean_filename": "অধ্যায়- ০২. কম্পিউটারের সংগঠন.json",
+      "category_id": "class-9-10-computer-gk",
+      "category_name": "Class 9-10 Computer GK",
+      "question_count": 131,
+      "file": "/data/ict/class 9-10-Computer-GK/অধ্যায়- ০২. কম্পিউটারের সংগঠন.json"
+    },
+    {
+      "id": "ict_3",
+      "slug": "class-9-10-computer-gk-অধ্যায়-০৩-কম্পিউটার-সফটওয়্যার-ও-অপারেটিং-সিস্টেম",
+      "title": "অধ্যায়- ০৩. কম্পিউটার সফটওয়্যার ও অপারেটিং সিস্টেম",
+      "clean_filename": "অধ্যায়- ০৩. কম্পিউটার সফটওয়্যার ও অপারেটিং সিস্টেম.json",
+      "category_id": "class-9-10-computer-gk",
+      "category_name": "Class 9-10 Computer GK",
+      "question_count": 141,
+      "file": "/data/ict/class 9-10-Computer-GK/অধ্যায়- ০৩. কম্পিউটার সফটওয়্যার ও অপারেটিং সিস্টেম.json"
+    },
+    {
+      "id": "ict_4",
+      "slug": "class-9-10-computer-gk-অধ্যায়-০৪-সংখ্যা-পদ্ধতি-ও-কম্পিউটার-লজিক",
+      "title": "অধ্যায়- ০৪. সংখ্যা পদ্ধতি ও কম্পিউটার লজিক",
+      "clean_filename": "অধ্যায়- ০৪. সংখ্যা পদ্ধতি ও কম্পিউটার লজিক.json",
+      "category_id": "class-9-10-computer-gk",
+      "category_name": "Class 9-10 Computer GK",
+      "question_count": 135,
+      "file": "/data/ict/class 9-10-Computer-GK/অধ্যায়- ০৪. সংখ্যা পদ্ধতি ও কম্পিউটার লজিক.json"
+    },
+    {
+      "id": "ict_5",
+      "slug": "class-9-10-computer-gk-অধ্যায়-০৫-ওয়ার্ড-প্রসেসিং",
+      "title": "অধ্যায়- ০৫. ওয়ার্ড প্রসেসিং",
+      "clean_filename": "অধ্যায়- ০৫. ওয়ার্ড প্রসেসিং.json",
+      "category_id": "class-9-10-computer-gk",
+      "category_name": "Class 9-10 Computer GK",
+      "question_count": 114,
+      "file": "/data/ict/class 9-10-Computer-GK/অধ্যায়- ০৫. ওয়ার্ড প্রসেসিং.json"
+    },
+    {
+      "id": "ict_6",
+      "slug": "class-9-10-computer-gk-অধ্যায়-০৬-স্প্রেডশিট-অ্যানালাইসিস",
+      "title": "অধ্যায়- ০৬. স্প্রেডশিট অ্যানালাইসিস",
+      "clean_filename": "অধ্যায়- ০৬. স্প্রেডশিট অ্যানালাইসিস.json",
+      "category_id": "class-9-10-computer-gk",
+      "category_name": "Class 9-10 Computer GK",
+      "question_count": 103,
+      "file": "/data/ict/class 9-10-Computer-GK/অধ্যায়- ০৬. স্প্রেডশিট অ্যানালাইসিস.json"
+    },
+    {
+      "id": "ict_7",
+      "slug": "class-9-10-computer-gk-অধ্যায়-০৭-ডাটাবেজ",
+      "title": "অধ্যায়- ০৭. ডাটাবেজ",
+      "clean_filename": "অধ্যায়- ০৭. ডাটাবেজ.json",
+      "category_id": "class-9-10-computer-gk",
+      "category_name": "Class 9-10 Computer GK",
+      "question_count": 109,
+      "file": "/data/ict/class 9-10-Computer-GK/অধ্যায়- ০৭. ডাটাবেজ.json"
+    },
+    {
+      "id": "ict_8",
+      "slug": "class-9-10-computer-gk-অধ্যায়-০৮-কম্পিউটার-প্রোগ্রামিং",
+      "title": "অধ্যায়- ০৮. কম্পিউটার প্রোগ্রামিং",
+      "clean_filename": "অধ্যায়- ০৮. কম্পিউটার প্রোগ্রামিং.json",
+      "category_id": "class-9-10-computer-gk",
+      "category_name": "Class 9-10 Computer GK",
+      "question_count": 138,
+      "file": "/data/ict/class 9-10-Computer-GK/অধ্যায়- ০৮. কম্পিউটার প্রোগ্রামিং.json"
+    },
+    {
+      "id": "ict_9",
+      "slug": "class-9-10-computer-gk-অধ্যায়-০৯-কম্পিউটার-নেটওয়ার্ক-ও-ইন্টারনেট",
+      "title": "অধ্যায়- ০৯. কম্পিউটার নেটওয়ার্ক ও ইন্টারনেট",
+      "clean_filename": "অধ্যায়- ০৯. কম্পিউটার নেটওয়ার্ক ও ইন্টারনেট.json",
+      "category_id": "class-9-10-computer-gk",
+      "category_name": "Class 9-10 Computer GK",
+      "question_count": 109,
+      "file": "/data/ict/class 9-10-Computer-GK/অধ্যায়- ০৯. কম্পিউটার নেটওয়ার্ক ও ইন্টারনেট.json"
+    },
+    {
+      "id": "ict_10",
+      "slug": "class-9-10-computer-gk-অধ্যায়-১০-কম্পিউটারের-প্রয়োগ-ও-মাল্টিমিডিয়া",
+      "title": "অধ্যায়- ১০. কম্পিউটারের প্রয়োগ ও মাল্টিমিডিয়া",
+      "clean_filename": "অধ্যায়- ১০. কম্পিউটারের প্রয়োগ ও মাল্টিমিডিয়া.json",
+      "category_id": "class-9-10-computer-gk",
+      "category_name": "Class 9-10 Computer GK",
+      "question_count": 65,
+      "file": "/data/ict/class 9-10-Computer-GK/অধ্যায়- ১০. কম্পিউটারের প্রয়োগ ও মাল্টিমিডিয়া.json"
+    },
+    {
+      "id": "ict_11",
+      "slug": "ict-wizard-ntrca-313-and-325-অধ্যায়-ক-কম্পিউটার-বেসিক",
+      "title": "অধ্যায়- ক. কম্পিউটার বেসিক",
+      "clean_filename": "অধ্যায়- ক. কম্পিউটার বেসিক.json",
+      "category_id": "ict-wizard-ntrca-313-and-325",
+      "category_name": "ICT Wizard NTRCA (313 & 325)",
+      "question_count": 143,
+      "file": "/data/ict/Ict-wizard-NTRCA-313-and-325/অধ্যায়- ক. কম্পিউটার বেসিক.json"
+    },
+    {
+      "id": "ict_12",
+      "slug": "ict-wizard-ntrca-313-and-325-অধ্যায়-খ-সংখ্যা-পদ্ধতি",
+      "title": "অধ্যায়- খ. সংখ্যা পদ্ধতি",
+      "clean_filename": "অধ্যায়- খ. সংখ্যা পদ্ধতি.json",
+      "category_id": "ict-wizard-ntrca-313-and-325",
+      "category_name": "ICT Wizard NTRCA (313 & 325)",
+      "question_count": 129,
+      "file": "/data/ict/Ict-wizard-NTRCA-313-and-325/অধ্যায়- খ. সংখ্যা পদ্ধতি.json"
+    },
+    {
+      "id": "ict_13",
+      "slug": "ict-wizard-ntrca-313-and-325-অধ্যায়-গ-উপাত্ত-উপস্থাপন",
+      "title": "অধ্যায়- গ. উপাত্ত উপস্থাপন",
+      "clean_filename": "অধ্যায়- গ. উপাত্ত উপস্থাপন.json",
+      "category_id": "ict-wizard-ntrca-313-and-325",
+      "category_name": "ICT Wizard NTRCA (313 & 325)",
+      "question_count": 51,
+      "file": "/data/ict/Ict-wizard-NTRCA-313-and-325/অধ্যায়- গ. উপাত্ত উপস্থাপন.json"
+    },
+    {
+      "id": "ict_14",
+      "slug": "ict-wizard-ntrca-313-and-325-অধ্যায়-ঘ-লজিক-সার্কিট-বর্তনী",
+      "title": "অধ্যায়- ঘ. লজিক সার্কিট-বর্তনী",
+      "clean_filename": "অধ্যায়- ঘ. লজিক সার্কিট-বর্তনী.json",
+      "category_id": "ict-wizard-ntrca-313-and-325",
+      "category_name": "ICT Wizard NTRCA (313 & 325)",
+      "question_count": 102,
+      "file": "/data/ict/Ict-wizard-NTRCA-313-and-325/অধ্যায়- ঘ. লজিক সার্কিট-বর্তনী.json"
+    },
+    {
+      "id": "ict_15",
+      "slug": "ict-wizard-ntrca-313-and-325-অধ্যায়-ঙ-অপারেটিভ-পদ্ধতি",
+      "title": "অধ্যায়- ঙ. অপারেটিভ পদ্ধতি",
+      "clean_filename": "অধ্যায়- ঙ. অপারেটিভ পদ্ধতি.json",
+      "category_id": "ict-wizard-ntrca-313-and-325",
+      "category_name": "ICT Wizard NTRCA (313 & 325)",
+      "question_count": 65,
+      "file": "/data/ict/Ict-wizard-NTRCA-313-and-325/অধ্যায়- ঙ. অপারেটিভ পদ্ধতি.json"
+    },
+    {
+      "id": "ict_16",
+      "slug": "ict-wizard-ntrca-313-and-325-অধ্যায়-চ-এলগোরিদম-এবং-ফ্লোচার্ট",
+      "title": "অধ্যায়- চ. এলগোরিদম এবং ফ্লোচার্ট",
+      "clean_filename": "অধ্যায়- চ. এলগোরিদম এবং ফ্লোচার্ট.json",
+      "category_id": "ict-wizard-ntrca-313-and-325",
+      "category_name": "ICT Wizard NTRCA (313 & 325)",
+      "question_count": 52,
+      "file": "/data/ict/Ict-wizard-NTRCA-313-and-325/অধ্যায়- চ. এলগোরিদম এবং ফ্লোচার্ট.json"
+    },
+    {
+      "id": "ict_17",
+      "slug": "ict-wizard-ntrca-313-and-325-অধ্যায়-ছ-ইন্টারনেট",
+      "title": "অধ্যায়- ছ. ইন্টারনেট",
+      "clean_filename": "অধ্যায়- ছ. ইন্টারনেট.json",
+      "category_id": "ict-wizard-ntrca-313-and-325",
+      "category_name": "ICT Wizard NTRCA (313 & 325)",
+      "question_count": 52,
+      "file": "/data/ict/Ict-wizard-NTRCA-313-and-325/অধ্যায়- ছ. ইন্টারনেট.json"
+    }
+  ]
+}

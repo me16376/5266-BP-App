@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Most Important Questions — ১০০% কানেক্টেড প্রশ্নব্যাংক</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Pre-connect Default Subject Data (Bangla) so it renders immediately -->
+  <script src="./data/bangla.js"></script>
+
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-light: #6366f1;
+      --primary-dark: #3730a3;
+      --primary-bg: #eef2ff;
+      --accent: #f59e0b;
+      --accent-danger: #ef4444;
+      --accent-success: #10b981;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --surface-border: #e2e8f0;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --text-sub: #334155;
+      --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --card-hover-shadow: 0 12px 24px -4px rgba(79, 70, 229, 0.12), 0 4px 8px -2px rgba(0, 0, 0, 0.05);
+      --radius: 12px;
+      --radius-sm: 8px;
+    }
+
+    [data-theme="dark"] {
+      --bg: #090d16;
+      --surface: #111827;
+      --surface-border: #1f2937;
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-sub: #cbd5e1;
+      --primary-bg: rgba(79, 70, 229, 0.15);
+      --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+      --card-hover-shadow: 0 12px 24px -4px rgba(99, 102, 241, 0.2);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    }
+
+    body {
+      font-family: 'Hind Siliguri', 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.6;
+    }
+
+    /* Top Navigation Bar */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--surface-border);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(12px);
+    }
+
+    .header-inner {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 0.85rem 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .logo-badge {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #4f46e5, #06b6d4);
+      color: white;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.3rem;
+      box-shadow: 0 4px 12px rgba(79, 70, 229, 0.35);
+    }
+
+    .logo-text h1 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.2;
+    }
+
+    .logo-text p {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .control-btn {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      color: var(--text-main);
+      padding: 0.45rem 0.85rem;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      font-size: 0.82rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .control-btn:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .control-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    /* Hero / Stats bar */
+    .hero-strip {
+      background: linear-gradient(135deg, rgba(79, 70, 229, 0.08), rgba(6, 182, 212, 0.05));
+      border-bottom: 1px solid var(--surface-border);
+      padding: 1.25rem 1.25rem 1rem;
+    }
+
+    .hero-container {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .hero-title-box h2 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .hero-title-box p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    .stats-badges {
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .stat-pill {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    }
+
+    .stat-pill b {
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    /* Main Container */
+    .main-layout {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 1.25rem;
+      width: 100%;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    /* Subject Tabs Navigation */
+    .subject-nav-wrapper {
+      position: relative;
+    }
+
+    .subject-nav {
+      display: flex;
+      gap: 0.55rem;
+      overflow-x: auto;
+      padding-bottom: 0.5rem;
+      scrollbar-width: thin;
+    }
+
+    .subject-nav::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .subject-nav::-webkit-scrollbar-thumb {
+      background: var(--surface-border);
+      border-radius: 4px;
+    }
+
+    .subject-tab {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      color: var(--text-sub);
+      padding: 0.6rem 1.05rem;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      font-size: 0.88rem;
+      font-weight: 600;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      box-shadow: var(--card-shadow);
+    }
+
+    .subject-tab:hover {
+      border-color: var(--primary-light);
+      color: var(--primary);
+      transform: translateY(-1px);
+    }
+
+    .subject-tab.active {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: white;
+      border-color: transparent;
+      box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+    }
+
+    .subject-tab .badge {
+      background: rgba(0, 0, 0, 0.07);
+      padding: 0.1rem 0.45rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+
+    .subject-tab.active .badge {
+      background: rgba(255, 255, 255, 0.25);
+      color: white;
+    }
+
+    /* Search & Filter Toolbar */
+    .toolbar-card {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius);
+      padding: 0.85rem 1.15rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.85rem;
+      box-shadow: var(--card-shadow);
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 260px;
+      position: relative;
+    }
+
+    .search-box input {
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--surface-border);
+      padding: 0.6rem 1rem 0.6rem 2.3rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.92rem;
+      color: var(--text-main);
+      font-family: inherit;
+      outline: none;
+    }
+
+    .search-box input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-label {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .filter-chip {
+      background: var(--bg);
+      border: 1px solid var(--surface-border);
+      color: var(--text-sub);
+      padding: 0.35rem 0.7rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .filter-chip:hover {
+      border-color: var(--primary-light);
+    }
+
+    .filter-chip.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .select-dropdown {
+      background: var(--bg);
+      border: 1px solid var(--surface-border);
+      color: var(--text-main);
+      padding: 0.45rem 0.75rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.82rem;
+      font-family: inherit;
+      outline: none;
+      cursor: pointer;
+    }
+
+    /* Questions Stream */
+    .questions-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 1.15rem;
+    }
+
+    .question-card {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.4rem;
+      box-shadow: var(--card-shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      position: relative;
+    }
+
+    .question-card:hover {
+      box-shadow: var(--card-hover-shadow);
+      border-color: rgba(79, 70, 229, 0.3);
+    }
+
+    .q-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .q-meta-left {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .q-index-badge {
+      background: var(--bg);
+      color: var(--text-muted);
+      border: 1px solid var(--surface-border);
+      padding: 0.15rem 0.55rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .q-subject-badge {
+      background: var(--primary-bg);
+      color: var(--primary);
+      padding: 0.15rem 0.65rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+
+    /* Repetition Heat Badges */
+    .q-repeat-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.25rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.84rem;
+      font-weight: 700;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .repeat-flame-extreme {
+      background: linear-gradient(135deg, #ef4444, #f97316);
+      color: white;
+      animation: pulseGlow 2s infinite ease-in-out;
+    }
+
+    .repeat-flame-high {
+      background: linear-gradient(135deg, #f59e0b, #e11d48);
+      color: white;
+    }
+
+    .repeat-flame-mid {
+      background: linear-gradient(135deg, #0284c7, #2563eb);
+      color: white;
+    }
+
+    .repeat-flame-base {
+      background: linear-gradient(135deg, #475569, #334155);
+      color: white;
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+      50% { transform: scale(1.02); box-shadow: 0 0 12px 2px rgba(249, 115, 22, 0.35); }
+    }
+
+    .q-text {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.55;
+    }
+
+    /* Options Grid */
+    .options-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.65rem;
+    }
+
+    .option-item {
+      background: var(--bg);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-sm);
+      padding: 0.7rem 0.95rem;
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      font-size: 0.95rem;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .option-item:hover {
+      border-color: var(--primary-light);
+      background: rgba(79, 70, 229, 0.04);
+    }
+
+    .option-letter {
+      width: 25px;
+      height: 25px;
+      border-radius: 6px;
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      flex-shrink: 0;
+    }
+
+    .option-item.selected-correct,
+    .option-item.show-correct {
+      background: rgba(16, 185, 129, 0.12) !important;
+      border-color: var(--accent-success) !important;
+      color: #065f46;
+      font-weight: 600;
+    }
+
+    [data-theme="dark"] .option-item.selected-correct,
+    [data-theme="dark"] .option-item.show-correct {
+      background: rgba(16, 185, 129, 0.22) !important;
+      color: #6ee7b7;
+    }
+
+    .option-item.selected-correct .option-letter,
+    .option-item.show-correct .option-letter {
+      background: var(--accent-success);
+      color: white;
+      border-color: var(--accent-success);
+    }
+
+    .option-item.selected-wrong {
+      background: rgba(239, 68, 68, 0.12) !important;
+      border-color: var(--accent-danger) !important;
+      color: #991b1b;
+      font-weight: 600;
+    }
+
+    [data-theme="dark"] .option-item.selected-wrong {
+      background: rgba(239, 68, 68, 0.22) !important;
+      color: #fca5a5;
+    }
+
+    .option-item.selected-wrong .option-letter {
+      background: var(--accent-danger);
+      color: white;
+      border-color: var(--accent-danger);
+    }
+
+    /* Action bar of Question */
+    .q-action-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      padding-top: 0.5rem;
+      border-top: 1px dashed var(--surface-border);
+    }
+
+    .btn-toggle-ans {
+      background: var(--primary-bg);
+      color: var(--primary);
+      border: 1px solid rgba(79, 70, 229, 0.2);
+      padding: 0.45rem 0.95rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.84rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .btn-toggle-ans:hover {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-icon-action {
+      background: transparent;
+      border: 1px solid var(--surface-border);
+      color: var(--text-muted);
+      padding: 0.38rem 0.75rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .btn-icon-action:hover {
+      color: var(--text-main);
+      border-color: var(--text-muted);
+    }
+
+    /* Explanation & Reference Panels */
+    .expandable-panel {
+      background: var(--bg);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-sm);
+      padding: 0.95rem 1.15rem;
+      font-size: 0.92rem;
+      display: none;
+    }
+
+    .expandable-panel.open {
+      display: block;
+      animation: fadeIn 0.2s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .explanation-title {
+      font-weight: 700;
+      color: var(--accent-success);
+      margin-bottom: 0.45rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.95rem;
+    }
+
+    .explanation-body {
+      color: var(--text-sub);
+      line-height: 1.65;
+    }
+
+    /* Exam References Pills */
+    .exams-reference-box {
+      margin-top: 0.75rem;
+      padding-top: 0.65rem;
+      border-top: 1px dashed var(--surface-border);
+    }
+
+    .exam-chips-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.45rem;
+    }
+
+    .exam-chip {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      color: var(--text-sub);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .exam-chip .yr {
+      background: var(--primary-bg);
+      color: var(--primary);
+      font-weight: 700;
+      padding: 0 0.35rem;
+      border-radius: 4px;
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Question Variations Box */
+    .variations-box {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: var(--radius-sm);
+      padding: 0.75rem 1rem;
+      margin-top: 0.5rem;
+    }
+
+    .variations-title {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #b45309;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      margin-bottom: 0.35rem;
+    }
+
+    [data-theme="dark"] .variations-title {
+      color: #fcd34d;
+    }
+
+    .variations-list {
+      list-style: none;
+      font-size: 0.88rem;
+      color: var(--text-sub);
+    }
+
+    .variations-list li {
+      padding: 0.2rem 0;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .variations-list li::before {
+      content: "•";
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    /* Pagination controls */
+    .pagination-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      padding: 1.25rem 0;
+      border-top: 1px solid var(--surface-border);
+    }
+
+    .pagination-btns {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .page-btn {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      color: var(--text-main);
+      padding: 0.45rem 0.85rem;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .page-btn:hover:not(:disabled) {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .page-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .page-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    /* Loading Spinner & Empty State */
+    .loader-box {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .spinner {
+      width: 44px;
+      height: 44px;
+      border: 3px solid rgba(79, 70, 229, 0.2);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 1rem;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 3.5rem 1rem;
+      color: var(--text-muted);
+    }
+
+    .empty-state h3 {
+      font-size: 1.25rem;
+      color: var(--text-main);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      background: #0f172a;
+      color: white;
+      padding: 0.65rem 1.15rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+      font-weight: 600;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      z-index: 100;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.25s ease;
+      pointer-events: none;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 768px) {
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .toolbar-card {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .filter-group {
+        justify-content: flex-start;
+      }
+      .options-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Sticky Navigation -->
+  <header>
+    <div class="header-inner">
+      <div class="logo-area">
+        <div class="logo-badge">🔥</div>
+        <div class="logo-text">
+          <h1>Most Important Questions</h1>
+          <p>বিগত সব চাকরির পরীক্ষায় ৩+ বার আসা প্রশ্নব্যাংক (১০০% কানেক্টেড)</p>
+        </div>
+      </div>
+      <div class="header-controls">
+        <button class="control-btn" id="studyModeBtn" title="অধ্যয়ন মোডে সকল সঠিক উত্তর সরাসরি দেখানো হবে">
+          <span>📖</span> <span id="studyModeText">অধ্যয়ন মোড: বন্ধ</span>
+        </button>
+        <button class="control-btn" id="themeToggleBtn" title="ডার্ক ও লাইট মোড পরিবর্তন করুন">
+          <span id="themeIcon">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero & Stats Strip -->
+  <section class="hero-strip">
+    <div class="hero-container">
+      <div class="hero-title-box">
+        <h2 id="currentSubjectTitle">📚 বাংলা ভাষা ও সাহিত্য</h2>
+        <p id="currentSubjectMeta">মোট ১,৫০৪টি প্রশ্ন সংযুক্ত রয়েছে • সর্বোচ্চ ৬১ বার এসেছে</p>
+      </div>
+      <div class="stats-badges">
+        <div class="stat-pill">📊 ফিল্টার রেজাল্ট: <b id="statFilteredCount">১,৫০৪</b> টি</div>
+        <div class="stat-pill">🔥 সর্বোচ্চ পুনরাবৃত্তি: <b id="statMaxRepeat">৬১</b> বার</div>
+        <div class="stat-pill">🏛️ মোট পরীক্ষা: <b>২,১৪১ টি</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Layout -->
+  <main class="main-layout">
+
+    <!-- Subject Tabs Navigation -->
+    <div class="subject-nav-wrapper">
+      <div class="subject-nav" id="subjectNavList">
+        <!-- Subject tabs dynamically inserted here -->
+      </div>
+    </div>
+
+    <!-- Search & Filters Toolbar -->
+    <div class="toolbar-card">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="প্রশ্ন, উত্তর বা পরীক্ষার নাম দিয়ে খুঁজুন (যেমন: মুমূর্ষু, BCS, 2023)...">
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">রিপিট ফিল্টার:</span>
+        <button class="filter-chip active" data-min-repeat="3">সব (৩+)</button>
+        <button class="filter-chip" data-min-repeat="5">৫+ বার</button>
+        <button class="filter-chip" data-min-repeat="10">১০+ বার</button>
+        <button class="filter-chip" data-min-repeat="20">২০+ বার</button>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">সাজান:</span>
+        <select class="select-dropdown" id="sortSelect">
+          <option value="repeat_desc">সর্বাধিক রিপিট (Descending)</option>
+          <option value="repeat_asc">কম রিপিট (Ascending)</option>
+          <option value="id_asc">ধারাবাহিক (ID)</option>
+        </select>
+
+        <select class="select-dropdown" id="pageSizeSelect">
+          <option value="25">২৫টি করে</option>
+          <option value="50">৫০টি করে</option>
+          <option value="100">১০০টি করে</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Questions Container -->
+    <div id="questionsContainer" class="questions-wrapper">
+      <div class="loader-box">
+        <div class="spinner"></div>
+        <p>প্রশ্নব্যাংক প্রস্তুত হচ্ছে...</p>
+      </div>
+    </div>
+
+    <!-- Pagination Bar -->
+    <div class="pagination-bar" id="paginationBar" style="display: none;">
+      <div style="font-size: 0.85rem; color: var(--text-muted);" id="paginationInfo">
+        দেখাচ্ছে ১ থেকে ২৫
+      </div>
+      <div class="pagination-btns" id="paginationButtons">
+        <!-- Pagination buttons -->
+      </div>
+    </div>
+
+  </main>
+
+  <div class="toast" id="toastMessage">কপি করা হয়েছে!</div>
+
+  <script>
+    // Master subject catalog metadata with connected script files
+    const SUBJECTS_CATALOG = [
+      { name: "বাংলা ভাষা ও সাহিত্য", file: "বাংলা ভাষা ও সাহিত্য.json", jsFile: "bangla.js", icon: "📚", count: 1503, maxRepeat: 61 },
+      { name: "English Language and Literature", file: "English Language and Literature.json", jsFile: "english.js", icon: "🔤", count: 1407, maxRepeat: 32 },
+      { name: "সাধারণ জ্ঞান", file: "সাধারণ জ্ঞান.json", jsFile: "gk.js", icon: "🌍", count: 714, maxRepeat: 33 },
+      { name: "গাণিতিক যুক্তি", file: "গাণিতিক যুক্তি.json", jsFile: "math.js", icon: "📐", count: 595, maxRepeat: 20 },
+      { name: "সাধারণ বিজ্ঞান", file: "সাধারণ বিজ্ঞান.json", jsFile: "science.js", icon: "🔬", count: 231, maxRepeat: 17 },
+      { name: "বাংলাদেশ বিষয়াবলি", file: "বাংলাদেশ বিষয়াবলি.json", jsFile: "bd.js", icon: "🇧🇩", count: 168, maxRepeat: 23 },
+      { name: "আন্তর্জাতিক বিষয়াবলি", file: "আন্তর্জাতিক বিষয়াবলি.json", jsFile: "intl.js", icon: "🌐", count: 134, maxRepeat: 17 },
+      { name: "কম্পিউটার ও তথ্য প্রযুক্তি", file: "কম্পিউটার ও তথ্য প্রযুক্তি.json", jsFile: "ict.js", icon: "💻", count: 133, maxRepeat: 7 },
+      { name: "ভূগোল ও পরিবেশ", file: "ভূগোল ও পরিবেশ.json", jsFile: "geography.js", icon: "🗺️", count: 9, maxRepeat: 5 },
+      { name: "নৈতিকতা-মূল্যবোধ", file: "নৈতিকতা-মূল্যবোধ.json", jsFile: "ethics.js", icon: "⚖️", count: 6, maxRepeat: 5 },
+      { name: "মানসিক দক্ষতা", file: "মানসিক দক্ষতা.json", jsFile: "mental.js", icon: "🧠", count: 4, maxRepeat: 3 }
+    ];
+
+    // Global in-memory storage
+    window.MIQ_DATA = window.MIQ_DATA || {};
+
+    // State
+    let currentSubject = SUBJECTS_CATALOG[0];
+    let allQuestions = [];
+    let filteredQuestions = [];
+    let currentPage = 1;
+    let pageSize = 25;
+    let minRepeatFilter = 3;
+    let currentSearchTerm = "";
+    let currentSort = "repeat_desc";
+    let isStudyMode = false;
+
+    // DOM Elements
+    const subjectNavList = document.getElementById("subjectNavList");
+    const currentSubjectTitle = document.getElementById("currentSubjectTitle");
+    const currentSubjectMeta = document.getElementById("currentSubjectMeta");
+    const statFilteredCount = document.getElementById("statFilteredCount");
+    const statMaxRepeat = document.getElementById("statMaxRepeat");
+    const questionsContainer = document.getElementById("questionsContainer");
+    const paginationBar = document.getElementById("paginationBar");
+    const paginationInfo = document.getElementById("paginationInfo");
+    const paginationButtons = document.getElementById("paginationButtons");
+    const searchInput = document.getElementById("searchInput");
+    const sortSelect = document.getElementById("sortSelect");
+    const pageSizeSelect = document.getElementById("pageSizeSelect");
+    const studyModeBtn = document.getElementById("studyModeBtn");
+    const studyModeText = document.getElementById("studyModeText");
+    const themeToggleBtn = document.getElementById("themeToggleBtn");
+    const themeIcon = document.getElementById("themeIcon");
+    const toastMessage = document.getElementById("toastMessage");
+
+    // Initialize Theme
+    function initTheme() {
+      const saved = localStorage.getItem("miq_theme") || "light";
+      document.documentElement.setAttribute("data-theme", saved);
+      themeIcon.textContent = saved === "dark" ? "☀️" : "🌙";
+    }
+
+    themeToggleBtn.addEventListener("click", () => {
+      const cur = document.documentElement.getAttribute("data-theme") || "light";
+      const next = cur === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      localStorage.setItem("miq_theme", next);
+      themeIcon.textContent = next === "dark" ? "☀️" : "🌙";
+    });
+
+    // Initialize Study Mode
+    studyModeBtn.addEventListener("click", () => {
+      isStudyMode = !isStudyMode;
+      studyModeBtn.classList.toggle("active", isStudyMode);
+      studyModeText.textContent = isStudyMode ? "অধ্যয়ন মোড: চালু" : "অধ্যয়ন মোড: বন্ধ";
+      renderQuestions();
+    });
+
+    // Render Subject Navigation Tabs
+    function renderSubjectTabs() {
+      subjectNavList.innerHTML = SUBJECTS_CATALOG.map(subj => `
+        <button class="subject-tab ${subj.name === currentSubject.name ? 'active' : ''}" data-file="${subj.file}">
+          <span>${subj.icon}</span>
+          <span>${subj.name}</span>
+          <span class="badge">${subj.count.toLocaleString('bn-BD')}</span>
+        </button>
+      `).join("");
+
+      subjectNavList.querySelectorAll(".subject-tab").forEach(tab => {
+        tab.addEventListener("click", () => {
+          const file = tab.getAttribute("data-file");
+          const target = SUBJECTS_CATALOG.find(s => s.file === file);
+          if (target && target.name !== currentSubject.name) {
+            currentSubject = target;
+            currentPage = 1;
+            renderSubjectTabs();
+            loadSubjectQuestions();
+          }
+        });
+      });
+    }
+
+    // 100% Connected Subject Loader (Works in both local file:// and web server)
+    async function loadSubjectQuestions() {
+      currentSubjectTitle.innerHTML = `${currentSubject.icon} ${currentSubject.name}`;
+      currentSubjectMeta.textContent = `মোট ${currentSubject.count.toLocaleString('bn-BD')}টি প্রশ্ন সংযুক্ত রয়েছে • সর্বোচ্চ ${currentSubject.maxRepeat} বার এসেছে`;
+      
+      questionsContainer.innerHTML = `
+        <div class="loader-box">
+          <div class="spinner"></div>
+          <p>${currentSubject.name} লোড হচ্ছে...</p>
+        </div>
+      `;
+      paginationBar.style.display = "none";
+
+      // 1. Direct memory hit
+      if (window.MIQ_DATA[currentSubject.name]) {
+        allQuestions = window.MIQ_DATA[currentSubject.name];
+        applyFiltersAndRender();
+        return;
+      }
+
+      // 2. Direct script tag connector (Bypasses any file:// CORS restriction)
+      try {
+        await new Promise((resolve, reject) => {
+          const script = document.createElement("script");
+          script.src = `./data/${currentSubject.jsFile}`;
+          script.onload = () => {
+            if (window.MIQ_DATA[currentSubject.name]) {
+              resolve(window.MIQ_DATA[currentSubject.name]);
+            } else {
+              reject(new Error("Data not in global store"));
+            }
+          };
+          script.onerror = () => reject(new Error("Script loading failed"));
+          document.head.appendChild(script);
+        });
+
+        allQuestions = window.MIQ_DATA[currentSubject.name] || [];
+        applyFiltersAndRender();
+        return;
+      } catch (scriptErr) {
+        console.warn("Script load attempt failed, trying fetch fallback:", scriptErr);
+      }
+
+      // 3. HTTP fetch fallback (if running over web server)
+      try {
+        const res = await fetch(encodeURI(currentSubject.file));
+        if (res.ok) {
+          const data = await res.json();
+          window.MIQ_DATA[currentSubject.name] = data;
+          allQuestions = data;
+          applyFiltersAndRender();
+          return;
+        }
+      } catch (fetchErr) {
+        console.error("All load attempts failed:", fetchErr);
+      }
+
+      questionsContainer.innerHTML = `
+        <div class="empty-state">
+          <h3>প্রশ্ন লোড করা সম্ভব হয়নি</h3>
+          <p>দয়া করে নিশ্চিত করুন যে data/${currentSubject.jsFile} ফাইলটি বিদ্যমান রয়েছে।</p>
+        </div>
+      `;
+    }
+
+    // Apply Filter, Search & Sort
+    function applyFiltersAndRender() {
+      let result = [...allQuestions];
+
+      // 1. Min repeat filter
+      if (minRepeatFilter > 0) {
+        result = result.filter(q => (q.times_repeated || 0) >= minRepeatFilter);
+      }
+
+      // 2. Search query filter
+      if (currentSearchTerm.trim()) {
+        const term = currentSearchTerm.trim().toLowerCase();
+        result = result.filter(q => {
+          const qText = (q.question || '').toLowerCase();
+          const ans = (q.correct_answer || '').toLowerCase();
+          const summary = (q.exam_summary || '').toLowerCase();
+          return qText.includes(term) || ans.includes(term) || summary.includes(term);
+        });
+      }
+
+      // 3. Sort
+      if (currentSort === "repeat_desc") {
+        result.sort((a,b) => (b.times_repeated || 0) - (a.times_repeated || 0));
+      } else if (currentSort === "repeat_asc") {
+        result.sort((a,b) => (a.times_repeated || 0) - (b.times_repeated || 0));
+      } else if (currentSort === "id_asc") {
+        result.sort((a,b) => {
+          const idA = parseInt((a.id || '0').replace(/\D/g, ''), 10) || 0;
+          const idB = parseInt((b.id || '0').replace(/\D/g, ''), 10) || 0;
+          return idA - idB;
+        });
+      }
+
+      filteredQuestions = result;
+      statFilteredCount.textContent = filteredQuestions.length.toLocaleString('bn-BD');
+      statMaxRepeat.textContent = filteredQuestions[0] ? (filteredQuestions[0].times_repeated || 0) : 0;
+      currentPage = 1;
+      renderQuestions();
+    }
+
+    // Render Questions Cards
+    function renderQuestions() {
+      if (filteredQuestions.length === 0) {
+        questionsContainer.innerHTML = `
+          <div class="empty-state">
+            <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">🔍</div>
+            <h3>কোনো প্রশ্ন পাওয়া যায়নি</h3>
+            <p>অনুসন্ধান কীওয়ার্ড বা রিপিট ফিল্টার পরিবর্তন করে পুনরায় চেষ্টা করুন।</p>
+          </div>
+        `;
+        paginationBar.style.display = "none";
+        return;
+      }
+
+      const total = filteredQuestions.length;
+      const startIdx = (currentPage - 1) * pageSize;
+      const endIdx = Math.min(startIdx + pageSize, total);
+      const pageItems = filteredQuestions.slice(startIdx, endIdx);
+
+      const banglaLetters = ["ক", "খ", "গ", "ঘ"];
+      const englishLetters = ["A", "B", "C", "D"];
+
+      questionsContainer.innerHTML = pageItems.map((q, idx) => {
+        const itemNumber = startIdx + idx + 1;
+        const repeats = q.times_repeated || 3;
+        
+        let flameClass = "repeat-flame-base";
+        if (repeats >= 20) flameClass = "repeat-flame-extreme";
+        else if (repeats >= 10) flameClass = "repeat-flame-high";
+        else if (repeats >= 5) flameClass = "repeat-flame-mid";
+
+        const hasVariations = q.question_variations && q.question_variations.length > 0;
+        const isEnglish = currentSubject.name.includes("English");
+        const letterSet = isEnglish ? englishLetters : banglaLetters;
+
+        const optionsHtml = (q.options || []).map((opt, optIdx) => {
+          const letter = letterSet[optIdx] || (optIdx + 1);
+          const isCorrect = (opt || '').trim() === (q.correct_answer || '').trim();
+          const studyClass = (isStudyMode && isCorrect) ? 'show-correct' : '';
+
+          return `
+            <div class="option-item ${studyClass}" data-correct="${isCorrect}">
+              <div class="option-letter">${letter}</div>
+              <div class="option-label">${escapeHtml(opt)}</div>
+            </div>
+          `;
+        }).join("");
+
+        // Exam references
+        const examsList = (q.exam_references || []).slice(0, 15);
+        const hasMoreExams = (q.exam_references || []).length > 15;
+        const examsPills = examsList.map(ref => `
+          <span class="exam-chip">
+            <span>${escapeHtml(ref.exam_name || '')}</span>
+            ${ref.year ? `<span class="yr">${ref.year}</span>` : ''}
+          </span>
+        `).join("");
+
+        return `
+          <div class="question-card" id="q_${q.id}">
+            <div class="q-header">
+              <div class="q-meta-left">
+                <span class="q-index-badge">#${itemNumber}</span>
+                <span class="q-subject-badge">${escapeHtml(q.subject || currentSubject.name)}</span>
+                <span class="q-repeat-badge ${flameClass}">
+                  🔥 ${repeats} বার পরীক্ষায় এসেছে
+                </span>
+              </div>
+              <div style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600;">
+                🏛️ ${q.exam_count || (q.exam_references ? q.exam_references.length : 0)}টি ভিন্ন পরীক্ষা
+              </div>
+            </div>
+
+            <div class="q-text">${escapeHtml(q.question)}</div>
+
+            <div class="options-grid">
+              ${optionsHtml}
+            </div>
+
+            <!-- Action Bar -->
+            <div class="q-action-bar">
+              <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                <button class="btn-toggle-ans" onclick="toggleExplanation('exp_${q.id}')">
+                  💡 উত্তর ও ব্যাখ্যা দেখুন
+                </button>
+                ${hasVariations ? `
+                  <button class="btn-icon-action" onclick="toggleVariations('var_${q.id}')">
+                    📝 ভিন্ন রূপ (${q.question_variations.length})
+                  </button>
+                ` : ''}
+              </div>
+              <div>
+                <button class="btn-icon-action" onclick="copyQuestion('${q.id}')">
+                  📋 কপি
+                </button>
+              </div>
+            </div>
+
+            <!-- Explanation Panel -->
+            <div class="expandable-panel ${isStudyMode ? 'open' : ''}" id="exp_${q.id}">
+              <div class="explanation-title">
+                ✅ সঠিক উত্তর: <span>${escapeHtml(q.correct_answer || 'উত্তরে দেওয়া নেই')}</span>
+              </div>
+              ${q.explanation ? `
+                <div class="explanation-body">${q.explanation}</div>
+              ` : '<div style="color: var(--text-muted); font-size: 0.85rem;">এই প্রশ্নের জন্য অতিরিক্ত কোনো ব্যাখ্যা নেই।</div>'}
+              
+              <!-- Exam references inside explanation -->
+              <div class="exams-reference-box">
+                <div style="font-size: 0.82rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.35rem;">
+                  🏛️ যে যে পরীক্ষায় এসেছে (${q.exam_references ? q.exam_references.length : 0}টি):
+                </div>
+                <div class="exam-chips-grid">
+                  ${examsPills}
+                  ${hasMoreExams ? `<span class="exam-chip" style="font-weight:700;">+ আরও ${q.exam_references.length - 15}টি পরীক্ষা</span>` : ''}
+                </div>
+              </div>
+            </div>
+
+            <!-- Question Variations Panel -->
+            ${hasVariations ? `
+              <div class="variations-box expandable-panel" id="var_${q.id}">
+                <div class="variations-title">
+                  📝 পরীক্ষায় যেভাবে ভিন্ন আঙ্গিকে এসেছে (${q.question_variations.length}টি রূপ):
+                </div>
+                <ul class="variations-list">
+                  ${q.question_variations.map(v => `<li>${escapeHtml(v)}</li>`).join("")}
+                </ul>
+              </div>
+            ` : ''}
+
+          </div>
+        `;
+      }).join("");
+
+      // Bind option clicks for interactive quiz
+      questionsContainer.querySelectorAll(".option-item").forEach(item => {
+        item.addEventListener("click", () => {
+          const parent = item.closest(".options-grid");
+          const isCorrect = item.getAttribute("data-correct") === "true";
+          
+          parent.querySelectorAll(".option-item").forEach(opt => {
+            opt.classList.remove("selected-correct", "selected-wrong");
+            if (opt.getAttribute("data-correct") === "true") {
+              opt.classList.add("show-correct");
+            }
+          });
+
+          if (isCorrect) {
+            item.classList.add("selected-correct");
+          } else {
+            item.classList.add("selected-wrong");
+          }
+        });
+      });
+
+      renderPagination(total, startIdx, endIdx);
+    }
+
+    // Toggle panels
+    window.toggleExplanation = function(id) {
+      const el = document.getElementById(id);
+      if (el) el.classList.toggle("open");
+    };
+
+    window.toggleVariations = function(id) {
+      const el = document.getElementById(id);
+      if (el) el.classList.toggle("open");
+    };
+
+    // Copy Question
+    window.copyQuestion = function(id) {
+      const q = filteredQuestions.find(item => item.id === id);
+      if (!q) return;
+      const text = `${q.question}\nসঠিক উত্তর: ${q.correct_answer}\nপরীক্ষায় এসেছে: ${q.times_repeated} বার (${q.exam_summary || ''})`;
+      navigator.clipboard.writeText(text).then(() => {
+        showToast("প্রশ্ন ও উত্তর কপি করা হয়েছে!");
+      });
+    };
+
+    // Toast Notification
+    function showToast(msg) {
+      toastMessage.textContent = msg;
+      toastMessage.classList.add("show");
+      setTimeout(() => {
+        toastMessage.classList.remove("show");
+      }, 2500);
+    }
+
+    // Render Pagination Controls
+    function renderPagination(total, startIdx, endIdx) {
+      paginationBar.style.display = "flex";
+      paginationInfo.textContent = `দেখাচ্ছে ${(startIdx + 1).toLocaleString('bn-BD')} থেকে ${endIdx.toLocaleString('bn-BD')} (মোট ${total.toLocaleString('bn-BD')} টির মধ্যে)`;
+
+      const totalPages = Math.ceil(total / pageSize);
+      let btnsHtml = `
+        <button class="page-btn" ${currentPage === 1 ? 'disabled' : ''} onclick="goToPage(${currentPage - 1})">
+          ◀ পূর্ববর্তী
+        </button>
+      `;
+
+      const maxPagesToShow = 5;
+      let startP = Math.max(1, currentPage - 2);
+      let endP = Math.min(totalPages, startP + maxPagesToShow - 1);
+      if (endP - startP < maxPagesToShow - 1) {
+        startP = Math.max(1, endP - maxPagesToShow + 1);
+      }
+
+      if (startP > 1) {
+        btnsHtml += `<button class="page-btn" onclick="goToPage(1)">১</button>`;
+        if (startP > 2) btnsHtml += `<span style="padding: 0 0.2rem;">...</span>`;
+      }
+
+      for (let p = startP; p <= endP; p++) {
+        btnsHtml += `
+          <button class="page-btn ${p === currentPage ? 'active' : ''}" onclick="goToPage(${p})">
+            ${p.toLocaleString('bn-BD')}
+          </button>
+        `;
+      }
+
+      if (endP < totalPages) {
+        if (endP < totalPages - 1) btnsHtml += `<span style="padding: 0 0.2rem;">...</span>`;
+        btnsHtml += `<button class="page-btn" onclick="goToPage(${totalPages})">${totalPages.toLocaleString('bn-BD')}</button>`;
+      }
+
+      btnsHtml += `
+        <button class="page-btn ${currentPage === totalPages ? 'disabled' : ''} onclick="goToPage(${currentPage + 1})">
+          পরবর্তী ▶
+        </button>
+      `;
+
+      paginationButtons.innerHTML = btnsHtml;
+    }
+
+    window.goToPage = function(page) {
+      currentPage = page;
+      renderQuestions();
+      window.scrollTo({ top: 180, behavior: 'smooth' });
+    };
+
+    // Event Listeners for Filters
+    searchInput.addEventListener("input", (e) => {
+      currentSearchTerm = e.target.value;
+      applyFiltersAndRender();
+    });
+
+    document.querySelectorAll(".filter-chip").forEach(chip => {
+      chip.addEventListener("click", () => {
+        document.querySelectorAll(".filter-chip").forEach(c => c.classList.remove("active"));
+        chip.classList.add("active");
+        minRepeatFilter = parseInt(chip.getAttribute("data-min-repeat"), 10) || 0;
+        applyFiltersAndRender();
+      });
+    });
+
+    sortSelect.addEventListener("change", (e) => {
+      currentSort = e.target.value;
+      applyFiltersAndRender();
+    });
+
+    pageSizeSelect.addEventListener("change", (e) => {
+      pageSize = parseInt(e.target.value, 10) || 25;
+      currentPage = 1;
+      renderQuestions();
+    });
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    // Startup
+    initTheme();
+    renderSubjectTabs();
+    loadSubjectQuestions();
+  </script>
+</body>
+</html>

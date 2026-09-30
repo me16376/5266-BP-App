@@ -7,9 +7,15 @@ Welcome to **5266-BP App** repository. Before analyzing or modifying any code, r
 ## 1. Project Overview & Architecture
 - **Web App**: Next.js 14 App Router application deployed on Cloudflare Pages.
 - **Master Question Banks**:
-  - Located at `public/data/job-solution/` containing 2,154 exams across 8 categories (BCS, Bank, Primary, NTRCA, Ministries, Admission, Subject-wise, Judicial).
-  - Index catalog: `public/data/exams_index.json` (mapped to `/data/job-solution/...`).
-  - Catalog and question loader: `src/lib/examsData.js`.
+  1. **Job Solutions**: Located at `public/data/job-solution/` containing 2,154 exams across 8 categories (BCS, Bank, Primary, NTRCA, Ministries, Admission, Subject-wise, Judicial).
+     - Catalog: `public/data/exams_index.json` | Loader: `src/lib/examsData.js`.
+     - Routes: `/job-solution`, `/job-solution-practice`, `/job-solution-model-test`, `/question-bank-smart`, `/question-bank-smart-questions`.
+  2. **ICT Question Bank**: Located at `public/data/ict/` containing 17 chapter exams across Class 9-10 Computer GK and ICT Wizard NTRCA (1,758 MCQs).
+     - Catalog: `public/data/ict_index.json` | Loader: `src/lib/ictData.js`.
+     - Routes: `/ict`, `/ict-practice`, `/ict-model-test`, `/ict-smart`, `/ict-smart-questions`.
+  3. **Most Important Questions**: Located at `public/data/most-important-questions/` containing 12 high-priority subjects (4,904 MCQs) for Primary, NTRCA, BCS, Bank, 10th-20th Grade, Bangladesh & International Affairs.
+     - Catalog: `public/data/most_important_index.json` | Loader: `src/lib/mostImportantData.js`.
+     - Routes: `/most-important-questions`, `/most-important-questions-practice`, `/most-important-questions-model-test`, `/most-important-smart`, `/most-important-smart-questions`.
 - **Development Server**: Must always be kept running locally (`npm run dev` on port 3000).
 
 ---

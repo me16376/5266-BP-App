@@ -15,7 +15,8 @@ import {
   Flame,
   Zap,
   Table,
-  Award
+  Award,
+  Monitor
 } from 'lucide-react';
 import { getExamsCatalog, cleanExamTitle } from '../lib/examsData';
 import { matchesExamSearch } from '../lib/searchUtils';
@@ -70,16 +71,20 @@ export default function HomePage() {
         background: 'radial-gradient(circle at 50% -20%, rgba(16, 185, 129, 0.12) 0%, rgba(248, 250, 252, 0) 70%), #f8fafc'
       }}>
         <div className="container" style={{ textAlign: 'center', position: 'relative', zIndex: 10 }}>
-          {/* Top Pill Badge */}
-          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', marginBottom: '20px' }}>
+          {/* Top Pill Badges */}
+          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', marginBottom: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
             <span className="badge badge-emerald" style={{ padding: '6px 14px', fontSize: '0.86rem' }}>
               <Sparkles size={14} />
-              <span>২,৫০,০০০+ প্রশ্নব্যাংক ও অফলাইন স্টুডিও</span>
+              <span>২,৫০,০০০+ জব সলিউশনস</span>
             </span>
-            <span className="badge badge-cyan" style={{ padding: '6px 14px', fontSize: '0.86rem' }}>
-              <Zap size={14} />
-              <span>ক্লাউডফ্লেয়ার এজ সিডিএন</span>
-            </span>
+            <Link href="/ict" className="badge badge-indigo" style={{ padding: '6px 14px', fontSize: '0.86rem', textDecoration: 'none' }}>
+              <Monitor size={14} />
+              <span>১,৭৫৮টি আইসিটি প্রশ্ন</span>
+            </Link>
+            <Link href="/most-important-questions" className="badge" style={{ padding: '6px 14px', fontSize: '0.86rem', background: '#fff1f2', color: '#e11d48', border: '1px solid #fecdd3', textDecoration: 'none' }}>
+              <Flame size={14} />
+              <span>৪,৯০৪টি সর্বাধিক কমন প্রশ্ন</span>
+            </Link>
           </div>
 
           {/* Main Headline */}
@@ -108,7 +113,7 @@ export default function HomePage() {
             margin: '0 auto 32px',
             lineHeight: '1.7'
           }}>
-            বাংলাদেশের সকল বিসিএস প্রিলিমিনারি, ব্যাংক নিয়োগ, শিক্ষক নিবন্ধন এবং মন্ত্রণালয়ের ২,১৫০+ পরীক্ষার শতভাগ নির্ভুল সমাধান ও প্রস্তুতি প্ল্যাটফর্ম।
+            বাংলাদেশের সকল বিসিএস প্রিলিমিনারি, ব্যাংক নিয়োগ, শিক্ষক নিবন্ধন এবং মন্ত্রণালয়ের ২,১৫০+ পরীক্ষার শতভাগ নির্ভুল সমাধান, আইসিটি অধ্যায়ভিত্তিক ও সর্বাধিক কমন প্রশ্ন সংকলন।
           </p>
 
           {/* Live Search Bar */}
@@ -191,14 +196,19 @@ export default function HomePage() {
 
           {/* CTA Buttons */}
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '14px', flexWrap: 'wrap' }}>
-            <Link href="/job-solution" className="btn-primary" style={{ padding: '14px 28px', fontSize: '1rem' }}>
+            <Link href="/job-solution" className="btn-primary" style={{ padding: '13px 24px', fontSize: '0.95rem' }}>
               <Layers size={18} />
-              <span>সকল প্রশ্ন ব্যাংক দেখুন ({catalog.total_exams.toLocaleString()} টি)</span>
+              <span>জব সলিউশনস ({catalog.total_exams.toLocaleString()} টি)</span>
             </Link>
 
-            <Link href="/file-studio" className="btn-secondary" style={{ padding: '14px 24px', fontSize: '1rem' }}>
-              <Table size={18} />
-              <span>ফাইল কনভার্ট (CSV/Excel/JSON)</span>
+            <Link href="/ict" className="btn-secondary" style={{ padding: '13px 20px', fontSize: '0.95rem', borderColor: '#818cf8', color: '#4338ca' }}>
+              <Monitor size={18} color="#4f46e5" />
+              <span>আইসিটি স্পেশাল (১৭ অধ্যায়)</span>
+            </Link>
+
+            <Link href="/most-important-questions" className="btn-secondary" style={{ padding: '13px 20px', fontSize: '0.95rem', borderColor: '#fda4af', color: '#be123c' }}>
+              <Flame size={18} color="#e11d48" />
+              <span>সর্বাধিক কমন (৪,৯০৪ প্রশ্ন)</span>
             </Link>
           </div>
         </div>
@@ -279,6 +289,154 @@ export default function HomePage() {
                 </Link>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Special Modules: ICT & Most Important Questions */}
+      <section style={{ padding: '10px 0 50px' }}>
+        <div className="container">
+          <div style={{ marginBottom: '24px' }}>
+            <span className="badge badge-indigo" style={{ marginBottom: '6px' }}>স্পেশাল এক্সক্লুসিভ সংকলন</span>
+            <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a' }}>
+              বিশেষ প্রশ্নব্যাংক ও প্রস্তুতি মডিউল
+            </h2>
+          </div>
+
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
+            gap: '24px'
+          }}>
+            {/* ICT Special Card */}
+            <div className="glass-panel" style={{
+              padding: '28px',
+              borderRadius: '18px',
+              border: '1px solid rgba(99, 102, 241, 0.25)',
+              background: 'linear-gradient(135deg, rgba(238, 242, 255, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%)',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'space-between',
+              boxShadow: '0 8px 30px rgba(99, 102, 241, 0.08)'
+            }}>
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
+                  <div style={{
+                    width: '50px',
+                    height: '50px',
+                    borderRadius: '12px',
+                    background: '#e0e7ff',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center'
+                  }}>
+                    <Monitor size={26} color="#4338ca" />
+                  </div>
+                  <span className="badge badge-indigo" style={{ padding: '6px 12px' }}>
+                    ১৭টি অধ্যায় • ১,৭৫৮টি প্রশ্ন
+                  </span>
+                </div>
+
+                <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#1e1b4b', marginBottom: '8px' }}>
+                  আইসিটি (ICT) প্রশ্নব্যাংক ও প্রস্তুতি
+                </h3>
+                <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: '1.6', marginBottom: '20px' }}>
+                  Class 9-10 Computer GK এবং ICT Wizard NTRCA (313 & 325)-এর সকল অধ্যায়ভিত্তিক পূর্ণাঙ্গ প্রশ্নব্যাংক ও বিস্তারিত উত্তর।
+                </p>
+              </div>
+
+              <div>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
+                  <Link
+                    href="/ict"
+                    className="btn-primary"
+                    style={{ background: '#4f46e5', justifyContent: 'center', padding: '10px', fontSize: '0.88rem' }}
+                  >
+                    বক্স লেআউট (১৭ অধ্যায়)
+                  </Link>
+                  <Link
+                    href="/ict-smart"
+                    className="btn-secondary"
+                    style={{ justifyContent: 'center', padding: '10px', fontSize: '0.88rem', borderColor: '#818cf8', color: '#4338ca' }}
+                  >
+                    স্মার্ট লেআউট ভিউ
+                  </Link>
+                </div>
+                <div style={{ display: 'flex', gap: '10px' }}>
+                  <Link
+                    href="/ict-practice?cat=class-9-10-computer-gk&folder=01-computer-poriciti"
+                    style={{ fontSize: '0.84rem', color: '#4f46e5', fontWeight: 600, textDecoration: 'none' }}
+                  >
+                    অনুশীলন শুরু করুন →
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* Most Important Questions Card */}
+            <div className="glass-panel" style={{
+              padding: '28px',
+              borderRadius: '18px',
+              border: '1px solid rgba(244, 63, 94, 0.25)',
+              background: 'linear-gradient(135deg, rgba(255, 241, 242, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%)',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'space-between',
+              boxShadow: '0 8px 30px rgba(244, 63, 94, 0.08)'
+            }}>
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
+                  <div style={{
+                    width: '50px',
+                    height: '50px',
+                    borderRadius: '12px',
+                    background: '#ffe4e6',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center'
+                  }}>
+                    <Flame size={26} color="#e11d48" />
+                  </div>
+                  <span className="badge" style={{ background: '#fff1f2', color: '#e11d48', border: '1px solid #fecdd3', padding: '6px 12px' }}>
+                    ১২টি বিষয় • ৪,৯০৪টি প্রশ্ন
+                  </span>
+                </div>
+
+                <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#881337', marginBottom: '8px' }}>
+                  সর্বাধিক কমন প্রশ্ন (Most Important)
+                </h3>
+                <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: '1.6', marginBottom: '20px' }}>
+                  প্রাইমারি শিক্ষক, NTRCA নিবন্ধন, বিসিএস, ব্যাংক, ১০ম-২০তম গ্রেড ও সাম্প্রতিক বাংলাদেশ-আন্তর্জাতিক বিষয়ের বাছাইকৃত প্রশ্নাবলি।
+                </p>
+              </div>
+
+              <div>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
+                  <Link
+                    href="/most-important-questions"
+                    className="btn-primary"
+                    style={{ background: '#e11d48', justifyContent: 'center', padding: '10px', fontSize: '0.88rem' }}
+                  >
+                    বক্স লেআউট (১২ বিষয়)
+                  </Link>
+                  <Link
+                    href="/most-important-smart"
+                    className="btn-secondary"
+                    style={{ justifyContent: 'center', padding: '10px', fontSize: '0.88rem', borderColor: '#fda4af', color: '#be123c' }}
+                  >
+                    স্মার্ট লেআউট ভিউ
+                  </Link>
+                </div>
+                <div style={{ display: 'flex', gap: '10px' }}>
+                  <Link
+                    href="/most-important-questions-practice?cat=primary-most-important&file=primary-assistant-teacher-final-suggestion"
+                    style={{ fontSize: '0.84rem', color: '#e11d48', fontWeight: 600, textDecoration: 'none' }}
+                  >
+                    অনুশীলন শুরু করুন →
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

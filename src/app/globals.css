@@ -1,6 +1,8 @@
 /* Core Navigation Layout (Zero layout shift on SSR and hydration) */
 .desktop-nav {
   display: none;
+  flex-wrap: nowrap !important;
+  white-space: nowrap !important;
 }
 .mobile-menu-btn {
   display: flex;
@@ -8,7 +10,7 @@
 .desktop-divider {
   display: none;
 }
-@media (min-width: 900px) {
+@media (min-width: 1120px) {
   .desktop-nav {
     display: flex !important;
   }

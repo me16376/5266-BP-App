@@ -1,0 +1,5 @@
+/* Scoped styles for ICT Smart Questions */
+.quiz-container,
+.quiz-container * {
+  box-sizing: border-box;
+}

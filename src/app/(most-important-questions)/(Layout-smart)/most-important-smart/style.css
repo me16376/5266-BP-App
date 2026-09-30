@@ -1,0 +1,11 @@
+/* Scoped styles for Most Important Smart directory */
+.qb-demo-wrapper,
+.qb-demo-wrapper * {
+  box-sizing: border-box;
+}
+
+.qb-search-filter-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}

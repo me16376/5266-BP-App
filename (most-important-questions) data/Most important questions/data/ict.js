@@ -1,0 +1,5810 @@
+window.MIQ_DATA = window.MIQ_DATA || {};
+window.MIQ_DATA["কম্পিউটার ও তথ্য প্রযুক্তি"] = [
+  {
+    "id": "miq_1",
+    "question": "কম্পিউটার থেকে কম্পিউটারে তথ্য আদান-প্রদানের প্রযুক্তিকে বলা হয়-",
+    "options": [
+      "ইন্টারকম",
+      "ইন্টারনেট",
+      "ই-মেইল",
+      "ইন্টারসীড"
+    ],
+    "correct_answer": "ইন্টারনেট",
+    "explanation": "🔖কম্পিউটার নেটওয়ার্ক বলতে কী বোঝায়। ধরা যাক, অনেকগুলি কম্পিউটার পরস্পরের সঙ্গে এমন ভাবে যুক্ত যে, তারা নিজেদের মধ্যে তথ্য ও সম্পদ আদান প্রদান করতে পারে।<br/>এই কম্পিউটারগুলির যোগসূত্রকেই বলে কম্পিউটার নেটওয়ার্ক।<br/>এ রকম অনেকগুলি কম্পিউটার নেটওয়ার্ককে আবার পরস্পরের সঙ্গে যুক্ত করে তথ্যপ্রযুক্তি আমাদের সামনে উপস্থিত করেছে ইন্টারনেটকে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 7,
+    "exam_count": 7,
+    "exam_references": [
+      {
+        "exam_name": "24th BCS",
+        "year": 2003,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "24th BCS (Cancelled) Feb, 2003"
+      },
+      {
+        "exam_name": "30th BCS",
+        "year": 2010,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "30th BCS General Jul, 2010"
+      },
+      {
+        "exam_name": "Social Development Foundation - Data Entry Operator",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Social Development Foundation - Data Entry Operator - 13.07.12"
+      },
+      {
+        "exam_name": "Rural Development Board - Officer",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rural Development Board - Officer - 06.12.13"
+      },
+      {
+        "exam_name": "১৩তম বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা-(স্কুল_সমপর্যায়-২)",
+        "year": 2016,
+        "category": "শিক্ষক নিবন্ধন (NTRCA)",
+        "full_title": "১৩তম বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা-(স্কুল_সমপর্যায়-২)-১৩.০৬.১৬"
+      },
+      {
+        "exam_name": "১৪তম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরিক্ষা",
+        "year": 2017,
+        "category": "শিক্ষক নিবন্ধন (NTRCA)",
+        "full_title": "১৪তম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরিক্ষা-২৫.০৮.১৭"
+      },
+      {
+        "exam_name": "মহিলা বিষয়ক অধিদপ্তরের উপজেলা মহিলা কর্মকর্তা",
+        "year": 2005,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "মহিলা বিষয়ক অধিদপ্তরের উপজেলা মহিলা কর্মকর্তা-১৪.০১.০৫"
+      }
+    ],
+    "exam_summary": "24th BCS (2003), 30th BCS (2010), Social Development Foundation - Data Entry Operator (2012), Rural Development Board - Officer (2013), ১৩তম বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা-(স্কুল_সমপর্যায়-২) (2016), ১৪তম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরিক্ষা (2017), মহিলা বিষয়ক অধিদপ্তরের উপজেলা মহিলা কর্মকর্তা (2005)",
+    "question_variations": [
+      "কম্পিউটার থেকে কম্পিউটারে তথ্য আদান-প্রদানের প্রযুক্তিকে বলা হয়?",
+      "কম্পিউটার থেকে কম্পিউটারে তথ্য আদান-প্রদানের প্রযুক্তিকে কী বলা হয় ?",
+      "কম্পিউটার থেকে কম্পিউটারে তথ্য আদান-প্রদান প্রযুক্তিকে কী বলা হয়?",
+      "কম্পিউটার থেকে কম্পিউটারে তথ্য আদান- প্রদানের প্রযুক্তিকে বলা হয়-"
+    ]
+  },
+  {
+    "id": "miq_2",
+    "question": "নিচের কোনটি ইনপুট ডিভাইস?",
+    "options": [
+      "OMR",
+      "COM",
+      "Plotter",
+      "Monitor"
+    ],
+    "correct_answer": "OMR",
+    "explanation": "📖 OMR (Optical Mark Recognition): এটি একটি ইনপুট ডিভাইস যা পেন্সিল বা কলমের চিহ্ন স্ক্যান করে ডেটা ইনপুট করে, যেমন পরীক্ষার উত্তরপত্র। (সঠিক)<br/>❐ PRINTER: এটি একটি আউটপুট ডিভাইস যা ডিজিটাল ডেটাকে কাগজে প্রিন্ট করে।<br/>❐ MONITOR: এটি একটি আউটপুট ডিভাইস যা ভিজ্যুয়াল ডিসপ্লে প্রদান করে।<br/>❐ SPEAKER: এটি একটি আউটপুট ডিভাইস যা অডিও আউটপুট প্রদান করে।<br/>▣ ইনপুট ডিভাইস হলো এমন যন্ত্র যা কম্পিউটারকে ডেটা বা নির্দেশাবলী প্রদান করে। OMR, কীবোর্ড, মাউস, স্ক্যানার ইত্যাদি ইনপুট ডিভাইস। প্রিন্টার, মনিটর, স্পিকার ইত্যাদি আউটপুট ডিভাইস।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 7,
+    "exam_count": 7,
+    "exam_references": [
+      {
+        "exam_name": "37th BCS",
+        "year": 2016,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "37th BCS General Sep, 2016"
+      },
+      {
+        "exam_name": "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের সহকারী সচিব_সহকারী পরিচালক (প্রশাসন) - 7",
+        "year": 2017,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের সহকারী সচিব_সহকারী পরিচালক (প্রশাসন) - 7.17"
+      },
+      {
+        "exam_name": "খনিজ সম্পদ মন্ত্রণালয় সহকারী সচিব_সহকারী পরিচালক (প্রশাসন)",
+        "year": 2019,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "খনিজ সম্পদ মন্ত্রণালয় সহকারী সচিব_সহকারী পরিচালক (প্রশাসন) ২৫.০১.১৯"
+      },
+      {
+        "exam_name": "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর (ওয়েরলেস অপারেটর) 19-02-2021",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর (ওয়েরলেস অপারেটর) 19-02-2021"
+      },
+      {
+        "exam_name": "পিএসসি ~বাংলাদেশ রেলওয়ে_সাব এসিস্ট্যান্ট ইঞ্জিনিয়ার (নন ক্যাডার)",
+        "year": 2024,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পিএসসি ~বাংলাদেশ রেলওয়ে_সাব এসিস্ট্যান্ট ইঞ্জিনিয়ার (নন ক্যাডার)_5.7.24"
+      },
+      {
+        "exam_name": "জাতীয় রাজস্ব বোর্ড (NBR)_অফিস সহায়ক",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জাতীয় রাজস্ব বোর্ড (NBR)_অফিস সহায়ক_23.5.25"
+      },
+      {
+        "exam_name": "নির্বাচন কমিশন সচিবালয়_গাড়ি চালক ও পরিচ্ছন্নতার কর্মী",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "নির্বাচন কমিশন সচিবালয়_গাড়ি চালক ও পরিচ্ছন্নতার কর্মী_15.8.25"
+      }
+    ],
+    "exam_summary": "37th BCS (2016), বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের সহকারী সচিব_সহকারী পরিচালক (প্রশাসন) - 7 (2017), খনিজ সম্পদ মন্ত্রণালয় সহকারী সচিব_সহকারী পরিচালক (প্রশাসন) (2019), মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর (ওয়েরলেস অপারেটর) 19-02-2021 (2021), পিএসসি ~বাংলাদেশ রেলওয়ে_সাব এসিস্ট্যান্ট ইঞ্জিনিয়ার (নন ক্যাডার) (2024), জাতীয় রাজস্ব বোর্ড (NBR)_অফিস সহায়ক (2025), নির্বাচন কমিশন সচিবালয়_গাড়ি চালক ও পরিচ্ছন্নতার কর্মী (2025)",
+    "question_variations": [
+      "নিচের কোনটি ইনপুট ডিভাইস ?",
+      "কোনটি ইনপুট ডিভাইস?"
+    ]
+  },
+  {
+    "id": "miq_3",
+    "question": "In general, which letter is considered for Hard Disk Drive ?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_answer": "C",
+    "explanation": "🔖A drive letter is a single alphabetic character A through Z that is assigned to a physical computer drive or drive partition. For example, a computer with a 3 1/2\" floppy diskette drive has a drive letter of A: assigned to the drive. Computers containing a hard drive always have that default hard drive assigned to a C: drive letter.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 7,
+    "exam_count": 6,
+    "exam_references": [
+      {
+        "exam_name": "Krishi Bank - Assistant Officer",
+        "year": 2007,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Krishi Bank - Assistant Officer - 22.06.07"
+      },
+      {
+        "exam_name": "Karmasangsthan Bank - Senior Officer",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Karmasangsthan Bank - Senior Officer - 17.07.09"
+      },
+      {
+        "exam_name": "Pubali Bank Ltd - Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd - Senior Officer - 25.06.10"
+      },
+      {
+        "exam_name": "Pubali Bank Ltd. Recruitment Test for Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd. Recruitment Test for Senior Officer 25.06.10"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2008",
+        "year": 2008,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2008"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2009",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2009"
+      }
+    ],
+    "exam_summary": "Krishi Bank - Assistant Officer (2007), Karmasangsthan Bank - Senior Officer (2009), Pubali Bank Ltd - Senior Officer (2010), Pubali Bank Ltd. Recruitment Test for Senior Officer (2010), Bangladesh Bank - Assistant Director - 2008 (2008), Bangladesh Bank - Assistant Director - 2009 (2009)",
+    "question_variations": [
+      "In general, which letter is considered for Hard Disk Drive?",
+      "In general , which letter is considered for Hard Disk Drive?"
+    ]
+  },
+  {
+    "id": "miq_4",
+    "question": "WWW stands for ?",
+    "options": [
+      "World whole Web",
+      "Wide World Web",
+      "World Wide Web",
+      "Web World Wide"
+    ],
+    "correct_answer": "World Wide Web",
+    "explanation": "🔖Stands for \"World Wide Web.\" It is important to know that this is not a synonym for the Internet.<br/>The World Wide Web, or just \"the Web,\" as ordinary people call it, is a subset of the Internet.<br/>The Web consists of pages that can be accessed using a Web browser.<br/>The Internet is the actual network of networks where all the information resides.<br/>Things like Telnet, FTP, Internet gaming, Internet Relay Chat (IRC), and e-mail are all part of the Internet, but are not part of the World Wide Web.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 7,
+    "exam_count": 7,
+    "exam_references": [
+      {
+        "exam_name": "Officer (General) -Ansar VDP Unnayan_BD House Building Finance Corporation",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Officer (General) -Ansar VDP Unnayan_BD House Building Finance Corporation 28.09.18"
+      },
+      {
+        "exam_name": "Two Combined Bank Recruitment Test - Officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Two Combined Bank Recruitment Test - Officer 28.09.18"
+      },
+      {
+        "exam_name": "Pubali Bank Ltd_Cash Officer",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd_Cash Officer_15.02.19"
+      },
+      {
+        "exam_name": "Commerce Bank Ltd - Officer (Grade 3) - 2000",
+        "year": 2000,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Commerce Bank Ltd - Officer (Grade 3) - 2000"
+      },
+      {
+        "exam_name": "Two Combined Bank Recruitment Test Post_Officer - 28_09_2018",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Two Combined Bank Recruitment Test Post_Officer - 28_09_2018"
+      },
+      {
+        "exam_name": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার অপারেটর_১৬",
+        "year": null,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার অপারেটর_১৬"
+      },
+      {
+        "exam_name": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার মুদ্রাক্ষরিক_১৭",
+        "year": null,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার মুদ্রাক্ষরিক_১৭"
+      }
+    ],
+    "exam_summary": "Officer (General) -Ansar VDP Unnayan_BD House Building Finance Corporation (2018), Two Combined Bank Recruitment Test - Officer (2018), Pubali Bank Ltd_Cash Officer (2019), Commerce Bank Ltd - Officer (Grade 3) - 2000 (2000), Two Combined Bank Recruitment Test Post_Officer - 28_09_2018 (2018), জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার অপারেটর_১৬, জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার মুদ্রাক্ষরিক_১৭",
+    "question_variations": [
+      "WWW stands for?",
+      "WWW stands for",
+      "WWW stands for ----",
+      "WWW stands for:"
+    ]
+  },
+  {
+    "id": "miq_5",
+    "question": "কম্পিউটার ভাইরাস কি?",
+    "options": [
+      "একটি ক্ষতিকারক জীবাণু",
+      "একটি ক্ষতিকারক চৌম্বক ফ্লাক্স",
+      "একটি ক্ষতিকারক প্রোগ্রাম",
+      "একটি ক্ষতিকারক সার্কিট"
+    ],
+    "correct_answer": "একটি ক্ষতিকারক প্রোগ্রাম",
+    "explanation": "কম্পিউটার ভাইরাস হলো এক ধরনের ক্ষতিকর সফটওয়্যার বা ম্যালওয়্যার। এটি ব্যবহারকারীর অনুমতি ছাড়াই নিজে নিজেই কপি হতে পারে বা নিজের প্রতিরূপ তৈরি করতে পারে। কম্পিউটার ভাইরাস কম্পিউটারের মেমোরিতে প্রবেশ করে গোপনে বিস্তার লাভ করে। <br/>কম্পিউটার ভাইরাসের ক্ষতি: <br/>কম্পিউটারের মেমোরিতে প্রোগ্রাম, ফাইল ও ডিস্কের সব তথ্য নষ্ট করে দেয়।<br/>বিভিন্ন তথ্য-উপাত্তকে আক্রমণ করে।<br/>এক পর্যায়ে গোটা কম্পিউটার বা আইসিটি যন্ত্রকে সংক্রমিত করে অচল করে দেয়।<br/>কম্পিউটার ভাইরাসের প্রসার: ইমেইলের বিভিন্ন অ্যাটাচমেন্ট, আনঅথোরাইজ কোন সফটওয়্যার, আক্রমণকৃত কম্পিউটার থেকে.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 6,
+    "exam_count": 6,
+    "exam_references": [
+      {
+        "exam_name": "32nd BCS",
+        "year": 2012,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "32nd BCS General Mar, 2012"
+      },
+      {
+        "exam_name": "ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১",
+        "year": 2010,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১.১০"
+      },
+      {
+        "exam_name": "পররাষ্ট্র মন্ত্রণালয়_সহকারী সাইফার_18-05-22",
+        "year": 2022,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পররাষ্ট্র মন্ত্রণালয়_সহকারী সাইফার_18-05-22"
+      },
+      {
+        "exam_name": "পিএসসি ~পররাষ্ট্র মন্ত্রণালয়ের_ব্যক্তিগত কর্মকর্তা",
+        "year": 2024,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পিএসসি ~পররাষ্ট্র মন্ত্রণালয়ের_ব্যক্তিগত কর্মকর্তা_4.3.24"
+      },
+      {
+        "exam_name": "পাওয়ার গ্রিড বাংলাদেশ পিএলসি_জুনিয়র হিসাব সহকারী",
+        "year": 2024,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পাওয়ার গ্রিড বাংলাদেশ পিএলসি_জুনিয়র হিসাব সহকারী_15.11.24"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_লাইনম্যান",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_লাইনম্যান_28.2.25"
+      }
+    ],
+    "exam_summary": "32nd BCS (2012), ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১ (2010), পররাষ্ট্র মন্ত্রণালয়_সহকারী সাইফার_18-05-22 (2022), পিএসসি ~পররাষ্ট্র মন্ত্রণালয়ের_ব্যক্তিগত কর্মকর্তা (2024), পাওয়ার গ্রিড বাংলাদেশ পিএলসি_জুনিয়র হিসাব সহকারী (2024), পল্লী বিদ্যুতায়ন বোর্ড_লাইনম্যান (2025)",
+    "question_variations": [
+      "কম্পিউটার ভাইরাস কী?"
+    ]
+  },
+  {
+    "id": "miq_6",
+    "question": "Which one is a database software ?",
+    "options": [
+      "MS WORD",
+      "ORACLE",
+      "MS Outlook",
+      "CorelDRAW"
+    ],
+    "correct_answer": "ORACLE",
+    "explanation": "🔖A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex they are often developed using formal design and modeling techniques.<br/>The database management system (DBMS) is the software that interacts with end users, applications, and the database itself to capture and analyze the data. The DBMS software additionally encompasses the core facilities provided to administer the database.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 6,
+    "exam_count": 6,
+    "exam_references": [
+      {
+        "exam_name": "Krishi Bank - Assistant Officer",
+        "year": 2007,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Krishi Bank - Assistant Officer - 22.06.07"
+      },
+      {
+        "exam_name": "Pubali Bank Ltd - Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd - Senior Officer - 25.06.10"
+      },
+      {
+        "exam_name": "Pubali Bank Ltd. Recruitment Test for Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd. Recruitment Test for Senior Officer 25.06.10"
+      },
+      {
+        "exam_name": "Janata Bank Ltd - Assistant Executive Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Janata Bank Ltd - Assistant Executive Officer 25.02.11"
+      },
+      {
+        "exam_name": "Janata Bank Ltd - Senior Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Janata Bank Ltd - Senior Officer - 25.2.11"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2009",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2009"
+      }
+    ],
+    "exam_summary": "Krishi Bank - Assistant Officer (2007), Pubali Bank Ltd - Senior Officer (2010), Pubali Bank Ltd. Recruitment Test for Senior Officer (2010), Janata Bank Ltd - Assistant Executive Officer (2011), Janata Bank Ltd - Senior Officer (2011), Bangladesh Bank - Assistant Director - 2009 (2009)",
+    "question_variations": [
+      "which one is the database software ?",
+      "Which one is the database software ?",
+      "Which one is the database software?"
+    ]
+  },
+  {
+    "id": "miq_7",
+    "question": "Which one is not a word processing software ?",
+    "options": [
+      "MS WORD",
+      "WordPerfect",
+      "MS Excel",
+      "WordStar"
+    ],
+    "correct_answer": "MS Excel",
+    "explanation": "🔖Types of Word Processing Applications<br/>Microsoft Word. One of the most well-known and widely used word processing applications on the market is Microsoft Word. ...<br/>WordPerfect. WordPerfect is a word processing application from Corel Corp.. ...<br/>Lotus Word Pro. ...<br/>iWork Pages",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 6,
+    "exam_count": 6,
+    "exam_references": [
+      {
+        "exam_name": "Krishi Bank - Assistant Officer",
+        "year": 2007,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Krishi Bank - Assistant Officer - 22.06.07"
+      },
+      {
+        "exam_name": "Karmasangsthan Bank - Senior Officer",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Karmasangsthan Bank - Senior Officer - 17.07.09"
+      },
+      {
+        "exam_name": "Janata Bank Ltd - Assistant Executive Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Janata Bank Ltd - Assistant Executive Officer 25.02.11"
+      },
+      {
+        "exam_name": "Janata Bank Ltd - Senior Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Janata Bank Ltd - Senior Officer - 25.2.11"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd - Officer (IT)",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Officer (IT) - 23.12.16"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2008",
+        "year": 2008,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2008"
+      }
+    ],
+    "exam_summary": "Krishi Bank - Assistant Officer (2007), Karmasangsthan Bank - Senior Officer (2009), Janata Bank Ltd - Assistant Executive Officer (2011), Janata Bank Ltd - Senior Officer (2011), Sonali Bank Ltd - Officer (IT) (2016), Bangladesh Bank - Assistant Director - 2008 (2008)",
+    "question_variations": [
+      "Which one is not the word processing software?",
+      "Which one is not a word processing software?",
+      "Which one is not word processing software/"
+    ]
+  },
+  {
+    "id": "miq_8",
+    "question": "Which of the following is not an internet search engine?",
+    "options": [
+      "Google",
+      "Yahoo",
+      "MSN",
+      "Windows"
+    ],
+    "correct_answer": "Windows",
+    "explanation": "✐ 🔖The knowledge is found and listed, on the World Wide Web.<br/>The provided Google, Yahoo and Bing are examples of search engines.<br/>But the window is an operative system.<br/>windows is not a search imagines.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 6,
+    "exam_count": 6,
+    "exam_references": [
+      {
+        "exam_name": "Rajshahi Krishi Unnayan Bank - Senior Officers",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rajshahi Krishi Unnayan Bank - Senior Officers - 08.01.10"
+      },
+      {
+        "exam_name": "Forest Industries Development Corporation - Asst. Manager",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Forest Industries Development Corporation - Asst. Manager - 02.08.13"
+      },
+      {
+        "exam_name": "IFIC Bank Ltd - Management Trainee Officer",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "IFIC Bank Ltd - Management Trainee Officer - 21.06.13"
+      },
+      {
+        "exam_name": "AB Bank Ltd - Assistant Officer",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "AB Bank Ltd - Assistant Officer - 10.01.14"
+      },
+      {
+        "exam_name": "সহকারী পরিচালক(AD)",
+        "year": 2021,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সহকারী পরিচালক(AD) -12.11.21"
+      },
+      {
+        "exam_name": "বাংলাদেশ বনশিল্প উন্নয়ন কর্পোরেশন সহকারী ব্যবস্থাপক",
+        "year": 2013,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বাংলাদেশ বনশিল্প উন্নয়ন কর্পোরেশন সহকারী ব্যবস্থাপক-০২.০৮.১৩"
+      }
+    ],
+    "exam_summary": "Rajshahi Krishi Unnayan Bank - Senior Officers (2010), Forest Industries Development Corporation - Asst. Manager (2013), IFIC Bank Ltd - Management Trainee Officer (2013), AB Bank Ltd - Assistant Officer (2014), সহকারী পরিচালক(AD) (2021), বাংলাদেশ বনশিল্প উন্নয়ন কর্পোরেশন সহকারী ব্যবস্থাপক (2013)",
+    "question_variations": [
+      "Which one of the following is not an internet search engine?",
+      "Which one of the following is not an internet search engine ?"
+    ]
+  },
+  {
+    "id": "miq_9",
+    "question": "RAM stands for",
+    "options": [
+      "Random Access Memory",
+      "Readily Available Memory",
+      "Read Access Memory",
+      "Reading Access Memory"
+    ],
+    "correct_answer": "Random Access Memory",
+    "explanation": "🔖Random access memory:<br/>RAM (pronounced ramm) is an acronym for random access memory, a type of computer memory that can be accessed randomly; that is, any byte of memory can be accessed without touching the preceding bytes. RAM is found in servers, PCs, tablets, smartphones and other devices, such as printers.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 6,
+    "exam_count": 6,
+    "exam_references": [
+      {
+        "exam_name": "Rajshahi Krishi Unnayan Bank - Senior Officers",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rajshahi Krishi Unnayan Bank - Senior Officers - 08.01.10"
+      },
+      {
+        "exam_name": "Bangladesh House Building Finance Corporation - Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh House Building Finance Corporation - Officer - 05.08.11"
+      },
+      {
+        "exam_name": "Bank Asia Ltd - Management Trainees",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bank Asia Ltd - Management Trainees - 17.06.11"
+      },
+      {
+        "exam_name": "Trust Bank Ltd - Trainee Assistant Officer",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Trust Bank Ltd - Trainee Assistant Officer - 19.10.12"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2009",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2009"
+      },
+      {
+        "exam_name": "জুনিয়র অফিসার ০১. ০৩",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "জুনিয়র অফিসার ০১. ০৩. .১৯"
+      }
+    ],
+    "exam_summary": "Rajshahi Krishi Unnayan Bank - Senior Officers (2010), Bangladesh House Building Finance Corporation - Officer (2011), Bank Asia Ltd - Management Trainees (2011), Trust Bank Ltd - Trainee Assistant Officer (2012), Bangladesh Bank - Assistant Director - 2009 (2009), জুনিয়র অফিসার ০১. ০৩ (2019)",
+    "question_variations": [
+      "RAM stands for-",
+      "\"RAM\" stands for",
+      "RAM stands for :",
+      "RAM stands for ---",
+      "'RAM' stands for-"
+    ]
+  },
+  {
+    "id": "miq_10",
+    "question": "RTGS is a-",
+    "options": [
+      "Payment system",
+      "Governance system",
+      "Right-based group",
+      "An anti-virus software"
+    ],
+    "correct_answer": "Payment system",
+    "explanation": "📝 <b>RTGS:</b><br/>❐ RTGS-এর পূর্ণরূপ: Real Time Gross Settlement.<br/>❐ অন্তর্ভুক্তিমূলক ডিজিটালাইজেশন উদ্যোগের অংশ হিসাবে নিরাপদ, সুরক্ষিত এবং দক্ষ আন্তঃব্যাংক পেমেন্ট সিস্টেমের সুবিধার্থে বাংলাদেশ ব্যাংক ২৯শে অক্টোবর ২০১৫ তারিখে রিয়েল টাইম গ্রস সেটেলমেন্ট (BD-RTGS) সিস্টেম চালু করে।<br/>▣<b> এটি একটি পেমেন্ট প্রক্রিয়া।</b><br/>❐ এই পেমেন্ট প্রক্রিয়াটি ইকোসিস্টেমে একটি নতুন দিগন্ত উন্মোচন করেছে।<br/>❐ এই পেমেন্ট প্রক্রিয়াটি দেশে বৃহৎ মূল্য এবং সময় সংক্রান্ত গুরুত্বপূর্ণ অর্থপ্রদানের তাৎক্ষণিক নিষ্পত্তি করে।<br/>উল্লেখ্য,<br/>❐ একটি ইলেকট্রনিক সিস্টেম হিসাবে, এটি একটি ব্যাংকের একটি অ্যাকাউন্ট থেকে অন্য ব্যাংকে রিয়েল-টাইমে এবং মোট ভিত্তিতে তহবিল স্থানান্তর নিশ্চিত করে৷<br/>❐ এখানে রিয়েল-টাইম লেনদেনগুলির জন্য কোন সময়ের প্রয়োজন নেই৷ <br/>❐ লেনদেনগুলি কার্যকর হওয়ার সাথে সাথে নিষ্পত্তি করা হয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 6,
+    "exam_count": 6,
+    "exam_references": [
+      {
+        "exam_name": "বাংলাদেশ ব্যাংক_অফিসার",
+        "year": 2022,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "বাংলাদেশ ব্যাংক_অফিসার_2.12.22"
+      },
+      {
+        "exam_name": "সমন্বিত ৯ ব্যাংক_সিনিয়র অফিসার",
+        "year": 2023,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সমন্বিত ৯ ব্যাংক_সিনিয়র অফিসার_20.1.23"
+      },
+      {
+        "exam_name": "সমন্বিত ৭ ব্যাংক_অফিসার (ক্যাশ) ~BIBM",
+        "year": 2023,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সমন্বিত ৭ ব্যাংক_অফিসার (ক্যাশ) ~BIBM_2.6.23"
+      },
+      {
+        "exam_name": "বাংলাদেশ ব্যাংক_অফিসার (ক্যাশ)",
+        "year": 2023,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "বাংলাদেশ ব্যাংক_অফিসার (ক্যাশ)_21.7.23"
+      },
+      {
+        "exam_name": "সাধারণ বীমা কর্পোরেশন_উচ্চমান সহকারী",
+        "year": 2023,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সাধারণ বীমা কর্পোরেশন_উচ্চমান সহকারী_3.11.23"
+      },
+      {
+        "exam_name": "বাংলাদেশ রেলওয়ে_পয়েন্টসম্যান",
+        "year": 2024,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বাংলাদেশ রেলওয়ে_পয়েন্টসম্যান_28.6.24"
+      }
+    ],
+    "exam_summary": "বাংলাদেশ ব্যাংক_অফিসার (2022), সমন্বিত ৯ ব্যাংক_সিনিয়র অফিসার (2023), সমন্বিত ৭ ব্যাংক_অফিসার (ক্যাশ) ~BIBM (2023), বাংলাদেশ ব্যাংক_অফিসার (ক্যাশ) (2023), সাধারণ বীমা কর্পোরেশন_উচ্চমান সহকারী (2023), বাংলাদেশ রেলওয়ে_পয়েন্টসম্যান (2024)",
+    "question_variations": [
+      "RTGS is a(n) -",
+      "RTGS is -"
+    ]
+  },
+  {
+    "id": "miq_11",
+    "question": "CPU- এর পূর্ণরূপ কি?",
+    "options": [
+      "Core Performance Unit",
+      "Central Processing Unit",
+      "Core Programming Unit",
+      "Cyber Programming Unit"
+    ],
+    "correct_answer": "Central processing unit",
+    "explanation": "📝 CPU- এর পূর্ণরূপ Central Processing Unit.<br/>▣ সিপিইউ (CPU):<br/>❏ সিপিইউ কম্পিউটার ব্যবহারকারীর দেওয়া তথ্য ও নির্দেশের ভিত্তিতে ডেটাকে প্রক্রিয়াজাত করে ফলাফল বা আউটপুট প্রদান করে থাকে।<br/>❏ প্রক্রিয়াকরণের কাজ সম্পাদন করার জন্য কম্পিউটারের ভেতর থাকে প্রক্রিয়াকরণ ইউনিট।<br/>❏ প্রক্রিয়াকরণ ইউনিটকে প্রক্রিয়াকরণের কাজ করতে আরো কিছু যান্ত্রিক অংশ সহায়ক ভূমিকা পালন করে থাকে।<br/>❏ কম্পিউটারের যে অংশ ডেটা প্রক্রিয়াকরণের কাজ করে তাকে সেন্ট্রাল প্রসেসিং ইউনিট বা সিপিইউ বলে।<br/>❏ সিপিইউ কম্পিউটারের মস্তিষ্ক বা ব্রেইনস্বরূপ।<br/>❏ কম্পিউটারের কাজ করার গতি ও ক্ষমতা প্রধানত সিপিইউ-এর ওপর নির্ভরশীল।<br/>▣ সিপিইউ-এর গঠন:<br/>সিপিইউ নিম্নলিখিত তিনটি অংশ নিয়ে গঠিত। যথা-<br/>১. গাণিতিক যুক্তি অংশ (Arithmetic Logic Unit)<br/>২. নিয়ন্ত্রণ অংশ (Control Unit)<br/>৩. স্মৃতি অংশ (Memory Unit)",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 6,
+    "exam_count": 6,
+    "exam_references": [
+      {
+        "exam_name": "পরিবার পরিকল্পনা অধিদপ্তরে পরিবার পরিকল্পনা পরিদর্শক_পরিবার কল্যাণ সহকারী-৬",
+        "year": 2011,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পরিবার পরিকল্পনা অধিদপ্তরে পরিবার পরিকল্পনা পরিদর্শক_পরিবার কল্যাণ সহকারী-৬.১১"
+      },
+      {
+        "exam_name": "ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১",
+        "year": 2010,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১.১০"
+      },
+      {
+        "exam_name": "রেলপথ মন্ত্রণালয় ( কম্পিউটার অপারেটর) 12-06-2021",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "রেলপথ মন্ত্রণালয় ( কম্পিউটার অপারেটর) 12-06-2021"
+      },
+      {
+        "exam_name": "শিক্ষা প্রকৌশল অধিদপ্তর_ডাটা এন্ট্রি অপারেটর",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "শিক্ষা প্রকৌশল অধিদপ্তর_ডাটা এন্ট্রি অপারেটর_19.11.21"
+      },
+      {
+        "exam_name": "ক্ষুদ্র কৃষক উন্নয়ন ফাউন্ডেশন_সহকারী হিসাব রক্ষক",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ক্ষুদ্র কৃষক উন্নয়ন ফাউন্ডেশন_সহকারী হিসাব রক্ষক_25.3.23"
+      },
+      {
+        "exam_name": "বিদ্যুৎ উন্নয়ন বোর্ড_নিম্নমান হিসাব সহকারী",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিদ্যুৎ উন্নয়ন বোর্ড_নিম্নমান হিসাব সহকারী_10.11.23"
+      }
+    ],
+    "exam_summary": "পরিবার পরিকল্পনা অধিদপ্তরে পরিবার পরিকল্পনা পরিদর্শক_পরিবার কল্যাণ সহকারী-৬ (2011), ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১ (2010), রেলপথ মন্ত্রণালয় ( কম্পিউটার অপারেটর) 12-06-2021 (2021), শিক্ষা প্রকৌশল অধিদপ্তর_ডাটা এন্ট্রি অপারেটর (2021), ক্ষুদ্র কৃষক উন্নয়ন ফাউন্ডেশন_সহকারী হিসাব রক্ষক (2023), বিদ্যুৎ উন্নয়ন বোর্ড_নিম্নমান হিসাব সহকারী (2023)",
+    "question_variations": [
+      "CPU এর পূর্ণরূপ কোনটি?",
+      "CPU- এর পূর্ণরূপ-",
+      "CPU -এর পূর্ণরূপ কী?",
+      "CPU এর পূর্ণরূপ কী?",
+      "CPU এর পূর্ণরূপ কী ?"
+    ]
+  },
+  {
+    "id": "miq_12",
+    "question": "কম্পিউটারের স্থায়ী স্মৃতিশক্তিকে কি বলে?",
+    "options": [
+      "RAM",
+      "ROM",
+      "হার্ডওয়্যার",
+      "সফ্টওয়্যার"
+    ],
+    "correct_answer": "ROM",
+    "explanation": "📖 <b>ROM: </b><br/>▣ ROM এর পূর্ণরূপ হলো Read Only Memory. <br/>▣ এটি মূলত এক ধরনের নন-ভোলাইটল মেমোরি (Non-Volatile Memory)। অর্থাৎ বিদ্যুৎ সরবরাহ বন্ধ করলেও রমে সংরক্ষিত তথ্য মুছে যায় না। <br/>▣ কম্পিউটারের মাইক্রোপ্রসেসর ও হার্ডওয়্যারের অভ্যন্তরীণ কার্যাবলি সম্পাদনের প্রোগ্রাম রমে স্থায়ীভাবে সংরক্ষিত থাকে। <br/>▣ <b>কম্পিউটারের স্থায়ী স্মৃতিশক্তিকে ROM বলে</b>। <br/>▣ সাধারণত রমে নতুন কিছু সংযোজন, সংশোধন বা পরিবর্তন করা যায় না। <br/>▣ রমে ম্যানুফেকচাররার কর্তৃক প্রয়োজনীয় তথ্য সংরক্ষণ করা থাকে। <br/>▣ সাধারণত রমে সংরক্ষিত তথ্য শুধু পড়া যায়, লেখা যায় না।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "29th BCS",
+        "year": 2009,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "29th BCS General Aug, 2009"
+      },
+      {
+        "exam_name": "DPE ২০১৪(তৃতীয় পর্যায়) - সহকারী শিক্ষক",
+        "year": 2014,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "DPE ২০১৪(তৃতীয় পর্যায়) - সহকারী শিক্ষক -২৬.০৫.১৮"
+      },
+      {
+        "exam_name": "বিদ্যুৎ উন্নয়ন বোর্ডের উপ-সহকারী-১০",
+        "year": 2012,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিদ্যুৎ উন্নয়ন বোর্ডের উপ-সহকারী-১০.১২"
+      },
+      {
+        "exam_name": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের কমিউনিটি_হেল্থ কেয়ার প্রোভাইডার -৭",
+        "year": 2018,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের কমিউনিটি_হেল্থ কেয়ার প্রোভাইডার -৭.১৮"
+      },
+      {
+        "exam_name": "কারিগরি শিক্ষা অধিদপ্তর_অফিস সহকারী ও অন্যান্য",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "কারিগরি শিক্ষা অধিদপ্তর_অফিস সহকারী ও অন্যান্য_12.11.21"
+      }
+    ],
+    "exam_summary": "29th BCS (2009), DPE ২০১৪(তৃতীয় পর্যায়) - সহকারী শিক্ষক (2014), বিদ্যুৎ উন্নয়ন বোর্ডের উপ-সহকারী-১০ (2012), স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের কমিউনিটি_হেল্থ কেয়ার প্রোভাইডার -৭ (2018), কারিগরি শিক্ষা অধিদপ্তর_অফিস সহকারী ও অন্যান্য (2021)",
+    "question_variations": [
+      "কম্পিউটারের স্থায়ী স্মৃতিশক্তিকে বলে -",
+      "কম্পিউটারের স্থায়ী স্মৃতিশক্তিকে বলে-",
+      "কম্পিউটারের স্থায়ী স্মৃতিশক্তিকে কী বলে?"
+    ]
+  },
+  {
+    "id": "miq_13",
+    "question": "Which one is not a graphics software ?",
+    "options": [
+      "Harvard Graphics",
+      "Access",
+      "Page Maker",
+      "Freelance Graphics"
+    ],
+    "correct_answer": "Access",
+    "explanation": "🔖In computer graphics, graphics software refers to a program or collection of programs that enable a person to manipulate images or models visually on a computer.<br/>Computer graphics can be classified into distinct categories: raster graphics and vector graphics, with further 2D and 3D variants. Many graphics programs focus exclusively on either vector or raster graphics, but there are a few that operate on both.<br/>It is simple to convert from vector graphics to raster graphics, but going the other way is harder. Some software attempts to do this.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Krishi Bank - Assistant Officer",
+        "year": 2007,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Krishi Bank - Assistant Officer - 22.06.07"
+      },
+      {
+        "exam_name": "Karmasangsthan Bank - Senior Officer",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Karmasangsthan Bank - Senior Officer - 17.07.09"
+      },
+      {
+        "exam_name": "Pubali Bank Ltd - Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd - Senior Officer - 25.06.10"
+      },
+      {
+        "exam_name": "Pubali Bank Ltd. Recruitment Test for Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd. Recruitment Test for Senior Officer 25.06.10"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2008",
+        "year": 2008,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2008"
+      }
+    ],
+    "exam_summary": "Krishi Bank - Assistant Officer (2007), Karmasangsthan Bank - Senior Officer (2009), Pubali Bank Ltd - Senior Officer (2010), Pubali Bank Ltd. Recruitment Test for Senior Officer (2010), Bangladesh Bank - Assistant Director - 2008 (2008)",
+    "question_variations": [
+      "Which one is not the graphics software?",
+      "which one is not the graphics software ?",
+      "Which one is not the graphics software ?"
+    ]
+  },
+  {
+    "id": "miq_14",
+    "question": "RAM in Computer stands for ---",
+    "options": [
+      "Revised Access Memory",
+      "Running Applied Memory",
+      "Random Access Memory",
+      "Random Applied Memory"
+    ],
+    "correct_answer": "Random Access Memory",
+    "explanation": "র‍্যান্ডম অ্যাক্সেস মেমোরি(ইংরেজি: random-access memory), সংক্ষেপে র‍্যাম (RAM) হল এক ধরনের কম্পিউটারের উপাত্ত (ডাটা) সংরক্ষণের মাধ্যম। র‍্যাম থেকে যে কোন ক্রমে উপাত্ত \"অ্যাক্সেস\" করা যায়, এ কারণেই একে র‍্যান্ডম অ্যাক্সেস মেমোরি বলা হয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Sonali, Janata, Agrani & Rupali Bank Ltd. Senior Officer Recruitment",
+        "year": 2008,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali, Janata, Agrani & Rupali Bank Ltd. Senior Officer Recruitment 14.03.08"
+      },
+      {
+        "exam_name": "Karmasangsthan Bank - Senior Officer",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Karmasangsthan Bank - Senior Officer - 17.07.09"
+      },
+      {
+        "exam_name": "Pubali Bank Ltd - Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd - Senior Officer - 25.06.10"
+      },
+      {
+        "exam_name": "Pubali Bank Ltd. Recruitment Test for Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd. Recruitment Test for Senior Officer 25.06.10"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2008",
+        "year": 2008,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2008"
+      }
+    ],
+    "exam_summary": "Sonali, Janata, Agrani & Rupali Bank Ltd. Senior Officer Recruitment (2008), Karmasangsthan Bank - Senior Officer (2009), Pubali Bank Ltd - Senior Officer (2010), Pubali Bank Ltd. Recruitment Test for Senior Officer (2010), Bangladesh Bank - Assistant Director - 2008 (2008)",
+    "question_variations": [
+      "RAM in Computer stands for",
+      "RAM in computer stands for"
+    ]
+  },
+  {
+    "id": "miq_15",
+    "question": "What does RAM stand for?",
+    "options": [
+      "Read Access Model",
+      "Random Access Memory",
+      "Random Actress Model",
+      "Rapid Action Memory"
+    ],
+    "correct_answer": "Random Access Memory",
+    "explanation": "🔖Random-access memory is a form of computer memory that can be read and changed in any order, typically used to store working data and machine code.<br/>A random-access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Karmasangsthan Bank - Officer",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Karmasangsthan Bank - Officer - 23.10.09"
+      },
+      {
+        "exam_name": "Rajshahi Krishi Unnayan Bank - Senior Officers",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rajshahi Krishi Unnayan Bank - Senior Officers - 15.04.11"
+      },
+      {
+        "exam_name": "Uttara Bank Ltd - Assistant Officer (Cash)",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Uttara Bank Ltd - Assistant Officer (Cash) - 20.05.11"
+      },
+      {
+        "exam_name": "বিভিন্ন মন্ত্রণালয় অধিদপ্তর ৫",
+        "year": 2013,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিভিন্ন মন্ত্রণালয় অধিদপ্তর ৫.১৩"
+      },
+      {
+        "exam_name": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়_2011_F ইউনিট",
+        "year": 2011,
+        "category": "বিশ্ববিদ্যালয় ভর্তি পরীক্ষা (Admission Tests)",
+        "full_title": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়_2011_F ইউনিট"
+      }
+    ],
+    "exam_summary": "Karmasangsthan Bank - Officer (2009), Rajshahi Krishi Unnayan Bank - Senior Officers (2011), Uttara Bank Ltd - Assistant Officer (Cash) (2011), বিভিন্ন মন্ত্রণালয় অধিদপ্তর ৫ (2013), জাহাঙ্গীরনগর বিশ্ববিদ্যালয়_2011_F ইউনিট (2011)",
+    "question_variations": [
+      "what does RAM stand for?",
+      "What does the word RAM stand for?",
+      "What does RAM Stand for ?"
+    ]
+  },
+  {
+    "id": "miq_16",
+    "question": "Which of the following is spreadsheet software?",
+    "options": [
+      "MS Excel",
+      "MS Word",
+      "Powerpoint",
+      "Adobe Acrobat"
+    ],
+    "correct_answer": "MS Excel",
+    "explanation": "🔖A spreadsheet is a computer application for organization, analysis and storage of data in tabular form.<br/>Spreadsheets were developed as computerized analogs of paper accounting worksheets.<br/>The program operates on data entered in cells of a table. Each cell may contain either numeric or text data, or the results of formulas that automatically calculate and display a value based on the contents of other cells. A spreadsheet may also refer to one such electronic document.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Rajshahi Krishi Unnayan Bank - Senior Officers",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rajshahi Krishi Unnayan Bank - Senior Officers - 08.01.10"
+      },
+      {
+        "exam_name": "Investment Corporation - Senior Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Investment Corporation - Senior Officer - 21.01.11"
+      },
+      {
+        "exam_name": "Uttara Bank Ltd - Assistant Officer (Cash)",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Uttara Bank Ltd - Assistant Officer (Cash) - 20.05.11"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd - Officer (IT)",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Officer (IT) - 23.12.16"
+      },
+      {
+        "exam_name": "Sonali & Janata Bank Ltd. Senior Officer (IT_ICT)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali & Janata Bank Ltd. Senior Officer (IT_ICT) 08.06.18"
+      }
+    ],
+    "exam_summary": "Rajshahi Krishi Unnayan Bank - Senior Officers (2010), Investment Corporation - Senior Officer (2011), Uttara Bank Ltd - Assistant Officer (Cash) (2011), Sonali Bank Ltd - Officer (IT) (2016), Sonali & Janata Bank Ltd. Senior Officer (IT_ICT) (2018)",
+    "question_variations": [
+      "Which of the following is a spreadsheet software?",
+      "which of the following is spreadsheet software?",
+      "which of the following is a spreadsheet software?"
+    ]
+  },
+  {
+    "id": "miq_17",
+    "question": "নিচের কোনটি একটি কম্পিউটার ভাইরাস?",
+    "options": [
+      "SQL",
+      "Blue-Ray",
+      "SPSS",
+      "CIH"
+    ],
+    "correct_answer": "CIH",
+    "explanation": "CIH, also known as Chernobyl or Spacefiller, is a Microsoft Windows 9x computer virus which first emerged in 1998.<br/><br/>Its payload is highly destructive to vulnerable systems, overwriting critical information on infected system drives, and in some cases destroying the system BIOS.<br/><br/>The virus was created who was a student at Tatung University in Taiwan.<br/><br/>Sixty million computers were believed to be infected by the virus internationally, resulting in an estimated US$1 billion in commercial damages.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd - Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Officer 05.11.10"
+      },
+      {
+        "exam_name": "দুর্নীতি দমন কমিশন (উপ-সহকারী পরিচালক) 07-02-2020",
+        "year": 2020,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "দুর্নীতি দমন কমিশন (উপ-সহকারী পরিচালক) 07-02-2020"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার টেস্টার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার টেস্টার_2.6.23"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুত_মিটার রিডার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুত_মিটার রিডার_4.8.23"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_সহকারী জুনিয়র ইঞ্জিনিয়ার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_সহকারী জুনিয়র ইঞ্জিনিয়ার_15.9.23"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd - Officer (2010), দুর্নীতি দমন কমিশন (উপ-সহকারী পরিচালক) 07-02-2020 (2020), পল্লী বিদ্যুতায়ন বোর্ড_মিটার টেস্টার (2023), পল্লী বিদ্যুত_মিটার রিডার (2023), পল্লী বিদ্যুতায়ন বোর্ড_সহকারী জুনিয়র ইঞ্জিনিয়ার (2023)",
+    "question_variations": [
+      "নিচের কোনটি কম্পিউটার ভাইরাস ?",
+      "নিচের কোনটি কম্পিউটার ভাইরাস?"
+    ]
+  },
+  {
+    "id": "miq_18",
+    "question": "কম্পিউটার একটি-",
+    "options": [
+      "হিসাবকারী যন্ত্র",
+      "সিদ্ধান্ত গ্রহণের যন্ত্র",
+      "সমস্যা সমাধানের যন্ত্র",
+      "হিসাব পরীক্ষার যন্ত্র"
+    ],
+    "correct_answer": "হিসাবকারী যন্ত্র",
+    "explanation": "📝কম্পিউটার একটি <b>হিসাবকারী যন্ত্র</b>।<br/>❐ কম্পিউটার হলো বিভিন্ন গাণিতিক সমস্যা সমাধানের জন্য তৈরি একটি ইলেক্ট্রনিক যন্ত্র। <br/>❐ এটি যোগ, বিয়োগ, গুণ, ভাগ প্রভৃতি গাণিতিক কাজ অত্যন্ত দ্রুত গতিতে ও নির্ভুলভাবে করতে পারে। <br/>❐ গাণিতিক যুক্তি ও সিদ্ধান্ত মূলক কাজও কম্পিউটার নির্ভরতার সাথে করতে পারে।<br/>❐ প্রকৃতপক্ষে, কম্পিউটারের নিজস্ব কোন চিন্তা-চেতনা, শক্তি বা বুদ্ধি নেই। মানুষের দেয়া নির্দেশ অনুযায়ী এই যন্ত্র কাজ করে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Social Development Foundation - Data Entry Operator",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Social Development Foundation - Data Entry Operator - 13.07.12"
+      },
+      {
+        "exam_name": "রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক -শিউলি",
+        "year": 2011,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক -শিউলি- ০৯.১২.১১"
+      },
+      {
+        "exam_name": "প্রাথমিক সহকারী শিক্ষক_২০১৩ (মেঘনা)",
+        "year": 2013,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "প্রাথমিক সহকারী শিক্ষক_২০১৩ (মেঘনা)_14.4.13"
+      },
+      {
+        "exam_name": "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭",
+        "year": 2012,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭.১২"
+      },
+      {
+        "exam_name": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা(NSI) সহকারী পরিচালক",
+        "year": 2015,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা(NSI) সহকারী পরিচালক-১৬.১০.১৫"
+      }
+    ],
+    "exam_summary": "Social Development Foundation - Data Entry Operator (2012), রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক -শিউলি (2011), প্রাথমিক সহকারী শিক্ষক_২০১৩ (মেঘনা) (2013), অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭ (2012), জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা(NSI) সহকারী পরিচালক (2015)",
+    "question_variations": [
+      "কম্পিউটার একটি----",
+      "কম্পিউটার একটি -",
+      "কম্পিউটার একটি _"
+    ]
+  },
+  {
+    "id": "miq_19",
+    "question": "নিচের কোনটিকে কম্পিউটারের মস্তিষ্ক বলা হয়?",
+    "options": [
+      "নির্গমন মুখ",
+      "যক্তি বর্তনী",
+      "স্মৃতি",
+      "কেন্দ্রীয় প্রক্রিয়াকরণ"
+    ],
+    "correct_answer": "কেন্দ্রীয় প্রক্রিয়াকরণ",
+    "explanation": "কম্পিউটারের মস্তিষ্ক বা ব্রেইন বলা হয় সেন্ট্রাল প্রসেসিং ইউনিট (CPU) কে। এটি কম্পিউটারের কেন্দ্রীয় অংশ। <br/>CPU-এর কাজ: <br/>প্রোগ্রামের নির্দেশনা পালন করা<br/>বিভিন্ন গাণিতিক, যৌক্তিক কার্যাবলি করা<br/>নিয়ন্ত্রণ ও ইনপুট আউটপুট কার্যাদি করা<br/>কম্পিউটারের সকল অংশের নিয়ন্ত্রণ ও সময় নির্ধারণ সংকেত প্রদান করা<br/>মেমােরি থেকে ডেটা ও ইন্সট্রাকশন প্রদান করা<br/>ইন্সট্রাকশন ডিকোড করা<br/>গাণিতিক বা যুক্তিমূলক কাজ বা সিদ্ধান্তমূলক কাজ করা<br/>CPU-এর অন্যান্য নাম: সেন্ট্রাল প্রসেসর, মেইন প্রসেসর, প্রসেসর.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Social Development Foundation - Data Entry Operator",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Social Development Foundation - Data Entry Operator - 13.07.12"
+      },
+      {
+        "exam_name": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (মুক্তিযোদ্ধা কোটা) -শরৎ",
+        "year": 2010,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (মুক্তিযোদ্ধা কোটা) -শরৎ- ১৩.০৮.১০"
+      },
+      {
+        "exam_name": "রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক -শাপলা",
+        "year": 2011,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক -শাপলা- ০৯.১২.১১"
+      },
+      {
+        "exam_name": "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক -ডালিয়া",
+        "year": 2012,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক -ডালিয়া- ১২.১০.১২"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_লাইনম্যান",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_লাইনম্যান_28.2.25"
+      }
+    ],
+    "exam_summary": "Social Development Foundation - Data Entry Operator (2012), প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (মুক্তিযোদ্ধা কোটা) -শরৎ (2010), রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক -শাপলা (2011), প্রাথমিক বিদ্যালয় প্রধান শিক্ষক -ডালিয়া (2012), পল্লী বিদ্যুতায়ন বোর্ড_লাইনম্যান (2025)",
+    "question_variations": [
+      "নিচের কোনটিকে কম্পিউটারের মস্তিষ্ক বলা হয় --",
+      "কোনটিকে কম্পিউটারের মস্তিষ্ক বলা হয়?"
+    ]
+  },
+  {
+    "id": "miq_20",
+    "question": "What is LINUX?",
+    "options": [
+      "Malware",
+      "Operating system",
+      "Application program",
+      "Firmware"
+    ],
+    "correct_answer": "Operating system",
+    "explanation": "📖 Linux (লিনাক্স) হলো একটি জনপ্রিয় ও শক্তিশালী ওপেন-সোর্স অপারেটিং সিস্টেম (Operating System)। <br/>❏ ১৯৯১ সালে লিনাস টরভাল্ডস (Linus Torvalds) এটি তৈরি করেন। এটি সিস্টেমের যাবতীয় হার্ডওয়্যার ও সফটওয়্যার পরিচালনা করে।<br/>❏ LINUX হলো একটি ওপেন সোর্স অপারেটিং সিস্টেম (Operating System)। ১৯৯১ সালে ফিনল্যান্ডের শিক্ষার্থী Linus Torvalds এটি তৈরি করেন।<br/>❏ অপারেটিং সিস্টেম হলো এমন সফটওয়্যার যা কম্পিউটারের হার্ডওয়্যার ও ব্যবহারকারীর মাঝে সংযোগ ঘটায় এবং সব কাজ নিয়ন্ত্রণ করে।<br/>❏ অপারেটিং সিস্টেমের উদাহরণ: Windows, macOS, Linux, Android, UNIX।<br/>❏ LINUX ম্যালওয়্যার নয়, অ্যাপ্লিকেশন প্রোগ্রামও নয়, ফার্মওয়্যারও নয় - এটি সম্পূর্ণ একটি অপারেটিং সিস্টেম, যা সার্ভার, সুপার কম্পিউটার ও মোবাইলে (Android-এর ভিত্তি) ব্যাপকভাবে ব্যবহৃত।<br/>❏ প্রকৃতি: ➺ এটি একটি মনোলিথিক কার্নেল-ভিত্তিক (Monolithic Kernel), মাল্টি-ইউজার, মাল্টি-টাস্কিং ও ফ্রি ওপেন সোর্স অপারেটিং সিস্টেম।<br/>❏ উদ্ভাবক: ফিনল্যান্ডের হেলসিঙ্কি বিশ্ববিদ্যালয়ের ছাত্র লিনাস টরভাল্ডস (Linus Torvalds) ১৯৯১ সালের ১৭ সেপ্টেম্বর লিনাক্স কার্নেল অবমুক্ত করেন।<br/>❏ জনপ্রিয় লিনাক্স ডিস্ট্রোস (Distributions): 'Ubuntu, Red Hat Enterprise Linux, Debian, Fedora, CentOS, Kali Linux, Linux Mint'।<br/>❏ বিশ্বের শীর্ষস্থানীয় সুপারকম্পিউটার এবং ক্লাউড সার্ভারগুলোর প্রায় শতভাগ লিনাক্স ওএসের ওপর ভিত্তি করে পরিচালিত হয়। এছাড়া গুগলের Android ওএস মূলত লিনাক্স কার্নেলের ওপর নির্মিত।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Exim Bank Ltd - Trainee Officer",
+        "year": 2015,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Exim Bank Ltd - Trainee Officer - 29.05.15"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_এসিস্ট্যান্ট এনফোর্সমেন্ট কোঅডিনেটর 🖎",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_এসিস্ট্যান্ট এনফোর্সমেন্ট কোঅডিনেটর 🖎৩১.১২.২১"
+      },
+      {
+        "exam_name": "মেট্রোরেল (ডিএমটিসিএল)_টিকেট মেশিন অপারেটর",
+        "year": 2024,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "মেট্রোরেল (ডিএমটিসিএল)_টিকেট মেশিন অপারেটর_16.11.24"
+      },
+      {
+        "exam_name": "পরমাণু শক্তি কমিশন_কম্পিউটার টাইপিস্ট",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পরমাণু শক্তি কমিশন_কম্পিউটার টাইপিস্ট_27.9.25"
+      },
+      {
+        "exam_name": "কর্মচারী কল্যাণ বোর্ড_অফিস সহকারী কাম কম্পিউটার",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "কর্মচারী কল্যাণ বোর্ড_অফিস সহকারী কাম কম্পিউটার_28.8.26"
+      }
+    ],
+    "exam_summary": "Exim Bank Ltd - Trainee Officer (2015), পল্লী বিদ্যুতায়ন বোর্ড_এসিস্ট্যান্ট এনফোর্সমেন্ট কোঅডিনেটর 🖎 (2021), মেট্রোরেল (ডিএমটিসিএল)_টিকেট মেশিন অপারেটর (2024), পরমাণু শক্তি কমিশন_কম্পিউটার টাইপিস্ট (2025), কর্মচারী কল্যাণ বোর্ড_অফিস সহকারী কাম কম্পিউটার (2026)",
+    "question_variations": [
+      "LINUX কী?",
+      "What is 'LINUX'?"
+    ]
+  },
+  {
+    "id": "miq_21",
+    "question": "WAN stands for",
+    "options": [
+      "Wap Area Network",
+      "Wide Area Network",
+      "Wide aray net",
+      "Wire Area Network"
+    ],
+    "correct_answer": "Wide Area Network",
+    "explanation": "🔖A wide area network (WAN) is a telecommunications network that extends over a large geographic area for the primary purpose of computer networking. Wide area networks are often established with leased telecommunication circuits.Business, as well as schools and government entities, use wide area networks to relay data to staff, students, clients, buyers and suppliers from various locations across the world. In essence, this mode of telecommunication allows a business to effectively carry out its daily function regardless of location. The Internet may be considered a WAN.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd - Assistant Programmer",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Assistant Programmer - 26.08.16"
+      },
+      {
+        "exam_name": "Transaction Service Officer",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Transaction Service Officer_25.01.19"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2011",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2011"
+      },
+      {
+        "exam_name": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার অপারেটর_১৬",
+        "year": null,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার অপারেটর_১৬"
+      },
+      {
+        "exam_name": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার মুদ্রাক্ষরিক_১৭",
+        "year": null,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার মুদ্রাক্ষরিক_১৭"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd - Assistant Programmer (2016), Transaction Service Officer (2019), Bangladesh Bank - Assistant Director - 2011 (2011), জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার অপারেটর_১৬, জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার মুদ্রাক্ষরিক_১৭",
+    "question_variations": [
+      "WAN stands for -- ?",
+      "WAN stands for :",
+      "WAN stands for:"
+    ]
+  },
+  {
+    "id": "miq_22",
+    "question": "Computer Virus is a __",
+    "options": [
+      "Hardware",
+      "Software",
+      "Bacteria",
+      "Freeware"
+    ],
+    "correct_answer": "Software",
+    "explanation": "🔖In more technical terms, a computer virus is a type of malicious code or program written to alter the way a computer operates and is designed to spread from one computer to another.<br/>A virus operates by inserting or attaching itself to a legitimate program or document that supports macros in order to execute its code.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Basic bank recruitment 2018; auditor",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Basic bank recruitment 2018; auditor -- 26.01.18"
+      },
+      {
+        "exam_name": "Three Combined Bank Recruitment - Senior Officer 03 .08",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Three Combined Bank Recruitment - Senior Officer 03 .08.18"
+      },
+      {
+        "exam_name": "Rupali Bank Ltd._Assistant Network Engineer 🖎",
+        "year": 2021,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rupali Bank Ltd._Assistant Network Engineer 🖎 06.03.21"
+      },
+      {
+        "exam_name": "অফিসার (ক্যাশ ) - Sonali_Rupali_BD Krishi_Rajshahi Krishi Unnayn_Investment Corporation Of Bangladesh - ২৯. ০",
+        "year": null,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "অফিসার (ক্যাশ ) - Sonali_Rupali_BD Krishi_Rajshahi Krishi Unnayn_Investment Corporation Of Bangladesh - ২৯. ০"
+      },
+      {
+        "exam_name": "অফিসার (মুক্তিযোদ্ধা)",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "অফিসার (মুক্তিযোদ্ধা) ০৮.০২.১৯"
+      }
+    ],
+    "exam_summary": "Basic bank recruitment 2018; auditor (2018), Three Combined Bank Recruitment - Senior Officer 03 .08 (2018), Rupali Bank Ltd._Assistant Network Engineer 🖎 (2021), অফিসার (ক্যাশ ) - Sonali_Rupali_BD Krishi_Rajshahi Krishi Unnayn_Investment Corporation Of Bangladesh - ২৯. ০, অফিসার (মুক্তিযোদ্ধা) (2019)",
+    "question_variations": [
+      "What is a computer Virus?",
+      "Computer Virus is a -",
+      "Computer virus is a -"
+    ]
+  },
+  {
+    "id": "miq_23",
+    "question": "Which of the following is spreadsheet program?",
+    "options": [
+      "Ms -word",
+      "Ms-power point",
+      "Ms -excel",
+      "Ms-access"
+    ],
+    "correct_answer": "Ms -excel",
+    "explanation": "🔖Spreadsheet এর আভিধানিক অর্থ হল ছড়ানো বড় মাপের কাগজ। ব্যবসায় প্রতিষ্ঠান আর্থিক হিসাব সংরক্ষণের জন্য এ ধরনের কাগজ ব্যবহার করা হয়। এ কাগজের ছক করে (রো ও কলাম) একটি ব্যবসায় প্রতিষ্ঠান পূর্ণাঙ্গ আর্থিক চিত্র তুলে ধরা যায়। বর্তমানে কাগজের স্প্রেডশিটের স্থান দখল করেছে সফটওয়্যার নির্ভর স্প্রেডশিট প্রোগ্রাম। মূলত স্প্রেডশিট হচ্ছে কম্পিউটার প্রগ্রাম যা কাগজের ওয়ার্কশিটের নকল বা সিমুলেশন। স্প্রেডশিট প্রোগ্রামে টেবিল বা সারণি আকারে তথ্য সন্নিবেশ ও উপস্থাপন এবং এগুলির উপর গাণিতিক বিভিন্ন অপারেশন প্রয়োগ ও বিশ্লেষণের ব্যবস্থা থাকে।<br/>সত্তর দশকের শেষের দিকে অ্যাপল কোম্পানি সর্বপ্রথম ভিসিক্যালক স্প্রেডশিট সফটওয়্যার উদ্ভাবন করে। এছাড়া রয়েছে মাইক্রোসফট এক্সেল, অ্যাপল নাম্বার্স, ওপেনঅফিস.অর্গ ক্যাল্ক, গনুমেরিক ইত্যাদি। এগুলোর মধ্যে সবচেয়ে জনপ্রিয় ও বহুুুল ব্যবহৃত হচ্ছে মাইক্রোসফট এক্সেল।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Officer (General) -Ansar VDP Unnayan_BD House Building Finance Corporation",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Officer (General) -Ansar VDP Unnayan_BD House Building Finance Corporation 28.09.18"
+      },
+      {
+        "exam_name": "Two Combined Bank Recruitment Test - Officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Two Combined Bank Recruitment Test - Officer 28.09.18"
+      },
+      {
+        "exam_name": "Two Combined Bank Recruitment Test Post_Officer - 28_09_2018",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Two Combined Bank Recruitment Test Post_Officer - 28_09_2018"
+      },
+      {
+        "exam_name": "এসিস্ট্যান্ট এক্সিকিউটিভ অফিসার (টেলর)",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "এসিস্ট্যান্ট এক্সিকিউটিভ অফিসার (টেলর) ২০.১২. .১৯"
+      },
+      {
+        "exam_name": "বাংলাদেশ পরমাণু শক্তি কমিশন নিয়োগ পরীক্ষা-২০১৮_অফিস অ্যাসিস্ট্যান্ট কাম কম্পিউটার টাইপিং",
+        "year": 2018,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বাংলাদেশ পরমাণু শক্তি কমিশন নিয়োগ পরীক্ষা-২০১৮_অফিস অ্যাসিস্ট্যান্ট কাম কম্পিউটার টাইপিং_২৫.০৫.১৮"
+      }
+    ],
+    "exam_summary": "Officer (General) -Ansar VDP Unnayan_BD House Building Finance Corporation (2018), Two Combined Bank Recruitment Test - Officer (2018), Two Combined Bank Recruitment Test Post_Officer - 28_09_2018 (2018), এসিস্ট্যান্ট এক্সিকিউটিভ অফিসার (টেলর) (2019), বাংলাদেশ পরমাণু শক্তি কমিশন নিয়োগ পরীক্ষা-২০১৮_অফিস অ্যাসিস্ট্যান্ট কাম কম্পিউটার টাইপিং (2018)",
+    "question_variations": [
+      "নিচের কোনটি spreadsheet program?"
+    ]
+  },
+  {
+    "id": "miq_24",
+    "question": "All of the following are examples of real security and privacy risks EXCEPT :",
+    "options": [
+      "Viruses",
+      "Spam",
+      "Hackers",
+      "None of them"
+    ],
+    "correct_answer": "Spam",
+    "explanation": "🔖All of the following are examples of real security and privacy risks Except Spam.<br/>The name Spam was derived from a contraction of 'spiced ham'.<br/>The original variety of Spam is still available today, acknowledged as the 'spiced hammiest' of them all. During WWII and beyond, the meat colloquially became known in the UK as an acronym that stood for Special Processed American Meat.<br/>Spam is electronic junk mail or junk newsgroup postings.<br/>Some people define spam even more generally as any unsolicited email. However, if a long-lost brother finds your email address and sends you a message, this could hardly be called spam, even though it is unsolicited.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Probashi kallyan bank - senior officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Probashi kallyan bank - senior officer -19.01.18"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd Officer (Cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd Officer (Cash) 27.04.18"
+      },
+      {
+        "exam_name": "Sonali bank Ltd_officer ( cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank Ltd_officer ( cash) -27.04.18"
+      },
+      {
+        "exam_name": "Three Combined Bank Recruitment - Senior Officer 03 .08",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Three Combined Bank Recruitment - Senior Officer 03 .08.18"
+      },
+      {
+        "exam_name": "অফিসার (ক্যাশ) [মুক্তিযোদ্ধা] ২২. ০২",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "অফিসার (ক্যাশ) [মুক্তিযোদ্ধা] ২২. ০২. .১৯"
+      }
+    ],
+    "exam_summary": "Probashi kallyan bank - senior officer (2018), Sonali Bank Ltd Officer (Cash) (2018), Sonali bank Ltd_officer ( cash) (2018), Three Combined Bank Recruitment - Senior Officer 03 .08 (2018), অফিসার (ক্যাশ) [মুক্তিযোদ্ধা] ২২. ০২ (2019)",
+    "question_variations": [
+      "All of the following are examples of real security and privacy risks EXCEPT:",
+      "All of the following are examples of real security and privacy risks EXCEPT?"
+    ]
+  },
+  {
+    "id": "miq_25",
+    "question": "who is the promoter of chinese 'One Belt One Road' initiative?",
+    "options": [
+      "Xi Jinping",
+      "Chiang Kaisak",
+      "Shinzo Abe",
+      "Mao shetung"
+    ],
+    "correct_answer": "Xi Jinping",
+    "explanation": "📝২০১৩ সালে 'ওয়ান বেল্ট ওয়ান রোড' নামে একটি উন্নয়ন কৌশল ও কাঠামো উপস্থাপন করেন চীনের প্রেসিডেন্ট <b>শি জিং পিং</b>।<br/>❐ এই পরিকল্পনার মধ্যে রয়েছে বিশ্বের ৬০টি দেশের সঙ্গে চীনের মূল ভূখণ্ডকে সংযুক্ত করা। <br/>❐ এই পরিকল্পনার অংশ মূলত দুটি-- সড়ক পথে মধ্য এশিয়া ও ইউরোপের সঙ্গে সংযুক্ত হবে চীন।<br/>❐ এই সড়ক পথের সঙ্গে রেলপথ ও তেলের পাইপলাইনও রয়েছে।<br/><br/>❐ ২০১৬ সালের অক্টোবরে চীনের প্রেসিডেন্ট শি জিং পিং এর ঢাকা সফরের সময় 'ওয়ান বেল্ট, ওয়ান রোড' উদ্যোগে আনুষ্ঠানিকভাবে বাংলাদেশ যোগ দেয়।<br/>❐ এই পরিকল্পনা অনুযায়ী চীন দুটি 'ইকোনমিক করিডর' তৈরি করছে। <br/>❐ একটি কুনমিং থেকে চট্টগ্রাম পর্যন্ত সড়ক ও রেলপথ। <br/>❐ আর দ্বিতীয়টি- চীনের জিনজিয়াং থেকে পাকিস্তানের বেলুচিস্তানের সমুদ্রবন্দর গাওদার পর্যন্ত রেল ও সড়কপথ।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 5,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd. Officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd. Officer 30.03.18"
+      },
+      {
+        "exam_name": "Sonali bank Ltd_officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank Ltd_officer - 30.03.18"
+      },
+      {
+        "exam_name": "ট্রেইনি সহকারী ১২. ০৪",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "ট্রেইনি সহকারী ১২. ০৪.১৯"
+      },
+      {
+        "exam_name": "Global Islami Bank Ltd._Probationary Officer",
+        "year": 2021,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Global Islami Bank Ltd._Probationary Officer_20.2.21"
+      },
+      {
+        "exam_name": "NRB Commercial Bank Ltd_Trainee Assistant Officer",
+        "year": 2021,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "NRB Commercial Bank Ltd_Trainee Assistant Officer_1.1.21"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd. Officer (2018), Sonali bank Ltd_officer (2018), ট্রেইনি সহকারী ১২. ০৪ (2019), Global Islami Bank Ltd._Probationary Officer (2021), NRB Commercial Bank Ltd_Trainee Assistant Officer (2021)",
+    "question_variations": [
+      "who is the promoter of Chinese 'One Belt One Road ' initiative?",
+      "Who is the promoter of Chinese 'One Belt One Road ' initiative?",
+      "Who is the promoter of Chinese `One Belt One Road' initiative?",
+      "Who is the promoter of Chinese 'One Belt One Road' Initiative?"
+    ]
+  },
+  {
+    "id": "miq_26",
+    "question": "Ctrl,shift and Alt are called_keys",
+    "options": [
+      "Function",
+      "Adjustment",
+      "Modifier",
+      "Application"
+    ],
+    "correct_answer": "Modifier",
+    "explanation": "🔖১. কীবোর্ডে F1 থেকে F12 কী গুলোকে Function Key বলে।<br/>২. ১, ২, ৩, ৪ ইত্যাদি সংখ্যাগুলোকে Numeric Key বলে।<br/>৩. Ctrl, Shift, Alt ইত্যাদি কীগুলোকে Modifier key বলে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd. Senior Officer Recruitment",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd. Senior Officer Recruitment 01.06.18"
+      },
+      {
+        "exam_name": "Sonali bank_senior officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank_senior officer - 01.06.18"
+      },
+      {
+        "exam_name": "Officer (Cash)-25-09-2021",
+        "year": 2021,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Officer (Cash)-25-09-2021"
+      },
+      {
+        "exam_name": "Senior Officer 01-06-2018",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Senior Officer 01-06-2018"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd. Senior Officer Recruitment (2018), Sonali bank_senior officer (2018), Officer (Cash)-25-09-2021 (2021), Senior Officer 01-06-2018 (2018)",
+    "question_variations": [
+      "Ctrl , shift and alt are called ____ keys .",
+      "Ctrl, Shift and Alt are called _____ keys.",
+      "Ctrl, Shift and Alt are called _____keys."
+    ]
+  },
+  {
+    "id": "miq_27",
+    "question": "কম্পিউটার নিচের কোন ভাষাটি ব্যবহার করে?",
+    "options": [
+      "প্রসেসিং",
+      "বাইনারি",
+      "প্রতিনিধিত্বমূলক",
+      "কিলোবাইট"
+    ],
+    "correct_answer": "বাইনারি",
+    "explanation": "📝<b>▣ কম্পিউটারে বাইনারি (০ এবং ১) ভাষাটি ব্যবহার করা হয়।</b><br/><b>▣ বাইনারি সংখ্যা পদ্ধতি:</b> কম্পিউটারে ব্যবহৃত হয় ০ এবং ১ দুইটি সংখ্যা। যে সংখ্যা পদ্ধতিতে ০ এবং ১ এই দুইটি মাত্র সংখ্যা বা অংক ব্যবহার করা হয় তাকে বাইনারি সংখ্যা পদ্ধতি বলে।<br/>❐ দুটি অংক ব্যবহারের কারণেই এই সংখ্যা পদ্ধতির ভিত্তি হচ্ছে 2 ।<br/>❐ সংখ্যা পদ্ধতির ভিত্তির উপর নির্ভর করে সংখ্যা পদ্ধতিকে চার ভাগে ভাগ করা হয়:<br/>১) দশমিক সংখ্যা পদ্ধতি (Decimal number system)<br/>২) বাইনারি সংখ্যা পদ্ধতি (Binary number system)<br/>৩) অক্ট্যাল সংখ্যা পদ্ধতি (Octal number system)<br/>৪) হেক্সাডেসিমেল সংখ্যা পদ্ধতি (Hexadecimal number system)",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 5,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Sadharon Bima Corporation_Upper Division Assistant",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sadharon Bima Corporation_Upper Division Assistant_19.7.19"
+      },
+      {
+        "exam_name": "সাধারণ বীমা কর্পোরেশন উচ্চমান সহকারী",
+        "year": 2019,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "সাধারণ বীমা কর্পোরেশন উচ্চমান সহকারী ১২.০৭.১৯"
+      },
+      {
+        "exam_name": "স্বাস্থ্য মন্ত্রণালয়_অফিস সহকারী কাম- কম্পিউটার মুদ্রাক্ষরিক",
+        "year": 2019,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "স্বাস্থ্য মন্ত্রণালয়_অফিস সহকারী কাম- কম্পিউটার মুদ্রাক্ষরিক_১১.০১.১৯"
+      },
+      {
+        "exam_name": "স্বাস্থ্য মন্ত্রণালয় অফিস সহকারী কাম কম্পিউটার অপারেটর ১১. ০১",
+        "year": 2019,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "স্বাস্থ্য মন্ত্রণালয় অফিস সহকারী কাম কম্পিউটার অপারেটর ১১. ০১.১৯"
+      }
+    ],
+    "exam_summary": "Sadharon Bima Corporation_Upper Division Assistant (2019), সাধারণ বীমা কর্পোরেশন উচ্চমান সহকারী (2019), স্বাস্থ্য মন্ত্রণালয়_অফিস সহকারী কাম- কম্পিউটার মুদ্রাক্ষরিক (2019), স্বাস্থ্য মন্ত্রণালয় অফিস সহকারী কাম কম্পিউটার অপারেটর ১১. ০১ (2019)",
+    "question_variations": [
+      "কম্পিউটার নিচের কোন ভাষাটির ব্যবহার করে?"
+    ]
+  },
+  {
+    "id": "miq_28",
+    "question": "ল্যাপটপ’ হলো এক ধরনের-",
+    "options": [
+      "পর্বতারোহণ সামগ্রী",
+      "ছোট কুকুর",
+      "বাদ্যযন্ত্র",
+      "ছোট কম্পিউটার"
+    ],
+    "correct_answer": "ছোট কম্পিউটার",
+    "explanation": "🔖একটি ল্যাপটপ বা একটি নোটবুক হল বহনযোগ্য ব্যক্তিগত কম্পিউটার যা দেখতে ঝিনুক আকৃতির এবং ভ্রমণ উপযোগী। এগুলো আকারে ছোট, পাতলা, হালকা এবং উচ্চ ক্ষমতা সম্পন্ন ফলপ বহুমুখী কাজে এদের ব্যবহার বৃদ্ধি পায়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "17th BCS",
+        "year": 1995,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "17th BCS General Apr, 1995"
+      },
+      {
+        "exam_name": "Social Development Foundation - Data Entry Operator",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Social Development Foundation - Data Entry Operator - 13.07.12"
+      },
+      {
+        "exam_name": "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭",
+        "year": 2012,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭.১২"
+      },
+      {
+        "exam_name": "প্রধানমন্ত্রীর কার্যালয় ও মন্ত্রিপরিষদ কার্যালয়ের প্রশাসনিক কর্মকর্তা",
+        "year": 2004,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "প্রধানমন্ত্রীর কার্যালয় ও মন্ত্রিপরিষদ কার্যালয়ের প্রশাসনিক কর্মকর্তা-২৭.০২.০৪"
+      }
+    ],
+    "exam_summary": "17th BCS (1995), Social Development Foundation - Data Entry Operator (2012), অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭ (2012), প্রধানমন্ত্রীর কার্যালয় ও মন্ত্রিপরিষদ কার্যালয়ের প্রশাসনিক কর্মকর্তা (2004)",
+    "question_variations": [
+      "ল্যাপটপ হলো এক ধরনের-",
+      "ল্যাপটপ হলো এক ধরনের __",
+      "'ল্যাপটপ' হল এক ধরনের ------"
+    ]
+  },
+  {
+    "id": "miq_29",
+    "question": "Which utility program could improve the speed of disk ?",
+    "options": [
+      "Fragmentation",
+      "Defragmentation",
+      "Disk scanning",
+      "System restore"
+    ],
+    "correct_answer": "Defragmentation",
+    "explanation": "🔖The benefits of defragging hard disk drive are<br/>Faster Applications<br/>Programs run faster and more efficiently when the data is grouped together for easier access.<br/>Extended Hard Drive Life<br/>The mechanical parts of the drive have to travel less distance when the data is all in one place, thereby increasing fast access to files and reducing wear and tear on the drive itself.<br/>More Efficient Security<br/>When an antivirus program scans hard drive, it takes less time when drive is less fragmented.<br/>Reduced Errors<br/>The process of defragmentation can often point out bad sectors that could potentially cause damage if data was saved in this area.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Krishi Bank - Assistant Officer",
+        "year": 2007,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Krishi Bank - Assistant Officer - 22.06.07"
+      },
+      {
+        "exam_name": "Karmasangsthan Bank - Senior Officer",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Karmasangsthan Bank - Senior Officer - 17.07.09"
+      },
+      {
+        "exam_name": "Pubali Bank Ltd - Junior Officer (Cash)",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd - Junior Officer (Cash) -06.05.11"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2008",
+        "year": 2008,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2008"
+      }
+    ],
+    "exam_summary": "Krishi Bank - Assistant Officer (2007), Karmasangsthan Bank - Senior Officer (2009), Pubali Bank Ltd - Junior Officer (Cash) (2011), Bangladesh Bank - Assistant Director - 2008 (2008)",
+    "question_variations": [
+      "Which utility program could improve the speed of disk?",
+      "which utility program could improve the speed of disk?"
+    ]
+  },
+  {
+    "id": "miq_30",
+    "question": "Which computer memory is never erased?",
+    "options": [
+      "RAM",
+      "ROM",
+      "CHIPS",
+      "BIOS"
+    ],
+    "correct_answer": "ROM",
+    "explanation": "ROM acronym stands for Read only Memory.&nbsp;<br/><br/>This is a permanent Primary Storage part of a computer.&nbsp;<br/><br/>📝ROM একটি স্থায়ী প্রকৃতির প্রধান মেমোরি । রমের স্মৃতিতে রক্ষিত তথ্যসমূহ কেবল ব্যবহার করা যায় কিন্তু সংযোজন, সংশোধন বা পরিবর্তন করা যায় না। তাই একে Read Only Memory বলা হয় । কম্পিউটার চালু করার জন্য প্রয়োজনীয় কিছু প্রোগ্রাম রম স্মৃতিতে স্থায়ীভাবে সংরক্ষিত থাকে। তবে এটা মুছে পুনঃপুনঃ প্রোগ্রাম করা যায় এমন রমও আছে। বিদ্যুৎ সরবরাহ বন্ধ হলে রমে রক্ষিত তথ্যাদি মুছে যায় না।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Sonali, Janata, Agrani & Rupali Bank Ltd. & RAKUB Officer Recruitment",
+        "year": 2008,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali, Janata, Agrani & Rupali Bank Ltd. & RAKUB Officer Recruitment 28.03.08"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd. Officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd. Officer 30.03.18"
+      },
+      {
+        "exam_name": "Sonali bank Ltd_officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank Ltd_officer - 30.03.18"
+      },
+      {
+        "exam_name": "সমন্বিত ৮ ব্যাংক -অফিসার",
+        "year": 2022,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সমন্বিত ৮ ব্যাংক -অফিসার 21.01.22"
+      }
+    ],
+    "exam_summary": "Sonali, Janata, Agrani & Rupali Bank Ltd. & RAKUB Officer Recruitment (2008), Sonali Bank Ltd. Officer (2018), Sonali bank Ltd_officer (2018), সমন্বিত ৮ ব্যাংক -অফিসার (2022)",
+    "question_variations": [
+      "which computer memory is never erased?"
+    ]
+  },
+  {
+    "id": "miq_31",
+    "question": "ATM stands for",
+    "options": [
+      "Automatic transfer machine",
+      "Automated teller machine",
+      "Automatic teller machine",
+      "Automatic transaction machine"
+    ],
+    "correct_answer": "Automated teller machine",
+    "explanation": "An automated teller machine (ATM) is an electronic banking outlet that allows customers to complete basic transactions without the aid of a branch representative or teller. Anyone with a credit card or debit card can access cash at most ATMs, either in the U.S. or other countries.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Dutch-Bangla Bank Ltd - Management Trainee Officer",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Dutch-Bangla Bank Ltd - Management Trainee Officer - 23.01.09"
+      },
+      {
+        "exam_name": "Rajshahi Krishi Unnayan Bank - Senior Officers",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rajshahi Krishi Unnayan Bank - Senior Officers - 08.01.10"
+      },
+      {
+        "exam_name": "Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009"
+      },
+      {
+        "exam_name": "Premier Bank_TJO–General &Cash",
+        "year": 2022,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Premier Bank_TJO–General &Cash_21.10.22"
+      }
+    ],
+    "exam_summary": "Dutch-Bangla Bank Ltd - Management Trainee Officer (2009), Rajshahi Krishi Unnayan Bank - Senior Officers (2010), Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009 (2009), Premier Bank_TJO–General &Cash (2022)",
+    "question_variations": [
+      "ATM stands for :",
+      "ATM stands for -"
+    ]
+  },
+  {
+    "id": "miq_32",
+    "question": "Windows is a(n) :",
+    "options": [
+      "Operating System",
+      "Application Software",
+      "ROM",
+      "Spreadsheet"
+    ],
+    "correct_answer": "Operating System",
+    "explanation": "🔖অপারেটিং সিস্টেম (operating system) হচ্ছে কম্পিউটারে একটি গুরুত্বপূর্ণ অংশ। অপারেটিং সিস্টেম না থাকলে কম্পিউটারের যন্ত্রপাতি বা প্রোগ্রাম দিয়ে কোন কাজ করা যায় না। অপারেটিং সিস্টেম ব্যবহারকারীর নির্দেশ অনুযায়ী কম্পিউটারে অভ্যন্তরে হার্ডওয়্যার ও এ্যাপলিকেশন প্রোগ্রাম গুলোর মধ্যে কাজের সমন্বয় সাধন করে সমগ্র কর্ম পরিচালনা করে৷ Windows এক প্রকার অপারেটিং সিস্টেম।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Karmasangsthan Bank - Officer",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Karmasangsthan Bank - Officer - 23.10.09"
+      },
+      {
+        "exam_name": "Rajshahi Krishi Unnayan Bank - Senior Officers",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rajshahi Krishi Unnayan Bank - Senior Officers - 08.01.10"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2010",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2010"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2013",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2013"
+      }
+    ],
+    "exam_summary": "Karmasangsthan Bank - Officer (2009), Rajshahi Krishi Unnayan Bank - Senior Officers (2010), Bangladesh Bank - Assistant Director - 2010 (2010), Bangladesh Bank - Assistant Director - 2013 (2013)",
+    "question_variations": [
+      "WINDOWS is a (an):",
+      "WINDOWS is",
+      "Windows is a/an"
+    ]
+  },
+  {
+    "id": "miq_33",
+    "question": "Which one is an output device?",
+    "options": [
+      "Joystick",
+      "Microphone",
+      "Monitor",
+      "Hard Disk"
+    ],
+    "correct_answer": "Monitor",
+    "explanation": "🔖RAM মেমরির অন্যতম বৈশিষ্ট্য (attribute) হলো এটি উদ্বায়ী বা অস্থায়ী (volatile) প্রকৃতির। অর্থাৎ বিদ্যুৎ সরবরাহ বন্ধ হয়ে গেলে RAM–মেমোরিতে সংরক্ষিত ডাটা মুছে যায় বা হারিয়ে যায়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Agrani Bank Ltd. Recruitment Test for Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani Bank Ltd. Recruitment Test for Senior Officer 12.02.10"
+      },
+      {
+        "exam_name": "Agrani bank Ltd - Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Senior Officer - 12.02.10"
+      },
+      {
+        "exam_name": "Mercantile Bank Ltd - Officer - 2004",
+        "year": 2004,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Mercantile Bank Ltd - Officer - 2004"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_এসিস্ট্যান্ট এনফোর্সমেন্ট কোঅডিনেটর 🖎",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_এসিস্ট্যান্ট এনফোর্সমেন্ট কোঅডিনেটর 🖎৩১.১২.২১"
+      }
+    ],
+    "exam_summary": "Agrani Bank Ltd. Recruitment Test for Senior Officer (2010), Agrani bank Ltd - Senior Officer (2010), Mercantile Bank Ltd - Officer - 2004 (2004), পল্লী বিদ্যুতায়ন বোর্ড_এসিস্ট্যান্ট এনফোর্সমেন্ট কোঅডিনেটর 🖎 (2021)",
+    "question_variations": [
+      "Which of the following is an output device?",
+      "Which one is output device?"
+    ]
+  },
+  {
+    "id": "miq_34",
+    "question": "The computer stores its program and data in its ---",
+    "options": [
+      "ALU",
+      "control unit",
+      "memory",
+      "cache memory"
+    ],
+    "correct_answer": "memory",
+    "explanation": "📖 কম্পিউটার তার সমস্ত প্রোগ্রাম এবং ডেটা মেমোরিতে (Memory) সংরক্ষণ করে। কাজ করার সময় ডেটা র‍্যামে (RAM) থাকে এবং স্থায়ীভাবে হার্ডডিস্ক বা স্টোরেজ মেমোরিতে জমা থাকে।<br/> ⇢ <br/>⛳ কম্পিউটার আর্কিটেকচার: আধুনিক কম্পিউটারের ভিত্তি হলো 'ভন নিউম্যান আর্কিটেকচার'। এই আর্কিটেকচারের মূল নীতি হলো \"Stored-program concept\", অর্থাৎ কম্পিউটারের ডেটা এবং নির্দেশনাবলি (প্রোগ্রাম) একই মেমোরি স্পেসে সংরক্ষিত থাকবে। প্রসেসর বা সিপিইউ (CPU) কাজ করার সময় এই মেমোরি (প্রধানত র‍্যাম) থেকে ডেটা সংগ্রহ করে, কন্ট্রোল ইউনিটে তা ডিকোড করে এবং সবশেষে ALU (অ্যারিথমেটিক লজিক ইউনিট) এর মাধ্যমে গাণিতিক কাজগুলো সম্পন্ন করে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Agrani bank Ltd - Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Officer - 12.02.10"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd - Officer (IT)",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Officer (IT) - 23.12.16"
+      },
+      {
+        "exam_name": "Bank Alfalah Ltd- MTOs Recruitment Test - 2005",
+        "year": 2005,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bank Alfalah Ltd- MTOs Recruitment Test - 2005"
+      },
+      {
+        "exam_name": "বিসিক_প্রমোশন অফিসার",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিসিক_প্রমোশন অফিসার_19.6.26"
+      }
+    ],
+    "exam_summary": "Agrani bank Ltd - Officer (2010), Sonali Bank Ltd - Officer (IT) (2016), Bank Alfalah Ltd- MTOs Recruitment Test - 2005 (2005), বিসিক_প্রমোশন অফিসার (2026)",
+    "question_variations": [
+      "The computer stores its program and data in its:",
+      "The computer stores its program and data in its :",
+      "The computer stores its program and data in its-"
+    ]
+  },
+  {
+    "id": "miq_35",
+    "question": "কোনো ই-মেইলে ‘CC' এর অর্থ কি?",
+    "options": [
+      "Close Circuit",
+      "Carbon Copy",
+      "Close Contact",
+      "Contact Center"
+    ],
+    "correct_answer": "Carbon Copy",
+    "explanation": "🔖ই – মেইলে ব্যবহৃত ′CC′ এর অর্থ Carbon Copy । ই – মেইলে প্রাপকের ই – মেইল অ্যাড্রেস লেখার স্থানের (বক্স) ঠিক নিচের লাইনে আর একটি ঠিকানা (address) লেখার বক্স থাকে, যা হচ্ছে এই CC। এখানে অন্য একটি ঠিকানা লিখে দিলে একই মেইল ঐ ঠিকানাতেও চলে যাবে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd - Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Officer 05.11.10"
+      },
+      {
+        "exam_name": "ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১",
+        "year": 2010,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১.১০"
+      },
+      {
+        "exam_name": "সুন্দরবন গ্যাসফিল্ড (সহকারী কো-অর্ডিনেটর অফিসার) 11",
+        "year": 2020,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "সুন্দরবন গ্যাসফিল্ড (সহকারী কো-অর্ডিনেটর অফিসার) 11.20"
+      },
+      {
+        "exam_name": "কৃষি সম্প্রসারণ অধিদপ্তর_অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক",
+        "year": 2018,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "কৃষি সম্প্রসারণ অধিদপ্তর_অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক_১৩.০৪.১৮"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd - Officer (2010), ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১ (2010), সুন্দরবন গ্যাসফিল্ড (সহকারী কো-অর্ডিনেটর অফিসার) 11 (2020), কৃষি সম্প্রসারণ অধিদপ্তর_অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক (2018)",
+    "question_variations": [
+      "কোনো ই-মেইলে \"CC\" এর অর্থ কি?",
+      "কোনো ই-মেইলে ‘CC’ এর অর্থ কী?",
+      "কোনো ই-মেইলে ”CC” এর অর্থ কী?"
+    ]
+  },
+  {
+    "id": "miq_36",
+    "question": "USB stands for",
+    "options": [
+      "United Serial Bus",
+      "Universal Strategic Bus",
+      "Universal Serial Bus",
+      "Uninterrupted Strategic Bus"
+    ],
+    "correct_answer": "Universal Serial Bus",
+    "explanation": "🔖ইউএসবি (ইউনিভার্সাল সিরিয়াল বাস) ইংরেজি USB (Universal Serial Bus) হলো একপ্রকার ক্যাবল প্রটোকল যেটি একধরনের সংযোগ তৈরি করে যার মধ্য দিয়ে একইসাথে বিদ্যুৎ প্রবাহ ও তথ্য আদান প্রদান হয়ে থাকে। ইউএসবি এর ফলে কম্পিউটারের সাথে আনুসঙ্গিক বহনযোগ্য যন্ত্র যেমন: পেনড্রাইভ, বহনযোগ্য হার্ডডিস্ক, এক্সটার্নাল সিডি রম, মাউস, কী-বোর্ড, গেম প্যাড ইত্যাদি শুধু এটুকুই নয়, আরও বহুবিধ যন্ত্রাংশ ব্যাবহার সহজ হয়েছে। কেননা ইউএসবি এর মাধ্যমে যন্ত্রাংশ গুলো চালনা করা অধিক সহজতর কারণ এক্ষেত্রে এগুলোতে আলাদা করে কোনো বিদ্যুৎ সরবরাহের প্রয়োজন পড়ে না।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Rajshahi Krishi Unnayan Bank - Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rajshahi Krishi Unnayan Bank - Officer - 22.04.11"
+      },
+      {
+        "exam_name": "Senior Officer (IT) - Sonali,Janata,BD Krishi,BD Development Bank Ltd",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Senior Officer (IT) - Sonali,Janata,BD Krishi,BD Development Bank Ltd - 30.11.18"
+      },
+      {
+        "exam_name": "সমন্বিত ৮ ব্যাংক -অফিসার",
+        "year": 2022,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সমন্বিত ৮ ব্যাংক -অফিসার 21.01.22"
+      },
+      {
+        "exam_name": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI) এর সহকারী পরিচালক",
+        "year": 2017,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI) এর সহকারী পরিচালক - 03.02.17"
+      }
+    ],
+    "exam_summary": "Rajshahi Krishi Unnayan Bank - Officer (2011), Senior Officer (IT) - Sonali,Janata,BD Krishi,BD Development Bank Ltd (2018), সমন্বিত ৮ ব্যাংক -অফিসার (2022), জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI) এর সহকারী পরিচালক (2017)",
+    "question_variations": [
+      "USB stands for __",
+      "USB Stands for-",
+      "USB stands for :"
+    ]
+  },
+  {
+    "id": "miq_37",
+    "question": "Bluetooth operations use-",
+    "options": [
+      "Magnetic technology",
+      "Optical technology",
+      "Laser technology",
+      "Radio technology"
+    ],
+    "correct_answer": "Radio technology",
+    "explanation": "<pre class=\"tw-data-text tw-text-large JgzqYd RES9jf tw-ta\" data-placeholder=\"অনুবাদ\" id=\"tw-target-text\" dir=\"ltr\" style=\"max-height: 999999px; font-size: 24px; line-height: 32px; background-color: rgb(248, 249, 250); border: none; padding: 10px 0.14em 10px 0px; position: relative; margin-top: -10px; margin-bottom: -10px; resize: none; font-family: &quot;Google Sans&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; overflow: hidden; width: 328px; white-space: pre-wrap; overflow-wrap: break-word; color: rgb(32, 33, 36);\"><span class=\"Y2IQFc\" lang=\"bn\" style=\"max-height: 999999px;\">ব্লুটুথ হল 2.4 থেকে 2.485 GHZ ISM ব্যান্ডে সংক্ষিপ্ত-তরঙ্গদৈর্ঘ্য UHF রেডিও তরঙ্গ ব্যবহার করে সংক্ষিপ্ত সময়ে ডেটা আদান-প্রদানের জন্য একটি বেতার প্রযুক্তির মান।</span></pre>",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Rajshahi Krishi Unnayan Bank - Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rajshahi Krishi Unnayan Bank - Officer - 22.04.11"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Officer - 2015",
+        "year": 2015,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Officer - 2015"
+      },
+      {
+        "exam_name": "Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009"
+      },
+      {
+        "exam_name": "সমন্বিত ৮ ব্যাংক ও ১ টি আর্থিক প্রতিষ্ঠান_অফিসার জেনারেল",
+        "year": 2023,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সমন্বিত ৮ ব্যাংক ও ১ টি আর্থিক প্রতিষ্ঠান_অফিসার জেনারেল_10.3.23"
+      }
+    ],
+    "exam_summary": "Rajshahi Krishi Unnayan Bank - Officer (2011), Bangladesh Bank - Officer - 2015 (2015), Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009 (2009), সমন্বিত ৮ ব্যাংক ও ১ টি আর্থিক প্রতিষ্ঠান_অফিসার জেনারেল (2023)",
+    "question_variations": [
+      "Bluetooth operations use",
+      "Bluetooth operations use -"
+    ]
+  },
+  {
+    "id": "miq_38",
+    "question": "Which one of the following is read only memory storage device?",
+    "options": [
+      "CD-ROM",
+      "Hard-disk",
+      "Floppy disk",
+      "Pen drive"
+    ],
+    "correct_answer": "CD-ROM",
+    "explanation": "🔖Read Only কথার অর্থ হল কোন তথ্য শুধুমাত্র ব্যবহার করা যাবে কিন্তু সেটি পরিবর্তন বা নতুন তথ্য যোগ করা যাবে না অর্থাৎ চারটি অপশন এর মধ্যে শুধুমাত্র সিডি বা কমপ্যাক্ট ডিস্ক এর মধ্যে সংরক্ষিত তথ্য আমরা ব্যবহার করতে পারি কিন্তু এগুলো পরিবর্তন করা যায় না। (যদিও CD এর তথ্য পরিবর্তনযোগ্য এবং বর্তমানে CD এর ব্যবহার নেই বললেই চলে) অন্য অপশন গুলোঃ হার্ডডিক্স, পেনড্রাইভ এবং ফ্লপি ডিস্ক এর তথ্য পরিবর্তন করা যায়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Dutch-Bangla Bank Ltd - Management Trainee Officer",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Dutch-Bangla Bank Ltd - Management Trainee Officer - 05.02.12"
+      },
+      {
+        "exam_name": "Exim Bank Ltd - Officer (Cash)",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Exim Bank Ltd - Officer (Cash) - 26.07.13"
+      },
+      {
+        "exam_name": "Standard Bank Ltd - Trainee Asst. Officer",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Standard Bank Ltd - Trainee Asst. Officer - 25.10.13"
+      }
+    ],
+    "exam_summary": "Dutch-Bangla Bank Ltd - Management Trainee Officer (2012), Exim Bank Ltd - Officer (Cash) (2013), Standard Bank Ltd - Trainee Asst. Officer (2013)",
+    "question_variations": [
+      "Which one of the following is a read only memory storage device?"
+    ]
+  },
+  {
+    "id": "miq_39",
+    "question": "In MS Word, which one of the following options is used to create different formatting for different sections?",
+    "options": [
+      "Section break",
+      "Section formatting",
+      "Page break",
+      "Page section"
+    ],
+    "correct_answer": "Section break",
+    "explanation": "📝<b> In MS Word, the \"Section break\" option is used to create different formatting for different sections.</b><br/>▣MS Word:<br/>▣ মাইক্রোসফট ওয়ার্ডকে সংক্ষেপে এমএস ওয়ার্ড বলা হয়। <br/>❏ এমএস ওয়ার্ড হচ্ছে ওয়ার্ড প্রসেসিং সফটওয়্যার। <br/>❏ এটি যাবতীয় লেখা সম্পর্কিত প্রোগ্রাম বা সফটওয়্যার।<br/><b>- MS Word- এ \"Section break\" option ব্যবহার করা হয় ভিন্ন ভিন্ন সেকশনে ভিন্ন ভিন্ন ফরম্যাটিং করার জন্য।</b><br/>❏ অর্থাৎ, Layout পরিবর্তন এবং ডকুমেন্টের বিভিন্ন পেইজের ফরম্যাটিং পরিবর্তনের জন্য  \"Section break\" option ব্যবহার করা হয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Dutch-Bangla Bank Ltd - Management Trainee Officer",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Dutch-Bangla Bank Ltd - Management Trainee Officer - 05.02.12"
+      },
+      {
+        "exam_name": "Exim Bank Ltd - Officer (IT)",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Exim Bank Ltd - Officer (IT) - 26.07.13"
+      },
+      {
+        "exam_name": "Union Bank ltd - Management Trainee Officer",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Union Bank ltd - Management Trainee Officer - 23.05.14"
+      },
+      {
+        "exam_name": "পশ্চিমাঞ্চল গ্যাস কোম্পানি_সহকারী ব্যবস্থাপক (প্রশাসন)",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পশ্চিমাঞ্চল গ্যাস কোম্পানি_সহকারী ব্যবস্থাপক (প্রশাসন)_18.9.21"
+      }
+    ],
+    "exam_summary": "Dutch-Bangla Bank Ltd - Management Trainee Officer (2012), Exim Bank Ltd - Officer (IT) (2013), Union Bank ltd - Management Trainee Officer (2014), পশ্চিমাঞ্চল গ্যাস কোম্পানি_সহকারী ব্যবস্থাপক (প্রশাসন) (2021)",
+    "question_variations": [
+      "In Ms Word, which one of the following options is used to create different formatting for different sections.?"
+    ]
+  },
+  {
+    "id": "miq_40",
+    "question": "Which one is Utility Software?",
+    "options": [
+      "MS Word",
+      "MS Exeel",
+      "McAfee",
+      "Windows 98"
+    ],
+    "correct_answer": "McAfee",
+    "explanation": "🔖Utility software is software designed to help to analyze, configure, optimize or maintain a computer.<br/>It is used to support the computer infrastructure - in contrast to application software, which is aimed at directly performing tasks that benefit ordinary users. However, utilities often form part of the application systems.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Data Entry_Control Operator",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Data Entry_Control Operator - 08.06.13"
+      },
+      {
+        "exam_name": "Agrani bank Ltd - Senior Officer",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Senior Officer - 09.06.17"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Officer - 2015",
+        "year": 2015,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Officer - 2015"
+      },
+      {
+        "exam_name": "Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009"
+      }
+    ],
+    "exam_summary": "Data Entry_Control Operator (2013), Agrani bank Ltd - Senior Officer (2017), Bangladesh Bank - Officer - 2015 (2015), Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009 (2009)",
+    "question_variations": [
+      "Which one of the following is Utility software?",
+      "Which one of the following is Utility Software ?",
+      "Which one is a Utility Software ?"
+    ]
+  },
+  {
+    "id": "miq_41",
+    "question": "In MS Word, which of the following shortcut keys are used for aligning text to center?",
+    "options": [
+      "Ctrl +E",
+      "Ctrl +C",
+      "Ctrl +M",
+      "Ctrl+J"
+    ],
+    "correct_answer": "Ctrl +E",
+    "explanation": "📝❏<b> In MS Word, Ctrl + E shortcut key is used for aligning text to center.</b><br/>▣মাইক্রোসফট ওয়ার্ডের গুরুত্বপূর্ণ শর্টকাট কমান্ডগুলো হল: <br/>▣ Open a document. ⇒ Ctrl + O <br/>❏ Create a new document. ⇒ Ctrl + N <br/>❏ Save the document. ⇒ Ctrl + S <br/>▣ Close the document. ⇒ Ctrl + W <br/>❏ Cut the selected content to the Clipboard. ⇒ Ctrl + X <br/>❏ Copy the selected content to the Clipboard. ⇒ Ctrl + C <br/>▣ Paste the contents of the Clipboard. ⇒ Ctrl + V <br/>❏ Select all document content. ⇒ Ctrl + A <br/>❏ Apply bold formatting to text. ⇒ Ctrl + B <br/>▣ Apply italic formatting to text. ⇒ Ctrl + l <br/>❏ Apply underlined formatting to the text. ⇒ Ctrl + U <br/>❏ Decrease the font size by 1 point. ⇒ Ctrl + [ <br/>❏ Increase the font size by 1 point. ⇒ Ctrl + ] <br/>❏<b> Center the text. ⇒ Ctrl + E</b>",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Exim Bank Ltd - Officer",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Exim Bank Ltd - Officer - 27.06.14"
+      },
+      {
+        "exam_name": "Bangladesh House Building Finance Corporation - Senior Officer - 2015",
+        "year": 2015,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh House Building Finance Corporation - Senior Officer - 2015"
+      },
+      {
+        "exam_name": "বাংলাদেশ ব্যাংক_সহকারী পরিচালক",
+        "year": 2023,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "বাংলাদেশ ব্যাংক_সহকারী পরিচালক_20.10.23"
+      },
+      {
+        "exam_name": "পশ্চিমাঞ্চল গ্যাস কোম্পানি_সহকারী ব্যবস্থাপক (প্রশাসন)",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পশ্চিমাঞ্চল গ্যাস কোম্পানি_সহকারী ব্যবস্থাপক (প্রশাসন)_18.9.21"
+      }
+    ],
+    "exam_summary": "Exim Bank Ltd - Officer (2014), Bangladesh House Building Finance Corporation - Senior Officer - 2015 (2015), বাংলাদেশ ব্যাংক_সহকারী পরিচালক (2023), পশ্চিমাঞ্চল গ্যাস কোম্পানি_সহকারী ব্যবস্থাপক (প্রশাসন) (2021)",
+    "question_variations": [
+      "In MS-Word, which of the following shortcut keys are used for aligning text to center?"
+    ]
+  },
+  {
+    "id": "miq_42",
+    "question": "One nibble equals to____",
+    "options": [
+      "1 bit",
+      "2 bits",
+      "4 bits",
+      "8 bits"
+    ],
+    "correct_answer": "4 bits",
+    "explanation": "🔖Byte/Bit হল মেমোরির ক্ষুদ্রতম অংশ।<br/>1 Byte = 8 bit.<br/>1 nibble = 4 bit.<br/>এছাড়াও, নিচের ছকটি মনে রাখা গুরুত্বপূর্ণঃ",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Janata Bank Ltd - Asst. Executive Officer",
+        "year": 2015,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Janata Bank Ltd - Asst. Executive Officer - 09.01.15"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd - Officer (IT)",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Officer (IT) - 23.12.16"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd. Officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd. Officer 30.03.18"
+      },
+      {
+        "exam_name": "Sonali bank Ltd_officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank Ltd_officer - 30.03.18"
+      }
+    ],
+    "exam_summary": "Janata Bank Ltd - Asst. Executive Officer (2015), Sonali Bank Ltd - Officer (IT) (2016), Sonali Bank Ltd. Officer (2018), Sonali bank Ltd_officer (2018)",
+    "question_variations": [
+      "1 nibble equals to",
+      "One nibble equals to --- .",
+      "One nibble equals to __ ."
+    ]
+  },
+  {
+    "id": "miq_43",
+    "question": "MICR stands for",
+    "options": [
+      "Magnetic Ink Case Reader",
+      "Magnetic Ink Code Reader",
+      "Magnetic Ink Character Reader",
+      "None of these"
+    ],
+    "correct_answer": "Magnetic Ink Character Reader",
+    "explanation": "🔖Magnetic ink character recognition code, known in short as MICR code, is a character recognition technology used mainly by the banking industry to streamline the processing and clearance of cheques and other documents. MICR encoding, called the MICR line, is at the bottom of cheques and other vouchers and typically includes the document-type indicator, bank code, bank account number, cheque number, cheque amount (usually added after a cheque is presented for payment), and a control indicator",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Janata Bank Ltd - Asst. Executive Officer",
+        "year": 2015,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Janata Bank Ltd - Asst. Executive Officer - 09.01.15"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Officer(Cash) - 2011",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Officer(Cash) - 2011"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Officer(Cash) - 2016",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Officer(Cash) - 2016"
+      },
+      {
+        "exam_name": "Karmasangsthan Bank Ltd._Data Entry Operator 🖎 01-04-22",
+        "year": 2022,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Karmasangsthan Bank Ltd._Data Entry Operator 🖎 01-04-22"
+      }
+    ],
+    "exam_summary": "Janata Bank Ltd - Asst. Executive Officer (2015), Bangladesh Bank - Officer(Cash) - 2011 (2011), Bangladesh Bank - Officer(Cash) - 2016 (2016), Karmasangsthan Bank Ltd._Data Entry Operator 🖎 01-04-22 (2022)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_44",
+    "question": "FTP stands for",
+    "options": [
+      "Folder Transfer Protocol",
+      "File Transfer Process",
+      "File Text Protocol",
+      "File Transfer Protocol"
+    ],
+    "correct_answer": "File Transfer Protocol",
+    "explanation": "🔖File transfer protocol (FTP) is a set of rules that computers follow for the transferring of files from one system to another over the internet.<br/>It may be used by a business to transfer files from one computer system to another, or websites may use FTP to upload or download files from a website's server",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Exim Bank Ltd - Trainee Officer",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Exim Bank Ltd - Trainee Officer - 26.08.16"
+      },
+      {
+        "exam_name": "Janata Bank Ltd - Executive Officer (Mo)",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Janata Bank Ltd - Executive Officer (Mo) - 24.03.17"
+      },
+      {
+        "exam_name": "সাধারণ বীমা কর্পোরেশন - জুনিয়র অফিসার",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সাধারণ বীমা কর্পোরেশন - জুনিয়র অফিসার ১২.০৭.১৯"
+      },
+      {
+        "exam_name": "খাদ্য অধিদপ্তর_উপ খাদ্য পরিদর্শক🖎",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "খাদ্য অধিদপ্তর_উপ খাদ্য পরিদর্শক🖎১৯.১০.২০২১"
+      }
+    ],
+    "exam_summary": "Exim Bank Ltd - Trainee Officer (2016), Janata Bank Ltd - Executive Officer (Mo) (2017), সাধারণ বীমা কর্পোরেশন - জুনিয়র অফিসার (2019), খাদ্য অধিদপ্তর_উপ খাদ্য পরিদর্শক🖎 (2021)",
+    "question_variations": [
+      "FTP stands for?"
+    ]
+  },
+  {
+    "id": "miq_45",
+    "question": "Which protocol provides e-mail facility among different hosts?",
+    "options": [
+      "SMTP",
+      "FTP",
+      "TELNET",
+      "None of these"
+    ],
+    "correct_answer": "SMTP",
+    "explanation": "🔖SMTP (Simple Mail Transfer Protocol )সাধারণত Email পাঠানোর ক্ষেত্রে ব্যবহৃত হয় । Out look .com gmail, yahoo এসব মেইল সার্ভার অন্য মেইল সার্ভারে মেইল পাঠাতে SMTP ব্যবহার হয়। কোনো কম্পিউটার নেটওয়ার্কের ক্লায়েন্ট সার্ভারের মধ্যে ফাইল স্থানান্তরে ( File Transfer Protocol ) ব্যবহৃত হয়। SNMP ( Simple Network Management Protocol )",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Pubali Bank Ltd - Senior Officer",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd - Senior Officer - 21.01.16"
+      },
+      {
+        "exam_name": "Agrani bank Ltd - Officer (Cash)",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Officer (Cash) - 15.12.17"
+      },
+      {
+        "exam_name": "Bangladesh House Building Finance Corporation - Senior Officer",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh House Building Finance Corporation - Senior Officer - 20.10.17"
+      },
+      {
+        "exam_name": "এসিস্ট্যান্ট এক্সিকিউটিভ অফিসার (ক্যাশ) ০১. ১১",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "এসিস্ট্যান্ট এক্সিকিউটিভ অফিসার (ক্যাশ) ০১. ১১. .১৯"
+      }
+    ],
+    "exam_summary": "Pubali Bank Ltd - Senior Officer (2016), Agrani bank Ltd - Officer (Cash) (2017), Bangladesh House Building Finance Corporation - Senior Officer (2017), এসিস্ট্যান্ট এক্সিকিউটিভ অফিসার (ক্যাশ) ০১. ১১ (2019)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_46",
+    "question": "Which disk is used to ' cold boot ' a PC ?",
+    "options": [
+      "Setup disk",
+      "System disk",
+      "Diagnostic disk",
+      "Program disk"
+    ],
+    "correct_answer": "System disk",
+    "explanation": "The correct answer is the System disk. A cold boot or a hard boot is a boot process in which a computer system starts up from a completely powerless state. A hard disk, CD-ROM, or floppy disk that contains part or all of the operating system or other control program is called a system disc.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Rupali bank recruitment test 2018 ; officer ( cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rupali bank recruitment test 2018 ; officer ( cash) - 09.03.18"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd. Senior Officer Recruitment",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd. Senior Officer Recruitment 01.06.18"
+      },
+      {
+        "exam_name": "Sonali bank_senior officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank_senior officer - 01.06.18"
+      },
+      {
+        "exam_name": "Senior Officer 01-06-2018",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Senior Officer 01-06-2018"
+      }
+    ],
+    "exam_summary": "Rupali bank recruitment test 2018 ; officer ( cash) (2018), Sonali Bank Ltd. Senior Officer Recruitment (2018), Sonali bank_senior officer (2018), Senior Officer 01-06-2018 (2018)",
+    "question_variations": [
+      "which disk is used to cold boot a PC",
+      "Which disk is used to cold boot a PC ?",
+      "Which disk is used to cold boot a PC?"
+    ]
+  },
+  {
+    "id": "miq_47",
+    "question": "If you wish to extend the length of the network without having the signal degrade, you would use a -----.",
+    "options": [
+      "Repeater",
+      "Router",
+      "Gateway",
+      "Switch"
+    ],
+    "correct_answer": "Repeater",
+    "explanation": "🔖Hub/Repeater: কোন নতুন নেটওয়ার্ক তৈরি না করে একটি নেটওয়ার্ক-কে Expand (বিস্তৃত) করার জন্য Hub/Repeater ব্যবহার করা হয়। Hub/Repeater ডাম্ব টার্মিনাল নামে পরিচিত কারণ Data filter করার মত সক্ষমতা এদের নেই।<br/>Switch: একই নেটওয়ার্ক-এ একাধিক ডিভাইসের মধ্যে সংযোগ স্থাপন করে সুইচ।<br/>Router: দুইটি ভিন্ন নেটওয়ার্কের মধ্যে সংযোগ স্থাপন করে রাউটার।<br/>Gateway: একটি নেটওয়ার্ক থেকে সম্পূর্ণভাবে বের হয়ে যাওয়ার জন্য যে ডিভাইস টি ব্যবহার করা হয় অথবা একটি নেটওয়ার্কে একেবারে প্রথম সারিতে (First Entrance) ঢোকার জন্য যে ডিভাইস ব্যবহার করা হয় তাকে বলে গেটওয়ে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Rupali bank recruitment test 2018 ; officer ( cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rupali bank recruitment test 2018 ; officer ( cash) - 09.03.18"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd. Senior Officer Recruitment",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd. Senior Officer Recruitment 01.06.18"
+      },
+      {
+        "exam_name": "Sonali bank_senior officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank_senior officer - 01.06.18"
+      },
+      {
+        "exam_name": "Senior Officer 01-06-2018",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Senior Officer 01-06-2018"
+      }
+    ],
+    "exam_summary": "Rupali bank recruitment test 2018 ; officer ( cash) (2018), Sonali Bank Ltd. Senior Officer Recruitment (2018), Sonali bank_senior officer (2018), Senior Officer 01-06-2018 (2018)",
+    "question_variations": [
+      "If you wish to extend the length of the network without having the signal degrade, you would use a-",
+      "If you wish to extend the length of the network without having the signal degrade , you would use a _____ .",
+      "If you wish to extend the length of the network without having the signal degrade, you would use a____"
+    ]
+  },
+  {
+    "id": "miq_48",
+    "question": "UNIX is a :",
+    "options": [
+      "Word processing program",
+      "Database",
+      "Operating System",
+      "Hardware"
+    ],
+    "correct_answer": "Operating System",
+    "explanation": "📖 Unix একটি শক্তিশালী এবং বহু-ব্যবহারকারী (multi-user), বহু-কার্যক্রম (multi-tasking) অপারেটিং সিস্টেম। Linux, macOS, এবং Android এর মতো অনেক আধুনিক অপারেটিং সিস্টেম Unix-এর উপর ভিত্তি করে তৈরি।<br/>▣ Unix হলো একটি প্রভাবশালী অপারেটিং সিস্টেম যা ১৯৬০-এর দশকের শেষে ও ১৯৭০-এর দশকের শুরুতে বেল ল্যাবস (Bell Labs) এ তৈরি করা হয়। এটি তার বহনযোগ্যতা (portability), মাল্টি-টাস্কিং এবং মাল্টি-ইউজার ক্ষমতার জন্য বিখ্যাত হয়ে ওঠে। Unix-এর ডিজাইন দর্শন এবং স্ট্যান্ডার্ড (POSIX) আধুনিক কম্পিউটিং-এর উপর গভীর প্রভাব ফেলেছে। আজকের দিনের বহু অপারেটিং সিস্টেম, যেমন Linux, macOS, iOS, এবং Android, হয় Unix-ভিত্তিক অথবা Unix-সদৃশ (Unix-like)।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2011",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2011"
+      },
+      {
+        "exam_name": "Mercantile Bank Ltd - Officer - 2004",
+        "year": 2004,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Mercantile Bank Ltd - Officer - 2004"
+      },
+      {
+        "exam_name": "পাওয়ার গ্রিড বাংলাদেশ_জুনিয়র হিসাব ও প্রশাসনিক সহকারী",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পাওয়ার গ্রিড বাংলাদেশ_জুনিয়র হিসাব ও প্রশাসনিক সহকারী_13.9.25"
+      },
+      {
+        "exam_name": "বেগম রোকেয়া বিশ্ববিদ্যালয়_2012_F ইউনিট",
+        "year": 2012,
+        "category": "বিশ্ববিদ্যালয় ভর্তি পরীক্ষা (Admission Tests)",
+        "full_title": "বেগম রোকেয়া বিশ্ববিদ্যালয়_2012_F ইউনিট"
+      }
+    ],
+    "exam_summary": "Bangladesh Bank - Assistant Director - 2011 (2011), Mercantile Bank Ltd - Officer - 2004 (2004), পাওয়ার গ্রিড বাংলাদেশ_জুনিয়র হিসাব ও প্রশাসনিক সহকারী (2025), বেগম রোকেয়া বিশ্ববিদ্যালয়_2012_F ইউনিট (2012)",
+    "question_variations": [
+      "UNIX is a",
+      "Unix কি?",
+      "What is UNIX?"
+    ]
+  },
+  {
+    "id": "miq_49",
+    "question": "ই-কমার্স কি?",
+    "options": [
+      "নতুন বাজারজাতকরণ পদ্ধতি",
+      "প্রেষণা দানের নতুন পদ্ধতি",
+      "পরিবহন ব্যবস্থা",
+      "বাণিজ্যিক ব্যাংকিং"
+    ],
+    "correct_answer": "নতুন বাজারজাতকরণ পদ্ধতি",
+    "explanation": "📝 <b>ই-কমার্স:</b><br/>❐ ইলেকট্রনিক কমার্সকে সংক্ষেপে ই-কমার্স বলা হয়।<br/>▣<b> ই-বাণিজ্য একটি বাণিজ্য ক্ষেত্র যেখানে কোনো ইলেকট্রনিক সিস্টেম এর মাধ্যমে পণ্য বা সেবা ক্রয়-বিক্রয় হয়ে থাকে।</b><br/>❐ আধুনিক ইলেকট্রনিক কমার্স সাধারণত ওয়ার্ল্ড ওয়াইড ওয়েব এর মাধ্যমে বাণিজ্য কাজ পরিচালনা করে।<br/>❐ ই-কমার্সের কল্যাণে ঘরে বসেই কম্পিউটারের সাহায্যে ক্রেতারা সারা বিশ্বের বাজারজাতকারীদের পণ্য ও সেবা সার্চ করতে পারে এবং প্রয়োজন অনুযায়ী অর্ডার দিতে পারে।<br/>❐ অর্ডার প্রদান ও পণ্য ডেলিভারী গ্রহণে স্বল্পতম সময় ব্যয় হয়।<br/>❐ বাজারজাতকারী এবং ক্রেতা ব্যাপকভাবে উপকৃত হচ্ছে।<br/>❐ ইলেকট্রনিক কমার্স হচ্ছে ডিজিটাল ডাটা প্রসেসিং।<br/>❐ এ ডাটা ট্রান্সমিশনের মাধ্যমে ব্যবসায় প্রতিষ্ঠান তথ্যের আদানপ্রদান করছে।<br/>❐ ট্রান্সমিশনের কাজটি সম্পাদিত হয় সবার ব্যবহার উপযোগী উন্মুক্ত নেটওয়ার্ক বা ইন্টারনেটের মাধ্যমে।<br/>❐ ইন্টারনেটের মাধ্যমে বই, কম্পিউটার ইত্যাদি দ্রব্য যা দৃশ্যমান তা বিক্রয়ের বিষয়টি সবার নজর কেড়েছে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "Commerce Bank Ltd - Officer (Grade 3) - 2000",
+        "year": 2000,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Commerce Bank Ltd - Officer (Grade 3) - 2000"
+      },
+      {
+        "exam_name": "বিশেষ শিক্ষক নিবন্ধন পরীক্ষা (এবতেদায়ী প্রধান, জুনিয়র মৌলভী, জুনিয়র শিক্ষক ও ক্বারি)",
+        "year": 2010,
+        "category": "শিক্ষক নিবন্ধন (NTRCA)",
+        "full_title": "বিশেষ শিক্ষক নিবন্ধন পরীক্ষা (এবতেদায়ী প্রধান, জুনিয়র মৌলভী, জুনিয়র শিক্ষক ও ক্বারি)- ২৬.০৬.১০"
+      },
+      {
+        "exam_name": "বেসরকারি শিক্ষক নিবন্ধন_২০১০ স্কুল পর্যায় (বিশেষ)",
+        "year": 2010,
+        "category": "শিক্ষক নিবন্ধন (NTRCA)",
+        "full_title": "বেসরকারি শিক্ষক নিবন্ধন_২০১০ স্কুল পর্যায় (বিশেষ)_26.6.10"
+      },
+      {
+        "exam_name": "জনস্বাস্থ্য প্রকৌশল অধিদপ্তর_ক্লার্ক কাম টাইপিস্ট",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জনস্বাস্থ্য প্রকৌশল অধিদপ্তর_ক্লার্ক কাম টাইপিস্ট_30.10.21"
+      }
+    ],
+    "exam_summary": "Commerce Bank Ltd - Officer (Grade 3) - 2000 (2000), বিশেষ শিক্ষক নিবন্ধন পরীক্ষা (এবতেদায়ী প্রধান, জুনিয়র মৌলভী, জুনিয়র শিক্ষক ও ক্বারি) (2010), বেসরকারি শিক্ষক নিবন্ধন_২০১০ স্কুল পর্যায় (বিশেষ) (2010), জনস্বাস্থ্য প্রকৌশল অধিদপ্তর_ক্লার্ক কাম টাইপিস্ট (2021)",
+    "question_variations": [
+      "ই - কমার্স কি",
+      "ই-কমার্স কী?"
+    ]
+  },
+  {
+    "id": "miq_50",
+    "question": "কম্পিউটারের মূল মেমোরি তৈরি হয় কি দিয়ে?",
+    "options": [
+      "প্লাস্টিক",
+      "অ্যালুমিনিয়াম",
+      "কোনোটিই নয়",
+      "সিলিকন"
+    ],
+    "correct_answer": "সিলিকন",
+    "explanation": "📖 কম্পিউটারের মেমোরি বা চিপ তৈরির প্রধান উপাদান হলো সিলিকন (Silicon)। সিলিকন একটি অর্ধপরিবাহী (Semiconductor) পদার্থ যা ইলেকট্রনিক্সে ব্যাপকভাবে ব্যবহৃত হয়।<br/> ⇢ <br/>⛳ সিলিকন (Si) প্রকৃতিতে বালু (Sand) বা সিলিকা হিসেবে প্রচুর পরিমাণে পাওয়া যায়। এটি একটি সেমিকন্ডাক্টর, অর্থাৎ এর বিদ্যুৎ পরিবাহিতা নিয়ন্ত্রণ করা যায় (Doping-এর মাধ্যমে)। এই বৈশিষ্ট্যের কারণেই আইসি (IC), প্রসেসর এবং মেমোরি চিপ তৈরিতে সিলিকন অপরিহার্য।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "ইসলামী ব্যাংক_ফিল্ড অফিসার",
+        "year": 2024,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "ইসলামী ব্যাংক_ফিল্ড অফিসার_1.3.24"
+      },
+      {
+        "exam_name": "১২তম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরিক্ষা",
+        "year": 2015,
+        "category": "শিক্ষক নিবন্ধন (NTRCA)",
+        "full_title": "১২তম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরিক্ষা-১২.০৬.১৫"
+      },
+      {
+        "exam_name": "ঢাকা ওয়াসা_উপ সহকারী প্রকৌশলী",
+        "year": 2024,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ঢাকা ওয়াসা_উপ সহকারী প্রকৌশলী_27.4.24"
+      },
+      {
+        "exam_name": "বাংলাদেশ সুপ্রিম কোর্ট_অফিস সহকারী",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বাংলাদেশ সুপ্রিম কোর্ট_অফিস সহকারী_22.11.25"
+      }
+    ],
+    "exam_summary": "ইসলামী ব্যাংক_ফিল্ড অফিসার (2024), ১২তম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরিক্ষা (2015), ঢাকা ওয়াসা_উপ সহকারী প্রকৌশলী (2024), বাংলাদেশ সুপ্রিম কোর্ট_অফিস সহকারী (2025)",
+    "question_variations": [
+      "কম্পিউটারের মূল মেমোরি তৈরি হয় কী দিয়ে?"
+    ]
+  },
+  {
+    "id": "miq_51",
+    "question": "'স্ক্যানার' হলো একটি ---",
+    "options": [
+      "আউটপুট ডিভাইস",
+      "ইনপুট ডিভাইস",
+      "কো-অর্ডিনেটিং ডিভাইস",
+      "মিক্সড ডিভাইস"
+    ],
+    "correct_answer": "ইনপুট ডিভাইস",
+    "explanation": "📖 স্ক্যানার (Scanner) হার্ডকপি ছবি, টেক্সট বা ডকুমেন্টকে স্ক্যান করে ডিজিটাল ডাটায় রূপান্তর করে কম্পিউটারের ভেতরে প্রবেশ করায়।<br/>❏ যেহেতু এটি কম্পিউটারে ডেটা ইনপুট দেয়, তাই এটি একটি ইনপুট ডিভাইস।<br/> ⇢ <br/>⛳ যেসব ডিভাইসের মাধ্যমে কম্পিউটারে ডেটা বা নির্দেশ পাঠানো হয়, তাদের Input Device বলে। স্ক্যানার বাইরের জগতের কোনো ভৌত ডকুমেন্টকে (Hard copy) আলোর প্রতিফলনের মাধ্যমে পড়ে তাকে ডিজিটাল ইমেজে (Soft copy) পরিণত করে কম্পিউটারের মেমোরিতে পাঠায়। আধুনিক স্ক্যানারগুলোতে OCR (Optical Character Recognition) প্রযুক্তি থাকে, যা স্ক্যান করা ছবি থেকে টেক্সট আলাদা করতে পারে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (মুক্তিযোদ্ধা কোটা) -হেমন্ত",
+        "year": 2010,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (মুক্তিযোদ্ধা কোটা) -হেমন্ত- ১৩.০৮.১০"
+      },
+      {
+        "exam_name": "কারিগরি শিক্ষা অধিদপ্তর (স্টোর কিপার) -3",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "কারিগরি শিক্ষা অধিদপ্তর (স্টোর কিপার) -3.21"
+      },
+      {
+        "exam_name": "নির্বাচন কমিশন_ডাটা এন্ট্রি অপারেটর",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "নির্বাচন কমিশন_ডাটা এন্ট্রি অপারেটর_16.6.23"
+      },
+      {
+        "exam_name": "নৌ পরিবহন কর্পোরেশন_অফিস সহকারী কাম কম্পিউটার",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "নৌ পরিবহন কর্পোরেশন_অফিস সহকারী কাম কম্পিউটার_15.5.26"
+      }
+    ],
+    "exam_summary": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (মুক্তিযোদ্ধা কোটা) -হেমন্ত (2010), কারিগরি শিক্ষা অধিদপ্তর (স্টোর কিপার) -3 (2021), নির্বাচন কমিশন_ডাটা এন্ট্রি অপারেটর (2023), নৌ পরিবহন কর্পোরেশন_অফিস সহকারী কাম কম্পিউটার (2026)",
+    "question_variations": [
+      "‘স্ক্যানার’ হল একটি",
+      "স্ক্যানার হলো একটি -",
+      "স্ক্যানার হলো একটি-"
+    ]
+  },
+  {
+    "id": "miq_52",
+    "question": "‘উইকিপিডিয়া’ কী?",
+    "options": [
+      "উন্মুক্ত সফটওয়্যার",
+      "ডেটাবেইজ",
+      "মুক্ত বিশ্বকোষ",
+      "স্মার্ট ফোন"
+    ],
+    "correct_answer": "মুক্ত বিশ্বকোষ",
+    "explanation": "📖 উইকিপিডিয়া (Wikipedia) হলো ইন্টারনেটে থাকা একটি উন্মুক্ত, বহুভাষিক ও বিনামূল্যে ব্যবহারযোগ্য বিশ্বকোষ (Encyclopedia)।<br/>❏ এটি উইকিমিডিয়া ফাউন্ডেশন দ্বারা পরিচালিত হয়।<br/>❏ এর সবচেয়ে বড় বৈশিষ্ট্য হলো, বিশ্বের যেকোনো প্রান্তের স্বেচ্ছাসেবকরা এর তথ্য যুক্ত বা সম্পাদনা করতে পারেন।<br/>❏ ২০০১ সালের ১৫ জানুয়ারি জিমি ওয়েলস এবং ল্যারি স্যাঙ্গার এটি চালু করেন।<br/> ⇢ <br/>⛳ নামকরণ ও প্রযুক্তি: 'উইকি' (Wiki) একটি হাওয়াইয়ান শব্দ, যার অর্থ 'দ্রুত'। আর 'এনসাইক্লোপিডিয়া' (Encyclopedia) থেকে 'পিডিয়া' অংশটি নেওয়া হয়েছে। এটি 'মিডিয়াউইকি' (MediaWiki) নামক ওপেন সোর্স সফটওয়্যারের ওপর ভিত্তি করে চলে।<br/>▣ বাংলা উইকিপিডিয়া: বাংলা ভাষায় উইকিপিডিয়ার যাত্রা শুরু হয় ২০০৪ সালের ২৭ জানুয়ারি। বর্তমানে এতে লক্ষাধিক তথ্যসমৃদ্ধ নিবন্ধ রয়েছে।<br/>▣ পার্থক্য: এটি কোনো সাধারণ 'ডেটাবেস' বা 'শব্দকোষ' (Dictionary) নয়। শব্দকোষে শুধু শব্দের অর্থ থাকে (যেমন: উইকশনারি), কিন্তু বিশ্বকোষে কোনো বিষয় সম্পর্কে বিস্তারিত ইতিহাস ও তথ্য থাকে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "প্রাথমিক সহকারী শিক্ষক 🖎 ২য় পর্যায় 🖎 20-05-22",
+        "year": 2022,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "প্রাথমিক সহকারী শিক্ষক 🖎 ২য় পর্যায় 🖎 20-05-22"
+      },
+      {
+        "exam_name": "আনসার ও গ্রাম প্রতিরক্ষা বাহিনী_৩য় শ্রেণি (১৩-১৯তম গ্রেড)",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "আনসার ও গ্রাম প্রতিরক্ষা বাহিনী_৩য় শ্রেণি (১৩-১৯তম গ্রেড)_31.5.25"
+      },
+      {
+        "exam_name": "নৌ পরিবহন কর্পোরেশন_অফিস সহকারী কাম কম্পিউটার",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "নৌ পরিবহন কর্পোরেশন_অফিস সহকারী কাম কম্পিউটার_15.5.26"
+      },
+      {
+        "exam_name": "পোস্টমাস্টার উত্তরাঞ্চল (রাজশাহী)_রানার-অফিস সহায়ক-নিরাপত্তা",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পোস্টমাস্টার উত্তরাঞ্চল (রাজশাহী)_রানার-অফিস সহায়ক-নিরাপত্তা_16.5.26"
+      }
+    ],
+    "exam_summary": "প্রাথমিক সহকারী শিক্ষক 🖎 ২য় পর্যায় 🖎 20-05-22 (2022), আনসার ও গ্রাম প্রতিরক্ষা বাহিনী_৩য় শ্রেণি (১৩-১৯তম গ্রেড) (2025), নৌ পরিবহন কর্পোরেশন_অফিস সহকারী কাম কম্পিউটার (2026), পোস্টমাস্টার উত্তরাঞ্চল (রাজশাহী)_রানার-অফিস সহায়ক-নিরাপত্তা (2026)",
+    "question_variations": [
+      "'উইকিপিডিয়া' কী?",
+      "উইকিপিডিয়া কী?"
+    ]
+  },
+  {
+    "id": "miq_53",
+    "question": "কোনটি আউটপুট ডিভাইস?",
+    "options": [
+      "কিবোর্ড",
+      "প্রিন্টার",
+      "ওসিআর",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "প্রিন্টার",
+    "explanation": "📖 যে ডিভাইসের মাধ্যমে কম্পিউটার প্রক্রিয়াজাত ফলাফল ব্যবহারকারীকে প্রদান করে, তাকে আউটপুট ডিভাইস বলে। প্রিন্টার (Printer) একটি আউটপুট ডিভাইস যা ডিজিটাল তথ্যকে কাগজে ছাপিয়ে বের করে। কী-বোর্ড, স্ক্যানার এবং মাউস হলো ইনপুট ডিভাইস।<br/> ⇢ <br/>⛳ অন্যান্য গুরুত্বপূর্ণ আউটপুট ডিভাইসগুলো হলো: মনিটর, স্পিকার, প্রজেক্টর, প্লটার ইত্যাদি। অন্যদিকে টাচস্ক্রিন (Touchscreen) হলো এমন একটি ডিভাইস যা ইনপুট এবং আউটপুট উভয় হিসেবেই কাজ করে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "বিমান বাংলাদেশ_ম্যাটেরিয়াল অ্যাসিস্ট্যান্ট",
+        "year": 2022,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিমান বাংলাদেশ_ম্যাটেরিয়াল অ্যাসিস্ট্যান্ট_26.08.22"
+      },
+      {
+        "exam_name": "কর্মসংস্থান ব্যুরো_ইন্সট্রাক্টর",
+        "year": 2022,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "কর্মসংস্থান ব্যুরো_ইন্সট্রাক্টর_31.10.22"
+      },
+      {
+        "exam_name": "প্রাণিসম্পদ অধিদপ্তর_অফিস সহকারী ও কম্পিউটার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "প্রাণিসম্পদ অধিদপ্তর_অফিস সহকারী ও কম্পিউটার_18.3.23"
+      },
+      {
+        "exam_name": "ভূমি মন্ত্রণালয়ের_অফিস সহকারী কাম কম্পিউটার",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ভূমি মন্ত্রণালয়ের_অফিস সহকারী কাম কম্পিউটার_11.4.26"
+      }
+    ],
+    "exam_summary": "বিমান বাংলাদেশ_ম্যাটেরিয়াল অ্যাসিস্ট্যান্ট (2022), কর্মসংস্থান ব্যুরো_ইন্সট্রাক্টর (2022), প্রাণিসম্পদ অধিদপ্তর_অফিস সহকারী ও কম্পিউটার (2023), ভূমি মন্ত্রণালয়ের_অফিস সহকারী কাম কম্পিউটার (2026)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_54",
+    "question": "WIFI এর পূর্ণরূপ কি?",
+    "options": [
+      "Wireless Fibre",
+      "Wireless Internet",
+      "Wireless Fidelity",
+      "Wireless Field"
+    ],
+    "correct_answer": "Wireless Fidelity",
+    "explanation": "<p>wifi এর পূর্ণরূপ&nbsp;ঃ Wirless fidelity. wifi একটি জনপ্রিয় তারহীন প্রযুক্তি যা রেডিও ওয়েব ব্যবহার করে কোন ইলেকট্রনিক ডিভাইস কে উচ্চগতি সম্পন্ন ইন্টারনেট সংযোগ কিংবা কম্পিউটার নেটওয়ার্কের মাধ্যমে ডাটা প্রদান করতে পারে। প্রযুক্তিগত ভাবে এটি EEE 802.11 স্ট্যান্ডার্ড নামে পরিচিত। ওয়াইফাই ১৯৯৭ সালে আবিষ্কার করা হয়েছিল এবং এর আবিষ্কারক ছিলেন&nbsp;<span style=\"color: rgb(0, 0, 0); font-family: -apple-system, system-ui, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; text-align: justify; font-size: 1rem;\">John O’Sullivan এবং তার প্রকৌশলী দল।</span></p>",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "নিরাপত্তা গোয়েন্দা সংস্থা ~NSI_ফিল্ড স্টাফ",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "নিরাপত্তা গোয়েন্দা সংস্থা ~NSI_ফিল্ড স্টাফ_16.6.23"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার রিডার ও ম্যাসেঞ্জার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার রিডার ও ম্যাসেঞ্জার_4.11.23"
+      },
+      {
+        "exam_name": "বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেড_ট্রাফিক হেলপার (ক্যাজুয়াল)",
+        "year": 2024,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেড_ট্রাফিক হেলপার (ক্যাজুয়াল)_4.10.24"
+      },
+      {
+        "exam_name": "পাওয়ার গ্রিড বাংলাদেশ_স্টেশন অ্যাটেনডেন্ট",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পাওয়ার গ্রিড বাংলাদেশ_স্টেশন অ্যাটেনডেন্ট_29.8.25"
+      }
+    ],
+    "exam_summary": "নিরাপত্তা গোয়েন্দা সংস্থা ~NSI_ফিল্ড স্টাফ (2023), পল্লী বিদ্যুতায়ন বোর্ড_মিটার রিডার ও ম্যাসেঞ্জার (2023), বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেড_ট্রাফিক হেলপার (ক্যাজুয়াল) (2024), পাওয়ার গ্রিড বাংলাদেশ_স্টেশন অ্যাটেনডেন্ট (2025)",
+    "question_variations": [
+      "Wifi এর পূর্ণরূপ কী?",
+      "WiFi এর পূর্ণরূপ কী?"
+    ]
+  },
+  {
+    "id": "miq_55",
+    "question": "HTTP এর পূর্ণরূপ কি?",
+    "options": [
+      "Hyper Text Type Protocol.",
+      "Hyper Text Transfer Protocol.",
+      "Hyper Text Markup Language.",
+      "Hyper Text Terminate Protocol."
+    ],
+    "correct_answer": "Hyper Text Transfer Protocol.",
+    "explanation": "HTTP-এর ফুল ফর্ম হলো Hypertext Transfer Protocol। বাংলা ভাষায় এইচটিটিপির পূর্ণরূপ হলো হাইপার টেক্সট ট্রান্সফার প্রোটোকল। যাহা ওয়ার্ল্ড&nbsp;ওয়াইড ওয়েবের ভিত্তি এবং হাইপারটেক্সট লিঙ্ক ব্যবহার করে ওয়েব পেজ লোড করতে ব্যবহৃত হয়।</u><br/><br/>এটি একটি নেটওয়ার্ক প্রোটোকল যা প্রধানত ইন্টারনেটে HTML (Hyper-Text Markup Language) ডেটাকে আদান প্রদান করার জন্য ব্যবহার করা হয়। এই প্রোটোকলটিতে বেশকিছু নিয়ম থাকে যার ওপর ভিত্তি করে কোনও ওয়েব ব্রাউজার এবং সার্ভারের মধ্যে তথ্য আদান প্রদান করা হয়।</u><br/><br/>HTTP সাধারণত ক্লায়েন্ট এবং সার্ভার কম্পিউটিং মডেলের ওপর ভিত্তি করে রিকোয়েস্ট-রেসপন্স প্রোটোকলের মাধ্যমে তথ্য আদান প্রদান করে। যেখানে ব্যাবহারকারির ওয়েব ব্রাউসার ক্লায়েন্ট হিসাবে ও ওয়েবসাইট হোস্টিং সার্ভার হিসাবে কাজ করে।</u>",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "বিমান বাংলাদেশ এয়ারলাইন্স_গ্রাউন্ড সার্ভিস অ্যাসিস্ট্যান্ট",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিমান বাংলাদেশ এয়ারলাইন্স_গ্রাউন্ড সার্ভিস অ্যাসিস্ট্যান্ট_1.9.23"
+      },
+      {
+        "exam_name": "প্রবাসী কল্যাণ ও বৈদেশিক মন্ত্রণালয়_উচ্চমান সহকারী ও কম্পিউটার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "প্রবাসী কল্যাণ ও বৈদেশিক মন্ত্রণালয়_উচ্চমান সহকারী ও কম্পিউটার_23.9.23"
+      },
+      {
+        "exam_name": "আনসার ও গ্রাম প্রতিরক্ষা বাহিনী_৩য় শ্রেণি (১৩-১৯তম গ্রেড)",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "আনসার ও গ্রাম প্রতিরক্ষা বাহিনী_৩য় শ্রেণি (১৩-১৯তম গ্রেড)_31.5.25"
+      },
+      {
+        "exam_name": "ঢাকা বিশ্ববিদ্যালয়_2021_ঘ ইউনিট_২০-২১",
+        "year": 2021,
+        "category": "বিশ্ববিদ্যালয় ভর্তি পরীক্ষা (Admission Tests)",
+        "full_title": "ঢাকা বিশ্ববিদ্যালয়_2021_ঘ ইউনিট_২০-২১"
+      }
+    ],
+    "exam_summary": "বিমান বাংলাদেশ এয়ারলাইন্স_গ্রাউন্ড সার্ভিস অ্যাসিস্ট্যান্ট (2023), প্রবাসী কল্যাণ ও বৈদেশিক মন্ত্রণালয়_উচ্চমান সহকারী ও কম্পিউটার (2023), আনসার ও গ্রাম প্রতিরক্ষা বাহিনী_৩য় শ্রেণি (১৩-১৯তম গ্রেড) (2025), ঢাকা বিশ্ববিদ্যালয়_2021_ঘ ইউনিট_২০-২১ (2021)",
+    "question_variations": [
+      "HTTP এর পূর্ণরূপ কী?",
+      "HTTP-এর পূর্ণরূপ কী?"
+    ]
+  },
+  {
+    "id": "miq_56",
+    "question": "LED এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "Light-emitting Device",
+      "Light-emitting Diode",
+      "Light-electronic Diode",
+      "Light-emitting Director"
+    ],
+    "correct_answer": "Light-emitting Diode",
+    "explanation": "📖 LED = Light Emitting Diode.<br/> ⇢ <br/>⛳ LED হলো একটি সেমিকন্ডাক্টর ডিভাইস যা এর মধ্য দিয়ে বিদ্যুৎ প্রবাহিত হলে আলো বিকিরণ করে। সঠিক পূর্ণরূপ: Light Emitting Diode।<br/> ⇢ <br/>⛳ এটি একটি P-N জংশন ডায়োড। যখন একে ফরোয়ার্ড বায়াস (Forward Bias) দেওয়া হয়, তখন ইলেকট্রন ও হোল (Holes) এর পুনর্মিলন ঘটে এবং শক্তি ফোটন কণা বা আলো হিসেবে নির্গত হয়। একে 'Electroluminescence' বলা হয়। সাধারণ বাল্বের চেয়ে এটি অনেক কম বিদ্যুৎ খরচ করে এবং দীর্ঘস্থায়ী হয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 4,
+    "exam_count": 4,
+    "exam_references": [
+      {
+        "exam_name": "সরকারী কর্ম কমিশন(পিএসসি)_উপ সহকারী কৃষি কর্মকর্তা",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "সরকারী কর্ম কমিশন(পিএসসি)_উপ সহকারী কৃষি কর্মকর্তা_11.7.25"
+      },
+      {
+        "exam_name": "নির্বাচন কমিশন সচিবালয়_গাড়ি চালক ও পরিচ্ছন্নতার কর্মী",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "নির্বাচন কমিশন সচিবালয়_গাড়ি চালক ও পরিচ্ছন্নতার কর্মী_15.8.25"
+      },
+      {
+        "exam_name": "বাংলাদেশ সুপ্রিম কোর্ট_অফিস সহকারী",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বাংলাদেশ সুপ্রিম কোর্ট_অফিস সহকারী_22.11.25"
+      },
+      {
+        "exam_name": "গণপূর্ত অধিদপ্তর (PWD)_উপ-সহকারী প্রকৌশলী",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "গণপূর্ত অধিদপ্তর (PWD)_উপ-সহকারী প্রকৌশলী_29.12.25"
+      }
+    ],
+    "exam_summary": "সরকারী কর্ম কমিশন(পিএসসি)_উপ সহকারী কৃষি কর্মকর্তা (2025), নির্বাচন কমিশন সচিবালয়_গাড়ি চালক ও পরিচ্ছন্নতার কর্মী (2025), বাংলাদেশ সুপ্রিম কোর্ট_অফিস সহকারী (2025), গণপূর্ত অধিদপ্তর (PWD)_উপ-সহকারী প্রকৌশলী (2025)",
+    "question_variations": [
+      "LED এর পূর্ণরূপ কি?",
+      "LED এর পূর্ণরূপ কী?",
+      "LED-এর পূর্ণরূপ কী?"
+    ]
+  },
+  {
+    "id": "miq_57",
+    "question": "অধিকাংশ ফটোকপি মেশিন কাজ করে-",
+    "options": [
+      "অফসেট মুদ্রণ পদ্ধতিতে",
+      "পোলারয়েড ফটোগ্রাফি পদ্ধতিতে",
+      "ডিজিট্যাল ইমেজিং পদ্ধতিতে",
+      "স্থির বৈদ্যুতিক ইমেজিং পদ্ধতিতে"
+    ],
+    "correct_answer": "পোলারয়েড ফটোগ্রাফি পদ্ধতিতে",
+    "explanation": "🔖‘পোলারয়েড’ বিশেষভাবে তৈরি স্বচ্ছ মাধ্যম। এর মধ্যে দিয়ে সাধারণ আলো পাঠালে সমবর্তিত আলো পাওয়া যায়। এ সূত্র কাজে লাগিয়ে ফটোকপি মেশিন তৈরি করা হয়। রোদ চশমা, ক্যামেরার লেন্সের সামনে লাগানোর ফিল্টার ইত্যাদিতে আলোর ঝলসানোভাব কমানোর জন্য পোলারয়েডের ব্যবহার রয়েছে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "12th BCS",
+        "year": 1991,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "12th BCS General Apr, 1991"
+      },
+      {
+        "exam_name": "রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক -হাসনাহেনা",
+        "year": 2011,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক -হাসনাহেনা- ০৯.১২.১১"
+      },
+      {
+        "exam_name": "দুর্নীতি দমন ব্যুরোর পরিদর্শক",
+        "year": 2004,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "দুর্নীতি দমন ব্যুরোর পরিদর্শক-৩০.০৯.০৪"
+      }
+    ],
+    "exam_summary": "12th BCS (1991), রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক -হাসনাহেনা (2011), দুর্নীতি দমন ব্যুরোর পরিদর্শক (2004)",
+    "question_variations": [
+      "অধিকাংশ ফটোকপি মেশিন কাজ করে ----",
+      "অধিকাংশ ফটোকপি মেশিন কাজ করে--"
+    ]
+  },
+  {
+    "id": "miq_58",
+    "question": "কম্পিউটারে কোনটি নেই?",
+    "options": [
+      "স্মৃতি",
+      "বুদ্ধি বিবেচনা",
+      "দীর্ঘ সময় কাজ করার ক্ষমতা",
+      "নির্ভুল কাজ করার ক্ষমতা"
+    ],
+    "correct_answer": "বুদ্ধি বিবেচনা",
+    "explanation": "🔖কম্পিটারের নির্ভুলভাবে দ্রুত কাজ করা এবং স্মৃতি সংরক্ষণের ক্ষমতা রয়েছে । তবে শুধু উন্নত মস্তিক ও জৈবিক বৈশিষ্ট্যসম্পন্ন প্রাণীরই বুদ্ধি বিবেচনার ক্ষমতা রয়েছে, যা কোনো যন্ত্রের নেই ।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "23rd BCS",
+        "year": 2001,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "23rd BCS General Mar, 2001"
+      },
+      {
+        "exam_name": "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক -ড্যাফোডিল",
+        "year": 2012,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক -ড্যাফোডিল- ১২.১০.১২"
+      },
+      {
+        "exam_name": "শ্রম পরিদপ্তরে জনসংখ্যা ও পরিবারকল্যাণ কর্মকর্তা-৪",
+        "year": 2009,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "শ্রম পরিদপ্তরে জনসংখ্যা ও পরিবারকল্যাণ কর্মকর্তা-৪.০৯"
+      }
+    ],
+    "exam_summary": "23rd BCS (2001), প্রাথমিক বিদ্যালয় প্রধান শিক্ষক -ড্যাফোডিল (2012), শ্রম পরিদপ্তরে জনসংখ্যা ও পরিবারকল্যাণ কর্মকর্তা-৪ (2009)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_59",
+    "question": "The term PC means–",
+    "options": [
+      "Professional computer",
+      "Private computer",
+      "Prime computer",
+      "Personal computer"
+    ],
+    "correct_answer": "Personal computer",
+    "explanation": "📖 'PC' হলো একটি বহুল প্রচলিত সংক্ষিপ্ত রূপ। এর পূর্ণরূপ হলো 'Personal Computer' (ব্যক্তিগত কম্পিউটার)। আইবিএম (IBM) ১৯৮১ সালে প্রথম পিসি বাজারজাত শুরু করার পর থেকে শব্দটি জনপ্রিয় হয়ে ওঠে।<br/>▣ PC বা Personal Computer বলতে এমন একটি মাইক্রোকম্পিউটারকে বোঝানো হয় যা একজন ব্যক্তি ব্যবহার করার জন্য ডিজাইন করা হয়েছে। ১৯৭০-এর দশকে মাইক্রোপ্রসেসরের আবির্ভাবের পর থেকে পিসির ধারণা জনপ্রিয় হতে শুরু করে। যদিও অ্যাপল (Apple) এবং কমোডোরের (Commodore) মতো কোম্পানিগুলো প্রথম দিকে ব্যক্তিগত কম্পিউটার তৈরি করেছিল, ১৯৮১ সালে IBM-এর 'IBM PC' বাজারে আসার পর এই শব্দটি বিশ্বব্যাপী পরিচিতি লাভ করে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "34th BCS",
+        "year": 2013,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "34th BCS General May, 2013"
+      },
+      {
+        "exam_name": "পাওয়ার গ্রিড বাংলাদেশ_স্টেশন অ্যাটেনডেন্ট",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পাওয়ার গ্রিড বাংলাদেশ_স্টেশন অ্যাটেনডেন্ট_29.8.25"
+      },
+      {
+        "exam_name": "অর্থ মন্ত্রণালয়_অফিস সহায়ক",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "অর্থ মন্ত্রণালয়_অফিস সহায়ক_29.8.25"
+      }
+    ],
+    "exam_summary": "34th BCS (2013), পাওয়ার গ্রিড বাংলাদেশ_স্টেশন অ্যাটেনডেন্ট (2025), অর্থ মন্ত্রণালয়_অফিস সহায়ক (2025)",
+    "question_variations": [
+      "The term 'PC' means",
+      "The term PC means..."
+    ]
+  },
+  {
+    "id": "miq_60",
+    "question": "প্রোগ্রাম থেকে কপি করা ডাটা কোথায় থাকে?",
+    "options": [
+      "RAM",
+      "Clipboard",
+      "Terminal",
+      "Hard Disk"
+    ],
+    "correct_answer": "Clipboard",
+    "explanation": "📝 <b>প্রোগ্রাম:</b><br/>▣ <b>প্রোগাম থেকে কপি করা ডাটা Clipboard এ থাকে</b>।<br/>❐ প্রোগ্রাম থেকে কপি করা ডাটা কম্পিউটার চালু করার সময় হার্ডডিস্ক থেকে অস্থায়ী মেমোরি র&zwnj;্যামে জমা হয় এবং কম্পিউটার বন্ধ করলে তা মুছে যায়।<br/>❐ অন্যদিকে ক্লিপবোর্ড হলো কোনো নির্দিষ্ট সফটওয়্যারের একটি সুবিধা যাতে ডেটা সংরক্ষিত থাকে শুধু ঐ সফটওয়্যারে তৎক্ষণাৎ ব্যবহার করার জন্য।<br/>================<br/>❐ ক্লিপবোর্ড RAM এর একটি অংশ যেখানে কোনো ডেটা অন্য কোন স্থানে পেস্ট করার পূর্বে অস্থায়ীভাবে জমা থাকে।<br/>❐ ক্লিপবোর্ড কমান্ড তিনটি।<br/>যথা- cut, copy, paste.<br/>❐ সাধারণত প্রোগ্রাম RAM এ লোড হয় কিন্তু প্রোগ্রাম থেকে কপি করা ডাটা ক্লিপবোর্ডে জমা থাকে।<br/>❐ কিছু জায়গাতে উত্তর র&zwj;্যাম দেয়া থাকতে পারে। তবে, Clipboard কে স্পেসিফিক উত্তর বলা যায়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "35th BCS",
+        "year": 2015,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "35th BCS General Mar, 2015"
+      },
+      {
+        "exam_name": "শিক্ষা প্রকৌশল অধিদপ্তর_কম্পিউটার অপারেটর",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "শিক্ষা প্রকৌশল অধিদপ্তর_কম্পিউটার অপারেটর_5.11.21"
+      },
+      {
+        "exam_name": "কর্মচারী কল্যাণ বোর্ড_অফিস সহকারী কাম কম্পিউটার",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "কর্মচারী কল্যাণ বোর্ড_অফিস সহকারী কাম কম্পিউটার_28.8.26"
+      }
+    ],
+    "exam_summary": "35th BCS (2015), শিক্ষা প্রকৌশল অধিদপ্তর_কম্পিউটার অপারেটর (2021), কর্মচারী কল্যাণ বোর্ড_অফিস সহকারী কাম কম্পিউটার (2026)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_61",
+    "question": "কম্পিউটার সিস্টেম এ Scanner একটি কোন ধরনের যন্ত্র?",
+    "options": [
+      "Input",
+      "Out put",
+      "উভয়েই",
+      "কোনোটিই নয়"
+    ],
+    "correct_answer": "Input",
+    "explanation": "📖স্ক্যানারের সাহায্যে যে কোন ধরনের ছবি, মুদ্রিত যে কোন লেখা ইত্যাদি হুবহু কম্পিউটারে নিয়ে যাওয়া যায়।<br/>স্ক্যানারের সাহায্যে কম্পিউটারে নেয়া যে কোন তথ্য যে কোন প্রোগ্রামের যে কোন অংশে বসিয়ে ইচ্ছামত সম্পাদনা করা যায়।<br/>অর্থ্যাৎ, স্ক্যানার একটি ইনপুট ডিভাইস।<br/>আরো কয়েকটি ইনপুট ডিভাইসগুলো হলোঃ<br/>মাউস, কী-বোর্ড, স্ক্যানার, জয়স্টিক, OMR, MICR, ডিজিটাল ক্যামেরা ইত্যাদি।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "35th BCS",
+        "year": 2015,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "35th BCS General Mar, 2015"
+      },
+      {
+        "exam_name": "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের সহকারী সচিব_সহকারী পরিচালক (প্রশাসন) - 7",
+        "year": 2017,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের সহকারী সচিব_সহকারী পরিচালক (প্রশাসন) - 7.17"
+      },
+      {
+        "exam_name": "খনিজ সম্পদ মন্ত্রণালয় সহকারী সচিব_সহকারী পরিচালক (প্রশাসন)",
+        "year": 2019,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "খনিজ সম্পদ মন্ত্রণালয় সহকারী সচিব_সহকারী পরিচালক (প্রশাসন) ২৫.০১.১৯"
+      }
+    ],
+    "exam_summary": "35th BCS (2015), বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের সহকারী সচিব_সহকারী পরিচালক (প্রশাসন) - 7 (2017), খনিজ সম্পদ মন্ত্রণালয় সহকারী সচিব_সহকারী পরিচালক (প্রশাসন) (2019)",
+    "question_variations": [
+      "কম্পিউটার সিস্টেম এ Scanner কোন ধরনের যন্ত্র?"
+    ]
+  },
+  {
+    "id": "miq_62",
+    "question": "ই-মেইল আদান প্রদানে ব্যবহৃত SMTP-এর পূর্ণরূপ কি?",
+    "options": [
+      "Simple Message Transmission Protocol",
+      "Strategic Mail Transfer Protocol",
+      "Strategic Mail Transmission Protocol",
+      "Simple Mail Transfer Protocol"
+    ],
+    "correct_answer": "Simple Mail Transfer Protocol",
+    "explanation": "<div class=\"d9FyLd\" style=\"max-height: 999999px; padding: 0px 0px 10px; color: rgb(232, 234, 237); font-family: &quot;Google Sans&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 20px; background-color: rgb(32, 33, 36);\"><span style=\"max-height: 999999px; background-color: rgba(66, 133, 244, 0.3); color: rgb(226, 238, 255);\">Simple Mail Transfer Protocol</span>&nbsp;(STMP)</div><p><span class=\"hgKElc\" style=\"max-height: 999999px; padding: 0px 8px 0px 0px; color: rgb(232, 234, 237); font-family: &quot;Google Sans&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 20px; background-color: rgb(32, 33, 36);\">SMTP is used to send and receive email. It is sometimes paired with IMAP or POP3 (for example, by a user-level application), which handles the retrieval of messages, while SMTP primarily sends messages to a server for forwarding.</span></p>",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "37th BCS",
+        "year": 2016,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "37th BCS General Sep, 2016"
+      },
+      {
+        "exam_name": "গ্রামীণ ব্যাংক_শিক্ষানবিশ কেন্দ্র ব্যবস্থাপক",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "গ্রামীণ ব্যাংক_শিক্ষানবিশ কেন্দ্র ব্যবস্থাপক_7.2.25"
+      },
+      {
+        "exam_name": "ঢাকা বিশ্ববিদ্যালয়_2022_ঘ ইউনিট_২১-২২",
+        "year": 2022,
+        "category": "বিশ্ববিদ্যালয় ভর্তি পরীক্ষা (Admission Tests)",
+        "full_title": "ঢাকা বিশ্ববিদ্যালয়_2022_ঘ ইউনিট_২১-২২"
+      }
+    ],
+    "exam_summary": "37th BCS (2016), গ্রামীণ ব্যাংক_শিক্ষানবিশ কেন্দ্র ব্যবস্থাপক (2025), ঢাকা বিশ্ববিদ্যালয়_2022_ঘ ইউনিট_২১-২২ (2022)",
+    "question_variations": [
+      "ই-মেইল আদান প্রদানে ব্যবহৃত SMTP এর পূর্ণরূপ কি?",
+      "ই-মেইল আদান-প্রদানে ব্যবহৃত SMTP এর পূর্ণরূপ কী?"
+    ]
+  },
+  {
+    "id": "miq_63",
+    "question": "কোন প্রটোকলটি ইন্টারনেট সংযোগের ক্ষেত্রে সর্বাধিক ব্যবহৃত হয়?",
+    "options": [
+      "TCP/IP",
+      "Novel netware",
+      "Net BEUI",
+      "Linux"
+    ],
+    "correct_answer": "TCP/IP",
+    "explanation": "ইন্টারনেট সংযোগের ক্ষেত্রে যে প্রটোকলগুলো ব্যবহার করা হয় তাদের মধ্যে TCP/IP সর্বাধিক ব্যবহৃত প্রটোকল। কেননা ইন্টারনেট প্রোটোকল বলতে মূলত TCP/IP –কেই বোঝায়। ইন্টারনেট কিংবা প্রাইভেট নেটওয়ার্কের আওতায় যেকোনো দুটি কমিউনিকেশন ডিভাইসের মধ্যে সংযোগ স্থাপনে এ প্রটোকল ব্যবহার করা যায়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "38th BCS",
+        "year": 2017,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "38th BCS General Dec, 2017"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd - Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Officer 05.11.10"
+      },
+      {
+        "exam_name": "কৃষি সম্প্রসারণ অধিদপ্তর_অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক",
+        "year": 2018,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "কৃষি সম্প্রসারণ অধিদপ্তর_অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক_১৩.০৪.১৮"
+      }
+    ],
+    "exam_summary": "38th BCS (2017), Sonali Bank Ltd - Officer (2010), কৃষি সম্প্রসারণ অধিদপ্তর_অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক (2018)",
+    "question_variations": [
+      "নিচের কোন প্রটোকলটি ইন্টারনেট সংযোগের ক্ষেত্রে সর্বাধিক ব্যবহৃত হয়?"
+    ]
+  },
+  {
+    "id": "miq_64",
+    "question": "নিচের কোনটি সামঞ্জস্যপূর্ণ নয়?",
+    "options": [
+      "ফেসবুক",
+      "টুইটার",
+      "লিংকড ইন",
+      "উইকিপিডিয়া"
+    ],
+    "correct_answer": "উইকিপিডিয়া",
+    "explanation": "📖 ফেসবুক, টুইটার এবং লিংকড-ইন হলো সামাজিক যোগাযোগ মাধ্যম (Social Media)। অন্যদিকে উইকিপিডিয়া হলো একটি মুক্ত বিশ্বকোষ (Encyclopedia)। তাই এটি অন্যদের সাথে সামঞ্জস্যপূর্ণ নয়।<br/> ⇢ <br/>⛳ তথ্য ও যোগাযোগ প্রযুক্তি ব্যবহার করে মানুষ যোগাযোগ ও ভাব প্রকাশের জন্য যা কিছু সৃষ্টি, বিনিময় কিংবা আদান-প্রদান করার জন্য যে মাধ্যম ব্যবহার করে তাকে সামাজিক যোগাযোগ মাধ্যম (Social networking site) বলে। যেমন-ফেসবুক, টুইটার, ইনস্টাগ্রাম, লিঙ্কডইন প্রভৃতি। অন্যদিকে, উইকিপিডিয়া একটি ওয়েবসাইট।<br/> ⇢ <br/>⛳ ফেসবুক, টুইটার, লিংকড ইন হলো সামাজিক যোগাযোগ মাধ্যম বা সোশ্যাল মিডিয়া। এগুলো একে অপরের সাথে সামঞ্জস্যপূর্ণ। কিন্তু উইকিপিডিয়া হলো একটি মুক্ত বিশ্বকোষ। এটি একটি ভিন্ন ধরণের ওয়েবসাইট। তাই এটি অন্যদের সাথে সামঞ্জস্যপূর্ণ নয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "38th BCS",
+        "year": 2017,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "38th BCS General Dec, 2017"
+      },
+      {
+        "exam_name": "সরকারি প্রাথমিক বিদ্যালয়_সহকারী শিক্ষক",
+        "year": 2026,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "সরকারি প্রাথমিক বিদ্যালয়_সহকারী শিক্ষক_9.1.26"
+      },
+      {
+        "exam_name": "বিভিন্ন মন্ত্রণালয়_ব্যক্তিগত কর্মকর্তা",
+        "year": 2022,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিভিন্ন মন্ত্রণালয়_ব্যক্তিগত কর্মকর্তা_28.02.22"
+      }
+    ],
+    "exam_summary": "38th BCS (2017), সরকারি প্রাথমিক বিদ্যালয়_সহকারী শিক্ষক (2026), বিভিন্ন মন্ত্রণালয়_ব্যক্তিগত কর্মকর্তা (2022)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_65",
+    "question": "Bluetooth কিসের উদাহরণ?",
+    "options": [
+      "Personal Area Network",
+      "Local Area Network",
+      "Virtual Private Network",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "Personal Area Network",
+    "explanation": "📖 ব্লুটুথ (Bluetooth) হলো PAN (Personal Area Network) এর একটি চমৎকার উদাহরণ।<br/>❏ এটি সাধারণত খুব কাছাকাছি দূরত্বের (১০ থেকে ১০০ মিটার) মধ্যে ব্যক্তিগত ডিভাইসগুলোর মাঝে তারবিহীন যোগাযোগ স্থাপন করে।<br/> ⇢ <br/>⛳ নেটওয়ার্কের পরিধি অনুযায়ী নেটওয়ার্ককে কয়েক ভাগে ভাগ করা যায়: PAN, LAN, MAN, WAN। <br/>❏ PAN (Personal Area Network) হলো একজন ব্যক্তির কাছাকাছি থাকা ডিভাইসগুলোর (যেমন: মোবাইল, ল্যাপটপ, হেডফোন, স্মার্টওয়াচ) মধ্যে তৈরি হওয়া ছোট নেটওয়ার্ক। ব্লুটুথ (IEEE 802.15.1 স্ট্যান্ডার্ড) রেডিও ওয়েভ ব্যবহার করে এই PAN তৈরি করে। (মজার তথ্য: দশম শতাব্দীর ডেনমার্কের রাজা 'Harald Bluetooth'-এর নামানুসারে এর নামকরণ করা হয়েছে)।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "40th BCS",
+        "year": 2019,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "40th BCS General May, 2019 40th"
+      },
+      {
+        "exam_name": "রেলপথ মন্ত্রণালয় ( কম্পিউটার অপারেটর) 12-06-2021",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "রেলপথ মন্ত্রণালয় ( কম্পিউটার অপারেটর) 12-06-2021"
+      },
+      {
+        "exam_name": "নৌ পরিবহন কর্পোরেশন_অফিস সহকারী কাম কম্পিউটার",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "নৌ পরিবহন কর্পোরেশন_অফিস সহকারী কাম কম্পিউটার_15.5.26"
+      }
+    ],
+    "exam_summary": "40th BCS (2019), রেলপথ মন্ত্রণালয় ( কম্পিউটার অপারেটর) 12-06-2021 (2021), নৌ পরিবহন কর্পোরেশন_অফিস সহকারী কাম কম্পিউটার (2026)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_66",
+    "question": "নিচের কোনটি anti-virus সফটওয়্যার নয়?",
+    "options": [
+      "Oracle",
+      "McAfee",
+      "Norton",
+      "Kaspersky"
+    ],
+    "correct_answer": "Oracle",
+    "explanation": "📖 'Oracle' (ওরাকল) কোনো অ্যান্টিভাইরাস সফটওয়্যার নয়, এটি একটি বিখ্যাত ডাটাবেজ ম্যানেজমেন্ট সফটওয়্যার ও প্রযুক্তি প্রতিষ্ঠান। অন্যদিকে McAfee, Norton এবং Kaspersky হলো বহুল ব্যবহৃত অ্যান্টিভাইরাস সফটওয়্যার।<br/> ⇢ <br/>⛳ Oracle: এটি বিশ্বের অন্যতম বৃহত্তম মার্কিন বহুজাতিক কম্পিউটার প্রযুক্তি কর্পোরেশন, যা মূলত তাদের 'Oracle Database' (RDBMS) এবং জাভা (Java) সফটওয়্যারের জন্য বিখ্যাত।<br/>❏ McAfee, Norton, Kaspersky: এগুলো হলো বিশ্বখ্যাত সাইবার সিকিউরিটি ও অ্যান্টিভাইরাস সফটওয়্যার, যা কম্পিউটারকে ম্যালওয়্যার, ট্রোজান ও ভাইরাসের আক্রমণ থেকে রক্ষা করে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "41th BCS",
+        "year": 2021,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "41th BCS General Mar, 2021"
+      },
+      {
+        "exam_name": "43th BCS",
+        "year": 2021,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "43th BCS General Oct, 2021"
+      },
+      {
+        "exam_name": "জনপ্রশাসন মন্ত্রণালয় (পিএসসি)_সহকারী রেজিস্ট্রার",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জনপ্রশাসন মন্ত্রণালয় (পিএসসি)_সহকারী রেজিস্ট্রার_13.7.26"
+      }
+    ],
+    "exam_summary": "41th BCS (2021), 43th BCS (2021), জনপ্রশাসন মন্ত্রণালয় (পিএসসি)_সহকারী রেজিস্ট্রার (2026)",
+    "question_variations": [
+      "নিচের কোনটি anti- virus সফটওয়্যার নয়?",
+      "নিচের কোনটি Anti-Virus সফটওয়্যার নয়?"
+    ]
+  },
+  {
+    "id": "miq_67",
+    "question": "নিচের কোনটি output device নয়?",
+    "options": [
+      "Monitor",
+      "Microphone",
+      "printer",
+      "speaker"
+    ],
+    "correct_answer": "Microphone",
+    "explanation": "📖 Microphone (মাইক্রোফোন) হলো একটি অডিও ইনপুট ডিভাইস (Input Device), যার মাধ্যমে কম্পিউটারে মানুষের কণ্ঠস্বর বা শব্দ প্রবেশ করানো হয়।<br/>❏ অন্যদিকে Monitor (ডিসপ্লে), Printer (মুদ্রণ) এবং Speaker (শব্দ নির্গমন) হলো আউটপুট ডিভাইস।<br/>❏ Input Devices (ডেটা প্রদানকারী): ➺ Keyboard, Mouse, Microphone, Scanner, Barcode Reader, OMR, OCR, MICR, Touch Screen, Web Cam, Joystick, Graphics Tablet।<br/>❏ Output Devices (ফলাফল প্রদর্শনকারী): ➺ Monitor (VDU), Printer, Plotter, Speaker, Headphone, Projector।<br/>❏ উভয় হিসেবে কাজ করে (Both I/O): ➺ Touch Screen, Modem, Network Interface Card (NIC), Sound Card, VR Headset।<br/>❏ মাইক্রোফোন শব্দের অ্যানালগ তরঙ্গকে ডিজিটাল ইলেকট্রিক্যাল সিগন্যালে রূপান্তর করে কম্পিউটারে ইনপুট দেয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "43th BCS",
+        "year": 2021,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "43th BCS General Oct, 2021"
+      },
+      {
+        "exam_name": "রুরাল পাওয়ার কোম্পানি লিমিটেড_উপ সহকারী প্রকৌশলী",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "রুরাল পাওয়ার কোম্পানি লিমিটেড_উপ সহকারী প্রকৌশলী_26.4.25"
+      },
+      {
+        "exam_name": "কর্মচারী কল্যাণ বোর্ড_অফিস সহকারী কাম কম্পিউটার",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "কর্মচারী কল্যাণ বোর্ড_অফিস সহকারী কাম কম্পিউটার_28.8.26"
+      }
+    ],
+    "exam_summary": "43th BCS (2021), রুরাল পাওয়ার কোম্পানি লিমিটেড_উপ সহকারী প্রকৌশলী (2025), কর্মচারী কল্যাণ বোর্ড_অফিস সহকারী কাম কম্পিউটার (2026)",
+    "question_variations": [
+      "নিচের কোনটি 'output device' নয়?"
+    ]
+  },
+  {
+    "id": "miq_68",
+    "question": "নিচের কোনটি সার্চ ইঞ্জিন নয়?",
+    "options": [
+      "Yahoo",
+      "Bing",
+      "Safari",
+      "Google"
+    ],
+    "correct_answer": "Safari",
+    "explanation": "ওয়েব সার্চ ইঞ্জিন\nপৃথিবীর বিভিন্ন স্থানে ওয়েব পেইজ এর বিশাল ভান্ডার সংরক্ষিত আছে। এ সমস্ত ওয়েব পেইজে রয়েছে বিভিন্ন তথ্য ও ডেটা। সার্চ ইঞ্জিন এমন সফটওয়‍্যার টুল যা ওয়ার্ল্ড ওয়াইড ওয়েব থেকে ইনফরমেশন খুঁজে বের করে। পৃথিবীর সবচেয়ে বহুল ব্যবহৃত সার্চ ইঞ্জিন Google। অন্যান্য সার্চ ইঞ্জিনের মধ্যে Yahoo, Bing, msn, Baidu, AOL, Excite, Ask, DuckDuckGo, Altavista, Lycos, Yandex, পিপীলিকা, Chorki ইত্যাদি উল্লেখযোগ্য।\nওয়েব ব্রাউজার\nযে সফটওয়‍্যার ইন্টারনেটের ইনফরমেশন বা web page বা www প্রদর্শনের কাজ করে তাকে ওয়েব ব্রাউজার বলে। পৃথিবীর বিভিন্ন দেশের ওয়েব সার্ভারে রাখা পরস্পর সম্পর্কযুক্ত web page পরিদর্শন করাকে Browsing বলে। নিচে কিছু জনপ্রিয় ব্রাউজারের নাম দেওয়া হলো: Internet Explorer, Mozilla Firefox, Opera, Google Chrome, Safari, Netscape Communicator, Edge, Brave Browser.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "46th BCS",
+        "year": 2024,
+        "category": "বিসিএস প্রিলিমিনারি (BCS Preliminary)",
+        "full_title": "46th BCS General April, 2024"
+      },
+      {
+        "exam_name": "রেলওয়ে_উপ সহকারী প্রকৌশলী",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "রেলওয়ে_উপ সহকারী প্রকৌশলী_28.6.25"
+      },
+      {
+        "exam_name": "ভূমি মন্ত্রণালয়ের_অফিস সহকারী কাম কম্পিউটার",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ভূমি মন্ত্রণালয়ের_অফিস সহকারী কাম কম্পিউটার_11.4.26"
+      }
+    ],
+    "exam_summary": "46th BCS (2024), রেলওয়ে_উপ সহকারী প্রকৌশলী (2025), ভূমি মন্ত্রণালয়ের_অফিস সহকারী কাম কম্পিউটার (2026)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_69",
+    "question": "The \"add or remove programs\" utility can be found in --",
+    "options": [
+      "My Document",
+      "Desktop",
+      "System restore",
+      "Control Panel"
+    ],
+    "correct_answer": "Control Panel",
+    "explanation": "🔖The Control Panel is a component of Microsoft Windows that provides the ability to view and change system settings. It consists of a set of applets that include adding or removing hardware and software, controlling user accounts, changing accessibility options, and accessing networking settings.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Sonali, Janata, Agrani & Rupali Bank Ltd. Senior Officer Recruitment",
+        "year": 2008,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali, Janata, Agrani & Rupali Bank Ltd. Senior Officer Recruitment 14.03.08"
+      },
+      {
+        "exam_name": "Rajshahi Krishi Unnayan Bank - Senior Officers",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rajshahi Krishi Unnayan Bank - Senior Officers - 08.01.10"
+      },
+      {
+        "exam_name": "Investment Corporation - Senior Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Investment Corporation - Senior Officer - 21.01.11"
+      }
+    ],
+    "exam_summary": "Sonali, Janata, Agrani & Rupali Bank Ltd. Senior Officer Recruitment (2008), Rajshahi Krishi Unnayan Bank - Senior Officers (2010), Investment Corporation - Senior Officer (2011)",
+    "question_variations": [
+      "The 'add or remove program's utility can be found in :",
+      "The 'add or remove programs' utility can be found in :"
+    ]
+  },
+  {
+    "id": "miq_70",
+    "question": "A universal donor is a person having blood group of __",
+    "options": [
+      "A+",
+      "B+",
+      "C+",
+      "O+"
+    ],
+    "correct_answer": "O+",
+    "explanation": "🔖For emergency transfusions, blood group type O negative blood is the variety of blood that has the lowest risk of causing serious reactions for most people who receive it. Because of this, it's sometimes called the universal blood donor type.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "BASIC Bank Ltd - Asst. Officer",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "BASIC Bank Ltd - Asst. Officer - 29.08.09"
+      },
+      {
+        "exam_name": "Commerce Bank Ltd - Officer - 2006",
+        "year": 2006,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Commerce Bank Ltd - Officer - 2006"
+      },
+      {
+        "exam_name": "Eastern Bank Ltd - Officer - 2005",
+        "year": 2005,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Eastern Bank Ltd - Officer - 2005"
+      }
+    ],
+    "exam_summary": "BASIC Bank Ltd - Asst. Officer (2009), Commerce Bank Ltd - Officer - 2006 (2006), Eastern Bank Ltd - Officer - 2005 (2005)",
+    "question_variations": [
+      "A universal donor is a person having blood group of ----",
+      "A universal donor is a person having blood group of ---"
+    ]
+  },
+  {
+    "id": "miq_71",
+    "question": "ECNEC stands for",
+    "options": [
+      "Executive Conference of the National Economic Council.",
+      "Executive Committee of the National Economic Council .",
+      "Essential Committee of the National Economic Council.",
+      "Execuitve Committee of the National Economic Councils."
+    ],
+    "correct_answer": "Executive Committee of the National Economic Council .",
+    "explanation": "🔖Executive Committee of National<br/>Economic Council (ECNEC) হলো বাংলাদেশ সরকারের মন্ত্রিপরিষদ বিভাগের অধীন একটি নির্বাহী কমিটি। ১৯৮২ সালে মন্ত্রীপরিষদ বিভাগের সিদ্ধান্তে ECNEC গঠিত হয়। এটি বড় উন্নয়ন প্রকল্পের যাচাই (২৫ লাখ টাকার উপরে প্রকল্প হলে), নীতিমালা প্রণয়ন, পর্যালোচনা ও অনুমোদন প্রদান করে। একনেক কমিটির চেয়ারম্যান প্রধানমন্ত্রী এবং তার অনুপস্থিতিতে সভায় বিকল্প চেয়ারম্যান থাকবেন অর্থমন্ত্রী।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "BASIC Bank Ltd - Asst. Officer",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "BASIC Bank Ltd - Asst. Officer - 29.08.09"
+      },
+      {
+        "exam_name": "সিলেট গ্যাস ফিল্ড লি.-সহকারী ব্যবস্থাপক (জেনারেল)-10",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "সিলেট গ্যাস ফিল্ড লি.-সহকারী ব্যবস্থাপক (জেনারেল)-10.21"
+      },
+      {
+        "exam_name": "সিলেট গ্যাস ফিল্ড লিমিটেড_সহকারী ব্যবস্থাপক 🖎",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "সিলেট গ্যাস ফিল্ড লিমিটেড_সহকারী ব্যবস্থাপক 🖎 ০১.১০.২১"
+      }
+    ],
+    "exam_summary": "BASIC Bank Ltd - Asst. Officer (2009), সিলেট গ্যাস ফিল্ড লি.-সহকারী ব্যবস্থাপক (জেনারেল)-10 (2021), সিলেট গ্যাস ফিল্ড লিমিটেড_সহকারী ব্যবস্থাপক 🖎 (2021)",
+    "question_variations": [
+      "ECNEC stands for-"
+    ]
+  },
+  {
+    "id": "miq_72",
+    "question": "The Brain of the computer within the CPU is-",
+    "options": [
+      "ALU",
+      "Joshepson Buble",
+      "Register",
+      "Control Unit"
+    ],
+    "correct_answer": "ALU",
+    "explanation": "🔖Operating system পুরো Computer System–এর প্রধান নিয়ন্ত্রক। computer-এর power on করা হলে সর্বপ্রথম firmware চালু হয়। Hdd -এর detect নিশ্চিত হলে boot sector থেকে operating system চালু হয়। এ operating system কম্পিউটারের সমস্ত Hardware-এর সমন্বয় সাধন করে। একে বলে hardware resource management । আবার সমস্ত application software -এর সাথে haredware-এর সমন্বয় ঘটে user- এর মাধ্যমে। এ ক্ষেত্রে user–এর সমস্ত –command-process ও নিয়ন্ত্রন হয় operating system দ্বারা। সুতরাং Operating system–এর primary job হলো resource management ।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Agrani Bank Ltd. Recruitment Test for Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani Bank Ltd. Recruitment Test for Senior Officer 12.02.10"
+      },
+      {
+        "exam_name": "Agrani bank Ltd - Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Senior Officer - 12.02.10"
+      },
+      {
+        "exam_name": "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের সহকারী সচিব_সহকারী পরিচালক (প্রশাসন)-৬",
+        "year": 2016,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের সহকারী সচিব_সহকারী পরিচালক (প্রশাসন)-৬.১৬"
+      }
+    ],
+    "exam_summary": "Agrani Bank Ltd. Recruitment Test for Senior Officer (2010), Agrani bank Ltd - Senior Officer (2010), বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের সহকারী সচিব_সহকারী পরিচালক (প্রশাসন)-৬ (2016)",
+    "question_variations": [
+      "The brain of a computer within the CPU is ----",
+      "The brain of a computer within the CPU is -"
+    ]
+  },
+  {
+    "id": "miq_73",
+    "question": "What is an Icon ?",
+    "options": [
+      "Pictorial representation of an operation",
+      "Method of cutting and pasting",
+      "Flashing of display",
+      "Beefs, roars and shrieks in a video game"
+    ],
+    "correct_answer": "Pictorial representation of an operation",
+    "explanation": "🔖An icon is a small graphical representation of a program or file. When you double-click an icon, the associated file or program will be opened. For example, if you were to double-click My Computer icon, it would open Windows Explorer. Icons are a component of GUI operating systems, including Apple mac OS X and Microsoft Windows. Icons help users quickly identify the type of file represented by the icon. The image is an example of \"My Computer\" icons in different versions of Microsoft Windows.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Agrani Bank Ltd. Recruitment Test for Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani Bank Ltd. Recruitment Test for Senior Officer 12.02.10"
+      },
+      {
+        "exam_name": "Agrani bank Ltd - Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Officer - 12.02.10"
+      },
+      {
+        "exam_name": "Agrani bank Ltd - Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Senior Officer - 12.02.10"
+      }
+    ],
+    "exam_summary": "Agrani Bank Ltd. Recruitment Test for Senior Officer (2010), Agrani bank Ltd - Officer (2010), Agrani bank Ltd - Senior Officer (2010)",
+    "question_variations": [
+      "What is an icon?"
+    ]
+  },
+  {
+    "id": "miq_74",
+    "question": "Magnetized bits on a disk surface are arranged along concentric rings known as-",
+    "options": [
+      "Sectors",
+      "Cylinders",
+      "Tracks",
+      "Protective developers"
+    ],
+    "correct_answer": "Tracks",
+    "explanation": "🔖হার্ডডিক্স অনেকগুলো গোল চাকতির সমন্বয়ে গঠিত। এই চাকতি আবার কিছু গোলাকার অংশে বিভক্ত যাদেরকে Tracks বলে এবং এই Tracks গুলোকে আবার ছোট ছোট অংশে ভাগ করা হয় যাদেরকে সেক্টর (Sector) বলে। কয়েকটি সেক্টরকে একত্রে ক্লাস্টার (Cluster) বলে।<br/>সুতরাং উত্তরঃ Tracks.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Agrani Bank Ltd. Recruitment Test for Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani Bank Ltd. Recruitment Test for Senior Officer 12.02.10"
+      },
+      {
+        "exam_name": "Agrani bank Ltd - Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Senior Officer - 12.02.10"
+      },
+      {
+        "exam_name": "Rajshahi Krishi Unnayan Bank - Senior Officers",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rajshahi Krishi Unnayan Bank - Senior Officers - 15.04.11"
+      }
+    ],
+    "exam_summary": "Agrani Bank Ltd. Recruitment Test for Senior Officer (2010), Agrani bank Ltd - Senior Officer (2010), Rajshahi Krishi Unnayan Bank - Senior Officers (2011)",
+    "question_variations": [
+      "Magnetized bits on a disk surface are arranged along concentric rings known as :",
+      "Magnetized bits on a disk surface are arranged along concentric rings are known as"
+    ]
+  },
+  {
+    "id": "miq_75",
+    "question": "Laser printers are known as-",
+    "options": [
+      "character printers",
+      "line printers",
+      "page printers",
+      "graphic printers"
+    ],
+    "correct_answer": "page printers",
+    "explanation": "🔖A laser printer (also known as Page Printers as they prints the whole page at once) represent a real technological revolution. laser printer is a type of printer which makes use of a laser beam to produce an image on the drum or you can say that it is a printer that makes use of a focused beam of light to transfer text and images onto paper. It was first developed by Gary Starkweather at Xerox PARC in 1971. Laser printer makes use of laser technology for the printing of copies onto the paper.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Agrani Bank Ltd. Recruitment Test for Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani Bank Ltd. Recruitment Test for Senior Officer 12.02.10"
+      },
+      {
+        "exam_name": "Agrani bank Ltd - Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Officer - 12.02.10"
+      },
+      {
+        "exam_name": "Agrani bank Ltd - Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Senior Officer - 12.02.10"
+      }
+    ],
+    "exam_summary": "Agrani Bank Ltd. Recruitment Test for Senior Officer (2010), Agrani bank Ltd - Officer (2010), Agrani bank Ltd - Senior Officer (2010)",
+    "question_variations": [
+      "Laser printers are known as ---",
+      "Laser printers are known as ----"
+    ]
+  },
+  {
+    "id": "miq_76",
+    "question": "Which of the following is an input device ?",
+    "options": [
+      "CRT Monitor",
+      "Speaker",
+      "Printer",
+      "Keyboard"
+    ],
+    "correct_answer": "Keyboard",
+    "explanation": "📖 Keyboard দিয়ে কম্পিউটারে তথ্য বা নির্দেশ প্রবেশ করানো হয়, তাই এটি ইনপুট ডিভাইস।<br/>❏ Monitor এবং Speaker হলো Output Device।<br/>❏ RAM হলো মেমোরি বা স্টোরেজ।<br/> ⇢ <br/>⛳ Input Device: ➺ যে যন্ত্রাংশের মাধ্যমে ব্যবহারকারী কম্পিউটারকে ডেটা বা নির্দেশ দেয় (যেমন: Keyboard, Mouse, Scanner)।<br/>❏ Output Device: ➺ যে যন্ত্রাংশ প্রক্রিয়াজাত ফলাফল প্রদর্শন করে বা শোনায় (যেমন: Monitor, Printer, Speaker)।<br/>❏ Keyboard হলো প্রধান ইনপুট ডিভাইস যা টাইপিংয়ের মাধ্যমে নির্দেশ পাঠায়।<br/> ⇢ <br/>⛳ তথ্যসমৃদ্ধ ব্যাখ্যা:<br/>❏ কম্পিউটারের সাথে যে ডিভাইসগুলো ব্যবহার করে আমরা কম্পিউটারে তথ্য বা ডেটা পাঠাই, সেগুলোকে Input Device (ইনপুট ডিভাইস) বলা হয়।<br/>❏ Keyboard (কীবোর্ড): ➺ এটি একটি প্রধান ইনপুট ডিভাইস। এর মাধ্যমে আমরা টাইপ করে কম্পিউটারে তথ্য দিই।<br/>❏ Monitor (মনিটর): ➺ এটি একটি Output Device (আউটপুট ডিভাইস)। এটি কম্পিউটারের ফলাফল বা ভিজুয়াল দেখায়।<br/>❏ RAM: ➺ এটি একটি Memory Device বা অভ্যন্তরীণ গুরুত্বপূর্ণ অংশ।<br/>❏ Speaker: ➺ এটি একটি Output Device। এটি শব্দ বা অডিও বের করে।<br/>❏ সুতরাং, সঠিক উত্তর হলো Keyboard।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Exim Bank Ltd - Assistant Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Exim Bank Ltd - Assistant Officer - 01.10.10"
+      },
+      {
+        "exam_name": "Islami Bank PLC_TAO",
+        "year": 2026,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Islami Bank PLC_TAO_7.2.26"
+      },
+      {
+        "exam_name": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার মুদ্রাক্ষরিক_১৭",
+        "year": null,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার মুদ্রাক্ষরিক_১৭"
+      }
+    ],
+    "exam_summary": "Exim Bank Ltd - Assistant Officer (2010), Islami Bank PLC_TAO (2026), জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার মুদ্রাক্ষরিক_১৭",
+    "question_variations": [
+      "নিচের কোনটি Input Device?"
+    ]
+  },
+  {
+    "id": "miq_77",
+    "question": "Which of the following is not an anti-virus software?",
+    "options": [
+      "Symantec",
+      "Kaspersky",
+      "AVG",
+      "Win-pro"
+    ],
+    "correct_answer": "Win-pro",
+    "explanation": "🔖Win -pro is not anti-viruses software.<br/>A common application is written in standard programming languages such as C, C++, Cobol or Java, and the calls to the Oracle database (SQL statements) are embedded within the procedural language code.<br/>An Oracle database is a collection of data treated as a unit.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Rajshahi Krishi Unnayan Bank - Senior Officers",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rajshahi Krishi Unnayan Bank - Senior Officers - 08.01.10"
+      },
+      {
+        "exam_name": "Trust Bank Ltd - Trainee Assistant Officer",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Trust Bank Ltd - Trainee Assistant Officer - 19.10.12"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2013",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2013"
+      }
+    ],
+    "exam_summary": "Rajshahi Krishi Unnayan Bank - Senior Officers (2010), Trust Bank Ltd - Trainee Assistant Officer (2012), Bangladesh Bank - Assistant Director - 2013 (2013)",
+    "question_variations": [
+      "Which of the following is not anti -virus software?",
+      "Which of the following is not an anti-virus software ?"
+    ]
+  },
+  {
+    "id": "miq_78",
+    "question": "কম্পিউটারকে ইন্টারনেটে সংযুক্ত করার জন্য কোন যন্ত্রাংশ আবশ্যক?",
+    "options": [
+      "ডিভিডি রম ড্রাইভ",
+      "মডেম",
+      "পেন ড্রাইভ",
+      "টাচ স্ক্রীন"
+    ],
+    "correct_answer": "মডেম",
+    "explanation": "🔖মডেম (মড্যুলেটর-ডিম্যুলেটর) হল একটি যন্ত্র যা একটি প্রেরিত এনালগ সংকেতকে ডিজিটাল তথ্যে রূপান্তর করে এবং ডিজিটাল তথ্যকে পাঠানোর সময় এনকোড করে এনালগ সংকেত হিসেবে প্রেরণ করে।<br/>এর উদ্দেশ্য হল সহজে সংকেত পাঠানো এবং তা আবার একই রকমভাবে অন্য প্রান্তে পাওয়া। ট্রান্সমিশন বা প্রেরণের অর্থে যেকোন কাজে মডেম ব্যবহার করা যায় রেডিও থেকে ডায়োড পর্যন্ত।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd - Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Officer 05.11.10"
+      },
+      {
+        "exam_name": "ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১",
+        "year": 2010,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১.১০"
+      },
+      {
+        "exam_name": "দুর্নীতি দমন কমিশনে উপসহকারী পরিচালক",
+        "year": 2010,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "দুর্নীতি দমন কমিশনে উপসহকারী পরিচালক-১২.১১.১০"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd - Officer (2010), ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১ (2010), দুর্নীতি দমন কমিশনে উপসহকারী পরিচালক (2010)",
+    "question_variations": [
+      "কম্পিউটারকে ইন্টারনেটে সংযুক্ত করার জন্য কোন যন্ত্রাংশটি আবশ্যক?"
+    ]
+  },
+  {
+    "id": "miq_79",
+    "question": "Which of the following is a keyboard command to copy some text in MS Word?",
+    "options": [
+      "Shift+Copy",
+      "Ctrl+C",
+      "Alt+G",
+      "Shift+C"
+    ],
+    "correct_answer": "Ctrl+C",
+    "explanation": "🔖Control+C is a common computer command.<br/>It is generated by pressing the C key while holding down the Ctrl key on most computer keyboards.<br/>In graphical user interface environments that use the control key to control the active program, control+C is often used to copy highlighted text to the clipboard.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd - Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Senior Officer 05.11.10"
+      },
+      {
+        "exam_name": "Titas Gas Co.Ltd - Deputy Asst. Engineer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Titas Gas Co.Ltd - Deputy Asst. Engineer - 18.02.11"
+      },
+      {
+        "exam_name": "Agrani bank Ltd - Senior Officer",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Senior Officer - 09.06.17"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd - Senior Officer (2010), Titas Gas Co.Ltd - Deputy Asst. Engineer (2011), Agrani bank Ltd - Senior Officer (2017)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_80",
+    "question": "Which of the following is an example of optical storage device?",
+    "options": [
+      "CD ROM",
+      "Hard Disk",
+      "RAM",
+      "CPU"
+    ],
+    "correct_answer": "CD ROM",
+    "explanation": "🔖IBM defines optical storage as \"any storage method that uses a laser to store and retrieve data from optical media.<br/>\" Britannica notes that it \"uses low-power laser beams to record and retrieve digital (binary) data.<br/>\" Compact disc (CD) and DVD are examples of optical media.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd - Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Senior Officer 05.11.10"
+      },
+      {
+        "exam_name": "Titas Gas Co.Ltd - Deputy Asst. Engineer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Titas Gas Co.Ltd - Deputy Asst. Engineer - 18.02.11"
+      },
+      {
+        "exam_name": "Agrani bank Ltd - Senior Officer",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Senior Officer - 09.06.17"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd - Senior Officer (2010), Titas Gas Co.Ltd - Deputy Asst. Engineer (2011), Agrani bank Ltd - Senior Officer (2017)",
+    "question_variations": [
+      "Which one of the following is an example of optical storage device?",
+      "Which one of the following in an example of optical storage device?"
+    ]
+  },
+  {
+    "id": "miq_81",
+    "question": "Mechanical devices in the computer are called-",
+    "options": [
+      "Data",
+      "User",
+      "Sofware",
+      "Hardware"
+    ],
+    "correct_answer": "Hardware",
+    "explanation": "🔖The mechanical devices that make up the computer are called hardware.<br/>Software is a set of electronic instructions consisting of complex codes called programs that make the computer perform tasks.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd - Senior Officer",
+        "year": 2010,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Senior Officer 05.11.10"
+      },
+      {
+        "exam_name": "Forest Industries Development Corporation - Asst. Manager",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Forest Industries Development Corporation - Asst. Manager - 02.08.13"
+      },
+      {
+        "exam_name": "বাংলাদেশ বনশিল্প উন্নয়ন কর্পোরেশন সহকারী ব্যবস্থাপক",
+        "year": 2013,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বাংলাদেশ বনশিল্প উন্নয়ন কর্পোরেশন সহকারী ব্যবস্থাপক-০২.০৮.১৩"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd - Senior Officer (2010), Forest Industries Development Corporation - Asst. Manager (2013), বাংলাদেশ বনশিল্প উন্নয়ন কর্পোরেশন সহকারী ব্যবস্থাপক (2013)",
+    "question_variations": [
+      "Mechanical devices in the computer are called ---"
+    ]
+  },
+  {
+    "id": "miq_82",
+    "question": "Which one is both input and output device ?",
+    "options": [
+      "Keyboard",
+      "plotter",
+      "printer",
+      "Touch screen"
+    ],
+    "correct_answer": "Touch screen",
+    "explanation": "🔖A touchscreen or touch screen is the assembly of both an input and output device. The touch panel is normally layered on the top of an electronic visual display of an information processing system. The display is often an LCD or OLED display while the system is usually a laptop, tablet, or smartphone.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Bangladesh Development Bank Ltd - Senior Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Development Bank Ltd - Senior Officer - 03.06.11"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd - Senior Officer",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Senior Officer - 29.03.13"
+      },
+      {
+        "exam_name": "Agrani bank Ltd - Senior Officer",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Senior Officer - 09.06.17"
+      }
+    ],
+    "exam_summary": "Bangladesh Development Bank Ltd - Senior Officer (2011), Sonali Bank Ltd - Senior Officer (2013), Agrani bank Ltd - Senior Officer (2017)",
+    "question_variations": [
+      "Which one is both input and output device?"
+    ]
+  },
+  {
+    "id": "miq_83",
+    "question": "Which one of the following is an example of file compression software?",
+    "options": [
+      "Win Compress",
+      "MS Compress",
+      "Win Zip",
+      "MS File Zip"
+    ],
+    "correct_answer": "Win Zip",
+    "explanation": "🔖The best file compression software will make it easy to compress files for easy storage, while also being able to work with multiple compression file types.<br/>WinZip. The original and best file compression tool.<br/>WinRAR. The best file compression software for RAR files.<br/>7-Zip.<br/>Zip Archiver.<br/>PeaZip.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "City Bank Ltd - Probationary Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "City Bank Ltd - Probationary Officer - 02.12.11"
+      },
+      {
+        "exam_name": "Exim Bank Ltd - Senior Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Exim Bank Ltd - Senior Officer - 30.12.11"
+      },
+      {
+        "exam_name": "Trust Bank Ltd - Assistant Officer",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Trust Bank Ltd - Assistant Officer - 30.03.12"
+      }
+    ],
+    "exam_summary": "City Bank Ltd - Probationary Officer (2011), Exim Bank Ltd - Senior Officer (2011), Trust Bank Ltd - Assistant Officer (2012)",
+    "question_variations": [
+      "which one of the following is an example of file compression software?"
+    ]
+  },
+  {
+    "id": "miq_84",
+    "question": "Which of the following is a Spread Sheet Program?",
+    "options": [
+      "MS Word",
+      "MS Power Point",
+      "MS Excel",
+      "Yahoo"
+    ],
+    "correct_answer": "MS Excel",
+    "explanation": "🔖Microsoft Excel is a spreadsheet developed by Microsoft for Windows, macOS, Android and iOS.<br/>It features calculation, graphing tools, pivot tables, and a macro programming language called Visual Basic for Applications (VBA).<br/>It has been a very widely applied spreadsheet for these platforms, especially since version 5 in 1993, and it has replaced Lotus 1-2-3 as the industry standard for spreadsheets. Excel forms part of the Microsoft Office suite of software.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "City Bank Ltd - Probationary Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "City Bank Ltd - Probationary Officer - 02.12.11"
+      },
+      {
+        "exam_name": "Trust Bank Ltd - Assistant Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Trust Bank Ltd - Assistant Officer - 14.01.11"
+      },
+      {
+        "exam_name": "Exim Bank Ltd - Management Trainee Officer",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Exim Bank Ltd - Management Trainee Officer - 11.01.13"
+      }
+    ],
+    "exam_summary": "City Bank Ltd - Probationary Officer (2011), Trust Bank Ltd - Assistant Officer (2011), Exim Bank Ltd - Management Trainee Officer (2013)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_85",
+    "question": "Which of the following is not an output device?",
+    "options": [
+      "Monitor",
+      "Printer",
+      "Mouse",
+      "Speaker"
+    ],
+    "correct_answer": "Mouse",
+    "explanation": "📖কয়েকটি <b>ইনপুট</b> ডিভাইসের নামঃ<br/>১. কীবোর্ড (Keyboard)<br/>২. <b>মাউস</b> (Mouse)<br/>৩, মাইক্রোফোন (Microphone)<br/>৪. স্ক্যানার (Scanner)<br/>৫, মডেম (Modem)<br/>৬. গ্রাফিক্স ট্যাবলেট (Graphics Tablet)<br/>৭, ওএমআর (OMR)<br/>৮, ওসিআর (OCR)<br/>৯, লাইটপেন (Light Pen)<br/>১০. টাচস্ক্রিন (Touch Screen) (আউটপুট হিসেবেও ব্যবহার হয়)<br/>১১. ট্র্যাকবল (Trackball)<br/>১২. ট্র্যাকপ্যাড (Trackpad) ইত্যাদি।<br/>❖কয়েকটি আউটপুট ডিভাইসের নামঃ<br/>১. <b>মনিটর</b> (Monitor)<br/>২. প্রজেক্টর (Projector)<br/>৩. <b>স্পিকার</b> (Speaker)<br/>৪, <b>প্রিন্টার</b> (Printer)<br/>৫. প্লটার (Plotter)<br/>৬. ইমেজ সেটার (Image Setter) <br/>৭. <b>হেডফোন</b> (Headphone) ইত্যাদি।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Investment Corporation - Senior Officer",
+        "year": 2011,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Investment Corporation - Senior Officer - 21.01.11"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd. Officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd. Officer 30.03.18"
+      },
+      {
+        "exam_name": "Sonali bank Ltd_officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank Ltd_officer - 30.03.18"
+      }
+    ],
+    "exam_summary": "Investment Corporation - Senior Officer (2011), Sonali Bank Ltd. Officer (2018), Sonali bank Ltd_officer (2018)",
+    "question_variations": [
+      "which of the following is not an output device?"
+    ]
+  },
+  {
+    "id": "miq_86",
+    "question": "The process of transferring files from a computer on the Internet to your computer is called ---",
+    "options": [
+      "Downloading",
+      "Uploading",
+      "Processing",
+      "FTP"
+    ],
+    "correct_answer": "Downloading",
+    "explanation": "🔖ইন্টারনেট কোনো ব্যবহারকারী যদি তার কম্পিউটার থেকে কোনো ডেটা অন্যকোনো কম্পিউটার বা সার্ভরে জমা করে, তাকে uploading বলে। আর ফাইল অন্যকোনো কম্পিউটার বা সার্ভারে থেকে নিজের কম্পিউটার জামা করে তাকে, downloading বলে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Dutch-Bangla Bank Ltd - Management Trainee Officer",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Dutch-Bangla Bank Ltd - Management Trainee Officer - 05.02.12"
+      },
+      {
+        "exam_name": "Probashi kallyan bank - senior officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Probashi kallyan bank - senior officer -19.01.18"
+      },
+      {
+        "exam_name": "Sonali bank Ltd_officer ( cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank Ltd_officer ( cash) -27.04.18"
+      }
+    ],
+    "exam_summary": "Dutch-Bangla Bank Ltd - Management Trainee Officer (2012), Probashi kallyan bank - senior officer (2018), Sonali bank Ltd_officer ( cash) (2018)",
+    "question_variations": [
+      "The process of transferring files from a computer on the internet to your computer is called"
+    ]
+  },
+  {
+    "id": "miq_87",
+    "question": "Which one of the following tools is used in Business intelligence?",
+    "options": [
+      "OLAP",
+      "Data mining",
+      "Web mining",
+      "All of these"
+    ],
+    "correct_answer": "All of these",
+    "explanation": "🔖আঁকাড়া বাংলা উপসর্গযোগে গঠিত।<br/>এদেশে আর্যরা আগমনের পূর্বে যে সব জাতি বাস করত, তাদের নিজস্ব ভাষা থেকে যে সব উপসর্গ বাংলা ভাষায় ব্যবহৃত হচ্ছে, সেগুলোর নামই দেশী বা খাঁটি বাংলা উপসর্গ ।খাঁটি বাংলা উপসর্গের সংখ্যা মোট একুশটি । যেমন- অ, আ, অঘা, অনা, অজ, আন, আব, আড়, ইতি, ঊন (উন), কু, কদ, নি, পাত (পাতি), বি, ভর, রাম, স, সা, সু, হা ।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Dutch-Bangla Bank Ltd - Management Trainee Officer",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Dutch-Bangla Bank Ltd - Management Trainee Officer - 05.02.12"
+      },
+      {
+        "exam_name": "Exim Bank Ltd - Officer (IT)",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Exim Bank Ltd - Officer (IT) - 26.07.13"
+      },
+      {
+        "exam_name": "বাংলাদেশ ব্যাংক_সহকারী পরিচালক",
+        "year": 2023,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "বাংলাদেশ ব্যাংক_সহকারী পরিচালক_20.10.23"
+      }
+    ],
+    "exam_summary": "Dutch-Bangla Bank Ltd - Management Trainee Officer (2012), Exim Bank Ltd - Officer (IT) (2013), বাংলাদেশ ব্যাংক_সহকারী পরিচালক (2023)",
+    "question_variations": [
+      "Which of the following tools is used in business intelligence?"
+    ]
+  },
+  {
+    "id": "miq_88",
+    "question": "’কম্পিউটার বাগ’ কি?",
+    "options": [
+      "হার্ডওয়্যার ও হার্ডওয়্যারের বহির্বিভাগের ভুল",
+      "সফটওয়্যারের অন্তর্নিহিত ভুল",
+      "হার্ডওয়্যারের অন্তর্নিহিত ভুল",
+      "কোনোটিই নয়"
+    ],
+    "correct_answer": "সফটওয়্যারের অন্তর্নিহিত ভুল",
+    "explanation": "🔖'কম্পিউটার বাগ' হলো --- সফটওয়্যারের অন্তর্নিহিত ভুল।<br/>সফটওয়্যার বাগ হল কম্পিউটারের একটি ত্রুটি । এই ত্রুটির কারণে কম্পিউটারের প্রোগ্রাম বা সিস্টেম যে কোন কাজ এর ফলাফল ভুল আসবে যেটাকে বলা হয় সফটওয়্যার বাগ ।<br/>সফটওয়্যার বাগ ফিক্স করার পদ্ধতি কে ডিভাগিং বলা হয় এবং বাগ গুলো চিহ্নিত করার জন্য ফরমাল টেকনিক ও টুলস ব্যবহার করে থাকা হয়। ১৯৫০ সাল থেকে কিছু কম্পিউটার ডিজাইন করা হয় সফটওয়্যার বাগ সনাক্ত এবং স্বয়ংক্রিয় ভাবে অটো কারেকশন সহ।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Social Development Foundation - Data Entry Operator",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Social Development Foundation - Data Entry Operator - 13.07.12"
+      },
+      {
+        "exam_name": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক -মেঘনা",
+        "year": 2012,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক -মেঘনা- ২৪.০২.১২"
+      },
+      {
+        "exam_name": "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭",
+        "year": 2012,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭.১২"
+      }
+    ],
+    "exam_summary": "Social Development Foundation - Data Entry Operator (2012), প্রাথমিক বিদ্যালয় সহকারী শিক্ষক -মেঘনা (2012), অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭ (2012)",
+    "question_variations": [
+      "'কম্পিউটার বাগ' হলো ---",
+      "'কম্পিউটার বাগ' কি?"
+    ]
+  },
+  {
+    "id": "miq_89",
+    "question": "১০২৪ বাইট = কত?",
+    "options": [
+      "১ মেগাবাইট",
+      "১ গিগাবাইট",
+      "১ কিলোবাইট",
+      "১ টেরাবাইট"
+    ],
+    "correct_answer": "১ কিলোবাইট",
+    "explanation": "🔖১০২৪ বাইট = ১ কিলোবাইট।<br/>১০২৪ কিলোবাইট = ১ মেগাবাইট।<br/>১০২৪ মেগাবাইট = ১ গিগাবাইট।<br/>১০২৪ গিগাবাইট = ১ টেরাবাইট।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Social Development Foundation - Data Entry Operator",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Social Development Foundation - Data Entry Operator - 13.07.12"
+      },
+      {
+        "exam_name": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক -কর্ণফুলী",
+        "year": 2012,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক -কর্ণফুলী- ২৪.০২.১২"
+      },
+      {
+        "exam_name": "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭",
+        "year": 2012,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭.১২"
+      }
+    ],
+    "exam_summary": "Social Development Foundation - Data Entry Operator (2012), প্রাথমিক বিদ্যালয় সহকারী শিক্ষক -কর্ণফুলী (2012), অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭ (2012)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_90",
+    "question": "সমস্যা সমাধানের জন্য বিশেষ অনুক্রমে সাজানো কম্পিউটার নির্দেশকে কি বলা হয়?",
+    "options": [
+      "প্রক্রিয়াকরণ",
+      "প্রোগ্রাম",
+      "নিয়ন্ত্রন",
+      "স্মৃতি"
+    ],
+    "correct_answer": "প্রোগ্রাম",
+    "explanation": "<p>সমস্য সমাধানে বিশেষ অনুক্রমে সাজানো কম্পিউটার নির্দেশনাকে <b>প্রোগ্রাম </b>বলে।<i>কম্পিউটার প্রোগ্রাম (বা সফটওয়্যার প্রোগ্রাম বা শুধু প্রোগ্রাম) হচ্ছে কম্পিউটারের জন্য তৈরীকৃত নির্দেশমালা। কম্পিউটার এই নির্দেশগুলোই নির্বাহ বা সম্পাদনা করে। কম্পিউটার প্রোগ্রামারগন প্রোগ্রাম লিখে থাকেন। প্রোগ্রাম লেখা হয় প্রোগ্রামিং ভাষায়।</i></p>",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Social Development Foundation - Data Entry Operator",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Social Development Foundation - Data Entry Operator - 13.07.12"
+      },
+      {
+        "exam_name": "রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক -হাসনাহেনা",
+        "year": 2011,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক -হাসনাহেনা- ০৯.১২.১১"
+      },
+      {
+        "exam_name": "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭",
+        "year": 2012,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭.১২"
+      }
+    ],
+    "exam_summary": "Social Development Foundation - Data Entry Operator (2012), রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক -হাসনাহেনা (2011), অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭ (2012)",
+    "question_variations": [
+      "সমস্যা সমাধানের জন্য বিশেষ অনুক্রমে সাজানো কম্পিউটার নির্দেশকে বলা হয় ---"
+    ]
+  },
+  {
+    "id": "miq_91",
+    "question": "কম্পিউটারে কোনটি নেই?",
+    "options": [
+      "স্মৃতি",
+      "বুদ্ধি",
+      "দীর্ঘ সময় কাজ করার ক্ষমতা",
+      "নির্ভুল কাজ করার ক্ষমতা"
+    ],
+    "correct_answer": "বুদ্ধি",
+    "explanation": "🔖কম্পিউটার কার্যক্রমও হয় হার্ডওয়ার ও সফটওয়্যার এর সমন্বয়ে মাধ্যমে যা কোন ব্যবহারকারীর নির্দেশনা অনুসরণ করে। কম্পিউটারে প্রদত্ত তথ্য উপাত্ত বিচার-বিশ্লেষণ করেই কেবল এটি ফলাফল প্রদর্শন করে। কিন্তু কম্পিউটারের নিজস্ব কোন বুদ্ধি বিবেচনা নেই।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Social Development Foundation - Data Entry Operator",
+        "year": 2012,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Social Development Foundation - Data Entry Operator - 13.07.12"
+      },
+      {
+        "exam_name": "প্রাক-প্রাথমিক সহকারী শিক্ষক - মুক্তিযোদ্ধা কোটা",
+        "year": 2016,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "প্রাক-প্রাথমিক সহকারী শিক্ষক - মুক্তিযোদ্ধা কোটা- .১৬"
+      },
+      {
+        "exam_name": "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭",
+        "year": 2012,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭.১২"
+      }
+    ],
+    "exam_summary": "Social Development Foundation - Data Entry Operator (2012), প্রাক-প্রাথমিক সহকারী শিক্ষক - মুক্তিযোদ্ধা কোটা (2016), অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন- এন্ট্রি অপারেটর-৭ (2012)",
+    "question_variations": [
+      "কম্পিউটারে কোনটি নেই ?"
+    ]
+  },
+  {
+    "id": "miq_92",
+    "question": "নিচের কোনটি একটি ভিডিও ফাইল ফরম্যাটের এক্সটেনশন?",
+    "options": [
+      ".jpg",
+      ".exe",
+      ".mpg",
+      ".bmp"
+    ],
+    "correct_answer": ".mpg",
+    "explanation": "🔖Below is a list of the most commonly found video file extensions.<br/>.3g2 – 3GPP2 multimedia file<br/>.3gp – 3GPP multimedia file<br/>.avi – AVI file<br/>.flv – Adobe Flash file<br/>.h264 – H.264 video file<br/>.m4v – Apple MP4 video file<br/>.mkv – Matroska Multimedia Container<br/>.mov – Apple QuickTime movie file<br/>.mp4 – MPEG4 video file<br/>.mpg or .mpeg – MPEG video file<br/>.rm – RealMedia file",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Anti Corruption Commission - Asst. Director",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Anti Corruption Commission - Asst. Director - 12.04.13"
+      },
+      {
+        "exam_name": "বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেড (সহকারী ব্যবস্থাপক)-1",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেড (সহকারী ব্যবস্থাপক)-1.21"
+      },
+      {
+        "exam_name": "দুর্নীতি দমন কমিশনের সহকারী পরিচালক",
+        "year": 2013,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "দুর্নীতি দমন কমিশনের সহকারী পরিচালক-১২.০৪.১৩"
+      }
+    ],
+    "exam_summary": "Anti Corruption Commission - Asst. Director (2013), বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেড (সহকারী ব্যবস্থাপক)-1 (2021), দুর্নীতি দমন কমিশনের সহকারী পরিচালক (2013)",
+    "question_variations": [
+      "নিচের কোন ভিডিও ফাইল এক্সটেনশন ফরম্যাট?"
+    ]
+  },
+  {
+    "id": "miq_93",
+    "question": "What is the meaning of 'WWW' written in front of a web address?",
+    "options": [
+      "World Wide Wireless Windows",
+      "World Wide Web",
+      "World Wide WAN",
+      "World Wide Wire-free Woofer"
+    ],
+    "correct_answer": "World Wide Web",
+    "explanation": "🔖এটিকে ইন্টারনেটের সমার্থক বা প্রতিশব্দ বলা যেতে পারে। ইংরেজ বিজ্ঞানী স্যার টিম বার্নার্স লি ১৯৮৯ সালে ওয়ার্ল্ড ওয়াইড ওয়েব আবিষ্কার করেছিলেন। সারা পৃথিবী জুড়ে বিদ্যমান ইন্টারনেট ব্যবস্থাকেই ওয়ার্ল্ড ওয়াইড ওয়েব (world-wide-web) বলা হয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 2,
+    "exam_references": [
+      {
+        "exam_name": "Exim Bank Ltd - Officer (Cash)",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Exim Bank Ltd - Officer (Cash) - 26.07.13"
+      },
+      {
+        "exam_name": "সিনিয়র অফিসার (টেক্সটাইল)",
+        "year": 2020,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সিনিয়র অফিসার (টেক্সটাইল) - 06.11.20"
+      }
+    ],
+    "exam_summary": "Exim Bank Ltd - Officer (Cash) (2013), সিনিয়র অফিসার (টেক্সটাইল) (2020)",
+    "question_variations": [
+      "What is the meaning of WWW written is front of a web address?"
+    ]
+  },
+  {
+    "id": "miq_94",
+    "question": "Which one is an application package?",
+    "options": [
+      "DOS",
+      "LOTUS",
+      "LUNUX",
+      "UBUNTU"
+    ],
+    "correct_answer": "LOTUS",
+    "explanation": "📖 <b>সফটওয়্যারের শ্রেণি বিভাগ:</b><br/>▣ কম্পিউটারের সফটওয়্যারকে মূলত দুই ভাগে ভাগ করা হয়। যথা: <br/>❐ ১. সিস্টেম সফটওয়্যার (System Software) ও<br/>❐ ২. অ্যাপ্লিকেশন সফটওয়্যার (Application Software) বা ব্যবহারিক সফটওয়্যার।<br/>▣ <b>সিস্টেম সফটওয়্যার (System Software)</b>:<br/>▣ সিস্টেম সফটওয়্যার হলো কম্পিউটারের নিয়ন্ত্রক।<br/>▣ এটি কম্পিউটারের হার্ডওয়্যার ও ব্যবহারিক প্রোগ্রামের মধ্যে যোগসূত্র রচনা ও রক্ষা করে। <br/>▣ কম্পিউটারকে সঠিকভাবে পরিচালনা ও নিয়ন্ত্রণের জন্য যে সকল প্রোগ্রাম বা প্রোগ্রাম সমষ্টি দরকার তাদেরকে সিস্টেম সফটওয়্যার বলে। <br/>▣ DOS, Windows Xp, Linux, Unix, Mac OS, Solaries ইত্যাদি হলো সিস্টেম সফটওয়্যারের উদাহরণ।<br/>▣ <b>অ্যাপ্লিকেশন সফটওয়্যার (</b>Application Software):<br/>▣ অ্যাপ্লিকেশন সফট্ওয়্যার কম্পিউটারে বিভিন্ন ধরনের ব্যবহারিক কাজের জন্য তৈরি হয়।<br/>▣ ব্যবহারকারী যে সকল সফটওয়্যার ব্যবহার করে ব্যবহারিক সমস্যা সমাধান বা ডেটা প্রক্রিয়াকরণের কাজ করতে পারে তাকে অ্যাপ্লিকেশন প্রোগ্রাম বা ব্যবহারিক সফটওয়্যার বলা হয়। যেমন:<br/>▣ Word Processing Package Program: Word Star, Word Perfect, Ms Word, Word Note.<br/>▣ Spreadsheet Package Program: <b>Lotus 1-2-3</b>, Ms-Excel, Qrater Pro.<br/>▣ Database Package Program: dBase, Foxpro, Oracle, Informix, Access ইত্যাদি।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd - Senior Officer",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Senior Officer - 29.03.13"
+      },
+      {
+        "exam_name": "Krishi Bank - Officer",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Krishi Bank - Officer - 15.09.17"
+      },
+      {
+        "exam_name": "শিক্ষা প্রকৌশল অধিদপ্তর_ডাটা এন্ট্রি অপারেটর",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "শিক্ষা প্রকৌশল অধিদপ্তর_ডাটা এন্ট্রি অপারেটর_19.11.21"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd - Senior Officer (2013), Krishi Bank - Officer (2017), শিক্ষা প্রকৌশল অধিদপ্তর_ডাটা এন্ট্রি অপারেটর (2021)",
+    "question_variations": [
+      "Which one is an application package ?",
+      "নিচের কোনটি ‍Application package?"
+    ]
+  },
+  {
+    "id": "miq_95",
+    "question": "When you start your computer then which component works first ?",
+    "options": [
+      "BIOS",
+      "Processor",
+      "Hard Disk",
+      "RAM"
+    ],
+    "correct_answer": "BIOS",
+    "explanation": "📝 - BIOS stands for Basic Input Output System.<br/>▣ এটি System BIOS, ROM BIOS, PC BIOS হিসেবে পরিচিত।<br/>▣ কম্পিউটারের মাদারবোর্ডের Firmware chip এর মধ্যে থাকা কতগুলো নির্দেশনার সমষ্টি হল BIOS।<br/>▣ BIOS মাধ্যমে কম্পিউটারের সিস্টেম কনফিগারেশন নির্ধারণ করা হয়।<br/>❐ <b>- কম্পিউটার Boot হওয়ার পরপরই যে সফটওয়্যারটি Run হয় সেটি হল BIOS.</b>",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "BASIC Bank Ltd - Assistant Officer (Cash)",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "BASIC Bank Ltd - Assistant Officer (Cash) - 17.01.14"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Officer - 2015",
+        "year": 2015,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Officer - 2015"
+      },
+      {
+        "exam_name": "Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009"
+      }
+    ],
+    "exam_summary": "BASIC Bank Ltd - Assistant Officer (Cash) (2014), Bangladesh Bank - Officer - 2015 (2015), Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009 (2009)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_96",
+    "question": "Which of the following is a programming language?",
+    "options": [
+      "Lotus",
+      "Pascal",
+      "MS-Excel",
+      "Netscape"
+    ],
+    "correct_answer": "Pascal",
+    "explanation": "🔖(b) Pascal is a high level programming language. Other high level programming language are C, Basic. (a) Lotus is a word processing package. (c) MS-Excel is a spread sheet package, (d) Netscape is a browser.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Meghna Bank ltd- Management Trainee Officer",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Meghna Bank ltd- Management Trainee Officer - 21.11.14"
+      },
+      {
+        "exam_name": "Mercantile Bank Ltd - Management Trainee Officer",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Mercantile Bank Ltd - Management Trainee Officer - 21.11.14"
+      },
+      {
+        "exam_name": "Rupali bank recruitment test 2018 ; officer ( cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rupali bank recruitment test 2018 ; officer ( cash) - 09.03.18"
+      }
+    ],
+    "exam_summary": "Meghna Bank ltd- Management Trainee Officer (2014), Mercantile Bank Ltd - Management Trainee Officer (2014), Rupali bank recruitment test 2018 ; officer ( cash) (2018)",
+    "question_variations": [
+      "Which of the following is a programming language ?"
+    ]
+  },
+  {
+    "id": "miq_97",
+    "question": "Which of the following is not an output device?",
+    "options": [
+      "Scanner",
+      "Printer",
+      "Flat Screen",
+      "Touch Screen"
+    ],
+    "correct_answer": "Scanner",
+    "explanation": "🔖স্ক্যানার (scanner) কোন ছবি বা লেখা হুবহু ডিজিটাল ডেটায় বা কম্পিউটারে সংরক্ষণের জন্য ব্যবহৃত যন্ত্র। বর্তমানে ডিজিটাল ক্যামেরা আসার পূর্বে ছাপা কোন তর্থ কম্পিউটারে সংরক্ষণের এটি ছিল একমাত্র সমাধান। আর scanner হলো একটি ইনপুট ডিভাইস।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Meghna Bank ltd- Management Trainee Officer",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Meghna Bank ltd- Management Trainee Officer - 21.11.14"
+      },
+      {
+        "exam_name": "Mercantile Bank Ltd - Management Trainee Officer",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Mercantile Bank Ltd - Management Trainee Officer - 21.11.14"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2013",
+        "year": 2013,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2013"
+      }
+    ],
+    "exam_summary": "Meghna Bank ltd- Management Trainee Officer (2014), Mercantile Bank Ltd - Management Trainee Officer (2014), Bangladesh Bank - Assistant Director - 2013 (2013)",
+    "question_variations": [
+      "Which of the following is not an output device ?"
+    ]
+  },
+  {
+    "id": "miq_98",
+    "question": "The primary job of the operating system of a computer is to -",
+    "options": [
+      "Manage resources",
+      "Provide utilities",
+      "Provide communication interface",
+      "None"
+    ],
+    "correct_answer": "Manage resources",
+    "explanation": "🔖জটিল বা মিশ্র বাক্য চেনার সহজ উপায় হল, এ ধরনের বাক্যে সাধারণত যে- সে, যত- তত, যারা- তারা, যাদের- তাদের, যখন- তখন - এ ধরনের সাপেক্ষ সর্বনাম পদ থাকে। দুইটি অব্যয় যদি অর্থ প্রকাশের জন্য পরস্পরের উপর নির্ভর করে, তবে তাকে সাপেক্ষ সর্বনাম বলে। আবার যদি- তবু, অথচ- তথাপি- এ রকম কিছু পরস্পর সাপেক্ষ সর্বনাম/অব্যয়ও জটিল/মিশ্র বাক্যে ব্যবহৃত হয়।তবে এ ধরনের অব্যয় ছাড়াও জটিল বা মিশ্র বাক্য হতে পারে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Palli Karma-Sahayak Foundation - Asst. Manager",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Palli Karma-Sahayak Foundation - Asst. Manager - 07.03.14"
+      },
+      {
+        "exam_name": "Pubali Bank Ltd - Officer_Senior Officer",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd - Officer_Senior Officer - 11.07.14"
+      },
+      {
+        "exam_name": "পল্লী কর্ম সহায়ক ফাউন্ডেশনের অ্যাসিসট্যান্ট ম্যানেজার",
+        "year": 2014,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী কর্ম সহায়ক ফাউন্ডেশনের অ্যাসিসট্যান্ট ম্যানেজার-০৭.০৩.১৪"
+      }
+    ],
+    "exam_summary": "Palli Karma-Sahayak Foundation - Asst. Manager (2014), Pubali Bank Ltd - Officer_Senior Officer (2014), পল্লী কর্ম সহায়ক ফাউন্ডেশনের অ্যাসিসট্যান্ট ম্যানেজার (2014)",
+    "question_variations": [
+      "The primary job of the operating system of a computer is to",
+      "The primary job of operating system of a computer is to -"
+    ]
+  },
+  {
+    "id": "miq_99",
+    "question": "Which of the following services does not normally use TCP?",
+    "options": [
+      "DNS",
+      "HTTP",
+      "FTP",
+      "None"
+    ],
+    "correct_answer": "None",
+    "explanation": "<p><br/>DNS, SMTP, HTTP and FTP use TCP.</p><br/><br/>DNS, SMTP, HTTP and FTP use TCP.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Palli Karma-Sahayak Foundation - Asst. Manager",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Palli Karma-Sahayak Foundation - Asst. Manager - 07.03.14"
+      },
+      {
+        "exam_name": "Pubali Bank Ltd - Officer_Senior Officer",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd - Officer_Senior Officer - 11.07.14"
+      },
+      {
+        "exam_name": "পল্লী কর্ম সহায়ক ফাউন্ডেশনের অ্যাসিসট্যান্ট ম্যানেজার",
+        "year": 2014,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী কর্ম সহায়ক ফাউন্ডেশনের অ্যাসিসট্যান্ট ম্যানেজার-০৭.০৩.১৪"
+      }
+    ],
+    "exam_summary": "Palli Karma-Sahayak Foundation - Asst. Manager (2014), Pubali Bank Ltd - Officer_Senior Officer (2014), পল্লী কর্ম সহায়ক ফাউন্ডেশনের অ্যাসিসট্যান্ট ম্যানেজার (2014)",
+    "question_variations": [
+      "which of the following services does not normally use TCP?"
+    ]
+  },
+  {
+    "id": "miq_100",
+    "question": "A hard disk is divided into tracks which are further subdivided into:",
+    "options": [
+      "Clusters",
+      "Sectors",
+      "Vectors",
+      "None"
+    ],
+    "correct_answer": "Sectors",
+    "explanation": "🔖Hard Disk এর ভেতরে মূলত CD/DVD এর মতো গোলাকার Metal Disk থাকে। প্রতিটি Disk কে Circle আকারে চিহ্নিত করা হয়ে থাকে যাকে Track বলে এবং এই Track এর ক্ষুদ্র ক্ষুদ্র অংশকে কে বলা হয় Sector। এই Sector গুলোতেই মূলত Data সংরক্ষিত হয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Pubali Bank Ltd - Officer_Senior Officer",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd - Officer_Senior Officer - 11.07.14"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd - Officer (IT)",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Officer (IT) - 23.12.16"
+      },
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2014",
+        "year": 2014,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2014"
+      }
+    ],
+    "exam_summary": "Pubali Bank Ltd - Officer_Senior Officer (2014), Sonali Bank Ltd - Officer (IT) (2016), Bangladesh Bank - Assistant Director - 2014 (2014)",
+    "question_variations": [
+      "A hard disk is divided into tracks which are further subdivided into :"
+    ]
+  },
+  {
+    "id": "miq_101",
+    "question": "What is the tenure of the Governor of Bangladesh bank?",
+    "options": [
+      "2 years",
+      "4 years",
+      "3 years",
+      "5 years"
+    ],
+    "correct_answer": "4 years",
+    "explanation": "🔖১৯৭১ সালের ১৬ ডিসেম্বর (বাংলাদেশ ব্যাংক অর্ডার ১৯৭২ অনুসারে) বাংলাদেশ ব্যাংক প্রতিষ্ঠিত হয়। এই ব্যাংক ৯ জন পরিচালনা পর্যদের সদস্যের সমন্বয়ে গঠিত। যেখানে রয়েছে ১ জন চেয়ারম্যান ও ৮ জন পরিচালক। উল্লেখ্য, বাংলাদেশ ব্যাংকের গভর্নরের মেয়াদ কাল হচ্ছে ৪ বছর।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Pubali Bank Ltd - Junior Officer",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Pubali Bank Ltd - Junior Officer - 01.01.16"
+      },
+      {
+        "exam_name": "Krishi Bank - Officer (Cash)",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Krishi Bank - Officer (Cash) - 27.10.17"
+      },
+      {
+        "exam_name": "Bangladesh Bank - IT - 2016",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - IT - 2016"
+      }
+    ],
+    "exam_summary": "Pubali Bank Ltd - Junior Officer (2016), Krishi Bank - Officer (Cash) (2017), Bangladesh Bank - IT - 2016 (2016)",
+    "question_variations": [
+      "The tenure of the Governor Of Bangladesh Bank is-",
+      "What is the tenure of the Governor of Bangladesh Bank ?"
+    ]
+  },
+  {
+    "id": "miq_102",
+    "question": "According to Boolean algebra the value of (A+AB).(B+AB) is",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "1"
+    ],
+    "correct_answer": "AB",
+    "explanation": "🔖Here boolean algebra equation is (A+AB). (B+AB). here solution is the<br/>1 step: A(1+B). B(1+A) we can take common A and B from both<br/>2 step: A.1.B.1 we know that (1+something)=1 for boolean algebra<br/>3 step: AB (answer)",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 2,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd - Assistant Engineer (IT)",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Assistant Engineer (IT) - 26.08.16"
+      },
+      {
+        "exam_name": "Sonali, Rupali, Bangladesh Krishi, Rajshahi krishi unnayn,Investment Corporation of Bangladesh",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali, Rupali, Bangladesh Krishi, Rajshahi krishi unnayn,Investment Corporation of Bangladesh_30.11.18"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd - Assistant Engineer (IT) (2016), Sonali, Rupali, Bangladesh Krishi, Rajshahi krishi unnayn,Investment Corporation of Bangladesh (2018)",
+    "question_variations": [
+      "According to Boolean algebra the value of ( A + AB)(B + AB) is",
+      "According to Boolean algebra the value of (A + AB) (B + AB ) is"
+    ]
+  },
+  {
+    "id": "miq_103",
+    "question": "Which of the declaration is correct?",
+    "options": [
+      "int-length",
+      "char-int",
+      "int long",
+      "float double"
+    ],
+    "correct_answer": "int-length",
+    "explanation": "🔖Declaration tells the compiler about data type and size of the variable, Variable name must be begin with letter at the time of declaration. Example : int a, b, x;",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 2,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd - Assistant Programmer",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Assistant Programmer - 26.08.16"
+      },
+      {
+        "exam_name": "Sonali & Janata Bank_Officer (IT)",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali & Janata Bank_Officer (IT)_04.01.19"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd - Assistant Programmer (2016), Sonali & Janata Bank_Officer (IT) (2019)",
+    "question_variations": [
+      "which of the declaration is correct?",
+      "which of the declaration is correct ?"
+    ]
+  },
+  {
+    "id": "miq_104",
+    "question": "What is the value of 'd after this line of code has been executed? double d= Math. round (2.5 math. random() );",
+    "options": [
+      "2",
+      "2.5",
+      "3",
+      "4"
+    ],
+    "correct_answer": "3",
+    "explanation": "🔖The Math.random() method returns a number greater than or equal to 0 and less than 1 . Since we can then be sure that the sum of that number and 2.5 will be greater than or equal to 2.5 and less than 3.5, we can be sure that Math.round() will round that number to 3. So Option B is the answer.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd - Assistant Programmer",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Assistant Programmer - 26.08.16"
+      },
+      {
+        "exam_name": "Investment Corporation - Assistant Programmer",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Investment Corporation - Assistant Programmer - 27.10.17"
+      },
+      {
+        "exam_name": "Sonali, Rupali, Bangladesh Krishi, Rajshahi krishi unnayn,Investment Corporation of Bangladesh",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali, Rupali, Bangladesh Krishi, Rajshahi krishi unnayn,Investment Corporation of Bangladesh_30.11.18"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd - Assistant Programmer (2016), Investment Corporation - Assistant Programmer (2017), Sonali, Rupali, Bangladesh Krishi, Rajshahi krishi unnayn,Investment Corporation of Bangladesh (2018)",
+    "question_variations": [
+      "What is the value of 'd' after this line of code has been executed? double d=Math.round(2.5 + Math.random() );",
+      "what is the value of 'd' after this line of code has been executed ? double d = Math round ( 2.5 + math random () );"
+    ]
+  },
+  {
+    "id": "miq_105",
+    "question": "Which one is a universal logic gate?",
+    "options": [
+      "NAND",
+      "AND",
+      "OR",
+      "NOT"
+    ],
+    "correct_answer": "NAND",
+    "explanation": "🔖A universal gate is a gate which can implement any Boolean function without need to use any other gate type.<br/>The NAND and NOR gates are universal gates. In practice, this is advantageous since NAND and NOR gates are economical and easier to fabricate and are the basic gates used in all IC digital logic families.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd - Assistant Programmer",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd - Assistant Programmer - 26.08.16"
+      },
+      {
+        "exam_name": "Investment Corporation - Assistant Programmer",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Investment Corporation - Assistant Programmer - 27.10.17"
+      },
+      {
+        "exam_name": "Sonali, Rupali, Bangladesh Krishi, Rajshahi krishi unnayn,Investment Corporation of Bangladesh",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali, Rupali, Bangladesh Krishi, Rajshahi krishi unnayn,Investment Corporation of Bangladesh_30.11.18"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd - Assistant Programmer (2016), Investment Corporation - Assistant Programmer (2017), Sonali, Rupali, Bangladesh Krishi, Rajshahi krishi unnayn,Investment Corporation of Bangladesh (2018)",
+    "question_variations": [
+      "which one is a universal logic gate?"
+    ]
+  },
+  {
+    "id": "miq_106",
+    "question": "Typeface option will come under .......... menu.",
+    "options": [
+      "Edit",
+      "Format",
+      "Tools",
+      "View"
+    ],
+    "correct_answer": "Format",
+    "explanation": "🔖The typeface option will come under the Format menu.<br/>Explanation:<br/>Typeface is a type of typography that uses various types of alphabetical symbols with various user-friendly designs.<br/>The fonts that are used in a typeface is composed of multiple design fonts which include different weight, style, condensation, breadth, slant, italicization, design, with words made either to give gloss, matt or metallic finish.<br/>For example: \"Proxima Bold Black\" means the font Proxima is bold in weight, and black in colour preference.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Agrani bank Ltd - Senior Officer Morning (Cancelled)",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Agrani bank Ltd - Senior Officer Morning (Cancelled) - 19.05.17"
+      },
+      {
+        "exam_name": "Officer (Cash) -Sonali Bank_BD Development_BD Krishi Bank",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Officer (Cash) -Sonali Bank_BD Development_BD Krishi Bank - 12.10.18"
+      },
+      {
+        "exam_name": "অফিসার (ক্যাশ) নিয়োগ পরীক্ষা- ১২-১০",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "অফিসার (ক্যাশ) নিয়োগ পরীক্ষা- ১২-১০.১৮"
+      }
+    ],
+    "exam_summary": "Agrani bank Ltd - Senior Officer Morning (Cancelled) (2017), Officer (Cash) -Sonali Bank_BD Development_BD Krishi Bank (2018), অফিসার (ক্যাশ) নিয়োগ পরীক্ষা- ১২-১০ (2018)",
+    "question_variations": [
+      "Typeface option will come under which menu ?",
+      "Typeface option will come under which menu?"
+    ]
+  },
+  {
+    "id": "miq_107",
+    "question": "The process of a computer receiving information from a server on the Internet is known as :",
+    "options": [
+      "Uploading",
+      "Pushing",
+      "Downloading",
+      "Transferring"
+    ],
+    "correct_answer": "Downloading",
+    "explanation": "🔖ইন্টারনেটের মাধ্যমে একটি সার্ভার থেকে তথ্য নেওয়ার মাধ্যমকে Downloading বলে। অন্যদিকে তথ্য দেওয়ার প্রক্রিয়াকে Uploading বলে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Janata Bank Ltd - Asst. Executive Officer",
+        "year": 2017,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Janata Bank Ltd - Asst. Executive Officer - 04.08.17"
+      },
+      {
+        "exam_name": "Officer (General) -Ansar VDP Unnayan_BD House Building Finance Corporation",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Officer (General) -Ansar VDP Unnayan_BD House Building Finance Corporation 28.09.18"
+      },
+      {
+        "exam_name": "Two Combined Bank Recruitment Test - Officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Two Combined Bank Recruitment Test - Officer 28.09.18"
+      }
+    ],
+    "exam_summary": "Janata Bank Ltd - Asst. Executive Officer (2017), Officer (General) -Ansar VDP Unnayan_BD House Building Finance Corporation (2018), Two Combined Bank Recruitment Test - Officer (2018)",
+    "question_variations": [
+      "The process of a computer receiving information from a server on the internet is known as"
+    ]
+  },
+  {
+    "id": "miq_108",
+    "question": "Which of the following types of menu shows the further sub-choices ?",
+    "options": [
+      "Reverse",
+      "Template",
+      "Scrolled",
+      "Pull-down"
+    ],
+    "correct_answer": "Pull-down",
+    "explanation": "🔖Option - এ উল্লিখিত মেনু চারটি ( Reverse, Template, Scrolled ও Pull down) মধ্যে Pull - down বা drop - down এ farther menu পাওয়া যায়। pull- down বা drop - down - এ access করলে সেখানে নতুন option আসে নির্বাচন করার জন্য।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Rupali bank recruitment test 2018 ; officer ( cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Rupali bank recruitment test 2018 ; officer ( cash) - 09.03.18"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd. Senior Officer Recruitment",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd. Senior Officer Recruitment 01.06.18"
+      },
+      {
+        "exam_name": "Sonali bank_senior officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank_senior officer - 01.06.18"
+      }
+    ],
+    "exam_summary": "Rupali bank recruitment test 2018 ; officer ( cash) (2018), Sonali Bank Ltd. Senior Officer Recruitment (2018), Sonali bank_senior officer (2018)",
+    "question_variations": [
+      "Which of the following types of menu shows the further sub choices?"
+    ]
+  },
+  {
+    "id": "miq_109",
+    "question": "The device used for measuring altitudes is __",
+    "options": [
+      "altimeter",
+      "ammeter",
+      "audiometer",
+      "galvanometer"
+    ],
+    "correct_answer": "altimeter",
+    "explanation": "🔖Altimeter - Altimeter or an altitude meter is an instrument used to measure the altitude of an object above a fixed level.<br/>Audiometer - An audiometer is a machine used for evaluating hearing acuity.<br/>Ammeter - Ammeter is used to measure the current of an electrical circuit.<br/>Galvanometer - The galvanometer is the device used for detecting the presence of small current and voltage or for measuring their magnitude.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd Officer (Cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd Officer (Cash) 27.04.18"
+      },
+      {
+        "exam_name": "Sonali bank Ltd_officer ( cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank Ltd_officer ( cash) -27.04.18"
+      },
+      {
+        "exam_name": "Officer (General)_-Sonali_Janata_Bangladesh Krishi_Bangladesh Development bank",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Officer (General)_-Sonali_Janata_Bangladesh Krishi_Bangladesh Development bank ২৪.০৫.১৯"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd Officer (Cash) (2018), Sonali bank Ltd_officer ( cash) (2018), Officer (General)_-Sonali_Janata_Bangladesh Krishi_Bangladesh Development bank (2019)",
+    "question_variations": [
+      "The device used for measuring altitudes is",
+      "The device used for measuring altitudes is -"
+    ]
+  },
+  {
+    "id": "miq_110",
+    "question": "The value of Gold is determined in __",
+    "options": [
+      "Rome",
+      "Washington",
+      "Teheran",
+      "London"
+    ],
+    "correct_answer": "London",
+    "explanation": "📝যুক্তরাজ্যের <b>লন্ডনে</b> স্বর্ণের মূল্য নির্ধারণ করা হয়। <br/>❐ ICE বেঞ্চমার্ক অ্যাডমিনিস্ট্রেশন (IBA) দিনে দুবার মার্কিন ডলারে LBMA সোনার দাম প্রকাশ করে। <br/>❐ এটি বিশ্বব্যাপী সোনার উৎপাদক, বিনিয়োগকারী, ভোক্তা এবং কেন্দ্রীয় ব্যাঙ্কগুলির জন্য একটি বেঞ্চমার্ক মূল্য হিসাবে কাজ করে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd Officer (Cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd Officer (Cash) 27.04.18"
+      },
+      {
+        "exam_name": "Sonali bank Ltd_officer ( cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank Ltd_officer ( cash) -27.04.18"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd._Officer (Cash)",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd._Officer (Cash)_22.2.19"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd Officer (Cash) (2018), Sonali bank Ltd_officer ( cash) (2018), Sonali Bank Ltd._Officer (Cash) (2019)",
+    "question_variations": [
+      "The value of gold is determined in"
+    ]
+  },
+  {
+    "id": "miq_111",
+    "question": "Which of the following will not protect you from spam?",
+    "options": [
+      "Spam blockers",
+      "e-mail rules",
+      "filters",
+      "popup blocker"
+    ],
+    "correct_answer": "popup blocker",
+    "explanation": "🔖মূলত popup বলতে কোনো ওয়েব পেইজ হঠাৎ অল্পসময়ের জন্য আবির্ভূত বিজ্ঞাপনকে বুঝায়। অনাকাঙ্ক্ষিত এ popup গুলো ব্যবহারকারীদের মনে বিরক্তকর উদ্রেক করে। জনপ্রিয় ব্রাউজার গুলোর হালনাগাদ সংস্করণে এ popup ব্লকার installed থাকে। এগুলো কোনো স্প্যামকে আটকাতে পারে না। স্প্যাম আসে বিশেষ প্রোটকলের মাধ্যমে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd Officer (Cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd Officer (Cash) 27.04.18"
+      },
+      {
+        "exam_name": "Sonali bank Ltd_officer ( cash)",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank Ltd_officer ( cash) -27.04.18"
+      },
+      {
+        "exam_name": "Sonali Bank Ltd._Officer (Cash)",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd._Officer (Cash)_22.2.19"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd Officer (Cash) (2018), Sonali bank Ltd_officer ( cash) (2018), Sonali Bank Ltd._Officer (Cash) (2019)",
+    "question_variations": [
+      "Which of the following will not protect you from spam ?"
+    ]
+  },
+  {
+    "id": "miq_112",
+    "question": "Which of the following is not a logical function used in MS Excel?",
+    "options": [
+      "ELSE",
+      "ROUND",
+      "MIN",
+      "RAND"
+    ],
+    "correct_answer": "ELSE",
+    "explanation": "🔖মাইক্রসফট এক্সেল এর লজিক্যাল ফাংশন হিসাবে if স্টেটমেন্ট ব্যবহার হয়। যত গুলো কন্ডিশন বা শর্ত থাকে তত বার if ব্যবহার হয় আর যখন শর্ত গুলোর কোনটিই লজিক্যাল হয় না তখন else স্টেটমেন্ট কার্যকর হয়।।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Sonali Bank Ltd. Senior Officer Recruitment",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali Bank Ltd. Senior Officer Recruitment 01.06.18"
+      },
+      {
+        "exam_name": "Sonali bank_senior officer",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Sonali bank_senior officer - 01.06.18"
+      },
+      {
+        "exam_name": "Senior Officer 01-06-2018",
+        "year": 2018,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Senior Officer 01-06-2018"
+      }
+    ],
+    "exam_summary": "Sonali Bank Ltd. Senior Officer Recruitment (2018), Sonali bank_senior officer (2018), Senior Officer 01-06-2018 (2018)",
+    "question_variations": [
+      "Which of the following is not a logical function used in MS-excel ?",
+      "Which of the following is not a logical function used in Ms- Excel?"
+    ]
+  },
+  {
+    "id": "miq_113",
+    "question": "Gigabyte is equal to --- ?",
+    "options": [
+      "1024 bits",
+      "100 megabytes",
+      "1024 kilobytes",
+      "1024 megabytes"
+    ],
+    "correct_answer": "1024 megabytes",
+    "explanation": "🔖1 bit = Either 0 or 1<br/>1 byte = 8 bits<br/>1 kilobit = 1000 bits<br/>1 kilobyte = 1024 bytes (binary) | 1000 bytes (decimal)<br/>1 Megabit = 1000 bytes<br/>1 Megabyte = 1024 kilobytes (binary) | 1000 kilobytes (binary)<br/>1 Gigabit = 1000 Megabits<br/>1 Gigabyte = 1024 megabytes (binary) | 1000 megabytes (decimal)<br/>1 Terabit = 1000 Gigabits<br/>1 Terabyte = 1024 gigabytes (binary) | 1000 gigabytes (decimal",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Transaction Service Officer",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Transaction Service Officer_25.01.19"
+      },
+      {
+        "exam_name": "সমন্বিত ৭ ব্যাংক_অফিসার (ক্যাশ) ~BIBM",
+        "year": 2023,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সমন্বিত ৭ ব্যাংক_অফিসার (ক্যাশ) ~BIBM_2.6.23"
+      },
+      {
+        "exam_name": "শিক্ষানবিশ কেন্দ্র ব্যবস্থাপক_গ্রামীণ ব্যাংক",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "শিক্ষানবিশ কেন্দ্র ব্যবস্থাপক_গ্রামীণ ব্যাংক_17.2.23"
+      }
+    ],
+    "exam_summary": "Transaction Service Officer (2019), সমন্বিত ৭ ব্যাংক_অফিসার (ক্যাশ) ~BIBM (2023), শিক্ষানবিশ কেন্দ্র ব্যবস্থাপক_গ্রামীণ ব্যাংক (2023)",
+    "question_variations": [
+      "A Gigabyte is equal to -",
+      "Gigabyte is equal to -?"
+    ]
+  },
+  {
+    "id": "miq_114",
+    "question": "Which of the following produces the best quality graphics reproduction ?",
+    "options": [
+      "Laser printer",
+      "InkJet printer",
+      "Plotter",
+      "Dot matrix printer"
+    ],
+    "correct_answer": "Plotter",
+    "explanation": "🔖প্লটার প্রিন্টারের মতই আউটপুট যন্ত্র। এর সাহায্যে বড় আকারের ছবি, বাড়ি, সেতু ইত্যাদি প্ল্যানের গঠন চিত্র সুন্দরভাবে ফুটিয়ে তোলা হয়। ডট ম্যাট্রিক প্রিন্টার বা লেজার প্রিন্টারের মত কালি বা টোনার ব্যবহহার না করে এতে কলম বা পেন্সিলের মত অনেকগুলো অংকন যন্ত্র ব্যবহৃত হয়। ফলে গ্রাফিক্যাল দিক থেকে এর ছবি অনেক বেশি সুন্দর হয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Bangladesh Bank - Assistant Director - 2016",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Assistant Director - 2016"
+      },
+      {
+        "exam_name": "Bangladesh Bank - IT - 2016",
+        "year": 2016,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - IT - 2016"
+      },
+      {
+        "exam_name": "সাধারণ বীমা কর্পোরেশন - জুনিয়র অফিসার",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সাধারণ বীমা কর্পোরেশন - জুনিয়র অফিসার ১২.০৭.১৯"
+      }
+    ],
+    "exam_summary": "Bangladesh Bank - Assistant Director - 2016 (2016), Bangladesh Bank - IT - 2016 (2016), সাধারণ বীমা কর্পোরেশন - জুনিয়র অফিসার (2019)",
+    "question_variations": [
+      "Which of the following produces the best quality graphics reproduction?"
+    ]
+  },
+  {
+    "id": "miq_115",
+    "question": "Maximum number of rows in an excel sheet are",
+    "options": [
+      "65536",
+      "65535",
+      "256",
+      "65532"
+    ],
+    "correct_answer": "65536",
+    "explanation": "📖 মাইক্রোসফট এক্সেলের পুরোনো ভার্সনগুলোতে (যেমন: Excel 2003) একটি ওয়ার্কশিটে সর্বোচ্চ রো (Row) বা সারির সংখ্যা ছিল ৬৫,৫৩৬ (65536)। তবে Excel 2007 এবং এর পরের ভার্সনগুলোতে রো-এর সংখ্যা ১০,৪৮,৫৭৬। অপশন অনুযায়ী সঠিক উত্তর 65536।<br/> ⇢ <br/>⛳ সফটওয়্যারের সীমাবদ্ধতা: মাইক্রোসফট এক্সেলের পুরোনো ভার্সনগুলো (Excel 97 থেকে 2003 পর্যন্ত, যেগুলোর ফাইল ফরম্যাট ছিল .xls) ১৬-বিট আর্কিটেকচারের ওপর ভিত্তি করে তৈরি ছিল। এই কারণে একটি শিটে সর্বোচ্চ সারির সংখ্যা ছিল ঠিক ৬৫,৫৩৬টি (২¹⁶) এবং কলাম ছিল ২৫৬টি (২⁸)। তবে আধুনিক এক্সেল ভার্সনগুলোতে (2007 এর পর থেকে, যেগুলোর ফরম্যাট .xlsx) এই ধারণক্ষমতা বাড়িয়ে ১০,৪৮,৫৭৬টি সারি (২²⁰) এবং ১৬,৩৮৪টি কলাম করা হয়েছে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Bangladesh Bank - Officer - 2015",
+        "year": 2015,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Bangladesh Bank - Officer - 2015"
+      },
+      {
+        "exam_name": "Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009",
+        "year": 2009,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009"
+      },
+      {
+        "exam_name": "বিসিক_প্রমোশন অফিসার",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিসিক_প্রমোশন অফিসার_19.6.26"
+      }
+    ],
+    "exam_summary": "Bangladesh Bank - Officer - 2015 (2015), Dutch-Bangla Bank Ltd - Asst. Officer (ATM Help Desk) - 02-01-2009 (2009), বিসিক_প্রমোশন অফিসার (2026)",
+    "question_variations": [
+      "Maximum number of rows in an Excel sheet are -",
+      "Maximum number of rows in an Excel sheet is-"
+    ]
+  },
+  {
+    "id": "miq_116",
+    "question": "which one of the following is not a computer language?",
+    "options": [
+      "PASCAL",
+      "UNIX",
+      "FORTRAN",
+      "COBOL"
+    ],
+    "correct_answer": "UNIX",
+    "explanation": "🔖Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "ট্রেইনি সহকারী ১২. ০৪",
+        "year": 2019,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "ট্রেইনি সহকারী ১২. ০৪.১৯"
+      },
+      {
+        "exam_name": "Global Islami Bank Ltd._Probationary Officer",
+        "year": 2021,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Global Islami Bank Ltd._Probationary Officer_20.2.21"
+      },
+      {
+        "exam_name": "বিসিআইসি_সহকারী প্রকৌশলী (কমার্শিয়াল)🖎",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিসিআইসি_সহকারী প্রকৌশলী (কমার্শিয়াল)🖎১০.১২.২১"
+      }
+    ],
+    "exam_summary": "ট্রেইনি সহকারী ১২. ০৪ (2019), Global Islami Bank Ltd._Probationary Officer (2021), বিসিআইসি_সহকারী প্রকৌশলী (কমার্শিয়াল)🖎 (2021)",
+    "question_variations": [
+      "Which one of the following is not a computer language?",
+      "Which one of the following is not a computer language ?"
+    ]
+  },
+  {
+    "id": "miq_117",
+    "question": "আধুনিক কম্পিউটারের জনক কে?",
+    "options": [
+      "বিল গেটস",
+      "আইকেন",
+      "চার্লস ব্যাবেজ",
+      "জর্জ ভোলে"
+    ],
+    "correct_answer": "চার্লস ব্যাবেজ",
+    "explanation": "🔖ক্যামব্রিজ বিশ্ববিদ্যালয়ের গণিতের অধ্যাপক চার্লস ব্যাবেজ (Charles Babbage) ১৮২২ সালে গণিত বিষয়ক হিসাবের জন্য উন্নতমানের ডিফারেন্স ইঞ্জিন তৈরির কিছু কাজ করেন। কিন্তু বিপুল পরিমাণ যান্ত্রিক সরঞ্জাম সূক্ষ্মভাবে তৈরি করা সম্ভব না হওয়ায় ডিফারেন্স ইঞ্জিনের চেষ্টা সফল হয় না। এরপর তিনি ১৮৩৩ সালে অ্যানালিটিক্যাল ইঞ্জিন নামে যান্ত্রিক কম্পিউটার তৈরির পরিকল্পনা গ্রহণ করেন এবং ইঞ্জিনের নকশা তৈরি পরিকল্পনা গ্রহণ করেন এবং ইঞ্জিনের নকশা তৈরি করেন। তিনি তাঁর যন্ত্র তৈরি করতে বিলম্ব হওয়ায় সরকার ১৭০০০ পাউন্ড ব্যয় করার পর অনুদান বন্ধ করে দেয়। চার্লস ব্যাবেজের বাবা স্বচ্ছল ব্যবসায়ী ছিলেন। উত্তরাধিকার সূত্রে তিনি বাবার সম্পত্তির মালিক হন। তিনি ১৮৭১ সালে মৃত্যুর আগ পর্যন্ত নিজ করচে গবেষণা চালিয়ে যান। ব্যাবেজের অ্যাালিটিক্যাল ইঞ্জিনের পরিকল্পনায় আধুনিক কম্পিউটারের ধারণা ছিল। এ জন্য ব্যাবেজকে আধুনিক কম্পিউটারের জনক বলা হয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "Islami Bank Bangladesh Ltd_Field Officer_10-06-22",
+        "year": 2022,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "Islami Bank Bangladesh Ltd_Field Officer_10-06-22"
+      },
+      {
+        "exam_name": "ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১",
+        "year": 2010,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১.১০"
+      },
+      {
+        "exam_name": "বাংলাদেশ পরমাণু শক্তি কমিশন নিয়োগ পরীক্ষা-২০১৮_অফিস অ্যাসিস্ট্যান্ট কাম কম্পিউটার টাইপিং",
+        "year": 2018,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বাংলাদেশ পরমাণু শক্তি কমিশন নিয়োগ পরীক্ষা-২০১৮_অফিস অ্যাসিস্ট্যান্ট কাম কম্পিউটার টাইপিং_২৫.০৫.১৮"
+      }
+    ],
+    "exam_summary": "Islami Bank Bangladesh Ltd_Field Officer_10-06-22 (2022), ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১ (2010), বাংলাদেশ পরমাণু শক্তি কমিশন নিয়োগ পরীক্ষা-২০১৮_অফিস অ্যাসিস্ট্যান্ট কাম কম্পিউটার টাইপিং (2018)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_118",
+    "question": "URL stands for -",
+    "options": [
+      "Undetected Resource Line",
+      "Uniformity of Resource Locator",
+      "Uniform Resource Locator",
+      "Uniform Resource Location"
+    ],
+    "correct_answer": "Uniform Resource Locator",
+    "explanation": "📝URL:<br/>❐ একটি ওয়েবসাইট বা পেইজের পুর্ণাঙ্গ অ্যাড্রেসকে URL বলে।<br/>❐ URL এর পূর্ণরূপ হলো Uniform Resource Locator .<br/>যেমন: http://www.xyz.com. এইটিই একটি পূর্ণাঙ্গ ওয়েব অ্যাড্রেস বা URL.<br/>❐ শুধুমাত্র www.xyz.com বা, xyz.com কে URL বলা হয় না।<br/>❐ একটি URL এর তিনটি অংশ থাকে।<br/>i) প্রোটোকলের নাম,<br/>ii) হোস্টনেইম এবং<br/>iii) ফাইল নেইম।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "সমন্বিত ৭ ব্যাংক_অফিসার (ক্যাশ) ~BIBM",
+        "year": 2023,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সমন্বিত ৭ ব্যাংক_অফিসার (ক্যাশ) ~BIBM_2.6.23"
+      },
+      {
+        "exam_name": "জনতা ব্যাংক_অফিসার (রুরাল ক্রেডিট RC)",
+        "year": 2024,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "জনতা ব্যাংক_অফিসার (রুরাল ক্রেডিট RC)_28.6.24"
+      },
+      {
+        "exam_name": "সিকিউরিটি প্রিন্টিং কর্পোরেশন বাংলাদেশ_সহকারী ব্যবস্থাপক🖎",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "সিকিউরিটি প্রিন্টিং কর্পোরেশন বাংলাদেশ_সহকারী ব্যবস্থাপক🖎২৬.১১.২১"
+      }
+    ],
+    "exam_summary": "সমন্বিত ৭ ব্যাংক_অফিসার (ক্যাশ) ~BIBM (2023), জনতা ব্যাংক_অফিসার (রুরাল ক্রেডিট RC) (2024), সিকিউরিটি প্রিন্টিং কর্পোরেশন বাংলাদেশ_সহকারী ব্যবস্থাপক🖎 (2021)",
+    "question_variations": [
+      "URL stands for-"
+    ]
+  },
+  {
+    "id": "miq_119",
+    "question": "মোবাইল ফোনের আবিষ্কারকের নাম কি?",
+    "options": [
+      "চার্লস ব্যাবেজ",
+      "এলান এমটাজ",
+      "মার্টিন কুপার",
+      "আলেকজান্ডার গ্রাহাম বেল"
+    ],
+    "correct_answer": "মার্টিন কুপার",
+    "explanation": "<p>১৯৭০-এর দশকে মোটোরোলা কোম্পানীতে কর্মরত অবস্থায় প্রথমবারের মতো হাতের মুঠোয় মোবাইল ফোন থেকে কথা বলেন এবং এর উন্নয়নে কাজ করে যান। এরপর এটিকে বাজারজাতকরণে নিয়ে আসেন। [4][6] এরফলে তিনি বৈশ্বিকভাবে সেল ফোনের জনকের মর্যাদা পান। [১][][][] এছাড়াও তিনি আধুনিক বিশ্বের প্রথম ব্যক্তি হিসেবে জনসমক্ষে মোবাইল ফোনধারী হয়ে আছেন। (৯)</p><br/><br/><p>তার স্ত্রী ও বিশিষ্ট ব্যবসায়িক অংশীদার আর্লিন হ্যারিসের সাথে অনেকগুলো যোগাযোগ বিষয়ক কোম্পানী গঠন করেন। [১০] বর্তমানে তিনি ক্যালিফোর্নিয়ার দেল মার এলাকায় অবস্থিত ডায়না এলএলসি কোম্পানীর সহ-প্রতিষ্ঠাতা ও সভাপতির দায়িত্ব পালন করছেন। এছাড়াও, ফেডারেল কমিউনিকেশন্স কমিশন ১১] এবং মার্কিন যুক্তরাষ্ট্রের বাণিজ্য মন্ত্রণালয়ের সাথে জড়িত রয়েছেন কুপার।</p>",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "সাধারণ বীমা কর্পোরেশন_উচ্চমান সহকারী",
+        "year": 2023,
+        "category": "ব্যাংক জবস (Bank Recruitment)",
+        "full_title": "সাধারণ বীমা কর্পোরেশন_উচ্চমান সহকারী_3.11.23"
+      },
+      {
+        "exam_name": "স্থানীয় সরকার বিভাগের অধীন_জনস্বাস্থ্য প্রকৌশল অধিদপ্তরের_এস্টিমেটর",
+        "year": 2018,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "স্থানীয় সরকার বিভাগের অধীন_জনস্বাস্থ্য প্রকৌশল অধিদপ্তরের_এস্টিমেটর_০২.০২.১৮"
+      },
+      {
+        "exam_name": "ইসলামী বিশ্ববিদ্যালয়_2012_C ইউনিট",
+        "year": 2012,
+        "category": "বিশ্ববিদ্যালয় ভর্তি পরীক্ষা (Admission Tests)",
+        "full_title": "ইসলামী বিশ্ববিদ্যালয়_2012_C ইউনিট"
+      }
+    ],
+    "exam_summary": "সাধারণ বীমা কর্পোরেশন_উচ্চমান সহকারী (2023), স্থানীয় সরকার বিভাগের অধীন_জনস্বাস্থ্য প্রকৌশল অধিদপ্তরের_এস্টিমেটর (2018), ইসলামী বিশ্ববিদ্যালয়_2012_C ইউনিট (2012)",
+    "question_variations": [
+      "মোবাইল ফোনের আবিষ্কারক কে?",
+      "মোবাইল ফোনের আবিষ্কারক-"
+    ]
+  },
+  {
+    "id": "miq_120",
+    "question": "নিচের কোনটি বাংলা লেখার সফটওয়্যার ?",
+    "options": [
+      "বিজয়",
+      "সুলেখা",
+      "সুতনী",
+      "রুপসা"
+    ],
+    "correct_answer": "বিজয়",
+    "explanation": "🔖‘বিজয়’ কম্পিউটারে বাংলা লেখার বহুল ব্যবহৃত একটি সফটওয়্যার। এটির প্রোগ্রামার বাংলাদেশের প্রখ্যাত কম্পিউটার প্রকৌশলী মোস্তফা জব্বার। অন্যদিকে ‘সুলেখা’, ‘সুতনী’ ও ‘রূপসা’ বাংলা লেখার বিভিন্ন ফন্ট।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "৬ষ্ঠ বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরিক্ষা",
+        "year": 2010,
+        "category": "শিক্ষক নিবন্ধন (NTRCA)",
+        "full_title": "৬ষ্ঠ বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরিক্ষা-১০.১২.১০"
+      },
+      {
+        "exam_name": "সরকারী প্রাথমিক বিদ্যালয়ের ২০১৪(১২ জেলা) ; সহকারী শিক্ষক",
+        "year": 2014,
+        "category": "প্রাথমিক সহকারী শিক্ষক (Primary Teacher)",
+        "full_title": "সরকারী প্রাথমিক বিদ্যালয়ের ২০১৪(১২ জেলা) ; সহকারী শিক্ষক -২০.০৪.১৮"
+      },
+      {
+        "exam_name": "ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১",
+        "year": 2010,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১.১০"
+      }
+    ],
+    "exam_summary": "৬ষ্ঠ বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরিক্ষা (2010), সরকারী প্রাথমিক বিদ্যালয়ের ২০১৪(১২ জেলা) ; সহকারী শিক্ষক (2014), ডাক ও টেলিযোগাযোগ মন্ত্রণালয়ের ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১ (2010)",
+    "question_variations": [
+      "নিচের কোনটি বাংলা লেখার সফটওয়্যার?"
+    ]
+  },
+  {
+    "id": "miq_121",
+    "question": "ইন্টারনেটের জনক কে?",
+    "options": [
+      "Charles Babej",
+      "Vinton Gray Cerf",
+      "Vinton Gray",
+      "Bill Gates"
+    ],
+    "correct_answer": "Vinton Gray Cerf",
+    "explanation": "ইন্টারনেটের জনক Vinton Gray Cerf.<br/><br/>ভিন্টন গ্রে \"ভিন্ট\" সার্ফ ( জন্ম ২৩শে জুন, ১৯৪৩) একজন প্রথিতযশা আমেরিকান কম্পিউটার বিজ্ঞানী, যাকে আধুনিক 'ইন্টারনেটের জনক' বলা হয়ে থাকে। তার এই উপাধিটি তিনি আমেরিকান কম্পিউটার বিজ্ঞানী রবার্ট কানের সাথে ভাগ করেছেন। অবৈতনিক ডিগ্রির সাথে তার এই অবদানসমূহ স্বীকার এবং প্রশংসিত করা হয়েছে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "৭ম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরিক্ষা",
+        "year": 2011,
+        "category": "শিক্ষক নিবন্ধন (NTRCA)",
+        "full_title": "৭ম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরিক্ষা-০২.১২.১১"
+      },
+      {
+        "exam_name": "বাংলাদেশ পল্লী উন্নয়ন বোর্ড(BARD)-এর উপজেলা পল্লী উন্নয়ন কর্মকর্তা",
+        "year": 2015,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বাংলাদেশ পল্লী উন্নয়ন বোর্ড(BARD)-এর উপজেলা পল্লী উন্নয়ন কর্মকর্তা-১৮.০৯.১৫"
+      },
+      {
+        "exam_name": "পিএসসি ~পররাষ্ট্র মন্ত্রণালয়ের_ব্যক্তিগত কর্মকর্তা",
+        "year": 2024,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পিএসসি ~পররাষ্ট্র মন্ত্রণালয়ের_ব্যক্তিগত কর্মকর্তা_4.3.24"
+      }
+    ],
+    "exam_summary": "৭ম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরিক্ষা (2011), বাংলাদেশ পল্লী উন্নয়ন বোর্ড(BARD)-এর উপজেলা পল্লী উন্নয়ন কর্মকর্তা (2015), পিএসসি ~পররাষ্ট্র মন্ত্রণালয়ের_ব্যক্তিগত কর্মকর্তা (2024)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_122",
+    "question": "Wi-Fi means :",
+    "options": [
+      "Word Wide Web",
+      "Wireless Fidelity",
+      "Witeless Friendly",
+      "Wireless Free"
+    ],
+    "correct_answer": "Wireless Fidelity",
+    "explanation": "📖 Wi-Fi এর পূর্ণরূপ হলো Wireless Fidelity। এটি একটি বেতার প্রযুক্তি যা ব্যবহার করে কম্পিউটার, স্মার্টফোন এবং অন্যান্য ডিভাইসকে ইন্টারনেটের সাথে সংযুক্ত করা যায়। এটি একটি প্রযুক্তি যা ডিভাইসগুলোকে তার ব্যবহার না করে ইন্টারনেট বা নেটওয়ার্কের সাথে সংযুক্ত করতে সাহায্য করে। অন্য অপশনগুলো ভুল: Wireless Free (বিনা মূল্যে ওয়্যারলেস), World Wide Web (ওয়েবসাইটের সমষ্টি), Wireless Friendly (ওয়্যারলেস বান্ধব)।<br/>▣ Wi-Fi শব্দটি Wireless Fidelity-এর সংক্ষিপ্ত রূপ হলেও, এটি মূলত একটি ব্র্যান্ড নাম যা Wi-Fi Alliance দ্বারা ট্রেডমার্ক করা হয়েছে। এটি IEEE 802.11 স্ট্যান্ডার্ডের উপর ভিত্তি করে তৈরি একটি ওয়্যারলেস লোকাল এরিয়া নেটওয়ার্ক (WLAN) প্রযুক্তি। এই প্রযুক্তি রেডিও ওয়েভ ব্যবহার করে ডেটা আদান-প্রদান করে, যা ব্যবহারকারীদের তারবিহীনভাবে নেটওয়ার্কে যুক্ত হতে সাহায্য করে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI) এর সহকারী পরিচালক",
+        "year": 2017,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI) এর সহকারী পরিচালক - 03.02.17"
+      },
+      {
+        "exam_name": "খাদ্য অধিদপ্তর_অফিস সহকারী কাম কম্পিউটার",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "খাদ্য অধিদপ্তর_অফিস সহকারী কাম কম্পিউটার_26.9.25"
+      },
+      {
+        "exam_name": "রাজশাহী বিশ্ববিদ্যালয়_2017_F ইউনিট",
+        "year": 2017,
+        "category": "বিশ্ববিদ্যালয় ভর্তি পরীক্ষা (Admission Tests)",
+        "full_title": "রাজশাহী বিশ্ববিদ্যালয়_2017_F ইউনিট"
+      }
+    ],
+    "exam_summary": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI) এর সহকারী পরিচালক (2017), খাদ্য অধিদপ্তর_অফিস সহকারী কাম কম্পিউটার (2025), রাজশাহী বিশ্ববিদ্যালয়_2017_F ইউনিট (2017)",
+    "question_variations": [
+      "Wi-Fi Means-",
+      "Wi-Fi means"
+    ]
+  },
+  {
+    "id": "miq_123",
+    "question": "WI-FI এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "Wireless Internet",
+      "Wireless Field",
+      "Wireleess Fibre",
+      "Wireless Fidelity"
+    ],
+    "correct_answer": "Wireless Fidelity",
+    "explanation": "-Fi এর পূর্ণরূপ হলো Wireless Fidelity। এটি একটি তারবিহীন প্রযুক্তি যা রেডিও তরঙ্গের মাধ্যমে ইন্টারনেট সংযোগ ও কম্পিউটার নেটওয়ার্কের মাধ্যমে ডেটা আদান-প্রদান করে। <br/>Wi-Fi এর বৈশিষ্ট্য: <br/>Wi-Fi একটি ওয়্যারলেস লোকাল এরিয়া নেটওয়ার্ক (WLAN)।<br/>এটি একটি নিবন্ধিত ট্রেডমার্ক।<br/>Wi-Fi প্রযুক্তির কথা উল্লেখ করার সময় বড় হাতের অক্ষরে লিখুন এবং হাইফেন করুন।<br/>Wi-Fi এর মানদণ্ড আইইইই ৮০২.১১ এর উপর ভিত্তি করে।<br/>Wi-Fi এর মাধ্যমে উচ্চগতির ইন্টারনেট সংযোগ পাওয়া যায়।<br/>Wi-Fi এর মাধ্যমে কম্পিউটার নেটওয়ার্কের মাধ্যমে ডেটা আদান-প্রদান করা যায়।<br/>Wi-Fi এর জনক: <br/>ভিক হেইসকে \"ওয়াই-ফাইয়ের জনক\" বলা হয়।<br/>তিনি 1997 সালে 802.11 স্ট্যান্ডার্ড তৈরি করা IEEE কমিটির সভাপতিত্ব করেছিলেন।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেড (সহকারী ব্যবস্থাপক)-1",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেড (সহকারী ব্যবস্থাপক)-1.21"
+      },
+      {
+        "exam_name": "বিদ্যুৎ উন্নয়ন বোর্ড_নিম্নমান হিসাব সহকারী",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিদ্যুৎ উন্নয়ন বোর্ড_নিম্নমান হিসাব সহকারী_10.11.23"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_লাইনম্যান",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_লাইনম্যান_28.2.25"
+      }
+    ],
+    "exam_summary": "বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেড (সহকারী ব্যবস্থাপক)-1 (2021), বিদ্যুৎ উন্নয়ন বোর্ড_নিম্নমান হিসাব সহকারী (2023), পল্লী বিদ্যুতায়ন বোর্ড_লাইনম্যান (2025)",
+    "question_variations": [
+      "Wi-Fi এর পূর্ণরূপ কী ?",
+      "Wi-Fi এর পূর্ণরূপ কি?"
+    ]
+  },
+  {
+    "id": "miq_124",
+    "question": "Ms Excel এ সঠিকভাবে লেখা ফর্মুলা কোনটি?",
+    "options": [
+      "Sum (C9 : C12)",
+      "Sum (C9 + C12)",
+      "Sum = (C9 : C12)",
+      "=Sum (C9 : C12)"
+    ],
+    "correct_answer": "=Sum (C9 : C12)",
+    "explanation": "🔖এটি মাইক্রোসফট এক্সেল (Microsoft Excel) এর একটি ফর্মুলা। Formula লেখার জন্য সমান চিহ্ন ব্যবহার করে Function Name, তারপর সংশ্লিষ্ট সমীকরণ লিখতে হয়। উপরের সমীকরণ দেখলে বোঝা যায় SUM Function এর দুইটি অংশ। প্রথম অংশটি C9 যা C কলামের 9নং Row বুঝায়। দ্বিতীয় অংশটি C12 যা C কলামের 9নং Row বুঝায়। অর্থাৎ, উক্ত সমীকরণ C9 cell থেকে C12 cell পর্যন্ত সকল সংখ্যার যোগফল প্রকাশ করে।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "মহা হিসাব নিরীক্ষক ও নিয়ন্ত্রকের কার্যালয়ের অধীন অডিটর-৬",
+        "year": 2015,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "মহা হিসাব নিরীক্ষক ও নিয়ন্ত্রকের কার্যালয়ের অধীন অডিটর-৬.১৫"
+      },
+      {
+        "exam_name": "কৃষি সম্প্রসারণ অধিদপ্তরের সহকারী কৃষি কর্মকর্তা",
+        "year": 2016,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "কৃষি সম্প্রসারণ অধিদপ্তরের সহকারী কৃষি কর্মকর্তা-০৫.০২.১৬"
+      },
+      {
+        "exam_name": "পরিসংখ্যান ব্যুরোর ডাটা এন্ট্রি অপারেটর",
+        "year": 2016,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পরিসংখ্যান ব্যুরোর ডাটা এন্ট্রি অপারেটর-১২.০২.১৬"
+      }
+    ],
+    "exam_summary": "মহা হিসাব নিরীক্ষক ও নিয়ন্ত্রকের কার্যালয়ের অধীন অডিটর-৬ (2015), কৃষি সম্প্রসারণ অধিদপ্তরের সহকারী কৃষি কর্মকর্তা (2016), পরিসংখ্যান ব্যুরোর ডাটা এন্ট্রি অপারেটর (2016)",
+    "question_variations": [
+      "MS Excel- এ সঠিকভাবে লেখার ফর্মুলা কোনটি?",
+      "MS Excel -এ সঠিকভাবে লেখা ফর্মুলা কোনটি?"
+    ]
+  },
+  {
+    "id": "miq_125",
+    "question": "কোনটি অপারেটিং সিস্টেম?",
+    "options": [
+      "Norton",
+      "Windows",
+      "MS Excel",
+      "Software"
+    ],
+    "correct_answer": "Windows",
+    "explanation": "<p>ব্যাখ্যা :&nbsp;<span style=\"font-size: 1rem;\">অপারেটিং সিস্টেম হলো একটি সিস্টেম সফটওয়্যার যা কম্পিউটার ও সফটওয়্যার এবং কম্পিউটার প্রোগ্রামের জন্যে সাধারণ সেবা সরবরাহ করে। উইন্ডোজ, উবুন্টু, আইওএস, ক্রোম ওএস, ম্যাক ওএস ও অ্যানড্রয়েড প্রচলিত কয়েকটি অপারেটিং সিস্টেম। অপারেটিং সিস্টেমের সবচেয়ে দৃশ্যমান রূপ হল কম্পিউটারের ব্যবহারকারী ইন্টারফেস।</span></p>",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার অপারেটর_১৬",
+        "year": null,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার অপারেটর_১৬"
+      },
+      {
+        "exam_name": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার মুদ্রাক্ষরিক_১৭",
+        "year": null,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার মুদ্রাক্ষরিক_১৭"
+      },
+      {
+        "exam_name": "ভূমি রেকর্ড ও জরিপ অধিদপ্তর_বেঞ্চ সহকারী",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ভূমি রেকর্ড ও জরিপ অধিদপ্তর_বেঞ্চ সহকারী_25.4.25"
+      }
+    ],
+    "exam_summary": "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার অপারেটর_১৬, জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)_কম্পিউটার মুদ্রাক্ষরিক_১৭, ভূমি রেকর্ড ও জরিপ অধিদপ্তর_বেঞ্চ সহকারী (2025)",
+    "question_variations": [
+      "কোনটি অপারেটিং সিস্টেম"
+    ]
+  },
+  {
+    "id": "miq_126",
+    "question": "নিচের কোনটি হার্ডওয়্যার নয়?",
+    "options": [
+      "মাউস",
+      "মনিটর",
+      "সিপিইউ",
+      "উইন্ডোজ"
+    ],
+    "correct_answer": "উইন্ডোজ",
+    "explanation": "📖 <b>হার্ডওয়্যার:</b><br/>▣ হার্ডওয়্যার হলো কম্পিউটারের ভৌত সংগঠন। কম্পিউটার তৈরিতে ব্যবহৃত বিভিন্ন ধরনের ডিভাইস বা যন্ত্র এবং যন্ত্রাংশসমূহকে বলা হয় কম্পিউটার হার্ডওয়্যার।<br/>▣ সাধারণত কম্পিউটার হার্ডওয়্যারকে আমরা দেখতে পারি এবং স্পর্শ করতে পারি।<br/>▣ কি-বোর্ড, মাউস, মাইক্রোপ্রসেসর, মাদারবোর্ড, ডিস্ক, ডিস্ক ড্রাইভ, মনিটর, প্রিন্টার ইত্যাদি হলো কম্পিউটার হার্ডওয়্যারের উদাহরণ।<br/>❐ <b>সফটওয়্যার:</b><br/>▣ সাধারণত সফটওয়্যার বলতে কম্পিউটারের প্রোগ্রামসমূহের সমষ্টিকে বোঝানো হয়।<br/>❐ অর্থাৎ সফটওয়্যার হলো কতকগুলো প্রোগ্রাম বা প্রোগ্রামের সমষ্টি, যা হার্ডওয়্যারকে কর্মক্ষম করে প্রক্রিয়াকরণের মাধ্যমে ব্যবহারকারীর কাঙ্ক্ষিত ফলাফল প্রদান করে।<br/>▣ সফটওয়্যারের মাধ্যমে কম্পিউটারের হার্ডওয়্যারকে কার্যোপযোগী করা হয়।<br/>▣ DOS, <b>Windows</b>, MS Office, Adobe Photoshop, Vedio Player Pagemaker, Mac OS  ইত্যাদি হলো সফটওয়্যারের উদাহরণ।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "শিক্ষা প্রকৌশল অধিদপ্তর_ডাটা এন্ট্রি অপারেটর",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "শিক্ষা প্রকৌশল অধিদপ্তর_ডাটা এন্ট্রি অপারেটর_19.11.21"
+      },
+      {
+        "exam_name": "পাওয়ার গ্রিড বাংলাদেশ_স্টেশন অ্যাটেনডেন্ট",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পাওয়ার গ্রিড বাংলাদেশ_স্টেশন অ্যাটেনডেন্ট_29.8.25"
+      },
+      {
+        "exam_name": "নৌ পরিবহন কর্পোরেশন_অফিস সহকারী কাম কম্পিউটার",
+        "year": 2026,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "নৌ পরিবহন কর্পোরেশন_অফিস সহকারী কাম কম্পিউটার_15.5.26"
+      }
+    ],
+    "exam_summary": "শিক্ষা প্রকৌশল অধিদপ্তর_ডাটা এন্ট্রি অপারেটর (2021), পাওয়ার গ্রিড বাংলাদেশ_স্টেশন অ্যাটেনডেন্ট (2025), নৌ পরিবহন কর্পোরেশন_অফিস সহকারী কাম কম্পিউটার (2026)",
+    "question_variations": [
+      "কোনটি হার্ডওয়্যার নয়?"
+    ]
+  },
+  {
+    "id": "miq_127",
+    "question": "কম্পিউটারের Heart বলা হয় কোনটিকে?",
+    "options": [
+      "Memory",
+      "Monitor",
+      "CPU",
+      "Disks"
+    ],
+    "correct_answer": "CPU",
+    "explanation": "<p>CPU এর পূর্ণরুপ Central Processing Unit</p><br/><p><span style=\"font-size: 1rem;\">কম্পিউটার ব্রেইন বা হার্ট বলতে CPU কে বা কেন্দ্রীয় প্রক্রিয়াকরণ অঞ্চলকে বুঝায়।</span></p><br/><p><span style=\"font-size: 1rem;\">কম্পিউটারের প্রদত্ত সব কমান্ড প্রক্রিয়াকরণ হয় CPU তে।</span></p><br/><p><span style=\"font-size: 1rem;\">এটিই সবকিছুর নিয়ন্ত্রক।</span></p><br/><p><span style=\"font-size: 1rem;\">তিনটি প্রধান অংশ নিয়ে CPU গঠিত -</span></p><br/><p><span style=\"font-size: 1rem;\">ALU (পাটিগণিত লজিক ইউনিট),</span></p><br/><p><span style=\"font-size: 1rem;\">Control Unit এবং</span></p><br/><p><span style=\"font-size: 1rem;\">মেমরি/রেজিস্টার</span></p>",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "শিক্ষা প্রকৌশল অধিদপ্তর_ডাটা এন্ট্রি অপারেটর",
+        "year": 2021,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "শিক্ষা প্রকৌশল অধিদপ্তর_ডাটা এন্ট্রি অপারেটর_19.11.21"
+      },
+      {
+        "exam_name": "ডাক বিভাগ_পোস্টম্যান",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ডাক বিভাগ_পোস্টম্যান_6.5.23"
+      },
+      {
+        "exam_name": "ভূমি রেকর্ড ও জরিপ অধিদপ্তর_বেঞ্চ সহকারী",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "ভূমি রেকর্ড ও জরিপ অধিদপ্তর_বেঞ্চ সহকারী_25.4.25"
+      }
+    ],
+    "exam_summary": "শিক্ষা প্রকৌশল অধিদপ্তর_ডাটা এন্ট্রি অপারেটর (2021), ডাক বিভাগ_পোস্টম্যান (2023), ভূমি রেকর্ড ও জরিপ অধিদপ্তর_বেঞ্চ সহকারী (2025)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_128",
+    "question": "কম্পিউটারের স্থায়ী স্মৃতিশক্তি কোনটি?",
+    "options": [
+      "RAM",
+      "Hard disk",
+      "ROM",
+      "Register"
+    ],
+    "correct_answer": "ROM",
+    "explanation": "রম বা রীড-অনলি মেমোরি (ইংরেজি: Read-only memory (ROM)) হল এক ধরনের সংরক্ষণ মাধ্যম যা কম্পিউটার এবং অন্যান্য ইলেক্ট্রনিক যন্ত্রে ব্যবহার করা হয়। রমে যে তথ্য থাকে তা পরিবর্তন করা যায় না বা করা গেলেও তা খুব ধীরে অথবা করা কঠিন। তাই এটি ব্যবহার করা হয় প্রধানত র্ফামওয়্যারে।<br/><br/>অন্যান্য আরো যেসব নন-ভোলাটাইল বা বিদ্যুত চলে গেলেও যার তথ্য থেকে যায় এমন মেমোরি হল ইপিআরওএম, ইইপিআরওএম বা ফ্লাশ মেমোরি। এগুলোকে কোন কোন সময় রম বলা হয় কিন্তু এটি ঠিক নয় বা ভুল ধারণা কারণ ইপিআরওএম বা ইইপিআরওএমমগুলোকে মুছা যায় এবং আবার প্রোগ্রাম করা যায়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "জুনিয়র অডিটর_ডিফেন্স ফাইন্যান্স ডিপার্টমেন্ট)",
+        "year": 2022,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "জুনিয়র অডিটর_ডিফেন্স ফাইন্যান্স ডিপার্টমেন্ট)_01.04.22"
+      },
+      {
+        "exam_name": "পোস্টমাস্টার জেনারেলের রাজশাহী_উচ্চমান সহকারী",
+        "year": 2022,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পোস্টমাস্টার জেনারেলের রাজশাহী_উচ্চমান সহকারী_10.9.22"
+      },
+      {
+        "exam_name": "গ্রামীণ ব্যাংক_শিক্ষানবিশ কেন্দ্র ব্যবস্থাপক",
+        "year": 2025,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "গ্রামীণ ব্যাংক_শিক্ষানবিশ কেন্দ্র ব্যবস্থাপক_7.2.25"
+      }
+    ],
+    "exam_summary": "জুনিয়র অডিটর_ডিফেন্স ফাইন্যান্স ডিপার্টমেন্ট) (2022), পোস্টমাস্টার জেনারেলের রাজশাহী_উচ্চমান সহকারী (2022), গ্রামীণ ব্যাংক_শিক্ষানবিশ কেন্দ্র ব্যবস্থাপক (2025)",
+    "question_variations": [
+      "কম্পিউটারের স্থায়ী স্মৃতিশক্তি-কে কী বলে?",
+      "কম্পিউটারের স্থায়ী স্মৃতিশক্তি কে কি বলে?"
+    ]
+  },
+  {
+    "id": "miq_129",
+    "question": "কম্পিউটারের আইকিউ(IQ) কত?",
+    "options": [
+      "120",
+      "0",
+      "200",
+      "120+"
+    ],
+    "correct_answer": "0",
+    "explanation": "Intelligence quotient IQ কম্পিউটার সিদ্ধান্ত নিতে পারে না। আইকিউ হল পরিমাপ বুদ্ধিমত্তা। কম্পিউটার কোন আবেগ নিয়ে চিন্তা না করে তাই কম্পিউটারের আইকিউ ০ হয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার টেস্টার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার টেস্টার_2.6.23"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুত_মিটার রিডার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুত_মিটার রিডার_4.8.23"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_সহকারী জুনিয়র ইঞ্জিনিয়ার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_সহকারী জুনিয়র ইঞ্জিনিয়ার_15.9.23"
+      }
+    ],
+    "exam_summary": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার টেস্টার (2023), পল্লী বিদ্যুত_মিটার রিডার (2023), পল্লী বিদ্যুতায়ন বোর্ড_সহকারী জুনিয়র ইঞ্জিনিয়ার (2023)",
+    "question_variations": [
+      "কম্পিউটারের আইকিউ (IQ) কত?"
+    ]
+  },
+  {
+    "id": "miq_130",
+    "question": "যে বইগুলো অনলাইন পড়া যায় সেগুলো কোন ফরম্যাটে থাকে?",
+    "options": [
+      "jpg",
+      "pdf",
+      "doc",
+      "html"
+    ],
+    "correct_answer": "html",
+    "explanation": "📝 ▣<b> ই-বুক:</b><br/>❏ ই-বুক বা ইলেকট্রনিক বুক বা ই-বই হলো মুদ্রিত বইয়ের ইলেকট্রনিক রূপ। <br/>❏ যেহেতু, এটি ইলেকট্রনিক মাধ্যমে প্রকাশিত হয় সে কারণে এতে শব্দ, অ্যানিমেশন ইত্যাদিও জুড়ে দেওয়া যায়।<br/>❏ ই-বুক কম্পিউটার, স্মার্টফোন বা বিশেষ ধরনের রিডার (ই-বুক রিডার) ব্যবহার করে পড়া যায়। প্রচলিত রিডারের মধ্যে অ্যামাজন ডটকমের (amazon.com) কিন্ডল (kindle) সবচেয়ে জনপ্রিয়।<br/>❏ মুদ্রিত বইয়ের হুবহু প্রতিলিপি ই-বুকগুলো মূলত মুদ্রিত বইয়ের মতই হয়ে থাকে। সচরাচর এগুলো পিডিএফ (পোর্টেবল ডকুমেন্ট ফরম্যাট) ফরম্যাটে প্রকাশিত হয়ে থাকে।<br/>❏ যে ই-বুকগুলো কেবল অনলাইনে তথা ইন্টারনেটে পড়া যায়, এগুলো সচরাচর <b>এইচটিএমএল</b>-এ প্রকাশিত হয়। এগুলোকে বই-এর ওয়েবসাইট বলা যায়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার টেস্টার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার টেস্টার_2.6.23"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুত_মিটার রিডার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুত_মিটার রিডার_4.8.23"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_সহকারী জুনিয়র ইঞ্জিনিয়ার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_সহকারী জুনিয়র ইঞ্জিনিয়ার_15.9.23"
+      }
+    ],
+    "exam_summary": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার টেস্টার (2023), পল্লী বিদ্যুত_মিটার রিডার (2023), পল্লী বিদ্যুতায়ন বোর্ড_সহকারী জুনিয়র ইঞ্জিনিয়ার (2023)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_131",
+    "question": "http প্রথম ব্যবহৃত হয় কখন?",
+    "options": [
+      "১৯৮০",
+      "১৯৬৯",
+      "১৯৮৯",
+      "১৯৭১"
+    ],
+    "correct_answer": "১৯৮৯",
+    "explanation": "হাইপার টেক্সট ট্রান্সফার প্রোটোকল বা এইচটিটিপি হচ্ছে ইন্টারনেটে তথ্য আদান প্রদানের একটি জনপ্রিয় ও বহুল প্রচলিত পদ্ধতি। পদার্থবিদ ও কম্পিউটার বিজ্ঞানী টিম বার্নার্স লী ১৯৮৯ সালে এই পদ্ধতিটি তৈরি করেন। এইচটিটিপির প্রথম সংস্করণ হল এইচটিটিপি/১.১, যা ১৯৯৭ সালে আরএফসি ২০৬৮ নামে প্রথম ব্যবহৃত হয়।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার টেস্টার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার টেস্টার_2.6.23"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুত_মিটার রিডার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুত_মিটার রিডার_4.8.23"
+      },
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_সহকারী জুনিয়র ইঞ্জিনিয়ার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_সহকারী জুনিয়র ইঞ্জিনিয়ার_15.9.23"
+      }
+    ],
+    "exam_summary": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার টেস্টার (2023), পল্লী বিদ্যুত_মিটার রিডার (2023), পল্লী বিদ্যুতায়ন বোর্ড_সহকারী জুনিয়র ইঞ্জিনিয়ার (2023)",
+    "question_variations": []
+  },
+  {
+    "id": "miq_132",
+    "question": "ফেসবুকের প্রতিষ্ঠাতার নাম কি?",
+    "options": [
+      "জ্যাক ডরসি",
+      "ইলন মাস্ক",
+      "জেফ বেজোস",
+      "মার্ক জুকারবার্গ"
+    ],
+    "correct_answer": "মার্ক জুকারবার্গ",
+    "explanation": "মার্ক ইলিয়ট জাকারবার্গ একজন আমেরিকান কম্পিউটার প্রোগ্রামার ও সফটওয়্যার ডেভেলপার। তার পুরো নাম মার্ক এলিয়ট জাকারবার্গ, যার আসল পরিচিতি হলো জনপ্রিয় সামাজিক যোগাযোগ মাধ্যম ফেসবুকের প্রতিষ্ঠাতা হিসেবে। তিনি ফেসবুকের চেয়ারম্যান, প্রধান নির্বাহী কর্মকর্তা এবং নিয়ন্ত্রক অংশীদার।<br/>জন্ম: ১৪ মে, ১৯৮৪ (বয়স ৩৯ বছর), White Plains, নিউ ইয়র্ক, মার্কিন যুক্তরাষ্ট্র<br/>স্বামী বা স্ত্রী: প্রিসিলা চ্যান (বিবাহ. ২০১২)<br/>মোট সম্পদ: ১১১.৬ বিলিয়ন USD (২০২৩) ফোর্বস<br/>শিক্ষা: হার্ভার্ড বিশ্ববিদ্যালয় (২০০২–২০০৪), Phillips Exeter Academy (২০০০–২০০২),<br/>বাবা ও মা: এডওয়ার্ড জাকারবার্গ, ক্যারেন কেম্পনার<br/>উচ্চতা: ১.৭১ m",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার রিডার ও ম্যাসেঞ্জার",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার রিডার ও ম্যাসেঞ্জার_4.11.23"
+      },
+      {
+        "exam_name": "বিদ্যুৎ উন্নয়ন বোর্ড_নিম্নমান হিসাব সহকারী",
+        "year": 2023,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "বিদ্যুৎ উন্নয়ন বোর্ড_নিম্নমান হিসাব সহকারী_10.11.23"
+      },
+      {
+        "exam_name": "ঢাকা বিশ্ববিদ্যালয়_2013_খ ইউনিট",
+        "year": 2013,
+        "category": "বিশ্ববিদ্যালয় ভর্তি পরীক্ষা (Admission Tests)",
+        "full_title": "ঢাকা বিশ্ববিদ্যালয়_2013_খ ইউনিট"
+      }
+    ],
+    "exam_summary": "পল্লী বিদ্যুতায়ন বোর্ড_মিটার রিডার ও ম্যাসেঞ্জার (2023), বিদ্যুৎ উন্নয়ন বোর্ড_নিম্নমান হিসাব সহকারী (2023), ঢাকা বিশ্ববিদ্যালয়_2013_খ ইউনিট (2013)",
+    "question_variations": [
+      "ফেসবুকের প্রতিষ্ঠাতা কে?",
+      "ফেসবুকের প্রতিষ্ঠাতা-"
+    ]
+  },
+  {
+    "id": "miq_133",
+    "question": "ChatGPT-এর নির্মাতা প্রতিষ্ঠান কোনটি?",
+    "options": [
+      "Microsoft",
+      "Google",
+      "OpenAI",
+      "Apple"
+    ],
+    "correct_answer": "OpenAI",
+    "explanation": "📖 বিশ্বজুড়ে আলোড়ন সৃষ্টিকারী কৃত্রিম বুদ্ধিমত্তা সম্পন্ন চ্যাটবট 'ChatGPT'-এর নির্মাতা প্রতিষ্ঠান হলো যুক্তরাষ্ট্রের সান ফ্রান্সিসকো ভিত্তিক এআই গবেষণা প্রতিষ্ঠান 'OpenAI'। এটি ২০২২ সালের নভেম্বরে প্রথম উন্মুক্ত করা হয় এবং দ্রুতই প্রযুক্তি বিশ্বে ব্যাপক জনপ্রিয়তা লাভ করে।<br/> ⇢ <br/>⛳ 'ChatGPT' (Generative Pre-trained Transformer) হলো একটি লার্জ ল্যাঙ্গুয়েজ মডেল (LLM) ভিত্তিক চ্যাটবট, যা মানুষের মতো টেক্সট তৈরি করতে, প্রশ্নের উত্তর দিতে এবং কোডিং করতে সক্ষম। এটি তৈরি করেছে স্যাম অল্টম্যান (Sam Altman) এবং ইলন মাস্কের (প্রাথমিক পর্যায়ে) প্রতিষ্ঠিত কোম্পানি 'OpenAI'। যদিও মাইক্রোসফট (Microsoft) ওপেনএআই-তে বিলিয়ন ডলার বিনিয়োগ করেছে এবং তাদের বিং (Bing) সার্চ ইঞ্জিনে এটি যুক্ত করেছে, কিন্তু এর মূল নির্মাতা ও স্বত্বাধিকারী প্রতিষ্ঠান হলো OpenAI। গুগলের তৈরি এআই চ্যাটবটের নাম হলো 'Gemini' (পূর্বে Bard)।",
+    "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
+    "times_repeated": 3,
+    "exam_count": 3,
+    "exam_references": [
+      {
+        "exam_name": "সড়ক পরিবহন কর্তৃপক্ষ (BRTA) PSC_সহকারী পরিচালক ~ইঞ্জিনিয়ারিং",
+        "year": 2024,
+        "category": "বিভিন্ন মন্ত্রণালয় ও অধিদপ্তর (Ministries & Non-Cadre)",
+        "full_title": "সড়ক পরিবহন কর্তৃপক্ষ (BRTA) PSC_সহকারী পরিচালক ~ইঞ্জিনিয়ারিং_28.5.24"
+      },
+      {
+        "exam_name": "চট্টগ্রাম বিশ্ববিদ্যালয়_2024_কলা ও মানবিদ্যা_D ইউনিট ( )",
+        "year": 2024,
+        "category": "বিশ্ববিদ্যালয় ভর্তি পরীক্ষা (Admission Tests)",
+        "full_title": "চট্টগ্রাম বিশ্ববিদ্যালয়_2024_কলা ও মানবিদ্যা_D ইউনিট (16.3.24)"
+      },
+      {
+        "exam_name": "গুচ্ছ বিশ্ববিদ্যালয়(GST)_B Unit (মানবিক)_২৫-২৬ ( )",
+        "year": 2026,
+        "category": "বিশ্ববিদ্যালয় ভর্তি পরীক্ষা (Admission Tests)",
+        "full_title": "গুচ্ছ বিশ্ববিদ্যালয়(GST)_B Unit (মানবিক)_২৫-২৬ (3.4.26)"
+      }
+    ],
+    "exam_summary": "সড়ক পরিবহন কর্তৃপক্ষ (BRTA) PSC_সহকারী পরিচালক ~ইঞ্জিনিয়ারিং (2024), চট্টগ্রাম বিশ্ববিদ্যালয়_2024_কলা ও মানবিদ্যা_D ইউনিট ( ) (2024), গুচ্ছ বিশ্ববিদ্যালয়(GST)_B Unit (মানবিক)_২৫-২৬ ( ) (2026)",
+    "question_variations": [
+      "ChatGPT এর নির্মাতা প্রতিষ্ঠান কোনটি?"
+    ]
+  }
+];

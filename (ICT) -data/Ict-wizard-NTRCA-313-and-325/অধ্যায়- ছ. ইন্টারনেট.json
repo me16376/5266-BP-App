@@ -1,0 +1,626 @@
+[
+  {
+    "id": 1,
+    "question": "ইন্টারনেট কী?",
+    "options": [
+      "একটি ব্যক্তিগত কম্পিউটার",
+      "একটি আন্তঃসংযুক্ত নেটওয়ার্ক",
+      "শুধুমাত্র একটি দেশের কম্পিউটার নেটওয়ার্ক",
+      "একটি ওয়েব ব্রাউজার সফটওয়্যার"
+    ],
+    "answer": "খ",
+    "explanation": "ইন্টারনেট হলো বিশ্বজুড়ে ছড়িয়ে থাকা বহু কম্পিউটার নেটওয়ার্কের আন্তঃসংযুক্ত এক বিশাল বিশ্বজনীন নেটওয়ার্ক (Network of networks)।"
+  },
+  {
+    "id": 2,
+    "question": "ইন্টারনেটের মাধ্যমে সহজে তথ্য আদান-প্রদান করার প্রক্রিয়াকে কী বলা হয়?",
+    "options": [
+      "ফ্যাক্স",
+      "টেলিফোন",
+      "ই-মেইল",
+      "পোস্টাল সার্ভিস"
+    ],
+    "answer": "গ",
+    "explanation": "ইন্টারনেটের মাধ্যমে খুব দ্রুত এবং সহজে টেক্সট বার্তা, ফাইল ও তথ্য আদান-প্রদানের ডিজিটাল মাধ্যম হলো ই-মেইল (Electronic Mail)।"
+  },
+  {
+    "id": 3,
+    "question": "ইন্টারনেট ব্যবহারের একটি প্রধান কুফল কোনটি?",
+    "options": [
+      "মানসিক সমস্যা",
+      "সাইবার অপরাধ",
+      "অফলাইন ব্যবসা বন্ধ",
+      "সময় নষ্ট"
+    ],
+    "answer": "খ",
+    "explanation": "ইন্টারনেটের অন্যতম প্রধান ক্ষতিকর দিক হলো সাইবার অপরাধ (Cyber Crime), যেমন—হ্যাকিং, ফিশিং, তথ্য চুরি এবং ডিজিটাল প্রতারণা।"
+  },
+  {
+    "id": 4,
+    "question": "আধুনিক জীবনে ইন্টারনেটের সবচেয়ে গুরুত্বপূর্ণ প্রয়োগ ক্ষেত্র কোনটি?",
+    "options": [
+      "চাষাবাদ",
+      "অনলাইন শিক্ষা",
+      "রাস্তা তৈরি",
+      "খেলাধুলা"
+    ],
+    "answer": "খ",
+    "explanation": "১৯৬৯ সালে মার্কিন প্রতিরক্ষা বিভাগের অ্যাডভান্সড রিসার্চ প্রজেক্টস এজেন্সি কর্তৃক ARPANET প্রতিষ্ঠার মাধ্যমে ইন্টারনেটের সূচনা হয়।"
+  },
+  {
+    "id": 5,
+    "question": "ব্যবসায় বাণিজ্যে ইন্টারনেটের ব্যবহারকে কী বলা হয়?",
+    "options": [
+      "ই-গভর্ন্যান্স",
+      "ই-কমার্স",
+      "ই-পোস্ট",
+      "ই-স্বাস্থ্য"
+    ],
+    "answer": "খ",
+    "explanation": "ভিন্টন গ্রে সার্ফ (Vinton Gray Cerf) এবং রবার্ট কান (Robert E. Kahn)-কে ইন্টারনেটের জনক বলা হয়।"
+  },
+  {
+    "id": 6,
+    "question": "ইন্টারনেট সংযোগের জন্য নিচের কোন ডিভাইসটি আবশ্যক?",
+    "options": [
+      "প্রিন্টার",
+      "স্ক্যানার",
+      "মডেম",
+      "স্পিকার"
+    ],
+    "answer": "গ",
+    "explanation": "টেলিফোন লাইন বা ক্যাবলের অ্যানালগ সংকেতকে ডিজিটাল এবং কম্পিউটারের ডিজিটাল সংকেতকে অ্যানালগে রূপান্তর করতে মডেম (Modem) আবশ্যক।"
+  },
+  {
+    "id": 7,
+    "question": "ইন্টারনেট ব্যবহারের ক্ষেত্রে কোনটি ব্যবহারকারীকে ইন্টারনেট পরিষেবা প্রদান করে?",
+    "options": [
+      "ISP",
+      "ARPANET",
+      "BTCL",
+      "Govt"
+    ],
+    "answer": "ক",
+    "explanation": "ISP-এর পূর্ণরূপ হলো Internet Service Provider; এটি এমন বাণিজ্যিক প্রতিষ্ঠান যা ব্যবহারকারীকে ইন্টারনেট ব্যবহারের সংযোগ ও সেবা প্রদান করে।"
+  },
+  {
+    "id": 8,
+    "question": "ইন্টারনেট ব্যবহারকারী কতভাবে ইন্টারনেট অ্যাক্সেস করতে পারে?",
+    "options": [
+      "ডায়াল-আপ",
+      "ব্রডব্যান্ড",
+      "ফাইবার অপটিক",
+      "সবগুলো"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যবহারকারী ডায়াল-আপ, ক্যাবল বা ফাইবার ব্রডব্যান্ড এবং মোবাইল নেটওয়ার্ক বা ওয়াইফাই—এই সবগুলোর মাধ্যমেই ইন্টারনেট অ্যাক্সেস করতে পারেন।"
+  },
+  {
+    "id": 9,
+    "question": "ইন্টারনেটের বুলেটিন বোর্ড সিস্টেম মূলত কীসের জন্য ব্যবহৃত হতো?",
+    "options": [
+      "উচ্চ গতিতে ভিডিও দেখা",
+      "নির্দিষ্ট বিষয়ে আলোচনা ও তথ্য বিনিময়ের জন্য",
+      "ব্যক্তিগত ই-মেইল পাঠানো",
+      "সরাসরি কেনাকাটা"
+    ],
+    "answer": "খ",
+    "explanation": "BBS (Bulletin Board System) ইন্টারনেটের প্রাথমিক যুগের একটি ব্যবস্থা, যা ব্যবহারকারীদের নির্দিষ্ট বিষয়ে বার্তা পাঠাতে ও ফাইল বিনিময় করতে ব্যবহৃত হতো।"
+  },
+  {
+    "id": 10,
+    "question": "ই-কমার্স-এর পূর্ণরূপ কী?",
+    "options": [
+      "এক্সেলেন্ট কমার্স",
+      "এনার্জি কমার্স",
+      "ইলেকট্রনিক কমার্স",
+      "এথিকস কমার্স"
+    ],
+    "answer": "গ",
+    "explanation": "E-commerce-এর পূর্ণরূপ হলো Electronic Commerce, যার অর্থ ইন্টারনেটের মাধ্যমে পণ্য বা সেবার বাণিজ্যিক কেনাবেচা।"
+  },
+  {
+    "id": 11,
+    "question": "ই-কমার্সের একটি প্রধান বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "শুধুমাত্র নির্দিষ্ট সময়ে কেনাকাটার সুযোগ",
+      "২৪/৭ পরিষেবা ও বিশ্বব্যাপী অ্যাক্সেস",
+      "পণ্য হাতে পাওয়ার আগে মূল্য পরিশোধ অসম্ভব",
+      "মধ্যস্বত্বভোগীর সংখ্যা বৃদ্ধি"
+    ],
+    "answer": "খ",
+    "explanation": "ই-কমার্সের বড় সুবিধা হলো এটি দিনে ২৪ ঘণ্টা ও সপ্তাহে ৭ দিনই উন্মুক্ত থাকে এবং ভৌগোলিক দূরত্বের বাধা ছাড়াই লেনদেন করা যায়।"
+  },
+  {
+    "id": 12,
+    "question": "ই-কমার্সের একটি অসুবিধা কী?",
+    "options": [
+      "সময় সাশ্রয়",
+      "পণ্য তুলনা করার সুবিধা",
+      "পণ্য পাওয়ার আগে স্পর্শ বা অনুভব করতে না পারা",
+      "ব্যবসায় পরিচালনায় কম খরচ"
+    ],
+    "answer": "গ",
+    "explanation": "অনলাইন কেনাকাটায় পণ্যটি অর্ডারের পূর্বে সরাসরি হাতে ধরে স্পর্শ বা পরখ করার সুযোগ থাকে না, যা এর অন্যতম প্রধান সীমাবদ্ধতা।"
+  },
+  {
+    "id": 13,
+    "question": "যখন একটি ব্যবসা অন্য একটি ব্যবসাকে পণ্য বিক্রি করে, তখন তাকে কী বলে?",
+    "options": [
+      "C2C",
+      "C2B",
+      "B2B",
+      "G2C"
+    ],
+    "answer": "গ",
+    "explanation": "B2B (Business-to-Business) হলো এমন বাণিজ্যিক মডেল যেখানে একটি ব্যবসা প্রতিষ্ঠান অন্য কোনো ব্যবসা প্রতিষ্ঠানের কাছে পাইকারি পণ্য বা সেবা বিক্রি করে।"
+  },
+  {
+    "id": 14,
+    "question": "Amazon বা Daraz এর মতো ওয়েবসাইট কোন মডেলের ই-কমার্সের উদাহরণ?",
+    "options": [
+      "B2B",
+      "B2C",
+      "C2C",
+      "C2B"
+    ],
+    "answer": "খ",
+    "explanation": "Amazon বা Daraz ব্যবসা প্রতিষ্ঠান থেকে সরাসরি সাধারণ খুচরা ক্রেতাদের কাছে পণ্য পৌঁছে দেয়, তাই এটি B2C (Business-to-Consumer) মডেল।"
+  },
+  {
+    "id": 15,
+    "question": "WWW-এর পূর্ণরূপ কী?",
+    "options": [
+      "ওয়াইড ওয়ার্ল্ড ওয়েব",
+      "উইন্ডো ওয়ার্ল্ড ওয়েব",
+      "ওয়ার্ল্ড ওয়াইড ওয়েব",
+      "ওয়ার্ল্ড উইন্ডো ওয়েব"
+    ],
+    "answer": "গ",
+    "explanation": "WWW-এর পূর্ণরূপ হলো World Wide Web, যা ১৯৮৯ সালে সার্ন (CERN)-এ বিজ্ঞানী টিম বার্নার্স-লি উদ্ভাবন করেন।"
+  },
+  {
+    "id": 16,
+    "question": "WWW ব্রাউজ করার সময় কোন প্রোটোকল সবচেয়ে বেশি ব্যবহৃত হয়?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "TCP/IP"
+    ],
+    "answer": "গ",
+    "explanation": "ইন্টারনেটে ক্লায়েন্ট ব্রাউজার ও ওয়েব সার্ভারের মধ্যে ওয়েবপেজ আদান-প্রদানের প্রধান প্রোটোকল হলো HTTP (HyperText Transfer Protocol)।"
+  },
+  {
+    "id": 17,
+    "question": "সার্চ ইঞ্জিন কী?",
+    "options": [
+      "ই-মেইল পাঠানোর সফটওয়্যার",
+      "একটি হার্ডওয়্যার ডিভাইস",
+      "একটি সফটওয়্যার তথ্য অনুসন্ধানে সহায়তা করে",
+      "একটি অ্যান্টিভাইরাস প্রোগ্রাম"
+    ],
+    "answer": "গ",
+    "explanation": "সার্চ ইঞ্জিন হলো বিশেষ ওয়েব সফটওয়্যার যা ইন্টারনেটের কোটি কোটি পেজ ইনডেক্স করে ব্যবহারকারীর কি-ওয়ার্ড অনুযায়ী প্রাসঙ্গিক তথ্য খুঁজে দেয়।"
+  },
+  {
+    "id": 18,
+    "question": "নিচের কোনটি একটি জনপ্রিয় সার্চ ইঞ্জিন?",
+    "options": [
+      "Mozilla Firefox",
+      "Bing",
+      "Adobe Reader",
+      "VLC Media Player"
+    ],
+    "answer": "খ",
+    "explanation": "Bing হলো মাইক্রোসফট কর্পোরেশনের উদ্ভাবিত একটি অত্যন্ত জনপ্রিয় সার্চ ইঞ্জিন।"
+  },
+  {
+    "id": 19,
+    "question": "ওয়েব ব্রাউজার কী?",
+    "options": [
+      "একটি সার্ভার কম্পিউটার",
+      "সফটওয়্যার যা WWW-এর কন্টেন্ট দেখতে ব্যবহৃত হয়",
+      "ওয়েবপেজ তৈরি করার ভাষা",
+      "ইন্টারনেটে তথ্য খোঁজার প্ল্যাটফর্ম"
+    ],
+    "answer": "খ",
+    "explanation": "ওয়েব ব্রাউজার হলো এমন অ্যাপ্লিকেশন সফটওয়্যার যা সার্ভার থেকে HTML পেজ ডাউনলোড করে ব্যবহারকারীর দেখার উপযোগী করে পর্দায় প্রদর্শন করে।"
+  },
+  {
+    "id": 20,
+    "question": "নিচের কোনটি ওয়েব ব্রাউজার হিসেবে পরিচিত নয়?",
+    "options": [
+      "Google Chrome",
+      "Safari",
+      "MS Word",
+      "Opera"
+    ],
+    "answer": "গ",
+    "explanation": "MS Word একটি অফিস অ্যাপ্লিকেশন ওয়ার্ড প্রসেসর; এটি কোনো ওয়েব ব্রাউজার নয় (Chrome, Edge, Firefox, Safari ব্রাউজার)।"
+  },
+  {
+    "id": 21,
+    "question": "একটি ওয়েব ব্রাউজারের মূল ভূমিকা কী?",
+    "options": [
+      "কম্পিউটারকে ভাইরাস থেকে রক্ষা করা",
+      "সার্ভার থেকে HTML ডকুমেন্ট ডাউনলোড ও প্রদর্শন করা",
+      "হার্ডওয়্যার মেরামত করা",
+      "বিদ্যুৎ সরবরাহ নিয়ন্ত্রণ করা"
+    ],
+    "answer": "খ",
+    "explanation": "ওয়েব ব্রাউজারের মূল ভূমিকা হলো ওয়েব সার্ভারে সংরক্ষিত HTML ডকুমেন্ট ও রিসোর্স ফেচ করে স্ক্রিনে রেন্ডার ও প্রদর্শন করা।"
+  },
+  {
+    "id": 22,
+    "question": "কোনো ওয়েবসাইটের সম্পূর্ণ ঠিকানাকে কী বলা হয়?",
+    "options": [
+      "ডোমেইন নাম",
+      "IP অ্যাড্রেস",
+      "URL",
+      "HTTP"
+    ],
+    "answer": "গ",
+    "explanation": "ইন্টারনেটে কোনো একক ওয়েবপেজ বা রিসোর্সের নির্দিষ্ট গ্লোবাল ঠিকানাকে URL (Uniform Resource Locator) বলা হয়।"
+  },
+  {
+    "id": 23,
+    "question": "ই-মেইল (E-mail)-এর পূর্ণরূপ কী?",
+    "options": [
+      "এভরি মেইল",
+      "আর্লি মেইল",
+      "ইলেকট্রনিক মেইল",
+      "ইজি মেইল"
+    ],
+    "answer": "গ",
+    "explanation": "E-mail-এর পূর্ণরূপ হলো Electronic Mail; এটি ইন্টারনেটে বার্তা প্রেরণের সবচেয়ে জনপ্রিয় ডিজিটাল মাধ্যম।"
+  },
+  {
+    "id": 24,
+    "question": "একটি ই-মেইল অ্যাড্রেসের অপরিহার্য অংশ কোনটি?",
+    "options": [
+      "হ্যাশট্যাগ (#)",
+      "পার্সেন্টেজ (%)",
+      "অ্যাট সাইন (@)",
+      "অ্যাম্পারস্যান্ড (&)"
+    ],
+    "answer": "গ",
+    "explanation": "প্রতিটি ই-মেইল ঠিকানায় ব্যবহারকারীর নাম (Username) এবং ডোমেইন নেম-কে আলাদা করতে '@' (অ্যাট সাইন) প্রতীকটি আবশ্যিকভাবে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 25,
+    "question": "ই-মেইল ঠিকানায় '@' চিহ্নের পরে কী থাকে?",
+    "options": [
+      "ব্যবহারকারীর নাম",
+      "গোপন পাসওয়ার্ড",
+      "ডোমেইন নাম",
+      "ফাইল সাইজ"
+    ],
+    "answer": "গ",
+    "explanation": "ই-মেইল ঠিকানায় '@' চিহ্নের আগের অংশটি হলো ইউজারনেম এবং পরবর্তী অংশটি হলো মেইল সার্ভারের ডোমেইন নাম (যেমন: gmail.com)।"
+  },
+  {
+    "id": 26,
+    "question": "ই-মেইল প্রেরণের জন্য সাধারণত কোন প্রোটোকল ব্যবহার করা হয়?",
+    "options": [
+      "POP3",
+      "SMTP",
+      "IMAP",
+      "FTP"
+    ],
+    "answer": "খ",
+    "explanation": "ই-মেইল সার্ভারে বার্তা প্রেরণ বা আউটগোয়িং মেইলের জন্য আদর্শ প্রোটোকল হলো SMTP (Simple Mail Transfer Protocol)।"
+  },
+  {
+    "id": 27,
+    "question": "ই-মেইল পাওয়ার জন্য সাধারণত কোন প্রোটোকল ব্যবহৃত হয়?",
+    "options": [
+      "HTTP",
+      "POP3",
+      "SMTP",
+      "ICMP"
+    ],
+    "answer": "খ",
+    "explanation": "মেইল সার্ভার থেকে ইনকামিং ই-মেইল গ্রহণ বা ডাউনলোডের জন্য POP3 (Post Office Protocol v3) বা IMAP প্রোটোকল ব্যবহৃত হয়।"
+  },
+  {
+    "id": 28,
+    "question": "ই-মেইল পাঠানোর সময় কাউকে লুকিয়ে রেখে অনুলিপি পাঠাতে কোন অপশনটি ব্যবহার করা হয়?",
+    "options": [
+      "To",
+      "CC",
+      "BCC",
+      "Subject"
+    ],
+    "answer": "গ",
+    "explanation": "BCC (Blind Carbon Copy) ব্যবহার করে ই-মেইল পাঠালে মূল প্রাপক অন্য কোনো প্রাপকের ই-মেইল ঠিকানা দেখতে পান না।"
+  },
+  {
+    "id": 29,
+    "question": "ওয়েবপেজ তৈরি করতে ব্যবহৃত মার্কআপ ভাষা কোনটি?",
+    "options": [
+      "Java",
+      "Python",
+      "HTML",
+      "C++"
+    ],
+    "answer": "গ",
+    "explanation": "ওয়েবপেজের মূল কাঠামো ও বিষয়বস্তু তৈরি করতে মার্কআপ ভাষা হিসেবে HTML (HyperText Markup Language) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 30,
+    "question": "ইন্টারনেটের মাধ্যমে তথ্য আদান-প্রদানের জন্য সর্বাধিক ব্যবহৃত প্রোটোকল কী?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "DNS",
+      "TCP/IP"
+    ],
+    "answer": "ঘ",
+    "explanation": "ইন্টারনেটে ডিভাইসগুলোর মধ্যে নির্ভরযোগ্য ডেটা প্যাকেট আদান-প্রদানের মূল প্রোটোকল স্যুট হলো TCP/IP।"
+  },
+  {
+    "id": 31,
+    "question": "একটি LAN-এর একাধিক ডিভাইসকে একটি WAN এর সাথে সংযুক্ত করে এমন ডিভাইস কোনটি?",
+    "options": [
+      "রাউটার",
+      "ওয়েব সার্ভার",
+      "ব্রীজ",
+      "হাব"
+    ],
+    "answer": "ক",
+    "explanation": "রাউটার (Router) নেটওয়ার্ক লেয়ারের একটি বুদ্ধিমান ডিভাইস যা স্থানীয় LAN নেটওয়ার্ককে ইন্টারনেট বা WAN-এর সাথে যুক্ত করে প্যাকেট ফরোয়ার্ড করে।"
+  },
+  {
+    "id": 32,
+    "question": "ইন্টারনেট যোগাযোগ ব্যবস্থায় Hostname- কে IP Address-এ অনুবাদ করে কোনটি?",
+    "options": [
+      "FTP",
+      "Firewall",
+      "DNS Server",
+      "Gateway"
+    ],
+    "answer": "গ",
+    "explanation": "DNS (Domain Name System) সার্ভার মানুষের বোধগম্য ডোমেইন নামকে কম্পিউটারের আইপি ঠিকানায় (IP Address) রূপান্তর করে।"
+  },
+  {
+    "id": 33,
+    "question": "Piconet কী?",
+    "options": [
+      "Wifi Network",
+      "Wide Area Network",
+      "Bluetooth Network",
+      "5G Network"
+    ],
+    "answer": "গ",
+    "explanation": "ব্লুটুথ প্রযুক্তির মাধ্যমে স্বল্প দূরত্বে ৮টি পর্যন্ত সক্রিয় ডিভাইস সংযুক্ত করে তৈরি হওয়া ছোট ব্যক্তিগত নেটওয়ার্ককে পাইকোনেট (Piconet) বলে।"
+  },
+  {
+    "id": 34,
+    "question": "DNS সার্ভারের কাজ হচ্ছে—",
+    "options": [
+      "Email কে IP address এ পরিবর্তন করা",
+      "MAC Address কে IP address এ পরিবর্তন করা",
+      "Domain name কে IP address এ পরিবর্তন করা",
+      "Email কে IP address এ পরিবর্তন করা"
+    ],
+    "answer": "গ",
+    "explanation": "DNS সার্ভারের প্রধান দায়িত্ব হলো ডোমেইন নামকে সংশ্লিষ্ট আইপি (IP) ঠিকানায় অনুবাদ করা যাতে ক্লায়েন্ট সার্ভারকে খুঁজে পায়।"
+  },
+  {
+    "id": 35,
+    "question": "নিচের কোনটি Bluetooth এর IEEE standard?",
+    "options": [
+      "IEEE 802.15",
+      "IEEE 802.1",
+      "IEEE 802.3",
+      "IEEE 802.11"
+    ],
+    "answer": "ক",
+    "explanation": "ব্লুটুথ হলো ওয়্যারলেস পার্সোনাল এরিয়া নেটওয়ার্ক (WPAN), যার অফিসিয়াল আন্তর্জাতিক মান হলো IEEE 802.15।"
+  },
+  {
+    "id": 36,
+    "question": "Bluetooth কিসের উদাহরণ?",
+    "options": [
+      "Personal Area Network",
+      "Local Area Network",
+      "Virtual Private Network",
+      "কোনটি নয়"
+    ],
+    "answer": "ক",
+    "explanation": "ব্লুটুথ সাধারণত ১০ মিটারের মধ্যে ব্যক্তিগত ডিভাইস সংযোগে কাজ করে, তাই এটি PAN (Personal Area Network)-এর প্রকৃষ্ট উদাহরণ।"
+  },
+  {
+    "id": 37,
+    "question": "নিচের কোনটি একটি প্রতিষ্ঠানের ওয়েব ঠিকানাকে নির্দেশ করে?",
+    "options": [
+      "http",
+      "www",
+      "URL",
+      "HTML"
+    ],
+    "answer": "গ",
+    "explanation": "URL (Uniform Resource Locator) হলো কোনো নির্দিষ্ট ওয়েব রিসোর্স বা প্রতিষ্ঠানের ওয়েব ঠিকানার পূর্ণাঙ্গ নির্দেশক।"
+  },
+  {
+    "id": 38,
+    "question": "অ্যামাজন এর ক্লাউড প্ল্যাটফর্ম কোনটি?",
+    "options": [
+      "Azure",
+      "AWS",
+      "Cloudera",
+      "উপরের সবগুলো"
+    ],
+    "answer": "খ",
+    "explanation": "AWS (Amazon Web Services) হলো প্রযুক্তি জায়ান্ট অ্যামাজনের ক্লাউড কম্পিউটিং এবং অন-ডিমান্ড অবকাঠামো প্ল্যাটফর্ম।"
+  },
+  {
+    "id": 39,
+    "question": "নিচের কোন প্রযুক্তি 'Pay as You Go' সার্ভিস মডেল অনুসরণ করে?",
+    "options": [
+      "IoT",
+      "Cloud Computing",
+      "Client-Server Systems",
+      "Big Data Analytics"
+    ],
+    "answer": "খ",
+    "explanation": "ক্লাউড কম্পিউটিংয়ে ব্যবহারকারী ঠিক যতটুকু মেমোরি, প্রসেসর বা স্টোরেজ ব্যবহার করেন কেবল ততটুকুরই মূল্য দেন, যাকে 'Pay as You Go' বলে।"
+  },
+  {
+    "id": 40,
+    "question": "নিচের কোনটি ক্লাউড কম্পিউটিং এর বৈশিষ্ট্য নয়?",
+    "options": [
+      "On-demand self service",
+      "Broad network access",
+      "Limited customization",
+      "Physical ownership of servers"
+    ],
+    "answer": "ঘ",
+    "explanation": "ক্লাউড কম্পিউটিংয়ে গ্রাহককে নিজস্ব ফিজিক্যাল সার্ভার কিনতে বা বহন করতে হয় না; তাই Physical ownership এর বৈশিষ্ট্য নয়।"
+  },
+  {
+    "id": 41,
+    "question": "Blockchain এর প্রতিটি block কী তথ্য বহন করে?",
+    "options": [
+      "A hash pointer to the previous block",
+      "Timestamp",
+      "List of transactions",
+      "উপরের সবগুলো"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্লকচেইনের প্রতিটি ব্লকে সংরক্ষিত ডেটা, ওই ব্লকের নিজস্ব ক্রিপ্টোগ্রাফিক হ্যাশ এবং পূর্ববর্তী ব্লকের প্রিভিয়াস হ্যাশ সংরক্ষিত থাকে।"
+  },
+  {
+    "id": 42,
+    "question": "HTTP-এর পূর্ণরূপ কী?",
+    "options": [
+      "হাইপারটেক্সট ট্রান্সমিশন প্রোটোকল",
+      "হাইপারটেক্সট ট্রান্সফার প্রোটোকল",
+      "হাইপারটেক্সট টেম্পলেট প্রোটোকল",
+      "হাইপারটাইপ টেক্সট প্রোটোকল"
+    ],
+    "answer": "খ",
+    "explanation": "HTTP-এর পূর্ণরূপ হলো HyperText Transfer Protocol, যা ওয়েব ব্রাউজার ও সার্ভারের যোগাযোগের মূল ভিত্তি।"
+  },
+  {
+    "id": 43,
+    "question": "HTML-এর পূর্ণরূপ কী?",
+    "options": [
+      "HyperText Technical Module Language",
+      "HyperText Markup Language",
+      "HyperText Mailing Language",
+      "HyperText Manual Language"
+    ],
+    "answer": "খ",
+    "explanation": "HTML-এর পূর্ণরূপ হলো HyperText Markup Language, যা দিয়ে ওয়েবপেজের কাঠামো গঠন করা হয়।"
+  },
+  {
+    "id": 44,
+    "question": "CD-এর পূর্ণরূপ কী?",
+    "options": [
+      "ক্যাশ ডিস্ক",
+      "কম্পিউটার ডিস্ক",
+      "কমপ্যাক্ট ডিস্ক",
+      "কানেক্টিং ডিভাইস"
+    ],
+    "answer": "গ",
+    "explanation": "CD-এর পূর্ণরূপ হলো Compact Disc, এটি একটি বহুল ব্যবহৃত অপটিক্যাল ডেটা স্টোরেজ মাধ্যম।"
+  },
+  {
+    "id": 45,
+    "question": "ENIAC-এর পূর্ণরূপ কী?",
+    "options": [
+      "ইলেকট্রনিক নেটওয়ার্ক ইন্টারনেট অ্যান্ড কম্পিউটার",
+      "ইলেকট্রনিক নিউমেরিক্যাল ইন্টিগ্রেটর অ্যান্ড কম্পিউটার",
+      "ইজি নেটওয়ার্কিং ইন্টিগ্রেটেড অ্যাপ্লিকেশন কম্পিউটার",
+      "এন্ট্রি নিউমেরিক্যাল ইন্টিগ্রেটেড অ্যান্ড কম্পিউটার"
+    ],
+    "answer": "খ",
+    "explanation": "ENIAC-এর পূর্ণরূপ হলো Electronic Numerical Integrator and Computer, যা প্রথম সাধারণ উদ্দেশ্য ইলেকট্রনিক ডিজিটাল কম্পিউটার।"
+  },
+  {
+    "id": 46,
+    "question": "RAM-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "Read Access Memory",
+      "Remote Access Module",
+      "Random Access Memory",
+      "Read-Only Access Memory"
+    ],
+    "answer": "গ",
+    "explanation": "RAM-এর পূর্ণরূপ হলো Random Access Memory, যা কম্পিউটারের প্রধান অস্থায়ী বা উদ্বায়ী মেমরি।"
+  },
+  {
+    "id": 47,
+    "question": "EPROM-এর পূর্ণরূপ কী?",
+    "options": [
+      "Energy Programming Read-Only Memory",
+      "Erasable Programmable Read-Only Memory",
+      "Electronic Program Read-Only Memory",
+      "Ethernet Programming Read-Only Memory"
+    ],
+    "answer": "খ",
+    "explanation": "EPROM-এর পূর্ণরূপ হলো Erasable Programmable Read-Only Memory, যা অতিবেগুনি রশ্মি প্রয়োগে মুছে পুনরায় লেখা যায়।"
+  },
+  {
+    "id": 48,
+    "question": "ASCII-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "Association of Scientific Computer Information Interchange",
+      "American Standard Code for Information Interchange",
+      "American Software Code for International Internet",
+      "Association Standard Code for Intercomputer Interface"
+    ],
+    "answer": "খ",
+    "explanation": "ASCII-এর পূর্ণরূপ হলো American Standard Code for Information Interchange; এটি বহুল প্রচলিত বর্ণ সংকেতায়ন পদ্ধতি।"
+  },
+  {
+    "id": 49,
+    "question": "EBCDIC-এর পূর্ণরূপ কী?",
+    "options": [
+      "Extended Binary Coded Decimal Interchange Code",
+      "Electronic Binary Code Display Interchange Computer",
+      "Emergency Basic Code Decimal Information Converter",
+      "Extended Basic Computer Data Input Code"
+    ],
+    "answer": "ক",
+    "explanation": "EBCDIC-এর পূর্ণরূপ হলো Extended Binary Coded Decimal Interchange Code; এটি প্রধানত IBM মেইনফ্রেম কম্পিউটারে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 50,
+    "question": "TCP/IP-এর পূর্ণরূপ কী?",
+    "options": [
+      "Transfer Control Protocol/Internet Program",
+      "Transmission Control Protocol/Internet Protocol",
+      "Total Control Protocol/Internet Protocol",
+      "Telephonic Control Protocol/Internet Protocol"
+    ],
+    "answer": "খ",
+    "explanation": "TCP/IP-এর পূর্ণরূপ হলো Transmission Control Protocol/Internet Protocol, যা ইন্টারনেটের প্রমিত যোগাযোগ ব্যবস্থা।"
+  },
+  {
+    "id": 51,
+    "question": "FTP-এর পূর্ণরূপ কী?",
+    "options": [
+      "File Transfer Protocol",
+      "Fast Transmission Protocol",
+      "Forward Transfer Protocol",
+      "File Transfer Procedure"
+    ],
+    "answer": "ক",
+    "explanation": "FTP-এর পূর্ণরূপ হলো File Transfer Protocol, যা নেটওয়ার্কে একাধিক কম্পিউটারের মধ্যে ফাইল স্থানান্তর করতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 52,
+    "question": "Wi-MAX-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "Wireless Internet for Microwave Access",
+      "Wide Area Internet for Microwave Access",
+      "Worldwide Internet for MAC Address",
+      "Worldwide Interoperability for Microwave Access"
+    ],
+    "answer": "ঘ",
+    "explanation": "Wi-MAX-এর পূর্ণরূপ হলো Worldwide Interoperability for Microwave Access, যা বিস্তৃত এলাকায় উচ্চগতির ওয়্যারলেস ব্রডব্যান্ড ইন্টারনেট দেয়।"
+  }
+]
