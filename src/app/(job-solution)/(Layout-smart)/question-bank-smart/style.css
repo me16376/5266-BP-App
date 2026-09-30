@@ -351,15 +351,13 @@ body {
 .filter-control-card {
   background: #ffffff;
   border-radius: 14px;
-  padding: 14px 20px;
+  padding: 16px 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
   border: 1px solid #e2e8f0;
   margin-bottom: 35px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 16px;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .pills-group {
@@ -367,6 +365,8 @@ body {
   gap: 8px;
   flex-wrap: wrap;
   align-items: center;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .filter-btn {
@@ -419,37 +419,45 @@ body {
   font-weight: 700;
 }
 
-.search-box-wrapper {
-  position: relative;
-  min-width: 250px;
-  flex: 0 1 320px;
-}
-
-.search-input {
+/* Search, Year & Sort Filters Row */
+.qb-search-filter-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  align-items: center;
   width: 100%;
-  padding: 9px 14px 9px 36px;
-  border-radius: 8px;
-  border: 1px solid #cbd5e1;
-  font-size: 0.9rem;
-  outline: none;
-  background-color: #ffffff;
-  color: #0f172a;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.search-input:focus {
+@media (min-width: 900px) {
+  .qb-search-filter-row {
+    grid-template-columns: 1.4fr 1fr 1.2fr;
+  }
+}
+
+.qb-search-filter-row .input-glass {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
+  font-family: inherit;
+  font-size: 0.92rem;
+  padding: 10px 14px;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.qb-search-filter-row .input-glass:focus {
   border-color: #5b50e6;
   box-shadow: 0 0 0 3px rgba(91, 80, 230, 0.15);
+  background: #ffffff;
 }
 
-.search-icon {
-  position: absolute;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #94a3b8;
-  font-size: 0.9rem;
-  pointer-events: none;
+.qb-search-filter-row select.input-glass {
+  appearance: auto;
+  -webkit-appearance: menulist;
+  cursor: pointer;
 }
 
 /* Question Bank Cards Grid */
@@ -911,9 +919,10 @@ body {
   .filter-control-card {
     flex-direction: column;
     align-items: stretch;
+    padding: 14px;
   }
-  .search-box-wrapper {
-    flex: 1;
-    width: 100%;
+  .qb-search-filter-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 }

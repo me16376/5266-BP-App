@@ -159,8 +159,13 @@ export function AuthProvider({ children }) {
     }
   };
 
+  const isOwner = user?.role === 'owner';
+  const isAdmin = user?.role === 'admin';
+  const isApprovedUser = user?.status === 'approved';
+  const isAuthorized = Boolean(isOwner || isAdmin || isApprovedUser);
+
   return (
-    <AuthContext.Provider value={{ user, token, loading, login, register, logout }}>
+    <AuthContext.Provider value={{ user, token, loading, login, register, logout, isAuthorized, isOwner, isAdmin, isApprovedUser }}>
       {children}
     </AuthContext.Provider>
   );

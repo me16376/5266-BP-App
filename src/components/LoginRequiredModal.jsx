@@ -5,12 +5,12 @@ import Link from 'next/link';
 
 export default function LoginRequiredModal({
   isOpen = true,
-  title = 'লগইন প্রয়োজন',
-  description = 'এই পেজের প্রশ্ন ও পরীক্ষা অনুশীলন করতে অনুগ্রহ করে আপনার অ্যাকাউন্টে লগইন করুন।',
+  title = 'পরীক্ষার তালিকা দেখতে লগইন প্রয়োজন',
+  description = 'এই পেজের বিগত ২,১৫৪টি চাকরির প্রশ্নভাণ্ডার ও সমাধান দেখতে অনুগ্রহ করে লগইন করুন। শুধুমাত্র অনুমোদিত শিক্ষার্থী (Approved User) বা অ্যাডমিনিস্ট্রেটর ছাড়া এই পেজটি দেখা যাবে না।',
   featureList = [
     '২,১৫৪টি বিসিএস, ব্যাংক, শিক্ষক ও সরকারি চাকরির বিগত প্রশ্নপত্র',
-    'টাইমার, স্কোরশিট ও বিস্তারিত নির্ভুল ব্যাখ্যা',
-    'স্বয়ংক্রিয় ভুল উত্তর ট্র্যাকিং ও পারফরম্যান্স অ্যানালিটিক্স'
+    'লাইভ মডেল টেস্ট, নেগেটিভ মার্কিং ও ওএমআর মার্কশিট',
+    'তাৎক্ষণিক সঠিক উত্তর ও বিস্তারিত ব্যাখ্যাসহ সমাধান'
   ],
   loginRedirect = '',
   chooseExamUrl = '',
@@ -18,69 +18,54 @@ export default function LoginRequiredModal({
 }) {
   if (!isOpen) return null;
 
+  // Account login page is at /profile (matching /job-solution/ page)
   const loginHref = loginRedirect
-    ? `/login?redirect=${encodeURIComponent(loginRedirect)}`
-    : '/login';
+    ? `/profile?redirect=${encodeURIComponent(loginRedirect)}`
+    : '/profile';
 
   return (
     <div style={{
-      position: 'fixed',
-      inset: 0,
-      background: 'rgba(15, 23, 42, 0.72)',
-      backdropFilter: 'blur(8px)',
+      padding: '60px 16px 100px',
+      minHeight: '75vh',
       display: 'flex',
       alignItems: 'center',
-      justifyContent: 'center',
-      zIndex: 9999,
-      padding: '16px'
+      justifyContent: 'center'
     }}>
-      <div style={{
-        maxWidth: '520px',
+      <div className="glass-panel" style={{
+        maxWidth: '620px',
         width: '100%',
+        padding: '48px 32px',
+        textAlign: 'center',
         background: '#ffffff',
         borderRadius: '24px',
-        padding: '36px 28px',
-        textAlign: 'center',
-        boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
-        border: '1px solid #e2e8f0',
-        position: 'relative'
+        boxShadow: '0 20px 40px rgba(0, 0, 0, 0.08)',
+        border: '1px solid var(--border-subtle)'
       }}>
         {/* Top Lock Icon Badge */}
         <div style={{
-          width: '76px',
-          height: '76px',
+          width: '84px',
+          height: '84px',
           borderRadius: '50%',
-          background: 'linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%)',
-          border: '2px solid #fde68a',
+          background: 'linear-gradient(135deg, #ecfdf5 0%, #e0f2fe 100%)',
+          border: '2px solid #a7f3d0',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          margin: '0 auto 20px',
-          boxShadow: '0 8px 24px rgba(245, 158, 11, 0.15)'
+          margin: '0 auto 24px',
+          boxShadow: '0 8px 24px rgba(16, 185, 129, 0.15)'
         }}>
-          <i className="fa-solid fa-lock" style={{ fontSize: '2.1rem', color: '#d97706' }}></i>
+          <i className="fa-solid fa-lock" style={{ fontSize: '2.4rem', color: 'var(--emerald-600)' }}></i>
         </div>
 
-        <span style={{
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '6px',
-          background: '#fef3c7',
-          color: '#b45309',
-          padding: '4px 14px',
-          borderRadius: '20px',
-          fontSize: '0.82rem',
-          fontWeight: 700,
-          marginBottom: '12px'
-        }}>
-          <i className="fa-solid fa-shield-halved"></i> অ্যাক্সেস সীমাবদ্ধ
+        <span className="badge badge-emerald" style={{ marginBottom: '14px', padding: '6px 16px', fontSize: '0.84rem' }}>
+          <i className="fa-solid fa-shield-halved" style={{ marginRight: '6px' }}></i> অ্যাক্সেস সীমাবদ্ধ
         </span>
 
-        <h2 style={{ fontSize: '1.65rem', fontWeight: 800, color: '#0f172a', marginBottom: '12px', lineHeight: 1.3 }}>
+        <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a', marginBottom: '14px', lineHeight: 1.3 }}>
           {title}
         </h2>
 
-        <p style={{ color: '#64748b', fontSize: '0.94rem', lineHeight: 1.65, marginBottom: '22px' }}>
+        <p style={{ color: 'var(--text-secondary)', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '28px' }}>
           {description}
         </p>
 
@@ -90,20 +75,20 @@ export default function LoginRequiredModal({
             background: '#f8fafc',
             border: '1px solid #e2e8f0',
             borderRadius: '14px',
-            padding: '16px 18px',
+            padding: '18px 20px',
             textAlign: 'left',
-            marginBottom: '24px',
-            fontSize: '0.88rem',
+            marginBottom: '28px',
+            fontSize: '0.9rem',
             color: '#334155'
           }}>
             <div style={{ fontWeight: 700, color: '#0f172a', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <i className="fa-solid fa-circle-check" style={{ color: '#10b981' }}></i>
-              লগইন করলে যে সুবিধাসমূহ পাবেন:
+              <i className="fa-solid fa-circle-check" style={{ color: 'var(--emerald-600)' }}></i>
+              <span>অনুমোদিত অ্যাকাউন্টে যে সুবিধাসমূহ উন্মুক্ত হবে:</span>
             </div>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '6px' }}>
               {featureList.map((item, idx) => (
                 <li key={idx} style={{ display: 'flex', alignItems: 'flex-start', gap: '6px', lineHeight: 1.45 }}>
-                  <span style={{ color: '#0284c7', fontWeight: 700 }}>•</span>
+                  <span style={{ color: 'var(--emerald-600)', fontWeight: 700 }}>•</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -112,23 +97,11 @@ export default function LoginRequiredModal({
         )}
 
         {/* Actions */}
-        <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
           <Link
             href={loginHref}
-            style={{
-              padding: '12px 28px',
-              fontSize: '0.96rem',
-              fontWeight: 700,
-              background: '#0284c7',
-              color: '#ffffff',
-              borderRadius: '12px',
-              textDecoration: 'none',
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '8px',
-              boxShadow: '0 4px 12px rgba(2, 132, 199, 0.25)',
-              transition: 'all 0.15s ease'
-            }}
+            className="btn-primary"
+            style={{ padding: '13px 28px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
           >
             <i className="fa-solid fa-right-to-bracket"></i>
             <span>লগইন বা সাইন আপ করুন</span>
@@ -137,18 +110,8 @@ export default function LoginRequiredModal({
           {chooseExamUrl ? (
             <Link
               href={chooseExamUrl}
-              style={{
-                padding: '12px 22px',
-                fontSize: '0.96rem',
-                fontWeight: 600,
-                background: '#f1f5f9',
-                color: '#475569',
-                borderRadius: '12px',
-                textDecoration: 'none',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '8px'
-              }}
+              className="btn-secondary"
+              style={{ padding: '13px 24px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
             >
               <i className="fa-solid fa-list-check"></i>
               <span>{chooseExamText || 'পরীক্ষা তালিকা'}</span>
@@ -156,21 +119,11 @@ export default function LoginRequiredModal({
           ) : (
             <Link
               href="/"
-              style={{
-                padding: '12px 22px',
-                fontSize: '0.96rem',
-                fontWeight: 600,
-                background: '#f1f5f9',
-                color: '#475569',
-                borderRadius: '12px',
-                textDecoration: 'none',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '8px'
-              }}
+              className="btn-secondary"
+              style={{ padding: '13px 24px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
             >
               <i className="fa-solid fa-house"></i>
-              <span>হোম পেজ</span>
+              <span>হোম পেজে ফিরে যান</span>
             </Link>
           )}
         </div>

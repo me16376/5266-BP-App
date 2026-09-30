@@ -8,6 +8,7 @@ import { loadExamQuestions, cleanExamTitle } from '../../../../lib/examsData';
 import FormattedContent from '../../../../components/FormattedContent';
 import { useAuth } from '../../../../lib/authContext';
 import LoginRequiredModal from '../../../../components/LoginRequiredModal';
+import ChooseExamPopup from '../../../../components/ChooseExamPopup';
 
 // Prepare explanation content with support for newlines, <br>, code, and HTML
 function prepareExplanation(rawExp) {
@@ -51,8 +52,18 @@ const formatScore = (val) => {
 };
 
 const formatTimer = (sec) => {
-  const m = Math.floor(sec / 60);
+  if (sec === undefined || sec === null || isNaN(sec) || sec < 0) sec = 0;
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
   const s = sec % 60;
+
+  if (h > 0) {
+    const hStr = `${h < 10 ? '0' : ''}${h}`.replace(/[0-9]/g, (d) => BENGALI_DIGITS[d]);
+    const mStr = `${m < 10 ? '0' : ''}${m}`.replace(/[0-9]/g, (d) => BENGALI_DIGITS[d]);
+    const sStr = `${s < 10 ? '0' : ''}${s}`.replace(/[0-9]/g, (d) => BENGALI_DIGITS[d]);
+    return `${hStr}:${mStr}:${sStr}`;
+  }
+
   const mStr = `${m < 10 ? '0' : ''}${m}`.replace(/[0-9]/g, (d) => BENGALI_DIGITS[d]);
   const sStr = `${s < 10 ? '0' : ''}${s}`.replace(/[0-9]/g, (d) => BENGALI_DIGITS[d]);
   return `${mStr}:${sStr}`;
@@ -227,7 +238,7 @@ const DEFAULT_QUESTIONS = [
 function QuestionBankSmartQuestionsContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const { user, loading: authLoading } = useAuth();
+  const { user, isAuthorized, loading: authLoading, logout } = useAuth();
   const examSlug = searchParams.get('exam') || searchParams.get('category') || '';
   const initialModeParam = searchParams.get('mode') || 'practice';
 
@@ -282,7 +293,7 @@ function QuestionBankSmartQuestionsContent() {
   const [showAskAi, setShowAskAi] = useState(true);
   const [showTime, setShowTime] = useState(initialModeParam === 'exam');
   const [showScore, setShowScore] = useState(true);
-  const [limit, setLimit] = useState('all');
+  const [limit, setLimit] = useState('200');
   const [rangeIndex, setRangeIndex] = useState(0);
 
   // Dropdown States
@@ -332,20 +343,15 @@ function QuestionBankSmartQuestionsContent() {
   const [isReviewWrongMode, setIsReviewWrongMode] = useState(false);
   const [isRetakeWrongMode, setIsRetakeWrongMode] = useState(false);
   const [retakeQuestions, setRetakeQuestions] = useState([]);
+  const [showResultPopup, setShowResultPopup] = useState(false);
+  const [isTimeUp, setIsTimeUp] = useState(false);
 
   // Timer State
   const [timerSeconds, setTimerSeconds] = useState(0);
   const timerRef = useRef(null);
 
-  // Floating AI Chat State
-  const [aiChatOpen, setAiChatOpen] = useState(false);
-  const [aiInputText, setAiInputText] = useState('');
-  const [aiMessages, setAiMessages] = useState([
-    {
-      sender: 'ai',
-      text: 'আমি **TopMCQBD AI শিক্ষক**।\nযে কোনো প্রশ্নের পাশে থাকা **"Ask AI"** বাটনে চাপুন অথবা নিচে আপনার প্রশ্নটি লিখে পাঠান — আমি উত্তর ও ব্যাখ্যা বুঝিয়ে দেব।'
-    }
-  ]);
+  // 5266-AI-extension notice state if extension not yet loaded
+  const [aiNoticeQuestionId, setAiNoticeQuestionId] = useState(null);
 
   const settingsWrapperRef = useRef(null);
   const limitWrapperRef = useRef(null);
@@ -401,8 +407,27 @@ function QuestionBankSmartQuestionsContent() {
             });
 
             setAllQuestions(normalized);
+            setAnsweredQuestions({});
+            setScore(0);
+            setCorrectCount(0);
+            setIncorrectCount(0);
+            setTimerSeconds(0);
+            setExamSubmitted(false);
+            setIsRetakeWrongMode(false);
+            setIsReviewWrongMode(false);
+
+            // If more than 200 questions, default to first 200 questions to prevent browser freeze
+            if (normalized.length > 200) {
+              setLimit('200');
+              setRangeIndex(0);
+            } else {
+              setLimit('all');
+              setRangeIndex(0);
+            }
           } else {
             setAllQuestions(DEFAULT_QUESTIONS);
+            setLimit('all');
+            setRangeIndex(0);
           }
           setLoading(false);
         })
@@ -410,11 +435,15 @@ function QuestionBankSmartQuestionsContent() {
           console.error('Error loading questions:', err);
           if (isMounted) {
             setAllQuestions(DEFAULT_QUESTIONS);
+            setLimit('all');
+            setRangeIndex(0);
             setLoading(false);
           }
         });
     } else {
       setAllQuestions(DEFAULT_QUESTIONS);
+      setLimit('all');
+      setRangeIndex(0);
       setLoading(false);
     }
 
@@ -625,35 +654,101 @@ function QuestionBankSmartQuestionsContent() {
     return allQuestions;
   }, [allQuestions, isRetakeWrongMode, retakeQuestions]);
 
+  // Available limits: when questions > 200, do not offer 'all' to prevent freeze
+  const availableLimits = useMemo(() => {
+    if (filteredQuestions.length > 200) {
+      return ['200', '100', '50', '25', '20'];
+    }
+    return ['all', '200', '100', '50', '25', '20'];
+  }, [filteredQuestions.length]);
+
+  // Effective limit: if total > 200, always cap limit to at most 200
+  const effectiveLimit = useMemo(() => {
+    if (filteredQuestions.length > 200) {
+      return limit === 'all' ? '200' : limit;
+    }
+    return limit;
+  }, [filteredQuestions.length, limit]);
+
   const rangeOptions = useMemo(() => {
-    if (limit === 'all') return [];
-    const numLimit = parseInt(limit, 10);
     const total = filteredQuestions.length;
-    if (total === 0) return [{ label: '১ - ২০', index: 0 }];
+    if (total <= 200 && effectiveLimit === 'all') return [];
+
+    const numLimit = effectiveLimit === 'all' ? 200 : (parseInt(effectiveLimit, 10) || 200);
+    if (total === 0) return [{ label: '১ - ২০০', index: 0, start: 1, end: 200 }];
+
     const totalChunks = Math.ceil(total / numLimit);
     const options = [];
     for (let i = 0; i < totalChunks; i++) {
       const start = i * numLimit + 1;
       const end = Math.min((i + 1) * numLimit, total);
-      options.push({ label: `${toBengaliNumber(start)} - ${toBengaliNumber(end)}`, index: i });
+      options.push({
+        label: `${toBengaliNumber(start)} - ${toBengaliNumber(end)}`,
+        index: i,
+        start,
+        end
+      });
     }
     return options;
-  }, [limit, filteredQuestions.length]);
+  }, [effectiveLimit, filteredQuestions.length]);
 
   const displayQuestions = useMemo(() => {
-    if (limit === 'all') return filteredQuestions;
-    const numLimit = parseInt(limit, 10);
-    const start = rangeIndex * numLimit;
-    const end = start + numLimit;
-    return filteredQuestions.slice(start, end);
-  }, [filteredQuestions, limit, rangeIndex]);
+    const total = filteredQuestions.length;
+    if (total === 0) return [];
 
-  // Timer Interval
+    if (total <= 200 && effectiveLimit === 'all') {
+      return filteredQuestions.map((q, idx) => ({
+        ...q,
+        globalIndex: idx,
+        displayIdx: idx
+      }));
+    }
+
+    const numLimit = effectiveLimit === 'all' ? 200 : (parseInt(effectiveLimit, 10) || 200);
+    const start = rangeIndex * numLimit;
+    const end = Math.min(start + numLimit, total);
+
+    return filteredQuestions.slice(start, end).map((q, idx) => ({
+      ...q,
+      globalIndex: start + idx,
+      displayIdx: idx
+    }));
+  }, [filteredQuestions, effectiveLimit, rangeIndex]);
+
+  // Allocated Time: 100 MCQs = 60 minutes = 3600 seconds (0.6 min or 36 sec per question)
+  const allocatedSeconds = useMemo(() => {
+    const count = displayQuestions.length;
+    if (count === 0) return 0;
+    return Math.round(count * 36);
+  }, [displayQuestions.length]);
+
+  const allocatedMinutes = useMemo(() => {
+    const count = displayQuestions.length;
+    if (count === 0) return 0;
+    const mins = count * 0.6;
+    return Number.isInteger(mins) ? mins : Math.round(mins * 10) / 10;
+  }, [displayQuestions.length]);
+
+  // Reset timer to allocated time when question count / range changes
+  useEffect(() => {
+    setTimerSeconds(allocatedSeconds);
+  }, [allocatedSeconds]);
+
+  // Timer Interval (Countdown from allocated time)
   useEffect(() => {
     if (showTime && !isReadMode && displayQuestions.length > 0 && !examSubmitted) {
       if (timerRef.current) clearInterval(timerRef.current);
       timerRef.current = setInterval(() => {
-        setTimerSeconds((prev) => prev + 1);
+        setTimerSeconds((prev) => {
+          if (prev <= 1) {
+            clearInterval(timerRef.current);
+            setIsTimeUp(true);
+            setExamSubmitted(true);
+            setShowResultPopup(true);
+            return 0;
+          }
+          return prev - 1;
+        });
       }, 1000);
     } else {
       if (timerRef.current) clearInterval(timerRef.current);
@@ -661,16 +756,19 @@ function QuestionBankSmartQuestionsContent() {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [showTime, isReadMode, displayQuestions.length, examSubmitted]);
+  }, [showTime, isReadMode, displayQuestions.length, examSubmitted, activePreset]);
 
   // Handle MCQ Answer Click
-  const handleAnswerClick = (qIndex, optIndex) => {
-    if (activeMode === 'read' || answeredQuestions[qIndex] !== undefined) return;
+  const handleAnswerClick = (qOrIndex, optIndex) => {
+    if (activeMode === 'read') return;
 
-    const q = displayQuestions[qIndex];
+    const q = typeof qOrIndex === 'object' && qOrIndex !== null ? qOrIndex : displayQuestions[qOrIndex];
     if (!q) return;
 
-    const newAnswers = { ...answeredQuestions, [qIndex]: optIndex };
+    const qKey = q.globalIndex !== undefined ? q.globalIndex : (typeof qOrIndex === 'number' ? qOrIndex : 0);
+    if (answeredQuestions[qKey] !== undefined) return;
+
+    const newAnswers = { ...answeredQuestions, [qKey]: optIndex };
     setAnsweredQuestions(newAnswers);
 
     let newCorrect = correctCount;
@@ -687,19 +785,43 @@ function QuestionBankSmartQuestionsContent() {
     const newScore = Math.round((newCorrect * 1 - newIncorrect * cutMark) * 100) / 100;
     setScore(newScore);
 
-    if (activePreset === 'exam' && Object.keys(newAnswers).length === displayQuestions.length) {
-      setExamSubmitted(true);
+    // Submit and show result popup when all questions in current display batch are answered
+    const currentBatchKeys = displayQuestions.map((item) => (item.globalIndex !== undefined ? item.globalIndex : item.displayIdx));
+    const allBatchAnswered = currentBatchKeys.length > 0 && currentBatchKeys.every((k) => newAnswers[k] !== undefined);
+    if (allBatchAnswered) {
+      if (activePreset === 'exam') {
+        setExamSubmitted(true);
+      }
+      setIsTimeUp(false);
+      setShowResultPopup(true);
     }
   };
 
   // Ask AI handler (triggers window.postMessage for 5266-AI-extension)
-  const handleAskAI = (qIndex) => {
-    const q = displayQuestions[qIndex];
+  const handleAskAI = (qOrIndex) => {
+    const q = typeof qOrIndex === 'object' && qOrIndex !== null ? qOrIndex : displayQuestions[qOrIndex];
     if (!q) return;
+    const qKey = q.globalIndex !== undefined ? q.globalIndex : (typeof qOrIndex === 'number' ? qOrIndex : 0);
 
     const clean = (str) => {
       if (!str || typeof str !== 'string') return '';
-      return str.replace(/<[^>]+>/g, '').trim();
+      return str
+        .replace(/<br\s*\/?>/gi, '\n')
+        .replace(/<\/p>/gi, '\n')
+        .replace(/<[^>]+>/g, '')
+        .replace(/&nbsp;/g, ' ')
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&quot;/g, '"')
+        .replace(/&#039;/g, "'")
+        .replace(/\$\$([\s\S]*?)\$\$/g, '$1')
+        .replace(/\\\[([\s\S]*?)\\\]/g, '$1')
+        .replace(/\\\(([\s\S]*?)\\\)/g, '$1')
+        .replace(/(^|[^\\])\$([^\$\r\n]+?)\$/g, '$1$2')
+        .replace(/```[a-zA-Z0-9_\-\+]*\n([\s\S]*?)```/g, '$1')
+        .replace(/`([^`\r\n]+)`/g, '$1')
+        .trim();
     };
 
     if (typeof window !== 'undefined') {
@@ -712,35 +834,15 @@ function QuestionBankSmartQuestionsContent() {
           exam: q.exam || examMeta?.title || cleanExamTitle(examSlug)
         }
       }, '*');
+
+      const isExtInstalled = typeof document !== 'undefined' &&
+        document.documentElement.getAttribute('data-5266-extension-installed') === 'true';
+
+      if (!isExtInstalled) {
+        setAiNoticeQuestionId(q._id || qKey);
+        setTimeout(() => setAiNoticeQuestionId(null), 6000);
+      }
     }
-
-    // Also opens the internal simulated AI chat drawer
-    const letters = optionLetter === 'english' ? ENGLISH_LETTERS : (optionLetter === 'english-lower' ? ENGLISH_LOWERCASE_LETTERS : BANGLA_LETTERS);
-    setAiChatOpen(true);
-    setAiMessages((prev) => [
-      ...prev,
-      { sender: 'user', text: `📖 ${q.q}` }
-    ]);
-
-    setTimeout(() => {
-      const correctOptText = q.options[q.ans] || '';
-      const correctLetter = letters[q.ans] || (q.ans + 1);
-      const aiReply = `### 🎯 সঠিক উত্তর: (${correctLetter}) ${correctOptText}\n\n💡 **বিশ্লেষণ ও ব্যাখ্যা:**\n${q.explanation || 'এই প্রশ্নের জন্য কোনো অতিরিক্ত ব্যাখ্যা সংরক্ষিত নেই।'}\n\n• **প্রশ্ন পর্যালোচনা:** এই প্রশ্নটি বিভিন্ন সরকারি চাকরি ও ভর্তি পরীক্ষায় একাধিকবার এসেছে।\n• **মনে রাখার টেকনিক:** উত্তরটি নির্ভুলভাবে মনে রাখতে প্রাসঙ্গিক মূল সাল ও তথ্যগুলো নিয়মিত রিভিশন দিন।`;
-      setAiMessages((prev) => [...prev, { sender: 'ai', text: aiReply }]);
-    }, 600);
-  };
-
-  // Send AI Chat Message
-  const handleSendAiMessage = () => {
-    if (!aiInputText.trim()) return;
-    const userText = aiInputText.trim();
-    setAiInputText('');
-    setAiMessages((prev) => [...prev, { sender: 'user', text: userText }]);
-
-    setTimeout(() => {
-      const genericReply = `💡 আপনার প্রশ্নের জন্য ধন্যবাদ!\n\n**TopMCQBD AI শিক্ষক:**\n"${userText}" সম্পর্কিত যেকোনো সুনির্দিষ্ট তথ্য বা প্রশ্নের ব্যাখ্যা জানতে যেকোনো প্রশ্নে "Ask AI" ক্লিক করতে পারেন। আমি আপনার প্রস্তুতিকে নিখুঁত করতে সাহায্য করব।`;
-      setAiMessages((prev) => [...prev, { sender: 'ai', text: genericReply }]);
-    }, 700);
   };
 
   // Option Letter Helper
@@ -765,12 +867,15 @@ function QuestionBankSmartQuestionsContent() {
     setExamSubmitted(false);
     setIsReviewWrongMode(false);
     setIsRetakeWrongMode(false);
-    setTimerSeconds(0);
+    setTimerSeconds(allocatedSeconds);
+    setShowResultPopup(false);
+    setIsTimeUp(false);
   };
 
   const handleRetakeWrong = () => {
     const wrongs = displayQuestions.filter((q, idx) => {
-      const chosen = answeredQuestions[idx];
+      const qKey = q.globalIndex !== undefined ? q.globalIndex : idx;
+      const chosen = answeredQuestions[qKey];
       return chosen !== undefined && chosen !== q.ans;
     });
 
@@ -783,11 +888,14 @@ function QuestionBankSmartQuestionsContent() {
     setCorrectCount(0);
     setIncorrectCount(0);
     setExamSubmitted(false);
+    setShowResultPopup(false);
+    setIsTimeUp(false);
   };
 
   const handleReviewWrong = () => {
     setIsReviewWrongMode(true);
     setIsRetakeWrongMode(false);
+    setShowResultPopup(false);
   };
 
   // Toggle Accordion sections
@@ -887,6 +995,43 @@ function QuestionBankSmartQuestionsContent() {
     return fw ? fw.name : 'Regular';
   }, [fontWeight]);
 
+  // Detected category info for top navigation & header
+  const categoryInfo = useMemo(() => {
+    const catId = (examMeta?.category_id || '').toLowerCase();
+    const catName = (examMeta?.category_name || '').toLowerCase();
+    const slugStr = (examSlug || '').toLowerCase();
+    const titleStr = (examMeta?.title || '').toLowerCase();
+
+    // Check by ID or Names
+    if (catId === 'bcs' || catName.includes('bcs') || catName.includes('বিসিএস') || slugStr.includes('bcs') || titleStr.includes('bcs') || titleStr.includes('বিসিএস')) {
+      return { id: 'bcs', label: 'বিসিএস প্রিলি' };
+    }
+    if (catId === 'bank' || catName.includes('bank') || catName.includes('ব্যাংক') || slugStr.includes('bank') || titleStr.includes('bank') || titleStr.includes('ব্যাংক')) {
+      return { id: 'bank', label: 'ব্যাংক জবস' };
+    }
+    if (catId === 'primary' || catName.includes('primary') || catName.includes('প্রাথমিক') || slugStr.includes('primary') || titleStr.includes('primary') || titleStr.includes('প্রাথমিক')) {
+      return { id: 'primary', label: 'প্রাথমিক শিক্ষক' };
+    }
+    if (catId === 'ntrca' || catName.includes('ntrca') || catName.includes('নিবন্ধন') || slugStr.includes('ntrca') || titleStr.includes('ntrca') || titleStr.includes('নিবন্ধন')) {
+      return { id: 'ntrca', label: 'শিক্ষক নিবন্ধন' };
+    }
+    if (catId === 'ministry' || catName.includes('ministry') || catName.includes('মন্ত্রণালয়') || catName.includes('মন্ত্রণালয়') || catName.includes('নন-ক্যাডার') || slugStr.includes('ministry') || titleStr.includes('ministry') || titleStr.includes('নন-ক্যাডার')) {
+      return { id: 'ministry', label: 'মন্ত্রণালয় ও নন-ক্যাডার' };
+    }
+    if (catId === 'admission' || catName.includes('admission') || catName.includes('ভর্তি') || slugStr.includes('admission') || titleStr.includes('admission') || titleStr.includes('ভর্তি')) {
+      return { id: 'admission', label: 'ভর্তি পরীক্ষা' };
+    }
+    if (catId === 'subject' || catName.includes('subject') || catName.includes('বিষয়ভিত্তিক') || catName.includes('বিষয়ভিত্তিক') || slugStr.includes('subject') || titleStr.includes('বিষয়ভিত্তিক')) {
+      return { id: 'subject', label: 'বিষয়ভিত্তিক' };
+    }
+
+    if (examMeta?.category_name) {
+      return { id: catId || 'All', label: examMeta.category_name };
+    }
+
+    return { id: 'All', label: 'সকল ক্যাটাগরি' };
+  }, [examMeta, examSlug]);
+
   // Style modes for outer wrapper
   const styleModeClass = questionStyle === 'box'
     ? 'style-box-mode'
@@ -902,15 +1047,17 @@ function QuestionBankSmartQuestionsContent() {
   const cwMap = { thin: '500', regular: '700', medium: '700', bold: '800' };
 
   // Render a Single Question Block HTML
-  const renderSingleQuestion = (q, qIndex) => {
-    const chosen = answeredQuestions[qIndex];
+  const renderSingleQuestion = (q, fallbackIdx = 0) => {
+    const qKey = q.globalIndex !== undefined ? q.globalIndex : fallbackIdx;
+    const qNum = qKey + 1;
+    const chosen = answeredQuestions[qKey];
     const isAnswered = chosen !== undefined;
     const shouldShow = activeMode === 'read' || isAnswered || isReviewWrongMode;
 
     let isAnswerVisible = false;
     if (showAnswer) {
       if (answerMode === 'on-select') isAnswerVisible = shouldShow;
-      else if (answerMode === 'on-button') isAnswerVisible = activeMode === 'read' || !!expandedAnswers[qIndex];
+      else if (answerMode === 'on-button') isAnswerVisible = activeMode === 'read' || !!expandedAnswers[qKey];
       else if (answerMode === 'on-wrong') {
         if (isReviewWrongMode || isRetakeWrongMode || activeMode === 'read') isAnswerVisible = true;
         else if (isAnswered && chosen !== q.ans) isAnswerVisible = true;
@@ -920,7 +1067,7 @@ function QuestionBankSmartQuestionsContent() {
     let isExplanationVisible = false;
     if (showExplanation && q.explanation) {
       if (explanationMode === 'on-select') isExplanationVisible = shouldShow;
-      else if (explanationMode === 'on-button') isExplanationVisible = !!expandedExplanations[qIndex];
+      else if (explanationMode === 'on-button') isExplanationVisible = !!expandedExplanations[qKey];
       else if (explanationMode === 'on-wrong') {
         if (isReviewWrongMode || isRetakeWrongMode) isExplanationVisible = true;
         else if (isAnswered && chosen !== q.ans) isExplanationVisible = true;
@@ -942,23 +1089,23 @@ function QuestionBankSmartQuestionsContent() {
 
     return (
       <div
-        key={q._id || qIndex}
+        key={q._id || qKey}
         className={`quiz-question-block ${styleClass} bottomline-${bottomLine}`}
-        data-block-idx={qIndex}
+        data-block-idx={qKey}
       >
         {/* Header */}
         {questionStyle === 'box' ? (
           <div className="quiz-q-header">
             <div className="quiz-q-title-area">
-              <span className="quiz-qnum-badge font-bn">{toBengaliNumber(qIndex + 1)}</span>
+              <span className="quiz-qnum-badge font-bn">{toBengaliNumber(qNum)}</span>
               <span className="quiz-q-title-text font-bn">
                 {q.q}
-                {showAskAi && (
+                 {showAskAi && (
                   <button
                     type="button"
                     className="quiz-ask-ai-btn"
-                    onClick={() => handleAskAI(qIndex)}
-                    title="Ask AI"
+                    onClick={() => handleAskAI(q)}
+                    title="5266 AI Assistant দিয়ে গুগল জেমিনিতে প্রশ্ন ও অপশন পাঠান"
                   >
                     Ask AI
                   </button>
@@ -968,17 +1115,43 @@ function QuestionBankSmartQuestionsContent() {
           </div>
         ) : (
           <div className="quiz-question-text">
-            <span className="font-bn">{toBengaliNumber(qIndex + 1)}.</span> {q.q}
+            <span className="font-bn">{toBengaliNumber(qNum)}.</span> {q.q}
             {showAskAi && (
               <button
                 type="button"
                 className="quiz-ask-ai-btn"
-                onClick={() => handleAskAI(qIndex)}
-                title="Ask AI"
+                onClick={() => handleAskAI(q)}
+                title="5266 AI Assistant দিয়ে গুগল জেমিনিতে প্রশ্ন ও অপশন পাঠান"
               >
                 Ask AI
               </button>
             )}
+          </div>
+        )}
+
+        {/* 5266-AI-extension Info Notice if extension not yet loaded */}
+        {aiNoticeQuestionId === (q._id || qKey) && (
+          <div style={{
+            margin: '8px 0 12px',
+            padding: '8px 14px',
+            borderRadius: '8px',
+            background: '#ecfdf5',
+            border: '1px solid #a7f3d0',
+            color: '#065f46',
+            fontSize: '0.84rem',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '10px'
+          }}>
+            <span>✨ <strong>5266 AI Assistant</strong> এক্সটেনশনটি ব্রাউজারে চালু থাকলে স্বয়ংক্রিয়ভাবে জেমিনি সাইড প্যানেলে এর ব্যাখ্যা চলে আসবে!</span>
+            <button
+              type="button"
+              onClick={() => setAiNoticeQuestionId(null)}
+              style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: '#047857', fontWeight: 700, fontSize: '0.9rem' }}
+            >
+              ✕
+            </button>
           </div>
         )}
 
@@ -1059,7 +1232,7 @@ function QuestionBankSmartQuestionsContent() {
                 type="button"
                 className={btnClass}
                 disabled={activeMode === 'read' || isAnswered || isReviewWrongMode}
-                onClick={() => handleAnswerClick(qIndex, optIndex)}
+                onClick={() => handleAnswerClick(q, optIndex)}
               >
                 <div className="quiz-option-circle font-bn">
                   <span className="quiz-option-circle-letter">{labelText}</span>
@@ -1087,21 +1260,21 @@ function QuestionBankSmartQuestionsContent() {
             {showAnsBtn && (
               <button
                 type="button"
-                className={`quiz-explanation-toggle-btn quiz-answer-toggle-btn ${expandedAnswers[qIndex] ? 'active' : ''}`}
-                onClick={() => setExpandedAnswers((prev) => ({ ...prev, [qIndex]: !prev[qIndex] }))}
+                className={`quiz-explanation-toggle-btn quiz-answer-toggle-btn ${expandedAnswers[qKey] ? 'active' : ''}`}
+                onClick={() => setExpandedAnswers((prev) => ({ ...prev, [qKey]: !prev[qKey] }))}
               >
-                <i className={`fa-solid ${expandedAnswers[qIndex] ? 'fa-eye-slash' : 'fa-circle-check'}`}></i>
-                <span>{expandedAnswers[qIndex] ? 'উত্তর লুকান' : 'উত্তর'}</span>
+                <i className={`fa-solid ${expandedAnswers[qKey] ? 'fa-eye-slash' : 'fa-circle-check'}`}></i>
+                <span>{expandedAnswers[qKey] ? 'উত্তর লুকান' : 'উত্তর'}</span>
               </button>
             )}
             {showExpBtn && (
               <button
                 type="button"
-                className={`quiz-explanation-toggle-btn ${expandedExplanations[qIndex] ? 'active' : ''}`}
-                onClick={() => setExpandedExplanations((prev) => ({ ...prev, [qIndex]: !prev[qIndex] }))}
+                className={`quiz-explanation-toggle-btn ${expandedExplanations[qKey] ? 'active' : ''}`}
+                onClick={() => setExpandedExplanations((prev) => ({ ...prev, [qKey]: !prev[qKey] }))}
               >
-                <i className={`fa-solid ${expandedExplanations[qIndex] ? 'fa-eye-slash' : 'fa-lightbulb'}`}></i>
-                <span>{expandedExplanations[qIndex] ? 'ব্যাখ্যা লুকান' : 'ব্যাখ্যা'}</span>
+                <i className={`fa-solid ${expandedExplanations[qKey] ? 'fa-eye-slash' : 'fa-lightbulb'}`}></i>
+                <span>{expandedExplanations[qKey] ? 'ব্যাখ্যা লুকান' : 'ব্যাখ্যা'}</span>
               </button>
             )}
           </div>
@@ -1285,122 +1458,127 @@ function QuestionBankSmartQuestionsContent() {
     );
   }
 
-  // 2. Unauthenticated: User is not logged in -> Show Login Required Modal
+  // 2. Unauthenticated: User is not logged in -> Show Login Required view
   if (!user) {
     return (
-      <div style={{ minHeight: '80vh', position: 'relative' }}>
-        <LoginRequiredModal
-          isOpen={true}
-          title="লগইন প্রয়োজন"
-          description="প্রশ্ন ব্যাংক স্মার্ট মোডে প্রশ্ন ও পরীক্ষা অনুশীলন করতে অনুগ্রহ করে আপনার অ্যাকাউন্টে লগইন করুন।"
-          loginRedirect={`/question-bank-smart-questions/${examSlug ? `?exam=${encodeURIComponent(examSlug)}` : ''}`}
-          chooseExamUrl="/question-bank-smart"
-          chooseExamText="প্রশ্ন ব্যাংক স্মার্ট পেজ"
-        />
-      </div>
+      <LoginRequiredModal
+        isOpen={true}
+        title="প্রশ্নব্যাংক স্মার্ট অনুশীলন করতে লগইন প্রয়োজন"
+        description="প্রশ্ন ব্যাংক স্মার্ট মোডে প্রশ্ন ও পরীক্ষা অনুশীলন করতে অনুগ্রহ করে আপনার অ্যাকাউন্টে লগইন করুন।"
+        loginRedirect={`/question-bank-smart-questions/${examSlug ? `?exam=${encodeURIComponent(examSlug)}` : ''}`}
+        chooseExamUrl="/question-bank-smart"
+        chooseExamText="প্রশ্ন ব্যাংক স্মার্ট পেজ"
+      />
     );
   }
 
-  // 3. User is logged in, but no exam selected -> Tell user to choose an exam from /question-bank-smart/
-  if (!examSlug) {
+  // 3. User logged in, but not approved (pending / suspended)
+  if (user && !isAuthorized) {
     return (
-      <div style={{
-        padding: '60px 16px 100px',
-        minHeight: '75vh',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      }}>
-        <div style={{
-          maxWidth: '580px',
+      <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div className="glass-panel" style={{
+          maxWidth: '620px',
           width: '100%',
-          padding: '44px 32px',
+          padding: '48px 32px',
           textAlign: 'center',
           background: '#ffffff',
           borderRadius: '24px',
-          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.06)',
-          border: '1px solid #e2e8f0'
+          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.08)',
+          border: '1px solid #fed7aa'
         }}>
           <div style={{
-            width: '80px',
-            height: '80px',
+            width: '84px',
+            height: '84px',
             borderRadius: '50%',
-            background: 'linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%)',
-            border: '2px solid #7dd3fc',
+            background: '#fffbeb',
+            border: '2px solid #fde68a',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            margin: '0 auto 20px',
-            boxShadow: '0 8px 24px rgba(2, 132, 199, 0.15)'
+            margin: '0 auto 24px',
+            boxShadow: '0 8px 24px rgba(245, 158, 11, 0.15)'
           }}>
-            <i className="fa-solid fa-list-check" style={{ fontSize: '2.2rem', color: '#0284c7' }}></i>
+            <i className="fa-solid fa-hourglass-half" style={{ fontSize: '2.4rem', color: '#d97706' }}></i>
           </div>
 
-          <span style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '6px',
-            background: '#e0f2fe',
-            color: '#0369a1',
-            padding: '4px 14px',
-            borderRadius: '20px',
-            fontSize: '0.84rem',
-            fontWeight: 700,
-            marginBottom: '14px'
-          }}>
-            <i className="fa-solid fa-book-open"></i> পরীক্ষা নির্বাচন
+          <span className="badge badge-amber" style={{ marginBottom: '14px', padding: '6px 16px', fontSize: '0.84rem' }}>
+            <i className="fa-solid fa-clock" style={{ marginRight: '6px' }}></i> অ্যাকাউন্টের অনুমোদন বাকি
           </span>
 
-          <h2 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#0f172a', marginBottom: '14px', lineHeight: 1.3 }}>
-            একটি পরীক্ষা নির্বাচন করুন
+          <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a', marginBottom: '14px', lineHeight: 1.3 }}>
+            আপনার অ্যাকাউন্টটি এখনো অনুমোদিত হয়নি
           </h2>
 
-          <p style={{ color: '#64748b', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '28px' }}>
-            প্রশ্ন ও উত্তর অনুশীলন শুরু করতে অনুগ্রহ করে <strong>/question-bank-smart/</strong> পেজ থেকে যেকোনো একটি পরীক্ষা নির্বাচন করুন।
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '24px' }}>
+            প্রিয় <strong>{user.name}</strong>, আপনার অ্যাকাউন্টটি বর্তমানে পর্যালোচনার অধীনে রয়েছে। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong> বা <strong>অ্যাডমিনিস্ট্রেটর</strong> ছাড়া এই পেজটি দেখা যাবে না। সিস্টেম অ্যাডমিন অনুমোদন সম্পন্ন করার পর আপনি স্মার্ট প্রশ্ন অনুশীলন করতে পারবেন।
           </p>
+
+          <div style={{
+            background: '#fffbeb',
+            border: '1px solid #fef3c7',
+            borderRadius: '14px',
+            padding: '16px 20px',
+            textAlign: 'left',
+            marginBottom: '28px',
+            fontSize: '0.9rem',
+            color: '#78350f'
+          }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
+              <span>ইউজারনেম:</span>
+              <strong>@{user.username}</strong>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
+              <span>ইমেইল:</span>
+              <strong>{user.email}</strong>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+              <span>বর্তমান স্ট্যাটাস:</span>
+              <span className="badge badge-amber" style={{ fontSize: '0.78rem' }}>পেন্ডিং (অনুমোদনের অপেক্ষায়)</span>
+            </div>
+          </div>
 
           <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link
-              href="/question-bank-smart"
-              style={{
-                padding: '13px 28px',
-                fontSize: '0.98rem',
-                fontWeight: 700,
-                background: '#0284c7',
-                color: '#ffffff',
-                borderRadius: '12px',
-                textDecoration: 'none',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '10px',
-                boxShadow: '0 6px 18px rgba(2, 132, 199, 0.25)'
-              }}
+              href="/profile"
+              className="btn-primary"
+              style={{ padding: '13px 26px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
             >
-              <i className="fa-solid fa-arrow-right"></i>
-              <span>পরীক্ষা নির্বাচন করুন (/question-bank-smart)</span>
+              <i className="fa-solid fa-user"></i>
+              <span>প্রোফাইল স্ট্যাটাস দেখুন</span>
             </Link>
 
             <Link
               href="/"
-              style={{
-                padding: '13px 24px',
-                fontSize: '0.98rem',
-                fontWeight: 600,
-                background: '#f1f5f9',
-                color: '#475569',
-                borderRadius: '12px',
-                textDecoration: 'none',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '8px'
-              }}
+              className="btn-secondary"
+              style={{ padding: '13px 24px', fontSize: '0.98rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
             >
               <i className="fa-solid fa-house"></i>
-              <span>হোম পেজ</span>
+              <span>হোম পেজে যান</span>
             </Link>
+
+            <button
+              onClick={logout}
+              className="btn-secondary"
+              style={{ padding: '13px 22px', fontSize: '0.98rem', color: '#ef4444', display: 'inline-flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }}
+            >
+              <i className="fa-solid fa-right-from-bracket"></i>
+              <span>লগআউট</span>
+            </button>
           </div>
         </div>
       </div>
+    );
+  }
+
+  // 4. User is logged in, but no exam selected -> Show Popup to choose an exam from /question-bank-smart/
+  if (!examSlug) {
+    return (
+      <ChooseExamPopup
+        target="question-bank-smart"
+        isOpen={true}
+        title="একটি পরীক্ষা নির্বাচন করুন"
+        description="প্রশ্ন ও উত্তর অনুশীলন শুরু করতে অনুগ্রহ করে /question-bank-smart/ পেজ থেকে একটি পরীক্ষা নির্বাচন করুন।"
+      />
     );
   }
 
@@ -1416,11 +1594,25 @@ function QuestionBankSmartQuestionsContent() {
       {/* Floating Questions Progress Box at Bottom-Left Corner */}
       <div className="quiz-floating-progress-left" id="floatingProgressLeft" style={{ display: 'block' }}>
         <div className="quiz-progress-pill-badge" title="মোট প্রশ্ন, সম্পন্ন ও বাকি প্রশ্নের লাইভ হিসাব">
-          <span>মোট প্রশ্ন: <strong id="progressTotalQ">{toBengaliNumber(questionsTotal)}</strong></span>
-          <span className="quiz-pill-divider">|</span>
-          <span>সম্পন্ন: <strong id="progressDoneQ">{toBengaliNumber(answeredTotal)}</strong></span>
-          <span className="quiz-pill-divider">|</span>
-          <span>বাকি: <strong id="progressLeftQ">{toBengaliNumber(questionsLeft)}</strong></span>
+          {filteredQuestions.length > 200 ? (
+            <>
+              <span>মোট: <strong id="progressTotalQ">{toBengaliNumber(filteredQuestions.length)}</strong></span>
+              <span className="quiz-pill-divider">|</span>
+              <span>রেঞ্জ: <strong>{toBengaliNumber(displayQuestions.length)}</strong></span>
+              <span className="quiz-pill-divider">|</span>
+              <span>সম্পন্ন: <strong id="progressDoneQ">{toBengaliNumber(answeredTotal)}</strong></span>
+              <span className="quiz-pill-divider">|</span>
+              <span>বাকি: <strong id="progressLeftQ">{toBengaliNumber(Math.max(0, filteredQuestions.length - answeredTotal))}</strong></span>
+            </>
+          ) : (
+            <>
+              <span>মোট প্রশ্ন: <strong id="progressTotalQ">{toBengaliNumber(questionsTotal)}</strong></span>
+              <span className="quiz-pill-divider">|</span>
+              <span>সম্পন্ন: <strong id="progressDoneQ">{toBengaliNumber(answeredTotal)}</strong></span>
+              <span className="quiz-pill-divider">|</span>
+              <span>বাকি: <strong id="progressLeftQ">{toBengaliNumber(questionsLeft)}</strong></span>
+            </>
+          )}
         </div>
       </div>
 
@@ -1428,7 +1620,12 @@ function QuestionBankSmartQuestionsContent() {
       {activeMode !== 'read' && (showTime || showScore) && (
         <div className="quiz-floating-status-bar">
           {showTime && (
-            <div className="quiz-timer-board" id="timerBoard" style={{ display: 'flex' }}>
+            <div
+              className={`quiz-timer-board ${timerSeconds < 300 && timerSeconds > 0 ? 'timer-critical' : ''}`}
+              id="timerBoard"
+              style={{ display: 'flex' }}
+              title={`বাকি সময় (${allocatedMinutes >= 60 ? (allocatedMinutes % 60 === 0 ? `${toBengaliNumber(allocatedMinutes / 60)} ঘণ্টা` : `${toBengaliNumber(Math.floor(allocatedMinutes / 60))} ঘণ্টা ${toBengaliNumber(allocatedMinutes % 60)} মিনিট`) : `${toBengaliNumber(allocatedMinutes)} মিনিট`})`}
+            >
               <i className="fa-regular fa-clock"></i>
               <span id="timerDisplay">{formatTimer(timerSeconds)}</span>
             </div>
@@ -1439,6 +1636,34 @@ function QuestionBankSmartQuestionsContent() {
               <span id="scoreDisplay">{formatScore(score)}</span>
             </div>
           )}
+          {activePreset === 'exam' && !examSubmitted && (
+            <button
+              type="button"
+              onClick={() => {
+                setExamSubmitted(true);
+                setShowResultPopup(true);
+              }}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '6px',
+                padding: '0 12px',
+                height: '32px',
+                borderRadius: '6px',
+                background: '#10b981',
+                color: '#ffffff',
+                border: 'none',
+                fontWeight: 700,
+                fontSize: '12.5px',
+                cursor: 'pointer',
+                boxShadow: '0 2px 8px rgba(16, 185, 129, 0.3)'
+              }}
+              title="পরীক্ষা জমা দিন"
+            >
+              <i className="fa-solid fa-paper-plane"></i>
+              <span>জমা দিন</span>
+            </button>
+          )}
         </div>
       )}
 
@@ -1446,9 +1671,13 @@ function QuestionBankSmartQuestionsContent() {
       <div className="quiz-top-bar">
         <div className="quiz-top-bar-left">
           <div className="quiz-top-breadcrumb">
-            <Link href="/question-bank-smart/" className="quiz-top-page-title" title="সকল MCQ">
+            <Link
+              href={`/question-bank-smart/${categoryInfo.id && categoryInfo.id !== 'All' ? `?category=${categoryInfo.id}` : ''}`}
+              className="quiz-top-page-title"
+              title={`${categoryInfo.label} প্রশ্নব্যাংক`}
+            >
               <i className="fa-solid fa-arrow-left" style={{ marginRight: '6px' }}></i>
-              <span>সকল MCQ</span>
+              <span>{categoryInfo.label}</span>
             </Link>
           </div>
 
@@ -1620,16 +1849,22 @@ function QuestionBankSmartQuestionsContent() {
           {examMeta?.title || cleanExamTitle(examSlug) || 'Online Questions & Exam Practice'}
         </h1>
         <h2 id="categoryTitle" style={{ fontSize: '1.05rem', color: '#64748b', fontWeight: 600, marginBottom: '14px' }}>
-          {examMeta?.category_name || 'সাধারণ জ্ঞান ও বিষয়ভিত্তিক প্রশ্নব্যাংক'}
+          {categoryInfo.label || examMeta?.category_name || 'সাধারণ জ্ঞান ও বিষয়ভিত্তিক প্রশ্নব্যাংক'}
         </h2>
 
         {/* Header Info Bar */}
         <div className="quiz-header-info-bar">
           <div className="quiz-exam-path">
             <i className="fa-solid fa-square-poll-horizontal" style={{ marginRight: '6px', color: '#007bff' }}></i>
-            <span id="breadcrumbCategory">{examMeta?.category_name || 'সকল প্রশ্নব্যাংক'}</span>
+            <span id="breadcrumbCategory">{categoryInfo.label || examMeta?.category_name || 'সকল প্রশ্নব্যাংক'}</span>
           </div>
           <div className="quiz-header-right-actions">
+            {allocatedMinutes > 0 && (
+              <div className="quiz-negative-mark-note" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <i className="fa-regular fa-clock" style={{ color: '#0284c7' }}></i>
+                <span>সময়: {allocatedMinutes >= 60 ? (allocatedMinutes % 60 === 0 ? `${toBengaliNumber(allocatedMinutes / 60)} ঘণ্টা` : `${toBengaliNumber(Math.floor(allocatedMinutes / 60))} ঘণ্টা ${toBengaliNumber(allocatedMinutes % 60)} মিনিট`) : `${toBengaliNumber(allocatedMinutes)} মিনিট`}</span>
+              </div>
+            )}
             <div className="quiz-negative-mark-note">
               <i className="fa-solid fa-bell"></i>
               <span id="negativeMarkNote">
@@ -1660,14 +1895,14 @@ function QuestionBankSmartQuestionsContent() {
                 title="প্রশ্নের সংখ্যা নির্ধারণ করুন"
               >
                 <i className="fa-solid fa-list-ol" style={{ color: '#007bff' }}></i>
-                <span id="limitTriggerLabel">{limit === 'all' ? 'সকল প্রশ্ন' : `${toBengaliNumber(limit)} টি প্রশ্ন`}</span>
+                <span id="limitTriggerLabel">{effectiveLimit === 'all' ? 'সকল প্রশ্ন' : `${toBengaliNumber(effectiveLimit)} টি প্রশ্ন`}</span>
                 <i className={`fa-solid fa-chevron-${limitMenuOpen ? 'up' : 'down'}`} id="limitChevron" style={{ fontSize: '11px', color: '#64748b' }}></i>
               </button>
 
               {limitMenuOpen && (
                 <div className="quiz-layout-popup-menu" id="limitPopupMenu" style={{ display: 'block' }}>
-                  {['all', '20', '25', '50', '100'].map((lVal) => {
-                    const isActive = limit === lVal;
+                  {availableLimits.map((lVal) => {
+                    const isActive = effectiveLimit === lVal;
                     return (
                       <button
                         key={lVal}
@@ -1691,8 +1926,8 @@ function QuestionBankSmartQuestionsContent() {
               )}
             </div>
 
-            {/* Range Dropdown (shown when limit !== 'all') */}
-            {limit !== 'all' && rangeOptions.length > 0 && (
+            {/* Range Dropdown (shown when effectiveLimit !== 'all' or filteredQuestions.length > 200) */}
+            {(effectiveLimit !== 'all' || filteredQuestions.length > 200) && rangeOptions.length > 0 && (
               <div className="quiz-layout-dropdown-wrapper" id="rangeDropdownWrapper" ref={rangeWrapperRef}>
                 <button
                   type="button"
@@ -1705,12 +1940,12 @@ function QuestionBankSmartQuestionsContent() {
                   }}
                   title="প্রশ্নের রেঞ্জ নির্ধারণ করুন"
                 >
-                  <span id="rangeTriggerLabel">{rangeOptions[rangeIndex]?.label || '১ - ২০'}</span>
+                  <span id="rangeTriggerLabel">{rangeOptions[rangeIndex]?.label || '১ - ২০০'}</span>
                   <i className={`fa-solid fa-chevron-${rangeMenuOpen ? 'up' : 'down'}`} id="rangeChevron" style={{ fontSize: '11px', color: '#64748b' }}></i>
                 </button>
 
                 {rangeMenuOpen && (
-                  <div className="quiz-layout-popup-menu" id="rangePopupMenu" style={{ display: 'block', maxHeight: '220px', overflowY: 'auto' }}>
+                  <div className="quiz-layout-popup-menu" id="rangePopupMenu" style={{ display: 'block', maxHeight: '240px', overflowY: 'auto' }}>
                     {rangeOptions.map((r) => {
                       const isActive = rangeIndex === r.index;
                       return (
@@ -1721,6 +1956,7 @@ function QuestionBankSmartQuestionsContent() {
                           onClick={() => {
                             setRangeIndex(r.index);
                             setRangeMenuOpen(false);
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
                           }}
                         >
                           <div className="quiz-layout-radio-circle">
@@ -2963,6 +3199,120 @@ function QuestionBankSmartQuestionsContent() {
           </div>
         )}
 
+        {/* Bottom Range Navigation Bar for Multi-range Exams */}
+        {!loading && rangeOptions.length > 1 && (
+          <div
+            className="quiz-bottom-range-nav"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              flexWrap: 'wrap',
+              gap: '12px',
+              marginTop: '32px',
+              marginBottom: '20px',
+              padding: '16px 20px',
+              background: '#ffffff',
+              borderRadius: '14px',
+              border: '1px solid #e2e8f0',
+              boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)'
+            }}
+          >
+            <button
+              type="button"
+              disabled={rangeIndex === 0}
+              onClick={() => {
+                if (rangeIndex > 0) {
+                  setRangeIndex(rangeIndex - 1);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              }}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '9px 18px',
+                borderRadius: '9px',
+                border: '1px solid #cbd5e1',
+                background: rangeIndex === 0 ? '#f1f5f9' : '#ffffff',
+                color: rangeIndex === 0 ? '#94a3b8' : '#0f172a',
+                cursor: rangeIndex === 0 ? 'not-allowed' : 'pointer',
+                fontWeight: 600,
+                fontSize: '13.5px',
+                transition: 'all 0.2s ease'
+              }}
+            >
+              <i className="fa-solid fa-chevron-left"></i> পূর্ববর্তী প্রশ্নসমূহ
+            </button>
+
+            <div style={{ textAlign: 'center', fontSize: '13.5px', color: '#475569', fontWeight: 600 }}>
+              <span>বর্তমান রেঞ্জ: <strong style={{ color: '#0284c7' }}>{rangeOptions[rangeIndex]?.label}</strong></span>
+              <span style={{ margin: '0 8px', color: '#cbd5e1' }}>|</span>
+              <span>মোট প্রশ্ন: <strong>{toBengaliNumber(filteredQuestions.length)}</strong> টি</span>
+              <span style={{ margin: '0 8px', color: '#cbd5e1' }}>|</span>
+              <span>পৃষ্ঠা: <strong>{toBengaliNumber(rangeIndex + 1)} / {toBengaliNumber(rangeOptions.length)}</strong></span>
+            </div>
+
+            <button
+              type="button"
+              disabled={rangeIndex >= rangeOptions.length - 1}
+              onClick={() => {
+                if (rangeIndex < rangeOptions.length - 1) {
+                  setRangeIndex(rangeIndex + 1);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              }}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '9px 18px',
+                borderRadius: '9px',
+                border: '1px solid #0284c7',
+                background: rangeIndex >= rangeOptions.length - 1 ? '#f1f5f9' : '#0284c7',
+                color: rangeIndex >= rangeOptions.length - 1 ? '#94a3b8' : '#ffffff',
+                cursor: rangeIndex >= rangeOptions.length - 1 ? 'not-allowed' : 'pointer',
+                fontWeight: 600,
+                fontSize: '13.5px',
+                transition: 'all 0.2s ease'
+              }}
+            >
+              পরবর্তী প্রশ্নসমূহ <i className="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        )}
+
+        {/* Exam Submit Button (Visible in Live Exam mode when not yet submitted) */}
+        {activePreset === 'exam' && !examSubmitted && !loading && displayQuestions.length > 0 && (
+          <div style={{ textAlign: 'center', margin: '24px 0 16px' }}>
+            <button
+              type="button"
+              onClick={() => {
+                setExamSubmitted(true);
+                setShowResultPopup(true);
+              }}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '11px 26px',
+                borderRadius: '10px',
+                background: '#10b981',
+                color: '#ffffff',
+                border: 'none',
+                fontWeight: 700,
+                fontSize: '15px',
+                cursor: 'pointer',
+                boxShadow: '0 4px 14px rgba(16, 185, 129, 0.35)',
+                transition: 'all 0.2s ease'
+              }}
+            >
+              <i className="fa-solid fa-paper-plane"></i>
+              <span>পরীক্ষা জমা দিন (Submit Exam)</span>
+            </button>
+          </div>
+        )}
+
         {/* Result Section (Shown after completing all questions) */}
         {!loading && (examSubmitted || (displayQuestions.length > 0 && answeredTotal === displayQuestions.length && !isReviewWrongMode)) && activeMode !== 'read' && (
           <div id="resultSection" className="quiz-result-section" style={{ display: 'block' }}>
@@ -3023,162 +3373,109 @@ function QuestionBankSmartQuestionsContent() {
         )}
       </div>
 
-      {/* Floating AI Launcher Trigger Button (Bottom Right) */}
-      <button
-        type="button"
-        className="ai-floating-trigger-btn"
-        id="btnFloatingAi"
-        onClick={() => setAiChatOpen(true)}
-        title="TopMCQBD AI শিক্ষক"
-      >
-        <img src="/images/logo-white-icon.png" alt="AI" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
-        <span className="ai-floating-pulse"></span>
-      </button>
-
-      {/* AI Chat Popup Overlay & Window */}
-      {aiChatOpen && (
-        <div id="aiChatOverlay" className="ai-chat-popup-overlay" style={{ display: 'block' }}>
-          <div className="ai-chat-popup-window">
-            <div className="ai-chat-header">
-              <div className="ai-chat-header-info">
-                <div className="ai-avatar-badge">
-                  <img src="/images/logo-white-icon.png" alt="AI" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
-                  <span className="ai-online-indicator"></span>
-                </div>
-                <div>
-                  <h4 style={{ margin: 0, fontSize: '14px', fontWeight: 700 }}>TopMCQBD AI শিক্ষক</h4>
-                  <p style={{ margin: 0, fontSize: '11px', color: '#64748b' }}>সবসময় সহায়তার জন্য প্রস্তুত</p>
-                </div>
-              </div>
-              <div className="ai-chat-header-actions">
-                <button
-                  type="button"
-                  className="ai-btn-icon"
-                  id="btnClearAiChat"
-                  onClick={() => setAiMessages([
-                    {
-                      sender: 'ai',
-                      text: 'আমি **TopMCQBD AI শিক্ষক**।\nযে কোনো প্রশ্নের পাশে থাকা **"Ask AI"** বাটনে চাপুন অথবা নিচে আপনার প্রশ্নটি লিখে পাঠান — আমি উত্তর ও ব্যাখ্যা বুঝিয়ে দেব।'
-                    }
-                  ])}
-                  title="নতুন চ্যাট শুরু করুন"
-                >
-                  <i className="fa-solid fa-rotate-left"></i>
-                </button>
-                <button
-                  type="button"
-                  className="ai-btn-icon"
-                  id="btnCloseAiChat"
-                  onClick={() => setAiChatOpen(false)}
-                  title="বন্ধ করুন"
-                >
-                  <i className="fa-solid fa-xmark"></i>
-                </button>
-              </div>
+      {/* Floating Result Popup at Right Corner (Green for normal submit, Red for Time-Up as in attached images) */}
+      {showResultPopup && (
+        <div
+          className={`quiz-corner-result-popup ${isTimeUp ? 'time-up' : ''}`}
+          role="dialog"
+          aria-label={isTimeUp ? 'সময় শেষ!' : 'পরীক্ষার ফলাফল'}
+        >
+          {/* Header with Icon, Title and Close Button */}
+          <div className="quiz-corner-popup-header">
+            <div className="quiz-corner-popup-title-wrap">
+              <span className="quiz-corner-popup-trophy">
+                {isTimeUp ? '⏰' : '🏆'}
+              </span>
+              <h3 className="quiz-corner-popup-title">
+                {isTimeUp ? 'সময় শেষ!' : 'অভিনন্দন! পরীক্ষা সম্পন্ন হয়েছে'}
+              </h3>
             </div>
+            <button
+              type="button"
+              className="quiz-corner-popup-close-btn"
+              onClick={() => setShowResultPopup(false)}
+              title="বন্ধ করুন"
+              aria-label="Close"
+            >
+              <i className="fa-solid fa-xmark"></i>
+            </button>
+          </div>
 
-            {/* Chat Body */}
-            <div className="ai-chat-body" id="aiChatBody">
-              {aiMessages.map((msg, mIdx) => {
-                const isUser = msg.sender === 'user';
-                return (
-                  <div key={mIdx} className={`ai-message-row ${isUser ? 'user' : ''}`}>
-                    {!isUser && (
-                      <div className="ai-msg-avatar">
-                        <i className="fa-solid fa-robot"></i>
-                      </div>
-                    )}
-                    <div className="ai-message-bubble-wrapper">
-                      <div className={`ai-message-bubble ${isUser ? 'user' : 'ai'}`}>
-                        {msg.text.split('\n').map((line, lIdx) => {
-                          const trimmed = line.trim();
-                          if (trimmed.startsWith('### ') || trimmed.startsWith('## ')) {
-                            return (
-                              <div key={lIdx} className="ai-msg-heading">
-                                <strong>{trimmed.replace(/^#+\s*/, '')}</strong>
-                              </div>
-                            );
-                          }
-                          if (trimmed.startsWith('•') || trimmed.startsWith('-') || trimmed.startsWith('* ')) {
-                            return (
-                              <div key={lIdx} className="ai-msg-bullet">
-                                <i className="fa-solid fa-circle ai-bullet-dot"></i>
-                                <span>{trimmed.replace(/^[•\-\*]\s*/, '')}</span>
-                              </div>
-                            );
-                          }
-                          if (trimmed === '') {
-                            return <div key={lIdx} className="ai-msg-spacer"></div>;
-                          }
-                          return (
-                            <div key={lIdx} className="ai-msg-paragraph">
-                              {trimmed}
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
+          {/* Result Stats Body */}
+          <div className="quiz-corner-popup-body">
+            <div className="quiz-corner-stat-row">
+              {isTimeUp ? (
+                <>
+                  সঠিক: <strong>{correctCount}</strong> টি&nbsp;&nbsp;|&nbsp;&nbsp;ভুল: <strong>{incorrectCount}</strong> টি&nbsp;&nbsp;|&nbsp;&nbsp;বাকি: <strong>{Math.max(0, displayQuestions.length - (correctCount + incorrectCount))}</strong> টি
+                </>
+              ) : (
+                <>
+                  সঠিক উত্তর: <strong>{correctCount}</strong> টি&nbsp;&nbsp;|&nbsp;&nbsp;ভুল উত্তর: <strong>{incorrectCount}</strong> টি
+                </>
+              )}
             </div>
+            <div className="quiz-corner-stat-row">
+              সঠিক উত্তরের হার: <strong>{answeredTotal > 0 ? Math.round((correctCount / answeredTotal) * 100) : 0}%</strong>
+            </div>
+            <div className="quiz-corner-stat-row">
+              {isTimeUp ? 'মোট স্কোর: ' : 'মোট প্রাপ্ত স্কোর: '}<strong>{score}</strong>
+            </div>
+          </div>
 
-            {/* Quick Chips */}
-            <div className="ai-quick-chips">
+          {/* Action Buttons */}
+          <div className="quiz-corner-popup-actions">
+            <div
+              className="quiz-corner-popup-btn-row"
+              style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'nowrap' }}
+            >
               <button
                 type="button"
+                className="quiz-corner-btn btn-corner-view-wrong"
                 onClick={() => {
-                  setAiInputText('এই প্রশ্নের সঠিক উত্তর ও ব্যাখ্যা কী?');
-                  handleSendAiMessage();
+                  setShowResultPopup(false);
+                  handleReviewWrong();
+                  const container = document.getElementById('quizContainer');
+                  if (container) container.scrollIntoView({ behavior: 'smooth' });
                 }}
               >
-                সঠিক উত্তর ও ব্যাখ্যা
+                <i className="fa-solid fa-eye"></i>
+                <span>ভুল উত্তর দেখুন</span>
               </button>
               <button
                 type="button"
+                className="quiz-corner-btn btn-corner-retake-wrong"
                 onClick={() => {
-                  setAiInputText('বাকি ৩টি অপশন কেন ভুল?');
-                  handleSendAiMessage();
+                  setShowResultPopup(false);
+                  if (incorrectCount > 0) {
+                    handleRetakeWrong();
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  } else {
+                    handleRestart();
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }
                 }}
               >
-                ভুল অপশন বিশ্লেষণ
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  setAiInputText('এই সম্পর্কিত গুরুত্বপূর্ণ তথ্য দিন');
-                  handleSendAiMessage();
-                }}
-              >
-                গুরুত্বপূর্ণ তথ্য
+                <i className="fa-solid fa-pen-to-square"></i>
+                <span>ভুল উত্তরের ওপর পরীক্ষা দিন</span>
               </button>
             </div>
 
-            {/* Chat Input Footer */}
-            <div style={{ padding: '10px 12px', background: '#ffffff', borderTop: '1px solid #e2e8f0', display: 'flex', gap: '8px' }}>
-              <input
-                type="text"
-                id="aiInputText"
-                placeholder="প্রশ্ন লিখুন বা জিজ্ঞাসা করুন..."
-                value={aiInputText}
-                onChange={(e) => setAiInputText(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter') handleSendAiMessage();
-                }}
-                style={{ flex: 1, padding: '8px 12px', border: '1px solid #cbd5e1', borderRadius: '8px', fontSize: '13px', outline: 'none' }}
-              />
-              <button
-                type="button"
-                id="btnSendAi"
-                onClick={handleSendAiMessage}
-                style={{ background: '#1666e2', color: '#ffffff', border: 'none', borderRadius: '8px', padding: '0 14px', fontWeight: 600, cursor: 'pointer' }}
-              >
-                <i className="fa-solid fa-paper-plane"></i>
-              </button>
-            </div>
+            <button
+              type="button"
+              className="quiz-corner-btn btn-corner-retake-full"
+              onClick={() => {
+                setShowResultPopup(false);
+                handleRestart();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+            >
+              <i className="fa-solid fa-rotate-right"></i>
+              <span>পুনরায় সম্পূর্ণ পরীক্ষা দিন</span>
+            </button>
           </div>
         </div>
       )}
+
     </div>
   );
 }

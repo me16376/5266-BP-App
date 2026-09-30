@@ -3519,7 +3519,7 @@ input:disabled + .quiz-slider { cursor: not-allowed; background-color: #cbd5e1; 
   box-shadow: none !important;
   outline: none !important;
   display: inline-flex !important;
-  align-items: center !important;
+  align-items: flex-start !important;
 }
 
 .quiz-question-block.style-nostyle .quiz-options-container.ans-style-with-icons .quiz-option-btn,
@@ -3539,6 +3539,7 @@ input:disabled + .quiz-slider { cursor: not-allowed; background-color: #cbd5e1; 
   box-shadow: none !important;
   display: inline-flex !important;
   align-items: center !important;
+  align-self: flex-start !important;
   height: calc(var(--quiz-font-size, 16px) * 1.35) !important;
   line-height: 1.35 !important;
 }
@@ -3630,6 +3631,40 @@ input:disabled + .quiz-slider { cursor: not-allowed; background-color: #cbd5e1; 
   vertical-align: 0 !important;
   margin: 0 !important;
   transform: none !important;
+}
+
+/* Ensure option label and status icon ALWAYS align with the first line of option text across all states (normal, hover, active, clicked) */
+.quiz-question-block .quiz-option-btn,
+.quiz-question-block .quiz-option-btn:hover,
+.quiz-question-block .quiz-option-btn:active,
+.quiz-question-block .quiz-option-btn:focus,
+.quiz-question-block .quiz-option-btn:disabled,
+.quiz-question-block .quiz-option-btn.disabled,
+.quiz-question-block .quiz-option-btn.correct,
+.quiz-question-block .quiz-option-btn.incorrect,
+.quiz-question-block .quiz-option-btn.neutral-selected,
+.quiz-option-btn,
+.quiz-option-btn:hover,
+.quiz-option-btn:active,
+.quiz-option-btn:focus,
+.quiz-option-btn:disabled,
+.quiz-option-btn.disabled,
+.quiz-option-btn.correct,
+.quiz-option-btn.incorrect,
+.quiz-option-btn.neutral-selected {
+  align-items: flex-start !important;
+}
+
+.quiz-question-block .quiz-option-circle,
+.quiz-option-circle {
+  align-self: flex-start !important;
+  flex-shrink: 0 !important;
+}
+
+.quiz-question-block .quiz-option-status-icon,
+.quiz-option-status-icon {
+  align-self: flex-start !important;
+  flex-shrink: 0 !important;
 }
 
 /* ==========================================================================
@@ -5517,3 +5552,212 @@ input:disabled + .quiz-slider { cursor: not-allowed; background-color: #cbd5e1; 
 .ai-quick-chips button:hover {
   background: #e2e8f0;
 }
+
+/* ==========================================================================
+   Corner Result Popup (Bottom-Right Floating Card with Left Green Stripe)
+   ========================================================================== */
+.quiz-corner-result-popup {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 416px;
+  max-width: calc(100vw - 32px);
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  border-left: 6px solid #00a651;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.16), 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 18px 18px 16px 18px;
+  z-index: 10000;
+  box-sizing: border-box;
+  animation: quizCornerSlideIn 0.32s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  font-family: var(--font-main, 'Noto Sans Bengali', sans-serif);
+}
+
+.quiz-corner-result-popup.time-up {
+  border-left: 6px solid #e11d48;
+}
+
+@keyframes quizCornerSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(24px) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.quiz-corner-popup-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.quiz-corner-popup-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quiz-corner-popup-trophy {
+  font-size: 1.25rem;
+  line-height: 1;
+  display: inline-block;
+  transform: translateY(-1px);
+}
+
+.quiz-corner-popup-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0;
+  line-height: 1.35;
+}
+
+.quiz-corner-popup-close-btn {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 6px;
+  line-height: 1;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.quiz-corner-popup-close-btn:hover {
+  color: #0f172a;
+  background: #f1f5f9;
+}
+
+.quiz-corner-popup-body {
+  font-size: 0.93rem;
+  color: #334155;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.quiz-corner-stat-row {
+  margin-bottom: 2px;
+}
+
+.quiz-corner-stat-row strong {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.quiz-corner-popup-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.quiz-corner-popup-btn-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.quiz-corner-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  white-space: nowrap;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+.quiz-corner-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.14);
+}
+
+.quiz-corner-btn:active {
+  transform: translateY(0);
+}
+
+.btn-corner-view-wrong {
+  background: #d97706;
+  color: #ffffff;
+  padding: 8px 14px;
+  font-size: 13px;
+  flex-shrink: 0;
+  width: auto;
+}
+
+.btn-corner-view-wrong:hover {
+  background: #b45309;
+}
+
+.btn-corner-retake-wrong {
+  background: #e11d48;
+  color: #ffffff;
+  padding: 8px 14px;
+  font-size: 13px;
+  flex-shrink: 0;
+  width: auto;
+}
+
+.btn-corner-retake-wrong:hover {
+  background: #be123c;
+}
+
+.btn-corner-retake-full {
+  background: #0070f3;
+  color: #ffffff;
+  padding: 8.5px 16px;
+  width: fit-content;
+}
+
+.btn-corner-retake-full:hover {
+  background: #005bb5;
+}
+
+@media (max-width: 480px) {
+  .quiz-corner-result-popup {
+    bottom: 12px;
+    right: 12px;
+    left: 12px;
+    width: auto;
+    padding: 16px 12px;
+  }
+  .quiz-corner-popup-title {
+    font-size: 0.98rem;
+  }
+  .quiz-corner-popup-btn-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: nowrap;
+  }
+  .btn-corner-view-wrong {
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+  .btn-corner-retake-wrong {
+    padding: 7px 10px;
+    font-size: 11.5px;
+  }
+  .btn-corner-retake-full {
+    width: fit-content;
+  }
+}
+
+
+

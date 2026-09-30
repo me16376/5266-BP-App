@@ -3,10 +3,20 @@
 import React, { useState, useEffect } from 'react';
 import { Timer, AlertTriangle } from 'lucide-react';
 
-export default function ExamTimer({ totalMinutes = 60, onTimeUp }) {
-  const [secondsLeft, setSecondsLeft] = useState(totalMinutes * 60);
+export default function ExamTimer({ totalMinutes = 60, initialMinutes, totalSeconds: propTotalSeconds, onTimeUp, isSubmitted }) {
+  const computedSeconds = propTotalSeconds !== undefined
+    ? propTotalSeconds
+    : Math.round((totalMinutes !== undefined ? totalMinutes : (initialMinutes !== undefined ? initialMinutes : 60)) * 60);
+
+  const [secondsLeft, setSecondsLeft] = useState(computedSeconds);
 
   useEffect(() => {
+    setSecondsLeft(computedSeconds);
+  }, [computedSeconds]);
+
+  useEffect(() => {
+    if (isSubmitted) return;
+
     if (secondsLeft <= 0) {
       if (onTimeUp) onTimeUp();
       return;
@@ -24,11 +34,16 @@ export default function ExamTimer({ totalMinutes = 60, onTimeUp }) {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [secondsLeft, onTimeUp]);
+  }, [secondsLeft, onTimeUp, isSubmitted]);
 
-  const minutes = Math.floor(secondsLeft / 60);
+  const hours = Math.floor(secondsLeft / 3600);
+  const minutes = Math.floor((secondsLeft % 3600) / 60);
   const seconds = secondsLeft % 60;
   const isCritical = secondsLeft < 300; // less than 5 mins
+
+  const displayTime = hours > 0
+    ? `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`
+    : `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 
   return (
     <div style={{
@@ -45,9 +60,7 @@ export default function ExamTimer({ totalMinutes = 60, onTimeUp }) {
       boxShadow: isCritical ? '0 0 15px rgba(244, 63, 94, 0.25)' : 'none'
     }}>
       {isCritical ? <AlertTriangle size={18} /> : <Timer size={18} />}
-      <span>
-        {String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}
-      </span>
+      <span>{displayTime}</span>
     </div>
   );
 }

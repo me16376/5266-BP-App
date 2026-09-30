@@ -16,6 +16,7 @@ import ExamPickerView from '../../../../components/ExamPickerView';
 import { loadExamQuestions, cleanExamTitle } from '../../../../lib/examsData';
 import { useAuth } from '../../../../lib/authContext';
 import LoginRequiredModal from '../../../../components/LoginRequiredModal';
+import ChooseExamPopup from '../../../../components/ChooseExamPopup';
 
 function PracticeContent() {
   const { user, loading: authLoading, logout } = useAuth();
@@ -125,19 +126,17 @@ function PracticeContent() {
     );
   }
 
-  // 2. Unauthenticated: User is not logged in -> Show Login Required Modal
+  // 2. Unauthenticated: User is not logged in -> Show Login Required view
   if (!user) {
     return (
-      <div style={{ minHeight: '80vh', position: 'relative' }}>
-        <LoginRequiredModal
-          isOpen={true}
-          title="অনুশীলন করতে লগইন প্রয়োজন"
-          description="বিগত চাকরির প্রশ্নভাণ্ডার অনুশীলন ও ব্যাখ্যা দেখতে অনুগ্রহ করে আপনার অ্যাকাউন্টে লগইন করুন।"
-          loginRedirect={`/job-solution-practice/${examSlug ? `?exam=${encodeURIComponent(examSlug)}` : ''}`}
-          chooseExamUrl="/job-solution"
-          chooseExamText="জব সল্যুশন পরীক্ষা তালিকা"
-        />
-      </div>
+      <LoginRequiredModal
+        isOpen={true}
+        title="অনুশীলন করতে লগইন প্রয়োজন"
+        description="বিগত চাকরির প্রশ্নভাণ্ডার অনুশীলন ও ব্যাখ্যা দেখতে অনুগ্রহ করে আপনার অ্যাকাউন্টে লগইন করুন।"
+        loginRedirect={`/job-solution-practice/${examSlug ? `?exam=${encodeURIComponent(examSlug)}` : ''}`}
+        chooseExamUrl="/job-solution"
+        chooseExamText="জব সল্যুশন পরীক্ষা তালিকা"
+      />
     );
   }
 
@@ -239,106 +238,15 @@ function PracticeContent() {
     );
   }
 
-  // 4. If user is logged in, but no exam selected -> Tell user to choose an exam from /job-solution/
+  // 4. If user is logged in, but no exam selected -> Show Popup telling user to choose an exam from /job-solution/
   if (!examSlug) {
     return (
-      <div style={{
-        padding: '60px 16px 100px',
-        minHeight: '75vh',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      }}>
-        <div style={{
-          maxWidth: '580px',
-          width: '100%',
-          padding: '44px 32px',
-          textAlign: 'center',
-          background: '#ffffff',
-          borderRadius: '24px',
-          boxShadow: '0 20px 40px rgba(0, 0, 0, 0.06)',
-          border: '1px solid #e2e8f0'
-        }}>
-          <div style={{
-            width: '80px',
-            height: '80px',
-            borderRadius: '50%',
-            background: 'linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%)',
-            border: '2px solid #a7f3d0',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            margin: '0 auto 20px',
-            boxShadow: '0 8px 24px rgba(16, 185, 129, 0.15)'
-          }}>
-            <i className="fa-solid fa-book-open" style={{ fontSize: '2.2rem', color: '#059669' }}></i>
-          </div>
-
-          <span style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '6px',
-            background: '#ecfdf5',
-            color: '#047857',
-            padding: '4px 14px',
-            borderRadius: '20px',
-            fontSize: '0.84rem',
-            fontWeight: 700,
-            marginBottom: '14px'
-          }}>
-            <i className="fa-solid fa-list-check"></i> পরীক্ষা নির্বাচন
-          </span>
-
-          <h2 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#0f172a', marginBottom: '14px', lineHeight: 1.3 }}>
-            একটি পরীক্ষা নির্বাচন করুন
-          </h2>
-
-          <p style={{ color: '#64748b', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '28px' }}>
-            প্রশ্ন ও উত্তর অনুশীলন করতে অনুগ্রহ করে <strong>/job-solution/</strong> পেজ থেকে যেকোনো একটি পরীক্ষা নির্বাচন করুন।
-          </p>
-
-          <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link
-              href="/job-solution"
-              style={{
-                padding: '13px 28px',
-                fontSize: '0.98rem',
-                fontWeight: 700,
-                background: '#059669',
-                color: '#ffffff',
-                borderRadius: '12px',
-                textDecoration: 'none',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '10px',
-                boxShadow: '0 6px 18px rgba(5, 150, 105, 0.25)'
-              }}
-            >
-              <i className="fa-solid fa-arrow-right"></i>
-              <span>পরীক্ষা নির্বাচন করুন (/job-solution)</span>
-            </Link>
-
-            <Link
-              href="/"
-              style={{
-                padding: '13px 24px',
-                fontSize: '0.98rem',
-                fontWeight: 600,
-                background: '#f1f5f9',
-                color: '#475569',
-                borderRadius: '12px',
-                textDecoration: 'none',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '8px'
-              }}
-            >
-              <i className="fa-solid fa-house"></i>
-              <span>হোম পেজ</span>
-            </Link>
-          </div>
-        </div>
-      </div>
+      <ChooseExamPopup
+        target="job-solution"
+        isOpen={true}
+        title="একটি পরীক্ষা নির্বাচন করুন"
+        description="প্রশ্ন ও উত্তর অনুশীলন করতে অনুগ্রহ করে /job-solution/ পেজ থেকে যেকোনো একটি পরীক্ষা নির্বাচন করুন।"
+      />
     );
   }
 
