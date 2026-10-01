@@ -111,8 +111,8 @@
       "কোনোটিই নয়"
     ],
     "correct_answer": "10",
-    "explanation": "",
-    "hints": "",
+    "explanation": "দেওয়া আছে, $x = \\sqrt{3} + \\sqrt{2}$।\\n$$\\frac{1}{x} = \\frac{1}{\\sqrt{3} + \\sqrt{2}} = \\frac{\\sqrt{3} - \\sqrt{2}}{(\\sqrt{3})^2 - (\\sqrt{2})^2} = \\sqrt{3} - \\sqrt{2}$$\\nএখন:\\n$$x + \\frac{1}{x} = (\\sqrt{3} + \\sqrt{2}) + (\\sqrt{3} - \\sqrt{2}) = 2\\sqrt{3}$$\\nঅতএব:\\n$$x^2 + \\frac{1}{x^2} = \\left(x + \\frac{1}{x}\\right)^2 - 2 = (2\\sqrt{3})^2 - 2 = (4 \\times 3) - 2 = 12 - 2 = 10$$",
+    "hints": "⚡ $x + \\frac{1}{x} = 2\\sqrt{3} \\implies x^2 + \\frac{1}{x^2} = (2\\sqrt{3})^2 - 2 = 12 - 2 = 10$।",
     "subject": "গাণিতিক যুক্তি",
     "category": "শিক্ষক নিয়োগ",
     "sub_category": "বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা",
@@ -621,8 +621,8 @@
       "off"
     ],
     "correct_answer": "of",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কোনো কিছুর সুযোগ থাকা বা অবকাশ থাকা বোঝাতে 'admit of' বসে (Admit of something means to leave room for excuse)। 'Your conduct admits of no excuse' অর্থ তোমার আচরণের কোনো কৈফিয়ত চলে না।",
+    "hints": "📌 Admit of = অবকাশ বা সুযোগ থাকা (Admit of no excuse)।",
     "subject": "English Language and Literature",
     "category": "শিক্ষক নিয়োগ",
     "sub_category": "বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা",
@@ -1267,8 +1267,8 @@
       "মিউরেট অব পটাশ"
     ],
     "correct_answer": "ইউরিয়া",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বায়ুর নাইট্রোজেন ও প্রাকৃতিক গ্যাসের হাইড্রোজেন থেকে প্রথমে অ্যামোনিয়া এবং পরে অ্যামোনিয়া ও কার্বন ডাই-অক্সাইডের বিক্রিয়ায় নাইট্রোজেনসমৃদ্ধ প্রধান রাসায়নিক সার 'ইউরিয়া' প্রস্তুত করা হয়।",
+    "hints": "🌾 নাইট্রোজেনসমৃদ্ধ প্রধান সার হলো ইউরিয়া (এতে প্রায় ৪৬% নাইট্রোজেন থাকে)।",
     "subject": "সাধারণ জ্ঞান",
     "category": "শিক্ষক নিয়োগ",
     "sub_category": "বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা",
@@ -1454,8 +1454,8 @@
       "মিরমি"
     ],
     "correct_answer": "ডায়েট",
-    "explanation": "",
-    "hints": "",
+    "explanation": "পূর্ব এশিয়ার দেশ জাপানের জাতীয় আইনসভা বা পার্লামেন্টের নাম হলো 'ডায়েট' (National Diet)।",
+    "hints": "🏛️ জাপানের পার্লামেন্ট = ডায়েট (Diet)।",
     "subject": "সাধারণ জ্ঞান",
     "category": "শিক্ষক নিয়োগ",
     "sub_category": "বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা",
