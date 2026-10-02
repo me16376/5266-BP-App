@@ -13,10 +13,9 @@ Welcome to **5266-BP App** repository. Before analyzing or modifying any code, r
   2. **ICT Question Bank**: Located at `public/data/ict/` containing 17 chapter exams across Class 9-10 Computer GK and ICT Wizard NTRCA (1,758 MCQs).
      - Catalog: `public/data/ict_index.json` | Loader: `src/lib/ictData.js`.
      - Routes: `/ict`, `/ict-practice`, `/ict-model-test`, `/ict-smart`, `/ict-smart-questions`.
-  3. **Most Important Questions**: Located at `public/data/most-important-questions/` containing 12 high-priority subjects (4,904 MCQs) for Primary, NTRCA, BCS, Bank, 10th-20th Grade, Bangladesh & International Affairs.
+   3. **Most Important Questions**: Located at `public/data/most-important-questions/` containing 12 high-priority subjects (4,904 MCQs) for Primary, NTRCA, BCS, Bank, 10th-20th Grade, Bangladesh & International Affairs.
      - Catalog: `public/data/most_important_index.json` | Loader: `src/lib/mostImportantData.js`.
      - Routes: `/most-important-questions`, `/most-important-questions-practice`, `/most-important-questions-model-test`, `/most-important-smart`, `/most-important-smart-questions`.
-- **Development Server**: Must always be kept running locally (`npm run dev` on port 3000).
 
 ---
 
@@ -38,8 +37,8 @@ Allows the owner to get instant, unlimited, and detailed MCQ explanations using 
 ---
 
 ## 3. Mandatory Agent Instructions
-1. **Always Read Rules First**: Refer to `.agents/rules/5266_ai_extension_guide.md` and `.agents/rules/always_run_dev.md`.
+1. **Always Read Rules First**: Refer to `.agents/rules/5266_ai_extension_guide.md`.
 2. **Preserve Iframe & Header Bypass**: Never remove or alter the declarative net request security bypass rules in `rules.json` and `manifest.json`.
 3. **Data Path Consistency**: Any exam JSON files must be referenced from `/data/job-solution/`.
-4. **Dev Server**: Always ensure the Next.js dev server is running so the user can immediately test in their browser.
-5. **Auto-Sync 5266-AI-extension**: Whenever any code, page, route, component, or data format is changed in the website project, IMMEDIATELY verify whether `5266-AI-extension` requires corresponding updates (e.g., MCQ payload, `window.postMessage` listeners, allowed hosts, selectors, prompt formatting) and update the extension code and documentation synchronously.
+4. **Auto-Sync 5266-AI-extension**: Whenever any code, page, route, component, or data format is changed in the website project, IMMEDIATELY verify whether `5266-AI-extension` requires corresponding updates (e.g., MCQ payload, `window.postMessage` listeners, allowed hosts, selectors, prompt formatting) and update the extension code and documentation synchronously.
+
