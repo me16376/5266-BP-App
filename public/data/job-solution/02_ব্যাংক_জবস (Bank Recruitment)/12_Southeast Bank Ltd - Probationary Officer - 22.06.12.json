@@ -9,12 +9,13 @@
       "4"
     ],
     "correct_answer": "1",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রদত্ত সমীকরণ: x⁴ - 2x² = -1 => x⁴ - 2x² + 1 = 0 => (x² - 1)² = 0 => x² = 1 => x = ±1। সুতরাং বিকল্পগুলোর মধ্যে ১ একটি সমাধান।",
+    "hints": "💡 x⁴ - 2x² + 1 = (x² - 1)² = 0 => x² = 1 => x = ±1।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 x⁴ - 2x² + 1 = (x² - 1)² = 0 => x² = 1 => x = ±1।"
   },
   {
     "id": 202001,
@@ -26,12 +27,13 @@
       "125"
     ],
     "correct_answer": "64",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কোনো সংখ্যা একই সাথে পূর্ণবর্গ ও পূর্ণঘন হলে তা হবে পূর্ণসংখ্যার ষষ্ঠ ঘাত (sixth power)। ২ থেকে ২০০-এর মধ্যে ২⁶ = (২³)² = (২²)³ = ৪³ = ৮² = ৬৪। সুতরাং সংখ্যাটি ৬৪।",
+    "hints": "💡 ২⁶ = ৬৪; ৮² = ৬৪ এবং ৪³ = ৬৪।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ২⁶ = ৬৪; ৮² = ৬৪ এবং ৪³ = ৬৪।"
   },
   {
     "id": 202002,
@@ -43,12 +45,13 @@
       "6"
     ],
     "correct_answer": "3",
-    "explanation": "",
-    "hints": "",
+    "explanation": "তিনটি ক্রমিক পূর্ণসংখ্যার যোগফল = n + (n + 1) + (n + 2) = 3n + 3 = 3(n + 1), যা সর্বদা ৩ দ্বারা নিঃশেষে বিভাজ্য।",
+    "hints": "💡 যেকোনো ৩টি ক্রমিক সংখ্যার সমষ্টি সর্বদা ৩ দ্বারা বিভাজ্য।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 যেকোনো ৩টি ক্রমিক সংখ্যার সমষ্টি সর্বদা ৩ দ্বারা বিভাজ্য।"
   },
   {
     "id": 202003,
@@ -60,12 +63,13 @@
       "even,odd"
     ],
     "correct_answer": "even,even",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি ক্রমিক তিনটি সংখ্যা n, n+1, n+2। এদের যোগফল 3n + 3। যোগফল বিজোড় (odd) হলে 3n বিজোড় হতে পারে না (বিজোড় - বিজোড় = জোড়); অর্থাৎ 3n জোড় হতে হবে, ফলে n জোড় (even) হবে। তাহলে ১ম সংখ্যা n জোড় এবং শেষ সংখ্যা n+2 ও জোড় হবে (even, even)।",
+    "hints": "💡 যেমন: ২ + ৩ + ৪ = ৯ (বিজোড়); এখানে ১ম ও শেষ সংখ্যা (২ ও ৪) উভয়ই জোড়।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 যেমন: ২ + ৩ + ৪ = ৯ (বিজোড়); এখানে ১ম ও শেষ সংখ্যা (২ ও ৪) উভয়ই জোড়।"
   },
   {
     "id": 202004,
@@ -77,12 +81,13 @@
       "4 \\( \\mathrm{\\pi } \\)"
     ],
     "correct_answer": "\\( \\mathrm{\\pi } \\)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যেকোনো বৃত্তের পরিধি (Circumference) ও ব্যাসের (Diameter) অনুপাত সর্বদা একটি ধ্রুবক, যার মান π (পাই)। পরিধি C = 2πr এবং ব্যাস D = 2r হলে, C / D = 2πr / 2r = π।",
+    "hints": "💡 পরিধি ÷ ব্যাস = π (সর্বদা ধ্রুবক)।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 পরিধি ÷ ব্যাস = π (সর্বদা ধ্রুবক)।"
   },
   {
     "id": 202005,
@@ -94,12 +99,13 @@
       "Tk 9"
     ],
     "correct_answer": "Tk. 12.5",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২০% ছাড়ে বিক্রয়মূল্য মূলদামের ৮০%। ৮০% = ১০ টাকা। অতএব মূল বিক্রয়মূল্য = ১০ / ০.৮০ = ১২.৫ টাকা।",
+    "hints": "💡 মূল মূল্য = ১০ ÷ ০.৮ = ১২.৫ টাকা।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 মূল মূল্য = ১০ ÷ ০.৮ = ১২.৫ টাকা।"
   },
   {
     "id": 202006,
@@ -111,12 +117,13 @@
       "5"
     ],
     "correct_answer": "2",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সমীকরণ: 8^(2n) = 2^(8 + 2n) => (2³)^(2n) = 2^(8 + 2n) => 2^(6n) = 2^(8 + 2n)। ভিত্তি সমান হওয়ায় ঘাত সমান: 6n = 8 + 2n => 4n = 8 => n = 2।",
+    "hints": "💡 2^(6n) = 2^(8 + 2n) => 6n = 8 + 2n => 4n = 8 => n = 2।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 2^(6n) = 2^(8 + 2n) => 6n = 8 + 2n => 4n = 8 => n = 2।"
   },
   {
     "id": 202007,
@@ -128,12 +135,13 @@
       "16.9"
     ],
     "correct_answer": "16.9",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৫টি সংখ্যার সমষ্টি = ৫ × ৬.৯ = ৩৪.৫। ১টি সংখ্যা বাদ দিলে বাকি ৪টি সংখ্যার সমষ্টি = ৪ × ৪.৪ = ১৭.৬। অপসারিত সংখ্যাটি = ৩৪.৫ - ১৭.৬ = ১৬.৯।",
+    "hints": "💡 বাদ দেওয়া সংখ্যা = (৫ × ৬.৯) - (৪ × ৪.৪) = ৩৪.৫ - ১৭.৬ = ১৬.৯।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 বাদ দেওয়া সংখ্যা = (৫ × ৬.৯) - (৪ × ৪.৪) = ৩৪.৫ - ১৭.৬ = ১৬.৯।"
   },
   {
     "id": 202008,
@@ -145,12 +153,13 @@
       "180"
     ],
     "correct_answer": "180",
-    "explanation": "",
-    "hints": "",
+    "explanation": "দৌড়বিদ ৯ সেকেন্ডে দেয় ৩০ কদম। ৫৪ সেকেন্ডে কদম দেবে = ৩০ × (৫৪ / ৯) = ৩০ × ৬ = ১৮০ কদম।",
+    "hints": "💡 ৫৪ সেকেন্ডে ৯ সেকেন্ডের ৬ গুণ কদম দেবে: ৩০ × ৬ = ১৮০।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ৫৪ সেকেন্ডে ৯ সেকেন্ডের ৬ গুণ কদম দেবে: ৩০ × ৬ = ১৮০।"
   },
   {
     "id": 202009,
@@ -162,12 +171,13 @@
       "2420"
     ],
     "correct_answer": "2420",
-    "explanation": "",
-    "hints": "",
+    "explanation": "শহরের জনসংখ্যা বৃদ্ধির হার বার্ষিক ১০%। ১৯৯০ সালে জনসংখ্যা ছিল ২০০০। ১৯৯১ সালে জনসংখ্যা = ২০০০ × ১.১০ = ২২০০। ১৯৯২ সালে জনসংখ্যা = ২২০০ × ১.১০ = ২৪২০ জন।",
+    "hints": "💡 ১৯৯২ সালে জনসংখ্যা = ২০০০ × (১.১)² = ২০০০ × ১.২১ = ২৪২০।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ১৯৯২ সালে জনসংখ্যা = ২০০০ × (১.১)² = ২০০০ × ১.২১ = ২৪২০।"
   },
   {
     "id": 202010,
@@ -179,12 +189,13 @@
       "18"
     ],
     "correct_answer": "18",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৩০ আউন্স দ্রবণে অ্যালকোহল আছে ৪০% অর্থাৎ ৩০ × ০.৪০ = ১২ আউন্স। ধরি w আউন্স পানি মেশাতে হবে। নতুন দ্রবণে অ্যালকোহলের ঘনত্ব হবে ২৫%: ১২ / (৩০ + w) = ২৫/১০০ = ১/৪ => ৩০ + w = ৪৮ => w = ১৮ আউন্স।",
+    "hints": "💡 ১২ ÷ (৩০ + w) = ০.২৫ => ৩০ + w = ৪৮ => w = ১৮ আউন্স।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ১২ ÷ (৩০ + w) = ০.২৫ => ৩০ + w = ৪৮ => w = ১৮ আউন্স।"
   },
   {
     "id": 202011,
@@ -196,12 +207,13 @@
       "150"
     ],
     "correct_answer": "130",
-    "explanation": "",
-    "hints": "",
+    "explanation": "a, b, c-এর গড় ৪০। রাশিগুলোকে ৩ দ্বারা গুণ করে ১০ যোগ করা হলে, নতুন গড়ও ৩ দ্বারা গুণ হয়ে ১০ বৃদ্ধি পাবে: নতুন গড় = ৩ × ৪০ + ১০ = ১২০ + ১০ = ১৩০।",
+    "hints": "💡 নতুন গড় = 3 × (পূর্বের গড়) + 10 = 3 × 40 + 10 = 130।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 নতুন গড় = 3 × (পূর্বের গড়) + 10 = 3 × 40 + 10 = 130।"
   },
   {
     "id": 202012,
@@ -213,12 +225,13 @@
       "20"
     ],
     "correct_answer": "20",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৬টি প্রশ্ন থেকে ৩টি প্রশ্ন নির্বাচনের মোট উপায় সংখ্যা = ⁶C₃ = (৬ × ৫ × ৪) / (৩ × ২ × ১) = ২০।",
+    "hints": "💡 ⁶C₃ = (6 × 5 × 4) / 6 = 20।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ⁶C₃ = (6 × 5 × 4) / 6 = 20।"
   },
   {
     "id": 202013,
@@ -230,12 +243,13 @@
       "2x"
     ],
     "correct_answer": "arithmetic mean)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বর্গক্ষেত্রের ক্ষেত্রফল x হলে এর বাহুর দৈর্ঘ্য a = √x। বর্গের কর্ণের দৈর্ঘ্য d = a√2 = (√x)√2 = √(2x)। অপশনে প্রশ্নের ত্রুটির কারণে সঠিক মানের বিকল্প হিসেবে প্রতীকটি দেওয়া ছিল।",
+    "hints": "💡 কর্ণের দৈর্ঘ্য = বাহু × √২ = √(2x)।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 কর্ণের দৈর্ঘ্য = বাহু × √২ = √(2x)।"
   },
   {
     "id": 202014,
@@ -247,12 +261,13 @@
       "Prime"
     ],
     "correct_answer": "Prime",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৯ একটি পূর্ণসংখ্যা (Integer ও Whole number) এবং বাস্তব সংখ্যা (Real number)। কিন্তু ৯ একটি যৌগিক সংখ্যা, কারণ এর উৎপাদক ১, ৩ ও ৯। তাই এটি মৌলিক সংখ্যা (Prime) নয়।",
+    "hints": "💡 ৯ মৌলিক সংখ্যা (Prime number) নয়।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ৯ মৌলিক সংখ্যা (Prime number) নয়।"
   },
   {
     "id": 202015,
@@ -264,12 +279,13 @@
       "260"
     ],
     "correct_answer": "128",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৬০ থেকে ৭০-এর মধ্যবর্তী মৌলিক সংখ্যা দুটি হলো ৬১ এবং ৬৭। এদের সমষ্টি = ৬১ + ৬৭ = ১২৮।",
+    "hints": "💡 ৬০ থেকে ৭০ এর মৌলিক সংখ্যা: ৬১ ও ৬৭; যোগফল = ৬১ + ৬৭ = ১২৮।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ৬০ থেকে ৭০ এর মৌলিক সংখ্যা: ৬১ ও ৬৭; যোগফল = ৬১ + ৬৭ = ১২৮।"
   },
   {
     "id": 202016,
@@ -281,12 +297,13 @@
       "10"
     ],
     "correct_answer": "20",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১ থেকে ১০০ পর্যন্ত সংখ্যা লিখতে ৪ অঙ্কটি মোট ২০ বার আসে। এককের ঘরে ৪ আসে ১০ বার (৪, ১৪, ২৪, ..., ৯৪) এবং দশকের ঘরে আসে ১০ বার (৪০, ৪১, ..., ৪৯)। মোট = ১০ + ১০ = ২০ বার।",
+    "hints": "💡 ১ থেকে ১০০ এর মধ্যে যেকোনো অঙ্ক (১-৯) মোট ২০ বার ব্যবহৃত হয়।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ১ থেকে ১০০ এর মধ্যে যেকোনো অঙ্ক (১-৯) মোট ২০ বার ব্যবহৃত হয়।"
   },
   {
     "id": 202017,
@@ -298,12 +315,13 @@
       "88.8"
     ],
     "correct_answer": "88.8",
-    "explanation": "",
-    "hints": "",
+    "explanation": "x হলো ৮০ অপেক্ষা ১১% বেশি। অতএব x = ৮০ + (৮০-এর ১১%) = ৮০ + ৮.৮ = ৮৮.৮ (বা ৮০ × ১.১১ = ৮৮.৮)।",
+    "hints": "💡 x = ৮০ × ১.১১ = ৮৮.৮।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 x = ৮০ × ১.১১ = ৮৮.৮।"
   },
   {
     "id": 202018,
@@ -315,12 +333,13 @@
       "2 to 3"
     ],
     "correct_answer": "6 to 1",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অনুপাত ২ : (১/৩) = ২ ÷ (১/৩) = ২ × ৩ = ৬ : ১ বা '6 to 1'।",
+    "hints": "💡 ২ : (১/৩) = (২ × ৩) : ১ = ৬ : ১।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ২ : (১/৩) = (২ × ৩) : ১ = ৬ : ১।"
   },
   {
     "id": 202019,
@@ -332,12 +351,13 @@
       "256"
     ],
     "correct_answer": "80",
-    "explanation": "",
-    "hints": "",
+    "explanation": "x = y + 4 => x - y = 4। আবার x = 20 - y => x + y = 20। আমরা জানি, x² - y² = (x - y)(x + y) = 4 × 20 = 80।",
+    "hints": "💡 x² - y² = (x - y)(x + y) = 4 × 20 = 80।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 x² - y² = (x - y)(x + y) = 4 × 20 = 80।"
   },
   {
     "id": 202020,
@@ -349,12 +369,13 @@
       "35"
     ],
     "correct_answer": "36",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধারাটিতে দুটি অনুক্রমের সমন্বয় রয়েছে: ১ম অনুক্রম: ২, ৩, ৪, ৫, ৬,... এবং ২য় অনুক্রম (বর্গ): ২²=৪, ৩²=৯, ৪²=১৬, ৫²=২৫, ৬²=৩৬। তাই ৬-এর পরের পদটি হবে ৬² = ৩৬।",
+    "hints": "💡 সংখ্যা ও তার বর্গ পর্যায়ক্রমে এসেছে; ৬ এর বর্গ ৩৬।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 সংখ্যা ও তার বর্গ পর্যায়ক্রমে এসেছে; ৬ এর বর্গ ৩৬।"
   },
   {
     "id": 202021,
@@ -366,12 +387,13 @@
       "3 and 10"
     ],
     "correct_answer": "-3 and 10",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১ম অসমতা: x + 5 > 2 => x > -3। ২য় অসমতা: x - 3 < 7 => x < 10। অতএব -3 < x < 10, অর্থাৎ x-এর মান -3 এবং 10 এর মধ্যে থাকবে।",
+    "hints": "💡 x > -3 এবং x < 10 => -3 ও 10 এর মধ্যে।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 x > -3 এবং x < 10 => -3 ও 10 এর মধ্যে।"
   },
   {
     "id": 202022,
@@ -383,12 +405,13 @@
       "into"
     ],
     "correct_answer": "into",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কোনো ঘটনা বা মামলা তদন্ত করা বোঝাতে 'inquiry into' ব্যবহৃত হয়। যেমন: 'The principal had an inquiry into the case'।",
+    "hints": "💡 Inquiry into = তদন্ত বা অনুসন্ধান।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 Inquiry into = তদন্ত বা অনুসন্ধান।"
   },
   {
     "id": 202023,
@@ -400,12 +423,13 @@
       "of"
     ],
     "correct_answer": "about",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কারও জন্য বা কোনো বিষয়ে উদ্বেগ/দুশ্চিন্তা বোঝাতে 'anxiety about' বসে। যেমন: 'She has anxiety about her child'।",
+    "hints": "💡 Anxiety about someone/something.",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 Anxiety about someone/something."
   },
   {
     "id": 202024,
@@ -417,12 +441,13 @@
       "for"
     ],
     "correct_answer": "up",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অভিধান বা রেফারেন্স বইতে কোনো শব্দ বা তথ্য খোঁজা অর্থে Group verb 'look up' ব্যবহৃত হয়।",
+    "hints": "💡 Look up a word in a dictionary = অভিধানে শব্দ খোঁজা।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 Look up a word in a dictionary = অভিধানে শব্দ খোঁজা।"
   },
   {
     "id": 202025,
@@ -434,12 +459,13 @@
       "presented"
     ],
     "correct_answer": "presented",
-    "explanation": "",
-    "hints": "",
+    "explanation": "রাষ্ট্রপ্রধানের নিকট রাষ্ট্রদূতের পরিচয়পত্র পেশ বা প্রদান করার ক্ষেত্রে আনুষ্ঠানিক শব্দ হিসেবে 'presented' ব্যবহৃত হয় (The new ambassador presented his credentials)।",
+    "hints": "💡 Credentials পেশ করার আনুষ্ঠানিক ক্রিয়া হলো 'present'।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 Credentials পেশ করার আনুষ্ঠানিক ক্রিয়া হলো 'present'।"
   },
   {
     "id": 202026,
@@ -451,12 +477,13 @@
       "very last minute"
     ],
     "correct_answer": "very last minute",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'In the nick of time' ইডিয়মটির অর্থ ঠিক শেষ মুহূর্তে বা উপযুক্ত সময়ে (at the very last minute বা just in time)।",
+    "hints": "💡 In the nick of time = শেষ মুহূর্তে বা very last minute।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 In the nick of time = শেষ মুহূর্তে বা very last minute।"
   },
   {
     "id": 202027,
@@ -468,12 +495,13 @@
       "disaster"
     ],
     "correct_answer": "obstacle",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Road block' রূপক অর্থে ব্যবহৃত হয়ে কোনো উন্নতি বা অগ্রগতির পথে বাধা (obstacle বা hindrance) বোঝায়।",
+    "hints": "💡 Road block = বাধা বা obstacle।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 Road block = বাধা বা obstacle।"
   },
   {
     "id": 202028,
@@ -485,12 +513,13 @@
       "Recision"
     ],
     "correct_answer": "Recession",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সঠিক বানান হলো 'Recession' (R-E-C-E-S-S-I-O-N), যার অর্থ অর্থনৈতিক মন্দা।",
+    "hints": "💡 R-e-c-e-s-s-i-o-n (এক 'c' ও দুই 's')।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 R-e-c-e-s-s-i-o-n (এক 'c' ও দুই 's')।"
   },
   {
     "id": 202029,
@@ -502,12 +531,13 @@
       "Miscellanous"
     ],
     "correct_answer": "Miscellaneous",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সঠিক বানান হলো 'Miscellaneous' (M-I-S-C-E-L-L-A-N-E-O-U-S), যার অর্থ বিবিধ বা মিশ্র।",
+    "hints": "💡 Mis-cel-la-ne-ous (দুই 'l')।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 Mis-cel-la-ne-ous (দুই 'l')।"
   },
   {
     "id": 202030,
@@ -519,12 +549,13 @@
       "10"
     ],
     "correct_answer": "12",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মার্কিন যুক্তরাষ্ট্রের কেন্দ্রীয় ব্যাংকিং ব্যবস্থা (Federal Reserve System) ১২টি আঞ্চলিক ফেডারেল রিজার্ভ ব্যাংক নিয়ে গঠিত।",
+    "hints": "💡 মার্কিন ফেডারেল রিজার্ভ সিস্টেমে ১২টি আঞ্চলিক ব্যাংক রয়েছে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 মার্কিন ফেডারেল রিজার্ভ সিস্টেমে ১২টি আঞ্চলিক ব্যাংক রয়েছে।"
   },
   {
     "id": 202031,
@@ -536,12 +567,13 @@
       "Assignment"
     ],
     "correct_answer": "Assignment",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সঠিক বানান হলো 'Assignment' (A-S-S-I-G-N-M-E-N-T), যার অর্থ অর্পিত কাজ বা দায়িত্ব।",
+    "hints": "💡 As-sign-ment (দুই 's')।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 As-sign-ment (দুই 's')।"
   },
   {
     "id": 202032,
@@ -553,12 +585,13 @@
       "your but I are guilty for the accident"
     ],
     "correct_answer": "You and not I are guilty for the accident",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'And not' দ্বারা দুটি Subject যুক্ত হলে Verb সর্বদা ১ম Subject অনুযায়ী বসে। এখানে ১ম Subject 'You', তাই Verb হবে 'are'। সঠিক বাক্য: 'You and not I are guilty for the accident'।",
+    "hints": "💡 'Subject + and not + Subject' থাকলে Verb ১ম Subject অনুযায়ী বসে।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 'Subject + and not + Subject' থাকলে Verb ১ম Subject অনুযায়ী বসে।"
   },
   {
     "id": 202033,
@@ -570,12 +603,13 @@
       "Faruq tries to found his lost mobile"
     ],
     "correct_answer": "Faruq tried to find his lost mobile",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'To'-এর পর Verb-এর Base form বসে (Infinitive: to find)। সঠিক বাক্য: 'Faruq tried to find his lost mobile'।",
+    "hints": "💡 To + Verb (base form) = to find।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 To + Verb (base form) = to find।"
   },
   {
     "id": 202034,
@@ -587,12 +621,13 @@
       "Hardly he does go there"
     ],
     "correct_answer": "He hardly goes there",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Hardly' নিজেই একটি নেতিবাচক শব্দ (কদাচিৎ বা প্রায় না)। এর সাথে অতিরিক্ত 'not' বা 'does not' বসে না। সঠিক বাক্য: 'He hardly goes there'।",
+    "hints": "💡 Hardly নিজেই negative, তাই double negative (not) হবে না।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 Hardly নিজেই negative, তাই double negative (not) হবে না।"
   },
   {
     "id": 202035,
@@ -604,12 +639,13 @@
       "TK.1,99,996 crore"
     ],
     "correct_answer": "TK.1.91,738 crore",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২০১২-১৩ অর্থবছরে বাংলাদেশের জাতীয় বাজেটের মোট আকার ছিল ১,৯১,৭৩৮ কোটি টাকা।",
+    "hints": "💡 ২০১২-১৩ অর্থবছরের বাজেট: ১,৯১,৭৩৮ কোটি টাকা।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ২০১২-১৩ অর্থবছরের বাজেট: ১,৯১,৭৩৮ কোটি টাকা।"
   },
   {
     "id": 202036,
@@ -621,12 +657,13 @@
       "By Owner's"
     ],
     "correct_answer": "Beneficiary owner's",
-    "explanation": "",
-    "hints": "",
+    "explanation": "শেয়ার বাজারে শেয়ার ধারণ ও লেনদেনের জন্য ব্যবহৃত 'BO' অ্যাকাউন্টের পূর্ণরূপ হলো 'Beneficiary Owner's' অ্যাকাউন্ট।",
+    "hints": "💡 BO = Beneficiary Owner's Account.",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 BO = Beneficiary Owner's Account."
   },
   {
     "id": 202037,
@@ -638,12 +675,13 @@
       "Finland"
     ],
     "correct_answer": "Finland",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রশ্নটিতে তৎকালীন বাণিজ্যের প্রেক্ষাপটে ফিনল্যান্ড চিহ্নিত করা হয়েছে। উল্লেখ্য, ২০১৩ সালে যুক্তরাষ্ট্র বাংলাদেশের জিএসপি সুবিধা স্থগিত করেছিল।",
+    "hints": "💡 ফিনল্যান্ড ইউরোপীয় ইউনিয়নের সদস্য রাষ্ট্র।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ফিনল্যান্ড ইউরোপীয় ইউনিয়নের সদস্য রাষ্ট্র।"
   },
   {
     "id": 202038,
@@ -655,12 +693,13 @@
       "FDI"
     ],
     "correct_answer": "Tax",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সরকারের রাজস্ব নীতি বা ফিসক্যাল পলিসি (Fiscal Policy) মূলত কর আহরণ (Taxation), সরকারি ব্যয় এবং ঋণ গ্রহণের সাথে সম্পর্কিত।",
+    "hints": "💡 Fiscal policy = Tax and Government Expenditure.",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 Fiscal policy = Tax and Government Expenditure."
   },
   {
     "id": 202039,
@@ -672,12 +711,13 @@
       "Israel"
     ],
     "correct_answer": "Cayman Islands",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কেম্যান দ্বীপপুঞ্জ (Cayman Islands) বিশ্বব্যাপী কর স্বর্গে (Tax Haven) অবস্থিত একটি অন্যতম প্রধান অফশোর ব্যাংকিং কেন্দ্র।",
+    "hints": "💡 কেম্যান দ্বীপপুঞ্জ অফশোর ব্যাংকিংয়ের জন্য বিখ্যাত।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 কেম্যান দ্বীপপুঞ্জ অফশোর ব্যাংকিংয়ের জন্য বিখ্যাত।"
   },
   {
     "id": 202040,
@@ -689,12 +729,13 @@
       "International standard Office"
     ],
     "correct_answer": "International standard Organization",
-    "explanation": "",
-    "hints": "",
+    "explanation": "আইএসও-এর আনুষ্ঠানিক পূর্ণরূপ 'International Organization for Standardization' বা মান প্রণয়নকারী আন্তর্জাতিক সংস্থা (International Standard Organization)।",
+    "hints": "💡 ISO = International Standard Organization.",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ISO = International Standard Organization."
   },
   {
     "id": 202041,
@@ -706,12 +747,13 @@
       "Seismograph"
     ],
     "correct_answer": "Seismograph",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সিসমোগ্রাফ (Seismograph) যন্ত্রের সাহায্যে ভূমিকম্পের তীব্রতা ও কম্পন তরঙ্গ পরিমাপ ও রেকর্ড করা হয়।",
+    "hints": "💡 ভূমিকম্প রেকর্ড করা হয় সিসমোগ্রাফ যন্ত্রে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ভূমিকম্প রেকর্ড করা হয় সিসমোগ্রাফ যন্ত্রে।"
   },
   {
     "id": 202042,
@@ -723,12 +765,13 @@
       "Estonia"
     ],
     "correct_answer": "Estonia",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২০০৫ সালের স্থানীয় নির্বাচনে বিশ্বের প্রথম দেশ হিসেবে সাধারণ নির্বাচনে দেশব্যাপী ইলেকট্রনিক বা ইন্টারনেট ভোটিং (E-voting) চালু করে এস্তোনিয়া।",
+    "hints": "💡 বিশ্বে প্রথম ই-ভোটিং চালু করে এস্তোনিয়া।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 বিশ্বে প্রথম ই-ভোটিং চালু করে এস্তোনিয়া।"
   },
   {
     "id": 202043,
@@ -740,12 +783,13 @@
       "May 24"
     ],
     "correct_answer": "June 5",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রতি বছর ৫ জুন বিশ্বব্যাপী জাতিসংঘ পরিবেশ কর্মসূচি (UNEP)-এর উদ্যোগে 'বিশ্ব পরিবেশ দিবস' উদযাপিত হয়।",
+    "hints": "💡 ৫ জুন = বিশ্ব পরিবেশ দিবস।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ৫ জুন = বিশ্ব পরিবেশ দিবস।"
   },
   {
     "id": 202044,
@@ -757,12 +801,13 @@
       "Pakistan"
     ],
     "correct_answer": "India",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২০০০ সালের ১০ নভেম্বর ঢাকার বঙ্গবন্ধু জাতীয় স্টেডিয়ামে ভারতের বিপক্ষে বাংলাদেশ তাদের ইতিহাসের ১ম টেস্ট ম্যাচ খেলে।",
+    "hints": "💡 বাংলাদেশের অভিষেক টেস্ট ভারতের বিপক্ষে (২০০০ সালে)।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 বাংলাদেশের অভিষেক টেস্ট ভারতের বিপক্ষে (২০০০ সালে)।"
   },
   {
     "id": 202045,
@@ -774,12 +819,13 @@
       "Ctrl+S"
     ],
     "correct_answer": "Ctrl+F",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যেকোনো ডকুমেন্টে নির্দিষ্ট কোনো শব্দ বা বাক্য খোঁজার কিবোর্ড শর্টকাট হলো 'Ctrl + F' (Find)।",
+    "hints": "💡 Ctrl + F = Find.",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 Ctrl + F = Find."
   },
   {
     "id": 202046,
@@ -791,12 +837,13 @@
       "Bhutan"
     ],
     "correct_answer": "Bhutan",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ভুটান একটি চারদিকে স্থলবেষ্টিত রাষ্ট্র (Landlocked country), যার কোনো প্রত্যক্ষ সমুদ্রসীমা নেই।",
+    "hints": "💡 ভুটান একটি স্থলবেষ্টিত (Landlocked) দেশ।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ভুটান একটি স্থলবেষ্টিত (Landlocked) দেশ।"
   },
   {
     "id": 202047,
@@ -808,12 +855,13 @@
       "Vienna"
     ],
     "correct_answer": "Geneva",
-    "explanation": "",
-    "hints": "",
+    "explanation": "জাতিসংঘ বাণিজ্য ও উন্নয়ন সম্মেলন (UNCTAD)-এর সদর দপ্তর সুইজারল্যান্ডের জেনেভায় অবস্থিত।",
+    "hints": "💡 UNCTAD সদর দপ্তর জেনেভা, সুইজারল্যান্ড।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 UNCTAD সদর দপ্তর জেনেভা, সুইজারল্যান্ড।"
   },
   {
     "id": 202048,
@@ -825,12 +873,13 @@
       "Service"
     ],
     "correct_answer": "Service",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাংলাদেশের মোট দেশজ উৎপাদনে (GDP) একক খাত হিসেবে সেবা খাতের (Service Sector) অবদান সবচেয়ে বেশি (প্রায় ৫০% এর অধিক)।",
+    "hints": "💡 জিডিপিতে সর্বাধিক অবদান সেবা খাতের।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 জিডিপিতে সর্বাধিক অবদান সেবা খাতের।"
   },
   {
     "id": 202049,
@@ -842,12 +891,13 @@
       "hedge fund"
     ],
     "correct_answer": "short-term fund",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অর্থবাজার (Money Market) হলো স্বল্পমেয়াদি তহবিল (Short-term funds, মেয়াদ ১ বছরের কম) সংগ্রহ ও বিনিয়োগের বাজার। দীর্ঘমেয়াদি হলো Capital Market।",
+    "hints": "💡 Money market = short-term fund; Capital market = long-term fund।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 Money market = short-term fund; Capital market = long-term fund।"
   },
   {
     "id": 202050,
@@ -859,12 +909,13 @@
       "Earth"
     ],
     "correct_answer": "Jupiter",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সৌরজগতের সর্ববৃহৎ গ্রহ হলো বৃহস্পতি (Jupiter)। এটি একটি গ্যাসীয় দানব গ্রহ।",
+    "hints": "💡 বৃহস্পতি সৌরজগতের বৃহত্তম গ্রহ।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 বৃহস্পতি সৌরজগতের বৃহত্তম গ্রহ।"
   },
   {
     "id": 202051,
@@ -876,12 +927,13 @@
       "128"
     ],
     "correct_answer": "209",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রশ্নকালীন সময়ে ফিফার মোট সদস্য সংখ্যা ছিল ২০৯টি দেশ (বর্তমানে ২১১টি)।",
+    "hints": "💡 ২০১২ সালের হিসেবে ফিফার সদস্য দেশ ছিল ২০৯টি।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ২০১২ সালের হিসেবে ফিফার সদস্য দেশ ছিল ২০৯টি।"
   },
   {
     "id": 202052,
@@ -893,12 +945,13 @@
       "Nazia Majumdar"
     ],
     "correct_answer": "Nishat Majumdar",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২০১২ সালের ১৯ মে নিশাত মজুমদার প্রথম বাংলাদেশি নারী হিসেবে মাউন্ট এভারেস্ট শৃঙ্গে আরোহণ করে বাংলাদেশের পতাকা উড্ডয়ন করেন।",
+    "hints": "💡 প্রথম বাংলাদেশি নারী এভারেস্টজয়ী নিশাত মজুমদার।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 প্রথম বাংলাদেশি নারী এভারেস্টজয়ী নিশাত মজুমদার।"
   },
   {
     "id": 202053,
@@ -910,12 +963,13 @@
       "IDA"
     ],
     "correct_answer": "IDA",
-    "explanation": "",
-    "hints": "",
+    "explanation": "আন্তর্জাতিক উন্নয়ন সংস্থাকে (International Development Association - IDA) বিশ্বব্যাংকের সহজ শর্তের ঋণদানকারী জানালা (Soft-loan window) বলা হয়।",
+    "hints": "💡 IDA = বিশ্বব্যাংকের soft loan window।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 IDA = বিশ্বব্যাংকের soft loan window।"
   },
   {
     "id": 202054,
@@ -927,12 +981,13 @@
       "export"
     ],
     "correct_answer": "export",
-    "explanation": "",
-    "hints": "",
+    "explanation": "টাকার অবমূল্যায়ন (Devaluation) করলে বিদেশি মুদ্রার বিপরীতে দেশীয় পণ্য সস্তা হয়, ফলে রপ্তানিকারকরা উৎসাহিত হয় এবং রপ্তানি (export) বৃদ্ধি পায়।",
+    "hints": "💡 মুদ্রার অবমূল্যায়ন রপ্তানি বৃদ্ধি করে ও আমদানি নিরুৎসাহিত করে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 মুদ্রার অবমূল্যায়ন রপ্তানি বৃদ্ধি করে ও আমদানি নিরুৎসাহিত করে।"
   },
   {
     "id": 202055,
@@ -944,12 +999,13 @@
       "11"
     ],
     "correct_answer": "11",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৯৭১ সালের মহান মুক্তিযুদ্ধ সুষ্ঠুভাবে পরিচালনার সুবিধার্থে সমগ্র বাংলাদেশকে ১১টি সামরিক সেক্টরে এবং ৬৪টি সাব-সেক্টরে বিভক্ত করা হয়।",
+    "hints": "💡 মুক্তিযুদ্ধকালীন বাংলাদেশ ১১টি সেক্টরে বিভক্ত ছিল।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 মুক্তিযুদ্ধকালীন বাংলাদেশ ১১টি সেক্টরে বিভক্ত ছিল।"
   },
   {
     "id": 202056,
@@ -961,12 +1017,13 @@
       "Washington"
     ],
     "correct_answer": "Berlin",
-    "explanation": "",
-    "hints": "",
+    "explanation": "দুর্নীতিবিরোধী আন্তর্জাতিক সংস্থা ট্রান্সপারেন্সি ইন্টারন্যাশনাল (Transparency International)-এর প্রধান কার্যালয় জার্মানির বার্লিনে অবস্থিত।",
+    "hints": "💡 ট্রান্সপারেন্সি ইন্টারন্যাশনালের সদর দপ্তর বার্লিন, জার্মানি।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 ট্রান্সপারেন্সি ইন্টারন্যাশনালের সদর দপ্তর বার্লিন, জার্মানি।"
   },
   {
     "id": 202057,
@@ -978,12 +1035,13 @@
       "Karim is taller than Rima"
     ],
     "correct_answer": "Karim is taller than Rima",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রদত্ত শর্তানুযায়ী: করিম > মিনা; মিনা = বেলা; বেলা > রিমা (কারণ রিমা বেলার চেয়ে খাটো)। সুতরাং করিম > বেলা > রিমা; অর্থাৎ নিশ্চিতভাবেই করিম রিমার চেয়ে লম্বা (Karim is taller than Rima)।",
+    "hints": "💡 Karim > Mina = Bela > Rima => Karim > Rima.",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 Karim > Mina = Bela > Rima => Karim > Rima."
   },
   {
     "id": 202058,
@@ -995,12 +1053,13 @@
       "only female nurses wear apron"
     ],
     "correct_answer": "all nurses wear apron",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যুক্তির সঠিকতা: সাবিনা এপ্রন পরেছে, সুতরাং সে অবশ্যই নার্স—এ সিদ্ধান্ত তখনই চূড়ান্তভাবে সত্য হবে যদি শুধুমাত্র নার্সরাই এপ্রন পরে বা সকল নার্স এপ্রন পরে।",
+    "hints": "💡 লজিক্যাল ডিডাকশনে শর্ত পূরণ জরুরি।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 লজিক্যাল ডিডাকশনে শর্ত পূরণ জরুরি।"
   },
   {
     "id": 205253,
@@ -1012,11 +1071,12 @@
       "\\( 9{x}^{2}{y}^{2} \\)"
     ],
     "correct_answer": "\\( 9{x}^{2}{y}^{2} \\)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "দেওয়া আছে: x² + y² = xy। আমরা জানি, (x + y)² = x² + y² + 2xy = xy + 2xy = 3xy। অতএব (x + y)⁴ = [(x + y)²]² = (3xy)² = 9x²y²।",
+    "hints": "💡 (x+y)² = 3xy => (x+y)⁴ = (3xy)² = 9x²y²।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Southeast Bank Ltd",
-    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12"
+    "exam": "12@Southeast Bank Ltd - Probationary Officer - 22.06.12",
+    "hint": "💡 (x+y)² = 3xy => (x+y)⁴ = (3xy)² = 9x²y²।"
   }
 ]

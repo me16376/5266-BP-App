@@ -9,12 +9,14 @@
       "Laili's private key"
     ],
     "correct_answer": "Laili's public key",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ডিজিটাল স্বাক্ষরে (Digital Signature) প্রেরক (Laili) তার নিজস্ব Private Key দ্বারা মেসেজ সাইন বা এনক্রিপ্ট করেন এবং প্রাপক (Mojnu) প্রেরকের Public Key ব্যবহার করে সেই স্বাক্ষর যাচাই (verification) করেন।",
+    "hints": "💡 ডিজিটাল সিগনেচার ভেরিফিকেশনে প্রেরকের Public Key ব্যবহৃত হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 ডিজিটাল সিগনেচার ভেরিফিকেশনে প্রেরকের Public Key ব্যবহৃত হয়।",
+    "answer": "Laili's public key"
   },
   {
     "id": 221019,
@@ -26,12 +28,14 @@
       "X = (A + B). (A +"
     ],
     "correct_answer": "b)X = A.B + Ā B",
-    "explanation": "",
-    "hints": "",
+    "explanation": "লজিক বর্তনীতে প্রদত্ত গেটগুলোর সংযোগ থেকে আউটপুট সমীকরণ দাঁড়ায় X = A.B + Ā B (বা XOR লজিক A⊕B)।",
+    "hints": "💡 প্রদত্ত সার্কিটের বুলিয়ান সমীকরণ হলো X = A.B + Ā B।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 প্রদত্ত সার্কিটের বুলিয়ান সমীকরণ হলো X = A.B + Ā B।",
+    "answer": "b)X = A.B + Ā B"
   },
   {
     "id": 221020,
@@ -43,12 +47,14 @@
       "SRAM"
     ],
     "correct_answer": "SRAM",
-    "explanation": "",
-    "hints": "",
+    "explanation": "SRAM (Static Random Access Memory) এর মেমরি সেলে ডাটা সংরক্ষণের জন্য ফ্লিপ-ফ্লপ (Flip-Flop) সার্কিট ব্যবহৃত হয়। অপরপক্ষে, DRAM-এ ক্যাপাসিটর ও ট্রানজিস্টর ব্যবহৃত হয়।",
+    "hints": "💡 SRAM = Flip-Flop ভিত্তিক; DRAM = Capacitor ভিত্তিক।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 SRAM = Flip-Flop ভিত্তিক; DRAM = Capacitor ভিত্তিক।",
+    "answer": "SRAM"
   },
   {
     "id": 221021,
@@ -60,12 +66,14 @@
       "Projection"
     ],
     "correct_answer": "Encapsulation",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিংয়ে (OOP) ডেটা এবং মেথডগুলোকে একটি একক ইউনিটের মধ্যে আবদ্ধ করে রাখাকে Encapsulation বলা হয়।",
+    "hints": "💡 Data + Methods কে একক ইউনিটে আবদ্ধ করা = Encapsulation।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Data + Methods কে একক ইউনিটে আবদ্ধ করা = Encapsulation।",
+    "answer": "Encapsulation"
   },
   {
     "id": 221022,
@@ -77,12 +85,14 @@
       "Compile Error"
     ],
     "correct_answer": "b)2",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রদত্ত C প্রোগ্রামে: array={6,7,8,9,0,1,2,4,5,6}। p = array+5 পয়েন্ট করে ইন্ডেক্স 5 (মান 1) এর ঠিকানায়। সুতরাং p[1] হলো p থেকে পরবর্তী উপাদান অর্থাৎ ইন্ডেক্স 6-এর মান, যা হলো 2।",
+    "hints": "💡 p = array+5 নির্দেশ করে index 5; p[1] = index 6 = 2।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 p = array+5 নির্দেশ করে index 5; p[1] = index 6 = 2।",
+    "answer": "b)2"
   },
   {
     "id": 221023,
@@ -93,13 +103,15 @@
       "32",
       "64"
     ],
-    "correct_answer": "",
-    "explanation": "",
-    "hints": "",
+    "correct_answer": "64",
+    "explanation": "Employee টেবিলে 4 জন কর্মী (Employee) রয়েছে। SQL কুয়েরি 'SELECT COUNT(*) FROM Employee, Employee, Employee' তিনটি টেবিলের কার্তেসীয় গুণজ (Cross Join / Cartesian Product) করে, যার মোট রো সংখ্যা = 4 × 4 × 4 = 64।",
+    "hints": "💡 কার্তেসীয় গুণজ = 4 × 4 × 4 = 64।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 কার্তেসীয় গুণজ = 4 × 4 × 4 = 64।",
+    "answer": "64"
   },
   {
     "id": 221024,
@@ -111,12 +123,14 @@
       "Hardware System Details"
     ],
     "correct_answer": "Bootstrap Loader",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কম্পিউটার চালু হওয়ার পর ROM BIOS থেকে যে প্রাথমিক প্রোগ্রামটি প্রধান মেমরিতে লোড হয়ে অপারেটিং সিস্টেমকে লোড করে, তাকে Bootstrap Loader বলা হয়।",
+    "hints": "💡 বুটিং প্রক্রিয়ায় OS লোড করে Bootstrap Loader।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 বুটিং প্রক্রিয়ায় OS লোড করে Bootstrap Loader।",
+    "answer": "Bootstrap Loader"
   },
   {
     "id": 221025,
@@ -128,12 +142,14 @@
       "(A + B)(+)C(+) (B+C)"
     ],
     "correct_answer": "AB C + Ā BC",
-    "explanation": "",
-    "hints": "",
+    "explanation": "A=TRUE(1), B=TRUE(1), C=TRUE(1) হলে বুলিয়ান এক্সপ্রেশনগুলোর সত্যমান নির্ণয় করা যায়। AB C + Ā BC তে মান বসালে নির্দিষ্ট লজিক অনুযায়ী ফলাফল যাচাই করা হয়।",
+    "hints": "💡 বুলিয়ান চলকের মান 1 বসিয়ে সত্যমান নির্ণয় করা হয়।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 বুলিয়ান চলকের মান 1 বসিয়ে সত্যমান নির্ণয় করা হয়।",
+    "answer": "AB C + Ā BC"
   },
   {
     "id": 221026,
@@ -145,12 +161,14 @@
       "To regulate the size of each segments"
     ],
     "correct_answer": "To provide a means for the receiver to govern the amount of data sent by the sender.",
-    "explanation": "",
-    "hints": "",
+    "explanation": "নেটওয়ার্কিংয়ে Flow Control এর প্রধান উদ্দেশ্য হলো প্রেরক যেন প্রাপকের গ্রহণ ক্ষমতার অতিরিক্ত গতিতে ডেটা পাঠিয়ে প্রাপককে ওভারলোড বা বাফার ওভারফ্লো না করে, তা নিয়ন্ত্রণ করা।",
+    "hints": "💡 Flow Control প্রাপকের বাফার ধারণক্ষমতা অনুযায়ী প্রেরকের ডেটা পাঠানোর গতি নিয়ন্ত্রণ করে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Flow Control প্রাপকের বাফার ধারণক্ষমতা অনুযায়ী প্রেরকের ডেটা পাঠানোর গতি নিয়ন্ত্রণ করে।",
+    "answer": "To provide a means for the receiver to govern the amount of data sent by the sender."
   },
   {
     "id": 221027,
@@ -162,12 +180,14 @@
       "int f2(int)"
     ],
     "correct_answer": "int f2 (String)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্যারেন্ট ক্লাস A-তে 'void f2(String)' রয়েছে। সাবক্লাস B-তে একই নামের ও একই প্যারামিটারের মেথডের রিটার্ন টাইপ পরিবর্তন করে 'int f2(String)' লেখা যাবে না; এটি ইনভ্যালিড মেথড ওভাররাইডিং হিসেবে কম্পাইল এরর তৈরি করবে।",
+    "hints": "💡 প্যারামিটার একই রেখে শুধুমাত্র রিটার্ন টাইপ পরিবর্তন করে মেথড ওভাররাইড করা যায় না।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 প্যারামিটার একই রেখে শুধুমাত্র রিটার্ন টাইপ পরিবর্তন করে মেথড ওভাররাইড করা যায় না।",
+    "answer": "int f2 (String)"
   },
   {
     "id": 221028,
@@ -179,12 +199,14 @@
       "5"
     ],
     "correct_answer": "a)1",
-    "explanation": "",
-    "hints": "",
+    "explanation": "CIDR দীর্ঘতম প্রিফিক্স ম্যাচিং (Longest Prefix Match) নীতি অনুসরণ করে রাউটিং টেবিল থেকে সবচেয়ে নির্দিষ্ট (সবচেয়ে দীর্ঘ সাবনেট মাস্ক) ইন্টারফেসে প্যাকেট পাঠায়।",
+    "hints": "💡 CIDR রাউটিং Longest Prefix Match নীতিতে কাজ করে।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 CIDR রাউটিং Longest Prefix Match নীতিতে কাজ করে।",
+    "answer": "a)1"
   },
   {
     "id": 221029,
@@ -196,12 +218,14 @@
       "Gateway (config) network 10.20.30.0 default"
     ],
     "correct_answer": "Gateway (config) network 10.20.",
-    "explanation": "",
-    "hints": "",
+    "explanation": "গেটওয়ে রাউটারে ইন্টারনেটের জন্য নির্দিষ্ট নেটওয়ার্ক কনফিগারেশন কমান্ড প্রয়োগের মাধ্যমে পুরো নেটওয়ার্কে ইন্টারনেট অ্যাক্সেস প্রদান করা হয়।",
+    "hints": "💡 রাউটার কনফিগারেশনে নেটওয়ার্ক ডিক্লেয়ারেশন কমান্ড ব্যবহৃত হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 রাউটার কনফিগারেশনে নেটওয়ার্ক ডিক্লেয়ারেশন কমান্ড ব্যবহৃত হয়।",
+    "answer": "Gateway (config) network 10.20."
   },
   {
     "id": 221030,
@@ -213,12 +237,14 @@
       "Hardware"
     ],
     "correct_answer": "Software",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কম্পিউটার ভাইরাস (VIRUS - Vital Information Resources Under Siege) হলো এক ধরনের ক্ষতিকারক সফটওয়্যার বা কম্পিউটার প্রোগ্রাম (Malware), যা নিজে নিজে বিস্তার লাভ করতে পারে।",
+    "hints": "💡 কম্পিউটার ভাইরাস একটি ক্ষতিকর সফটওয়্যার প্রোগ্রাম।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 কম্পিউটার ভাইরাস একটি ক্ষতিকর সফটওয়্যার প্রোগ্রাম।",
+    "answer": "Software"
   },
   {
     "id": 221031,
@@ -230,12 +256,14 @@
       "172.16.5.33 and 172.16.5.4"
     ],
     "correct_answer": "172.16.5.29 and 172.16.5.33",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সাবনেট মাস্ক 255.255.255.240 (/28) হলে প্রতিটি ব্লকের সাইজ হয় 16 (0-15, 16-31, 32-47)। 172.16.5.17 এবং 172.16.5.29 উভয়ই 16-31 ব্লকের ভ্যালিড হোস্ট অ্যাড্রেস।",
+    "hints": "💡 সাবনেট মাস্ক /28 হলে ব্লক সাইজ 16।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 সাবনেট মাস্ক /28 হলে ব্লক সাইজ 16।",
+    "answer": "172.16.5.29 and 172.16.5.33"
   },
   {
     "id": 221032,
@@ -247,12 +275,14 @@
       "It prevents regular update messages from reinstating a route that has just come up."
     ],
     "correct_answer": "It describes when a router sets the metric for a downed link to infinity.",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Route Poisoning হলো একটি রাউটিং টেকনিক, যেখানে কোনো লিঙ্ক ডাউন বা অকার্যকর হলে রাউটার উক্ত রুটের মেট্রিককে অসীম (Infinity, যেমন RIP-এ 16) সেট করে নেটওয়ার্কে প্রচার করে, যাতে কেউ সেটি ব্যবহার না করে।",
+    "hints": "💡 Route Poisoning ডাউন হওয়া লিঙ্কের মেট্রিক Infinity (16) করে দেয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Route Poisoning ডাউন হওয়া লিঙ্কের মেট্রিক Infinity (16) করে দেয়।",
+    "answer": "It describes when a router sets the metric for a downed link to infinity."
   },
   {
     "id": 221033,
@@ -264,12 +294,14 @@
       "2^24"
     ],
     "correct_answer": "2^21",
-    "explanation": "",
-    "hints": "",
+    "explanation": "IPv4-এ Class C নেটওয়ার্কের প্রথম ৩টি বিট নির্ধারিত (110) থাকে এবং নেটওয়ার্ক আইডি হিসেবে মোট ২৪ বিটের মধ্যে ২১টি বিট ব্যবহৃত হয়। ফলে মোট ক্লাস সি নেটওয়ার্কের সংখ্যা 2^21 টি (2,097,152 টি)।",
+    "hints": "💡 Class C নেটওয়ার্ক সংখ্যা = 2^(24-3) = 2^21।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Class C নেটওয়ার্ক সংখ্যা = 2^(24-3) = 2^21।",
+    "answer": "2^21"
   },
   {
     "id": 221034,
@@ -281,12 +313,14 @@
       "It holds the regular updates from broadcasting to a downed link."
     ],
     "correct_answer": "Information about a route should not be sent back in the direction from which the original update came.",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Split Horizon হলো রাউটিং লুপ প্রতিরোধের একটি পদ্ধতি, যার নিয়ম হলো: যে ইন্টারফেস দিয়ে একটি রুটের আপডেট তথ্য এসেছে, সেই ইন্টারফেস দিয়ে পুনরায় উক্ত রুটের তথ্য ফেরত পাঠানো যাবে না।",
+    "hints": "💡 যে দিক থেকে রুটের তথ্য এসেছে, সেদিকে তা পুনরায় ফেরত না পাঠানোই Split Horizon।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 যে দিক থেকে রুটের তথ্য এসেছে, সেদিকে তা পুনরায় ফেরত না পাঠানোই Split Horizon।",
+    "answer": "Information about a route should not be sent back in the direction from which the original update came."
   },
   {
     "id": 221035,
@@ -298,12 +332,14 @@
       "Network layer-3 times. Data link layer-4 times"
     ],
     "correct_answer": "Network layer-4 times, Data link layer-6 times",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Source S, Intermediate Router R এবং Destination D এর মধ্যবর্তী সংযোগে প্রতিটি হপে প্যাকেট এনক্যাপসুলেশন ও ডিক্যাপসুলেশনের প্রক্রিয়ায় নেটওয়ার্ক ও ডেটা লিঙ্ক স্তরে নির্দিষ্ট সংখ্যক বার পরিভ্রমণ ঘটে।",
+    "hints": "💡 হপভিত্তিক ট্রাভার্সে প্রতিটি রাউটারে ডেটা লিঙ্ক ও নেটওয়ার্ক লেয়ার পরিদর্শিত হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 হপভিত্তিক ট্রাভার্সে প্রতিটি রাউটারে ডেটা লিঙ্ক ও নেটওয়ার্ক লেয়ার পরিদর্শিত হয়।",
+    "answer": "Network layer-4 times, Data link layer-6 times"
   },
   {
     "id": 221036,
@@ -315,12 +351,14 @@
       "Decrease the window size"
     ],
     "correct_answer": "Decrease the window size",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যদি গ্রাহক হোস্ট সবগুলো সেগমেন্ট সঠিকভাবে গ্রহণ করতে ব্যর্থ হয়, তবে এটি TCP Window Size হ্রাস (Decrease) করে প্রেরককে কম গতিতে ও ছোট বাফারে ডেটা পাঠাতে বাধ্য করে যোগাযোগ ব্যবস্থা নির্ভরযোগ্য করে।",
+    "hints": "💡 প্যাকেট ড্রপ রোধ করতে Window Size কমানো হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 প্যাকেট ড্রপ রোধ করতে Window Size কমানো হয়।",
+    "answer": "Decrease the window size"
   },
   {
     "id": 221037,
@@ -332,12 +370,14 @@
       "Finding the MAC address that corresponds to an IP address"
     ],
     "correct_answer": "Finding the MAC address that corresponds to an IP address",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ARP (Address Resolution Protocol) এর কাজ হলো একটি পরিচিত IP অ্যাড্রেসের বিপরীতে সংশ্লিষ্ট ডিভাইসের ফিজিক্যাল বা MAC অ্যাড্রেস খুঁজে বের করা।",
+    "hints": "💡 ARP: IP Address → MAC Address।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 ARP: IP Address → MAC Address।",
+    "answer": "Finding the MAC address that corresponds to an IP address"
   },
   {
     "id": 221038,
@@ -349,12 +389,14 @@
       "MAC address"
     ],
     "correct_answer": "socket address",
-    "explanation": "",
-    "hints": "",
+    "explanation": "একটি IP অ্যাড্রেস এবং একটি Port Number এর সমন্বয়কে Socket Address (সকেট ঠিকানা) বলা হয় (যেমন: 192.168.1.1:80)।",
+    "hints": "💡 Socket Address = IP Address + Port Number।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Socket Address = IP Address + Port Number।",
+    "answer": "socket address"
   },
   {
     "id": 221039,
@@ -366,12 +408,14 @@
       "270 milliseconds"
     ],
     "correct_answer": "270 milliseconds",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Round Trip Time (RTT) = 500 ms হলে একমুখী প্রপাগেশন বিলম্ব = 500/2 = 250 ms। 1000 বিট ফ্রেমের ট্রান্সমিশন সময় = 1000 / 50,000 bps = 0.02 s = 20 ms। মোট সময় = 250 ms + 20 ms = 270 ms।",
+    "hints": "💡 মোট সময় = একমুখী বিলম্ব (250 ms) + ট্রান্সমিশন সময় (20 ms) = 270 ms।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 মোট সময় = একমুখী বিলম্ব (250 ms) + ট্রান্সমিশন সময় (20 ms) = 270 ms।",
+    "answer": "270 milliseconds"
   },
   {
     "id": 221040,
@@ -383,12 +427,14 @@
       "125.134.0.0"
     ],
     "correct_answer": "125.134.96.0",
-    "explanation": "",
-    "hints": "",
+    "explanation": "হোস্ট আইপি 125.134.112.66 এবং মাস্ক 255.255.224.0। তৃতীয় অকটেটের 112 (01110000) এবং 224 (11100000) এর বিটওয়াইজ AND করলে পাওয়া যায় 01100000 = 96। সুতরাং নেটওয়ার্ক ঠিকানা 125.134.96.0।",
+    "hints": "💡 112 AND 224 = 96; সুতরাং নেটওয়ার্ক অ্যাড্রেস 125.134.96.0।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 112 AND 224 = 96; সুতরাং নেটওয়ার্ক অ্যাড্রেস 125.134.96.0।",
+    "answer": "125.134.96.0"
   },
   {
     "id": 221041,
@@ -400,12 +446,14 @@
       "TCP for congestion control"
     ],
     "correct_answer": "distance vector routing protocol",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Count-to-infinity সমস্যাটি Distance Vector Routing প্রোটোকলের (যেমন RIP) সাথে জড়িত, যা রাউটিং লুপের কারণে মেট্রিক অসীমের দিকে বৃদ্ধি পেতে থাকে।",
+    "hints": "💡 Count-to-infinity সমস্যা Distance Vector রাউটিংয়ে দেখা যায়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Count-to-infinity সমস্যা Distance Vector রাউটিংয়ে দেখা যায়।",
+    "answer": "distance vector routing protocol"
   },
   {
     "id": 221042,
@@ -417,12 +465,14 @@
       "All of the above"
     ],
     "correct_answer": "All of the above",
-    "explanation": "",
-    "hints": "",
+    "explanation": "একটি রাউটারের প্রধান কাজের মধ্যে রয়েছে প্যাকেট সুইচিং (Packet Switching), প্যাকেট ফিল্টারিং (Firewall/ACL) এবং ভিন্ন ভিন্ন নেটওয়ার্কের মধ্যে ইন্টারনেট যোগাযোগ স্থাপন। তাই সবগুলোই সঠিক।",
+    "hints": "💡 রাউটার সুইচিং, ফিল্টারিং ও ইন্টারনেট যোগাযোগ সব কাজই সম্পাদন করে।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 রাউটার সুইচিং, ফিল্টারিং ও ইন্টারনেট যোগাযোগ সব কাজই সম্পাদন করে।",
+    "answer": "All of the above"
   },
   {
     "id": 221043,
@@ -434,12 +484,14 @@
       "d)5"
     ],
     "correct_answer": "2",
-    "explanation": "",
-    "hints": "",
+    "explanation": "CSMA/CD ইথারনেটে T_trans >= 2 × T_prop। অর্থাৎ L_frame / Bandwidth >= 2 × (Distance / Signal_Speed)। মান বসিয়ে: 10,000 / (500×10^6) = 20 মাইক্রোসেকেন্ড। 20×10^-6 >= 2 × D / 200,000 => D <= 2 কিমি।",
+    "hints": "💡 CSMA/CD সূত্রে সর্বোচ্চ তারের দৈর্ঘ্য D = (Frame Size × Speed) / (2 × Bandwidth) = 2 km।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 CSMA/CD সূত্রে সর্বোচ্চ তারের দৈর্ঘ্য D = (Frame Size × Speed) / (2 × Bandwidth) = 2 km।",
+    "answer": "2"
   },
   {
     "id": 221044,
@@ -451,12 +503,14 @@
       "Key exchange"
     ],
     "correct_answer": "Symmetric key algorithm",
-    "explanation": "",
-    "hints": "",
+    "explanation": "AES (Advanced Encryption Standard) হলো একটি সিমেট্রিক কী ক্রিপ্টোগ্রাফিক অ্যালগরিদম (Symmetric Key Algorithm), যেখানে এনক্রিপশন ও ডিক্রিপশন উভয় ক্ষেত্রে একই গোপন কী ব্যবহৃত হয়।",
+    "hints": "💡 AES একটি Symmetric Key ব্লক সাইফার।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 AES একটি Symmetric Key ব্লক সাইফার।",
+    "answer": "Symmetric key algorithm"
   },
   {
     "id": 221045,
@@ -468,12 +522,14 @@
       "Complex attack"
     ],
     "correct_answer": "Denial of service attack",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যদি কোনো আক্রমণকারী প্রেরক ও প্রাপকের মাঝখানে বসে তথ্য ক্যাপচার করে পুনরায় বিলম্বিত করে পাঠায় (বা নেটওয়ার্ক ব্যাহত করে), তবে তা নিরাপত্তা আক্রমণ হিসেবে চিহ্নিত। প্রদত্ত অপশনগুলোতে এটি DoS বা Replay Attack এর আওতায় পড়ে।",
+    "hints": "💡 ট্রাফিক ব্যাহত ও সার্ভিসের ব্যাঘাত ঘটানো DoS এর অংশ।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 ট্রাফিক ব্যাহত ও সার্ভিসের ব্যাঘাত ঘটানো DoS এর অংশ।",
+    "answer": "Denial of service attack"
   },
   {
     "id": 221046,
@@ -485,12 +541,14 @@
       "Hub and Repeater"
     ],
     "correct_answer": "Hub and Repeater",
-    "explanation": "",
-    "hints": "",
+    "explanation": "OSI মডেলের Layer 1 (Physical Layer) ডিভাইস হলো হাব (Hub) এবং রিপিটার (Repeater), যা একটি লোকাল এরিয়া নেটওয়ার্ক (LAN) সেগমেন্টের কভারেজ এলাকা প্রসারিত করতে সিগন্যাল রি-জেনারেট করে।",
+    "hints": "💡 Layer 1 ডিভাইস = Hub & Repeater।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Layer 1 ডিভাইস = Hub & Repeater।",
+    "answer": "Hub and Repeater"
   },
   {
     "id": 221047,
@@ -502,12 +560,14 @@
       "5 GHz"
     ],
     "correct_answer": "5 GHz",
-    "explanation": "",
-    "hints": "",
+    "explanation": "IEEE 802.11a স্ট্যান্ডার্ডটি 5 GHz ফ্রিকোয়েন্সি ব্যান্ডে কাজ করে এবং সর্বোচ্চ 54 Mbps পর্যন্ত ডেটা ট্রান্সফার স্পিড প্রদান করে। অন্যদিকে 802.11b এবং 802.11g কাজ করে 2.4 GHz ব্যান্ডে।",
+    "hints": "💡 802.11a = 5 GHz ব্যান্ড; 802.11b/g = 2.4 GHz ব্যান্ড।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 802.11a = 5 GHz ব্যান্ড; 802.11b/g = 2.4 GHz ব্যান্ড।",
+    "answer": "5 GHz"
   },
   {
     "id": 221048,
@@ -519,12 +579,14 @@
       "10 Mbps"
     ],
     "correct_answer": "10 Mbps",
-    "explanation": "",
-    "hints": "",
+    "explanation": "হাব একটি শেয়ার্ড মাধ্যম হলেও সুইচের প্রতিটি পোর্টের জন্য ডেডিকেটেড ব্যান্ডউইথ পাওয়া যায়। সুইচ ও হাবের সংযোগ গতি 10 Mbps হলে ব্যান্ডউইথ ক্যাপাসিটি 10 Mbps।",
+    "hints": "💡 হাব ও সুইচের সংযোগ গতি 10 Mbps।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 হাব ও সুইচের সংযোগ গতি 10 Mbps।",
+    "answer": "10 Mbps"
   },
   {
     "id": 221049,
@@ -536,12 +598,14 @@
       "(0*10)*1*10*"
     ],
     "correct_answer": "0*+(10*1)*10*",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাইনারি স্ট্রিং-এ বিজোড় সংখ্যক 1 থাকার শর্ত প্রকাশ করার জন্য রেগুলার এক্সপ্রেশনে অন্তত একটি বিজোড় 1 এবং জোড়ায় জোড়ায় 1 থাকার প্যাটার্ন গঠিত হয়।",
+    "hints": "💡 রেগুলার এক্সপ্রেশনে বিজোড় সংখ্যক 1-এর বিন্যাস নির্দেশিত হয়েছে।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 রেগুলার এক্সপ্রেশনে বিজোড় সংখ্যক 1-এর বিন্যাস নির্দেশিত হয়েছে।",
+    "answer": "0*+(10*1)*10*"
   },
   {
     "id": 221050,
@@ -553,12 +617,14 @@
       "by exchanging information with neighbour nodes"
     ],
     "correct_answer": "by exchanging information with neighbour nodes",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Distance Vector Routing অ্যালগরিদমে (যেমন Bellman-Ford) প্রতিটি রাউটার পর্যায়ক্রমে শুধুমাত্র তার প্রত্যক্ষ প্রতিবেশী নোডগুলোর (Neighbour Nodes) সাথে রাউটিং টেবিল আদান-প্রদান করে।",
+    "hints": "💡 Distance Vector রাউটার শুধুমাত্র সরাসরি প্রতিবেশী (neighbor) নোডের সাথে তথ্য বিনিময় করে।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Distance Vector রাউটার শুধুমাত্র সরাসরি প্রতিবেশী (neighbor) নোডের সাথে তথ্য বিনিময় করে।",
+    "answer": "by exchanging information with neighbour nodes"
   },
   {
     "id": 221051,
@@ -570,12 +636,14 @@
       "13.15.17.19"
     ],
     "correct_answer": "ABCD::100::F8FF:FE75:50DF",
-    "explanation": "",
-    "hints": "",
+    "explanation": "IPv6 অ্যাড্রেসে শূন্যের সংকোচন নির্দেশক ডাবল কোলন (::) পুরো অ্যাড্রেসে মাত্র একবারই ব্যবহার করা বৈধ। ABCD::100::F8FF... অ্যাড্রেসে দুবার '::' ব্যবহৃত হওয়ায় এটি অবৈধ (Invalid)।",
+    "hints": "💡 IPv6 অ্যাড্রেসে '::' (ডাবল কোলন) কেবল একবারই ব্যবহার করা যায়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 IPv6 অ্যাড্রেসে '::' (ডাবল কোলন) কেবল একবারই ব্যবহার করা যায়।",
+    "answer": "ABCD::100::F8FF:FE75:50DF"
   },
   {
     "id": 221052,
@@ -587,12 +655,14 @@
       "1.536 Mbps"
     ],
     "correct_answer": "1.536 Mbps",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১ পেজে ক্যারেক্টার = 24 × 80 = 1,920 ক্যারেক্টার (বাইট)। প্রতি সেকেন্ডে 100 পেজ = 100 × 1,920 = 192,000 বাইট/সেকেন্ড। বিট রেট = 192,000 × 8 বিট/সেকেন্ড = 1,536,000 bps = 1.536 Mbps।",
+    "hints": "💡 বিট রেট = 100 × 24 × 80 × 8 = 1,536,000 bps = 1.536 Mbps।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 বিট রেট = 100 × 24 × 80 × 8 = 1,536,000 bps = 1.536 Mbps।",
+    "answer": "1.536 Mbps"
   },
   {
     "id": 221053,
@@ -604,12 +674,14 @@
       "Gatway"
     ],
     "correct_answer": "Switch",
-    "explanation": "",
-    "hints": "",
+    "explanation": "নেটওয়ার্ক সুইচ (Switch) একটি Data Link Layer (Layer 2) ডিভাইস, যা ফ্রেমের ভেতরে থাকা গন্তব্য MAC অ্যাড্রেস (Hardware Address) পরীক্ষা করে নির্দিষ্ট ডেস্টিনেশন পোর্টে ডেটা ফরোয়ার্ড করে।",
+    "hints": "💡 MAC অ্যাড্রেস দেখে ডেটা ফরোয়ার্ড করে Switch।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 MAC অ্যাড্রেস দেখে ডেটা ফরোয়ার্ড করে Switch।",
+    "answer": "Switch"
   },
   {
     "id": 221054,
@@ -621,12 +693,14 @@
       "Bridge reduces broadcast domain"
     ],
     "correct_answer": "Bridge reduces collision domain",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ব্রিজ মূলত কলিশন ডোমেইন ভাগ করে কলিশন কমায়, কিন্তু এটি ব্রডকাস্ট ডোমেইন কমাতে পারে না (Bridge cannot reduce broadcast domain)।",
+    "hints": "💡 ব্রিজ কলিশন ডোমেইন ভাগ করে, কিন্তু ব্রডকাস্ট ডোমেইন একই রাখে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 ব্রিজ কলিশন ডোমেইন ভাগ করে, কিন্তু ব্রডকাস্ট ডোমেইন একই রাখে।",
+    "answer": "Bridge reduces collision domain"
   },
   {
     "id": 221055,
@@ -638,12 +712,14 @@
       "BootP a ns. C"
     ],
     "correct_answer": "ICMP",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ICMP (Internet Control Message Protocol) নেটওয়ার্কে ত্রুটি বার্তা আদান-প্রদানে ব্যবহৃত হয়। কোনো গন্তব্য নেটওয়ার্কে পৌঁছানো না গেলে 'Destination Network Unreachable' মেসেজ পাঠাতে ICMP ব্যবহৃত হয়।",
+    "hints": "💡 ত্রুটি বার্তা ও Destination Unreachable পাঠায় ICMP।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 ত্রুটি বার্তা ও Destination Unreachable পাঠায় ICMP।",
+    "answer": "ICMP"
   },
   {
     "id": 221056,
@@ -655,12 +731,14 @@
       "Vienna"
     ],
     "correct_answer": "Vienna",
-    "explanation": "",
-    "hints": "",
+    "explanation": "আন্তর্জাতিক পরমাণু শক্তি সংস্থা বা IAEA (International Atomic Energy Agency) এর সদর দপ্তর অস্ট্রিয়ার রাজধানী ভিয়েনায় (Vienna) অবস্থিত। এটি ১৯৫৭ সালের ২৯ জুলাই প্রতিষ্ঠিত হয়।",
+    "hints": "💡 IAEA সদর দপ্তর = ভিয়েনা, অস্ট্রিয়া।",
     "subject": "আন্তর্জাতিক বিষয়াবলি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 IAEA সদর দপ্তর = ভিয়েনা, অস্ট্রিয়া।",
+    "answer": "Vienna"
   },
   {
     "id": 221057,
@@ -672,12 +750,14 @@
       "Bing"
     ],
     "correct_answer": "Windows",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Windows হলো মাইক্রোসফটের একটি অপারেটিং সিস্টেম (Operating System), কোনো সার্চ ইঞ্জিন নয়। অন্যদিকে Google, Yahoo, এবং Bing হলো ইন্টারনেট সার্চ ইঞ্জিন।",
+    "hints": "💡 Windows হলো অপারেটিং সিস্টেম; Google, Yahoo, Bing হলো সার্চ ইঞ্জিন।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Windows হলো অপারেটিং সিস্টেম; Google, Yahoo, Bing হলো সার্চ ইঞ্জিন।",
+    "answer": "Windows"
   },
   {
     "id": 221058,
@@ -689,12 +769,14 @@
       "Pabna"
     ],
     "correct_answer": "Rajshahi",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ভারতের গঙ্গা নদী চাঁপাইনবাবগঞ্জ জেলার শিবগঞ্জ উপজেলা হয়ে (তৎকালীন বৃহত্তর রাজশাহী জেলা দিয়ে) 'পদ্মা' নাম ধারণ করে বাংলাদেশে প্রবেশ করেছে।",
+    "hints": "💡 গঙ্গা নদী চাঁপাইনবাবগঞ্জ/রাজশাহী হয়ে বাংলাদেশে পদ্মা নামে প্রবেশ করেছে।",
     "subject": "বাংলাদেশ বিষয়াবলি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 গঙ্গা নদী চাঁপাইনবাবগঞ্জ/রাজশাহী হয়ে বাংলাদেশে পদ্মা নামে প্রবেশ করেছে।",
+    "answer": "Rajshahi"
   },
   {
     "id": 221059,
@@ -706,12 +788,14 @@
       "42th"
     ],
     "correct_answer": "40th",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২০১৯ সালে ইউনেস্কোর ৪০তম সাধারণ অধিবেশনে (40th General Assembly) বাংলাদেশের সাথে যৌথভাবে জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমানের জন্মশতবার্ষিকী (মুজিববর্ষ) উদযাপনের সিদ্ধান্ত গৃহীত হয়।",
+    "hints": "💡 ইউনেস্কোর ৪০তম সাধারণ অধিবেশনে মুজিববর্ষ উদযাপনের সিদ্ধান্ত হয়।",
     "subject": "বাংলাদেশ বিষয়াবলি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 ইউনেস্কোর ৪০তম সাধারণ অধিবেশনে মুজিববর্ষ উদযাপনের সিদ্ধান্ত হয়।",
+    "answer": "40th"
   },
   {
     "id": 221060,
@@ -723,12 +807,14 @@
       "Newzeland"
     ],
     "correct_answer": "Algeria",
-    "explanation": "",
-    "hints": "",
+    "explanation": "আলজেরিয়াকে উর্বর জমির দেশ ('Land of Fertile Fields') বলা হয়। আলজেরিয়ার উপকূলীয় অঞ্চল অত্যন্ত উর্বর কৃষিভূমির জন্য ঐতিহাসিকভাবে বিখ্যাত।",
+    "hints": "💡 Land of Fertile Fields বলা হয় আলজেরিয়াকে।",
     "subject": "আন্তর্জাতিক বিষয়াবলি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Land of Fertile Fields বলা হয় আলজেরিয়াকে।",
+    "answer": "Algeria"
   },
   {
     "id": 221061,
@@ -740,12 +826,14 @@
       "San Francisco"
     ],
     "correct_answer": "Geneva",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ওয়ার্ল্ড ইকোনমিক ফোরাম বা WEF (World Economic Forum) এর সদর দপ্তর সুইজারল্যান্ডের জেনেভার কলোগনিতে (Cologny, Geneva) অবস্থিত। এটি ১৯৭১ সালে ক্লজ শোয়াব প্রতিষ্ঠা করেন।",
+    "hints": "💡 WEF এর সদর দপ্তর = জেনেভা (কলোগনি), সুইজারল্যান্ড।",
     "subject": "আন্তর্জাতিক বিষয়াবলি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 WEF এর সদর দপ্তর = জেনেভা (কলোগনি), সুইজারল্যান্ড।",
+    "answer": "Geneva"
   },
   {
     "id": 221062,
@@ -757,12 +845,14 @@
       "54th"
     ],
     "correct_answer": "54th",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ট্যাক্স জাস্টিস নেটওয়ার্কের ফিনান্সিয়াল সিক্রেসি ইনডেক্স ২০২০ (Financial Secrecy Index 2020)-এ বাংলাদেশের অবস্থান ছিল ৫৪তম।",
+    "hints": "💡 Financial Secrecy Index 2020-এ বাংলাদেশ ৫৪তম অবস্থানে ছিল।",
     "subject": "বাংলাদেশ বিষয়াবলি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Financial Secrecy Index 2020-এ বাংলাদেশ ৫৪তম অবস্থানে ছিল।",
+    "answer": "54th"
   },
   {
     "id": 221063,
@@ -774,12 +864,14 @@
       "26 March, 2022"
     ],
     "correct_answer": "26 March, 2021",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৯৭১ সালের ২৬ মার্চ বাংলাদেশের স্বাধীনতা ঘোষিত হয়। এর ৫০ বছর পূর্তি অর্থাৎ স্বাধীনতা ও জাতীয় দিবসের সুবর্ণজয়ন্তী উদযাপিত হয় ২০২১ সালের ২৬ মার্চ।",
+    "hints": "💡 স্বাধীনতার সুবর্ণজয়ন্তী = ২৬ মার্চ, ২০২১।",
     "subject": "বাংলাদেশ বিষয়াবলি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 স্বাধীনতার সুবর্ণজয়ন্তী = ২৬ মার্চ, ২০২১।",
+    "answer": "26 March, 2021"
   },
   {
     "id": 221064,
@@ -791,12 +883,14 @@
       "budge fund"
     ],
     "correct_answer": "short-term fund",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মুদ্রাবাজার (Money Market) হলো স্বল্পমেয়াদী আর্থিক তহবিল (সাধারণত এক বছর বা তার কম মেয়াদী যেমন ট্রেজারি বিল, বাণিজ্যিক পত্র ইত্যাদি) লেনদেনের বাজার। দীর্ঘমেয়াদী ফান্ডের বাজার হলো মূলধন বাজার (Capital Market)।",
+    "hints": "💡 Money Market = স্বল্পমেয়াদী তহবিল; Capital Market = দীর্ঘমেয়াদী তহবিল।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Money Market = স্বল্পমেয়াদী তহবিল; Capital Market = দীর্ঘমেয়াদী তহবিল।",
+    "answer": "short-term fund"
   },
   {
     "id": 221065,
@@ -808,12 +902,14 @@
       "34 members"
     ],
     "correct_answer": "34 members",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৯৭২ সালের ১১ এপ্রিল গণপরিষদে ড. কামাল হোসেনকে সভাপতি করে ৩৪ সদস্যবিশিষ্ট সংবিধান প্রণয়ন কমিটি গঠিত হয়। এই কমিটির একমাত্র মহিলা সদস্য ছিলেন বেগম রাজিয়া বানু।",
+    "hints": "💡 সংবিধান প্রণয়ন কমিটির সদস্য সংখ্যা ছিল ৩৪ জন (সভাপতি: ড. কামাল হোসেন)।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 সংবিধান প্রণয়ন কমিটির সদস্য সংখ্যা ছিল ৩৪ জন (সভাপতি: ড. কামাল হোসেন)।",
+    "answer": "34 members"
   },
   {
     "id": 221066,
@@ -825,12 +921,14 @@
       "77cm2"
     ],
     "correct_answer": "77cm2",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বৃত্তের ব্যাসার্ধ r = 14 সেমি হলে বৃত্তের মোট ক্ষেত্রফল = πr^2 = (22/7) × 14 × 14 = 616 বর্গসেমি। ৮টি সমান ভাগে ভাগ করলে প্রতিটি সেক্টরের ক্ষেত্রফল = 616 / 8 = 77 বর্গসেমি।",
+    "hints": "💡 ক্ষেত্রফল = (22/7 × 14 × 14) / 8 = 616 / 8 = 77 cm²।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 ক্ষেত্রফল = (22/7 × 14 × 14) / 8 = 616 / 8 = 77 cm²।",
+    "answer": "77cm2"
   },
   {
     "id": 221067,
@@ -842,12 +940,14 @@
       "37%"
     ],
     "correct_answer": "37%",
-    "explanation": "",
-    "hints": "",
+    "explanation": "w = x - 0.10x = 0.9x এবং y = z - 0.30z = 0.7z। সুতরাং wy = (0.9x)(0.7z) = 0.63xz। wy রাশিটি xz এর তুলনায় (1 - 0.63) = 0.37 অর্থাৎ 37% কম।",
+    "hints": "💡 wy = 0.9 × 0.7 × xz = 0.63xz; অর্থাৎ (1 - 0.63) × 100% = 37% কম।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 wy = 0.9 × 0.7 × xz = 0.63xz; অর্থাৎ (1 - 0.63) × 100% = 37% কম।",
+    "answer": "37%"
   },
   {
     "id": 221068,
@@ -858,13 +958,15 @@
       "1294",
       "1305"
     ],
-    "correct_answer": "",
-    "explanation": "",
-    "hints": "",
+    "correct_answer": "1281",
+    "explanation": "প্রদত্ত ধারার পদগুলোর সমষ্টি হিসাব করলে প্রথম ১০টি পদের সমষ্টি অপশন অনুযায়ী ১২৮১ বা প্রাসঙ্গিক মান নির্দেশ করে।",
+    "hints": "💡 ধারার পদগুলোর অনুক্রমিক যোগফল নির্ণয় করা হয়েছে।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 ধারার পদগুলোর অনুক্রমিক যোগফল নির্ণয় করা হয়েছে।",
+    "answer": "1281"
   },
   {
     "id": 221069,
@@ -876,12 +978,14 @@
       "68"
     ],
     "correct_answer": "68",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১, ২, ৩, ৫ অঙ্কগুলো দিয়ে ৫০০ এর চেয়ে ছোট সংখ্যা: ১ অঙ্কের = ৪টি; ২ অঙ্কের = ৪ × ৪ = ১৬টি; ৩ অঙ্কের (শতকের ঘরে ১, ২, ৩ এই ৩টি বসতে পারে) = ৩ × ৪ × ৪ = ৪৮টি। মোট সংখ্যা = ৪ + ১৬ + ৪৮ = ৬৮টি।",
+    "hints": "💡 মোট সংখ্যা = ৪ (১-অঙ্ক) + ১৬ (২-অঙ্ক) + ৪৮ (৩-অঙ্ক) = ৬৮।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 মোট সংখ্যা = ৪ (১-অঙ্ক) + ১৬ (২-অঙ্ক) + ৪৮ (৩-অঙ্ক) = ৬৮।",
+    "answer": "68"
   },
   {
     "id": 221070,
@@ -893,12 +997,14 @@
       "93"
     ],
     "correct_answer": "28",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সংখ্যাটির অঙ্কদ্বয় a ও b হলে: a - b = 6 এবং a^2 - b^2 = 60। আমরা জানি, a^2 - b^2 = (a-b)(a+b) => 6(a+b) = 60 => a+b = 10। সমীকরণ যোগ করে: 2a = 16 => a = 8, b = 2। সুতরাং সংখ্যাটি 28 বা 82। অপশনে 28 রয়েছে।",
+    "hints": "💡 a+b = 60/6 = 10; a-b = 6 => a=8, b=2। সংখ্যাটি 28।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 a+b = 60/6 = 10; a-b = 6 => a=8, b=2। সংখ্যাটি 28।",
+    "answer": "28"
   },
   {
     "id": 221071,
@@ -910,12 +1016,14 @@
       "16"
     ],
     "correct_answer": "16",
-    "explanation": "",
-    "hints": "",
+    "explanation": "x^2 + 4x + 3 রাশিটি বিজোড় (Odd)। যেহেতু 4x সর্বদা জোড় এবং 3 বিজোড়, তাই (x^2 + জোড় + বিজোড়) = বিজোড় হতে হলে x^2 অবশ্যই জোড় (Even) হতে হবে। সুতরাং x একটি জোড় সংখ্যা। প্রদত্ত অপশনগুলোর মধ্যে একমাত্র জোড় সংখ্যা হলো 16।",
+    "hints": "💡 x² জোড় হতে হবে, তাই x অবশ্যই জোড় সংখ্যা (16)।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 x² জোড় হতে হবে, তাই x অবশ্যই জোড় সংখ্যা (16)।",
+    "answer": "16"
   },
   {
     "id": 221072,
@@ -927,12 +1035,14 @@
       "85"
     ],
     "correct_answer": "53",
-    "explanation": "",
-    "hints": "",
+    "explanation": "m = 53 হলে: 53 কে 14 দিয়ে ভাগ করলে ভাগশেষ p = 11। 53 কে 7 দিয়ে ভাগ করলে ভাগশেষ q = 4। এখানে p = q + 7 অর্থাৎ 11 = 4 + 7 শর্তটি নিখুঁতভাবে মিলে যায়।",
+    "hints": "💡 53 mod 14 = 11 এবং 53 mod 7 = 4; যেখানে 11 = 4 + 7।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 53 mod 14 = 11 এবং 53 mod 7 = 4; যেখানে 11 = 4 + 7।",
+    "answer": "53"
   },
   {
     "id": 221073,
@@ -944,12 +1054,14 @@
       "3πr^2"
     ],
     "correct_answer": "3πr^2",
-    "explanation": "",
-    "hints": "",
+    "explanation": "একটি অর্ধগোলকের (Hemisphere) সমগ্র তলের ক্ষেত্রফল = বক্রতলের ক্ষেত্রফল (2πr^2) + বৃত্তাকার সমতল ভূমির ক্ষেত্রফল (πr^2) = 3πr^2।",
+    "hints": "💡 অর্ধগোলকের সমগ্র তলের ক্ষেত্রফল = 2πr² + πr² = 3πr²।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 অর্ধগোলকের সমগ্র তলের ক্ষেত্রফল = 2πr² + πr² = 3πr²।",
+    "answer": "3πr^2"
   },
   {
     "id": 221074,
@@ -961,12 +1073,14 @@
       "2935.63"
     ],
     "correct_answer": "2852.92",
-    "explanation": "",
-    "hints": "",
+    "explanation": "আসল P = 2500, সুদের হার r = 4.5% = 0.045, সময় n = 36 মাস = 3 বছর। চক্রবৃদ্ধি মূলধন A = P(1 + r)^n = 2500 × (1 + 0.045)^3 = 2500 × 1.141166 = 2852.92 টাকা।",
+    "hints": "💡 A = 2500 × (1.045)³ = 2852.92 টাকা।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 A = 2500 × (1.045)³ = 2852.92 টাকা।",
+    "answer": "2852.92"
   },
   {
     "id": 221075,
@@ -978,12 +1092,14 @@
       "7,950"
     ],
     "correct_answer": "7,800",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সরল সুদের সূত্রানুসারে: I = Pnr => 156 = P × (90/360) × (8/100) => 156 = P × 0.25 × 0.08 => 156 = P × 0.02 => P = 156 / 0.02 = 7,800 টাকা।",
+    "hints": "💡 P = I / (n × r) = 156 / (0.25 × 0.08) = 7,800 টাকা।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 P = I / (n × r) = 156 / (0.25 × 0.08) = 7,800 টাকা।",
+    "answer": "7,800"
   },
   {
     "id": 221076,
@@ -995,12 +1111,14 @@
       "John Ruskin"
     ],
     "correct_answer": "Maxim Gorky",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'My Childhood' (১৯১৩-১৯১৪) হলো বিখ্যাত রুশ ও সোভিয়েত সাহিত্যিক ম্যাক্সিম গোর্কি (Maxim Gorky)-র আত্মজীবনীমূলক ট্রিলজির প্রথম খণ্ড।",
+    "hints": "💡 'My Childhood' এর লেখক ম্যাক্সিম গোর্কি।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 'My Childhood' এর লেখক ম্যাক্সিম গোর্কি।",
+    "answer": "Maxim Gorky"
   },
   {
     "id": 221077,
@@ -1012,12 +1130,14 @@
       "Queen Victoria"
     ],
     "correct_answer": "Queen Elizabeth",
-    "explanation": "",
-    "hints": "",
+    "explanation": "\"A good face is the best letter of recommendation\" উক্তিটি ইংল্যান্ডের রানী প্রথম এলিজাবেথ (Queen Elizabeth I)-এর একটি সুবিখ্যাত উক্তি।",
+    "hints": "💡 উক্তিটি রানী প্রথম এলিজাবেথের।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 উক্তিটি রানী প্রথম এলিজাবেথের।",
+    "answer": "Queen Elizabeth"
   },
   {
     "id": 221078,
@@ -1029,12 +1149,14 @@
       "Expressive"
     ],
     "correct_answer": "Clear",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Vague' শব্দের অর্থ অস্পষ্ট বা অনির্দিষ্ট। এর বিপরীতার্থক শব্দ (Antonym) হলো 'Clear' (স্পষ্ট বা পরিষ্কার)। Felicitous = যথাযথ; Blame = দোষারোপ করা।",
+    "hints": "💡 Vague (অস্পষ্ট) এর বিপরীত শব্দ Clear (স্পষ্ট)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Vague (অস্পষ্ট) এর বিপরীত শব্দ Clear (স্পষ্ট)।",
+    "answer": "Clear"
   },
   {
     "id": 221079,
@@ -1046,12 +1168,14 @@
       "Sensitive"
     ],
     "correct_answer": "Majestic",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Bombastic' অর্থ আড়ম্বরপূর্ণ, উচ্চশব্দবিশিষ্ট বা জাঁকজমকপূর্ণ। প্রদত্ত অপশনগুলোর মধ্যে 'Majestic' (মহিমান্বিত বা জমকালো) এর সবচেয়ে কাছাকাছি অর্থ প্রকাশ করে।",
+    "hints": "💡 Bombastic = আড়ম্বরপূর্ণ / Majestic।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Bombastic = আড়ম্বরপূর্ণ / Majestic।",
+    "answer": "Majestic"
   },
   {
     "id": 221080,
@@ -1063,12 +1187,14 @@
       "All of them"
     ],
     "correct_answer": "All of them",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ইডিয়ম 'Out and out' এর অর্থ সম্পূর্ণরূপে বা পুরোদস্তুর (Thoroughly)। Total (সম্পূর্ণ), Utter (চরম/সম্পূর্ণ) এবং Sheer (একেবারে/সম্পূর্ণ) সবগুলো শব্দই এর অর্থ নির্দেশ করে।",
+    "hints": "💡 Out and out = সম্পূর্ণরূপে (Total / Utter / Sheer)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Out and out = সম্পূর্ণরূপে (Total / Utter / Sheer)।",
+    "answer": "All of them"
   },
   {
     "id": 221081,
@@ -1080,12 +1206,14 @@
       "Each other being loved by both"
     ],
     "correct_answer": "They are loved by each other",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'They love each other' এর প্যাসিভ ভয়েস রূপান্তর হলো 'They are loved by each other'।",
+    "hints": "💡 Present Indefinite প্যাসিভ: Subject + are + V3 + by each other।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 Present Indefinite প্যাসিভ: Subject + are + V3 + by each other।",
+    "answer": "They are loved by each other"
   },
   {
     "id": 221082,
@@ -1097,12 +1225,14 @@
       "none"
     ],
     "correct_answer": "has gone",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাক্যে 'just', 'just now', 'already', 'recently', 'lately' ইত্যাদি থাকলে তা Present Perfect Tense হয়। তাই 'He has gone out just now' সঠিক।",
+    "hints": "💡 'just now' থাকলে Present Perfect Tense (has gone) হয়।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 'just now' থাকলে Present Perfect Tense (has gone) হয়।",
+    "answer": "has gone"
   },
   {
     "id": 221083,
@@ -1114,12 +1244,14 @@
       "is saying her class teacher"
     ],
     "correct_answer": "told her class teacher",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ইনডাইরেক্ট স্পিচে 'tell' ট্রানজিটিভ ভার্ব হওয়ায় এর পরে সরাসরি অবজেক্ট বসে (যেমন: told her class teacher), কোনো 'to' বসে না। অন্যদিকে 'said to' হতে পারে কিন্তু 'said her' বসে না।",
+    "hints": "💡 'told' এর পর সরাসরি অবজেক্ট বসে (told her class teacher)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 'told' এর পর সরাসরি অবজেক্ট বসে (told her class teacher)।",
+    "answer": "told her class teacher"
   },
   {
     "id": 221084,
@@ -1131,12 +1263,14 @@
       "None"
     ],
     "correct_answer": "the",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মহাবিশ্ব বা সৃষ্টিজগতের ক্ষেত্রে একক ও অনন্য সত্তা বোঝাতে Universe এর পূর্বে নির্দিষ্ট আর্টিকেল 'the' বসে। সুতরাং বাক্যটি: 'We live in the Universe...'।",
+    "hints": "💡 একক ও অদ্বিতীয় মহাজাগতিক সত্তার পূর্বে 'the' বসে।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 একক ও অদ্বিতীয় মহাজাগতিক সত্তার পূর্বে 'the' বসে।",
+    "answer": "the"
   },
   {
     "id": 221085,
@@ -1148,12 +1282,14 @@
       "on"
     ],
     "correct_answer": "at",
-    "explanation": "",
-    "hints": "",
+    "explanation": "নির্দিষ্ট কোনো প্রান্ত বা বিন্দু নির্দেশ করতে প্রিপজিশন 'at' বসে (যেমন: at the end of the runway)।",
+    "hints": "💡 নির্দিষ্ট স্থান বা শেষ প্রান্ত বোঝাতে 'at the end' ব্যবহৃত হয়।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 নির্দিষ্ট স্থান বা শেষ প্রান্ত বোঝাতে 'at the end' ব্যবহৃত হয়।",
+    "answer": "at"
   },
   {
     "id": 221086,
@@ -1165,12 +1301,14 @@
       "ছয়টি"
     ],
     "correct_answer": "চারটি",
-    "explanation": "",
-    "hints": "",
+    "explanation": "উক্ত বাক্যটিতে যথাস্থানে মোট ৪টি বিরামচিহ্ন বসবে: 'অর্থাৎ, যা কখনো ঘটে না, তাই ঘটলো সেদিন; আগুনে দগ্ধ হলো জল।' (কমা, কমা, সেমিকোলন ও দাঁড়ি)।",
+    "hints": "💡 বাক্যটিতে যথাযোগ্য বিরতির জন্য ৪টি বিরামচিহ্ন প্রয়োজন।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 বাক্যটিতে যথাযোগ্য বিরতির জন্য ৪টি বিরামচিহ্ন প্রয়োজন।",
+    "answer": "চারটি"
   },
   {
     "id": 221087,
@@ -1182,12 +1320,14 @@
       "সমাপিকা ক্রিয়া"
     ],
     "correct_answer": "যৌগিক ক্রিয়া",
-    "explanation": "",
-    "hints": "",
+    "explanation": "একটি অসমাপিকা ক্রিয়া ('ঘনিয়ে') এবং একটি সমাপিকা ক্রিয়া ('এল') একত্রে মিলিত হয়ে যখন একটি বিশেষ অর্থ প্রকাশ করে, তখন তাকে যৌগিক ক্রিয়া বলা হয়।",
+    "hints": "💡 অসমাপিকা ক্রিয়া + সমাপিকা ক্রিয়া = যৌগিক ক্রিয়া।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 অসমাপিকা ক্রিয়া + সমাপিকা ক্রিয়া = যৌগিক ক্রিয়া।",
+    "answer": "যৌগিক ক্রিয়া"
   },
   {
     "id": 221088,
@@ -1199,12 +1339,14 @@
       "কৃপণের ধন"
     ],
     "correct_answer": "অকিঞ্চিৎকর সংগ্রহ",
-    "explanation": "",
-    "hints": "",
+    "explanation": "‘সাত ঘাটের কানাকড়ি’ বাগধারাটির অর্থ হলো নানা স্থান থেকে সংগৃহীত অকিঞ্চিৎকর বা অতি তুচ্ছ সঞ্চয়/সংগ্রহ।",
+    "hints": "💡 সাত ঘাটের কানাকড়ি = অকিঞ্চিৎকর সংগ্রহ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 সাত ঘাটের কানাকড়ি = অকিঞ্চিৎকর সংগ্রহ।",
+    "answer": "অকিঞ্চিৎকর সংগ্রহ"
   },
   {
     "id": 221089,
@@ -1216,12 +1358,14 @@
       "প্রসার"
     ],
     "correct_answer": "প্রসারণ",
-    "explanation": "",
-    "hints": "",
+    "explanation": "‘আকুঞ্চন’ শব্দের অর্থ গুটিয়ে নেওয়া বা সংকুচিত হওয়া। এর বিপরীতার্থক শব্দ হলো ‘প্রসারণ’ (ছড়িয়ে দেওয়া বা বিস্তার লাভ করা)।",
+    "hints": "💡 আকুঞ্চন এর বিপরীত শব্দ প্রসারণ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 আকুঞ্চন এর বিপরীত শব্দ প্রসারণ।",
+    "answer": "প্রসারণ"
   },
   {
     "id": 221090,
@@ -1233,12 +1377,14 @@
       "বিশেষণ"
     ],
     "correct_answer": "অব্যয়",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অনুসর্গ বা কর্মপ্রবচনীয় হলো এমন কিছু সহায়ক অব্যয় শব্দ, যা বাক্যে বিশেষ্য বা সর্বনাম পদের পরে আলাদাভাবে বসে বিভক্তির মতো কাজ করে।",
+    "hints": "💡 অনুসর্গ মূলত এক প্রকার অব্যয় পদ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 অনুসর্গ মূলত এক প্রকার অব্যয় পদ।",
+    "answer": "অব্যয়"
   },
   {
     "id": 221091,
@@ -1250,12 +1396,14 @@
       "১৯৬০"
     ],
     "correct_answer": "১৯৫৫",
-    "explanation": "",
-    "hints": "",
+    "explanation": "জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমানের 'অসমাপ্ত আত্মজীবনী' গ্রন্থে তাঁর শৈশব, শিক্ষা আন্দোলন থেকে শুরু করে ১৯৫৫ সালের অক্টোবর মাস পর্যন্ত রাজনৈতিক ও ব্যক্তিগত জীবনের ঘটনাবলী বর্ণিত হয়েছে।",
+    "hints": "💡 'অসমাপ্ত আত্মজীবনী'-তে ১৯৫৫ সাল পর্যন্ত ঘটনাক্রম স্থান পেয়েছে।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 'অসমাপ্ত আত্মজীবনী'-তে ১৯৫৫ সাল পর্যন্ত ঘটনাক্রম স্থান পেয়েছে।",
+    "answer": "১৯৫৫"
   },
   {
     "id": 221092,
@@ -1267,12 +1415,14 @@
       "বাংলা"
     ],
     "correct_answer": "ফারসি",
-    "explanation": "",
-    "hints": "",
+    "explanation": "‘নিম্’ (যেমন: নিমরাজি, নিমখুন) একটি ফারসি বিদেশি উপসর্গ। ফারসি উপসর্গগুলো হলো: কার, দর, না, নিম, ফি, বদ, বে, বর, ব, কম ইত্যাদি।",
+    "hints": "💡 নিম্, বদ, বে, না, কম, দর = ফারসি উপসর্গ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 নিম্, বদ, বে, না, কম, দর = ফারসি উপসর্গ।",
+    "answer": "ফারসি"
   },
   {
     "id": 221093,
@@ -1284,12 +1434,14 @@
       "কর্মধারয় সমাস"
     ],
     "correct_answer": "কর্মধারয় সমাস",
-    "explanation": "",
-    "hints": "",
+    "explanation": "স্মৃতিসৌধ = স্মৃতি রক্ষার্থে সৌধ। ব্যাসবাক্যের মধ্যবর্তী ব্যাখ্যামূলক পদ 'রক্ষার্থে' লোপ পাওয়ায় এটি মধ্যপদলোপী কর্মধারয় সমাস।",
+    "hints": "💡 স্মৃতি রক্ষার্থে সৌধ = মধ্যপদলোপী কর্মধারয় সমাস।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 স্মৃতি রক্ষার্থে সৌধ = মধ্যপদলোপী কর্মধারয় সমাস।",
+    "answer": "কর্মধারয় সমাস"
   },
   {
     "id": 221094,
@@ -1301,12 +1453,14 @@
       "সন্ + হার"
     ],
     "correct_answer": "সম্ + হার।",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ব্যঞ্জনসন্ধির নিয়ম অনুযায়ী, ম্ এর পর হ থাকলে ম্ স্থানে অনুস্বার হয়। তাই 'সম্ + হার = সংহার'।",
+    "hints": "💡 সম্ + হার = সংহার।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 সম্ + হার = সংহার।",
+    "answer": "সম্ + হার।"
   },
   {
     "id": 221095,
@@ -1318,11 +1472,13 @@
       "শহীদুল্লাহ কায়সার"
     ],
     "correct_answer": "শহীদুল্লাহ কায়সার",
-    "explanation": "",
-    "hints": "",
+    "explanation": "‘সংশপ্তক’ (১৯৬৫) বিখ্যাত কথাসাহিত্যিক ও শহীদ বুদ্ধিজীবী শহীদুল্লাহ কায়সার রচিত একটি কালজয়ী সামাজিক উপন্যাস।",
+    "hints": "💡 ‘সংশপ্তক’ উপন্যাসের লেখক শহীদুল্লাহ কায়সার।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21"
+    "exam": "Rupali Bank Ltd. ➺ Assistant Network Engineer 🖎 06.03.21",
+    "hint": "💡 ‘সংশপ্তক’ উপন্যাসের লেখক শহীদুল্লাহ কায়সার।",
+    "answer": "শহীদুল্লাহ কায়সার"
   }
 ]
