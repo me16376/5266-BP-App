@@ -251,3 +251,5 @@ export async function loadIctQuestions(slugOrId) {
     questions: []
   };
 }
+
+export const getIctChapterBySlug = getIctBySlug;
