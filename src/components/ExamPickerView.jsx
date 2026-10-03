@@ -5,7 +5,15 @@ import Link from 'next/link';
 import { Search, BookOpen, Timer, Layers, Sparkles, Filter, ChevronRight } from 'lucide-react';
 import { getExamsCatalog, cleanExamTitle } from '../lib/examsData';
 
-export default function ExamPickerView({ targetMode = 'practice' }) {
+export default function ExamPickerView({ 
+  targetMode = 'practice',
+  customGetCatalog,
+  customCleanTitle,
+  basePracticeUrl = '/job-solution-practice',
+  baseModelTestUrl = '/job-solution-model-test',
+  customTitle,
+  customSubtitle
+}) {
   const [catalog, setCatalog] = useState(null);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
@@ -13,16 +21,18 @@ export default function ExamPickerView({ targetMode = 'practice' }) {
   const [visibleCount, setVisibleCount] = useState(24);
 
   const isModelTest = targetMode === 'model-test';
+  const fetchCatalog = customGetCatalog || getExamsCatalog;
+  const cleanTitle = customCleanTitle || cleanExamTitle;
 
   useEffect(() => {
-    getExamsCatalog().then(data => {
+    fetchCatalog().then(data => {
       setCatalog(data);
       setLoading(false);
     }).catch(err => {
       console.error('Failed to load exams catalog:', err);
       setLoading(false);
     });
-  }, []);
+  }, [fetchCatalog]);
 
   const exams = catalog?.exams || [];
   const categories = catalog?.categories || [];
@@ -34,14 +44,14 @@ export default function ExamPickerView({ targetMode = 'practice' }) {
       }
       if (searchQuery.trim()) {
         const query = searchQuery.toLowerCase();
-        const titleMatch = cleanExamTitle(exam.title).toLowerCase().includes(query);
+        const titleMatch = cleanTitle(exam.title).toLowerCase().includes(query);
         const catMatch = (exam.category_name || '').toLowerCase().includes(query);
         const slugMatch = (exam.slug || '').toLowerCase().includes(query);
         if (!titleMatch && !catMatch && !slugMatch) return false;
       }
       return true;
     });
-  }, [exams, selectedCategory, searchQuery]);
+  }, [exams, selectedCategory, searchQuery, cleanTitle]);
 
   return (
     <div style={{ padding: '36px 0 80px' }}>
@@ -72,7 +82,7 @@ export default function ExamPickerView({ targetMode = 'practice' }) {
             marginBottom: '12px',
             lineHeight: 1.3
           }}>
-            {isModelTest ? 'মডেল টেস্ট দেওয়ার জন্য পরীক্ষা নির্বাচন করুন' : 'অনুশীলন ও পড়ার জন্য পরীক্ষা নির্বাচন করুন'}
+            {customTitle || (isModelTest ? 'মডেল টেস্ট দেওয়ার জন্য পরীক্ষা নির্বাচন করুন' : 'অনুশীলন ও পড়ার জন্য পরীক্ষা নির্বাচন করুন')}
           </h1>
 
           <p style={{
@@ -82,7 +92,9 @@ export default function ExamPickerView({ targetMode = 'practice' }) {
             margin: '0 auto 28px',
             lineHeight: 1.6
           }}>
-            বিগত ২,১৫৪টি বিসিএস, ব্যাংক, প্রাথমিক শিক্ষক ও সকল সরকারি চাকরির বিগত প্রশ্নপত্র থেকে যেকোনো একটি বেছে নিয়ে শুরু করুন।
+            {customSubtitle || (isModelTest
+              ? 'তালিকা থেকে আপনার কাঙ্ক্ষিত পরীক্ষাটি বেছে নিয়ে সরাসরি রিয়েল-টাইম টাইমারসহ মডেল টেস্ট শুরু করুন।'
+              : 'বিগত পরীক্ষার প্রশ্ন ও বিস্তারিত সমাধান সহকারে কার্যকরভাবে অনুশীলন করুন।')}
           </p>
 
           {/* Quick Search Input */}
@@ -183,9 +195,9 @@ export default function ExamPickerView({ targetMode = 'practice' }) {
               marginBottom: '32px'
             }}>
               {filteredExams.slice(0, visibleCount).map((exam) => {
-                const practiceUrl = `/job-solution-practice?exam=${encodeURIComponent(exam.slug)}&mode=practice`;
-                const readUrl = `/job-solution-practice?exam=${encodeURIComponent(exam.slug)}&mode=read`;
-                const modelTestUrl = `/job-solution-model-test?exam=${encodeURIComponent(exam.slug)}`;
+                const practiceUrl = `${basePracticeUrl}?exam=${encodeURIComponent(exam.slug)}&mode=practice`;
+                const readUrl = `${basePracticeUrl}?exam=${encodeURIComponent(exam.slug)}&mode=read`;
+                const modelTestUrl = `${baseModelTestUrl}?exam=${encodeURIComponent(exam.slug)}`;
 
                 return (
                   <div
@@ -222,7 +234,7 @@ export default function ExamPickerView({ targetMode = 'practice' }) {
                         lineHeight: '1.45',
                         marginBottom: '10px'
                       }}>
-                        {cleanExamTitle(exam.title)}
+                        {cleanTitle(exam.title)}
                       </h3>
 
                       <div style={{ fontSize: '0.84rem', color: 'var(--text-muted)', marginBottom: '16px' }}>

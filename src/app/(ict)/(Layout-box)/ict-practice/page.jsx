@@ -184,7 +184,8 @@ function IctPracticeContent() {
   if (!examSlug) {
     return (
       <ChooseExamPopup
-        target="job-solution"
+        targetUrl="/ict"
+        targetLabel="আইসিটি অধ্যায় নির্বাচন করুন (/ict)"
         isOpen={true}
         title="একটি আইসিটি অধ্যায় নির্বাচন করুন"
         description="প্রশ্ন ও উত্তর অনুশীলন করতে অনুগ্রহ করে /ict পেজ থেকে যেকোনো একটি অধ্যায় নির্বাচন করুন।"

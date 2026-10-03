@@ -8,8 +8,7 @@ import {
   Layers, 
   BookOpen, 
   Timer, 
-  Laptop,
-  Cpu,
+  Calendar,
   Sparkles
 } from 'lucide-react';
 import { getIctCatalog, cleanIctTitle } from '../../../../lib/ictData';
@@ -19,13 +18,13 @@ import { useAuth } from '../../../../lib/authContext';
 function IctDirectoryContent() {
   const { user, loading: authLoading, logout } = useAuth();
   const searchParams = useSearchParams();
-  const initialCat = searchParams.get('cat') || 'class-9-10-computer-gk';
+  const initialCat = searchParams.get('cat') || 'all';
   const initialQuery = searchParams.get('q') || '';
 
   const [catalog, setCatalog] = useState({ categories: [], exams: [] });
   const [selectedCategory, setSelectedCategory] = useState(initialCat);
   const [searchQuery, setSearchQuery] = useState(initialQuery);
-  const [sortBy, setSortBy] = useState('default');
+  const [sortBy, setSortBy] = useState('newest');
   const [visibleCount, setVisibleCount] = useState(30);
   const [loading, setLoading] = useState(true);
 
@@ -40,16 +39,13 @@ function IctDirectoryContent() {
     getIctCatalog().then(data => {
       setCatalog(data);
       setLoading(false);
-      if (!selectedCategory || selectedCategory === 'all') {
-        setSelectedCategory(data.categories?.[0]?.id || 'class-9-10-computer-gk');
-      }
     });
   }, []);
 
   // Restore category from URL or localStorage
   useEffect(() => {
     const urlCat = searchParams.get('cat');
-    if (urlCat && urlCat !== 'all') {
+    if (urlCat) {
       setSelectedCategory(urlCat);
       try {
         localStorage.setItem(STORAGE_KEY_CAT, urlCat);
@@ -57,10 +53,8 @@ function IctDirectoryContent() {
     } else {
       try {
         const savedCat = localStorage.getItem(STORAGE_KEY_CAT);
-        if (savedCat && savedCat !== 'all') {
+        if (savedCat) {
           setSelectedCategory(savedCat);
-        } else {
-          setSelectedCategory('class-9-10-computer-gk');
         }
       } catch (e) {}
     }
@@ -76,79 +70,59 @@ function IctDirectoryContent() {
 
   // Helper to score an exam for sorting
   const getExamSortScore = (exam) => {
-    // Check for chapter numbers (০১, ০২ ... or ক, খ ...)
-    const bnMatch = exam.title.match(/অধ্যায়-\s*([০-৯0-9]+)/);
+    // 1. Chapter Number (e.g. অধ্যায় ০১, ০২... ক, খ...)
+    const bnMatch = exam.title.match(/(?:অধ্যায়|অধ্যায়)\s*[-:]?\s*([০-৯0-9]+)/);
+    let chapterNum = 0;
     if (bnMatch) {
       const bnMap = { '০': '0', '১': '1', '২': '2', '৩': '3', '৪': '4', '৫': '5', '৬': '6', '৭': '7', '৮': '8', '৯': '9' };
       const converted = bnMatch[1].replace(/[০-৯]/g, d => bnMap[d] || d);
-      return parseInt(converted, 10) || 0;
+      chapterNum = parseInt(converted, 10) || 0;
     }
-    const letterMap = { 'ক': 1, 'খ': 2, 'গ': 3, 'ঘ': 4, 'ঙ': 5, 'চ': 6, 'ছ': 7, 'জ': 8, 'ঝ': 9, 'ঞ': 10 };
-    const letterMatch = exam.title.match(/অধ্যায়-\s*([ক-ঞ])/);
-    if (letterMatch && letterMap[letterMatch[1]]) {
-      return letterMap[letterMatch[1]];
-    }
-    return 0;
+
+    const idNum = exam.id ? parseInt(exam.id.replace(/\D/g, ''), 10) || 0 : 0;
+    return { chapterNum, idNum };
   };
 
   // Filtered & Sorted exams
   const filteredExams = useMemo(() => {
     if (!catalog.exams) return [];
-    
-    const currentCat = catalog.categories.find(c => c.id === selectedCategory) || catalog.categories[0];
-
     const list = catalog.exams.filter(exam => {
       // Category filter
-      if (selectedCategory && selectedCategory !== 'all' && exam.category_id !== selectedCategory) {
+      if (selectedCategory !== 'all' && exam.category_id !== selectedCategory) {
         return false;
       }
-      // Smart Bilingual Search
+      // Search
       if (searchQuery.trim()) {
-        const q = searchQuery.toLowerCase().trim();
-        const title = (exam.title || '').toLowerCase();
-        const catName = (exam.category_name || '').toLowerCase();
-        if (!title.includes(q) && !catName.includes(q) && !matchesExamSearch(exam, searchQuery)) {
+        if (!matchesExamSearch(exam, searchQuery)) {
           return false;
         }
       }
       return true;
     });
 
-    const sorted = list.sort((a, b) => {
+    return list.sort((a, b) => {
       if (sortBy === 'questions') {
         return (b.question_count || 0) - (a.question_count || 0);
       }
-      if (sortBy === 'reverse') {
-        return getExamSortScore(b) - getExamSortScore(a);
+
+      const scoreA = getExamSortScore(a);
+      const scoreB = getExamSortScore(b);
+
+      if (scoreA.chapterNum > 0 && scoreB.chapterNum > 0) {
+        return sortBy === 'oldest' 
+          ? scoreA.chapterNum - scoreB.chapterNum 
+          : scoreB.chapterNum - scoreA.chapterNum;
       }
-      // Default: Chapter order (1 -> 10, ক -> ছ)
-      return getExamSortScore(a) - getExamSortScore(b);
+
+      return sortBy === 'oldest' 
+        ? scoreA.idNum - scoreB.idNum 
+        : scoreB.idNum - scoreA.idNum;
     });
-
-    // Add "সকল অধ্যায়" box as the first card in every category
-    if (currentCat) {
-      const q = searchQuery.toLowerCase().trim();
-      const matchAll = !q || 'সকল অধ্যায়'.includes(q) || 'সকল'.includes(q) || (currentCat.name && currentCat.name.toLowerCase().includes(q));
-      if (matchAll) {
-        const allCard = {
-          id: `all-${currentCat.id}`,
-          slug: `all-${currentCat.id}`,
-          title: 'সকল অধ্যায়',
-          category_id: currentCat.id,
-          category_name: currentCat.name,
-          question_count: currentCat.question_count,
-          is_all_card: true
-        };
-        return [allCard, ...sorted];
-      }
-    }
-
-    return sorted;
-  }, [catalog.exams, catalog.categories, selectedCategory, searchQuery, sortBy]);
+  }, [catalog.exams, selectedCategory, searchQuery, sortBy]);
 
   const displayedExams = filteredExams.slice(0, visibleCount);
 
-  // Access Control: Only approved users, approved admins, or system owners
+  // Access Control: Only approved users, approved admins, or system owners are permitted
   const isOwner = user?.role === 'owner';
   const isAdmin = user?.role === 'admin';
   const isApprovedUser = user?.status === 'approved';
@@ -200,11 +174,11 @@ function IctDirectoryContent() {
           </span>
 
           <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a', marginBottom: '14px', lineHeight: 1.3 }}>
-            আইসিটি প্রশ্নব্যাংক দেখতে লগইন প্রয়োজন
+            পরীক্ষার তালিকা দেখতে লগইন প্রয়োজন
           </h2>
 
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '28px' }}>
-            আইসিটির নবম-দশম ও NTRCA উইজার্ড অধ্যায়ভিত্তিক ১,৭৫০+ MCQ প্রশ্নভাণ্ডার ও সমাধান দেখতে অনুগ্রহ করে লগইন করুন। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong> বা <strong>অ্যাডমিনিস্ট্রেটর</strong> ছাড়া এই পেজটি দেখা যাবে না।
+            আইসিটি ও কম্পিউটার প্রশ্নব্যাংক অনুশীলন ও সমাধান দেখতে অনুগ্রহ করে লগইন করুন। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong> বা <strong>অ্যাডমিনিস্ট্রেটর</strong> ছাড়া এই পেজটি দেখা যাবে না।
           </p>
 
           <div style={{
@@ -222,9 +196,9 @@ function IctDirectoryContent() {
               অনুমোদিত অ্যাকাউন্টে যে সুবিধাসমূহ উন্মুক্ত হবে:
             </div>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '6px' }}>
-              <li>• Class 9-10 Computer GK এবং ICT Wizard NTRCA-এর অধ্যায়ভিত্তিক প্রস্তুতি</li>
+              <li>• ক্লাস ৯-১০ ও এনটিআরসিএ আইসিটি উইজার্ডের সকল অধ্যায়ভিত্তিক প্রশ্নপত্র</li>
               <li>• লাইভ মডেল টেস্ট, নেগেটিভ মার্কিং ও ওএমআর মার্কশিট</li>
-              <li>• তাৎক্ষণিক সঠিক উত্তর ও বিস্তারিত ব্যাখ্যাসহ সমাধান</li>
+              <li>• তাৎক্ষণিক সঠিক উত্তর, শর্টকাট টেকনিক ও বিস্তারিত ব্যাখ্যা</li>
             </ul>
           </div>
 
@@ -252,7 +226,7 @@ function IctDirectoryContent() {
     );
   }
 
-  // 3. User logged in, but not approved
+  // 3. User logged in, but not approved (pending / suspended)
   if (user && !isAuthorized) {
     return (
       <div style={{ padding: '60px 16px 100px', minHeight: '75vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -290,7 +264,7 @@ function IctDirectoryContent() {
           </h2>
 
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.98rem', lineHeight: 1.7, marginBottom: '24px' }}>
-            প্রিয় <strong>{user.name}</strong>, আপনার অ্যাকাউন্টটি বর্তমানে পর্যালোচনার অধীনে রয়েছে। শুধুমাত্র <strong>অনুমোদিত শিক্ষার্থী (Approved User)</strong> বা <strong>অ্যাডমিনিস্ট্রেটর</strong> ছাড়া এই পেজটি দেখা যাবে না। সিস্টেম অ্যাডমিন অনুমোদন সম্পন্ন করার পর আপনি সকল আইসিটি অধ্যায় দেখতে পারবেন।
+            প্রিয় <strong>{user.name}</strong>, আপনার অ্যাকাউন্টটি বর্তমানে পর্যালোচনার অধীনে রয়েছে। সিস্টেম অ্যাডমিন অনুমোদন সম্পন্ন করার পর আপনি সকল প্রশ্ন ব্যাংকের তালিকা দেখতে পারবেন।
           </p>
 
           <div style={{
@@ -350,7 +324,7 @@ function IctDirectoryContent() {
     );
   }
 
-  // 4. Authorized
+  // 4. Authorized: Approved User, Admin, or Owner
   return (
     <div style={{ padding: '40px 0 80px' }}>
       <div className="container">
@@ -359,14 +333,14 @@ function IctDirectoryContent() {
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
             <span className="badge badge-emerald">আইসিটি প্রশ্নব্যাংক</span>
             <span style={{ fontSize: '0.86rem', color: 'var(--text-muted)' }}>
-              মোট {catalog.exams?.length || 17}টি অধ্যায়ের {catalog.total_questions?.toLocaleString('bn-BD') || '১,৭৫৮'}টি নির্ভুল প্রশ্ন ও ব্যাখ্যা
+              মোট {catalog.exams?.length ? catalog.exams.length.toLocaleString('bn-BD') : '১৭'}টি অধ্যায়ের নির্ভুল প্রশ্নব্যাংক
             </span>
           </div>
           <h1 style={{ fontSize: '2.4rem', fontWeight: 800, color: '#0f172a', marginBottom: '10px' }}>
-            আইসিটি ও কম্পিউটার প্রশ্নব্যাংক (ICT)
+            আইসিটি ও কম্পিউটার প্রশ্নব্যাংক
           </h1>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '1rem', maxWidth: '750px' }}>
-            নবম-দশম শ্রেণির কম্পিউটার জিকে এবং এনটিআরসিএ (NTRCA ৩১৩ ও ৩২৫) আইসিটি উইজার্ডের অধ্যায়ভিত্তিক পূর্ণাঙ্গ প্রশ্নব্যাংক ও সমাধান।
+          <p style={{ color: 'var(--text-secondary)', fontSize: '1rem', maxWidth: '700px' }}>
+            Class 9-10 কম্পিউটার জিকে ও এনটিআরসিএ আইসিটি উইজার্ড-এর অধ্যায়ভিত্তিক প্রশ্ন ও ব্যাখ্যা অনুশীলন করুন।
           </p>
         </div>
 
@@ -381,6 +355,24 @@ function IctDirectoryContent() {
             marginBottom: '16px',
             borderBottom: '1px solid var(--border-subtle)'
           }}>
+            <button
+              onClick={() => handleCategorySelect('all')}
+              style={{
+                padding: '8px 16px',
+                borderRadius: '8px',
+                fontSize: '0.88rem',
+                fontWeight: 600,
+                cursor: 'pointer',
+                border: selectedCategory === 'all' ? '1.5px solid var(--emerald-500)' : '1px solid #cbd5e1',
+                background: selectedCategory === 'all' ? '#ecfdf5' : '#ffffff',
+                color: selectedCategory === 'all' ? '#047857' : '#475569',
+                boxShadow: selectedCategory === 'all' ? '0 2px 6px rgba(16, 185, 129, 0.2)' : 'none',
+                transition: 'all 0.15s ease'
+              }}
+            >
+              সকল অধ্যায় ({catalog.exams?.length ? catalog.exams.length.toLocaleString('bn-BD') : '১৭'})
+            </button>
+
             {catalog.categories.map((cat) => {
               const isSelected = selectedCategory === cat.id;
               return (
@@ -400,14 +392,14 @@ function IctDirectoryContent() {
                     transition: 'all 0.15s ease'
                   }}
                 >
-                  {cat.name} ({cat.exam_count})
+                  {cat.name.split(' (')[0]} ({cat.exam_count?.toLocaleString('bn-BD') || 0})
                 </button>
               );
             })}
           </div>
 
           {/* Search & Sort Filters */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '14px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '14px' }}>
             {/* Text Search */}
             <div style={{ position: 'relative' }}>
               <Search size={18} color="var(--text-muted)" style={{ position: 'absolute', left: '14px', top: '14px' }} />
@@ -415,7 +407,7 @@ function IctDirectoryContent() {
                 type="text"
                 value={searchQuery}
                 onChange={(e) => { setSearchQuery(e.target.value); setVisibleCount(30); }}
-                placeholder="অধ্যায়ের নাম বা বিষয় দিয়ে সার্চ করুন (যেমন: ইতিহাস, ডাটাবেজ, নেটওয়ার্ক)..."
+                placeholder="অধ্যায় বা বিষয়ের নাম দিয়ে খুঁজুন (যেমন: ইতিহাস, হার্ডওয়্যার, লজিক)..."
                 className="input-glass"
                 style={{ paddingLeft: '42px', paddingRight: searchQuery ? '36px' : '14px', height: '46px' }}
               />
@@ -448,14 +440,14 @@ function IctDirectoryContent() {
                 className="input-glass"
                 style={{ height: '46px', cursor: 'pointer', fontWeight: 600, color: '#0f172a' }}
               >
-                <option value="default">অধ্যায় ক্রমানুসারে (১ম ➔ ১০ম / ক ➔ ছ)</option>
-                <option value="reverse">অধ্যায় উল্টো ক্রমে (১০ম ➔ ১ম)</option>
+                <option value="newest">অধ্যায় ক্রম (১ম ➔ ১০ম)</option>
+                <option value="oldest">বিপরীত ক্রম (১০ম ➔ ১ম)</option>
                 <option value="questions">প্রশ্ন সংখ্যা (বেশি থেকে কম)</option>
               </select>
             </div>
           </div>
 
-          {/* Bengali Suggestions */}
+          {/* Bilingual Search Hint / Recognized Bengali Terms */}
           {activeSuggestions.length > 0 && (
             <div style={{
               display: 'flex',
@@ -478,6 +470,7 @@ function IctDirectoryContent() {
                   </span>
                 ))}
               </div>
+              <span style={{ color: 'var(--text-muted)', fontSize: '0.76rem' }}>(বাংলা টাইটেলে ম্যাচ করা হচ্ছে)</span>
             </div>
           )}
         </div>
@@ -492,11 +485,11 @@ function IctDirectoryContent() {
           fontSize: '0.9rem'
         }}>
           <div>
-            পাওয়া গেছে: <strong style={{ color: '#0f172a' }}>{filteredExams.filter(e => !e.is_all_card).length.toLocaleString('bn-BD')}</strong> টি অধ্যায়
+            পাওয়া গেছে: <strong style={{ color: '#0f172a' }}>{filteredExams.length.toLocaleString('bn-BD')}</strong> টি অধ্যায়
           </div>
         </div>
 
-        {/* Chapters Grid */}
+        {/* Exams Grid */}
         {loading ? (
           <div style={{ textAlign: 'center', padding: '60px 0', color: 'var(--emerald-600)', fontWeight: 600 }}>
             লোড হচ্ছে...
@@ -508,7 +501,7 @@ function IctDirectoryContent() {
               কোনো অধ্যায় পাওয়া যায়নি
             </h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-              অনুগ্রহ করে ভিন্ন কোনো কি-ওয়ার্ড নির্বাচন করুন।
+              অনুগ্রহ করে ভিন্ন কোনো কি-ওয়ার্ড দিয়ে খুঁজুন।
             </p>
           </div>
         ) : (
@@ -527,18 +520,15 @@ function IctDirectoryContent() {
                   display: 'flex',
                   flexDirection: 'column',
                   justifyContent: 'space-between',
-                  borderTop: exam.is_all_card ? '3px solid #007bff' : '3px solid var(--emerald-500)',
+                  borderTop: '3px solid var(--emerald-500)',
                   background: '#ffffff',
                   transition: 'transform 0.2s ease, box-shadow 0.2s ease'
                 }}
               >
                 <div>
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '8px', marginBottom: '10px' }}>
-                    <span className={exam.is_all_card ? "badge badge-blue" : "badge badge-emerald"} style={{ maxWidth: '240px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                      {exam.category_name}
-                    </span>
-                    <span className="badge badge-cyan" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-                      <Laptop size={11} /> ICT
+                    <span className="badge badge-emerald" style={{ maxWidth: '220px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                      {exam.category_name.split(' (')[0]}
                     </span>
                   </div>
 

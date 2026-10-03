@@ -5,12 +5,14 @@ import Link from 'next/link';
 
 export default function ChooseExamPopup({
   target = 'job-solution', // 'job-solution' | 'question-bank-smart'
+  targetUrl: customTargetUrl,
+  targetLabel: customTargetLabel,
   title = '',
   description = ''
 }) {
-  const isSmart = target === 'question-bank-smart';
-  const targetUrl = isSmart ? '/question-bank-smart' : '/job-solution';
-  const targetLabel = isSmart ? 'পরীক্ষা নির্বাচন করুন (/question-bank-smart)' : 'পরীক্ষা নির্বাচন করুন (/job-solution)';
+  const isSmart = target === 'question-bank-smart' || (customTargetUrl && customTargetUrl.includes('smart'));
+  const targetUrl = customTargetUrl || (isSmart ? '/question-bank-smart' : '/job-solution');
+  const targetLabel = customTargetLabel || (isSmart ? `পরীক্ষা নির্বাচন করুন (${targetUrl})` : `পরীক্ষা নির্বাচন করুন (${targetUrl})`);
   
   const displayTitle = title || 'একটি পরীক্ষা নির্বাচন করুন';
   const displayDesc = description || (

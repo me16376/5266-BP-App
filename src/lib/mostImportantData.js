@@ -10,11 +10,29 @@ export async function getMostImportantCatalog() {
     const res = await fetch('/data/most_important_index.json');
     if (!res.ok) throw new Error('Failed to fetch Most Important catalog: ' + res.status);
     const data = await res.json();
-    cachedCatalog = data;
-    return data;
+    
+    // Filter out empty/dummy entries like summary.json with question_count === 0
+    const validSubjects = (data.subjects || []).filter(
+      s => s.question_count > 0 && s.id !== 'summary'
+    ).map(s => ({
+      ...s,
+      file: s.file_path,
+      clean_filename: `${s.title}.json`,
+      year: ''
+    }));
+
+    cachedCatalog = {
+      total_exams: validSubjects.length,
+      total_subjects: validSubjects.length,
+      total_questions: data.total_questions || validSubjects.reduce((sum, s) => sum + (s.question_count || 0), 0),
+      categories: data.categories || [],
+      exams: validSubjects,
+      subjects: validSubjects
+    };
+    return cachedCatalog;
   } catch (err) {
     console.error('getMostImportantCatalog error:', err);
-    return { total_subjects: 0, total_questions: 0, categories: [], subjects: [] };
+    return { total_exams: 0, total_subjects: 0, total_questions: 0, categories: [], exams: [], subjects: [] };
   }
 }
 
@@ -25,35 +43,100 @@ export function cleanMostImportantTitle(title) {
     .trim();
 }
 
-export async function getMostImportantBySlug(slug) {
-  if (!slug) return null;
+export async function getMostImportantBySlug(slugOrId) {
+  if (!slugOrId) return null;
   const catalog = await getMostImportantCatalog();
-  const normalized = slug.toLowerCase().trim();
-  return catalog.subjects.find(
-    s => s.slug.toLowerCase() === normalized || s.id.toLowerCase() === normalized
-  ) || null;
+  const normalized = String(slugOrId).toLowerCase().trim();
+  const decoded = decodeURIComponent(normalized);
+
+  const found = catalog.exams.find(
+    s => s.slug.toLowerCase() === normalized || 
+         s.slug.toLowerCase() === decoded ||
+         s.id.toLowerCase() === normalized ||
+         s.id.toLowerCase() === decoded ||
+         s.title.toLowerCase() === normalized ||
+         s.title.toLowerCase() === decoded
+  );
+
+  if (found) {
+    return {
+      ...found,
+      title: cleanMostImportantTitle(found.title)
+    };
+  }
+  return null;
 }
 
-export async function loadMostImportantQuestions(subjectSlug) {
-  if (!subjectSlug) return [];
-  const normalized = subjectSlug.toLowerCase().trim();
+export async function loadMostImportantQuestions(slugOrId) {
+  if (!slugOrId) return { exam: null, questions: [] };
+  const normalized = String(slugOrId).toLowerCase().trim();
+
+  // Find metadata in catalog
+  const subjectMeta = await getMostImportantBySlug(slugOrId);
 
   if (questionsCache.has(normalized)) {
-    return questionsCache.get(normalized);
+    return {
+      exam: subjectMeta || { title: 'Most Important Questions', question_count: questionsCache.get(normalized).length },
+      questions: questionsCache.get(normalized)
+    };
   }
 
-  const subject = await getMostImportantBySlug(normalized);
-  const filePath = subject ? subject.file_path : `/data/most-important-questions/${normalized}.json`;
+  const filePath = subjectMeta ? (subjectMeta.file_path || subjectMeta.file) : `/data/most-important-questions/${normalized}.json`;
 
   try {
-    const res = await fetch(filePath);
+    let res = await fetch(encodeURI(filePath));
+    if (!res.ok) res = await fetch(filePath);
     if (!res.ok) throw new Error('Failed to load questions from ' + filePath);
-    const data = await res.json();
-    const questions = Array.isArray(data) ? data : (data.questions || []);
+    
+    const text = await res.text();
+    const cleanText = text.charCodeAt(0) === 0xFEFF ? text.slice(1) : text;
+    const data = JSON.parse(cleanText);
+    const rawList = Array.isArray(data) ? data : (data.questions || []);
+
+    const bnAnsToIdx = { 'ক': 0, 'খ': 1, 'গ': 2, 'ঘ': 3 };
+    const questions = rawList.map((item, idx) => {
+      const opts = Array.isArray(item.options) ? item.options.map(o => String(o).trim()) : [];
+      let ansIdx = typeof item.ans === 'number' ? item.ans : -1;
+      if (ansIdx < 0 || ansIdx >= opts.length) {
+        const rawAns = String(item.answer || '').trim();
+        if (bnAnsToIdx[rawAns] !== undefined) {
+          ansIdx = bnAnsToIdx[rawAns];
+        } else if (item.correct_answer !== undefined) {
+          const ansStr = String(item.correct_answer).trim();
+          ansIdx = opts.findIndex(o => o === ansStr);
+        }
+      }
+      if (ansIdx < 0) ansIdx = 0;
+
+      const correctAns = opts[ansIdx] || item.correct_answer || '';
+
+      return {
+        id: item.id || (idx + 1),
+        question: item.question || item.q || '',
+        question_text: item.question || item.q || '',
+        options: opts,
+        ans: ansIdx,
+        answer: item.answer || (['ক', 'খ', 'গ', 'ঘ'][ansIdx] || 'ক'),
+        correct_answer: correctAns,
+        explanation: item.explanation || '',
+        hints: item.hints || item.hint || '',
+        subject: item.subject || subjectMeta?.title || 'সাধারণ জ্ঞান',
+        category: item.category || subjectMeta?.category_name || '',
+        exam: item.exam || subjectMeta?.title || '',
+        repeated_count: item.repeated_count || 0
+      };
+    });
+
     questionsCache.set(normalized, questions);
-    return questions;
+    return {
+      exam: subjectMeta || { title: 'Most Important Questions', question_count: questions.length },
+      questions
+    };
   } catch (err) {
     console.error('loadMostImportantQuestions error:', err);
-    return [];
+    return {
+      exam: subjectMeta || { title: 'Most Important Questions', question_count: 0 },
+      questions: []
+    };
   }
 }
