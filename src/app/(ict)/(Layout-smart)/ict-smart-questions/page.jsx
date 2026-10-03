@@ -59,8 +59,8 @@ function IctSmartQuestionsContent() {
       getIctChapterBySlug(chapterSlug),
       loadIctQuestions(chapterSlug)
     ]).then(([meta, qs]) => {
-      setChapterData(meta);
-      setQuestions(qs || []);
+      setChapterData(meta || qs?.exam || null);
+      setQuestions(Array.isArray(qs?.questions) ? qs.questions : (Array.isArray(qs) ? qs : []));
       setLoading(false);
     }).catch(err => {
       console.error('Error loading smart questions:', err);

@@ -172,6 +172,7 @@ export async function loadIctQuestions(slugOrId) {
             answer: item.answer || (['ক', 'খ', 'গ', 'ঘ'][ansIdx] || 'ক'),
             correct_answer: correctAns,
             explanation: item.explanation || '',
+            hints: item.hints || item.hint || '',
             subject: item.subject || examMeta.category_name || 'ICT',
             category: item.category || examMeta.category_name || 'ICT',
             exam: item.exam || examMeta.title || 'সকল অধ্যায়'
