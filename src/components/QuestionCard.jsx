@@ -446,27 +446,41 @@ export default function QuestionCard({
             </div>
           )}
 
-          {question.hints && (
-            <div style={{
-              marginTop: '14px',
-              padding: '14px 16px',
-              borderRadius: '8px',
-              background: '#fffbeb',
-              border: '1px solid #fde68a',
-              color: '#92400e'
-            }}>
-              <div style={{ fontWeight: 700, marginBottom: '6px' }}>
-                <span>স্পেশাল নোট ও শর্টকাট (Hints):</span>
-              </div>
+          {(() => {
+            const rawHint = question.hints?.replace(/^(?:[\u{1F000}-\u{1FAFF}\u{2600}-\u{26FF}\u{2300}-\u{23FF}\u{2700}-\u{27BF}\u{2B50}-\u{2B55}\uFE0E\uFE0F\u200D\s])+/u, '').trim();
+            if (!rawHint) return null;
+
+            // UI Safeguard: Do not display duplicate or truncated substring of explanation
+            const cleanExp = (question.explanation || '').trim();
+            if (cleanExp) {
+              const strippedHint = rawHint.replace(/\.\.\.$/, '').trim();
+              if (rawHint === cleanExp || cleanExp === strippedHint || (strippedHint.length > 15 && cleanExp.startsWith(strippedHint))) {
+                return null;
+              }
+            }
+
+            return (
               <div style={{
-                lineHeight: '1.8',
-                fontSize: '0.98rem',
-                fontFamily: 'var(--font-kalpurush)'
+                marginTop: '14px',
+                padding: '14px 16px',
+                borderRadius: '8px',
+                background: '#fffbeb',
+                border: '1px solid #fde68a',
+                color: '#92400e'
               }}>
-                <FormattedContent content={question.hints.replace(/^(?:[\u{1F000}-\u{1FAFF}\u{2600}-\u{26FF}\u{2300}-\u{23FF}\u{2700}-\u{27BF}\u{2B50}-\u{2B55}\uFE0E\uFE0F\u200D\s])+/u, '').trim()} />
+                <div style={{ fontWeight: 700, marginBottom: '6px' }}>
+                  <span>স্পেশাল নোট ও শর্টকাট (Hints):</span>
+                </div>
+                <div style={{
+                  lineHeight: '1.8',
+                  fontSize: '0.98rem',
+                  fontFamily: 'var(--font-kalpurush)'
+                }}>
+                  <FormattedContent content={rawHint} />
+                </div>
               </div>
-            </div>
-          )}
+            );
+          })()}
         </div>
       )}
     </div>
