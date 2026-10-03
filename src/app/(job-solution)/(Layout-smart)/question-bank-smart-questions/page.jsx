@@ -180,7 +180,7 @@ const DEFAULT_PRESET_PROFILES = {
     optionLetter: 'bangla',
     questionStyle: 'nostyle',
     highlightMode: 'both',
-    highlightColor: 'with-icons',
+    highlightColor: 'full-bg',
     explanationMode: 'on-wrong',
     showExplanation: true,
     cutMark: 0.5,
@@ -260,7 +260,13 @@ function QuestionBankSmartQuestionsContent() {
     if (typeof window !== 'undefined') {
       try {
         const raw = localStorage.getItem('topmcqbd_preset_profiles');
-        if (raw) return JSON.parse(raw);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          if (parsed && parsed.custom && (parsed.custom.highlightColor === 'with-icons' || !parsed.custom.highlightColor)) {
+            parsed.custom.highlightColor = 'full-bg';
+          }
+          return parsed;
+        }
       } catch (e) {}
     }
     return DEFAULT_PRESET_PROFILES;
@@ -275,7 +281,7 @@ function QuestionBankSmartQuestionsContent() {
   const [customGapInput, setCustomGapInput] = useState('');
   const [questionStyle, setQuestionStyle] = useState('nostyle');
   const [highlightMode, setHighlightMode] = useState('both');
-  const [highlightColor, setHighlightColor] = useState('with-icons');
+  const [highlightColor, setHighlightColor] = useState('full-bg');
   const [showAnswer, setShowAnswer] = useState(true);
   const [answerMode, setAnswerMode] = useState('on-wrong');
   const [showExplanation, setShowExplanation] = useState(true);
@@ -290,7 +296,7 @@ function QuestionBankSmartQuestionsContent() {
   const [fontWeight, setFontWeight] = useState('regular');
 
   // Top Bar Controls
-  const [showAskAi, setShowAskAi] = useState(true);
+  const [showAskAi, setShowAskAi] = useState(false);
   const [showTime, setShowTime] = useState(initialModeParam === 'exam');
   const [showScore, setShowScore] = useState(true);
   const [limit, setLimit] = useState('200');
@@ -403,7 +409,7 @@ function QuestionBankSmartQuestionsContent() {
                 ans: ansIdx >= 0 ? ansIdx : 0,
                 explanation: expText,
                 subject: item.subject || '',
-                exam: item.exam || res.exam?.title || ''
+                exam: cleanExamTitle(item.exam) || cleanExamTitle(res.exam?.title) || ''
               };
             });
 
@@ -468,7 +474,7 @@ function QuestionBankSmartQuestionsContent() {
     setOptionLetter(profile.optionLetter || 'bangla');
     setQuestionStyle(profile.questionStyle || 'dotted');
     setHighlightMode(profile.highlightMode || 'single');
-    setHighlightColor(profile.highlightColor || 'highlight-and-circle');
+    setHighlightColor(profile.highlightColor || 'full-bg');
     setExplanationMode(profile.explanationMode || 'on-select');
     setShowExplanation(profile.showExplanation);
     setCutMark(profile.cutMark !== undefined ? profile.cutMark : 0.5);
@@ -832,7 +838,7 @@ function QuestionBankSmartQuestionsContent() {
           question: clean(q.q),
           options: (q.options || []).map(clean),
           subject: q.subject || '',
-          exam: q.exam || examMeta?.title || cleanExamTitle(examSlug)
+          exam: cleanExamTitle(q.exam || examMeta?.title || examSlug)
         }
       }, '*');
 
@@ -1056,17 +1062,21 @@ function QuestionBankSmartQuestionsContent() {
     const shouldShow = activeMode === 'read' || isAnswered || isReviewWrongMode;
 
     let isAnswerVisible = false;
-    if (showAnswer) {
+    if (activeMode === 'read') {
+      isAnswerVisible = showAnswer !== false;
+    } else if (showAnswer) {
       if (answerMode === 'on-select') isAnswerVisible = shouldShow;
-      else if (answerMode === 'on-button') isAnswerVisible = activeMode === 'read' || !!expandedAnswers[qKey];
+      else if (answerMode === 'on-button') isAnswerVisible = !!expandedAnswers[qKey];
       else if (answerMode === 'on-wrong') {
-        if (isReviewWrongMode || isRetakeWrongMode || activeMode === 'read') isAnswerVisible = true;
+        if (isReviewWrongMode || isRetakeWrongMode) isAnswerVisible = true;
         else if (isAnswered && chosen !== q.ans) isAnswerVisible = true;
       }
     }
 
     let isExplanationVisible = false;
-    if (showExplanation && q.explanation) {
+    if (activeMode === 'read') {
+      isExplanationVisible = (showExplanation !== false) && !!q.explanation;
+    } else if (showExplanation && q.explanation) {
       if (explanationMode === 'on-select') isExplanationVisible = shouldShow;
       else if (explanationMode === 'on-button') isExplanationVisible = !!expandedExplanations[qKey];
       else if (explanationMode === 'on-wrong') {
@@ -1085,8 +1095,8 @@ function QuestionBankSmartQuestionsContent() {
       ? 'style-nostyle'
       : '';
 
-    const showAnsBtn = showAnswer && answerMode === 'on-button';
-    const showExpBtn = showExplanation && explanationMode === 'on-button' && q.explanation;
+    const showAnsBtn = activeMode !== 'read' && showAnswer && answerMode === 'on-button';
+    const showExpBtn = activeMode !== 'read' && showExplanation && explanationMode === 'on-button' && q.explanation;
 
     return (
       <div
@@ -1715,6 +1725,8 @@ function QuestionBankSmartQuestionsContent() {
               id="btnModeRead"
               onClick={() => {
                 setActiveMode('read');
+                setShowAnswer(true);
+                setShowExplanation(true);
               }}
               title="পড়ুন মোড"
             >
@@ -1860,12 +1872,6 @@ function QuestionBankSmartQuestionsContent() {
             <span id="breadcrumbCategory">{categoryInfo.label || examMeta?.category_name || 'সকল প্রশ্নব্যাংক'}</span>
           </div>
           <div className="quiz-header-right-actions">
-            {allocatedMinutes > 0 && (
-              <div className="quiz-negative-mark-note" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                <i className="fa-regular fa-clock" style={{ color: '#0284c7' }}></i>
-                <span>সময়: {allocatedMinutes >= 60 ? (allocatedMinutes % 60 === 0 ? `${toBengaliNumber(allocatedMinutes / 60)} ঘণ্টা` : `${toBengaliNumber(Math.floor(allocatedMinutes / 60))} ঘণ্টা ${toBengaliNumber(allocatedMinutes % 60)} মিনিট`) : `${toBengaliNumber(allocatedMinutes)} মিনিট`}</span>
-              </div>
-            )}
             <div className="quiz-negative-mark-note">
               <i className="fa-solid fa-bell"></i>
               <span id="negativeMarkNote">

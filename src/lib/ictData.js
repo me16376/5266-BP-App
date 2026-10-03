@@ -25,7 +25,10 @@ export async function getIctCatalog() {
 
 export function cleanIctTitle(title) {
   if (!title || typeof title !== 'string') return '';
-  return title.trim();
+  return title
+    .replace(/^[০-৯0-9]+[@_]\s*/, '')
+    .replace(/\.json$/i, '')
+    .trim();
 }
 
 export async function getIctBySlug(slugOrId) {

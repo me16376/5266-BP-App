@@ -41,4 +41,6 @@ Allows the owner to get instant, unlimited, and detailed MCQ explanations using 
 2. **Preserve Iframe & Header Bypass**: Never remove or alter the declarative net request security bypass rules in `rules.json` and `manifest.json`.
 3. **Data Path Consistency**: Any exam JSON files must be referenced from `/data/job-solution/`.
 4. **Auto-Sync 5266-AI-extension**: Whenever any code, page, route, component, or data format is changed in the website project, IMMEDIATELY verify whether `5266-AI-extension` requires corresponding updates (e.g., MCQ payload, `window.postMessage` listeners, allowed hosts, selectors, prompt formatting) and update the extension code and documentation synchronously.
+5. **Always Run `npm run dev` After Coding**: Every time you finish coding, editing, or making changes, you MUST ensure `npm run dev` is executed and running without errors. Always keep the dev server fresh and verified.
+6. **Never Auto Git Push**: Never run `git push` autonomously. Only push to Git when explicitly requested by the user ("nije nije git push dibe na").
 

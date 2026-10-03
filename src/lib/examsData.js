@@ -25,7 +25,10 @@ export async function getExamsCatalog() {
 
 export function cleanExamTitle(title) {
   if (!title || typeof title !== 'string') return '';
-  return title.replace(/^[০-৯0-9]+\s*_\s*/, '').trim();
+  return title
+    .replace(/^[০-৯0-9]+[@_]\s*/, '')
+    .replace(/\.json$/i, '')
+    .trim();
 }
 
 export async function getExamBySlug(slugOrId) {
@@ -61,7 +64,13 @@ export async function getExamBySlug(slugOrId) {
 
   // 5. Clean filename match
   if (!exam) {
-    exam = catalog.exams.find(e => e.clean_filename && e.clean_filename.toLowerCase() === searchLower);
+    exam = catalog.exams.find(e => 
+      e.clean_filename && (
+        e.clean_filename.toLowerCase() === searchLower ||
+        cleanExamTitle(e.clean_filename).toLowerCase() === searchClean ||
+        e.clean_filename.toLowerCase() === `${searchClean}.json`
+      )
+    );
   }
 
   // 6. Hyphen <-> Space flexible match
@@ -112,6 +121,17 @@ export async function loadExamQuestions(slugOrId) {
       let res = await fetch(encodeURI(targetFile));
       if (!res.ok) {
         res = await fetch(targetFile);
+      }
+      if (!res.ok && targetFile.includes('/')) {
+        const parts = targetFile.split('/');
+        const fileName = parts.pop();
+        const dirPath = parts.join('/');
+        const cleanName = cleanExamTitle(fileName) + (fileName.endsWith('.json') ? '.json' : '');
+        if (cleanName !== fileName) {
+          const fallbackPath = `${dirPath}/${cleanName}`;
+          res = await fetch(encodeURI(fallbackPath));
+          if (!res.ok) res = await fetch(fallbackPath);
+        }
       }
       if (res.ok) {
         const text = await res.text();

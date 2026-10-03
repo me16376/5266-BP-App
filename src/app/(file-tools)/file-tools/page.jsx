@@ -1,5 +1,14 @@
-import { redirect } from 'next/navigation';
+'use client';
+
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function FileToolsIndexPage() {
-  redirect('/file-exam');
+  const router = useRouter();
+  useEffect(() => {
+    router.replace('/file-exam');
+  }, [router]);
+
+  return null;
 }
+

@@ -39,6 +39,7 @@ export async function getMostImportantCatalog() {
 export function cleanMostImportantTitle(title) {
   if (!title) return '';
   return title
+    .replace(/^[০-৯0-9]+[@_]\s*/, '')
     .replace(/\.json$/i, '')
     .trim();
 }
