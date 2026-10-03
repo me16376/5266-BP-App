@@ -9,12 +9,13 @@
       "Tk. 10123.20"
     ],
     "correct_answer": "Tk. 10123.20",
-    "explanation": "",
-    "hints": "",
+    "explanation": "চক্রবৃদ্ধি সুদ-আসল A = P(১ + r/১০০)ⁿ\n= ২৫০০০(১ + ১২/১০০)³ = ২৫০০০(১.১২)³ = ২৫০০০ × ১.৪০৪৯২৮ = ৩৫,১২৩.২০ টাকা।\nচক্রবৃদ্ধি সুদ = ৩৫১২৩.২০ - ২৫০০০ = ১০,১২৩.২০ টাকা।",
+    "hints": "📐 CI = ২৫০০০ × [(১.১২)³ - ১] = ১০,১২৩.২০ টাকা।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Tk. 10123.20"
   },
   {
     "id": 195423,
@@ -26,12 +27,13 @@
       "5:2"
     ],
     "correct_answer": "5:2",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১০% of B = (১/৪) of G\n=> ০.১০ B = ০.২৫ G\n=> B / G = ০.২৫ / ০.১০ = ৫ / ২।\nবালক ও বালিকার অনুপাত = ৫ : ২।",
+    "hints": "📐 ০.১ B = ০.২৫ G => B : G = ৫ : ২।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "5:2"
   },
   {
     "id": 195424,
@@ -43,12 +45,13 @@
       "11 1/5"
     ],
     "correct_answer": "10",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি সংখ্যাটি x।\n(x - ৪) / ৬ = ৮ => x - ৪ = ৪৮ => x = ৫২।\nসংখ্যাটি থেকে ২ বিয়োগ করে ৫ দ্বারা ভাগ করলে ফল হবে = (৫২ - ২) / ৫ = ৫০ / ৫ = ১০।",
+    "hints": "📐 x = ৪৮ + ৪ = ৫২; (৫২ - ২) / ৫ = ১০।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "10"
   },
   {
     "id": 195425,
@@ -60,12 +63,13 @@
       "28"
     ],
     "correct_answer": "20",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি বড় টুকরোটির দৈর্ঘ্য x এবং ছোট টুকরোটির দৈর্ঘ্য (২/৫)x।\nx + (২/৫)x = ৭০\n=> (৭/৫)x = ৭০ => x = ৫০ সেমি।\nছোট টুকরোটির দৈর্ঘ্য = ৭০ - ৫০ = ২০ সেমি।",
+    "hints": "📐 ছোট টুকরো = ৭০ × (২ / ৭) = ২০ সেমি।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "20"
   },
   {
     "id": 195426,
@@ -77,12 +81,13 @@
       "185"
     ],
     "correct_answer": "111",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সংখ্যা দুটির গ.সা.গু ৩৭ হলে সংখ্যা দুটি ৩৭a এবং ৩৭b।\n৩৭a × ৩৭b = ৪১০৭ => ১৩৬৯ ab = ৪১০৭ => ab = ৩।\nযেহেতু a ও b সহমৌলিক, a = ৩ এবং b = ১।\nবৃহত্তর সংখ্যাটি = ৩৭ × ৩ = ১১১।",
+    "hints": "📐 ab = ৪১০৭ / (৩৭ × ৩৭) = ৩; বড় সংখ্যা = ৩৭ × ৩ = ১১১।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "111"
   },
   {
     "id": 195427,
@@ -94,12 +99,13 @@
       "None of these"
     ],
     "correct_answer": "2:3",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সরল সুদের অনুপাত = (P × ৬ × R / ১০০) : (P × ৯ × R / ১০০) = ৬ : ৯ = ২ : ৩।",
+    "hints": "📐 সুদের অনুপাত = ৬ : ৯ = ২ : ৩।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "2:3"
   },
   {
     "id": 195428,
@@ -111,12 +117,13 @@
       "none of these"
     ],
     "correct_answer": "2x=y+z",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৬টি সংখ্যার মোট সমষ্টি = ৬x।\nপ্রথম ৩টির সমষ্টি = ৩y এবং বাকি ৩টির সমষ্টি = ৩z।\n৬x = ৩y + ৩z => ৬x = ৩(y + z) => ২x = y + z।",
+    "hints": "📐 ৬x = ৩(y + z) => ২x = y + z।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "2x=y+z"
   },
   {
     "id": 195429,
@@ -128,12 +135,13 @@
       "7:5"
     ],
     "correct_answer": "7:3",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মিশ্রণ পদ্ধতি (Alligation):\nঅনুপাত = (২০ - ১৬.৫০) : (১৬.৫০ - ১৫) = ৩.৫০ : ১.৫০ = ৭ : ৩।",
+    "hints": "📐 অনুপাত = (২০ - ১৬.৫) : (১৬.৫ - ১৫) = ৭ : ৩।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "7:3"
   },
   {
     "id": 195430,
@@ -145,12 +153,13 @@
       "56 sec"
     ],
     "correct_answer": "56 sec",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বর্গাকার মাঠের পরিসীমা = ৪ × ৩৫ = ১৪০ মিটার।\nগতিবেগ = ৯ কিমি/ঘণ্টা = ৯ × (৫/১৮) = ২.৫ মিটার/সেকেন্ড।\nপ্রয়োজনীয় সময় = ১৪০ / ২.৫ = ৫৬ সেকেন্ড।",
+    "hints": "📐 সময় = ১৪০ / (৯ × ৫/১৮) = ৫৬ সেকেন্ড।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "56 sec"
   },
   {
     "id": 195431,
@@ -162,12 +171,13 @@
       "10045"
     ],
     "correct_answer": "10004",
-    "explanation": "",
-    "hints": "",
+    "explanation": "পাঁচ অঙ্কের ক্ষুদ্রতম সংখ্যাটি হলো ১০০০০।\n১০০০০-কে ৪১ দ্বারা ভাগ করলে ভাগশেষ থাকে ৩৭।\nনিঃশেষে বিভাজ্য ক্ষুদ্রতম সংখ্যা = ১০০০০ + (৪১ - ৩৭) = ১০০০০ + ৪ = ১০০০৪।",
+    "hints": "📐 ক্ষুদ্রতম সংখ্যা = ১০০০০ + (৪১ - ৩৭) = ১০০০৪।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "10004"
   },
   {
     "id": 195432,
@@ -179,12 +189,13 @@
       "Tk. 220"
     ],
     "correct_answer": "Tk. 160",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সময়ের অনুপাত = ৭ : ৮ : ১১। অনুপাতের সমষ্টি = ৭ + ৮ + ১১ = ২৬।\nB কর্তৃক প্রদেয় ভাড়া = ৫২০ × (৮ / ২৬) = ২০ × ৮ = ১৬০ টাকা।",
+    "hints": "📐 B-এর ভাড়া = ৫২০ × (৮ / ২৬) = ১৬০ টাকা।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Tk. 160"
   },
   {
     "id": 195433,
@@ -196,12 +207,13 @@
       "803"
     ],
     "correct_answer": "253",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২৫০² = ৬২৫০০।\n২৫৩² = (২৫০ + ৩)² = ৬২৫০০ + ১৫০০ + ৯ = ৬৪০০৯।\nসুতরাং ৬৪০০৯ এর বর্গমূল হলো ২৫৩।",
+    "hints": "📐 ২৫৩² = ৬৪০০৯।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "253"
   },
   {
     "id": 195434,
@@ -213,12 +225,13 @@
       "2000"
     ],
     "correct_answer": "700",
-    "explanation": "",
-    "hints": "",
+    "explanation": "শতাব্দী বছর ৪০০ দ্বারা নিঃশেষে বিভাজ্য না হলে তা অধিবর্ষ নয়। ৭০০ সংখ্যাটি ৪০০ দ্বারা বিভাজ্য নয়, তাই এটি অধিবর্ষ নয়।",
+    "hints": "💡 ৭০০ সাল অধিবর্ষ নয় (৪০০ দ্বারা অবিভাজ্য)।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "700"
   },
   {
     "id": 195435,
@@ -230,12 +243,13 @@
       "13:9"
     ],
     "correct_answer": "2:1",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি পিতা ও পুত্রের বয়স ৭x ও ৩x।\n৭x × ৩x = ৭৫৬ => ২১x² = ৭৫৬ => x² = ৩৬ => x = ৬।\nপিতার বর্তমান বয়স = ৪২ বছর, পুত্রের বয়স = ১৮ বছর।\n৬ বছর পর তাদের বয়স হবে ৪৮ ও ২৪ বছর।\nঅনুপাত হবে ৪৮ : ২৪ = ২ : ১।",
+    "hints": "📐 ৬ বছর পর বয়স ৪৮ ও ২৪ বছর; অনুপাত ২ : ১।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "2:1"
   },
   {
     "id": 195436,
@@ -247,12 +261,13 @@
       "5.5"
     ],
     "correct_answer": "5",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১ম ঘণ্টায় A পূর্ণ করে ১/৬ অংশ, ২য় ঘণ্টায় B পূর্ণ করে ১/৪ অংশ।\n২ ঘণ্টায় পূর্ণ হয় = ১/৬ + ১/৪ = ৫/১২ অংশ।\n৪ ঘণ্টায় পূর্ণ হয় = ২ × (৫/১২) = ১০/১২ = ৫/৬ অংশ।\nবাকি থাকে = ১ - ৫/৬ = ১/৬ অংশ, যা ৫ম ঘণ্টায় A একা পূর্ণ করে ১ ঘণ্টায়।\nট্যাঙ্ক পূর্ণ হতে মোট সময় লাগবে = ৪ + ১ = ৫ ঘণ্টা।",
+    "hints": "📐 ৪ ঘণ্টায় পূর্ণ হয় ৫/৬ অংশ; ৫ম ঘণ্টায় A বাকি অংশ পূর্ণ করে; মোট সময় ৫ ঘণ্টা।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "5"
   },
   {
     "id": 195437,
@@ -264,12 +279,13 @@
       "50"
     ],
     "correct_answer": "30",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১২০ জন পুরুষ = ২০০ জন শিশু => ১ জন শিশু = ১২০/২০০ = ৩/৫ জন পুরুষ।\nখাবার বাকি আছে = ২০০ - ১৫০ = ৫০ জন শিশুর।\n৫০ জন শিশুর খাবার গ্রহণ করতে পারবে = ৫০ × (৩/৫) = ৩০ জন পুরুষ।",
+    "hints": "📐 বাকি ৫০ শিশুর খাবার = ৫০ × (১২০/২০০) = ৩০ জন পুরুষ।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "30"
   },
   {
     "id": 195438,
@@ -281,12 +297,13 @@
       "10000"
     ],
     "correct_answer": "1000",
-    "explanation": "",
-    "hints": "",
+    "explanation": "(১০০০)⁷ ÷ ১০¹⁸\n= (১০³)⁷ ÷ ১০¹⁸ = ১০²¹ ÷ ১০¹⁸ = ১০^(২১ - ১৮) = ১০³ = ১০০০।",
+    "hints": "📐 ১০²¹ ÷ ১০¹⁸ = ১০³ = ১০০০।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "1000"
   },
   {
     "id": 195439,
@@ -298,12 +315,13 @@
       "None of these"
     ],
     "correct_answer": "33 sec",
-    "explanation": "",
-    "hints": "",
+    "explanation": "B ৭ সেকেন্ডে যায় ৩৫ মিটার => B-এর গতিবেগ = ৩৫ / ৭ = ৫ মিটার/সেকেন্ড।\n২০০ মিটার দৌড়াতে B-এর সময় লাগে = ২০০ / ৫ = ৪০ সেকেন্ড।\nযেহেতু A, B-কে ৭ সেকেন্ডে হারায়, তাই A-এর সময় = ৪০ - ৭ = ৩৩ সেকেন্ড।",
+    "hints": "📐 A-এর সময় = (২০০ / ৫) - ৭ = ৪০ - ৭ = ৩৩ সেকেন্ড।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "33 sec"
   },
   {
     "id": 195440,
@@ -315,12 +333,13 @@
       "None of these"
     ],
     "correct_answer": "629.6357",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৬১৭ + ৬.০১৭ + ০.৬১৭ + ৬.০০১৭ = ৬২৯.৬৩৫৭।",
+    "hints": "📐 যোগফল = ৬২৯.৬৩৫৭।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "629.6357"
   },
   {
     "id": 195441,
@@ -332,12 +351,13 @@
       "32"
     ],
     "correct_answer": "16",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৪০ এর ১৫% = ৪০ × ০.১৫ = ৬।\nপ্রশ্নমতে, ৬ - ২৫% of x = ২\n=> ০.২৫x = ৪ => x = ৪ / ০.২৫ = ১৬।",
+    "hints": "📐 ০.২৫x = ৬ - ২ = ৪ => x = ১৬।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "16"
   },
   {
     "id": 195442,
@@ -349,12 +369,13 @@
       "2/7"
     ],
     "correct_answer": "1/6",
-    "explanation": "",
-    "hints": "",
+    "explanation": "A একা করে ১৮ দিনে, B করে অর্ধেক সময় অর্থাৎ ৯ দিনে।\nএকত্রে ১ দিনে করবে = ১/১৮ + ১/৯ = (১ + ২)/১৮ = ৩/১৮ = ১/৬ অংশ।",
+    "hints": "📐 ১ দিনে করবে = ১/১৮ + ১/৯ = ১/৬ অংশ।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "1/6"
   },
   {
     "id": 195443,
@@ -366,12 +387,13 @@
       "135 degree"
     ],
     "correct_answer": "130 degree",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৩টা ৪০ মিনিটে কোণ = |৩০H - (১১/২)M|\n= |৩০ × ৩ - ৫.৫ × ৪০| = |৯০ - ২২০| = ১৩০°।",
+    "hints": "📐 কোণ = |৯০ - ২২০| = ১৩০°।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "130 degree"
   },
   {
     "id": 195444,
@@ -383,12 +405,13 @@
       "30m"
     ],
     "correct_answer": "30m",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি প্রস্থ B এবং দৈর্ঘ্য B + ৫।\nB(B + ৫) = ৭৫০\n=> B² + ৫B - ৭৫০ = ০\n=> (B + ৩০)(B - ২৫) = ০ => B = ২৫ মিটার।\nঅতএব দৈর্ঘ্য = ২৫ + ৫ = ৩০ মিটার।",
+    "hints": "📐 দৈর্ঘ্য ৩০ মি ও প্রস্থ ২৫ মি (৩০ × ২৫ = ৭৫০)।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "30m"
   },
   {
     "id": 195445,
@@ -400,12 +423,13 @@
       "35.51"
     ],
     "correct_answer": "35.51",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২% ক্ষতিতে বিক্রয়মূল্য ৯৮% = ৩৪.৮০ টাকা।\nক্রয়মূল্য = ৩৪.৮০ / ০.৯৮ = ৩৫.৫১ টাকা।",
+    "hints": "📐 ক্রয়মূল্য = ৩৪.৮০ / ০.৯৮ = ৩৫.৫১ টাকা।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "35.51"
   },
   {
     "id": 195446,
@@ -417,12 +441,13 @@
       "A writer"
     ],
     "correct_answer": "An architect",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বিশ্ববিখ্যাত শিকাগোর সিয়ার্স টাওয়ারের নকশাকার ড. ফজলুর রহমান খান (এফ আর খান) ছিলেন একজন আন্তর্জাতিক খ্যাতিসম্পন্ন বাংলাদেশি স্থপতি ও স্ট্রাকচারাল ইঞ্জিনিয়ার (Architect)।",
+    "hints": "📌 এফ আর খান ছিলেন প্রখ্যাত স্থপতি ও প্রকৌশলী।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "An architect"
   },
   {
     "id": 195447,
@@ -434,12 +459,13 @@
       "Fourth World Nations"
     ],
     "correct_answer": "Third World Nations",
-    "explanation": "",
-    "hints": "",
+    "explanation": "জি-১৫ (G-15) হলো উন্নয়নশীল ও অনুন্নত তৃতীয় বিশ্বের দেশগুলোর (Third World Nations) একটি শীর্ষ অর্থনৈতিক ও রাজনৈতিক সহযোগিতা জোট।",
+    "hints": "📌 G-15 = তৃতীয় বিশ্বের দেশগুলোর অর্থনৈতিক জোট।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Third World Nations"
   },
   {
     "id": 195448,
@@ -451,12 +477,13 @@
       "China and Greek"
     ],
     "correct_answer": "China and Britain",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৮৩৯ থেকে ১৮৪২ সাল পর্যন্ত আফিম যুদ্ধ নামে পরিচিত প্রথম চীন যুদ্ধ সংঘটিত হয়েছিল চীন (কিং সাম্রাজ্য) এবং গ্রেট ব্রিটেনের মধ্যে।",
+    "hints": "📌 ১ম চীন যুদ্ধ (আফিম যুদ্ধ) = চীন ও ব্রিটেনের মধ্যে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "China and Britain"
   },
   {
     "id": 195449,
@@ -468,12 +495,13 @@
       "Volleyball"
     ],
     "correct_answer": "Football",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৮৮৮ সালে প্রতিষ্ঠিত ডুরান্ড কাপ (Durand Cup) এশিয়া মহাদেশের প্রাচীনতম এবং ঐতিহ্যবাহী ফুটবল টুর্নামেন্ট।",
+    "hints": "📌 ডুরান্ড কাপ যুক্ত = ফুটবল খেলার সাথে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Football"
   },
   {
     "id": 195450,
@@ -485,12 +513,13 @@
       "Chittagong"
     ],
     "correct_answer": "Lahore",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৯৬৬ সালের ৫-৬ ফেব্রুয়ারি লাহোরে অনুষ্ঠিত বিরোধী দলগুলোর সর্বদলীয় জাতীয় সম্মেলনে বঙ্গবন্ধু শেখ মুজিবুর রহমান বাঙালির মুক্তির সনদ ঐতিহাসিক ৬-দফা কর্মসূচি ঘোষণা করেন।",
+    "hints": "📌 ৬-দফা কর্মসূচি ঘোষিত হয় = লাহোরে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Lahore"
   },
   {
     "id": 195451,
@@ -502,12 +531,13 @@
       "All of them"
     ],
     "correct_answer": "All of them",
-    "explanation": "",
-    "hints": "",
+    "explanation": "নোবেল পুরস্কার মোট ৬টি ক্ষেত্রে প্রদান করা হয়: পদার্থবিজ্ঞান, রসায়ন, চিকিৎসাবিজ্ঞান, সাহিত্য, শান্তি এবং অর্থনীতি।",
+    "hints": "📌 নোবেল পুরস্কার চিকিৎসাবিজ্ঞান, বিজ্ঞান, সাহিত্য, শান্তি ও অর্থনীতিতে দেওয়া হয়।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "All of them"
   },
   {
     "id": 195452,
@@ -519,12 +549,13 @@
       "11"
     ],
     "correct_answer": "8",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৯৭১ সালের মহান মুক্তিযুদ্ধকালে মুজিবনগর (মেহেরপুর) ৮ নম্বর সেক্টরের আওতাধীন ছিল (সেক্টর কমান্ডার ছিলেন মেজর আবু ওসমান চৌধুরী ও মেজর এম এ মঞ্জুর)।",
+    "hints": "📌 মুক্তিযুদ্ধকালে মুজিবনগর ছিল = ৮ নম্বর সেক্টরে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "8"
   },
   {
     "id": 195453,
@@ -536,12 +567,13 @@
       "None of the above"
     ],
     "correct_answer": "Economic and Social Commission for Asia and Pacific",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ESCAP (প্রশ্নে EACAP উল্লেখিত)-এর পূর্ণরূপ হলো 'Economic and Social Commission for Asia and the Pacific', যা জাতিসংঘের একটি বিশেষায়িত কমিশন।",
+    "hints": "📌 ESCAP = Economic and Social Commission for Asia and Pacific।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Economic and Social Commission for Asia and Pacific"
   },
   {
     "id": 195454,
@@ -553,12 +585,13 @@
       "A.N.A. Saha"
     ],
     "correct_answer": "A.N.A. Saha",
-    "explanation": "",
-    "hints": "",
+    "explanation": "গণপ্রজাতন্ত্রী বাংলাদেশ সরকারের রাষ্ট্রীয় মনোগ্রাম বা প্রতীকের মূল ডিজাইনার হলেন শিল্পী এ এন এ সাহা (আবুল নাদের অমিয় সাহা)।",
+    "hints": "📌 বাংলাদেশ সরকারের অফিসিয়াল লোগোর ডিজাইনার = এ এন এ সাহা।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "A.N.A. Saha"
   },
   {
     "id": 195455,
@@ -570,12 +603,13 @@
       "Infrared radiation"
     ],
     "correct_answer": "Ultraviolet radiation",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বায়ুমণ্ডলের ওজোন স্তর (Ozone layer) সূর্য থেকে আগত ক্ষতিকর অতিবেগুনি রশ্মিকে (Ultraviolet radiation) শোষণ করে পৃথিবীতে পৌঁছাতে বাধা দেয়।",
+    "hints": "💡 ওজোন স্তর আটকে দেয় = অতিবেগুনি রশ্মি (UV Ray)।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Ultraviolet radiation"
   },
   {
     "id": 195456,
@@ -587,12 +621,13 @@
       "Jamuna Bank"
     ],
     "correct_answer": "Arab-Bangladesh Bank",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৯৮২ সালে প্রতিষ্ঠিত 'আরব-বাংলাদেশ ব্যাংক লিমিটেড' (বর্তমান এবি ব্যাংক) হলো বাংলাদেশের প্রথম বেসরকারি বাণিজ্যিক ব্যাংক।",
+    "hints": "📌 বাংলাদেশের ১ম বেসরকারি ব্যাংক = আরব-বাংলাদেশ ব্যাংক।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Arab-Bangladesh Bank"
   },
   {
     "id": 195457,
@@ -604,12 +639,13 @@
       "Australia"
     ],
     "correct_answer": "Africa",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৯৯৩ সালে স্বাধীনতা লাভ করে জাতিসংঘের ১৮২তম সদস্য হওয়া ইরিত্রিয়া (Eritrea) আফ্রিকা মহাদেশের উত্তর-পূর্ব প্রান্তে অবস্থিত।",
+    "hints": "📌 ইরিত্রিয়া অবস্থিত = আফ্রিকা মহাদেশে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Africa"
   },
   {
     "id": 195458,
@@ -621,12 +657,13 @@
       "Ocean depth"
     ],
     "correct_answer": "Ocean depth",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ফ্যাথোমিটার (Fathometer) একটি অ্যাকোস্টিক যন্ত্র, যা সমুদ্র বা গভীর জলাশয়ের গভীরতা (Ocean depth) পরিমাপ করতে ব্যবহৃত হয়।",
+    "hints": "💡 সমুদ্রের গভীরতা পরিমাপক যন্ত্র = ফ্যাথোমিটার।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Ocean depth"
   },
   {
     "id": 195459,
@@ -638,12 +675,13 @@
       "Five times"
     ],
     "correct_answer": "Five times",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বিশ্বকাপ ফুটবলের ইতিহাসে ব্রাজিল সর্বোচ্চ ৫ বার (১৯৫৮, ১৯৬২, ১৯৭০, ১৯৯৪ ও ২০০২ সালে) বিশ্বকাপ চ্যাম্পিয়ন হয়েছে।",
+    "hints": "📌 ব্রাজিল বিশ্বকাপ জিতেছে = ৫ বার।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Five times"
   },
   {
     "id": 195460,
@@ -655,12 +693,13 @@
       "June 18"
     ],
     "correct_answer": "May 8",
-    "explanation": "",
-    "hints": "",
+    "explanation": "রেড ক্রসের প্রতিষ্ঠাতা জঁ হেনরি ডুনান্টের জন্মদিন স্মরণে প্রতি বছর ৮ মে বিশ্ব রেড ক্রস ও রেড ক্রিসেন্ট দিবস পালিত হয়।",
+    "hints": "📌 বিশ্ব রেড ক্রস দিবস = ৮ মে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "May 8"
   },
   {
     "id": 195461,
@@ -672,12 +711,13 @@
       "Random Access of Important Disks"
     ],
     "correct_answer": "Redundant Array of Independent Disks",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কম্পিউটার ডেটা স্টোরেজ প্রযুক্তিতে RAID-এর পূর্ণরূপ হলো 'Redundant Array of Independent Disks'।",
+    "hints": "💡 RAID = Redundant Array of Independent Disks।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Redundant Array of Independent Disks"
   },
   {
     "id": 195462,
@@ -689,12 +729,13 @@
       "All of them"
     ],
     "correct_answer": "All of them",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ইউনিক্স (Unix) একটি শক্তিশালী অপারেটিং সিস্টেম যা একই সাথে মাল্টি-ইউজার, টাইম-শেয়ারিং এবং মাল্টি-টাস্কিং সমর্থন করে।",
+    "hints": "💡 Unix = Multi-user, Multi-tasking, Time-sharing (সবগুলোই)।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "All of them"
   },
   {
     "id": 195463,
@@ -706,12 +747,13 @@
       "ASK and REPLY"
     ],
     "correct_answer": "GET and POST",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ওয়েব ক্লায়েন্ট ও সার্ভারের মধ্যকার যোগাযোগে সর্বাধিক ব্যবহৃত দুটি HTTP মেথড হলো 'GET' (ডেটা পাঠাতে বা দেখতে) এবং 'POST' (ডেটা সাবমিট করতে)।",
+    "hints": "💡 বহুল ব্যবহৃত HTTP Method = GET and POST।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "GET and POST"
   },
   {
     "id": 195464,
@@ -723,12 +765,13 @@
       "Sequential access"
     ],
     "correct_answer": "Volatile",
-    "explanation": "",
-    "hints": "",
+    "explanation": "র‍্যামের (RAM) প্রধান বৈশিষ্ট্য হলো এটি ভোলাটাইল (Volatile) বা ক্ষণস্থায়ী, অর্থাৎ বিদ্যুৎ বন্ধ হওয়ার সাথে সাথে এর ডেটা মুছে যায়।",
+    "hints": "💡 RAM হলো Volatile Memory।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Volatile"
   },
   {
     "id": 195465,
@@ -740,12 +783,13 @@
       "All of them"
     ],
     "correct_answer": "Packet switched network",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ইন্টারনেট হলো প্যাকেট সুইচিং প্রযুক্তির (Packet switched network) একটি শ্রেষ্ঠ উদাহরণ, যেখানে ডেটা ছোট ছোট প্যাকেটে বিভক্ত হয়ে গন্তব্যে পৌঁছায়।",
+    "hints": "💡 Internet = Packet switched network।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Packet switched network"
   },
   {
     "id": 195466,
@@ -757,12 +801,13 @@
       "Manage Programs"
     ],
     "correct_answer": "Manage Resources",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অপারেটিং সিস্টেমের মূল দায়িত্ব হলো কম্পিউটারের সমস্ত মেমোরি, প্রসেসর ও আই/ও রিসোর্সসমূহকে সুষ্ঠুভাবে পরিচালনা করা (Manage Resources)।",
+    "hints": "💡 OS-এর প্রধান কাজ = Manage Resources।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Manage Resources"
   },
   {
     "id": 195467,
@@ -774,12 +819,13 @@
       "All of them"
     ],
     "correct_answer": "TCP",
-    "explanation": "",
-    "hints": "",
+    "explanation": "TCP (Transmission Control Protocol) একটি কানেকশন-ওরিয়েন্টেড নির্ভরযোগ্য (Reliable) ট্রান্সপোর্ট লেয়ার প্রোটোকল।",
+    "hints": "💡 Reliable protocol = TCP।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "TCP"
   },
   {
     "id": 195469,
@@ -791,12 +837,13 @@
       "All of them"
     ],
     "correct_answer": "All of them",
-    "explanation": "",
-    "hints": "",
+    "explanation": "হার্ডডিস্কের ডেটা অ্যাক্সেস টাইম মূলত সিক টাইম (Seek time), রোটেশনাল ডিলে (Rotational latency) ইত্যাদির ওপর নির্ভর করে।",
+    "hints": "💡 Data access time নির্ভর করে = Seek time, Latency ইত্যাদির ওপর।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "All of them"
   },
   {
     "id": 195470,
@@ -808,12 +855,13 @@
       "Data independence"
     ],
     "correct_answer": "Data integrity",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ডাটাবেজের সংরক্ষিত তথ্যের নির্ভুলতা, ধারাবাহিকতা ও পূর্ণাঙ্গতাকে সামগ্রিকভাবে 'Data integrity' বলা হয়।",
+    "hints": "💡 ডেটার সঠিকতা ও পূর্ণাঙ্গতা = Data integrity।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Data integrity"
   },
   {
     "id": 195471,
@@ -825,12 +873,13 @@
       "None of them"
     ],
     "correct_answer": "Worst-Fit",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মেমোরি বরাদ্দের 'Worst-Fit' পলিসিতে উপলব্ধ মেমোরির বৃহত্তম ফাঁকা জায়গাটি (Largest hole) প্রসেসকে বরাদ্দ দেওয়া হয়।",
+    "hints": "💡 Largest hole বরাদ্দ করে = Worst-Fit।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Worst-Fit"
   },
   {
     "id": 195472,
@@ -842,12 +891,13 @@
       "behaves indecently"
     ],
     "correct_answer": "talks too much",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Garrulous' শব্দের অর্থ বাচাল বা অতিরিক্ত কথা বলে এমন (talks too much)।",
+    "hints": "📌 Garrulous = Talks too much (বাচাল)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "talks too much"
   },
   {
     "id": 195473,
@@ -859,12 +909,13 @@
       "fully occupied"
     ],
     "correct_answer": "fully occupied",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Engrossed' শব্দের অর্থ কোনো কাজে গভীরভাবে মগ্ন বা সম্পূর্ণ ব্যস্ত থাকা ('Fully occupied')।",
+    "hints": "📌 Engrossed = Fully occupied (নিমগ্ন)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "fully occupied"
   },
   {
     "id": 195474,
@@ -876,12 +927,13 @@
       "rest"
     ],
     "correct_answer": "consolation",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Solace' শব্দের অর্থ মনের সান্ত্বনা বা মানসিক শান্তি। এর সমার্থক হলো 'Consolation'।",
+    "hints": "📌 Solace = Consolation (সান্ত্বনা)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "consolation"
   },
   {
     "id": 195475,
@@ -893,12 +945,13 @@
       "romantic"
     ],
     "correct_answer": "inborn",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Innate' শব্দের অর্থ জন্মগত বা সহজাত। এর সমার্থক হলো 'Inborn' (সহজাত)।",
+    "hints": "📌 Innate = Inborn (জন্মগত)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "inborn"
   },
   {
     "id": 195476,
@@ -910,12 +963,13 @@
       "rural"
     ],
     "correct_answer": "obsolete",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Superannuated' শব্দের অর্থ বাতিল, অপ্রচলিত বা সেকেলে হয়ে পড়া ('Obsolete')।",
+    "hints": "📌 Superannuated = Obsolete (অপ্রচলিত বা সেকেলে)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "obsolete"
   },
   {
     "id": 195477,
@@ -927,12 +981,13 @@
       "Endless : Eternal"
     ],
     "correct_answer": "Exult : Jubilate",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Escape' এবং 'Abscond' উভয়ই পালিয়ে যাওয়া অর্থে সমার্থক; অনুরূপভাবে 'Exult' এবং 'Jubilate' উভয়ই উল্লাস প্রকাশ করা অর্থে সমার্থক।",
+    "hints": "💡 Escape = Abscond :: Exult = Jubilate।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Exult : Jubilate"
   },
   {
     "id": 195478,
@@ -944,12 +999,13 @@
       "Behead : Summary"
     ],
     "correct_answer": "Synopsise : Recapitulate",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Burden' এবং 'Encumber' ভারাক্রান্ত করা অর্থে সমার্থক; অনুরূপভাবে 'Synopsise' এবং 'Recapitulate' সংক্ষেপ করা অর্থে সমার্থক।",
+    "hints": "💡 Burden = Encumber :: Synopsise = Recapitulate।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Synopsise : Recapitulate"
   },
   {
     "id": 195479,
@@ -961,12 +1017,13 @@
       "Level : Grade"
     ],
     "correct_answer": "Elastic : Rigid",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Alleviate' (হ্রাস করা) এবং 'Aggravate' (বৃদ্ধি বা তীব্র করা) পরস্পর বিপরীতার্থক; একইভাবে 'Elastic' (নমনীয়) এবং 'Rigid' (অনমনীয়) বিপরীতার্থক।",
+    "hints": "💡 Alleviate ↔ Aggravate :: Elastic ↔ Rigid।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Elastic : Rigid"
   },
   {
     "id": 195480,
@@ -978,12 +1035,13 @@
       "Redundant : Cheerful"
     ],
     "correct_answer": "Unclear : Muddy",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Benevolent' এবং 'Kind' দয়ালু বোঝাতে সমার্থক; অনুরূপভাবে 'Unclear' এবং 'Muddy' ঘোলাটে বা অস্পষ্ট বোঝাতে সমার্থক।",
+    "hints": "💡 Benevolent = Kind :: Unclear = Muddy।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Unclear : Muddy"
   },
   {
     "id": 195481,
@@ -995,12 +1053,13 @@
       "Gregarious : Introverted"
     ],
     "correct_answer": "Gregarious : Introverted",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Fortuitous' (আকস্মিক/বাহ্যিক) এবং 'Inherent' (সহজাত/অভ্যন্তরীণ) পরস্পর বিপরীতার্থক; একইভাবে 'Gregarious' (মিশুক) এবং 'Introverted' (অন্তর্মুখী) বিপরীতার্থক।",
+    "hints": "💡 Fortuitous ↔ Inherent :: Gregarious ↔ Introverted।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Gregarious : Introverted"
   },
   {
     "id": 195482,
@@ -1012,12 +1071,13 @@
       "Had I"
     ],
     "correct_answer": "Had I",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Third conditional-এর নিয়মানুসারে If-ক্লজের ইনভার্সন হিসেবে 'Had I realised' ব্যবহার করা হয় (Had I realised earlier, I would not have accepted it)।",
+    "hints": "💡 Third conditional ইনভার্সন = Had I realised...",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "Had I"
   },
   {
     "id": 195483,
@@ -1029,12 +1089,13 @@
       "had known"
     ],
     "correct_answer": "had known",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Principal clause-এ 'would have waited' থাকায় conditional clause-এ Past Perfect tense হিসেবে 'had known' হবে।",
+    "hints": "💡 Would have waited ... if I had known।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "had known"
   },
   {
     "id": 195484,
@@ -1046,12 +1107,13 @@
       "no correction required"
     ],
     "correct_answer": "in such a mess that there",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'In such a mess that there is no one...'— কারণ ও ফলাফল যুক্ত করতে 'such ... that' কনজাংশন ব্যবহার করা হয়।",
+    "hints": "💡 in such a mess that there...",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "in such a mess that there"
   },
   {
     "id": 195485,
@@ -1063,12 +1125,13 @@
       "as fully as he does, no one but be alone"
     ],
     "correct_answer": "as fully as he does, not one but he",
-    "explanation": "",
-    "hints": "",
+    "explanation": "তুলনার ক্ষেত্রে Verb-এর পুনরাবৃত্তি ও কর্তারূপ বজায় রাখতে 'as fully as he does, no one but he' ব্যাকরণসম্মত।",
+    "hints": "💡 as fully as he does, no one but he...",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "as fully as he does, not one but he"
   },
   {
     "id": 195486,
@@ -1080,12 +1143,13 @@
       "no improvement"
     ],
     "correct_answer": "hypothesis",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সমান্তরাল ব্যাকরণিক গঠন (Parallelism) বজায় রাখতে 'Speculations' Noun-এর সাথে মিলিয়ে 'Hypothesis' Noun-টি যথাযথ।",
+    "hints": "💡 Speculation and hypothesis (উভয়ই Noun)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "hypothesis"
   },
   {
     "id": 195487,
@@ -1097,12 +1161,13 @@
       "honesty"
     ],
     "correct_answer": "amnesty",
-    "explanation": "",
-    "hints": "",
+    "explanation": "রাজনৈতিক অপরাধীদের সরকার কর্তৃক প্রদত্ত সামগ্রিক বা রাষ্ট্রীয় সাধারণ ক্ষমা ঘোষণাকে এককথায় 'Amnesty' বলা হয়।",
+    "hints": "💡 General pardon by government = Amnesty।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "amnesty"
   },
   {
     "id": 195488,
@@ -1114,12 +1179,13 @@
       "maiden"
     ],
     "correct_answer": "extempore",
-    "explanation": "",
-    "hints": "",
+    "explanation": "পূর্বপ্রস্তুতি ছাড়া তাৎক্ষণিকভাবে প্রদত্ত ভাষণকে 'Extempore' (উপস্থিত বক্তৃতা) বলা হয়।",
+    "hints": "💡 Speech without preparation = Extempore।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "extempore"
   },
   {
     "id": 195489,
@@ -1131,12 +1197,13 @@
       "mountebank"
     ],
     "correct_answer": "impostor",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যে ব্যক্তি প্রতারণা করে নিজেকে অন্যের রূপ দিয়ে দাবি করে তাকে 'Impostor' (ভণ্ড বা প্রতারক) বলা হয়।",
+    "hints": "💡 Deceives by claiming to be someone = Impostor।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "impostor"
   },
   {
     "id": 195490,
@@ -1148,12 +1215,13 @@
       "omnivorous"
     ],
     "correct_answer": "omnivorous",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যে প্রাণী উদ্ভিদ ও মাংস সবকিছুই আহার করে তাকে সর্বভুক বা 'Omnivorous' বলা হয়।",
+    "hints": "💡 One who eats everything = Omnivorous।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "omnivorous"
   },
   {
     "id": 195491,
@@ -1165,12 +1233,13 @@
       "orphanage"
     ],
     "correct_answer": "asylum",
-    "explanation": "",
-    "hints": "",
+    "explanation": "নিরাপত্তা ও রাজনৈতিক কারণে আশ্রয় প্রার্থীকে যে নিরাপদ আশ্রয় দেওয়া হয় তাকে 'Asylum' (রাজনৈতিক আশ্রয়) বলা হয়।",
+    "hints": "💡 Place that provides refuge = Asylum।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "asylum"
   },
   {
     "id": 195492,
@@ -1182,12 +1251,13 @@
       "hidden"
     ],
     "correct_answer": "shown",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Buried' অর্থ সমাধিস্থ বা লুক্কায়িত। এর বিপরীত শব্দ হলো 'Shown' (প্রদর্শিত বা উন্মুক্ত)।",
+    "hints": "📌 Buried (লুক্কায়িত) ↔ Shown (প্রদর্শিত)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "shown"
   },
   {
     "id": 195493,
@@ -1199,12 +1269,13 @@
       "postscript"
     ],
     "correct_answer": "postscript",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Preamble' অর্থ প্রস্তাবনা বা মুখবন্ধ (শুরু)। এর বিপরীত শব্দ হলো 'Postscript' (পরিশিষ্ট বা পুনশ্চ, যা শেষে লেখা হয়)।",
+    "hints": "📌 Preamble (প্রস্তাবনা) ↔ Postscript (পরিশিষ্ট)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "postscript"
   },
   {
     "id": 195494,
@@ -1216,12 +1287,13 @@
       "moderate"
     ],
     "correct_answer": "careless",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Punctilious' শব্দের অর্থ অত্যন্ত সতর্ক, নিয়মনিষ্ঠ ও খুঁতখুঁতে। এর বিপরীত শব্দ (Antonym) হলো 'Careless' (অসতর্ক বা অসাবধান)।",
+    "hints": "📌 Punctilious (নিয়মনিষ্ঠ) ↔ Careless (অসতর্ক)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "careless"
   },
   {
     "id": 195495,
@@ -1233,12 +1305,13 @@
       "speak harmoniously"
     ],
     "correct_answer": "advise candidly",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Sycophancy' শব্দের অর্থ তোষামোদ বা চাটুকারিতা। এর বিপরীত আচরণ হলো অকপটে বা স্পষ্ট ভাষায় পরামর্শ দেওয়া ('Advise candidly')।",
+    "hints": "📌 Sycophancy (তোষামোদ) ↔ Advise candidly (অকপটে বলা)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "advise candidly"
   },
   {
     "id": 195496,
@@ -1250,12 +1323,13 @@
       "stack"
     ],
     "correct_answer": "erosion",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Accretion' শব্দের অর্থ সঞ্চয়ন বা ধীরে ধীরে বৃদ্ধি পাওয়া। এর বিপরীত শব্দ হলো 'Erosion' (ক্ষয় হওয়া বা কমে যাওয়া)।",
+    "hints": "📌 Accretion (বৃদ্ধি/সঞ্চয়) ↔ Erosion (ক্ষয়সাধন)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "erosion"
   },
   {
     "id": 195591,
@@ -1267,12 +1341,13 @@
       "মানিক জোড়"
     ],
     "correct_answer": "বসন্তের কোকিল",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'বসন্তের কোকিল' বাগধারাটির ভাবার্থ হলো সুসময়ের বন্ধু (যে কেবল ভালো সময়ে পাশে থাকে, দুঃসময়ে থাকে না)।",
+    "hints": "📌 বসন্তের কোকিল = সুসময়ের বন্ধু।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "বসন্তের কোকিল"
   },
   {
     "id": 195592,
@@ -1284,12 +1359,13 @@
       "অর্ণব"
     ],
     "correct_answer": "অদ্রি",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বারিধি, মকরালয় ও অর্ণব হলো সমুদ্রের প্রতিশব্দ; কিন্তু 'অদ্রি' শব্দের অর্থ হলো পর্বত বা পাহাড়। তাই অদ্রি সমুদ্রের সমার্থক নয়।",
+    "hints": "📌 অদ্রি = পাহাড় বা পর্বত; সমুদ্র নয়।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "অদ্রি"
   },
   {
     "id": 195593,
@@ -1301,12 +1377,13 @@
       "মুহূর্ত"
     ],
     "correct_answer": "পুজো",
-    "explanation": "",
-    "hints": "",
+    "explanation": "পূজা থেকে উৎপন্ন প্রমিত বানানে তদ্ভব শব্দ হিসেবে 'পূজা' বা হ্রস্ব-উ কারে 'পুজো' শব্দে দীর্ঘ-উ কারভিত্তিক মূল শব্দ থাকায় 'পুজো' বানানটি প্রশ্নে অশুদ্ধ হিসেবে চিহ্নিত।",
+    "hints": "📌 পুজো বানানটি অশুদ্ধ রূপ হিসেবে চিহ্নিত।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "পুজো"
   },
   {
     "id": 195594,
@@ -1318,12 +1395,13 @@
       "বর্মি থেকে"
     ],
     "correct_answer": "গুজরাটি থেকে",
-    "explanation": "",
-    "hints": "",
+    "explanation": "গান্ধীজির স্বদেশী আন্দোলনের সাথে সম্পর্কিত দেশি কাপড় 'খদ্দর' বা খাদি শব্দটি গুজরাটি ভাষা থেকে বাংলায় এসেছে।",
+    "hints": "📌 খদ্দর = গুজরাটি শব্দ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "গুজরাটি থেকে"
   },
   {
     "id": 195595,
@@ -1335,12 +1413,13 @@
       "রত্ন"
     ],
     "correct_answer": "তৃষ্ণা",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সংস্কৃত ষ-ত্ব ও ণ-ত্ব বিধান অনুযায়ী মূর্ধন্য 'ষ'-এর পর মূর্ধন্য 'ণ' হয়। তাই 'তৃষ্ণা' (ষ্ + ণ) শব্দে মূর্ধন্য-ণ ব্যবহৃত হয়েছে।",
+    "hints": "⚖️ তৃষ্ণা = ষ্ + ণ (মূর্ধন্য-ণ)।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "তৃষ্ণা"
   },
   {
     "id": 195596,
@@ -1352,12 +1431,13 @@
       "জাতভিমান"
     ],
     "correct_answer": "জাত্যভিমান",
-    "explanation": "",
-    "hints": "",
+    "explanation": "য-ফলা সন্ধির নিয়মে: ই-কারের পর ভিন্ন স্বরধ্বনি থাকলে ই স্থানে য-ফলা হয়। তাই 'জাতি + অভিমান = জাত্যভিমান' (আ-কার হবে না)।",
+    "hints": "⚖️ জাতি + অভিমান = জাত্যভিমান।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "জাত্যভিমান"
   },
   {
     "id": 195597,
@@ -1369,12 +1449,13 @@
       "ঝোপ বুঝে কোপ"
     ],
     "correct_answer": "মশা মারতে কামান দাগা",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Breaking a butterfly on the wheel' ইংরেজি প্রবাদের শাব্দিক ভাব হলো সামান্য কাজের জন্য অহেতুক বিশাল আয়োজন, যার সমার্থক বাংলা প্রবাদ হলো 'মশা মারতে কামান দাগা'।",
+    "hints": "📌 Breaking a butterfly on the wheel = মশা মারতে কামান দাগা।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "মশা মারতে কামান দাগা"
   },
   {
     "id": 195598,
@@ -1386,12 +1467,13 @@
       "মৃত্যুক্ষুধা"
     ],
     "correct_answer": "কালান্তর",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'কালান্তর' (১৯৩৭) হলো বিশ্বকবি রবীন্দ্রনাথ ঠাকুরের রচিত একটি বিখ্যাত ও মননশীল প্রবন্ধগ্রন্থ (অন্যগুলো উপন্যাস)।",
+    "hints": "📌 'কালান্তর' = রবীন্দ্রনাথ ঠাকুরের প্রবন্ধগ্রন্থ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "কালান্তর"
   },
   {
     "id": 195599,
@@ -1403,12 +1485,13 @@
       "উপকূল"
     ],
     "correct_answer": "উপসাগর",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'উপসাগর' শব্দটিতে 'উপ' উপসর্গটি ক্ষুদ্র অর্থে ব্যবহৃত হয়েছে (ক্ষুদ্র সাগর = উপসাগর)।",
+    "hints": "⚖️ উপসাগর = ক্ষুদ্র অর্থে 'উপ' উপসর্গ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "উপসাগর"
   },
   {
     "id": 195600,
@@ -1420,12 +1503,13 @@
       "আত্নজা"
     ],
     "correct_answer": "সহোদর",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মেয়ে, পুত্রী ও আত্মজা হলো কন্যার সমার্থক শব্দ; কিন্তু 'সহোদর' শব্দের অর্থ হলো আপন ভাই (একই মায়ের গর্ভজাত)। তাই এটি কন্যার সমার্থক নয়।",
+    "hints": "📌 সহোদর = আপন ভাই; কন্যা নয়।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "সহোদর"
   },
   {
     "id": 195601,
@@ -1437,12 +1521,13 @@
       "অধস্তন"
     ],
     "correct_answer": "অধীনস্থ",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'অধীন' নিজেই বিশেষণ পদ। এর সাথে অতিরিক্ত 'স্থ' প্রত্যয় যোগ করে 'অধীনস্থ' গঠন করা ব্যাকরণগতভাবে একটি বাহুল্য দোষ ও অপপ্রয়োগ (শুদ্ধ: অধীন)।",
+    "hints": "📌 'অধীনস্থ' বাহুল্য দোষে দুষ্ট।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "অধীনস্থ"
   },
   {
     "id": 195602,
@@ -1454,12 +1539,13 @@
       "হোসেন শহীদ সোহরাওয়ার্দী"
     ],
     "correct_answer": "শেখ মুজিবুর রহমান",
-    "explanation": "",
-    "hints": "",
+    "explanation": "জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমানের রচিত কালজয়ী আত্মজীবনীমূলক গ্রন্থ হলো 'অসমাপ্ত আত্মজীবনী' (২০১২ সালে প্রথম প্রকাশিত)।",
+    "hints": "📌 'অসমাপ্ত আত্মজীবনী' = বঙ্গবন্ধু শেখ মুজিবুর রহমান।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "শেখ মুজিবুর রহমান"
   },
   {
     "id": 195603,
@@ -1471,12 +1557,13 @@
       "লেনদেন"
     ],
     "correct_answer": "লেনদেন",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'লেনদেন' (দেওয়া ও নেওয়া) হলো বিপরীতার্থক দ্বন্দ্ব সমাস, এটি সমার্থক দ্বন্দ্ব সমাস নয়। অন্যগুলো (ছাইভস্ম, সাজসজ্জা, গোলাগুলি) সমার্থক দ্বন্দ্ব।",
+    "hints": "⚖️ লেনদেন = বিপরীতার্থক দ্বন্দ্ব সমাস।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "লেনদেন"
   },
   {
     "id": 195604,
@@ -1488,12 +1575,13 @@
       "পাতাল"
     ],
     "correct_answer": "পাতাল",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'আকাশ' শব্দের প্রমিত ও বহুল প্রচলিত বিপরীতার্থক শব্দ হলো 'পাতাল'।",
+    "hints": "📌 আকাশ ↔ পাতাল।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "পাতাল"
   },
   {
     "id": 195605,
@@ -1505,12 +1593,13 @@
       "জগত"
     ],
     "correct_answer": "আদ্যন্ত",
-    "explanation": "",
-    "hints": "",
+    "explanation": "আদি থেকে অন্ত পর্যন্ত = আদ্যন্ত (বা আদ্যোপান্ত)। 'আদ্যন্ত' বানানটি সম্পূর্ণ শুদ্ধ (শিরশ্ছেদ, পিপীলিকা, জগৎ শুদ্ধ রূপ)।",
+    "hints": "📌 শুদ্ধ বানান: আদ্যন্ত।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "আদ্যন্ত"
   },
   {
     "id": 195606,
@@ -1522,12 +1611,13 @@
       "লভ্যাংশ"
     ],
     "correct_answer": "সুদ",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাণিজ্যিক ব্যাংকগুলোর অন্যতম প্রধান কাজ হলো আমানত গ্রহণ এবং ঋণ প্রদান করে তার বিপরীতে 'সুদ' (Interest) আদায় ও পরিচালনা করা।",
+    "hints": "📌 ব্যাংক পরিচালনার প্রধান উপাদান = সুদ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "সুদ"
   },
   {
     "id": 195607,
@@ -1539,12 +1629,13 @@
       "মাইকেল মধুসূদন দত্ত"
     ],
     "correct_answer": "বিহারীলাল চক্রবর্তী",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাংলা গীতিকবিতার ধারার প্রধান কবি বিহারীলাল চক্রবর্তীকে রবীন্দ্রনাথ ঠাকুর শ্রদ্ধার সাথে 'ভোরের পাখি' আখ্যা দিয়েছিলেন।",
+    "hints": "📌 বাংলা সাহিত্যের ভোরের পাখি = বিহারীলাল চক্রবর্তী।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "বিহারীলাল চক্রবর্তী"
   },
   {
     "id": 195608,
@@ -1556,12 +1647,13 @@
       "নিপাতনে সিদ্ধ শব্দ"
     ],
     "correct_answer": "জোড়কলম শব্দ",
-    "explanation": "",
-    "hints": "",
+    "explanation": "দুটি ভিন্ন শব্দের অংশবিশেষ জোড়া লাগিয়ে একটি নতুন শব্দ তৈরির ব্যাকরণিক প্রক্রিয়াকে 'জোড়কলম শব্দ' (Portmanteau word) বলে (যেমন: বক + কচ্ছপ = বকচ্ছপ, ধোঁয়া + কুয়াশা = ধোঁয়াশা)।",
+    "hints": "⚖️ বকচ্ছপ = জোড়কলম শব্দ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "জোড়কলম শব্দ"
   },
   {
     "id": 195609,
@@ -1573,12 +1665,13 @@
       "সম্পন্ন"
     ],
     "correct_answer": "প্রসন্ন",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'বিষণ্ন' (দুঃখভারাক্রান্ত) শব্দের যথার্থ বিপরীত শব্দ হলো 'প্রসন্ন' (আনন্দিত বা তুষ্ট)।",
+    "hints": "📌 বিষণ্ন ↔ প্রসন্ন।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "প্রসন্ন"
   },
   {
     "id": 195610,
@@ -1590,12 +1683,13 @@
       "সমান তীর্থ যার"
     ],
     "correct_answer": "সমান তীর্থ যার",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সমান তীর্থ যার = সতীর্থ (একই গুরুর শিষ্য বা সহপাঠী)। এটি বহুব্রীহি সমাস।",
+    "hints": "⚖️ সমান তীর্থ যার = সতীর্থ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "সমান তীর্থ যার"
   },
   {
     "id": 195611,
@@ -1607,12 +1701,13 @@
       "রোকেয়া সাখাওয়াত হোসেন"
     ],
     "correct_answer": "কাজী নজরুল ইসলাম",
-    "explanation": "",
-    "hints": "",
+    "explanation": "হিন্দু-মুসলিম সাম্প্রদায়িক সম্প্রীতির আহ্বান জানিয়ে বিদ্রোহী কবি কাজী নজরুল ইসলাম রচিত বিখ্যাত প্রবন্ধ হলো 'মন্দির ও মসজিদ'।",
+    "hints": "📌 'মন্দির ও মসজিদ' = কাজী নজরুল ইসলামের প্রবন্ধ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "কাজী নজরুল ইসলাম"
   },
   {
     "id": 195612,
@@ -1624,12 +1719,13 @@
       "আমানত"
     ],
     "correct_answer": "ইজারা",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাণিজ্যিক ও আইনি পরিভাষায় 'Lease' শব্দের প্রমিত বাংলা প্রতিশব্দ হলো 'ইজারা' বা দীর্ঘমেয়াদি চুক্তিভিত্তিক ভাড়া।",
+    "hints": "📌 Lease = ইজারা।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "ইজারা"
   },
   {
     "id": 195613,
@@ -1641,12 +1737,13 @@
       "তিনি স্বস্ত্রীক বেড়াতে এসেছে"
     ],
     "correct_answer": "দুষ্কৃতিকারীদের ছুটি দেওয়া উচিত নয়",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'দুষ্কৃতিকারীদের ছুটি দেওয়া উচিত নয়'— বাক্যটিতে কোনো প্রকার বাহুল্য বা ব্যাকরণিক অপপ্রয়োগ নেই, এটি সম্পূর্ণ শুদ্ধ।",
+    "hints": "📌 শুদ্ধ বাক্য: দুষ্কৃতিকারীদের ছুটি দেওয়া উচিত নয়।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "দুষ্কৃতিকারীদের ছুটি দেওয়া উচিত নয়"
   },
   {
     "id": 195614,
@@ -1658,12 +1755,13 @@
       "সনজীদা খাতুন"
     ],
     "correct_answer": "জাহানারা ইমাম",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৯৭১ সালের মহান মুক্তিযুদ্ধকালীন অবরুদ্ধ ঢাকার মর্মস্পর্শী ডায়েরিভিত্তিক গ্রন্থ 'একাত্তরের দিনগুলি'-র রচয়িতা শহীদ জননী জাহানারা ইমাম।",
+    "hints": "📌 'একাত্তরের দিনগুলি' = জাহানারা ইমাম।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "জাহানারা ইমাম"
   },
   {
     "id": 195615,
@@ -1675,11 +1773,12 @@
       "কাঁচা রাস্তা"
     ],
     "correct_answer": "অঙ্কে কাঁচা",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'অঙ্কে কাঁচা' বাগভঙ্গিতে 'কাঁচা' শব্দটি কোনো বিষয়ে অপারগতা, অপরিপক্বতা বা 'দুর্বল' ভাব প্রকাশ করে।",
+    "hints": "📌 অঙ্কে কাঁচা = দুর্বল।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Janata Bank Ltd",
-    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15"
+    "exam": "15@Janata Bank Ltd - Asst. Executive Officer - 23.01.15",
+    "correctAnswer": "অঙ্কে কাঁচা"
   }
 ]

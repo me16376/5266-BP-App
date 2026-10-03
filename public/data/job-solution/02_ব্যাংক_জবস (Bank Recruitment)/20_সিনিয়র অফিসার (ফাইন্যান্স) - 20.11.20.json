@@ -9,12 +9,13 @@
       "$ 662.03"
     ],
     "correct_answer": "$ 662.02",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রতি বছরান্তে ২০০ ডলার করে জমা দিয়ে ৫% চক্রবৃদ্ধি হারে বিনিয়োগ করলে ৩ বছর পর তা অগ্রিম বার্ষিক ভিত্তির (Annuity Due) সূত্রানুসারে: FV = ২০০ × [((১.০৫)³ - ১) / ০.০৫] × ১.০৫ = $৬৬২.০২-এ দাঁড়ায়।",
+    "hints": "অ্যানুইটির ভবিষ্যৎ মূল্য: FV = $৬৬২.০২।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "$ 662.02"
   },
   {
     "id": 208421,
@@ -26,12 +27,13 @@
       "All of the above are implicit costs"
     ],
     "correct_answer": "The uncompensated services of the spouse of a firm's owner.",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সুপ্ত ব্যয় বা অপ্রকাশিত ব্যয় (Implicit cost) হলো এমন সুযোগ ব্যয় যাতে সরাসরি কোনো নগদ অর্থ প্রদান করতে হয় না; যেমন প্রতিষ্ঠানের মালিক বা তাঁর পরিবারের অবৈতনিক শ্রমসেবা।",
+    "hints": "মালিক বা পরিবারের অবৈতনিক শ্রম হলো Implicit cost।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "The uncompensated services of the spouse of a firm's owner."
   },
   {
     "id": 208429,
@@ -43,12 +45,13 @@
       "all of the above"
     ],
     "correct_answer": "perfect competition",
-    "explanation": "",
-    "hints": "",
+    "explanation": "পূর্ণ প্রতিযোগিতামূলক বাজারে (Perfect Competition) কোনো একক ক্রেতা বা বিক্রেতার দামের ওপর প্রভাব থাকে না; সমগ্র বাজারের সামগ্রিক চাহিদা ও যোগানের পারস্পরিক ঘাত-প্রতিঘাতে ভারসাম্য দাম নির্ধারিত হয়।",
+    "hints": "পূর্ণ প্রতিযোগিতামূলক বাজারে চাহিদা ও যোগান দ্বারা দাম নির্ধারিত হয়।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "perfect competition"
   },
   {
     "id": 208453,
@@ -60,12 +63,13 @@
       "7/12 < 5/8 < 3/4 <13/16"
     ],
     "correct_answer": "7/12 < 5/8 < 3/4 <13/16",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ভগ্নাংশগুলোর হর সমান (৪৮) করলে পাই: ৭/১২ = ২৮/৪৮ ≈ ০.৫৮৩ ৫/৮ = ৩০/৪৮ = ০.৬২৫ ৩/৪ = ৩৬/৪৮ = ০.৭৫০ ১৩/১৬ = ৩৯/৪৮ ≈ ০.৮১৩ ছোট থেকে বড় ক্রমানুসার: ৭/১২ < ৫/৮ < ৩/৪ < ১৩/১৬।",
+    "hints": "হর ৪৮ করলে পাই ২৮ < ৩০ < ৩৬ < ৩৯; সঠিক ক্রম: ৭/১২ < ৫/৮ < ৩/৪ < ১৩/১৬।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "7/12 < 5/8 < 3/4 <13/16"
   },
   {
     "id": 208466,
@@ -77,12 +81,13 @@
       "The sampling error becomes progressively smaller the larger the sample size"
     ],
     "correct_answer": "The sampling error becomes progressively smaller the larger the sample size",
-    "explanation": "",
-    "hints": "",
+    "explanation": "পরিসংখ্যানের নিয়ম অনুসারে নমুনার আকার (Sample size, n) যত বড় করা হয়, স্ট্যান্ডার্ড এরর (Standard Error) তত হ্রাস পায় এবং নমুনা ত্রুটি (Sampling error) ক্রমাগত ছোট হতে থাকে।",
+    "hints": "নমুনার আকার বড় হলে নমুনা ত্রুটি ছোট হয়।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "The sampling error becomes progressively smaller the larger the sample size"
   },
   {
     "id": 208478,
@@ -94,12 +99,13 @@
       "আর্তনাদ"
     ],
     "correct_answer": "জীবন আমার বোন",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'জীবন আমার বোন' (১৯৭৬) কথাসাহিত্যিক মাহমুদুল হক রচিত ১৯৭১ সালের মুক্তিযুদ্ধকালীন অবরুদ্ধ ঢাকা শহরের পটভূমিতে একটি কালজয়ী উপন্যাস।",
+    "hints": "'জীবন আমার বোন' মাহমুদুল হকের মুক্তিযুদ্ধভিত্তিক উপন্যাস।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "জীবন আমার বোন"
   },
   {
     "id": 208479,
@@ -111,12 +117,13 @@
       "তারিখ বাচক"
     ],
     "correct_answer": "গণনা বাচক",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'সিকি' (এক-চতুর্থাংশ), আধা, পৌনে ইত্যাদি হলো পরিমাপ বা ভগ্নাংশবাচক সংখ্যা শব্দ যা সামগ্রিক অর্থে গণনাবাচক শব্দের অন্তর্ভুক্ত।",
+    "hints": "সিকি একটি ভগ্নাংশ বা গণনাবাচক সংখ্যা শব্দ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "গণনা বাচক"
   },
   {
     "id": 208480,
@@ -128,12 +135,13 @@
       "খণ্ড বাক্য"
     ],
     "correct_answer": "যৌগিক",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'তাহার হাসিতে গান, তাহার কান্নায় গান'—বাক্যটিতে দুটি স্বাধীন সরল বাক্য কমা দ্বারা সমন্বিত হয়ে একটি যৌথ ভাব প্রকাশ করায় এটি যৌগিক বাক্য।",
+    "hints": "দুটি স্বাধীন খণ্ডবাক্য যুক্ত থাকায় এটি যৌগিক বাক্য।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "যৌগিক"
   },
   {
     "id": 208481,
@@ -145,12 +153,13 @@
       "বুদ্ধিজীবী"
     ],
     "correct_answer": "দ্বিচক্র",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'দুই চক্র (চাকা) যার = দ্বিচক্র' (সাইকেল)। পূর্বপদ বা পরপদ কোনোটির অর্থ না বুঝিয়ে তৃতীয় কোনো বস্তুকে নির্দেশ করায় এটি বহুব্রীহি সমাস।",
+    "hints": "দুই চক্র যার = দ্বিচক্র (বহুব্রীহি সমাস)।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "দ্বিচক্র"
   },
   {
     "id": 208482,
@@ -162,12 +171,13 @@
       "অসংখ্য"
     ],
     "correct_answer": "নগণ্য",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যা গণনার যোগ্য নয় তাকে এক কথায় 'নগণ্য' (বা নিতান্ত তুচ্ছ) বলে। আর যা সংখ্যায় গণনা করা যায় না তা 'অগণ্য'।",
+    "hints": "গণনার যোগ্য নয় যা = নগণ্য।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "নগণ্য"
   },
   {
     "id": 208483,
@@ -179,12 +189,13 @@
       "বঙ্কিমচন্দ্র চট্টোপাধ্যায়"
     ],
     "correct_answer": "কাজী নজরুল ইসলাম",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ভারত সরকার ১৯৬০ সালে বাংলাদেশের জাতীয় কবি কাজী নজরুল ইসলামকে ভারতের তৃতীয় সর্বোচ্চ বেসামরিক খেতাব 'পদ্মভূষণ'-এ ভূষিত করে।",
+    "hints": "নজরুল ১৯৬০ সালে ভারত সরকার কর্তৃক 'পদ্মভূষণ' লাভ করেন।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "কাজী নজরুল ইসলাম"
   },
   {
     "id": 208484,
@@ -196,12 +207,13 @@
       "Remeo and Juliet"
     ],
     "correct_answer": "The Merchant of Venice",
-    "explanation": "",
-    "hints": "",
+    "explanation": "\"All that glitters is not gold\" (চকচক করলেই সোনা হয় না) অমর উক্তিটি শেক্সপিয়রের বিখ্যাত নাটক 'The Merchant of Venice'-এর ২য় অঙ্কের ৭ম দৃশ্যে বর্ণিত স্বর্ণের ক্যাসকেটে লেখা ছিল।",
+    "hints": "উক্তিটি শেক্সপিয়রের 'The Merchant of Venice' নাটকের।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "The Merchant of Venice"
   },
   {
     "id": 208485,
@@ -213,12 +225,13 @@
       "পুনর্গঠিত অতীত"
     ],
     "correct_answer": "নিত্যবৃত্ত অতীত",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অতীতে কোনো অসম্ভব বা অপূর্ণ ইচ্ছা, প্রত্যাশা বা কল্পনা প্রকাশ করতে ক্রিয়াপদে নিত্যবৃত্ত অতীত কাল ব্যবহৃত হয়: \"আমি যদি পাখি হতাম\"।",
+    "hints": "অসম্ভব ইচ্ছা প্রকাশে নিত্যবৃত্ত অতীত কাল হয়।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "নিত্যবৃত্ত অতীত"
   },
   {
     "id": 208486,
@@ -230,12 +243,13 @@
       "ইংরেজি ও হিন্দি"
     ],
     "correct_answer": "ইংরেজি ও ফারসি",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'হেড' ইংরেজি শব্দ এবং 'মৌলভী' ফারসি শব্দ। দুটি ভিন্ন ভাষার সমন্বয়ে 'হেড-মৌলভী' মিশ্র শব্দটি গঠিত হয়েছে।",
+    "hints": "হেড (ইংরেজি) + মৌলভী (ফারসি)।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "ইংরেজি ও ফারসি"
   },
   {
     "id": 208487,
@@ -247,12 +261,13 @@
       "অবজ্ঞা"
     ],
     "correct_answer": "ঘৃণা",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'তুমি এত নিচ'—বাক্যটিতে বক্তার তীব্র ঘৃণা, ধিক্কার ও মানসিক অসন্তোষ প্রকাশ পেয়েছে।",
+    "hints": "বাক্যে অন্তরের তীব্র ঘৃণা প্রকাশ পেয়েছে।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "ঘৃণা"
   },
   {
     "id": 208488,
@@ -264,12 +279,13 @@
       "উপসর্গ"
     ],
     "correct_answer": "প্রত্যয়",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'ঢাকাই' শব্দটি মূল শব্দ 'ঢাকা'-র সাথে বাংলা তদ্ধিত প্রত্যয় 'আই' যোগে গঠিত হয়েছে (ঢাকা + আই = ঢাকাই)।",
+    "hints": "ঢাকা + আই = ঢাকাই (প্রত্যয় সাধিত শব্দ)।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "প্রত্যয়"
   },
   {
     "id": 208489,
@@ -281,12 +297,13 @@
       "Though he is weak, he works hard"
     ],
     "correct_answer": "Is spite of being weak, he works hard",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যে বাক্যে একটিমাত্র স্বাধীন খণ্ডবাক্য ও একটিমাত্র সমাপিকা ক্রিয়া ('works') থাকে, তাকে Simple sentence বলে: \"In spite of being weak, he works hard\"।",
+    "hints": "একটি সমাপিকা ক্রিয়াযুক্ত বাক্য Simple sentence।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Is spite of being weak, he works hard"
   },
   {
     "id": 208490,
@@ -298,12 +315,13 @@
       "a rough idea"
     ],
     "correct_answer": "a rough idea",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Bird's eye view' বাগ্ধারাটির অর্থ ওপর থেকে একনজরে সামগ্রিক দৃশ্য দেখা বা সাধারণ ও প্রাথমিক ভাসা-ভাসা ধারণা পাওয়া (a rough idea or general view)।",
+    "hints": "bird's eye view = ভাসা-ভাসা ধারণা (a rough idea)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "a rough idea"
   },
   {
     "id": 208491,
@@ -315,12 +333,13 @@
       "at"
     ],
     "correct_answer": "at",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কোনো বিশেষ কাজে বা দক্ষতায় পারদর্শী বা দুর্বলতা বোঝাতে 'good at' ব্যবহৃত হয়: \"not good at translation\"।",
+    "hints": "good at = কোনো বিষয়ে দক্ষ।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "at"
   },
   {
     "id": 208492,
@@ -332,12 +351,13 @@
       "By whom you will be helped?"
     ],
     "correct_answer": "By whom will you be helped?",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Who' দিয়ে শুরু হওয়া Active বাক্যকে Passive করতে 'By whom' বসে, এরপর auxiliary verb 'will', subject 'you', এবং 'be + V3' বসে: \"By whom will you be helped?\"",
+    "hints": "Who will help you? -> By whom will you be helped?",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "By whom will you be helped?"
   },
   {
     "id": 208493,
@@ -349,12 +369,13 @@
       "This is he speaking"
     ],
     "correct_answer": "This is he speaking",
-    "explanation": "",
-    "hints": "",
+    "explanation": "টেলিফোনে বা নিজের পরিচয় প্রদানের ক্ষেত্রে লিংকিং ভার্ব 'is'-এর পর Subjective pronoun বসে: \"This is he speaking\" (This is him কথ্য হলেও প্রমিত ব্যাকরণে he বসে)।",
+    "hints": "সঠিক প্রমিত রূপ: This is he speaking।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "This is he speaking"
   },
   {
     "id": 208494,
@@ -366,12 +387,13 @@
       "who"
     ],
     "correct_answer": "which",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কমা দিয়ে পূর্ববর্তী সম্পূর্ণ বাক্যাংশ বা সময়কালকে নির্দেশ করার জন্য সংযোগকারী রিলেটিভ প্রোনাউন হিসেবে 'which' ব্যবহৃত হয়: \"..., which is just about long enough\"।",
+    "hints": "পূর্ববর্তী ঘটনা নির্দেশ করতে কমার পর 'which' বসে।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "which"
   },
   {
     "id": 208495,
@@ -383,12 +405,13 @@
       "Vikram Seth"
     ],
     "correct_answer": "Khaled Hosseini",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যুদ্ধবিধ্বস্ত আফগানিস্তানের প্রেক্ষাপটে রচিত আন্তর্জাতিক বেস্টসেলার উপন্যাস 'A Thousand Splendid Suns' (২০০৭)-এর লেখক হলেন আফগান-আমেরিকান ঔপন্যাসিক খালেদ হোসেইনি (Khaled Hosseini)।",
+    "hints": "'A Thousand Splendid Suns' খালেদ হোসেইনির উপন্যাস।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Khaled Hosseini"
   },
   {
     "id": 208496,
@@ -400,12 +423,13 @@
       "Explicit"
     ],
     "correct_answer": "Unexpected",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'It comes as no surprise' (আশ্চর্যের বিষয় নয়)-এর সাথে বৈপরীত্য প্রকাশ করতে 'on the other hand' ব্যবহারের পর উপযুক্ত শব্দ হলো 'unexpected' (অপ্রত্যাশিত)।",
+    "hints": "বৈপরীত্য নির্দেশ করায় 'unexpected' সঠিক।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Unexpected"
   },
   {
     "id": 208497,
@@ -417,12 +441,13 @@
       "Was"
     ],
     "correct_answer": "Have",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Third Conditional বাক্যের নিয়ম: If + had + V3 ..., অপর ক্লজে 'would have + V3' বসে: \"you would have found a good seat\"।",
+    "hints": "Third conditional: would have found।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Have"
   },
   {
     "id": 208498,
@@ -434,12 +459,13 @@
       "2041"
     ],
     "correct_answer": "2030",
-    "explanation": "",
-    "hints": "",
+    "explanation": "জাতিসংঘ সাধারণ পরিষদ কর্তৃক ২০১৫ সালে গৃহীত ১৭টি টেকসই উন্নয়ন লক্ষ্যমাত্রা (SDG) অর্জনের বৈশ্বিক সময়সীমা হলো ২০৩০ সাল।",
+    "hints": "এসডিজির লক্ষ্যমাত্রা অর্জনের লক্ষ্যমাত্রা ২০৩০ সাল।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "2030"
   },
   {
     "id": 208499,
@@ -451,12 +477,13 @@
       "Khulna"
     ],
     "correct_answer": "Chattogram",
-    "explanation": "",
-    "hints": "",
+    "explanation": "চট্টগ্রামের মীরসরাই, সীতাকুণ্ড ও ফেনীর সোনাগাজীজুড়ে প্রায় ৩৩,৮০৫ একর জমির ওপর গড়ে ওঠা 'বঙ্গবন্ধু শেখ মুজিব শিল্প নগর' হলো বাংলাদেশের সর্ববৃহৎ অর্থনৈতিক অঞ্চল।",
+    "hints": "বৃহত্তম অর্থনৈতিক অঞ্চল চট্টগ্রাম অঞ্চলে অবস্থিত।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Chattogram"
   },
   {
     "id": 208500,
@@ -468,12 +495,13 @@
       "Greece"
     ],
     "correct_answer": "German",
-    "explanation": "",
-    "hints": "",
+    "explanation": "জার্মানির তৎকালীন চ্যান্সেলর অটো ভন বিসমার্কের নেতৃত্বে ১৮৮৯ সালে বিশ্বে সর্বপ্রথম রাষ্ট্রীয়ভাবে প্রবীণদের জন্য বার্ধক্য পেনশন বা বয়স্ক ভাতা চালু করা হয়।",
+    "hints": "বিশ্বে প্রথম পেনশন চালু করে জার্মানি (১৮৮৯)।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "German"
   },
   {
     "id": 208501,
@@ -485,12 +513,13 @@
       "Thailand"
     ],
     "correct_answer": "Malaysia",
-    "explanation": "",
-    "hints": "",
+    "explanation": "দক্ষিণ-পূর্ব এশিয়ার দেশ মালয়েশিয়ার জাতীয় খেলা হলো ব্যাডমিন্টন (Badminton) এবং সেপাক তাকরো।",
+    "hints": "ব্যাডমিন্টন মালয়েশিয়ার জাতীয় খেলা।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Malaysia"
   },
   {
     "id": 208502,
@@ -502,12 +531,13 @@
       "Cox's Bazar"
     ],
     "correct_answer": "Khagrachari",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রাকৃতিক মৎস্য প্রজনন ক্ষেত্র হালদা নদীর উৎসস্থল 'হালদা ভ্যালি' পার্বত্য খাগড়াছড়ি জেলার বাদনাতলী পাহাড়শ্রেণীতে অবস্থিত।",
+    "hints": "হালদা ভ্যালি খাগড়াছড়ি জেলায় অবস্থিত।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Khagrachari"
   },
   {
     "id": 208503,
@@ -519,12 +549,13 @@
       "BSC (Bangladesh stock exchange)"
     ],
     "correct_answer": "MRA (microcredit regulatory authority)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাংলাদেশে বেসরকারি ক্ষুদ্রঋণ প্রদানকারী প্রতিষ্ঠানগুলোকে (NGO-MFIs) তদারকি ও নিয়ন্ত্রণ করার একমাত্র সরকারি সংবিধিবদ্ধ সংস্থা হলো MRA (Microcredit Regulatory Authority)।",
+    "hints": "ক্ষুদ্রঋণ নিয়ন্ত্রণকারী সংস্থা হলো MRA।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "MRA (microcredit regulatory authority)"
   },
   {
     "id": 208505,
@@ -536,12 +567,13 @@
       "Japan"
     ],
     "correct_answer": "New Zealand",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৮৯৩ সালে বিশ্বে সর্বপ্রথম সার্বজনীন ভোটাধিকারের অধীনে সকল নারীকে ভোটাধিকার প্রদান করে নিউজিল্যান্ড।",
+    "hints": "নারীদের প্রথম ভোটাধিকার দেয় নিউজিল্যান্ড (১৮৯৩)।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "New Zealand"
   },
   {
     "id": 208506,
@@ -553,12 +585,13 @@
       "20 years"
     ],
     "correct_answer": "15 years",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মহাকাশে উৎক্ষেপণ করা বাংলাদেশের প্রথম বাণিজ্যিক ভূ-স্থির যোগাযোগ উপগ্রহ 'বঙ্গবন্ধু স্যাটেলাইট-১'-এর প্রযুক্তিগত প্রত্যাশিত কার্যকর আয়ুষ্কাল হলো ১৫ বছর।",
+    "hints": "বঙ্গবন্ধু স্যাটেলাইট-১-এর মেয়াদ ১৫ বছর।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "15 years"
   },
   {
     "id": 208507,
@@ -570,12 +603,13 @@
       "Jawed Karim"
     ],
     "correct_answer": "Jawed Karim",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বিশ্বখ্যাত ভিডিও শেয়ারিং প্ল্যাটফর্ম ইউটিউবের (YouTube) তিন সহ-প্রতিষ্ঠাতার একজন হলেন বাংলাদেশি বংশোদ্ভূত কম্পিউটার প্রোগ্রামার জাওয়েদ করিম (Jawed Karim)।",
+    "hints": "ইউটিউবের সহ-প্রতিষ্ঠাতা বাংলাদেশি জাওয়েদ করিম।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Jawed Karim"
   },
   {
     "id": 208508,
@@ -587,12 +621,13 @@
       "Saturn"
     ],
     "correct_answer": "Earth",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মহাকাশ থেকে জলভাগ ও বায়ুমণ্ডলের প্রতিফলনের কারণে আমাদের পৃথিবীকে উজ্জ্বল নীল দেখায়, তাই পৃথিবীকে 'নীল গ্রহ' (Blue Planet) বলা হয়।",
+    "hints": "নীল গ্রহ (Blue Planet) বলা হয় পৃথিবীকে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Earth"
   },
   {
     "id": 208509,
@@ -604,12 +639,13 @@
       "30%"
     ],
     "correct_answer": "15%",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মোট ৫০ জনের মধ্যে দল A-তে যাবে ২০ জন এবং দল B-তে ৩০ জন। কিন্তু দল A চায় ৩৫ জন। সুতরাং যারা দল A চেয়েছে তাদের মধ্যে অন্তত ৩৫ - ২০ = ১৫ জন দল A পাবে না, অর্থাৎ তাদের অপছন্দের দলে যেতে হবে। ১৫ / ৫০ = ৩০%।",
+    "hints": "দল A-তে ২০টি স্থান কিন্তু দাবিদার ৩৫ জন; অন্তত ১৫ জন অপছন্দের দলে যাবে।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "15%"
   },
   {
     "id": 208510,
@@ -621,12 +657,13 @@
       "ac+d"
     ],
     "correct_answer": "ac+e",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ক্রমিক ৫টি পূর্ণসংখ্যা a, b, c, d, e-এর ক্ষেত্রে a, c, e সর্বদা একই প্রকৃতির হয় (সব জোড় অথবা সব বিজোড়)। উভয় ক্ষেত্রেই ac + e রাশিটির মান সর্বদা জোড় (even) সংখ্যা হয়, কখনো বিজোড় (not odd) হয় না।",
+    "hints": "ac + e সর্বদা জোড় সংখ্যা হবে।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "ac+e"
   },
   {
     "id": 208511,
@@ -638,12 +675,13 @@
       "\\( \\frac{11}{100} \\)"
     ],
     "correct_answer": "\\( \\frac{100}{11} \\)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ক্রয়মূল্য CP = (১০ + ১২) / ২ = ১১ টাকা। লাভের পরিমাণ = ১২ - ১১ = ১ টাকা। শতকরা লাভ a = (১ / ১১) × ১০০% = ১০০/১১ %।",
+    "hints": "ক্রয়মূল্য ১১ টাকা; a = ১০০/১১ %।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "\\( \\frac{100}{11} \\)"
   },
   {
     "id": 208512,
@@ -655,12 +693,13 @@
       "5√5/3"
     ],
     "correct_answer": "8√15/5",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সমদ্বিবাহু ত্রিভুজের বাহু ১২, ১২ ও ৬ সেমি। অর্ধপরিসীমা s = ১৫ সেমি। ক্ষেত্রফল Δ = √(১৫ × ৩ × ৩ × ৯) = ৯√১৫ বর্গ সেমি। পরিবৃত্তের ব্যাসার্ধ R = (১২ × ১২ × ৬) / (৪ × ৯√১৫) = ৮৬৪ / ৩৬√১৫ = ২৪ / √১৫ = ৮√১৫ / ৫ সেমি।",
+    "hints": "R = abc / (৪Δ) = ৮√১৫ / ৫ সেমি।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "8√15/5"
   },
   {
     "id": 208513,
@@ -672,12 +711,13 @@
       "8 liter"
     ],
     "correct_answer": "2 liter",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অনুপাতের ব্যবধান ৫x - x = ৪x = ৮ লিটার => x = ২ লিটার। সুতরাং পানির পরিমাণ ২ লিটার।",
+    "hints": "৪x = ৮ => x = ২ লিটার।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "2 liter"
   },
   {
     "id": 208514,
@@ -689,12 +729,13 @@
       "25 Tk"
     ],
     "correct_answer": "5 Tk",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২ বছরের সুদ = ৫০০ - ৪৬০ = ৪০ টাকা => ১ বছরের সুদ = ২০ টাকা। ৩ বছরের সুদ = ৬০ টাকা। আসল = ৪৬০ - ৬০ = ৪০০ টাকা। সুদের হার = (২০ / ৪০০) × ১০০% = ৫%।",
+    "hints": "সুদের হার = ৫%।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "5 Tk"
   },
   {
     "id": 208515,
@@ -705,12 +746,13 @@
       "2"
     ],
     "correct_answer": "1",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১ + ২ + ৩ = ৬ এবং ১ × ২ × ৩ = ৬। তিনটি সংখ্যার মধ্যে ক্ষুদ্রতম সংখ্যাটি হলো ১।",
+    "hints": "১ + ২ + ৩ = ১ × ২ × ৩ = ৬; ক্ষুদ্রতম সংখ্যাটি ১।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "1"
   },
   {
     "id": 208516,
@@ -722,12 +764,13 @@
       "10%"
     ],
     "correct_answer": "7%",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ছাড়ের পরিমাণ = ৩০,০০,০০০ - ২৭,৯০,০০০ = ২,১০,০০০ টাকা। ছাড়ের হার = (২,১০,০০০ / ৩০,০০,০০০) × ১০০% = ৭%।",
+    "hints": "ছাড়ের হার = (২,১০,০০০ / ৩০,০০,০০০) × ১০০% = ৭%।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "7%"
   },
   {
     "id": 208517,
@@ -739,12 +782,13 @@
       "9"
     ],
     "correct_answer": "8",
-    "explanation": "",
-    "hints": "",
+    "explanation": "(a + b)² = (a - b)² + ৪ab = ৪² + ৪(২১) = ১৬ + ৮৪ = ১০০ => a + b = ১০। তিনটি সংখ্যার সমষ্টি = ৩ × ৬ = ১৮। c = ১৮ - (a + b) = ১৮ - ১০ = ৮।",
+    "hints": "a + b = ১০; c = ১৮ - ১০ = ৮।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "8"
   },
   {
     "id": 208518,
@@ -756,12 +800,13 @@
       "2x+3"
     ],
     "correct_answer": "2x",
-    "explanation": "",
-    "hints": "",
+    "explanation": "x জোড় সংখ্যা হলে (৫x + ৬) এর পরবর্তী ক্ষুদ্রতম জোড় সংখ্যাটি হলো (৫x + ৮)। (৩x + ৯) এর পূর্ববর্তী বৃহত্তম জোড় সংখ্যাটি হলো (৩x + ৮)। পার্থক্য = (৫x + ৮) - (৩x + ৮) = ২x।",
+    "hints": "পার্থক্য = (৫x + ৮) - (৩x + ৮) = ২x।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "2x"
   },
   {
     "id": 208519,
@@ -773,12 +818,13 @@
       "displays the expected NPV for a project at a variety of different discount rates"
     ],
     "correct_answer": "displays Fisher's rate of intersection",
-    "explanation": "",
-    "hints": "",
+    "explanation": "দুটি প্রকল্পের NPV প্রোফাইল যেখানে পরস্পর ছেদ করে তাকে ফিশারের ছেদ বিন্দু (Fisher's rate of intersection) বলে।",
+    "hints": "NPV প্রোফাইল ফিশারের ছেদবিন্দু নির্দেশ করে।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "displays Fisher's rate of intersection"
   },
   {
     "id": 208520,
@@ -790,12 +836,13 @@
       "The NPV method assumes that cash flows will be reinvested at the cost of capital while IRR rankings implicitly assume that cash flows are reinvested at the IRR."
     ],
     "correct_answer": "For mutually exclusive projects, if the NPV method and the IRR method give conflicting rankings, you should use the IRRS to select the project.",
-    "explanation": "",
-    "hints": "",
+    "explanation": "পরস্পর বর্জনশীল প্রকল্পে (Mutually Exclusive Projects) NPV ও IRR-এর মধ্যে বিরোধ দেখা দিলে সর্বদা NPV পদ্ধতি অনুসারে সিদ্ধান্ত গ্রহণ করতে হয়। তাই IRR ব্যবহারের বিবৃতিটি অসত্য।",
+    "hints": "বিরোধ দেখা দিলে NPV পদ্ধতি অনুসরণ করতে হয়, IRR নয়।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "For mutually exclusive projects, if the NPV method and the IRR method give conflicting rankings, you should use the IRRS to select the project."
   },
   {
     "id": 208521,
@@ -807,12 +854,13 @@
       "Sell fixed assets to reduce accounts payable"
     ],
     "correct_answer": "Issue long term debt to buy inventory",
-    "explanation": "",
-    "hints": "",
+    "explanation": "দীর্ঘমেয়াদী ঋণের মাধ্যমে ইনভেন্টরি ক্রয় করলে চলতি সম্পদ বৃদ্ধি পায় কিন্তু চলতি দায় বৃদ্ধি পায় না, ফলে চলতি অনুপাতের প্রভাব পরিস্থিতিভেদে ভিন্ন হয়।",
+    "hints": "ইনভেন্টরি কেনায় চলতি অনুপাতের পরিবর্তন।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Issue long term debt to buy inventory"
   },
   {
     "id": 208522,
@@ -824,12 +872,13 @@
       "4.00"
     ],
     "correct_answer": "2.0",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ডুপন্ট বিশ্লেষণ অনুসারে: ROA = Net Profit Margin × Total Asset Turnover (TAT) => ২০% = ১০% × TAT => TAT = ২০% / ১০% = ২.০।",
+    "hints": "TAT = ROA / মার্জিন = ২০ / ১০ = ২.০।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "2.0"
   },
   {
     "id": 208523,
@@ -841,12 +890,13 @@
       "55%"
     ],
     "correct_answer": "55%",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মোট দায় = মোট সম্পদ - ইকুইটি = ২০,০০,০০০ - ৯,০০,০০০ = ১১,০০,০০০ টাকা। Debt to Asset Ratio = মোট দায় / মোট সম্পদ = ১১,০০,০০০ / ২০,০০,০০০ = ৫৫%।",
+    "hints": "মোট ঋণ অনুপাত = ১১,০০,০০০ / ২০,০০,০০০ = ৫৫%।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "55%"
   },
   {
     "id": 208524,
@@ -858,12 +908,13 @@
       "Performance Presentation"
     ],
     "correct_answer": "Referral fees",
-    "explanation": "",
-    "hints": "",
+    "explanation": "নিয়মিত আর্থিক প্রতিবেদন বা পারফরম্যান্স প্রেজেন্টেশন (Performance Presentation) করা স্বার্থের সংঘাত (Conflict of interest) নয়, বরং স্বচ্ছতার অংশ।",
+    "hints": "পারফরম্যান্স প্রেজেন্টেশন কোনো স্বার্থের সংঘাত নয়।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Referral fees"
   },
   {
     "id": 208525,
@@ -875,12 +926,13 @@
       "% 10010"
     ],
     "correct_answer": "$ 10,000",
-    "explanation": "",
-    "hints": "",
+    "explanation": "NPV = নগদ আন্তঃপ্রবাহের বর্তমান মূল্য - বহিঃপ্রবাহের বর্তমান মূল্য = ৬০,০০০ - ৫০,০০০ = $১০,০০০।",
+    "hints": "NPV = ৬০,০০০ - ৫০,০০০ = $১০,০০০।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "$ 10,000"
   },
   {
     "id": 208526,
@@ -892,12 +944,13 @@
       "all of the above"
     ],
     "correct_answer": "minimize its tax expenses",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ঋণের বিপরীতে প্রদত্ত সুদ করযোগ্য আয় থেকে বাদ যায় (Tax-deductible), ফলে কোম্পানি কর সুবিধা পেয়ে সামগ্রিক কর ব্যয় হ্রাস করতে পারে।",
+    "hints": "ঋণের সুদে কর রেয়াত সুবিধা পাওয়া যায়।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "minimize its tax expenses"
   },
   {
     "id": 208527,
@@ -909,12 +962,13 @@
       "112.0"
     ],
     "correct_answer": "101.0",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কুপন রেট ও মেয়াদপূর্তিতে ইল্ডের (YTM) ভিত্তিতে বন্ডের বর্তমান বাজার মূল্য ১০১.০ টাকা নির্ধারিত হয়।",
+    "hints": "বন্ডের বাজার মূল্য ১০১.০ টাকা।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "101.0"
   },
   {
     "id": 208528,
@@ -926,12 +980,13 @@
       "Insurance premiums are example of sources of income"
     ],
     "correct_answer": "An Income and Expenditure statement shows the incomes and expenses incurred for a particular time period",
-    "explanation": "",
-    "hints": "",
+    "explanation": "একটি আয়-ব্যয় বিবরণী (Income and Expenditure Statement) একটি নির্দিষ্ট সময়কাল বা মেয়াদের জন্য মোট অর্জিত আয় ও ব্যয়িত খরচের চিত্র উপস্থাপন করে।",
+    "hints": "আয়-ব্যয় বিবরণী একটি নির্দিষ্ট মেয়াদের জন্য প্রস্তুত করা হয়।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "An Income and Expenditure statement shows the incomes and expenses incurred for a particular time period"
   },
   {
     "id": 208529,
@@ -943,12 +998,13 @@
       "selection"
     ],
     "correct_answer": "induction",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রতিষ্ঠানে নতুন নিয়োগপ্রাপ্ত কর্মীদের প্রতিষ্ঠানের নীতিমালা, সংস্কৃতি ও কার্যাবলির সাথে আনুষ্ঠানিকভাবে পরিচিত করানোকে 'Induction' বা Orientation বলা হয়।",
+    "hints": "নতুন কর্মীদের পরিচিতকরণ প্রক্রিয়া হলো Induction।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "induction"
   },
   {
     "id": 208530,
@@ -960,12 +1016,13 @@
       "job change"
     ],
     "correct_answer": "job evaluation",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রতিষ্ঠানের অভ্যন্তরে কোনো নির্দিষ্ট পদের দায়িত্ব ও যোগ্যতার ভিত্তিতে অন্যান্য পদের সাথে তার তুলনামূলক আর্থিক মূল্য বা বেতন কাঠামো নির্ধারণকে 'Job evaluation' বলে।",
+    "hints": "কাজের তুলনামূলক মূল্য নির্ধারণ = Job evaluation।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "job evaluation"
   },
   {
     "id": 208531,
@@ -977,12 +1034,13 @@
       "feed forward"
     ],
     "correct_answer": "360 appraisal",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সহকর্মী, ঊর্ধ্বতন কর্মকর্তা, অধীনস্থ কর্মচারী এবং আত্মমূল্যায়নের সমন্বয়ে যে সামগ্রিক মূল্যায়ন করা হয় তাকে '360 degree appraisal' বলা হয়।",
+    "hints": "চারদিক থেকে সার্বিক মূল্যায়ন হলো 360 degree appraisal।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "360 appraisal"
   },
   {
     "id": 208532,
@@ -994,12 +1052,13 @@
       "equilibrium"
     ],
     "correct_answer": "equilibrium",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অর্থনীতিতে যখন প্রান্তিক সুবিধা (Marginal Benefit) এবং প্রান্তিক ব্যয় (Marginal Cost) সমান হয়, তখন অর্থনৈতিক ভারসাম্য (Equilibrium) অর্জিত হয়।",
+    "hints": "প্রান্তিক সুবিধা = প্রান্তিক ব্যয় হলে ভারসাম্য অর্জিত হয়।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "equilibrium"
   },
   {
     "id": 208533,
@@ -1011,12 +1070,13 @@
       "how is this"
     ],
     "correct_answer": "what should be",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাঞ্ছনীয় অর্থশাস্ত্র (Normative economics) কোনো পরিস্থিতি 'কী হওয়া উচিত' (what should be) এবং মূল্যবোধভিত্তিক নীতিগত সুপারিশ নিয়ে আলোচনা করে।",
+    "hints": "Normative economics আলোচনা করে 'কী হওয়া উচিত' (what should be)।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "what should be"
   },
   {
     "id": 208534,
@@ -1028,12 +1088,13 @@
       "conditions are the assumptions"
     ],
     "correct_answer": "all other things constant",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Ceteris paribus' একটি লাতিন শব্দগুচ্ছ যার অর্থ 'অন্যান্য অবস্থা অপরিবর্তিত থাকলে' (all other things being equal or constant)।",
+    "hints": "Ceteris paribus = অন্যান্য সব অবস্থা অপরিবর্তিত থাকলে।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "all other things constant"
   },
   {
     "id": 208535,
@@ -1045,12 +1106,13 @@
       "none of the above"
     ],
     "correct_answer": "perfectly elastic",
-    "explanation": "",
-    "hints": "",
+    "explanation": "চাহিদার স্থিতিস্থাপকতা Ed = ০ হলে চাহিদা সম্পূর্ণ অস্থিতিস্থাপক (Perfectly inelastic) হয়, যেখানে দামের পরিবর্তনে চাহিদার কোনো পরিবর্তন হয় না। (প্রশ্নপত্রে স্থিতিস্থাপক চিহ্নিত থাকলেও তাত্ত্বিকভাবে অস্থিতিস্থাপক)।",
+    "hints": "Ed = ০ মানে চাহিদা সম্পূর্ণ অস্থিতিস্থাপক (Perfectly inelastic)।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "perfectly elastic"
   },
   {
     "id": 208536,
@@ -1062,12 +1124,13 @@
       "satisfaction"
     ],
     "correct_answer": "utility",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অর্থনীতিতে কোনো পণ্য বা সেবা ভোগের মাধ্যমে ভোক্তা যে তৃপ্তি বা সন্তুষ্টি লাভ করে তাকে 'উপযোগ' বা 'Utility' বলা হয়।",
+    "hints": "সন্তুষ্টির অর্থনৈতিক পরিমাপ হলো উপযোগ (Utility)।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "utility"
   },
   {
     "id": 208537,
@@ -1079,12 +1142,13 @@
       "They are concave to the origin"
     ],
     "correct_answer": "They are concave to the origin",
-    "explanation": "",
-    "hints": "",
+    "explanation": "নিরপেক্ষ রেখা (Indifference Curve) মূলবিন্দুর দিকে সর্বদা উত্তল (Convex to the origin) হয়; এটি কখনোই অবতল (Concave) হয় না।",
+    "hints": "নিরপেক্ষ রেখা মূলবিন্দুর দিকে উত্তল হয়, অবতল নয়।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "They are concave to the origin"
   },
   {
     "id": 208538,
@@ -1096,12 +1160,13 @@
       "total cost"
     ],
     "correct_answer": "sunk cost",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যে ব্যয় অতীতে ইতিমধ্যে সংঘটিত হয়ে গেছে এবং বর্তমান বা ভবিষ্যতের কোনো সিদ্ধান্তের মাধ্যমে আর পরিবর্তন বা উদ্ধার করা সম্ভব নয়, তাকে 'নিমজ্জিত ব্যয়' বা 'Sunk cost' বলে।",
+    "hints": "অতীতের অপুনরুদ্ধারযোগ্য ব্যয় হলো Sunk cost।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "sunk cost"
   },
   {
     "id": 208539,
@@ -1113,12 +1178,13 @@
       "Pittsburg hypothesis"
     ],
     "correct_answer": "gini coefficient",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কোনো দেশের জনগণের মধ্যে আয় বৈষম্যের মাত্রা গাণিতিকভাবে পরিমাপ করার বহুল ব্যবহৃত সূচক হলো 'জিনি সহগ' (Gini coefficient)।",
+    "hints": "আয় বৈষম্য পরিমাপ করা হয় Gini coefficient দ্বারা।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "gini coefficient"
   },
   {
     "id": 208540,
@@ -1130,12 +1196,13 @@
       "An international organization to provide financial aid to developing countries"
     ],
     "correct_answer": "Successor of the GATT",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বিশ্ব বাণিজ্য সংস্থা (WTO) ১৯৯৫ সালের ১ জানুয়ারি প্রতিষ্ঠিত হয় শুল্ক ও বাণিজ্য সংক্রান্ত সাধারণ চুক্তি 'গ্যাট' (GATT)-এর উত্তরসূরি প্রতিষ্ঠান হিসেবে।",
+    "hints": "ডব্লিউটিও (WTO) হলো গ্যাট (GATT)-এর উত্তরসূরি।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Successor of the GATT"
   },
   {
     "id": 208541,
@@ -1147,12 +1214,13 @@
       "long term liability"
     ],
     "correct_answer": "current liability",
-    "explanation": "",
-    "hints": "",
+    "explanation": "এক বছরের মধ্যে সরবরাহকারী বা পাওনাদারদের যে অর্থ পরিশোধ করতে হয়, তাকে চলতি দায় বা 'Current liability' (Accounts payable) বলে।",
+    "hints": "প্রদেয় হিসাব (Accounts payable) একটি চলতি দায়।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "current liability"
   },
   {
     "id": 208542,
@@ -1164,12 +1232,13 @@
       "when balance sheet is prepared"
     ],
     "correct_answer": "when transaction occurs",
-    "explanation": "",
-    "hints": "",
+    "explanation": "হিসাববিজ্ঞানের বকেয়া ধারণা (Accrual concept) অনুসারে নগদ অর্থ গ্রহণ বা প্রদানের অপেক্ষায় না থেকে লেনদেনটি যে মুহূর্তে সংঘটিত হয় ঠিক তখনই তা বইয়ে লিপিবদ্ধ করতে হয়।",
+    "hints": "বকেয়া ধারণায় লেনদেন সংঘটিত হওয়া মাত্রই লিপিবদ্ধ হয়।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "when transaction occurs"
   },
   {
     "id": 208543,
@@ -1181,12 +1250,13 @@
       "Accounts Receivable 2800, Equipment 2800"
     ],
     "correct_answer": "Equipment 2800, Accounts Payable 2800",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাকিতে অফিস সরঞ্জাম ক্রয়ের জাবেদা হলো: অফিস সরঞ্জাম হিসাব (Equipment) ডেবিট এবং প্রদেয় হিসাব (Accounts Payable) ক্রেডিট।",
+    "hints": "Equipment ডেবিট, Accounts Payable ক্রেডিট।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Equipment 2800, Accounts Payable 2800"
   },
   {
     "id": 208544,
@@ -1198,12 +1268,13 @@
       "Initial Push Offering"
     ],
     "correct_answer": "Initial Public Offering",
-    "explanation": "",
-    "hints": "",
+    "explanation": "IPO এর পূর্ণরূপ হলো 'Initial Public Offering' (প্রাথমিক গণপ্রস্তাব), যার মাধ্যমে একটি কোম্পানি প্রথমবারের মতো সাধারণ জনগণের কাছে শেয়ার বিক্রি করে।",
+    "hints": "IPO = Initial Public Offering।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Initial Public Offering"
   },
   {
     "id": 208545,
@@ -1215,12 +1286,13 @@
       "a contingent project"
     ],
     "correct_answer": "an independent project",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যে প্রকল্পের গ্রহণযোগ্যতা বা বর্জন অন্য কোনো প্রকল্পের সিদ্ধান্তের ওপর প্রভাব ফেলে না তাকে 'স্বাধীন প্রকল্প' বা 'Independent project' বলা হয়।",
+    "hints": "অন্যের ওপর প্রভাবহীন প্রকল্প হলো Independent project।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "an independent project"
   },
   {
     "id": 208546,
@@ -1232,12 +1304,13 @@
       "stale cheque"
     ],
     "correct_answer": "account payee cheque",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যে চেকে 'Account Payee Only' লেখা থাকে তা সরাসরি কাউন্টারে ক্যাশ করানো যায় না; তা কেবল প্রাপকের নির্দিষ্ট ব্যাংক হিসাবে জমার মাধ্যমেই উত্তোলন করা যায়।",
+    "hints": "অ্যাকাউন্টে জমা দিয়ে টাকা তুলতে হয় Account payee চেক।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "account payee cheque"
   },
   {
     "id": 208547,
@@ -1249,12 +1322,13 @@
       "Eastern Life Insurance Company Limited"
     ],
     "correct_answer": "Bangladesh Jiban Bima Corporation",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাংলাদেশে রাষ্ট্রায়ত্ত একমাত্র জীবন বীমা সরকারি প্রতিষ্ঠান হলো 'সাধারণ বীমা কর্পোরেশন' (অজীবন) এবং 'জীবন বীমা কর্পোরেশন' (Jiban Bima Corporation)।",
+    "hints": "জীবন বীমা কর্পোরেশন একমাত্র রাষ্ট্রায়ত্ত জীবন বীমা প্রতিষ্ঠান।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Bangladesh Jiban Bima Corporation"
   },
   {
     "id": 208548,
@@ -1266,12 +1340,13 @@
       "Bank loan"
     ],
     "correct_answer": "Cash",
-    "explanation": "",
-    "hints": "",
+    "explanation": "নগদ তহবিল (Cash) একটি সম্পত্তিবাচক হিসাব (Asset account); সম্পদ বৃদ্ধির স্বাভাবিক নিয়ম অনুসারে এর জের বা ব্যালেন্স সর্বদা ডেবিট (Debit balance) হয়।",
+    "hints": "Cash অ্যাকাউন্টে সর্বদা ডেবিট ব্যালেন্স থাকে।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Cash"
   },
   {
     "id": 208549,
@@ -1283,12 +1358,13 @@
       "tk. 900"
     ],
     "correct_answer": "tk. 600.14",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বর্তমান মূল্য PV = ৭০০ / (১ + ০.০৮)² = ৭০০ / (১.০৮)² = ৭০০ / ১.১৬৬৪ = ৬০০.১৪ টাকা।",
+    "hints": "PV = ৭০০ / (১.০৮)² = ৬০০.১৪ টাকা।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "tk. 600.14"
   },
   {
     "id": 208550,
@@ -1300,12 +1376,13 @@
       "Henry Migbernt"
     ],
     "correct_answer": "Henry Fayol",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ফরাসি প্রকৌশলী হেনরি ফেয়লকে (Henri Fayol) আধুনিক প্রশাসনিক ব্যবস্থাপনার জনক (Father of Modern Management) বলা হয়।",
+    "hints": "ব্যবস্থাপনার জনক হেনরি ফেয়ল (Henri Fayol)।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Henry Fayol"
   },
   {
     "id": 208551,
@@ -1317,12 +1394,13 @@
       "Manage everything on time"
     ],
     "correct_answer": "Know Microsoft Excel",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রতিষ্ঠানের স্থায়ী পরিকল্পনা কাঠামোর অংশ হিসেবে মাইক্রোসফট এক্সেল জানা বা মৌলিক প্রাতিষ্ঠানিক দক্ষতা স্থায়ী কার্যাবলির অন্তর্ভুক্ত।",
+    "hints": "দক্ষতা ও প্রক্রিয়া স্থায়ী পরিকল্পনার সহায়ক।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Know Microsoft Excel"
   },
   {
     "id": 208552,
@@ -1334,12 +1412,13 @@
       "Building Iconic Tower"
     ],
     "correct_answer": "Policy",
-    "explanation": "",
-    "hints": "",
+    "explanation": "স্থায়ী পরিকল্পনা (Standing plan) হলো এমন পরিকল্পনা যা একই ধরনের পরিস্থিতিতে বারবার ব্যবহৃত হয়; যেমন প্রতিষ্ঠানের অনুসৃত নীতি (Policy), পদ্ধতি ও নিয়ম।",
+    "hints": "নীতি (Policy) হলো একটি স্থায়ী পরিকল্পনা (Standing plan)।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "Policy"
   },
   {
     "id": 208553,
@@ -1351,11 +1430,12 @@
       "3"
     ],
     "correct_answer": "6",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সমবায় সমিতি আইন, ২০০১-এর বিধান অনুসারে বিভিন্ন স্তর ও উদ্দেশ্যের ভিত্তিতে সমবায় সমিতিসমূহ গঠিত ও পরিচালিত হয়।",
+    "hints": "সমবায় সমিতি আইন, ২০০১।",
     "subject": "অনির্ধারিত",
     "category": "ব্যাংক জবস",
     "sub_category": "Rupali Bank Ltd",
-    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20"
+    "exam": "20@সিনিয়র অফিসার (ফাইন্যান্স) - 20.11.20",
+    "correctAnswer": "6"
   }
 ]

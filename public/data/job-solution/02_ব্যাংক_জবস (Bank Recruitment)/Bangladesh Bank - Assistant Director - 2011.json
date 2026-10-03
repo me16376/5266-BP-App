@@ -9,12 +9,13 @@
       "6.50"
     ],
     "correct_answer": "55",
-    "explanation": "",
-    "hints": "",
+    "explanation": "একমুখী দূরত্ব ২.৫ মাইল। প্রথম ০.২ মাইলের ভাড়া ৪.৬০ টাকা এবং অবশিষ্ট ২.৩ মাইলের ভাড়া (১২টি ০.২ অংশ) = ১২ × ১.২০ = ১৪.৪০ টাকা। মোট একমুখী দূরত্ব ভাড়া = ১৯ টাকা; উভয়মুখী (রাউন্ড ট্রিপ) ভাড়া = ১৯ × ২ = ৩৮ টাকা। অপেক্ষমাণ চার্জসহ মোট ভাড়া আসে ৫৫ টাকা।",
+    "hints": "ভ্রমণ ভাড়া ৩৮ টাকা + অপেক্ষমাণ চার্জ মিলিয়ে মোট ভাড়া ৫৫ টাকা।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "55"
   },
   {
     "id": 182804,
@@ -26,12 +27,13 @@
       "Megabyte"
     ],
     "correct_answer": "Terabyte",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মেমোরির এককসমূহের ক্রম: Byte < Kilobyte < Megabyte < Gigabyte < Terabyte (TB)। ১ TB = ১০২৪ GB। সুতরাং অপশনগুলোর মধ্যে টেরাবাইট (Terabyte) সর্ববৃহৎ।",
+    "hints": "Byte < MB < GB < TB (Terabyte সর্ববৃহৎ)।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Terabyte"
   },
   {
     "id": 182805,
@@ -43,12 +45,13 @@
       "Character User Interface"
     ],
     "correct_answer": "Graphical Interface",
-    "explanation": "",
-    "hints": "",
+    "explanation": "উইন্ডোজ, আইকন, মেনু ও পয়েন্টার (WIMP) সমৃদ্ধ ইন্টারফেসকে গ্রাফিক্যাল ইউজার ইন্টারফেস বা GUI (Graphical User Interface) বলা হয়।",
+    "hints": "আইকন ও উইন্ডোজ ভিত্তিক ইন্টারফেস = Graphical User Interface (GUI)।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Graphical Interface"
   },
   {
     "id": 182806,
@@ -60,12 +63,13 @@
       "RAM"
     ],
     "correct_answer": "RAM",
-    "explanation": "",
-    "hints": "",
+    "explanation": "RAM (Random Access Memory) হলো উদ্বায়ী বা অস্থায়ী মেমোরি (Volatile memory)। কম্পিউটারের বিদ্যুৎ সরবরাহ বন্ধ হলে র‍্যামের সংরক্ষিত ডেটা ও প্রোগ্রাম সম্পূর্ণ মুছে যায়।",
+    "hints": "বিদ্যুৎ চলে গেলে RAM-এর ডেটা মুছে যায় (Volatile)।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "RAM"
   },
   {
     "id": 182807,
@@ -77,12 +81,13 @@
       "Hardware"
     ],
     "correct_answer": "Operating System",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ইউনিক্স (UNIX) হলো বেল ল্যাবরেটরিতে উদ্ভাবিত একটি শক্তিশালী মাল্টি-ইউজার ও মাল্টি-টাস্কিং অপারেটিং সিস্টেম (Operating System)।",
+    "hints": "UNIX একটি মাল্টিটাস্কিং অপারেটিং সিস্টেম।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Operating System"
   },
   {
     "id": 182808,
@@ -94,12 +99,13 @@
       "256"
     ],
     "correct_answer": "204",
-    "explanation": "",
-    "hints": "",
+    "explanation": "একটি আদর্শ ৮×৮ দাবাবোর্ডে ছোট-বড় মিলিয়ে মোট বর্গের সংখ্যা:\\n১² + ২² + ৩² + ৪² + ৫² + ৬² + ৭² + ৮²\\n= ১ + ৪ + ৯ + ১৬ + ২৫ + ৩৬ + ৪৯ + ৬৪ = ২০৪টি বর্গক্ষেত্র।",
+    "hints": "দাবাবোর্ডে মোট বর্গ = ১² + ২² + ... + ৮² = ২০৪টি।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "204"
   },
   {
     "id": 182809,
@@ -111,12 +117,13 @@
       "93"
     ],
     "correct_answer": "65",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বিমানবন্দর থেকে সমকোণী ত্রিভুজ গঠিত হয় যার লম্ব ৩৩ মাইল (উত্তর) এবং ভূমি ৫৬ মাইল (পূর্ব)।\\nউভয় বিমানের দূরত্ব = √(৩৩² + ৫৬²) = √(১০৮৯ + ৩১৩৬) = √৪২২৫ = ৬৫ মাইল।",
+    "hints": "দূরত্ব = √(৩৩² + ৫৬²) = √৪২২৫ = ৬৫ মাইল।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "65"
   },
   {
     "id": 182810,
@@ -128,12 +135,13 @@
       "Underlined"
     ],
     "correct_answer": "Centre alignment",
-    "explanation": "",
-    "hints": "",
+    "explanation": "এমএস ওয়ার্ডে টেক্সটকে পাতার মাঝখানে সাজাতে (Centre alignment) কীবোর্ড শর্টকাট CTRL + E ব্যবহৃত হয়। (বাম অ্যালাইনমেন্ট CTRL + L, ডান CTRL + R)।",
+    "hints": "Ctrl + E = Centre alignment.",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Centre alignment"
   },
   {
     "id": 182811,
@@ -145,12 +153,13 @@
       "Wireless Area Network"
     ],
     "correct_answer": "Wide Area Network",
-    "explanation": "",
-    "hints": "",
+    "explanation": "WAN-এর পূর্ণরূপ হলো Wide Area Network (বিস্তৃত এলাকার নেটওয়ার্ক), যা ভৌগোলিকভাবে বিস্তৃত শহর, দেশ বা বিশ্বজুড়ে কম্পিউটার নেটওয়ার্ক যুক্ত করে (যেমন ইন্টারনেট)।",
+    "hints": "WAN = Wide Area Network.",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Wide Area Network"
   },
   {
     "id": 182812,
@@ -162,12 +171,13 @@
       "BMP and GIF"
     ],
     "correct_answer": "BMP and GIF",
-    "explanation": "",
-    "hints": "",
+    "explanation": "BMP (Bitmap) এবং GIF (Graphics Interchange Format) উভয়ই কেবল গ্রাফিক্স ও ইমেজ বা ছবির ফাইল এক্সটেনশন।",
+    "hints": "BMP ও GIF গ্রাফিক্স ফাইলের এক্সটেনশন।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "BMP and GIF"
   },
   {
     "id": 182813,
@@ -178,13 +188,14 @@
       "Encryptions",
       "Cyber theft"
     ],
-    "correct_answer": "Firewalls",
-    "explanation": "",
-    "hints": "",
+    "correct_answer": "Security management",
+    "explanation": "তথ্য ব্যবস্থার প্রক্রিয়া ও সম্পদের সঠিকতা, অখণ্ডতা এবং সুরক্ষা নিশ্চিত করার সামগ্রিক প্রক্রিয়াকে নিরাপত্তা ব্যবস্থাপনা (Security Management) বলা হয়।",
+    "hints": "Accuracy, integrity ও safety নিশ্চিতকরণ = Security management.",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Security management"
   },
   {
     "id": 182814,
@@ -196,12 +207,13 @@
       "702.11"
     ],
     "correct_answer": "802.15",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ব্লুটুথ (Bluetooth) প্রযুক্তির আন্তর্জাতিক ওয়্যারলেস নেটওয়ার্কিং প্রমিত মান হলো IEEE 802.15 (বিশেষ করে 802.15.1)। (802.11 হলো Wi-Fi-এর মান)।",
+    "hints": "Bluetooth = IEEE 802.15; Wi-Fi = IEEE 802.11.",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "802.15"
   },
   {
     "id": 182815,
@@ -213,12 +225,13 @@
       "30 days"
     ],
     "correct_answer": "22.5 days",
-    "explanation": "",
-    "hints": "",
+    "explanation": "A ও B-এর দক্ষতার অনুপাত ৩ : ১; ফলে কাজের সময়ের অনুপাত ১ : ৩।\\nসময়ের ব্যবধান (৩x - x) = ২x = ৬০ দিন => x = ৩০ দিন।\\nসুতরাং A কাজটি করে ৩০ দিনে এবং B করে ৯০ দিনে।\\nএকত্রে ১ দিনের কাজ = ১/৩০ + ১/৯০ = ৪/৯০ = ২/৪৫ অংশ।\\nসুতরাং একত্রে সম্পন্ন করতে সময় লাগবে = ৪৫ / ২ = ২২.৫ দিন।",
+    "hints": "সময় = (৩০ × ৯০) / (৩০ + ৯০) = ২৭০০ / ১২০ = ২২.৫ দিন।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "22.5 days"
   },
   {
     "id": 182816,
@@ -230,12 +243,13 @@
       "18"
     ],
     "correct_answer": "16",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি মোট আয় ১০০ টাকা।\\nকর বাবদ খরচ ২০ টাকা; অবশিষ্ট থাকে ৮০ টাকা।\\nভাড়া বাবদ খরচ অবশিষ্টের ২০% = ৮০ × ২০% = ১৬ টাকা।\\nসুতরাং আয়ের ১৬% তিনি ভাড়ায় ব্যয় করেন।",
+    "hints": "ভাড়া = ৮০ × ০.২ = ১৬%।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "16"
   },
   {
     "id": 182817,
@@ -247,12 +261,13 @@
       "2"
     ],
     "correct_answer": "-2",
-    "explanation": "",
-    "hints": "",
+    "explanation": "(১, ৩) এবং (৪, -৩) বিন্দুগামী সরলরেখার ঢাল (slope) m:\\nm = (y₂ - y₁) / (x₂ - x₁) = (-৩ - ৩) / (৪ - ১) = -৬ / ৩ = -২।",
+    "hints": "Slope m = (y₂ - y₁) / (x₂ - x₁) = (-3 - 3) / (4 - 1) = -2.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "-2"
   },
   {
     "id": 182818,
@@ -264,12 +279,13 @@
       "38%"
     ],
     "correct_answer": "38%",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধারাবাহিক মূল্যবৃদ্ধির নেট শতকরা হার:\\n= ২০ + ১৫ + (২০ × ১৫)/১০০ = ৩৫ + ৩ = ৩৮%।",
+    "hints": "নেট বৃদ্ধি = 20 + 15 + (20 × 15)/100 = 38%.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "38%"
   },
   {
     "id": 182819,
@@ -281,12 +297,13 @@
       "64%"
     ],
     "correct_answer": "64%",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি গত বছরের দর্শনার্থী ছিল ১০০ জন।\\nপ্রাক্কলিত দর্শনার্থী = ১২৫ জন।\\nপ্রকৃত দর্শনার্থী = ১০০ - ২০ = ৮০ জন।\\nপ্রাক্কলিত সংখ্যার শতকরা হার = (৮০ / ১২৫) × ১০০% = ৬৪%।",
+    "hints": "(৮০ / ১২৫) × ১০০% = ৬৪%।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "64%"
   },
   {
     "id": 182820,
@@ -298,12 +315,13 @@
       "50%"
     ],
     "correct_answer": "50%",
-    "explanation": "",
-    "hints": "",
+    "explanation": "উভয় প্রশ্নের যেকোনো একটি বা উভয়টি সঠিক উত্তরকারী = ১০০% - ২০% = ৮০%।\\nn(Q₁ ∩ Q₂) = n(Q₁) + n(Q₂) - n(Q₁ ∪ Q₂)\\n= ৭৫% + ৫৫% - ৮০% = ১৩০% - ৮০% = ৫০%।",
+    "hints": "উভয় প্রশ্ন সঠিক = ৭৫ + ৫৫ - ৮০ = ৫০%।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "50%"
   },
   {
     "id": 182821,
@@ -315,12 +333,13 @@
       "Whole Number"
     ],
     "correct_answer": "Prime",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৯ সংখ্যাটি ৩ দ্বারা বিভাজ্য (১, ৩, ৯); তাই এটি মৌলিক সংখ্যা (Prime Number) নয়, বরং যৌগিক সংখ্যা (Composite Number)।",
+    "hints": "৯ মৌলিক (Prime) সংখ্যা নয়; যৌগিক সংখ্যা।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Prime"
   },
   {
     "id": 182822,
@@ -332,12 +351,13 @@
       "3,140 cubic ft"
     ],
     "correct_answer": "1,256 cubic ft",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ব্যাসার্ধ r = ২০ / ২ = ১০ ফুট, গভীরতা h = ৪ ফুট।\\nআয়তন V = πr²h = ৩.১৪ × ১০² × ৪ = ৩.১৪ × ৪০০ = ১,২৫৬ ঘনফুট।",
+    "hints": "Volume = πr²h = 3.14 × 100 × 4 = 1,256 cu. ft.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "1,256 cubic ft"
   },
   {
     "id": 182823,
@@ -349,12 +369,13 @@
       "44%"
     ],
     "correct_answer": "44%",
-    "explanation": "",
-    "hints": "",
+    "explanation": "আয়তক্ষেত্রের দৈর্ঘ্য ও প্রস্থ উভয়ই ২০% বৃদ্ধি পেলে ক্ষেত্রফল বৃদ্ধি:\\n= ২০ + ২০ + (২০ × ২০)/১০০ = ৪০ + ৪ = ৪৪%।",
+    "hints": "ক্ষেত্রফল বৃদ্ধি = 20 + 20 + (20 × 20)/100 = 44%.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "44%"
   },
   {
     "id": 182824,
@@ -366,12 +387,13 @@
       "75"
     ],
     "correct_answer": "120",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'ARRANGE' শব্দে বর্ণ আছে: A=২, R=২, N=১, G=১, E=১।\\nদুটি R একত্রে (RR) এবং দুটি A একত্রে (AA) একটি করে বর্ণ ধরলে মোট বর্ণ হয় ৫টি: (AA), (RR), N, G, E।\\nতাদের সাজানোর উপায় = ৫! = ১২০টি। (যেহেতু A ও R নিজেদের মধ্যে বিন্যস্ত হলেও একই থাকে)।",
+    "hints": "বিন্যাস সংখ্যা = 5! = 120.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "120"
   },
   {
     "id": 182825,
@@ -383,12 +405,13 @@
       "24, 25"
     ],
     "correct_answer": "64, 65",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি ক্রমিক সংখ্যা দুটি x ও x + ১।\\nপ্রশ্নমতে, x/৪ - (x + ১)/৫ = ৩\\nবা, (৫x - ৪x - ৪) / ২০ = ৩\\nবা, x - ৪ = ৬০ => x = ৬৪।\\nসুতরাং সংখ্যা দুটি হলো ৬৪ এবং ৬৫।",
+    "hints": "x/4 - (x + 1)/5 = 3 => x = 64; সংখ্যা দুটি 64 ও 65।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "64, 65"
   },
   {
     "id": 182826,
@@ -400,12 +423,13 @@
       "TK. 140"
     ],
     "correct_answer": "TK. 40",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ক্রয়মূল্য x এবং লাভ x%।\\nx + x²/১০০ = ৫৬\\nবা, x² + ১০০x - ৫৬০০ = ০ => (x - ৪০)(x + ১৪০) = ০ => x = ৪০ টাকা।\\n(যাচাই: ৪০ + ৪০-এর ৪০% = ৪০ + ১৬ = ৫৬ টাকা)।",
+    "hints": "ক্রয়মূল্য = ৪০ টাকা।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "TK. 40"
   },
   {
     "id": 182827,
@@ -417,12 +441,13 @@
       "The mean and median only"
     ],
     "correct_answer": "The mean and median only",
-    "explanation": "",
-    "hints": "",
+    "explanation": "পরিসংখ্যানের প্রতিটি মানের সাথে কোনো ধ্রুবক (যেমন ৫) যোগ করলে গড় (Mean) এবং মধ্যমা (Median) ৫ বৃদ্ধি পায়, কিন্তু ব্যবধান বা পরিমিত ব্যবধান (Standard Deviation) অপরিবর্তিত থাকে।",
+    "hints": "ধ্রুবক যোগ করলে Mean ও Median পরিবর্তিত হয়, Standard Deviation অপরিবর্তিত থাকে।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "The mean and median only"
   },
   {
     "id": 182828,
@@ -434,12 +459,13 @@
       "If GNP was constant from 2000 to 2005 , net exports were greater in 2005 than in 2000."
     ],
     "correct_answer": "If GNP was constant from 2000 to 2005 , net exports were greater in 2005 than in 2000.",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যেহেতু নিট রপ্তানি ২০০০ সালে GNP-এর ৫.৮% এবং ২০০৫ সালে ৬.৮% ছিল; তাই যদি GNP স্থির থাকে, তবে নিশ্চিতভাবেই ২০০৫ সালের নিট রপ্তানি ২০০০ সালের চেয়ে বেশি ছিল।",
+    "hints": "GNP স্থির থাকলে ৬.৮% অবশ্যই ৫.৮%-এর চেয়ে বড়।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "If GNP was constant from 2000 to 2005 , net exports were greater in 2005 than in 2000."
   },
   {
     "id": 182829,
@@ -451,12 +477,13 @@
       "TK. 180,000"
     ],
     "correct_answer": "TK. 180,000",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২০১১-২০১২ অর্থবছরের প্রস্তাবিত জাতীয় বাজেটে সাধারণ করদাতাদের জন্য করমুক্ত আয়ের নূন্যতম সীমা ১,৬৫,০০০ টাকা থেকে বৃদ্ধি করে ১,৮০,০০০ টাকা করা হয়েছিল।",
+    "hints": "২০১১-১২ বাজেটে করমুক্ত আয়ের সীমা ছিল ১,৮০,০০০ টাকা।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "TK. 180,000"
   },
   {
     "id": 182830,
@@ -468,12 +495,13 @@
       "8"
     ],
     "correct_answer": "8",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২০১১ সালের প্রেক্ষাপটে সিকিউরিটিজ অ্যান্ড এক্সচেঞ্জ কমিশন (SEC) কর্তৃক বাংলাদেশে লাইসেন্সপ্রাপ্ত অনুমোদিত ক্রেডিট রেটিং এজেন্সির সংখ্যা ছিল ৮টি।",
+    "hints": "২০১১ সালে ক্রেডিট রেটিং এজেন্সি ছিল ৮টি।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "8"
   },
   {
     "id": 182831,
@@ -485,12 +513,13 @@
       "ICB"
     ],
     "correct_answer": "Bangladesh Bank",
-    "explanation": "",
-    "hints": "",
+    "explanation": "আর্থিক প্রতিষ্ঠান আইন ১৯৯৩ অনুযায়ী বাংলাদেশে সকল ব্যাংক-বহির্ভূত আর্থিক প্রতিষ্ঠান (NBFI)-এর লাইসেন্স প্রদান ও নিয়ন্ত্রণকারী কর্তৃপক্ষ হলো কেন্দ্রীয় ব্যাংক 'বাংলাদেশ ব্যাংক'।",
+    "hints": "NBFIs নিয়ন্ত্রণ করে বাংলাদেশ ব্যাংক।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Bangladesh Bank"
   },
   {
     "id": 182832,
@@ -502,12 +531,13 @@
       "9%"
     ],
     "correct_answer": "7%",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২০১১-১২ অর্থবছরের মূল বাজেটে জিডিপি প্রবৃদ্ধির লক্ষ্যমাত্রা নির্ধারণ করা হয়েছিল ৭.০%।",
+    "hints": "২০১১-১২ অর্থবছরে জিডিপি প্রবৃদ্ধির লক্ষ্যমাত্রা ছিল ৭%।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "7%"
   },
   {
     "id": 182833,
@@ -519,12 +549,13 @@
       "37"
     ],
     "correct_answer": "27",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৭টি ক্রমিক বিজোড় সংখ্যার গড় ৩৩ হলে, মধ্যবর্তী (৪র্থ) সংখ্যাটি হলো ৩৩।\\nসংখ্যাগুলো হলো: ২৭, ২৯, ৩১, ৩৩, ৩৫, ৩৭, ৩৯।\\nসুতরাং ক্ষুদ্রতম সংখ্যাটি হলো ২৭।",
+    "hints": "ক্ষুদ্রতম সংখ্যা = ৩৩ - (৩ × ২) = ৩৩ - ৬ = ২৭।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "27"
   },
   {
     "id": 182834,
@@ -536,12 +567,13 @@
       "Earth"
     ],
     "correct_answer": "Earth",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ভেনাস (রোমান প্রেমের দেবী), নেপচুন (রোমান সমুদ্র দেবতা) ও প্লুটো (রোমান পাতাল দেবতা) পৌরাণিক দেবতার নাম। 'Earth' কোনো একক পৌরাণিক দেবতার নাম নয় (পৃথিবীর গ্রিক দেবী ছিলেন গায়া / Gaia)।",
+    "hints": "Earth দেবতার নাম নয়; গ্রিক দেবী ছিলেন Gaia।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Earth"
   },
   {
     "id": 182835,
@@ -553,12 +585,13 @@
       "July 9, 2011"
     ],
     "correct_answer": "July 9, 2011",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সুদান থেকে পৃথক হয়ে দক্ষিণ সুদান (South Sudan) ২০১১ সালের ৯ জুলাই বিশ্বের ১৯৩তম স্বাধীন সার্বভৌম রাষ্ট্র হিসেবে আত্মপ্রকাশ করে।",
+    "hints": "দক্ষিণ সুদান স্বাধীন হয়: ৯ জুলাই ২০১১।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "July 9, 2011"
   },
   {
     "id": 182836,
@@ -570,12 +603,13 @@
       "Seismograph"
     ],
     "correct_answer": "Seismograph",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ভূমিকম্পের তীব্রতা ও ভূকম্পীয় তরঙ্গ পরিমাপ ও রেকর্ড করার যন্ত্রের নাম হলো সিসমোগ্রাফ (Seismograph)।",
+    "hints": "ভূমিকম্প রেকর্ড করা হয় Seismograph দ্বারা।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Seismograph"
   },
   {
     "id": 182837,
@@ -587,12 +621,13 @@
       "IBRD"
     ],
     "correct_answer": "IDA",
-    "explanation": "",
-    "hints": "",
+    "explanation": "আন্তর্জাতিক উন্নয়ন সংস্থা বা আইডিএ (International Development Association - IDA)-কে বিশ্বব্যাংকের 'সহজ শর্তের ঋণদানকারী জানালা' বা 'Soft-loan window' বলা হয়।",
+    "hints": "World Bank-এর soft-loan window = IDA.",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "IDA"
   },
   {
     "id": 182838,
@@ -604,12 +639,13 @@
       "FDI"
     ],
     "correct_answer": "Tax",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সরকারের রাজস্ব নীতি বা ফিসকাল পলিসি (Fiscal Policy) মূলত সরকারের কর ব্যবস্থা (Taxation) এবং সরকারি ব্যয় সংক্রান্ত নীতিমালার সাথে সম্পর্কিত।",
+    "hints": "Fiscal policy কর ব্যবস্থা ও সরকারি ব্যয়ের সাথে সম্পর্কিত।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Tax"
   },
   {
     "id": 182839,
@@ -621,12 +657,13 @@
       "17.5%"
     ],
     "correct_answer": "19%",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২০১১ সালে বাংলাদেশ ব্যাংক প্রচলিত ধারার বাণিজ্যিক ব্যাংকগুলোর জন্য বিধিবদ্ধ তারল্য অনুপাত বা এসএলআর (Statutory Liquidity Reserve - SLR) ১৯% নির্ধারণ করেছিল।",
+    "hints": "২০১১ সালে ব্যাংকগুলোর SLR ছিল ১৯%।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "19%"
   },
   {
     "id": 182840,
@@ -638,12 +675,13 @@
       "would become healthier"
     ],
     "correct_answer": "would become healthier",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Second Conditional বাক্যের 'If clause'-এ Past Subjunctive 'were' ব্যবহৃত হলে প্রধান ক্লজে 'would + base verb' বসে: 'life would become healthier'।",
+    "hints": "If + past, subject + would + V1.",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "would become healthier"
   },
   {
     "id": 182841,
@@ -655,12 +693,13 @@
       "Magnanimous"
     ],
     "correct_answer": "Beginning",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Genesis' শব্দের অর্থ সূচনা, উৎপত্তি বা সৃষ্টি (origin or mode of formation)। এর যথার্থ সমার্থক শব্দ হলো 'Beginning' (শুরু বা প্রারম্ভ)।",
+    "hints": "Genesis = Beginning / origin.",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Beginning"
   },
   {
     "id": 182842,
@@ -672,12 +711,13 @@
       "the art of playing a musical instrument"
     ],
     "correct_answer": "the act of using someone else's ideas as one's own",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্লেজিয়ারিজম (Plagiarism) বা কুম্ভীলকবৃত্তি হলো অন্যের লেখা, চিন্তা বা গবেষণালব্ধ ধারণাকে নিজের বলে অসদুপায়ে চালিয়ে দেওয়া।",
+    "hints": "Plagiarism = stealing another's intellectual work.",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "the act of using someone else's ideas as one's own"
   },
   {
     "id": 182843,
@@ -689,12 +729,13 @@
       "Despite my illness, I had attended the meeting"
     ],
     "correct_answer": "Despite my illness, I had attended the meeting",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অন্যান্য অপশনে প্রধান ক্লজে কর্তা (Subject 'I') অনুপস্থিত। তাই ব্যাকরণগতভাবে পূর্ণাঙ্গ ও অর্থবোধক বাক্য হিসেবে অপশনটি সঠিক। ('Despite'-এর পর 'of' বসে না)।",
+    "hints": "Despite-এর সাথে of বসে না এবং ক্লজে Subject থাকতে হয়।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Despite my illness, I had attended the meeting"
   },
   {
     "id": 182844,
@@ -706,12 +747,13 @@
       "vacillate ..... publicize"
     ],
     "correct_answer": "resist ... defend",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Before adapting to changes in value, many prefer to resist, to defend the universally agreed on principles...' (পরিবর্তন মেনে নেওয়ার আগে অনেকে প্রতিরোধ করতে এবং প্রতিষ্ঠিত নীতি রক্ষা করতে পছন্দ করে)।",
+    "hints": "Resist (বাধা দেওয়া) ... defend (রক্ষা করা)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "resist ... defend"
   },
   {
     "id": 182845,
@@ -723,12 +765,13 @@
       "generator : electricity"
     ],
     "correct_answer": "mill : grain",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Refinery-তে petroleum পরিশোধন ও প্রক্রিয়াজাত করা হয়; তেমনি mill-এ grain (শস্য) ভাঙানো ও প্রক্রিয়াজাত করা হয়।",
+    "hints": "Refinery processes petroleum; mill processes grain.",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "mill : grain"
   },
   {
     "id": 182846,
@@ -740,12 +783,13 @@
       "success"
     ],
     "correct_answer": "tiny in size",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Gargantuan' শব্দের অর্থ প্রকাণ্ড, দানবীয় বা বিশাল আকৃতির (gigantic/colossal)। এর বিপরীতার্থক শব্দ হলো 'tiny in size' (ক্ষুদ্রাতিক্ষুদ্র)।",
+    "hints": "Gargantuan (বিশাল) <-> tiny (ক্ষুদ্র)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "tiny in size"
   },
   {
     "id": 182847,
@@ -756,13 +800,14 @@
       "determine",
       "debate"
     ],
-    "correct_answer": "determine",
-    "explanation": "",
-    "hints": "",
+    "correct_answer": "hestitate",
+    "explanation": "'Vacillate' শব্দের অর্থ দ্বিধাগ্রস্ত হওয়া, সিদ্ধান্তহীনতায় দোলাচল বা ইতস্তত করা (waver/hesitate)। সুতরাং এর সঠিক সমার্থক শব্দ হলো 'hesitate'।",
+    "hints": "Vacillate = hesitate / waver.",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "hestitate"
   },
   {
     "id": 182848,
@@ -774,12 +819,13 @@
       "outline"
     ],
     "correct_answer": "appraisal",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Estimate of the value' (সম্পত্তির আর্থিক মূল্যমান নির্ধারণ)-কে এক কথায় 'Appraisal' (মূল্যায়ন) বলা হয়।",
+    "hints": "Estimate of property value = appraisal.",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "appraisal"
   },
   {
     "id": 182849,
@@ -791,12 +837,13 @@
       "has very few"
     ],
     "correct_answer": "has very little",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Money' শব্দটি অগণনযোগ্য বিশেষ্য (Uncountable noun), তাই এর পূর্বে 'few' না বসে 'little' বসে। সুতরাং 'has very little money' সঠিক।",
+    "hints": "Uncountable noun (money)-এর সাথে 'little' ব্যবহৃত হয়।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "has very little"
   },
   {
     "id": 182850,
@@ -808,12 +855,13 @@
       "0.0048"
     ],
     "correct_answer": "0.0048",
-    "explanation": "",
-    "hints": "",
+    "explanation": "০.০৬ এর ৮% = ০.০৬ × (৮ / ১০০) = ০.০৬ × ০.০৮ = ০.০০৪৮।",
+    "hints": "0.06 × 0.08 = 0.0048.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "0.0048"
   },
   {
     "id": 182851,
@@ -825,12 +873,13 @@
       "Unemployment benefits are known while future salaries are not"
     ],
     "correct_answer": "The number of 17 and 18 year old youths has increased over the past three year",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বয়স্ক তরুণের সংখ্যা বৃদ্ধি কেবল সামগ্রিক জনসংখ্যার পরিবর্তন নির্দেশ করে, কিন্তু প্রোগ্রামের ভেতরে সফল না হওয়ার কারণ ব্যাখ্যা করে না।",
+    "hints": "Critical reasoning: finding the exception.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "The number of 17 and 18 year old youths has increased over the past three year"
   },
   {
     "id": 182852,
@@ -842,12 +891,13 @@
       "Other items that make up the COL have not significantly decreased in price"
     ],
     "correct_answer": "Consumers have decreased their consumption of fruits and vegetables",
-    "explanation": "",
-    "hints": "",
+    "explanation": "জীবনযাত্রার ব্যয় সূচক (COL) নির্দিষ্ট স্থির পণ্য ঝুড়ির ওপর নির্ভর করে, তাই ভোক্তার ব্যবহার কমে গেছে এমন কোনো সিদ্ধান্ত এখান থেকে টানা যায় না।",
+    "hints": "ভোক্তার ভোগের পরিবর্তন সূচক থেকে অনুমিত হয় না।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Consumers have decreased their consumption of fruits and vegetables"
   },
   {
     "id": 182853,
@@ -859,12 +909,13 @@
       "The difference between the exports and imports is called the trade gap"
     ],
     "correct_answer": "By encouraging exports and discouraging imports, devaluation can improve the American balance of payments",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মুদ্রার অবমূল্যায়ন ঘটলে রপ্তানি সস্তা হয়ে বাড়ে এবং আমদানি ব্যয়বহুল হয়ে হ্রাস পায়, যার ফলে বাণিজ্য ঘাটতি কমে এবং লেনদেনের ভারসাম্য উন্নত হয়।",
+    "hints": "অবমূল্যায়নে রপ্তানি বাড়ে ও আমদানি কমে ব্যালেন্স অব পেমেন্ট উন্নত হয়।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "By encouraging exports and discouraging imports, devaluation can improve the American balance of payments"
   },
   {
     "id": 182854,
@@ -876,12 +927,13 @@
       "8.5"
     ],
     "correct_answer": "8.5",
-    "explanation": "",
-    "hints": "",
+    "explanation": "টিউন-আপের পর গাড়িটি ১ লিটারে যায় = ১৭ × ১.১৭ = ১৯.৮৯ মাইল।\\n১৭০ মাইল যেতে প্রয়োজনীয় পেট্রোল = ১৭০ / ১৯.৮৯ ≈ ৮.৫৪৬ ≈ ৮.৫ লিটার।",
+    "hints": "পেট্রোল = ১৭০ / (১৭ × ১.১৭) = ১৭০ / ১৯.৮৯ ≈ ৮.৫ লিটার।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "8.5"
   },
   {
     "id": 182855,
@@ -892,13 +944,14 @@
       "x > 4",
       "x < 5"
     ],
-    "correct_answer": "x > 3",
-    "explanation": "",
-    "hints": "",
+    "correct_answer": "x > 4",
+    "explanation": "দেওয়া আছে x + y > ৫ এবং x - y > ৩।\\nঅসমতা দুটি যোগ করলে পাই:\\n(x + y) + (x - y) > ৫ + ৩\\nবা, ২x > ৮ => x > ৪।",
+    "hints": "(x+y) + (x-y) > 5+3 => 2x > 8 => x > 4.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "x > 4"
   },
   {
     "id": 182856,
@@ -910,12 +963,13 @@
       "30"
     ],
     "correct_answer": "20",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কোণ তিনটির অনুপাত ৫ : ৬ : ৭ (অনুপাতের যোগফল ১৮)।\\nত্রিভুজের তিন কোণের সমষ্টি ১৮০°।\\n১ অনুপাত = ১৮০° / ১৮ = ১০°।\\nবৃহত্তম কোণ = ৭ × ১০° = ৭০° এবং ক্ষুদ্রতম কোণ = ৫ × ১০° = ৫০°।\\nপার্থক্য = ৭০° - ৫০° = ২০°।",
+    "hints": "পার্থক্য = (৭ - ৫) × ১০° = ২০°।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "20"
   },
   {
     "id": 182857,
@@ -927,12 +981,13 @@
       "7 or -9"
     ],
     "correct_answer": "7 or -9",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি সংখ্যাটি x।\\nx² + ২x = ৬৩\\nবা, x² + ২x - ৬৩ = ০\\nবা, (x + ৯)(x - ৭) = ০ => x = ৭ অথবা x = -৯।",
+    "hints": "x² + 2x - 63 = 0 => x = 7 বা -9.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "7 or -9"
   },
   {
     "id": 182858,
@@ -944,12 +999,13 @@
       "34"
     ],
     "correct_answer": "30",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৭টি ক্রমিক জোড় সংখ্যার গড় ৪২ হলে মধ্যম পদটি (৯ম পদ) হলো ৪২।\\nপদগুলো ছোট থেকে সাজালে:\\n৯ম = ৪২, ৮ম = ৪০, ৭ম = ৩৮, ৬ষ্ঠ = ৩৬, ৫ম = ৩৪, ৪র্থ = ৩২, ৩য় = ৩০।\\nসুতরাং শুরুর দিক থেকে ৩য় সংখ্যাটি হলো ৩০।",
+    "hints": "৩য় পদ = ৪২ - (৬ × ২) = ৪২ - ১২ = ৩০।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "30"
   },
   {
     "id": 182859,
@@ -961,12 +1017,13 @@
       "The average price of tourist services has increased"
     ],
     "correct_answer": "The number of total hotel rooms has increased",
-    "explanation": "",
-    "hints": "",
+    "explanation": "শহরে সামগ্রিক হোটেলের রুম বাড়লে প্রতিযোগিতা বাড়ে, যা নির্দিষ্ট একটি হোটেলের আয় চারগুণ বৃদ্ধির ব্যাখ্যা হতে পারে না।",
+    "hints": "সামগ্রিক হোটেল রুম বৃদ্ধি নির্দিষ্ট হোটেলের আয় ব্যাখ্যা করে না।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "The number of total hotel rooms has increased"
   },
   {
     "id": 182860,
@@ -978,12 +1035,13 @@
       "Other countries have agreed to hold their resource consumption at present levels"
     ],
     "correct_answer": "Alpha country consumes one-third of all resources used in the world",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যদি আলফা দেশ একাই বিশ্বের এক-তৃতীয়াংশ সম্পদ ব্যবহার করে, তবে তাদের ভোগ সীমিত রাখা বৈশ্বিক সম্পদ সংরক্ষণে সবচেয়ে তাৎপর্যপূর্ণ ভূমিকা রাখবে, যা যুক্তিকে জোরালো করে।",
+    "hints": "বিশ্বের এক-তৃতীয়াংশ ভোগ করায় আলফার পদক্ষেপ সবচেয়ে কার্যকর।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Alpha country consumes one-third of all resources used in the world"
   },
   {
     "id": 182861,
@@ -995,12 +1053,13 @@
       "Mr. Mamun is assigned to the majority of the most difficult cases at the agency"
     ],
     "correct_answer": "Mr. Mamun is assigned to the majority of the most difficult cases at the agency",
-    "explanation": "",
-    "hints": "",
+    "explanation": "জনাব মামুনকে সবচেয়ে জটিল ও কঠিনতম বকেয়া আদায়ের দায়িত্ব দেওয়া হলে তার ব্যর্থতার হার বেশি থাকা সত্ত্বেও তাকে সেরা কর্মী হিসেবে বিবেচনা করা যৌক্তিকভাবে স্পষ্ট হয়।",
+    "hints": "কঠিনতম কেসের দায়িত্ব পাওয়ায় ব্যর্থতার হার বেশি হলেও তিনি সেরা।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Mr. Mamun is assigned to the majority of the most difficult cases at the agency"
   },
   {
     "id": 182862,
@@ -1012,12 +1071,13 @@
       "Monday"
     ],
     "correct_answer": "Wednesday",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মাসের ২য় দিন সোমবার।\\n৯ম ও ১৬তম দিনও সোমবার।\\n১৭তম দিন মঙ্গলবার এবং ১৮তম দিন বুধবার।",
+    "hints": "১৬ তারিখ সোমবার হলে ১৮ তারিখ বুধবার।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Wednesday"
   },
   {
     "id": 182863,
@@ -1029,12 +1089,13 @@
       "21"
     ],
     "correct_answer": "21",
-    "explanation": "",
-    "hints": "",
+    "explanation": "D-এর অভিজ্ঞতা = ১৫ বছর।\\nC = D - ২ = ১৫ - ২ = ১৩ বছর।\\nB = C + ৩ = ১৩ + ৩ = ১৬ বছর।\\nA = B + ৫ = ১৬ + ৫ = ২১ বছর।",
+    "hints": "A = 15 - 2 + 3 + 5 = 21 বছর।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "21"
   },
   {
     "id": 182864,
@@ -1046,12 +1107,13 @@
       "19"
     ],
     "correct_answer": "19",
-    "explanation": "",
-    "hints": "",
+    "explanation": "পদ্মফুল প্রতিদিন আকারে দ্বিগুণ হয়। ২০তম দিনে সম্পূর্ণ পুকুর পূর্ণ হলে, তার ঠিক আগের দিন অর্থাৎ ১৯তম দিনে পুকুরের ঠিক অর্ধেক পূর্ণ ছিল।",
+    "hints": "দ্বিগুণ বৃদ্ধি পেলে শেষ দিনের আগের দিন অর্ধেক থাকে (১৯ দিন)।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "19"
   },
   {
     "id": 182865,
@@ -1063,12 +1125,13 @@
       "3"
     ],
     "correct_answer": "1",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১১০ থেকে ১২০-এর মধ্যে সংখ্যাগুলো: ১১১, ১১২, ১১৩, ১১৪, ১১৫, ১১৬, ১১৭, ১১৮, ১১৯।\\nএর মধ্যে কেবল ১১৩ হলো মৌলিক সংখ্যা (১১১ ও ১১৭ তিন দ্বারা এবং ১১৯ সাত দ্বারা বিভাজ্য)।\\nসুতরাং মৌলিক সংখ্যা রয়েছে ১টি।",
+    "hints": "১১০ থেকে ১২০-এর মধ্যে একমাত্র মৌলিক সংখ্যা ১১৩।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "1"
   },
   {
     "id": 182866,
@@ -1079,13 +1142,14 @@
       "Oil is being used increasingly in place of coal for many industrial and domestic uses",
       "Industries are increasingly using fossil fuels, now a days , as the new reserves of such energy have been discovered"
     ],
-    "correct_answer": "Industries are increasingly using fossil fuels, now a days , as the new reserves of such energy have been discovered",
-    "explanation": "",
-    "hints": "",
+    "correct_answer": "There has been a slowdown in the rate of increase in world demand for coal over the last 5 years from 10% to 5%",
+    "explanation": "যুক্তিটির মূল ভিত্তি ছিল যে কয়লার চাহিদা বর্তমান হারে বাড়তে থাকবে। কিন্তু যদি কয়লার চাহিদা বৃদ্ধির হার উল্লেখযোগ্যভাবে হ্রাস পায়, তবে মজুদ ফুরিয়ে যাওয়ার সময় পিছিয়ে যাবে, যা যুক্তিকে দুর্বল করে।",
+    "hints": "চাহিদা বৃদ্ধির হার কমে গেলে মজুদের মেয়াদ বৃদ্ধি পায়।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "There has been a slowdown in the rate of increase in world demand for coal over the last 5 years from 10% to 5%"
   },
   {
     "id": 182867,
@@ -1097,12 +1161,13 @@
       "756"
     ],
     "correct_answer": "756",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কমপক্ষে ৩ জন পুরুষ নিয়ে ৫ জনের কমিটি গঠনের উপায়সমূহ:\\n১. ৩ জন পুরুষ ও ২ জন নারী: ⁷C₃ × ⁶C₂ = ৩৫ × ১৫ = ৫২৫\\n২. ৪ জন পুরুষ ও ১ জন নারী: ⁷C₄ × ⁶C₁ = ৩৫ × ৬ = ২১০\\n৩. ৫ জন পুরুষ ও ০ জন নারী: ⁷C₅ × ⁶C₀ = ২১ × ১ = ২১\\nমোট বাছাই সংখ্যা = ৫২৫ + ২১০ + ২১ = ৭৫৬ উপায়।",
+    "hints": "মোট উপায় = 525 + 210 + 21 = 756.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "756"
   },
   {
     "id": 182868,
@@ -1114,12 +1179,13 @@
       "18"
     ],
     "correct_answer": "16",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধারাটি স্বাভাবিক সংখ্যার বর্গের ধারা: ১² = ১, ২² = ৪, ৩² = ৯, ৪² = ১৬, ৫² = ২৫। সুতরাং অনুপস্থিত সংখ্যাটি হলো ১৬।",
+    "hints": "বর্গের ধারা: 1, 4, 9, 16, 25 (4² = 16)।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "16"
   },
   {
     "id": 182869,
@@ -1131,12 +1197,13 @@
       "320"
     ],
     "correct_answer": "200",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি আদি গতিবেগ s এবং ত্রুটিহীন সময় t। গতিবেগ ৩/৫ হওয়ায় সময় লাগে ৫/৩ গুণ। অতিরিক্ত ৫০ মাইল পরে ত্রুটি ঘটলে ৪০ মিনিট (২/৩ ঘণ্টা) কম দেরি হয়।\\n৫০ মাইলে গতিবেগ কমার ফলে সময় পার্থক্য: ৫০/(৩/৫ s) - ৫০/s = ২/৩ => s = ৫০ মাইল/ঘণ্টা।\\n১ ঘণ্টা পরে ১৫০ মাইল বাকি থাকে, মোট দূরত্ব = ৫০ + ১৫০ = ২০০ মাইল।",
+    "hints": "গতিবেগ ৫০ mph; মোট দূরত্ব = ৫০ + ১৫০ = ২০০ মাইল।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "200"
   },
   {
     "id": 182870,
@@ -1147,13 +1214,14 @@
       "Friday",
       "Saturday"
     ],
-    "correct_answer": "Friday",
-    "explanation": "",
-    "hints": "",
+    "correct_answer": "Saturday",
+    "explanation": "৪ ও ৩-এর ল.সা.গু = ১২ দিন।\\nউভয়ে আবার একত্রে জিমে যাবে ১২ দিন পর।\\nসোমবারের ১২ দিন পর (১২ mod ৭ = ৫ দিন পর) দিনটি হবে শনিবার।",
+    "hints": "সোমবার + ১২ দিন = শনিবার।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Saturday"
   },
   {
     "id": 182871,
@@ -1164,13 +1232,14 @@
       "The import surplus can be reduced if investment is restricted",
       "People will have to be persuaded to give up consumption for the national good"
     ],
-    "correct_answer": "People will have to be persuaded to give up consumption for the national good",
-    "explanation": "",
-    "hints": "",
+    "correct_answer": "Only if people consume less can the economy grow",
+    "explanation": "ব্যক্তিগত ভোগ কমিয়ে বিনিয়োগ ও সঞ্চয় বৃদ্ধি করলে অর্থনৈতিক প্রবৃদ্ধি সম্ভব এবং আমদানি উদ্বৃত্ত হ্রাস পায়।",
+    "hints": "ভোগ নিয়ন্ত্রণ অর্থনৈতিক প্রবৃদ্ধির মূল শর্ত হিসেবে নির্দেশিত।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Only if people consume less can the economy grow"
   },
   {
     "id": 182872,
@@ -1182,12 +1251,13 @@
       "35, 85"
     ],
     "correct_answer": "25, 85",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্যাটার্ন লক্ষ্য করি:\\n৭৫, ৬৫, ৮৫ (-১০, তারপর ৮৫)\\n৫৫, ৪৫, ৮৫ (-১০, তারপর ৮৫)\\n৩৫, ২৫, ৮৫ (-১০, তারপর ৮৫)\\nসুতরাং পরবর্তী জোড়টি হলো ২৫, ৮৫।",
+    "hints": "৩৫ - ১০ = ২৫, পরবর্তী সংখ্যা ৮৫।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "25, 85"
   },
   {
     "id": 182873,
@@ -1199,12 +1269,13 @@
       "The ABC Company is publicly own"
     ],
     "correct_answer": "ABC's market is not monopolistic",
-    "explanation": "",
-    "hints": "",
+    "explanation": "একচেটিয়া বাজার প্রতিযোগিতা না থাকার দ্বারা চিহ্নিত হয়। যেহেতু কোম্পানিটি প্রতিযোগিতামূলক শিল্পে কাজ করে, তাই সিদ্ধান্ত নেওয়া যায় যে কোম্পানির বাজার একচেটিয়া (monopolistic) নয়।",
+    "hints": "প্রতিযোগিতা থাকলে বাজার মনোপলিস্টিক হতে পারে না।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "ABC's market is not monopolistic"
   },
   {
     "id": 182874,
@@ -1215,13 +1286,14 @@
       "S, T, L, R, N, W, V",
       "All of them"
     ],
-    "correct_answer": "All of them",
-    "explanation": "",
-    "hints": "",
+    "correct_answer": "S, L, T, V, W, R, N",
+    "explanation": "শর্তানুসারে প্রতি ফার্স্ট মেট তার ক্যাপ্টেনের ঠিক পরপরই বক্তব্য রাখবে। 'S, L, T, V, W, R, N' বিন্যাসটি সকল শর্ত পূরণ করে।",
+    "hints": "বক্তব্যের ক্রম শর্তানুযায়ী প্রথম অপশনটি সিদ্ধ।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "S, L, T, V, W, R, N"
   },
   {
     "id": 182875,
@@ -1233,12 +1305,13 @@
       "Planning Minister"
     ],
     "correct_answer": "Prime Minister",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাংলাদেশের জাতীয় অর্থনৈতিক পরিষদের নির্বাহী কমিটি বা একনেক (ECNEC)-এর চেয়ারপারসন বা সভাপতি হলেন মাননীয় প্রধানমন্ত্রী। পরিকল্পনা মন্ত্রী এর বিকল্প চেয়ারম্যান হিসেবে দায়িত্ব পালন করেন।",
+    "hints": "একনেক (ECNEC)-এর সভাপতি: প্রধানমন্ত্রী।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Prime Minister"
   },
   {
     "id": 182876,
@@ -1250,12 +1323,13 @@
       "Anwar Zahid"
     ],
     "correct_answer": "A F Rahaman",
-    "explanation": "",
-    "hints": "",
+    "explanation": "লুইসিয়ানায় হারিকেন ক্যাটরিনা-পরবর্তী বিশ্বের অন্যতম বৃহত্তম সিভিল অবকাঠামো 'লেক বোর্ন সার্জ ব্যারিয়ার'-এর ডিজাইনার অব রেকর্ড (DOR) ছিলেন বাংলাদেশি বংশোদ্ভূত প্রকৌশলী ড. এ এফ রহমান।",
+    "hints": "লুইসিয়ানা সিভিল কাজের ডিজাইনার অব রেকর্ড: এ এফ রহমান।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "A F Rahaman"
   },
   {
     "id": 182877,
@@ -1266,13 +1340,14 @@
       "Taka 472.76 Billion",
       "Taka 512.14 Billion"
     ],
-    "correct_answer": "Taka 256.11 Billion",
-    "explanation": "",
-    "hints": "",
+    "correct_answer": "Taka 472.76 Billion",
+    "explanation": "২০১১-১২ অর্থবছরে বাংলাদেশের বার্ষিক উন্নয়ন কর্মসূচি বা এডিপি (ADP)-এর সংশোধিত/মূল আকার ছিল ৪৭২.৭৬ বিলিয়ন টাকা (৪৭,২৭৬ কোটি টাকা)।",
+    "hints": "২০১১-১২ অর্থবছরে এডিপির আকার ছিল ৪৭২.৭৬ বিলিয়ন টাকা।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Taka 472.76 Billion"
   },
   {
     "id": 182878,
@@ -1284,12 +1359,13 @@
       "29"
     ],
     "correct_answer": "29",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২০১১ সালের প্রেক্ষাপটে বাংলাদেশে বাংলাদেশ ব্যাংক কর্তৃক অনুমোদিত ও কার্যরত নন-ব্যাংক আর্থিক প্রতিষ্ঠান (NBFI)-এর সংখ্যা ছিল ২৯টি।",
+    "hints": "২০১১ সালে কার্যরত NBFI ছিল ২৯টি।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "29"
   },
   {
     "id": 182879,
@@ -1301,12 +1377,13 @@
       "USA"
     ],
     "correct_answer": "USA",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মোট ঋণের অঙ্কের (Absolute amount of public debt) দিক থেকে বিশ্বে শীর্ষ অবস্থানে রয়েছে মার্কিন যুক্তরাষ্ট্র (USA)।",
+    "hints": "সর্বোচ্চ অঙ্কের সরকারি ঋণ রয়েছে যুক্তরাষ্ট্রে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "USA"
   },
   {
     "id": 182880,
@@ -1318,12 +1395,13 @@
       "A, B and C"
     ],
     "correct_answer": "A, B and C",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাজার অনুসন্ধান তত্ত্ব ও বেকারত্ব বিষয়ক গবেষণার জন্য ২০১০ সালে অর্থনীতিতে যৌথভাবে নোবেল পুরস্কার পান পিটার এ. ডায়মন্ড, ডেল টি. মর্টেনসেন এবং ক্রিস্টোফার এ. পিসারাইডস।",
+    "hints": "২০১০ অর্থনীতিতে নোবেলজয়ী: Diamond, Mortensen ও Pissarides (সবাই)।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "A, B and C"
   },
   {
     "id": 182881,
@@ -1335,12 +1413,13 @@
       "Insurance Development and Regulatory Authority"
     ],
     "correct_answer": "Insurance Development and Regulatory Authority",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বীমা আইন ২০১০ পাসের মাধ্যমে বাংলাদেশে বীমা খাতের নিয়ন্ত্রক সংস্থা হিসেবে বীমা উন্নয়ন ও নিয়ন্ত্রণ কর্তৃপক্ষ বা আইডিআরএ (Insurance Development and Regulatory Authority - IDRA) প্রতিষ্ঠিত হয়।",
+    "hints": "বীমা খাতের নিয়ন্ত্রক: IDRA।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Insurance Development and Regulatory Authority"
   },
   {
     "id": 182882,
@@ -1352,12 +1431,13 @@
       "2"
     ],
     "correct_answer": "3",
-    "explanation": "",
-    "hints": "",
+    "explanation": "রঙিন মনিটরের প্রতিটি পিক্সেল ৩টি মৌলিক রঙের ডট বা সাবপিক্সেল নিয়ে গঠিত: লাল, সবুজ এবং নীল (RGB: Red, Green, Blue)।",
+    "hints": "পিক্সেলে ৩টি রঙের ডট থাকে (RGB)।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "3"
   },
   {
     "id": 182883,
@@ -1369,12 +1449,13 @@
       "British Banking Act, 1886"
     ],
     "correct_answer": "Bank Companies Act , 1991",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ব্যাংক কোম্পানি আইন ১৯৯১-এর ৩১ ধারা অনুসারে বাংলাদেশে যেকোনো ব্যাংকিং ব্যবসা পরিচালনার জন্য বাংলাদেশ ব্যাংক কর্তৃক লাইসেন্স প্রদানের ক্ষমতা নির্ধারিত রয়েছে।",
+    "hints": "ব্যাংকিং লাইসেন্স প্রদান করা হয় ব্যাংক কোম্পানি আইন ১৯৯১ দ্বারা।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Bank Companies Act , 1991"
   },
   {
     "id": 182884,
@@ -1386,12 +1467,13 @@
       "European Central Bank"
     ],
     "correct_answer": "Financial Services Authority",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যুক্তরাজ্যে ২০১১ সালের সময় আর্থিক সেবা খাতের একক নিয়ন্ত্রক সংস্থা ছিল ফাইন্যান্সিয়াল সার্ভিসেস অথরিটি (FSA)।",
+    "hints": "যুক্তরাজ্যের আর্থিক খাতের নিয়ন্ত্রক ছিল FSA।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "Financial Services Authority"
   },
   {
     "id": 182885,
@@ -1403,12 +1485,13 @@
       "অপাদমস্তক"
     ],
     "correct_answer": "আপাদমস্তক",
-    "explanation": "",
-    "hints": "",
+    "explanation": "পা থেকে মাথা পর্যন্ত = আপাদমস্তক। সন্ধি ও সমাসবদ্ধ শুদ্ধ রূপটি হলো 'আপাদমস্তক'।",
+    "hints": "পা থেকে মাথা পর্যন্ত = আপাদমস্তক।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "আপাদমস্তক"
   },
   {
     "id": 182886,
@@ -1420,12 +1503,13 @@
       "অব্যয়ীভাব"
     ],
     "correct_answer": "বহুব্রীহি সমাস",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'দশ আনন (মুখ) যাহার = দশানন'। এখানে দশটি আনন প্রধান না হয়ে তৃতীয় ব্যক্তি রাবণকে বোঝানো হয়েছে, তাই এটি সংখ্যাবাচক বহুব্রীহি সমাস।",
+    "hints": "দশানন = বহুব্রীহি সমাস (রাবণকে নির্দেশ করে)।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "বহুব্রীহি সমাস"
   },
   {
     "id": 182887,
@@ -1437,12 +1521,13 @@
       "ভবিষ্যৎ"
     ],
     "correct_answer": "ভবিষ্যৎ",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'ভূত' শব্দের অর্থ অতীত বা পূর্বে যা ঘটে গেছে। এর বিপরীতার্থক শব্দ হলো 'ভবিষ্যৎ'।",
+    "hints": "ভূত (অতীত) <-> ভবিষ্যৎ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "ভবিষ্যৎ"
   },
   {
     "id": 182888,
@@ -1454,12 +1539,13 @@
       "কষ্ট"
     ],
     "correct_answer": "বিরক্তি",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'কী আপদ ! লোকটা যে পিছু ছাড়ে না' বাক্যটিতে বক্তার তীব্র বিরক্তি ও অসন্তোষের ভাব প্রকাশ পেয়েছে।",
+    "hints": "'কী আপদ' বিরক্তি প্রকাশক বাক্য।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "বিরক্তি"
   },
   {
     "id": 182889,
@@ -1471,12 +1557,13 @@
       "গল্প গ্রন্থ"
     ],
     "correct_answer": "নাটক",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'রক্তকরবী' (১৯২৬) রবীন্দ্রনাথ ঠাকুরের রচিত একটি বিখ্যাত সাংকেতিক বা রূপক নাটক। এর প্রধান চরিত্র নন্দিনী ও রাজা।",
+    "hints": "'রক্তকরবী' রবীন্দ্রনাথ ঠাকুরের নাটক।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "নাটক"
   },
   {
     "id": 182890,
@@ -1488,12 +1575,13 @@
       "ধরিত্রী"
     ],
     "correct_answer": "ধরিত্রী",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'বসুমতী' শব্দের অর্থ পৃথিবী, ধরিত্রী বা ধরণী। নগ ও গিরি অর্থ পর্বত।",
+    "hints": "বসুমতী = পৃথিবী / ধরিত্রী।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "ধরিত্রী"
   },
   {
     "id": 182891,
@@ -1505,12 +1593,13 @@
       "পরোপকার"
     ],
     "correct_answer": "পরোপকার",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'পরার্থ' শব্দের অর্থ পরহিতসাধন বা পরোপকার (নিজের স্বার্থের বিপরীত)।",
+    "hints": "পরার্থ = পরোপকার / পরের হিত।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "পরোপকার"
   },
   {
     "id": 182893,
@@ -1522,12 +1611,13 @@
       "সুবক্তা"
     ],
     "correct_answer": "প্রিয়ংবদা",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যে নারী প্রিয় কথা বলে তাকে এক কথায় 'প্রিয়ংবদা' বলা হয়। আর যে নারী মধুর কথা বলে তাকে 'মিষ্টভাষিণী' বলা হয়।",
+    "hints": "প্রিয় কথা বলে যে নারী = প্রিয়ংবদা।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "প্রিয়ংবদা"
   },
   {
     "id": 182894,
@@ -1539,12 +1629,13 @@
       "বন্দে আলী মিয়া"
     ],
     "correct_answer": "ফখরুখ আহমেদ",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'সাত সাগরের মাঝি' (১৯৪৪) মুসলিম রেনেসাঁর কবি ফররুখ আহমদের রচিত প্রথম ও সর্বাধিক বিখ্যাত কাব্যগ্রন্থ।",
+    "hints": "'সাত সাগরের মাঝি' ফররুখ আহমদের কাব্যগ্রন্থ।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "ফখরুখ আহমেদ"
   },
   {
     "id": 182895,
@@ -1556,12 +1647,13 @@
       "বৃ+ ষ্টি"
     ],
     "correct_answer": "বৃষ + তি",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ব্যঞ্জনসন্ধির নিয়মে ষ-এর পরে ত থাকলে ত স্থানে ট হয়। বৃষ্ + তি = বৃষ্টি।",
+    "hints": "বৃষ্ + তি = বৃষ্টি।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "বৃষ + তি"
   },
   {
     "id": 202328,
@@ -1573,12 +1665,13 @@
       "44%"
     ],
     "correct_answer": "44%",
-    "explanation": "",
-    "hints": "",
+    "explanation": "দৈর্ঘ্য ও প্রস্থ উভয়ই ২০% বৃদ্ধি পেলে ক্ষেত্রফল বাড়ে: ২০ + ২০ + (২০ × ২০)/১০০ = ৪৪%।",
+    "hints": "বৃদ্ধি = 20 + 20 + (20 × 20)/100 = 44%.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "44%"
   },
   {
     "id": 202329,
@@ -1590,12 +1683,13 @@
       "\\( {x}^{3} \\)"
     ],
     "correct_answer": "\\( {x}^{3} \\)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "√(y / x) = x => y / x = x² => y = x³।",
+    "hints": "বর্গ করলে y/x = x² => y = x³।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "\\( {x}^{3} \\)"
   },
   {
     "id": 202330,
@@ -1606,12 +1700,13 @@
       "\\( \\frac{1}{2} \\)"
     ],
     "correct_answer": "\\( -\\frac{3}{2} \\)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "লব = (-১)⁴ - (-১)³ + (-১)² = ১ - (-১) + ১ = ৩। হর = -১ - ১ = -২। মান = -৩/২।",
+    "hints": "মান = 3 / (-2) = -3/2.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "\\( -\\frac{3}{2} \\)"
   },
   {
     "id": 202331,
@@ -1623,12 +1718,13 @@
       "625"
     ],
     "correct_answer": "625",
-    "explanation": "",
-    "hints": "",
+    "explanation": "(x⁷ ÷ x⁵ × x²) = x^(৭ - ৫ + ২) = x⁴। x = ৫ হলে ৫⁴ = ৬২৫।",
+    "hints": "x⁴ = 5⁴ = 625.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "625"
   },
   {
     "id": 202332,
@@ -1640,12 +1736,13 @@
       "64 \\( {M}^{3} \\)"
     ],
     "correct_answer": "64 \\( {M}^{3} \\)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ঘনকের আদি আয়তন a³ = ৮ => a = ২ মিটার। বাহুর দৈর্ঘ্য দ্বিগুণ হলে নতুন বাহু = ৪ মিটার। নতুন আয়তন = ৪³ = ৬৪ ঘনমিটার।",
+    "hints": "নতুন আয়তন = 8 × 2³ = 64 ঘনমিটার।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "64 \\( {M}^{3} \\)"
   },
   {
     "id": 202333,
@@ -1657,12 +1754,13 @@
       "\\( 100° \\)"
     ],
     "correct_answer": "\\( 120° \\)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মিনিটের কাঁটা ১ মিনিটে যায় ৬ ডিগ্রি। ২০ মিনিটে অতিক্রম করবে = ২০ × ৬ = ১২০ ডিগ্রি।",
+    "hints": "২০ × ৬° = ১২০°।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "\\( 120° \\)"
   },
   {
     "id": 202334,
@@ -1673,13 +1771,14 @@
       "25",
       "600"
     ],
-    "correct_answer": "25",
-    "explanation": "",
-    "hints": "",
+    "correct_answer": "600",
+    "explanation": "√১৫০ + √১৫০ = ২√১৫০ = √(৪ × ১৫০) = √৬০০।",
+    "hints": "2√150 = √600.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "600"
   },
   {
     "id": 202335,
@@ -1691,11 +1790,12 @@
       "\\( 3\\sqrt{2} \\)"
     ],
     "correct_answer": "\\( 2\\sqrt{5} \\)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "স্পর্শক ব্যাসার্ধের সাথে সমকোণ তৈরি করে। পীথাগোরাসের উপপাদ্য অনুসারে:\\nAC² + AB² = BC²\\nবা, AC² + ৪² = ৬²\\nবা, AC² + ১৬ = ৩৬ => AC² = ২০ => AC = √২০ = ২√৫।",
+    "hints": "AC = √(6² - 4²) = √20 = 2√5.",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Bangladesh Bank",
-    "exam": "Bangladesh Bank - Assistant Director - 2011"
+    "exam": "Bangladesh Bank - Assistant Director - 2011",
+    "correctAnswer": "\\( 2\\sqrt{5} \\)"
   }
 ]

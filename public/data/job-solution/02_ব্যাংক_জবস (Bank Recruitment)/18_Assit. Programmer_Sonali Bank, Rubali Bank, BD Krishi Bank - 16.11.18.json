@@ -9,12 +9,13 @@
       "100"
     ],
     "correct_answer": "5",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি, বলের দাম = x টাকা।\\nসুতরাং ব্যাটের দাম = (x + 100) টাকা।\\nপ্রশ্নমতে,\\nx + (x + 100) = 110\\n⇒ 2x + 100 = 110\\n⇒ 2x = 10\\n⇒ x = 5 টাকা।\\nঅতএব, বলের দাম ৫ টাকা (এবং ব্যাটের দাম ১০৫ টাকা)।",
+    "hints": "💡 বলের দাম x হলে ব্যাট x + 100; সুতরাং 2x + 100 = 110 ⇒ x = 5।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "5"
   },
   {
     "id": 203536,
@@ -26,12 +27,13 @@
       "any set of positive numbers"
     ],
     "correct_answer": "the maximal set of numbers for which a function is defined",
-    "explanation": "",
-    "hints": "",
+    "explanation": "একটি গাণিতিক ফাংশনে যে সমস্ত বাস্তব ইনপুট মানের জন্য ফাংশনটি সংজ্ঞায়িত ও বৈধ মান প্রদান করে, সেই সম্ভাব্য ইনপুট মানের সেটকে ফাংশনটির ডোমেন (Domain) বলা হয়। সুতরাং, Domain of a function is the maximal set of numbers for which a function is defined.",
+    "hints": "💡 ফাংশনে বৈধ ইনপুট মানের সম্পূর্ণ সেটকে ডোমেন বলে।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "the maximal set of numbers for which a function is defined"
   },
   {
     "id": 203569,
@@ -43,12 +45,13 @@
       "United Arab Emirate"
     ],
     "correct_answer": "Qatar",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মধ্যপ্রাচ্যের দেশগুলোর মধ্যে কাতার (Qatar) প্রাকৃতিক গ্যাস রপ্তানিতে শীর্ষস্থানীয়। বিশ্বের অন্যতম বৃহৎ প্রাকৃতিক গ্যাস ক্ষেত্র 'নর্থ ফিল্ড' কাতারে অবস্থিত এবং দেশটি তরলীকৃত প্রাকৃতিক গ্যাস (LNG) রপ্তানিতে বিশ্বে অগ্রগণ্য।",
+    "hints": "💡 মধ্যপ্রাচ্যের বৃহত্তম প্রাকৃতিক গ্যাস ও এলএনজি রপ্তানিকারক দেশ কাতার।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Qatar"
   },
   {
     "id": 203573,
@@ -60,12 +63,13 @@
       "Identity matrix"
     ],
     "correct_answer": "Idempotent matrix",
-    "explanation": "",
-    "hints": "",
+    "explanation": "রৈখিক বীজগণিতে (Linear Algebra), কোনো বর্গাকার ম্যাট্রিক্স A-এর জন্য যদি A² = A হয়, তবে সেই ম্যাট্রিক্সকে সমঘাতী বা Idempotent ম্যাট্রিক্স বলা হয়।\\nঅন্যান্য প্রকারভেদ:\\n• A² = I হলে তাকে Involutory ম্যাট্রিক্স বলে।\\n• Aᵀ = A⁻¹ হলে Orthogonal ম্যাট্রিক্স বলে।\\n• Aᵏ = 0 হলে Nilpotent ম্যাট্রিক্স বলে।",
+    "hints": "💡 A² = A হলে তাকে Idempotent (সমঘাতী) ম্যাট্রিক্স বলে।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Idempotent matrix"
   },
   {
     "id": 203574,
@@ -77,12 +81,13 @@
       "logarithmic"
     ],
     "correct_answer": "logarithmic",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমে প্রতি ধাপে অনুসন্ধান পরিসীমা অর্ধেক হয়ে যায় (Divide and Conquer)। তাই n সংখ্যক উপাদানের একটি সর্টেড অ্যারেতে উপাদান অনুসন্ধানের সময় জটিলতা (Time Complexity) হয় O(log₂ n) বা লগারিদমিক (logarithmic)।",
+    "hints": "💡 বাইনারি সার্চের সময় জটিলতা O(log n) বা লগারিদমিক।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "logarithmic"
   },
   {
     "id": 203575,
@@ -94,12 +99,13 @@
       "6"
     ],
     "correct_answer": "6",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৪ দৈর্ঘ্যের বিট স্ট্রিং-এ মোট ৪টি অবস্থান থাকে। এর মধ্যে ২টি স্থানে '১' এবং বাকি ২টি স্থানে '০' বসানোর মোট বিন্যাস সংখ্যা হলো সমাবেশ বা Combination:\\n⁴C₂ = (4 × 3) / (2 × 1) = ৬টি।\\nসম্ভাব্য স্ট্রিংগুলো হলো: 0011, 0101, 0110, 1001, 1010, 1100।",
+    "hints": "💡 ৪টি স্থানে ২টি ১ বসানোর উপায় ⁴C₂ = ৬টি।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "6"
   },
   {
     "id": 203576,
@@ -111,12 +117,13 @@
       "6,12"
     ],
     "correct_answer": "8,12",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি, সেট A-এর উপাদান সংখ্যা n(A) = 4 এবং সেট B-এর উপাদান সংখ্যা n(B) = 8।\\n• সংযোগ সেট A ∪ B-এর উপাদান সংখ্যা সর্বনিম্ন হবে যখন A সম্পূর্ণরূপে B-এর উপসেট (A ⊆ B) হয়: n(A ∪ B) = n(B) = 8।\\n• উপাদান সংখ্যা সর্বোচ্চ হবে যখন A ও B সম্পূর্ণ নিচ্ছেদ সেট (A ∩ B = ∅) হয়: n(A ∪ B) = n(A) + n(B) = 4 + 8 = 12।\\nঅতএব, যথাক্রমে সর্বনিম্ন ও সর্বোচ্চ সংখ্যা হলো 8 ও 12।",
+    "hints": "💡 সংযোগ সেটের সর্বনিম্ন উপাদান max(4, 8) = 8 এবং সর্বোচ্চ 4 + 8 = 12।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "8,12"
   },
   {
     "id": 203577,
@@ -128,12 +135,13 @@
       "16"
     ],
     "correct_answer": "16",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রদত্ত সমান্তর ধারা (Arithmetic Progression): 5, 8, 11, 14, ..., 50।\\nএখানে প্রথম পদ, a = 5\\nসাধারণ অন্তর, d = 8 - 5 = 3\\nশেষ পদ, l = 50\\nআমরা জানি, n-তম পদ = a + (n - 1)d\\n⇒ 5 + (n - 1)3 = 50\\n⇒ 3(n - 1) = 45\\n⇒ n - 1 = 15\\n⇒ n = 16।\\nসুতরাং ধারার মোট পদসংখ্যা ১৬টি।",
+    "hints": "💡 পদসংখ্যা n = [(শেষ পদ - প্রথম পদ) / সাধারণ অন্তর] + 1 = [(50 - 5)/3] + 1 = 16।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "16"
   },
   {
     "id": 203578,
@@ -145,12 +153,13 @@
       "Digits from 0 to r"
     ],
     "correct_answer": "Digits from 0 to r -1",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যেকোনো সংখ্যা পদ্ধতির ভিত্তি বা বেস r হলে, সেই পদ্ধতিতে 0 থেকে (r - 1) পর্যন্ত মোট r-টি একক অঙ্ক বা প্রতীক ব্যবহারের অনুমতি থাকে। যেমন:\\n• বাইনারি (r = 2): 0, 1\\n• অক্টাল (r = 8): 0, 1, 2, ..., 7\\n• ডেসিমাল (r = 10): 0, 1, 2, ..., 9।",
+    "hints": "💡 বেস r-এর সংখ্যা পদ্ধতিতে ব্যবহৃত অঙ্কগুলো 0 থেকে (r - 1) পর্যন্ত।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Digits from 0 to r -1"
   },
   {
     "id": 203579,
@@ -162,12 +171,13 @@
       "21"
     ],
     "correct_answer": "23",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যেকোনো n-বাহুবিশিষ্ট সাধারণ বহুভুজকে (Polygon) অভ্যন্তরে কোনো নতুন শীর্ষবিন্দু যোগ না করে এবং পরস্পরছেদী না হওয়া কর্ণের সাহায্যে সর্বোচ্চ (n - 2)টি ত্রিভুজে বিভক্ত (Triangulate) করা যায়।\\nএখানে n = 25;\\nসুতরাং ত্রিভুজ সংখ্যা = 25 - 2 = 23টি।",
+    "hints": "💡 n-বাহুর বহুভুজকে কর্ণের সাহায্যে (n - 2)টি ত্রিভুজে ভাগ করা যায়; 25 - 2 = 23।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "23"
   },
   {
     "id": 203580,
@@ -179,12 +189,13 @@
       "It selects which process needs to be killed next"
     ],
     "correct_answer": "It selects which process has to be executed nest and allocates CPU",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অপারেটিং সিস্টেমে জব শিডিউলার বা লং-টার্ম শিডিউলার (Long-term scheduler) সেকেন্ডারি মেমোরি (ডিস্ক পুল) থেকে প্রসেস নির্বাচন করে মেইন মেমোরির রেডি কিউতে নিয়ে আসে যাতে তা পরবর্তী এক্সিকিউশনের জন্য প্রস্তুত হয়। প্রদত্ত অপশনগুলোতে জব নির্বাচন ও এক্সিকিউশনের জন্য বরাদ্দকরণ সংশ্লিষ্ট বিকল্পটিকে উত্তর ধরা হয়েছে।",
+    "hints": "💡 লং-টার্ম শিডিউলার সেকেন্ডারি স্টোরেজ থেকে প্রসেস নির্বাচন করে রেডি কিউতে আনে।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "It selects which process has to be executed nest and allocates CPU"
   },
   {
     "id": 203581,
@@ -196,12 +207,13 @@
       "{(1,1),(a,a),(2,a),(1,b)}"
     ],
     "correct_answer": "{(1,a),(2,a), (1,b), (2,b)}",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কার্তেসীয় গুণজ (Cartesian product) A × B হলো এমন সকল ক্রমজোড় (ordered pairs)-এর সেট যার প্রথম উপাদান সেট A থেকে এবং দ্বিতীয় উপাদান সেট B থেকে আসে।\\nএখানে A = {1, 2} এবং B = {a, b};\\nঅতএব, A × B = {(1, a), (1, b), (2, a), (2, b)}।",
+    "hints": "💡 কার্তেসীয় গুণজ A × B = {(x, y) | x ∈ A, y ∈ B}।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "{(1,a),(2,a), (1,b), (2,b)}"
   },
   {
     "id": 203582,
@@ -213,12 +225,13 @@
       "10101001"
     ],
     "correct_answer": "01010101",
-    "explanation": "",
-    "hints": "",
+    "explanation": "XNOR (Exclusive-NOR) লজিকের সত্যক সারণি অনুযায়ী:\\n• 0 ⊙ 1 = 0\\n• 1 ⊙ 1 = 1\\nঅর্থাৎ, কোনো বিটের সাথে 1-এর XNOR করলে মূল বিটের মানই অপরিবর্তিত থাকে (A ⊙ 1 = A)।\\nঅতএব, '01010101' এর প্রতিটি বিটকে '11111111' এর সংশ্লিষ্ট 1 এর সাথে XNOR করলে ফলাফল '01010101' অপরিবর্তিত থাকবে।",
+    "hints": "💡 XNOR অপারেশনে 1-এর সাথে XNOR করলে исходный বিটই ফিরে আসে (A ⊙ 1 = A)।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "01010101"
   },
   {
     "id": 203583,
@@ -230,12 +243,13 @@
       "(3x + 5)/3"
     ],
     "correct_answer": "(x +5)/3",
-    "explanation": "",
-    "hints": "",
+    "explanation": "দেওয়া আছে, f(x) = 3x - 5\\nধরি, y = f(x) = 3x - 5\\nএখন x-কে y-এর মাধ্যমে প্রকাশ করি:\\n⇒ y + 5 = 3x\\n⇒ x = (y + 5) / 3\\nযেহেতু f(x) = y হলে x = f⁻¹(y), সুতরাং:\\nf⁻¹(x) = (x + 5) / 3।",
+    "hints": "💡 y = 3x - 5 ধরে x-এর মান বের করলে f⁻¹(x) = (x + 5)/3।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "(x +5)/3"
   },
   {
     "id": 203584,
@@ -247,12 +261,13 @@
       "All of the above"
     ],
     "correct_answer": "Dynamic programming algorithms",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ডায়নামিক প্রোগ্রামিং (Dynamic Programming) এমন একটি অ্যালগরিদমিক কৌশল যা একটি জটিল সমস্যাকে ছোট ছোট সাব-প্রবলেমে ভাগ করে এবং পূর্বের সাব-প্রবলেমের ফলাফল মেমোরাইজেশন (memoization) বা টেবিল আকারে সংরক্ষণ করে পরবর্তীতে নতুন ফলাফল নির্ণয়ে ব্যবহার করে।",
+    "hints": "💡 পূর্ববর্তী সাব-প্রবলেমের সমাধান সংরক্ষণ করে নতুন সমস্যা সমাধানে ডায়নামিক প্রোগ্রামিং ব্যবহৃত হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Dynamic programming algorithms"
   },
   {
     "id": 203585,
@@ -264,12 +279,13 @@
       "\\( {2}^{2}\\times {3}^{2}\\times {5}^{0} \\)"
     ],
     "correct_answer": "\\( {2}^{2}\\times {3}^{1}\\times {5}^{1} \\)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "দেওয়া আছে:\\na = 2² × 3¹ × 5⁰ = 4 × 3 × 1 = 12\\nb = 2¹ × 3¹ × 5¹ = 2 × 3 × 5 = 30\\nলঘিষ্ঠ সাধারণ গুণিতক বা ল.সা.গু (LCM) নির্ণয়ে প্রতিটি মৌলিক উৎপাদকের সর্বোচ্চ ঘাত বা সূচক নিতে হয়:\\n• 2-এর সর্বোচ্চ ঘাত = 2²\\n• 3-এর সর্বোচ্চ ঘাত = 3¹\\n• 5-এর সর্বোচ্চ ঘাত = 5¹\\nঅতএব, LCM(a, b) = 2² × 3¹ × 5¹ (= 60)।",
+    "hints": "💡 ল.সা.গু নির্ণয়ে প্রতিটি মৌলিক উৎপাদকের সর্বোচ্চ ঘাত গ্রহণ করতে হয়।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "\\( {2}^{2}\\times {3}^{1}\\times {5}^{1} \\)"
   },
   {
     "id": 203586,
@@ -281,12 +297,13 @@
       "process identifier"
     ],
     "correct_answer": "stub",
-    "explanation": "",
-    "hints": "",
+    "explanation": "রিমোট প্রসিডিউর কল (RPC)-এ ক্লায়েন্ট এবং সার্ভারের মধ্যে যোগাযোগের জন্য ইন্টারফেস হিসেবে ক্লায়েন্ট সাইডে একটি 'stub' এবং সার্ভার সাইডে একটি 'skeleton' কাজ করে। ক্লায়েন্ট স্টাব প্যারামিটারগুলোকে মার্শাল (marshal) করে নেটওয়ার্কের মাধ্যমে সার্ভারে পাঠায়।",
+    "hints": "💡 RPC আর্কিটেকচারে ক্লায়েন্ট প্রান্তে 'Stub' ব্যবহৃত হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "stub"
   },
   {
     "id": 203587,
@@ -298,12 +315,13 @@
       "This"
     ],
     "correct_answer": "Super",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিংয়ে (যেমন জাভাতে), কোনো সাবক্লাসের কনস্ট্রাক্টর বা মেথড থেকে সরাসরি তার ঠিক পূর্ববর্তী সুপারক্লাসের কনস্ট্রাক্টর কল করতে 'super()' কীওয়ার্ড ব্যবহার করা হয়। এটি কনস্ট্রাক্টরের প্রথম স্টেটমেন্ট হতে হয়।",
+    "hints": "💡 সাবক্লাস থেকে সুপারক্লাসের কনস্ট্রাক্টর ইনভোক করতে 'super()' কীওয়ার্ড ব্যবহৃত হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Super"
   },
   {
     "id": 203588,
@@ -315,12 +333,13 @@
       "always results in deadlock"
     ],
     "correct_answer": "more prone to deadlocks",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মাল্টি-থ্রেডেড প্রোগ্রামে একাধিক থ্রেড একই মেমোরি স্পেস এবং শেয়ার্ড রিসোর্স বা লকের জন্য সমান্তরালভাবে প্রতিদ্বন্দ্বিতা করে। মিউচুয়াল এক্সক্লুশন এবং অনুপযুক্ত লক অর্ডারিংয়ের কারণে মাল্টি-থ্রেডেড প্রোগ্রাম সাধারণ সিঙ্গেল-থ্রেডেড প্রোগ্রামের চেয়ে ডেডলক (Deadlock)-এর শিকার হওয়ার ঝুঁকি বহুগুণ বেশি থাকে।",
+    "hints": "💡 শেয়ার্ড রিসোর্সের সমান্তরাল ব্যবহারের ফলে মাল্টি-থ্রেডেড কোডে ডেডলক ঝুঁকি বৃদ্ধি পায়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "more prone to deadlocks"
   },
   {
     "id": 203589,
@@ -332,12 +351,13 @@
       "all of the above"
     ],
     "correct_answer": "a tow level paging algorithm",
-    "explanation": "",
-    "hints": "",
+    "explanation": "যখন লজিক্যাল অ্যাড্রেস স্পেস অত্যন্ত বড় হয়, তখন সিঙ্গেল পেজ টেবিলের আকারও অত্যন্ত বিশাল হয়ে প্রধান মেমোরিতে সংকুলান হওয়া কঠিন হয়ে পড়ে। এই সমস্যা সমাধানে পেজ টেবিলকে নিজেই একাধিক স্তরে ভাগ করে 'টু-লেভেল পেজিং' (Two-level paging) বা মাল্টি-লেভেল পেজিং ব্যবহার করা হয়।",
+    "hints": "💡 বৃহৎ অ্যাড্রেস স্পেস ব্যবস্থাপনায় মেমোরি সাশ্রয়ের জন্য Two-level paging ব্যবহৃত হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "a tow level paging algorithm"
   },
   {
     "id": 203590,
@@ -349,12 +369,13 @@
       "program status word"
     ],
     "correct_answer": "Program counter",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সিপিইউ (CPU) মেমোরি থেকে পরবর্তী কোন নির্দেশ বা ইন্সট্রাকশনটি ফেচ (fetch) করবে, তার মেমোরি অ্যাড্রেস জমা থাকে প্রোগ্রাম কাউন্টার (Program Counter বা PC) রেজিস্টারে। প্রতি ইন্সট্রাকশন ফেচের পর পিসি স্বয়ংক্রিয়ভাবে পরবর্তী অ্যাড্রেসে ইনক্রিমেন্ট হয়।",
+    "hints": "💡 পরবর্তী নির্দেশনার মেমোরি ঠিকানা ধরে রাখে প্রোগ্রাম কাউন্টার (PC)।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Program counter"
   },
   {
     "id": 203591,
@@ -366,12 +387,13 @@
       "removing portion of the file system into a directory structure"
     ],
     "correct_answer": "attaching portion of the file system into a directory structure",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মাউন্টিং (Mounting) হলো কোনো স্টোরেজ ডিভাইসের ফাইল সিস্টেমকে চলমান অপারেটিং সিস্টেমের মূল ডিরেক্টরি ট্রির একটি নির্দিষ্ট ফোল্ডার বা ডিরেক্টরি স্ট্রাকচারে যুক্ত (attach) করা, যাতে ব্যবহারকারী স্বাভাবিকভাবে ফাইলগুলো অ্যাক্সেস করতে পারে।",
+    "hints": "💡 ফাইল সিস্টেমকে ডিরেক্টরি কাঠামোর সাথে যুক্ত করাকে মাউন্টিং (Mounting) বলে।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "attaching portion of the file system into a directory structure"
   },
   {
     "id": 203592,
@@ -383,12 +405,13 @@
       "Fourth"
     ],
     "correct_answer": "First",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ডেটাবেজ নরমালাইজেশনে প্রথম স্বাভাবিক রূপ বা ফার্স্ট নরমাল ফর্ম (1NF)-এর প্রধান শর্ত হলো প্রতিটি কলাম বা অ্যাট্রিবিউটের মানকে পরমাণবিক (Atomic) হতে হবে। অর্থাৎ কম্পোজিট (যৌগিক) বা মাল্টি-ভ্যালুড অ্যাট্রিবিউটকে একক ও পৃথক পৃথক অ্যাট্রিবিউটে রূপান্তর করা 1NF-এর কাজ।",
+    "hints": "💡 কম্পোজিট অ্যাট্রিবিউটকে একক পারমাণবিক অ্যাট্রিবিউটে রূপান্তর করা হয় First Normal Form (1NF)-এ।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "First"
   },
   {
     "id": 203602,
@@ -400,12 +423,13 @@
       "অনল প্রবাহ"
     ],
     "correct_answer": "অনল প্রবাহ",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ব্রিটিশবিরোধী আন্দোলনের অগ্নিপুরুষ ও চারণ কবি ইসমাইল হোসেন সিরাজী রচিত বিখ্যাত কাব্যগ্রন্থ 'অনল প্রবাহ' (১৯০০)। দেশপ্রেমমূলক ও স্বাদেশিক চেতনায় উদ্দীপক এই কাব্যগ্রন্থটি তৎকালীন ব্রিটিশ সরকার বাজেয়াপ্ত করে এবং রচয়িতাকে কারাদণ্ড প্রদান করে।",
+    "hints": "💡 ইসমাইল হোসেন সিরাজীর প্রথম ও ব্রিটিশ কর্তৃক বাজেয়াপ্ত কাব্যগ্রন্থ 'অনল প্রবাহ'।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "অনল প্রবাহ"
   },
   {
     "id": 203603,
@@ -417,12 +441,13 @@
       "0.2/0.1"
     ],
     "correct_answer": "0.1/2",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অপশনগুলোর দশমিক মান তুলনা করি:\\n• 1 / 0.2 = 1 / (2/10) = 10 / 2 = 5\\n• 0.1 / 2 = 0.05\\n• 0.1 / 1 = 0.1\\n• 0.2 / 0.1 = 2\\nদেখা যাচ্ছে, 0.05 মানটি সবচেয়ে ছোট। অতএব, ক্ষুদ্রতম মান হলো 0.1/2।",
+    "hints": "💡 0.1/2 = 0.05, যা অন্য সব অপশনের চেয়ে ছোট।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "0.1/2"
   },
   {
     "id": 203604,
@@ -434,12 +459,13 @@
       "গ্রহণযোগ্যতা"
     ],
     "correct_answer": "স্বভাব",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'মানুষ ও পশুর ধর্ম পৃথক' - এই বাক্যে 'ধর্ম' শব্দ দ্বারা কোনো প্রাতিষ্ঠানিক পূজা-উপাসনা বা রিলিজিয়নকে বোঝানো হয়নি, বরং জীবের নিজস্ব বৈশিষ্ট্য বা সহজাত 'স্বভাব' ও প্রকৃতিকে বোঝানো হয়েছে।",
+    "hints": "💡 এখানে ধর্ম শব্দটি জীবের অন্তর্নিহিত স্বভাব বা বৈশিষ্ট্য অর্থে ব্যবহৃত।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "স্বভাব"
   },
   {
     "id": 203605,
@@ -451,12 +477,13 @@
       "ভুতপর্ব ু"
     ],
     "correct_answer": "ভূতপূর্ব",
-    "explanation": "",
-    "hints": "",
+    "explanation": "শুদ্ধ বানান হলো 'ভূতপূর্ব'। এর অর্থ যা পূর্বে হয়েছিল বা বিদ্যমান ছিল কিন্তু বর্তমানে নেই। ভূত (ভ + ূ + ত) এবং পূর্ব (প + ূ + র্ব) - উভয় অংশেই দীর্ঘ-ঊকার (ূ) যুক্ত হয়।",
+    "hints": "💡 'ভূতপূর্ব' বানানে ভ ও প উভয় বর্ণেই দীর্ঘ-ঊকার (ূ) বসে।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "ভূতপূর্ব"
   },
   {
     "id": 203606,
@@ -468,12 +495,13 @@
       "হতভাগ্য"
     ],
     "correct_answer": "হতভাগ্য",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'আটকপালে' বাগধারাটির অর্থ হলো 'হতভাগ্য' বা দুর্ভাগ্যবান ব্যক্তি।\\nঅনুরূপ অন্যান্য বাগধারা:\\n• একাদশে বৃহস্পতি = সৌভাগ্যের বিষয়\\n• কপাল পোড়া = হতভাগ্য\\n• খয়ের খাঁ = তোষামোদকারী।",
+    "hints": "💡 আটকপালে = হতভাগ্য বা দুর্ভাগ্যবান।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "হতভাগ্য"
   },
   {
     "id": 203607,
@@ -485,12 +513,13 @@
       "করণ কারকে শূণ্য বিভক্তি"
     ],
     "correct_answer": "করণ কারকে সপ্তমী বিভক্তি",
-    "explanation": "",
-    "hints": "",
+    "explanation": "\"ফুলে ফুলে ঘর ভরেছে\" - ফুল দিয়ে বা ফুলের সাহায্যে ঘর ভরানো হয়েছে। ক্রিয়া সম্পাদনের উপকরণ, সহায়ক বা উপায় বোঝালে করণ কারক হয়। 'ফুল' শব্দের সাথে 'এ' বিভক্তি যুক্ত থাকায় এটি করণ কারকে সপ্তমী বিভক্তি।",
+    "hints": "💡 দ্বারা/দিয়া/উপকরণ বোঝালে করণ কারক; 'এ' বিভক্তি হওয়ায় সপ্তমী।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "করণ কারকে সপ্তমী বিভক্তি"
   },
   {
     "id": 203608,
@@ -502,12 +531,13 @@
       "না + অন"
     ],
     "correct_answer": "নে + অন",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাংলা স্বরসন্ধির নিয়ম অনুযায়ী, পূর্বপদের শেষে 'এ' কার থাকলে এবং পরপদের প্রথমে 'অ' থাকলে তা মিলে 'অয়' হয় (এ + অ = অয়)।\\nসুতরাং, নে + অন = নয়ন।\\nঅনুরূপ উদাহরণ: শে + অন = শয়ন।",
+    "hints": "💡 এ + অন = অয়ন; নে + অন = নয়ন।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "নে + অন"
   },
   {
     "id": 203609,
@@ -519,12 +549,13 @@
       "বাদশাহ বাবর"
     ],
     "correct_answer": "আনিসুজ্জামান",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'কাল নিরবধি' হলো বাংলা একাডেমির প্রাক্তন সভাপতি, প্রথিতযশা গবেষক ও জাতীয় অধ্যাপক আনিসুজ্জামান (১৯৩৭-২০২০)-এর রচিত অত্যন্ত সমাদৃত একটি আত্মজীবনীমূলক গ্রন্থ। তাঁর আরেকটি আত্মজীবনী গ্রন্থ 'বিপুলা পৃথিবী'।",
+    "hints": "💡 জাতীয় অধ্যাপক ড. আনিসুজ্জামানের আত্মজীবনী 'কাল নিরবধি'।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "আনিসুজ্জামান"
   },
   {
     "id": 203610,
@@ -536,12 +567,13 @@
       "ইউরোপীয়"
     ],
     "correct_answer": "ইন্দো-ইউরোপীয়",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ভাষাভাষী জনসংখ্যার দিক থেকে বাংলা ভাষা বিশ্বের বৃহত্তম ভাষা পরিবার 'ইন্দো-ইউরোপীয়' (Indo-European) ভাষাগোষ্ঠীর 'শতম' (Satem) শাখার 'ইন্দো-ইরানীয়' দলের 'ভারতীয় আর্য' উপশাখা থেকে বিবর্তিত হয়ে উদ্ভূত হয়েছে।",
+    "hints": "💡 বাংলা ভাষা ইন্দো-ইউরোপীয় ভাষা পরিবারের অন্তর্ভুক্ত।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "ইন্দো-ইউরোপীয়"
   },
   {
     "id": 203611,
@@ -553,12 +585,13 @@
       "ফল্গুন"
     ],
     "correct_answer": "পাটনি",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'পাটনি' শব্দের অর্থ খেয়া পারাপারকারী মাঝি বা খেয়াঘাটের ইজারাদার (যেমন অন্নদামঙ্গলে ঈশ্বরী পাটনী)। এটি নদীর সমার্থক শব্দ নয়।\\nনদীর সমার্থক শব্দসমূহ: নদী, তটিনী, তরঙ্গিনী, সরিৎ, শৈবালিনী, গাঙ, কল্লোলিনী ইত্যাদি।",
+    "hints": "💡 পাটনি অর্থ খেয়াঘাটের মাঝি; এটি নদীর সমার্থক নয়।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "পাটনি"
   },
   {
     "id": 203612,
@@ -570,12 +603,13 @@
       "সুষম"
     ],
     "correct_answer": "বোধজাত",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Cognizable' একটি ইংরেজি শব্দ যা জ্ঞান বা বোধের মাধ্যমে জানা যায় এমন কিছুকে নির্দেশ করে, যার বাংলা পারিভাষিক অর্থ 'বোধজাত' বা বোধগম্য। আইনগত ক্ষেত্রে 'Cognizable offense' বলতে 'আমলযোগ্য অপরাধ' বোঝানো হয়।",
+    "hints": "💡 Cognizable-এর বাংলা পরিভাষা বোধজাত / জ্ঞানগোচর।",
     "subject": "বাংলা ভাষা ও সাহিত্য",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "বোধজাত"
   },
   {
     "id": 203618,
@@ -587,12 +621,13 @@
       "Enterperneur"
     ],
     "correct_answer": "Entrepreneur",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সঠিক বানান হলো 'Entrepreneur', যার অর্থ ব্যবসায়ী উদ্যোক্তা।\\nবানান বিন্যাস: E-n-t-r-e-p-r-e-n-e-u-r (এন্ট্রেপ্রেনিউর)।",
+    "hints": "💡 Entre + pre + neur = Entrepreneur (উদ্যোক্তা)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Entrepreneur"
   },
   {
     "id": 203619,
@@ -604,12 +639,13 @@
       "It was drizzling with gusty wind"
     ],
     "correct_answer": "It was drizzling with gusty wind",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'ঝোড়ো হাওয়া সহ বৃষ্টিপাত হলো' - এখানে গুঁড়ি গুঁড়ি বৃষ্টির ক্ষেত্রে 'drizzling' এবং ঝোড়ো হাওয়ার জন্য 'gusty wind' ব্যবহৃত হয়। সুতরাং যথাযথ অনুবাদ: 'It was drizzling with gusty wind.'",
+    "hints": "💡 Drizzling = গুঁড়ি গুঁড়ি বৃষ্টি; gusty wind = ঝোড়ো হাওয়া।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "It was drizzling with gusty wind"
   },
   {
     "id": 203620,
@@ -621,12 +657,13 @@
       "psychiatry"
     ],
     "correct_answer": "psychiatry",
-    "explanation": "",
-    "hints": "",
+    "explanation": "মানসিক রোগ এবং তার চিকিৎসা সংক্রান্ত চিকিৎসাবিজ্ঞান শাখাকে 'Psychiatry' (মনোরোগবিদ্যা) বলা হয় এবং এই বিশেষজ্ঞ চিকিৎসককে Psychiatrist বলা হয়। অন্যদিকে Psychology হলো মানব মনের সাধারণ আচরণ ও প্রক্রিয়ার বিজ্ঞান।",
+    "hints": "💡 Study and treatment of mental illness = Psychiatry.",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "psychiatry"
   },
   {
     "id": 203621,
@@ -638,12 +675,13 @@
       "scizophrenic"
     ],
     "correct_answer": "Schizophrenic",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সঠিক বানান হলো 'Schizophrenic' (সিজোফ্রেনিয়া রোগাক্রান্ত ব্যক্তি)।\\nবানান বিন্যাস: S-c-h-i-z-o-p-h-r-e-n-i-c।",
+    "hints": "💡 Schizo + phrenic = Schizophrenic.",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Schizophrenic"
   },
   {
     "id": 203628,
@@ -655,12 +693,13 @@
       "They said that it is not possible to live without air."
     ],
     "correct_answer": "They said that we cannot live without air.",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Direct: They said, 'We cannot live without air.'\\nবাতাস ছাড়া আমরা বাঁচতে পারি না - এটি একটি বৈজ্ঞানিক সত্য ও চিরন্তন বাস্তবতা (Scientific and Universal Truth)। ন্যারেশনের নিয়ম অনুযায়ী রিপোর্টেড স্পিচ চিরন্তন সত্য হলে Indirect Speech-এ Tense এবং সর্বনামের কোনো পরিবর্তন হয় না।\\nঅতএব Indirect: They said that we cannot live without air.",
+    "hints": "💡 চিরন্তন ও বৈজ্ঞানিক সত্যের ক্ষেত্রে Indirect speech-এ Tense অপরিবর্তিত থাকে।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "They said that we cannot live without air."
   },
   {
     "id": 203629,
@@ -672,12 +711,13 @@
       "Mystically"
     ],
     "correct_answer": "Vicariously",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Nilufer had never visited the Taj Mahal, but she could appreciate its splendor vicariously through the descriptions of others.\\n'Vicariously' একটি Adverb যার অর্থ অন্যের অভিজ্ঞতা বা বর্ণনার মাধ্যমে নিজে পরোক্ষভাবে উপলব্ধি করা বা অনুভূতি লাভ করা।",
+    "hints": "💡 Vicariously = অন্যের অনুভূতির মাধ্যমে পরোক্ষভাবে অনুভব করা।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Vicariously"
   },
   {
     "id": 203630,
@@ -689,12 +729,13 @@
       "Uncommon"
     ],
     "correct_answer": "Universal",
-    "explanation": "",
-    "hints": "",
+    "explanation": "The practice of storytelling for entertainment and instruction was at one time so widespread that it was virtually universal.\\n'Universal' অর্থ সর্বজনীন বা বিশ্বজনীন, যা সর্বকালের সব সমাজে ব্যাপকভাবে বিরাজমান ছিল।",
+    "hints": "💡 সর্বত্র প্রচলিত বোঝাতে 'universal' ব্যবহৃত হয়।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Universal"
   },
   {
     "id": 203631,
@@ -706,12 +747,13 @@
       "Proclivity"
     ],
     "correct_answer": "Virtue",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Probity' শব্দের অর্থ সততা, ন্যায়নিষ্ঠা, সাধুতা বা চারিত্রিক শুদ্ধতা (integrity, honesty, moral uprightness)। এর সমার্থক শব্দ হলো 'Virtue' (সদ্গুণ/ধার্মিকতা)।\\nবিপরীত শব্দ: Dishonesty, Corruption.",
+    "hints": "💡 Probity = সততা বা সাধুতা; সমার্থক शब्द Virtue।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Virtue"
   },
   {
     "id": 203632,
@@ -723,12 +765,13 @@
       "Resourceful"
     ],
     "correct_answer": "Enthusiastic",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Reluctant' শব্দের অর্থ অনিচ্ছুক, দ্বিধাগ্রস্ত বা অনাগ্রহী (unwilling, hesitant)। এর বিপরীত শব্দ (Antonym) হলো 'Enthusiastic' (উৎসাহী) বা Willing (ইচ্ছুক)।",
+    "hints": "💡 Reluctant (অনিচ্ছুক)-এর বিপরীত হলো Enthusiastic (উৎসাহী)।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Enthusiastic"
   },
   {
     "id": 203633,
@@ -740,12 +783,13 @@
       "of ....... with"
     ],
     "correct_answer": "for ....... of",
-    "explanation": "",
-    "hints": "",
+    "explanation": "Appropriate Preposition:\\n• কোনো অভিযোগ বা দাবির কারণ/যৌক্তিকতা বোঝাতে 'cause for' বসে (He has no good cause for complaint)।\\n• কোনো ঘটনা বা পরিণতির মূল উৎস বা হেতু বোঝাতে 'cause of' বসে (Darkness was the cause of his losing his way)।\\nঅতএব সঠিক জোড়া হলো: for ....... of।",
+    "hints": "💡 দাবির কারণ বোঝাতে 'cause for', এবং পরিণতির উৎস বোঝাতে 'cause of' বসে।",
     "subject": "English Language and Literature",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "for ....... of"
   },
   {
     "id": 203634,
@@ -757,12 +801,13 @@
       "4 January 1973"
     ],
     "correct_answer": "4 November 1972",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৯৭২ সালের ৪ নভেম্বর বাংলাদেশ গণপরিষদে স্বাধীন বাংলাদেশের সংবিধান গৃহীত ও পাস হয়। ড. কামাল হোসেনের নেতৃত্বে গঠিত সংবিধান প্রণয়ন কমিটি এই খসড়া প্রস্তুত করেছিল। এই ঐতিহাসিক দিনটি প্রতি বছর 'সংবিধান দিবস' হিসেবে পালিত হয় (কার্যকর হয় ১৬ ডিসেম্বর ১৯৭২)।",
+    "hints": "💡 সংবিধান গণপরিষদে গৃহীত হয় ৪ নভেম্বর ১৯৭২ এবং কার্যকর হয় ১৬ ডিসেম্বর ১৯৭২।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "4 November 1972"
   },
   {
     "id": 203635,
@@ -774,12 +819,13 @@
       "Rangpur"
     ],
     "correct_answer": "Mymensingh",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাংলাদেশের অষ্টম প্রশাসনিক বিভাগ হলো 'ময়মনসিংহ'। ২০১৫ সালের ১৪ সেপ্টেম্বর নিকার (NICAR)-এর ১১২তম সভায় ময়মনসিংহ, জামালপুর, শেরপুর ও নেত্রকোণা জেলা নিয়ে ময়মনসিংহকে দেশের ৮ম বিভাগ হিসেবে অনুমোদন দেওয়া হয়।",
+    "hints": "💡 ২০১৫ সালে গঠিত বাংলাদেশের ৮ম প্রশাসনিক বিভাগ ময়মনসিংহ।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Mymensingh"
   },
   {
     "id": 203636,
@@ -791,12 +837,13 @@
       "Environment"
     ],
     "correct_answer": "Stock Market",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'Black Monday' বিশ্ব শেয়ার বাজারের ইতিহাসের সাথে সম্পর্কিত। ১৯৮৭ সালের ১৯ অক্টোবর সোমবার মার্কিন যুক্তরাষ্ট্রের ওয়াল স্ট্রিটের ডাউ জোন্স সূচক এক দিনেই ২২.৬% ধসে পড়ে, যা বিশ্বব্যাপী অর্থনৈতিক অঙ্গনে ব্যাপক আলোড়ন সৃষ্টি করেছিল।",
+    "hints": "💡 ১৯৮৭ সালের ১৯ অক্টোবরের শেয়ার বাজারের ঐতিহাসিক ধসকে Black Monday বলা হয়।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Stock Market"
   },
   {
     "id": 203638,
@@ -808,12 +855,13 @@
       "Dag Hammarskjold"
     ],
     "correct_answer": "U Thant",
-    "explanation": "",
-    "hints": "",
+    "explanation": "১৯৭১ সালে বাংলাদেশের মহান মুক্তিযুদ্ধ চলাকালীন জাতিসংঘের মহাসচিব ছিলেন উ থান্ট (U Thant)। তিনি মায়ানমারের (তৎকালীন বার্মা) কূটনীতিবিদ ছিলেন এবং ১৯৬১ থেকে ১৯৭১ সাল পর্যন্ত জাতিসংঘের তৃতীয় মহাসচিব হিসেবে দায়িত্ব পালন করেন।",
+    "hints": "💡 ১৯৭১ সালে মুক্তিযুদ্ধের সময় জাতিসংঘের মহাসচিব ছিলেন উ থান্ট (মায়ানমার)।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "U Thant"
   },
   {
     "id": 203639,
@@ -825,12 +873,13 @@
       "Belgium"
     ],
     "correct_answer": "Switzerland",
-    "explanation": "",
-    "hints": "",
+    "explanation": "আন্তর্জাতিক অভিবাসন সংস্থা বা IOM (International Organization for Migration)-এর সদর দপ্তর সুইজারল্যান্ডের জেনেভায় (Geneva, Switzerland) অবস্থিত। এটি ১৯৫১ সালে প্রতিষ্ঠিত হয় এবং ২০১৬ সালে জাতিসংঘের বিশেষায়িত সংস্থা হিসেবে অন্তর্ভুক্ত হয়।",
+    "hints": "💡 আইওএম (IOM)-এর সদর দপ্তর জেনেভা, সুইজারল্যান্ড।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Switzerland"
   },
   {
     "id": 203640,
@@ -842,12 +891,13 @@
       "West Indies"
     ],
     "correct_answer": "West Indies",
-    "explanation": "",
-    "hints": "",
+    "explanation": "২০১৮ সালের আইসিসি নারী বিশ্ব টি-টোয়েন্টি (ICC Women's World Twenty20 2018) টুর্নামেন্ট ওয়েস্ট ইন্ডিজে (West Indies) অনুষ্ঠিত হয়। ফাইনালে ইংল্যান্ডকে হারিয়ে অস্ট্রেলিয়া নারী দল চ্যাম্পিয়ন হয়।",
+    "hints": "💡 ২০১৮ সালের নারী টি-টোয়েন্টি বিশ্বকাপ অনুষ্ঠিত হয় ওয়েস্ট ইন্ডিজে।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "West Indies"
   },
   {
     "id": 203641,
@@ -859,12 +909,13 @@
       "9th June"
     ],
     "correct_answer": "2nd April",
-    "explanation": "",
-    "hints": "",
+    "explanation": "প্রতি বছর ২ এপ্রিল বিশ্বব্যাপী 'বিশ্ব অটিজম সচেতনতা দিবস' (World Autism Awareness Day) হিসেবে পালিত হয়। ২০০৭ সালের ১৮ ডিসেম্বর জাতিসংঘ সাধারণ পরিষদ এই দিনটিকে আন্তর্জাতিক দিবস হিসেবে ঘোষণা করে।",
+    "hints": "💡 বিশ্ব অটিজম সচেতনতা দিবস পালিত হয় ২ এপ্রিল।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "2nd April"
   },
   {
     "id": 203642,
@@ -876,12 +927,13 @@
       "1971"
     ],
     "correct_answer": "1966",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাঙালির ঐতিহাসিক ম্যাগনাকার্টা খ্যাত 'ছয় দফা কর্মসূচি' ১৯৬৬ সালের ৫-৬ ফেব্রুয়ারি পাকিস্তানের লাহোরে অনুষ্ঠিত বিরোধী দলগুলোর এক জাতীয় সম্মেলনে জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমান আনুষ্ঠানিকভাবে উত্থাপন করেন।",
+    "hints": "💡 ঐতিহাসিক ৬ দফা দাবি ১৯৬৬ সালের ফেব্রুয়ারিতে লাহোরে ঘোষিত হয়।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "1966"
   },
   {
     "id": 203643,
@@ -893,12 +945,13 @@
       "Investment Football Corporation"
     ],
     "correct_answer": "International Finance Corporation",
-    "explanation": "",
-    "hints": "",
+    "explanation": "IFC-এর পূর্ণরূপ হলো International Finance Corporation (আন্তর্জাতিক অর্থায়ন সংস্থা)। এটি ১৯৫৬ সালে প্রতিষ্ঠিত হয় এবং বিশ্বব্যাংক গ্রুপ (World Bank Group)-এর অন্তর্ভুক্ত একটি অঙ্গপ্রতিষ্ঠান যা উন্নয়নশীল দেশগুলোতে বেসরকারি খাতে বিনিয়োগ ও আর্থিক সহায়তা প্রদান করে।",
+    "hints": "💡 IFC = International Finance Corporation (বিশ্বব্যাংকের বেসরকারি বিনিয়োগ শাখা)।",
     "subject": "সাধারণ জ্ঞান",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "International Finance Corporation"
   },
   {
     "id": 203644,
@@ -910,12 +963,13 @@
       "200"
     ],
     "correct_answer": "75",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি, প্রাপ্তবয়স্ক সংখ্যা = A এবং শিশু সংখ্যা = C।\\nদেওয়া আছে, মোট লোকসংখ্যা = 240\\nসুতরাং A + C = 240\\nদেওয়া আছে প্রাপ্তবয়স্ক শিশুর চেয়ে 20 জন বেশি: A = C + 20\\n⇒ (C + 20) + C = 240\\n⇒ 2C = 220\\n⇒ C = 110 জন শিশু।\\nঅতএব প্রাপ্তবয়স্ক A = 110 + 20 = 130 জন।\\nএখন প্রাপ্তবয়স্কদের মধ্যে পুরুষ M এবং নারী W; দেওয়া আছে M = W + 20\\nযেহেতু M + W = 130,\\n⇒ (W + 20) + W = 130\\n⇒ 2W = 110\\n⇒ W = 55 জন নারী।\\nসুতরাং পুরুষ M = 55 + 20 = 75 জন।",
+    "hints": "💡 প্রাপ্তবয়স্ক = (240 + 20)/2 = 130; পুরুষ = (130 + 20)/2 = 75 জন।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "75"
   },
   {
     "id": 203645,
@@ -927,12 +981,13 @@
       "4/2"
     ],
     "correct_answer": "1/3",
-    "explanation": "",
-    "hints": "",
+    "explanation": "৩ জন বালক একটি দেওয়াল রঙ করতে পারে ২ দিনে।\\nসুতরাং মোট কাজের পরিমাণ = ৩ × ২ = ৬ বালক-দিন (boy-days)।\\nএখন ২ জন বালক ১ দিনে কাজ করে = ২ × ১ = ২ বালক-দিন।\\nকাজের সম্পন্ন অংশ = ২ / ৬ = ১/৩ অংশ।",
+    "hints": "💡 মোট কাজ = ৩ × ২ = ৬ অংশ; ২ বালক ১ দিনে করে ২/৬ = ১/৩ অংশ।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "1/3"
   },
   {
     "id": 203646,
@@ -944,12 +999,13 @@
       "\\( \\frac{4}{15} \\)"
     ],
     "correct_answer": "\\( \\frac{4}{15} \\)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "আমরা জানি, 1/4 = 0.25।\\nপ্রদত্ত ভগ্নাংশগুলোর মান তুলনা করি:\\n• 4/15 ≈ 0.2667 (পার্থক্য |0.2667 - 0.25| = 0.0167)\\nঅন্যান্য ভগ্নাংশের তুলনায় 4/15 এর মান 0.25 এর সবচেয়ে কাছাকাছি।\\nসুতরাং সঠিক উত্তর 4/15।",
+    "hints": "💡 1/4 = 0.25 এবং 4/15 ≈ 0.2667 যা 0.25-এর নিকটতম।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "\\( \\frac{4}{15} \\)"
   },
   {
     "id": 203647,
@@ -961,12 +1017,13 @@
       "H/2M"
     ],
     "correct_answer": "M/H",
-    "explanation": "",
-    "hints": "",
+    "explanation": "আমরা জানি:\\nসময় (Time) = দূরত্ব (Distance) ÷ গতিবেগ (Speed)\\nএখানে,\\nমোট দূরত্ব = M মাইল\\nগতিবেগ = H মাইল প্রতি ঘণ্টা\\nঅতএব প্রয়োজনীয় সময় = M / H ঘণ্টা।",
+    "hints": "💡 সময় = দূরত্ব / গতিবেগ = M / H ঘণ্টা।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "M/H"
   },
   {
     "id": 203648,
@@ -978,12 +1035,13 @@
       "49"
     ],
     "correct_answer": "140",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি, সংখ্যাটি x।\\nপ্রশ্নমতে,\\nx এর 5% = 7\\n⇒ x × (5 / 100) = 7\\n⇒ x / 20 = 7\\n⇒ x = 7 × 20 = 140।\\nসুতরাং সংখ্যাটি ১৪০।",
+    "hints": "💡 x × 0.05 = 7 ⇒ x = 7 / 0.05 = 140।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "140"
   },
   {
     "id": 203649,
@@ -995,12 +1053,13 @@
       "\\( {a}^{6}{b}^{5} \\)"
     ],
     "correct_answer": "\\( {a}^{8}{b}^{6} \\)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সূচকের ঘাতের ঘাত নিয়ম (Power of a power rule) অনুযায়ী (xᵐ)ⁿ = xᵐⁿ এবং (xy)ⁿ = xⁿyⁿ।\\nঅতএব:\\n(a⁴b³)² = (a⁴)² × (b³)² = a⁴ˣ² × b³ˣ² = a⁸b⁶।",
+    "hints": "💡 ঘাত গুণ হয়ে: (a⁴b³)² = a⁴ˣ² b³ˣ² = a⁸b⁶।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "\\( {a}^{8}{b}^{6} \\)"
   },
   {
     "id": 203650,
@@ -1012,12 +1071,13 @@
       "1"
     ],
     "correct_answer": "-5",
-    "explanation": "",
-    "hints": "",
+    "explanation": "দেওয়া আছে:\\n3 / (x - 1) = 2 / (x + 1)\\nআড়গুণন (cross multiplication) করে পাই:\\n3(x + 1) = 2(x - 1)\\n⇒ 3x + 3 = 2x - 2\\n⇒ 3x - 2x = -2 - 3\\n⇒ x = -5।",
+    "hints": "💡 বজ্রগুণন করে: 3(x + 1) = 2(x - 1) ⇒ 3x + 3 = 2x - 2 ⇒ x = -5।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "-5"
   },
   {
     "id": 203651,
@@ -1029,12 +1089,13 @@
       "10, 11"
     ],
     "correct_answer": "6,15",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি, একটি সংখ্যা x।\\nঅপর সংখ্যাটি তার দ্বিগুণের চেয়ে ৩ বেশি = 2x + 3।\\nতাদের যোগফল 21:\\nx + (2x + 3) = 21\\n⇒ 3x + 3 = 21\\n⇒ 3x = 18\\n⇒ x = 6।\\nসুতরাং অপর সংখ্যাটি = 2(6) + 3 = 12 + 3 = 15।\\nসংখ্যা দুটি যথাক্রমে 6 এবং 15।",
+    "hints": "💡 x + (2x + 3) = 21 ⇒ 3x = 18 ⇒ x = 6; সংখ্যা দুটি 6 ও 15।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "6,15"
   },
   {
     "id": 203652,
@@ -1046,12 +1107,13 @@
       "all of the above"
     ],
     "correct_answer": "all of the above",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সি (C) প্রোগ্রামিং ভাষায় কোনো নির্দিষ্ট কোড ব্লক পুনরাবৃত্তি করার প্রক্রিয়াকে ইটারেশন বা লুপিং বলা হয়। সি ভাষায় ইটারেশনের জন্য প্রধানত তিনটি লুপ স্টেটমেন্ট ব্যবহৃত হয়: for loop, while loop এবং do-while loop। তাই সবগুলোই ইটারেশনের উদাহরণ।",
+    "hints": "💡 C ভাষায় for, while, do-while সবই লুপ বা ইটারেশনের উদাহরণ।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "all of the above"
   },
   {
     "id": 204640,
@@ -1063,12 +1125,13 @@
       "\"return-type {} function -name"
     ],
     "correct_answer": "\"return-type function name (argument type;)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সি বা সি++ ভাষায় একটি সাধারণ ফাংশন প্রোটোটাইপ বা ডিক্লারেশনের আদর্শ ফরম্যাট হলো:\\nreturn_type function_name (parameter_type);\\nঅর্থাৎ প্রথমে রিটার্ন টাইপ, তারপর ফাংশনের নাম এবং বন্ধনীর ভেতর আর্গুমেন্টের টাইপ লিখে সেমিকোলন দিয়ে শেষ করতে হয়।",
+    "hints": "💡 ফাংশন ঘোষণার রূপরেখা: return-type function_name (argument_type);",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "\"return-type function name (argument type;)"
   },
   {
     "id": 204705,
@@ -1080,12 +1143,13 @@
       "all of the above"
     ],
     "correct_answer": "all of the above",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সি (C) প্রোগ্রামিং ভাষায় পুনরাবৃত্তিমূলক কাজের জন্য লুপ বা ইটারেশন ব্যবহৃত হয়। এর মধ্যে for, while এবং do-while লুপ অন্তর্ভুক্ত। সুতরাং সবগুলোই (all of the above) ইটারেশনের বৈধ উদাহরণ।",
+    "hints": "💡 C ভাষায় for, while এবং do-while সবগুলোই ইটারেশন স্ট্রাকচার।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "all of the above"
   },
   {
     "id": 204706,
@@ -1097,12 +1161,13 @@
       "O(nlogn)"
     ],
     "correct_answer": "O(n)",
-    "explanation": "",
-    "hints": "",
+    "explanation": "একটি সাধারণ একক লিংকড লিস্টে (Singly Linked List) মোট উপাদানের সংখ্যা গণনা করতে হলে হেড পয়েন্টার থেকে শুরু করে শেষ নোড (NULL) পর্যন্ত প্রতিটি নোড পর্যায়ক্রমে ভিজিট বা ট্রাভার্স করতে হয়। n সংখ্যক উপাদানের ক্ষেত্রে এই অপারেশনের সময় জটিলতা হয় O(n)।",
+    "hints": "💡 লিংকড লিস্টে n-টি উপাদান ট্রাভার্স করতে O(n) সময় লাগে।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "O(n)"
   },
   {
     "id": 204707,
@@ -1114,12 +1179,13 @@
       "Integrity constraing"
     ],
     "correct_answer": "DDL",
-    "explanation": "",
-    "hints": "",
+    "explanation": "'CREATE TABLE employee (name varchar, id integer)' কমান্ডটি ডেটাবেজে নতুন টেবিল ও তার স্কিমা কাঠামো তৈরি করে। ডেটাবেজের কাঠামো তৈরি ও রূপান্তরের জন্য ব্যবহৃত স্টেটমেন্টগুলো DDL (Data Definition Language)-এর আওতাভুক্ত।\\nDDL কমান্ডসমূহ: CREATE, ALTER, DROP, TRUNCATE ইত্যাদি।",
+    "hints": "💡 টেবিল তৈরির CREATE TABLE হলো ডেটা ডেফিনিশন ল্যাঙ্গুয়েজ (DDL)।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "DDL"
   },
   {
     "id": 204708,
@@ -1131,12 +1197,13 @@
       "Distint"
     ],
     "correct_answer": "select",
-    "explanation": "",
-    "hints": "",
+    "explanation": "রিলেশনাল ডেটাবেজে SQL কোয়েরির মাধ্যমে টেবিল থেকে নির্দিষ্ট কলাম বা অ্যাট্রিবিউটের তালিকা ফলাফলে দেখতে SELECT ক্লজ ব্যবহৃত হয়। যেমন: SELECT name, id FROM employee;",
+    "hints": "💡 কাঙ্ক্ষিত অ্যাট্রিবিউট বা কলামের তালিকা প্রদর্শনে SELECT ক্লজ ব্যবহৃত হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "select"
   },
   {
     "id": 204709,
@@ -1148,12 +1215,13 @@
       "Group by, where"
     ],
     "correct_answer": "Group by, where",
-    "explanation": "",
-    "hints": "",
+    "explanation": "SQL-এ অ্যাগ্রিগেট ফাংশনসমূহ (যেমন SUM, COUNT, AVG, MAX, MIN) সরাসরি SELECT লিস্টে অথবা GROUP BY ও HAVING ক্লজে ব্যবহার করা যায়। কিন্তু একক সারির ফিল্টারিং শর্ত হিসেবে ব্যবহৃত WHERE ক্লজের মধ্যে অ্যাগ্রিগেট ফাংশন ব্যবহার করা যায় না।",
+    "hints": "💡 অ্যাগ্রিগেট ফাংশন GROUP BY/HAVING-এ ব্যবহৃত হয়, WHERE ক্লজে ব্যবহার করা যায় না।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Group by, where"
   },
   {
     "id": 204710,
@@ -1165,12 +1233,13 @@
       "Tree"
     ],
     "correct_answer": "Stack",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কোনো গাণিতিক এক্সপ্রেশনে বন্ধনীসমূহ (যেমন (), {}, []) সঠিকভাবে ব্যালান্সড বা জোড়ায় জোড়ায় বিন্যস্ত আছে কিনা তা যাচাই করতে স্ট্যাক (Stack) ডেটা স্ট্রাকচার ব্যবহৃত হয়। শুরুর বন্ধনী পেলে স্ট্যাকে পুশ (Push) করা হয় এবং সমাপ্তি বন্ধনী পেলে পপ (Pop) করে মিল দেখা হয়।",
+    "hints": "💡 বন্ধনীর ভারসাম্য (Balanced Parenthesis) পরীক্ষায় LIFO ভিত্তিক Stack ব্যবহৃত হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Stack"
   },
   {
     "id": 204711,
@@ -1182,12 +1251,13 @@
       "Either the left of the right sub- tree should be be binary search tree but not both."
     ],
     "correct_answer": "Either the left of the right sub- tree should be be binary search tree but not both.",
-    "explanation": "",
-    "hints": "",
+    "explanation": "বাইনারি সার্চ ট্রি (BST)-এর নিয়ম অনুযায়ী, কোনো নোডের বাম সাবট্রির সকল নোড মূল নোড অপেক্ষা ছোট এবং ডান সাবট্রির সকল নোড মূল নোড অপেক্ষা বড় হবে। অধিকন্তু, বাম সাবট্রি এবং ডান সাবট্রি উভয়কেই অবশ্যই স্ব-স্ব ক্ষেত্রে বাইনারি সার্চ ট্রি হতে হবে। তাই 'উভয়টি BST হতে পারবে না' উক্তিটি সম্পূর্ণ ভুল বা অসত্য।",
+    "hints": "💡 BST-এর উভয় সাবট্রিকেই (Left ও Right) অবশ্যই BST হতে হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Either the left of the right sub- tree should be be binary search tree but not both."
   },
   {
     "id": 204712,
@@ -1199,12 +1269,13 @@
       "new Box obj;"
     ],
     "correct_answer": "\"Box obhj -new BOx();",
-    "explanation": "",
-    "hints": "",
+    "explanation": "জাভা (Java) প্রোগ্রামিংয়ে Box ক্লাসের একটি অবজেক্ট তৈরির সঠিক সিনট্যাক্স হলো:\\nBox obj = new Box();\\nএখানে Box হলো ক্লাসের নাম, obj হলো অবজেক্ট রেফারেন্স ভেরিয়েবল এবং new Box() কনস্ট্রাক্টরের মাধ্যমে মেমোরিতে অবজেক্ট তৈরি করে।",
+    "hints": "💡 অবজেক্ট তৈরির রূপ: ClassName obj = new ClassName();",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "\"Box obhj -new BOx();"
   },
   {
     "id": 204713,
@@ -1216,12 +1287,13 @@
       "method duplication"
     ],
     "correct_answer": "method overloading",
-    "explanation": "",
-    "hints": "",
+    "explanation": "একই ক্লাসের মধ্যে একই নামের একাধিক মেথড যদি ভিন্ন ভিন্ন প্যারামিটার তালিকা (ভিন্ন সংখ্যা বা ডেটা টাইপ) নিয়ে সংজ্ঞায়িত করা হয়, তবে অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিংয়ে এই প্রক্রিয়াকে মেথড ওভারলোডিং (Method Overloading) বা কম্পাইল-টাইম পলিমরফিজম বলা হয়।",
+    "hints": "💡 একই মেথড নাম কিন্তু ভিন্ন প্যারামিটার = Method Overloading।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "method overloading"
   },
   {
     "id": 204714,
@@ -1233,12 +1305,13 @@
       "NOS"
     ],
     "correct_answer": "Kernel",
-    "explanation": "",
-    "hints": "",
+    "explanation": "অপারেটিং সিস্টেমের কেন্দ্রীয় মূল প্রোগ্রাম বা কোর কম্পোনেন্টকে কার্নেল (Kernel) বলা হয়। কার্নেল হার্ডওয়্যার ও অ্যাপ্লিকেশন সফটওয়্যারের মধ্যে সরাসরি যোগাযোগ রক্ষা করে এবং সিপিইউ শিডিউলিং, মেমোরি ব্যবস্থাপনা, ডিভাইস কন্ট্রোল ইত্যাদি নিয়ন্ত্রণ করে।",
+    "hints": "💡 অপারেটিং সিস্টেমের মূল ও কেন্দ্রীয় অংশ হলো কার্নেল (Kernel)।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Kernel"
   },
   {
     "id": 204715,
@@ -1250,12 +1323,13 @@
       "UDP"
     ],
     "correct_answer": "NAT",
-    "explanation": "",
-    "hints": "",
+    "explanation": "NAT (Network Address Translation) স্থানীয় প্রাইভেট আইপি অ্যাড্রেসকে পাবলিক আইপি অ্যাড্রেসে রূপান্তর করে ইন্টারনেটের মাধ্যমে ডেটা প্যাকেট আদান-প্রদান করতে ব্যবহৃত হয়।",
+    "hints": "💡 নেটওয়ার্কে প্যাকেট রাউটিং ও আইপি রূপান্তরে NAT ব্যবহৃত হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "NAT"
   },
   {
     "id": 204716,
@@ -1266,13 +1340,14 @@
       "\"Underflow",
       "\"User flow"
     ],
-    "correct_answer": "\"Overflow ",
-    "explanation": "",
-    "hints": "",
+    "correct_answer": "\"Overflow",
+    "explanation": "যখন একটি স্ট্যাকের ধারণক্ষমতা পূর্ণ থাকে (যেমন সাইজ ৫ এবং তাতে পূর্বেই ৫টি উপাদান বিদ্যমান), তখন নতুন কোনো উপাদান পুশ (Push) করার চেষ্টা করলে যে ত্রুটির সৃষ্টি হয় তাকে 'স্ট্যাক ওভারফ্লো' (Stack Overflow) বলা হয়। বিপরীতে খালি স্ট্যাক থেকে পপ করতে গেলে Underflow ঘটে।",
+    "hints": "💡 পূর্ণ স্ট্যাকে নতুন উপাদান যুক্ত করার চেষ্টাকে Stack Overflow বলে।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "\"Overflow"
   },
   {
     "id": 204717,
@@ -1284,12 +1359,13 @@
       "When list has only a few elements and when performing a single search in an underdone ist"
     ],
     "correct_answer": "When list has only a few elements and when performing a single search in an underdone ist",
-    "explanation": "",
-    "hints": "",
+    "explanation": "লিনিয়ার সার্চ (Linear Search) তখনই সবচেয়ে সুবিধাজনক যখন তালিকায় উপাদানের সংখ্যা খুব কম থাকে অথবা তালিকাটি অবিন্যস্ত (unsorted/unordered) থাকে যেখানে সর্টিং করার অতিরিক্ত সময় ব্যয় না করে সরাসরি একক অনুসন্ধান করা যায়।",
+    "hints": "💡 অবিন্যস্ত ও স্বল্প উপাদানবিশিষ্ট তালিকায় লিনিয়ার সার্চ কার্যকর।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "When list has only a few elements and when performing a single search in an underdone ist"
   },
   {
     "id": 204718,
@@ -1301,12 +1377,13 @@
       "\" Loosely connected"
     ],
     "correct_answer": "\"Lightly connected",
-    "explanation": "",
-    "hints": "",
+    "explanation": "গ্রাফ থিওরিতে একটি গ্রাফের প্রতিটি শীর্ষবিন্দু (Vertex) থেকে অন্য সব শীর্ষবিন্দুর সাথে সরাসরি এজ বা সংযোগ থাকার ধারণাকে কানেক্টিভিটির ভিত্তিতে শ্রেণিবদ্ধ করা হয়।",
+    "hints": "💡 গ্রাফের সংযোগ কাঠামোর ভিত্তিতে শীর্ষবিন্দুর সম্পর্ক নির্ধারিত হয়।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "\"Lightly connected"
   },
   {
     "id": 204719,
@@ -1318,12 +1395,13 @@
       "Dynamic programming"
     ],
     "correct_answer": "Divide and Conquer",
-    "explanation": "",
-    "hints": "",
+    "explanation": "কুইকসর্ট (Quicksort) অ্যালগরিদম ডিভাইড অ্যান্ড কনকার (Divide and Conquer) পদ্ধতির ওপর ভিত্তি করে কাজ করে। এতে একটি পিভট (pivot) উপাদান নির্বাচন করে অ্যারেকে দুটি সাব-অ্যারেতে বিভক্ত করা হয় এবং রিকার্সিভলি সেগুলোকে সাজানো হয়।",
+    "hints": "💡 Quicksort হলো একটি Divide and Conquer ভিত্তিক সর্টিং অ্যালগরিদম।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "Divide and Conquer"
   },
   {
     "id": 204720,
@@ -1335,12 +1413,13 @@
       "\"double name [10];"
     ],
     "correct_answer": "\"char name [10].",
-    "explanation": "",
-    "hints": "",
+    "explanation": "সি (C) প্রোগ্রামিংয়ে scanf() ফাংশনে ইনপুট গ্রহণের জন্য সাধারণ ভেরিয়েবলের পূর্বে অ্যাড্রেস অপারেটর (&) ব্যবহার করতে হয়। কিন্তু স্ট্রিং বা ক্যারেক্টার অ্যারে (যেমন char name[10]) এর নাম নিজেই মেমোরিতে তার প্রথম উপাদানের প্রারম্ভিক ঠিকানা নির্দেশ করে, ফলে scanf('%s', name) এ কোনো '&' চিহ্নের প্রয়োজন হয় না।",
+    "hints": "💡 স্ট্রিং/ক্যারেক্টার অ্যারের নাম নিজেই পয়েন্টার অ্যাড্রেস হওয়ায় scanf-এ & লাগে না।",
     "subject": "কম্পিউটার ও তথ্য প্রযুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "\"char name [10]."
   },
   {
     "id": 204721,
@@ -1352,11 +1431,12 @@
       "200"
     ],
     "correct_answer": "75",
-    "explanation": "",
-    "hints": "",
+    "explanation": "ধরি, পিকনিকে প্রাপ্তবয়স্ক = A এবং শিশু = C।\\nমোট লোকসংখ্যা = 240\\nসুতরাং A + C = 240\\nপ্রাপ্তবয়স্ক শিশুর চেয়ে 20 জন বেশি: A = C + 20\\n⇒ 2C + 20 = 240 ⇒ C = 110 এবং A = 130 জন।\\nআবার পুরুষ (M) নারীর (W) চেয়ে 20 জন বেশি: M - W = 20\\nএবং M + W = 130\\nউভয় সমীকরণ যোগ করে পাই: 2M = 150 ⇒ M = 75 জন।\\nঅতএব, পিকনিকে পুরুষ ছিলেন ৭৫ জন।",
+    "hints": "💡 প্রাপ্তবয়স্ক = (240 + 20)/2 = 130; পুরুষ = (130 + 20)/2 = 75 জন।",
     "subject": "গাণিতিক যুক্তি",
     "category": "ব্যাংক জবস",
     "sub_category": "Combined Bank (সমন্বিত ব্যাংক)",
-    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18"
+    "exam": "18@Assit. Programmer | Sonali Bank, Rubali Bank, BD Krishi Bank - 16.11.18",
+    "correctAnswer": "75"
   }
 ]
