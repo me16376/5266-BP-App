@@ -455,8 +455,7 @@ export default function QuestionCard({
               border: '1px solid #fde68a',
               color: '#92400e'
             }}>
-              <div style={{ fontWeight: 700, display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '6px' }}>
-                <Sparkles size={15} color="#b45309" />
+              <div style={{ fontWeight: 700, marginBottom: '6px' }}>
                 <span>স্পেশাল নোট ও শর্টকাট (Hints):</span>
               </div>
               <div style={{
@@ -464,7 +463,7 @@ export default function QuestionCard({
                 fontSize: '0.98rem',
                 fontFamily: 'var(--font-kalpurush)'
               }}>
-                <FormattedContent content={question.hints} />
+                <FormattedContent content={question.hints.replace(/^(?:[\u{1F000}-\u{1FAFF}\u{2600}-\u{26FF}\u{2300}-\u{23FF}\u{2700}-\u{27BF}\u{2B50}-\u{2B55}\uFE0E\uFE0F\u200D\s])+/u, '').trim()} />
               </div>
             </div>
           )}

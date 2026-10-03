@@ -392,7 +392,8 @@ function QuestionBankSmartQuestionsContent() {
 
               let expText = item.explanation || '';
               if (item.hints) {
-                expText = expText ? `${expText}\n\n${item.hints}` : item.hints;
+                const cleanH = item.hints.replace(/^(?:[\u{1F000}-\u{1FAFF}\u{2600}-\u{26FF}\u{2300}-\u{23FF}\u{2700}-\u{27BF}\u{2B50}-\u{2B55}\uFE0E\uFE0F\u200D\s])+/u, '').trim();
+                expText = expText ? `${expText}\n\n${cleanH}` : cleanH;
               }
 
               return {
