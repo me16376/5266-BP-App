@@ -151,6 +151,26 @@ function ModelTestContent() {
     });
   };
 
+  // Live Score calculation in real time
+  const liveStats = useMemo(() => {
+    let correct = 0;
+    let wrong = 0;
+    questions.forEach((q, idx) => {
+      const selected = userAnswers[idx];
+      if (selected !== undefined && selected !== null) {
+        const selectedStr = String(selected).trim();
+        const correctStr = String(q.correct_answer || (q.options && q.options[q.ans]) || '').trim();
+        const isMatch = (selectedStr === correctStr) || (typeof selected === 'number' && selected === q.ans);
+        if (isMatch) correct++;
+        else wrong++;
+      }
+    });
+    const penalty = Number((wrong * negativeMarkRate).toFixed(2));
+    const rawScore = Number((correct - penalty).toFixed(2));
+    const score = Math.max(0, rawScore);
+    return { correct, wrong, score, rawScore };
+  }, [questions, userAnswers, negativeMarkRate]);
+
   // Calculate results
   const calculateResult = () => {
     let correct = 0;
@@ -500,13 +520,24 @@ function ModelTestContent() {
           boxShadow: '0 4px 16px rgba(0,0,0,0.06)'
         }}>
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '2px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '2px', flexWrap: 'wrap' }}>
               <span style={{ fontSize: '0.78rem', color: 'var(--emerald-600)', fontWeight: 700, textTransform: 'uppercase' }}>
                 {isSubmitted ? 'ফলাফল ও সমাধান পর্যালোচনা' : 'লাইভ মডেল টেস্ট চলমান'}
               </span>
               <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>•</span>
               <span style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
                 উত্তর দিয়েছেন: <strong style={{ color: 'var(--emerald-600)' }}>{answeredCount}</strong> / {questions.length}
+              </span>
+              <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>•</span>
+              <span style={{ fontSize: '0.82rem', color: '#0f172a', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '5px' }}>
+                লাইভ স্কোর: <strong style={{ 
+                  color: isSubmitted ? '#047857' : '#059669', 
+                  background: '#ecfdf5', 
+                  padding: '2px 8px', 
+                  borderRadius: '6px', 
+                  border: '1px solid #a7f3d0',
+                  fontSize: '0.84rem' 
+                }}>{(isSubmitted && testResult?.marks !== undefined) ? testResult.marks.toFixed(2) : liveStats.score.toFixed(2)}</strong>
               </span>
             </div>
             <h2 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#0f172a', margin: 0, lineHeight: 1.3 }}>
@@ -672,9 +703,13 @@ function ModelTestContent() {
                 <span style={{ color: 'var(--text-muted)' }}>বাকি প্রশ্ন:</span>
                 <strong style={{ color: remainingCount > 0 ? '#d97706' : '#059669' }}>{remainingCount}</strong>
               </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid #f1f5f9' }}>
                 <span style={{ color: 'var(--text-muted)' }}>ভুল উত্তরের শাস্তি:</span>
                 <strong style={{ color: '#dc2626' }}>-{negativeMarkRate}</strong>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0' }}>
+                <span style={{ color: '#0f172a', fontWeight: 700 }}>লাইভ স্কোর:</span>
+                <strong style={{ color: '#059669', fontSize: '0.94rem' }}>{(isSubmitted && testResult?.marks !== undefined) ? testResult.marks.toFixed(2) : liveStats.score.toFixed(2)}</strong>
               </div>
             </div>
           </div>

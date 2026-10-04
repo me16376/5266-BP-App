@@ -331,15 +331,6 @@ export default function Navbar() {
                   <div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                       <span>Layout smart</span>
-                      <span style={{
-                        fontSize: '0.65rem',
-                        padding: '1px 5px',
-                        borderRadius: '6px',
-                        background: '#eff6ff',
-                        color: '#2563eb',
-                        border: '1px solid #bfdbfe',
-                        fontWeight: 700
-                      }}>Soon</span>
                     </div>
                     <span style={{ fontSize: '0.74rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px' }}>
                       প্রশ্নভিত্তিক জব সল্যুশন
@@ -1170,15 +1161,6 @@ export default function Navbar() {
                     <Sparkles size={16} color="#0284c7" />
                     <span>Layout smart</span>
                   </div>
-                  <span style={{
-                    fontSize: '0.68rem',
-                    padding: '1px 6px',
-                    borderRadius: '10px',
-                    background: '#eff6ff',
-                    color: '#2563eb',
-                    border: '1px solid #bfdbfe',
-                    fontWeight: 700
-                  }}>Soon</span>
                 </Link>
               </div>
             )}

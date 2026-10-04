@@ -377,7 +377,7 @@ function IctSmartContent() {
   // 4. Authorized
   return (
     <div className="qbank-smart-wrapper" style={{ minHeight: '85vh', background: '#f8fafc', padding: '30px 16px 80px' }}>
-      <div className="container" style={{ maxWidth: '1280px', margin: '0 auto' }}>
+      <div className="container" style={{ maxWidth: '1300px', margin: '0 auto' }}>
         {/* Top Header */}
         <div style={{ marginBottom: '24px', textAlign: 'center' }}>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>

@@ -55,7 +55,7 @@ export default function ExamPickerView({
 
   return (
     <div style={{ padding: '36px 0 80px' }}>
-      <div className="container" style={{ maxWidth: '1100px' }}>
+      <div className="container" style={{ maxWidth: '1300px' }}>
         {/* Hero Header */}
         <div style={{ textAlign: 'center', marginBottom: '32px' }}>
           <div style={{

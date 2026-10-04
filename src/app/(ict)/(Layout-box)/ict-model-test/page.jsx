@@ -73,8 +73,8 @@ function IctModelTestContent() {
     return chunks;
   }, [allQuestions.length]);
 
-  const rangeStartOffset = useMemo(() => {
-    if (selectedRange === 'all') return 1;
+  const startNumber = useMemo(() => {
+    if (selectedRange === 'all' || !selectedRange.includes('-')) return 1;
     const [start] = selectedRange.split('-').map(Number);
     return start || 1;
   }, [selectedRange]);
@@ -150,6 +150,26 @@ function IctModelTestContent() {
     });
   };
 
+  // Live Score calculation in real time
+  const liveStats = useMemo(() => {
+    let correct = 0;
+    let wrong = 0;
+    questions.forEach((q, idx) => {
+      const selected = userAnswers[idx];
+      if (selected !== undefined && selected !== null) {
+        const selectedStr = String(selected).trim();
+        const correctStr = String(q.correct_answer || (q.options && q.options[q.ans]) || '').trim();
+        const isMatch = (selectedStr === correctStr) || (typeof selected === 'number' && selected === q.ans);
+        if (isMatch) correct++;
+        else wrong++;
+      }
+    });
+    const penalty = Number((wrong * negativeMarkRate).toFixed(2));
+    const rawScore = Number((correct - penalty).toFixed(2));
+    const score = Math.max(0, rawScore);
+    return { correct, wrong, score, rawScore };
+  }, [questions, userAnswers, negativeMarkRate]);
+
   // Calculate results
   const calculateResult = () => {
     let correct = 0;
@@ -211,11 +231,18 @@ function IctModelTestContent() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Duration: 100 MCQs = 60 minutes (36 sec per question)
+  // Duration: 100 MCQs = 60 minutes (0.6 min or 36 sec per question)
   const durationSeconds = useMemo(() => {
     const count = questions ? questions.length : 0;
     if (count === 0) return 3600;
     return Math.round(count * 36);
+  }, [questions]);
+
+  const durationMinutes = useMemo(() => {
+    const count = questions ? questions.length : 0;
+    if (count === 0) return 60;
+    const mins = count * 0.6;
+    return Number.isInteger(mins) ? mins : Math.round(mins * 10) / 10;
   }, [questions]);
 
   // 1. Loading State while checking auth
@@ -323,370 +350,427 @@ function IctModelTestContent() {
     );
   }
 
+  const answeredCount = Object.keys(userAnswers).length;
+  const remainingCount = questions.length - answeredCount;
+
   return (
-    <div style={{ padding: '30px 0 80px' }}>
+    <div style={{ padding: '20px 0 80px' }}>
       <div className="container">
-        {/* Top Action Bar */}
+        {/* Breadcrumb Navigation */}
         <div style={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
           flexWrap: 'wrap',
-          gap: '14px',
-          marginBottom: '24px'
+          gap: '12px',
+          marginBottom: '16px'
         }}>
-          <Link
-            href="/ict"
-            className="btn-secondary"
-            style={{ padding: '8px 14px', fontSize: '0.86rem' }}
-          >
-            <ArrowLeft size={16} />
-            <span>অন্যান্য আইসিটি অধ্যায়</span>
-          </Link>
-
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             <Link
-              href={`/ict-practice?exam=${encodeURIComponent(examSlug || '')}`}
+              href={`/ict-practice?exam=${encodeURIComponent(examSlug || '')}&mode=practice`}
               className="btn-secondary"
-              style={{ padding: '8px 14px', fontSize: '0.86rem' }}
+              style={{ padding: '7px 12px', fontSize: '0.84rem' }}
             >
-              <BookOpen size={16} />
-              <span>প্র্যাকটিস মোড</span>
+              <ArrowLeft size={15} />
+              <span>প্র্যাকটিস পেজে যান</span>
             </Link>
 
-            {/* Mobile Palette Button */}
-            <button
-              onClick={() => setMobilePaletteOpen(true)}
+            <Link
+              href="/ict"
               className="btn-secondary"
-              style={{
-                display: 'none',
-                padding: '8px 14px',
-                fontSize: '0.86rem'
-              }}
-              id="mobile-palette-toggle"
+              style={{ padding: '7px 12px', fontSize: '0.84rem' }}
             >
-              <Menu size={16} />
-              <span>প্রশ্ন তালিকা ({Object.keys(userAnswers).length}/{questions.length})</span>
-            </button>
+              <Laptop size={15} />
+              <span>অন্যান্য অধ্যায়</span>
+            </Link>
+          </div>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+            {/* Question Range Dropdown: 1-100, 101-200, 201-300... */}
+            {rangeChunks.length > 0 && !isSubmitted && (
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', background: '#f8fafc', padding: '4px 10px', borderRadius: '10px', border: '1px solid #cbd5e1' }}>
+                <span style={{ fontSize: '0.82rem', color: '#334155', fontWeight: 700 }}>প্রশ্ন রেঞ্জ:</span>
+                <select
+                  value={selectedRange}
+                  onChange={(e) => handleRangeChange(e.target.value)}
+                  style={{
+                    padding: '4px 10px',
+                    fontSize: '0.84rem',
+                    fontWeight: 700,
+                    borderRadius: '8px',
+                    cursor: 'pointer',
+                    background: '#ffffff',
+                    border: '1.5px solid #10b981',
+                    color: '#065f46'
+                  }}
+                >
+                  {rangeChunks.map(chunk => (
+                    <option key={chunk.id} value={chunk.id}>
+                      প্রশ্ন {chunk.label}
+                    </option>
+                  ))}
+                  <option value="all">সকল প্রশ্ন (১ - {allQuestions.length})</option>
+                </select>
+              </div>
+            )}
+            <span className="badge badge-amber" style={{ fontSize: '0.8rem', padding: '5px 10px' }}>
+              নেগেটিভ মার্ক: -{negativeMarkRate.toFixed(2)}
+            </span>
+            <span className="badge badge-emerald" style={{ fontSize: '0.8rem', padding: '5px 10px' }}>
+              মোট প্রশ্ন: {questions.length} টি
+            </span>
           </div>
         </div>
 
-        {/* Exam Title & Stats Banner */}
+        {/* Sticky Control & Status Bar */}
         <div className="glass-panel" style={{
-          padding: '22px 26px',
+          position: 'sticky',
+          top: '76px',
+          zIndex: 40,
+          padding: '14px 20px',
           marginBottom: '24px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
           flexWrap: 'wrap',
-          gap: '18px',
-          background: '#ffffff'
+          gap: '14px',
+          background: '#ffffff',
+          borderLeft: '4px solid var(--emerald-500)',
+          boxShadow: '0 4px 16px rgba(0,0,0,0.06)'
         }}>
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-              <span className="badge badge-emerald">লাইভ মডেল টেস্ট</span>
-              {examData && examData.category_name && (
-                <span className="badge badge-cyan">{examData.category_name}</span>
-              )}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '2px', flexWrap: 'wrap' }}>
+              <span style={{ fontSize: '0.78rem', color: 'var(--emerald-600)', fontWeight: 700, textTransform: 'uppercase' }}>
+                {isSubmitted ? 'ফলাফল ও সমাধান পর্যালোচনা' : 'লাইভ মডেল টেস্ট চলমান'}
+              </span>
+              <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>•</span>
+              <span style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
+                উত্তর দিয়েছেন: <strong style={{ color: 'var(--emerald-600)' }}>{answeredCount}</strong> / {questions.length}
+              </span>
+              <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>•</span>
+              <span style={{ fontSize: '0.82rem', color: '#0f172a', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '5px' }}>
+                লাইভ স্কোর: <strong style={{ 
+                  color: isSubmitted ? '#047857' : '#059669', 
+                  background: '#ecfdf5', 
+                  padding: '2px 8px', 
+                  borderRadius: '6px', 
+                  border: '1px solid #a7f3d0',
+                  fontSize: '0.84rem' 
+                }}>{(isSubmitted && testResult?.marks !== undefined) ? testResult.marks.toFixed(2) : liveStats.score.toFixed(2)}</strong>
+              </span>
             </div>
-            <h1 style={{ fontSize: '1.65rem', fontWeight: 800, color: '#0f172a', marginBottom: '6px' }}>
-              {examData ? cleanIctTitle(examData.title) : 'আইসিটি মডেল টেস্ট'}
-            </h1>
-            <div style={{ fontSize: '0.88rem', color: 'var(--text-muted)' }}>
-              মোট প্রশ্ন: <strong style={{ color: '#0f172a' }}>{questions.length}</strong> টি |
-              উত্তর দিয়েছেন: <strong style={{ color: 'var(--emerald-600)' }}>{Object.keys(userAnswers).length}</strong> টি |
-              বাকি: <strong style={{ color: 'var(--amber-600)' }}>{questions.length - Object.keys(userAnswers).length}</strong> টি
-            </div>
-
-            {/* Range Selection Pills */}
-            {rangeChunks.length > 0 && (
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap', marginTop: '12px' }}>
-                <span style={{ fontSize: '0.84rem', fontWeight: 600, color: 'var(--text-muted)' }}>
-                  প্রশ্ন রেঞ্জ:
+            <h2 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#0f172a', margin: 0, lineHeight: 1.3 }}>
+              {cleanIctTitle(examData?.title) || 'আইসিটি মডেল টেস্ট'}
+              {selectedRange !== 'all' && (
+                <span className="badge badge-emerald" style={{ marginLeft: '10px', fontSize: '0.78rem', verticalAlign: 'middle' }}>
+                  রেঞ্জ: {selectedRange}
                 </span>
+              )}
+            </h2>
+          </div>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            {/* Countdown Timer */}
+            {!isSubmitted && (
+              <ExamTimer
+                totalMinutes={durationMinutes}
+                totalSeconds={durationSeconds}
+                onTimeUp={() => {
+                  alert('সময় শেষ হয়েছে! আপনার উত্তরপত্র স্বয়ংক্রিয়ভাবে জমা নেওয়া হচ্ছে।');
+                  calculateResult();
+                }}
+                isSubmitted={isSubmitted}
+              />
+            )}
+
+            {/* Mobile Palette Toggle Button */}
+            <button
+              onClick={() => setMobilePaletteOpen(true)}
+              className="btn-secondary mobile-only-btn"
+              style={{ padding: '8px 12px', fontSize: '0.85rem' }}
+            >
+              <Menu size={16} />
+              <span>প্যালেট</span>
+            </button>
+
+            {/* Submit / Finish Button */}
+            {!isSubmitted ? (
+              <button
+                onClick={() => setShowConfirmModal(true)}
+                className="btn-primary"
+                style={{
+                  padding: '9px 20px',
+                  fontSize: '0.92rem',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  boxShadow: '0 4px 14px rgba(16, 185, 129, 0.35)'
+                }}
+              >
+                <Send size={16} />
+                <span>টেস্ট জমা দিন</span>
+              </button>
+            ) : (
+              <div style={{ display: 'flex', gap: '8px' }}>
                 <button
-                  onClick={() => handleRangeChange('all')}
-                  disabled={isSubmitted}
-                  style={{
-                    padding: '4px 10px',
-                    borderRadius: '6px',
-                    fontSize: '0.8rem',
-                    fontWeight: 600,
-                    cursor: isSubmitted ? 'not-allowed' : 'pointer',
-                    border: selectedRange === 'all' ? '1px solid var(--emerald-500)' : '1px solid #cbd5e1',
-                    background: selectedRange === 'all' ? '#ecfdf5' : '#ffffff',
-                    color: selectedRange === 'all' ? '#047857' : '#475569',
-                    opacity: isSubmitted ? 0.7 : 1
-                  }}
+                  onClick={handleRetake}
+                  className="btn-secondary"
+                  style={{ padding: '9px 16px', fontSize: '0.88rem', display: 'flex', alignItems: 'center', gap: '6px' }}
                 >
-                  সকল প্রশ্ন ({allQuestions.length})
+                  <RotateCcw size={15} />
+                  <span>পুনরায় দিন</span>
                 </button>
-                {rangeChunks.map(chunk => {
-                  const isSelected = selectedRange === chunk.id;
-                  return (
-                    <button
-                      key={chunk.id}
-                      onClick={() => handleRangeChange(chunk.id)}
-                      disabled={isSubmitted}
-                      style={{
-                        padding: '4px 10px',
-                        borderRadius: '6px',
-                        fontSize: '0.8rem',
-                        fontWeight: 600,
-                        cursor: isSubmitted ? 'not-allowed' : 'pointer',
-                        border: isSelected ? '1px solid var(--emerald-500)' : '1px solid #cbd5e1',
-                        background: isSelected ? '#ecfdf5' : '#ffffff',
-                        color: isSelected ? '#047857' : '#475569',
-                        opacity: isSubmitted ? 0.7 : 1
-                      }}
-                    >
-                      {chunk.label}
-                    </button>
-                  );
-                })}
+                <button
+                  onClick={() => setShowResultModal(true)}
+                  className="btn-primary"
+                  style={{ padding: '9px 20px', fontSize: '0.88rem' }}
+                >
+                  <Award size={16} />
+                  <span>ফলাফল ও স্কোর</span>
+                </button>
               </div>
             )}
           </div>
-
-          {/* Timer Card */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
-            <ExamTimer
-              durationSeconds={durationSeconds}
-              onTimeUp={() => {
-                if (!isSubmitted) {
-                  alert('সময় শেষ হয়েছে! আপনার উত্তরসমূহ স্বয়ংক্রিয়ভাবে জমা নেওয়া হচ্ছে।');
-                  calculateResult();
-                }
-              }}
-              isSubmitted={isSubmitted}
-            />
-          </div>
         </div>
 
-        {/* Main Two-Column Layout */}
-        <div style={{
+        {/* Main Test Layout: 2-Column (Questions Stream + Sticky Palette) */}
+        <div className="exam-layout-grid" style={{
           display: 'grid',
-          gridTemplateColumns: '1fr 340px',
+          gridTemplateColumns: 'minmax(0, 1fr) 300px',
           gap: '24px',
           alignItems: 'start'
-        }} id="model-test-grid">
-          {/* Left Column: Questions List */}
+        }}>
+          {/* Left: Questions Stream */}
           <div>
-            {questions.map((q, idx) => {
-              const selectedOpt = userAnswers[idx];
-              const qNumber = rangeStartOffset + idx;
+            {questions.map((q, idx) => (
+              <div key={q.id || idx} id={`q_${idx}`} style={{ scrollMarginTop: '160px', marginBottom: '16px' }}>
+                <QuestionCard
+                  question={q}
+                  index={q.globalIndex ?? idx}
+                  mode="test"
+                  userAnswer={userAnswers[idx]}
+                  onSelectOption={(opt) => handleSelectOption(idx, opt)}
+                  isSubmitted={isSubmitted}
+                />
+              </div>
+            ))}
 
-              return (
-                <div
-                  key={q.id || idx}
-                  id={`q-anchor-${idx}`}
-                  style={{
-                    marginBottom: '20px',
-                    scrollMarginTop: '100px'
-                  }}
-                >
-                  <QuestionCard
-                    question={q}
-                    index={idx}
-                    displayIndex={qNumber}
-                    mode="exam"
-                    selectedOption={selectedOpt}
-                    onSelectOption={(opt) => handleSelectOption(idx, opt)}
-                    showResult={isSubmitted}
-                    isSubmitted={isSubmitted}
-                  />
-                </div>
-              );
-            })}
-
-            {/* Bottom Submit Action Bar */}
-            <div className="glass-panel" style={{
-              padding: '24px',
-              textAlign: 'center',
-              marginTop: '32px',
-              background: '#ffffff'
-            }}>
-              {!isSubmitted ? (
-                <div>
-                  <p style={{ color: 'var(--text-secondary)', marginBottom: '14px', fontSize: '0.94rem' }}>
-                    আপনি {questions.length}টির মধ্যে <strong>{Object.keys(userAnswers).length}</strong>টি প্রশ্নের উত্তর দিয়েছেন।
-                  </p>
-                  <button
-                    onClick={() => setShowConfirmModal(true)}
-                    className="btn-primary"
-                    style={{ padding: '12px 36px', fontSize: '1rem' }}
-                  >
-                    <Send size={18} />
-                    <span>মডেল টেস্ট সাবমিট করুন</span>
-                  </button>
-                </div>
-              ) : (
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px', flexWrap: 'wrap' }}>
-                  <button
-                    onClick={() => setShowResultModal(true)}
-                    className="btn-primary"
-                    style={{ padding: '12px 28px', fontSize: '0.95rem' }}
-                  >
-                    <Eye size={18} />
-                    <span>ফলাফল ও মার্কশিট দেখুন</span>
-                  </button>
-
-                  <button
-                    onClick={handleRetake}
-                    className="btn-secondary"
-                    style={{ padding: '12px 24px', fontSize: '0.95rem' }}
-                  >
-                    <RotateCcw size={18} />
-                    <span>পুনরায় টেস্ট দিন</span>
-                  </button>
-                </div>
-              )}
-            </div>
-          </div>
-
-          {/* Right Column: Sticky Question Navigation Palette (Desktop) */}
-          <div style={{ position: 'sticky', top: '90px' }} className="desktop-palette">
-            <QuestionNavGrid
-              totalQuestions={questions.length}
-              userAnswers={userAnswers}
-              currentIdx={currentIdx}
-              isSubmitted={isSubmitted}
-              questions={questions}
-              rangeStartOffset={rangeStartOffset}
-              onNavigate={(idx) => {
-                setCurrentIdx(idx);
-                const elem = document.getElementById(`q-anchor-${idx}`);
-                if (elem) elem.scrollIntoView({ behavior: 'smooth', block: 'center' });
-              }}
-              onSubmit={() => setShowConfirmModal(true)}
-            />
-
-            {/* Negative Marking Rate Setting */}
+            {/* Bottom Submit Banner if not submitted */}
             {!isSubmitted && (
-              <div className="glass-panel" style={{ padding: '14px 18px', marginTop: '16px', background: '#ffffff' }}>
-                <div style={{ fontSize: '0.84rem', fontWeight: 600, color: 'var(--text-muted)', marginBottom: '8px' }}>
-                  নেগেটিভ মার্কিং হার:
-                </div>
-                <div style={{ display: 'flex', gap: '8px' }}>
-                  {[
-                    { label: '০.২৫ (PSC/Bank)', val: 0.25 },
-                    { label: '০.৫০ (BCS)', val: 0.5 },
-                    { label: '০.০০ (নো নেগেটিভ)', val: 0.0 }
-                  ].map(item => (
-                    <button
-                      key={item.val}
-                      onClick={() => setNegativeMarkRate(item.val)}
-                      style={{
-                        flex: 1,
-                        padding: '6px 8px',
-                        borderRadius: '6px',
-                        fontSize: '0.78rem',
-                        fontWeight: 600,
-                        cursor: 'pointer',
-                        border: negativeMarkRate === item.val ? '1px solid var(--emerald-500)' : '1px solid #cbd5e1',
-                        background: negativeMarkRate === item.val ? '#ecfdf5' : '#ffffff',
-                        color: negativeMarkRate === item.val ? '#047857' : '#475569'
-                      }}
-                    >
-                      {item.label}
-                    </button>
-                  ))}
-                </div>
+              <div className="glass-panel" style={{
+                padding: '24px',
+                textAlign: 'center',
+                background: '#ffffff',
+                marginTop: '32px'
+              }}>
+                <h4 style={{ fontSize: '1.1rem', fontWeight: 700, color: '#0f172a', marginBottom: '8px' }}>
+                  সকল প্রশ্ন উত্তর দেওয়া সম্পন্ন হয়েছে?
+                </h4>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '18px' }}>
+                  আপনার উত্তরপত্র জমা দিলে সাথে সাথে সঠিক উত্তর, ব্যাখ্যা এবং বিস্তারিত নেগেটিভ মার্কিং স্কোরশিট দেখতে পাবেন।
+                </p>
+                <button
+                  onClick={() => setShowConfirmModal(true)}
+                  className="btn-primary"
+                  style={{ padding: '12px 32px', fontSize: '1rem' }}
+                >
+                  <Send size={18} />
+                  <span>উত্তরপত্র জমা দিন ও ফলাফল দেখুন</span>
+                </button>
               </div>
             )}
           </div>
-        </div>
 
-        {/* Confirmation Modal before Submit */}
-        {showConfirmModal && (
-          <div style={{
-            position: 'fixed',
-            inset: 0,
-            background: 'rgba(15, 23, 42, 0.65)',
-            backdropFilter: 'blur(4px)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            zIndex: 100,
-            padding: '20px'
+          {/* Right: Sticky Question Navigation Palette (Desktop) */}
+          <div className="exam-sidebar-nav" style={{
+            position: 'sticky',
+            top: '160px',
+            background: '#ffffff',
+            border: '1px solid var(--border-subtle)',
+            borderRadius: '16px',
+            padding: '20px',
+            boxShadow: 'var(--shadow-subtle)'
           }}>
-            <div className="glass-panel" style={{
-              maxWidth: '480px',
-              width: '100%',
-              padding: '30px',
-              textAlign: 'center',
-              background: '#ffffff',
-              boxShadow: '0 20px 40px rgba(0, 0, 0, 0.2)'
-            }}>
-              <div style={{
-                width: '60px',
-                height: '60px',
-                borderRadius: '50%',
-                background: '#ecfdf5',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                margin: '0 auto 16px'
-              }}>
-                <Send size={28} color="var(--emerald-600)" />
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '14px' }}>
+              <div style={{ fontWeight: 800, color: '#0f172a', fontSize: '0.96rem' }}>
+                প্রশ্ন তালিকা প্যালেট
               </div>
+              <span className="badge badge-emerald" style={{ fontSize: '0.76rem' }}>
+                {answeredCount} / {questions.length}
+              </span>
+            </div>
 
-              <h3 style={{ fontSize: '1.4rem', fontWeight: 800, color: '#0f172a', marginBottom: '10px' }}>
-                মডেল টেস্ট সাবমিট করবেন?
-              </h3>
+            <QuestionNavGrid
+              total={questions.length}
+              startNumber={startNumber}
+              userAnswers={userAnswers}
+              currentIndex={currentIdx}
+              onSelectIndex={(idx) => {
+                setCurrentIdx(idx);
+                const el = document.getElementById(`q_${idx}`);
+                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              }}
+            />
 
-              <div style={{
-                background: '#f8fafc',
-                borderRadius: '10px',
-                padding: '16px',
-                marginBottom: '20px',
-                fontSize: '0.92rem',
-                textAlign: 'left'
-              }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
-                  <span>মোট প্রশ্ন:</span>
-                  <strong>{questions.length} টি</strong>
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px', color: 'var(--emerald-600)' }}>
-                  <span>উত্তর দিয়েছেন:</span>
-                  <strong>{Object.keys(userAnswers).length} টি</strong>
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', color: 'var(--amber-600)' }}>
-                  <span>বাকি রয়েছে:</span>
-                  <strong>{questions.length - Object.keys(userAnswers).length} টি</strong>
-                </div>
+            {/* Quick summary stats */}
+            <div style={{ marginTop: '18px', paddingTop: '16px', borderTop: '1px solid #f1f5f9', fontSize: '0.82rem' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid #f1f5f9' }}>
+                <span style={{ color: 'var(--text-muted)' }}>উত্তর দিয়েছেন:</span>
+                <strong style={{ color: '#059669' }}>{answeredCount}</strong>
               </div>
-
-              <div style={{ display: 'flex', gap: '12px' }}>
-                <button
-                  onClick={() => setShowConfirmModal(false)}
-                  className="btn-secondary"
-                  style={{ flex: 1, padding: '11px', fontSize: '0.92rem' }}
-                >
-                  ফিরে যান
-                </button>
-                <button
-                  onClick={calculateResult}
-                  className="btn-primary"
-                  style={{ flex: 1, padding: '11px', fontSize: '0.92rem' }}
-                >
-                  হ্যাঁ, সাবমিট করুন
-                </button>
+              <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid #f1f5f9' }}>
+                <span style={{ color: 'var(--text-muted)' }}>বাকি প্রশ্ন:</span>
+                <strong style={{ color: remainingCount > 0 ? '#d97706' : '#059669' }}>{remainingCount}</strong>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid #f1f5f9' }}>
+                <span style={{ color: 'var(--text-muted)' }}>ভুল উত্তরের শাস্তি:</span>
+                <strong style={{ color: '#dc2626' }}>-{negativeMarkRate}</strong>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0' }}>
+                <span style={{ color: '#0f172a', fontWeight: 700 }}>লাইভ স্কোর:</span>
+                <strong style={{ color: '#059669', fontSize: '0.94rem' }}>{(isSubmitted && testResult?.marks !== undefined) ? testResult.marks.toFixed(2) : liveStats.score.toFixed(2)}</strong>
               </div>
             </div>
           </div>
-        )}
-
-        {/* Result Modal */}
-        {showResultModal && testResult && (
-          <ResultModal
-            result={testResult}
-            isOpen={showResultModal}
-            onClose={() => setShowResultModal(false)}
-            onRetake={handleRetake}
-          />
-        )}
+        </div>
       </div>
+
+      {/* Confirmation Modal before Submit */}
+      {showConfirmModal && (
+        <div style={{
+          position: 'fixed',
+          inset: 0,
+          zIndex: 110,
+          background: 'rgba(15, 23, 42, 0.5)',
+          backdropFilter: 'blur(6px)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '20px'
+        }}>
+          <div className="glass-panel" style={{
+            width: '100%',
+            maxWidth: '460px',
+            padding: '28px',
+            borderRadius: '16px',
+            background: '#ffffff',
+            boxShadow: '0 20px 40px rgba(0,0,0,0.18)',
+            textAlign: 'center'
+          }}>
+            <div style={{
+              width: '54px',
+              height: '54px',
+              borderRadius: '50%',
+              background: '#ecfdf5',
+              border: '2px solid #10b981',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              margin: '0 auto 16px',
+              color: 'var(--emerald-600)'
+            }}>
+              <Send size={26} />
+            </div>
+
+            <h3 style={{ fontSize: '1.3rem', fontWeight: 800, color: '#0f172a', marginBottom: '10px' }}>
+              পরীক্ষা জমা দিতে চান?
+            </h3>
+
+            <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: '1.6', marginBottom: '20px' }}>
+              আপনি মোট <strong>{questions.length}টি</strong> প্রশ্নের মধ্যে <strong>{answeredCount}টি</strong> উত্তর দিয়েছেন। বাকি <strong>{remainingCount}টি</strong> প্রশ্ন অনুত্তরিত রয়েছে।
+            </p>
+
+            <div style={{ display: 'flex', gap: '10px', justifyContent: 'center' }}>
+              <button
+                onClick={() => setShowConfirmModal(false)}
+                className="btn-secondary"
+                style={{ flex: 1, padding: '10px', fontSize: '0.9rem' }}
+              >
+                ফিরে যান (যাচাই করুন)
+              </button>
+              <button
+                onClick={calculateResult}
+                className="btn-primary"
+                style={{ flex: 1, padding: '10px', fontSize: '0.9rem' }}
+              >
+                হ্যাঁ, জমা দিন
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Result Modal */}
+      {showResultModal && testResult && (
+        <ResultModal
+          result={testResult}
+          onRetake={handleRetake}
+          onReviewAnswers={() => {
+            setShowResultModal(false);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+        />
+      )}
+
+      {/* Mobile Floating Drawer for Question Navigation */}
+      {mobilePaletteOpen && (
+        <div style={{
+          position: 'fixed',
+          inset: 0,
+          zIndex: 120,
+          background: 'rgba(15, 23, 42, 0.4)',
+          display: 'flex',
+          justifyContent: 'flex-end'
+        }} onClick={() => setMobilePaletteOpen(false)}>
+          <div style={{
+            width: '85%',
+            maxWidth: '340px',
+            height: '100%',
+            background: '#ffffff',
+            padding: '20px',
+            overflowY: 'auto',
+            boxShadow: '-4px 0 20px rgba(0,0,0,0.1)'
+          }} onClick={e => e.stopPropagation()}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+              <div style={{ fontWeight: 800, color: '#0f172a', fontSize: '1rem' }}>
+                প্রশ্ন তালিকা প্যালেট
+              </div>
+              <button onClick={() => setMobilePaletteOpen(false)} style={{ border: 'none', background: 'transparent', cursor: 'pointer' }}>
+                <X size={20} color="#64748b" />
+              </button>
+            </div>
+            <QuestionNavGrid
+              total={questions.length}
+              startNumber={startNumber}
+              userAnswers={userAnswers}
+              currentIndex={currentIdx}
+              onSelectIndex={(idx) => {
+                setCurrentIdx(idx);
+                setMobilePaletteOpen(false);
+                const el = document.getElementById(`q_${idx}`);
+                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              }}
+            />
+          </div>
+        </div>
+      )}
+
+      <style jsx>{`
+        .mobile-only-btn {
+          display: none !important;
+        }
+        @media (max-width: 860px) {
+          .exam-layout-grid {
+            grid-template-columns: 1fr !important;
+          }
+          .exam-sidebar-nav {
+            display: none !important;
+          }
+          .mobile-only-btn {
+            display: inline-flex !important;
+          }
+        }
+      `}</style>
     </div>
   );
 }

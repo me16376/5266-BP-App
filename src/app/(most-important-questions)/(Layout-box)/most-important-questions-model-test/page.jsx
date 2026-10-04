@@ -40,6 +40,7 @@ function MostImportantModelTestContent() {
 
   const [examData, setExamData] = useState(null);
   const [allQuestions, setAllQuestions] = useState([]);
+  const [repeatThreshold, setRepeatThreshold] = useState(3);
   const [selectedRange, setSelectedRange] = useState('1-100');
   const [loading, setLoading] = useState(false);
   const [userAnswers, setUserAnswers] = useState({});
@@ -56,9 +57,19 @@ function MostImportantModelTestContent() {
   const isApprovedUser = user?.status === 'approved';
   const isAuthorized = isOwner || isAdmin || isApprovedUser;
 
+  // Filter questions by repeat threshold
+  const filteredAllQuestions = useMemo(() => {
+    if (!allQuestions || allQuestions.length === 0) return [];
+    if (repeatThreshold <= 3) return allQuestions;
+    return allQuestions.filter(q => {
+      const rep = q.times_repeated || q.timesRepeated || q.exam_count || q.examCount || 0;
+      return rep >= repeatThreshold;
+    });
+  }, [allQuestions, repeatThreshold]);
+
   // Range chunks: 1-100, 101-200, 201-300...
   const rangeChunks = useMemo(() => {
-    const total = allQuestions.length;
+    const total = filteredAllQuestions.length;
     if (total <= 100) return [];
     const chunks = [];
     for (let start = 1; start <= total; start += 100) {
@@ -71,7 +82,7 @@ function MostImportantModelTestContent() {
       });
     }
     return chunks;
-  }, [allQuestions.length]);
+  }, [filteredAllQuestions.length]);
 
   const startNumber = useMemo(() => {
     if (selectedRange === 'all' || !selectedRange.includes('-')) return 1;
@@ -80,19 +91,19 @@ function MostImportantModelTestContent() {
   }, [selectedRange]);
 
   const questions = useMemo(() => {
-    if (!allQuestions || allQuestions.length === 0) return [];
-    if (selectedRange === 'all' || allQuestions.length <= 100) {
-      return allQuestions.map((q, idx) => ({ ...q, globalIndex: idx }));
+    if (!filteredAllQuestions || filteredAllQuestions.length === 0) return [];
+    if (selectedRange === 'all' || filteredAllQuestions.length <= 100) {
+      return filteredAllQuestions.map((q, idx) => ({ ...q, globalIndex: idx }));
     }
     const [start, end] = selectedRange.split('-').map(Number);
     if (!start || !end) {
-      return allQuestions.map((q, idx) => ({ ...q, globalIndex: idx }));
+      return filteredAllQuestions.map((q, idx) => ({ ...q, globalIndex: idx }));
     }
-    return allQuestions.slice(start - 1, end).map((q, idx) => ({
+    return filteredAllQuestions.slice(start - 1, end).map((q, idx) => ({
       ...q,
       globalIndex: start - 1 + idx
     }));
-  }, [allQuestions, selectedRange]);
+  }, [filteredAllQuestions, selectedRange]);
 
   // Load questions
   useEffect(() => {
@@ -113,12 +124,12 @@ function MostImportantModelTestContent() {
 
   // Auto-switch default range if question count changes
   useEffect(() => {
-    if (allQuestions.length > 0 && allQuestions.length <= 100) {
+    if (filteredAllQuestions.length > 0 && filteredAllQuestions.length <= 100) {
       setSelectedRange('all');
-    } else if (allQuestions.length > 100 && selectedRange === 'all') {
+    } else if (filteredAllQuestions.length > 100 && selectedRange === 'all') {
       setSelectedRange('1-100');
     }
-  }, [allQuestions.length]);
+  }, [filteredAllQuestions.length]);
 
   const handleRangeChange = (newRange) => {
     if (newRange === selectedRange) return;
@@ -127,6 +138,22 @@ function MostImportantModelTestContent() {
       if (!confirmChange) return;
     }
     setSelectedRange(newRange);
+    setUserAnswers({});
+    setIsSubmitted(false);
+    setShowResultModal(false);
+    setShowConfirmModal(false);
+    setTestResult(null);
+    setCurrentIdx(0);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleRepeatThresholdChange = (newThreshold) => {
+    if (newThreshold === repeatThreshold) return;
+    if (Object.keys(userAnswers).length > 0 && !isSubmitted) {
+      const confirmChange = window.confirm('ফিল্টার পরিবর্তন করলে বর্তমান উত্তরগুলো মুছে নতুন সেট শুরু হবে। আপনি কি নিশ্চিত?');
+      if (!confirmChange) return;
+    }
+    setRepeatThreshold(newThreshold);
     setUserAnswers({});
     setIsSubmitted(false);
     setShowResultModal(false);
@@ -149,36 +176,68 @@ function MostImportantModelTestContent() {
     });
   };
 
+  // Live Score calculation in real time
+  const liveStats = useMemo(() => {
+    let correct = 0;
+    let wrong = 0;
+    questions.forEach((q, idx) => {
+      const userAns = userAnswers[idx];
+      if (userAns !== undefined && userAns !== null) {
+        const selectedStr = String(userAns).trim();
+        const correctStr = String(q.correct_answer || (q.options && q.options[q.ans]) || '').trim();
+        const isMatch = (selectedStr === correctStr) || (typeof userAns === 'number' && userAns === q.ans);
+        if (isMatch) correct++;
+        else wrong++;
+      }
+    });
+    const penalty = Number((wrong * negativeMarkRate).toFixed(2));
+    const rawScore = Number((correct - penalty).toFixed(2));
+    const score = Math.max(0, rawScore);
+    return { correct, wrong, score, rawScore };
+  }, [questions, userAnswers, negativeMarkRate]);
+
   const calculateResult = () => {
     let correct = 0;
     let wrong = 0;
-    let skipped = 0;
+    const answeredCount = Object.keys(userAnswers).length;
 
     questions.forEach((q, idx) => {
       const userAns = userAnswers[idx];
-      if (userAns === undefined || userAns === null) {
-        skipped++;
-      } else if (userAns === q.ans) {
-        correct++;
-      } else {
-        wrong++;
+      if (userAns !== undefined && userAns !== null) {
+        const selectedStr = String(userAns).trim();
+        const correctStr = String(q.correct_answer || (q.options && q.options[q.ans]) || '').trim();
+        const isMatch = (selectedStr === correctStr) || (typeof userAns === 'number' && userAns === q.ans);
+        if (isMatch) {
+          correct++;
+        } else {
+          wrong++;
+        }
       }
     });
 
-    const penalty = wrong * negativeMarkRate;
-    const finalScore = Math.max(0, correct - penalty);
-    const accuracy = correct + wrong > 0 ? Math.round((correct / (correct + wrong)) * 100) : 0;
+    const totalQuestions = questions.length;
+    const skipped = Math.max(0, totalQuestions - answeredCount);
+    const penalty = Number((wrong * negativeMarkRate).toFixed(2));
+    const finalScore = Math.max(0, Number((correct - penalty).toFixed(2)));
+    const accuracy = answeredCount > 0 ? Math.round((correct / answeredCount) * 100) : 0;
 
     const result = {
       examTitle: examData?.title ? cleanMostImportantTitle(examData.title) : 'কমন প্রশ্নব্যাংক মডেল টেস্ট',
-      examSlug: examSlug,
-      totalQuestions: questions.length,
+      examSlug: examSlug || '',
+      total: totalQuestions,
+      totalQuestions: totalQuestions,
+      answered: answeredCount,
+      correct,
       correctCount: correct,
+      wrong,
       wrongCount: wrong,
+      skipped,
       skippedCount: skipped,
+      marks: finalScore,
       score: finalScore,
       negativeMark: penalty,
       accuracy: accuracy,
+      timestamp: new Date().toISOString(),
       date: new Date().toISOString(),
       userAnswers: userAnswers,
       questions: questions
@@ -442,6 +501,43 @@ function MostImportantModelTestContent() {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+            {/* Repeat Filter Pills */}
+            {!isSubmitted && (
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', background: '#ffffff', padding: '4px 10px', borderRadius: '10px', border: '1px solid #cbd5e1' }}>
+                <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#475569' }}>
+                  রিপিট ফিল্টার:
+                </span>
+                {[
+                  { label: 'সব (৩+)', value: 3 },
+                  { label: '৫+ বার', value: 5 },
+                  { label: '১০+ বার', value: 10 },
+                  { label: '২০+ বার', value: 20 }
+                ].map(pill => {
+                  const isActive = repeatThreshold === pill.value;
+                  return (
+                    <button
+                      key={pill.value}
+                      onClick={() => handleRepeatThresholdChange(pill.value)}
+                      style={{
+                        padding: '3px 10px',
+                        borderRadius: '16px',
+                        fontSize: '0.78rem',
+                        fontWeight: 700,
+                        cursor: 'pointer',
+                        border: isActive ? 'none' : '1px solid #cbd5e1',
+                        background: isActive ? '#4f46e5' : '#ffffff',
+                        color: isActive ? '#ffffff' : '#475569',
+                        boxShadow: isActive ? '0 2px 6px rgba(79, 70, 229, 0.25)' : 'none',
+                        transition: 'all 0.2s ease'
+                      }}
+                    >
+                      {pill.label}
+                    </button>
+                  );
+                })}
+              </div>
+            )}
+
             {/* Question Range Dropdown: 1-100, 101-200, 201-300... */}
             {rangeChunks.length > 0 && !isSubmitted && (
               <div style={{ display: 'flex', alignItems: 'center', gap: '6px', background: '#f8fafc', padding: '4px 10px', borderRadius: '10px', border: '1px solid #cbd5e1' }}>
@@ -465,7 +561,7 @@ function MostImportantModelTestContent() {
                       প্রশ্ন {chunk.label}
                     </option>
                   ))}
-                  <option value="all">সকল প্রশ্ন (১ - {allQuestions.length})</option>
+                  <option value="all">সকল প্রশ্ন (১ - {filteredAllQuestions.length})</option>
                 </select>
               </div>
             )}
@@ -495,13 +591,24 @@ function MostImportantModelTestContent() {
           boxShadow: '0 4px 16px rgba(0,0,0,0.06)'
         }}>
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '2px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '2px', flexWrap: 'wrap' }}>
               <span style={{ fontSize: '0.78rem', color: 'var(--emerald-600)', fontWeight: 700, textTransform: 'uppercase' }}>
                 {isSubmitted ? 'ফলাফল ও সমাধান পর্যালোচনা' : 'লাইভ মডেল টেস্ট চলমান'}
               </span>
               <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>•</span>
               <span style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
                 উত্তর দিয়েছেন: <strong style={{ color: 'var(--emerald-600)' }}>{answeredCount}</strong> / {questions.length}
+              </span>
+              <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>•</span>
+              <span style={{ fontSize: '0.82rem', color: '#0f172a', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '5px' }}>
+                লাইভ স্কোর: <strong style={{ 
+                  color: isSubmitted ? '#047857' : '#059669', 
+                  background: '#ecfdf5', 
+                  padding: '2px 8px', 
+                  borderRadius: '6px', 
+                  border: '1px solid #a7f3d0',
+                  fontSize: '0.84rem' 
+                }}>{(isSubmitted && testResult?.marks !== undefined) ? testResult.marks.toFixed(2) : liveStats.score.toFixed(2)}</strong>
               </span>
             </div>
             <h2 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#0f172a', margin: 0, lineHeight: 1.3 }}>
@@ -596,6 +703,7 @@ function MostImportantModelTestContent() {
                   userAnswer={userAnswers[idx]}
                   onSelectOption={(opt) => handleSelectOption(idx, opt)}
                   isSubmitted={isSubmitted}
+                  showRepeatInfo={true}
                 />
               </div>
             ))}
@@ -667,9 +775,13 @@ function MostImportantModelTestContent() {
                 <span style={{ color: 'var(--text-muted)' }}>বাকি প্রশ্ন:</span>
                 <strong style={{ color: remainingCount > 0 ? '#d97706' : '#059669' }}>{remainingCount}</strong>
               </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid #f1f5f9' }}>
                 <span style={{ color: 'var(--text-muted)' }}>ভুল উত্তরের শাস্তি:</span>
                 <strong style={{ color: '#dc2626' }}>-{negativeMarkRate}</strong>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0' }}>
+                <span style={{ color: '#0f172a', fontWeight: 700 }}>লাইভ স্কোর:</span>
+                <strong style={{ color: '#059669', fontSize: '0.94rem' }}>{(isSubmitted && testResult?.marks !== undefined) ? testResult.marks.toFixed(2) : liveStats.score.toFixed(2)}</strong>
               </div>
             </div>
           </div>

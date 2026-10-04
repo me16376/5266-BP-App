@@ -397,7 +397,7 @@ export default function ProfilePage() {
 
   return (
     <div style={{ minHeight: '85vh', padding: '36px 16px 60px', background: 'var(--bg-primary)' }}>
-      <div className="container" style={{ maxWidth: '1200px', margin: '0 auto' }}>
+      <div className="container" style={{ maxWidth: '1300px', margin: '0 auto' }}>
 
         {/* Profile Card Wrapper */}
         <div style={{

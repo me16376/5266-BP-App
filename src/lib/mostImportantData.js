@@ -112,6 +112,7 @@ export async function loadMostImportantQuestions(slugOrId) {
       const correctAns = opts[ansIdx] || item.correct_answer || '';
 
       return {
+        ...item,
         id: item.id || (idx + 1),
         question: item.question || item.q || '',
         question_text: item.question || item.q || '',
@@ -124,7 +125,10 @@ export async function loadMostImportantQuestions(slugOrId) {
         subject: item.subject || subjectMeta?.title || 'সাধারণ জ্ঞান',
         category: item.category || subjectMeta?.category_name || '',
         exam: item.exam || subjectMeta?.title || '',
-        repeated_count: item.repeated_count || 0
+        times_repeated: item.times_repeated || item.repeated_count || 0,
+        exam_count: item.exam_count || 0,
+        exam_summary: item.exam_summary || '',
+        repeated_count: item.repeated_count || item.times_repeated || 0
       };
     });
 

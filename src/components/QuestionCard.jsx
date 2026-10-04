@@ -10,12 +10,125 @@ import {
   Copy, 
   Check,
   ChevronDown,
-  ChevronUp
+  ChevronUp,
+  Flame
 } from 'lucide-react';
 import { toggleBookmark, isBookmarked } from '../lib/storage';
 import FormattedContent from './FormattedContent';
 
 const OPTION_LABELS = ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
+
+function ExamSummarySection({ examSummary, examCount }) {
+  const [expanded, setExpanded] = useState(false);
+
+  const parsedExams = React.useMemo(() => {
+    if (!examSummary || typeof examSummary !== 'string') return [];
+    const regex = /(.*?)\s*\(([০-৯0-9]{4})\)(?:,\s*|$)/g;
+    const list = [];
+    let match;
+    while ((match = regex.exec(examSummary)) !== null) {
+      let name = match[1].trim();
+      if (name.startsWith(',')) name = name.replace(/^,\s*/, '').trim();
+      if (name) {
+        list.push({ name, year: match[2] });
+      }
+    }
+    if (list.length === 0) {
+      return examSummary.split(',').map(s => ({ name: s.trim(), year: '' })).filter(e => e.name);
+    }
+    return list;
+  }, [examSummary]);
+
+  if (parsedExams.length === 0) return null;
+
+  const total = parsedExams.length;
+  const initialLimit = 12;
+  const visibleExams = expanded ? parsedExams : parsedExams.slice(0, initialLimit);
+  const remaining = total - initialLimit;
+
+  return (
+    <div style={{
+      marginTop: '16px',
+      paddingTop: '14px',
+      borderTop: '1px dashed #cbd5e1'
+    }}>
+      <div style={{
+        fontWeight: 700,
+        color: '#0f172a',
+        marginBottom: '10px',
+        display: 'flex',
+        alignItems: 'center',
+        gap: '6px',
+        fontSize: '0.94rem'
+      }}>
+        <span style={{ fontSize: '1.05rem' }}>🏛️</span>
+        <span>যে যে পরীক্ষায় এসেছে ({total || examCount}টি):</span>
+      </div>
+
+      <div style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        gap: '8px',
+        alignItems: 'center'
+      }}>
+        {visibleExams.map((ex, i) => (
+          <div
+            key={i}
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              background: '#ffffff',
+              border: '1px solid #e2e8f0',
+              borderRadius: '8px',
+              padding: '4px 10px',
+              fontSize: '0.82rem',
+              color: '#334155',
+              fontWeight: 500,
+              boxShadow: '0 1px 2px rgba(0, 0, 0, 0.03)'
+            }}
+          >
+            <span>{ex.name}</span>
+            {ex.year && (
+              <span style={{
+                background: '#e0e7ff',
+                color: '#4338ca',
+                fontWeight: 700,
+                fontSize: '0.74rem',
+                padding: '2px 7px',
+                borderRadius: '5px'
+              }}>
+                {ex.year}
+              </span>
+            )}
+          </div>
+        ))}
+
+        {remaining > 0 && (
+          <button
+            onClick={() => setExpanded(!expanded)}
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '4px',
+              background: '#f8fafc',
+              border: '1px dashed #94a3b8',
+              borderRadius: '8px',
+              padding: '4px 12px',
+              fontSize: '0.82rem',
+              fontWeight: 700,
+              color: '#475569',
+              cursor: 'pointer',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            {expanded ? '− সংক্ষেপ করুন' : `+ আরও ${remaining}টি পরীক্ষা`}
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}
 
 export default function QuestionCard({ 
   question, 
@@ -25,7 +138,8 @@ export default function QuestionCard({
   userAnswer = null,
   onSelectOption = null,
   showResult = false,
-  isSubmitted = false
+  isSubmitted = false,
+  showRepeatInfo = false
 }) {
   const [localSelected, setLocalSelected] = useState(null);
   const [showExplanation, setShowExplanation] = useState(mode === 'read');
@@ -38,6 +152,30 @@ export default function QuestionCard({
   const isRead = mode === 'read';
   const actualShowResult = Boolean(showResult || isSubmitted);
   const activeSelection = isExam ? (selectedOption ?? userAnswer) : localSelected;
+
+  const isEnglishQuestion = React.useMemo(() => {
+    if (question?.subject && (/english/i.test(question.subject) || /ইংরেজি/i.test(question.subject))) return true;
+    if (question?.category && (/english/i.test(question.category) || /ইংরেজি/i.test(question.category))) return true;
+    const opts = Array.isArray(question?.options) ? question.options : [];
+    if (opts.length > 0 && opts.every(o => typeof o === 'string' && /^[\w\s\.,\-\?'"\(\)\/:]+$/.test(o.trim()))) {
+      return true;
+    }
+    return false;
+  }, [question?.subject, question?.category, question?.options]);
+
+  const currentOptionLabels = isEnglishQuestion ? ['A', 'B', 'C', 'D', 'E'] : OPTION_LABELS;
+
+  const distinctExamCount = React.useMemo(() => {
+    if (!question?.exam_summary || typeof question.exam_summary !== 'string') {
+      return question?.exam_count || question?.examCount || 0;
+    }
+    const regex = /(.*?)\s*\(([০-৯0-9]{4})\)(?:,\s*|$)/g;
+    let count = 0;
+    while (regex.exec(question.exam_summary) !== null) {
+      count++;
+    }
+    return count || question?.exam_count || question?.examCount || 0;
+  }, [question?.exam_summary, question?.exam_count, question?.examCount]);
 
   const handleOptionClick = (opt) => {
     if (isExam) {
@@ -97,7 +235,7 @@ export default function QuestionCard({
           question: qText,
           options: cleanOpts,
           subject: question?.subject || '',
-          exam: question?.exam || ''
+          exam: question?.exam || (question?.exam_count ? `${question.exam_count}টি পরীক্ষায় আসা রিপিটেড প্রশ্ন` : '')
         }
       }, '*');
 
@@ -161,15 +299,49 @@ export default function QuestionCard({
             </span>
           )}
 
-          {question.exam && (
+          {showRepeatInfo && (question.times_repeated || question.timesRepeated) && (
+            <span style={{
+              background: 'linear-gradient(135deg, #ff5722 0%, #f44336 100%)',
+              color: '#ffffff',
+              fontSize: '0.82rem',
+              fontWeight: 700,
+              padding: '4px 12px',
+              borderRadius: '20px',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '5px',
+              boxShadow: '0 2px 6px rgba(244, 67, 54, 0.3)',
+              flexShrink: 0
+            }}>
+              <span style={{ fontSize: '0.9rem', lineHeight: 1 }}>🔥</span>
+              <span>{question.times_repeated || question.timesRepeated} বার পরীক্ষায় এসেছে</span>
+            </span>
+          )}
+
+          {question.exam && !showRepeatInfo && (
             <span className="badge badge-cyan" style={{ maxWidth: '300px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
               {question.exam}
             </span>
           )}
         </div>
 
-        {/* Action Tools */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+        {/* Action Tools & Distinct Exam Count */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          {showRepeatInfo && distinctExamCount > 0 && (
+            <span style={{
+              fontSize: '0.84rem',
+              color: '#64748b',
+              fontWeight: 600,
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '4px',
+              marginRight: '6px'
+            }}>
+              <span style={{ fontSize: '0.95rem' }}>🏛️</span>
+              <span>{distinctExamCount}টি ভিন্ন পরীক্ষা</span>
+            </span>
+          )}
+
           <button
             onClick={handleBookmarkToggle}
             title={bookmarked ? 'বুকমার্ক সরানো' : 'বুকমার্কে সংরক্ষণ'}
@@ -218,13 +390,8 @@ export default function QuestionCard({
         <FormattedContent content={question.question || question.question_text || ''} />
       </h3>
 
-      {/* Options Grid */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
-        gap: '12px',
-        marginBottom: '16px'
-      }}>
+      {/* Options Grid — 4 options in 1 line on Desktop */}
+      <div className="question-options-grid">
         {rawOptions.map((option, optIdx) => {
           const optStr = (option !== null && option !== undefined) ? String(option).trim() : '';
           const isCorrect = qAns !== '' && optStr === qAns;
@@ -284,8 +451,9 @@ export default function QuestionCard({
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                gap: '12px',
-                padding: '12px 16px',
+                gap: '10px',
+                padding: '11px 14px',
+                minWidth: 0,
                 borderRadius: '10px',
                 background: optionBg,
                 border: `1px solid ${optionBorder}`,
@@ -305,13 +473,13 @@ export default function QuestionCard({
                 justifyContent: 'center',
                 fontWeight: 700,
                 fontSize: '0.98rem',
-                fontFamily: 'var(--font-kalpurush)',
+                fontFamily: isEnglishQuestion ? 'inherit' : 'var(--font-kalpurush)',
                 flexShrink: 0,
                 color: optionColor
               }}>
-                {OPTION_LABELS[optIdx] || optIdx + 1}
+                {currentOptionLabels[optIdx] || optIdx + 1}
               </div>
-              <span style={{ flex: 1, fontSize: '1rem', lineHeight: '1.6' }}>
+              <span style={{ flex: 1, minWidth: 0, fontSize: '0.96rem', lineHeight: '1.55', wordBreak: 'break-word' }}>
                 <FormattedContent content={option} inline />
               </span>
               {icon}
@@ -322,25 +490,36 @@ export default function QuestionCard({
 
       {/* Explanation & 5266 AI Explainer Action Bar */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginTop: '10px' }}>
-        {(isPractice || isRead || actualShowResult) && (question.explanation || question.hints) ? (
+        {(isPractice || isRead || actualShowResult) && (question.explanation || question.hints || (showRepeatInfo && question.exam_summary)) ? (
           <button
             onClick={() => setShowExplanation(!showExplanation)}
             style={{
-              display: 'flex',
+              display: 'inline-flex',
               alignItems: 'center',
               gap: '6px',
-              background: 'transparent',
-              border: 'none',
-              color: 'var(--emerald-600)',
+              background: showRepeatInfo ? '#ffffff' : 'transparent',
+              border: showRepeatInfo ? '1.5px solid #0f172a' : 'none',
+              borderRadius: showRepeatInfo ? '8px' : '0',
+              padding: showRepeatInfo ? '6px 14px' : '4px 0',
+              color: showRepeatInfo ? '#0f172a' : 'var(--emerald-600)',
               fontWeight: 700,
               fontSize: '0.88rem',
               cursor: 'pointer',
-              padding: '4px 0'
+              boxShadow: showRepeatInfo ? '0 1px 3px rgba(0,0,0,0.05)' : 'none'
             }}
           >
-            <BookOpen size={16} />
-            <span>{showExplanation ? 'ব্যাখ্যা লুকান' : 'বিস্তারিত ব্যাখ্যা ও নোট দেখুন'}</span>
-            {showExplanation ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+            {showRepeatInfo ? (
+              <>
+                <span style={{ fontSize: '0.95rem' }}>💡</span>
+                <span>{showExplanation ? 'ব্যাখ্যা লুকান' : 'উত্তর ও ব্যাখ্যা দেখুন'}</span>
+              </>
+            ) : (
+              <>
+                <BookOpen size={16} />
+                <span>{showExplanation ? 'ব্যাখ্যা লুকান' : 'বিস্তারিত ব্যাখ্যা ও নোট দেখুন'}</span>
+                {showExplanation ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+              </>
+            )}
           </button>
         ) : <div />}
 
@@ -349,7 +528,7 @@ export default function QuestionCard({
           <div style={{
             display: 'inline-flex',
             alignItems: 'center',
-            gap: '6px',
+            gap: '8px',
             marginLeft: 'auto',
             flexWrap: 'wrap'
           }}>
@@ -481,6 +660,14 @@ export default function QuestionCard({
               </div>
             );
           })()}
+
+          {/* Exam Summary Tags (Only on Most Important pages) */}
+          {showRepeatInfo && question.exam_summary && (
+            <ExamSummarySection
+              examSummary={question.exam_summary}
+              examCount={question.exam_count || question.examCount}
+            />
+          )}
         </div>
       )}
     </div>
