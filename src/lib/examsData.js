@@ -26,10 +26,11 @@ export async function getExamsCatalog() {
 export function cleanExamTitle(title) {
   if (!title || typeof title !== 'string') return '';
   return title
-    .replace(/^[০-৯0-9]+[@_]\s*/, '')
+    .replace(/^[০-৯0-9]{1,5}[@_]\s*/, '')
     .replace(/\.json$/i, '')
     .trim();
 }
+
 
 export async function getExamBySlug(slugOrId) {
   const catalog = await getExamsCatalog();
