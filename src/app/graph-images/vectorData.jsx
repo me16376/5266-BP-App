@@ -159,18 +159,18 @@ renderVector: () => (
     exam: '43th BCS General Oct, 2021',
     subject: 'মানসিক দক্ষতা',
     category: 'মানসিক দক্ষতা ও প্যাটার্ন',
-    title: 'বক্স অপশন ৩: [Z]',
+    title: 'বক্স অপশন ৩: [তীর্যক জিগজ্যাগ প্যাটার্ন]',
     fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'অপশন ৩: বক্সের মধ্যে Z (বা তির্যক N)।',
+    description: 'অপশন ৩: বক্সের মধ্যে তীর্যক রেখা ও উলম্ব অক্ষের নিখুঁত জিগজ্যাগ প্যাটার্ন।',
         codeSnippet: `<svg viewBox="0 0 100 100" style={{ maxWidth: "180px", maxHeight: "160px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
   <rect x="12" y="12" width="76" height="76" fill="none" stroke="#0f172a" strokeWidth="3" />
-  <polyline points="28,34 72,34 28,68 72,68" fill="none" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+  <polyline points="24,52 50,26 50,74 76,48" fill="none" stroke="#0f172a" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
 </svg>`,
 renderVector: () => (
       <svg viewBox="0 0 100 100" style={{ maxWidth: "180px", maxHeight: "160px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
         <rect x="12" y="12" width="76" height="76" fill="none" stroke="#0f172a" strokeWidth="3" />
-        <polyline points="28,34 72,34 28,68 72,68" fill="none" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+        <polyline points="24,52 50,26 50,74 76,48" fill="none" stroke="#0f172a" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     )
   },
@@ -211,54 +211,213 @@ renderVector: () => (
     exam: '43th BCS General Oct, 2021',
     subject: 'মানসিক দক্ষতা',
     category: 'মানসিক দক্ষতা ও প্যাটার্ন',
-    title: 'অক্ষর-সংখ্যা কোডিং (Letter-to-Number Coding)',
+    title: 'লিভারের ভারসাম্য ও বর্ণ-সংখ্যা কোডিং',
     fidelity: '১০০% নিখুঁত ভেক্টর ও টাইপোগ্রাফি',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'ROSE=6821, CHAIR=73456, PREACH=961473 হলে SEARCH=? এর সমাধান: S=2, E=1, A=4, R=6, C=7, H=3 => 214673।',
-        codeSnippet: `<div className="p-3 bg-white rounded border border-slate-200 inline-block text-slate-800 font-mono select-none">
-  <div className="flex gap-4 text-sm font-bold tracking-widest text-slate-900 border-b pb-1">
-    <span>R O S E</span>
-    <span className="text-slate-300">|</span>
-    <span>C H A I R</span>
-    <span className="text-slate-300">|</span>
-    <span>P R E A C H</span>
-    <span className="text-slate-300">|</span>
-    <span className="text-indigo-600">S E A R C H</span>
-  </div>
-  <div className="flex gap-4 text-xs tracking-widest text-slate-600 pt-1">
-    <span>6 8 2 1</span>
-    <span className="text-slate-300">|</span>
-    <span>7 3 4 5 6</span>
-    <span className="text-slate-300">|</span>
-    <span>9 6 1 4 7 3</span>
-    <span className="text-slate-300">|</span>
-    <span className="font-bold text-indigo-700 bg-indigo-50 px-1 rounded">2 1 4 6 7 3</span>
-  </div>
-</div>`,
-renderVector: () => (
-      <div style={{ padding: '12px', background: '#ffffff', borderRadius: '8px', border: '1px solid #cbd5e1', display: 'inline-block', color: '#1e293b', fontFamily: 'monospace', userSelect: 'none' }}>
-        <div style={{ display: 'flex', gap: '16px', fontSize: '14px', fontWeight: 'bold', letterSpacing: '2px', color: '#0f172a', borderBottom: '1px solid #e2e8f0', paddingBottom: '6px' }}>
-          <span>R O S E</span>
-          <span style={{ color: '#cbd5e1' }}>|</span>
-          <span>C H A I R</span>
-          <span style={{ color: '#cbd5e1' }}>|</span>
-          <span>P R E A C H</span>
-          <span style={{ color: '#cbd5e1' }}>|</span>
-          <span style={{ color: '#4338ca' }}>S E A R C H</span>
-        </div>
-        <div style={{ display: 'flex', gap: '16px', fontSize: '13px', letterSpacing: '2px', color: '#475569', paddingTop: '6px' }}>
-          <span>6 8 2 1</span>
-          <span style={{ color: '#cbd5e1' }}>|</span>
-          <span>7 3 4 5 6</span>
-          <span style={{ color: '#cbd5e1' }}>|</span>
-          <span>9 6 1 4 7 3</span>
-          <span style={{ color: '#cbd5e1' }}>|</span>
-          <span style={{ fontWeight: 'bold', color: '#065f46', background: '#d1fae5', padding: '2px 6px', borderRadius: '4px' }}>2 1 4 6 7 3</span>
-        </div>
-      </div>
+    description: 'মূল ছবির প্রশ্নবাক্য, বর্ণ-সংখ্যা অনুক্রম (ROSE, CHAIR, PREACH, SEARCH) এবং সংযোগকারী রেখা সম্বলিত পূর্ণাঙ্গ ভেক্টর।',
+    codeSnippet: `<svg viewBox="0 0 540 115" style={{ maxWidth: "100%", maxHeight: "150px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+  {/* Question title */}
+  <text x="10" y="22" fontSize="13" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    লিভার (lever)-এর ভারসাম্য ঠিক রাখতে প্রশ্নবোধক স্থানে কত পাউন্ড ওজন স্থাপন করতে হবে?
+  </text>
+
+  {/* Words: ROSE, CHAIR, PREACH, SEARCH */}
+  <g fontSize="15" fontWeight="bold" fontFamily="'Times New Roman', Georgia, serif" textAnchor="middle" fill="#0f172a">
+    <text x="24" y="52">R</text>
+    <text x="44" y="52">O</text>
+    <text x="64" y="52">S</text>
+    <text x="84" y="52">E</text>
+
+    <text x="124" y="52">C</text>
+    <text x="144" y="52">H</text>
+    <text x="164" y="52">A</text>
+    <text x="184" y="52">I</text>
+    <text x="204" y="52">R</text>
+
+    <text x="244" y="52">P</text>
+    <text x="264" y="52">R</text>
+    <text x="284" y="52">E</text>
+    <text x="304" y="52">A</text>
+    <text x="324" y="52">C</text>
+    <text x="344" y="52">H</text>
+
+    <text x="384" y="52">S</text>
+    <text x="404" y="52">E</text>
+    <text x="424" y="52">A</text>
+    <text x="444" y="52">R</text>
+    <text x="464" y="52">C</text>
+    <text x="484" y="52">H</text>
+  </g>
+
+  {/* Vertical Connecting Lines */}
+  <g stroke="#94a3b8" strokeWidth="1.2">
+    <line x1="24" y1="58" x2="24" y2="80" />
+    <line x1="44" y1="58" x2="44" y2="80" />
+    <line x1="64" y1="58" x2="64" y2="80" />
+    <line x1="84" y1="58" x2="84" y2="80" />
+
+    <line x1="124" y1="58" x2="124" y2="80" />
+    <line x1="144" y1="58" x2="144" y2="80" />
+    <line x1="164" y1="58" x2="164" y2="80" />
+    <line x1="184" y1="58" x2="184" y2="80" />
+    <line x1="204" y1="58" x2="204" y2="80" />
+
+    <line x1="244" y1="58" x2="244" y2="80" />
+    <line x1="264" y1="58" x2="264" y2="80" />
+    <line x1="284" y1="58" x2="284" y2="80" />
+    <line x1="304" y1="58" x2="304" y2="80" />
+    <line x1="324" y1="58" x2="324" y2="80" />
+    <line x1="344" y1="58" x2="344" y2="80" />
+
+    <line x1="384" y1="58" x2="384" y2="80" />
+    <line x1="404" y1="58" x2="404" y2="80" />
+    <line x1="424" y1="58" x2="424" y2="80" />
+    <line x1="444" y1="58" x2="444" y2="80" />
+    <line x1="464" y1="58" x2="464" y2="80" />
+    <line x1="484" y1="58" x2="484" y2="80" />
+  </g>
+
+  {/* Circles around specific numbers */}
+  <g fill="none" stroke="#0f172a" strokeWidth="1.2">
+    <circle cx="64" cy="97" r="9" />
+    <circle cx="124" cy="97" r="9" />
+    <circle cx="204" cy="97" r="9" />
+    <circle cx="284" cy="97" r="9" />
+    <circle cx="304" cy="97" r="9" />
+    <circle cx="344" cy="97" r="9" />
+  </g>
+
+  {/* Numbers */}
+  <g fontSize="14" fontFamily="'Times New Roman', Georgia, serif" textAnchor="middle" fill="#0f172a">
+    <text x="24" y="102">6</text>
+    <text x="44" y="102">8</text>
+    <text x="64" y="102">2</text>
+    <text x="84" y="102">1</text>
+
+    <text x="124" y="102">7</text>
+    <text x="144" y="102">3</text>
+    <text x="164" y="102">4</text>
+    <text x="184" y="102">5</text>
+    <text x="204" y="102">6</text>
+
+    <text x="244" y="102">9</text>
+    <text x="264" y="102">6</text>
+    <text x="284" y="102">1</text>
+    <text x="304" y="102">4</text>
+    <text x="324" y="102">7</text>
+    <text x="344" y="102">3</text>
+
+    <text x="384" y="102">2</text>
+    <text x="404" y="102">1</text>
+    <text x="424" y="102">4</text>
+    <text x="444" y="102">6</text>
+    <text x="464" y="102">7</text>
+    <text x="484" y="102">3</text>
+  </g>
+</svg>`,
+    renderVector: () => (
+      <svg viewBox="0 0 540 115" style={{ maxWidth: "100%", maxHeight: "150px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+        {/* Question title */}
+        <text x="10" y="22" fontSize="13" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          লিভার (lever)-এর ভারসাম্য ঠিক রাখতে প্রশ্নবোধক স্থানে কত পাউন্ড ওজন স্থাপন করতে হবে?
+        </text>
+
+        {/* Words: ROSE, CHAIR, PREACH, SEARCH */}
+        <g fontSize="15" fontWeight="bold" fontFamily="'Times New Roman', Georgia, serif" textAnchor="middle" fill="#0f172a">
+          <text x="24" y="52">R</text>
+          <text x="44" y="52">O</text>
+          <text x="64" y="52">S</text>
+          <text x="84" y="52">E</text>
+
+          <text x="124" y="52">C</text>
+          <text x="144" y="52">H</text>
+          <text x="164" y="52">A</text>
+          <text x="184" y="52">I</text>
+          <text x="204" y="52">R</text>
+
+          <text x="244" y="52">P</text>
+          <text x="264" y="52">R</text>
+          <text x="284" y="52">E</text>
+          <text x="304" y="52">A</text>
+          <text x="324" y="52">C</text>
+          <text x="344" y="52">H</text>
+
+          <text x="384" y="52">S</text>
+          <text x="404" y="52">E</text>
+          <text x="424" y="52">A</text>
+          <text x="444" y="52">R</text>
+          <text x="464" y="52">C</text>
+          <text x="484" y="52">H</text>
+        </g>
+
+        {/* Vertical Connecting Lines */}
+        <g stroke="#94a3b8" strokeWidth="1.2">
+          <line x1="24" y1="58" x2="24" y2="80" />
+          <line x1="44" y1="58" x2="44" y2="80" />
+          <line x1="64" y1="58" x2="64" y2="80" />
+          <line x1="84" y1="58" x2="84" y2="80" />
+
+          <line x1="124" y1="58" x2="124" y2="80" />
+          <line x1="144" y1="58" x2="144" y2="80" />
+          <line x1="164" y1="58" x2="164" y2="80" />
+          <line x1="184" y1="58" x2="184" y2="80" />
+          <line x1="204" y1="58" x2="204" y2="80" />
+
+          <line x1="244" y1="58" x2="244" y2="80" />
+          <line x1="264" y1="58" x2="264" y2="80" />
+          <line x1="284" y1="58" x2="284" y2="80" />
+          <line x1="304" y1="58" x2="304" y2="80" />
+          <line x1="324" y1="58" x2="324" y2="80" />
+          <line x1="344" y1="58" x2="344" y2="80" />
+
+          <line x1="384" y1="58" x2="384" y2="80" />
+          <line x1="404" y1="58" x2="404" y2="80" />
+          <line x1="424" y1="58" x2="424" y2="80" />
+          <line x1="444" y1="58" x2="444" y2="80" />
+          <line x1="464" y1="58" x2="464" y2="80" />
+          <line x1="484" y1="58" x2="484" y2="80" />
+        </g>
+
+        {/* Circles around specific numbers */}
+        <g fill="none" stroke="#0f172a" strokeWidth="1.2">
+          <circle cx="64" cy="97" r="9" />
+          <circle cx="124" cy="97" r="9" />
+          <circle cx="204" cy="97" r="9" />
+          <circle cx="284" cy="97" r="9" />
+          <circle cx="304" cy="97" r="9" />
+          <circle cx="344" cy="97" r="9" />
+        </g>
+
+        {/* Numbers */}
+        <g fontSize="14" fontFamily="'Times New Roman', Georgia, serif" textAnchor="middle" fill="#0f172a">
+          <text x="24" y="102">6</text>
+          <text x="44" y="102">8</text>
+          <text x="64" y="102">2</text>
+          <text x="84" y="102">1</text>
+
+          <text x="124" y="102">7</text>
+          <text x="144" y="102">3</text>
+          <text x="164" y="102">4</text>
+          <text x="184" y="102">5</text>
+          <text x="204" y="102">6</text>
+
+          <text x="244" y="102">9</text>
+          <text x="264" y="102">6</text>
+          <text x="284" y="102">1</text>
+          <text x="304" y="102">4</text>
+          <text x="324" y="102">7</text>
+          <text x="344" y="102">3</text>
+
+          <text x="384" y="102">2</text>
+          <text x="404" y="102">1</text>
+          <text x="424" y="102">4</text>
+          <text x="444" y="102">6</text>
+          <text x="464" y="102">7</text>
+          <text x="484" y="102">3</text>
+        </g>
+      </svg>
     )
   },
-
   // 8. 222524_question_image.png
   {
     id: '222524_question_image',
@@ -451,7 +610,7 @@ renderVector: () => (
 
     <rect x="80" y="0" width="70" height="50" fill="none" stroke="#0f172a" strokeWidth="1.8" />
     <rect x="90" y="10" width="50" height="30" fill="url(#hstripes)" stroke="#0f172a" strokeWidth="1.8" />
-    <text x="115" y="62" textAnchor="middle" fontSize="13" fontWeight="bold" fill="#16a34a">২ (সঠিক)</text>
+    <text x="115" y="62" textAnchor="middle" fontSize="13" fontWeight="bold" fill="#0f172a">২</text>
 
     <rect x="160" y="0" width="70" height="50" fill="none" stroke="#0f172a" strokeWidth="1.8" />
     <polygon points="180,10 210,10 220,25 210,40 180,40 170,25" fill="url(#hstripes)" stroke="#0f172a" strokeWidth="1.8" />
@@ -491,7 +650,7 @@ renderVector: () => (
 
           <rect x="80" y="0" width="70" height="50" fill="none" stroke="#0f172a" strokeWidth="1.8" />
           <rect x="90" y="10" width="50" height="30" fill="url(#hstripes)" stroke="#0f172a" strokeWidth="1.8" />
-          <text x="115" y="62" textAnchor="middle" fontSize="13" fontWeight="bold" fill="#16a34a">২ (সঠিক)</text>
+          <text x="115" y="62" textAnchor="middle" fontSize="13" fontWeight="bold" fill="#0f172a">২</text>
 
           <rect x="160" y="0" width="70" height="50" fill="none" stroke="#0f172a" strokeWidth="1.8" />
           <polygon points="180,10 210,10 220,25 210,40 180,40 170,25" fill="url(#hstripes)" stroke="#0f172a" strokeWidth="1.8" />
@@ -516,27 +675,16 @@ renderVector: () => (
     title: 'MEMORY প্রতিবিম্ব অপশন ১',
     fidelity: '১০০% নিখুঁত ভেক্টর ও CSS',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'আয়নায় বর্ণগুলোর দিক ও অবস্থান পরিবর্তন অপশন ১।',
-        codeSnippet: `<div style={{ fontSize: "22px", letterSpacing: "3px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
-  <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>M</span>
-  <span>E</span>
-  <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>M</span>
-  <span>O</span>
-  <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>R</span>
-  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>Y</span>
+    description: 'অপশন ১: MEMORY শব্দের সম্পূর্ণ উলম্ব প্রতিবিম্ব (Water Reflection): প্রতিটি বর্ণ উলম্বভাবে উল্টানো।',
+    codeSnippet: `<div style={{ fontSize: "28px", letterSpacing: "3px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>MEMORY</span>
 </div>`,
-renderVector: () => (
-      <div style={{ fontSize: "22px", letterSpacing: "3px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
-        <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>M</span>
-        <span>E</span>
-        <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>M</span>
-        <span>O</span>
-        <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>R</span>
-        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>Y</span>
+    renderVector: () => (
+      <div style={{ fontSize: "28px", letterSpacing: "3px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>MEMORY</span>
       </div>
     )
   },
-
   // 13. 222531_option_2_image.png
   {
     id: '222531_option_2_image.png',
@@ -570,13 +718,23 @@ renderVector: () => (
     title: 'MEMORY প্রতিবিম্ব অপশন ৩',
     fidelity: '১০০% নিখুঁত ভেক্টর ও CSS',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'উল্টানো ও মিরর করা অপশন ৩।',
-        codeSnippet: `<div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-  <span style={{ display: 'inline-block', transform: 'scale(-1, -1)' }}>MEMORY</span>
+    description: 'অপশন ৩: বর্ণগুলো বাম থেকে ডানে—উলম্বভাবে উল্টানো প্রথম Y, অনুভূমিকভাবে উল্টানো R (Я), স্বাভাবিক O, উলম্বভাবে উল্টানো M, অনুভূমিকভাবে উল্টানো E (Ǝ) এবং উলম্বভাবে উল্টানো শেষের M।',
+    codeSnippet: `<div style={{ fontSize: "28px", letterSpacing: "2px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>Y</span>
+  <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>R</span>
+  <span>O</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>M</span>
+  <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>E</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>M</span>
 </div>`,
-renderVector: () => (
-      <div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-        <span style={{ display: 'inline-block', transform: 'scale(-1, -1)' }}>MEMORY</span>
+    renderVector: () => (
+      <div style={{ fontSize: "28px", letterSpacing: "2px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>Y</span>
+        <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>R</span>
+        <span>O</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>M</span>
+        <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>E</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>M</span>
       </div>
     )
   },
@@ -592,17 +750,26 @@ renderVector: () => (
     title: 'MEMORY প্রতিবিম্ব অপশন ৪',
     fidelity: '১০০% নিখুঁত ভেক্টর ও CSS',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'M অক্ষর W দিয়ে প্রতিস্থাপিত অপশন ৪।',
-        codeSnippet: `<div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-  <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>YROWEM</span>
+    description: 'অপশন ৪: বর্ণগুলো বাম থেকে ডানে—স্বাভাবিক Y, অনুভূমিকভাবে উল্টানো R (Я), স্বাভাবিক O, M, স্বাভাবিক E এবং উলম্বভাবে উল্টানো শেষের M।',
+    codeSnippet: `<div style={{ fontSize: "28px", letterSpacing: "2px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+  <span>Y</span>
+  <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>R</span>
+  <span>O</span>
+  <span>M</span>
+  <span>E</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>M</span>
 </div>`,
-renderVector: () => (
-      <div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-        <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>YROWEM</span>
+    renderVector: () => (
+      <div style={{ fontSize: "28px", letterSpacing: "2px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+        <span>Y</span>
+        <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>R</span>
+        <span>O</span>
+        <span>M</span>
+        <span>E</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>M</span>
       </div>
     )
   },
-
   // 16. 260953_question_image.png
   {
     id: '260953_question_image',
@@ -671,40 +838,47 @@ renderVector: () => (
     exam: '২২৫৩_পিএসসি_সহকারী তথ্য অফিসার_1.11.22',
     subject: 'গাণিতিক যুক্তি',
     category: 'জ্যামিতি ও কোণ',
-    title: 'জটিল ত্রিভুজ গণনা (Counting Triangles in Cross-bar Figure)',
+    title: 'জটিল ত্রিভুজ গণনা (Counting Triangles)',
     fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'চিত্রে অনুভূমিক রেখাংশ, উলম্ব অক্ষ ও কোণাকুণি রেখাংশে বিভক্ত ত্রিভুজগুলোর মোট সংখ্যা (সঠিক উত্তর: ১৮টি)।',
-        codeSnippet: `<svg viewBox="0 0 200 180" style={{ maxWidth: "180px", maxHeight: "160px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-  {/* Main Triangle */}
-  <polygon points="100,20 15,160 185,160" fill="none" stroke="#0f172a" strokeWidth="4" strokeLinejoin="round" />
-  {/* Horizontal Bar */}
-  <line x1="57.5" y1="90" x2="142.5" y2="90" stroke="#0f172a" strokeWidth="3.5" />
-  {/* Center Vertical Line from base to crossbar */}
-  <line x1="100" y1="90" x2="100" y2="160" stroke="#0f172a" strokeWidth="3.5" />
+    description: 'প্রশ্নবাক্য "চিত্রে কয়টি ত্রিভুজ আছে?" এবং মূল ছবির নিখুঁত জ্যামিতিক রেখাচিত্র (সঠিক উত্তর: ২০টি)।',
+    codeSnippet: `<svg viewBox="0 0 220 220" style={{ maxWidth: "180px", maxHeight: "170px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+  {/* Question Title */}
+  <text x="110" y="24" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    চিত্রে কয়টি ত্রিভুজ আছে?
+  </text>
+  {/* Main Outer Triangle */}
+  <polygon points="110,46 18,202 202,202" fill="none" stroke="#0f172a" strokeWidth="4.5" strokeLinejoin="round" />
+  {/* Horizontal Crossbar */}
+  <line x1="64" y1="124" x2="156" y2="124" stroke="#0f172a" strokeWidth="3.5" strokeLinecap="round" />
+  {/* Center Vertical Axis */}
+  <line x1="110" y1="124" x2="110" y2="202" stroke="#0f172a" strokeWidth="3.5" strokeLinecap="round" />
   {/* Diagonals */}
-  <line x1="15" y1="160" x2="142.5" y2="90" stroke="#0f172a" strokeWidth="3" />
-  <line x1="185" y1="160" x2="57.5" y2="90" stroke="#0f172a" strokeWidth="3" />
-  <line x1="100" y1="90" x2="57.5" y2="160" stroke="#0f172a" strokeWidth="3" />
-  <line x1="100" y1="90" x2="142.5" y2="160" stroke="#0f172a" strokeWidth="3" />
+  <line x1="110" y1="124" x2="18" y2="202" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
+  <line x1="110" y1="124" x2="202" y2="202" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
+  <line x1="64" y1="124" x2="110" y2="202" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
+  <line x1="156" y1="124" x2="110" y2="202" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
 </svg>`,
-renderVector: () => (
-      <svg viewBox="0 0 200 180" style={{ maxWidth: "180px", maxHeight: "160px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-        {/* Main Triangle */}
-        <polygon points="100,20 15,160 185,160" fill="none" stroke="#0f172a" strokeWidth="4" strokeLinejoin="round" />
-        {/* Horizontal Bar */}
-        <line x1="57.5" y1="90" x2="142.5" y2="90" stroke="#0f172a" strokeWidth="3.5" />
-        {/* Center Vertical Line from base to crossbar */}
-        <line x1="100" y1="90" x2="100" y2="160" stroke="#0f172a" strokeWidth="3.5" />
+    renderVector: () => (
+      <svg viewBox="0 0 220 220" style={{ maxWidth: "180px", maxHeight: "170px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+        {/* Question Title */}
+        <text x="110" y="24" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          চিত্রে কয়টি ত্রিভুজ আছে?
+        </text>
+        {/* Main Outer Triangle */}
+        <polygon points="110,46 18,202 202,202" fill="none" stroke="#0f172a" strokeWidth="4.5" strokeLinejoin="round" />
+        {/* Horizontal Crossbar */}
+        <line x1="64" y1="124" x2="156" y2="124" stroke="#0f172a" strokeWidth="3.5" strokeLinecap="round" />
+        {/* Center Vertical Axis */}
+        <line x1="110" y1="124" x2="110" y2="202" stroke="#0f172a" strokeWidth="3.5" strokeLinecap="round" />
         {/* Diagonals */}
-        <line x1="15" y1="160" x2="142.5" y2="90" stroke="#0f172a" strokeWidth="3" />
-        <line x1="185" y1="160" x2="57.5" y2="90" stroke="#0f172a" strokeWidth="3" />
-        <line x1="100" y1="90" x2="57.5" y2="160" stroke="#0f172a" strokeWidth="3" />
-        <line x1="100" y1="90" x2="142.5" y2="160" stroke="#0f172a" strokeWidth="3" />
+        <line x1="110" y1="124" x2="18" y2="202" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
+        <line x1="110" y1="124" x2="202" y2="202" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
+        <line x1="64" y1="124" x2="110" y2="202" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
+        <line x1="156" y1="124" x2="110" y2="202" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
       </svg>
     )
   },
-
   // 18. 275470_option_2_image.jpg
   {
     id: '275470_option_2_image',
@@ -716,17 +890,16 @@ renderVector: () => (
     title: 'ROSE প্রতিবিম্ব অপশন ২',
     fidelity: '১০০% নিখুঁত ভেক্টর ও CSS',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'ROSE আয়নার প্রতিবিম্ব অপশন ২।',
-        codeSnippet: `<div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-  <span style={{ display: 'inline-block', transform: 'scale(-1, 1)' }}>ЯОƧƎ</span>
+    description: 'অপশন ২: প্রতিটি বর্ণ নিজের অবস্থানে অনুভূমিকভাবে উল্টানো (Я O Ƨ Ǝ)।',
+    codeSnippet: `<div style={{ fontSize: "30px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+  <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>R</span><span>O</span><span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>S</span><span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>E</span>
 </div>`,
-renderVector: () => (
-      <div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-        <span style={{ display: 'inline-block', transform: 'scale(-1, 1)' }}>ЯОƧƎ</span>
+    renderVector: () => (
+      <div style={{ fontSize: "30px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+        <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>R</span><span>O</span><span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>S</span><span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>E</span>
       </div>
     )
   },
-
   // 19. 275470_option_3_image.jpg
   {
     id: '275470_option_3_image',
@@ -738,17 +911,16 @@ renderVector: () => (
     title: 'ROSE প্রতিবিম্ব অপশন ৩',
     fidelity: '১০০% নিখুঁত ভেক্টর ও CSS',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'ROSE আয়নার প্রতিবিম্ব অপশন ৩।',
-        codeSnippet: `<div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-  <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>ROSE</span>
+    description: 'অপশন ৩: R ও E অনুভূমিকভাবে উল্টানো, কিন্তু O ও S স্বাভাবিক সোজা (Я O S Ǝ)।',
+    codeSnippet: `<div style={{ fontSize: "30px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+  <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>R</span><span>O</span><span>S</span><span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>E</span>
 </div>`,
-renderVector: () => (
-      <div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-        <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>ROSE</span>
+    renderVector: () => (
+      <div style={{ fontSize: "30px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+        <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>R</span><span>O</span><span>S</span><span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>E</span>
       </div>
     )
   },
-
   // 20. 275470_option_4_image.jpg
   {
     id: '275470_option_4_image',
@@ -760,13 +932,13 @@ renderVector: () => (
     title: 'ROSE প্রতিবিম্ব অপশন ৪ (সঠিক উত্তর)',
     fidelity: '১০০% নিখুঁত ভেক্টর ও CSS',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'ROSE এর সঠিক আয়নার প্রতিবিম্ব: E S O R (প্রত্যেকটি বর্ণ অনুভূমিকভাবে প্রতিবিম্বিত)।',
-        codeSnippet: `<div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 800, userSelect: "none", color: "#065f46", textAlign: "center", padding: "8px 0" }}>
-  <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>ROSE</span>
+    description: 'ROSE এর সঠিক আয়নার প্রতিবিম্ব: E S O R (প্রত্যেকটি বর্ণ বিপরীত ক্রমে অনুভূমিকভাবে প্রতিবিম্বিত: Ǝ Ƨ O Я)।',
+    codeSnippet: `<div style={{ fontSize: "30px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+  <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>E</span><span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>S</span><span>O</span><span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>R</span>
 </div>`,
-renderVector: () => (
-      <div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 800, userSelect: "none", color: "#065f46", textAlign: "center", padding: "8px 0" }}>
-        <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>ROSE</span>
+    renderVector: () => (
+      <div style={{ fontSize: "30px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+        <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>E</span><span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>S</span><span>O</span><span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>R</span>
       </div>
     )
   },
@@ -782,73 +954,102 @@ renderVector: () => (
     title: 'ব্যতিক্রমী আকৃতি চিহ্নিতকরণ (Odd Shape Out: Open Polygon)',
     fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
-    description: '১, ২, ৩, ৫ নম্বর আকৃতিগুলো সম্পূর্ণ আবদ্ধ (Closed)। কিন্তু ৪ নম্বর আকৃতিটি খোলা/বিচ্ছিন্ন রেখাংশের তৈরি, তাই ৪ সম্পূর্ণ আলাদা (সঠিক উত্তর)।',
-        codeSnippet: `<svg viewBox="0 0 350 90" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-  {/* 1: Rectangle */}
-  <g transform="translate(10, 15)">
-    <rect x="0" y="15" width="55" height="35" fill="none" stroke="#0f172a" strokeWidth="2.5" />
-    <text x="27.5" y="39" textAnchor="middle" fontSize="18" fontFamily="serif" fill="#0f172a">1</text>
-  </g>
-  {/* 2: Trapezoid */}
-  <g transform="translate(75, 15)">
-    <polygon points="25,15 55,15 55,50 0,50" fill="none" stroke="#0f172a" strokeWidth="2.5" strokeLinejoin="round" />
-    <text x="35" y="39" textAnchor="middle" fontSize="18" fontFamily="serif" fill="#0f172a">2</text>
-  </g>
-  {/* 3: Vertical Rect */}
-  <g transform="translate(145, 15)">
-    <rect x="5" y="5" width="35" height="55" fill="none" stroke="#0f172a" strokeWidth="2.5" />
-    <text x="22.5" y="39" textAnchor="middle" fontSize="18" fontFamily="serif" fill="#0f172a">3</text>
-  </g>
-  {/* 4: Open / Broken Pentagon (Odd one) */}
-  <g transform="translate(200, 15)">
-    <line x1="25" y1="5" x2="45" y2="20" stroke="#dc2626" strokeWidth="2.8" strokeLinecap="round" />
-    <line x1="47" y1="28" x2="40" y2="52" stroke="#dc2626" strokeWidth="2.8" strokeLinecap="round" />
-    <line x1="33" y1="58" x2="17" y2="58" stroke="#dc2626" strokeWidth="2.8" strokeLinecap="round" />
-    <line x1="10" y1="52" x2="3" y2="28" stroke="#dc2626" strokeWidth="2.8" strokeLinecap="round" />
-    <line x1="5" y1="20" x2="25" y2="5" stroke="#dc2626" strokeWidth="2.8" strokeLinecap="round" />
-    <text x="25" y="39" textAnchor="middle" fontSize="18" fontWeight="bold" fontFamily="serif" fill="#dc2626">4</text>
-  </g>
-  {/* 5: Closed Pentagon */}
-  <g transform="translate(265, 15)">
-    <polygon points="25,5 48,22 40,58 10,58 2,22" fill="none" stroke="#0f172a" strokeWidth="2.5" strokeLinejoin="round" />
-    <text x="25" y="39" textAnchor="middle" fontSize="18" fontFamily="serif" fill="#0f172a">5</text>
+    description: 'প্রশ্নবাক্য সহ ১, ২, ৩, ৪, ৫ নম্বর আকৃতি। ৪ নম্বর আকৃতিটি খোলা/বিচ্ছিন্ন রেখাংশের তৈরি, যা বাকিদের থেকে আলাদা (সঠিক উত্তর ৪)।',
+    codeSnippet: `<svg viewBox="0 0 420 115" style={{ maxWidth: "280px", maxHeight: "140px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+  {/* Question Title */}
+  <text x="8" y="20" fontSize="13.5" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    নিম্নের চিত্রে একটি নম্বরযুক্ত প্রতিকৃতি অন্যদের চাইতে সম্পূর্ণ
+  </text>
+  <text x="8" y="40" fontSize="13.5" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    আলাদা। সেই প্রতিকৃতিতে নম্বরটি কত?
+  </text>
+
+  {/* 5 Shapes sitting on baseline */}
+  <g transform="translate(0, 52)">
+    {/* 1: Horizontal Rectangle */}
+    <g transform="translate(10, 0)">
+      <rect x="0" y="15" width="56" height="34" fill="none" stroke="#0f172a" strokeWidth="2.2" />
+      <text x="28" y="38" textAnchor="middle" fontSize="17" fontFamily="'Times New Roman', Georgia, serif" fill="#0f172a">1</text>
+    </g>
+
+    {/* 2: Trapezoid */}
+    <g transform="translate(82, 0)">
+      <polygon points="26,15 56,15 56,49 0,49" fill="none" stroke="#0f172a" strokeWidth="2.2" strokeLinejoin="round" />
+      <text x="34" y="38" textAnchor="middle" fontSize="17" fontFamily="'Times New Roman', Georgia, serif" fill="#0f172a">2</text>
+    </g>
+
+    {/* 3: Vertical Rectangle */}
+    <g transform="translate(154, 0)">
+      <rect x="4" y="4" width="32" height="45" fill="none" stroke="#0f172a" strokeWidth="2.2" />
+      <text x="20" y="33" textAnchor="middle" fontSize="17" fontFamily="'Times New Roman', Georgia, serif" fill="#0f172a">3</text>
+    </g>
+
+    {/* 4: Open / Broken Pentagon (Same regular dark color, no red) */}
+    <g transform="translate(202, 0)">
+      <line x1="12" y1="4" x2="38" y2="4" stroke="#0f172a" strokeWidth="2.2" strokeLinecap="round" />
+      <line x1="43" y1="9" x2="49" y2="27" stroke="#0f172a" strokeWidth="2.2" strokeLinecap="round" />
+      <line x1="46" y1="32" x2="28" y2="47" stroke="#0f172a" strokeWidth="2.2" strokeLinecap="round" />
+      <line x1="22" y1="47" x2="4" y2="32" stroke="#0f172a" strokeWidth="2.2" strokeLinecap="round" />
+      <line x1="1" y1="27" x2="7" y2="9" stroke="#0f172a" strokeWidth="2.2" strokeLinecap="round" />
+      <text x="25" y="33" textAnchor="middle" fontSize="17" fontFamily="'Times New Roman', Georgia, serif" fill="#0f172a">4</text>
+    </g>
+
+    {/* 5: Pointed House / Closed Pentagon */}
+    <g transform="translate(268, 0)">
+      <polygon points="17,4 34,17 34,49 0,49 0,17" fill="none" stroke="#0f172a" strokeWidth="2.2" strokeLinejoin="round" />
+      <text x="17" y="37" textAnchor="middle" fontSize="17" fontFamily="'Times New Roman', Georgia, serif" fill="#0f172a">5</text>
+    </g>
   </g>
 </svg>`,
-renderVector: () => (
-      <svg viewBox="0 0 350 90" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-        {/* 1: Rectangle */}
-        <g transform="translate(10, 15)">
-          <rect x="0" y="15" width="55" height="35" fill="none" stroke="#0f172a" strokeWidth="2.5" />
-          <text x="27.5" y="39" textAnchor="middle" fontSize="18" fontFamily="serif" fill="#0f172a">1</text>
-        </g>
-        {/* 2: Trapezoid */}
-        <g transform="translate(75, 15)">
-          <polygon points="25,15 55,15 55,50 0,50" fill="none" stroke="#0f172a" strokeWidth="2.5" strokeLinejoin="round" />
-          <text x="35" y="39" textAnchor="middle" fontSize="18" fontFamily="serif" fill="#0f172a">2</text>
-        </g>
-        {/* 3: Vertical Rect */}
-        <g transform="translate(145, 15)">
-          <rect x="5" y="5" width="35" height="55" fill="none" stroke="#0f172a" strokeWidth="2.5" />
-          <text x="22.5" y="39" textAnchor="middle" fontSize="18" fontFamily="serif" fill="#0f172a">3</text>
-        </g>
-        {/* 4: Open / Broken Pentagon (Odd one) */}
-        <g transform="translate(200, 15)">
-          <line x1="25" y1="5" x2="45" y2="20" stroke="#dc2626" strokeWidth="2.8" strokeLinecap="round" />
-          <line x1="47" y1="28" x2="40" y2="52" stroke="#dc2626" strokeWidth="2.8" strokeLinecap="round" />
-          <line x1="33" y1="58" x2="17" y2="58" stroke="#dc2626" strokeWidth="2.8" strokeLinecap="round" />
-          <line x1="10" y1="52" x2="3" y2="28" stroke="#dc2626" strokeWidth="2.8" strokeLinecap="round" />
-          <line x1="5" y1="20" x2="25" y2="5" stroke="#dc2626" strokeWidth="2.8" strokeLinecap="round" />
-          <text x="25" y="39" textAnchor="middle" fontSize="18" fontWeight="bold" fontFamily="serif" fill="#dc2626">4</text>
-        </g>
-        {/* 5: Closed Pentagon */}
-        <g transform="translate(265, 15)">
-          <polygon points="25,5 48,22 40,58 10,58 2,22" fill="none" stroke="#0f172a" strokeWidth="2.5" strokeLinejoin="round" />
-          <text x="25" y="39" textAnchor="middle" fontSize="18" fontFamily="serif" fill="#0f172a">5</text>
+    renderVector: () => (
+      <svg viewBox="0 0 420 115" style={{ maxWidth: "280px", maxHeight: "140px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+        {/* Question Title */}
+        <text x="8" y="20" fontSize="13.5" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          নিম্নের চিত্রে একটি নম্বরযুক্ত প্রতিকৃতি অন্যদের চাইতে সম্পূর্ণ
+        </text>
+        <text x="8" y="40" fontSize="13.5" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          আলাদা। সেই প্রতিকৃতিতে নম্বরটি কত?
+        </text>
+
+        {/* 5 Shapes sitting on baseline */}
+        <g transform="translate(0, 52)">
+          {/* 1: Horizontal Rectangle */}
+          <g transform="translate(10, 0)">
+            <rect x="0" y="15" width="56" height="34" fill="none" stroke="#0f172a" strokeWidth="2.2" />
+            <text x="28" y="38" textAnchor="middle" fontSize="17" fontFamily="'Times New Roman', Georgia, serif" fill="#0f172a">1</text>
+          </g>
+
+          {/* 2: Trapezoid */}
+          <g transform="translate(82, 0)">
+            <polygon points="26,15 56,15 56,49 0,49" fill="none" stroke="#0f172a" strokeWidth="2.2" strokeLinejoin="round" />
+            <text x="34" y="38" textAnchor="middle" fontSize="17" fontFamily="'Times New Roman', Georgia, serif" fill="#0f172a">2</text>
+          </g>
+
+          {/* 3: Vertical Rectangle */}
+          <g transform="translate(154, 0)">
+            <rect x="4" y="4" width="32" height="45" fill="none" stroke="#0f172a" strokeWidth="2.2" />
+            <text x="20" y="33" textAnchor="middle" fontSize="17" fontFamily="'Times New Roman', Georgia, serif" fill="#0f172a">3</text>
+          </g>
+
+          {/* 4: Open / Broken Pentagon (Same regular dark color, no red) */}
+          <g transform="translate(202, 0)">
+            <line x1="12" y1="4" x2="38" y2="4" stroke="#0f172a" strokeWidth="2.2" strokeLinecap="round" />
+            <line x1="43" y1="9" x2="49" y2="27" stroke="#0f172a" strokeWidth="2.2" strokeLinecap="round" />
+            <line x1="46" y1="32" x2="28" y2="47" stroke="#0f172a" strokeWidth="2.2" strokeLinecap="round" />
+            <line x1="22" y1="47" x2="4" y2="32" stroke="#0f172a" strokeWidth="2.2" strokeLinecap="round" />
+            <line x1="1" y1="27" x2="7" y2="9" stroke="#0f172a" strokeWidth="2.2" strokeLinecap="round" />
+            <text x="25" y="33" textAnchor="middle" fontSize="17" fontFamily="'Times New Roman', Georgia, serif" fill="#0f172a">4</text>
+          </g>
+
+          {/* 5: Pointed House / Closed Pentagon */}
+          <g transform="translate(268, 0)">
+            <polygon points="17,4 34,17 34,49 0,49 0,17" fill="none" stroke="#0f172a" strokeWidth="2.2" strokeLinejoin="round" />
+            <text x="17" y="37" textAnchor="middle" fontSize="17" fontFamily="'Times New Roman', Georgia, serif" fill="#0f172a">5</text>
+          </g>
         </g>
       </svg>
     )
   },
-
   // 22. 306484_question_image.jpg
   {
     id: '306484_question_image',
@@ -860,47 +1061,64 @@ renderVector: () => (
     title: 'ত্রিভুজ ও সংখ্যা সম্পর্ক (Triangles with Perimeter Numbers)',
     fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
-    description: '১ম ত্রিভুজ: ৯ × (৪ + ৮) = ৯ × ১২ = ১০৮; ২য় ত্রিভুজ: ১২ × (৫ + ৪) = ১২ × ৯ = ১০৮ (সঠিক উত্তর ১০৮)।',
-        codeSnippet: `<svg viewBox="0 0 280 130" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-  {/* Triangle 1 */}
-  <g transform="translate(15, 15)">
-    <polygon points="50,10 10,95 90,95" fill="none" stroke="#0f172a" strokeWidth="2.5" strokeLinejoin="round" />
-    <text x="20" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৪</text>
-    <text x="80" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৮</text>
-    <text x="50" y="112" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৯</text>
-    <text x="50" y="75" textAnchor="middle" fontSize="17" fontWeight="bold" fill="#0f172a">১০৮</text>
-  </g>
-  {/* Triangle 2 */}
-  <g transform="translate(150, 15)">
-    <polygon points="50,10 10,95 90,95" fill="none" stroke="#0f172a" strokeWidth="2.5" strokeLinejoin="round" />
-    <text x="20" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৫</text>
-    <text x="80" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৪</text>
-    <text x="50" y="112" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">১২</text>
-    <text x="50" y="75" textAnchor="middle" fontSize="20" fontWeight="bold" fill="#dc2626">?</text>
+    description: 'প্রশ্নবাক্য "নিম্নের প্রশ্নবোধক চিহ্নে কোন সংখ্যাটি বসবে?" সহ দুটি সংখ্যাযুক্ত ত্রিভুজ (সঠিক উত্তর ১০৮)।',
+    codeSnippet: `<svg viewBox="0 0 320 155" style={{ maxWidth: "270px", maxHeight: "140px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+  {/* Question Title */}
+  <text x="12" y="22" fontSize="14" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    নিম্নের প্রশ্নবোধক চিহ্নে কোন সংখ্যাটি বসবে?
+  </text>
+
+  {/* Triangles Group */}
+  <g transform="translate(15, 32)">
+    {/* Triangle 1 */}
+    <g transform="translate(0, 0)">
+      <polygon points="60,10 15,95 105,95" fill="none" stroke="#0f172a" strokeWidth="2.5" strokeLinejoin="round" />
+      <text x="26" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪</text>
+      <text x="94" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৮</text>
+      <text x="60" y="112" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৯</text>
+      <text x="60" y="74" textAnchor="middle" fontSize="17" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১০৮</text>
+    </g>
+
+    {/* Triangle 2 */}
+    <g transform="translate(155, 0)">
+      <polygon points="60,10 15,95 105,95" fill="none" stroke="#0f172a" strokeWidth="2.5" strokeLinejoin="round" />
+      <text x="26" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৫</text>
+      <text x="94" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪</text>
+      <text x="60" y="112" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১২</text>
+      <text x="60" y="74" textAnchor="middle" fontSize="19" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">?</text>
+    </g>
   </g>
 </svg>`,
-renderVector: () => (
-      <svg viewBox="0 0 280 130" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-        {/* Triangle 1 */}
-        <g transform="translate(15, 15)">
-          <polygon points="50,10 10,95 90,95" fill="none" stroke="#0f172a" strokeWidth="2.5" strokeLinejoin="round" />
-          <text x="20" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৪</text>
-          <text x="80" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৮</text>
-          <text x="50" y="112" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৯</text>
-          <text x="50" y="75" textAnchor="middle" fontSize="17" fontWeight="bold" fill="#0f172a">১০৮</text>
-        </g>
-        {/* Triangle 2 */}
-        <g transform="translate(150, 15)">
-          <polygon points="50,10 10,95 90,95" fill="none" stroke="#0f172a" strokeWidth="2.5" strokeLinejoin="round" />
-          <text x="20" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৫</text>
-          <text x="80" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৪</text>
-          <text x="50" y="112" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">১২</text>
-          <text x="50" y="75" textAnchor="middle" fontSize="20" fontWeight="bold" fill="#dc2626">?</text>
+    renderVector: () => (
+      <svg viewBox="0 0 320 155" style={{ maxWidth: "270px", maxHeight: "140px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+        {/* Question Title */}
+        <text x="12" y="22" fontSize="14" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          নিম্নের প্রশ্নবোধক চিহ্নে কোন সংখ্যাটি বসবে?
+        </text>
+
+        {/* Triangles Group */}
+        <g transform="translate(15, 32)">
+          {/* Triangle 1 */}
+          <g transform="translate(0, 0)">
+            <polygon points="60,10 15,95 105,95" fill="none" stroke="#0f172a" strokeWidth="2.5" strokeLinejoin="round" />
+            <text x="26" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪</text>
+            <text x="94" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৮</text>
+            <text x="60" y="112" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৯</text>
+            <text x="60" y="74" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১০৮</text>
+          </g>
+
+          {/* Triangle 2 */}
+          <g transform="translate(155, 0)">
+            <polygon points="60,10 15,95 105,95" fill="none" stroke="#0f172a" strokeWidth="2.5" strokeLinejoin="round" />
+            <text x="26" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৫</text>
+            <text x="94" y="55" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪</text>
+            <text x="60" y="112" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১২</text>
+            <text x="60" y="74" textAnchor="middle" fontSize="19" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">?</text>
+          </g>
         </g>
       </svg>
     )
   },
-
   // 23. 306485_question_image.jpg
   {
     id: '306485_question_image',
@@ -912,15 +1130,19 @@ renderVector: () => (
     title: 'গ্রিড হ্যাচিং সিরিজ (3x3 Grid Series Problem)',
     fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
-    description: '৩x৩ গ্রিডে কালো/ডোরাকাটা ঘরের স্থানান্তর ক্রমধারা।',
-        codeSnippet: `<svg viewBox="0 0 350 95" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+    description: 'প্রশ্নবাক্য "কোন চিত্রটি সিরিজটি সম্পূর্ণ করে?" সহ ৩x৩ গ্রিডে ডোরাকাটা ঘরের স্থানান্তর ক্রমধারা।',
+    codeSnippet: `<svg viewBox="0 0 350 118" style={{ maxWidth: "270px", maxHeight: "140px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
   <defs>
     <pattern id="diagHatch" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
       <line x1="0" y1="0" x2="0" y2="8" stroke="#0f172a" strokeWidth="2" />
     </pattern>
   </defs>
+  {/* Question Title */}
+  <text x="8" y="22" fontSize="14" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    কোন চিত্রটি সিরিজটি সম্পূর্ণ করে?
+  </text>
   {/* Grid 1: (0,0) and (2,0) */}
-  <g transform="translate(10, 10)">
+  <g transform="translate(10, 34)">
     <rect x="0" y="0" width="72" height="72" fill="none" stroke="#0f172a" strokeWidth="2" />
     <line x1="24" y1="0" x2="24" y2="72" stroke="#0f172a" strokeWidth="1.5" />
     <line x1="0" y1="24" x2="24" y2="24" stroke="#0f172a" strokeWidth="1.5" />
@@ -929,7 +1151,7 @@ renderVector: () => (
     <rect x="0" y="48" width="24" height="24" fill="url(#diagHatch)" />
   </g>
   {/* Grid 2 */}
-  <g transform="translate(95, 10)">
+  <g transform="translate(95, 34)">
     <rect x="0" y="0" width="72" height="72" fill="none" stroke="#0f172a" strokeWidth="2" />
     <line x1="24" y1="0" x2="24" y2="72" stroke="#0f172a" strokeWidth="1.5" />
     <line x1="0" y1="24" x2="24" y2="24" stroke="#0f172a" strokeWidth="1.5" />
@@ -939,7 +1161,7 @@ renderVector: () => (
     <rect x="24" y="48" width="24" height="24" fill="url(#diagHatch)" />
   </g>
   {/* Grid 3 */}
-  <g transform="translate(180, 10)">
+  <g transform="translate(180, 34)">
     <rect x="0" y="0" width="72" height="72" fill="none" stroke="#0f172a" strokeWidth="2" />
     <line x1="24" y1="0" x2="24" y2="72" stroke="#0f172a" strokeWidth="1.5" />
     <line x1="0" y1="24" x2="24" y2="24" stroke="#0f172a" strokeWidth="1.5" />
@@ -950,7 +1172,7 @@ renderVector: () => (
     <rect x="48" y="48" width="24" height="24" fill="url(#diagHatch)" />
   </g>
   {/* Grid 4 */}
-  <g transform="translate(265, 10)">
+  <g transform="translate(265, 34)">
     <rect x="0" y="0" width="72" height="72" fill="none" stroke="#0f172a" strokeWidth="2" />
     <line x1="24" y1="0" x2="24" y2="72" stroke="#0f172a" strokeWidth="1.5" />
     <line x1="48" y1="24" x2="48" y2="72" stroke="#0f172a" strokeWidth="1.5" />
@@ -962,15 +1184,19 @@ renderVector: () => (
     <rect x="48" y="24" width="24" height="24" fill="url(#diagHatch)" />
   </g>
 </svg>`,
-renderVector: () => (
-      <svg viewBox="0 0 350 95" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+    renderVector: () => (
+      <svg viewBox="0 0 350 118" style={{ maxWidth: "270px", maxHeight: "140px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
         <defs>
           <pattern id="diagHatch" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
             <line x1="0" y1="0" x2="0" y2="8" stroke="#0f172a" strokeWidth="2" />
           </pattern>
         </defs>
+        {/* Question Title */}
+        <text x="8" y="22" fontSize="14" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          কোন চিত্রটি সিরিজটি সম্পূর্ণ করে?
+        </text>
         {/* Grid 1: (0,0) and (2,0) */}
-        <g transform="translate(10, 10)">
+        <g transform="translate(10, 34)">
           <rect x="0" y="0" width="72" height="72" fill="none" stroke="#0f172a" strokeWidth="2" />
           <line x1="24" y1="0" x2="24" y2="72" stroke="#0f172a" strokeWidth="1.5" />
           <line x1="0" y1="24" x2="24" y2="24" stroke="#0f172a" strokeWidth="1.5" />
@@ -979,7 +1205,7 @@ renderVector: () => (
           <rect x="0" y="48" width="24" height="24" fill="url(#diagHatch)" />
         </g>
         {/* Grid 2 */}
-        <g transform="translate(95, 10)">
+        <g transform="translate(95, 34)">
           <rect x="0" y="0" width="72" height="72" fill="none" stroke="#0f172a" strokeWidth="2" />
           <line x1="24" y1="0" x2="24" y2="72" stroke="#0f172a" strokeWidth="1.5" />
           <line x1="0" y1="24" x2="24" y2="24" stroke="#0f172a" strokeWidth="1.5" />
@@ -989,7 +1215,7 @@ renderVector: () => (
           <rect x="24" y="48" width="24" height="24" fill="url(#diagHatch)" />
         </g>
         {/* Grid 3 */}
-        <g transform="translate(180, 10)">
+        <g transform="translate(180, 34)">
           <rect x="0" y="0" width="72" height="72" fill="none" stroke="#0f172a" strokeWidth="2" />
           <line x1="24" y1="0" x2="24" y2="72" stroke="#0f172a" strokeWidth="1.5" />
           <line x1="0" y1="24" x2="24" y2="24" stroke="#0f172a" strokeWidth="1.5" />
@@ -1000,7 +1226,7 @@ renderVector: () => (
           <rect x="48" y="48" width="24" height="24" fill="url(#diagHatch)" />
         </g>
         {/* Grid 4 */}
-        <g transform="translate(265, 10)">
+        <g transform="translate(265, 34)">
           <rect x="0" y="0" width="72" height="72" fill="none" stroke="#0f172a" strokeWidth="2" />
           <line x1="24" y1="0" x2="24" y2="72" stroke="#0f172a" strokeWidth="1.5" />
           <line x1="48" y1="24" x2="48" y2="72" stroke="#0f172a" strokeWidth="1.5" />
@@ -1014,7 +1240,6 @@ renderVector: () => (
       </svg>
     )
   },
-
   // 24. 306485_option_1_image.jpg
   {
     id: '306485_option_1_image',
@@ -1486,53 +1711,80 @@ renderVector: () => (
     subject: 'গাণিতিক যুক্তি',
     category: 'জ্যামিতি ও কোণ',
     title: 'ত্রিভুজের অন্তস্থ ও বহিঃস্থ কোণের অনুপাত (Triangle Interior vs Exterior Angles)',
-    fidelity: '১০০% নিখুঁত ভেক্টর ও KaTeX',
+    fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'ত্রিভুজের ৩টি অন্তস্থ কোণের সমষ্টি a+b+c = 180° এবং বহিঃস্থ কোণগুলোর সমষ্টি s+t+u = 360°। অনুপাত = 180/360 = 1/2।',
-        codeSnippet: `<div style={{ textAlign: "center" }}>
-  <svg viewBox="0 0 240 120" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-    {/* Top Line */}
-    <line x1="30" y1="25" x2="220" y2="25" stroke="#0f172a" strokeWidth="2.2" />
-    {/* Left Slanted Line */}
-    <line x1="15" y1="105" x2="80" y2="10" stroke="#0f172a" strokeWidth="2.2" />
-    {/* Transversal Hypotenuse */}
-    <line x1="30" y1="90" x2="210" y2="15" stroke="#0f172a" strokeWidth="2.2" />
-    {/* Angle Labels */}
-    <text x="50" y="38" fontSize="14" fontFamily="serif" fill="#0f172a">t°</text>
-    <text x="85" y="40" fontSize="14" fontFamily="serif" fill="#0f172a">b°</text>
-    <text x="160" y="38" fontSize="14" fontFamily="serif" fill="#0f172a">c°</text>
-    <text x="180" y="16" fontSize="14" fontFamily="serif" fill="#0f172a">u°</text>
-    <text x="52" y="78" fontSize="14" fontFamily="serif" fill="#0f172a">a°</text>
-    <text x="36" y="105" fontSize="14" fontFamily="serif" fill="#0f172a">s°</text>
-  </svg>
-  <div style={{ marginTop: "4px", fontFamily: "serif", fontSize: "14px", fontWeight: 600, color: "#0f172a" }}>
-    In the figure above, <span style={{ display: "inline-block", borderBottom: "1px solid #0f172a", padding: "0 4px" }}>a + b + c</span> / <span style={{ display: "inline-block", padding: "0 4px" }}>s + t + u</span> = ?
-  </div>
-</div>`,
-renderVector: () => (
-      <div style={{ textAlign: "center" }}>
-        <svg viewBox="0 0 240 120" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-          {/* Top Line */}
-          <line x1="30" y1="25" x2="220" y2="25" stroke="#0f172a" strokeWidth="2.2" />
-          {/* Left Slanted Line */}
-          <line x1="15" y1="105" x2="80" y2="10" stroke="#0f172a" strokeWidth="2.2" />
-          {/* Transversal Hypotenuse */}
-          <line x1="30" y1="90" x2="210" y2="15" stroke="#0f172a" strokeWidth="2.2" />
-          {/* Angle Labels */}
-          <text x="50" y="38" fontSize="14" fontFamily="serif" fill="#0f172a">t°</text>
-          <text x="85" y="40" fontSize="14" fontFamily="serif" fill="#0f172a">b°</text>
-          <text x="160" y="38" fontSize="14" fontFamily="serif" fill="#0f172a">c°</text>
-          <text x="180" y="16" fontSize="14" fontFamily="serif" fill="#0f172a">u°</text>
-          <text x="52" y="78" fontSize="14" fontFamily="serif" fill="#0f172a">a°</text>
-          <text x="36" y="105" fontSize="14" fontFamily="serif" fill="#0f172a">s°</text>
-        </svg>
-        <div style={{ marginTop: "4px", fontFamily: "serif", fontSize: "14px", fontWeight: 600, color: "#0f172a" }}>
-          In the figure above, <span style={{ display: "inline-block", borderBottom: "1px solid #0f172a", padding: "0 4px" }}>a + b + c</span> / <span style={{ display: "inline-block", padding: "0 4px" }}>s + t + u</span> = ?
-        </div>
-      </div>
+    description: 'জ্যামিতিক চিত্র এবং "In the figure above, (a+b+c)/(s+t+u) = ?" গাণিতিক ভগ্নাংশ (সঠিক উত্তর: ১/২)।',
+    codeSnippet: `<svg viewBox="0 0 473 212" style={{ maxWidth: "280px", maxHeight: "140px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+  {/* Geometry Lines */}
+  {/* Top horizontal line */}
+  <line x1="145" y1="30" x2="365" y2="30" stroke="#0f172a" strokeWidth="2.4" strokeLinecap="round" />
+
+  {/* Left slanted line */}
+  <line x1="200" y1="30" x2="136" y2="142" stroke="#0f172a" strokeWidth="2.4" strokeLinecap="round" />
+
+  {/* Long diagonal line */}
+  <line x1="144" y1="128" x2="395" y2="12" stroke="#0f172a" strokeWidth="2.4" strokeLinecap="round" />
+
+  {/* Angle Labels */}
+  <g fontSize="15" fontStyle="italic" fontFamily="'Times New Roman', Georgia, serif" fill="#0f172a">
+    <text x="182" y="48" textAnchor="middle">t°</text>
+    <text x="220" y="48" textAnchor="middle">b°</text>
+    <text x="306" y="46" textAnchor="middle">c°</text>
+    <text x="355" y="20" textAnchor="middle">u°</text>
+    <text x="172" y="108" textAnchor="middle">a°</text>
+    <text x="160" y="138" textAnchor="middle">s°</text>
+  </g>
+
+  {/* Question Formula & Text at Bottom */}
+  <g fontFamily="'Times New Roman', Georgia, serif" fontWeight="bold" fill="#0f172a">
+    <text x="36" y="180" fontSize="17">In the figure above,</text>
+
+    {/* Fraction: (a + b + c) / (s + t + u) */}
+    <text x="345" y="167" textAnchor="middle" fontSize="15">a + b + c</text>
+    <line x1="298" y1="174" x2="392" y2="174" stroke="#0f172a" strokeWidth="2.2" strokeLinecap="round" />
+    <text x="345" y="193" textAnchor="middle" fontSize="15">s + t + u</text>
+
+    {/* = ? */}
+    <text x="404" y="180" fontSize="18">= ?</text>
+  </g>
+</svg>`,
+    renderVector: () => (
+      <svg viewBox="0 0 473 212" style={{ maxWidth: "280px", maxHeight: "140px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+        {/* Geometry Lines */}
+        {/* Top horizontal line */}
+        <line x1="145" y1="30" x2="365" y2="30" stroke="#0f172a" strokeWidth="2.4" strokeLinecap="round" />
+
+        {/* Left slanted line */}
+        <line x1="200" y1="30" x2="136" y2="142" stroke="#0f172a" strokeWidth="2.4" strokeLinecap="round" />
+
+        {/* Long diagonal line */}
+        <line x1="144" y1="128" x2="395" y2="12" stroke="#0f172a" strokeWidth="2.4" strokeLinecap="round" />
+
+        {/* Angle Labels */}
+        <g fontSize="15" fontStyle="italic" fontFamily="'Times New Roman', Georgia, serif" fill="#0f172a">
+          <text x="182" y="48" textAnchor="middle">t°</text>
+          <text x="220" y="48" textAnchor="middle">b°</text>
+          <text x="306" y="46" textAnchor="middle">c°</text>
+          <text x="355" y="20" textAnchor="middle">u°</text>
+          <text x="172" y="108" textAnchor="middle">a°</text>
+          <text x="160" y="138" textAnchor="middle">s°</text>
+        </g>
+
+        {/* Question Formula & Text at Bottom */}
+        <g fontFamily="'Times New Roman', Georgia, serif" fontWeight="bold" fill="#0f172a">
+          <text x="36" y="180" fontSize="17">In the figure above,</text>
+
+          {/* Fraction: (a + b + c) / (s + t + u) */}
+          <text x="345" y="167" textAnchor="middle" fontSize="15">a + b + c</text>
+          <line x1="298" y1="174" x2="392" y2="174" stroke="#0f172a" strokeWidth="2.2" strokeLinecap="round" />
+          <text x="345" y="193" textAnchor="middle" fontSize="15">s + t + u</text>
+
+          {/* = ? */}
+          <text x="404" y="180" fontSize="18">= ?</text>
+        </g>
+      </svg>
     )
   },
-
   // 36. 323199_question_image.jpg
   {
     id: '323199_question_image',
@@ -1544,33 +1796,58 @@ renderVector: () => (
     title: 'ষড়ভুজ ও ত্রিভুজ গণনা (Hexagon with Center Rect & Triangles)',
     fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'চিত্রে মোট ত্রিভুজের সংখ্যা নির্ণয় (সঠিক উত্তর: ২০ এর অধিক)।',
-        codeSnippet: `<svg viewBox="0 0 180 180" style={{ maxWidth: "180px", maxHeight: "160px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-  {/* Hexagon */}
-  <polygon points="90,15 150,55 150,125 90,165 30,125 30,55" fill="none" stroke="#0f172a" strokeWidth="3" strokeLinejoin="round" />
-  {/* Axis Lines */}
-  <line x1="90" y1="15" x2="90" y2="165" stroke="#0f172a" strokeWidth="2.5" />
-  <line x1="30" y1="90" x2="150" y2="90" stroke="#0f172a" strokeWidth="2.5" />
-  <line x1="30" y1="55" x2="150" y2="125" stroke="#0f172a" strokeWidth="2.2" />
-  <line x1="30" y1="125" x2="150" y2="55" stroke="#0f172a" strokeWidth="2.2" />
-  {/* Inner Rectangle */}
-  <rect x="70" y="55" width="40" height="70" fill="none" stroke="#0f172a" strokeWidth="2.5" />
+    description: 'প্রশ্নবাক্য "এই চিত্রটিতে মোট কতটি ত্রিভুজ আছে?" সহ আনুভূমিক ষড়ভুজ, মধ্যবিন্দু অক্ষ ও কেন্দ্রস্থ আয়তক্ষেত্র (সঠিক উত্তর: ২০ এর অধিক)।',
+    codeSnippet: `<svg viewBox="0 0 260 210" style={{ maxWidth: "210px", maxHeight: "170px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+  {/* Question Title */}
+  <text x="130" y="25" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    এই চিত্রটিতে মোট কতটি ত্রিভুজ আছে?
+  </text>
+
+  {/* Outer Hexagon (Horizontal orientation: flat top & bottom, pointed left & right) */}
+  <polygon points="85,52 175,52 220,122 175,192 85,192 40,122" fill="none" stroke="#0f172a" strokeWidth="2.8" strokeLinejoin="round" />
+
+  {/* Internal Vertical Side Lines */}
+  <line x1="85" y1="52" x2="85" y2="192" stroke="#0f172a" strokeWidth="2.2" />
+  <line x1="175" y1="52" x2="175" y2="192" stroke="#0f172a" strokeWidth="2.2" />
+
+  {/* Center Axes */}
+  <line x1="40" y1="122" x2="220" y2="122" stroke="#0f172a" strokeWidth="2.2" />
+  <line x1="130" y1="52" x2="130" y2="192" stroke="#0f172a" strokeWidth="2.2" />
+
+  {/* Center Diagonals */}
+  <line x1="85" y1="52" x2="175" y2="192" stroke="#0f172a" strokeWidth="2.2" />
+  <line x1="175" y1="52" x2="85" y2="192" stroke="#0f172a" strokeWidth="2.2" />
+
+  {/* Inner Vertical Rectangle */}
+  <rect x="111" y="88" width="38" height="68" fill="none" stroke="#0f172a" strokeWidth="2.5" />
 </svg>`,
-renderVector: () => (
-      <svg viewBox="0 0 180 180" style={{ maxWidth: "180px", maxHeight: "160px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-        {/* Hexagon */}
-        <polygon points="90,15 150,55 150,125 90,165 30,125 30,55" fill="none" stroke="#0f172a" strokeWidth="3" strokeLinejoin="round" />
-        {/* Axis Lines */}
-        <line x1="90" y1="15" x2="90" y2="165" stroke="#0f172a" strokeWidth="2.5" />
-        <line x1="30" y1="90" x2="150" y2="90" stroke="#0f172a" strokeWidth="2.5" />
-        <line x1="30" y1="55" x2="150" y2="125" stroke="#0f172a" strokeWidth="2.2" />
-        <line x1="30" y1="125" x2="150" y2="55" stroke="#0f172a" strokeWidth="2.2" />
-        {/* Inner Rectangle */}
-        <rect x="70" y="55" width="40" height="70" fill="none" stroke="#0f172a" strokeWidth="2.5" />
+    renderVector: () => (
+      <svg viewBox="0 0 260 210" style={{ maxWidth: "210px", maxHeight: "170px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+        {/* Question Title */}
+        <text x="130" y="25" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          এই চিত্রটিতে মোট কতটি ত্রিভুজ আছে?
+        </text>
+
+        {/* Outer Hexagon (Horizontal orientation: flat top & bottom, pointed left & right) */}
+        <polygon points="85,52 175,52 220,122 175,192 85,192 40,122" fill="none" stroke="#0f172a" strokeWidth="2.8" strokeLinejoin="round" />
+
+        {/* Internal Vertical Side Lines */}
+        <line x1="85" y1="52" x2="85" y2="192" stroke="#0f172a" strokeWidth="2.2" />
+        <line x1="175" y1="52" x2="175" y2="192" stroke="#0f172a" strokeWidth="2.2" />
+
+        {/* Center Axes */}
+        <line x1="40" y1="122" x2="220" y2="122" stroke="#0f172a" strokeWidth="2.2" />
+        <line x1="130" y1="52" x2="130" y2="192" stroke="#0f172a" strokeWidth="2.2" />
+
+        {/* Center Diagonals */}
+        <line x1="85" y1="52" x2="175" y2="192" stroke="#0f172a" strokeWidth="2.2" />
+        <line x1="175" y1="52" x2="85" y2="192" stroke="#0f172a" strokeWidth="2.2" />
+
+        {/* Inner Vertical Rectangle */}
+        <rect x="111" y="88" width="38" height="68" fill="none" stroke="#0f172a" strokeWidth="2.5" />
       </svg>
     )
   },
-
   // 37. 326845_question_image.png
   {
     id: '326845_question_image',
@@ -1582,17 +1859,37 @@ renderVector: () => (
     title: 'ত্রিভুজ গণনা — মধ্যমা ও ছেদক (Triangle with Altitude & Diagonal)',
     fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'ত্রিভুজের শীর্ষ থেকে ভূমিতে লম্ব এবং বাম কোণ থেকে মধ্যবিন্দুতে ছেদক রেখা টানা হলে মোট ৫টি ত্রিভুজ পাওয়া যায়।',
-        codeSnippet: `<svg viewBox="0 0 160 160" style={{ maxWidth: "180px", maxHeight: "160px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-  <polygon points="60,20 15,140 135,140" fill="none" stroke="#0f172a" strokeWidth="2.8" strokeLinejoin="round" />
-  <line x1="60" y1="20" x2="60" y2="140" stroke="#0f172a" strokeWidth="2.5" />
-  <line x1="15" y1="140" x2="60" y2="85" stroke="#0f172a" strokeWidth="2.5" />
+    description: 'প্রশ্নবাক্য "নিচের চিত্রে মোট কয়টি ত্রিভুজ আছে?" সহ নিখুঁত প্রতিসম ত্রিভুজ, মধ্যমা ও বাম কোণ থেকে ছেদক রেখা (সঠিক উত্তর: ৫টি)।',
+    codeSnippet: `<svg viewBox="0 0 240 190" style={{ maxWidth: "210px", maxHeight: "170px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+  {/* Question Title */}
+  <text x="120" y="24" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    নিচের চিত্রে মোট কয়টি ত্রিভুজ আছে?
+  </text>
+
+  {/* Symmetric Outer Triangle */}
+  <polygon points="120,52 52,172 188,172" fill="none" stroke="#0f172a" strokeWidth="2.8" strokeLinejoin="round" />
+
+  {/* Vertical Altitude Line */}
+  <line x1="120" y1="52" x2="120" y2="172" stroke="#0f172a" strokeWidth="2.5" strokeLinecap="round" />
+
+  {/* Transversal Line from Bottom-Left */}
+  <line x1="52" y1="172" x2="120" y2="121" stroke="#0f172a" strokeWidth="2.5" strokeLinecap="round" />
 </svg>`,
-renderVector: () => (
-      <svg viewBox="0 0 160 160" style={{ maxWidth: "180px", maxHeight: "160px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-        <polygon points="60,20 15,140 135,140" fill="none" stroke="#0f172a" strokeWidth="2.8" strokeLinejoin="round" />
-        <line x1="60" y1="20" x2="60" y2="140" stroke="#0f172a" strokeWidth="2.5" />
-        <line x1="15" y1="140" x2="60" y2="85" stroke="#0f172a" strokeWidth="2.5" />
+    renderVector: () => (
+      <svg viewBox="0 0 240 190" style={{ maxWidth: "210px", maxHeight: "170px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+        {/* Question Title */}
+        <text x="120" y="24" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          নিচের চিত্রে মোট কয়টি ত্রিভুজ আছে?
+        </text>
+
+        {/* Symmetric Outer Triangle */}
+        <polygon points="120,52 52,172 188,172" fill="none" stroke="#0f172a" strokeWidth="2.8" strokeLinejoin="round" />
+
+        {/* Vertical Altitude Line */}
+        <line x1="120" y1="52" x2="120" y2="172" stroke="#0f172a" strokeWidth="2.5" strokeLinecap="round" />
+
+        {/* Transversal Line from Bottom-Left */}
+        <line x1="52" y1="172" x2="120" y2="121" stroke="#0f172a" strokeWidth="2.5" strokeLinecap="round" />
       </svg>
     )
   },
@@ -1608,51 +1905,73 @@ renderVector: () => (
     title: 'সদৃশ সমান্তরাল বল ও লব্ধি (Parallel Forces on Rod BC Distance)',
     fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'A বিন্দুতে ৬ কেজি ওজন, B বিন্দুতে ৪ কেজি ওজন এবং C বিন্দুতে লব্ধি বল। AC = ৪ মিটার হলে BC = ৯ মিটার।',
-        codeSnippet: `<svg viewBox="0 0 320 120" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+    description: 'প্রশ্নবাক্য "নিচের চিত্রে BC এর মান কত?" সহ বল ও রডের সদৃশ সমান্তরাল চিত্র (AC = ৬ মিটার হলে BC = ৯ মিটার)।',
+    codeSnippet: `<svg viewBox="0 0 320 160" style={{ maxWidth: "270px", maxHeight: "145px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <marker id="forceArrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <marker id="forceArrow38" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f172a" />
     </marker>
   </defs>
-  {/* Rod */}
-  <line x1="40" y1="40" x2="280" y2="40" stroke="#0f172a" strokeWidth="3.5" />
-  {/* Downward Arrows */}
-  <line x1="40" y1="40" x2="40" y2="80" stroke="#0f172a" strokeWidth="3" markerEnd="url(#forceArrow)" />
-  <line x1="160" y1="40" x2="160" y2="80" stroke="#0f172a" strokeWidth="3" markerEnd="url(#forceArrow)" />
-  <line x1="280" y1="40" x2="280" y2="80" stroke="#0f172a" strokeWidth="3" markerEnd="url(#forceArrow)" />
+
+  {/* Question Title */}
+  <text x="160" y="24" textAnchor="middle" fontSize="15" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    নিচের চিত্রে <tspan fontFamily="'Times New Roman', serif" fontStyle="italic" fontWeight="bold">BC</tspan> এর মান কত?
+  </text>
+
   {/* Letters */}
-  <text x="40" y="28" textAnchor="middle" fontSize="22" fontWeight="bold" fontFamily="serif" fill="#0f172a">A</text>
-  <text x="160" y="28" textAnchor="middle" fontSize="22" fontWeight="bold" fontFamily="serif" fill="#0f172a">C</text>
-  <text x="280" y="28" textAnchor="middle" fontSize="22" fontWeight="bold" fontFamily="serif" fill="#0f172a">B</text>
+  <text x="40" y="58" textAnchor="middle" fontSize="20" fontWeight="bold" fontFamily="'Times New Roman', serif" fill="#0f172a">A</text>
+  <text x="160" y="58" textAnchor="middle" fontSize="20" fontWeight="bold" fontFamily="'Times New Roman', serif" fill="#0f172a">C</text>
+  <text x="280" y="58" textAnchor="middle" fontSize="20" fontWeight="bold" fontFamily="'Times New Roman', serif" fill="#0f172a">B</text>
+
+  {/* Rod */}
+  <line x1="40" y1="70" x2="280" y2="70" stroke="#0f172a" strokeWidth="3.2" strokeLinecap="round" />
+
+  {/* Downward Arrows */}
+  <line x1="40" y1="70" x2="40" y2="108" stroke="#0f172a" strokeWidth="2.8" markerEnd="url(#forceArrow38)" />
+  <line x1="160" y1="70" x2="160" y2="108" stroke="#0f172a" strokeWidth="2.8" markerEnd="url(#forceArrow38)" />
+  <line x1="280" y1="70" x2="280" y2="108" stroke="#0f172a" strokeWidth="2.8" markerEnd="url(#forceArrow38)" />
+
+  {/* Segment Length */}
+  <text x="100" y="88" textAnchor="middle" fontSize="12" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৬ মিটার</text>
+
   {/* Labels below */}
-  <text x="40" y="105" textAnchor="middle" fontSize="13" fontFamily="sans-serif" fill="#0f172a">৬ কেজি ওজন</text>
-  <text x="80" y="65" textAnchor="middle" fontSize="13" fontFamily="sans-serif" fill="#0f172a">৬ মিটার</text>
-  <text x="160" y="105" textAnchor="middle" fontSize="14" fontWeight="600" fontFamily="sans-serif" fill="#0f172a">লব্ধি</text>
-  <text x="280" y="105" textAnchor="middle" fontSize="13" fontFamily="sans-serif" fill="#0f172a">৪ কেজি ওজন</text>
+  <text x="40" y="136" textAnchor="middle" fontSize="13" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৬ কেজি ওজন</text>
+  <text x="160" y="136" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">লব্ধি</text>
+  <text x="280" y="136" textAnchor="middle" fontSize="13" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪ কেজি ওজন</text>
 </svg>`,
-renderVector: () => (
-      <svg viewBox="0 0 320 120" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+    renderVector: () => (
+      <svg viewBox="0 0 320 160" style={{ maxWidth: "270px", maxHeight: "145px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <marker id="forceArrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <marker id="forceArrow38" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
             <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f172a" />
           </marker>
         </defs>
-        {/* Rod */}
-        <line x1="40" y1="40" x2="280" y2="40" stroke="#0f172a" strokeWidth="3.5" />
-        {/* Downward Arrows */}
-        <line x1="40" y1="40" x2="40" y2="80" stroke="#0f172a" strokeWidth="3" markerEnd="url(#forceArrow)" />
-        <line x1="160" y1="40" x2="160" y2="80" stroke="#0f172a" strokeWidth="3" markerEnd="url(#forceArrow)" />
-        <line x1="280" y1="40" x2="280" y2="80" stroke="#0f172a" strokeWidth="3" markerEnd="url(#forceArrow)" />
+
+        {/* Question Title */}
+        <text x="160" y="24" textAnchor="middle" fontSize="15" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          নিচের চিত্রে <tspan fontFamily="'Times New Roman', serif" fontStyle="italic" fontWeight="bold">BC</tspan> এর মান কত?
+        </text>
+
         {/* Letters */}
-        <text x="40" y="28" textAnchor="middle" fontSize="22" fontWeight="bold" fontFamily="serif" fill="#0f172a">A</text>
-        <text x="160" y="28" textAnchor="middle" fontSize="22" fontWeight="bold" fontFamily="serif" fill="#0f172a">C</text>
-        <text x="280" y="28" textAnchor="middle" fontSize="22" fontWeight="bold" fontFamily="serif" fill="#0f172a">B</text>
+        <text x="40" y="58" textAnchor="middle" fontSize="20" fontWeight="bold" fontFamily="'Times New Roman', serif" fill="#0f172a">A</text>
+        <text x="160" y="58" textAnchor="middle" fontSize="20" fontWeight="bold" fontFamily="'Times New Roman', serif" fill="#0f172a">C</text>
+        <text x="280" y="58" textAnchor="middle" fontSize="20" fontWeight="bold" fontFamily="'Times New Roman', serif" fill="#0f172a">B</text>
+
+        {/* Rod */}
+        <line x1="40" y1="70" x2="280" y2="70" stroke="#0f172a" strokeWidth="3.2" strokeLinecap="round" />
+
+        {/* Downward Arrows */}
+        <line x1="40" y1="70" x2="40" y2="108" stroke="#0f172a" strokeWidth="2.8" markerEnd="url(#forceArrow38)" />
+        <line x1="160" y1="70" x2="160" y2="108" stroke="#0f172a" strokeWidth="2.8" markerEnd="url(#forceArrow38)" />
+        <line x1="280" y1="70" x2="280" y2="108" stroke="#0f172a" strokeWidth="2.8" markerEnd="url(#forceArrow38)" />
+
+        {/* Segment Length */}
+        <text x="100" y="88" textAnchor="middle" fontSize="12" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৬ মিটার</text>
+
         {/* Labels below */}
-        <text x="40" y="105" textAnchor="middle" fontSize="13" fontFamily="sans-serif" fill="#0f172a">৬ কেজি ওজন</text>
-        <text x="80" y="65" textAnchor="middle" fontSize="13" fontFamily="sans-serif" fill="#0f172a">৬ মিটার</text>
-        <text x="160" y="105" textAnchor="middle" fontSize="14" fontWeight="600" fontFamily="sans-serif" fill="#0f172a">লব্ধি</text>
-        <text x="280" y="105" textAnchor="middle" fontSize="13" fontFamily="sans-serif" fill="#0f172a">৪ কেজি ওজন</text>
+        <text x="40" y="136" textAnchor="middle" fontSize="13" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৬ কেজি ওজন</text>
+        <text x="160" y="136" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">লব্ধি</text>
+        <text x="280" y="136" textAnchor="middle" fontSize="13" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪ কেজি ওজন</text>
       </svg>
     )
   },
@@ -1666,50 +1985,96 @@ renderVector: () => (
     subject: 'মানসিক দক্ষতা',
     category: 'সংখ্যা ও ম্যাট্রিক্স পাজল',
     title: '৪x৪ সংখ্যা ম্যাট্রিক্স পাজল (4x4 Number Grid Logic)',
-    fidelity: '১০০% নিখুঁত ভেক্টর ও সারণী',
+    fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'লজিক: (কলাম ১ + কলাম ২) = (কলাম ৩ × কলাম ৪)। ১ম: ১৭+৮=২৫ (৫×৫); ২য়: ১৩+৭=২০ (৫×৪); ৩য়: ৬+১২=১৮ (৬×৩); ৪র্থ: ১০+৬=১৬ (৪×৪ => ? = ৪)।',
-        codeSnippet: `<div style={{ overflowX: "auto", margin: "4px 0" }}>
-        <table style={{ borderCollapse: "collapse", border: "2px solid #0f172a", textAlign: "center", fontWeight: "bold", fontSize: "16px", margin: "0 auto", background: "#ffffff" }}>
-    <tbody>
-      {[
-        ['১৭', '৮', '৫', '৫'],
-        ['১৩', '৭', '৫', '৪'],
-        ['৬', '১২', '৬', '৩'],
-        ['১০', '৬', '৪', '?']
-      ].map((row, r) => (
-        <tr key={r}>
-          {row.map((val, c) => (
-            <td key={c} className={\`border border-slate-800 px-4 py-2 w-14 h-12 text-slate-900 \${val === '?' ? 'text-red-600 bg-red-50 text-xl font-extrabold' : ''}\`}>
-              {val}
-            </td>
-          ))}
-        </tr>
-      ))}
-    </tbody>
-  </table>
-</div>`,
-renderVector: () => (
-      <div style={{ overflowX: "auto", margin: "4px 0" }}>
-        <table style={{ borderCollapse: "collapse", border: "2px solid #0f172a", textAlign: "center", fontWeight: "bold", fontSize: "16px", margin: "0 auto", background: "#ffffff" }}>
-          <tbody>
-            {[
-              ['১৭', '৮', '৫', '৫'],
-              ['১৩', '৭', '৫', '৪'],
-              ['৬', '১২', '৬', '৩'],
-              ['১০', '৬', '৪', '?']
-            ].map((row, r) => (
-              <tr key={r}>
-                {row.map((val, c) => (
-                  <td key={c} style={{ border: "1px solid #0f172a", padding: "8px 14px", width: "50px", height: "42px", color: val === "?" ? "#dc2626" : "#0f172a", background: val === "?" ? "#fef2f2" : "#ffffff", fontSize: val === "?" ? "20px" : "16px", fontWeight: "bold" }}>
-                    {val}
-                  </td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+    description: 'প্রশ্নবাক্য "প্রশ্নবোধক চিহ্নিত ঘরে কোন সংখ্যাটি বসবে?" সহ ৪x৪ ম্যাট্রিক্স (কলাম ১ + কলাম ২ = কলাম ৩ × কলাম ৪; সঠিক উত্তর ৪)।',
+    codeSnippet: `<svg viewBox="0 0 320 200" style={{ maxWidth: "260px", maxHeight: "165px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+  {/* Question Title */}
+  <text x="160" y="24" textAnchor="middle" fontSize="14" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    প্রশ্নবোধক চিহ্নিত ঘরে কোন সংখ্যাটি বসবে?
+  </text>
+
+  {/* Outer Grid Border */}
+  <rect x="25" y="42" width="270" height="144" fill="#ffffff" stroke="#0f172a" strokeWidth="2.2" rx="2" />
+
+  {/* Vertical Grid Lines */}
+  <line x1="92.5" y1="42" x2="92.5" y2="186" stroke="#0f172a" strokeWidth="1.6" />
+  <line x1="160" y1="42" x2="160" y2="186" stroke="#0f172a" strokeWidth="1.6" />
+  <line x1="227.5" y1="42" x2="227.5" y2="186" stroke="#0f172a" strokeWidth="1.6" />
+
+  {/* Horizontal Grid Lines */}
+  <line x1="25" y1="78" x2="295" y2="78" stroke="#0f172a" strokeWidth="1.6" />
+  <line x1="25" y1="114" x2="295" y2="114" stroke="#0f172a" strokeWidth="1.6" />
+  <line x1="25" y1="150" x2="295" y2="150" stroke="#0f172a" strokeWidth="1.6" />
+
+  {/* Row 1 */}
+  <text x="58.75" y="66" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১৭</text>
+  <text x="126.25" y="66" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৮</text>
+  <text x="193.75" y="66" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৫</text>
+  <text x="261.25" y="66" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৫</text>
+
+  {/* Row 2 */}
+  <text x="58.75" y="102" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১৩</text>
+  <text x="126.25" y="102" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৭</text>
+  <text x="193.75" y="102" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৫</text>
+  <text x="261.25" y="102" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪</text>
+
+  {/* Row 3 */}
+  <text x="58.75" y="138" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৬</text>
+  <text x="126.25" y="138" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১২</text>
+  <text x="193.75" y="138" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৬</text>
+  <text x="261.25" y="138" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৩</text>
+
+  {/* Row 4 */}
+  <text x="58.75" y="174" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১০</text>
+  <text x="126.25" y="174" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৬</text>
+  <text x="193.75" y="174" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪</text>
+  <text x="261.25" y="174" textAnchor="middle" fontSize="18" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">?</text>
+</svg>`,
+    renderVector: () => (
+      <svg viewBox="0 0 320 200" style={{ maxWidth: "260px", maxHeight: "165px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+        {/* Question Title */}
+        <text x="160" y="24" textAnchor="middle" fontSize="14" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          প্রশ্নবোধক চিহ্নিত ঘরে কোন সংখ্যাটি বসবে?
+        </text>
+
+        {/* Outer Grid Border */}
+        <rect x="25" y="42" width="270" height="144" fill="#ffffff" stroke="#0f172a" strokeWidth="2.2" rx="2" />
+
+        {/* Vertical Grid Lines */}
+        <line x1="92.5" y1="42" x2="92.5" y2="186" stroke="#0f172a" strokeWidth="1.6" />
+        <line x1="160" y1="42" x2="160" y2="186" stroke="#0f172a" strokeWidth="1.6" />
+        <line x1="227.5" y1="42" x2="227.5" y2="186" stroke="#0f172a" strokeWidth="1.6" />
+
+        {/* Horizontal Grid Lines */}
+        <line x1="25" y1="78" x2="295" y2="78" stroke="#0f172a" strokeWidth="1.6" />
+        <line x1="25" y1="114" x2="295" y2="114" stroke="#0f172a" strokeWidth="1.6" />
+        <line x1="25" y1="150" x2="295" y2="150" stroke="#0f172a" strokeWidth="1.6" />
+
+        {/* Row 1 */}
+        <text x="58.75" y="66" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১৭</text>
+        <text x="126.25" y="66" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৮</text>
+        <text x="193.75" y="66" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৫</text>
+        <text x="261.25" y="66" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৫</text>
+
+        {/* Row 2 */}
+        <text x="58.75" y="102" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১৩</text>
+        <text x="126.25" y="102" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৭</text>
+        <text x="193.75" y="102" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৫</text>
+        <text x="261.25" y="102" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪</text>
+
+        {/* Row 3 */}
+        <text x="58.75" y="138" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৬</text>
+        <text x="126.25" y="138" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১২</text>
+        <text x="193.75" y="138" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৬</text>
+        <text x="261.25" y="138" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৩</text>
+
+        {/* Row 4 */}
+        <text x="58.75" y="174" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১০</text>
+        <text x="126.25" y="174" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৬</text>
+        <text x="193.75" y="174" textAnchor="middle" fontSize="16" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪</text>
+        <text x="261.25" y="174" textAnchor="middle" fontSize="18" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">?</text>
+      </svg>
     )
   },
 
@@ -1724,84 +2089,120 @@ renderVector: () => (
     title: 'তীর চিহ্ন অনুক্রম (Arrow Sequence Matrix)',
     fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'তীর চিহ্নের ঘূর্ণন প্যাটার্ন (সঠিক উত্তর: অপশন ৩ - তির্যক নিম্নমুখী তীর)।',
-        codeSnippet: `<svg viewBox="0 0 320 140" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+    description: 'প্রশ্নবাক্য "নিচের ছবিগুলোর পাশের প্রশ্নবোধক চিহ্নের স্থানে কোন বিকল্পটি বসবে?" সহ তীর চিহ্নের ঘূর্ণন প্যাটার্ন (সঠিক উত্তর: অপশন ৩)।',
+    codeSnippet: `<svg viewBox="0 0 340 185" style={{ maxWidth: "270px", maxHeight: "150px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <marker id="arrHead" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <marker id="arrHead40" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f172a" />
     </marker>
   </defs>
-  {/* Row 1: Problem */}
-  <g transform="translate(10, 10)">
-    <rect x="0" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-    <line x1="8" y1="36" x2="50" y2="10" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
 
-    <rect x="75" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-    <line x1="105" y1="6" x2="105" y2="36" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
+  {/* Question Prompt */}
+  <text x="16" y="20" fontSize="13" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    নিচের ছবিগুলোর পাশের প্রশ্নবোধক চিহ্নের স্থানে কোন
+  </text>
+  <text x="16" y="38" fontSize="13" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    বিকল্পটি বসবে?
+  </text>
 
-    <rect x="150" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-    <line x1="180" y1="36" x2="180" y2="8" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
+  {/* Row 1: Problem Boxes */}
+  <g>
+    {/* Box 1: ↗ */}
+    <rect x="22" y="52" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+    <line x1="30" y1="86" x2="74" y2="60" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
 
-    <rect x="225" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-    <text x="255" y="30" textAnchor="middle" fontSize="24" fontWeight="bold" fill="#0f172a">?</text>
+    {/* Box 2: ↓ */}
+    <rect x="100" y="52" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+    <line x1="131" y1="58" x2="131" y2="88" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
+
+    {/* Box 3: ↑ */}
+    <rect x="178" y="52" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+    <line x1="209" y1="88" x2="209" y2="58" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
+
+    {/* Box 4: ? */}
+    <rect x="256" y="52" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+    <text x="287" y="81" textAnchor="middle" fontSize="24" fontWeight="bold" fontFamily="sans-serif" fill="#0f172a">?</text>
   </g>
-  {/* Row 2: Options */}
-  <g transform="translate(10, 68)">
-    <rect x="0" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-    <line x1="30" y1="6" x2="30" y2="36" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
-    <text x="30" y="55" textAnchor="middle" fontSize="12" fontWeight="bold" fill="#0f172a">১</text>
 
-    <rect x="75" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-    <line x1="83" y1="36" x2="125" y2="10" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
-    <text x="105" y="55" textAnchor="middle" fontSize="12" fontWeight="bold" fill="#0f172a">২</text>
+  {/* Row 2: Option Boxes */}
+  <g>
+    {/* Option 1: ↓ */}
+    <rect x="22" y="108" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+    <line x1="53" y1="114" x2="53" y2="144" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
+    <text x="53" y="168" textAnchor="middle" fontSize="13" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১</text>
 
-    <rect x="150" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-    <line x1="158" y1="8" x2="200" y2="34" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
-    <text x="180" y="55" textAnchor="middle" fontSize="12" fontWeight="bold" fill="#16a34a">৩ (সঠিক)</text>
+    {/* Option 2: ↗ */}
+    <rect x="100" y="108" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+    <line x1="108" y1="142" x2="152" y2="116" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
+    <text x="131" y="168" textAnchor="middle" fontSize="13" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">২</text>
 
-    <rect x="225" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-    <line x1="235" y1="21" x2="275" y2="21" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
-    <text x="255" y="55" textAnchor="middle" fontSize="12" fontWeight="bold" fill="#0f172a">৪</text>
+    {/* Option 3: ↘ */}
+    <rect x="178" y="108" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+    <line x1="186" y1="116" x2="230" y2="142" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
+    <text x="209" y="168" textAnchor="middle" fontSize="13" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৩</text>
+
+    {/* Option 4: → */}
+    <rect x="256" y="108" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+    <line x1="266" y1="129" x2="306" y2="129" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
+    <text x="287" y="168" textAnchor="middle" fontSize="13" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪</text>
   </g>
 </svg>`,
-renderVector: () => (
-      <svg viewBox="0 0 320 140" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+    renderVector: () => (
+      <svg viewBox="0 0 340 185" style={{ maxWidth: "270px", maxHeight: "150px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <marker id="arrHead" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <marker id="arrHead40" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
             <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f172a" />
           </marker>
         </defs>
-        {/* Row 1: Problem */}
-        <g transform="translate(10, 10)">
-          <rect x="0" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-          <line x1="8" y1="36" x2="50" y2="10" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
 
-          <rect x="75" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-          <line x1="105" y1="6" x2="105" y2="36" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
+        {/* Question Prompt */}
+        <text x="16" y="20" fontSize="13" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          নিচের ছবিগুলোর পাশের প্রশ্নবোধক চিহ্নের স্থানে কোন
+        </text>
+        <text x="16" y="38" fontSize="13" fontWeight="600" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          বিকল্পটি বসবে?
+        </text>
 
-          <rect x="150" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-          <line x1="180" y1="36" x2="180" y2="8" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
+        {/* Row 1: Problem Boxes */}
+        <g>
+          {/* Box 1: ↗ */}
+          <rect x="22" y="52" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+          <line x1="30" y1="86" x2="74" y2="60" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
 
-          <rect x="225" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-          <text x="255" y="30" textAnchor="middle" fontSize="24" fontWeight="bold" fill="#0f172a">?</text>
+          {/* Box 2: ↓ */}
+          <rect x="100" y="52" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+          <line x1="131" y1="58" x2="131" y2="88" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
+
+          {/* Box 3: ↑ */}
+          <rect x="178" y="52" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+          <line x1="209" y1="88" x2="209" y2="58" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
+
+          {/* Box 4: ? */}
+          <rect x="256" y="52" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+          <text x="287" y="81" textAnchor="middle" fontSize="24" fontWeight="bold" fontFamily="sans-serif" fill="#0f172a">?</text>
         </g>
-        {/* Row 2: Options */}
-        <g transform="translate(10, 68)">
-          <rect x="0" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-          <line x1="30" y1="6" x2="30" y2="36" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
-          <text x="30" y="55" textAnchor="middle" fontSize="12" fontWeight="bold" fill="#0f172a">১</text>
 
-          <rect x="75" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-          <line x1="83" y1="36" x2="125" y2="10" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
-          <text x="105" y="55" textAnchor="middle" fontSize="12" fontWeight="bold" fill="#0f172a">২</text>
+        {/* Row 2: Option Boxes */}
+        <g>
+          {/* Option 1: ↓ */}
+          <rect x="22" y="108" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+          <line x1="53" y1="114" x2="53" y2="144" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
+          <text x="53" y="168" textAnchor="middle" fontSize="13" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১</text>
 
-          <rect x="150" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-          <line x1="158" y1="8" x2="200" y2="34" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
-          <text x="180" y="55" textAnchor="middle" fontSize="12" fontWeight="bold" fill="#16a34a">৩ (সঠিক)</text>
+          {/* Option 2: ↗ */}
+          <rect x="100" y="108" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+          <line x1="108" y1="142" x2="152" y2="116" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
+          <text x="131" y="168" textAnchor="middle" fontSize="13" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">২</text>
 
-          <rect x="225" y="0" width="60" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
-          <line x1="235" y1="21" x2="275" y2="21" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead)" />
-          <text x="255" y="55" textAnchor="middle" fontSize="12" fontWeight="bold" fill="#0f172a">৪</text>
+          {/* Option 3: ↘ */}
+          <rect x="178" y="108" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+          <line x1="186" y1="116" x2="230" y2="142" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
+          <text x="209" y="168" textAnchor="middle" fontSize="13" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৩</text>
+
+          {/* Option 4: → */}
+          <rect x="256" y="108" width="62" height="42" fill="none" stroke="#0f172a" strokeWidth="2" />
+          <line x1="266" y1="129" x2="306" y2="129" stroke="#0f172a" strokeWidth="2.5" markerEnd="url(#arrHead40)" />
+          <text x="287" y="168" textAnchor="middle" fontSize="13" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪</text>
         </g>
       </svg>
     )
@@ -1818,13 +2219,23 @@ renderVector: () => (
     title: 'FAMILY পানি প্রতিবিম্ব অপশন ১',
     fidelity: '১০০% নিখুঁত ভেক্টর ও CSS',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'পানিতে উলম্ব প্রতিবিম্ব অপশন ১।',
-        codeSnippet: `<div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-  <span style={{ display: 'inline-block', transform: 'scale(1, -1)' }}>YLIMAF</span>
+    description: 'পানিতে প্রতিবিম্ব অপশন ১: F বর্ণটি ১৮০° উল্টানো (scale(-1, -1)), A, I, T, Y বর্ণগুলো উল্লম্বভাবে উল্টানো (scaleY(-1)) এবং ৩য় বর্ণটি সোজা W (উল্টানো ছাড়া)।',
+    codeSnippet: `<div style={{ fontSize: "28px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+  <span style={{ display: 'inline-block', transform: 'scale(-1, -1)' }}>F</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>A</span>
+  <span style={{ display: 'inline-block' }}>W</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>I</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>T</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>Y</span>
 </div>`,
-renderVector: () => (
-      <div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-        <span style={{ display: 'inline-block', transform: 'scale(1, -1)' }}>YLIMAF</span>
+    renderVector: () => (
+      <div style={{ fontSize: "28px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+        <span style={{ display: 'inline-block', transform: 'scale(-1, -1)' }}>F</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>A</span>
+        <span style={{ display: 'inline-block' }}>W</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>I</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>T</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>Y</span>
       </div>
     )
   },
@@ -1840,13 +2251,23 @@ renderVector: () => (
     title: 'FAMILY পানি প্রতিবিম্ব অপশন ২',
     fidelity: '১০০% নিখুঁত ভেক্টর ও CSS',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'পানিতে উলম্ব প্রতিবিম্ব অপশন ২।',
-        codeSnippet: `<div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-  <span style={{ display: 'inline-block', transform: 'scale(1, -1)' }}>EVMITY</span>
+    description: 'পানিতে উলম্ব প্রতিবিম্ব অপশন ২: F, A, M, I, Y বর্ণগুলো উল্লম্বভাবে উল্টানো (scaleY(-1)) এবং L বর্ণটি ১৮০° উল্টানো (scale(-1, -1)) যার কারণে L-এর আনুভূমিক বাহুটি উপরে বামে নির্দেশ করে।',
+    codeSnippet: `<div style={{ fontSize: "28px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>F</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>A</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>M</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>I</span>
+  <span style={{ display: 'inline-block', transform: 'scale(-1, -1)' }}>L</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>Y</span>
 </div>`,
-renderVector: () => (
-      <div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-        <span style={{ display: 'inline-block', transform: 'scale(1, -1)' }}>EVMITY</span>
+    renderVector: () => (
+      <div style={{ fontSize: "28px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>F</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>A</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>M</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>I</span>
+        <span style={{ display: 'inline-block', transform: 'scale(-1, -1)' }}>L</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>Y</span>
       </div>
     )
   },
@@ -1859,16 +2280,26 @@ renderVector: () => (
     exam: '47th BCS General September, 2025',
     subject: 'মানসিক দক্ষতা',
     category: 'আয়না ও পানি প্রতিবিম্ব',
-    title: 'FAMILY পানি প্রতিবিম্ব অপশন ৩ (সঠিক উত্তর)',
+    title: 'FAMILY পানি প্রতিবিম্ব অপশন ৩',
     fidelity: '১০০% নিখুঁত ভেক্টর ও CSS',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'FAMILY শব্দের পানিতে সঠিক প্রতিবিম্ব (উল্লম্ব পরিবর্তন): বর্ণগুলো নিজের জায়গায় উল্টে যাবে।',
-        codeSnippet: `<div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 800, userSelect: "none", color: "#065f46", textAlign: "center", padding: "8px 0" }}>
-  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>FAMILY</span>
+    description: 'পানিতে উলম্ব প্রতিবিম্ব অপশন ৩: F, A, I, L, Y বর্ণগুলো উল্লম্বভাবে উল্টানো (scaleY(-1)) এবং ৩য় বর্ণটি মূল ছবির মতো সোজা W (উল্টানো ছাড়া)।',
+    codeSnippet: `<div style={{ fontSize: "28px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>F</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>A</span>
+  <span style={{ display: 'inline-block' }}>W</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>I</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>L</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>Y</span>
 </div>`,
-renderVector: () => (
-      <div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 800, userSelect: "none", color: "#065f46", textAlign: "center", padding: "8px 0" }}>
-        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>FAMILY</span>
+    renderVector: () => (
+      <div style={{ fontSize: "28px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>F</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>A</span>
+        <span style={{ display: 'inline-block' }}>W</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>I</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>L</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>Y</span>
       </div>
     )
   },
@@ -1884,13 +2315,23 @@ renderVector: () => (
     title: 'FAMILY পানি প্রতিবিম্ব অপশন ৪',
     fidelity: '১০০% নিখুঁত ভেক্টর ও CSS',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'পানিতে উলম্ব প্রতিবিম্ব অপশন ৪।',
-        codeSnippet: `<div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-  <span style={{ display: 'inline-block', transform: 'scale(1, -1)' }}>FAMILX</span>
+    description: 'পানিতে উলম্ব প্রতিবিম্ব অপশন ৪: F, A, I, L, Y বর্ণগুলো উল্লম্বভাবে উল্টানো (scaleY(-1)) এবং ৩য় বর্ণটি সাধারণ সোজা W (উল্টানো ছাড়া)।',
+    codeSnippet: `<div style={{ fontSize: "28px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>F</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>A</span>
+  <span style={{ display: 'inline-block' }}>W</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>I</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>L</span>
+  <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>Y</span>
 </div>`,
-renderVector: () => (
-      <div style={{ fontSize: "24px", letterSpacing: "4px", fontFamily: "serif", fontWeight: 700, userSelect: "none", color: "#1e293b", textAlign: "center", padding: "8px 0" }}>
-        <span style={{ display: 'inline-block', transform: 'scale(1, -1)' }}>FAMILX</span>
+    renderVector: () => (
+      <div style={{ fontSize: "28px", letterSpacing: "4px", fontFamily: "'Times New Roman', Georgia, serif", fontWeight: 700, userSelect: "none", color: "#0f172a", textAlign: "center", padding: "8px 0" }}>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>F</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>A</span>
+        <span style={{ display: 'inline-block' }}>W</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>I</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>L</span>
+        <span style={{ display: 'inline-block', transform: 'scaleY(-1)' }}>Y</span>
       </div>
     )
   },
@@ -1907,69 +2348,75 @@ renderVector: () => (
     fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
     description: 'লজিক: (৩টি শাখার যোগফল) ÷ ১০ = পাদদেশের সংখ্যা। ১ম: (১৮+১২+২০)÷১০ = ৫; ২য়: (১৬+১৪+৩০)÷১০ = ৬; ৩য়: (৪৫+১৮+২৭)÷১০ = ৯০÷১০ = ৯ (সঠিক উত্তর: ৯)।',
-        codeSnippet: `<svg viewBox="0 0 320 130" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+        codeSnippet: `<svg viewBox="0 0 320 170" style={{ maxWidth: "280px", maxHeight: "155px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+  {/* Question Prompt Title */}
+  <text x="160" y="24" textAnchor="middle" fontSize="15" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">কোনটি প্রশ্নবোধক চিহ্নের স্থলাভিষিক্ত হবে?</text>
+
   {/* Fork 1 */}
-  <g transform="translate(10, 10)">
-    <text x="12" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">১৮</text>
-    <text x="45" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">১২</text>
-    <text x="78" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">২০</text>
+  <g transform="translate(10, 45)">
+    <text x="12" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১৮</text>
+    <text x="45" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১২</text>
+    <text x="78" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">২০</text>
     <line x1="12" y1="24" x2="45" y2="58" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
     <line x1="78" y1="24" x2="45" y2="58" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
     <line x1="45" y1="24" x2="45" y2="92" stroke="#0f172a" strokeWidth="3.5" strokeLinecap="round" />
-    <text x="45" y="112" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৫</text>
+    <text x="45" y="112" textAnchor="middle" fontSize="15" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৫</text>
   </g>
   {/* Fork 2 */}
-  <g transform="translate(115, 10)">
-    <text x="12" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">১৬</text>
-    <text x="45" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">১৪</text>
-    <text x="78" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">৩০</text>
+  <g transform="translate(115, 45)">
+    <text x="12" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১৬</text>
+    <text x="45" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১৪</text>
+    <text x="78" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৩০</text>
     <line x1="12" y1="24" x2="45" y2="58" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
     <line x1="78" y1="24" x2="45" y2="58" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
     <line x1="45" y1="24" x2="45" y2="92" stroke="#0f172a" strokeWidth="3.5" strokeLinecap="round" />
-    <text x="45" y="112" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৬</text>
+    <text x="45" y="112" textAnchor="middle" fontSize="15" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৬</text>
   </g>
   {/* Fork 3 */}
-  <g transform="translate(220, 10)">
-    <text x="12" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">৪৫</text>
-    <text x="45" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">১৮</text>
-    <text x="78" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">২৭</text>
+  <g transform="translate(220, 45)">
+    <text x="12" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪৫</text>
+    <text x="45" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১৮</text>
+    <text x="78" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">২৭</text>
     <line x1="12" y1="24" x2="45" y2="58" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
     <line x1="78" y1="24" x2="45" y2="58" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
     <line x1="45" y1="24" x2="45" y2="92" stroke="#0f172a" strokeWidth="3.5" strokeLinecap="round" />
-    <text x="45" y="114" textAnchor="middle" fontSize="20" fontWeight="bold" fill="#dc2626">?</text>
+    <text x="45" y="114" textAnchor="middle" fontSize="18" fontWeight="bold" fill="#0f172a">?</text>
   </g>
 </svg>`,
-renderVector: () => (
-      <svg viewBox="0 0 320 130" style={{ maxWidth: "260px", maxHeight: "130px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+    renderVector: () => (
+      <svg viewBox="0 0 320 170" style={{ maxWidth: "280px", maxHeight: "155px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+        {/* Question Prompt Title */}
+        <text x="160" y="24" textAnchor="middle" fontSize="15" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">কোনটি প্রশ্নবোধক চিহ্নের স্থলাভিষিক্ত হবে?</text>
+
         {/* Fork 1 */}
-        <g transform="translate(10, 10)">
-          <text x="12" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">১৮</text>
-          <text x="45" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">১২</text>
-          <text x="78" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">২০</text>
+        <g transform="translate(10, 45)">
+          <text x="12" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১৮</text>
+          <text x="45" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১২</text>
+          <text x="78" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">২০</text>
           <line x1="12" y1="24" x2="45" y2="58" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
           <line x1="78" y1="24" x2="45" y2="58" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
           <line x1="45" y1="24" x2="45" y2="92" stroke="#0f172a" strokeWidth="3.5" strokeLinecap="round" />
-          <text x="45" y="112" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৫</text>
+          <text x="45" y="112" textAnchor="middle" fontSize="15" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৫</text>
         </g>
         {/* Fork 2 */}
-        <g transform="translate(115, 10)">
-          <text x="12" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">১৬</text>
-          <text x="45" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">১৪</text>
-          <text x="78" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">৩০</text>
+        <g transform="translate(115, 45)">
+          <text x="12" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১৬</text>
+          <text x="45" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১৪</text>
+          <text x="78" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৩০</text>
           <line x1="12" y1="24" x2="45" y2="58" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
           <line x1="78" y1="24" x2="45" y2="58" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
           <line x1="45" y1="24" x2="45" y2="92" stroke="#0f172a" strokeWidth="3.5" strokeLinecap="round" />
-          <text x="45" y="112" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0f172a">৬</text>
+          <text x="45" y="112" textAnchor="middle" fontSize="15" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৬</text>
         </g>
         {/* Fork 3 */}
-        <g transform="translate(220, 10)">
-          <text x="12" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">৪৫</text>
-          <text x="45" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">১৮</text>
-          <text x="78" y="16" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#0f172a">২৭</text>
+        <g transform="translate(220, 45)">
+          <text x="12" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">৪৫</text>
+          <text x="45" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">১৮</text>
+          <text x="78" y="16" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">২৭</text>
           <line x1="12" y1="24" x2="45" y2="58" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
           <line x1="78" y1="24" x2="45" y2="58" stroke="#0f172a" strokeWidth="3" strokeLinecap="round" />
           <line x1="45" y1="24" x2="45" y2="92" stroke="#0f172a" strokeWidth="3.5" strokeLinecap="round" />
-          <text x="45" y="114" textAnchor="middle" fontSize="20" fontWeight="bold" fill="#dc2626">?</text>
+          <text x="45" y="114" textAnchor="middle" fontSize="18" fontWeight="bold" fill="#0f172a">?</text>
         </g>
       </svg>
     )
@@ -1986,23 +2433,31 @@ renderVector: () => (
     title: 'ত্রিভুজ গণনা — ছেদক রেখা (Triangle with Intersecting Cevians)',
     fidelity: '১০০% নিখুঁত ভেক্টর',
     status: 'ভেক্টর প্রস্তুত',
-    description: 'শীর্ষ থেকে উলম্ব রেখা ও দুই কোণা থেকে মধ্যবিন্দু অভিমুখী রেখা দ্বারা গঠিত ত্রিভুজ সংখ্যা (সঠিক উত্তর: ১৬টি)।',
-        codeSnippet: `<svg viewBox="0 0 160 160" style={{ maxWidth: "180px", maxHeight: "160px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-  <polygon points="80,15 15,145 145,145" fill="none" stroke="#0f172a" strokeWidth="3" strokeLinejoin="round" />
+    description: 'প্রশ্নবাক্য "প্রদত্ত চিত্রে ত্রিভুজের সংখ্যা নির্ণয় করুন?" সহ শীর্ষ থেকে উলম্ব রেখা ও দুই কোণা থেকে মধ্যবিন্দু অভিমুখী রেখা দ্বারা গঠিত ত্রিভুজ সংখ্যা (সঠিক উত্তর: ১৬টি)।',
+    codeSnippet: `<svg viewBox="0 0 280 200" style={{ maxWidth: "230px", maxHeight: "170px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+  {/* Question Title */}
+  <text x="140" y="24" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+    প্রদত্ত চিত্রে ত্রিভুজের সংখ্যা নির্ণয় করুন?
+  </text>
+  <polygon points="140,50 80,185 200,185" fill="none" stroke="#0f172a" strokeWidth="3" strokeLinejoin="round" />
   {/* Vertical Median */}
-  <line x1="80" y1="15" x2="80" y2="145" stroke="#0f172a" strokeWidth="2.5" />
+  <line x1="140" y1="50" x2="140" y2="185" stroke="#0f172a" strokeWidth="2.5" />
   {/* Cevians intersecting at median */}
-  <line x1="15" y1="145" x2="125" y2="95" stroke="#0f172a" strokeWidth="2.2" />
-  <line x1="145" y1="145" x2="35" y2="95" stroke="#0f172a" strokeWidth="2.2" />
+  <line x1="80" y1="185" x2="182" y2="126" stroke="#0f172a" strokeWidth="2.2" />
+  <line x1="200" y1="185" x2="98" y2="126" stroke="#0f172a" strokeWidth="2.2" />
 </svg>`,
-renderVector: () => (
-      <svg viewBox="0 0 160 160" style={{ maxWidth: "180px", maxHeight: "160px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
-        <polygon points="80,15 15,145 145,145" fill="none" stroke="#0f172a" strokeWidth="3" strokeLinejoin="round" />
+    renderVector: () => (
+      <svg viewBox="0 0 280 200" style={{ maxWidth: "230px", maxHeight: "170px", width: "100%", height: "auto", display: "block", margin: "0 auto" }} xmlns="http://www.w3.org/2000/svg">
+        {/* Question Title */}
+        <text x="140" y="24" textAnchor="middle" fontSize="14" fontWeight="bold" fontFamily="'Noto Sans Bengali', sans-serif" fill="#0f172a">
+          প্রদত্ত চিত্রে ত্রিভুজের সংখ্যা নির্ণয় করুন?
+        </text>
+        <polygon points="140,50 80,185 200,185" fill="none" stroke="#0f172a" strokeWidth="3" strokeLinejoin="round" />
         {/* Vertical Median */}
-        <line x1="80" y1="15" x2="80" y2="145" stroke="#0f172a" strokeWidth="2.5" />
+        <line x1="140" y1="50" x2="140" y2="185" stroke="#0f172a" strokeWidth="2.5" />
         {/* Cevians intersecting at median */}
-        <line x1="15" y1="145" x2="125" y2="95" stroke="#0f172a" strokeWidth="2.2" />
-        <line x1="145" y1="145" x2="35" y2="95" stroke="#0f172a" strokeWidth="2.2" />
+        <line x1="80" y1="185" x2="182" y2="126" stroke="#0f172a" strokeWidth="2.2" />
+        <line x1="200" y1="185" x2="98" y2="126" stroke="#0f172a" strokeWidth="2.2" />
       </svg>
     )
   }
