@@ -97,19 +97,59 @@ export async function loadMostImportantQuestions(slugOrId) {
     const bnAnsToIdx = { 'ক': 0, 'খ': 1, 'গ': 2, 'ঘ': 3 };
     const questions = rawList.map((item, idx) => {
       const opts = Array.isArray(item.options) ? item.options.map(o => String(o).trim()) : [];
-      let ansIdx = typeof item.ans === 'number' ? item.ans : -1;
-      if (ansIdx < 0 || ansIdx >= opts.length) {
-        const rawAns = String(item.answer || '').trim();
-        if (bnAnsToIdx[rawAns] !== undefined) {
-          ansIdx = bnAnsToIdx[rawAns];
-        } else if (item.correct_answer !== undefined) {
-          const ansStr = String(item.correct_answer).trim();
-          ansIdx = opts.findIndex(o => o === ansStr);
+      let ansIdx = -1;
+
+      // 1. Prioritize matching exact option text from correct_answer, correctAnswer, or answer
+      const textCandidates = [item.correct_answer, item.correctAnswer, item.answer];
+      for (const cand of textCandidates) {
+        if (cand !== null && cand !== undefined) {
+          const str = String(cand).trim();
+          if (str) {
+            const foundIdx = opts.findIndex(o => o === str);
+            if (foundIdx !== -1) {
+              ansIdx = foundIdx;
+              break;
+            }
+          }
         }
       }
+
+      // 2. Case-insensitive text match
+      if (ansIdx === -1) {
+        for (const cand of textCandidates) {
+          if (cand !== null && cand !== undefined) {
+            const str = String(cand).trim().toLowerCase();
+            if (str) {
+              const foundIdx = opts.findIndex(o => o.toLowerCase() === str);
+              if (foundIdx !== -1) {
+                ansIdx = foundIdx;
+                break;
+              }
+            }
+          }
+        }
+      }
+
+      // 3. Bengali letter matching 'ক', 'খ', 'গ', 'ঘ'
+      if (ansIdx === -1) {
+        for (const cand of textCandidates) {
+          const str = String(cand || '').trim();
+          if (bnAnsToIdx[str] !== undefined && bnAnsToIdx[str] < opts.length) {
+            ansIdx = bnAnsToIdx[str];
+            break;
+          }
+        }
+      }
+
+      // 4. If still not resolved, check item.ans as a valid number
+      if (ansIdx === -1 && typeof item.ans === 'number' && item.ans >= 0 && item.ans < opts.length) {
+        ansIdx = item.ans;
+      }
+
+      // 5. Final fallback
       if (ansIdx < 0) ansIdx = 0;
 
-      const correctAns = opts[ansIdx] || item.correct_answer || '';
+      const correctAns = opts[ansIdx] || item.correct_answer || item.answer || '';
 
       return {
         ...item,

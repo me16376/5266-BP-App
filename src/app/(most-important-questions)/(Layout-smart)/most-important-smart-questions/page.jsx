@@ -386,14 +386,44 @@ function MostImportantSmartQuestionsContent() {
               const opts = Array.isArray(item.options) ? item.options : [];
               let ansIdx = -1;
 
-              if (typeof item.ans === 'number') {
-                ansIdx = item.ans;
-              } else if (item.correct_answer !== undefined) {
-                const ansStr = String(item.correct_answer).trim();
-                ansIdx = opts.findIndex((opt) => String(opt).trim() === ansStr);
-                if (ansIdx === -1 && !isNaN(ansStr) && ansStr !== '') {
-                  ansIdx = parseInt(ansStr, 10);
+              // 1. Match exact text from correct_answer or answer against options
+              const textCandidates = [item.correct_answer, item.correctAnswer, item.answer];
+              for (const cand of textCandidates) {
+                if (cand !== null && cand !== undefined) {
+                  const str = String(cand).trim();
+                  if (str) {
+                    const foundIdx = opts.findIndex((opt) => String(opt).trim() === str);
+                    if (foundIdx !== -1) {
+                      ansIdx = foundIdx;
+                      break;
+                    }
+                  }
                 }
+              }
+
+              // 2. Case-insensitive match
+              if (ansIdx === -1) {
+                for (const cand of textCandidates) {
+                  if (cand !== null && cand !== undefined) {
+                    const str = String(cand).trim().toLowerCase();
+                    if (str) {
+                      const foundIdx = opts.findIndex((opt) => String(opt).trim().toLowerCase() === str);
+                      if (foundIdx !== -1) {
+                        ansIdx = foundIdx;
+                        break;
+                      }
+                    }
+                  }
+                }
+              }
+
+              // 3. Fallback to item.ans if valid number
+              if (ansIdx === -1 && typeof item.ans === 'number' && item.ans >= 0 && item.ans < opts.length) {
+                ansIdx = item.ans;
+              }
+
+              if (ansIdx === -1) {
+                ansIdx = 0;
               }
 
               let expText = item.explanation || '';
