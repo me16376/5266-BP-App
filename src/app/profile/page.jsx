@@ -3,6 +3,7 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import { Trash2, Loader2 } from 'lucide-react';
 import { useAuth } from '../../lib/authContext';
 import { getBookmarks } from '../../lib/storage';
 import { getApiUrl } from '../../lib/apiConfig';
@@ -19,6 +20,14 @@ export default function ProfilePage() {
   const [mgmtMessage, setMgmtMessage] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [roleFilter, setRoleFilter] = useState('all'); // 'all', 'pending', 'admin'
+
+  // Delete User Modal state (Admin & Owner)
+  const [deleteModalOpen, setDeleteModalOpen] = useState(false);
+  const [targetUserToDelete, setTargetUserToDelete] = useState(null);
+  const [deleteConfirmInput, setDeleteConfirmInput] = useState('');
+  const [isCopied, setIsCopied] = useState(false);
+  const [deleteError, setDeleteError] = useState(null);
+  const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
     try {
@@ -142,6 +151,83 @@ export default function ProfilePage() {
     } catch (err) {
       setMgmtMessage({ type: 'error', text: err.message });
     } finally {
+      setActionLoadingId(null);
+    }
+  };
+
+  // Action 3: Delete User Handlers (Owner & Admin)
+  const handleOpenDeleteModal = (targetUser) => {
+    setTargetUserToDelete(targetUser);
+    setDeleteConfirmInput('');
+    setDeleteError(null);
+    setIsCopied(false);
+    setDeleteModalOpen(true);
+  };
+
+  const handleCloseDeleteModal = () => {
+    if (isDeleting) return;
+    setDeleteModalOpen(false);
+    setTargetUserToDelete(null);
+    setDeleteConfirmInput('');
+    setDeleteError(null);
+    setIsCopied(false);
+  };
+
+  const handleCopyDeleteKeyword = () => {
+    try {
+      if (typeof navigator !== 'undefined' && navigator.clipboard) {
+        navigator.clipboard.writeText('Delete');
+        setIsCopied(true);
+        setTimeout(() => setIsCopied(false), 2000);
+      }
+    } catch (e) {
+      console.error('Copy failed', e);
+    }
+  };
+
+  const handleConfirmDelete = async () => {
+    if (!targetUserToDelete) return;
+    if (deleteConfirmInput.trim() !== 'Delete') {
+      setDeleteError("নিশ্চিত করতে হুবহু 'Delete' টাইপ করুন");
+      return;
+    }
+
+    setIsDeleting(true);
+    setActionLoadingId(`delete-${targetUserToDelete.id}`);
+    setDeleteError(null);
+    try {
+      const res = await fetch(getApiUrl('/api/auth/users'), {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`
+        },
+        body: JSON.stringify({
+          targetUserId: targetUserToDelete.id,
+          action: 'delete_user'
+        })
+      });
+
+      const contentType = res.headers.get('content-type') || '';
+      let data = null;
+      if (contentType.includes('application/json')) {
+        data = await res.json();
+      }
+
+      if (!res.ok) {
+        throw new Error((data && data.error) || 'ব্যবহারকারী ডিলিট করতে সমস্যা হয়েছে');
+      }
+
+      setMgmtMessage({
+        type: 'success',
+        text: (data && data.message) || `ব্যবহারকারী '${targetUserToDelete.name}' সফলভাবে ডিলিট করা হয়েছে`
+      });
+      handleCloseDeleteModal();
+      await fetchUsersList();
+    } catch (err) {
+      setDeleteError(err.message || 'ডিলিট সম্পন্ন করা যায়নি');
+    } finally {
+      setIsDeleting(false);
       setActionLoadingId(null);
     }
   };
@@ -938,12 +1024,13 @@ export default function ProfilePage() {
                         </th>
                         <th style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 700 }}>অনুমোদন একশন</th>
                         <th style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 700 }}>রোল একশন (Owner Only)</th>
+                        <th style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 700 }}>মুছে ফেলুন</th>
                       </tr>
                     </thead>
                     <tbody>
                       {filteredUsers.length === 0 ? (
                         <tr>
-                          <td colSpan={6} style={{ padding: '36px', textAlign: 'center', color: 'var(--text-muted)' }}>
+                          <td colSpan={7} style={{ padding: '36px', textAlign: 'center', color: 'var(--text-muted)' }}>
                             <i className="fa-solid fa-user-slash" style={{ fontSize: '2rem', marginBottom: '8px', opacity: 0.5, display: 'block' }}></i>
                             কোনো ব্যবহারকারী পাওয়া যায়নি
                           </td>
@@ -1165,6 +1252,51 @@ export default function ProfilePage() {
                                   </span>
                                 )}
                               </td>
+
+                              {/* Delete Action (Admin & Owner) */}
+                              <td style={{ padding: '14px 16px', textAlign: 'center' }}>
+                                {isTargetOwner ? (
+                                  <span style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    gap: '4px',
+                                    fontSize: '0.75rem',
+                                    color: '#94a3b8',
+                                    fontStyle: 'italic'
+                                  }}>
+                                    <i className="fa-solid fa-lock" style={{ fontSize: '0.7rem' }}></i> সুরক্ষিত
+                                  </span>
+                                ) : (!isOwner && isTargetAdmin) ? (
+                                  <span style={{ fontSize: '0.75rem', color: '#94a3b8', fontStyle: 'italic' }}>
+                                    শুধুমাত্র ওনার
+                                  </span>
+                                ) : (
+                                  <button
+                                    onClick={() => handleOpenDeleteModal(u)}
+                                    disabled={actionLoadingId === `delete-${u.id}`}
+                                    style={{
+                                      background: '#fff1f2',
+                                      border: '1px solid #fecdd3',
+                                      color: '#e11d48',
+                                      padding: '5px 12px',
+                                      borderRadius: '8px',
+                                      fontSize: '0.78rem',
+                                      fontWeight: 700,
+                                      cursor: 'pointer',
+                                      display: 'inline-flex',
+                                      alignItems: 'center',
+                                      gap: '6px',
+                                      transition: 'all 0.15s ease'
+                                    }}
+                                    onMouseEnter={(e) => { e.currentTarget.style.background = '#ffe4e6'; }}
+                                    onMouseLeave={(e) => { e.currentTarget.style.background = '#fff1f2'; }}
+                                    title="ব্যবহারকারী একাউন্ট মুছে ফেলুন"
+                                  >
+                                    <i className={`fa-solid ${actionLoadingId === `delete-${u.id}` ? 'fa-spinner fa-spin' : 'fa-trash-can'}`}></i>
+                                    <span>ডিলিট</span>
+                                  </button>
+                                )}
+                              </td>
                             </tr>
                           );
                         })
@@ -1379,42 +1511,369 @@ export default function ProfilePage() {
               </div>
             </div>
 
-            {/* Cloudflare D1 Diagnostic Info Bar */}
-            <div style={{
-              marginTop: '32px',
-              padding: '16px 20px',
-              background: '#f8fafc',
-              border: '1px dashed #cbd5e1',
-              borderRadius: '14px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              flexWrap: 'wrap',
-              gap: '12px'
-            }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <span style={{
-                  display: 'inline-block',
-                  width: '9px',
-                  height: '9px',
-                  borderRadius: '50%',
-                  background: 'var(--emerald-500)',
-                  boxShadow: '0 0 8px rgba(16, 185, 129, 0.8)'
-                }}></span>
-                <i className="fa-solid fa-circle-nodes" style={{ color: 'var(--emerald-600)' }}></i>
-                <span style={{ fontSize: '0.84rem', color: 'var(--text-secondary)' }}>
-                  Cloudflare D1 ডেটাবেজ: <strong style={{ color: 'var(--text-primary)' }}>bp-app-db</strong> (APAC Edge) সেশন সক্রিয়
-                </span>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.78rem', color: 'var(--text-muted)', fontFamily: 'monospace' }}>
-                <i className="fa-solid fa-fingerprint"></i>
-                <span>UUID: 07a4f37d-d04d-406d-ac5c-c71a59eba141</span>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
+
+      {/* ======================================================== */}
+      {/* DELETE CONFIRMATION POPUP MODAL                          */}
+      {/* ======================================================== */}
+      {deleteModalOpen && targetUserToDelete && (
+        <div style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundColor: 'rgba(15, 23, 42, 0.65)',
+          backdropFilter: 'blur(5px)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          zIndex: 9999,
+          padding: '16px'
+        }}>
+          <div style={{
+            background: '#ffffff',
+            borderRadius: '20px',
+            maxWidth: '500px',
+            width: '100%',
+            boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
+            border: '1px solid #f1f5f9',
+            overflow: 'hidden'
+          }}>
+            {/* Modal Header */}
+            <div style={{
+              background: '#fff1f2',
+              padding: '20px 24px 16px',
+              borderBottom: '1px solid #fee2e2',
+              textAlign: 'center'
+            }}>
+              <div style={{
+                width: '48px',
+                height: '48px',
+                borderRadius: '50%',
+                background: '#fee2e2',
+                color: '#e11d48',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '1.3rem',
+                margin: '0 auto 10px',
+                boxShadow: '0 4px 12px rgba(225, 29, 72, 0.15)'
+              }}>
+                <i className="fa-solid fa-triangle-exclamation"></i>
+              </div>
+              <h3 style={{
+                fontSize: '1.18rem',
+                fontWeight: 800,
+                color: '#9f1239',
+                margin: '0 0 4px'
+              }}>
+                ব্যবহারকারী ডিলিট নিশ্চিতকরণ
+              </h3>
+              <p style={{
+                fontSize: '0.84rem',
+                color: '#881337',
+                margin: 0
+              }}>
+                নিচের ব্যবহারকারীর অ্যাকাউন্ট ও ডেটা স্থায়ীভাবে ডিলিট করা হবে:
+              </p>
+            </div>
+
+            {/* Modal Body */}
+            <div style={{ padding: '20px 24px' }}>
+              {/* User Dashboard Info Card */}
+              <div style={{
+                background: '#f8fafc',
+                border: '1px solid #e2e8f0',
+                borderRadius: '14px',
+                padding: '14px 16px',
+                marginBottom: '16px'
+              }}>
+                {/* User Top Header */}
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px', paddingBottom: '12px', borderBottom: '1px solid #edf2f7' }}>
+                  <div style={{
+                    width: '42px',
+                    height: '42px',
+                    borderRadius: '50%',
+                    background: targetUserToDelete.role === 'admin' ? '#f0f9ff' : '#ecfdf5',
+                    color: targetUserToDelete.role === 'admin' ? '#0284c7' : 'var(--emerald-600)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    fontWeight: 800,
+                    fontSize: '1rem',
+                    flexShrink: 0
+                  }}>
+                    {targetUserToDelete.name ? targetUserToDelete.name.charAt(0).toUpperCase() : 'U'}
+                  </div>
+                  <div style={{ minWidth: 0, flex: 1 }}>
+                    <div style={{ fontWeight: 800, fontSize: '0.98rem', color: '#0f172a', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                      {targetUserToDelete.name}
+                    </div>
+                    <div style={{ fontSize: '0.78rem', color: '#64748b', fontFamily: 'monospace' }}>
+                      @{targetUserToDelete.username}
+                    </div>
+                  </div>
+                  <span style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '4px',
+                    padding: '3px 8px',
+                    borderRadius: '9999px',
+                    fontSize: '0.72rem',
+                    fontWeight: 700,
+                    background: targetUserToDelete.role === 'admin' ? '#f0f9ff' : '#ecfdf5',
+                    color: targetUserToDelete.role === 'admin' ? '#0284c7' : '#059669',
+                    border: `1px solid ${targetUserToDelete.role === 'admin' ? '#bae6fd' : '#a7f3d0'}`
+                  }}>
+                    {targetUserToDelete.role === 'admin' ? 'এডমিন' : targetUserToDelete.role === 'owner' ? 'ওনার' : 'ইউজার'}
+                  </span>
+                </div>
+
+                {/* Info List Grid */}
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px 14px', paddingTop: '12px', fontSize: '0.82rem' }}>
+                  <div>
+                    <span style={{ color: '#64748b', display: 'block', fontSize: '0.74rem', marginBottom: '2px' }}>ইমেইল এড্রেস:</span>
+                    <span style={{ color: '#1e293b', fontWeight: 600, wordBreak: 'break-all' }}>
+                      {targetUserToDelete.email}
+                    </span>
+                  </div>
+                  <div>
+                    <span style={{ color: '#64748b', display: 'block', fontSize: '0.74rem', marginBottom: '2px' }}>স্ট্যাটাস:</span>
+                    <span style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '4px',
+                      fontWeight: 700,
+                      color: targetUserToDelete.status === 'approved' ? '#166534' : '#e11d48'
+                    }}>
+                      <i className={targetUserToDelete.status === 'approved' ? "fa-solid fa-circle-check" : "fa-solid fa-hourglass-half"} style={{ fontSize: '0.72rem' }}></i>
+                      {targetUserToDelete.status === 'approved' ? 'অনুমোদিত' : 'অপেক্ষমাণ'}
+                    </span>
+                  </div>
+                  <div>
+                    <span style={{ color: '#64748b', display: 'block', fontSize: '0.74rem', marginBottom: '2px' }}>যুক্ত হওয়ার তারিখ:</span>
+                    <span style={{ color: '#1e293b', fontWeight: 600 }}>
+                      {targetUserToDelete.created_at
+                        ? new Date(targetUserToDelete.created_at).toLocaleDateString('bn-BD', {
+                            year: 'numeric',
+                            month: 'short',
+                            day: 'numeric'
+                          })
+                        : 'সম্প্রতি'}
+                    </span>
+                  </div>
+                  <div>
+                    <span style={{ color: '#64748b', display: 'block', fontSize: '0.74rem', marginBottom: '2px' }}>সর্বশেষ লগইন:</span>
+                    <span style={{ color: '#1e293b', fontWeight: 600 }}>
+                      {targetUserToDelete.last_login
+                        ? new Date(targetUserToDelete.last_login).toLocaleDateString('bn-BD', {
+                            year: 'numeric',
+                            month: 'short',
+                            day: 'numeric'
+                          })
+                        : 'লগইন হয়নি'}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Description Box with "Delete" keyword and Copy button */}
+              <div style={{
+                padding: '12px 14px',
+                background: '#f8fafc',
+                border: '1px dashed #cbd5e1',
+                borderRadius: '12px',
+                marginBottom: '16px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                gap: '10px'
+              }}>
+                <div style={{ fontSize: '0.85rem', color: '#334155' }}>
+                  ডিলিট করতে বক্সে লিখুন: <code style={{
+                    background: '#fee2e2',
+                    color: '#e11d48',
+                    padding: '3px 8px',
+                    borderRadius: '6px',
+                    fontWeight: 700,
+                    fontFamily: 'monospace',
+                    fontSize: '0.92rem'
+                  }}>Delete</code>
+                </div>
+
+                <button
+                  type="button"
+                  onClick={handleCopyDeleteKeyword}
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '6px',
+                    padding: '6px 12px',
+                    borderRadius: '8px',
+                    background: isCopied ? '#dcfce7' : '#ffffff',
+                    border: `1px solid ${isCopied ? '#86efac' : '#cbd5e1'}`,
+                    color: isCopied ? '#15803d' : '#475569',
+                    fontSize: '0.78rem',
+                    fontWeight: 700,
+                    cursor: 'pointer',
+                    transition: 'all 0.15s ease',
+                    flexShrink: 0
+                  }}
+                  title="Delete শব্দটি কপি করুন"
+                >
+                  <i className={isCopied ? "fa-solid fa-check" : "fa-regular fa-copy"}></i>
+                  <span>{isCopied ? 'কপি হয়েছে!' : 'কপি'}</span>
+                </button>
+              </div>
+
+              {/* Text Input */}
+              <div style={{ marginBottom: '14px' }}>
+                <label style={{
+                  display: 'block',
+                  fontSize: '0.82rem',
+                  fontWeight: 700,
+                  color: '#475569',
+                  marginBottom: '6px'
+                }}>
+                  "Delete" টাইপ করুন:
+                </label>
+                <input
+                  type="text"
+                  value={deleteConfirmInput}
+                  onChange={(e) => {
+                    setDeleteConfirmInput(e.target.value);
+                    if (deleteError) setDeleteError(null);
+                  }}
+                  placeholder="Delete"
+                  autoFocus
+                  style={{
+                    width: '100%',
+                    padding: '10px 14px',
+                    borderRadius: '10px',
+                    border: deleteConfirmInput.trim() === 'Delete'
+                      ? '2px solid #10b981'
+                      : deleteConfirmInput.length > 0
+                      ? '1px solid #f43f5e'
+                      : '1px solid #cbd5e1',
+                    outline: 'none',
+                    fontSize: '0.95rem',
+                    fontFamily: 'monospace',
+                    color: '#0f172a',
+                    background: '#ffffff',
+                    boxSizing: 'border-box',
+                    transition: 'border-color 0.15s ease'
+                  }}
+                />
+                {deleteConfirmInput.trim() === 'Delete' && (
+                  <div style={{ fontSize: '0.76rem', color: '#059669', marginTop: '5px', fontWeight: 600 }}>
+                    <i className="fa-solid fa-circle-check" style={{ marginRight: '4px' }}></i>
+                    সঠিকভাবে টাইপ করা হয়েছে
+                  </div>
+                )}
+              </div>
+
+              {/* Error feedback if API failed */}
+              {deleteError && (
+                <div style={{
+                  padding: '10px 14px',
+                  borderRadius: '8px',
+                  background: '#fff1f2',
+                  border: '1px solid #fecdd3',
+                  color: '#e11d48',
+                  fontSize: '0.82rem',
+                  fontWeight: 600,
+                  marginBottom: '16px'
+                }}>
+                  <i className="fa-solid fa-circle-xmark" style={{ marginRight: '6px' }}></i>
+                  {deleteError}
+                </div>
+              )}
+
+              {/* Modal Action Buttons: Cancel and Delete */}
+              <div style={{
+                display: 'flex',
+                gap: '10px',
+                marginTop: '20px'
+              }}>
+                <button
+                  type="button"
+                  onClick={handleCloseDeleteModal}
+                  disabled={isDeleting}
+                  style={{
+                    flex: 1,
+                    height: '44px',
+                    padding: '0 18px',
+                    borderRadius: '10px',
+                    background: '#f1f5f9',
+                    border: '1px solid #e2e8f0',
+                    color: '#475569',
+                    fontSize: '0.92rem',
+                    fontWeight: 700,
+                    cursor: isDeleting ? 'not-allowed' : 'pointer',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '6px',
+                    transition: 'all 0.15s ease'
+                  }}
+                  onMouseEnter={(e) => { if (!isDeleting) e.currentTarget.style.background = '#e2e8f0'; }}
+                  onMouseLeave={(e) => { if (!isDeleting) e.currentTarget.style.background = '#f1f5f9'; }}
+                >
+                  <span style={{ lineHeight: 1, display: 'inline-block' }}>বাতিল (Cancel)</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={handleConfirmDelete}
+                  disabled={deleteConfirmInput.trim() !== 'Delete' || isDeleting}
+                  style={{
+                    flex: 1,
+                    height: '44px',
+                    padding: '0 18px',
+                    borderRadius: '10px',
+                    background: deleteConfirmInput.trim() === 'Delete' && !isDeleting
+                      ? '#e11d48'
+                      : '#fda4af',
+                    border: 'none',
+                    color: '#ffffff',
+                    fontSize: '0.92rem',
+                    fontWeight: 700,
+                    cursor: deleteConfirmInput.trim() === 'Delete' && !isDeleting ? 'pointer' : 'not-allowed',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '8px',
+                    boxShadow: deleteConfirmInput.trim() === 'Delete' ? '0 4px 12px rgba(225, 29, 72, 0.3)' : 'none',
+                    transition: 'all 0.15s ease'
+                  }}
+                  onMouseEnter={(e) => {
+                    if (deleteConfirmInput.trim() === 'Delete' && !isDeleting) {
+                      e.currentTarget.style.background = '#be123c';
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (deleteConfirmInput.trim() === 'Delete' && !isDeleting) {
+                      e.currentTarget.style.background = '#e11d48';
+                    }
+                  }}
+                >
+                  {isDeleting ? (
+                    <Loader2 size={17} style={{ animation: 'spin 1s linear infinite', flexShrink: 0 }} />
+                  ) : (
+                    <Trash2 size={17} style={{ flexShrink: 0, display: 'block' }} />
+                  )}
+                  <span style={{ lineHeight: 1, display: 'inline-block' }}>
+                    {isDeleting ? 'ডিলিট হচ্ছে...' : 'ডিলিট করুন'}
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

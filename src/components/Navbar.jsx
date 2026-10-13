@@ -11,9 +11,6 @@ import {
   Menu, 
   X, 
   Sparkles,
-  Table,
-  FileSpreadsheet,
-  FolderOpen,
   User,
   LogIn,
   LogOut,
@@ -42,8 +39,6 @@ export default function Navbar() {
   const [mobileMostImportantOpen, setMobileMostImportantOpen] = useState(true);
   const [smartAiDropdownOpen, setSmartAiDropdownOpen] = useState(false);
   const [mobileSmartAiOpen, setMobileSmartAiOpen] = useState(true);
-  const [toolsDropdownOpen, setToolsDropdownOpen] = useState(false);
-  const [mobileToolsOpen, setMobileToolsOpen] = useState(true);
 
   const dropdownRef = useRef(null);
   const jobSolutionsDropdownRef = useRef(null);
@@ -54,8 +49,6 @@ export default function Navbar() {
   const mostImportantTimeoutRef = useRef(null);
   const smartAiDropdownRef = useRef(null);
   const smartAiTimeoutRef = useRef(null);
-  const toolsDropdownRef = useRef(null);
-  const toolsTimeoutRef = useRef(null);
 
   const { user, logout } = useAuth();
 
@@ -65,7 +58,6 @@ export default function Navbar() {
   const isAmpibianActive = pathname === '/ampibian-suggestion' || pathname.startsWith('/ampibian-suggestion');
   const isBiddabariActive = pathname === '/biddabari-ntrca' || pathname.startsWith('/biddabari-ntrca');
   const isSmartAiActive = pathname === '/smart-ai' || pathname.startsWith('/smart-ai');
-  const isToolsActive = pathname === '/file-exam' || pathname === '/file-studio' || pathname.startsWith('/file-tools');
   const isSpecialActive = isIctActive || isAmpibianActive || isBiddabariActive;
 
   const handleMouseEnterJobSolutions = () => {
@@ -112,17 +104,6 @@ export default function Navbar() {
     }, 150);
   };
 
-  const handleMouseEnterTools = () => {
-    if (toolsTimeoutRef.current) clearTimeout(toolsTimeoutRef.current);
-    setToolsDropdownOpen(true);
-  };
-
-  const handleMouseLeaveTools = () => {
-    toolsTimeoutRef.current = setTimeout(() => {
-      setToolsDropdownOpen(false);
-    }, 150);
-  };
-
   // Close dropdowns on outside click
   useEffect(() => {
     function handleClickOutside(event) {
@@ -141,9 +122,6 @@ export default function Navbar() {
       if (smartAiDropdownRef.current && !smartAiDropdownRef.current.contains(event.target)) {
         setSmartAiDropdownOpen(false);
       }
-      if (toolsDropdownRef.current && !toolsDropdownRef.current.contains(event.target)) {
-        setToolsDropdownOpen(false);
-      }
     }
     document.addEventListener('mousedown', handleClickOutside);
     return () => {
@@ -152,7 +130,6 @@ export default function Navbar() {
       if (specialTimeoutRef.current) clearTimeout(specialTimeoutRef.current);
       if (mostImportantTimeoutRef.current) clearTimeout(mostImportantTimeoutRef.current);
       if (smartAiTimeoutRef.current) clearTimeout(smartAiTimeoutRef.current);
-      if (toolsTimeoutRef.current) clearTimeout(toolsTimeoutRef.current);
     };
   }, []);
 
@@ -1148,125 +1125,6 @@ export default function Navbar() {
             )}
           </div>
 
-          {/* File Tools Dropdown */}
-          <div 
-            style={{ position: 'relative' }} 
-            ref={toolsDropdownRef}
-            onMouseEnter={handleMouseEnterTools}
-            onMouseLeave={handleMouseLeaveTools}
-          >
-            <button
-              onClick={() => setToolsDropdownOpen(prev => !prev)}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '5px',
-                padding: '7px 10px',
-                borderRadius: '8px',
-                fontSize: '0.88rem',
-                fontWeight: 600,
-                fontFamily: 'inherit',
-                lineHeight: 1.5,
-                whiteSpace: 'nowrap',
-                color: isToolsActive ? '#047857' : '#475569',
-                background: isToolsActive ? '#ecfdf5' : toolsDropdownOpen ? '#f8fafc' : 'transparent',
-                border: isToolsActive ? '1px solid #a7f3d0' : '1px solid transparent',
-                cursor: 'pointer',
-                transition: 'all 0.2s ease'
-              }}
-              aria-expanded={toolsDropdownOpen}
-              aria-haspopup="true"
-            >
-              <FolderOpen size={15} color={isToolsActive ? '#047857' : '#475569'} />
-              <span>ফাইল টুলস</span>
-              <ChevronDown 
-                size={14} 
-                style={{
-                  transform: toolsDropdownOpen ? 'rotate(180deg)' : 'rotate(0deg)',
-                  transition: 'transform 0.2s ease',
-                  opacity: 0.75
-                }}
-              />
-            </button>
-
-            {/* Dropdown Menu - Exact Matching 0.92rem Font Size */}
-            {toolsDropdownOpen && (
-              <div 
-                className="dropdown-menu-anim"
-                style={{
-                  position: 'absolute',
-                  top: 'calc(100% + 8px)',
-                  left: 0,
-                  width: '210px',
-                  background: '#ffffff',
-                  borderRadius: '12px',
-                  boxShadow: '0 12px 30px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.04)',
-                  border: '1px solid #e2e8f0',
-                  padding: '6px',
-                  zIndex: 100
-                }}
-              >
-                {/* Option 1: File Exam */}
-                <Link
-                  href="/file-exam"
-                  onClick={() => setToolsDropdownOpen(false)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '10px',
-                    padding: '8px 12px',
-                    borderRadius: '8px',
-                    fontSize: '0.92rem',
-                    fontWeight: 600,
-                    color: pathname === '/file-exam' ? '#047857' : '#1e293b',
-                    background: pathname === '/file-exam' ? '#ecfdf5' : 'transparent',
-                    border: pathname === '/file-exam' ? '1px solid #a7f3d0' : '1px solid transparent',
-                    textDecoration: 'none',
-                    transition: 'all 0.15s ease'
-                  }}
-                  onMouseEnter={(e) => {
-                    if (pathname !== '/file-exam') e.currentTarget.style.background = '#f8fafc';
-                  }}
-                  onMouseLeave={(e) => {
-                    if (pathname !== '/file-exam') e.currentTarget.style.background = 'transparent';
-                  }}
-                >
-                  <FileSpreadsheet size={16} color={pathname === '/file-exam' ? '#047857' : '#059669'} />
-                  <span>ফাইল এক্সাম</span>
-                </Link>
-
-                {/* Option 2: Table Studio */}
-                <Link
-                  href="/file-studio"
-                  onClick={() => setToolsDropdownOpen(false)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '10px',
-                    padding: '8px 12px',
-                    borderRadius: '8px',
-                    fontSize: '0.92rem',
-                    fontWeight: 600,
-                    color: pathname === '/file-studio' ? '#047857' : '#1e293b',
-                    background: pathname === '/file-studio' ? '#ecfdf5' : 'transparent',
-                    border: pathname === '/file-studio' ? '1px solid #a7f3d0' : '1px solid transparent',
-                    textDecoration: 'none',
-                    transition: 'all 0.15s ease'
-                  }}
-                  onMouseEnter={(e) => {
-                    if (pathname !== '/file-studio') e.currentTarget.style.background = '#f8fafc';
-                  }}
-                  onMouseLeave={(e) => {
-                    if (pathname !== '/file-studio') e.currentTarget.style.background = 'transparent';
-                  }}
-                >
-                  <Table size={16} color={pathname === '/file-studio' ? '#047857' : '#059669'} />
-                  <span>ফাইল কনভার্ট</span>
-                </Link>
-              </div>
-            )}
-          </div>
-
           {/* Bookmarks */}
           <Link
             href="/bookmarks"
@@ -2159,98 +2017,7 @@ export default function Navbar() {
             )}
           </div>
 
-          {/* 3. File Tools Accordion */}
-          <div style={{
-            borderRadius: '10px',
-            border: isToolsActive ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
-            background: isToolsActive ? '#f0fdf4' : '#f8fafc',
-            overflow: 'hidden'
-          }}>
-            <button
-              onClick={() => setMobileToolsOpen(!mobileToolsOpen)}
-              style={{
-                width: '100%',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
-                padding: '12px 16px',
-                background: 'transparent',
-                border: 'none',
-                cursor: 'pointer',
-                fontSize: '0.95rem',
-                fontWeight: 600,
-                fontFamily: 'inherit',
-                color: isToolsActive ? '#047857' : '#1e293b'
-              }}
-            >
-              <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                <FolderOpen size={18} color={isToolsActive ? '#047857' : '#475569'} />
-                <span>ফাইল টুলস</span>
-              </div>
-              <ChevronDown 
-                size={16} 
-                style={{
-                  transform: mobileToolsOpen ? 'rotate(180deg)' : 'rotate(0deg)',
-                  transition: 'transform 0.2s ease',
-                  opacity: 0.75
-                }} 
-              />
-            </button>
-
-            {mobileToolsOpen && (
-              <div style={{
-                padding: '4px 10px 10px',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '6px',
-                borderTop: '1px solid rgba(0,0,0,0.06)'
-              }}>
-                <Link
-                  href="/file-exam"
-                  onClick={() => setMobileMenuOpen(false)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '10px',
-                    padding: '10px 12px',
-                    borderRadius: '8px',
-                    fontSize: '0.95rem',
-                    fontWeight: 600,
-                    color: pathname === '/file-exam' ? '#047857' : '#334155',
-                    background: pathname === '/file-exam' ? '#ecfdf5' : '#ffffff',
-                    border: pathname === '/file-exam' ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
-                    textDecoration: 'none'
-                  }}
-                >
-                  <FileSpreadsheet size={16} color="var(--emerald-600)" />
-                  <span>ফাইল এক্সাম</span>
-                </Link>
-
-                <Link
-                  href="/file-studio"
-                  onClick={() => setMobileMenuOpen(false)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '10px',
-                    padding: '10px 12px',
-                    borderRadius: '8px',
-                    fontSize: '0.95rem',
-                    fontWeight: 600,
-                    color: pathname === '/file-studio' ? '#047857' : '#334155',
-                    background: pathname === '/file-studio' ? '#ecfdf5' : '#ffffff',
-                    border: pathname === '/file-studio' ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
-                    textDecoration: 'none'
-                  }}
-                >
-                  <Table size={16} color="var(--emerald-600)" />
-                  <span>ফাইল কনভার্ট</span>
-                </Link>
-              </div>
-            )}
-          </div>
-
-          {/* 4. Bookmarks */}
+          {/* Bookmarks */}
           <Link
             href="/bookmarks"
             onClick={() => setMobileMenuOpen(false)}

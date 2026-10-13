@@ -140,6 +140,34 @@ export async function onRequestPost(context) {
       });
     }
 
+    // 3. DELETE USER (Allowed for Owner and Admin)
+    if (action === 'delete_user') {
+      if (requester.role !== 'owner' && requester.role !== 'admin') {
+        return jsonResponse({ error: 'শুধুমাত্র অ্যাডমিন বা ওনার ইউজার ডিলিট করতে পারবেন' }, 403);
+      }
+
+      // Protection: Owner can NEVER be deleted
+      if (target.role === 'owner') {
+        return jsonResponse({ error: 'ওনার অ্যাকাউন্ট অপরিবর্তনযোগ্য ও মুছে ফেলা সম্ভব নয়' }, 403);
+      }
+
+      // Protection: Only owner can delete admin
+      if (target.role === 'admin' && requester.role !== 'owner') {
+        return jsonResponse({ error: 'শুধুমাত্র মূল ওনার অ্যাডমিন অ্যাকাউন্ট ডিলিট করতে পারবেন' }, 403);
+      }
+
+      // Delete user's active sessions first
+      await env.DB.prepare(`DELETE FROM sessions WHERE user_id = ?`).bind(targetUserId).run();
+
+      // Delete user record
+      await env.DB.prepare(`DELETE FROM users WHERE id = ?`).bind(targetUserId).run();
+
+      return jsonResponse({
+        success: true,
+        message: `ব্যবহারকারী '${target.name || target.username}' সফলভাবে মুছে ফেলা হয়েছে`
+      });
+    }
+
     return jsonResponse({ error: 'অবৈধ অ্যাকশন' }, 400);
 
   } catch (err) {
