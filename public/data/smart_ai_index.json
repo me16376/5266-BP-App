@@ -1,0 +1,938 @@
+{
+  "total_exams": 89,
+  "total_questions": 17100,
+  "categories": [
+    {
+      "id": "bpsc-technical-ai",
+      "name": "BPSC Technical AI",
+      "bn_name": "BPSC টেকনিক্যাল ও নন-ক্যাডার AI প্রশ্নব্যাংক",
+      "icon": "Cpu",
+      "desc": "বিপিএসসি টেকনিক্যাল ও নন-ক্যাডার পদসমূহের জন্য এআই ভিত্তিক পূর্ণাঙ্গ প্রশ্নব্যাংক",
+      "folder": "BPSC Technical AI",
+      "exam_count": 25,
+      "question_count": 5000
+    },
+    {
+      "id": "ntrca-313-and-325-ai",
+      "name": "NTRCA 313 & 325 - AI",
+      "bn_name": "NTRCA ৩১৩ ও ৩২৫ AI প্রশ্নব্যাংক",
+      "icon": "Laptop",
+      "desc": "শিক্ষক নিবন্ধন NTRCA ৩১৩ ও ৩২৫ আইসিটি বিষয়ভিত্তিক এআই স্পেশাল সংকলন",
+      "folder": "NTRCA 313 and 325 - AI",
+      "exam_count": 7,
+      "question_count": 700
+    },
+    {
+      "id": "ntrca-452-ai",
+      "name": "NTRCA 452 - AI",
+      "bn_name": "NTRCA ৪৫২ কম্পিউটার অপারেশন AI",
+      "icon": "Sparkles",
+      "desc": "শিক্ষক নিবন্ধন NTRCA ৪৫২ কোডের জন্য কম্পিউটার সাইন্স ও আইসিটি এআই প্রস্তুতি",
+      "folder": "NTRCA 452 - AI",
+      "exam_count": 7,
+      "question_count": 1400
+    },
+    {
+      "id": "ntrca-preliminary-ai",
+      "name": "NTRCA Preliminary AI",
+      "bn_name": "NTRCA প্রিলিমিনারি AI প্রশ্নব্যাংক",
+      "icon": "GraduationCap",
+      "desc": "শিক্ষক নিবন্ধন NTRCA প্রিলিমিনারি পরীক্ষার ৫০টি টপিক ভিত্তিক ১০,০০০টি এআই প্রশ্নব্যাংক",
+      "folder": "NTRCA Preminary AI",
+      "exam_count": 50,
+      "question_count": 10000
+    }
+  ],
+  "exams": [
+    {
+      "id": "smartai_bpsc-technical-ai_1",
+      "slug": "bpsc-technical-ai-বিষয়-১-কম্পিউটার-ফান্ডামেন্টাল-computer-fundamentals-office-applications",
+      "title": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+      "clean_filename": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_2",
+      "slug": "bpsc-technical-ai-বিষয়-১০-ডেটাবেস-ম্যানেজমেন্ট-সিস্টেম-database-management-system",
+      "title": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+      "clean_filename": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_3",
+      "slug": "bpsc-technical-ai-বিষয়-১১-সফটওয়্যার-ইঞ্জিনিয়ারিং-ও-সিস্টেম-অ্যানালাইসিস-software-engineering",
+      "title": "বিষয়- ১১. সফটওয়্যার ইঞ্জিনিয়ারিং ও সিস্টেম অ্যানালাইসিস (Software Engineering)",
+      "clean_filename": "বিষয়- ১১. সফটওয়্যার ইঞ্জিনিয়ারিং ও সিস্টেম অ্যানালাইসিস (Software Engineering).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ১১. সফটওয়্যার ইঞ্জিনিয়ারিং ও সিস্টেম অ্যানালাইসিস (Software Engineering).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_4",
+      "slug": "bpsc-technical-ai-বিষয়-১২-ইলেকট্রনিক্স-ও-ডিজিটাল-ইলেকট্রনিক্স-basic-electronics-digital-electronics-i-ii",
+      "title": "বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II)",
+      "clean_filename": "বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_5",
+      "slug": "bpsc-technical-ai-বিষয়-১৩-কম্পিউটার-আর্কিটেকচার-মাইক্রোপ্রসেসর-ও-মাইক্রোকন্ট্রোলার",
+      "title": "বিষয়- ১৩. কম্পিউটার আর্কিটেকচার, মাইক্রোপ্রসেসর ও মাইক্রোকন্ট্রোলার",
+      "clean_filename": "বিষয়- ১৩. কম্পিউটার আর্কিটেকচার, মাইক্রোপ্রসেসর ও মাইক্রোকন্ট্রোলার.json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ১৩. কম্পিউটার আর্কিটেকচার, মাইক্রোপ্রসেসর ও মাইক্রোকন্ট্রোলার.json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_6",
+      "slug": "bpsc-technical-ai-বিষয়-১৪-ওয়েব-টেকনোলজি-web-design-development-i-ii",
+      "title": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+      "clean_filename": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_7",
+      "slug": "bpsc-technical-ai-বিষয়-১৫-সাইবার-সিকিউরিটি-ও-নজরদারি-ব্যবস্থা-cyber-security-surveillance",
+      "title": "বিষয়- ১৫. সাইবার সিকিউরিটি ও নজরদারি ব্যবস্থা (Cyber Security & Surveillance)",
+      "clean_filename": "বিষয়- ১৫. সাইবার সিকিউরিটি ও নজরদারি ব্যবস্থা (Cyber Security & Surveillance).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ১৫. সাইবার সিকিউরিটি ও নজরদারি ব্যবস্থা (Cyber Security & Surveillance).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_8",
+      "slug": "bpsc-technical-ai-বিষয়-১৬-ক্লাউড-কম্পিউটিং-ও-ভার্চুয়ালাইজেশন-cloud-computing-virtualization",
+      "title": "বিষয়- ১৬. ক্লাউড কম্পিউটিং ও ভার্চুয়ালাইজেশন (Cloud Computing & Virtualization)",
+      "clean_filename": "বিষয়- ১৬. ক্লাউড কম্পিউটিং ও ভার্চুয়ালাইজেশন (Cloud Computing & Virtualization).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ১৬. ক্লাউড কম্পিউটিং ও ভার্চুয়ালাইজেশন (Cloud Computing & Virtualization).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_9",
+      "slug": "bpsc-technical-ai-বিষয়-১৭-আর্টিফিসিয়াল-ইন্টেলিজেন্স-ও-মেশিন-লার্নিং-artificial-intelligence-ml",
+      "title": "বিষয়- ১৭. আর্টিফিসিয়াল ইন্টেলিজেন্স ও মেশিন লার্নিং (Artificial Intelligence & ML)",
+      "clean_filename": "বিষয়- ১৭. আর্টিফিসিয়াল ইন্টেলিজেন্স ও মেশিন লার্নিং (Artificial Intelligence & ML).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ১৭. আর্টিফিসিয়াল ইন্টেলিজেন্স ও মেশিন লার্নিং (Artificial Intelligence & ML).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_10",
+      "slug": "bpsc-technical-ai-বিষয়-১৮-ইলেকট্রিক্যাল-সার্কিটস-ও-বেসিক-ইলেকট্রিসিটি-electrical-circuits",
+      "title": "বিষয়- ১৮. ইলেকট্রিক্যাল সার্কিটস ও বেসিক ইলেকট্রিসিটি (Electrical Circuits)",
+      "clean_filename": "বিষয়- ১৮. ইলেকট্রিক্যাল সার্কিটস ও বেসিক ইলেকট্রিসিটি (Electrical Circuits).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ১৮. ইলেকট্রিক্যাল সার্কিটস ও বেসিক ইলেকট্রিসিটি (Electrical Circuits).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_11",
+      "slug": "bpsc-technical-ai-বিষয়-১৯-ডিসক্রিট-ম্যাথমেটিক্স-ও-ইঞ্জিনিয়ারিং-ম্যাথমেটিক্স-discrete-engineering-mathematics",
+      "title": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+      "clean_filename": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_12",
+      "slug": "bpsc-technical-ai-বিষয়-২-প্রোগ্রামিং-ইন-সি-programming-in-c",
+      "title": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+      "clean_filename": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_13",
+      "slug": "bpsc-technical-ai-বিষয়-২০-পূর্ণরূপ-full-forms-technical-abbreviations",
+      "title": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+      "clean_filename": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_14",
+      "slug": "bpsc-technical-ai-বিষয়-২১-সেন্সর-ও-ইন্টারনেট-অব-থিংস-sensor-iot-system",
+      "title": "বিষয়- ২১. সেন্সর ও ইন্টারনেট অব থিংস (Sensor & IoT System)",
+      "clean_filename": "বিষয়- ২১. সেন্সর ও ইন্টারনেট অব থিংস (Sensor & IoT System).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ২১. সেন্সর ও ইন্টারনেট অব থিংস (Sensor & IoT System).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_15",
+      "slug": "bpsc-technical-ai-বিষয়-২২-কম্পিউটার-পেরিফেরালস-ও-ইন্টারফেসিং-computer-peripherals-interfacing",
+      "title": "বিষয়- ২২. কম্পিউটার পেরিফেরালস ও ইন্টারফেসিং (Computer Peripherals & Interfacing)",
+      "clean_filename": "বিষয়- ২২. কম্পিউটার পেরিফেরালস ও ইন্টারফেসিং (Computer Peripherals & Interfacing).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ২২. কম্পিউটার পেরিফেরালস ও ইন্টারফেসিং (Computer Peripherals & Interfacing).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_16",
+      "slug": "bpsc-technical-ai-বিষয়-২৩-মাল্টিমিডিয়া-অ্যানিমেশন-ও-গ্রাফিক্স-ডিজাইন-graphics-design-i-ii-multimedia",
+      "title": "বিষয়- ২৩. মাল্টিমিডিয়া, অ্যানিমেশন ও গ্রাফিক্স ডিজাইন (Graphics Design-I, II & Multimedia)",
+      "clean_filename": "বিষয়- ২৩. মাল্টিমিডিয়া, অ্যানিমেশন ও গ্রাফিক্স ডিজাইন (Graphics Design-I, II & Multimedia).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ২৩. মাল্টিমিডিয়া, অ্যানিমেশন ও গ্রাফিক্স ডিজাইন (Graphics Design-I, II & Multimedia).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_17",
+      "slug": "bpsc-technical-ai-বিষয়-২৪-মোবাইল-অ্যাপ্লিকেশন-ডেভেলপমেন্ট-mobile-application-development-android-kotlin",
+      "title": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+      "clean_filename": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_18",
+      "slug": "bpsc-technical-ai-বিষয়-২৫-ডিজিটাল-মার্কেটিং-ও-ইন্ডাস্ট্রিয়াল-ম্যানেজমেন্ট",
+      "title": "বিষয়- ২৫. ডিজিটাল মার্কেটিং ও ইন্ডাস্ট্রিয়াল ম্যানেজমেন্ট",
+      "clean_filename": "বিষয়- ২৫. ডিজিটাল মার্কেটিং ও ইন্ডাস্ট্রিয়াল ম্যানেজমেন্ট.json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ২৫. ডিজিটাল মার্কেটিং ও ইন্ডাস্ট্রিয়াল ম্যানেজমেন্ট.json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_19",
+      "slug": "bpsc-technical-ai-বিষয়-৩-অবজেক্ট-ওরিয়েন্টেড-প্রোগ্রামিং-সি-জাভা",
+      "title": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+      "clean_filename": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_20",
+      "slug": "bpsc-technical-ai-বিষয়-৪-পাইথন-প্রোগ্রামিং-python-programming-app-development",
+      "title": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+      "clean_filename": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_21",
+      "slug": "bpsc-technical-ai-বিষয়-৫-ডেটা-স্ট্রাকচার-এন্ড-অ্যালগরিদম-data-structure-algorithm",
+      "title": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+      "clean_filename": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_22",
+      "slug": "bpsc-technical-ai-বিষয়-৬-ডেটা-কমিউনিকেশন-data-communication",
+      "title": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+      "clean_filename": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_23",
+      "slug": "bpsc-technical-ai-বিষয়-৭-কম্পিউটার-নেটওয়ার্কিং-computer-networking",
+      "title": "বিষয়- ৭. কম্পিউটার নেটওয়ার্কিং (Computer Networking)",
+      "clean_filename": "বিষয়- ৭. কম্পিউটার নেটওয়ার্কিং (Computer Networking).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ৭. কম্পিউটার নেটওয়ার্কিং (Computer Networking).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_24",
+      "slug": "bpsc-technical-ai-বিষয়-৮-অপারেটিং-সিস্টেম-operating-system",
+      "title": "বিষয়- ৮. অপারেটিং সিস্টেম (Operating System)",
+      "clean_filename": "বিষয়- ৮. অপারেটিং সিস্টেম (Operating System).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ৮. অপারেটিং সিস্টেম (Operating System).json"
+    },
+    {
+      "id": "smartai_bpsc-technical-ai_25",
+      "slug": "bpsc-technical-ai-বিষয়-৯-লিনাক্স-ও-সিস্টেম-অ্যাডমিনিস্ট্রেশন-linux-system-administration",
+      "title": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+      "clean_filename": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration).json",
+      "category_id": "bpsc-technical-ai",
+      "category_name": "BPSC Technical AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/BPSC Technical AI/বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration).json"
+    },
+    {
+      "id": "smartai_ntrca-313-and-325-ai_1",
+      "slug": "ntrca-313-and-325-ai-অধ্যায়-ক-কম্পিউটার-বেসিক",
+      "title": "অধ্যায়- ক. কম্পিউটার বেসিক",
+      "clean_filename": "অধ্যায়- ক. কম্পিউটার বেসিক.json",
+      "category_id": "ntrca-313-and-325-ai",
+      "category_name": "NTRCA 313 & 325 - AI",
+      "question_count": 100,
+      "file": "/data/Smart AI/NTRCA 313 and 325 - AI/অধ্যায়- ক. কম্পিউটার বেসিক.json"
+    },
+    {
+      "id": "smartai_ntrca-313-and-325-ai_2",
+      "slug": "ntrca-313-and-325-ai-অধ্যায়-খ-সংখ্যা-পদ্ধতি",
+      "title": "অধ্যায়- খ. সংখ্যা পদ্ধতি",
+      "clean_filename": "অধ্যায়- খ. সংখ্যা পদ্ধতি.json",
+      "category_id": "ntrca-313-and-325-ai",
+      "category_name": "NTRCA 313 & 325 - AI",
+      "question_count": 100,
+      "file": "/data/Smart AI/NTRCA 313 and 325 - AI/অধ্যায়- খ. সংখ্যা পদ্ধতি.json"
+    },
+    {
+      "id": "smartai_ntrca-313-and-325-ai_3",
+      "slug": "ntrca-313-and-325-ai-অধ্যায়-গ-উপাত্ত-উপস্থাপন",
+      "title": "অধ্যায়- গ. উপাত্ত উপস্থাপন",
+      "clean_filename": "অধ্যায়- গ. উপাত্ত উপস্থাপন.json",
+      "category_id": "ntrca-313-and-325-ai",
+      "category_name": "NTRCA 313 & 325 - AI",
+      "question_count": 100,
+      "file": "/data/Smart AI/NTRCA 313 and 325 - AI/অধ্যায়- গ. উপাত্ত উপস্থাপন.json"
+    },
+    {
+      "id": "smartai_ntrca-313-and-325-ai_4",
+      "slug": "ntrca-313-and-325-ai-অধ্যায়-ঘ-লজিক-সার্কিট-বর্তনী",
+      "title": "অধ্যায়- ঘ. লজিক সার্কিট-বর্তনী",
+      "clean_filename": "অধ্যায়- ঘ. লজিক সার্কিট-বর্তনী.json",
+      "category_id": "ntrca-313-and-325-ai",
+      "category_name": "NTRCA 313 & 325 - AI",
+      "question_count": 100,
+      "file": "/data/Smart AI/NTRCA 313 and 325 - AI/অধ্যায়- ঘ. লজিক সার্কিট-বর্তনী.json"
+    },
+    {
+      "id": "smartai_ntrca-313-and-325-ai_5",
+      "slug": "ntrca-313-and-325-ai-অধ্যায়-ঙ-অপারেটিং-পদ্ধতি",
+      "title": "অধ্যায়- ঙ. অপারেটিং পদ্ধতি",
+      "clean_filename": "অধ্যায়- ঙ. অপারেটিং পদ্ধতি.json",
+      "category_id": "ntrca-313-and-325-ai",
+      "category_name": "NTRCA 313 & 325 - AI",
+      "question_count": 100,
+      "file": "/data/Smart AI/NTRCA 313 and 325 - AI/অধ্যায়- ঙ. অপারেটিং পদ্ধতি.json"
+    },
+    {
+      "id": "smartai_ntrca-313-and-325-ai_6",
+      "slug": "ntrca-313-and-325-ai-অধ্যায়-চ-এলগোরিদম-এবং-ফ্লো-চার্ট",
+      "title": "অধ্যায়- চ. এলগোরিদম এবং ফ্লো চার্ট",
+      "clean_filename": "অধ্যায়- চ. এলগোরিদম এবং ফ্লো চার্ট.json",
+      "category_id": "ntrca-313-and-325-ai",
+      "category_name": "NTRCA 313 & 325 - AI",
+      "question_count": 100,
+      "file": "/data/Smart AI/NTRCA 313 and 325 - AI/অধ্যায়- চ. এলগোরিদম এবং ফ্লো চার্ট.json"
+    },
+    {
+      "id": "smartai_ntrca-313-and-325-ai_7",
+      "slug": "ntrca-313-and-325-ai-অধ্যায়-ছ-ইন্টারনেট",
+      "title": "অধ্যায়- ছ. ইন্টারনেট",
+      "clean_filename": "অধ্যায়- ছ. ইন্টারনেট.json",
+      "category_id": "ntrca-313-and-325-ai",
+      "category_name": "NTRCA 313 & 325 - AI",
+      "question_count": 100,
+      "file": "/data/Smart AI/NTRCA 313 and 325 - AI/অধ্যায়- ছ. ইন্টারনেট.json"
+    },
+    {
+      "id": "smartai_ntrca-452-ai_1",
+      "slug": "ntrca-452-ai-অধ্যায়-১-structured-and-object-oriented-programming",
+      "title": "অধ্যায়- ১. Structured and Object Oriented Programming",
+      "clean_filename": "অধ্যায়- ১. Structured and Object Oriented Programming.json",
+      "category_id": "ntrca-452-ai",
+      "category_name": "NTRCA 452 - AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA 452 - AI/অধ্যায়- ১. Structured and Object Oriented Programming.json"
+    },
+    {
+      "id": "smartai_ntrca-452-ai_2",
+      "slug": "ntrca-452-ai-অধ্যায়-২-introduction-to-software-engineering",
+      "title": "অধ্যায়- ২. Introduction to Software Engineering",
+      "clean_filename": "অধ্যায়- ২. Introduction to Software Engineering.json",
+      "category_id": "ntrca-452-ai",
+      "category_name": "NTRCA 452 - AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA 452 - AI/অধ্যায়- ২. Introduction to Software Engineering.json"
+    },
+    {
+      "id": "smartai_ntrca-452-ai_3",
+      "slug": "ntrca-452-ai-অধ্যায়-৩-data-structure-and-algorithm-combinatorial-optimization",
+      "title": "অধ্যায়- ৩. Data Structure and Algorithm & Combinatorial Optimization",
+      "clean_filename": "অধ্যায়- ৩. Data Structure and Algorithm & Combinatorial Optimization.json",
+      "category_id": "ntrca-452-ai",
+      "category_name": "NTRCA 452 - AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA 452 - AI/অধ্যায়- ৩. Data Structure and Algorithm & Combinatorial Optimization.json"
+    },
+    {
+      "id": "smartai_ntrca-452-ai_4",
+      "slug": "ntrca-452-ai-অধ্যায়-৪-web-technology",
+      "title": "অধ্যায়- ৪. Web Technology",
+      "clean_filename": "অধ্যায়- ৪. Web Technology.json",
+      "category_id": "ntrca-452-ai",
+      "category_name": "NTRCA 452 - AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA 452 - AI/অধ্যায়- ৪. Web Technology.json"
+    },
+    {
+      "id": "smartai_ntrca-452-ai_5",
+      "slug": "ntrca-452-ai-অধ্যায়-৫-operating-system",
+      "title": "অধ্যায়- ৫. Operating System",
+      "clean_filename": "অধ্যায়- ৫. Operating System.json",
+      "category_id": "ntrca-452-ai",
+      "category_name": "NTRCA 452 - AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA 452 - AI/অধ্যায়- ৫. Operating System.json"
+    },
+    {
+      "id": "smartai_ntrca-452-ai_6",
+      "slug": "ntrca-452-ai-অধ্যায়-৬-database-management-system",
+      "title": "অধ্যায়- ৬. Database Management System",
+      "clean_filename": "অধ্যায়- ৬. Database Management System.json",
+      "category_id": "ntrca-452-ai",
+      "category_name": "NTRCA 452 - AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA 452 - AI/অধ্যায়- ৬. Database Management System.json"
+    },
+    {
+      "id": "smartai_ntrca-452-ai_7",
+      "slug": "ntrca-452-ai-অধ্যায়-৭-data-communications-and-networking",
+      "title": "অধ্যায়- ৭. Data Communications and Networking",
+      "clean_filename": "অধ্যায়- ৭. Data Communications and Networking.json",
+      "category_id": "ntrca-452-ai",
+      "category_name": "NTRCA 452 - AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA 452 - AI/অধ্যায়- ৭. Data Communications and Networking.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_1",
+      "slug": "ntrca-preliminary-ai-ইংরেজি-০১-sentence",
+      "title": "ইংরেজি - ০১. Sentence",
+      "clean_filename": "ইংরেজি - ০১. Sentence.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/ইংরেজি - ০১. Sentence.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_2",
+      "slug": "ntrca-preliminary-ai-ইংরেজি-০২-translation-bangla-to-english",
+      "title": "ইংরেজি - ০২. Translation (Bangla to English)",
+      "clean_filename": "ইংরেজি - ০২. Translation (Bangla to English).json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/ইংরেজি - ০২. Translation (Bangla to English).json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_3",
+      "slug": "ntrca-preliminary-ai-ইংরেজি-০৩-change-of-parts-of-speech",
+      "title": "ইংরেজি - ০৩. Change of Parts of Speech",
+      "clean_filename": "ইংরেজি - ০৩. Change of Parts of Speech.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/ইংরেজি - ০৩. Change of Parts of Speech.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_4",
+      "slug": "ntrca-preliminary-ai-ইংরেজি-০৪-right-form-of-verb",
+      "title": "ইংরেজি - ০৪. Right Form of Verb",
+      "clean_filename": "ইংরেজি - ০৪. Right Form of Verb.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/ইংরেজি - ০৪. Right Form of Verb.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_5",
+      "slug": "ntrca-preliminary-ai-ইংরেজি-০৫-fill-in-the-blanks",
+      "title": "ইংরেজি - ০৫. Fill in the Blanks",
+      "clean_filename": "ইংরেজি - ০৫. Fill in the Blanks.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/ইংরেজি - ০৫. Fill in the Blanks.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_6",
+      "slug": "ntrca-preliminary-ai-ইংরেজি-০৬-transformation-of-sentences",
+      "title": "ইংরেজি - ০৬. Transformation of Sentences",
+      "clean_filename": "ইংরেজি - ০৬. Transformation of Sentences.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/ইংরেজি - ০৬. Transformation of Sentences.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_7",
+      "slug": "ntrca-preliminary-ai-ইংরেজি-০৭-synonyms-antonyms",
+      "title": "ইংরেজি - ০৭. Synonyms & Antonyms",
+      "clean_filename": "ইংরেজি - ০৭. Synonyms & Antonyms.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/ইংরেজি - ০৭. Synonyms & Antonyms.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_8",
+      "slug": "ntrca-preliminary-ai-ইংরেজি-০৮-idioms-phrases",
+      "title": "ইংরেজি - ০৮. Idioms & Phrases",
+      "clean_filename": "ইংরেজি - ০৮. Idioms & Phrases.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/ইংরেজি - ০৮. Idioms & Phrases.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_9",
+      "slug": "ntrca-preliminary-ai-ইংরেজি-০৯-errors-in-composition",
+      "title": "ইংরেজি - ০৯. Errors in Composition",
+      "clean_filename": "ইংরেজি - ০৯. Errors in Composition.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/ইংরেজি - ০৯. Errors in Composition.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_10",
+      "slug": "ntrca-preliminary-ai-ইংরেজি-১০-appropriate-title",
+      "title": "ইংরেজি - ১০. Appropriate Title",
+      "clean_filename": "ইংরেজি - ১০. Appropriate Title.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/ইংরেজি - ১০. Appropriate Title.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_11",
+      "slug": "ntrca-preliminary-ai-ইংরেজি-১১-uses-of-articles",
+      "title": "ইংরেজি - ১১. Uses of Articles",
+      "clean_filename": "ইংরেজি - ১১. Uses of Articles.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/ইংরেজি - ১১. Uses of Articles.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_12",
+      "slug": "ntrca-preliminary-ai-ইংরেজি-১২-appropriate-prepositions",
+      "title": "ইংরেজি - ১২. Appropriate Prepositions",
+      "clean_filename": "ইংরেজি - ১২. Appropriate Prepositions.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/ইংরেজি - ১২. Appropriate Prepositions.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_13",
+      "slug": "ntrca-preliminary-ai-গণিত-০১-গড়-লসাগু-ও-গসাগু",
+      "title": "গণিত - ০১. গড়, ল.সা.গু. ও গ.সা.গু.",
+      "clean_filename": "গণিত - ০১. গড়, ল.সা.গু. ও গ.সা.গু..json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/গণিত - ০১. গড়, ল.সা.গু. ও গ.সা.গু..json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_14",
+      "slug": "ntrca-preliminary-ai-গণিত-০২-ঐকিক-নিয়ম",
+      "title": "গণিত - ০২. ঐকিক নিয়ম",
+      "clean_filename": "গণিত - ০২. ঐকিক নিয়ম.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/গণিত - ০২. ঐকিক নিয়ম.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_15",
+      "slug": "ntrca-preliminary-ai-গণিত-০৩-লাভ-ক্ষতি-ও-শতকরা",
+      "title": "গণিত - ০৩. লাভ-ক্ষতি ও শতকরা",
+      "clean_filename": "গণিত - ০৩. লাভ-ক্ষতি ও শতকরা.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/গণিত - ০৩. লাভ-ক্ষতি ও শতকরা.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_16",
+      "slug": "ntrca-preliminary-ai-গণিত-০৪-সুদ-সরল-ও-চক্রবৃদ্ধি",
+      "title": "গণিত - ০৪. সুদ (সরল ও চক্রবৃদ্ধি)",
+      "clean_filename": "গণিত - ০৪. সুদ (সরল ও চক্রবৃদ্ধি).json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/গণিত - ০৪. সুদ (সরল ও চক্রবৃদ্ধি).json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_17",
+      "slug": "ntrca-preliminary-ai-গণিত-০৫-অনুপাত-ও-সমানুপাত",
+      "title": "গণিত - ০৫. অনুপাত ও সমানুপাত",
+      "clean_filename": "গণিত - ০৫. অনুপাত ও সমানুপাত.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/গণিত - ০৫. অনুপাত ও সমানুপাত.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_18",
+      "slug": "ntrca-preliminary-ai-গণিত-০৬-উৎপাদক-বিশ্লেষণ",
+      "title": "গণিত - ০৬. উৎপাদক বিশ্লেষণ",
+      "clean_filename": "গণিত - ০৬. উৎপাদক বিশ্লেষণ.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/গণিত - ০৬. উৎপাদক বিশ্লেষণ.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_19",
+      "slug": "ntrca-preliminary-ai-গণিত-০৭-বীজগাণিতিক-সূত্র-বর্গ-ও-ঘনের-সূত্র",
+      "title": "গণিত - ০৭. বীজগাণিতিক সূত্র, বর্গ ও ঘনের সূত্র",
+      "clean_filename": "গণিত - ০৭. বীজগাণিতিক সূত্র, বর্গ ও ঘনের সূত্র.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/গণিত - ০৭. বীজগাণিতিক সূত্র, বর্গ ও ঘনের সূত্র.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_20",
+      "slug": "ntrca-preliminary-ai-গণিত-০৮-বীজগণিতীয়-গসাগু-ও-লসাগু",
+      "title": "গণিত - ০৮. বীজগণিতীয় গ.সা.গু. ও ল.সা.গু.",
+      "clean_filename": "গণিত - ০৮. বীজগণিতীয় গ.সা.গু. ও ল.সা.গু..json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/গণিত - ০৮. বীজগণিতীয় গ.সা.গু. ও ল.সা.গু..json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_21",
+      "slug": "ntrca-preliminary-ai-গণিত-০৯-সূচক-ও-লগারিদম",
+      "title": "গণিত - ০৯. সূচক ও লগারিদম",
+      "clean_filename": "গণিত - ০৯. সূচক ও লগারিদম.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/গণিত - ০৯. সূচক ও লগারিদম.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_22",
+      "slug": "ntrca-preliminary-ai-গণিত-১০-রেখা-কোণ-ও-ত্রিভুজ",
+      "title": "গণিত - ১০. রেখা, কোণ ও ত্রিভুজ",
+      "clean_filename": "গণিত - ১০. রেখা, কোণ ও ত্রিভুজ.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/গণিত - ১০. রেখা, কোণ ও ত্রিভুজ.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_23",
+      "slug": "ntrca-preliminary-ai-গণিত-১১-চতুর্ভুজ-ও-ক্ষেত্রফল",
+      "title": "গণিত - ১১. চতুর্ভুজ ও ক্ষেত্রফল",
+      "clean_filename": "গণিত - ১১. চতুর্ভুজ ও ক্ষেত্রফল.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/গণিত - ১১. চতুর্ভুজ ও ক্ষেত্রফল.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_24",
+      "slug": "ntrca-preliminary-ai-গণিত-১২-বৃত্ত",
+      "title": "গণিত - ১২. বৃত্ত",
+      "clean_filename": "গণিত - ১২. বৃত্ত.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/গণিত - ১২. বৃত্ত.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_25",
+      "slug": "ntrca-preliminary-ai-বাংলা-০১-ভাষারীতি-ও-বিরামচিহ্নের-ব্যবহার",
+      "title": "বাংলা - ০১. ভাষারীতি ও বিরামচিহ্নের ব্যবহার",
+      "clean_filename": "বাংলা - ০১. ভাষারীতি ও বিরামচিহ্নের ব্যবহার.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ০১. ভাষারীতি ও বিরামচিহ্নের ব্যবহার.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_26",
+      "slug": "ntrca-preliminary-ai-বাংলা-০২-বাগধারা-ও-বাগবিধি",
+      "title": "বাংলা - ০২. বাগধারা ও বাগবিধি",
+      "clean_filename": "বাংলা - ০২. বাগধারা ও বাগবিধি.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ০২. বাগধারা ও বাগবিধি.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_27",
+      "slug": "ntrca-preliminary-ai-বাংলা-০৩-ভুল-সংশোধন-বা-শুদ্ধকরণ",
+      "title": "বাংলা - ০৩. ভুল সংশোধন বা শুদ্ধকরণ",
+      "clean_filename": "বাংলা - ০৩. ভুল সংশোধন বা শুদ্ধকরণ.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ০৩. ভুল সংশোধন বা শুদ্ধকরণ.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_28",
+      "slug": "ntrca-preliminary-ai-বাংলা-০৪-যথার্থ-অনুবাদ-ও-পদ-পরিবর্তন",
+      "title": "বাংলা - ০৪. যথার্থ অনুবাদ ও পদ-পরিবর্তন",
+      "clean_filename": "বাংলা - ০৪. যথার্থ অনুবাদ ও পদ-পরিবর্তন.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ০৪. যথার্থ অনুবাদ ও পদ-পরিবর্তন.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_29",
+      "slug": "ntrca-preliminary-ai-বাংলা-০৫-সন্ধি-বিচ্ছেদ",
+      "title": "বাংলা - ০৫. সন্ধি-বিচ্ছেদ",
+      "clean_filename": "বাংলা - ০৫. সন্ধি-বিচ্ছেদ.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ০৫. সন্ধি-বিচ্ছেদ.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_30",
+      "slug": "ntrca-preliminary-ai-বাংলা-০৬-কারক-ও-বিভক্তি",
+      "title": "বাংলা - ০৬. কারক ও বিভক্তি",
+      "clean_filename": "বাংলা - ০৬. কারক ও বিভক্তি.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ০৬. কারক ও বিভক্তি.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_31",
+      "slug": "ntrca-preliminary-ai-বাংলা-০৭-সমাস",
+      "title": "বাংলা - ০৭. সমাস",
+      "clean_filename": "বাংলা - ০৭. সমাস.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ০৭. সমাস.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_32",
+      "slug": "ntrca-preliminary-ai-বাংলা-০৮-ধ্বনি-পরিবর্তন-ণ-ত্ব-ও-ষ-ত্ব-বিধান",
+      "title": "বাংলা - ০৮. ধ্বনি পরিবর্তন, ণ-ত্ব ও ষ-ত্ব বিধান",
+      "clean_filename": "বাংলা - ০৮. ধ্বনি পরিবর্তন, ণ-ত্ব ও ষ-ত্ব বিধান.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ০৮. ধ্বনি পরিবর্তন, ণ-ত্ব ও ষ-ত্ব বিধান.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_33",
+      "slug": "ntrca-preliminary-ai-বাংলা-০৯-সমার্থক-ও-বিপরীতার্থক-শব্দ",
+      "title": "বাংলা - ০৯. সমার্থক ও বিপরীতার্থক শব্দ",
+      "clean_filename": "বাংলা - ০৯. সমার্থক ও বিপরীতার্থক শব্দ.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ০৯. সমার্থক ও বিপরীতার্থক শব্দ.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_34",
+      "slug": "ntrca-preliminary-ai-বাংলা-১০-বাগধারা-ও-বাক্য-সংকোচন-এককথায়-প্রকাশ",
+      "title": "বাংলা - ১০. বাগধারা ও বাক্য সংকোচন (এককথায় প্রকাশ)",
+      "clean_filename": "বাংলা - ১০. বাগধারা ও বাক্য সংকোচন (এককথায় প্রকাশ).json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ১০. বাগধারা ও বাক্য সংকোচন (এককথায় প্রকাশ).json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_35",
+      "slug": "ntrca-preliminary-ai-বাংলা-১১-বাক্য-প্রকরণ-যতিচিহ্ন-ও-বাক্য-শুদ্ধি",
+      "title": "বাংলা - ১১. বাক্য প্রকরণ, যতিচিহ্ন ও বাক্য শুদ্ধি",
+      "clean_filename": "বাংলা - ১১. বাক্য প্রকরণ, যতিচিহ্ন ও বাক্য শুদ্ধি.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ১১. বাক্য প্রকরণ, যতিচিহ্ন ও বাক্য শুদ্ধি.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_36",
+      "slug": "ntrca-preliminary-ai-বাংলা-১২-বাংলা-সাহিত্য-প্রাচীন-ও-মধ্যযুগ",
+      "title": "বাংলা - ১২. বাংলা সাহিত্য (প্রাচীন ও মধ্যযুগ)",
+      "clean_filename": "বাংলা - ১২. বাংলা সাহিত্য (প্রাচীন ও মধ্যযুগ).json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ১২. বাংলা সাহিত্য (প্রাচীন ও মধ্যযুগ).json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_37",
+      "slug": "ntrca-preliminary-ai-বাংলা-১৩-বাংলা-সাহিত্য-আধুনিক-যুগ-প্রধান-কবি-সাহিত্যিক-ও-পত্রিকা",
+      "title": "বাংলা - ১৩. বাংলা সাহিত্য (আধুনিক যুগ - প্রধান কবি, সাহিত্যিক ও পত্রিকা)",
+      "clean_filename": "বাংলা - ১৩. বাংলা সাহিত্য (আধুনিক যুগ - প্রধান কবি, সাহিত্যিক ও পত্রিকা).json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/বাংলা - ১৩. বাংলা সাহিত্য (আধুনিক যুগ - প্রধান কবি, সাহিত্যিক ও পত্রিকা).json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_38",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-০১-বাংলাদেশ-ভূপ্রকৃতি-ও-জলবায়ু-ইতিহাস",
+      "title": "সাধারণ জ্ঞান - ০১. বাংলাদেশ - ভূপ্রকৃতি ও জলবায়ু, ইতিহাস",
+      "clean_filename": "সাধারণ জ্ঞান - ০১. বাংলাদেশ - ভূপ্রকৃতি ও জলবায়ু, ইতিহাস.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ০১. বাংলাদেশ - ভূপ্রকৃতি ও জলবায়ু, ইতিহাস.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_39",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-০২-বাংলাদেশ-ভাষা-আন্দোলন-ও-মুক্তিযুদ্ধ",
+      "title": "সাধারণ জ্ঞান - ০২. বাংলাদেশ - ভাষা আন্দোলন ও মুক্তিযুদ্ধ",
+      "clean_filename": "সাধারণ জ্ঞান - ০২. বাংলাদেশ - ভাষা আন্দোলন ও মুক্তিযুদ্ধ.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ০২. বাংলাদেশ - ভাষা আন্দোলন ও মুক্তিযুদ্ধ.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_40",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-০৩-বাংলাদেশ-সংবিধান-ও-রাষ্ট্রব্যবস্থা",
+      "title": "সাধারণ জ্ঞান - ০৩. বাংলাদেশ - সংবিধান ও রাষ্ট্রব্যবস্থা",
+      "clean_filename": "সাধারণ জ্ঞান - ০৩. বাংলাদেশ - সংবিধান ও রাষ্ট্রব্যবস্থা.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ০৩. বাংলাদেশ - সংবিধান ও রাষ্ট্রব্যবস্থা.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_41",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-০৪-বাংলাদেশ-অর্থনীতি-শিক্ষা-ও-সংস্কৃতি",
+      "title": "সাধারণ জ্ঞান - ০৪. বাংলাদেশ - অর্থনীতি, শিক্ষা ও সংস্কৃতি",
+      "clean_filename": "সাধারণ জ্ঞান - ০৪. বাংলাদেশ - অর্থনীতি, শিক্ষা ও সংস্কৃতি.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ০৪. বাংলাদেশ - অর্থনীতি, শিক্ষা ও সংস্কৃতি.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_42",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-০৫-বাংলাদেশ-কৃষি-শিল্প-বন-ও-পানি-সম্পদ",
+      "title": "সাধারণ জ্ঞান - ০৫. বাংলাদেশ - কৃষি, শিল্প, বন ও পানি সম্পদ",
+      "clean_filename": "সাধারণ জ্ঞান - ০৫. বাংলাদেশ - কৃষি, শিল্প, বন ও পানি সম্পদ.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ০৫. বাংলাদেশ - কৃষি, শিল্প, বন ও পানি সম্পদ.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_43",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-০৬-বাংলাদেশ-জাতীয়-দিবস-ইত্যাদি",
+      "title": "সাধারণ জ্ঞান - ০৬. বাংলাদেশ - জাতীয় দিবস ইত্যাদি",
+      "clean_filename": "সাধারণ জ্ঞান - ০৬. বাংলাদেশ - জাতীয় দিবস ইত্যাদি.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ০৬. বাংলাদেশ - জাতীয় দিবস ইত্যাদি.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_44",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-০৭-আন্তর্জাতিক-আন্তর্জাতিক-সংস্থা-ও-জোট",
+      "title": "সাধারণ জ্ঞান - ০৭. আন্তর্জাতিক - আন্তর্জাতিক সংস্থা ও জোট",
+      "clean_filename": "সাধারণ জ্ঞান - ০৭. আন্তর্জাতিক - আন্তর্জাতিক সংস্থা ও জোট.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ০৭. আন্তর্জাতিক - আন্তর্জাতিক সংস্থা ও জোট.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_45",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-০৮-আন্তর্জাতিক-বিভিন্ন-দেশ-ও-রাজধানী-মুদ্রা",
+      "title": "সাধারণ জ্ঞান - ০৮. আন্তর্জাতিক - বিভিন্ন দেশ ও রাজধানী, মুদ্রা",
+      "clean_filename": "সাধারণ জ্ঞান - ০৮. আন্তর্জাতিক - বিভিন্ন দেশ ও রাজধানী, মুদ্রা.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ০৮. আন্তর্জাতিক - বিভিন্ন দেশ ও রাজধানী, মুদ্রা.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_46",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-০৯-আন্তর্জাতিক-আন্তর্জাতিক-দিবস-ও-পুরস্কার",
+      "title": "সাধারণ জ্ঞান - ০৯. আন্তর্জাতিক - আন্তর্জাতিক দিবস ও পুরস্কার",
+      "clean_filename": "সাধারণ জ্ঞান - ০৯. আন্তর্জাতিক - আন্তর্জাতিক দিবস ও পুরস্কার.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ০৯. আন্তর্জাতিক - আন্তর্জাতিক দিবস ও পুরস্কার.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_47",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-১০-আন্তর্জাতিক-খেলাধুলা-ও-জলবায়ু-পরিবর্তন",
+      "title": "সাধারণ জ্ঞান - ১০. আন্তর্জাতিক - খেলাধুলা ও জলবায়ু পরিবর্তন",
+      "clean_filename": "সাধারণ জ্ঞান - ১০. আন্তর্জাতিক - খেলাধুলা ও জলবায়ু পরিবর্তন.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ১০. আন্তর্জাতিক - খেলাধুলা ও জলবায়ু পরিবর্তন.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_48",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-১১-তথ্য-ও-যোগাযোগ-প্রযুক্তি",
+      "title": "সাধারণ জ্ঞান - ১১. তথ্য ও যোগাযোগ প্রযুক্তি",
+      "clean_filename": "সাধারণ জ্ঞান - ১১. তথ্য ও যোগাযোগ প্রযুক্তি.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ১১. তথ্য ও যোগাযোগ প্রযুক্তি.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_49",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-১২-পদার্থ-রসায়ন-ও-জীববিজ্ঞান",
+      "title": "সাধারণ জ্ঞান - ১২. পদার্থ, রসায়ন ও জীববিজ্ঞান",
+      "clean_filename": "সাধারণ জ্ঞান - ১২. পদার্থ, রসায়ন ও জীববিজ্ঞান.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ১২. পদার্থ, রসায়ন ও জীববিজ্ঞান.json"
+    },
+    {
+      "id": "smartai_ntrca-preliminary-ai_50",
+      "slug": "ntrca-preliminary-ai-সাধারণ-জ্ঞান-১৩-পরিবেশ-স্বাস্থ্য-ও-রোগব্যাধি",
+      "title": "সাধারণ জ্ঞান - ১৩. পরিবেশ, স্বাস্থ্য ও রোগব্যাধি",
+      "clean_filename": "সাধারণ জ্ঞান - ১৩. পরিবেশ, স্বাস্থ্য ও রোগব্যাধি.json",
+      "category_id": "ntrca-preliminary-ai",
+      "category_name": "NTRCA Preliminary AI",
+      "question_count": 200,
+      "file": "/data/Smart AI/NTRCA Preminary AI/সাধারণ জ্ঞান - ১৩. পরিবেশ, স্বাস্থ্য ও রোগব্যাধি.json"
+    }
+  ]
+}

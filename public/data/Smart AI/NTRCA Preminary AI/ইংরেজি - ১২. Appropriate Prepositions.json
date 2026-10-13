@@ -1,0 +1,2602 @@
+[
+  {
+    "id": 1,
+    "topic": "Appropriate Prepositions",
+    "question": "He died ___ cholera.",
+    "options": [
+      "for",
+      "by",
+      "of",
+      "from"
+    ],
+    "answer": "গ",
+    "explanation": "রোগে মারা গেলে 'die of' ব্যবহৃত হয়। সুতরাং 'He died of cholera' সঠিক।"
+  },
+  {
+    "id": 2,
+    "topic": "Appropriate Prepositions",
+    "question": "The soldier died ___ his country.",
+    "options": [
+      "for",
+      "from",
+      "of",
+      "by"
+    ],
+    "answer": "ক",
+    "explanation": "দেশের জন্য আত্মত্যাগ বা কোনো মহৎ উদ্দেশ্যে মারা গেলে 'die for' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 3,
+    "topic": "Appropriate Prepositions",
+    "question": "He died ___ overeating.",
+    "options": [
+      "for",
+      "of",
+      "by",
+      "from"
+    ],
+    "answer": "ঘ",
+    "explanation": "অতিরিক্ত খাওয়া, পরিশ্রম বা অন্য কোনো পরোক্ষ কারণে মারা গেলে 'die from' বসে।"
+  },
+  {
+    "id": 4,
+    "topic": "Appropriate Prepositions",
+    "question": "The passenger died ___ an accident.",
+    "options": [
+      "for",
+      "by",
+      "of",
+      "from"
+    ],
+    "answer": "খ",
+    "explanation": "দুর্ঘটনায় বা অপঘাতে মারা গেলে সাধারণত 'die by' (বা in an accident) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 5,
+    "topic": "Appropriate Prepositions",
+    "question": "He died ___ poison.",
+    "options": [
+      "by",
+      "for",
+      "of",
+      "from"
+    ],
+    "answer": "ক",
+    "explanation": "বিষপানে বা আত্মহত্যাজনিত কারণে মারা গেলে 'die by poison' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 6,
+    "topic": "Appropriate Prepositions",
+    "question": "She died ___ poverty and starvation.",
+    "options": [
+      "by",
+      "of",
+      "for",
+      "from"
+    ],
+    "answer": "ঘ",
+    "explanation": "অনাহার বা দারিদ্রে মারা গেলে 'die from' (বা of starvation) বসে।"
+  },
+  {
+    "id": 7,
+    "topic": "Appropriate Prepositions",
+    "question": "The brave man died ___ harness.",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "by"
+    ],
+    "answer": "গ",
+    "explanation": "'Die in harness' একটি ইডিয়ম, যার অর্থ কর্মরত অবস্থায় মৃত্যুবরণ করা।"
+  },
+  {
+    "id": 8,
+    "topic": "Appropriate Prepositions",
+    "question": "He is good ___ English.",
+    "options": [
+      "with",
+      "at",
+      "in",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "কোনো বিষয়ে দক্ষ বোঝাতে 'good at' বসে।"
+  },
+  {
+    "id": 9,
+    "topic": "Appropriate Prepositions",
+    "question": "He is weak ___ Mathematics.",
+    "options": [
+      "for",
+      "on",
+      "at",
+      "in"
+    ],
+    "answer": "ঘ",
+    "explanation": "কোনো বিষয়ে কাঁচা বা দুর্বল বোঝাতে 'weak in' বসে।"
+  },
+  {
+    "id": 10,
+    "topic": "Appropriate Prepositions",
+    "question": "The boy is clever ___ painting.",
+    "options": [
+      "with",
+      "at",
+      "in",
+      "on"
+    ],
+    "answer": "খ",
+    "explanation": "কোনো বিষয়ে পারদর্শী বোঝাতে 'clever at' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 11,
+    "topic": "Appropriate Prepositions",
+    "question": "He is senior ___ me by two years.",
+    "options": [
+      "to",
+      "of",
+      "than",
+      "from"
+    ],
+    "answer": "ক",
+    "explanation": "Senior, junior, superior, inferior, prior ইত্যাদির পর তুলনার ক্ষেত্রে 'to' বসে, 'than' নয়।"
+  },
+  {
+    "id": 12,
+    "topic": "Appropriate Prepositions",
+    "question": "I am junior ___ all my colleagues.",
+    "options": [
+      "than",
+      "from",
+      "to",
+      "with"
+    ],
+    "answer": "গ",
+    "explanation": "Junior-এর পরে সর্বদা preposition হিসেবে 'to' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 13,
+    "topic": "Appropriate Prepositions",
+    "question": "This brand is superior ___ that one.",
+    "options": [
+      "to",
+      "from",
+      "over",
+      "than"
+    ],
+    "answer": "ক",
+    "explanation": "Superior-এর পরে comparative ডিগ্রির ক্ষেত্রে 'to' বসে।"
+  },
+  {
+    "id": 14,
+    "topic": "Appropriate Prepositions",
+    "question": "The quality of this cloth is inferior ___ that.",
+    "options": [
+      "with",
+      "from",
+      "to",
+      "than"
+    ],
+    "answer": "গ",
+    "explanation": "Inferior-এর পরে 'to' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 15,
+    "topic": "Appropriate Prepositions",
+    "question": "Prior ___ that, he had worked in a bank.",
+    "options": [
+      "from",
+      "to",
+      "than",
+      "before"
+    ],
+    "answer": "খ",
+    "explanation": "Prior শব্দের পর উপযুক্ত preposition হিসেবে 'to' বসে (prior to = পূর্বে)।"
+  },
+  {
+    "id": 16,
+    "topic": "Appropriate Prepositions",
+    "question": "I prefer tea ___ coffee.",
+    "options": [
+      "from",
+      "than",
+      "over",
+      "to"
+    ],
+    "answer": "ঘ",
+    "explanation": "পছন্দের ক্ষেত্রে দুইটির মধ্যে তুলনা করতে 'prefer ... to ...' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 17,
+    "topic": "Appropriate Prepositions",
+    "question": "He preferred death ___ dishonour.",
+    "options": [
+      "to",
+      "over",
+      "than",
+      "from"
+    ],
+    "answer": "ক",
+    "explanation": "Prefer-এর পর 'to' বসে। 'He preferred death to dishonour' অর্থ সে অপমানের চেয়ে মৃত্যুকে প্রাধান্য দিল।"
+  },
+  {
+    "id": 18,
+    "topic": "Appropriate Prepositions",
+    "question": "You must abide ___ the rules of the institution.",
+    "options": [
+      "with",
+      "to",
+      "in",
+      "by"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Abide by' অর্থ মেনে চলা। নিয়মানুবর্তিতা বোঝাতে abide by বসে।"
+  },
+  {
+    "id": 19,
+    "topic": "Appropriate Prepositions",
+    "question": "He is absorbed ___ deep thought.",
+    "options": [
+      "with",
+      "at",
+      "in",
+      "on"
+    ],
+    "answer": "গ",
+    "explanation": "'Absorbed in' অর্থ মগ্ন বা নিমগ্ন থাকা।"
+  },
+  {
+    "id": 20,
+    "topic": "Appropriate Prepositions",
+    "question": "Please abstain ___ evil company.",
+    "options": [
+      "with",
+      "from",
+      "in",
+      "to"
+    ],
+    "answer": "খ",
+    "explanation": "'Abstain from' অর্থ কোনো কিছু থেকে বিরত থাকা।"
+  },
+  {
+    "id": 21,
+    "topic": "Appropriate Prepositions",
+    "question": "We should refrain ___ smoking in public places.",
+    "options": [
+      "to",
+      "by",
+      "with",
+      "from"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Refrain from' অর্থ বিরত থাকা।"
+  },
+  {
+    "id": 22,
+    "topic": "Appropriate Prepositions",
+    "question": "He is accustomed ___ working hard.",
+    "options": [
+      "with",
+      "in",
+      "to",
+      "at"
+    ],
+    "answer": "গ",
+    "explanation": "'Accustomed to' অর্থ অভ্যস্ত হওয়া।"
+  },
+  {
+    "id": 23,
+    "topic": "Appropriate Prepositions",
+    "question": "You should adhere ___ your principles.",
+    "options": [
+      "with",
+      "to",
+      "in",
+      "on"
+    ],
+    "answer": "খ",
+    "explanation": "'Adhere to' অর্থ দৃঢ়ভাবে লেগে থাকা বা নীতিতে অবিচল থাকা।"
+  },
+  {
+    "id": 24,
+    "topic": "Appropriate Prepositions",
+    "question": "His house is adjacent ___ the school.",
+    "options": [
+      "to",
+      "with",
+      "near",
+      "at"
+    ],
+    "answer": "ক",
+    "explanation": "'Adjacent to' অর্থ সংলগ্ন বা নিকটে অবস্থিত।"
+  },
+  {
+    "id": 25,
+    "topic": "Appropriate Prepositions",
+    "question": "The old man is afflicted ___ arthritis.",
+    "options": [
+      "to",
+      "with",
+      "by",
+      "of"
+    ],
+    "answer": "খ",
+    "explanation": "'Afflicted with' অর্থ যন্ত্রণাদায়ক ব্যাধি বা কষ্টে পীড়িত হওয়া।"
+  },
+  {
+    "id": 26,
+    "topic": "Appropriate Prepositions",
+    "question": "Children are often afraid ___ ghosts.",
+    "options": [
+      "with",
+      "to",
+      "from",
+      "of"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Afraid of' অর্থ ভীত হওয়া।"
+  },
+  {
+    "id": 27,
+    "topic": "Appropriate Prepositions",
+    "question": "The hunter aimed ___ the bird.",
+    "options": [
+      "on",
+      "to",
+      "at",
+      "with"
+    ],
+    "answer": "গ",
+    "explanation": "'Aim at' অর্থ কোনো লক্ষ্যবস্তুর দিকে তাক করা বা নিশানা করা।"
+  },
+  {
+    "id": 28,
+    "topic": "Appropriate Prepositions",
+    "question": "The teacher was angry ___ the students.",
+    "options": [
+      "with",
+      "at",
+      "to",
+      "for"
+    ],
+    "answer": "ক",
+    "explanation": "কোনো ব্যক্তির ওপর রাগান্বিত হলে 'angry with' বসে।"
+  },
+  {
+    "id": 29,
+    "topic": "Appropriate Prepositions",
+    "question": "He was angry ___ my improper behavior.",
+    "options": [
+      "with",
+      "at",
+      "for",
+      "to"
+    ],
+    "answer": "খ",
+    "explanation": "কারো আচরণ বা কোনো বিষয়ের ওপর রাগ প্রকাশ করতে 'angry at' বসে।"
+  },
+  {
+    "id": 30,
+    "topic": "Appropriate Prepositions",
+    "question": "Parents are anxious ___ their children's safety.",
+    "options": [
+      "at",
+      "for",
+      "about",
+      "with"
+    ],
+    "answer": "গ",
+    "explanation": "উদ্বিগ্ন অর্থে 'anxious about' ব্যবহৃত হয় (কোনো কিছুর ব্যাকুল আকাঙ্ক্ষা বোঝাতে anxious for বসে)।"
+  },
+  {
+    "id": 31,
+    "topic": "Appropriate Prepositions",
+    "question": "You must apologize ___ your teacher ___ your misconduct.",
+    "options": [
+      "at, to",
+      "for, to",
+      "with, for",
+      "to, for"
+    ],
+    "answer": "ঘ",
+    "explanation": "কারো নিকট ক্ষমা প্রার্থনা করতে 'apologize to (someone)' এবং কোনো অপরাধের জন্য হলে 'for (something)' বসে।"
+  },
+  {
+    "id": 32,
+    "topic": "Appropriate Prepositions",
+    "question": "I have no appetite ___ food today.",
+    "options": [
+      "for",
+      "with",
+      "in",
+      "to"
+    ],
+    "answer": "ক",
+    "explanation": "'Appetite for' অর্থ ক্ষুধার উদ্রেক বা তীব্র রুচি থাকা।"
+  },
+  {
+    "id": 33,
+    "topic": "Appropriate Prepositions",
+    "question": "He applied ___ the Principal ___ a leave.",
+    "options": [
+      "to, for",
+      "for, to",
+      "in, for",
+      "with, for"
+    ],
+    "answer": "ক",
+    "explanation": "কারো কাছে আবেদন করতে 'apply to' এবং কোনো পদের জন্য বা ছুটির জন্য 'apply for' বসে।"
+  },
+  {
+    "id": 34,
+    "topic": "Appropriate Prepositions",
+    "question": "The minister was apprised ___ the situation.",
+    "options": [
+      "about",
+      "of",
+      "to",
+      "with"
+    ],
+    "answer": "খ",
+    "explanation": "'Apprise of' অর্থ অবহিত করা বা জ্ঞাত করা।"
+  },
+  {
+    "id": 35,
+    "topic": "Appropriate Prepositions",
+    "question": "His remarks are not appropriate ___ the occasion.",
+    "options": [
+      "with",
+      "for",
+      "at",
+      "to"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Appropriate to' (বা for) অর্থ প্রাসঙ্গিক বা উপযুক্ত।"
+  },
+  {
+    "id": 36,
+    "topic": "Appropriate Prepositions",
+    "question": "My father does not approve ___ my proposal.",
+    "options": [
+      "with",
+      "to",
+      "of",
+      "for"
+    ],
+    "answer": "গ",
+    "explanation": "'Approve of' অর্থ অনুমোদন বা সম্মতি প্রদান করা।"
+  },
+  {
+    "id": 37,
+    "topic": "Appropriate Prepositions",
+    "question": "Do not argue ___ your elders.",
+    "options": [
+      "with",
+      "at",
+      "against",
+      "to"
+    ],
+    "answer": "ক",
+    "explanation": "কারো সাথে তর্ক করা বোঝাতে 'argue with' বসে।"
+  },
+  {
+    "id": 38,
+    "topic": "Appropriate Prepositions",
+    "question": "He felt ashamed ___ his rude conduct.",
+    "options": [
+      "at",
+      "with",
+      "for",
+      "of"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Ashamed of' অর্থ লজ্জিত হওয়া।"
+  },
+  {
+    "id": 39,
+    "topic": "Appropriate Prepositions",
+    "question": "The poor boy asked ___ help.",
+    "options": [
+      "after",
+      "with",
+      "for",
+      "to"
+    ],
+    "answer": "গ",
+    "explanation": "'Ask for' অর্থ চাওয়া বা প্রার্থনা করা।"
+  },
+  {
+    "id": 40,
+    "topic": "Appropriate Prepositions",
+    "question": "A student should aspire ___ greatness.",
+    "options": [
+      "after",
+      "to",
+      "for",
+      "at"
+    ],
+    "answer": "খ",
+    "explanation": "'Aspire to' (বা after) অর্থ উচ্চাকাঙ্ক্ষা পোষণ করা বা মহৎ কিছু কামনা করা।"
+  },
+  {
+    "id": 41,
+    "topic": "Appropriate Prepositions",
+    "question": "The doctor assured me ___ his recovery.",
+    "options": [
+      "for",
+      "with",
+      "of",
+      "about"
+    ],
+    "answer": "গ",
+    "explanation": "'Assure of' অর্থ আশ্বস্ত করা।"
+  },
+  {
+    "id": 42,
+    "topic": "Appropriate Prepositions",
+    "question": "We were astonished ___ his unexpected failure.",
+    "options": [
+      "at",
+      "by",
+      "for",
+      "with"
+    ],
+    "answer": "ক",
+    "explanation": "'Astonished at' অর্থ কোনো ঘটনায় বিস্মিত বা হতবাক হওয়া।"
+  },
+  {
+    "id": 43,
+    "topic": "Appropriate Prepositions",
+    "question": "You must attend ___ your teacher's lecture.",
+    "options": [
+      "with",
+      "upon",
+      "at",
+      "to"
+    ],
+    "answer": "ঘ",
+    "explanation": "মনোযোগ দেওয়ার ক্ষেত্রে 'attend to' বসে (সেবা করার ক্ষেত্রে attend upon/on বসে)।"
+  },
+  {
+    "id": 44,
+    "topic": "Appropriate Prepositions",
+    "question": "The nurse attended ___ the sick patient.",
+    "options": [
+      "with",
+      "upon",
+      "to",
+      "at"
+    ],
+    "answer": "খ",
+    "explanation": "রোগীর সেবা-শুশ্রূষা করা বোঝাতে 'attend upon' বা 'attend on' বসে।"
+  },
+  {
+    "id": 45,
+    "topic": "Appropriate Prepositions",
+    "question": "You should avail yourself ___ this golden opportunity.",
+    "options": [
+      "in",
+      "to",
+      "with",
+      "of"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Avail (oneself) of' অর্থ সুযোগ গ্রহণ করা বা সদ্ব্যবহার করা।"
+  },
+  {
+    "id": 46,
+    "topic": "Appropriate Prepositions",
+    "question": "He is averse ___ hard physical labor.",
+    "options": [
+      "with",
+      "at",
+      "to",
+      "from"
+    ],
+    "answer": "গ",
+    "explanation": "'Averse to' অর্থ বিমুখ বা অনিচ্ছুক।"
+  },
+  {
+    "id": 47,
+    "topic": "Appropriate Prepositions",
+    "question": "One should be fully aware ___ one's rights.",
+    "options": [
+      "about",
+      "of",
+      "with",
+      "to"
+    ],
+    "answer": "খ",
+    "explanation": "'Aware of' অর্থ সচেতন বা অবগত।"
+  },
+  {
+    "id": 48,
+    "topic": "Appropriate Prepositions",
+    "question": "The dog barked ___ the stranger.",
+    "options": [
+      "at",
+      "on",
+      "with",
+      "to"
+    ],
+    "answer": "ক",
+    "explanation": "'Bark at' অর্থ ঘেউ ঘেউ করা।"
+  },
+  {
+    "id": 49,
+    "topic": "Appropriate Prepositions",
+    "question": "I do not believe ___ his honesty.",
+    "options": [
+      "to",
+      "with",
+      "on",
+      "in"
+    ],
+    "answer": "ঘ",
+    "explanation": "কোনো কিছুতে আস্থা বা বিশ্বাস স্থাপন করতে 'believe in' বসে।"
+  },
+  {
+    "id": 50,
+    "topic": "Appropriate Prepositions",
+    "question": "This beautiful house belongs ___ my grandfather.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "in"
+    ],
+    "answer": "ক",
+    "explanation": "'Belong to' অর্থ কারো মালিকানাধীন বা অধিকারভুক্ত হওয়া।"
+  },
+  {
+    "id": 51,
+    "topic": "Appropriate Prepositions",
+    "question": "He is bent ___ ruining his own career.",
+    "options": [
+      "to",
+      "on",
+      "with",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "'Bent on' অর্থ কোনো কিছু করতে অনড় বা সংকল্পবদ্ধ থাকা।"
+  },
+  {
+    "id": 52,
+    "topic": "Appropriate Prepositions",
+    "question": "The tragedy left him bereft ___ all hope.",
+    "options": [
+      "by",
+      "from",
+      "of",
+      "with"
+    ],
+    "answer": "গ",
+    "explanation": "'Bereft of' অর্থ বঞ্চিত বা নিঃস্ব হওয়া।"
+  },
+  {
+    "id": 53,
+    "topic": "Appropriate Prepositions",
+    "question": "The king bestowed great honors ___ the brave soldier.",
+    "options": [
+      "with",
+      "to",
+      "for",
+      "on"
+    ],
+    "answer": "ঘ",
+    "explanation": "কাউকে সম্মান বা খেতাব প্রদান করা বোঝাতে 'bestow on' (বা upon) বসে।"
+  },
+  {
+    "id": 54,
+    "topic": "Appropriate Prepositions",
+    "question": "Beware ___ pickpockets in crowded areas.",
+    "options": [
+      "to",
+      "of",
+      "with",
+      "from"
+    ],
+    "answer": "খ",
+    "explanation": "'Beware of' অর্থ সতর্ক বা সাবধান হওয়া।"
+  },
+  {
+    "id": 55,
+    "topic": "Appropriate Prepositions",
+    "question": "A father should not be blind ___ his son's faults.",
+    "options": [
+      "to",
+      "in",
+      "with",
+      "of"
+    ],
+    "answer": "ক",
+    "explanation": "দোষ দেখেও না দেখার ভান করা বা অন্ধ স্নেহ প্রকাশে 'blind to' বসে।"
+  },
+  {
+    "id": 56,
+    "topic": "Appropriate Prepositions",
+    "question": "The unfortunate beggar is blind ___ one eye.",
+    "options": [
+      "from",
+      "to",
+      "of",
+      "with"
+    ],
+    "answer": "গ",
+    "explanation": "চোখে সত্যি সত্যি দেখতে না পেলে 'blind of/in an eye' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 57,
+    "topic": "Appropriate Prepositions",
+    "question": "Do not boast ___ your wealth and power.",
+    "options": [
+      "for",
+      "with",
+      "about",
+      "of"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Boast of' অর্থ অহংকার বা দম্ভ করা।"
+  },
+  {
+    "id": 58,
+    "topic": "Appropriate Prepositions",
+    "question": "The ship is bound ___ London.",
+    "options": [
+      "for",
+      "towards",
+      "at",
+      "to"
+    ],
+    "answer": "ক",
+    "explanation": "কোনো গন্তব্যে যাত্রার উদ্দেশ্যে রওনা হলে 'bound for' বসে।"
+  },
+  {
+    "id": 59,
+    "topic": "Appropriate Prepositions",
+    "question": "Hearing the sad news, the girl burst ___ tears.",
+    "options": [
+      "with",
+      "into",
+      "in",
+      "out"
+    ],
+    "answer": "খ",
+    "explanation": "কান্নায় ভেঙে পড়া বোঝাতে 'burst into tears' বসে।"
+  },
+  {
+    "id": 60,
+    "topic": "Appropriate Prepositions",
+    "question": "Everyone burst ___ laughing at his witty joke.",
+    "options": [
+      "in",
+      "with",
+      "out",
+      "into"
+    ],
+    "answer": "গ",
+    "explanation": "অট্টহাসিতে ফেটে পড়া বোঝাতে 'burst out laughing' বসে।"
+  },
+  {
+    "id": 61,
+    "topic": "Appropriate Prepositions",
+    "question": "The emergency situation calls ___ immediate action.",
+    "options": [
+      "on",
+      "at",
+      "for",
+      "in"
+    ],
+    "answer": "গ",
+    "explanation": "'Call for' অর্থ দাবি করা বা প্রয়োজন হওয়া (demand)।"
+  },
+  {
+    "id": 62,
+    "topic": "Appropriate Prepositions",
+    "question": "The Prime Minister called ___ the President yesterday.",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "কোনো ব্যক্তির সাথে সাক্ষাৎ করা বোঝাতে 'call on' বসে।"
+  },
+  {
+    "id": 63,
+    "topic": "Appropriate Prepositions",
+    "question": "He promised to call ___ my office this afternoon.",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "to"
+    ],
+    "answer": "ক",
+    "explanation": "কোনো স্থানে গিয়ে দেখা করা বোঝাতে 'call at' বসে।"
+  },
+  {
+    "id": 64,
+    "topic": "Appropriate Prepositions",
+    "question": "He is capable ___ solving the most complex puzzles.",
+    "options": [
+      "for",
+      "with",
+      "to",
+      "of"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Capable of' অর্থ কোনো কিছু করতে সক্ষম।"
+  },
+  {
+    "id": 65,
+    "topic": "Appropriate Prepositions",
+    "question": "We should be careful ___ our health.",
+    "options": [
+      "about",
+      "of",
+      "with",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "'Careful of' বা 'careful about' অর্থ যত্নশীল বা সতর্ক।"
+  },
+  {
+    "id": 66,
+    "topic": "Appropriate Prepositions",
+    "question": "He is confident ___ his eventual victory.",
+    "options": [
+      "about",
+      "in",
+      "of",
+      "for"
+    ],
+    "answer": "গ",
+    "explanation": "'Confident of' অর্থ নিশ্চিত বা আস্থাশীল।"
+  },
+  {
+    "id": 67,
+    "topic": "Appropriate Prepositions",
+    "question": "His story coincides ___ the police report.",
+    "options": [
+      "with",
+      "at",
+      "to",
+      "for"
+    ],
+    "answer": "ক",
+    "explanation": "'Coincide with' অর্থ হুবহু মিলে যাওয়া বা একমত হওয়া।"
+  },
+  {
+    "id": 68,
+    "topic": "Appropriate Prepositions",
+    "question": "Shakespeare is often compared ___ Kalidasa.",
+    "options": [
+      "at",
+      "with",
+      "from",
+      "to"
+    ],
+    "answer": "ঘ",
+    "explanation": "ভিন্ন জাতীয় দুটি জিনিসের সাথে রূপক তুলনা করতে 'compare to' এবং সমজাতীয় ব্যক্তির সাথে তুলনা করতে 'compare with' প্রচলিত।"
+  },
+  {
+    "id": 69,
+    "topic": "Appropriate Prepositions",
+    "question": "The company compensated the workers ___ their loss.",
+    "options": [
+      "with",
+      "of",
+      "to",
+      "for"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Compensate for' অর্থ ক্ষতিপূরণ দেওয়া।"
+  },
+  {
+    "id": 70,
+    "topic": "Appropriate Prepositions",
+    "question": "Water is composed ___ hydrogen and oxygen.",
+    "options": [
+      "with",
+      "from",
+      "of",
+      "by"
+    ],
+    "answer": "গ",
+    "explanation": "'Composed of' অর্থ কোনো কিছু দ্বারা গঠিত হওয়া।"
+  },
+  {
+    "id": 71,
+    "topic": "Appropriate Prepositions",
+    "question": "You must comply ___ the official orders.",
+    "options": [
+      "with",
+      "for",
+      "to",
+      "in"
+    ],
+    "answer": "ক",
+    "explanation": "'Comply with' অর্থ আদেশ বা অনুরোধ মেনে চলা।"
+  },
+  {
+    "id": 72,
+    "topic": "Appropriate Prepositions",
+    "question": "I concur ___ you on this important matter.",
+    "options": [
+      "to",
+      "with",
+      "in",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যক্তির সাথে একমত হওয়া বোঝাতে 'concur with' বসে।"
+  },
+  {
+    "id": 73,
+    "topic": "Appropriate Prepositions",
+    "question": "The convicted criminal was condemned ___ death.",
+    "options": [
+      "with",
+      "by",
+      "to",
+      "for"
+    ],
+    "answer": "গ",
+    "explanation": "'Condemned to' অর্থ দণ্ডে দণ্ডিত হওয়া (condemned to death)।"
+  },
+  {
+    "id": 74,
+    "topic": "Appropriate Prepositions",
+    "question": "I have full reason to confide ___ his integrity.",
+    "options": [
+      "with",
+      "to",
+      "on",
+      "in"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Confide in' অর্থ কারো ওপর সম্পূর্ণ বিশ্বাস বা আস্থা রাখা।"
+  },
+  {
+    "id": 75,
+    "topic": "Appropriate Prepositions",
+    "question": "All citizens must conform ___ the traffic regulations.",
+    "options": [
+      "to",
+      "with",
+      "for",
+      "by"
+    ],
+    "answer": "ক",
+    "explanation": "'Conform to' অর্থ নিয়ম বা বিধিমালার সাথে সঙ্গতি রক্ষা করা।"
+  },
+  {
+    "id": 76,
+    "topic": "Appropriate Prepositions",
+    "question": "We congratulated him ___ his outstanding success.",
+    "options": [
+      "with",
+      "on",
+      "at",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "কারো সাফল্যে অভিনন্দন জানাতে 'congratulate on' ব্যবহৃত হয়, 'for' নয়।"
+  },
+  {
+    "id": 77,
+    "topic": "Appropriate Prepositions",
+    "question": "A good citizen is conscious ___ his moral duties.",
+    "options": [
+      "with",
+      "about",
+      "of",
+      "to"
+    ],
+    "answer": "গ",
+    "explanation": "'Conscious of' অর্থ সচেতন বা সজাগ।"
+  },
+  {
+    "id": 78,
+    "topic": "Appropriate Prepositions",
+    "question": "Happiness consists ___ contentment of the mind.",
+    "options": [
+      "with",
+      "of",
+      "at",
+      "in"
+    ],
+    "answer": "ঘ",
+    "explanation": "কোনো কিছুতে নিহিত থাকা অর্থে 'consist in' বসে (সুখ আত্মতুষ্টির মধ্যে নিহিত)।"
+  },
+  {
+    "id": 79,
+    "topic": "Appropriate Prepositions",
+    "question": "The committee consists ___ seven eminent members.",
+    "options": [
+      "of",
+      "by",
+      "with",
+      "in"
+    ],
+    "answer": "ক",
+    "explanation": "কোনো কিছু নিয়ে গঠিত হওয়া অর্থে 'consist of' বসে।"
+  },
+  {
+    "id": 80,
+    "topic": "Appropriate Prepositions",
+    "question": "His action was contrary ___ his official statement.",
+    "options": [
+      "from",
+      "to",
+      "with",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "'Contrary to' অর্থ বিপরীত বা প্রতিকূল।"
+  },
+  {
+    "id": 81,
+    "topic": "Appropriate Prepositions",
+    "question": "Rich people should contribute ___ relief funds.",
+    "options": [
+      "for",
+      "with",
+      "in",
+      "to"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Contribute to' অর্থ কোনো তহবিলে চাঁদা বা অবদান রাখা।"
+  },
+  {
+    "id": 82,
+    "topic": "Appropriate Prepositions",
+    "question": "He has no control ___ his fiery temper.",
+    "options": [
+      "with",
+      "over",
+      "on",
+      "at"
+    ],
+    "answer": "খ",
+    "explanation": "কোনো কিছুর ওপর নিয়ন্ত্রণ বোঝাতে 'control over' বসে।"
+  },
+  {
+    "id": 83,
+    "topic": "Appropriate Prepositions",
+    "question": "The lawyer is thoroughly conversant ___ the law.",
+    "options": [
+      "with",
+      "in",
+      "about",
+      "to"
+    ],
+    "answer": "ক",
+    "explanation": "'Conversant with' অর্থ কোনো বিষয়ে সম্যক অবগত বা অভিজ্ঞ।"
+  },
+  {
+    "id": 84,
+    "topic": "Appropriate Prepositions",
+    "question": "The jury convicted him ___ the heinous murder.",
+    "options": [
+      "with",
+      "in",
+      "of",
+      "for"
+    ],
+    "answer": "গ",
+    "explanation": "'Convict of' অর্থ কোনো অপরাধে দোষী সাব্যস্ত করা।"
+  },
+  {
+    "id": 85,
+    "topic": "Appropriate Prepositions",
+    "question": "It is difficult to cope ___ the rising inflation.",
+    "options": [
+      "against",
+      "to",
+      "up with",
+      "with"
+    ],
+    "answer": "ঘ",
+    "explanation": "পরিস্থিতির সাথে মানিয়ে নেওয়া বোঝাতে 'cope with' সঠিক ('cope up with' ব্যাকরণগতভাবে ভুল)।"
+  },
+  {
+    "id": 86,
+    "topic": "Appropriate Prepositions",
+    "question": "There is no easy cure ___ this fatal disease.",
+    "options": [
+      "of",
+      "to",
+      "for",
+      "from"
+    ],
+    "answer": "গ",
+    "explanation": "রোগের প্রতিষেধক বা প্রতিকার অর্থে noun হিসেবে 'cure for' বসে (কিন্তু verb হিসেবে cured of বসে)।"
+  },
+  {
+    "id": 87,
+    "topic": "Appropriate Prepositions",
+    "question": "The doctor cured him ___ the terrible fever.",
+    "options": [
+      "with",
+      "of",
+      "from",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "রোগমুক্ত হওয়া অর্থে verb 'cure of' বসে।"
+  },
+  {
+    "id": 88,
+    "topic": "Appropriate Prepositions",
+    "question": "He deals ___ rice and wheat in the market.",
+    "options": [
+      "in",
+      "with",
+      "for",
+      "to"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যবসা করা অর্থে 'deal in' বসে (deal in rice/textiles)।"
+  },
+  {
+    "id": 89,
+    "topic": "Appropriate Prepositions",
+    "question": "He knows how to deal ___ rude customers.",
+    "options": [
+      "in",
+      "for",
+      "to",
+      "with"
+    ],
+    "answer": "ঘ",
+    "explanation": "কারো সাথে আচরণ করা বা কোনো সমস্যা সমাধান করা অর্থে 'deal with' বসে।"
+  },
+  {
+    "id": 90,
+    "topic": "Appropriate Prepositions",
+    "question": "He dedicated his life ___ the service of humanity.",
+    "options": [
+      "to",
+      "with",
+      "for",
+      "in"
+    ],
+    "answer": "ক",
+    "explanation": "'Dedicate to' অর্থ কোনো মহৎ কাজে উৎসর্গ করা।"
+  },
+  {
+    "id": 91,
+    "topic": "Appropriate Prepositions",
+    "question": "His diet is deficient ___ essential vitamins.",
+    "options": [
+      "of",
+      "from",
+      "in",
+      "with"
+    ],
+    "answer": "গ",
+    "explanation": "'Deficient in' অর্থ কোনো উপাদানের ঘাটতি থাকা।"
+  },
+  {
+    "id": 92,
+    "topic": "Appropriate Prepositions",
+    "question": "The poet takes great delight ___ nature's beauty.",
+    "options": [
+      "at",
+      "in",
+      "with",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "'Delight in' অর্থ কোনো কিছুতে আনন্দ উপভোগ করা।"
+  },
+  {
+    "id": 93,
+    "topic": "Appropriate Prepositions",
+    "question": "Success depends ___ hard and consistent work.",
+    "options": [
+      "to",
+      "at",
+      "with",
+      "on"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Depend on' (বা upon) অর্থ নির্ভর করা।"
+  },
+  {
+    "id": 94,
+    "topic": "Appropriate Prepositions",
+    "question": "The tyrant deprived the citizens ___ their rights.",
+    "options": [
+      "with",
+      "from",
+      "of",
+      "to"
+    ],
+    "answer": "গ",
+    "explanation": "'Deprive of' অর্থ বঞ্চিত করা।"
+  },
+  {
+    "id": 95,
+    "topic": "Appropriate Prepositions",
+    "question": "He has a strong desire ___ fame and recognition.",
+    "options": [
+      "for",
+      "in",
+      "to",
+      "of"
+    ],
+    "answer": "ক",
+    "explanation": "'Desire for' অর্থ কোনো কিছুর তীব্র কামনা (noun হিসেবে desire for বসে)।"
+  },
+  {
+    "id": 96,
+    "topic": "Appropriate Prepositions",
+    "question": "The defeated army despaired ___ winning the war.",
+    "options": [
+      "for",
+      "of",
+      "with",
+      "from"
+    ],
+    "answer": "খ",
+    "explanation": "'Despair of' অর্থ কোনো আশা ত্যাগ করা বা নিরাশ হওয়া।"
+  },
+  {
+    "id": 97,
+    "topic": "Appropriate Prepositions",
+    "question": "His speech was totally devoid ___ truth.",
+    "options": [
+      "to",
+      "from",
+      "with",
+      "of"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Devoid of' অর্থ বর্জিত বা শূন্য।"
+  },
+  {
+    "id": 98,
+    "topic": "Appropriate Prepositions",
+    "question": "The student devoted four hours daily ___ studies.",
+    "options": [
+      "for",
+      "in",
+      "to",
+      "with"
+    ],
+    "answer": "গ",
+    "explanation": "'Devote to' অর্থ সময় বা শক্তি নিয়োজিত করা।"
+  },
+  {
+    "id": 99,
+    "topic": "Appropriate Prepositions",
+    "question": "I beg to differ ___ you on this controversial topic.",
+    "options": [
+      "from",
+      "with",
+      "to",
+      "against"
+    ],
+    "answer": "খ",
+    "explanation": "কারো সাথে মতের অমিল হওয়া বোঝাতে 'differ with' বসে।"
+  },
+  {
+    "id": 100,
+    "topic": "Appropriate Prepositions",
+    "question": "This modern model differs greatly ___ the old one.",
+    "options": [
+      "from",
+      "to",
+      "with",
+      "by"
+    ],
+    "answer": "ক",
+    "explanation": "কোনো বস্তুর সাথে গুণের ভিন্নতা বোঝাতে 'differ from' বসে।"
+  },
+  {
+    "id": 101,
+    "topic": "Appropriate Prepositions",
+    "question": "Only graduates are eligible ___ this administrative post.",
+    "options": [
+      "to",
+      "in",
+      "with",
+      "for"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Eligible for' অর্থ কোনো পদের জন্য উপযুক্ত বা যোগ্য।"
+  },
+  {
+    "id": 102,
+    "topic": "Appropriate Prepositions",
+    "question": "She is engaged ___ an engineer.",
+    "options": [
+      "to",
+      "with",
+      "for",
+      "by"
+    ],
+    "answer": "ক",
+    "explanation": "বাগদান সম্পন্ন হওয়া বোঝাতে 'engaged to' বসে (কাজে মগ্ন থাকলে engaged in বসে)।"
+  },
+  {
+    "id": 103,
+    "topic": "Appropriate Prepositions",
+    "question": "He is currently engaged ___ writing a new novel.",
+    "options": [
+      "with",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "খ",
+    "explanation": "কোনো কাজে ব্যস্ত বা নিযুক্ত থাকা বোঝাতে 'engaged in' বসে।"
+  },
+  {
+    "id": 104,
+    "topic": "Appropriate Prepositions",
+    "question": "He was envious ___ his neighbor's prosperity.",
+    "options": [
+      "at",
+      "with",
+      "of",
+      "to"
+    ],
+    "answer": "গ",
+    "explanation": "'Envious of' অর্থ ঈর্ষান্বিত হওয়া।"
+  },
+  {
+    "id": 105,
+    "topic": "Appropriate Prepositions",
+    "question": "Water is essential ___ human life.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "of"
+    ],
+    "answer": "ক",
+    "explanation": "'Essential to' (বা for) অর্থ অত্যাবশ্যক বা অপরিহার্য।"
+  },
+  {
+    "id": 106,
+    "topic": "Appropriate Prepositions",
+    "question": "She excels ___ classical Indian music.",
+    "options": [
+      "with",
+      "for",
+      "at",
+      "in"
+    ],
+    "answer": "ঘ",
+    "explanation": "কোনো শিল্প বা বিদ্যায় অসাধারণ নৈপুণ্য প্রদর্শন বোঝাতে 'excel in' বসে।"
+  },
+  {
+    "id": 107,
+    "topic": "Appropriate Prepositions",
+    "question": "Charitable institutions are exempt ___ taxation.",
+    "options": [
+      "to",
+      "with",
+      "from",
+      "of"
+    ],
+    "answer": "গ",
+    "explanation": "'Exempt from' অর্থ অব্যাহতিপ্রাপ্ত বা রেহাই পাওয়া।"
+  },
+  {
+    "id": 108,
+    "topic": "Appropriate Prepositions",
+    "question": "His face is familiar ___ me.",
+    "options": [
+      "with",
+      "to",
+      "of",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "কারো কাছে পরিচিত বোঝাতে 'familiar to' বসে (কারো সাথে পরিচয় বোঝাতে familiar with বসে)।"
+  },
+  {
+    "id": 109,
+    "topic": "Appropriate Prepositions",
+    "question": "I am quite familiar ___ the rules of this game.",
+    "options": [
+      "with",
+      "for",
+      "at",
+      "to"
+    ],
+    "answer": "ক",
+    "explanation": "কোনো বিষয় সম্যক জানা বোঝাতে 'familiar with' বসে।"
+  },
+  {
+    "id": 110,
+    "topic": "Appropriate Prepositions",
+    "question": "Cancer proved fatal ___ his grandfather.",
+    "options": [
+      "of",
+      "to",
+      "for",
+      "with"
+    ],
+    "answer": "খ",
+    "explanation": "'Fatal to' অর্থ প্রাণঘাতী বা মারাত্মক ক্ষতিকর।"
+  },
+  {
+    "id": 111,
+    "topic": "Appropriate Prepositions",
+    "question": "Cows feed mostly ___ green grass.",
+    "options": [
+      "by",
+      "in",
+      "with",
+      "on"
+    ],
+    "answer": "ঘ",
+    "explanation": "কোনো কিছু খেয়ে বেঁচে থাকা বোঝাতে 'feed on' বসে।"
+  },
+  {
+    "id": 112,
+    "topic": "Appropriate Prepositions",
+    "question": "Children are extremely fond ___ sweets.",
+    "options": [
+      "in",
+      "for",
+      "of",
+      "to"
+    ],
+    "answer": "গ",
+    "explanation": "'Fond of' অর্থ অনুরাগী বা প্রিয় হওয়া।"
+  },
+  {
+    "id": 113,
+    "topic": "Appropriate Prepositions",
+    "question": "He is finally free ___ all financial worries.",
+    "options": [
+      "with",
+      "of",
+      "from",
+      "to"
+    ],
+    "answer": "গ",
+    "explanation": "কোনো সমস্যা বা বিপদ থেকে মুক্ত অর্থে 'free from' বসে।"
+  },
+  {
+    "id": 114,
+    "topic": "Appropriate Prepositions",
+    "question": "The pitcher was full ___ cold water.",
+    "options": [
+      "in",
+      "with",
+      "by",
+      "of"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Full of' অর্থ পূর্ণ বা ভর্তি থাকা।"
+  },
+  {
+    "id": 115,
+    "topic": "Appropriate Prepositions",
+    "question": "He glanced ___ his wristwatch anxiously.",
+    "options": [
+      "on",
+      "at",
+      "with",
+      "to"
+    ],
+    "answer": "খ",
+    "explanation": "'Glance at' অর্থ একনজর তাকানো বা চোখ বুলানো।"
+  },
+  {
+    "id": 116,
+    "topic": "Appropriate Prepositions",
+    "question": "I am truly grateful ___ you ___ your timely help.",
+    "options": [
+      "to, for",
+      "at, to",
+      "for, to",
+      "with, for"
+    ],
+    "answer": "ক",
+    "explanation": "কারো প্রতি কৃতজ্ঞ হলে 'grateful to' এবং উপকারের জন্য হলে 'grateful for' বসে।"
+  },
+  {
+    "id": 117,
+    "topic": "Appropriate Prepositions",
+    "question": "He is greedy ___ power and influence.",
+    "options": [
+      "to",
+      "with",
+      "for",
+      "of"
+    ],
+    "answer": "গ",
+    "explanation": "'Greedy for' (বা of) অর্থ লোভী।"
+  },
+  {
+    "id": 118,
+    "topic": "Appropriate Prepositions",
+    "question": "The prisoner was found guilty ___ treason.",
+    "options": [
+      "in",
+      "of",
+      "with",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "'Guilty of' অর্থ কোনো অপরাধে অপরাধী সাব্যস্ত হওয়া।"
+  },
+  {
+    "id": 119,
+    "topic": "Appropriate Prepositions",
+    "question": "Do not hanker ___ worldly wealth.",
+    "options": [
+      "at",
+      "for",
+      "to",
+      "after"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Hanker after' অর্থ কোনো কিছুর পেছনে ব্যাকুল হয়ে ছোটা।"
+  },
+  {
+    "id": 120,
+    "topic": "Appropriate Prepositions",
+    "question": "The old grandfather is hard ___ hearing.",
+    "options": [
+      "of",
+      "with",
+      "in",
+      "at"
+    ],
+    "answer": "ক",
+    "explanation": "'Hard of hearing' একটি প্রবাদতুল্য বাক্যাংশ, যার অর্থ কানে কম শোনা।"
+  },
+  {
+    "id": 121,
+    "topic": "Appropriate Prepositions",
+    "question": "Prince Charles was heir ___ the British throne.",
+    "options": [
+      "of",
+      "to",
+      "in",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "'Heir to' অর্থ উত্তরাধিকারী।"
+  },
+  {
+    "id": 122,
+    "topic": "Appropriate Prepositions",
+    "question": "We all hope ___ a bright future.",
+    "options": [
+      "for",
+      "to",
+      "in",
+      "with"
+    ],
+    "answer": "ক",
+    "explanation": "'Hope for' অর্থ কোনো ভালো ফলের আশা করা।"
+  },
+  {
+    "id": 123,
+    "topic": "Appropriate Prepositions",
+    "question": "He was completely ignorant ___ the latest developments.",
+    "options": [
+      "about",
+      "in",
+      "of",
+      "with"
+    ],
+    "answer": "গ",
+    "explanation": "'Ignorant of' অর্থ অজ্ঞ বা অনবগত।"
+  },
+  {
+    "id": 124,
+    "topic": "Appropriate Prepositions",
+    "question": "He has been ill ___ typhoid for a week.",
+    "options": [
+      "of",
+      "by",
+      "from",
+      "with"
+    ],
+    "answer": "ঘ",
+    "explanation": "কোনো রোগে আক্রান্ত হয়ে অসুস্থ থাকা বোঝাতে 'ill with' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 125,
+    "topic": "Appropriate Prepositions",
+    "question": "The government imposed heavy tax ___ luxury goods.",
+    "options": [
+      "on",
+      "to",
+      "in",
+      "upon"
+    ],
+    "answer": "ক",
+    "explanation": "'Impose on/upon' অর্থ কর বা নিয়ম চাপিয়ে দেওয়া।"
+  },
+  {
+    "id": 126,
+    "topic": "Appropriate Prepositions",
+    "question": "I am greatly indebted ___ him for his guidance.",
+    "options": [
+      "with",
+      "to",
+      "for",
+      "at"
+    ],
+    "answer": "খ",
+    "explanation": "'Indebted to' অর্থ কারো কাছে ঋণী থাকা।"
+  },
+  {
+    "id": 127,
+    "topic": "Appropriate Prepositions",
+    "question": "A stoic is indifferent ___ pain and pleasure.",
+    "options": [
+      "from",
+      "at",
+      "to",
+      "with"
+    ],
+    "answer": "গ",
+    "explanation": "'Indifferent to' অর্থ উদাসীন বা নির্বিকার।"
+  },
+  {
+    "id": 128,
+    "topic": "Appropriate Prepositions",
+    "question": "Do not indulge ___ smoking or alcohol.",
+    "options": [
+      "at",
+      "to",
+      "with",
+      "in"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Indulge in' অর্থ কোনো আসক্তিকর কাজে লিপ্ত হওয়া।"
+  },
+  {
+    "id": 129,
+    "topic": "Appropriate Prepositions",
+    "question": "The principal was informed ___ the matter.",
+    "options": [
+      "about",
+      "with",
+      "of",
+      "to"
+    ],
+    "answer": "গ",
+    "explanation": "'Informed of' অর্থ কোনো বিষয়ে জানানো বা জ্ঞাত করা।"
+  },
+  {
+    "id": 130,
+    "topic": "Appropriate Prepositions",
+    "question": "The suspect was found innocent ___ the accusation.",
+    "options": [
+      "with",
+      "of",
+      "from",
+      "in"
+    ],
+    "answer": "খ",
+    "explanation": "'Innocent of' অর্থ নির্দোষ।"
+  },
+  {
+    "id": 131,
+    "topic": "Appropriate Prepositions",
+    "question": "He insisted ___ going there alone.",
+    "options": [
+      "on",
+      "for",
+      "in",
+      "to"
+    ],
+    "answer": "ক",
+    "explanation": "'Insist on' অর্থ জিদ ধরা বা নাছোড়বান্দা হওয়া। এর পর gerund বসে।"
+  },
+  {
+    "id": 132,
+    "topic": "Appropriate Prepositions",
+    "question": "She has a keen interest ___ photography.",
+    "options": [
+      "with",
+      "to",
+      "for",
+      "in"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Interest in' অর্থ আগ্রহ বা কৌতূহল।"
+  },
+  {
+    "id": 133,
+    "topic": "Appropriate Prepositions",
+    "question": "He is very intimate ___ the local mayor.",
+    "options": [
+      "of",
+      "for",
+      "with",
+      "to"
+    ],
+    "answer": "গ",
+    "explanation": "'Intimate with' অর্থ ঘনিষ্ঠ বা অন্তরঙ্গ।"
+  },
+  {
+    "id": 134,
+    "topic": "Appropriate Prepositions",
+    "question": "Allow me to introduce my friend ___ you.",
+    "options": [
+      "with",
+      "for",
+      "at",
+      "to"
+    ],
+    "answer": "ঘ",
+    "explanation": "কারো সাথে পরিচয় করিয়ে দেওয়া অর্থে 'introduce to' বসে।"
+  },
+  {
+    "id": 135,
+    "topic": "Appropriate Prepositions",
+    "question": "They invited us ___ dinner last night.",
+    "options": [
+      "to",
+      "at",
+      "in",
+      "for"
+    ],
+    "answer": "ক",
+    "explanation": "ভোজ বা অনুষ্ঠানে নিমন্ত্রণ জানানো বোঝাতে 'invite to' বসে ('invite for' নয়)।"
+  },
+  {
+    "id": 136,
+    "topic": "Appropriate Prepositions",
+    "question": "She is jealous ___ her sister's success.",
+    "options": [
+      "with",
+      "of",
+      "to",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "'Jealous of' অর্থ ঈর্ষাপরায়ণ হওয়া।"
+  },
+  {
+    "id": 137,
+    "topic": "Appropriate Prepositions",
+    "question": "Do not jump ___ a hasty conclusion without evidence.",
+    "options": [
+      "on",
+      "at",
+      "to",
+      "in"
+    ],
+    "answer": "গ",
+    "explanation": "'Jump to a conclusion' অর্থ তাড়াহুড়ো করে সিদ্ধান্তে পৌঁছানো।"
+  },
+  {
+    "id": 138,
+    "topic": "Appropriate Prepositions",
+    "question": "Industry is the key ___ success in life.",
+    "options": [
+      "in",
+      "to",
+      "for",
+      "of"
+    ],
+    "answer": "খ",
+    "explanation": "'Key to' অর্থ চাবিকাঠি বা প্রধান উপায়।"
+  },
+  {
+    "id": 139,
+    "topic": "Appropriate Prepositions",
+    "question": "We must always be kind ___ animals.",
+    "options": [
+      "to",
+      "with",
+      "towards",
+      "for"
+    ],
+    "answer": "ক",
+    "explanation": "'Kind to' অর্থ সদয় বা সহানুভূতিশীল।"
+  },
+  {
+    "id": 140,
+    "topic": "Appropriate Prepositions",
+    "question": "Someone was knocking ___ the door loudly.",
+    "options": [
+      "to",
+      "on",
+      "in",
+      "at"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Knock at the door' অর্থ দরজায় কড়া নাড়া।"
+  },
+  {
+    "id": 141,
+    "topic": "Appropriate Prepositions",
+    "question": "Due to lack ___ funds, the project was stopped.",
+    "options": [
+      "in",
+      "of",
+      "for",
+      "with"
+    ],
+    "answer": "খ",
+    "explanation": "Noun হিসেবে 'lack of' বসে (অভাব বোঝাতে)।"
+  },
+  {
+    "id": 142,
+    "topic": "Appropriate Prepositions",
+    "question": "The war veteran was lame ___ one leg.",
+    "options": [
+      "of",
+      "at",
+      "in",
+      "with"
+    ],
+    "answer": "ক",
+    "explanation": "'Lame of/in a leg' অর্থ খোঁড়া হওয়া।"
+  },
+  {
+    "id": 143,
+    "topic": "Appropriate Prepositions",
+    "question": "Never laugh ___ the helpless and poor.",
+    "options": [
+      "on",
+      "with",
+      "to",
+      "at"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Laugh at' অর্থ কাউকে উপহাস বা বিদ্রূপ করা।"
+  },
+  {
+    "id": 144,
+    "topic": "Appropriate Prepositions",
+    "question": "Careless driving often leads ___ fatal accidents.",
+    "options": [
+      "in",
+      "towards",
+      "to",
+      "for"
+    ],
+    "answer": "গ",
+    "explanation": "'Lead to' অর্থ কোনো ফলের দিকে চালিত করা বা ঘটানো।"
+  },
+  {
+    "id": 145,
+    "topic": "Appropriate Prepositions",
+    "question": "Those who break traffic laws are liable ___ a fine.",
+    "options": [
+      "in",
+      "with",
+      "to",
+      "for"
+    ],
+    "answer": "গ",
+    "explanation": "'Liable to' অর্থ কোনো জরিমানা বা শাস্তির আওতায় পড়া।"
+  },
+  {
+    "id": 146,
+    "topic": "Appropriate Prepositions",
+    "question": "Please listen ___ what the teacher says.",
+    "options": [
+      "to",
+      "at",
+      "for",
+      "with"
+    ],
+    "answer": "ক",
+    "explanation": "'Listen to' অর্থ মনোযোগ দিয়ে শোনা।"
+  },
+  {
+    "id": 147,
+    "topic": "Appropriate Prepositions",
+    "question": "The poor peasant lives ___ honest means.",
+    "options": [
+      "in",
+      "with",
+      "on",
+      "by"
+    ],
+    "answer": "ঘ",
+    "explanation": "কোনো উপায়ে জীবিকা নির্বাহ করা বোঝাতে 'live by' বসে (যেমন: live by honest labor)।"
+  },
+  {
+    "id": 148,
+    "topic": "Appropriate Prepositions",
+    "question": "Bengalis live mainly ___ rice and fish.",
+    "options": [
+      "by",
+      "on",
+      "with",
+      "in"
+    ],
+    "answer": "খ",
+    "explanation": "কোনো নির্দিষ্ট খাদ্য খেয়ে জীবনধারণ করা বোঝাতে 'live on' বসে।"
+  },
+  {
+    "id": 149,
+    "topic": "Appropriate Prepositions",
+    "question": "The mother longs ___ her lost son.",
+    "options": [
+      "after",
+      "at",
+      "to",
+      "for"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Long for' অর্থ গভীর ব্যাকুলতা বা তীব্র আকাঙ্ক্ষা পোষণ করা।"
+  },
+  {
+    "id": 150,
+    "topic": "Appropriate Prepositions",
+    "question": "Who will look ___ the orphan child?",
+    "options": [
+      "into",
+      "after",
+      "for",
+      "at"
+    ],
+    "answer": "খ",
+    "explanation": "'Look after' অর্থ যত্ন নেওয়া বা দেখাশোনা করা।"
+  },
+  {
+    "id": 151,
+    "topic": "Appropriate Prepositions",
+    "question": "The detective is looking ___ the mysterious murder.",
+    "options": [
+      "into",
+      "at",
+      "after",
+      "for"
+    ],
+    "answer": "ক",
+    "explanation": "'Look into' অর্থ তদন্ত করা (investigate)।"
+  },
+  {
+    "id": 152,
+    "topic": "Appropriate Prepositions",
+    "question": "I am looking ___ my lost car keys.",
+    "options": [
+      "at",
+      "into",
+      "for",
+      "after"
+    ],
+    "answer": "গ",
+    "explanation": "'Look for' অর্থ খোঁজা বা সন্ধান করা (search)।"
+  },
+  {
+    "id": 153,
+    "topic": "Appropriate Prepositions",
+    "question": "Do not look down ___ the poor.",
+    "options": [
+      "upon",
+      "with",
+      "at",
+      "to"
+    ],
+    "answer": "ক",
+    "explanation": "'Look down upon' অর্থ ঘৃণা করা বা অবজ্ঞার চোখে দেখা।"
+  },
+  {
+    "id": 154,
+    "topic": "Appropriate Prepositions",
+    "question": "Soldiers must remain loyal ___ their nation.",
+    "options": [
+      "for",
+      "to",
+      "at",
+      "with"
+    ],
+    "answer": "খ",
+    "explanation": "'Loyal to' অর্থ বিশ্বস্ত বা অনুগত।"
+  },
+  {
+    "id": 155,
+    "topic": "Appropriate Prepositions",
+    "question": "The grieving mother was mad ___ grief.",
+    "options": [
+      "of",
+      "for",
+      "with",
+      "at"
+    ],
+    "answer": "গ",
+    "explanation": "'Mad with' অর্থ চরম আবেগে দিশেহারা বা পাগলপ্রায় হওয়া।"
+  },
+  {
+    "id": 156,
+    "topic": "Appropriate Prepositions",
+    "question": "This sturdy table is made ___ solid teak wood.",
+    "options": [
+      "with",
+      "from",
+      "by",
+      "of"
+    ],
+    "answer": "ঘ",
+    "explanation": "যে উপাদান দিয়ে তৈরি তা বাহ্যিকভাবে অপরিবর্তিত থাকলে 'made of' বসে (যেমন: table is made of wood)।"
+  },
+  {
+    "id": 157,
+    "topic": "Appropriate Prepositions",
+    "question": "Paper is made ___ wood and bamboo.",
+    "options": [
+      "with",
+      "from",
+      "of",
+      "by"
+    ],
+    "answer": "খ",
+    "explanation": "উপাদানটির রাসায়নিক বা বাহ্যিক রূপ পুরোপুরি বদলে গেলে 'made from' বসে (যেমন: paper is made from wood)।"
+  },
+  {
+    "id": 158,
+    "topic": "Appropriate Prepositions",
+    "question": "The princess was married ___ a noble knight.",
+    "options": [
+      "with",
+      "by",
+      "of",
+      "to"
+    ],
+    "answer": "ঘ",
+    "explanation": "Passive voice-এ 'marry to' ব্যবহৃত হয় (যেমন: married to someone)।"
+  },
+  {
+    "id": 159,
+    "topic": "Appropriate Prepositions",
+    "question": "Do not meddle ___ my personal affairs.",
+    "options": [
+      "in",
+      "with",
+      "at",
+      "to"
+    ],
+    "answer": "ক",
+    "explanation": "'Meddle in' (বা meddle with) অর্থ অনধিকার চর্চা করা বা নাক গলানো।"
+  },
+  {
+    "id": 160,
+    "topic": "Appropriate Prepositions",
+    "question": "A good student is mindful ___ his daily studies.",
+    "options": [
+      "at",
+      "to",
+      "of",
+      "with"
+    ],
+    "answer": "গ",
+    "explanation": "'Mindful of' অর্থ যত্নবান বা মনোযোগী।"
+  },
+  {
+    "id": 161,
+    "topic": "Appropriate Prepositions",
+    "question": "The entire nation mourned ___ the fallen heroes.",
+    "options": [
+      "for",
+      "with",
+      "at",
+      "to"
+    ],
+    "answer": "ক",
+    "explanation": "'Mourn for' অর্থ কারো মৃত্যুতে শোক প্রকাশ করা।"
+  },
+  {
+    "id": 162,
+    "topic": "Appropriate Prepositions",
+    "question": "Fresh water is necessary ___ all living organisms.",
+    "options": [
+      "at",
+      "with",
+      "to",
+      "for"
+    ],
+    "answer": "গ",
+    "explanation": "'Necessary to' (বা for) অর্থ প্রয়োজনীয় বা অপরিহার্য।"
+  },
+  {
+    "id": 163,
+    "topic": "Appropriate Prepositions",
+    "question": "He lost his job because he was negligent ___ his duty.",
+    "options": [
+      "in",
+      "of",
+      "at",
+      "to"
+    ],
+    "answer": "খ",
+    "explanation": "'Negligent of' (বা in) অর্থ কর্তব্যে অবহেলাকারী।"
+  },
+  {
+    "id": 164,
+    "topic": "Appropriate Prepositions",
+    "question": "The notorious outlaw was known ___ his cruelty.",
+    "options": [
+      "with",
+      "at",
+      "to",
+      "for"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Notorious for' অর্থ কুখ্যাত হওয়া।"
+  },
+  {
+    "id": 165,
+    "topic": "Appropriate Prepositions",
+    "question": "A child should be obedient ___ his parents.",
+    "options": [
+      "for",
+      "with",
+      "at",
+      "to"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Obedient to' অর্থ বাধ্য বা অনুগত।"
+  },
+  {
+    "id": 166,
+    "topic": "Appropriate Prepositions",
+    "question": "We strongly objected ___ their unreasonable proposal.",
+    "options": [
+      "with",
+      "at",
+      "to",
+      "for"
+    ],
+    "answer": "গ",
+    "explanation": "'Object to' অর্থ আপত্তি জানানো।"
+  },
+  {
+    "id": 167,
+    "topic": "Appropriate Prepositions",
+    "question": "I am much obliged ___ you for your kindness.",
+    "options": [
+      "for",
+      "to",
+      "at",
+      "with"
+    ],
+    "answer": "খ",
+    "explanation": "'Obliged to' অর্থ কারো প্রতি কৃতজ্ঞ বা অনুগৃহীত।"
+  },
+  {
+    "id": 168,
+    "topic": "Appropriate Prepositions",
+    "question": "Illiteracy is a major obstacle ___ national progress.",
+    "options": [
+      "to",
+      "of",
+      "in",
+      "for"
+    ],
+    "answer": "ক",
+    "explanation": "'Obstacle to' অর্থ অগ্রগতির পথে অন্তরায় বা বাধা।"
+  },
+  {
+    "id": 169,
+    "topic": "Appropriate Prepositions",
+    "question": "A brilliant idea suddenly occurred ___ my mind.",
+    "options": [
+      "into",
+      "to",
+      "in",
+      "at"
+    ],
+    "answer": "খ",
+    "explanation": "'Occur to' অর্থ মনে উদয় হওয়া বা মাথায় আসা।"
+  },
+  {
+    "id": 170,
+    "topic": "Appropriate Prepositions",
+    "question": "The admission is open ___ students of all backgrounds.",
+    "options": [
+      "to",
+      "with",
+      "for",
+      "at"
+    ],
+    "answer": "ক",
+    "explanation": "'Open to' অর্থ সবার জন্য উন্মুক্ত।"
+  },
+  {
+    "id": 171,
+    "topic": "Appropriate Prepositions",
+    "question": "The Ganga originates ___ the Gangotri glacier.",
+    "options": [
+      "from",
+      "by",
+      "at",
+      "in"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Originate in' (বা from) অর্থ কোনো স্থান থেকে উৎপন্ন হওয়া।"
+  },
+  {
+    "id": 172,
+    "topic": "Appropriate Prepositions",
+    "question": "The grieving widow was overcome ___ sorrow.",
+    "options": [
+      "of",
+      "at",
+      "with",
+      "by"
+    ],
+    "answer": "গ",
+    "explanation": "'Overcome with' অর্থ তীব্র শোকে বা আবেগে অভিভূত হওয়া।"
+  },
+  {
+    "id": 173,
+    "topic": "Appropriate Prepositions",
+    "question": "These two railway tracks are parallel ___ each other.",
+    "options": [
+      "from",
+      "with",
+      "at",
+      "to"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Parallel to' অর্থ সমান্তরাল।"
+  },
+  {
+    "id": 174,
+    "topic": "Appropriate Prepositions",
+    "question": "The miser wept when forced to part ___ his gold.",
+    "options": [
+      "to",
+      "with",
+      "from",
+      "of"
+    ],
+    "answer": "খ",
+    "explanation": "কোনো বস্তু ত্যাগ করা বা হাতছাড়া হওয়া বোঝাতে 'part with' বসে (ব্যক্তির সাথে ছাড়াছাড়ি হলে part from বসে)।"
+  },
+  {
+    "id": 175,
+    "topic": "Appropriate Prepositions",
+    "question": "She was heartbroken to part ___ her dearest mother.",
+    "options": [
+      "to",
+      "with",
+      "from",
+      "of"
+    ],
+    "answer": "গ",
+    "explanation": "কোনো ব্যক্তির কাছ থেকে বিদায় নেওয়া বা আলাদা হওয়া বোঝাতে 'part from' বসে।"
+  },
+  {
+    "id": 176,
+    "topic": "Appropriate Prepositions",
+    "question": "A fair judge should never be partial ___ either party.",
+    "options": [
+      "to",
+      "for",
+      "towards",
+      "with"
+    ],
+    "answer": "ক",
+    "explanation": "'Partial to' অর্থ পক্ষপাতদুষ্ট হওয়া।"
+  },
+  {
+    "id": 177,
+    "topic": "Appropriate Prepositions",
+    "question": "A true scientist persists ___ search of knowledge.",
+    "options": [
+      "in",
+      "to",
+      "with",
+      "on"
+    ],
+    "answer": "ক",
+    "explanation": "'Persist in' অর্থ কোনো কাজে নাছোড়বান্দা হয়ে লেগে থাকা।"
+  },
+  {
+    "id": 178,
+    "topic": "Appropriate Prepositions",
+    "question": "We should take pity ___ the poor and destitute.",
+    "options": [
+      "with",
+      "on",
+      "to",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "'Pity on' (take pity on) অর্থ করুণা বা দয়া প্রদর্শন করা।"
+  },
+  {
+    "id": 179,
+    "topic": "Appropriate Prepositions",
+    "question": "The teacher was highly pleased ___ her diligence.",
+    "options": [
+      "for",
+      "by",
+      "at",
+      "with"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যক্তি বা তার গুণে সন্তুষ্ট হওয়া বোঝাতে 'pleased with' বসে।"
+  },
+  {
+    "id": 180,
+    "topic": "Appropriate Prepositions",
+    "question": "The young leader is popular ___ the common people.",
+    "options": [
+      "for",
+      "to",
+      "with",
+      "among"
+    ],
+    "answer": "গ",
+    "explanation": "'Popular with' (বা among) অর্থ কারো কাছে জনপ্রিয় হওয়া।"
+  },
+  {
+    "id": 181,
+    "topic": "Appropriate Prepositions",
+    "question": "Smoking is prohibited ___ all public hospital premises.",
+    "options": [
+      "from",
+      "at",
+      "to",
+      "in"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Prohibit from' (বা prohibited in) অর্থ নিষিদ্ধ করা।"
+  },
+  {
+    "id": 182,
+    "topic": "Appropriate Prepositions",
+    "question": "Parents are naturally proud ___ their children's success.",
+    "options": [
+      "of",
+      "to",
+      "with",
+      "for"
+    ],
+    "answer": "ক",
+    "explanation": "'Proud of' অর্থ গর্বিত হওয়া।"
+  },
+  {
+    "id": 183,
+    "topic": "Appropriate Prepositions",
+    "question": "He is fully qualified ___ this technical position.",
+    "options": [
+      "in",
+      "with",
+      "for",
+      "to"
+    ],
+    "answer": "গ",
+    "explanation": "'Qualified for' অর্থ কোনো পদের জন্য উপযুক্ত যোগ্যতা সম্পন্ন।"
+  },
+  {
+    "id": 184,
+    "topic": "Appropriate Prepositions",
+    "question": "The patient quickly recovered ___ his serious illness.",
+    "options": [
+      "of",
+      "from",
+      "by",
+      "with"
+    ],
+    "answer": "খ",
+    "explanation": "'Recover from' অর্থ রোগ বা দুর্বলতা থেকে আরোগ্য লাভ করা।"
+  },
+  {
+    "id": 185,
+    "topic": "Appropriate Prepositions",
+    "question": "The committee referred the matter ___ an expert panel.",
+    "options": [
+      "at",
+      "to",
+      "towards",
+      "for"
+    ],
+    "answer": "খ",
+    "explanation": "'Refer to' অর্থ কারো কাছে নির্দেশ বা সিদ্ধান্তের জন্য পাঠানো।"
+  },
+  {
+    "id": 186,
+    "topic": "Appropriate Prepositions",
+    "question": "He has immense respect ___ all his learned teachers.",
+    "options": [
+      "to",
+      "towards",
+      "for",
+      "with"
+    ],
+    "answer": "গ",
+    "explanation": "'Respect for' অর্থ শ্রদ্ধা বা সম্মান।"
+  },
+  {
+    "id": 187,
+    "topic": "Appropriate Prepositions",
+    "question": "Every citizen is responsible ___ the law ___ his actions.",
+    "options": [
+      "with, for",
+      "at, for",
+      "for, to",
+      "to, for"
+    ],
+    "answer": "ঘ",
+    "explanation": "কারো কাছে দায়ী হলে 'responsible to' এবং কাজের জন্য দায়ী হলে 'responsible for' বসে।"
+  },
+  {
+    "id": 188,
+    "topic": "Appropriate Prepositions",
+    "question": "Hard work usually results ___ great success.",
+    "options": [
+      "in",
+      "from",
+      "to",
+      "with"
+    ],
+    "answer": "ক",
+    "explanation": "'Result in' অর্থ কোনো ফলাফল ঘটা বা পর্যবসিত হওয়া।"
+  },
+  {
+    "id": 189,
+    "topic": "Appropriate Prepositions",
+    "question": "Bangladesh is rich ___ valuable natural gas.",
+    "options": [
+      "in",
+      "for",
+      "of",
+      "with"
+    ],
+    "answer": "ক",
+    "explanation": "'Rich in' অর্থ কোনো সম্পদে সমৃদ্ধ হওয়া।"
+  },
+  {
+    "id": 190,
+    "topic": "Appropriate Prepositions",
+    "question": "The wicked robbers robbed the traveler ___ all his money.",
+    "options": [
+      "from",
+      "of",
+      "with",
+      "by"
+    ],
+    "answer": "খ",
+    "explanation": "'Rob of' অর্থ কোনো ব্যক্তি থেকে কোনো কিছু ছিনিয়ে নেওয়া বা ডাকাতি করা।"
+  },
+  {
+    "id": 191,
+    "topic": "Appropriate Prepositions",
+    "question": "Are you completely satisfied ___ your exam result?",
+    "options": [
+      "at",
+      "for",
+      "by",
+      "with"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Satisfied with' অর্থ কোনো কিছুতে সন্তুষ্ট থাকা।"
+  },
+  {
+    "id": 192,
+    "topic": "Appropriate Prepositions",
+    "question": "The old scientist is in constant search ___ truth.",
+    "options": [
+      "for",
+      "after",
+      "of",
+      "to"
+    ],
+    "answer": "গ",
+    "explanation": "'In search of' একটি প্রবাদতুল্য ফ্রেজ, যার অর্থ সন্ধানে বা অন্বেষণে।"
+  },
+  {
+    "id": 193,
+    "topic": "Appropriate Prepositions",
+    "question": "We are running very short ___ funds right now.",
+    "options": [
+      "of",
+      "for",
+      "in",
+      "with"
+    ],
+    "answer": "ক",
+    "explanation": "'Short of' অর্থ কোনো কিছুর ঘাটতি থাকা।"
+  },
+  {
+    "id": 194,
+    "topic": "Appropriate Prepositions",
+    "question": "This unique smartphone model is similar ___ that one.",
+    "options": [
+      "like",
+      "with",
+      "to",
+      "as"
+    ],
+    "answer": "গ",
+    "explanation": "'Similar to' অর্থ সদৃশ বা একই রকম।"
+  },
+  {
+    "id": 195,
+    "topic": "Appropriate Prepositions",
+    "question": "I am extremely sorry ___ my unintended mistake.",
+    "options": [
+      "with",
+      "for",
+      "about",
+      "to"
+    ],
+    "answer": "খ",
+    "explanation": "'Sorry for' অর্থ কোনো ভুলের জন্য অনুতপ্ত বা দুঃখিত।"
+  },
+  {
+    "id": 196,
+    "topic": "Appropriate Prepositions",
+    "question": "Do not stare ___ strangers in that impolite manner.",
+    "options": [
+      "on",
+      "with",
+      "to",
+      "at"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Stare at' অর্থ একদৃষ্টিতে তাকিয়ে থাকা।"
+  },
+  {
+    "id": 197,
+    "topic": "Appropriate Prepositions",
+    "question": "The terms are strictly subject ___ board approval.",
+    "options": [
+      "with",
+      "to",
+      "for",
+      "under"
+    ],
+    "answer": "খ",
+    "explanation": "'Subject to' অর্থ কোনো শর্তের অধীন বা সাপেক্ষ।"
+  },
+  {
+    "id": 198,
+    "topic": "Appropriate Prepositions",
+    "question": "He eventually succeeded ___ achieving his life's dream.",
+    "options": [
+      "to",
+      "with",
+      "at",
+      "in"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Succeed in' অর্থ কোনো কাজে সফলকাম হওয়া।"
+  },
+  {
+    "id": 199,
+    "topic": "Appropriate Prepositions",
+    "question": "He has been suffering ___ malaria since last Monday.",
+    "options": [
+      "from",
+      "of",
+      "with",
+      "by"
+    ],
+    "answer": "ক",
+    "explanation": "কোনো রোগে ভোগা বোঝাতে 'suffer from' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 200,
+    "topic": "Appropriate Prepositions",
+    "question": "Always put your trust ___ Almighty God.",
+    "options": [
+      "with",
+      "to",
+      "in",
+      "on"
+    ],
+    "answer": "গ",
+    "explanation": "'Trust in' অর্থ বিশ্বাস বা ভরসা রাখা।"
+  }
+]

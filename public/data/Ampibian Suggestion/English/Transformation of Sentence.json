@@ -1,0 +1,950 @@
+[
+  {
+    "id": 1,
+    "question": "A sentence is a group of words that expresses a complete —",
+    "options": [
+      "fragment",
+      "rhought",
+      "predicate",
+      "paragraph"
+    ],
+    "answer": "rhought",
+    "explanation": "বাক্যের সংজ্ঞার্থ অনুযায়ী: যে শব্দগুচ্ছ মনের পূর্ণাঙ্গ ভাব বা চিন্তা (complete thought) প্রকাশ করে তাকে Sentence বলে।"
+  },
+  {
+    "id": 2,
+    "question": "A sentence that expresses command, request and advice is called?",
+    "options": [
+      "an assertive sentence",
+      "an imperative sentence",
+      "an interrogative sentence",
+      "an optative sentence"
+    ],
+    "answer": "an imperative sentence",
+    "explanation": "যে বাক্য দ্বারা আদেশ (command), অনুরোধ (request) বা উপদেশ (advice) প্রকাশ পায়, তাকে Imperative sentence বলা হয়।"
+  },
+  {
+    "id": 3,
+    "question": "An optative sentence —",
+    "options": [
+      "Asks question",
+      "Expresses prayer or desire",
+      "Expresses joys, sorrows etc",
+      "Expresses sudden feeling"
+    ],
+    "answer": "Expresses prayer or desire",
+    "explanation": "যে বাক্য দ্বারা মনের ইচ্ছা (desire) বা প্রার্থনা (prayer) প্রকাশ করা হয়, তাকে Optative sentence বলে।"
+  },
+  {
+    "id": 4,
+    "question": "\"That's really stunning.\" এটি কোন ধরনের বাক্য?",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "answer": "e",
+    "explanation": "বিস্ময়, তীব্র অনুভূতি ও আবেগ প্রকাশ করায় বাক্যটি Exclamatory শ্রেণিভুক্ত।"
+  },
+  {
+    "id": 5,
+    "question": "'What is your name?' এটা কোন ধরনের sentence?",
+    "options": [
+      "interrogative",
+      "Interrogative",
+      "Imperative",
+      "Optative"
+    ],
+    "answer": "interrogative",
+    "explanation": "প্রশ্ন জিজ্ঞাসা করতে ব্যবহৃত বাক্যকে Interrogative sentence বলা হয় (What is your name?)।"
+  },
+  {
+    "id": 6,
+    "question": "How far is the train station? এটা কোন ধরনের sentence?",
+    "options": [
+      "Assertive",
+      "Optative",
+      "Exclamatory",
+      "Interrogative"
+    ],
+    "answer": "Interrogative",
+    "explanation": "দূরত্ব জানতে প্রশ্ন করায় বাক্যটি একটি Interrogative sentence।"
+  },
+  {
+    "id": 7,
+    "question": "'How will you cross the road?' এটা কোন ধরনের sentence?",
+    "options": [
+      "Imperative",
+      "Exclamatory",
+      "Interrogative",
+      "Optative"
+    ],
+    "answer": "Interrogative",
+    "explanation": "রাস্তা পারাপারের উপায় জানতে চেয়ে প্রশ্ন করায় এটি Interrogative sentence।"
+  },
+  {
+    "id": 8,
+    "question": "'Please bring me a cup of tea' এটা কোন ধরনের sentence?",
+    "options": [
+      "imperative",
+      "Imperative",
+      "Assertive",
+      "Exclamatory"
+    ],
+    "answer": "imperative",
+    "explanation": "'Please' সহযোগে বিনীত অনুরোধ প্রকাশ করায় বাক্যটি Imperative sentence।"
+  },
+  {
+    "id": 9,
+    "question": "Do not laugh at the poor. এটা কোন ধরনের sentence?",
+    "options": [
+      "Assertive",
+      "Interrogative",
+      "Imperative",
+      "Optative"
+    ],
+    "answer": "Imperative",
+    "explanation": "নিষেধ বা উপদেশ প্রকাশ করায় বাক্যটি Imperative sentence।"
+  },
+  {
+    "id": 10,
+    "question": "'Come with me.' কোন sentence?",
+    "options": [
+      "Imperative sentence",
+      "Interrogative sentence",
+      "Assertive sentence",
+      "Exclamatory sentence"
+    ],
+    "answer": "Imperative sentence",
+    "explanation": "সরাসরি আদেশ বা আহ্বান প্রকাশ করায় এটি Imperative sentence।"
+  },
+  {
+    "id": 11,
+    "question": "'Never tell a lie' কোন ধরনের sentence?",
+    "options": [
+      "Interrogative",
+      "Assertive",
+      "Optative",
+      "Imperative"
+    ],
+    "answer": "Imperative",
+    "explanation": "উপদেশসূচক নীতিবাক্য হওয়ায় এটি Imperative sentence।"
+  },
+  {
+    "id": 12,
+    "question": "'Go there at once' কোন sentence?",
+    "options": [
+      "Exclamatory",
+      "Imperative",
+      "Interrogative",
+      "Optative"
+    ],
+    "answer": "Imperative",
+    "explanation": "তাৎক্ষণিক আদেশ প্রকাশ করায় বাক্যটি Imperative sentence।"
+  },
+  {
+    "id": 13,
+    "question": "'Speak the truth'. কোন ধরনের sentence?",
+    "options": [
+      "assertive",
+      "interrogative",
+      "imperative",
+      "optative"
+    ],
+    "answer": "imperative",
+    "explanation": "সরাসরি উপদেশমূলক বাক্য হওয়ায় এটি Imperative sentence।"
+  },
+  {
+    "id": 14,
+    "question": "'Attend the class' কোন ধরনের sentence?",
+    "options": [
+      "Assertive",
+      "Interrogative",
+      "Imperative",
+      "Optative"
+    ],
+    "answer": "Imperative",
+    "explanation": "আদেশ বা নির্দেশ প্রদান করায় এটি Imperative sentence।"
+  },
+  {
+    "id": 15,
+    "question": "'May Allah protect Bangladesh' কোন sentence এর উদাহরণ?",
+    "options": [
+      "Assertive",
+      "Optative",
+      "Imperative",
+      "Exclamatory"
+    ],
+    "answer": "Optative",
+    "explanation": "আল্লাহর কাছে প্রার্থনা বা শুভকামনা প্রকাশ করায় এটি Optative sentence।"
+  },
+  {
+    "id": 16,
+    "question": "I wish you success in life. এটা কোন ধরনের sentence?",
+    "options": [
+      "Assertive",
+      "Imperative",
+      "Optative",
+      "None"
+    ],
+    "answer": "Optative",
+    "explanation": "সাফল্য কামনা বা ইচ্ছা প্রকাশ করায় এটি Optative sentence।"
+  },
+  {
+    "id": 17,
+    "question": "'May Allah help you' এটা কোন ধরনের sentence?",
+    "options": [
+      "Optative Sentence",
+      "Exclamatory Sentence",
+      "Assertive sentence",
+      "none of these"
+    ],
+    "answer": "Optative Sentence",
+    "explanation": "আল্লাহর রহমত ও সাহায্য প্রার্থনা করায় বাক্যটি Optative sentence।"
+  },
+  {
+    "id": 18,
+    "question": "Long 'live our President. এটা কোন ধরনের sentence?",
+    "options": [
+      "Assertive",
+      "Optative",
+      "Exclamatory",
+      "Imperative"
+    ],
+    "answer": "Optative",
+    "explanation": "রাষ্ট্রপতির দীর্ঘায়ু কামনা ও আশীর্বাদ প্রকাশ করায় বাক্যটি Optative sentence।"
+  },
+  {
+    "id": 19,
+    "question": "May God speed up your recovery. এটি কোন ধরনের বাক্য?",
+    "options": [
+      "Assertive",
+      "Interrogative",
+      "Imperative",
+      "Optative"
+    ],
+    "answer": "Optative",
+    "explanation": "দ্রুত রোগমুক্তি কামনা করে প্রার্থনা প্রকাশ করায় এটি Optative sentence।"
+  },
+  {
+    "id": 20,
+    "question": "'What a delicious meal!' এটা কোন ধরনের sentence?",
+    "options": [
+      "Interrogative sentence",
+      "Optative sentence",
+      "Imperatiive sentence",
+      "Exclamatory sentence"
+    ],
+    "answer": "Exclamatory sentence",
+    "explanation": "খাবারের স্বাদের প্রতি তীব্র প্রশংসা ও বিস্ময় প্রকাশ করায় এটি Exclamatory sentence।"
+  },
+  {
+    "id": 21,
+    "question": "How fine flower it is! এটা কোন ধরনের sentence?",
+    "options": [
+      "Exclamatory sentence",
+      "Exclamatory Sentence",
+      "Assertive sentence",
+      "none of these"
+    ],
+    "answer": "Exclamatory sentence",
+    "explanation": "ফুলের সৌন্দর্যে মুগ্ধ হয়ে বিস্ময় প্রকাশ করায় এটি Exclamatory sentence।"
+  },
+  {
+    "id": 22,
+    "question": "'How charming the sight is!' কোন ধরনের sentence?",
+    "options": [
+      "operative",
+      "assertive",
+      "exclamatory",
+      "interrogative"
+    ],
+    "answer": "exclamatory",
+    "explanation": "প্রাকৃতিক দৃশ্যের মুগ্ধতা ও বিস্ময় প্রকাশ করায় এটি Exclamatory sentence।"
+  },
+  {
+    "id": 23,
+    "question": "'A hundred percent marks in English is too high to achieve.' এটা কোন ধরনের sentence?",
+    "options": [
+      "Complex",
+      "Simple",
+      "Compound",
+      "Exclamatory"
+    ],
+    "answer": "Simple",
+    "explanation": "একটিমাত্র Subject এবং একটিমাত্র Finite verb 'is' থাকায় বাক্যটি Simple sentence।"
+  },
+  {
+    "id": 24,
+    "question": "'Jumping up he ran away' এটা কোন প্রকারের sentence?",
+    "options": [
+      "simple",
+      "compound",
+      "complex",
+      "gerund"
+    ],
+    "answer": "simple",
+    "explanation": "একটি Participle phrase এবং একটিমাত্র Finite verb 'ran' থাকায় বাক্যটি Simple sentence।"
+  },
+  {
+    "id": 25,
+    "question": "'Killing the bird, the old man brought bad luck to the crew' কোন ধরনের sentence?",
+    "options": [
+      "Assertive sentence",
+      "Compound sentence",
+      "Complex sentence",
+      "Simple sentence"
+    ],
+    "answer": "Simple sentence",
+    "explanation": "একটি অসমাপিকা ক্রিয়াংশ (Killing the bird) এবং একটিমাত্র Finite verb 'brought' থাকায় বাক্যটি Simple sentence।"
+  },
+  {
+    "id": 26,
+    "question": "'Walk fast lest you should miss the train.' কোন প্রকারের sentence?",
+    "options": [
+      "Simple sentence",
+      "Compound sentence",
+      "Complex sentence",
+      "Interrogative sentence"
+    ],
+    "answer": "Complex sentence",
+    "explanation": "Subordinating conjunction 'lest' দ্বারা দুটি ক্লজ যুক্ত হওয়ায় বাক্যটি Complex sentence।"
+  },
+  {
+    "id": 27,
+    "question": "What is lotted cannot be blotted. কোন প্রকারের sentence?",
+    "options": [
+      "Complex sentence",
+      "complex sentence",
+      "simple sentence",
+      "interrogative sentence"
+    ],
+    "answer": "Complex sentence",
+    "explanation": "Subordinate noun clause 'What is lotted' যুক্ত হওয়ায় বাক্যটি Complex sentence।"
+  },
+  {
+    "id": 28,
+    "question": "'If you read, you will learn'. কোন ধরনের sentence?",
+    "options": [
+      "simple sentence",
+      "negative sentence",
+      "complex sentence",
+      "compound sentence"
+    ],
+    "answer": "complex sentence",
+    "explanation": "Subordinating conjunction 'if' দ্বারা শর্তযুক্ত ক্লজ যুক্ত থাকায় এটি Complex sentence।"
+  },
+  {
+    "id": 29,
+    "question": "I know where he lives. কোন ধরনের sentence?",
+    "options": [
+      "compound sentence",
+      "complex sentence",
+      "negative sentence",
+      "simple sentence"
+    ],
+    "answer": "complex sentence",
+    "explanation": "Subordinating conjunction 'where' দ্বারা Noun clause যুক্ত হওয়ায় এটি Complex sentence।"
+  },
+  {
+    "id": 30,
+    "question": "When I was reading a book, he came. কোন ধরনের sentence?",
+    "options": [
+      "Negative sentence",
+      "Compound sentence",
+      "Complex sentence",
+      "Simple sentence"
+    ],
+    "answer": "Complex sentence",
+    "explanation": "সময় নির্দেশক Subordinating conjunction 'when' দ্বারা যুক্ত থাকায় বাক্যটি Complex sentence।"
+  },
+  {
+    "id": 31,
+    "question": "\"Fight till you die\" কোন ধরনের sentence?",
+    "options": [
+      "Simple",
+      "Complex",
+      "Compound",
+      "Complex-Compound"
+    ],
+    "answer": "Complex",
+    "explanation": "Subordinating conjunction 'till' দ্বারা আশ্রিত ক্লজ যুক্ত হওয়ায় এটি Complex sentence।"
+  },
+  {
+    "id": 32,
+    "question": "'I know who he is' কোন ধরনের sentence?",
+    "options": [
+      "Complex sentence",
+      "Simple",
+      "Compound sentence",
+      "Multiful sentence"
+    ],
+    "answer": "Complex sentence",
+    "explanation": "Subordinate noun clause 'who he is' যুক্ত থাকায় এটি Complex sentence।"
+  },
+  {
+    "id": 33,
+    "question": "'I know what his name is' কোন ধরনের sentence?",
+    "options": [
+      "compound sentence",
+      "complex",
+      "simple",
+      "exclamatory"
+    ],
+    "answer": "complex",
+    "explanation": "Subordinating conjunction 'what' যুক্ত আশ্রিত খণ্ডবাক্য থাকায় বাক্যটি Complex sentence।"
+  },
+  {
+    "id": 34,
+    "question": "'Do or die' কোন প্রকারের sentence?",
+    "options": [
+      "Compound sentence",
+      "Complex sentence",
+      "Simple sentence",
+      "None of the above"
+    ],
+    "answer": "Compound sentence",
+    "explanation": "Coordinating conjunction 'or' দ্বারা দুটি স্বাধীন সমাপিকা ভাব যুক্ত হওয়ায় এটি Compound sentence।"
+  },
+  {
+    "id": 35,
+    "question": "What type of sentence 'Work or you will fail' is?",
+    "options": [
+      "a complex sentence",
+      "a compound sentence",
+      "an optative sentence",
+      "a simple sentence"
+    ],
+    "answer": "a compound sentence",
+    "explanation": "Coordinating conjunction 'or' দ্বারা দুটি Principal clause যুক্ত হওয়ায় এটি Compound sentence।"
+  },
+  {
+    "id": 36,
+    "question": "Learn English and get a good job. এটা কোন ধরনের sentence?",
+    "options": [
+      "Negative sentence",
+      "Compound sentence",
+      "Complex sentence",
+      "Simple sentence"
+    ],
+    "answer": "Compound sentence",
+    "explanation": "Coordinating conjunction 'and' দ্বারা দুটি স্বাধীন ক্লজ যুক্ত থাকায় বাক্যটি Compound sentence।"
+  },
+  {
+    "id": 37,
+    "question": "'She spoke very strongly and you listened to her.' এটা কোন ধরনের sentence?",
+    "options": [
+      "a simple sentence",
+      "a complex sentence",
+      "a compound sentence",
+      "none of these"
+    ],
+    "answer": "a compound sentence",
+    "explanation": "Coordinating conjunction 'and' দ্বারা দুটি বাক্য যুক্ত থাকায় এটি Compound sentence।"
+  },
+  {
+    "id": 38,
+    "question": "'We must not be late, else we will miss the train.' এটা কোন ধরনের sentence?",
+    "options": [
+      "compound sentence",
+      "complex sentence",
+      "simple sentence",
+      "interrogative sentence"
+    ],
+    "answer": "compound sentence",
+    "explanation": "Coordinating conjunction 'else' (অন্যথায়) দ্বারা যুক্ত থাকায় বাক্যটি Compound sentence।"
+  },
+  {
+    "id": 39,
+    "question": "কোনটি imperative sentence?",
+    "options": [
+      "I shall go to college",
+      "Matin is singing a song",
+      "Stand up",
+      "It has been raining since morning"
+    ],
+    "answer": "Stand up",
+    "explanation": "Subject 'you' উহ্য রেখে আদেশ বা নির্দেশমূলক ক্রিয়া দিয়ে শুরু হওয়ায় 'Stand up' একটি Imperative sentence।"
+  },
+  {
+    "id": 40,
+    "question": "কোনটি imperative sentence?",
+    "options": [
+      "Shut up!",
+      "Shahin is playing football",
+      "I shall cook dinner now",
+      "What is your name?"
+    ],
+    "answer": "Shut up!",
+    "explanation": "আদেশ বা ধমকসূচক নির্দেশ প্রকাশ করায় 'Shut up!' একটি Imperative sentence।"
+  },
+  {
+    "id": 41,
+    "question": "Which one is an imperative sentence?",
+    "options": [
+      "She is dancing",
+      "You will sit here",
+      "Sit down",
+      "I shall go"
+    ],
+    "answer": "Sit down",
+    "explanation": "প্রশ্নটির সঠিক উত্তর হলো Open the door.।"
+  },
+  {
+    "id": 42,
+    "question": "Which one is an Imperative sentence?",
+    "options": [
+      "I shall go",
+      "Go home",
+      "You did it",
+      "She is eating"
+    ],
+    "answer": "Go home",
+    "explanation": "সরাসরি আদেশ বা নির্দেশমূলক ক্রিয়া দিয়ে শুরু হওয়ায় 'Go home' একটি Imperative sentence।"
+  },
+  {
+    "id": 43,
+    "question": "কোনটি imperative sentence?",
+    "options": [
+      "Do you know me?",
+      "He came to my father",
+      "What an idea",
+      "Do not lie"
+    ],
+    "answer": "Do not lie",
+    "explanation": "উপদেশ বা নিষেধমূলক বাক্য হওয়ায় 'Do not lie' একটি Imperative sentence।"
+  },
+  {
+    "id": 44,
+    "question": "Which one is an imperative sentence?",
+    "options": [
+      "Where do you live?",
+      "What a match!",
+      "Nothing will make him repent",
+      "Open the door"
+    ],
+    "answer": "Open the door",
+    "explanation": "প্রশ্নটির সঠিক উত্তর হলো Open the door.।"
+  },
+  {
+    "id": 45,
+    "question": "কোনটি Imperative?",
+    "options": [
+      "Stop reading loudly.",
+      "We live in a remote village.",
+      "May you be happy.",
+      "When will he come?"
+    ],
+    "answer": "Stop reading loudly.",
+    "explanation": "কাজ বন্ধের নির্দেশ প্রদান করায় 'Stop reading loudly.' একটি Imperative sentence।"
+  },
+  {
+    "id": 46,
+    "question": "কোনটি interrogative?",
+    "options": [
+      "He reads a book.",
+      "Does he read a book?",
+      "He has read a book.",
+      "He will read a book."
+    ],
+    "answer": "Does he read a book?",
+    "explanation": "সাহায্যকারী ক্রিয়া 'Does' আগে এনে প্রশ্ন তৈরি করায় এবং শেষে প্রশ্নবোধক চিহ্ন থাকায় এটি Interrogative sentence।"
+  },
+  {
+    "id": 47,
+    "question": "কোনটি complex sentence?",
+    "options": [
+      "The water being hot, I could not drink.",
+      "Since the water is hot, I cannot drink it.",
+      "Having reached in London, He will attend the COP26",
+      "Being very poor, Jim buy a gift for his wife."
+    ],
+    "answer": "Since the water is hot, I cannot drink it.",
+    "explanation": "Subordinating conjunction 'Since' দ্বারা কার্যকারণ সম্বন্ধযুক্ত ক্লজ যুক্ত থাকায় বাক্যটি Complex sentence।"
+  },
+  {
+    "id": 48,
+    "question": "কোনটি compound sentence?",
+    "options": [
+      "Look before you leap.",
+      "Do or die.",
+      "All's well that ends well.",
+      "A drowning man catches at a straw."
+    ],
+    "answer": "Do or die.",
+    "explanation": "Coordinating conjunction 'or' দ্বারা দুটি Principal clause যুক্ত থাকায় 'Do or die.' একটি Compound sentence।"
+  },
+  {
+    "id": 49,
+    "question": "A sentence is group of words that expresses a complete —",
+    "options": [
+      "fragment",
+      "thought",
+      "predicate",
+      "paragraph"
+    ],
+    "answer": "thought",
+    "explanation": "ব্যাকরণিক সংজ্ঞার্থ অনুযায়ী: মনের সম্পূর্ণ ভাব বা চিন্তা (thought) প্রকাশকারী শব্দসমষ্টিকে Sentence বলে।"
+  },
+  {
+    "id": 50,
+    "question": "'Though he is poor, he is honest'. (Make it compound)",
+    "options": [
+      "He is poor and honest",
+      "As he is poor, he is honest",
+      "He is poor but honest",
+      "Since he is poor, he is honest"
+    ],
+    "answer": "He is poor but honest",
+    "explanation": "'Though/Although' যুক্ত Complex sentence-কে Compound করতে বৈপরীত্যসূচক Conjunction 'but' বসে: 'He is poor but honest'।"
+  },
+  {
+    "id": 51,
+    "question": "'A rolling stone gathers no moss' (Make it complex)",
+    "options": [
+      "Since a stone is rolling, it gathers no moss.",
+      "Though a stone rolls, it gathers no moss.",
+      "A stone what rolls gathers no moss.",
+      "A stone that rolls gathers no moss."
+    ],
+    "answer": "A stone that rolls gathers no moss.",
+    "explanation": "Simple sentence-এর Participle 'rolling'-কে Relative clause 'that rolls'-এ রূপান্তর করে Complex বাক্য গঠন করা হয়: 'A stone that rolls gathers no moss.'।"
+  },
+  {
+    "id": 52,
+    "question": "What an excellent idea! বাক্যটির Assertive কী হবে?",
+    "options": [
+      "It is a very excellent idea",
+      "It is an excellent idea",
+      "It is more excellent idea",
+      "It is a very good idea"
+    ],
+    "answer": "It is a very excellent idea",
+    "explanation": "Exclamatory বাক্যকে Assertive করতে 'It is a very excellent idea' গঠনটি অনুসৃত হয়।"
+  },
+  {
+    "id": 53,
+    "question": "What a fool he is! বাক্যটির Assertive কী হবে?",
+    "options": [
+      "Anwar said that he is a great fool.",
+      "Anwar told that he has been a great fool.",
+      "Anwar exclaimed that he was a great fool.",
+      "Anwar told that he had been a great fool."
+    ],
+    "answer": "Anwar said that he is a great fool.",
+    "explanation": "বিস্ময়সূচক বাক্যের ভাবার্থকে Assertive রূপে প্রকাশ করতে 'great fool' সহযোগে বাক্যটি গঠিত হয়েছে।"
+  },
+  {
+    "id": 54,
+    "question": "As soon as he saw me, he ran away. (negative)",
+    "options": [
+      "No sooner had he seen me he ran away.",
+      "No sooner had he seen me than he ran away.",
+      "No sooner he saw me than he ran away.",
+      "He did not see me and he ran away."
+    ],
+    "answer": "No sooner had he seen me than he ran away.",
+    "explanation": "'As soon as' যুক্ত বাক্যকে Negative করতে 'No sooner had + subject + V3 + than' নিয়ম প্রযোজ্য: 'No sooner had he seen me than he ran away.'।"
+  },
+  {
+    "id": 55,
+    "question": "'Man is mortal' (Negative)",
+    "options": [
+      "All the male people are mortal.",
+      "No man is immortal.",
+      "A man is mortal.",
+      "Women are not mortal."
+    ],
+    "answer": "No man is immortal.",
+    "explanation": "অর্থ অপরিবর্তিত রেখে বিপরীত শব্দ 'immortal' ব্যবহার করে 'Man is mortal'-এর Negative রূপ হয়: 'No man is immortal.'।"
+  },
+  {
+    "id": 56,
+    "question": "'A child likes only sweets' (Make it Negative)",
+    "options": [
+      "A child does not like sweets.",
+      "A child likes nothing but sweets.",
+      "A child likes none but sweets.",
+      "No one."
+    ],
+    "answer": "A child likes nothing but sweets.",
+    "explanation": "বস্তুবাচক শব্দের পূর্বে 'only' থাকলে Negative করতে তার পরিবর্তে 'nothing but' বসে: 'A child likes nothing but sweets.'।"
+  },
+  {
+    "id": 57,
+    "question": "Only the moon was visible. বাক্যটির Negative form কী হবে?",
+    "options": [
+      "Nothing but the moon was visible.",
+      "The moon was not invisible .",
+      "Nothing but the moon was visible .",
+      "None but the moon was visible ."
+    ],
+    "answer": "Nothing but the moon was visible.",
+    "explanation": "বস্তুর ক্ষেত্রে 'only'-র পরিবর্তে 'nothing but' ব্যবহার করে Negative করা হয়: 'Nothing but the moon was visible.'।"
+  },
+  {
+    "id": 58,
+    "question": "He is only five. (Make it Negative)",
+    "options": [
+      "He is not less than five",
+      "He is not only five",
+      "He is above not five",
+      "He is not aged five"
+    ],
+    "answer": "He is not less than five",
+    "explanation": "বয়স বা সংখ্যার ক্ষেত্রে 'only' থাকলে Negative করতে 'not more than' বা 'not less than' বসে: 'He is not less than five'।"
+  },
+  {
+    "id": 59,
+    "question": "Everybody hates a liar. (Make it Negative)",
+    "options": [
+      "Nobody dislikes a liar",
+      "Who likes a liar",
+      "Everybody dislikes a liar",
+      "Nobody likes a liar"
+    ],
+    "answer": "Nobody likes a liar",
+    "explanation": "'hate'-এর বিপরীত শব্দ 'like' এবং 'Everybody'-র বদলে 'Nobody' ব্যবহার করে অর্থ অপরিবর্তিত রেখে Negative রূপ হলো 'Nobody likes a liar'।"
+  },
+  {
+    "id": 60,
+    "question": "Akhi missed the train. বাক্যটির Negative form কী হবে?",
+    "options": [
+      "Akhi did not catch the train.",
+      "Akhi did not get the train .",
+      "Akhi did not get into the train .",
+      "Akhi does not get on the train ."
+    ],
+    "answer": "Akhi did not catch the train.",
+    "explanation": "'miss'-এর বিপরীত ক্রিয়া 'catch' সহযোগে 'Akhi missed the train'-এর শুদ্ধ Negative রূপ হলো 'Akhi did not catch the train.'।"
+  },
+  {
+    "id": 61,
+    "question": "'He came home yesterday'- (Make it interrogative)",
+    "options": [
+      "Come home he yesterday?",
+      "Come he home yesterday?",
+      "Did he came home yesterday?",
+      "Did he come home yesterday"
+    ],
+    "answer": "Did he come home yesterday",
+    "explanation": "Past Indefinite Tense-এর বাক্যকে Interrogative করতে শুরুতে 'Did' এবং মূল ক্রিয়ার Base form বসে: 'Did he come home yesterday?'।"
+  },
+  {
+    "id": 62,
+    "question": "I had a nice dream last night. (Make it Negative)",
+    "options": [
+      "Did I not have a nice dream last night?",
+      "I did not have a bad dream last night.",
+      "I had no dream last night.",
+      "I did not have any dream last night."
+    ],
+    "answer": "Did I not have a nice dream last night?",
+    "explanation": "হাঁ-বোধক বক্তব্যকে নেতিবাচক-প্রশ্নবোধক রূপে প্রকাশ করে Negative গঠন করা হয়েছে: 'Did I not have a nice dream last night?'।"
+  },
+  {
+    "id": 63,
+    "question": "Everybody knows this. (Make it Negative)",
+    "options": [
+      "Who does not know this?",
+      "Who does not know this ?",
+      "Who do not know this ?",
+      "Do anybody know this ?"
+    ],
+    "answer": "Who does not know this?",
+    "explanation": "সার্বজনীন বক্তব্যের ক্ষেত্রে 'Everybody knows this'-এর আলংকারিক রূপান্তর হলো 'Who does not know this?'।"
+  },
+  {
+    "id": 64,
+    "question": "Everybody hates a liar. (Make it Interrogative)",
+    "options": [
+      "Who hates a liar?",
+      "Do you hate a liar?",
+      "Who does not hates a liar?",
+      "Who does not hate a liar?"
+    ],
+    "answer": "Who does not hate a liar?",
+    "explanation": "'Everybody' যুক্ত Assertive বাক্যকে Interrogative করতে 'Who does not + base verb' কাঠামো বসে: 'Who does not hate a liar?'।"
+  },
+  {
+    "id": 65,
+    "question": "\"He is a great scholar\" (Make it Interrogative)",
+    "options": [
+      "Is he a great scholar?",
+      "Is he not a great scholar?",
+      "Is he a big scholar?",
+      "Is not he a great scholar?"
+    ],
+    "answer": "Is he not a great scholar?",
+    "explanation": "Affirmative Assertive বাক্যকে Interrogative করতে নেতিবাচক প্রশ্ন করতে হয়: 'Is he not a great scholar?'।"
+  },
+  {
+    "id": 66,
+    "question": "All love flower. (Make it Interrogative)",
+    "options": [
+      "Who does not love flower?",
+      "Who do not love flower?",
+      "Who did not love flower?",
+      "Do all love flower?"
+    ],
+    "answer": "Who does not love flower?",
+    "explanation": "'All' বা 'Everybody' যুক্ত বাক্যকে Interrogative করতে 'Who does not + base verb' বসে: 'Who does not love flower?'।"
+  },
+  {
+    "id": 67,
+    "question": "I wish I were an ideal teacher. ((Make it Exclamatory)",
+    "options": [
+      "If I were an ideal teacher !",
+      "How an ideal teacher I was !",
+      "What an ideal teacher I was !",
+      "If an ideal teacher I am !"
+    ],
+    "answer": "If I were an ideal teacher !",
+    "explanation": "'I wish' যুক্ত আকাঙ্ক্ষামূলক বাক্যকে Exclamatory করতে 'If' দিয়ে শুরু করা হয়: 'If I were an ideal teacher !'।"
+  },
+  {
+    "id": 68,
+    "question": "Although he is poor, he is honest (Make it Simple)",
+    "options": [
+      "In spite of his poverty he is honest.",
+      "Though he is poor but honest also.",
+      "He is poor and honest.",
+      "He is poor, so he is honest."
+    ],
+    "answer": "In spite of his poverty he is honest.",
+    "explanation": "'Though/Although' যুক্ত Complex বাক্যকে Simple করতে 'In spite of + possessive + noun' বসে: 'In spite of his poverty he is honest.'।"
+  },
+  {
+    "id": 69,
+    "question": "'Where there is life, there is hope'— (Make it simple)",
+    "options": [
+      "There is no life without hope.",
+      "Life is hope.",
+      "Without life there is hope.",
+      "Life has hope."
+    ],
+    "answer": "There is no life without hope.",
+    "explanation": "শর্তমূলক ভাবকে Simple বাক্যে প্রকাশ করতে Preposition 'without' ব্যবহার করে 'There is no life without hope.' গঠন করা হয়েছে।"
+  },
+  {
+    "id": 70,
+    "question": "Do or die. (Simple)",
+    "options": [
+      "By doing you will die",
+      "Without doing you will die",
+      "By doing you won't die",
+      "Without doing you won't die"
+    ],
+    "answer": "Without doing you will die",
+    "explanation": "'or' যুক্ত Compound বাক্যকে Simple করতে 'Without + verb-ing' কাঠামো ব্যবহৃত হয়: 'Without doing you will die'।"
+  },
+  {
+    "id": 71,
+    "question": "'Stand here and die.' (Make it Simple)",
+    "options": [
+      "Stand here so that you can die.",
+      "Without standing here you will die.",
+      "Stand here only to die.",
+      "As you stand here you will die."
+    ],
+    "answer": "Stand here only to die.",
+    "explanation": "উদ্দেশ্যমূলক পরিণাম বোঝাতে Infinitive 'to die' ব্যবহার করে Simple বাক্য গঠন করা হয়েছে: 'Stand here only to die.'।"
+  },
+  {
+    "id": 72,
+    "question": "'A rolling stone gathers no moss' (Make it complex)",
+    "options": [
+      "Since a stone is rolling, it gathers no moss.",
+      "Though a stone rolls, it gathers no moss.",
+      "A stone what rolls gathers no moss.",
+      "A stone that rolls gathers no moss."
+    ],
+    "answer": "A stone that rolls gathers no moss.",
+    "explanation": "Adjective-কে Relative pronoun 'that' সহযোগে ক্লজে রূপান্তর করে Complex বাক্য গঠন করা হয়: 'A stone that rolls gathers no moss.'।"
+  },
+  {
+    "id": 73,
+    "question": "'But for your help, I could not prosper in life.' (Make it complex)",
+    "options": [
+      "Though you did not help I could prosper in life",
+      "Though you helped me I could not prosper in life",
+      "If you did not help me I could not prosper in life",
+      "Without your help I could not prosper in life."
+    ],
+    "answer": "If you did not help me I could not prosper in life",
+    "explanation": "'But for' (ব্যতীত/না হলে) ফ্রেজটিকে শর্তসূচক Complex বাক্যে রূপান্তর করলে 'If you did not help me I could not prosper in life' হয়।"
+  },
+  {
+    "id": 74,
+    "question": "'I saw him going to market'. (Compound)",
+    "options": [
+      "I saw him and he was going to market",
+      "I saw him who was going to market",
+      "I go to market which he was",
+      "I saw him to go to market"
+    ],
+    "answer": "I saw him and he was going to market",
+    "explanation": "Participle phrase-কে দ্বিতীয় স্বাধীন ক্লজে রূপান্তর করে 'and' যোগে Compound বাক্য গঠন: 'I saw him and he was going to market'।"
+  },
+  {
+    "id": 75,
+    "question": "You must work hard for success (Make it compound).",
+    "options": [
+      "Work hard for the success.",
+      "Work hard to the success.",
+      "Work hard and you will succeed .",
+      "Work hard for success."
+    ],
+    "answer": "Work hard and you will succeed .",
+    "explanation": "উদ্দেশ্যসূচক বাক্যকে শর্ত ও পরিণামে বিভক্ত করে 'and' দ্বারা Compound গঠন: 'Work hard and you will succeed.'।"
+  },
+  {
+    "id": 76,
+    "question": "'Though he is poor, he is honest'. (Compound)",
+    "options": [
+      "He is poor and honest",
+      "As he is poor, he is honest",
+      "He is poor but honest",
+      "Since he is poor, he is honest"
+    ],
+    "answer": "He is poor but honest",
+    "explanation": "'Though' যুক্ত বাক্যকে Compound করতে বিপরীতার্থক Conjunction 'but' বসে: 'He is poor but honest'।"
+  },
+  {
+    "id": 77,
+    "question": "'I went there to ask for a help'. (Make it Compound)",
+    "options": [
+      "I went there and asked for a help.",
+      "I went there so I asked for a help.",
+      "I went there but asked for a help.",
+      "I went there for a help."
+    ],
+    "answer": "I went there and asked for a help.",
+    "explanation": "Infinitive 'to ask'-কে সমাপিকা ক্রিয়ায় রূপান্তর করে 'and' দ্বারা যুক্ত করে Compound গঠন: 'I went there and asked for a help.'।"
+  },
+  {
+    "id": 78,
+    "question": "'She kept her promise'? (Make it Compound)",
+    "options": [
+      "She made a promise to keep",
+      "She made a promise so that she keep it.",
+      "She not only made a promise but also kept it.",
+      "As she made a promise, she kept it."
+    ],
+    "answer": "She not only made a promise but also kept it.",
+    "explanation": "জোড়া ক্রিয়ার ক্ষেত্রে 'not only... but also' ব্যবহার করে Compound বাক্য গঠন করা হয়েছে: 'She not only made a promise but also kept it.'।"
+  },
+  {
+    "id": 79,
+    "question": "Unless you work hard, you will not succeed. (Compound)",
+    "options": [
+      "Without working hard and you will not succeed",
+      "Work hard or you will not succeed",
+      "Work hard and you will not succeed",
+      "You work hard and will succeed"
+    ],
+    "answer": "Work hard or you will not succeed",
+    "explanation": "'Unless' (যদি না) যুক্ত শর্তমূলক Complex বাক্যকে Compound করতে 'or' বসে: 'Work hard or you will not succeed'।"
+  }
+]

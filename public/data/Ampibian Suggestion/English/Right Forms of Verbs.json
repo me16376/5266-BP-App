@@ -1,0 +1,1394 @@
+[
+  {
+    "id": 1,
+    "question": "As the sun — I decided to go out.",
+    "options": [
+      "shines",
+      "has shone",
+      "shine",
+      "was shining"
+    ],
+    "answer": "was shining",
+    "explanation": "অতীতে একটি কাজ চলার সময় অন্য কাজ সম্পন্ন হওয়া বোঝাতে 'As the sun was shining, I decided to go out' (Past Continuous) বসে।"
+  },
+  {
+    "id": 2,
+    "question": "A reward has been announced for the employees who — hard.",
+    "options": [
+      "have worked",
+      "has worked",
+      "will be work",
+      "have had worked"
+    ],
+    "answer": "have worked",
+    "explanation": "Relative pronoun 'who'-এর Antecedent হলো Plural Noun 'employees'; তাই Plural verb 'have worked' বসবে।"
+  },
+  {
+    "id": 3,
+    "question": "All of the people at the conference are —.",
+    "options": [
+      "Mathematic teachers",
+      "Mathematics teachers",
+      "Mathematics teacher",
+      "Mathematic’s teacher"
+    ],
+    "answer": "Mathematics teachers",
+    "explanation": "'Mathematics' পাঠ্যবিষয়ের নাম অপরিবর্তিত থাকে এবং Plural Noun হিসেবে 'Mathematics teachers' সঠিক রূপ।"
+  },
+  {
+    "id": 4,
+    "question": "An intensive search was conducted by the detective to locate those criminals who —.",
+    "options": [
+      "have had escaped",
+      "had escaped",
+      "are escaping",
+      "have been escaping"
+    ],
+    "answer": "had escaped",
+    "explanation": "অনুসন্ধান পরিচালনার পূর্বেই অপরাধীরা পালিয়ে গিয়েছিল বোঝাতে অতীততর ঘটনা হিসেবে Past Perfect 'had escaped' বসে।"
+  },
+  {
+    "id": 5,
+    "question": "Almost everyone fails — on the first try.",
+    "options": [
+      "in passing his driver's test",
+      "to his driver's test",
+      "to have passed his driver's test",
+      "passing his driver's test"
+    ],
+    "answer": "to have passed his driver's test",
+    "explanation": "প্রথমবারের চালনায় ব্যর্থ হওয়া বোঝাতে 'fails to have passed his driver's test' কাঠামোটি গৃহীত হয়েছে।"
+  },
+  {
+    "id": 6,
+    "question": "As soon as he saw me, he — away.",
+    "options": [
+      "has fled",
+      "fled",
+      "fleed",
+      "had fled"
+    ],
+    "answer": "fled",
+    "explanation": "'As soon as'-এর উভয় ক্লজই Past Simple Tense হয়; 'flee'-এর Past রূপ হলো 'fled'।"
+  },
+  {
+    "id": 7,
+    "question": "— a good student, he failed in the exam. The missing expression is.",
+    "options": [
+      "Despite being",
+      "Inspite of",
+      "Despite of being",
+      "Despite the fact of"
+    ],
+    "answer": "Despite being",
+    "explanation": "'Despite' একটি Preposition যার পরে Noun/Gerund বসে (Despite being a good student); 'Despite of' ব্যাকরণগতভাবে ভুল।"
+  },
+  {
+    "id": 8,
+    "question": "After it was repaired, the car — again.",
+    "options": [
+      "ran perfect",
+      "runs perfect",
+      "ran perfectly",
+      "run perfect"
+    ],
+    "answer": "ran perfectly",
+    "explanation": "ক্রিয়া 'ran'-কে বিশেষিত করতে Adverb রূপ 'perfectly' বসবে: 'ran perfectly'।"
+  },
+  {
+    "id": 9,
+    "question": "A fire — (break) out in the slums last night.",
+    "options": [
+      "broke",
+      "broken",
+      "has broken",
+      "was broken"
+    ],
+    "answer": "broke",
+    "explanation": "অতীত নির্দেশক সময় 'last night' থাকায় Past Simple Tense 'broke' (break out -> broke out) বসবে।"
+  },
+  {
+    "id": 10,
+    "question": "My father — before I came.",
+    "options": [
+      "would be leaving",
+      "had been leaving",
+      "had left",
+      "will leave"
+    ],
+    "answer": "had left",
+    "explanation": "'Before'-এর পূর্ববর্তী ক্লজে Past Perfect Tense 'had left' বসে।"
+  },
+  {
+    "id": 11,
+    "question": "The house is too costly —.",
+    "options": [
+      "to buy",
+      "to buy it",
+      "that i can not buy",
+      "for me buy"
+    ],
+    "answer": "to buy",
+    "explanation": "'Too + adjective + to + base verb' নিয়মানুযায়ী 'too costly to buy' সঠিক।"
+  },
+  {
+    "id": 12,
+    "question": "I cannot help (do) — it.",
+    "options": [
+      "too do",
+      "done",
+      "doing",
+      "did"
+    ],
+    "answer": "doing",
+    "explanation": "'Cannot help' বা 'could not help'-এর পর পরবর্তী ক্রিয়ার সাথে '-ing' যুক্ত হয়: 'cannot help doing it'।"
+  },
+  {
+    "id": 13,
+    "question": "It is high time we — (act) on the matter.",
+    "options": [
+      "are acting",
+      "acted",
+      "have acted",
+      "could act"
+    ],
+    "answer": "acted",
+    "explanation": "'It is high time'-এর পর Subject থাকলে Past Simple Tense ব্যবহৃত হয়: 'It is high time we acted on the matter'।"
+  },
+  {
+    "id": 14,
+    "question": "Today — people who enjoy cricket is bigger than that of thirty years ago.",
+    "options": [
+      "number of",
+      "great deal fo",
+      "many",
+      "the number of"
+    ],
+    "answer": "the number of",
+    "explanation": "নির্দিষ্ট সংখ্যা বা পরিসংখ্যান নির্দেশ করতে 'The number of' বসে এবং এরপরে Plural Noun থাকা সত্ত্বেও Verb Singular হয়।"
+  },
+  {
+    "id": 15,
+    "question": "Do not make a noise while your father —?",
+    "options": [
+      "Is sleeping",
+      "Has slept",
+      "Asleep",
+      "Is being asleep"
+    ],
+    "answer": "Is sleeping",
+    "explanation": "'While' যুক্ত ক্লজে চলমান কাজ বোঝাতে Continuous Tense বসে: 'while your father is sleeping'।"
+  },
+  {
+    "id": 16,
+    "question": "Did you use to — with dolls?",
+    "options": [
+      "play",
+      "played",
+      "playing",
+      "be played"
+    ],
+    "answer": "play",
+    "explanation": "'Did' সহায়ক ক্রিয়া থাকায় 'use to' বসে এবং এরপরে Verb-এর Base form 'play' বসে (Did you use to play...)।"
+  },
+  {
+    "id": 17,
+    "question": "English — across the world.",
+    "options": [
+      "has spoken",
+      "speaks",
+      "is speaking",
+      "is spoken"
+    ],
+    "answer": "is spoken",
+    "explanation": "ইংরেজি ভাষা বিশ্বজুড়ে বলা হয়—Passive ভাব প্রকাশে Present Simple Passive 'is spoken' বসবে।"
+  },
+  {
+    "id": 18,
+    "question": "Fifty kg — really a heavy weight to carry.",
+    "options": [
+      "is",
+      "were",
+      "are",
+      "was"
+    ],
+    "answer": "is",
+    "explanation": "নির্দিষ্ট পরিমাণ ওজন, দৈর্ঘ্য বা অর্থ সমষ্টিগতভাবে একবচন (Singular) বিবেচিত হওয়ায় Verb 'is' বসবে।"
+  },
+  {
+    "id": 19,
+    "question": "Between —, this is the greatest book I've ever read.",
+    "options": [
+      "you and I",
+      "you and me",
+      "I and you",
+      "you're and I'm"
+    ],
+    "answer": "you and me",
+    "explanation": "Preposition 'Between'-এর পর Pronoun-এর Objective রূপ বসে: 'Between you and me'।"
+  },
+  {
+    "id": 20,
+    "question": "He had written the book before he —.",
+    "options": [
+      "Retired",
+      "had retired",
+      "has retired",
+      "retires"
+    ],
+    "answer": "Retired",
+    "explanation": "'Before'-এর পূর্বের ক্লজ Past Perfect হলে পরের ক্লজ Past Simple হয়: 'before he retired'।"
+  },
+  {
+    "id": 21,
+    "question": "He is quite — in dealing with people.",
+    "options": [
+      "unsubtle",
+      "imprudent",
+      "diplomatic",
+      "impolite"
+    ],
+    "answer": "diplomatic",
+    "explanation": "মানুষের সাথে দক্ষ ও বিচক্ষণ আচরণ প্রকাশে Adjective 'diplomatic' (কূটনৈতিক/কুশলী) সঠিক।"
+  },
+  {
+    "id": 22,
+    "question": "When water — it turns into ice.",
+    "options": [
+      "freezes",
+      "will freeze",
+      "would freeze",
+      "froze"
+    ],
+    "answer": "freezes",
+    "explanation": "চিরন্তন বৈজ্ঞানিক সত্য (Zero Conditional) প্রকাশে উভয় ক্লজেই Present Simple বসে: 'When water freezes it turns into ice'।"
+  },
+  {
+    "id": 23,
+    "question": "If I — a king!",
+    "options": [
+      "shall be",
+      "am",
+      "was",
+      "were"
+    ],
+    "answer": "were",
+    "explanation": "অবাস্তব বা অসম্ভব আকাঙ্ক্ষা প্রকাশে 'If'-ক্লজে Be-verb হিসেবে সর্বদা 'were' বসে: 'If I were a king!'।"
+  },
+  {
+    "id": 24,
+    "question": "I am looking forward — you.",
+    "options": [
+      "to see",
+      "meeting",
+      "to seeing",
+      "meet"
+    ],
+    "answer": "to seeing",
+    "explanation": "'Look forward to' ফ্রেজের পর পরবর্তী ক্রিয়ার সাথে '-ing' যুক্ত হয়: 'looking forward to seeing you'।"
+  },
+  {
+    "id": 25,
+    "question": "How long is it since you — him last?",
+    "options": [
+      "see",
+      "saw",
+      "had seen",
+      "have seen"
+    ],
+    "answer": "saw",
+    "explanation": "'Since'-এর প্রথম অংশ Present Tense হলে দ্বিতীয় অংশ Past Simple Tense হয়: 'since you saw him last'।"
+  },
+  {
+    "id": 26,
+    "question": "The poor — born to suffer.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "has"
+    ],
+    "answer": "are",
+    "explanation": "'The + adjective' (The poor) সমগ্র শ্রেণিকে বহুবচনে নির্দেশ করায় Plural verb 'are' বসে।"
+  },
+  {
+    "id": 27,
+    "question": "At 11 am tomorrow, they — in the factory.",
+    "options": [
+      "will work",
+      "will be working",
+      "work",
+      "will have worked"
+    ],
+    "answer": "will be working",
+    "explanation": "ভবিষ্যতের নির্দিষ্ট সময়ে কাজ চলতে থাকবে বোঝাতে Future Continuous Tense 'will be working' বসবে।"
+  },
+  {
+    "id": 28,
+    "question": "We — dinner when the phone rang.",
+    "options": [
+      "had",
+      "have had",
+      "have",
+      "were having"
+    ],
+    "answer": "were having",
+    "explanation": "অতীতকালে একটি কাজ চলার সময় অন্য ঘটনা ঘটা বোঝাতে: 'We were having dinner when the phone rang'।"
+  },
+  {
+    "id": 29,
+    "question": "Good morning I — see the manager, please.",
+    "options": [
+      "am interested to",
+      "wish I can",
+      "like to",
+      "would like to"
+    ],
+    "answer": "would like to",
+    "explanation": "বিনম্র ইচ্ছা বা অনুরোধ প্রকাশে 'would like to' ব্যবহৃত হয়: 'I would like to see the manager'।"
+  },
+  {
+    "id": 30,
+    "question": "'He ran fast lest he — miss the train'.",
+    "options": [
+      "shall",
+      "should",
+      "will",
+      "would"
+    ],
+    "answer": "should",
+    "explanation": "'Lest' যুক্ত ক্লজে Subject-এর পর 'should + base verb' বসে: 'lest he should miss the train'।"
+  },
+  {
+    "id": 31,
+    "question": "He watched the boat — down the river.",
+    "options": [
+      "to float",
+      "floating",
+      "was floating",
+      "had floated"
+    ],
+    "answer": "floating",
+    "explanation": "Verb of perception 'watch'-এর পর চলমান অবস্থা বোঝাতে Present Participle 'floating' বসে।"
+  },
+  {
+    "id": 32,
+    "question": "He gave up — football when he got married.",
+    "options": [
+      "to play",
+      "playing",
+      "play",
+      "of playing"
+    ],
+    "answer": "playing",
+    "explanation": "Phrasal Verb 'give up'-এর পর Verb-এর Gerund রূপ বসে: 'gave up playing football'।"
+  },
+  {
+    "id": 33,
+    "question": "He has been ill — Friday last.",
+    "options": [
+      "From",
+      "On",
+      "In",
+      "Since"
+    ],
+    "answer": "Since",
+    "explanation": "নির্দিষ্ট প্রারম্ভিক সময় (Friday last) নির্দেশ করতে 'since' বসে: 'since Friday last'।"
+  },
+  {
+    "id": 34,
+    "question": "He advised me — smoking.",
+    "options": [
+      "giving up",
+      "to give up",
+      "in giving up",
+      "from giving up"
+    ],
+    "answer": "to give up",
+    "explanation": "'Advise + object + to + base verb' গঠনে 'advised me to give up smoking' সঠিক।"
+  },
+  {
+    "id": 35,
+    "question": "He came to Dhaka with a view to — a new place.",
+    "options": [
+      "watch",
+      "Look",
+      "visit",
+      "visiting"
+    ],
+    "answer": "visiting",
+    "explanation": "'With a view to'-এর পর সর্বদা Verb-এর সাথে 'ing' যুক্ত হয় (Gerund)। তাই সঠিক রূপ 'visiting'।"
+  },
+  {
+    "id": 36,
+    "question": "He failed — (keep) his promise",
+    "options": [
+      "in keeping",
+      "keeping",
+      "kept",
+      "to keep"
+    ],
+    "answer": "to keep",
+    "explanation": "'Fail'-এর পর Infinitive (to + verb) বসে: 'He failed to keep his promise'।"
+  },
+  {
+    "id": 37,
+    "question": "Hasan has read most of the — of Shakespeare.",
+    "options": [
+      "poem",
+      "play",
+      "drama",
+      "works"
+    ],
+    "answer": "works",
+    "explanation": "কোনো লেখকের সাহিত্যকর্ম বা রচনাবলী বোঝাতে Plural Noun 'works' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 38,
+    "question": "How many times have you — your house broken into?",
+    "options": [
+      "been",
+      "had",
+      "be",
+      "have"
+    ],
+    "answer": "been",
+    "explanation": "অতীতে কোনো ঘটনা ঘটার অভিজ্ঞতা জানতে 'have you been' বা 'had' কাঠামো প্রযুক্ত হয়।"
+  },
+  {
+    "id": 39,
+    "question": "He is — weak to go to office.",
+    "options": [
+      "all",
+      "too",
+      "quiet",
+      "quite"
+    ],
+    "answer": "too",
+    "explanation": "'Too... to' নেতিবাচক গঠন: 'He is too weak to go to office'।"
+  },
+  {
+    "id": 40,
+    "question": "His fever is — to ignore.",
+    "options": [
+      "to much high",
+      "high to much",
+      "too high",
+      "so high"
+    ],
+    "answer": "too high",
+    "explanation": "'Too... to' গঠন অনুযায়ী 'His fever is too high to ignore' সঠিক।"
+  },
+  {
+    "id": 41,
+    "question": "He speaks — he were a scientist.",
+    "options": [
+      "if",
+      "as if",
+      "whether",
+      "like"
+    ],
+    "answer": "as if",
+    "explanation": "'As if'-এর পূর্বে Present Tense এবং পরে অবাস্তব কল্পনা বোঝাতে 'were' বসে: 'He speaks as if he were a scientist'।"
+  },
+  {
+    "id": 42,
+    "question": "Have you finished — the book?",
+    "options": [
+      "reading",
+      "read",
+      "is reading",
+      "being reading"
+    ],
+    "answer": "reading",
+    "explanation": "'Finish' ক্রিয়ার পর পরবর্তী ক্রিয়ার Gerund (-ing) রূপ ব্যবহৃত হয়: 'finished reading the book'।"
+  },
+  {
+    "id": 43,
+    "question": "Have you ever — to London?",
+    "options": [
+      "been",
+      "went",
+      "go",
+      "visit"
+    ],
+    "answer": "been",
+    "explanation": "কোথাও গিয়ে থাকার অভিজ্ঞতা প্রকাশ করতে Present Perfect Tense-এ 'been to' বসে: 'Have you ever been to London?'।"
+  },
+  {
+    "id": 44,
+    "question": "He will be arriving quite late, so by the time he comes, the play —.",
+    "options": [
+      "would have begun",
+      "will begun",
+      "will have begun",
+      "would begun"
+    ],
+    "answer": "will have begun",
+    "explanation": "'By the time + Present Simple' থাকলে অপর ক্লজে Future Perfect Tense 'will have begun' বসে।"
+  },
+  {
+    "id": 45,
+    "question": "He avoided —(make) the same mistake again.",
+    "options": [
+      "to make",
+      "making",
+      "made",
+      "makes"
+    ],
+    "answer": "making",
+    "explanation": "'Avoid'-এর পর সর্বদা Gerund (-ing) রূপ ব্যবহৃত হয়: 'avoided making the same mistake'।"
+  },
+  {
+    "id": 46,
+    "question": "He talks as if —.",
+    "options": [
+      "he was mad",
+      "he were mad",
+      "he had been mad",
+      "he is mad"
+    ],
+    "answer": "he were mad",
+    "explanation": "'As if'-এর পূর্বে Present Simple এবং পরে অবাস্তব ভাব বোঝাতে 'were' বসে: 'He talks as if he were mad'।"
+  },
+  {
+    "id": 47,
+    "question": "I always take an umbrella — it rains.",
+    "options": [
+      "in case",
+      "unless",
+      "incase",
+      "if"
+    ],
+    "answer": "in case",
+    "explanation": "সতর্কতামূলক ব্যবস্থা বা সম্ভাব্যতার শর্ত বোঝাতে 'in case' বসে: 'take an umbrella in case it rains'।"
+  },
+  {
+    "id": 48,
+    "question": "I cannot — to pay such high prices.",
+    "options": [
+      "able",
+      "but",
+      "try",
+      "afford"
+    ],
+    "answer": "afford",
+    "explanation": "ব্যয়ভার বহন করার সামর্থ্য বোঝাতে 'afford to pay' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 49,
+    "question": "I decided to go — with my friend as I needed some exercise.",
+    "options": [
+      "to walk",
+      "for a walk",
+      "for walking",
+      "walk"
+    ],
+    "answer": "for a walk",
+    "explanation": "হাঁটতে বের হওয়া বোঝাতে ইংরেজি Idiomatic প্রকাশ হলো 'go for a walk'।"
+  },
+  {
+    "id": 50,
+    "question": "'I saw him in the market but he — having been there.'",
+    "options": [
+      "refused",
+      "forbade",
+      "turned down",
+      "denied"
+    ],
+    "answer": "denied",
+    "explanation": "পূর্বে কোনো কাজের সাথে সম্পৃক্ততা অস্বীকার করা বোঝাতে 'denied' বসে।"
+  },
+  {
+    "id": 51,
+    "question": "I suggest that he — there.",
+    "options": [
+      "goes",
+      "go",
+      "went",
+      "gone"
+    ],
+    "answer": "go",
+    "explanation": "Subjunctive verb 'suggest that'-এর পরবর্তী ক্লজে Subject যাই হোক না কেন Verb-এর Base form 'go' বসে।"
+  },
+  {
+    "id": 52,
+    "question": "I wish I — the wings of a bird.",
+    "options": [
+      "Have",
+      "Had",
+      "Were",
+      "Was"
+    ],
+    "answer": "Had",
+    "explanation": "'I wish'-এর পর অসম্ভব ইচ্ছা প্রকাশে Past Tense হিসেবে 'had' বসে: 'I wish I had the wings of a bird'।"
+  },
+  {
+    "id": 53,
+    "question": "I wish you — the problem.",
+    "options": [
+      "can solve",
+      "have solved",
+      "shall solve",
+      "could solve"
+    ],
+    "answer": "could solve",
+    "explanation": "'I wish'-এর পরবর্তী ক্লজে সক্ষমতা বোঝাতে 'could + base verb' বসে: 'I wish you could solve the problem'।"
+  },
+  {
+    "id": 54,
+    "question": "If we want concrete proof, we are looking for —.",
+    "options": [
+      "Building material",
+      "Something to cover a path",
+      "Clear evidence",
+      "A cement Mixer"
+    ],
+    "answer": "Clear evidence",
+    "explanation": "'Concrete proof' ফ্রেজটির অর্থ হলো সন্দেহাতীত বা সুস্পষ্ট প্রমাণ ('Clear evidence')।"
+  },
+  {
+    "id": 55,
+    "question": "It was I — he wanted to sing to.",
+    "options": [
+      "which",
+      "that",
+      "who",
+      "whom"
+    ],
+    "answer": "whom",
+    "explanation": "Verb 'to sing to'-এর Prepositional Object নির্দেশ করতে Relative Pronoun 'whom' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 56,
+    "question": "I have been living in Dhaka — 2000.",
+    "options": [
+      "since",
+      "from",
+      "after",
+      "till"
+    ],
+    "answer": "since",
+    "explanation": "নির্দিষ্ট সূচনাকাল (2000 সাল) নির্দেশ করতে 'since' বসে: 'living in Dhaka since 2000'।"
+  },
+  {
+    "id": 57,
+    "question": "In many ways, riding a bicycle is similar to —.",
+    "options": [
+      "driving a car",
+      "when one drives a car",
+      "the driving of a car",
+      "when we drive a car"
+    ],
+    "answer": "driving a car",
+    "explanation": "তুলনার সামঞ্জস্য রক্ষায় (Parallelism): 'riding a bicycle is similar to driving a car' বসে।"
+  },
+  {
+    "id": 58,
+    "question": "I took a map with me, as I didn't want to — my way on the journey.",
+    "options": [
+      "Loose",
+      "loss",
+      "lose",
+      "lost"
+    ],
+    "answer": "lose",
+    "explanation": "পথ হারানো অর্থে 'lose one's way' ব্যবহৃত হয় (Loose = আলগা, Loss = ক্ষতি)।"
+  },
+  {
+    "id": 59,
+    "question": "I opened the door as soon as I — the bell.",
+    "options": [
+      "have heard",
+      "was hearing",
+      "heard",
+      "am heard"
+    ],
+    "answer": "heard",
+    "explanation": "'As soon as'-এর উভয় ক্লজেই Past Simple Tense বসে: 'opened the door as soon as I heard the bell'।"
+  },
+  {
+    "id": 60,
+    "question": "It's time — (you realize) your mistakes.",
+    "options": [
+      "you realized",
+      "that you realize",
+      "you would realize",
+      "you have realized"
+    ],
+    "answer": "you realized",
+    "explanation": "'It's time'-এর পর Subject থাকলে Past Simple Tense ব্যবহৃত হয়: 'It's time you realized your mistakes'।"
+  },
+  {
+    "id": 61,
+    "question": "I had my rice —.",
+    "options": [
+      "to be cookingly",
+      "cooked",
+      "in cookingly",
+      "cooking"
+    ],
+    "answer": "cooked",
+    "explanation": "Causative have: 'have + object + V3' গঠনে চাল রান্না করানো অর্থে 'had my rice cooked' বসে।"
+  },
+  {
+    "id": 62,
+    "question": "I wish I — your shoes.",
+    "options": [
+      "was in",
+      "put on",
+      "get into",
+      "were in"
+    ],
+    "answer": "were in",
+    "explanation": "কারও পরিস্থিতিতে থাকার কল্পনা প্রকাশে 'were in your shoes' ফ্রেজটি ব্যবহৃত হয়।"
+  },
+  {
+    "id": 63,
+    "question": "I gave up — cricket when I got a job.",
+    "options": [
+      "to play",
+      "of playing",
+      "Play",
+      "Playing"
+    ],
+    "answer": "of playing",
+    "explanation": "অভ্যাস ত্যাগের অর্থে 'give up'-এর পর Gerund রূপ বসে: 'gave up of playing / playing'।"
+  },
+  {
+    "id": 64,
+    "question": "I visit Cox's Bazar frequently, However, I have never — Teknaf.",
+    "options": [
+      "went to",
+      "visited to",
+      "gone",
+      "been to"
+    ],
+    "answer": "been to",
+    "explanation": "কোথাও কখনোই না যাওয়ার অভিজ্ঞতা প্রকাশে 'never been to' বসে।"
+  },
+  {
+    "id": 65,
+    "question": "I don't mind — if you are tired.",
+    "options": [
+      "to drive",
+      "drive",
+      "driving",
+      "to be driving"
+    ],
+    "answer": "driving",
+    "explanation": "'Mind' বা 'Would you mind'-এর পর ক্রিয়ার Gerund রূপ বসে: 'don't mind driving'।"
+  },
+  {
+    "id": 66,
+    "question": "I wish I — a king!",
+    "options": [
+      "Would that I were a King !",
+      "Would that I was a king !",
+      "Would that I am a king !",
+      "If I could be a king !"
+    ],
+    "answer": "Would that I were a King !",
+    "explanation": "'I wish I were a king!'-এর সমার্থক রূপ হলো 'Would that I were a King !'।"
+  },
+  {
+    "id": 67,
+    "question": "I — to a foreign country.",
+    "options": [
+      "was never been",
+      "have never been",
+      "am never gone",
+      "am never been"
+    ],
+    "answer": "have never been",
+    "explanation": "বিদেশ ভ্রমণের অভিজ্ঞতা না থাকা প্রকাশে 'have never been to a foreign country' সঠিক।"
+  },
+  {
+    "id": 68,
+    "question": "I will help you to make your dreams — true.",
+    "options": [
+      "seem",
+      "grow",
+      "turn",
+      "come"
+    ],
+    "answer": "come",
+    "explanation": "Causative verb 'make'-এর পর Base verb বসে: 'make your dreams come true'।"
+  },
+  {
+    "id": 69,
+    "question": "It is time you — your mistakes.",
+    "options": [
+      "you realized",
+      "that you realize",
+      "you would realize",
+      "you have realized"
+    ],
+    "answer": "you realized",
+    "explanation": "'It is time'-এর পর Subject যুক্ত থাকলে Past Simple Tense 'you realized' বসে।"
+  },
+  {
+    "id": 70,
+    "question": "I have — my supper.",
+    "options": [
+      "has",
+      "will have",
+      "had",
+      "having"
+    ],
+    "answer": "had",
+    "explanation": "Present Perfect Tense-এ রাতের খাবার গ্রহণ অর্থে: 'have had my supper'।"
+  },
+  {
+    "id": 71,
+    "question": "I reached the station after the train — (to leave).",
+    "options": [
+      "I reached the station after the train has left.",
+      "I reach the station after the train has been left.",
+      "I reached the station after the train left.",
+      "I reached the station after the train had left."
+    ],
+    "answer": "I reached the station after the train had left.",
+    "explanation": "'After'-এর পরবর্তী ক্লজে অতীততর ঘটনা হিসেবে Past Perfect Tense 'had left' বসে।"
+  },
+  {
+    "id": 72,
+    "question": "I waited for your friend until he —.",
+    "options": [
+      "have come",
+      "came",
+      "had come",
+      "has come"
+    ],
+    "answer": "came",
+    "explanation": "'Until'-এর পূর্ববর্তী ক্লজ Past Tense হলে পরবর্তী ক্লজেও Past Simple 'came' বসে।"
+  },
+  {
+    "id": 73,
+    "question": "Just now he — his dinner but he will see you when he's finished",
+    "options": [
+      "is having",
+      "has had",
+      "was having",
+      "had"
+    ],
+    "answer": "has had",
+    "explanation": "'Just now' থাকলে Present Perfect Tense বসে: 'has had his dinner'।"
+  },
+  {
+    "id": 74,
+    "question": "Karim as well as Rahim — praise.",
+    "options": [
+      "deserve",
+      "deserves",
+      "are deserving",
+      "is deserving"
+    ],
+    "answer": "deserves",
+    "explanation": "'As well as' দ্বারা দুটি Subject যুক্ত হলে ১ম Subject (Karim) অনুযায়ী Singular verb 'deserves' বসে।"
+  },
+  {
+    "id": 75,
+    "question": "My uncle arrived while I — the dinner.",
+    "options": [
+      "would cook",
+      "cooked",
+      "had cooked",
+      "was cooking"
+    ],
+    "answer": "was cooking",
+    "explanation": "সাধারনত while এর পরে subject থাকলে ঐ clause টি past continuous tense হয়।"
+  },
+  {
+    "id": 76,
+    "question": "Mother made the child —.",
+    "options": [
+      "eating",
+      "eaten",
+      "eat",
+      "ate"
+    ],
+    "answer": "eat",
+    "explanation": "Causative 'make'-এর পর Bare Infinitive (Base verb) বসে: 'made the child eat'।"
+  },
+  {
+    "id": 77,
+    "question": "Nasima arrived while I — the dinner.",
+    "options": [
+      "would cook",
+      "had cooked",
+      "cook",
+      "was cooking"
+    ],
+    "answer": "was cooking",
+    "explanation": "'While' যুক্ত ক্লজে চলমান কাজ বোঝাতে Past Continuous Tense 'was cooking' বসে।"
+  },
+  {
+    "id": 78,
+    "question": "'Neela — her hand when she was cooking dinner.'",
+    "options": [
+      "is burning",
+      "will burn",
+      "was burning",
+      "burnt"
+    ],
+    "answer": "burnt",
+    "explanation": "রান্না করার সময় হাত পুড়ে যাওয়া—অকস্মাৎ ক্রিয়া বোঝাতে Past Simple 'burnt' বসে।"
+  },
+  {
+    "id": 79,
+    "question": "One should be careful about — duty.",
+    "options": [
+      "his",
+      "her",
+      "one’s",
+      "the"
+    ],
+    "answer": "one’s",
+    "explanation": "Subject 'One' হলে তার Possessive রূপ সর্বদা 'one's' হয় (One should be careful about one's duty)।"
+  },
+  {
+    "id": 80,
+    "question": "Our examination — on 13 October 2021.",
+    "options": [
+      "has begun",
+      "is beginning",
+      "begins",
+      "begun"
+    ],
+    "answer": "is beginning",
+    "explanation": "নিকটবর্তী পূর্বনির্ধারিত ভবিষ্যতের ক্ষেত্রে Present Continuous বা Present Simple 'is beginning/begins' বসে।"
+  },
+  {
+    "id": 81,
+    "question": "Phosphates — to most farm lands in Bangladesh.",
+    "options": [
+      "need to be adding",
+      "need to be added",
+      "need added",
+      "need to add"
+    ],
+    "answer": "need to be added",
+    "explanation": "ফসফেট জমিতে প্রয়োগ করা প্রয়োজন—Passive অর্থে 'need to be added' সঠিক।"
+  },
+  {
+    "id": 82,
+    "question": "Please, stop — so many mistakes.",
+    "options": [
+      "make",
+      "making",
+      "makes",
+      "to make"
+    ],
+    "answer": "making",
+    "explanation": "'Stop'-এর পর কোনো অভ্যাস বা কাজ বন্ধ করা বোঝাতে Gerund 'making' বসে।"
+  },
+  {
+    "id": 83,
+    "question": "Rishan walks as if he — lame.",
+    "options": [
+      "is",
+      "had been",
+      "has",
+      "were"
+    ],
+    "answer": "were",
+    "explanation": "'As if'-এর পূর্বে Present Simple এবং পরে কাল্পনিক বা অবাস্তব অবস্থা প্রকাশে 'were' বসে: 'walks as if he were lame'।"
+  },
+  {
+    "id": 84,
+    "question": "Raj and his family — here since March 2015.",
+    "options": [
+      "is living",
+      "have been living",
+      "lives",
+      "has lived"
+    ],
+    "answer": "have been living",
+    "explanation": "অতীতের নির্দিষ্ট সময় থেকে বর্তমান পর্যন্ত চলমান বোঝাতে Present Perfect Continuous 'have been living' বসে।"
+  },
+  {
+    "id": 85,
+    "question": "Rina proceeded as though she — (know) everything.",
+    "options": [
+      "knows",
+      "had known",
+      "knew",
+      "known"
+    ],
+    "answer": "had known",
+    "explanation": "'As though'-এর পূর্বের ক্লজ Past Simple (proceeded) হলে পরের ক্লজে Past Perfect 'had known' বসে।"
+  },
+  {
+    "id": 86,
+    "question": "Slow and steady — the race",
+    "options": [
+      "win",
+      "wins",
+      "has won",
+      "won"
+    ],
+    "answer": "wins",
+    "explanation": "'Slow and steady' একক অবিভাজ্য ভাব প্রকাশ করায় Verb Singular 'wins' হয় (wins the race)।"
+  },
+  {
+    "id": 87,
+    "question": "She told me his name after he —.",
+    "options": [
+      "left",
+      "had left",
+      "has left",
+      "has been leaving"
+    ],
+    "answer": "had left",
+    "explanation": "'After'-এর পরবর্তী ক্লজে অতীততর ঘটনা বোঝাতে Past Perfect Tense 'had left' বসে।"
+  },
+  {
+    "id": 88,
+    "question": "The boy from the village said, 'I — starve than beg.'",
+    "options": [
+      "better",
+      "rather",
+      "would rather",
+      "would better"
+    ],
+    "answer": "would rather",
+    "explanation": "বরং... তবুও নয় প্রকাশে 'would rather... than' বসে: 'would rather starve than beg'।"
+  },
+  {
+    "id": 89,
+    "question": "The child cried for — mother.",
+    "options": [
+      "his",
+      "her",
+      "its",
+      "it's"
+    ],
+    "answer": "its",
+    "explanation": "শিশু (child)-এর জেন্ডার অনির্দিষ্ট থাকায় ব্যাকরণে এর জন্য Neuter Pronoun 'its' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 90,
+    "question": "The invigilator made us — our identity card at the test center.",
+    "options": [
+      "showed",
+      "showing",
+      "show",
+      "to show"
+    ],
+    "answer": "show",
+    "explanation": "Causative verb 'make'-এর পর Bare Infinitive (Base verb) 'show' বসে: 'made us show our identity card'।"
+  },
+  {
+    "id": 91,
+    "question": "There is — milk in the glass.",
+    "options": [
+      "a little",
+      "a big amount",
+      "much",
+      "small"
+    ],
+    "answer": "a little",
+    "explanation": "Uncountable Noun 'milk'-এর পূর্বে পরিমাপ নির্দেশ করতে 'a little' বসে: 'a little milk'।"
+  },
+  {
+    "id": 92,
+    "question": "Three-fourths of the work — finished.",
+    "options": [
+      "have been",
+      "had",
+      "has been",
+      "were"
+    ],
+    "answer": "has been",
+    "explanation": "ভগ্নাংশের ক্ষেত্রে পরবর্তী Noun (the work) Uncountable/Singular হওয়ায় Verb Singular 'has been' বসে।"
+  },
+  {
+    "id": 93,
+    "question": "The prices of rice are —.",
+    "options": [
+      "raising",
+      "risen",
+      "rising",
+      "raised"
+    ],
+    "answer": "rising",
+    "explanation": "দ্রব্যের মূল্য স্বয়ং বেড়ে যাওয়া অর্থে Intransitive Verb 'rise'-এর রূপ 'rising' বসে।"
+  },
+  {
+    "id": 94,
+    "question": "The path — paved, so we were able to walk through the path.",
+    "options": [
+      "was",
+      "had been",
+      "has been",
+      "being"
+    ],
+    "answer": "had been",
+    "explanation": "পূর্বে বাঁধানো সম্পন্ন হয়েছিল বোঝাতে Past Perfect Passive 'had been paved' সঠিক।"
+  },
+  {
+    "id": 95,
+    "question": "They are two brother, but — of them were honest.",
+    "options": [
+      "But also",
+      "Either",
+      "Not only",
+      "Neither"
+    ],
+    "answer": "Neither",
+    "explanation": "দুইজন ব্যক্তির কেউই নয় বোঝাতে 'Neither' বসে: 'neither of them were honest'।"
+  },
+  {
+    "id": 96,
+    "question": "The children were too flabbergasted —.",
+    "options": [
+      "so they could not speak",
+      "that they started speaking",
+      "to speak",
+      "to stop speaking"
+    ],
+    "answer": "to speak",
+    "explanation": "'Too... to' গঠন: 'The children were too flabbergasted to speak'।"
+  },
+  {
+    "id": 97,
+    "question": "The bell had already been —.",
+    "options": [
+      "rang",
+      "ranged",
+      "rung",
+      "ringed"
+    ],
+    "answer": "rung",
+    "explanation": "Past Perfect Passive ভয়েস: 'had already been rung'।"
+  },
+  {
+    "id": 98,
+    "question": "The police — for the robber for long but they have failed to find him so far.",
+    "options": [
+      "have looked",
+      "have been looking",
+      "has looked",
+      "has been looking"
+    ],
+    "answer": "have been looking",
+    "explanation": "'Police' সমষ্টিগত Plural Noun এবং দীর্ঘ সময় ধরে খোঁজা বোঝাতে 'have been looking' বসে।"
+  },
+  {
+    "id": 99,
+    "question": "The teacher made the children — the book.",
+    "options": [
+      "read",
+      "to read",
+      "rewding",
+      "reads"
+    ],
+    "answer": "read",
+    "explanation": "Causative 'make'-এর পর Base verb বসে: 'made the children read the book'।"
+  },
+  {
+    "id": 100,
+    "question": "The teacher failed to make the students — to him.",
+    "options": [
+      "listened",
+      "listen",
+      "to listen",
+      "listening"
+    ],
+    "answer": "listen",
+    "explanation": "Causative 'make'-এর পর Base verb বসে: 'make the students listen to him'।"
+  },
+  {
+    "id": 101,
+    "question": "I am used to — tea.",
+    "options": [
+      "taking",
+      "take",
+      "took",
+      "taken"
+    ],
+    "answer": "taking",
+    "explanation": "'Be used to' (অভ্যস্ত) ফ্রেজের পর ক্রিয়ার Gerund রূপ বসে: 'used to taking tea'।"
+  },
+  {
+    "id": 102,
+    "question": "I wish I — a car.",
+    "options": [
+      "have",
+      "have had",
+      "shall have",
+      "had"
+    ],
+    "answer": "had",
+    "explanation": "'I wish'-এর পর অপ্রাপ্ত ইচ্ছা প্রকাশে Past Tense 'had' বসে: 'I wish I had a car'।"
+  },
+  {
+    "id": 103,
+    "question": "We could not buy anything because — of the shops was open.",
+    "options": [
+      "all",
+      "no one",
+      "none",
+      "nothing"
+    ],
+    "answer": "none",
+    "explanation": "দোকানগুলোর একটিও খোলা ছিল না বোঝাতে 'none of the shops was open' সঠিক।"
+  },
+  {
+    "id": 104,
+    "question": "We need to buy some new —.",
+    "options": [
+      "furnishers",
+      "furniture",
+      "furnisher",
+      "furniture's"
+    ],
+    "answer": "furniture",
+    "explanation": "'Furniture' একটি Uncountable Noun; এর সাথে 's/es' যুক্ত হয় না (some new furniture)।"
+  },
+  {
+    "id": 105,
+    "question": "We were watching the news when the telephone —.",
+    "options": [
+      "rang",
+      "rung",
+      "ringing",
+      "had rung"
+    ],
+    "answer": "rang",
+    "explanation": "অতীতের চলমান কাজের মাঝে অকস্মাৎ ঘটনা ঘটা বোঝাতে Past Simple 'rang' বসে।"
+  },
+  {
+    "id": 106,
+    "question": "When I saw the gardener, he — tree.",
+    "options": [
+      "is cutting down",
+      "will be coutting down",
+      "cut down",
+      "was cutting down"
+    ],
+    "answer": "was cutting down",
+    "explanation": "অতীতে কাজের চলমানতা নির্দেশ করায় Past Continuous 'was cutting down' বসে।"
+  },
+  {
+    "id": 107,
+    "question": "We waited until the plane —.",
+    "options": [
+      "did not take of f",
+      "had not taken off",
+      "took off",
+      "had taken off"
+    ],
+    "answer": "took off",
+    "explanation": "'Until'-এর পূর্ববর্তী ক্লজ Past Tense হওয়ায় পরবর্তী ক্লজেও Past Simple 'took off' বসে।"
+  },
+  {
+    "id": 108,
+    "question": "We worked hard — succeeding in the test.",
+    "options": [
+      "for",
+      "to",
+      "on",
+      "with a view to"
+    ],
+    "answer": "with a view to",
+    "explanation": "'With a view to'-এর পর ক্রিয়ার Gerund রূপ (-ing) বসে: 'with a view to succeeding'।"
+  },
+  {
+    "id": 109,
+    "question": "Would you mind — a cup of tea with me?",
+    "options": [
+      "take",
+      "drink",
+      "to drink",
+      "having"
+    ],
+    "answer": "having",
+    "explanation": "'Would you mind'-এর পর ক্রিয়ার সাথে '-ing' যুক্ত হয়: 'Would you mind having a cup of tea'।"
+  },
+  {
+    "id": 110,
+    "question": "While — (walk) in the morning, I saw them playing",
+    "options": [
+      "walk",
+      "walked",
+      "walking",
+      "walks"
+    ],
+    "answer": "walking",
+    "explanation": "'While'-এর ঠিক পরেই কোনো Subject না থাকলে Verb-এর সাথে সরাসরি '-ing' যুক্ত হয়: 'While walking'।"
+  },
+  {
+    "id": 111,
+    "question": "When I — money, I will buy a book.",
+    "options": [
+      "may get",
+      "may be got",
+      "get",
+      "will get"
+    ],
+    "answer": "get",
+    "explanation": "ভবিষ্যৎ শর্তমূলক বাক্যের Time clause-এ Present Simple 'get' বসে: 'When I get money, I will buy a book'।"
+  },
+  {
+    "id": 112,
+    "question": "Why have you — this?",
+    "options": [
+      "done",
+      "do",
+      "did",
+      "doing"
+    ],
+    "answer": "done",
+    "explanation": "Present Perfect Tense: 'Why have you done this?'।"
+  },
+  {
+    "id": 113,
+    "question": "We look forward — a response from you.",
+    "options": [
+      "to receiving",
+      "to receive",
+      "in receiving",
+      "for receiving"
+    ],
+    "answer": "to receiving",
+    "explanation": "'Look forward to' ফ্রেজের পর Gerund রূপ বসে: 'look forward to receiving'।"
+  },
+  {
+    "id": 114,
+    "question": "When — the telephone invented?",
+    "options": [
+      "has been",
+      "had been",
+      "was",
+      "is"
+    ],
+    "answer": "was",
+    "explanation": "অতীতে টেলিফোন আবিষ্কারের প্রশ্ন হওয়ায় Past Simple Passive 'When was the telephone invented?' সঠিক।"
+  },
+  {
+    "id": 115,
+    "question": "What time —?",
+    "options": [
+      "does the train leave?",
+      "is the train leaving?",
+      "leaves the train?",
+      "the train leaves?"
+    ],
+    "answer": "does the train leave?",
+    "explanation": "ট্রেনের পূর্বনির্ধারিত সময়সূচি বোঝাতে Present Simple 'does the train leave?' সঠিক।"
+  },
+  {
+    "id": 116,
+    "question": "You have been working since morning — (you have) your lunch yet?",
+    "options": [
+      "Do you have",
+      "Have you",
+      "Have you had",
+      "Did you have"
+    ],
+    "answer": "Have you had",
+    "explanation": "'Yet' থাকলে কাজটি ইতোমধ্যে সম্পন্ন হয়েছে কি না জানতে Present Perfect প্রশ্ন: 'Have you had your lunch yet?'।"
+  }
+]

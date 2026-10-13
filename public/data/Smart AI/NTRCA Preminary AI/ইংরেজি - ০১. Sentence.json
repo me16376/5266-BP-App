@@ -1,0 +1,2602 @@
+[
+  {
+    "id": 1,
+    "topic": "Sentence",
+    "question": "What kind of sentence is 'May you live long'?",
+    "options": [
+      "Exclamatory",
+      "Assertive",
+      "Optative",
+      "Imperative"
+    ],
+    "answer": "গ",
+    "explanation": "যে Sentence দ্বারা মনের ইচ্ছা, প্রার্থনা বা আশীর্বাদ প্রকাশ পায়, তাকে Optative Sentence বলে। সাধারণত এটি 'May' বা 'Long' দিয়ে শুরু হয়।"
+  },
+  {
+    "id": 2,
+    "topic": "Sentence",
+    "question": "Which one of the following is an imperative sentence?",
+    "options": [
+      "He does not run in the sun.",
+      "Do not run in the sun.",
+      "How fast he runs in the sun!",
+      "Does he run in the sun?"
+    ],
+    "answer": "খ",
+    "explanation": "আদেশ, উপদেশ, নিষেধ বা অনুরোধ প্রকাশকারী বাক্যকে Imperative Sentence বলে। 'Do not run in the sun' দ্বারা রোদে না দৌড়ানোর উপদেশ/নিষেধ বোঝানো হয়েছে।"
+  },
+  {
+    "id": 3,
+    "topic": "Sentence",
+    "question": "Identify the sentence type: 'How sweet the moonlight sleeps upon this bank!'",
+    "options": [
+      "Optative",
+      "Interrogative",
+      "Assertive",
+      "Exclamatory"
+    ],
+    "answer": "ঘ",
+    "explanation": "হর্ষ, বিষাদ, বিস্ময় ইত্যাদি আকস্মিক আবেগ বা অনুভূতি প্রকাশকারী বাক্যকে Exclamatory Sentence বলে। এর শেষে বিস্ময়বোধক চিহ্ন (!) থাকে।"
+  },
+  {
+    "id": 4,
+    "topic": "Sentence",
+    "question": "Which of the following is an assertive sentence?",
+    "options": [
+      "Honesty is the best policy.",
+      "Is honesty the best policy?",
+      "What a policy honesty is!",
+      "Be honest in your life."
+    ],
+    "answer": "ক",
+    "explanation": "যে বাক্য দ্বারা কোনো সাধারণ বক্তব্য বা তথ্য বিবৃতি করা হয়, তাকে Assertive বা Declarative Sentence বলে।"
+  },
+  {
+    "id": 5,
+    "topic": "Sentence",
+    "question": "What type of sentence is 'Let him do whatever he likes'?",
+    "options": [
+      "Assertive",
+      "Optative",
+      "Exclamatory",
+      "Imperative"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Let' দিয়ে শুরু হওয়া বাক্য প্রস্তাব বা অনুমতি প্রকাশের মাধ্যমে Imperative Sentence হিসেবে কাজ করে।"
+  },
+  {
+    "id": 6,
+    "topic": "Sentence",
+    "question": "Which sentence expresses a wish or prayer?",
+    "options": [
+      "What a distressed person he is!",
+      "Help the distressed person.",
+      "May Allah help you in your distress.",
+      "You should help the distressed."
+    ],
+    "answer": "গ",
+    "explanation": "প্রার্থনা বা আশীর্বাদ প্রকাশ করায় 'May Allah help you...' বাক্যটি একটি Optative Sentence।"
+  },
+  {
+    "id": 7,
+    "topic": "Sentence",
+    "question": "Choose the correct interrogative form of 'Everybody wishes to be happy.'",
+    "options": [
+      "Who does not wish to be happy?",
+      "Who wishes to be happy?",
+      "Why everybody wishes to be happy?",
+      "Does everybody wish to be happy?"
+    ],
+    "answer": "ক",
+    "explanation": "'Everybody / Everyone / All' যুক্ত Assertive Sentence-কে Interrogative করতে 'Who does not + verb-এর base form + বাকি অংশ + ?' বসে।"
+  },
+  {
+    "id": 8,
+    "topic": "Sentence",
+    "question": "Which one is a correct negative-interrogative sentence?",
+    "options": [
+      "Have you not finish work yet?",
+      "Haven't you finished your work yet?",
+      "Did you not finished work yet?",
+      "You have not finished work yet?"
+    ],
+    "answer": "খ",
+    "explanation": "Negative-interrogative গঠনে Auxiliary verb + n't + Subject + Principal verb অথবা Auxiliary verb + Subject + not বসে।"
+  },
+  {
+    "id": 9,
+    "topic": "Sentence",
+    "question": "The sentence 'Shut the door immediately.' begins with which omitted element?",
+    "options": [
+      "Subject 'You'",
+      "Object 'Door'",
+      "Subject 'I'",
+      "Subject 'He'"
+    ],
+    "answer": "ক",
+    "explanation": "Imperative Sentence-এ Second Person Subject 'You' সাধারণত ঊহ্য (understood/omitted) থাকে।"
+  },
+  {
+    "id": 10,
+    "topic": "Sentence",
+    "question": "Identify the exclamatory form of 'It is a very beautiful bird.'",
+    "options": [
+      "How a beautiful bird it is!",
+      "What a beautiful bird it is!",
+      "How beautiful the bird is a!",
+      "What beautiful bird it is!"
+    ],
+    "answer": "খ",
+    "explanation": "Assertive বাক্যে 'a/an' থাকলে Exclamatory করার সময় 'What a/an + adjective + noun + subject + verb + !' নিয়ম প্রযোজ্য হয়।"
+  },
+  {
+    "id": 11,
+    "topic": "Sentence",
+    "question": "'Would that I could fly in the sky!' What kind of feeling does this sentence express?",
+    "options": [
+      "A general statement",
+      "A logical deduction",
+      "A strong unfulfilled desire (Optative/Exclamatory sense)",
+      "A polite command"
+    ],
+    "answer": "গ",
+    "explanation": "'Would that' দ্বারা তীব্র অপূর্ণ ইচ্ছা বা আকাঙ্ক্ষা প্রকাশ পায়, যা কাঠামোগতভাবে অপটেটিভ বা এক্সক্লামেটরি ভাবের অন্তর্গত।"
+  },
+  {
+    "id": 12,
+    "topic": "Sentence",
+    "question": "Which one of the following is an Interrogative sentence asking for confirmation?",
+    "options": [
+      "What is your profession?",
+      "Who told you this news?",
+      "Are you a doctor or an engineer?",
+      "You are a teacher, aren't you?"
+    ],
+    "answer": "ঘ",
+    "explanation": "Tag question-যুক্ত বাক্য মূলত কোনো বিবৃতির সত্যতা নিশ্চিত (confirmation) করার জন্য জিজ্ঞাসা করা হয়।"
+  },
+  {
+    "id": 13,
+    "topic": "Sentence",
+    "question": "Transform into Assertive: 'Shall I ever forget those happy days?'",
+    "options": [
+      "I must not forget those happy days.",
+      "I shall ever remember those days.",
+      "I shall never forget those happy days.",
+      "I never forget those days."
+    ],
+    "answer": "গ",
+    "explanation": "Interrogative বাক্যে 'ever' থাকলে Assertive করার সময় তা 'never'-এ রূপান্তরিত হয়।"
+  },
+  {
+    "id": 14,
+    "topic": "Sentence",
+    "question": "Which sentence is an Imperative sentence expressing advice?",
+    "options": [
+      "Take care of your health.",
+      "Pass the salt, please.",
+      "Please give me a glass of water.",
+      "Get out from here at once."
+    ],
+    "answer": "ক",
+    "explanation": "'Take care of your health' বাক্যে উপদেশ (advice) প্রকাশ পেয়েছে।"
+  },
+  {
+    "id": 15,
+    "topic": "Sentence",
+    "question": "What kind of sentence is 'Had I known this earlier, I would have warned you'?",
+    "options": [
+      "Interrogative sentence",
+      "Conditional sentence expressing an unfulfilled condition",
+      "Optative sentence",
+      "Imperative sentence"
+    ],
+    "answer": "খ",
+    "explanation": "'Had I known...' এখানে 'If I had known'-এর ইনভার্টেড রূপ, যা Third Conditional বাক্য গঠন করেছে।"
+  },
+  {
+    "id": 16,
+    "topic": "Sentence",
+    "question": "Choose the correct assertive form of 'Who can deny the truth?'",
+    "options": [
+      "Someone cannot deny the truth.",
+      "Anyone can deny the truth.",
+      "Everybody can deny the truth.",
+      "Nobody can deny the truth."
+    ],
+    "answer": "ঘ",
+    "explanation": "'Who can...' যুক্ত প্রশ্নবোধক বাক্যকে নেতিবাচক বিবৃতিতে রূপান্তর করতে 'Nobody/No one can...' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 17,
+    "topic": "Sentence",
+    "question": "Identify the optative sentence among the following:",
+    "options": [
+      "How long our motherland lives!",
+      "Does our motherland live long?",
+      "Our motherland will live long.",
+      "Long live our motherland."
+    ],
+    "answer": "ঘ",
+    "explanation": "'Long live...' দিয়ে দেশের দীর্ঘায়ু কামনা করে শুভাশীর্বাদ বা প্রার্থনা প্রকাশ করা হয়েছে।"
+  },
+  {
+    "id": 18,
+    "topic": "Sentence",
+    "question": "The sentence 'Never tell a lie.' is a/an —",
+    "options": [
+      "Imperative sentence",
+      "Interrogative sentence",
+      "Exclamatory sentence",
+      "Assertive sentence"
+    ],
+    "answer": "ক",
+    "explanation": "'Never tell a lie' দ্বারা উপদেশ বা নিষেধ প্রকাশ করা হয়েছে এবং এর Subject 'You' ঊহ্য রয়েছে, তাই এটি Imperative।"
+  },
+  {
+    "id": 19,
+    "topic": "Sentence",
+    "question": "Which sentence correctly turns 'What a pity!' into an assertive sentence?",
+    "options": [
+      "It was a big pity.",
+      "It is a great pity.",
+      "What is a pity.",
+      "It is very pity."
+    ],
+    "answer": "খ",
+    "explanation": "'Pity' একটি Noun হওয়ায় 'What a pity' এর রূপান্তর হবে 'It is a great pity' ('very' বসে Adjective-এর পূর্বে)।"
+  },
+  {
+    "id": 20,
+    "topic": "Sentence",
+    "question": "What does the imperative sentence 'Please lend me your pen.' express?",
+    "options": [
+      "Warning",
+      "Command",
+      "Polite request",
+      "Advice"
+    ],
+    "answer": "গ",
+    "explanation": "'Please' বা 'Kindly' দ্বারা শুরু হওয়া বাক্যে বিনীত অনুরোধ (Polite request) প্রকাশ পায়।"
+  },
+  {
+    "id": 21,
+    "topic": "Sentence",
+    "question": "Which of the following is NOT an exclamatory sentence?",
+    "options": [
+      "I wonder how he escaped.",
+      "Alas! He is undone.",
+      "Bravo! You have played well.",
+      "How beautifully she sings!"
+    ],
+    "answer": "ক",
+    "explanation": "'I wonder how he escaped' একটি Assertive Sentence (এখানে noun clause যুক্ত আছে), এতে কোনো বিস্ময়সূচক আবেগ বা চিহ্ন নেই।"
+  },
+  {
+    "id": 22,
+    "topic": "Sentence",
+    "question": "Convert 'Can their glory ever fade?' into assertive.",
+    "options": [
+      "Their glory can ever fade.",
+      "Their glory can never fade.",
+      "Their glory will never fade.",
+      "Their glory cannot fade."
+    ],
+    "answer": "খ",
+    "explanation": "Interrogative বাক্যে 'ever' থাকলে Assertive বাক্যে রূপান্তরের সময় 'never' হয় এবং মোডাল অক্সিলিয়ারি অপরিবর্তিত থাকে।"
+  },
+  {
+    "id": 23,
+    "topic": "Sentence",
+    "question": "What kind of sentence is 'Be quiet and listen to my words'?",
+    "options": [
+      "Compound",
+      "Optative",
+      "Imperative",
+      "Assertive"
+    ],
+    "answer": "গ",
+    "explanation": "Base verb 'Be' দিয়ে শুরু হয়ে আদেশ/উপদেশ প্রকাশ করায় এটি Imperative Sentence (যদিও এতে 'and' দ্বারা দুটি ক্লজ যুক্ত)।"
+  },
+  {
+    "id": 24,
+    "topic": "Sentence",
+    "question": "Which sentence expresses strong sorrow or grief?",
+    "options": [
+      "Hush! The baby is sleeping.",
+      "Hurrah! We won the match.",
+      "Fie! You are a coward.",
+      "Alas! My father is no more."
+    ],
+    "answer": "ঘ",
+    "explanation": "'Alas!' ইন্টারজেকশনটি গভীর দুঃখ বা শোক প্রকাশের জন্য ব্যবহৃত হয়।"
+  },
+  {
+    "id": 25,
+    "topic": "Sentence",
+    "question": "Which punctuation mark is strictly used at the end of an interrogative sentence?",
+    "options": [
+      "Full stop (.)",
+      "Question mark (?)",
+      "Exclamation mark (!)",
+      "Semicolon (;)"
+    ],
+    "answer": "খ",
+    "explanation": "প্রশ্নবোধক বাক্যের সমাপ্তিতে সর্বদা Question mark (?) বসে।"
+  },
+  {
+    "id": 26,
+    "topic": "Sentence",
+    "question": "A sentence containing one independent clause and at least one dependent clause is called a —",
+    "options": [
+      "Compound sentence",
+      "Compound-complex sentence",
+      "Simple sentence",
+      "Complex sentence"
+    ],
+    "answer": "ঘ",
+    "explanation": "যে বাক্যে একটি Principal (independent) Clause এবং এক বা একাধিক Subordinate (dependent) Clause থাকে, তাকে Complex Sentence বলে।"
+  },
+  {
+    "id": 27,
+    "topic": "Sentence",
+    "question": "Which one of the following is a Simple sentence?",
+    "options": [
+      "In spite of his poverty, he is honest.",
+      "He is poor and honest.",
+      "Though he is poor, he is honest.",
+      "He is poor but he is honest."
+    ],
+    "answer": "ক",
+    "explanation": "Simple sentence-এ কেবল একটি মাত্র Subject ও একটি মাত্র Finite Verb থাকে। 'In spite of his poverty' একটি prepositional phrase।"
+  },
+  {
+    "id": 28,
+    "topic": "Sentence",
+    "question": "'He worked hard so that he could pass the exam.' This is a —",
+    "options": [
+      "Simple sentence",
+      "Compound sentence",
+      "Complex sentence",
+      "Optative sentence"
+    ],
+    "answer": "গ",
+    "explanation": "'so that' একটি Subordinating Conjunction যা Adverbial clause of purpose যুক্ত করে Complex sentence তৈরি করে।"
+  },
+  {
+    "id": 29,
+    "topic": "Sentence",
+    "question": "Identify the Compound sentence:",
+    "options": [
+      "If you do not read attentively, you will fail.",
+      "Without reading attentively, you will fail.",
+      "Unless you read attentively, you will fail.",
+      "Read attentively or you will fail."
+    ],
+    "answer": "ঘ",
+    "explanation": "দুটি Independent clause যখন Coordinating Conjunction (যেমন: and, but, or, yet, so) দিয়ে যুক্ত হয়, তখন তা Compound Sentence।"
+  },
+  {
+    "id": 30,
+    "topic": "Sentence",
+    "question": "A Simple sentence must contain —",
+    "options": [
+      "A coordinating conjunction",
+      "Two subjects and two finite verbs",
+      "One subject and one finite verb",
+      "At least one subordinate clause"
+    ],
+    "answer": "গ",
+    "explanation": "Simple Sentence-এর মূল বৈশিষ্ট্য হলো এতে কেবল একটিমাত্র Subject এবং একটিমাত্র Finite Verb বা সমাপিকা ক্রিয়া থাকে।"
+  },
+  {
+    "id": 31,
+    "topic": "Sentence",
+    "question": "Which of the following conjunctions is used in Compound sentences?",
+    "options": [
+      "But",
+      "Although",
+      "Because",
+      "Since"
+    ],
+    "answer": "ক",
+    "explanation": "'FANBOYS' (For, And, Nor, But, Or, Yet, So) হলো Coordinating Conjunction যা Compound Sentence-এ বসে। 'Because', 'Although', 'Since' হলো Subordinating Conjunction।"
+  },
+  {
+    "id": 32,
+    "topic": "Sentence",
+    "question": "'The sun having set, we returned home.' What type of sentence is this?",
+    "options": [
+      "Complex-compound sentence",
+      "Simple sentence",
+      "Compound sentence",
+      "Complex sentence"
+    ],
+    "answer": "খ",
+    "explanation": "'The sun having set' একটি Nominative Absolute (non-finite participle phrase); পুরো বাক্যে একটিমাত্র Finite Verb 'returned' থাকায় এটি Simple Sentence।"
+  },
+  {
+    "id": 33,
+    "topic": "Sentence",
+    "question": "Convert into Compound: 'Though he is rich, he is unhappy.'",
+    "options": [
+      "He is rich and unhappy.",
+      "He is unhappy because he is rich.",
+      "In spite of his wealth, he is unhappy.",
+      "He is rich, but he is unhappy."
+    ],
+    "answer": "ঘ",
+    "explanation": "'Though/Although' যুক্ত Complex sentence-কে Compound করতে বৈপরীত্যসূচক Coordinating Conjunction 'but' বা 'yet' বসে।"
+  },
+  {
+    "id": 34,
+    "topic": "Sentence",
+    "question": "Identify the sentence: 'Speak the truth and I will pardon you.'",
+    "options": [
+      "Complex sentence",
+      "Simple sentence",
+      "Compound sentence",
+      "Conditional sentence only"
+    ],
+    "answer": "গ",
+    "explanation": "'Speak the truth' এবং 'I will pardon you' দুটি স্বাধীন ক্লজ 'and' দ্বারা যুক্ত হওয়ায় এটি একটি Compound sentence।"
+  },
+  {
+    "id": 35,
+    "topic": "Sentence",
+    "question": "Transform into Simple: 'He confessed that he was guilty.'",
+    "options": [
+      "He confessed his guilt.",
+      "He was guilty and confessed it.",
+      "He confessed to be guilty.",
+      "His guilt was confessed by him."
+    ],
+    "answer": "ক",
+    "explanation": "Complex বাক্যের Noun Clause 'that he was guilty'-কে Noun Phrase 'his guilt'-এ রূপান্তর করে একটি Finite Verb 'confessed' রেখে Simple বাক্য গঠিত হয়।"
+  },
+  {
+    "id": 36,
+    "topic": "Sentence",
+    "question": "What type of sentence is 'I know where he lives'?",
+    "options": [
+      "Compound sentence",
+      "Complex sentence",
+      "Simple sentence",
+      "Exclamatory sentence"
+    ],
+    "answer": "খ",
+    "explanation": "'where he lives' একটি Dependent Noun Clause যা Principal Clause 'I know'-এর object হিসেবে কাজ করায় এটি Complex Sentence।"
+  },
+  {
+    "id": 37,
+    "topic": "Sentence",
+    "question": "Which one is a Compound sentence?",
+    "options": [
+      "Because he broke the window, he was punished.",
+      "After breaking the window, he stole the watch.",
+      "Breaking the window, he stole the watch.",
+      "He not only broke the window but also stole the watch."
+    ],
+    "answer": "ঘ",
+    "explanation": "Correlative Conjunction 'not only... but also' দুটি স্বাধীন ক্লজ/প্রেডিকেটকে যুক্ত করে Compound sentence তৈরি করে।"
+  },
+  {
+    "id": 38,
+    "topic": "Sentence",
+    "question": "Transform into Complex: 'I saw a wounded bird.'",
+    "options": [
+      "Seeing a wounded bird, I was sad.",
+      "A bird was wounded and I saw it.",
+      "I saw a bird which was wounded.",
+      "I saw a bird and it was wounded."
+    ],
+    "answer": "গ",
+    "explanation": "Simple বাক্যের Adjective 'wounded'-কে Relative Pronoun 'which' যুক্ত Adjective Clause-এ রূপান্তর করে Complex Sentence করা হয়।"
+  },
+  {
+    "id": 39,
+    "topic": "Sentence",
+    "question": "The sentence 'Either you leave the room or I will call the police' is a —",
+    "options": [
+      "Compound sentence",
+      "Complex sentence",
+      "Conditional sentence",
+      "Simple sentence"
+    ],
+    "answer": "ক",
+    "explanation": "'Either... or' হলো Correlative Coordinating Conjunction যা Compound Sentence গঠনে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 40,
+    "topic": "Sentence",
+    "question": "Convert into Simple: 'As soon as he saw the tiger, he ran away.'",
+    "options": [
+      "No sooner had he seen the tiger than he ran.",
+      "On seeing the tiger, he ran away.",
+      "He saw the tiger and ran away.",
+      "Seeing the tiger and he ran away."
+    ],
+    "answer": "খ",
+    "explanation": "'As soon as' যুক্ত ক্লজকে Gerund/Participle Phrase ('On seeing...') দ্বারা পরিবর্তন করে Simple Sentence গঠন করা হয়।"
+  },
+  {
+    "id": 41,
+    "topic": "Sentence",
+    "question": "'Wait here until I return.' In this sentence, 'until I return' is a —",
+    "options": [
+      "Noun clause",
+      "Coordinate clause",
+      "Principal clause",
+      "Subordinate adverbial clause"
+    ],
+    "answer": "ঘ",
+    "explanation": "'until' দ্বারা সময়বাচক শর্ত প্রকাশ পাওয়ায় এটি Subordinate Adverbial Clause of Time।"
+  },
+  {
+    "id": 42,
+    "topic": "Sentence",
+    "question": "Which of the following is a Simple sentence?",
+    "options": [
+      "You must work hard so that you can succeed.",
+      "By working hard, you can succeed.",
+      "If you work hard, you can succeed.",
+      "Work hard and you will succeed."
+    ],
+    "answer": "খ",
+    "explanation": "'By working hard' একটি Prepositional Gerund Phrase; বাক্যে একমাত্র Finite Verb হলো 'can succeed', তাই এটি Simple।"
+  },
+  {
+    "id": 43,
+    "topic": "Sentence",
+    "question": "Transform into Compound: 'Opening the gate, the man came in.'",
+    "options": [
+      "The man opened the gate and came in.",
+      "When the man opened the gate, he came in.",
+      "The man had opened the gate so he came in.",
+      "The gate being opened, the man came in."
+    ],
+    "answer": "ক",
+    "explanation": "Participle phrase-কে মূল ক্রিয়ায় রূপান্তর করে 'and' দ্বারা যুক্ত করলে Compound sentence গঠিত হয়।"
+  },
+  {
+    "id": 44,
+    "topic": "Sentence",
+    "question": "'Man proposes, but God disposes.' What kind of sentence is this?",
+    "options": [
+      "Optative sentence",
+      "Simple sentence",
+      "Compound sentence",
+      "Complex sentence"
+    ],
+    "answer": "গ",
+    "explanation": "দুটি স্বয়ংসম্পূর্ণ ক্লজ 'but' দ্বারা যুক্ত হয়ে বিপরীত অর্থ প্রকাশ করায় এটি Compound Sentence।"
+  },
+  {
+    "id": 45,
+    "topic": "Sentence",
+    "question": "Identify the complex sentence among the following:",
+    "options": [
+      "Because of his illness, he could not attend the meeting.",
+      "He was ill and so could not attend the meeting.",
+      "Since he was ill, he could not attend the meeting.",
+      "Being ill, he was absent."
+    ],
+    "answer": "গ",
+    "explanation": "'Since' দ্বারা কারণ নির্দেশক Subordinate Clause যুক্ত থাকায় বাক্যটি Complex Sentence।"
+  },
+  {
+    "id": 46,
+    "topic": "Sentence",
+    "question": "Convert into Complex: 'Tell me your name.'",
+    "options": [
+      "What is your name, tell me.",
+      "Tell me about your name.",
+      "Tell me that you have a name.",
+      "Tell me what your name is."
+    ],
+    "answer": "ঘ",
+    "explanation": "Simple বাক্যের Noun Phrase 'your name'-কে Noun Clause 'what your name is'-এ রূপান্তর করে Complex করা হয়।"
+  },
+  {
+    "id": 47,
+    "topic": "Sentence",
+    "question": "Which of the following contains a Coordinating conjunction?",
+    "options": [
+      "Before the bell rang, the teacher arrived.",
+      "He is poor, yet he is contented.",
+      "Whatever you do, do carefully.",
+      "Unless you speak, I won't go."
+    ],
+    "answer": "খ",
+    "explanation": "'yet' একটি Coordinating Conjunction যা দুটি স্বাধীন বাক্যংশকে যুক্ত করে।"
+  },
+  {
+    "id": 48,
+    "topic": "Sentence",
+    "question": "Transform into Simple: 'We eat that we may live.'",
+    "options": [
+      "We eat to live.",
+      "We eat and live.",
+      "Living is why we eat.",
+      "Eating helps us living."
+    ],
+    "answer": "ক",
+    "explanation": "Adverbial clause of purpose 'that we may live'-কে Infinitive Phrase 'to live'-এ সংক্ষেপ করলে Simple sentence হয়।"
+  },
+  {
+    "id": 49,
+    "topic": "Sentence",
+    "question": "What kind of sentence is 'Neither a borrower nor a lender be'?",
+    "options": [
+      "Complex sentence",
+      "Simple sentence",
+      "Imperative-simple sentence",
+      "Compound sentence"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Neither... nor' দ্বারা দুটি সমমানের বিকল্পকে যুক্ত করায় এটি একটি Compound Sentence।"
+  },
+  {
+    "id": 50,
+    "topic": "Sentence",
+    "question": "'He tried hard, but he failed.' Turn into Complex.",
+    "options": [
+      "Trying hard, he failed.",
+      "Despite his trying hard, he failed.",
+      "Although he tried hard, he failed.",
+      "He failed because he tried hard."
+    ],
+    "answer": "গ",
+    "explanation": "Compound বাক্যের 'but' কে Complex করতে 'Although/Though' কনজাংশন ব্যবহার করতে হয়।"
+  },
+  {
+    "id": 51,
+    "topic": "Sentence",
+    "question": "Which of the following is a Compound-Complex sentence?",
+    "options": [
+      "Though he was tired, he finished the project and he submitted it on time.",
+      "Though he was tired, he finished the project on time.",
+      "He was tired but he finished the project on time.",
+      "Being tired, he finished and submitted the project."
+    ],
+    "answer": "ক",
+    "explanation": "যে বাক্যে অন্তত দুটি Independent Clause ('he finished...' ও 'he submitted...') এবং অন্তত একটি Dependent Clause ('Though he was tired') থাকে, তাকে Compound-Complex sentence বলে।"
+  },
+  {
+    "id": 52,
+    "topic": "Sentence",
+    "question": "Convert into Complex: 'I know him to be honest.'",
+    "options": [
+      "His honesty is known to me.",
+      "I know that he is honest.",
+      "He is honest and I know it.",
+      "I know about his honesty."
+    ],
+    "answer": "খ",
+    "explanation": "Infinitive 'to be honest' যুক্ত অংশকে 'that he is honest' Noun Clause-এ রূপান্তর করে Complex Sentence গঠিত হয়।"
+  },
+  {
+    "id": 53,
+    "topic": "Sentence",
+    "question": "The sentence 'Scarcely had he reached the station when the train left' is a —",
+    "options": [
+      "Negative sentence only",
+      "Compound sentence",
+      "Complex sentence",
+      "Simple sentence"
+    ],
+    "answer": "গ",
+    "explanation": "'when the train left' একটি Subordinate Adverbial Clause of Time যা মূল ক্লজের সাথে যুক্ত হওয়ায় এটি Complex Sentence।"
+  },
+  {
+    "id": 54,
+    "topic": "Sentence",
+    "question": "Transform into Compound: 'Besides being a teacher, he is a writer.'",
+    "options": [
+      "He is not only a teacher but also a writer.",
+      "He teaches and so he writes.",
+      "He is a teacher as well a writer.",
+      "Being a teacher, he writes also."
+    ],
+    "answer": "ক",
+    "explanation": "'Besides being...' যুক্ত Simple sentence-কে Compound রূপান্তর করতে 'not only... but also' বা 'and' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 55,
+    "topic": "Sentence",
+    "question": "What kind of clause is the underlined part: 'I know *that he will pass*'?",
+    "options": [
+      "Adjective clause",
+      "Adverbial clause",
+      "Prepositional clause",
+      "Noun clause"
+    ],
+    "answer": "ঘ",
+    "explanation": "'that he will pass' ক্লজটি 'know' ট্রানজিটিভ ভার্বটির Direct Object হিসেবে কাজ করায় এটি Noun Clause।"
+  },
+  {
+    "id": 56,
+    "topic": "Sentence",
+    "question": "In the sentence 'The boy *who came here yesterday* is my brother', the italicized clause is —",
+    "options": [
+      "Adverbial clause",
+      "Adjective clause",
+      "Principal clause",
+      "Noun clause"
+    ],
+    "answer": "খ",
+    "explanation": "ক্লজটি Antecedent 'The boy' (Noun)-কে বিশেষিত করেছে, তাই এটি Adjective (Relative) Clause।"
+  },
+  {
+    "id": 57,
+    "topic": "Sentence",
+    "question": "Identify the clause type: 'Strike the iron *while it is hot*.'",
+    "options": [
+      "Noun clause",
+      "Adverbial clause of time",
+      "Adverbial clause of condition",
+      "Adjective clause"
+    ],
+    "answer": "খ",
+    "explanation": "'while it is hot' ক্লজটি 'Strike' ভার্বটি কখন ঘটবে তা নির্দেশ করায় এটি Adverbial Clause of Time।"
+  },
+  {
+    "id": 58,
+    "topic": "Sentence",
+    "question": "'Can you tell me *where he was born*?' Here 'where he was born' is a —",
+    "options": [
+      "Adverbial clause",
+      "Coordinate clause",
+      "Adjective clause",
+      "Noun clause"
+    ],
+    "answer": "ঘ",
+    "explanation": "'tell' ভার্বের Direct Object হিসেবে ব্যবহৃত হওয়ায় এটি Noun Clause।"
+  },
+  {
+    "id": 59,
+    "topic": "Sentence",
+    "question": "Identify the clause: 'This is the house *where Kazi Nazrul Islam lived*.'",
+    "options": [
+      "Noun clause",
+      "Coordinate clause",
+      "Adjective clause",
+      "Adverbial clause of place"
+    ],
+    "answer": "গ",
+    "explanation": "এখানে 'where' Relative Adverb হিসেবে 'the house' (Noun)-কে মডিফাই করায় এটি Adjective Clause।"
+  },
+  {
+    "id": 60,
+    "topic": "Sentence",
+    "question": "'He ran so fast *that I could not overtake him*.' The dependent clause is —",
+    "options": [
+      "Adverbial clause of result",
+      "Noun clause",
+      "Adverbial clause of reason",
+      "Adverbial clause of purpose"
+    ],
+    "answer": "ক",
+    "explanation": "'so... that' ফলাফল বা পরিণতি নির্দেশ করে, তাই এটি Adverbial Clause of Result বা Consequence।"
+  },
+  {
+    "id": 61,
+    "topic": "Sentence",
+    "question": "What kind of clause is 'whether he will come or not' in 'I am doubtful *whether he will come or not*'?",
+    "options": [
+      "Noun clause",
+      "Conditional clause",
+      "Adverbial clause",
+      "Adjective clause"
+    ],
+    "answer": "ক",
+    "explanation": "Adjective 'doubtful'-এর পরিপূরক (prepositional complement) হিসেবে বসার কারণে এটি Noun Clause।"
+  },
+  {
+    "id": 62,
+    "topic": "Sentence",
+    "question": "In 'He behaves *as if he were mad*', 'as if he were mad' is an —",
+    "options": [
+      "Adverbial clause of condition",
+      "Adjective clause",
+      "Noun clause",
+      "Adverbial clause of manner"
+    ],
+    "answer": "ঘ",
+    "explanation": "'as if' দ্বারা আচরণের ধরন (manner) কাল্পনিকভাবে তুলনা করা হয়েছে, তাই এটি Adverbial Clause of Manner।"
+  },
+  {
+    "id": 63,
+    "topic": "Sentence",
+    "question": "Identify the underlined phrase: '*Walking in the morning* is good for health.'",
+    "options": [
+      "Adverb phrase",
+      "Gerund phrase",
+      "Participle phrase",
+      "Infinitive phrase"
+    ],
+    "answer": "খ",
+    "explanation": "'Walking' (Verb+ing) সাবজেক্টের কাজ করছে এবং এর সাথে মডিফায়ার মিলে Gerund Phrase গঠিত হয়েছে।"
+  },
+  {
+    "id": 64,
+    "topic": "Sentence",
+    "question": "In 'The news *that he died* is false', 'that he died' is an apposition to a noun, so it is a —",
+    "options": [
+      "Adverbial clause",
+      "Adjective clause",
+      "Noun clause",
+      "Relative clause"
+    ],
+    "answer": "গ",
+    "explanation": "'The news'-এর Apposition হিসেবে বসে তথ্যটি বিশদ করায় এটি Noun Clause (এখানে 'that' রিলেটিভ প্রোনাউন নয়, কনজাংশন)।"
+  },
+  {
+    "id": 65,
+    "topic": "Sentence",
+    "question": "What type of clause is: 'If you work hard, you will succeed'?",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverbial clause of concession",
+      "Adverbial clause of condition"
+    ],
+    "answer": "ঘ",
+    "explanation": "'If' যুক্ত ক্লজটি সাফল্যের পূর্বশর্ত নির্দেশ করে, তাই এটি Adverbial Clause of Condition।"
+  },
+  {
+    "id": 66,
+    "topic": "Sentence",
+    "question": "In 'A man *in great distress* came to me', the phrase 'in great distress' functions as —",
+    "options": [
+      "Adjective phrase",
+      "Adverbial phrase",
+      "Noun phrase",
+      "Prepositional object"
+    ],
+    "answer": "ক",
+    "explanation": "Phrase-টি 'A man' Noun-টিকে বিশেষিত করায় এটি Adjective Phrase হিসেবে কাজ করছে।"
+  },
+  {
+    "id": 67,
+    "topic": "Sentence",
+    "question": "Identify the underlined clause: 'Though he was poor, *he did not steal*.'",
+    "options": [
+      "Subordinate clause",
+      "Coordinate clause",
+      "Principal clause",
+      "Relative clause"
+    ],
+    "answer": "গ",
+    "explanation": "'he did not steal' অর্থ প্রকাশের জন্য অন্য কোনো ক্লজের ওপর নির্ভরশীল নয়, তাই এটি Principal বা Independent Clause।"
+  },
+  {
+    "id": 68,
+    "topic": "Sentence",
+    "question": "In the sentence 'He speaks *at the top of his voice*', 'at the top of his voice' is an —",
+    "options": [
+      "Adjective phrase",
+      "Adverbial phrase",
+      "Noun phrase",
+      "Verb phrase"
+    ],
+    "answer": "খ",
+    "explanation": "এটি কথা বলার ধরন বা মাত্রা নির্দেশ করে 'speaks' ভার্বটিকে মডিফাই করায় Adverbial Phrase।"
+  },
+  {
+    "id": 69,
+    "topic": "Sentence",
+    "question": "Identify the clause: 'I will wait *until you finish*' —",
+    "options": [
+      "Adjective clause",
+      "Adverbial clause of time",
+      "Noun clause",
+      "Adverbial clause of condition"
+    ],
+    "answer": "খ",
+    "explanation": "'until' সময় নির্দেশক কনজাংশন হওয়ায় এটি Adverbial Clause of Time।"
+  },
+  {
+    "id": 70,
+    "topic": "Sentence",
+    "question": "In 'He died *of cholera*', 'of cholera' is a prepositional phrase acting as an —",
+    "options": [
+      "Indirect object",
+      "Noun complement",
+      "Adjective",
+      "Adverb of cause/reason"
+    ],
+    "answer": "ঘ",
+    "explanation": "মৃত্যুর কারণ নির্দেশ করায় 'of cholera' ফ্রেজটি 'died' ভার্বটিকে মডিফাই করা Adverbial Phrase of Reason।"
+  },
+  {
+    "id": 71,
+    "topic": "Sentence",
+    "question": "What kind of clause is: 'We rejoiced *because our team won the match*'?",
+    "options": [
+      "Adverbial clause of reason",
+      "Adverbial clause of result",
+      "Noun clause",
+      "Adjective clause"
+    ],
+    "answer": "ক",
+    "explanation": "আনন্দিত হওয়ার কারণ ব্যাখ্যা করায় 'because our team won the match' হলো Adverbial Clause of Reason বা Cause।"
+  },
+  {
+    "id": 72,
+    "topic": "Sentence",
+    "question": "In 'He lives in a house *built of stone*', 'built of stone' is a/an —",
+    "options": [
+      "Infinitive phrase",
+      "Prepositional clause",
+      "Past participle phrase",
+      "Gerund phrase"
+    ],
+    "answer": "গ",
+    "explanation": "'built' হলো Past Participle যা 'house' নাউনটিকে মডিফাই করে Past Participle Phrase তৈরি করেছে।"
+  },
+  {
+    "id": 73,
+    "topic": "Sentence",
+    "question": "Identify the clause: 'No one knows *who made this sculpture*.'",
+    "options": [
+      "Coordinate clause",
+      "Noun clause",
+      "Adverbial clause",
+      "Adjective clause"
+    ],
+    "answer": "খ",
+    "explanation": "'knows' ট্রানজিটিভ ভার্বের অবজেক্ট হিসেবে কাজ করায় এটি Noun Clause।"
+  },
+  {
+    "id": 74,
+    "topic": "Sentence",
+    "question": "In 'She is taller *than her sister is*', 'than her sister is' is an —",
+    "options": [
+      "Adverbial clause of comparison/degree",
+      "Noun clause",
+      "Adverbial clause of manner",
+      "Adjective clause"
+    ],
+    "answer": "ক",
+    "explanation": "'than' দ্বারা দুটি ব্যক্তির উচ্চতার মাত্রা তুলনা করায় এটি Adverbial Clause of Comparison বা Degree।"
+  },
+  {
+    "id": 75,
+    "topic": "Sentence",
+    "question": "Identify the underlined part: 'He came *to see me*.'",
+    "options": [
+      "Noun phrase",
+      "Gerund phrase",
+      "Infinitive phrase of purpose",
+      "Participle phrase"
+    ],
+    "answer": "গ",
+    "explanation": "'to see me' উদ্দেশ্য প্রকাশে ব্যবহৃত Infinitive Phrase যা Adverbial হিসেবে 'came' কে মডিফাই করছে।"
+  },
+  {
+    "id": 76,
+    "topic": "Sentence",
+    "question": "In 'Whatever you do, *do it well*', 'Whatever you do' is an —",
+    "options": [
+      "Adjective clause",
+      "Noun clause",
+      "Principal clause",
+      "Adverbial clause of concession"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Whatever you do' এখানে শর্তহীন ছাড় বা বৈপরীত্য (concession) বোঝাতে ব্যবহৃত Subordinate Adverbial Clause।"
+  },
+  {
+    "id": 77,
+    "topic": "Sentence",
+    "question": "What kind of clause is 'that glitters' in 'All *that glitters* is not gold'?",
+    "options": [
+      "Adverbial clause",
+      "Coordinate clause",
+      "Adjective clause",
+      "Noun clause"
+    ],
+    "answer": "গ",
+    "explanation": "Antecedent 'All' (Pronoun/Noun)-কে মডিফাই করায় 'that glitters' একটি Adjective বা Relative Clause।"
+  },
+  {
+    "id": 78,
+    "topic": "Sentence",
+    "question": "In 'To tell the truth, *he is not honest*', 'To tell the truth' is an —",
+    "options": [
+      "Noun clause",
+      "Absolute / Parenthetical infinitive phrase",
+      "Finite verb phrase",
+      "Adjective phrase"
+    ],
+    "answer": "খ",
+    "explanation": "বাক্যের ব্যাকরণিক কাঠামোর বাইরে আলগাভাবে ব্যবহৃত হওয়ায় এটি Parenthetical বা Absolute Infinitive Phrase।"
+  },
+  {
+    "id": 79,
+    "topic": "Sentence",
+    "question": "Identify the clause: 'The reason why he failed is obvious.' Here 'why he failed' is an —",
+    "options": [
+      "Noun clause",
+      "Adverbial clause of reason",
+      "Principal clause",
+      "Adjective clause"
+    ],
+    "answer": "ঘ",
+    "explanation": "এখানে 'The reason' Noun-টিকে Antecedent হিসেবে বিশেষিত করায় 'why he failed' একটি Adjective Clause।"
+  },
+  {
+    "id": 80,
+    "topic": "Sentence",
+    "question": "In 'He worked hard *lest he should fail*', 'lest he should fail' is an —",
+    "options": [
+      "Adverbial clause of purpose",
+      "Adverbial clause of reason",
+      "Adjective clause",
+      "Noun clause"
+    ],
+    "answer": "ক",
+    "explanation": "'lest' নেতিবাচক উদ্দেশ্য (negative purpose) প্রকাশ করায় এটি Adverbial Clause of Purpose।"
+  },
+  {
+    "id": 81,
+    "topic": "Sentence",
+    "question": "Identify the phrase: 'He succeeded *by virtue of his honesty*.'",
+    "options": [
+      "Gerund phrase",
+      "Prepositional phrase",
+      "Noun phrase",
+      "Participle phrase"
+    ],
+    "answer": "খ",
+    "explanation": "'by virtue of' একটি Prepositional Phrase যা দ্বারা কারণ বা উপায় বোঝানো হয়েছে।"
+  },
+  {
+    "id": 82,
+    "topic": "Sentence",
+    "question": "In 'I have no objection *to your going there*', 'to your going there' contains a —",
+    "options": [
+      "Bare infinitive",
+      "Present participle",
+      "Subordinate clause",
+      "Gerund with a possessive adjective"
+    ],
+    "answer": "ঘ",
+    "explanation": "'going' হলো Gerund এবং এর পূর্বে Possessive Adjective 'your' বসেছে।"
+  },
+  {
+    "id": 83,
+    "topic": "Sentence",
+    "question": "What is the function of 'Having completed his homework' in 'Having completed his homework, he went to bed'?",
+    "options": [
+      "Gerund phrase",
+      "Infinitive phrase",
+      "Perfect participle phrase",
+      "Present participle phrase"
+    ],
+    "answer": "গ",
+    "explanation": "'Having + Past Participle' (Having completed) দ্বারা Perfect Participle Phrase গঠিত হয় যা সময় বা কারণ নির্দেশ করে।"
+  },
+  {
+    "id": 84,
+    "topic": "Sentence",
+    "question": "In 'It is certain *that he will come*', 'that he will come' is a —",
+    "options": [
+      "Noun clause in apposition to anticipatory 'It'",
+      "Adjective clause",
+      "Relative clause",
+      "Adverbial clause"
+    ],
+    "answer": "ক",
+    "explanation": "ডামি বা ইন্ট্রোডাক্টরি 'It'-এর প্রকৃত অর্থ প্রকাশক Noun Clause হিসেবে এটি ব্যবহৃত হয়েছে।"
+  },
+  {
+    "id": 85,
+    "topic": "Sentence",
+    "question": "Complete the sentence: 'If you heat ice, it —'",
+    "options": [
+      "will melt",
+      "melts",
+      "melted",
+      "would melt"
+    ],
+    "answer": "খ",
+    "explanation": "চিরন্তন সত্য বা বৈজ্ঞানিক সত্যের ক্ষেত্রে Zero Conditional ব্যবহৃত হয়: If + Present Simple, Present Simple।"
+  },
+  {
+    "id": 86,
+    "topic": "Sentence",
+    "question": "If he studies hard, he — the examination.",
+    "options": [
+      "passed",
+      "would pass",
+      "will pass",
+      "would have passed"
+    ],
+    "answer": "গ",
+    "explanation": "First Conditional-এর নিয়ম: If + Present Indefinite, Future Indefinite (Subject + will/can/may + V1)।"
+  },
+  {
+    "id": 87,
+    "topic": "Sentence",
+    "question": "If I had a lot of money, I — help the poor.",
+    "options": [
+      "shall",
+      "will",
+      "would have",
+      "would"
+    ],
+    "answer": "ঘ",
+    "explanation": "Second Conditional-এর নিয়ম: If + Past Indefinite (had), Subject + would/could/might + V1 (help)।"
+  },
+  {
+    "id": 88,
+    "topic": "Sentence",
+    "question": "If you had invited him, he — to the party.",
+    "options": [
+      "would have come",
+      "will come",
+      "had come",
+      "would come"
+    ],
+    "answer": "ক",
+    "explanation": "Third Conditional-এর নিয়ম: If + Past Perfect (had invited), Subject + would have/could have + V3 (come)।"
+  },
+  {
+    "id": 89,
+    "topic": "Sentence",
+    "question": "Had I possessed a car, I — you for a ride.",
+    "options": [
+      "would take",
+      "will take",
+      "would have taken",
+      "took"
+    ],
+    "answer": "গ",
+    "explanation": "'Had + Subject + V3' দিয়ে শুরু হওয়া ইনভার্টেড ক্লজ Third Conditional নির্দেশ করে; তাই পরবর্তী ক্লজে would have + V3 বসে।"
+  },
+  {
+    "id": 90,
+    "topic": "Sentence",
+    "question": "Complete the second conditional: 'If I were a king, I —'",
+    "options": [
+      "would help the distressed",
+      "would have helped the distressed",
+      "helped the distressed",
+      "will help the distressed"
+    ],
+    "answer": "ক",
+    "explanation": "অবাস্তব কল্পনা (Subjunctive Mood) যুক্ত Second Conditional-এ If + were থাকলে অপর অংশে would + V1 বসে।"
+  },
+  {
+    "id": 91,
+    "topic": "Sentence",
+    "question": "Unless you walk fast, you — the train.",
+    "options": [
+      "missed",
+      "would miss",
+      "would have missed",
+      "will miss"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Unless' অর্থ 'if not'। First Conditional অনুযায়ী 'Unless you walk fast' এর সাথে 'you will miss the train' বসে।"
+  },
+  {
+    "id": 92,
+    "topic": "Sentence",
+    "question": "If water reaches 100 degrees Celsius, it —",
+    "options": [
+      "would boil",
+      "boils",
+      "boiled",
+      "will boil"
+    ],
+    "answer": "খ",
+    "explanation": "বৈজ্ঞানিক সত্য বিধায় Zero Conditional অনুসারে উভয় ক্লজেই Present Indefinite টেন্স প্রযোজ্য।"
+  },
+  {
+    "id": 93,
+    "topic": "Sentence",
+    "question": "Were I in your position, I — accept the proposal.",
+    "options": [
+      "will",
+      "would have",
+      "shall",
+      "would"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Were I...' হলো 'If I were...'-এর ইনভার্টেড রূপ (Second Conditional), যার মূল ক্লজে would + V1 বসে।"
+  },
+  {
+    "id": 94,
+    "topic": "Sentence",
+    "question": "What would happen if you — the alarm?",
+    "options": [
+      "do not set",
+      "will not set",
+      "did not set",
+      "had not set"
+    ],
+    "answer": "গ",
+    "explanation": "মূল ক্লজে 'would happen' (would + V1) থাকায় 'if'-ক্লজটি অবশ্যই Past Indefinite ('did not set') হবে।"
+  },
+  {
+    "id": 95,
+    "topic": "Sentence",
+    "question": "If they — earlier, they would have caught the bus.",
+    "options": [
+      "had left",
+      "have left",
+      "would leave",
+      "left"
+    ],
+    "answer": "ক",
+    "explanation": "মূল ক্লজে 'would have caught' (would have + V3) থাকায় If ক্লজটিতে Past Perfect (had left) বসবে।"
+  },
+  {
+    "id": 96,
+    "topic": "Sentence",
+    "question": "Provided that you work sincerely, you — rewarded.",
+    "options": [
+      "were",
+      "will be",
+      "would be",
+      "would have been"
+    ],
+    "answer": "খ",
+    "explanation": "'Provided that' অর্থ 'if'। এটি First Conditional অনুসারে 'will be' গ্রহণ করে।"
+  },
+  {
+    "id": 97,
+    "topic": "Sentence",
+    "question": "If he — the truth, he would not be in prison now.",
+    "options": [
+      "tells",
+      "has told",
+      "had told",
+      "told"
+    ],
+    "answer": "গ",
+    "explanation": "Mixed Conditional: অতীতে সত্য বললে বর্তমানে জেলে থাকত না (Past Perfect in condition -> would + V1 in present result)।"
+  },
+  {
+    "id": 98,
+    "topic": "Sentence",
+    "question": "Had I seen him, I — him the message.",
+    "options": [
+      "would have given",
+      "gave",
+      "would give",
+      "will give"
+    ],
+    "answer": "ক",
+    "explanation": "'Had I seen him' (Third Conditional inversion) এর পর অপর ক্লজে 'would have + V3' (would have given) হবে।"
+  },
+  {
+    "id": 99,
+    "topic": "Sentence",
+    "question": "If it rains, we — the match.",
+    "options": [
+      "cancelled",
+      "would have cancelled",
+      "would cancel",
+      "will cancel"
+    ],
+    "answer": "ঘ",
+    "explanation": "First Conditional: If + Present Indefinite (rains) -> Future Indefinite (will cancel)।"
+  },
+  {
+    "id": 100,
+    "topic": "Sentence",
+    "question": "If I knew his address, I — write to him.",
+    "options": [
+      "would have",
+      "would",
+      "can",
+      "will"
+    ],
+    "answer": "খ",
+    "explanation": "Second Conditional: If + Past Indefinite (knew) -> would + base verb (write)।"
+  },
+  {
+    "id": 101,
+    "topic": "Sentence",
+    "question": "If she had studied medicine, she — a renowned doctor today.",
+    "options": [
+      "will be",
+      "is",
+      "would be",
+      "would have been"
+    ],
+    "answer": "গ",
+    "explanation": "Mixed Conditional: অতীতের কাজ (had studied) কিন্তু বর্তমানের অবস্থা (today) নির্দেশ করায় 'would be' সঠিক।"
+  },
+  {
+    "id": 102,
+    "topic": "Sentence",
+    "question": "Supposing that he fails, what — he do?",
+    "options": [
+      "would have",
+      "would",
+      "did",
+      "will"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Supposing that' কন্ডিশনাল কনজাংশন; প্রেজেন্ট টেন্সের সাথে সামঞ্জস্য রেখে First Conditional এ 'will' বসে।"
+  },
+  {
+    "id": 103,
+    "topic": "Sentence",
+    "question": "If you touch a flame, you — burned.",
+    "options": [
+      "will get",
+      "get",
+      "got",
+      "would get"
+    ],
+    "answer": "খ",
+    "explanation": "Zero conditional সাধারণ বাস্তবিক নিয়ম প্রকাশ করে: If + present, present।"
+  },
+  {
+    "id": 104,
+    "topic": "Sentence",
+    "question": "Had you warned me in time, I — that mistake.",
+    "options": [
+      "would not have made",
+      "did not make",
+      "would not make",
+      "will not make"
+    ],
+    "answer": "ক",
+    "explanation": "Third Conditional ইনভার্শনের ফলাফল ক্লজে 'would not have + V3' (made) বসে।"
+  },
+  {
+    "id": 105,
+    "topic": "Sentence",
+    "question": "If I — you, I would not accept the bribe.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "have been"
+    ],
+    "answer": "গ",
+    "explanation": "অবাস্তব কল্পনা বা উপদেশ প্রদানে 'If I were you' প্রমিত ব্যাকরণিক গঠন (Subjunctive were)।"
+  },
+  {
+    "id": 106,
+    "topic": "Sentence",
+    "question": "What would you have done if you — the lottery?",
+    "options": [
+      "won",
+      "would win",
+      "win",
+      "had won"
+    ],
+    "answer": "ঘ",
+    "explanation": "Third conditional-এর প্রশ্ন: 'What would you have done' এর সাথে 'if you had won' বসে।"
+  },
+  {
+    "id": 107,
+    "topic": "Sentence",
+    "question": "If he had not helped me, I — bankrupt.",
+    "options": [
+      "went",
+      "would have gone",
+      "would go",
+      "will go"
+    ],
+    "answer": "খ",
+    "explanation": "Third conditional নেতিবাচক শর্তের পরিণতিতে 'would have gone' বসে।"
+  },
+  {
+    "id": 108,
+    "topic": "Sentence",
+    "question": "If anyone calls, please — them I will be back soon.",
+    "options": [
+      "tell",
+      "told",
+      "will tell",
+      "would tell"
+    ],
+    "answer": "ক",
+    "explanation": "First Conditional-এর ফলাফল অংশে ভবিষ্যৎকালের পরিবর্তে আদেশ/অনুরোধসূচক Imperative (tell) বসতে পারে।"
+  },
+  {
+    "id": 109,
+    "topic": "Sentence",
+    "question": "Should you need any assistance, please — us know.",
+    "options": [
+      "would let",
+      "will let",
+      "let",
+      "letted"
+    ],
+    "answer": "গ",
+    "explanation": "'Should you need...' হলো 'If you should need'-এর ইনভার্টেড রূপ; ফলাফল ক্লজটি Imperative (let us know)।"
+  },
+  {
+    "id": 110,
+    "topic": "Sentence",
+    "question": "If you drop the glass, it —",
+    "options": [
+      "breaks",
+      "would break",
+      "would have broken",
+      "broke"
+    ],
+    "answer": "ক",
+    "explanation": "প্রাকৃতিক কারণে সাধারণ ফলাফলের জন্য Zero conditional এ Present Simple (breaks) উপযুক্ত।"
+  },
+  {
+    "id": 111,
+    "topic": "Sentence",
+    "question": "If I were a bird, I — in the blue sky.",
+    "options": [
+      "will fly",
+      "would fly",
+      "flew",
+      "would have flown"
+    ],
+    "answer": "খ",
+    "explanation": "Second conditional-এ অসম্ভব কল্পনার ক্ষেত্রে 'would + V1' (would fly) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 112,
+    "topic": "Sentence",
+    "question": "Had the doctor arrived earlier, the patient —",
+    "options": [
+      "survived",
+      "will survive",
+      "might survive",
+      "might have survived"
+    ],
+    "answer": "ঘ",
+    "explanation": "Third conditional-এ সম্ভাব্যতা প্রকাশে 'would have'-এর পরিবর্তে 'might have + V3' বসতে পারে।"
+  },
+  {
+    "id": 113,
+    "topic": "Sentence",
+    "question": "If he does not hurry, he — late for school.",
+    "options": [
+      "will be",
+      "would have been",
+      "is",
+      "would be"
+    ],
+    "answer": "ক",
+    "explanation": "First conditional: If + present (does not hurry) -> future (will be)।"
+  },
+  {
+    "id": 114,
+    "topic": "Sentence",
+    "question": "If I had known your arrival, I — you at the station.",
+    "options": [
+      "will receive",
+      "would have received",
+      "would receive",
+      "received"
+    ],
+    "answer": "খ",
+    "explanation": "Third conditional: If + had known -> would have received।"
+  },
+  {
+    "id": 115,
+    "topic": "Sentence",
+    "question": "He seldom comes here, —?",
+    "options": [
+      "is he",
+      "isn't he",
+      "doesn't he",
+      "does he"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Seldom', 'hardly', 'scarcely', 'rarely', 'barely' ইত্যাদি নেতিবাচক শব্দ। বাক্যটি Negative হওয়ায় Tag Question হবে Affirmative ('does he')।"
+  },
+  {
+    "id": 116,
+    "topic": "Sentence",
+    "question": "Let's go for a walk by the river, —?",
+    "options": [
+      "will you",
+      "won't we",
+      "shall we",
+      "can we"
+    ],
+    "answer": "গ",
+    "explanation": "'Let's' বা 'Let us' দ্বারা প্রস্তাব বোঝানো হলে Tag Question সর্বদা 'shall we?' হয়।"
+  },
+  {
+    "id": 117,
+    "topic": "Sentence",
+    "question": "There is little water in the jug, —?",
+    "options": [
+      "is it",
+      "isn't it",
+      "isn't there",
+      "is there"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Little' একটি নেতিবাচক শব্দ (নেই বললেই চলে)। তাই বাক্যটি Negative বিবেচিত হয় এবং Tag হবে Affirmative ('is there?')।"
+  },
+  {
+    "id": 118,
+    "topic": "Sentence",
+    "question": "Nobody phoned while I was out, —?",
+    "options": [
+      "didn't they",
+      "didn't he",
+      "did they",
+      "did he"
+    ],
+    "answer": "গ",
+    "explanation": "'Nobody', 'none', 'neither' এর পরিবর্তে Pronoun 'they' বসে এবং নেতিবাচক হওয়ার কারণে Tag হবে Affirmative ('did they?')।"
+  },
+  {
+    "id": 119,
+    "topic": "Sentence",
+    "question": "Please keep quiet, —?",
+    "options": [
+      "shall you",
+      "will you",
+      "won't you",
+      "do you"
+    ],
+    "answer": "খ",
+    "explanation": "অনুরোধসূচক Imperative Sentence-এর Tag Question সাধারণত 'will you?' বা 'won't you?' হয়।"
+  },
+  {
+    "id": 120,
+    "topic": "Sentence",
+    "question": "I am your well-wisher, —?",
+    "options": [
+      "aren't I",
+      "am I",
+      "am not I",
+      "amn't I"
+    ],
+    "answer": "ক",
+    "explanation": "'I am'-এর নেতিবাচক Tag Question হিসেবে 'aren't I?' বা 'ain't I?' ব্যবহৃত হয় ('amn't I' প্রমিত ব্যাকরণে প্রযোজ্য নয়)।"
+  },
+  {
+    "id": 121,
+    "topic": "Sentence",
+    "question": "Barking dogs seldom bite, —?",
+    "options": [
+      "doesn't it",
+      "don't they",
+      "do they",
+      "does it"
+    ],
+    "answer": "গ",
+    "explanation": "'Barking dogs' প্লুরাল সাবজেক্ট (they) এবং 'seldom' নেতিবাচক শব্দ হওয়ায় Tag Question হবে Affirmative ('do they?')।"
+  },
+  {
+    "id": 122,
+    "topic": "Sentence",
+    "question": "Everyone appreciated his speech, —?",
+    "options": [
+      "did he",
+      "didn't they",
+      "didn't he",
+      "did they"
+    ],
+    "answer": "খ",
+    "explanation": "'Everyone / Everybody'-এর জন্য Tag-এ Pronoun 'they' বসে। বাক্যটি Past Affirmative হওয়ায় Tag হবে 'didn't they?'।"
+  },
+  {
+    "id": 123,
+    "topic": "Sentence",
+    "question": "Don't make a noise, —?",
+    "options": [
+      "will you",
+      "shall you",
+      "won't you",
+      "do you"
+    ],
+    "answer": "ক",
+    "explanation": "নেতিবাচক Imperative Sentence (Don't...)-এর Tag Question সর্বদা 'will you?' হয়।"
+  },
+  {
+    "id": 124,
+    "topic": "Sentence",
+    "question": "Neither of them came, —?",
+    "options": [
+      "didn't he",
+      "did he",
+      "didn't they",
+      "did they"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Neither' নেতিবাচক এবং এর রেফারেন্ট প্লুরাল (they) হওয়ায় Affirmative Tag 'did they?' বসবে।"
+  },
+  {
+    "id": 125,
+    "topic": "Sentence",
+    "question": "Let him speak first, —?",
+    "options": [
+      "does he",
+      "shall we",
+      "won't he",
+      "will you"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Let him / Let them / Let her' (অনুমতি অর্থে) থাকলে Tag Question 'will you?' হয়।"
+  },
+  {
+    "id": 126,
+    "topic": "Sentence",
+    "question": "He has few friends in this city, —?",
+    "options": [
+      "doesn't he",
+      "does he",
+      "has he",
+      "hasn't he"
+    ],
+    "answer": "গ",
+    "explanation": "'Few' নেতিবাচক অর্থ দেয় (বন্ধু নেই বললেই চলে), তাই Tag Question হবে Affirmative ('has he?' বা 'does he?')।"
+  },
+  {
+    "id": 127,
+    "topic": "Sentence",
+    "question": "Nothing is permanent in this world, —?",
+    "options": [
+      "aren't they",
+      "is it",
+      "isn't it",
+      "are they"
+    ],
+    "answer": "খ",
+    "explanation": "বস্তুবাচক 'Nothing'-এর পরিবর্তে Pronoun 'it' বসে এবং বাক্যটি Negative হওয়ায় Tag হবে Affirmative ('is it?')।"
+  },
+  {
+    "id": 128,
+    "topic": "Sentence",
+    "question": "You used to play cricket, —?",
+    "options": [
+      "didn't you",
+      "usedn't you",
+      "did you",
+      "don't you"
+    ],
+    "answer": "ক",
+    "explanation": "'used to'-এর Past Habit নির্দেশক বাক্যের Tag Question সাধারণত 'didn't you?' বা 'usedn't you?' হয়।"
+  },
+  {
+    "id": 129,
+    "topic": "Sentence",
+    "question": "The baby is crying, —?",
+    "options": [
+      "isn't it",
+      "isn't he",
+      "isn't she",
+      "is it"
+    ],
+    "answer": "ক",
+    "explanation": "শিশু (baby / infant) বা ইতর প্রাণীর লিঙ্গ অনির্ধারিত থাকলে Pronoun হিসেবে 'it' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 130,
+    "topic": "Sentence",
+    "question": "Hardly anyone passed the difficult test, —?",
+    "options": [
+      "didn't anyone",
+      "did anyone",
+      "didn't they",
+      "did they"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Hardly' নেতিবাচক এবং 'anyone'-এর বিপরীতে Tag-এ 'they' বসে, তাই 'did they?' সঠিক।"
+  },
+  {
+    "id": 131,
+    "topic": "Sentence",
+    "question": "Open the window, —?",
+    "options": [
+      "don't you",
+      "will you",
+      "shall you",
+      "aren't you"
+    ],
+    "answer": "খ",
+    "explanation": "Affirmative Imperative sentence-এ আদেশ বা অনুরোধের ক্ষেত্রে Tag Question 'will you?' বা 'won't you?' হয়।"
+  },
+  {
+    "id": 132,
+    "topic": "Sentence",
+    "question": "She has a sweet voice, —?",
+    "options": [
+      "isn't she",
+      "hasn't she",
+      "doesn't she",
+      "is she"
+    ],
+    "answer": "গ",
+    "explanation": "এখানে 'has' মূল ভার্ব (Present Indefinite); আমেরিকান ও আধুনিক ব্রিটিশ ইংরেজিতে এর Tag 'doesn't she?' (বা 'hasn't she?')।"
+  },
+  {
+    "id": 133,
+    "topic": "Sentence",
+    "question": "We ought to respect our parents, —?",
+    "options": [
+      "don't we",
+      "mustn't we",
+      "oughtn't we",
+      "shouldn't we"
+    ],
+    "answer": "গ",
+    "explanation": "'ought to'-এর নেতিবাচক Tag Form হিসেবে 'oughtn't we?' বসে।"
+  },
+  {
+    "id": 134,
+    "topic": "Sentence",
+    "question": "Somebody took my dictionary, —?",
+    "options": [
+      "didn't he",
+      "did they",
+      "did he",
+      "didn't they"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Somebody'-এর জন্য Pronoun 'they' বসে; বাক্যটি Past Affirmative হওয়ায় Tag হবে 'didn't they?'।"
+  },
+  {
+    "id": 135,
+    "topic": "Sentence",
+    "question": "You had better leave now, —?",
+    "options": [
+      "hadn't you",
+      "didn't you",
+      "bettern't you",
+      "wouldn't you"
+    ],
+    "answer": "ক",
+    "explanation": "'had better'-এর Tag Question তৈরিতে Auxiliary হিসেবে 'had' ব্যবহৃত হয়, তাই 'hadn't you?' সঠিক।"
+  },
+  {
+    "id": 136,
+    "topic": "Sentence",
+    "question": "A few students attended the lecture, —?",
+    "options": [
+      "did they",
+      "didn't they",
+      "were they",
+      "weren't they"
+    ],
+    "answer": "খ",
+    "explanation": "'A few' ইতিবাচক (Affirmative), তাই Tag Question হবে নেতিবাচক: 'didn't they?'।"
+  },
+  {
+    "id": 137,
+    "topic": "Sentence",
+    "question": "Everything looked beautiful, —?",
+    "options": [
+      "did it",
+      "didn't it",
+      "wasn't it",
+      "didn't they"
+    ],
+    "answer": "খ",
+    "explanation": "'Everything' বস্তুবাচক ও Singular, তাই এর Pronoun 'it' এবং Past Tense হওয়ায় 'didn't it?' হবে।"
+  },
+  {
+    "id": 138,
+    "topic": "Sentence",
+    "question": "Let us decide the matter together, —?",
+    "options": [
+      "will you",
+      "won't we",
+      "can we",
+      "shall we"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Let us' দিয়ে সম্মিলিত সিদ্ধান্ত বা প্রস্তাব বোঝানোয় Tag সর্বদা 'shall we?'।"
+  },
+  {
+    "id": 139,
+    "topic": "Sentence",
+    "question": "You need not go there, —?",
+    "options": [
+      "need you",
+      "don't you",
+      "do you",
+      "needn't you"
+    ],
+    "answer": "ক",
+    "explanation": "এখানে 'need' হলো Modal Auxiliary এবং বাক্যটি নেতিবাচক, তাই Tag হবে Affirmative 'need you?'।"
+  },
+  {
+    "id": 140,
+    "topic": "Sentence",
+    "question": "He dared not tell a lie, —?",
+    "options": [
+      "didn't he",
+      "daren't he",
+      "dared he",
+      "did he"
+    ],
+    "answer": "গ",
+    "explanation": "Modal Auxiliary হিসেবে 'dared not' থাকায় এর Tag হবে Affirmative 'dared he?' (অথবা 'did he?')।"
+  },
+  {
+    "id": 141,
+    "topic": "Sentence",
+    "question": "None of the food was wasted, —?",
+    "options": [
+      "was it",
+      "wasn't it",
+      "weren't they",
+      "were they"
+    ],
+    "answer": "ক",
+    "explanation": "Uncountable noun 'food'-এর জন্য Pronoun 'it' বসে এবং 'None' নেতিবাচক হওয়ায় Tag হবে 'was it?'।"
+  },
+  {
+    "id": 142,
+    "topic": "Sentence",
+    "question": "Have a cup of tea, —?",
+    "options": [
+      "won't you",
+      "have you",
+      "will you",
+      "do you"
+    ],
+    "answer": "গ",
+    "explanation": "কাউকে কোনো কিছু অফার বা আপ্যায়ন করার ক্ষেত্রে Imperative বাক্যের Tag 'will you?' বা 'won't you?' হয়।"
+  },
+  {
+    "id": 143,
+    "topic": "Sentence",
+    "question": "One should keep one's promise, —?",
+    "options": [
+      "shouldn't they",
+      "shouldn't one",
+      "shouldn't he",
+      "should one"
+    ],
+    "answer": "খ",
+    "explanation": "Subject যদি অনির্দিষ্ট Pronoun 'One' হয়, তবে Tag Question-এও Pronoun হিসেবে 'one' (বা 'he') থাকে।"
+  },
+  {
+    "id": 144,
+    "topic": "Sentence",
+    "question": "He would rather starve than beg, —?",
+    "options": [
+      "hadn't he",
+      "shouldn't he",
+      "did he",
+      "wouldn't he"
+    ],
+    "answer": "ঘ",
+    "explanation": "'would rather'-এর Tag Question তৈরিতে Modal 'would' ব্যবহৃত হয়, তাই 'wouldn't he?' সঠিক।"
+  },
+  {
+    "id": 145,
+    "topic": "Sentence",
+    "question": "What is the sentence pattern of 'She gave him a watch'?",
+    "options": [
+      "Subject + Verb + Indirect Object + Direct Object (S + V + IO + DO)",
+      "Subject + Verb + Subject Complement (S + V + SC)",
+      "Subject + Verb + Adverbial (S + V + A)",
+      "Subject + Verb + Direct Object + Object Complement (S + V + DO + OC)"
+    ],
+    "answer": "ক",
+    "explanation": "'She' (S) + 'gave' (V) + 'him' (ব্যক্তিবাচক Indirect Object) + 'a watch' (বস্তুবাচক Direct Object)।"
+  },
+  {
+    "id": 146,
+    "topic": "Sentence",
+    "question": "Identify the sentence pattern: 'They elected him chairman.'",
+    "options": [
+      "S + V + O + A",
+      "S + V + C",
+      "S + V + IO + DO",
+      "S + V + O + C (Subject + Verb + Object + Object Complement)"
+    ],
+    "answer": "ঘ",
+    "explanation": "'They' (S) + 'elected' (V) + 'him' (Object) + 'chairman' (him এর পরিচয় প্রকাশক Object Complement)।"
+  },
+  {
+    "id": 147,
+    "topic": "Sentence",
+    "question": "In the sentence 'Honey tastes sweet', 'sweet' is a/an —",
+    "options": [
+      "Direct object",
+      "Subject complement",
+      "Object complement",
+      "Adverb"
+    ],
+    "answer": "খ",
+    "explanation": "Linking Verb 'tastes'-এর পর 'sweet' শব্দটি Subject 'Honey'-এর অবস্থা নির্দেশ করায় এটি Subject Complement (Predicative Adjective)।"
+  },
+  {
+    "id": 148,
+    "topic": "Sentence",
+    "question": "Which sentence contains an Intransitive verb followed by an adverbial?",
+    "options": [
+      "The boy flies a kite.",
+      "He gave me a book.",
+      "The birds fly in the sky.",
+      "She made a cake."
+    ],
+    "answer": "গ",
+    "explanation": "'fly' এখানে Intransitive verb (কোনো object নেই) এবং 'in the sky' হলো Adverbial of place।"
+  },
+  {
+    "id": 149,
+    "topic": "Sentence",
+    "question": "Choose the sentence with correct inversion:",
+    "options": [
+      "Hardly had I arrived then the phone rang.",
+      "Hardly I had arrived when the phone rang.",
+      "Hardly did I arrived when the phone rang.",
+      "Hardly had I arrived when the phone rang."
+    ],
+    "answer": "ঘ",
+    "explanation": "নেতিবাচক Adverb 'Hardly' বাক্যের শুরুতে বসলে Subject-এর পূর্বে Auxiliary Verb বসে (Inversion) এবং এর সাথে 'when' বসে।"
+  },
+  {
+    "id": 150,
+    "topic": "Sentence",
+    "question": "Which of the following sentences illustrates correct inversion with 'No sooner'?",
+    "options": [
+      "No sooner had he seen the police when he ran away.",
+      "No sooner had he seen the police than he ran away.",
+      "No sooner he had seen the police than he ran away.",
+      "No sooner did he saw the police than he ran away."
+    ],
+    "answer": "খ",
+    "explanation": "'No sooner had + Subject + V3... than + Subject + V2' নিয়ম অনুযায়ী Inversion কার্যকর হয়।"
+  },
+  {
+    "id": 151,
+    "topic": "Sentence",
+    "question": "Identify the sentence pattern: 'The baby slept soundly.'",
+    "options": [
+      "S + V + A (Subject + Verb + Adverbial)",
+      "S + V + O",
+      "S + V + C",
+      "S + V + O + C"
+    ],
+    "answer": "ক",
+    "explanation": "'The baby' (S) + 'slept' (Intransitive Verb) + 'soundly' (Adverbial of manner)।"
+  },
+  {
+    "id": 152,
+    "topic": "Sentence",
+    "question": "Complete with inversion: 'Never before — such a breathtaking view.'",
+    "options": [
+      "I have seen",
+      "did I saw",
+      "have I seen",
+      "I saw"
+    ],
+    "answer": "গ",
+    "explanation": "Negative expression 'Never before' শুরুতে থাকায় Inversion হবে: Auxiliary verb (have) + Subject (I) + V3 (seen)।"
+  },
+  {
+    "id": 153,
+    "topic": "Sentence",
+    "question": "In 'The teacher made the students write an essay', the verb 'made' is a —",
+    "options": [
+      "Causative verb",
+      "Reflexive verb",
+      "Cognate verb",
+      "Linking verb"
+    ],
+    "answer": "ক",
+    "explanation": "'Make' এখানে Causative Verb হিসেবে অন্যকে দিয়ে কাজ করানো বোঝাতে ব্যবহৃত হয়েছে এবং এর পর Bare Infinitive (write) বসেছে।"
+  },
+  {
+    "id": 154,
+    "topic": "Sentence",
+    "question": "Which sentence has a Cognate object?",
+    "options": [
+      "He ran very fast.",
+      "He won the match.",
+      "He ran towards the station.",
+      "He ran a race."
+    ],
+    "answer": "ঘ",
+    "explanation": "সমধাতুজ ক্রিয়া ও কর্ম: যখন Intransitive Verb থেকে নিষ্পন্ন Noun সেই Verb-এরই Object হিসেবে ব্যবহৃত হয় ('ran a race'), তাকে Cognate Object বলে।"
+  },
+  {
+    "id": 155,
+    "topic": "Sentence",
+    "question": "In 'He died a peaceful death', 'death' is a —",
+    "options": [
+      "Indirect object",
+      "Retained object",
+      "Cognate object",
+      "Factitive object"
+    ],
+    "answer": "গ",
+    "explanation": "'died' ভার্ব এবং 'death' নাউন একই ধাতু থেকে গঠিত হওয়ায় 'death' একটি Cognate Object।"
+  },
+  {
+    "id": 156,
+    "topic": "Sentence",
+    "question": "Identify the sentence with a Retained object in passive voice:",
+    "options": [
+      "He was praised by all.",
+      "He was given a prize.",
+      "He won a prize.",
+      "A prize was won by him."
+    ],
+    "answer": "খ",
+    "explanation": "Active-এ দুটি Object থাকলে Passive করার পর যে Object-টি অপরিবর্তিত থেকে যায় ('a prize'), তাকে Retained Object বলে।"
+  },
+  {
+    "id": 157,
+    "topic": "Sentence",
+    "question": "In 'We made him captain', 'captain' is a —",
+    "options": [
+      "Indirect object",
+      "Cognate object",
+      "Factitive object (Object complement)",
+      "Direct object"
+    ],
+    "answer": "গ",
+    "explanation": "অসম্পূর্ণ ক্রিয়ার অর্থ পূর্ণ করতে Object-এর অতিরিক্ত পরিচয় হিসেবে ব্যবহৃত Noun-কে Factitive Object বা Object Complement বলে।"
+  },
+  {
+    "id": 158,
+    "topic": "Sentence",
+    "question": "Choose the correct inverted sentence:",
+    "options": [
+      "Scarcely had the bell rung when the students entered the classroom.",
+      "Scarcely the bell had rung when students entered.",
+      "Scarcely had the bell rung than the students entered.",
+      "Scarcely did the bell rung when students entered."
+    ],
+    "answer": "ক",
+    "explanation": "'Scarcely had + S + V3... when...' কাঠামোতে সঠিক Inversion এবং 'when' কনজাংশন ব্যবহৃত হয়।"
+  },
+  {
+    "id": 159,
+    "topic": "Sentence",
+    "question": "In the sentence 'He laughed at the poor man', 'laughed at' functions as a —",
+    "options": [
+      "Linking verb",
+      "Intransitive verb",
+      "Causative verb",
+      "Group verb / Prepositional transitive verb"
+    ],
+    "answer": "ঘ",
+    "explanation": "Intransitive verb 'laugh'-এর সাথে 'at' যুক্ত হয়ে Transitive Verb হিসেবে 'the poor man' অবজেক্টকে গ্রহণ করেছে।"
+  },
+  {
+    "id": 160,
+    "topic": "Sentence",
+    "question": "Complete the sentence with inversion: 'Seldom — such incredible dedication.'",
+    "options": [
+      "one does witness",
+      "does one witness",
+      "one witnesses",
+      "witnesses one"
+    ],
+    "answer": "খ",
+    "explanation": "'Seldom' দিয়ে বাক্য শুরু হওয়ায় Inversion ঘটবে: Auxiliary (does) + Subject (one) + Base verb (witness)।"
+  },
+  {
+    "id": 161,
+    "topic": "Sentence",
+    "question": "Identify the sentence pattern of 'The sun shines brightly.'",
+    "options": [
+      "S + V + O",
+      "S + V",
+      "S + V + C",
+      "S + V + A"
+    ],
+    "answer": "ঘ",
+    "explanation": "'The sun' (S) + 'shines' (V) + 'brightly' (Adverbial of manner)।"
+  },
+  {
+    "id": 162,
+    "topic": "Sentence",
+    "question": "In 'He nominated John secretary', what part of the sentence is 'secretary'?",
+    "options": [
+      "Objective complement",
+      "Indirect object",
+      "Subject complement",
+      "Direct object"
+    ],
+    "answer": "ক",
+    "explanation": "'secretary' শব্দটি অবজেক্ট 'John'-এর পদবি বা পরিপূরক তথ্য হওয়ায় এটি Objective Complement।"
+  },
+  {
+    "id": 163,
+    "topic": "Sentence",
+    "question": "Which sentence correctly uses 'Only after' with inversion?",
+    "options": [
+      "Only after finishing his homework went he out.",
+      "Only after finishing his homework did he go out to play.",
+      "Only after did he finish homework he went out.",
+      "Only after finishing his homework he went out to play."
+    ],
+    "answer": "খ",
+    "explanation": "'Only after + time phrase/clause' বাক্যের শুরুতে বসলে প্রধান ক্লজে Inversion হয় ('did he go...')।"
+  },
+  {
+    "id": 164,
+    "topic": "Sentence",
+    "question": "In 'The flower smells sweet', 'smells' is a —",
+    "options": [
+      "Causative verb",
+      "Transitive verb",
+      "Copulative / Linking verb",
+      "Factitive verb"
+    ],
+    "answer": "গ",
+    "explanation": "যে Verb সাবজেক্ট এবং কমপ্লিমেন্টকে সংযুক্ত করে এবং কোনো বাহ্যিক কর্ম গ্রহণ করে না, তাকে Linking বা Copulative Verb বলে।"
+  },
+  {
+    "id": 165,
+    "topic": "Sentence",
+    "question": "Choose the sentence illustrating correct inversion:",
+    "options": [
+      "Little did he know about the conspiracy.",
+      "Little knew he about the conspiracy.",
+      "Little he knew about the conspiracy.",
+      "Little did he knew about the conspiracy."
+    ],
+    "answer": "ক",
+    "explanation": "নেতিবাচক অর্থবোধক 'Little' শুরুতে বসলে Inversion হয়: did + subject (he) + base verb (know)।"
+  },
+  {
+    "id": 166,
+    "topic": "Sentence",
+    "question": "In 'He proved himself worthy', 'worthy' is an —",
+    "options": [
+      "Subject complement",
+      "Adverb",
+      "Objective complement (Adjective)",
+      "Attributive adjective"
+    ],
+    "answer": "গ",
+    "explanation": "Reflexive object 'himself'-এর গুণ বা বৈশিষ্ট্য প্রকাশ করায় 'worthy' হলো Objective Complement।"
+  },
+  {
+    "id": 167,
+    "topic": "Sentence",
+    "question": "Complete: 'Not only — the tournament, but they also broke the record.'",
+    "options": [
+      "they won",
+      "did they win",
+      "won they",
+      "they did win"
+    ],
+    "answer": "খ",
+    "explanation": "'Not only' বাক্যের প্রথমে থাকলে প্রথম ক্লজে Subject-Auxiliary Inversion ঘটে ('did they win')।"
+  },
+  {
+    "id": 168,
+    "topic": "Sentence",
+    "question": "In 'I found the movie boring', 'boring' is a/an —",
+    "options": [
+      "Direct object",
+      "Subject complement",
+      "Adverb",
+      "Object complement"
+    ],
+    "answer": "ঘ",
+    "explanation": "'the movie' (Object)-এর অনুভূতি প্রকাশক অবস্থা নির্দেশ করায় 'boring' হলো Object Complement।"
+  },
+  {
+    "id": 169,
+    "topic": "Sentence",
+    "question": "Which sentence has an Intransitive verb used transitively?",
+    "options": [
+      "The rain stopped in the afternoon.",
+      "The driver stopped the bus.",
+      "The bus stopped suddenly.",
+      "He walked slowly."
+    ],
+    "answer": "খ",
+    "explanation": "'Stop' সাধারণত Intransitive verb, কিন্তু 'stopped the bus' বাক্যে 'the bus' অবজেক্ট গ্রহণ করে Transitive হিসেবে ব্যবহৃত হয়েছে।"
+  },
+  {
+    "id": 170,
+    "topic": "Sentence",
+    "question": "Identify the sentence with inversion: 'Under no circumstances — reveal the password.'",
+    "options": [
+      "you should",
+      "you must",
+      "you have to",
+      "should you"
+    ],
+    "answer": "ঘ",
+    "explanation": "নেতিবাচক ফ্রেজ 'Under no circumstances' বাক্যের শুরুতে বসলে Inversion হয়ে Modal (should) + Subject (you) বসে।"
+  },
+  {
+    "id": 171,
+    "topic": "Sentence",
+    "question": "In 'Swimming is a good exercise', the subject 'Swimming' is a —",
+    "options": [
+      "Gerund (Verbal noun)",
+      "Present participle",
+      "Abstract noun",
+      "Infinitive"
+    ],
+    "answer": "ক",
+    "explanation": "Verb+ing যখন বাক্যের Subject হিসেবে Noun-এর কাজ করে, তখন তাকে Gerund বলে।"
+  },
+  {
+    "id": 172,
+    "topic": "Sentence",
+    "question": "Complete: 'So fiercely — that the roof was blown away.'",
+    "options": [
+      "the wind did blow",
+      "blew the wind",
+      "did the wind blow",
+      "the wind blew"
+    ],
+    "answer": "গ",
+    "explanation": "'So + adverb' বাক্যের শুরুতে বসলে Inversion ঘটে: Auxiliary (did) + Subject (the wind) + base verb (blow)।"
+  },
+  {
+    "id": 173,
+    "topic": "Sentence",
+    "question": "In 'She made herself tea', 'herself' is an —",
+    "options": [
+      "Direct object",
+      "Reflexive emphatic pronoun",
+      "Object complement",
+      "Indirect object"
+    ],
+    "answer": "ঘ",
+    "explanation": "'made' ভার্বের কার জন্য তৈরি করেছে তা বোঝাতে 'herself' ব্যক্তিবাচক Indirect Object হিসেবে বসেছে।"
+  },
+  {
+    "id": 174,
+    "topic": "Sentence",
+    "question": "Identify the sentence with correct word order and inversion:",
+    "options": [
+      "Ancient temple on the top of the hill stood.",
+      "On the top of the hill stood an ancient temple.",
+      "On the top of the hill an ancient temple stood.",
+      "On the top stood an ancient temple of the hill."
+    ],
+    "answer": "খ",
+    "explanation": "স্থানবাচক Locative Prepositional Phrase বাক্যের শুরুতে বসলে Full Inversion ঘটে (Prepositional phrase + Verb + Subject)।"
+  },
+  {
+    "id": 175,
+    "topic": "Sentence",
+    "question": "Identify the sentence with correct parallel structure:",
+    "options": [
+      "She likes dancing, swimming, and to read.",
+      "She likes dance, swimming, and reading.",
+      "She likes dancing, swimming, and reading.",
+      "She likes to dance, swimming, and reading."
+    ],
+    "answer": "গ",
+    "explanation": "Parallelism বা সমান্তরাল গঠনের নিয়মানুযায়ী একাধিক আইটেম যুক্ত করার সময় সবকটি একই ব্যাকরণিক রূপে (Gerund: dancing, swimming, reading) থাকতে হয়।"
+  },
+  {
+    "id": 176,
+    "topic": "Sentence",
+    "question": "Which sentence contains a Dangling Modifier?",
+    "options": [
+      "Walking down the street, a brick fell on his head.",
+      "While he was walking down the street, a brick fell on his head.",
+      "As he walked down the street, a brick fell on him.",
+      "Walking down the street, he was struck by a brick."
+    ],
+    "answer": "ক",
+    "explanation": "এখানে 'Walking down the street' মডিফায়ারটির পাশে সাবজেক্ট 'a brick' বসায় মনে হয় ইটটি হাঁটছিল; এটি একটি মারাত্মক Dangling Modifier।"
+  },
+  {
+    "id": 177,
+    "topic": "Sentence",
+    "question": "Correct the dangling modifier in: 'Having arrived late for practice, a written excuse was needed.'",
+    "options": [
+      "Having arrived late for practice, an excuse was written.",
+      "Having arrived late for practice, the player needed a written excuse.",
+      "The excuse was written having arrived late for practice.",
+      "A written excuse was needed having arrived late for practice."
+    ],
+    "answer": "খ",
+    "explanation": "দেরিতে আসার কাজটি করেছে 'the player', তাই Participle phrase-এর ঠিক পরপরই যুক্তিযুক্ত Subject 'the player' বসাতে হবে।"
+  },
+  {
+    "id": 178,
+    "topic": "Sentence",
+    "question": "Choose the sentence with correct parallelism:",
+    "options": [
+      "Not only he is intelligent but also hardworking.",
+      "He is not only intelligent but also he works hard.",
+      "He is not only intelligent but also hardworking.",
+      "He not only is intelligent but also hardworking."
+    ],
+    "answer": "গ",
+    "explanation": "'Not only' ও 'but also'-এর পর একই পার্টস অব স্পিচ (উভয় ক্ষেত্রে Adjective: intelligent, hardworking) বসলে Parallelism বজায় থাকে।"
+  },
+  {
+    "id": 179,
+    "topic": "Sentence",
+    "question": "Which of the following sentences is free from grammatical errors?",
+    "options": [
+      "Neither the teacher nor the students were present in the hall.",
+      "Neither the teacher nor the students are present yesterday.",
+      "Neither the teacher nor the students was present in the hall.",
+      "Neither the teacher or the students were present in the hall."
+    ],
+    "answer": "ক",
+    "explanation": "'Neither... nor' যুক্ত বাক্যে Verb তার নিকটবর্তী Subject (students - plural) অনুসারে 'were' গ্রহণ করে।"
+  },
+  {
+    "id": 180,
+    "topic": "Sentence",
+    "question": "Identify the sentence with a Misplaced Modifier:",
+    "options": [
+      "Sandwiches on paper plates were served to the children.",
+      "She served sandwiches on paper plates to the children.",
+      "The children ate sandwiches served on paper plates.",
+      "She served sandwiches to the children on paper plates."
+    ],
+    "answer": "ঘ",
+    "explanation": "প্রথম বাক্যে 'on paper plates' কথাটি 'the children'-এর পাশে থাকায় অদ্ভুত অর্থ দাঁড়ায় যে শিশুরা কাগজের প্লেটে বসে ছিল। এটি Misplaced Modifier।"
+  },
+  {
+    "id": 181,
+    "topic": "Sentence",
+    "question": "Choose the correctly structured sentence:",
+    "options": [
+      "The climate of Bogura is similar to that of Rajshahi.",
+      "The climate of Bogura is similar to Rajshahi.",
+      "The climate of Bogura is like Rajshahi.",
+      "The climate of Bogura is similar than Rajshahi."
+    ],
+    "answer": "ক",
+    "explanation": "তুলনা করার সময় সমজাতীয় বিষয়ের তুলনা করতে হয়; বগুড়ার আবহাওয়ার সাথে রাজশাহীর নয়, বরং রাজশাহীর আবহাওয়ার ('that of Rajshahi') তুলনা হবে।"
+  },
+  {
+    "id": 182,
+    "topic": "Sentence",
+    "question": "Identify the correct parallel construction:",
+    "options": [
+      "To learn English requires time, to be patient, and dedication.",
+      "To learn English requires time, patience, and to dedicate.",
+      "To learn English requires time, patience, and dedication.",
+      "To learn English requires having time, patience, and dedication."
+    ],
+    "answer": "গ",
+    "explanation": "কমা দিয়ে যুক্ত তিনটি শব্দই Noun (time, patience, dedication) হওয়ায় বাক্যটি সুষম ও সমান্তরাল।"
+  },
+  {
+    "id": 183,
+    "topic": "Sentence",
+    "question": "Which sentence has correct Subject-Verb agreement?",
+    "options": [
+      "The qualities of this mango is excellent.",
+      "The quality of these mangoes are excellent.",
+      "The quality of these mangoes were being excellent.",
+      "The quality of these mangoes is excellent."
+    ],
+    "answer": "ঘ",
+    "explanation": "বাক্যের প্রকৃত Subject হলো Singular Noun 'quality', 'mangoes' নয়; তাই Singular Verb 'is' বসবে।"
+  },
+  {
+    "id": 184,
+    "topic": "Sentence",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "One of the boys who wins the prize is my brother.",
+      "One of the boys who won the prizes is my brother.",
+      "One of the boys who won the prizes are my brother.",
+      "One of the boy who won the prizes is my brother."
+    ],
+    "answer": "খ",
+    "explanation": "Relative clause 'who won the prizes' বাদ দিলে মূল ক্লজের Subject 'One of the boys', যার Verb হবে Singular 'is'।"
+  },
+  {
+    "id": 185,
+    "topic": "Sentence",
+    "question": "Choose the sentence that avoids faulty parallelism:",
+    "options": [
+      "The manager wanted to inspect the factory, interview workers, and write a report.",
+      "The manager wanted to inspect the factory, interviewing workers, and write a report.",
+      "The manager wanted to inspect the factory, interview workers, and a report.",
+      "The manager wanted inspecting the factory, interview workers, and write a report."
+    ],
+    "answer": "ক",
+    "explanation": "Infinitive 'to'-এর পর তিনটি Base Verb (inspect, interview, write) সমান্তরালভাবে ব্যবহার করা হয়েছে।"
+  },
+  {
+    "id": 186,
+    "topic": "Sentence",
+    "question": "Which sentence correctly places the adverb 'only'?",
+    "options": [
+      "He ate two apples only for breakfast.",
+      "He only ate two apples for breakfast.",
+      "He ate only two apples for breakfast.",
+      "Only he ate two apples for breakfast."
+    ],
+    "answer": "গ",
+    "explanation": "'Only' যে শব্দটিকে মডিফাই করে তার ঠিক পূর্বে বসানো বাঞ্ছনীয়; এখানে 'two apples' সংখ্যাকে মডিফাই করায় 'only two apples' সবচেয়ে নিখুঁত।"
+  },
+  {
+    "id": 187,
+    "topic": "Sentence",
+    "question": "Find the correct sentence with proper coordination:",
+    "options": [
+      "He worked hard, although he did not achieve the expected score.",
+      "He worked hard, because he did not achieve the expected score.",
+      "He worked hard, so he did not achieve the expected score.",
+      "He worked hard, yet he did not achieve the expected score."
+    ],
+    "answer": "ঘ",
+    "explanation": "পরস্পরবিরোধী ফলাফলের জন্য Coordinating Conjunction 'yet' উপযুক্ত এবং কমা সহ সঠিক Compound বাক্য গঠন করেছে।"
+  },
+  {
+    "id": 188,
+    "topic": "Sentence",
+    "question": "Which of the following sentences has a Squinting Modifier?",
+    "options": [
+      "Exercising improves your health frequently.",
+      "Exercising frequently improves your health.",
+      "Frequently exercising improves your health.",
+      "Regular exercise improves your health."
+    ],
+    "answer": "খ",
+    "explanation": "'frequently' শব্দটি এমন জায়গায় বসেছে যে এটি 'exercising' না 'improves' কাকে নির্দেশ করছে তা অস্পষ্ট হয়ে যায়; একে Squinting Modifier বলে।"
+  },
+  {
+    "id": 189,
+    "topic": "Sentence",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "No sooner had we reached the station than the train arrived.",
+      "No sooner had we reached the station when the train arrived.",
+      "No sooner did we reached the station than the train arrived.",
+      "No sooner we reached the station than the train arrived."
+    ],
+    "answer": "ক",
+    "explanation": "'No sooner had + S + V3' এর সাথে সর্বদা 'than' কনজাংশন বসে ('when' বা 'then' নয়)।"
+  },
+  {
+    "id": 190,
+    "topic": "Sentence",
+    "question": "Identify the sentence with correct comparative parallelism:",
+    "options": [
+      "Riding a bicycle is healthier than a car.",
+      "Riding a bicycle is healthier than to drive a car.",
+      "Riding a bicycle is healthier than driving a car.",
+      "To ride a bicycle is healthier than driving a car."
+    ],
+    "answer": "গ",
+    "explanation": "তুলনার উভয় পাশে Gerund Phrase ('Riding a bicycle' এবং 'driving a car') থাকায় সমান্তরালতা বজায় রয়েছে।"
+  },
+  {
+    "id": 191,
+    "topic": "Sentence",
+    "question": "Correct the run-on sentence: 'The sun set it grew dark rapidly.'",
+    "options": [
+      "The sun setting, it grew dark rapidly.",
+      "The sun set, and it grew dark rapidly.",
+      "The sun set, it grew dark rapidly.",
+      "The sun set it grew dark, rapidly."
+    ],
+    "answer": "খ",
+    "explanation": "দুটি স্বাধীন বাক্যকে কোনো বিরামচিহ্ন বা কনজাংশন ছাড়া যুক্ত করলে Run-on sentence বা Fused sentence ত্রুটি হয়; কমা ও 'and' দিয়ে তা দূর করা যায়।"
+  },
+  {
+    "id": 192,
+    "topic": "Sentence",
+    "question": "What error is present in: 'I like reading, writing, and to paint'?",
+    "options": [
+      "Comma splice",
+      "Dangling modifier",
+      "Subject-verb mismatch",
+      "Faulty parallelism"
+    ],
+    "answer": "ঘ",
+    "explanation": "প্রথম দুটি উপাদান Gerund (reading, writing) কিন্তু তৃতীয়টি Infinitive (to paint) হওয়ায় এটি Faulty Parallelism।"
+  },
+  {
+    "id": 193,
+    "topic": "Sentence",
+    "question": "Identify the sentence with a Comma Splice error:",
+    "options": [
+      "The weather was terrible, so we decided to stay at home.",
+      "Because the weather was terrible, we decided to stay at home.",
+      "The weather was terrible; we decided to stay at home.",
+      "The weather was terrible, we decided to stay at home."
+    ],
+    "answer": "ঘ",
+    "explanation": "দুটি Independent Clause-কে কোনো Coordinating Conjunction ছাড়া শুধু কমা দিয়ে যুক্ত করলে তাকে Comma Splice বলা হয়।"
+  },
+  {
+    "id": 194,
+    "topic": "Sentence",
+    "question": "Choose the correct sentence with proper noun clause order:",
+    "options": [
+      "I do not know who did steal the diamond necklace.",
+      "I do not know who stole the diamond necklace.",
+      "I do not know that who stole the diamond necklace.",
+      "I do not know who stole did the diamond necklace."
+    ],
+    "answer": "খ",
+    "explanation": "Indirect Question বা Noun Clause-এ প্রশ্নবোধক কাঠামো না হয়ে সাধারণ Assertive শব্দক্রম (Subject + Verb) বজায় থাকে।"
+  },
+  {
+    "id": 195,
+    "topic": "Sentence",
+    "question": "Which sentence correctly avoids a dangling participle?",
+    "options": [
+      "Entering the room, the light was turned off.",
+      "Entering the room, a cat jumped on him.",
+      "Entering the room, he saw the light turned off.",
+      "Entering the room, silence was felt."
+    ],
+    "answer": "গ",
+    "explanation": "রুমে প্রবেশ করার কর্তা 'he' হওয়ায় 'Entering the room'-এর পর সরাসরি 'he' বসে Dangling Modifier পরিহার করা হয়েছে।"
+  },
+  {
+    "id": 196,
+    "topic": "Sentence",
+    "question": "Identify the grammatically correct sentence:",
+    "options": [
+      "Scarcely had the teacher entered the room when the students stood up.",
+      "Scarcely the teacher had entered the room when the students stood up.",
+      "Scarcely did the teacher entered the room when the students stood up.",
+      "Scarcely had the teacher entered the room than the students stood up."
+    ],
+    "answer": "ক",
+    "explanation": "'Scarcely had... when...' নিয়ম অনুযায়ী সঠিক বাক্যটি গঠিত হয়েছে।"
+  },
+  {
+    "id": 197,
+    "topic": "Sentence",
+    "question": "Choose the sentence with correct correlative conjunction use:",
+    "options": [
+      "Both the teacher as well as the student were satisfied.",
+      "Both the teacher with the student was satisfied.",
+      "Both the teacher and the student were satisfied.",
+      "Both the teacher or the student were satisfied."
+    ],
+    "answer": "গ",
+    "explanation": "'Both'-এর সাথে সর্বদা 'and' বসে ('as well as' বা 'or' নয়) এবং Verb প্লুরাল ('were') হয়।"
+  },
+  {
+    "id": 198,
+    "topic": "Sentence",
+    "question": "What is the error in: 'To succeed in life, hard work is essential'?",
+    "options": [
+      "Dangling modifier",
+      "Run-on sentence",
+      "Faulty parallelism",
+      "Comma splice"
+    ],
+    "answer": "ক",
+    "explanation": "'To succeed in life' ইনফিনিটিভের কর্তা কোনো মানুষ হবে, কিন্তু এখানে 'hard work' সাবজেক্ট হয়ে যাওয়ায় এটি Dangling Modifier।"
+  },
+  {
+    "id": 199,
+    "topic": "Sentence",
+    "question": "Choose the sentence that correctly expresses the thought:",
+    "options": [
+      "Despite he was severely injured, he managed to reach the hospital.",
+      "Although he was severely injured, he managed to reach the hospital.",
+      "Although he was severely injured, but he managed to reach the hospital.",
+      "In spite of he was severely injured, he reached hospital."
+    ],
+    "answer": "খ",
+    "explanation": "'Although' যুক্ত ক্লজের পর প্রধান ক্লজে পুনরায় 'but' ব্যবহার করা ব্যাকরণগতভাবে অশুদ্ধ (Double Conjunction)।"
+  },
+  {
+    "id": 200,
+    "topic": "Sentence",
+    "question": "Which sentence uses the correct sequence of tenses?",
+    "options": [
+      "He said that he finishes his work before I arrived.",
+      "He said that he finished his work before I arrived.",
+      "He said that he has finished his work before I arrived.",
+      "He said that he had finished his work before I arrived."
+    ],
+    "answer": "ঘ",
+    "explanation": "Reporting verb অতীতে (said) থাকলে এবং বক্তব্য অতীতের পূর্ববর্তী ঘটনা প্রকাশ করলে Past Perfect Tense (had finished) ব্যবহৃত হয়।"
+  }
+]

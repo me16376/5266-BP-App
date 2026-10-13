@@ -1,0 +1,888 @@
+{
+  "total_exams": 84,
+  "total_questions": 6157,
+  "categories": [
+    {
+      "id": "bangla",
+      "name": "Bangla",
+      "bn_name": "বাংলা ভাষা ও সাহিত্য",
+      "icon": "BookOpen",
+      "desc": "অ্যাম্ফিবিয়ান সাজেশন বাংলা ব্যাকরণ ও সাহিত্য অধ্যায়ভিত্তিক নির্ভুল সমাধান ও প্রস্তুতি",
+      "folder": "Bangla",
+      "exam_count": 14,
+      "question_count": 1662
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "bn_name": "ইংরেজি ভাষা ও সাহিত্য",
+      "icon": "Layers",
+      "desc": "অ্যাম্ফিবিয়ান সাজেশন English Grammar & Literature অধ্যায়ভিত্তিক প্রস্তুতি",
+      "folder": "English",
+      "exam_count": 17,
+      "question_count": 1574
+    },
+    {
+      "id": "gk",
+      "name": "General Knowledge",
+      "bn_name": "সাধারণ জ্ঞান (বাংলাদেশ ও আন্তর্জাতিক)",
+      "icon": "Award",
+      "desc": "অ্যাম্ফিবিয়ান সাজেশন বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলির পূর্ণাঙ্গ সংকলন",
+      "folder": "GK",
+      "exam_count": 28,
+      "question_count": 2276
+    },
+    {
+      "id": "math",
+      "name": "Mathematics",
+      "bn_name": "গণিত ও মানসিক দক্ষতা",
+      "icon": "Table",
+      "desc": "অ্যাম্ফিবিয়ান সাজেশন পাটিগণিত, বীজগণিত ও জ্যামিতি নির্ভুল সমাধান",
+      "folder": "Math",
+      "exam_count": 25,
+      "question_count": 645
+    }
+  ],
+  "exams": [
+    {
+      "id": "amp_bangla_1",
+      "slug": "bangla-কারক-বিভক্তি",
+      "title": "কারক বিভক্তি",
+      "clean_filename": "কারক বিভক্তি.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 123,
+      "file": "/data/Ampibian Suggestion/Bangla/কারক বিভক্তি.json"
+    },
+    {
+      "id": "amp_bangla_2",
+      "slug": "bangla-প্রত্যয়-বিন্যাস",
+      "title": "প্রত্যয় বিন্যাস",
+      "clean_filename": "প্রত্যয় বিন্যাস.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 38,
+      "file": "/data/Ampibian Suggestion/Bangla/প্রত্যয় বিন্যাস.json"
+    },
+    {
+      "id": "amp_bangla_3",
+      "slug": "bangla-বাক্য-প্রকরণ-ও-বাচ্য",
+      "title": "বাক্য প্রকরণ ও বাচ্য",
+      "clean_filename": "বাক্য প্রকরণ ও বাচ্য.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 48,
+      "file": "/data/Ampibian Suggestion/Bangla/বাক্য প্রকরণ ও বাচ্য.json"
+    },
+    {
+      "id": "amp_bangla_4",
+      "slug": "bangla-বাক্য-সংকোচন-বা-এক-কথায়-প্রকাশ",
+      "title": "বাক্য সংকোচন বা এক কথায় প্রকাশ",
+      "clean_filename": "বাক্য সংকোচন বা এক কথায় প্রকাশ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 104,
+      "file": "/data/Ampibian Suggestion/Bangla/বাক্য সংকোচন বা এক কথায় প্রকাশ.json"
+    },
+    {
+      "id": "amp_bangla_5",
+      "slug": "bangla-বাগধারা-ও-বাগবিধি",
+      "title": "বাগধারা ও বাগবিধি",
+      "clean_filename": "বাগধারা ও বাগবিধি.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 120,
+      "file": "/data/Ampibian Suggestion/Bangla/বাগধারা ও বাগবিধি.json"
+    },
+    {
+      "id": "amp_bangla_6",
+      "slug": "bangla-বিপরীতার্থক-শব্দ",
+      "title": "বিপরীতার্থক শব্দ",
+      "clean_filename": "বিপরীতার্থক শব্দ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 74,
+      "file": "/data/Ampibian Suggestion/Bangla/বিপরীতার্থক শব্দ.json"
+    },
+    {
+      "id": "amp_bangla_7",
+      "slug": "bangla-বিরামচিহ্নের-ব্যবহার",
+      "title": "বিরামচিহ্নের ব্যবহার",
+      "clean_filename": "বিরামচিহ্নের ব্যবহার.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 35,
+      "file": "/data/Ampibian Suggestion/Bangla/বিরামচিহ্নের ব্যবহার.json"
+    },
+    {
+      "id": "amp_bangla_8",
+      "slug": "bangla-ভাষারীতি",
+      "title": "ভাষারীতি",
+      "clean_filename": "ভাষারীতি.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 412,
+      "file": "/data/Ampibian Suggestion/Bangla/ভাষারীতি.json"
+    },
+    {
+      "id": "amp_bangla_9",
+      "slug": "bangla-ভুল-সংশোধন-বা-শুদ্ধকরণ",
+      "title": "ভুল সংশোধন বা শুদ্ধকরণ",
+      "clean_filename": "ভুল সংশোধন বা শুদ্ধকরণ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 114,
+      "file": "/data/Ampibian Suggestion/Bangla/ভুল সংশোধন বা শুদ্ধকরণ.json"
+    },
+    {
+      "id": "amp_bangla_10",
+      "slug": "bangla-যথার্থ-অনুবাদ",
+      "title": "যথার্থ অনুবাদ",
+      "clean_filename": "যথার্থ অনুবাদ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 64,
+      "file": "/data/Ampibian Suggestion/Bangla/যথার্থ অনুবাদ.json"
+    },
+    {
+      "id": "amp_bangla_11",
+      "slug": "bangla-লিঙ্গ-পরিবর্তন",
+      "title": "লিঙ্গ পরিবর্তন",
+      "clean_filename": "লিঙ্গ পরিবর্তন.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 40,
+      "file": "/data/Ampibian Suggestion/Bangla/লিঙ্গ পরিবর্তন.json"
+    },
+    {
+      "id": "amp_bangla_12",
+      "slug": "bangla-সন্ধি-বিচ্ছেদ",
+      "title": "সন্ধি বিচ্ছেদ",
+      "clean_filename": "সন্ধি বিচ্ছেদ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 125,
+      "file": "/data/Ampibian Suggestion/Bangla/সন্ধি বিচ্ছেদ.json"
+    },
+    {
+      "id": "amp_bangla_13",
+      "slug": "bangla-সমার্থক-শব্দ",
+      "title": "সমার্থক শব্দ",
+      "clean_filename": "সমার্থক শব্দ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 195,
+      "file": "/data/Ampibian Suggestion/Bangla/সমার্থক শব্দ.json"
+    },
+    {
+      "id": "amp_bangla_14",
+      "slug": "bangla-সমাস",
+      "title": "সমাস",
+      "clean_filename": "সমাস.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 170,
+      "file": "/data/Ampibian Suggestion/Bangla/সমাস.json"
+    },
+    {
+      "id": "amp_english_1",
+      "slug": "english-completing-sentence",
+      "title": "Completing Sentence",
+      "clean_filename": "Completing Sentence.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 30,
+      "file": "/data/Ampibian Suggestion/English/Completing Sentence.json"
+    },
+    {
+      "id": "amp_english_2",
+      "slug": "english-degree",
+      "title": "Degree",
+      "clean_filename": "Degree.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 23,
+      "file": "/data/Ampibian Suggestion/English/Degree.json"
+    },
+    {
+      "id": "amp_english_3",
+      "slug": "english-errors-in-composition-sentence-correction",
+      "title": "Errors in Composition - Sentence Correction",
+      "clean_filename": "Errors in Composition - Sentence Correction.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 110,
+      "file": "/data/Ampibian Suggestion/English/Errors in Composition - Sentence Correction.json"
+    },
+    {
+      "id": "amp_english_4",
+      "slug": "english-errors-in-composition-spelling",
+      "title": "Errors in Composition - Spelling",
+      "clean_filename": "Errors in Composition - Spelling.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 129,
+      "file": "/data/Ampibian Suggestion/English/Errors in Composition - Spelling.json"
+    },
+    {
+      "id": "amp_english_5",
+      "slug": "english-identify-appropriate-title-from-story",
+      "title": "Identify appropriate title from story",
+      "clean_filename": "Identify appropriate title from story.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 36,
+      "file": "/data/Ampibian Suggestion/English/Identify appropriate title from story.json"
+    },
+    {
+      "id": "amp_english_6",
+      "slug": "english-idioms-and-phrases",
+      "title": "Idioms and Phrases",
+      "clean_filename": "Idioms and Phrases.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 132,
+      "file": "/data/Ampibian Suggestion/English/Idioms and Phrases.json"
+    },
+    {
+      "id": "amp_english_7",
+      "slug": "english-narration",
+      "title": "Narration",
+      "clean_filename": "Narration.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 78,
+      "file": "/data/Ampibian Suggestion/English/Narration.json"
+    },
+    {
+      "id": "amp_english_8",
+      "slug": "english-number-gender",
+      "title": "Number & Gender",
+      "clean_filename": "Number & Gender.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 66,
+      "file": "/data/Ampibian Suggestion/English/Number & Gender.json"
+    },
+    {
+      "id": "amp_english_9",
+      "slug": "english-participle-gerund-infinitive",
+      "title": "Participle, Gerund & Infinitive",
+      "clean_filename": "Participle, Gerund & Infinitive.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 21,
+      "file": "/data/Ampibian Suggestion/English/Participle, Gerund & Infinitive.json"
+    },
+    {
+      "id": "amp_english_10",
+      "slug": "english-parts-of-speech",
+      "title": "Parts of Speech",
+      "clean_filename": "Parts of Speech.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 260,
+      "file": "/data/Ampibian Suggestion/English/Parts of Speech.json"
+    },
+    {
+      "id": "amp_english_11",
+      "slug": "english-prepositions-appropriate-words",
+      "title": "Prepositions & Appropriate Words",
+      "clean_filename": "Prepositions & Appropriate Words.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 186,
+      "file": "/data/Ampibian Suggestion/English/Prepositions & Appropriate Words.json"
+    },
+    {
+      "id": "amp_english_12",
+      "slug": "english-right-forms-of-verbs",
+      "title": "Right Forms of Verbs",
+      "clean_filename": "Right Forms of Verbs.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 116,
+      "file": "/data/Ampibian Suggestion/English/Right Forms of Verbs.json"
+    },
+    {
+      "id": "amp_english_13",
+      "slug": "english-synonyms-and-antonyms",
+      "title": "Synonyms and Antonyms",
+      "clean_filename": "Synonyms and Antonyms.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 113,
+      "file": "/data/Ampibian Suggestion/English/Synonyms and Antonyms.json"
+    },
+    {
+      "id": "amp_english_14",
+      "slug": "english-transformation-of-sentence",
+      "title": "Transformation of Sentence",
+      "clean_filename": "Transformation of Sentence.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 79,
+      "file": "/data/Ampibian Suggestion/English/Transformation of Sentence.json"
+    },
+    {
+      "id": "amp_english_15",
+      "slug": "english-translation",
+      "title": "Translation",
+      "clean_filename": "Translation.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 59,
+      "file": "/data/Ampibian Suggestion/English/Translation.json"
+    },
+    {
+      "id": "amp_english_16",
+      "slug": "english-uses-of-article",
+      "title": "Uses of Article",
+      "clean_filename": "Uses of Article.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 37,
+      "file": "/data/Ampibian Suggestion/English/Uses of Article.json"
+    },
+    {
+      "id": "amp_english_17",
+      "slug": "english-voice-change",
+      "title": "Voice Change",
+      "clean_filename": "Voice Change.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 99,
+      "file": "/data/Ampibian Suggestion/English/Voice Change.json"
+    },
+    {
+      "id": "amp_gk_1",
+      "slug": "gk-আঞ্চলিক-ও-অর্থনৈতিক-সংগঠন",
+      "title": "আঞ্চলিক ও অর্থনৈতিক সংগঠন",
+      "clean_filename": "আঞ্চলিক ও অর্থনৈতিক সংগঠন.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 70,
+      "file": "/data/Ampibian Suggestion/GK/আঞ্চলিক ও অর্থনৈতিক সংগঠন.json"
+    },
+    {
+      "id": "amp_gk_2",
+      "slug": "gk-আন্তর্জাতিক-মুদ্রা-সংক্রান্ত",
+      "title": "আন্তর্জাতিক মুদ্রা সংক্রান্ত",
+      "clean_filename": "আন্তর্জাতিক মুদ্রা সংক্রান্ত.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 28,
+      "file": "/data/Ampibian Suggestion/GK/আন্তর্জাতিক মুদ্রা সংক্রান্ত.json"
+    },
+    {
+      "id": "amp_gk_3",
+      "slug": "gk-আন্তর্জাতিক-রাজনীতি-ও-আনুষঙ্গিক-বিষয়াবলী",
+      "title": "আন্তর্জাতিক রাজনীতি ও আনুষঙ্গিক বিষয়াবলী",
+      "clean_filename": "আন্তর্জাতিক রাজনীতি ও আনুষঙ্গিক বিষয়াবলী.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 179,
+      "file": "/data/Ampibian Suggestion/GK/আন্তর্জাতিক রাজনীতি ও আনুষঙ্গিক বিষয়াবলী.json"
+    },
+    {
+      "id": "amp_gk_4",
+      "slug": "gk-আন্তর্জাতিক-সম্পর্ক",
+      "title": "আন্তর্জাতিক সম্পর্ক",
+      "clean_filename": "আন্তর্জাতিক সম্পর্ক.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 46,
+      "file": "/data/Ampibian Suggestion/GK/আন্তর্জাতিক সম্পর্ক.json"
+    },
+    {
+      "id": "amp_gk_5",
+      "slug": "gk-ইতিহাস",
+      "title": "ইতিহাস",
+      "clean_filename": "ইতিহাস.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 101,
+      "file": "/data/Ampibian Suggestion/GK/ইতিহাস.json"
+    },
+    {
+      "id": "amp_gk_6",
+      "slug": "gk-জলবায়ু-পরিবর্তন-ও-দুর্যোগ",
+      "title": "জলবায়ু পরিবর্তন ও দুর্যোগ",
+      "clean_filename": "জলবায়ু পরিবর্তন ও দুর্যোগ.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 26,
+      "file": "/data/Ampibian Suggestion/GK/জলবায়ু পরিবর্তন ও দুর্যোগ.json"
+    },
+    {
+      "id": "amp_gk_7",
+      "slug": "gk-জাতিসংঘ",
+      "title": "জাতিসংঘ",
+      "clean_filename": "জাতিসংঘ.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 52,
+      "file": "/data/Ampibian Suggestion/GK/জাতিসংঘ.json"
+    },
+    {
+      "id": "amp_gk_8",
+      "slug": "gk-জীববিজ্ঞান-উদ্ভিদবিজ্ঞান",
+      "title": "জীববিজ্ঞান (উদ্ভিদবিজ্ঞান)",
+      "clean_filename": "জীববিজ্ঞান (উদ্ভিদবিজ্ঞান).json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 54,
+      "file": "/data/Ampibian Suggestion/GK/জীববিজ্ঞান (উদ্ভিদবিজ্ঞান).json"
+    },
+    {
+      "id": "amp_gk_9",
+      "slug": "gk-জীববিজ্ঞান-প্রাণিবিজ্ঞান",
+      "title": "জীববিজ্ঞান (প্রাণিবিজ্ঞান)",
+      "clean_filename": "জীববিজ্ঞান (প্রাণিবিজ্ঞান).json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 103,
+      "file": "/data/Ampibian Suggestion/GK/জীববিজ্ঞান (প্রাণিবিজ্ঞান).json"
+    },
+    {
+      "id": "amp_gk_10",
+      "slug": "gk-তথ্য-যোগাযোগ-ও-প্রযুক্তি",
+      "title": "তথ্য, যোগাযোগ ও প্রযুক্তি",
+      "clean_filename": "তথ্য, যোগাযোগ ও প্রযুক্তি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 128,
+      "file": "/data/Ampibian Suggestion/GK/তথ্য, যোগাযোগ ও প্রযুক্তি.json"
+    },
+    {
+      "id": "amp_gk_11",
+      "slug": "gk-দিবস-বর্ষ-এবং-দশক",
+      "title": "দিবস, বর্ষ এবং দশক",
+      "clean_filename": "দিবস, বর্ষ এবং দশক.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 22,
+      "file": "/data/Ampibian Suggestion/GK/দিবস, বর্ষ এবং দশক.json"
+    },
+    {
+      "id": "amp_gk_12",
+      "slug": "gk-নবায়নযোগ্য-শক্তি",
+      "title": "নবায়নযোগ্য শক্তি",
+      "clean_filename": "নবায়নযোগ্য শক্তি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 30,
+      "file": "/data/Ampibian Suggestion/GK/নবায়নযোগ্য শক্তি.json"
+    },
+    {
+      "id": "amp_gk_13",
+      "slug": "gk-পদার্থবিজ্ঞান",
+      "title": "পদার্থবিজ্ঞান",
+      "clean_filename": "পদার্থবিজ্ঞান.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 195,
+      "file": "/data/Ampibian Suggestion/GK/পদার্থবিজ্ঞান.json"
+    },
+    {
+      "id": "amp_gk_14",
+      "slug": "gk-পরিবেশ-বিজ্ঞান-সংশ্লিষ্ট",
+      "title": "পরিবেশ বিজ্ঞান সংশ্লিষ্ট",
+      "clean_filename": "পরিবেশ বিজ্ঞান সংশ্লিষ্ট.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 55,
+      "file": "/data/Ampibian Suggestion/GK/পরিবেশ বিজ্ঞান সংশ্লিষ্ট.json"
+    },
+    {
+      "id": "amp_gk_15",
+      "slug": "gk-পুরস্কার-ও-সম্মাননা",
+      "title": "পুরস্কার ও সম্মাননা",
+      "clean_filename": "পুরস্কার ও সম্মাননা.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 85,
+      "file": "/data/Ampibian Suggestion/GK/পুরস্কার ও সম্মাননা.json"
+    },
+    {
+      "id": "amp_gk_16",
+      "slug": "gk-বাংলাদেশ-সমাজ-জীবন-সমস্যা-জনমিতিক-পরিচয়",
+      "title": "বাংলাদেশ সমাজ জীবন - সমস্যা, জনমিতিক পরিচয়",
+      "clean_filename": "বাংলাদেশ সমাজ জীবন - সমস্যা, জনমিতিক পরিচয়.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 84,
+      "file": "/data/Ampibian Suggestion/GK/বাংলাদেশ সমাজ জীবন - সমস্যা, জনমিতিক পরিচয়.json"
+    },
+    {
+      "id": "amp_gk_17",
+      "slug": "gk-বাংলাদেশের-অর্থনীতি",
+      "title": "বাংলাদেশের অর্থনীতি",
+      "clean_filename": "বাংলাদেশের অর্থনীতি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 105,
+      "file": "/data/Ampibian Suggestion/GK/বাংলাদেশের অর্থনীতি.json"
+    },
+    {
+      "id": "amp_gk_18",
+      "slug": "gk-বাংলাদেশের-ভূপ্রকৃতি-জলবায়ু-ও-পরিবেশ",
+      "title": "বাংলাদেশের ভূপ্রকৃতি, জলবায়ু ও পরিবেশ",
+      "clean_filename": "বাংলাদেশের ভূপ্রকৃতি, জলবায়ু ও পরিবেশ.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 86,
+      "file": "/data/Ampibian Suggestion/GK/বাংলাদেশের ভূপ্রকৃতি, জলবায়ু ও পরিবেশ.json"
+    },
+    {
+      "id": "amp_gk_19",
+      "slug": "gk-বিশ্ব-ভৌগোলিক-পরিচিতি",
+      "title": "বিশ্ব ভৌগোলিক পরিচিতি",
+      "clean_filename": "বিশ্ব ভৌগোলিক পরিচিতি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 184,
+      "file": "/data/Ampibian Suggestion/GK/বিশ্ব ভৌগোলিক পরিচিতি.json"
+    },
+    {
+      "id": "amp_gk_20",
+      "slug": "gk-ভাষা-আন্দোলন",
+      "title": "ভাষা আন্দোলন",
+      "clean_filename": "ভাষা আন্দোলন.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 28,
+      "file": "/data/Ampibian Suggestion/GK/ভাষা আন্দোলন.json"
+    },
+    {
+      "id": "amp_gk_21",
+      "slug": "gk-মানবসম্পদ-উন্নয়ন",
+      "title": "মানবসম্পদ উন্নয়ন",
+      "clean_filename": "মানবসম্পদ উন্নয়ন.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 68,
+      "file": "/data/Ampibian Suggestion/GK/মানবসম্পদ উন্নয়ন.json"
+    },
+    {
+      "id": "amp_gk_22",
+      "slug": "gk-মুক্তিযুদ্ধ",
+      "title": "মুক্তিযুদ্ধ",
+      "clean_filename": "মুক্তিযুদ্ধ.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 155,
+      "file": "/data/Ampibian Suggestion/GK/মুক্তিযুদ্ধ.json"
+    },
+    {
+      "id": "amp_gk_23",
+      "slug": "gk-যোগাযোগ-ব্যবস্থা",
+      "title": "যোগাযোগ ব্যবস্থা",
+      "clean_filename": "যোগাযোগ ব্যবস্থা.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 41,
+      "file": "/data/Ampibian Suggestion/GK/যোগাযোগ ব্যবস্থা.json"
+    },
+    {
+      "id": "amp_gk_24",
+      "slug": "gk-রসায়নবিজ্ঞান",
+      "title": "রসায়নবিজ্ঞান",
+      "clean_filename": "রসায়নবিজ্ঞান.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 97,
+      "file": "/data/Ampibian Suggestion/GK/রসায়নবিজ্ঞান.json"
+    },
+    {
+      "id": "amp_gk_25",
+      "slug": "gk-রাষ্ট্র-নাগরিকতা-সরকার-ও-রাজনীতি",
+      "title": "রাষ্ট্র, নাগরিকতা, সরকার ও রাজনীতি",
+      "clean_filename": "রাষ্ট্র, নাগরিকতা, সরকার ও রাজনীতি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 82,
+      "file": "/data/Ampibian Suggestion/GK/রাষ্ট্র, নাগরিকতা, সরকার ও রাজনীতি.json"
+    },
+    {
+      "id": "amp_gk_26",
+      "slug": "gk-সভ্যতা-ও-সংস্কৃতি",
+      "title": "সভ্যতা ও সংস্কৃতি",
+      "clean_filename": "সভ্যতা ও সংস্কৃতি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 85,
+      "file": "/data/Ampibian Suggestion/GK/সভ্যতা ও সংস্কৃতি.json"
+    },
+    {
+      "id": "amp_gk_27",
+      "slug": "gk-সরকারি-ও-বেসরকারি-লক্ষ্য-নীতি-পরিকল্পনা-অর্থনৈতিক-সামাজিক-স্বাস্থ্য-ও-শিক্ষা-কর্মসূচি",
+      "title": "সরকারি ও বেসরকারি লক্ষ্য, নীতি, পরিকল্পনা (অর্থনৈতিক, সামাজিক, স্বাস্থ্য ও শিক্ষা), কর্মসূচি",
+      "clean_filename": "সরকারি ও বেসরকারি লক্ষ্য, নীতি, পরিকল্পনা (অর্থনৈতিক, সামাজিক, স্বাস্থ্য ও শিক্ষা), কর্মসূচি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 45,
+      "file": "/data/Ampibian Suggestion/GK/সরকারি ও বেসরকারি লক্ষ্য, নীতি, পরিকল্পনা (অর্থনৈতিক, সামাজিক, স্বাস্থ্য ও শিক্ষা), কর্মসূচি.json"
+    },
+    {
+      "id": "amp_gk_28",
+      "slug": "gk-স্বাস্থ্য-সাধারণ-রোগ-ব্যাধি-ও-চিকিৎসা",
+      "title": "স্বাস্থ্য, সাধারণ রোগ ব্যাধি ও চিকিৎসা",
+      "clean_filename": "স্বাস্থ্য, সাধারণ রোগ ব্যাধি ও চিকিৎসা.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 42,
+      "file": "/data/Ampibian Suggestion/GK/স্বাস্থ্য, সাধারণ রোগ ব্যাধি ও চিকিৎসা.json"
+    },
+    {
+      "id": "amp_math_1",
+      "slug": "math-অনুপাত-ও-সমানুপাত",
+      "title": "অনুপাত ও সমানুপাত",
+      "clean_filename": "অনুপাত ও সমানুপাত.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 34,
+      "file": "/data/Ampibian Suggestion/Math/অনুপাত ও সমানুপাত.json"
+    },
+    {
+      "id": "amp_math_2",
+      "slug": "math-উৎপাদকে-বিশ্লেষণ",
+      "title": "উৎপাদকে বিশ্লেষণ",
+      "clean_filename": "উৎপাদকে বিশ্লেষণ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 23,
+      "file": "/data/Ampibian Suggestion/Math/উৎপাদকে বিশ্লেষণ.json"
+    },
+    {
+      "id": "amp_math_3",
+      "slug": "math-ঐকিক-নিয়ম",
+      "title": "ঐকিক নিয়ম",
+      "clean_filename": "ঐকিক নিয়ম.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 18,
+      "file": "/data/Ampibian Suggestion/Math/ঐকিক নিয়ম.json"
+    },
+    {
+      "id": "amp_math_4",
+      "slug": "math-গতিবেগ-ও-ট্রেন",
+      "title": "গতিবেগ ও ট্রেন",
+      "clean_filename": "গতিবেগ ও ট্রেন.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 12,
+      "file": "/data/Ampibian Suggestion/Math/গতিবেগ ও ট্রেন.json"
+    },
+    {
+      "id": "amp_math_5",
+      "slug": "math-গড়",
+      "title": "গড়",
+      "clean_filename": "গড়.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 20,
+      "file": "/data/Ampibian Suggestion/Math/গড়.json"
+    },
+    {
+      "id": "amp_math_6",
+      "slug": "math-চতুর্ভুজ-ও-ক্ষেত্রফল",
+      "title": "চতুর্ভুজ ও ক্ষেত্রফল",
+      "clean_filename": "চতুর্ভুজ ও ক্ষেত্রফল.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 29,
+      "file": "/data/Ampibian Suggestion/Math/চতুর্ভুজ ও ক্ষেত্রফল.json"
+    },
+    {
+      "id": "amp_math_7",
+      "slug": "math-ত্রিকোণমিতি",
+      "title": "ত্রিকোণমিতি",
+      "clean_filename": "ত্রিকোণমিতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 26,
+      "file": "/data/Ampibian Suggestion/Math/ত্রিকোণমিতি.json"
+    },
+    {
+      "id": "amp_math_8",
+      "slug": "math-ত্রিভুজ",
+      "title": "ত্রিভুজ",
+      "clean_filename": "ত্রিভুজ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 21,
+      "file": "/data/Ampibian Suggestion/Math/ত্রিভুজ.json"
+    },
+    {
+      "id": "amp_math_9",
+      "slug": "math-ধারা",
+      "title": "ধারা",
+      "clean_filename": "ধারা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 26,
+      "file": "/data/Ampibian Suggestion/Math/ধারা.json"
+    },
+    {
+      "id": "amp_math_10",
+      "slug": "math-নৌকা-ও-স্রোত",
+      "title": "নৌকা ও স্রোত",
+      "clean_filename": "নৌকা ও স্রোত.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 10,
+      "file": "/data/Ampibian Suggestion/Math/নৌকা ও স্রোত.json"
+    },
+    {
+      "id": "amp_math_11",
+      "slug": "math-পরিমিতি",
+      "title": "পরিমিতি",
+      "clean_filename": "পরিমিতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 42,
+      "file": "/data/Ampibian Suggestion/Math/পরিমিতি.json"
+    },
+    {
+      "id": "amp_math_12",
+      "slug": "math-বর্গ-ও-ঘনসম্বলিত-সূত্রাবলী-ও-প্রয়োগ",
+      "title": "বর্গ ও ঘনসম্বলিত সূত্রাবলী ও প্রয়োগ",
+      "clean_filename": "বর্গ ও ঘনসম্বলিত সূত্রাবলী ও প্রয়োগ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 50,
+      "file": "/data/Ampibian Suggestion/Math/বর্গ ও ঘনসম্বলিত সূত্রাবলী ও প্রয়োগ.json"
+    },
+    {
+      "id": "amp_math_13",
+      "slug": "math-বাস্তব-সংখ্যা",
+      "title": "বাস্তব সংখ্যা",
+      "clean_filename": "বাস্তব সংখ্যা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 64,
+      "file": "/data/Ampibian Suggestion/Math/বাস্তব সংখ্যা.json"
+    },
+    {
+      "id": "amp_math_14",
+      "slug": "math-বাস্তব-সমস্যা-সমাধানে-বীজগাণিতিক-সূত্র-গঠন-ও-প্রয়োগ",
+      "title": "বাস্তব সমস্যা সমাধানে বীজগাণিতিক সূত্র গঠন ও প্রয়োগ",
+      "clean_filename": "বাস্তব সমস্যা সমাধানে বীজগাণিতিক সূত্র গঠন ও প্রয়োগ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 14,
+      "file": "/data/Ampibian Suggestion/Math/বাস্তব সমস্যা সমাধানে বীজগাণিতিক সূত্র গঠন ও প্রয়োগ.json"
+    },
+    {
+      "id": "amp_math_15",
+      "slug": "math-বিন্দু-রেখা-ও-কোণ",
+      "title": "বিন্দু রেখা ও কোণ",
+      "clean_filename": "বিন্দু রেখা ও কোণ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 17,
+      "file": "/data/Ampibian Suggestion/Math/বিন্দু রেখা ও কোণ.json"
+    },
+    {
+      "id": "amp_math_16",
+      "slug": "math-বীজগাণিতিক-লসাগু-ও-গসাগু",
+      "title": "বীজগাণিতিক ল.সা.গু ও গ.সা.গু",
+      "clean_filename": "বীজগাণিতিক ল.সা.গু ও গ.সা.গু.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 10,
+      "file": "/data/Ampibian Suggestion/Math/বীজগাণিতিক ল.সা.গু ও গ.সা.গু.json"
+    },
+    {
+      "id": "amp_math_17",
+      "slug": "math-বীজগাণিতীয়-ভগ্নাংশ",
+      "title": "বীজগাণিতীয় ভগ্নাংশ",
+      "clean_filename": "বীজগাণিতীয় ভগ্নাংশ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 11,
+      "file": "/data/Ampibian Suggestion/Math/বীজগাণিতীয় ভগ্নাংশ.json"
+    },
+    {
+      "id": "amp_math_18",
+      "slug": "math-বৃত্ত-ও-ঘন-জ্যামিতি",
+      "title": "বৃত্ত ও ঘন জ্যামিতি",
+      "clean_filename": "বৃত্ত ও ঘন জ্যামিতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 26,
+      "file": "/data/Ampibian Suggestion/Math/বৃত্ত ও ঘন জ্যামিতি.json"
+    },
+    {
+      "id": "amp_math_19",
+      "slug": "math-লসাগু-ও-গসাগু",
+      "title": "ল.সা.গু ও গ.সা.গু",
+      "clean_filename": "ল.সা.গু ও গ.সা.গু.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 30,
+      "file": "/data/Ampibian Suggestion/Math/ল.সা.গু ও গ.সা.গু.json"
+    },
+    {
+      "id": "amp_math_20",
+      "slug": "math-লাভ-ক্ষতি",
+      "title": "লাভ-ক্ষতি",
+      "clean_filename": "লাভ-ক্ষতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 24,
+      "file": "/data/Ampibian Suggestion/Math/লাভ-ক্ষতি.json"
+    },
+    {
+      "id": "amp_math_21",
+      "slug": "math-শতকরা",
+      "title": "শতকরা",
+      "clean_filename": "শতকরা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 36,
+      "file": "/data/Ampibian Suggestion/Math/শতকরা.json"
+    },
+    {
+      "id": "amp_math_22",
+      "slug": "math-সম্ভাব্যতা",
+      "title": "সম্ভাব্যতা",
+      "clean_filename": "সম্ভাব্যতা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 13,
+      "file": "/data/Ampibian Suggestion/Math/সম্ভাব্যতা.json"
+    },
+    {
+      "id": "amp_math_23",
+      "slug": "math-সরল-ও-দ্বিপদী-সমীকরণ",
+      "title": "সরল ও দ্বিপদী সমীকরণ",
+      "clean_filename": "সরল ও দ্বিপদী সমীকরণ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 18,
+      "file": "/data/Ampibian Suggestion/Math/সরল ও দ্বিপদী সমীকরণ.json"
+    },
+    {
+      "id": "amp_math_24",
+      "slug": "math-সরল-ও-যৌগিক-মুনাফা",
+      "title": "সরল ও যৌগিক মুনাফা",
+      "clean_filename": "সরল ও যৌগিক মুনাফা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 28,
+      "file": "/data/Ampibian Suggestion/Math/সরল ও যৌগিক মুনাফা.json"
+    },
+    {
+      "id": "amp_math_25",
+      "slug": "math-সূচক-ও-লগারিদম",
+      "title": "সূচক ও লগারিদম",
+      "clean_filename": "সূচক ও লগারিদম.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 43,
+      "file": "/data/Ampibian Suggestion/Math/সূচক ও লগারিদম.json"
+    }
+  ]
+}

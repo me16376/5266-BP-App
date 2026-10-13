@@ -1,0 +1,718 @@
+{
+  "total_exams": 67,
+  "total_questions": 9974,
+  "categories": [
+    {
+      "id": "bangla",
+      "name": "Bangla",
+      "bn_name": "বিদ্যাবাড়ি NTRCA বাংলা",
+      "icon": "BookOpen",
+      "desc": "বিদ্যাবাড়ি NTRCA শিক্ষক নিবন্ধন বাংলা লেকচারভিত্তিক প্রশ্নব্যাংক ও সমাধান",
+      "folder": "Bangla",
+      "exam_count": 14,
+      "question_count": 2495
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "bn_name": "বিদ্যাবাড়ি NTRCA ইংরেজি",
+      "icon": "Layers",
+      "desc": "বিদ্যাবাড়ি NTRCA শিক্ষক নিবন্ধন English লেকচারভিত্তিক প্রশ্নব্যাংক",
+      "folder": "English",
+      "exam_count": 16,
+      "question_count": 1890
+    },
+    {
+      "id": "gk",
+      "name": "General Knowledge",
+      "bn_name": "বিদ্যাবাড়ি NTRCA সাধারণ জ্ঞান",
+      "icon": "Award",
+      "desc": "বিদ্যাবাড়ি NTRCA সাধারণ জ্ঞান বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি লেকচার শিট",
+      "folder": "GK",
+      "exam_count": 18,
+      "question_count": 3688
+    },
+    {
+      "id": "math",
+      "name": "Mathematics",
+      "bn_name": "বিদ্যাবাড়ি NTRCA গণিত",
+      "icon": "Table",
+      "desc": "বিদ্যাবাড়ি NTRCA গণিত ও মানসিক দক্ষতা লেকচারভিত্তিক সম্পূর্ণ প্রশ্নব্যাংক",
+      "folder": "Math",
+      "exam_count": 19,
+      "question_count": 1901
+    }
+  ],
+  "exams": [
+    {
+      "id": "biddabari_bangla_1",
+      "slug": "bangla-লেকচার-০১-বাংলা-ভাষার-উদ্ভব-ও-ক্রমবিকাশ-বাংলা-লিপি-ধ্বনি-ও-বর্ণ-অক্ষর-যুক্তবর্ণ",
+      "title": "লেকচার-০১. বাংলা ভাষার উদ্ভব ও ক্রমবিকাশ, বাংলা লিপি, ধ্বনি ও বর্ণ, অক্ষর, যুক্তবর্ণ",
+      "clean_filename": "লেকচার-০১. বাংলা ভাষার উদ্ভব ও ক্রমবিকাশ, বাংলা লিপি, ধ্বনি ও বর্ণ, অক্ষর, যুক্তবর্ণ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 146,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-০১. বাংলা ভাষার উদ্ভব ও ক্রমবিকাশ, বাংলা লিপি, ধ্বনি ও বর্ণ, অক্ষর, যুক্তবর্ণ.json"
+    },
+    {
+      "id": "biddabari_bangla_2",
+      "slug": "bangla-লেকচার-০২-বাংলা-ভাষার-রীতি-ও-বিভাজন-ধ্বনি-পরিবর্তন",
+      "title": "লেকচার-০২. বাংলা ভাষার রীতি ও বিভাজন, ধ্বনি পরিবর্তন",
+      "clean_filename": "লেকচার-০২. বাংলা ভাষার রীতি ও বিভাজন, ধ্বনি পরিবর্তন.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 72,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-০২. বাংলা ভাষার রীতি ও বিভাজন, ধ্বনি পরিবর্তন.json"
+    },
+    {
+      "id": "biddabari_bangla_3",
+      "slug": "bangla-লেকচার-০৩-ণ-ত্ব-বিধান-এবং-ষ-ত্ব-বিধান-শব্দের-শ্রেণিবিভাগ",
+      "title": "লেকচার-০৩. ণ-ত্ব বিধান এবং ষ-ত্ব বিধান, শব্দের শ্রেণিবিভাগ",
+      "clean_filename": "লেকচার-০৩. ণ-ত্ব বিধান এবং ষ-ত্ব বিধান, শব্দের শ্রেণিবিভাগ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 156,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-০৩. ণ-ত্ব বিধান এবং ষ-ত্ব বিধান, শব্দের শ্রেণিবিভাগ.json"
+    },
+    {
+      "id": "biddabari_bangla_4",
+      "slug": "bangla-লেকচার-০৪-সন্ধি-সমার্থক-শব্দ-ও-প্রতিশব্দ",
+      "title": "লেকচার-০৪. সন্ধি, সমার্থক শব্দ ও প্রতিশব্দ",
+      "clean_filename": "লেকচার-০৪. সন্ধি, সমার্থক শব্দ ও প্রতিশব্দ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 220,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-০৪. সন্ধি, সমার্থক শব্দ ও প্রতিশব্দ.json"
+    },
+    {
+      "id": "biddabari_bangla_5",
+      "slug": "bangla-লেকচার-০৫-পদ-প্রকরণ-বিভিন্ন-শব্দের-অর্থ-বিপরীত-শব্দ",
+      "title": "লেকচার-০৫. পদ প্রকরণ, বিভিন্ন শব্দের অর্থ, বিপরীত শব্দ",
+      "clean_filename": "লেকচার-০৫. পদ প্রকরণ, বিভিন্ন শব্দের অর্থ, বিপরীত শব্দ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 186,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-০৫. পদ প্রকরণ, বিভিন্ন শব্দের অর্থ, বিপরীত শব্দ.json"
+    },
+    {
+      "id": "biddabari_bangla_6",
+      "slug": "bangla-লেকচার-০৬-লিঙ্গ-বচন-উপসর্গ",
+      "title": "লেকচার-০৬. লিঙ্গ, বচন, উপসর্গ",
+      "clean_filename": "লেকচার-০৬. লিঙ্গ, বচন, উপসর্গ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 188,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-০৬. লিঙ্গ, বচন, উপসর্গ.json"
+    },
+    {
+      "id": "biddabari_bangla_7",
+      "slug": "bangla-লেকচার-০৭-সংখ্যাবাচক-শব্দ-দ্বিরুক্ত-শব্দ",
+      "title": "লেকচার-০৭. সংখ্যাবাচক শব্দ, দ্বিরুক্ত শব্দ",
+      "clean_filename": "লেকচার-০৭. সংখ্যাবাচক শব্দ, দ্বিরুক্ত শব্দ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 73,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-০৭. সংখ্যাবাচক শব্দ, দ্বিরুক্ত শব্দ.json"
+    },
+    {
+      "id": "biddabari_bangla_8",
+      "slug": "bangla-লেকচার-০৮-প্রকৃতি-ও-প্রত্যয়",
+      "title": "লেকচার-০৮. প্রকৃতি ও প্রত্যয়",
+      "clean_filename": "লেকচার-০৮. প্রকৃতি ও প্রত্যয়.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 69,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-০৮. প্রকৃতি ও প্রত্যয়.json"
+    },
+    {
+      "id": "biddabari_bangla_9",
+      "slug": "bangla-লেকচার-০৯-বানান-শুদ্ধিকরণ-বাক্য-শুদ্ধিকরণ-বাক্য-ও-বাক্য-পরিবর্তন-পারিভাষিক-শব্দ-অনুবাদ-যতি-বা-ছেদচিহ্ন",
+      "title": "লেকচার-০৯. বানান শুদ্ধিকরণ, বাক্য শুদ্ধিকরণ, বাক্য ও বাক্য পরিবর্তন, পারিভাষিক শব্দ, অনুবাদ, যতি বা ছেদচিহ্ন",
+      "clean_filename": "লেকচার-০৯. বানান শুদ্ধিকরণ, বাক্য শুদ্ধিকরণ, বাক্য ও বাক্য পরিবর্তন, পারিভাষিক শব্দ, অনুবাদ, যতি বা ছেদচিহ্ন.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 266,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-০৯. বানান শুদ্ধিকরণ, বাক্য শুদ্ধিকরণ, বাক্য ও বাক্য পরিবর্তন, পারিভাষিক শব্দ, অনুবাদ, যতি বা ছেদচিহ্ন.json"
+    },
+    {
+      "id": "biddabari_bangla_10",
+      "slug": "bangla-লেকচার-১০-কারক-ও-বিভক্তি-বাক্য-সংকোচন-বাগ্‌ধারা",
+      "title": "লেকচার-১০. কারক ও বিভক্তি, বাক্য সংকোচন, বাগ্‌ধারা",
+      "clean_filename": "লেকচার-১০. কারক ও বিভক্তি, বাক্য সংকোচন, বাগ্‌ধারা.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 274,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-১০. কারক ও বিভক্তি, বাক্য সংকোচন, বাগ্‌ধারা.json"
+    },
+    {
+      "id": "biddabari_bangla_11",
+      "slug": "bangla-লেকচার-১১-সমাস-চিঠিপত্র",
+      "title": "লেকচার-১১. সমাস, চিঠিপত্র",
+      "clean_filename": "লেকচার-১১. সমাস, চিঠিপত্র.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 209,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-১১. সমাস, চিঠিপত্র.json"
+    },
+    {
+      "id": "biddabari_bangla_12",
+      "slug": "bangla-লেকচার-১২-বাংলা-সাহিত্যের-প্রাচীন-যুগ-ও-মধ্যযুগ-চর্যাপদ-শ্রীকৃষ্ণকীর্তন-মঙ্গলকাব্য",
+      "title": "লেকচার-১২. বাংলা সাহিত্যের প্রাচীন যুগ ও মধ্যযুগ (চর্যাপদ, শ্রীকৃষ্ণকীর্তন, মঙ্গলকাব্য)",
+      "clean_filename": "লেকচার-১২. বাংলা সাহিত্যের প্রাচীন যুগ ও মধ্যযুগ (চর্যাপদ, শ্রীকৃষ্ণকীর্তন, মঙ্গলকাব্য).json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 159,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-১২. বাংলা সাহিত্যের প্রাচীন যুগ ও মধ্যযুগ (চর্যাপদ, শ্রীকৃষ্ণকীর্তন, মঙ্গলকাব্য).json"
+    },
+    {
+      "id": "biddabari_bangla_13",
+      "slug": "bangla-লেকচার-১৩-বাংলা-সাহিত্যের-আধুনিক-যুগ-ফোর্ট-উইলিয়াম-কলেজ-থেকে-আধুনিক-সাহিত্যিকগণ",
+      "title": "লেকচার-১৩. বাংলা সাহিত্যের আধুনিক যুগ (ফোর্ট উইলিয়াম কলেজ থেকে আধুনিক সাহিত্যিকগণ)",
+      "clean_filename": "লেকচার-১৩. বাংলা সাহিত্যের আধুনিক যুগ (ফোর্ট উইলিয়াম কলেজ থেকে আধুনিক সাহিত্যিকগণ).json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 175,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-১৩. বাংলা সাহিত্যের আধুনিক যুগ (ফোর্ট উইলিয়াম কলেজ থেকে আধুনিক সাহিত্যিকগণ).json"
+    },
+    {
+      "id": "biddabari_bangla_14",
+      "slug": "bangla-লেকচার-১৪-সাহিত্যিকদের-পরিচিতি-বিখ্যাত-গ্রন্থ-উপন্যাস-নাটক-মুক্তিযুদ্ধ-ও-ভাষা-আন্দোলনভিত্তিক-সাহিত্য",
+      "title": "লেকচার-১৪. সাহিত্যিকদের পরিচিতি, বিখ্যাত গ্রন্থ, উপন্যাস, নাটক, মুক্তিযুদ্ধ ও ভাষা আন্দোলনভিত্তিক সাহিত্য",
+      "clean_filename": "লেকচার-১৪. সাহিত্যিকদের পরিচিতি, বিখ্যাত গ্রন্থ, উপন্যাস, নাটক, মুক্তিযুদ্ধ ও ভাষা আন্দোলনভিত্তিক সাহিত্য.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 302,
+      "file": "/data/Biddabari-NTRCA/Bangla/লেকচার-১৪. সাহিত্যিকদের পরিচিতি, বিখ্যাত গ্রন্থ, উপন্যাস, নাটক, মুক্তিযুদ্ধ ও ভাষা আন্দোলনভিত্তিক সাহিত্য.json"
+    },
+    {
+      "id": "biddabari_english_1",
+      "slug": "english-লেকচার-০১-parts-of-speech-i-noun-pronoun-adjective-adverb",
+      "title": "লেকচার-০১. Parts of Speech-I (Noun, Pronoun, Adjective, Adverb)",
+      "clean_filename": "লেকচার-০১. Parts of Speech-I (Noun, Pronoun, Adjective, Adverb).json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 133,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-০১. Parts of Speech-I (Noun, Pronoun, Adjective, Adverb).json"
+    },
+    {
+      "id": "biddabari_english_2",
+      "slug": "english-লেকচার-০২-parts-of-speech-ii-verb-conjunction-interjection",
+      "title": "লেকচার-০২. Parts of Speech-II (Verb, Conjunction, Interjection)",
+      "clean_filename": "লেকচার-০২. Parts of Speech-II (Verb, Conjunction, Interjection).json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 109,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-০২. Parts of Speech-II (Verb, Conjunction, Interjection).json"
+    },
+    {
+      "id": "biddabari_english_3",
+      "slug": "english-লেকচার-০৩-tense-conditional-sentence",
+      "title": "লেকচার-০৩. Tense, Conditional Sentence",
+      "clean_filename": "লেকচার-০৩. Tense, Conditional Sentence.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 91,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-০৩. Tense, Conditional Sentence.json"
+    },
+    {
+      "id": "biddabari_english_4",
+      "slug": "english-লেকচার-০৪-right-form-of-verb",
+      "title": "লেকচার-০৪. Right form of Verb",
+      "clean_filename": "লেকচার-০৪. Right form of Verb.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 70,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-০৪. Right form of Verb.json"
+    },
+    {
+      "id": "biddabari_english_5",
+      "slug": "english-লেকচার-০৫-subject-verb-agreement",
+      "title": "লেকচার-০৫. Subject-Verb Agreement",
+      "clean_filename": "লেকচার-০৫. Subject-Verb Agreement.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 49,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-০৫. Subject-Verb Agreement.json"
+    },
+    {
+      "id": "biddabari_english_6",
+      "slug": "english-লেকচার-০৬-preposition-spelling-spelling-mistakes",
+      "title": "লেকচার-০৬. Preposition, Spelling, Spelling Mistakes",
+      "clean_filename": "লেকচার-০৬. Preposition, Spelling, Spelling Mistakes.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 158,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-০৬. Preposition, Spelling, Spelling Mistakes.json"
+    },
+    {
+      "id": "biddabari_english_7",
+      "slug": "english-লেকচার-০৭-appropriate-preposition-group-verb",
+      "title": "লেকচার-০৭. Appropriate Preposition, Group Verb",
+      "clean_filename": "লেকচার-০৭. Appropriate Preposition, Group Verb.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 216,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-০৭. Appropriate Preposition, Group Verb.json"
+    },
+    {
+      "id": "biddabari_english_8",
+      "slug": "english-লেকচার-০৮-article-determiner-number-gender",
+      "title": "লেকচার-০৮. Article, Determiner, Number, Gender",
+      "clean_filename": "লেকচার-০৮. Article, Determiner, Number, Gender.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 138,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-০৮. Article, Determiner, Number, Gender.json"
+    },
+    {
+      "id": "biddabari_english_9",
+      "slug": "english-লেকচার-০৯-voice",
+      "title": "লেকচার-০৯. Voice",
+      "clean_filename": "লেকচার-০৯. Voice.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 66,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-০৯. Voice.json"
+    },
+    {
+      "id": "biddabari_english_10",
+      "slug": "english-লেকচার-১০-narration",
+      "title": "লেকচার-১০. Narration",
+      "clean_filename": "লেকচার-১০. Narration.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 47,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-১০. Narration.json"
+    },
+    {
+      "id": "biddabari_english_11",
+      "slug": "english-লেকচার-১১-word-formation-degree",
+      "title": "লেকচার-১১. Word Formation, Degree",
+      "clean_filename": "লেকচার-১১. Word Formation, Degree.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 94,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-১১. Word Formation, Degree.json"
+    },
+    {
+      "id": "biddabari_english_12",
+      "slug": "english-লেকচার-১২-sentence-transformation-of-sentence",
+      "title": "লেকচার-১২. Sentence, Transformation of Sentence",
+      "clean_filename": "লেকচার-১২. Sentence, Transformation of Sentence.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 67,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-১২. Sentence, Transformation of Sentence.json"
+    },
+    {
+      "id": "biddabari_english_13",
+      "slug": "english-লেকচার-১৩-one-word-substitution-synonym-antonym",
+      "title": "লেকচার-১৩. One Word Substitution, Synonym & Antonym",
+      "clean_filename": "লেকচার-১৩. One Word Substitution, Synonym & Antonym.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 191,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-১৩. One Word Substitution, Synonym & Antonym.json"
+    },
+    {
+      "id": "biddabari_english_14",
+      "slug": "english-লেকচার-১৪-translation-idioms-phrases",
+      "title": "লেকচার-১৪. Translation, Idioms & Phrases",
+      "clean_filename": "লেকচার-১৪. Translation, Idioms & Phrases.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 204,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-১৪. Translation, Idioms & Phrases.json"
+    },
+    {
+      "id": "biddabari_english_15",
+      "slug": "english-লেকচার-১৫-correction",
+      "title": "লেকচার-১৫. Correction",
+      "clean_filename": "লেকচার-১৫. Correction.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 61,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-১৫. Correction.json"
+    },
+    {
+      "id": "biddabari_english_16",
+      "slug": "english-লেকচার-১৬-different-authors-their-literary-works-figure-of-speech",
+      "title": "লেকচার-১৬. Different Authors & Their Literary Works, Figure of Speech",
+      "clean_filename": "লেকচার-১৬. Different Authors & Their Literary Works, Figure of Speech.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 196,
+      "file": "/data/Biddabari-NTRCA/English/লেকচার-১৬. Different Authors & Their Literary Works, Figure of Speech.json"
+    },
+    {
+      "id": "biddabari_gk_1",
+      "slug": "gk-লেকচার-০১-বাংলাদেশের-ভৌগোলিক-পরিচিতি-ভূ-প্রকৃতি-আবহাওয়া-ও-জলবায়ু-জাতীয়-বিষয়াবলি",
+      "title": "লেকচার-০১. বাংলাদেশের ভৌগোলিক পরিচিতি, ভূ-প্রকৃতি, আবহাওয়া ও জলবায়ু, জাতীয় বিষয়াবলি",
+      "clean_filename": "লেকচার-০১. বাংলাদেশের ভৌগোলিক পরিচিতি, ভূ-প্রকৃতি, আবহাওয়া ও জলবায়ু, জাতীয় বিষয়াবলি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 139,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-০১. বাংলাদেশের ভৌগোলিক পরিচিতি, ভূ-প্রকৃতি, আবহাওয়া ও জলবায়ু, জাতীয় বিষয়াবলি.json"
+    },
+    {
+      "id": "biddabari_gk_2",
+      "slug": "gk-লেকচার-০২-বাংলাদেশের-নদ-নদী-হাওড়-বিল-ও-হ্রদ-দ্বীপ-ও-চরসমূহ-পাহাড়-পর্বত",
+      "title": "লেকচার-০২. বাংলাদেশের নদ-নদী, হাওড়, বিল ও হ্রদ, দ্বীপ ও চরসমূহ, পাহাড়-পর্বত",
+      "clean_filename": "লেকচার-০২. বাংলাদেশের নদ-নদী, হাওড়, বিল ও হ্রদ, দ্বীপ ও চরসমূহ, পাহাড়-পর্বত.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 142,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-০২. বাংলাদেশের নদ-নদী, হাওড়, বিল ও হ্রদ, দ্বীপ ও চরসমূহ, পাহাড়-পর্বত.json"
+    },
+    {
+      "id": "biddabari_gk_3",
+      "slug": "gk-লেকচার-০৩-বাঙালি-জাতির-উদ্ভব-ও-বিকাশ-বাংলার-প্রাচীন-জনপদ-ও-শাসন-মুঘল-শাসন",
+      "title": "লেকচার-০৩. বাঙালি জাতির উদ্ভব ও বিকাশ, বাংলার প্রাচীন জনপদ ও শাসন, মুঘল শাসন",
+      "clean_filename": "লেকচার-০৩. বাঙালি জাতির উদ্ভব ও বিকাশ, বাংলার প্রাচীন জনপদ ও শাসন, মুঘল শাসন.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 219,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-০৩. বাঙালি জাতির উদ্ভব ও বিকাশ, বাংলার প্রাচীন জনপদ ও শাসন, মুঘল শাসন.json"
+    },
+    {
+      "id": "biddabari_gk_4",
+      "slug": "gk-লেকচার-০৪-বাংলাদেশের-মহান-স্বাধীনতা-যুদ্ধের-ইতিহাস-১৯৫২-৭১-ভাষা-আন্দোলন-যুক্তফ্রন্ট-ছয়দফা",
+      "title": "লেকচার-০৪. বাংলাদেশের মহান স্বাধীনতা যুদ্ধের ইতিহাস (১৯৫২-৭১), ভাষা আন্দোলন, যুক্তফ্রন্ট, ছয়দফা",
+      "clean_filename": "লেকচার-০৪. বাংলাদেশের মহান স্বাধীনতা যুদ্ধের ইতিহাস (১৯৫২-৭১), ভাষা আন্দোলন, যুক্তফ্রন্ট, ছয়দফা.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 80,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-০৪. বাংলাদেশের মহান স্বাধীনতা যুদ্ধের ইতিহাস (১৯৫২-৭১), ভাষা আন্দোলন, যুক্তফ্রন্ট, ছয়দফা.json"
+    },
+    {
+      "id": "biddabari_gk_5",
+      "slug": "gk-লেকচার-০৫-৭-মার্চের-ভাষণ-মুক্তিযুদ্ধ-সেক্টর-বীরশ্রেষ্ঠ-পরিচিতি",
+      "title": "লেকচার-০৫. ৭ মার্চের ভাষণ, মুক্তিযুদ্ধ, সেক্টর, বীরশ্রেষ্ঠ পরিচিতি",
+      "clean_filename": "লেকচার-০৫. ৭ মার্চের ভাষণ, মুক্তিযুদ্ধ, সেক্টর, বীরশ্রেষ্ঠ পরিচিতি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 224,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-০৫. ৭ মার্চের ভাষণ, মুক্তিযুদ্ধ, সেক্টর, বীরশ্রেষ্ঠ পরিচিতি.json"
+    },
+    {
+      "id": "biddabari_gk_6",
+      "slug": "gk-লেকচার-০৬-বাংলাদেশের-সংবিধান-জনসংখ্যা-ও-জনশুমারি-জাতিগোষ্ঠী-ও-উপজাতি",
+      "title": "লেকচার-০৬. বাংলাদেশের সংবিধান, জনসংখ্যা ও জনশুমারি, জাতিগোষ্ঠী ও উপজাতি",
+      "clean_filename": "লেকচার-০৬. বাংলাদেশের সংবিধান, জনসংখ্যা ও জনশুমারি, জাতিগোষ্ঠী ও উপজাতি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 199,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-০৬. বাংলাদেশের সংবিধান, জনসংখ্যা ও জনশুমারি, জাতিগোষ্ঠী ও উপজাতি.json"
+    },
+    {
+      "id": "biddabari_gk_7",
+      "slug": "gk-লেকচার-০৭-বিশিষ্ট-ব্যক্তিত্ব-গুরুত্বপূর্ণ-স্থাপনা-ভাস্কর্য-কৃষ্টি-ও-সংস্কৃতি-শিক্ষা-ব্যবস্থা",
+      "title": "লেকচার-০৭. বিশিষ্ট ব্যক্তিত্ব, গুরুত্বপূর্ণ স্থাপনা, ভাস্কর্য, কৃষ্টি ও সংস্কৃতি, শিক্ষা ব্যবস্থা",
+      "clean_filename": "লেকচার-০৭. বিশিষ্ট ব্যক্তিত্ব, গুরুত্বপূর্ণ স্থাপনা, ভাস্কর্য, কৃষ্টি ও সংস্কৃতি, শিক্ষা ব্যবস্থা.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 61,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-০৭. বিশিষ্ট ব্যক্তিত্ব, গুরুত্বপূর্ণ স্থাপনা, ভাস্কর্য, কৃষ্টি ও সংস্কৃতি, শিক্ষা ব্যবস্থা.json"
+    },
+    {
+      "id": "biddabari_gk_8",
+      "slug": "gk-লেকচার-০৮-বাংলাদেশের-কৃষি-সম্পদ-মৎস্য-সম্পদ-খনিজ-সম্পদ-অর্থনীতি-ব্যাংক-ও-বীমা",
+      "title": "লেকচার-০৮. বাংলাদেশের কৃষি সম্পদ, মৎস্য সম্পদ, খনিজ সম্পদ, অর্থনীতি, ব্যাংক ও বীমা",
+      "clean_filename": "লেকচার-০৮. বাংলাদেশের কৃষি সম্পদ, মৎস্য সম্পদ, খনিজ সম্পদ, অর্থনীতি, ব্যাংক ও বীমা.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 245,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-০৮. বাংলাদেশের কৃষি সম্পদ, মৎস্য সম্পদ, খনিজ সম্পদ, অর্থনীতি, ব্যাংক ও বীমা.json"
+    },
+    {
+      "id": "biddabari_gk_9",
+      "slug": "gk-লেকচার-০৯-বিশ্ব-মানচিত্র-প্রাচীন-সভ্যতাসমূহ-মহাদেশ-পরিচিতি-ও-এশিয়া-মহাদেশ",
+      "title": "লেকচার-০৯. বিশ্ব মানচিত্র, প্রাচীন সভ্যতাসমূহ, মহাদেশ পরিচিতি ও এশিয়া মহাদেশ",
+      "clean_filename": "লেকচার-০৯. বিশ্ব মানচিত্র, প্রাচীন সভ্যতাসমূহ, মহাদেশ পরিচিতি ও এশিয়া মহাদেশ.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 266,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-০৯. বিশ্ব মানচিত্র, প্রাচীন সভ্যতাসমূহ, মহাদেশ পরিচিতি ও এশিয়া মহাদেশ.json"
+    },
+    {
+      "id": "biddabari_gk_10",
+      "slug": "gk-লেকচার-১০-আমেরিকা-ও-অন্যান্য-মহাদেশ-ভৌগোলিক-উপনাম-বিভিন্ন-দেশের-আইনসভা-বিখ্যাত-স্থাপত্য",
+      "title": "লেকচার-১০. আমেরিকা ও অন্যান্য মহাদেশ, ভৌগোলিক উপনাম, বিভিন্ন দেশের আইনসভা, বিখ্যাত স্থাপত্য",
+      "clean_filename": "লেকচার-১০. আমেরিকা ও অন্যান্য মহাদেশ, ভৌগোলিক উপনাম, বিভিন্ন দেশের আইনসভা, বিখ্যাত স্থাপত্য.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 160,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-১০. আমেরিকা ও অন্যান্য মহাদেশ, ভৌগোলিক উপনাম, বিভিন্ন দেশের আইনসভা, বিখ্যাত স্থাপত্য.json"
+    },
+    {
+      "id": "biddabari_gk_11",
+      "slug": "gk-লেকচার-১১-জাতিপুঞ্জ-জাতিসংঘ-বৈশ্বিক-অর্থনৈতিক-প্রতিষ্ঠান-আঞ্চলিক-ও-আন্তর্জাতিক-সংস্থা",
+      "title": "লেকচার-১১. জাতিপুঞ্জ, জাতিসংঘ, বৈশ্বিক অর্থনৈতিক প্রতিষ্ঠান, আঞ্চলিক ও আন্তর্জাতিক সংস্থা",
+      "clean_filename": "লেকচার-১১. জাতিপুঞ্জ, জাতিসংঘ, বৈশ্বিক অর্থনৈতিক প্রতিষ্ঠান, আঞ্চলিক ও আন্তর্জাতিক সংস্থা.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 366,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-১১. জাতিপুঞ্জ, জাতিসংঘ, বৈশ্বিক অর্থনৈতিক প্রতিষ্ঠান, আঞ্চলিক ও আন্তর্জাতিক সংস্থা.json"
+    },
+    {
+      "id": "biddabari_gk_12",
+      "slug": "gk-লেকচার-১২-প্রথম-ও-দ্বিতীয়-বিশ্বযুদ্ধ-বিখ্যাত-চুক্তি-সামরিক-জোট-বিপ্লব-সীমারেখা",
+      "title": "লেকচার-১২. প্রথম ও দ্বিতীয় বিশ্বযুদ্ধ, বিখ্যাত চুক্তি, সামরিক জোট, বিপ্লব, সীমারেখা",
+      "clean_filename": "লেকচার-১২. প্রথম ও দ্বিতীয় বিশ্বযুদ্ধ, বিখ্যাত চুক্তি, সামরিক জোট, বিপ্লব, সীমারেখা.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 201,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-১২. প্রথম ও দ্বিতীয় বিশ্বযুদ্ধ, বিখ্যাত চুক্তি, সামরিক জোট, বিপ্লব, সীমারেখা.json"
+    },
+    {
+      "id": "biddabari_gk_13",
+      "slug": "gk-লেকচার-১৩-বিশ্বের-গুরুত্বপূর্ণ-দ্বীপ-পাহাড়-পর্বত-প্রণালী-সাগর-মহাসাগর-খাল-ও-নদী",
+      "title": "লেকচার-১৩. বিশ্বের গুরুত্বপূর্ণ দ্বীপ, পাহাড়-পর্বত, প্রণালী, সাগর, মহাসাগর, খাল ও নদী",
+      "clean_filename": "লেকচার-১৩. বিশ্বের গুরুত্বপূর্ণ দ্বীপ, পাহাড়-পর্বত, প্রণালী, সাগর, মহাসাগর, খাল ও নদী.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 91,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-১৩. বিশ্বের গুরুত্বপূর্ণ দ্বীপ, পাহাড়-পর্বত, প্রণালী, সাগর, মহাসাগর, খাল ও নদী.json"
+    },
+    {
+      "id": "biddabari_gk_14",
+      "slug": "gk-লেকচার-১৪-সাম্প্রতিক-বাংলাদেশ-ও-আন্তর্জাতিক-বিষয়াবলি-পুরস্কার-খেলাধুলা",
+      "title": "লেকচার-১৪. সাম্প্রতিক বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি, পুরস্কার, খেলাধুলা",
+      "clean_filename": "লেকচার-১৪. সাম্প্রতিক বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি, পুরস্কার, খেলাধুলা.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 268,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-১৪. সাম্প্রতিক বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি, পুরস্কার, খেলাধুলা.json"
+    },
+    {
+      "id": "biddabari_gk_15",
+      "slug": "gk-লেকচার-১৫-পদার্থ-পরমাণু-এসিড-ক্ষার-শব্দ-ও-তরঙ্গ-আলো-ও-শক্তি-বায়ুমণ্ডল",
+      "title": "লেকচার-১৫. পদার্থ, পরমাণু, এসিড-ক্ষার, শব্দ ও তরঙ্গ, আলো ও শক্তি, বায়ুমণ্ডল",
+      "clean_filename": "লেকচার-১৫. পদার্থ, পরমাণু, এসিড-ক্ষার, শব্দ ও তরঙ্গ, আলো ও শক্তি, বায়ুমণ্ডল.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 319,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-১৫. পদার্থ, পরমাণু, এসিড-ক্ষার, শব্দ ও তরঙ্গ, আলো ও শক্তি, বায়ুমণ্ডল.json"
+    },
+    {
+      "id": "biddabari_gk_16",
+      "slug": "gk-লেকচার-১৬-গ্যাস-ও-জ্বালানি-মানবদেহ-খাদ্য-ও-ভিটামিন-উদ্ভিদজগৎ-রোগব্যাধি-সৌরজগৎ",
+      "title": "লেকচার-১৬. গ্যাস ও জ্বালানি, মানবদেহ, খাদ্য ও ভিটামিন, উদ্ভিদজগৎ, রোগব্যাধি, সৌরজগৎ",
+      "clean_filename": "লেকচার-১৬. গ্যাস ও জ্বালানি, মানবদেহ, খাদ্য ও ভিটামিন, উদ্ভিদজগৎ, রোগব্যাধি, সৌরজগৎ.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 324,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-১৬. গ্যাস ও জ্বালানি, মানবদেহ, খাদ্য ও ভিটামিন, উদ্ভিদজগৎ, রোগব্যাধি, সৌরজগৎ.json"
+    },
+    {
+      "id": "biddabari_gk_17",
+      "slug": "gk-লেকচার-১৭-কম্পিউটারের-ইতিহাস-প্রজন্ম-প্রকারভেদ-সংগঠন-পেরিফেরালস-মেমোরি",
+      "title": "লেকচার-১৭. কম্পিউটারের ইতিহাস, প্রজন্ম, প্রকারভেদ, সংগঠন, পেরিফেরালস, মেমোরি",
+      "clean_filename": "লেকচার-১৭. কম্পিউটারের ইতিহাস, প্রজন্ম, প্রকারভেদ, সংগঠন, পেরিফেরালস, মেমোরি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 142,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-১৭. কম্পিউটারের ইতিহাস, প্রজন্ম, প্রকারভেদ, সংগঠন, পেরিফেরালস, মেমোরি.json"
+    },
+    {
+      "id": "biddabari_gk_18",
+      "slug": "gk-লেকচার-১৮-কম্পিউটার-সফটওয়্যার-অপারেটিং-সিস্টেম-প্রোগ্রামিং-ইন্টারনেট-নেটওয়ার্ক-সাইবার-ক্রাইম",
+      "title": "লেকচার-১৮. কম্পিউটার সফটওয়্যার, অপারেটিং সিস্টেম, প্রোগ্রামিং, ইন্টারনেট, নেটওয়ার্ক, সাইবার ক্রাইম",
+      "clean_filename": "লেকচার-১৮. কম্পিউটার সফটওয়্যার, অপারেটিং সিস্টেম, প্রোগ্রামিং, ইন্টারনেট, নেটওয়ার্ক, সাইবার ক্রাইম.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 242,
+      "file": "/data/Biddabari-NTRCA/GK/লেকচার-১৮. কম্পিউটার সফটওয়্যার, অপারেটিং সিস্টেম, প্রোগ্রামিং, ইন্টারনেট, নেটওয়ার্ক, সাইবার ক্রাইম.json"
+    },
+    {
+      "id": "biddabari_math_1",
+      "slug": "math-লেকচার-০১-বাস্তব-সংখ্যা-১",
+      "title": "লেকচার-০১. বাস্তব সংখ্যা-১",
+      "clean_filename": "লেকচার-০১. বাস্তব সংখ্যা-১.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 48,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-০১. বাস্তব সংখ্যা-১.json"
+    },
+    {
+      "id": "biddabari_math_2",
+      "slug": "math-লেকচার-০২-বাস্তব-সংখ্যা-২",
+      "title": "লেকচার-০২. বাস্তব সংখ্যা-২",
+      "clean_filename": "লেকচার-০২. বাস্তব সংখ্যা-২.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 67,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-০২. বাস্তব সংখ্যা-২.json"
+    },
+    {
+      "id": "biddabari_math_3",
+      "slug": "math-লেকচার-০৩-ভগ্নাংশ",
+      "title": "লেকচার-০৩. ভগ্নাংশ",
+      "clean_filename": "লেকচার-০৩. ভগ্নাংশ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 107,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-০৩. ভগ্নাংশ.json"
+    },
+    {
+      "id": "biddabari_math_4",
+      "slug": "math-লেকচার-০৪-লসাগু-ও-গসাগু",
+      "title": "লেকচার-০৪. ল.সা.গু ও গ.সা.গু",
+      "clean_filename": "লেকচার-০৪. ল.সা.গু ও গ.সা.গু.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 86,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-০৪. ল.সা.গু ও গ.সা.গু.json"
+    },
+    {
+      "id": "biddabari_math_5",
+      "slug": "math-লেকচার-০৫-শতকরা",
+      "title": "লেকচার-০৫. শতকরা",
+      "clean_filename": "লেকচার-০৫. শতকরা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 128,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-০৫. শতকরা.json"
+    },
+    {
+      "id": "biddabari_math_6",
+      "slug": "math-লেকচার-০৬-লাভ-ক্ষতি",
+      "title": "লেকচার-০৬. লাভ-ক্ষতি",
+      "clean_filename": "লেকচার-০৬. লাভ-ক্ষতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 120,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-০৬. লাভ-ক্ষতি.json"
+    },
+    {
+      "id": "biddabari_math_7",
+      "slug": "math-লেকচার-০৭-মুনাফা-সরল-ও-যৌগিক-মুনাফা",
+      "title": "লেকচার-০৭. মুনাফা (সরল ও যৌগিক মুনাফা)",
+      "clean_filename": "লেকচার-০৭. মুনাফা (সরল ও যৌগিক মুনাফা).json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 106,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-০৭. মুনাফা (সরল ও যৌগিক মুনাফা).json"
+    },
+    {
+      "id": "biddabari_math_8",
+      "slug": "math-লেকচার-০৮-গড়-ও-বয়স-সংক্রান্ত-সমস্যা",
+      "title": "লেকচার-০৮. গড় ও বয়স সংক্রান্ত সমস্যা",
+      "clean_filename": "লেকচার-০৮. গড় ও বয়স সংক্রান্ত সমস্যা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 68,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-০৮. গড় ও বয়স সংক্রান্ত সমস্যা.json"
+    },
+    {
+      "id": "biddabari_math_9",
+      "slug": "math-লেকচার-০৯-অনুপাত-সমানুপাত-ও-মিশ্রণ",
+      "title": "লেকচার-০৯. অনুপাত-সমানুপাত ও মিশ্রণ",
+      "clean_filename": "লেকচার-০৯. অনুপাত-সমানুপাত ও মিশ্রণ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 106,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-০৯. অনুপাত-সমানুপাত ও মিশ্রণ.json"
+    },
+    {
+      "id": "biddabari_math_10",
+      "slug": "math-লেকচার-১০-ঐকিক-নিয়ম-সময়-ও-কাজ-নল-ও-চৌবাচ্চা",
+      "title": "লেকচার-১০. ঐকিক নিয়ম, সময় ও কাজ, নল ও চৌবাচ্চা",
+      "clean_filename": "লেকচার-১০. ঐকিক নিয়ম, সময় ও কাজ, নল ও চৌবাচ্চা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 77,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-১০. ঐকিক নিয়ম, সময় ও কাজ, নল ও চৌবাচ্চা.json"
+    },
+    {
+      "id": "biddabari_math_11",
+      "slug": "math-লেকচার-১১-বীজগাণিতিক-সূত্রাবলী-ও-মান-নির্ণয়",
+      "title": "লেকচার-১১. বীজগাণিতিক সূত্রাবলী ও মান নির্ণয়",
+      "clean_filename": "লেকচার-১১. বীজগাণিতিক সূত্রাবলী ও মান নির্ণয়.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 169,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-১১. বীজগাণিতিক সূত্রাবলী ও মান নির্ণয়.json"
+    },
+    {
+      "id": "biddabari_math_12",
+      "slug": "math-লেকচার-১২-উৎপাদক-বিশ্লেষণ-বীজগানিতিক-লসাগু-গসাগু",
+      "title": "লেকচার-১২. উৎপাদক বিশ্লেষণ, বীজগানিতিক ল.সা.গু-গ.সা.গু",
+      "clean_filename": "লেকচার-১২. উৎপাদক বিশ্লেষণ, বীজগানিতিক ল.সা.গু-গ.সা.গু.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 64,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-১২. উৎপাদক বিশ্লেষণ, বীজগানিতিক ল.সা.গু-গ.সা.গু.json"
+    },
+    {
+      "id": "biddabari_math_13",
+      "slug": "math-লেকচার-১৩-সূচক-লগারিদম",
+      "title": "লেকচার-১৩. সূচক, লগারিদম",
+      "clean_filename": "লেকচার-১৩. সূচক, লগারিদম.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 148,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-১৩. সূচক, লগারিদম.json"
+    },
+    {
+      "id": "biddabari_math_14",
+      "slug": "math-লেকচার-১৪-সমান্তর-ও-গুণোত্তর-ধারা",
+      "title": "লেকচার-১৪. সমান্তর ও গুণোত্তর ধারা",
+      "clean_filename": "লেকচার-১৪. সমান্তর ও গুণোত্তর ধারা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 111,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-১৪. সমান্তর ও গুণোত্তর ধারা.json"
+    },
+    {
+      "id": "biddabari_math_15",
+      "slug": "math-লেকচার-১৫-জ্যামিতির-মৌলিক-বিষয়-রেখা-কোণ-বহুভুজ-নিয়ে-আলোচনা",
+      "title": "লেকচার-১৫. জ্যামিতির মৌলিক বিষয়, রেখা, কোণ, বহুভুজ নিয়ে আলোচনা",
+      "clean_filename": "লেকচার-১৫. জ্যামিতির মৌলিক বিষয়, রেখা, কোণ, বহুভুজ নিয়ে আলোচনা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 75,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-১৫. জ্যামিতির মৌলিক বিষয়, রেখা, কোণ, বহুভুজ নিয়ে আলোচনা.json"
+    },
+    {
+      "id": "biddabari_math_16",
+      "slug": "math-লেকচার-১৬-ত্রিভুজ",
+      "title": "লেকচার-১৬. ত্রিভুজ",
+      "clean_filename": "লেকচার-১৬. ত্রিভুজ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 123,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-১৬. ত্রিভুজ.json"
+    },
+    {
+      "id": "biddabari_math_17",
+      "slug": "math-লেকচার-১৭-চতুর্ভুজ-ও-পরিমিতি",
+      "title": "লেকচার-১৭. চতুর্ভুজ ও পরিমিতি",
+      "clean_filename": "লেকচার-১৭. চতুর্ভুজ ও পরিমিতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 118,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-১৭. চতুর্ভুজ ও পরিমিতি.json"
+    },
+    {
+      "id": "biddabari_math_18",
+      "slug": "math-লেকচার-১৮-বৃত্ত",
+      "title": "লেকচার-১৮. বৃত্ত",
+      "clean_filename": "লেকচার-১৮. বৃত্ত.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 106,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-১৮. বৃত্ত.json"
+    },
+    {
+      "id": "biddabari_math_19",
+      "slug": "math-লেকচার-১৯-ত্রিকোণমিতি-পরিমাপ-ও-একক",
+      "title": "লেকচার-১৯. ত্রিকোণমিতি, পরিমাপ ও একক",
+      "clean_filename": "লেকচার-১৯. ত্রিকোণমিতি, পরিমাপ ও একক.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 74,
+      "file": "/data/Biddabari-NTRCA/Math/লেকচার-১৯. ত্রিকোণমিতি, পরিমাপ ও একক.json"
+    }
+  ]
+}

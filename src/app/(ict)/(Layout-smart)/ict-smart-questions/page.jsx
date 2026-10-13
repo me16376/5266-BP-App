@@ -1006,38 +1006,20 @@ function IctSmartQuestionsContent() {
   const categoryInfo = useMemo(() => {
     const catId = (examMeta?.category_id || '').toLowerCase();
     const catName = (examMeta?.category_name || '').toLowerCase();
-    const slugStr = (examSlug || '').toLowerCase();
-    const titleStr = (examMeta?.title || '').toLowerCase();
 
-    // Check by ID or Names
-    if (catId === 'bcs' || catName.includes('bcs') || catName.includes('বিসিএস') || slugStr.includes('bcs') || titleStr.includes('bcs') || titleStr.includes('বিসিএস')) {
-      return { id: 'bcs', label: 'বিসিএস প্রিলি' };
+    if (catId.includes('class-9-10') || catName.includes('class 9-10') || catName.includes('কম্পিউটার জিকে')) {
+      return { id: 'class-9-10-computer-gk', label: 'Class 9-10 Computer GK' };
     }
-    if (catId === 'bank' || catName.includes('bank') || catName.includes('ব্যাংক') || slugStr.includes('bank') || titleStr.includes('bank') || titleStr.includes('ব্যাংক')) {
-      return { id: 'bank', label: 'ব্যাংক জবস' };
-    }
-    if (catId === 'primary' || catName.includes('primary') || catName.includes('প্রাথমিক') || slugStr.includes('primary') || titleStr.includes('primary') || titleStr.includes('প্রাথমিক')) {
-      return { id: 'primary', label: 'প্রাথমিক শিক্ষক' };
-    }
-    if (catId === 'ntrca' || catName.includes('ntrca') || catName.includes('নিবন্ধন') || slugStr.includes('ntrca') || titleStr.includes('ntrca') || titleStr.includes('নিবন্ধন')) {
-      return { id: 'ntrca', label: 'শিক্ষক নিবন্ধন' };
-    }
-    if (catId === 'ministry' || catName.includes('ministry') || catName.includes('মন্ত্রণালয়') || catName.includes('মন্ত্রণালয়') || catName.includes('নন-ক্যাডার') || slugStr.includes('ministry') || titleStr.includes('ministry') || titleStr.includes('নন-ক্যাডার')) {
-      return { id: 'ministry', label: 'মন্ত্রণালয় ও নন-ক্যাডার' };
-    }
-    if (catId === 'admission' || catName.includes('admission') || catName.includes('ভর্তি') || slugStr.includes('admission') || titleStr.includes('admission') || titleStr.includes('ভর্তি')) {
-      return { id: 'admission', label: 'ভর্তি পরীক্ষা' };
-    }
-    if (catId === 'subject' || catName.includes('subject') || catName.includes('বিষয়ভিত্তিক') || catName.includes('বিষয়ভিত্তিক') || slugStr.includes('subject') || titleStr.includes('বিষয়ভিত্তিক')) {
-      return { id: 'subject', label: 'বিষয়ভিত্তিক' };
+    if (catId.includes('ict-wizard') || catName.includes('ict wizard') || catName.includes('উইজার্ড')) {
+      return { id: 'ict-wizard-ntrca-313-and-325', label: 'ICT Wizard NTRCA (313 & 325)' };
     }
 
     if (examMeta?.category_name) {
       return { id: catId || 'All', label: examMeta.category_name };
     }
 
-    return { id: 'All', label: 'সকল ক্যাটাগরি' };
-  }, [examMeta, examSlug]);
+    return { id: 'All', label: 'আইসিটি (ICT) প্রশ্নব্যাংক' };
+  }, [examMeta]);
 
   // Style modes for outer wrapper
   const styleModeClass = questionStyle === 'box'

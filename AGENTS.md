@@ -16,6 +16,15 @@ Welcome to **5266-BP App** repository. Before analyzing or modifying any code, r
    3. **Most Important Questions**: Located at `public/data/most-important-questions/` containing 12 high-priority subjects (4,904 MCQs) for Primary, NTRCA, BCS, Bank, 10th-20th Grade, Bangladesh & International Affairs.
      - Catalog: `public/data/most_important_index.json` | Loader: `src/lib/mostImportantData.js`.
      - Routes: `/most-important-questions`, `/most-important-questions-practice`, `/most-important-questions-model-test`, `/most-important-smart`, `/most-important-smart-questions`.
+   4. **Ampibian Suggestion**: Located at `public/data/Ampibian Suggestion/` containing 84 chapter exams across 4 subjects: Bangla, English, GK, Math (6,157 MCQs).
+     - Catalog: `public/data/ampibian_index.json` | Loader: `src/lib/ampibianData.js`.
+     - Routes: `/ampibian-suggestion`, `/ampibian-suggestion-practice`, `/ampibian-suggestion-model-test`, `/ampibian-suggestion-smart`, `/ampibian-suggestion-smart-questions`.
+   5. **Biddabari-NTRCA**: Located at `public/data/Biddabari-NTRCA/` containing 67 lecture exams across Bangla, English, GK, Math (9,974 MCQs).
+     - Catalog: `public/data/biddabari_index.json` | Loader: `src/lib/biddabariData.js`.
+     - Routes: `/biddabari-ntrca`, `/biddabari-ntrca-practice`, `/biddabari-ntrca-model-test`, `/biddabari-ntrca-smart`, `/biddabari-ntrca-smart-questions`.
+   6. **Smart AI**: Located at `public/data/Smart AI/` containing 89 curated exams across BPSC Technical AI, NTRCA 313 & 325, NTRCA 452, and NTRCA Preliminary (17,100 MCQs).
+     - Catalog: `public/data/smart_ai_index.json` | Loader: `src/lib/smartAiData.js`.
+     - Routes: `/smart-ai`, `/smart-ai-practice`, `/smart-ai-model-test`, `/smart-ai-smart`, `/smart-ai-smart-questions`.
 
 ---
 

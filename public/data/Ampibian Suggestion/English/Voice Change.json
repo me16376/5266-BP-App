@@ -1,0 +1,1190 @@
+[
+  {
+    "id": 1,
+    "question": "'Minu sings a song.'",
+    "options": [
+      "A song is sung by Minu",
+      "A song is sing by Minu",
+      "A song is being sing by Minu",
+      "A song was sing by Minu"
+    ],
+    "answer": "A song is sung by Minu",
+    "explanation": "Present Indefinite Tense-এর Passive গঠন: Object-এর Subjective রূপ (A song) + is + V3 (sung) + by + Minu।"
+  },
+  {
+    "id": 2,
+    "question": "'All his pupils like him.'",
+    "options": [
+      "He was liked by all his pupils.",
+      "He is like by all his pupils.",
+      "He is liked by all his pupils.",
+      "He is being liked by all his pupils."
+    ],
+    "answer": "He is liked by all his pupils.",
+    "explanation": "Present Indefinite Tense: Object 'him' Subject 'He' হয়ে যায় + is + V3 (liked) + by all his pupils।"
+  },
+  {
+    "id": 3,
+    "question": "'The boy pleased us.'",
+    "options": [
+      "We were pleased by the boy",
+      "We were pleased with the boy",
+      "We were pleased to the boy",
+      "We were pleased at the boy"
+    ],
+    "answer": "We were pleased with the boy",
+    "explanation": "'Pleased'-এর পর ব্যক্তিবাচক কর্তার আচরণে সন্তুষ্ট প্রকাশে Preposition 'with' বসে: 'We were pleased with the boy'।"
+  },
+  {
+    "id": 4,
+    "question": "'Furtune favours the brave.'",
+    "options": [
+      "The brave is favoured by fortune",
+      "The brave was favoured by fortune",
+      "The brave are favoured by fortune",
+      "The brave were favoured by fortune"
+    ],
+    "answer": "The brave are favoured by fortune",
+    "explanation": "'The brave' সমগ্র সাহসী ব্যক্তিদের (Plural) নির্দেশ করায় সহায়ক ক্রিয়া 'are' বসবে: 'The brave are favoured by fortune'।"
+  },
+  {
+    "id": 5,
+    "question": "He is beating the theif.",
+    "options": [
+      "The thief was being beattn by him.",
+      "The thief is being beat by him.",
+      "The thief is beaten by him.",
+      "The thief is being beaten by him."
+    ],
+    "answer": "The thief is being beaten by him.",
+    "explanation": "Present Continuous Tense-এর Passive রূপ: Object + is being + V3 (beaten) + by him।"
+  },
+  {
+    "id": 6,
+    "question": "'His behaviour annoys me sometimes.'",
+    "options": [
+      "Sometimes I am annoyed at his behaviour.",
+      "Sometimes I am annoyed to his behaviour.",
+      "I was annoyed sometimes at his behaviour.",
+      "I am annoyed sometimes at his behaviour."
+    ],
+    "answer": "Sometimes I am annoyed at his behaviour.",
+    "explanation": "আচরণে বিরক্ত বা অসন্তুষ্ট হওয়া প্রকাশে 'annoyed'-এর পর Preposition 'at' বসে: 'Sometimes I am annoyed at his behaviour.'।"
+  },
+  {
+    "id": 7,
+    "question": "'I am writing a letter.'",
+    "options": [
+      "A letter is being written by me",
+      "A letter is written by me",
+      "A letter was being written by me",
+      "A letter has been written by me"
+    ],
+    "answer": "A letter is being written by me",
+    "explanation": "Present Continuous Tense: Object (A letter) + is being + V3 (written) + by me।"
+  },
+  {
+    "id": 8,
+    "question": "'I had written the letter.'",
+    "options": [
+      "The letter was written by me.",
+      "The letter had been written by me.",
+      "The letter was being written by me.",
+      "The letter was wrote by me."
+    ],
+    "answer": "The letter had been written by me.",
+    "explanation": "Past Perfect Tense-এর Passive ভয়েস: Object + had been + V3 (written) + by me।"
+  },
+  {
+    "id": 9,
+    "question": "'I have bought the books.'",
+    "options": [
+      "The books have been bought by me.",
+      "The books had been bought by me.",
+      "The books were bought by me.",
+      "The books are bought by me."
+    ],
+    "answer": "The books have been bought by me.",
+    "explanation": "Present Perfect Tense: Plural Object (The books) + have been + V3 (bought) + by me।"
+  },
+  {
+    "id": 10,
+    "question": "'I know him.'",
+    "options": [
+      "He is known by me.",
+      "He was known to me.",
+      "He has been known by me.",
+      "He is known to me."
+    ],
+    "answer": "He is known to me.",
+    "explanation": "'Know' ক্রিয়ার Passive voice-এ 'by'-এর পরিবর্তে Preposition 'to' বসে: 'He is known to me.'।"
+  },
+  {
+    "id": 11,
+    "question": "'I know that he did the work.'",
+    "options": [
+      "It was known to me that the work was done by him",
+      "It is known to me that the work was done by him",
+      "It was known to me that the work has been done by him",
+      "It was known to me that the work had been done by him"
+    ],
+    "answer": "It is known to me that the work was done by him",
+    "explanation": "উভয় ক্লজের রূপান্তর: 'I know' পরিবর্তিত হয়ে 'It is known to me' এবং 'he did the work' পরিবর্তিত হয়ে 'the work was done by him' হয়।"
+  },
+  {
+    "id": 12,
+    "question": "'My uncle looks after me.'",
+    "options": [
+      "I am looking after by my uncle .",
+      "I was looked after by me uncle.",
+      "I am being looked after by my uncle.",
+      "I am looked after by my uncle."
+    ],
+    "answer": "I am looked after by my uncle.",
+    "explanation": "Group Verb 'look after' অপরিবর্তিত থাকে: Object 'me' -> Subject 'I' + am looked after by my uncle।"
+  },
+  {
+    "id": 13,
+    "question": "She played on the flute.",
+    "options": [
+      "The flute was played by her.",
+      "The flute was played on by her.",
+      "The flute was played to her.",
+      "The flute was being played by her."
+    ],
+    "answer": "The flute was played on by her.",
+    "explanation": "Prepositional Verb 'play on' অপরিবর্তিত থাকে: 'The flute was played on by her.'।"
+  },
+  {
+    "id": 14,
+    "question": "'We do not like idle people.'",
+    "options": [
+      "Idle people are not liked by us",
+      "We are not liked by idle people",
+      "Idle people are not like us",
+      "Idle people are not of our liking"
+    ],
+    "answer": "Idle people are not liked by us",
+    "explanation": "Present Indefinite নেতিবাচক বাক্য: Plural Object (Idle people) + are not + V3 (liked) + by us।"
+  },
+  {
+    "id": 15,
+    "question": "'We shall be taking tea.'",
+    "options": [
+      "Tea will be being taken by us.",
+      "Tea shall have been taken by us.",
+      "Tea should be being taken by us.",
+      "Tea should be taken by us."
+    ],
+    "answer": "Tea will be being taken by us.",
+    "explanation": "Future Continuous Tense-এর Passive ভয়েস গঠন: Object + will be being + V3 (taken) + by us।"
+  },
+  {
+    "id": 16,
+    "question": "'Some children were helping the wounded man'",
+    "options": [
+      "The wounded man was helped by some children",
+      "The wounded man was helping by some children",
+      "The wounded man was being helped by some children",
+      "The wounded man was to be helped by some children"
+    ],
+    "answer": "The wounded man was being helped by some children",
+    "explanation": "Past Continuous Tense: Object (The wounded man) + was being + V3 (helped) + by some children।"
+  },
+  {
+    "id": 17,
+    "question": "'His conduct annoyed me.'",
+    "options": [
+      "I was being annoyed by his conduct",
+      "I was annoyed by his conduct",
+      "I was annoyed at his conduct",
+      "I had been annoyed on his conduct."
+    ],
+    "answer": "I was annoyed at his conduct",
+    "explanation": "কারও আচরণে ক্ষুব্ধ হওয়া বোঝাতে 'annoyed at' বসে: 'I was annoyed at his conduct'।"
+  },
+  {
+    "id": 18,
+    "question": "My son bought a new Motor bike.",
+    "options": [
+      "A new motor bike was bought by my son.",
+      "A new motor bike is bought by my son.",
+      "A new motor bike had been bought by my son.",
+      "A new motor bike was being bought by my son."
+    ],
+    "answer": "A new motor bike was bought by my son.",
+    "explanation": "Past Indefinite Tense: Object (A new motor bike) + was + V3 (bought) + by my son।"
+  },
+  {
+    "id": 19,
+    "question": "'His comment hurt me deeply.'",
+    "options": [
+      "I was hurt deeply by his comment",
+      "I could be hurt deeply by his comment",
+      "His comment was hurtful",
+      "I should not be hurt by his comment."
+    ],
+    "answer": "I was hurt deeply by his comment",
+    "explanation": "Past Indefinite Tense: 'hurt'-এর তিনটি রূপই অভিন্ন (hurt-hurt-hurt); সুতরাং 'I was hurt deeply by his comment' সঠিক।"
+  },
+  {
+    "id": 20,
+    "question": "'He took me there.'",
+    "options": [
+      "I was taken there by him",
+      "I was to be taken there by him",
+      "I should be taken there by him",
+      "He was trying to take me there"
+    ],
+    "answer": "I was taken there by him",
+    "explanation": "Past Indefinite Tense: Object 'me' -> Subject 'I' + was taken there by him।"
+  },
+  {
+    "id": 21,
+    "question": "'I saw the boy crying.'",
+    "options": [
+      "The boy is seen crying by me",
+      "The boy cry was seen by me",
+      "The boy was seen crying by me",
+      "The boy crying was seen by me"
+    ],
+    "answer": "The boy was seen crying by me",
+    "explanation": "Object 'the boy' Subject হয়ে যায়: 'The boy was seen crying by me'।"
+  },
+  {
+    "id": 22,
+    "question": "They elected him captain'.",
+    "options": [
+      "He is elected captain by them",
+      "He was elected captain by them.",
+      "He elected captain by them.",
+      "He has been elected captain by them."
+    ],
+    "answer": "He was elected captain by them.",
+    "explanation": "Factitive Object 'captain' অপরিবর্তিত থাকে: 'He was elected captain by them.'।"
+  },
+  {
+    "id": 23,
+    "question": "'Someone pulled the bull violently.'",
+    "options": [
+      "The bull was pulled violently by someone",
+      "The bull had been pulled violently",
+      "The bull was pulled violently",
+      "The bull was to be pulled violent by someone"
+    ],
+    "answer": "The bull was pulled violently by someone",
+    "explanation": "Past Indefinite Tense: 'The bull was pulled violently by someone'।"
+  },
+  {
+    "id": 24,
+    "question": "'They held a meeting very early.'",
+    "options": [
+      "A meeting was held by them very early.",
+      "A meeting had been held by them.",
+      "They held a meeting very early.",
+      "A meeting was to be held."
+    ],
+    "answer": "A meeting was held by them very early.",
+    "explanation": "Past Indefinite Tense: 'A meeting was held by them very early.'।"
+  },
+  {
+    "id": 25,
+    "question": "'He is thought to be teacher' —",
+    "options": [
+      "We thought him to be a teacher",
+      "We think him to be a teacher",
+      "We think him a teacher",
+      "We thought him a teacher"
+    ],
+    "answer": "We think him to be a teacher",
+    "explanation": "Passive থেকে Active রূপান্তর: 'He is thought to be teacher' -> 'We think him to be a teacher'।"
+  },
+  {
+    "id": 26,
+    "question": "'He made me drive his car.'",
+    "options": [
+      "I am made to drive his car by him.",
+      "I was made driven his car to him.",
+      "I was made drive his car by him.",
+      "I was made to drive his car by him"
+    ],
+    "answer": "I was made to drive his car by him",
+    "explanation": "Active Voice-এর Bare Infinitive Passive Voice-এ 'to + verb' রূপ গ্রহণ করে: 'I was made to drive his car by him'।"
+  },
+  {
+    "id": 27,
+    "question": "'He taught me to read Arabic.'",
+    "options": [
+      "I was taught by him to read Arabic",
+      "I have been taught by him to read Arabic",
+      "I have been taught by him to read Arabic",
+      "I was being taught by him to read Arabic"
+    ],
+    "answer": "I was taught by him to read Arabic",
+    "explanation": "Past Indefinite Tense: 'I was taught by him to read Arabic'।"
+  },
+  {
+    "id": 28,
+    "question": "'The cow gives us milk.'",
+    "options": [
+      "We are being given milk by the cow",
+      "We were given milk by the cow",
+      "Milk is given to us by the cow",
+      "Milk is being given to us by the cow"
+    ],
+    "answer": "Milk is given to us by the cow",
+    "explanation": "Double Object যুক্ত বাক্যে প্রত্যক্ষ কর্ম আগে এনে: 'Milk is given to us by the cow'।"
+  },
+  {
+    "id": 29,
+    "question": "'The man is climbing the cliff.'",
+    "options": [
+      "The cliff is climbed by the man.",
+      "The cliff is being climbed by the man.",
+      "The cliff has been climbed by the man.",
+      "The cliff was being climbed by the man."
+    ],
+    "answer": "The cliff is being climbed by the man.",
+    "explanation": "Present Continuous Tense: 'The cliff is being climbed by the man.'।"
+  },
+  {
+    "id": 30,
+    "question": "'I shall do the work.'",
+    "options": [
+      "I shall be doing the work",
+      "The work may be done by me",
+      "I may be doing the work",
+      "The work will be done by me"
+    ],
+    "answer": "The work will be done by me",
+    "explanation": "Future Indefinite Tense: Object 'The work' + will be + V3 (done) + by me।"
+  },
+  {
+    "id": 31,
+    "question": "'He is going to open a shop'",
+    "options": [
+      "He is being gone to open a shop .",
+      "A shop is being gone opened by him",
+      "A shop will be opened by him",
+      "A shop is going to be opened by him"
+    ],
+    "answer": "A shop is going to be opened by him",
+    "explanation": "'Going to' যুক্ত বাক্যের Passive গঠন: Object + is going to be + V3 (opened) + by him।"
+  },
+  {
+    "id": 32,
+    "question": "'You should keep your promise.'",
+    "options": [
+      "Your promise is to be kept by you",
+      "Your promise should keep by you",
+      "Your promise should kept by you",
+      "Your promise should be kept by you"
+    ],
+    "answer": "Your promise should be kept by you",
+    "explanation": "Modal Auxiliary (should): Object (Your promise) + should be + V3 (kept) + by you।"
+  },
+  {
+    "id": 33,
+    "question": "'I have to do it.'",
+    "options": [
+      "It has to be done to me",
+      "It has to be done by me",
+      "It is to be done by me",
+      "Let it be done by me"
+    ],
+    "answer": "It has to be done by me",
+    "explanation": "'Have to' যুক্ত বাক্যের Passive গঠন: Object (It) + has to be + V3 (done) + by me।"
+  },
+  {
+    "id": 34,
+    "question": "'You can help us'.",
+    "options": [
+      "We can be help by you",
+      "We could be helped by you",
+      "We can be helped by you",
+      "We are helped by you"
+    ],
+    "answer": "We can be helped by you",
+    "explanation": "Modal Auxiliary (can): Object 'us' -> Subject 'We' + can be + V3 (helped) + by you।"
+  },
+  {
+    "id": 35,
+    "question": "'We must listen to his words.'",
+    "options": [
+      "His words must be listened to",
+      "His words should be listened to",
+      "His words ought to be listened to",
+      "His words may be listened to"
+    ],
+    "answer": "His words must be listened to",
+    "explanation": "Modal Auxiliary (must): Object (His words) + must be + V3 (listened to)।"
+  },
+  {
+    "id": 36,
+    "question": "'We ought to obey our parents.'",
+    "options": [
+      "Our parents ought to be obeyed by us",
+      "Our parents may be obeyed by us",
+      "Your parents is to be obeyed by you",
+      "Our parents are to be obeyed by us"
+    ],
+    "answer": "Our parents ought to be obeyed by us",
+    "explanation": "'Ought to' যুক্ত বাক্যের Passive রূপ: 'Our parents ought to be obeyed by us'।"
+  },
+  {
+    "id": 37,
+    "question": "'You must shut these doors.'",
+    "options": [
+      "These must be shut doors",
+      "Shut the doors you must",
+      "Shut must be the doors",
+      "These doors must be shut"
+    ],
+    "answer": "These doors must be shut",
+    "explanation": "Modal Auxiliary: 'These doors must be shut'।"
+  },
+  {
+    "id": 38,
+    "question": "They are going to lock the gate at 7 o'Clock.",
+    "options": [
+      "At 7 oclock they are going locked the gate",
+      "The gate at 7 o'clock be locked by them",
+      "The gate is to going locked by them at 7 o'clock",
+      "The gate is going to be locked at 7 o'clock."
+    ],
+    "answer": "The gate is going to be locked at 7 o'clock.",
+    "explanation": "'Going to' যুক্ত বাক্য: 'The gate is going to be locked at 7 o'clock.'।"
+  },
+  {
+    "id": 39,
+    "question": "'Did you eat the apple?'",
+    "options": [
+      "Do the apple eaten by you?",
+      "Was the apple eaten by you?",
+      "Was the apple eat by you?",
+      "Was the apple ate by you?"
+    ],
+    "answer": "Was the apple eaten by you?",
+    "explanation": "Past Indefinite Interrogative-এর Passive রূপ: 'Was the apple eaten by you?'।"
+  },
+  {
+    "id": 40,
+    "question": "Does he speak English well?",
+    "options": [
+      "Is English spoke well by him?",
+      "Is English spoken well to him?",
+      "Is English spoken well by him?",
+      "Was English spoke well by him?"
+    ],
+    "answer": "Is English spoken well by him?",
+    "explanation": "Present Indefinite Interrogative: 'Is English spoken well by him?'।"
+  },
+  {
+    "id": 41,
+    "question": "'Do you know them?'",
+    "options": [
+      "Are they known by you?",
+      "Would they be known by you?",
+      "Are they known with you?",
+      "Are they known to you?"
+    ],
+    "answer": "Are they known to you?",
+    "explanation": "'Know' ক্রিয়ার Passive-এ 'by'-এর পরিবর্তে 'to' বসে: 'Are they known to you?'।"
+  },
+  {
+    "id": 42,
+    "question": "Who is creating this mess?",
+    "options": [
+      "Who has been created this mess?",
+      "By whom has this mess been created?",
+      "By whom this mess is being created?",
+      "By whom is this mess being created?"
+    ],
+    "answer": "By whom is this mess being created?",
+    "explanation": "প্রশ্নটির সঠিক উত্তর হলো By whom is this mess being created?।"
+  },
+  {
+    "id": 43,
+    "question": "Who will do the work?",
+    "options": [
+      "Who will be done the work?",
+      "Who will do the work?",
+      "By whom will the work be done?",
+      "Whom will the work be done?"
+    ],
+    "answer": "By whom will the work be done?",
+    "explanation": "প্রশ্নটির সঠিক উত্তর হলো By whom will the work be done?।"
+  },
+  {
+    "id": 44,
+    "question": "\"Who has broken this jug?\"",
+    "options": [
+      "By whom has this jug been broken?",
+      "By whom has this jug broken?",
+      "By whom this jug has been broken?",
+      "Whom has this jug been broken?"
+    ],
+    "answer": "By whom has this jug been broken?",
+    "explanation": "'Who' থাকলে Passive-এ 'By whom' বসে + Auxiliary verb (has) + object + been + V3: 'By whom has this jug been broken?'।"
+  },
+  {
+    "id": 45,
+    "question": "'Who did this'?",
+    "options": [
+      "By whom this has been done ?",
+      "Whom did this ?",
+      "By whom was this done ?",
+      "Who has done this ?"
+    ],
+    "answer": "By whom was this done ?",
+    "explanation": "Past Indefinite-এ 'Who did this?' -> 'By whom was this done?'।"
+  },
+  {
+    "id": 46,
+    "question": "Who called you a liar?",
+    "options": [
+      "By whom are you called a liar?",
+      "By whom were you called a liar?",
+      "By whom you called a liar?",
+      "By whom was you called a liar?"
+    ],
+    "answer": "By whom were you called a liar?",
+    "explanation": "'Who called you a liar?' -> 'By whom were you called a liar?'।"
+  },
+  {
+    "id": 47,
+    "question": "Who gave you this pen?",
+    "options": [
+      "By whom have you been given this pen?",
+      "By whom were you got this pen?",
+      "By whom were you given this pen?",
+      "By whom was you given this pen?"
+    ],
+    "answer": "By whom were you given this pen?",
+    "explanation": "'Who gave you this pen?' -> 'By whom were you given this pen?'।"
+  },
+  {
+    "id": 48,
+    "question": "'Who is calling me?'",
+    "options": [
+      "By whom am I called?",
+      "By whom I am called?",
+      "By whom am I being called?",
+      "Whom am I called by?"
+    ],
+    "answer": "By whom am I being called?",
+    "explanation": "Present Continuous-এ 'Who is calling me?' -> 'By whom am I being called?'।"
+  },
+  {
+    "id": 49,
+    "question": "'Who is doing the work'",
+    "options": [
+      "By whom is the work being done?",
+      "By whom is the work done?",
+      "By whom was the work being done?",
+      "By whom is the work has done?"
+    ],
+    "answer": "By whom is the work being done?",
+    "explanation": "Present Continuous-এ 'Who is doing the work' -> 'By whom is the work being done?'।"
+  },
+  {
+    "id": 50,
+    "question": "Who opened the door?",
+    "options": [
+      "By whom was the door be opened?",
+      "By whom was the door opened?",
+      "By whom is he door opened?",
+      "By whom has the door opened?"
+    ],
+    "answer": "By whom was the door opened?",
+    "explanation": "'Who' থাকলে Passive-এ 'By whom' বসে: 'By whom was the door opened?'।"
+  },
+  {
+    "id": 51,
+    "question": "'Who taught you French'?",
+    "options": [
+      "By whom you were taught French?",
+      "By whom French was taught you?",
+      "French was taught you by whom?",
+      "By whom were you taught French?"
+    ],
+    "answer": "By whom were you taught French?",
+    "explanation": "Past Indefinite Interrogative: 'By whom were you taught French?'।"
+  },
+  {
+    "id": 52,
+    "question": "'Whom were you calling'? is —",
+    "options": [
+      "Who are you called?",
+      "Who were you being called?",
+      "Who called by you?",
+      "Who was being called by you?"
+    ],
+    "answer": "Who was being called by you?",
+    "explanation": "'Whom' থাকলে Passive-এ 'Who' বসে: 'Who was being called by you?'।"
+  },
+  {
+    "id": 53,
+    "question": "'Shut the door.'",
+    "options": [
+      "The door is to be shut",
+      "let the door be shut",
+      "The door may be shut",
+      "The door will be shut"
+    ],
+    "answer": "let the door be shut",
+    "explanation": "Imperative বাক্যের Passive গঠন: Let + object + be + V3: 'Let the door be shut'।"
+  },
+  {
+    "id": 54,
+    "question": "'Give the order'.",
+    "options": [
+      "Let the order to give.",
+      "Let the order given.",
+      "Let the order be given.",
+      "Let the order give."
+    ],
+    "answer": "Let the order be given.",
+    "explanation": "Imperative sentence: 'Let the order be given.'।"
+  },
+  {
+    "id": 55,
+    "question": "'Open the window.'",
+    "options": [
+      "The window must be opened.",
+      "Let open the window.",
+      "Let the window be opened.",
+      "The window should be opened."
+    ],
+    "answer": "Let the window be opened.",
+    "explanation": "Imperative sentence: 'Let the window be opened.'।"
+  },
+  {
+    "id": 56,
+    "question": "'Do away with it.'",
+    "options": [
+      "Let it be do away with.",
+      "Let it be done away with.",
+      "Let it be to do away with.",
+      "Let it be to have done away with."
+    ],
+    "answer": "Let it be done away with.",
+    "explanation": "Phrasal verb যুক্ত Imperative বাক্য: 'Let it be done away with.'।"
+  },
+  {
+    "id": 57,
+    "question": "Pluck me a flower.",
+    "options": [
+      "Let a flower be plucked me",
+      "Let a flower be plucked for me",
+      "Let a flower plucked for me",
+      "Let a flower plucked by me"
+    ],
+    "answer": "Let a flower be plucked for me",
+    "explanation": "ব্যক্তিবাচক অপ্রত্যক্ষ কর্ম থাকলে 'for' বসে: 'Let a flower be plucked for me'।"
+  },
+  {
+    "id": 58,
+    "question": "'Tell him to do it.'",
+    "options": [
+      "Let him be told to do it",
+      "He may be told to do it",
+      "Let him told to do it",
+      "Let him tell to do it"
+    ],
+    "answer": "Let him be told to do it",
+    "explanation": "Imperative বাক্য: 'Let him be told to do it'।"
+  },
+  {
+    "id": 59,
+    "question": "'Do not open the door.'",
+    "options": [
+      "Let not the door open",
+      "Let not the door be opened",
+      "Let not the door be open",
+      "Let not the door opened"
+    ],
+    "answer": "Let not the door be opened",
+    "explanation": "না-বোধক Imperative বাক্যের Passive গঠন: Let not + object + be + V3: 'Let not the door be opened'।"
+  },
+  {
+    "id": 60,
+    "question": "'Do not hate the poor'",
+    "options": [
+      "Let not the poor be hated.",
+      "Let the poor not be hated.",
+      "Let not the poor hate.",
+      "Let poor not be hate."
+    ],
+    "answer": "Let not the poor be hated.",
+    "explanation": "Imperative sentence: 'Let not the poor be hated.'।"
+  },
+  {
+    "id": 61,
+    "question": "'Don't look down upon the poor.'",
+    "options": [
+      "Let not the poor be looked down upon.",
+      "The poor should not be looked down upon.",
+      "Let the poor not look down upon.",
+      "Let the poor not be looked down upon."
+    ],
+    "answer": "Let not the poor be looked down upon.",
+    "explanation": "Group verb যুক্ত Imperative: 'Let not the poor be looked down upon.'।"
+  },
+  {
+    "id": 62,
+    "question": "'Never tell a lie.'",
+    "options": [
+      "Let not a lie ever be told",
+      "Let a lie never be told",
+      "Let a lie not ever be told",
+      "Let never be told a lie"
+    ],
+    "answer": "Let not a lie ever be told",
+    "explanation": "'Never' যুক্ত Imperative বাক্যে 'ever' সহযোগে: 'Let not a lie ever be told'।"
+  },
+  {
+    "id": 63,
+    "question": "'Don't make a mistake about me.'",
+    "options": [
+      "to",
+      "with",
+      "about",
+      "at"
+    ],
+    "answer": "about",
+    "explanation": "Appropriate Preposition হিসেবে 'mistake about me' সঠিক।"
+  },
+  {
+    "id": 64,
+    "question": "'He died of fever'.",
+    "options": [
+      "Fever caused him to death",
+      "His death was caused with fever",
+      "Fever caused him to die",
+      "He was caused to die of fever"
+    ],
+    "answer": "Fever caused him to death",
+    "explanation": "রোগে মৃত্যুর ক্ষেত্রে ভাবগত রূপান্তর: 'Fever caused him to death'।"
+  },
+  {
+    "id": 65,
+    "question": "'How can you do this?'",
+    "options": [
+      "How can this be done by you?",
+      "How can this been done by you?",
+      "How this can be done by you?",
+      "How could this be done by you?"
+    ],
+    "answer": "How can this be done by you?",
+    "explanation": "Modal Interrogative Passive: 'How can this be done by you?'।"
+  },
+  {
+    "id": 66,
+    "question": "Let him sing a song.'",
+    "options": [
+      "Let a song sing by him.",
+      "Let a song be sung by him",
+      "Let a song be sang by him",
+      "Let a song sung by him"
+    ],
+    "answer": "Let a song be sung by him",
+    "explanation": "'Let' যুক্ত Imperative বাক্যে: Let + object + be + V3 + by + him: 'Let a song be sung by him'।"
+  },
+  {
+    "id": 67,
+    "question": "Let me do the sum.",
+    "options": [
+      "Let the sum be done by me",
+      "Let the sum done by me",
+      "Let the sum being done by me",
+      "Let the sum is to be done by me"
+    ],
+    "answer": "Let the sum be done by me",
+    "explanation": "'Let me' যুক্ত বাক্যে: 'Let the sum be done by me'।"
+  },
+  {
+    "id": 68,
+    "question": "'Let us write a letter.'",
+    "options": [
+      "Let a letter to write by us.",
+      "Let a letter be wrote by us.",
+      "Let a letter is written by us",
+      "Let a letter be written by us."
+    ],
+    "answer": "Let a letter be written by us.",
+    "explanation": "'Let us' যুক্ত বাক্যে: 'Let a letter be written by us.'।"
+  },
+  {
+    "id": 69,
+    "question": "'She fans herself.'",
+    "options": [
+      "She was fanned by herself.",
+      "She is fanned herself.",
+      "She is fanned by herself.",
+      "None of these"
+    ],
+    "answer": "She is fanned by herself.",
+    "explanation": "Reflexive object (herself) যুক্ত বাক্যে মূল কর্তা অপরিবর্তিত থাকে: 'She is fanned by herself.'।"
+  },
+  {
+    "id": 70,
+    "question": "'The pill tastes bitter.'",
+    "options": [
+      "The pill is bitter who it is tasted.",
+      "The pill is bitter them tasted.",
+      "The pill is bitter when it tasted.",
+      "The pill is bitter when it is tasted."
+    ],
+    "answer": "The pill is bitter when it is tasted.",
+    "explanation": "Quasi-passive verb-এর রূপান্তর: 'The pill is bitter when it is tasted.'।"
+  },
+  {
+    "id": 71,
+    "question": "'Nobody trusts a traitor.'",
+    "options": [
+      "A traitor is not trusted by anybody",
+      "A traitor is trusted by nobody",
+      "A traitor was not trusted by anybody",
+      "A traitor cannot be trusted"
+    ],
+    "answer": "A traitor is not trusted by anybody",
+    "explanation": "'Nobody' থাকলে Passive-এ নেতিবাচক রূপে 'A traitor is not trusted by anybody' হয়।"
+  },
+  {
+    "id": 72,
+    "question": "'My teacher embodies all the good qualities.'",
+    "options": [
+      "All the good qualities are embodied by my teacher.",
+      "All the good qualities are embodied in my teacher.",
+      "All the good qualities are embodied to my teacher.",
+      "All the good qualities are embodied on my teacher."
+    ],
+    "answer": "All the good qualities are embodied in my teacher.",
+    "explanation": "'Embody'-র পর Preposition 'in' বসে: 'All the good qualities are embodied in my teacher.'।"
+  },
+  {
+    "id": 73,
+    "question": "'Where did you see him'?",
+    "options": [
+      "Where he was seen by you?",
+      "Where was he seen by you?",
+      "Where did he seen by you?",
+      "Where was he see by you?"
+    ],
+    "answer": "Where was he seen by you?",
+    "explanation": "Wh-interrogative Past Indefinite: 'Where was he seen by you?'।"
+  },
+  {
+    "id": 74,
+    "question": "'What did you want'?",
+    "options": [
+      "What was wanted by you?",
+      "What were wanted at you?",
+      "What was want by you?",
+      "What was wanted you?"
+    ],
+    "answer": "What was wanted by you?",
+    "explanation": "'What' যুক্ত প্রশ্নবোধক বাক্যে: 'What was wanted by you?'।"
+  },
+  {
+    "id": 75,
+    "question": "'We called him a fool.'",
+    "options": [
+      "He is called a fool by us.",
+      "He had been called a fool by us.",
+      "He has been called a fool by us.",
+      "He was called a fool by us."
+    ],
+    "answer": "He was called a fool by us.",
+    "explanation": "Factitive object 'a fool' অপরিবর্তিত থাকে: 'He was called a fool by us.'।"
+  },
+  {
+    "id": 76,
+    "question": "Who planted this tree here?",
+    "options": [
+      "By whom was this tree planted here?",
+      "By whom this tree was planted here?",
+      "Who was planted this tree here?",
+      "By whom has this tree been planted here?"
+    ],
+    "answer": "By whom was this tree planted here?",
+    "explanation": "'Who' থাকলে 'By whom' বসে: 'By whom was this tree planted here?'।"
+  },
+  {
+    "id": 77,
+    "question": "'Movies are not watched by him.'",
+    "options": [
+      "He did not watch movies",
+      "He did not watched movies",
+      "He does not watch movies",
+      "He is not watched movies."
+    ],
+    "answer": "He does not watch movies",
+    "explanation": "Passive থেকে Active: 'Movies are not watched by him' -> 'He does not watch movies'।"
+  },
+  {
+    "id": 78,
+    "question": "'He was being chased by the dogs.'",
+    "options": [
+      "The dogs chased him.",
+      "The dogs were chasing him.",
+      "The dogs are chasing him.",
+      "The dogs chase him."
+    ],
+    "answer": "The dogs were chasing him.",
+    "explanation": "Past Continuous Passive থেকে Active: 'The dogs were chasing him.'।"
+  },
+  {
+    "id": 79,
+    "question": "'It has to be done by me.'",
+    "options": [
+      "I must do it",
+      "I should do it",
+      "I must have done it",
+      "I have to do it"
+    ],
+    "answer": "I have to do it",
+    "explanation": "'has to be done' থেকে Active: 'I have to do it'।"
+  },
+  {
+    "id": 80,
+    "question": "A lion may be helped even by a little mouse.",
+    "options": [
+      "A little mouse may even help a lion.",
+      "Even a little mouse may help a lion.",
+      "A little mouse can even help a lion.",
+      "Even a little mouse ought to help a lion."
+    ],
+    "answer": "Even a little mouse may help a lion.",
+    "explanation": "Passive voice: 'A lion may be helped even by a little mouse' কে Active voice-এ রূপান্তর করতে হবে। এখানে Object 'even by a little mouse' Active-এ Subject হয়ে বসবে 'Even a little mouse'। Modal auxiliary 'may be helped' পরিবর্তিত হয়ে 'may help' হবে এবং Subject 'A lion' Object হবে। সুতরাং সঠিক বাক্য: 'Even a little mouse may help a lion.'"
+  },
+  {
+    "id": 81,
+    "question": "'You will be helped by me.'",
+    "options": [
+      "I shall have helped you",
+      "I should help you",
+      "I shall help you",
+      "I must help you"
+    ],
+    "answer": "I shall help you",
+    "explanation": "Future Indefinite Passive থেকে Active: 'I shall help you'।"
+  },
+  {
+    "id": 82,
+    "question": "'Am I wanted by you?'",
+    "options": [
+      "Are you wanted me?",
+      "Did you wanted me?",
+      "Do you want me?",
+      "Does you want me?"
+    ],
+    "answer": "Do you want me?",
+    "explanation": "Interrogative Passive থেকে Active: 'Do you want me?'।"
+  },
+  {
+    "id": 83,
+    "question": "'By whom can our country be saved?'",
+    "options": [
+      "Who can save our country?",
+      "Our country has been saved by who?",
+      "Who save our country?",
+      "Who will save our country?"
+    ],
+    "answer": "Who can save our country?",
+    "explanation": "'By whom can' থেকে Active Interrogative: 'Who can save our country?'।"
+  },
+  {
+    "id": 84,
+    "question": "'Let the book be read by you.'",
+    "options": [
+      "You are to read the book",
+      "Let read the book by you",
+      "Read the book",
+      "Let the book be reading by you"
+    ],
+    "answer": "You are to read the book",
+    "explanation": "Imperative Passive থেকে Active রূপ: 'You are to read the book'।"
+  },
+  {
+    "id": 85,
+    "question": "'What is wanted by him?'",
+    "options": [
+      "What do he want?",
+      "What did he want?",
+      "What does he want?",
+      "What is he wants?"
+    ],
+    "answer": "What does he want?",
+    "explanation": "Passive থেকে Active: 'What does he want?'।"
+  },
+  {
+    "id": 86,
+    "question": "We were worried by his behaviour.",
+    "options": [
+      "His behaviour worried us.",
+      "His behaviour was worrying us.",
+      "His behaviour has worried us.",
+      "His behaviour worries us."
+    ],
+    "answer": "His behaviour worried us.",
+    "explanation": "Passive থেকে Active: 'His behaviour worried us.'।"
+  },
+  {
+    "id": 87,
+    "question": "We are pleased with him.",
+    "options": [
+      "We were pleased with him",
+      "He pleases us",
+      "We are pleased by him",
+      "By whom can it be did"
+    ],
+    "answer": "He pleases us",
+    "explanation": "Present Indefinite Passive থেকে Active: 'He pleases us'।"
+  },
+  {
+    "id": 88,
+    "question": "I was surprised at his behaviour.",
+    "options": [
+      "I surprised at his behaviour.",
+      "His behaviour surprised",
+      "I was surprised at his behaviour.",
+      "I had been surprised at his behaviour."
+    ],
+    "answer": "His behaviour surprised",
+    "explanation": "Passive থেকে Active: 'His behaviour surprised me'।"
+  },
+  {
+    "id": 89,
+    "question": "The writer was seized with panic.",
+    "options": [
+      "Panic seized the writer",
+      "The writer seized for panic",
+      "The writer was seized with panic",
+      "The writer was seized off panic"
+    ],
+    "answer": "Panic seized the writer",
+    "explanation": "Passive থেকে Active: 'Panic seized the writer'।"
+  },
+  {
+    "id": 90,
+    "question": "A letter was being written by Sheila",
+    "options": [
+      "Sheila was writing a letter",
+      "Sheila is writing a letter",
+      "Sheila wrote a letter",
+      "Sheila has written a letter"
+    ],
+    "answer": "Sheila was writing a letter",
+    "explanation": "Past Continuous Passive থেকে Active: 'Sheila was writing a letter'।"
+  },
+  {
+    "id": 91,
+    "question": "She was made to recite a poem.",
+    "options": [
+      "a poem was made recite by her",
+      "We made her recite a poem",
+      "she was made recited a poem",
+      "a poem was made to reited"
+    ],
+    "answer": "We made her recite a poem",
+    "explanation": "Passive-এর 'was made to recite' থেকে Active: 'We made her recite a poem'।"
+  },
+  {
+    "id": 92,
+    "question": "A song was being sung by her.",
+    "options": [
+      "She was singing a song",
+      "Let a song be sang by her.",
+      "Let a song sing by her.",
+      "Let a song sung by her."
+    ],
+    "answer": "She was singing a song",
+    "explanation": "Past Continuous Passive থেকে Active: 'She was singing a song'।"
+  },
+  {
+    "id": 93,
+    "question": "This is impossible to be done",
+    "options": [
+      "It is impossible to do this.",
+      "To do this is impossible.",
+      "This is impossible to do.",
+      "Doing this is impossible."
+    ],
+    "answer": "It is impossible to do this.",
+    "explanation": "Passive থেকে Active রূপান্তর: 'It is impossible to do this.'।"
+  },
+  {
+    "id": 94,
+    "question": "Is he known to you?",
+    "options": [
+      "Do you know him?",
+      "Are you know him?",
+      "Did you know him?",
+      "Have you known him?"
+    ],
+    "answer": "Do you know him?",
+    "explanation": "Passive থেকে Active: 'Do you know him?'।"
+  },
+  {
+    "id": 95,
+    "question": "By whom can it be done?",
+    "options": [
+      "Who can do it?",
+      "Who could do it?",
+      "Can anyone do it?",
+      "Who can do this?"
+    ],
+    "answer": "Who can do it?",
+    "explanation": "'By whom can it be done?' থেকে Active: 'Who can do it?'।"
+  },
+  {
+    "id": 96,
+    "question": "By whom will you be helped?",
+    "options": [
+      "By whom will you be helped?",
+      "Who will help you?",
+      "By whom you would be helped?",
+      "By whom you will be helped?"
+    ],
+    "answer": "Who will help you?",
+    "explanation": "'By whom will you be helped?' থেকে Active: 'Who will help you?'।"
+  },
+  {
+    "id": 97,
+    "question": "Let the problem be solved by you.",
+    "options": [
+      "The problem is solved by you",
+      "You are solved with the problem",
+      "Let the problem be solved by you",
+      "Solve this problem"
+    ],
+    "answer": "Solve this problem",
+    "explanation": "Imperative Passive থেকে Active: 'Solve this problem'।"
+  },
+  {
+    "id": 98,
+    "question": "Let not the door be closed.",
+    "options": [
+      "Do not close the door",
+      "Please do not close the door",
+      "Close not the door",
+      "Let the door not close"
+    ],
+    "answer": "Do not close the door",
+    "explanation": "নেতিবাচক Imperative Passive থেকে Active: 'Do not close the door'।"
+  },
+  {
+    "id": 99,
+    "question": "Promises should be kept.",
+    "options": [
+      "One should keep one's promises.",
+      "We should keep the promises made.",
+      "One should keep one's promises",
+      "One should keep ones promises"
+    ],
+    "answer": "One should keep one's promises.",
+    "explanation": "Impersonal Passive থেকে Active: 'One should keep one's promises.'।"
+  }
+]

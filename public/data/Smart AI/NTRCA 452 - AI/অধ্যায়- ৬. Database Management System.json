@@ -1,0 +1,2602 @@
+[
+  {
+    "id": 1,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "ট্রেডিশনাল ফাইল প্রসেসিং সিস্টেমের (File Processing System) প্রধান অসুবিধা কোনটি?",
+    "options": [
+      "ডেটা রিডান্ড্যান্সি (Redundancy) ও ডেটা ইনকনসিস্টেন্সি (Inconsistency)",
+      "উচ্চমানের মাল্টি-ইউজার কনকারেন্সি কন্ট্রোল",
+      "মেমরির অতিরিক্ত অপচয় রোধ",
+      "স্বয়ংক্রিয় ব্যাকআপ ব্যবস্থা"
+    ],
+    "answer": "ক",
+    "explanation": "ফাইল প্রসেসিং সিস্টেমে একই ডেটা বিভিন্ন ফাইলে বারবার সংরক্ষিত হয় যাকে ডেটা রিডান্ড্যান্সি বলে। এর ফলে ডেটা আপডেট করার সময় বিভিন্ন স্থানে ভিন্ন মান থেকে যায়, যা ডেটা ইনকনসিস্টেন্সি তৈরি করে। DBMS এই সমস্যা দূর করে।"
+  },
+  {
+    "id": 2,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "DBMS-এর ত্রি-স্তর বিশিষ্ট আর্কিটেকচারে (Three-Schema Architecture) কোন স্তরটি ডেটা বাস্তবে হার্ডডিস্কে কীভাবে সংরক্ষিত থাকে তা নির্দেশ করে?",
+    "options": [
+      "ইউজার ইন্টারফেস লেভেল",
+      "কনসেপচুয়াল বা লজিক্যাল লেভেল (Conceptual/Logical Level)",
+      "ইন্টারনাল বা ফিজিক্যাল লেভেল (Internal/Physical Level)",
+      "ভিউ লেভেল (View/External Level)"
+    ],
+    "answer": "গ",
+    "explanation": "ANSI-SPARC থ্রি-স্কিমা আর্কিটেকচারে ইন্টারনাল বা ফিজিক্যাল লেভেল ডেটা মেমরি বা স্টোরেজে কীভাবে বাইনারি/ব্লক আকারে সংরক্ষিত আছে (ডাটা স্ট্রাকচার, ইনডেক্সিং ইত্যাদি) তা নির্দিষ্ট করে।"
+  },
+  {
+    "id": 3,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "লজিক্যাল স্কিমা পরিবর্তন না করে ফিজিক্যাল স্কিমা পরিবর্তনের সামর্থ্যকে কী বলা হয়?",
+    "options": [
+      "Schema Redundancy",
+      "Physical Data Independence",
+      "Logical Data Independence",
+      "Data Isolation"
+    ],
+    "answer": "খ",
+    "explanation": "ফিজিক্যাল স্টোরেজ গঠন বা ইনডেক্স পরিবর্তন করার পরেও যদি কনসেপচুয়াল/লজিক্যাল স্কিমায় কোনো প্রভাব না পড়ে, তবে তাকে Physical Data Independence বলা হয়।"
+  },
+  {
+    "id": 4,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "কনসেপচুয়াল স্কিমা পরিবর্তন করার পরেও ইউজার ভিউ বা অ্যাপ্লিকেশনে পরিবর্তন না হওয়ার সুবিধাকে কী বলে?",
+    "options": [
+      "Logical Data Independence",
+      "Concurrency",
+      "Data Integrity",
+      "Physical Data Independence"
+    ],
+    "answer": "ক",
+    "explanation": "কনসেপচুয়াল স্কিমার পরিবর্তন (যেমন নতুন টেবিল বা অ্যাট্রিবিউট যোগ করা) বাহ্যিক ভিউ বা অ্যাপ্লিকেশনের ওপর প্রভাব না ফেললে তাকে Logical Data Independence বলে।"
+  },
+  {
+    "id": 5,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "ডেটাবেজের সামগ্রিক নকশা বা কাঠামোকে (Overall Design) কী বলা হয়?",
+    "options": [
+      "Relation Extension",
+      "Database Instance",
+      "Database Schema",
+      "Snapshot"
+    ],
+    "answer": "গ",
+    "explanation": "ডেটাবেজের সামগ্রিক লজিক্যাল ডিজাইন বা ব্লুপ্রিন্টকে 'Database Schema' বলা হয়। আর কোনো নির্দিষ্ট মুহূর্তে ডেটাবেজে থাকা মূল ডেটার সংগ্রহকে 'Instance' বলা হয়।"
+  },
+  {
+    "id": 6,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "কোনো নির্দিষ্ট মুহূর্তে ডেটাবেজে সংগৃহীত বাস্তব ডেটার সেটকে কী বলা হয়?",
+    "options": [
+      "Metadata",
+      "Database Schema",
+      "Domain",
+      "Database Instance বা State"
+    ],
+    "answer": "ঘ",
+    "explanation": "কোনো নির্দিষ্ট সময়ে ডেটাবেজের মধ্যে বিদ্যমান তথ্যের অবস্থাকে Database Instance বা Snapshot বা Database State বলা হয়।"
+  },
+  {
+    "id": 7,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "DBMS-এ ডেটা ডিকশনারি (Data Dictionary) বা সিস্টেম ক্যাটালগে কী সংরক্ষিত থাকে?",
+    "options": [
+      "অপারেটিং সিস্টেমের বুট ফাইল",
+      "মেটাডেটা (Metadata - ডেটা সম্পর্কে ডেটা, যেমন স্কিমা, কনস্ট্রেইন্ট ইত্যাদি)",
+      "শুধুমাত্র ইউজার টেবিলের ডেটা",
+      "নেটওয়ার্ক প্যাকেট লগ"
+    ],
+    "answer": "খ",
+    "explanation": "Data Dictionary বা System Catalog হলো একটি স্বয়ংক্রিয় ডেটাবেজ যা মেটাডেটা (Metadata) সংরক্ষণ করে—যেমন টেবিলের নাম, অ্যাট্রিবিউটের ধরন, ইনডেক্স, অথোরাইজেশন ও ইন্টিগ্রিটি কনস্ট্রেইন্ট।"
+  },
+  {
+    "id": 8,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "DDL কম্পাইলার দ্বারা জেনারেট করা টেবিল কাঠামোর ডেটা কোথায় সেভ হয়?",
+    "options": [
+      "RAM-এর ক্যাশ মেমরিতে স্থায়ীভাবে",
+      "Application Source কোডে",
+      "Log Buffer-এ",
+      "Data Dictionary-তে"
+    ],
+    "answer": "ঘ",
+    "explanation": "DDL স্টেটমেন্ট (CREATE, ALTER ইত্যাদি) এক্সিকিউট হলে তার স্কিমা ডেটা সরাসরি Data Dictionary (সিস্টেম ক্যাটালগ)-তে স্টোর বা আপডেট হয়।"
+  },
+  {
+    "id": 9,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "নিচের কোনটি DML (Data Manipulation Language)-এর উদাহরণ?",
+    "options": [
+      "ALTER",
+      "CREATE",
+      "INSERT",
+      "DROP"
+    ],
+    "answer": "গ",
+    "explanation": "INSERT, UPDATE, DELETE হলো DML স্টেটমেন্ট যা টেবিলের মধ্যকার ডেটা ম্যানিপুলেট করতে ব্যবহৃত হয়। CREATE, ALTER, DROP হলো DDL।"
+  },
+  {
+    "id": 10,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "নিচের কোনটি DCL (Data Control Language)-এর অন্তর্ভুক্ত?",
+    "options": [
+      "COMMIT ও ROLLBACK",
+      "GRANT ও REVOKE",
+      "CREATE ও ALTER",
+      "SELECT ও WHERE"
+    ],
+    "answer": "খ",
+    "explanation": "GRANT এবং REVOKE হলো DCL কমান্ড যা ইউজার পারমিশন এবং অ্যাক্সেস কন্ট্রোল নিয়ন্ত্রণ করতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 11,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "নিচের কোন কমান্ডগুলো TCL (Transaction Control Language)-এর অংশ?",
+    "options": [
+      "COMMIT, ROLLBACK, SAVEPOINT",
+      "INSERT, UPDATE",
+      "DROP, TRUNCATE",
+      "GRANT, REVOKE"
+    ],
+    "answer": "ক",
+    "explanation": "ট্রানজ্যাকশনের স্থায়িত্ব এবং রোলব্যাক ব্যবস্থাপনার জন্য COMMIT, ROLLBACK এবং SAVEPOINT ব্যবহৃত হয়, যা TCL।"
+  },
+  {
+    "id": 12,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "ডেটাবেজ অ্যাডমিনিস্ট্রেটরের (DBA) প্রধান দায়িত্বের মধ্যে কোনটি পড়ে না?",
+    "options": [
+      "স্কিমা সংজ্ঞা ও ফিজিক্যাল স্টোরেজ কাঠামো নির্ধারণ",
+      "ব্যবহারকারীদের অথোরাইজেশন ও নিরাপত্তা প্রদান",
+      "অ্যাপ্লিকেশনের ব্যবসায়িক লজিক কোডিং (Frontend UI Development)",
+      "ব্যাকআপ ও রিকভারি নিশ্চিত করা"
+    ],
+    "answer": "গ",
+    "explanation": "ফ্রন্টএন্ড বা বিজনেস লজিক কোডিং অ্যাপ্লিকেশন প্রোগ্রামার বা সফটওয়্যার ইঞ্জিনিয়ারের কাজ; DBA ডেটাবেজের ডিজাইন, পারমিশন, ব্যাকআপ ও পারফরম্যান্স ম্যানেজ করেন।"
+  },
+  {
+    "id": 13,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "DBMS-এর ক্লায়েন্ট-সার্ভার টু-টিয়ার (2-tier) আর্কিটেকচারে অ্যাপ্লিকেশন প্রোগ্রাম কোথায় চলে?",
+    "options": [
+      "ক্লায়েন্ট মেশিনে (User side)",
+      "ডাটাবেজ ইঞ্জিনের ভেতরে",
+      "ক্লাউড প্রক্সিতে",
+      "কোনো অ্যাপ সার্ভার থাকে না, সরাসরি হার্ডওয়্যারে"
+    ],
+    "answer": "ক",
+    "explanation": "2-tier আর্কিটেকচারে ক্লায়েন্ট মেশিনে ইউজার ইন্টারফেস এবং বিজনেস অ্যাপ্লিকেশন রান করে, যা ODBC/JDBC-এর মাধ্যমে সরাসরি ডেটাবেজ সার্ভারের সাথে যোগাযোগ করে।"
+  },
+  {
+    "id": 14,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "3-tier ক্লায়েন্ট-সার্ভার ডেটাবেজ আর্কিটেকচারে মাঝের লেয়ারটি (Intermediate layer) কী?",
+    "options": [
+      "Database Server",
+      "Presentation Layer",
+      "Disk Storage Controller",
+      "Application Server / Web Server (Business Logic Layer)"
+    ],
+    "answer": "ঘ",
+    "explanation": "3-tier আর্কিটেকচারে ৩টি স্তর থাকে: Client Tier (Presentation), Application Tier (Business Logic), এবং Database Tier।"
+  },
+  {
+    "id": 15,
+    "topic": "File Processing vs DBMS & Database Architecture",
+    "question": "ডেটাবেজের 'Data Abstraction'-এর সর্বোচ্চ লেভেল কোনটি যা সাধারণ ব্যবহারকারীদের দেখানো হয়?",
+    "options": [
+      "Storage level",
+      "View level (External level)",
+      "Physical level",
+      "Logical level"
+    ],
+    "answer": "খ",
+    "explanation": "View Level বা External Level হলো সর্বোচ্চ লেভেল যেখানে জটিল কাঠামো লুকিয়ে রেখে ব্যবহারকারীকে কেবল প্রয়োজনীয় ভিউ দেখানো হয়।"
+  },
+  {
+    "id": 16,
+    "topic": "ER and EER Modeling",
+    "question": "ER ডায়াগ্রামে এনটিটি (Entity) এবং অ্যাট্রিবিউট (Attribute) কোন কোন জ্যামিতিক চিত্র দিয়ে প্রকাশ করা হয়?",
+    "options": [
+      "এনটিটি: আয়তক্ষেত্র (Rectangle), অ্যাট্রিবিউট: উপবৃত্ত (Ellipse/Oval)",
+      "এনটিটি: সামান্তরিক, অ্যাট্রিবিউট: আয়তক্ষেত্র",
+      "এনটিটি: ডায়মন্ড, অ্যাট্রিবিউট: আয়তক্ষেত্র",
+      "এনটিটি: উপবৃত্ত, অ্যাট্রিবিউট: বৃত্ত"
+    ],
+    "answer": "ক",
+    "explanation": "ER মডেলের প্রচলিত স্বরলিপিতে (Peter Chen's Notation) সত্তা বা এনটিটিকে আয়তক্ষেত্র (Rectangle) এবং বৈশিষ্ট্য বা অ্যাট্রিবিউটকে উপবৃত্ত (Ellipse) দ্বারা দেখানো হয়।"
+  },
+  {
+    "id": 17,
+    "topic": "ER and EER Modeling",
+    "question": "ER ডায়াগ্রামে রিলেশনশিপ সেট (Relationship Set) কোন প্রতীক দিয়ে নির্দেশ করা হয়?",
+    "options": [
+      "ত্রিভুজ (Triangle)",
+      "বৃত্ত (Circle)",
+      "রম্বস বা ডায়মন্ড (Diamond)",
+      "ডবল ওভাল (Double Oval)"
+    ],
+    "answer": "গ",
+    "explanation": "ER ডায়াগ্রামে দুটি বা ততোধিক এনটিটির মধ্যকার সম্পর্ক (Relationship) রম্বস বা ডায়মন্ড বক্স দ্বারা উপস্থাপন করা হয়।"
+  },
+  {
+    "id": 18,
+    "topic": "ER and EER Modeling",
+    "question": "যে অ্যাট্রিবিউটকে একাধিক ক্ষুদ্র মৌলিক অংশে ভাগ করা যায় (যেমন- Name কে First Name, Last Name) তাকে কী বলে?",
+    "options": [
+      "Multivalued Attribute",
+      "Composite Attribute",
+      "Simple Attribute",
+      "Derived Attribute"
+    ],
+    "answer": "খ",
+    "explanation": "কম্পোজিট অ্যাট্রিবিউট হলো এমন বৈশিষ্ট্য যা একাধিক ছোট উপ-অ্যাট্রিবিউট নিয়ে গঠিত। যেমন: Address (Street, City, Zip)।"
+  },
+  {
+    "id": 19,
+    "topic": "ER and EER Modeling",
+    "question": "কোনো একজন ব্যক্তির একাধিক ফোন নম্বর বা ইমেইল থাকলে তা ER মডেলে কোন ধরণের অ্যাট্রিবিউট?",
+    "options": [
+      "Derived Attribute",
+      "Composite Attribute",
+      "Key Attribute",
+      "Multivalued Attribute (বহুমানসম্পন্ন)"
+    ],
+    "answer": "ঘ",
+    "explanation": "কোনো এনটিটির জন্য একটি অ্যাট্রিবিউটের একাধিক মান থাকলে তাকে Multivalued Attribute বলে, যা ER ডায়াগ্রামে ডাবল উপবৃত্ত (Double Oval) দিয়ে দেখানো হয়।"
+  },
+  {
+    "id": 20,
+    "topic": "ER and EER Modeling",
+    "question": "জন্মতারিখ (Date of Birth) থেকে বয়স (Age) গণনা করা হলে 'Age' কোন ধরণের অ্যাট্রিবিউট?",
+    "options": [
+      "Multivalued Attribute",
+      "Atomic Attribute",
+      "Primary Attribute",
+      "Derived Attribute (লব্ধ অ্যাট্রিবিউট)"
+    ],
+    "answer": "ঘ",
+    "explanation": "যে অ্যাট্রিবিউটের মান সরাসরি সংরক্ষণ না করে অন্য কোনো অ্যাট্রিবিউট থেকে গণনা করা যায় তাকে Derived Attribute বলে। এটি ড্যাশড উপবৃত্ত (Dashed Oval) দ্বারা দেখানো হয়।"
+  },
+  {
+    "id": 21,
+    "topic": "ER and EER Modeling",
+    "question": "যে এনটিটি সেটের নিজস্ব প্রাইমারি কি গঠনের মতো পর্যাপ্ত অ্যাট্রিবিউট নেই তাকে কী বলে?",
+    "options": [
+      "Super Entity",
+      "Strong Entity Set",
+      "Weak Entity Set (দুর্বল এনটিটি)",
+      "Associative Entity"
+    ],
+    "answer": "গ",
+    "explanation": "Weak Entity Set-এর নিজস্ব কোনো প্রাইমারি কি থাকে না। এটি তার অস্তিত্বের জন্য একটি Identifying বা Strong Entity-এর ওপর নির্ভর করে। একে ডবল আয়তক্ষেত্র দিয়ে দেখানো হয়।"
+  },
+  {
+    "id": 22,
+    "topic": "ER and EER Modeling",
+    "question": "Weak Entity Set-এর টাপলগুলোকে চিহ্নিত করতে Identifying Entity-র প্রাইমারি কি-এর সাথে কোন কি ব্যবহার করা হয়?",
+    "options": [
+      "Candidate Key",
+      "Partial Key বা Discriminator",
+      "Alternate Key",
+      "Super Key"
+    ],
+    "answer": "খ",
+    "explanation": "Weak Entity-র টাপলগুলোকে স্বাতন্ত্র্য দিতে Discriminator বা Partial Key ব্যবহার করা হয়। ডায়াগ্রামে একে ড্যাশড আন্ডারলাইন (Dashed Underline) দ্বারা নির্দেশ করা হয়।"
+  },
+  {
+    "id": 23,
+    "topic": "ER and EER Modeling",
+    "question": "যদি এনটিটি সেট $A$-র প্রতিটি উপাদান এনটিটি সেট $B$-র সাথে সম্পর্কের ক্ষেত্রে বাধ্যতামূলকভাবে যুক্ত থাকে, তবে সেই পার্টিসিপেশনকে কী বলে?",
+    "options": [
+      "Total Participation (Existence Dependency)",
+      "Partial Participation",
+      "Semi Participation",
+      "Binary Participation"
+    ],
+    "answer": "ক",
+    "explanation": "টোটাল পার্টিসিপেশনে এনটিটি সেটের প্রতিটি সত্তা অন্তত একটি সম্পর্কে অংশ নিতেই হবে। ER চিত্রে এটি ডবল লাইন (Double Line) দ্বারা নির্দেশ করা হয়।"
+  },
+  {
+    "id": 24,
+    "topic": "ER and EER Modeling",
+    "question": "একটি রিলেশনশিপে কয়টি এনটিটি সেট অংশগ্রহণ করেছে তার সংখ্যাকে কী বলা হয়?",
+    "options": [
+      "Cardinality",
+      "Domain",
+      "Modality",
+      "Degree of Relationship"
+    ],
+    "answer": "ঘ",
+    "explanation": "একটি সম্পর্কে অংশগ্রহণকারী এনটিটি সেটের সংখ্যাকে Degree of Relationship বলে। যেমন: ১টি হলে Unary/Recursive, ২টি হলে Binary, ৩টি হলে Ternary।"
+  },
+  {
+    "id": 25,
+    "topic": "ER and EER Modeling",
+    "question": "একজন শিক্ষক একাধিক কোর্স পড়াতে পারেন এবং একটি কোর্স কেবল একজন শিক্ষক পড়ান—এটি কোন কার্ডিনালিটি রেশিও?",
+    "options": [
+      "One-to-One (1:1)",
+      "One-to-Many (1:N)",
+      "Many-to-One (N:1)",
+      "Many-to-Many (M:N)"
+    ],
+    "answer": "খ",
+    "explanation": "শিক্ষক থেকে কোর্সের সম্পর্ক 1:N (One-to-Many), কারণ একজন শিক্ষকের সাথে সম্পর্কিত হতে পারে একাধিক কোর্স।"
+  },
+  {
+    "id": 26,
+    "topic": "ER and EER Modeling",
+    "question": "ER মডেলের Many-to-Many (M:N) সম্পর্ককে রিলেশনাল টেবিলে রূপান্তরের জন্য কী প্রয়োজন?",
+    "options": [
+      "একটি পৃথক সংযোগকারী টেবিল (Junction / Bridge / Associative Table) তৈরি করতে হয়",
+      "টেবিল দুটিকে একত্রিত করে একটি ফাইলে রাখা",
+      "যেকোনো একটি টেবিলে Foreign Key যোগ করলেই হয়",
+      "কোনো রূপান্তর সম্ভব নয়"
+    ],
+    "answer": "ক",
+    "explanation": "M:N সম্পর্ক রূপান্তরে উভয় টেবিলের Primary Key-র সমন্বয়ে একটি নতুন টেবিল তৈরি করতে হয় যার composite primary key তৈরি হয়।"
+  },
+  {
+    "id": 27,
+    "topic": "ER and EER Modeling",
+    "question": "বর্ধিত ER মডেলের (EER) 'স্পেশালাইজেশন' (Specialization) প্রক্রিয়াটি কোন অ্যাপ্রোচ অনুসরণ করে?",
+    "options": [
+      "Horizontal Approach",
+      "Hybrid Approach",
+      "Top-Down Approach",
+      "Bottom-Up Approach"
+    ],
+    "answer": "গ",
+    "explanation": "স্পেশালাইজেশন হলো একটি Top-Down প্রক্রিয়া যেখানে একটি উচ্চস্তরের উচ্চতর সাধারণ সত্তাকে তার বৈশিষ্ট্যের ভিত্তিতে একাধিক নিম্নস্তরের সাবক্লাসে বিভক্ত করা হয়।"
+  },
+  {
+    "id": 28,
+    "topic": "ER and EER Modeling",
+    "question": "একাধিক নিম্নস্তরের এনটিটির সাধারণ বৈশিষ্ট্যগুলোকে নিয়ে একটি উচ্চস্তরের সুপারক্লাস গঠনের প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "Aggregation",
+      "Normalization",
+      "Generalization (সাধারণীকরণ)",
+      "Specialization"
+    ],
+    "answer": "গ",
+    "explanation": "Generalization হলো একটি Bottom-Up প্রক্রিয়া যেখানে একাধিক এনটিটি (যেমন কার, ট্রাক) সমন্বয়ে উচ্চস্তরের সুপারক্লাস (যেমন Vehicle) গঠিত হয়।"
+  },
+  {
+    "id": 29,
+    "topic": "ER and EER Modeling",
+    "question": "যখন একটি সম্পর্ক নিজেই অন্য আরেকটি সম্পর্কের সাথে যুক্ত হওয়ার প্রয়োজন পড়ে, তখন EER-এ কোন ধারণাটি ব্যবহৃত হয়?",
+    "options": [
+      "Generalization",
+      "Aggregation",
+      "Cardinality",
+      "Specialization"
+    ],
+    "answer": "খ",
+    "explanation": "Aggregation হলো একটি অ্যাবস্ট্রাকশন যেখানে একটি সম্পর্ক এবং তার সাথে জড়িত এনটিটিগুলোকে সামগ্রিকভাবে একটি একক উচ্চস্তরের এনটিটি হিসেবে গণ্য করা হয়।"
+  },
+  {
+    "id": 30,
+    "topic": "ER and EER Modeling",
+    "question": "EER মডেলে যদি একজন ব্যক্তি একই সাথে 'Student' এবং 'Employee' সাবক্লাস উভয়েরই সদস্য হতে পারে, তবে সেই স্পেশালাইজেশনকে কী বলে?",
+    "options": [
+      "Disjoint Specialization",
+      "Total Specialization",
+      "Partial Disjoint",
+      "Overlapping Specialization"
+    ],
+    "answer": "ঘ",
+    "explanation": "Overlapping স্পেশালাইজেশনে একটি এনটিটি একই সময়ে একাধিক সাবক্লাসের সদস্য হতে পারে। আর Disjoint-এ সর্বোচ্চ একটির সদস্য হতে পারে।"
+  },
+  {
+    "id": 31,
+    "topic": "ER and EER Modeling",
+    "question": "ER মডেলে কী-অ্যাট্রিবিউট (Key Attribute বা Primary Key)-কে কীভাবে নির্দেশ করা হয়?",
+    "options": [
+      "উপবৃত্তের ভেতরের লেখায় আন্ডারলাইন (Underline) দিয়ে",
+      "উপবৃত্তকে ডাবল লাইন দিয়ে",
+      "গাঢ় রঙের শেড দিয়ে",
+      "উপবৃত্তের চারপাশে ড্যাশড লাইন দিয়ে"
+    ],
+    "answer": "ক",
+    "explanation": "Primary Key বা মূল কী অ্যাট্রিবিউট নির্দেশ করতে উপবৃত্তের ভেতরে নামের নিচে সলিড আন্ডারলাইন দেওয়া হয়।"
+  },
+  {
+    "id": 32,
+    "topic": "ER and EER Modeling",
+    "question": "যদি কোনো দুর্বল সত্তা সেটের নিজস্ব ডিসক্রিমিনেটর $d$ এবং শনাক্তকারী শক্তিশালী সত্তার প্রাইমারি কি $k$ হয়, তবে দুর্বল সত্তা টেবিলের প্রাইমারি কি কী হবে?",
+    "options": [
+      "$k$ এবং $d$ এর যৌথ সমন্বয় ($k, d$)",
+      "কেবল $d$",
+      "কোনো প্রাইমারি কি থাকবে না",
+      "কেবল $k$"
+    ],
+    "answer": "ক",
+    "explanation": "Weak Entity-র রিলেশনাল স্কিমায় শক্তিশালী সত্তার প্রাইমারি কি ($k$) এবং দুর্বল সত্তার আংশিক কি ($d$) উভয়ে মিলে কম্পোজিট প্রাইমারি কি গঠন করে।"
+  },
+  {
+    "id": 33,
+    "topic": "ER and EER Modeling",
+    "question": "একটি প্রতিষ্ঠানে কর্মী তার ম্যানেজারের অধীনে কাজ করেন এবং ম্যানেজার নিজেও একজন কর্মী। এই রিলেশনশিপকে কী বলা হয়?",
+    "options": [
+      "Ternary Relationship",
+      "Composite Relationship",
+      "Recursive বা Unary Relationship",
+      "Cyclic Relationship"
+    ],
+    "answer": "গ",
+    "explanation": "যখন একই এনটিটি সেট কোনো রিলেশনশিপে ভিন্ন ভিন্ন ভূমিকায় (Role) একাধিকবার অংশগ্রহণ করে, তাকে Recursive বা Unary রিলেশনশিপ বলে।"
+  },
+  {
+    "id": 34,
+    "topic": "ER and EER Modeling",
+    "question": "মিনিমাম-ম্যাক্সিমাম কনস্ট্রেইন্ট $(min, max)$ যদি $(0, 1)$ হয়, তবে তার অর্থ কী?",
+    "options": [
+      "কোনো অংশগ্রহণ সম্ভব নয়",
+      "অংশগ্রহণ বাধ্যতামূলক এবং সর্বোচ্চ ১টি",
+      "অন্তত ১টি এবং সর্বোচ্চ বহু",
+      "অংশগ্রহণ ঐচ্ছিক (Optional/Partial) এবং সর্বোচ্চ ১টিতে অংশ নিতে পারে"
+    ],
+    "answer": "ঘ",
+    "explanation": "min=0 মানে হলো পার্টিসিপেশন আংশিক বা ঐচ্ছিক (কোনো সম্পর্কে নাও থাকতে পারে) এবং max=1 মানে সর্বোচ্চ একটি সম্পর্কে জড়াতে পারে।"
+  },
+  {
+    "id": 35,
+    "topic": "ER and EER Modeling",
+    "question": "কোনো সুপারক্লাসের সমস্ত বৈশিষ্ট্য ও মেথড সাবক্লাস কর্তৃক স্বয়ংক্রিয়ভাবে প্রাপ্ত হওয়ার নীতিকে কী বলে?",
+    "options": [
+      "Encapsulation",
+      "Attribute Inheritance",
+      "Polymorphism",
+      "Normalization"
+    ],
+    "answer": "খ",
+    "explanation": "স্পেশালাইজেশন বা জেনারেলাইজেশন হায়ারার্কিতে সাবক্লাসগুলো তাদের সুপারক্লাস থেকে অ্যাট্রিবিউট ও রিলেশনশিপ উত্তরাধিকার সূত্রে পায়, যাকে Attribute Inheritance বলে।"
+  },
+  {
+    "id": 36,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "রিলেশনাল মডেলের প্রবক্তা কে এবং এটি কত সালে প্রস্তাব করা হয়েছিল?",
+    "options": [
+      "Alan Turing, 1950",
+      "Dennis Ritchie, 1972",
+      "Charles Bachman, 1965",
+      "E. F. Codd (Edgar Frank Codd), 1970"
+    ],
+    "answer": "ঘ",
+    "explanation": "আইবিএম গবেষক ড. ই এফ কড (E. F. Codd) ১৯৭০ সালে 'A Relational Model of Data for Large Shared Data Banks' গবেষণাপত্রে রিলেশনাল ডেটাবেজের ভিত্তি স্থাপন করেন।"
+  },
+  {
+    "id": 37,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "রিলেশনাল ডেটাবেজে একটি টেবিলের সারি (Row) এবং কলামকে (Column) তাত্ত্বিকভাবে যথাক্রমে কী বলা হয়?",
+    "options": [
+      "Attribute এবং Tuple",
+      "Tuple এবং Attribute",
+      "Record এবং File",
+      "Relation এবং Domain"
+    ],
+    "answer": "খ",
+    "explanation": "রিলেশনাল মডেলে প্রতিটি অনুভূমিক সারিকে টাপল (Tuple) এবং প্রতিটি উল্লম্ব কলামকে অ্যাট্রিবিউট (Attribute) বলা হয়।"
+  },
+  {
+    "id": 38,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "একটি রিলেশনে টাপলের (Row) মোট সংখ্যাকে কী বলা হয়?",
+    "options": [
+      "Cardinality",
+      "Order",
+      "Domain",
+      "Degree"
+    ],
+    "answer": "ক",
+    "explanation": "একটি রিলেশনের মোট সারির সংখ্যাকে Cardinality এবং মোট কলামের (অ্যাট্রিবিউট) সংখ্যাকে Degree বা Arity বলা হয়।"
+  },
+  {
+    "id": 39,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "একটি টেবিলে ৫টি কলাম এবং ১০০টি সারি থাকলে টেবিলটির Degree এবং Cardinality কত?",
+    "options": [
+      "Degree = 100, Cardinality = 5",
+      "Degree = 5, Cardinality = 500",
+      "Degree = 5, Cardinality = 100",
+      "Degree = 500, Cardinality = 5"
+    ],
+    "answer": "গ",
+    "explanation": "কলামের সংখ্যা = Degree = 5; সারির সংখ্যা = Cardinality = 100।"
+  },
+  {
+    "id": 40,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "Entity Integrity Constraint অনুযায়ী প্রাইমারি কি-র ক্ষেত্রে নিচের কোনটি সত্য?",
+    "options": [
+      "প্রাইমারি কি-র মান নেতিবাচক হতে পারবে না",
+      "প্রাইমারি কি টেবিলের যেকোনো কলাম হতে পারে",
+      "প্রাইমারি কি অবশ্যই স্ট্রিং হতে হবে",
+      "প্রাইমারি কি-র কোনো উপাদান NULL হতে পারবে না"
+    ],
+    "answer": "ঘ",
+    "explanation": "Entity Integrity নিয়মে বলা হয়েছে কোনো প্রাইমারি কি-র মান কখনো NULL (অজ্ঞাত বা অনুপস্থিত) হতে পারে না এবং এটি ইউনিক হতে হবে।"
+  },
+  {
+    "id": 41,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "Referential Integrity Constraint মূলত কোন দুটির মধ্যকার সম্পর্কের নিশ্চয়তা দেয়?",
+    "options": [
+      "Check Constraint এবং Unique Key",
+      "Foreign Key এবং Referenced Primary Key",
+      "Super Key এবং Composite Key",
+      "Primary Key এবং Candidate Key"
+    ],
+    "answer": "খ",
+    "explanation": "রেফারেন্সিয়াল ইন্টিগ্রিটি অনুযায়ী, চাইল্ড টেবিলের Foreign Key-র প্রতিটি মান প্যারেন্ট টেবিলের Primary Key-তে উপস্থিত থাকতে হবে অথবা মানটি সম্পূর্ণ NULL হতে হবে।"
+  },
+  {
+    "id": 42,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "রিলেশনাল অ্যালজেবরায় টাপল বা সারি ফিল্টার/সিলেক্ট করার জন্য কোন অপারেটর ব্যবহৃত হয়?",
+    "options": [
+      "$\\sigma$ (Sigma - Selection)",
+      "$\\rho$ (Rho - Rename)",
+      "$\\Pi$ (Pi - Projection)",
+      "$\\bowtie$ (Join)"
+    ],
+    "answer": "ক",
+    "explanation": "সিগমা ($\\\\sigma$) হলো সিলেকশন অপারেটর যা শর্ত পূরণকারী রো বা টাপল নির্বাচন করে (SQL এর WHERE ক্লজের অনুরূপ)।"
+  },
+  {
+    "id": 43,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "রিলেশনাল অ্যালজেবরায় নির্দিষ্ট কলাম বা অ্যাট্রিবিউট বাছাই করার প্রজেকশন অপারেটর কোনটি?",
+    "options": [
+      "$\\times$ (Cartesian Product)",
+      "$\\sigma$ (Sigma)",
+      "$\\Pi$ (Pi)",
+      "$\\cap$ (Intersection)"
+    ],
+    "answer": "গ",
+    "explanation": "পাই ($\\\\Pi$) হলো প্রজেকশন অপারেটর যা টেবিল থেকে কাঙ্ক্ষিত কলামগুলো নির্বাচন করে এবং স্বয়ংক্রিয়ভাবে ডুপ্লিকেট টাপল বাদ দেয়।"
+  },
+  {
+    "id": 44,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "দুটি রিলেশন $R$ (যার টাপল সংখ্যা $m$) এবং $S$ (যার টাপল সংখ্যা $n$) এর কার্টেশিয়ান গুণনের ($R \\times S$) টাপল সংখ্যা কত?",
+    "options": [
+      "$m + n$",
+      "$m \\times n$",
+      "$m^n$",
+      "$m / n$"
+    ],
+    "answer": "খ",
+    "explanation": "Cross Product বা Cartesian Product-এ প্রথম টেবিলের প্রতিটি রো দ্বিতীয় টেবিলের প্রতিটি রো-র সাথে যুক্ত হয়, ফলে মোট রো হয় $m \\times n$।"
+  },
+  {
+    "id": 45,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "ন্যাচারাল জয়েন (Natural Join, $\\bowtie$) সম্পাদনের জন্য দুটি রিলেশনের মধ্যে কী আবশ্যক?",
+    "options": [
+      "অন্তত একটি অভিন্ন নামের ও সমজাতীয় ডোমেইনের কলাম থাকতে হবে",
+      "কোনো সাধারণ কলাম থাকা যাবে না",
+      "দুটি টেবিলের ডিগ্রি সমান হতে হবে",
+      "প্রাইমারি কি একই হতে হবে"
+    ],
+    "answer": "ক",
+    "explanation": "ন্যাচারাল জয়েন উভয় টেবিলের সমনামের কলামের মানের সমতার ভিত্তিতে জয়েন করে এবং ফলাফল থেকে ডুপ্লিকেট কলাম বাদ দিয়ে একটি কলাম রাখে।"
+  },
+  {
+    "id": 46,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "রিলেশনাল অ্যালজেবরায় সেট অপারেশন (Union, Intersection, Set Difference) করার জন্য টেবিল দুটিকে কী হতে হয়?",
+    "options": [
+      "Primary Compatible",
+      "Cardinality Compatible",
+      "Normalized",
+      "Union Compatible (একই ডিগ্রি ও সমজাতীয় ডোমেইন)"
+    ],
+    "answer": "ঘ",
+    "explanation": "Union Compatibility-র শর্ত হলো দুটি রিলেশনের অ্যাট্রিবিউটের সংখ্যা (Degree) সমান হতে হবে এবং অনুরূপ কলামগুলোর ডেটা টাইপ বা ডোমেইন এক হতে হবে।"
+  },
+  {
+    "id": 47,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "লেফট আউটার জয়েন (Left Outer Join, $\\leftouterjoin$) এর বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "শুধুমাত্র ম্যাচ করা টাপল ফিরিয়ে দেয়",
+      "সব টাপল বাদ দেয়",
+      "বাম টেবিলের সব টাপল রাখে, ডান টেবিলের সাথে ম্যাচ না করলে NULL বসায়",
+      "ডান টেবিলের সব টাপল রাখে এবং বাম টেবিল বাদ দেয়"
+    ],
+    "answer": "গ",
+    "explanation": "লেফট আউটার জয়েন বাম টেবিলের সমস্ত রেকর্ড প্রদর্শন করে এবং ডান টেবিল থেকে শর্ত মেলানো রেকর্ড আনে; ডান টেবিলে কোনো মিল না থাকলে সেখানে NULL প্রদর্শন করে।"
+  },
+  {
+    "id": 48,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "রিলেশনাল অ্যালজেবরায় রিলেশন বা অ্যাট্রিবিউটের নাম পরিবর্তনের (Rename) জন্য কোন প্রতীক ব্যবহৃত হয়?",
+    "options": [
+      "$\\delta$ (Delta)",
+      "$\\rho$ (Rho)",
+      "$\\theta$ (Theta)",
+      "$\\gamma$ (Gamma)"
+    ],
+    "answer": "খ",
+    "explanation": "রো ($\\\\rho$) অপারেটর রিলেশন বা অ্যাট্রিবিউটের পুনঃনামকরণ করতে ব্যবহৃত হয়। যেমন: $\\\\rho_{S}(R)$।"
+  },
+  {
+    "id": 49,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "একটি প্রতিষ্ঠানে 'সকল প্রকল্পে' (All projects) কর্মরত কর্মীদের খুঁজে পেতে রিলেশনাল অ্যালজেবরার কোন অপারেটরটি সবচেয়ে উপযোগী?",
+    "options": [
+      "Division Operator ($\\div$)",
+      "Cartesian Product ($\\times$)",
+      "Intersection ($\\cap$)",
+      "Theta Join ($\\bowtie_\\theta$)"
+    ],
+    "answer": "ক",
+    "explanation": "'For all' বা 'সবগুলোতেই অংশ নেওয়া' সম্পর্কিত কুয়েরি বাস্তবায়নে ডিভিশন অপারেটর ($R \\\\div S$) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 50,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "রিলেশনাল অ্যালজেবরা এবং রিলেশনাল ক্যালকুলাসের মধ্যে প্রধান পার্থক্য কী?",
+    "options": [
+      "অ্যালজেবরা হলো ডিক্লারেটিভ, ক্যালকুলাস হলো প্রসিডিউরাল",
+      "ক্যালকুলাসে কোনো ম্যাথমেটিক্যাল লজিক নেই",
+      "অ্যালজেবরা হলো প্রসিডিউরাল (কীভাবে বের করতে হবে), ক্যালকুলাস হলো নন-প্রসিডিউরাল/ডিক্লারেটিভ (কী চাই)",
+      "উভয়েই একই সিনট্যাক্স ব্যবহার করে"
+    ],
+    "answer": "গ",
+    "explanation": "Relational Algebra নির্দেশ করে কীভাবে ফলাফল পেতে হবে (Procedural), আর Relational Calculus (TRC/DRC) নির্দেশ করে কী ফলাফল প্রয়োজন, কীভাবে তা নয় (Declarative)।"
+  },
+  {
+    "id": 51,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "টাপল রিলেশনাল ক্যালকুলাস (TRC)-এ কুয়েরির সাধারণ রূপ কোনটি?",
+    "options": [
+      "$f(t) \\to P$",
+      "$\\Pi_{P}(t)$",
+      "$\\sigma_{P}(t)$",
+      "$\\{ t \\mid P(t) \\}$"
+    ],
+    "answer": "ঘ",
+    "explanation": "TRC এক্সপ্রেশনের সাধারণ রূপ হলো $\\\\{ t \\\\mid P(t) \\\\}$, যার অর্থ হলো এমন সকল টাপল $t$ এর সেট যার জন্য প্রেডিকেট $P(t)$ সত্য।"
+  },
+  {
+    "id": 52,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "যদি কোনো কুয়েরি ভাষা দিয়ে রিলেশনাল অ্যালজেবরার সমান শক্তিশালী সকল এক্সপ্রেশন প্রকাশ করা যায়, তবে সেই ভাষাকে কী বলে?",
+    "options": [
+      "Functionally Complete",
+      "Algebraically Closed",
+      "Turing Complete",
+      "Relationally Complete"
+    ],
+    "answer": "ঘ",
+    "explanation": "কড-এর সংজ্ঞানুযায়ী, একটি ভাষা যদি বেসিক রিলেশনাল অ্যালজেবরা দ্বারা প্রকাশিত যেকোনো কুয়েরি প্রকাশ করতে সক্ষম হয়, তাকে Relationally Complete বলা হয়।"
+  },
+  {
+    "id": 53,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "Super Key এবং Candidate Key-র মধ্যে মূল পার্থক্য কোনটি?",
+    "options": [
+      "Candidate Key-তে ডুপ্লিকেট মান থাকতে পারে",
+      "Candidate Key হলো মিনিমাল সুপার কি (Minimal Super Key)",
+      "Super Key সবসময় একক কলাম হয়",
+      "এদের মধ্যে কোনো পার্থক্য নেই"
+    ],
+    "answer": "খ",
+    "explanation": "একটি রিলেশনের যেকোনো অ্যাট্রিবিউট সেট যা টাপলকে ইউনিকলি শনাক্ত করতে পারে তা Super Key। এর মধ্যে থেকে অপ্রয়োজনীয় অ্যাট্রিবিউট বাদ দিলে যে ক্ষুদ্রতম সেট পাওয়া যায় তা Candidate Key।"
+  },
+  {
+    "id": 54,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "একটি টেবিলে একাধিক ক্যান্ডিডেট কি থাকলে যেটিকে মূল শনাক্তকারী হিসেবে বাছাই করা হয় তাকে কী বলে?",
+    "options": [
+      "Secondary Key",
+      "Foreign Key",
+      "Primary Key",
+      "Alternate Key"
+    ],
+    "answer": "গ",
+    "explanation": "ডেটাবেজ ডিজাইনার ক্যান্ডিডেট কি-গুলোর মধ্যে থেকে একটিকে প্রাইমারি কি হিসেবে নির্বাচন করেন। বাকি ক্যান্ডিডেট কি-গুলোকে Alternate Key বলা হয়।"
+  },
+  {
+    "id": 55,
+    "topic": "Relational Model & Relational Algebra",
+    "question": "নিচের কোনটি রিলেশনাল মডেলের মৌলিক ইন্টিগ্রিটি রুল নয়?",
+    "options": [
+      "Operating System Integrity",
+      "Entity Integrity",
+      "Domain Integrity",
+      "Referential Integrity"
+    ],
+    "answer": "ক",
+    "explanation": "রিলেশনাল মডেলের তিনটি কোর ইন্টিগ্রিটি নিয়ম হলো: Entity Integrity, Referential Integrity এবং Domain Integrity।"
+  },
+  {
+    "id": 56,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "যদি একটি রিলেশনে $X$-এর প্রতিটি মানের জন্য $Y$-এর ঠিক একটিই মান নির্ধারিত থাকে, তবে ফাংশনাল ডিপেন্ডেন্সি কীভাবে লেখা হয়?",
+    "options": [
+      "$X \\subset Y$",
+      "$X \\leftrightarrow Y$",
+      "$Y \\to X$",
+      "$X \\to Y$ ($X$ functionally determines $Y$)"
+    ],
+    "answer": "ঘ",
+    "explanation": "$X \\\\to Y$ নির্দেশ করে যে অ্যাট্রিবিউট $X$ দ্বারা $Y$ কার্যকরীভাবে নির্ধারিত (Functionally Determined) হয়। এখানে $X$ হলো নির্ণায়ক (Determinant)।"
+  },
+  {
+    "id": 57,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "আর্মস্ট্রং-এর স্বতঃসিদ্ধের (Armstrong's Axioms) 'ট্রানজিটিভিটি রুল' (Transitivity Rule) কোনটি?",
+    "options": [
+      "If $Y \\subseteq X$, then $X \\to Y$",
+      "If $X \\to Y$ and $Y \\to Z$, then $X \\to Z$",
+      "If $X \\to Y$ and $X \\to Z$, then $X \\to YZ$",
+      "If $X \\to Y$, then $XZ \\to YZ$"
+    ],
+    "answer": "খ",
+    "explanation": "যদি $X$ থেকে $Y$ এবং $Y$ থেকে $Z$ নির্ধারিত হয়, তবে স্বাভাবিকভাবেই $X$ থেকে $Z$ নির্ধারিত হবে ($X \\\\to Z$); এটি Transitivity Rule।"
+  },
+  {
+    "id": 58,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "আর্মস্ট্রং-এর অগমেন্টেশন রুল (Augmentation Rule) কোনটি নির্দেশ করে?",
+    "options": [
+      "If $X \\to Y$, then $XZ \\to YZ$",
+      "If $X \\to YZ$, then $X \\to Y$",
+      "If $X \\to Y$, then $Y \\to X$",
+      "If $XY \\to Z$, then $X \\to Z$"
+    ],
+    "answer": "ক",
+    "explanation": "উভয় পাশে যেকোনো অ্যাট্রিবিউট সেট $Z$ যুক্ত করলে ডিপেন্ডেন্সি বজায় থাকে: $X \\\\to Y \\\\implies XZ \\\\to YZ$।"
+  },
+  {
+    "id": 59,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "যদি $Y \\subseteq X$ হয়, তবে $X \\to Y$ ডিপেন্ডেন্সিকে কী বলা হয়?",
+    "options": [
+      "Transitive Dependency",
+      "Partial Dependency",
+      "Trivial Functional Dependency (তুচ্ছ নির্ভরতা)",
+      "Non-trivial Functional Dependency"
+    ],
+    "answer": "গ",
+    "explanation": "ডানপাশের অ্যাট্রিবিউট যদি বামপাশের অ্যাট্রিবিউট সেটের একটি সাবসেট হয় (যেমন: $AB \\\\to A$), তবে তাকে সর্বদা সত্য বা Trivial Functional Dependency বলে।"
+  },
+  {
+    "id": 60,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "একটি রিলেশন ফার্স্ট নরমাল ফর্মে (1NF) থাকার প্রধান শর্ত কোনটি?",
+    "options": [
+      "কোনো ট্রানজিটিভ ডিপেন্ডেন্সি থাকা যাবে না",
+      "BCNF মেনে চলতে হবে",
+      "সমস্ত কলামকে প্রাইমারি কি হতে হবে",
+      "প্রতিটি কলামের মান অবশ্যই অ্যাটমিক (Atomic / অবিভাজ্য) হতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না"
+    ],
+    "answer": "ঘ",
+    "explanation": "1NF নিশ্চিত করে যে টেবিলে কোনো মাল্টি-ভ্যালুড অ্যাট্রিবিউট বা কম্পোজিট অ্যাট্রিবিউট বা নেস্টেড টেবিল থাকবে না; প্রতিটি সেলে কেবল একটি একক অ্যাটমিক মান থাকবে।"
+  },
+  {
+    "id": 61,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "সেকেন্ড নরমাল ফর্মে (2NF) উত্তীর্ণ হওয়ার জন্য রিলেশনটিতে কোন ধরণের নির্ভরতা থাকা যাবে না?",
+    "options": [
+      "ট্রানজিটিভ নির্ভরতা (Transitive Dependency)",
+      "ট্রাইভিয়াল নির্ভরতা",
+      "আংশিক নির্ভরতা (Partial Dependency)",
+      "মাল্টি-ভ্যালুড নির্ভরতা (Multivalued Dependency)"
+    ],
+    "answer": "গ",
+    "explanation": "2NF-এ থাকার শর্ত: টেবিলটি 1NF-এ থাকবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট ক্যান্ডিডেট কি-র কোনো অংশের ওপর আংশিকভাবে নির্ভরশীল (Partial Dependency) হতে পারবে না।"
+  },
+  {
+    "id": 62,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "নন-প্রাইম অ্যাট্রিবিউট (Non-prime attribute) বলতে কী বোঝায়?",
+    "options": [
+      "যে অ্যাট্রিবিউটটি কোনো ক্যান্ডিডেট কি-র অংশ নয়",
+      "কেবল NULL মান ধারণকারী কলাম",
+      "যে অ্যাট্রিবিউটে মৌলিক সংখ্যা নেই",
+      "Foreign Key অ্যাট্রিবিউট"
+    ],
+    "answer": "ক",
+    "explanation": "যে অ্যাট্রিবিউটগুলো কোনো ক্যান্ডিডেট কি (Candidate Key)-র অন্তর্ভুক্ত থাকে সেগুলোকে Prime Attribute এবং বাকিগুলোকে Non-prime Attribute বলে।"
+  },
+  {
+    "id": 63,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "থার্ড নরমাল ফর্মের (3NF) মূল উদ্দেশ্য কোনটি দূর করা?",
+    "options": [
+      "Join Dependency",
+      "Transitive Dependency (পরোক্ষ বা সংক্রামক নির্ভরতা)",
+      "Multivalued Dependency",
+      "Partial Dependency"
+    ],
+    "answer": "খ",
+    "explanation": "3NF-এ কোনো নন-প্রাইম অ্যাট্রিবিউট অন্য কোনো নন-প্রাইম অ্যাট্রিবিউটের ওপর নির্ভরশীল হতে পারে না ($X \\\\to Y$ হলে $X$ কে অবশ্যই Super Key হতে হবে অথবা $Y$ কে Prime Attribute হতে হবে)।"
+  },
+  {
+    "id": 64,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "BCNF (Boyce-Codd Normal Form)-এর কঠোর শর্ত কোনটি?",
+    "options": [
+      "কেবল 1NF মানলেই BCNF হবে",
+      "টেবিলে সর্বোচ্চ ৩টি কলাম থাকতে পারবে",
+      "$Y$ কে অবশ্যই একটি প্রাইম অ্যাট্রিবিউট হতে হবে",
+      "প্রতিটি নন-ট্রিভিয়াল $X \\to Y$ ডিপেন্ডেন্সিতে $X$ কে অবশ্যই একটি Super Key হতে হবে"
+    ],
+    "answer": "ঘ",
+    "explanation": "BCNF-এ প্রতিটি নন-ট্রিভিয়াল ফাংশনাল ডিপেন্ডেন্সি $X \\\\to Y$-এর জন্য বামপাশের নির্ধারক $X$ কে অবশ্যই সুপার কি হতে হবে। 3NF-এর শিথিলতা ($Y$ প্রাইম হওয়ার সুযোগ) BCNF-এ নেই।"
+  },
+  {
+    "id": 65,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "3NF এবং BCNF-এর সম্পর্কের ক্ষেত্রে নিচের কোন উক্তিটি সর্বদাই সত্য?",
+    "options": [
+      "BCNF এবং 3NF সম্পূর্ণ বিপরীত ধারণার",
+      "3NF সর্বদা লসলেস হয় না",
+      "প্রতিটি BCNF রিলেশনই 3NF, কিন্তু সকল 3NF রিলেশন BCNF নাও হতে পারে",
+      "প্রতিটি 3NF রিলেশনই BCNF"
+    ],
+    "answer": "গ",
+    "explanation": "BCNF হলো 3NF-এর চেয়েও কঠোর একটি রূপ। তাই যেকোনো রিলেশন BCNF হলে তা স্বয়ংক্রিয়ভাবে 3NF হবে, তবে বিপরীতটি সর্বদা সত্য নয়।"
+  },
+  {
+    "id": 66,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "ফোর্থ নরমাল ফর্ম (4NF) কোন ধরণের নির্ভরতা নিরসনের সাথে সম্পর্কিত?",
+    "options": [
+      "Transitive Dependency",
+      "Multivalued Dependency (MVD, $X \\twoheadrightarrow Y$)",
+      "Join Dependency",
+      "Partial Dependency"
+    ],
+    "answer": "খ",
+    "explanation": "4NF মাল্টি-ভ্যালুড ডিপেন্ডেন্সি (MVD) নিরসন করে। যখন একটি টেবিলে দুটি সম্পূর্ণ স্বাধীন বহুমানসম্পন্ন অ্যাট্রিবিউট থাকে তখন ডেটা অপ্রয়োজনীয়ভাবে বৃদ্ধি পায়।"
+  },
+  {
+    "id": 67,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "ফিফথ নরমাল ফর্ম (5NF) অন্য কোন নামে পরিচিত?",
+    "options": [
+      "Project-Join Normal Form (PJ/NF)",
+      "Boyce-Codd Normal Form",
+      "Domain-Key Normal Form (DKNF)",
+      "Strict Normal Form"
+    ],
+    "answer": "ক",
+    "explanation": "5NF কে Project-Join Normal Form (PJNF) বলা হয়, যা Join Dependency নিরসন করে।"
+  },
+  {
+    "id": 68,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "একটি রিলেশন $R(A, B, C)$-কে $R_1(A, B)$ এবং $R_2(B, C)$-তে ডিকম্পোজ করা হলে এটি Lossless-Join হওয়ার প্রয়োজনীয় ও পর্যাপ্ত শর্ত কী?",
+    "options": [
+      "$R_1$ এবং $R_2$ এর সারি সংখ্যা সমান হতে হবে",
+      "$R_1 \\cap R_2 \\to R_1$ অথবা $R_1 \\cap R_2 \\to R_2$ সত্য হতে হবে",
+      "$R_1$ এবং $R_2$ তে কোনো সাধারণ অ্যাট্রিবিউট থাকা যাবে না",
+      "$A \\to C$ হতে হবে"
+    ],
+    "answer": "খ",
+    "explanation": "দুটি সাব-রিলেশনে লসলেস জয়েনের শর্ত হলো তাদের সাধারণ অ্যাট্রিবিউট সেট ($R_1 \\\\cap R_2 = B$) অন্তত একটি সাব-রিলেশনের সুপার কি হতে হবে।"
+  },
+  {
+    "id": 69,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "ডিকম্পোজিশনের পর মূল টেবিলের সকল ফাংশনাল ডিপেন্ডেন্সি সাব-টেবিলগুলোর এফডি থেকে যাচাই করা সম্ভব হলে তাকে কী বলে?",
+    "options": [
+      "Dependency Preservation",
+      "Redundant Decomposition",
+      "Lossless Decomposition",
+      "Minimal Coverage"
+    ],
+    "answer": "ক",
+    "explanation": "Dependency Preservation নিশ্চিত করে যে ডিকম্পোজিশনের পরেও মূল টেবিলের সমস্ত FD সংরক্ষিত আছে এবং কোনো জয়েন ছাড়াই ইন্টিগ্রিটি চেক করা সম্ভব।"
+  },
+  {
+    "id": 70,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "3NF ডিকম্পোজিশন সর্বদা কোন দুটি বৈশিষ্ট্য গ্যারান্টি দেয়?",
+    "options": [
+      "কেবল BCNF রূপান্তর",
+      "কেবল Lossless-Join",
+      "কোনোটিই নয়",
+      "Lossless-Join এবং Dependency Preservation উভয়ই"
+    ],
+    "answer": "ঘ",
+    "explanation": "যেকোনো রিলেশন স্কিমাকে সর্বদা এমনভাবে 3NF-এ ডিকম্পোজ করা সম্ভব যা একই সাথে Lossless-Join এবং Dependency Preserving উভয়ই বজায় রাখে।"
+  },
+  {
+    "id": 71,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "BCNF ডিকম্পোজিশন সর্বদা কোনটি গ্যারান্টি দেয় কিন্তু কখনো কখনো অপরটি হারাতে পারে?",
+    "options": [
+      "Dependency Preservation নিশ্চিত করে কিন্তু Lossless নাও হতে পারে",
+      "উভয়ই হারায়",
+      "Lossless-Join নিশ্চিত করে কিন্তু Dependency Preservation বজায় নাও থাকতে পারে",
+      "কোনো পরিবর্তন হয় না"
+    ],
+    "answer": "গ",
+    "explanation": "BCNF ডিকম্পোজিশন সবসময় Lossless-Join নিশ্চিত করতে পারে, কিন্তু অনেক সময় Dependency Preservation অর্জন করা অসম্ভব হয়ে পড়ে।"
+  },
+  {
+    "id": 72,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "অ্যাট্রিবিউট ক্লোজার (Attribute Closure, $X^+$) বলতে কী বোঝায়?",
+    "options": [
+      "কেবলমাত্র $X$-এর নিজস্ব মান",
+      "$X$ কলামের সর্বোচ্চ মান",
+      "$X$ দ্বারা ফাংশনালি নির্ধারিত হতে পারে এমন সমস্ত অ্যাট্রিবিউটের সেট",
+      "$X$-এর প্রাইমারি কি তালিকা"
+    ],
+    "answer": "গ",
+    "explanation": "$X^+$ হলো এমন সমস্ত অ্যাট্রিবিউটের সেট যা প্রদত্ত FD সেটের সাহায্যে $X$ থেকে বের করা সম্ভব।"
+  },
+  {
+    "id": 73,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "যদি কোনো অ্যাট্রিবিউট সেট $X$-এর ক্লোজার $X^+$ পুরো রিলেশনের সকল অ্যাট্রিবিউট ধারণ করে, তবে $X$ অবশ্যই একটি কী?",
+    "options": [
+      "Nullable Key",
+      "Super Key",
+      "Non-prime attribute",
+      "Foreign Key"
+    ],
+    "answer": "খ",
+    "explanation": "যেহেতু $X$ রিলেশনের সকল অ্যাট্রিবিউট নির্ধারণ করতে পারে, তাই সংজ্ঞা অনুযায়ী $X$ একটি Super Key।"
+  },
+  {
+    "id": 74,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "ক্যানোনিকাল কভার (Canonical Cover বা Minimal Cover) $F_c$-এর বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "এতে কোনো অতিরিক্ত (Extraneous) অ্যাট্রিবিউট বা অপ্রয়োজনীয় FD থাকে না",
+      "এর ক্লোজার মূল সেট $F$-এর ক্লোজারের সমান ($F_c^+ = F^+$)",
+      "প্রতিটি FD-র ডানপাশে ঠিক একটি অ্যাট্রিবিউট থাকে",
+      "উপরের সবগুলো"
+    ],
+    "answer": "ঘ",
+    "explanation": "ক্যানোনিকাল কভার হলো মূল FD সেটের একটি ন্যূনতম সমতুল্য রূপ যাতে কোনো অপ্রয়োজনীয় নির্ভরতা বা অতিরিক্ত অ্যাট্রিবিউট থাকে না।"
+  },
+  {
+    "id": 75,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "একটি রিলেশনে ইনসার্ট, ডিলিট বা আপডেটের সময় অসঙ্গতি দেখা দিলে তাকে কী বলা হয়?",
+    "options": [
+      "Modification Anomaly (অ্যানোমালি)",
+      "Serialization",
+      "Normalization",
+      "Deadlock"
+    ],
+    "answer": "ক",
+    "explanation": "খারাপ ডেটাবেজ ডিজাইনের কারণে ডেটা ঢুকানো, মোছা বা সংশোধনের সময় তৈরি হওয়া ত্রুটিকে যথাক্রমে Insertion, Deletion এবং Update Anomaly বলে।"
+  },
+  {
+    "id": 76,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "উচ্চস্তরের নরমালাইজেশনের প্রধান অপূর্ণতা বা ট্রেড-অফ (Trade-off) কোনটি?",
+    "options": [
+      "ডেটা রিডান্ড্যান্সি বৃদ্ধি পায়",
+      "ডেটা ইনকনসিস্টেন্সি বেড়ে যায়",
+      "স্টোরেজ ক্ষমতা কমে যায়",
+      "কুয়েরি করার সময় অতিরিক্ত Join অপারেশন প্রয়োজন হওয়ায় কুয়েরি এক্সিকিউশন ধীর হতে পারে"
+    ],
+    "answer": "ঘ",
+    "explanation": "নরমালাইজেশনের ফলে টেবিল ভেঙে ছোট ছোট একাধিক টেবিলে পরিণত হয়, যার ফলে রিড কুয়েরির সময় অনেক টেবিল JOIN করতে হয় এবং পারফরম্যান্স ধীর হতে পারে।"
+  },
+  {
+    "id": 77,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "কুয়েরি পারফরম্যান্স ও রিড স্পিড বাড়ানোর লক্ষ্যে ইচ্ছাকৃতভাবে কিছুটা রিডান্ড্যান্সি রাখার প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "De-indexing",
+      "Over-normalization",
+      "Regression",
+      "Denormalization (ডিনরমালাইজেশন)"
+    ],
+    "answer": "ঘ",
+    "explanation": "Data Warehouse বা OLAP সিস্টেমে দ্রুত পড়ার সুবিধার জন্য নরমালাইজড টেবিলগুলোকে আবার একত্রিত করাকে Denormalization বলে।"
+  },
+  {
+    "id": 78,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "ধরা যাক $R(A, B, C, D)$ এবং $FD = \\{A \\to B, B \\to C, C \\to D\\}$। এখানে $A \\to D$ কোন নিয়মে সত্য?",
+    "options": [
+      "Reflexivity",
+      "Transitivity",
+      "Augmentation",
+      "Decomposition"
+    ],
+    "answer": "খ",
+    "explanation": "$A \\\\to B$ এবং $B \\\\to C$ থেকে $A \\\\to C$ পাওয়া যায়, আবার $A \\\\to C$ এবং $C \\\\to D$ থেকে $A \\\\to D$ পাওয়া যায়—এটি Transitivity।"
+  },
+  {
+    "id": 79,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "একটি টেবিলে যদি কেবল একটিই ক্যান্ডিডেট কি থাকে এবং সেটি একক (Non-composite) অ্যাট্রিবিউট হয়, তবে টেবিলটি 1NF হলে স্বয়ংক্রিয়ভাবে কোন নর্মাল ফর্মে থাকবে?",
+    "options": [
+      "2NF",
+      "BCNF",
+      "5NF",
+      "4NF"
+    ],
+    "answer": "ক",
+    "explanation": "ক্যান্ডিডেট কি একক অ্যাট্রিবিউট হলে কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা গাণিতিকভাবে অসম্ভব, ফলে টেবিলটি 1NF হলে অবধারিতভাবেই 2NF হবে।"
+  },
+  {
+    "id": 80,
+    "topic": "Functional Dependencies & Normalization",
+    "question": "নিচের কোন নরমাল ফর্মটিকে ডোমেইন এবং কি ভিত্তিক চূড়ান্ত রূপ (Domain-Key Normal Form) বলা হয়?",
+    "options": [
+      "BCNF",
+      "4NF",
+      "DKNF",
+      "3NF"
+    ],
+    "answer": "গ",
+    "explanation": "DKNF (Domain-Key Normal Form)-এ সমস্ত সীমাবদ্ধতা কেবলমাত্র ডোমেইন এবং কি কনস্ট্রেইন্টের সাহায্যে প্রকাশ করা হয়; এটি তাত্ত্বিক সর্বোচ্চ নরমাল ফর্ম।"
+  },
+  {
+    "id": 81,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL-এ কোনো টেবিলের গঠন পুরোপুরি মুছে ফেলতে কোন DDL কমান্ডটি ব্যবহৃত হয়?",
+    "options": [
+      "TRUNCATE TABLE",
+      "DELETE TABLE",
+      "REMOVE TABLE",
+      "DROP TABLE"
+    ],
+    "answer": "ঘ",
+    "explanation": "DROP TABLE কমান্ড দিয়ে টেবিলের স্কিমা, স্ট্রাকচার ও ডেটা সম্পূর্ণভাবে ডেটা ডিকশনারি থেকে মুছে ফেলা হয়। TRUNCATE বা DELETE কেবল ভেতরের ডেটা মুছে স্ট্রাকচার ঠিক রাখে।"
+  },
+  {
+    "id": 82,
+    "topic": "SQL & Relational Database Systems",
+    "question": "DELETE এবং TRUNCATE কমান্ডের মধ্যে মূল পার্থক্য কী?",
+    "options": [
+      "TRUNCATE রোলব্যাক করা অনেক সহজ",
+      "TRUNCATE হলো DDL কমান্ড, এটি রো-বাই-রো লগ রাখে না এবং DELETE-এর চেয়ে অনেক দ্রুত",
+      "DELETE টেবিলে কোনো WHERE ক্লজ নেয় না",
+      "তাদের মধ্যে কোনো পার্থক্য নেই"
+    ],
+    "answer": "খ",
+    "explanation": "TRUNCATE হলো DDL অপারেশন যা সম্পূর্ণ পেজ ডিলিকেট করে একবারে টেবিল খালি করে ফেলে, এটি লগ কম তৈরি করে এবং অনেক দ্রুত। DELETE হলো DML যা প্রতি রো-র জন্য লগ লেখে।"
+  },
+  {
+    "id": 83,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL এগ্রিগেট ফাংশন ব্যবহারের পর গ্রুপকৃত ডেটার ওপর শর্ত প্রয়োগ করতে কোন ক্লজ ব্যবহৃত হয়?",
+    "options": [
+      "HAVING",
+      "ORDER BY",
+      "WHERE",
+      "GROUP FILTER"
+    ],
+    "answer": "ক",
+    "explanation": "WHERE ক্লজ ব্যক্তিগত রো-র ওপর শর্ত আরোপ করে, আর GROUP BY-এর মাধ্যমে তৈরি হওয়া গ্রুপের এগ্রিগেট ফলের ওপর শর্ত দিতে HAVING ক্লজ ব্যবহৃত হয়।"
+  },
+  {
+    "id": 84,
+    "topic": "SQL & Relational Database Systems",
+    "question": "নিচের কোন এগ্রিগেট ফাংশনটি NULL মানকে উপেক্ষা (Ignore) করে না?",
+    "options": [
+      "AVG(column_name)",
+      "SUM(column_name)",
+      "COUNT(*)",
+      "MAX(column_name)"
+    ],
+    "answer": "গ",
+    "explanation": "COUNT(*) টেবিলের মোট রো সংখ্যা গণনা করে যাতে NULL মান থাকা সারিও অন্তর্ভুক্ত হয়। বাকি সব এগ্রিগেট ফাংশন কলামের NULL মান বাদ দিয়ে হিসাব করে।"
+  },
+  {
+    "id": 85,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL-এ স্ট্রিং প্যাটার্ন ম্যাচিংয়ের জন্য কোন অপারেটর এবং ওয়াইল্ডকার্ড ব্যবহার করা হয়?",
+    "options": [
+      "REGEX এবং #",
+      "MATCH এবং *",
+      "EQUALS এবং ?",
+      "LIKE এবং %, _"
+    ],
+    "answer": "ঘ",
+    "explanation": "SQL-এ LIKE অপারেটরে '%' শূন্য বা ততোধিক অক্ষরের জন্য এবং '_' ঠিক একটি নির্দিষ্ট অক্ষরের জন্য ওয়াইল্ডকার্ড হিসেবে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 86,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL-এ একটি ভার্চুয়াল টেবিল তৈরি করার স্টেটমেন্ট কোনটি?",
+    "options": [
+      "CREATE TABLE ...",
+      "CREATE VIEW ... AS SELECT ...",
+      "CREATE SNAPSHOT ...",
+      "CREATE TEMPORARY ..."
+    ],
+    "answer": "খ",
+    "explanation": "View হলো একটি সংরক্ষিত SQL কুয়েরি ভিত্তিক ভার্চুয়াল টেবিল যা ফিজিক্যালি ডেটা স্টোর করে না কিন্তু টেবিলের মতো অ্যাক্সেস করা যায়।"
+  },
+  {
+    "id": 87,
+    "topic": "SQL & Relational Database Systems",
+    "question": "নিচের কোন ধরণের সাবকুয়েরিটি আউটার কুয়েরির প্রতিটি রো-র জন্য বারবার এক্সিকিউট হয়?",
+    "options": [
+      "Correlated Subquery",
+      "Static Subquery",
+      "Scalar Subquery",
+      "Non-correlated Subquery"
+    ],
+    "answer": "ক",
+    "explanation": "Correlated Subquery আউটার কুয়েরির কলাম রেফারেন্স ব্যবহার করে, ফলে আউটার কুয়েরির প্রতিটি সারির জন্য সাবকুয়েরিটি পুনরাবৃত্তভাবে এক্সিকিউট হয়।"
+  },
+  {
+    "id": 88,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL-এ 'EXISTS' অপারেটর কখন TRUE রিটার্ন করে?",
+    "options": [
+      "যদি কোনো এরর না হয়",
+      "যদি সাবকুয়েরিটি খালি থাকে",
+      "যদি সাবকুয়েরিটি অন্তত একটি রো রিটার্ন করে",
+      "যদি সাবকুয়েরিটি কেবল সংখ্যা দেয়"
+    ],
+    "answer": "গ",
+    "explanation": "EXISTS অপারেটর সাবকুয়েরিতে অন্তত একটি রো পাওয়া গেলেই TRUE রিটার্ন করে এবং সাথে সাথে তল্লাশি বন্ধ করে, যা কুয়েরি দ্রুত করে।"
+  },
+  {
+    "id": 89,
+    "topic": "SQL & Relational Database Systems",
+    "question": "ডেটাবেজে নির্দিষ্ট কোনো ঘটনা (যেমন INSERT, UPDATE, DELETE) ঘটলে স্বয়ংক্রিয়ভাবে কার্যকর হওয়া স্পেশাল প্রসিডিউরকে কী বলে?",
+    "options": [
+      "Database Trigger",
+      "Index",
+      "Stored Procedure",
+      "Cursor"
+    ],
+    "answer": "ক",
+    "explanation": "Trigger হলো ডেটাবেজের সাথে যুক্ত একটি প্রোগ্রাম যা কোনো নির্দিষ্ট DML বা DDL ইভেন্ট ঘটার পূর্বে (BEFORE) বা পরে (AFTER) স্বয়ংক্রিয়ভাবে সক্রিয় (Fire) হয়।"
+  },
+  {
+    "id": 90,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL-এ প্যারেন্ট টেবিলের কোনো রো ডিলিট হলে চাইল্ড টেবিলের সংশ্লিষ্ট রেফারেন্সিং রো-গুলো স্বয়ংক্রিয়ভাবে মুছে যাওয়ার ক্লজ কোনটি?",
+    "options": [
+      "ON DELETE NO ACTION",
+      "ON DELETE SET NULL",
+      "ON DELETE RESTRICT",
+      "ON DELETE CASCADE"
+    ],
+    "answer": "ঘ",
+    "explanation": "Foreign Key সংজ্ঞায় ON DELETE CASCADE ব্যবহার করলে প্যারেন্ট রেকর্ড ডিলিট হলে রেফারেন্স করা সমস্ত চাইল্ড রেকর্ড স্বয়ংক্রিয়ভাবে মুছে যায়।"
+  },
+  {
+    "id": 91,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL-এ Three-Valued Logic-এ NULL-এর সাথে কোনো তুলনার ফলাফল কী হয়?",
+    "options": [
+      "FALSE",
+      "UNKNOWN",
+      "ERROR",
+      "TRUE"
+    ],
+    "answer": "খ",
+    "explanation": "SQL-এ বুলিয়ান লজিক তিনটি মান গ্রহণ করে: TRUE, FALSE এবং UNKNOWN। NULL-এর সাথে কোনো তুলনা ($=, <, >$) করলে ফলাফল UNKNOWN হয়।"
+  },
+  {
+    "id": 92,
+    "topic": "SQL & Relational Database Systems",
+    "question": "কোনো কলামের মান NULL কিনা তা পরীক্ষা করার সঠিক SQL সিনট্যাক্স কোনটি?",
+    "options": [
+      "WHERE salary EQUALS NULL",
+      "WHERE salary == NULL",
+      "WHERE salary IS NULL",
+      "WHERE salary = NULL"
+    ],
+    "answer": "গ",
+    "explanation": "NULL কোনো বাস্তব মান নয় বরং মানের অনুপস্থিতি। তাই `= NULL` কাজ করে না, `IS NULL` বা `IS NOT NULL` ব্যবহার করতে হয়।"
+  },
+  {
+    "id": 93,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL-এ UNION এবং UNION ALL-এর মধ্যে পার্থক্য কী?",
+    "options": [
+      "UNION ALL দ্রুত কাজ করতে পারে না",
+      "UNION শুধুমাত্র একটি টেবিলে চলে",
+      "এদের মধ্যে কোনো পার্থক্য নেই",
+      "UNION ডুপ্লিকেট সারি স্বয়ংক্রিয়ভাবে বাদ দেয়, কিন্তু UNION ALL সকল ডুপ্লিকেট সারি রেখে দেয়"
+    ],
+    "answer": "ঘ",
+    "explanation": "UNION দুটি কুয়েরির ফলাফল একত্রিত করে ডুপ্লিকেট বাদ দেয় (যার জন্য সর্টিং প্রয়োজন হয়), আর UNION ALL কোনো ডুপ্লিকেট ফিল্টার ছাড়াই সরাসরি যুক্ত করে এবং অনেক দ্রুত।"
+  },
+  {
+    "id": 94,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL-এ কলামের মান একটি নির্দিষ্ট সীমার ভেতরে আছে কিনা তা পরীক্ষা করতে কোন অপারেটর ব্যবহৃত হয়?",
+    "options": [
+      "LIMIT",
+      "IN",
+      "BETWEEN ... AND ...",
+      "RANGE"
+    ],
+    "answer": "গ",
+    "explanation": "BETWEEN min_val AND max_val অপারেটর মান অন্তর্ভুক্তমূলকভাবে (inclusive) নির্দিষ্ট রেঞ্জে আছে কিনা পরীক্ষা করে।"
+  },
+  {
+    "id": 95,
+    "topic": "SQL & Relational Database Systems",
+    "question": "নিচের কোন SQL জয়েনটি দুটি টেবিলের কার্টেশিয়ান গুণন (Cartesian Product) ফিরিয়ে দেয়?",
+    "options": [
+      "CROSS JOIN",
+      "FULL OUTER JOIN",
+      "INNER JOIN",
+      "LEFT JOIN"
+    ],
+    "answer": "ক",
+    "explanation": "CROSS JOIN দুটি টেবিলের প্রতিটি সারির সাথে প্রতিটি সারির সংযোগ ঘটিয়ে কার্টেশিয়ান গুণফল প্রদান করে।"
+  },
+  {
+    "id": 96,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL-এ 'Self Join' বলতে কী বোঝায়?",
+    "options": [
+      "ডেটাবেজ নিজে থেকে যে জয়েন করে",
+      "একটি টেবিল যখন নিজের সাথেই Join অপারেশনে অংশ নেয়",
+      "দুটি অভিন্ন নামের টেবিলের জয়েন",
+      "প্রাইমারি কি ছাড়া জয়েন"
+    ],
+    "answer": "খ",
+    "explanation": "যখন একই টেবিল ভিন্ন ভিন্ন অ্যালিয়াস (Alias) ব্যবহার করে নিজের সাথে জয়েন করা হয় (যেমন কর্মচারী ও ম্যানেজারের সম্পর্ক বের করতে), তখন তাকে Self Join বলে।"
+  },
+  {
+    "id": 97,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL-এ সংরক্ষিত কোড ব্লক যা ইনপুট প্যারামিটার নিয়ে কাজ করতে পারে এবং বারবার কল করা যায় তাকে কী বলে?",
+    "options": [
+      "View",
+      "Index",
+      "Stored Procedure",
+      "Schema"
+    ],
+    "answer": "গ",
+    "explanation": "Stored Procedure হলো ডেটাবেজে সংকলিত ও সংরক্ষিত এক বা একাধিক SQL স্টেটমেন্টের গ্রুপ যা প্যারামিটার গ্রহণ করতে পারে এবং অ্যাপ্লিকেশন থেকে সহজেই এক্সিকিউট করা যায়।"
+  },
+  {
+    "id": 98,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL ইনজেকশন (SQL Injection) আক্রমণ প্রতিহত করার সর্বোত্তম উপায় কোনটি?",
+    "options": [
+      "পোর্টেবল ডেটাবেজ ব্যবহার করা",
+      "ডেটাবেজ পাসওয়ার্ড ছোট রাখা",
+      "ডাইনামিক স্ট্রিং কনক্যাটেনেশন ব্যবহার করা",
+      "প্যারামিটারাইজড কুয়েরি বা প্রিপেয়ার্ড স্টেটমেন্ট (Prepared Statements) ব্যবহার করা"
+    ],
+    "answer": "ঘ",
+    "explanation": "Prepared Statement বা Parameterized Query ডেটা এবং কোডকে আলাদা রাখে, ফলে ব্যবহারকারীর ক্ষতিকর ইনপুট এক্সিকিউটেবল কোড হিসেবে রান করতে পারে না।"
+  },
+  {
+    "id": 99,
+    "topic": "SQL & Relational Database Systems",
+    "question": "একটি SQL কুয়েরির ফলাফল থেকে শীর্ষ ৫টি রো দেখার জন্য স্ট্যান্ডার্ড ক্লজ কোনটি?",
+    "options": [
+      "FIRST 5",
+      "TOP 5 অথবা LIMIT 5",
+      "MAX 5",
+      "STOP 5"
+    ],
+    "answer": "খ",
+    "explanation": "MySQL/PostgreSQL-এ `LIMIT 5` এবং SQL Server-এ `SELECT TOP 5` ব্যবহার করে নির্দিষ্ট সংখ্যক সারি আনা হয়।"
+  },
+  {
+    "id": 100,
+    "topic": "SQL & Relational Database Systems",
+    "question": "SQL-এ ডেটাবেজের কোনো কলামের উপর বিশেষ শর্ত (যেমন age >= 18) আরোপ করতে কোন কনস্ট্রেইন্ট ব্যবহৃত হয়?",
+    "options": [
+      "CHECK",
+      "DEFAULT",
+      "FOREIGN KEY",
+      "UNIQUE"
+    ],
+    "answer": "ক",
+    "explanation": "CHECK কনস্ট্রেইন্ট কোনো কলামে প্রবেশের সময় নির্দিষ্ট লজিক্যাল এক্সপ্রেশন বা শর্ত পূরণ নিশ্চিত করে।"
+  },
+  {
+    "id": 101,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "অবজেক্ট-ওরিয়েন্টেড ডেটাবেজে (OODBMS) প্রতিটি অবজেক্টকে সিস্টেম-ব্যাপী স্বতন্ত্রভাবে শনাক্ত করার জন্য কী ব্যবহৃত হয়?",
+    "options": [
+      "Surrogate Key",
+      "Object Identifier (OID)",
+      "Primary Key",
+      "Foreign Key"
+    ],
+    "answer": "খ",
+    "explanation": "OODBMS-এ প্রতিটি অবজেক্টের একটি ইউনিক, ইমিউটেবল এবং সিস্টেম-জেনারেটেড শনাক্তকারী থাকে যাকে OID (Object Identifier) বলা হয়। এটি অবজেক্টের ভেতরের ডেটা মানের ওপর নির্ভর করে না।"
+  },
+  {
+    "id": 102,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "রিলেশনাল মডেলের তুলনায় অবজেক্ট-ওরিয়েন্টেড মডেলের প্রধান সুবিধা কোনটি?",
+    "options": [
+      "কোনো কুয়েরি ভাষার প্রয়োজন হয় না",
+      "টেবিলে কোনো রো থাকে না",
+      "জটিল ও নেস্টেড ডেটা স্ট্রাকচার (যেমন CAD, GIS, মাল্টিমিডিয়া) সহজেই হ্যান্ডেল করা যায়",
+      "রিলেশনাল মডেলের চেয়ে গাণিতিক ভিত্তি সহজ"
+    ],
+    "answer": "গ",
+    "explanation": "OODBMS জটিল অবজেক্ট, হায়ারার্কিক্যাল সম্পর্ক এবং নন-অ্যাটমিক ডেটা সহজে সাপোর্ট করে যা ট্রেডিশনাল RDBMS-এর ফার্স্ট নরমাল ফর্মের সীমাবদ্ধতায় কঠিন।"
+  },
+  {
+    "id": 103,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "অবজেক্ট-ওরিয়েন্টেড ডেটাবেজে ডেটা এবং সেই ডেটা ম্যানিপুলেট করার ফাংশন/মেথড একসাথে ক্যাপসুল আকারে রাখার নীতিকে কী বলে?",
+    "options": [
+      "Persistence",
+      "Polymorphism",
+      "Inheritance",
+      "Encapsulation"
+    ],
+    "answer": "ঘ",
+    "explanation": "Encapsulation অবজেক্টের অভ্যন্তরীণ গঠন লুকিয়ে রাখে এবং শুধুমাত্র অনুমোদিত মেথডের মাধ্যমে স্টেট পরিবর্তনের সুযোগ দেয়।"
+  },
+  {
+    "id": 104,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "ঐতিহ্যবাহী রিলেশনাল ডেটাবেজের উপর অবজেক্ট-ওরিয়েন্টেড ফিচার (যেমন ইউজার-ডিফাইন্ড টাইপ, ইনহেরিটেন্স) যুক্ত করে তৈরি করা হাইব্রিড সিস্টেমকে কী বলে?",
+    "options": [
+      "Object-Relational DBMS (ORDBMS)",
+      "Network DBMS",
+      "Flat File System",
+      "Hierarchical DBMS"
+    ],
+    "answer": "ক",
+    "explanation": "ORDBMS (যেমন PostgreSQL, Oracle) হলো এমন একটি ব্যবস্থা যা রিলেশনাল মডেলের টেবিল ও SQL-এর সুবিধাকে অবজেক্ট-ওরিয়েন্টেড ক্ষমতার সাথে সমন্বিত করে।"
+  },
+  {
+    "id": 105,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "SQL:1999 স্ট্যান্ডার্ডে জটিল অবজেক্ট সাপোর্ট করার জন্য নিচের কোন স্ট্রাকচার্ড কালেকশন টাইপ অন্তর্ভুক্ত করা হয়েছে?",
+    "options": [
+      "POINTER এবং STACK",
+      "QUEUE এবং HEAP",
+      "TREE এবং GRAPH",
+      "ARRAY এবং MULTISET"
+    ],
+    "answer": "ঘ",
+    "explanation": "SQL:1999 এবং পরবর্তী সংস্করণে নন-অ্যাটমিক কালেকশন হিসেবে ARRAY এবং MULTISET টাইপ যুক্ত করে অবজেক্ট-রিলেশনাল মডেল সমৃদ্ধ করা হয়েছে।"
+  },
+  {
+    "id": 106,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "অবজেক্ট ডেটাবেজ ম্যানেজমেন্ট গ্রুপ (ODMG) কর্তৃক প্রস্তাবিত কুয়েরি ভাষার নাম কী?",
+    "options": [
+      "O-SQL",
+      "OOPL",
+      "OQL (Object Query Language)",
+      "ODQL"
+    ],
+    "answer": "গ",
+    "explanation": "ODMG স্ট্যান্ডার্ড অনুযায়ী অবজেক্ট-ওরিয়েন্টেড ডেটাবেজে কুয়েরি করার জন্য OQL (Object Query Language) ডিজাইন করা হয়েছিল যা SQL-এর সমতুল্য।"
+  },
+  {
+    "id": 107,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "ডেটাবেজ অবজেক্টের 'Persistence' বলতে কী বোঝায়?",
+    "options": [
+      "ইনডেক্স তৈরি না করা",
+      "প্রোগ্রাম বা প্রসেস টার্মিনেট হওয়ার পরেও ডিস্কে অবজেক্টের অস্তিত্ব অক্ষুণ্ণ থাকা",
+      "অবজেক্টের নাম পরিবর্তন না হওয়া",
+      "প্রোগ্রাম চলাকালীন মেমরিতে দ্রুত ডেটা পাঠানো"
+    ],
+    "answer": "খ",
+    "explanation": "Persistence নির্দেশ করে যে অবজেক্টটি যে প্রোগ্রাম তৈরি করেছিল তা বন্ধ হয়ে গেলেও অবজেক্টটির স্টেট স্থায়ী ডিস্কে সংরক্ষিত থাকে।"
+  },
+  {
+    "id": 108,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "অবজেক্ট-ওরিয়েন্টেড ডেটাবেজে টাইপ হায়ারার্কিতে (Type Hierarchy) একটি সাব-টাইপ তার সুপার-টাইপ থেকে বৈশিষ্ট্য পাওয়ার প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "Specialization / Inheritance",
+      "Serialization",
+      "Partitioning",
+      "De-normalization"
+    ],
+    "answer": "ক",
+    "explanation": "Inheritance-এর মাধ্যমে সাব-টাইপ তার অভিভাবক ক্লাসের সমস্ত অ্যাট্রিবিউট ও মেথড স্বয়ংক্রিয়ভাবে লাভ করে এবং অতিরিক্ত নিজস্ব বৈশিষ্ট্য যুক্ত করতে পারে।"
+  },
+  {
+    "id": 109,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "রিলেশনাল ডেটাবেজের সাথে অবজেক্ট প্রোগ্রামিংয়ের অমিলকে কম্পিউটার বিজ্ঞানে কী সমস্যা বলা হয়?",
+    "options": [
+      "Normalization Bottleneck",
+      "Thread Contention",
+      "Schema Drift",
+      "Object-Relational Impedance Mismatch"
+    ],
+    "answer": "ঘ",
+    "explanation": "অবজেক্ট মডেল (ক্লাস, পয়েন্টার, মেথড) এবং রিলেশনাল মডেলের (টেবিল, রো, ফরেন কি) মধ্যে ধারণাগত অমিলকে Impedance Mismatch বলা হয়, যা মেটাতে Hibernate, JPA-র মতো ORM ব্যবহৃত হয়।"
+  },
+  {
+    "id": 110,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "ORDBMS-এ রেফারেন্স টাইপ (Reference Type - REF) মূলত কী কাজে ব্যবহৃত হয়?",
+    "options": [
+      "অন্য কোনো অবজেক্টের OID নির্দেশ বা লিংক করতে",
+      "পাসওয়ার্ড এনক্রিপ্ট করতে",
+      "ভ্যালু কপি করতে",
+      "ডিস্ক পার্টিশন ফরম্যাট করতে"
+    ],
+    "answer": "ক",
+    "explanation": "SQL/ORDBMS-এ `REF` টাইপ একটি নির্দিষ্ট টাইপড টেবিলের অবজেক্টের লজিক্যাল OID ধারণ করে রিলেশনাল পয়েন্টারের মতো কাজ করে।"
+  },
+  {
+    "id": 111,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "ODMG অবজেক্ট মডেলে 'Literal' এবং 'Object'-এর মধ্যে প্রধান পার্থক্য কী?",
+    "options": [
+      "Object-এর কোনো টাইপ থাকে না",
+      "Object কোনো মেথড সাপোর্ট করে না",
+      "Literal-এর নিজস্ব কোনো OID থাকে না, কেবল ভ্যালু থাকে",
+      "Literal কখনো মেমরিতে সংরক্ষিত হয় না"
+    ],
+    "answer": "গ",
+    "explanation": "ODMG-তে Object-এর একটি অনন্য আইডেন্টিফায়ার (OID) থাকে, কিন্তু Literal (যেমন পূর্ণসংখ্যা, স্ট্রিং) হলো অপরিবর্তনীয় মান যার কোনো স্বতন্ত্র OID থাকে না।"
+  },
+  {
+    "id": 112,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "পোস্টগ্রেসকুয়েল (PostgreSQL)-এ ইউজার চাইলে নিজস্ব ডেটা টাইপ এবং ফাংশন তৈরি করতে পারে। এটি কোন মডেলের প্রমাণ?",
+    "options": [
+      "Flat File",
+      "Object-Relational DBMS (ORDBMS)",
+      "Hierarchical DBMS",
+      "Pure RDBMS"
+    ],
+    "answer": "খ",
+    "explanation": "PostgreSQL একটি উন্নত ওপেন সোর্স ORDBMS যা কাস্টম টাইপ, ইনহেরিটেন্স, অপারেটর ওভারলোডিং এবং মেথড সাপোর্ট করে।"
+  },
+  {
+    "id": 113,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "XML এবং JSON ডেটা স্টোর ও কুয়েরি করার ক্ষমতা কোন ধরণের ডেটাবেজ এক্সটেনশনে বেশি ব্যবহৃত হয়?",
+    "options": [
+      "নেটওয়ার্ক মডেল",
+      "আধুনিক ORDBMS এবং NoSQL/Document স্টোর",
+      "কেবল অ্যাসেম্বলি ল্যাঙ্গুয়েজ সিস্টেমে",
+      "প্রথম প্রজন্মের ফাইল সিস্টেম"
+    ],
+    "answer": "খ",
+    "explanation": "আধুনিক ORDBMS (যেমন PostgreSQL-এর JSONB) এবং ডকুমেন্ট স্টোর সেমি-স্ট্রাকচার্ড ডেটা প্রক্রিয়াকরণে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 114,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "OODBMS-এ একাধিক বিভিন্ন ক্লাসের অবজেক্টে একই নামের মেথড কল করলে ভিন্ন ভিন্ন আচরণ করার ক্ষমতাকে কী বলে?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Polymorphism",
+      "Normalization"
+    ],
+    "answer": "গ",
+    "explanation": "Polymorphism (বহুরূপতা) রানটাইমে সঠিক মেথড ডিসপ্যাচ করে বিভিন্ন অবজেক্টের জন্য উপযুক্ত কাজ সম্পাদন করে।"
+  },
+  {
+    "id": 115,
+    "topic": "Object-Oriented & Object-Relational Databases",
+    "question": "OQL (Object Query Language)-এ নেস্টেড স্ট্রাকচারের অ্যাট্রিবিউট অ্যাক্সেস করার জন্য কোন অপারেটর ব্যবহৃত হয়?",
+    "options": [
+      "ডট (.) বা অ্যারো (->) অপারেটর",
+      "ডলার ($)",
+      "কোলন (:)",
+      "হ্যাশ (#)"
+    ],
+    "answer": "ক",
+    "explanation": "অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিংয়ের মতোই OQL-এ পাথ এক্সপ্রেশনে ডট (.) বা অ্যারো (->) ব্যবহার করে অবজেক্টের অভ্যন্তরীণ অ্যাট্রিবিউট বা সম্পর্কিত অবজেক্টে পৌঁছানো হয়।"
+  },
+  {
+    "id": 116,
+    "topic": "Indexing & Hashing",
+    "question": "ডেটা ফাইলের প্রতি রেকর্ডের জন্য ইনডেক্স ফাইলে একটি করে এন্ট্রি থাকলে সেই ইনডেক্সকে কী বলা হয়?",
+    "options": [
+      "Sparse Index (বিরল ইনডেক্স)",
+      "Hash Index",
+      "Secondary Index",
+      "Dense Index (ঘন ইনডেক্স)"
+    ],
+    "answer": "ঘ",
+    "explanation": "Dense Index-এ মূল ফাইলের প্রতিটি সার্চ কি মানের জন্য ইনডেক্স টেবিলে আলাদা এন্ট্রি থাকে। আর Sparse Index-এ কেবল প্রতিটি ব্লকের প্রথম রেকর্ডের এন্ট্রি থাকে।"
+  },
+  {
+    "id": 117,
+    "topic": "Indexing & Hashing",
+    "question": "মূল ডেটা ফাইলটি যে সার্চ-কি অর্ডারে ফিজিক্যালি ডিস্কে সাজানো থাকে, সেই কি-র ওপর তৈরি ইনডেক্সকে কী বলে?",
+    "options": [
+      "Non-clustering Index",
+      "Clustering Index বা Primary Index",
+      "Secondary Index",
+      "Bitmap Index"
+    ],
+    "answer": "খ",
+    "explanation": "যে ইনডেক্স সার্চ-কি মূল ডেটা ফাইলের ফিজিক্যাল সিকোয়েন্সের সাথে হুবহু মিলে যায় তাকে ক্লাস্টারিং বা প্রাইমারি ইনডেক্স বলে। একটি টেবিলে সর্বোচ্চ একটিই ক্লাস্টার্ড ইনডেক্স থাকতে পারে।"
+  },
+  {
+    "id": 118,
+    "topic": "Indexing & Hashing",
+    "question": "B+ Tree ডেটা স্ট্রাকচার ডেটাবেজ ইনডেক্সিংয়ের জন্য B-Tree-র চেয়ে বেশি জনপ্রিয় হওয়ার প্রধান কারণ কোনটি?",
+    "options": [
+      "B+ Tree-তে কোনো ব্যালেন্সিং প্রয়োজন হয় না",
+      "B+ Tree-তে কোনো রুট নোড থাকে না",
+      "সমস্ত বাস্তব ডেটা পয়েন্টার কেবল লিফ নোডে (Leaf Nodes) থাকে এবং লিফ নোডগুলো পরস্পরের সাথে লিংকড লিস্ট দ্বারা যুক্ত থাকায় রেঞ্জ কুয়েরি অত্যন্ত দ্রুত হয়",
+      "B+ Tree-র উচ্চতা B-Tree-র চেয়ে অনেক বেশি হয়"
+    ],
+    "answer": "গ",
+    "explanation": "B+ Tree-র অভ্যন্তরীণ নোডে কেবল সার্চ কি থাকে (ডেটা রেকর্ড থাকে না), ফলে ফ্যান-আউট বেশি হয় এবং গাছ কম গভীর হয়। লিফ নোডগুলো ডাবল-লিংকড লিস্ট দিয়ে যুক্ত থাকায় রেঞ্জ কুয়েরি ($k_1 \\le x \\le k_2$) অত্যন্ত দক্ষ।"
+  },
+  {
+    "id": 119,
+    "topic": "Indexing & Hashing",
+    "question": "অর্ডার $p$ বিশিষ্ট একটি B+ Tree-র প্রতিটি নন-রুট অভ্যন্তরীণ নোডে সর্বনিম্ন কতগুলো চাইল্ড পয়েন্টার থাকতে হবে?",
+    "options": [
+      "$p/4$",
+      "$1$",
+      "$p-1$",
+      "$\\lceil p/2 \\rceil$"
+    ],
+    "answer": "ঘ",
+    "explanation": "B+ Tree-তে প্রতিটি নন-রুট ইন্টারনাল নোডে ন্যূনতম চাইল্ড সংখ্যা $\\\\lceil p/2 \\\\rceil$ এবং সর্বোচ্চ $p$ টি চাইল্ড থাকতে পারে। এটি ট্রি-র ব্যালেন্স বজায় রাখে।"
+  },
+  {
+    "id": 120,
+    "topic": "Indexing & Hashing",
+    "question": "একটি B+ Tree-তে $N$ সংখ্যক রেকর্ড থাকলে যেকোনো রেকর্ড খোঁজার সময় জটিলতা (Search Time Complexity) কত?",
+    "options": [
+      "$O(\\log_B N)$",
+      "$O(1)$",
+      "$O(N \\log N)$",
+      "$O(N)$"
+    ],
+    "answer": "ক",
+    "explanation": "B+ Tree সম্পূর্ণ ব্যালেন্সড ট্রি এবং এর ব্রাঞ্চিং ফ্যাক্টর (ফ্যান-আউট) $B$ অনেক বড় হওয়ায় এর অনুসন্ধান সময় $O(\\\\log_B N)$, যা সাধারণ বাইনারি ট্রির চেয়ে অনেক দ্রুত।"
+  },
+  {
+    "id": 121,
+    "topic": "Indexing & Hashing",
+    "question": "স্ট্যাটিক হ্যাশিংয়ে (Static Hashing) যদি একটি বাকেটে (Bucket) নতুন রেকর্ড ঢোকানোর জায়গা না থাকে, তখন কী ঘটে?",
+    "options": [
+      "Bucket Overflow (ওভারফ্লো চেইনিং প্রয়োজন হয়)",
+      "রেকর্ডটি বাদ পড়ে যায়",
+      "হ্যাশ ফাংশন বদলে যায়",
+      "স্বয়ংক্রিয়ভাবে পুরো ডেটাবেজ ফরম্যাট হয়ে যায়"
+    ],
+    "answer": "ক",
+    "explanation": "বাকেট ধারণক্ষমতা অতিক্রম করলে বাকেট ওভারফ্লো ঘটে, যা সামলাতে ওভারফ্লো বাকেট লিঙ্ক করা হয় (Overflow Chaining)।"
+  },
+  {
+    "id": 122,
+    "topic": "Indexing & Hashing",
+    "question": "এক্সটেন্ডিবল হ্যাশিং (Extendible Hashing)-এ বাকেট বিভাজনের সময় বাকেটের কোন প্যারামিটারটি ১ বৃদ্ধি পায়?",
+    "options": [
+      "Modulo Count",
+      "Local Depth ($d'$)",
+      "Global Depth",
+      "Hash Index Factor"
+    ],
+    "answer": "খ",
+    "explanation": "এক্সটেন্ডিবল হ্যাশিংয়ে ওভারফ্লো হওয়া বাকেটের Local Depth এক বাড়ে ($d' + 1$)। যদি নতুন লোকাল ডেপথ গ্লোবাল ডেপথ ($d$) এর চেয়ে বড় হয়ে যায়, তবে ডিরেক্টরি দ্বিগুণ হয়ে গ্লোবাল ডেপথও বৃদ্ধি পায়।"
+  },
+  {
+    "id": 123,
+    "topic": "Indexing & Hashing",
+    "question": "এক্সটেন্ডিবল হ্যাশিং ডিরেক্টরির গ্লোবাল ডেপথ $d$ হলে ডিরেক্টরিতে মোট এন্ট্রির সংখ্যা কত?",
+    "options": [
+      "$d^2$",
+      "$d$",
+      "$2 \\times d$",
+      "$2^d$"
+    ],
+    "answer": "ঘ",
+    "explanation": "গ্লোবাল ডেপথ $d$ নির্দেশ করে হ্যাশ ভ্যালুর প্রথম $d$-টি বিট ডিরেক্টরি ইনডেক্সিংয়ে ব্যবহৃত হচ্ছে, ফলে মোট ডিরেক্টরি সাইজ হয় $2^d$।"
+  },
+  {
+    "id": 124,
+    "topic": "Indexing & Hashing",
+    "question": "লিনিয়ার হ্যাশিং (Linear Hashing) এবং এক্সটেন্ডিবল হ্যাশিংয়ের মধ্যে মূল পার্থক্য কোনটি?",
+    "options": [
+      "এক্সটেন্ডিবল হ্যাশিংয়ে হ্যাশ ফাংশন লাগে না",
+      "লিনিয়ার হ্যাশিং রেঞ্জ কুয়েরি সাপোর্ট করে",
+      "লিনিয়ার হ্যাশিংয়ে কোনো অতিরিক্ত ডিরেক্টরি (Directory-less) লাগে না এবং বাকেটগুলো ক্রমানুসারে বিভক্ত হয়",
+      "এদের মধ্যে কোনো পার্থক্য নেই"
+    ],
+    "answer": "গ",
+    "explanation": "লিনিয়ার হ্যাশিং একটি ডিরেক্টরিবিহীন ডাইনামিক হ্যাশিং কৌশল যেখানে ওভারফ্লো বাকেট যুক্ত হলে একটি নির্দিষ্ট পয়েন্টার ($p$) অনুযায়ী ক্রমান্বয়ে পরবর্তী বাকেট বিভক্ত হয়।"
+  },
+  {
+    "id": 125,
+    "topic": "Indexing & Hashing",
+    "question": "হ্যাশ ইনডেক্সিং কোন ধরণের কুয়েরির জন্য অত্যন্ত কার্যকরী কিন্তু কোন ধরণের কুয়েরির জন্য অকার্যকর?",
+    "options": [
+      "রেঞ্জ কুয়েরির জন্য সেরা, কিন্তু পয়েন্ট কুয়েরিতে অকার্যকর",
+      "সর্টিং করার জন্য সেরা",
+      "পয়েন্ট কুয়েরি (Exact match, $key = val$) এর জন্য $O(1)$ সেরা, কিন্তু রেঞ্জ কুয়েরির ($k_1 \\le x \\le k_2$) জন্য সম্পূর্ণ অকার্যকর",
+      "উভয় কুয়েরির জন্যই সমান কার্যকরী"
+    ],
+    "answer": "গ",
+    "explanation": "হ্যাশিং গাণিতিক সূত্রে সরাসরি ঠিকানা বের করে তাই সমতার কুয়েরিতে $O(1)$ গতি দেয়। তবে ডেটা ক্রমানুসারে সাজানো থাকে না বলে রেঞ্জ কুয়েরিতে ফুল টেবিল স্ক্যান করতে হয়।"
+  },
+  {
+    "id": 126,
+    "topic": "Indexing & Hashing",
+    "question": "মাল্টি-লেভেল ইনডেক্সিংয়ের সবচেয়ে ভেতরের বা নিচের লেভেলটি সাধারণত কী ধরণের ইনডেক্স হয়?",
+    "options": [
+      "B+ Tree Root",
+      "Primary Dense Index",
+      "Primary Sparse Index",
+      "Secondary Non-key Index"
+    ],
+    "answer": "খ",
+    "explanation": "মাল্টিলেভেল ইনডেক্সে প্রথম স্তরটি সাধারণত বেস ডেটা ফাইলের ওপর Dense Index থাকে এবং পরবর্তী উচ্চ স্তরগুলো Sparse Index হিসেবে সেই ইনডেক্স ফাইলের ওপর কাজ করে।"
+  },
+  {
+    "id": 127,
+    "topic": "Indexing & Hashing",
+    "question": "বিটম্যাপ ইনডেক্সিং (Bitmap Indexing) কোন ধরণের কলামের জন্য সবচেয়ে বেশি উপযোগী?",
+    "options": [
+      "নিম্ন কার্ডিনালিটি বিশিষ্ট কলাম (Low Cardinality, যেমন জেন্ডার, বৈবাহিক অবস্থা, রক্তের গ্রুপ)",
+      "দীর্ঘ টেক্সট বা প্যারাগ্রাফ কলাম",
+      "অত্যন্ত উচ্চ কার্ডিনালিটি বিশিষ্ট কলাম (যেমন ন্যাশনাল আইডি, ফোন নম্বর)",
+      "ভাসমান দশমিক সংখ্যা"
+    ],
+    "answer": "ক",
+    "explanation": "যেসব কলামে মাত্র কয়েকটি স্বতন্ত্র মান থাকে (Low Cardinality), সেগুলোতে বিট অ্যারে (০ এবং ১) দিয়ে তৈরি Bitmap Index অত্যন্ত কম জায়গা নেয় এবং দ্রুত বিটওয়াইজ AND/OR কুয়েরি সম্পন্ন করে।"
+  },
+  {
+    "id": 128,
+    "topic": "Indexing & Hashing",
+    "question": "একটি টেবিলের একাধিক কলামের ওপর যৌথভাবে তৈরি করা ইনডেক্সকে কী বলা হয়?",
+    "options": [
+      "Clustered Index",
+      "Hash Index",
+      "Sparse Index",
+      "Composite Index বা Concatenated Index"
+    ],
+    "answer": "ঘ",
+    "explanation": "যখন দুটি বা ততোধিক কলামকে একসাথে নিয়ে একটি ইনডেক্স তৈরি করা হয় (যেমন `CREATE INDEX idx ON emp(dept_id, salary)`), তাকে Composite বা Compound Index বলে।"
+  },
+  {
+    "id": 129,
+    "topic": "Indexing & Hashing",
+    "question": "B-Tree-র প্রতিটি নোডে কি এবং চাইল্ড পয়েন্টারের সংখ্যার সম্পর্ক কী?",
+    "options": [
+      "নোডে $k$ টি কি থাকলে চাইল্ড পয়েন্টার থাকবে $k+1$ টি",
+      "কোনো নির্দিষ্ট সম্পর্ক নেই",
+      "নোডে $k$ টি কি থাকলে চাইল্ড পয়েন্টার থাকবে $k$ টি",
+      "নোডে $k$ টি কি থাকলে চাইল্ড পয়েন্টার থাকবে $2k$ টি"
+    ],
+    "answer": "ক",
+    "explanation": "সার্চ কি ভ্যালুগুলো চাইল্ড পয়েন্টারগুলোর মাঝখানে বিভাজক হিসেবে থাকে, তাই $k$ টি কী-র জন্য ঠিক $k+1$ টি সাব-ট্রি পয়েন্টার থাকে।"
+  },
+  {
+    "id": 130,
+    "topic": "Indexing & Hashing",
+    "question": "হ্যাশ ফাংশনের আদর্শ বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "আউটপুট সাইজ সীমাহীন বড় হওয়া",
+      "প্রতিটি কলের জন্য আলাদা ফল দেওয়া",
+      "সমস্ত কি-কে একই বাকেটে পাঠানো",
+      "কি-গুলোকে সমস্ত বাকেটের মধ্যে সমানভাবে (Uniform Distribution) ও দৈবচয়নভাবে (Random Distribution) বণ্টন করা"
+    ],
+    "answer": "ঘ",
+    "explanation": "একটি ভালো হ্যাশ ফাংশন সমস্ত সার্চ কি ভ্যালুকে বাকেট রেঞ্জের ওপর সমানভাবে ও সুষমভাবে ছড়িয়ে দেয় যেন বাকেট ওভারফ্লো ও কোলিশন সর্বনিম্ন থাকে।"
+  },
+  {
+    "id": 131,
+    "topic": "Indexing & Hashing",
+    "question": "সেকেন্ডারি ইনডেক্স (Secondary Index) সর্বদা কোন ধরণের ইনডেক্স হতে বাধ্য?",
+    "options": [
+      "Sparse Index",
+      "Non-unique Index",
+      "Dense Index",
+      "Dynamic Hash Index"
+    ],
+    "answer": "গ",
+    "explanation": "যেহেতু সেকেন্ডারি ইনডেক্সের কি অনুযায়ী ডেটা ফাইল ফিজিক্যালি সর্ট করা থাকে না, তাই প্রতিটি রেকর্ডের সঠিক অবস্থান নিশ্চিত করতে এটি অবশ্যই Dense Index হতে হয়।"
+  },
+  {
+    "id": 132,
+    "topic": "Indexing & Hashing",
+    "question": "B+ Tree-তে নতুন কি ইনসার্ট করার সময় লিফ নোড পূর্ণ থাকলে কী ঘটে?",
+    "options": [
+      "পুরোনো কি স্বয়ংক্রিয়ভাবে ডিলিট হয়ে যায়",
+      "নোডটি স্প্লিট (Split) হয়ে দুটি নোডে বিভক্ত হয় এবং মাঝের কী-র কপি প্যারেন্ট নোডে পাঠানো হয়",
+      "ট্রি-র উচ্চতা প্রতিবার দ্বিগুণ হয়",
+      "ইনসার্ট অপারেশন বন্ধ হয়ে যায়"
+    ],
+    "answer": "খ",
+    "explanation": "নোড পূর্ণ হলে নোডটিকে অর্ধেক করে দুটি নতুন নোড তৈরি করা হয় এবং বিভক্তকারী কী-র একটি কপি প্যারেন্ট নোডে পুশ আপ করা হয়।"
+  },
+  {
+    "id": 133,
+    "topic": "Indexing & Hashing",
+    "question": "কোনো কুয়েরি যদি টেবিলের ডেটা ব্লকে না গিয়ে কেবলমাত্র ইনডেক্স থেকেই সমস্ত কাঙ্ক্ষিত কলামের উত্তর দিয়ে দিতে পারে, তবে সেই ইনডেক্সকে কী বলে?",
+    "options": [
+      "Bitmap Index",
+      "Covering Index",
+      "Dense Index",
+      "Primary Index"
+    ],
+    "answer": "খ",
+    "explanation": "Covering Index এমন একটি ইনডেক্স যাতে কুয়েরির SELECT এবং WHERE ক্লজের সমস্ত কলাম বিদ্যমান থাকে, ফলে মূল টেবিলে ডিস্ক I/O এক্সেসের প্রয়োজন হয় না।"
+  },
+  {
+    "id": 134,
+    "topic": "Indexing & Hashing",
+    "question": "অতিরিক্ত ইনডেক্স তৈরির প্রধান নেতিবাচক দিক (Drawback) কোনটি?",
+    "options": [
+      "SELECT কুয়েরি ধীর হয়",
+      "ব্যাকআপ নেওয়া অসম্ভব হয়ে পড়ে",
+      "INSERT, UPDATE, DELETE অপারেশনের সময় প্রতিবার ইনডেক্স আপডেট করতে হয় বিধায় রাইট পারফরম্যান্স কমে যায় এবং অতিরিক্ত ডিস্ক স্পেস লাগে",
+      "ডেটাবেজ লক হয়ে যায়"
+    ],
+    "answer": "গ",
+    "explanation": "ইনডেক্স রিড অপারেশন দ্রুত করলেও প্রতিবার ডেটা মডিফিকেশনের (DML) সময় সংশ্লিষ্ট সকল ইনডেক্স ট্রি আপডেট ও রি-ব্যালেন্স করতে হয়, যা রাইট পারফরম্যান্সে ওভারহেড তৈরি করে।"
+  },
+  {
+    "id": 135,
+    "topic": "Indexing & Hashing",
+    "question": "একটি B+ Tree-র উচ্চতা (Height) বৃদ্ধি পায় কখন?",
+    "options": [
+      "যখন রুট নোডটি স্প্লিট হয়ে দুটি নোড তৈরি করে এবং তাদের উপরে একটি নতুন রুট নোড যুক্ত হয়",
+      "প্রতি ১০০টি ইনসার্টেশনের পর",
+      "যখন ডেটা ডিলিট করা হয়",
+      "প্রতিবার যেকোনো লিফ নোড বিভক্ত হলে"
+    ],
+    "answer": "ক",
+    "explanation": "B+ Tree সর্বদা নিচ থেকে উপরের দিকে বৃদ্ধি পায়। যখন সর্বোচ্চ রুট নোড উপচে গিয়ে স্প্লিট হয়, তখনই কেবল ট্রি-র উচ্চতা ১ স্তর বৃদ্ধি পায়।"
+  },
+  {
+    "id": 136,
+    "topic": "Query Processing & Optimization",
+    "question": "DBMS-এ কুয়েরি প্রসেসিংয়ের প্রধান তিনটি ধাপের সঠিক ক্রম কোনটি?",
+    "options": [
+      "Optimization -> Parsing -> Execution",
+      "Translation -> Indexing -> Scanning",
+      "Evaluation -> Optimization -> Parsing",
+      "Parsing and Translation -> Query Optimization -> Query Execution (Evaluation)"
+    ],
+    "answer": "ঘ",
+    "explanation": "প্রথমে SQL পার্স ও সিনট্যাক্স চেক করে রিলেশনাল অ্যালজেবরা এক্সপ্রেশনে রূপান্তর করা হয়, তারপর অপটিমাইজার সবচেয়ে কম খরচের এক্সিকিউশন প্ল্যান তৈরি করে এবং পরিশেষে ইঞ্জিন তা রান করে।"
+  },
+  {
+    "id": 137,
+    "topic": "Query Processing & Optimization",
+    "question": "হিউরিস্টিক কুয়েরি অপটিমাইজেশনের (Heuristic Optimization) সবচেয়ে গুরুত্বপূর্ণ সোনালী নিয়ম কোনটি?",
+    "options": [
+      "কার্টেশিয়ান প্রোডাক্ট সবার আগে করা",
+      "সমস্ত জয়েন শেষে ফিল্টারিং করা",
+      "Selection ($\\sigma$) এবং Projection ($\\Pi$) অপারেশনগুলোকে এক্সপ্রেশন ট্রির যতদূর সম্ভব নিচের দিকে পুশ করা (Perform Selection/Projection Early)",
+      "কোনো ইনডেক্স ব্যবহার না করা"
+    ],
+    "answer": "গ",
+    "explanation": "শুরুতেই Selection এবং Projection প্রয়োগ করলে মধ্যবর্তী রিলেশনের আকার (টাপল ও কলাম সংখ্যা) বহুলাংশে হ্রাস পায়, যার ফলে পরবর্তী ব্যয়বহুল জয়েন অপারেশনের খরচ নাটকীয়ভাবে কমে যায়।"
+  },
+  {
+    "id": 138,
+    "topic": "Query Processing & Optimization",
+    "question": "কুয়েরি অপটিমাইজার বিভিন্ন এক্সিকিউশন প্ল্যানের খরচ পরিমাপে মূলত কোন বিষয়টিকে প্রধান উপাদান হিসেবে বিবেচনা করে?",
+    "options": [
+      "ডিস্ক ব্লক এক্সেসের সংখ্যা (Number of Disk Block I/O Operations)",
+      "ইউজারের পাসওয়ার্ড লেন্থ",
+      "কুয়েরির অক্ষরের দৈর্ঘ্য",
+      "ইন্টারনেট ব্রাউজারের স্পিড"
+    ],
+    "answer": "ক",
+    "explanation": "যেহেতু মেমরির তুলনায় সেকেন্ডারি স্টোরেজ (ডিস্ক) এক্সেস হাজার গুণ ধীর, তাই কুয়েরি অপটিমাইজেশন খরচের প্রধানতম মেট্রিক হলো মোট ডিস্ক ব্লক রিড/রাইট সংখ্যা।"
+  },
+  {
+    "id": 139,
+    "topic": "Query Processing & Optimization",
+    "question": "রিলেশন $R$ (যার ব্লক সংখ্যা $B_r$) এবং $S$ (যার ব্লক সংখ্যা $B_s$)। সাধারণ নেস্টেড-লুপ জয়েনে (Nested-Loop Join) সবচেয়ে খারাপ ক্ষেত্রে ডিস্ক ব্লক I/O খরচ কত?",
+    "options": [
+      "$B_r \\times B_s$",
+      "$B_r + B_s$",
+      "$\\log (B_r + B_s)$",
+      "$B_r + |R| \\times B_s$ (যেখানে $|R|$ হলো $R$-এর টাপল সংখ্যা)"
+    ],
+    "answer": "ঘ",
+    "explanation": "সাধারণ টাপল-বেসড নেস্টেড লুপে আউটার রিলেশনের প্রতিটি সারির জন্য পুরো ইনার রিলেশন ডিস্ক থেকে পড়তে হয়, ফলে মোট খরচ দাঁড়ায় $B_r + |R| \\\\times B_s$।"
+  },
+  {
+    "id": 140,
+    "topic": "Query Processing & Optimization",
+    "question": "ব্লক নেস্টেড-লুপ জয়েনে (Block Nested-Loop Join) বাফার মেমরির সুবিধা নিয়ে ব্লক I/O খরচ কমিয়ে কত করা যায়?",
+    "options": [
+      "$B_r + B_r \\times B_s$",
+      "$B_r + \\lceil B_r / (M - 2) \\rceil \\times B_s$ (যেখানে $M$ হলো বাফার ফ্রেম সংখ্যা)",
+      "$B_r + B_s$",
+      "$M \\times (B_r + B_s)$"
+    ],
+    "answer": "খ",
+    "explanation": "ব্লক নেস্টেড লুপে আউটার টেবিলের $M-2$ টি ব্লক একবারে মেমরিতে ক্যাশ করে ইনার টেবিলের সাথে মেলানো হয়, ফলে ইনার টেবিল স্ক্যান করার সংখ্যা বহুলাংশে কমে যায়।"
+  },
+  {
+    "id": 141,
+    "topic": "Query Processing & Optimization",
+    "question": "দুটি রিলেশন যদি তাদের জয়েন অ্যাট্রিবিউটের ওপর পূর্ব থেকেই সর্ট করা থাকে, তবে সবচেয়ে দ্রুততম জয়েন অ্যালগরিদম কোনটি?",
+    "options": [
+      "Nested-Loop Join",
+      "Sort-Merge Join",
+      "Hash Join",
+      "Cartesian Join"
+    ],
+    "answer": "খ",
+    "explanation": "উভয় টেবিল যদি জয়েন কলামের ওপর সাজানো থাকে, তবে Sort-Merge Join প্রতিটি টেবিলকে একবার স্ক্যান করেই ($O(B_r + B_s)$ খরচে) সমস্ত মিল খুঁজে বের করতে পারে।"
+  },
+  {
+    "id": 142,
+    "topic": "Query Processing & Optimization",
+    "question": "অত্যন্ত বৃহৎ টেবিলের ক্ষেত্রে ন্যাচারাল বা ইকুই-জয়েন সম্পন্ন করতে আধুনিক RDBMS-এ কোন অ্যালগরিদমটি সর্বাধিক ব্যবহৃত হয়?",
+    "options": [
+      "Bubble Join",
+      "Linear Scan",
+      "Brute Force",
+      "Grace Hash Join"
+    ],
+    "answer": "ঘ",
+    "explanation": "Hash Join (বিশেষ করে Grace Hash Join) উভয় টেবিলের জয়েন কি-র ওপর একই হ্যাশ ফাংশন চালিয়ে পার্টিশনে বিভক্ত করে এবং মেমরিতে বাকেট ধরে জয়েন করে অত্যন্ত দ্রুত ফলাফল দেয়।"
+  },
+  {
+    "id": 143,
+    "topic": "Query Processing & Optimization",
+    "question": "কুয়েরি কস্ট অনুমানে সিস্টেম ক্যাটালগ থেকে কোন পরিসংখ্যানগত তথ্য (Catalog Statistics) ব্যবহৃত হয়?",
+    "options": [
+      "টাপলের মোট সংখ্যা ($n_r$), ব্লকের সংখ্যা ($b_r$), কলামের ডিস্ট্রিবিউশন ও ইউনিক মানের সংখ্যা ($V(A, r)$)",
+      "ইউজারের জন্মতারিখ",
+      "নেটওয়ার্ক ম্যাক অ্যাড্রেস",
+      "মনিটরের রেজোলিউশন"
+    ],
+    "answer": "ক",
+    "explanation": "অপটিমাইজার প্রতিটি অপারেশনের সিলেক্টিভিটি (Selectivity factor) হিসাব করতে ক্যাটালগে থাকা সাইজ, ডিস্ক ব্লক, স্বতন্ত্র মানের সংখ্যা এবং হিস্টোগ্রাম ব্যবহার করে।"
+  },
+  {
+    "id": 144,
+    "topic": "Query Processing & Optimization",
+    "question": "রিলেশনাল অ্যালজেবরায় জয়েন অপারেশনের কোন গাণিতিক বৈশিষ্ট্য কুয়েরি ট্রির পুনর্বিন্যাসে অপটিমাইজার ব্যবহার করে?",
+    "options": [
+      "জয়েন কেবল একটি টেবিলে হয়",
+      "জয়েন কখনো রিভার্স করা যায় না",
+      "জয়েন অপারেশন Commutative এবং Associative উভয়ই ($R \\bowtie S = S \\bowtie R$ এবং $(R \\bowtie S) \\bowtie T = R \\bowtie (S \\bowtie T)$)",
+      "জয়েন অপারেশন শুধুমাত্র Distributive"
+    ],
+    "answer": "গ",
+    "explanation": "জয়েন বিনিময়যোগ্য (Commutative) এবং সংযোগী (Associative) হওয়ায় অপটিমাইজার টেবিলগুলোর জয়েন অর্ডার পরিবর্তন করে সবচেয়ে ছোট আকারের মধ্যবর্তী টেবিল আগে তৈরি করতে পারে।"
+  },
+  {
+    "id": 145,
+    "topic": "Query Processing & Optimization",
+    "question": "কুয়েরি অপটিমাইজারে 'Pipelining' বলতে কী বোঝায়?",
+    "options": [
+      "ইন্টারমিডিয়েট ফলাফল ডিস্কে সংরক্ষণ না করে একটি অপারেশনের আউটপুট সরাসরি পরবর্তী অপারেশনে স্ট্রিম আকারে পাঠানো",
+      "একাধিক কুয়েরি বাতিল করা",
+      "সম্পূর্ণ টেবিল হার্ডডিস্কে ডাম্প করা",
+      "ফাইল কম্প্রেস করা"
+    ],
+    "answer": "ক",
+    "explanation": "Pipelining-এ অন্তর্বর্তী ফলাফল ডিস্কে না লিখে মেমরি পাইপের মধ্য দিয়ে সরাসরি পরবর্তী অপারেশনে পাঠানো হয়, যা ডিস্ক I/O এবং মেমরি ব্যবহার বাঁচায়।"
+  },
+  {
+    "id": 146,
+    "topic": "Query Processing & Optimization",
+    "question": "Materialization কৌশলের বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "কোনো মেমরি ব্যবহার করে না",
+      "এটি কেবল সিলেকশনে চলে",
+      "এটি পাইপলাইনিংয়ের চেয়ে সর্বদাই দ্রুত",
+      "অপারেশনের মধ্যবর্তী ফলাফলকে ডিস্কে একটি অস্থায়ী রিলেশন হিসেবে সম্পূর্ণরূপে তৈরি ও সংরক্ষণ করে পরবর্তী অপারেশনে ইনপুট দেওয়া হয়"
+    ],
+    "answer": "ঘ",
+    "explanation": "Materialization পদ্ধতিতে প্রতিটি সাব-অপারেশনের ফলাফল সম্পূর্ণরূপে একটি অস্থায়ী টেবিলে ডিস্কে তৈরি (Materialized) করা হয় এবং পরবর্তী অপারেটর তা রিড করে।"
+  },
+  {
+    "id": 147,
+    "topic": "Query Processing & Optimization",
+    "question": "একটি কলাম $A$-র ওপর সমতা শর্তে সিলেকশন $\\sigma_{A=v}(r)$ এর সিলেক্টিভিটি ফ্যাক্টর (Selectivity Factor) কত ধরা হয়, যদি মানের সুষম বণ্টন (Uniform distribution) থাকে?",
+    "options": [
+      "$V(A, r) / n_r$",
+      "$n_r$",
+      "$1 / V(A, r)$",
+      "$1 / n_r^2$"
+    ],
+    "answer": "গ",
+    "explanation": "যদি কলামে $V(A, r)$ সংখ্যক স্বতন্ত্র মান থাকে এবং সেগুলো সমভাবে বণ্টিত থাকে, তবে যেকোনো একটি মানের জন্য ম্যাচ করার সম্ভাবনা বা সিলেক্টিভিটি হলো $1 / V(A, r)$।"
+  },
+  {
+    "id": 148,
+    "topic": "Query Processing & Optimization",
+    "question": "একটি SQL কুয়েরির এক্সিকিউশন প্ল্যান (Execution Plan) দেখার জন্য স্ট্যান্ডার্ড ডেটাবেজ কমান্ড কোনটি?",
+    "options": [
+      "PRINT EXECUTION",
+      "SHOW PLAN বা EXPLAIN SELECT ...",
+      "LOG QUERY",
+      "DEBUG QUERY"
+    ],
+    "answer": "খ",
+    "explanation": "SQL-এ `EXPLAIN` বা `EXPLAIN ANALYZE` কমান্ড ব্যবহার করে অপটিমাইজারের নির্বাচিত এক্সিকিউশন প্ল্যান, ইনডেক্স স্ক্যান, জয়েন মেথড এবং কস্ট দেখা যায়।"
+  },
+  {
+    "id": 149,
+    "topic": "Query Processing & Optimization",
+    "question": "ইন্ডেক্স স্ক্যান (Index Scan) কখন ফুল টেবিল স্ক্যানের (Full Table Scan) চেয়ে ধীর হতে পারে?",
+    "options": [
+      "যখন টেবিলে কোনো প্রাইমারি কি থাকে না",
+      "ইনডেক্স স্ক্যান কখনো ধীর হতে পারে না",
+      "যখন টেবিলটি অত্যন্ত ছোট হয় অথবা সিলেকশনে টেবিলের অধিকাংশ (> 20-30%) রো রিটার্ন করে",
+      "যখন মেমরি অনেক বেশি থাকে"
+    ],
+    "answer": "গ",
+    "explanation": "যদি কুয়েরিতে টেবিলের বিশাল অংশের রো প্রয়োজন হয়, তবে ইনডেক্স থেকে বারবার আন-ক্লাস্টার্ড ডেটা পেজে জাম্প করার চেয়ে সিকোয়েনশিয়াল ফুল টেবিল স্ক্যান অনেক দ্রুত হয়।"
+  },
+  {
+    "id": 150,
+    "topic": "Query Processing & Optimization",
+    "question": "ডাইনামিক প্রোগ্রামিং ভিত্তিক System-R অপটিমাইজেশন অ্যালগরিদমে কোন আকারের জয়েন ট্রি বিবেচনা করে স্পেস কমানো হয়?",
+    "options": [
+      "Left-deep Join Tree",
+      "Right-deep Tree",
+      "Bushy Tree",
+      "Star Tree"
+    ],
+    "answer": "ক",
+    "explanation": "সিস্টেম-আর স্টাইলের অপটিমাইজার মূলত Left-deep Join Trees বিবেচনা করে, যার ফলে পাইপলাইনিং কার্যকর করা সহজ হয় এবং সার্চ স্পেস পরিমিত থাকে।"
+  },
+  {
+    "id": 151,
+    "topic": "Transactions & Concurrency Control",
+    "question": "ডেটাবেজ ট্রানজ্যাকশনের ACID প্রোপার্টিজ কোন চারটি বৈশিষ্ট্য নিয়ে গঠিত?",
+    "options": [
+      "Accuracy, Consistency, Integrity, Durability",
+      "Availability, Consistency, Isolation, Diversity",
+      "Authentication, Concurrency, Isolation, Distribution",
+      "Atomicity, Consistency, Isolation, Durability"
+    ],
+    "answer": "ঘ",
+    "explanation": "ACID হলো ডেটাবেজ লেনদেনের মূল ভিত্তি: Atomicity (সব বা কিছুই না), Consistency (নিয়ম মেনে চলা), Isolation (পরস্পর বিচ্ছিন্নতা) এবং Durability (স্থায়িত্ব)।"
+  },
+  {
+    "id": 152,
+    "topic": "Transactions & Concurrency Control",
+    "question": "'একটি ট্রানজ্যাকশনের সমস্ত অপারেশন সফলভাবে সম্পন্ন হবে, নয়তো কোনো পরিবর্তনই ডেটাবেজে সংরক্ষিত হবে না (All or Nothing)'—এটি কোন বৈশিষ্ট্য?",
+    "options": [
+      "Durability",
+      "Atomicity (পরমাণুতা)",
+      "Isolation",
+      "Consistency"
+    ],
+    "answer": "খ",
+    "explanation": "Atomicity নিশ্চিত করে ট্রানজ্যাকশনটি একটি অবিভাজ্য একক হিসেবে কাজ করে। মাঝপথে ফেইল করলে সম্পূর্ণ কাজ রোলব্যাক (Rollback/Abort) হয়ে আগের অবস্থায় ফিরে যায়।"
+  },
+  {
+    "id": 153,
+    "topic": "Transactions & Concurrency Control",
+    "question": "ট্রানজ্যাকশন সফলভাবে COMMIT হওয়ার পর সিস্টেম ক্র্যাশ করলেও তার ডেটা ডিস্কে সুরক্ষিত ও স্থায়ী থাকার নিশ্চয়তা কে দেয়?",
+    "options": [
+      "Durability",
+      "Atomicity",
+      "Availability",
+      "Isolation"
+    ],
+    "answer": "ক",
+    "explanation": "Durability নিশ্চিত করে যে একবার ট্রানজ্যাকশন সফলভাবে কমিক হয়ে গেলে বিদ্যুৎ চলে গেলেও বা ওএস ক্র্যাশ করলেও ডেটা নষ্ট হবে না।"
+  },
+  {
+    "id": 154,
+    "topic": "Transactions & Concurrency Control",
+    "question": "ট্রানজ্যাকশনের লাইফসাইকেলে স্টেটগুলোর সঠিক ক্রম কোনটি?",
+    "options": [
+      "Committed -> Active -> Failed",
+      "Active -> Partially Committed -> Committed",
+      "Aborted -> Committed -> Active",
+      "Failed -> Partially Committed -> Active"
+    ],
+    "answer": "খ",
+    "explanation": "ট্রানজ্যাকশন শুরু হলে Active স্টেটে থাকে, শেষ স্টেটমেন্টের পর Partially Committed হয়, এবং ডিস্কে লগ রাইট সফল হলে Committed স্টেটে পৌঁছায়। ব্যর্থ হলে Failed এবং পরে Aborted হয়।"
+  },
+  {
+    "id": 155,
+    "topic": "Transactions & Concurrency Control",
+    "question": "একটি ট্রানজ্যাকশন চলাকালীন অপর ট্রানজ্যাকশনের অসম্পূর্ণ/আনকমিটেড ডেটা রিড করার ফলে তৈরি হওয়া ত্রুটিকে কী বলে?",
+    "options": [
+      "Inconsistent Analysis",
+      "Lost Update Problem",
+      "Phantom Read",
+      "Dirty Read Problem (বা Temporary Update)"
+    ],
+    "answer": "ঘ",
+    "explanation": "Dirty Read ঘটে যখন $T_1$ একটি ডেটা পরিবর্তন করে কিন্তু এখনো Commit করেনি, এবং সেই মুহূর্তে $T_2$ সেই মানটি রিড করে। পরে $T_1$ রোলব্যাক করলে $T_2$-র রিড করা ডেটা অবৈধ হয়ে যায়।"
+  },
+  {
+    "id": 156,
+    "topic": "Transactions & Concurrency Control",
+    "question": "দুটি অপারেশনের মধ্যে কনফ্লিক্ট (Conflict) হওয়ার শর্ত কোনটি?",
+    "options": [
+      "উভয় অপারেশন READ হতে হবে",
+      "দুটি ভিন্ন ডেটা আইটেমের হতে হবে",
+      "অপারেশন দুটি ভিন্ন ট্রানজ্যাকশনের হতে হবে, একই ডেটা আইটেমের ওপর হতে হবে এবং অন্তত একটি অপারেশন WRITE হতে হবে",
+      "একই ট্রানজ্যাকশনের হতে হবে"
+    ],
+    "answer": "গ",
+    "explanation": "Read-Write ($R_1(A), W_2(A)$), Write-Read ($W_1(A), R_2(A)$) অথবা Write-Write ($W_1(A), W_2(A)$) কনফ্লিক্ট তৈরি করে যদি তারা ভিন্ন ট্রানজ্যাকশন কর্তৃক একই ডেটায় ঘটে।"
+  },
+  {
+    "id": 157,
+    "topic": "Transactions & Concurrency Control",
+    "question": "একটি শিডিউল কনফ্লিক্ট সিরিয়ালাইজেবল (Conflict Serializable) কিনা তা পরীক্ষা করার সবচেয়ে নির্ভরযোগ্য পদ্ধতি কোনটি?",
+    "options": [
+      "বাবল সর্টিং",
+      "লক কাউন্ট করা",
+      "প্রেসিডেন্স গ্রাফ (Precedence Graph বা Conflict Graph)-এ কোনো সাইকেল (Cycle) আছে কিনা তা পরীক্ষা করা",
+      "ডেটাবেজ সাইজ মাপা"
+    ],
+    "answer": "গ",
+    "explanation": "Precedence Graph-এ প্রতিটি ট্রানজ্যাকশন একটি নোড এবং কনফ্লিক্টিং অপারেশনের জন্য এজ ($T_i \\to T_j$) টানা হয়। গ্রাফটি যদি Directed Acyclic Graph (DAG) হয় অর্থাৎ কোনো চক্র (Cycle) না থাকে, তবে শিডিউলটি Conflict Serializable।"
+  },
+  {
+    "id": 158,
+    "topic": "Transactions & Concurrency Control",
+    "question": "যে শিডিউল কনফ্লিক্ট সিরিয়ালাইজেবল নয়, কিন্তু কোনো ব্লাইন্ড রাইট (Blind Write) থাকার কারণে সিরিয়াল শিডিউলের সমতুল্য ফলাফল দেয় তাকে কী বলে?",
+    "options": [
+      "Recoverable Schedule",
+      "View Serializable Schedule",
+      "Cascadeless Schedule",
+      "Strict Schedule"
+    ],
+    "answer": "খ",
+    "explanation": "View Serializability হলো সিরিয়ালাইজেবিলিটির একটি বিস্তৃত রূপ। প্রতিটি কনফ্লিক্ট সিরিয়ালাইজেবল শিডিউলই ভিউ সিরিয়ালাইজেবল, কিন্তু বিপরীতটি সর্বদা সত্য নয়।"
+  },
+  {
+    "id": 159,
+    "topic": "Transactions & Concurrency Control",
+    "question": "টু-ফেজ লকিং (2PL) প্রোটোকলের গ্রোয়িং ফেজ (Growing Phase) এবং শ্রিঙ্কিং ফেজ (Shrinking Phase)-এর নিয়ম কী?",
+    "options": [
+      "গ্রোয়িং ফেজে কেবল লক অর্জন (Acquire) করা যায় কিন্তু কোনো লক ছাড়া যায় না, আর শ্রিঙ্কিং ফেজে লক রিলিজ করা যায় কিন্তু কোনো নতুন লক নেওয়া যায় না",
+      "ট্রানজ্যাকশন শুরুর আগেই সব লক ছাড়তে হয়",
+      "যে কোনো সময় লক নেওয়া ও ছাড়া যায়",
+      "কোনো লক রিলিজ করা যায় না"
+    ],
+    "answer": "ক",
+    "explanation": "2PL নিশ্চিত করে যে ট্রানজ্যাকশন একবার কোনো লক রিলিজ করা শুরু করলে (Shrinking phase) সে আর কখনো নতুন কোনো লক নিতে পারবে না। এটি Conflict Serializability নিশ্চিত করে।"
+  },
+  {
+    "id": 160,
+    "topic": "Transactions & Concurrency Control",
+    "question": "ক্যাসকেডিং অ্যাবোর্ট (Cascading Abort বা ক্যাসকেডিং রোলব্যাক) এড়াতে কোন ধরণের 2PL ব্যবহার করা হয়?",
+    "options": [
+      "Basic 2PL",
+      "Dynamic 2PL",
+      "Optimistic 2PL",
+      "Strict 2PL (যেখানে সমস্ত Exclusive Lock ট্রানজ্যাকশন COMMIT বা ABORT না হওয়া পর্যন্ত ধরে রাখা হয়)"
+    ],
+    "answer": "ঘ",
+    "explanation": "Strict 2PL নিশ্চিত করে যে কোনো ট্রানজ্যাকশন তার সমস্ত এক্সক্লুসিভ লক শেষ না হওয়া (Commit/Abort) পর্যন্ত ধরে রাখবে, ফলে কেউ ডার্টি ডেটা রিড করতে পারে না এবং ক্যাসকেডিং রোলব্যাক বন্ধ হয়।"
+  },
+  {
+    "id": 161,
+    "topic": "Transactions & Concurrency Control",
+    "question": "রিগোরাস টু-ফেজ লকিং (Rigorous 2PL) এর ক্ষেত্রে কোনটি সত্য?",
+    "options": [
+      "Shared (S) এবং Exclusive (X) উভয় ধরণের সমস্ত লকই ট্রানজ্যাকশন শেষ (Commit/Abort) না হওয়া পর্যন্ত ধরে রাখা হয়",
+      "কোনো লক নেওয়া হয় না",
+      "শুধুমাত্র Shared লক ধরে রাখা হয়",
+      "ডেডলক সম্পূর্ণ অসম্ভব"
+    ],
+    "answer": "ক",
+    "explanation": "Rigorous 2PL হলো সবচেয়ে কঠোর লকিং যেখানে ট্রানজ্যাকশনের সমাপ্তি পর্যন্ত সকল প্রকার (রিড ও রাইট) লক ধরে রাখা হয়, যা সিরিয়ালাইজেশন অর্ডারকে কমিট অর্ডারের সমান করে দেয়।"
+  },
+  {
+    "id": 162,
+    "topic": "Transactions & Concurrency Control",
+    "question": "লক-বেসড কনকারেন্সিতে ডেডলক প্রতিরোধের 'Wait-Die' স্কিমের নীতি কোনটি?",
+    "options": [
+      "বয়স্ক ট্রানজ্যাকশন সবসময় তরুণকে হত্যা করবে",
+      "কোনো ট্রানজ্যাকশন রোলব্যাক হবে না",
+      "নন-প্রিম্পটিভ: যদি বয়স্ক ট্রানজ্যাকশন ($T_{old}$) কনিষ্ঠের ($T_{young}$) ধরে রাখা লক চায় তবে $T_{old}$ অপেক্ষা করবে (Wait); কিন্তু $T_{young}$ বয়স্কের লক চাইলে সে নিজে মরে যাবে/রোলব্যাক হবে (Die)",
+      "সবাই অনির্দিষ্টকাল অপেক্ষা করবে"
+    ],
+    "answer": "গ",
+    "explanation": "Wait-Die হলো নন-প্রিম্পটিভ টাইমস্ট্যাম্প স্কিম: $TS(T_i) < TS(T_j)$ হলে $T_i$ অপেক্ষা করতে পারে, কিন্তু বিপরীত হলে $T_i$ ডাই (অ্যাবোর্ট) হয়। এটি ডেডলক সাইকেল তৈরি হতে দেয় না।"
+  },
+  {
+    "id": 163,
+    "topic": "Transactions & Concurrency Control",
+    "question": "ডেডলক প্রতিরোধের 'Wound-Wait' স্কিম কোন ধরণের স্কিম?",
+    "options": [
+      "র্যান্ডম রোলব্যাক স্কিম",
+      "প্রিম্পটিভ স্কিম (Preemptive Scheme): যেখানে বয়স্ক ট্রানজ্যাকশন কনিষ্ঠের কাছ থেকে জোরপূর্বক রিসোর্স ছিনিয়ে নিয়ে তাকে আহত বা বাতিল (Wound/Abort) করে",
+      "কোনো টাইমস্ট্যাম্প ব্যবহার করে না",
+      "নন-প্রিম্পটিভ স্কিম"
+    ],
+    "answer": "খ",
+    "explanation": "Wound-Wait প্রিম্পটিভ নীতি অনুসরণ করে: $TS(T_i) < TS(T_j)$ হলে $T_i$ তরুণ ট্রানজ্যাকশন $T_j$-কে উন্ড (অ্যাবোর্ট) করে রিসোর্স দখল করে, নয়তো অপেক্ষা করে।"
+  },
+  {
+    "id": 164,
+    "topic": "Transactions & Concurrency Control",
+    "question": "চলমান সিস্টেমে ডেডলক শনাক্ত করতে (Deadlock Detection) ডেটাবেজ সিস্টেম কোন গ্রাফ তৈরি ও পর্যবেক্ষণ করে?",
+    "options": [
+      "Flowchart",
+      "Precedence Graph",
+      "B-Tree",
+      "Wait-For Graph (WFG)"
+    ],
+    "answer": "ঘ",
+    "explanation": "Wait-For Graph-এ এজ $T_i \\to T_j$ নির্দেশ করে যে ট্রানজ্যাকশন $T_i$ অন্য ট্রানজ্যাকশন $T_j$-র মুক্ত করার অপেক্ষায় রয়েছে। এই গ্রাফে চক্র (Cycle) তৈরি হলে ডেডলক নিশ্চিত হয়।"
+  },
+  {
+    "id": 165,
+    "topic": "Transactions & Concurrency Control",
+    "question": "টাইমস্ট্যাম্প-বেসড কনকারেন্সি প্রোটোকলে 'টমাস রাইট রুল' (Thomas' Write Rule) কোন সুবিধা প্রদান করে?",
+    "options": [
+      "অপ্রয়োজনীয় ও পুরোনো রাইট অপারেশন উপেক্ষা (Ignore/Discard) করে অধিকতর কনকারেন্সি প্রদান করে",
+      "সমস্ত রিড অপারেশন বন্ধ করে দেয়",
+      "ক্যাসকেডিং অ্যাবোর্ট বৃদ্ধি করে",
+      "লক ছাড়া ডেটা ডিলিট করে"
+    ],
+    "answer": "ক",
+    "explanation": "টমাস রাইট রুলে যদি কোনো লেট রাইট আসে ($TS(T) < W\\_TS(Q)$), তবে ট্রানজ্যাকশনটি অ্যাবোর্ট না করে কেবল সেই পুরোনো রাইট অপারেশনটিকে বাতিল/উপেক্ষা করে এগিয়ে যায়।"
+  },
+  {
+    "id": 166,
+    "topic": "Transactions & Concurrency Control",
+    "question": "মাল্টিপল গ্র্যানুলারিটি লকিংয়ে (Multiple Granularity Locking) নিচের স্তরে লক নেওয়ার পূর্বে উপরের স্তরে কোন লক নিতে হয়?",
+    "options": [
+      "Read Lock",
+      "Intention Lock (যেমন IS বা IX)",
+      "Deadlock",
+      "Exclusive Lock"
+    ],
+    "answer": "খ",
+    "explanation": "হায়ারার্কির নোডে সরাসরি লক না নিয়ে তার পূর্বপুরুষ (Ancestor) নোডগুলোতে ইনটেনশন লক (Intent Shared - IS বা Intent Exclusive - IX) স্থাপন করে নিচের স্তরে লকিং সহজ করা হয়।"
+  },
+  {
+    "id": 167,
+    "topic": "Transactions & Concurrency Control",
+    "question": "অপটিমিস্টিক কনকারেন্সি কন্ট্রোলে (Optimistic Concurrency Control) তিনটি ধাপ কী কী?",
+    "options": [
+      "Write Phase -> Read Phase -> Log Phase",
+      "Start Phase -> Sleep Phase -> Commit Phase",
+      "Read Phase -> Validation Phase -> Write Phase",
+      "Lock Phase -> Execute Phase -> Free Phase"
+    ],
+    "answer": "গ",
+    "explanation": "অপটিমিস্টিক কন্ট্রোলে ধরে নেওয়া হয় সংঘাত কম হবে। প্রথমে রিড করে লোকাল ভেরিয়েবলে কাজ হয় (Read Phase), তারপর কোনো সংঘাত হয়েছে কিনা যাচাই করা হয় (Validation Phase), এবং সবশেষে ডেটাবেজে লেখা হয় (Write Phase)।"
+  },
+  {
+    "id": 168,
+    "topic": "Transactions & Concurrency Control",
+    "question": "SQL ট্রানজ্যাকশনের সর্বোচ্চ আইসোলেশন লেভেল (Highest Isolation Level) কোনটি?",
+    "options": [
+      "READ UNCOMMITTED",
+      "READ COMMITTED",
+      "REPEATABLE READ",
+      "SERIALIZABLE"
+    ],
+    "answer": "ঘ",
+    "explanation": "SERIALIZABLE হলো সর্বোচ্চ আইসোলেশন লেভেল যা Dirty Read, Non-repeatable Read এবং Phantom Read—সকল ত্রুটি সম্পূর্ণরূপে দূর করে সমান্তরাল কাজকে ধারাবাহিক রূপ দেয়।"
+  },
+  {
+    "id": 169,
+    "topic": "Transactions & Concurrency Control",
+    "question": "একই ট্রানজ্যাকশনে একই কুয়েরি দুইবার চালালে দ্বিতীয়বারে অন্য ট্রানজ্যাকশন কর্তৃক ইনসার্ট করা নতুন সারির উপস্থিতি পাওয়ার সমস্যাকে কী বলে?",
+    "options": [
+      "Lost Update",
+      "Dirty Read",
+      "Phantom Read",
+      "Starvation"
+    ],
+    "answer": "গ",
+    "explanation": "Phantom Read ঘটে যখন রেঞ্জ কুয়েরির মাঝে অন্য কেউ নতুন রো INSERT করে এবং আগের ট্রানজ্যাকশন একই শর্তে পুনরায় কুয়েরি চালিয়ে 'ভৌতিক' নতুন রেকর্ড দেখতে পায়।"
+  },
+  {
+    "id": 170,
+    "topic": "Transactions & Concurrency Control",
+    "question": "ডেডলক রিকভারির সময় যে ট্রানজ্যাকশনকে বাতিল বা রোলব্যাক করার জন্য বাছাই করা হয় তাকে কী বলা হয়?",
+    "options": [
+      "Orphan Transaction",
+      "Victim Transaction (শিকার ট্রানজ্যাকশন)",
+      "Coordinator",
+      "Zombie Transaction"
+    ],
+    "answer": "খ",
+    "explanation": "ডেডলক ভাঙতে সাইকেল থেকে ন্যূনতম খরচের কোনো একটি ট্রানজ্যাকশনকে 'Victim' হিসেবে নির্বাচন করে রোলব্যাক করা হয় এবং তার রিসোর্স মুক্ত করা হয়।"
+  },
+  {
+    "id": 171,
+    "topic": "Recovery System",
+    "question": "Write-Ahead Logging (WAL) প্রোটোকলের প্রধান নিয়ম কোনটি?",
+    "options": [
+      "লগ সবশেষে লেখা হবে",
+      "কোনো লগ রাখা যাবে না",
+      "লগ কেবল মেমরিতে থাকবে",
+      "ডেটাবেজ বাফার থেকে মূল ডেটা পেজ ডিস্কে লেখার আগেই সংশ্লিষ্ট লগ রেকর্ডটি স্থায়ী ডিস্কে রাইট হতে হবে"
+    ],
+    "answer": "ঘ",
+    "explanation": "WAL নিশ্চিত করে যে ডেটাবেজের কোনো ডিস্ক পরিবর্তন স্থায়ী হওয়ার আগে অবশ্যই তার Undo/Redo লগ রেকর্ড নন-ভোলাটাইল ডিস্ক স্টোরেজে লেখা সম্পন্ন হতে হবে।"
+  },
+  {
+    "id": 172,
+    "topic": "Recovery System",
+    "question": "ডিফার্ড ডেটাবেজ মডিফিকেশন (Deferred Database Modification) কৌশলে ক্র্যাশের পর রিকভারি করতে কোনটি প্রয়োজন হয় না?",
+    "options": [
+      "UNDO অপারেশনের প্রয়োজন হয় না, কেবল REDO প্রয়োজন হয়",
+      "কোনো লগ রেকর্ড প্রয়োজন হয় না",
+      "REDO প্রয়োজন হয় না",
+      "চেকপয়েন্ট লাগে না"
+    ],
+    "answer": "ক",
+    "explanation": "Deferred Modification-এ ট্রানজ্যাকশন সম্পূর্ণরূপে Commit না হওয়া পর্যন্ত মূল ডেটাবেজ ফাইলে কোনো রাইট হয় না, ফলে ক্র্যাশ করলে কখনো UNDO করার দরকার পড়ে না।"
+  },
+  {
+    "id": 173,
+    "topic": "Recovery System",
+    "question": "ইমিডিয়েট ডেটাবেজ মডিফিকেশন (Immediate Database Modification) কৌশলে সিস্টেম রিকভারির জন্য কোন দুটি অপারেশন প্রয়োজন?",
+    "options": [
+      "কেবল Rollback",
+      "কেবল REDO",
+      "Commit এবং Terminate",
+      "UNDO এবং REDO উভয়ই"
+    ],
+    "answer": "ঘ",
+    "explanation": "Immediate Modification-এ ট্রানজ্যাকশন চলাকালীনই ডিস্কে পরিবর্তন লেখা হতে পারে, তাই আনকমিটেড ট্রানজ্যাকশনকে UNDO এবং কমিটেড ট্রানজ্যাকশনকে REDO করতে হয়।"
+  },
+  {
+    "id": 174,
+    "topic": "Recovery System",
+    "question": "ডেটাবেজ রিকভারিতে 'চেকপয়েন্ট' (Checkpoint)-এর প্রধান সুবিধা কী?",
+    "options": [
+      "এটি সকল পাসওয়ার্ড মুছে দেয়",
+      "এটি টেবিল ড্রপ করে",
+      "এটি পুরো লগ ফাইলের শুরু থেকে স্ক্যান করার প্রয়োজনীয়তা দূর করে রিকভারির সময় বহুগুণ কমিয়ে আনে",
+      "এটি ডিস্কের সাইজ বাড়িয়ে দেয়"
+    ],
+    "answer": "গ",
+    "explanation": "চেকপয়েন্টের সময় সমস্ত মডিফায়েড মেমরি পেজ ফিজিক্যাল ডিস্কে জোরপূর্বক ফ্লাশ করে নিশ্চিত করা হয়। ফলে ক্র্যাশ রিকভারির সময় চেকপয়েন্টের পূর্ববর্তী সফল লেনদেনগুলোকে আর রিডো করতে হয় না।"
+  },
+  {
+    "id": 175,
+    "topic": "Recovery System",
+    "question": "আইবিএম কর্তৃক উদ্ভাবিত আধুনিক ডেটাবেজ রিকভারি অ্যালগরিদম ARIES-এর তিনটি পর্যায় কোনগুলো?",
+    "options": [
+      "Analysis Phase, Redo Phase (Repeating history), Undo Phase",
+      "Read, Write, Commit",
+      "Lock, Execute, Unlock",
+      "Scan, Sort, Merge"
+    ],
+    "answer": "ক",
+    "explanation": "ARIES তিনটি ধাপে কাজ করে: Analysis (সিস্টেমের অবস্থা বিশ্লেষণ), Redo (ক্র্যাশের আগ পর্যন্ত সমস্ত হিস্ট্রি রিপিট করা), এবং Undo (অসম্পূর্ণ ট্রানজ্যাকশন রোলব্যাক করা)।"
+  },
+  {
+    "id": 176,
+    "topic": "Recovery System",
+    "question": "শ্যাডো পেজিং (Shadow Paging) রিকভারি টেকনিকে ডেটাবেজ ডিরেক্টরির কয়টি কপি রাখা হয়?",
+    "options": [
+      "৪টি",
+      "২টি (Current Page Table এবং Shadow Page Table)",
+      "১টি",
+      "৩টি"
+    ],
+    "answer": "খ",
+    "explanation": "Shadow Paging-এ দুটি পেজ টেবিল থাকে। ট্রানজ্যাকশন চলাকালীন সমস্ত পরিবর্তন Current Page Table-এ হয় এবং ক্র্যাশ হলে কোনো লগ ছাড়াই Shadow Page Table পুনরুদ্ধার করে রোলব্যাক করা যায়।"
+  },
+  {
+    "id": 177,
+    "topic": "Recovery System",
+    "question": "কম্পিউটার বিজ্ঞানে এমন স্টোরেজ যা কোনো অবস্থাতেই ডেটা হারায় না (তাত্ত্বিকভাবে শতভাগ নির্ভরযোগ্য) তাকে কী বলে?",
+    "options": [
+      "Optical Storage",
+      "Stable Storage",
+      "Non-volatile Storage",
+      "Volatile Storage"
+    ],
+    "answer": "খ",
+    "explanation": "Stable Storage হলো একাধিক নন-ভোলাটাইল মিডিয়াতে (যেমন মিরর ডিস্ক/RAID) প্রতিলিপি তৈরি করে নির্মিত ধারণাগত স্টোরেজ যা সকল ফেইলিওর সত্ত্বেও ডেটা অক্ষত রাখে।"
+  },
+  {
+    "id": 178,
+    "topic": "Recovery System",
+    "question": "লগ ফাইলে ট্রানজ্যাকশন $T_i$ এর জন্য $\\langle T_i, \\text{start} \\rangle$ আছে কিন্তু কোনো $\\langle T_i, \\text{commit} \\rangle$ বা $\\langle T_i, \\text{abort} \\rangle$ নেই। ক্র্যাশের পর রিকভারি ম্যানেজার কী করবে?",
+    "options": [
+      "ট্রানজ্যাকশনটিকে UNDO (রোলব্যাক) করবে",
+      "ট্রানজ্যাকশনটিকে REDO করবে",
+      "কিছুই করবে না",
+      "ট্রানজ্যাকশনটিকে Commit ঘোষণা করবে"
+    ],
+    "answer": "ক",
+    "explanation": "যেসব ট্রানজ্যাকশন ক্র্যাশের আগ পর্যন্ত কমিট হতে পারেনি তাদের সম্পূর্ণ কাজ UNDO করে ডেটাবেজকে আবার সামঞ্জস্যপূর্ণ অবস্থায় নিয়ে আসা হয়।"
+  },
+  {
+    "id": 179,
+    "topic": "Recovery System",
+    "question": "লগ ফাইলে প্রতিটি লগ রেকর্ডের একটি অনন্য ক্রমবর্ধমান শনাক্তকারী সংখ্যা থাকে, যাকে কী বলা হয়?",
+    "options": [
+      "Block Number",
+      "Transaction ID",
+      "Sector Key",
+      "Log Sequence Number (LSN)"
+    ],
+    "answer": "ঘ",
+    "explanation": "প্রতিটি লগ এন্ট্রিকে LSN (Log Sequence Number) দিয়ে চিহ্নিত করা হয়। প্রতিটি ডেটা পেজেও তার সর্বশেষ আপডেটের PageLSN লেখা থাকে যা রিকভারিতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 180,
+    "topic": "Recovery System",
+    "question": "রোলব্যাক করার সময় লগ ফাইলে ক্ষতিপূরণমূলক যে বিশেষ লগ রেকর্ড লেখা হয় তাকে কী বলে?",
+    "options": [
+      "Abort Signal",
+      "Checkpoint Record",
+      "Compensation Log Record (CLR)",
+      "Redo Token"
+    ],
+    "answer": "গ",
+    "explanation": "ARIES অ্যালগরিদমে UNDO চলাকালীন প্রতিটি বিপরীত পরিবর্তনের জন্য Compensation Log Record (CLR) লেখা হয় যেন রিকভারি চলাকালীন পুনরায় ক্র্যাশ হলেও ইনফিনিট লুপ না ঘটে।"
+  },
+  {
+    "id": 181,
+    "topic": "Data Mining & Data Warehousing",
+    "question": "OLTP (Online Transaction Processing) এবং OLAP (Online Analytical Processing)-এর মধ্যে মূল পার্থক্য কোনটি?",
+    "options": [
+      "এদের মধ্যে কোনো পার্থক্য নেই",
+      "OLTP কেবলমাত্র ডেটা ওয়্যারহাউজে চলে",
+      "OLAP কোনো কুয়েরি সাপোর্ট করে না",
+      "OLTP দৈনন্দিন ট্রানজ্যাকশন ও দ্রুত ইনসার্ট/আপডেটের জন্য অপটিমাইজড, আর OLAP ঐতিহাসিক ডেটা বিশ্লেষণ ও জটিল ব্যবসায়িক রিপোর্টিংয়ের জন্য অপটিমাইজড"
+    ],
+    "answer": "ঘ",
+    "explanation": "OLTP পরিচালিত হয় রিয়েল-টাইম অপারেশনাল কাজের জন্য (3NF নরমালাইজড), আর OLAP পরিচালিত হয় ডিসিশন সাপোর্ট ও ব্যবসায়িক বুদ্ধিমত্তার (BI) জন্য (ডিনরমালাইজড স্টার স্কিমা)।"
+  },
+  {
+    "id": 182,
+    "topic": "Data Mining & Data Warehousing",
+    "question": "ডেটা ওয়্যারহাউজের কোন স্কিমাতে একটি সেন্ট্রাল ফ্যাক্ট টেবিল (Fact Table) সরাসরি একাধিক ডিমেনশন টেবিলের (Dimension Tables) সাথে যুক্ত থাকে?",
+    "options": [
+      "Star Schema (তারকা স্কিমা)",
+      "Snowflake Schema",
+      "Fact Constellation",
+      "Network Schema"
+    ],
+    "answer": "ক",
+    "explanation": "Star Schema হলো ডেটা ওয়্যারহাউজের সবচেয়ে সহজ ও জনপ্রিয় মডেল যেখানে কেন্দ্রে একটি ফ্যাক্ট টেবিল থাকে এবং তার চারপাশে অ-নরমালাইজড ডিমেনশন টেবিলগুলো তারার মতো বিন্যস্ত থাকে।"
+  },
+  {
+    "id": 183,
+    "topic": "Data Mining & Data Warehousing",
+    "question": "Snowflake Schema কীভাবে Star Schema থেকে আলাদা?",
+    "options": [
+      "Snowflake স্কিমাতে কোনো ফ্যাক্ট টেবিল থাকে না",
+      "Snowflake স্কিমাতে ডিমেনশন টেবিলগুলোকে আরও নরমালাইজড করে একাধিক উপ-টেবিলে বিভক্ত করা হয়",
+      "এটি স্টার স্কিমার চেয়ে সহজ",
+      "Snowflake স্কিমাতে কোনো জয়েন করা যায় না"
+    ],
+    "answer": "খ",
+    "explanation": "স্নোফ্লেক স্কিমাতে রিডান্ড্যান্সি কমাতে ডিমেনশন টেবিলগুলোকে নরমালাইজ করে আরও শাখা-প্রশাখায় ভাগ করা হয় যা দেখতে স্নো-ফ্লেকের মতো দেখায়।"
+  },
+  {
+    "id": 184,
+    "topic": "Data Mining & Data Warehousing",
+    "question": "OLAP অপারেশনে সামগ্রিক ডেটা থেকে ক্রমান্বয়ে গভীর বিস্তারিত তথ্যের দিকে যাওয়ার (যেমন: বছর -> মাস -> দিন) প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "Slice and Dice",
+      "Roll-up (বা Drill-up)",
+      "Drill-down",
+      "Pivot"
+    ],
+    "answer": "গ",
+    "explanation": "Drill-down কম বিস্তারিত থেকে অধিকতর বিস্তারিত তথ্যের গভীরে প্রবেশ করায়। এর বিপরীত হলো Roll-up (যা ডেটাকে এগ্রিগেট করে সংক্ষেপ করে)।"
+  },
+  {
+    "id": 185,
+    "topic": "Data Mining & Data Warehousing",
+    "question": "ডিসিশন ট্রি ক্লাসিফিকেশনের (Decision Tree) ID3 অ্যালগরিদমে সেরা স্প্লিটিং অ্যাট্রিবিউট বাছাই করতে কোনটি পরিমাপ করা হয়?",
+    "options": [
+      "Information Gain এবং Entropy (এনট্রপি)",
+      "Support and Confidence",
+      "Gini Impurity",
+      "Euclidean Distance"
+    ],
+    "answer": "ক",
+    "explanation": "ID3 অ্যালগরিদম প্রতিটি অ্যাট্রিবিউটের এনট্রপি পরিবর্তনের মাধ্যমে Information Gain হিসাব করে এবং যে অ্যাট্রিবিউটে ইনফরমেশন গেইন সর্বোচ্চ হয় তাকে নোড হিসেবে স্প্লিট করে।"
+  },
+  {
+    "id": 186,
+    "topic": "Data Mining & Data Warehousing",
+    "question": "CART (Classification and Regression Trees) অ্যালগরিদম নোড স্প্লিট করার জন্য কোন মেট্রিকটি ব্যবহার করে?",
+    "options": [
+      "Cosine Similarity",
+      "Information Gain",
+      "Silhouette Score",
+      "Gini Index / Gini Impurity"
+    ],
+    "answer": "ঘ",
+    "explanation": "CART অ্যালগরিদমে ডেটাসেটের অবিশুদ্ধতা পরিমাপ করতে Gini Index ব্যবহার করা হয়। জিনি ইনডেক্স যত কম হয়, স্প্লিট তত নিখুঁত হয়।"
+  },
+  {
+    "id": 187,
+    "topic": "Data Mining & Data Warehousing",
+    "question": "নেভ বায়েস ক্লাসিফায়ার (Naive Bayes Classifier) কোন মৌলিক অনুমানের ওপর ভিত্তি করে কাজ করে?",
+    "options": [
+      "কোনো প্রোবাবিলিটি ব্যবহার করে না",
+      "ডেটাসেট অবশ্যই লিনিয়ার হতে হবে",
+      "ক্লাসের প্রেক্ষিতে সকল ফিচার পরস্পরের থেকে সম্পূর্ণ স্বাধীন (Conditional Independence)",
+      "সমস্ত ফিচার একে অপরের সাথে গভীরভাবে যুক্ত"
+    ],
+    "answer": "গ",
+    "explanation": "বায়েস থিওরেম প্রয়োগের সুবিধার জন্য এটি ধরে নেয় যে একটি ফিচারের উপস্থিতি অন্য ফিচারের থেকে স্বাধীন, এই সরলীকরণের জন্যই একে 'Naive' বলা হয়।"
+  },
+  {
+    "id": 188,
+    "topic": "Data Mining & Data Warehousing",
+    "question": "অ্যাসোসিয়েশন রুল মাইনিংয়ে (Association Rule Mining, যেমন মার্কেট বাস্কেট এনালাইসিস) কোন দুটি প্রধান মেট্রিক ব্যবহৃত হয়?",
+    "options": [
+      "Entropy এবং Variance",
+      "Support এবং Confidence",
+      "Precision এবং Recall",
+      "Mean এবং Median"
+    ],
+    "answer": "খ",
+    "explanation": "একটি রুল $X \\to Y$ কতটা জনপ্রিয় তা মাপে Support (মোট ট্রানজ্যাকশনে $X$ ও $Y$ একসাথে থাকার অনুপাত) এবং কতটা নির্ভরযোগ্য তা মাপে Confidence ($X$ ঘটলে $Y$ ঘটার সম্ভাবনা)।"
+  },
+  {
+    "id": 189,
+    "topic": "Data Mining & Data Warehousing",
+    "question": "ফ্রিকোয়েন্ট আইটেমসেট (Frequent Itemset) খোঁজার জন্য বহুল ব্যবহৃত প্রুনিং অ্যালগরিদম কোনটি?",
+    "options": [
+      "Apriori Algorithm",
+      "Round Robin",
+      "Kruskal Algorithm",
+      "Dijkstra Algorithm"
+    ],
+    "answer": "ক",
+    "explanation": "Apriori অ্যালগরিদম এই নীতির ওপর চলে যে: 'যদি কোনো আইটেমসেট ফ্রিকোয়েন্ট হয়, তবে তার সমস্ত সাবসেটও অবশ্যই ফ্রিকোয়েন্ট হবে।' এর ফলে অপ্রয়োজনীয় কম্বিনেশন প্রুন করা সম্ভব হয়।"
+  },
+  {
+    "id": 190,
+    "topic": "Data Mining & Data Warehousing",
+    "question": "K-Means অ্যালগরিদম ডেটা মাইনিংয়ের কোন প্রধান শাখার অন্তর্ভুক্ত?",
+    "options": [
+      "রিগ্রেশন মডেলিং",
+      "আন-সুপারভাইজড ক্লাস্টারিং (Unsupervised Clustering)",
+      "সুপারভাইজড ক্লাসিফিকেশন",
+      "সিকোয়েন্স প্রেডিকশন"
+    ],
+    "answer": "খ",
+    "explanation": "K-Means কোনো পূর্ব-নির্ধারিত লেবেল ছাড়াই দূরত্বের (Centroid distance) ওপর ভিত্তি করে ডেটাকে স্বয়ংক্রিয়ভাবে $K$-টি ক্লাস্টারে ভাগ করে, যা একটি আন-সুপারভাইজড পদ্ধতি।"
+  },
+  {
+    "id": 191,
+    "topic": "Parallel and Distributed Databases & Security",
+    "question": "প্যারালাল ডেটাবেজ আর্কিটেকচারে কোন মডেলটি সবচেয়ে বেশি স্কেলেবল (Scalable) এবং ফল্ট-টলারেন্ট?",
+    "options": [
+      "Shared Memory",
+      "Shared Cache",
+      "Shared Disk",
+      "Shared Nothing Architecture"
+    ],
+    "answer": "ঘ",
+    "explanation": "Shared-Nothing আর্কিটেকচারে প্রতিটি নোডের নিজস্ব প্রসেসর, মেমরি ও ডিস্ক থাকে এবং নোডগুলো উচ্চগতির নেটওয়ার্কে যুক্ত থাকে। ফলে এতে কোনো সেন্ট্রাল বটলনেক থাকে না এবং এটি সবচেয়ে স্কেলেবল।"
+  },
+  {
+    "id": 192,
+    "topic": "Parallel and Distributed Databases & Security",
+    "question": "প্যারালাল ডেটাবেজে রাউন্ড-রবিন পার্টিশনিংয়ের (Round-robin partitioning) নিয়ম কী?",
+    "options": [
+      "সমস্ত ডেটা কেবল প্রথম ডিস্কে রাখা",
+      "হ্যাশ ফাংশন দিয়ে ডিস্ক নির্ধারণ করা",
+      "প্রতিটি টাপলকে পর্যায়ক্রমে ক্রমানুসারে পরবর্তী ডিস্কে পাঠিয়ে সকল ডিস্কে সমানভাবে ডেটা বণ্টন করা",
+      "একটি নির্দিষ্ট রেঞ্জ দেখে ডিস্কে পাঠানো"
+    ],
+    "answer": "গ",
+    "explanation": "রাউন্ড-রবিনে টাপলগুলোকে চক্রাকারে $D_0, D_1, D_2, \\dots$ ডিস্কে বণ্টন করা হয় যা সব ডিস্কে সমান আকারের ডেটা বিস্তার নিশ্চিত করে।"
+  },
+  {
+    "id": 193,
+    "topic": "Parallel and Distributed Databases & Security",
+    "question": "একটি টেবিলের কিছু নির্দিষ্ট সারি (Rows) এক সাইটে এবং বাকি সারি অন্য সাইটে সংরক্ষণ করাকে কোন ধরণের ফ্র্যাগমেন্টেশন বলে?",
+    "options": [
+      "Derived Fragmentation",
+      "Horizontal Fragmentation (অনুভূমিক খণ্ডায়ন)",
+      "Mixed Fragmentation",
+      "Vertical Fragmentation"
+    ],
+    "answer": "খ",
+    "explanation": "Selection ($\\\\sigma$) অপারেশনের মাধ্যমে টেবিলের অনুভূমিক সারিগুলোকে বিভিন্ন সাইটে ভাগ করাকে Horizontal Fragmentation বলে। কলামগুলোকে ভাগ করলে Vertical Fragmentation হয়।"
+  },
+  {
+    "id": 194,
+    "topic": "Parallel and Distributed Databases & Security",
+    "question": "ডিস্ট্রিবিউটেড ডেটাবেজে পরমাণুতা (Atomicity) নিশ্চিত করার স্ট্যান্ডার্ড প্রোটোকল কোনটি?",
+    "options": [
+      "Stop and Wait",
+      "Sliding Window Protocol",
+      "Two-Phase Commit Protocol (2PC)",
+      "Two-Phase Locking"
+    ],
+    "answer": "গ",
+    "explanation": "2PC প্রোটোকলে কো-অর্ডিনেটর প্রথমে সমস্ত সাইটকে প্রস্তুতির জন্য ভোট পাঠায় (Prepare Phase) এবং সকল সাইট রাজি হলে ফাইনাল কমিট পাঠায় (Commit Phase), নয়তো বাতিল করে।"
+  },
+  {
+    "id": 195,
+    "topic": "Parallel and Distributed Databases & Security",
+    "question": "ডিস্ট্রিবিউটেড সিস্টেমের CAP থিওরেম অনুযায়ী কোন তিনটি বৈশিষ্ট্যের মধ্যে সর্বোচ্চ দুটি একসাথে পূর্ণ অর্জন করা সম্ভব?",
+    "options": [
+      "Consistency, Availability, Partition Tolerance",
+      "Capacity, Adaptability, Persistence",
+      "Concurrency, Accuracy, Performance",
+      "Confidentiality, Authentication, Privacy"
+    ],
+    "answer": "ক",
+    "explanation": "এরিক ব্রিউয়ারের CAP উপপাদ্য অনুযায়ী নেটওয়ার্ক পার্টিশনের ($P$) উপস্থিতিতে একটি ডিস্ট্রিবিউটেড সিস্টেম একই সাথে Consistency ($C$) এবং Availability ($A$) উভয়টি অর্জন করতে পারে না।"
+  },
+  {
+    "id": 196,
+    "topic": "Parallel and Distributed Databases & Security",
+    "question": "ডেটাবেজ সিকিউরিটিতে Discretionary Access Control (DAC) কীভাবে প্রয়োগ করা হয়?",
+    "options": [
+      "ওএস কার্নেল লেভেলে",
+      "ব্যবহারকারীর আইপি ব্লক করে",
+      "শুধুমাত্র ফায়ারওয়াল দিয়ে",
+      "SQL এর GRANT এবং REVOKE স্টেটমেন্টের মাধ্যমে ব্যবহারকারীদের সুযোগ ও পারমিশন নির্ধারণ করে"
+    ],
+    "answer": "ঘ",
+    "explanation": "DAC মডেলে ডেটার মালিক নিজেই সিদ্ধান্ত নেন কে কোন টেবিল বা কলাম পড়তে বা লিখতে পারবে, যা SQL-এ `GRANT` এবং `REVOKE` কমান্ড দ্বারা পরিচালিত হয়।"
+  },
+  {
+    "id": 197,
+    "topic": "Parallel and Distributed Databases & Security",
+    "question": "Mandatory Access Control (MAC) মডেলে ডেটা এক্সেস নিয়ন্ত্রণের ভিত্তি কী?",
+    "options": [
+      "ইনডেক্সের সংখ্যা",
+      "ফাইল ফরম্যাট",
+      "ইউজারের ক্লিয়ারেন্স লেভেল এবং ডেটা অবজেক্টের সিকিউরিটি ক্লাসিফিকেশন লেভেল (যেমন: Top Secret, Secret, Confidential)",
+      "টেবিলের আকার"
+    ],
+    "answer": "গ",
+    "explanation": "MAC মডেলে সিস্টেম সেন্ট্রালি কঠোর নীতি প্রয়োগ করে। Bell-LaPadula মডেল (No Read-Up, No Write-Down) অনুযায়ী নিরাপত্তা স্তর যাচাই করে ডেটা প্রবেশাধিকার দেওয়া হয়।"
+  },
+  {
+    "id": 198,
+    "topic": "Parallel and Distributed Databases & Security",
+    "question": "Role-Based Access Control (RBAC)-এর মূল ধারণা কোনটি?",
+    "options": [
+      "কোনো পাসওয়ার্ড না রাখা",
+      "কেবল রুট ইউজার দিয়ে কাজ করা",
+      "প্রতিটি ব্যবহারকারীকে সরাসরি আলাদা আলাদা শত শত অনুমতি দেওয়া",
+      "অনুমতি বা পারমিশনগুলোকে নির্দিষ্ট রোলে (যেমন: Admin, Manager, Cashier) অর্পণ করা এবং ব্যবহারকারীদের সেই রোলে যুক্ত করা"
+    ],
+    "answer": "ঘ",
+    "explanation": "RBAC-এ অনুমতি দেওয়া হয় পদের বা রোলের (Role) ভিত্তিতে, যা বৃহৎ প্রতিষ্ঠানে ব্যবহারকারী অধিকার ব্যবস্থাপনা অত্যন্ত সহজ ও সুসংহত করে তোলে।"
+  },
+  {
+    "id": 199,
+    "topic": "Parallel and Distributed Databases & Security",
+    "question": "SQL Injection প্রতিরোধে অ্যাপ্লিকেশনে ইনপুট ডেটা যাচাই করার পাশাপাশি কোন কৌশলটি বাধ্যতামূলক?",
+    "options": [
+      "ডেটাবেজ সাইট বন্ধ রাখা",
+      "Parameterized Queries বা PreparedStatement ব্যবহার করা",
+      "কেবল GET রিকোয়েস্ট ব্যবহার করা",
+      "কন্টেইনারে ডেটা রাখা"
+    ],
+    "answer": "খ",
+    "explanation": "প্যারামিটারাইজড কুয়েরিতে ইউজার ইনপুটকে সরাসরি কুয়েরি কোডের সাথে জোড়া না লাগিয়ে আলাদা প্যারামিটার হিসেবে ডেটাবেজে পাঠানো হয়, ফলে ইনপুট কোনো নির্দেশ হিসেবে রান করার সুযোগ পায় না।"
+  },
+  {
+    "id": 200,
+    "topic": "Parallel and Distributed Databases & Security",
+    "question": "ডেটাবেজ টিউনিংয়ের (Database Performance Tuning) সবচেয়ে সাধারণ ও কার্যকর প্রাথমিক পদক্ষেপ কোনটি?",
+    "options": [
+      "ঘন ঘন ব্যবহৃত WHERE এবং JOIN কলামের ওপর যথাযথ ইনডেক্স তৈরি করা এবং ধীরগতির কুয়েরিগুলোর এক্সিকিউশন প্ল্যান বিশ্লেষণ করা",
+      "সকল ফরেন কি তুলে দেওয়া",
+      "সমস্ত টেবিল মুছে ফেলা",
+      "হার্ডডিস্ক বদলে ফেলা"
+    ],
+    "answer": "ক",
+    "explanation": "পারফরম্যান্স টিউনিংয়ের শুরুতেই স্লো কুয়েরি লগ ও এক্সিকিউশন প্ল্যান (EXPLAIN) দেখে অপ্রয়োজনীয় ফুল টেবিল স্ক্যান বাদ দিয়ে সঠিক ক্লাস্টার্ড/সেকেন্ডারি ইনডেক্স তৈরি করা হয়।"
+  }
+]

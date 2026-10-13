@@ -18,9 +18,15 @@ import {
   LogIn,
   LogOut,
   ChevronDown,
+  ChevronRight,
   Shield,
   Laptop,
-  Flame
+  Flame,
+  Cpu,
+  GraduationCap,
+  Zap,
+  ArrowRight,
+  CheckCircle2
 } from 'lucide-react';
 import { useAuth } from '../lib/authContext';
 
@@ -30,20 +36,24 @@ export default function Navbar() {
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
   const [jobSolutionsDropdownOpen, setJobSolutionsDropdownOpen] = useState(false);
   const [mobileJobSolutionsOpen, setMobileJobSolutionsOpen] = useState(true);
-  const [ictDropdownOpen, setIctDropdownOpen] = useState(false);
-  const [mobileIctOpen, setMobileIctOpen] = useState(true);
+  const [specialDropdownOpen, setSpecialDropdownOpen] = useState(false);
+  const [mobileSpecialOpen, setMobileSpecialOpen] = useState(true);
   const [mostImportantDropdownOpen, setMostImportantDropdownOpen] = useState(false);
   const [mobileMostImportantOpen, setMobileMostImportantOpen] = useState(true);
+  const [smartAiDropdownOpen, setSmartAiDropdownOpen] = useState(false);
+  const [mobileSmartAiOpen, setMobileSmartAiOpen] = useState(true);
   const [toolsDropdownOpen, setToolsDropdownOpen] = useState(false);
   const [mobileToolsOpen, setMobileToolsOpen] = useState(true);
 
   const dropdownRef = useRef(null);
   const jobSolutionsDropdownRef = useRef(null);
   const jobSolutionsTimeoutRef = useRef(null);
-  const ictDropdownRef = useRef(null);
-  const ictTimeoutRef = useRef(null);
+  const specialDropdownRef = useRef(null);
+  const specialTimeoutRef = useRef(null);
   const mostImportantDropdownRef = useRef(null);
   const mostImportantTimeoutRef = useRef(null);
+  const smartAiDropdownRef = useRef(null);
+  const smartAiTimeoutRef = useRef(null);
   const toolsDropdownRef = useRef(null);
   const toolsTimeoutRef = useRef(null);
 
@@ -52,7 +62,11 @@ export default function Navbar() {
   const isJobSolutionActive = pathname === '/job-solution' || pathname.startsWith('/job-solution') || pathname.startsWith('/question-bank-smart');
   const isIctActive = pathname === '/ict' || pathname.startsWith('/ict');
   const isMostImportantActive = pathname === '/most-important-questions' || pathname.startsWith('/most-important-questions') || pathname.startsWith('/most-important-smart');
+  const isAmpibianActive = pathname === '/ampibian-suggestion' || pathname.startsWith('/ampibian-suggestion');
+  const isBiddabariActive = pathname === '/biddabari-ntrca' || pathname.startsWith('/biddabari-ntrca');
+  const isSmartAiActive = pathname === '/smart-ai' || pathname.startsWith('/smart-ai');
   const isToolsActive = pathname === '/file-exam' || pathname === '/file-studio' || pathname.startsWith('/file-tools');
+  const isSpecialActive = isIctActive || isAmpibianActive || isBiddabariActive;
 
   const handleMouseEnterJobSolutions = () => {
     if (jobSolutionsTimeoutRef.current) clearTimeout(jobSolutionsTimeoutRef.current);
@@ -65,15 +79,15 @@ export default function Navbar() {
     }, 150);
   };
 
-  const handleMouseEnterIct = () => {
-    if (ictTimeoutRef.current) clearTimeout(ictTimeoutRef.current);
-    setIctDropdownOpen(true);
+  const handleMouseEnterSpecial = () => {
+    if (specialTimeoutRef.current) clearTimeout(specialTimeoutRef.current);
+    setSpecialDropdownOpen(true);
   };
 
-  const handleMouseLeaveIct = () => {
-    ictTimeoutRef.current = setTimeout(() => {
-      setIctDropdownOpen(false);
-    }, 150);
+  const handleMouseLeaveSpecial = () => {
+    specialTimeoutRef.current = setTimeout(() => {
+      setSpecialDropdownOpen(false);
+    }, 200);
   };
 
   const handleMouseEnterMostImportant = () => {
@@ -84,6 +98,17 @@ export default function Navbar() {
   const handleMouseLeaveMostImportant = () => {
     mostImportantTimeoutRef.current = setTimeout(() => {
       setMostImportantDropdownOpen(false);
+    }, 150);
+  };
+
+  const handleMouseEnterSmartAi = () => {
+    if (smartAiTimeoutRef.current) clearTimeout(smartAiTimeoutRef.current);
+    setSmartAiDropdownOpen(true);
+  };
+
+  const handleMouseLeaveSmartAi = () => {
+    smartAiTimeoutRef.current = setTimeout(() => {
+      setSmartAiDropdownOpen(false);
     }, 150);
   };
 
@@ -107,11 +132,14 @@ export default function Navbar() {
       if (jobSolutionsDropdownRef.current && !jobSolutionsDropdownRef.current.contains(event.target)) {
         setJobSolutionsDropdownOpen(false);
       }
-      if (ictDropdownRef.current && !ictDropdownRef.current.contains(event.target)) {
-        setIctDropdownOpen(false);
+      if (specialDropdownRef.current && !specialDropdownRef.current.contains(event.target)) {
+        setSpecialDropdownOpen(false);
       }
       if (mostImportantDropdownRef.current && !mostImportantDropdownRef.current.contains(event.target)) {
         setMostImportantDropdownOpen(false);
+      }
+      if (smartAiDropdownRef.current && !smartAiDropdownRef.current.contains(event.target)) {
+        setSmartAiDropdownOpen(false);
       }
       if (toolsDropdownRef.current && !toolsDropdownRef.current.contains(event.target)) {
         setToolsDropdownOpen(false);
@@ -121,8 +149,9 @@ export default function Navbar() {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
       if (jobSolutionsTimeoutRef.current) clearTimeout(jobSolutionsTimeoutRef.current);
-      if (ictTimeoutRef.current) clearTimeout(ictTimeoutRef.current);
+      if (specialTimeoutRef.current) clearTimeout(specialTimeoutRef.current);
       if (mostImportantTimeoutRef.current) clearTimeout(mostImportantTimeoutRef.current);
+      if (smartAiTimeoutRef.current) clearTimeout(smartAiTimeoutRef.current);
       if (toolsTimeoutRef.current) clearTimeout(toolsTimeoutRef.current);
     };
   }, []);
@@ -285,7 +314,7 @@ export default function Navbar() {
                     transition: 'all 0.15s ease'
                   }}
                   onMouseEnter={(e) => {
-                    if (pathname !== '/job-solution') e.currentTarget.style.background = '#f8fafc';
+                    if (pathname !== '/job-solution') e.currentTarget.style.background = '#ecfdf5';
                   }}
                   onMouseLeave={(e) => {
                     if (pathname !== '/job-solution') e.currentTarget.style.background = 'transparent';
@@ -321,7 +350,7 @@ export default function Navbar() {
                     transition: 'all 0.15s ease'
                   }}
                   onMouseEnter={(e) => {
-                    if (!pathname?.startsWith('/question-bank-smart')) e.currentTarget.style.background = '#f8fafc';
+                    if (!pathname?.startsWith('/question-bank-smart')) e.currentTarget.style.background = '#ecfdf5';
                   }}
                   onMouseLeave={(e) => {
                     if (!pathname?.startsWith('/question-bank-smart')) e.currentTarget.style.background = 'transparent';
@@ -341,15 +370,15 @@ export default function Navbar() {
             )}
           </div>
 
-          {/* ICT Dropdown (Layout box & Layout smart) */}
+          {/* Special Question Bank Mega Menu (ICT, Ampibian, Biddabari) */}
           <div 
             style={{ position: 'relative' }} 
-            ref={ictDropdownRef}
-            onMouseEnter={handleMouseEnterIct}
-            onMouseLeave={handleMouseLeaveIct}
+            ref={specialDropdownRef}
+            onMouseEnter={handleMouseEnterSpecial}
+            onMouseLeave={handleMouseLeaveSpecial}
           >
             <button
-              onClick={() => setIctDropdownOpen(prev => !prev)}
+              onClick={() => setSpecialDropdownOpen(prev => !prev)}
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -361,101 +390,521 @@ export default function Navbar() {
                 fontFamily: 'inherit',
                 lineHeight: 1.5,
                 whiteSpace: 'nowrap',
-                color: isIctActive ? '#047857' : '#475569',
-                background: isIctActive ? '#ecfdf5' : ictDropdownOpen ? '#f8fafc' : 'transparent',
-                border: isIctActive ? '1px solid #a7f3d0' : '1px solid transparent',
+                color: isSpecialActive ? '#047857' : '#475569',
+                background: isSpecialActive ? '#ecfdf5' : specialDropdownOpen ? '#f8fafc' : 'transparent',
+                border: isSpecialActive ? '1px solid #a7f3d0' : '1px solid transparent',
                 cursor: 'pointer',
                 transition: 'all 0.2s ease'
               }}
-              aria-expanded={ictDropdownOpen}
+              aria-expanded={specialDropdownOpen}
               aria-haspopup="true"
             >
-              <Laptop size={15} color={isIctActive ? '#047857' : '#475569'} />
-              <span>আইসিটি (ICT)</span>
+              <BookOpen size={15} color={isSpecialActive ? '#047857' : '#059669'} />
+              <span>স্পেশাল সাজেশন হাব</span>
               <ChevronDown 
                 size={14} 
                 style={{
-                  transform: ictDropdownOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+                  transform: specialDropdownOpen ? 'rotate(180deg)' : 'rotate(0deg)',
                   transition: 'transform 0.2s ease',
                   opacity: 0.75
                 }}
               />
             </button>
 
-            {/* ICT Dropdown Menu */}
-            {ictDropdownOpen && (
+            {/* Special Question Bank Mega Menu */}
+            {specialDropdownOpen && (
               <div 
-                className="dropdown-menu-anim"
+                className="mega-menu-container dropdown-menu-anim"
                 style={{
                   position: 'absolute',
                   top: 'calc(100% + 8px)',
-                  left: 0,
-                  width: '235px',
+                  left: '-70px',
+                  width: '800px',
                   background: '#ffffff',
-                  borderRadius: '12px',
-                  boxShadow: '0 12px 30px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.04)',
+                  borderRadius: '18px',
+                  boxShadow: '0 24px 50px -12px rgba(15, 23, 42, 0.16), 0 0 0 1px rgba(15, 23, 42, 0.06)',
                   border: '1px solid #e2e8f0',
-                  padding: '6px',
-                  zIndex: 100
+                  overflow: 'hidden',
+                  zIndex: 1000
                 }}
               >
-                <Link
-                  href="/ict"
-                  onClick={() => setIctDropdownOpen(false)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'flex-start',
-                    gap: '10px',
-                    padding: '8px 12px',
-                    borderRadius: '8px',
-                    fontSize: '0.92rem',
-                    fontWeight: 600,
-                    color: pathname === '/ict' ? '#047857' : '#1e293b',
-                    background: pathname === '/ict' ? '#ecfdf5' : 'transparent',
-                    border: pathname === '/ict' ? '1px solid #a7f3d0' : '1px solid transparent',
-                    textDecoration: 'none',
-                    transition: 'all 0.15s ease'
-                  }}
-                >
-                  <Layers size={16} color={pathname === '/ict' ? '#047857' : '#059669'} style={{ marginTop: '2px', flexShrink: 0 }} />
-                  <div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                      <span>Layout box</span>
+                {/* Sleek Minimalist Top Strip */}
+                <div style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  padding: '11px 20px',
+                  background: '#fafbfc',
+                  borderBottom: '1px solid #f1f5f9'
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <div style={{
+                      width: '24px',
+                      height: '24px',
+                      borderRadius: '6px',
+                      background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      color: '#ffffff',
+                      boxShadow: '0 2px 6px rgba(16, 185, 129, 0.25)'
+                    }}>
+                      <BookOpen size={13} />
                     </div>
-                    <span style={{ fontSize: '0.74rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px' }}>
-                      অধ্যায়ভিত্তিক আইসিটি
+                    <span style={{ fontWeight: 800, fontSize: '0.88rem', color: '#0f172a', letterSpacing: '-0.01em' }}>
+                      স্পেশাল সাজেশন হাব
+                    </span>
+                    <span style={{ fontSize: '0.74rem', color: '#94a3b8', fontWeight: 500 }}>
+                      • ৩টি মাস্টার আর্কাইভ
                     </span>
                   </div>
-                </Link>
+                  <div style={{
+                    fontSize: '0.72rem',
+                    fontWeight: 700,
+                    color: '#047857',
+                    background: '#ecfdf5',
+                    padding: '2px 9px',
+                    borderRadius: '12px',
+                    border: '1px solid #a7f3d0'
+                  }}>
+                    মোট ১৭,৮৮৯টি MCQ
+                  </div>
+                </div>
 
-                <Link
-                  href="/ict-smart/"
-                  onClick={() => setIctDropdownOpen(false)}
-                  style={{
+                {/* Body Grid: 3 Distinct Colored Cards Matching Reference Mockup */}
+                <div style={{
+                  display: 'grid',
+                  gridTemplateColumns: 'repeat(3, 1fr)',
+                  gap: '12px',
+                  padding: '14px 16px'
+                }}>
+                  {/* Card 1: ICT (Mint / Green Theme) */}
+                  <div style={{
+                    background: '#f2faf5',
+                    border: '1.5px solid #a7f3d0',
+                    borderRadius: '16px',
+                    padding: '12px 10px',
                     display: 'flex',
-                    alignItems: 'flex-start',
-                    gap: '10px',
-                    padding: '8px 12px',
-                    borderRadius: '8px',
-                    fontSize: '0.92rem',
-                    fontWeight: 600,
-                    color: pathname?.startsWith('/ict-smart') ? '#047857' : '#1e293b',
-                    background: pathname?.startsWith('/ict-smart') ? '#ecfdf5' : 'transparent',
-                    border: pathname?.startsWith('/ict-smart') ? '1px solid #a7f3d0' : '1px solid transparent',
-                    textDecoration: 'none',
-                    transition: 'all 0.15s ease'
-                  }}
-                >
-                  <Sparkles size={16} color={pathname?.startsWith('/ict-smart') ? '#047857' : '#0284c7'} style={{ marginTop: '2px', flexShrink: 0 }} />
-                  <div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                      <span>Layout smart</span>
+                    flexDirection: 'column',
+                    gap: '8px'
+                  }}>
+                    {/* Header */}
+                    <div style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      paddingBottom: '2px'
+                    }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <div style={{
+                          width: '38px',
+                          height: '38px',
+                          borderRadius: '11px',
+                          background: '#d1fae5',
+                          color: '#059669',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0
+                        }}>
+                          <Laptop size={19} />
+                        </div>
+                        <div>
+                          <div style={{ fontWeight: 800, fontSize: '0.92rem', color: '#0f172a', lineHeight: 1.2 }}>আইসিটি (ICT)</div>
+                          <div style={{ fontSize: '0.71rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>কম্পিউটার ও তথ্যপ্রযুক্তি</div>
+                        </div>
+                      </div>
+                      <span style={{
+                        background: '#d1fae5',
+                        color: '#047857',
+                        padding: '3px 8px',
+                        borderRadius: '20px',
+                        fontSize: '0.7rem',
+                        fontWeight: 700,
+                        whiteSpace: 'nowrap'
+                      }}>
+                        ১,৭৫৮ MCQ
+                      </span>
                     </div>
-                    <span style={{ fontSize: '0.74rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px' }}>
-                      স্মার্ট আইসিটি প্রশ্নভাণ্ডার
-                    </span>
+
+                    {/* Sub-item 1: Layout Box */}
+                    <Link
+                      href="/ict"
+                      onClick={() => setSpecialDropdownOpen(false)}
+                      className="mockup-link-card"
+                      style={{
+                        background: pathname === '/ict' ? '#ecfdf5' : '#ffffff',
+                        borderRadius: '12px',
+                        padding: '9px 11px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        textDecoration: 'none',
+                        border: pathname === '/ict' ? '1px solid #10b981' : '1px solid #e2e8f0',
+                        boxShadow: '0 1px 3px rgba(0,0,0,0.03)'
+                      }}
+                    >
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '9px', minWidth: 0 }}>
+                        <div style={{
+                          width: '30px',
+                          height: '30px',
+                          borderRadius: '8px',
+                          background: '#d1fae5',
+                          color: '#059669',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0
+                        }}>
+                          <Layers size={15} />
+                        </div>
+                        <div style={{ minWidth: 0 }}>
+                          <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#0f172a', lineHeight: 1.2 }}>
+                            Layout box
+                          </div>
+                          <span style={{ fontSize: '0.71rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                            অধ্যায়ভিত্তিক প্রশ্ন ও পরীক্ষা
+                          </span>
+                        </div>
+                      </div>
+                      <ChevronRight size={14} color="#94a3b8" className="mockup-chevron" style={{ flexShrink: 0 }} />
+                    </Link>
+
+                    {/* Sub-item 2: Layout Smart */}
+                    <Link
+                      href="/ict-smart/"
+                      onClick={() => setSpecialDropdownOpen(false)}
+                      className="mockup-link-card"
+                      style={{
+                        background: pathname?.startsWith('/ict-smart') ? '#ecfdf5' : '#ffffff',
+                        borderRadius: '12px',
+                        padding: '9px 11px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        textDecoration: 'none',
+                        border: pathname?.startsWith('/ict-smart') ? '1px solid #10b981' : '1px solid #e2e8f0',
+                        boxShadow: '0 1px 3px rgba(0,0,0,0.03)'
+                      }}
+                    >
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '9px', minWidth: 0 }}>
+                        <div style={{
+                          width: '30px',
+                          height: '30px',
+                          borderRadius: '8px',
+                          background: '#d1fae5',
+                          color: '#059669',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0
+                        }}>
+                          <Sparkles size={15} />
+                        </div>
+                        <div style={{ minWidth: 0 }}>
+                          <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#0f172a', lineHeight: 1.2 }}>
+                            Layout smart
+                          </div>
+                          <span style={{ fontSize: '0.71rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                            স্মার্ট প্রশ্ন সমাধান ও ফিল্টার
+                          </span>
+                        </div>
+                      </div>
+                      <ChevronRight size={14} color="#94a3b8" className="mockup-chevron" style={{ flexShrink: 0 }} />
+                    </Link>
                   </div>
-                </Link>
+
+                  {/* Card 2: Ampibian (Unified Soft Light Theme) */}
+                  <div style={{
+                    background: '#f2faf5',
+                    border: '1.5px solid #a7f3d0',
+                    borderRadius: '16px',
+                    padding: '12px 10px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '8px'
+                  }}>
+                    {/* Header */}
+                    <div style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      paddingBottom: '2px'
+                    }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <div style={{
+                          width: '38px',
+                          height: '38px',
+                          borderRadius: '11px',
+                          background: '#d1fae5',
+                          color: '#059669',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0
+                        }}>
+                          <BookOpen size={19} />
+                        </div>
+                        <div>
+                          <div style={{ fontWeight: 800, fontSize: '0.92rem', color: '#0f172a', lineHeight: 1.2 }}>অ্যাম্ফিবিয়ান</div>
+                          <div style={{ fontSize: '0.71rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>স্পেশাল সাজেশন</div>
+                        </div>
+                      </div>
+                      <span style={{
+                        background: '#d1fae5',
+                        color: '#047857',
+                        padding: '3px 8px',
+                        borderRadius: '20px',
+                        fontSize: '0.7rem',
+                        fontWeight: 700,
+                        whiteSpace: 'nowrap'
+                      }}>
+                        ৬,১৫৭ MCQ
+                      </span>
+                    </div>
+
+                    {/* Sub-item 1: Layout Box */}
+                    <Link
+                      href="/ampibian-suggestion"
+                      onClick={() => setSpecialDropdownOpen(false)}
+                      className="mockup-link-card"
+                      style={{
+                        background: pathname === '/ampibian-suggestion' ? '#ecfdf5' : '#ffffff',
+                        borderRadius: '12px',
+                        padding: '9px 11px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        textDecoration: 'none',
+                        border: pathname === '/ampibian-suggestion' ? '1px solid #10b981' : '1px solid #e2e8f0',
+                        boxShadow: '0 1px 3px rgba(0,0,0,0.03)'
+                      }}
+                    >
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '9px', minWidth: 0 }}>
+                        <div style={{
+                          width: '30px',
+                          height: '30px',
+                          borderRadius: '8px',
+                          background: '#d1fae5',
+                          color: '#059669',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0
+                        }}>
+                          <Layers size={15} />
+                        </div>
+                        <div style={{ minWidth: 0 }}>
+                          <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#0f172a', lineHeight: 1.2 }}>
+                            Layout box
+                          </div>
+                          <span style={{ fontSize: '0.71rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                            অধ্যায়ভিত্তিক সাজেশন ও টেস্ট
+                          </span>
+                        </div>
+                      </div>
+                      <ChevronRight size={14} color="#94a3b8" className="mockup-chevron" style={{ flexShrink: 0 }} />
+                    </Link>
+
+                    {/* Sub-item 2: Layout Smart */}
+                    <Link
+                      href="/ampibian-suggestion-smart/"
+                      onClick={() => setSpecialDropdownOpen(false)}
+                      className="mockup-link-card"
+                      style={{
+                        background: pathname?.startsWith('/ampibian-suggestion-smart') ? '#ecfdf5' : '#ffffff',
+                        borderRadius: '12px',
+                        padding: '9px 11px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        textDecoration: 'none',
+                        border: pathname?.startsWith('/ampibian-suggestion-smart') ? '1px solid #10b981' : '1px solid #e2e8f0',
+                        boxShadow: '0 1px 3px rgba(0,0,0,0.03)'
+                      }}
+                    >
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '9px', minWidth: 0 }}>
+                        <div style={{
+                          width: '30px',
+                          height: '30px',
+                          borderRadius: '8px',
+                          background: '#d1fae5',
+                          color: '#059669',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0
+                        }}>
+                          <Sparkles size={15} />
+                        </div>
+                        <div style={{ minWidth: 0 }}>
+                          <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#0f172a', lineHeight: 1.2 }}>
+                            Layout smart
+                          </div>
+                          <span style={{ fontSize: '0.71rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                            স্মার্ট সাজেশন রুম ও শর্টকাট
+                          </span>
+                        </div>
+                      </div>
+                      <ChevronRight size={14} color="#94a3b8" className="mockup-chevron" style={{ flexShrink: 0 }} />
+                    </Link>
+                  </div>
+
+                  {/* Card 3: Biddabari NTRCA (Unified Soft Light Theme) */}
+                  <div style={{
+                    background: '#f2faf5',
+                    border: '1.5px solid #a7f3d0',
+                    borderRadius: '16px',
+                    padding: '12px 10px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '8px'
+                  }}>
+                    {/* Header */}
+                    <div style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      paddingBottom: '2px'
+                    }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <div style={{
+                          width: '38px',
+                          height: '38px',
+                          borderRadius: '11px',
+                          background: '#d1fae5',
+                          color: '#059669',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0
+                        }}>
+                          <GraduationCap size={19} />
+                        </div>
+                        <div>
+                          <div style={{ fontWeight: 800, fontSize: '0.92rem', color: '#0f172a', lineHeight: 1.2 }}>বিদ্যাবাড়ি NTRCA</div>
+                          <div style={{ fontSize: '0.71rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>শিক্ষক নিবন্ধন ও লেকচার</div>
+                        </div>
+                      </div>
+                      <span style={{
+                        background: '#d1fae5',
+                        color: '#047857',
+                        padding: '3px 8px',
+                        borderRadius: '20px',
+                        fontSize: '0.7rem',
+                        fontWeight: 700,
+                        whiteSpace: 'nowrap'
+                      }}>
+                        ৯,৯৭৪ MCQ
+                      </span>
+                    </div>
+
+                    {/* Sub-item 1: Layout Box */}
+                    <Link
+                      href="/biddabari-ntrca"
+                      onClick={() => setSpecialDropdownOpen(false)}
+                      className="mockup-link-card"
+                      style={{
+                        background: pathname === '/biddabari-ntrca' ? '#ecfdf5' : '#ffffff',
+                        borderRadius: '12px',
+                        padding: '9px 11px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        textDecoration: 'none',
+                        border: pathname === '/biddabari-ntrca' ? '1px solid #10b981' : '1px solid #e2e8f0',
+                        boxShadow: '0 1px 3px rgba(0,0,0,0.03)'
+                      }}
+                    >
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '9px', minWidth: 0 }}>
+                        <div style={{
+                          width: '30px',
+                          height: '30px',
+                          borderRadius: '8px',
+                          background: '#d1fae5',
+                          color: '#059669',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0
+                        }}>
+                          <Layers size={15} />
+                        </div>
+                        <div style={{ minWidth: 0 }}>
+                          <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#0f172a', lineHeight: 1.2 }}>
+                            Layout box
+                          </div>
+                          <span style={{ fontSize: '0.71rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                            লেকচারভিত্তিক প্রশ্ন ও পরীক্ষা
+                          </span>
+                        </div>
+                      </div>
+                      <ChevronRight size={14} color="#94a3b8" className="mockup-chevron" style={{ flexShrink: 0 }} />
+                    </Link>
+
+                    {/* Sub-item 2: Layout Smart */}
+                    <Link
+                      href="/biddabari-ntrca-smart/"
+                      onClick={() => setSpecialDropdownOpen(false)}
+                      className="mockup-link-card"
+                      style={{
+                        background: pathname?.startsWith('/biddabari-ntrca-smart') ? '#ecfdf5' : '#ffffff',
+                        borderRadius: '12px',
+                        padding: '9px 11px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        textDecoration: 'none',
+                        border: pathname?.startsWith('/biddabari-ntrca-smart') ? '1px solid #10b981' : '1px solid #e2e8f0',
+                        boxShadow: '0 1px 3px rgba(0,0,0,0.03)'
+                      }}
+                    >
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '9px', minWidth: 0 }}>
+                        <div style={{
+                          width: '30px',
+                          height: '30px',
+                          borderRadius: '8px',
+                          background: '#d1fae5',
+                          color: '#059669',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0
+                        }}>
+                          <Sparkles size={15} />
+                        </div>
+                        <div style={{ minWidth: 0 }}>
+                          <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#0f172a', lineHeight: 1.2 }}>
+                            Layout smart
+                          </div>
+                          <span style={{ fontSize: '0.71rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                            শিক্ষক নিবন্ধন স্পেশাল ভিউ
+                          </span>
+                        </div>
+                      </div>
+                      <ChevronRight size={14} color="#94a3b8" className="mockup-chevron" style={{ flexShrink: 0 }} />
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Footer Bar */}
+                <div style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  padding: '9px 18px',
+                  background: '#fafbfc',
+                  borderTop: '1px solid #f1f5f9',
+                  fontSize: '0.75rem'
+                }}>
+                  <div style={{ color: '#64748b', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <CheckCircle2 size={13} color="#059669" />
+                    <span>আইসিটি, অ্যাম্ফিবিয়ান ও বিদ্যাবাড়ি—সবগুলোতেই প্রশ্নব্যাংক ও স্মার্ট ভিউ মোড উপলব্ধ</span>
+                  </div>
+                  <span style={{ color: '#047857', fontWeight: 700 }}>
+                    ১০০% নির্ভুল সমাধান
+                  </span>
+                </div>
               </div>
             )}
           </div>
@@ -572,6 +1021,126 @@ export default function Navbar() {
                     </div>
                     <span style={{ fontSize: '0.74rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px' }}>
                       স্মার্ট সমাধান ও প্র্যাকটিস
+                    </span>
+                  </div>
+                </Link>
+              </div>
+            )}
+          </div>
+
+
+
+          {/* Smart AI Dropdown */}
+          <div 
+            style={{ position: 'relative' }} 
+            ref={smartAiDropdownRef}
+            onMouseEnter={handleMouseEnterSmartAi}
+            onMouseLeave={handleMouseLeaveSmartAi}
+          >
+            <button
+              onClick={() => setSmartAiDropdownOpen(prev => !prev)}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '5px',
+                padding: '7px 10px',
+                borderRadius: '8px',
+                fontSize: '0.88rem',
+                fontWeight: 600,
+                fontFamily: 'inherit',
+                lineHeight: 1.5,
+                whiteSpace: 'nowrap',
+                color: isSmartAiActive ? '#047857' : '#475569',
+                background: isSmartAiActive ? '#ecfdf5' : smartAiDropdownOpen ? '#f8fafc' : 'transparent',
+                border: isSmartAiActive ? '1px solid #a7f3d0' : '1px solid transparent',
+                cursor: 'pointer',
+                transition: 'all 0.2s ease'
+              }}
+              aria-expanded={smartAiDropdownOpen}
+              aria-haspopup="true"
+            >
+              <Cpu size={15} color={isSmartAiActive ? '#047857' : '#7c3aed'} />
+              <span>স্মার্ট AI</span>
+              <ChevronDown 
+                size={14} 
+                style={{
+                  transform: smartAiDropdownOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+                  transition: 'transform 0.2s ease',
+                  opacity: 0.75
+                }}
+              />
+            </button>
+
+            {smartAiDropdownOpen && (
+              <div 
+                className="dropdown-menu-anim"
+                style={{
+                  position: 'absolute',
+                  top: 'calc(100% + 8px)',
+                  left: 0,
+                  width: '240px',
+                  background: '#ffffff',
+                  borderRadius: '12px',
+                  boxShadow: '0 12px 30px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.04)',
+                  border: '1px solid #e2e8f0',
+                  padding: '6px',
+                  zIndex: 100
+                }}
+              >
+                <Link
+                  href="/smart-ai"
+                  onClick={() => setSmartAiDropdownOpen(false)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '10px',
+                    padding: '8px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.92rem',
+                    fontWeight: 600,
+                    color: pathname === '/smart-ai' ? '#047857' : '#1e293b',
+                    background: pathname === '/smart-ai' ? '#ecfdf5' : 'transparent',
+                    border: pathname === '/smart-ai' ? '1px solid #a7f3d0' : '1px solid transparent',
+                    textDecoration: 'none',
+                    transition: 'all 0.15s ease'
+                  }}
+                >
+                  <Layers size={16} color={pathname === '/smart-ai' ? '#047857' : '#059669'} style={{ marginTop: '2px', flexShrink: 0 }} />
+                  <div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <span>Layout box</span>
+                    </div>
+                    <span style={{ fontSize: '0.74rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px' }}>
+                      বিপিএসসি ও শিক্ষক নিবন্ধন AI
+                    </span>
+                  </div>
+                </Link>
+
+                <Link
+                  href="/smart-ai-smart/"
+                  onClick={() => setSmartAiDropdownOpen(false)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '10px',
+                    padding: '8px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.92rem',
+                    fontWeight: 600,
+                    color: pathname?.startsWith('/smart-ai-smart') ? '#047857' : '#1e293b',
+                    background: pathname?.startsWith('/smart-ai-smart') ? '#ecfdf5' : 'transparent',
+                    border: pathname?.startsWith('/smart-ai-smart') ? '1px solid #a7f3d0' : '1px solid transparent',
+                    textDecoration: 'none',
+                    transition: 'all 0.15s ease'
+                  }}
+                >
+                  <Sparkles size={16} color={pathname?.startsWith('/smart-ai-smart') ? '#047857' : '#0284c7'} style={{ marginTop: '2px', flexShrink: 0 }} />
+                  <div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <span>Layout smart</span>
+                    </div>
+                    <span style={{ fontSize: '0.74rem', color: '#64748b', fontWeight: 500, display: 'block', marginTop: '1px' }}>
+                      এআই স্পেশাল প্রস্তুতি রুম
                     </span>
                   </div>
                 </Link>
@@ -1166,15 +1735,15 @@ export default function Navbar() {
             )}
           </div>
 
-          {/* 3. ICT Accordion (Mobile) */}
+          {/* 3. Special Question Bank Accordion (Mobile) */}
           <div style={{
             borderRadius: '10px',
-            border: isIctActive ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
-            background: isIctActive ? '#f0fdf4' : '#f8fafc',
+            border: isSpecialActive ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
+            background: isSpecialActive ? '#f0fdf4' : '#f8fafc',
             overflow: 'hidden'
           }}>
             <button
-              onClick={() => setMobileIctOpen(!mobileIctOpen)}
+              onClick={() => setMobileSpecialOpen(!mobileSpecialOpen)}
               style={{
                 width: '100%',
                 display: 'flex',
@@ -1187,76 +1756,213 @@ export default function Navbar() {
                 fontSize: '0.95rem',
                 fontWeight: 600,
                 fontFamily: 'inherit',
-                color: isIctActive ? '#047857' : '#1e293b'
+                color: isSpecialActive ? '#047857' : '#1e293b'
               }}
             >
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                <Laptop size={18} color={isIctActive ? '#047857' : '#475569'} />
-                <span>আইসিটি (ICT)</span>
+                <BookOpen size={18} color={isSpecialActive ? '#047857' : '#059669'} />
+                <span>স্পেশাল সাজেশন হাব</span>
               </div>
               <ChevronDown 
                 size={16} 
                 style={{
-                  transform: mobileIctOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+                  transform: mobileSpecialOpen ? 'rotate(180deg)' : 'rotate(0deg)',
                   transition: 'transform 0.2s ease',
                   opacity: 0.75
                 }} 
               />
             </button>
 
-            {mobileIctOpen && (
+            {mobileSpecialOpen && (
               <div style={{
-                padding: '4px 10px 10px',
+                padding: '8px 10px 12px',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '6px',
+                gap: '10px',
                 borderTop: '1px solid rgba(0,0,0,0.06)'
               }}>
-                <Link
-                  href="/ict"
-                  onClick={() => setMobileMenuOpen(false)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'space-between',
-                    padding: '10px 12px',
-                    borderRadius: '8px',
-                    fontSize: '0.95rem',
-                    fontWeight: 600,
-                    color: pathname === '/ict' ? '#047857' : '#334155',
-                    background: pathname === '/ict' ? '#ecfdf5' : '#ffffff',
-                    border: pathname === '/ict' ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
-                    textDecoration: 'none'
-                  }}
-                >
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                    <Layers size={16} color={pathname === '/ict' ? '#047857' : '#64748b'} />
+                {/* Category 1: ICT (আইসিটি) */}
+                <div style={{
+                  background: '#ffffff',
+                  borderRadius: '10px',
+                  border: '1px solid #e2e8f0',
+                  padding: '8px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '6px'
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '2px 4px 6px', borderBottom: '1px solid #f1f5f9' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <Laptop size={14} color="#059669" />
+                      <span style={{ fontWeight: 700, fontSize: '0.85rem', color: '#0f172a' }}>আইসিটি (ICT)</span>
+                    </div>
+                    <span style={{ fontSize: '0.68rem', fontWeight: 600, color: '#047857', background: '#ecfdf5', padding: '2px 6px', borderRadius: '10px', border: '1px solid #a7f3d0' }}>
+                      ১,৭৫৮ MCQ
+                    </span>
+                  </div>
+                  <Link
+                    href="/ict"
+                    onClick={() => setMobileMenuOpen(false)}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '8px 10px',
+                      borderRadius: '7px',
+                      fontSize: '0.88rem',
+                      fontWeight: 600,
+                      color: pathname === '/ict' ? '#047857' : '#334155',
+                      background: pathname === '/ict' ? '#ecfdf5' : '#f8fafc',
+                      border: pathname === '/ict' ? '1px solid #a7f3d0' : '1px solid transparent',
+                      textDecoration: 'none'
+                    }}
+                  >
+                    <Layers size={15} color={pathname === '/ict' ? '#047857' : '#64748b'} />
                     <span>Layout box (অধ্যায়ভিত্তিক)</span>
-                  </div>
-                </Link>
-
-                <Link
-                  href="/ict-smart/"
-                  onClick={() => setMobileMenuOpen(false)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'space-between',
-                    padding: '10px 12px',
-                    borderRadius: '8px',
-                    fontSize: '0.95rem',
-                    fontWeight: 600,
-                    color: pathname?.startsWith('/ict-smart') ? '#047857' : '#334155',
-                    background: pathname?.startsWith('/ict-smart') ? '#ecfdf5' : '#ffffff',
-                    border: pathname?.startsWith('/ict-smart') ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
-                    textDecoration: 'none'
-                  }}
-                >
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                    <Sparkles size={16} color={pathname?.startsWith('/ict-smart') ? '#047857' : '#0284c7'} />
+                  </Link>
+                  <Link
+                    href="/ict-smart/"
+                    onClick={() => setMobileMenuOpen(false)}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '8px 10px',
+                      borderRadius: '7px',
+                      fontSize: '0.88rem',
+                      fontWeight: 600,
+                      color: pathname?.startsWith('/ict-smart') ? '#047857' : '#334155',
+                      background: pathname?.startsWith('/ict-smart') ? '#ecfdf5' : '#f8fafc',
+                      border: pathname?.startsWith('/ict-smart') ? '1px solid #a7f3d0' : '1px solid transparent',
+                      textDecoration: 'none'
+                    }}
+                  >
+                    <Sparkles size={15} color={pathname?.startsWith('/ict-smart') ? '#047857' : '#0284c7'} />
                     <span>Layout smart (স্মার্ট প্রশ্নভাণ্ডার)</span>
+                  </Link>
+                </div>
+
+                {/* Category 2: Ampibian (অ্যাম্ফিবিয়ান) */}
+                <div style={{
+                  background: '#ffffff',
+                  borderRadius: '10px',
+                  border: '1px solid #e2e8f0',
+                  padding: '8px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '6px'
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '2px 4px 6px', borderBottom: '1px solid #f1f5f9' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <BookOpen size={14} color="#059669" />
+                      <span style={{ fontWeight: 700, fontSize: '0.85rem', color: '#0f172a' }}>অ্যাম্ফিবিয়ান সাজেশন</span>
+                    </div>
+                    <span style={{ fontSize: '0.68rem', fontWeight: 600, color: '#b45309', background: '#fef3c7', padding: '2px 6px', borderRadius: '10px', border: '1px solid #fde68a' }}>
+                      ৬,১৫৭ MCQ
+                    </span>
                   </div>
-                </Link>
+                  <Link
+                    href="/ampibian-suggestion"
+                    onClick={() => setMobileMenuOpen(false)}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '8px 10px',
+                      borderRadius: '7px',
+                      fontSize: '0.88rem',
+                      fontWeight: 600,
+                      color: pathname === '/ampibian-suggestion' ? '#047857' : '#334155',
+                      background: pathname === '/ampibian-suggestion' ? '#ecfdf5' : '#f8fafc',
+                      border: pathname === '/ampibian-suggestion' ? '1px solid #a7f3d0' : '1px solid transparent',
+                      textDecoration: 'none'
+                    }}
+                  >
+                    <Layers size={15} color={pathname === '/ampibian-suggestion' ? '#047857' : '#64748b'} />
+                    <span>Layout box (অধ্যায়ভিত্তিক)</span>
+                  </Link>
+                  <Link
+                    href="/ampibian-suggestion-smart/"
+                    onClick={() => setMobileMenuOpen(false)}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '8px 10px',
+                      borderRadius: '7px',
+                      fontSize: '0.88rem',
+                      fontWeight: 600,
+                      color: pathname?.startsWith('/ampibian-suggestion-smart') ? '#047857' : '#334155',
+                      background: pathname?.startsWith('/ampibian-suggestion-smart') ? '#ecfdf5' : '#f8fafc',
+                      border: pathname?.startsWith('/ampibian-suggestion-smart') ? '1px solid #a7f3d0' : '1px solid transparent',
+                      textDecoration: 'none'
+                    }}
+                  >
+                    <Sparkles size={15} color={pathname?.startsWith('/ampibian-suggestion-smart') ? '#047857' : '#0284c7'} />
+                    <span>Layout smart (স্মার্ট প্রশ্নভাণ্ডার)</span>
+                  </Link>
+                </div>
+
+                {/* Category 3: Biddabari NTRCA (বিদ্যাবাড়ি NTRCA) */}
+                <div style={{
+                  background: '#ffffff',
+                  borderRadius: '10px',
+                  border: '1px solid #e2e8f0',
+                  padding: '8px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '6px'
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '2px 4px 6px', borderBottom: '1px solid #f1f5f9' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <GraduationCap size={14} color="#2563eb" />
+                      <span style={{ fontWeight: 700, fontSize: '0.85rem', color: '#0f172a' }}>বিদ্যাবাড়ি NTRCA</span>
+                    </div>
+                    <span style={{ fontSize: '0.68rem', fontWeight: 600, color: '#1d4ed8', background: '#eff6ff', padding: '2px 6px', borderRadius: '10px', border: '1px solid #bfdbfe' }}>
+                      ৯,৯৭৪ MCQ
+                    </span>
+                  </div>
+                  <Link
+                    href="/biddabari-ntrca"
+                    onClick={() => setMobileMenuOpen(false)}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '8px 10px',
+                      borderRadius: '7px',
+                      fontSize: '0.88rem',
+                      fontWeight: 600,
+                      color: pathname === '/biddabari-ntrca' ? '#047857' : '#334155',
+                      background: pathname === '/biddabari-ntrca' ? '#ecfdf5' : '#f8fafc',
+                      border: pathname === '/biddabari-ntrca' ? '1px solid #a7f3d0' : '1px solid transparent',
+                      textDecoration: 'none'
+                    }}
+                  >
+                    <Layers size={15} color={pathname === '/biddabari-ntrca' ? '#047857' : '#64748b'} />
+                    <span>Layout box (লেকচারভিত্তিক)</span>
+                  </Link>
+                  <Link
+                    href="/biddabari-ntrca-smart/"
+                    onClick={() => setMobileMenuOpen(false)}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '8px 10px',
+                      borderRadius: '7px',
+                      fontSize: '0.88rem',
+                      fontWeight: 600,
+                      color: pathname?.startsWith('/biddabari-ntrca-smart') ? '#047857' : '#334155',
+                      background: pathname?.startsWith('/biddabari-ntrca-smart') ? '#ecfdf5' : '#f8fafc',
+                      border: pathname?.startsWith('/biddabari-ntrca-smart') ? '1px solid #a7f3d0' : '1px solid transparent',
+                      textDecoration: 'none'
+                    }}
+                  >
+                    <Sparkles size={15} color={pathname?.startsWith('/biddabari-ntrca-smart') ? '#047857' : '#0284c7'} />
+                    <span>Layout smart (স্মার্ট প্রশ্নভাণ্ডার)</span>
+                  </Link>
+                </div>
               </div>
             )}
           </div>
@@ -1349,6 +2055,103 @@ export default function Navbar() {
                 >
                   <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                     <Sparkles size={16} color={pathname?.startsWith('/most-important-smart') ? '#047857' : '#0284c7'} />
+                    <span>Layout smart (স্মার্ট প্রশ্নভাণ্ডার)</span>
+                  </div>
+                </Link>
+              </div>
+            )}
+          </div>
+
+
+
+          {/* Smart AI Accordion (Mobile) */}
+          <div style={{
+            borderRadius: '10px',
+            border: isSmartAiActive ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
+            background: isSmartAiActive ? '#f0fdf4' : '#f8fafc',
+            overflow: 'hidden'
+          }}>
+            <button
+              onClick={() => setMobileSmartAiOpen(!mobileSmartAiOpen)}
+              style={{
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                padding: '12px 16px',
+                background: 'transparent',
+                border: 'none',
+                cursor: 'pointer',
+                fontSize: '0.95rem',
+                fontWeight: 600,
+                fontFamily: 'inherit',
+                color: isSmartAiActive ? '#047857' : '#1e293b'
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                <Cpu size={18} color={isSmartAiActive ? '#047857' : '#7c3aed'} />
+                <span>স্মার্ট AI (Smart AI)</span>
+              </div>
+              <ChevronDown 
+                size={16} 
+                style={{
+                  transform: mobileSmartAiOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+                  transition: 'transform 0.2s ease',
+                  opacity: 0.75
+                }} 
+              />
+            </button>
+
+            {mobileSmartAiOpen && (
+              <div style={{
+                padding: '4px 10px 10px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '6px',
+                borderTop: '1px solid rgba(0,0,0,0.06)'
+              }}>
+                <Link
+                  href="/smart-ai"
+                  onClick={() => setMobileMenuOpen(false)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    padding: '10px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.95rem',
+                    fontWeight: 600,
+                    color: pathname === '/smart-ai' ? '#047857' : '#334155',
+                    background: pathname === '/smart-ai' ? '#ecfdf5' : '#ffffff',
+                    border: pathname === '/smart-ai' ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
+                    textDecoration: 'none'
+                  }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <Layers size={16} color={pathname === '/smart-ai' ? '#047857' : '#64748b'} />
+                    <span>Layout box (বিষয়ভিত্তিক AI)</span>
+                  </div>
+                </Link>
+
+                <Link
+                  href="/smart-ai-smart/"
+                  onClick={() => setMobileMenuOpen(false)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    padding: '10px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.95rem',
+                    fontWeight: 600,
+                    color: pathname?.startsWith('/smart-ai-smart') ? '#047857' : '#334155',
+                    background: pathname?.startsWith('/smart-ai-smart') ? '#ecfdf5' : '#ffffff',
+                    border: pathname?.startsWith('/smart-ai-smart') ? '1px solid #a7f3d0' : '1px solid #e2e8f0',
+                    textDecoration: 'none'
+                  }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <Sparkles size={16} color={pathname?.startsWith('/smart-ai-smart') ? '#047857' : '#0284c7'} />
                     <span>Layout smart (স্মার্ট প্রশ্নভাণ্ডার)</span>
                   </div>
                 </Link>
@@ -1505,6 +2308,22 @@ export default function Navbar() {
         }
         .dropdown-menu-anim {
           animation: dropdownFade 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        .mockup-link-card {
+          transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+        }
+        .mockup-link-card:hover {
+          background: #ecfdf5 !important;
+          border-color: #86efac !important;
+          transform: translateY(-1.5px) !important;
+          box-shadow: 0 4px 14px rgba(16, 185, 129, 0.12) !important;
+        }
+        .mockup-link-card .mockup-chevron {
+          transition: transform 0.2s ease, color 0.2s ease;
+        }
+        .mockup-link-card:hover .mockup-chevron {
+          transform: translateX(2px) !important;
+          color: #047857 !important;
         }
         @media (min-width: 1120px) {
           .desktop-nav {

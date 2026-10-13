@@ -1,0 +1,2602 @@
+[
+  {
+    "id": 1,
+    "topic": "Right Form of Verb",
+    "question": "Neither the teacher nor the students — present in the seminar yesterday.",
+    "options": [
+      "was",
+      "were",
+      "have been",
+      "are"
+    ],
+    "answer": "খ",
+    "explanation": "'Neither... nor' দ্বারা দুটি ভিন্ন বচনের সাবজেক্ট যুক্ত হলে Verb সর্বদা তার নিকটবর্তী সাবজেক্ট (students - plural) অনুসারে বসে; আর 'yesterday' থাকায় Past Plural 'were' বসবে।"
+  },
+  {
+    "id": 2,
+    "topic": "Right Form of Verb",
+    "question": "The quality of these mangoes — admirable.",
+    "options": [
+      "are",
+      "have been",
+      "were",
+      "is"
+    ],
+    "answer": "ঘ",
+    "explanation": "Prepositional phrase 'of these mangoes'-এর পূর্বের মূল Headword 'quality' (Singular Noun) অনুযায়ী Verb Singular 'is' হবে।"
+  },
+  {
+    "id": 3,
+    "topic": "Right Form of Verb",
+    "question": "Ten miles — a long distance to walk.",
+    "options": [
+      "are",
+      "have been",
+      "is",
+      "were"
+    ],
+    "answer": "গ",
+    "explanation": "দূরত্ব, অর্থ, সময় বা পরিমাপের একক দেখতে Plural হলেও সামগ্রিক একক হিসেবে Singular Verb গ্রহণ করে।"
+  },
+  {
+    "id": 4,
+    "topic": "Right Form of Verb",
+    "question": "Bread and butter — his favorite breakfast.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have been"
+    ],
+    "answer": "ক",
+    "explanation": "দুটি Noun 'and' দ্বারা যুক্ত হয়ে যদি একটি একক ভাব বা খাবার প্রকাশ করে, তবে Verb Singular ('is') হয়।"
+  },
+  {
+    "id": 5,
+    "topic": "Right Form of Verb",
+    "question": "The chairman, along with his committee members, — attending the meeting.",
+    "options": [
+      "are",
+      "have been",
+      "is",
+      "were"
+    ],
+    "answer": "গ",
+    "explanation": "'Along with', 'as well as', 'together with', 'accompanied by' ইত্যাদি থাকলে প্রথম সাবজেক্ট ('The chairman' - singular) অনুসারে Verb বসে।"
+  },
+  {
+    "id": 6,
+    "topic": "Right Form of Verb",
+    "question": "Each of the boys — given a certificate.",
+    "options": [
+      "have been",
+      "are",
+      "were",
+      "was"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Each', 'Every', 'Either', 'Neither'-এর পর Plural Noun থাকলেও Verb সর্বদা Singular ('was') হয়।"
+  },
+  {
+    "id": 7,
+    "topic": "Right Form of Verb",
+    "question": "More than one candidate — selected for the interview.",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+    ],
+    "answer": "খ",
+    "explanation": "'More than one'-এর পর Singular Noun এবং Singular Verb ('was') বসে (কিন্তু 'More candidates than one were' হয়)।"
+  },
+  {
+    "id": 8,
+    "topic": "Right Form of Verb",
+    "question": "The Arabian Nights — still a popular book.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have been"
+    ],
+    "answer": "ক",
+    "explanation": "বই, নাটক বা পত্রিকার নাম দেখতে Plural হলেও তা একটি একক গ্রন্থ নির্দেশ করায় Singular Verb ('is') বসে।"
+  },
+  {
+    "id": 9,
+    "topic": "Right Form of Verb",
+    "question": "Two-thirds of the work — completed successfully.",
+    "options": [
+      "have been",
+      "has been",
+      "are",
+      "were"
+    ],
+    "answer": "খ",
+    "explanation": "ভগ্নাংশ বা শতাংশের পর Uncountable Noun ('work') থাকলে Verb Singular ('has been') হয়।"
+  },
+  {
+    "id": 10,
+    "topic": "Right Form of Verb",
+    "question": "Two-thirds of the students — present today.",
+    "options": [
+      "has been",
+      "was",
+      "is",
+      "are"
+    ],
+    "answer": "ঘ",
+    "explanation": "ভগ্নাংশ বা শতাংশের পর Plural Countable Noun ('students') থাকলে Verb Plural ('are') হয়।"
+  },
+  {
+    "id": 11,
+    "topic": "Right Form of Verb",
+    "question": "Physics — a challenging subject for many students.",
+    "options": [
+      "are",
+      "have been",
+      "is",
+      "were"
+    ],
+    "answer": "গ",
+    "explanation": "বিষয়ের নাম (Physics, Mathematics, Economics, Politics) দেখতে Plural হলেও Verb Singular ('is') হয়।"
+  },
+  {
+    "id": 12,
+    "topic": "Right Form of Verb",
+    "question": "Neither of the sisters — married yet.",
+    "options": [
+      "is",
+      "have been",
+      "are",
+      "were"
+    ],
+    "answer": "ক",
+    "explanation": "'Neither of'-এর পর Plural Noun থাকলেও ব্যাকরণগতভাবে Verb Singular ('is') হয়।"
+  },
+  {
+    "id": 13,
+    "topic": "Right Form of Verb",
+    "question": "The jury — divided in their opinions.",
+    "options": [
+      "were",
+      "has been",
+      "is",
+      "was"
+    ],
+    "answer": "ক",
+    "explanation": "Collective Noun (Jury, Committee, Team) যখন সদস্যদের মধ্যে মতবিরোধ বা ভিন্নতা প্রকাশ করে (Noun of Multitude), তখন Verb Plural ('were') হয়।"
+  },
+  {
+    "id": 14,
+    "topic": "Right Form of Verb",
+    "question": "The committee — submitted its report unanimously.",
+    "options": [
+      "were",
+      "have",
+      "has",
+      "are"
+    ],
+    "answer": "গ",
+    "explanation": "Collective Noun একক সত্ত্বা হিসেবে ঐক্যবদ্ধভাবে কাজ করলে Verb Singular ('has') এবং Pronoun 'its' হয়।"
+  },
+  {
+    "id": 15,
+    "topic": "Right Form of Verb",
+    "question": "One of the students — absent from class today.",
+    "options": [
+      "are",
+      "have been",
+      "were",
+      "is"
+    ],
+    "answer": "ঘ",
+    "explanation": "'One of the + plural noun'-এর পর Verb সর্বদা Singular ('is') হয়।"
+  },
+  {
+    "id": 16,
+    "topic": "Right Form of Verb",
+    "question": "He as well as his brothers — active in sports.",
+    "options": [
+      "have been",
+      "is",
+      "are",
+      "were"
+    ],
+    "answer": "খ",
+    "explanation": "'As well as' যুক্ত বাক্যে প্রথম সাবজেক্ট 'He' অনুসারে Verb Singular 'is' হবে।"
+  },
+  {
+    "id": 17,
+    "topic": "Right Form of Verb",
+    "question": "Fifty thousand dollars — a huge sum of money.",
+    "options": [
+      "have been",
+      "were",
+      "is",
+      "are"
+    ],
+    "answer": "গ",
+    "explanation": "নির্দিষ্ট পরিমাণ অর্থ সামগ্রিক পরিমাণ নির্দেশ করায় Singular Verb ('is') গ্রহণ করে।"
+  },
+  {
+    "id": 18,
+    "topic": "Right Form of Verb",
+    "question": "Slow and steady — the race.",
+    "options": [
+      "won",
+      "wins",
+      "win",
+      "winning"
+    ],
+    "answer": "খ",
+    "explanation": "'Slow and steady' একটি একক ধারণা প্রকাশ করায় চিরন্তন সত্য হিসেবে Singular Verb 'wins' বসে।"
+  },
+  {
+    "id": 19,
+    "topic": "Right Form of Verb",
+    "question": "Not only the principal but also the teachers — present at the function.",
+    "options": [
+      "were",
+      "has been",
+      "was",
+      "is"
+    ],
+    "answer": "ক",
+    "explanation": "'Not only... but also' যুক্ত বাক্যে Verb তার নিকটবর্তী সাবজেক্ট ('the teachers' - plural) অনুযায়ী বসে।"
+  },
+  {
+    "id": 20,
+    "topic": "Right Form of Verb",
+    "question": "The headmaster and secretary — present in the meeting.",
+    "options": [
+      "are",
+      "were",
+      "have been",
+      "was"
+    ],
+    "answer": "ঘ",
+    "explanation": "উভয় পদের পূর্বে একটিমাত্র Article 'The' থাকলে তা একই ব্যক্তিকে বোঝায়, ফলে Verb Singular ('was') হয়।"
+  },
+  {
+    "id": 21,
+    "topic": "Right Form of Verb",
+    "question": "The headmaster and the secretary — present in the meeting.",
+    "options": [
+      "has been",
+      "is",
+      "was",
+      "were"
+    ],
+    "answer": "ঘ",
+    "explanation": "উভয় পদের পূর্বেই আলাদাভাবে Article 'The' থাকায় দুজন ভিন্ন ব্যক্তিকে নির্দেশ করে, তাই Verb Plural ('were') হয়।"
+  },
+  {
+    "id": 22,
+    "topic": "Right Form of Verb",
+    "question": "Gulliver's Travels — written by Jonathan Swift.",
+    "options": [
+      "have been",
+      "are",
+      "was",
+      "were"
+    ],
+    "answer": "গ",
+    "explanation": "একটি একক গ্রন্থের নাম হওয়ায় এর সাথে Singular Verb 'was' বসে।"
+  },
+  {
+    "id": 23,
+    "topic": "Right Form of Verb",
+    "question": "A number of students — present in the seminar.",
+    "options": [
+      "were",
+      "was",
+      "has been",
+      "is"
+    ],
+    "answer": "ক",
+    "explanation": "'A number of + plural noun'-এর পর Plural Verb ('were') বসে; কিন্তু 'The number of'-এর পর Singular Verb বসে।"
+  },
+  {
+    "id": 24,
+    "topic": "Right Form of Verb",
+    "question": "The number of applicants — increasing day by day.",
+    "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+    ],
+    "answer": "খ",
+    "explanation": "'The number of + plural noun'-এর ক্ষেত্রে সামগ্রিক সংখ্যা নির্দিষ্ট থাকায় Singular Verb ('is') বসে।"
+  },
+  {
+    "id": 25,
+    "topic": "Right Form of Verb",
+    "question": "Many a man — drowned in the sea.",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+    ],
+    "answer": "খ",
+    "explanation": "'Many a + singular noun'-এর পর সর্বদা Singular Verb ('was') বসে।"
+  },
+  {
+    "id": 26,
+    "topic": "Right Form of Verb",
+    "question": "A lot of milk — spilt on the floor.",
+    "options": [
+      "have been",
+      "were",
+      "are",
+      "was"
+    ],
+    "answer": "ঘ",
+    "explanation": "Uncountable Noun 'milk'-এর পূর্বে 'A lot of' থাকলেও Verb Singular ('was') হয়।"
+  },
+  {
+    "id": 27,
+    "topic": "Right Form of Verb",
+    "question": "No news — good news.",
+    "options": [
+      "is",
+      "were",
+      "are",
+      "have been"
+    ],
+    "answer": "ক",
+    "explanation": "'News', 'Information', 'Advice' আনকাউন্টেবল ও সিঙ্গুলার হওয়ায় এর পর Singular Verb ('is') বসে।"
+  },
+  {
+    "id": 28,
+    "topic": "Right Form of Verb",
+    "question": "Either you or he — to blame for the mistake.",
+    "options": [
+      "am",
+      "were",
+      "is",
+      "are"
+    ],
+    "answer": "গ",
+    "explanation": "'Either... or' দ্বারা যুক্ত ভিন্ন Person-এর সাবজেক্টের ক্ষেত্রে নিকটবর্তী সাবজেক্ট 'he' অনুসারে Verb 'is' হবে।"
+  },
+  {
+    "id": 29,
+    "topic": "Right Form of Verb",
+    "question": "The poet and novelist — dead.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have been"
+    ],
+    "answer": "গ",
+    "explanation": "একটি মাত্র 'The' থাকায় একই ব্যক্তি কবি ও ঔপন্যাসিক ছিলেন, তাই Verb Singular ('is')।"
+  },
+  {
+    "id": 30,
+    "topic": "Right Form of Verb",
+    "question": "Every man, woman, and child — given shelter.",
+    "options": [
+      "are",
+      "was",
+      "have been",
+      "were"
+    ],
+    "answer": "খ",
+    "explanation": "একাধিক Noun 'and' দ্বারা যুক্ত থাকলেও পূর্বে 'Every' থাকলে Verb সর্বদা Singular ('was') হয়।"
+  },
+  {
+    "id": 31,
+    "topic": "Right Form of Verb",
+    "question": "Ill news — fast.",
+    "options": [
+      "run",
+      "ran",
+      "running",
+      "runs"
+    ],
+    "answer": "ঘ",
+    "explanation": "'News' সিঙ্গুলার আনকাউন্টেবল নাউন হওয়ায় প্রবাদে Singular Verb 'runs' বসে।"
+  },
+  {
+    "id": 32,
+    "topic": "Right Form of Verb",
+    "question": "The cattle — grazing in the meadow.",
+    "options": [
+      "are",
+      "was",
+      "is",
+      "has been"
+    ],
+    "answer": "ক",
+    "explanation": "'Cattle', 'Poultry', 'People', 'Gentry', 'Peasantry' দেখতে সিঙ্গুলার হলেও মূলত Plural Noun, তাই Plural Verb 'are' বসে।"
+  },
+  {
+    "id": 33,
+    "topic": "Right Form of Verb",
+    "question": "The police — investigating the murder case.",
+    "options": [
+      "are",
+      "has been",
+      "was",
+      "is"
+    ],
+    "answer": "ক",
+    "explanation": "'Police' একটি Plural Noun, তাই এর পর Plural Verb 'are' বা 'were' বসে।"
+  },
+  {
+    "id": 34,
+    "topic": "Right Form of Verb",
+    "question": "The virtuous — blessed.",
+    "options": [
+      "was",
+      "are",
+      "has been",
+      "is"
+    ],
+    "answer": "খ",
+    "explanation": "Adjective-এর পূর্বে 'The' বসলে তা সমগ্র শ্রেণিকে প্রকাশ করে Plural Common Noun হয়, তাই Plural Verb 'are' বসে।"
+  },
+  {
+    "id": 35,
+    "topic": "Right Form of Verb",
+    "question": "My scissors — sharp enough to cut the cloth.",
+    "options": [
+      "was",
+      "has been",
+      "are",
+      "is"
+    ],
+    "answer": "গ",
+    "explanation": "দ্ব্যঙ্গবিশিষ্ট যন্ত্র বা পোশাক (Scissors, Trousers, Spectacles, Pliers) সর্বদা Plural Verb ('are') গ্রহণ করে।"
+  },
+  {
+    "id": 36,
+    "topic": "Right Form of Verb",
+    "question": "I — him just now.",
+    "options": [
+      "see",
+      "saw",
+      "had seen",
+      "have seen"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Just', 'just now', 'already', 'recently', 'lately', 'yet' ইত্যাদি থাকলে বাক্যটি সাধারণত Present Perfect Tense হয়।"
+  },
+  {
+    "id": 37,
+    "topic": "Right Form of Verb",
+    "question": "He — here yesterday.",
+    "options": [
+      "has come",
+      "came",
+      "comes",
+      "had come"
+    ],
+    "answer": "খ",
+    "explanation": "'Yesterday', 'ago', 'long ago', 'last night', 'in 1971' ইত্যাদি অতীতের নির্দিষ্ট সময় নির্দেশক থাকলে Past Indefinite Tense (came) বসে।"
+  },
+  {
+    "id": 38,
+    "topic": "Right Form of Verb",
+    "question": "It — raining since morning.",
+    "options": [
+      "is",
+      "had been",
+      "was",
+      "has been"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Since' বা 'for' এর সাথে সময়ের উল্লেখ থাকলে কাজ পূর্বে শুরু হয়ে এখনও চলমান বোঝাতে Present Perfect Continuous Tense বসে।"
+  },
+  {
+    "id": 39,
+    "topic": "Right Form of Verb",
+    "question": "The train — before we reached the station.",
+    "options": [
+      "had left",
+      "leaves",
+      "has left",
+      "left"
+    ],
+    "answer": "ক",
+    "explanation": "'Before'-এর পূর্বের ক্লজটি Past Perfect (had left) এবং পরের ক্লজটি Past Simple (reached) হয়।"
+  },
+  {
+    "id": 40,
+    "topic": "Right Form of Verb",
+    "question": "We arrived at the cinema hall after the movie —",
+    "options": [
+      "started",
+      "has started",
+      "had started",
+      "starts"
+    ],
+    "answer": "গ",
+    "explanation": "'After'-এর পরের কাজটি অপেক্ষাকৃত পূর্বে সম্পন্ন হওয়ায় তা Past Perfect (had started) হয়।"
+  },
+  {
+    "id": 41,
+    "topic": "Right Form of Verb",
+    "question": "As soon as the thief saw the police, he — away.",
+    "options": [
+      "ran",
+      "runs",
+      "had run",
+      "run"
+    ],
+    "answer": "ক",
+    "explanation": "'As soon as' যুক্ত বাক্যে উভয় ক্লজই সাধারণত একই টেন্সে অর্থাৎ Past Indefinite (saw... ran) হয়।"
+  },
+  {
+    "id": 42,
+    "topic": "Right Form of Verb",
+    "question": "No sooner had he reached the college than the bell —",
+    "options": [
+      "ring",
+      "had rung",
+      "rung",
+      "rang"
+    ],
+    "answer": "ঘ",
+    "explanation": "'No sooner had + S + V3... than' এর পরের ক্লজটি সর্বদা Past Indefinite Tense (rang) হয়।"
+  },
+  {
+    "id": 43,
+    "topic": "Right Form of Verb",
+    "question": "Scarcely had the teacher entered the classroom when the students — up.",
+    "options": [
+      "standing",
+      "stood",
+      "stand",
+      "had stood"
+    ],
+    "answer": "খ",
+    "explanation": "'Scarcely had... when' কাঠামোর দ্বিতীয় অংশে Past Indefinite Tense (stood) বসে।"
+  },
+  {
+    "id": 44,
+    "topic": "Right Form of Verb",
+    "question": "Hardly had I arrived at the bus stop when the bus —",
+    "options": [
+      "had left",
+      "leave",
+      "left",
+      "has left"
+    ],
+    "answer": "গ",
+    "explanation": "'Hardly had... when'-এর পরের ক্লজটিতে Past Indefinite (left) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 45,
+    "topic": "Right Form of Verb",
+    "question": "He talks as if he — everything.",
+    "options": [
+      "knows",
+      "has known",
+      "had known",
+      "knew"
+    ],
+    "answer": "ঘ",
+    "explanation": "'As if' বা 'As though'-এর পূর্বে Present Indefinite থাকলে পরের অংশে Past Indefinite (Unreal Past: knew / were) বসে।"
+  },
+  {
+    "id": 46,
+    "topic": "Right Form of Verb",
+    "question": "He talked as if he — everything.",
+    "options": [
+      "knows",
+      "knew",
+      "had known",
+      "has known"
+    ],
+    "answer": "গ",
+    "explanation": "'As if'-এর পূর্বে Past Indefinite থাকলে পরের অংশে Past Perfect Tense (had known) বসে।"
+  },
+  {
+    "id": 47,
+    "topic": "Right Form of Verb",
+    "question": "It is high time we — our bad habits.",
+    "options": [
+      "changed",
+      "had changed",
+      "change",
+      "should change"
+    ],
+    "answer": "ক",
+    "explanation": "'It is time' বা 'It is high time'-এর পর Subject থাকলে Verb-এর Past Indefinite Form (changed) বসে।"
+  },
+  {
+    "id": 48,
+    "topic": "Right Form of Verb",
+    "question": "It is time — the work.",
+    "options": [
+      "started",
+      "to start",
+      "starting",
+      "start"
+    ],
+    "answer": "খ",
+    "explanation": "'It is time'-এর পর কোনো Subject না থাকলে সরাসরি 'to + verb' (Infinitive: to start) বসে।"
+  },
+  {
+    "id": 49,
+    "topic": "Right Form of Verb",
+    "question": "I fancy I — a pale ghost.",
+    "options": [
+      "turned",
+      "am turning",
+      "turn",
+      "have turned"
+    ],
+    "answer": "ক",
+    "explanation": "'I wish' বা 'I fancy'-এর পর অবাস্তব কল্পনা প্রকাশে Past Indefinite Tense বসে।"
+  },
+  {
+    "id": 50,
+    "topic": "Right Form of Verb",
+    "question": "I wish I — a king.",
+    "options": [
+      "was",
+      "were",
+      "have been",
+      "am"
+    ],
+    "answer": "খ",
+    "explanation": "অসম্ভব বা কাল্পনিক ইচ্ছা প্রকাশে Subject যাই হোক না কেন Subjunctive 'were' বসে।"
+  },
+  {
+    "id": 51,
+    "topic": "Right Form of Verb",
+    "question": "He — in Dhaka for five years before he moved to Khulna.",
+    "options": [
+      "was living",
+      "has been living",
+      "lived",
+      "had been living"
+    ],
+    "answer": "ঘ",
+    "explanation": "অতীতে কোনো নির্দিষ্ট ঘটনার পূর্বে দীর্ঘ সময় ধরে কাজ চলছিল বোঝাতে Past Perfect Continuous Tense বসে।"
+  },
+  {
+    "id": 52,
+    "topic": "Right Form of Verb",
+    "question": "Wait here until I — back.",
+    "options": [
+      "will come",
+      "shall come",
+      "come",
+      "came"
+    ],
+    "answer": "গ",
+    "explanation": "'Until', 'till', 'as long as' সময়বাচক শর্ত প্রকাশ করায় এর সাথে Future Tense না বসে Present Indefinite (come) বসে।"
+  },
+  {
+    "id": 53,
+    "topic": "Right Form of Verb",
+    "question": "The sun — in the east.",
+    "options": [
+      "has risen",
+      "is rising",
+      "rose",
+      "rises"
+    ],
+    "answer": "ঘ",
+    "explanation": "চিরন্তন সত্য বা বৈজ্ঞানিক সত্য বোঝাতে সর্বদা Present Indefinite Tense (rises) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 54,
+    "topic": "Right Form of Verb",
+    "question": "Water — at 100 degrees Celsius.",
+    "options": [
+      "will boil",
+      "boiled",
+      "boils",
+      "is boiling"
+    ],
+    "answer": "গ",
+    "explanation": "বৈজ্ঞানিক চিরন্তন সত্য বিধায় Present Indefinite Tense (boils) বসে।"
+  },
+  {
+    "id": 55,
+    "topic": "Right Form of Verb",
+    "question": "At this moment, she — an essay on global warming.",
+    "options": [
+      "has written",
+      "is writing",
+      "writes",
+      "wrote"
+    ],
+    "answer": "খ",
+    "explanation": "'At present', 'at this moment', 'now', 'nowadays' থাকলে কাজটি চলমান হওয়ায় Present Continuous Tense বসে।"
+  },
+  {
+    "id": 56,
+    "topic": "Right Form of Verb",
+    "question": "He always — to school on foot.",
+    "options": [
+      "goes",
+      "is going",
+      "went",
+      "go"
+    ],
+    "answer": "ক",
+    "explanation": "'Always', 'regularly', 'daily', 'often', 'sometimes' অভ্যাসগত কাজের ক্ষেত্রে Present Indefinite Tense গ্রহণ করে।"
+  },
+  {
+    "id": 57,
+    "topic": "Right Form of Verb",
+    "question": "I did not know that the earth — round the sun.",
+    "options": [
+      "is moving",
+      "moved",
+      "moves",
+      "was moving"
+    ],
+    "answer": "গ",
+    "explanation": "প্রধান ক্লজ Past Tense-এ থাকলেও Subordinate Clause যদি চিরন্তন সত্য প্রকাশ করে, তবে তা অপরিবর্তিত থেকে Present Indefinite (moves) হয়।"
+  },
+  {
+    "id": 58,
+    "topic": "Right Form of Verb",
+    "question": "He said that honesty — the best policy.",
+    "options": [
+      "is",
+      "had been",
+      "was",
+      "were"
+    ],
+    "answer": "ক",
+    "explanation": "প্রবাদ বা শাশ্বত সত্য বাক্য পরোক্ষ উক্তিতেও সর্বদা Present Tense ('is') থাকে।"
+  },
+  {
+    "id": 59,
+    "topic": "Right Form of Verb",
+    "question": "By the end of next month, I — this project.",
+    "options": [
+      "have completed",
+      "completed",
+      "shall complete",
+      "shall have completed"
+    ],
+    "answer": "ঘ",
+    "explanation": "ভবিষ্যতের কোনো নির্দিষ্ট সময়ের মধ্যে কাজ শেষ হয়ে থাকবে বোঝাতে 'By + future time' থাকলে Future Perfect Tense বসে।"
+  },
+  {
+    "id": 60,
+    "topic": "Right Form of Verb",
+    "question": "When I reached his house, he — a book.",
+    "options": [
+      "has read",
+      "was reading",
+      "reads",
+      "read"
+    ],
+    "answer": "খ",
+    "explanation": "অতীতে একটি কাজের সময় অন্য একটি কাজ চলছিল বোঝাতে 'When' ক্লজের পর Past Continuous Tense বসে।"
+  },
+  {
+    "id": 61,
+    "topic": "Right Form of Verb",
+    "question": "While — in the garden, a snake bit him.",
+    "options": [
+      "walk",
+      "walked",
+      "he was walking",
+      "walking"
+    ],
+    "answer": "ঘ",
+    "explanation": "'While'-এর পর সরাসরি Verb আসলে তার সাথে ing যুক্ত হয় (Gerund/Participle: walking); তবে Subject থাকলে Past Continuous হয়।"
+  },
+  {
+    "id": 62,
+    "topic": "Right Form of Verb",
+    "question": "While he — in the garden, a snake bit him.",
+    "options": [
+      "was walking",
+      "walks",
+      "walked",
+      "is walking"
+    ],
+    "answer": "ক",
+    "explanation": "'While'-এর পর Subject ('he') থাকলে Past Continuous Tense (was walking) বসে।"
+  },
+  {
+    "id": 63,
+    "topic": "Right Form of Verb",
+    "question": "The patient — before the doctor came.",
+    "options": [
+      "has died",
+      "had died",
+      "dies",
+      "died"
+    ],
+    "answer": "খ",
+    "explanation": "'Before'-এর পূর্বের ক্লজে Past Perfect Tense (had died) বসে।"
+  },
+  {
+    "id": 64,
+    "topic": "Right Form of Verb",
+    "question": "Five years have passed since I — him.",
+    "options": [
+      "had met",
+      "meet",
+      "met",
+      "have met"
+    ],
+    "answer": "গ",
+    "explanation": "'Since'-এর প্রথম অংশ Present Indefinite বা Present Perfect হলে দ্বিতীয় অংশ Past Indefinite Tense (met) হয়।"
+  },
+  {
+    "id": 65,
+    "topic": "Right Form of Verb",
+    "question": "Five years had passed since I — him.",
+    "options": [
+      "meet",
+      "met",
+      "have met",
+      "had met"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Since'-এর প্রথম অংশ Past Indefinite বা Past Perfect হলে দ্বিতীয় অংশ Past Perfect Tense (had met) হয়।"
+  },
+  {
+    "id": 66,
+    "topic": "Right Form of Verb",
+    "question": "I will call you when he —",
+    "options": [
+      "shall arrive",
+      "will arrive",
+      "arrives",
+      "arrived"
+    ],
+    "answer": "গ",
+    "explanation": "ভবিষ্যতবাচক শর্তযুক্ত বাক্যে 'when/if' যুক্ত ক্লজটিতে Future না হয়ে Present Indefinite (arrives) বসে।"
+  },
+  {
+    "id": 67,
+    "topic": "Right Form of Verb",
+    "question": "He looked as though he — a ghost.",
+    "options": [
+      "has seen",
+      "had seen",
+      "sees",
+      "saw"
+    ],
+    "answer": "খ",
+    "explanation": "'Looked' (Past Tense) থাকায় 'as though'-এর পর Past Perfect Tense (had seen) বসবে।"
+  },
+  {
+    "id": 68,
+    "topic": "Right Form of Verb",
+    "question": "It is ten years since his father —",
+    "options": [
+      "died",
+      "has died",
+      "had died",
+      "dies"
+    ],
+    "answer": "ক",
+    "explanation": "'It is ten years since...' এর পর Past Indefinite Tense (died) বসে।"
+  },
+  {
+    "id": 69,
+    "topic": "Right Form of Verb",
+    "question": "He confessed that he — the money.",
+    "options": [
+      "has stolen",
+      "had stolen",
+      "stole",
+      "steals"
+    ],
+    "answer": "খ",
+    "explanation": "স্বীকার করার (confessed) পূর্বেই চুরি করার ঘটনাটি ঘটেছিল, তাই Past Perfect (had stolen) হবে।"
+  },
+  {
+    "id": 70,
+    "topic": "Right Form of Verb",
+    "question": "By this time tomorrow, they — home.",
+    "options": [
+      "will reach",
+      "reach",
+      "reached",
+      "will have reached"
+    ],
+    "answer": "ঘ",
+    "explanation": "'By this time tomorrow' ভবিষ্যতের সমাপ্তি নির্দেশ করায় Future Perfect Tense (will have reached) হবে।"
+  },
+  {
+    "id": 71,
+    "topic": "Right Form of Verb",
+    "question": "I look forward to — from you soon.",
+    "options": [
+      "heard",
+      "hear",
+      "hearing",
+      "be heard"
+    ],
+    "answer": "গ",
+    "explanation": "'Look forward to'-এর 'to' হলো Preposition; তাই এর পর Verb আসলে তার সাথে ing যুক্ত হয় (Gerund: hearing)।"
+  },
+  {
+    "id": 72,
+    "topic": "Right Form of Verb",
+    "question": "He went to the library with a view to — books.",
+    "options": [
+      "reading",
+      "reads",
+      "have read",
+      "read"
+    ],
+    "answer": "ক",
+    "explanation": "'With a view to'-এর পর সর্বদা Gerund (verb+ing: reading) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 73,
+    "topic": "Right Form of Verb",
+    "question": "Would you mind — me a glass of water?",
+    "options": [
+      "give",
+      "gave",
+      "to give",
+      "giving"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Would you mind'-এর পর বিনীত অনুরোধে সর্বদা Gerund (verb+ing: giving) বসে।"
+  },
+  {
+    "id": 74,
+    "topic": "Right Form of Verb",
+    "question": "He is accustomed to — up early in the morning.",
+    "options": [
+      "woke",
+      "waking",
+      "woken",
+      "wake"
+    ],
+    "answer": "খ",
+    "explanation": "'Be accustomed to' বা 'Be used to'-এর পর অভ্যাসগত কাজে Gerund (waking) বসে।"
+  },
+  {
+    "id": 75,
+    "topic": "Right Form of Verb",
+    "question": "I cannot help — at his foolish behavior.",
+    "options": [
+      "laughing",
+      "laughed",
+      "laugh",
+      "to laugh"
+    ],
+    "answer": "ক",
+    "explanation": "'Cannot help' বা 'could not help'-এর পর সর্বদা Verb+ing (laughing) বসে।"
+  },
+  {
+    "id": 76,
+    "topic": "Right Form of Verb",
+    "question": "I cannot but — at his foolish behavior.",
+    "options": [
+      "laughed",
+      "to laugh",
+      "laugh",
+      "laughing"
+    ],
+    "answer": "গ",
+    "explanation": "'Cannot but' বা 'could not but'-এর পর সর্বদা Bare Infinitive (base verb: laugh) বসে।"
+  },
+  {
+    "id": 77,
+    "topic": "Right Form of Verb",
+    "question": "He is looking forward to — the new project.",
+    "options": [
+      "starting",
+      "start",
+      "starts",
+      "started"
+    ],
+    "answer": "ক",
+    "explanation": "'Look forward to' এর পর সর্বদাই Gerund (starting) বসে।"
+  },
+  {
+    "id": 78,
+    "topic": "Right Form of Verb",
+    "question": "He prevented me from — there.",
+    "options": [
+      "gone",
+      "going",
+      "to go",
+      "go"
+    ],
+    "answer": "খ",
+    "explanation": "Preposition 'from'-এর পর Verb আসলে তার সাথে ing যুক্ত হয়ে Gerund (going) গঠিত হয়।"
+  },
+  {
+    "id": 79,
+    "topic": "Right Form of Verb",
+    "question": "She insisted on my — the meeting.",
+    "options": [
+      "attend",
+      "attended",
+      "attending",
+      "to attend"
+    ],
+    "answer": "গ",
+    "explanation": "Preposition 'on' এবং Possessive 'my'-এর পর Gerund (attending) বসে।"
+  },
+  {
+    "id": 80,
+    "topic": "Right Form of Verb",
+    "question": "He stopped — when the teacher entered.",
+    "options": [
+      "talk",
+      "to talk",
+      "talked",
+      "talking"
+    ],
+    "answer": "ঘ",
+    "explanation": "কোনো চলমান কাজ পুরোপুরি বন্ধ করা বোঝাতে 'Stop'-এর পর Gerund (talking) বসে।"
+  },
+  {
+    "id": 81,
+    "topic": "Right Form of Verb",
+    "question": "On the way home, he stopped — a newspaper.",
+    "options": [
+      "bought",
+      "to buy",
+      "buy",
+      "buying"
+    ],
+    "answer": "খ",
+    "explanation": "অন্য কোনো উদ্দেশ্যে ক্ষণিকের জন্য থামা বোঝাতে 'Stop'-এর পর Infinitive (to buy) বসে।"
+  },
+  {
+    "id": 82,
+    "topic": "Right Form of Verb",
+    "question": "She avoids — unnecessary risks.",
+    "options": [
+      "took",
+      "to take",
+      "taking",
+      "take"
+    ],
+    "answer": "গ",
+    "explanation": "'Avoid', 'enjoy', 'mind', 'finish', 'postpone', 'suggest'-এর পর সর্বদা Gerund (taking) বসে।"
+  },
+  {
+    "id": 83,
+    "topic": "Right Form of Verb",
+    "question": "He decided — abroad for higher education.",
+    "options": [
+      "to go",
+      "go",
+      "going",
+      "went"
+    ],
+    "answer": "ক",
+    "explanation": "'Decide', 'agree', 'hope', 'plan', 'promise', 'refuse'-এর পর Infinitive (to go) বসে।"
+  },
+  {
+    "id": 84,
+    "topic": "Right Form of Verb",
+    "question": "You had better — there immediately.",
+    "options": [
+      "to go",
+      "went",
+      "going",
+      "go"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Had better', 'had rather', 'would rather', 'would sooner'-এর পর Bare Infinitive (go) বসে।"
+  },
+  {
+    "id": 85,
+    "topic": "Right Form of Verb",
+    "question": "I would rather starve than —",
+    "options": [
+      "to beg",
+      "begged",
+      "beg",
+      "begging"
+    ],
+    "answer": "গ",
+    "explanation": "'Would rather... than'-এর উভয় পাশে Bare Infinitive (starve... beg) বসে।"
+  },
+  {
+    "id": 86,
+    "topic": "Right Form of Verb",
+    "question": "You need not — any tension.",
+    "options": [
+      "take",
+      "to take",
+      "took",
+      "taking"
+    ],
+    "answer": "ক",
+    "explanation": "Modal Auxiliary হিসেবে 'need not'-এর পর Bare Infinitive (take) বসে।"
+  },
+  {
+    "id": 87,
+    "topic": "Right Form of Verb",
+    "question": "He dare not — the truth.",
+    "options": [
+      "speaking",
+      "to speak",
+      "spoke",
+      "speak"
+    ],
+    "answer": "ঘ",
+    "explanation": "Modal হিসেবে 'dare not'-এর পর Bare Infinitive (speak) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 88,
+    "topic": "Right Form of Verb",
+    "question": "I heard him — a melodious song.",
+    "options": [
+      "sang",
+      "singing",
+      "sung",
+      "to sing"
+    ],
+    "answer": "খ",
+    "explanation": "Perception verb 'hear'-এর পর চলমান গান গাওয়া বোঝাতে Present Participle (singing) বসে।"
+  },
+  {
+    "id": 89,
+    "topic": "Right Form of Verb",
+    "question": "I saw the boy — in the pond.",
+    "options": [
+      "to swim",
+      "swam",
+      "swimming",
+      "swims"
+    ],
+    "answer": "গ",
+    "explanation": "সরাসরি কোনো চলমান কর্ম প্রত্যক্ষ করার ক্ষেত্রে Object-এর পর Present Participle (swimming) বসে।"
+  },
+  {
+    "id": 90,
+    "topic": "Right Form of Verb",
+    "question": "He was seen — the house secretly.",
+    "options": [
+      "leave",
+      "to leave",
+      "leaving",
+      "left"
+    ],
+    "answer": "খ",
+    "explanation": "Active-এ Bare Infinitive হলেও Passive Voice-এ 'see', 'make', 'hear'-এর পর Full Infinitive (to leave) বসে।"
+  },
+  {
+    "id": 91,
+    "topic": "Right Form of Verb",
+    "question": "The teacher made the students — the assignment.",
+    "options": [
+      "to rewrite",
+      "rewriting",
+      "rewrote",
+      "rewrite"
+    ],
+    "answer": "ঘ",
+    "explanation": "Causative Verb 'Make'-এর পর ব্যক্তিবাচক অবজেক্ট থাকলে Active Voice-এ Bare Infinitive (rewrite) বসে।"
+  },
+  {
+    "id": 92,
+    "topic": "Right Form of Verb",
+    "question": "The students were made — the assignment.",
+    "options": [
+      "to rewrite",
+      "rewrite",
+      "rewriting",
+      "rewrote"
+    ],
+    "answer": "ক",
+    "explanation": "Causative 'Make' যখন Passive Voice-এ রূপান্তরিত হয়, তখন Bare Infinitive না বসে 'to + verb' (to rewrite) বসে।"
+  },
+  {
+    "id": 93,
+    "topic": "Right Form of Verb",
+    "question": "I had my car — yesterday.",
+    "options": [
+      "repairing",
+      "to repair",
+      "repair",
+      "repaired"
+    ],
+    "answer": "ঘ",
+    "explanation": "Causative Verb 'Have'-এর পর বস্তুবাচক অবজেক্ট ('my car') থাকলে Past Participle (repaired) বসে।"
+  },
+  {
+    "id": 94,
+    "topic": "Right Form of Verb",
+    "question": "He got the work — by his assistant.",
+    "options": [
+      "doing",
+      "done",
+      "do",
+      "to do"
+    ],
+    "answer": "খ",
+    "explanation": "Causative 'Get'-এর পর বস্তুবাচক অবজেক্ট ('the work') থাকলে Past Participle (done) বসে।"
+  },
+  {
+    "id": 95,
+    "topic": "Right Form of Verb",
+    "question": "He got his assistant — the work.",
+    "options": [
+      "doing",
+      "done",
+      "to do",
+      "do"
+    ],
+    "answer": "গ",
+    "explanation": "Causative 'Get'-এর পর ব্যক্তিবাচক অবজেক্ট ('his assistant') থাকলে 'to + verb' (Infinitive: to do) বসে।"
+  },
+  {
+    "id": 96,
+    "topic": "Right Form of Verb",
+    "question": "She let him — the room.",
+    "options": [
+      "enter",
+      "entering",
+      "to enter",
+      "entered"
+    ],
+    "answer": "ক",
+    "explanation": "Causative 'Let'-এর পর সর্বদাই Bare Infinitive (enter) বসে (Active ও Passive উভয় ক্ষেত্রে)।"
+  },
+  {
+    "id": 97,
+    "topic": "Right Form of Verb",
+    "question": "Help me — this heavy box.",
+    "options": [
+      "lifted",
+      "to lifting",
+      "lift",
+      "lifting"
+    ],
+    "answer": "গ",
+    "explanation": "Causative 'Help'-এর পর Bare Infinitive (lift) বা Full Infinitive (to lift) উভয়ই প্রমিত।"
+  },
+  {
+    "id": 98,
+    "topic": "Right Form of Verb",
+    "question": "The house needs — immediately.",
+    "options": [
+      "to paint",
+      "painting",
+      "paint",
+      "painted"
+    ],
+    "answer": "খ",
+    "explanation": "'Need', 'want', 'require'-এর পর প্যাসিভ অর্থে সরাসরি Gerund (painting) বা 'to be painted' বসে।"
+  },
+  {
+    "id": 99,
+    "topic": "Right Form of Verb",
+    "question": "His shirt needs —",
+    "options": [
+      "washed",
+      "wash",
+      "to wash",
+      "washing"
+    ],
+    "answer": "ঘ",
+    "explanation": "প্যাসিভ অর্থে 'needs washing' অথবা 'needs to be washed' প্রযোজ্য।"
+  },
+  {
+    "id": 100,
+    "topic": "Right Form of Verb",
+    "question": "He is worthy of — praise.",
+    "options": [
+      "receiving",
+      "to receive",
+      "received",
+      "receive"
+    ],
+    "answer": "ক",
+    "explanation": "Preposition 'of'-এর পর Verb আসলে Gerund (receiving) বসে।"
+  },
+  {
+    "id": 101,
+    "topic": "Right Form of Verb",
+    "question": "I am fond of — classical music.",
+    "options": [
+      "listened to",
+      "listening to",
+      "to listen",
+      "listen to"
+    ],
+    "answer": "খ",
+    "explanation": "'Fond of'-এর পর Gerund 'listening to' বসে।"
+  },
+  {
+    "id": 102,
+    "topic": "Right Form of Verb",
+    "question": "He was accused of — the purse.",
+    "options": [
+      "stealing",
+      "steal",
+      "stolen",
+      "to steal"
+    ],
+    "answer": "ক",
+    "explanation": "'Accused of'-এর পর Prepositionাল Gerund 'stealing' বসে।"
+  },
+  {
+    "id": 103,
+    "topic": "Right Form of Verb",
+    "question": "She is capable of — the difficult task.",
+    "options": [
+      "accomplished",
+      "to accomplish",
+      "accomplish",
+      "accomplishing"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Capable of'-এর পর Verb+ing (accomplishing) বসে।"
+  },
+  {
+    "id": 104,
+    "topic": "Right Form of Verb",
+    "question": "He devoted his life to — the poor.",
+    "options": [
+      "help",
+      "be helping",
+      "helping",
+      "helped"
+    ],
+    "answer": "গ",
+    "explanation": "'Devote... to'-এর 'to' হলো Preposition, তাই এর পর Gerund (helping) বসে।"
+  },
+  {
+    "id": 105,
+    "topic": "Right Form of Verb",
+    "question": "Do you mind — the door?",
+    "options": [
+      "opening",
+      "opened",
+      "to open",
+      "open"
+    ],
+    "answer": "ক",
+    "explanation": "'Do you mind' বা 'Would you mind'-এর পর সর্বদা Gerund (opening) বসে।"
+  },
+  {
+    "id": 106,
+    "topic": "Right Form of Verb",
+    "question": "The doctor recommended that the patient — immediate rest.",
+    "options": [
+      "takes",
+      "should be taken",
+      "took",
+      "take"
+    ],
+    "answer": "ঘ",
+    "explanation": "Subjunctive Mood-এর নিয়মানুযায়ী recommend, suggest, insist, demand + that + Subject-এর পর Verb-এর Base Form (take) বসে (s/es বা tense পরিবর্তন হয় না)।"
+  },
+  {
+    "id": 107,
+    "topic": "Right Form of Verb",
+    "question": "The committee proposed that a new chairman — appointed.",
+    "options": [
+      "was",
+      "should",
+      "be",
+      "is"
+    ],
+    "answer": "গ",
+    "explanation": "প্যাসিভ সাবজাংক্টিভ গঠনে 'that + subject + be + V3' (be appointed) বসে।"
+  },
+  {
+    "id": 108,
+    "topic": "Right Form of Verb",
+    "question": "He demanded that he — given a fair trial.",
+    "options": [
+      "were",
+      "be",
+      "was",
+      "is"
+    ],
+    "answer": "খ",
+    "explanation": "'Demand that'-এর পর প্যাসিভ সাবজাংক্টিভ হওয়ায় 'be given' হবে।"
+  },
+  {
+    "id": 109,
+    "topic": "Right Form of Verb",
+    "question": "It is essential that everyone — present at the meeting.",
+    "options": [
+      "are",
+      "be",
+      "was",
+      "is"
+    ],
+    "answer": "খ",
+    "explanation": "'It is essential/vital/important that'-এর পর Subjunctive Base Form 'be' বসে।"
+  },
+  {
+    "id": 110,
+    "topic": "Right Form of Verb",
+    "question": "The judge ordered that the prisoner — released.",
+    "options": [
+      "was",
+      "is",
+      "should be to",
+      "be"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Ordered that'-এর পর প্যাসিভ সাবজাংক্টিভ অনুসারে 'be released' বসে।"
+  },
+  {
+    "id": 111,
+    "topic": "Right Form of Verb",
+    "question": "She insisted that we — dinner with her family.",
+    "options": [
+      "has",
+      "must have",
+      "have",
+      "had"
+    ],
+    "answer": "গ",
+    "explanation": "'Insisted that'-এর পর সাবজাংক্টিভ মুডে Subject যাই হোক না কেন Verb-এর Base Form (have) বসে।"
+  },
+  {
+    "id": 112,
+    "topic": "Right Form of Verb",
+    "question": "It is imperative that the law — strictly.",
+    "options": [
+      "be enforced",
+      "enforces",
+      "was enforced",
+      "is enforced"
+    ],
+    "answer": "ক",
+    "explanation": "জরুরি নির্দেশনায় Subjunctive Mood-এ প্যাসিভ হিসেবে 'be + V3' (be enforced) বসে।"
+  },
+  {
+    "id": 113,
+    "topic": "Right Form of Verb",
+    "question": "I requested that he — the truth.",
+    "options": [
+      "tells",
+      "told",
+      "should tell to",
+      "tell"
+    ],
+    "answer": "ঘ",
+    "explanation": "অনুরোধসূচক Subjunctive ক্লজে Subject 'he' হলেও Verb-এর সাথে s/es যুক্ত না হয়ে Base Form (tell) বসে।"
+  },
+  {
+    "id": 114,
+    "topic": "Right Form of Verb",
+    "question": "The board required that all applicants — the eligibility test.",
+    "options": [
+      "pass",
+      "passes",
+      "passed",
+      "will pass"
+    ],
+    "answer": "ক",
+    "explanation": "'Required that'-এর পর সাবজাংক্টিভ ক্লজে Base Form 'pass' বসবে।"
+  },
+  {
+    "id": 115,
+    "topic": "Right Form of Verb",
+    "question": "It is necessary that she — the office in time.",
+    "options": [
+      "has reached",
+      "reach",
+      "reaches",
+      "reached"
+    ],
+    "answer": "খ",
+    "explanation": "'It is necessary that'-এর পর Subject 3rd person singular হলেও সাবজাংক্টিভের নিয়মে Base Form 'reach' বসে।"
+  },
+  {
+    "id": 116,
+    "topic": "Right Form of Verb",
+    "question": "Lest he — the train, he walked fast.",
+    "options": [
+      "miss",
+      "will miss",
+      "should miss",
+      "missed"
+    ],
+    "answer": "গ",
+    "explanation": "'Lest' যুক্ত ক্লজে Subject-এর পর সাধারণত 'should' বা 'might' + Base Form (should miss) বসে।"
+  },
+  {
+    "id": 117,
+    "topic": "Right Form of Verb",
+    "question": "Walk carefully lest you — stumble.",
+    "options": [
+      "should",
+      "might have",
+      "would",
+      "shall"
+    ],
+    "answer": "ক",
+    "explanation": "'Lest'-এর সাথে অক্সিলিয়ারি হিসেবে 'should' বা ক্ষেত্রবিশেষে 'might' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 118,
+    "topic": "Right Form of Verb",
+    "question": "Hardly had he arrived when it — raining.",
+    "options": [
+      "starting",
+      "had started",
+      "started",
+      "starts"
+    ],
+    "answer": "গ",
+    "explanation": "'Hardly had... when' ক্লজের পরবর্তী অংশে Past Indefinite (started) বসে।"
+  },
+  {
+    "id": 119,
+    "topic": "Right Form of Verb",
+    "question": "No sooner had they heard the news than they — crying.",
+    "options": [
+      "had begun",
+      "begin",
+      "begun",
+      "began"
+    ],
+    "answer": "ঘ",
+    "explanation": "'No sooner had... than'-এর পরের অংশে Past Indefinite Tense (began) বসে।"
+  },
+  {
+    "id": 120,
+    "topic": "Right Form of Verb",
+    "question": "Had I seen him, I — the letter to him.",
+    "options": [
+      "would hand",
+      "would have handed",
+      "will hand",
+      "handed"
+    ],
+    "answer": "খ",
+    "explanation": "Third Conditional ইনভার্শনের ফলাফল ক্লজে 'would have + V3' (handed) বসে।"
+  },
+  {
+    "id": 121,
+    "topic": "Right Form of Verb",
+    "question": "Were I a bird, I — across the ocean.",
+    "options": [
+      "would have flown",
+      "flew",
+      "will fly",
+      "would fly"
+    ],
+    "answer": "ঘ",
+    "explanation": "Second Conditional ইনভার্শনে ফলাফল অংশে 'would + V1' (would fly) বসে।"
+  },
+  {
+    "id": 122,
+    "topic": "Right Form of Verb",
+    "question": "If you had studied sincerely, you — first class.",
+    "options": [
+      "will obtain",
+      "would have obtained",
+      "obtained",
+      "would obtain"
+    ],
+    "answer": "খ",
+    "explanation": "Third Conditional-এ 'If + had + V3' থাকলে অপর ক্লজে 'would have + V3' বসে।"
+  },
+  {
+    "id": 123,
+    "topic": "Right Form of Verb",
+    "question": "If he comes, I —",
+    "options": [
+      "will go",
+      "would have gone",
+      "went",
+      "would go"
+    ],
+    "answer": "ক",
+    "explanation": "First Conditional: If + Present Indefinite -> Future Indefinite (will go)।"
+  },
+  {
+    "id": 124,
+    "topic": "Right Form of Verb",
+    "question": "If I had a boat, I — the river.",
+    "options": [
+      "will cross",
+      "would have crossed",
+      "would cross",
+      "crossed"
+    ],
+    "answer": "গ",
+    "explanation": "Second Conditional: If + Past Indefinite (had) -> would + V1 (would cross)।"
+  },
+  {
+    "id": 125,
+    "topic": "Right Form of Verb",
+    "question": "Had the police arrived in time, the robbers —",
+    "options": [
+      "cannot escape",
+      "could not have escaped",
+      "escaped not",
+      "could not escape"
+    ],
+    "answer": "খ",
+    "explanation": "Third Conditional ইনভার্শনের নেতিবাচক পরিণতিতে 'could not have + V3' বসে।"
+  },
+  {
+    "id": 126,
+    "topic": "Right Form of Verb",
+    "question": "If water freezes, it — into ice.",
+    "options": [
+      "would turn",
+      "turned",
+      "turns",
+      "will turn"
+    ],
+    "answer": "গ",
+    "explanation": "Zero Conditional: প্রাকৃতিক বৈজ্ঞানিক নিয়মে উভয় অংশেই Present Indefinite (turns) বসে।"
+  },
+  {
+    "id": 127,
+    "topic": "Right Form of Verb",
+    "question": "If you drop an apple, it — to the ground.",
+    "options": [
+      "falls",
+      "fell",
+      "will fall",
+      "would fall"
+    ],
+    "answer": "ক",
+    "explanation": "মাধ্যাকর্ষণ বলের চিরন্তন সত্য বিধায় Zero Conditional (falls) প্রযোজ্য।"
+  },
+  {
+    "id": 128,
+    "topic": "Right Form of Verb",
+    "question": "Unless you — hard, you cannot prosper.",
+    "options": [
+      "worked",
+      "do not work",
+      "will work",
+      "work"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Unless' নিজেই নেতিবাচক (if not); তাই এর ক্লজে নতুন করে 'not' বসে না এবং Present Indefinite (work) বসে।"
+  },
+  {
+    "id": 129,
+    "topic": "Right Form of Verb",
+    "question": "Provided that the weather is good, we — a picnic.",
+    "options": [
+      "had",
+      "would have",
+      "have had",
+      "will have"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Provided that' (যদি) শর্তযুক্ত ফার্স্ট কন্ডিশনালে Future Indefinite (will have) বসে।"
+  },
+  {
+    "id": 130,
+    "topic": "Right Form of Verb",
+    "question": "Should you meet him, — him this message.",
+    "options": [
+      "gave",
+      "give",
+      "would give",
+      "will give"
+    ],
+    "answer": "খ",
+    "explanation": "'Should you meet...' হলো 'If you meet'-এর সাবজাংক্টিভ রূপ; ফলাফল ক্লজটি Imperative (give) হয়।"
+  },
+  {
+    "id": 131,
+    "topic": "Right Form of Verb",
+    "question": "I would rather you — here today.",
+    "options": [
+      "stayed",
+      "have stayed",
+      "will stay",
+      "stay"
+    ],
+    "answer": "ক",
+    "explanation": "'Would rather'-এর পর নতুন Subject থাকলে Unreal Past হিসেবে Past Indefinite Tense (stayed) বসে।"
+  },
+  {
+    "id": 132,
+    "topic": "Right Form of Verb",
+    "question": "It is high time the government — steps against price hike.",
+    "options": [
+      "takes",
+      "should take",
+      "took",
+      "take"
+    ],
+    "answer": "গ",
+    "explanation": "'It is high time'-এর পর Subject আসলে অবিলম্বে করণীয় কাজের জন্য Past Indefinite (took) বসে।"
+  },
+  {
+    "id": 133,
+    "topic": "Right Form of Verb",
+    "question": "He talks as though he — a scholar.",
+    "options": [
+      "is",
+      "was",
+      "has been",
+      "were"
+    ],
+    "answer": "ঘ",
+    "explanation": "'As though'-এর পর অবাস্তব ভাবনায় Subjunctive 'were' বসে।"
+  },
+  {
+    "id": 134,
+    "topic": "Right Form of Verb",
+    "question": "He ran fast lest he — late for the exam.",
+    "options": [
+      "is",
+      "should be",
+      "would be",
+      "was"
+    ],
+    "answer": "খ",
+    "explanation": "'Lest'-এর সাথে 'should + base verb' (should be) বসে।"
+  },
+  {
+    "id": 135,
+    "topic": "Right Form of Verb",
+    "question": "The commander ordered that the troops — forward.",
+    "options": [
+      "march",
+      "should march to",
+      "marched",
+      "marches"
+    ],
+    "answer": "ক",
+    "explanation": "'Ordered that'-এর পর সাবজাংক্টিভ ক্লজে Base Form 'march' বসে।"
+  },
+  {
+    "id": 136,
+    "topic": "Right Form of Verb",
+    "question": "The historic speech of 7th March — by Bangabandhu.",
+    "options": [
+      "had delivered",
+      "delivered",
+      "was delivered",
+      "was delivering"
+    ],
+    "answer": "গ",
+    "explanation": "ঐতিহাসিক ৭ মার্চের ভাষণ বঙ্গবন্ধু কর্তৃক প্রদত্ত হয়েছিল — প্যাসিভ ভয়েসে Past Indefinite (was delivered) বসে।"
+  },
+  {
+    "id": 137,
+    "topic": "Right Form of Verb",
+    "question": "The bridge — currently under construction.",
+    "options": [
+      "built",
+      "is being built",
+      "has built",
+      "is building"
+    ],
+    "answer": "খ",
+    "explanation": "বর্তমানে সেতুটি নির্মিত হচ্ছে — Present Continuous Passive (is being built) প্রযোজ্য।"
+  },
+  {
+    "id": 138,
+    "topic": "Right Form of Verb",
+    "question": "Rice — across Bangladesh as a staple food.",
+    "options": [
+      "eats",
+      "ate",
+      "is eating",
+      "is eaten"
+    ],
+    "answer": "ঘ",
+    "explanation": "ভাত প্রধান খাদ্য হিসেবে সর্বত্র খাওয়া হয় — অভ্যাসগত সাধারণ প্যাসিভ (is eaten) বসে।"
+  },
+  {
+    "id": 139,
+    "topic": "Right Form of Verb",
+    "question": "The letters — before the postman arrived.",
+    "options": [
+      "posted",
+      "have been posted",
+      "had been posted",
+      "were posted"
+    ],
+    "answer": "গ",
+    "explanation": "অতীতের দুটি ঘটনার পূর্বে চিঠি পোস্ট করা শেষ হয়েছিল — Past Perfect Passive (had been posted) বসে।"
+  },
+  {
+    "id": 140,
+    "topic": "Right Form of Verb",
+    "question": "Romeo and Juliet — by William Shakespeare.",
+    "options": [
+      "was written",
+      "were written",
+      "wrote",
+      "is writing"
+    ],
+    "answer": "ক",
+    "explanation": "গ্রন্থটি একক ট্র্যাজেডি হওয়ায় Singular Subject এবং Past Passive (was written) হবে।"
+  },
+  {
+    "id": 141,
+    "topic": "Right Form of Verb",
+    "question": "English — all over the world as an international language.",
+    "options": [
+      "is speaking",
+      "spoke",
+      "speaks",
+      "is spoken"
+    ],
+    "answer": "ঘ",
+    "explanation": "ইংরেজি সারা বিশ্বে বলা হয় — কর্মবাচ্যে Present Simple Passive (is spoken) বসে।"
+  },
+  {
+    "id": 142,
+    "topic": "Right Form of Verb",
+    "question": "A new library — in our college last month.",
+    "options": [
+      "was inaugurated",
+      "is inaugurated",
+      "inaugurated",
+      "has inaugurated"
+    ],
+    "answer": "ক",
+    "explanation": "গত মাসে উদ্বোধন করা হয়েছিল — Past Indefinite Passive (was inaugurated) সঠিক।"
+  },
+  {
+    "id": 143,
+    "topic": "Right Form of Verb",
+    "question": "The problem — immediately to avoid further trouble.",
+    "options": [
+      "must be solve",
+      "must solve",
+      "must be solved",
+      "must solving"
+    ],
+    "answer": "গ",
+    "explanation": "Modal Auxiliary-এর Passive Form হলো 'Modal + be + V3' (must be solved)।"
+  },
+  {
+    "id": 144,
+    "topic": "Right Form of Verb",
+    "question": "The criminals ought to — by the law enforcement agencies.",
+    "options": [
+      "punish",
+      "be punished",
+      "be punishing",
+      "punished"
+    ],
+    "answer": "খ",
+    "explanation": "'Ought to'-এর Passive Voice হলো 'ought to be + V3' (be punished)।"
+  },
+  {
+    "id": 145,
+    "topic": "Right Form of Verb",
+    "question": "He was seen — the boundary wall.",
+    "options": [
+      "scaling",
+      "to scaling",
+      "scale",
+      "scaled"
+    ],
+    "answer": "ক",
+    "explanation": "দেয়াল টপকাতে দেখা গিয়েছিল — চলমান প্রত্যক্ষণের ক্ষেত্রে Participle (scaling) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 146,
+    "topic": "Right Form of Verb",
+    "question": "The injured person was admitted to the hospital, — heavily.",
+    "options": [
+      "to bleed",
+      "was bleeding",
+      "bled",
+      "bleeding"
+    ],
+    "answer": "ঘ",
+    "explanation": "একই সাথে রক্তক্ষরণ হচ্ছিল — অতিরিক্ত অবস্থা প্রকাশে Present Participle (bleeding) বসে।"
+  },
+  {
+    "id": 147,
+    "topic": "Right Form of Verb",
+    "question": "— the homework, the student went out to play.",
+    "options": [
+      "Finishing",
+      "To finish",
+      "Having finished",
+      "Finished"
+    ],
+    "answer": "গ",
+    "explanation": "একটি কাজ সম্পূর্ণ সম্পন্ন করার পর অন্য কাজ করা বোঝাতে Perfect Participle ('Having + V3') বসে।"
+  },
+  {
+    "id": 148,
+    "topic": "Right Form of Verb",
+    "question": "— by hunger, the poor child began to cry.",
+    "options": [
+      "Having driven",
+      "Driven",
+      "Driving",
+      "Drove"
+    ],
+    "answer": "খ",
+    "explanation": "ক্ষুধার তাড়নায় তাড়িত হয়ে — কর্মবাচ্যমূলক অবস্থা প্রকাশে Past Participle (Driven) বসে।"
+  },
+  {
+    "id": 149,
+    "topic": "Right Form of Verb",
+    "question": "— the lion, the hunters ran away in panic.",
+    "options": [
+      "Seeing",
+      "Seen",
+      "Saw",
+      "Having saw"
+    ],
+    "answer": "ক",
+    "explanation": "সিংহটিকে দেখা মাত্রই পালিয়ে গেল — যুগপৎ কাজের ক্ষেত্রে Present Participle (Seeing) বসে।"
+  },
+  {
+    "id": 150,
+    "topic": "Right Form of Verb",
+    "question": "The room was filled with the smell of — flowers.",
+    "options": [
+      "blooms",
+      "bloom",
+      "blooming",
+      "bloomed"
+    ],
+    "answer": "গ",
+    "explanation": "প্রস্ফুটিত হচ্ছে এমন ফুল বোঝাতে Adjective হিসেবে Present Participle (blooming) বসে।"
+  },
+  {
+    "id": 151,
+    "topic": "Right Form of Verb",
+    "question": "Do not get into a — train.",
+    "options": [
+      "ran",
+      "running",
+      "to run",
+      "run"
+    ],
+    "answer": "খ",
+    "explanation": "চলন্ত ট্রেন বোঝাতে Participle Adjective হিসেবে 'running' বসে।"
+  },
+  {
+    "id": 152,
+    "topic": "Right Form of Verb",
+    "question": "A — opportunity never returns.",
+    "options": [
+      "loose",
+      "losing",
+      "lose",
+      "lost"
+    ],
+    "answer": "ঘ",
+    "explanation": "হারিয়ে যাওয়া সুযোগ — সম্পন্ন হওয়া অবস্থা বোঝাতে Past Participle (lost) বসে।"
+  },
+  {
+    "id": 153,
+    "topic": "Right Form of Verb",
+    "question": "He kept the fire — all night.",
+    "options": [
+      "to burn",
+      "burning",
+      "burnt",
+      "burn"
+    ],
+    "answer": "খ",
+    "explanation": "আগুন জ্বলন্ত অবস্থায় রাখা বোঝাতে Object Complement হিসেবে Present Participle (burning) বসে।"
+  },
+  {
+    "id": 154,
+    "topic": "Right Form of Verb",
+    "question": "I found the door — from inside.",
+    "options": [
+      "lock",
+      "to lock",
+      "locked",
+      "locking"
+    ],
+    "answer": "গ",
+    "explanation": "দরজাটি বন্ধ অবস্থায় পেয়েছিলাম — অবস্থা প্রকাশে Past Participle (locked) বসে।"
+  },
+  {
+    "id": 155,
+    "topic": "Right Form of Verb",
+    "question": "The book is well worth —",
+    "options": [
+      "having read",
+      "to read",
+      "read",
+      "reading"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Worth' Adjective-এর পর সর্বদা Gerund (reading) বসে।"
+  },
+  {
+    "id": 156,
+    "topic": "Right Form of Verb",
+    "question": "He is busy — his examination papers.",
+    "options": [
+      "evaluating",
+      "evaluated",
+      "evaluate",
+      "to evaluate"
+    ],
+    "answer": "ক",
+    "explanation": "'Busy' Adjective-এর পর কর্মে নিয়োজিত বোঝাতে সরাসরি Gerund (evaluating) বসে।"
+  },
+  {
+    "id": 157,
+    "topic": "Right Form of Verb",
+    "question": "It is no use — over spilt milk.",
+    "options": [
+      "cry",
+      "cried",
+      "to cry",
+      "crying"
+    ],
+    "answer": "ঘ",
+    "explanation": "'It is no use' বা 'It is no good'-এর পর সর্বদা Gerund (crying) বসে।"
+  },
+  {
+    "id": 158,
+    "topic": "Right Form of Verb",
+    "question": "There is no — what will happen tomorrow.",
+    "options": [
+      "known",
+      "knowing",
+      "to know",
+      "know"
+    ],
+    "answer": "খ",
+    "explanation": "'There is no knowing' (জানার কোনো উপায় নেই) একটি নির্দিষ্ট Gerundial গঠন।"
+  },
+  {
+    "id": 159,
+    "topic": "Right Form of Verb",
+    "question": "He confessed to — the crime.",
+    "options": [
+      "committing",
+      "commit",
+      "committed",
+      "to commit"
+    ],
+    "answer": "ক",
+    "explanation": "'Confess to'-এর 'to' হলো Preposition, তাই এর পর Gerund (committing) বসে।"
+  },
+  {
+    "id": 160,
+    "topic": "Right Form of Verb",
+    "question": "She is prone to — colds in winter.",
+    "options": [
+      "catch",
+      "to catch",
+      "catching",
+      "caught"
+    ],
+    "answer": "গ",
+    "explanation": "'Prone to'-এর পর Gerund (catching) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 161,
+    "topic": "Right Form of Verb",
+    "question": "He objected to — treated unfairly.",
+    "options": [
+      "been",
+      "having",
+      "be",
+      "being"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Object to'-এর পর প্যাসিভ অর্থে Gerund 'being + V3' (being treated) বসে।"
+  },
+  {
+    "id": 162,
+    "topic": "Right Form of Verb",
+    "question": "In addition to — English, he teaches French.",
+    "options": [
+      "teach",
+      "teaching",
+      "taught",
+      "to teach"
+    ],
+    "answer": "খ",
+    "explanation": "'In addition to'-এর পর Prepositionাল নিয়মে Gerund (teaching) বসে।"
+  },
+  {
+    "id": 163,
+    "topic": "Right Form of Verb",
+    "question": "He is averse to — hard.",
+    "options": [
+      "to work",
+      "work",
+      "working",
+      "worked"
+    ],
+    "answer": "গ",
+    "explanation": "'Averse to' (বিমুখ)-এর পর সর্বদা Gerund (working) বসে।"
+  },
+  {
+    "id": 164,
+    "topic": "Right Form of Verb",
+    "question": "He is looking forward to — a reply.",
+    "options": [
+      "getting",
+      "to get",
+      "got",
+      "get"
+    ],
+    "answer": "ক",
+    "explanation": "'Look forward to' এর পর Gerund (getting) বসে।"
+  },
+  {
+    "id": 165,
+    "topic": "Right Form of Verb",
+    "question": "With an eye to — his English, he enrolled in a language course.",
+    "options": [
+      "to improve",
+      "improve",
+      "improved",
+      "improving"
+    ],
+    "answer": "ঘ",
+    "explanation": "'With an eye to'-এর পর Gerund (improving) বসে।"
+  },
+  {
+    "id": 166,
+    "topic": "Right Form of Verb",
+    "question": "She takes pleasure in — the needy.",
+    "options": [
+      "assisted",
+      "to assist",
+      "assisting",
+      "assist"
+    ],
+    "answer": "গ",
+    "explanation": "Preposition 'in'-এর পর Gerund (assisting) বসে।"
+  },
+  {
+    "id": 167,
+    "topic": "Right Form of Verb",
+    "question": "The boy was punished for — lies.",
+    "options": [
+      "tell",
+      "telling",
+      "told",
+      "to tell"
+    ],
+    "answer": "খ",
+    "explanation": "Preposition 'for'-এর পর Gerund 'telling' বসে।"
+  },
+  {
+    "id": 168,
+    "topic": "Right Form of Verb",
+    "question": "He succeeded by — day and night.",
+    "options": [
+      "toiling",
+      "toil",
+      "to toiling",
+      "toiled"
+    ],
+    "answer": "ক",
+    "explanation": "Preposition 'by'-এর পর Gerund (toiling) বসে।"
+  },
+  {
+    "id": 169,
+    "topic": "Right Form of Verb",
+    "question": "Without — hard, you cannot make a good result.",
+    "options": [
+      "work",
+      "to work",
+      "working",
+      "worked"
+    ],
+    "answer": "গ",
+    "explanation": "Preposition 'Without'-এর পর Gerund (working) বসে।"
+  },
+  {
+    "id": 170,
+    "topic": "Right Form of Verb",
+    "question": "After — the bell, the students entered the examination hall.",
+    "options": [
+      "hearing",
+      "hear",
+      "heard",
+      "to hear"
+    ],
+    "answer": "ক",
+    "explanation": "Preposition 'After'-এর পর Gerund (hearing) বসে।"
+  },
+  {
+    "id": 171,
+    "topic": "Right Form of Verb",
+    "question": "The hen has — an egg this morning.",
+    "options": [
+      "lay",
+      "laid",
+      "lain",
+      "lied"
+    ],
+    "answer": "খ",
+    "explanation": "ডিম পাড়া বা কোনো কিছু অনুভূমিকভাবে রাখা অর্থে Transitive Verb হলো 'Lay - Laid - Laid'।"
+  },
+  {
+    "id": 172,
+    "topic": "Right Form of Verb",
+    "question": "He — down on the sofa to take a rest.",
+    "options": [
+      "laid",
+      "lain",
+      "lied",
+      "lay"
+    ],
+    "answer": "ঘ",
+    "explanation": "বিশ্রামের জন্য শোয়া অর্থে Intransitive Verb হলো 'Lie - Lay - Lain'; অতীতে 'lay' হবে।"
+  },
+  {
+    "id": 173,
+    "topic": "Right Form of Verb",
+    "question": "The suspect — to the police during the interrogation.",
+    "options": [
+      "laid",
+      "lain",
+      "lay",
+      "lied"
+    ],
+    "answer": "ঘ",
+    "explanation": "মিথ্যা বলা অর্থে Verb হলো 'Lie - Lied - Lied'।"
+  },
+  {
+    "id": 174,
+    "topic": "Right Form of Verb",
+    "question": "The water level in the river has — significantly.",
+    "options": [
+      "risen",
+      "arisen",
+      "raised",
+      "rose"
+    ],
+    "answer": "ক",
+    "explanation": "নিজে নিজে বৃদ্ধি পাওয়া বা ওঠা অর্থে Intransitive Verb হলো 'Rise - Rose - Risen'।"
+  },
+  {
+    "id": 175,
+    "topic": "Right Form of Verb",
+    "question": "The teacher — an important question in the class.",
+    "options": [
+      "rose",
+      "arose",
+      "raised",
+      "risen"
+    ],
+    "answer": "গ",
+    "explanation": "কোনো প্রশ্ন বা বিষয় উত্থাপন করা অর্থে Transitive Verb হলো 'Raise - Raised - Raised'।"
+  },
+  {
+    "id": 176,
+    "topic": "Right Form of Verb",
+    "question": "A serious problem has — in the project.",
+    "options": [
+      "risen",
+      "arisen",
+      "raised",
+      "arose"
+    ],
+    "answer": "খ",
+    "explanation": "কোনো সমস্যা উদ্ভূত হওয়া বা দেখা দেওয়া অর্থে Verb হলো 'Arise - Arose - Arisen'।"
+  },
+  {
+    "id": 177,
+    "topic": "Right Form of Verb",
+    "question": "The bell — five minutes ago.",
+    "options": [
+      "ring",
+      "rung",
+      "ringed",
+      "rang"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Ago' থাকায় Past Indefinite Tense; 'Ring'-এর Past Form হলো 'Rang' ('Rung' হলো V3)।"
+  },
+  {
+    "id": 178,
+    "topic": "Right Form of Verb",
+    "question": "He — the rope tightly around the parcel.",
+    "options": [
+      "binded",
+      "bind",
+      "bound",
+      "bounded"
+    ],
+    "answer": "গ",
+    "explanation": "বাঁধা অর্থে 'Bind'-এর Past Form হলো 'Bound'।"
+  },
+  {
+    "id": 179,
+    "topic": "Right Form of Verb",
+    "question": "The ship — in the deep ocean.",
+    "options": [
+      "sunk",
+      "sank",
+      "sinked",
+      "drowned"
+    ],
+    "answer": "খ",
+    "explanation": "জড়বস্তু বা জাহাজ নিমজ্জিত হওয়া বোঝাতে 'Sink - Sank - Sunk' বসে (মানুষ বা প্রাণী ডুবে মরা অর্থে 'drown')।"
+  },
+  {
+    "id": 180,
+    "topic": "Right Form of Verb",
+    "question": "The boy — in the river while bathing.",
+    "options": [
+      "drowned",
+      "sank",
+      "was sunk",
+      "drown"
+    ],
+    "answer": "ক",
+    "explanation": "মানুষ পানিতে ডুবে মৃত্যুবরণ করলে 'Drown' ক্রিয়াটি ব্যবহৃত হয়।"
+  },
+  {
+    "id": 181,
+    "topic": "Right Form of Verb",
+    "question": "The prisoner was — for his heinous crime.",
+    "options": [
+      "hanged",
+      "hang",
+      "hanging",
+      "hung"
+    ],
+    "answer": "ক",
+    "explanation": "ফাঁসিতে ঝুলিয়ে মৃত্যুদণ্ড দেওয়া অর্থে 'Hang'-এর Past ও Past Participle হলো 'Hanged'।"
+  },
+  {
+    "id": 182,
+    "topic": "Right Form of Verb",
+    "question": "He — the picture on the wall.",
+    "options": [
+      "hang",
+      "hung",
+      "hanging",
+      "hanged"
+    ],
+    "answer": "খ",
+    "explanation": "দেয়ালে ছবি বা কাপড় ঝুলিয়ে রাখা অর্থে 'Hang'-এর Past ও Past Participle হলো 'Hung'।"
+  },
+  {
+    "id": 183,
+    "topic": "Right Form of Verb",
+    "question": "He has — all his wealth on gambling.",
+    "options": [
+      "spended",
+      "spend",
+      "spending",
+      "spent"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Spend'-এর Past Participle হলো 'Spent'।"
+  },
+  {
+    "id": 184,
+    "topic": "Right Form of Verb",
+    "question": "The bird has — away from the cage.",
+    "options": [
+      "flew",
+      "flowed",
+      "flown",
+      "fled"
+    ],
+    "answer": "গ",
+    "explanation": "উড়ে যাওয়া অর্থে 'Fly - Flew - Flown' বসে (পানি প্রবাহিত হওয়া অর্থে 'Flow - Flowed - Flowed')।"
+  },
+  {
+    "id": 185,
+    "topic": "Right Form of Verb",
+    "question": "The river has — over its banks.",
+    "options": [
+      "overflying",
+      "overflow",
+      "overflown",
+      "overflowed"
+    ],
+    "answer": "ঘ",
+    "explanation": "পানির উপচে পড়া অর্থে 'Flow' থেকে 'Overflowed' হয় ('Overflown' উড়ার ক্ষেত্রে প্রযোজ্য)।"
+  },
+  {
+    "id": 186,
+    "topic": "Right Form of Verb",
+    "question": "The thief — when he saw the police approaching.",
+    "options": [
+      "fleed",
+      "flowed",
+      "fled",
+      "fly"
+    ],
+    "answer": "গ",
+    "explanation": "ভয়ে পালিয়ে যাওয়া অর্থে Verb হলো 'Flee - Fled - Fled'।"
+  },
+  {
+    "id": 187,
+    "topic": "Right Form of Verb",
+    "question": "The wind — violently during the cyclone.",
+    "options": [
+      "blowed",
+      "blew",
+      "blow",
+      "blown"
+    ],
+    "answer": "খ",
+    "explanation": "বাতাস প্রবাহিত হওয়া অর্থে 'Blow'-এর Past Form হলো 'Blew'।"
+  },
+  {
+    "id": 188,
+    "topic": "Right Form of Verb",
+    "question": "The balloon — with a loud bang.",
+    "options": [
+      "burst",
+      "bursted",
+      "bursting",
+      "bursts"
+    ],
+    "answer": "ক",
+    "explanation": "'Burst' (ফেটে যাওয়া)-এর তিনটি রূপই একই: Burst - Burst - Burst।"
+  },
+  {
+    "id": 189,
+    "topic": "Right Form of Verb",
+    "question": "The government has — the price of fuel.",
+    "options": [
+      "cut",
+      "cutting",
+      "cutted",
+      "cuts"
+    ],
+    "answer": "ক",
+    "explanation": "'Cut' ভার্বের Present, Past ও Past Participle রূপ অপরিবর্তিত থাকে: Cut - Cut - Cut।"
+  },
+  {
+    "id": 190,
+    "topic": "Right Form of Verb",
+    "question": "He — his friend by the collar.",
+    "options": [
+      "seizing",
+      "seizes",
+      "ceased",
+      "seized"
+    ],
+    "answer": "ঘ",
+    "explanation": "দৃঢ়ভাবে ধরা বোঝাতে 'Seize' (seized) বসে; 'Cease' অর্থ বন্ধ হওয়া।"
+  },
+  {
+    "id": 191,
+    "topic": "Right Form of Verb",
+    "question": "The rain has — completely.",
+    "options": [
+      "seized",
+      "cease",
+      "ceased",
+      "ceasing"
+    ],
+    "answer": "গ",
+    "explanation": "বৃষ্টি থেমে যাওয়া বা বন্ধ হওয়া অর্থে 'Cease' (ceased) বসে।"
+  },
+  {
+    "id": 192,
+    "topic": "Right Form of Verb",
+    "question": "He — down the tree yesterday.",
+    "options": [
+      "fell",
+      "felled",
+      "fallen",
+      "fall"
+    ],
+    "answer": "খ",
+    "explanation": "গাছ কেটে ফেলা অর্থে Transitive Verb হলো 'Fell - Felled - Felled' (পড়ে যাওয়া অর্থে 'Fall - Fell - Fallen')।"
+  },
+  {
+    "id": 193,
+    "topic": "Right Form of Verb",
+    "question": "The dry leaves — from the tree.",
+    "options": [
+      "felled",
+      "fall",
+      "fallen",
+      "fell"
+    ],
+    "answer": "ঘ",
+    "explanation": "নিজে নিজে ঝরে পড়া অর্থে 'Fall'-এর Past Form হলো 'Fell'।"
+  },
+  {
+    "id": 194,
+    "topic": "Right Form of Verb",
+    "question": "The wounded soldier — on the battlefield.",
+    "options": [
+      "lay",
+      "laid",
+      "lied",
+      "lain"
+    ],
+    "answer": "ক",
+    "explanation": "আহত সৈনিকটি পড়েছিল — 'Lie'-এর Past Tense হলো 'Lay'।"
+  },
+  {
+    "id": 195,
+    "topic": "Right Form of Verb",
+    "question": "She has — the table for dinner.",
+    "options": [
+      "lay",
+      "lain",
+      "laid",
+      "lied"
+    ],
+    "answer": "গ",
+    "explanation": "খাবারের টেবিল সাজানো অর্থে 'Lay'-এর Past Participle হলো 'Laid'।"
+  },
+  {
+    "id": 196,
+    "topic": "Right Form of Verb",
+    "question": "The price of commodities — steadily last year.",
+    "options": [
+      "arose",
+      "rose",
+      "risen",
+      "raised"
+    ],
+    "answer": "খ",
+    "explanation": "দাম নিজে বৃদ্ধি পাওয়া অর্থে 'Rise'-এর Past Form হলো 'Rose'।"
+  },
+  {
+    "id": 197,
+    "topic": "Right Form of Verb",
+    "question": "He — his hand to ask a question.",
+    "options": [
+      "risen",
+      "rose",
+      "arisen",
+      "raised"
+    ],
+    "answer": "ঘ",
+    "explanation": "হাত উপরে তোলা অর্থে Transitive Verb 'Raise'-এর Past Form হলো 'Raised'।"
+  },
+  {
+    "id": 198,
+    "topic": "Right Form of Verb",
+    "question": "He — from his sleep with a start.",
+    "options": [
+      "awaked",
+      "awoke",
+      "awake",
+      "awaken"
+    ],
+    "answer": "খ",
+    "explanation": "ঘুম থেকে জেগে ওঠা অর্থে 'Awake'-এর Past Form হলো 'Awoke'।"
+  },
+  {
+    "id": 199,
+    "topic": "Right Form of Verb",
+    "question": "The dog — the stranger on the leg.",
+    "options": [
+      "bited",
+      "bite",
+      "bit",
+      "bitten"
+    ],
+    "answer": "গ",
+    "explanation": "'Bite' (কামড়ানো)-এর Past Form হলো 'Bit' এবং Past Participle হলো 'Bitten'।"
+  },
+  {
+    "id": 200,
+    "topic": "Right Form of Verb",
+    "question": "He has — all hardships with smiling face.",
+    "options": [
+      "borne",
+      "beared",
+      "bear",
+      "born"
+    ],
+    "answer": "ক",
+    "explanation": "কষ্ট সহ্য করা বা বহন করা অর্থে 'Bear'-এর Past Participle হলো 'Borne' (জন্মগ্রহণ অর্থে 'Born')।"
+  }
+]

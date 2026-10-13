@@ -1,0 +1,2602 @@
+[
+  {
+    "id": 1,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'Only Allah can help us.'",
+    "options": [
+      "Nothing but Allah can help us.",
+      "None but Allah can help us.",
+      "Not only Allah can help us.",
+      "Allah alone cannot help us."
+    ],
+    "answer": "খ",
+    "explanation": "ব্যক্তি বা সৃষ্টিকর্তা নির্দেশ করতে 'Only' বা 'Alone'-এর পরিবর্তে বাক্যের শুরুতে 'None but' বসে।"
+  },
+  {
+    "id": 2,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'He has only a toy car.'",
+    "options": [
+      "He has nothing but a toy car.",
+      "He has not more than a toy car.",
+      "He has none but a toy car.",
+      "He does not have any toy car."
+    ],
+    "answer": "ক",
+    "explanation": "বস্তু নির্দেশ করতে 'Only'-এর পরিবর্তে 'nothing but' বসে।"
+  },
+  {
+    "id": 3,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'A boy of only ten won the prize.'",
+    "options": [
+      "A boy of none but ten won the prize.",
+      "A boy of nothing but ten won the prize.",
+      "A boy of not more than ten won the prize.",
+      "A boy of not ten won the prize."
+    ],
+    "answer": "গ",
+    "explanation": "বয়স বা সংখ্যা নির্দেশ করতে 'Only'-এর পরিবর্তে 'not more than' বা 'not less than' বসে।"
+  },
+  {
+    "id": 4,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'Every mother loves her child.'",
+    "options": [
+      "There is no mother who loves her child.",
+      "Every mother does not hate child.",
+      "No mother loves her child.",
+      "There is no mother but loves her child."
+    ],
+    "answer": "ঘ",
+    "explanation": "'Every + noun' যুক্ত বাক্যকে নেগেটিভ করতে 'There is no + noun + but + verb + বাকি অংশ' বসে।"
+  },
+  {
+    "id": 5,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'You must yield to fate.'",
+    "options": [
+      "You should not yield to fate.",
+      "You cannot but yield to fate.",
+      "You cannot help yield to fate.",
+      "You must not yield to fate."
+    ],
+    "answer": "খ",
+    "explanation": "'Must'-এর পরিবর্তে 'cannot but + base verb' অথবা 'cannot help + verb+ing' বসে।"
+  },
+  {
+    "id": 6,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'As soon as he saw the tiger, he ran away.'",
+    "options": [
+      "No sooner had he seen the tiger than he ran away.",
+      "Hardly had he seen the tiger than he ran.",
+      "As soon as he did not see the tiger, he ran.",
+      "No sooner had he seen the tiger when he ran away."
+    ],
+    "answer": "ক",
+    "explanation": "'As soon as' যুক্ত বাক্যকে নেগেটিভ করতে 'No sooner had + subject + V3... than + subject + V2' বসে।"
+  },
+  {
+    "id": 7,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'He is always punctual.'",
+    "options": [
+      "He is always not late.",
+      "He is never on time.",
+      "He is not always punctual.",
+      "He is never late."
+    ],
+    "answer": "ঘ",
+    "explanation": "'Always'-এর পরিবর্তে 'never' এবং মূল শব্দের বিপরীত শব্দ (punctual -> late) বসে।"
+  },
+  {
+    "id": 8,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'Man is mortal.'",
+    "options": [
+      "Man is never mortal.",
+      "No man is mortal.",
+      "Man is not immortal.",
+      "Man is not mortal."
+    ],
+    "answer": "গ",
+    "explanation": "অর্থ অপরিবর্তিত রেখে এফারমেটিভকে নেগেটিভ করতে 'not + বিপরীত শব্দ' (not immortal) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 9,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'Both Rahim and Karim were present.'",
+    "options": [
+      "Rahim as well as Karim was present.",
+      "Neither Rahim nor Karim was present.",
+      "Both Rahim and Karim were not absent.",
+      "Not only Rahim but also Karim was present."
+    ],
+    "answer": "ঘ",
+    "explanation": "'Both... and' যুক্ত বাক্যকে নেগেটিভ করতে 'Not only... but also' বসে।"
+  },
+  {
+    "id": 10,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'The tea is too hot for me to drink.'",
+    "options": [
+      "The tea is so hot that I cannot drink it.",
+      "The tea is so hot for me to drink.",
+      "The tea is very hot so I cannot drink.",
+      "The tea is too hot that I cannot drink it."
+    ],
+    "answer": "ক",
+    "explanation": "'Too... to' যুক্ত বাক্যকে নেগেটিভ করতে 'so + adj + that + subject + cannot/could not + verb' বসে।"
+  },
+  {
+    "id": 11,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'He tried every plan.'",
+    "options": [
+      "He did not try every plan.",
+      "He failed in all plans.",
+      "He left no plan untried.",
+      "He tried no plan."
+    ],
+    "answer": "গ",
+    "explanation": "'tried every plan'-কে নেগেটিভ রূপান্তর করতে 'left no plan untried' প্রমিত নিয়ম।"
+  },
+  {
+    "id": 12,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'I shall always remember your help.'",
+    "options": [
+      "I shall not always remember your help.",
+      "I shall never forget your help.",
+      "I never remember your help.",
+      "I shall ever forget your help."
+    ],
+    "answer": "খ",
+    "explanation": "'Always'-এর স্থলে 'never' এবং 'remember'-এর বিপরীত 'forget' বসে।"
+  },
+  {
+    "id": 13,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'Where there is smoke, there is fire.'",
+    "options": [
+      "Where there is no smoke there is fire.",
+      "There is smoke and no fire.",
+      "No smoke has any fire.",
+      "There is no smoke without fire."
+    ],
+    "answer": "ঘ",
+    "explanation": "প্রবাদবাক্যটিকে অর্থ ঠিক রেখে নেগেটিভ করতে 'There is no smoke without fire' বসে।"
+  },
+  {
+    "id": 14,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'She is an extraordinary girl.'",
+    "options": [
+      "She is an ordinary girl not.",
+      "She is not an ordinary girl.",
+      "She is not an extraordinary girl.",
+      "She is never ordinary girl."
+    ],
+    "answer": "খ",
+    "explanation": "'Extraordinary' এর বিপরীত 'ordinary' বসিয়ে 'not an ordinary girl' গঠিত হয়।"
+  },
+  {
+    "id": 15,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'He is too weak to walk.'",
+    "options": [
+      "He is so weak that he cannot walk.",
+      "He is very weak that he cannot walk.",
+      "He is so weak to walk.",
+      "He cannot walk because of weak."
+    ],
+    "answer": "ক",
+    "explanation": "'too... to' কাঠামোটি 'so... that... cannot' এ রূপান্তরিত হয়।"
+  },
+  {
+    "id": 16,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Affirmative: 'None but the brave deserve the fair.'",
+    "options": [
+      "The brave alone do not deserve fair.",
+      "All brave deserve fair.",
+      "Only the brave deserve the fair.",
+      "Everyone brave deserves fair."
+    ],
+    "answer": "গ",
+    "explanation": "'None but'-এর স্থলে এফারমেটিভে 'Only' বা 'Alone' বসে।"
+  },
+  {
+    "id": 17,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Affirmative: 'There is no rose without a thorn.'",
+    "options": [
+      "Roses have no thorns.",
+      "Rose always has thorns.",
+      "Every rose has a thorn.",
+      "All roses have thorns only."
+    ],
+    "answer": "গ",
+    "explanation": "'There is no... without'-কে এফারমেটিভ করতে 'Every + noun + has...' বসে।"
+  },
+  {
+    "id": 18,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Affirmative: 'He did not live many years in Dhaka.'",
+    "options": [
+      "He lived no years in Dhaka.",
+      "He lived only a few years in Dhaka.",
+      "He lived few years in Dhaka.",
+      "He lived many years in Dhaka."
+    ],
+    "answer": "খ",
+    "explanation": "'Not many'-এর পরিবর্তে এফারমেটিভে 'only a few' বা 'a few' বসে।"
+  },
+  {
+    "id": 19,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Affirmative: 'I cannot but obey my parents.'",
+    "options": [
+      "I must obey my parents.",
+      "I should obey my parents.",
+      "I have to obey parents only.",
+      "I can obey my parents."
+    ],
+    "answer": "ক",
+    "explanation": "'Cannot but'-এর পরিবর্তে এফারমেটিভে 'Must' বসে।"
+  },
+  {
+    "id": 20,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Affirmative: 'No sooner had I reached the station than the train left.'",
+    "options": [
+      "When I reached the station, the train left.",
+      "I reached the station and train left.",
+      "Hardly I reached the station when train left.",
+      "As soon as I reached the station, the train left."
+    ],
+    "answer": "ঘ",
+    "explanation": "'No sooner had... than' নেগেটিভ থেকে এফারমেটিভে 'As soon as + V2... V2' হয়।"
+  },
+  {
+    "id": 21,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Interrogative: 'Nobody can do this.'",
+    "options": [
+      "Can nobody do this?",
+      "Why nobody can do this?",
+      "Cannot anyone do this?",
+      "Who can do this?"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Nobody / No one / None' যুক্ত বাক্যকে প্রশ্নবোধক করতে 'Who + বাকি অংশ + ?' বসে।"
+  },
+  {
+    "id": 22,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Interrogative: 'Everyone wishes to be happy.'",
+    "options": [
+      "Does everyone wish to be happy?",
+      "Who does not wish to be happy?",
+      "Who wishes to be happy?",
+      "Why everyone wishes to be happy?"
+    ],
+    "answer": "খ",
+    "explanation": "'Everyone / Everybody' যুক্ত বাক্যের প্রশ্নবোধক রূপ হলো 'Who does not + base verb + ?'।"
+  },
+  {
+    "id": 23,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Interrogative: 'Their glory can never fade.'",
+    "options": [
+      "Could their glory ever fade?",
+      "Will their glory fade ever?",
+      "Can their glory ever fade?",
+      "Can their glory never fade?"
+    ],
+    "answer": "গ",
+    "explanation": "'Never' যুক্ত বাক্যকে Interrogative করতে Auxiliary verb শুরুতে এনে 'never'-এর স্থলে 'ever' বসে।"
+  },
+  {
+    "id": 24,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Interrogative: 'There is no use of this law.'",
+    "options": [
+      "What is the use of this law?",
+      "Who uses this law?",
+      "Is there use of this law?",
+      "Why is there no use of this law?"
+    ],
+    "answer": "ক",
+    "explanation": "'There is no use of...'-কে প্রশ্নবোধক করতে 'What is the use of...' বা 'Is there any use of...' বসে।"
+  },
+  {
+    "id": 25,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Interrogative: 'Smoking is injurious to health.'",
+    "options": [
+      "How is smoking injurious to health?",
+      "Isn't smoking injurious to health?",
+      "Is smoking injurious to health?",
+      "Why smoking is injurious to health?"
+    ],
+    "answer": "খ",
+    "explanation": "Affirmative Assertive-কে প্রশ্নবোধক করতে Negative-Interrogative ('Isn't...') করতে হয়।"
+  },
+  {
+    "id": 26,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Assertive: 'Who does not love his country?'",
+    "options": [
+      "Everyone loves his country.",
+      "Anyone loves his country.",
+      "Someone does not love country.",
+      "Nobody loves his country."
+    ],
+    "answer": "ক",
+    "explanation": "'Who does not...'-কে Assertive করতে 'Everyone / Everybody loves...' বসে।"
+  },
+  {
+    "id": 27,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Assertive: 'What though the field be lost?'",
+    "options": [
+      "It does not matter if field is lost.",
+      "Field should not be lost.",
+      "The field is lost totally.",
+      "It matters little though the field be lost."
+    ],
+    "answer": "ঘ",
+    "explanation": "'What though...'-এর প্রমিত রূপ হলো 'It matters little though...'।"
+  },
+  {
+    "id": 28,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Assertive: 'Shall I ever forget those happy days?'",
+    "options": [
+      "I shall ever remember those days.",
+      "I cannot forget those days.",
+      "I shall never forget those happy days.",
+      "Never shall I forget days."
+    ],
+    "answer": "গ",
+    "explanation": "Interrogative বাক্যের 'ever' Assertive বাক্যে 'never'-এ রূপান্তরিত হয়।"
+  },
+  {
+    "id": 29,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Exclamatory: 'It is a very beautiful night.'",
+    "options": [
+      "What beautiful night is it!",
+      "How a beautiful night it is!",
+      "How beautiful night it is!",
+      "What a beautiful night it is!"
+    ],
+    "answer": "ঘ",
+    "explanation": "'a/an' থাকলে 'What a/an + adj + noun + subject + verb + !' নিয়ম প্রযোজ্য।"
+  },
+  {
+    "id": 30,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Exclamatory: 'The rose is very lovely.'",
+    "options": [
+      "What a lovely the rose is!",
+      "How lovely the rose is!",
+      "How a lovely rose it is!",
+      "How lovely is the rose!"
+    ],
+    "answer": "খ",
+    "explanation": "'a/an' না থাকলে 'How + adj + subject + verb + !' কাঠামো বসে।"
+  },
+  {
+    "id": 31,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Exclamatory: 'I wish I had the wings of a bird.'",
+    "options": [
+      "Had I the wings of a bird!",
+      "What wings of a bird I had!",
+      "How I had the wings of a bird!",
+      "If I have the wings of a bird!"
+    ],
+    "answer": "ক",
+    "explanation": "'I wish I had...'-কে Exclamatory করতে 'Had I...!' অথবা 'If I had...!' বসে।"
+  },
+  {
+    "id": 32,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Exclamatory: 'We rejoice that we have won the trophy.'",
+    "options": [
+      "Alas! We have won the trophy.",
+      "Bravo! We win the trophy.",
+      "Hurrah! We have won the trophy.",
+      "How we have won the trophy!"
+    ],
+    "answer": "গ",
+    "explanation": "আনন্দ প্রকাশে 'Hurrah!' ইন্টারজেকশনটি ব্যবহৃত হয়।"
+  },
+  {
+    "id": 33,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Assertive: 'Alas! He is undone.'",
+    "options": [
+      "It is a matter of sorrow that he is undone.",
+      "We grieve that he is undone.",
+      "He is very undone.",
+      "It is a pity that he is undone."
+    ],
+    "answer": "ক",
+    "explanation": "'Alas!'-এর পরিবর্তে Assertive করতে 'It is a matter of sorrow that...' বসে।"
+  },
+  {
+    "id": 34,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Assertive: 'How sweet the cuckoo sings!'",
+    "options": [
+      "The cuckoo sings sweet.",
+      "The cuckoo sings very sweetly.",
+      "The cuckoo is singing sweetly.",
+      "It is sweet how cuckoo sings."
+    ],
+    "answer": "খ",
+    "explanation": "'How sweet...' থেকে Assertive করতে 'Subject + verb + very + adverb' বসে।"
+  },
+  {
+    "id": 35,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Imperative: 'You should do the work immediately.'",
+    "options": [
+      "The work should be done immediately.",
+      "Let you do the work immediately.",
+      "Do the work immediately.",
+      "You do the work immediately."
+    ],
+    "answer": "গ",
+    "explanation": "Second Person-এর ক্ষেত্রে উপদেশমূলক Assertive বাক্য সরাসরি Base Verb দিয়ে শুরু হয়ে Imperative হয়।"
+  },
+  {
+    "id": 36,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Imperative: 'We should go out for a walk.'",
+    "options": [
+      "Go out for a walk.",
+      "Let we go out for a walk.",
+      "We go out for a walk.",
+      "Let us go out for a walk."
+    ],
+    "answer": "ঘ",
+    "explanation": "First Person Plural 'We'-এর ক্ষেত্রে প্রস্তাব বোঝাতে 'Let us (Let's)' বসে।"
+  },
+  {
+    "id": 37,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Imperative: 'You should not run in the sun.'",
+    "options": [
+      "Let you not run in the sun.",
+      "You do not run in the sun.",
+      "Do not run in the sun.",
+      "Never run in the sun."
+    ],
+    "answer": "গ",
+    "explanation": "নিষেধাজ্ঞামূলক ক্ষেত্রে 'Do not + base verb' বসে।"
+  },
+  {
+    "id": 38,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Imperative: 'He should be allowed to speak.'",
+    "options": [
+      "Allow him speaking.",
+      "Let he speak.",
+      "Speak he should.",
+      "Let him speak."
+    ],
+    "answer": "ঘ",
+    "explanation": "Third Person-এর ক্ষেত্রে 'Let + objective pronoun (him) + base verb' বসে।"
+  },
+  {
+    "id": 39,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'In spite of his riches, he is unhappy.'",
+    "options": [
+      "Because he is rich, he is unhappy.",
+      "Though he is rich, he is unhappy.",
+      "He is rich and unhappy.",
+      "He is rich but he is unhappy."
+    ],
+    "answer": "খ",
+    "explanation": "'In spite of + noun/possessive'-কে Complex করতে 'Though/Although + sub + verb + adj' বসে।"
+  },
+  {
+    "id": 40,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'Though he is poor, he is honest.'",
+    "options": [
+      "He is poor, but he is honest.",
+      "In spite of poverty he is honest.",
+      "He is poor so he is honest.",
+      "He is poor and honest."
+    ],
+    "answer": "ক",
+    "explanation": "'Though/Although' যুক্ত ক্লজকে Compound করতে বৈপরীত্যসূচক 'but' বসে।"
+  },
+  {
+    "id": 41,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'Since he was ill, he could not attend the meeting.'",
+    "options": [
+      "His illness did not let him attend.",
+      "He was ill and so could not attend.",
+      "Because of his illness, he could not attend the meeting.",
+      "For he was ill, he could not attend."
+    ],
+    "answer": "গ",
+    "explanation": "'Since/As' যুক্ত কারণবাচক ক্লজকে Simple করতে 'Because of / Owing to + possessive + noun' বসে।"
+  },
+  {
+    "id": 42,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'By working hard, you will succeed.'",
+    "options": [
+      "If you work hard, you will succeed.",
+      "Work hard or you will fail.",
+      "Without working hard you fail.",
+      "Work hard and you will succeed."
+    ],
+    "answer": "ঘ",
+    "explanation": "'By + gerund' যুক্ত শর্তমূলক বাক্যকে Compound করতে Imperative + 'and' বসে।"
+  },
+  {
+    "id": 43,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'Without reading attentively, you will fail.'",
+    "options": [
+      "Unless you read, you fail.",
+      "Without reading attentively, you will fail.",
+      "If you do not read, you fail.",
+      "Read attentively or you will fail."
+    ],
+    "answer": "খ",
+    "explanation": "'Without + gerund' নিজেই Simple Sentence-এর সঠিক কাঠামো।"
+  },
+  {
+    "id": 44,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'I saw a flying bird.'",
+    "options": [
+      "I saw a bird which was flying.",
+      "Seeing a flying bird, I smiled.",
+      "A bird was flying and I saw it.",
+      "I saw a bird and it was flying."
+    ],
+    "answer": "ক",
+    "explanation": "Simple বাক্যের পার্টিসিপল 'flying'-কে Relative Clause ('which was flying')-এ রূপান্তর করে Complex করা হয়।"
+  },
+  {
+    "id": 45,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'He confessed that he was guilty.'",
+    "options": [
+      "He confessed to be guilty.",
+      "He was guilty and confessed.",
+      "He confessed his guilt.",
+      "Guilt was confessed by him."
+    ],
+    "answer": "গ",
+    "explanation": "Noun Clause 'that he was guilty'-কে Noun Phrase 'his guilt'-এ সংক্ষেপ করে Simple করা হয়।"
+  },
+  {
+    "id": 46,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'I know his residence.'",
+    "options": [
+      "Where he lives is known to me.",
+      "I know about his house.",
+      "He lives somewhere and I know it.",
+      "I know where he lives."
+    ],
+    "answer": "ঘ",
+    "explanation": "Noun Phrase 'his residence'-কে Noun Clause 'where he lives'-এ রূপান্তর করা হয়।"
+  },
+  {
+    "id": 47,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'Closing the door, I went to sleep.'",
+    "options": [
+      "When I closed the door, I slept.",
+      "I closed the door and went to sleep.",
+      "Closing the door, I slept.",
+      "After closing door, I went to sleep."
+    ],
+    "answer": "খ",
+    "explanation": "Participle Phrase-কে পূর্ণাঙ্গ সমাপিকা ক্রিয়ায় এনে 'and' দ্বারা যুক্ত করে Compound গঠিত হয়।"
+  },
+  {
+    "id": 48,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'The weather being cold, we stayed indoors.'",
+    "options": [
+      "The weather being cold, we stayed indoors.",
+      "As the weather was cold, we stayed indoors.",
+      "The weather was cold and we stayed indoors.",
+      "Because of cold weather we stayed indoors."
+    ],
+    "answer": "ক",
+    "explanation": "Nominative Absolute 'The weather being cold' যুক্ত বাক্যটি নিজেই Simple Sentence।"
+  },
+  {
+    "id": 49,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'We eat to live.'",
+    "options": [
+      "We eat so that we may live.",
+      "We eat and live.",
+      "We eat in order to live.",
+      "Living is why we eat."
+    ],
+    "answer": "ক",
+    "explanation": "Infinitive of Purpose 'to live'-কে Adverbial Clause 'so that we may live'-এ রূপান্তর করে Complex করা হয়।"
+  },
+  {
+    "id": 50,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'He worked hard so that he could prosper.'",
+    "options": [
+      "He worked hard and prospered.",
+      "Working hard, he could prosper.",
+      "He prospered by hard work.",
+      "He worked hard to prosper."
+    ],
+    "answer": "ঘ",
+    "explanation": "'so that + clause'-কে সংক্ষেপ করে Infinitive 'to prosper' বসালে Simple Sentence গঠিত হয়।"
+  },
+  {
+    "id": 51,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'Besides giving advice, he helped him with money.'",
+    "options": [
+      "Besides advice, he gave money.",
+      "He not only gave him advice but also helped him with money.",
+      "He advised and monetarily helped.",
+      "He gave advice and money also."
+    ],
+    "answer": "খ",
+    "explanation": "'Besides + gerund'-কে Compound করতে 'not only... but also' বসে।"
+  },
+  {
+    "id": 52,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'I do not know the time of his arrival.'",
+    "options": [
+      "I do not know that he arrives.",
+      "I do not know about his arrival time.",
+      "I do not know when he will arrive.",
+      "When he arrives is not known to me."
+    ],
+    "answer": "গ",
+    "explanation": "'the time of his arrival' সময় নির্দেশ করায় 'when he will arrive' Noun Clause বসে।"
+  },
+  {
+    "id": 53,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'He is so dishonest that he cannot be trusted.'",
+    "options": [
+      "His dishonesty makes him untrusted.",
+      "Being dishonest, he is not trusted.",
+      "He is too dishonest to be trusted.",
+      "He cannot be trusted for dishonesty."
+    ],
+    "answer": "গ",
+    "explanation": "'so... that... cannot'-কে সংক্ষেপ করে 'too... to' বসালে Simple Sentence গঠিত হয়।"
+  },
+  {
+    "id": 54,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'Unless you hurry, you will miss the train.'",
+    "options": [
+      "Hurry or you will miss the train.",
+      "Without hurrying you miss train.",
+      "If you do not hurry, you miss train.",
+      "Hurry and you will miss train."
+    ],
+    "answer": "ক",
+    "explanation": "'Unless' যুক্ত শর্তকে Compound করতে Imperative + 'or' বসে।"
+  },
+  {
+    "id": 55,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'A drowned man catches at a straw.'",
+    "options": [
+      "When a man drowns, he catches straw.",
+      "Drowning man catches at straw.",
+      "A man drowns and catches a straw.",
+      "A man who is drowning catches at a straw."
+    ],
+    "answer": "ঘ",
+    "explanation": "Participle Adjective 'drowned/drowning'-কে Relative Clause-এ রূপান্তর করে Complex করা হয়।"
+  },
+  {
+    "id": 56,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'When the sun rose, the fog dispersed.'",
+    "options": [
+      "The sun rose and fog dispersed.",
+      "The sun having risen, the fog dispersed.",
+      "At sunrise, the fog dispersed.",
+      "Sun rising, fog dispersed."
+    ],
+    "answer": "খ",
+    "explanation": "উভয় অংশের সাবজেক্ট ভিন্ন হওয়ায় Nominative Absolute ('The sun having risen') দ্বারা Simple করা হয়।"
+  },
+  {
+    "id": 57,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'Speak the truth and I will pardon you.'",
+    "options": [
+      "If you speak truth, I will pardon you.",
+      "Speak the truth and I will pardon you.",
+      "Unless you speak truth, I won't pardon.",
+      "By speaking truth, you get pardon."
+    ],
+    "answer": "খ",
+    "explanation": "এটি নিজেই একটি আদর্শ Compound Sentence।"
+  },
+  {
+    "id": 58,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'Speak the truth and I will pardon you.'",
+    "options": [
+      "Provided speaking truth I pardon you.",
+      "Speak truth so that I pardon you.",
+      "If you speak the truth, I will pardon you.",
+      "Unless you speak truth, I pardon you."
+    ],
+    "answer": "গ",
+    "explanation": "শর্তমূলক Compound বাক্যকে Complex করতে 'If + present..., future...' বসে।"
+  },
+  {
+    "id": 59,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Who wrote the play Hamlet?'",
+    "options": [
+      "By whom was the play Hamlet written?",
+      "Who was written the play Hamlet?",
+      "Whom was the play Hamlet written by?",
+      "By whom Hamlet was written?"
+    ],
+    "answer": "ক",
+    "explanation": "'Who' যুক্ত Active প্রশ্নবোধক বাক্যকে Passive করতে 'By whom + auxiliary + subject + V3 + ?' বসে।"
+  },
+  {
+    "id": 60,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Whom did you see on the road?'",
+    "options": [
+      "Whom was seen by you on road?",
+      "By whom were you seen on road?",
+      "Who did you see on road?",
+      "Who was seen by you on the road?"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Whom' যুক্ত প্রশ্নকে Passive করতে 'Who + auxiliary + V3 + by + object + ?' বসে।"
+  },
+  {
+    "id": 61,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Do not close the door.'",
+    "options": [
+      "The door should not closed.",
+      "Let not the door be closed.",
+      "Let the door not closed.",
+      "You are asked not close door."
+    ],
+    "answer": "খ",
+    "explanation": "Negative Imperative বাক্যকে Passive করতে 'Let not + object + be + V3' বসে।"
+  },
+  {
+    "id": 62,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Shut the window.'",
+    "options": [
+      "Let the window be shut.",
+      "Let the window be shutted.",
+      "Let window shut.",
+      "The window should shut."
+    ],
+    "answer": "ক",
+    "explanation": "Imperative বাক্যকে Passive করতে 'Let + object + be + V3' (shut-এর তিনটি রূপই shut) বসে।"
+  },
+  {
+    "id": 63,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Honey tastes sweet.'",
+    "options": [
+      "Honey is tasted sweetly.",
+      "Sweet is tasted by honey.",
+      "Honey was sweet when tasted.",
+      "Honey is sweet when it is tasted."
+    ],
+    "answer": "ঘ",
+    "explanation": "Quasi-passive (কর্মবাচ্য সদৃশ) বাক্যকে Passive করতে 'Subject + be verb + adjective + when it is + V3' বসে।"
+  },
+  {
+    "id": 64,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'The house is building.'",
+    "options": [
+      "The house is building itself.",
+      "The house is built.",
+      "The house is being built.",
+      "The house has been built."
+    ],
+    "answer": "গ",
+    "explanation": "Quasi-passive কন্টিনিউয়াস কাঠামোর প্যাসিভ রূপ হলো 'Subject + be + being + V3'।"
+  },
+  {
+    "id": 65,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'He made me drive the car.'",
+    "options": [
+      "The car was made drive by me.",
+      "He was made to drive by me.",
+      "I was made drive the car by him.",
+      "I was made to drive the car by him."
+    ],
+    "answer": "ঘ",
+    "explanation": "Active-এ Bare Infinitive থাকলে Passive-এ 'to + verb' (to drive) বসে।"
+  },
+  {
+    "id": 66,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'They elected him chairman.'",
+    "options": [
+      "He was elected chairman by them.",
+      "Chairman was elected him by them.",
+      "He was made chairman by they.",
+      "Him was elected chairman."
+    ],
+    "answer": "ক",
+    "explanation": "Factitive Object বা Complement ('chairman') অপরিবর্তিত থাকে এবং মূল অবজেক্ট 'him' সাবজেক্ট (He) হয়।"
+  },
+  {
+    "id": 67,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'He ran a race.'",
+    "options": [
+      "Running a race was done by him.",
+      "A race was run by him.",
+      "He was run by a race.",
+      "A race ran by him."
+    ],
+    "answer": "খ",
+    "explanation": "Cognate Object 'a race' প্যাসিভ বাক্যের সাবজেক্ট হয়।"
+  },
+  {
+    "id": 68,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'One should keep one's promises.'",
+    "options": [
+      "One should be kept promises.",
+      "Promises ought to keep.",
+      "Promises should be kept.",
+      "One's promises should be kept by one."
+    ],
+    "answer": "গ",
+    "explanation": "অনির্দিষ্ট Subject 'One' থাকলে Passive-এ 'by one' সাধারণত বাদ দিয়ে 'Promises should be kept' লিখতে হয়।"
+  },
+  {
+    "id": 69,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Circumstances obliged me to go.'",
+    "options": [
+      "I was obliged to go.",
+      "I was obliged by circumstances to go.",
+      "Circumstances were obliged to go.",
+      "To go was obliged for me."
+    ],
+    "answer": "ক",
+    "explanation": "'Oblige'-এর ক্ষেত্রে স্বাভাবিক নিয়মে 'by circumstances' ঊহ্য রেখে 'I was obliged to go' প্রমিত।"
+  },
+  {
+    "id": 70,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'His conduct shocked me.'",
+    "options": [
+      "I was shocked with his conduct.",
+      "His conduct was shocked by me.",
+      "I was shocked by his conduct.",
+      "I was shocked at his conduct."
+    ],
+    "answer": "ঘ",
+    "explanation": "'Shocked', 'surprised', 'alarmed', 'astonished'-এর পর 'by'-এর স্থলে উপযুক্ত Preposition 'at' বসে।"
+  },
+  {
+    "id": 71,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'The news pleased us all.'",
+    "options": [
+      "We all were pleased at the news.",
+      "We all were pleased with the news.",
+      "We all were pleased by the news.",
+      "The news was pleased by us."
+    ],
+    "answer": "খ",
+    "explanation": "'Pleased', 'satisfied', 'disgusted'-এর পর আচরণ বা বস্তুর ক্ষেত্রে Preposition 'with' বসে।"
+  },
+  {
+    "id": 72,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'I know him.'",
+    "options": [
+      "He is known by me.",
+      "He was known to me.",
+      "He is known to me.",
+      "He is known with me."
+    ],
+    "answer": "গ",
+    "explanation": "'Known'-এর পর Passive-এ 'by' না বসে Preposition 'to' বসে।"
+  },
+  {
+    "id": 73,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Tears filled her eyes.'",
+    "options": [
+      "Her eyes filled with tears.",
+      "Her eyes were filled by tears.",
+      "Her eyes were filled with tears.",
+      "Tears were filled in her eyes."
+    ],
+    "answer": "গ",
+    "explanation": "'Filled'-এর পর Passive Voice-এ Preposition 'with' বসে।"
+  },
+  {
+    "id": 74,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'The smoke covered the town.'",
+    "options": [
+      "The town was covered with smoke.",
+      "Smoke was covered by town.",
+      "The town was covered in smoke.",
+      "The town was covered by smoke."
+    ],
+    "answer": "ক",
+    "explanation": "'Covered'-এর পর উপাদান নির্দেশ করতে Preposition 'with' বসে।"
+  },
+  {
+    "id": 75,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'We must listen to his words.'",
+    "options": [
+      "His words must be listened by us.",
+      "His words should be listened.",
+      "We must be listened to his words.",
+      "His words must be listened to."
+    ],
+    "answer": "ঘ",
+    "explanation": "Group Verb-এর Preposition ('to') Passive-এ ভার্বের সাথে অটুট থাকে।"
+  },
+  {
+    "id": 76,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Panic seized the crowd.'",
+    "options": [
+      "Panic was seized by crowd.",
+      "The crowd was seized with panic.",
+      "The crowd was seized by panic.",
+      "The crowd was seized in panic."
+    ],
+    "answer": "খ",
+    "explanation": "'Seized'-এর পর তীব্র আবেগ প্রকাশে Preposition 'with' বসে।"
+  },
+  {
+    "id": 77,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'He annoyed me.'",
+    "options": [
+      "I was annoyed at him.",
+      "He was annoyed with me.",
+      "I was annoyed by him.",
+      "I was annoyed with him."
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যক্তির প্রতি ক্ষুব্ধ হলে 'annoyed with' এবং কোনো ঘটনার ওপর হলে 'annoyed at' বসে।"
+  },
+  {
+    "id": 78,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Light illumined the room.'",
+    "options": [
+      "Light was illumined by room.",
+      "The room was illumined by light.",
+      "The room was illumined with light.",
+      "The room was illumined of light."
+    ],
+    "answer": "গ",
+    "explanation": "আলোকোজ্জ্বল হওয়া প্রকাশে 'illumined with' বসে।"
+  },
+  {
+    "id": 79,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Active: 'The thief was caught red-handed.'",
+    "options": [
+      "The police caught the thief red-handed.",
+      "Someone caught the thief red-handed.",
+      "A person caught the thief red-handed.",
+      "They caught thief red-handed."
+    ],
+    "answer": "ক",
+    "explanation": "চোর ধরার স্বাভাবিক কর্তা 'the police' হওয়ায় Active-এ 'The police caught...' বসে।"
+  },
+  {
+    "id": 80,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Active: 'My watch was stolen.'",
+    "options": [
+      "A thief stole my watch.",
+      "Someone stole my watch.",
+      "He stole my watch.",
+      "People stole my watch."
+    ],
+    "answer": "খ",
+    "explanation": "অজ্ঞাত চুরির ক্ষেত্রে অনির্দিষ্ট Subject 'Someone' দিয়ে Active বাক্য গঠিত হয়।"
+  },
+  {
+    "id": 81,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Active: 'English is spoken all over the world.'",
+    "options": [
+      "All speak English in world.",
+      "Everyone speaks English everywhere.",
+      "They speak English all over the world.",
+      "People speak English all over the world."
+    ],
+    "answer": "ঘ",
+    "explanation": "ভাষা বলা জনগণের কাজ হওয়ায় স্বাভাবিক Subject 'People speak...' বসে।"
+  },
+  {
+    "id": 82,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Active: 'He was granted a pension.'",
+    "options": [
+      "The government granted him a pension.",
+      "They grant him a pension.",
+      "Authorities granted pension him.",
+      "Someone granted a pension."
+    ],
+    "answer": "ক",
+    "explanation": "পেনশন মঞ্জুরকারী উপযুক্ত কর্তৃপক্ষ হলো 'The government' বা সংশ্লিষ্ট প্রতিষ্ঠান।"
+  },
+  {
+    "id": 83,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'You should help the distressed.'",
+    "options": [
+      "The distressed are helped by you.",
+      "The distressed should be helped.",
+      "Let the distressed be helped by you.",
+      "The distressed ought to help."
+    ],
+    "answer": "খ",
+    "explanation": "Modal Auxiliary 'should'-এর Passive রূপ হলো 'should be + V3'।"
+  },
+  {
+    "id": 84,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'Akbar was the greatest Mughal emperor.'",
+    "options": [
+      "Akbar was greater than most other Mughal emperors.",
+      "Akbar was very great emperor.",
+      "Akbar was greater than all other Mughal emperors.",
+      "No other emperor was greater than Akbar."
+    ],
+    "answer": "গ",
+    "explanation": "সাধারণ Superlative থেকে Comparative করতে 'greater than all other + plural noun' বা 'than any other + singular noun' বসে।"
+  },
+  {
+    "id": 85,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'Iron is the most useful of all metals.'",
+    "options": [
+      "Iron is as useful as metal.",
+      "Very few metals are as useful as iron.",
+      "No other metal is as useful as iron.",
+      "No other metals are so useful as iron."
+    ],
+    "answer": "গ",
+    "explanation": "সাধারণ Superlative Degree-কে Positive করতে বাক্যের শুরুতে 'No other + singular noun' বসে।"
+  },
+  {
+    "id": 86,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'Sher-e-Bangla was one of the greatest leaders of Bengal.'",
+    "options": [
+      "Very few leaders of Bengal were as great as Sher-e-Bangla.",
+      "Sher-e-Bangla was as great as leaders.",
+      "Few leaders of Bengal were greater than Sher-e-Bangla.",
+      "No other leader of Bengal was as great as Sher-e-Bangla."
+    ],
+    "answer": "ক",
+    "explanation": "'one of the + superlative'-কে Positive করতে বাক্যের শুরুতে 'Very few + plural noun + plural verb' বসে।"
+  },
+  {
+    "id": 87,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'He is as cunning as a fox.'",
+    "options": [
+      "A fox is cunning than he.",
+      "A fox is not more cunning than he.",
+      "A fox is less cunning than he.",
+      "He is more cunning than a fox."
+    ],
+    "answer": "খ",
+    "explanation": "দুটি সত্ত্বার মধ্যে Positive Affirmative থাকলে Comparative Negative হয়: 'A fox is not more cunning than he'।"
+  },
+  {
+    "id": 88,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'A train runs faster than a bus.'",
+    "options": [
+      "No other bus runs so fast as train.",
+      "A bus runs faster than a train.",
+      "A bus runs as fast as a train.",
+      "A bus does not run as fast as a train."
+    ],
+    "answer": "ঘ",
+    "explanation": "দুটির তুলনায় Comparative Affirmative থাকলে Positive Negative ('does not run as fast as') হয়।"
+  },
+  {
+    "id": 89,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Superlative: 'No other boy in the class is as tall as Rahim.'",
+    "options": [
+      "Rahim is the most tall boy in class.",
+      "Rahim is the tallest boy in the class.",
+      "Rahim is one of the tallest boys in the class.",
+      "Rahim is taller than all boys in class."
+    ],
+    "answer": "খ",
+    "explanation": "'No other... as tall as'-কে Superlative করতে সরাসরি 'the + superlative (tallest) + singular noun' বসে।"
+  },
+  {
+    "id": 90,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'Gold is the most precious metal.'",
+    "options": [
+      "Gold is more precious than any other metal.",
+      "Gold is more precious than all metal.",
+      "Gold is very precious metal.",
+      "Gold is more precious than most other metal."
+    ],
+    "answer": "ক",
+    "explanation": "Superlative থেকে Comparative করতে 'more precious than any other metal' বসে।"
+  },
+  {
+    "id": 91,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Superlative: 'Very few poets in the world are as great as Shakespeare.'",
+    "options": [
+      "Shakespeare is the greatest poet in the world.",
+      "Shakespeare is greater than any poet.",
+      "Shakespeare is one of the greatest poets in the world.",
+      "Shakespeare is great poet of world."
+    ],
+    "answer": "গ",
+    "explanation": "'Very few' যুক্ত Positive-কে Superlative করতে 'one of the + greatest + plural noun (poets)' বসে।"
+  },
+  {
+    "id": 92,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'Very few metals are as heavy as lead.'",
+    "options": [
+      "Lead is heavier than any other metal.",
+      "Lead is the heaviest metal.",
+      "Lead is heavier than all other metal.",
+      "Lead is heavier than most other metals."
+    ],
+    "answer": "ঘ",
+    "explanation": "'Very few' যুক্ত বাক্যের Comparative রূপ হলো 'heavier than most other + plural noun (metals)'।"
+  },
+  {
+    "id": 93,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'Mount Everest is higher than any other peak in the world.'",
+    "options": [
+      "Very few peaks in the world are as high as Mount Everest.",
+      "No other peak in the world is as high as Mount Everest.",
+      "No peak is higher than Mount Everest.",
+      "Mount Everest is as high as other peaks."
+    ],
+    "answer": "খ",
+    "explanation": "'higher than any other peak'-কে Positive করতে 'No other peak... as high as' বসে।"
+  },
+  {
+    "id": 94,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'He is not less strong than you.'",
+    "options": [
+      "He is less strong as you.",
+      "You are stronger than he.",
+      "He is as strong as you.",
+      "He is stronger than you."
+    ],
+    "answer": "গ",
+    "explanation": "'Not less... than'-কে Positive করতে সরাসরি 'as + positive + as' (as strong as) বসে।"
+  },
+  {
+    "id": 95,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'I am not as wise as Solomon.'",
+    "options": [
+      "Solomon was wiser than I.",
+      "Solomon was not wiser than I.",
+      "Solomon was as wise as I.",
+      "I am wiser than Solomon."
+    ],
+    "answer": "ক",
+    "explanation": "নেতিবাচক Positive তুলনার বিপরীত রূপ হলো 'Solomon was wiser than I'।"
+  },
+  {
+    "id": 96,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'Prevention is better than cure.'",
+    "options": [
+      "Prevention is as good as cure.",
+      "Cure is as good as prevention.",
+      "No other thing is as good as cure.",
+      "Cure is not as good as prevention."
+    ],
+    "answer": "ঘ",
+    "explanation": "দুটি বিষয়ের Comparative-কে Positive করতে দ্বিতীয় বিষয়টি সামনে এনে 'not as good as' বসে।"
+  },
+  {
+    "id": 97,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Superlative: 'The pen is mightier than the sword.'",
+    "options": [
+      "The sword is the least mighty.",
+      "The pen is one of the mightiest weapons.",
+      "The pen is the mightiest of all.",
+      "The sentence cannot be changed into Superlative degree."
+    ],
+    "answer": "ঘ",
+    "explanation": "কেবলমাত্র দুটি বস্তুর (pen ও sword) মধ্যে তুলনা হলে Superlative Degree গঠন সম্ভব নয়।"
+  },
+  {
+    "id": 98,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'He is the best boy in the school.'",
+    "options": [
+      "He is better than any other boy in the school.",
+      "He is very good boy in school.",
+      "He is better than most other boys.",
+      "He is better than all boys in the school."
+    ],
+    "answer": "ক",
+    "explanation": "'the best boy'-এর Comparative রূপ হলো 'better than any other boy'।"
+  },
+  {
+    "id": 99,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'He is better than any other boy in the school.'",
+    "options": [
+      "He is as good as other boys.",
+      "Very few boys in school are as good as he.",
+      "No other boy in the school is as good as he.",
+      "No boy is good as he."
+    ],
+    "answer": "গ",
+    "explanation": "'No other boy in the school is as good as he' সঠিক Positive রূপ।"
+  },
+  {
+    "id": 100,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'The rose is the fairest of all flowers.'",
+    "options": [
+      "Very few flowers are fairer than rose.",
+      "The rose is fairer than all other flowers.",
+      "The rose is more fair than other flowers.",
+      "The rose is fairer than any flowers."
+    ],
+    "answer": "খ",
+    "explanation": "'the fairest of all flowers'-কে Comparative করতে 'fairer than all other flowers' বসে।"
+  },
+  {
+    "id": 101,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'Dhaka is larger than Rajshahi.'",
+    "options": [
+      "Dhaka is not as large as Rajshahi.",
+      "Rajshahi is not as large as Dhaka.",
+      "Rajshahi is as large as Dhaka.",
+      "No other city is as large as Dhaka."
+    ],
+    "answer": "খ",
+    "explanation": "দুটি শহরের তুলনায় Affirmative Comparative-কে Negative Positive করতে 'Rajshahi is not as large as Dhaka' হয়।"
+  },
+  {
+    "id": 102,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'A deer runs as fast as a cheetah.'",
+    "options": [
+      "A cheetah does not run faster than a deer.",
+      "A cheetah runs faster than a deer.",
+      "Neither runs faster.",
+      "A deer runs faster than a cheetah."
+    ],
+    "answer": "ক",
+    "explanation": "Affirmative Positive 'as fast as'-এর তুলনামূলক রূপ 'not run faster than'।"
+  },
+  {
+    "id": 103,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Superlative: 'Shakespeare is greater than all other dramatists.'",
+    "options": [
+      "Shakespeare is one of the greatest dramatist.",
+      "Shakespeare is greatest among dramatists.",
+      "Shakespeare is the greatest dramatist.",
+      "Shakespeare is very great dramatist."
+    ],
+    "answer": "গ",
+    "explanation": "'greater than all other'-কে Superlative করতে 'the greatest dramatist' বসে।"
+  },
+  {
+    "id": 104,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'The cow is one of the most useful animals.'",
+    "options": [
+      "No other animal is as useful as cow.",
+      "The cow is as useful as other animals.",
+      "Few animals are more useful than cow.",
+      "Very few animals are as useful as the cow."
+    ],
+    "answer": "ঘ",
+    "explanation": "'one of the most useful'-কে Positive করতে 'Very few animals are as useful as the cow' বসে।"
+  },
+  {
+    "id": 105,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'The cow is one of the most useful animals.'",
+    "options": [
+      "The cow is more useful than all animals.",
+      "The cow is very useful animal.",
+      "The cow is more useful than most other animals.",
+      "The cow is more useful than any other animal."
+    ],
+    "answer": "গ",
+    "explanation": "'one of the'-এর Comparative কাঠামোতে 'more useful than most other animals' বসে।"
+  },
+  {
+    "id": 106,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Superlative: 'No other story is as fascinating as this.'",
+    "options": [
+      "This is the most fascinating story.",
+      "This is more fascinating than any story.",
+      "This is one of the most fascinating story.",
+      "This is fascinating story of all."
+    ],
+    "answer": "ক",
+    "explanation": "'No other... as fascinating as'-কে Superlative করতে 'the most fascinating story' বসে।"
+  },
+  {
+    "id": 107,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'He loves you more than me.'",
+    "options": [
+      "You love me more than him.",
+      "He loves me as much as you.",
+      "I love you as much as he.",
+      "He does not love me as much as he loves you."
+    ],
+    "answer": "ঘ",
+    "explanation": "তুলনামূলক মাত্রার ক্ষেত্রে 'not love me as much as he loves you' সঠিক অর্থ প্রকাশ করে।"
+  },
+  {
+    "id": 108,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'Platinum is the heaviest metal.'",
+    "options": [
+      "Platinum is heavier than all metal.",
+      "Platinum is heavier than any other metal.",
+      "Platinum is heavier than most other metal.",
+      "No metal is heavier than platinum."
+    ],
+    "answer": "খ",
+    "explanation": "'the heaviest metal'-এর Comparative রূপ হলো 'heavier than any other metal'।"
+  },
+  {
+    "id": 109,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'He decided to sell the house.'",
+    "options": [
+      "He decided the house being sold.",
+      "He decided that the house should be sold.",
+      "To sell the house was decided by him.",
+      "The house was decided to be sold by him."
+    ],
+    "answer": "খ",
+    "explanation": "Infinitive phrase-যুক্ত বাক্যকে পূর্ণ ক্লজে এনে Subjunctive প্যাসিভ ('should be sold') করা সবচেয়ে প্রমিত।"
+  },
+  {
+    "id": 110,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'I saw him opening the box.'",
+    "options": [
+      "Opening the box he was seen by me.",
+      "The box was seen opened by him.",
+      "He was seen opening the box by me.",
+      "He was seen to open the box by me."
+    ],
+    "answer": "গ",
+    "explanation": "Present Participle 'opening the box' অপরিবর্তিত থাকে এবং 'him' প্যাসিভ বাক্যের সাবজেক্ট (He) হয়।"
+  },
+  {
+    "id": 111,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'They made him tell the truth.'",
+    "options": [
+      "He was made tell the truth.",
+      "He was told the truth by them.",
+      "The truth was made tell by him.",
+      "He was made to tell the truth by them."
+    ],
+    "answer": "ঘ",
+    "explanation": "Active-এ 'made'-এর পর Bare Infinitive থাকলে Passive-এ 'to + verb' (to tell) বসে।"
+  },
+  {
+    "id": 112,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Give the order.'",
+    "options": [
+      "Let the order be given.",
+      "Let order give.",
+      "Order is given.",
+      "The order should be given."
+    ],
+    "answer": "ক",
+    "explanation": "Imperative বাক্যে আদেশ বোঝাতে 'Let + object + be + V3' বসে।"
+  },
+  {
+    "id": 113,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Keep your word.'",
+    "options": [
+      "Your word should be kept.",
+      "Keep word by you.",
+      "Let your word be kept.",
+      "Your word may be kept."
+    ],
+    "answer": "ক",
+    "explanation": "নৈতিক দায়িত্ব বা প্রতিশ্রুতির ক্ষেত্রে 'Object + should be + V3' সর্বাধিক উপযুক্ত।"
+  },
+  {
+    "id": 114,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Please enter by this door.'",
+    "options": [
+      "You enter by this door.",
+      "Enter by this door please.",
+      "You are requested to enter by this door.",
+      "Let you enter by this door."
+    ],
+    "answer": "গ",
+    "explanation": "'Please' যুক্ত বিনীত অনুরোধকে Passive করতে 'You are requested to + verb' বসে।"
+  },
+  {
+    "id": 115,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Never deceive anyone.'",
+    "options": [
+      "No one should be deceived never.",
+      "Let no one ever be deceived.",
+      "Let not anyone deceived.",
+      "Let never anyone be deceived."
+    ],
+    "answer": "খ",
+    "explanation": "'Never'-যুক্ত নিষেধাজ্ঞাকে Passive করতে 'Let no one ever be + V3' বা 'Let not anyone ever be + V3' বসে।"
+  },
+  {
+    "id": 116,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Whom did you recommend for the post?'",
+    "options": [
+      "Who recommended you for the post?",
+      "Who was you recommended for post?",
+      "Whom was recommended for the post?",
+      "Who was recommended by you for the post?"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Whom' এর স্থানে Passive-এ Subjective 'Who' বসে।"
+  },
+  {
+    "id": 117,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'What made you laugh?'",
+    "options": [
+      "What was made you laugh?",
+      "What you were made to laugh by?",
+      "What were you made to laugh by?",
+      "By what were you made to laugh?"
+    ],
+    "answer": "গ",
+    "explanation": "'By what were you made to laugh?' বা 'What were you made to laugh by?' প্যাসিভ রূপ।"
+  },
+  {
+    "id": 118,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'He taught us English.'",
+    "options": [
+      "We were taught by English.",
+      "English taught us by him.",
+      "English was taught us by him.",
+      "We were taught English by him."
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যক্তিবাচক Indirect Object ('us' -> We) দিয়ে প্যাসিভ করা অধিক প্রচলিত ও স্বাভাবিক।"
+  },
+  {
+    "id": 119,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'They took care of the orphan.'",
+    "options": [
+      "Care was taken of the orphan.",
+      "The orphan was taken care of by them.",
+      "The orphan was taken care by them.",
+      "The orphan was taken by them."
+    ],
+    "answer": "খ",
+    "explanation": "Group Verb 'take care of'-এর Preposition 'of' প্যাসিভ ভার্বের সাথেই যুক্ত থাকে।"
+  },
+  {
+    "id": 120,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'We should look into the matter.'",
+    "options": [
+      "The matter should be looked into.",
+      "The matter should be looked by us.",
+      "The matter should look into.",
+      "The matter looked into by us."
+    ],
+    "answer": "ক",
+    "explanation": "'Look into'-এর 'into' প্যাসিভ পার্টিসিপলের সাথে অক্ষুণ্ণ থাকে।"
+  },
+  {
+    "id": 121,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'He threw a stone at the dog.'",
+    "options": [
+      "A stone threw at the dog.",
+      "A stone was thrown at the dog by him.",
+      "The dog was thrown a stone by him.",
+      "The dog was thrown at with stone."
+    ],
+    "answer": "খ",
+    "explanation": "Direct Object 'a stone' প্যাসিভ বাক্যের সাবজেক্ট হয়।"
+  },
+  {
+    "id": 122,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'The storm tore off the roofs.'",
+    "options": [
+      "The roofs was torn off by the storm.",
+      "The roofs were teared off.",
+      "The storm was torn off by roofs.",
+      "The roofs were torn off by the storm."
+    ],
+    "answer": "ঘ",
+    "explanation": "'Tear'-এর Past Participle হলো 'Torn' (The roofs were torn off)।"
+  },
+  {
+    "id": 123,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'One must do one's duty.'",
+    "options": [
+      "Duty should be done by one.",
+      "One's duty must be done by one.",
+      "Duty must be done.",
+      "Duty must do."
+    ],
+    "answer": "গ",
+    "explanation": "অনির্দিষ্ট কর্তা 'One' প্যাসিভ বাক্যে বর্জন করা হয়।"
+  },
+  {
+    "id": 124,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Rice sells cheap.'",
+    "options": [
+      "Rice is cheap when it is sold.",
+      "Rice was cheap when sold.",
+      "Cheap is sold by rice.",
+      "Rice is sold cheap."
+    ],
+    "answer": "ক",
+    "explanation": "Quasi-passive বাক্যকে 'Subject + is + adjective + when it is + V3' নিয়মে প্যাসিভ করা হয়।"
+  },
+  {
+    "id": 125,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'The bed feels soft.'",
+    "options": [
+      "Soft is felt by the bed.",
+      "The bed feels softly.",
+      "The bed is soft when it is felt.",
+      "The bed is felt softly."
+    ],
+    "answer": "গ",
+    "explanation": "'feel' যুক্ত Quasi-passive-এর নিয়ম: 'The bed is soft when it is felt'।"
+  },
+  {
+    "id": 126,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'Trumpets are sounding.'",
+    "options": [
+      "Trumpets are sounded.",
+      "Trumpets are being sounded.",
+      "Trumpets are sounding themselves.",
+      "Trumpets have been sounded."
+    ],
+    "answer": "খ",
+    "explanation": "Quasi-passive কন্টিনিউয়াস বাক্যের প্যাসিভ রূপ হলো 'Trumpets are being sounded'।"
+  },
+  {
+    "id": 127,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'The drums are beating.'",
+    "options": [
+      "The drums are being beaten.",
+      "The drums are beating by people.",
+      "The drums are beaten.",
+      "The drums beat."
+    ],
+    "answer": "ক",
+    "explanation": "বাদ্যযন্ত্র নিজে বাজে না, তাই 'are being beaten' প্যাসিভ রূপ।"
+  },
+  {
+    "id": 128,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'He desires me to write a letter.'",
+    "options": [
+      "I am desired to write a letter by him.",
+      "He desires a letter being written.",
+      "A letter is desired to be written by me.",
+      "He desires that a letter should be written by me."
+    ],
+    "answer": "ঘ",
+    "explanation": "ইচ্ছা বা আকাঙ্ক্ষা প্রকাশে Subjunctive Clause দিয়ে প্যাসিভ করা হয়।"
+  },
+  {
+    "id": 129,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'I intend to start a school.'",
+    "options": [
+      "I intend a school being started.",
+      "Starting a school is intended.",
+      "A school is intended to start by me.",
+      "It is intended by me to start a school."
+    ],
+    "answer": "ঘ",
+    "explanation": "ইন্ট্রোডাক্টরি 'It' ব্যবহার করে প্যাসিভ রূপ দেওয়া হয়।"
+  },
+  {
+    "id": 130,
+    "topic": "Transformation of Sentences",
+    "question": "Change into Passive: 'The police arrested the thief.'",
+    "options": [
+      "The thief got arrested by police.",
+      "The thief had been arrested.",
+      "The thief was arrested.",
+      "The thief was arrested by police."
+    ],
+    "answer": "গ",
+    "explanation": "গ্রেফতার করার কাজ স্বাভাবিকভাবেই পুলিশের, তাই 'by police' উল্লেখ না করাই প্রমিত।"
+  },
+  {
+    "id": 131,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'Health is above wealth.'",
+    "options": [
+      "Wealth is not as good as health.",
+      "No other thing is as wealth as health.",
+      "Wealth is better than health.",
+      "Health is as good as wealth."
+    ],
+    "answer": "ক",
+    "explanation": "অর্থ অপরিবর্তিত রেখে পজিটিভ রূপ হলো 'Wealth is not as good/valuable as health'।"
+  },
+  {
+    "id": 132,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'Few historians wrote as ably as Macaulay.'",
+    "options": [
+      "Macaulay wrote the most ably.",
+      "Macaulay wrote more ably than most other historians.",
+      "Macaulay wrote more ably than any other historian.",
+      "Macaulay wrote as ably as historians."
+    ],
+    "answer": "খ",
+    "explanation": "'Few historians... as ably as'-এর কম্পারেটিভ রূপ হলো 'more ably than most other historians'।"
+  },
+  {
+    "id": 133,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Superlative: 'Macaulay wrote more ably than most other historians.'",
+    "options": [
+      "Macaulay wrote the most ably.",
+      "Macaulay wrote most ably than all.",
+      "Macaulay wrote one of the most ably among historians.",
+      "Macaulay was most able historian."
+    ],
+    "answer": "গ",
+    "explanation": "'than most other'-এর সুপারলেটিভ হলো 'one of the most ably'।"
+  },
+  {
+    "id": 134,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'Some boys are at least as industrious as Karim.'",
+    "options": [
+      "Karim is not more industrious than some other boys.",
+      "Some other boys are more industrious.",
+      "Karim is more industrious than all boys.",
+      "Karim is the most industrious boy."
+    ],
+    "answer": "ক",
+    "explanation": "'at least as... as'-কে কম্পারেটিভ করতে 'not more industrious than some other boys' বসে।"
+  },
+  {
+    "id": 135,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'This tree is older than that.'",
+    "options": [
+      "This tree is as old as that.",
+      "That tree is not as old as this.",
+      "That tree is as old as this.",
+      "That tree is older than this."
+    ],
+    "answer": "খ",
+    "explanation": "দুটি গাছের তুলনামূলক পজিটিভ রূপ হলো 'That tree is not as old as this'।"
+  },
+  {
+    "id": 136,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'He has not as much influence as his father.'",
+    "options": [
+      "His father has less influence than he.",
+      "His father has as much influence as he.",
+      "He has more influence than father.",
+      "His father has more influence than he."
+    ],
+    "answer": "ঘ",
+    "explanation": "নেগেটিভ পজিটিভকে এফারমেটিভ কম্পারেটিভে রূপান্তর: 'His father has more influence than he'।"
+  },
+  {
+    "id": 137,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'The sword is not as mighty as the pen.'",
+    "options": [
+      "The sword is the mightiest.",
+      "The pen is mightier than the sword.",
+      "The sword is mightier than pen.",
+      "The pen is as mighty as sword."
+    ],
+    "answer": "খ",
+    "explanation": "নেগেটিভ পজিটিভের কম্পারেটিভ হলো 'The pen is mightier than the sword'।"
+  },
+  {
+    "id": 138,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Superlative: 'No other district in Bangladesh grows as much tea as Moulvibazar.'",
+    "options": [
+      "Tea is grown most in Moulvibazar.",
+      "Moulvibazar grows one of the most tea.",
+      "Moulvibazar is the largest tea grower.",
+      "Moulvibazar grows the most tea in Bangladesh."
+    ],
+    "answer": "ঘ",
+    "explanation": "'No other... as much... as' থেকে সুপারলেটিভ হলো 'Moulvibazar grows the most tea'।"
+  },
+  {
+    "id": 139,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'Moulvibazar grows the most tea in Bangladesh.'",
+    "options": [
+      "Moulvibazar grows more tea than most other districts.",
+      "Moulvibazar grows more tea than all districts.",
+      "Moulvibazar grows more tea than any other district in Bangladesh.",
+      "Moulvibazar grows tea more than any."
+    ],
+    "answer": "গ",
+    "explanation": "সুপারলেটিভ থেকে কম্পারেটিভ: 'more tea than any other district'।"
+  },
+  {
+    "id": 140,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'Kolkata is one of the largest cities in India.'",
+    "options": [
+      "Very few cities in India are as large as Kolkata.",
+      "Few cities in India are larger than Kolkata.",
+      "Kolkata is as large as cities in India.",
+      "No other city in India is as large as Kolkata."
+    ],
+    "answer": "ক",
+    "explanation": "'one of the largest'-এর পজিটিভ রূপ হলো 'Very few cities... as large as'।"
+  },
+  {
+    "id": 141,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'Kolkata is one of the largest cities in India.'",
+    "options": [
+      "Kolkata is very large city.",
+      "Kolkata is larger than all other cities.",
+      "Kolkata is larger than most other cities in India.",
+      "Kolkata is larger than any other city in India."
+    ],
+    "answer": "গ",
+    "explanation": "'one of the'-এর কম্পারেটিভে 'larger than most other cities' বসে।"
+  },
+  {
+    "id": 142,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Superlative: 'Very few metals are as precious as platinum.'",
+    "options": [
+      "Platinum is more precious than any metal.",
+      "Platinum is one of the most precious metals.",
+      "Platinum is most precious of metals.",
+      "Platinum is the most precious metal."
+    ],
+    "answer": "খ",
+    "explanation": "'Very few' যুক্ত পজিটিভের সুপারলেটিভ হলো 'Platinum is one of the most precious metals'।"
+  },
+  {
+    "id": 143,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'No other singer was as melodious as Runa Laila.'",
+    "options": [
+      "Runa Laila was the most melodious singer.",
+      "Runa Laila was very melodious.",
+      "Runa Laila was more melodious than most other singers.",
+      "Runa Laila was more melodious than any other singer."
+    ],
+    "answer": "ঘ",
+    "explanation": "'No other... as'-এর কম্পারেটিভ হলো 'more melodious than any other singer'।"
+  },
+  {
+    "id": 144,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Superlative: 'No other singer was as melodious as Runa Laila.'",
+    "options": [
+      "Runa Laila was the most melodious singer.",
+      "Runa Laila sang the best melodiously.",
+      "Runa Laila was one of the most melodious singers.",
+      "Runa Laila was more melodious than all."
+    ],
+    "answer": "ক",
+    "explanation": "'No other... as' থেকে সুপারলেটিভ হলো 'Runa Laila was the most melodious singer'।"
+  },
+  {
+    "id": 145,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'A live ass is better than a dead lion.'",
+    "options": [
+      "A dead lion is as good as live ass.",
+      "A live ass is as good as dead lion.",
+      "No lion is as good as an ass.",
+      "A dead lion is not as good as a live ass."
+    ],
+    "answer": "ঘ",
+    "explanation": "প্রবাদতুল্য বাক্যটির পজিটিভ রূপ হলো 'A dead lion is not as good as a live ass'।"
+  },
+  {
+    "id": 146,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'Iron is heavier than wood.'",
+    "options": [
+      "Wood is not as heavy as iron.",
+      "No wood is as heavy as iron.",
+      "Wood is heavier than iron.",
+      "Wood is as heavy as iron."
+    ],
+    "answer": "ক",
+    "explanation": "দুটির তুলনামূলক কম্পারেটিভ থেকে পজিটিভ: 'Wood is not as heavy as iron'।"
+  },
+  {
+    "id": 147,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'He is not as tall as his brother.'",
+    "options": [
+      "He is taller than his brother.",
+      "His brother is taller than he.",
+      "His brother is not taller than he.",
+      "His brother is as tall as he."
+    ],
+    "answer": "খ",
+    "explanation": "নেগেটিভ পজিটিভের কম্পারেটিভ হলো 'His brother is taller than he'।"
+  },
+  {
+    "id": 148,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'The Pacific is larger than any other ocean.'",
+    "options": [
+      "The Pacific is as large as other oceans.",
+      "No ocean is larger than Pacific.",
+      "No other ocean is as large as the Pacific.",
+      "Very few oceans are as large as Pacific."
+    ],
+    "answer": "গ",
+    "explanation": "'larger than any other'-এর পজিটিভ হলো 'No other ocean is as large as the Pacific'।"
+  },
+  {
+    "id": 149,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Superlative: 'The Pacific is larger than any other ocean.'",
+    "options": [
+      "The Pacific is larger than all oceans.",
+      "The Pacific is one of the largest oceans.",
+      "The Pacific is very large ocean.",
+      "The Pacific is the largest ocean in the world."
+    ],
+    "answer": "ঘ",
+    "explanation": "সরাসরি সুপারলেটিভ হলো 'The Pacific is the largest ocean in the world'।"
+  },
+  {
+    "id": 150,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'He is as wise as an owl.'",
+    "options": [
+      "He is wiser than an owl.",
+      "An owl is not wiser than he.",
+      "An owl is less wise than he.",
+      "An owl is wiser than he."
+    ],
+    "answer": "খ",
+    "explanation": "পজিটিভ থেকে কম্পারেটিভ: 'An owl is not wiser than he'।"
+  },
+  {
+    "id": 151,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'You do not know him better than I.'",
+    "options": [
+      "I know him at least as well as you.",
+      "I do not know him as well as you.",
+      "He is known to me better.",
+      "You know him as well as I."
+    ],
+    "answer": "ক",
+    "explanation": "নেতিবাচক মাত্রার কম্পারেটিভের সঠিক পজিটিভ রূপ হলো 'I know him at least as well as you'।"
+  },
+  {
+    "id": 152,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Comparative: 'I have never seen so fierce a storm as this.'",
+    "options": [
+      "This storm is very fierce storm.",
+      "I have seen fiercer storms.",
+      "This is fiercer than any storm I have ever seen.",
+      "This storm is more fierce than all."
+    ],
+    "answer": "গ",
+    "explanation": "'never seen so... as this'-এর কম্পারেটিভ হলো 'This is fiercer than any storm I have ever seen'।"
+  },
+  {
+    "id": 153,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Superlative: 'This is fiercer than any storm I have ever seen.'",
+    "options": [
+      "This is most fierce storm ever.",
+      "This is the fiercest storm I have ever seen.",
+      "This is one of the fiercest storms.",
+      "This storm is fierce of all."
+    ],
+    "answer": "খ",
+    "explanation": "সুপারলেটিভ রূপ হলো 'This is the fiercest storm I have ever seen'।"
+  },
+  {
+    "id": 154,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Positive: 'London is more populous than most other cities.'",
+    "options": [
+      "No other city is as populous as London.",
+      "London is as populous as other cities.",
+      "Cities are less populous than London.",
+      "Very few cities are as populous as London."
+    ],
+    "answer": "ঘ",
+    "explanation": "'than most other'-এর পজিটিভ হলো 'Very few cities are as populous as London'।"
+  },
+  {
+    "id": 155,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Superlative: 'London is more populous than most other cities.'",
+    "options": [
+      "London is one of the most populous cities.",
+      "London is populous than all cities.",
+      "London is very populous city.",
+      "London is the most populous city."
+    ],
+    "answer": "ক",
+    "explanation": "'than most other' থেকে সুপারলেটিভ হলো 'London is one of the most populous cities'।"
+  },
+  {
+    "id": 156,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'He was so tired that he could not walk.'",
+    "options": [
+      "He could not walk for tiredness.",
+      "Tired as he was, he could not walk.",
+      "He was too tired to walk.",
+      "Being tired he could not walk."
+    ],
+    "answer": "গ",
+    "explanation": "'so... that... could not'-কে সংক্ষেপ করে 'too... to' বসালে Simple Sentence হয়।"
+  },
+  {
+    "id": 157,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'Owing to his illness, he could not attend.'",
+    "options": [
+      "Because illness he could not attend.",
+      "He was ill and could not attend.",
+      "Since he was ill, he could not attend.",
+      "His illness made him absent."
+    ],
+    "answer": "গ",
+    "explanation": "'Owing to'-এর পরিবর্তে কারণসূচক ক্লজ 'Since/As he was ill' বসে।"
+  },
+  {
+    "id": 158,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'Besides being a poet, he was a philosopher.'",
+    "options": [
+      "Besides a poet he was philosopher.",
+      "He was not only a poet but also a philosopher.",
+      "He was poet as well as philosopher.",
+      "He was a poet and philosopher also."
+    ],
+    "answer": "খ",
+    "explanation": "'Besides being'-কে Compound করতে 'not only... but also' বসে।"
+  },
+  {
+    "id": 159,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'Tell me the truth.'",
+    "options": [
+      "Speak truth and tell me.",
+      "The truth is told by you.",
+      "Tell me that you speak truth.",
+      "Tell me what the truth is."
+    ],
+    "answer": "ঘ",
+    "explanation": "Noun Phrase 'the truth'-কে Noun Clause 'what the truth is'-এ রূপান্তর করে Complex করা হয়।"
+  },
+  {
+    "id": 160,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'I know what his intention is.'",
+    "options": [
+      "I know his intention.",
+      "I know about his intention.",
+      "His intention is known to me.",
+      "Knowing his intention, I speak."
+    ],
+    "answer": "ক",
+    "explanation": "Noun Clause 'what his intention is'-কে Noun Phrase 'his intention'-এ রূপান্তর করলে Simple Sentence হয়।"
+  },
+  {
+    "id": 161,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'Though he had many obstacles, he succeeded.'",
+    "options": [
+      "He succeeded because of obstacles.",
+      "He had many obstacles, yet he succeeded.",
+      "In spite of obstacles he succeeded.",
+      "He had obstacles and he succeeded."
+    ],
+    "answer": "খ",
+    "explanation": "'Though'-কে Compound রূপান্তর করতে 'yet' বা 'but' বসে।"
+  },
+  {
+    "id": 162,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'After he had written the letter, he posted it.'",
+    "options": [
+      "He wrote the letter and posted it.",
+      "Writing the letter, he posted it.",
+      "After writing letter, he posted.",
+      "Having written the letter, he posted it."
+    ],
+    "answer": "ঘ",
+    "explanation": "Past Perfect ক্লজকে সংক্ষেপ করে Perfect Participle ('Having written') দ্বারা Simple করা হয়।"
+  },
+  {
+    "id": 163,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'I saw a wounded soldier.'",
+    "options": [
+      "A soldier was wounded and I saw him.",
+      "I saw a soldier and he was wounded.",
+      "I saw a soldier who was wounded.",
+      "Seeing a wounded soldier, I stopped."
+    ],
+    "answer": "গ",
+    "explanation": "Adjective 'wounded'-কে Relative Clause 'who was wounded'-এ রূপান্তর করে Complex করা হয়।"
+  },
+  {
+    "id": 164,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'As soon as the bell rang, the students went into the hall.'",
+    "options": [
+      "Immediately upon the ringing of the bell, the students went into the hall.",
+      "On hearing bell, students went to hall.",
+      "The bell rang and students went into hall.",
+      "Ringing bell, students entered."
+    ],
+    "answer": "ক",
+    "explanation": "'As soon as' ক্লজকে Prepositional Noun Phrase-এ সংক্ষেপ করে Simple করা হয়।"
+  },
+  {
+    "id": 165,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'Do or die.'",
+    "options": [
+      "You must do, or you will die.",
+      "Do and you will die.",
+      "If you do not do, you die.",
+      "Without doing, you will die."
+    ],
+    "answer": "ক",
+    "explanation": "প্রবাদতুল্য বাক্যটির পূর্ণাঙ্গ রূপ হলো 'You must do, or you will die'।"
+  },
+  {
+    "id": 166,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'Do or die.'",
+    "options": [
+      "Do so that you do not die.",
+      "Doing is avoiding death.",
+      "If you do not do, you will die.",
+      "Unless you die, you do."
+    ],
+    "answer": "গ",
+    "explanation": "'or' যুক্ত বাক্যকে Complex করতে 'If you do not... you will...' বসে।"
+  },
+  {
+    "id": 167,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'Do or die.'",
+    "options": [
+      "In case of not doing, you die.",
+      "You will die without doing.",
+      "By doing, you avoid death.",
+      "Without doing, you will die."
+    ],
+    "answer": "ঘ",
+    "explanation": "'Without + gerund' (Without doing) দ্বারা Simple করা হয়।"
+  },
+  {
+    "id": 168,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'He works hard to earn his livelihood.'",
+    "options": [
+      "He works hard in order to livelihood.",
+      "He works hard so that he may earn his livelihood.",
+      "He works hard and earns livelihood.",
+      "Earning livelihood, he works hard."
+    ],
+    "answer": "খ",
+    "explanation": "Infinitive of purpose-কে 'so that + may/can' ক্লজে রূপান্তর করে Complex করা হয়।"
+  },
+  {
+    "id": 169,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'He works hard to earn his livelihood.'",
+    "options": [
+      "He works hard so he may earn livelihood.",
+      "If he works hard, he earns livelihood.",
+      "Working hard, he earns livelihood.",
+      "He works hard and earns his livelihood."
+    ],
+    "answer": "ঘ",
+    "explanation": "Compound-এ রূপান্তর করতে সমাপিকা ক্রিয়ায় 'and' যুক্ত হয়।"
+  },
+  {
+    "id": 170,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'The man who is standing there is a doctor.'",
+    "options": [
+      "The man standing there is a doctor.",
+      "The standing man is a doctor.",
+      "Standing there, the man is doctor.",
+      "The man is there and is a doctor."
+    ],
+    "answer": "ক",
+    "explanation": "Relative Clause 'who is standing there'-কে Reduced Relative Clause বা Participle Phrase 'standing there' বানিয়ে Simple করা হয়।"
+  },
+  {
+    "id": 171,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'Barking dogs seldom bite.'",
+    "options": [
+      "When dogs bark, they bite.",
+      "Barking dogs do not bite.",
+      "Dogs that bark seldom bite.",
+      "Dogs bark and seldom bite."
+    ],
+    "answer": "গ",
+    "explanation": "Participle Adjective 'Barking' কে Relative Clause 'that bark' এ রূপান্তর করে Complex করা হয়।"
+  },
+  {
+    "id": 172,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'He bought a pen which was made in Japan.'",
+    "options": [
+      "The pen bought by him was Japanese.",
+      "He bought a Japanese-made pen.",
+      "A pen was made in Japan and he bought.",
+      "He bought a pen and it was made in Japan."
+    ],
+    "answer": "খ",
+    "explanation": "Relative Clause 'which was made in Japan'-কে সংক্ষেপ করে Compound Adjective 'Japanese-made' বসালে Simple হয়।"
+  },
+  {
+    "id": 173,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'Being punished, he wept.'",
+    "options": [
+      "He was punished and so he wept.",
+      "Because he was punished, he wept.",
+      "When he was punished, he wept.",
+      "Punishing him, he wept."
+    ],
+    "answer": "ক",
+    "explanation": "Participle phrase-কে মূল সমাপিকা ক্রিয়ায় এনে 'and so' দ্বারা Compound করা হয়।"
+  },
+  {
+    "id": 174,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'Being punished, he wept.'",
+    "options": [
+      "Though he was punished, he wept.",
+      "As he was punished, he wept.",
+      "He was punished and wept.",
+      "Punishment made him weep."
+    ],
+    "answer": "খ",
+    "explanation": "কারণবাচক পার্টিসিপলকে 'As/Since' যুক্ত ক্লজে রূপান্তর করে Complex করা হয়।"
+  },
+  {
+    "id": 175,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'He was so ill that he could not sit up.'",
+    "options": [
+      "He could not sit up for illness.",
+      "Being ill, he could not sit up.",
+      "His illness stopped him sitting.",
+      "He was too ill to sit up."
+    ],
+    "answer": "ঘ",
+    "explanation": "'so... that... could not' থেকে সংক্ষেপ রূপ 'too... to' বসে।"
+  },
+  {
+    "id": 176,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'He was so ill that he could not sit up.'",
+    "options": [
+      "If he was not ill, he could sit.",
+      "Too ill he was and could not sit.",
+      "He was very ill and could not sit up.",
+      "He was ill so he sat not up."
+    ],
+    "answer": "গ",
+    "explanation": "'very... and could not...' দিয়ে Compound রূপান্তর করা হয়।"
+  },
+  {
+    "id": 177,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Complex: 'A stitch in time saves nine.'",
+    "options": [
+      "A stitch that is taken in time saves nine.",
+      "Stitching in time saves nine.",
+      "Take stitch in time and save nine.",
+      "If you take a stitch in time, it saves nine."
+    ],
+    "answer": "ক",
+    "explanation": "প্রবাদটিকে Relative Clause যোগ করে Complex করা হয়।"
+  },
+  {
+    "id": 178,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'He promised that he would help me.'",
+    "options": [
+      "His promise was to help me.",
+      "He gave promise of helping me.",
+      "He promised helping me.",
+      "He promised to help me."
+    ],
+    "answer": "ঘ",
+    "explanation": "Noun Clause 'that he would help me'-কে Infinitive 'to help me'-তে সংক্ষেপ করে Simple করা হয়।"
+  },
+  {
+    "id": 179,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Compound: 'He took his hat and left the room.'",
+    "options": [
+      "When he took his hat, he left.",
+      "He took his hat and left the room.",
+      "Taking his hat, he left room.",
+      "Having taken hat, he left."
+    ],
+    "answer": "খ",
+    "explanation": "এটি নিজেই একটি আদর্শ Compound Sentence।"
+  },
+  {
+    "id": 180,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Simple: 'He took his hat and left the room.'",
+    "options": [
+      "He took his hat to leave room.",
+      "When he took his hat, he left.",
+      "Taking his hat, he left the room.",
+      "Hat being taken, he left room."
+    ],
+    "answer": "গ",
+    "explanation": "প্রথম সমাপিকা ক্রিয়াকে Present Participle 'Taking his hat' বানিয়ে Simple করা হয়।"
+  },
+  {
+    "id": 181,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'He is the wisest man in the village.'",
+    "options": [
+      "He is not the foolish man in village.",
+      "No man in the village is wiser than he.",
+      "No other man in the village is as wise as he.",
+      "He is not an unwise man in village."
+    ],
+    "answer": "গ",
+    "explanation": "Superlative Affirmative-কে Negative করতে 'No other... as wise as' বসে।"
+  },
+  {
+    "id": 182,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Affirmative: 'No one can deny that he is honest.'",
+    "options": [
+      "Nobody denies his honesty.",
+      "Everyone admits that he is honest.",
+      "He is honest and all know it.",
+      "Everyone knows he is honest."
+    ],
+    "answer": "খ",
+    "explanation": "'No one can deny'-কে Affirmative করতে 'Everyone admits' বসে।"
+  },
+  {
+    "id": 183,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'I was doubtful whether he would come.'",
+    "options": [
+      "I was not sure that he would come.",
+      "I did not doubt his coming.",
+      "I was doubtful that he would not come.",
+      "I was never sure whether he comes."
+    ],
+    "answer": "ক",
+    "explanation": "'doubtful' (সন্দেহপ্রবণ)-কে নেগেটিভ করতে 'not sure' বসে।"
+  },
+  {
+    "id": 184,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Affirmative: 'He did not leave any question unanswered.'",
+    "options": [
+      "All questions were not left.",
+      "He answered questions well.",
+      "He left questions answered.",
+      "He answered all the questions."
+    ],
+    "answer": "ঘ",
+    "explanation": "'did not leave unanswered'-কে এফারমেটিভ করতে 'answered all' বসে।"
+  },
+  {
+    "id": 185,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'As soon as he entered, everyone stood up.'",
+    "options": [
+      "No sooner had he entered than everyone stood up.",
+      "Hardly had he entered when everyone stood up.",
+      "As soon as he entered no one sat.",
+      "Scarcely he entered than all stood up."
+    ],
+    "answer": "ক",
+    "explanation": "'As soon as' থেকে নেগেটিভ রূপান্তর 'No sooner had... than'।"
+  },
+  {
+    "id": 186,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Interrogative: 'It does not matter whether we win or lose.'",
+    "options": [
+      "Who cares whether we win or lose?",
+      "Does it matter whether we win or lose?",
+      "Why does it not matter if we win or lose?",
+      "What does it matter whether we win or lose?"
+    ],
+    "answer": "ঘ",
+    "explanation": "'It does not matter...'-কে ইন্টারোগেটিভ করতে 'What does it matter...?' বসে।"
+  },
+  {
+    "id": 187,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Assertive: 'What is the use of waiting here?'",
+    "options": [
+      "It is useful to wait here.",
+      "Why should we wait here?",
+      "There is no use of waiting here.",
+      "Waiting here has great use."
+    ],
+    "answer": "গ",
+    "explanation": "'What is the use of...'-কে Assertive করতে 'There is no use of...' বসে।"
+  },
+  {
+    "id": 188,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Interrogative: 'No one likes to suffer.'",
+    "options": [
+      "Who does not like to suffer?",
+      "Who likes to suffer?",
+      "Why no one likes to suffer?",
+      "Does anyone like to suffer?"
+    ],
+    "answer": "খ",
+    "explanation": "'No one'-কে প্রশ্নবোধক করতে 'Who + verb...?' বসে।"
+  },
+  {
+    "id": 189,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Assertive: 'Was he not a great patriot?'",
+    "options": [
+      "He was a great patriot.",
+      "He was not a great patriot.",
+      "Was he a great patriot indeed?",
+      "He was never a patriot."
+    ],
+    "answer": "ক",
+    "explanation": "Negative-Interrogative বাক্যকে Affirmative-Assertive করতে 'He was a great patriot' বসে।"
+  },
+  {
+    "id": 190,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Exclamatory: 'I wish I were a philosopher.'",
+    "options": [
+      "What a philosopher I were!",
+      "How I were a philosopher!",
+      "If only I were a philosopher!",
+      "Wish I am a philosopher!"
+    ],
+    "answer": "গ",
+    "explanation": "'I wish I were...'-এর চমৎকার বিস্ময়বোধক রূপ হলো 'If only I were a philosopher!'।"
+  },
+  {
+    "id": 191,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Assertive: 'If only I could see my homeland once more!'",
+    "options": [
+      "I can see my homeland again.",
+      "I could see my homeland once more.",
+      "It is joy that I see homeland.",
+      "I earnestly wish that I could see my homeland once more."
+    ],
+    "answer": "ঘ",
+    "explanation": "'If only...'-কে Assertive করতে 'I earnestly wish that...' বসে।"
+  },
+  {
+    "id": 192,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Exclamatory: 'The sunset is exceptionally magnificent.'",
+    "options": [
+      "How magnificent is sunset!",
+      "How magnificent the sunset is!",
+      "What a magnificent sunset is it!",
+      "What magnificent sunset!"
+    ],
+    "answer": "খ",
+    "explanation": "'How + adjective + subject + verb + !' গঠন।"
+  },
+  {
+    "id": 193,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Assertive: 'What a terrible disaster it was!'",
+    "options": [
+      "It was a very terrible disaster.",
+      "The disaster was very terrible.",
+      "It was terrible disaster.",
+      "Disaster was terrible."
+    ],
+    "answer": "ক",
+    "explanation": "'What a...'-কে Assertive করতে 'It was a very terrible disaster' বসে।"
+  },
+  {
+    "id": 194,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Imperative: 'You are forbidden to spit here.'",
+    "options": [
+      "Never spit here.",
+      "Do not spit here.",
+      "Spitting is prohibited.",
+      "Spit not here."
+    ],
+    "answer": "খ",
+    "explanation": "নিষেধাজ্ঞামূলক পরোক্ষ ভাবকে সরাসরি Imperative করতে 'Do not spit here' বসে।"
+  },
+  {
+    "id": 195,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Assertive: 'Please help me in my distress.'",
+    "options": [
+      "Help me in distress.",
+      "You should help me in distress.",
+      "I request you to help me in my distress.",
+      "I pray you help me."
+    ],
+    "answer": "গ",
+    "explanation": "বিনীত Imperative-কে Assertive করতে 'I request you to...' বসে।"
+  },
+  {
+    "id": 196,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'A patriot loves his country.'",
+    "options": [
+      "A patriot never hates people.",
+      "No patriot loves his country.",
+      "A patriot loves no other country.",
+      "A patriot does not hate his country."
+    ],
+    "answer": "ঘ",
+    "explanation": "বিপরীত শব্দ সহযোগে নেগেটিভ: 'does not hate his country'।"
+  },
+  {
+    "id": 197,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Affirmative: 'He is not without common sense.'",
+    "options": [
+      "He has common sense.",
+      "He has no common sense.",
+      "He possesses some sense.",
+      "Common sense is with him."
+    ],
+    "answer": "ক",
+    "explanation": "দ্বৈত নেতিবাচক 'not without'-কে এফারমেটিভ করতে 'has common sense' বসে।"
+  },
+  {
+    "id": 198,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Negative: 'Every action has an equal and opposite reaction.'",
+    "options": [
+      "Every action has no reaction.",
+      "There is no action without an equal and opposite reaction.",
+      "Action has no equal reaction.",
+      "No action has equal and opposite reaction."
+    ],
+    "answer": "খ",
+    "explanation": "নিউটনের গতিসূত্রের নেগেটিভ রূপান্তর: 'There is no action without an equal and opposite reaction'।"
+  },
+  {
+    "id": 199,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Interrogative: 'A barking dog seldom bites.'",
+    "options": [
+      "Does a barking dog not bite?",
+      "Why does a barking dog bite?",
+      "When does a barking dog bite?",
+      "Does a barking dog ever bite?"
+    ],
+    "answer": "ঘ",
+    "explanation": "'seldom' নেতিবাচক শব্দ থাকায় প্রশ্নবোধকে 'ever' যুক্ত হয়ে 'Does a barking dog ever bite?' বসে।"
+  },
+  {
+    "id": 200,
+    "topic": "Transformation of Sentences",
+    "question": "Transform into Assertive: 'Does a barking dog ever bite?'",
+    "options": [
+      "A barking dog bites ever.",
+      "Barking dog does not bite.",
+      "A barking dog seldom bites.",
+      "A barking dog never bites."
+    ],
+    "answer": "গ",
+    "explanation": "প্রশ্নবোধক থেকে এফারমেটিভ/নেগেটিভ Assertive-এ প্রবাদটি অপরিবর্তিত থাকে: 'A barking dog seldom bites'।"
+  }
+]
