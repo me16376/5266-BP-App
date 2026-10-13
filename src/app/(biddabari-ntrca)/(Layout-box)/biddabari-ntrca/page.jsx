@@ -70,17 +70,29 @@ function BiddabariDirectoryContent() {
 
   // Helper to score an exam for sorting
   const getExamSortScore = (exam) => {
-    // 1. Chapter Number (e.g. অধ্যায় ০১, ০২... ক, খ...)
-    const bnMatch = exam.title.match(/(?:অধ্যায়|অধ্যায়)\s*[-:]?\s*([০-৯0-9]+)/);
+    // 1. Lecture / Chapter Number (e.g. লেকচার-০১, অধ্যায় ০১, বিষয় ০১)
+    const title = exam?.title || '';
+    const bnMatch = title.match(/(?:লেকচার|অধ্যায়|অধ্যায়|বিষয়|বিষয়|পাঠ|ক্লাস)?\s*[-:.]?\s*([০-৯0-9]+)/);
     let chapterNum = 0;
-    if (bnMatch) {
+    if (bnMatch && bnMatch[1]) {
       const bnMap = { '০': '0', '১': '1', '২': '2', '৩': '3', '৪': '4', '৫': '5', '৬': '6', '৭': '7', '৮': '8', '৯': '9' };
       const converted = bnMatch[1].replace(/[০-৯]/g, d => bnMap[d] || d);
       chapterNum = parseInt(converted, 10) || 0;
     }
 
-    const idNum = exam.id ? parseInt(exam.id.replace(/\D/g, ''), 10) || 0 : 0;
-    return { chapterNum, idNum };
+    // 2. Fallback to ID number suffix (e.g. biddabari_bangla_1 -> 1)
+    let idNum = 0;
+    if (exam?.id) {
+      const idMatch = String(exam.id).match(/_([0-9]+)$/);
+      if (idMatch) {
+        idNum = parseInt(idMatch[1], 10) || 0;
+      } else {
+        idNum = parseInt(String(exam.id).replace(/\D/g, ''), 10) || 0;
+      }
+    }
+
+    const sortNum = chapterNum || idNum;
+    return { chapterNum: sortNum, idNum };
   };
 
   // Filtered & Sorted exams
@@ -108,15 +120,15 @@ function BiddabariDirectoryContent() {
       const scoreA = getExamSortScore(a);
       const scoreB = getExamSortScore(b);
 
-      if (scoreA.chapterNum > 0 && scoreB.chapterNum > 0) {
-        return sortBy === 'oldest' 
-          ? scoreA.chapterNum - scoreB.chapterNum 
-          : scoreB.chapterNum - scoreA.chapterNum;
+      if (scoreA.chapterNum > 0 && scoreB.chapterNum > 0 && scoreA.chapterNum !== scoreB.chapterNum) {
+        return sortBy === 'newest' 
+          ? scoreA.chapterNum - scoreB.chapterNum   // অধ্যায় ক্রম (১ম ➔ ১০ম): 1 -> 10
+          : scoreB.chapterNum - scoreA.chapterNum;  // বিপরীত ক্রম (১০ম ➔ ১ম): 10 -> 1
       }
 
-      return sortBy === 'oldest' 
-        ? scoreA.idNum - scoreB.idNum 
-        : scoreB.idNum - scoreA.idNum;
+      return sortBy === 'newest' 
+        ? scoreA.idNum - scoreB.idNum               // অধ্যায় ক্রম (১ম ➔ ১০ম): 1 -> 10
+        : scoreB.idNum - scoreA.idNum;              // বিপরীত ক্রম (১০ম ➔ ১ম): 10 -> 1
     });
   }, [catalog.exams, selectedCategory, searchQuery, sortBy]);
 

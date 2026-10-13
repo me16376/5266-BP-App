@@ -108,15 +108,15 @@ function SmartAiDirectoryContent() {
       const scoreA = getExamSortScore(a);
       const scoreB = getExamSortScore(b);
 
-      if (scoreA.chapterNum > 0 && scoreB.chapterNum > 0) {
-        return sortBy === 'oldest' 
-          ? scoreA.chapterNum - scoreB.chapterNum 
-          : scoreB.chapterNum - scoreA.chapterNum;
+      if (scoreA.chapterNum > 0 && scoreB.chapterNum > 0 && scoreA.chapterNum !== scoreB.chapterNum) {
+        return sortBy === 'newest' 
+          ? scoreA.chapterNum - scoreB.chapterNum   // অধ্যায় ক্রম (১ম ➔ ১০ম): 1 -> 10
+          : scoreB.chapterNum - scoreA.chapterNum;  // বিপরীত ক্রম (১০ম ➔ ১ম): 10 -> 1
       }
 
-      return sortBy === 'oldest' 
-        ? scoreA.idNum - scoreB.idNum 
-        : scoreB.idNum - scoreA.idNum;
+      return sortBy === 'newest' 
+        ? scoreA.idNum - scoreB.idNum               // অধ্যায় ক্রম (১ম ➔ ১০ম): 1 -> 10
+        : scoreB.idNum - scoreA.idNum;              // বিপরীত ক্রম (১০ম ➔ ১ম): 10 -> 1
     });
   }, [catalog.exams, selectedCategory, searchQuery, sortBy]);
 

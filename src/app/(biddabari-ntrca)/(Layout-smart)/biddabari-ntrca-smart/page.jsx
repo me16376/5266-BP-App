@@ -309,10 +309,10 @@ function BiddabariSmartContent() {
       const scoreA = getExamSortScore(a);
       const scoreB = getExamSortScore(b);
 
-      // If category has edition numbers (BCS / NTRCA), strictly sort by edition
+      // If category has lecture/edition numbers, strictly sort by lecture
       if (scoreA.editionNum > 0 && scoreB.editionNum > 0) {
         if (scoreA.editionNum !== scoreB.editionNum) {
-          return sortBy === 'oldest'
+          return sortBy === 'newest'
             ? scoreA.editionNum - scoreB.editionNum
             : scoreB.editionNum - scoreA.editionNum;
         }
@@ -320,17 +320,13 @@ function BiddabariSmartContent() {
 
       // Next compare Year if different
       if (scoreA.year !== scoreB.year && scoreA.year > 0 && scoreB.year > 0) {
-        return sortBy === 'oldest'
+        return sortBy === 'newest'
           ? scoreA.year - scoreB.year
           : scoreB.year - scoreA.year;
       }
 
-      // If only one has edition number, place it on top in newest
-      if (scoreA.editionNum > 0 && scoreB.editionNum === 0) return sortBy === 'oldest' ? 1 : -1;
-      if (scoreB.editionNum > 0 && scoreA.editionNum === 0) return sortBy === 'oldest' ? -1 : 1;
-
-      // Default fallback: reverse the original sequence order
-      return sortBy === 'oldest'
+      // Default fallback: match lecture sequence order
+      return sortBy === 'newest'
         ? scoreA.idNum - scoreB.idNum
         : scoreB.idNum - scoreA.idNum;
     });
@@ -674,8 +670,8 @@ function BiddabariSmartContent() {
                 className="input-glass"
                 style={{ height: '46px', cursor: 'pointer', fontWeight: 600, color: '#0f172a' }}
               >
-                <option value="newest">সর্বশেষ আপডেট আগে (৫০তম ➔ ১০ম)</option>
-                <option value="oldest">পুরাতন পরীক্ষা আগে (১০ম ➔ ৫০তম)</option>
+                <option value="newest">লেকচার ক্রম (১ম ➔ ১০ম)</option>
+                <option value="oldest">বিপরীত ক্রম (১০ম ➔ ১ম)</option>
                 <option value="questions">প্রশ্ন সংখ্যা (বেশি থেকে কম)</option>
               </select>
             </div>
