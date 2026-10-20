@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "Given A⃗ = 2î - 3ĵ + 4k̂ and B⃗ = î + 2ĵ - k̂, what is the value of dot product A⃗.B⃗? [BOGMC-EEE/IPE-24]",
+    "options": [
+      "-8",
+      "0",
+      "1",
+      "5"
+    ],
+    "answer": "ক",
+    "explanation": "A⃗ = 2î - 3ĵ + 4k̂; B⃗ = î + 2ĵ - k̂\n∴ A⃗.B⃗ = (2î - 3ĵ + 4k̂).(î + 2ĵ - k̂) = 2 - 6 - 4 = 2 - 10 = -8 (Ans.)"
+  },
+  {
+    "id": 2,
+    "question": "ডিসকাস থ্রো কত অ্যাঙ্গেলে নিক্ষেপ করলে সর্বোচ্চ দূরত্ব অতিক্রম করবে? [BCPCL-EEE/ME-23]",
+    "options": [
+      "৪৫°",
+      "৭৫°",
+      "৯০°",
+      "১৫°"
+    ],
+    "answer": "ক",
+    "explanation": "৪৫° কোণে নিক্ষেপ করলে প্রাস তার সর্বোচ্চ দূরত্ব অতিক্রম করে।"
+  },
+  {
+    "id": 3,
+    "question": "If, vector a⃗ = 2î + 3ĵ - k̂ and vector b⃗ = -î + 3ĵ + 4k̂, then find the projection of vector a⃗ on vector b⃗. [RPGCL: EEE/ME-22]",
+    "options": [
+      "3/√3",
+      "3/√26",
+      "√(3/26)",
+      "√(3/13)"
+    ],
+    "answer": "খ",
+    "explanation": "Projection of a⃗ on b⃗ = (a⃗.b⃗)/|b⃗| = ((2î + 3ĵ - k̂).(-î + 3ĵ + 4k̂))/√((-1)² + 3² + 4²) = (-2 + 9 - 4)/√26 = 3/√26"
+  },
+  {
+    "id": 4,
+    "question": "Find the angle between the vectors a⃗ = 3î - 2ĵ + k̂ and b⃗ = î - 2ĵ - 3k̂. [MGMCL: EEE/ME-22]",
+    "options": [
+      "cos⁻¹(1/7)",
+      "cos⁻¹(2/7)",
+      "cos⁻¹(3/7)",
+      "cos⁻¹(5/7)"
+    ],
+    "answer": "খ",
+    "explanation": "cosθ = (a⃗.b⃗)/(|a⃗||b⃗|) = (3×1 + (-2)×(-2) + 1×(-3))/(√(3² + (-2)² + 1²) × √(1² + (-2)² + (-3)²)) = 4/(√14 × √14) = 4/14 = 2/7\n∴ θ = cos⁻¹(2/7)"
+  },
+  {
+    "id": 5,
+    "question": "The scaler product of 5î + ĵ - 3k̂ and 3î - 4ĵ + 7k̂ is: [BCIC-EEE/ME-22]",
+    "options": [
+      "10",
+      "-10",
+      "15",
+      "-15"
+    ],
+    "answer": "খ",
+    "explanation": "(5î + ĵ - 3k̂).(3î - 4ĵ + 7k̂) = 5×3 + 1×(-4) + (-3)×7 = 15 - 4 - 21 = -10 (Ans.)"
+  }
+]

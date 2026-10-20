@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "question": "What are eigen values of the following 2×2 matrix [[2, -1], [-4, 5]]? [LPGL-ME-25]",
+    "options": [
+      "-1 and 1",
+      "1 and 6",
+      "2 and 5",
+      "4 and -1"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ\nLet, A = [[2, -1], [-4, 5]]\n|A - λI| = 0\n⇒ |2 - λ    -1|\n  |-4    5 - λ| = 0\n⇒ (2 - λ)(5 - λ) - (-1 × -4) = 0\n⇒ 10 - 7λ + λ² - 4 = 0\n⇒ λ² - 7λ + 6 = 0\n⇒ (λ - 1)(λ - 6) = 0\n∴ λ = 1, 6 (Ans.)"
+  }
+]

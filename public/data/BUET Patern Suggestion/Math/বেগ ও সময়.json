@@ -1,0 +1,539 @@
+[
+  {
+    "id": 1,
+    "question": "একটি ট্রেন ৬০ কিমি/ঘন্টা বেগে ২.৫ ঘন্টায় কত দূরত্ব অতিক্রম করবে? [DESCO-SSA-25]",
+    "options": [
+      "১২৫",
+      "১৫০",
+      "২৫০",
+      "২০০"
+    ],
+    "answer": "খ",
+    "explanation": "v = 60 km/hr\nt = 2.5 h\n∴ s = vt\n= 60 × 2.5\n= 150 km"
+  },
+  {
+    "id": 2,
+    "question": "A car travels a certain distance at a speed of 60 kmph and travels rest of its distance at a speed of 40 kmph. If it travels 240 km in 5 hrs, find how much distance does the car travel at 60 kmph? [BCIC-CE/ME/EEE/CSE-25]",
+    "options": [
+      "100 km",
+      "120 km",
+      "150 km",
+      "180 km"
+    ],
+    "answer": "খ",
+    "explanation": "Total distance 240 km\nTotal time 5 hour\nx + y = 240 km - - - - (i)\nAnd, t₁ = (240 - y)/60\nt₂ = (240 - x)/40\n∴ t₁ + t₂ = ((240 - y)/60 + (240 - x)/40)\n⇒ 5 = (240 - y)/60 + (240 - x)/40\n∴ 3x + 2y = 600 - - - (ii)\nFrom (i) and (ii) we get, x = 120 km (Ans.)"
+  },
+  {
+    "id": 3,
+    "question": "একটি 280 মিটার লম্বা ট্রেন ঘন্টায় 60 কিলোমিটার বেগে চলে একটি খুঁটি অতিক্রম করলে ট্রেনের কত সময় লাগবে? [BAPEX-MT/CT/CMT/ENT/ET/PT-23, CPGCL-EEE/ME/CE-25]",
+    "options": [
+      "13 সেকেন্ড",
+      "16 সেকেন্ড",
+      "17 সেকেন্ড",
+      "19 সেকেন্ড"
+    ],
+    "answer": "গ",
+    "explanation": "দেওয়া আছে, S = 280 মি., V = 60 কি.মি./ঘন্টা = (60 × 1000)/3600 = 16.67 মি./সে\n∴ সময় = 280 / 16.67 = 16.8 সে. ≈ 17 সেকেন্ড।"
+  },
+  {
+    "id": 4,
+    "question": "The mile meter of a car misses every eleventh mile being traveled. After a certain time, the meter shows that 1251 miles were traveled. How many miles were actually traveled? [POCL-ME/EEE-24]",
+    "options": [
+      "1376 miles",
+      "1386 miles",
+      "1396 miles",
+      "1406 miles"
+    ],
+    "answer": "ক",
+    "explanation": "Show : Actual = 10 : 11\nSo, 1251 × 11/10 = 1376.1 ≈ 1376 (Ans.)"
+  },
+  {
+    "id": 5,
+    "question": "At 10 a.m. two trains started travelling toward each other from stations 287 miles apart. They passed each other at 1:30 pm the same day. The average speed of faster train exceeded the average speed of the slower train by 6 miles per hour. Which of the following represents the speed of the faster train, in miles per hours? [NWPGCL-ME/EEE-24]",
+    "options": [
+      "৪০ মাইল/ঘন্টা",
+      "৪৩ মাইল/ঘন্টা",
+      "৪৪ মাইল/ঘন্টা",
+      "৪৬ মাইল/ঘন্টা"
+    ],
+    "answer": "গ",
+    "explanation": "মোট দূরত্ব = 287 মাইল\nমোট সময় = 3.5 ঘন্টা (10 a.m. থেকে 1:30 p.m.)\nধরি, ধীরে চলমান ট্রেনের গতি = x মাইল/ঘন্টা\nশর্তমতে, x × 3.5 + (x + 6) × 3.5 = 287\n⇒ 7x + 21 = 287\n⇒ 7x = 266\n∴ x = 38 মাইল/ঘন্টা\nসুতরাং দ্রুতগতির ট্রেনটির গতি = 38 + 6 = 44 মাইল/ঘন্টা।"
+  },
+  {
+    "id": 6,
+    "question": "পৃথিবীর ব্যাস 8000 কি.মি., এটি যদি 24 ঘন্টায় একবার নিজেকে প্রদক্ষিণ করে তবে ভূ-পৃষ্ঠে থাকা কোন বস্তুর বেগ কত হবে? [EGCB-EEE/ME/CE-24]",
+    "options": [
+      "947 km/h",
+      "1200 km/h",
+      "1047 km/h",
+      "2047 km/h"
+    ],
+    "answer": "গ",
+    "explanation": "পৃথিবীর ব্যাস = 8000 কি.মি. ; পৃথিবীর পরিধি = 8000π কি.মি.\n∴ বস্তুর বেগ, V = 8000π / 24 ≈ 1047 km/hour."
+  },
+  {
+    "id": 7,
+    "question": "একটি নৌকা স্থির অবস্থান থেকে যাত্রা শুরু করে 1 min- এ সর্বোচ্চ 1 km/min বেগ প্রাপ্ত হয়। যদি সমবেগে আরও 1 min যাত্রা করে তবে নৌকাটির মোট অতিক্রান্ত দূরত্ব কত? [EGCB-EEE/ME/CE-24]",
+    "options": [
+      "2 km",
+      "1 km",
+      "1.5 km",
+      "10 km"
+    ],
+    "answer": "গ",
+    "explanation": "১ম শর্তমতে, v = u + ft\n⇒ 1 = 0 + f × 1\n∴ f = 1 km/min²\nS₁ = 0 + (1/2)ft² = (1/2) × 1 × 1² = 0.5 km\n২য় শর্তমতে, S₂ = Vt = 1 × 1 = 1 km\n∴ মোট অতিক্রান্ত দূরত্ব = 1 + 0.5 = 1.5 km"
+  },
+  {
+    "id": 8,
+    "question": "If, t = 8 and t² - kt - 16 = 0, then find the value of k. [BSTI-CE/Physics/EEE-24]",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "গ",
+    "explanation": "t² - kt - 16 = 0\n∴ 8² - k × 8 - 16 = 0\n⇒ 64 - 8k - 16 = 0\n∴ 8k = 48\n∴ k = 6 (Ans.)"
+  },
+  {
+    "id": 9,
+    "question": "স্রোতের অনুকূলে 30 কি.মি যেতে 3 ঘন্টা লাগে ও একই দূরত্বে প্রতিকূলে ফিরে আসতে 5 ঘন্টা সময় লাগে। স্রোতের বেগ কত? [CPGCBL-ET/MT/CT-23]",
+    "options": [
+      "2 কি.মি./ঘন্টা",
+      "4 কি.মি./ঘন্টা",
+      "5 কি.মি./ঘন্টা",
+      "10 কি.মি./ঘন্টা"
+    ],
+    "answer": "ক",
+    "explanation": "স্রোতের অনুকূলে নৌকার বেগ = নৌকার বেগ (N) + স্রোতের বেগ (S)\n⇒ 30/3 = N + S\n∴ N + S = 10 কি.মি/ঘণ্টা ------- (i)\nস্রোতের প্রতিকূলে নৌকার বেগ = নৌকার বেগ (N) - স্রোতের বেগ (S)\n⇒ 30/5 = N - S\n∴ N - S = 6 কি.মি/ঘণ্টা ------- (ii)\n(i) ও (ii) সমাধান করে পাই, স্রোতের বেগ (S) = (10 - 6)/2 = 2 কি.মি./ঘণ্টা।"
+  },
+  {
+    "id": 10,
+    "question": "ব্যাটসম্যান থেকে বাউন্ডারির দূরত্ব 40 মিটার হলে, সর্বনিম্ন কত বেগে বলকে আঘাত করলে বাউন্ডারি অতিক্রম (ছক্কা হবে) করবে? [CPGCBL-ET/MT/CT-23]",
+    "options": [
+      "28 m/s",
+      "20 m/s",
+      "22 m/s",
+      "18 m/s"
+    ],
+    "answer": "খ",
+    "explanation": "সর্বাধিক পাল্লার জন্য নিক্ষেপ কোণ θ = 45°\nদূরত্ব R = u² / g\n⇒ u² = R × g = 40 × 9.81 = 392.4\n⇒ u = √392.4 ≈ 19.8 ≈ 20 m/s"
+  },
+  {
+    "id": 11,
+    "question": "একজন ক্রিকেট প্লেয়ার 40 মিটার মাঠে সর্বোচ্চ কত বেগে ছয় মারতে পারবে? [BCPCL-EEE/ME-23]",
+    "options": [
+      "20",
+      "25",
+      "50",
+      "100"
+    ],
+    "answer": "ক",
+    "explanation": "R = 40 m হলে,\nLet, g = 10 m/s²\n⇒ R = v² / g\n⇒ 40 = v² / 10\n⇒ v² = 400\n∴ V = 20 m/sec (Ans.)"
+  },
+  {
+    "id": 12,
+    "question": "একটি নৌকা স্থির অবস্থা থেকে এক মিনিট ধরে চলা শুরু করে সর্বোচ্চ বেগ 1 km/min প্রাপ্ত হয়। এর পরের 1 minute এ সর্বোচ্চ বেগ বজায় রেখে চললে, সর্বমোট কত দূরত্ব অতিক্রম করল? [BCPCL-EEE/ME-23]",
+    "options": [
+      "1.5 কি.মি",
+      "1 কি.মি",
+      "2.5 কি.মি",
+      "2 কি.মি"
+    ],
+    "answer": "ক",
+    "explanation": "u = 0, t₁ = 1 min, V = 1 km/min\nV = u + ft\n∴ f = (1 km/min) / (1 min) = 1 km/min²\n∴ S₁ = (1/2) × f × t² = (1/2) × 1 × 1² = 0.5 km\nপরবর্তী ক্ষেত্রে,\nt₂ = 1 min, V = 1 km/min\n∴ S₂ = V × t₂ = 1 × 1 = 1 km\n∴ Stotal = S₁ + S₂ = 0.5 + 1 = 1.5 km (Ans.)"
+  },
+  {
+    "id": 13,
+    "question": "A train moves past a telegraph post and a bridge 264 m long in 8 seconds and 20 seconds respectively. What is the speed of the train? [DESCO-EEE/CSE/CE/ME-23]",
+    "options": [
+      "78.4",
+      "79.2",
+      "64",
+      "81.2"
+    ],
+    "answer": "খ",
+    "explanation": "ট্রেনের দৈর্ঘ্য = x, ট্রেনের স্পিড = y\nপ্রথম ক্ষেত্রে, x = 8 × y  [s = vt]\nদ্বিতীয় ক্ষেত্রে, (x + 264) / 20 = y  [v = s/t]\n⇒ (8y + 264) / 20 = y\n⇒ 8y + 264 = 20y\n⇒ 12y = 264\n∴ y = 22 m/sec\n= (22/1000) × 3600 km/hr = 79.2 km/hr (Ans.)"
+  },
+  {
+    "id": 14,
+    "question": "একটি খেলার মাঠের সীমানার দৈর্ঘ্য 45 মিটার হলে সর্বনিম্ন কত বেগে বলটিকে আঘাত করলে বলটি ওভার বাউন্ডারি হবে? [EGCB-ET/MT/CT-23]",
+    "options": [
+      "21 m/s",
+      "18 m/s",
+      "20 m/s",
+      "22 m/s"
+    ],
+    "answer": "ক",
+    "explanation": "Here, V = ?, θ = 45°, g = 9.8 ms⁻², R = 45 m\nWe know, R = (v² sin 2θ) / g\n⇒ 45 = (v² sin 90°) / 9.8\n⇒ v² = 45 × 9.8 = 441\n∴ V = √441 = 21 ms⁻¹ (Ans.)"
+  },
+  {
+    "id": 15,
+    "question": "A train is 500 ft long and it has a speed of 500 ft/min. How long will it take to cross a bridge of 750 ft? [CPGCBL-EEE/ME/CE-22]",
+    "options": [
+      "2 minute",
+      "3 minute",
+      "2.5 minute",
+      "5 minute"
+    ],
+    "answer": "গ",
+    "explanation": "To cross the bridge/tunnel the train has to pass distance = 750 + 500 = 1250 ft\nTime to be taken = Distance / Speed = 1250 / 500 = 2.5 minutes (Ans.)"
+  },
+  {
+    "id": 16,
+    "question": "ব্যাটসম্যান থেকে বাউন্ডারির দূরত্ব ৪০ মিটার হলে, সর্বনিম্ন কত বেগে বলকে আঘাত করলে বাউন্ডারি অতিক্রম (ছক্কা হবে) করবে? [RNPL-MT/ET-22]",
+    "options": [
+      "28 m/s",
+      "20 m/s",
+      "22 m/s",
+      "18 m/s"
+    ],
+    "answer": "খ",
+    "explanation": "Let, g = 10 ms⁻², V = ?, R = 40 m, θ = 45°\nWe know, R = (v² sin 2θ) / g\n⇒ 40 = (v² sin 90°) / 10\n⇒ v² = 400\n∴ V = 20 ms⁻¹ (Ans.)"
+  },
+  {
+    "id": 17,
+    "question": "স্রোতের অনুকূলে 30 কি.মি. যেতে 3 ঘন্টা লাগে ও একই দূরত্বে প্রতিকূলে ফিরে আসতে 5 ঘন্টা সময় লাগে। স্রোতের বেগ কত? [RNPL-MT/ET-22]",
+    "options": [
+      "2 কি.মি/ঘন্টা",
+      "4 কি.মি./ঘন্টা",
+      "5 কি.মি/ঘন্টা",
+      "10 কি.মি/ঘন্টা"
+    ],
+    "answer": "ক",
+    "explanation": "Let, স্রোতের বেগ = y; নৌকার বেগ = x\nস্রোতের অনুকূলে বেগ = 30/3 = 10 কি.মি/ঘণ্টা\nস্রোতের প্রতিকূলে বেগ = 30/5 = 6 কি.মি/ঘণ্টা\nশর্তমতে,\nx + y = 10\nx - y = 6\n-------\n2x = 16 ⇒ x = 8 kmph\nসুতরাং, স্রোতের বেগ, y = 10 - 8 = 2 kmph (Ans.)"
+  },
+  {
+    "id": 18,
+    "question": "A projectile is thrown at a velocity of 10 ms⁻¹ from ground. What will be the maximum horizontal distance covered by the projectile? Consider air as frictionless. [RPGCL: EEE/ME-22]",
+    "options": [
+      "10.09m",
+      "10.19m",
+      "10.29m",
+      "10.39m"
+    ],
+    "answer": "খ",
+    "explanation": "R = u² / g = 10² / 9.81 = 100 / 9.81 = 10.19 m"
+  },
+  {
+    "id": 19,
+    "question": "A man goes to a place at 20 mph and returns at 30 mph. What is the average speed? [CPGCBL-EEE/ME/CE-22]",
+    "options": [
+      "20 mph",
+      "24 mph",
+      "26 mph",
+      "29 mph"
+    ],
+    "answer": "খ",
+    "explanation": "আমরা জানি, মোট অতিক্রান্ত দূরত্ব = 2s\nযাওয়ার ক্ষেত্রে, t₁ = s / v₁ = s / 20\nআসার ক্ষেত্রে, t₂ = s / v₂ = s / 30\n∴ গড়বেগ = মোট দূরত্ব / মোট সময় = 2s / (t₁ + t₂) = 2s / (s/20 + s/30)\n= 2s / (5s/60) = (2 × 60)/5 = 24 mph"
+  },
+  {
+    "id": 20,
+    "question": "একটি নৌকার স্থির পানিতে গতিবেগ ১২ কিমি/ঘণ্টা। যদি অনুকূলের চেয়ে প্রতিকূলে দ্বিগুণ সময় লাগে তাহলে স্রোতের বেগ কত? [JGTDSL-MT-21]",
+    "options": [
+      "৪ কিমি",
+      "৭ কিমি",
+      "৩ কিমি",
+      "৫ কিমি"
+    ],
+    "answer": "ক",
+    "explanation": "দেওয়া আছে, নৌকার বেগ = 12 km/hr\nধরি, স্রোতের বেগ = x km/hr\nঅনুকূলে বেগ = 12 + x এবং প্রতিকূলে বেগ = 12 - x\nযেহেতু প্রতিকূলে দ্বিগুণ সময় লাগে, তাই অনুকূল বেগ প্রতিকূল বেগের দ্বিগুণ:\nশর্তমতে, 12 + x = 2(12 - x)\n⇒ 12 + x = 24 - 2x\n⇒ 3x = 12\n∴ x = 4 km/hr (Ans.)"
+  },
+  {
+    "id": 21,
+    "question": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train? [SGCL-EEE/ME-20]",
+    "options": [
+      "120m",
+      "180m",
+      "324m",
+      "150m"
+    ],
+    "answer": "ঘ",
+    "explanation": "Speed = (60 × 1000/3600) = 50/3 m/sec  [1 km = 1000 m, 1 hr = 3600 sec]\nLength of train = Speed × Time = (50/3) × 9 m = 150 m (Ans.)"
+  },
+  {
+    "id": 22,
+    "question": "আপনি যদি প্রতি ঘন্টায় ৬ কিমি বেগে বিশ্ববিদ্যালয়ে চলে যান এবং প্রতি ঘন্টায় ২ কিমি বেগে বাড়ি ফিরে আসেন তবে সম্পূর্ণ ভ্রমণের জন্য আপনার গড় গতিবেগ কত? [DPDC-ET-20]",
+    "options": [
+      "৪ কিমি/ঘন্টা",
+      "১২/৫ কিমি/ঘন্টা",
+      "১৩/৫ কিমি/ঘন্টা",
+      "৩ কিমি/ঘন্টা"
+    ],
+    "answer": "ঘ",
+    "explanation": "* গড় গতিবেগ = 2xy / (x + y)  [x = ১ম গতিবেগ, y = ২য় গতিবেগ]\nসুতরাং গড় গতিবেগ = (2 × 6 × 2) / (6 + 2) = 24 / 8 = 3 km/h (Ans.)"
+  },
+  {
+    "id": 23,
+    "question": "A train 120m long passes a man in 12 seconds. Find the speed of the train in km/hr. [EGCB-ME-20]",
+    "options": [
+      "12 km/hr.",
+      "24 km/hr.",
+      "30 km/hr",
+      "36 km/hr"
+    ],
+    "answer": "ঘ",
+    "explanation": "We know, s = v × t\n⇒ 120 = v × 12\n⇒ v = 120 / 12 = 10 m/sec\n= (10 × 3600) / 1000 = 36 km/hr (Ans.)"
+  },
+  {
+    "id": 24,
+    "question": "একটি ট্রেন ১০০ কিমি/ঘন্টা বেগে ৩০০ কিমি দূরত্ব অতিক্রম করে। ট্রেনটিকে কত বেগে ফিরে আসতে হবে যদি মোট গড় বেগ ১২০ কিমি/ঘন্টা হয়। [BCMCL-ME-20]",
+    "options": [
+      "১২০ কিমি/ঘন্টা",
+      "৮০ কিমি/ঘন্টা",
+      "১৫০ কিমি/ঘন্টা",
+      "৬০ কিমি/ঘন্টা"
+    ],
+    "answer": "গ",
+    "explanation": "অতিক্রম করার সময় = দূরত্ব / বেগ = 300 / 100 = 3 ঘন্টা\nমোট গড়বেগ = মোট দূরত্ব / মোট সময়\n⇒ 120 = (300 + 300) / মোট সময়\n⇒ মোট সময় = 600 / 120 = 5 ঘন্টা\n∴ ফিরে আসার সময় = 5 - 3 = 2 ঘন্টা\n∴ ফিরে আসার বেগ = 300 / 2 = 150 km/hr (Ans.)"
+  },
+  {
+    "id": 25,
+    "question": "একটি ট্রেন ঘন্টায় ৯২.৪ কিমি বেগে চলে। ট্রেনটি ১০ মিনিটে কত মিটার অতিক্রম করবে? [PGCB-ET-19]",
+    "options": [
+      "১৫৪০০",
+      "১৫৪০",
+      "১৫৪",
+      "১৫.৪"
+    ],
+    "answer": "ক",
+    "explanation": "Here, V = 92.4 km/h = (92.4 × 1000) / 3600 = 25.67 m/sec\nএবং t = 10 × 60 = 600 sec\nWe know, S = V × t = 25.67 × 600 = 15400 m (Ans.)"
+  },
+  {
+    "id": 26,
+    "question": "৭০০ মি. লম্বা একটি ট্রেন ঘন্টায় ৭২ কিমি বেগে চলে। যদি ১ মিনিটে একটি সুরঙ্গ অতিক্রম করে, তবে সুরঙ্গের দৈর্ঘ্য কত মিটার? [PGCB-ET-19]",
+    "options": [
+      "৫০০",
+      "৫৫০",
+      "৬০০",
+      "৭০০"
+    ],
+    "answer": "ক",
+    "explanation": "V = 72 km/hr = (72 × 1000) / 3600 = 20 m/sec,\nমোট অতিক্রান্ত দূরত্ব, S = v × t = 20 × 60 = 1200 m\n∴ সুড়ঙ্গের দৈর্ঘ্য = 1200 - 700 = 500 m (Ans.)"
+  },
+  {
+    "id": 27,
+    "question": "একটি পাথরের খণ্ডকে ২০ মি উঁচু ছাদের উপর থেকে ফেললে এটি কতক্ষণ পরে ভূমিতে আঘাত করবে? [B-R Power, APSCL, BCIC-MT-19, PGCB-ME-19]",
+    "options": [
+      "১ সে.",
+      "২ সে.",
+      "৩ সে.",
+      "৪ সে."
+    ],
+    "answer": "খ",
+    "explanation": "We know, পড়ন্ত বস্তুর সূত্র থেকে, উচ্চতা h = (1/2)gt²\n⇒ 20 = (1/2) × 9.8 × t²\n⇒ t² = 40 / 9.8 ≈ 4.08\n⇒ t ≈ 2 sec (Ans.)"
+  },
+  {
+    "id": 28,
+    "question": "In a flight of 600 km, an aircraft was slowed down due to bad weather. Its average speed for the trip was reduced by 200 km/hr and the time of flight increased by 30 minutes. The duration of the flight is [NWPGCL-ME-19]",
+    "options": [
+      "2 hr",
+      "1 hr",
+      "1/2",
+      "4 hr"
+    ],
+    "answer": "খ",
+    "explanation": "মনে করি, ফ্লাইটের duration = x hours\nশর্তমতে, 600/x - 600/(x + 1/2) = 200  [30 minute = 1/2 hours]\n⇒ 3/x - 3/(x + 0.5) = 1\n⇒ 3(x + 0.5) - 3x = x(x + 0.5)\n⇒ 1.5 = x² + 0.5x\n⇒ 2x² + x - 3 = 0\n⇒ (2x + 3)(x - 1) = 0\n⇒ x = 1 (Ans.) or x = -3/2 [Not acceptable]"
+  },
+  {
+    "id": 29,
+    "question": "Each train has a length of 120m travelling in opposite direction. They pass each other after 12 seconds. If both the trains have same velocity then find the velocity. [NWPGCL-ME-19]",
+    "options": [
+      "10 km/h",
+      "36 km/h",
+      "20 km/h",
+      "48 km/h"
+    ],
+    "answer": "খ",
+    "explanation": "We know, s = v × t\n⇒ 120 + 120 = v × 12\n⇒ v = 240 / 12 = 20 m/sec = 20 × (18/5) = 72 km/hr\n∴ ট্রেন দুটির গতিবেগ সমান হওয়ায়, প্রত্যেকটির গতিবেগ হবে = 72 / 2 = 36 km/hr (Ans.)"
+  },
+  {
+    "id": 30,
+    "question": "Two trains are running in opposite directions with the same speed. If the length of each train is 120 meters and they cross each other in 12 seconds, then the speed of each train (in km/hr) is: [KGDCL-16, BWDB-18, NWPGCL, PGCB-ME-19]",
+    "options": [
+      "10",
+      "18",
+      "36",
+      "72"
+    ],
+    "answer": "গ",
+    "explanation": "ট্রেনের দৈর্ঘ্য = 120 m, সময় = 12 sec\nআপেক্ষিক বেগ = (120 + 120) / 12 = 20 m/sec = 72 km/hr\nযেহেতু দুটি ট্রেনের গতিবেগ সমান, তাই প্রতিটির গতিবেগ = 72 / 2 = 36 km/hr (Ans.)"
+  },
+  {
+    "id": 31,
+    "question": "In a 100 m race, A can beat B by 25 m and B can beat C by 4 m. In the same race, A can beat C by: [NWPGCL-19]",
+    "options": [
+      "21 m",
+      "26 m",
+      "28 m",
+      "29 m"
+    ],
+    "answer": "গ",
+    "explanation": "Given, A : B = 100 : 75 and B : C = 100 : 96\n∴ A : C = (A/B) × (B/C) = (100/75) × (100/96) = 100 / 72 = 100 : 72\n∴ A beats C by (100 - 72) = 28 m (Ans.)"
+  },
+  {
+    "id": 32,
+    "question": "A boat takes 90 minutes less to travel 36 miles downstream than to travel the same distance upstream. If the speed of the boat in still water is 10 mph, the speed of the stream is: [DPDC-ME-19]",
+    "options": [
+      "2 mph",
+      "2.5 mph",
+      "3 mph",
+      "4 mph"
+    ],
+    "answer": "ক",
+    "explanation": "Let, স্রোতের বেগ = x mile/hr (mph)\nশর্তমতে, 36 / (10 - x) - 36 / (10 + x) = 90 / 60\n⇒ 36 [(10 + x - 10 + x) / (100 - x²)] = 3/2\n⇒ 36 × (2x) / (100 - x²) = 3/2\n⇒ 72x / (100 - x²) = 3/2\n⇒ 144x = 300 - 3x²\n⇒ 3x² + 144x - 300 = 0\n⇒ x² + 48x - 100 = 0\n⇒ (x + 50)(x - 2) = 0\n∴ x = 2 mile/hr (Ans.)"
+  },
+  {
+    "id": 33,
+    "question": "স্রোতের অনুকূলে কোনো নৌকার বেগ ঘন্টায় ১৮ কিমি ও দাঁড়ের বেগ ৬ কিমি হলে নৌকাটি পুনরায় ৪৮ কিমি ফিরে আসতে কত সময় লাগবে? [GTCL-ET-16, PGCB-CMT-18]",
+    "options": [],
+    "answer": "৬ ঘন্টা",
+    "explanation": "দেওয়া আছে, অনুকূলে নৌকার বেগ = 18 km/h, দাঁড় বা স্রোতের বেগ = 6 km/h\n48 km অতিক্রমের সময় = 48 / (18 + 6) = 2 ঘন্টা\n∴ প্রতিকূল নৌকার বেগ = অনুকূল বেগ - স্থির বেগ = 18 - 6 = 12 km/h\nফিরে আসতে সময় = 48 / 12 = 4 ঘন্টা\n∴ অতিক্রম করে পুনরায় ফিরে আসার সময় = 2 + 4 = 6 ঘন্টা। (Ans.)\nShortcut: সময় = (48 / (18 + 6)) + (48 / (18 - 6)) = 6 ঘন্টা"
+  },
+  {
+    "id": 34,
+    "question": "সুমন সাহেব ঘন্টায় ৮০ কিমি বেগে ৪৫ মিনিট গাড়ি চালালেন। তিনি ০.২৫ ঘন্টা বিশ্রাম নিলেন। এরপর বাকি পথটুকু ঘন্টায় ৫০ কিমি বেগে ১ ঘন্টায় অতিক্রম করলেন। তার গড় গতিবেগ কত ছিল? [PGCB-ET-18]",
+    "options": [],
+    "answer": "৫৫ কি.মি/ঘন্টা",
+    "explanation": "গড় গতিবেগ = মোট অতিক্রান্ত দূরত্ব / মোট সময়\n= [(80 × 45/60) + (50 × 1)] / (45/60 + 0.25 + 1)\n= (60 + 50) / (0.75 + 0.25 + 1)\n= 110 / 2 = 55 কি.মি/ঘন্টা (Ans.)"
+  },
+  {
+    "id": 35,
+    "question": "একটি ট্রেন ২০ কিমি/ঘন্টা বেগে চলছে। একজন ব্যক্তি একই দিকে ১৫ কিমি/ঘন্টা বেগে চলছে। ট্রেনটি যদি ব্যক্তিটিকে ৩ মিনিটে অতিক্রম করে, তাহলে ট্রেনের দৈর্ঘ্য কত? [BADC-CT-18]",
+    "options": [
+      "২০০ মিটার",
+      "২২০ মিটার",
+      "২২৫ মিটার",
+      "২৫০ মিটার"
+    ],
+    "answer": "ঘ",
+    "explanation": "এখানে, সময়, t = 3 মিনিট = 180 sec\nএকই দিকে চলছে বিধায় আপেক্ষিক গতিবেগ বিয়োগ হবে।\nআপেক্ষিক গতিবেগ = (20 - 15) km/h = 5 km/h = (5 × 1000)/3600 = 25/18 m/sec\nWe Know, S = V × t = (25/18) × 180 = 250 m (Ans.)"
+  },
+  {
+    "id": 36,
+    "question": "একটি ট্রেন কোনো শহর হতে ১১টা ৪৫ মিনিটে যাত্রা শুরু করে এবং ১টা ২৫ মিনিটে গন্তব্যে পৌঁছায়। ট্রেনটি কত ঘণ্টা কত মিনিট ভ্রমণ করে? [EGCB-ENT-18]",
+    "options": [
+      "৫ ঘন্টা ৪৫ মিনিট",
+      "৫ ঘন্টা ৫৫ মিনিট",
+      "৬ ঘন্টা ৪০ মিনিট",
+      "৫ ঘন্টা ৪০ মিনিট"
+    ],
+    "answer": "ঘ",
+    "explanation": "১১.৪৫ - ১৭.২৫ = ৫ ঘণ্টা ৪০ মিনিট।"
+  },
+  {
+    "id": 37,
+    "question": "১৫ m/sec বেগে কোনো বস্তুকে উপরের দিকে নিক্ষেপ করলে তা কত উচ্চতায় উঠবে? [EGCB-ENT-18]",
+    "options": [
+      "12.47 m",
+      "11.57 m",
+      "11.60 m",
+      "11.47 m"
+    ],
+    "answer": "ঘ",
+    "explanation": "সর্বোচ্চ উচ্চতা = h = u² / (2g) = 15² / (2 × 9.8) = 11.47 m [v² = u² - 2gh ∴ h = (u² - v²)/(2g)]"
+  },
+  {
+    "id": 38,
+    "question": "২০০ মিটার দীর্ঘ একটি ট্রেনের গতিবেগ ঘন্টায় ৪৮ কিমি। ট্রেনটি ৩০ সেকেন্ডে একটি সেতু অতিক্রম করলে সেতুর দৈর্ঘ্য কত? [BPDB-ENT-18]",
+    "options": [
+      "২০০ মিটার",
+      "২২০ মিটার",
+      "২২৫ মিটার",
+      "২৫০ মিটার"
+    ],
+    "answer": "ক",
+    "explanation": "বেগ, v = (48 × 1000) / 3600 = 13.33 m/sec,\nমোট অতিক্রান্ত দূরত্ব, S = v × t = 13.33 × 30 = 400 m\n∴ সেতুর দৈর্ঘ্য = 400 - ট্রেনের দৈর্ঘ্য = 400 - 200 = 200 m (Ans.)"
+  },
+  {
+    "id": 39,
+    "question": "In a 500m race, the ratio of the speed of two contestants Ajmal and Badal is 3:4, If Ajmal has a head start of 140m. Then Ajmal wins by - [BADC-CE-18]",
+    "options": [
+      "10 m",
+      "20 m",
+      "30 m",
+      "60 m"
+    ],
+    "answer": "খ",
+    "explanation": "আজমলকে অতিক্রম করতে হয় = (500 - 140) = 360 m\nআজমল 360m অতিক্রম করলে বাদল করে = (360 × 4/3) = 480m\n∴ আজমল জয় লাভ করে = (500 - 480) = 20m (Ans.)"
+  },
+  {
+    "id": 40,
+    "question": "Two trains are moving in opposite directions at 60 km/hr and 90 km/hr. Their lengths are 1.10 km and 0.9 km respectively. The time taken by the slower train to cross the faster train in seconds is - [BADC-CE-18]",
+    "options": [
+      "36",
+      "45",
+      "4",
+      "49"
+    ],
+    "answer": "*",
+    "explanation": "* গতি বেগ বিপরীত দিকে হলে যোগ হয়।\nRelative speed = (60 + 90) = 150 km/hr = 41.67 m/sec\nS = V × t ⇒ t = S/V = (1.10 Km + 0.9Km) / (41.67 m/sec) = 2000 / 41.67 = 48 sec (Ans.)\n(বইয়ের অপশনে সঠিক মান 48 sec অনুপস্থিত থাকায় সঠিক উত্তর: *)"
+  },
+  {
+    "id": 41,
+    "question": "Rashed drove from his home to university at 60 miles per hour. Returning over the same route, there was a lot of traffic and he was only able to drive at 40 miles per hour. If the return trip took 1 hour longer, how many miles did he drive each way? [BCIC-ME-16, NESCO-CE-18]",
+    "options": [
+      "20",
+      "100",
+      "60",
+      "120"
+    ],
+    "answer": "ঘ",
+    "explanation": "We Know, s = v × t\nশর্তমতে, 60 × t = 40(t + 1) ⇒ t = 2\nসুতরাং সে drive করেছে = 60 × 2 = 120 miles অথবা = 40(2 + 1) = 120 miles"
+  },
+  {
+    "id": 42,
+    "question": "A motorboat, whose speed is 15 km/hr in still water goes 30 km downstream and comes back in a total of 4 hours 30 minutes. The speed of the stream (in km/hr) is: [BCPCL-ME-18]",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "খ",
+    "explanation": "Let, স্রোতের বেগ = x km/hr\nশর্তমতে, অনুকূলের সময় + প্রতিকূলের সময় = 4.5 ঘন্টা\n⇒ (30/(15 + x)) + (30/(15 - x)) = 4.5\n⇒ x = 5 km/hr (Ans.)"
+  },
+  {
+    "id": 43,
+    "question": "In a 300 m race, A beats B by 22.5 m or 6 seconds. B's time over the course is: [BCPCL-18]",
+    "options": [
+      "86 sec",
+      "80 sec",
+      "76 sec",
+      "None of these"
+    ],
+    "answer": "খ",
+    "explanation": "B runs 22.5 m in 6 sec\n∴ B Covers 300 m in = (6 / 22.5) × 300 = 80 sec (Ans.)"
+  },
+  {
+    "id": 44,
+    "question": "A train, 130m long crosses a platform in 30s with a speed of 45 km/h, length of platform is ? [NWPGCL-ME-17]",
+    "options": [],
+    "answer": "245 m",
+    "explanation": "Given, v = 45 km/hr = 12.5 m/sec,\n(ট্রেন + প্ল্যাটফর্ম) এর দৈর্ঘ্য = v × t = 12.5 × 30 = 375\n⇒ প্ল্যাটফর্ম এর দৈর্ঘ্য = 375 - 130 = 245 m (Ans.)"
+  },
+  {
+    "id": 45,
+    "question": "A car covered first 100 km with speed of 50 km/hr. Next 120 km with speed of 40 km/hr. Find the average speed. [BCIC-ME-16]",
+    "options": [
+      "72 km/h",
+      "24 km/h",
+      "36 km/h",
+      "44 km/h"
+    ],
+    "answer": "ঘ",
+    "explanation": "গড়বেগ, সমষ্টি / মোট সময়, v = s/t = (100 + 120) / (100/50 + 120/40) = 44 km/hr (Ans.)"
+  },
+  {
+    "id": 46,
+    "question": "Two trains of 200m, 300m move at a velocity of 40 km/hr and 30km/hr in opposite direction at parallel. When will they cross each other? [BEPZA-ME-16]",
+    "options": [
+      "25.71",
+      "24.32",
+      "28.52",
+      "23.12"
+    ],
+    "answer": "ক",
+    "explanation": "For opposite direction, Relative speed = 40 + 30 = 70 km/hr = 19.45 m/sec\n∴ সময় = দূরত্ব / বেগ = (200 + 300) / 19.45 = 25.71 sec (Ans.)"
+  }
+]

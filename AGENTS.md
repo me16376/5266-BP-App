@@ -25,6 +25,21 @@ Welcome to **5266-BP App** repository. Before analyzing or modifying any code, r
    6. **Smart AI**: Located at `public/data/Smart AI/` containing 89 curated exams across BPSC Technical AI, NTRCA 313 & 325, NTRCA 452, and NTRCA Preliminary (17,100 MCQs).
      - Catalog: `public/data/smart_ai_index.json` | Loader: `src/lib/smartAiData.js`.
      - Routes: `/smart-ai`, `/smart-ai-practice`, `/smart-ai-model-test`, `/smart-ai-smart`, `/smart-ai-smart-questions`.
+   7. **BUET Pattern Suggestion**: Located at `public/data/BUET Patern Suggestion/` containing 57 chapter exams across Bangla, English, GK, Math (5,460 MCQs).
+     - Catalog: `public/data/buet_pattern_index.json` | Loader: `src/lib/buetPatternData.js`.
+     - Routes: `/buet-pattern-suggestion`, `/buet-pattern-suggestion-practice`, `/buet-pattern-suggestion-model-test`, `/buet-pattern-suggestion-smart`, `/buet-pattern-suggestion-smart-questions`.
+   8. **BPSC Non Tech Questions**: Located at `public/data/BPSC Non Tech Questions/` containing 7 subject-wise full banks across Bangla, English, Math, Bangladesh Affairs, International Affairs, Science, ICT (5,664 MCQs).
+     - Catalog: `public/data/bpsc_non_tech_questions_index.json` | Loader: `src/lib/bpscNonTechQuestionsData.js`.
+     - Routes: `/bpsc-non-tech-questions`, `/bpsc-non-tech-questions-practice`, `/bpsc-non-tech-questions-model-test`, `/bpsc-non-tech-questions-smart`, `/bpsc-non-tech-questions-smart-questions`.
+   9. **BPSC Non Tech Suggestion**: Located at `public/data/BPSC Non Tech Suggestion/` containing 91 chapter exams across 8 categories (5,664 MCQs).
+     - Catalog: `public/data/bpsc_non_tech_suggestion_index.json` | Loader: `src/lib/bpscNonTechSuggestionData.js`.
+     - Routes: `/bpsc-non-tech-suggestion`, `/bpsc-non-tech-suggestion-practice`, `/bpsc-non-tech-suggestion-model-test`, `/bpsc-non-tech-suggestion-smart`, `/bpsc-non-tech-suggestion-smart-questions`.
+   10. **Saif Sir NTRCA 100 MCQ Model**: Located at `public/data/Saif Sir NTRCA 100 MCQ model/` containing 75 full 100 MCQ tests across Bangla, English, GK, Math (7,225 MCQs).
+     - Catalog: `public/data/saif_ntrca_100_model_index.json` | Loader: `src/lib/saifNtrca100ModelData.js`.
+     - Routes: `/saif-ntrca-100-model`, `/saif-ntrca-100-model-practice`, `/saif-ntrca-100-model-model-test`, `/saif-ntrca-100-model-smart`, `/saif-ntrca-100-model-smart-questions`.
+   11. **Saif Sir NTRCA Suggestion**: Located at `public/data/Saif Sir NTRCA Suggestion/` containing 338 short bulletin model tests across Bangla, English, GK, Math (7,225 MCQs).
+     - Catalog: `public/data/saif_ntrca_suggestion_index.json` | Loader: `src/lib/saifNtrcaSuggestionData.js`.
+     - Routes: `/saif-ntrca-suggestion`, `/saif-ntrca-suggestion-practice`, `/saif-ntrca-suggestion-model-test`, `/saif-ntrca-suggestion-smart`, `/saif-ntrca-suggestion-smart-questions`.
 
 ---
 

@@ -1,0 +1,726 @@
+[
+  {
+    "id": 1,
+    "question": "|x - 5| < 2, x ∈ ℕ অসমতাটির সমাধান সেট কোনটি? [47th BCS]",
+    "options": [
+      "{3, 7}",
+      "{3, 5, 7}",
+      "{4, 5, 6}",
+      "{3, 4, 5, 6, 7}"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা/সমাধানঃ\n|x - 5| < 2\n⇒ -2 < x - 5 < 2\n⇒ -2 + 5 < x < 2 + 5\n⇒ 3 < x < 7\n∴ সমাধান সেট {4, 5, 6} (Ans.)"
+  },
+  {
+    "id": 2,
+    "question": "A = {x ∈ ℕ : 2 < x ≤ 6} এবং B = {x ∈ ℕ : x জোড় সংখ্যা এবং x ≤ 8} হলে, A ∩ B এর মান কত? [47th BCS]",
+    "options": [
+      "{3, 2}",
+      "{4, 6}",
+      "{5, 6}",
+      "{4, 8}"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\nA = {x ∈ ℕ : 2 < x ≤ 6}\n= {3, 4, 5, 6}\nB = {x ∈ ℕ : x জোড় সংখ্যা এবং x ≤ 8}\n= {2, 4, 6, 8}\n∴ A ∩ B = {3, 4, 5, 6} ∩ {2, 4, 6, 8} = {4, 6} (Ans.)"
+  },
+  {
+    "id": 3,
+    "question": "ⁿC₁₂ = ⁿC₈ হলে, ²²Cₙ এর মান কত? [47th BCS]",
+    "options": [
+      "230",
+      "231",
+      "232",
+      "233"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা/সমাধানঃ\nⁿC₁₂ = ⁿC₈\n⇒ n = 12 + 8 = 20\nNow, ²²Cₙ = ²²C₂₀ = ²²C₂ = (22 × 21)/(2 × 1) = 231 (Ans.)"
+  },
+  {
+    "id": 4,
+    "question": "২টি লাল, ৩টি সবুজ এবং ২টি নীল বল আছে। যদি দৈবভাবে ২টি বল নেওয়া হয়, তাহলে বল দুটির একটিও নীল না হওয়ার সম্ভাবনা কত? [47th BCS]",
+    "options": [
+      "10/21",
+      "5/21",
+      "2/7",
+      "5/7"
+    ],
+    "answer": "ক",
+    "explanation": "সমাধানঃ\nমোট বল = 2 + 3 + 2 = 7টি\n৭টি বল হতে ২টি বল বাছাই করার উপায় = ⁷C₂ = (7 × 6)/(2 × 1) = 21\nনীল বল ছাড়া মোট বল = 7 - 2 = 5টি\n৫টি বল হতে ২টি বল বাছাই করার উপায় = ⁵C₂ = (5 × 4)/(2 × 1) = 10\n∴ একটিও নীল না হওয়ার সম্ভাবনা = 10/21 (Ans.)"
+  },
+  {
+    "id": 5,
+    "question": "In how many ways are there to choose a committee of 3 people from a group of 9 people? [BCRECL-CE, ME, EEE-25]",
+    "options": [
+      "74",
+      "84",
+      "80",
+      "76"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\nNumber of ways = ⁹C₃ = (9 × 8 × 7)/(3 × 2 × 1) = 84 (Ans.)"
+  },
+  {
+    "id": 6,
+    "question": "A dice is biased in such a way that the probability of getting 1 to 5 is the same. But the probability of getting 6 is double of that of 1. What is the 6 possible probabilities? [BCPCL-AE-25]",
+    "options": [],
+    "answer": "1/7, 1/7, 1/7, 1/7, 1/7, 2/7",
+    "explanation": "Sol:\nThe sum of the probabilities of all outcomes (1 to 6) must equal 1.\nLet, P(1) = P(2) = P(3) = P(4) = P(5) = P\nP(6) = 2P\nP + P + P + P + P + 2P = 1\n⇒ 7P = 1\n∴ P = 1/7\nProbability of getting 6 = 2P = 2/7\n∴ The 6 possible probabilities are 1/7, 1/7, 1/7, 1/7, 1/7, 2/7 (Ans.)"
+  },
+  {
+    "id": 7,
+    "question": "একটি পাওয়ার প্ল্যান্ট দিনে গ্যাসে চলার সম্ভাবনা 2/5 এবং রাতে HFO দিয়ে চলার সম্ভাবনা 5/8, Probability tree ব্যবহার করে দেখাও। প্লান্টটি দিনে গ্যাসে চলার এবং রাতে HFO দিয়ে না চলার সম্ভাবনা কত? [RPCL-S/AM-25]",
+    "options": [],
+    "answer": "3/20",
+    "explanation": "সমাধানঃ\nদিনে গ্যাসে চলার সম্ভাবনা = 2/5, দিনে গ্যাসে না চলার সম্ভাবনা = 1 - 2/5 = 3/5\nরাতে HFO দিয়ে চলার সম্ভাবনা = 5/8, রাতে HFO দিয়ে না চলার সম্ভাবনা = 1 - 5/8 = 3/8\n\nProbability Tree:\n- দিনে গ্যাস দিয়ে (2/5):\n  - রাতে HFO দিয়ে (5/8) ⇒ (2/5) × (5/8) = 1/4\n  - রাতে HFO দিয়ে না (3/8) ⇒ (2/5) × (3/8) = 3/20\n- দিনে গ্যাস নয় (3/5):\n  - রাতে HFO দিয়ে (5/8) ⇒ (3/5) × (5/8) = 3/8\n  - রাতে HFO দিয়ে না (3/8) ⇒ (3/5) × (3/8) = 9/40\n\n∴ দিনে গ্যাসে চলার এবং রাতে HFO দিয়ে না চলার সম্ভাবনা = 2/5 × 3/8 = 3/20 (Ans.)"
+  },
+  {
+    "id": 8,
+    "question": "৩ জন ছেলে ও ৪ জন মেয়ে কতভাবে বসতে পারবে যেন ৩ জন ছেলে সব সময় একত্রে থাকে? [PGCB-CSE/EEE-24]",
+    "options": [
+      "520",
+      "420",
+      "720",
+      "120"
+    ],
+    "answer": "গ",
+    "explanation": "সমাধানঃ\n3 জন ছেলে নিজেদের মধ্যে স্থান পরিবর্তন করতে পারে = 3! = 6 ভাবে\n4 জন মেয়ে নিজেদের মধ্যে স্থান পরিবর্তন করতে পারে = 4! = 24 ভাবে\nআবার, 4 জন মেয়ের পাশে 3 জন ছেলে (একত্রে) 5 ভাবে বসতে পারে (একটি ব্লক ধরে মোট 5টি উপাদান)\nসুতরাং মোট বিন্যাস = 5! × 3! = 120 × 6 = 720 (Ans.)\n(অথবা 5 × 24 × 6 = 720 ভাবে)"
+  },
+  {
+    "id": 9,
+    "question": "In a school, 40% of the students passed an examination. Among the students who failed, 13 had taken the course. Additionally, 35 students did not take the course at all. What is the total number of students in the school? [POCL-ME/EEE-24]",
+    "options": [
+      "80",
+      "90",
+      "100",
+      "110"
+    ],
+    "answer": "ক",
+    "explanation": "সমাধানঃ\nপাশের সংখ্যা 40%\n∴ ফেলের সংখ্যা = 60%\nধরি, মোট ছাত্র = x\n∴ ফেল করা ছাত্রের সংখ্যা = 0.6x\nপ্রশ্নমতে,\n0.6x = 13 + 35\n⇒ 0.6x = 48\n∴ x = 48 / 0.6 = 80 জন (Ans.)"
+  },
+  {
+    "id": 10,
+    "question": "From a group of 7 men and 6 women, five persons are to be selected to form a committee so that at least 3 men are in the committee. In how many ways can it be done? [APSCL-EEE/ME-24]",
+    "options": [
+      "564",
+      "645",
+      "735",
+      "756"
+    ],
+    "answer": "ঘ",
+    "explanation": "সমাধানঃ\nMen (7) | Women (6) | Ways\n3       | 2         | ⁷C₃ × ⁶C₂ = 35 × 15 = 525\n4       | 1         | ⁷C₄ × ⁶C₁ = 35 × 6 = 210\n5       | 0         | ⁷C₅ × ⁶C₀ = 21 × 1 = 21\nTotal = 525 + 210 + 21 = 756 (Ans.)"
+  },
+  {
+    "id": 11,
+    "question": "একটি বাক্সে 60 টি বল রয়েছে। 22 টি সাদা, 18 টি সবুজ, 11 টি হলুদ, 5 টি লাল, 4 টি বেগুনি। যদি একটি বল দৈবভাবে নেওয়া হয় তাহলে বলটি লাল বা বেগুনি না হওয়ার সম্ভাবনা কত? [BOGMC-ET/CT-24]",
+    "options": [
+      "0.85",
+      "0.15",
+      "0.9",
+      "0.09"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যাঃ\nলাল বা বেগুনি হওয়ার সম্ভাবনা = (5 + 4)/60 = 9/60 = 0.15\n∴ লাল বা বেগুনি না হওয়ার সম্ভাবনা = 1 - 0.15 = 0.85 (Ans.)"
+  },
+  {
+    "id": 12,
+    "question": "৯ জন লোক দুটি যানবাহনে ভ্রমণ করবে যার একটিতে বেশি হলে 7 জনের এবং অন্যটিতে 4 জনের বেশি ধরে না। তারা কত প্রকারে ভ্রমণ করতে পারবে? [BOGMC-ET/CT-24]",
+    "options": [
+      "240",
+      "246",
+      "132",
+      "136"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা/সমাধানঃ\nএকটিতে সর্বোচ্চ 7 জন এবং অন্যটিতে সর্বোচ্চ 4 জন বসতে পারে।\nমোট 9 জন লোকের সম্ভাব্য বণ্টন:\n1) একটিতে 7 জন হলে অন্যটিতে 2 জন: ⁹C₇ × ²C₂ = 36 × 1 = 36\n2) একটিতে 6 জন হলে অন্যটিতে 3 জন: ⁹C₆ × ³C₃ = 84 × 1 = 84\n3) একটিতে 5 জন হলে অন্যটিতে 4 জন: ⁹C₅ × ⁴C₄ = 126 × 1 = 126\nমোট উপায় = 36 + 84 + 126 = 246 (Ans.)"
+  },
+  {
+    "id": 13,
+    "question": "একটি বিশ্ববিদ্যালয়ের 90% ছাত্র বাস ব্যবহার করে, 15% ছাত্র রাইড শেয়ারিং ব্যবহার করে এবং প্রত্যেক ছাত্র বাস অথবা রাইড শেয়ারিং অথবা দুটোই ব্যবহার করে। রাইড শেয়ারিং ব্যবহার করা ছাত্রদের কত শতাংশ বাস ব্যবহার করে? [BOGMC-ET/CT-24]",
+    "options": [
+      "33.33%",
+      "30%",
+      "32%",
+      "30.33%"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যাঃ\nবাস এবং রাইড উভয়ে ব্যবহার করে = (90 + 15) - 100 = 5%\nরাইড শেয়ার করা ছাত্রদের মধ্য থেকে বাস ব্যবহার করে = (5 / 15) × 100% = 33.33% (Ans.)"
+  },
+  {
+    "id": 14,
+    "question": "A class has 15 students, 7 took Greek, 8 took Latin, 3 of them took none, how many students took both? [BOGMC-ME/CE/CSE-24]",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "10"
+    ],
+    "answer": "গ",
+    "explanation": "সমাধানঃ\nমোট = 15 জন\nকোন বিষয় নেয়নি = 3 জন\n∴ কোন না কোন বিষয় নিয়েছে = 15 - 3 = 12 জন\nশর্তমতে,\nn(G ∪ L) = n(G) + n(L) - n(G ∩ L)\n⇒ 12 = 7 + 8 - x\n⇒ x = 15 - 12 = 3 (Ans.)"
+  },
+  {
+    "id": 15,
+    "question": "What is the probability of getting sum as 7 when two dice are thrown? [BOGMC-EEE/IPE-24]",
+    "options": [
+      "1/4",
+      "1/5",
+      "2/5",
+      "1/6"
+    ],
+    "answer": "ঘ",
+    "explanation": "সমাধানঃ\nদুইটি Dice কে নিক্ষেপ করলে, মোট ফলাফল = 6² = 36\nঅনুকূল উপাদান সংখ্যা (উপরের পিঠের যোগফল 7):\n{(1, 6), (2, 5), (3, 4), (6, 1), (5, 2), (4, 3)} = 6টি\n∴ 7 আসার সম্ভাবনা = 6/36 = 1/6 (Ans.)"
+  },
+  {
+    "id": 16,
+    "question": "In how many ways can a committee of 4 people be chosen out of 8 people? [BOGMC-EEE/IPE-24]",
+    "options": [
+      "32",
+      "70",
+      "110",
+      "126"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\nমোট লোক = 8 জন\nকমিটির সদস্য হবে = 4 জন\nমোট কমিটি হবে = ⁸C₄ = (8 × 7 × 6 × 5)/(4 × 3 × 2 × 1) = 70 (Ans.)"
+  },
+  {
+    "id": 17,
+    "question": "‘Problems’ শব্দটিকে কত উপায়ে re-arrange করা যায় যাতে শুরুতে P এবং শেষে S থাকে? [PGCB-CE/EEE/ME/CSE-24]",
+    "options": [],
+    "answer": "720 ভাবে",
+    "explanation": "সমাধানঃ\n‘Problems’ শব্দটিতে ৮টি character রয়েছে। শুরুতে P এবং শেষে S ফিক্সড থাকলে rearrangeable character হবে 6টি (r, o, b, l, e, m)।\nসুতরাং re-arrange করা যায় = ⁶P₆ = 6! = 720 ভাবে (Ans.)"
+  },
+  {
+    "id": 18,
+    "question": "In how many different ways can 3 identical green shirts and 3 identical red shirts be distributed among 6 children such that each child receives a shirt? [PGCB-CE/EEE/ME/CSE-24]",
+    "options": [],
+    "answer": "20",
+    "explanation": "উত্তরঃ\nNumber of ways = 6! / (3! × 3!) = 720 / (6 × 6) = 20 (Ans.)"
+  },
+  {
+    "id": 19,
+    "question": "একটি ছক্কা নিক্ষেপ করলে যেকোনো বিজোড় সংখ্যা আসার সম্ভাবনা কত? [DPDC-IT/ET/MT/CMT-24]",
+    "options": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "1/6"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ\nছক্কায় মোট সংখ্যা = 6টি {1, 2, 3, 4, 5, 6}\nবিজোড় সংখ্যা = 3টি {1, 3, 5}\n∴ ছক্কা নিক্ষেপ করলে যেকোনো বিজোড় সংখ্যা আসার সম্ভাবনা = 3/6 = 1/2 (Ans.)"
+  },
+  {
+    "id": 20,
+    "question": "একটি বাক্সে 10 টি লাল, 6 টি নীল এবং 4 টি কালো বল রয়েছে। বাক্স থেকে একটি বল দৈবভাবে তুললে বলটি কালো না হওয়ার সম্ভাব্যতা কত? [DPDC-ET-24]",
+    "options": [
+      "1/5",
+      "3/10",
+      "4/5",
+      "1/2"
+    ],
+    "answer": "গ",
+    "explanation": "সমাধানঃ\nমোট বল = 10 + 6 + 4 = 20টি\nকালো বল হওয়ার সম্ভাব্যতা = 4/20 = 1/5\n∴ কালো বল না হওয়ার সম্ভাব্যতা = 1 - 1/5 = 4/5 (Ans.)"
+  },
+  {
+    "id": 21,
+    "question": "If A = {1, 2, 3, 4}, B = {2, 4}, C = {3, 4}, D = {2, 3, 4}, which one is wrong statement? [CPGCBL-EEE/ME/CE-23]",
+    "options": [
+      "B is the subset of A, C is a subset of D",
+      "C is the subset of A, B is a subset of A.",
+      "C is the subset of D, C is a subset of A",
+      "B is the subset of C, C is a subset of D"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ\nB = {2, 4} এবং C = {3, 4}।\nB এর সকল উপাদান C-তে না থাকায় B, C এর সাবসেট নয় (B ⊄ C)।\nঅতএব (ঘ) বক্তব্যটি ভুল (wrong statement)।"
+  },
+  {
+    "id": 22,
+    "question": "A problem is given to three students whose chances of solving it are 1/2, 1/3 and 1/4 respectively. What is the probability that the problem will be solved? [DESCO-EEE/CSE/CE/ME-23]",
+    "options": [
+      "1/4",
+      "2/3",
+      "1/2",
+      "3/4"
+    ],
+    "answer": "ঘ",
+    "explanation": "সমাধানঃ\nP(A) = 1/2 ⇒ P(A') = 1 - 1/2 = 1/2\nP(B) = 1/3 ⇒ P(B') = 1 - 1/3 = 2/3\nP(C) = 1/4 ⇒ P(C') = 1 - 1/4 = 3/4\nকেউই সমাধান করতে না পারার সম্ভাবনা = P(A') × P(B') × P(C') = 1/2 × 2/3 × 3/4 = 1/4\n∴ Problem solving probability = 1 - 1/4 = 3/4 (Ans.)"
+  },
+  {
+    "id": 23,
+    "question": "এক প্যাকেট তাস থেকে যদি রুইতনের রাজা নেওয়া হয়, তাহলে পরবর্তীতে ঐ তাস থেকে একটি তাস নিলে তা হরতনের রাজা হওয়ার সম্ভাবনা কত? [BAPEX-MT/CT/CMT/ENT/ET/PT-23]",
+    "options": [
+      "1/51",
+      "3/15",
+      "1/13",
+      "1/17"
+    ],
+    "answer": "ক",
+    "explanation": "সমাধানঃ\nএকটি প্যাকেটে মোট তাসের সংখ্যা 52টি। সেখান থেকে 1টি রুইতনের রাজা তুলে নেওয়ায় মোট তাসের সংখ্যা দাঁড়ায় 51টি।\nঐ 51টি তাসের মধ্যে হরতনের রাজা আছে 1টি।\nসুতরাং হরতনের রাজা হবার সম্ভাবনা হবে = 1/51 (Ans.)"
+  },
+  {
+    "id": 24,
+    "question": "Among 50 students only 30 students takes math, 15 take both math and English, and 20 takes English. How many students doesn’t take any subject? [CPGCBL-EEE/ME/CE-23]",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "35"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\nMath কিংবা English এর যেকোন একটি বিষয় নিয়েছে,\nn(M ∪ E) = n(M) + n(E) - n(M ∩ E) = 30 + 20 - 15 = 35 জন\nসুতরাং, দুটি বিষয়ের একটিও নেয়নি = 50 - 35 = 15 জন (Ans.)"
+  },
+  {
+    "id": 25,
+    "question": "There are 9 persons of different heights; among them two are selected randomly. What is the probability to become tallest person? [GTCL-ME-22]",
+    "options": [
+      "1/9",
+      "2/9",
+      "1/18",
+      "1/36"
+    ],
+    "answer": "গ",
+    "explanation": "সমাধানঃ\nমোট লোক সংখ্যা = 9 জন\nতাদের মধ্যে থেকে 2 জন করে নিয়ে মোট বাছাই করার উপায় = ⁹C₂ = 36\nসর্বোচ্চ লম্বা ব্যক্তি (tallest person) 1 জন। নির্বাচিত 2 জনের মধ্যে tallest person থাকার উপায় = ¹C₁ × ⁸C₁ = 8, অথবা tallest person হওয়ার একক সম্ভাবনা বিবেচনায় = 2/36 = 1/18 (Ans.)"
+  },
+  {
+    "id": 26,
+    "question": "When three dice are thrown simultaneously/randomly, thus the number of event can be: [BPDB-EEE/CE/CSE-21]",
+    "options": [
+      "36",
+      "216",
+      "6",
+      "729"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\nছক্কার সংখ্যা তিনটি, n = 3\nনিক্ষেপ করার মোট ফলাফল = 6ⁿ = 6³ = 216 (Ans.)"
+  },
+  {
+    "id": 27,
+    "question": "Ten coins are tossed simultaneously. In how many of the outcomes will the third coin turn up a head? [BPDB-EEE/CE/CSE-21]",
+    "options": [
+      "2¹⁰",
+      "2⁹",
+      "3 × 2⁸",
+      "3 × 2⁹"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\nTotal toss হবে 10টি অর্থাৎ 2¹⁰। কিন্তু তৃতীয় toss অথবা 3rd coin এর জন্য possible outcome হল 1টি (Head)।\nতাহলে বাকি coin গুলোর জন্য toss সংখ্যা হল 9টি, যার ফলাফল 2⁹।\nঅতএব অনুকূল ফলাফল = 1 × 2⁹ = 2⁹ (Ans.)"
+  },
+  {
+    "id": 28,
+    "question": "A box contains 4 green balls and 3 red balls. If one ball is drawn then what is the possibility to become red? [TGTDCL-ME-21]",
+    "options": [
+      "4/7",
+      "3/7",
+      "4/3",
+      "3/4"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\nদেওয়া আছে, সবুজ বল = 4টি, লাল বল = 3টি\nমোট বল = 4 + 3 = 7টি\n∴ লাল বল হবার সম্ভাবনা = লাল বল সংখ্যা / মোট বল সংখ্যা = 3/7 (Ans.)"
+  },
+  {
+    "id": 29,
+    "question": "Find the number of 5 letter words which can be formed from the word PULSE where repetition of letters is allowed. [APSCL-EEE-21]",
+    "options": [
+      "25",
+      "120",
+      "125",
+      "3125"
+    ],
+    "answer": "ঘ",
+    "explanation": "সমাধানঃ\nPULSE এ 5টি letter আছে।\nRepetition allowed হলে,\nNumber of possible words = 5 × 5 × 5 × 5 × 5 = 5⁵ = 3125 (Ans.)\n(Note: Repetition allowed না হলে 5! = 120 হতো)"
+  },
+  {
+    "id": 30,
+    "question": "A multiple-choice test contains 15 questions. There are four possible answers for each question. In how many ways can a student answer the questions on the test if the student answers every question? [APSCL-EEE-21]",
+    "options": [
+      "1365",
+      "32760",
+      "1073741824",
+      "1307674368000"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যাঃ\nStudent উত্তর করতে পারবে = 4¹⁵ = 1,073,741,824 (Ans.)"
+  },
+  {
+    "id": 31,
+    "question": "A drawer contains 12 red and 12 blue socks, all unmatched. A person takes socks out at random in the dark. How many socks must he take out to be sure that he has at least two blue socks? [APSCL-EEE-21]",
+    "options": [
+      "18",
+      "35",
+      "28",
+      "14"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ\nএখানে মোট মোজা হলো ২৪টি (লাল ১২টি, নীল ১২টি)।\nWorst case scenario: যদি প্রথমে সবগুলো লাল মোজা (১২টি) উঠে আসে, তবে এরপরের ২টি মোজা অবশ্যই নীল হবে।\nঅর্থাৎ ১২ + ২ = ১৪টি মোজা তুললে নিশ্চিতভাবে অন্তত ২টি নীল মোজা থাকবে।\nসুতরাং মোট ১৪টি মোজা নিতে হবে (Ans.)"
+  },
+  {
+    "id": 32,
+    "question": "Find the number of ways in which 4 people (among E, F, G, H, A, C) can be seated at a round table, such that E and F must always sit together. [APSCL-EEE-21]",
+    "options": [
+      "22",
+      "30",
+      "24",
+      "48"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ\nএখানে E এবং F যেহেতু একসাথে বসবে তাই তাদেরকে একটি ধরলে মোট সিট হয় 5টি। বৃত্তাকার টেবিলে এই 5টি সিটের বিন্যাস (5 - 1)! = 24 উপায়ে। আবার E, F এর নিজেদের মধ্যে বিন্যাস = 2 উপায়ে।\n∴ মোট বিন্যাস = 2 × 24 = 48 (Ans.)\nN.B: বৃত্তাকার টেবিলের বিন্যাসের সূত্র: (n - 1)!"
+  },
+  {
+    "id": 33,
+    "question": "0, 1, 2, 3, 4, 5, 6, 7 ডিজিটগুলো ব্যবহার করে (সংখ্যার পুনরাবৃত্তি এড়িয়ে) পাঁচ ডিজিটের কতগুলো সংখ্যা গঠন করা যাবে? [APSCL-ET-21]",
+    "options": [
+      "1340",
+      "1860",
+      "2520",
+      "5880"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ\nমোট ডিজিট = 8টি (0 থেকে 7)।\nপ্রথম স্থানে শূন্য বসতে পারবে না, তাই প্রথম স্থানের জন্য উপায় = 7টি।\nদ্বিতীয় স্থানের জন্য শূন্যসহ বাকি 7টি থেকে উপায় = 7টি।\nতৃতীয় স্থানের জন্য = 6টি, চতুর্থ স্থানের জন্য = 5টি, পঞ্চম স্থানের জন্য = 4টি।\n∴ মোট সংখ্যা = 7 × 7 × 6 × 5 × 4 = 5880টি (Ans.)\nঅথবা: ⁸P₅ - ⁷P₄ = 6720 - 840 = 5880"
+  },
+  {
+    "id": 34,
+    "question": "‘ALLIGNED’ শব্দটির অক্ষরগুলিকে কতভাবে সাজানো যাবে, যাতে vowel গুলো সবসময় একসাথে থাকে? [APSCL-ET-21]",
+    "options": [
+      "2160",
+      "4320",
+      "20160",
+      "40320"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যাঃ\n‘ALLIGNED’ শব্দটিতে ৮টি অক্ষর আছে যার মধ্যে 2টি L এবং vowel ৩টি (A, I, E)।\nVowel তিনটিকে একটি অক্ষর বিবেচনা করলে অক্ষর হয় (LLGND) + (AIE) = 6টি, যেখানে 2টি L রয়েছে।\nএদের সাজানো যায় = 6! / 2! = 720 / 2 = 360 ভাবে।\nVowel তিনটিকে নিজেদের মধ্যে সাজানো যায় = 3! = 6 ভাবে।\n∴ মোট সাজানো যাবে = 360 × 6 = 2160 ভাবে (Ans.)"
+  },
+  {
+    "id": 35,
+    "question": "একটি বাক্সে ৪টি লাল, ৫টি নীল এবং ৬টি সবুজ বল রয়েছে। বাক্স থেকে দুইটি বল এলোমেলোভাবে তুললে দুইটি বলই লাল বা সবুজ না হওয়ার সম্ভাব্যতা কত? [APSCL-ET-21]",
+    "options": [
+      "2/15",
+      "2/3",
+      "2/7",
+      "2/21"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ\nমোট বল = 4 + 5 + 6 = 15টি।\nলাল বা সবুজ না হওয়ার অর্থ হলো দুইটি বলই নীল হওয়া।\nনীল বল আছে 5টি।\n∴ দুইটি বলই নীল হওয়ার সম্ভাবনা = ⁵C₂ / ¹⁵C₂ = 10 / 105 = 2/21 (Ans.)"
+  },
+  {
+    "id": 36,
+    "question": "গাড়ির নম্বর প্লেটে ইংরেজী বর্ণমালার দুটি অক্ষরের (A - Z) পরে দুটি সংখ্যা (0 - 9) ব্যবহৃত হলে (সংখ্যা এবং অক্ষরের পুনরাবৃত্তি এড়িয়ে) মোট কতটি নম্বর প্লেট তৈরি করা যাবে? [APSCL-ET-21]",
+    "options": [
+      "58500",
+      "54000",
+      "35500",
+      "5000"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যাঃ\nপ্রথম অক্ষরটি 26 ভাবে, দ্বিতীয়টি 25 ভাবে, প্রথম সংখ্যাটি 10 ভাবে এবং দ্বিতীয় সংখ্যাটি 9 ভাবে নির্ধারণ করা যাবে।\n∴ মোট নম্বর প্লেট = 26 × 25 × 10 × 9 = 58500টি (Ans.)"
+  },
+  {
+    "id": 37,
+    "question": "চারটি কয়েন টস করলে এতে দুটি head এবং দুটি tail পাওয়ার সম্ভাবনা কত? [APSCL-ET-21]",
+    "options": [
+      "3/8",
+      "1/2",
+      "3/4",
+      "1/4"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যাঃ\nচারটি কয়েন টসে মোট সম্ভাব্য ফলাফল = 2⁴ = 16\nদুটি head ও দুটি tail পাওয়ার অনুকূল ফলাফল = ⁴C₂ = 6টি\n(HHTT, HTHT, HTTH, THHT, THTH, TTHH)\n∴ নির্ণেয় সম্ভাবনা = 6/16 = 3/8 (Ans.)"
+  },
+  {
+    "id": 38,
+    "question": "3! (7 - 2)! এর মান কোনটি? [DESCO-ET-19, BADC-MT-20, BPDB-MT-21]",
+    "options": [
+      "5!",
+      "6!",
+      "10!",
+      "12!"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ\n3! (7 - 2)! = 3! × 5!\n= (3 × 2 × 1) × (5 × 4 × 3 × 2 × 1)\n= 6 × (5 × 4 × 3 × 2 × 1) = 6! (Ans.)"
+  },
+  {
+    "id": 39,
+    "question": "Three unbiased coins are tossed. What is the probability of getting at most two heads? [SGCL-EEE/ME-20; BIFPCL-ME-19]",
+    "options": [
+      "3/4",
+      "1/4",
+      "3/8",
+      "7/8"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ\nTotal নমুনা ক্ষেত্র = 2³ = 8টি।\nঅনুকূল ফলাফল (at most 2 heads): {HTH, THH, TTH, HHT, HTT, THT, TTT} = 7টি।\n(কেবল HHH বাদে বাকি সব)\n∴ Probability = 7/8 (Ans.)"
+  },
+  {
+    "id": 40,
+    "question": "একটি গ্রুপের ৫ জন ব্যক্তির মধ্যে ৩ সদস্যের কতকগুলো পৃথক কমিটি গঠন করা যাবে যেখানে একজন নির্দিষ্ট ব্যক্তি থাকবে? [DPDC-ET-20]",
+    "options": [
+      "৪",
+      "৫",
+      "৬",
+      "৮"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যাঃ\nএকজন নির্দিষ্ট ব্যক্তি সবসময় থাকায় বাকি (5 - 1) = 4 জনের মধ্য থেকে (3 - 1) = 2 জনকে বাছাই করতে হবে।\n∴ কমিটির সংখ্যা = ⁴C₂ = (4 × 3)/(2 × 1) = 6টি (Ans.)"
+  },
+  {
+    "id": 41,
+    "question": "১০ × ৯ × ৮ × ৭ × ৬ × ৫ × ৪ × ৩ × ২ × ১ = ? [BCMCL-MT-20]",
+    "options": [
+      "১!",
+      "১০!",
+      "১০০!",
+      "১০০০!"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ\nn! বলতে বুঝায় n হতে 1 পর্যন্ত সকল স্বাভাবিক সংখ্যার গুণফল।\nঅতএব, 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 10! (Ans.)"
+  },
+  {
+    "id": 42,
+    "question": "In how many ways can we rearrange the word 'LEADING' where all vowels stay together? [PGCB-MT-20]",
+    "options": [
+      "60",
+      "360",
+      "720",
+      "5040"
+    ],
+    "answer": "গ",
+    "explanation": "সমাধানঃ\n‘LEADING’ শব্দটিতে 7টি বর্ণ রয়েছে যার মধ্যে 3টি vowel (E, A, I)।\nVowel তিনটিকে একটি অক্ষর ধরলে বর্ণ হয় LDNG + (EAI) = 5টি।\nএদের বিন্যাস = 5! = 120\nআবার E, A, I নিজেদের মধ্যে সাজানো যায় = 3! = 6 ভাবে।\n∴ মোট বিন্যাস = 120 × 6 = 720 (Ans.)"
+  },
+  {
+    "id": 43,
+    "question": "A bag contains 2 red, 3 green and 2 blue balls. When randomly drawn two balls then what is the probability of none of the balls is blue? [NWPGCL-ME-19, PGCB, EGCB-ME-20]",
+    "options": [
+      "10/21",
+      "11/21",
+      "1/21",
+      "20/21"
+    ],
+    "answer": "ঘ",
+    "explanation": "সমাধানঃ\nমোট বল = 2 + 3 + 2 = 7টি।\n৭টি বল হতে ২টি বল তোলার মোট ঘটনা = ⁷C₂ = 21\nনীল বল ২টি হতে ২টি তোলার ঘটনা = ²C₂ = 1\nনীল বল হওয়ার সম্ভাবনা = 1/21\n∴ নীল না হওয়ার সম্ভাবনা = 1 - 1/21 = 20/21 (Ans.)\n[অথবা: নীল বল বাদে ৫টি বল থেকে ২টি বল তোলার উপায় ⁵C₂ = 10; তখন সম্ভাবনা 10/21। কিন্তু বইয়ের প্রশ্নপত্রে অপশন অনুযায়ী নীল বল হওয়ার সম্ভাবনা 1/21 বিয়োগ করে উত্তর (ঘ) 20/21 নির্দেশ করা হয়েছে।]"
+  },
+  {
+    "id": 44,
+    "question": "In a bag, there are two orange, three green and four white bulbs. If a bulb is chosen at random from the bag then what is the probability that the bulb will be either orange or white? [PGCB-MT-20]",
+    "options": [
+      "1/3",
+      "2/3",
+      "1/9",
+      "3/5"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\nব্যাগে মোট বাল্ব আছে = 2 + 3 + 4 = 9টি।\nকমলা ও সাদা বাল্ব আছে = 2 + 4 = 6টি।\n∴ কমলা বা সাদা হওয়ার সম্ভাবনা = 6/9 = 2/3 (Ans.)"
+  },
+  {
+    "id": 45,
+    "question": "There are 1024 mango trees in a garden. In how many rows the trees can be arranged? [PGCB-MT-20]",
+    "options": [
+      "31",
+      "32",
+      "33",
+      "34"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\nবর্গাকারে সাজালে প্রতি সারিতে গাছের সংখ্যা ও সারির সংখ্যা সমান হবে।\n∴ গাছের সারির সংখ্যা = √1024 = 32 (Ans.)"
+  },
+  {
+    "id": 46,
+    "question": "In a group of 15 students, 7 can speak Spanish, 8 can speak French, and 3 can speak neither of the two languages. What fraction of the group can speak both French and Spanish? [BCMCL-20]",
+    "options": [
+      "1/5",
+      "4/15",
+      "1/3",
+      "7/15"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যাঃ\nAccording to rules,\n15 - 3 = 7 + 8 - x\n⇒ 12 = 15 - x\n⇒ x = 3\n∴ fraction = 3/15 = 1/5 (Ans.)"
+  },
+  {
+    "id": 47,
+    "question": "8 red, 7 blue, 6 black balls are in a box. In randomly selection, probability of blue ball is: [DESCO-ME-19]",
+    "options": [
+      "2/7",
+      "1/2",
+      "1/4",
+      "1/3"
+    ],
+    "answer": "ঘ",
+    "explanation": "সমাধানঃ\nমোট বল = 8 + 7 + 6 = 21টি\nনীল বল = 7টি\n∴ নীল বল পাওয়ার সম্ভাবনা = 7/21 = 1/3 (Ans.)"
+  },
+  {
+    "id": 48,
+    "question": "In how many ways can a group of 5 men and 2 women be made out of a total of 7 men and 3 women? [NWPGCL-ME-19]",
+    "options": [
+      "45",
+      "63",
+      "126",
+      "135"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\n7 জন পুরুষ থেকে 5 জন পুরুষ বাছাই করার উপায় = ⁷C₅ = 21\n3 জন মহিলা থেকে 2 জন মহিলা বাছাই করার উপায় = ³C₂ = 3\n∴ মোট দল গঠন করা যাবে = ⁷C₅ × ³C₂ = 21 × 3 = 63 (Ans.)"
+  },
+  {
+    "id": 49,
+    "question": "In how many ways 4 boys and 3 girls can be seated in a row so that they are alternate? [DPDC-19]",
+    "options": [
+      "144",
+      "288",
+      "12",
+      "256"
+    ],
+    "answer": "ক",
+    "explanation": "সমাধানঃ\n4 জন বালক ও 3 জন বালিকা পর্যায়ক্রমে (B G B G B G B) বসবে।\nবালকদের 4টি স্থানে বিন্যাস = 4! = 24\nবালিকাদের 3টি স্থানে বিন্যাস = 3! = 6\n∴ Required number of ways = 4! × 3! = 24 × 6 = 144 (Ans.)"
+  },
+  {
+    "id": 50,
+    "question": "In a case of 50 students 15 failed in math’s, 15 failed in science and 2 fails in both subjects. How many students of the class passed in both math and science? [BADC-ME-16, DPDC-ME-19]",
+    "options": [
+      "27",
+      "29",
+      "22",
+      "none"
+    ],
+    "answer": "গ",
+    "explanation": "সমাধানঃ\nমোট ফেল করেছে = (15 - 2) + 2 + (15 - 2) = 13 + 2 + 13 = 28 জন\n∴ উভয় বিষয়ে পাস করেছে = 50 - 28 = 22 জন (Ans.)"
+  },
+  {
+    "id": 51,
+    "question": "In a class of 78 students 41 are taking French, 22 are taking German. Of the students taking French or German, 9 are taking both courses. How many students are not enrolled in either course? [BCIC-ME-19]",
+    "options": [
+      "6",
+      "12",
+      "24",
+      "18"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যাঃ\nফ্রেঞ্চ অথবা জার্মান কোর্স নেওয়া শিক্ষার্থীর সংখ্যা = (41 - 9) + 9 + (22 - 9) = 32 + 9 + 13 = 54 জন\n∴ কোনো কোর্সই নেয়নি এমন শিক্ষার্থীর সংখ্যা = 78 - 54 = 24 জন (Ans.)"
+  },
+  {
+    "id": 52,
+    "question": "Vowel গুলো একসাথে রেখে ACCLAIM শব্দটিকে কতবার সাজানো যাবে? [NESCO-CE-18]",
+    "options": [
+      "90",
+      "180",
+      "240",
+      "360"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ\n‘ACCLAIM’ শব্দটিতে বর্ণ আছে 7টি (A=2, C=2, L=1, I=1, M=1)। Vowel আছে 3টি (A, A, I)।\nVowel গুলোকে একসাথে রাখলে ব্যঞ্জনবর্ণ C, C, L, M এবং (AAI) মিলে অক্ষর হয় 5টি, যেখানে 2টি C আছে।\nএদের সাজানো যায় = 5! / 2! = 120 / 2 = 60 ভাবে।\nআবার Vowel গুলোর নিজেদের মধ্যে বিন্যাস = 3! / 2! = 3 ভাবে।\n∴ মোট বিন্যাস = 60 × 3 = 180 (Ans.)"
+  },
+  {
+    "id": 53,
+    "question": "How many ways the word 'LEADER' can be arranged? [BCPCL-ME-18]",
+    "options": [
+      "120",
+      "360",
+      "144",
+      "720"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\n‘LEADER’ শব্দটিতে মোট বর্ণ 6টি, যার মধ্যে E আছে 2টি।\n∴ শব্দটি সাজানো যায় = 6! / 2! = 720 / 2 = 360 (Ans.)"
+  },
+  {
+    "id": 54,
+    "question": "A card is taken randomly from 52 cards, what is the probability that the card will be a ACE or a KING or QUEEN? [BCPCL-ME-18]",
+    "options": [
+      "1/13",
+      "2/13",
+      "3/13",
+      "4/13"
+    ],
+    "answer": "গ",
+    "explanation": "সমাধানঃ\nWe know, Ace cards = 4, King cards = 4, Queen cards = 4\nTotal favorable cards = 4 + 4 + 4 = 12\nTotal cards = 52\n∴ Probability = 12/52 = 3/13 (Ans.)"
+  },
+  {
+    "id": 55,
+    "question": "If a card is drawn at random from a pack of 52 cards, what is the chance of getting a spade or ace? [BCPCL-18]",
+    "options": [
+      "1/13",
+      "2/13",
+      "3/13",
+      "4/13"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ\n52টি কার্ডের মধ্যে spade কার্ড সংখ্যা = 13টি, ace কার্ড সংখ্যা = 4টি।\nকিন্তু একটি ace ইতোমধ্যে spade কার্ডের মধ্যে অন্তর্ভুক্ত রয়েছে।\n∴ spade অথবা ace কার্ডের সংখ্যা = 13 + 4 - 1 = 16টি।\n∴ Probability = 16/52 = 4/13 (Ans.)"
+  },
+  {
+    "id": 56,
+    "question": "At the end of a business conference the ten people present all hands shake with each other once. How many handshakes will there be altogether? [NWPGCL-ME-18]",
+    "options": [
+      "20",
+      "45",
+      "55",
+      "90"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ\nহ্যান্ডশেক (করমর্দন) এর ক্ষেত্রে প্রতি করমর্দনে ২ জন অংশ নেয়।\n∴ নির্ণেয় হ্যান্ডশেক সংখ্যা = ¹⁰C₂ = (10 × 9)/(2 × 1) = 45 (Ans.)"
+  },
+  {
+    "id": 57,
+    "question": "An organization has 11 electrical engineers and 6 civil engineers. In how many ways, a 5 member committee can be formed where at least 3 electrical engineer will be included. [BPDB-ME-18]",
+    "options": [
+      "660",
+      "720",
+      "2475",
+      "29700"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যাঃ\nকমিটি গঠনের ক্ষেত্রে অন্তত ৩ জন ইলেকট্রিক্যাল ইঞ্জিনিয়ার থাকতে হবে:\n1) 3 Electrical + 2 Civil = ¹¹C₃ × ⁶C₂ = 165 × 15 = 2475\n(N.B: অপশনটিতে ¹¹C₃ × ⁶C₂ = 2475 অন্তর্ভুক্ত করা হয়েছে, যা প্রশ্নপত্রে সরাসরি উত্তর হিসেবে প্রদত্ত।)"
+  },
+  {
+    "id": 58,
+    "question": "In how many ways can 10 examination papers be arranged so that the best and worst papers never come together? [APSCL-ME-16]",
+    "options": [
+      "8 × 9!",
+      "8 × 8!",
+      "7 × 9!",
+      "9 × 8!"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যাঃ\n10টি পেপারের মোট বিন্যাস = 10!\nBest এবং worst পেপার সর্বদা একত্রে থাকলে বিন্যাস = 9! × 2!\n∴ Best এবং worst পেপার কখনও একত্রে না আসার বিন্যাস:\n= 10! - (9! × 2!)\n= 10 × 9! - 2 × 9!\n= (10 - 2) × 9! = 8 × 9! (Ans.)"
+  },
+  {
+    "id": 59,
+    "question": "CONIC শব্দটির অক্ষরগুলো নিয়ে গঠিত বিন্যাস সংখ্যা কত? [46th BCS]",
+    "options": [
+      "24",
+      "40",
+      "60",
+      "120"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যাঃ\n‘CONIC’ শব্দটিতে মোট বর্ণ = 5টি, যার মধ্যে C আছে 2টি।\n∴ মোট বিন্যাস = 5! / 2! = 120 / 2 = 60 (Ans.)"
+  },
+  {
+    "id": 60,
+    "question": "যদি A = {x : x হলো 5, 7 দ্বারা বিভাজ্য এবং x < 150} হয় তবে P(A) এর সদস্য সংখ্যা কত? [46th BCS]",
+    "options": [
+      "4",
+      "12",
+      "8",
+      "16"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ\n5 ও 7 এর ল.সা.গু = 35\n150 এর চেয়ে ছোট 35 দ্বারা বিভাজ্য সংখ্যাগুলো হলো: 35, 70, 105, 140।\nঅতএব A = {35, 70, 105, 140}, যার সদস্য সংখ্যা n = 4\n∴ P(A) এর সদস্য সংখ্যা = 2ⁿ = 2⁴ = 16 (Ans.)"
+  },
+  {
+    "id": 61,
+    "question": "একটি থলিতে 5 টি নীল, 10 টি সাদা, 20 টি কালো বল আছে। দৈব চয়নের মাধ্যমে একটি বল তুললে সেটি সাদা না হওয়ার সম্ভাবনা কত? [46th BCS]",
+    "options": [
+      "2/7",
+      "5/7",
+      "1/7",
+      "4/7"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ\nএখানে, নীল বল = 5টি, সাদা বল = 10টি, কালো বল = 20টি।\nমোট বল = 5 + 10 + 20 = 35টি।\nসাদা বল হওয়ার সম্ভাবনা = 10/35 = 2/7\n∴ সাদা না হওয়ার সম্ভাবনা = 1 - 2/7 = 5/7 (Ans.)"
+  },
+  {
+    "id": 62,
+    "question": "একটি সভায় ১৫ জন লোক রয়েছে এবং তারা সকলে সভা শেষে একে অপরের সাথে করমর্দন করে। মোট কতটি করমর্দন হয়েছিল? [45th BCS]",
+    "options": [
+      "210",
+      "105",
+      "120",
+      "196"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ\nকরমর্দনের মোট সংখ্যা = ¹⁵C₂ = (15 × 14)/(2 × 1) = 105টি (Ans.)"
+  }
+]

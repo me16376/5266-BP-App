@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "question": "একটি গাছের পাদদেশ হতে 20 মিটার দূরে ভূমির কোনো বিন্দুতে গাছের চূড়ার উন্নতি কোণ 60° হলে, গাছটির উচ্চতা কত? [MOFL-2026]",
+    "options": [
+      "20 মিটার",
+      "20√3 মিটার",
+      "20√2 মিটার",
+      "20/√3 মিটার"
+    ],
+    "answer": "খ",
+    "explanation": "মনে করি, গাছটির পাদবিন্দু B, ভূমির কোনো একটি বিন্দু C এবং শীর্ষবিন্দু A। গাছটির পাদদেশ হতে নির্দিষ্ট স্থানের দূরত্ব BC = 20 মিটার।\nগাছটির শীর্ষবিন্দুর উন্নতি কোণ ∠ACB = 60° এবং গাছটির উচ্চতা AB = h মিটার।\nএখন, tan 60° = AB / BC\nবা, √3 = h / 20 [∵ tan 60° = √3, AB = h এবং BC = 20 মি.]\nবা, h = 20√3\n∴ গাছটির উচ্চতা = 20√3 মিটার (Ans.)"
+  },
+  {
+    "id": 2,
+    "question": "Two trucks 300 km away are travelling towards each other with a constant speed. Truck A is moving at a constant 70 km/h while Truck B is moving at a constant speed 50 km/h. How long does it take for them to meet? [BB-2026]",
+    "options": [
+      "5 hrs",
+      "3 hrs",
+      "2.5 hrs",
+      "6 hrs"
+    ],
+    "answer": "গ",
+    "explanation": "Relative Speed of two trucks in\n= (70 + 50) kmh⁻¹\n= 120 km/h\nSo, Time taken to meet = 300 / 120 = 2.5 hrs (Ans.)"
+  },
+  {
+    "id": 3,
+    "question": "tan45° এর মান কত? [WZPDCL-2026]",
+    "options": [
+      "0",
+      "1",
+      "√3",
+      "1/√3"
+    ],
+    "answer": "খ",
+    "explanation": "tan45° = sin45° / cos45° = (1/√2) / (1/√2) = 1/√2 × √2/1 = 1 (Ans.)"
+  },
+  {
+    "id": 4,
+    "question": "sin²θ + cos²θ = কত? [WZPDCL-2026]",
+    "options": [
+      "0",
+      "1",
+      "sin2θ",
+      "cos2θ"
+    ],
+    "answer": "খ",
+    "explanation": "আমরা জানি, sin²θ + cos²θ = 1"
+  },
+  {
+    "id": 5,
+    "question": "cosecθ + cotθ = 3/2 হলে cotθ - cosecθ = ? [DPDC-2025]",
+    "options": [
+      "-3/2",
+      "-2/3",
+      "2/3",
+      "3/2"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে,\ncosecθ + cotθ = 3/2\nবা, (cosecθ + cotθ)(cosecθ - cotθ) = 3/2 (cosecθ - cotθ) [(cosecθ - cotθ) দ্বারা গুণ করে]\nবা, cosec²θ - cot²θ = 3/2 (cosecθ - cotθ)\nবা, 1 = 3/2 (cosecθ - cotθ)\nবা, 1 / (cosecθ - cotθ) = 3/2\nবা, cosecθ - cotθ = 2/3\nবা, -(cotθ - cosecθ) = 2/3\n∴ cotθ - cosecθ = - 2/3 (Ans.)"
+  },
+  {
+    "id": 6,
+    "question": "sinA = 12/13 হলে, secA এর মান কত? [MOR-2025]",
+    "options": [
+      "5/13",
+      "13/5",
+      "13/12",
+      "3/7"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে, sinA = 12/13\nআমরা জানি, sinθ = লম্ব / অতিভুজ\n∴ ΔABC সমকোণী ত্রিভুজ থেকে পাই,\nBC = 12, AC = 13\n∴ AB = √(AC² - BC²) = √(13² - 12²) = √25 = 5\nআবার, আমরা জানি, secθ = অতিভুজ / ভূমি\n∴ ΔABC-এ secA = AC / AB\n∴ secA = 13/5 (Ans.)"
+  },
+  {
+    "id": 7,
+    "question": "যখন tanθ = -√3 এবং 270° < θ < 360°, তখন θ এর মান নিচের কোনটি? [MOR-2025]",
+    "options": [
+      "280°",
+      "300°",
+      "350°",
+      "320°"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে,\ntanθ = -√3 এবং 270° < θ < 360°\nবা, tanθ = -tan 60°\nবা, tanθ = tan(360° - 60°) [∵ tan(360° - θ) = -tanθ]\nবা, tanθ = tan 300°\n∴ θ = 300° (Ans.)"
+  },
+  {
+    "id": 8,
+    "question": "tanθ = ৩/৪ হলে, sinθ-এর মান কত? [DWASA-2024]",
+    "options": [
+      "৫/৩",
+      "৩/৫",
+      "৪/৩",
+      "৪/৫"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে,\ntanθ = ৩/৪\nএখানে, ΔABC-এর AB = ৩, BC = ৪\nপিথাগোরাসের সূত্রানুযায়ী,\nঅতিভুজ² = ভূমি² + লম্ব²\nবা, AC² = BC² + AB²\nবা, AC = √(৪² + ৩²)\nবা, AC = √২৫\n∴ AC = ৫\n∴ sinθ = AB/AC = ৩/৫ (উত্তর)"
+  },
+  {
+    "id": 9,
+    "question": "cosθ = ২/৩ হলে tanθ-এর মান কত? [DPDC-2024]",
+    "options": [
+      "৩/২",
+      "√৩/২",
+      "৫/২",
+      "√৫/২"
+    ],
+    "answer": "ঘ",
+    "explanation": "cosθ = ২/৩\nআমরা জানি, cosθ = ভূমি / অতিভুজ\n∴ ভূমি = ২ এবং অতিভুজ = ৩\n∴ লম্ব = √(অতিভুজ² - ভূমি²)\n= √(৩² - ২²)\n= √(৯ - ৪)\n= √৫\n∴ tanθ = লম্ব / ভূমি = √৫/২"
+  },
+  {
+    "id": 10,
+    "question": "cosec θ = √2 হলে, θ = ? [BBAL-2023]",
+    "options": [
+      "90°",
+      "60°",
+      "50°",
+      "45°"
+    ],
+    "answer": "ঘ",
+    "explanation": "দেওয়া আছে, cosecθ = √2\nবা, cosecθ = cosec 45°\n∴ θ = 45°\nসুতরাং, নির্ণেয় সমাধান, θ = 45° (Ans.)"
+  },
+  {
+    "id": 11,
+    "question": "Idrak buys 80 kg sugar at Taka 40 per kg and 40 kg rice at Taka 50 per kg. At what price approximately in Taka per kg should he sell to make a profit of 10% on cost? [BCIC-2021]",
+    "options": [
+      "42.3",
+      "44.3",
+      "47.7",
+      "49.2"
+    ],
+    "answer": "গ",
+    "explanation": "মোট খরচ = (৮০ × ৪০ + ৪০ × ৫০) টাকা\n= (৩২০০ + ২০০০) = ৫২০০ টাকা\n১০% লাভে বিক্রয়মূল্য = (৫২০০ + ৫২০০ এর ১০%) টাকা\n= (৫২০০ + ৫২০০ এর ১০/১০০) টাকা\n= (৫২০০ + ৫২০) টাকা\n= ৫৭২০ টাকা\n∴ প্রতি কেজির বিক্রয়মূল্য = (৫৭২০ ÷ ১২০) টাকা\n= ৪৭.৭ টাকা"
+  },
+  {
+    "id": 12,
+    "question": "A rectangular field will be fenced on three sides leaving a side of 20 feet uncovered, if the area of the field is 680 square feet, how many feet of fencing will be required? [BCIC-2021]",
+    "options": [
+      "88",
+      "34",
+      "40",
+      "68"
+    ],
+    "answer": "ক",
+    "explanation": "দেওয়া আছে,\nআয়তাকার মাঠের ক্ষেত্রফল = ৬৮০ বর্গফুট\nএবং এক বাহুর দৈর্ঘ্য = ২০ ফুট\n∴ অপর বাহুর দৈর্ঘ্য = ৬৮০/২০ \" = ৩৪ ফুট\nএখন,\nবেড়া দেওয়ার প্রয়োজন = (৩৪ + ৩৪ + ২০) ফুট\n= ৮৮ ফুট"
+  },
+  {
+    "id": 13,
+    "question": "tanA = 5/12 হলে sinA-এর মান কত? [BTRC-2021]",
+    "options": [
+      "5/13",
+      "3/4",
+      "12/13",
+      "5/12"
+    ],
+    "answer": "ক",
+    "explanation": "দেওয়া আছে, tanA = 5/12\nআমরা জানি,\ntanA = লম্ব / ভূমি\n∴ লম্ব = 5 এবং ভূমি = 12\n∴ অতিভুজ = √(লম্ব² + ভূমি²)\n= √(5² + 12²) = √169 = 13\n∴ sinA = লম্ব / অতিভুজ = 5/13"
+  },
+  {
+    "id": 14,
+    "question": "sinA + cosA = sinB + cosB হলে, A + B = ? [BTRC-2021]",
+    "options": [
+      "π",
+      "2π",
+      "π/2",
+      "π/4"
+    ],
+    "answer": "গ",
+    "explanation": "দেওয়া আছে,\nsinA + cosA = sinB + cosB\nবা, sinA - sinB = cosB - cosA\nবা, 2cos((A + B)/2) sin((A - B)/2) = 2 sin((B + A)/2) sin((A - B)/2)\nবা, cos((A + B)/2) = sin((A + B)/2)\nবা, cos((A + B)/2) / sin((A + B)/2) = 1\nবা, cot((A + B)/2) = 1\nবা, cot((A + B)/2) = cot(π/4)\nবা, (A + B)/2 = π/4\nবা, A + B = 2 × (π/4)\n∴ A + B = π/2"
+  },
+  {
+    "id": 15,
+    "question": "tanx = cotx হলে, x এর মান কত? [APSCL-2021]",
+    "options": [
+      "3π/2",
+      "5π/2",
+      "5π/4",
+      "9π/4"
+    ],
+    "answer": "ঘ",
+    "explanation": "দেওয়া আছে, tanx = cotx\nবা, sinx/cosx = cosx/sinx\nবা, sin²x = cos²x\nবা, sin²x = 1 - sin²x\nবা, sin²x + sin²x = 1\nবা, 2sin²x = 1\nবা, sin²x = 1/2\nবা, sinx = 1/√2\nবা, sinx = sin(9π/4)\n∴ x = 9π/4\n∴ নির্ণেয় সমাধান : x = 9π/4 (Ans.)"
+  },
+  {
+    "id": 16,
+    "question": "sin⁻¹ x = ? [BREB-2021]",
+    "options": [
+      "cosec⁻¹ x",
+      "cosec⁻¹ (1/x)",
+      "cos⁻¹ x",
+      "cos⁻¹ (1/x)"
+    ],
+    "answer": "খ",
+    "explanation": "ধরি, sin⁻¹ x = θ\n∴ sinθ = x\nআমরা জানি, cosecθ = 1/sinθ\n⇒ cosecθ = 1/x\n⇒ θ = cosec⁻¹ (1/x)\n∴ sin⁻¹ x = cosec⁻¹ (1/x) (Ans.)"
+  },
+  {
+    "id": 17,
+    "question": "রিয়া, সুমি, উমা একটি কাজ ২০, ১২, ১৫ দিনে করতে পারে। তবে তারা একত্রে কাজটি কতদিনে করতে পারবে? [BSEC-2021]",
+    "options": [
+      "৪ দিন",
+      "৫ দিন",
+      "৭ দিন",
+      "৮ দিন"
+    ],
+    "answer": "খ",
+    "explanation": "রিয়া, সুমি ও উমা একত্রে ১ দিনে করে = (১/২০ + ১/১২ + ১/১৫) অংশ কাজ\n= (৩ + ৫ + ৪)/৬০ অংশ কাজ\n= ১২/৬০ অংশ কাজ\n= ১/৫ অংশ কাজ\n১/৫ অংশ কাজ করতে পারে = ১ দিনে\n∴ ১ অংশ (সম্পূর্ণ) কাজ করতে পারে = (১ × ৫)/১ = ৫ দিনে\nসুতরাং, তারা একত্রে কাজটি ৫ দিনে শেষ করতে পারবে। (উত্তর)"
+  },
+  {
+    "id": 18,
+    "question": "(4 + 5 + 3)² = ? [BSEC-2021]",
+    "options": [
+      "120",
+      "144",
+      "153",
+      "169"
+    ],
+    "answer": "খ",
+    "explanation": "(4 + 5 + 3)² = (12)² = 144 (Ans.)"
+  },
+  {
+    "id": 19,
+    "question": "একটি বিদ্যালয়ের ৫০% শিক্ষার্থী ছাত্রাবাসে অবস্থান করে। ছাত্রাবাসের সৌভাগ্যবান ৬০% শিক্ষার্থী একক কক্ষ পায়। যদি সৌভাগ্যবান শিক্ষার্থীর সংখ্যা ১২০০ হয় তবে বিদ্যালয়ের মোট শিক্ষার্থীর সংখ্যা কত? [BSEC-2021]",
+    "options": [
+      "২০০০",
+      "২৫০০",
+      "৩৫০০",
+      "৪০০০"
+    ],
+    "answer": "ঘ",
+    "explanation": "ছাত্রাবাসে অবস্থানকারী শিক্ষার্থী = 'ক' জন\nপ্রশ্নমতে, ক এর ৬০% = ১২০০\nবা, ক এর ৬০/১০০ = ১২০০\nবা, ৬০ক = ১২০০০০\n∴ ক = ২০০০\n∴ ছাত্রাবাসে শিক্ষার্থীর সংখ্যা = ২০০০ জন\nআবার, ধরি, বিদ্যালয়ের মোট শিক্ষার্থী = ১০০%\nপ্রশ্নমতে,\n৫০% শিক্ষার্থী = ২০০০ জন\n∴ ১% \" = ২০০০/৫০ জন\n∴ ১০০% \" = (২০০০ × ১০০)/৫০ = ৪০০০ জন\nসুতরাং, বিদ্যালয়ের মোট শিক্ষার্থী = ৪০০০ জন। (উত্তর)"
+  },
+  {
+    "id": 20,
+    "question": "A circle of radius 14 cm is divided into 8 equal sectors. Find the area of each sector. [BB-2021]",
+    "options": [
+      "12cm²",
+      "24cm²",
+      "48cm²",
+      "77cm²"
+    ],
+    "answer": "ঘ",
+    "explanation": "Given,\nRadius, r = 14cm\nWe know,\nThe area of a circle = πr²\n∴ The area of each sector of the circle = 1/8 πr² = 1/8 × 22/7 × (14)² cm²\n= (1/8 × 22/7 × 196) cm²\n= 77cm² (Ans.)"
+  },
+  {
+    "id": 21,
+    "question": "x = siny হলে x-এর সর্বোচ্চ মান কত? [NESCO-2018]",
+    "options": [
+      "0",
+      "1",
+      "infinity",
+      "90"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে, x = siny ⇒ y = sin⁻¹x\nএখানে, ডোমেন; -1 ≤ x ≤ 1 এবং রেঞ্জ; -π/2 ≤ y ≤ π/2\nসুতরাং, x এর সর্বোচ্চ মান = 1. (Ans.)"
+  },
+  {
+    "id": 22,
+    "question": "sinθ = 3/5, 0 < θ < π/2 হলে tanθ = কত? [SB-2016]",
+    "options": [
+      "4/5",
+      "3/4",
+      "3/5",
+      "5/7"
+    ],
+    "answer": "খ",
+    "explanation": "sinθ = 3/5\n∴ cosθ = √(1 - (3/5)²) = √(16/25) = 4/5\n∴ tanθ = (3/5) / (4/5) = 3/4"
+  }
+]

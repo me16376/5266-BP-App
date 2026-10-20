@@ -1,0 +1,2051 @@
+[
+  {
+    "id": 1,
+    "page": 914,
+    "question": "OOP stands for : [BB-2026]",
+    "options": [
+      "Object Oriented Programming",
+      "Open Office Protocol",
+      "Object Operating Program",
+      "Output oriented Process"
+    ],
+    "answer": "ক",
+    "explanation": "Object Oriented Programming (OOP) হলো এমন একটি প্রোগ্রামিং পদ্ধতি, যেখানে প্রোগ্রামকে object ও class এর মাধ্যমে বাস্তব জীবনের ধারণা অনুযায়ী তৈরি করা হয়।"
+  },
+  {
+    "id": 2,
+    "page": 914,
+    "question": "Which attack floods a system with traffic? [BB-2026]",
+    "options": [
+      "Phishing",
+      "DoS",
+      "Spoofing",
+      "Sniffing"
+    ],
+    "answer": "খ",
+    "explanation": "DoS (Denial of Service) : DoS হলো একটি সাইবার আক্রমণ, যেখানে অতিরিক্ত ট্রাফিক বা অনুরোধ পাঠিয়ে কোনো সার্ভার বা সিস্টেমকে অকার্যকর করে দেওয়া হয়।\nPhishing : Phishing হলো প্রতারণামূলক ই-মেইল, মেসেজ বা ওয়েবসাইট ব্যবহার করে ব্যবহারকারীর গোপন তথ্য (পাসওয়ার্ড, ব্যাংক তথ্য ইত্যাদি) চুরি করার কৌশল।\nSpoofing : Spoofing হলো নিজের পরিচয় গোপন করে অন্য ব্যক্তি বা সিস্টেম সেজে তথ্য আদান-প্রদান করার আক্রমণ।\nSniffing : Sniffing হলো নেটওয়ার্কে চলমান ডাটা প্যাকেট গোপনে পর্যবেক্ষণ ও সংগ্রহ করার প্রক্রিয়া।"
+  },
+  {
+    "id": 3,
+    "page": 914,
+    "question": "HTTPS is more secure than HTTP because it uses : [BB-2026]",
+    "options": [
+      "IP",
+      "Encryption",
+      "Cookies",
+      "Proxy"
+    ],
+    "answer": "খ",
+    "explanation": "HTTPS (Hyper Text Transfer Ptotocol Secure) ডাটা এনক্রিপ্ট করে পাঠায়, যাতে তথ্য নিরাপদ থাকে।"
+  },
+  {
+    "id": 4,
+    "page": 914,
+    "question": "Firewall is used to : [BB-2026]",
+    "options": [
+      "Store data",
+      "Monitor network traffic",
+      "Compile programs",
+      "Create backups"
+    ],
+    "answer": "খ",
+    "explanation": "Firewall নেটওয়ার্কে ইনকামিং এবং আউটগোয়িং ডাটা নিয়ন্ত্রণ ও নিরাপত্তা নিশ্চিত করে থাকে।"
+  },
+  {
+    "id": 5,
+    "page": 914,
+    "question": "Which model is known as linear sequential model? [BB-2026]",
+    "options": [
+      "Agile",
+      "Spiral",
+      "Waterfall",
+      "V-Model"
+    ],
+    "answer": "গ",
+    "explanation": "Waterfall মডেলে ধাপে ধাপে কাজ করা হয়, এক ধাপ শেষ হলে পরের ধাপ শুরু হয়, তাই একে linear sequential model বলা হয়।"
+  },
+  {
+    "id": 6,
+    "page": 914,
+    "question": "Cloud computing provides : [BB-2026]",
+    "options": [
+      "Hardware only",
+      "Software only",
+      "On-demand resources",
+      "Offline services"
+    ],
+    "answer": "গ",
+    "explanation": "Cloud Computing হলো এমন একটি প্রযুক্তি, যেখানে ইন্টারনেটের মাধ্যমে কম্পিউটিং রিসোর্স (যেমন— সার্ভার, স্টোরেজ, সফটওয়্যার, ডাটাবেজ ইত্যাদি) চাহিদা অনুযায়ী (on-demand) ব্যবহার করা যায়।"
+  },
+  {
+    "id": 7,
+    "page": 914,
+    "question": "Which protocol is used for file transfer? [BB-2026]",
+    "options": [
+      "SMTP",
+      "FTP",
+      "SNMP",
+      "TELNET"
+    ],
+    "answer": "খ",
+    "explanation": "FTP (File Transfer Protocol) ফাইল আদান-প্রদানের জন্য ব্যবহৃত হয়।"
+  },
+  {
+    "id": 8,
+    "page": 914,
+    "question": "IPv4 address size is : [BB-2026]",
+    "options": [
+      "15 bit",
+      "32 bit",
+      "64 bit",
+      "128 bit"
+    ],
+    "answer": "খ",
+    "explanation": "IPv4 ঠিকানা ৩২-বিটের হয়, যা ৪টি অকটেট ডট (.) দ্বারা বিভক্ত থাকে। যেমন— 192.168.1.1।"
+  },
+  {
+    "id": 9,
+    "page": 914,
+    "question": "Which layer is responsible for routing in OSI model? [BB-2026]",
+    "options": [
+      "Network",
+      "Transport",
+      "Data Link",
+      "Session"
+    ],
+    "answer": "ক",
+    "explanation": "Network layer-এ ডাটার সাথে IP address যুক্ত হয় এবং ডাটা কোন পথে যাবে তা নির্ধারিত হয় (routing করে)।"
+  },
+  {
+    "id": 10,
+    "page": 914,
+    "question": "Which tool is used for version control? [BB-2026]",
+    "options": [
+      "Git",
+      "Jenkins",
+      "Docker",
+      "Maven"
+    ],
+    "answer": "ক",
+    "explanation": "Git হলো একটি Distributed Version Control System (DVCS), যা সফটওয়্যার ডেভেলপমেন্টে সোর্স কোডের পরিবর্তন নিয়ন্ত্রণ ও সংরক্ষণের জন্য ব্যবহৃত হয়।"
+  },
+  {
+    "id": 11,
+    "page": 914,
+    "question": "Which storage has fastest access speed? [BB-2026]",
+    "options": [
+      "HDD",
+      "SSD",
+      "Cache",
+      "DVD"
+    ],
+    "answer": "গ",
+    "explanation": "The fastest to slowest access speed hierarchy is : Cache > SSD > HDD > DVD"
+  },
+  {
+    "id": 12,
+    "page": 914,
+    "question": "Which component is often referred to as the 'brain' of the computer? [BB-2026]",
+    "options": [
+      "Hard Drive",
+      "Central Processing Unit (CPU)",
+      "RAM",
+      "Power Supply Unit"
+    ],
+    "answer": "খ",
+    "explanation": "CPU সব ধরনের গণনা ও নির্দেশনা প্রক্রিয়াকরণ করে, তাই একে কম্পিউটারের ব্রেইন বলা হয়।"
+  },
+  {
+    "id": 13,
+    "page": 914,
+    "question": "What does \"GUI\" stand for in computing? [BB-2026]",
+    "options": [
+      "Global User Interface",
+      "Graphical User Interface",
+      "General Utility interface",
+      "Graphical Unit Interconnection"
+    ],
+    "answer": "খ",
+    "explanation": "Graphical User Interface বা GUI হলো একটি কম্পিউটার ইন্টারফেস, যেখানে ব্যবহারকারী কমান্ড টাইপ না করে গ্রাফিক্যাল উপাদান যেমন আইকন, বাটন, মেনু, উইন্ডো, স্ক্রলবার ইত্যাদি ব্যবহার করে কম্পিউটারকে নিয়ন্ত্রণ করতে পারে।"
+  },
+  {
+    "id": 14,
+    "page": 914,
+    "question": "Which protocol is primarily used for secure browsing the web? [BB-2026]",
+    "options": [
+      "HTTP",
+      "FTP",
+      "HTTPS",
+      "SMTP"
+    ],
+    "answer": "গ",
+    "explanation": "HTTPS SSL/TLS (Secure Sockets Layer/Transport Layer Security) ব্যবহার করে। এটি তথ্যকে এনক্রিপ্টেড (encrypted) করে পাঠায়, তাই হ্যাকার বা তৃতীয় পক্ষ সহজে পড়তে পারে না। এর মাধ্যমে নিরাপদে ওয়েব ব্রাউজিং করা যায়।"
+  },
+  {
+    "id": 15,
+    "page": 915,
+    "question": "A user reports the internet is down. You can Ping 8.8.8.8 but cannot browse \"www.google.com\". What is the most likely issue? [BB-2026]",
+    "options": [
+      "The ISP gateway is down",
+      "The DNS server is unreachable or misconfigured",
+      "The network cable is unplugged",
+      "The DHCP server is full"
+    ],
+    "answer": "খ",
+    "explanation": "IP পিং কাজ করছে মানে ইন্টারনেট আছে, কিন্তু ডোমেইন রেজলভ না হওয়ায় DNS সমস্যা রয়েছে।"
+  },
+  {
+    "id": 16,
+    "page": 915,
+    "question": "What is \"Cloud Storage\"? [BB-2026]",
+    "options": [
+      "Storing data on your local hard drive",
+      "Storing data on the Internet servers managed by a provider",
+      "Storing data on a CD-ROM",
+      "Printing data on paper"
+    ],
+    "answer": "খ",
+    "explanation": "Cloud Storage হলো একটি ডিজিটাল স্টোরেজ সেবা, যেখানে আপনার ডাটা (যেমন ফাইল, ছবি, ভিডিও, ডকুমেন্ট) ইন্টারনেটের মাধ্যমে দূরবর্তী সার্ভারে সংরক্ষণ করা হয়।"
+  },
+  {
+    "id": 17,
+    "page": 915,
+    "question": "Which concept ensures that a sender cannot deny having sent a message? [BB-2026]",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Non-repudiation",
+      "Availability"
+    ],
+    "answer": "গ",
+    "explanation": "Non-repudiation হলো একটি নিরাপত্তা ধারণা, যা নিশ্চিত করে যে একজন প্রেরক পরে তার পাঠানো বার্তা বা লেনদেন অস্বীকার করতে পারবে না।"
+  },
+  {
+    "id": 18,
+    "page": 915,
+    "question": "Which command in Linux is used to change the permissions of a file? [BB-2026]",
+    "options": [
+      "chown",
+      "chmod",
+      "chgrp",
+      "umask"
+    ],
+    "answer": "খ",
+    "explanation": "Linux-এ chmod কমান্ড দিয়ে ফাইলের read, write ও execute পারমিশন পরিবর্তন করা হয়।"
+  },
+  {
+    "id": 19,
+    "page": 915,
+    "question": "Which command is used to display the IP configuration on a Windows host? [BB-2026]",
+    "options": [
+      "ipconfig",
+      "route print",
+      "netstat",
+      "tracert"
+    ],
+    "answer": "ক",
+    "explanation": "ipconfig কমান্ড Windows-এ IP address, subnet mask ও gateway দেখায়।"
+  },
+  {
+    "id": 20,
+    "page": 915,
+    "question": "Which of the following describes a \"Phishing\" attack? [BB-2026]",
+    "options": [
+      "Scanning ports to find open services",
+      "Sending fraudulent emails to trick users into revealing credentials",
+      "Overloading a server with traffic",
+      "Intercepting Wi-Fi signals from a parking lot"
+    ],
+    "answer": "খ",
+    "explanation": "Phishing-এ ভুয়া ইমেইল বা মেসেজ দিয়ে ব্যবহারকারীর গোপন তথ্য চুরি করা হয়।"
+  },
+  {
+    "id": 21,
+    "page": 915,
+    "question": "What is the result of the logic operation : (1 AND 0) OR (1 AND 1)? [BB-2026]",
+    "options": [
+      "0",
+      "1",
+      "Null",
+      "- 1"
+    ],
+    "answer": "খ",
+    "explanation": "(1 AND 0) OR (1 AND 1) = 0 OR 1 = 1"
+  },
+  {
+    "id": 22,
+    "page": 915,
+    "question": "Which of the following is a key principle of \"Agile\" project management? [BB-2026]",
+    "options": [
+      "Detailed documentation is more important than working software",
+      "Following a plan is more important than responding to change",
+      "Iterative development and customer collaboration",
+      "Contract negotiation is the primary goal"
+    ],
+    "answer": "গ",
+    "explanation": "Agile Project Management (APM) হলো এমন একটি পদ্ধতি, যেখানে প্রকল্পকে ছোট ছোট অংশে ভাগ করে ধাপে ধাপে সম্পন্ন করা হয়।"
+  },
+  {
+    "id": 23,
+    "page": 915,
+    "question": "Which of the following effectively mitigates \"Social Engineering\" attacks? [BB-2026]",
+    "options": [
+      "Installing a stronger firewall",
+      "Regular security awareness training for employees",
+      "Increasing the complexity of database passwords",
+      "Upgrading the server RAM"
+    ],
+    "answer": "খ",
+    "explanation": "Social Engineering হলো একটি মানব মনস্তত্ব ব্যবহার করে তথ্য চুরি বা নিরাপত্তা লঙ্ঘনের কৌশল।"
+  },
+  {
+    "id": 24,
+    "page": 915,
+    "question": "What is the correct binary representation of the IP address 192.168.1.1? [BB-2026]",
+    "options": [
+      "11000000. 10101000.00000001.00000001",
+      "10100000. 10101000.00000001.00000001",
+      "11100000. 10001000.00000001.00000001",
+      "11000000. 10101000.00000001.00000001"
+    ],
+    "answer": "ঘ",
+    "explanation": "192 = 11000000\n168 = 10101000\n1 = 00000001\n1 = 00000001"
+  },
+  {
+    "id": 25,
+    "page": 915,
+    "question": "What is the definition of \"Throughput\" in networking? [BB-2026]",
+    "options": [
+      "The theoretical maximum speed of the medium",
+      "The actual amount of data successfully transferred over a period",
+      "The time it takes for a packet to travel to the destination",
+      "The number of errors on the line"
+    ],
+    "answer": "খ",
+    "explanation": "Throughput হলো নেটওয়ার্কে এক নির্দিষ্ট সময়ে সফলভাবে প্রেরিত বা গ্রহণ করা তথ্যের পরিমাণ।"
+  },
+  {
+    "id": 26,
+    "page": 915,
+    "question": "What is a \"Logic Gate\" that outputs 1 only if the inputs are different (e.g., 1 and 0)? [BB-2026]",
+    "options": [
+      "AND",
+      "OR",
+      "XOR",
+      "NAND"
+    ],
+    "answer": "গ",
+    "explanation": "XOR গেট তখনই 1 দেয় যখন দুই ইনপুট ভিন্ন হয় (1, 0 বা 0, 1)।"
+  },
+  {
+    "id": 27,
+    "page": 915,
+    "question": "Which of the following is an Administrative Control? [BB-2026]",
+    "options": [
+      "Security Guards",
+      "User Training Program",
+      "Smart Cards",
+      "Encryption"
+    ],
+    "answer": "খ",
+    "explanation": "Administrative control হলো নীতি, নিয়ম ও প্রশিক্ষণ- যেমন User Training Program."
+  },
+  {
+    "id": 28,
+    "page": 916,
+    "question": "Which port must be open to allow sending emails from a client to a server? [BB-2026]",
+    "options": [
+      "25 or 587",
+      "110",
+      "143",
+      "443"
+    ],
+    "answer": "ক",
+    "explanation": "SMTP প্রটোকল ইমেইল পাঠানোর জন্য ব্যবহৃত হয়, যার পোর্ট 25 বা 587।"
+  },
+  {
+    "id": 29,
+    "page": 916,
+    "question": "Which of the following is the most secure method for remote administration of a Linux server? [BB-2026]",
+    "options": [
+      "Telnet using root account",
+      "SSH using password authentication",
+      "SSH using key-based authentication",
+      "VNC without encryption"
+    ],
+    "answer": "গ",
+    "explanation": "Key-based SSH হলো একটি নিরাপদ লগইন পদ্ধতি, যেখানে সার্ভারে পাসওয়ার্ডের পরিবর্তে প্রাইভেট ও পাবলিক কী ব্যবহার করা হয়। ক্লায়েন্টের প্রাইভেট কী দিয়ে সার্ভারকে প্রমাণ পাঠানো হয় এবং সার্ভার পাবলিক কী দিয়ে যাচাই করে। এটি পাসওয়ার্ডের তুলনায় বেশি নিরাপদ এবং স্বয়ংক্রিয় লগইন ও স্ক্রিপ্টিংয়ের জন্য সুবিধাজনক এবং Brute-force আক্রমণ প্রতিরোধ করে।"
+  },
+  {
+    "id": 30,
+    "page": 916,
+    "question": "What describes a \"Dictionary Attack\"? [BB-2026]",
+    "options": [
+      "Guessing passwords by trying every word in a pre-defined list",
+      "Trying every possible combination of characters (Brute Force)",
+      "Stealing the physical password notebook",
+      "Asking the user for their password"
+    ],
+    "answer": "ক",
+    "explanation": "Dictionary Attack হলো একটি সাইবার আক্রমণ পদ্ধতি, যেখানে হ্যাকার আগে থেকে তৈরি করা সম্ভাব্য পাসওয়ার্ডের তালিকা (Dictionary) ব্যবহার করে কোনো অ্যাকাউন্টের পাসওয়ার্ড ভাঙার চেষ্টা করে।"
+  },
+  {
+    "id": 31,
+    "page": 916,
+    "question": "What is the primary purpose of a \"Demilitarized zone\" (DMZ)? [BB-2026]",
+    "options": [
+      "To store the core database",
+      "To host public-facing services (Web, Email) separate from the internal LAN",
+      "To connect the CEO's computer to the internet",
+      "To test viruses safely"
+    ],
+    "answer": "খ",
+    "explanation": "Demilitarized Zone (DMZ) হলো একটি নেটওয়ার্ক সেগমেন্ট, যা একটি প্রতিষ্ঠান বা সংস্থার ভিতরের নেটওয়ার্ক (Internal Network) এবং ইন্টারনেটের মধ্যে রাখা হয়, যাতে বাইরের ব্যবহারকারীরা নির্দিষ্ট সার্ভারগুলোতে প্রবেশ করতে পারে, কিন্তু ভিতরের নেটওয়ার্ক নিরাপদ থাকে।"
+  },
+  {
+    "id": 32,
+    "page": 916,
+    "question": "Which command is used to view active connections and listening ports? [BB-2026]",
+    "options": [
+      "netstat",
+      "ping",
+      "nslookup",
+      "ipconfig"
+    ],
+    "answer": "ক",
+    "explanation": "netstat কমান্ডের মাধ্যমে নেটওয়ার্কের active connections ও listening ports দেখা যায়।"
+  },
+  {
+    "id": 33,
+    "page": 916,
+    "question": "What is the decimal value of the binary number 111? [BB-2026]",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": "গ",
+    "explanation": "(111)₂ = 1 × 4 + 1 × 2 + 1 × 1 = (7)₁₀"
+  },
+  {
+    "id": 34,
+    "page": 916,
+    "question": "The data structure required to check whether an expression contains a balanced parenthesis is- [BB-2026]",
+    "options": [
+      "Stack",
+      "Queue",
+      "Tree",
+      "Array"
+    ],
+    "answer": "ক",
+    "explanation": "Stack হলো একটি LIFO (Last In, First Out) ডাটা স্ট্রাকচার যেখানে শেষ প্রবেশ করা উপাদানটিই প্রথমে বের হয়। বৈশিষ্ট্যের কারণে এটি Parentheses matching-এর জন্য আদর্শ কারণ প্রতিটি ওপেন ব্র্যাকেট push করা হয় এবং ক্লোজ ব্র্যাকেট এলে সর্বশেষ push করা ব্র্যাকেট pop করে মিল যাচাই করা হয়।"
+  },
+  {
+    "id": 35,
+    "page": 916,
+    "question": "What data structure often results in a time-space tradeoff by using extra memory to speed up operations? [BB-2026]",
+    "options": [
+      "Arrays",
+      "Hash tables",
+      "Stacks",
+      "Queues"
+    ],
+    "answer": "খ",
+    "explanation": "Hash Table অতিরিক্ত মেমরি ব্যবহার করে (hash table- এর সাইজ বা buckets) যাতে ডাটা দ্রুত খোঁজা, যোগ বা মুছে ফেলার অপারেশন O(1) সময়ে করা যায়। এটি Time-space tradeoff এর উদাহরণ, যেখানে বেশি মেমরি ব্যবহার করে সময় বাঁচানো হয়।"
+  },
+  {
+    "id": 36,
+    "page": 916,
+    "question": "Which dynamic programming approach starts solving from the smallest subproblems? [BB-2026]",
+    "options": [
+      "Greedy approach",
+      "Recursive approach",
+      "Top-down approach",
+      "Bottom-up approach"
+    ],
+    "answer": "ঘ",
+    "explanation": "Bottom-Up Dynamic Programming হলো এমন একটি পদ্ধতি, যেখানে ছোট ছোট সাবপ্রবলেমের সমাধান আগে করা হয় এবং সেগুলো ব্যবহার করে ধীরে ধীরে বড় সমস্যা সমাধান করা হয়; এতে intermediate ফলাফল টেবিল বা অ্যারেতে সংরক্ষণ করা হয়, ফলে একই হিসাব বারবার করার প্রয়োজন পড়ে না।"
+  },
+  {
+    "id": 37,
+    "page": 916,
+    "question": "Which of the following services use TCP? [BB-2026]",
+    "options": [
+      "DHCP",
+      "SMTP",
+      "CSMA",
+      "DNS"
+    ],
+    "answer": "খ",
+    "explanation": "SMTP TCP ব্যবহার করে, কারণ এটি বিশ্বস্ততার সাথে ইমেইল পাঠানোর জন্য ডিজাইন করা। TCP নিশ্চিত করে যে, ডাটা ঠিকভাবে পৌঁছাবে এবং কোনো অংশ হারাবে না, তাই SMTP-এর জন্য উপযুক্ত।"
+  },
+  {
+    "id": 38,
+    "page": 916,
+    "question": "Which standard TCP port is assigned for contracting SSH servers? [BB-2026]",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "answer": "খ",
+    "explanation": "SSH সার্ভার সাধারণত TCP পোর্ট 22 ব্যবহার করে।"
+  },
+  {
+    "id": 39,
+    "page": 916,
+    "question": "The memory that is allocated for any object is- [BB-2026]",
+    "options": [
+      "Cache",
+      "HDD",
+      "ROM",
+      "RAM"
+    ],
+    "answer": "ঘ",
+    "explanation": "প্রোগ্রাম চলাকালীন Object-গুলো RAM-এ সংরক্ষিত হয়।"
+  },
+  {
+    "id": 40,
+    "page": 916,
+    "question": "What does ACID stand for in database transactions? [BB-2026]",
+    "options": [
+      "All Columns in Database",
+      "Atomicity, Consistency, Isolation, Durability",
+      "Automated Commit in Database",
+      "Association of Conditions in Data"
+    ],
+    "answer": "খ",
+    "explanation": "ACID হলো ডাটাবেজ ট্রানজেকশনের চারটি গুরুত্বপূর্ণ বৈশিষ্ট্য, যা ডাটার সঠিকতা ও স্থায়িত্ব নিশ্চিত করে।\n• A - Atomicity : ট্রানজেকশন সম্পূর্ণভাবে সফল হবে বা একেবারেই হবে না; আংশিক পরিবর্তন থাকবে না।\n• C - Consistency : ট্রানজেকশন শেষ হওয়ার পর ডাটাবেজ সব নিয়ম ও কনস্ট্রেইন্ট মেনে চলবে।\n• I - Isolation : একাধিক ট্রানজেকশন একসাথে চললেও একে অপরের উপর প্রভাব ফেলবে না।\n• D - Durability : ট্রানজেকশন সম্পন্ন হলে ডাটা স্থায়ী হবে, কোনো সিস্টেম ক্র্যাশ হলেও ডাটা হারাবে না।"
+  },
+  {
+    "id": 41,
+    "page": 917,
+    "question": "Which neural network architecture is the foundation of most modern LLMs? [BB-2026]",
+    "options": [
+      "Bayesian Netowrk",
+      "Convolutional Neural Network (CNN)",
+      "Transformer",
+      "Autoencoder"
+    ],
+    "answer": "গ",
+    "explanation": "আধুনিক LLMs (Large Language Models) মূলত Transformer আর্কিটেকচারের উপর ভিত্তি করে তৈরি। কারণ, এটি Self-Attention মেকানিজম ব্যবহার করে টেক্সটের মধ্যে দূরের সম্পর্কও ধরতে পারে। এই কারণে Transformers বড় টেক্সট ডাটা দ্রুত এবং কার্যকরভাবে প্রক্রিয়াকরণ করতে সক্ষম, যা LLMs-এর জন্য অত্যন্ত গুরুত্বপূর্ণ। জিপিটি (GPT), বার্ট (BERT) বা ল্যামা (Lama)-র মতো আজকের জনপ্রিয় সব শক্তিশালী এআই মডেল এই ট্রান্সফরমার আর্কিটেকচার ব্যবহার করেই তৈরি করা হয়েছে।"
+  },
+  {
+    "id": 42,
+    "page": 917,
+    "question": "If a process fails, most operating systems write the error information to a - [BB-2026]",
+    "options": [
+      "new file",
+      "another running process",
+      "log file",
+      "database"
+    ],
+    "answer": "গ",
+    "explanation": "যখন কোনো প্রসেস ব্যর্থ হয়, তখন OS সেই ত্রুটির তথ্য log file-এ সংরক্ষণ করে, যেমন ত্রুটির টাইমস্ট্যাম্প, ধরন ও প্রসেস আইডি। এটি পরে সিস্টেম অ্যাডমিন বা ডেভেলপারদের জন্য সমস্যা নির্ণয় ও সমাধান সহজ করার জন্য ব্যবহৃত হয়।"
+  },
+  {
+    "id": 43,
+    "page": 917,
+    "question": "Which data structure is generally used for implementing recursion? [BB-2026]",
+    "options": [
+      "Stack",
+      "Queue",
+      "List",
+      "Array"
+    ],
+    "answer": "ক",
+    "explanation": "যখন কোনো ফাংশন recursively নিজেকে কল করে, তখন প্রতিটি কলের Local variables, return address এবং প্যারামিটারসমূহ stack-এ সংরক্ষিত হয়। এটি নিশ্চিত করে যে, প্রতিটি recursive call-এর প্রেক্ষাপট ঠিকঠাক মনে রাখা হয় এবং ফাংশন সম্পন্ন হলে control ঠিকভাবে previous call-এ ফিরে আসে।"
+  },
+  {
+    "id": 44,
+    "page": 917,
+    "question": "Which of the following tags is used to define an image in HTML? [BB-2026]",
+    "options": [
+      "<img>",
+      "<image>",
+      "<picture>",
+      "<src>"
+    ],
+    "answer": "ক",
+    "explanation": "HTML-এ কোনো ছবি ওয়েবপেজে দেখানোর জন্য <img> ট্যাগ ব্যবহার করা হয়। এই ট্যাগে সাধারণত দুইটি প্রধান অ্যাট্রিবিউট থাকে : src-ছবির ফাইলের পথ বা URL এবং alt ছবি লোড না হলে প্রদর্শিত বিকল্প টেক্সট।\nউদাহরণ : <img src = \"image.jpg\" alt = \"Example Image\">"
+  },
+  {
+    "id": 45,
+    "page": 917,
+    "question": "What does CSS stand for? [BB-2026]",
+    "options": [
+      "Computer Style Sheets",
+      "Creative Style Sheets",
+      "Cascading Style Sheets",
+      "Colourful Style Sheets"
+    ],
+    "answer": "গ",
+    "explanation": "Cascading Style Sheets (CSS) হলো একটি স্টাইলিং ভাষা, যা HTML উপাদানগুলোর দৃশ্যমান রূপ, যেমন- রঙ, ফন্ট, লেআউট এবং স্পেসিং নিয়ন্ত্রণ করতে ব্যবহৃত হয়। CSS ব্যবহার করে ওয়েবপেজকে সুন্দর, সুশৃঙ্খল এবং ব্যবহারকারী-বান্ধব করা যায়, পাশাপাশি একই স্টাইল একাধিক পেজে প্রয়োগ করা সম্ভব।"
+  },
+  {
+    "id": 46,
+    "page": 917,
+    "question": "Which of the following is a type of memory that retains its contents even when the power is turned off? [BB-2026]",
+    "options": [
+      "RAM",
+      "ROM",
+      "Cache memory",
+      "Register"
+    ],
+    "answer": "খ",
+    "explanation": "ROM (Read-Only Memory) হলো একটি non-volatile memory, যার মানে হলো এতে সংরক্ষিত ডাটা বিদ্যুৎ বন্ধ থাকলেও মুছে যায় না। এটি সাধারণত সিস্টেমের গুরুত্বপূর্ণ তথ্য বা প্রোগ্রাম সংরক্ষণ করতে ব্যবহৃত হয়, যেমন কম্পিউটারের বুটিং ইন্সট্রাকশন।"
+  },
+  {
+    "id": 47,
+    "page": 917,
+    "question": "After groups have been established, SQL applies predicates in the - clause, allowing aggregate functions to be used. [BB-2026]",
+    "options": [
+      "having",
+      "where",
+      "with",
+      "select"
+    ],
+    "answer": "ক",
+    "explanation": "HAVING হলো SQL-এ ব্যবহৃত একটি ক্লজ, যা GROUP By-এর পর aggregate function-এর উপর শর্ত আরোপ করতে ব্যবহার করা হয়। WHERE ক্লজ individual rows-এর শর্তের জন্য ব্যবহার হয়। HAVING ক্লজ grouped rows বা aggregated data-এর জন্য শর্ত দেয়।"
+  },
+  {
+    "id": 48,
+    "page": 917,
+    "question": "An administrator is troubleshooting network connectivity and would like to view the path that packets are taking from workstation A to server 1. Which of the following command line tools is MOST appropriate to use? [BB-2026]",
+    "options": [
+      "traceroute",
+      "dig",
+      "ping",
+      "route"
+    ],
+    "answer": "ক",
+    "explanation": "Traceroute হলো একটি নেটওয়ার্ক টুল, যা ব্যবহার করা হয় এক ডিভাইস থেকে অন্য ডিভাইস পর্যন্ত ডাটা প্যাকেট কোন কোন intermediate router বা hop দিয়ে যাচ্ছে এবং কত সময় নিচ্ছে তা দেখার জন্য। এটি মূলত নেটওয়ার্ক সমস্যা নির্ণয় এবং প্যাকেটের পথ বিশ্লেষণ করতে ব্যবহৃত হয়, ফলে নেটওয়ার্কের ধীরগতি বা লেটেন্সির উৎস চিহ্নিত করা সহজ হয়।"
+  },
+  {
+    "id": 49,
+    "page": 917,
+    "question": "Wrapping data and its related functionality into a single entity is known as- [BB-2026]",
+    "options": [
+      "Abstraction",
+      "Encapsulation",
+      "Polymorphism",
+      "Modularity"
+    ],
+    "answer": "খ",
+    "explanation": "Encapsulation হলো Object-Oriented Programming (OOP)-এর একটি গুরুত্বপূর্ণ ধারণা, যেখানে ডাটা (Variables) এবং সেই ডাটার উপর কাজ করা মেথডগুলোকে একসাথে একটি ক্লাসের ভিতরে আবদ্ধ রাখা হয় এবং বাইরের দিক থেকে ডাটায় সরাসরি প্রবেশ সীমিত করা হয়, ফলে ডাটা নিরাপদ থাকে ও প্রোগ্রামের কাঠামো আরও সুশৃঙ্খল হয়।"
+  },
+  {
+    "id": 50,
+    "page": 917,
+    "question": "In the Model-View-Controller (MVC) architecture used in web applications, which components is responsible for handling HTTP requests such as GET and POST? [BB-2026]",
+    "options": [
+      "Model",
+      "View",
+      "Controller",
+      "Both Model and View"
+    ],
+    "answer": "গ",
+    "explanation": "Controller ইউজারের request গ্রহণ ও প্রসেস করে।"
+  },
+  {
+    "id": 51,
+    "page": 918,
+    "question": "Source code translation and Program modularization are the activities of - [BB-2026]",
+    "options": [
+      "Reverse engineering",
+      "Forward engineering",
+      "Reengineering",
+      "Testing"
+    ],
+    "answer": "গ",
+    "explanation": "Reengineering হলো বিদ্যমান সফটওয়্যারকে বিশ্লেষণ করে তার গঠন, কর্মক্ষমতা বা রক্ষণাবেক্ষণযোগ্যতা উন্নত করার প্রক্রিয়া; যেখানে পুরোনো সিস্টেমকে নতুন চাহিদার সাথে মানানসই করা হয়।\nReverse Engineering হলো একটি বিদ্যমান সফটওয়্যার বা সিস্টেমকে বিশ্লেষণ করে তার নকশা, কাঠামো বা কার্যপ্রণালি বুঝার প্রক্রিয়া; যেখানে সোর্স কোড থেকে ডিজাইন বা ডকুমেন্টেশন বের করা হয়।\nForward Engineering হলো সিস্টেমের প্রয়োজনীয়তা ও ডিজাইন থেকে শুরু করে ধাপে ধাপে কোড লিখে সম্পূর্ণ নতুন সফটওয়্যার তৈরি করার প্রক্রিয়া।\nTesting হলো সফটওয়্যারে ত্রুটি আছে কিনা যাচাই করার প্রক্রিয়া, যার মাধ্যমে নিশ্চিত করা হয় যে সফটওয়্যারটি সঠিকভাবে কাজ করছে এবং ব্যবহারকারীর চাহিদা পূরণ করছে।"
+  },
+  {
+    "id": 52,
+    "page": 918,
+    "question": "Which one of these is NOT shared by the same process's threads? [BB-2026]",
+    "options": [
+      "Address Space",
+      "Stack",
+      "Message Queue",
+      "File Descriptor Table"
+    ],
+    "answer": "খ",
+    "explanation": "একই প্রসেসের থ্রেডগুলো code, data এবং heap memory শেয়ার করে, কিন্তু প্রতিটি থ্রেডের নিজস্ব stack থাকে। কারণ stack-এ থ্রেডের local variables, function call information এবং return address সংরক্ষিত থাকে, যা অন্য থ্রেডের সাথে শেয়ার করা যায় না।"
+  },
+  {
+    "id": 53,
+    "page": 918,
+    "question": "If a process is executing in its critical section, then no other processes can be executing in their critical section. What is this condition called? [BB-2026]",
+    "options": [
+      "mutual exclusion",
+      "race condition",
+      "critical condition",
+      "synchronous condition"
+    ],
+    "answer": "ক",
+    "explanation": "Mutual Exclusion নিশ্চিত করে যে, এক সময়ে মাত্র একটি process বা thread-ই critical section-এ প্রবেশ করতে পারে, ফলে shared resource ব্যবহার করার সময় ডাটা অসামঞ্জস্য (Race condition) এড়ানো যায়।"
+  },
+  {
+    "id": 54,
+    "page": 918,
+    "question": "Which statement best describes a public IP address? [BB-2026]",
+    "options": [
+      "Used only within a local network",
+      "Not routable on the internet",
+      "Assigned only by local routers",
+      "Unique and globally routable on the Internet"
+    ],
+    "answer": "ঘ",
+    "explanation": "Public IP হলো একটি ইউনিক IP address, যা ইন্টারনেটে সরাসরি শনাক্তযোগ্য এবং ব্যবহারযোগ্য। এটি ISP (Internet Service Provider) দ্বারা প্রদান করা হয় এবং ইন্টারনেটে থাকা যেকোনো সার্ভার বা ডিভাইসের সাথে সরাসরি যোগাযোগ করতে পারে।"
+  },
+  {
+    "id": 55,
+    "page": 918,
+    "question": "Which scheduling algorithm gives minimum average waiting time? [BB-2026]",
+    "options": [
+      "FCFS",
+      "Round Robin",
+      "SJF",
+      "Priority"
+    ],
+    "answer": "গ",
+    "explanation": "SJF scheduling algorithm গড় অপেক্ষার সময় (average waiting time) সর্বনিম্ন দেয়, কারণ এতে যে প্রসেসের CPU burst time সবচেয়ে কম, সেটিকে আগে execute করা হয়, ফলে ছোট কাজগুলো দ্রুত শেষ হয়ে যায় এবং সামগ্রিক waiting time কমে।"
+  },
+  {
+    "id": 56,
+    "page": 918,
+    "question": "Context switching occurs in- [BB-2026]",
+    "options": [
+      "Compiler",
+      "Memory",
+      "CPU",
+      "I/O device"
+    ],
+    "answer": "গ",
+    "explanation": "Context switching ঘটে CPU-তে, যখন CPU একটি প্রসেসের কাজ থামিয়ে অন্য প্রসেস চালু করে। এ সময় পূর্বের প্রসেসের অবস্থা (registers, program counter ইত্যাদি) সংরক্ষণ করে এবং নতুন প্রসেসের অবস্থা লোড করে।"
+  },
+  {
+    "id": 57,
+    "page": 918,
+    "question": "Port number for HTTP is- [BB-2026]",
+    "options": [
+      "21",
+      "25",
+      "80",
+      "443"
+    ],
+    "answer": "গ",
+    "explanation": "HTTP (Hyper Text Transfer Protocol) সাধারণত port number 80 ব্যবহার করে ওয়েব ব্রাউজার ও ওয়েব সার্ভারের মধ্যে ডাটা আদান-প্রদানের জন্য। FTP (File Transfer Protocol)-এর পোর্ট নাম্বার 21। SMTP (Simple Mail Transfer Protocol)-এর পোর্ট নাম্বার 25। HTTPS (Hyper Text Transfer Protocol Secure) এর পোর্ট নাম্বার 443।"
+  },
+  {
+    "id": 58,
+    "page": 918,
+    "question": "Which language is used to manage databases? [BB-2026]",
+    "options": [
+      "HTML",
+      "SQL",
+      "XML",
+      "Java"
+    ],
+    "answer": "খ",
+    "explanation": "SQL (Structured Query Language) ডাটাবেজ তৈরি, পরিচালনা ও ডাটা অনুসন্ধানের জন্য ব্যবহৃত হয়, তাই ডাটাবেজ ম্যানেজমেন্টের জন্য এটি আদর্শ ভাষা।"
+  },
+  {
+    "id": 59,
+    "page": 918,
+    "question": "Which command is used to remove a table? [BB-2026]",
+    "options": [
+      "DELETE",
+      "DROP",
+      "REMOVE",
+      "TRUNCATE"
+    ],
+    "answer": "খ",
+    "explanation": "DROP কমান্ড ব্যবহার করে ডাটাবেজ থেকে একটি টেবিল সম্পূর্ণভাবে মুছে ফেলা হয়, অর্থাৎ টেবিলের স্ট্রাকচার ও ডাটা দুটোই স্থায়ীভাবে অপসারণ করা হয়। যেমন- DROP TABLE TABLE_NAME;"
+  },
+  {
+    "id": 60,
+    "page": 918,
+    "question": "Which is not a programming language? [BB-2026]",
+    "options": [
+      "Python",
+      "Java",
+      "HTML",
+      "C++"
+    ],
+    "answer": "গ",
+    "explanation": "HTML (Hyper Text Markup Language) একটি markup language, যা ওয়েবপেজের কাঠামো তৈরি করতে ব্যবহৃত হয়। এটি Programming language নয়, কারণ এতে লজিক বা প্রোগ্রামিং কন্ট্রোল স্ট্রাকচার নেই। অন্যদিকে Python, Java এবং C++ হলো পূর্ণাঙ্গ Programming Languages।"
+  },
+  {
+    "id": 61,
+    "page": 918,
+    "question": "চীনের কোন এআই মডেলটি বিশ্বে সাড়া ফেলেছে? [MOFL-2025]",
+    "options": [
+      "চ্যাটজিপিটি",
+      "জেমিনি",
+      "ক্লুড",
+      "ডিপসিক"
+    ],
+    "answer": "ঘ",
+    "explanation": "চীনের ডিপসিক (Deepseek) এআই মডেলটি বিশ্বে সাড়া ফেলেছে। এটি ২০২৪ সাল থেকে বিশ্বজুড়ে ব্যাপক সাড়া ফেলেছে। এটি চ্যাটজিপিটি, জেমিনি এর মতো একটি জেনারেটিভ AI মডেল, যা মানুষের মতো করে লিখতে, অনুবাদ করতে এবং বিশ্লেষণ করতে পারে। চীনের স্থানীয় প্রযুক্তি অবকাঠামো ও ভাষা অনুযায়ী এটি বিভিন্ন ভাষাতে দক্ষ। উন্নত চিপ ও কম রিসোর্স ব্যবহার করেও এটি চ্যাটজিপিটি, জেমিনি-এর সঙ্গে প্রতিযোগিতায় সক্ষম হয়ে উঠেছে।"
+  },
+  {
+    "id": 62,
+    "page": 918,
+    "question": "Binary consists of : [GDA-2025]",
+    "options": [
+      "0 + 0",
+      "1 + 1",
+      "0 + 1",
+      "1 + 2"
+    ],
+    "answer": "গ",
+    "explanation": "এখানে সঠিক উত্তর হবে 0 + 1। আর Binary বলতে হয় '0' অথবা '1'-কে বুঝায়।"
+  },
+  {
+    "id": 63,
+    "page": 919,
+    "question": "ChatGPT কী ধরনের প্রযুক্তির উপর ভিত্তি করে তৈরি? [GDA-2025]",
+    "options": [
+      "অপারেটিং সিস্টেম",
+      "নিউরাল নেটওয়ার্ক ও ভাষা মডেল",
+      "ডাটাবেজ সিস্টেম",
+      "অ্যান্টিভাইরাস সফটওয়্যার"
+    ],
+    "answer": "খ",
+    "explanation": "ChatGPT 'নিউরাল নেটওয়ার্ক ও ভাষা মডেল' প্রযুক্তির উপর ভিত্তি করে তৈরি করা। যার মাধ্যমে ChatGPT মানুষের ভাষা বুঝতে, বিশ্লেষণ করতে এবং উত্তর দিতে পারে। অন্যদিকে, অপারেটিং সিস্টেম কম্পিউটার পরিচালনার জন্য ব্যবহৃত, ডাটাবেজ সিস্টেম তথ্য সংরক্ষণ ও ব্যবস্থাপনার কাজে ব্যবহৃত এবং অ্যান্টিভাইরাস সফটওয়্যার ক্ষতিকর সফটওয়্যার শনাক্ত ও প্রতিরোধ করে।"
+  },
+  {
+    "id": 64,
+    "page": 919,
+    "question": "ChatGPT কোন ধরনের কাজ ভালোভাবে করতে পারে? [GDA-2025]",
+    "options": [
+      "ভিডিও সম্পাদনা",
+      "ভাষা বোঝা ও লেখা তৈরি করা",
+      "হার্ডওয়্যার মেরামত",
+      "ফটো ক্যামেরা কনফিগার করা"
+    ],
+    "answer": "খ",
+    "explanation": "ChatGPT ভাষা বোঝা ও লেখা তৈরি করার জন্য ভালোভাবে করতে পারে। ChatGPT হলো একটি জেনারেটিভ এআই এবং লার্জ ল্যাঙ্গুয়েজ মডেল, যা প্রধানত ভাষা বুঝতে পারে। লেখা তৈরি করতে পারে এবং অনুবাদ ও সারসংক্ষেপ তৈরি করতে পারে। ChatGPT সরাসরি ভিডিও সম্পাদনা করতে পারে না। হার্ডওয়্যার মেরামত একটি ডিজিটাল বুদ্ধিমত্তা, ফলে ChatGPT এটি ঠিক করতে সক্ষম নয়। ফটো ক্যামেরা কনফিগার করার ক্ষেত্রে ChatGPT ক্যামেরা সেটআপের নির্দেশিকা দিতে পারে, কিন্তু নিজ থেকে কনফিগার করতে পারে না।"
+  },
+  {
+    "id": 65,
+    "page": 919,
+    "question": "WhatsApp প্রতিষ্ঠা করেন- [GDA-2025]",
+    "options": [
+      "স্টিভ চেন ও ক্রিস হিউজ",
+      "চাড হার্লি ও জন কৌম",
+      "এডুয়ার্ডো স্যাভেরিন ও ক্রিস হিউজ",
+      "ব্রায়ান অ্যাকটন ও জন কৌম"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্রায়ান অ্যাকটন ও জন কৌম ২০০৯ সালে মেসেজিং অ্যাপ WhatsApp প্রতিষ্ঠা করেন। তারা দুজনেই আগে Yahoo!-তে কর্মরত ছিলেন। ২০১৪ সালে ফেসবুক (বর্তমানে Meta) ১৯ বিলিয়ন ডলারের বিনিময়ে WhatsApp কিনে নেয়।\nস্টিভ চেন, চাড হার্লি ও জাওয়াদ করিম এরা সম্মিলিতভাবে YouTube প্রতিষ্ঠা করেছিলেন এবং এডুয়ার্ডো স্যাভেরিন ও ক্রিস হিউজ মার্ক জাকারবার্গের সাথে Facebook-এর সহ-প্রতিষ্ঠাতা ছিলেন।"
+  },
+  {
+    "id": 66,
+    "page": 919,
+    "question": "WWW-এর পূর্ণরূপ কী? [DPDC-2025]",
+    "options": [
+      "World Wide Web",
+      "Wide World Web",
+      "Wild Wide Web",
+      "World Word Web"
+    ],
+    "answer": "ক",
+    "explanation": "WWW-এর পূর্ণরূপ World Wide Web. ১৯৯১ সালে টিম বার্নার্স লি এটি তৈরি করেছিলেন। WWW-ইন্টারনেটের মাধ্যমে অ্যাক্সেসযোগ্য আন্তঃসংযুক্ত হাইপারটেক্সট ডকুমেন্টের ব্যবস্থা, যার সাহায্যে বিভিন্ন ওয়েবসাইট, ছবি এবং মাল্টিমিডিয়া ব্যবহার করা যায়।"
+  },
+  {
+    "id": 67,
+    "page": 919,
+    "question": "কত বাইট সমান ১ মেগাবাইট? [DPDC-2025]",
+    "options": [
+      "১০ লাখ",
+      "১১ লাখ",
+      "১ লাখ",
+      "২ লাখ"
+    ],
+    "answer": "ক",
+    "explanation": "১ মেগাবাইট সমান ১০৪৮৫৭৬ বাইট। তবে কিছুক্ষেত্রে (যেমন- ডাটা স্টোরেজ) ১ মেগাবাইটকে ১০ লক্ষ বাইট হিসেবেও ধরা হয়।"
+  },
+  {
+    "id": 68,
+    "page": 919,
+    "question": "নিচের কোন ডিভাইসটি ইনপুট এবং আউটপুট ডিভাইস হিসেবে কাজ করে? [MOR-2025]",
+    "options": [
+      "Scanner",
+      "Touch Screen",
+      "Mouse",
+      "Projector"
+    ],
+    "answer": "খ",
+    "explanation": "Touch Screen একটি ইনপুট এবং আউটপুট উভয় ডিভাইস। কারণ-\n• যখন ব্যবহারকারী আঙুল দিয়ে স্ক্রিনে স্পর্শ করে, তখন এটি ইনপুট ডিভাইস হিসেবে কাজ করে।\n• স্ক্রিনে চিত্র, লেখা, ভিডিও ইত্যাদি দেখানো হয়, তাই এটি আউটপুট ডিভাইস হিসেবেও কাজ করে।"
+  },
+  {
+    "id": 69,
+    "page": 919,
+    "question": "নিচের কোনটি সার্চ ইঞ্জিন নয়? [MOR-2025]",
+    "options": [
+      "Bing",
+      "Yahoo",
+      "Google",
+      "Safari"
+    ],
+    "answer": "ঘ",
+    "explanation": "ইন্টারনেটের মাধ্যমে কোনোকিছু খোঁজার জন্য যে বিশেষ ধরনের অ্যাপ্লিকেশন সফটওয়্যার ব্যবহার করা হয়, তাকে সার্চ ইঞ্জিন বলে। বর্তমানে জনপ্রিয় সার্চ ইঞ্জিন তালিকার শীর্ষে আছে গুগল, বিং, ইয়াহু, আস্ক, বাইদু, এওএল প্রভৃতি। এছাড়া আমাদের দেশে প্রচলিত নিজস্ব দুটি সার্চ ইঞ্জিন হলো পিপীলিকা, চরকি। মজিলা ফায়ারফক্স, গুগল ক্রোম, ইন্টারনেট এক্সপ্লোরার, অপেরা, সাফারি ইত্যাদি ওয়েব ব্রাউজার।"
+  },
+  {
+    "id": 70,
+    "page": 919,
+    "question": "তারবিহীন দ্রুতগতির ইন্টারনেট সংযোগের জন্য কোনটি উপযোগী? [MOR-2025]",
+    "options": [
+      "ওয়াইম্যাক্স",
+      "ব্লু-টুথ",
+      "সি-মস",
+      "ব্রডব্যান্ড"
+    ],
+    "answer": "ক",
+    "explanation": "WiMAX : একটি তারবিহীন (Wireless) এবং দ্রুতগতির ইন্টারনেট সংযোগ প্রযুক্তি।\nCMOS : এটি একটি ইলেকট্রনিক চিপ, সাধারণত BIOS সেটিং সংরক্ষণে ব্যবহৃত হয়।\nBluetooth : স্বল্প দূরত্বে ডাটা শেয়ারিং-এর জন্য, ইন্টারনেট সংযোগের জন্য নয়।\nBroadband : এটি একটি ইন্টারনেট সংযোগ, কিন্তু তারযুক্ত (Wired) সংযোগকে বুঝায়।"
+  },
+  {
+    "id": 71,
+    "page": 919,
+    "question": "কোন একটি অ্যাপ্লিকেশন প্রোগ্রাম থেকে কপি করা ডাটা কোথায় থাকে? [MOR-2025]",
+    "options": [
+      "RAM",
+      "Clipboard",
+      "Terminal",
+      "Hard Disk"
+    ],
+    "answer": "খ",
+    "explanation": "Clipboard হলো কম্পিউটারের একটি অস্থায়ী মেমরি এলাকা। এখানে সাময়িকভাবে কপি করা ডাটা (যেমন- টেক্সট, ইমেজ, ফাইল) সংরক্ষিত হয়। যখন 'Paste' করা হয় তখন সেই ডাটা Clipboard থেকে নেওয়া হয়।"
+  },
+  {
+    "id": 72,
+    "page": 919,
+    "question": "Piconet কী? [MOR-2025]",
+    "options": [
+      "Wifi network",
+      "Wide Area Network",
+      "Bluetooth network",
+      "5G Network"
+    ],
+    "answer": "গ",
+    "explanation": "স্বল্প দূরত্বে অবস্থিত কোনো ব্যক্তির ব্যবহৃত ব্যক্তিগত ডিভাইসগুলোর মধ্যে তথ্য আদান-প্রদানের জন্য তৈরি নেটওয়ার্ক বা Wireless Personal Area Network (WPAN)-কে পিকোনেট বলে। ব্লু-টুথ সিস্টেমের মৌলিক উপাদান হলো পিকোনেট (Piconet)। বর্তমানে মোবাইল ফোন, ল্যাপটপ, ডিজিটাল ক্যামেরা ইত্যাদি ডিভাইসসমূহের মধ্যে তথ্য আদান-প্রদানে এটি বহুল ব্যবহৃত।"
+  },
+  {
+    "id": 73,
+    "page": 919,
+    "question": "ই-মেইল আবিষ্কার করেন- [MOR-2025]",
+    "options": [
+      "এ এম পনিয়াটক",
+      "রে টমলিনসন",
+      "অটো বোরোডারার",
+      "আর্থার উইয়ান"
+    ],
+    "answer": "খ",
+    "explanation": "ই-মেইল-এর ইংরেজি প্রতিশব্দ হচ্ছে Electronic Mail, যাকে সংক্ষেপে E-mail (ই-মেইল) বলে। কম্পিউটার নেটওয়ার্ক ব্যবহার করে ই-মেইল-এর মাধ্যমে এক কম্পিউটার থেকে অন্য কম্পিউটারে বিভিন্ন তথ্য ও ফাইল প্রেরণ করা যায়। ই-মেইল আবিষ্কার করেন রে টমলিনসন। টমলিনসন এক কম্পিউটার থেকে অন্য কম্পিউটারে তথ্য পাঠানোর জন্য @ চিহ্ন ব্যবহার করেন। আর তখন থেকেই ই-মেইল অ্যাড্রেস হিসেবে 'ব্যবহারকারীর নাম @ হোস্ট' ব্যবহার করা হয়।"
+  },
+  {
+    "id": 74,
+    "page": 920,
+    "question": "World Wide Web এর প্রতিষ্ঠাতা কাকে বলা হয়? [MOR-2025]",
+    "options": [
+      "বিল গেটস",
+      "মার্ক জুকারবার্গ",
+      "স্টিভ জবস",
+      "টিম বার্নার্স-লি"
+    ],
+    "answer": "ঘ",
+    "explanation": "ওয়ার্ল্ড ওয়াইড ওয়েব (World Wide Web)-এর প্রতিষ্ঠাতা টিম বার্নার্স-লি Tim (Berners-Lee) অন্যদিকে, বিল গেটস : মাইক্রোসফটের সহ-প্রতিষ্ঠাতা। মার্ক জুকারবার্গ : ফেসবুকের প্রতিষ্ঠাতা। স্টিভ জবস : Apple Inc-এর সহ-প্রতিষ্ঠাতা।"
+  },
+  {
+    "id": 75,
+    "page": 920,
+    "question": "আমাজনের ক্লাউড প্ল্যাটফর্ম কোনটি? [MOR-2025]",
+    "options": [
+      "Azure",
+      "AWS",
+      "Cloudera",
+      "উপরের সবগুলো"
+    ],
+    "answer": "খ",
+    "explanation": "AWS : আমাজনের ক্লাউড প্ল্যাটফর্ম। Azure : মাইক্রোসফটের ক্লাউড প্ল্যাটফর্ম। Cloudera : বিগ ডাটা অ্যানালিটিক্স প্ল্যাটফর্ম।"
+  },
+  {
+    "id": 76,
+    "page": 920,
+    "question": "নিচের কোনটি Output device নয়? [RPCL-25, MOFL-26]",
+    "options": [
+      "Monitor",
+      "Microphone",
+      "Printer",
+      "Speaker"
+    ],
+    "answer": "খ",
+    "explanation": "মাইক্রোফোন হলো একটি ইনপুট ডিভাইস, যা বাইরের তথ্য (শব্দ) কম্পিউটারে প্রবেশ করানোর জন্য ব্যবহৃত হয়।"
+  },
+  {
+    "id": 77,
+    "page": 920,
+    "question": "কম্পিউটারে তথ্য সংরক্ষণের ক্ষুদ্রতম একক কী? [BEZA-2024]",
+    "options": [
+      "বিট",
+      "বাইট",
+      "কিলোবাইট",
+      "মেগাবাইট",
+      "কোনোটিই নয়"
+    ],
+    "answer": "ক",
+    "explanation": "কম্পিউটারে ডাটা ও প্রোগ্রাম সংরক্ষণের জন্য ব্যবহৃত মাধ্যমকে মেমরি বলা হয়। তথ্য সংরক্ষণের এককগুলোর মধ্যে ক্ষুদ্রতম একক বিট।"
+  },
+  {
+    "id": 78,
+    "page": 920,
+    "question": "Zoom কোন দেশের তৈরীকৃত অডিও-ভিডিও যোগাযোগ প্ল্যাটফর্ম? [KGCL-2024]",
+    "options": [
+      "চীন",
+      "কানাডা",
+      "যুক্তরাষ্ট্র",
+      "যুক্তরাজ্য"
+    ],
+    "answer": "গ",
+    "explanation": "Zoom ভিডিও কমিউনিকেশনস, মার্কিন যোগাযোগ প্রযুক্তি কোম্পানি। জুম অ্যাপের প্রতিষ্ঠাতা Eric Yuan চাইনিজ বংশোদ্ভূত আমেরিকান নাগরিক। জুম একটি ভিডিও কনফারেন্সিং অ্যাপস। এর সুবিধা প্রায় ১০০ জনের সাথে একসাথে ভিডিও কনফারেন্সে কথা বলা যায়। এটি সাধারণত অফিসের মিটিং ও ক্লাসরুমের জন্য ব্যবহৃত হয়।"
+  },
+  {
+    "id": 79,
+    "page": 920,
+    "question": "নিচের কোনটি কম্পিউটারের একটি মেমরি ডিভাইস? [BEZA-2024]",
+    "options": [
+      "র‍্যাম",
+      "মনিটর",
+      "পাওয়ার সাপ্লাই",
+      "প্রসেসর",
+      "কোনোটিই নয়"
+    ],
+    "answer": "ক",
+    "explanation": "র‍্যান্ডম অ্যাক্সেস মেমরি (Random Access Memory) সংক্ষেপে র‍্যাম (RAM) হলো কম্পিউটারের ডাটা বা উপাত্ত সংরক্ষণের একটি মাধ্যম। র‍্যাম থেকে যে-কোনোভাবে ডাটা বা উপাত্ত ব্যবহার করা যায় বলে একে র‍্যান্ডম অ্যাক্সেস মেমরি বলে।"
+  },
+  {
+    "id": 80,
+    "page": 920,
+    "question": "কম্পিউটারের মূল মেমরি তৈরি হয় কী দিয়ে? [DWASA-2024]",
+    "options": [
+      "অ্যালুমিনিয়াম",
+      "প্লাস্টিক",
+      "সিলিকন",
+      "কোনোটিই নয়"
+    ],
+    "answer": "গ",
+    "explanation": "কম্পিউটারের যে মেমরি সরাসরি কেন্দ্রীয় প্রক্রিয়াকরণ অংশের CPU (Central Processing Unit)-এর সাথে যুক্ত থাকে এবং কোনো তথ্য (Data) বা নির্দেশকে (Command) গ্রহণপূর্বক তার সাহায্যে গ্রহণ করার পর প্রক্রিয়াকরণের জন্য সংরক্ষণ করা হয়ে থাকে, তাকেই প্রধান মেমরি (Main Memory) বলে। কম্পিউটারের প্রধান মেমরি হলো র‍্যাম বা RAM (Random Access Memory), যা সিলিকন দিয়ে তৈরি।"
+  },
+  {
+    "id": 81,
+    "page": 920,
+    "question": "কোন ডিভাইসটি ইনপুট ও আউটপুট ডিভাইস হিসেবে ব্যবহৃত হয়? [PGCBL-2024]",
+    "options": [
+      "Scanner",
+      "Mouse",
+      "Touch Screen",
+      "Projector"
+    ],
+    "answer": "গ",
+    "explanation": "প্রশ্নে উল্লিখিত অপশনগুলোর মধ্যে টাচ স্ক্রিন ইনপুট এবং আউটপুট ডিভাইস হিসেবে কাজ করে। স্ক্যানার ও মাউস ইনপুট ডিভাইস এবং প্রজেক্টর আউটপুট ডিভাইস হিসেবে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 82,
+    "page": 920,
+    "question": "RAM শব্দের অর্থ কী? [LGED-2023]",
+    "options": [
+      "Read Access Memory",
+      "Random Access Memory",
+      "Readable Access Memory",
+      "Read Access Move"
+    ],
+    "answer": "খ",
+    "explanation": "RAM-এর পূর্ণরূপ হলো Random Access Memory। এটি কম্পিউটারের মাদারবোর্ডে (Motherboard) পাওয়া যায়। এটি মূলত CPU (Central Processing Unit)-এর অভ্যন্তরীণ মেমরি হিসেবে কাজ করে। এটি কম্পিউটারের একটি অস্থায়ী স্টোরেজ।"
+  },
+  {
+    "id": 83,
+    "page": 920,
+    "question": "নিচের কোনটি ছাড়া Internet-এ প্রবেশ করা সহজ নয়? [BREB-2023]",
+    "options": [
+      "Task bar",
+      "Notification area",
+      "Menu bar",
+      "Web browser"
+    ],
+    "answer": "ঘ",
+    "explanation": "ওয়েব ব্রাউজার হলো এমন একটি সফটওয়্যার যার মাধ্যমে একজন ব্যবহারকারী যে-কোনো ওয়েবপেইজ, WWW অথবা লোকাল এরিয়া নেটওয়ার্কে অবস্থিত কোনো ওয়েবসাইটের যে-কোনো লেখা, ছবি এবং অন্যান্য তথ্যের অনুসন্ধান, ডাউনলোড কিংবা দেখতে পারেন। কয়েকটি ওয়েব ব্রাউজারের উদাহরণ হলো- গুগল ক্রোম, মজিলা ফায়ারফক্স, অপেরা ইত্যাদি। উল্লেখ্য যে, ইন্টারনেটে প্রবেশ করতে হলে অবশ্যই কোনো না কোনো ওয়েব ব্রাউজারের প্রয়োজন হয়।"
+  },
+  {
+    "id": 84,
+    "page": 920,
+    "question": "মোবাইল কমিউনিকেশনে 4G-এর ক্ষেত্রে 3G-এর তুলনায় অতিরিক্ত বৈশিষ্ট্য কী? [BREB-2023]",
+    "options": [
+      "ভয়েস টেলিফোনি",
+      "ভিডিও কল",
+      "মোবাইল টিভি",
+      "ব্রডব্যান্ড ইন্টারনেট"
+    ],
+    "answer": "ঘ",
+    "explanation": "3G এবং 4G উভয়ই এক বিশেষ মোবাইল যোগাযোগ প্রযুক্তি, যা তারবিহীন কথা বলা, মোবাইলে ইন্টারনেট ব্যবহার, ভিডিও কল করা, মোবাইল টিভি ইত্যাদি সুবিধা প্রদান করে। তবে 4G-তে যে বিশেষ সুবিধা অতিরিক্ত হিসেবে রয়েছে তা হলো মোবাইল ব্রডব্যান্ড ইন্টারনেট সেবা।"
+  },
+  {
+    "id": 85,
+    "page": 920,
+    "question": "Cozy Bear একটি কী? [BREB-2023]",
+    "options": [
+      "চুক্তি",
+      "হ্যাকার গ্রুপ",
+      "বিনোদনকেন্দ্র",
+      "নদী"
+    ],
+    "answer": "খ",
+    "explanation": "প্রযুক্তি বিশ্বে APT29 আইডেন্টিটিধারী Cozy Bear একটি রুশ হ্যাকার গ্রুপ। অ্যান্টিভাইরাস কোম্পানি ক্যাস্পারেস্কি-এর তথ্য মতে, এর জন্ম ২০০৮ সালে।"
+  },
+  {
+    "id": 86,
+    "page": 920,
+    "question": "নিচের কোনটি ডাটাবেস ল্যাঙ্গুয়েজ? [BBAL-2023]",
+    "options": [
+      "Oracle",
+      "C",
+      "MS Word",
+      "Powe Point"
+    ],
+    "answer": "ক",
+    "explanation": "Oracle একটি ডাটাবেস ল্যাঙ্গুয়েজ। আরো কয়েকটি ডাটাবেস ল্যাঙ্গুয়েজের নাম হলে- SQL, DDL, DML ইত্যাদি।"
+  },
+  {
+    "id": 87,
+    "page": 921,
+    "question": "প্লটার (Plotter) কোন ধরনের ডিভাইস? [BBAL-2023]",
+    "options": [
+      "ইনপুট",
+      "আউটপুট",
+      "মেমরি",
+      "কোনোটিই নয়"
+    ],
+    "answer": "খ",
+    "explanation": "প্লটার একটি আউটপুট ডিভাইস। আরো কয়েকটি আউটপুট ডিভাইসের নাম হলো- মনিটর, প্রিন্টার, প্রজেক্টর, স্পিকার, OMR ইত্যাদি। কয়েকটি ইনপুট ডিভাইসের মধ্যে রয়েছে কী-বোর্ড, মাউস, মাইক্রোফোন, OCR, MICR ইত্যাদি এবং টাচ স্ক্রিন হলো ইনপুট আউটপুট ডিভাইস।"
+  },
+  {
+    "id": 88,
+    "page": 921,
+    "question": "টুইটার কত সালে প্রতিষ্ঠিত হয়? [BBAL-2023]",
+    "options": [
+      "২০০৪",
+      "২০০৮",
+      "২০০৬",
+      "২০০৩"
+    ],
+    "answer": "গ",
+    "explanation": "২০০৬ সালের ২১ মার্চ জ্যাক ডরসি, নোয়াহ গ্লাস, বিজ স্টোন এবং ইভান উইলিয়ামস টুইটার প্রতিষ্ঠা করেন এবং সে বছরের জুলাই মাসে এটি চালু হয়। উল্লেখ্য যে ২০০৪ সালে জনপ্রিয় সামাজিক যোগাযোগ মাধ্যম ফেসবুক, ২০০৫ সালে ইউটিউব এবং ২০০৩ সালে লিংকডইন আনুষ্ঠানিক যাত্রা শুরু করে।"
+  },
+  {
+    "id": 89,
+    "page": 921,
+    "question": "MICR - [BBAL-2023]",
+    "options": [
+      "Magnatic Ink Character Reader",
+      "Magnatic Ink Code Reader",
+      "Magnatic Ink Case Reader",
+      "Magnatic Ink Count Reader"
+    ],
+    "answer": "ক",
+    "explanation": "MICR-এর পূর্ণরূপ হলো Magnatic Ink Character Reader. হাতে লেখা কোনো কিছুকে কম্পিউটারে বোধগম্য করার জন্য MICR ব্যবহার করা হয়।"
+  },
+  {
+    "id": 90,
+    "page": 921,
+    "question": "দৃশ্যকে কোন সংকেতে রূপান্তর করে পাঠানো হয়? [BBAL-2023]",
+    "options": [
+      "অডিও সংকেত",
+      "ভিডিও সংকেত",
+      "অ্যানালগ সংকেত",
+      "ডিজিটাল সংকেত"
+    ],
+    "answer": "খ",
+    "explanation": "ভিডিও সংকেতের উৎস হলো কোনো ছবি বা দৃশ্য। কোনো দৃশ্যকে টেলিভিশন ক্যামেরা ধারণ করে এবং স্ক্যানিং প্রক্রিয়ায় একে তড়িৎ সংকেতে রূপান্তরিত করা হয়। এ সংকেতের নাম ভিডিও সংকেত। আর অডিও সংকেত হলো কোনো বক্তা বা উপস্থাপকের কথা বা কণ্ঠস্বর বা যে-কোনো তরঙ্গকে মাইক্রোফোনের সাহায্যে তড়িৎ সংকেতে রূপান্তরিত করা হয়।\nডিজিটাল সংকেতে ডাটাকে বাইনারি 0 বা 1-এর রূপান্তর করে প্রেরণ করা হয়।"
+  },
+  {
+    "id": 91,
+    "page": 921,
+    "question": "ব্লুটুথ কীসের উদাহরণ? [BBAL-2023]",
+    "options": [
+      "Local area network",
+      "Personal area network",
+      "Virtual private network",
+      "কোনোটিই নয়"
+    ],
+    "answer": "খ",
+    "explanation": "ব্লুটুথ হলো PAN বা Personal Area Network-এর উদাহরণ। স্বল্প দূরত্বে তারবিহীন যোগাযোগ স্থাপনের জন্য প্রণীত একটি প্রটোকল। এর কার্যকরী রেঞ্জ ১০-১০০ মিটার পর্যন্ত।"
+  },
+  {
+    "id": 92,
+    "page": 921,
+    "question": "ই-মেইল সিস্টেম কে চালু করেন? [BBAL-2023]",
+    "options": [
+      "মার্কনি",
+      "বিল গেটস",
+      "ম্যাক্সওয়েল",
+      "রেমন্ড টমলিনসন"
+    ],
+    "answer": "ঘ",
+    "explanation": "ই-মেইল সিস্টেম সর্বপ্রথম চালু করেন আমেরিকার প্রোগ্রামার রেমন্ড স্যামুয়েল টমলিনসন।"
+  },
+  {
+    "id": 93,
+    "page": 921,
+    "question": "HTTP [BBAL-2023]",
+    "options": [
+      "Hyper Text Transfer Protocol",
+      "Hyper Text Transfer Project",
+      "Hyper Text Terminate Protocol",
+      "Hyper Text Type Program"
+    ],
+    "answer": "ক",
+    "explanation": "HTTP হলো Hyper Text Transfer Protocol যা সার্ভার ও ক্লায়েন্ট কম্পিউটারের মধ্যে ডাটা আদান-প্রদানে ব্যবহৃত হয়। HTTP-এর Secure ভার্সন হচ্ছে HTTPS অর্থাৎ Hyper Text Transfer Protocol secure."
+  },
+  {
+    "id": 94,
+    "page": 921,
+    "question": "কোন প্রযুক্তির মাধ্যমে ২৪ ঘণ্টা সুবিধা পাওয়া যায়? [BBAL-2023]",
+    "options": [
+      "EVM",
+      "ATM",
+      "Fast Cash",
+      "MTS"
+    ],
+    "answer": "খ",
+    "explanation": "ATM বা Automated Teller Machine. এ মেশিনের সাহায্যে ব্যাংক কার্ড দিয়ে অনলাইনের মাধ্যমে রাত দিন ২৪ ঘণ্টার যে-কোনো সময়ে টাকা তোলা যায়। এ বিশেষ সুবিধার জন্য ATM-কে ২৪ ঘণ্টা ব্যাংকিং বলা হয়। অন্যদিকে EVM হলো Electronic Voting Machine, Fast cash হলো ব্যাংকিং অ্যাপ্লিকেশন এবং MTS হলো Mobile Telephone Service."
+  },
+  {
+    "id": 95,
+    "page": 921,
+    "question": "World Wide Web-এর জনক - [BBAL-2023]",
+    "options": [
+      "স্টিভ কুচ",
+      "টিম বার্নার্স লি",
+      "এলন মাস্ক",
+      "জাকারবার্গ"
+    ],
+    "answer": "খ",
+    "explanation": "WWW বা World Wide Web-এর জনক হলেন টিম বার্নার্স লি (Tim Berners-Lee)। টিম বার্নার্স লি একজন ব্রিটিশ কম্পিউটার বিজ্ঞানী ছিলেন। অক্সফোর্ড বিশ্ববিদ্যালয় থেকে স্নাতক শেষ করার পর তিনি সুইজারল্যান্ডের জেনেভায় CERN-এর একজন সফটওয়্যার ইঞ্জিনিয়ার হয়েছিলেন। সেখানে কর্মরত অবস্থায় ১৯৮৯ সালে তিনি WWW আবিষ্কার করেন।"
+  },
+  {
+    "id": 96,
+    "page": 921,
+    "question": "Bandwidth কী? [BBAL-2023]",
+    "options": [
+      "ডাটার পরিমাণ",
+      "ডাটা প্রবাহের গতির হার",
+      "তথ্য ঘটনাপ্রবাহের সময়",
+      "তথ্য প্রবাহের পরিমাণ"
+    ],
+    "answer": "খ",
+    "explanation": "প্রতি একক সময়ে যে পরিমাণ বিট এক কম্পিউটার থেকে অন্য কম্পিউটারে ট্রান্সফার করা যায়, সে পরিমাণ বিটকে ডাটা ট্রান্সমিশন স্পিড বা ব্যান্ডউইথ বলা হয়। ব্যান্ডউইথ-এর একক হলো bps (bit per second)। এক কথায় ডাটা প্রবাহের গতির হারকেই ব্যান্ডউইথ বলে।"
+  },
+  {
+    "id": 97,
+    "page": 921,
+    "question": "Cut অপারেশনের কম্পিউটার কী-বোর্ড শর্টকাট কমান্ড কোনটি? [BREB-2023]",
+    "options": [
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + X",
+      "Ctrl + B"
+    ],
+    "answer": "গ",
+    "explanation": "Ctrl + C কমান্ড Copy অপারেশনের জন্য ব্যবহৃত হয়।\nCtrl + V কমান্ড কপিকৃত টেক্সট Paste করতে ব্যবহৃত হয়।\nCtrl + X কমান্ড Cut অপারেশনের জন্য ব্যবহৃত হয়।\nCtrl + B কমান্ড টেক্সট Bold করতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 98,
+    "page": 921,
+    "question": "Artificial Intelligence (AI) ধারণাটির জনক কে? [PPA-2023]",
+    "options": [
+      "লিডি ফরেস্ট",
+      "চার্লস ব্যাবেজ",
+      "জন ম্যাকার্থী",
+      "জেপি ইকার্ট"
+    ],
+    "answer": "গ",
+    "explanation": "Artificial Intelligence (AI) বা কৃত্রিম বুদ্ধিমত্তা হলো কম্পিউটার বিজ্ঞানের একটি শাখা, যেখানে মানুষের বুদ্ধিমত্তা ও চিন্তাশক্তিকে কম্পিউটার দ্বারা অনুকৃত করার চেষ্টা করা হয়ে থাকে। Artificial Intelligence-এর জনক জন ম্যাকার্থী।"
+  },
+  {
+    "id": 99,
+    "page": 922,
+    "question": "এসএমওয়ার্ড-এ কোনো কিছু কপি করতে হলে কী-বোর্ড কমান্ড বাটন হচ্ছে- [TGTDCL-2023]",
+    "options": [
+      "Shift + copy",
+      "Shift + Alter + C",
+      "Alt + C",
+      "Ctrl + C"
+    ],
+    "answer": "ঘ",
+    "explanation": "MS-Word-এ কোনো কিছু কপি করতে হলে কী বোর্ড কমান্ডে Ctrl + C বাটন চাপতে হবে। এছাড়া কোনো কিছু পেস্ট করতে হলে Ctrl + V বাটন চাপতে হয়।"
+  },
+  {
+    "id": 100,
+    "page": 922,
+    "question": "কোনটি আউটপুট ডিভাইস? [BPSC-2022]",
+    "options": [
+      "মাউস",
+      "প্রিন্টার",
+      "কী-বোর্ড",
+      "স্ক্যানার"
+    ],
+    "answer": "খ",
+    "explanation": "কম্পিউটারের যে-সব ডিভাইসে ইনপুট ডাটা প্রসেসিং হওয়ার পর আউটপুট প্রদান করে সে-সব ডিভাইসকে আউটপুট ডিভাইস বলে। মনিটর, প্রিন্টার, প্রজেক্টর, স্পিকার, জিপিএস, ভিডিও কার্ড এগুলো হলো আউটপুট ডিভাইসের উদাহরণ।"
+  },
+  {
+    "id": 101,
+    "page": 922,
+    "question": "অ্যান্টিভাইরাস কী? [BPSC-2022]",
+    "options": [
+      "সফটওয়্যার",
+      "ম্যালওয়্যার",
+      "হার্ডওয়্যার",
+      "সিস্টেম সফটওয়্যার"
+    ],
+    "answer": "ক",
+    "explanation": "অ্যান্টিভাইরাস (Antivirus) হলো এক ধরনের প্রোগ্রাম, যা কম্পিউটারকে ভাইরাসমুক্ত করে কম্পিউটারকে সচল রাখতে গুরুত্বপূর্ণ ভূমিকা পালন করে। সাধারণত অ্যান্টিভাইরাস বলতে বুঝায়, কম্পিউটারের ভাইরাস প্রতিহত করার জন্য ব্যবহৃত এক ধরনের প্রোগ্রাম, যা কম্পিউটারের সংরক্ষণ এলাকা (হার্ড ডিস্ক) বা যে-কোনো রিমুভএবল ডিস্ক (Removeable Disc) হতে ভাইরাস শনাক্ত, প্রতিকার ও প্রতিরোধ করতে সক্ষম। অ্যান্টিভাইরাস হলো এক ধরনের সফটওয়্যার।"
+  },
+  {
+    "id": 102,
+    "page": 922,
+    "question": "Universal Gate কোনটি? [BPSC-2021]",
+    "options": [
+      "NAND",
+      "OR",
+      "NOR",
+      "কোনোটিই নয়"
+    ],
+    "answer": "নোট",
+    "explanation": "যে লজিক গেটের মাধ্যমে OR, AND এবং NOT- এই তিনটি মৌলিক গেট বাস্তবায়ন করা যায়, তাকে ইউনিভার্সাল গেট বলে। Universal Gate : NAND, NOR."
+  },
+  {
+    "id": 103,
+    "page": 922,
+    "question": "অনলাইনের মাধ্যমে ব্যবসা-বাণিজ্যকে কী বলে? [BREB-2021]",
+    "options": [
+      "E-mail",
+      "e-book",
+      "e-gov",
+      "e-commerce"
+    ],
+    "answer": "ঘ",
+    "explanation": "e-commerce বা ইলেকট্রনিক কমার্স একটি বাণিজ্য ক্ষেত্র, যেখানে কোনো ইলেকট্রনিক সিস্টেম-এর মাধ্যমে ইলেকট্রনিক কমার্স সাধারণত ওয়ান্ড ওয়াইড ওয়েব-এর মাধ্যমে বাণিজ্যের কাজ পরিচালনা করে।"
+  },
+  {
+    "id": 104,
+    "page": 922,
+    "question": "অনুমতি ছাড়া কম্পিউটার নেটওয়ার্কে প্রবেশকে কী বলে? [BREB-2021]",
+    "options": [
+      "পাইরেসি",
+      "হ্যাকিং",
+      "প্লেজিয়ারিজম",
+      "ন্যানো টেকনোলজি"
+    ],
+    "answer": "খ",
+    "explanation": "হ্যাকিং হচ্ছে এমন এক ধরনের বেআইনী প্রচেষ্টা, যার মাধ্যমে একজন ব্যক্তির অনুমতি ব্যতীত তার কম্পিউটার নেটওয়ার্কে প্রবেশ করে গোপনীয় তথ্যের একসেস নেওয়া। যারা হ্যাকিং করে তাদেরকে হ্যাকার বলে।"
+  },
+  {
+    "id": 105,
+    "page": 922,
+    "question": "কম্পিউটারের কী-বোর্ড ব্যবহার করে পেস্ট করা হয়- [BREB-2021]",
+    "options": [
+      "Control + C",
+      "Shift + V",
+      "Control + V",
+      "Shift + C"
+    ],
+    "answer": "গ",
+    "explanation": "কম্পিউটার কী-বোর্ড Control + V ব্যবহার করে পেস্ট করা হয়। Control + C ব্যবহার করে কপি করা হয়।"
+  },
+  {
+    "id": 106,
+    "page": 922,
+    "question": "কোন প্রযুক্তি ব্যবহার করে ভিন্ন স্থানে থেকেও মিটিং করা যায়? [BREB-2021]",
+    "options": [
+      "e-mail",
+      "facebook",
+      "twitter",
+      "teleconferencing"
+    ],
+    "answer": "ঘ",
+    "explanation": "Teleconferencing : টেলিযোগাযোগের মাধ্যমে সভা অনুষ্ঠানের প্রক্রিয়াকে Teleconferencing বলে। টেলিকনফারেন্স-এর মাধ্যমে বিভিন্ন সভা, সেমিনার বা দলবদ্ধভাবে যোগাযোগ করা যায়। ভিন্ন ভৌগোলিক দূরত্বে কিছু ব্যক্তি অবস্থান করে টেলিযোগাযোগ সিস্টেমের মাধ্যমে সংযুক্ত থেকে কোনো সভা অথবা সেমিনার অনুষ্ঠানের ব্যবস্থা করা হয়। টেলিকনফারেন্স-এর জন্য টেলিফোন সংযোগ, কম্পিউটার অডিও কার্ড, মাইক্রোফোন MIC ও স্পিকার এবং প্রয়োজনীয় সফটওয়্যার প্রয়োজন।"
+  },
+  {
+    "id": 107,
+    "page": 922,
+    "question": "কোনটি গণনা পদ্ধতি নয়? [CAAB-2021]",
+    "options": [
+      "ডেসিমেল",
+      "বিসিডি",
+      "হেক্সাডেসিমেল",
+      "অক্টাল"
+    ],
+    "answer": "খ",
+    "explanation": "BCD-এর পূর্ণরূপ হলো 'Binary Coded Decimal'। ডেসিমেল সংখ্যার প্রতিটি অঙ্ককে (০ থেকে ৯ পর্যন্ত) সমতুল্য চার-বিট বাইনারি দ্বারা প্রতিস্থাপন করার পর প্রাপ্ত কোডকে BCD কোড বলে। BCD কোড কোনো সংখ্যা পদ্ধতি নয়। BCD কোড ক্যালকুলেটর, ডিজিটাল ঘড়ি ও ভোল্টমিটার প্রভৃতিতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 108,
+    "page": 922,
+    "question": "এমএস ওয়ার্ডে একটি ডকুমেন্টের শুরুতে যাওয়ার জন্য কী-বোর্ডের কোন কী চাপতে হয়? [BGFCL-2021]",
+    "options": [
+      "Start",
+      "Home",
+      "Insert",
+      "Tab",
+      "কোনোটিই নয়"
+    ],
+    "answer": "ঙ",
+    "explanation": "এমএস ওয়ার্ডে একটি ডকুমেন্টের শুরুতে যাওয়ার জন্য কী-বোর্ডের Ctrl + Home কী চাপতে হয়। চলতি লাইনের প্রথমে যাওয়ার জন্য Home কী চাপতে হয়। টুলবার, সার্চ বার এবং পেইজ এলিমেন্টগুলো একের পর একটি খুঁজে পাওয়ার জন্য Tab কী চাপতে হয়।"
+  },
+  {
+    "id": 109,
+    "page": 922,
+    "question": "নিচের কোনটি ইন্টারনেটের সার্চ ইঞ্জিন নয়? [BGFCL-2021]",
+    "options": [
+      "Yahoo",
+      "Google plus",
+      "Bing",
+      "MSN",
+      "কোনোটিই নয়"
+    ],
+    "answer": "নোট",
+    "explanation": "Yahoo একটি ওয়েব সার্চ ইঞ্জিন বাণিজ্যিক প্রতিষ্ঠান। ১৯৯৪ সালের জানুয়ারি মাসে এটি চালু হয়। এটি মেইল সেবাসহ অন্যান্য সেবা প্রদান করে। Google Plus একটি সার্চ ইঞ্জিন ও সামাজিক যোগাযোগ মাধ্যম। ২০২১ সালের ২৮ জুন পরীক্ষামূলকভাবে এটি চালু হয়। এতে ফেসবুকের মতো ছবি শেয়ার করা যায়। MSN একটি ওয়েব পোর্টাল, যার বর্তমান নাম মাইক্রোসফট স্টার্ট। Microsoft Bing-ও একটি ওয়েব সার্চ ইঞ্জিন, যা মাইক্রোসফটের মালিকানাধীন।"
+  },
+  {
+    "id": 110,
+    "page": 922,
+    "question": "কৃত্রিম বুদ্ধিমত্তা কোন প্রজন্মের কম্পিউটারের বৈশিষ্ট্য? [BGFCL-2021]",
+    "options": [
+      "২য়",
+      "৩য়",
+      "৪র্থ",
+      "৫ম",
+      "কোনোটিই নয়"
+    ],
+    "answer": "ঘ",
+    "explanation": "কৃত্রিম বুদ্ধিমত্তা ৫ম প্রজন্মের কম্পিউটারে সংযোজন করা হয়েছে। কৃত্রিম বুদ্ধিমত্তা বলতে বুঝায় কম্পিউটারের মাধ্যমে মানুষের চিন্তাভাবনাগুলোকে কম্পিউটারে সংযোজন করা। কম্পিউটারকে মিমিকস কগনেটিক এককে আনা হয়, যাতে করে কম্পিউটার মানুষের মতো ভাবতে পারে।"
+  },
+  {
+    "id": 111,
+    "page": 923,
+    "question": "নিচের কোনটি ইনপুট ও আউটপুট উভয় যন্ত্র হিসেবে কাজ করে? [BGFCL-2021]",
+    "options": [
+      "কী-বোর্ড",
+      "প্রিন্টার",
+      "মোডেম",
+      "স্পিকার",
+      "কোনোটিই নয়"
+    ],
+    "answer": "গ",
+    "explanation": "মোডেম হলো Modulator ও Demodulator-এর সংক্ষিপ্ত রূপ। মোডেম একটি যোগাযোগ ডিভাইস বা ট্রান্সমিশন সিস্টেম। এটি একই সাথে ইনপুট এবং আউটপুট ফাংশন সম্পাদন করে।"
+  },
+  {
+    "id": 112,
+    "page": 923,
+    "question": "নিচের কোনটি কম্পিউটারের একটি মার্কআপ ভাষা? [DPDC-2021]",
+    "options": [
+      "HTML",
+      "PHP",
+      "JAVA",
+      "PYTHON"
+    ],
+    "answer": "ক",
+    "explanation": "HTML-এর পূর্ণরূপ হলো Hyper Text Mark-up Language, যা World Wide Web (WWW) ব্রাউজারের তথ্য প্রদর্শন বা ওয়েব পেজে তথ্য উপস্থাপন করতে প্রোগ্রামারগণ ব্যবহার করেন।"
+  },
+  {
+    "id": 113,
+    "page": 923,
+    "question": "নিচের কোনটি ইনপুট ডিভাইস নয়? [DPDC-2021]",
+    "options": [
+      "কী-বোর্ড",
+      "মাউস",
+      "স্ক্যানার",
+      "প্রিন্টার"
+    ],
+    "answer": "ঘ",
+    "explanation": "প্রিন্টার হচ্ছে একটি আউটপুট ডিভাইস, যা ব্যবহার করে চিত্র এবং বিভিন্ন লেখা কাগজে ছাপানো যায়।"
+  },
+  {
+    "id": 114,
+    "page": 923,
+    "question": "১ টেরা বাইট সমান _____ গিগাবাইট? [DPDC-2021]",
+    "options": [
+      "১২০০",
+      "১১০০",
+      "১০০০",
+      "২১০০"
+    ],
+    "answer": "গ",
+    "explanation": "১ টেরা বাইট = ১০২৪ গিগাবাইট। কিন্তু কোম্পানিগুলো তাদের ডিভাইসগুলোর স্টোরেজের হিসাবের সুবিধার্থে অতিরিক্ত ২৪ বাইট বাদ দিয়ে ১০০০ হিসেবে ধরে।"
+  },
+  {
+    "id": 115,
+    "page": 923,
+    "question": "যে ল্যাঙ্গুয়েজে বাইনারি সংখ্যা (0, 1) ছাড়া অন্য কোনো কিছু বুঝে না, তাকে কী বলে? [PGCB-2021]",
+    "options": [
+      "মেশিন ল্যাঙ্গুয়েজ",
+      "অ্যাসেমরি",
+      "C",
+      "কোনোটিই নয়"
+    ],
+    "answer": "ক",
+    "explanation": "যে ভাষায় সমস্যা সমাধানের জন্য বাইনারি সংখ্যা (0,1) ব্যবহার করে নির্দেশ সাজিয়ে প্রোগ্রাম রচনা করা হয়, তাই মেশিন ল্যাঙ্গুয়েজ।"
+  },
+  {
+    "id": 116,
+    "page": 923,
+    "question": "মাইক্রোসফটের প্রথম Windows কোনটি? [PGCB-2021]",
+    "options": [
+      "MS DOS",
+      "XP Windows",
+      "Windows98",
+      "Windows7"
+    ],
+    "answer": "ক",
+    "explanation": "MS-DOS হলো মাইক্রোসফটের প্রথম অপারেটিং সিস্টেম। DOS-এর পূর্ণরূপ হলো Disk Operating System।"
+  },
+  {
+    "id": 117,
+    "page": 923,
+    "question": "কোন সাইটে বেচাকেনার জন্য ব্যবহৃত হয় না? [PGCB-2021]",
+    "options": [
+      "Google.com",
+      "Amazon.com",
+      "Bikroy.com",
+      "সবগুলো"
+    ],
+    "answer": "ক",
+    "explanation": "Bikroy.com এবং Amazon.com ইন্টারনেটের মাধ্যমে কেনাবেচার সাইট অর্থাৎ ই-কমার্স সাইট। অন্যদিকে, Google.com একটি জনপ্রিয় সার্চ ইঞ্জিন।"
+  },
+  {
+    "id": 118,
+    "page": 923,
+    "question": "টেলিভিশন কোন ধরনের ডিভাইস? [PGCB-2021]",
+    "options": [
+      "একমুখী",
+      "দ্বিমুখী",
+      "উভয়ই",
+      "কোনোটিই নয়"
+    ],
+    "answer": "ক",
+    "explanation": "একমুখী পদ্ধতিতে যোগাযোগ হয় এক পক্ষ থেকে। যখন একজন বা একটি প্রতিষ্ঠান একমুখী পদ্ধতিতে অনেকের সঙ্গে যোগাযোগ করে, সেটিকে ইংরেজিতে বলে ব্রডকাস্ট বা একমুখী পদ্ধতি। রেডিও বা টেলিভিশন হলো একমুখী পদ্ধতির সবচেয়ে বড় উদাহরণ।"
+  },
+  {
+    "id": 119,
+    "page": 923,
+    "question": "কম্পিউটার ভাইরাস কত সালে আবিষ্কৃত হয়? [PGCB-2021]",
+    "options": [
+      "১৯৮৯ সালে",
+      "১৯৭১ সালে",
+      "১৯৮৩ সালে",
+      "১৯৯৪ সালে"
+    ],
+    "answer": "খ",
+    "explanation": "১৯৭১ সালে প্রথম কম্পিউটার প্রোগ্রাম ক্রিপার (Creeper) তৈরি করা হয়, যা পরীক্ষামূলকভাবে প্রথম কম্পিউটার ভাইরাস হিসেবে পরিচিত।"
+  },
+  {
+    "id": 120,
+    "page": 924,
+    "question": "বাইনারি ০, ১ কে কী বলে? [PGCB-2021]",
+    "options": [
+      "বাইট",
+      "কিলোবাইট",
+      "ডিজিট",
+      "বিট"
+    ],
+    "answer": "ঘ",
+    "explanation": "যে সংখ্যা পদ্ধতিতে ০ এবং ১ এই দুটিমাত্র সংখ্যা বা অংক ব্যবহার করা হয়, তাকে বাইনারি সংখ্যা পদ্ধতি বলে। মোট দুটি অংক ব্যবহারের কারণেই এই সংখ্যা পদ্ধতির বেস বা ভিত্তি হচ্ছে ২। যেমন- (১০১)₂, (১০০০)₂, (১০০০.১১১)₂ ইত্যাদি হলো বাইনারি সংখ্যা পদ্ধতির উদাহরণ। এ পদ্ধতির ০ এবং ১ এই অংক দুটিকে সংক্ষেপে বিট (Binary থেকে Bi এবং Digit থেকে t নিয়ে Bit) বলা হয়।"
+  },
+  {
+    "id": 121,
+    "page": 924,
+    "question": "কম্পিউটারের বেসিক আর্কিটেকচার ডিজাইনার কে? [PGCB-2021]",
+    "options": [
+      "চার্লস ব্যাবেজ",
+      "ব্লেইজ প্যাসকেল",
+      "জন ভন নিউম্যান",
+      "কোনোটিই নয়"
+    ],
+    "answer": "গ",
+    "explanation": "জন ভন নিউম্যান (১৯০৩-১৯৫৭) গেম থিউরির উপর কাজ করেন। কম্পিউটার বিজ্ঞান ও লিনিয়ার প্রোগ্রামিং-এ তার অনেক অবদান রয়েছে। তিনি ম্যানিয়াক (MANIAC - Mathematical Anglyser Numerical Integrator And Computer) তৈরিতে সাহায্য করেন। তিনি অ্যাটম বোমা ও মিসাইল ডিজাইনের কাজেও সাহায্য করেন। আধুনিক কম্পিউটারের ভিত্তিই হলো ভন নিউম্যান আর্কিটেকচার।"
+  },
+  {
+    "id": 122,
+    "page": 924,
+    "question": "কম্পিউটারের অন্তর্গামী ডিভাইস কোনটি? [BPSC-2021]",
+    "options": [
+      "র‍্যাম",
+      "স্ক্যানার",
+      "রম",
+      "স্পিকার"
+    ],
+    "answer": "খ",
+    "explanation": "যে-সব যন্ত্র কম্পিউটারে ইনপুট সিগন্যাল বা অন্তর্গামী সংকেত বহন করে, তাদের বলা হয় ইনপুট ডিভাইস বা অন্তর্গামী ডিভাইস। যেমন- কী-বোর্ড, মাউস, টাচ প্যাড, জয় প্যাড, ওয়েবক্যাম, কার্ড রিডার, স্ক্যানার ইত্যাদি।"
+  },
+  {
+    "id": 123,
+    "page": 924,
+    "question": "এক টেরা গ্রাম = কত গ্রাম? [BPSC-2021]",
+    "options": [
+      "10⁹",
+      "10¹²",
+      "10¹⁴",
+      "10¹⁵"
+    ],
+    "answer": "খ",
+    "explanation": "১ টেরা গ্রাম = ১০০০০০০০০০০০০ গ্রাম = 10¹² গ্রাম (Ans.)"
+  },
+  {
+    "id": 124,
+    "page": 924,
+    "question": "কম্পিউটারের কার্যক্রমকে নিয়ন্ত্রণ করে কোন যন্ত্র? [BPSC-2021]",
+    "options": [
+      "কী-বোর্ড",
+      "মাদারবোর্ড",
+      "সিপিইউ (CPU)",
+      "মাউস"
+    ],
+    "answer": "গ",
+    "explanation": "কম্পিউটারের কেন্দ্রীয় প্রক্রিয়াকরণ অংশ হচ্ছে CPU। Keyboard এবং Mouse ইনপুট ডিভাইস হিসেবে ব্যবহৃত হয়। মাদারবোর্ড হচ্ছে কম্পিউটারের প্রধান সার্কিট বোর্ড।"
+  },
+  {
+    "id": 125,
+    "page": 924,
+    "question": "A laser printer's speed is measured in - . [BB-2020]",
+    "options": [
+      "dpi",
+      "cpi",
+      "ppm",
+      "cps"
+    ],
+    "answer": "গ",
+    "explanation": "PPM stands for \"Pages Per Minute\", PPM is used to measure the printing speed of both inkjet and laser printers. Most printers include a PPM rating for both black and color documents."
+  },
+  {
+    "id": 126,
+    "page": 924,
+    "question": "In MS Power Point, shortcut for creating a new slide is- [BB-2020]",
+    "options": [
+      "Ctrl+N",
+      "Ctrl+S",
+      "Ctrl-M",
+      "Ctrl+P"
+    ],
+    "answer": "ক",
+    "explanation": "Ctrl + N – Open new/blank document.\nCtrl + M – Indent the paragraph.\nCtrl + P – Open the print window.\nCtrl + S – Save."
+  },
+  {
+    "id": 127,
+    "page": 924,
+    "question": "Which number system is usually followed in a typical 32-bit computer? [BB-2020]",
+    "options": [
+      "4",
+      "6",
+      "12",
+      "2"
+    ],
+    "answer": "ঘ",
+    "explanation": "Binary number system is usually followed in a typical 32-bit computer. In mathematics and digital electronics, a binary number is a number expressed in the base-2 numeral system or binary numeral system, which uses only two symbols: typically 0 (zero) and 1 (one). The base-2 numeral system is a positional notation with a radix of 2."
+  },
+  {
+    "id": 128,
+    "page": 924,
+    "question": "Which one is used to close a running document? [BREB-2020]",
+    "options": [
+      "Ctrl + W",
+      "Ctrl + S",
+      "Ctrl + A",
+      "none"
+    ],
+    "answer": "ক",
+    "explanation": "Ctrl + W : Ctrl + W is a shortcut key most often used to close a program.\nCtrl + S : Ctrl + S is a shortcut key most often used to save changes to a file.\nCtrl + A : Ctrl + A is a shortcut key most often used to select all text."
+  },
+  {
+    "id": 129,
+    "page": 924,
+    "question": "Email-এর পূর্ণরূপ কী? [MOD-2020]",
+    "options": [
+      "electrical mail",
+      "electronic mail",
+      "emergency mail",
+      "efficient mail"
+    ],
+    "answer": "খ",
+    "explanation": "ই-মেইল বা email তথা ইলেক্ট্রনিক মেইল হলো ডিজিটাল বার্তা, যা কম্পিউটার নেটওয়ার্কের মাধ্যমে প্রেরণ করা হয়।"
+  },
+  {
+    "id": 130,
+    "page": 924,
+    "question": "কম্পিউটারের মূল মেমরি তৈরি হয় কী দিয়ে? [DWASA-2020]",
+    "options": [
+      "অ্যালুমিনিয়াম",
+      "প্লাস্টিক",
+      "সিলিকন",
+      "কোনোটিই নয়"
+    ],
+    "answer": "গ",
+    "explanation": "কম্পিউটারের যে মেমরি সরাসরি কেন্দ্রীয় প্রক্রিয়াকরণ অংশের বা CPU (Central Processing Unit)-এর সাথে যুক্ত থাকে এবং কোনো তথ্য (Data) বা নির্দেশকে (Command) গ্রহণপূর্বক যার সাহায্যে গ্রহণ করার পর প্রক্রিয়াকরণের জন্য সংরক্ষণ করা হয়ে থাকে, তাকেই প্রধান মেমরি (Main Memory) বলা হয়। কম্পিউটারের প্রধান মেমরি হলো র‍্যাম বা RAM (Random Access Memory), যা সিলিকন দিয়ে তৈরি।"
+  },
+  {
+    "id": 131,
+    "page": 924,
+    "question": "কম্পিউটার-এর কাজের গতি কী দ্বারা প্রকাশ করা হয়? [LGED-2019]",
+    "options": [
+      "সেকেন্ড",
+      "ন্যানোসেকেন্ড",
+      "ঘণ্টা",
+      "মিনিট"
+    ],
+    "answer": "খ",
+    "explanation": "কম্পিউটারের কাজের গতি ন্যানোসেকেন্ড দ্বারা প্রকাশ করা হয়।"
+  },
+  {
+    "id": 132,
+    "page": 924,
+    "question": "কম্পিউটারে বাংলা টাইপ করার লে-আউট নয় কোনটি? [BSCIC-2019]",
+    "options": [
+      "মুনীর",
+      "বিজয়",
+      "অভ্র",
+      "ইউনি বিজয়"
+    ],
+    "answer": "ক",
+    "explanation": "কম্পিউটারে বাংলা টাইপ করার লে-আউটগুলো হলো- বিজয়, অভ্র, ইউনিবিজয়। মুনীর হচ্ছে বাংলা কী-বোর্ডের নাম।"
+  },
+  {
+    "id": 133,
+    "page": 925,
+    "question": "নিচের কোনটি দিয়ে হিসাবনিকাশ করা যায়? [BSCIC-19]",
+    "options": [
+      "এমএস ওয়ার্ড",
+      "এমএস এক্সেল",
+      "নোটপ্যাড",
+      "এফএস এক্সেল"
+    ],
+    "answer": "খ",
+    "explanation": "MS excel একটি Word processing software. এটি হিসাবনিকাশের ক্ষেত্রে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 134,
+    "page": 925,
+    "question": "নিচের কোনটি একটি বাংলা ফন্ট নয়? [BSCIC-2019]",
+    "options": [
+      "বিজয়",
+      "সুতন্বী",
+      "ব্রিন্দা",
+      "সোলায়মান লিপি"
+    ],
+    "answer": "গ",
+    "explanation": "বিজয়, সুতন্নী, লিপি ইত্যাদি বাংলা ফন্ট। অন্যদিকে ব্রিন্দা বাংলা ফন্ট নয়।"
+  },
+  {
+    "id": 135,
+    "page": 925,
+    "question": "MS Word-এ Center Alignment-এর জন্য কী-বোর্ডে নিচের কোন কমান্ডটি চাপতে হবে? [BBA-2019]",
+    "options": [
+      "Ctrl+E",
+      "Ctrl+C",
+      "Ctrl+R",
+      "Ctrl+Z"
+    ],
+    "answer": "ক",
+    "explanation": "MS Word-এ Center alignment-এর জন্য Ctrl + E কমান্ড চাপতে হয়। অন্যদিকে, সিলেক্ট করা Text copy করার জন্য Ctrl + C ব্যবহৃত হয়। Text কে Right alignment করার জন্য Ctrl + R ব্যবহৃত হয় এবং Undo বা পূর্বের অবস্থায় ফিরিয়ে আনার জন্য Ctrl + Z ব্যবহার করা হয়।"
+  },
+  {
+    "id": 136,
+    "page": 925,
+    "question": "RAM stands for - . [MOCA-2019]",
+    "options": [
+      "Read and Memory",
+      "Random Access Memory",
+      "Run and Man",
+      "Ready and Measure"
+    ],
+    "answer": "খ",
+    "explanation": "কম্পিউটারের অস্থায়ী memory RAM - Random Access Memory।"
+  },
+  {
+    "id": 137,
+    "page": 925,
+    "question": "Who was the Founder of Bluetooth? [WASA-2019]",
+    "options": [
+      "Martin Cooper",
+      "Apple",
+      "Steve Jobs",
+      "Ericson"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্লুটুথ একটি তারবিহীন প্রযুক্তি, যেটি স্বল্প দূরত্বে ব্যবহৃত হয়। এর প্রতিষ্ঠাতা Ericson। এটি ১৯৮৯ সালে চালু হয়। এর FEEL স্ট্যান্ডার্ড ৮০২.১৫.১।"
+  },
+  {
+    "id": 138,
+    "page": 925,
+    "question": "MS Word-এ কোনো Text খুঁজতে কী-বোর্ডে নিচের কোন কমান্ডটি চাপতে হবে? [BBA-2019]",
+    "options": [
+      "Ctrl+F",
+      "Ctrl+H",
+      "Ctrl+L",
+      "Ctrl+E"
+    ],
+    "answer": "ক",
+    "explanation": "MS Word-এ কোনো Text খুঁজতে কী-বোর্ডে Ctrl + F ব্যবহার করা হয়। অপরদিকে Ctrl + H-এর কাজ রিপ্লেস ডায়লগ বক্স প্রদর্শন করা, Ctrl + L-এর কাজ টেক্সটকে Left alignment-এ আনয়ন করা, Ctrl + E-এর কাজ Text কে Center alignment-এ আনা।"
+  },
+  {
+    "id": 139,
+    "page": 925,
+    "question": "মোবাইল ফোনের আবিষ্কারক কে? [HED-2018]",
+    "options": [
+      "চার্লস ব্যাবেজ",
+      "মার্টিন কুপার",
+      "গ্রাহাম বেল",
+      "ব্রাভেন বারজার"
+    ],
+    "answer": "খ",
+    "explanation": "মোবাইল ফোন ১৯৭২ সালে মার্টিন কুপার আবিষ্কার করেন। গ্রাহাম বেল টেলিফোন আবিষ্কার করেন। চার্লস ব্যাবেজকে কম্পিউটারের জনক বলা হয়।"
+  },
+  {
+    "id": 140,
+    "page": 925,
+    "question": "কোনটি মাল্টিমিডিয়া সফটওয়্যার? [HED-18]",
+    "options": [
+      "MS WORD",
+      "MS POWERPOINT",
+      "MS EXCEL",
+      "MS ACCESS"
+    ],
+    "answer": "খ",
+    "explanation": "Multimedia software-গুলো হচ্ছে Windows media player, Adobe Flash, Jet Audio Player, MS Powerpoint ইত্যাদি।"
+  },
+  {
+    "id": 141,
+    "page": 925,
+    "question": "এমএস ওয়ার্ডে কোনো টেক্সট ফাইল সেভ (Save) করতে হলে কী-বোর্ডে নিচের কোন কমান্ড ব্যবহৃত হয়? [BADC-2018]",
+    "options": [
+      "Shift + Alt + S",
+      "Ctrl + S",
+      "Alt + S",
+      "Shift + S",
+      "কোনোটিই নয়"
+    ],
+    "answer": "খ",
+    "explanation": "MS word এর Ctrl + S কী-বোর্ড কমান্ড করলে Save হয়। Ctrl + C চাপলে copy হয়। Ctrl + X চাপলে cut হয়।"
+  },
+  {
+    "id": 142,
+    "page": 925,
+    "question": "নিচের কোনটি কম্পিউটারের একটি স্টোরেজ ডিভাইস? [BADC-2018]",
+    "options": [
+      "প্রসেসর",
+      "হার্ডডিস্ক",
+      "মনিটর",
+      "মাউস",
+      "কোনোটিই নয়"
+    ],
+    "answer": "খ",
+    "explanation": "হার্ডডিস্ক, ফ্লপি ডিস্ক, ডিভিডি, সিডি এগুলো স্টোরেজ ডিভাইস। মনিটর আউটপুট ডিভাইস, মাউস ইনপুট ডিভাইস।"
+  },
+  {
+    "id": 143,
+    "page": 925,
+    "question": "নিচের কোনটি একটি অ্যাপ্লিকেশন সফটওয়্যার? [BADC-2018]",
+    "options": [
+      "এমএস ওয়ার্ড",
+      "উইন্ডোজ",
+      "লিনাক্স",
+      "ডস"
+    ],
+    "answer": "ক",
+    "explanation": "MS Word, Word Star, MS Excel, Orcle, MS Access এগুলো Application software."
+  },
+  {
+    "id": 144,
+    "page": 925,
+    "question": "নিচের কোনটি বাংলা লেখার সফটওয়্যার? [BADC-2018]",
+    "options": [
+      "বিজয়",
+      "সুলেখা",
+      "সুতন্বী",
+      "রূপসা"
+    ],
+    "answer": "ক",
+    "explanation": "বাংলা লেখার সফটওয়্যারগুলো বিজয়, অভ্র, বসুন্ধরা, লেখনী, প্রবর্তনা, অনির্বাণ ইত্যাদি। বিজয় সফটওয়্যারের আবিষ্কারক মোস্তাফা জব্বার।"
+  },
+  {
+    "id": 145,
+    "page": 925,
+    "question": "নিচের কোনটি ইন্টারনেটের সার্চ ইঞ্জিন? [BADC-2018]",
+    "options": [
+      "মাইক্রোসফট",
+      "গুগল",
+      "জাভা",
+      "নেটপ্যাড"
+    ],
+    "answer": "খ",
+    "explanation": "ইন্টারনেটের সার্চ ইঞ্জিন হলো Google, Yahoo.com, msn.com, ask.com ইত্যাদি।"
+  },
+  {
+    "id": 146,
+    "page": 926,
+    "question": "WINDOWS কী? [NESCO-2018]",
+    "options": [
+      "Antivirus software",
+      "Data strong device",
+      "Operating system",
+      "Programming language"
+    ],
+    "answer": "গ",
+    "explanation": "Windows হলো Microsoft Corporation নামের একটি বিখ্যাত IT Company দ্বারা তৈরি করা একটি Graphical Interface Operating System. এই Operating System-টিকে ব্যবহার করা হয় বিভিন্ন Device-গুলোকে পরিচালনা ও নিয়ন্ত্রণ করার ক্ষেত্রে। যেমন- Computer, Laptop ও Smartphone-গুলোতে Microsoft-এর Windows OS ব্যবহার করা হয় সেগুলোকে পরিচালনা ও নিয়ন্ত্রণ করার জন্য।"
+  },
+  {
+    "id": 147,
+    "page": 926,
+    "question": "কম্পিউটারে কোন ধরনের নম্বর পদ্ধতি ব্যবহার করা হয়? [BGFCL-17; PPA-18]",
+    "options": [
+      "বাইনারি",
+      "ডেসিমেল",
+      "হেক্সাডেসিমেল",
+      "অক্টাল"
+    ],
+    "answer": "ক",
+    "explanation": "কম্পিউটারের নম্বর পদ্ধতি বাইনারি। বাইনারিতে 0, 1 ব্যবহার করা হয়।"
+  },
+  {
+    "id": 148,
+    "page": 926,
+    "question": "MICR-এর পূর্ণরূপ কী? [BREB-2017]",
+    "options": [
+      "Magnetic Ink Character Reader",
+      "Magnetic Ink Case Reader",
+      "Magnetic Ink Code Reader",
+      "কোনোটিই নয়"
+    ],
+    "answer": "ক",
+    "explanation": "MICR-এর পূর্ণরূপ হলো Magnetic Ink Character Reader। এটি একটি প্রযুক্তি যার মাধ্যমে ব্যাংকিং খাতে চেক, ড্রাফট ও অন্যান্য আর্থিক নথিতে থাকা অক্ষর ও সংখ্যা স্বয়ংক্রিয়ভাবে শনাক্ত করা যায়।"
+  },
+  {
+    "id": 149,
+    "page": 926,
+    "question": "কম্পিউটারের সিপিইউ কোনটির কাজ করে? [BGFCL-2017]",
+    "options": [
+      "মাদারবোর্ড",
+      "প্রসেসর",
+      "র‍্যাম",
+      "এজিপি"
+    ],
+    "answer": "খ",
+    "explanation": "কম্পিউটারের CPU-এর কাজ করে মাইক্রোপ্রসেসর। একে কম্পিউটারের মস্তিষ্ক বলে।"
+  },
+  {
+    "id": 150,
+    "page": 926,
+    "question": "কম্পিউটার হতে কম্পিউটারের তথ্য আদান-প্রদান প্রযুক্তিকে কী বলা হয়? [PWD-2011]",
+    "options": [
+      "ইন্টারকম",
+      "ইন্টারনেট",
+      "ই-মেইল",
+      "এন্টারসীড"
+    ],
+    "answer": "খ",
+    "explanation": "ইন্টারনেট আবিষ্কৃত হয় ১৯৬৯ সালে। কম্পিউটার হতে কম্পিউটারে তথ্য আদান-প্রদান প্রযুক্তিকে ইন্টারনেট বলে।"
+  },
+  {
+    "id": 151,
+    "page": 926,
+    "question": "কোনটি ইনপুট ডিভাইস নয়? [PWD-2011]",
+    "options": [
+      "প্রিন্টার",
+      "কী-বোর্ড",
+      "স্ক্যানার",
+      "মাউস"
+    ],
+    "answer": "ক",
+    "explanation": "প্রিন্টার, মনিটর, লাউডস্পিকার ইত্যাদি আউটপুট ডিভাইস। স্ক্যানার, কী-বোর্ড, মাউস ইত্যাদি ইনপুট ডিভাইস।"
+  },
+  {
+    "id": 152,
+    "page": 926,
+    "question": "নিচের কোনটি কম্পিউটারের অপারেটিং সিস্টেম? [PWD-2011]",
+    "options": [
+      "ROM",
+      "RAM",
+      "XP professional",
+      "Spreadsheet"
+    ],
+    "answer": "গ",
+    "explanation": "কয়েকটি অপারেটিং সিস্টেম হলো Linux, Windows, Vista, Windows 98, Xp professional, Mac-OS ইত্যাদি।"
+  },
+  {
+    "id": 153,
+    "page": 926,
+    "question": "অপটিক্যাল ফাইবার কী? [BPSC-2010]",
+    "options": [
+      "খুব সরু ও নমনীয় কাচ তন্তু",
+      "খুব সরু ও অনমনীয় আলোক বস্তু",
+      "খুব মোটা ও অনমনীয় কাচ তন্তু",
+      "খুব সরু ও নমনীয় প্লাস্টিক তন্তু"
+    ],
+    "answer": "ক",
+    "explanation": ""
+  },
+  {
+    "id": 154,
+    "page": 926,
+    "question": "কম্পিউটার ভাইরাস কী? [BPSC-2010]",
+    "options": [
+      "কম্পিউটারের বিশেষ সমস্যা",
+      "কম্পিউটারের যান্ত্রিক ত্রুটি",
+      "এক ধরনের বিশেষ প্রোগ্রাম",
+      "কোনোটিই নয়"
+    ],
+    "answer": "গ",
+    "explanation": "কম্পিউটার ভাইরাস কম্পিউটারের একটি ক্ষতিকর প্রোগ্রাম। কয়েকটি ভাইরাস হলো- CIH, ILOVEYOU ট্রোজান হর্স, ভিয়েনা, স্টোন ইত্যাদি।"
+  },
+  {
+    "id": 155,
+    "page": 926,
+    "question": "কম্পিউটারের স্থায়ী স্মৃতিশক্তিকে কী বলে? [BPSC-2010]",
+    "options": [
+      "অপারেটিং সিস্টেম",
+      "RAM",
+      "হার্ডওয়্যার",
+      "ROM"
+    ],
+    "answer": "ঘ",
+    "explanation": "কম্পিউটারের স্থায়ী স্মৃতি ROM এবং অস্থায়ী স্মৃতি RAM। বিদ্যুৎ চলে গেলে ROM-এর তথ্য মুছে যায় না।"
+  },
+  {
+    "id": 156,
+    "page": 926,
+    "question": "SIM-এর পূর্ণ রূপ কী? [BPSC-2010]",
+    "options": [
+      "Subscriber Identification Method",
+      "Subscriber Identification Mode",
+      "Subscriber Identification Module",
+      "Subscriber Identity Module"
+    ],
+    "answer": "ঘ",
+    "explanation": "SIM-এর পূর্ণরূপ Subscriber Identification Module. যার বাংলা অর্থ গ্রাহক পরিচিতি মডিউল। এটি একটি সমন্বিত বর্তনী যা মোবাইল গ্রাহকের পরিচয় সংরক্ষণ করে।"
+  },
+  {
+    "id": 157,
+    "page": 926,
+    "question": "IC চিপ দিয়ে তৈরি প্রথম ডিজিটাল কম্পিউটারের নাম- [MOE-2005]",
+    "options": [
+      "IBM System 360",
+      "Intel",
+      "Mark-1",
+      "PDB-1"
+    ],
+    "answer": "ক",
+    "explanation": "IC চিপ দিয়ে তৈরি প্রথম ডিজিটাল কম্পিউটার হলো IBM system 360। অপরদিকে Mark-1 হলো পৃথিবীর প্রথম ইলেকট্রো মেকানিক্যাল কম্পিউটার।"
+  }
+]

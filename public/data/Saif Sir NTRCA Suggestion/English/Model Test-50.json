@@ -1,0 +1,308 @@
+{
+  "title": "ইংলিশ বুলেটিন-৫০",
+  "subject": "English",
+  "model_test": "Model Test-50",
+  "total_questions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Use the correct word in the gap : The grass on the other side of the --- always looks greener.",
+      "options": {
+        "ক": "land",
+        "খ": "yard",
+        "গ": "boundary",
+        "ঘ": "fence"
+      },
+      "answer": "ঘ",
+      "explanation": "প্রবাদটি হলো: 'The grass on the other side of the fence always looks greener' (দূর থেকে অন্যের সবকিছুই বেশি সুন্দর বা সুবিধাজনক মনে হয়)।"
+    },
+    {
+      "id": 2,
+      "question": "Use the correct word in the gap : A bad workman ----- with his tools",
+      "options": {
+        "ক": "fights",
+        "খ": "quarrels",
+        "গ": "plays",
+        "ঘ": "revolts"
+      },
+      "answer": "খ",
+      "explanation": "এটি একটি বিখ্যাত ইংরেজি প্রবাদ: 'A bad workman quarrels with his tools', যার ভাবার্থ 'নাচতে না জানলে উঠান বাঁকা'।"
+    },
+    {
+      "id": 3,
+      "question": "Synonym of \"cross-examine\"",
+      "options": {
+        "ক": "intervene",
+        "খ": "interview",
+        "গ": "interrogate",
+        "ঘ": "interrupt"
+      },
+      "answer": "গ",
+      "explanation": "'Cross-examine' শব্দের অর্থ আদালতে জেরা করা বা বিশদভাবে জিজ্ঞাসাবাদ করা। এর synonym হলো 'interrogate' (জেরা করা/জিজ্ঞাসাবাদ করা)।"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is grammatically correct?",
+      "options": {
+        "ক": "I prefer walking to riding",
+        "খ": "I do not know to write.",
+        "গ": "He gave me a pen to write.",
+        "ঘ": "He gave me a lot of informations."
+      },
+      "answer": "ক",
+      "explanation": "বাক্যের মাঝে Indirect বা Embedded Question ব্যবহৃত হলে interrogative structure না হয়ে assertive structure (Subject + Verb) হয়: 'Do you know where he lives?'"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is singular?",
+      "options": {
+        "ক": "data",
+        "খ": "agenda",
+        "গ": "index",
+        "ঘ": "criteria"
+      },
+      "answer": "গ",
+      "explanation": "'Index' হলো Singular শব্দ, যার Plural হলো Indices বা Indexes। অপরপক্ষে Data (datum এর plural), Agenda (agendum এর plural) এবং Criteria (criterion এর plural)।"
+    },
+    {
+      "id": 6,
+      "question": "The word \"lunar\" is related to --",
+      "options": {
+        "ক": "sun",
+        "খ": "moon",
+        "গ": "light",
+        "ঘ": "earth"
+      },
+      "answer": "খ",
+      "explanation": "'Lunar' শব্দটি চাঁদ বা চন্দ্রের সাথে সম্পর্কিত (related to moon)। সূর্যের সাথে সম্পর্কিত শব্দ হলো 'Solar'।"
+    },
+    {
+      "id": 7,
+      "question": "Passive form of \"Who has done the work?\" is--",
+      "options": {
+        "ক": "Whom has done the work by?",
+        "খ": "Who has been done the work?",
+        "গ": "By whom has been done the work?",
+        "ঘ": "By whom has the work been done?"
+      },
+      "answer": "ঘ",
+      "explanation": "Who যুক্ত Present Perfect Active voice-কে passive করার নিয়ম: By whom + has + object (the work) + been + V3 (done)? তাই সঠিক উত্তর ঘ।"
+    },
+    {
+      "id": 8,
+      "question": "He--- to see us if he had been able to.",
+      "options": {
+        "ক": "would come",
+        "খ": "would have come",
+        "গ": "may have come",
+        "ঘ": "may come"
+      },
+      "answer": "খ",
+      "explanation": "Third Conditional-এর নিয়ম: If clause-এ Past Perfect (had been able) থাকলে Main clause-এ subject + would have + V3 বসে। তাই 'would have come' সঠিক।"
+    },
+    {
+      "id": 9,
+      "question": "Choose the correct sentence :",
+      "options": {
+        "ক": "Let he and you be witnesses.",
+        "খ": "Let you and he be witness.",
+        "গ": "Let you and he be witnesses.",
+        "ঘ": "Let you and him be witnesses."
+      },
+      "answer": "ঘ",
+      "explanation": "অন্যান্য সকল জীবিত মানুষের চেয়ে শক্তিশালী তুলনা করার ক্ষেত্রে কীতে ঘ-কে সঠিক উত্তর হিসেবে চিহ্নিত করা হয়েছে।"
+    },
+    {
+      "id": 10,
+      "question": "A 'bull market' means that share prices are ---",
+      "options": {
+        "ক": "static",
+        "খ": "moving",
+        "গ": "falling",
+        "ঘ": "rising"
+      },
+      "answer": "ঘ",
+      "explanation": "শেয়ার বাজারে 'Bull market' বলতে বোঝায় যখন শেয়ারের দাম ক্রমাগত ঊর্ধ্বমুখী বা বৃদ্ধি পেতে থাকে (rising share prices)। আর দরপতনকে বলে Bear market।"
+    },
+    {
+      "id": 11,
+      "question": "Neither Rumi nor Popy ---- qualified for the job.",
+      "options": {
+        "ক": "had",
+        "খ": "is",
+        "গ": "were",
+        "ঘ": "are"
+      },
+      "answer": "খ",
+      "explanation": "'Neither... nor' দ্বারা দুটি Singular Subject যুক্ত হলে Verb-ও Singular হয়। দ্বিতীয় subject 'Popy' singular হওয়ায় সঠিক verb হলো 'is'।"
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is grammatically correct?",
+      "options": {
+        "ক": "Do you know where does he live?",
+        "খ": "Do you know where he lives?",
+        "গ": "Do you know where does he lives?",
+        "ঘ": "Do you know he lives where?"
+      },
+      "answer": "খ",
+      "explanation": "বাক্যের মাঝে Indirect বা Embedded Question ব্যবহৃত হলে interrogative structure না হয়ে assertive structure (Subject + Verb) হয়: 'Do you know where he lives?'"
+    },
+    {
+      "id": 13,
+      "question": "To build castle in the air is ---",
+      "options": {
+        "ক": "to work selflessly",
+        "খ": "to be a dreamer",
+        "গ": "to work hard",
+        "ঘ": "to make a fortune"
+      },
+      "answer": "খ",
+      "explanation": "'To build castle in the air' একটি জনপ্রিয় idiom, যার অর্থ আকাশকুসুম কল্পনা করা বা অলীক স্বপ্ন দেখা (to be a dreamer / to daydream)।"
+    },
+    {
+      "id": 14,
+      "question": "Synonym of \"discreet\" is ---",
+      "options": {
+        "ক": "careless",
+        "খ": "tactless",
+        "গ": "indiscreet",
+        "ঘ": "judicious"
+      },
+      "answer": "ঘ",
+      "explanation": "'Discreet' শব্দের অর্থ বিচক্ষণ, সুবিবেচক বা সতর্ক। এর যথার্থ সমার্থক শব্দ হলো 'Judicious' (সুবিবেচক, দূরদর্শী)।"
+    },
+    {
+      "id": 15,
+      "question": "Choose the correct use of article : This is --- better of --- two.",
+      "options": {
+        "ক": "a, an",
+        "খ": "a, a",
+        "গ": "the, the",
+        "ঘ": "x, the"
+      },
+      "answer": "গ",
+      "explanation": "দুটি ব্যক্তি বা বস্তুর মধ্যে তুলনা বোঝাতে Comparative degree-এর পূর্বে এবং সংখ্যা নির্দেশক 'two'-এর পূর্বে 'the' বসে: 'This is the better of the two.'"
+    },
+    {
+      "id": 16,
+      "question": "In spite of everything life is worth ---",
+      "options": {
+        "ক": "eating",
+        "খ": "singing",
+        "গ": "living",
+        "ঘ": "dancing"
+      },
+      "answer": "গ",
+      "explanation": "'Worth'-এর পর সরাসরি Gerund (verb + ing) বসে। তাই প্রবাদতুল্য উক্তিটি হলো: 'In spite of everything life is worth living.'"
+    },
+    {
+      "id": 17,
+      "question": "To read between the lines means ---",
+      "options": {
+        "ক": "to read the lines",
+        "খ": "to read quickly to save time",
+        "গ": "to read some lines only",
+        "ঘ": "to read carefully to find out any hidden meaning"
+      },
+      "answer": "ঘ",
+      "explanation": "'To read between the lines' একটি idiom, যার অর্থ কোনো লেখার গভীর বা অন্তর্নিহিত গোপন অর্থ বুঝে পড়া (to read carefully to find out any hidden meaning)।"
+    },
+    {
+      "id": 18,
+      "question": "You had better ----",
+      "options": {
+        "ক": "stayed",
+        "খ": "stay",
+        "গ": "staying",
+        "ঘ": "to stay"
+      },
+      "answer": "খ",
+      "explanation": "'Had better' একটি modal auxiliary-এর মতো কাজ করে, যার পর verb-এর base form বসে। তাই 'You had better stay' সঠিক।"
+    },
+    {
+      "id": 19,
+      "question": "The man is blind --- his son's fault.",
+      "options": {
+        "ক": "of",
+        "খ": "to",
+        "গ": "with",
+        "ঘ": "in"
+      },
+      "answer": "খ",
+      "explanation": "কারও দোষের প্রতি অন্ধ বা উদাসীন থাকা বোঝাতে 'blind to' বসে। (আর চোখের দৃষ্টিহীনতা বোঝাতে blind of/in বসে)।"
+    },
+    {
+      "id": 20,
+      "question": "Choose the correct spelling.",
+      "options": {
+        "ক": "Compitition",
+        "খ": "Competetion",
+        "গ": "Competision",
+        "ঘ": "Competition"
+      },
+      "answer": "ঘ",
+      "explanation": "সঠিক বানান হলো 'Sabotage' (S-a-b-o-t-a-g-e), যার অর্থ অন্তর্ঘাতমূলক কর্মকাণ্ড বা পরিকল্পিত ক্ষতিসাধন।"
+    },
+    {
+      "id": 21,
+      "question": "Ill news --- apace.",
+      "options": {
+        "ক": "run",
+        "খ": "runs",
+        "গ": "running",
+        "ঘ": "ran"
+      },
+      "answer": "খ",
+      "explanation": "'News' শব্দটির পরে verb সর্বদা singular হয়। ইংরেজি প্রবাদ: 'Ill news runs apace' (কুসংবাদ বাতাসের আগে রটে)।"
+    },
+    {
+      "id": 22,
+      "question": "Noun form of the word \"signify\" is--",
+      "options": {
+        "ক": "significant",
+        "খ": "significance",
+        "গ": "significantly",
+        "ঘ": "insignificant"
+      },
+      "answer": "খ",
+      "explanation": "'Signify' (তাৎপর্যপূর্ণ করা বা বোঝানো) একটি verb। এর Noun form হলো 'Significance' (গুরুত্ব বা তাৎপর্য)। Significant হলো adjective।"
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is more informal than the others?",
+      "options": {
+        "ক": "child",
+        "খ": "offspring",
+        "গ": "children",
+        "ঘ": "kid"
+      },
+      "answer": "ঘ",
+      "explanation": "'Kid' শব্দটি ইংরেজি ভাষায় শিশু বোঝাতে একটি অত্যন্ত Informal বা কথ্য শব্দ। Child, Children ও Offspring আনুষ্ঠানিক বা Formal শব্দ।"
+    },
+    {
+      "id": 24,
+      "question": "The meaning of the idiom \"at large\" is ----",
+      "options": {
+        "ক": "very big",
+        "খ": "freely",
+        "গ": "very long",
+        "ঘ": "broad"
+      },
+      "answer": "খ",
+      "explanation": "'At large' ইডিয়মটির অর্থ উন্মুক্ত বা স্বাধীনভাবে ঘুরে বেড়ানো (freely / at liberty)।"
+    },
+    {
+      "id": 25,
+      "question": "Kaiser Huq writes in English, --- (Find out Tag question)",
+      "options": {
+        "ক": "don't he?",
+        "খ": "doesn't he?",
+        "গ": "didn't he?",
+        "ঘ": "does he?"
+      },
+      "answer": "খ",
+      "explanation": "বাক্যটি Present Indefinite Tense এবং Affirmative (হ্যাঁ-বোধক)। তাই Tag Question-এ Negative Auxiliary 'doesn't' এবং Subject হিসেবে 'he' বসে: 'doesn't he?'"
+    }
+  ]
+}

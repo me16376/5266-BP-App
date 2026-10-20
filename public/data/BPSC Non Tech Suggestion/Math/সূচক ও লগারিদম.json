@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "question": "যদি log_(√8) x = 5 1/3 হয়, তবে x এর মান কত? [MOFL-2026]",
+    "options": [
+      "64",
+      "128",
+      "256",
+      "512"
+    ],
+    "answer": "গ",
+    "explanation": "log_(√8) x = 5 1/3\nবা, log_(√8) x = 16/3\nবা, x = (√8)^(16/3)\n= {(2³)^(1/2)}^(16/3)\n= 2^(3/2 × 16/3)\n= 2^8\n= 256 (Ans.)"
+  },
+  {
+    "id": 2,
+    "question": "যদি log_x 1024 = 5 হয়, তবে x এর মান কত? [LGD-2026]",
+    "options": [
+      "৫",
+      "৪",
+      "৩",
+      "৭"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে,\nlog_x 1024 = 5\nবা, x⁵ = 1024\nবা, x⁵ = 4⁵\n∴ x = 4 (Ans.)"
+  },
+  {
+    "id": 3,
+    "question": "log₁₀x = -2 হলে x = ? [DPDC-2025]",
+    "options": [
+      "0.01",
+      "0.1",
+      "0.0001",
+      "1"
+    ],
+    "answer": "ক",
+    "explanation": "দেওয়া আছে,\nlog₁₀x = -2\nবা, x = 10⁻²\nবা, x = 1/10²\nবা, x = 1/100\n∴ x = 0.01 (Ans.)"
+  },
+  {
+    "id": 4,
+    "question": "log_x(1/8) = -2 হলে x = কত? [LGED-2023]",
+    "options": [
+      "2",
+      "√2",
+      "2√2",
+      "4"
+    ],
+    "answer": "গ",
+    "explanation": "log_x(1/8) = -2\nবা, x^(-2) = 1/8\nবা, 1/x² = 1/8\nবা, x² = 8\nবা, x² = (2√2)²\n∴ x = 2√2\nসুতরাং, নির্ণেয় মান, x = 2√2 (উত্তর)"
+  },
+  {
+    "id": 5,
+    "question": "3log2 + log5 = ? [BSCIC-2023]",
+    "options": [
+      "log40",
+      "log30",
+      "log15",
+      "log18"
+    ],
+    "answer": "ক",
+    "explanation": "3log2 + log5\n= log2³ + log5\n= log8 + log5\n= log(8 × 5)\n= log 40 (Ans.)"
+  },
+  {
+    "id": 6,
+    "question": "(x^5 × x^2) = ? [BSCIC-2023]",
+    "options": [
+      "x^10",
+      "x^2",
+      "x^3",
+      "x^7"
+    ],
+    "answer": "ঘ",
+    "explanation": "x^5 × x^2 = x^(5+2) = x^7 (Ans.)"
+  },
+  {
+    "id": 7,
+    "question": "x^4 - x^2 + 1 = 0 হলে, x^2 + 1/x^2 = ? [BSCIC-2023]",
+    "options": [
+      "৪",
+      "২",
+      "১",
+      "০"
+    ],
+    "answer": "গ",
+    "explanation": "দেওয়া আছে,\nx^4 - x^2 + 1 = 0\n⇒ x^4 + 1 = x^2\n⇒ (x^4 + 1)/x^2 = x^2/x^2\n⇒ x^2 + 1/x^2 = 1 (Ans.)"
+  },
+  {
+    "id": 8,
+    "question": "a^2 + b^2 = ab হলে, a^3 + b^3 = ? [BBAL-2023]",
+    "options": [
+      "0",
+      "2ab",
+      "a^2",
+      "b^2"
+    ],
+    "answer": "ক",
+    "explanation": "দেওয়া আছে, a² + b² = ab\nপ্রদত্ত রাশি = a³ + b³\n= (a + b)(a² - ab + b²)\n= (a + b)(a² + b² - ab)\n= (a + b)(ab - ab)\n= (a + b). 0\n= 0 (Ans.)"
+  },
+  {
+    "id": 9,
+    "question": "log_x 324 = 4 হলে x এর মান কত? [SGCL-2023]",
+    "options": [
+      "2√3",
+      "√3",
+      "√2",
+      "3√2"
+    ],
+    "answer": "ঘ",
+    "explanation": "দেওয়া আছে,\nlog_x 324 = 4\nবা, x⁴ = 324\nবা, x⁴ = 81 × 4\nবা, x⁴ = (3√2)⁴\n∴ x = 3√2"
+  },
+  {
+    "id": 10,
+    "question": "log_(2√2) 64-এর মান কত? [BPSC, MOE-2023]",
+    "options": [
+      "4",
+      "-4",
+      "2",
+      "8"
+    ],
+    "answer": "ক",
+    "explanation": "log_(2√2) 64\n= log_(2√2) (2√2)⁴\n= 4 log_(2√2) 2√2\n= 4 × 1 = 4 (উত্তর)"
+  },
+  {
+    "id": 11,
+    "question": "lne-এর মান কত? [BPSC, MOE-2023]",
+    "options": [
+      "0",
+      "1",
+      "2.27",
+      "2"
+    ],
+    "answer": "খ",
+    "explanation": "lne = log_e e = y (ধরি)\n⇒ e^y = e¹\n⇒ y = 1\n⇒ log_e e = 1\n⇒ lne = 1 (উত্তর)"
+  },
+  {
+    "id": 12,
+    "question": "√-a² = কত? [BREB-2021]",
+    "options": [
+      "± ai",
+      "-a",
+      "-1",
+      "-i"
+    ],
+    "answer": "ক",
+    "explanation": "√-a² = √(-1) . √(a²) = i . a = ±ai (Ans.)"
+  },
+  {
+    "id": 13,
+    "question": "Log₅¹²⁵ = ? [BREB-2021]",
+    "options": [
+      "5",
+      "25",
+      "10",
+      "3"
+    ],
+    "answer": "ঘ",
+    "explanation": "Log₅¹²⁵ = Log₅(5³)\n= 3 Log₅ 5 [∵ log_a(M^r) = r log_a M]\n= 3 × 1 [∵ Logₐ a = 1]\n= 3 (Ans.)"
+  },
+  {
+    "id": 14,
+    "question": "If logₓ144 = 4, then find the value of x. [PPA-2020]",
+    "options": [
+      "16",
+      "3√2",
+      "2√3",
+      "√6"
+    ],
+    "answer": "গ",
+    "explanation": "দেওয়া আছে, logₓ144 = 4\nবা, x⁴ = 144\nবা, x⁴ = 16 × 9\nবা, x⁴ = (2√3)⁴\n∴ x = 2√3 (Ans.)"
+  },
+  {
+    "id": 15,
+    "question": "What is the value of x if logₓ 1024 = 5? [PPA-2019]",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "খ",
+    "explanation": "logₓ 1024 = 5\nবা, x⁵ = 1024\nবা, x⁵ = 4⁵\n∴ x = 4"
+  },
+  {
+    "id": 16,
+    "question": "logₓ 4 = 2 হলে x এর মান কত? [HED-2018]",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "10"
+    ],
+    "answer": "খ",
+    "explanation": "logₓ 4 = 2\nবা, x² = 4\n∴ x = 2"
+  },
+  {
+    "id": 17,
+    "question": "log_√3 81 = ? [TTC-2018]",
+    "options": [
+      "4",
+      "27√3",
+      "8",
+      "1/8"
+    ],
+    "answer": "গ",
+    "explanation": "log_√3 81 = log_√3 (√3)⁸ = 8 log_√3 √3 = 8"
+  },
+  {
+    "id": 18,
+    "question": "log₅ √5 = কত? [PTD-2018]",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "1/2"
+    ],
+    "answer": "ঘ",
+    "explanation": "log₅ √5 = log₅ (5)¹/² = 1/2 log₅ 5 = 1/2 × 1 = 1/2"
+  },
+  {
+    "id": 19,
+    "question": "log₁₀ x = -2 হলে x = কত? [PTD-2018]",
+    "options": [
+      "10",
+      "1/10",
+      "1/100",
+      "100"
+    ],
+    "answer": "গ",
+    "explanation": "log₁₀ x = -2\n∴ x = 10⁻² = 1 / 10² = 1/100"
+  },
+  {
+    "id": 20,
+    "question": "logₓ (1/27) = 3 হলে x এর মান কত? [MOR-2018]",
+    "options": [
+      "-1/3",
+      "-3",
+      "1/3",
+      "3"
+    ],
+    "answer": "গ",
+    "explanation": "logₓ (1/27) = 3 বা, x³ = 1/27 বা, x³ = (1/3)³ ∴ x = 1/3"
+  },
+  {
+    "id": 21,
+    "question": "log₃√₂ (1/324) = কত? [BPSC-2017]",
+    "options": [
+      "162√2",
+      "1 / (162√2)",
+      "4",
+      "-4"
+    ],
+    "answer": "ঘ",
+    "explanation": "log₃√₂ (1/324) = log₃√₂ (1 / (3√2)⁴) = log₃√₂ (3√2)⁻⁴ = -4"
+  },
+  {
+    "id": 22,
+    "question": "log₁₂ x = 4 হলে x এর মান— [DPHE-2016]",
+    "options": [
+      "12²",
+      "12³",
+      "12⁴",
+      "12⁵"
+    ],
+    "answer": "গ",
+    "explanation": "log₁₂ x = 4\n∴ x = 12⁴"
+  },
+  {
+    "id": 23,
+    "question": "12.27ˣ = 2².9ˣ⁺⁴ হলে, x এর মান কত? [HED-2015]",
+    "options": [
+      "3",
+      "8",
+      "7",
+      "4"
+    ],
+    "answer": "গ",
+    "explanation": "দেওয়া আছে, 12.27ˣ = 2².9ˣ⁺⁴\nবা, 12(3³)ˣ = 4.(3²)ˣ⁺⁴\nবা, 3.3³ˣ = 3²ˣ⁺⁸\nবা, 3¹⁺³ˣ = 3²ˣ⁺⁸\nবা, 1 + 3x = 2x + 8\n∴ x = 7"
+  },
+  {
+    "id": 24,
+    "question": "logₓ 324 = 4 হলে, x এর মান কত? [HED-2015]",
+    "options": [
+      "3√3",
+      "3√2",
+      "2√3",
+      "2√2"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে, logₓ 324 = 4\n⇒ x⁴ = 324\n⇒ x⁴ = (3√2)⁴\n∴ x = 3√2"
+  },
+  {
+    "id": 25,
+    "question": "log2 + log4 + log8 + ......... ধারাটির প্রথম 10টি পদের সমষ্টি কত? [HED-2015]",
+    "options": [
+      "10log4",
+      "55log2",
+      "10log64",
+      "log512"
+    ],
+    "answer": "খ",
+    "explanation": "log2 + log2² + log2³ + ........\n= log2 (1 + 2 + 3 + .......)\n= log2 [10(10 + 1) / 2]  [∵ 1 + 2 + 3 + ..... = n(n+1)/2]\n= 55 log2"
+  },
+  {
+    "id": 26,
+    "question": "³√(√a³) -এর মান হবে— [PWD-2011]",
+    "options": [
+      "a",
+      "a³",
+      "a^(1/2)",
+      "1"
+    ],
+    "answer": "গ",
+    "explanation": "³√(√a³) = ³√((a³)½) = ³√(a^(3/2)) = √a = a½"
+  },
+  {
+    "id": 27,
+    "question": "log_b a² = 2x এবং log_a b² = 2y হলে, xy = কত? [MODMR-2006]",
+    "options": [
+      "0",
+      "2",
+      "ab",
+      "1"
+    ],
+    "answer": "ঘ",
+    "explanation": "log_b a² = 2x\nবা, 2 log_b a = 2x\n∴ x = log_b a\nএবং log_a b² = 2y\n∴ y = log_a b\nএখন, xy = log_b a × log_a b\n= log_b a × 1/(log_b a) [∵ log_a b = 1/(log_b a)]\n= 1"
+  }
+]

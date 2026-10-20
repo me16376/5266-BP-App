@@ -1,0 +1,1060 @@
+[
+    {
+        "id": 1,
+        "question": "যদি x = √5 + √3 হয়, তবে x³ + 8/x³ এর মান কত? [47th BCS]",
+        "options": [
+            "18√5",
+            "22√5",
+            "28√5",
+            "32√5"
+        ],
+        "answer": "গ",
+        "explanation": "দেওয়া আছে, x = √5 + √3 ∴ 2/x = √5 - √3 ∴ x + 2/x = 2√5\nNow, x³ + 8/x³ = (x + 2/x)³ - 3·x·(2/x)(x + 2/x) = (2√5)³ - 6(2√5) = 40√5 - 12√5 = 28√5 (Ans.)"
+    },
+    {
+        "id": 2,
+        "question": "5x³ - 2x² + x + k = 0 এর একটি উৎপাদক x - 3 হলে, k এর মান কত? [47th BCS]",
+        "options": [
+            "50",
+            "60",
+            "-120",
+            "-60"
+        ],
+        "answer": "গ",
+        "explanation": "দেওয়া আছে, 5x³ - 2x² + x + k = 0 এবং x - 3 = 0 ⇒ x = 3\n⇒ 5 × 3³ - 2 × 3² + 3 + k = 0 ⇒ 5 × 27 - 2 × 9 + 3 + k = 0 ⇒ 120 + k = 0 ∴ k = -120 (Ans.)"
+    },
+    {
+        "id": 3,
+        "question": "If xyz = 240 then what value of x is unacceptable? [BCRECL-CE,ME,EEE-25]",
+        "options": [
+            "0",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "ক",
+        "explanation": "If x = 0, xyz = 0 ≠ 240. So x = 0 is unacceptable."
+    },
+    {
+        "id": 4,
+        "question": "(x⁴ + 1)/x² = 7 হলে (x⁶ + 1)/x³ এর মান কত? [DESCO-CT, MT, ET-25]",
+        "options": [
+            "18",
+            "27",
+            "36",
+            "25"
+        ],
+        "answer": "ক",
+        "explanation": "(x⁴ + 1)/x² = 7 ⇒ x² + 1/x² = 7 ⇒ (x + 1/x)² - 2 = 7 ⇒ x + 1/x = 3\n∴ (x⁶ + 1)/x³ = x³ + 1/x³ = (x + 1/x)³ - 3(x + 1/x) = 3³ - 3(3) = 18 (Ans.)"
+    },
+    {
+        "id": 5,
+        "question": "If (T - 8) is a factor of t² - kt - 48 = 0. What is the value of k? [RNPL-ME,EEE-25]",
+        "options": [
+            "8",
+            "2",
+            "4",
+            "1"
+        ],
+        "answer": "খ",
+        "explanation": "t - 8 = 0 ⇒ t = 8\n8² - 8k - 48 = 0 ⇒ 64 - 48 = 8k ⇒ 16 = 8k ∴ k = 2 (Ans.)"
+    },
+    {
+        "id": 6,
+        "question": "If x + 2/x = 3, find out the value of x³ + 8/x³ [BCIC- CE, ME, EEE, CSE-25]",
+        "options": [
+            "45",
+            "9",
+            "12",
+            "15"
+        ],
+        "answer": "খ",
+        "explanation": "x³ + 8/x³ = (x + 2/x)³ - 3·x·(2/x)(x + 2/x) = 3³ - 3(2)(3) = 27 - 18 = 9 (Ans.)"
+    },
+    {
+        "id": 7,
+        "question": "If x + y = 5, xy = 6 and x > y determine the value of 2 (x² + y²). [BCIC- CE, ME, EEE, CSE-25]",
+        "options": [
+            "26",
+            "24",
+            "20",
+            "15"
+        ],
+        "answer": "ক",
+        "explanation": "x + y = 5, xy = 6. Putting y = 6/x ⇒ x² - 5x + 6 = 0 ⇒ x = 3, y = 2 (as x > y)\nNow, 2(x² + y²) = 2(3² + 2²) = 2(9 + 4) = 26 (Ans.)"
+    },
+    {
+        "id": 8,
+        "question": "a² - 5a + 1 = 0 হলে a এর মান কত?",
+        "options": [
+            "1",
+            "2",
+            "5",
+            "-5"
+        ],
+        "answer": "ক",
+        "explanation": "a² - 5a + 1 = 0 ⇒ a² + 1 = 5a ∴ 6/(a² + a + 1) = 6a/(5a + a) = 1"
+    },
+    {
+        "id": 9,
+        "question": "f(a) = a + 1/a হলে f(1/a) এর মান কত?",
+        "options": [
+            "a + 1",
+            "1/a + a",
+            "0",
+            "1"
+        ],
+        "answer": "খ",
+        "explanation": "f(a) = a + 1/a ∴ f(1/a) = 1/a + 1/(1/a) = 1/a + a"
+    },
+    {
+        "id": 10,
+        "question": "x² - 5x + 1 = 0 হলে x + 1/x এর মান কত?",
+        "options": [
+            "5",
+            "-5",
+            "1",
+            "0"
+        ],
+        "answer": "ক",
+        "explanation": "x² - 5x + 1 = 0 ⇒ x² + 1 = 5x ⇒ x + 1/x = 5"
+    },
+    {
+        "id": 11,
+        "question": "P - 1/P = 2 হলে, P² + 1/P² এর মান কত? [DESCO-SSA-25]",
+        "options": [
+            "2",
+            "8",
+            "6",
+            "4"
+        ],
+        "answer": "গ",
+        "explanation": "P - 1/P = 2 ∴ P² + 1/P² = (P - 1/P)² + 2 = 2² + 2 = 6 (Ans.)"
+    },
+    {
+        "id": 12,
+        "question": "x = √3 + √2 হলে, x³ + 1/x³ এর মান কত? [DESCO-SSA-25]",
+        "options": [
+            "2√3",
+            "3√18",
+            "3√2",
+            "18√3"
+        ],
+        "answer": "ঘ",
+        "explanation": "x = √3 + √2 ∴ 1/x = √3 - √2 ∴ x + 1/x = 2√3\n∴ x³ + 1/x³ = (x + 1/x)³ - 3(x + 1/x) = (2√3)³ - 3(2√3) = 24√3 - 6√3 = 18√3 (Ans.)"
+    },
+    {
+        "id": 13,
+        "question": "যদি a² + b² = 29 এবং ab = 10 তবে (a + b)²? [DESCO-SSA-25]",
+        "options": [
+            "19",
+            "29",
+            "49",
+            "9"
+        ],
+        "answer": "গ",
+        "explanation": "(a + b)² = a² + b² + 2ab = 29 + 2(10) = 49 (Ans.)"
+    },
+    {
+        "id": 14,
+        "question": "a² - 1 + 2b - b² এর উৎপাদক কত? [DPDC-CST-25]",
+        "options": [
+            "(a + b + 1)(a - b + 1)",
+            "(a + b + 1)(a + b - 1)",
+            "(a + b + 1)(a + b + 2)",
+            "(a + b - 1)(a - b + 1)"
+        ],
+        "answer": "ঘ",
+        "explanation": "a² - (1 - 2b + b²) = a² - (1 - b)² = (a + 1 - b)(a - 1 + b) = (a + b - 1)(a - b + 1) (Ans.)"
+    },
+    {
+        "id": 15,
+        "question": "a² + 1 - √6a = 0 হলে a³ + 1/a³ এর মান কত? [DPDC-CST-25]",
+        "options": [
+            "0",
+            "3√3",
+            "3√6",
+            "5√6"
+        ],
+        "answer": "গ",
+        "explanation": "a² + 1 = √6a ⇒ a + 1/a = √6 ∴ a³ + 1/a³ = (√6)³ - 3√6 = 6√6 - 3√6 = 3√6 (Ans.)"
+    },
+    {
+        "id": 16,
+        "question": "If x + 2/x = 3, find out the value of x³ + 8/x³ [BCIC-CE/ME/EEE/CSE-25]",
+        "options": [
+            "45",
+            "9",
+            "12",
+            "15"
+        ],
+        "answer": "খ",
+        "explanation": "x³ + 8/x³ = (x + 2/x)³ - 3.x.(2/x)(x + 2/x) = 3³ - 3.2.3 = 27 - 18 = 9 (Ans.)"
+    },
+    {
+        "id": 17,
+        "question": "If x + y = 5, xy = 6 and x > y determine the value of 2 (x² + y²). [BCIC-CE/ME/EEE/CSE-25]",
+        "options": [
+            "26",
+            "24",
+            "20",
+            "15"
+        ],
+        "answer": "ক",
+        "explanation": "x + y = 5, xy = 6 ⇒ x = 3, y = 2 (x > y)\n2(x² + y²) = 2(3² + 2²) = 2(9 + 4) = 26 (Ans.)"
+    },
+    {
+        "id": 18,
+        "question": "if x - y = 5 and xy = 8 Then the value of the equation x³ - y³ + 8 (x + y)² is --- [TGTDCL-EEE/ME/CE/CSE-24]",
+        "options": [
+            "710",
+            "850",
+            "889",
+            "701"
+        ],
+        "answer": "ঘ",
+        "explanation": "(x + y)² = (x - y)² + 4xy = 5² + 4 × 8 = 57\nx³ - y³ = (x - y)³ + 3xy(x - y) = 5³ + 3 × 8 × 5 = 245\n∴ x³ - y³ + 8(x + y)² = 245 + 8 × 57 = 701 (Ans.)"
+    },
+    {
+        "id": 19,
+        "question": "x² - 3x + 1 = 0 হলে x² + 1/x² এর মান কত? [TGTDCL-ET/MT/CT/CMT-24]",
+        "options": [
+            "3",
+            "7",
+            "9",
+            "11"
+        ],
+        "answer": "খ",
+        "explanation": "x² + 1 = 3x ⇒ x + 1/x = 3 ∴ x² + 1/x² = (x + 1/x)² - 2 = 3² - 2 = 7 (Ans.)"
+    },
+    {
+        "id": 20,
+        "question": "x - 1/x = 3 হলে x³ - 1/x³ = ?",
+        "options": [
+            "25",
+            "36",
+            "27",
+            "কোনটিই নয়"
+        ],
+        "answer": "খ",
+        "explanation": "x³ - 1/x³ = (x - 1/x)³ + 3(x - 1/x) = 3³ + 3(3) = 36 (Ans.)"
+    },
+    {
+        "id": 21,
+        "question": "If (t - 1) is a factor of 5t² + 7t - k. What is the value of k = ? [BOGMC-ME/CE/CSE-24]",
+        "options": [
+            "15",
+            "20",
+            "12",
+            "30"
+        ],
+        "answer": "গ",
+        "explanation": "t - 1 = 0 ⇒ t = 1; 5(1)² + 7(1) - k = 0 ⇒ 12 - k = 0 ∴ k = 12 (Ans.)"
+    },
+    {
+        "id": 22,
+        "question": "x + y = 7, xy = 12 হলে x - y = ? [PGCB-CT/MT/ET/ENT/PT/CST-24]",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "ক",
+        "explanation": "(x - y)² = (x + y)² - 4xy = 7² - 4 × 12 = 49 - 48 = 1 ∴ x - y = 1 (Ans.)"
+    },
+    {
+        "id": 23,
+        "question": "If a⁴ - 51a² + 1 = 0; then (a - 1/a) = ? [BGDCL-CE/EEE/ME/CSE-24]",
+        "options": [
+            "±7",
+            "±8",
+            "±9",
+            "±10"
+        ],
+        "answer": "ক",
+        "explanation": "a⁴ + 1 = 51a² ⇒ a² + 1/a² = 51 ⇒ (a - 1/a)² = 51 - 2 = 49 ∴ a - 1/a = ±7 (Ans.)"
+    },
+    {
+        "id": 24,
+        "question": "Find the value of y, if (5x + 10)/(2xy + 4y) = 1 [BCPCL-EEE-24]",
+        "options": [
+            "2",
+            "2.5",
+            "5",
+            "5.5"
+        ],
+        "answer": "খ",
+        "explanation": "5(x + 2) / (2y(x + 2)) = 1 ⇒ 5/(2y) = 1 ∴ y = 5/2 = 2.5 (Ans.)"
+    },
+    {
+        "id": 25,
+        "question": "If, x + 2^(1/3) + 2^(2/3) = 0, then what is the value of (x³ + 6)? [BSTI-CE/Physics/EEE-24]",
+        "options": [
+            "6",
+            "6x",
+            "6x+2",
+            "x+6"
+        ],
+        "answer": "খ",
+        "explanation": "x = -(2^(1/3) + 2^(2/3)) ⇒ x³ = -[2 + 4 + 3·2(-x)] = -6 + 6x ∴ x³ + 6 = 6x (Ans.)"
+    },
+    {
+        "id": 26,
+        "question": "If a/b + b/a = 7, then a²/b² + b²/a² = ? [BSTI-CE/Physics/EEE-24]",
+        "options": [
+            "49",
+            "48",
+            "47",
+            "46"
+        ],
+        "answer": "গ",
+        "explanation": "(a/b + b/a)² = 7² ⇒ a²/b² + b²/a² + 2 = 49 ∴ a²/b² + b²/a² = 47 (Ans.)"
+    },
+    {
+        "id": 27,
+        "question": "x + y = 12 এবং x - y = 2 হলে, xy এর মান কত? [BCPCL-ET-23]",
+        "options": [],
+        "answer": "35",
+        "explanation": "xy = ((x + y)/2)² - ((x - y)/2)² = (12/2)² - (2/2)² = 6² - 1² = 35 (Ans.)"
+    },
+    {
+        "id": 28,
+        "question": "x + 1/x = 2 হলে x⁵ + 1/x⁵ = কত? [BAERA-ET/MT-23]",
+        "options": [
+            "2",
+            "4",
+            "7",
+            "1"
+        ],
+        "answer": "ক",
+        "explanation": "x + 1/x = 2 ⇒ x = 1 ∴ x⁵ + 1/x⁵ = 1 + 1 = 2 (Ans.)"
+    },
+    {
+        "id": 29,
+        "question": "যদি 2x² + mx + 6 = 0 সমীকরণের মূল দুটি সমান হয় এবং m > 0 হয় তবে, m এর মান কত? [BAERA-ET/MT-23]",
+        "options": [
+            "0",
+            "2√3",
+            "2√6",
+            "4√3"
+        ],
+        "answer": "ঘ",
+        "explanation": "b² - 4ac = 0 ⇒ m² - 4(2)(6) = 0 ⇒ m² = 48 ∴ m = √48 = 4√3 (Ans.)"
+    },
+    {
+        "id": 30,
+        "question": "x + 1/x = 3 হলে x³ + 1/x³ এর মান কত? [RAJUK-ET/CT/MT/AIDT-23]",
+        "options": [
+            "12",
+            "18",
+            "21",
+            "27"
+        ],
+        "answer": "খ",
+        "explanation": "x³ + 1/x³ = (x + 1/x)³ - 3(x + 1/x) = 3³ - 3(3) = 18 (Ans.)"
+    },
+    {
+        "id": 31,
+        "question": "Given, x is a real number. What is minimum value of x² - 4x + 5? [RNPL-EEE/ME-22]",
+        "options": [
+            "2",
+            "1",
+            "5",
+            "7"
+        ],
+        "answer": "খ",
+        "explanation": "d/dx(x² - 4x + 5) = 2x - 4 = 0 ⇒ x = 2 ∴ Minimum value = 2² - 4(2) + 5 = 1 (Ans.)"
+    },
+    {
+        "id": 32,
+        "question": "What is the minimum value of x² - 4x + 5? [ERLB-EEE/ME/Che-22]",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": "খ",
+        "explanation": "x² - 4x + 5 = (x - 2)² + 1. Since (x - 2)² ≥ 0, minimum value is 1 (Ans.)"
+    },
+    {
+        "id": 33,
+        "question": "x + 1/x = 2 হলে x² + 1/x² এর মান কত? [BIWTA-EEE/ME/CE-22]",
+        "options": [
+            "২",
+            "৭",
+            "১১",
+            "৯"
+        ],
+        "answer": "ক",
+        "explanation": "x² + 1/x² = (x + 1/x)² - 2 = 2² - 2 = 2 (Ans.)"
+    },
+    {
+        "id": 34,
+        "question": "If a + b = 5 and a - b = 3, then ab = ? [CPGCBL-EEE/ME/CE-22; ERLB-MT/ET/CT-22]",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": "গ",
+        "explanation": "ab = ((a + b)² - (a - b)²)/4 = (25 - 9)/4 = 16/4 = 4 (Ans.)"
+    },
+    {
+        "id": 35,
+        "question": "Value of k, for which A = [(k, 8), (4, 2k)] is a singular matrix is- [BCIC-EEE/ME-22]",
+        "options": [
+            "-4",
+            "4",
+            "±4",
+            "0"
+        ],
+        "answer": "গ",
+        "explanation": "|A| = 0 ⇒ 2k² - 32 = 0 ⇒ k² = 16 ∴ k = ±4 (Ans.)"
+    },
+    {
+        "id": 36,
+        "question": "x - y = 2, x² - y² = 16 হলে x এর মান কত? [CPGCBL-ET/MT-22, DESCO-ET-19, BADC-MT-19, PGCB-MT-20]",
+        "options": [
+            "3",
+            "5",
+            "6",
+            "7"
+        ],
+        "answer": "খ",
+        "explanation": "x + y = 16/2 = 8. Adding x - y = 2 and x + y = 8 ⇒ 2x = 10 ∴ x = 5 (Ans.)"
+    },
+    {
+        "id": 37,
+        "question": "x² - y² = 25, x + y = 5 হলে, x - y = ? [BPDB-ET-21]",
+        "options": [
+            "1",
+            "0",
+            "3",
+            "5"
+        ],
+        "answer": "ঘ",
+        "explanation": "(x + y)(x - y) = 25 ⇒ 5(x - y) = 25 ∴ x - y = 5 (Ans.)"
+    },
+    {
+        "id": 38,
+        "question": "৭ক - ২ > ৫ক + ১১ হলে \"ক\" এর কোন মানটি সঠিক? [PGCB-ENT-21]",
+        "options": [
+            "ক < ১৩/৬",
+            "ক > ১৩/২",
+            "ক < ১৩/২",
+            "ক > ৬/১৩"
+        ],
+        "answer": "খ",
+        "explanation": "৭ক - ৫ক > ১১ + ২ ⇒ ২ক > ১৩ ∴ ক > ১৩/২ (Ans.)"
+    },
+    {
+        "id": 39,
+        "question": "x⁴ - x² - x - 1 এর উৎপাদক কোনটি? [PGCB-CT-21]",
+        "options": [
+            "(x + 1)(x³ - x² - 1)",
+            "(x - 1)(x³ - x² - 1)",
+            "(x + 1)(x³ - x² + 1)",
+            "কোনোটিই নয়"
+        ],
+        "answer": "ক",
+        "explanation": "x⁴ + x³ - x³ - x² - x - 1 = x³(x + 1) - x²(x + 1) - 1(x + 1) = (x + 1)(x³ - x² - 1) (Ans.)"
+    },
+    {
+        "id": 40,
+        "question": "যদি x = y এবং x + y = 10 হয়, তবে 2x + y = ? [DESCO-ET-19, BPDB-ENT& PT- 21]",
+        "options": [
+            "3",
+            "18",
+            "24",
+            "কোনোটিই নয়"
+        ],
+        "answer": "ঘ",
+        "explanation": "x = y ⇒ 2x = 10 ∴ x = 5, y = 5 ∴ 2x + y = 2(5) + 5 = 15 (Ans.)"
+    },
+    {
+        "id": 41,
+        "question": "যদি x + y = 7 এবং x² + y² = 25 হয়, তবে x³ + y³ = ? [DESCO-ET-19, BPDB-MT, ENT& PT -21]",
+        "options": [
+            "35",
+            "91",
+            "137",
+            "52"
+        ],
+        "answer": "খ",
+        "explanation": "2xy = (x + y)² - (x² + y²) = 49 - 25 = 24 ⇒ xy = 12\n∴ x³ + y³ = (x + y)³ - 3xy(x + y) = 7³ - 3(12)(7) = 343 - 252 = 91 (Ans.)"
+    },
+    {
+        "id": 42,
+        "question": "যদি m ও n এর গড় 50 এবং p ও q এর গড় 70 হয় তবে m, n, p, q এর গড় কত হবে? [DESCO-ET-19, BPDB-ENT& PT- 21, BPDB-MT-21]",
+        "options": [
+            "৩২",
+            "৪০",
+            "৮০",
+            "৬০"
+        ],
+        "answer": "ঘ",
+        "explanation": "(m + n + p + q)/4 = (50 × 2 + 70 × 2)/4 = (100 + 140)/4 = 60 (Ans.)"
+    },
+    {
+        "id": 43,
+        "question": "x = 2 + √3 হলে, x + 1/x এর মান কত? [PGCB-CT- 21]",
+        "options": [
+            "১২",
+            "২০",
+            "৪",
+            "৮"
+        ],
+        "answer": "গ",
+        "explanation": "1/x = 2 - √3 ∴ x + 1/x = 2 + √3 + 2 - √3 = 4 (Ans.)"
+    },
+    {
+        "id": 44,
+        "question": "cos(40 + θ) - sin(50 + θ) এর মান কত? [PGCB-CT- 21]",
+        "options": [
+            "0",
+            "1/2",
+            "1",
+            "-1"
+        ],
+        "answer": "ক",
+        "explanation": "sin(50 + θ) = sin(90 - (40 - θ)) = cos(40 - θ) or cos(40 + θ) - cos(40 + θ) = 0 (Ans.)"
+    },
+    {
+        "id": 45,
+        "question": "x ∝ 1/y এবং k একটি ধ্রুবক হলে, নিচের কোনটি সঠিক? [PGCB-CT-21]",
+        "options": [
+            "x - y = k",
+            "x + y = k",
+            "xy = k",
+            "x/y = k"
+        ],
+        "answer": "গ",
+        "explanation": "x = k(1/y) ⇒ xy = k (Ans.)"
+    },
+    {
+        "id": 46,
+        "question": "যদি x ≠ 1 হয়, তবে (2x² + 4x + 2)/(x + 1)² = ? [DESCO-ET-19, PGCB-MT-20]",
+        "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ],
+        "answer": "ক",
+        "explanation": "2(x² + 2x + 1)/(x + 1)² = 2(x + 1)²/(x + 1)² = 2 (Ans.)"
+    },
+    {
+        "id": 47,
+        "question": "যদি a + b + c = 12 এবং a² + b² + c² এর মান 64 হয় তবে ab + bc + ca এর মান কত? [DPDC-ET-20]",
+        "options": [
+            "32",
+            "40",
+            "80",
+            "144"
+        ],
+        "answer": "খ",
+        "explanation": "2(ab + bc + ca) = (a + b + c)² - (a² + b² + c²) = 12² - 64 = 144 - 64 = 80 ∴ ab + bc + ca = 40 (Ans.)"
+    },
+    {
+        "id": 48,
+        "question": "What is the relationship between ax + by = c and bx - ay = c if a, b, c are not zero? [BCIC-ME-19, APSCL-CE-20]",
+        "options": [
+            "Parallel lines",
+            "Perpendicular lines",
+            "Opposite lines",
+            "Transversal"
+        ],
+        "answer": "খ",
+        "explanation": "Slope m₁ = -a/b, slope m₂ = b/a. Since m₁ · m₂ = -1, lines are Perpendicular lines (Ans.)"
+    },
+    {
+        "id": 49,
+        "question": "a³ - b³ = 513, a - b = 3 then, ab = ? [BCPCL-ME-18, BCMCL-20]",
+        "options": [
+            "35",
+            "54",
+            "45",
+            "55"
+        ],
+        "answer": "খ",
+        "explanation": "a³ - b³ = (a - b)³ + 3ab(a - b) ⇒ 513 = 3³ + 3ab(3) ⇒ 513 = 27 + 9ab ⇒ 9ab = 486 ∴ ab = 54 (Ans.)"
+    },
+    {
+        "id": 50,
+        "question": "x + 1/x = 3 হলে x² + 1/x² এর মান কত? [PGCB-ET-19, BCMCL-MT-20, APSCL-CE-20, BCIC-ME-19]",
+        "options": [
+            "5",
+            "7",
+            "8",
+            "9"
+        ],
+        "answer": "খ",
+        "explanation": "x² + 1/x² = (x + 1/x)² - 2 = 3² - 2 = 7 (Ans.)"
+    },
+    {
+        "id": 51,
+        "question": "যদি a + b = √5 এবং a - b = √3 হয়, তবে a² + b² = কত? [DESCO-ME-19]",
+        "options": [
+            "4",
+            "4√2",
+            "6",
+            "√8"
+        ],
+        "answer": "ক",
+        "explanation": "2(a² + b²) = (a + b)² + (a - b)² = (√5)² + (√3)² = 5 + 3 = 8 ∴ a² + b² = 4 (Ans.)"
+    },
+    {
+        "id": 52,
+        "question": "4a² + 11a + 6 = 0 হলে a = ? [DESCO, BCIC, DPDC-ME-19]",
+        "options": [
+            "-2",
+            "-0.75",
+            "2",
+            "ক এবং খ উভয়ই"
+        ],
+        "answer": "ঘ",
+        "explanation": "(a + 2)(4a + 3) = 0 ⇒ a = -2 or a = -3/4 = -0.75 (Ans.)"
+    },
+    {
+        "id": 53,
+        "question": "x এর মান কত হলে a(x - a) - b(x - b) = 0 হবে? [B-R Power-ME-19, BCIC-MT-19, PGCB-ME-19]",
+        "options": [
+            "1",
+            "a - b",
+            "b - a",
+            "a + b"
+        ],
+        "answer": "ঘ",
+        "explanation": "ax - a² - bx + b² = 0 ⇒ x(a - b) = a² - b² = (a - b)(a + b) ∴ x = a + b (Ans.)"
+    },
+    {
+        "id": 54,
+        "question": "(1 - √(1 - x))/(1 + √(1 - x)) = 1/3 সমীকরণের সমাধান কত? [APSCL, BCIC-MT-19]",
+        "options": [
+            "1/4",
+            "1/2",
+            "3/4",
+            "5/4"
+        ],
+        "answer": "গ",
+        "explanation": "By componendo & dividendo, 2√(1 - x)/2 = 2/4 ⇒ √(1 - x) = 1/2 ⇒ 1 - x = 1/4 ∴ x = 3/4 (Ans.)"
+    },
+    {
+        "id": 55,
+        "question": "(x + 3)² = 225; which of the following could be the value of (x - 1)? [NWPGCL-ME-19]",
+        "options": [
+            "11 or 13",
+            "11 or -19",
+            "13 or -17",
+            "17 or -13"
+        ],
+        "answer": "খ",
+        "explanation": "x + 3 = ±15 ⇒ x = 12 or -18. Then x - 1 = 11 or -19 (Ans.)"
+    },
+    {
+        "id": 56,
+        "question": "Square root (x) is integer and xy² = 36. Then how many values are possible for the integer y? [NWPGCL-ME-19]",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "8"
+        ],
+        "answer": "ঘ",
+        "explanation": "x can be 1, 4, 9, 36. For each x, y² has two integer values (±6, ±3, ±2, ±1). Total = 8 values (Ans.)"
+    },
+    {
+        "id": 57,
+        "question": "x + 1/x = 2 ; x³ + 1/x³ = ? [DESCO-ME-19]",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "2"
+        ],
+        "answer": "ঘ",
+        "explanation": "(x + 1/x)³ - 3(x + 1/x) = 2³ - 3(2) = 2 (Ans.)"
+    },
+    {
+        "id": 58,
+        "question": "x - 1/x = 8 হলে প্রমাণ করুন যে, x² + 1/x² = 66. [BPDB-MT-18]",
+        "options": [
+            "77",
+            "66",
+            "85",
+            "90"
+        ],
+        "answer": "খ",
+        "explanation": "(x - 1/x)² + 2 = 8² + 2 = 66 (প্রমাণিত)"
+    },
+    {
+        "id": 59,
+        "question": "উৎপাদকে বিশ্লেষণ করুন: x² - x - 12 [EGCB-ENT-18]",
+        "options": [],
+        "answer": "(x - 4)(x + 3)",
+        "explanation": "x² - 4x + 3x - 12 = x(x - 4) + 3(x - 4) = (x - 4)(x + 3) (Ans.)"
+    },
+    {
+        "id": 60,
+        "question": "x(3x - 1) = 0 হলে x এর মান কত? [EGCB-ENT-18]",
+        "options": [
+            "1/4",
+            "1/3",
+            "4",
+            "1/2"
+        ],
+        "answer": "খ",
+        "explanation": "x = 0 or 3x - 1 = 0 ⇒ x = 1/3 (Ans.)"
+    },
+    {
+        "id": 61,
+        "question": "x² - 8x - 8y + 16 + y² এর সাথে কত যোগ করলে যোগফল পূর্ণবর্গ হবে? [NESCO-CE-18]",
+        "options": [
+            "2xy",
+            "4xy",
+            "-2xy",
+            "-4xy"
+        ],
+        "answer": "ক",
+        "explanation": "(x + y - 4)² - 2xy. সুতরাং পূর্ণবর্গ হতে 2xy যোগ করতে হবে (Ans.)"
+    },
+    {
+        "id": 62,
+        "question": "সমাধান করুন: (√5 + √(5 - x))/(√5 - √(5 - x)) = 5 [NESCO-CE-18]",
+        "options": [
+            "20/9",
+            "25/9",
+            "15/9",
+            "8"
+        ],
+        "answer": "খ",
+        "explanation": "√(5 - x)/√5 = (5 - 1)/(5 + 1) = 2/3 ⇒ (5 - x)/5 = 4/9 ⇒ 45 - 9x = 20 ⇒ 9x = 25 ∴ x = 25/9 (Ans.)"
+    },
+    {
+        "id": 63,
+        "question": "x + 1/x = √3 হলে, x³ + 1/x³ এর মান কত? [NESCO-CE-18]",
+        "options": [
+            "2",
+            "4",
+            "0",
+            "6"
+        ],
+        "answer": "গ",
+        "explanation": "(√3)³ - 3√3 = 3√3 - 3√3 = 0 (Ans.)"
+    },
+    {
+        "id": 64,
+        "question": "If x + y = 25 and x - y = 13, then xy = ? [BWDB-18]",
+        "options": [
+            "114",
+            "116",
+            "118",
+            "105"
+        ],
+        "answer": "ক",
+        "explanation": "xy = ((x + y)/2)² - ((x - y)/2)² = (25/2)² - (13/2)² = (625 - 169)/4 = 456/4 = 114 (Ans.)"
+    },
+    {
+        "id": 65,
+        "question": "If x > 0 and y < 0, which one will be always positive? [GTCL-18]",
+        "options": [
+            "x² - 1",
+            "x² - y²",
+            "x² + y²",
+            "None"
+        ],
+        "answer": "গ",
+        "explanation": "Let, x > 0 ∴ x = 1 আবার, y < 0 ∴ y = -1\nসুতরাং, x² + y² = (1)² + (-1)² = 2 Positive Number (প্রমাণিত)"
+    },
+    {
+        "id": 66,
+        "question": "If x² - y² = 28 and x - y = 8 then what is the average of x and y? [BWDB-17]",
+        "options": [
+            "3.5",
+            "1.75",
+            "7",
+            "8"
+        ],
+        "answer": "খ",
+        "explanation": "দেওয়া আছে, x² - y² = 28 এবং x - y = 8\n∴ x² - y² = 28; ⇒ (x + y)(x - y) = 28; ⇒ x + y = 28/8 = 3.5\n∴ Average value of x and y = (x + y)/2 = 3.5/2 = 1.75 (Ans.)"
+    },
+    {
+        "id": 67,
+        "question": "a + b = 6 এবং ab = 2 হলে a - b = কত? [BEPZA-CE-16]",
+        "options": [
+            "0",
+            "√28",
+            "12",
+            "-1"
+        ],
+        "answer": "খ",
+        "explanation": "আমরা জানি, (a - b)² = (a + b)² - 4ab; ⇒ (a - b)² = 6² - 4 × 2 ⇒ (a - b)² = 28 ∴ a - b = √28 (Ans.)"
+    },
+    {
+        "id": 68,
+        "question": "x + y = √7 এবং y = x - √3 হলে xy এর মান কত? [BEPZA-CE-16]",
+        "options": [
+            "2",
+            "12",
+            "1",
+            "0"
+        ],
+        "answer": "গ",
+        "explanation": "দেওয়া আছে, y = x - √3; ⇒ √3 = x - y [উভয় পার্শ্বে বর্গ করে পাই]\n⇒ (x - y)² = (√3)²; ⇒ (x + y)² - 4xy = 3; ⇒ (√7)² - 4xy = 3\n⇒ 7 - 3 = 4xy ∴ xy = 4/4 = 1 (Ans.)"
+    },
+    {
+        "id": 69,
+        "question": "If a - b/3 = 1/3 and a + b/4 = 3/2 then (a + b) = ? [BADC-ME-16]",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "none"
+        ],
+        "answer": "খ",
+        "explanation": "দেওয়া আছে, a - b/3 = 1/3; ⇒ (3a - b)/3 = 1/3 ∴ 3a - b = 1 ........... (i)\nআবার, a + b/4 = 3/2; ⇒ (4a + b)/4 = 3/2 ∴ 4a + b = 6 ............. (ii)\nSolve (i) & (ii) ⇒ a = 1, b = 2; ∴ a + b = 1 + 2 = 3 (Ans.)"
+    },
+    {
+        "id": 70,
+        "question": "If 2x = 3(x - 2) then 6x + 3 = ? [BADC-ME-16]",
+        "options": [
+            "0",
+            "6",
+            "39",
+            "none"
+        ],
+        "answer": "গ",
+        "explanation": "দেওয়া আছে, 2x = 3(x - 2) ⇒ 2x = 3x - 6 ⇒ 3x - 2x = 6 ∴ x = 6\n∴ 6x + 3 = 6 × 6 + 3 = 39 (Ans.)"
+    },
+    {
+        "id": 71,
+        "question": "If x% of y is 10 then what is y? [BCIC-ME-16]",
+        "options": [
+            "10/x",
+            "100/x",
+            "1000/x",
+            "x/10"
+        ],
+        "answer": "গ",
+        "explanation": "দেওয়া আছে, y এর x% = 10 ⇒ y × x/100 = 10 ∴ y = 1000/x (Ans.)"
+    },
+    {
+        "id": 72,
+        "question": "If x/(a - b) = y/(b - c) = z/(c - a) then x + y + z = ? [BEPZA-ME-16]",
+        "options": [
+            "0",
+            "3",
+            "4",
+            "-2"
+        ],
+        "answer": "ক",
+        "explanation": "Let, x/(a - b) = y/(b - c) = z/(c - a) = m ∴ x/(a - b) = m ⇒ x = am - bm\nআবার, y/(b - c) = m ∴ y = bm - cm আবার, z/(c - a) = m ∴ z = cm - am\nসুতরাং, x + y + z = am - bm + bm - cm + cm - am = 0 (Ans.)"
+    },
+    {
+        "id": 73,
+        "question": "If x = √2 + √3, then x³ + 1/x³ = ? [BPDB-18, BCS-38th]",
+        "options": [
+            "18√3",
+            "15√4",
+            "16√3",
+            "19√2"
+        ],
+        "answer": "ক",
+        "explanation": "দেওয়া আছে, x = √2 + √3 ∴ 1/x = 1/(√3 + √2) = (√3 - √2)/((√3 + √2)(√3 - √2)) = (√3 - √2)/(3 - 2) = √3 - √2\n∴ x + 1/x = √2 + √3 + √3 - √2 = 2√3 ∴ x³ + 1/x³ = (x + 1/x)³ - 3.x.(1/x).(x + 1/x)\n= (2√3)³ - 3 × 2√3 = 8 × 3√3 - 6√3 = 24√3 - 6√3 = 18√3 (Ans.)"
+    },
+    {
+        "id": 74,
+        "question": "x² + y² + z² = 2, xy + yz + zx = 1 হলে, (x + 2y)² + (y + 2z)² + (z + 2x)² এর মান- [46th BCS]",
+        "options": [
+            "12",
+            "19",
+            "16",
+            "14"
+        ],
+        "answer": "ঘ",
+        "explanation": "(x + 2y)² = x² + 2x.2y + 4y² = x² + 4xy + 4y²\n(y + 2z)² = y² + 4yz + 4z²\n(z + 2x)² = z² + 4xz + 4x²\nNow, (x + 2y)² + (y + 2z)² + (z + 2x)² = x² + 4xy + 4y² + y² + 4yz + 4z² + z² + 4xz + 4x²\n= x² + y² + z² + 4(x² + y² + z²) + 4(xy + yz + zx)\n= 2 + 4 × 2 + 4 × 1 = 2 + 8 + 4 = 14 (Ans.)"
+    },
+    {
+        "id": 75,
+        "question": "|x - 3| ≤ 4 এর সমাধান কোনটি? [BSCPLC-CSE/EEE-24]",
+        "options": [
+            "1 ≤ x ≤ 7",
+            "-1 ≤ x ≤ 7",
+            "-4 ≤ x ≤ 4",
+            "None"
+        ],
+        "answer": "খ",
+        "explanation": "দেওয়া আছে, |x - 3| ≤ 4\n⇒ -4 ≤ x - 3 ≤ 4\n⇒ -4 + 3 ≤ x - 3 + 3 ≤ 4 + 3\n∴ -1 ≤ x ≤ 7 (Ans.)"
+    },
+    {
+        "id": 76,
+        "question": "|2x - 3| ≤ 1; What is the solution for x? [BOGMC-ME/CE/CSE-24]",
+        "options": [
+            "1 ≤ x ≤ 0",
+            "-1 ≤ x ≤ 2",
+            "2 ≤ x ≤ 2",
+            "1 ≤ x ≤ 2"
+        ],
+        "answer": "ঘ",
+        "explanation": "Given equation, |2x - 3| ≤ 1\n⇒ -1 ≤ 2x - 3 ≤ 1\n⇒ -1 + 3 ≤ 2x - 3 + 3 ≤ 1 + 3\n⇒ 2 ≤ 2x ≤ 4\n⇒ 1 ≤ x ≤ 2 (Ans.)"
+    },
+    {
+        "id": 77,
+        "question": "ax² - 4y + 3 = 0, for real and unequal condition which one is correct? [BOGMC-ME/CE/CSE-24]",
+        "options": [
+            "3/4, ∞",
+            "4/3, ∞",
+            "4/2, ∞",
+            "4/3, -∞"
+        ],
+        "answer": "ঘ",
+        "explanation": "b² - 4ac > 0\n4² - 4.a.3 > 0\n⇒ 16 > 12a\n⇒ a < 16/12\n∴ a < 4/3 ; ∴ (4/3, -∞) (Ans.)"
+    },
+    {
+        "id": 78,
+        "question": "|x - 4| = 2 এর সমাধান হবে কোনটি? [BAERA-ET/MT-23]",
+        "options": [
+            "3, 6",
+            "6, -2",
+            "2, 6",
+            "-2, -6"
+        ],
+        "answer": "গ",
+        "explanation": "|x - 4| = 2\n⇒ x - 4 = +2 & x - 4 = -2\n⇒ x = 6 & ⇒ x = -2 + 4, ⇒ x = 2\n∴ x = 2, 6 (Ans.)"
+    },
+    {
+        "id": 79,
+        "question": "If R = {(a, b): a + b = 5, b > 1}, then (a, b) = ? [APSCL-EEE-21]",
+        "options": [
+            "5, 0",
+            "2, 3",
+            "2, 1",
+            "4, 1"
+        ],
+        "answer": "খ",
+        "explanation": "এখানে, a = 2, b = 3 হলে সকল শর্ত পূরণ করে, ∴ সঠিক উত্তর (2, 3) (Ans.)"
+    },
+    {
+        "id": 80,
+        "question": "7x + 18 < 2x - 5 হলে x এর মান কত? [BPDB-ET-21]",
+        "options": [
+            "x < 23/5",
+            "x > 23/5",
+            "x < -23/5",
+            "x > -23/5"
+        ],
+        "answer": "গ",
+        "explanation": "দেওয়া আছে, 7x + 18 < 2x - 5\n⇒ 7x - 2x < -5 - 18\n⇒ 5x < -23; ⇒ x < -23/5 (Ans.)"
+    },
+    {
+        "id": 81,
+        "question": "If a > b > 1 then which one is true? [BCMCL-20]",
+        "options": [
+            "a - b < 0",
+            "a²",
+            "(b + a) > 2a",
+            "a² > b²"
+        ],
+        "answer": "ঘ",
+        "explanation": "Let, a = 3, b = 2 [a > b > 1]\n(a) a - b < 0, ⇒ 1 < 0 (not satisfy)\n(b) a² ⇒ 3² = 9 (not satisfy)\n(c) (b + a) > 2a, ⇒ 2 + 3 > (2 × 3), ⇒ 5 > 6 (not satisfy)\n(d) a² > b² ⇒ 3² > 2², ⇒ 9 > 4 (satisfy)"
+    },
+    {
+        "id": 82,
+        "question": "যদি (x - y)³ > (x - y)² হয়, তবে নিচের কোনটি সঠিক? [DESCO-ET-19]",
+        "options": [
+            "x⁵ < y⁴",
+            "x³ > y²",
+            "x⁵ > x⁴",
+            "x³ > y³"
+        ],
+        "answer": "ঘ",
+        "explanation": "দেওয়া আছে, (x - y)³ > (x - y)²\n⇒ (x - y)³ / (x - y)² > (x - y)² / (x - y)²; ⇒ x - y > 1; ⇒ x > 1 + y\n∴ x এর মান y এর চাইতে বড় ∴ x³ > y³ (Ans.)"
+    },
+    {
+        "id": 83,
+        "question": "|x - 3| ≤ 5 অসমতাটির সমাধান কোনটি? [DESCO-ME-19, B-R Power-ME-19, PGCB-ME-19]",
+        "options": [
+            "{x ∈ R : -3 < x < 3}",
+            "{x ∈ R : -5 < x < 5}",
+            "{x ∈ R : -8 < x < 2}",
+            "{x ∈ R : -2 < x < 8}"
+        ],
+        "answer": "ঘ",
+        "explanation": "দেওয়া আছে, |x - 3| ≤ 5 ⇒ -5 < x - 3 < 5 [এখানে, (x - 3) এর ছোট মান ধরা হয়েছে]\n⇒ -5 < x - 3 < 5\n⇒ -5 + 3 < x - 3 + 3 < 5 + 3\n∴ -2 < x < 8 (Ans.)"
+    },
+    {
+        "id": 84,
+        "question": "If |x + 5| = 3 and |2y - 1| / 3 = 5 then |x + y| could equal each of the following EXCEPT. [BADC-CE-18]",
+        "options": [
+            "0",
+            "6",
+            "9",
+            "8"
+        ],
+        "answer": "ঘ",
+        "explanation": "Case -1, |x + 5| = 3 ⇒ x = -2 or -8\nCase -2, |2y - 1| = 15; ⇒ y = 8 or -7\nNow, |x + y| ⇒ |-2 + 8| = 6; ⇒ |-2 - 7| = 9; ⇒ |-8 + 8| = 0\n⇒ |-8 + (-7)| = 15\n∴ Best Answer is (d) 8"
+    },
+    {
+        "id": 85,
+        "question": "If 3x < 2y < 0, which of the following must be the greatest? [BADC-CE-18]",
+        "options": [
+            "2y - 3x",
+            "3x - 2y",
+            "- (3x - 2y)",
+            "- (3x + 2y)"
+        ],
+        "answer": "ঘ",
+        "explanation": "প্রশ্ন অনুসারে, x ও y এর মান ঋণাত্মক হবে\nমনে করি, x = -2, y = -1 অপশন ধরে পাই,\n(a) 2y - 3x = (2.-1) - (3.-2) = 4\n(b) 3x - 2y = (3.-2) - (2.-1) = -4\n(c) -[(3.-2) - (2.-1)] = 4\n(d) -(3x + 2y) = -[(3.-2) + (2.-1)] = 8 (Greatest) (Ans.)"
+    },
+    {
+        "id": 86,
+        "question": "If b < 2 and 2x - 3b = 0 which of the following must be true? [BADC-ME-16]",
+        "options": [
+            "x > 3",
+            "x < 2",
+            "x = 3",
+            "x < 3"
+        ],
+        "answer": "ঘ",
+        "explanation": "দেওয়া আছে, b < 2 ⇒ -3b > -6 [-3 দ্বারা গুণ করে]\n⇒ 2x - 3b > 2x - 6 [2x দ্বারা যোগ করে]\n⇒ 0 > 2x - 6 [Given, 2x - 3b = 0]\n⇒ 6 > 2x ⇒ x < 3 (Ans.)"
+    },
+    {
+        "id": 87,
+        "question": "If 2 < x < 4 and 3 < y < 7, what is the largest integer value of x + y = ? [DPDC-16]",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "answer": "গ",
+        "explanation": "দেওয়া আছে, 2 < x < 4 and 3 < y < 7 ∴ x + y = 4 + 7 = 11 এটি সর্বোচ্চ মান কিন্তু এটি শর্ত অনুযায়ী সঠিক নয়। কিন্তু 11 এর চেয়ে সর্বনিম্ন কম যেটি সেটাই উত্তর। অপশনে = 10 (Ans.)"
+    },
+    {
+        "id": 88,
+        "question": "বাস্তব সংখ্যায় |3x + 2| < 7 অসমতাটির সমাধান: [44th BCS]",
+        "options": [
+            "-3 < x < 3",
+            "-5/3 < x < 5/3",
+            "-3 < x < 5/3",
+            "5/3 < x < -5/3"
+        ],
+        "answer": "গ",
+        "explanation": "দেওয়া আছে, |3x + 2| < 7\n⇒ -7 < 3x + 2 < 7\n⇒ -7 - 2 < 3x + 2 - 2 < 7 - 2 [উভয়পক্ষে 2 বিয়োগ করে]\n⇒ -9 < 3x < 5 ⇒ -9/3 < 3x/3 < 5/3 [উভয়পক্ষে 3 দ্বারা ভাগ করে]\n⇒ -3 < x < 5/3 (Ans.)"
+    },
+    {
+        "id": 89,
+        "question": "x² - 7x + 12 ≤ 0 এর সমাধান সেট- [46th BCS]",
+        "options": [
+            "(-∞, 3]",
+            "(3, 4)",
+            "[3, 4]",
+            "[4, ∞)"
+        ],
+        "answer": "গ",
+        "explanation": "x² - 7x + 12 ≤ 0\n⇒ x² - 4x - 3x + 12 ≤ 0\n⇒ x(x - 4) - 3(x - 4) ≤ 0\n⇒ (x - 4)(x - 3) ≤ 0 ∴ x = 4, 3 (Ans.)"
+    }
+]

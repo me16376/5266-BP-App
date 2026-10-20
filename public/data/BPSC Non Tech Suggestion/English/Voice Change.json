@@ -1,0 +1,590 @@
+[
+  {
+    "id": 1,
+    "question": "Pluck me a flower. The correct passive voice form is– [ORG-26]",
+    "options": [
+      "Let a flower be plucked by me",
+      "Let a flower be plucked for me",
+      "Let me a flower be plucked to me",
+      "A flower is plucked by me"
+    ],
+    "answer": "খ",
+    "explanation": "সঠিক বাক্যটি হলো– \"Let a flower be plucked for me.\" কারণ Imperative sentence-এ Let দিয়ে Passive শুরু হয় এবং 'Pluck me' Passive-এ 'Plucked for me' হবে।"
+  },
+  {
+    "id": 2,
+    "question": "Choose the correct transformation into passive voice : They will complete the bridge within six months. [LGD-26]",
+    "options": [
+      "The bridge will be completed by them within six months.",
+      "The bridge would be completed within six months.",
+      "The bridge will have been completed within six months.",
+      "The bridge will be completed within six months."
+    ],
+    "answer": "ক",
+    "explanation": "প্রদত্ত Sentence-টির জন্য Passive Structure-টি হবে Sub (the bridge) + will be + V3 (Completed) + by + obj (them) + others. সুতরাং সঠিক বাক্যটি হবে The bridge will be completed by them within six months."
+  },
+  {
+    "id": 3,
+    "question": "Passive form of the sentence– \"His performance surprised me.\" [Fisheries & Animal-26]",
+    "options": [
+      "I was surprised by his performance",
+      "I had been surprised with his performance",
+      "I was surprised for his performance",
+      "I was surprised at his performance"
+    ],
+    "answer": "ঘ",
+    "explanation": "Surprise-এর সাথে সাধারণত Preposition 'at' বসে। 'Surprise at' অর্থ বিস্মিত হওয়া। 'Surprise at' দ্বারা reaction বুঝায়। সুতরাং, সঠিক Passive voice হবে– I was surprised at his performance."
+  },
+  {
+    "id": 4,
+    "question": "The correct passive form of 'Someone has stolen his pen' [RPCL-25]",
+    "options": [
+      "His pen was stolen",
+      "His pen has been stolen",
+      "His pen was being stolen",
+      "None of above"
+    ],
+    "answer": "খ",
+    "explanation": "সাধারণত Proper noun-এর পূর্বে Article বসে না। কিন্তু বিশেষ গুণ বুঝাতে Proper বা common noun-এর পূর্বে article বসে। আবার Vowel-এর আগে an বসে।"
+  },
+  {
+    "id": 5,
+    "question": "The company — bought by Mathew recently. [DPDC-25]",
+    "options": [
+      "is being",
+      "are been",
+      "has been",
+      "have been"
+    ],
+    "answer": "গ",
+    "explanation": "'The company' singular number. বাক্যের শেষে 'recently' থাকলে Present Perfect হবে। Passive form-এ বাক্যটি হবে— The company has been bought by Mathew recently."
+  },
+  {
+    "id": 6,
+    "question": "Choose the correct passive form of : 'We called him a fool'. [MOR-25]",
+    "options": [
+      "He has been called a fool by us",
+      "He was called a fool by us.",
+      "He is called a fool by us.",
+      "A fool was called him by us."
+    ],
+    "answer": "খ",
+    "explanation": "এখানে Passive structure-টি হবে He + be (was) + v3 (called) + a fool + Pre (by) + object (us). সুতরাং, সঠিক উত্তর হবে He was called a fool by us."
+  },
+  {
+    "id": 7,
+    "question": "Fill in the blank : He — robbed while he was walking out of the Bank. [BPSC-25]",
+    "options": [
+      "was",
+      "got",
+      "did",
+      "has been"
+    ],
+    "answer": "ক",
+    "explanation": "এখানে Passive form 'was robbed' হবে। কারণ was walking দ্বারা Past continuous tense তথা চলমান কাজ বুঝায়। অর্থাৎ Robbery-এর সময় Subject (he) হাঁটছিলো। সুতরাং, Past indefinite tense-এর Passive form 'was robbed' সঠিক উত্তর।"
+  },
+  {
+    "id": 8,
+    "question": "Which is the correct passive form of : We must write to him. [BPSC-25]",
+    "options": [
+      "He must be written to",
+      "He must be written by us",
+      "He must have written to us",
+      "He must write to us"
+    ],
+    "answer": "ক",
+    "explanation": "Passive voice-টি হবে- Sub (He) + must + be + V3 (Written to) + (by + agent). এখানে by + agent (by us) উল্লেখ না থাকলেও অর্থের কোনো সমস্যা হয় না। সুতরাং, সঠিক উত্তর হবে He must be written to."
+  },
+  {
+    "id": 9,
+    "question": "Fill in the blank : The ship — Robinson arrived on the island. [BPSC-25]",
+    "options": [
+      "had been broken",
+      "having broken",
+      "has broken",
+      "having been broken"
+    ],
+    "answer": "ঘ",
+    "explanation": "এখানে Perfect participle in passive voice হবে। সুতরাং, সঠিক Construction-টি হবে having been broken."
+  },
+  {
+    "id": 10,
+    "question": "'You can submit an application to the authority' – change into passive form : [GDA-25]",
+    "options": [
+      "An application is to be submitted by you to the authority.",
+      "The authority can be submitted an application",
+      "An application could be submitted to the authority by you.",
+      "An application can be submitted to the authority by you."
+    ],
+    "answer": "ঘ",
+    "explanation": "প্রদত্ত Sentence সাপেক্ষে Passive structure-টি হবে \"Sub + can + be + V3 + to the authority + Preposition (by) + object. সুতরাং বাক্যটি হবে An application can be submitted to the authority by you."
+  },
+  {
+    "id": 11,
+    "question": "The policy that you are referring to — during the last administration. [DPDC-25]",
+    "options": [
+      "drafted",
+      "is being drafted",
+      "was drafted",
+      "has been drafted"
+    ],
+    "answer": "গ",
+    "explanation": "এখানে, Last administration দ্বারা Past Indefinite নির্দেশ করে। আবার Passive form নির্দেশ করে বিধায় 'was drafted' সঠিক হবে।"
+  },
+  {
+    "id": 12,
+    "question": "The passive form of the sentence ''Who has written Hamlet'' is : [DPDC-25]",
+    "options": [
+      "Hamlet has written by whom?",
+      "By whom has Hamlet been written?",
+      "Who has Hamlet been written by?",
+      "By whom Hamlet is written?"
+    ],
+    "answer": "খ",
+    "explanation": "প্রদত্ত Sentence-এর Passive form-টি হবে— By whom + has be + Subject + been + V3. বাক্যটি হবে \"By whom has Hamlet been written?\""
+  },
+  {
+    "id": 13,
+    "question": "Select the correct passive voice of \"He did for me the unnecessary things.\"– [MOE-2023]",
+    "options": [
+      "The unnecessary things were done for me by him.",
+      "The unnecessary things was done by him for me.",
+      "The unnecessary things had been done for me by him.",
+      "The unnecessary things had to be done for me by him."
+    ],
+    "answer": "ক",
+    "explanation": "'The unnecessary things' এখানে Plural object আর tense হলো Past Indefinite। সুতরাং Verb to be হিসেবে 'were' হবে এবং did এর V3 হিসেবে done বসবে। সুতরাং 'The unnecessary things were done for me by him.' সঠিক।"
+  },
+  {
+    "id": 14,
+    "question": "Choose the passive structure — 'His comment surprised me'. [BPSC-2023]",
+    "options": [
+      "I was surprised at his comment.",
+      "I was surprised by his comment.",
+      "I was surprised for his comment.",
+      "I was surprised to his comment."
+    ],
+    "answer": "ক",
+    "explanation": "Passive voice-এ surprised-এর পরে Preposition হিসেবে at বসে। সুতরাং সঠিক উত্তর হবে— I was surprised at his comment."
+  },
+  {
+    "id": 15,
+    "question": "What is the passive form of the sentence 'You have wasted much time' — [BPSC-2023]",
+    "options": [
+      "Much time was wasted by us.",
+      "Much time has been wasted by you.",
+      "Long time has wasted.",
+      "Much time have been wasted."
+    ],
+    "answer": "খ",
+    "explanation": "প্রদত্ত বাক্যটি Present Perfect tense এ আছে। এখানে Passive voice এর subject হবে much time, subject হবে এবং has been হবে + V3 + by + you। তাহলে 'Much time has been wasted by you.' সঠিক উত্তর হবে। (নোট: উত্তরমালায় 'ঘ' মুদ্রিত থাকলেও ব্যাখ্যা অনুযায়ী সঠিক উত্তর 'খ')"
+  },
+  {
+    "id": 16,
+    "question": "The report — in a leading newspaper. [BSCIC-2023]",
+    "options": [
+      "published",
+      "has published",
+      "has been published",
+      "publishes"
+    ],
+    "answer": "গ",
+    "explanation": "বাক্যটিতে Present Perfect Tense এবং Passive form হবে। সুতরাং The report has been published in a leading newspaper' সঠিক।"
+  },
+  {
+    "id": 17,
+    "question": "The passive form of the sentence 'Don't waste your time.' is— [BEPZA-2023]",
+    "options": [
+      "Let your time be not wasted",
+      "Let your time not wasted",
+      "Let your time be wasted",
+      "Let not your time be wasted"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Don't' দ্বারা শুরু হওয়া Imperative sentence-এর Passive voice শুরু হয়। 'Let not' দ্বারা; অর্থাৎ Structureটি হবে Let not + object + be + V এর PP। তাহলে Sentence-টি হবে, Let not your time be wasted. সুতরাং ঘ সঠিক উত্তর।"
+  },
+  {
+    "id": 18,
+    "question": "'Please don't disturb me'. Select the correct passive form of the sentence : [BPSC-2022]",
+    "options": [
+      "I should not be disturbed",
+      "Let not I disturbed",
+      "I might not be disturbed",
+      "I may not please be disturbed"
+    ],
+    "answer": "ক",
+    "explanation": "'Please don't disturb me'- Active voice-টি Imperative sentence structure-এ রয়েছে। Imperative sentence যুক্ত বাক্যকে Active থেকে Passive করতে প্রথমে Sub + should + not + be + মূল Verb এর Past Participle করতে হয়।"
+  },
+  {
+    "id": 19,
+    "question": "Change the voice : “Do not laugh at the lame man” [BPSC-2022]",
+    "options": [
+      "Let not the lame man be laughed at",
+      "Let the lame man not laughed at",
+      "Let the lame man not laughed at by someone",
+      "The lame man is not to be laughed at"
+    ],
+    "answer": "ক",
+    "explanation": "Do not দ্বারা শুরু হওয়া active voice-এর imparative sentence-এর passive form এর structure : Let not + object + be + verb-এর past participle. সুতরাং, option (ক) Let not the lame man be laughed at. সঠিক উত্তর।"
+  },
+  {
+    "id": 20,
+    "question": "The correct passive form of the sentence \"Do it\" is— [BPDB-2021]",
+    "options": [
+      "Let it be done",
+      "Let it being done",
+      "Let it be do",
+      "Let being it did"
+    ],
+    "answer": "ক",
+    "explanation": "প্রশ্নে প্রদত্ত Sentence-টি Imperative sentence-এর ক্ষেত্রে Passive বাক্যটি 'Let' দ্বারা শুরু হয় এবং Verb-এর পূর্বে 'be' ব্যবহার হয় এবং মূল Verb-এর Past participle হয়।"
+  },
+  {
+    "id": 21,
+    "question": "A mango ......... to fall. [BPSC-2021]",
+    "options": [
+      "had seen",
+      "was seen",
+      "saw",
+      "have been seen"
+    ],
+    "answer": "খ",
+    "explanation": "Option (খ) সঠিক উত্তর। Gap-এ “Was seen” বসলে প্রদত্ত Sentence-টি Past indefinite tense-এর Passive form-এর সাথে agree করে। Option (ক), (গ) এবং (ঘ) Grammatical rule এবং sense of reality কোনোটার সাথেই Agree করে না। Option (ক) এবং (গ) অনুসারে “A mango” নিজেই দেখার কাজ সম্পন্ন করছে, যা একটি direct object-এর ক্ষেত্রে unreal. Option (ঘ) grammatically incorrect."
+  },
+  {
+    "id": 22,
+    "question": "‘Shut the door’- The passive form of the sentence would be : [CAAB-2021]",
+    "options": [
+      "The door is to be shut",
+      "Let the door be shut",
+      "The door may be shut",
+      "Let the door shut"
+    ],
+    "answer": "খ",
+    "explanation": "Option (খ) সঠিক উত্তর। Imperative sentence-এর Active voice-কে Passive voice-এ রূপান্তরিত করতে হলে প্রথমে Let বসে + object -টি Subject রূপে বসে + be + মূল Verb-এর Past participle বসে।"
+  },
+  {
+    "id": 23,
+    "question": "Indentify the correct passive form of the sentence below : [DOTE-2021]",
+    "options": [
+      "Are they known by you?",
+      "Would they be known by you?",
+      "Are they be known with you?",
+      "Are they known to you?"
+    ],
+    "answer": "ঘ",
+    "explanation": "\"Are they known to you?\" sentence-টিতে Preposition-এর সঠিক ব্যবহার করা হয়েছে। Passive voice-এর Verb-এর Past participle form \"known\" এর পরে Preposition \"to\" ব্যবহৃত হয়, by ব্যবহৃত হয় না।"
+  },
+  {
+    "id": 24,
+    "question": "Passive voice of 'You can help us.' [BCIC-2021]",
+    "options": [
+      "We can be help by you.",
+      "We could be helped by you.",
+      "We can be helped by you.",
+      "We are helped by you."
+    ],
+    "answer": "গ",
+    "explanation": "উপরের (গ) অপশনটি সঠিক উত্তর। কারণ, Active voice-এর Subject, Passive voice-এ Object হবে। Passive voice-এর Object, Active voice-এ Subject-এ পরিণত হবে। Object-এর পূর্বে Preposition- by ব্যবহার করতে হবে। কোনো কোনো ক্ষেত্রে অন্য Preposition-ও ব্যবহৃত হতে পারে। মূল Verb-এর Past Participle বসে।"
+  },
+  {
+    "id": 25,
+    "question": "Why so many people die from this illness —— unknown. [BPSC-2021]",
+    "options": [
+      "is",
+      "are",
+      "widely",
+      "has"
+    ],
+    "answer": "ক",
+    "explanation": "প্রথমত, Sentence-টি একটি Complex sentence । Simply subject হিসেবে ব্যবহৃত হওয়া “Why so many people die from this illness” clause-এর অর্থ “the reason”, যা Singular অর্থ প্রদান করে। দ্বিতীয়ত, Sentence-টির বাংলা অর্থ হলো— এই অসুখে কেন এত মানুষ মারা যায় সেই ‘কারণ টি’ অজানা। এখানে, ‘কারণটি’ Singular অর্থ প্রদান করে। অবশেষে, Sentence-টি Present indefinite tense-এর Passive form-এ আছে। সুতরাং, Option (ক) ‘is’ হলো সঠিক উত্তর।"
+  },
+  {
+    "id": 26,
+    "question": "The passive form of the sentence “Do the task as directed” is ——. [BPSC-2021]",
+    "options": [
+      "Let the task be done as directed.",
+      "Let the task to be done as directed.",
+      "Let the task is done as directed.",
+      "Do the task as to be directed."
+    ],
+    "answer": "ক",
+    "explanation": "Affirmative imperative sentence-এর Passive voice-এর structure— let + object + be + Past participle । সুতরাং, Option (ক) “Let the task be done as directed” sentence-টি সঠিক উত্তর।"
+  },
+  {
+    "id": 27,
+    "question": "The passive voice of the sentence 'We can see nothing without labour' is– [BB-2020]",
+    "options": [
+      "Nothing is not be gained without labour.",
+      "Nothing is to be gained without labour by us.",
+      "Nothing is to be gained by us without labour.",
+      "Nothing can be gained without labour."
+    ],
+    "answer": "ঘ",
+    "explanation": "Active থেকে Passive করার নিয়ম : Object + Verb to be (to verb) verb-এর Past participle + by + nominative + Sentence-এর বাকি অংশ (যদি থাকে) কখনো কখনো nominative উহ্য থাকতে পারে এখানে nominative (us) উহ্য রয়েছে।"
+  },
+  {
+    "id": 28,
+    "question": "The passive structure of ‘They pleased us’ is– [BPSC-2020]",
+    "options": [
+      "We were pleased by them.",
+      "We were being pleased by them.",
+      "We were pleased to them.",
+      "We were pleased with them."
+    ],
+    "answer": "ঘ",
+    "explanation": "যখন কোনো Object পরিপূর্ণ অর্থ প্রকাশের জন্য অন্য কোনো Object গ্রহণ করে, তখন দ্বিতীয় Object-টিকে Factitive object বলে। এরূপ ক্ষেত্রে Factitive object-কে Passive বাক্যের Subject ধরা যায় না।"
+  },
+  {
+    "id": 29,
+    "question": "The correct active form of the sentence \"Let it be done\". Is — [MOCA-2019]",
+    "options": [
+      "Do it",
+      "Let me do it",
+      "I have done it",
+      "It is done by me"
+    ],
+    "answer": "ক",
+    "explanation": "Imperative passive বাক্যে active voice-এর structure - verb + object।"
+  },
+  {
+    "id": 30,
+    "question": "The passive form of the sentence \"You made him cook rice\" is — [MOCA-2019]",
+    "options": [
+      "He was made to cook rice",
+      "He was made cook rice",
+      "He is made to cook rice",
+      "He had made to cook rice"
+    ],
+    "answer": "ক",
+    "explanation": "Causative verb যুক্ত বাক্যটির passive voice-এর structure ob-কে Sub + be verb + মূল verb-এর P.P. to + V-এর base form."
+  },
+  {
+    "id": 31,
+    "question": "'Do you see the flower?' Identify the correct passive form of the above sentence [MOLE-2019]",
+    "options": [
+      "Is the flower was seen by you?",
+      "Is the flower being seen by you?",
+      "Has the flower seen by you?",
+      "Is the flower seen by you?"
+    ],
+    "answer": "ঘ",
+    "explanation": "Interrogative Active-কে passive-এ রূপান্তরিত করতে হলে Auxiliary verb সর্বপ্রথম বসবে + Subject + verb এর past participle + preposition + object + ? বসবে।"
+  },
+  {
+    "id": 32,
+    "question": "The passive form of 'We called him a fool' is— [HED-2019]",
+    "options": [
+      "He had been called a fool by us.",
+      "He was called a fool by us.",
+      "He has called a fool by us.",
+      "He has been called a fool by us."
+    ],
+    "answer": "খ",
+    "explanation": "বাক্যটির জন্য Passive structure হলো- Pronominal Objectটি Sub + was/were (Past Indefinite হলে) + Verb-এর P.P + factitive Object + by + Subটির Object।"
+  },
+  {
+    "id": 33,
+    "question": "The passive form of the sentence who can do it? [MOEF-2019]",
+    "options": [
+      "By whom it can be done?",
+      "By whom can it be done?",
+      "Who can it be done?",
+      "Whom can be done by it?"
+    ],
+    "answer": "খ",
+    "explanation": "Active voice-এ who থাকলে passive voice-এ By whom বসে। তারপর Auxiliary verb, তারপর Active এর Object বসে, তারপর be + v_3 বসে।"
+  },
+  {
+    "id": 34,
+    "question": "'Let him do the sum.' The passive form of the sentence is – [HED-2018]",
+    "options": [
+      "Let the sum be done by him.",
+      "The sum done by him.",
+      "He finished the sum.",
+      "It was he who done the sum."
+    ],
+    "answer": "ক",
+    "explanation": "Imperative sentence-এ let থাকলে Passive করার সময় প্রথমে Let বসে পরে Object + be + V এর PP + by বসে + Subject এর Objective form বসে।"
+  },
+  {
+    "id": 35,
+    "question": "The passive form of the sentence 'do not open the door' is— [PWD-2018]",
+    "options": [
+      "let not the door be opened",
+      "let not the door open",
+      "let not the door be open",
+      "let not the door opened"
+    ],
+    "answer": "ক",
+    "explanation": "Negative imperative sentence-এর passive গঠন : Let + not + Object + be + verb-এর Past participle।"
+  },
+  {
+    "id": 36,
+    "question": "The passive form of the sentence 'His sudden death shocked me' is : [PWD-18]",
+    "options": [
+      "I was shocked by his sudden death",
+      "I was shocked to his sudden death",
+      "I was shocked to know his sudden death",
+      "I was shocked at his sudden death"
+    ],
+    "answer": "ঘ",
+    "explanation": "Passive বাক্যে Shock (আঘাত দেয়া) verb-এর পর by-এর পরিবর্তে at হয়।"
+  },
+  {
+    "id": 37,
+    "question": "The correct passive form of the sentence \"They elected him captain is --.\" [PWD-2018]",
+    "options": [
+      "He is elected captain by them.",
+      "He was elected captain by them.",
+      "He has been elected captain by them.",
+      "Captain is elected him by them."
+    ],
+    "answer": "খ",
+    "explanation": "Pronominal obj-কে Sub + was/were + verb এর p.p + obj. + by + sub-কে Obj."
+  },
+  {
+    "id": 38,
+    "question": "Nobody believes a liar. The correct passive form of the above sentence is : [MOR-2018]",
+    "options": [
+      "A liar is never believed by anyone.",
+      "A liar should not be believed by anybody",
+      "A liar is not believed by anybody.",
+      "A liar is believed by nobody."
+    ],
+    "answer": "গ",
+    "explanation": "Nobody যুক্ত বাক্যকে Passive voice-এ রূপান্তরের জন্য Obj.-কে Sub + be verb + not + verb p.p + by + anybody বসে।"
+  },
+  {
+    "id": 39,
+    "question": "The passive form of the sentence 'He saw me do it' is– [BPSC-2017]",
+    "options": [
+      "I was seen do it by him.",
+      "I was seen to do it by him.",
+      "I was seen doing it by him.",
+      "I was seen to doing it by him."
+    ],
+    "answer": "খ",
+    "explanation": "Active voice এ object এর পরে bare infinitive থাকলে Passive voice এ to + verb (base form হয়।)"
+  },
+  {
+    "id": 40,
+    "question": "'Never tell a lie.' The passive form of this sentence is — [BPSC-2017]",
+    "options": [
+      "Let never be told a lie.",
+      "Let not a lie never be told.",
+      "Let a lie never be told.",
+      "Let lie never be told."
+    ],
+    "answer": "গ",
+    "explanation": "Never যুক্ত Imperative sentence-এর passive voice-এ রূপান্তর Active : Never + vi (base) + object. Passive : Let not + object + ever + be + v3 or, Let never + object + be + v3"
+  },
+  {
+    "id": 41,
+    "question": "The correct passive form of the sentence 'We don't respect dishonest people.' [MOR-2017]",
+    "options": [
+      "We are not respect by dishonest people.",
+      "Dishonest people are not of our taking.",
+      "Dishonest people are not respected by us.",
+      "Dishonest people are not like us."
+    ],
+    "answer": "গ",
+    "explanation": "বাক্যটির passive form-এর গঠন হলো- Object-কে sub + not + verb এর pp form + by + sub-কে object।"
+  },
+  {
+    "id": 42,
+    "question": "If your sister ----, she would come. [HED-2015]",
+    "options": [
+      "invited",
+      "inviting",
+      "invites",
+      "were invited"
+    ],
+    "answer": "ঘ",
+    "explanation": "প্রদত্ত Sentence-টি [second conditional-এর passive form-এ রয়েছে। [Second conditional sentence-এর passive form-এর Structure : If + subject + was/were + verb-এর Past participle form + subject + would/could + verb-এর base form। অথবা, Subject + would/could + verb-এর base form + if + subject + was/were + verb-এর Past participle form."
+  },
+  {
+    "id": 43,
+    "question": "Which is the correct passive form of sentence? \"He is writing a letter\". [HED-2015]",
+    "options": [
+      "A letter is written by him.",
+      "A letter was written by him.",
+      "A letter was being written by him.",
+      "A letter is being written by him."
+    ],
+    "answer": "ঘ",
+    "explanation": "Active থেকে Passive voice-এ রূপান্তর : Structure : Active voice-এর object প্রথমে আনতে হবে তারপর Auxiliary verb + being + verb এর Past participle + preposition + Active voice এর Subject বসবে।"
+  },
+  {
+    "id": 44,
+    "question": "What is the passive voice of “Who did this?” [R&H-2012]",
+    "options": [
+      "By whom was this done?",
+      "Who has done this?",
+      "By whom this has been done?",
+      "Whom did this?"
+    ],
+    "answer": "ক",
+    "explanation": "Active voice-এ who থাকলে passive-এ By whom বসে। তারপর Tense অনুযায়ী Auxiliary verb + subject + verb-এর Past participle."
+  },
+  {
+    "id": 45,
+    "question": "What is the active voice of “The gate was opened by the peon.” [R&H-2012]",
+    "options": [
+      "The peon opened the gate.",
+      "The peon had opened the gate.",
+      "The peon has opened the gate.",
+      "The peon opens the gate."
+    ],
+    "answer": "ক",
+    "explanation": "Object (passive) + verb (Past form) + sub (passive)."
+  },
+  {
+    "id": 46,
+    "question": "I request that the work ......... [MODMR-2004]",
+    "options": [
+      "is done",
+      "should be done",
+      "is doing",
+      "should do"
+    ],
+    "answer": "খ",
+    "explanation": "এখানে Passive form-এ should be done হবে।"
+  },
+  {
+    "id": 47,
+    "question": "Choose the right passive form of \"Who will pay him?\" [MODMR-2004]",
+    "options": [
+      "Who will be paid him.",
+      "Who would be paid him.",
+      "Whom he will be paid.",
+      "By whom will he be paid?"
+    ],
+    "answer": "ঘ",
+    "explanation": "Active voice-এ who থাকলে Passive-এ By whom হবে। Structure : By whom + Auxiliary verb + sub + be + Principal verb-এর past participle."
+  },
+  {
+    "id": 48,
+    "question": "Choose the correct passive form of 'Who will do the work'? [R&H-2003]",
+    "options": [
+      "Who will be done the work?",
+      "Who will done the work?",
+      "By whom will the work be done?",
+      "Whom will the work be done?"
+    ],
+    "answer": "গ",
+    "explanation": "Active voice-এ who থাকলে passive voice-এ By whom বসে + will + active এর object + be + মূল verb-এর pp+?"
+  },
+  {
+    "id": 49,
+    "question": "Which one is the active voice of \"We shall be blamed\"? [R&H-2001]",
+    "options": [
+      "Everyone shall blame us.",
+      "Everyone blames us.",
+      "Everyone will blame us.",
+      "Everyone is blaming us."
+    ],
+    "answer": "ক",
+    "explanation": "Future Indefinite Tense-এর Active voice-এর Structure : sub. + shall/will + v1 + obj."
+  }
+]

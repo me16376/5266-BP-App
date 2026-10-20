@@ -1,0 +1,618 @@
+{
+  "total_exams": 57,
+  "total_questions": 5460,
+  "categories": [
+    {
+      "id": "bangla",
+      "name": "Bangla",
+      "bn_name": "বাংলা ভাষা ও সাহিত্য",
+      "icon": "BookOpen",
+      "desc": "বুয়েট প্যাটার্ন বাংলা ব্যাকরণ ও সাহিত্য অধ্যায়ভিত্তিক চূড়ান্ত সাজেশন ও সমাধান",
+      "folder": "Bangla",
+      "exam_count": 16,
+      "question_count": 1135
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "bn_name": "ইংরেজি ভাষা ও সাহিত্য",
+      "icon": "Layers",
+      "desc": "বুয়েট প্যাটার্ন English Grammar & Literature অধ্যায়ভিত্তিক প্রস্তুতি ও সমাধান",
+      "folder": "English",
+      "exam_count": 17,
+      "question_count": 1023
+    },
+    {
+      "id": "gk",
+      "name": "General Knowledge",
+      "bn_name": "সাধারণ জ্ঞান (বাংলাদেশ ও আন্তর্জাতিক)",
+      "icon": "Award",
+      "desc": "বুয়েট প্যাটার্ন সাধারণ জ্ঞান বাংলাদেশ, আন্তর্জাতিক, আইসিটি ও খেলাধুলা সংকলন",
+      "folder": "GK",
+      "exam_count": 6,
+      "question_count": 2301
+    },
+    {
+      "id": "math",
+      "name": "Mathematics",
+      "bn_name": "গণিত ও মানসিক দক্ষতা",
+      "icon": "Table",
+      "desc": "বুয়েট প্যাটার্ন পাটিগণিত, বীজগণিত, জ্যামিতি ও ক্যালকুলাস নির্ভুল সমাধান",
+      "folder": "Math",
+      "exam_count": 18,
+      "question_count": 1001
+    }
+  ],
+  "exams": [
+    {
+      "id": "buet_bangla_1",
+      "slug": "bangla-উপসর্গ-অনুসর্গ",
+      "title": "উপসর্গ-অনুসর্গ",
+      "clean_filename": "উপসর্গ-অনুসর্গ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 17,
+      "file": "/data/BUET Patern Suggestion/Bangla/উপসর্গ-অনুসর্গ.json"
+    },
+    {
+      "id": "buet_bangla_2",
+      "slug": "bangla-এক-কথায়-প্রকাশ",
+      "title": "এক কথায় প্রকাশ",
+      "clean_filename": "এক কথায় প্রকাশ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 50,
+      "file": "/data/BUET Patern Suggestion/Bangla/এক কথায় প্রকাশ.json"
+    },
+    {
+      "id": "buet_bangla_3",
+      "slug": "bangla-ণত্ব-ও-ষত্ব-বিধান-পরিভাষা",
+      "title": "ণত্ব ও ষত্ব বিধান, পরিভাষা",
+      "clean_filename": "ণত্ব ও ষত্ব বিধান, পরিভাষা.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 20,
+      "file": "/data/BUET Patern Suggestion/Bangla/ণত্ব ও ষত্ব বিধান, পরিভাষা.json"
+    },
+    {
+      "id": "buet_bangla_4",
+      "slug": "bangla-ধ্বনি-বর্ণ-ও-যুক্তবর্ণ",
+      "title": "ধ্বনি, বর্ণ ও যুক্তবর্ণ",
+      "clean_filename": "ধ্বনি, বর্ণ ও যুক্তবর্ণ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 41,
+      "file": "/data/BUET Patern Suggestion/Bangla/ধ্বনি, বর্ণ ও যুক্তবর্ণ.json"
+    },
+    {
+      "id": "buet_bangla_5",
+      "slug": "bangla-পদ-প্রকরণ-ক্রিয়ার-কাল",
+      "title": "পদ প্রকরণ, ক্রিয়ার কাল",
+      "clean_filename": "পদ প্রকরণ, ক্রিয়ার কাল.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 40,
+      "file": "/data/BUET Patern Suggestion/Bangla/পদ প্রকরণ, ক্রিয়ার কাল.json"
+    },
+    {
+      "id": "buet_bangla_6",
+      "slug": "bangla-প্রকৃতি-ও-প্রত্যয়",
+      "title": "প্রকৃতি ও প্রত্যয়",
+      "clean_filename": "প্রকৃতি ও প্রত্যয়.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 18,
+      "file": "/data/BUET Patern Suggestion/Bangla/প্রকৃতি ও প্রত্যয়.json"
+    },
+    {
+      "id": "buet_bangla_7",
+      "slug": "bangla-প্রয়োগ-অপপ্রয়োগ-লিঙ্গান্তর",
+      "title": "প্রয়োগ-অপপ্রয়োগ, লিঙ্গান্তর",
+      "clean_filename": "প্রয়োগ-অপপ্রয়োগ, লিঙ্গান্তর.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 20,
+      "file": "/data/BUET Patern Suggestion/Bangla/প্রয়োগ-অপপ্রয়োগ, লিঙ্গান্তর.json"
+    },
+    {
+      "id": "buet_bangla_8",
+      "slug": "bangla-বাংলা-সাহিত্য",
+      "title": "বাংলা সাহিত্য",
+      "clean_filename": "বাংলা সাহিত্য.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 314,
+      "file": "/data/BUET Patern Suggestion/Bangla/বাংলা সাহিত্য.json"
+    },
+    {
+      "id": "buet_bangla_9",
+      "slug": "bangla-বাগধারা-ও-প্রবাদ-প্রবচন",
+      "title": "বাগধারা ও প্রবাদ প্রবচন",
+      "clean_filename": "বাগধারা ও প্রবাদ প্রবচন.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 72,
+      "file": "/data/BUET Patern Suggestion/Bangla/বাগধারা ও প্রবাদ প্রবচন.json"
+    },
+    {
+      "id": "buet_bangla_10",
+      "slug": "bangla-বানান-ও-শুদ্ধিকরণ",
+      "title": "বানান ও শুদ্ধিকরণ",
+      "clean_filename": "বানান ও শুদ্ধিকরণ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 75,
+      "file": "/data/BUET Patern Suggestion/Bangla/বানান ও শুদ্ধিকরণ.json"
+    },
+    {
+      "id": "buet_bangla_11",
+      "slug": "bangla-ভাষা-ও-ব্যাকরণ",
+      "title": "ভাষা ও ব্যাকরণ",
+      "clean_filename": "ভাষা ও ব্যাকরণ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 40,
+      "file": "/data/BUET Patern Suggestion/Bangla/ভাষা ও ব্যাকরণ.json"
+    },
+    {
+      "id": "buet_bangla_12",
+      "slug": "bangla-যতি-বা-ছেদ-চিহ্ন-বাক্য-ও-বাক্য-শুদ্ধি",
+      "title": "যতি বা ছেদ চিহ্ন, বাক্য ও বাক্য শুদ্ধি",
+      "clean_filename": "যতি বা ছেদ চিহ্ন, বাক্য ও বাক্য শুদ্ধি.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 47,
+      "file": "/data/BUET Patern Suggestion/Bangla/যতি বা ছেদ চিহ্ন, বাক্য ও বাক্য শুদ্ধি.json"
+    },
+    {
+      "id": "buet_bangla_13",
+      "slug": "bangla-শব্দ-ও-শব্দার্থ",
+      "title": "শব্দ ও শব্দার্থ",
+      "clean_filename": "শব্দ ও শব্দার্থ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 131,
+      "file": "/data/BUET Patern Suggestion/Bangla/শব্দ ও শব্দার্থ.json"
+    },
+    {
+      "id": "buet_bangla_14",
+      "slug": "bangla-সংখ্যা-কারক-ও-বিভক্তি",
+      "title": "সংখ্যা, কারক ও বিভক্তি",
+      "clean_filename": "সংখ্যা, কারক ও বিভক্তি.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 39,
+      "file": "/data/BUET Patern Suggestion/Bangla/সংখ্যা, কারক ও বিভক্তি.json"
+    },
+    {
+      "id": "buet_bangla_15",
+      "slug": "bangla-সন্ধি-ও-সমাস",
+      "title": "সন্ধি ও সমাস",
+      "clean_filename": "সন্ধি ও সমাস.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 134,
+      "file": "/data/BUET Patern Suggestion/Bangla/সন্ধি ও সমাস.json"
+    },
+    {
+      "id": "buet_bangla_16",
+      "slug": "bangla-সমার্থক-ও-বিপরীত-শব্দ",
+      "title": "সমার্থক ও বিপরীত শব্দ",
+      "clean_filename": "সমার্থক ও বিপরীত শব্দ.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 77,
+      "file": "/data/BUET Patern Suggestion/Bangla/সমার্থক ও বিপরীত শব্দ.json"
+    },
+    {
+      "id": "buet_english_1",
+      "slug": "english-appropriate-sentence-and-word",
+      "title": "Appropriate Sentence and Word",
+      "clean_filename": "Appropriate Sentence and Word.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 73,
+      "file": "/data/BUET Patern Suggestion/English/Appropriate Sentence and Word.json"
+    },
+    {
+      "id": "buet_english_2",
+      "slug": "english-article",
+      "title": "Article",
+      "clean_filename": "Article.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 21,
+      "file": "/data/BUET Patern Suggestion/English/Article.json"
+    },
+    {
+      "id": "buet_english_3",
+      "slug": "english-conjunction-verb",
+      "title": "Conjunction & Verb",
+      "clean_filename": "Conjunction & Verb.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 14,
+      "file": "/data/BUET Patern Suggestion/English/Conjunction & Verb.json"
+    },
+    {
+      "id": "buet_english_4",
+      "slug": "english-corrections",
+      "title": "Corrections",
+      "clean_filename": "Corrections.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 122,
+      "file": "/data/BUET Patern Suggestion/English/Corrections.json"
+    },
+    {
+      "id": "buet_english_5",
+      "slug": "english-degree",
+      "title": "Degree",
+      "clean_filename": "Degree.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 8,
+      "file": "/data/BUET Patern Suggestion/English/Degree.json"
+    },
+    {
+      "id": "buet_english_6",
+      "slug": "english-english-literature",
+      "title": "English Literature",
+      "clean_filename": "English Literature.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 57,
+      "file": "/data/BUET Patern Suggestion/English/English Literature.json"
+    },
+    {
+      "id": "buet_english_7",
+      "slug": "english-gender-and-number",
+      "title": "Gender and Number",
+      "clean_filename": "Gender and Number.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 10,
+      "file": "/data/BUET Patern Suggestion/English/Gender and Number.json"
+    },
+    {
+      "id": "buet_english_8",
+      "slug": "english-idioms-phrases",
+      "title": "Idioms & Phrases",
+      "clean_filename": "Idioms & Phrases.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 45,
+      "file": "/data/BUET Patern Suggestion/English/Idioms & Phrases.json"
+    },
+    {
+      "id": "buet_english_9",
+      "slug": "english-narration",
+      "title": "Narration",
+      "clean_filename": "Narration.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 11,
+      "file": "/data/BUET Patern Suggestion/English/Narration.json"
+    },
+    {
+      "id": "buet_english_10",
+      "slug": "english-parts-of-speech",
+      "title": "Parts of Speech",
+      "clean_filename": "Parts of Speech.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 109,
+      "file": "/data/BUET Patern Suggestion/English/Parts of Speech.json"
+    },
+    {
+      "id": "buet_english_11",
+      "slug": "english-preposition",
+      "title": "Preposition",
+      "clean_filename": "Preposition.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 153,
+      "file": "/data/BUET Patern Suggestion/English/Preposition.json"
+    },
+    {
+      "id": "buet_english_12",
+      "slug": "english-right-form-of-verb",
+      "title": "Right Form of Verb",
+      "clean_filename": "Right Form of Verb.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 89,
+      "file": "/data/BUET Patern Suggestion/English/Right Form of Verb.json"
+    },
+    {
+      "id": "buet_english_13",
+      "slug": "english-synonyms-antonyms",
+      "title": "Synonyms & Antonyms",
+      "clean_filename": "Synonyms & Antonyms.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 159,
+      "file": "/data/BUET Patern Suggestion/English/Synonyms & Antonyms.json"
+    },
+    {
+      "id": "buet_english_14",
+      "slug": "english-tense",
+      "title": "Tense",
+      "clean_filename": "Tense.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 26,
+      "file": "/data/BUET Patern Suggestion/English/Tense.json"
+    },
+    {
+      "id": "buet_english_15",
+      "slug": "english-translation",
+      "title": "Translation",
+      "clean_filename": "Translation.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 42,
+      "file": "/data/BUET Patern Suggestion/English/Translation.json"
+    },
+    {
+      "id": "buet_english_16",
+      "slug": "english-voice",
+      "title": "Voice",
+      "clean_filename": "Voice.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 21,
+      "file": "/data/BUET Patern Suggestion/English/Voice.json"
+    },
+    {
+      "id": "buet_english_17",
+      "slug": "english-word-meaning",
+      "title": "Word Meaning",
+      "clean_filename": "Word Meaning.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 63,
+      "file": "/data/BUET Patern Suggestion/English/Word Meaning.json"
+    },
+    {
+      "id": "buet_gk_1",
+      "slug": "gk-আন্তর্জাতিক-বিষয়াবলি",
+      "title": "আন্তর্জাতিক বিষয়াবলি",
+      "clean_filename": "আন্তর্জাতিক বিষয়াবলি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 604,
+      "file": "/data/BUET Patern Suggestion/GK/আন্তর্জাতিক বিষয়াবলি.json"
+    },
+    {
+      "id": "buet_gk_2",
+      "slug": "gk-কম্পিউটার-ও-তথ্য-প্রযুক্তি",
+      "title": "কম্পিউটার ও তথ্য প্রযুক্তি",
+      "clean_filename": "কম্পিউটার ও তথ্য প্রযুক্তি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 134,
+      "file": "/data/BUET Patern Suggestion/GK/কম্পিউটার ও তথ্য প্রযুক্তি.json"
+    },
+    {
+      "id": "buet_gk_3",
+      "slug": "gk-খেলাধুলা",
+      "title": "খেলাধুলা",
+      "clean_filename": "খেলাধুলা.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 20,
+      "file": "/data/BUET Patern Suggestion/GK/খেলাধুলা.json"
+    },
+    {
+      "id": "buet_gk_4",
+      "slug": "gk-পাওয়ার-সেক্টর-ও-গ্যাস-সেক্টর",
+      "title": "পাওয়ার সেক্টর ও গ্যাস সেক্টর",
+      "clean_filename": "পাওয়ার সেক্টর ও গ্যাস সেক্টর.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 471,
+      "file": "/data/BUET Patern Suggestion/GK/পাওয়ার সেক্টর ও গ্যাস সেক্টর.json"
+    },
+    {
+      "id": "buet_gk_5",
+      "slug": "gk-বাংলাদেশ-বিষয়াবলি",
+      "title": "বাংলাদেশ বিষয়াবলি",
+      "clean_filename": "বাংলাদেশ বিষয়াবলি.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 799,
+      "file": "/data/BUET Patern Suggestion/GK/বাংলাদেশ বিষয়াবলি.json"
+    },
+    {
+      "id": "buet_gk_6",
+      "slug": "gk-সাধারণ-বিজ্ঞান",
+      "title": "সাধারণ বিজ্ঞান",
+      "clean_filename": "সাধারণ বিজ্ঞান.json",
+      "category_id": "gk",
+      "category_name": "General Knowledge",
+      "question_count": 273,
+      "file": "/data/BUET Patern Suggestion/GK/সাধারণ বিজ্ঞান.json"
+    },
+    {
+      "id": "buet_math_1",
+      "slug": "math-অনুপাত-ও-সমানুপাত",
+      "title": "অনুপাত ও সমানুপাত",
+      "clean_filename": "অনুপাত ও সমানুপাত.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 71,
+      "file": "/data/BUET Patern Suggestion/Math/অনুপাত ও সমানুপাত.json"
+    },
+    {
+      "id": "buet_math_2",
+      "slug": "math-আংশিক-ভগ্নাংশ",
+      "title": "আংশিক ভগ্নাংশ",
+      "clean_filename": "আংশিক ভগ্নাংশ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 1,
+      "file": "/data/BUET Patern Suggestion/Math/আংশিক ভগ্নাংশ.json"
+    },
+    {
+      "id": "buet_math_3",
+      "slug": "math-ক্যালকুলাস",
+      "title": "ক্যালকুলাস",
+      "clean_filename": "ক্যালকুলাস.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 15,
+      "file": "/data/BUET Patern Suggestion/Math/ক্যালকুলাস.json"
+    },
+    {
+      "id": "buet_math_4",
+      "slug": "math-জ্যামিতি",
+      "title": "জ্যামিতি",
+      "clean_filename": "জ্যামিতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 130,
+      "file": "/data/BUET Patern Suggestion/Math/জ্যামিতি.json"
+    },
+    {
+      "id": "buet_math_5",
+      "slug": "math-ত্রিকোণমিতি-এবং-পরিমিতি",
+      "title": "ত্রিকোণমিতি এবং পরিমিতি",
+      "clean_filename": "ত্রিকোণমিতি এবং পরিমিতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 29,
+      "file": "/data/BUET Patern Suggestion/Math/ত্রিকোণমিতি এবং পরিমিতি.json"
+    },
+    {
+      "id": "buet_math_6",
+      "slug": "math-বহুপদী-উৎপাদক-বীজগণিত",
+      "title": "বহুপদী উৎপাদক (বীজগণিত)",
+      "clean_filename": "বহুপদী উৎপাদক (বীজগণিত).json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 89,
+      "file": "/data/BUET Patern Suggestion/Math/বহুপদী উৎপাদক (বীজগণিত).json"
+    },
+    {
+      "id": "buet_math_7",
+      "slug": "math-বাস্তব-সংখ্যা",
+      "title": "বাস্তব সংখ্যা",
+      "clean_filename": "বাস্তব সংখ্যা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 121,
+      "file": "/data/BUET Patern Suggestion/Math/বাস্তব সংখ্যা.json"
+    },
+    {
+      "id": "buet_math_8",
+      "slug": "math-বেগ-ও-সময়",
+      "title": "বেগ ও সময়",
+      "clean_filename": "বেগ ও সময়.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 46,
+      "file": "/data/BUET Patern Suggestion/Math/বেগ ও সময়.json"
+    },
+    {
+      "id": "buet_math_9",
+      "slug": "math-ভেক্টর",
+      "title": "ভেক্টর",
+      "clean_filename": "ভেক্টর.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 5,
+      "file": "/data/BUET Patern Suggestion/Math/ভেক্টর.json"
+    },
+    {
+      "id": "buet_math_10",
+      "slug": "math-মানসিক-দক্ষতা",
+      "title": "মানসিক দক্ষতা",
+      "clean_filename": "মানসিক দক্ষতা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 148,
+      "file": "/data/BUET Patern Suggestion/Math/মানসিক দক্ষতা.json"
+    },
+    {
+      "id": "buet_math_11",
+      "slug": "math-ম্যাট্রিক্স-ও-নির্ণায়ক",
+      "title": "ম্যাট্রিক্স ও নির্ণায়ক",
+      "clean_filename": "ম্যাট্রিক্স ও নির্ণায়ক.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 1,
+      "file": "/data/BUET Patern Suggestion/Math/ম্যাট্রিক্স ও নির্ণায়ক.json"
+    },
+    {
+      "id": "buet_math_12",
+      "slug": "math-লসাগু-ও-গসাগু",
+      "title": "ল.সা.গু ও গ.সা.গু",
+      "clean_filename": "ল.সা.গু ও গ.সা.গু.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 14,
+      "file": "/data/BUET Patern Suggestion/Math/ল.সা.গু ও গ.সা.গু.json"
+    },
+    {
+      "id": "buet_math_13",
+      "slug": "math-শতকরা-লাভ-ও-ক্ষতি",
+      "title": "শতকরা, লাভ ও ক্ষতি",
+      "clean_filename": "শতকরা, লাভ ও ক্ষতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 70,
+      "file": "/data/BUET Patern Suggestion/Math/শতকরা, লাভ ও ক্ষতি.json"
+    },
+    {
+      "id": "buet_math_14",
+      "slug": "math-সমান্তর-গুণোত্তর-ও-অনুক্রম-ধারা",
+      "title": "সমান্তর, গুণোত্তর ও অনুক্রম ধারা",
+      "clean_filename": "সমান্তর, গুণোত্তর ও অনুক্রম ধারা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 52,
+      "file": "/data/BUET Patern Suggestion/Math/সমান্তর, গুণোত্তর ও অনুক্রম ধারা.json"
+    },
+    {
+      "id": "buet_math_15",
+      "slug": "math-সরল-ও-যৌগিক-মুনাফা",
+      "title": "সরল ও যৌগিক মুনাফা",
+      "clean_filename": "সরল ও যৌগিক মুনাফা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 20,
+      "file": "/data/BUET Patern Suggestion/Math/সরল ও যৌগিক মুনাফা.json"
+    },
+    {
+      "id": "buet_math_16",
+      "slug": "math-সরল-সহসমীকরণ",
+      "title": "সরল সহসমীকরণ",
+      "clean_filename": "সরল সহসমীকরণ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 86,
+      "file": "/data/BUET Patern Suggestion/Math/সরল সহসমীকরণ.json"
+    },
+    {
+      "id": "buet_math_17",
+      "slug": "math-সূচক-ও-লগারিদম",
+      "title": "সূচক ও লগারিদম",
+      "clean_filename": "সূচক ও লগারিদম.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 41,
+      "file": "/data/BUET Patern Suggestion/Math/সূচক ও লগারিদম.json"
+    },
+    {
+      "id": "buet_math_18",
+      "slug": "math-সেট-বিন্যাস-ও-সমাবেশ-পরিসংখ্যান-ও-সম্ভাবনা",
+      "title": "সেট, বিন্যাস ও সমাবেশ, পরিসংখ্যান ও সম্ভাবনা",
+      "clean_filename": "সেট, বিন্যাস ও সমাবেশ, পরিসংখ্যান ও সম্ভাবনা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 62,
+      "file": "/data/BUET Patern Suggestion/Math/সেট, বিন্যাস ও সমাবেশ, পরিসংখ্যান ও সম্ভাবনা.json"
+    }
+  ]
+}

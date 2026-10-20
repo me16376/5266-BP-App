@@ -1,0 +1,799 @@
+[
+  {
+    "id": 1,
+    "question": "ভালো তেল ৪০ টাকা লিটার, নরমাল তেল ৩০ টাকা লিটার হলে কি অনুপাতে মিশ্রিত করে তেলের দাম ৩৬ টাকা পার লিটার হবে? [DESCO-CT, MT, ET-25]",
+    "options": [
+      "২:১",
+      "৩:২",
+      "২:৩",
+      "৫:২"
+    ],
+    "answer": "খ",
+    "explanation": "ধরি, ভালো তেল মিশাতে হবে ক লিটার\nনরমাল তেল মিশাতে হবে খ লিটার\nশর্তমতে, ৪০ক + ৩০খ = (ক+খ) ৩৬\n⇒ ৪০ক + ৩০খ = ৩৬ক + ৩৬খ\n⇒ ৪ক = ৬খ\n⇒ ক/খ = ৬/৪\n∴ ক/খ = ৩/২\n∴ ক:খ = ৩:২ (Ans.)"
+  },
+  {
+    "id": 2,
+    "question": "লাবিব, সামি ও সিয়াম এর মধ্যে কিছু টাকা ৫:৪:২ অনুপাতে ভাগ করে দেওয়া হলো। সিয়াম ২০০ টাকা পেলে লাবিব কত টাকা পাবে? [DWASA-CE,ME,EEE-25]",
+    "options": [
+      "400",
+      "500",
+      "480",
+      "600"
+    ],
+    "answer": "খ",
+    "explanation": "শর্তমতে, (x × 2)/(5 + 4 + 2) = 200\n⇒ x = 1100 টাকা\nসুতরাং, লাবিব পাবে = (1100 × 5)/11 = 500 টাকা (Ans.)"
+  },
+  {
+    "id": 3,
+    "question": "Average weight of some women is 60kg and average weight of some men is 72kg. If the average weight of all women and men is 68, then what is the ratio of women and men? [BCPCL-AE-25]",
+    "options": [],
+    "answer": "2 : 1",
+    "explanation": "Solⁿ: Let, Men = x, Women = y\nConditionally, (72x + 60y)/(x + y) = 68\n⇒ 72x + 60y = 68x + 68y\n⇒ x/y = 8/4, ∴ x : y = 2 : 1 (Ans.)"
+  },
+  {
+    "id": 4,
+    "question": "A sum of money distributed among A, B, C & D in the ratio of 5:2:4:3. If C gets 1000TK more than D, what is the share of B? [BWDB-ME-18, PGCB-ME-19, BADC-ME-20, KGDCL-EEE/CE/CSE-21, MPL-CMT/ET/ENT-25]",
+    "options": [
+      "2000 tk",
+      "3000 tk",
+      "4000 tk",
+      "5000 tk"
+    ],
+    "answer": "ক",
+    "explanation": "A : B : C : D = 5 : 2 : 4 : 3\nমনে করি, A পায় = 5x, B পায় = 2x, C পায় = 4x, D পায় = 3x,\nশর্তমতে, 4x - 3x = 1000\n⇒ x = 1000\n∴ B পায় = 2 × 1000 = 2000 Tk (Ans.)"
+  },
+  {
+    "id": 5,
+    "question": "Two numbers are respectively 20% and 50% more than a third number. The ratio of the first two numbers is [APSCL-ET-21, APSCL-ME/EEE-24]",
+    "options": [
+      "3:4",
+      "4:5",
+      "2:3",
+      "4:7"
+    ],
+    "answer": "খ",
+    "explanation": "Let, First number is x\nSecond number is y\nThird number is z\nConditionally x = 1.2 z; y = 1.5 z\nNow, x/y = 1.2/1.5 = 4/5\n∴ x : y = 4 : 5"
+  },
+  {
+    "id": 6,
+    "question": "x : y = 5 : 2, then find out (8x + 5y) / (8x + 2y) = ? [BOGMC-ME/CE/CSE-24]",
+    "options": [
+      "25: 22",
+      "22: 25",
+      "20: 25",
+      "15: 22"
+    ],
+    "answer": "ক",
+    "explanation": "x/y = 5/2 ⇒ x = 5y/2\nNow, (8x + 5y) / (8x + 2y) = (8·(5y/2) + 5y) / (8·(5y/2) + 2y) = 25y/22y = 25/22\n∴ 25: 22 (Ans.)"
+  },
+  {
+    "id": 7,
+    "question": "A person filled up his car tank with fuel. Then he drove from P to Q and again Q to R. If he consumed 2/5 of his fuel in traveling P to Q and consumed 7 litre of fuel in traveling Q to R resulting 1/4 of fuel left in his tank, what was the total amount of fuel? [TGTDCL-EEE/ME/CE/CSE-24]",
+    "options": [
+      "14",
+      "20",
+      "18",
+      "16"
+    ],
+    "answer": "খ",
+    "explanation": "Solⁿ: Fuel used in traveling from, Q to R = 1 - (2/5 + 1/4) = 1 - 13/20 = 7/20\nConditionally, 7/20 of capacity = 7 litres\n∴ Full capacity = 7 × 20/7 = 20 litres (Ans.)\n[Note: বইয়ের অপশনে উত্তর (ক) দেওয়া থাকলেও ব্যাখ্যায় সঠিক উত্তর 20 litres যা অপশন (খ)-তে আছে]"
+  },
+  {
+    "id": 8,
+    "question": "তিন শ্রেণীর কর্মচারীর বেতনের অনুপাত ১: ২: ৩, তাঁদের বেতন যথাক্রমে ৫%, ১০% এবং ১৫% বৃদ্ধি পেলে, তাঁদের বর্ধিত বেতনের অনুপাত কত? [DPDC-ET-24]",
+    "options": [
+      "21: 44: 69",
+      "7: 22: 23",
+      "7: 44: 23",
+      "21: 22: 23"
+    ],
+    "answer": "ক",
+    "explanation": "ধরে নেই, তাদের বেতন ছিল 100: 200: 300। বেতন যথাক্রমে 5%, 10% এবং 15% বৃদ্ধি পেলে নতুন অনুপাত হবে 105: 220: 345 = 21: 44: 69."
+  },
+  {
+    "id": 9,
+    "question": "The distance between two points A and B is 240m. A & B started walking towards them. Speed of A is 6 times than B. What is the ratio between A and B to cover the distance? [BCPCL-EEE-24]",
+    "options": [
+      "6:1",
+      "5: 1",
+      "8:1",
+      "5:2"
+    ],
+    "answer": "ক",
+    "explanation": "যেহেতু A এর গতি B এর চেয়ে 6 গুণ বেশি তাই, A 6 গুণ বেশি দূরত্ব অতিক্রম করবে। ∴ A : B = 6 : 1"
+  },
+  {
+    "id": 10,
+    "question": "If x:y = 5:3; then what is the value of (8x-5y) : (8x+5y)? [BSTI-CE/Physics/EEE-24]",
+    "options": [
+      "3/11",
+      "5/11",
+      "8/23",
+      "4/15"
+    ],
+    "answer": "খ",
+    "explanation": "x/y = 5/3\n⇒ 8x/5y = 40/15\n⇒ (8x - 5y)/(8x + 5y) = (40 - 15)/(40 + 15)\n⇒ (8x - 5y)/(8x + 5y) = 25/55\n∴ (8x - 5y)/(8x + 5y) = 5/11 (Ans.)"
+  },
+  {
+    "id": 11,
+    "question": "পিতার বর্তমান বয়স পুত্রের বয়সের ৩ গুণ। ১২ বছর পর পিতার বয়স পুত্রের বয়সের দ্বিগুণ হলে, পিতার বর্তমান বয়স কত? [BCPCL-ET-23]",
+    "options": [],
+    "answer": "৩৬ বছর",
+    "explanation": "ধরি, পুত্রের বর্তমান বয়স = x বছর\n∴ পিতার বর্তমান বয়স = 3x বছর\nপ্রশ্নমতে, (3x + 12) = 2 (x + 12)\n⇒ x = 12\n∴ বর্তমানে পিতার বয়স = (3 × 12) = 36 বছর (উত্তর)"
+  },
+  {
+    "id": 12,
+    "question": "If X : Y = 7 : 5 And Y : Z = 5 : 7 then X : Z? [SGFL-EEE/CSE-23]",
+    "options": [
+      "2: 3",
+      "5: 6",
+      "1: 1",
+      "5: 7"
+    ],
+    "answer": "গ",
+    "explanation": "Given, x : y = 7 : 5, y : z = 5 : 7\n∴ x : y : z = 7 : 5 : 7\n∴ x : z = 1 : 1"
+  },
+  {
+    "id": 13,
+    "question": "a, b, c ক্রমিক সমানুপাতিক হলে নিচের কোনটি সঠিক? [DESCO-EEE/CSE/CE/ME-23; EGCB-ET/MT/CT/-13; DESCO-CSE/EEE/CE/ME-23; CPGCBL-ET/MT/CT-23]",
+    "options": [
+      "a² = b",
+      "b² = ac",
+      "ab = bc",
+      "a = b = c"
+    ],
+    "answer": "খ",
+    "explanation": "a/b = b/c ⇒ b² = ac (Ans.)"
+  },
+  {
+    "id": 14,
+    "question": "280 মি. দৈর্ঘ্যের একটি চলন্ত ট্রেন এর ঘণ্টায় 60 কি.মি বেগে একটি ল্যাম্পপোস্ট অতিক্রম করতে কত সময় লাগবে? [RAJUK-ET/CT/MT/AIDT-23]",
+    "options": [
+      "16.8 সে.",
+      "16 সে.",
+      "12 সে",
+      "20 সে."
+    ],
+    "answer": "ক",
+    "explanation": "s = 280 মি.\nv = 60 কি.মি/ঘণ্টা = 16.67 মি/সেকেন্ড\n∴ t = s/v = 280/16.67 = 16.8 সেকেন্ড (Ans.)"
+  },
+  {
+    "id": 15,
+    "question": "The unit digit of a two-digit number is 3 and seven times the sum of the digits is the number itself. Find the number. [BIWTA-EEE/CSE-23]",
+    "options": [
+      "45",
+      "53",
+      "63",
+      "71"
+    ],
+    "answer": "গ",
+    "explanation": "একক স্থানীয় অংক হলে = 3 ধরি, দশক স্থানীয় অংক = t\nপ্রশ্নমতে, 7(t + 3) = 10 × t + 3\n⇒ 7t + 21 = 10t + 3 ∴ t = 6\n∴ সংখ্যাটি = 63"
+  },
+  {
+    "id": 16,
+    "question": "A father is 30 times older than his son. 18 years later, he will be only thrice as old as his son. What is the present age of the father? [BIWTA-EEE/CSE-23]",
+    "options": [
+      "25",
+      "36",
+      "40",
+      "57"
+    ],
+    "answer": "গ",
+    "explanation": "ধরি, পুত্রের বর্তমান বয়স = x ∴ পিতার বর্তমান বয়স = 30x\n∴ 18 বছর পর, প্রশ্নমতে, 30x + 18 = (x + 18)3 ⇒ x = 4/3\n∴ পিতার বর্তমান বয়স = 4/3 × 30 = 40 বছর।"
+  },
+  {
+    "id": 17,
+    "question": "একটি শ্রেণিতে ছাত্র-ছাত্রীর গড় বয়স 15.8 বছর। ছাত্রদের গড় বয়স 16.4 এবং ছাত্রীদের গড় বয়স 15.4 হলে, ছাত্র এবং ছাত্রীর বয়সের অনুপাত কত? [BAPEX-MT/CT/CMT/ENT/ET/PT-23]",
+    "options": [
+      "1:2",
+      "2:3",
+      "3:4",
+      "3:5"
+    ],
+    "answer": "খ",
+    "explanation": "ধরি, ছাত্রদের বয়স = x, ছাত্রীদের বয়স = y\nশর্তমতে, 15.8 (x + y) = 16.4 x + 15.4 y\n⇒ 15.8x + 15.8y = 16.4 x + 15.4y\n⇒ 0.6x = 0.4y\n⇒ x/y = 0.4/0.6 ∴ x : y = 2 : 3 (Ans.)"
+  },
+  {
+    "id": 18,
+    "question": "A হচ্ছে B এর 3/2 অংশ, আবার C এর 2/3 অংশ। তাহলে C, B এর কত অংশ। [RNPL-MT/ET-22; CPGCBL-ET/MT/CT-23]",
+    "options": [
+      "9/4",
+      "4/9",
+      "5/4",
+      "11/9"
+    ],
+    "answer": "ক",
+    "explanation": "A = 3B/2 & A = 2C/3\nHere, 3B/2 = 2C/3 ⇒ C/B = 9/4 ∴ C = 9B/4 (Ans.)"
+  },
+  {
+    "id": 19,
+    "question": "একটি পরীক্ষায় ৫২% শিক্ষার্থী বাংলায় এবং ৪২% শিক্ষার্থী ইংরেজিতে অকৃতকার্য হয়। উভয় বিষয়ে অকৃতকার্য শিক্ষার্থী ১৭% হলে উভয় বিষয়ে কৃতকার্য শিক্ষার্থী কত? [BDCCL-ET-22; PGCB-CT-21, PGCB-ET-21]",
+    "options": [
+      "৩৮%",
+      "৩৩%",
+      "২৩%",
+      "১৮%"
+    ],
+    "answer": "গ",
+    "explanation": "উভয় বিষয়ে অকৃতকার্য ১৭%\n∴ শুধু বাংলায় অকৃতকার্য হয় = (52 - 17) = 35%\n∴ শুধু ইংরেজীতে অকৃতকার্য হয় = (42 - 17) = 25%\n∴ উভয় বিষয়ে মোট অকৃতকার্য হয় = 35 + 25 + 17 = 77%\n∴ উভয় বিষয়ে কৃতকার্য হয় = 100 - 77 = 23 জন। (Ans.)"
+  },
+  {
+    "id": 20,
+    "question": "পিতা পুত্রের বর্তমান বয়সের সমষ্টি ৬০ বৎসর। ১৫ বৎসর পর পিতার বয়স পুত্রের বয়সের দ্বিগুণ হলে পুত্রের বর্তমান বয়স কত? [DESCO-ET-19, PGCB- MT-20, BPDB-MT-21, CPGCBL-ET/MT-22]",
+    "options": [
+      "১০ বৎসর",
+      "১২ বৎসর",
+      "১৫ বৎসর",
+      "২০ বৎসর"
+    ],
+    "answer": "গ",
+    "explanation": "Let, 15 বছর পর পুত্রের বয়স = x বছর\n15 বছর পর পিতার বয়স = 2x বছর\n∴ পুত্রের বর্তমান বয়স = x - 15\n∴ পিতার বর্তমান বয়স = 2x - 15\nশর্তমতে, x - 15 + 2x - 15 = 60 ∴ x = 30\n∴ পুত্রের বর্তমান বয়স = 30 - 15 = 15 বছর। (Ans.)"
+  },
+  {
+    "id": 21,
+    "question": "The age of father 10 years ago was thrice the age of his son. Ten years hence, father's age will be twice that of his son. The ratio of their present ages is: [BPDB-EEE/CE/CSE-21]",
+    "options": [
+      "7 : 3",
+      "3 : 7",
+      "4 : 3",
+      "5 : 7"
+    ],
+    "answer": "ক",
+    "explanation": "10 বছর পূর্বে পুত্রের বয়স = x বছর\n10 বছর পূর্বে পিতার বয়স = 3x বছর\n∴ পুত্রের বর্তমান বয়স = x + 10 বছর\n∴ পিতার বর্তমান বয়স = 3x + 10 বছর\n10 বছর পর পুত্রের বয়স = x + 10 + 10 = x + 20 বছর\n10 বছর পর পিতার বয়স = 3x + 10 + 10 = 3x + 20 বছর\nপ্রশ্নমতে, 3x + 20 = 2(x + 20)\n⇒ 3x + 20 = 2x + 40\n⇒ x = 20\nপুত্রের বর্তমান বয়স = 20 + 10 = 30 বছর\nপিতার বর্তমান বয়স = 3 × 20 + 10 = 70 বছর\nপিতার বর্তমান বয়স ঃ পুত্রের বর্তমান বয়স = 70 : 30 = 7 : 3 (Ans.)"
+  },
+  {
+    "id": 22,
+    "question": "A person's present age is two-fifth of the age of his mother. After 8 years, he will be one-half of the age of his mother. How old is the mother at present? [BPDB-EEE/CE/CSE-21]",
+    "options": [
+      "32 years",
+      "36 years",
+      "40 years",
+      "48 years"
+    ],
+    "answer": "গ",
+    "explanation": "ধরি, মায়ের বর্তমান বয়স = x বছর\nব্যক্তির বর্তমান বয়স = 2x/5 বছর\n8 বছর পর মায়ের বয়স = x + 8 বছর\n8 বছর পর ব্যক্তির বয়স = 2x/5 + 8 বছর\nশর্তমতে, 2x/5 + 8 = 1/2(x + 8)\n⇒ 2(2x + 40) = 5(x + 8) [ল.সা.গু করে]\n⇒ 4x + 80 = 5x + 40\n⇒ x = 40\n∴ মায়ের বর্তমান বয়স = 40 বছর (Ans.)"
+  },
+  {
+    "id": 23,
+    "question": "Auto lot has a 2 : 1 ratio of blue cars to red cars and a 6 : 1 ratio of red cars to orange cars on the lot. What could be the total number of blue, red, and orange cars on the lot? [BGFCL-ME/CE-21]",
+    "options": [
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "answer": "ক",
+    "explanation": "এখানে, 2 : 1 blue to red ratio\n6 : 1 red to orange.\nSo, to balance blue to red option we can be written as 12 : 6 (Blue : Red)\n∴ Whole Ratio, Blue : Red : Orange = 12 : 6 : 1 = total 19\nAnd given options 19’s multiple is 38 only"
+  },
+  {
+    "id": 24,
+    "question": "A, B, C, D are partners sharing their profits and losses equally. They change their profit sharing ratio to 2: 2: 1: 1. How much will C sacrifice? [KGDCL-Combined-21]",
+    "options": [
+      "1/6",
+      "1/12",
+      "1/24",
+      "None"
+    ],
+    "answer": "খ",
+    "explanation": "১ম ক্ষেত্রে, [যখন শেয়ার সমান]\nA : B : C : D = 1 : 1 : 1 : 1\nA এর শেয়ার = 1/4, B এর শেয়ার = 1/4, C এর শেয়ার = 1/4, D এর শেয়ার = 1/4\nনতুন ক্ষেত্রে,\nA : B : C : D = 2 : 2 : 1 : 1\nA এর শেয়ার = 2/6, B এর শেয়ার = 2/6, C এর শেয়ার = 1/6, D এর শেয়ার = 1/6\n∴ C এর শেয়ার কম হয়, = 1/4 - 1/6 = 1/12 (Ans.)"
+  },
+  {
+    "id": 25,
+    "question": "ক একটি কাজ ২০ দিনে সম্পন্ন করতে পারে এবং খ কাজটি ৩০ দিনে সম্পন্ন করতে পারে। ক ও খ একত্রে কাজটি কত দিনে সম্পন্ন করতে পারে? [PGCB-CT-21, PGCB-ET-21]",
+    "options": [
+      "৯ দিনে",
+      "১০ দিনে",
+      "১১ দিনে",
+      "১২ দিনে"
+    ],
+    "answer": "ঘ",
+    "explanation": "ক ১ দিনে করে কাজের ১/২০ অংশ\nখ ১ দিনে করে কাজের ১/৩০ অংশ\nক ও খ একত্রে ১ দিনে করে কাজের (১/২০ + ১/৩০) = ১/১২ অংশ\nএখন, ১/১২ অংশ করে ১ দিনে;\n∴ ১ অংশ করে ১/(১/১২) = ১২ দিনে। (Ans.)"
+  },
+  {
+    "id": 26,
+    "question": "একজন শিক্ষার্থী গণিত, ইংরেজি ও ইতিহাসে গড় নম্বর পায় ৮৭। গণিতে যা পায় তা ইংরেজির তিনগুণ। গণিত ও ইতিহাসের অনুপাত ৫ ঃ ৩ হলে, ইংরেজির নম্বর কত? [PGCB-ET-21]",
+    "options": [
+      "৪৫",
+      "৫০",
+      "৪৮",
+      "৬৩"
+    ],
+    "answer": "ক",
+    "explanation": "গণিত, ইংরেজি ও ইতিহাসের গড় নম্বর = ৮৭\nLet, গণিতে পায় = 5x\nইতিহাসে পায় = 3x\n∴ ইংরেজিতে পায় = 5x/3\nশর্তমতে, 5x/3 + 5x + 3x = 87 × 3\n⇒ x = 27\n∴ ইংরেজিতে পায় = (5 × 27)/3 = 45 নম্বর (Ans.)"
+  },
+  {
+    "id": 27,
+    "question": "একটি স্কুলে ছাত্রছাত্রীর গড় বয়স ১৬ বছর। ছাত্র ও ছাত্রীর বয়সের সমষ্টি ৩৮৪ বছর হলে এবং অনুপাত ৫:৩ হলে, ঐ স্কুলের ছাত্র সংখ্যা কত? [PGCB-ET-21]",
+    "options": [
+      "৯",
+      "১৫",
+      "১৬",
+      "২৪"
+    ],
+    "answer": "খ",
+    "explanation": "মোট ছাত্রছাত্রীর সংখ্যা = 384/16 = 24 জন\nধরি, ছাত্র x জন এবং ছাত্রী (24 - x) জন\nশর্তমতে, x : (24 - x) = 5 : 3\n⇒ x/(24 - x) = 5/3\n⇒ x = 15 জন ∴ ঐ স্কুলে ছাত্র সংখ্যা ১৫ জন। (Ans.)"
+  },
+  {
+    "id": 28,
+    "question": "A ও B এর মোট বয়স, B এবং C এর মোট বয়সের তুলনায় ১২ বছর বেশি। C, A এর চেয়ে কত বছর ছোট? [PGCB-ET-21]",
+    "options": [
+      "১০",
+      "১২",
+      "১৫",
+      "১৬"
+    ],
+    "answer": "খ",
+    "explanation": "A + B = B + C + 12; ⇒ A + B - B - C = 12; ⇒ A - C = 12\nসুতরাং, C, A এর চেয়ে 12 বছর ছোট।"
+  },
+  {
+    "id": 29,
+    "question": "কোনো ব্যক্তির মোট আয়ের ১০% বাসা ভাড়া দেওয়ার পর অবশিষ্ট টাকার ১৫% ছেলেমেয়ের পড়ালেখা বাবদ খরচ করে। অবশিষ্ট টাকার ১০% কাপড়চোপড় ক্রয়ের জন্য খরচের পর অবশিষ্ট রইলো ১৩৭৭ টাকা, তাহলে তার মোট আয় কত? [PGCB-ENT-21]",
+    "options": [
+      "১৫০০ টাকা",
+      "১৮০০ টাকা",
+      "২০০০ টাকা",
+      "২৪০০ টাকা"
+    ],
+    "answer": "গ",
+    "explanation": "ধরি, মোট আয় 100 টাকা\nবাসাভাড়া দেয়ার পর থাকে = (100 - 10) = 90 টাকা\nপড়াশোনার খরচের পর থাকে = (90 - 90 × 15/100) = 76.5 টাকা\nকাপড় কেনা পর থাকে = (76.5 - 76.5 × 10/100) = 68.85 টাকা\nশর্তমতে, 68.85% = 1377\n∴ 1% = 1377/68.85\n∴ 100% = (1377 × 100)/68.85 = 2000 টাকা। (Ans.)"
+  },
+  {
+    "id": 30,
+    "question": "৫ বছর পূর্বে পিতার বয়স পুত্রের বয়সের তিনগুণ ছিল ৫ বছর পর পিতার বয়স পুত্রের বয়সের দ্বিগুণ হলে, পিতার বর্তমান বয়স কত? [PGCB-ENT-21]",
+    "options": [
+      "৩০ বছর",
+      "৪০ বছর",
+      "৩৫ বছর",
+      "৫০ বছর"
+    ],
+    "answer": "গ",
+    "explanation": "ধরি, 5 বছর পূর্বে পুত্রের বয়স ছিল = x বছর\n∴ 5 বছর পূর্বে পিতার বয়স ছিল = 3x\n∴ বর্তমান পুত্রের বয়স = (x + 5) বছর\nবর্তমান পিতার বয়স = (3x + 5) বছর\nআবার, 5 বছর পরে পুত্রের বয়স হবে = (x + 5 + 5) = (x + 10) বছর\nএবং 5 বছর পরে পিতার বয়স হবে = (3x + 5 + 5) = (3x + 10) বছর\nশর্তমতে, 3x + 10 = 2(x + 10) ⇒ 3x + 10 = 2x + 20 ⇒ x = 10\n∴ পিতার বর্তমান বয়স = (3x + 5) = (3 × 10 + 5) = 35 বছর। (Ans.)"
+  },
+  {
+    "id": 31,
+    "question": "১০, ৪০ এবং ৫০- এর চতুর্থ সমানুপাতী নিচের কোনটি? [PGCB-CT-21]",
+    "options": [
+      "২০০",
+      "১০০",
+      "৩০০",
+      "৪০০"
+    ],
+    "answer": "ক",
+    "explanation": "ধরি, চতুর্থ সমানুপাতী = x\nসমানুপাতীর ক্ষেত্রে, আমরা জানি, ১ম রাশি × ৪র্থ = ২য় রাশি × ৩য় রাশি\n⇒ ১০ × x = ৪০ × ৫০; ⇒ x = ২০০ (Ans.)"
+  },
+  {
+    "id": 32,
+    "question": "২০% অ্যালকোহলযুক্ত ১৫ লিটার পানিতে ৩ লিটার পানি যোগ করা হলে শতকরা অ্যালকোহলের পরিমাণ কত? [BPDB-CT-21]",
+    "options": [
+      "১৬.৬৭%",
+      "১৭.৬৭%",
+      "১৮.৮৭%",
+      "১৯.৯৭%"
+    ],
+    "answer": "ক",
+    "explanation": "১৫ লিটার পানিতে অ্যালকোহলের পরিমাণ = ১৫ × ২০/১০০ = ৩ লিটার\nএবং, নতুন মিশ্রণ = ১৫ + ৩ = ১৮ লিটার\n∴ অ্যালকোহলের পরিমাণ = (৩×১০০)/১৮ = 16.67% [নতুন মিশ্রণে অ্যালকোহল কিন্তু ৩ লিটারই থাকবে]"
+  },
+  {
+    "id": 33,
+    "question": "সোনা পানির চেয়ে ১৯ গুণ ভারী এবং তামা পানির চেয়ে ৯ গুণ ভারী। ধাতু দুটো কী অনুপাতে মিশ্রিত করলে উক্ত মিশ্রণ পানির চেয়ে ১৫ গুণ ভারী হবে? [BPDB-CT-21]",
+    "options": [
+      "৪ : ৩",
+      "৮ : ৫",
+      "৩ : ২",
+      "১ : ৫"
+    ],
+    "answer": "গ",
+    "explanation": "মনে করি, সোনা ও তামার অনুপাত = x : y\nপ্রশ্নমতে, (19x + 9y)/(x + y) = 15/1\n⇒ 19x + 9y = 15x + 15y\n⇒ 4x = 6y\n⇒ 2x = 3y ⇒ x/y = 3/2\n∴ x : y = 3 : 2 (Ans.)"
+  },
+  {
+    "id": 34,
+    "question": "ক একটি কাজ ৩ দিনে করতে পারে। খ ঐ কাজ ১২ দিনে করতে পারে। ক ও খ এর কাজের অনুপাত কত? [BPDB-CT-21]",
+    "options": [
+      "৪ : ১",
+      "১ : ৪",
+      "১ : ২",
+      "১ : ৩"
+    ],
+    "answer": "ক",
+    "explanation": "এখন, ক ৩ দিনে করে = x কাজ\n∴ ক ১ দিনে করে = x/৩ কাজ\nখ ১২ দিনে করে = x পরিমাণ কাজ\n∴ খ ১ দিনে করে = x/১২ কাজ\n∴ অনুপাত = (x/৩)/(x/১২) = (x/৩) × (১২/x) = ৪/১ = ৪ : ১ (Ans.)"
+  },
+  {
+    "id": 35,
+    "question": "একটি কলেজে ছেলে ও মেয়ের অনুপাত ৫ : ৬। কিছুদিন পর যথাক্রমে ২০% ও ১০% শিক্ষার্থী বৃদ্ধি পায়, তাহলে বর্তমান অনুপাত কত? [KGDCL-MT-21]",
+    "options": [
+      "১২ : ১১",
+      "১১ : ১২",
+      "১১ : ১০",
+      "১০ : ১১"
+    ],
+    "answer": "ঘ",
+    "explanation": "দেওয়া আছে, ছেলে ও মেয়ের অনুপাত = 5 : 6\nধরি, ছেলের সংখ্যা = 5x এবং মেয়ের সংখ্যা = 6x\n20% বৃদ্ধির ফলে ছেলের সংখ্যা হবে = (5x + 5x এর 20%) জন = (5x + 5x এর 20/100) জন = 6x জন\n10% বৃদ্ধির ফলে মেয়ের সংখ্যা হবে = (6x + 6x এর 10%) জন = (6x + 6x এর 10/100) জন = 33/5 x জন\n∴ ছেলে ও মেয়ের বর্তমান অনুপাত = 6x : 33/5 x = 6 : 33/5 = 30 : 33 [5 দ্বারা গুণ] = 10 : 11 জন (Ans.)"
+  },
+  {
+    "id": 36,
+    "question": "খাদিজার আজ জন্মদিন। একবছর আগে তার যা বয়স, 10 বছর আগে তার বয়সের দ্বিগুণ হলে, বর্তমান বয়স কত? [KGDCL-MT-21]",
+    "options": [
+      "২১",
+      "১৯",
+      "২৩",
+      "১৭"
+    ],
+    "answer": "খ",
+    "explanation": "মনে করি, খাদিজার বর্তমান বয়স = x বছর\n∴ 1 বছর আগে খাদিজার বয়স ছিল = (x - 1) বছর\n10 বছর আগে খাদিজার বয়স ছিল = (x - 10) বছর\nপ্রশ্নমতে, x - 1 = 2(x - 10)\n⇒ x - 1 = 2x - 20\n⇒ x - 2x = -20 + 1\n⇒ -x = -19 ∴ x = 19 অতএব, খাদিজার বর্তমান বয়স 19 বছর। (Ans.)"
+  },
+  {
+    "id": 37,
+    "question": "দুটি সংখ্যার অনুপাত ৪ : ৫ এবং যোগফল ১৩৫ হলে, সংখ্যা দুইটি কত? [PGCB-CT-21]",
+    "options": [],
+    "answer": "60, 75",
+    "explanation": "Let, একটি সংখ্যা = 4x এবং অপর সংখ্যা = 5x\nশর্তমতে, 4x + 5x = 135 ∴ x = 15\n∴ একটি সংখ্যা = 4 × 15 = 60 ∴ অপর সংখ্যা = 5 × 15 = 75 (Ans.)"
+  },
+  {
+    "id": 38,
+    "question": "The sum of the present ages of a father and his son is 60 years. Six years ago, father's age was five times the age of the son. After 6 years, son's age will be: [SGCL-EEE/ME-20]",
+    "options": [
+      "12 years",
+      "14 years",
+      "18 years",
+      "20 years"
+    ],
+    "answer": "ঘ",
+    "explanation": "দেওয়া আছে, F + S = 60 ..........(i)\n৬ বছর পূর্বে পিতার বয়স = F - 6\n৬ বছর পূর্বে পুত্রের বয়স = S - 6\nপ্রশ্নমতে, F - 6 = (S - 6)5\n⇒ F - 6 = 5S - 30\n⇒ F - 5S = -30 + 6\n⇒ F - 5S = -24 ..........(ii)\nFor, (i) - (ii), F + S - F + 5S = 60 + 24\n⇒ S = 84/6 = 14\n∴ ৬ বছর পর পুত্রের বয়স, S = 14 + 6 = 20 (Ans.)\n\nOr, Let, Son = x\nFather = (60 - x)\nThen, (60 - x) - 6 = 5(x - 6)\n⇒ 54 - x = 5x - 30\n⇒ 6x = 84 ⇒ x = 14\n∴ After 6 years son age = (x + 6) = (14 + 6) = 20 (Ans.)"
+  },
+  {
+    "id": 39,
+    "question": "পিতা - পুত্রের বয়সের সমষ্টি ৬০ বছর। পিতার বয়স পুত্রের বয়সের ৩ গুণ হলে ১০ বছর পর পুত্রের বয়স কত হবে? [PGCB-ET-19, BCMCL-MT-20]",
+    "options": [
+      "১৫",
+      "২০",
+      "২৫",
+      "৩০"
+    ],
+    "answer": "গ",
+    "explanation": "Let, পুত্রের বয়স = x এবং পিতার বয়স 3x বছর\nশর্তমতে x + 3x = 60 ∴ x = 15; ∴ 10 বছর পর পুত্রের বয়স = 15 + 10 = 25 বছর (Ans.)"
+  },
+  {
+    "id": 40,
+    "question": "If a : b = 4 : 5 and b : c = 7 : 22 then what is the value of a : b : c? [PGCB-MT-20]",
+    "options": [
+      "28 : 35 : 55",
+      "28 : 35 : 110",
+      "25 : 8 : 30",
+      "4 : 35 : 35"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে, a/b = 4/5 ⇒ b/c = 7/22 ⇒ (4×7)/(5×7) = (7×5)/(22×5) ⇒ 28/35 = 35/110\n∴ a : b : c = 28 : 35 : 110"
+  },
+  {
+    "id": 41,
+    "question": "The average age of father and his two sons is 27 years. Five years ago average of the two sons was 12 years. Now, how much is the father's age? [APSCL-CE-20]",
+    "options": [
+      "53",
+      "47",
+      "48",
+      "52"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে, বাবা এবং দুই সন্তানের মোট বয়স = 27 × 3 = 81 বছর [3 জনের গড় = 27]\nআবার, দুই সন্তানের বর্তমান গড় বয়স = 12 + 5 = 17 বছর\nশর্তমতে, বাবার বয়স = 81 - (17 × 2) = 47 বছর (Ans.)"
+  },
+  {
+    "id": 42,
+    "question": "3 years ago the average age of father, son & mother was 27 ; 5 years ago average of mother & son's age was 20 years, now how much is the father's age? [NWPGCL-ME-19, EGCB-ME-20]",
+    "options": [
+      "40",
+      "30",
+      "45",
+      "50"
+    ],
+    "answer": "ক",
+    "explanation": "মনে করি, বর্তমানে পিতার বয়স = x বছর, মাতার বয়স = y বছর, পুত্রের বয়স = z বছর\nশর্তমতে, (x - 3) + (y - 3) + (z - 3) = 3 × 27 ⇒ x + y + z = 90 .......... (i)\nআবার, (y - 5) + (z - 5) = 2 × 20 ⇒ y + z = 50 .......... (ii)\nSolve (i) & (ii) equation, x = 40 (Ans.)"
+  },
+  {
+    "id": 43,
+    "question": "A and B are two numbers such that the sum of 5% of A and 4% of B is equal two third of the sum of 6% of A and 8% of B. Then find the ratio of A and B. [KGDCL-EEE-16, NWPGCL-ME-19, EGCB-ME-20]",
+    "options": [
+      "2 : 3",
+      "1 : 2",
+      "3 : 3",
+      "4 : 3"
+    ],
+    "answer": "ঘ",
+    "explanation": "মনে করি, 5% of A + 4% B = 2/3 (6% of A + 8% of B)\n⇒ 5A/100 + 4B/100 = 2/3 (6A/100 + 8B/100) ⇒ A/100 = B/75 ⇒ A/B = 100/75 = 4/3 ⇒ A: B = 4: 3 (Ans.)"
+  },
+  {
+    "id": 44,
+    "question": "The age of father is 24 years more than his son. After 2 years father's age is two times of son. What is present age of son? [EGCB, BADC-ME-20]",
+    "options": [
+      "26",
+      "24",
+      "22",
+      "20"
+    ],
+    "answer": "গ",
+    "explanation": "Let, son's age = x and Father's age = x + 24\nশর্তমতে, After 2 years, x + 24 + 2 = 2(x + 2) ⇒ x + 26 = 2x + 4 ∴ x = 22 (Ans.)"
+  },
+  {
+    "id": 45,
+    "question": "Rafiq is 12 years older than Ratan. In two years Rafiq's age is doubled of Ratan's age. Ratan's age - . [EGCB-ME-20]",
+    "options": [
+      "15",
+      "10",
+      "20",
+      "25"
+    ],
+    "answer": "খ",
+    "explanation": "Let, Ratan = x and Rafiq = x + 12\nCondition, x + 12 + 2 = 2 (x + 2) ⇒ x = 14 - 4 = 10 (Ans.)"
+  },
+  {
+    "id": 46,
+    "question": "দুটি সংখ্যার অনুপাত ৭ : ৮। ১ম সংখ্যাকে ২০% এবং ২য় সংখ্যাকে ১০% বাড়ালে নতুন অনুপাত কী হবে? [BCMCL-ME-20]",
+    "options": [
+      "১০ : ১১",
+      "২১ : ২২",
+      "১৩ : ১৪",
+      "২২ : ২১"
+    ],
+    "answer": "খ",
+    "explanation": "Given, দুটি সংখ্যার অনুপাত = 7:8\n⇒ 7 + (7 × 20%) : 8 + (8 × 10%) = 8.4 : 8.8 = 21: 22 (Ans.)"
+  },
+  {
+    "id": 47,
+    "question": "তিনটি সংখ্যার অনুপাত ১৯ : ৫ : ৩। ছোট সংখ্যাটি ৯ হলে বড় সংখ্যাটি কত? [BCMCL-ME-20]",
+    "options": [
+      "৫৩",
+      "৫৪",
+      "৫৯",
+      "৫৭"
+    ],
+    "answer": "ঘ",
+    "explanation": "তিনটি সংখ্যার অনুপাত = 19:5:3 = (19 × 3) : (5 × 3) : (3 × 3) = 57 : 15 : 9\n∴ সঠিক উত্তর: 57"
+  },
+  {
+    "id": 48,
+    "question": "Few bananas were distributed among the three monkeys in the ratio 19 : 5 : 3. The lowest number of banana received by a monkey is 9. What is the highest number of banana received by a monkey? [BCMCL-ME-20]",
+    "options": [
+      "57",
+      "27",
+      "81",
+      "35"
+    ],
+    "answer": "ক",
+    "explanation": "Given, 19:5:3 ⇒ (19 × 3) : (5 × 3) : (3 × 3) = 57 : 15 : 9\n∴ highest number = 57 (Ans.)"
+  },
+  {
+    "id": 49,
+    "question": "Sajal is 12 years older than Ratan. After 6 years his age will be twice as that of Ratan. How old is Ratan now? [NWPGCL-ME-19]",
+    "options": [
+      "12",
+      "18",
+      "16",
+      "6"
+    ],
+    "answer": "ঘ",
+    "explanation": "মনে করি, রতনের বয়স = x এবং সজলের বয়স = x + 12\n∴ 6 বছর পর, x + 12 + 6 = 2 (x + 6) ⇒ x = 6 বছর (Ans.)"
+  },
+  {
+    "id": 50,
+    "question": "The age of A is 5 years less than B. Age of B is 3 times than that of C. If 4 years ago, age of C is 10 years, what will be the age of A after 6 years. [APSCL-ME-19]",
+    "options": [],
+    "answer": "43 বছর",
+    "explanation": "Let, A = B - 5 এবং B = 3C\n4 বছর আগে C = 10 হলে বর্তমান, C = 10 + 4 = 14\n∴ A = B - 5 = 3C - 5 = (3 × 14) - 5 = 37 বছর\n6 বছর পর A এর বয়স হবে, A = 37 + 6 = 43 বছর (Ans.)"
+  },
+  {
+    "id": 51,
+    "question": "Ploy was P times older than Ben 6 years ago. If Ploy is now 17, then what is Ben's age now in terms of P. [BCIC-ME-19]",
+    "options": [],
+    "answer": "(11 + 6P)/P",
+    "explanation": "শর্তমতে, 6 বছর আগে, p - 6 = P(b - 6)\n⇒ (17 - 6)/P = b - 6\n⇒ b = 11/P + 6 = (11 + 6P)/P (Ans.) [P - time]"
+  },
+  {
+    "id": 52,
+    "question": "A man invests some money partly in 9% stock at 96 and partly in 12% stock at 120. To obtain equal dividends from both, he must invest the money in the ratio: [NWPGCL-ME-19]",
+    "options": [
+      "3 : 4",
+      "3 : 5",
+      "4 : 5",
+      "16 : 15"
+    ],
+    "answer": "ঘ",
+    "explanation": "বিনিয়োগ = 96/9 = 32/3 [যখন 9% হারে Stock 96]\nআবার, 12% এ Stock 120 ∴ বিনিয়োগ = 120/12 = 10\nসুতরাং, রেশিও = 32/3 : 10 = 32 : 30 = 16 : 15 (Ans.)"
+  },
+  {
+    "id": 53,
+    "question": "৩ বছর আগে একজন শিক্ষক ও একজন ছাত্রের বয়সের অনুপাত ছিল ৪ : ১ এবং তাদের বয়সের গুণফল ছিল ১৯৬। ৮ বছর পর তাদের বয়সের অনুপাত কত হবে? [BADC-CT-18]",
+    "options": [
+      "১৩ : ৬",
+      "৬ : ১৩",
+      "১২ : ৫",
+      "৫ : ১২"
+    ],
+    "answer": "ক",
+    "explanation": "Let, 3 বছর আগে ছাত্রের বয়স = x এবং 3 বছর আগে শিক্ষকের বয়স = 4x বছর\n∴ শর্তমতে, x × 4x = 196 ∴ x = 7\nআবার, ছাত্রের বর্তমান বয়স = (x + 3) বছর\nশিক্ষকের বর্তমান বয়স = (4x + 3) বছর\n∴ 8 বছর পরে ছাত্রের বয়স = x + 3 + 8 = 7 + 3 + 8 = 18 বছর\n∴ 8 বছর পরে শিক্ষকের বয়স = 4 × 7 + 3 + 8 = 39 বছর\nসুতরাং, শিক্ষক : ছাত্র = 39 : 18 = 13 : 6 (Ans.)"
+  },
+  {
+    "id": 54,
+    "question": "পিতা ও পুত্রের বয়সের সমষ্টি ৮০ বছর। পিতার বয়স পুত্রের বয়সের ৪ গুণ। ৫ বছর পর তাদের প্রত্যেকের বয়স কত হবে? [EGCB-ENT-18]",
+    "options": [],
+    "answer": "পুত্রের বয়স = 21 বছর এবং পিতার বয়স = 69 বছর",
+    "explanation": "Let, বর্তমানে পুত্রের বয়স = x বছর; বর্তমানে পিতার বয়স = (80 - x) বছর\nশর্তমতে, 80 - x = 4 × x ∴ x = 16\n∴ ৫ বছর পর পুত্রের বয়স = 16 + 5 = 21 বছর (Ans.)\n∴ ৫ বছর পর পিতার বয়স = 80 - (16 + 5) = 69 বছর (Ans.)"
+  },
+  {
+    "id": 55,
+    "question": "৩ : ৫ এবং ৮ : ৯ অনুপাত দুটির ধারাবাহিক অনুপাত নির্ণয় করুন? [EGCB-ENT-18]",
+    "options": [],
+    "answer": "24 : 40 : 45",
+    "explanation": "Let, ধারাবাহিক অনুপাত = 3/5 = 8/9 ⇒ (3×8)/(5×8) = (8×5)/(9×5) ∴ 24/40 = 40/45\n∴ ধারাবাহিক অনুপাত = 24 : 40 : 45 (Ans.)"
+  },
+  {
+    "id": 56,
+    "question": "If 1/2 x years ago, Masud was 12 and 1/2 x years from now he will be 2x years old, how old will he be 3x years from now? [NESCO-CE-18]",
+    "options": [
+      "20",
+      "30",
+      "54",
+      "40"
+    ],
+    "answer": "গ",
+    "explanation": "দেওয়া আছে, x/2 বছর পূর্বে মাসুদের বয়স = 12 বছর; মাসুদের বর্তমান বয়স = 12 + x/2\nআবার, x/2 বছর পর মাসুদের বয়স = 12 + x/2 + x/2 বছর\nশর্তমতে, 12 + x/2 + x/2 = 2x ⇒ 24 + x + x = 4x ∴ x = 12\n∴ 3x বছর পর মাসুদের বয়স = 12 + x/2 + 3x = 12 + 12/2 + 3 × 12 = 54 বছর"
+  },
+  {
+    "id": 57,
+    "question": "In a mixture milk & water ratio is 5:2, if milk is 6 liter more than water, find how much liter water? [BCPCL-ME-18]",
+    "options": [
+      "2 liter",
+      "3 liter",
+      "4 Liter",
+      "5 liter"
+    ],
+    "answer": "গ",
+    "explanation": "Given, Milk : Water = 5:2\nLet, milk in mixture = 5x, water in mixture = 2x\nশর্তমতে, 5x = 2x + 6 ⇒ 3x = 6 ∴ x = 2 ∴ water in mixture = 2 × 2 = 4 litre. (Ans.)"
+  },
+  {
+    "id": 58,
+    "question": "A is 2 years older than B whose age is twice of C, the sum of ages of A, B & C is 27 then what is the age of B? [BCPCL-ME-18]",
+    "options": [
+      "10",
+      "15",
+      "19",
+      "25"
+    ],
+    "answer": "ক",
+    "explanation": "Let, A = B + 2, B = 2C\nGiven, A + B + C = 27 ⇒ B + 2 + 2C + C = 27 ⇒ 2C + 2 + 2C + C = 27 ∴ C = 5\nসুতরাং, B = 2 × C = 2 × 5 = 10 (Ans.)"
+  },
+  {
+    "id": 59,
+    "question": "a এবং b এর মোট বয়স b এবং c এর মোট বয়সের তুলনায় ১২ বছর বেশি। c, a এর চেয়ে কত বছর ছোট? [BGFCL-CT-17]",
+    "options": [
+      "১০",
+      "১২",
+      "১৫",
+      "১৬"
+    ],
+    "answer": "খ",
+    "explanation": "শর্তমতে, (a + b) - (b + c) = 12 ⇒ a - c = 12 ⇒ a = 12 + c ∴ c, a এর চেয়ে 12 বছরের ছোট (Ans.)"
+  },
+  {
+    "id": 60,
+    "question": "দশ বছর আগে P এর বয়স Q এর অর্ধেক ছিল। বর্তমানে তাদের বয়সের অনুপাত ৩ : ৪ হলে তাদের বয়স কত? [GTCL-ET-16]",
+    "options": [],
+    "answer": "P এর বর্তমান বয়স = 15 বছর, Q এর বর্তমান বয়স = 20 বছর।",
+    "explanation": "Let, দশ বছর আগে Q এর বয়স = x বছর\nদশ বছর আগে P এর বয়স = x/2 = 0.5x বছর\n∴ বর্তমান Q এর বয়স = (x + 10) ∴ বর্তমান P এর বয়স = (0.5x + 10)\nশর্তমতে, (0.5x + 10) / (x + 10) = 3/4 ∴ x = 10\n∴ P এর বর্তমান বয়স = (0.5 × 10) + 10 = 15\n∴ Q এর বর্তমান বয়স = 10 + 10 = 20 (Ans.)"
+  },
+  {
+    "id": 61,
+    "question": "পিয়াল ও পূনমের বয়সের অনুপাত ৭ : ৩। ৪ বছর পূর্বে তাদের বয়সের অনুপাত ছিল ১৩ : ৫। বর্তমানে পূনমের বয়স কত? [BADC-MT-16]",
+    "options": [
+      "২৯",
+      "২৫",
+      "২৪",
+      "২১"
+    ],
+    "answer": "গ",
+    "explanation": "Let, পিয়ালের বর্তমান বয়স = 7x বছর এবং পূনমের বর্তমান বয়স = 3x বছর\n∴ ৪ বছর পূর্বে পিয়ালের বয়স = 7x - 4 ∴ ৪ বছর পূর্বে পূনমের বয়স = 3x - 4\nশর্তমতে, (7x - 4) / (3x - 4) = 13/5 ∴ x = 8 ∴ পূনমের বর্তমান বয়স = 3 × 8 = 24 বছর (Ans.)"
+  },
+  {
+    "id": 62,
+    "question": "৩০ লিটার অ্যাসিড ও দুধের মিশ্রণের অনুপাত ৭ : ৩। কী পরিমাণ দুধ মিশালে তাদের অনুপাত ৩ : ৭ হবে? [BADC-MT-16]",
+    "options": [
+      "৪০ লিটার",
+      "৩০ লিটার",
+      "৪৫ লিটার",
+      "৫০ লিটার"
+    ],
+    "answer": "ক",
+    "explanation": "দুইটি অনুপাত থাকলে যেটাতে মিশাতে বলবে তার সাথে x যোগ হবে।\nLet, অ্যাসিড এর পরিমাণ = (30 × 7) / (7 + 3) = 21 লিটার\nদুধ এর পরিমাণ = (30 × 3) / (7 + 3) = 9 লিটার\nশর্তমতে, 21 / (9 + x) = 3/7 ∴ x = 40 লিটার (Ans.)"
+  },
+  {
+    "id": 63,
+    "question": "একটি চৌবাচ্চার দুটি নল আছে। একটি নল চৌবাচ্চাটিকে ৪০ মিনিটে ভর্তি করতে পারে এবং অপরটি এক ঘন্টায় খালি করতে পারে। একসাথে দুটি নল খুলে দিলে কতক্ষণে চৌবাচ্চাটি ভর্তি হবে? [BADC-MT-16]",
+    "options": [
+      "৯০ মিনিট",
+      "১২০ মিনিট",
+      "৯৩ মিনিট",
+      "১০০ মিনিট"
+    ],
+    "answer": "খ",
+    "explanation": "মনে করি, পূর্ণ হতে সময় x = 40 min, খালি হতে সময়, y = 60 min\nদুটিনল খুলে দিলে ভর্তি হবে = xy / (y - x) = (40 × 60) / (60 - 40) = 120 মিনিট (Ans.)"
+  },
+  {
+    "id": 64,
+    "question": "অমি ও তার দুই যমজ ভাইয়ের বয়সের গড় হলো ৯ বছর। যমজ ভাইদের গড় বয়স ৭ বছর হলে অমির বয়স কত? [BEPZA-CE-16]",
+    "options": [],
+    "answer": "13 বছর",
+    "explanation": "দেওয়া আছে, অমি ও যমজ দুই ভাই এর মোট বয়স = 9 × 3 = 27 বছর।\nযমজ ভাইদের মোট বয়স = 7 × 2 = 14 বছর;\nশর্তমতে, অমির বয়স = 27 - (7 × 2) = 13 বছর (Ans.)"
+  },
+  {
+    "id": 65,
+    "question": "Father's age was four times of son's age 8 years ago. After 8 years father's age will be two times of son's age. Find father's present age. [BCIC-ME-16]",
+    "options": [
+      "28",
+      "34",
+      "40",
+      "48"
+    ],
+    "answer": "গ",
+    "explanation": "Let, 8 বছর আগে পুত্রের বয়স = x বছর এবং 8 বছর আগে পিতার বয়স = 4x বছর\n∴ বর্তমানে পুত্রের বয়স = x + 8 বছর ও পিতার বয়স = 4x + 8 বছর\nশর্তমতে, 4x + 8 + 8 = 2(x + 8 + 8) ∴ x = 8\n∴ পিতার বর্তমান বয়স = 4x + 8 = 32 + 8 = 40 (Ans.)"
+  },
+  {
+    "id": 66,
+    "question": "If a : b = 4 : 7 and b : c = 5 : 6 then find a : b : c. [BEPZA-ME-16]",
+    "options": [],
+    "answer": "20 : 35 : 42",
+    "explanation": "a : b = 4 : 7, b : c = 5 : 6\na : b : c = (4 × 5) : (7 × 5) : (7 × 6) = 20 : 35 : 42 (Ans.)"
+  },
+  {
+    "id": 67,
+    "question": "Summations of age of father and his son is 74. Age ratio before 10 years is 7:2. Find ratio of age after 10 years. [BEPZA-ME-16]",
+    "options": [],
+    "answer": "31 : 16",
+    "explanation": "দেওয়া আছে, বর্তমান বয়সের সমষ্টি = 74\nসুতরাং, 10 বছর পূর্বে বয়সের সমষ্টি = 74 - (10 + 10) = 54\nএখন 54 কে অনুপাত অনুযায়ী ভাঙ্গলে হবে,\nপিতার বয়স = 54/(7+2) × 7 = 42 বছর ও পুত্রের বয়স = 54/(7+2) × 2 = 12 বছর\n∴ তাদের বর্তমান বয়স 52 বছর এবং 22 বছর। 10 বছর পর তাদের বয়স হবে 62 বছর এবং 32 বছর\nঅনুপাত 62 : 32 = 31 : 16 (Ans.)"
+  },
+  {
+    "id": 68,
+    "question": "The ratio of boys to girls at New Govt. Degree College, Rajshahi is 5 : 3. Which one of the following could not be the number of total students in that collage? [BCIC-ME-16]",
+    "options": [
+      "1344",
+      "1350",
+      "1352",
+      "1360"
+    ],
+    "answer": "খ",
+    "explanation": "boy : girl = 5 : 3 ∴ অনুপাতের যোগফল = 5 + 3 = 8\nএখন 8 দ্বারা option গুলোকে ভাগ করবো। যে option সংখ্যাকে ভাগ করলে পূর্ণ সংখ্যা হবে না, সেটিই উত্তর। কারণ পূর্ণ সংখ্যা হলেই সেটি অনুপাত অনুসারে মোট শিক্ষার্থী সংখ্যা হবে। তাই সঠিক উত্তর = 1350।"
+  },
+  {
+    "id": 69,
+    "question": "In a certain English class, 1/4 of the number of girls is equal to 1/6 of the total number of students. What is the ratio of the number of boys to the number of girls in the class? [KGDCL-CE-16]",
+    "options": [
+      "1 to 3",
+      "1 to 2",
+      "2 to 3",
+      "2 to 1"
+    ],
+    "answer": "খ",
+    "explanation": "মনে করি, মেয়ের সংখ্যা = g এবং ছেলে সংখ্যা = b ∴ মোট শিক্ষার্থী সংখ্যা = g + b\nশর্তমতে, g/4 = (g + b)/6 ⇒ 6g = 4g + 4b ⇒ 2g = 4b ⇒ b/g = 2/4 = 1/2 (Ans.)"
+  },
+  {
+    "id": 70,
+    "question": "নিচের কোন ভগ্নাংশটি 2/3 হতে বড়? [46th BCS]",
+    "options": [
+      "33/50",
+      "8/11",
+      "3/5",
+      "13/27"
+    ],
+    "answer": "খ",
+    "explanation": "33/50 = 0.66, 8/11 = 0.727, 3/5 = 0.6, 13/27 = 0.48, 2/3 = 0.66 ∴ 8/11 > 2/3 (Ans.)"
+  },
+  {
+    "id": 71,
+    "question": "100 হতে বড় দুইটি পূর্ণসংখ্যার যোগফল 300 হলে সংখ্যা দুইটির অনুপাত কত? [46th BCS]",
+    "options": [
+      "1 : 9",
+      "2 : 5",
+      "2 : 3",
+      "3 : 5"
+    ],
+    "answer": "গ",
+    "explanation": "option test করতে হবে, (গ) 2:3 = 2 + 3 = 5\n∴ 300 এর 2/5 = 120, 300 এর 3/5 = 180 (Ans.)"
+  }
+]

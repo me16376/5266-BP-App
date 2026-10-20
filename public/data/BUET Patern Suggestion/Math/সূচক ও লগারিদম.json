@@ -1,0 +1,489 @@
+[
+  {
+    "id": 1,
+    "question": "যদি log_x 342 = 4 হয়, তবে x এর মান কত? [47th BCS]",
+    "options": [
+      "3√2",
+      "4√2",
+      "5√2",
+      "√2"
+    ],
+    "answer": "ক",
+    "explanation": "সমাধানঃ\nlog_x 342 = 4\n⇒ x⁴ = 342\n⇒ x⁴ = (3√2)⁴\n∴ x = 3√2"
+  },
+  {
+    "id": 2,
+    "question": "Find the value of x, 2^x + 2^(1-x) = 3 [BIFPCL-ME, EEE-25]",
+    "options": [],
+    "answer": "0 or 1",
+    "explanation": "Solⁿ: Given,\n2^x + 2^(1-x) = 3\n⇒ 2^x + 2/(2^x) = 3        Let, 2^x = a\n⇒ a + 2/a = 3\n⇒ a² + 2 = 3a\n⇒ a² - 3a + 2 = 0\n⇒ a² - 2a - a + 2 = 0\n⇒ a(a - 2) - 1(a - 2) = 0\n⇒ (a - 2)(a - 1) = 0\n∴ a = 2 or a = 1\nSubstitute the value 2^x = a\n2^x = 2\n∴ x = 1\n2^x = 1\n⇒ 2^x = 2⁰\n∴ x = 0\n∴ x = 0 or 1 (Ans.)"
+  },
+  {
+    "id": 3,
+    "question": "log₁₀x = -2 হলে x = ? [DPDC-CST-25]",
+    "options": [
+      "0.01",
+      "0.1",
+      "0.0001",
+      "1"
+    ],
+    "answer": "ক",
+    "explanation": "log₁₀x = -2\n⇒ x = 10⁻²\n∴ x = 0.01."
+  },
+  {
+    "id": 4,
+    "question": "x = 10^0.56, y = 10^0.7 এবং x^z = y² হলে z এর মান কত? [BSCPLC-CSE/EEE-24]",
+    "options": [
+      "0.67",
+      "3.52",
+      "2.5",
+      "5.7"
+    ],
+    "answer": "গ",
+    "explanation": "দেওয়া আছে, x = 10^0.56, y = 10^0.7\nসুতরাং, x^z = y²\n⇒ (10^0.56)^z = (10^0.7)²\n⇒ 10^(0.56xz) = 10^(0.7x2)\n⇒ 0.56z = 1.4\n∴ z = 2.5 (Ans.)"
+  },
+  {
+    "id": 5,
+    "question": "log₂(x + 3) = 2; value of x = ? [NWPGCL-ME/EEE-24]",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "answer": "ঘ",
+    "explanation": "প্রদত্ত রাশি, log₂(x + 3) = 2\n⇒ x + 3 = 2² [log_a x = y ⇒ a^y = x]\n⇒ x = 4 - 3\n∴ x = 1 (Ans.)"
+  },
+  {
+    "id": 6,
+    "question": "5√5 এর 5 ভিত্তিক log কত? [BOGMC-ET/CT-24]",
+    "options": [
+      "3/2",
+      "2/3",
+      "5/2",
+      "0"
+    ],
+    "answer": "ক",
+    "explanation": "log₅(5√5) = log₅(5 × 5^(1/2)) = log₅ 5^(3/2) = 3/2 (Ans.)"
+  },
+  {
+    "id": 7,
+    "question": "log₂4 + log₂8 - log₄16 = ? [BOGMC-EEE/IPE-24]",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "গ",
+    "explanation": "log₂4 + log₂8 - log₄16 = log₂2² + log₂2³ - log₄4² = 2 + 3 - 2 = 3 (Ans.)"
+  },
+  {
+    "id": 8,
+    "question": "If 5^(x+1) - 2.5^x - 3 = 0, What is the value of x? [BOGMC-EEE/IPE-24]",
+    "options": [
+      "log₅ 3",
+      "log₃ 5",
+      "5",
+      "3"
+    ],
+    "answer": "*",
+    "explanation": "5^(x+1) - 2 × 5^x - 3 = 0\n⇒ 5^x . 5 - 2.5^x = 3\n⇒ 5^x(5 - 2) = 3\n⇒ 5^x = 1\n∴ 5^x = 5⁰ ∴ x = 0 (Ans.)"
+  },
+  {
+    "id": 9,
+    "question": "Find the relation between 2²⁸ and (2³⁰ - 2²⁹)/2 [BRPL-CSE/ME/EEE-24]",
+    "options": [
+      "2²⁸ is double to (2³⁰ - 2²⁹)/2",
+      "There is no relation between them.",
+      "These two values are same.",
+      "2²⁸ is ten times than (2³⁰ - 2²⁹)/2."
+    ],
+    "answer": "গ",
+    "explanation": "(2²⁹(2 - 1))/2 = 2²⁸."
+  },
+  {
+    "id": 10,
+    "question": "Log₁₀ 1000 [?]₂ sin30° 200% = 3. What is the value of [?]₂? [EGCB-ICT-24]",
+    "options": [
+      "[001]₂",
+      "[101]₂",
+      "[100]₂",
+      "not determined"
+    ],
+    "answer": "ক",
+    "explanation": "Log₁₀ 1000 [?]₂ sin30° 200% = 3\n= 3 [?]₂ 1/2 . 200% = 3\n[?]₂ . 1 = 3 [1]₂ . 1 = 3 . 1 . 1 = 3\nAns: 1 = [001]₂"
+  },
+  {
+    "id": 11,
+    "question": "If, log_x(16/9) = -2 What is the value of x? [BSTI-CE/Physics/EEE-24]",
+    "options": [
+      "3/4",
+      "4/3",
+      "5/6",
+      "8/17"
+    ],
+    "answer": "ক",
+    "explanation": "log_x(16/9) = -2\n⇒ x⁻² = 16/9\n⇒ x² = 9/16\n∴ x = 3/4"
+  },
+  {
+    "id": 12,
+    "question": "2⁶ˣ/2⁶ + 2⁶ = 64 1/64. What is the value of x =? [BOGMC-ME/CE/CSE-24]",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "5"
+    ],
+    "answer": "ক",
+    "explanation": "2⁶ˣ/2⁶ + 2⁶ = 64 1/64\n⇒ 2⁶ˣ/2⁶ = 4097/64 - 2⁶\n⇒ 2⁶ˣ = 1/64 × 2⁶\n⇒ 2⁶ˣ = 1\n⇒ 2⁶ˣ = 2⁰\n⇒ 6x = 0 ∴ x = 0 (Ans.)"
+  },
+  {
+    "id": 13,
+    "question": "নিচের ধারাটির সাধারণ অন্তর কোনটি? log2 + log4 + log8 +---------- [EGCB-ET/MT/CT-23]",
+    "options": [
+      "2",
+      "4",
+      "log2",
+      "2log2"
+    ],
+    "answer": "গ",
+    "explanation": "সাধারণ অন্তর = log4 - log2 [দ্বিতীয় পদ - ১ম পদ]\n= log(4/2) = log2 (Ans.)"
+  },
+  {
+    "id": 14,
+    "question": "a = bᵖ, b = c^q, c = aʳ হলে pqr =? [BAERA-ET/MT-23]",
+    "options": [
+      "1",
+      "0",
+      "2",
+      "abc"
+    ],
+    "answer": "ক",
+    "explanation": "Given, a = bᵖ, b = c^q, c = aʳ\n∴ a = bᵖ\n⇒ a = (c^q)ᵖ ; ⇒ a = c^(pq) ; ⇒ a = (aʳ)^(pq) ; ⇒ a = (a)^(pqr) ⇒ pqr = 1 (Ans.)"
+  },
+  {
+    "id": 15,
+    "question": "If log₄ x = 12, then log₂ (x/4) =? [BCIC-EEE/ME-22, 19, ERLB-MT/ET/CT-22]",
+    "options": [
+      "11",
+      "22",
+      "44",
+      "2"
+    ],
+    "answer": "খ",
+    "explanation": "Given, log₄ x = 12\n⇒ x = 4¹²\nthen, log₂ (4¹²/4) = log₂ 4¹¹ = log₂ 4¹¹ = log₂ 2²² = 22 (Ans.)"
+  },
+  {
+    "id": 16,
+    "question": "If log_x (1/16) = -2, then x =? [BIWTA-EEE/ME/CE-22]",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "answer": "গ",
+    "explanation": "log_x (1/16) = -2\n⇒ x⁻² = 1/16\n⇒ x⁻² = 4⁻² ∴ x = 4 (Ans.)"
+  },
+  {
+    "id": 17,
+    "question": "If log_x 81 = 4 then, x = ? [TGTDCL-ME-21]",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "গ",
+    "explanation": "Log_x 81 = 4 ; ⇒ x⁴ = 81 ; ⇒ x⁴ = 3⁴ ; ⇒ x = 3 (Ans.)"
+  },
+  {
+    "id": 18,
+    "question": "2³⁰ + 2³⁰ + 2³⁰ + 2³⁰ =? [NESCO-ET/CT-21]",
+    "options": [
+      "2³⁰",
+      "2³²",
+      "2¹²⁰",
+      "2¹⁸⁰"
+    ],
+    "answer": "খ",
+    "explanation": "2³⁰ + 2³⁰ + 2³⁰ + 2³⁰ = 2³⁰(1 + 1 + 1 + 1) = 4 . 2³⁰ = 2² . 2³⁰ = 2³² (Ans.)"
+  },
+  {
+    "id": 19,
+    "question": "যদি 3^(x+2) = 243 হয় তবে 3^(x-2) এর মান কত? [RPCL-MT-21]",
+    "options": [
+      "2",
+      "3",
+      "0",
+      "1"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে, 3^(x+2) = 243 ⇒ 3^(x+2) = 3⁵ ⇒ x + 2 = 5 ∴ x = 3\n3^(x-2) = 3^(3-2) = 3¹ = 3 (Ans.)"
+  },
+  {
+    "id": 20,
+    "question": "If x, y are two positive real numbers and x^(1/3) = y^(1/4) then which relationship is true. [BPDB-EEE/CE/CSE-21]",
+    "options": [
+      "x³ = y⁴",
+      "x³ = y",
+      "x = y⁴",
+      "x²⁰ = y¹⁵"
+    ],
+    "answer": "ঘ",
+    "explanation": "x^(1/3) = y^(1/4) ⇒ LCM of 3, 4 = 12\n∴ (x^(1/3))¹² = (y^(1/4))¹² ⇒ x⁴ = y³\nTake power '5' on both side, ⇒ (x⁴)⁵ = (y³)⁵ ; ⇒ x²⁰ = y¹⁵ (Ans.)"
+  },
+  {
+    "id": 21,
+    "question": "(a/b)^(x-3) = (b/a)^(x-3) হলে x এর মান কত? [APSCL-ET-21]",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "গ",
+    "explanation": "(a/b)^(x-3) = (b/a)^(x-3) ⇒ (a/b)^(x-3) = (a/b)^(-(x-3)) ; ⇒ x - 3 = -x + 3\n∴ x = 3 (Ans.)"
+  },
+  {
+    "id": 22,
+    "question": "What is the value of x if 5^(x-y) = 125 and 5^(x+y) = 3125? [APSCL-EEE-21]",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "ঘ",
+    "explanation": "5^(x-y) = 125\n⇒ 5^(x-y) = 5³\n⇒ x - y = 3 .....(i)\n\nএবং\n5^(x+y) = 3125\n⇒ 5^(x+y) = 5⁵\n⇒ x + y = 5 .....(ii)\n\nSolve (i) & (ii)\nx = 4 (Ans.)"
+  },
+  {
+    "id": 23,
+    "question": "If log_(2√5) 20 = x then find the value of x. [APSCL-CE-20]",
+    "options": [
+      "∛5",
+      "√5",
+      "5",
+      "2"
+    ],
+    "answer": "ঘ",
+    "explanation": "Given, log_(2√5) 20 = x [log_a x = b হলে a^b = x লিখা যায়।]\n⇒ 20 = (2√5)^x ⇒ (2√5)^x = 4 × 5 = 2² × (√5)² = (2√5)²\n⇒ x = 2 (Ans.)"
+  },
+  {
+    "id": 24,
+    "question": "Find the value of log₅(∛5 . √5). [APSCL-CE-20]",
+    "options": [
+      "6/5",
+      "√(5/6)",
+      "5/6",
+      "1/2"
+    ],
+    "answer": "গ",
+    "explanation": "log₅(∛5 . √5) = log₅(5^(1/3) . 5^(1/2)) = log₅ 5^(1/3 + 1/2) = log₅ 5^(5/6) = 5/6 (Ans.)"
+  },
+  {
+    "id": 25,
+    "question": "If log₁₀5 + log₁₀(5x + 1) = log₁₀(x + 5) + 1, then x = ? [NWPGCL-ME-19, PGCB-ME-19, EGCB-ME-20]",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "7"
+    ],
+    "answer": "খ",
+    "explanation": "log₁₀5 + log₁₀(5x + 1) = log₁₀(x + 5) + 1\n⇒ log₁₀5 + log₁₀(5x + 1) = log₁₀(x + 5) + log₁₀10\n⇒ log₁₀(5 × (5x + 1)) = log₁₀{(x + 5) × 10}\n⇒ 5 × (5x + 1) = (x + 5) . 10\n⇒ x = 3 (Ans.)"
+  },
+  {
+    "id": 26,
+    "question": "log₁₀(1/100) = ? [SGCL-MT-20]",
+    "options": [
+      "5",
+      "-2",
+      "4",
+      "7"
+    ],
+    "answer": "খ",
+    "explanation": "log₁₀(1/100) = log₁₀(1/10²) = log₁₀ 10⁻² = -2 log₁₀ 10 = -2 (Ans.)"
+  },
+  {
+    "id": 27,
+    "question": "If log_x(1/8) = -3/2 then the value of x = ? [BCIC-ME-19]",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "4"
+    ],
+    "answer": "ঘ",
+    "explanation": "log_x(1/8) = -3/2 ⇒ x^(-3/2) = 1/8\n⇒ (x^(-3/2))^(-2/3) = (1/8)^(-2/3) [উভয়য়ের উপর -2/3 power করে]\n⇒ x = 4 (Ans.) [Using Calculator]"
+  },
+  {
+    "id": 28,
+    "question": "log(10⁴⁸/10⁴⁶) = ? [DESCO- ME -19]",
+    "options": [
+      "2",
+      "100",
+      "4.6",
+      "28"
+    ],
+    "answer": "ক",
+    "explanation": "log(10⁴⁸/10⁴⁶) = log₁₀ 10^(48-46) = log₁₀ 10² = 2 log₁₀ 10 = 2 (Ans.)"
+  },
+  {
+    "id": 29,
+    "question": "log₃(1/9) এর মান কত? [NESCO-CE-18]",
+    "options": [
+      "2",
+      "3",
+      "-3",
+      "-2"
+    ],
+    "answer": "ঘ",
+    "explanation": "log₃(1/9) = log₃(1/3²) = log₃ 3⁻² = -2 log₃ 3 = -2 (Ans.)"
+  },
+  {
+    "id": 30,
+    "question": "log_y ∛3 = 1/15, what is y ? [BCPCL-ME-18]",
+    "options": [
+      "116",
+      "228",
+      "18",
+      "243"
+    ],
+    "answer": "ঘ",
+    "explanation": "log_y ∛3 = 1/15 ⇒ y^(1/15) = ∛3 = 3^(1/3) ⇒ (y^(1/15))¹⁵ = (3^(1/3))¹⁵ ⇒ y = 243 (Ans.)"
+  },
+  {
+    "id": 31,
+    "question": "If log_x 3√3 = 15, then what is the value of x ? [BCPCL-ME-18]",
+    "options": [
+      "1.116",
+      "2.611",
+      "11.62",
+      "√3"
+    ],
+    "answer": "ক",
+    "explanation": "Given, log_x 3√3 = 15 ⇒ x¹⁵ = 3√3 ⇒ (x¹⁵)^(1/15) = (3√3)^(1/15) ⇒ x = 1.116"
+  },
+  {
+    "id": 32,
+    "question": "For what value of x, 8^(2x-4) = 16^x? [NESCO-CE-18]",
+    "options": [
+      "2",
+      "6",
+      "8",
+      "3"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে, 8^(2x-4) = 16^x ; ⇒ (2³)^(2x-4) = 2^(4x) ; ⇒ (2)^(6x-12) = 2^(4x)\n⇒ 6x - 12 = 4x ; ⇒ 6x - 4x = 12 ∴ x = 12/2 = 6 (Ans.)"
+  },
+  {
+    "id": 33,
+    "question": "If 2^(x+5) = 32, what is the value of 3^(x+2)? [NESCO-CE-18]",
+    "options": [
+      "25",
+      "90",
+      "81",
+      "100"
+    ],
+    "answer": "*",
+    "explanation": "দেওয়া আছে, 2^(x+5) = 32 ; ⇒ 2^(x+5) = 2⁵ ; ⇒ x + 5 = 5 ∴ x = 0\n∴ 3^(x+2) = 3^(0+2) = 3² = 9 (Ans.)"
+  },
+  {
+    "id": 34,
+    "question": "If 2^x + 2^(1-x) = 3, then x = ? [BPDB-18]",
+    "options": [
+      "0, 2",
+      "1, 3",
+      "0, 1",
+      "1, 2"
+    ],
+    "answer": "গ",
+    "explanation": "দেওয়া আছে, 2^x + 2^(1-x) = 3 ; ⇒ 2^x + 2¹ . 2⁻ˣ = 3\n⇒ 2^x + 2 . 1/(2^x) = 3 ; ⇒ 2ˣ . 2ˣ + 2 = 3 . 2ˣ\n⇒ 2ˣ . 2ˣ - 2ˣ . 2 - 2ˣ + 2 = 0 ; ⇒ 2ˣ(2ˣ - 2) - 1(2ˣ - 2) = 0\n⇒ (2ˣ - 2)(2ˣ - 1) = 0\n∴ 2ˣ - 2 = 0 ⇒ 2ˣ = 2¹ ∴ x = 1\nAgain, 2ˣ - 1 = 0 ⇒ 2ˣ = 1 ⇒ 2ˣ = 2⁰ ∴ x = 0 [যেহেতু, a⁰ = 1]\n∴ x = 0, 1 (Ans.)"
+  },
+  {
+    "id": 35,
+    "question": "If log_x(9/16) = -1/2, then x equal to: [BWDB-CE-17]",
+    "options": [
+      "-3/4",
+      "3/4",
+      "81/256",
+      "256/81"
+    ],
+    "answer": "ঘ",
+    "explanation": "log_x(9/16) = -1/2 ⇒ x^(-1/2) = 9/16 ⇒ x^(1/2) = 16/9 ⇒ x = (16/9)² = 256/81 (Ans.)"
+  },
+  {
+    "id": 36,
+    "question": "নিচের কোন ক্ষেত্রে সবসময় একটি বিজোড় সংখ্যা পাওয়া যাবে? [GTCL-ET-16]",
+    "options": [
+      "2n + 2",
+      "(2n + 2)²",
+      "2n + 1",
+      "সবকয়টি"
+    ],
+    "answer": "গ",
+    "explanation": "যেহেতু (2n+1) equation টিতে (+1) আছে, তাই n এর মান যাই হোক না কেন তার সাথে জোড় সংখ্যা ২ গুণ থাকার কারণে, সংখ্যাটি জোড় হবে এবং, জোড় সংখ্যার সাথে ১ যোগ করলে বিজোড় সংখ্যা পাওয়া যাবে।\n∴ (2n+1) সবসময় বিজোড় সংখ্যা।"
+  },
+  {
+    "id": 37,
+    "question": "If 9^x = (81)^y then find the value of x/y. [BCIC-ME-16]",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "-2"
+    ],
+    "answer": "ক",
+    "explanation": "দেওয়া আছে, 9^x = (81)^y ; ⇒ 9^x = (9²)^y ; ⇒ 9^x = 9^(2y) ; ⇒ x = 2y ⇒ x/y = 2 (Ans.)"
+  },
+  {
+    "id": 38,
+    "question": "If ∛x = 4, then √x = ? [BEPZA-ME-16]",
+    "options": [
+      "0",
+      "8",
+      "4",
+      "6"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে, ∛x = 4 ; ⇒ (x)^(1/3) = 4 ; ⇒ ((x)^(1/3))³ = 4³ ; ⇒ x = 64 ∴ √x = 8 (Ans.)"
+  },
+  {
+    "id": 39,
+    "question": "(64)^(1/3) = ? [BEPZA-ME-16]",
+    "options": [
+      "0",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "গ",
+    "explanation": "দেওয়া আছে, (64)^(1/3) = (8²)^(1/3) = (2³)^(2/3) = (2)^(2×3/3) = 2² = 4 (Ans.)"
+  },
+  {
+    "id": 40,
+    "question": "1/2 × 2^(x-3) + 1 = 5 হলে x এর মান কত? [46th BCS]",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "ঘ",
+    "explanation": "1/2 × 2^(x-3) + 1 = 5\n⇒ 1/2 × 2^(x-3) = 4\n⇒ 2^(x-3) = 8\n⇒ 2^(x-3) = 2³\n⇒ x - 3 = 3 ; ∴ x = 6 (Ans.)"
+  },
+  {
+    "id": 41,
+    "question": "log_√8 x = 3 1/3 হলে x এর মান কত? [46th BCS]",
+    "options": [
+      "32",
+      "8",
+      "3",
+      "√8"
+    ],
+    "answer": "ক",
+    "explanation": "log_√8 x = 3 1/3\n⇒ log_√8 x = 10/3\n⇒ x = (√8)^(10/3) = (8^(1/2))^(10/3) = (8)^(5/3) = (2³)^(5/3) = 2⁵ = 32 (Ans.)"
+  }
+]

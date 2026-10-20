@@ -1,0 +1,148 @@
+{
+  "total_exams": 7,
+  "total_questions": 5664,
+  "categories": [
+    {
+      "id": "bangla",
+      "name": "Bangla",
+      "bn_name": "বাংলা (১,২৪৮ প্রশ্ন)",
+      "icon": "BookOpen",
+      "desc": "বিপিএসসি নন-ক্যাডার ও নন-টেক পরীক্ষার বাংলা বিষয়ের পূর্ণাঙ্গ প্রশ্নব্যাংক",
+      "folder": "Bangla",
+      "exam_count": 1,
+      "question_count": 1248
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "bn_name": "English (১,৫৫৮ প্রশ্ন)",
+      "icon": "Layers",
+      "desc": "বিপিএসসি নন-ক্যাডার ও নন-টেক পরীক্ষার English বিষয়ের পূর্ণাঙ্গ প্রশ্নব্যাংক",
+      "folder": "English",
+      "exam_count": 1,
+      "question_count": 1558
+    },
+    {
+      "id": "math",
+      "name": "Mathematics",
+      "bn_name": "গণিত (১,০০৩ প্রশ্ন)",
+      "icon": "Table",
+      "desc": "বিপিএসসি নন-ক্যাডার ও নন-টেক নিয়োগ পরীক্ষার গণিত বিষয়ের পূর্ণাঙ্গ প্রশ্নব্যাংক",
+      "folder": "Math",
+      "exam_count": 1,
+      "question_count": 1003
+    },
+    {
+      "id": "bangladesh-affairs",
+      "name": "Bangladesh Affairs",
+      "bn_name": "বাংলাদেশ বিষয়াবলি (৬১৩ প্রশ্ন)",
+      "icon": "Award",
+      "desc": "বিপিএসসি নন-ক্যাডার ও নন-টেক নিয়োগ পরীক্ষার বাংলাদেশ বিষয়াবলি প্রশ্নব্যাংক",
+      "folder": "Bangladesh Affairs",
+      "exam_count": 1,
+      "question_count": 613
+    },
+    {
+      "id": "international-affairs",
+      "name": "International Affairs",
+      "bn_name": "আন্তর্জাতিক বিষয়াবলি (৫৪০ প্রশ্ন)",
+      "icon": "Globe",
+      "desc": "বিপিএসসি নন-ক্যাডার ও নন-টেক নিয়োগ পরীক্ষার আন্তর্জাতিক বিষয়াবলি প্রশ্নব্যাংক",
+      "folder": "International Affairs",
+      "exam_count": 1,
+      "question_count": 540
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "bn_name": "সাধারণ বিজ্ঞান (৫৪৫ প্রশ্ন)",
+      "icon": "Sparkles",
+      "desc": "বিপিএসসি নন-ক্যাডার ও নন-টেক নিয়োগ পরীক্ষার সাধারণ বিজ্ঞান পূর্ণাঙ্গ প্রশ্নব্যাংক",
+      "folder": "Science",
+      "exam_count": 1,
+      "question_count": 545
+    },
+    {
+      "id": "ict",
+      "name": "ICT",
+      "bn_name": "তথ্য ও যোগাযোগ প্রযুক্তি (১৫৭ প্রশ্ন)",
+      "icon": "Monitor",
+      "desc": "বিপিএসসি নন-ক্যাডার ও নন-টেক নিয়োগ পরীক্ষার আইসিটি প্রশ্নব্যাংক ও সমাধান",
+      "folder": "ICT",
+      "exam_count": 1,
+      "question_count": 157
+    }
+  ],
+  "exams": [
+    {
+      "id": "bpscq_bangla_1",
+      "slug": "bangla-bangla",
+      "title": "বাংলা (১,২৪৮ প্রশ্ন) - পূর্ণাঙ্গ প্রশ্নব্যাংক",
+      "clean_filename": "Bangla.json",
+      "category_id": "bangla",
+      "category_name": "Bangla",
+      "question_count": 1248,
+      "file": "/data/BPSC Non Tech Questions/Bangla/Bangla.json"
+    },
+    {
+      "id": "bpscq_english_1",
+      "slug": "english-english",
+      "title": "English (১,৫৫৮ প্রশ্ন) - পূর্ণাঙ্গ প্রশ্নব্যাংক",
+      "clean_filename": "English.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 1558,
+      "file": "/data/BPSC Non Tech Questions/English/English.json"
+    },
+    {
+      "id": "bpscq_math_1",
+      "slug": "math-math",
+      "title": "গণিত (১,০০৩ প্রশ্ন) - পূর্ণাঙ্গ প্রশ্নব্যাংক",
+      "clean_filename": "Math.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 1003,
+      "file": "/data/BPSC Non Tech Questions/Math/Math.json"
+    },
+    {
+      "id": "bpscq_bangladesh-affairs_1",
+      "slug": "bangladesh-affairs-bangladesh-affairs",
+      "title": "বাংলাদেশ বিষয়াবলি (৬১৩ প্রশ্ন) - পূর্ণাঙ্গ প্রশ্নব্যাংক",
+      "clean_filename": "Bangladesh_Affairs.json",
+      "category_id": "bangladesh-affairs",
+      "category_name": "Bangladesh Affairs",
+      "question_count": 613,
+      "file": "/data/BPSC Non Tech Questions/Bangladesh Affairs/Bangladesh_Affairs.json"
+    },
+    {
+      "id": "bpscq_international-affairs_1",
+      "slug": "international-affairs-international-affairs",
+      "title": "আন্তর্জাতিক বিষয়াবলি (৫৪০ প্রশ্ন) - পূর্ণাঙ্গ প্রশ্নব্যাংক",
+      "clean_filename": "International_Affairs.json",
+      "category_id": "international-affairs",
+      "category_name": "International Affairs",
+      "question_count": 540,
+      "file": "/data/BPSC Non Tech Questions/International Affairs/International_Affairs.json"
+    },
+    {
+      "id": "bpscq_science_1",
+      "slug": "science-science",
+      "title": "সাধারণ বিজ্ঞান (৫৪৫ প্রশ্ন) - পূর্ণাঙ্গ প্রশ্নব্যাংক",
+      "clean_filename": "Science.json",
+      "category_id": "science",
+      "category_name": "Science",
+      "question_count": 545,
+      "file": "/data/BPSC Non Tech Questions/Science/Science.json"
+    },
+    {
+      "id": "bpscq_ict_1",
+      "slug": "ict-ict",
+      "title": "তথ্য ও যোগাযোগ প্রযুক্তি (১৫৭ প্রশ্ন) - পূর্ণাঙ্গ প্রশ্নব্যাংক",
+      "clean_filename": "ICT.json",
+      "category_id": "ict",
+      "category_name": "ICT",
+      "question_count": 157,
+      "file": "/data/BPSC Non Tech Questions/ICT/ICT.json"
+    }
+  ]
+}

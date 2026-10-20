@@ -1,0 +1,1034 @@
+[
+  {
+    "id": 1,
+    "question": "(0, 0) এবং (3, 3) বিন্দুগামী সরলরেখার সমীকরণ কোনটি? [47th BCS]",
+    "options": [
+      "y = x",
+      "y = 3x",
+      "y = x + 3",
+      "y = 3x + 3"
+    ],
+    "answer": "ক",
+    "explanation": "সমাধানঃ\nদুই বিন্দুগামী সরলরেখার সমীকরণ\n(x - x₁) / (x₁ - x₂) = (y - y₁) / (y₁ - y₂)\n⇒ (x - 0) / (0 - 3) = (y - 0) / (0 - 3)\n⇒ x = y"
+  },
+  {
+    "id": 2,
+    "question": "একটি খুঁটির ১/৩ অংশ কাঁদায়, ১/২ অংশ পানিতে এবং ২৫ মিটার পানির উপরে থাকলে, খুঁটিটির মোট উচ্চতা কত? [DESCO-CT, MT, ET-25]",
+    "options": [
+      "১২০ মিটার",
+      "১৫০ মিটার",
+      "১৮০ মিটার",
+      "২০০ মিটার"
+    ],
+    "answer": "খ",
+    "explanation": "ধরি, মোট উচ্চতা = x মি.\nকাঁদায় = x/3 অংশ\nপানিতে = x/2 অংশ\nশর্তমতে, x - x/3 - x/2 = 25\n⇒ (6x - 2x - 3x) / 6 = 25\n⇒ x = 150\n∴ মোট উচ্চতা = 150 মি."
+  },
+  {
+    "id": 3,
+    "question": "'A' can do work in 10 days, 'B' can do a work in 15 days. If they work together how many days need to complete this work? [BCIC- CE, ME, EEE, CSE-25]",
+    "options": [
+      "6",
+      "15",
+      "60",
+      "17"
+    ],
+    "answer": "ক",
+    "explanation": "'A' can do in 10 days\n∴ For 1 day = 1/10\n'B' can do in 15 days\n∴ For 1 day = 1/15\n'A' and 'B' both can do in 1 day : (1/10 + 1/15) = 1/6\n1/6 part done in 1 days\n∴ 1 part done in 1/(1/6) days = 6 days"
+  },
+  {
+    "id": 4,
+    "question": "The weight of water container is 7 kg, when it is half filled. If the water container filled with 1/5th of water then the weight is 2 kg. How many kg is the weight of the empty water container? [EGCB-EEE/ME/CE-24]",
+    "options": [
+      "1 kg",
+      "2 kg",
+      "4 kg",
+      "5 kg"
+    ],
+    "answer": "ক",
+    "explanation": "প্রথম অবস্থায়, বালতি + অর্ধেক পানি = 7 kg\nদ্বিতীয় অবস্থায়, বালতি + এক পঞ্চমাংশ পানি = 2 kg\n২য় ক্ষেত্রে বুঝায় বালতির ওজন অবশ্যই 2 kg অপেক্ষা কম। অপশনে 1 kg থাকায় সেটিই সঠিক উত্তর।"
+  },
+  {
+    "id": 5,
+    "question": "Ann, Matt and Zack are working for a cleaning company. Together, they can clean a house in 2 hour. If Ann does the job alone she can finish it in 5 hour. If Matt does the job alone he can finish it in 6 hour. How long will it take Ann and Zack together to finish the job? [BCPCL-EEE-24]",
+    "options": [
+      "2 hour",
+      "3 hour",
+      "4 hour",
+      "6 hour"
+    ],
+    "answer": "খ",
+    "explanation": "Ann 5 ঘণ্টায় করতে পারে 1 অংশ\n∴ 1 ঘণ্টায় করতে পারে 1/5 অংশ\nতেমনি, Matt 1 ঘণ্টায় করতে পারে 1/6 অংশ\nধরি, Zack 1 ঘণ্টায় করতে পারে 1/x অংশ\nএকত্রে, তিনজন 1 ঘণ্টায় করতে পারে = 1/2 অংশ\n∴ 1 ঘণ্টায় মোট কাজ, 1/2 = 1/5 + 1/6 + 1/x\n∴ 1/x = 2/15 [1 ঘণ্টায় Zack-এর কাজ]\nAnn ও Zack একত্রে (1/5 + 2/15) অংশ কাজ করে 1 ঘণ্টায়\n∴ 1 অংশ কাজ করে = 1 / (1/5 + 2/15) = 3 ঘণ্টায় (Ans.)"
+  },
+  {
+    "id": 6,
+    "question": "The depth of a cubic water tank is 200 cm. If 1000 Liter of water is drawn-out of the tank daily, in how many days all the water of the tank be finished? [BCPCL-EEE-24]",
+    "options": [
+      "4 days",
+      "6 days",
+      "7 days",
+      "8 days"
+    ],
+    "answer": "ঘ",
+    "explanation": "ট্যাংকের আয়তন = (200)³ = 8000000 cm³\n1000 liter বা 1000 × 10³ cm³ খালি হয় = 1 দিনে\n1 cm³ খালি হয় = 1 / (1000 × 10³) দিনে\n∴ 8000000 cm³ খালি হয় = 8000000 / (1000 × 10³) দিনে = 8 দিনে (Ans.)"
+  },
+  {
+    "id": 7,
+    "question": "Sum of squares of three numbers is 138, while sum of their product taken two at a time is 131. Their sum is- [BSTI-CE/Physics/EEE-24, BOGMC-ME/CE/CSE-24]",
+    "options": [
+      "20",
+      "40",
+      "30",
+      "50"
+    ],
+    "answer": "ক",
+    "explanation": "let, three numbers are (x, y, z)\n∴ x² + y² + z² = 138; ⇒ xy + yz + zx = 131\nNow, (x + y + z)² = x² + y² + z² + 2(xy + yz + zx) = 138 + 2(131) = 400\n∴ x + y + z = 20 (Ans.)"
+  },
+  {
+    "id": 8,
+    "question": "A work is to be done by 15 labors working 44 hours in a week. 4 person become ill. How many hours will be needed in a week for the remaining workers to do it? [ERLB-MT/ET/CT-22]",
+    "options": [
+      "60 hour",
+      "55 hour",
+      "50 hour",
+      "65 hour"
+    ],
+    "answer": "ক",
+    "explanation": "15 labors take 44 hours in a week\n1 labor takes 44 × 15 hours in a week\nHere, (15-4) labors take (44 × 15) / 11 = 60 hours (Ans.)"
+  },
+  {
+    "id": 9,
+    "question": "A number when divided by a divisor leaves a remainder of 24, when twice the original number is divided by the same divisor the remainder is 11, then divisor is- [DPDC-EEE-22]",
+    "options": [
+      "13",
+      "59",
+      "37",
+      "35"
+    ],
+    "answer": "গ",
+    "explanation": "Let, the divisor is = x\nfirst condition, x = m × p + 24 .................(i)\nsecond condition, 2x = m × q + 11 ............(ii)\nfrom (i) & (ii)\n2mp + 48 = mq + 11\n⇒ mq - 2mp = 37\n⇒ m(q - 2p) = 37 .............(iii)\nWhere, 37 is a prime number and the equation (iii) may stands for m = 1 & q - 2p = 37\nHence, the answer is 37."
+  },
+  {
+    "id": 10,
+    "question": "If # is an operator such that (3#2 = 6) and (4#2 = 14), what will be the value of (5#2)? [DPDC-EEE-22]",
+    "options": [
+      "19",
+      "17",
+      "32",
+      "22"
+    ],
+    "answer": "ঘ",
+    "explanation": "(3 × 2) + 0 = 6\n⇒ (4 × 2) + 6 = 14\n⇒ (5 × 2) + 12 = 22 (Ans.)"
+  },
+  {
+    "id": 11,
+    "question": "A fraction becomes 1/3 when 1 is subtracted from the numerator and it becomes 1/4 when 8 is added to its denominator. Find the fraction. [BCIC-EEE/ME-22]",
+    "options": [
+      "5/12",
+      "3/22",
+      "12/5",
+      "8"
+    ],
+    "answer": "ক",
+    "explanation": "Let fraction, x/y\nAccording to the question, (x - 1)/y = 1/3; ⇒ 3x - 3 = y; ⇒ 3x - y = 3 .......... (i)\nx/(y + 8) = 1/4; ⇒ 4x = y + 8; ⇒ 4x - y = 8 ............ (ii)\n(i) ও (ii) নং সমীকরণ সমাধান করে পাই, x = 5 & y = 12\n∴ Fraction = x/y = 5/12 (Ans.)"
+  },
+  {
+    "id": 12,
+    "question": "In a race, a student is 6th from top and 18th from bottom. How many students participates? [GTCL-ME-22]",
+    "options": [
+      "23",
+      "25",
+      "28",
+      "31"
+    ],
+    "answer": "ক",
+    "explanation": "উপর থেকে → ৬ষ্ঠ\nনিচ থেকে → ১৮ তম\n∴ মোট ছাত্র-ছাত্রী সংখ্যা = ১৮ + ৫ = ২৩ [উভয় পাশ থেকে হিসাব করায় ১ কম হবে।]"
+  },
+  {
+    "id": 13,
+    "question": "Rahul can do a work in 30 days and Ratul can do a work in 20 days. Together they can complete the work in how many days? [BGDCL-EEE/ME/CE/CSE-21]",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "18"
+    ],
+    "answer": "ক",
+    "explanation": "রাহুল ৩০ দিনে করে ১টি কাজ\nরাহুল ১ দিনে করে ১/৩০ টি কাজ\nএবং রাতুল ২০ দিনে করে ১টি কাজ\nরাতুল ১ দিনে করে ১/২০ টি কাজ\n∴ একত্রে ১ দিনে করে = ১/৩০ + ১/২০ = ১/১২ অংশ\n১/১২ অংশ করে ১ দিনে\n১ বা সম্পূর্ণ অংশ করে ১ / (১/১২) = ১২ দিনে (Ans.)\nOr,\nপ্রয়োজনীয় সময় = (১ম সময় × ২য় সময়) / (১ম সময় + ২য় সময়) = (৩০ × ২০) / (৩০ + ২০) = ৬০০ / ৫০ = ১২ দিন"
+  },
+  {
+    "id": 14,
+    "question": "A and B together can complete a piece of work in 35 days while A alone can complete the same work in 60 days. B alone will be able to complete the same work in: [BGFCL-ME/CE-21]",
+    "options": [
+      "74 days",
+      "80 days",
+      "84 days",
+      "90 days"
+    ],
+    "answer": "গ",
+    "explanation": "A ও B একত্রে কাজটি করে 35 দিনে\n∴ দুজন একত্রে 1 দিনে করে কাজটির 1/35 অংশ\nআবার, A একা কাজটি করে 60 দিনে\n∴ A 1 দিনে কাজটি করে 1/60 অংশ\n∴ B 1 দিনে কাজটির = (1/35 - 1/60) = 1/84 অংশ\nএখন, B কাজটির 1/84 অংশ করে 1 দিনে\n∴ B কাজটির 1 অংশ করে = 84 × 1 = 84 দিনে (Ans.)\nOr, B কাজটি করবে, = (১ম জনের কাজ × দুজনের কাজ) / (বেশি সময় - কম সময়) = (৬০ × ৩৫) / (৬০ - ৩৫) = ৮৪ দিন (Ans.)"
+  },
+  {
+    "id": 15,
+    "question": "If an event can occur in 'm' ways and a second things can occur in 'n' ways and if the number of ways the second event occurs, does not depend upon the occurrence of the first event, then the two event simultaneously in how many ways? [APSCL-EEE-21]",
+    "options": [
+      "m + n",
+      "m - n",
+      "mn",
+      "m/n"
+    ],
+    "answer": "গ",
+    "explanation": "যদি একটি ঘটনা m উপায়ে ঘটতে পারে এবং দ্বিতীয় একটি ঘটনা n উপায়ে ঘটতে পারে এবং দ্বিতীয় ঘটনাটি ঘটার সংখ্যা যদি প্রথম ঘটনার সংঘটনের উপর নির্ভর না করে, তবে দুটি ঘটনা একই সাথে mn উপায়ে ঘটতে পারে।"
+  },
+  {
+    "id": 16,
+    "question": "In a group of dogs and chickens, the number of legs is 14 more than twice the number of heads. The number of dogs is - [APSCL-EEE-21]",
+    "options": [
+      "5",
+      "7",
+      "10",
+      "12"
+    ],
+    "answer": "খ",
+    "explanation": "মনে করি, dog এর সংখ্যা = x; chickens এর সংখ্যা = y [কুকুরের পা 4 টি; মুরগির পা 2 টি]\nশর্তমতে, 4x + 2y = 2(x + y) + 14 ∴ x = 7 (Ans.)"
+  },
+  {
+    "id": 17,
+    "question": "If two-third of three-fourth of a number added to three-fourth of the four-fifth of that number is x times the number, the value of x is - [APSCL-EEE-21]",
+    "options": [
+      "11/10",
+      "1 11/10",
+      "10/11",
+      "9/11"
+    ],
+    "answer": "ক",
+    "explanation": "Let, সংখ্যাটি = y\nশর্তমতে, 2/3 × 3/4 y + (3/4 × 4/5 y) = xy; ⇒ (5y + 6y)/10 = xy; ⇒ x = 11/10 (Ans.)"
+  },
+  {
+    "id": 18,
+    "question": "একটি কাজ 'ক' ১৫ দিনে করতে পারে, একই কাজ 'খ' ১০ দিনে করতে পারে, তারা একত্রে ১ দিন কাজ করার পর 'খ' চলে গেলো, বাকি কাজ শেষ করতে কত দিন সময় লাগবে? [BPDB-ET-21]",
+    "options": [
+      "১০.৫ দিন",
+      "১২ দিন",
+      "১০ দিন",
+      "১২.৫ দিন"
+    ],
+    "answer": "ঘ",
+    "explanation": "ক + খ একত্রে ১ দিনে করে = 1/15 + 1/10 = (2+3)/30 = 5/30 = 1/6\nবাকি কাজ 'ক' করে = 5/6 অংশ\n1/15 অংশ করে = 1 দিন\n1 অংশ করে = 15 দিন\n∴ 5/6 অংশ করে = (15 × 5) / 6 = 12.5 দিনে\n∴ বাকি কাজ শেষ করতে সময় লাগে 12.5 দিন। (Ans.)"
+  },
+  {
+    "id": 19,
+    "question": "একজন ছাত্র প্রতিদিন ৭/৯ অংশ পড়াশোনা করে। আরো ৩ অধ্যায় বেশি পড়লে ৫/৬ অংশ পড়ত। মোট অধ্যায় কতটা? [BPDB-CT-21]",
+    "options": [
+      "৩৬",
+      "৭২",
+      "৫৪",
+      "২০"
+    ],
+    "answer": "গ",
+    "explanation": "মনে করি, মোট অধ্যায় = x\nপ্রশ্নমতে, 7x/9 + 3 = 5x/6 ⇒ 5x/6 - 7x/9 = 3; ⇒ x = 54 (Ans.)"
+  },
+  {
+    "id": 20,
+    "question": "একটি চৌবাচ্চায় দুটি নল আছে। একটি নল চৌবাচ্চা টি ৮০ মিনিটে খালি করতে পারে এবং অপরটি এক ঘন্টায় পূর্ণ করতে পারে। উভয় নল একসাথে খুলে দিলে কতক্ষণে চৌবাচ্চাটি ভর্তি হবে? [BPDB-CT-21]",
+    "options": [
+      "৯০ মিনিট",
+      "২৪০ মিনিট",
+      "৯৩ মিনিট",
+      "১০০ মিনিট"
+    ],
+    "answer": "খ",
+    "explanation": "নল ক 1 মিনিটে খালি করে = 1/80 অংশ\nনল খ 1 মিনিটে পূর্ণ করে = 1/60 অংশ\nউভয় 1 মিনিটে পূর্ণ করে = 1/60 - 1/80 = (4-3)/240 = 1/240 অংশ\n∴ 1/240 অংশ উভয় নল দ্বারা ভর্তি করে 1 মিনিটে\n∴ 1 অংশ ভর্তি করে = 240 মিনিটে (Ans.)"
+  },
+  {
+    "id": 21,
+    "question": "ক একটি কাজ ২০ দিনে সম্পন্ন করতে পারে এবং খ কাজটি ৩০ দিনে সম্পন্ন করতে পারে। ক ও খ একত্রে কাজটি কত দিনে সম্পন্ন করতে পারবে? [APSCL-ET-21]",
+    "options": [
+      "৯ দিনে",
+      "১০ দিনে",
+      "১১ দিনে",
+      "১২ দিনে"
+    ],
+    "answer": "ঘ",
+    "explanation": "ক ১ দিনে করে ১/২০ অংশ এবং খ ১ দিনে করে ১/৩০ অংশ\n∴ ক ও খ একত্রে ১ দিনে করে = ১/২০ + ১/৩০ = (৩ + ২)/৬০ = ৫/৬০ = ১/১২ অংশ\n∴ সম্পূর্ণ বা ১ অংশ সম্পন্ন করতে লাগবে = ১২ দিন (Ans.)"
+  },
+  {
+    "id": 22,
+    "question": "পানি ভর্তি একটি বালতির ওজন ১২ কেজি। বালতির অর্ধেক পানি ভর্তি হলে, তার ওজন দাঁড়ায় ৭ কেজি। খালি বালতির ওজন কত? [PGCL-ET-21]",
+    "options": [
+      "৫ কেজি",
+      "৭ কেজি",
+      "২ কেজি",
+      "১ কেজি"
+    ],
+    "answer": "গ",
+    "explanation": "সম্পূর্ণ পানি + বালতির ওজন = ১২ কেজি\nঅর্ধেক পানি + বালতির ওজন = ৭ কেজি\nঅর্ধেক পানির ওজন = ১২ - ৭ = ৫ কেজি\nসম্পূর্ণ পানির ওজন = ৫ × ২ = ১০ কেজি\nখালি বালতির ওজন = ১২ - ১০ = ২ কেজি। (Ans.)\nOr, Let, বালতির ওজন = x, পানির ওজন = y\nHere,\nx + y = 12\nx + 1/2 y = 7\n(-) y = 10 kg ∴ x = 12 - 10 = 2 kg"
+  },
+  {
+    "id": 23,
+    "question": "৬ জন লোক ৩টি কাজ ১২ দিনে করতে পারে। একই ধরনের লোক দ্বিগুণ হলে ঐ কাজের অর্ধেক সম্পন্ন হতে কত দিন সময় লাগবে? [JGTDSL-MT-21]",
+    "options": [
+      "৩ দিন",
+      "৫ দিন",
+      "৭ দিন",
+      "৬ দিন"
+    ],
+    "answer": "ক",
+    "explanation": "৬ জনে করে ৩ টি কাজ ১২ দিনে\n১ জনে করে ৩ টি কাজ ১২ × ৬ দিনে\n(৬ × ২) বা ১২ জনে করে ৩ টি কাজ = (১২ × ৬) / ১২ = ৬ দিনে\n∴ অর্ধেক কাজ করে = ৬ / ২ = ৩ দিনে। (Ans.)"
+  },
+  {
+    "id": 24,
+    "question": "যদি ৫ জন লোক ৩৫ টি কার্টুন তৈরি করতে ৭ ঘণ্টা সময় নেয় তবে কতজন লোক ৩ ঘণ্টার মধ্যে ৬৬টি কার্টুন তৈরি করতে পারবে? [DPDC-ET-20]",
+    "options": [
+      "২২",
+      "৩৯",
+      "৪৫",
+      "৬৬"
+    ],
+    "answer": "ক",
+    "explanation": "We know, (Men 1 × time 1) / Work 1 = (Men 2 × time 2) / work 2\n⇒ (5 × 7) / 35 = (men2 × 3) / 66 ⇒ men2 = 22 জন (Ans.)"
+  },
+  {
+    "id": 25,
+    "question": "একটি নির্দিষ্ট প্রজাতির ব্যাকটেরিয়ার সংখ্যা প্রতি ১০ মিনিটে দ্বিগুণ হয়। শুরুতে ব্যাকটেরিয়ার সংখ্যা যদি ১০⁸ হয় তবে ১ ঘণ্টা পরে ব্যাকটেরিয়ার সংখ্যা কত হবে? [DPDC-ET-20]",
+    "options": [
+      "২ × (১০⁸)",
+      "(২⁶) × (১০⁸)",
+      "৬ × (১০⁸)",
+      "(১০⁸)⁶"
+    ],
+    "answer": "খ",
+    "explanation": "প্রতি ১০ মিনিট দ্বিগুণ হলে ১ ঘণ্টায় ৬ বার পরিবর্তন হবে।\nঅর্থাৎ ব্যাকটেরিয়ার সংখ্যা হবে = ২⁶ × (১০⁸) (Ans.)"
+  },
+  {
+    "id": 26,
+    "question": "দৈবভাবে নির্বাচিত দুই অঙ্কের একটি সংখ্যা ৩ দ্বারা বিভাজ্য। কিন্তু ৫ দ্বারা বিভাজ্য নয় এরকম ঘটার সম্ভাবনা কত? [DPDC-ET-20]",
+    "options": [
+      "৪/৯০",
+      "৪/১৫",
+      "২/১৫",
+      "১/১৫"
+    ],
+    "answer": "খ",
+    "explanation": "আমরা জানি, সম্ভাবনা = অনুকূল ঘটনা / মোট ঘটনা\nদুই অংক বিশিষ্ট সংখ্যা (১০-৯৯ পর্যন্ত) ৯০ টি।\n১০ থেকে ৯৯ পর্যন্ত ৩ এর গুণিতক সংখ্যা = ৩০ টি ∴ ৩ দ্বারা বিভাজ্য হওয়ার সম্ভাবনা = ৩০/৯০ = ১/৩\n৩০ টি গুণিতের মধ্যে ৫ দ্বারা বিভাজ্য সংখ্যা = ৬ টি ∴ ৫ দ্বারা বিভাজ্য হওয়ার সম্ভাবনা = ৬/৯০ = ১/১৫\n∴ ৫ দ্বারা বিভাজ্য না হওয়ার সম্ভাবনা = ১/৩ - ১/১৫ = ৪/১৫ (Ans.)"
+  },
+  {
+    "id": 27,
+    "question": "A and B can do a work in 30 days. A doing work for 16 days and B finished the rest of the work alone in 44 days. How many days required for B to finish the work alone? [EGCB-ME-20]",
+    "options": [
+      "45",
+      "50",
+      "30",
+      "60"
+    ],
+    "answer": "ঘ",
+    "explanation": "Let, A এর 1 দিনের কাজ = x\nB এর 1 দিনের কাজ = y\n∴ x + y = 1/30 ........ (i) and 16x + 44y = 1 .......... (ii)\nSolve (i) & (ii) x = 1/60 (A), y = 1/60 (B) [B এর এক দিনের কাজ]\n∴ B alone shall finish the work in 60 days (Ans.)"
+  },
+  {
+    "id": 28,
+    "question": "৭০০ টাকা রহিম, খবির এবং করিম এর মধ্যে এমনভাবে ভাগ করে দেওয়া হলো যেন, রহিম পায় খবির-এর অর্ধেক এবং খবির পায় করিম -এর অর্ধেক। করিম কত টাকা পেল? [PGCB-ET-19]",
+    "options": [
+      "২০০",
+      "৩০০",
+      "৪০০",
+      "৬০০"
+    ],
+    "answer": "গ",
+    "explanation": "Let, করিম পাবে = x টাকা।\nশর্তমতে, করিম + খবির + রহিম = 700\n⇒ x + x/2 + (x/2)/2 = 700 ⇒ x = 400 টাকা (Ans.)"
+  },
+  {
+    "id": 29,
+    "question": "কোনো বিদ্যালয়ে কোনো শ্রেণির প্রতি বেঞ্চে ৪ জন করে বসলে ৩ টি বেঞ্চ খালি থাকে। আবার প্রতি বেঞ্চে ৩ জন করে বসলে ৬ জন ছাত্রের দাঁড়িয়ে থাকতে হয়। ঐ শ্রেণির শিক্ষার্থীর সংখ্যা কত? [PGCB-ET-19]",
+    "options": [
+      "৪০",
+      "৫০",
+      "৬০",
+      "কোনোটিই নয়"
+    ],
+    "answer": "গ",
+    "explanation": "Let, শিক্ষার্থীর সংখ্যা = x জন, শর্তমতে, x/4 + 3 = (x - 6)/3 ⇒ x = 60 (Ans.)"
+  },
+  {
+    "id": 30,
+    "question": "রায়হান সাধারণ গণিত ও উচ্চতর গণিতে একত্রে ১৮৫ নম্বর পেয়েছে। সে সাধারণ গণিত অপেক্ষা উচ্চতর গণিতে ৫ নম্বর কম পেয়েছে। প্রত্যেক বিষয়ে তার প্রাপ্ত নম্বর কত? [DESCO-ME-19]",
+    "options": [
+      "১০৫ থেকে ৮০",
+      "১০০ থেকে ৮৫",
+      "৯৫ এবং ৯০",
+      "১১০ এবং ৭৫"
+    ],
+    "answer": "গ",
+    "explanation": "ধরি, সাধারণ গণিতে পায় = x, উচ্চতর গণিতে = x - 5\nশর্তমতে, x + x - 5 = 185; ⇒ 2x = 180; ⇒ x = 95\n∴ উচ্চতর গণিতে পায় = x - 5 = 95 - 5 = 90 এবং সাধারণ গণিতে পায় = x = 95 (Ans.)"
+  },
+  {
+    "id": 31,
+    "question": "12 person can pack 60 boxes in 9 minutes at a constant rate. How much minutes do 27 person take for packing 180 boxes? [NWPGCL-ME-19]",
+    "options": [
+      "9 min",
+      "12 min",
+      "15 min",
+      "18 min"
+    ],
+    "answer": "খ",
+    "explanation": "We know, (Men 1 × time 1) / Work 1 = (Men 2 × time 2) / work 2\n⇒ (12 × 9) / 60 = (27 × time2) / 180\n⇒ time 2 = 12 minutes (Ans.)"
+  },
+  {
+    "id": 32,
+    "question": "4 persons contribute some money to run a charity. The average contribution of each is 20tk, if three of them can contribute maximum 25tk then what is the minimum amount one can contribute? [NWPGCL-ME-19]",
+    "options": [
+      "20 tk",
+      "10 tk",
+      "5 tk",
+      "25 tk"
+    ],
+    "answer": "গ",
+    "explanation": "The average for 4 person = 20, while no person contributed more than 25, to get the least amount from a person, 3 person must contribute the maximum amount possible. So that (25 × 3) + x / 4 = 20, ⇒ x = 5 (Ans.)"
+  },
+  {
+    "id": 33,
+    "question": "A can complete a work within 20 days and B can do the same work within 30 days. How much time needed to complete the work when they are working together? [BIFPCL-ME-19]",
+    "options": [
+      "9 days",
+      "12 days",
+      "15 days",
+      "20 days"
+    ],
+    "answer": "খ",
+    "explanation": "একত্রে কাজ করতে সময় লাগবে = (A⁻¹ + B⁻¹)⁻¹ = (1/20 + 1/30)⁻¹ = 12 day (Ans.)"
+  },
+  {
+    "id": 34,
+    "question": "Out of 20 questions, one wrong answer deducts 2 marks & one right answer adds 5 marks. If someone scored 72, how many questions did he answer correctly? [APSCL-ME-19]",
+    "options": [
+      "18",
+      "22",
+      "16",
+      "25"
+    ],
+    "answer": "গ",
+    "explanation": "Let, no of right answer = x, no of wrong answer = 20 - x\nশর্তমতে, x × 5 - (20 - x) × 2 = 72, ⇒ x = 16 টি [সঠিক উত্তর করতে হবে] (Ans.)"
+  },
+  {
+    "id": 35,
+    "question": "A and B can do a work with 30 days. A and B do the work together 20 days and then rest of the work done by B in 20 days. What time will take for B to complete the work alone? [PGCB-ME-19]",
+    "options": [
+      "70",
+      "80",
+      "60",
+      "90"
+    ],
+    "answer": "গ",
+    "explanation": "(A + B)'s 20 days work = 20/30 = 2/3, অবশিষ্ট কাজ = 1 - 2/3 = 1/3\nB, 1/3 অংশ করে 20 দিনে\n∴ 1 বা সম্পূর্ণ অংশ করে = 20 × 3 = 60 দিনে (Ans.)"
+  },
+  {
+    "id": 36,
+    "question": "To fill a tank 25 buckets of water is required. How many buckets of water are required to fill the same tank if the capacity of the bucket is reduced to 2/5th of its present capacity? [PGCB-ME-19]",
+    "options": [
+      "62.6",
+      "65.5",
+      "63.2",
+      "62.5"
+    ],
+    "answer": "ঘ",
+    "explanation": "মনে করি, 1 টি বাকেটের ক্যাপাসিটি = x, ∴ ট্যাংকের ক্যাপাসিটি = 25x\nবাকেটের নতুন ক্যাপাসিটি = 2/5 x\nশর্তমতে, প্রয়োজনীয় বাকেট = 25x / (2x/5) = 62.5 (Ans.)"
+  },
+  {
+    "id": 37,
+    "question": "(1/4)³ + (3/4)³ + 3(1/4)(3/4)(1/4 + 3/4) = ? [DPDC-ME-19]",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "ক",
+    "explanation": "by using calculator, total sum = 1 (Ans.)"
+  },
+  {
+    "id": 38,
+    "question": "In a zoo, there are deer's and ducks. If the heads are counted, there are 180, while the legs are 448. What will be the number of deer's in the zoo? [DPDC-ME-19]",
+    "options": [
+      "136",
+      "68",
+      "44",
+      "22"
+    ],
+    "answer": "গ",
+    "explanation": "মনে করি, হরিণ সংখ্যা = x, পাতি হাঁস সংখ্যা = y\n∴ x + y = 180 ............. (i) and 4x + 2y = 448 ............. (ii)\nSolve (i)&(ii) x = 44 (Ans.)"
+  },
+  {
+    "id": 39,
+    "question": "In a competitive examination consisting of 20 questions, 5 mark is awarded for each correct answer while 2 mark is deducted for every wrong answer. Nishat scored 72 marks in that examination. How many questions did he answer correctly? [APSCL-ME-19]",
+    "options": [
+      "17",
+      "18",
+      "15",
+      "16"
+    ],
+    "answer": "ঘ",
+    "explanation": "মনে করি, সঠিক উত্তরের সংখ্যা = x\nভুল উত্তরের সংখ্যা = 20 - x\nশর্তমতে, (x × 5) - {(20 - x) × 2} = 72, ⇒ x = 16 (Ans.)"
+  },
+  {
+    "id": 40,
+    "question": "In a portioned room there are cats and birds. In the room there are 15 heads and 50 feet's. How many cats are there in the room? [NWPGCL-CE-18, APSCL-ME-19]",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "গ",
+    "explanation": "মনে করি, cat's সংখ্যা = x, Birds সংখ্যা = y\nশর্তমতে, x + y = 15 ........... (i) and 4x + 2y = 50 ........... (ii)\nSolve (i)&(ii) x = 10, y = 5 ∴ cat সংখ্যা = ১০ টি (Ans.) [বিড়ালের পা = ৪ টি, পাখির পা = ২টি]"
+  },
+  {
+    "id": 41,
+    "question": "M men agree to purchase a gift for Tk. D. If three men drop out, how much more will each have to contribute towards the purchase of the gift? [DESCO-19]",
+    "options": [
+      "D/(M - 3)",
+      "MD/3",
+      "M/(D - 3)",
+      "3D/(M² - 3M)"
+    ],
+    "answer": "ঘ",
+    "explanation": "No. of Men = M; Amount of Tk = D\nEach of the Men's contribution = D/M\nIf three person dropped out = D/(M - 3)\nMore contribution required = D/(M - 3) - D/M = 3D / (M² - 3M) (Ans.)"
+  },
+  {
+    "id": 42,
+    "question": "The arithmetic mean of a set of 10 numbers is 20. If each number is first multiplied by 2 and then increased by 5, then what is the mean of the new numbers? [DESCO-ME-19]",
+    "options": [
+      "20",
+      "25",
+      "40",
+      "45"
+    ],
+    "answer": "ঘ",
+    "explanation": "১০টি সংখ্যার মোট = 20 × 10 = 200\nপ্রত্যেক সংখ্যা 2 দ্বারা গুণ অর্থাৎ মোট = 200 × 2 = 400, যখন প্রত্যেকটি 5 বৃদ্ধি পাবে,\nমোট 400 + (10 × 5) = 450 ∴ নতুন সংখ্যা = 450/10 = 45 (Ans.)"
+  },
+  {
+    "id": 43,
+    "question": "39 persons can repair a road in 12 days, working 5 hours a day. In how many days will 30 persons, working 6 hours a day, complete the work? [WPGCL-CE-19]",
+    "options": [
+      "10",
+      "13",
+      "14",
+      "15"
+    ],
+    "answer": "খ",
+    "explanation": "Person1 × time1 = person2 × time2 ⇒ 39 × (12 × 5) = 30 × (6 × time2)\n⇒ time2 = 13 days (Ans.)"
+  },
+  {
+    "id": 44,
+    "question": "A family had provision of food for 17 days. After 5 days, 8 guests came total number of people is 12 now. The number of days for which the remaining food will last, is: [DESCO-EEE-19]",
+    "options": [
+      "3 days",
+      "4 days",
+      "5 days",
+      "6 days"
+    ],
+    "answer": "খ",
+    "explanation": "এখানে, 8 জন আসায় মোট 12 হলে, আগে ছিল 4 জন\n∴ 4 জনের জন্য মজুদ ছিল = 17 দিনের খাবার, 5 দিন পর অবশিষ্ট দিন = 17 - 5 = 12 দিন\n∴ সময় = (12 × 4) / মোট সংখ্যা = 48 / 12 = 4 days (Ans.)"
+  },
+  {
+    "id": 45,
+    "question": "Two pipes can fill a tank in 20 and 24 minutes respectively and a waste pipe can empty 3 gallons per minute. All the three pipes working together can fill the tank in 15 minutes. The capacity of the tank is: [NWPGCL-ME-19]",
+    "options": [
+      "60 gallons",
+      "100 gallons",
+      "120 gallons",
+      "180 gallons"
+    ],
+    "answer": "গ",
+    "explanation": "Work done by the waste pipe in 1 minute = 1/15 - (1/20 + 1/24)\n⇒ -1/40 [-sign means emptying]\n∴ 1/40 অংশ = 3 gallon, ⇒ 1 অংশ = 3 × 40 = 120 gallon (Ans.)"
+  },
+  {
+    "id": 46,
+    "question": "A pipe can fill a tank in 3 hours and another pipe can empty the tank in 6 hours. If both the pipes are opened at the same time, the tank can be filled in? [DPDC-ME-19]",
+    "options": [
+      "1.5 hours",
+      "3 hours",
+      "6 hours",
+      "12 hours"
+    ],
+    "answer": "গ",
+    "explanation": "Shortcut:- পূর্ণ হতে সময় = (3⁻¹ - 6⁻¹)⁻¹ = 6 hours (Ans.)"
+  },
+  {
+    "id": 47,
+    "question": "একটি শহরের আয়তন ৫ বর্গকিলোমিটার। জনসংখ্যার ঘনত্ব ১২৫০ হলে জনসংখ্যা কত? [BPDB-MT-18]",
+    "options": [
+      "৬২৫০",
+      "৭২৫০",
+      "৫২৫০",
+      "৮২৫০"
+    ],
+    "answer": "ক",
+    "explanation": "আমরা জানি, ঘনত্ব = জনসংখ্যা / ক্ষেত্রফল ;\n∴ জনসংখ্যা = ঘনত্ব × ক্ষেত্রফল = ১২৫০ × ৫ = ৬২৫০ জন (Ans.)"
+  },
+  {
+    "id": 48,
+    "question": "ভাগফল ৩৫ এবং ভাগশেষ ১৫। ভাজক যদি ভাগফল ও ভাগশেষের সমষ্টি অপেক্ষা ৭ কম হয়, তবে ভাজ্য কত? [BPDB-MT-18]",
+    "options": [
+      "১৫৮০",
+      "১৫২০",
+      "১৬৩০",
+      "১৪৫০"
+    ],
+    "answer": "খ",
+    "explanation": "প্রশ্নমতে, ভাজক = (৩৫ + ১৫) - ৭ = ৪৩\nতাহলে, আমরা জানি, ভাজ্য = (ভাজক × ভাগফল) + ভাগশেষ = (৪৩ × ৩৫) + ১৫ = ১৫২০ (Ans.)"
+  },
+  {
+    "id": 49,
+    "question": "দুইজন পুরুষ ও একজন মহিলা ৪ ঘন্টায় একটি কাজ করতে পারে। একই কাজ একজন পুরুষ ও তিনজন মহিলা মিলেও ৪ ঘন্টায় করতে পারে। সেই কাজটি করতে তিনজন পুরুষ ও চারজন মহিলার কত ঘন্টা লাগবে? [BADC-CT-18]",
+    "options": [
+      "৩",
+      "২.৫",
+      "২",
+      "১"
+    ],
+    "answer": "গ",
+    "explanation": "মনে করি, M = পুরুষ, F = মহিলা\n2M + 1F = 1/4\n1M + 3F = 1/4\n-------------------\n3M + 4F = 1/4 + 1/4 = 1/2 অংশ\n∴ 1/2 অংশ করে = 1 ঘন্টায়। সুতরাং, 1 অংশ করে = 1 × 2 = 2 ঘন্টায় (Ans.)"
+  },
+  {
+    "id": 50,
+    "question": "১০টি সংখ্যার যোগফল ৪৬২। এদের প্রথম ৪টির গড় ৫২ এবং শেষ ৫টির গড় ৩৮ হলে পঞ্চম সংখ্যাটি কত? [BADC-CT-18]",
+    "options": [
+      "৬৫",
+      "৬৪",
+      "৫৮",
+      "৫৭"
+    ],
+    "answer": "খ",
+    "explanation": "shortcut:- সংখ্যাটি = ৪৬২ - (৫২ × ৪ + ৩৮ × ৫) = ৬৪ (Ans.)"
+  },
+  {
+    "id": 51,
+    "question": "একটি জলাধারের দুই-পঞ্চমাংশ পানি দ্বারা পূর্ণ এবং এতে আরো ২৫ লিটার পানি ঢাললে এর ৯০% পানিপূর্ণ হয়। জলাধারটির ধারণক্ষমতা কত লিটার? [BADC-CT-18]",
+    "options": [
+      "৫০",
+      "১০০",
+      "১৫০",
+      "২০০"
+    ],
+    "answer": "ক",
+    "explanation": "মনে করি, ধারণক্ষমতা = x লিটার\nশর্তমতে, 2x/5 + 25 = x × 90% = x × 90/100 ⇒ x = ৫০ লিটার (Ans.)"
+  },
+  {
+    "id": 52,
+    "question": "দুটি সংখ্যার গুণফল ১৫৬ এবং তাদের বর্গের যোগফল ৩১৩। সংখ্যা দুটির যোগফল কত? [BADC-CT-18]",
+    "options": [
+      "২৩",
+      "২৫",
+      "২৬",
+      "২৭"
+    ],
+    "answer": "খ",
+    "explanation": "Let, সংখ্যা দুটি x ও y, xy = 156 , x² + y² = 313\nআমরা জানি, (x + y)² = x² + y² + 2xy\n⇒ x + y = √(313 + 2 × 156) = √625 = 25 (Ans.)"
+  },
+  {
+    "id": 53,
+    "question": "সুমনের কাছে যে টাকা আছে তা দিয়ে সে ১৮টি ডাকটিকিট ক্রয় করতে পারে। যদি প্রতিটি ডাকটিকিটের মূল্য ৪ টাকা কম হতো তাহলে সে আরো দুটি ডাকটিকিট বেশি ক্রয় করতে পারত। তার কাছে কত টাকা আছে? [BADC-CT-18]",
+    "options": [
+      "১৮০",
+      "৩৬০",
+      "৫৮০",
+      "৭২০"
+    ],
+    "answer": "ঘ",
+    "explanation": "Let, সুমনের কাছে টাকার পরিমান = x টাকা\nশর্তমতে, x/18 - 4 = x/20; ⇒ x/18 - x/20 = 4; ⇒ x = 720 টাকা (Ans.)"
+  },
+  {
+    "id": 54,
+    "question": "একটি গাছের উচ্চতা প্রতিবছর ২০% করে বৃদ্ধি পায়। যদি বর্তমানে গাছটির উচ্চতা ১০৮০ সেমি হয়ে থাকে, তাহলে দুই বছর আগে গাছটির উচ্চতা কত ছিল? [BADC-CT-18]",
+    "options": [
+      "৬৭৫ সেমি",
+      "৭৫০ সেমি",
+      "৭৭৫ সেমি",
+      "৮০০ সেমি"
+    ],
+    "answer": "খ",
+    "explanation": "Let, ২ বছর আগে উচ্চতা ছিল = x\n২ বছর পর ২০% করে ২ বার বাড়লে হয় = x এর ১২০% এর ১২০% = ১০৮০\n⇒ x × 120/100 × 120/100 = 1080 ⇒ x = 750 সেমি (Ans.)"
+  },
+  {
+    "id": 55,
+    "question": "দৈনিক ৯ ঘণ্টা কাজ করে ৫ জন শ্রমিক ৩ দিনে ৯টি বাক্স বানাতে পারে। দৈনিক ১০ ঘণ্টা কাজ করে ৮ জন শ্রমিক ৬ দিনে একই রকমের কতটি বাক্স বানাতে পারবে? [BADC-CT-18]",
+    "options": [
+      "৫৪ টি",
+      "৪৮ টি",
+      "৩৬ টি",
+      "৩২ টি"
+    ],
+    "answer": "ঘ",
+    "explanation": "Tricks: (men 1 × Time1) / work1 = (men 2 × Time2) / work2\n⇒ (5 × (9 × 3)) / 9 = (8 × (6 × 10)) / work2 ∴ work2 = 32 টি (Ans.)"
+  },
+  {
+    "id": 56,
+    "question": "এক কুইন্টাল চালের দাম ৬৭০০ টাকা হলে, প্রতি গ্রাম চালের দাম কত? [EGCB-ENT-18]",
+    "options": [
+      "০.০৬৮",
+      "০.০৬৬",
+      "০.০৭৮",
+      "০.০৬৭"
+    ],
+    "answer": "ঘ",
+    "explanation": "আমরা জানি, ১ কুইন্টাল = ১০০ kg\nদেওয়া আছে, ১০০ × ১০০০ gm চালের দাম = ৬৭০০ টাকা ∴ ১ gm চালের দাম = ০.০৬৭ টাকা (Ans.)"
+  },
+  {
+    "id": 57,
+    "question": "করিম সাহেব দৈনিক আয় করেন ৫৪৫ টাকা, দৈনিক ব্যয় করেন ৪৪৫ টাকা এবং বাকি টাকা ব্যাংকে জমা করেন। তিনি একটি অধিবর্ষের ফেব্রুয়ারি মাসে কত টাকা ব্যাংকে জমা করেন? [EGCB-ENT-18]",
+    "options": [
+      "৪৯০০",
+      "২৯০০",
+      "৩৬০০",
+      "৪৫০০"
+    ],
+    "answer": "খ",
+    "explanation": "দৈনিক জমার পরিমান = ৫৪৫ - ৪৪৫ = ১০০ টাকা\nঅধিবর্ষের ফেব্রুয়ারি মাসে জমার পরিমান = ১০০ × ২৯ = ২৯০০ টাকা (Ans.)"
+  },
+  {
+    "id": 58,
+    "question": "The average (arithmetic mean) of 4 different integers is 75. If the largest integer is 90. What is the least possible value of the smallest integer? [BADC-CE-18]",
+    "options": [
+      "1",
+      "19",
+      "29",
+      "33"
+    ],
+    "answer": "ঘ",
+    "explanation": "Let, অন্য সংখ্যাগুলো হলো 88 এবং 89, প্রশ্নমতে, (x + 88 + 89 + 90) / 4 = 75 ⇒ x = 33 (Ans.)"
+  },
+  {
+    "id": 59,
+    "question": "A container holds 4 quarts of alcohol and 4 quarts of water. How many quarts of water must be added to the container to create a mixture that is 3 parts alcohol to 5 parts water by volume? [BADC-CE-18]",
+    "options": [
+      "3/4",
+      "5/3",
+      "7/3",
+      "8/3"
+    ],
+    "answer": "ঘ",
+    "explanation": "Let, x পরিমান যোগ করতে হবে।, Total পানির পরিমান = x + 4,\nশর্তমতে, 4 / (x + 4) = 3/5 ∴ x = 8/3 (Ans.)"
+  },
+  {
+    "id": 60,
+    "question": "Shama earns TK 11 for each ticket she sells, and a bonus of TK 2 per ticket she sells over 100. If Shama was paid a total TK 2400, how many tickets did she sell? [BADC-CE-18]",
+    "options": [
+      "120",
+      "150",
+      "200",
+      "250"
+    ],
+    "answer": "গ",
+    "explanation": "Let, x = The total number of tickets sold\nশর্তমতে, 11x + 2(x - 100) = 2400 ⇒ x = 200 (Ans.)"
+  },
+  {
+    "id": 61,
+    "question": "Three pipes P,Q and R can fill a tank in 6 hours. After working all three together for 2 hours. R is closed and P and Q can fill the remaining part in 7 hours. The number of hours taken by R alone to fill the tank is - [BADC-CE-18]",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer": "গ",
+    "explanation": "(A+B+C)'s 1 hours' work = 1/6\nPart filled in 2 hours = 2/6 = 1/3 ∴ Remaining part = 1 - 1/3 = 2/3\n(A + B)'s 7 hours work = 2/3\n(A + B)'s 1 hour work = 2 / (3 × 7) = 2/21\n∴ C's 1 hours work = 1/6 - 2/21 = 1/14 ∴ C alone can fill the tank in 14 hours (Ans.)"
+  },
+  {
+    "id": 62,
+    "question": "If 10 men or 18 women can do a work in 45 days, then how many days would it take 25 men and 15 women to do twice the work? [BADC-CE-18]",
+    "options": [
+      "9",
+      "15",
+      "18",
+      "27"
+    ],
+    "answer": "ঘ",
+    "explanation": "Shortcut: সময় = (১ম পুরুষ × ১ম মহিলা × ১ম দিন) / ((১ম পুরুষ × ২য় মহিলা) + (২য় পুরুষ × ১ম মহিলা)) = (10 × 18 × 45) / ((10 × 15) + (25 × 18)) = 13.5\n∴ দ্বিগুণ কাজ করতে সময় = 13.5 × 2 = 27 (Ans.)"
+  },
+  {
+    "id": 63,
+    "question": "A student's average mark is 84% in 4 exams. If he wishes to raise his average marks to 85% then what is the mark he should obtain in the 5th exam. [BCPCL-ME-18]",
+    "options": [
+      "89",
+      "59",
+      "86",
+      "91"
+    ],
+    "answer": "ক",
+    "explanation": "Let, Total marks = 100\n∴ The mark in the 5th exam = (85 × 5) - (84 × 4) = 89 (Ans.)"
+  },
+  {
+    "id": 64,
+    "question": "A number 60 if divided by 2 and then increased by x%, the result is 70. What is the value of x? [BCPCL-ME-18]",
+    "options": [
+      "400/3",
+      "100/4",
+      "4.6/5",
+      "28/3"
+    ],
+    "answer": "ক",
+    "explanation": "শর্তমতে, 60/2 + (60/2 × x%) = 70\n⇒ 30 + (30 × x/100) = 70 ; ∴ x = 4000/30 = 400/3 (Ans.)"
+  },
+  {
+    "id": 65,
+    "question": "A students average (arithmetic mean) test score on 4 tests is 80. What must be the student's score on a 5th test for the student's average score on the 5 tests to be 84? [BCPCL-ME-18]",
+    "options": [
+      "82",
+      "84",
+      "86",
+      "100"
+    ],
+    "answer": "ঘ",
+    "explanation": "For 4 test, total = 80 × 4 = 320\nLet, n = score on the 5th test\nHere, Average = sum / quantity , ⇒ 84 = (320 + n) / 5 , ∴ n = 100 (Ans.)"
+  },
+  {
+    "id": 66,
+    "question": "The average of eight numbers is 14. The average of six of these numbers is 16. The average of the remaining two numbers is. [BCPCL-ME-18]",
+    "options": [
+      "14",
+      "8",
+      "16",
+      "12"
+    ],
+    "answer": "খ",
+    "explanation": "Sum of two number = sum of eight number - sum of six number\n= (8 × 14) - (6 × 16) = 16\n∴ Average of 2 number = 16/2 = 8 (Ans.)"
+  },
+  {
+    "id": 67,
+    "question": "A tank is filled in 2 hours. Because of a leakage it took 2 hours 20 minutes to fill the tank. How much time will it take to empty the tank because of leakage. [BCPCL-ME-18]",
+    "options": [
+      "2 hr",
+      "1 hr",
+      "13 hr",
+      "14 hr"
+    ],
+    "answer": "ঘ",
+    "explanation": "Work done for 1 hr without leakage = 1/2\nWork done for 1 hr with leakage = 1 / (7/3) = 3/7 [2 hours 20 minute = 7/3 hr]\n∴ workdone by the leakage in 1 hr = 1/2 - 3/7 = 1/14\nThe time taken by the leak to empty the tank = 1 / (1/14) = 14 hr (Ans.)"
+  },
+  {
+    "id": 68,
+    "question": "If t work is completed in 1/x time by 1 worker, how much work will be completed in x time by x no. of workers? [BCIC-ME-16]",
+    "options": [
+      "tx",
+      "tx²",
+      "tx³",
+      "tx⁴"
+    ],
+    "answer": "গ",
+    "explanation": "(men1 × time1) / work1 = (men2 × time2) / work2 , ⇒ (1 × 1/x) / t = (x × x) / work2 ∴ work2 = tx³ (Ans.)\nor, 1 worker takes 1/x time to complete t work\n1 worker takes 1 time to complete = t / (1/x) work\nx worker takes x time to complete = (t × x × x) / (1/x) work = tx³ (Ans.)"
+  },
+  {
+    "id": 69,
+    "question": "A family had provision of food for 15 days. After 5 days, 8 guests came and the provision lasted 6 days. How many members are there in the family? [BPDB-ME-18]",
+    "options": [
+      "15",
+      "12",
+      "40",
+      "28"
+    ],
+    "answer": "খ",
+    "explanation": "মনে করি, family তে সদস্য সংখ্যা = x\nশর্তমতে, 15x = 5x + 6(8 + x) ⇒ x = 12 (Ans.)\nOr, (15 - 5) days food provision for x No. of persons,\n∴ 1 days food provision for = x × 10 persons\nAgain, 6 days food provision for (x + 8) No. of persons\n∴ 1 days food provision for (x + 8) 6 No. of persons\nConditionally, 10x = (x + 8) 6\n⇒ 4x = 48 ∴ x = 12 (Ans.)"
+  },
+  {
+    "id": 70,
+    "question": "A pump can fill a tank with water in 2 hours. Because of a leak, it took 2 1/3 hours to fill the tank. The leak can drain all the water of the tank in: [BCPCL-ME-18]",
+    "options": [
+      "4 1/3 hours",
+      "7 hours",
+      "8 hours",
+      "14 hours"
+    ],
+    "answer": "ঘ",
+    "explanation": "Shortcut:- Work done by the leak, = {2⁻¹ - (2 1/3)⁻¹}⁻¹ = 14 (Ans.)\nOr, Let, total volume of tank = 1\nCase-1, Takes 2 hrs to fill 1 portion\nTakes 1 hrs to fill = 1/2 portion\nCase-2, Takes 7/3 hrs to fill 1 portion\nTakes 1 hrs to fill = 3/7 portion\nLeakage Contribution = 1/2 - 3/7 = 1/14 portion\nNow, 1/14 portion drain in 1 hr.\n∴ 1 protion drain in 1/(1/14) = 14 hrs. (Ans.)"
+  },
+  {
+    "id": 71,
+    "question": "ক ও খ এর মোট বেতন খ ও গ এর মোট বেতন অপেক্ষা ১২ টাকা বেশি। ক এর বেতন গ অপেক্ষা কত কম? [BGFCL-CT-17]",
+    "options": [
+      "১০",
+      "১২",
+      "১৪",
+      "কোনোটিই নয়"
+    ],
+    "answer": "*",
+    "explanation": "ধরি, ক ও খ এর মোট বেতন = x টাকা।\nবা, ক + খ = x টাকা ----- (i)\nশর্তমতে, খ + গ = x - ১২ টাকা ------- (ii)\n(i) - (ii) করে পাই, ক + খ - খ - গ = x - x + 12\nNote: প্রশ্নে গ এর বেতন ক অপেক্ষা কত কম বললে উত্তর হত ১২।"
+  },
+  {
+    "id": 72,
+    "question": "একটি ক্রিকেট খেলায় যত জন রান আউট হয় তার দেড় গুণ কট আউট হয়। আবার মোট উইকেটের অর্ধেক স্ট্যাম্প আউট হলে কত জন কট আউট হয়েছে? [BGFCL-CT-17]",
+    "options": [
+      "২",
+      "৩",
+      "৪",
+      "৫"
+    ],
+    "answer": "খ",
+    "explanation": "Let, রান আউট = x, ∴ কট আউট = 1.5x,\nসম্ভব আউট হওয়া মোট উইকেট সংখ্যা = 10 তাহলে, স্ট্যাম্প আউট = 10/2 = 5\nশর্তমতে, x + 1.5x + 5 = 10 ⇒ x = 2 ∴ কট আউট = 1.5 × 2 = 3 জন (Ans.)"
+  },
+  {
+    "id": 73,
+    "question": "একটি ক্লাসে ১৬ জন ছেলের গড় ওজন ৫০ কেজি এবং অবশিষ্ট ৮ জন ছেলের গড় ওজন ৪০ কেজি। ক্লাসের সকল ছেলের গড় ওজন কত? [BGFCL-CT-17]",
+    "options": [
+      "৫০",
+      "৪৮",
+      "৪২",
+      "৪০"
+    ],
+    "answer": "খ",
+    "explanation": "গড় ওজন = (মোট ওজন) / (মোট সংখ্যা) = ((৫০ × ১৬) + (৮ × ৪০)) / (১৬ + ৮) = ৪৮ (Ans.)"
+  },
+  {
+    "id": 74,
+    "question": "একটি শিবিরে ৭২০ জন সৈন্যের ২০ দিনের খাবার মজুদ আছে। ১০ দিন পর কিছু নতুন সৈন্যের আগমনের কারণে অবশিষ্ট খাদ্য তাদের ৮ দিন চললে। শিবিরে কতজন নতুন সৈন্য এসেছিল? [BGFDC-CT-17]",
+    "options": [
+      "১৮০ জন",
+      "১৯০ জন",
+      "১৭০ জন",
+      "২০০ জন"
+    ],
+    "answer": "ক",
+    "explanation": "অবশিষ্ট (২০ - ১০) = ১০ দিন খেতে পারতো = ৭২০ জন সৈন্য\n∴ ৮ দিনে খাবে = (৭২০ × ১০) / ৮ = ৯০০ জন সৈন্য\n∴ অতিরিক্ত লোক লাগবে = (৯০০ - ৭২০) = ১৮০ জন (Ans.)"
+  },
+  {
+    "id": 75,
+    "question": "If x% of y is 100 and y% of z is 200, find the relation between x and z. [NWPGCL-ME-17]",
+    "options": [
+      "z = x/2",
+      "z = 2x",
+      "z = x/4",
+      "z = 4x"
+    ],
+    "answer": "খ",
+    "explanation": "Let, y × x% = 100, ⇒ y × x/100 = 100, ∴ xy = 10000 ............. (i)\nAnd, z × y/100 = 200, ⇒ yz = 20000 ∴ y = 20000/z\nFrom equation (i) x . (20000/z) = 10000, ⇒ 2x = z (Ans.)"
+  },
+  {
+    "id": 76,
+    "question": "একটি ছাত্রাবাসে যতজন ছাত্র আছে তাদের প্রত্যেকের মাসিক খরচ মোট ছাত্রের দ্বিগুণ। ওই ছাত্রাবাসে মাসিক খরচ মোট ৬২৫০ টাকা হলে মোট ছাত্রসংখ্যা কত? [GTCL-ET-16]",
+    "options": [
+      "৫০ জন",
+      "৫৬ জন",
+      "৬৫ জন",
+      "৭০ জন"
+    ],
+    "answer": "খ",
+    "explanation": "Let, মোট ছাত্র সংখ্যা = x জন। তাহলে, প্রত্যেকের মাসিক খরচ = 2x টাকা\nশর্তমতে, x × 2x = 6250 ⇒ x = √3125 = 55.9 = 56 জন (Ans.)"
+  },
+  {
+    "id": 77,
+    "question": "৫০ জন লোক একটি কাজের অর্ধেক করে ৮০ দিনে। ঐ কাজ ৫০ দিনে করতে কতজন অতিরিক্ত লোক লাগবে? [BADC-MT-16]",
+    "options": [
+      "৮০",
+      "১০০",
+      "১১০",
+      "১৬০"
+    ],
+    "answer": "গ",
+    "explanation": "(Men 1 × time 1) / Work 1 = (Men 2 × time 2) / work 2\n⇒ (50 × 80) / (1/2) = (men2 × 50) / 1 ⇒ men2 = 160 জন\n∴ অতিরিক্ত লাগবে = 160 - 50 = 110 জন। (Ans.)"
+  },
+  {
+    "id": 78,
+    "question": "ক ও খ এর গড় আয় 300, খ ও গ এর গড় আয় 350 এবং ক ও গ এর গড় আয় 352 হলে ক এর আয় কত? [BADC-MT-16]",
+    "options": [
+      "160",
+      "145",
+      "302",
+      "130"
+    ],
+    "answer": "গ",
+    "explanation": "প্রশ্নমতে, (ক + খ) + (খ + গ) + (ক + গ) = (300 + 350 + 352) × 2\n⇒ 2(ক + খ + গ) = 2004 ⇒ ক + খ + গ = 1002 ⇒ ক = 1002 - 700 = 302 (Ans.)"
+  },
+  {
+    "id": 79,
+    "question": "একজন লোক ৩ মাসে যে টাকা আয় করে তা সে ৪ মাসে ব্যয় করে। এক বছরে সে ৪৫০০০ টাকা আয় করলো। এক বছরে সে কত টাকা জমা করবে? [BADC-MT-16]",
+    "options": [
+      "১৫০০০০",
+      "১১২৫০",
+      "১৮০০০০",
+      "২৫০০০০"
+    ],
+    "answer": "খ",
+    "explanation": "Let, ৩ মাসে আয় = x টাকা ∴ ১২ মাসে আয় = ৪x টাকা\nআবার, ৪ মাসে ব্যয় = x টাকা ∴ ১২ মাসে ব্যয় = ৩x টাকা\n∴ ১ বছরে জমা = ৪x - ৩x = x টাকা\n৪x টাকায় জমা হয় = x টাকা\n∴ ৪৫০০০ টাকায় জমা হয় = (x × 45000) / 4x = ১১২৫০ টাকা (Ans.)"
+  },
+  {
+    "id": 80,
+    "question": "An English school has 4/5 of the student are boys. There are 200 girls. What is the total number of students in the school? [KGDCL-EEE-16]",
+    "options": [
+      "2000",
+      "3000",
+      "4000",
+      "1000"
+    ],
+    "answer": "ঘ",
+    "explanation": "Let, মোট student সংখ্যা = x, যেহেতু ছেলের সংখ্যা = 4/5 x সুতরাং মেয়ের সংখ্যা x - 4/5 x = 1/5 x\n∴ 1/5 x = 200 ⇒ x = 1000 (Ans.)"
+  },
+  {
+    "id": 81,
+    "question": "A washed 500 plate in 2 hours and B washed 450 plate in 3 hour. If they work together what time require to washing 1000 plate? [KGDCL-EEE-16]",
+    "options": [
+      "2.5",
+      "3.5",
+      "2",
+      "4"
+    ],
+    "answer": "ক",
+    "explanation": "A, 2 ঘণ্টায় পরিষ্কার করে 500 প্লেট\nA, 1 ঘণ্টায় পরিষ্কার করে 500/2 = 250 প্লেট\nB, 3 ঘণ্টায় পরিষ্কার করে 450 plate = 150 প্লেট\n∴ A ও B, 1 ঘণ্টায় পরিষ্কার করে = 250 + 150 = 400 প্লেট\nA ও B, 400 প্লেট পরিষ্কার করে 1 ঘণ্টায়\nA ও B, 1 প্লেট পরিষ্কার করে 1/400 ঘণ্টায়\nA ও B, 1000 প্লেট পরিষ্কার করে 1000/400 = 2.5 ঘণ্টায় (Ans.)\nOr, Using this formula directly, W₁/T₁ + W₂/T₂ = W(total)/T(total)\n⇒ 500/2 + 450/3 = 1000/T(total) ⇒ T(total) = 2.5 hours (Ans.)"
+  },
+  {
+    "id": 82,
+    "question": "চারটি সমানুপাতিক রাশির প্রান্তীয় রাশিদ্বয়ের গুণফল ৪৮ হলে মধ্য রাশিদ্বয়ের গুণফল কত? [BEPZA-CE-16]",
+    "options": [
+      "৪৫",
+      "৫৫",
+      "৪৮",
+      "৬০"
+    ],
+    "answer": "গ",
+    "explanation": "a:b::b:c একটি চতুর্থ সমানুপাতিক\na/b = b/c\n⇒ b² = ac = 48 [এখানে দেখা যায় যে, প্রান্তীয় রাশিদ্বয়ের গুণফল মধ্যরাশিদ্বয়ের গুণফলের সমান]\n∴ 48 (Ans.)"
+  },
+  {
+    "id": 83,
+    "question": "Faruk has x more marbles than Sanwar has and together they have a total of y marbles. Which of the following represents the number of marbles that Sanwar has? [BADC-ME-16]",
+    "options": [
+      "(y - x)/2",
+      "y - x/2",
+      "y/2 - x",
+      "2y - x"
+    ],
+    "answer": "ক",
+    "explanation": "Let, সানোয়ারের মারবেল আছে = m সংখ্যক, ফারুকের আছে = m + x\n∴ মোট y = m + (m + x) ⇒ m = (y - x) / 2 (Ans.)"
+  },
+  {
+    "id": 84,
+    "question": "If x books cost of TK 50 and y books cost of 80 each then the average cost in taka per book is equal to - [BADC, DPDC-ME-16]",
+    "options": [
+      "(50x + 80y)/xy",
+      "(5x + 8y)/(0.1x + 0.1y)",
+      "(50x + 80y)/130",
+      "none of these"
+    ],
+    "answer": "খ",
+    "explanation": "Average cost = (50x + 80y) / (x + y) = (5x + 8y) / (0.1x + 0.1y) (Ans.) [লব ও হরকে 10 দ্বারা ভাগ করে]"
+  },
+  {
+    "id": 85,
+    "question": "The cost of x numbers of pens is equal to the cost of (x+ 2) number of pencils. If per unit costs of pen and pencil are 10 and 8 Tk. Respectively, then x = ? [BADC-ME-16]",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "none"
+    ],
+    "answer": "গ",
+    "explanation": "according to question, Cost of Pen = Cost of pencil\n⇒ x × 10 = (x + 2) × 8, ⇒ x = 8 (Ans.)"
+  },
+  {
+    "id": 86,
+    "question": "A shopkeeper expects a gain of 22.5% on his cost price. If in a week, his sale was of Tk. 392, what was his profit? [KGDCL-EEE-16]",
+    "options": [
+      "72",
+      "100",
+      "4.6",
+      "28"
+    ],
+    "answer": "ক",
+    "explanation": "মনে করি, ক্রয়মূল্য = x ∴ ক্রয়মূল্য + লাভ = বিক্রয়মূল্য\n⇒ x + (x × 22.5%) = 392\n⇒ x = 392 / 1.225 = 320,\n∴ লাভ = 392 - 320 = 72 (Ans.)"
+  }
+]

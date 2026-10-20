@@ -1,0 +1,532 @@
+[
+  {
+    "id": 1,
+    "question": "I don't know ...... [BPSC-26]",
+    "options": [
+      "where she lives",
+      "where does she live",
+      "where is she from",
+      "where does she come from"
+    ],
+    "answer": "ক",
+    "explanation": "Complex Sentence-এ Principal Clause-এর পরে Subordinate clause-এর Structure-টি হবে Wh word + Subject + Verb. Sentence-টি Present Indefinite tense হওয়ায় where she lives হবে।"
+  },
+  {
+    "id": 2,
+    "question": "Which is an example of a compound sentence? [BWDB-26]",
+    "options": [
+      "She is tired.",
+      "She is tired, but she will continue working.",
+      "Being tired, she worked.",
+      "She will working tired."
+    ],
+    "answer": "খ",
+    "explanation": "Compound sentence-এর Conjunction গুলো হলো— and, but, or ইত্যাদি। এখানে, She is tired, but she will continue working. উক্ত বাক্যে দুটি Principal clause 'but' conjunction দ্বারা যুক্ত হয়েছে। সুতরাং, (খ) হলো সঠিক উত্তর।"
+  },
+  {
+    "id": 3,
+    "question": "Identify the type of sentence : Close the door. [BWDB-26]",
+    "options": [
+      "Interrogative",
+      "Exclamatory",
+      "Assertive",
+      "Imperative"
+    ],
+    "answer": "ঘ",
+    "explanation": "\"Close the door\" বাক্যটির বাংলা অর্থ হলো— “দরজা বন্ধ করো”। Sentence-টি দ্বারা Command বা Request বুঝায়। সুতরাং, যে Sentence দ্বারা আদেশ, উপদেশ, নিষেধ ইত্যাদি বুঝায়, তাকে Imperative Sentence বলে।"
+  },
+  {
+    "id": 4,
+    "question": "Find out the complex sentence. [Fisheries & Animal-26]",
+    "options": [
+      "That she will reciprocate my passion for her is certain",
+      "He did his work and I, mine",
+      "In case of your failure to move, you will die",
+      "Because of his playing well, he won the game"
+    ],
+    "answer": "ক",
+    "explanation": "Complex Sentence-এ একটি Subordinate clause থাকে ও একটি Principal Clause থাকে। That She will reciprocate my passion for her is certain– বাক্যটিতে একটি Principal Clause আছে। সুতরাং, অপশন (ক) সঠিক।"
+  },
+  {
+    "id": 5,
+    "question": "Which one of the following sentences is a simple sentence? [MES-25]",
+    "options": [
+      "In spite of his poverty he is happy",
+      "I know that he is rich",
+      "Do or die",
+      "I respect him as he loves me"
+    ],
+    "answer": "ক",
+    "explanation": "Simple sentence-এ একটি মাত্র Subject এবং Principal clause থাকে। সুতরাং Simple sentenceটি হলো- 'In spite of his poverty he is happy'."
+  },
+  {
+    "id": 6,
+    "question": "Identify the imperative sentence : [MOR-25]",
+    "options": [
+      "What a wonderful picture it is!",
+      "Get some cold water from the fridge.",
+      "May God bless you.",
+      "They bought some utensils from the shop."
+    ],
+    "answer": "খ",
+    "explanation": "যে Sentence দ্বারা আদেশ, উপদেশ, অনুরোধ ইত্যাদি বুঝায়, তাকে Imperative sentence বলে। এটি শুরু হয় Verb দিয়ে শেষ বসে full stop । আর 'Get some cold water from the fridge' এর অর্থ হবে 'ফ্রিজ থেকে কিছু ঠান্ডা পানি আনো।'"
+  },
+  {
+    "id": 7,
+    "question": "Try hard lest you — fail. [KGCL-2024]",
+    "options": [
+      "may",
+      "might",
+      "would",
+      "should"
+    ],
+    "answer": "ঘ",
+    "explanation": "Imperative sentence-এ lest conjunction-এর পরের অংশে should + V1 হয়। সুতরাং Try hard lest you should fail. সঠিক।"
+  },
+  {
+    "id": 8,
+    "question": "Though he was very rich, he is still very unhappy is a– [TGTDCL-2023]",
+    "options": [
+      "Simple sentence",
+      "Compound sentence",
+      "Complex sentence",
+      "Conditional sentence"
+    ],
+    "answer": "গ",
+    "explanation": "বাক্যটিতে দুটি Clause একটি Subordinate Clause এবং অন্যটি Principal Clause আছে । Subordinate Clause টিতে Conjunction হিসেবে Though ব্যবহৃত হয়েছে । সুতরাং এটি Complex Sentence."
+  },
+  {
+    "id": 9,
+    "question": "'Always speak the truth' is a/an–sentence. [MOE-2023]",
+    "options": [
+      "assertive",
+      "interrogative",
+      "optative",
+      "imperative"
+    ],
+    "answer": "ঘ",
+    "explanation": "'Always speak the truth' অর্থ হলো 'সদা সত্য কথা বলবে'। আমরা জানি যে বাক্য দ্বারা আদেশ, উপদেশ, নিষেধ বুঝায় তাকে Imperative sentence বলে।"
+  },
+  {
+    "id": 10,
+    "question": "Select the correct tag question : My sister doesn't like fish, —? [MOE-2023]",
+    "options": [
+      "does she",
+      "did she",
+      "doesn't she",
+      "won't she"
+    ],
+    "answer": "ক",
+    "explanation": "negative sentence-এর Tag question affirmative হয়। তাহলে Present Indefinite-এ সঠিক Tag হবে 'does she' ।"
+  },
+  {
+    "id": 11,
+    "question": "'Let us do the work' what kind of sentence this? [BPSC-2023]",
+    "options": [
+      "Imperative",
+      "Assertive",
+      "Interrogative",
+      "Exclamatory"
+    ],
+    "answer": "ক",
+    "explanation": "Let দিয়ে বা Verb দিয়ে শুরু হওয়া বাক্য যদি আদেশ, উপদেশ, প্রস্তাব ইত্যাদি বুঝায় তাকে Imperative sentence বলে।"
+  },
+  {
+    "id": 12,
+    "question": "Choose the correct negative-interrogative sentence : [BSCIC-2023]",
+    "options": [
+      "Can't he lift this box?",
+      "May he draw a picture?",
+      "Do you have enough to drink?",
+      "Hasn't you seen today's paper?"
+    ],
+    "answer": "ক",
+    "explanation": "structure অনুযায়ী সঠিক negative interrogative বাক্যটি হলো Can't he lift this box? অন্যগুলো সঠিক নয়।"
+  },
+  {
+    "id": 13,
+    "question": "Identify the imperative sentence. [BREB-2023]",
+    "options": [
+      "I shall go the college",
+      "Matin is singing a song",
+      "Stand up",
+      "It has been raining since morning"
+    ],
+    "answer": "গ",
+    "explanation": "যে Sentence দ্বারা আদেশ, উপদেশ, নিষেধ ইত্যাদি বুঝায় তাকে Imperative sentence বলে। তদানুযায়ী এখানে 'stand up' একটি Imperative sentence. অন্যগুলো সব Assertive."
+  },
+  {
+    "id": 14,
+    "question": "\"Speak the truth\". This is an___sentence. [BPSC-2022]",
+    "options": [
+      "assertive",
+      "interrogative",
+      "imperative",
+      "optative"
+    ],
+    "answer": "গ",
+    "explanation": "Option (গ) Imperative sentence সঠিক উত্তর। “Speak the truth” sentence-টি হলো Imperative sentence-এর উদাহরণ, কারণ বাক্যটি দ্বারা advice এবং proposal প্রকাশ পাচ্ছে, সুতরাং, এটি একটি আদেশমূলক বা Imperative sentence ।"
+  },
+  {
+    "id": 15,
+    "question": "Which one of the correct expression? [BPSC-2022]",
+    "options": [
+      "The thief ran away otherwise he should be arrested.",
+      "The thief ran away as he should be arrested",
+      "The thief ran away lest he should be arrested",
+      "The thief ran away because he should be arrested"
+    ],
+    "answer": "গ",
+    "explanation": "Option (গ) সঠিক উত্তর। প্রদত্ত Sentence-টি একটি Compound sentence. 'Lest' conjunction যুক্ত compound sentence-এর second clause directly lest + subject + should দ্বারা শুরু হয়। সুতরাং, option (গ) The thief ran away lest he should be arrested সঠিক উত্তর।"
+  },
+  {
+    "id": 16,
+    "question": "'Go there at once' is— [BPSC-2021]",
+    "options": [
+      "a simple sentence",
+      "an optative sentence",
+      "an assertive sentence",
+      "an imperative sentence"
+    ],
+    "answer": "ঘ",
+    "explanation": "Option (ঘ) সঠিক উত্তর। “Go there at once” বাক্যটি একটি Imperative sentence. যে Sentence দ্বারা আদেশ, অনুরোধ, নিষেধ ইত্যাদি প্রকাশ পায়, তাকে Imperative sentence বলে। প্রশ্নে প্রদত্ত Sentence-টির অর্থ হলো “এখনই সেখানে যাও”। অর্থাৎ সেখানে যেতে আদেশ করা হচ্ছে। সুতরাং, এটি একটি Imperative sentence ।"
+  },
+  {
+    "id": 17,
+    "question": "Which one is an example of an imperative sentence? [BPDB-2021]",
+    "options": [
+      "Open the door",
+      "May you live long",
+      "I hate you",
+      "He likes to play cricket"
+    ],
+    "answer": "ক",
+    "explanation": "আদেশ, উপদেশ, অনুরোধ, নিষেধ ইত্যাদি বুঝালে সেটা Imperative sentence হয়। 'Open the door' বাক্যটিতে দরজা খোলার জন্য আদেশ করা হচ্ছে। সুতরাং, এটি একটি Imperative sentence."
+  },
+  {
+    "id": 18,
+    "question": "Which one is a negative sentence? [BPSC-2021]",
+    "options": [
+      "They know me.",
+      "Have I not help him?",
+      "Put out the lamp.",
+      "I have not any good friend."
+    ],
+    "answer": "ঘ",
+    "explanation": "Option (ঘ) “I have not any good friend.” বাক্যটি সঠিক উত্তর। Option (খ)-তে “not” থাকলেও Sentence-টি grammatial rule দ্বারা শুদ্ধ নয়। Option (ঘ) Present Indefinite Tense-এর negative form-এর Structure-এর সাথে Agree করে। Structure– Subject + auxiliary verb + 'not' + main verb + “any” word + Object."
+  },
+  {
+    "id": 19,
+    "question": "It being a hot day, I ..... not like to go out of the room. [BPSC-2021]",
+    "options": [
+      "shall",
+      "will",
+      "did",
+      "do"
+    ],
+    "answer": "গ",
+    "explanation": "Option (গ) Correct answer. এটি একটি Simple sentence-এর example. Complex বা Compound sentence-কে Simple করার সময় am, is, are, was, were পরিবর্তিত হয়ে 'being' হয়। এখানে যদি subordinate clause-এ বসে তবে main clause-এ past indefinite tense-এ হয়।"
+  },
+  {
+    "id": 20,
+    "question": "‘We must not be late, else we will miss the train’. This is a– [DOTE-2021]",
+    "options": [
+      "Compound Sentence",
+      "Complex Sentence",
+      "Simple Sentence",
+      "Interrogative Sentence"
+    ],
+    "answer": "ক",
+    "explanation": "দুটি Independent clause একটি Coordinator দ্বারা যুক্ত থাকলে তাকে Compound sentence বলে। এখানে, \"We must not be late\" এবং \"We will miss the train\" independent clause দুটি \"else\" conjunction দ্বারা যুক্ত হয়েছে। অন্যভাবে বলা যায়, We must not be late\" independent clause-এর সাথে \"Else we will miss the train\" coordinate clause যুক্ত হয়ে Compound sentence গঠিত হয়েছে।"
+  },
+  {
+    "id": 21,
+    "question": "One of the students is studying to be a doctor, but —— wants to be a musician. [BPSC-2021]",
+    "options": [
+      "other",
+      "others",
+      "another",
+      "the other"
+    ],
+    "answer": "গ",
+    "explanation": "Sentence-টি একটি Compound sentence । Sentence-টির gap-এর পরে থাকা Singular verb “Wants”-ই বলে দিচ্ছে gap-এ একটি singular subject বসবে। সুতরাং, Option (গ) Another সঠিক উত্তর।"
+  },
+  {
+    "id": 22,
+    "question": "To give an effective speech —— is the delivery that is most important. [BPSC-2021]",
+    "options": [
+      "it",
+      "which",
+      "and",
+      "there"
+    ],
+    "answer": "ক",
+    "explanation": "Sentence-টি একটি Complex sentence । এখানে “it is” দ্বারা the delivery” subject-কে emphasis করা হয়েছে। সুতরাং Option (ক) 'it' সঠিক উত্তর।"
+  },
+  {
+    "id": 23,
+    "question": "The passage is —— narrow —— a lean person like Mike can’t get through. [BB-2020]",
+    "options": [
+      "so, even",
+      "such, that",
+      "too, that",
+      "too, so that"
+    ],
+    "answer": "নোট",
+    "explanation": "কোনোটিই সঠিক নয়। সঠিক উত্তর : The passage is so narrow that a lean person like Mike can't get through. এই বাক্যটি Simple sentence হিসাবে সঠিক। এরপর, Complex sentence হিসাবে বাক্যটি হবে The passage is so lean that a lean person like Mike can't get through."
+  },
+  {
+    "id": 24,
+    "question": "‘Where there is life, there is hope’– the simple form of the sentence is– [BPSC-2020]",
+    "options": [
+      "There is no life without hope",
+      "There is life so there is hope",
+      "There is life and there is hope",
+      "Because of hope, there is life"
+    ],
+    "answer": "ক",
+    "explanation": "Simple sentence-এ একটি মাত্র Subject, একটিমাত্র Finite verbসহ একটি মাত্র Predicate থাকে।"
+  },
+  {
+    "id": 25,
+    "question": "Identify the imperative sentence. [BWDB-2020]",
+    "options": [
+      "I shall go to the college",
+      "Motin is singing a song",
+      "Stand up",
+      "It has been raining since morning"
+    ],
+    "answer": "গ",
+    "explanation": "Imperative sentence বলতে আদেশ, নিষেধ, উপদেশ, অনুরোধ করা বুঝায়। Sentence-এর শুরুতে verb-এর Present form বসে।"
+  },
+  {
+    "id": 26,
+    "question": "Tick the correct sentence. [DWASA-2020]",
+    "options": [
+      "If you do not read properly you will fail.",
+      "If you will not read properly you will fail.",
+      "If you do not reads, you fail.",
+      "Read properly not to failed."
+    ],
+    "answer": "ক",
+    "explanation": "গঠন : If + Present + Future। এটি 1st conditional sentence। আবার Complex sentence-এর উদাহরণ হিসেবেও এটি সঠিক Sentence।"
+  },
+  {
+    "id": 27,
+    "question": "Suddenly — himself alone, he became frightened. [BBA-2019]",
+    "options": [
+      "found",
+      "fine",
+      "finding",
+      "being found",
+      "None"
+    ],
+    "answer": "গ",
+    "explanation": "Simple sentence-এ দুটি clause থাকলে প্রথমটি verb-এর সাথে ing দিয়ে শুরু হয়।"
+  },
+  {
+    "id": 28,
+    "question": "Which one of the following is an imperative sentence? [MOCA-2019]",
+    "options": [
+      "Do not lie",
+      "He came to my father",
+      "What an idea",
+      "Do you know me?"
+    ],
+    "answer": "ক",
+    "explanation": "Imperative Sentence সাধারণত verb দিয়ে don't + verb-এর present form দ্বারা শুরু হয়।"
+  },
+  {
+    "id": 29,
+    "question": "— among you are from class XII? [HED, MOLE-2019]",
+    "options": [
+      "Who",
+      "Whose",
+      "Whom",
+      "Which"
+    ],
+    "answer": "ক",
+    "explanation": "Interrogative sentence-এ subject-এর স্থানে Noun বা Pronoun আনার জন্য Pronoun হিসেবে Who ব্যবহৃত হয়।"
+  },
+  {
+    "id": 30,
+    "question": "Banks close at 4 p.m. -? Use the correct tag question. [HED-2019]",
+    "options": [
+      "do they",
+      "must they",
+      "don't they",
+      "aren't they"
+    ],
+    "answer": "গ",
+    "explanation": "Affirmative sentence-এর tag question সব সময় negative হয়। main clause-এর tense অনুযায়ী সাহায্যকারী verb বসে।"
+  },
+  {
+    "id": 31,
+    "question": "Write down the correct sentence : [HED-2018]",
+    "options": [
+      "Tell me why have you come here?",
+      "What time did you go to bed last night?",
+      "Why you are angry with me?",
+      "When you passed your Diploma Examination?"
+    ],
+    "answer": "খ",
+    "explanation": "Interrogative sentence-এ WH আগে হয়। তারপর Auxiliary verb হয়। শেষে প্রশ্নবোধক চিহ্ন হয়।"
+  },
+  {
+    "id": 32,
+    "question": "Which one is an interrogative sentence? [TTC-18]",
+    "options": [
+      "He reads a book.",
+      "Does he read a book?",
+      "He has read a book.",
+      "He will read a book."
+    ],
+    "answer": "খ",
+    "explanation": "Structure of Interrogative Sentence- Auxiliary verb + sub + principal verb + object? অর্থাৎ যে Sentence দ্বারা প্রশ্ন জিজ্ঞাসা করা হয় তাকে Interrogative sentence বলে।"
+  },
+  {
+    "id": 33,
+    "question": "'He is too weak to walk'— What is the type of sentence? [LGED-2018]",
+    "options": [
+      "simple",
+      "complex",
+      "compound",
+      "passive"
+    ],
+    "answer": "ক",
+    "explanation": "Sentence-এ to.... too, Because of, In spite of, without + verb + ing থাকলে Simple sentence হয়।"
+  },
+  {
+    "id": 34,
+    "question": "\"I know what his name is' is a– [PTD-2018]",
+    "options": [
+      "compound sentence",
+      "complex",
+      "simple",
+      "exclamatory"
+    ],
+    "answer": "খ",
+    "explanation": "Who, Which, That, What দ্বারা Sentence যুক্ত থাকলে Sentence-টি Complex হয়।"
+  },
+  {
+    "id": 35,
+    "question": "What type of sentence- 'Work or you will fail' is? [MOR-2018]",
+    "options": [
+      "a complex sentence",
+      "a compound sentence",
+      "an optative sentence",
+      "a simple sentence"
+    ],
+    "answer": "খ",
+    "explanation": "and, or, but দ্বারা যুক্ত হলে Sentence-কে Compound sentence বলে।"
+  },
+  {
+    "id": 36,
+    "question": "The man to whom I — my house was a cheat. [BGFCL-2018]",
+    "options": [
+      "sell",
+      "sold",
+      "selling",
+      "has sold",
+      "have sold"
+    ],
+    "answer": "খ",
+    "explanation": "Complex sentenceটিতে একটি clause past tense হলে অন্য clauseটিও Past tense হবে।"
+  },
+  {
+    "id": 37,
+    "question": "Open the door, —? [MOR-2017]",
+    "options": [
+      "will you",
+      "do you",
+      "don't you",
+      "haven't you"
+    ],
+    "answer": "ক",
+    "explanation": "Imperative Sentence-এ অর্থাৎ verb দিয়ে শুরু হওয়া বাক্যে Tag question-এ will you অথবা won't you হবে।"
+  },
+  {
+    "id": 38,
+    "question": "'May God help you'– what kind of sentence is this? [DPHE-2016]",
+    "options": [
+      "Exclamatory",
+      "Assertive",
+      "Imperative",
+      "Optative"
+    ],
+    "answer": "ঘ",
+    "explanation": "যে বাক্য দ্বারা প্রার্থনা বুঝায়, তাকে Optative sentence বলে। যেমন- May God help you, May you live long ইত্যাদি।"
+  },
+  {
+    "id": 39,
+    "question": "What a fool he is! (Assertive). [DPHE-2016]",
+    "options": [
+      "It is he who is a fool.",
+      "He is a fool, of course.",
+      "He is very fool.",
+      "He is a great fool."
+    ],
+    "answer": "ঘ",
+    "explanation": "Exclamatory sentence কে Assertive-এ রূপান্তরিত করতে হলে প্রথমে sub. + verb + a/an + very/great + adjective noun + বাকি অংশ বসবে।"
+  },
+  {
+    "id": 40,
+    "question": "When I was reading a book, he came. It is a — [DPHE-2016]",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence",
+      "Exclamatory sentence"
+    ],
+    "answer": "খ",
+    "explanation": "কোনো Sentence-এ who, when, what ইত্যাদি conjunction হিসেবে থাকলে Sentenceটি Complex হয়।"
+  },
+  {
+    "id": 41,
+    "question": "Good example of a complex sentence is —— [SB-2016]",
+    "options": [
+      "Tell me the name you bear.",
+      "Tell me what is your name.",
+      "Tell me what your name.",
+      "Tell me what your name is."
+    ],
+    "answer": "ঘ",
+    "explanation": "দুটি Sentence-কে What, Which, Who, When দ্বারা যুক্ত করলে Sentence-টি Complex sentence হয়।"
+  },
+  {
+    "id": 42,
+    "question": "Which sentence is in Imperative mood? [PWD-2011]",
+    "options": [
+      "He does not smoke.",
+      "I must go, come what may.",
+      "The earth is round.",
+      "May I come in, Sir?"
+    ],
+    "answer": "ঘ",
+    "explanation": "যে Sentence দ্বারা অনুরোধ, আদেশ, নিষেধ ইত্যাদি বুঝায়, তাকে Imperative Sentence বলে।"
+  },
+  {
+    "id": 43,
+    "question": "\"Open the door\" is– [MODMR-2006]",
+    "options": [
+      "an imperative sentence",
+      "an interrogative sentence",
+      "a simple sentence",
+      "a complex sentence"
+    ],
+    "answer": "ক",
+    "explanation": "verb + object হলে Sentence-টি Imperative হয়।"
+  },
+  {
+    "id": 44,
+    "question": "\"Though, although, because, since, as\" implies the– [MODMR-2006]",
+    "options": [
+      "Compound sentence",
+      "Simple sentence",
+      "Complex sentence",
+      "Imperative sentence"
+    ],
+    "answer": "গ",
+    "explanation": "Though, although, since, as থাকলে Complex Sentence হয়।"
+  }
+]

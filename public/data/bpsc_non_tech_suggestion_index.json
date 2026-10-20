@@ -1,0 +1,998 @@
+{
+  "total_exams": 91,
+  "total_questions": 5664,
+  "categories": [
+    {
+      "id": "bangla-byakoron",
+      "name": "Bangla Grammar",
+      "bn_name": "বাংলা ব্যাকরণ (১৪ অধ্যায়)",
+      "icon": "BookOpen",
+      "desc": "বিপিএসসি নন-টেক সাজেশন: কারক, প্রত্যয়, বাক্য, শব্দ ইত্যাদি ১৪টি অধ্যায়",
+      "folder": "বাংলা ব্যাকরণ",
+      "exam_count": 14,
+      "question_count": 736
+    },
+    {
+      "id": "bangla-sahitya",
+      "name": "Bangla Literature",
+      "bn_name": "বাংলা সাহিত্য (৫ অধ্যায়)",
+      "icon": "BookOpen",
+      "desc": "বিপিএসসি নন-টেক সাজেশন: প্রাচীন, মধ্যযুগ, রবীন্দ্রনাথ, নজরুল ও আধুনিক যুগ",
+      "folder": "বাংলা সাহিত্য",
+      "exam_count": 5,
+      "question_count": 512
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "bn_name": "ইংরেজি ভাষা ও সাহিত্য (১৮ অধ্যায়)",
+      "icon": "Layers",
+      "desc": "বিপিএসসি নন-টেক সাজেশন: English Grammar, Vocabulary ও Literature ১৮টি অধ্যায়",
+      "folder": "English",
+      "exam_count": 18,
+      "question_count": 1558
+    },
+    {
+      "id": "math",
+      "name": "Mathematics",
+      "bn_name": "গণিত ও মানসিক দক্ষতা (২৫ অধ্যায়)",
+      "icon": "Table",
+      "desc": "বিপিএসসি নন-টেক সাজেশন: পাটিগণিত, বীজগণিত, জ্যামিতি ও ত্রিকোণমিতির ২৫টি অধ্যায়",
+      "folder": "Math",
+      "exam_count": 25,
+      "question_count": 1003
+    },
+    {
+      "id": "bangladesh-affairs",
+      "name": "Bangladesh Affairs",
+      "bn_name": "বাংলাদেশ বিষয়াবলি (১০ অধ্যায়)",
+      "icon": "Award",
+      "desc": "বিপিএসসি নন-টেক সাজেশন: বাংলাদেশের ইতিহাস, সংবিধান, অর্থনীতি ইত্যাদি ১০টি অধ্যায়",
+      "folder": "Bangladesh Affairs",
+      "exam_count": 10,
+      "question_count": 613
+    },
+    {
+      "id": "international-affairs",
+      "name": "International Affairs",
+      "bn_name": "আন্তর্জাতিক বিষয়াবলি (১০ অধ্যায়)",
+      "icon": "Globe",
+      "desc": "বিপিএসসি নন-টেক সাজেশন: আন্তর্জাতিক রাজনীতি, চুক্তি, পরিবেশ ইত্যাদি ১০টি অধ্যায়",
+      "folder": "International Affairs",
+      "exam_count": 10,
+      "question_count": 540
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "bn_name": "সাধারণ বিজ্ঞান (৮ অধ্যায়)",
+      "icon": "Sparkles",
+      "desc": "বিপিএসসি নন-টেক সাজেশন: পদার্থ, রসায়ন, জীববিজ্ঞান ও পরিবেশ বিজ্ঞান ৮টি অধ্যায়",
+      "folder": "Science",
+      "exam_count": 8,
+      "question_count": 545
+    },
+    {
+      "id": "ict",
+      "name": "ICT",
+      "bn_name": "তথ্য ও যোগাযোগ প্রযুক্তি (১ অধ্যায়)",
+      "icon": "Monitor",
+      "desc": "বিপিএসসি নন-টেক সাজেশন: তথ্য ও যোগাযোগ প্রযুক্তির চূড়ান্ত অধ্যায়ভিত্তিক সমাধান",
+      "folder": "ICT",
+      "exam_count": 1,
+      "question_count": 157
+    }
+  ],
+  "exams": [
+    {
+      "id": "bpscs_bangla-byakoron_1",
+      "slug": "bangla-byakoron-কারক-বিভক্তি",
+      "title": "কারক বিভক্তি",
+      "clean_filename": "কারক বিভক্তি.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 18,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/কারক বিভক্তি.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_2",
+      "slug": "bangla-byakoron-প্রত্যয়-বিন্যাস",
+      "title": "প্রত্যয় বিন্যাস",
+      "clean_filename": "প্রত্যয় বিন্যাস.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 21,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/প্রত্যয় বিন্যাস.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_3",
+      "slug": "bangla-byakoron-বাক্য-প্রকরণ-ও-বাচ্য",
+      "title": "বাক্য প্রকরণ ও বাচ্য",
+      "clean_filename": "বাক্য প্রকরণ ও বাচ্য.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 23,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/বাক্য প্রকরণ ও বাচ্য.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_4",
+      "slug": "bangla-byakoron-বাক্য-সংকোচন-বা-এক-কথায়-প্রকাশ",
+      "title": "বাক্য সংকোচন বা এক কথায় প্রকাশ",
+      "clean_filename": "বাক্য সংকোচন বা এক কথায় প্রকাশ.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 27,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/বাক্য সংকোচন বা এক কথায় প্রকাশ.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_5",
+      "slug": "bangla-byakoron-বাগধারা-ও-বাগবিধি",
+      "title": "বাগধারা ও বাগবিধি",
+      "clean_filename": "বাগধারা ও বাগবিধি.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 70,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/বাগধারা ও বাগবিধি.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_6",
+      "slug": "bangla-byakoron-বিপরীতার্থক-শব্দ",
+      "title": "বিপরীতার্থক শব্দ",
+      "clean_filename": "বিপরীতার্থক শব্দ.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 33,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/বিপরীতার্থক শব্দ.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_7",
+      "slug": "bangla-byakoron-বিরামচিহ্নের-ব্যবহার",
+      "title": "বিরামচিহ্নের ব্যবহার",
+      "clean_filename": "বিরামচিহ্নের ব্যবহার.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 10,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/বিরামচিহ্নের ব্যবহার.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_8",
+      "slug": "bangla-byakoron-ভাষারীতি",
+      "title": "ভাষারীতি",
+      "clean_filename": "ভাষারীতি.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 305,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/ভাষারীতি.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_9",
+      "slug": "bangla-byakoron-ভুল-সংশোধন-বা-শুদ্ধকরণ",
+      "title": "ভুল সংশোধন বা শুদ্ধকরণ",
+      "clean_filename": "ভুল সংশোধন বা শুদ্ধকরণ.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 58,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/ভুল সংশোধন বা শুদ্ধকরণ.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_10",
+      "slug": "bangla-byakoron-যথার্থ-অনুবাদ",
+      "title": "যথার্থ অনুবাদ",
+      "clean_filename": "যথার্থ অনুবাদ.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 12,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/যথার্থ অনুবাদ.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_11",
+      "slug": "bangla-byakoron-লিঙ্গ-পরিবর্তন",
+      "title": "লিঙ্গ পরিবর্তন",
+      "clean_filename": "লিঙ্গ পরিবর্তন.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 7,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/লিঙ্গ পরিবর্তন.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_12",
+      "slug": "bangla-byakoron-সন্ধি-বিচ্ছেদ",
+      "title": "সন্ধি বিচ্ছেদ",
+      "clean_filename": "সন্ধি বিচ্ছেদ.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 53,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/সন্ধি বিচ্ছেদ.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_13",
+      "slug": "bangla-byakoron-সমার্থক-শব্দ",
+      "title": "সমার্থক শব্দ",
+      "clean_filename": "সমার্থক শব্দ.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 50,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/সমার্থক শব্দ.json"
+    },
+    {
+      "id": "bpscs_bangla-byakoron_14",
+      "slug": "bangla-byakoron-সমাস",
+      "title": "সমাস",
+      "clean_filename": "সমাস.json",
+      "category_id": "bangla-byakoron",
+      "category_name": "Bangla Grammar",
+      "question_count": 49,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা ব্যাকরণ/সমাস.json"
+    },
+    {
+      "id": "bpscs_bangla-sahitya_1",
+      "slug": "bangla-sahitya-আধুনিক-যুগের-প্রধান-সাহিত্যিকগণ",
+      "title": "আধুনিক যুগের প্রধান সাহিত্যিকগণ",
+      "clean_filename": "আধুনিক যুগের প্রধান সাহিত্যিকগণ.json",
+      "category_id": "bangla-sahitya",
+      "category_name": "Bangla Literature",
+      "question_count": 153,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা সাহিত্য/আধুনিক যুগের প্রধান সাহিত্যিকগণ.json"
+    },
+    {
+      "id": "bpscs_bangla-sahitya_2",
+      "slug": "bangla-sahitya-প্রাচীন-ও-মধ্যযুগ",
+      "title": "প্রাচীন ও মধ্যযুগ",
+      "clean_filename": "প্রাচীন ও মধ্যযুগ.json",
+      "category_id": "bangla-sahitya",
+      "category_name": "Bangla Literature",
+      "question_count": 76,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা সাহিত্য/প্রাচীন ও মধ্যযুগ.json"
+    },
+    {
+      "id": "bpscs_bangla-sahitya_3",
+      "slug": "bangla-sahitya-রবীন্দ্রনাথ-ঠাকুর-ও-কাজী-নজরুল-ইসলাম",
+      "title": "রবীন্দ্রনাথ ঠাকুর ও কাজী নজরুল ইসলাম",
+      "clean_filename": "রবীন্দ্রনাথ ঠাকুর ও কাজী নজরুল ইসলাম.json",
+      "category_id": "bangla-sahitya",
+      "category_name": "Bangla Literature",
+      "question_count": 100,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা সাহিত্য/রবীন্দ্রনাথ ঠাকুর ও কাজী নজরুল ইসলাম.json"
+    },
+    {
+      "id": "bpscs_bangla-sahitya_4",
+      "slug": "bangla-sahitya-সমকালীন-সাহিত্য-নাটক-উপন্যাস-ও-মুক্তিযুদ্ধ",
+      "title": "সমকালীন সাহিত্য, নাটক, উপন্যাস ও মুক্তিযুদ্ধ",
+      "clean_filename": "সমকালীন সাহিত্য, নাটক, উপন্যাস ও মুক্তিযুদ্ধ.json",
+      "category_id": "bangla-sahitya",
+      "category_name": "Bangla Literature",
+      "question_count": 158,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা সাহিত্য/সমকালীন সাহিত্য, নাটক, উপন্যাস ও মুক্তিযুদ্ধ.json"
+    },
+    {
+      "id": "bpscs_bangla-sahitya_5",
+      "slug": "bangla-sahitya-সাময়িকী-সাহিত্য-প্রতিষ্ঠান-ও-পুরস্কার",
+      "title": "সাময়িকী, সাহিত্য প্রতিষ্ঠান ও পুরস্কার",
+      "clean_filename": "সাময়িকী, সাহিত্য প্রতিষ্ঠান ও পুরস্কার.json",
+      "category_id": "bangla-sahitya",
+      "category_name": "Bangla Literature",
+      "question_count": 25,
+      "file": "/data/BPSC Non Tech Suggestion/বাংলা সাহিত্য/সাময়িকী, সাহিত্য প্রতিষ্ঠান ও পুরস্কার.json"
+    },
+    {
+      "id": "bpscs_english_1",
+      "slug": "english-completing-sentence",
+      "title": "Completing Sentence",
+      "clean_filename": "Completing Sentence.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 33,
+      "file": "/data/BPSC Non Tech Suggestion/English/Completing Sentence.json"
+    },
+    {
+      "id": "bpscs_english_2",
+      "slug": "english-degree",
+      "title": "Degree",
+      "clean_filename": "Degree.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 14,
+      "file": "/data/BPSC Non Tech Suggestion/English/Degree.json"
+    },
+    {
+      "id": "bpscs_english_3",
+      "slug": "english-english-literature",
+      "title": "English Literature",
+      "clean_filename": "English Literature.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 68,
+      "file": "/data/BPSC Non Tech Suggestion/English/English Literature.json"
+    },
+    {
+      "id": "bpscs_english_4",
+      "slug": "english-errors-in-composition-sentence-correction",
+      "title": "Errors in Composition - Sentence Correction",
+      "clean_filename": "Errors in Composition - Sentence Correction.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 34,
+      "file": "/data/BPSC Non Tech Suggestion/English/Errors in Composition - Sentence Correction.json"
+    },
+    {
+      "id": "bpscs_english_5",
+      "slug": "english-errors-in-composition-spelling",
+      "title": "Errors in Composition - Spelling",
+      "clean_filename": "Errors in Composition - Spelling.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 75,
+      "file": "/data/BPSC Non Tech Suggestion/English/Errors in Composition - Spelling.json"
+    },
+    {
+      "id": "bpscs_english_6",
+      "slug": "english-identify-appropriate-title-from-story",
+      "title": "Identify appropriate title from story",
+      "clean_filename": "Identify appropriate title from story.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 2,
+      "file": "/data/BPSC Non Tech Suggestion/English/Identify appropriate title from story.json"
+    },
+    {
+      "id": "bpscs_english_7",
+      "slug": "english-idioms-and-phrases",
+      "title": "Idioms and Phrases",
+      "clean_filename": "Idioms and Phrases.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 81,
+      "file": "/data/BPSC Non Tech Suggestion/English/Idioms and Phrases.json"
+    },
+    {
+      "id": "bpscs_english_8",
+      "slug": "english-narration",
+      "title": "Narration",
+      "clean_filename": "Narration.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 14,
+      "file": "/data/BPSC Non Tech Suggestion/English/Narration.json"
+    },
+    {
+      "id": "bpscs_english_9",
+      "slug": "english-number-gender",
+      "title": "Number & Gender",
+      "clean_filename": "Number & Gender.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 81,
+      "file": "/data/BPSC Non Tech Suggestion/English/Number & Gender.json"
+    },
+    {
+      "id": "bpscs_english_10",
+      "slug": "english-participle-gerund-infinitive",
+      "title": "Participle, Gerund & Infinitive",
+      "clean_filename": "Participle, Gerund & Infinitive.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 55,
+      "file": "/data/BPSC Non Tech Suggestion/English/Participle, Gerund & Infinitive.json"
+    },
+    {
+      "id": "bpscs_english_11",
+      "slug": "english-parts-of-speech",
+      "title": "Parts of Speech",
+      "clean_filename": "Parts of Speech.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 452,
+      "file": "/data/BPSC Non Tech Suggestion/English/Parts of Speech.json"
+    },
+    {
+      "id": "bpscs_english_12",
+      "slug": "english-prepositions-appropriate-words",
+      "title": "Prepositions & Appropriate Words",
+      "clean_filename": "Prepositions & Appropriate Words.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 174,
+      "file": "/data/BPSC Non Tech Suggestion/English/Prepositions & Appropriate Words.json"
+    },
+    {
+      "id": "bpscs_english_13",
+      "slug": "english-right-forms-of-verbs",
+      "title": "Right Forms of Verbs",
+      "clean_filename": "Right Forms of Verbs.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 138,
+      "file": "/data/BPSC Non Tech Suggestion/English/Right Forms of Verbs.json"
+    },
+    {
+      "id": "bpscs_english_14",
+      "slug": "english-synonyms-and-antonyms",
+      "title": "Synonyms and Antonyms",
+      "clean_filename": "Synonyms and Antonyms.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 161,
+      "file": "/data/BPSC Non Tech Suggestion/English/Synonyms and Antonyms.json"
+    },
+    {
+      "id": "bpscs_english_15",
+      "slug": "english-transformation-of-sentence",
+      "title": "Transformation of Sentence",
+      "clean_filename": "Transformation of Sentence.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 44,
+      "file": "/data/BPSC Non Tech Suggestion/English/Transformation of Sentence.json"
+    },
+    {
+      "id": "bpscs_english_16",
+      "slug": "english-translation",
+      "title": "Translation",
+      "clean_filename": "Translation.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 42,
+      "file": "/data/BPSC Non Tech Suggestion/English/Translation.json"
+    },
+    {
+      "id": "bpscs_english_17",
+      "slug": "english-uses-of-article",
+      "title": "Uses of Article",
+      "clean_filename": "Uses of Article.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 41,
+      "file": "/data/BPSC Non Tech Suggestion/English/Uses of Article.json"
+    },
+    {
+      "id": "bpscs_english_18",
+      "slug": "english-voice-change",
+      "title": "Voice Change",
+      "clean_filename": "Voice Change.json",
+      "category_id": "english",
+      "category_name": "English",
+      "question_count": 49,
+      "file": "/data/BPSC Non Tech Suggestion/English/Voice Change.json"
+    },
+    {
+      "id": "bpscs_math_1",
+      "slug": "math-অনুপাত-ও-সমানুপাত",
+      "title": "অনুপাত ও সমানুপাত",
+      "clean_filename": "অনুপাত ও সমানুপাত.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 46,
+      "file": "/data/BPSC Non Tech Suggestion/Math/অনুপাত ও সমানুপাত.json"
+    },
+    {
+      "id": "bpscs_math_2",
+      "slug": "math-উৎপাদকে-বিশ্লেষণ",
+      "title": "উৎপাদকে বিশ্লেষণ",
+      "clean_filename": "উৎপাদকে বিশ্লেষণ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 14,
+      "file": "/data/BPSC Non Tech Suggestion/Math/উৎপাদকে বিশ্লেষণ.json"
+    },
+    {
+      "id": "bpscs_math_3",
+      "slug": "math-ঐকিক-নিয়ম",
+      "title": "ঐকিক নিয়ম",
+      "clean_filename": "ঐকিক নিয়ম.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 17,
+      "file": "/data/BPSC Non Tech Suggestion/Math/ঐকিক নিয়ম.json"
+    },
+    {
+      "id": "bpscs_math_4",
+      "slug": "math-গতিবেগ-ও-ট্রেন",
+      "title": "গতিবেগ ও ট্রেন",
+      "clean_filename": "গতিবেগ ও ট্রেন.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 15,
+      "file": "/data/BPSC Non Tech Suggestion/Math/গতিবেগ ও ট্রেন.json"
+    },
+    {
+      "id": "bpscs_math_5",
+      "slug": "math-গড়",
+      "title": "গড়",
+      "clean_filename": "গড়.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 26,
+      "file": "/data/BPSC Non Tech Suggestion/Math/গড়.json"
+    },
+    {
+      "id": "bpscs_math_6",
+      "slug": "math-চতুর্ভুজ-ও-ক্ষেত্রফল",
+      "title": "চতুর্ভুজ ও ক্ষেত্রফল",
+      "clean_filename": "চতুর্ভুজ ও ক্ষেত্রফল.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 33,
+      "file": "/data/BPSC Non Tech Suggestion/Math/চতুর্ভুজ ও ক্ষেত্রফল.json"
+    },
+    {
+      "id": "bpscs_math_7",
+      "slug": "math-ত্রিকোণমিতি",
+      "title": "ত্রিকোণমিতি",
+      "clean_filename": "ত্রিকোণমিতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 22,
+      "file": "/data/BPSC Non Tech Suggestion/Math/ত্রিকোণমিতি.json"
+    },
+    {
+      "id": "bpscs_math_8",
+      "slug": "math-ত্রিভুজ",
+      "title": "ত্রিভুজ",
+      "clean_filename": "ত্রিভুজ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 44,
+      "file": "/data/BPSC Non Tech Suggestion/Math/ত্রিভুজ.json"
+    },
+    {
+      "id": "bpscs_math_9",
+      "slug": "math-ধারা",
+      "title": "ধারা",
+      "clean_filename": "ধারা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 28,
+      "file": "/data/BPSC Non Tech Suggestion/Math/ধারা.json"
+    },
+    {
+      "id": "bpscs_math_10",
+      "slug": "math-নৌকা-ও-স্রোত",
+      "title": "নৌকা ও স্রোত",
+      "clean_filename": "নৌকা ও স্রোত.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 5,
+      "file": "/data/BPSC Non Tech Suggestion/Math/নৌকা ও স্রোত.json"
+    },
+    {
+      "id": "bpscs_math_11",
+      "slug": "math-পরিমিতি",
+      "title": "পরিমিতি",
+      "clean_filename": "পরিমিতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 9,
+      "file": "/data/BPSC Non Tech Suggestion/Math/পরিমিতি.json"
+    },
+    {
+      "id": "bpscs_math_12",
+      "slug": "math-বর্গ-ও-ঘনসম্বলিত-সূত্রাবলী-ও-প্রয়োগ",
+      "title": "বর্গ ও ঘনসম্বলিত সূত্রাবলী ও প্রয়োগ",
+      "clean_filename": "বর্গ ও ঘনসম্বলিত সূত্রাবলী ও প্রয়োগ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 115,
+      "file": "/data/BPSC Non Tech Suggestion/Math/বর্গ ও ঘনসম্বলিত সূত্রাবলী ও প্রয়োগ.json"
+    },
+    {
+      "id": "bpscs_math_13",
+      "slug": "math-বাস্তব-সংখ্যা",
+      "title": "বাস্তব সংখ্যা",
+      "clean_filename": "বাস্তব সংখ্যা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 254,
+      "file": "/data/BPSC Non Tech Suggestion/Math/বাস্তব সংখ্যা.json"
+    },
+    {
+      "id": "bpscs_math_14",
+      "slug": "math-বাস্তব-সমস্যা-সমাধানে-বীজগাণিতিক-সূত্র-গঠন-ও-প্রয়োগ",
+      "title": "বাস্তব সমস্যা সমাধানে বীজগাণিতিক সূত্র গঠন ও প্রয়োগ",
+      "clean_filename": "বাস্তব সমস্যা সমাধানে বীজগাণিতিক সূত্র গঠন ও প্রয়োগ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 66,
+      "file": "/data/BPSC Non Tech Suggestion/Math/বাস্তব সমস্যা সমাধানে বীজগাণিতিক সূত্র গঠন ও প্রয়োগ.json"
+    },
+    {
+      "id": "bpscs_math_15",
+      "slug": "math-বিন্দু-রেখা-ও-কোণ",
+      "title": "বিন্দু রেখা ও কোণ",
+      "clean_filename": "বিন্দু রেখা ও কোণ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 18,
+      "file": "/data/BPSC Non Tech Suggestion/Math/বিন্দু রেখা ও কোণ.json"
+    },
+    {
+      "id": "bpscs_math_16",
+      "slug": "math-বীজগাণিতিক-লসাগু-ও-গসাগু",
+      "title": "বীজগাণিতিক ল.সা.গু ও গ.সা.গু",
+      "clean_filename": "বীজগাণিতিক ল.সা.গু ও গ.সা.গু.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 3,
+      "file": "/data/BPSC Non Tech Suggestion/Math/বীজগাণিতিক ল.সা.গু ও গ.সা.গু.json"
+    },
+    {
+      "id": "bpscs_math_17",
+      "slug": "math-বীজগাণিতীয়-ভগ্নাংশ",
+      "title": "বীজগাণিতীয় ভগ্নাংশ",
+      "clean_filename": "বীজগাণিতীয় ভগ্নাংশ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 4,
+      "file": "/data/BPSC Non Tech Suggestion/Math/বীজগাণিতীয় ভগ্নাংশ.json"
+    },
+    {
+      "id": "bpscs_math_18",
+      "slug": "math-বৃত্ত-ও-ঘন-জ্যামিতি",
+      "title": "বৃত্ত ও ঘন জ্যামিতি",
+      "clean_filename": "বৃত্ত ও ঘন জ্যামিতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 35,
+      "file": "/data/BPSC Non Tech Suggestion/Math/বৃত্ত ও ঘন জ্যামিতি.json"
+    },
+    {
+      "id": "bpscs_math_19",
+      "slug": "math-লসাগু-ও-গসাগু",
+      "title": "ল.সা.গু ও গ.সা.গু",
+      "clean_filename": "ল.সা.গু ও গ.সা.গু.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 24,
+      "file": "/data/BPSC Non Tech Suggestion/Math/ল.সা.গু ও গ.সা.গু.json"
+    },
+    {
+      "id": "bpscs_math_20",
+      "slug": "math-লাভ-ক্ষতি",
+      "title": "লাভ-ক্ষতি",
+      "clean_filename": "লাভ-ক্ষতি.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 47,
+      "file": "/data/BPSC Non Tech Suggestion/Math/লাভ-ক্ষতি.json"
+    },
+    {
+      "id": "bpscs_math_21",
+      "slug": "math-শতকরা",
+      "title": "শতকরা",
+      "clean_filename": "শতকরা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 91,
+      "file": "/data/BPSC Non Tech Suggestion/Math/শতকরা.json"
+    },
+    {
+      "id": "bpscs_math_22",
+      "slug": "math-সম্ভাব্যতা",
+      "title": "সম্ভাব্যতা",
+      "clean_filename": "সম্ভাব্যতা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 9,
+      "file": "/data/BPSC Non Tech Suggestion/Math/সম্ভাব্যতা.json"
+    },
+    {
+      "id": "bpscs_math_23",
+      "slug": "math-সরল-ও-দ্বিপদী-সমীকরণ",
+      "title": "সরল ও দ্বিপদী সমীকরণ",
+      "clean_filename": "সরল ও দ্বিপদী সমীকরণ.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 16,
+      "file": "/data/BPSC Non Tech Suggestion/Math/সরল ও দ্বিপদী সমীকরণ.json"
+    },
+    {
+      "id": "bpscs_math_24",
+      "slug": "math-সরল-ও-যৌগিক-মুনাফা",
+      "title": "সরল ও যৌগিক মুনাফা",
+      "clean_filename": "সরল ও যৌগিক মুনাফা.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 35,
+      "file": "/data/BPSC Non Tech Suggestion/Math/সরল ও যৌগিক মুনাফা.json"
+    },
+    {
+      "id": "bpscs_math_25",
+      "slug": "math-সূচক-ও-লগারিদম",
+      "title": "সূচক ও লগারিদম",
+      "clean_filename": "সূচক ও লগারিদম.json",
+      "category_id": "math",
+      "category_name": "Mathematics",
+      "question_count": 27,
+      "file": "/data/BPSC Non Tech Suggestion/Math/সূচক ও লগারিদম.json"
+    },
+    {
+      "id": "bpscs_bangladesh-affairs_1",
+      "slug": "bangladesh-affairs-ইতিহাস",
+      "title": "ইতিহাস",
+      "clean_filename": "ইতিহাস.json",
+      "category_id": "bangladesh-affairs",
+      "category_name": "Bangladesh Affairs",
+      "question_count": 175,
+      "file": "/data/BPSC Non Tech Suggestion/Bangladesh Affairs/ইতিহাস.json"
+    },
+    {
+      "id": "bpscs_bangladesh-affairs_2",
+      "slug": "bangladesh-affairs-বাংলাদেশ-সমাজ-জীবন-সমস্যা-জনমিতিক-পরিচয়",
+      "title": "বাংলাদেশ সমাজ জীবন - সমস্যা, জনমিতিক পরিচয়",
+      "clean_filename": "বাংলাদেশ সমাজ জীবন - সমস্যা, জনমিতিক পরিচয়.json",
+      "category_id": "bangladesh-affairs",
+      "category_name": "Bangladesh Affairs",
+      "question_count": 13,
+      "file": "/data/BPSC Non Tech Suggestion/Bangladesh Affairs/বাংলাদেশ সমাজ জীবন - সমস্যা, জনমিতিক পরিচয়.json"
+    },
+    {
+      "id": "bpscs_bangladesh-affairs_3",
+      "slug": "bangladesh-affairs-বাংলাদেশের-অর্থনীতি",
+      "title": "বাংলাদেশের অর্থনীতি",
+      "clean_filename": "বাংলাদেশের অর্থনীতি.json",
+      "category_id": "bangladesh-affairs",
+      "category_name": "Bangladesh Affairs",
+      "question_count": 33,
+      "file": "/data/BPSC Non Tech Suggestion/Bangladesh Affairs/বাংলাদেশের অর্থনীতি.json"
+    },
+    {
+      "id": "bpscs_bangladesh-affairs_4",
+      "slug": "bangladesh-affairs-বাংলাদেশের-ভূপ্রকৃতি-জলবায়ু-ও-পরিবেশ",
+      "title": "বাংলাদেশের ভূপ্রকৃতি, জলবায়ু ও পরিবেশ",
+      "clean_filename": "বাংলাদেশের ভূপ্রকৃতি, জলবায়ু ও পরিবেশ.json",
+      "category_id": "bangladesh-affairs",
+      "category_name": "Bangladesh Affairs",
+      "question_count": 135,
+      "file": "/data/BPSC Non Tech Suggestion/Bangladesh Affairs/বাংলাদেশের ভূপ্রকৃতি, জলবায়ু ও পরিবেশ.json"
+    },
+    {
+      "id": "bpscs_bangladesh-affairs_5",
+      "slug": "bangladesh-affairs-ভাষা-আন্দোলন",
+      "title": "ভাষা আন্দোলন",
+      "clean_filename": "ভাষা আন্দোলন.json",
+      "category_id": "bangladesh-affairs",
+      "category_name": "Bangladesh Affairs",
+      "question_count": 24,
+      "file": "/data/BPSC Non Tech Suggestion/Bangladesh Affairs/ভাষা আন্দোলন.json"
+    },
+    {
+      "id": "bpscs_bangladesh-affairs_6",
+      "slug": "bangladesh-affairs-মানবসম্পদ-উন্নয়ন",
+      "title": "মানবসম্পদ উন্নয়ন",
+      "clean_filename": "মানবসম্পদ উন্নয়ন.json",
+      "category_id": "bangladesh-affairs",
+      "category_name": "Bangladesh Affairs",
+      "question_count": 1,
+      "file": "/data/BPSC Non Tech Suggestion/Bangladesh Affairs/মানবসম্পদ উন্নয়ন.json"
+    },
+    {
+      "id": "bpscs_bangladesh-affairs_7",
+      "slug": "bangladesh-affairs-মুক্তিযুদ্ধ",
+      "title": "মুক্তিযুদ্ধ",
+      "clean_filename": "মুক্তিযুদ্ধ.json",
+      "category_id": "bangladesh-affairs",
+      "category_name": "Bangladesh Affairs",
+      "question_count": 85,
+      "file": "/data/BPSC Non Tech Suggestion/Bangladesh Affairs/মুক্তিযুদ্ধ.json"
+    },
+    {
+      "id": "bpscs_bangladesh-affairs_8",
+      "slug": "bangladesh-affairs-যোগাযোগ-ব্যবস্থা",
+      "title": "যোগাযোগ ব্যবস্থা",
+      "clean_filename": "যোগাযোগ ব্যবস্থা.json",
+      "category_id": "bangladesh-affairs",
+      "category_name": "Bangladesh Affairs",
+      "question_count": 27,
+      "file": "/data/BPSC Non Tech Suggestion/Bangladesh Affairs/যোগাযোগ ব্যবস্থা.json"
+    },
+    {
+      "id": "bpscs_bangladesh-affairs_9",
+      "slug": "bangladesh-affairs-রাষ্ট্র-নাগরিকতা-সরকার-ও-রাজনীতি",
+      "title": "রাষ্ট্র, নাগরিকতা, সরকার ও রাজনীতি",
+      "clean_filename": "রাষ্ট্র, নাগরিকতা, সরকার ও রাজনীতি.json",
+      "category_id": "bangladesh-affairs",
+      "category_name": "Bangladesh Affairs",
+      "question_count": 115,
+      "file": "/data/BPSC Non Tech Suggestion/Bangladesh Affairs/রাষ্ট্র, নাগরিকতা, সরকার ও রাজনীতি.json"
+    },
+    {
+      "id": "bpscs_bangladesh-affairs_10",
+      "slug": "bangladesh-affairs-সরকারি-ও-বেসরকারি-লক্ষ্য-নীতি-পরিকল্পনা-অর্থনৈতিক-সামাজিক-স্বাস্থ্য-ও-শিক্ষা-কর্মসূচি",
+      "title": "সরকারি ও বেসরকারি লক্ষ্য, নীতি, পরিকল্পনা (অর্থনৈতিক, সামাজিক, স্বাস্থ্য ও শিক্ষা), কর্মসূচি",
+      "clean_filename": "সরকারি ও বেসরকারি লক্ষ্য, নীতি, পরিকল্পনা (অর্থনৈতিক, সামাজিক, স্বাস্থ্য ও শিক্ষা), কর্মসূচি.json",
+      "category_id": "bangladesh-affairs",
+      "category_name": "Bangladesh Affairs",
+      "question_count": 5,
+      "file": "/data/BPSC Non Tech Suggestion/Bangladesh Affairs/সরকারি ও বেসরকারি লক্ষ্য, নীতি, পরিকল্পনা (অর্থনৈতিক, সামাজিক, স্বাস্থ্য ও শিক্ষা), কর্মসূচি.json"
+    },
+    {
+      "id": "bpscs_international-affairs_1",
+      "slug": "international-affairs-আঞ্চলিক-ও-অর্থনৈতিক-সংগঠন",
+      "title": "আঞ্চলিক ও অর্থনৈতিক সংগঠন",
+      "clean_filename": "আঞ্চলিক ও অর্থনৈতিক সংগঠন.json",
+      "category_id": "international-affairs",
+      "category_name": "International Affairs",
+      "question_count": 55,
+      "file": "/data/BPSC Non Tech Suggestion/International Affairs/আঞ্চলিক ও অর্থনৈতিক সংগঠন.json"
+    },
+    {
+      "id": "bpscs_international-affairs_2",
+      "slug": "international-affairs-আন্তর্জাতিক-মুদ্রা-সংক্রান্ত",
+      "title": "আন্তর্জাতিক মুদ্রা সংক্রান্ত",
+      "clean_filename": "আন্তর্জাতিক মুদ্রা সংক্রান্ত.json",
+      "category_id": "international-affairs",
+      "category_name": "International Affairs",
+      "question_count": 16,
+      "file": "/data/BPSC Non Tech Suggestion/International Affairs/আন্তর্জাতিক মুদ্রা সংক্রান্ত.json"
+    },
+    {
+      "id": "bpscs_international-affairs_3",
+      "slug": "international-affairs-আন্তর্জাতিক-রাজনীতি-ও-আনুষঙ্গিক-বিষয়াবলী",
+      "title": "আন্তর্জাতিক রাজনীতি ও আনুষঙ্গিক বিষয়াবলী",
+      "clean_filename": "আন্তর্জাতিক রাজনীতি ও আনুষঙ্গিক বিষয়াবলী.json",
+      "category_id": "international-affairs",
+      "category_name": "International Affairs",
+      "question_count": 113,
+      "file": "/data/BPSC Non Tech Suggestion/International Affairs/আন্তর্জাতিক রাজনীতি ও আনুষঙ্গিক বিষয়াবলী.json"
+    },
+    {
+      "id": "bpscs_international-affairs_4",
+      "slug": "international-affairs-আন্তর্জাতিক-সম্পর্ক",
+      "title": "আন্তর্জাতিক সম্পর্ক",
+      "clean_filename": "আন্তর্জাতিক সম্পর্ক.json",
+      "category_id": "international-affairs",
+      "category_name": "International Affairs",
+      "question_count": 7,
+      "file": "/data/BPSC Non Tech Suggestion/International Affairs/আন্তর্জাতিক সম্পর্ক.json"
+    },
+    {
+      "id": "bpscs_international-affairs_5",
+      "slug": "international-affairs-খেলাধুলা",
+      "title": "খেলাধুলা",
+      "clean_filename": "খেলাধুলা.json",
+      "category_id": "international-affairs",
+      "category_name": "International Affairs",
+      "question_count": 27,
+      "file": "/data/BPSC Non Tech Suggestion/International Affairs/খেলাধুলা.json"
+    },
+    {
+      "id": "bpscs_international-affairs_6",
+      "slug": "international-affairs-জাতিসংঘ",
+      "title": "জাতিসংঘ",
+      "clean_filename": "জাতিসংঘ.json",
+      "category_id": "international-affairs",
+      "category_name": "International Affairs",
+      "question_count": 64,
+      "file": "/data/BPSC Non Tech Suggestion/International Affairs/জাতিসংঘ.json"
+    },
+    {
+      "id": "bpscs_international-affairs_7",
+      "slug": "international-affairs-দিবস-বর্ষ-এবং-দশক",
+      "title": "দিবস, বর্ষ এবং দশক",
+      "clean_filename": "দিবস, বর্ষ এবং দশক.json",
+      "category_id": "international-affairs",
+      "category_name": "International Affairs",
+      "question_count": 16,
+      "file": "/data/BPSC Non Tech Suggestion/International Affairs/দিবস, বর্ষ এবং দশক.json"
+    },
+    {
+      "id": "bpscs_international-affairs_8",
+      "slug": "international-affairs-পুরস্কার-ও-সম্মাননা",
+      "title": "পুরস্কার ও সম্মাননা",
+      "clean_filename": "পুরস্কার ও সম্মাননা.json",
+      "category_id": "international-affairs",
+      "category_name": "International Affairs",
+      "question_count": 12,
+      "file": "/data/BPSC Non Tech Suggestion/International Affairs/পুরস্কার ও সম্মাননা.json"
+    },
+    {
+      "id": "bpscs_international-affairs_9",
+      "slug": "international-affairs-বিশ্ব-ভৌগোলিক-পরিচিতি",
+      "title": "বিশ্ব ভৌগোলিক পরিচিতি",
+      "clean_filename": "বিশ্ব ভৌগোলিক পরিচিতি.json",
+      "category_id": "international-affairs",
+      "category_name": "International Affairs",
+      "question_count": 205,
+      "file": "/data/BPSC Non Tech Suggestion/International Affairs/বিশ্ব ভৌগোলিক পরিচিতি.json"
+    },
+    {
+      "id": "bpscs_international-affairs_10",
+      "slug": "international-affairs-সভ্যতা-ও-সংস্কৃতি",
+      "title": "সভ্যতা ও সংস্কৃতি",
+      "clean_filename": "সভ্যতা ও সংস্কৃতি.json",
+      "category_id": "international-affairs",
+      "category_name": "International Affairs",
+      "question_count": 25,
+      "file": "/data/BPSC Non Tech Suggestion/International Affairs/সভ্যতা ও সংস্কৃতি.json"
+    },
+    {
+      "id": "bpscs_science_1",
+      "slug": "science-জলবায়ু-পরিবর্তন-ও-দুর্যোগ",
+      "title": "জলবায়ু পরিবর্তন ও দুর্যোগ",
+      "clean_filename": "জলবায়ু পরিবর্তন ও দুর্যোগ.json",
+      "category_id": "science",
+      "category_name": "Science",
+      "question_count": 6,
+      "file": "/data/BPSC Non Tech Suggestion/Science/জলবায়ু পরিবর্তন ও দুর্যোগ.json"
+    },
+    {
+      "id": "bpscs_science_2",
+      "slug": "science-জীববিজ্ঞান-উদ্ভিদবিজ্ঞান",
+      "title": "জীববিজ্ঞান (উদ্ভিদবিজ্ঞান)",
+      "clean_filename": "জীববিজ্ঞান (উদ্ভিদবিজ্ঞান).json",
+      "category_id": "science",
+      "category_name": "Science",
+      "question_count": 84,
+      "file": "/data/BPSC Non Tech Suggestion/Science/জীববিজ্ঞান (উদ্ভিদবিজ্ঞান).json"
+    },
+    {
+      "id": "bpscs_science_3",
+      "slug": "science-জীববিজ্ঞান-প্রাণিবিজ্ঞান",
+      "title": "জীববিজ্ঞান (প্রাণিবিজ্ঞান)",
+      "clean_filename": "জীববিজ্ঞান (প্রাণিবিজ্ঞান).json",
+      "category_id": "science",
+      "category_name": "Science",
+      "question_count": 55,
+      "file": "/data/BPSC Non Tech Suggestion/Science/জীববিজ্ঞান (প্রাণিবিজ্ঞান).json"
+    },
+    {
+      "id": "bpscs_science_4",
+      "slug": "science-নবায়নযোগ্য-শক্তি",
+      "title": "নবায়নযোগ্য শক্তি",
+      "clean_filename": "নবায়নযোগ্য শক্তি.json",
+      "category_id": "science",
+      "category_name": "Science",
+      "question_count": 17,
+      "file": "/data/BPSC Non Tech Suggestion/Science/নবায়নযোগ্য শক্তি.json"
+    },
+    {
+      "id": "bpscs_science_5",
+      "slug": "science-পদার্থবিজ্ঞান",
+      "title": "পদার্থবিজ্ঞান",
+      "clean_filename": "পদার্থবিজ্ঞান.json",
+      "category_id": "science",
+      "category_name": "Science",
+      "question_count": 196,
+      "file": "/data/BPSC Non Tech Suggestion/Science/পদার্থবিজ্ঞান.json"
+    },
+    {
+      "id": "bpscs_science_6",
+      "slug": "science-পরিবেশ-বিজ্ঞান-সংশ্লিষ্ট",
+      "title": "পরিবেশ বিজ্ঞান সংশ্লিষ্ট",
+      "clean_filename": "পরিবেশ বিজ্ঞান সংশ্লিষ্ট.json",
+      "category_id": "science",
+      "category_name": "Science",
+      "question_count": 11,
+      "file": "/data/BPSC Non Tech Suggestion/Science/পরিবেশ বিজ্ঞান সংশ্লিষ্ট.json"
+    },
+    {
+      "id": "bpscs_science_7",
+      "slug": "science-রসায়নবিজ্ঞান",
+      "title": "রসায়নবিজ্ঞান",
+      "clean_filename": "রসায়নবিজ্ঞান.json",
+      "category_id": "science",
+      "category_name": "Science",
+      "question_count": 108,
+      "file": "/data/BPSC Non Tech Suggestion/Science/রসায়নবিজ্ঞান.json"
+    },
+    {
+      "id": "bpscs_science_8",
+      "slug": "science-স্বাস্থ্য-সাধারণ-রোগ-ব্যাধি-ও-চিকিৎসা",
+      "title": "স্বাস্থ্য, সাধারণ রোগ ব্যাধি ও চিকিৎসা",
+      "clean_filename": "স্বাস্থ্য, সাধারণ রোগ ব্যাধি ও চিকিৎসা.json",
+      "category_id": "science",
+      "category_name": "Science",
+      "question_count": 68,
+      "file": "/data/BPSC Non Tech Suggestion/Science/স্বাস্থ্য, সাধারণ রোগ ব্যাধি ও চিকিৎসা.json"
+    },
+    {
+      "id": "bpscs_ict_1",
+      "slug": "ict-তথ্য-যোগাযোগ-ও-প্রযুক্তি",
+      "title": "তথ্য, যোগাযোগ ও প্রযুক্তি",
+      "clean_filename": "তথ্য, যোগাযোগ ও প্রযুক্তি.json",
+      "category_id": "ict",
+      "category_name": "ICT",
+      "question_count": 157,
+      "file": "/data/BPSC Non Tech Suggestion/ICT/তথ্য, যোগাযোগ ও প্রযুক্তি.json"
+    }
+  ]
+}

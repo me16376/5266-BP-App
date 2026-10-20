@@ -1,0 +1,1542 @@
+[
+  {
+    "id": 1,
+    "question": "A rectangle has a length of R and a width of S. If the length is increased by 4 inches. How much area is increased? [RNPL-ME,EEE-25]",
+    "options": [
+      "4S",
+      "S/(R+4)",
+      "(R+4)S",
+      "R/(R+4)"
+    ],
+    "answer": "ক",
+    "explanation": "আয়তক্ষেত্রের আদি ক্ষেত্রফল = R × S = RS\nআয়তক্ষেত্রের দৈর্ঘ্য 4 in বৃদ্ধি পেলে = (R + 4) × S\nসুতরাং ক্ষেত্রফলের বৃদ্ধি = (R + 4)S - RS\n= RS + 4S - RS\n= 4S (Ans.)"
+  },
+  {
+    "id": 2,
+    "question": "How many tangents can be drawn from a point on a circle? [RNPL-ME,EEE-25]",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "গ",
+    "explanation": "বৃত্তের বহিঃস্থ একটি বিন্দু হতে একটি বৃত্তের উপর দুটি স্পর্শক (Tangent) আঁকা যাবে।\n[Note: প্রশ্নে on a circle বলা হলেও বহিঃস্থ বিন্দু বিবেচনা করে উত্তর ২ ধরা হয়েছে।]"
+  },
+  {
+    "id": 3,
+    "question": "একটি সুষম পঞ্চভুজের অন্তঃস্থ এক কোণ কত ডিগ্রি? [DESCO-SSA-25]",
+    "options": [
+      "১৮০",
+      "১২০",
+      "৩৬০",
+      "১০৮"
+    ],
+    "answer": "ঘ",
+    "explanation": "একটি অন্তঃস্থ কোণ = 180° - (360°/n)\n= 180° - (360°/5)\n= 180° - 72°\n= 108° (Ans.)"
+  },
+  {
+    "id": 4,
+    "question": "একটি বৃত্তের ক্ষেত্রফল 154 cm², তবে ব্যাসার্ধ কত? [DESCO-SSA-25]",
+    "options": [
+      "9",
+      "7",
+      "5",
+      "8"
+    ],
+    "answer": "খ",
+    "explanation": "বৃত্তের ক্ষেত্রফল, πr² = 154 cm²\n⇒ (22/7) × r² = 154\n⇒ r² = (154 × 7) / 22 = 49\n∴ r = 7 cm (Ans.)"
+  },
+  {
+    "id": 5,
+    "question": "একটি ত্রিভুজের কোণের অনুপাত ২:৩:৪ হলে, ক্ষুদ্রতম কোণ কত ডিগ্রি? [DESCO-SSA-25]",
+    "options": [
+      "৭০",
+      "৫০",
+      "৬০",
+      "৪০"
+    ],
+    "answer": "ঘ",
+    "explanation": "কোণের অনুপাত = ২:৩:৪\nঅনুপাতের যোগফল = ২ + ৩ + ৪ = ৯\nক্ষুদ্রতম কোণের পরিমাণ = ১৮০° এর (২/৯) = ৪০° (Ans.)"
+  },
+  {
+    "id": 6,
+    "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য ১২ সেমি এবং প্রস্থ ৫ সেমি হলে, কর্ণের দৈর্ঘ্য কত? [DESCO-SSA-25]",
+    "options": [
+      "১৩",
+      "১২",
+      "১০",
+      "১১"
+    ],
+    "answer": "ক",
+    "explanation": "আয়তক্ষেত্রের কর্ণের দৈর্ঘ্য = √(a² + b²)\n= √(12² + 5²)\n= √(144 + 25)\n= √169 = 13 সেমি (Ans.)"
+  },
+  {
+    "id": 7,
+    "question": "If r = 5 cm, h = 10 cm of a cylinder and increase rate of radius is 2 cm/s, What is the increase rate of curved surface area? [LPGL-ME-25]",
+    "options": [
+      "20π cm²/s",
+      "30π cm²/s",
+      "40π cm²/s",
+      "50π cm²/s"
+    ],
+    "answer": "গ",
+    "explanation": "r = 5 cm, h = 10 cm, dr/dt = 2 cm/s\nCurved Surface Area (CSA) = 2πrh\nRate of change of CSA = d(CSA)/dt = 2πh(dr/dt)\n= 2π × 10 × 2 = 40π cm²/s (Ans.)\n[এখানে, h=ধ্রুবক, শুধু r এর পরিবর্তনই rate of change of CSA]"
+  },
+  {
+    "id": 8,
+    "question": "একটি সুষম ষড়ভুজের কেন্দ্র থেকে কৌণিক বিন্দুর দূরত্ব ৬ মি. হলে এর ক্ষেত্রফল কত বর্গমিটার? [DPDC-CST-25]",
+    "options": [
+      "১০৮√৩",
+      "৫৪√৩",
+      "২৭√৩",
+      "৯৬√৩"
+    ],
+    "answer": "খ",
+    "explanation": "সুষম ষড়ভুজের ক্ষেত্রফল = 6 × (√3/4) × a²\n= 6 × (√3/4) × 6² = 54√3 বর্গমিটার (Ans.)"
+  },
+  {
+    "id": 9,
+    "question": "আয়তাকার বাগানের ক্ষেত্রফল 400 m² ক্ষেত্রটির প্রস্থ 16 m বাগানটির পরিসীমা নির্ণয় কর। [DWASA-CE,ME,EEE-25]",
+    "options": [
+      "82",
+      "25",
+      "41",
+      "16"
+    ],
+    "answer": "ক",
+    "explanation": "দৈর্ঘ্য × প্রস্থ = 400\n⇒ L × 16 = 400\n⇒ L = 25 m\n∴ পরিসীমা = 2(L + B) = 2(25 + 16) = 82 m (Ans.)"
+  },
+  {
+    "id": 10,
+    "question": "দুটি অনুরূপ ত্রিভুজ ABC এবং PQR এর পরিসীমা যথাক্রমে 64 সেমি এবং 56 সেমি। যদি AB = 16 সেমি হয় তাহলে PQ এর দৈর্ঘ্য কত? [MPL-CMT/IT/ENT-25]",
+    "options": [
+      "9.5",
+      "14",
+      "20",
+      "10"
+    ],
+    "answer": "খ",
+    "explanation": "২টি অনুরূপ ত্রিভুজের পরিসীমার অনুপাত সংশ্লিষ্ট বাহুর অনুপাতের সমান।\n(ΔABC এর পরিসীমা) / (ΔPQR এর পরিসীমা) = AB / PQ\n⇒ 64 / 56 = 16 / PQ\n⇒ PQ = (16 × 56) / 64 = 14 সেমি. (Ans.)"
+  },
+  {
+    "id": 11,
+    "question": "একটি গাড়ীর চাকা প্রতি মিনিটে ১২ বার ঘুরে। চাকাটি ১০ সেকেন্ডে কত ডিগ্রি ঘুরবে? [BCPCL-MT-25]",
+    "options": [],
+    "answer": "৭২০°",
+    "explanation": "60 সেকেন্ডে ঘুরে = 12 বার\n10 সেকেন্ডে ঘুরে = (12 × 10) / 60 = 2 বার\n1 বার ঘুরে = 360°\n∴ 2 বার ঘুরে = 360° × 2 = 720° (Ans.)"
+  },
+  {
+    "id": 12,
+    "question": "একটি ত্রিভুজের তিনটি কোণের অনুপাত ৩:৪:৫ হলে, বৃহত্তম কোণটি নির্ণয় করুন? [BODC-AE-25]",
+    "options": [],
+    "answer": "৭৫°",
+    "explanation": "তিনটি কোণের অনুপাত = 3:4:5\nধরি, তিনটি কোণ = 3x, 4x, 5x\nএখন, 3x + 4x + 5x = 180°\n⇒ 12x = 180°\n⇒ x = 15°\n∴ বড় কোণের পরিমাণ = 5 × 15° = 75° (Ans.)"
+  },
+  {
+    "id": 13,
+    "question": "২০ ফুট লম্বা একটি দণ্ড এমনভাবে কেটে দুভাগ করা হলো যেন ছোট অংশটি বড় অংশের দুই-তৃতীয়াংশ হয়। ছোট অংশের দৈর্ঘ্য কত ফুট? [BSEC-ET-18, BCS-34th, BCPCL-ET-25]",
+    "options": [
+      "৫",
+      "৮",
+      "২০",
+      "১৬"
+    ],
+    "answer": "খ",
+    "explanation": "মনে করি, বড় অংশ = x, ছোট অংশ = 2x/3\nপ্রশ্নমতে, x + 2x/3 = 20\n⇒ 5x/3 = 20\n⇒ x = 12\n∴ বড় অংশের দৈর্ঘ্য = 12 ফুট, ছোট অংশের দৈর্ঘ্য = (2/3) × 12 = 8 ফুট (Ans.)"
+  },
+  {
+    "id": 14,
+    "question": "১টি গাড়ির চাকা প্রতি মিনিটে ৯০ বার ঘোরে। ১ সেকেন্ডে চাকাটি কত ডিগ্রি ঘুরবে? [BSEC-ET-18, PGCB-CE/EEE/ME/CSE-24]",
+    "options": [
+      "৬৯০",
+      "৫৪০",
+      "৬১০",
+      "৩৬০"
+    ],
+    "answer": "খ",
+    "explanation": "৬০ সেকেন্ডে ঘুরে = ৯০ বার\n১ সেকেন্ডে ঘুরে = ৯০ / ৬০ = ১.৫ বার\nএকবার ঘুরলে = ৩৬০°\n∴ ১ সেকেন্ডে ঘুরে = ১.৫ × ৩৬০ = ৫৪০ ডিগ্রি (Ans.)"
+  },
+  {
+    "id": 15,
+    "question": "একটি বর্গাকার মাঠের বাইরে চারপাশে ৫ মিটারের একটি রাস্তা আছে। রাস্তার ক্ষেত্রফল ৫০০ বর্গমিটার হলে মাঠের ক্ষেত্রফল কত? [BCIC-SAE-24]",
+    "options": [
+      "40",
+      "400",
+      "20",
+      "600"
+    ],
+    "answer": "খ",
+    "explanation": "ধরি, মাঠের দৈর্ঘ্য = x মিটার\n∴ মাঠের ক্ষেত্রফল = x² বর্গ মিটার\nরাস্তার ক্ষেত্রফল = 500 বর্গ মিটার\nরাস্তাসহ মাঠের ক্ষেত্রফল = (x² + 500) বর্গ মিটার ---------- (i)\nরাস্তাসহ মাঠের এক পাড়ের দৈর্ঘ্য = (x + 10) মিটার\nরাস্তাসহ মাঠের মোট ক্ষেত্রফল = (x + 10)² = x² + 20x + 100 ------- (ii)\n(i) ও (ii) থেকে পাই,\nx² + 20x + 100 = x² + 500\n⇒ 20x = 400\n⇒ x = 20\n∴ মাঠের ক্ষেত্রফল = x² = (20)² = 400 বর্গ মিটার (Ans.)"
+  },
+  {
+    "id": 16,
+    "question": "একটি ত্রিভুজের দুটি কোণ যথাক্রমে 65° ও 85°। অপর কোণের পরিমাণ কত? [EGCB-ENT-18, NWPGCL-MT/ET/RAC-24]",
+    "options": [
+      "35°",
+      "75°",
+      "45°",
+      "30°"
+    ],
+    "answer": "ঘ",
+    "explanation": "ত্রিভুজের তিন কোণের সমষ্টি = 180°\n∴ অপর কোণটি = 180° - (65° + 85°) = 30° (Ans.)"
+  },
+  {
+    "id": 17,
+    "question": "একটি সামান্তরিকের দুটি সন্নিহিত বাহু ৫ ও ৭ একক হলে সামান্তরিকের অর্ধ পরিসীমা কত? [NWPGCL-MT/ET/RAC-24]",
+    "options": [
+      "12",
+      "20",
+      "10",
+      "28"
+    ],
+    "answer": "ক",
+    "explanation": "সামান্তরিকের পরিসীমা = 2(দৈর্ঘ্য + প্রস্থ) = 2(5 + 7) = 24 একক\n∴ অর্ধ পরিসীমা = 24 / 2 = 12 একক (Ans.)"
+  },
+  {
+    "id": 18,
+    "question": "(3, 4) বিন্দুগামী এবং 3x + 4y + 5 = 0 রেখার সমান্তরাল রেখার সমীকরণ কোনটি? [BSCPLC-CSE/EEE-24]",
+    "options": [
+      "3x + 4y - 25 = 0",
+      "3x - 4y + 7 = 0",
+      "4x - 3y + 25 = 0",
+      "4x + 3y + 25 = 0"
+    ],
+    "answer": "ক",
+    "explanation": "3x + 4y + 5 = 0 রেখার সমান্তরাল রেখার সমীকরণ, 3x + 4y + k = 0\nযা (3, 4) বিন্দুগামী,\n∴ 3(3) + 4(4) + k = 0\n⇒ 9 + 16 + k = 0\n⇒ k = -25\n∴ সমান্তরাল রেখার সমীকরণ, 3x + 4y - 25 = 0 (Ans.)"
+  },
+  {
+    "id": 19,
+    "question": "একটি বৃত্তের ব্যাস 1 m, চাপের দৈর্ঘ্য বের কর যদি কেন্দ্রে 60° কোণ উৎপন্ন করে। [BSCPLC-CSE/EEE-24]",
+    "options": [
+      "π/6",
+      "π/3",
+      "π/4",
+      "π"
+    ],
+    "answer": "ক",
+    "explanation": "আমরা জানি, পরিধি = 2πr\nএখানে, r = 0.5 m, কেন্দ্রে উৎপন্ন কোণ, θ = 60° হলে,\nচাপের দৈর্ঘ্য s = 2πr × (θ / 360°) = 2π × 0.5 × (60° / 360°) = π / 6 m (Ans.)"
+  },
+  {
+    "id": 20,
+    "question": "A pizza has 8 slices. The pizza has a radius of 12 cm. What is the arc length of one slice? [NWPGCL-ME/EEE-24]",
+    "options": [
+      "10.6 cm",
+      "6 cm",
+      "9.42 cm",
+      "1.5 cm"
+    ],
+    "answer": "গ",
+    "explanation": "পিজ্জার পরিধি = 2πr = 2π × 12 = 75.40 cm\nপিজ্জা ৮ ভাগে ভাগ হলে প্রতি ভাগের পরিধি = 75.40 / 8 = 9.42 cm (Ans.)"
+  },
+  {
+    "id": 21,
+    "question": "Find out the area of square inscribed in a circle of radius 4 cm. [NWPGCL-ME/EEE-24]",
+    "options": [
+      "16 cm²",
+      "64 cm²",
+      "32 cm²",
+      "8 cm²"
+    ],
+    "answer": "গ",
+    "explanation": "চিত্র হতে, বৃত্তের ব্যাস = বর্গের কর্ণ\nদেওয়া আছে, বৃত্তের ব্যাসার্ধ = 4 cm, সুতরাং ব্যাস = 8 cm\nবর্গের কর্ণ = a√2 = 8 ⇒ a = 8 / √2\n∴ বর্গের ক্ষেত্রফল = a² = (8 / √2)² = 64 / 2 = 32 cm² (Ans.)\n[অথবা, বর্গের ক্ষেত্রফল = 1/2 × (কর্ণ)² = 1/2 × 8 × 8 = 32 cm²]"
+  },
+  {
+    "id": 22,
+    "question": "ত্রিভুজের তিনটি বাহুর দৈর্ঘ্য 20, 21 এবং 29 cm হলে ত্রিভুজের ক্ষেত্রফল কত? [BOGMC-ET/CT-24]",
+    "options": [
+      "210",
+      "20/21",
+      "21/20",
+      "3√35"
+    ],
+    "answer": "ক",
+    "explanation": "অর্ধপরিসীমা s = (20 + 21 + 29) / 2 = 70 / 2 = 35\nক্ষেত্রফল = √[s(s - a)(s - b)(s - c)]\n= √[35(35 - 20)(35 - 21)(35 - 29)]\n= √[35 × 15 × 14 × 6] = 210 বর্গ সে.মি. (Ans.)\n[নোট: 20² + 21² = 400 + 441 = 841 = 29², সুতরাং সমকোণী ত্রিভুজ বিধায় ক্ষেত্রফল = 1/2 × 20 × 21 = 210]"
+  },
+  {
+    "id": 23,
+    "question": "∠A = 40°, ∠B = 70° হলে ABC ত্রিভুজটি কোন ধরনের? [BOGMC-CMT/MT-24]",
+    "options": [
+      "সমকোণী",
+      "স্থূলকোণী",
+      "সমদ্বিবাহু",
+      "বিষমবাহু"
+    ],
+    "answer": "গ",
+    "explanation": "∠A + ∠B + ∠C = 180°\n⇒ 40° + 70° + ∠C = 180°\n⇒ ∠C = 70°\nযেহেতু ∠B = ∠C = 70°, দুটি কোণ সমান হওয়ায় ত্রিভুজটি সমদ্বিবাহু ত্রিভুজ। (Ans.)"
+  },
+  {
+    "id": 24,
+    "question": "A circle has a radius of 5 cm, a chord of 8 cm, longitudinal distance from centre to chord = ? [BOGMC-ME/CE/CSE-24]",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "10"
+    ],
+    "answer": "খ",
+    "explanation": "বৃত্তের কেন্দ্র হতে জ্যা-এর উপর অঙ্কিত লম্ব জ্যা-কে সমদ্বিখণ্ডিত করে।\nসুতরাং লম্ব দূরত্বের সমকোণী ত্রিভুজে অতিভুজ r = 5 cm, ভূমি = 8 / 2 = 4 cm\nদূরত্ব = √(5² - 4²) = √(25 - 16) = √9 = 3 cm (Ans.)"
+  },
+  {
+    "id": 25,
+    "question": "For a triangle AB = BC, where AC is hypotenuse then ∠A = ? [BOGMC-ME/CE/CSE-24]",
+    "options": [
+      "360°",
+      "60°",
+      "180°",
+      "45°"
+    ],
+    "answer": "ঘ",
+    "explanation": "AC অতিভুজ হলে ∠B = 90°।\nসমদ্বিবাহু সমকোণী ত্রিভুজের একটি কোণ সমকোণ এবং অপর দুইটি কোণ সমান হয়।\n∴ ∠A + ∠C = 90°\n⇒ ∠A = 45° (Ans.)"
+  },
+  {
+    "id": 26,
+    "question": "A right-angled triangle has a hypotenuse of length 10 cm and one of its acute angles measures 30°. What are the lengths of the other two sides? [BOGMC-EEE/IPE-24]",
+    "options": [
+      "5 cm and 5√2 cm",
+      "5 cm and 10 cm",
+      "10 cm and 5√3 cm",
+      "5 cm and 5√3 cm"
+    ],
+    "answer": "ঘ",
+    "explanation": "sin 30° = লম্ব / অতিভুজ ⇒ 1/2 = y / 10 ⇒ y = 5 cm\nঅপর বাহু x = √(10² - 5²) = √(100 - 25) = √75 = 5√3 cm\nসুতরাং অপর বাহু দুটি 5 cm এবং 5√3 cm (Ans.)"
+  },
+  {
+    "id": 27,
+    "question": "The perimeter of a rectangle is 24 inches, and its length is 3 times its width. What are the length and the width of the rectangle? [BOGMC-EEE/IPE-24]",
+    "options": [
+      "Length: 6 inches, Width: 2 inches",
+      "Length: 9 inches, Width: 3 inches",
+      "Length: 12 inches, Width: 4 inches",
+      "Length: 18 inches, Width: 6 inches"
+    ],
+    "answer": "খ",
+    "explanation": "Perimeter = 2(length + width)\nLet, width = x, length = 3x\n2(3x + x) = 24 ⇒ 8x = 24 ⇒ x = 3 inches\nLength = 3 × 3 = 9 inches, Width = 3 inches (Ans.)"
+  },
+  {
+    "id": 28,
+    "question": "A circle has a radius of 30 cm. Determine the length of the arc subtended by an angle of 60° at the center of the circle. [BOGMC-EEE/IPE-24]",
+    "options": [
+      "π cm",
+      "5π cm",
+      "10π cm",
+      "15π cm"
+    ],
+    "answer": "গ",
+    "explanation": "When central angle is θ, arc length = 2πr × (θ / 360°)\n= 2π × 30 × (60° / 360°) = 10π cm (Ans.)"
+  },
+  {
+    "id": 29,
+    "question": "Find the value of k if the distance between (k, 3) and (2, 3) is 5. [BOGMC-EEE/IPE-24]",
+    "options": [
+      "5",
+      "8",
+      "6",
+      "7"
+    ],
+    "answer": "ঘ",
+    "explanation": "দুটি বিন্দুর মধ্যবর্তী দূরত্ব = √[(k - 2)² + (3 - 3)²] = 5\n⇒ √(k - 2)² = 5\n⇒ k - 2 = 5\n⇒ k = 7 (Ans.)"
+  },
+  {
+    "id": 30,
+    "question": "A right angle triangle has perpendicular sides having a length of 2.4 cm and 1.8 cm inscribed in a circle. What is the circumference of the circle? [TGTDCL-EEE/ME/CE/CSE-24]",
+    "options": [
+      "4π",
+      "5π",
+      "3π",
+      "6π"
+    ],
+    "answer": "গ",
+    "explanation": "Hypotenuse = √(2.4² + 1.8²) = √(5.76 + 3.24) = √9 = 3 cm\nHere, Hypotenuse = Diameter of the circle (D = 3 cm)\nSo, circumference = πD = 3π cm (Ans.)"
+  },
+  {
+    "id": 31,
+    "question": "Which one is the straight line equation that is perpendicular to y-axis and passing through the point (4, -7)? [TGTDCL-EEE/ME/CE/CSE-24]",
+    "options": [
+      "y = -7",
+      "y = 7",
+      "x = 4",
+      "x = -4"
+    ],
+    "answer": "ক",
+    "explanation": "A straight line perpendicular to y-axis is parallel to x-axis, so its equation is y = b.\nSince it passes through (4, -7), b = -7.\n∴ The straight line equation is y = -7 (Ans.)"
+  },
+  {
+    "id": 32,
+    "question": "সমকোণী ত্রিভুজের অতিভুজ 10, অপর বাহুদ্বয়ের একটি 6 হলে তৃতীয় বাহুটি কত? [TGTDCL-ET/MT/CT/CMT-24]",
+    "options": [
+      "8",
+      "5",
+      "10",
+      "12"
+    ],
+    "answer": "ক",
+    "explanation": "তৃতীয় বাহু x² = 10² - 6² = 100 - 36 = 64\n∴ x = 8 (Ans.)"
+  },
+  {
+    "id": 33,
+    "question": "একটি রম্বসের কর্ণ ৮ মিটার ও ৬ মিটার হলে এর ক্ষেত্রফল কত? [TGTDCL-ET/MT/CT/CMT-24]",
+    "options": [
+      "২৪",
+      "৪৮",
+      "১২",
+      "৮"
+    ],
+    "answer": "ক",
+    "explanation": "রম্বসের ক্ষেত্রফল = 1/2 × কর্ণদ্বয়ের গুণফল = 1/2 × 8 × 6 = 24 বর্গমিটার (Ans.)"
+  },
+  {
+    "id": 34,
+    "question": "বৃত্তের ব্যাসার্ধ দ্বিগুণ করলে ক্ষেত্রফল কতগুণ বৃদ্ধি পায়? [PGCB-CT/MT/ET/ENT/PT/CST-24]",
+    "options": [
+      "১ গুণ",
+      "২ গুণ",
+      "৩ গুণ",
+      "৪ গুণ"
+    ],
+    "answer": "ঘ",
+    "explanation": "১ম ক্ষেত্রে ক্ষেত্রফল = πr²\nব্যাসার্ধ দ্বিগুণ হলে ক্ষেত্রফল = π(2r)² = 4πr²\nযা প্রথম ক্ষেত্রফলের চারগুণ। (Ans.)"
+  },
+  {
+    "id": 35,
+    "question": "একটি বর্গাকার বাগানের ক্ষেত্রফল ১ হেক্টর হলে বাগানটির পরিসীমা কত মিটার? [PGCB-CT/MT/ET/ENT/PT/CST-24]",
+    "options": [
+      "২০০",
+      "৩০০",
+      "৪০০",
+      "৫০০"
+    ],
+    "answer": "গ",
+    "explanation": "১ হেক্টর = ১০০০০ বর্গমিটার\n∴ বাহুর দৈর্ঘ্য x = √১০০০০ = ১০০ মিটার\nবাগানটির পরিসীমা = ৪x = ৪ × ১০০ = ৪০০ মিটার (Ans.)"
+  },
+  {
+    "id": 36,
+    "question": "একটি অষ্টভুজের ৮ কোণের সমষ্টি কত? [PGCB-CT/MT/ET/ENT/PT/CST-24]",
+    "options": [
+      "৬ সমকোণ",
+      "১২ সমকোণ",
+      "১৬ সমকোণ",
+      "৮ সমকোণ"
+    ],
+    "answer": "খ",
+    "explanation": "যেকোন বহুভুজের কোণগুলোর সমষ্টি = (n - 2) × 180°\nঅষ্টভুজের ক্ষেত্রে n = 8,\nসমষ্টি = (8 - 2) × 180° = 6 × 180° = 1080° = 12 সমকোণ (Ans.)"
+  },
+  {
+    "id": 37,
+    "question": "সামান্তরিকের ক্ষেত্রফল- [PGCB-CT/MT/ET/ENT/PT/CST-24]",
+    "options": [
+      "০.৫ × দৈর্ঘ্য × উচ্চতা",
+      "দৈর্ঘ্য × উচ্চতা",
+      "২ × দৈর্ঘ্য × প্রস্থ",
+      "ভূমি × উচ্চতা"
+    ],
+    "answer": "ঘ",
+    "explanation": "সামান্তরিকের ক্ষেত্রফল = ভূমি × উচ্চতা (Ans.)"
+  },
+  {
+    "id": 38,
+    "question": "In the following figure, if AB = AC then find the relation between CD and DB. [BRPL-CSE/ME/EEE-24]",
+    "options": [
+      "AB / AC = BD / DC",
+      "AB / DC = BD / AC",
+      "AD / BD = CD / AC",
+      "There is relation between them"
+    ],
+    "answer": "ক",
+    "explanation": "Angle bisector theorem অনুযায়ী, AB / AC = BD / DC (Ans.)"
+  },
+  {
+    "id": 39,
+    "question": "একটি সুষম ষড়ভুজের বাহুগুলোকে একই দিকে বর্ধিত করলে উৎপন্ন বহিঃস্থ কোণসমূহের সমষ্টি কত? [PGCB-CE/EEE/ME/CSE-24]",
+    "options": [
+      "১২০°",
+      "১৮০°",
+      "২৮০°",
+      "৩৬০°"
+    ],
+    "answer": "ঘ",
+    "explanation": "যে কোন বহুভুজের অন্তঃস্থ কোণ = (2(n - 2) × 90) / n\nষড়ভুজের ক্ষেত্রে, n = 6\nসুতরাং একটি অন্তঃস্থ কোণ = (2(6 - 2) × 90) / 6 = 120°\n∴ বহিঃস্থ কোণ = 180° - 120° = 60°\nবহিঃস্থ কোণের সমষ্টি = 6 × 60° = 360° (Ans.)"
+  },
+  {
+    "id": 40,
+    "question": "Diameter of a circular garden is 20 ft. There is a 1 ft wide street surrounding the garden. What is the area of the street? [BGDCL-CE/EEE/ME/CSE-24]",
+    "options": [
+      "10π ft²",
+      "20π ft²",
+      "21π ft²",
+      "100π ft²"
+    ],
+    "answer": "গ",
+    "explanation": "বাগানের ব্যাসার্ধ = 20/2 = 10 ft\nসম্পূর্ণ এলাকার ব্যাসার্ধ = 10 + 1 = 11 ft\nসম্পূর্ণ এলাকার ক্ষেত্রফল = π × 11² ft²\nরাস্তার ক্ষেত্রফল = π(11² - 10²) = π(121 - 100) = 21π ft² (Ans.)"
+  },
+  {
+    "id": 41,
+    "question": "Two lines AB and CD meet at point O. If ∠BOD is equal to 63° then ∠BOC = ? [BGDCL-CE/EEE/ME/CSE-24]",
+    "options": [
+      "90°",
+      "112°",
+      "117°",
+      "60°"
+    ],
+    "answer": "গ",
+    "explanation": "চিত্র হতে পাই, ∠BOD + ∠BOC = 180°\n⇒ 63° + ∠BOC = 180°\n⇒ ∠BOC = 180° - 63° = 117° (Ans.)"
+  },
+  {
+    "id": 42,
+    "question": "ABC & DEF সদৃশ ত্রিভুজের AB = 4 cm, DE = 6 cm, EF = 9 cm, DF = 12 cm হলে ABC ত্রিভুজটির পরিসীমা কত? [BGDCL-CT/ET/MT/CMT-24]",
+    "options": [
+      "12 cm",
+      "14 cm",
+      "16 cm",
+      "18 cm"
+    ],
+    "answer": "ঘ",
+    "explanation": "ΔABC ~ ΔDEF\nAB / DE = BC / EF = AC / DF\n⇒ 4 / 6 = BC / 9 = AC / 12\nBC = (4 / 6) × 9 = 6 cm\nAC = (4 / 6) × 12 = 8 cm\n∴ ΔABC এর পরিসীমা = AB + BC + AC = 4 + 6 + 8 = 18 cm (Ans.)"
+  },
+  {
+    "id": 43,
+    "question": "(1, 2), (1, -2), (-1, -2) এবং (-1, 2) স্থানাঙ্ক বিশিষ্ট চারটি বিন্দুর সমন্বয়ে গঠিত চতুর্ভুজটি কোন ধরনের? [BGDCL-CT/ET/MT/CMT-24]",
+    "options": [
+      "বর্গক্ষেত্র",
+      "রম্বস",
+      "আয়তক্ষেত্র",
+      "সামান্তরিক"
+    ],
+    "answer": "গ",
+    "explanation": "ধরি, চারটি বিন্দু A(1, 2), B(1, -2), C(-1, -2), D(-1, 2)\nAB = √[(1 - 1)² + (2 - (-2))²] = 4\nBC = √[(1 - (-1))² + (-2 - (-2))²] = 2\nCD = √[(-1 - (-1))² + (-2 - 2)²] = 4\nDA = √[(-1 - 1)² + (2 - 2)²] = 2\nযেহেতু বিপরীত বাহুগুলো সমান (AB = CD এবং BC = DA) এবং কোণগুলো সমকোণ, তাই চতুর্ভুজটি একটি আয়তক্ষেত্র। (Ans.)"
+  },
+  {
+    "id": 44,
+    "question": "(2, -1) এবং (-1, x) বিন্দু দুইটির মধ্যবর্তী দূরত্ব 5 একক হলে x এর মান কত? [DPDC-ET-24]",
+    "options": [
+      "-5",
+      "-3 ও 5",
+      "-2",
+      "-1"
+    ],
+    "answer": "ক",
+    "explanation": "দুইটি বিন্দুর দূরত্ব, 5 = √[(-1 - 2)² + (x + 1)²]\n⇒ 25 = 9 + (x + 1)²\n⇒ (x + 1)² = 16\n⇒ x + 1 = ±4\n⇒ x = 3, -5\nঅপশনে -5 থাকায় সঠিক উত্তর: -5 (Ans.)"
+  },
+  {
+    "id": 45,
+    "question": "The side of equilateral triangle is 6 cm, what is the area of the triangle? [EGCB-EEE/ME/CE-24]",
+    "options": [
+      "3√3",
+      "3√2",
+      "6√3",
+      "9√3"
+    ],
+    "answer": "ঘ",
+    "explanation": "সমবাহু ত্রিভুজের ক্ষেত্রফল = (√3/4) × a² = (√3/4) × 6² = 9√3 cm² (Ans.)"
+  },
+  {
+    "id": 46,
+    "question": "The side of a square is 1m and it is converted into a rhombus whose major diagonal is 1m, find the other diagonal of the rhombus. [EGCB-EEE/ME/CE-24]",
+    "options": [
+      "1m",
+      "1.5m",
+      "2m",
+      "2.5m"
+    ],
+    "answer": "গ",
+    "explanation": "বর্গের ক্ষেত্রফল = 1 × 1 = 1 m²\nবর্গের ক্ষেত্রফল = রম্বসের ক্ষেত্রফল হবে\n∴ রম্বসের ক্ষেত্রফল = 1/2 × কর্ণদ্বয়ের গুণফল\n⇒ 1 = 1/2 × 1 × x\n⇒ x = 2 m (অপর কর্ণ) (Ans.)"
+  },
+  {
+    "id": 47,
+    "question": "একটি গোলাকার ধাতব পাত উত্তপ্ত করা হলে এর ব্যাসার্ধ বৃদ্ধি পায় 0.01 cm/sec হারে। যদি ব্যাসার্ধ বেড়ে 7 cm হয় তবে ব্যাসার্ধ বৃদ্ধির হার কত? [EGCB-EEE/ME/CE-24]",
+    "options": [
+      "49 cm/sec²",
+      "11 cm/sec²",
+      "72 cm/sec²",
+      "9 cm/sec²"
+    ],
+    "answer": "খ",
+    "explanation": "বৃত্তাকার পাতের ক্ষেত্রফল A = πr²\nক্ষেত্রফল বৃদ্ধির হার dA/dt = 2πr (dr/dt) = 2 × (22/7) × 7 × 0.01 = 0.44 cm²/sec\n[নোট: প্রশ্নপত্রে ব্যাসার্ধ বৃদ্ধি বলা হলেও মূলত ক্ষেত্রফল বৃদ্ধির হার চাওয়া হয়েছিল এবং প্রদত্ত অপশন অনুযায়ী উত্তর (খ)।]"
+  },
+  {
+    "id": 48,
+    "question": "A triangle of AB = BC, if ∠B = 70°, What is the value of ∠C? [BSTI-CE/Physics/EEE-24]",
+    "options": [
+      "45°",
+      "50°",
+      "55°",
+      "60°"
+    ],
+    "answer": "গ",
+    "explanation": "সমদ্বিবাহু ত্রিভুজে সমান সমান বাহুর বিপরীত কোণগুলো সমান হয়।\nAB = BC হলে ∠A = ∠C\n∴ 2∠C + 70° = 180°\n⇒ 2∠C = 110°\n⇒ ∠C = 55° (Ans.)"
+  },
+  {
+    "id": 49,
+    "question": "সমবাহু ত্রিভুজের বাহুর দৈর্ঘ্য ৬ মিটার হলে, ত্রিভুজটির ক্ষেত্রফল হবে- [CPGCBL-ET/MT/CT-23]",
+    "options": [
+      "3√3",
+      "9√3",
+      "16√3",
+      "12√3"
+    ],
+    "answer": "খ",
+    "explanation": "সমবাহু ত্রিভুজের ক্ষেত্রফল = (√3/4) × a² = (√3/4) × 6² = 9√3 বর্গমিটার (Ans.)"
+  },
+  {
+    "id": 50,
+    "question": "আয়তাকার একটি পানির হাউজের প্রস্থ ও উচ্চতা সমান, তবে দৈর্ঘ্য প্রস্থের দ্বিগুণ, এটি 162000 লিটার পানি দিয়ে পূর্ণ হয়, এর দৈর্ঘ্য কত? [CPGCBL-ET/MT/CT-23]",
+    "options": [
+      "8.65 m",
+      "9 m",
+      "6 m",
+      "5 m"
+    ],
+    "answer": "ক",
+    "explanation": "ধরি, প্রস্থ = x, উচ্চতা = x, দৈর্ঘ্য = 2x\n162000 লিটার = 162 m³\nশর্তমতে, x × x × 2x = 162\n⇒ 2x³ = 162\n⇒ x³ = 81\n⇒ x = 4.326 m\n∴ দৈর্ঘ্য 2x = 2 × 4.326 = 8.65 m (Ans.)"
+  },
+  {
+    "id": 51,
+    "question": "(0,0) ও (-1,-1) বিন্দুগামী সরলরেখাটি y অক্ষের সাথে কত ডিগ্রি কোণ উৎপন্ন করবে? [CPGCBL-ET/MT/CT-23]",
+    "options": [
+      "1°",
+      "45°",
+      "90°",
+      "0°"
+    ],
+    "answer": "খ",
+    "explanation": "tan θ = (y₂ - y₁) / (x₂ - x₁) = (-1 - 0) / (-1 - 0) = 1\n⇒ θ = 45° (Ans.)"
+  },
+  {
+    "id": 52,
+    "question": "একটি বৃত্তের ব্যাস 3 মিটার, উক্ত বৃত্তের ভিতরের একটি বর্গক্ষেত্রের ক্ষেত্রফল কত? [CPGCBL-ET/MT/CT-23]",
+    "options": [
+      "4.5 m²",
+      "6 m²",
+      "8 m²",
+      "2√2 m²"
+    ],
+    "answer": "ক",
+    "explanation": "বৃত্তের ব্যাস = বর্গের কর্ণ = 3 m\nসমকোণী ত্রিভুজ হতে পাই,\nx² + x² = 3²\n⇒ 2x² = 9\n⇒ x² = 4.5 m² = Area of square (Ans.)"
+  },
+  {
+    "id": 53,
+    "question": "একটি সরলরেখার উপর অঙ্কিত বর্গক্ষেত্রের ক্ষেত্রফল উক্ত সরলরেখার এক-চতুর্থাংশের উপর অঙ্কিত বর্গক্ষেত্রের ক্ষেত্রফলের কতগুণ? [BCPCL-ET-23]",
+    "options": [],
+    "answer": "16 গুণ",
+    "explanation": "ধরি, বর্গক্ষেত্রের এক বাহুর দৈর্ঘ্য = a একক\n∴ বর্গক্ষেত্রের ক্ষেত্রফল = a² বর্গ একক\nপ্রশ্নমতে, নতুন বর্গক্ষেত্রের এক বাহুর দৈর্ঘ্য = a/4 একক\nএবং নতুন বর্গক্ষেত্রের ক্ষেত্রফল = (a/4)² = a²/16 বর্গ একক\n∴ অনুপাত = a² / (a²/16) = 16\nসুতরাং, মূল সরলরেখার উপর অঙ্কিত বর্গক্ষেত্রের ক্ষেত্রফল ১৬ গুণ। (Ans.)"
+  },
+  {
+    "id": 54,
+    "question": "২ একক বাহু বিশিষ্ট একটি বর্গ এর এক বাহুকে ধাক্কা দিয়ে রম্বসে পরিণত করা হলে, এর একটি কর্ণের দৈর্ঘ্য ২ হলে, অপর কর্ণটির দৈর্ঘ্য কত? [BCPCL-EEE/ME-23]",
+    "options": [
+      "৪",
+      "২",
+      "৮",
+      "৬"
+    ],
+    "answer": "ক",
+    "explanation": "বর্গের ক্ষেত্রফল = 2² = 4 বর্গ একক\nরম্বসের ক্ষেত্রফল = 1/2 × কর্ণদ্বয়ের গুণফল\n⇒ 4 = 1/2 × 2 × অপর কর্ণ\n∴ অপর কর্ণ = 4 একক (Ans.)"
+  },
+  {
+    "id": 55,
+    "question": "একটি সমবাহু ত্রিভুজের প্রতিটি বাহুর দৈর্ঘ্য 2m ত্রিভুজটির ক্ষেত্রফল কত? [SGFL-EEE/CSE-23]",
+    "options": [
+      "√3",
+      "3√2",
+      "7",
+      "6"
+    ],
+    "answer": "ক",
+    "explanation": "সমবাহু ত্রিভুজের ক্ষেত্রফল = (√3(বাহু)²)/4 = (√3(2)²)/4 = √3 (Ans.)"
+  },
+  {
+    "id": 56,
+    "question": "PQR ত্রিভুজের Q কোণের মান 90° এবং অতিভুজের দৈর্ঘ্য 8 cm এবং R কোণের মান 30° হলে ভূমির দৈর্ঘ্য কত? [SGFL-EEE/CSE-23]",
+    "options": [
+      "5.92",
+      "6.92",
+      "7.92",
+      "8"
+    ],
+    "answer": "খ",
+    "explanation": "cos 30° = QR / PR ⇒ √3/2 = QR / 8 ⇒ QR = 8 × (√3/2) = 4√3 ≈ 6.92 cm (Ans.)"
+  },
+  {
+    "id": 57,
+    "question": "একটি কুয়ার গভীরতা 10 মিটার এবং ব্যাসার্ধ 1 মিটার হলে এ কুয়ার আয়তন কত? [DESCO-EEE/CSE/CE/ME-23]",
+    "options": [
+      "100",
+      "10π",
+      "1000",
+      "π³"
+    ],
+    "answer": "খ",
+    "explanation": "আয়তন = πr²h = π × 1² × 10 = 10π m³ (Ans.)"
+  },
+  {
+    "id": 58,
+    "question": "একটি বর্গের বাহুর দৈর্ঘ্য তিনগুণ করলে এর ক্ষেত্রফল কতগুণ বৃদ্ধি পাবে? [DESCO-EEE/CSE/CE/ME-23]",
+    "options": [
+      "3 গুণ",
+      "6 গুণ",
+      "8 গুণ",
+      "9 গুণ"
+    ],
+    "answer": "ঘ",
+    "explanation": "বর্গের ক্ষেত্রফল = a², যেখানে a = বাহুর দৈর্ঘ্য।\nবাহুর দৈর্ঘ্য তিনগুণ করলে ক্ষেত্রফল = (3a)² = 9a²\n∴ ক্ষেত্রফল আগের তুলনায় 9 গুণ বৃদ্ধি পাবে। (Ans.)"
+  },
+  {
+    "id": 59,
+    "question": "একটি বৃত্তের ব্যাস ২ মিটার হলে বৃত্তের অভ্যন্তরে অবস্থিত সবচেয়ে বড় বর্গক্ষেত্রের ক্ষেত্রফল কত? [EGCB-ET/MT/CT-23]",
+    "options": [
+      "1 m²",
+      "2 m²",
+      "4 m²",
+      "√2 m²"
+    ],
+    "answer": "খ",
+    "explanation": "বর্গক্ষেত্রের কর্ণ a√2 = 2 ⇒ a = 2/√2 = √2\n∴ বর্গক্ষেত্রের ক্ষেত্রফল = a² = (√2)² = 2 m² (Ans.)"
+  },
+  {
+    "id": 60,
+    "question": "With reference to a 2 dimensional coordinate system, the vertices of a uniform and thin triangular plate are given by (0,0), (1,4) and (-7,8) points. The centroid of the plate is: [RNPL-EEE/ME-22]",
+    "options": [
+      "(-2, 4)",
+      "(2, 4)",
+      "(-3, 6)",
+      "none of the above"
+    ],
+    "answer": "ক",
+    "explanation": "Centroid (ভর কেন্দ্র) = ((x₁ + x₂ + x₃)/3, (y₁ + y₂ + y₃)/3)\n= ((0 + 1 - 7)/3, (0 + 4 + 8)/3) = (-6/3, 12/3) = (-2, 4) (Ans.)"
+  },
+  {
+    "id": 61,
+    "question": "A square of side 1 m is pushed to generate a rhombus. If rhombus has one diagonal as 1m, what is the another diagonal? [ERLB-EEE/ME/Che-22]",
+    "options": [
+      "2m",
+      "√3/2",
+      "√3",
+      "2√3"
+    ],
+    "answer": "গ",
+    "explanation": "Let, half of other diagonal = x\nConditionally, x = √(1² - 0.5²) = √(1 - 0.25) = √0.75 = √3/2 m\nHence, other diagonal = 2x = 2 × (√3/2) = √3 m (Ans.)"
+  },
+  {
+    "id": 62,
+    "question": "A cube and a rectangular solid has same volume. Cube has side of 2m. If rectangular has a length twice than its width which is equal to cube side then find the height of the rectangle. [ERLB-EEE/ME/Che-22]",
+    "options": [
+      "3m",
+      "2 m",
+      "1m",
+      "0.5 m"
+    ],
+    "answer": "গ",
+    "explanation": "Volume of cube = volume of rectangle\n2 × 2 × 2 = 2 × 4 × x\n⇒ 8 = 8x\n∴ x = 1 m (Ans.)"
+  },
+  {
+    "id": 63,
+    "question": "সমবাহু ত্রিভুজের বাহুর দৈর্ঘ্য ৬ মিটার হলে, ত্রিভুজটির ক্ষেত্রফল হবে- [RNPL-MT/ET-22]",
+    "options": [
+      "8√3",
+      "9√3",
+      "16√3",
+      "12√3"
+    ],
+    "answer": "খ",
+    "explanation": "সমবাহু ত্রিভুজের ক্ষেত্রফল = (√3a²)/4 ⇒ (√3 × 36)/4 ⇒ 9√3 (Ans.) [a = 6 m]"
+  },
+  {
+    "id": 64,
+    "question": "একটি আয়তাকার ক্ষেত্রের প্রস্থ ও উচ্চতা সমান। দৈর্ঘ্য প্রস্থের দ্বিগুন। যদি সেখানে ১৬,২০০ লিটার পানি থাকে, তাহলে আয়তাকার ক্ষেত্রের দৈর্ঘ্য কত? [RNPL-MT/ET-22]",
+    "options": [
+      "৩.২ মিটার",
+      "৩ মিটার",
+      "৪.০২ মিটার",
+      "৪.২ মিটার"
+    ],
+    "answer": "গ",
+    "explanation": "Let, প্রস্থ = x এবং উচ্চতা = x ∴ দৈর্ঘ্য = 2x\nপানির পরিমাণ = 16200 / 1000 = 16.2 m³\nশর্তমতে, x × x × 2x = 16.2 ⇒ x³ = 8.1 ⇒ x = 2.01 m\nসুতরাং দৈর্ঘ্য = 2 × 2.01 = 4.02 m (Ans.)"
+  },
+  {
+    "id": 65,
+    "question": "The surface area of a sphere is π dm². How much water will the sphere contain? [MGMCL: EEE/ME-22]",
+    "options": [
+      "π kg",
+      "π/2 kg",
+      "π/3 kg",
+      "π/6 kg"
+    ],
+    "answer": "ঘ",
+    "explanation": "Area, A = 4πr² ⇒ π = 4πr² ⇒ r = 1/2 dm\nVolume, V = (4/3)πr³ = (4/3)π × (1/2)³ = π/6 dm³\nWeight of water = density of water × volume = 1 kg/dm³ × (π/6) dm³ = π/6 kg (Ans.)"
+  },
+  {
+    "id": 66,
+    "question": "What is the centroid of the triangle with vertices (2, 3), (-2, -5) and (3, 5)? [RPGCL, MGMCL: EEE/ME-22]",
+    "options": [
+      "(1, 1)",
+      "(2, -1)",
+      "(-1, 1)",
+      "(1, -1)"
+    ],
+    "answer": "ক",
+    "explanation": "Centroid (ভর কেন্দ্র) = ((x₁ + x₂ + x₃)/3, (y₁ + y₂ + y₃)/3)\n= ((2 + (-2) + 3)/3, (3 + (-5) + 5)/3) = (3/3, 3/3) = (1, 1) (Ans.)"
+  },
+  {
+    "id": 67,
+    "question": "If the radius of a circle is increased by 10% then what is the percentage increase in the area? [CPGCBL-EEE/ME/CE-22]",
+    "options": [
+      "16%",
+      "21%",
+      "25%",
+      "10%"
+    ],
+    "answer": "খ",
+    "explanation": "Original radius = r, Area of Circle = πr²\nNew Radius = r + 10% of r = 1.1r\nNew Area = π(1.1r)² = 1.21πr²\nChange = 1.21πr² - πr² = 0.21πr²\n∴ Percentage increase = (0.21πr² / πr²) × 100% = 21% (Ans.)"
+  },
+  {
+    "id": 68,
+    "question": "A rectangular fields area is 200 m². The length is twice than the width. If 100 tk is needed to put fence around per meter, what is the total cost? [CPGCBL-EEE/ME/CE-22]",
+    "options": [
+      "6000tk",
+      "5000tk",
+      "5500tk",
+      "7000tk"
+    ],
+    "answer": "ক",
+    "explanation": "Width = x, Length = 2x\nArea = Length × Width ⇒ 200 = 2x × x ⇒ 2x² = 200 ⇒ x² = 100 ∴ x = 10 m\nNow, perimeter of field = 2(length + width) = 2(2x + x) = 2(20 + 10) = 60 meter\n1 meter needed 100 taka\n∴ 60 meter needed (60 × 100) = 6000 Taka (Ans.)"
+  },
+  {
+    "id": 69,
+    "question": "Circumference of a wheel is 8 ft. How many times does it have to turn to cross 1000 m? [CPGCBL-EEE/ME/CE-22]",
+    "options": [
+      "410",
+      "300",
+      "500",
+      "337"
+    ],
+    "answer": "ক",
+    "explanation": "চাকার পরিধি = 8 ft = 8 × 0.3048 m = 2.439 m\n2.439 m যেতে 1 বার ঘুরবে\n∴ চাকাটি 1000 m যেতে = 1000 / 2.439 ≈ 410 বার ঘুরবে (Ans.)"
+  },
+  {
+    "id": 70,
+    "question": "Find the area of a circle whose circumference is 22cm. [BCIC-EEE/ME-22]",
+    "options": [
+      "35.2 cm²",
+      "38.5 cm²",
+      "41.7 cm²",
+      "47.6 cm²"
+    ],
+    "answer": "খ",
+    "explanation": "Radius of circle = r cm\nCircumference = 2πr = 22\n⇒ 2 × (22/7) × r = 22 ⇒ r = 7/2 cm\nNow, Area of Circle = πr² = (22/7) × (7/2)² = (22/7) × (49/4) = 77/2 = 38.5 cm² (Ans.)"
+  },
+  {
+    "id": 71,
+    "question": "If two sides of a triangle are 6 cm and 8 cm, then the length of the third side is [BPDB-EEE/CE/CSE-21]",
+    "options": [
+      "greater than 14 cm",
+      "less than 2 cm",
+      "greater than 2 cm and less than 14 cm",
+      "none of these"
+    ],
+    "answer": "গ",
+    "explanation": "ত্রিভুজের যে কোন দুই বাহুর যোগফল তৃতীয় বাহু অপেক্ষা বৃহত্তর হয় এবং দুই বাহুর বিয়োগফল তৃতীয় বাহু অপেক্ষা ক্ষুদ্রতম হয়।\nএখানে, 8 - 6 = 2 এবং 8 + 6 = 14\nসুতরাং তৃতীয় বাহুর দৈর্ঘ্য 2 cm অপেক্ষা বড় এবং 14 cm অপেক্ষা ছোট হবে। (Ans.)"
+  },
+  {
+    "id": 72,
+    "question": "If a sphere is converted into a cylinder then volume will remain [TGTDCL-ME-21]",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Change",
+      "Unchange"
+    ],
+    "answer": "ঘ",
+    "explanation": "Sphere টিকে গলিয়ে Cylinder এ কনভার্ট করার সময় কোনো উপাদান বাদ যায়নি বা নতুন কিছু যোগ করা হয়নি। অতএব Sphere এর যতটুকু mass ছিল cylinder এ ততটুকুই আছে। কোনো পরিবর্তন হয়নি। তাই volume একই বা Unchange থাকবে। (Ans.)"
+  },
+  {
+    "id": 73,
+    "question": "If a rhombus's two corner length is 4 & 6 cm, what is the area: [BCPCL-EEE-22, BCPCL-ME-18]",
+    "options": [
+      "2 cm²",
+      "6 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "answer": "গ",
+    "explanation": "রম্বসের ক্ষেত্রফল = 1/2 × কর্ণদ্বয়ের গুণফল = 1/2 × 4 × 6 = 12 cm² (Ans.)"
+  },
+  {
+    "id": 74,
+    "question": "If y = 50° and z = 85° then, x = ? [GTCL-ME-22]",
+    "options": [
+      "45°",
+      "55°",
+      "60°",
+      "65°"
+    ],
+    "answer": "খ",
+    "explanation": "z = 85°, y = 50°\nঅপর কোণটি = 40°\n∴ x = 180° - (40° + 85°) = 180° - 125° = 55° (Ans.)"
+  },
+  {
+    "id": 75,
+    "question": "The side of small square is 50 cm which located along with the side of 110 cm square. What is the area between outside small square and inside big square? [GTCL-ME-22]",
+    "options": [
+      "9600 cm²",
+      "4800 cm²",
+      "5600 cm²",
+      "9800 cm²"
+    ],
+    "answer": "ক",
+    "explanation": "মাঝের ক্ষেত্রফল = 110² - 50² = 12100 - 2500 = 9600 cm² (Ans.)"
+  },
+  {
+    "id": 76,
+    "question": "১৫ সেমি. এবং ১২ সেমি. ব্যাসার্ধ বিশিষ্ট এককেন্দ্রিক দুটি বৃত্তক্ষেত্রের পরিধিদ্বয়ের মাঝের অংশের ক্ষেত্রফল কত বর্গ সেমি.? [DWASA-CT-21]",
+    "options": [
+      "225π",
+      "144π",
+      "81π",
+      "45π"
+    ],
+    "answer": "গ",
+    "explanation": "মাঝের অংশের ক্ষেত্রফল দুইটি বৃত্তের ক্ষেত্রফলের বিয়োগফল = π(15)² - π(12)² = π(225 - 144) = 81π বর্গ সেমি. (Ans.)"
+  },
+  {
+    "id": 77,
+    "question": "বর্গক্ষেত্রের পরিসীমা তার কর্ণের দৈর্ঘ্যর কতগুণ? [NWPGCL-ET-21]",
+    "options": [
+      "√2",
+      "2√2",
+      "2",
+      "4"
+    ],
+    "answer": "খ",
+    "explanation": "বর্গক্ষেত্রের পরিসীমা = 4a\nবর্গক্ষেত্রের কর্ণের দৈর্ঘ্য = a√2\n∴ অনুপাত = 4a / (a√2) = 4 / √2 = 2√2 (Ans.)"
+  },
+  {
+    "id": 78,
+    "question": "Which trigonometric function is used to find the angle between two planes? [APSCL-EEE-21]",
+    "options": [
+      "Tangent",
+      "Cosecant",
+      "Secant",
+      "Sine"
+    ],
+    "answer": "খ",
+    "explanation": "দুটি তলের মধ্যবর্তী কোণ নির্ণয়ের জন্য সাধারণত cosecant / cos অনুপাত ব্যবহার করা হয়। বইয়ের উত্তর অনুযায়ী (b) Cosecant। (Ans.)"
+  },
+  {
+    "id": 79,
+    "question": "বৃত্তের ব্যাসার্ধ ১% বাড়লে ক্ষেত্রফল কত শতাংশ বাড়বে? [JGTDSL-MT-21]",
+    "options": [
+      "২.০১%",
+      "৩.০৫%",
+      "২.১৩%",
+      "৩.৫৪%"
+    ],
+    "answer": "ক",
+    "explanation": "বৃত্তের ব্যাসার্ধ r হলে, ক্ষেত্রফল A = πr²\nব্যাসার্ধ 1% বাড়লে নতুন ব্যাসার্ধ = 1.01r\nনতুন ক্ষেত্রফল = π(1.01r)² = 1.0201πr²\nমোট বাড়লো = 1.0201 - 1 = 0.0201 = 2.01% (Ans.)"
+  },
+  {
+    "id": 80,
+    "question": "x + √3y = 7 এবং x - √3y = 5 রেখাদ্বয়ের মধ্যবর্তী কোণ কত? [KGDCL-MT-21]",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": "গ",
+    "explanation": "x + √3y = 7 ⇒ y = (-1/√3)x + 7/√3 ⇒ m₁ = -1/√3\nx - √3y = 5 ⇒ y = (1/√3)x - 5/√3 ⇒ m₂ = 1/√3\ntan θ = |(m₁ - m₂) / (1 + m₁m₂)| = |(-1/√3 - 1/√3) / (1 - 1/3)| = |(-2/√3) / (2/3)| = √3\n⇒ tan θ = tan 60° ∴ θ = 60° (Ans.)"
+  },
+  {
+    "id": 81,
+    "question": "x + y = 2 সরলরেখাটি x অক্ষের সাথে কত কোণ উৎপন্ন করে? [APSCL-ET-21]",
+    "options": [
+      "45°",
+      "-45°",
+      "60°",
+      "90°"
+    ],
+    "answer": "খ",
+    "explanation": "x অক্ষের ঢাল m₁ = 0\nসরলরেখাটির সমীকরণ y = -x + 2 এর ঢাল m₂ = -1\nসরলরেখা দুইটির মধ্যবর্তী কোণ, θ = tan⁻¹((m₂ - m₁) / (1 + m₁m₂)) = tan⁻¹((-1 - 0) / (1 + 0)) = tan⁻¹(-1) = -45° (Ans.)"
+  },
+  {
+    "id": 82,
+    "question": "একটি ত্রিভুজের অতিভুজ বাদে অন্য দুই বাহুর দৈর্ঘ্য যথাক্রমে ৮ মিটার ও ৬ মিটার। ত্রিভুজটির ক্ষেত্রফল কত? [RPCL-MT-21]",
+    "options": [
+      "১৪ ব.মি.",
+      "৭ ব.মি.",
+      "২৪ ব.মি.",
+      "৯ ব.মি."
+    ],
+    "answer": "গ",
+    "explanation": "ক্ষেত্রফল = 1/2 × ভূমি × উচ্চতা = 1/2 × 8 × 6 = 24 বর্গমিটার (Ans.)"
+  },
+  {
+    "id": 83,
+    "question": "কোনো বৃত্তের ব্যাসার্ধ ২ গুণ বৃদ্ধি করলে ক্ষেত্রফল কতগুণ বৃদ্ধি পাবে? [RPCL-MT-21]",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "answer": "গ",
+    "explanation": "বৃত্তের ব্যাসার্ধ r হলে ক্ষেত্রফল = πr²\nব্যাসার্ধ ২ গুণ বৃদ্ধি করলে (অর্থাৎ 2r হলে) নতুন ক্ষেত্রফল = π(2r)² = 4πr²\nযা প্রথম ক্ষেত্রফলের 4 গুণ (Ans.)"
+  },
+  {
+    "id": 84,
+    "question": "একটি ত্রিভুজ ও একটি বৃত্ত সর্বোচ্চ কতগুলো বিন্দুতে ছেদ করে? [BR Power-PT-21]",
+    "options": [],
+    "answer": "৬ টি",
+    "explanation": "একটি ত্রিভুজের তিনটি বাহু রয়েছে। একটি বৃত্ত ত্রিভুজের প্রতিটি বাহুকে সর্বোচ্চ দুটি বিন্দুতে ছেদ করতে পারে।\nসুতরাং একটি ত্রিভুজ ও একটি বৃত্ত সর্বোচ্চ ৩ × ২ = ৬টি বিন্দুতে ছেদ করতে পারে। (Ans.)"
+  },
+  {
+    "id": 85,
+    "question": "একটি সামান্তরিকের ভূমি ৯ সেমি ও উচ্চতা ৬ সেমি হলে এর ক্ষেত্রফল কত? [EGCB-ET-21]",
+    "options": [
+      "৫৬",
+      "৭০",
+      "৫৪",
+      "৬৪"
+    ],
+    "answer": "গ",
+    "explanation": "সামান্তরিকের ক্ষেত্রফল = ভূমি × উচ্চতা = 9 × 6 = 54 বর্গ সেমি. (Ans.)"
+  },
+  {
+    "id": 86,
+    "question": "একটি সরলরেখা (3, 5) বিন্দু দিয়ে যায় এবং অক্ষদ্বয় হতে বিপরীত চিহ্নবিশিষ্ট সমমানের অংশ ছেদ করে। রেখাটির সমীকরণ কি? [PGCL-ET-21]",
+    "options": [
+      "x - 2y + 7 = 0",
+      "x - y + 2 = 0",
+      "x + 2y - 8 = 0",
+      "2x - 2y + 1 = 0"
+    ],
+    "answer": "খ",
+    "explanation": "অক্ষদ্বয় হতে বিপরীত চিহ্নবিশিষ্ট সমমানের অংশ ছেদ করলে রেখার সমীকরণ x/a - y/a = 1 ⇒ x - y = a\nরেখাটি (3, 5) বিন্দুগামী হওয়ায়,\n3 - 5 = a ⇒ a = -2\n∴ রেখাটির সমীকরণ: x - y = -2 ⇒ x - y + 2 = 0 (Ans.)"
+  },
+  {
+    "id": 87,
+    "question": "১২ লিটার পানি একটি পাত্রে ঢালা হলো যার দৈর্ঘ্য, প্রস্থ এবং উচ্চতা হলো যথাক্রমে ৫০ সেমি, ৩০ সেমি এবং ৪০ সেমি তাহলে পাত্রে পানির উচ্চতা কত? [PGCB-ET-19, BCMCL-MT-20]",
+    "options": [
+      "৬ সেমি",
+      "৮ সেমি",
+      "১০ সেমি",
+      "২০ সেমি"
+    ],
+    "answer": "খ",
+    "explanation": "আমরা জানি, 1 m³ = 1000 Liter ∴ 1 Liter = 10⁻³ m³\nসুতরাং আয়তন = 12 × 10⁻³ m³ = 12000 cm³\nদৈর্ঘ্য = 50 cm, প্রস্থ = 30 cm\nপানির উচ্চতা h = 12000 / (50 × 30) = 12000 / 1500 = 8 cm (Ans.)"
+  },
+  {
+    "id": 88,
+    "question": "একটি বই-এর পরিসীমা ২৬ সেমি এবং ক্ষেত্রফল ৩০ বর্গ সেমি হলে তার প্রস্থ কত সেমি? [PGCB-ET-19, BCMCL-MT-20]",
+    "options": [
+      "২",
+      "৩",
+      "৫",
+      "৬"
+    ],
+    "answer": "খ",
+    "explanation": "Let, দৈর্ঘ্য = a, প্রস্থ = b\nপরিসীমা, 2(a + b) = 26 ⇒ a + b = 13 ... (i)\nএবং ক্ষেত্রফল ab = 30\nআমরা জানি, (a - b)² = (a + b)² - 4ab\n⇒ a - b = √[(13)² - (4 × 30)] = √[169 - 120] = √49 = 7 ... (ii)\nSolve (i) & (ii) a = 10 cm, b = 3 cm (Ans.)"
+  },
+  {
+    "id": 89,
+    "question": "If the length of a rectangle is 4 meter greater than the width and the area is 192 square meter, then find perimeter of the rectangle. [APSCL-CE-20]",
+    "options": [
+      "64 m",
+      "48 m",
+      "32 m",
+      "56 m"
+    ],
+    "answer": "ঘ",
+    "explanation": "মনে করি, প্রস্থ = x, দৈর্ঘ্য = x + 4\nশর্তমতে, ক্ষেত্রফল = 192 = x(x + 4) ⇒ x² + 4x - 192 = 0 ⇒ (x + 16)(x - 12) = 0 ⇒ x = 12 m\n∴ Length = 12 + 4 = 16 m\nপরিসীমা = 2(length + width) = 2(16 + 12) = 56 m (Ans.)"
+  },
+  {
+    "id": 90,
+    "question": "If length of a rectangle is halved and width tripled then which one is correct? [BWDB-ME-18, PGCB, NWPGCL-ME-19, BADC-ME-20]",
+    "options": [
+      "The area increases 25%",
+      "The area decreases 25%",
+      "The area increases 50%",
+      "The area decreases 50%"
+    ],
+    "answer": "গ",
+    "explanation": "মনে করি, ১ম ক্ষেত্রে, ক্ষেত্রফল = xy\n২য় ক্ষেত্রে ক্ষেত্রফল = (x/2) × 3y = 1.5xy\n∴ Area increases by = 1.5 - 1 = 0.5 = 50% (Ans.)"
+  },
+  {
+    "id": 91,
+    "question": "একটি আয়তকার ট্যাংকের আকার ২৫ × ৯ × ২ (উচ্চতা)। এই ট্যাংকের মধ্যের তরল যদি একটি ১০ মি. ব্যাসার্ধের সিলিন্ডারে রাখা হয় তবে উচ্চতা কত হবে? [BCMCL-ME-20]",
+    "options": [
+      "২ মিটার",
+      "১ মিটার",
+      "১.৫ মিটার",
+      "১.৪৩ মিটার"
+    ],
+    "answer": "ঘ",
+    "explanation": "সিলিন্ডার আয়তন = আয়তকার ক্ষেত্রের আয়তন\n⇒ πr²h = 25 × 9 × 2\n⇒ π × 10² × h = 450\n⇒ h = 450 / (100π) = 1.43 m (Ans.)"
+  },
+  {
+    "id": 92,
+    "question": "The ratio of perimeter and breadth of a rectangle is 5 : 1. If the area of rectangle is 216 cm² then the length is: [EGCB-ME-20]",
+    "options": [
+      "12 cm",
+      "18 cm",
+      "15 cm",
+      "60 cm"
+    ],
+    "answer": "খ",
+    "explanation": "Given, 2(l + b) / b = 5 / 1 ⇒ 2l + 2b = 5b ⇒ 3b = 2l ⇒ b = 2l / 3\nThen, Area = 216 = l × b = l × (2l / 3) = 216 ⇒ l² = 324 ⇒ l = 18 cm (Ans.)"
+  },
+  {
+    "id": 93,
+    "question": "একটি সমবাহু ত্রিভুজের প্রত্যেকটি কোণের পরিমাণ হবে- [DESCO-ET-19]",
+    "options": [
+      "৪০°",
+      "৫০°",
+      "৬০°",
+      "৭০°"
+    ],
+    "answer": "গ",
+    "explanation": "আমরা জানি, সমবাহু ত্রিভুজের তিন কোণের সমষ্টি = ১৮০°\n∴ প্রত্যেক কোণের পরিমাণ = ১৮০° / ৩ = ৬০° (Ans.)"
+  },
+  {
+    "id": 94,
+    "question": "একটি ত্রিভুজের দুটি কোণের সমষ্টি ১৩৫° হলে অপর কোনটি কত ডিগ্রি? [DESCO-ET-19]",
+    "options": [
+      "৩০°",
+      "৪৫°",
+      "৭০°",
+      "৩৫°"
+    ],
+    "answer": "খ",
+    "explanation": "আমরা জানি, ত্রিভুজের তিনকোণের সমষ্টি = ১৮০°\n∴ অপর কোণটি হবে = ১৮০° - ১৩৫° = ৪৫° (Ans.)"
+  },
+  {
+    "id": 95,
+    "question": "একটি বৃত্তের অন্তঃস্থ একটি চতুর্ভুজের দৈর্ঘ্য এবং প্রস্থ যথাক্রমে ৪ সেমি এবং ৩ সেমি। সেই বৃত্তের পরিধি কত? [PGCB-ET-19, BCMCL-MT-19]",
+    "options": [
+      "৫π",
+      "৪π",
+      "২.৫π",
+      "১π"
+    ],
+    "answer": "ক",
+    "explanation": "আমরা জানি, চতুর্ভুজের কর্ণের দৈর্ঘ্য = √(a² + b²) = √(৩² + ৪²) = 5 cm\nএখানে, কর্ণের দৈর্ঘ্য = বৃত্তের ব্যাস (2r = 5)\nসুতরাং, বৃত্তের পরিধি = 2πr = 5π cm (Ans.)"
+  },
+  {
+    "id": 96,
+    "question": "যদি z = x + iy হয়, তবে |z + 1| + |z - 1| = 3 দ্বারা বর্ণিত সঞ্চার পথটি কী হবে? [DESCO, BR Power, APSCL, BCIC, DPDC-ME-19]",
+    "options": [
+      "বৃত্ত",
+      "প্যারাবোলা",
+      "ইলিপস",
+      "হাইপারবোলা"
+    ],
+    "answer": "ক",
+    "explanation": "x + iy + 1 + x + iy - 1 = 3\n⇒ 2x + 2iy = 3\n⇒ x + iy = 3/2\n⇒ x² + y² = 9/4 (বৃত্ত)\n[Note: মূল নিয়মে উপবৃত্ত/ইলিপস হলেও বইয়ে উত্তর (ক) বৃত্ত দেওয়া আছে।]"
+  },
+  {
+    "id": 97,
+    "question": "একটি ২.৫ মিটার গভীর বর্গাকার চৌবাচ্চায় ২৮৯০০ লিটার পানি ধরে। এর ভিতরে অ্যালুমিনিয়ামের পাত লাগাতে বর্গমিটারে ৫ টাকা হিসেবে মোট কত খরচ পড়বে? [BR Power, APSCL, RGRA-19]",
+    "options": [
+      "২২৯.৬০ টাকা",
+      "১২৯.২৯ টাকা",
+      "২২৭.৮০ টাকা",
+      "১২৭.৮০ টাকা"
+    ],
+    "answer": "গ",
+    "explanation": "চৌবাচ্চার আয়তন = 28900 / 1000 = 28.9 m³\nমনে করি, বর্গাকার তলার বাহুর দৈর্ঘ্য = x\nচৌবাচ্চার আয়তন = ক্ষেত্রফল × উচ্চতা = x² × 2.5 = 28.9\n⇒ x² = 11.56 ⇒ x = 3.4 m\nচৌবাচ্চার তলার ক্ষেত্রফল = 3.4 × 3.4 = 11.56 m²\nচার পাশের ক্ষেত্রফল = 4 × (3.4 × 2.5) = 34 m²\nমোট ক্ষেত্রফল = 11.56 + 34 = 45.56 m²\nসুতরাং মোট খরচ = 45.56 × 5 = 227.8 টাকা (Ans.)"
+  },
+  {
+    "id": 98,
+    "question": "x + y + ১৮ = ০ সমীকরণের লেখচিত্র কী হবে? [NWPGCL-ME-19]",
+    "options": [
+      "সরলরেখা",
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "মূল বিন্দুগামী সরলরেখা"
+    ],
+    "answer": "ক",
+    "explanation": "একঘাত সমীকরণ হওয়ায় রেখাটি সরলরেখা নির্দেশ করে। (Ans.)"
+  },
+  {
+    "id": 99,
+    "question": "Lengths and breadth of a rectangular sheet are 30 and 18 respectively. If a person wants to cut it to form several square sheets then how many sheets can prepare without losing any part of the sheet? [NWPGCL-ME-19]",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "16"
+    ],
+    "answer": "গ",
+    "explanation": "আয়তক্ষেত্রের ক্ষেত্রফল = 30 × 18 = 540\n৩০ ও ১৮ এর গ.সা.গু = ৬\nবর্গাকার শীটের বাহুর দৈর্ঘ্য = ৬ এবং ক্ষেত্রফল = ৬² = ৩৬\n∴ বর্গাকার শীটের সংখ্যা = 540 / 36 = 15 টি (Ans.)"
+  },
+  {
+    "id": 100,
+    "question": "Perimeter of a rectangular shape is 268 feet and length = 168% of breadth. What is the area of the rectangular shape? [NWPGCL-ME-19]",
+    "options": [
+      "2400 sq. feet",
+      "3600 sq. feet",
+      "4200 sq. feet",
+      "4000 sq. feet"
+    ],
+    "answer": "গ",
+    "explanation": "আয়তক্ষেত্রের পরিসীমা = 268 ⇒ 2(l + b) = 268 ⇒ l + b = 134 ... (i)\nশর্তমতে, l = 168% of b = 1.68b ... (ii)\n1.68b + b = 134 ⇒ 2.68b = 134 ⇒ b = 50 ft\n∴ l = 84 ft\n∴ ক্ষেত্রফল = 84 × 50 = 4200 sq. feet (Ans.)"
+  },
+  {
+    "id": 101,
+    "question": "Area of a circle is 4π. If radius is doubled then what will be the area of the circle? [NWPGCL-ME-19]",
+    "options": [
+      "2π",
+      "4π",
+      "8π",
+      "16π"
+    ],
+    "answer": "ঘ",
+    "explanation": "Given, বৃত্তের ক্ষেত্রফল = πr² = 4π ⇒ r² = 4 ⇒ r = 2\nব্যাসার্ধ দ্বিগুণ হলে নতুন ব্যাসার্ধ R = 2 × 2 = 4\n∴ নতুন ক্ষেত্রফল = πR² = π × 4² = 16π (Ans.)"
+  },
+  {
+    "id": 102,
+    "question": "If each side of a square is increased by 3 cm, its area is increased by 33 cm². Find the length of a side of the original square. [B-R Power-ME-19]",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "খ",
+    "explanation": "Let, original side length = x\n(x + 3)² = x² + 33\n⇒ x² + 6x + 9 = x² + 33\n⇒ 6x = 24\n⇒ x = 4 cm (Ans.)"
+  },
+  {
+    "id": 103,
+    "question": "Radius of a circle is 3cm and center angle 0.8 rad. What is the arc length? [B-R Power-ME-19]",
+    "options": [
+      "3.75 cm",
+      "2.4 cm",
+      "0.3 cm",
+      "2.75 cm"
+    ],
+    "answer": "খ",
+    "explanation": "The arc length s = rθ = 3 × 0.8 = 2.4 cm (Ans.) [Here, θ = radian]"
+  },
+  {
+    "id": 104,
+    "question": "66 cubic centimeter cube drawn into wire of 1 cm diameter. What will be the length of the wire? [PGCB-ME-19]",
+    "options": [
+      "96 cm",
+      "85 cm",
+      "75 cm",
+      "84 cm"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাস = 1 cm, ব্যাসার্ধ = 1/2 cm\nWe know, Volume of wire is volume of cylinder = πr²h\nশর্তমতে, πr²h = 66\n⇒ (22/7) × (1/2)² × h = 66\n⇒ h = (66 × 28) / 22 = 84 cm\n∴ length = 84 cm (Ans.)"
+  },
+  {
+    "id": 105,
+    "question": "একটি বৃত্তের পরিধি ৫০.২৭ সেমি হলে, বৃত্তটির ক্ষেত্রফল কত? [PGCB-ET-18]",
+    "options": [
+      "১৫০",
+      "১৮০",
+      "২০১",
+      "২৩০"
+    ],
+    "answer": "গ",
+    "explanation": "আমরা জানি, বৃত্তের পরিধি = 2πr\n⇒ 2πr = 50.27 ⇒ r = 8 cm\n∴ ক্ষেত্রফল = πr² = π × 8² ≈ 201 বর্গ সে.মি (Ans.)"
+  },
+  {
+    "id": 106,
+    "question": "চিত্রে y এর মান কত ডিগ্রি? [PGCB-ET, CMT-18]",
+    "options": [
+      "40°",
+      "30°",
+      "42°",
+      "20°"
+    ],
+    "answer": "ঘ",
+    "explanation": "3x + 2x = 180° ⇒ 5x = 180° ⇒ x = 36°\nচিত্র হতে, 3x + (y + 30) = 180° ⇒ (3 × 36) + y + 30 = 180° ⇒ y = 42°\n[Note: সমাধান অনুযায়ী y = 42° (গ) হলেও বইয়ে উত্তর (ঘ) দেওয়া আছে।]"
+  },
+  {
+    "id": 107,
+    "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য ও প্রস্থ যথাক্রমে ৩০% ও ২০% বাড়ানো হলো। নতুন তৈরি আয়তক্ষেত্রটির ক্ষেত্রফল, মূল আয়তক্ষেত্রটির ক্ষেত্রফল থেকে শতকরা কত বেশি? [BADC-CT-18]",
+    "options": [
+      "৭২%",
+      "৬০%",
+      "৫৬%",
+      "৪৪%"
+    ],
+    "answer": "গ",
+    "explanation": "মনে করি, পূর্বের দৈর্ঘ্য ও প্রস্থ যথাক্রমে ১০০ ∴ ক্ষেত্রফল = ১০০ × ১০০ = ১০,০০০\nবৃদ্ধির পর ক্ষেত্রফল = ১৩০ × ১২০ = ১৫,৬০০ ∴ ক্ষেত্রফল বেশি = ১৫,৬০০ - ১০,০০০ = ৫,৬০০\n∴ শতকরা ক্ষেত্রফল বেশি = (৫৬০০ / ১০০০০) × ১০০% = ৫৬% (Ans.)"
+  },
+  {
+    "id": 108,
+    "question": "১২ ফুট দৈর্ঘ্য এবং ৮ ফুট প্রস্থবিশিষ্ট একটি কার্পেট দ্বারা একটি মেঝের ৬০% মোড়ানো যায়। মেঝেটির ক্ষেত্রফল কত বর্গফুট? [BADC-CT-18]",
+    "options": [
+      "৯৬",
+      "১৬০",
+      "৬৪",
+      "১৮০"
+    ],
+    "answer": "খ",
+    "explanation": "৬০% মোড়াতে, ক্ষেত্রফল = ১২ × ৮ = ৯৬ বর্গফুট\n∴ ১০০% মোড়াতে, ক্ষেত্রফল = (৯৬ × ১০০) / ৬০ = ১৬০ বর্গফুট (Ans.)"
+  },
+  {
+    "id": 109,
+    "question": "৮০ মিটার দীর্ঘ ও ৫০ মিটার প্রস্থ বিশিষ্ট একটি আয়তাকার পুকুরের চারদিকে ৪ মিটার চওড়া একটি পাড় আছে। তবে পুকুরের পাড়ের ক্ষেত্রফল কত বর্গমিটার? [BPDB-ENT-18]",
+    "options": [
+      "৯৬৫",
+      "৮৫৬",
+      "৭৫৩",
+      "৯৭৬"
+    ],
+    "answer": "ঘ",
+    "explanation": "পাড়সহ পুকুরের ক্ষেত্রফল = ৮০ × ৫০ = ৪০০০ বর্গমি.\nপাড় ছাড়া পুকুরের ক্ষেত্রফল = (৮০ - (৪ × ২)) × (৫০ - (৪ × ২)) = ৭২ × ৪২ = ৩০২৪ বর্গমি.\n∴ পাড়ের ক্ষেত্রফল = ৪০০০ - ৩০২৪ = ৯৭৬ বর্গমি. (Ans.)"
+  },
+  {
+    "id": 110,
+    "question": "In the diagram below b : a = 7 : 2. What is (b - a)? [NESCO-CE-18]",
+    "options": [
+      "20°",
+      "70°",
+      "100°",
+      "120°"
+    ],
+    "answer": "গ",
+    "explanation": "সরলকোণ হতে পাই, a + b = 180°\n⇒ (2 + 7)x = 180° ⇒ 9x = 180° ⇒ x = 20°\n∴ b : a = 7 × 20° : 2 × 20° = 140° : 40°\n∴ b - a = 140° - 40° = 100° (Ans.)"
+  },
+  {
+    "id": 111,
+    "question": "একটি বর্গের একপাশ 20% বৃদ্ধি করা হলো। অন্যপাশ শতকরা কত কমালে বর্গক্ষেত্রটির ক্ষেত্রফল অপরিবর্তিত থাকবে? [NESCO-CE-18]",
+    "options": [
+      "20%",
+      "16.67%",
+      "15%",
+      "30%"
+    ],
+    "answer": "ক",
+    "explanation": "বর্গের প্রতি বাহুর দৈর্ঘ্য সমান। এক পাশ 20% বাড়লে অন্য পাশ ২০% কমালে বর্গক্ষেত্রটির ক্ষেত্রফল অপরিবর্তিত থাকবে। [নোট: গাণিতিকভাবে ১০০/১২০ × ২০ = ১৬.৬৭% হলেও বইয়ে উত্তর (ক) দেওয়া আছে।]"
+  },
+  {
+    "id": 112,
+    "question": "The side length of a square inscribed in a circle is 2. What is the area of the circle? [BADC-CE-18]",
+    "options": [
+      "π",
+      "√2π",
+      "2π",
+      "2√2π"
+    ],
+    "answer": "গ",
+    "explanation": "আমরা জানি, বর্গের কর্ণ = a√2 = 2√2\nএখন, এই কর্ণ হচ্ছে বৃত্তের ব্যাস। সুতরাং, বৃত্তের ব্যাসার্ধ r = 2√2 / 2 = √2\n∴ বৃত্তের ক্ষেত্রফল = πr² = π(√2)² = 2π (Ans.)"
+  },
+  {
+    "id": 113,
+    "question": "A picture is copied on to a sheet of paper, which measures 8.5 inches by 10 inches. A border of 1.5 inches is left all around. What is the area, in square inches covered by the picture? [BADC-CE-18]",
+    "options": [
+      "30",
+      "65",
+      "38.5",
+      "59.5"
+    ],
+    "answer": "গ",
+    "explanation": "বর্ডারের দৈর্ঘ্য = 1.5 ইঞ্চি, পেপার শীটের দৈর্ঘ্য = 10 ইঞ্চি, পেপার শীটের প্রস্থ = 8.5 ইঞ্চি\nছবির দৈর্ঘ্য = 10 - (2 × 1.5) = 7 ইঞ্চি\nছবির প্রস্থ = 8.5 - (2 × 1.5) = 5.5 ইঞ্চি\nসুতরাং, ছবির ক্ষেত্রফল = 7 × 5.5 = 38.5 বর্গ ইঞ্চি (Ans.)"
+  },
+  {
+    "id": 114,
+    "question": "If a, b and c are the lengths of the three sides of a triangle, then which of the following is true? [APSCL-CE-18]",
+    "options": [
+      "a + b < c",
+      "a - b < c",
+      "a + b = c",
+      "a + b ≥ c"
+    ],
+    "answer": "খ",
+    "explanation": "ত্রিভুজের যে কোন দুই বাহুর অন্তর, তৃতীয় বাহু অপেক্ষা ক্ষুদ্রতর।\n∴ সঠিক উত্তর হবে, (b) a - b < c\nআবার আমরা জানি, যে কোন দুই বাহুর সমষ্টি ৩য় বাহু অপেক্ষা বৃহত্তর (a + b > c)। (Ans.)"
+  },
+  {
+    "id": 115,
+    "question": "An observer 1.6 m tall is 20√3 m away from a tower. The angle of elevation from his eye to the top of the tower is 30°. The heights of the tower is: [BCPCL-ME-18]",
+    "options": [
+      "21.6 m",
+      "23.2 m",
+      "22.6 m",
+      "19.3 m"
+    ],
+    "answer": "ক",
+    "explanation": "AB = CE = 1.6 m, AE = BC = 20√3 m\nΔEBD হতে, tan 30° = DE / BE\n⇒ DE = 20√3 × tan 30° = 20 m\nটাওয়ারের দৈর্ঘ্য = CE + DE = 1.6 + 20 = 21.6 m (Ans.)"
+  },
+  {
+    "id": 116,
+    "question": "A circle radius is r. If it increases r+n, then the area of the circle fold 2 times. What is the value of r? [BCPCL-ME-18]",
+    "options": [
+      "r = n / (√2 - 1)",
+      "r = n / (√2 + 1)",
+      "r = n / 2",
+      "r = n√2"
+    ],
+    "answer": "ক",
+    "explanation": "মনে করি, বৃত্তের Area = A\n∴ A = πr² ⇒ 2A = π(r + n)² ⇒ 2πr² = π(r² + n² + 2nr)\n⇒ r² - 2nr - n² = 0 অথবা √2r = r + n\n⇒ r(√2 - 1) = n\n∴ r = n / (√2 - 1) (Ans.)"
+  },
+  {
+    "id": 117,
+    "question": "If the area of a circle is increased by 32%, then by how much is its radius will be increased? [NWPGCL-18, BPDB-18]",
+    "options": [
+      "32%",
+      "22%",
+      "20%",
+      "15%"
+    ],
+    "answer": "ঘ",
+    "explanation": "Original area = πr²\nNew area = πr² + 0.32πr² = 1.32πr² = π(1.15r)²\nনতুন ব্যাসার্ধ = 1.15r = r + 15% of r\n∴ ব্যাসার্ধ 15% বৃদ্ধি পাবে। (Ans.)"
+  },
+  {
+    "id": 118,
+    "question": "৪৫° কোণের পূরক কোণ কত? [BGFCL-CT-17]",
+    "options": [
+      "৯০°",
+      "৪৫°",
+      "৫৫°",
+      "কোনোটিই নয়"
+    ],
+    "answer": "খ",
+    "explanation": "পূরক কোণ: দুটি কোণের সমষ্টি ৯০° হলে, একটিকে অপরটির পূরক কোণ বলে।\n∴ ৪৫° কোণের পূরক কোণ = ৯০° - ৪৫° = ৪৫° (Ans.)"
+  },
+  {
+    "id": 119,
+    "question": "If radius of a circle is 14 m, then what is the perimeter / length of 90° arc? [PGCL-ME-17]",
+    "options": [
+      "3.5 meters",
+      "22 meters",
+      "44 meters",
+      "56 meters"
+    ],
+    "answer": "খ",
+    "explanation": "কেন্দ্রীয় কোণ θ = 90° = π/2 radian = 1.57 rad\nচাপের দৈর্ঘ্য length = rθ = 14 × 1.57 = 22 m (Ans.)"
+  },
+  {
+    "id": 120,
+    "question": "If each side of a square is increased by 10%, its area will be increased by: [ERL-ME-17]",
+    "options": [
+      "10%",
+      "21%",
+      "44%",
+      "100%"
+    ],
+    "answer": "খ",
+    "explanation": "Let, each side length = 100 ∴ area = 100 × 100 = 10000\nAfter 10% increase, = 110 × 110 = 12100\n∴ বৃদ্ধি প্রাপ্ত ক্ষেত্রফল = 12100 - 10000 = 2100\n∴ % area = (2100 / 10000) × 100% = 21% (Ans.)"
+  },
+  {
+    "id": 121,
+    "question": "একটি ত্রিভুজের ভূমি এবং উচ্চতা যথাক্রমে ২০ এবং ২০ হলে তার ক্ষেত্রফল কত? [DPDC-ET-16]",
+    "options": [
+      "৬০০",
+      "১৫০",
+      "৩০০",
+      "২০০"
+    ],
+    "answer": "ঘ",
+    "explanation": "সমকোণী ত্রিভুজের ক্ষেত্রফল = 1/2 × ভূমি × উচ্চতা = 1/2 × 20 × 20 = 200 (Ans.)"
+  },
+  {
+    "id": 122,
+    "question": "একটি চতুর্ভুজের দুই বাহুর দৈর্ঘ্য আগের থেকে শতকরা ৩০ ভাগ কমানো হলো তার ক্ষেত্রফল শতকরা কত ভাগ কমবে? [DPDC-ET-16]",
+    "options": [
+      "অপরিবর্তিত থাকবে",
+      "শতকরা ৩০ ভাগ",
+      "শতকরা ৫১ ভাগ",
+      "উপরের কোনোটিই নয়"
+    ],
+    "answer": "গ",
+    "explanation": "মনে করি, চতুর্ভুজের আগের দৈর্ঘ্য ও প্রস্থ ১০০ ∴ ক্ষেত্রফল = (১০০ × ১০০) = ১০,০০০\nবর্তমান দৈর্ঘ্য ও প্রস্থ = ১০০ - ৩০ = ৭০ ∴ ক্ষেত্রফল = ৭০ × ৭০ = ৪,৯০০\nসুতরাং, ক্ষেত্রফল কমবে = ১০,০০০ - ৪,৯০০ = ৫,১০০\n∴ শতকরা কমবে = (৫১০০ / ১০০০০) × ১০০% = ৫১% (Ans.)"
+  },
+  {
+    "id": 123,
+    "question": "যদি চতুর্ভুজের একটি বাহুর দৈর্ঘ্য হয় 4 এবং তার পরিসীমা হয় 36, তবে তার অপর বাহুর দৈর্ঘ্য হবে- [DPDC-ET-16]",
+    "options": [
+      "9",
+      "14",
+      "16",
+      "28"
+    ],
+    "answer": "খ",
+    "explanation": "আমরা জানি, আয়তক্ষেত্রের পরিসীমা = 2(দৈর্ঘ্য + প্রস্থ)\n⇒ 36 = 2(দৈর্ঘ্য + 4)\n⇒ দৈর্ঘ্য = 18 - 4 = 14\n∴ অপর বাহুর দৈর্ঘ্য = 14 (Ans.)"
+  },
+  {
+    "id": 124,
+    "question": "A person standing on a platform 160 meters long noticed that a train crosses the platform in 54 seconds but himself in 30 seconds. Find the length of the train. [BCIC-AE-16]",
+    "options": [
+      "100m",
+      "150m",
+      "200m",
+      "250m"
+    ],
+    "answer": "গ",
+    "explanation": "প্লাটফর্মের সাপেক্ষে বেগ V = 160 / (54 - 30) = 6.67 m/sec\n[৩০ সেকেন্ডে ট্রেন অতিক্রম করে নিজের দৈর্ঘ্য]\n∴ ট্রেনের দৈর্ঘ্য, s = V × t = 6.67 × 30 = 200 m (Ans.)"
+  },
+  {
+    "id": 125,
+    "question": "A hall is 15m long and 12m broad. If the sum of the area of the floor and ceilings is equal to the sum of the area of four walls what will the volume of the hall? [BCIC-ME-16]",
+    "options": [
+      "16000 m³",
+      "1600 m³",
+      "12000 m³",
+      "1200 m³"
+    ],
+    "answer": "ঘ",
+    "explanation": "Sum of Area of 4 walls = sum of area of floor and ceiling\n⇒ 2(15 + 12)h = 2(15 × 12)\n⇒ 54h = 360 ⇒ h = 20/3 m\n∴ Volume = (15 × 12 × 20/3) = 1200 m³ (Ans.)"
+  },
+  {
+    "id": 126,
+    "question": "If the perimeter of a rectangle is 36 and two sides are x and 4, then x = ? [GTCL-ME-16]",
+    "options": [
+      "9",
+      "14",
+      "16",
+      "28"
+    ],
+    "answer": "খ",
+    "explanation": "পরিসীমা = 36 ⇒ 2(দৈর্ঘ্য + প্রস্থ) = 36 ⇒ 2(x + 4) = 36 ⇒ x + 4 = 18 ∴ x = 14 (Ans.)"
+  },
+  {
+    "id": 127,
+    "question": "What is the sum of the interior angles of the polygon in the figure below? [GTCL-ME-16]",
+    "options": [
+      "360°",
+      "540°",
+      "720°",
+      "900°"
+    ],
+    "answer": "গ",
+    "explanation": "The sum of interior angles = (n - 2) × 180°\nHere n = 6 (ষড়ভুজ)\n= (6 - 2) × 180° = 720° (Ans.)"
+  },
+  {
+    "id": 128,
+    "question": "একটি সিলিন্ডারের বৃত্তীয় তলের ব্যাসার্ধ 2 সেমি এবং উচ্চতা 6 সেমি হলে উহার তলগুলির মোট ক্ষেত্রফল কত? [46th BCS]",
+    "options": [
+      "16π বর্গ সেমি",
+      "32π বর্গ সেমি",
+      "36π বর্গ সে.মি",
+      "48π বর্গ সে.মি"
+    ],
+    "answer": "খ",
+    "explanation": "Here, r = 2 সেমি, h = 6 সেমি\n∴ মোট ক্ষেত্রফল = 2πr(r + h) = 2π × 2 × (2 + 6) = 32π বর্গ সে.মি (Ans.)"
+  },
+  {
+    "id": 129,
+    "question": "কোনো একটি ত্রিভুজের দুইটি কোণের মান 28° ও 62° ত্রিভুজটি কোন ধরনের? [46th BCS]",
+    "options": [
+      "সমকোণী",
+      "সূক্ষ্মকোণী",
+      "স্থূলকোণী",
+      "সমদ্বিবাহু সমকোণী"
+    ],
+    "answer": "ক",
+    "explanation": "আমরা জানি, ত্রিভুজের তিন কোণের সমষ্টি = 180°\n∴ অজানা কোণটির পরিমাণ = 180° - (28° + 62°) = 90°\nযেহেতু একটি কোণ ৯০°, ত্রিভুজটি সমকোণী। (Ans.)"
+  },
+  {
+    "id": 130,
+    "question": "4 সে.মি বাহুবিশিষ্ট বর্গক্ষেত্রে পরিলিখিত বৃত্তের ক্ষেত্রফল কত? [46th BCS]",
+    "options": [
+      "8π বর্গ সেমি",
+      "6π বর্গ সে.মি",
+      "4π বর্গ সে.মি",
+      "2√2π বর্গ সে.মি"
+    ],
+    "answer": "ক",
+    "explanation": "আমরা জানি, বর্গক্ষেত্রের কর্ণের দৈর্ঘ্য = বাহু × √2 = 4√2 সেমি\nবর্গক্ষেত্রে পরিলিখিত বৃত্তের ব্যাস = বর্গের কর্ণ = 4√2 সেমি\n∴ ব্যাসার্ধ r = 4√2 / 2 = 2√2 সেমি\n∴ বৃত্তের ক্ষেত্রফল = πr² = π(2√2)² = 8π বর্গ সেমি (Ans.)"
+  }
+]

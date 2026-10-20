@@ -1,0 +1,1434 @@
+[
+  {
+    "id": 1,
+    "question": "0.6̇ কে 0.9̇ দ্বারা ভাগ করলে, নিচের কোনটি সঠিক? [47th BCS]",
+    "options": [
+      "0.6̇",
+      "0.9̇",
+      "0.23̇",
+      "0.3̇"
+    ],
+    "answer": "ক",
+    "explanation": "সমাধান: 0.6̇ = 6/9 [যেহেতু দশমিকের পরে একটি পৌনঃপুনিক সংখ্যা রয়েছে]\n0.9̇ = 9/9\n∴ 0.6̇ / 0.9̇ = (6/9) / (9/9) = 6/9 = 2/3 = 0.66666 = 0.6̇ (Ans.)"
+  },
+  {
+    "id": 2,
+    "question": "৪ জন তাঁতি ৪ দিনে ৪টি মাদুর তৈরি করতে পারে। একই হারে ৮ জন তাঁতি ৮ দিনে কতটি মাদুর তৈরি করতে পারবে? [47th BCS]",
+    "options": [
+      "৪টি",
+      "১২টি",
+      "১৬টি",
+      "২০টি"
+    ],
+    "answer": "গ",
+    "explanation": "সমাধান:\n৪ জন তাঁতি ৪ দিনে তৈরি করে ৪ টি মাদুর\n১ জন তাঁতি ৪ দিনে তৈরি করে ৪/৪ টি মাদুর\n১ জন তাঁতি ১ দিনে তৈরি করে ৪/(৪×৪) টি মাদুর\n৮ জন তাঁতি ১ দিনে তৈরি করে (৪×৮)/(৪×৪) টি মাদুর\n৮ জন তাঁতি ৮ দিনে তৈরি করে (৪×৮×৮)/(৪×৪) টি মাদুর = ১৬ টি"
+  },
+  {
+    "id": 3,
+    "question": "১ থেকে ১০ পর্যন্ত মৌলিক সংখ্যা কয়টি? [DPDC-ME,EEE-25]",
+    "options": [
+      "৩টি",
+      "৪টি",
+      "৫টি",
+      "২টি"
+    ],
+    "answer": "খ",
+    "explanation": "১ থেকে ১০ পর্যন্ত মৌলিক সংখ্যা ৪টি। যথা: ২, ৩, ৫, ৭।"
+  },
+  {
+    "id": 4,
+    "question": "A একটি কাজ 15 দিনে করতে এবং B ঐ কাজটি 10 দিনে করতে পারে। তারা একত্রে কাজটি কত দিনে করতে পারবে? [DPDC-ME,EEE-25]",
+    "options": [
+      "4 দিন",
+      "5 দিন",
+      "6 দিন",
+      "7 দিন"
+    ],
+    "answer": "গ",
+    "explanation": "সমাধান: A 15 দিনে করতে পারে 1 টি কাজ\nA 1 দিনে করতে পারে 1/15 অংশ কাজ\nB 10 দিনে করতে পারে 1 টি কাজ\nB 1 দিনে করতে পারে 1/10 অংশ\nতারা একত্রে 1 দিনে করতে পারে = 1/15 + 1/10 = 1/6 অংশ\n1/6 অংশ কাজ করতে পারে 1 দিনে\n∴ 1 বা সম্পূর্ণ কাজ করতে পারে 1 / (1/6) = 6 দিনে (Ans.)"
+  },
+  {
+    "id": 5,
+    "question": "নিচের কোনটি অমূলদ সংখ্যা? [DPDC-ME,EEE-25]",
+    "options": [
+      "√(16/9)",
+      "1/3",
+      "√(9/4)",
+      "√5"
+    ],
+    "answer": "ঘ",
+    "explanation": "√5 একটি অমূলদ সংখ্যা।"
+  },
+  {
+    "id": 6,
+    "question": "n = 2x - 1 হলে n² - 1 নিচের সর্বোচ্চ কোনটি দ্বারা বিভাজ্য হবে? [DPDC-ME,EEE-25]",
+    "options": [
+      "2",
+      "3",
+      "6",
+      "8"
+    ],
+    "answer": "ঘ",
+    "explanation": "সমাধান: n = 2x - 1 [একটি বিজোড় সংখ্যা]\n∴ n² - 1 = (2x - 1)² - 1 = 4x² - 4x = 4x(x - 1)\nএখানে x ও (x-1) দুটি ক্রমিক সংখ্যা যার একটি অবশ্যই জোড় সংখ্যা হবে।\nসুতরাং x(x-1) অবশ্যই 2 দ্বারা বিভাজ্য হবে।\nযেহেতু x(x-1) 2 দ্বারা বিভাজ্য, তাই 4x(x-1) হবে 4×2 = 8 দ্বারা বিভাজ্য।"
+  },
+  {
+    "id": 7,
+    "question": "The sum of three consecutive in... [BCRECL-CE,ME,EEE-25]",
+    "options": [
+      "20",
+      "21",
+      "23",
+      "22"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যাঃ ধরি, তিনটি ক্রমিক পূর্ণসংখ্যা x, x + 1, x + 2। যোগফল ৬৩ হলে: x + (x + 1) + (x + 2) = 63 ⇒ 3x + 3 = 63 ⇒ 3x = 60 ⇒ x = 20। ক্ষুদ্রতম সংখ্যাটি ২০ (Ans.)"
+  },
+  {
+    "id": 8,
+    "question": "Which is the larger than 1/3? [BCRECL-CE,ME,EEE-25]",
+    "options": [
+      "(1/3)²",
+      "1/0.03",
+      "0.03",
+      "0.30"
+    ],
+    "answer": "খ",
+    "explanation": "1/3 = 0.333\n1/0.03 = 33.33\n(1/3)² = 0.111\nSo, the correct answer is 1/0.03"
+  },
+  {
+    "id": 9,
+    "question": "If p/q = a²/b² and a/b = √((a+q)/(a-q)) Show that (p+q)/a = (p-q)/q [BIFPCL-ME, EEE-25]",
+    "options": [],
+    "answer": "Showed",
+    "explanation": "Solⁿ: Given, a/b = √((a+q)/(a-q))\n⇒ a²/b² = (a+q)/(a-q)\n⇒ p/q = (a+q)/(a-q) [∵ p/q = a²/b²]\n⇒ (p+q)/(p-q) = (a+q+a-q)/(a+q-a+q) [যোজন-বিয়োজন]\n⇒ (p+q)/(p-q) = 2a/2q\n∴ (p+q)/a = (p-q)/q (Showed)"
+  },
+  {
+    "id": 10,
+    "question": "The average of 5, 6, 7 and W is 8. What is the value of W? [RNPL-ME,EEE-25]",
+    "options": [
+      "14",
+      "16",
+      "10",
+      "12"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: শর্তমতে, (5+6+7+w)/4 = 8 ⇒ w = 32 - 18 = 14 (Ans.)"
+  },
+  {
+    "id": 11,
+    "question": "নিচের কোনটি মৌলিক সংখ্যা? [DESCO-SSA-25]",
+    "options": [
+      "৫৯",
+      "৯১",
+      "৬৩",
+      "৮৭"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: ৬৩ = ৭ × ৯ যা মৌলিক সংখ্যা নয়।\n৯১ = ১৩ × ৭ যা মৌলিক সংখ্যা নয়।\n৮৭ = ২৯ × ৩ যা মৌলিক সংখ্যা নয়।\n৫৯ = ১ × ৫৯\nসুতরাং ৫৯ মৌলিক সংখ্যা"
+  },
+  {
+    "id": 12,
+    "question": "'A can do a work in 10 days, 'B' can do a work in 15 days. If they work together how many days need to complete this work? [BCIC-CE/ME/EEE/CSE-25]",
+    "options": [
+      "6",
+      "15",
+      "60",
+      "17"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: 'A' can do in 10 days\n∴ For 1 day = 1/10\n'B' can do in 15 days\n∴ For 1 day = 1/15\n'A' and 'B' both can do in 1 day : (1/10 + 1/15) = 1/6\n1/6 part done in 1 day\n∴ 1 part done in 1/(1/6) days = 6 days"
+  },
+  {
+    "id": 13,
+    "question": "A completes x works in 12 minutes and B completes 5x works in 40 minutes. When they work together, how much time will it take to complete 50x works? [BCPCL-ME-25]",
+    "options": [],
+    "answer": "240 minutes",
+    "explanation": "Solⁿ: A complete x works in 12 minutes\n∴ Rate of A = x/12 work per minutes\nSimilarly Rate of B = 5x/40 work per minute = x/8\nCombine rate: x/12 + x/8 = 5x/24 work per minutes\n5x/24 part complete in 1 minute\n∴ 1 part complete in 24/5x minutes\n∴ 50x part complete in (24×50x)/5x minutes = 240 minutes (Ans.)"
+  },
+  {
+    "id": 14,
+    "question": "একটি শ্রেণীর প্রতি বেঞ্চে ৪ জন করে ছাত্র বসলে ৩ টি বেঞ্চ খালি থাকে। আবার প্রতি বেঞ্চে ৩ জন করে ছাত্র বসলে ৬ জন ছাত্রের দাঁড়িয়ে থাকতে হয়। ঐ ক্লাসে ছাত্রের সংখ্যা কত? [BCPCL-ET-25]",
+    "options": [],
+    "answer": "৬০ জন",
+    "explanation": "উত্তর: ক্লাসের ছাত্রের সংখ্যা ৬০ জন। (Ans.)\nব্যাখ্যা: ধরি, ছাত্রের সংখ্যা = x\nবেঞ্চ সংখ্যা = y\n১ম শর্তানুযায়ী, x = 4(y - 3) ⇒ x - 4y = -12 ... (i)\n২য় শর্তানুযায়ী, x = 3y + 6 ⇒ x - 3y = 6 ... (ii)\n(i) ও (ii) নং সমীকরণ সমাধান করে পাই, x = 60, y = 18\nক্লাসে ছাত্রের সংখ্যা = ৬০ জন; ক্লাসে বেঞ্চের সংখ্যা = ১৮ টি"
+  },
+  {
+    "id": 15,
+    "question": "If (2x² + 3x + y) is an even integer, which of the following must be true? [POCL-ME/EEE-24, MPL-CMT/ET/ENT-25]",
+    "options": [
+      "x is even",
+      "y is odd",
+      "(x+y) is even",
+      "(x+y) is odd"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: Say, x = 1 & y = 1\n∴ x + y = 2 (even)\nNow putting x = 1 & y = 1 in the given equation we get, 2 × 1² + 3 × 1 + 1 = 6 that is also an even integer."
+  },
+  {
+    "id": 16,
+    "question": "A can do a certain job in 12 days. B is 60% more efficient than A. Then B can do the same piece of work in: [POCL-ME/EEE-24]",
+    "options": [
+      "7.5 days",
+      "8 days",
+      "9 days",
+      "10 days"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: Let, Efficiency of A = 100\nEfficiency of B = 160\nThe ratio between A and B = 100:160 = 5 : 8\nNow, Work = Efficiency × days.\nFor A, work = 5 × 12 = 60\nFor B, work = 8 × days\n⇒ 60 = 8 × days\n∴ days = 60/8 = 7.5 (Ans.)"
+  },
+  {
+    "id": 17,
+    "question": "A number when divided by a divisor leaves a remainder of 25. When twice the original number is divided by the same divisor, the remainder is 13. What is the value of the divisor? [POCL-ME/EEE-24]",
+    "options": [
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: Let, Original number = a; divisor = d; quotient = x\nAccording to question, a = dx + 25\nWhen twice the original number, 2a = 2dx + 50\nLet, x and d be the number and divisor\nNow, x = d Q₁ + 25\nAccording to the given condition, we get, 2x = d × Q₂ + 13\n⇒ 2(d × Q₁ + 25) = d × Q₂ + 13\n⇒ 2dQ₁ + 50 = dQ₂ + 13\n⇒ dQ₂ - 2dQ₁ = 50 - 13\n⇒ dQ₂ - 2dQ₁ = 37\n⇒ d(Q₂ - 2Q₁) = 37\n⇒ d = 37 / (Q₂ - 2Q₁)\nSince, 37 is a prime number, then, Q₂ - 2Q₁ = 37 or 1\n∴ d = 37 (Ans.)"
+  },
+  {
+    "id": 18,
+    "question": "How many 3-digit numbers can be formed where the first and last digits are odd? [POCL-ME/EEE-24]",
+    "options": [
+      "125",
+      "225",
+      "275",
+      "250"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: Let, The number format = ABC, Where A is the first, B is the second and 'C' is the last digit.\nFor first digit (A) : must be odd (1, 3, 5, 7, 9)\nSo, there are 5 choice.\nFor second digit (B): It can be any digit from 0-9. so, the choice is 10.\nFor last digit (C): It must be odd. It can be (1, 3, 5, 7, 9)\nSo the number of choice is 5.\nTotal combination: Total = Choice A × Choice B × Choice C = 5×10×5 = 250 (Ans.)"
+  },
+  {
+    "id": 19,
+    "question": "One pipe can fill a tank in 3 hours, and another pipe can fill the tank in 6 hours. How long will it take to fill the tank if both pipes are used at the same time? [NWPGCL-ME/EEE-24]",
+    "options": [
+      "৬ ঘণ্টা",
+      "৪ ঘণ্টা",
+      "২ ঘণ্টা",
+      "১ ঘণ্টা"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: প্রথম পাইপ 3 ঘণ্টায় পূর্ণ করে 1 অংশ\n∴ 1 ঘণ্টায় পূর্ণ করে 1/3 অংশ\n২য় পাইপ 6 ঘণ্টায় পূর্ণ করে 1 অংশ\n∴ 1 ঘণ্টায় পূর্ণ করে 1/6 অংশ\nউভয়ে 1 ঘণ্টায় পূর্ণ করে = 1/3 + 1/6 = 3/6 = 1/2 অংশ\nঅনুরূপভাবে, উভয়ে 1/2 অংশ পূর্ণ করে 1 ঘণ্টার\n1 অংশ পূর্ণ করে = 2 ঘণ্টায় (Ans.)"
+  },
+  {
+    "id": 20,
+    "question": "A number is squared then divided by itself. What is the number? [NWPGCL-ME/EEE-24]",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "None"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: যদি সংখ্যাটি 1 হয় তবে 1²/1 = 1\nযদি সংখ্যাটি 2 হয় তবে 2²/2 = 2\nযদি সংখ্যাটি 4 হয় তবে 4²/4 = 4\nযদি সংখ্যাটি 12 হয় তবে 12²/12 = 12\nসুতরাং, দেখা যাচ্ছে কোন সংখ্যার বর্গকে ঐ সংখ্যা দ্বারা ভাগ করলে পুনরায় ঐ সংখ্যাটিই পাওয়া যায়। অর্থাৎ, উত্তর হবে (ঘ)।"
+  },
+  {
+    "id": 21,
+    "question": "John is twice as old as Mary. Ten years to come, he will be 1.5 times as old as marry. How old are John and Mary? [NWPGCL-ME/EEE-24]",
+    "options": [
+      "১০, ৫ বছর",
+      "২০, ১০ বছর",
+      "৩০, ৩৫ বছর",
+      "৫০, ২৫ বছর"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: ধরি, জনের বয়স = J\nম্যারির বয়স = M\nবর্তমানে, J = 2 M ------ (i)\nকিন্তু দশ বছর পরে, J + 10 = 1.5 (M+10) ------ (ii)\n(i) ও (ii) হতে, M = 10 & J = 20 (Ans.)"
+  },
+  {
+    "id": 22,
+    "question": "3 pumps by working 8 hours a day can empty a tank in 2 days. How many hours a day must 4 pumps work to empty the tank in 1 day? [APSCL-ME/EEE-24]",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: 3 pumps in 2 days require 8 hours.\n1 pumps in 1 days require = 8×3×2 hours\n∴ 4 pumps in 1 days require = (8×3×2)/4 = 12 hours. (Ans.)"
+  },
+  {
+    "id": 23,
+    "question": "Three times the first of three consecutive odd integers is 3 more than twice the third. What is the third integer? [APSCL-ME/EEE-24]",
+    "options": [
+      "9",
+      "44",
+      "13",
+      "15"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: Say, First of three consecutive odd integers is = x\nThree integers will be = x, x + 2 & x + 4.\nConditionally, 3x = 3 + 2 (x+4)\n⇒ 3x = 3 + 2x + 8\n∴ x = 11\nThird integer will be = 11 + 4 = 15 (Ans.)"
+  },
+  {
+    "id": 24,
+    "question": "A, B এর চেয়ে দ্বিগুণ গতিতে কাজ করতে পারে এবং A ও C, B এর চেয়ে তিনগুণ গতিতে কাজ করতে পারে। A, B ও C একটি কাজ একত্রে 30 দিনে করতে পারলে, তাদের প্রত্যেককে পৃথকভাবে কত দিনে কাজটি শেষ করতে পারবে? [CPGCBL-ET/MT-24]",
+    "options": [
+      "60, 120, 120",
+      "50, 100, 120",
+      "60, 100, 80",
+      "40, 80, 100"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: এখানে, A = 2 B ------ (i)\nA + C = 3 B ------ (ii)\nএবং, A + B + C = 30 ------ (iii)\nতিন জনে 30 দিনে করে কাজের 1 অংশ\nসুতরাং 1 দিনে করে = 1/30 অংশ\n1 দিনে কাজের পরিমাণ, A + B + C = 1/30 অংশ\n⇒ 3 B + B = 1/30 অংশ [A + C = 3 B]\n(i) ও (ii) হতে, C = B\n∴ C = 1/120 অংশ\nএবং, A = 2 B ∴ A = 1/60 অংশ\nএখন B এর ক্ষেত্রে, 1/120 অংশ করে 1 দিনে\n∴ 1 অংশ করে 120 দিনে\nঅনুরূপভাবে, A = 60 দিন এবং C = 120 দিন (Ans.)"
+  },
+  {
+    "id": 25,
+    "question": "একটি কারখানায় দুটি মেশিন রয়েছে। A একা করে একটি কাজ 10 মিনিটে, B একা করে 15 মিনিটে। দুইজনে একসাথে কত সময়ে করবে? [BOGMC-ET/CT-24]",
+    "options": [
+      "6 মিনিট",
+      "5 মিনিট",
+      "10 মিনিট",
+      "125 মিনিট"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: A এক মিনিটে করে = 1/10 অংশ\nB এক মিনিটে করে = 1/15 অংশ\nতারা একত্রে করে = 1/10 + 1/15 = 1/6 অংশ\n1/6 অংশ করে = 1 মিনিটে\n∴ 1 অংশ করে = (1×6)/1 = 6 মিনিটে (Ans.)"
+  },
+  {
+    "id": 26,
+    "question": "নির্দিষ্ট গতিতে ১৫ কি.মি: দূরত্ব অতিক্রম করতে A এর চেয়ে B এর 30 মিনিট বেশি লাগে। A যদি তার গতি দ্বিগুণ বাড়িয়ে দেয় তাহলে B এর চেয়ে ১ ঘণ্টা কম সময় লাগে। B এর গতি কত? [BOGMC-CMT/MT-24]",
+    "options": [
+      "20",
+      "10",
+      "15",
+      "30"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: ধরি, A এর গতিবেগ = x, মোট দূরত্ব = 15 km\nসুতরাং, A এর জন্য প্রয়োজনীয় সময় = 15/x, B এর জন্য প্রয়োজনীয় সময় = 15/x + 0.5\nদ্বিতীয় ক্ষেত্রে, A এর গতিবেগ = 2x\nশর্তমতে, (15/2x) = (15/x + 0.5) - 1\n⇒ 15/2x = 15/x - 0.5\n⇒ 15/2x - 15/x = -0.5\n⇒ (15 - 30)/2x = -0.5 ⇒ x = 15\n∴ A এর গতিবেগ = 15 km/hr\n∴ B এর গতিবেগ = 15 / (15/x + 0.5) = 15 / (1 + 0.5) = 10 km/hr (Ans.)"
+  },
+  {
+    "id": 27,
+    "question": "2 থেকে 22 এর মধ্যে সমস্ত বিজোড় সংখ্যার গড় কত? [BOGMC-CMT/MT-24]",
+    "options": [
+      "12",
+      "17",
+      "10",
+      "8"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: 2 থেকে 22-এর মধ্যে বিজোড় সংখ্যা গুলো হলো- 3,5,7,9,11,13,15,17,19,21 যাদের প্রথম এবং শেষ সংখ্যার গড়ই হবে সমস্ত বিজোড় সংখ্যার গড়। সুতরাং, (3+21)/2 = 12 (Ans.)"
+  },
+  {
+    "id": 28,
+    "question": "একটি সংখ্যার অর্ধেক তার এক-তৃতীয়াংশ থেকে ১৭ বেশি। সংখ্যাটি কত? [BOGMC-CMT/MT-24]",
+    "options": [
+      "102",
+      "100",
+      "17",
+      "কোনটিই নয়"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: Let, সংখ্যাটি = x\nপ্রশ্নমতে, x/2 = x/3 + 17 ⇒ x/2 - x/3 = 17 ⇒ x/6 = 17 ∴ x = 102"
+  },
+  {
+    "id": 29,
+    "question": "দুটি সংখ্যার যোগফল 2490। একটি সংখ্যার 6.5% অন্য সংখ্যাটির 8.5% এর সমান হলে, বৃহত্তম সংখ্যাটি কত? [BOGMC-CMT/MT-24]",
+    "options": [
+      "1411",
+      "1420",
+      "1020",
+      "কোনটিই নয়"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: ধরি, সংখ্যা দুটি যথাক্রমে x ও y। শর্তানুযায়ী, x + y = 2490 ... (1)\nএবং, x(6.5/100) = y(8.5/100) ⇒ 6.5x/100 = 8.5y/100 ⇒ x/y = 17/13, ∴ x = 17/13 y\n1 নং সমীকরণ থেকে পাই, x + y = 2490\n⇒ 17/13 y + y = 2490 (x এর মান বসিয়ে)\n⇒ y(17/13 + 1) = 2490 ∴ y = 1079\n∴ বৃহত্তম সংখ্যাটি, x = 2490 - 1079 = 1411 (Ans.)"
+  },
+  {
+    "id": 30,
+    "question": "১টি চৌবাচ্চা ১টি নল দ্বারা ১২ মিনিটে পূর্ণ হয়, অপর নল দ্বারা ১৮ মিনিটে খালি হয়। উভয় নল একত্রে চালু করলে চৌবাচ্চাটি পূর্ণ হবে- [PGCB-CT/MT/ET/ENT/PT/CST-24]",
+    "options": [
+      "১৮ মিনিটে",
+      "২৪ মিনিটে",
+      "৩৬ মিনিটে",
+      "৪৮ মিনিটে"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: ১২ মিনিটে পূর্ণ হয় সম্পূর্ণ অংশ\n∴ ১ মিনিটে পূর্ণ হয় সম্পূর্ণ এর 1/12 অংশ\nআবার, ১৮ মিনিটে খালি হয় সম্পূর্ণ অংশ\n∴ ১ মিনিটে খালি হয় সম্পূর্ণ 1/18 অংশ\nউভয় নল চালু থাকলে ১ মিনিটে পূর্ণ হবে = (1/12 - 1/18) = 1/36 অংশ\nসুতরাং, 1/36 অংশ পূর্ণ হয় ১ মিনিটে\n∴ সম্পূর্ণ অংশ পূর্ণ হয় ৩৬ মিনিটে (Ans.)"
+  },
+  {
+    "id": 31,
+    "question": "কোন সংখ্যার দ্বিগুণের সাথে সংখ্যাটির এক তৃতীয়াংশ যোগ করলে যোগফল ৪৯ হয়। সংখ্যাটি কত? [PGCB-CT/MT/ET/ENT/PT/CST-24]",
+    "options": [
+      "১৬",
+      "২৬",
+      "২০",
+      "২১"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: ধরি, সংখ্যাটি = x\nপ্রশ্নমতে, 2x + x/3 = 49; ⇒ (6x+x)/3 = 49; ⇒ 7x = 147\n∴ x = 21 (Ans.)"
+  },
+  {
+    "id": 32,
+    "question": "মাতা ও তিন পুত্রের গড় অপেক্ষা পিতা ও তিন পুত্রের বয়সের গড় ২.৫ বছর বেশি। পিতার বয়স ৫০ বছর হলে মাতার বয়স কত? [PGCB-CE/EEE/ME/CSE-24]",
+    "options": [
+      "৪৫ বছর",
+      "৪০ বছর",
+      "৩৫ বছর",
+      "৩০ বছর"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: ধরি, মাতার বয়স = x, তিনপুত্রের বয়স = 3y\nপিতার বয়স = z = 50\nশর্তমতে, (x+3y)/4 + 2.5 = (z+3y)/4\n⇒ (x+3y+10)/4 = (z+3y)/4\n⇒ x + 3y + 10 - z - 3y = 0\n⇒ x - 50 + 10 = 0\n∴ x = 40"
+  },
+  {
+    "id": 33,
+    "question": "দুটি ধনাত্মক সংখ্যার পার্থক্য ৬। এদের বর্গের পার্থক্য ১০৮। সংখ্যা দুইটির যোগফল কত? [PGCB-CE/EEE/ME/CSE-24]",
+    "options": [
+      "৬",
+      "১২",
+      "১৮",
+      "২৪"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: ধরি, সংখ্যা দুটি x এবং y\nশর্তমতে, x - y = 6 .........(i)\nএবং x² - y² = 108 = (x + y)(x - y) = 108\n∴ x + y = 108/6 = 18"
+  },
+  {
+    "id": 34,
+    "question": "The sum of squares of two numbers is 80 and the square of difference between the two numbers is 36, what is the product of two numbers. [BGDCL-CE/EEE/ME/CSE-24]",
+    "options": [
+      "30",
+      "44",
+      "22",
+      "24"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: ধরি, ১ম সংখ্যা = x, ২য় সংখ্যা = y\nশর্তমতে, x² + y² = 80 ............ (i)\n∴ (x - y)² = 36\n(i) সমীকরণ হতে পাই, (x - y)² + 2xy = 80; ⇒ 36 + 2xy = 80 ∴ xy = (80 - 36)/2 = 22"
+  },
+  {
+    "id": 35,
+    "question": "A + B + C + D = 0. And C ÷ 4 = 3, B + D = 18, ABC = 48. Find Out the value of A? [EGCB-ICT-24]",
+    "options": [
+      "- 30",
+      "- 33",
+      "50",
+      "60"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: B + D = 18; C/4 = 3 ∴ C = 12\nNow, A + B + C + D = 0\n⇒ 12 + 18 + A = 0\n∴ A = -30"
+  },
+  {
+    "id": 36,
+    "question": "If x + 3 > 2x - 1; find the range of x? [BSTI-CE/Physics/EEE-24]",
+    "options": [
+      "x > 3",
+      "x > 4",
+      "x < 4",
+      "x < 1"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: x + 3 > 2x - 1\n⇒ 3 + 1 > 2x - x; ⇒ 4 > x; ∴ x < 4 (Ans.)"
+  },
+  {
+    "id": 37,
+    "question": "2t² - mt - 16 for which value of m > 0 have the equal roots; [BSTI-CE/Physics/EEE-24]",
+    "options": [
+      "8",
+      "√2",
+      "8√2",
+      "i8√2"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: b² - 4ac = 0\n⇒ m² + 4.2.16 = 0\n⇒ m² = -128\n∴ m = i8√2 (Ans.)"
+  },
+  {
+    "id": 38,
+    "question": "(2 - i)/(1 + i) = ? [BIWTA-EEE/CSE-23]",
+    "options": [
+      "1 + i",
+      "1/2 - 1/2 i",
+      "1/2 - 3/2 i",
+      "i - 1"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: (2 - i)/(1 + i) অনুবন্ধি করে পাই, ((2 - i)(1 - i))/((1 + i)(1 - i)) = (2 - 2i - i + i²)/(1 - i²) = (2 - 3i - 1)/(1 + 1) = (1 - 3i)/2 = 1/2 - 3/2 i (Ans.)"
+  },
+  {
+    "id": 39,
+    "question": "Square root of 0.25 is -----. [BIWTA-EEE/CSE-23]",
+    "options": [
+      "0.05",
+      "0.5",
+      "5.0",
+      "50"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: 0.25 = 1/4 ∴ Square root = √0.25 = √(1/4) = √(1/2²) = 1/2 (Ans.)"
+  },
+  {
+    "id": 40,
+    "question": "If 2x + 2y = 7z, then what is the average of x, y and z? [DPDC-ME/EEE/CE-22]",
+    "options": [
+      "1.5z",
+      "3z",
+      "2z + 1",
+      "z/3"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: Given, 2x + 2y = 7z\n⇒ 2x + 2y + 2z = 9z\n⇒ x + y + z = 4.5z\n⇒ (x + y + z)/3 = 4.5/3 z ∴ Average of x, y & z is 1.5 z (Ans.)"
+  },
+  {
+    "id": 41,
+    "question": "2³⁰ + 2³⁰ + 2³⁰ + 2³⁰ = কত? [BDCCL-ET-22]",
+    "options": [
+      "2³⁰",
+      "2³²",
+      "2¹²⁰",
+      "2¹⁸⁰"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: 2³⁰ + 2³⁰ + 2³⁰ + 2³⁰ = 2³⁰(1 + 1 + 1 + 1) = 4.2³⁰ = 2².2³⁰ = 2³² (Ans.)"
+  },
+  {
+    "id": 42,
+    "question": "যদি m ও n এর গড় ৫০ এবং p ও q এর গড় ৭০ হয়, তবে m, n, p, q এর গড় কত হবে? [CPGCBL-ET/MT-22]",
+    "options": [
+      "৫৫",
+      "৬০",
+      "৬৫",
+      "৭০"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: এখানে, m ও n এর গড় = 50 এবং p ও q এর গড় = 70\nবা, (m + n)/2 = 50 এবং (p + q)/2 = 70\nবা, m + n = 100\nবা, p + q = 140\nসুতরাং, m, n, p, q এর গড় = (100 + 140)/4 = 60"
+  },
+  {
+    "id": 43,
+    "question": "0.08 × 0.02 × 0.003 = In scientific Value is - [GTCL-ME-22]",
+    "options": [
+      "4.8 × 10⁻⁵",
+      "3.8 × 10⁻⁶",
+      "4.8 × 10⁻⁶",
+      "4.8 × 10⁻²"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: 0.08 × 0.02 × 0.003 = 8/100 × 2/100 × 3/1000 = 4.8 × 10⁻⁶ (Ans.)"
+  },
+  {
+    "id": 44,
+    "question": "If log of 144 is 4 then what will be the base. [BGDCL-EEE/ME/CE/CSE-21]",
+    "options": [
+      "2√3",
+      "2√2",
+      "4√2",
+      "3√2"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: আমরা জানি, Logₐx = n; ∴ Logₐ144 = 4\n⇒ 144 = a⁴\n⇒ a = ⁴√144 = 2√3 (Ans.)"
+  },
+  {
+    "id": 45,
+    "question": "When simplified (x⁻¹ + y⁻¹)⁻¹ is equal to [BGDCL-EEE/ME/CE/CSE-21]",
+    "options": [
+      "x + y",
+      "xy",
+      "1/xy",
+      "xy/(x + y)"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: দেওয়া আছে, (x⁻¹ + y⁻¹)⁻¹ = (1/x + 1/y)⁻¹ = ((y + x)/xy)⁻¹ = xy/(x + y) (Ans.)"
+  },
+  {
+    "id": 46,
+    "question": "If a^(x+2) = 1, where 'a' is a positive real number other then 1, then x is equal to: [BPDB-EEE/CE/CSE-21]",
+    "options": [
+      "0",
+      "-1",
+      "1",
+      "-2"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: a^(x+2) = 1; ⇒ a^(x+2) = a⁰; ⇒ x + 2 = 0; ⇒ x = -2 (Ans.)"
+  },
+  {
+    "id": 47,
+    "question": "The sum of the number 1 + 2 + 3 ......... + 49 is [BPDB-EEE/CE/CSE-21]",
+    "options": [
+      "125",
+      "225",
+      "1225",
+      "1250"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: দেওয়া আছে, 1 + 2 + 3 + ......... + 49\nএখানে, n = 49\n∴ সমষ্টি = (n(n+1))/2 = (49(49+1))/2 = 1225 (Ans.)"
+  },
+  {
+    "id": 48,
+    "question": "((389 + 99)² - (389 - 99)²)/(389 × 99) = ? [BPDB-EEE/CE/CSE-21]",
+    "options": [
+      "2",
+      "4",
+      "488",
+      "290"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: ((389+99)² - (389-99)²)/(389×99) = ((488)² - (290)²)/38511 = (238144 - 84100)/38511 = 4 (Ans.)"
+  },
+  {
+    "id": 49,
+    "question": "If n_th = 3n + 4, then summation of 12 terms is: [TGTDCL-ME-21]",
+    "options": [
+      "262",
+      "272",
+      "282",
+      "292"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: দেওয়া আছে, n_th = 3n + 4\nn₁ = 3 × 1 + 4 = 7\nn₂ = 3 × 2 + 4 = 10\nn₃ = 3 × 3 + 4 = 13\n...\nn₁₂ = 3 × 12 + 4 = 40\na = 7, d = 3, n = 12\n∴ n/2 {2a + (n - 1)d} = 12/2 {2.7 + (12 - 1)3} = 282 (Ans.)\nসরাসরি Calculator: ∑(x=1 to 12)(3x + 4) = 282 (Ans.)"
+  },
+  {
+    "id": 50,
+    "question": "1.14 is a ________ percent of 1.9 [TGTDCL-ME-21]",
+    "options": [
+      "50%",
+      "60%",
+      "30%",
+      "25%"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: 1.14 = ---% × 1.9\nধরি, x %\nSo, 1.14 = x% × 1.9\n⇒ 1.14/1.9 = x/100\n⇒ 0.6 = x/100 ⇒ x = 60% (Ans.)\nOr, Required Percentage = (1.14 × 100)/1.9 = 60% (Ans.)"
+  },
+  {
+    "id": 51,
+    "question": "০.২ × ০.০০২ × ০.২৫ = কত? [PGCB-CT-21]",
+    "options": [
+      "০.০০০৪",
+      "০.০০১",
+      "০.০১",
+      "০.০০০১"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: 0.2 × 0.002 × 0.25 = 2/10 × 2/1000 × 25/100 = 100/1000000 = 0.0001 (Ans.)"
+  },
+  {
+    "id": 52,
+    "question": "নিচের কোন ভগ্নাংশটি বৃহত্তম? [PGCB-CT-21]",
+    "options": [
+      "৫/৬",
+      "৯/১১",
+      "৭/৯",
+      "৮/১৩"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: 5/6 = 0.83; 9/11 = 0.818; 7/9 = 0.78; 8/13 = 0.615 । সুতরাং, 5/6 ভগ্নাংশটি বৃহত্তম। (Ans.)"
+  },
+  {
+    "id": 53,
+    "question": "How many numbers between 1 and 560, including both are divisible by 2 or 6? [APSCL-EEE-21]",
+    "options": [
+      "349",
+      "54",
+      "213",
+      "303"
+    ],
+    "answer": "*",
+    "explanation": "ব্যাখ্যা: Formula,\nTotal numbers divisible by 2 or 6 = [Total number divisible by 2] + [Total numbers divisible by 6] - [Total number divisible by 12]\nNow, set of number divisible by 2 = {2, 4, 6 --- 560}\n∴ Total numbers divisible by 2 = 560/2 = 280\nSet of numbers divisible by 6 = {6, 12, 18 - - - 558}\nTotal numbers divisible by 6 = 558/6 = 93\nSet of numbers divisible by 12 = {12, 24, 36 - - - 552}\nTotal numbers divisible by 12 = 552/12 = 46\nFinally, Total numbers divisible by 2 or 6 is = 280 + 93 - 46 = 327 (Ans.)\nNote: Above question does not contain the correct option. (Ans.)"
+  },
+  {
+    "id": 54,
+    "question": "Find the odd pair. [APSCL-EEE-21]",
+    "options": [
+      "56, 43",
+      "70, 57",
+      "49, 35",
+      "96, 83"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: (c) ব্যতীত সবগুলোতেই জোড়, বিজোড় সংখ্যা। শুধুমাত্র (c) তে বিজোড় সংখ্যা। (Ans.)"
+  },
+  {
+    "id": 55,
+    "question": "How many even 4 digit whole numbers are there? [APSCL-EEE-21]",
+    "options": [
+      "1358",
+      "7250",
+      "4500",
+      "3600"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: জোড় সংখ্যা হলো, যে সংখ্যাকে 2 দ্বারা ভাগ করা যায়।\n∴ Unit digit হলো 0, 2, 4, 6, 8\n4 অংকের ক্ষুদ্রতম সংখ্যা = 1000\n4 অংকের বৃহত্তম সংখ্যা = 9999\nসর্বশেষ 4 অংকের বৃহত্তম জোড় সংখ্যা = 9998\nসুতরাং, ধারাটি হবে 1000, 1002, 1004, ............ 9998\nএখানে, a = 1000; শেষতম পদ = 9998; d = 2; n = ?\nশর্তমতে, 9998 = 1000 + (n - 1) × 2  [n তম পদ = a + (n - 1)d]\n∴ n = 4500 (Ans.)"
+  },
+  {
+    "id": 56,
+    "question": "(n² - 1) is divisible by 8, if n is - ? [NESCO-CSE-21]",
+    "options": [
+      "an integer",
+      "a natural number",
+      "an odd integer",
+      "an even integer"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: The given number (n² - 1) is divisible by even integer\nIf the value of 'n' is odd, and the given number (n² - 1) is divisible by odd integer.\nIf the value of 'n' is even."
+  },
+  {
+    "id": 57,
+    "question": "একটি সংখ্যাকে তার অর্ধেকের বর্গ থেকে বিয়োগ করলে বিয়োগফল 48 হয়। সংখ্যাটির বর্গমূল কত? [PGCB-CT-21, BPDB-ET-21, PGCB-ET-21]",
+    "options": [
+      "5",
+      "4",
+      "8",
+      "6"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: ধরি, সংখ্যাটি = x\nপ্রশ্নমতে, (x/2)² - x = 48\n⇒ x²/4 - x = 48\n⇒ x² - 4x = 192\n⇒ x² - 16x + 12x - 192 = 0\n⇒ (x - 16)(x + 12) = 0\n∴ x = 16\n∴ সংখ্যাটির বর্গমূল √16 = 4 (Ans.)"
+  },
+  {
+    "id": 58,
+    "question": "5x + 18 < 2x - 5 হলে x এর মান কত? [PGCB-ET-21]",
+    "options": [
+      "x < 23/3",
+      "x > 23/3",
+      "x < -23/3",
+      "x > -23/3"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: 5x + 18 < 2x - 5\n⇒ 5x - 2x < -5 - 18; ⇒ 3x < -23; ⇒ x < -23/3 (Ans.)"
+  },
+  {
+    "id": 59,
+    "question": "কোনো সংখ্যাকে 10,000 দিয়ে ভাগ করলে যদি ভাগশেষ 57 হয়, তবে ঐ সংখ্যাটিকে 1000 দিয়ে ভাগ করলে কত ভাগশেষ থাকবে? [DESCO-ET, BADC-MT, BPDB-ET- 19, 21, 20]",
+    "options": [
+      "5",
+      "7",
+      "57",
+      "570"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: ভাগফল 1 হলে সংখ্যাটি হবে = 10000 × 1 + 57 = 10057\nতাহলে, 10057 ÷ 1000 = ভাগফল 10, ভাগশেষ 57\n∴ কোনো সংখ্যাকে 10,000 দিয়ে ভাগ করলে ভাগশেষ 57 হয়, তাই 1000 দিয়ে ভাগ করলেও ভাগশেষ 57 হবে।"
+  },
+  {
+    "id": 60,
+    "question": "একটি সংখ্যা ঐ সংখ্যার দুই-পঞ্চমাংশ অপেক্ষা ২৫ বেশি। সংখ্যাটি কত? [PGCB-CT-21]",
+    "options": [
+      "৬০",
+      "৮০",
+      "১২৫/৩",
+      "১২৫/৭"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: মনে করি, সংখ্যাটি = x\nপ্রশ্নমতে, x = 2x/5 + 25; ⇒ (5x - 2x)/5 = 25; ⇒ 3x = 125; ∴ x = 125/3 (Ans.)"
+  },
+  {
+    "id": 61,
+    "question": "দুটি সংখ্যার যোগফল 24। প্রথমটির 7 গুণের সাথে দ্বিতীয়টির 5 গুণ যোগ করলে যোগফল 146 হয়। প্রথম সংখ্যাটি কত? [JGTDSL-MT-21]",
+    "options": [
+      "12",
+      "9",
+      "13",
+      "17"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: ধরি, প্রথম সংখ্যাটি x; দ্বিতীয় সংখ্যাটি y\nপ্রশ্নমতে, x + y = 24 ......... (i) এবং 7x + 5y = 146 ......... (ii)\n(i) ও (ii) নং সমাধান করে পাই, x = 13, y = 11\n∴ প্রথম সংখ্যাটি x = 13। (Ans.)"
+  },
+  {
+    "id": 62,
+    "question": "দুই অংকবিশিষ্ট একটি সংখ্যার অংক দুইটি স্থান বিনিময় করলে যে সংখ্যা পাওয়া যায়, প্রদত্ত সংখ্যার সাথে তার পার্থক্য 54 হলে অংকদ্বয়ের পার্থক্য কত? [APSCL-ET-21]",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "9"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: (10x + y) - (10y + x) = 54\n⇒ 9(x - y) = 54\n⇒ (x - y) = 54/9 = 6 (Ans.)"
+  },
+  {
+    "id": 63,
+    "question": "ক্রিকেট খেলায় একজন ব্যাটসম্যান 21 টি বাউন্ডারি ও ওভার বাউন্ডারির মাধ্যমে মোট 96 রান করলে, বাউন্ডারির সংখ্যা কত? [APSCL-ET-21]",
+    "options": [
+      "6",
+      "15",
+      "16",
+      "18"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: অপশন টেস্ট করে করা যায়, (15 × 4) + (6 × 6) = 96 (Ans.)"
+  },
+  {
+    "id": 64,
+    "question": "যদি n একটি জোড় পূর্ণসংখ্যা হয়, তবে নিচের কোনটি বিজোড় পূর্ণসংখ্যা হবে? [DESCO-ET-19, PGCB-MT-20, BPDB-MT-21]",
+    "options": [
+      "n²",
+      "(n + 1)/2",
+      "2n² - 3",
+      "n² + 2"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: যেহেতু n জোড় সংখ্যা,\n[এ ধরনের অংক option ধরে করলে সহজ হয়]\nধরি, n = 2 ∴ 2n² - 3 = 2 × 2² - 3 = 5 ∴ 2n² - 3 একটি বিজোড় পূর্ণ সংখ্যা। (Ans.)"
+  },
+  {
+    "id": 65,
+    "question": "১ - ১০০ পর্যন্ত ৯ সংখ্যাটি কতবার আছে? [BR Power-PT-21]",
+    "options": [
+      "১৪",
+      "২২",
+      "২০",
+      "২৫"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: 9,19,29,39,49,59,69,79,89,90,91,92,93,94, 95, 96, 97,98,99 = 19 টি এবং ৯৯ এ দুটি ৯ আছে। সুতরাং মোট ২০ টি ৯ আছে। (Ans.)"
+  },
+  {
+    "id": 66,
+    "question": "১ থেকে ৫০ পর্যন্ত মৌলিক সংখ্যা কতটি? [BR Power-PT-21]",
+    "options": [],
+    "answer": "15 টি",
+    "explanation": "ব্যাখ্যা: আমরা জানি, 1 থেকে 100 পর্যন্ত মৌলিক সংখ্যার সংখ্যা = 4422322321 = 25 টি অর্থাৎ 1 থেকে 10 এর মধ্যে 4টি। 11 থেকে 20 এর মধ্যে 4টি এইভাবে। ∴ 1 থেকে 50 পর্যন্ত মৌলিক সংখ্যা = 4 + 4 + 2 + 2 + 3 = 15 (Ans.)"
+  },
+  {
+    "id": 67,
+    "question": "প্রথম ৫০টি প্রকৃত সংখ্যার গড় কত? [PGCB-CT-21]",
+    "options": [
+      "২৫.৫",
+      "২০.৭",
+      "৩০.১০",
+      "২৫.২"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: Let, 1 + 2 + 3.................. + 50\nএখানে, n = 50 ∴ সমষ্টি = (n(n+1))/2 = (50(50+1))/2 = 1275\nসুতরাং, গড় = 1275/50 = 25.5\n∴ 50 টি প্রকৃত সংখ্যার গড় = 25.5 (Ans.)"
+  },
+  {
+    "id": 68,
+    "question": "১১, ১৩, ১৭ এর সাথে নিচের কোনটি সম্পর্কিত? [PGCB-CT-21]",
+    "options": [
+      "৩৩",
+      "৩৭",
+      "৫৭",
+      "৬৩"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: এখানে, 11, 13, 17 তিনটিই মৌলিক সংখ্যা। আমরা জানি, যে সকল সংখ্যা 1 এবং ঐ সংখ্যা ছাড়া অন্য কোনো সংখ্যা দিয়ে ভাগ করলে পূর্ণ সংখ্যা পাওয়া যায়না তাকে মৌলিক সংখ্যা বলে। সুতরাং প্রদত্ত option গুলোর মধ্যে শুধুমাত্র ৩৭ সংখ্যাটি মৌলিক সংখ্যা।"
+  },
+  {
+    "id": 69,
+    "question": "নিচের কোন সংখ্যার সাথে ২৪০ যোগ করলে তা উক্ত সংখ্যাটির বর্গের সমান হবে? [PGCB-CT-21]",
+    "options": [
+      "১৪",
+      "১২",
+      "১৬",
+      "২০"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: Let, সংখ্যাটি, x\nশর্তমতে, x + 240 = x² ⇒ x² - x - 240 = 0\n⇒ x² - 16x + 15x - 240 = 0 ⇒ x(x - 16) + 15(x - 16) = 0\n⇒ (x - 16) = 0 ∴ x - 16 = 0 ⇒ x = 16\nঅথবা, অপশন গুলোকে ২৪০ এর সাথে যোগ করে উত্তরটি চিহ্নিত করা যায়, ২৪০ + ১৪ = ২৫৪\n২৪০ + ১২ = ২৫২\n২৪০ + ১৬ = ২৫৬\n২৪০ + ২০ = ২৬০\nউল্লেখিত যোগফলগুলো হতে শুধুমাত্র ২৫৬ এর বর্গমূল ১৬। (Ans.)"
+  },
+  {
+    "id": 70,
+    "question": "দুটি পূর্ণসংখ্যার গুণফল যদি ৩৬ হয়, তবে এদের সর্বনিম্ন যোগফল কত হবে? [DESCO-ET-19, BPDB-MT-21]",
+    "options": [
+      "১০",
+      "১২",
+      "১৩",
+      "২০"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: এখানে, যে সংখ্যাগুলোর বর্গমূল ও পূর্ণ সংখ্যা হয় এমন সংখ্যা হতে হবে।\n৩ × ১২ = ৩৬; ৩ + ১২ = ১৫;\n৬ × ৬ = ৩৬; ৬ + ৬ = ১২;\n৪ × ৯ = ৩৬; ৪ + ৯ = ১৩;\n২ × ১৮ = ৩৬; ২ + ১৮ = ২০;\nসর্বনিম্ন যোগফল = ১২ (Ans.)"
+  },
+  {
+    "id": 71,
+    "question": "নিচের কোনটি ০.৩১৩২৩৩ এর নিকটবর্তী? [DESCO-ET-19, BPDB-MT-21]",
+    "options": [
+      "৩/১০",
+      "৩১৩/১০০০",
+      "৩১৩২/১০০০০",
+      "৩১৩২৩/১০০০০"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: (ক) 3/10 = 0.3  (খ) 313/1000 = 0.313  (গ) 3132/10000 = 0.3132 (Ans.)  (ঘ) 31323/10000 = 3.1323"
+  },
+  {
+    "id": 72,
+    "question": "পাঁচটি ক্রমিক পূর্ণসংখ্যার যোগফল ৪০ হলে পাঁচটির মধ্যে সবচেয়ে ছোট সংখ্যাটি কত? [DPDC-ET-20]",
+    "options": [
+      "৪",
+      "৫",
+      "৬",
+      "৭"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: Let, পাঁচটি ক্রমিক পূর্ণ সংখ্যা = x, (x + 1), (x + 2), (x + 3), (x + 4)\nশর্তমতে, x + x + 1 + x + 2 + x + 3 + x + 4 = 40\n⇒ 5x = 40 - 10 ⇒ x = 30/5 = 6 (Ans.)"
+  },
+  {
+    "id": 73,
+    "question": "নিম্নলিখিত ভগ্নাংশগুলোর মধ্যে কোনটি ক্ষুদ্রতম? [DPDC-ET-20]",
+    "options": [
+      "৩/৪",
+      "৬/৫",
+      "৬/৭",
+      "২/৩"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: ভগ্নাংশের হরগুলোর ল.সা.গু = 4 × 5 × 7 × 3 = 420\n(ক) 3/4 × 420 = 315\n(খ) 6/5 × 420 = 504\n(গ) 6/7 × 420 = 360\n(ঘ) 2/3 × 420 = 280 (ক্ষুদ্রতম)"
+  },
+  {
+    "id": 74,
+    "question": "যদি ৪টি পূর্ণসংখ্যা w, x, y এবং z এর গুণফল ৭৭০ হয় এবং যদি 1 < w < x < y < z হয় তবে w + z এর মান কত? [DPDC-ET-20]",
+    "options": [
+      "১০",
+      "১৩",
+      "১৬",
+      "১৯"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: 770 এর গুননীয়ক = 2,5,7,11\n1 < w < x < y < z ∴ w = 2, x = 5, y = 7, z = 11; সুতরাং, w + z = 2 + 11 = 13"
+  },
+  {
+    "id": 75,
+    "question": "নিচের কোনটি ১/২ থেকে বড়? [PGCB-ET-19, BCMCL-MT-20]",
+    "options": [
+      "২/৫",
+      "৪/৯",
+      "৪/৭",
+      "৫/১১"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: (ক) 2/5 = 0.4  (খ) 4/9 = 0.444  (গ) 4/7 = 0.571  (ঘ) 5/11 = 0.4545\nঅথবা, প্রদত্ত অপশনগুলোর মধ্যে শুধুমাত্র 4/7 এর ক্ষেত্রে হর লবের দ্বিগুণের চেয়ে ছোট। এভাবে চিন্তা করলে সহজেই এমন প্রশ্নের উত্তর প্রদান করা সম্ভব। (Ans.)"
+  },
+  {
+    "id": 76,
+    "question": "∛√64 = ? [SGCL-MT-20]",
+    "options": [
+      "৮",
+      "১২",
+      "২",
+      "১৬"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: ∛√64 = ∛√(8)² = ∛8 = (2³)^(1/3) = 2 (Ans.)"
+  },
+  {
+    "id": 77,
+    "question": "What is the value of √(1 + √(1 + √64))? [PGCB-MT-20]",
+    "options": [
+      "65",
+      "3",
+      "6",
+      "2"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: দেওয়া আছে, √(1 + √(1 + √64)) = √(1 + √(1 + √8²)) = √(1 + √9) = √4 = 2 (Ans.)"
+  },
+  {
+    "id": 78,
+    "question": "What is the average of all prime numbers between 30 to 50 is: [APSCL-CE-20]",
+    "options": [
+      "37",
+      "37.8",
+      "39",
+      "39.8"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: আমরা জানি, ∴ 30 থেকে 50 এর মধ্যে মৌলিক সংখ্যা আছে পাঁচটি = 31,37,41,43,47\n∴ এদের গড় = (31+37+41+43+47)/5 = 39.8 (Ans.)"
+  },
+  {
+    "id": 79,
+    "question": "A number is divisible by 13 and remainder is 11, the same number is also divisible by 17 and remainder is 9. What is the number? [BADC, EGCB -ME-20]",
+    "options": [
+      "349",
+      "221",
+      "232",
+      "451"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: মনে করি, Number, N₁ = 13x + 11 and, N₂ = 17y + 9 [ভাজ্য = (ভাজক × ভাগফল)+ ভাগশেষ]\nশর্তমতে, 13x + 11 = 17y + 9 ⇒ y = (13x + 2)/17\nএখন x এর মান এমন নিতে হবে যাতে y এর মান পূর্ণ সংখ্যা আসে।\nLet, x = 26 ∴ y = (13×26 + 2)/17 = 20\n⇒ N = (13 × 26) + 11 = 349 (Ans.)"
+  },
+  {
+    "id": 80,
+    "question": "2³² + 1 is completely divisible by a whole number. Which of the following number completely dividable by this number? [PGCB-ME-19, EGCB-ME-20]",
+    "options": [
+      "2⁴⁰ + 1",
+      "2⁶⁰ + 1",
+      "2⁵⁰ + 1",
+      "2⁹⁶ + 1"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: মনে করি, 2³² + 1 কে m দ্বারা নিঃশেষে বিভাজ্য করা যায়।\n⇒ 2³² = -1 ⇒ (2³²)³ = (-1)³ ⇒ 2⁹⁶ = -1 ⇒ 2⁹⁶ + 1 = 0 (Ans.)"
+  },
+  {
+    "id": 81,
+    "question": "১২১, ১৫৪, ২৭৯, ৫৯৪ কোন সংখ্যাটি অন্যান্য সংখ্যাগুলো থেকে ভিন্ন? [PGCB-ET-19]",
+    "options": [
+      "১২১",
+      "১৫৪",
+      "২৭৯",
+      "৫৯৪"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: এখানে, 121 একটি পূর্ণবর্গ সংখ্যা = 11 × 11 = 121 = √121 = 11। বাকীগুলো পূর্ণবর্গ না।\n∴ সঠিক উত্তর ১২১।"
+  },
+  {
+    "id": 82,
+    "question": "কোনো সংখ্যার এক-পঞ্চমাংশের তিন-চতুর্থাংশের মান ৬০, সংখ্যাটি কত? [PGCB-ET-19]",
+    "options": [
+      "৩০০",
+      "৪০০",
+      "৪৫০",
+      "১২০০"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: Let, সংখ্যাটি = x; শর্তমতে, (x × 1/5) × 3/4 = 60 ⇒ 3x = 60 × 4 × 5 ∴ x = 400 (Ans.)"
+  },
+  {
+    "id": 83,
+    "question": "By what least number, 2450 should be multiplied, so that the resulting number is perfect square? [BWDB-19]",
+    "options": [
+      "8",
+      "10",
+      "5",
+      "2"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: 2450 = 2 × 5 × 5 × 7 × 7 এখানে দেখা যাচ্ছে, 2 অযুগ্ম সুতরাং 2450 সংখ্যাটিকে কমপক্ষে 2 দ্বারা গুন করলে এটি পূর্ণবর্গ হবে। সুতরাং উত্তর: 2\nঅথবা, যেহেতু least number বলেছে তাই option গুলোর মধ্যে থেকে সবচেয়ে ছোট, 2 দ্বারা গুণ করলে, 2450×2=4900 হয় যা একটি পূর্ণবর্গ সংখ্যা। উত্তর: 2"
+  },
+  {
+    "id": 84,
+    "question": "৯০ থেকে ১০০ এর মধ্যে কয়টি মৌলিক সংখ্যা আছে? [APSCL-ME-19]",
+    "options": [
+      "দুটি",
+      "একটি",
+      "তিনটি",
+      "একটিও নয়"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: আমরা জানি, ∴ 1 থেকে 100 পর্যন্ত মৌলিক সংখ্যার ক্রম = 4422322321\n∴ 90 থেকে 100 পর্যন্ত মৌলিক সংখ্যা = 1টি। সংখ্যাটি হল 97 (Ans.)"
+  },
+  {
+    "id": 85,
+    "question": "A number when divided by 6, remainder 3. If its square value is divided by 6, how much will be the remainder? [NWPGCL-ME-19]",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: মনে করি,\nসংখ্যাটি 9, 9 কে 6 দিয়ে ভাগ করলে remainder = 3\nএখন, 9² = 81, 81 কে 6 দিয়ে ভাগ করলে: 81 = 6 × 13 + 3 ∴ remainder = 3 (Ans.)"
+  },
+  {
+    "id": 86,
+    "question": "How many prime numbers are there from 1 to 20? [BIFPCL-ME-19]",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: আমরা জানি, 1 থেকে 100 এর মধ্যে মৌলিক সংখ্যার ক্রম = 4422322321\n∴ 1 থেকে 20 এর মধ্যে মৌলিক সংখ্যা = 4 + 4 = 8 টি। (Ans.)"
+  },
+  {
+    "id": 87,
+    "question": "If x and y are prime numbers, which of the following cannot be the sum of x and y? [B-R Power -ME-19]",
+    "options": [
+      "5",
+      "24",
+      "23",
+      "26"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: দুটি মৌলিক সংখ্যার যোগফল মৌলিক সংখ্যা হয় না। তবে, একমাত্র জোড় মৌলিক সংখ্যা 2 এক্ষেত্রে ব্যতিক্রম। যেমন: 2 + 3 = 5 (এখানে, 2, 3, 5 মৌলিক সংখ্যা।)\nঅপশনগুলোর মধ্যে দুটি সংখ্যা যোগ করে 23 পাওয়া যায় না। কারণ 23 একটি মৌলিক সংখ্যা।"
+  },
+  {
+    "id": 88,
+    "question": "The difference of the square of two consecutive odd numbers is 96. What is the sum of these two numbers? [NWPGCL-18, APSCL-ME-19]",
+    "options": [
+      "48",
+      "47",
+      "54",
+      "68"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: মনে করি, Consecutive Number দুটি x এবং x + 2\nশর্তমতে, (x + 2)² - x² = 96 ⇒ x² + 4x + 4 - x² = 96 ⇒ x = 23\n∴ একটি 23, অপরটি ⇒ 23 + 2 = 25 ∴ সংখ্যা দুটির যোগফল = 23 + 25 = 48 (Ans.)"
+  },
+  {
+    "id": 89,
+    "question": "If m and n are two digits of the number 8567mn such that this number is divisible by 80, then m + n = ? [APSCL-ME-19]",
+    "options": [
+      "2",
+      "4",
+      "4 or 8",
+      "None of these"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: Given, 8567mn/80 = 8567m0/80 = 8567m/8 = 85672/8 = 10709 যা পূর্ণ সংখ্যা [n = 0]\n[m এর মান option ধরে করতে হবে] ∴ m + n = 2 + 0 = 2 (Ans.)"
+  },
+  {
+    "id": 90,
+    "question": "The difference between a two-digit number and the number obtained by interchanging the positions of its digits is 36. What is the difference between the two digits of the number? [NWPGCL-ME-19]",
+    "options": [
+      "2",
+      "4",
+      "9",
+      "cannot be determined"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: মনে করি, দশক স্থানীয় অংক = x এবং একক স্থানীয় অংক = y, ∴ সংখ্যাটি = 10x + y\nশর্তমতে, (10x + y) - (10y + x) = 36 ⇒ ∴ x - y = 4 (Ans.)"
+  },
+  {
+    "id": 91,
+    "question": "What is the remainder when 4⁹⁶ is divided by 6? [DPDC-ME-19]",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: Let's compute the first few powers of 4 devided by 6:\n4¹ = 4; ⇒ 4 ÷ 6 = reminder: 4\n4³ = 64; ⇒ 64 ÷ 6 = reminder: 4\n4² = 16; ⇒ 16 ÷ 6 = reminder: 4\nObserving the pattern, We see: 4ⁿ ÷ 6 = reminder: 4 for all n ≥ 1"
+  },
+  {
+    "id": 92,
+    "question": "When you reverse the digits of the number 13, the number increase by 18. How many other two-digit numbers increase by 18 when their digits are reversed? [APSCL-16, NWPGCL-19]",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: মনে করি, দশক স্থানীয় অংক = x এবং একক স্থানীয় অংক = y ∴ সংখ্যাটি = 10x + y\nশর্তমতে, (10y + x) - (10x + y) = 18 ⇒ y - x = 2\n∴ সম্ভাব্য জোড়া হবে, (x, y) = {1,3}{2,4}{3,5}{4,6}{5,7}{6,8} এবং {7,9}\n13 ছাড়াও আরও 6টি সংখ্যা পাওয়া গেছে: 24, 35, 46, 57, 68, 79; এগুলো উল্টালে 18 বেশি হয়।"
+  },
+  {
+    "id": 93,
+    "question": "The sum of the squares of two consecutive positive odd numbers is 394. The sum of two numbers is. [NWPGCL-18]",
+    "options": [
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: Say the number is x.\nThen, x² + (x + 2)² = 394\n⇒ x² + x² + 4x + 4 = 394\n⇒ 2x² + 4x - 390 = 0\nBy solving, x = 13 or, x ≠ -15\nSo, the sum of the number is 13+15 =28 (option b is correct.)"
+  },
+  {
+    "id": 94,
+    "question": "৮, ৭, ০, ৩, ৬ অঙ্কগুলো দ্বারা গঠিত পাঁচ অঙ্কের ক্ষুদ্রতম সংখ্যাকে ২ দ্বারা ভাগ করলে ভাগফল কত হবে? [EGCB-ENT-18]",
+    "options": [
+      "১৫৬৬৭",
+      "১৬৫৮৭",
+      "১৪৫২৩",
+      "১৫৩৩৯"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: পাঁচ অঙ্কের ক্ষুদ্রতম সংখ্যা হবে ৩০৬৭৮ এবং ইহাকে ২ দ্বারা ভাগ করলে হবে = ৩০৬৭৮/২ = ১৫৩৩৯ (Ans.)\n[ক্ষুদ্রতম সংখ্যা গঠন কালে ০ থাকলে তা কখনো শুরুতে হয়না, একটি সংখ্যার পর নিতে হয়]"
+  },
+  {
+    "id": 95,
+    "question": "The product of two consecutive negative even integers is 24. What is the large number? [BADC-CE-18]",
+    "options": [
+      "- 4",
+      "- 6",
+      "4",
+      "6"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: অপশনে নেগেটিভ নাম্বার আছে, -4, -6 এই দুইটির মধ্যে বড় নাম্বার = -4 (Ans.)"
+  },
+  {
+    "id": 96,
+    "question": "In a division sum the remainder is zero. A student mistook the divisor by 12 instead of 21 and obtained 35 as quotient. What is the correct quotient? [KGDCL-EEE, ME-16, BADC-CE-18]",
+    "options": [
+      "0",
+      "12",
+      "13",
+      "20"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: যেহেতু ভাগফল পাওয়া যায় 35 সুতরাং সংখ্যাটি হবে 12 × 35 = 420\n∴ সঠিক ফলাফল = 420/21 = 20 (Ans.)"
+  },
+  {
+    "id": 97,
+    "question": "Which number is divisible by 4, 5, 6 and every time remainder is 3? [BCPCL-ME-18]",
+    "options": [
+      "38",
+      "57",
+      "63",
+      "48"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: 4, 5, 6 এর লসাগু = 60 ∴ নির্ণেয় সংখ্যাটি = 60 + 3 = 63 (Ans.)"
+  },
+  {
+    "id": 98,
+    "question": "If x, y are odd numbers then which one is even number? [BCPCL-ME-18]",
+    "options": [
+      "xy",
+      "x+y+1",
+      "xy - 2",
+      "x+y+2"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: আমরা জানি, 2 টি বিজোড় সংখ্যা যোগ করলে জোড় সংখ্যা পাওয়া যায়। তার সাথে আবার জোড় সংখ্যা যোগ করলে অবশ্যই জোড়ই পাওয়া যাবে। তাই প্রদত্ত অপশনগুলোর মধ্যে (d) x+y+2 সঠিক (Ans.)"
+  },
+  {
+    "id": 99,
+    "question": "What is the sum of square of 1 to 9? [BCPCL-ME-18]",
+    "options": [
+      "260",
+      "150",
+      "285",
+      "300"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: 1² + 2² + 3² + 4² + 5² + 6² + 7² + 8² + 9² = 285\nn তম পদের বর্গের সমষ্টি, S = 1/6 n(n + 1)(2n + 1) = 1/6 . 9(9 + 1)(2 × 9 + 1) = 285 (Ans.)\nসরাসরি Calculator: ∑(x=1 to 9)[x²] = 285"
+  },
+  {
+    "id": 100,
+    "question": "Eight number has average value of 14. If first six of that number has average 16. What is the average of remaining two numbers? [BCPCL-ME-18]",
+    "options": [
+      "8",
+      "2",
+      "5",
+      "6"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: আমরা জানি, Average = total sum / Total quantity ⇒ total sum = 14 × 8 = 112\nSum of First 6 Number = 6 × 16 = 96 ∴ Sum of last 2 Number = 112 - 96 = 16\n∴ Average of the last 2 number = 16/2 = 8 (Ans.)"
+  },
+  {
+    "id": 101,
+    "question": "The least number when divided by 5, 6, 7 and 8 leaves remainder 3 but when divided by 9 no remainder, is. [PGCB-ME-19, BCPCL-18]",
+    "options": [
+      "1677",
+      "1683",
+      "2523",
+      "3363"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: এখানে, যেহেতু 9 দ্বারা ভাগ করলে কোন ভাগশেষ থাকবেনা তাই option ধরে করলে সহজ হবে। এখানে সবগুলো option এর মধ্যে শুধু 1683 কে 9 দ্বারা ভাগ করলে কোনো ভাগশেষ থাকে না। সুতরাং সঠিক উত্তর: 1683।"
+  },
+  {
+    "id": 102,
+    "question": "If x and y are positive odd integers, then which of the following must also be an odd integer? [BCPCL-18]",
+    "options": [
+      "x^(y+1)",
+      "x(y + 1)",
+      "(y + 1)^(x-1) + 1",
+      "None of the above"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যা: মনে করি, x = 1, y = 3 [Positive odd integer]\nএখন option ধরে করলে x^(y+1) = 1^(3+1) = 1⁴ = 1 (odd), বাকী option গুলো Even হবে।\nসঠিক উত্তর: x^(y+1) (Ans.)"
+  },
+  {
+    "id": 103,
+    "question": "The difference of two numbers is 1365. On dividing the larger number by the smaller, we get 6 as quotient and the 15 as remainder. What is the smaller number? [TGTDCL-18]",
+    "options": [
+      "240",
+      "270",
+      "295",
+      "360"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: মনে করি, বড় সংখ্যাটি = x এবং ছোট সংখ্যাটি = y ∴ x - y = 1365 ............. (i)\nআমরা জানি, ভাজ্য = (ভাজক × ভাগফল) + ভাগশেষ\nশর্তমতে, x = (y × 6) + 15 ⇒ x = 6y + 15 .............(ii);\nSolve (i) & (ii) x = 1635, y = 270"
+  },
+  {
+    "id": 104,
+    "question": "If 'n' is natural number, then (6n² + 6n) is always divisible by-[BADC-CE-18]",
+    "options": [
+      "6 only",
+      "12 only",
+      "18 only",
+      "6 and 12 both"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যা: Given, 6n² + 6n = 6n(n + 1),\nif n = 1, then = 6.1(1 + 1) = 12 ∴ 6 এবং 12 দ্বারা বিভাজ্য।"
+  },
+  {
+    "id": 105,
+    "question": "If 0 < x < 1, which of the following lists the numbers in increasing order? [GTCL-18, PGCL-17, DPDC-16]",
+    "options": [
+      "√x, x, x²",
+      "x², √x, x",
+      "x², x, √x",
+      "√x, x², x"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যা: Condition: 0 < x < 1\nSay, x = 1/4; then, x² = 1/16 and, √x = 1/2\nHence the increasing order is; x² < x < √x, Option C is correct."
+  },
+  {
+    "id": 106,
+    "question": "For the final step in a calculation, Nishat accidentally divided the number by 1000 instead of multiplying it by 1000. What should he do to correct it? [PGCL-17]",
+    "options": [
+      "Multiple it by 1000",
+      "Multiple it by 1,000,000",
+      "Multiple it by 10,000",
+      "None"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যা: 1000 দ্বারা যেহেতু ভাগ করা হয়েছে, তাই আবার 1000 দ্বারা গুন করলে আগের ফলাফল আসবে। তারপর আবার 1000 গুন করবে।"
+  },
+  {
+    "id": 107,
+    "question": "দুই অঙ্কবিশিষ্ট একটি সংখ্যার একক এর অঙ্ক দশকের অঙ্ক অপেক্ষা ৩ বেশি। সংখ্যাটি তার অঙ্কদ্বয়ের সমষ্টির তিনগুণ অপেক্ষা ৪ বেশি। সংখ্যাটি কত? [BGFDC-CT-17]",
+    "options": [
+      "১৪",
+      "৩৬",
+      "৪৭",
+      "২৫"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ Let, একক স্থানীয় অংক = x এবং দশক স্থানীয় অংক = y\n∴ সংখ্যাটি = 10y + x\n১ম শর্তমতে, x - y = 3 ............. (i)\n২য় শর্তমতে, 10y + x = 3(x + y) + 4\n⇒ 3x + 3y - 10y - x = -4 ⇒ 2x - 7y = -4 ...... (ii)\nSolve (i) & (ii) ∴ x = 5 এবং y = 2; ∴ সংখ্যাটি = 10y + x = (10 × 2) + 5 = 25 (Ans.)"
+  },
+  {
+    "id": 108,
+    "question": "The product of two numbers is 120 and the sum of their squares is 289. The sum of the numbers is. [DWASA-17]",
+    "options": [
+      "20",
+      "23",
+      "169",
+      "None of these"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ xy = 120 and, x² + y² = 289 ⇒ (x + y)² - 2xy = 289\n⇒ (x + y)² = 289 + (2 × 120) ∴ x + y = √529 = 23 (Ans.)"
+  },
+  {
+    "id": 109,
+    "question": "If the sums of three consecutive integers is less than 75, what is the greatest possible value of the smallest one? [PGCB-16]",
+    "options": [
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যাঃ যদি যোগফল 75 হয়, তবে সংখ্যা তিনটি যথাক্রমে 24, 25, 26 ∴ পূর্ববর্তী সংখ্যা 23 ধরলে 23 + 24 + 25 = 72 যা শর্ত পূরণ করে। ∴ 23 (Ans.)"
+  },
+  {
+    "id": 110,
+    "question": "ধরা যাক, ক = ১৫ × ২৮ × ১৬ ; তবে নিচের কোনটি পূর্ণসংখ্যা নয়? [DPDC-ET-16]",
+    "options": [
+      "ক/১৫",
+      "ক/২১",
+      "ক/৩৫",
+      "কোনটিই নয়"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ ক = 15 × 28 × 16 = 6720 এখানে, option ধরে করলে সবগুলোই পূর্ণ সংখ্যা হয়। সুতরাং উত্তরটি সঠিক নয়।"
+  },
+  {
+    "id": 111,
+    "question": "১১৯ এর সাথে কোন ক্ষুদ্রতম সংখ্যা যোগ করলে তা পূর্ণ বর্গ হবে? [BADC-MT-16]",
+    "options": [
+      "৩",
+      "২",
+      "০",
+      "১"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ (ক) √119 + 3 = √122  (খ) √119 + 2 = 11 (Ans.) (ঘ) √119 + 1 = 2√30\n∴ দেখা যাচ্ছে যে 119 এর সাথে 2 যোগ করলে সংখ্যাটি পূর্ণ বর্গ হবে। ∴ সঠিক উত্তর = 2"
+  },
+  {
+    "id": 112,
+    "question": "দুইটি সংখ্যার যোগফল ১৭ এবং গুণফল ৭২ হলে সংখ্যা দুটি কত? [BADC-MT-16]",
+    "options": [
+      "(৭, ৮)",
+      "(১০, ১১)",
+      "(৯, ৮)",
+      "(৪, ৫)"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যাঃ Given, x + y = 17 ............ (i) xy = 72,\nWe know, (x - y)² = (x + y)² - 4xy = (17)² - 4 × 72 = 1 ∴ x - y = 1 ...... (ii)\nSolve equⁿ, (i) & (ii) ⇒ x = 9, y = 8"
+  },
+  {
+    "id": 113,
+    "question": "If one third of one fourth of a number is 15. Then three-tenth of that number is? [KGDCL-EEE- 16]",
+    "options": [
+      "60",
+      "48",
+      "56",
+      "54"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ Let, Number = x Conditionally, 1/3 × 1/4 × x = 15 ∴ x = 180\nAgain, Three tenth of that Number = x × 3/10 = 180 × 3/10 = 54 (Ans.)"
+  },
+  {
+    "id": 114,
+    "question": "If x > 31 and y < 59, x and y are prime number than x+y = ? [BPDB-ME-16]",
+    "options": [
+      "70",
+      "90",
+      "75",
+      "60"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ আমরা জানি, x > 31 এর মৌলিক সংখ্যা 37 এবং y < 59 এর মৌলিক সংখ্যা = 53\n∴ x + y = 37 + 53 = 90 (Ans.)"
+  },
+  {
+    "id": 115,
+    "question": "If x is the smallest prime number greater than 31 and y is the largest prime number less than 58, then x + y =? [BPDB-, GTCL-16]",
+    "options": [
+      "94",
+      "90",
+      "89",
+      "88"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ 31 এর চেয়ে বড় মৌলিক সংখ্যা x = 37\n58 এর চেয়ে ছোট মৌলিক সংখ্যা y = 53 ∴ দুটির যোগ ফল 53 + 37 = 90 (Ans.)"
+  },
+  {
+    "id": 116,
+    "question": "A number is 'terrific' if it is multiple of 2 or 3. How many terrific numbers are there between -11 and 11? [DPDC-ET-16]",
+    "options": [
+      "7",
+      "11",
+      "15",
+      "17"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যাঃ 2 এর গুনিতক = 2,4,6,8,10 অনুরুপভাবে ঋনাত্মক = -2,-4,-6,-8,-10\n∴ মোট সংখ্যা = 10 টি\n3 এর গুনিতক = -9,-6,-3,3,6,9 এখানে কমন (-6,6) এবং মাঝে একটি (0) শূন্য আছে।\n∴ মোট সংখ্যা = 5 টি; ∴ মোট number = 15 টি (Ans.)"
+  },
+  {
+    "id": 117,
+    "question": "The integers between 1 and 100, inclusive are put in list A if they are divisible by 2 and in list B if they are divisible by 3. How many integers in list A are not in list B? [GTCL-16]",
+    "options": [
+      "16",
+      "25",
+      "33",
+      "34"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ list A would have all the multiples of 2 ie, 2,3,4,5,6,8,10.........\nTo calculate multiples of a number within a range of numbers is (last multiple - first multiple)/number + 1\nHere, in case of numbers that are multiple of 2 can be found as = (100 - 2)/2 + 1 = 50\nFor list B, the numbers that are multiples of 3 can similarly calculated as = (99 - 3)/3 + 1 = 33\nNow, to find the numbers that are in list A but not in list B can be claculted by,\nAll numbers - common numbers = uncommon numbers\nHere, common numbers = LCM of 2 and 3 = 6\nNumbers multiple of 6 are = (96 - 6)/6 + 1 = 16\nFinally, 50 - 16 = 34, that are all uncommon numbers."
+  },
+  {
+    "id": 118,
+    "question": "If x, y and z are consecutive positive integers with x < y < z and x + y + z is an even number, then which of the following could be the value of z? [GTCL-16]",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "8"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যাঃ ১ম ক্ষেত্রে, x + y + z = odd + even + odd = even [acceptable]\n২য় ক্ষেত্রে, x + y + z = even + odd + even = odd\nHere, Z must be odd ∴ Z = 5 (Ans.)"
+  },
+  {
+    "id": 119,
+    "question": "If n = 15 × 28 × 26, which of the following is not an integer? [GTCL-16]",
+    "options": [
+      "n / 15",
+      "n / 21",
+      "n / 35",
+      "n / 32"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ n = 15 × 28 × 26 = 10920, এখানে, option ধরে করলে সহজ হবে।\n10920 / 32 = 341.25 যা পূর্ণ সংখ্যা নয়। বাকীগুলো পূর্ণসংখ্যা আছে। তাই সঠিক উত্তর (d) n / 32 (Ans.)"
+  },
+  {
+    "id": 120,
+    "question": "3x - y = 3, 5x + y = 21 হলে (x, y) এর মান- [46ᵗʰ BCS]",
+    "options": [
+      "(2, 5)",
+      "(2, 6)",
+      "(3, 5)",
+      "(3, 6)"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ 3x - y = 3\n5x + y = 21\n8x = 24 ∴ x = 3\nNow, 3x - y = 3 ⇒ 9 - y = 3 ∴ y = 6 ∴ (x, y) = (3, 6) (Ans.)"
+  },
+  {
+    "id": 121,
+    "question": "১ হতে ১০০০ এর মধ্যে কতগুলো সংখ্যা আছে যারা ১৬ দ্বারা বিভাজ্য নয় কিন্তু ৩০ দ্বারা বিভাজ্য?[46ᵗʰ BCS]",
+    "options": [
+      "৩৩",
+      "৩৫",
+      "৩৭",
+      "৪১"
+    ],
+    "answer": "*",
+    "explanation": "ব্যাখ্যাঃ ৩০ দ্বারা বিভাজ্য এবং ১৬ দ্বারা অবিভাজ্য সংখ্যাগুলো হলো: ৩০, ৬০, ৯০, ১২০, ১৫০, ১৮০, ২১০, ২৭০, ৩০০, ৩৩০, ৩৬০, ৩৯০, ৪২০, ৪৫০, ৫১০, ৫৪০, ৫৭০, ৬০০, ৬৩০, ৬৯০, ৭৫০, ৭৮০, ৮১০, ৮৪০, ৮৭০, ৯০০, ৯৩০, ৯৯০ = ২৯ টি।\nAlternative solution:\n৩০ দ্বারা বিভাজ্য সংখ্যা = ১০০০ / ৩০ = ৩৩.৩৩ ≈ ৩৩টি\n১৬ ও ৩০ এর ল. সা. গু = ২৪০\n১৬ ও ৩০ দ্বারা বিভাজ্য সংখ্যা = ১০০০ / ২৪০ = ৪.১৬ ≈ ৪টি\n∴ শুধুমাত্র ৩০ দ্বারা বিভাজ্য কিন্তু ১৬ দ্বারা বিভাজ্য নয় = ৩৩ - ৪ = ২৯ টি"
+  }
+]

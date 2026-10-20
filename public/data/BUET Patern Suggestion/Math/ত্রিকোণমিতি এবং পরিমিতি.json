@@ -1,0 +1,340 @@
+[
+  {
+    "id": 1,
+    "question": "যদি কোনো বর্গক্ষেত্রের প্রত্যেক বাহুর পরিমাণ 10% বৃদ্ধি করা হয়, তবে তার ক্ষেত্রফল শতকরা কত বৃদ্ধি পাবে? [47th BCS]",
+    "options": [
+      "20%",
+      "25%",
+      "21%",
+      "16%"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\nধরি, বর্গক্ষেত্রের বাহু = x\n∴ বর্গক্ষেত্রের ক্ষেত্রফল = x²\nদৈর্ঘ্য ১০% বৃদ্ধিতে, বাহু = x + x × 10/100 = 1.1x\n∴ নতুন ক্ষেত্রফল = (1.1x)² = 1.21 x²\n∴ ক্ষেত্রফল বৃদ্ধি = (1.21x² - x²)/x² × 100 = 0.21x²/x² × 100 = 21% (Ans.)\n[নোট: প্রশ্নপত্রে উত্তর (খ) মুদ্রিত রয়েছে, তবে সমাধান অনুযায়ী সঠিক উত্তর (গ) ২১%।]"
+  },
+  {
+    "id": 2,
+    "question": "একটি বৃত্তস্থ বর্গের প্রত্যেক বাহুর দৈর্ঘ্য 2 সে.মি. হলে, ঐ বৃত্তের ক্ষেত্রফল কত? [47th BCS]",
+    "options": [
+      "π",
+      "2π",
+      "√2π",
+      "2√2π"
+    ],
+    "answer": "খ",
+    "explanation": "সমাধানঃ\nবর্গের কর্ণ = √(2² + 2²) = √8 = 2√2\n∴ বৃত্তের ব্যাস = বর্গের কর্ণ = 2√2\nবৃত্তের ব্যাসার্ধ, r = 2√2/2 = √2\n∴ বৃত্তের ক্ষেত্রফল = πr² = π(√2)² = 2π"
+  },
+  {
+    "id": 3,
+    "question": "If the length of the hypotenuse of an isosceles right triangle is 12 cm. What is the area of the triangle in square cm? [BCRECL-CE,ME,EEE-25]",
+    "options": [
+      "40",
+      "36",
+      "72",
+      "60"
+    ],
+    "answer": "খ",
+    "explanation": "Using Pythagorean theorem-\na² + b² = c²\n⇒ a² + a² = 12² [For right triangle a=b]\n⇒ 2a² = 144\n⇒ a² = 72\n∴ a = 6√2 cm\nArea = 1/2 × Base × height\n= 1/2 × 6√2 × 6√2\n= 36 cm²"
+  },
+  {
+    "id": 4,
+    "question": "একটি ঘরের চারপাশে 0.5 মিটার চওড়া কার্পেট দিয়ে মোড়াতে কত টাকা লাগবে? [ঘরটি 1000 cm এবং 1500 cm। প্রতি বর্গমিটারে 17 টাকা খরচ হয়] [DESCO-CT, MT, ET-25]",
+    "options": [
+      "৪০৮",
+      "৫০০",
+      "৩০৪",
+      "১৫০"
+    ],
+    "answer": "ক",
+    "explanation": "দেওয়া আছে,\nকার্পেটসহ দৈর্ঘ্য = ১৫০০ সে.মি. = ১৫ মি.\nকার্পেটসহ প্রস্থ = ১০০০ সে.মি. = ১০ মি.\nকার্পেটসহ ক্ষেত্রফল = ১৫ × ১০ = ১৫০ বর্গ. মি.\nকার্পেট বাদে দৈর্ঘ্য = (১৫ - ০.৫ × ২) = ১৪ মি.\nকার্পেট বাদে প্রস্থ = (১০ - ০.৫ × ২) = ৯ মি.\n∴ ক্ষেত্রফল = ১৪ × ৯ = ১২৬ বর্গ মি.\n∴ শুধু কার্পেটের ক্ষেত্রফল = (১৫০ - ১২৬) = ২৪ বর্গ মি.\n∴ প্রতি বর্গ মিটারে খরচ হবে = ১৭ × ২৪ = ৪০৮ টাকা"
+  },
+  {
+    "id": 5,
+    "question": "A cube has a face diagonal of length 8√2 cm. Find the length of the space diagonal (the diagonal that passes through the center of the cube) [BIFPCL-ME, EEE-25]",
+    "options": [],
+    "answer": "8√3 cm",
+    "explanation": "Solⁿ:\nLet, Side length = a\nFrom triangle ABC,\nAC² + BC² = AB²\n⇒ a² + a² = (8√2)²\n⇒ 2a² = 64 × 2\n∴ a = 8 cm\nNow,\nEF² = OE² + OF²\nEF² = (8√2)² + 8²\n⇒ EF = 8√3\n∴ Center diagonal = 8√3 (Ans.)"
+  },
+  {
+    "id": 6,
+    "question": "The length of two parallel sides of a trapezium are 91 cm and 51 cm, and the length of the two other sides are 37 cm and 13 cm respectively. What is the area of the trapezium? [BIFPCL-ME, EEE-25]",
+    "options": [],
+    "answer": "852 cm²",
+    "explanation": "Solⁿ: From fig:\nCD = FE = 51 cm\nLet, AE = x এবং CF = DE = h\nBF = 40 - x\nΔADE, এর ক্ষেত্রে\nAE² + DE² = AD²\nx² + h² = 13²\nx² + h² = 169 - - - (i)\n\nAgain, ΔBCF, এর ক্ষেত্রে\nCF² + BF² = BC²\nh² + (40 - x)² = 37²\nh² + 1600 - 80x + x² = 1369\n⇒ h² + x² + 1600 - 80x = 1369\n⇒ 169 + 1600 - 1369 = 80x\nx = 5\nFrom equation (i)\n5² + h² = 169\nh = 12 cm\nThe area of trapezium = 1/2 (AB + CD).h = 1/2 (91 + 51) × 12 = 852 cm² (Ans.)"
+  },
+  {
+    "id": 7,
+    "question": "একটি লোহার পাইপের ভিতরের ও বাইরের ব্যাস যথাক্রমে ১২ সেমি এবং ১৪ সেমি। পাইপের উচ্চতা ৫ মিটার। ১ ঘন সেমি লোহার ওজন ৭.২ গ্রাম হলে, পাইপের লোহার ওজন নির্ণয় কর। [BCIC- CT, MT, ET, CST-25]",
+    "options": [
+      "147.02 kg",
+      "155 kg",
+      "100 kg",
+      "130 kg"
+    ],
+    "answer": "খ",
+    "explanation": "পাইপের ভিতরের ব্যাস = 12 সে.মি.\n∴ ব্যাসার্ধ (r₁) = 6 সে.মি.\nপাইপের বাইরের ব্যাস = 14 সে.মি.\n∴ ব্যাসার্ধ (r₂) = 7 সে.মি.\nপাইপের উচ্চতা (h) = 5 মিটার = 500 সেমি\nপাইপের লোহার আয়তন = (πr₂²h - πr₁²h) ঘন সে.মি.\n= πh(r₂² - r₁²) ঘন সে.মি.\n= 3.1416 × 500 × (7² - 6²)\n= 3.1416 × 500 × 13\n= 20420.4 ঘন সে.মি.\n১ ঘন সে.মি. লোহার ওজন = 7.2 gm\n∴ 20420.4 ঘন সে.মি. লোহার ওজন = (7.2 × 20420.4) = 147.02 kg\n[নোট: প্রশ্নপত্রে উত্তর (খ) মুদ্রিত রয়েছে, তবে গণনা অনুযায়ী সঠিক উত্তর (ক) 147.02 kg।]"
+  },
+  {
+    "id": 8,
+    "question": "একটি সামান্তরিকের দুটি সন্নিহিত বাহু ৫ ও ৭ একক হলে সামান্তরিকের অর্ধ পরিসীমা কত? [BCIC- CT, MT, ET, CST-25]",
+    "options": [
+      "12",
+      "20",
+      "10",
+      "28"
+    ],
+    "answer": "ক",
+    "explanation": "সামান্তরিকের পরিসীমা = 2 (দৈর্ঘ্য + প্রস্থ) একক\n= 2(5 + 7) = 24 একক\n∴ অর্ধ পরিসীমা = 24/2 একক\n= 12 একক (Ans.)"
+  },
+  {
+    "id": 9,
+    "question": "একটি বর্গাকার মাঠের বাইরে চারপাশে ৫ মিটারের একটি রাস্তা আছে। রাস্তার ক্ষেত্রফল ৫০০ বর্গমিটার হলে মাঠের ক্ষেত্রফল কত? [BCIC- CT, MT, ET, CST-25]",
+    "options": [
+      "40",
+      "400",
+      "20",
+      "600"
+    ],
+    "answer": "খ",
+    "explanation": "ধরি, মাঠের দৈর্ঘ্য = x মিটার\n∴ মাঠের ক্ষেত্রফল = x² বর্গ মিটার\nরাস্তার ক্ষেত্রফল = 500 বর্গ মিটার\nরাস্তাসহ মাঠের ক্ষেত্রফল = (x² + 500) বর্গ মিটার -------- (i)\nরাস্তাসহ মাঠের এক পাড়ের দৈর্ঘ্য = (x + 10) মিটার\nরাস্তাসহ মাঠের মোট ক্ষেত্রফল = (x + 10)² বর্গ একক।\n= x² + 20x + 100 ------- (ii)\n(i) ও (ii) থেকে পাই,\nx² + 20x + 100 = x² + 500\n⇒ 20x = 400\n∴ x = 20\n∴ মাঠের ক্ষেত্রফল = x² = (20)² = 400 বর্গ মিটার (Ans.)"
+  },
+  {
+    "id": 10,
+    "question": "৪০ লক্ষ জনসংখ্যার একটি দেশে প্রতি হাজারে ৩০ জন মানুষ জন্মগ্রহণ করে। ৩ বছর পরে মোট জনসংখ্যা কত হবে? [DPDC-CSE-25]",
+    "options": [
+      "4360000",
+      "4060000",
+      "120000",
+      "360000"
+    ],
+    "answer": "ক",
+    "explanation": "১০০০ এ জন্মগ্রহণ করে ৩০ জন\n∴ ৪০,০০০০০-এ জন্মগ্রহণ করে = (৩০ × ৪০,০০০০০)/১০০০ = 120,000 জন\n∴ ৩ বছরে জন্মগ্রহণ করে = (120,000 × 3) = 3,60,000 জন\n∴ মোট জনসংখ্যা = (3,60,000 + 4000000) = 4360000 জন।"
+  },
+  {
+    "id": 11,
+    "question": "২০ মিটার দৈর্ঘ্যের একটি মেঝেতে কার্পেট বিছাতে 7500 টাকা খরচ হয়। যদি প্রস্থ 4 মিটার কম হতো তাহলে ৬০০০ টাকা খরচ হতো। মেঝেটির প্রস্থ কত? [DPDC-CSE-25]",
+    "options": [
+      "30",
+      "20",
+      "25",
+      "30"
+    ],
+    "answer": "খ",
+    "explanation": "ধরি, প্রস্থ x মিটার\nপ্রশ্নমতে, 7500 / 20x = 6000 / (20(x - 4))\n⇒ 75 / x = 60 / (x - 4)\n⇒ 75x - 300 = 60 x\n⇒ 15x = 300\n∴ x = 20 (Ans.)"
+  },
+  {
+    "id": 12,
+    "question": "একটি ঘনকের সম্পূর্ণ পৃষ্ঠের ক্ষেত্রফল ১৫০ বর্গ সে.মি হলে এর কর্ণের দৈর্ঘ্য কত? [DPDC-CST-25]",
+    "options": [
+      "৫",
+      "৫√৩",
+      "√৫",
+      "৩√৫"
+    ],
+    "answer": "খ",
+    "explanation": "ঘনকের সম্পূর্ণ পৃষ্ঠের ক্ষেত্রফল = 6a²\n∴ 6a² = 150\n⇒ a² = 25\n∴ a = 5\n∴ কর্ণের দৈর্ঘ্য = a√3 = 5√3"
+  },
+  {
+    "id": 13,
+    "question": "cosecθ + cotθ = 3/2 হলে cotθ - cosecθ = ? [DPDC-CST-25]",
+    "options": [
+      "-3/2",
+      "-2/3",
+      "2/3",
+      "3/2"
+    ],
+    "answer": "খ",
+    "explanation": "দেওয়া আছে, cosecθ + cotθ = 3/2\nআমরা জানি, cosec²θ - cot²θ = 1\n⇒ (cosecθ + cotθ)(cosecθ - cotθ) = 1\n⇒ 3/2 (cosecθ - cotθ) = 1\n⇒ cosecθ - cotθ = 2/3\n⇒ cotθ - cosecθ = -2/3"
+  },
+  {
+    "id": 14,
+    "question": "একটি লোহার পাইপের ভিতরের ও বাইরের ব্যাস যথাক্রমে ১২ সেমি এবং ১৪ সেমি। পাইপের উচ্চতা ৫ মিটার। ১ ঘন সেমি লোহার ওজন ৭.২ গ্রাম হলে, পাইপের লোহার ওজন নির্ণয় কর। [BCIC-SAE-24]",
+    "options": [
+      "147.02 kg",
+      "155 kg",
+      "100 kg",
+      "130 kg"
+    ],
+    "answer": "খ",
+    "explanation": "পাইপের ভিতরের ব্যাস = 12 সে.মি.\n∴ ব্যাসার্ধ (r₁) = 6 সে.মি.\nপাইপের বাইরের ব্যাস = 14 সে.মি.\n∴ ব্যাসার্ধ (r₂) = 7 সে.মি.\nপাইপের উচ্চতা (h) = 5 মিটার = 500 সেমি\nপাইপের লোহার আয়তন = (πr₂²h - πr₁²h) ঘন সে.মি.\n= πh(r₂² - r₁²) ঘন সে.মি.\n= 3.1416 × 500 × (7² - 6²) = 3.1416 × 500 × 13 = 20420.4 ঘন সে.মি.\n১ ঘন সে.মি. লোহার ওজন = 7.2 gm\n∴ 20420.4 ঘন সে.মি. লোহার ওজন = (7.2 × 20420.4) = 147.02 kg\n[নোট: মূল বইয়ে উত্তর (খ) মুদ্রিত রয়েছে, তবে হিসাব অনুযায়ী সঠিক মান 147.02 kg বা অপশন (ক)।]"
+  },
+  {
+    "id": 15,
+    "question": "SecA + tanA = 5/2 হলে secA - tanA = ? [BRPL-CSE/ME/EEE-24, PGCB-CE/EEE/ME/CSE-24]",
+    "options": [
+      "1/2",
+      "1/5",
+      "2/5",
+      "5/2"
+    ],
+    "answer": "গ",
+    "explanation": "আমরা জানি, sec²A - tan²A = 1\nবা, (secA + tanA)(secA - tanA) = 1\nবা, 5/2 (secA - tanA) = 1\n∴ secA - tanA = 2/5"
+  },
+  {
+    "id": 16,
+    "question": "Cosθ = 2/3 হলে tanθ এর মান কত? [DPDC-ET-24]",
+    "options": [
+      "3/2",
+      "√3/2",
+      "√5/√2",
+      "√5/2"
+    ],
+    "answer": "ঘ",
+    "explanation": "Cosθ = 2/3\nলম্ব = √(3² - 2²) = √5\n∴ tanθ = √5/2 (Ans.)"
+  },
+  {
+    "id": 17,
+    "question": "একটি 48 মিটার লম্বা খুঁটি ভেঙ্গে গিয়ে সম্পূর্ণভাবে বিচ্ছিন্ন না হয়ে ভূমির সাথে 30° কোণ উৎপন্ন করে। খুঁটিটি কত উঁচুতে ভেঙ্গে ছিল? [BCPCL-ET-23; NESCO-CE-18]",
+    "options": [
+      "14 মিটার",
+      "16 মিটার",
+      "18 মিটার",
+      "20 মিটার"
+    ],
+    "answer": "খ",
+    "explanation": "Let, ভূমি থেকে x মিটার উপরে ভেঙ্গেছে।\n∴ sinθ = লম্ব / অতিভুজ ⇒ sin30° = x / (48 - x) ⇒ x = 16 মিটার (Ans.)"
+  },
+  {
+    "id": 18,
+    "question": "১৮ ফুট উঁচু একটি খুঁটি এমনভাবে ভেঙে গেল যে, ভাঙা অংশটি বিচ্ছিন্ন না হয়ে ভূমির সঙ্গে 30° কোণ করে স্পর্শ করলো। খুঁটিটি মাটি থেকে কত ফুট উঁচুতে ভেঙে গিয়েছিল? [DESCO-EEE/CSE/CE/ME-23]",
+    "options": [
+      "১২ ফুট",
+      "৯ ফুট",
+      "৬ ফুট",
+      "৩ ফুট"
+    ],
+    "answer": "গ",
+    "explanation": "Let, মাটি থেকে (18 - x) মিটার ভেঙ্গে গিয়েছিল।\nsin30° = (18 - x) / x\n⇒ 1/2 = (18 - x) / x\n⇒ x = 36 - 2x\n⇒ 3x = 36\n⇒ x = 12\n∴ 18 - x = 18 - 12 = 6 feet উচ্চতায় ভেঙ্গেছে।"
+  },
+  {
+    "id": 19,
+    "question": "If tanθ = x, then sin θ =? [BIWTA-EEE/CSE-23]",
+    "options": [
+      "√(1 - x²)",
+      "√(x - 1)",
+      "x/√(x² + 1)",
+      "√(x² - 1)/x"
+    ],
+    "answer": "গ",
+    "explanation": "tanθ = x\n∴ sinθ = x/√(x² + 1) (Ans.)"
+  },
+  {
+    "id": 20,
+    "question": "যদি tan(2θ) tan(θ) = 1 হয়, তাহলে θ এর মান কত? [EGCB-ET/MT/CT-23]",
+    "options": [
+      "(4n ± 1) π/6",
+      "(2n ± 1/2) π/3",
+      "(n + 1/2) π",
+      "(6n ± 1) π/6"
+    ],
+    "answer": "ঘ",
+    "explanation": "tan2θ . tanθ = 1\n(2tanθ / (1 - tan²θ)) . tanθ = 1\n⇒ 2tan²θ = 1 - tan²θ\n⇒ 3tan²θ = 1\n⇒ tanθ = ± 1/√3\n∴ θ = nπ + π/6 or θ = nπ + 5π/6\nGenerally, θ = nπ ± π/6 = (6n ± 1)π/6; n ∈ Z\n[নোট: মূল বইয়ে উত্তর হিসেবে '*' মুদ্রিত হলেও সমাধান অনুযায়ী সঠিক মান (ঘ) (6n ± 1) π/6।]"
+  },
+  {
+    "id": 21,
+    "question": "tan(3A) = √3 হলে, A এর মান কত ডিগ্রি? [RNPL-MT/ET-22]",
+    "options": [
+      "45",
+      "30",
+      "20",
+      "15"
+    ],
+    "answer": "গ",
+    "explanation": "দেওয়া আছে,\ntan(3A) = √3 ⇒ 3A = tan⁻¹ √3 ⇒ 3A = tan⁻¹(tan60°) ⇒ A = 60°/3 = 20 (Ans.)"
+  },
+  {
+    "id": 22,
+    "question": "অবনতি কোণের মান কত ডিগ্রি হলে একটি খুঁটির দৈর্ঘ্য ও ছায়ার দৈর্ঘ্য সমান হবে? [RNPL-MT/ET-22]",
+    "options": [
+      "৩০",
+      "৬০",
+      "৪৫",
+      "৯০"
+    ],
+    "answer": "গ",
+    "explanation": "Here, একটি সমকোণী ত্রিভুজের খুঁটির দৈর্ঘ্য ও ছায়ার দৈর্ঘ্য সমান হলে (লম্ব = ভূমি),\ntanθ = লম্ব / ভূমি = 1 ⇒ tanθ = tan45° ⇒ θ = 45°।\nসুতরাং কোণের মান ৪৫° হবে।"
+  },
+  {
+    "id": 23,
+    "question": "A pole 6m high casts a shadow 2√3 m long on the ground, then find the angle of elevation of sun. [BCIC-EEE/ME-22]",
+    "options": [
+      "30°",
+      "60°",
+      "45°",
+      "90°"
+    ],
+    "answer": "খ",
+    "explanation": "Let, BC = 6m, the height of the pole\nAB = 2√3, The length of the shadow on the ground.\nNow, ΔBAC-এ tanθ = BC/AB = 6/(2√3) = 3/√3\n∴ tanθ = √3\nθ = tan⁻¹(√3) ⇒ θ = tan⁻¹(tan π/3)\n∴ θ = π/3 = 180°/3 = 60°\nAngle of Elevation of sun 60° (Ans.)"
+  },
+  {
+    "id": 24,
+    "question": "If tanθ = 1/√3 then, sinθ = ? [BGDCL-EEE/ME/CE/CSE-21]",
+    "options": [
+      "2/√3",
+      "1/2",
+      "1/√3",
+      "none of these"
+    ],
+    "answer": "খ",
+    "explanation": "পীথাগোরাসের উপপাদ্য অনুসারে, AC² = AB² + BC² = 1² + (√3)² = 4\n∴ AC = 2\n∴ sinθ = AB/AC = 1/2 (Ans.)"
+  },
+  {
+    "id": 25,
+    "question": "If 6sin⁻¹(x² - 6x + 8.5) = π, then the value of x is- [BCIC-EEE/ME-22]",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "answer": "খ",
+    "explanation": "6 sin⁻¹(x² - 6x + 8.5) = π\n⇒ sin⁻¹(x² - 6x + 8.5) = π/6\n⇒ sin⁻¹(x² - 6x + 8.5) = 180°/6\n⇒ x² - 6x + 8.5 = sin30°\n⇒ x² - 6x + 8.5 = 1/2\n⇒ 2x² - 12x + 17 = 1\n⇒ 2x² - 12x + 16 = 0\n⇒ 2(x² - 6x + 8) = 0\n⇒ x² - 4x - 2x + 8 = 0\n⇒ x(x - 4) - 2(x - 4) = 0\n⇒ (x - 4)(x - 2) = 0\n∴ x = 4  Or, x = 2\n∴ Value of x = 2 (Ans.)"
+  },
+  {
+    "id": 26,
+    "question": "tan x = cot x হলে, x এর মান কত? [APSCL-ET-21]",
+    "options": [
+      "(2x + 1)π",
+      "(2x + 1) π/2",
+      "(2x + 1) π/4",
+      "(2x + 1) π/6"
+    ],
+    "answer": "গ",
+    "explanation": "অপশন টেস্ট করে সহজে করা যায়। x = 0 বসালে চারটা অপশনে যথাক্রমে 180, 90, 45 ও 30 ডিগ্রী আসে। এগুলো প্রশ্নে বসিয়ে দেখলে দেখা যায় যে, tan 45° = cot 45° = 1, অর্থাৎ অপশন (গ) বসালে দুই পক্ষ সমান হচ্ছে। তাই এটিই সঠিক উত্তর।"
+  },
+  {
+    "id": 27,
+    "question": "The angle of elevation of ladder leaning against a wall is 60° and the foot of the ladder is 4.6 m away from the wall. The length of the ladder is – [EGCB-ME-20, NWPGCL-ME-19]",
+    "options": [
+      "7.97m",
+      "9.2m",
+      "4.6m",
+      "9m"
+    ],
+    "answer": "খ",
+    "explanation": "Let, AB is the wall and AC is the ladder\nCosθ = BC/AC ⇒ AC = BC/Cosθ = 4.6/Cos60° = 9.2m (Ans.)"
+  },
+  {
+    "id": 28,
+    "question": "A 10m long ladder makes an angle 60° with the horizontal ground. What is the length from top of the ladder to the bottom of the wall along the wall? [NWPGCL-ME-19]",
+    "options": [
+      "2√3",
+      "5√2",
+      "3√3",
+      "5√3"
+    ],
+    "answer": "ঘ",
+    "explanation": "sinθ = AB/AC ⇒ sin60 = AB/10 ∴ AB = 5√3 (Ans.)"
+  },
+  {
+    "id": 29,
+    "question": "From a point A on a level ground, the angle of elevation of the top tower is 30°. If the tower is 100 m high, the distance of point A from the foot of the tower is: [B-R Power-ME-19]",
+    "options": [
+      "149 m",
+      "156 m",
+      "173.2 m",
+      "200 m"
+    ],
+    "answer": "গ",
+    "explanation": "tanθ = BC/AB ⇒ AB = 100/tan30° = 173.2m (Ans.)"
+  }
+]

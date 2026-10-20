@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "question": "f(x) = x(2a + x) এর সর্বোচ্চ মান? [BSCPLC-CSE/EEE-24]",
+    "options": [
+      "a²",
+      "-a²",
+      "-2a",
+      "-a"
+    ],
+    "answer": "খ",
+    "explanation": "Given, f(x) = x(2a + x) = 2ax + x² ... (i)\nDifferentiating, f'(x) = 2a + 2x ... (ii)\nFor maxima, f'(x) = 0\nFrom (ii), 2a + 2x = 0\n⇒ x = -a\nPutting x = -a in (i),\nf(-a) = -2a² + a² = -a²\n∴ f(x) = -a² (Ans.)"
+  },
+  {
+    "id": 2,
+    "question": "What is the area under the curve y = x² from x = 0 to x = 1? [BOGMC-EEE/IPE-24]",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "2/3"
+    ],
+    "answer": "খ",
+    "explanation": "Area = ∫₀¹ y dx = ∫₀¹ x² dx = [x³/3]₀¹ = 1/3(1³ - 0³) = 1/3 (Ans.)"
+  },
+  {
+    "id": 3,
+    "question": "If, f(x) = √(4 - x²) then what will be the value of x? [BSTI-CE/Physics/EEE-24]",
+    "options": [
+      "[0, 4]",
+      "[0, 2]",
+      "[-4, 0]",
+      "[-2, 0]"
+    ],
+    "answer": "খ",
+    "explanation": "f(x) = √(4 - x²) এর\nFor Domain, 4 - x² ≥ 0\n⇒ (2 + x)(2 - x) ≥ 0\n⇒ -2 ≤ x ≤ 2\n∴ Domain [-2, 2]\n∴ Range (only positive interval) = [0, 2] (Ans.)"
+  },
+  {
+    "id": 4,
+    "question": "f(x) = x² + 1/(x - 1) - 1, হলে f(1) এর মান কত হবে? [BCPCL-ET-23]",
+    "options": [],
+    "answer": "∞",
+    "explanation": "f(x) = x² + 1/(x - 1) - 1\n∴ f(1) = 1² + 1/(1 - 1) - 1 = 1 + 1/0 - 1 = ∞ (Ans.)"
+  },
+  {
+    "id": 5,
+    "question": "If f(x) = (2x + 3), then f⁻¹(x) = ? [BIWTA-EEE/CSE-23]",
+    "options": [
+      "x + 3",
+      "1/2(x - 3)",
+      "3/2(x + 3)",
+      "2/3(x - 3)"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ\nf(x) = 2x + 3\n⇒ y = 2x + 3\n⇒ y - 3 = 2x\n⇒ x = (y - 3)/2\n⇒ g(y) = f⁻¹(x) = (y - 3)/2 ; ⇒ g(x) = (x - 3)/2 ⇒ f⁻¹(x) = 1/2(x - 3) (Ans.)"
+  },
+  {
+    "id": 6,
+    "question": "Minimum value of f(x) = x² - 4x + 5 is- [RPGCL: EEE/ME-22]",
+    "options": [
+      "-1",
+      "1",
+      "3",
+      "11"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ The maximum or minimum value of a quadratic function f(x) = ax² + bx + c occurs at x = -b/(2a).\nIf a > 0, then the minimum value is f(-b/(2a))\nIf a < 0, then the maximum value is f(-b/(2a))\nFor f(x) = x² - 4x + 5, a = 1 and b = -4.\n∴ Minimum value of f(x) = f(-b/(2a)) = f(-(-4)/(2×1)) = f(2) = 2² - 4 × 2 + 5 = 1"
+  },
+  {
+    "id": 7,
+    "question": "Minimum value of f(x) = x² - 3x + 5 is- [MGMCL: EEE/ME-22]",
+    "options": [
+      "-1",
+      "11/4",
+      "17/4",
+      "11"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ The maximum or minimum value of a quadratic function f(x) = ax² + bx + c occurs at x = -b/(2a).\nIf a > 0, then the minimum value is f(-b/(2a)).\nIf a < 0, then the maximum value is f(-b/(2a)).\nFor f(x) = x² - 3x + 5, a = 1 and b = -3.\n∴ Minimum value of f(x) = f(-b/(2a)) = f(-(-3)/(2×1)) = f(3/2) = (3/2)² - 3 × (3/2) + 5 = 9/4 - 9/2 + 5 = (9 - 18 + 20)/4 = 11/4 (Ans.)"
+  },
+  {
+    "id": 8,
+    "question": "The function f(x) = x + cos x is [BCIC-EEE/ME-22]",
+    "options": [
+      "always increasing",
+      "always decreasing",
+      "increasing for a certain range of x",
+      "none of these"
+    ],
+    "answer": "ক",
+    "explanation": "ব্যাখ্যাঃ f(x) = x + cos x\nf'(x) = 1 - sin x\nNow, sin x ≤ 1\n∴ 1 - sin x ≥ 0   [f'(x) > 0 is a condition of increasing function]"
+  },
+  {
+    "id": 9,
+    "question": "If f(x) = (x + 2)/(x - 2) and x ≠ 2 then the highest value of f(x) is — [BIWTA-EEE/ME/CE-22]",
+    "options": [
+      "f(1)",
+      "f(-1)",
+      "f(3)",
+      "f(-3)"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যাঃ f(x) = (x + 2)/(x - 2)\n⇒ f(3) = (3 + 2)/(3 - 2) = 5 (বড়)\nf(1) = (1 + 2)/(1 - 2) = -3\nf(-1) = (-1 + 2)/(-1 - 2) = -1/3\n⇒ f(-3) = (-3 + 2)/(-3 - 2) = 1/5\n∴ সর্বোচ্চ মান f(3)"
+  },
+  {
+    "id": 10,
+    "question": "If f(x) = 2g(x) and g(x) = x³ then f(g(x)) = ? [PGCB-CE/ME/CSE-21]",
+    "options": [
+      "2x³",
+      "2x⁹",
+      "21x³",
+      "6x²"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ দেওয়া আছে, f(x) = 2g(x) এবং g(x) = x³\n⇒ 2g(x) = 2x³\n⇒ f(x) = 2x³\nএখন, f(g(x)) = 2(x³)³ ⇒ f(g(x)) = 2x⁹ (Ans.)"
+  },
+  {
+    "id": 11,
+    "question": "If f(2a) = 2f(a) and f(6) = 11 what is the value of f(24) [BGDCL-EEE/ME/CE/CSE-21]",
+    "options": [
+      "22",
+      "24",
+      "44",
+      "66"
+    ],
+    "answer": "গ",
+    "explanation": "ব্যাখ্যাঃ Here you need to note the given formula and try to use them.\n24 = 2 × 2 × 6\n∴ f(24) = f(2(2 × 6)) = 2f(2 × 6) = 2 × 2f(6) = 4 × f(6) = 4 × 11 = 44\nOr, Given, f(2a) = 2f(a)\nAnd, f(6) = 11; ⇒ 2f(3) = 11\n⇒ 2f = 11/3\nSo, f(24) = 2f(12) = 11/3 × 12 = 44 (Ans.)"
+  },
+  {
+    "id": 12,
+    "question": "If f(x) = (3x + 1)/(3x - 1) then (f(x) + 1)/(f(x) - 1) = ? [APSCL-CE-20]",
+    "options": [
+      "4x",
+      "3x",
+      "2x",
+      "5x"
+    ],
+    "answer": "খ",
+    "explanation": "ব্যাখ্যাঃ According to Given data,\n(f(x) + 1)/(f(x) - 1) = ((3x + 1)/(3x - 1) + 1) / ((3x + 1)/(3x - 1) - 1) = (3x + 1 + 3x - 1)/(3x + 1 - 3x + 1) = 6x/2 = 3x (Ans.)"
+  },
+  {
+    "id": 13,
+    "question": "যদি f(x) = (x + 2)/(x - 2) হয়, যেখানে x ≠ 2, তবে নিচের কোন ফাংশনের মান সর্বোচ্চ হবে? [PGCB-ET-19, BCIC-ME-19, BCMCL-MT-19, APSCL-CE-20]",
+    "options": [
+      "f(-1)",
+      "f(0)",
+      "f(1)",
+      "f(3)"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ Let, x = 3, f(x) = (x + 2)/(x - 2) = (3 + 2)/(3 - 2) = 5, ∴ সঠিক উত্তর f(3)"
+  },
+  {
+    "id": 14,
+    "question": "যদি f(x) = 2x/(1 + x²) হয়, তবে দেখাও যে, f(tan θ) = sin 2θ [BPDB-ENT-18]",
+    "options": [],
+    "answer": "sin 2θ",
+    "explanation": "ব্যাখ্যাঃ Given data অনুসারে, f(tan θ) = (2 tan θ)/(1 + tan² θ) = (2 tan θ)/(sec² θ) = (2 sin θ / cos θ) / (1 / cos² θ) = 2 sin θ cos θ = sin 2θ"
+  },
+  {
+    "id": 15,
+    "question": "Find the volume of the solid R, generated by revolving the region bounded by y = 3x, x = 0 and x = 2 about the x-axis. [RPGCL: EEE/ME-22]",
+    "options": [
+      "1.2π",
+      "2.4π",
+      "12π",
+      "24π"
+    ],
+    "answer": "ঘ",
+    "explanation": "ব্যাখ্যাঃ The volume of solid generated by the revolution of the area bounded by the curve y = f(x), the co-ordinates x = a and x = b, about x-axis is V = π ∫ₐᵇ y² dx.\n∴ R = V = π ∫ₐᵇ y² dx = π ∫₀² (3x)² dx = π ∫₀² 9x² dx = 9π [x³/3]₀² = 9π × (8/3) = 24π"
+  }
+]
