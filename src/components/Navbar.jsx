@@ -68,8 +68,8 @@ export default function Navbar() {
   const specialHubItems = [
     {
       title: 'আইসিটি (ICT)',
-      subtitle: '১৭টি অধ্যায়',
-      count: '১,৭৫৮',
+      subtitle: '২৮টি অধ্যায়',
+      count: '২,৩২৫',
       icon: Laptop,
       boxHref: '/ict',
       smartHref: '/ict-smart/',
@@ -1433,7 +1433,7 @@ export default function Navbar() {
                 borderTop: '1px solid rgba(0,0,0,0.06)'
               }}>
                 {[
-                  { title: 'আইসিটি (ICT)', badge: '১,৭৫৮ MCQ', boxUrl: '/ict', smartUrl: '/ict-smart/', color: '#059669', bg: '#ecfdf5', border: '#a7f3d0', icon: Laptop },
+                  { title: 'আইসিটি (ICT)', badge: '২,৩২৫ MCQ', boxUrl: '/ict', smartUrl: '/ict-smart/', color: '#059669', bg: '#ecfdf5', border: '#a7f3d0', icon: Laptop },
                   { title: 'অ্যাম্ফিবিয়ান সাজেশন', badge: '৬,১৫৭ MCQ', boxUrl: '/ampibian-suggestion', smartUrl: '/ampibian-suggestion-smart/', color: '#d97706', bg: '#fef3c7', border: '#fde68a', icon: BookOpen },
                   { title: 'বিদ্যাবাড়ি NTRCA', badge: '৯,৯৭৪ MCQ', boxUrl: '/biddabari-ntrca', smartUrl: '/biddabari-ntrca-smart/', color: '#2563eb', bg: '#eff6ff', border: '#bfdbfe', icon: GraduationCap },
                   { title: 'বুয়েট প্যাটার্ন সাজেশন', badge: '৫,৪৬০ MCQ', boxUrl: '/buet-pattern-suggestion', smartUrl: '/buet-pattern-suggestion-smart/', color: '#7c3aed', bg: '#f5f3ff', border: '#ddd6fe', icon: Sparkles },

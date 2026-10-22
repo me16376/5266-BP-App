@@ -22,7 +22,6 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300;400;500;600;700&family=Noto+Sans+Bengali:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" 
           rel="stylesheet" 
         />
-        <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet" />
         <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet" />
         <link 
           rel="stylesheet" 

@@ -144,7 +144,8 @@ export async function loadIctQuestions(slugOrId) {
         })
       );
 
-      const bnAnsToIdx = { 'ক': 0, 'খ': 1, 'গ': 2, 'ঘ': 3 };
+      const bnAnsToIdx = { 'ক': 0, 'খ': 1, 'গ': 2, 'ঘ': 3, 'A': 0, 'B': 1, 'C': 2, 'D': 3, 'a': 0, 'b': 1, 'c': 2, 'd': 3 };
+      const bnLetters = ['ক', 'খ', 'গ', 'ঘ'];
       let globalIdx = 1;
       const allQuestions = [];
 
@@ -160,11 +161,14 @@ export async function loadIctQuestions(slugOrId) {
             } else if (item.correct_answer !== undefined) {
               const ansStr = String(item.correct_answer).trim();
               ansIdx = opts.findIndex(o => o === ansStr);
+            } else if (rawAns) {
+              ansIdx = opts.findIndex(o => o === rawAns);
             }
           }
           if (ansIdx < 0) ansIdx = 0;
 
           const correctAns = opts[ansIdx] || item.correct_answer || '';
+          const displayAns = bnLetters[ansIdx] || item.answer || 'ক';
 
           allQuestions.push({
             id: item.id || globalIdx,
@@ -172,8 +176,9 @@ export async function loadIctQuestions(slugOrId) {
             question_text: item.question || item.q || '',
             options: opts,
             ans: ansIdx,
-            answer: item.answer || (['ক', 'খ', 'গ', 'ঘ'][ansIdx] || 'ক'),
+            answer: displayAns,
             correct_answer: correctAns,
+            correctAnswer: correctAns,
             explanation: item.explanation || '',
             hints: item.hints || item.hint || '',
             subject: item.subject || examMeta.category_name || 'ICT',
@@ -206,7 +211,8 @@ export async function loadIctQuestions(slugOrId) {
         const cleanText = text.charCodeAt(0) === 0xFEFF ? text.slice(1) : text;
         const rawList = JSON.parse(cleanText);
 
-        const bnAnsToIdx = { 'ক': 0, 'খ': 1, 'গ': 2, 'ঘ': 3 };
+        const bnAnsToIdx = { 'ক': 0, 'খ': 1, 'গ': 2, 'ঘ': 3, 'A': 0, 'B': 1, 'C': 2, 'D': 3, 'a': 0, 'b': 1, 'c': 2, 'd': 3 };
+        const bnLetters = ['ক', 'খ', 'গ', 'ঘ'];
 
         const questions = (Array.isArray(rawList) ? rawList : []).map((item, idx) => {
           const opts = Array.isArray(item.options) ? item.options.map(o => String(o).trim()) : [];
@@ -219,11 +225,14 @@ export async function loadIctQuestions(slugOrId) {
             } else if (item.correct_answer !== undefined) {
               const ansStr = String(item.correct_answer).trim();
               ansIdx = opts.findIndex(o => o === ansStr);
+            } else if (rawAns) {
+              ansIdx = opts.findIndex(o => o === rawAns);
             }
           }
           if (ansIdx < 0) ansIdx = 0;
 
           const correctAns = opts[ansIdx] || item.correct_answer || '';
+          const displayAns = bnLetters[ansIdx] || item.answer || 'ক';
 
           return {
             id: item.id || (idx + 1),
@@ -231,8 +240,9 @@ export async function loadIctQuestions(slugOrId) {
             question_text: item.question || item.q || '',
             options: opts,
             ans: ansIdx,
-            answer: item.answer || (['ক', 'খ', 'গ', 'ঘ'][ansIdx] || 'ক'),
+            answer: displayAns,
             correct_answer: correctAns,
+            correctAnswer: correctAns,
             explanation: item.explanation || '',
             hints: item.hints || item.hint || '',
             subject: item.subject || examMeta.category_name || 'ICT',

@@ -1,0 +1,952 @@
+[
+  {
+    "id": 1,
+    "question": "DBMS-এর পূর্ণরূপ কী?",
+    "options": [
+      "Data Backup Management System",
+      "Database Management Software",
+      "Distributed Base Management System",
+      "Database Management System"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Database Management System",
+    "explanation": "DBMS-এর পূর্ণরূপ হলো Database Management System, যা ডেটা সংরক্ষণ, সংগঠন, পরিবর্তন ও পুনরুদ্ধারের সফটওয়্যার ব্যবস্থা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Database Management System",
+    "hints": "মূল তথ্য: DBMS-এর পূর্ণরূপ হলো Database Management System, যা ডেটা সংরক্ষণ, সংগঠন, পরিবর্তন ও পুনরুদ্ধারের সফটওয়্যার ব্যবস্থা।"
+  },
+  {
+    "id": 2,
+    "question": "RDBMS-এ ডেটা সংরক্ষণের মূল কাঠামো কী?",
+    "options": [
+      "Document",
+      "Graph",
+      "Table",
+      "Key-Value Pair"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Table",
+    "explanation": "RDBMS (Relational Database Management System)-এ ডেটা সংরক্ষণের মূল কাঠামো হলো রো ও কলাম বিশিষ্ট টেবিল (Table বা Relation)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Table",
+    "hints": "মূল তথ্য: RDBMS (Relational Database Management System)-এ ডেটা সংরক্ষণের মূল কাঠামো হলো রো ও কলাম বিশিষ্ট টেবিল (Table বা Relat...।"
+  },
+  {
+    "id": 3,
+    "question": "ডেটাবেসে একটি 'Row' কী নামে পরিচিত?",
+    "options": [
+      "Attribute",
+      "Column",
+      "Field",
+      "Record"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Record",
+    "explanation": "ডেটাবেস টেবিলের প্রতিটি অনুভূমিক সারিকে একটি রেকর্ড (Record) বা টাপল (Tuple) বলা হয়, যা একটি নির্দিষ্ট বিষয়ের পূর্ণ তথ্য বহন করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Record",
+    "hints": "মূল তথ্য: ডেটাবেস টেবিলের প্রতিটি অনুভূমিক সারিকে একটি রেকর্ড (Record) বা টাপল (Tuple) বলা হয়, যা একটি নির্দিষ্ট বিষয়ের পূর্ণ ...।"
+  },
+  {
+    "id": 4,
+    "question": "নিম্নের কোনটি NoSQL DBMS-এর প্রধান বৈশিষ্ট্য?",
+    "options": [
+      "Strict স্কিমা",
+      "ডেটা টেবিল ও সম্পর্কের ব্যবহার",
+      "Horizontal Scaling-কে সমর্থন",
+      "SQL-এর বাধ্যতামূলক ব্যবহার"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Horizontal Scaling-কে সমর্থন",
+    "explanation": "NoSQL ডেটাবেসের অন্যতম প্রধান বৈশিষ্ট্য হলো এটি অনুভূমিকভাবে স্কেল করতে পারে (Horizontal Scaling) এবং নমনীয় স্কিমা সমর্থন করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Horizontal Scaling-কে সমর্থন",
+    "hints": "মূল তথ্য: NoSQL ডেটাবেসের অন্যতম প্রধান বৈশিষ্ট্য হলো এটি অনুভূমিকভাবে স্কেল করতে পারে (Horizontal Scaling) এবং নমনীয় স্কিমা স...।"
+  },
+  {
+    "id": 5,
+    "question": "Hierarchical DBMS ডেটাকে কোন কাঠামোতে সংরক্ষণ করে?",
+    "options": [
+      "Network",
+      "Tree",
+      "Star",
+      "Relational"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Tree",
+    "explanation": "Hierarchical ডেটাবেস মডেলে প্যারেন্ট-চাইল্ড সম্পর্কের ভিত্তিতে ট্রি (Tree) কাঠামোতে ডেটা সংরক্ষণ করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Tree",
+    "hints": "মূল তথ্য: Hierarchical ডেটাবেস মডেলে প্যারেন্ট-চাইল্ড সম্পর্কের ভিত্তিতে ট্রি (Tree) কাঠামোতে ডেটা সংরক্ষণ করা হয়।"
+  },
+  {
+    "id": 6,
+    "question": "ER ডায়াগ্রামে Entity বোঝাতে কোন প্রতীক ব্যবহৃত হয়?",
+    "options": [
+      "Diamond",
+      "Ellipse",
+      "Rectangle",
+      "Double Rectangle"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Rectangle",
+    "explanation": "ER (Entity-Relationship) ডায়াগ্রামে কোনো বস্তু বা উপাদান অর্থাৎ Entity বোঝাতে আয়তক্ষেত্র (Rectangle) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Rectangle",
+    "hints": "মূল তথ্য: ER (Entity-Relationship) ডায়াগ্রামে কোনো বস্তু বা উপাদান অর্থাৎ Entity বোঝাতে আয়তক্ষেত্র (Rectangle) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 7,
+    "question": "Weak Entity বোঝাতে কোন প্রতীক ব্যবহৃত হয়?",
+    "options": [
+      "Rectangle",
+      "Diamond",
+      "Double Rectangle",
+      "Double Ellipse"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Double Rectangle",
+    "explanation": "যে Entity-র নিজস্ব কোনো প্রাইমারি কী থাকে না এবং অন্য Entity-র ওপর নির্ভরশীল, তাকে Weak Entity বলে; এটি ডাবল আয়তক্ষেত্র (Double Rectangle) দ্বারা প্রকাশ করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Double Rectangle",
+    "hints": "মূল তথ্য: যে Entity-র নিজস্ব কোনো প্রাইমারি কী থাকে না এবং অন্য Entity-র ওপর নির্ভরশীল, তাকে Weak Entity বলে; এটি ডাবল আয়তক্ষে...।"
+  },
+  {
+    "id": 8,
+    "question": "একটি Entity-র বৈশিষ্ট্যকে কী বলা হয়?",
+    "options": [
+      "Relationship",
+      "Attribute",
+      "Record",
+      "Key"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Attribute",
+    "explanation": "একটি Entity-র বিভিন্ন বৈশিষ্ট্য বা ধর্মকে Attribute (অ্যাট্রিবিউট) বলা হয় (যেমন ছাত্রের রোল, নাম ইত্যাদি)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Attribute",
+    "hints": "মূল তথ্য: একটি Entity-র বিভিন্ন বৈশিষ্ট্য বা ধর্মকে Attribute (অ্যাট্রিবিউট) বলা হয় (যেমন ছাত্রের রোল, নাম ইত্যাদি)।"
+  },
+  {
+    "id": 9,
+    "question": "যে Attribute-এর একাধিক মান থাকতে পারে (যেমন: একাধিক মোবাইল নম্বর), তাকে কী বলা হয়?",
+    "options": [
+      "Simple Attribute",
+      "Composite Attribute",
+      "Multi-Valued Attribute",
+      "Derived Attribute"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Multi-Valued Attribute",
+    "explanation": "যে অ্যাট্রিবিউটের একাধিক মান থাকতে পারে (যেমন একজন ব্যক্তির একাধিক ফোন নম্বর বা ইমেল), তাকে Multi-Valued Attribute বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Multi-Valued Attribute",
+    "hints": "মূল তথ্য: যে অ্যাট্রিবিউটের একাধিক মান থাকতে পারে (যেমন একজন ব্যক্তির একাধিক ফোন নম্বর বা ইমেল), তাকে Multi-Valued Attribute বলে।"
+  },
+  {
+    "id": 10,
+    "question": "জন্ম তারিখ থেকে বয়স নির্ণয় করা গেলে, বয়স কোন ধরনের Attribute?",
+    "options": [
+      "Simple",
+      "Derived",
+      "Multi-Valued",
+      "Composite"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Derived",
+    "explanation": "জন্ম তারিখ থেকে বয়স হিসাব করে বের করা যায়, তাই বয়স হলো একটি Derived Attribute বা উদ্ভূত বৈশিষ্ট্য।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Derived",
+    "hints": "মূল তথ্য: জন্ম তারিখ থেকে বয়স হিসাব করে বের করা যায়, তাই বয়স হলো একটি Derived Attribute বা উদ্ভূত বৈশিষ্ট্য।"
+  },
+  {
+    "id": 11,
+    "question": "একাধিক Student একটি Course-এ Enrol করলে, এটি কোন ধরনের Relationship?",
+    "options": [
+      "One to One",
+      "One to Many",
+      "Many to One",
+      "Many to Many"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Many to Many",
+    "explanation": "একাধিক ছাত্র একাধিক কোর্সে অংশ নিতে পারে এবং একটি কোর্সে একাধিক ছাত্র পড়তে পারে, তাই এটি একটি Many-to-Many রিলেশনশিপ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Many to Many",
+    "hints": "মূল তথ্য: একাধিক ছাত্র একাধিক কোর্সে অংশ নিতে পারে এবং একটি কোর্সে একাধিক ছাত্র পড়তে পারে, তাই এটি একটি Many-to-Many রিলেশনশিপ।"
+  },
+  {
+    "id": 12,
+    "question": "একটি রেকর্ডের অদ্বিতীয় বা ইউনিক সনাক্তকরণের জন্য ব্যবহৃত ফিল্ডকে কী বলে?",
+    "options": [
+      "Foreign Key",
+      "Super Key",
+      "Primary Key",
+      "Alternate Key"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Primary Key",
+    "explanation": "একটি টেবিলের প্রতিটি রেকর্ডকে অদ্বিতীয়ভাবে শনাক্ত করার জন্য ব্যবহৃত ইউনিক ফিল্ডকে Primary Key বলা হয়; এটি কখনো Null হতে পারে না।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Primary Key",
+    "hints": "মূল তথ্য: একটি টেবিলের প্রতিটি রেকর্ডকে অদ্বিতীয়ভাবে শনাক্ত করার জন্য ব্যবহৃত ইউনিক ফিল্ডকে Primary Key বলা হয়; এটি কখনো Null...।"
+  },
+  {
+    "id": 13,
+    "question": "একটি টেবিলের সমস্ত সম্ভাব্য ইউনিক কী-কে (যা Primary Key হতে পারত) কী বলে?",
+    "options": [
+      "Super Key",
+      "Candidate Key",
+      "Composite Key",
+      "Foreign Key"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Candidate Key",
+    "explanation": "একটি টেবিলের যে সমস্ত অ্যাট্রিবিউট এককভাবে প্রাইমারি কী হওয়ার যোগ্যতা রাখে, তাদের প্রত্যেকটিকে Candidate Key বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Candidate Key",
+    "hints": "মূল তথ্য: একটি টেবিলের যে সমস্ত অ্যাট্রিবিউট এককভাবে প্রাইমারি কী হওয়ার যোগ্যতা রাখে, তাদের প্রত্যেকটিকে Candidate Key বলা হয়।"
+  },
+  {
+    "id": 14,
+    "question": "Primary Key ছাড়া অন্যান্য Candidate Key গুলোকে কী বলা হয়?",
+    "options": [
+      "Super Key",
+      "Alternate Key",
+      "Composite Key",
+      "Artificial Key"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Alternate Key",
+    "explanation": "Candidate Key-গুলোর মধ্য থেকে একটিকে Primary Key নির্বাচন করার পর বাকিগুলোকে Alternate Key বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Alternate Key",
+    "hints": "মূল তথ্য: Candidate Key-গুলোর মধ্য থেকে একটিকে Primary Key নির্বাচন করার পর বাকিগুলোকে Alternate Key বলা হয়।"
+  },
+  {
+    "id": 15,
+    "question": "দুটি টেবিলের মধ্যে সম্পর্ক তৈরি করতে একটি টেবিলের Primary Key যখন অন্য টেবিলে ব্যবহৃত হয়, তখন সেটিকে কী বলে?",
+    "options": [
+      "Alternate Key",
+      "Foreign Key",
+      "Super Key",
+      "Composite Key"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Foreign Key",
+    "explanation": "দুটি টেবিলের মধ্যে লজিক্যাল সম্পর্ক স্থাপনের জন্য এক টেবিলের Primary Key যখন অন্য টেবিলে ব্যবহৃত হয়, তখন তাকে Foreign Key বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Foreign Key",
+    "hints": "মূল তথ্য: দুটি টেবিলের মধ্যে লজিক্যাল সম্পর্ক স্থাপনের জন্য এক টেবিলের Primary Key যখন অন্য টেবিলে ব্যবহৃত হয়, তখন তাকে Foreig...।"
+  },
+  {
+    "id": 16,
+    "question": "ডেটাবেজ ডিজাইনে, যে কী স্বয়ংক্রিয়ভাবে তৈরি হয় এবং ডেটা টেবিলের কোনো প্রাকৃতিক Attribute নয়, তাকে কী বলে?",
+    "options": [
+      "Primary Key",
+      "Foreign Key",
+      "Artificial Key",
+      "Composite Key"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Artificial Key",
+    "explanation": "প্রাকৃতিক কোনো তথ্যের ওপর ভিত্তি না করে সিস্টেম কর্তৃক স্বয়ংক্রিয়ভাবে তৈরি কৃত্রিম ইউনিক কী-কে Artificial Key বা Surrogate Key বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Artificial Key",
+    "hints": "মূল তথ্য: প্রাকৃতিক কোনো তথ্যের ওপর ভিত্তি না করে সিস্টেম কর্তৃক স্বয়ংক্রিয়ভাবে তৈরি কৃত্রিম ইউনিক কী-কে Artificial Key বা Surr...।"
+  },
+  {
+    "id": 17,
+    "question": "Normalization-এর প্রধান উদ্দেশ্য কী?",
+    "options": [
+      "ডেটা অ্যাক্সেসের গতি কমানো",
+      "ডেটা রিডানডেন্সি (পুনরাবৃত্তি) দূর করা",
+      "টেবিলের সংখ্যা বৃদ্ধি করা",
+      "কোয়েরি প্রসেসিং জটিল করা"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "ডেটা রিডানডেন্সি (পুনরাবৃত্তি) দূর করা",
+    "explanation": "Normalization-এর মূল উদ্দেশ্য হলো ডেটাবেস থেকে অনাকাঙ্ক্ষিত পুনরাবৃত্তি (Data Redundancy) ও ডেটা অসঙ্গতি দূর করা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "ডেটা রিডানডেন্সি (পুনরাবৃত্তি) দূর করা",
+    "hints": "মূল তথ্য: Normalization-এর মূল উদ্দেশ্য হলো ডেটাবেস থেকে অনাকাঙ্ক্ষিত পুনরাবৃত্তি (Data Redundancy) ও ডেটা অসঙ্গতি দূর করা।"
+  },
+  {
+    "id": 18,
+    "question": "কোনো টেবিলে মাল্টি-ভ্যালুড অ্যাট্রিবিউট না থাকলে সেটিকে কোন Normal Form-এ বলা হয়?",
+    "options": [
+      "2NF",
+      "1NF",
+      "3NF",
+      "BCNF"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "1NF",
+    "explanation": "যদি কোনো টেবিলের প্রতিটি কলামে কেবল পারমাণবিক মান (Atomic values) থাকে এবং কোনো মাল্টি-ভ্যালুড অ্যাট্রিবিউট না থাকে, তবে সেটি 1NF (First Normal Form)-এ থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "1NF",
+    "hints": "মূল তথ্য: যদি কোনো টেবিলের প্রতিটি কলামে কেবল পারমাণবিক মান (Atomic values) থাকে এবং কোনো মাল্টি-ভ্যালুড অ্যাট্রিবিউট না থাকে, ...।"
+  },
+  {
+    "id": 19,
+    "question": "একটি টেবিল 1NF-এ আছে এবং এর সমস্ত নন-কী অ্যাট্রিবিউট প্রাইমারি কী-এর উপর সম্পূর্ণ নির্ভরশীল—এটি কোন Normal Form-এর শর্ত?",
+    "options": [
+      "2NF",
+      "3NF",
+      "1NF",
+      "BCNF"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "2NF",
+    "explanation": "একটি টেবিল 1NF-এ থাকবে এবং সমস্ত নন-কী অ্যাট্রিবিউট সম্পূর্ণ প্রাইমারি কী-এর ওপর নির্ভরশীল হতে হবে (অর্থাৎ আংশিক নির্ভরতা দূর করা)—এটি 2NF-এর শর্ত।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "2NF",
+    "hints": "মূল তথ্য: একটি টেবিল 1NF-এ থাকবে এবং সমস্ত নন-কী অ্যাট্রিবিউট সম্পূর্ণ প্রাইমারি কী-এর ওপর নির্ভরশীল হতে হবে (অর্থাৎ আংশিক নির্...।"
+  },
+  {
+    "id": 20,
+    "question": "কোন Normal Form এ Transitive Dependency (নন-কী অ্যাট্রিবিউটের ওপর নন-কী অ্যাট্রিবিউটের নির্ভরশীলতা) দূর করে?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "3NF",
+    "explanation": "3NF (Third Normal Form)-এ টেবিলটি 2NF-এ থাকবে এবং নন-কী অ্যাট্রিবিউটের ওপর অন্য নন-কী অ্যাট্রিবিউটের নির্ভরতা অর্থাৎ Transitive Dependency দূর করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "3NF",
+    "hints": "মূল তথ্য: 3NF (Third Normal Form)-এ টেবিলটি 2NF-এ থাকবে এবং নন-কী অ্যাট্রিবিউটের ওপর অন্য নন-কী অ্যাট্রিবিউটের নির্ভরতা অর্থাৎ ...।"
+  },
+  {
+    "id": 21,
+    "question": "3NF-এর চেয়েও কঠোর এবং সমস্ত ফাংশনাল ডিপেন্ডেন্সি একটি সুপার কী-এর উপর নির্ভরশীল—এটি কোন Normal Form?",
+    "options": [
+      "2NF",
+      "BCNF",
+      "1NF",
+      "3NF"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "BCNF",
+    "explanation": "BCNF (Boyce-Codd Normal Form) হলো 3NF-এর একটি কঠোর রূপ, যেখানে প্রতিটি কার্যকরী নির্ভরতার (X -> Y) বাম পাশের নির্ধারক X অবশ্যই একটি Super Key হতে হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "BCNF",
+    "hints": "মূল তথ্য: BCNF (Boyce-Codd Normal Form) হলো 3NF-এর একটি কঠোর রূপ, যেখানে প্রতিটি কার্যকরী নির্ভরতার (X -> Y) বাম পাশের নির্ধারক...।"
+  },
+  {
+    "id": 22,
+    "question": "SQL-এর পূর্ণরূপ কী?",
+    "options": [
+      "Systematic Query Language",
+      "Simple Query Logic",
+      "Structured Query Language",
+      "Standard Query Logic"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Structured Query Language",
+    "explanation": "SQL-এর পূর্ণরূপ হলো Structured Query Language, যা রিলেশনাল ডেটাবেসে ডেটা পরিচালনা ও কুয়েরি করার আন্তর্জাতিক প্রমিত ভাষা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Structured Query Language",
+    "hints": "মূল তথ্য: SQL-এর পূর্ণরূপ হলো Structured Query Language, যা রিলেশনাল ডেটাবেসে ডেটা পরিচালনা ও কুয়েরি করার আন্তর্জাতিক প্রমিত ভাষা।"
+  },
+  {
+    "id": 23,
+    "question": "SQL-এ ডেটাবেসের কাঠামো পরিবর্তন করতে কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "SELECT",
+      "INSERT",
+      "ALTER",
+      "UPDATE"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ALTER",
+    "explanation": "SQL-এ টেবিল বা ডেটাবেসের কলাম যুক্ত, বাদ বা গঠন পরিবর্তন করতে DDL কমান্ড ALTER ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "ALTER",
+    "hints": "মূল তথ্য: SQL-এ টেবিল বা ডেটাবেসের কলাম যুক্ত, বাদ বা গঠন পরিবর্তন করতে DDL কমান্ড ALTER ব্যবহৃত হয়।"
+  },
+  {
+    "id": 24,
+    "question": "একটি টেবিল থেকে সমস্ত ডেটা এবং এর জন্য আলোকেট মেমরি মুছে ফেলার জন্য কোন DDL কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "DELETE",
+      "DROP",
+      "TRUNCATE",
+      "REMOVE"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "TRUNCATE",
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা একটি টেবিলের সমস্ত ডেটা ও তার জন্য বরাদ্দকৃত মেমরি দ্রুত মুছে ফেলে খালি করে দেয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "TRUNCATE",
+    "hints": "মূল তথ্য: TRUNCATE একটি DDL কমান্ড যা একটি টেবিলের সমস্ত ডেটা ও তার জন্য বরাদ্দকৃত মেমরি দ্রুত মুছে ফেলে খালি করে দেয়।"
+  },
+  {
+    "id": 25,
+    "question": "একটি টেবিলে নতুন রেকর্ড যোগ করার জন্য কোন DML কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "INSERT",
+      "ADD",
+      "CREATE",
+      "UPDATE"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "INSERT",
+    "explanation": "একটি বিদ্যমান টেবিলে নতুন সারি বা রেকর্ড যোগ করার জন্য DML কমান্ড হিসেবে INSERT ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "INSERT",
+    "hints": "মূল তথ্য: একটি বিদ্যমান টেবিলে নতুন সারি বা রেকর্ড যোগ করার জন্য DML কমান্ড হিসেবে INSERT ব্যবহৃত হয়।"
+  },
+  {
+    "id": 26,
+    "question": "ডেটাবেস থেকে তথ্য 'Query' করার জন্য কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "INSERT",
+      "UPDATE",
+      "SELECT",
+      "CREATE"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "SELECT",
+    "explanation": "ডেটাবেস থেকে নির্দিষ্ট শর্ত অনুযায়ী ডেটা খুঁজে বের করে প্রদর্শন করার জন্য SELECT কমান্ড ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "SELECT",
+    "hints": "মূল তথ্য: ডেটাবেস থেকে নির্দিষ্ট শর্ত অনুযায়ী ডেটা খুঁজে বের করে প্রদর্শন করার জন্য SELECT কমান্ড ব্যবহৃত হয়।"
+  },
+  {
+    "id": 27,
+    "question": "কোনো ব্যবহারকারীকে ডেটাবেসের অ্যাক্সেস অধিকার দেওয়ার জন্য কোন DCL কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "GRANT",
+      "ALLOW",
+      "REVOKE",
+      "PERMIT"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "GRANT",
+    "explanation": "ডেটাবেস ব্যবহারকারীকে নির্দিষ্ট অধিকার বা অনুমতি প্রদানের জন্য DCL কমান্ড GRANT ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "GRANT",
+    "hints": "মূল তথ্য: ডেটাবেস ব্যবহারকারীকে নির্দিষ্ট অধিকার বা অনুমতি প্রদানের জন্য DCL কমান্ড GRANT ব্যবহৃত হয়।"
+  },
+  {
+    "id": 28,
+    "question": "ট্রানজেকশন সফলভাবে সম্পন্ন করে পরিবর্তনগুলিকে স্থায়ীভাবে সেভ করার জন্য কোন TCL কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "BEGIN",
+      "COMMIT",
+      "SAVEPOINT",
+      "ROLLBACK"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "COMMIT",
+    "explanation": "একটি ট্রানজেকশনের সমস্ত কাজ সফলভাবে সম্পন্ন করার পর পরিবর্তনগুলোকে ডেটাবেসে স্থায়ীভাবে সংরক্ষণের জন্য TCL কমান্ড COMMIT ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "COMMIT",
+    "hints": "মূল তথ্য: একটি ট্রানজেকশনের সমস্ত কাজ সফলভাবে সম্পন্ন করার পর পরিবর্তনগুলোকে ডেটাবেসে স্থায়ীভাবে সংরক্ষণের জন্য TCL কমান্ড COMM...।"
+  },
+  {
+    "id": 29,
+    "question": "কোনো ত্রুটি ঘটলে ট্রানজেকশনের সমস্ত কাজ বাতিল করে পূর্ববর্তী অবস্থায় ফিরে যাওয়ার জন্য কোন TCL কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "COMMIT",
+      "ROLLBACK",
+      "SAVEPOINT",
+      "END"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "ROLLBACK",
+    "explanation": "ট্রানজেকশন চলাকালীন কোনো সমস্যা হলে সমস্ত পরিবর্তন বাতিল করে পূর্বের নিরাপদ অবস্থায় ফিরে যাওয়ার জন্য ROLLBACK কমান্ড ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "ROLLBACK",
+    "hints": "মূল তথ্য: ট্রানজেকশন চলাকালীন কোনো সমস্যা হলে সমস্ত পরিবর্তন বাতিল করে পূর্বের নিরাপদ অবস্থায় ফিরে যাওয়ার জন্য ROLLBACK কমান্ড ...।"
+  },
+  {
+    "id": 30,
+    "question": "নিচের কোন কমান্ডটি DML-এর অন্তর্ভুক্ত?",
+    "options": [
+      "CREATE",
+      "ALTER",
+      "UPDATE",
+      "REVOKE"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "UPDATE",
+    "explanation": "UPDATE একটি DML (Data Manipulation Language) কমান্ড, যা বিদ্যমান রেকর্ডের মান পরিবর্তন করার জন্য ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "UPDATE",
+    "hints": "মূল তথ্য: UPDATE একটি DML (Data Manipulation Language) কমান্ড, যা বিদ্যমান রেকর্ডের মান পরিবর্তন করার জন্য ব্যবহৃত হয়।"
+  },
+  {
+    "id": 31,
+    "question": "3-Tier Architecture-এ সাধারণ ব্যবহারকারীরা কোন স্তরে কাজ করেন?",
+    "options": [
+      "ডেটাবেস টায়ার",
+      "অ্যাপ্লিকেশন টায়ার",
+      "প্রেজেন্টেশন টায়ার",
+      "ফিজিক্যাল টায়ার"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "প্রেজেন্টেশন টায়ার",
+    "explanation": "3-Tier ডেটাবেস আর্কিটেকচারে সাধারণ ব্যবহারকারীরা প্রেজেন্টেশন টায়ার (Presentation Tier) বা ইউজার ইন্টারফেস স্তরে সরাসরি যুক্ত থাকেন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "প্রেজেন্টেশন টায়ার",
+    "hints": "মূল তথ্য: 3-Tier ডেটাবেস আর্কিটেকচারে সাধারণ ব্যবহারকারীরা প্রেজেন্টেশন টায়ার (Presentation Tier) বা ইউজার ইন্টারফেস স্তরে সরাস...।"
+  },
+  {
+    "id": 32,
+    "question": "ডেটাবেস কাঠামোর লজিক্যাল উপস্থাপনাকে কী বলা হয়?",
+    "options": [
+      "Instance",
+      "Schema",
+      "View",
+      "Repository"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Schema",
+    "explanation": "ডেটাবেসের সম্পূর্ণ নকশা, টেবিল কাঠামো ও সম্পর্কের যৌক্তিক রূপরেখাকে Schema (স্কিমা) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Schema",
+    "hints": "মূল তথ্য: ডেটাবেসের সম্পূর্ণ নকশা, টেবিল কাঠামো ও সম্পর্কের যৌক্তিক রূপরেখাকে Schema (স্কিমা) বলা হয়।"
+  },
+  {
+    "id": 33,
+    "question": "3-Tier Architecture-এ অ্যাপ্লিকেশন সার্ভার এবং ডেটাবেসে অ্যাক্সেস করা প্রোগ্রামগুলো কোন স্তরে থাকে?",
+    "options": [
+      "ডেটাবেস টায়ার",
+      "প্রেজেন্টেশন টায়ার",
+      "অ্যাপ্লিকেশন টায়ার",
+      "ইউজার টায়ার"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "অ্যাপ্লিকেশন টায়ার",
+    "explanation": "3-Tier আর্কিটেকচারে বিজনেস লজিক, অ্যাপ্লিকেশন প্রোগ্রাম ও সার্ভার অ্যাপ্লিকেশন টায়ারে (Application Tier) অবস্থান করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "অ্যাপ্লিকেশন টায়ার",
+    "hints": "মূল তথ্য: 3-Tier আর্কিটেকচারে বিজনেস লজিক, অ্যাপ্লিকেশন প্রোগ্রাম ও সার্ভার অ্যাপ্লিকেশন টায়ারে (Application Tier) অবস্থান করে।"
+  },
+  {
+    "id": 34,
+    "question": "DBMS-এর তুলনায় ফাইল সিস্টেমে একটি প্রধান দুর্বলতা কী?",
+    "options": [
+      "কম জটিলতা",
+      "ডেটা পুনরাবৃত্তি",
+      "কম ব্যয়",
+      "কম নিরাপত্তা"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "ডেটা পুনরাবৃত্তি",
+    "explanation": "চিরাচরিত ফাইল সিস্টেমে একই ডেটা একাধিক জায়গায় বিচ্ছিন্নভাবে সংরক্ষিত হওয়ার ফলে ডেটা পুনরাবৃত্তি (Data Redundancy) ও অসঙ্গতি দেখা দেয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "ডেটা পুনরাবৃত্তি",
+    "hints": "মূল তথ্য: চিরাচরিত ফাইল সিস্টেমে একই ডেটা একাধিক জায়গায় বিচ্ছিন্নভাবে সংরক্ষিত হওয়ার ফলে ডেটা পুনরাবৃত্তি (Data Redundancy) ও অ...।"
+  },
+  {
+    "id": 35,
+    "question": "DBMS-এ ডেটা অ্যাক্সেসের গতি বৃদ্ধি করতে কোনটি ব্যবহৃত হতে পারে?",
+    "options": [
+      "View",
+      "Schema",
+      "Index",
+      "Stored Procedure"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Index",
+    "explanation": "ডেটাবেস টেবিলের রেকর্ডে দ্রুত সার্চিং ও অনুসন্ধান নিশ্চিত করতে Index (ইনডেক্স) ব্যবহার করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Index",
+    "hints": "মূল তথ্য: ডেটাবেস টেবিলের রেকর্ডে দ্রুত সার্চিং ও অনুসন্ধান নিশ্চিত করতে Index (ইনডেক্স) ব্যবহার করা হয়।"
+  },
+  {
+    "id": 36,
+    "question": "একটি ট্রানজেকশন প্রাথমিক অবস্থায় আছে এবং এখনও সম্পন্ন হয়নি—এটি কোন State?",
+    "options": [
+      "Committed",
+      "Active",
+      "Partially Committed",
+      "Failed"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Active",
+    "explanation": "একটি ট্রানজেকশন যখন কেবল এক্সিকিউশন শুরু করে এবং কাজ চলমান থাকে, তখন সেটি Active স্টেটে থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Active",
+    "hints": "মূল তথ্য: একটি ট্রানজেকশন যখন কেবল এক্সিকিউশন শুরু করে এবং কাজ চলমান থাকে, তখন সেটি Active স্টেটে থাকে।"
+  },
+  {
+    "id": 37,
+    "question": "ট্রানজেকশনের সমস্ত অপারেশন সম্পন্ন হয়েছে, কিন্তু এখনও ডেটা স্থায়ীভাবে সংরক্ষিত হয়নি—এটি কোন State?",
+    "options": [
+      "Active",
+      "Partially Committed",
+      "Aborted",
+      "Committed"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Partially Committed",
+    "explanation": "ট্রানজেকশনের শেষ স্টেটমেন্ট কার্যকর হওয়ার পর কিন্তু ডেটা ডিস্কে স্থায়ীভাবে কমিট হওয়ার আগের অবস্থাকে Partially Committed স্টেট বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Partially Committed",
+    "hints": "মূল তথ্য: ট্রানজেকশনের শেষ স্টেটমেন্ট কার্যকর হওয়ার পর কিন্তু ডেটা ডিস্কে স্থায়ীভাবে কমিট হওয়ার আগের অবস্থাকে Partially Committ...।"
+  },
+  {
+    "id": 38,
+    "question": "ACID Properties-এর 'A' দ্বারা কী বোঝানো হয়?",
+    "options": [
+      "Availability",
+      "Authenticity",
+      "Atomicity",
+      "Accessibility"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Atomicity",
+    "explanation": "ACID বৈশিষ্ট্যের 'A' দ্বারা Atomicity নির্দেশ করা হয়, যার নীতি হলো 'সবকিছু হবে অথবা কিছুই হবে না' (All or Nothing)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Atomicity",
+    "hints": "মূল তথ্য: ACID বৈশিষ্ট্যের 'A' দ্বারা Atomicity নির্দেশ করা হয়, যার নীতি হলো 'সবকিছু হবে অথবা কিছুই হবে না' (All or Nothing)।"
+  },
+  {
+    "id": 39,
+    "question": "ACID Properties-এর 'I' দ্বারা কী বোঝানো হয়?",
+    "options": [
+      "Interaction",
+      "Isolation",
+      "Integrity",
+      "Indexing"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Isolation",
+    "explanation": "ACID বৈশিষ্ট্যের 'I' দ্বারা Isolation বোঝায়, অর্থাৎ সমান্তরালে চলা একাধিক ট্রানজেকশন একটি অপরটির দ্বারা প্রভাবিত হবে না।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Isolation",
+    "hints": "মূল তথ্য: ACID বৈশিষ্ট্যের 'I' দ্বারা Isolation বোঝায়, অর্থাৎ সমান্তরালে চলা একাধিক ট্রানজেকশন একটি অপরটির দ্বারা প্রভাবিত হবে না।"
+  },
+  {
+    "id": 40,
+    "question": "একটি ট্রানজেকশন সফল হলে ডেটাবেসের অবস্থাটি যেন অপরিবর্তিত থাকে—ACID-এর কোন ধর্ম এটি নিশ্চিত করে?",
+    "options": [
+      "Atomicity",
+      "Isolation",
+      "Consistency",
+      "Durability"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Consistency",
+    "explanation": "একটি ট্রানজেকশন সফল হলে ডেটাবেসের সার্বিক নিয়ম ও কনস্ট্রেইন্ট অপরিবর্তিত থাকে—ACID-এর Consistency বৈশিষ্ট্য এটি নিশ্চিত করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Consistency",
+    "hints": "মূল তথ্য: একটি ট্রানজেকশন সফল হলে ডেটাবেসের সার্বিক নিয়ম ও কনস্ট্রেইন্ট অপরিবর্তিত থাকে—ACID-এর Consistency বৈশিষ্ট্য এটি নিশ্চ...।"
+  },
+  {
+    "id": 41,
+    "question": "মানুষের পঠনযোগ্য ডেটাকে কী বলা হয়?",
+    "options": [
+      "Ciphertext",
+      "Private Key",
+      "Plain Text",
+      "Public Key"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Plain Text",
+    "explanation": "যে ডেটা বা টেক্সট মানুষের সরাসরি পড়ার ও বোঝার উপযোগী সাধারণ ভাষায় থাকে, তাকে Plain Text বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Plain Text",
+    "hints": "মূল তথ্য: যে ডেটা বা টেক্সট মানুষের সরাসরি পড়ার ও বোঝার উপযোগী সাধারণ ভাষায় থাকে, তাকে Plain Text বলা হয়।"
+  },
+  {
+    "id": 42,
+    "question": "এনক্রিপশন অ্যালগরিদম এবং একটি কী ব্যবহার করে প্লেইন টেক্সটকে অপঠনযোগ্য ফরম্যাটে রূপান্তর করার প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "Decryption",
+      "Hashing",
+      "Data Encryption",
+      "Key Generation"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Data Encryption",
+    "explanation": "প্লেইন টেক্সটকে গোপন সাইফার বা অপঠনযোগ্য ফরম্যাটে রূপান্তর করার প্রযুক্তিগত প্রক্রিয়াকে ডেটা এনক্রিপশন (Data Encryption) বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Data Encryption",
+    "hints": "মূল তথ্য: প্লেইন টেক্সটকে গোপন সাইফার বা অপঠনযোগ্য ফরম্যাটে রূপান্তর করার প্রযুক্তিগত প্রক্রিয়াকে ডেটা এনক্রিপশন (Data Encrypti...।"
+  },
+  {
+    "id": 43,
+    "question": "Symmetric Encryption পদ্ধতিতে এনক্রিপশন এবং ডিক্রিপশনের জন্য কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "দুটি ভিন্ন কী",
+      "দুটি Public Key",
+      "একই কী",
+      "কোনো কী নয়"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "একই কী",
+    "explanation": "Symmetric Encryption পদ্ধতিতে ডেটা এনক্রিপ্ট এবং ডিক্রিপ্ট উভয় কাজের জন্যই একটিমাত্র গোপন কী (Shared Secret Key) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "একই কী",
+    "hints": "মূল তথ্য: Symmetric Encryption পদ্ধতিতে ডেটা এনক্রিপ্ট এবং ডিক্রিপ্ট উভয় কাজের জন্যই একটিমাত্র গোপন কী (Shared Secret Key) ব্যব...।"
+  },
+  {
+    "id": 44,
+    "question": "Asymmetric Encryption পদ্ধতিতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "Private Key",
+      "Public Key ও Private Key",
+      "একটি Common Key",
+      "শুধু Private Key"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Public Key ও Private Key",
+    "explanation": "Asymmetric Encryption পদ্ধতিতে দুটি ভিন্ন সম্পর্কিত কী—পাবলিক কী (এনক্রিপশনের জন্য) ও প্রাইভেট কী (ডিক্রিপশনের জন্য) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Public Key ও Private Key",
+    "hints": "মূল তথ্য: Asymmetric Encryption পদ্ধতিতে দুটি ভিন্ন সম্পর্কিত কী—পাবলিক কী (এনক্রিপশনের জন্য) ও প্রাইভেট কী (ডিক্রিপশনের জন্য) ...।"
+  },
+  {
+    "id": 45,
+    "question": "নিম্নের কোনটি একটি বহুল ব্যবহৃত সিমেট্রিক এনক্রিপশন প্রযুক্তি?",
+    "options": [
+      "AES",
+      "RSA",
+      "SHA",
+      "DES"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "AES",
+    "explanation": "AES (Advanced Encryption Standard) হলো বিশ্বের সবচেয়ে নির্ভরযোগ্য ও বহুল ব্যবহৃত সিমেট্রিক এনক্রিপশন অ্যালগরিদম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "AES",
+    "hints": "মূল তথ্য: AES (Advanced Encryption Standard) হলো বিশ্বের সবচেয়ে নির্ভরযোগ্য ও বহুল ব্যবহৃত সিমেট্রিক এনক্রিপশন অ্যালগরিদম।"
+  },
+  {
+    "id": 46,
+    "question": "নিম্নের কোনটি একটি বহুল ব্যবহৃত অ্যাসিমেট্রিক এনক্রিপশন প্রযুক্তি?",
+    "options": [
+      "AES",
+      "RSA",
+      "SHA",
+      "Blowfish"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "RSA",
+    "explanation": "RSA (Rivest-Shamir-Adleman) হলো একটি বিশ্বখ্যাত এবং বহুল ব্যবহৃত অ্যাসিমেট্রিক বা পাবলিক-কী এনক্রিপশন অ্যালগরিদম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "RSA",
+    "hints": "মূল তথ্য: RSA (Rivest-Shamir-Adleman) হলো একটি বিশ্বখ্যাত এবং বহুল ব্যবহৃত অ্যাসিমেট্রিক বা পাবলিক-কী এনক্রিপশন অ্যালগরিদম।"
+  },
+  {
+    "id": 47,
+    "question": "পাসওয়ার্ড এবং অন্যান্য সংবেদনশীল তথ্যকে আনরিডেবল ফরম্যাটে সংরক্ষণ করতে সাধারণত কোন প্রযুক্তি ব্যবহৃত হয়?",
+    "options": [
+      "Encryption",
+      "Decryption",
+      "Hashing",
+      "Symmetric Key"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Hashing",
+    "explanation": "পাসওয়ার্ডকে নিরাপদে একমুখী অপঠনযোগ্য মানে রূপান্তর করে সংরক্ষণ করতে Hashing প্রযুক্তি (যেমন SHA, bcrypt) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Hashing",
+    "hints": "মূল তথ্য: পাসওয়ার্ডকে নিরাপদে একমুখী অপঠনযোগ্য মানে রূপান্তর করে সংরক্ষণ করতে Hashing প্রযুক্তি (যেমন SHA, bcrypt) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 48,
+    "question": "Double Ellipse (দ্বিগুণ উপবৃত্ত) E-R ডায়াগ্রামে কী বোঝাতে ব্যবহৃত হয়?",
+    "options": [
+      "Primary Key",
+      "Derived Attribute",
+      "Multi-Valued Attribute",
+      "Composite Attribute"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Multi-Valued Attribute",
+    "explanation": "ER ডায়াগ্রামে একাধিক মান ধারণকারী Multi-Valued Attribute প্রকাশ করতে ডাবল উপবৃত্ত (Double Ellipse) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Multi-Valued Attribute",
+    "hints": "মূল তথ্য: ER ডায়াগ্রামে একাধিক মান ধারণকারী Multi-Valued Attribute প্রকাশ করতে ডাবল উপবৃত্ত (Double Ellipse) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 49,
+    "question": "DBMS-এ JOIN অপারেশনটি কী জন্য ব্যবহৃত হয়?",
+    "options": [
+      "টেবিল তৈরি করা",
+      "ডেটা মুছে ফেলা",
+      "একাধিক টেবিল থেকে ডেটা একত্রিত করা",
+      "নতুন রেকর্ড যোগ করা"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "একাধিক টেবিল থেকে ডেটা একত্রিত করা",
+    "explanation": "DBMS-এ দুই বা ততোধিক টেবিলের মধ্যে সাধারণ কলামের ভিত্তিতে সম্পর্কিত রেকর্ডগুলোকে একত্রিত করতে JOIN অপারেশন ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "একাধিক টেবিল থেকে ডেটা একত্রিত করা",
+    "hints": "মূল তথ্য: DBMS-এ দুই বা ততোধিক টেবিলের মধ্যে সাধারণ কলামের ভিত্তিতে সম্পর্কিত রেকর্ডগুলোকে একত্রিত করতে JOIN অপারেশন ব্যবহৃত হয়।"
+  },
+  {
+    "id": 50,
+    "question": "একটি ডেটাবেস টেবিলে Column কী নামে পরিচিত?",
+    "options": [
+      "Record",
+      "Tuple",
+      "Attribute",
+      "Entity"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Attribute",
+    "explanation": "একটি ডেটাবেস টেবিলের কলামকে Attribute বা ফিল্ড বলা হয় এবং সারিকে Tuple বা রেকর্ড বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "6. Database Management System",
+    "chapter": "6. Database Management System",
+    "correctAnswer": "Attribute",
+    "hints": "মূল তথ্য: একটি ডেটাবেস টেবিলের কলামকে Attribute বা ফিল্ড বলা হয় এবং সারিকে Tuple বা রেকর্ড বলা হয়।"
+  }
+]

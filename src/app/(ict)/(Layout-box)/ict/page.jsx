@@ -70,12 +70,16 @@ function IctDirectoryContent() {
 
   // Helper to score an exam for sorting
   const getExamSortScore = (exam) => {
-    // 1. Chapter Number (e.g. অধ্যায় ০১, ০২... ক, খ...)
+    // 1. Chapter Number (e.g. অধ্যায় ০১, ০২... or 1. Compter Fundamental, 10. Recent IT Advancement)
     const bnMatch = exam.title.match(/(?:অধ্যায়|অধ্যায়)\s*[-:]?\s*([০-৯0-9]+)/);
+    const numPrefixMatch = exam.title.match(/^\s*([০-৯0-9]+)\s*[\.\-:]/);
     let chapterNum = 0;
+    const bnMap = { '০': '0', '১': '1', '২': '2', '৩': '3', '৪': '4', '৫': '5', '৬': '6', '৭': '7', '৮': '8', '৯': '9' };
     if (bnMatch) {
-      const bnMap = { '০': '0', '১': '1', '২': '2', '৩': '3', '৪': '4', '৫': '5', '৬': '6', '৭': '7', '৮': '8', '৯': '9' };
       const converted = bnMatch[1].replace(/[০-৯]/g, d => bnMap[d] || d);
+      chapterNum = parseInt(converted, 10) || 0;
+    } else if (numPrefixMatch) {
+      const converted = numPrefixMatch[1].replace(/[০-৯]/g, d => bnMap[d] || d);
       chapterNum = parseInt(converted, 10) || 0;
     }
 
@@ -340,7 +344,7 @@ function IctDirectoryContent() {
             আইসিটি ও কম্পিউটার প্রশ্নব্যাংক
           </h1>
           <p style={{ color: 'var(--text-secondary)', fontSize: '1rem', maxWidth: '700px' }}>
-            Class 9-10 কম্পিউটার জিকে ও এনটিআরসিএ আইসিটি উইজার্ড-এর অধ্যায়ভিত্তিক প্রশ্ন ও ব্যাখ্যা অনুশীলন করুন।
+            Class 9-10 কম্পিউটার জিকে, এনটিআরসিএ ও BPSC আইসিটি উইজার্ড-এর অধ্যায়ভিত্তিক প্রশ্ন ও ব্যাখ্যা অনুশীলন করুন।
           </p>
         </div>
 

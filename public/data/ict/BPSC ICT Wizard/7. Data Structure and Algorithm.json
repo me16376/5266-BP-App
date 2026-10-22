@@ -1,0 +1,610 @@
+[
+  {
+    "id": 1,
+    "question": "Which one is non-linear Data Structure? [নিচের কোনটি non-linear ডাটা স্ট্রাকচার?]",
+    "options": [
+      "Stack",
+      "List",
+      "Array",
+      "Map"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Map",
+    "explanation": "অ্যারে, স্ট্যাক এবং লিস্ট হলো লিনিয়ার ডেটা স্ট্রাকচার যেখানে উপাদানগুলো অনুক্রমিকভাবে থাকে। অপরদিকে ম্যাপ, ট্রি বা গ্রাফ হলো নন-লিনিয়ার ডেটা স্ট্রাকচার।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Map",
+    "hints": "মূল তথ্য: অ্যারে, স্ট্যাক এবং লিস্ট হলো লিনিয়ার ডেটা স্ট্রাকচার যেখানে উপাদানগুলো অনুক্রমিকভাবে থাকে।"
+  },
+  {
+    "id": 2,
+    "question": "Which one follow LIFO? [নিচের কোনটি LIFO অনুসরণ করে] (BPSC AP, AME)",
+    "options": [
+      "Stack",
+      "Linked list",
+      "Array",
+      "Queue"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Stack",
+    "explanation": "স্ট্যাক (Stack) লাস্ট-ইন-ফার্স্ট-আউট (LIFO) নীতি অনুসরণ করে, যেখানে সর্বশেষ যুক্ত হওয়া উপাদানটি সবার আগে বের বা রিমুভ করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Stack",
+    "hints": "মূল তথ্য: স্ট্যাক (Stack) লাস্ট-ইন-ফার্স্ট-আউট (LIFO) নীতি অনুসরণ করে, যেখানে সর্বশেষ যুক্ত হওয়া উপাদানটি সবার আগে বের বা রিমুভ...।"
+  },
+  {
+    "id": 3,
+    "question": "POP/PUSH related to? [POP/PUSH কোনটার সাথে সম্পর্কিত?] (Bank)",
+    "options": [
+      "Stack",
+      "Linked list",
+      "Array",
+      "Queue"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Stack",
+    "explanation": "স্ট্যাকে নতুন উপাদান যুক্ত করার প্রক্রিয়াকে PUSH এবং উপাদান মুছে ফেলাকে POP বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Stack",
+    "hints": "মূল তথ্য: স্ট্যাকে নতুন উপাদান যুক্ত করার প্রক্রিয়াকে PUSH এবং উপাদান মুছে ফেলাকে POP বলা হয়।"
+  },
+  {
+    "id": 4,
+    "question": "In which, Data elements stored at Continuous memory location? [ডেটা এলিমেন্টস পাশাপাশি মেমরি লোকেশন সংরক্ষণ করা হয় কোনটায়?]",
+    "options": [
+      "Stack",
+      "Linked list",
+      "Array",
+      "Queue"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Array",
+    "explanation": "অ্যারে (Array)-তে ডেটা উপাদানগুলো মেমরির পাশাপাশি বা নিরবচ্ছিন্ন (Continuous/Contiguous) মেমরি লোকেশনে সংরক্ষিত থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Array",
+    "hints": "মূল তথ্য: অ্যারে (Array)-তে ডেটা উপাদানগুলো মেমরির পাশাপাশি বা নিরবচ্ছিন্ন (Continuous/Contiguous) মেমরি লোকেশনে সংরক্ষিত থাকে।"
+  },
+  {
+    "id": 5,
+    "question": "\"Patient serial for Doctor\" related to? [\"ডাক্তারের জন্য রোগীর সিরিয়াল\" কোন ডেটা স্ট্রাকচারের সাথে সম্পর্কিত?]",
+    "options": [
+      "Stack",
+      "Linked list",
+      "Array",
+      "Queue"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Queue",
+    "explanation": "ডাক্তারের সিরিয়াল First-In, First-Out (FIFO) নীতিতে পরিচালিত হয়, যা কিউ (Queue) ডেটা স্ট্রাকচারের বাস্তব উদাহরণ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Queue",
+    "hints": "মূল তথ্য: ডাক্তারের সিরিয়াল First-In, First-Out (FIFO) নীতিতে পরিচালিত হয়, যা কিউ (Queue) ডেটা স্ট্রাকচারের বাস্তব উদাহরণ।"
+  },
+  {
+    "id": 6,
+    "question": "Which data structure is a collection of elements where each element is connected to the next and previous element? [কোন ডেটা স্ট্রাকচার এ প্রতিটি এলিমেন্টস পরবর্তী এবং পূর্ববর্তী এলিমেন্টস সাথে সংযুক্ত থাকে?]",
+    "options": [
+      "Stack",
+      "Queue",
+      "Linked List",
+      "Array"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Linked List",
+    "explanation": "ডাবল লিঙ্কড লিস্ট (Doubly Linked List)-এর প্রতিটি নোডে ডেটার পাশাপাশি দুটি পয়েন্টার থাকে যা পরবর্তী এবং পূর্ববর্তী নোডের সাথে সংযুক্ত থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Linked List",
+    "hints": "মূল তথ্য: ডাবল লিঙ্কড লিস্ট (Doubly Linked List)-এর প্রতিটি নোডে ডেটার পাশাপাশি দুটি পয়েন্টার থাকে যা পরবর্তী এবং পূর্ববর্তী নো...।"
+  },
+  {
+    "id": 7,
+    "question": "What is the process of adding an element to a queue called? [একটি Queue তে একটি element যুক্ত করার প্রক্রিয়াকে কী বলা হয়?]",
+    "options": [
+      "Push",
+      "Pop",
+      "Enqueue",
+      "Dequeue"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Enqueue",
+    "explanation": "কিউ (Queue)-তে নতুন উপাদান যুক্ত করার প্রক্রিয়াকে Enqueue এবং কিউ থেকে উপাদান অপসারণ করাকে Dequeue বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Enqueue",
+    "hints": "মূল তথ্য: কিউ (Queue)-তে নতুন উপাদান যুক্ত করার প্রক্রিয়াকে Enqueue এবং কিউ থেকে উপাদান অপসারণ করাকে Dequeue বলা হয়।"
+  },
+  {
+    "id": 8,
+    "question": "What is the primary advantage of a linked list over an array? [Array চেয়ে Linked List এ প্রধান সুবিধা কী?]",
+    "options": [
+      "Faster random access to elements",
+      "Static size",
+      "Dynamic size",
+      "Better cache performance"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Dynamic size",
+    "explanation": "অ্যারের সাইজ সাধারণত ফিক্সড বা স্ট্যাটিক, কিন্তু লিঙ্কড লিস্টের মেমরি রানটাইমে প্রয়োজন অনুযায়ী বৃদ্ধি বা হ্রাস করা যায় (Dynamic size)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Dynamic size",
+    "hints": "মূল তথ্য: অ্যারের সাইজ সাধারণত ফিক্সড বা স্ট্যাটিক, কিন্তু লিঙ্কড লিস্টের মেমরি রানটাইমে প্রয়োজন অনুযায়ী বৃদ্ধি বা হ্রাস করা যা...।"
+  },
+  {
+    "id": 9,
+    "question": "Link list can be implemented by? [নিচের কোনটি Linked List মাধ্যমে ইমপ্লিমেন্ট করা যায়?] (Bank)",
+    "options": [
+      "Array",
+      "Pointer",
+      "Recursion",
+      "Both A & B"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Both A & B",
+    "explanation": "লিঙ্কড লিস্ট পয়েন্টার (Pointer) এবং অ্যারে (Array) উভয় কাঠামোর মাধ্যমেই কার্যকরভাবে ইমপ্লিমেন্ট করা সম্ভব।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Both A & B",
+    "hints": "মূল তথ্য: লিঙ্কড লিস্ট পয়েন্টার (Pointer) এবং অ্যারে (Array) উভয় কাঠামোর মাধ্যমেই কার্যকরভাবে ইমপ্লিমেন্ট করা সম্ভব।"
+  },
+  {
+    "id": 10,
+    "question": "Link list have minimum two fields, one is Data, another? লিঙ্কড লিস্টের কমপক্ষে দুটি ফিল্ড থাকে, একটি হলো ডেটা, অন্যটি কী? (BPSC AP)",
+    "options": [
+      "Pointer to char",
+      "Pointer",
+      "Node",
+      "Null"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Pointer",
+    "explanation": "লিঙ্কড লিস্টের প্রতিটি নোডে ন্যূনতম দুটি ফিল্ড থাকে: একটি ডেটা ধারণের ফিল্ড এবং অন্যটি পরবর্তী নোডের ঠিকানা নির্দেশকারী পয়েন্টার (Pointer)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Pointer",
+    "hints": "মূল তথ্য: লিঙ্কড লিস্টের প্রতিটি নোডে ন্যূনতম দুটি ফিল্ড থাকে: একটি ডেটা ধারণের ফিল্ড এবং অন্যটি পরবর্তী নোডের ঠিকানা নির্দেশকা...।"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following expressions is a valid postfix expression? [নিচের এক্সপ্রেশনগুলির মধ্যে কোনটি একটি বৈধ পোস্টফিক্স এক্সপ্রেশন? ] (BPSC AP)",
+    "options": [
+      "+ 2 3",
+      "2 + 3",
+      "2 3 +",
+      "(2 + 3)"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "2 3 +",
+    "explanation": "পোস্টফিক্স (Postfix) এক্সপ্রেশনে অপারেন্ডগুলো প্রথমে বসে এবং অপারেটর পরে বসে, তাই '2 3 +' একটি বৈধ পোস্টফিক্স এক্সপ্রেশন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "2 3 +",
+    "hints": "মূল তথ্য: পোস্টফিক্স (Postfix) এক্সপ্রেশনে অপারেন্ডগুলো প্রথমে বসে এবং অপারেটর পরে বসে, তাই '2 3 +' একটি বৈধ পোস্টফিক্স এক্সপ্রেশন।"
+  },
+  {
+    "id": 12,
+    "question": "Scheduling queue is generally stored as [শিডিউলিং কিউতে সাধারণত কোন ডেটা স্ট্রাকচার হিসেবে সংরক্ষণ করা হয়?] (BPSC AME)",
+    "options": [
+      "Stack",
+      "Queue",
+      "Linked List",
+      "Array"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Linked List",
+    "explanation": "অপারেটিং সিস্টেমের প্রসেস শিডিউলিং কিউতে প্রসেসের সংখ্যা পরিবর্তনশীল ও গতিশীল হওয়ায় তা সাধারণত লিঙ্কড লিস্ট (Linked List) হিসেবে সংরক্ষিত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Linked List",
+    "hints": "মূল তথ্য: অপারেটিং সিস্টেমের প্রসেস শিডিউলিং কিউতে প্রসেসের সংখ্যা পরিবর্তনশীল ও গতিশীল হওয়ায় তা সাধারণত লিঙ্কড লিস্ট (Linked L...।"
+  },
+  {
+    "id": 13,
+    "question": "What is the precedence of arithmetic operator (High-Low) [অ্যারিথমেটিক অপারেটর বড় থেকে ছোট অনুযায়ী কি হবে?] - (Bank)",
+    "options": [
+      "*, /, %, +, -",
+      "/, %, *, +, -",
+      "%, /, *, +, -",
+      "-, +, *, /, %"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "%, /, *, +, -",
+    "explanation": "গাণিতিক অপারেশনের অগ্রাধিকার অনুযায়ী গুণ (*), ভাগ (/) এবং মডুলাস (%) অপারেটরের অগ্রাধিকার যোগ (+) এবং বিয়োগ (-) অপারেটরের চেয়ে বেশি।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "%, /, *, +, -",
+    "hints": "মূল তথ্য: গাণিতিক অপারেশনের অগ্রাধিকার অনুযায়ী গুণ (*), ভাগ (/) এবং মডুলাস (%) অপারেটরের অগ্রাধিকার যোগ (+) এবং বিয়োগ (-) অপার...।"
+  },
+  {
+    "id": 14,
+    "question": "Which Type of Data structure use recursion in Java [Java তে রিকার্শনের জন্য কোন ধরনের ডাটা স্ট্রাকচার ব্যবহার করা হয়?] - (Bank)",
+    "options": [
+      "Stack",
+      "Queue",
+      "Linked List",
+      "Array"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Stack",
+    "explanation": "জাভাসহ যেকোনো প্রোগ্রামিং ভাষায় রিকার্সিভ ফাংশন কলের সময় স্টেট ও ভ্যারিয়েবল ট্র্যাক করতে সিস্টেমের ইন্টারনাল কল স্ট্যাক (Stack) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Stack",
+    "hints": "মূল তথ্য: জাভাসহ যেকোনো প্রোগ্রামিং ভাষায় রিকার্সিভ ফাংশন কলের সময় স্টেট ও ভ্যারিয়েবল ট্র্যাক করতে সিস্টেমের ইন্টারনাল কল স্ট্য...।"
+  },
+  {
+    "id": 15,
+    "question": "BFS related to? [BFS কিসের সাথে সম্পৃক্ত]",
+    "options": [
+      "Tree",
+      "Heap",
+      "Graph",
+      "Map"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Graph",
+    "explanation": "BFS (Breadth-First Search) হলো গ্রাফ এবং ট্রি ট্রাভার্সাল বা অনুসন্ধানের একটি গুরুত্বপূর্ণ অ্যালগরিদম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Graph",
+    "hints": "মূল তথ্য: BFS (Breadth-First Search) হলো গ্রাফ এবং ট্রি ট্রাভার্সাল বা অনুসন্ধানের একটি গুরুত্বপূর্ণ অ্যালগরিদম।"
+  },
+  {
+    "id": 16,
+    "question": "In Max-heap, Which have large number? [Max-heap এ কোনটি বড়?] (BPSC AP, AME)",
+    "options": [
+      "leaf",
+      "Internal Node",
+      "Root",
+      "Outside"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Root",
+    "explanation": "ম্যাক্স-হিপ (Max-Heap)-এর বৈশিষ্ট্য অনুযায়ী এর রুট (Root) নোডে সর্বদা সম্পূর্ণ ট্রির মধ্যে সর্বোচ্চ বা সবচেয়ে বড় মানটি অবস্থান করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Root",
+    "hints": "মূল তথ্য: ম্যাক্স-হিপ (Max-Heap)-এর বৈশিষ্ট্য অনুযায়ী এর রুট (Root) নোডে সর্বদা সম্পূর্ণ ট্রির মধ্যে সর্বোচ্চ বা সবচেয়ে বড় মানট...।"
+  },
+  {
+    "id": 17,
+    "question": "Path between two vertices in a graph defined as? [গ্রাফে, দুইটা ভার্টেক্সের মধ্যবর্তি দূরত্বকে কি বলে?]",
+    "options": [
+      "The number of edges in the graph",
+      "A sequence of vertices and edges",
+      "The degree of a vertex",
+      "A connected component"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "A sequence of vertices and edges",
+    "explanation": "গ্রাফের একটি ভার্টেক্স থেকে অন্য ভার্টেক্সে পৌঁছানোর জন্য ক্রমান্বয়ে সংযুক্ত ভার্টেক্স এবং এজ-এর অনুক্রমকে পাথ (Path) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "A sequence of vertices and edges",
+    "hints": "মূল তথ্য: গ্রাফের একটি ভার্টেক্স থেকে অন্য ভার্টেক্সে পৌঁছানোর জন্য ক্রমান্বয়ে সংযুক্ত ভার্টেক্স এবং এজ-এর অনুক্রমকে পাথ (Path)...।"
+  },
+  {
+    "id": 18,
+    "question": "Path exists between every pair of vertices, called-? [যদি গ্রাফের প্রতিটি জোড়া ভার্টেক্সের মধ্যে একটি path থাকে, তবে সেই গ্রাফকে বলা হয়...?]",
+    "options": [
+      "Disconnected Graph",
+      "Directed Graph",
+      "Complete Graph",
+      "Connected Graph"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Connected Graph",
+    "explanation": "যদি কোনো গ্রাফের প্রতিটি জোড়া ভার্টেক্সের মধ্যে কোনো না কোনো পাথ বা পথ বিদ্যমান থাকে, তবে তাকে কানেক্টেড গ্রাফ (Connected Graph) বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Connected Graph",
+    "hints": "মূল তথ্য: যদি কোনো গ্রাফের প্রতিটি জোড়া ভার্টেক্সের মধ্যে কোনো না কোনো পাথ বা পথ বিদ্যমান থাকে, তবে তাকে কানেক্টেড গ্রাফ (Conne...।"
+  },
+  {
+    "id": 19,
+    "question": "What is a graph where the edges have a specific direction called? [যে গ্রাফের edges গুলোতে একটি নির্দিষ্ট direction থাকে, তাকে বলা হয়...?]",
+    "options": [
+      "Undirected Graph",
+      "Simple Graph",
+      "Directed Graph",
+      "Weighted Graph"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Directed Graph",
+    "explanation": "যে গ্রাফে প্রতিটি এজ-এর একটি সুনির্দিষ্ট দিক বা ডিরেকশন (Arrow) থাকে, তাকে ডিরেক্টেড গ্রাফ (Directed Graph) বা Digraph বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Directed Graph",
+    "hints": "মূল তথ্য: যে গ্রাফে প্রতিটি এজ-এর একটি সুনির্দিষ্ট দিক বা ডিরেকশন (Arrow) থাকে, তাকে ডিরেক্টেড গ্রাফ (Directed Graph) বা Digrap...।"
+  },
+  {
+    "id": 20,
+    "question": "Algorithm used to find the shortest path from a single source vertex to all other vertices in a weighted graph? [একটি weighted graph একটি নির্দিষ্ট সোর্স ভার্টেক্স থেকে অন্যান্য সমস্ত ভার্টেক্সের মধ্যে সর্বনিম্ন পথের দৈর্ঘ্য খুঁজে বের করে কোন অ্যালগরিদম?]",
+    "options": [
+      "Breadth-First Search (BFS)",
+      "Depth-First Search (DFS)",
+      "Dijkstra's Algorithm",
+      "Prim's Algorithm"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Dijkstra's Algorithm",
+    "explanation": "ওয়েটেড গ্রাফে একক সোর্স ভার্টেক্স থেকে অন্যান্য সকল ভার্টেক্সের ক্ষুদ্রতম পথ খুঁজে বের করতে ডাইকস্ট্রার অ্যালগরিদম (Dijkstra's Algorithm) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Dijkstra's Algorithm",
+    "hints": "মূল তথ্য: ওয়েটেড গ্রাফে একক সোর্স ভার্টেক্স থেকে অন্যান্য সকল ভার্টেক্সের ক্ষুদ্রতম পথ খুঁজে বের করতে ডাইকস্ট্রার অ্যালগরিদম (D...।"
+  },
+  {
+    "id": 21,
+    "question": "Which of the following is an example of a graph traversal algorithm? [নিচের কোনটি গ্রাফ ট্রাভার্সালের জন্য ব্যবহার করা হয়]",
+    "options": [
+      "Kruskal's Algorithm",
+      "Dijkstra's Algorithm",
+      "Topological Sort",
+      "Breadth-First Search"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Breadth-First Search",
+    "explanation": "Breadth-First Search (BFS) এবং Depth-First Search (DFS) হলো গ্রাফ ট্রাভার্সাল বা পরিদর্শনের বহুল ব্যবহৃত অ্যালগরিদম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Breadth-First Search",
+    "hints": "মূল তথ্য: Breadth-First Search (BFS) এবং Depth-First Search (DFS) হলো গ্রাফ ট্রাভার্সাল বা পরিদর্শনের বহুল ব্যবহৃত অ্যালগরিদম।"
+  },
+  {
+    "id": 22,
+    "question": "What is a graph with no cycles called? [সাইকেল ছাড়া গ্রাফকে কি বলে?]",
+    "options": [
+      "Tree",
+      "Connected Graph",
+      "Complete Graph",
+      "Disconnected Graph"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Tree",
+    "explanation": "কোনো প্রকার সাইকেল বা লুপ ছাড়া সংযুক্ত গ্রাফকে ট্রি (Tree) বা অ্যাক্লিকলিক গ্রাফ বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Tree",
+    "hints": "মূল তথ্য: কোনো প্রকার সাইকেল বা লুপ ছাড়া সংযুক্ত গ্রাফকে ট্রি (Tree) বা অ্যাক্লিকলিক গ্রাফ বলা হয়।"
+  },
+  {
+    "id": 23,
+    "question": "What is the number of edges connected to a vertex called? [একটি Vertex সাথে সংযুক্ত Edges সংখ্যাকে তার ... বলা হয়।]",
+    "options": [
+      "Path",
+      "Degree",
+      "Cycle",
+      "Weight"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Degree",
+    "explanation": "একটি ভার্টেক্সের সাথে সরাসরি যতগুলো এজ বা সংযোগ লাইন যুক্ত থাকে, তাকে ওই ভার্টেক্সের ডিগ্রি (Degree) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Degree",
+    "hints": "মূল তথ্য: একটি ভার্টেক্সের সাথে সরাসরি যতগুলো এজ বা সংযোগ লাইন যুক্ত থাকে, তাকে ওই ভার্টেক্সের ডিগ্রি (Degree) বলা হয়।"
+  },
+  {
+    "id": 24,
+    "question": "Which algorithm is used to find a Minimum Spanning Tree (MST)? [নিচের কোন অ্যালগরিদম মিনিমাম স্প্যানিং ট্রি ব্যবহার করা হয়?]",
+    "options": [
+      "Dijkstra's Algorithm",
+      "Bellman-Ford Algorithm",
+      "Kruskal's Algorithm",
+      "Floyd-Warshall Algorithm"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Kruskal's Algorithm",
+    "explanation": "ক্রুসকালের অ্যালগরিদম (Kruskal's Algorithm) এবং প্রিমের অ্যালগরিদম হলো মিনিমাম স্প্যানিং ট্রি (MST) নির্ণয়ের বহুল ব্যবহৃত অ্যালগরিদম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Kruskal's Algorithm",
+    "hints": "মূল তথ্য: ক্রুসকালের অ্যালগরিদম (Kruskal's Algorithm) এবং প্রিমের অ্যালগরিদম হলো মিনিমাম স্প্যানিং ট্রি (MST) নির্ণয়ের বহুল ব্য...।"
+  },
+  {
+    "id": 25,
+    "question": "What is a graph called where the edges have numerical values? [যে গ্রাফের Edges সংখ্যাসূচক মান দেওয়া থাকে, তাকে ......বলা হয়।]",
+    "options": [
+      "Directed Graph",
+      "Undirected Graph",
+      "Weighted Graph",
+      "Simple Graph"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Weighted Graph",
+    "explanation": "যে গ্রাফের প্রতিটি এজ-এর সাথে সাংখ্যিক মান বা কস্ট (Weight) নির্ধারিত থাকে, তাকে ওয়েটেড গ্রাফ (Weighted Graph) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Weighted Graph",
+    "hints": "মূল তথ্য: যে গ্রাফের প্রতিটি এজ-এর সাথে সাংখ্যিক মান বা কস্ট (Weight) নির্ধারিত থাকে, তাকে ওয়েটেড গ্রাফ (Weighted Graph) বলা হয়।"
+  },
+  {
+    "id": 26,
+    "question": "Which sorting technique not compare among element numbers? [কোন Sorting কৌশলটি Elements গুলোর মধ্যে তুলনা করে না?]",
+    "options": [
+      "Bubble Sort",
+      "Selection Sort",
+      "Quick Sort",
+      "Radix Sort"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Radix Sort",
+    "explanation": "র‌্যাডিক্স সর্ট (Radix Sort) হলো একটি নন-কমপ্যারিজন সর্টিং টেকনিক, যা উপাদানগুলোর মধ্যকার মানের সরাসরি তুলনা না করে ডিজিটের ভিত্তিতে সাজায়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Radix Sort",
+    "hints": "মূল তথ্য: র‌্যাডিক্স সর্ট (Radix Sort) হলো একটি নন-কমপ্যারিজন সর্টিং টেকনিক, যা উপাদানগুলোর মধ্যকার মানের সরাসরি তুলনা না করে ড...।"
+  },
+  {
+    "id": 27,
+    "question": "Time complexity of Selection sort? [Selection Sort'র টাইম কমপ্লেক্সিটি কত?]",
+    "options": [
+      "Ω(N log n)",
+      "O(N²)",
+      "Ω(N)",
+      "θ(N log N)"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "O(N²)",
+    "explanation": "সিলেকশন সর্টের বেস্ট, ওর্স্ট এবং এভারেজ—সব ক্ষেত্রেই টাইম কমপ্লেক্সিটি O(N²), কারণ এতে উপাদান খুঁজতে দুটি নেস্টেড লুপ কাজ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "O(N²)",
+    "hints": "মূল তথ্য: সিলেকশন সর্টের বেস্ট, ওর্স্ট এবং এভারেজ—সব ক্ষেত্রেই টাইম কমপ্লেক্সিটি O(N²), কারণ এতে উপাদান খুঁজতে দুটি নেস্টেড লুপ...।"
+  },
+  {
+    "id": 28,
+    "question": "Which sorting technique is better?[কোন সর্টিং টেকনিকটি সবচেয়ে ভালো?] (BPSC AP)",
+    "options": [
+      "Bubble Sort",
+      "Selection Sort",
+      "Quick Sort",
+      "Merge Sort"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Quick Sort",
+    "explanation": "সাধারণ বড় ডেটাসেটের জন্য কুইক সর্ট (Quick Sort)-এর ইন-প্লেস মেমরি দক্ষতা ও গড় টাইম কমপ্লেক্সিটি O(N log N) সবচেয়ে কার্যকরী ও ভালো।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "Quick Sort",
+    "hints": "মূল তথ্য: সাধারণ বড় ডেটাসেটের জন্য কুইক সর্ট (Quick Sort)-এর ইন-প্লেস মেমরি দক্ষতা ও গড় টাইম কমপ্লেক্সিটি O(N log N) সবচেয়ে কার...।"
+  },
+  {
+    "id": 29,
+    "question": "What is the time complexity of the binary search algorithm? [বাইনারি সার্চ অ্যালগরিদমের টাইম কমপ্লেক্সিটি কত?] Bank, BPSC AME",
+    "options": [
+      "O(N)",
+      "O(N²)",
+      "O(N LOG N)",
+      "O(LOG N)"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "O(LOG N)",
+    "explanation": "বাইনারি সার্চ অ্যালগরিদম প্রতিটি ধাপে অনুসন্ধানের পরিধি অর্ধেকে কমিয়ে আনে, তাই এর টাইম কমপ্লেক্সিটি হলো O(log N)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "O(LOG N)",
+    "hints": "মূল তথ্য: বাইনারি সার্চ অ্যালগরিদম প্রতিটি ধাপে অনুসন্ধানের পরিধি অর্ধেকে কমিয়ে আনে, তাই এর টাইম কমপ্লেক্সিটি হলো O(log N)।"
+  },
+  {
+    "id": 30,
+    "question": "What is the time complexity of the Bubble sort? [Bubble sort এর time complexity কত?] (Bank)",
+    "options": [
+      "O(N)",
+      "O(N²)",
+      "O(N LOG N)",
+      "O(LOG N)"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "O(N²)",
+    "explanation": "বাবল সর্টে উপাদানগুলোর মধ্যে ক্রমান্বয়ে তুলনা করে অদলবদল করতে হয়, তাই এর গড় এবং নিকৃষ্ট ক্ষেত্রে টাইম কমপ্লেক্সিটি O(N²)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "O(N²)",
+    "hints": "মূল তথ্য: বাবল সর্টে উপাদানগুলোর মধ্যে ক্রমান্বয়ে তুলনা করে অদলবদল করতে হয়, তাই এর গড় এবং নিকৃষ্ট ক্ষেত্রে টাইম কমপ্লেক্সিটি O(N²)।"
+  },
+  {
+    "id": 31,
+    "question": "What is the main purpose of a hash function? [Hash Function এর প্রধান উদ্দেশ্য কী?]",
+    "options": [
+      "To sort data.",
+      "To encrypt data.",
+      "To map a key to an index.",
+      "To compress data."
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "To map a key to an index.",
+    "explanation": "হ্যাশ ফাংশনের প্রধান উদ্দেশ্য হলো যেকোনো ডেটা বা কী (Key)-কে একটি নির্দিষ্ট সীমার সূচক বা ইনডেক্সে (Index) ম্যাপ করা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "To map a key to an index.",
+    "hints": "মূল তথ্য: হ্যাশ ফাংশনের প্রধান উদ্দেশ্য হলো যেকোনো ডেটা বা কী (Key)-কে একটি নির্দিষ্ট সীমার সূচক বা ইনডেক্সে (Index) ম্যাপ করা।"
+  },
+  {
+    "id": 32,
+    "question": "Which data structure is used to build the code tree in the Huffman Algorithm? [Huffman Algorithm-এ code tree তৈরি করতে কোন ডেটা কাঠামো ব্যবহার করা হয়?]",
+    "options": [
+      "A linked list.",
+      "A stack.",
+      "A binary heap",
+      "An array."
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "A binary heap",
+    "explanation": "হাফম্যান কোডিং অ্যালগরিদমে ক্ষুদ্রতম ফ্রিকোয়েন্সির নোডগুলো সহজে বাছাই ও কোড ট্রি তৈরি করতে প্রায়োরিটি কিউ বা বাইনারি হিপ (Binary Heap) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "7. Data Structure and Algorithm",
+    "chapter": "7. Data Structure and Algorithm",
+    "correctAnswer": "A binary heap",
+    "hints": "মূল তথ্য: হাফম্যান কোডিং অ্যালগরিদমে ক্ষুদ্রতম ফ্রিকোয়েন্সির নোডগুলো সহজে বাছাই ও কোড ট্রি তৈরি করতে প্রায়োরিটি কিউ বা বাইনারি ...।"
+  }
+]

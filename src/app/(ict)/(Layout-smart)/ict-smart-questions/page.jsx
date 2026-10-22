@@ -1010,6 +1010,9 @@ function IctSmartQuestionsContent() {
     if (catId.includes('class-9-10') || catName.includes('class 9-10') || catName.includes('কম্পিউটার জিকে')) {
       return { id: 'class-9-10-computer-gk', label: 'Class 9-10 Computer GK' };
     }
+    if (catId.includes('bpsc') || catName.includes('bpsc')) {
+      return { id: 'bpsc-ict-wizard', label: 'BPSC ICT Wizard' };
+    }
     if (catId.includes('ict-wizard') || catName.includes('ict wizard') || catName.includes('উইজার্ড')) {
       return { id: 'ict-wizard-ntrca-313-and-325', label: 'ICT Wizard NTRCA (313 & 325)' };
     }

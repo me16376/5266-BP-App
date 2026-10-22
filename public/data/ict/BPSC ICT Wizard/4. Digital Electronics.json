@@ -1,0 +1,439 @@
+[
+  {
+    "id": 1,
+    "question": "Which one is complement of 100? [নিচের কোনটি ১০০ এর কমপ্লিমেন্ট] 12th BCS",
+    "options": [
+      "111",
+      "101",
+      "011",
+      "001"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "011",
+    "explanation": "বাইনারিতে 100-এর 1's complement হলো প্রতিটি বিটকে উল্টে দেওয়া (1 কে 0 এবং 0 কে 1), ফলে 100 এর কমপ্লিমেন্ট হবে 011।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "011",
+    "hints": "মূল তথ্য: বাইনারিতে 100-এর 1's complement হলো প্রতিটি বিটকে উল্টে দেওয়া (1 কে 0 এবং 0 কে 1), ফলে 100 এর কমপ্লিমেন্ট হবে 011।"
+  },
+  {
+    "id": 2,
+    "question": "Which is the binary of (52)₁₆? [ নিচের কোনটি (52)₁₆ এর বাইনারি] 13th BCS",
+    "options": [
+      "01010010",
+      "01110011",
+      "00001100",
+      "11110000"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "01010010",
+    "explanation": "হেক্সাডেসিমেলের প্রতিটি ডিজিট ৪-বিট বাইনারিতে রূপান্তর: (5)₁₆ = 0101 এবং (2)₁₆ = 0010। সুতরাং (52)₁₆ = 01010010।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "01010010",
+    "hints": "মূল তথ্য: হেক্সাডেসিমেলের প্রতিটি ডিজিট ৪-বিট বাইনারিতে রূপান্তর: (5)₁₆ = 0101 এবং (2)₁₆ = 0010।"
+  },
+  {
+    "id": 3,
+    "question": "How many bits are in BCD [BCD তে কতগুলো বিট থাকে]?",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "4",
+    "explanation": "BCD (Binary Coded Decimal) পদ্ধতিতে দশমিক সংখ্যার প্রতিটি অঙ্ককে পৃথকভাবে ৪-বিট বাইনারি কোড দ্বারা প্রকাশ করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "4",
+    "hints": "মূল তথ্য: BCD (Binary Coded Decimal) পদ্ধতিতে দশমিক সংখ্যার প্রতিটি অঙ্ককে পৃথকভাবে ৪-বিট বাইনারি কোড দ্বারা প্রকাশ করা হয়।"
+  },
+  {
+    "id": 4,
+    "question": "Which one is not Octal number? [নিচের কোনটি অক্টাল নাম্বার নয়] 13th BCS",
+    "options": [
+      "91",
+      "15",
+      "77",
+      "101"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "91",
+    "explanation": "অক্টাল সংখ্যা পদ্ধতিতে ০ থেকে ৭ পর্যন্ত মোট ৮টি অঙ্ক ব্যবহৃত হয়। ৯ কোনো অক্টাল অঙ্ক নয়, তাই 91 অক্টাল সংখ্যা হতে পারে না।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "91",
+    "hints": "মূল তথ্য: অক্টাল সংখ্যা পদ্ধতিতে ০ থেকে ৭ পর্যন্ত মোট ৮টি অঙ্ক ব্যবহৃত হয়।"
+  },
+  {
+    "id": 5,
+    "question": "Which is the 1's Complement of 10101111? [10101111 এর ১ এর পরিপূরক কত?] 14th BCS",
+    "options": [
+      "1111 1111",
+      "00000000",
+      "01010000",
+      "11000011"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "01010000",
+    "explanation": "10101111 এর 1's Complement হলো প্রতিটি বিট উল্টে দেওয়া: 1 কে 0 এবং 0 কে 1 করলে পাওয়া যায় 01010000।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "01010000",
+    "hints": "মূল তথ্য: 10101111 এর 1's Complement হলো প্রতিটি বিট উল্টে দেওয়া: 1 কে 0 এবং 0 কে 1 করলে পাওয়া যায় 01010000।"
+  },
+  {
+    "id": 6,
+    "question": "What is the 2's complement of (12)₁₀ [(12)₁₀ এর ২ এর পরিপূরক কত?]?",
+    "options": [
+      "00001100",
+      "11111100",
+      "11110011",
+      "11110100"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "11110011",
+    "explanation": "(12)₁₀ এর ৮-বিট বাইনারি হলো 00001100। এর 1's complement হলো 11110011 এবং এর সাথে 1 যোগ করলে 2's complement পাওয়া যায় 11110100।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "11110011",
+    "hints": "মূল তথ্য: (12)₁₀ এর ৮-বিট বাইনারি হলো 00001100।"
+  },
+  {
+    "id": 7,
+    "question": "(1011)₂ + (0101)₂ কত? 16th BCS",
+    "options": [
+      "1100",
+      "11000",
+      "01100",
+      "None"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "None",
+    "explanation": "(1011)₂ + (0101)₂ = (10000)₂ বা ডেসিমেলে 11 + 5 = 16। প্রদত্ত অপশনগুলোতে 10000 না থাকায় সঠিক উত্তর None।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "None",
+    "hints": "মূল তথ্য: (1011)₂ + (0101)₂ = (10000)₂ বা ডেসিমেলে 11 + 5 = 16।"
+  },
+  {
+    "id": 8,
+    "question": "What is the subsequent value of the series 1,8,F? [1,8,F এর পরের সংখ্যা কত?]",
+    "options": [
+      "A",
+      "B",
+      "16",
+      "22"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "16",
+    "explanation": "এটি একটি হেক্সাডেসিমেল ধারা যেখানে প্রতিটি পদ ৭ করে বাড়ছে: 1 + 7 = 8, 8 + 7 = 15 (হেক্সাডেসিমেলে F), এবং F + 7 = 22 (যা হেক্সাডেসিমেলে 16)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "16",
+    "hints": "মূল তথ্য: এটি একটি হেক্সাডেসিমেল ধারা যেখানে প্রতিটি পদ ৭ করে বাড়ছে: 1 + 7 = 8, 8 + 7 = 15 (হেক্সাডেসিমেলে F), এবং F + 7 = 22 (...।"
+  },
+  {
+    "id": 9,
+    "question": "(100)₂ + (AA)₁₆ =?",
+    "options": [
+      "1AA",
+      "1B",
+      "AF",
+      "AE"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "AE",
+    "explanation": "(100)₂ = 4 এবং (AA)₁₆ = 10×16 + 10 = 170। যোগফল 170 + 4 = 174, যা হেক্সাডেসিমেলে রূপান্তর করলে পাওয়া যায় AE (10×16 + 14 = 174)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "AE",
+    "hints": "মূল তথ্য: (100)₂ = 4 এবং (AA)₁₆ = 10×16 + 10 = 170।"
+  },
+  {
+    "id": 10,
+    "question": "Which one is the equivalent Binary number of (B5D)₁₆? [(B5D)₁₆ এর বাইনারি কত?]",
+    "options": [
+      "101101011101",
+      "101101011100",
+      "101101010101",
+      "101101011001"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "101101011101",
+    "explanation": "হেক্সাডেসিমেল থেকে বাইনারি রূপান্তর: B = 1011, 5 = 0101, D = 1101। একত্রে সাজালে (B5D)₁₆ = 101101011101।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "101101011101",
+    "hints": "মূল তথ্য: হেক্সাডেসিমেল থেকে বাইনারি রূপান্তর: B = 1011, 5 = 0101, D = 1101।"
+  },
+  {
+    "id": 11,
+    "question": "11100010 has a decimal value of .....? [11100010 এর ডেসিমেল ভ্যালু কত?]",
+    "options": [
+      "252",
+      "255",
+      "226",
+      "220"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "226",
+    "explanation": "বাইনারি 11100010 এর ডেসিমেল মান: (1×128) + (1×64) + (1×32) + (0×16) + (0×8) + (0×4) + (1×2) + (0×1) = 128 + 64 + 32 + 2 = 226।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "226",
+    "hints": "মূল তথ্য: বাইনারি 11100010 এর ডেসিমেল মান: (1×128) + (1×64) + (1×32) + (0×16) + (0×8) + (0×4) + (1×2) + (0×1) = 128 + 64 + 32 +...।"
+  },
+  {
+    "id": 12,
+    "question": "(300)₁₀ convert into Hexadecimal, will be.....? [(300)₁₀ এর হেক্সাডেসিমেল কত?] BPSC NE'19",
+    "options": [
+      "C3",
+      "12C",
+      "C2",
+      "A2C"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "12C",
+    "explanation": "(300)₁₀ কে ১৬ দ্বারা ক্রমান্বয়ে ভাগ করলে: 300 ÷ 16 = 18 (ভাগশেষ 12 বা C), 18 ÷ 16 = 1 (ভাগশেষ 2), 1 ÷ 16 = 0 (ভাগশেষ 1)। সুতরাং হেক্সাডেসিমেল মান 12C।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "12C",
+    "hints": "মূল তথ্য: (300)₁₀ কে ১৬ দ্বারা ক্রমান্বয়ে ভাগ করলে: 300 ÷ 16 = 18 (ভাগশেষ 12 বা C), 18 ÷ 16 = 1 (ভাগশেষ 2), 1 ÷ 16 = 0 (ভাগশেষ 1)।"
+  },
+  {
+    "id": 13,
+    "question": "Which one is Universal Gate? [নিচের কোনটি ইউনিভার্সাল গেট?] Multiple Bank, BPSC",
+    "options": [
+      "AND",
+      "XOR",
+      "OR",
+      "NAND"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "NAND",
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো মৌলিক লজিক গেট বা ডিজিটাল বর্তনী তৈরি করা যায় বলে এদেরকে সার্বজনীন গেট (Universal Gate) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "NAND",
+    "hints": "মূল তথ্য: NAND এবং NOR গেট দিয়ে যেকোনো মৌলিক লজিক গেট বা ডিজিটাল বর্তনী তৈরি করা যায় বলে এদেরকে সার্বজনীন গেট (Universal Gate) ...।"
+  },
+  {
+    "id": 14,
+    "question": "Which gate's output is the complement of its input? [নিচের কোনটি তার ইনপুটের পূরক?]",
+    "options": [
+      "AND Gate",
+      "OR Gate",
+      "NOT Gate",
+      "XOR Gate"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "NOT Gate",
+    "explanation": "NOT গেটের একটিমাত্র ইনপুট থাকে এবং এর আউটপুট সর্বদা ইনপুটের বিপরীত বা পূরক (Complement) হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "NOT Gate",
+    "hints": "মূল তথ্য: NOT গেটের একটিমাত্র ইনপুট থাকে এবং এর আউটপুট সর্বদা ইনপুটের বিপরীত বা পূরক (Complement) হয়।"
+  },
+  {
+    "id": 15,
+    "question": "“একটা ইনপুট ১ হলে আউটপুট ১ হবে” নিচের কোন গেট অনুযায়ী?",
+    "options": [
+      "AND",
+      "XOR",
+      "OR",
+      "NOT"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "OR",
+    "explanation": "OR গেটের লজিক অনুযায়ী ইনপুটগুলোর মধ্যে যেকোনো একটি ইনপুট 1 (High) হলেই আউটপুট 1 হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "OR",
+    "hints": "মূল তথ্য: OR গেটের লজিক অনুযায়ী ইনপুটগুলোর মধ্যে যেকোনো একটি ইনপুট 1 (High) হলেই আউটপুট 1 হয়।"
+  },
+  {
+    "id": 16,
+    "question": "What is the fundamental building block of all digital electronic circuits? [Digital Electronics এর মূল ভিত্তি কী?]",
+    "options": [
+      "Transistor",
+      "Resistor",
+      "Capacitor",
+      "Logic Gate"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Logic Gate",
+    "explanation": "লজিক গেট (Logic Gate) হলো ডিজিটাল ইলেকট্রনিক্স এবং কম্পিউটার সার্কিটের মৌলিক গাঠনিক একক (Fundamental Building Block)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "Logic Gate",
+    "hints": "মূল তথ্য: লজিক গেট (Logic Gate) হলো ডিজিটাল ইলেকট্রনিক্স এবং কম্পিউটার সার্কিটের মৌলিক গাঠনিক একক (Fundamental Building Block)।"
+  },
+  {
+    "id": 17,
+    "question": "The output of a NOR gate is high (1) only when: [একটা NOR গেটের আউটপুট ১ হবে যখন ...]",
+    "options": [
+      "All inputs are low (0).",
+      "All inputs are high (1).",
+      "One input is high and the other is low.",
+      "The inputs are different."
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "All inputs are low (0).",
+    "explanation": "NOR গেট হলো OR গেটের বিপরীত; যখন সমস্ত ইনপুট 0 (Low) থাকে, শুধুমাত্র তখনই আউটপুট 1 (High) হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "All inputs are low (0).",
+    "hints": "মূল তথ্য: NOR গেট হলো OR গেটের বিপরীত; যখন সমস্ত ইনপুট 0 (Low) থাকে, শুধুমাত্র তখনই আউটপুট 1 (High) হয়।"
+  },
+  {
+    "id": 18,
+    "question": "If the inputs to an XOR gate are both high (1), the output will be: [XOR গেটের ইনপুট দুইটাই ১ হলে আউটপুট হবে ...]",
+    "options": [
+      "1",
+      "0",
+      "Undefined",
+      "The same as the input"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "0",
+    "explanation": "XOR (Exclusive OR) গেটের উভয় ইনপুট একই হলে (0,0 অথবা 1,1) আউটপুট 0 হয়, আর ভিন্ন ইনপুট হলে আউটপুট 1 হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "0",
+    "hints": "মূল তথ্য: XOR (Exclusive OR) গেটের উভয় ইনপুট একই হলে (0,0 অথবা 1,1) আউটপুট 0 হয়, আর ভিন্ন ইনপুট হলে আউটপুট 1 হয়।"
+  },
+  {
+    "id": 19,
+    "question": "A+(A·B) সমীকরণকে সরল করলে হবে?",
+    "options": [
+      "A+B",
+      "B",
+      "A",
+      "A·B"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "A",
+    "explanation": "বুলিয়ান অ্যালজেবরার Absorption Law অনুযায়ী: A + (A·B) = A(1 + B) = A·1 = A।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "A",
+    "hints": "মূল তথ্য: বুলিয়ান অ্যালজেবরার Absorption Law অনুযায়ী: A + (A·B) = A(1 + B) = A·1 = A।"
+  },
+  {
+    "id": 20,
+    "question": "A ইনপুটকে দুইবার কমপ্লিমেন্ট করলে আউটপুট হবে?",
+    "options": [
+      "A'",
+      "1",
+      "0",
+      "A"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "A",
+    "explanation": "ইনভোলিউশন সূত্র (Involution Law) বা দ্বৈত কমপ্লিমেন্ট উপপাদ্য অনুযায়ী যেকোনো চলককে দুইবার কমপ্লিমেন্ট করলে মূল মানই পাওয়া যায়, অর্থাৎ (A')' = A।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "A",
+    "hints": "মূল তথ্য: ইনভোলিউশন সূত্র (Involution Law) বা দ্বৈত কমপ্লিমেন্ট উপপাদ্য অনুযায়ী যেকোনো চলককে দুইবার কমপ্লিমেন্ট করলে মূল মানই প...।"
+  },
+  {
+    "id": 21,
+    "question": "A+(B+C)=(A+B)+C এটা কোন সূত্র?",
+    "options": [
+      "Distributive Theorem",
+      "Commutative Theorem",
+      "Associative Theorem",
+      "Absorption Theorem"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Absorption Theorem",
+    "explanation": "বুলিয়ান অ্যালজেবরায় বন্ধনী পরিবর্তনের এই নিয়মটিকে Associative Theorem (অনুষঙ্গ উপপাদ্য) বলা হয়, অর্থাৎ A+(B+C) = (A+B)+C।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "Absorption Theorem",
+    "hints": "মূল তথ্য: বুলিয়ান অ্যালজেবরায় বন্ধনী পরিবর্তনের এই নিয়মটিকে Associative Theorem (অনুষঙ্গ উপপাদ্য) বলা হয়, অর্থাৎ A+(B+C) = (A+B)+C।"
+  },
+  {
+    "id": 22,
+    "question": "A+A এর আউটপুট কত হবে?",
+    "options": [
+      "1",
+      "0",
+      "A",
+      "2A"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "A",
+    "explanation": "বুলিয়ান অ্যালজেবরার Idempotent Law (বর্গসম উপপাদ্য) অনুযায়ী: A + A = A।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "A",
+    "hints": "মূল তথ্য: বুলিয়ান অ্যালজেবরার Idempotent Law (বর্গসম উপপাদ্য) অনুযায়ী: A + A = A।"
+  },
+  {
+    "id": 23,
+    "question": "De Morgan's এর সূত্রানুযায়ী A + B এর বার =?",
+    "options": [
+      "A'+B'",
+      "A'·B",
+      "A'·B'",
+      "A·B'"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "A'·B'",
+    "explanation": "দ্য মরগ্যানের প্রথম উপপাদ্য অনুযায়ী: দুটি চলকের যোগফলের কমপ্লিমেন্ট তাদের পৃথক কমপ্লিমেন্টের গুণফলের সমান, অর্থাৎ (A + B)' = A'·B'।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "4. Digital Electronics",
+    "chapter": "4. Digital Electronics",
+    "correctAnswer": "A'·B'",
+    "hints": "মূল তথ্য: দ্য মরগ্যানের প্রথম উপপাদ্য অনুযায়ী: দুটি চলকের যোগফলের কমপ্লিমেন্ট তাদের পৃথক কমপ্লিমেন্টের গুণফলের সমান, অর্থাৎ (A ...।"
+  }
+]

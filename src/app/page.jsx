@@ -17,10 +17,184 @@ import {
   Table,
   Award,
   Monitor,
-  Cpu
+  Cpu,
+  LayoutGrid
 } from 'lucide-react';
 import { getExamsCatalog, cleanExamTitle } from '../lib/examsData';
 import { matchesExamSearch } from '../lib/searchUtils';
+
+const SPECIAL_MODULES = [
+  {
+    id: 'ict',
+    title: 'আইসিটি (ICT) প্রশ্নব্যাংক ও প্রস্তুতি',
+    description: 'Class 9-10 Computer GK, NTRCA (313 & 325) এবং BPSC ICT Wizard-এর সকল অধ্যায়ভিত্তিক পূর্ণাঙ্গ প্রশ্নব্যাংক ও বিস্তারিত উত্তর।',
+    stats: '২৮টি অধ্যায় • ২,৩২৫টি প্রশ্ন',
+    tag: 'ICT প্রশ্নব্যাংক',
+    icon: Monitor,
+    accent: '#4f46e5',
+    lightBg: '#eef2ff',
+    badgeBorder: '#c7d2fe',
+    badgeText: '#4338ca',
+    boxUrl: '/ict',
+    boxLabel: 'বক্স লেআউট',
+    smartUrl: '/ict-smart',
+    smartLabel: 'স্মার্ট ভিউ',
+    practiceUrl: '/ict-practice?cat=class-9-10-computer-gk&folder=01-computer-poriciti'
+  },
+  {
+    id: 'ampibian',
+    title: 'অ্যাম্ফিবিয়ান সাজেশন (Ampibian Suggestion)',
+    description: 'বাংলা, ইংরেজি, সাধারণ জ্ঞান ও গণিত বিষয়ের ৮৪টি অধ্যায়ভিত্তিক চূড়ান্ত সাজেশন ও নির্ভুল সমাধান সংকলন।',
+    stats: '৮৪টি অধ্যায় • ৬,১৫৭টি প্রশ্ন',
+    tag: 'চূড়ান্ত সাজেশন',
+    icon: BookOpen,
+    accent: '#059669',
+    lightBg: '#ecfdf5',
+    badgeBorder: '#a7f3d0',
+    badgeText: '#047857',
+    boxUrl: '/ampibian-suggestion',
+    boxLabel: 'বক্স লেআউট',
+    smartUrl: '/ampibian-suggestion-smart',
+    smartLabel: 'স্মার্ট ভিউ',
+    practiceUrl: '/ampibian-suggestion-practice'
+  },
+  {
+    id: 'biddabari',
+    title: 'বিদ্যাবাড়ি শিক্ষক নিবন্ধন (Biddabari NTRCA)',
+    description: 'শিক্ষক নিবন্ধন (NTRCA) প্রিলিমিনারি প্রস্তুতির বাংলা, ইংরেজি, গণিত ও জিকে লেকচার শিট ভিত্তিক পূর্ণাঙ্গ প্রশ্নব্যাংক।',
+    stats: '৬৭টি লেকচার • ৯,৯৭৪টি প্রশ্ন',
+    tag: 'শিক্ষক নিবন্ধন',
+    icon: GraduationCap,
+    accent: '#2563eb',
+    lightBg: '#eff6ff',
+    badgeBorder: '#bfdbfe',
+    badgeText: '#1d4ed8',
+    boxUrl: '/biddabari-ntrca',
+    boxLabel: 'বক্স লেআউট',
+    smartUrl: '/biddabari-ntrca-smart',
+    smartLabel: 'স্মার্ট ভিউ',
+    practiceUrl: '/biddabari-ntrca-practice'
+  },
+  {
+    id: 'smart-ai',
+    title: 'স্মার্ট AI (Smart AI) প্রশ্নব্যাংক',
+    description: 'BPSC টেকনিক্যাল ও নন-ক্যাডার এবং NTRCA প্রিলিমিনারি ও আইসিটি বিষয়ের এআই কিউরেটেড সমৃদ্ধ প্রশ্নব্যাংক।',
+    stats: '৮৯টি বিষয় • ১৭,১০০টি প্রশ্ন',
+    tag: 'AI কিউরেটেড',
+    icon: Cpu,
+    accent: '#7c3aed',
+    lightBg: '#f5f3ff',
+    badgeBorder: '#ddd6fe',
+    badgeText: '#6d28d9',
+    boxUrl: '/smart-ai',
+    boxLabel: 'বক্স লেআউট',
+    smartUrl: '/smart-ai-smart',
+    smartLabel: 'স্মার্ট ভিউ',
+    practiceUrl: '/smart-ai-practice'
+  },
+  {
+    id: 'buet-pattern',
+    title: 'বুয়েট প্যাটার্ন সাজেশন (BUET Pattern)',
+    description: 'বুয়েট প্যাটার্ন নিয়োগ পরীক্ষার জন্য বাংলা, ইংরেজি, সাধারণ জ্ঞান ও গণিত বিষয়ের ৫৭টি অধ্যায়ভিত্তিক চূড়ান্ত সাজেশন ও নির্ভুল সমাধান।',
+    stats: '৫৭টি অধ্যায় • ৫,৪৬০টি প্রশ্ন',
+    tag: 'বুয়েট প্যাটার্ন',
+    icon: Sparkles,
+    accent: '#4338ca',
+    lightBg: '#eef2ff',
+    badgeBorder: '#c7d2fe',
+    badgeText: '#3730a3',
+    boxUrl: '/buet-pattern-suggestion',
+    boxLabel: 'বক্স লেআউট',
+    smartUrl: '/buet-pattern-suggestion-smart',
+    smartLabel: 'স্মার্ট ভিউ',
+    practiceUrl: '/buet-pattern-suggestion-practice'
+  },
+  {
+    id: 'bpsc-non-tech-questions',
+    title: 'BPSC নন-টেক প্রশ্নব্যাংক (Non Tech Questions)',
+    description: 'বিপিএসসি নন-ক্যাডার ও নন-টেক নিয়োগ পরীক্ষার বাংলা, ইংরেজি, গণিত, বাংলাদেশ, আন্তর্জাতিক, বিজ্ঞান ও আইসিটির পূর্ণাঙ্গ সংকলন।',
+    stats: '৭টি বিষয় • ৫,৬৬৪টি প্রশ্ন',
+    tag: 'BPSC নন-ক্যাডার',
+    icon: Layers,
+    accent: '#0891b2',
+    lightBg: '#ecfeff',
+    badgeBorder: '#a5f3fc',
+    badgeText: '#0e7490',
+    boxUrl: '/bpsc-non-tech-questions',
+    boxLabel: 'বক্স লেআউট',
+    smartUrl: '/bpsc-non-tech-questions-smart',
+    smartLabel: 'স্মার্ট ভিউ',
+    practiceUrl: '/bpsc-non-tech-questions-practice'
+  },
+  {
+    id: 'bpsc-non-tech-suggestion',
+    title: 'BPSC নন-টেক সাজেশন (Non Tech Suggestion)',
+    description: 'বিপিএসসি নন-ক্যাডার ও নন-টেক পরীক্ষার ৮টি বিষয়ের ৯১টি অধ্যায়ভিত্তিক চূড়ান্ত সাজেশন ও বিস্তারিত সমাধান সংকলন।',
+    stats: '৯১টি অধ্যায় • ৫,৬৬৪টি প্রশ্ন',
+    tag: 'BPSC সাজেশন',
+    icon: Sparkles,
+    accent: '#d97706',
+    lightBg: '#fffbeb',
+    badgeBorder: '#fde68a',
+    badgeText: '#b45309',
+    boxUrl: '/bpsc-non-tech-suggestion',
+    boxLabel: 'বক্স লেআউট',
+    smartUrl: '/bpsc-non-tech-suggestion-smart',
+    smartLabel: 'স্মার্ট ভিউ',
+    practiceUrl: '/bpsc-non-tech-suggestion-practice'
+  },
+  {
+    id: 'saif-ntrca-100-model',
+    title: 'সাইফ স্যার NTRCA ১০০ MCQ মডেল টেস্ট',
+    description: 'সাইফ স্যারের শিক্ষক নিবন্ধন (NTRCA) প্রিলিমিনারি প্রস্তুতির ৭৫টি পূর্ণাঙ্গ ১০০ নম্বরের স্পেশাল বুলেটিন মডেল টেস্ট ও নির্ভুল ব্যাখ্যা।',
+    stats: '৭৫টি টেস্ট • ৭,২২৫টি প্রশ্ন',
+    tag: '১০০ নম্বরের মডেল',
+    icon: Award,
+    accent: '#3b82f6',
+    lightBg: '#eff6ff',
+    badgeBorder: '#bfdbfe',
+    badgeText: '#1d4ed8',
+    boxUrl: '/saif-ntrca-100-model',
+    boxLabel: 'বক্স লেআউট',
+    smartUrl: '/saif-ntrca-100-model-smart',
+    smartLabel: 'স্মার্ট ভিউ',
+    practiceUrl: '/saif-ntrca-100-model-practice'
+  },
+  {
+    id: 'saif-ntrca-suggestion',
+    title: 'সাইফ স্যার NTRCA এক্সক্লুসিভ সাজেশন',
+    description: 'শিক্ষক নিবন্ধন (NTRCA) প্রিলিমিনারি প্রস্তুতির ৩৩৮টি বিষয়ভিত্তিক শর্ট মডেল বুলেটিন ও চূড়ান্ত সাজেশন সংকলন।',
+    stats: '৩৩৮টি বুলেটিন • ৭,২২৫টি প্রশ্ন',
+    tag: 'শর্ট বুলেটিন',
+    icon: BookOpen,
+    accent: '#0d9488',
+    lightBg: '#f0fdfa',
+    badgeBorder: '#99f6e4',
+    badgeText: '#0f766e',
+    boxUrl: '/saif-ntrca-suggestion',
+    boxLabel: 'বক্স লেআউট',
+    smartUrl: '/saif-ntrca-suggestion-smart',
+    smartLabel: 'স্মার্ট ভিউ',
+    practiceUrl: '/saif-ntrca-suggestion-practice'
+  },
+  {
+    id: 'most-important',
+    title: 'সর্বাধিক কমন প্রশ্ন (Most Important)',
+    description: 'প্রাইমারি শিক্ষক, NTRCA নিবন্ধন, বিসিএস, ব্যাংক, ১০ম-২০তম গ্রেড ও সাম্প্রতিক বাংলাদেশ-আন্তর্জাতিক বিষয়ের বাছাইকৃত প্রশ্নাবলি।',
+    stats: '১২টি বিষয় • ৪,৯০৪টি প্রশ্ন',
+    tag: 'সর্বাধিক কমন',
+    icon: Award,
+    accent: '#8b5cf6',
+    lightBg: '#f5f3ff',
+    badgeBorder: '#ddd6fe',
+    badgeText: '#6d28d9',
+    boxUrl: '/most-important-questions',
+    boxLabel: 'বক্স লেআউট',
+    smartUrl: '/most-important-smart',
+    smartLabel: 'স্মার্ট ভিউ',
+    practiceUrl: '/most-important-questions-practice?cat=primary-most-important&file=primary-assistant-teacher-final-suggestion'
+  }
+];
 
 const CATEGORY_ICONS = {
   bcs: GraduationCap,
@@ -80,10 +254,10 @@ export default function HomePage() {
             </span>
             <Link href="/ict" className="badge badge-indigo" style={{ padding: '6px 14px', fontSize: '0.86rem', textDecoration: 'none' }}>
               <Monitor size={14} />
-              <span>১,৭৫৮টি আইসিটি প্রশ্ন</span>
+              <span>২,৩২৫টি আইসিটি প্রশ্ন</span>
             </Link>
-            <Link href="/most-important-questions" className="badge" style={{ padding: '6px 14px', fontSize: '0.86rem', background: '#fff1f2', color: '#e11d48', border: '1px solid #fecdd3', textDecoration: 'none' }}>
-              <Flame size={14} />
+            <Link href="/most-important-questions" className="badge" style={{ padding: '6px 14px', fontSize: '0.86rem', background: '#f5f3ff', color: '#7c3aed', border: '1px solid #ddd6fe', textDecoration: 'none' }}>
+              <Award size={14} />
               <span>৪,৯০৪টি সর্বাধিক কমন</span>
             </Link>
             <Link href="/ampibian-suggestion" className="badge badge-emerald" style={{ padding: '6px 14px', fontSize: '0.86rem', textDecoration: 'none' }}>
@@ -228,11 +402,11 @@ export default function HomePage() {
 
             <Link href="/ict" className="btn-secondary" style={{ padding: '13px 20px', fontSize: '0.95rem', borderColor: '#818cf8', color: '#4338ca' }}>
               <Monitor size={18} color="#4f46e5" />
-              <span>আইসিটি স্পেশাল (১৭ অধ্যায়)</span>
+              <span>আইসিটি স্পেশাল (২৮ অধ্যায়)</span>
             </Link>
 
-            <Link href="/most-important-questions" className="btn-secondary" style={{ padding: '13px 20px', fontSize: '0.95rem', borderColor: '#fda4af', color: '#be123c' }}>
-              <Flame size={18} color="#e11d48" />
+            <Link href="/most-important-questions" className="btn-secondary" style={{ padding: '13px 20px', fontSize: '0.95rem', borderColor: '#ddd6fe', color: '#6d28d9' }}>
+              <Award size={18} color="#7c3aed" />
               <span>সর্বাধিক কমন (৪,৯০৪ প্রশ্ন)</span>
             </Link>
           </div>
@@ -318,670 +492,195 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Special Modules: ICT & Most Important Questions */}
-      <section style={{ padding: '10px 0 50px' }}>
+      {/* Special Exclusive Modules Section */}
+      <section style={{ padding: '30px 0 60px', position: 'relative' }}>
         <div className="container">
-          <div style={{ marginBottom: '24px' }}>
-            <span className="badge badge-indigo" style={{ marginBottom: '6px' }}>স্পেশাল এক্সক্লুসিভ সংকলন</span>
-            <h2 style={{ fontSize: '1.85rem', fontWeight: 800, color: '#0f172a' }}>
-              বিশেষ প্রশ্নব্যাংক ও প্রস্তুতি মডিউল
-            </h2>
+          {/* Section Header */}
+          <div style={{
+            display: 'flex',
+            alignItems: 'flex-end',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: '16px',
+            marginBottom: '32px'
+          }}>
+            <div>
+              <div style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '6px 14px',
+                borderRadius: '9999px',
+                background: '#eef2ff',
+                border: '1px solid #c7d2fe',
+                color: '#4338ca',
+                fontSize: '0.82rem',
+                fontWeight: 700,
+                marginBottom: '10px'
+              }}>
+                <Sparkles size={14} color="#4f46e5" />
+                <span>স্পেশাল এক্সক্লুসিভ সংকলন</span>
+              </div>
+              <h2 style={{
+                fontSize: 'clamp(1.6rem, 2.5vw, 2.2rem)',
+                fontWeight: 800,
+                color: '#0f172a',
+                letterSpacing: '-0.02em',
+                lineHeight: '1.25'
+              }}>
+                বিশেষ প্রশ্নব্যাংক ও প্রস্তুতি মডিউল
+              </h2>
+              <p style={{
+                fontSize: '0.96rem',
+                color: '#64748b',
+                marginTop: '6px',
+                maxWidth: '680px',
+                lineHeight: '1.6'
+              }}>
+                অধ্যায়ভিত্তিক চূড়ান্ত সাজেশন, বিসিএস ও বিপিএসসি নন-ক্যাডার, শিক্ষক নিবন্ধন এবং স্পেশাল মডেল টেস্টের সমন্বিত এক্সক্লুসিভ সংকলন।
+              </p>
+            </div>
+            <div style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              padding: '8px 16px',
+              borderRadius: '12px',
+              background: '#ffffff',
+              border: '1px solid #e2e8f0',
+              boxShadow: '0 1px 3px rgba(0,0,0,0.04)',
+              fontSize: '0.86rem',
+              fontWeight: 700,
+              color: '#334155'
+            }}>
+              <Layers size={16} color="#6366f1" />
+              <span>১০টি প্রিমিয়াম মডিউল • ৭৫,০০০+ MCQ</span>
+            </div>
           </div>
 
+          {/* Cards Grid */}
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
             gap: '24px'
           }}>
-            {/* ICT Special Card */}
-            <div className="glass-panel" style={{
-              padding: '28px',
-              borderRadius: '18px',
-              border: '1px solid rgba(99, 102, 241, 0.25)',
-              background: 'linear-gradient(135deg, rgba(238, 242, 255, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              boxShadow: '0 8px 30px rgba(99, 102, 241, 0.08)'
-            }}>
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-                  <div style={{
-                    width: '50px',
-                    height: '50px',
-                    borderRadius: '12px',
-                    background: '#e0e7ff',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    <Monitor size={26} color="#4338ca" />
+            {SPECIAL_MODULES.map(mod => {
+              const IconComponent = mod.icon;
+              return (
+                <div 
+                  key={mod.id} 
+                  className="special-module-card"
+                  style={{
+                    borderBottom: `4px solid ${mod.accent}`
+                  }}
+                >
+                  <div>
+                    {/* Top: Icon & Stats Badge */}
+                    <div style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      gap: '12px',
+                      marginBottom: '16px'
+                    }}>
+                      <div style={{
+                        width: '46px',
+                        height: '46px',
+                        borderRadius: '12px',
+                        background: mod.lightBg,
+                        border: `1px solid ${mod.badgeBorder}`,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        flexShrink: 0
+                      }}>
+                        <IconComponent size={23} color={mod.accent} />
+                      </div>
+                      <span style={{
+                        fontSize: '0.78rem',
+                        fontWeight: 700,
+                        color: mod.badgeText,
+                        background: mod.lightBg,
+                        border: `1px solid ${mod.badgeBorder}`,
+                        padding: '5px 12px',
+                        borderRadius: '9999px',
+                        whiteSpace: 'nowrap'
+                      }}>
+                        {mod.stats}
+                      </span>
+                    </div>
+
+                    {/* Title */}
+                    <h3 style={{
+                      fontSize: '1.2rem',
+                      fontWeight: 800,
+                      color: '#0f172a',
+                      lineHeight: '1.35',
+                      marginBottom: '8px'
+                    }}>
+                      {mod.title}
+                    </h3>
+
+                    {/* Description */}
+                    <p style={{
+                      fontSize: '0.88rem',
+                      color: '#64748b',
+                      lineHeight: '1.6',
+                      marginBottom: '20px',
+                      minHeight: '44px'
+                    }}>
+                      {mod.description}
+                    </p>
                   </div>
-                  <span className="badge badge-indigo" style={{ padding: '6px 12px' }}>
-                    ১৭টি অধ্যায় • ১,৭৫৮টি প্রশ্ন
-                  </span>
-                </div>
 
-                <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#1e1b4b', marginBottom: '8px' }}>
-                  আইসিটি (ICT) প্রশ্নব্যাংক ও প্রস্তুতি
-                </h3>
-                <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: '1.6', marginBottom: '20px' }}>
-                  Class 9-10 Computer GK এবং ICT Wizard NTRCA (313 & 325)-এর সকল অধ্যায়ভিত্তিক পূর্ণাঙ্গ প্রশ্নব্যাংক ও বিস্তারিত উত্তর।
-                </p>
-              </div>
+                  {/* Actions / Buttons */}
+                  <div>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '12px' }}>
+                      <Link
+                        href={mod.boxUrl}
+                        className="special-module-btn-box"
+                        style={{
+                          background: mod.accent,
+                          boxShadow: `0 3px 12px ${mod.accent}33`
+                        }}
+                      >
+                        <LayoutGrid size={15} />
+                        <span>{mod.boxLabel}</span>
+                      </Link>
+                      <Link
+                        href={mod.smartUrl}
+                        className="special-module-btn-smart"
+                      >
+                        <Sparkles size={14} color={mod.accent} />
+                        <span>{mod.smartLabel}</span>
+                      </Link>
+                    </div>
 
-              <div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
-                  <Link
-                    href="/ict"
-                    className="btn-primary"
-                    style={{ background: '#4f46e5', justifyContent: 'center', padding: '10px', fontSize: '0.88rem' }}
-                  >
-                    বক্স লেআউট (১৭ অধ্যায়)
-                  </Link>
-                  <Link
-                    href="/ict-smart"
-                    className="btn-secondary"
-                    style={{ justifyContent: 'center', padding: '10px', fontSize: '0.88rem', borderColor: '#818cf8', color: '#4338ca' }}
-                  >
-                    স্মার্ট লেআউট ভিউ
-                  </Link>
-                </div>
-                <div style={{ display: 'flex', gap: '10px' }}>
-                  <Link
-                    href="/ict-practice?cat=class-9-10-computer-gk&folder=01-computer-poriciti"
-                    style={{ fontSize: '0.84rem', color: '#4f46e5', fontWeight: 600, textDecoration: 'none' }}
-                  >
-                    অনুশীলন শুরু করুন →
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            {/* Ampibian Suggestion Card */}
-            <div className="glass-panel" style={{
-              padding: '28px',
-              borderRadius: '18px',
-              border: '1px solid rgba(16, 185, 129, 0.25)',
-              background: 'linear-gradient(135deg, rgba(236, 253, 245, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              boxShadow: '0 8px 30px rgba(16, 185, 129, 0.08)'
-            }}>
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-                  <div style={{
-                    width: '50px',
-                    height: '50px',
-                    borderRadius: '12px',
-                    background: '#d1fae5',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    <BookOpen size={26} color="#059669" />
+                    {/* Practice Direct Link */}
+                    <div style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      paddingTop: '11px',
+                      borderTop: '1px solid #f1f5f9'
+                    }}>
+                      <Link
+                        href={mod.practiceUrl}
+                        className="special-module-practice-link"
+                        style={{ color: mod.accent }}
+                      >
+                        <Zap size={13} />
+                        <span>সরাসরি অনুশীলন</span>
+                        <ArrowRight size={13} className="link-arrow" />
+                      </Link>
+                      <span style={{ fontSize: '0.75rem', color: '#94a3b8', fontWeight: 600 }}>
+                        {mod.tag}
+                      </span>
+                    </div>
                   </div>
-                  <span className="badge badge-emerald" style={{ padding: '6px 12px' }}>
-                    ৮৪টি অধ্যায় • ৬,১৫৭টি প্রশ্ন
-                  </span>
                 </div>
-
-                <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#065f46', marginBottom: '8px' }}>
-                  অ্যাম্ফিবিয়ান সাজেশন (Ampibian Suggestion)
-                </h3>
-                <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: '1.6', marginBottom: '20px' }}>
-                  বাংলা, ইংরেজি, সাধারণ জ্ঞান ও গণিত বিষয়ের ৮৪টি অধ্যায়ভিত্তিক চূড়ান্ত সাজেশন ও নির্ভুল সমাধান সংকলন।
-                </p>
-              </div>
-
-              <div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
-                  <Link
-                    href="/ampibian-suggestion"
-                    className="btn-primary"
-                    style={{ background: '#059669', justifyContent: 'center', padding: '10px', fontSize: '0.88rem' }}
-                  >
-                    বক্স লেআউট (৮৪ অধ্যায়)
-                  </Link>
-                  <Link
-                    href="/ampibian-suggestion-smart"
-                    className="btn-secondary"
-                    style={{ justifyContent: 'center', padding: '10px', fontSize: '0.88rem', borderColor: '#a7f3d0', color: '#047857' }}
-                  >
-                    স্মার্ট লেআউট ভিউ
-                  </Link>
-                </div>
-                <div style={{ display: 'flex', gap: '10px' }}>
-                  <Link
-                    href="/ampibian-suggestion-practice"
-                    style={{ fontSize: '0.84rem', color: '#059669', fontWeight: 600, textDecoration: 'none' }}
-                  >
-                    অনুশীলন শুরু করুন →
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            {/* Biddabari NTRCA Card */}
-            <div className="glass-panel" style={{
-              padding: '28px',
-              borderRadius: '18px',
-              border: '1px solid rgba(37, 99, 235, 0.25)',
-              background: 'linear-gradient(135deg, rgba(239, 246, 255, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              boxShadow: '0 8px 30px rgba(37, 99, 235, 0.08)'
-            }}>
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-                  <div style={{
-                    width: '50px',
-                    height: '50px',
-                    borderRadius: '12px',
-                    background: '#dbeafe',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    <GraduationCap size={26} color="#1d4ed8" />
-                  </div>
-                  <span className="badge" style={{ background: '#eff6ff', color: '#1d4ed8', border: '1px solid #bfdbfe', padding: '6px 12px' }}>
-                    ৬৭টি লেকচার • ৯,৯৭৪টি প্রশ্ন
-                  </span>
-                </div>
-
-                <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#1e40af', marginBottom: '8px' }}>
-                  বিদ্যাবাড়ি শিক্ষক নিবন্ধন (Biddabari NTRCA)
-                </h3>
-                <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: '1.6', marginBottom: '20px' }}>
-                  শিক্ষক নিবন্ধন (NTRCA) প্রিলিমিনারি প্রস্তুতির বাংলা, ইংরেজি, গণিত ও জিকে লেকচার শিট ভিত্তিক পূর্ণাঙ্গ প্রশ্নব্যাংক।
-                </p>
-              </div>
-
-              <div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
-                  <Link
-                    href="/biddabari-ntrca"
-                    className="btn-primary"
-                    style={{ background: '#2563eb', justifyContent: 'center', padding: '10px', fontSize: '0.88rem' }}
-                  >
-                    বক্স লেআউট (৬৭ লেকচার)
-                  </Link>
-                  <Link
-                    href="/biddabari-ntrca-smart"
-                    className="btn-secondary"
-                    style={{ justifyContent: 'center', padding: '10px', fontSize: '0.88rem', borderColor: '#bfdbfe', color: '#1d4ed8' }}
-                  >
-                    স্মার্ট লেআউট ভিউ
-                  </Link>
-                </div>
-                <div style={{ display: 'flex', gap: '10px' }}>
-                  <Link
-                    href="/biddabari-ntrca-practice"
-                    style={{ fontSize: '0.84rem', color: '#2563eb', fontWeight: 600, textDecoration: 'none' }}
-                  >
-                    অনুশীলন শুরু করুন →
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            {/* Smart AI Card */}
-            <div className="glass-panel" style={{
-              padding: '28px',
-              borderRadius: '18px',
-              border: '1px solid rgba(124, 58, 237, 0.25)',
-              background: 'linear-gradient(135deg, rgba(245, 243, 255, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              boxShadow: '0 8px 30px rgba(124, 58, 237, 0.08)'
-            }}>
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-                  <div style={{
-                    width: '50px',
-                    height: '50px',
-                    borderRadius: '12px',
-                    background: '#ede9fe',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    <Cpu size={26} color="#7c3aed" />
-                  </div>
-                  <span className="badge" style={{ background: '#f5f3ff', color: '#7c3aed', border: '1px solid #ddd6fe', padding: '6px 12px' }}>
-                    ৮৯টি বিষয় • ১৭,১০০টি প্রশ্ন
-                  </span>
-                </div>
-
-                <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#5b21b6', marginBottom: '8px' }}>
-                  স্মার্ট AI (Smart AI) প্রশ্নব্যাংক
-                </h3>
-                <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: '1.6', marginBottom: '20px' }}>
-                  BPSC টেকনিক্যাল ও নন-ক্যাডার এবং NTRCA প্রিলিমিনারি ও আইসিটি বিষয়ের এআই কিউরেটেড সমৃদ্ধ প্রশ্নব্যাংক।
-                </p>
-              </div>
-
-              <div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
-                  <Link
-                    href="/smart-ai"
-                    className="btn-primary"
-                    style={{ background: '#7c3aed', justifyContent: 'center', padding: '10px', fontSize: '0.88rem' }}
-                  >
-                    বক্স লেআউট (৮৯ বিষয়)
-                  </Link>
-                  <Link
-                    href="/smart-ai-smart"
-                    className="btn-secondary"
-                    style={{ justifyContent: 'center', padding: '10px', fontSize: '0.88rem', borderColor: '#ddd6fe', color: '#7c3aed' }}
-                  >
-                    স্মার্ট লেআউট ভিউ
-                  </Link>
-                </div>
-                <div style={{ display: 'flex', gap: '10px' }}>
-                  <Link
-                    href="/smart-ai-practice"
-                    style={{ fontSize: '0.84rem', color: '#7c3aed', fontWeight: 600, textDecoration: 'none' }}
-                  >
-                    অনুশীলন শুরু করুন →
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            {/* BUET Pattern Suggestion Card */}
-            <div className="glass-panel" style={{
-              padding: '28px',
-              borderRadius: '18px',
-              border: '1px solid rgba(139, 92, 246, 0.25)',
-              background: 'linear-gradient(135deg, rgba(250, 248, 255, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              boxShadow: '0 8px 30px rgba(139, 92, 246, 0.08)'
-            }}>
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-                  <div style={{
-                    width: '50px',
-                    height: '50px',
-                    borderRadius: '12px',
-                    background: '#ede9fe',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    <Sparkles size={26} color="#7c3aed" />
-                  </div>
-                  <span className="badge" style={{ background: '#f5f3ff', color: '#6d28d9', border: '1px solid #ddd6fe', padding: '6px 12px' }}>
-                    ৫৭টি অধ্যায় • ৫,৪৬০টি প্রশ্ন
-                  </span>
-                </div>
-
-                <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#5b21b6', marginBottom: '8px' }}>
-                  বুয়েট প্যাটার্ন সাজেশন (BUET Pattern)
-                </h3>
-                <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: '1.6', marginBottom: '20px' }}>
-                  বুয়েট প্যাটার্ন নিয়োগ পরীক্ষার জন্য বাংলা, ইংরেজি, সাধারণ জ্ঞান ও গণিত বিষয়ের ৫৭টি অধ্যায়ভিত্তিক চূড়ান্ত সাজেশন ও নির্ভুল সমাধান।
-                </p>
-              </div>
-
-              <div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
-                  <Link
-                    href="/buet-pattern-suggestion"
-                    className="btn-primary"
-                    style={{ background: '#7c3aed', justifyContent: 'center', padding: '10px', fontSize: '0.88rem' }}
-                  >
-                    বক্স লেআউট (৫৭ অধ্যায়)
-                  </Link>
-                  <Link
-                    href="/buet-pattern-suggestion-smart"
-                    className="btn-secondary"
-                    style={{ justifyContent: 'center', padding: '10px', fontSize: '0.88rem', borderColor: '#ddd6fe', color: '#6d28d9' }}
-                  >
-                    স্মার্ট লেআউট ভিউ
-                  </Link>
-                </div>
-                <div style={{ display: 'flex', gap: '10px' }}>
-                  <Link
-                    href="/buet-pattern-suggestion-practice"
-                    style={{ fontSize: '0.84rem', color: '#7c3aed', fontWeight: 600, textDecoration: 'none' }}
-                  >
-                    অনুশীলন শুরু করুন →
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            {/* BPSC Non Tech Questions Card */}
-            <div className="glass-panel" style={{
-              padding: '28px',
-              borderRadius: '18px',
-              border: '1px solid rgba(244, 63, 94, 0.25)',
-              background: 'linear-gradient(135deg, rgba(255, 241, 242, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              boxShadow: '0 8px 30px rgba(244, 63, 94, 0.08)'
-            }}>
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-                  <div style={{
-                    width: '50px',
-                    height: '50px',
-                    borderRadius: '12px',
-                    background: '#ffe4e6',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    <BookOpen size={26} color="#e11d48" />
-                  </div>
-                  <span className="badge" style={{ background: '#fff1f2', color: '#be123c', border: '1px solid #fecdd3', padding: '6px 12px' }}>
-                    ৭টি পূর্ণাঙ্গ বিষয় • ৫,৬৬৪টি প্রশ্ন
-                  </span>
-                </div>
-
-                <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#881337', marginBottom: '8px' }}>
-                  BPSC নন-টেক প্রশ্নব্যাংক (Non Tech Questions)
-                </h3>
-                <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: '1.6', marginBottom: '20px' }}>
-                  বিপিএসসি নন-ক্যাডার ও নন-টেক নিয়োগ পরীক্ষার বাংলা, ইংরেজি, গণিত, বাংলাদেশ, আন্তর্জাতিক, বিজ্ঞান ও আইসিটির পূর্ণাঙ্গ সংকলন।
-                </p>
-              </div>
-
-              <div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
-                  <Link
-                    href="/bpsc-non-tech-questions"
-                    className="btn-primary"
-                    style={{ background: '#e11d48', justifyContent: 'center', padding: '10px', fontSize: '0.88rem' }}
-                  >
-                    বক্স লেআউট (৭ বিষয়)
-                  </Link>
-                  <Link
-                    href="/bpsc-non-tech-questions-smart"
-                    className="btn-secondary"
-                    style={{ justifyContent: 'center', padding: '10px', fontSize: '0.88rem', borderColor: '#fecdd3', color: '#be123c' }}
-                  >
-                    স্মার্ট লেআউট ভিউ
-                  </Link>
-                </div>
-                <div style={{ display: 'flex', gap: '10px' }}>
-                  <Link
-                    href="/bpsc-non-tech-questions-practice"
-                    style={{ fontSize: '0.84rem', color: '#e11d48', fontWeight: 600, textDecoration: 'none' }}
-                  >
-                    অনুশীলন শুরু করুন →
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            {/* BPSC Non Tech Suggestion Card */}
-            <div className="glass-panel" style={{
-              padding: '28px',
-              borderRadius: '18px',
-              border: '1px solid rgba(245, 158, 11, 0.25)',
-              background: 'linear-gradient(135deg, rgba(255, 253, 245, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              boxShadow: '0 8px 30px rgba(245, 158, 11, 0.08)'
-            }}>
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-                  <div style={{
-                    width: '50px',
-                    height: '50px',
-                    borderRadius: '12px',
-                    background: '#fef3c7',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    <Sparkles size={26} color="#d97706" />
-                  </div>
-                  <span className="badge" style={{ background: '#fffbeb', color: '#b45309', border: '1px solid #fde68a', padding: '6px 12px' }}>
-                    ৯১টি অধ্যায় • ৫,৬৬৪টি প্রশ্ন
-                  </span>
-                </div>
-
-                <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#78350f', marginBottom: '8px' }}>
-                  BPSC নন-টেক সাজেশন (Non Tech Suggestion)
-                </h3>
-                <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: '1.6', marginBottom: '20px' }}>
-                  বিপিএসসি নন-ক্যাডার ও নন-টেক পরীক্ষার ৮টি বিষয়ের ৯১টি অধ্যায়ভিত্তিক চূড়ান্ত সাজেশন ও বিস্তারিত সমাধান সংকলন।
-                </p>
-              </div>
-
-              <div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
-                  <Link
-                    href="/bpsc-non-tech-suggestion"
-                    className="btn-primary"
-                    style={{ background: '#d97706', justifyContent: 'center', padding: '10px', fontSize: '0.88rem' }}
-                  >
-                    বক্স লেআউট (৯১ অধ্যায়)
-                  </Link>
-                  <Link
-                    href="/bpsc-non-tech-suggestion-smart"
-                    className="btn-secondary"
-                    style={{ justifyContent: 'center', padding: '10px', fontSize: '0.88rem', borderColor: '#fde68a', color: '#b45309' }}
-                  >
-                    স্মার্ট লেআউট ভিউ
-                  </Link>
-                </div>
-                <div style={{ display: 'flex', gap: '10px' }}>
-                  <Link
-                    href="/bpsc-non-tech-suggestion-practice"
-                    style={{ fontSize: '0.84rem', color: '#d97706', fontWeight: 600, textDecoration: 'none' }}
-                  >
-                    অনুশীলন শুরু করুন →
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            {/* Saif Sir NTRCA 100 MCQ Model Card */}
-            <div className="glass-panel" style={{
-              padding: '28px',
-              borderRadius: '18px',
-              border: '1px solid rgba(99, 102, 241, 0.25)',
-              background: 'linear-gradient(135deg, rgba(248, 249, 255, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              boxShadow: '0 8px 30px rgba(99, 102, 241, 0.08)'
-            }}>
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-                  <div style={{
-                    width: '50px',
-                    height: '50px',
-                    borderRadius: '12px',
-                    background: '#e0e7ff',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    <GraduationCap size={26} color="#4f46e5" />
-                  </div>
-                  <span className="badge" style={{ background: '#eef2ff', color: '#4338ca', border: '1px solid #c7d2fe', padding: '6px 12px' }}>
-                    ৭৫টি ১০০ MCQ টেস্ট • ৭,২২৫টি প্রশ্ন
-                  </span>
-                </div>
-
-                <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#312e81', marginBottom: '8px' }}>
-                  সাইফ স্যার NTRCA ১০০ MCQ মডেল টেস্ট
-                </h3>
-                <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: '1.6', marginBottom: '20px' }}>
-                  সাইফ স্যারের শিক্ষক নিবন্ধন (NTRCA) প্রিলিমিনারি প্রস্তুতির ৭৫টি পূর্ণাঙ্গ ১০০ নম্বরের স্পেশাল বুলেটিন মডেল টেস্ট ও নির্ভুল ব্যাখ্যা।
-                </p>
-              </div>
-
-              <div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
-                  <Link
-                    href="/saif-ntrca-100-model"
-                    className="btn-primary"
-                    style={{ background: '#4f46e5', justifyContent: 'center', padding: '10px', fontSize: '0.88rem' }}
-                  >
-                    বক্স লেআউট (৭৫ টেস্ট)
-                  </Link>
-                  <Link
-                    href="/saif-ntrca-100-model-smart"
-                    className="btn-secondary"
-                    style={{ justifyContent: 'center', padding: '10px', fontSize: '0.88rem', borderColor: '#c7d2fe', color: '#4338ca' }}
-                  >
-                    স্মার্ট লেআউট ভিউ
-                  </Link>
-                </div>
-                <div style={{ display: 'flex', gap: '10px' }}>
-                  <Link
-                    href="/saif-ntrca-100-model-practice"
-                    style={{ fontSize: '0.84rem', color: '#4f46e5', fontWeight: 600, textDecoration: 'none' }}
-                  >
-                    অনুশীলন শুরু করুন →
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            {/* Saif Sir NTRCA Suggestion Card */}
-            <div className="glass-panel" style={{
-              padding: '28px',
-              borderRadius: '18px',
-              border: '1px solid rgba(20, 184, 166, 0.25)',
-              background: 'linear-gradient(135deg, rgba(242, 252, 249, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              boxShadow: '0 8px 30px rgba(20, 184, 166, 0.08)'
-            }}>
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-                  <div style={{
-                    width: '50px',
-                    height: '50px',
-                    borderRadius: '12px',
-                    background: '#ccfbf1',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    <BookOpen size={26} color="#0d9488" />
-                  </div>
-                  <span className="badge" style={{ background: '#f0fdfa', color: '#0f766e', border: '1px solid #99f6e4', padding: '6px 12px' }}>
-                    ৩৩৮টি শর্ট বুলেটিন • ৭,২২৫টি প্রশ্ন
-                  </span>
-                </div>
-
-                <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#134e4a', marginBottom: '8px' }}>
-                  সাইফ স্যার NTRCA এক্সক্লুসিভ সাজেশন
-                </h3>
-                <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: '1.6', marginBottom: '20px' }}>
-                  শিক্ষক নিবন্ধন (NTRCA) প্রিলিমিনারি প্রস্তুতির ৩৩৮টি বিষয়ভিত্তিক শর্ট মডেল বুলেটিন ও চূড়ান্ত সাজেশন সংকলন।
-                </p>
-              </div>
-
-              <div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
-                  <Link
-                    href="/saif-ntrca-suggestion"
-                    className="btn-primary"
-                    style={{ background: '#0d9488', justifyContent: 'center', padding: '10px', fontSize: '0.88rem' }}
-                  >
-                    বক্স লেআউট (৩৩৮ বুলেটিন)
-                  </Link>
-                  <Link
-                    href="/saif-ntrca-suggestion-smart"
-                    className="btn-secondary"
-                    style={{ justifyContent: 'center', padding: '10px', fontSize: '0.88rem', borderColor: '#99f6e4', color: '#0f766e' }}
-                  >
-                    স্মার্ট লেআউট ভিউ
-                  </Link>
-                </div>
-                <div style={{ display: 'flex', gap: '10px' }}>
-                  <Link
-                    href="/saif-ntrca-suggestion-practice"
-                    style={{ fontSize: '0.84rem', color: '#0d9488', fontWeight: 600, textDecoration: 'none' }}
-                  >
-                    অনুশীলন শুরু করুন →
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            {/* Most Important Questions Card */}
-            <div className="glass-panel" style={{
-              padding: '28px',
-              borderRadius: '18px',
-              border: '1px solid rgba(244, 63, 94, 0.25)',
-              background: 'linear-gradient(135deg, rgba(255, 241, 242, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              boxShadow: '0 8px 30px rgba(244, 63, 94, 0.08)'
-            }}>
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-                  <div style={{
-                    width: '50px',
-                    height: '50px',
-                    borderRadius: '12px',
-                    background: '#ffe4e6',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    <Flame size={26} color="#e11d48" />
-                  </div>
-                  <span className="badge" style={{ background: '#fff1f2', color: '#e11d48', border: '1px solid #fecdd3', padding: '6px 12px' }}>
-                    ১২টি বিষয় • ৪,৯০৪টি প্রশ্ন
-                  </span>
-                </div>
-
-                <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#881337', marginBottom: '8px' }}>
-                  সর্বাধিক কমন প্রশ্ন (Most Important)
-                </h3>
-                <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: '1.6', marginBottom: '20px' }}>
-                  প্রাইমারি শিক্ষক, NTRCA নিবন্ধন, বিসিএস, ব্যাংক, ১০ম-২০তম গ্রেড ও সাম্প্রতিক বাংলাদেশ-আন্তর্জাতিক বিষয়ের বাছাইকৃত প্রশ্নাবলি।
-                </p>
-              </div>
-
-              <div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
-                  <Link
-                    href="/most-important-questions"
-                    className="btn-primary"
-                    style={{ background: '#e11d48', justifyContent: 'center', padding: '10px', fontSize: '0.88rem' }}
-                  >
-                    বক্স লেআউট (১২ বিষয়)
-                  </Link>
-                  <Link
-                    href="/most-important-smart"
-                    className="btn-secondary"
-                    style={{ justifyContent: 'center', padding: '10px', fontSize: '0.88rem', borderColor: '#fda4af', color: '#be123c' }}
-                  >
-                    স্মার্ট লেআউট ভিউ
-                  </Link>
-                </div>
-                <div style={{ display: 'flex', gap: '10px' }}>
-                  <Link
-                    href="/most-important-questions-practice?cat=primary-most-important&file=primary-assistant-teacher-final-suggestion"
-                    style={{ fontSize: '0.84rem', color: '#e11d48', fontWeight: 600, textDecoration: 'none' }}
-                  >
-                    অনুশীলন শুরু করুন →
-                  </Link>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
       </section>

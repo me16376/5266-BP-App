@@ -1,0 +1,1142 @@
+[
+  {
+    "id": 1,
+    "question": "হাই-লেভেল ল্যাঙ্গুয়েজে লেখা কোডকে মেশিন কোডে রূপান্তর করতে কোনটি পুরো কোডটিকে একবারে স্ক্যান করে?",
+    "options": [
+      "ইন্টারপ্রেটার",
+      "অ্যাসেম্বলার",
+      "কম্পাইলার",
+      "ডিবাগার"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "কম্পাইলার",
+    "explanation": "কম্পাইলার (Compiler) সম্পূর্ণ হাই-লেভেল সোর্স কোডকে একসাথে সম্পূর্ণ স্ক্যান করে মেশিন কোড বা অবজেক্ট কোডে রূপান্তর করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "কম্পাইলার",
+    "hints": "মূল তথ্য: কম্পাইলার (Compiler) সম্পূর্ণ হাই-লেভেল সোর্স কোডকে একসাথে সম্পূর্ণ স্ক্যান করে মেশিন কোড বা অবজেক্ট কোডে রূপান্তর করে।"
+  },
+  {
+    "id": 2,
+    "question": "মেশিন ল্যাঙ্গুয়েজ (যন্ত্র ভাষা) সাধারণত কোন প্রজন্মের ভাষা হিসেবে পরিচিত?",
+    "options": [
+      "থার্ড জেনারেশন",
+      "সেকেন্ড জেনারেশন",
+      "ফোর্থ জেনারেশন",
+      "ফার্স্ট জেনারেশন"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "ফার্স্ট জেনারেশন",
+    "explanation": "মেশিন ল্যাঙ্গুয়েজ বা বাইনারি কোড (০ ও ১) হলো কম্পিউটারের প্রথম প্রজন্মের ভাষা (First Generation Language বা 1GL)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "ফার্স্ট জেনারেশন",
+    "hints": "মূল তথ্য: মেশিন ল্যাঙ্গুয়েজ বা বাইনারি কোড (০ ও ১) হলো কম্পিউটারের প্রথম প্রজন্মের ভাষা (First Generation Language বা 1GL)।"
+  },
+  {
+    "id": 3,
+    "question": "প্রোগ্রামিং-এ একটি নির্দিষ্ট সমস্যা সমাধানের ধাপে ধাপে নির্দেশমালাকে কী বলা হয়?",
+    "options": [
+      "ফ্লোচার্ট",
+      "টেস্টিং",
+      "অ্যালগরিদম",
+      "সিনট্যাক্স"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "অ্যালগরিদম",
+    "explanation": "যেকোনো নির্দিষ্ট সমস্যা সমাধানের জন্য ধাপে ধাপে সুবিন্যস্ত যৌক্তিক নির্দেশমালাকে অ্যালগরিদম (Algorithm) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "অ্যালগরিদম",
+    "hints": "মূল তথ্য: যেকোনো নির্দিষ্ট সমস্যা সমাধানের জন্য ধাপে ধাপে সুবিন্যস্ত যৌক্তিক নির্দেশমালাকে অ্যালগরিদম (Algorithm) বলা হয়।"
+  },
+  {
+    "id": 4,
+    "question": "ইন্টারপ্রেটার (Interpreter) কোড কীভাবে এক্সিকিউট করে?",
+    "options": [
+      "প্রথমে অবজেক্ট কোড তৈরি করে",
+      "পুরো ফাইলটি একবারে অনুবাদ করে",
+      "লাইন বাই লাইন অনুবাদ এবং এক্সিকিউট করে",
+      "সরাসরি হার্ডওয়্যারে পাঠায়"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "লাইন বাই লাইন অনুবাদ এবং এক্সিকিউট করে",
+    "explanation": "ইন্টারপ্রেটার (Interpreter) সোর্স কোডকে একবারে অনুবাদ না করে এক লাইন এক লাইন করে অনুবাদ করে এবং সাথে সাথে এক্সিকিউট করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "লাইন বাই লাইন অনুবাদ এবং এক্সিকিউট করে",
+    "hints": "মূল তথ্য: ইন্টারপ্রেটার (Interpreter) সোর্স কোডকে একবারে অনুবাদ না করে এক লাইন এক লাইন করে অনুবাদ করে এবং সাথে সাথে এক্সিকিউট করে।"
+  },
+  {
+    "id": 5,
+    "question": "হাই-লেভেল ল্যাঙ্গুয়েজে লেখা প্রোগ্রামকে কী বলা হয়?",
+    "options": [
+      "অবজেক্ট কোড",
+      "এক্সিকিউটেবল ফাইল",
+      "সোর্স কোড",
+      "মেশিন কোড"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "সোর্স কোড",
+    "explanation": "প্রোগ্রামার কর্তৃক কোনো প্রোগ্রামিং ভাষায় রচিত মূল হিউম্যান-রিডেবল প্রোগ্রামটিকে সোর্স কোড (Source Code) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "সোর্স কোড",
+    "hints": "মূল তথ্য: প্রোগ্রামার কর্তৃক কোনো প্রোগ্রামিং ভাষায় রচিত মূল হিউম্যান-রিডেবল প্রোগ্রামটিকে সোর্স কোড (Source Code) বলা হয়।"
+  },
+  {
+    "id": 6,
+    "question": "ভ্যারিয়েবলের নাম লেখার সময় নিচের কোনটি ব্যবহার করা সঠিক নয়?",
+    "options": [
+      "আন্ডারস্কোর",
+      "সংখ্যা",
+      "অক্ষর",
+      "স্পেস বা ফাঁকা স্থান"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "স্পেস বা ফাঁকা স্থান",
+    "explanation": "ভ্যারিয়েবলের নামকরণে অক্ষর, সংখ্যা এবং আন্ডারস্কোর ব্যবহার করা গেলেও কোনো স্পেস বা ফাঁকা স্থান ব্যবহার করা অবৈধ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "স্পেস বা ফাঁকা স্থান",
+    "hints": "মূল তথ্য: ভ্যারিয়েবলের নামকরণে অক্ষর, সংখ্যা এবং আন্ডারস্কোর ব্যবহার করা গেলেও কোনো স্পেস বা ফাঁকা স্থান ব্যবহার করা অবৈধ।"
+  },
+  {
+    "id": 7,
+    "question": "unsigned মডিফায়ার ব্যবহার করলে int ডেটা টাইপ কী ধরনের মান সংরক্ষণ করতে পারে?",
+    "options": [
+      "শুধুমাত্র ঋণাত্মক",
+      "ঋণাত্মক এবং ধনাত্মক",
+      "দশমিক মান",
+      "শুধুমাত্র ধনাত্মক এবং শূন্য"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "শুধুমাত্র ধনাত্মক এবং শূন্য",
+    "explanation": "unsigned মডিফায়ার ব্যবহার করলে সাইন বিট বাদ যায়, ফলে ভ্যারিয়েবলটি শুধুমাত্র অঋণাত্মক (ধনাত্মক ও শূন্য) মান ধারণ করতে পারে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "শুধুমাত্র ধনাত্মক এবং শূন্য",
+    "hints": "মূল তথ্য: unsigned মডিফায়ার ব্যবহার করলে সাইন বিট বাদ যায়, ফলে ভ্যারিয়েবলটি শুধুমাত্র অঋণাত্মক (ধনাত্মক ও শূন্য) মান ধারণ কর...।"
+  },
+  {
+    "id": 8,
+    "question": "float এর তুলনায় double ডেটা টাইপ কেন বেশি ব্যবহৃত হয়?",
+    "options": [
+      "কম মেমরি ব্যবহার করে",
+      "বেশি নির্ভুলতা প্রদান করে",
+      "শুধু পূর্ণসংখ্যা সংরক্ষণ করে",
+      "দ্রুত এক্সিকিউট হয়"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "বেশি নির্ভুলতা প্রদান করে",
+    "explanation": "float (৩২-বিট) এর তুলনায় double ডেটা টাইপ ৬৪-বিট মেমরি ব্যবহার করে দশমিকের পর প্রায় ১৫-১৭ ঘর পর্যন্ত অধিক নির্ভুলতা (Precision) প্রদান করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "বেশি নির্ভুলতা প্রদান করে",
+    "hints": "মূল তথ্য: float (৩২-বিট) এর তুলনায় double ডেটা টাইপ ৬৪-বিট মেমরি ব্যবহার করে দশমিকের পর প্রায় ১৫-১৭ ঘর পর্যন্ত অধিক নির্ভুলতা...।"
+  },
+  {
+    "id": 9,
+    "question": "int num = 5; - এই স্টেটমেন্টটিকে কী বলা হয়?",
+    "options": [
+      "ভ্যারিয়েবল ডিক্লারেশন",
+      "ফাংশন ডেফিনেশন",
+      "ভ্যারিয়েবল ইনিশিয়ালাইজেশন",
+      "অ্যারে অ্যাক্সেস"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ভ্যারিয়েবল ইনিশিয়ালাইজেশন",
+    "explanation": "একটি ভ্যারিয়েবল ডিক্লেয়ার করার সাথে সাথেই তাতে প্রাথমিক মান অর্পণ করাকে ভ্যারিয়েবল ইনিশিয়ালাইজেশন (Initialization) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "ভ্যারিয়েবল ইনিশিয়ালাইজেশন",
+    "hints": "মূল তথ্য: একটি ভ্যারিয়েবল ডিক্লেয়ার করার সাথে সাথেই তাতে প্রাথমিক মান অর্পণ করাকে ভ্যারিয়েবল ইনিশিয়ালাইজেশন (Initialization...।"
+  },
+  {
+    "id": 10,
+    "question": "নিচের কোন অপারেটরটি একটি ইউনারি অপারেটর?",
+    "options": [
+      "যোগ (+)",
+      "গুণ (*)",
+      "ইনক্রিমেন্ট (++)",
+      "বিয়োগ (-)"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ইনক্রিমেন্ট (++)",
+    "explanation": "ইনক্রিমেন্ট (++) এবং ডিক্রিমেন্ট (--) হলো ইউনারি অপারেটর, যা একটিমাত্র অপারেন্ডের মান এক বৃদ্ধি বা হ্রাস করতে ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "ইনক্রিমেন্ট (++)",
+    "hints": "মূল তথ্য: ইনক্রিমেন্ট (++) এবং ডিক্রিমেন্ট (--) হলো ইউনারি অপারেটর, যা একটিমাত্র অপারেন্ডের মান এক বৃদ্ধি বা হ্রাস করতে ব্যবহৃত...।"
+  },
+  {
+    "id": 11,
+    "question": "দুটি মান সমান কিনা তা পরীক্ষা করার জন্য কোন রিলেশনাল অপারেটরটি ব্যবহার করা হয়?",
+    "options": [
+      "=",
+      "!=",
+      "==",
+      "=>"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "==",
+    "explanation": "প্রোগ্রামিংয়ে দুটি মান সমান কিনা তা যাচাই করতে কম্প্যারিজন বা রিলেশনাল অপারেটর হিসেবে '==' ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "==",
+    "hints": "মূল তথ্য: প্রোগ্রামিংয়ে দুটি মান সমান কিনা তা যাচাই করতে কম্প্যারিজন বা রিলেশনাল অপারেটর হিসেবে '==' ব্যবহৃত হয়।"
+  },
+  {
+    "id": 12,
+    "question": "10 কে 3 দিয়ে ভাগ করলে ভাগশেষ নির্ণয় করতে কোন অপারেটরটি ব্যবহৃত হয়?",
+    "options": [
+      "/",
+      "*",
+      "+",
+      "%"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "%",
+    "explanation": "ভাগশেষ নির্ণয়ের জন্য মডিউলাস বা রিমাইন্ডার অপারেটর হিসেবে শতকরা চিহ্ন (%) ব্যবহৃত হয় (যেমন 10 % 3 = 1)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "%",
+    "hints": "মূল তথ্য: ভাগশেষ নির্ণয়ের জন্য মডিউলাস বা রিমাইন্ডার অপারেটর হিসেবে শতকরা চিহ্ন (%) ব্যবহৃত হয় (যেমন 10 % 3 = 1)।"
+  },
+  {
+    "id": 13,
+    "question": "বিটগুলিকে বাম দিকে সরিয়ে দিয়ে দ্রুত গুণ করার জন্য কোন অপারেটর ব্যবহৃত হয়?",
+    "options": [
+      ">>",
+      "%",
+      "&",
+      "<<"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "<<",
+    "explanation": "বিটওয়াইজ লেফট শিফট (<<) অপারেটর প্রতিটি বিটকে বামে সরিয়ে দেয়, যা মূলত দ্রুত ২ দ্বারা গুণ করার সমতুল্য কাজ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "<<",
+    "hints": "মূল তথ্য: বিটওয়াইজ লেফট শিফট (<<) অপারেটর প্রতিটি বিটকে বামে সরিয়ে দেয়, যা মূলত দ্রুত ২ দ্বারা গুণ করার সমতুল্য কাজ করে।"
+  },
+  {
+    "id": 14,
+    "question": "C/C++ এ একটি int ডেটা টাইপ সাধারণত কত বাইট (Byte) মেমরি ব্যবহার করে?",
+    "options": [
+      "1 বাইট",
+      "2 বাইট",
+      "4 বাইট",
+      "8 বাইট"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "4 বাইট",
+    "explanation": "আধুনিক ৩২-বিট বা ৬৪-বিট আর্কিটেকচারে C/C++ এ int ডেটা টাইপ সাধারণত ৪ বাইট (৩২ বিট) মেমরি গ্রহণ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "4 বাইট",
+    "hints": "মূল তথ্য: আধুনিক ৩২-বিট বা ৬৪-বিট আর্কিটেকচারে C/C++ এ int ডেটা টাইপ সাধারণত ৪ বাইট (৩২ বিট) মেমরি গ্রহণ করে।"
+  },
+  {
+    "id": 15,
+    "question": "দশমিক (Decimal) মান সংরক্ষণের জন্য কোন ডেটা টাইপটি ব্যবহৃত হয়?",
+    "options": [
+      "int",
+      "char",
+      "float",
+      "void"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "float",
+    "explanation": "ভগ্নাংশ বা দশমিক যুক্ত বাস্তব সংখ্যা সংরক্ষণের জন্য float এবং double ডেটা টাইপ ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "float",
+    "hints": "মূল তথ্য: ভগ্নাংশ বা দশমিক যুক্ত বাস্তব সংখ্যা সংরক্ষণের জন্য float এবং double ডেটা টাইপ ব্যবহৃত হয়।"
+  },
+  {
+    "id": 16,
+    "question": "C/C++ এ Character সংরক্ষণের জন্য কোন ডেটা টাইপ ব্যবহৃত হয়?",
+    "options": [
+      "int",
+      "char",
+      "string",
+      "float"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "char",
+    "explanation": "C/C++ প্রোগ্রামিংয়ে একক বর্ণ বা ক্যারেক্টার সংরক্ষণের জন্য ১ বাইটের char ডেটা টাইপ ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "char",
+    "hints": "মূল তথ্য: C/C++ প্রোগ্রামিংয়ে একক বর্ণ বা ক্যারেক্টার সংরক্ষণের জন্য ১ বাইটের char ডেটা টাইপ ব্যবহৃত হয়।"
+  },
+  {
+    "id": 17,
+    "question": "ক্যারেক্টারের জন্য কোন ধরনের array ব্যবহার করা হয়?",
+    "options": [
+      "str",
+      "character",
+      "arr",
+      "char"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "char",
+    "explanation": "ক্যারেক্টার অ্যারে (String) সংরক্ষণের জন্য char ডেটা টাইপের অ্যারে (যেমন char str[]) ব্যবহার করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "char",
+    "hints": "মূল তথ্য: ক্যারেক্টার অ্যারে (String) সংরক্ষণের জন্য char ডেটা টাইপের অ্যারে (যেমন char str[]) ব্যবহার করা হয়।"
+  },
+  {
+    "id": 18,
+    "question": "নিচের কোডের আউটপুট কী হবে?\n\nint main() {\n char greetings[] = \"ICT Wizard\";\n printf(\"%c\", greetings[0]);\n return 0;\n}",
+    "options": [
+      "I",
+      "0",
+      "d",
+      "null"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "I",
+    "explanation": "স্ট্রিংয়ের প্রথম অক্ষরের ইনডেক্স শূন্য (০) থেকে শুরু হয়, তাই greetings[0] প্রিন্ট করলে প্রথম অক্ষর 'I' আউটপুট পাওয়া যাবে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "I",
+    "hints": "মূল তথ্য: স্ট্রিংয়ের প্রথম অক্ষরের ইনডেক্স শূন্য (০) থেকে শুরু হয়, তাই greetings[0] প্রিন্ট করলে প্রথম অক্ষর 'I' আউটপুট পাওয়...।"
+  },
+  {
+    "id": 19,
+    "question": "দুইটা string তুলনা করতে ব্যবহার হয়?",
+    "options": [
+      "Strcmp",
+      "strcat",
+      "Strlen",
+      "strcomp"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Strcmp",
+    "explanation": "C ল্যাঙ্গুয়েজে দুটি স্ট্রিংয়ের মধ্যে আক্ষরিক তুলনা করার জন্য লাইব্রেরি ফাংশন হিসেবে strcmp() ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "Strcmp",
+    "hints": "মূল তথ্য: C ল্যাঙ্গুয়েজে দুটি স্ট্রিংয়ের মধ্যে আক্ষরিক তুলনা করার জন্য লাইব্রেরি ফাংশন হিসেবে strcmp() ব্যবহৃত হয়।"
+  },
+  {
+    "id": 20,
+    "question": "কীভাবে arr অ্যারের শেষ এলিমেন্ট অ্যাক্সেস করা যাবে?",
+    "options": [
+      "arr[n]",
+      "arr[n-1]",
+      "arr[n+1]",
+      "arr[last]"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "arr[n-1]",
+    "explanation": "n আকারের একটি অ্যারের ইনডেক্স ০ থেকে n-1 পর্যন্ত হয়, তাই অ্যারের শেষ উপাদান অ্যাক্সেস করার সঠিক রূপ হলো arr[n-1]।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "arr[n-1]",
+    "hints": "মূল তথ্য: n আকারের একটি অ্যারের ইনডেক্স ০ থেকে n-1 পর্যন্ত হয়, তাই অ্যারের শেষ উপাদান অ্যাক্সেস করার সঠিক রূপ হলো arr[n-1]।"
+  },
+  {
+    "id": 21,
+    "question": "Array এর জন্য কোনটি ঠিক হবে?",
+    "options": [
+      "data type একই",
+      "আলাদা data type",
+      "একই স্কোপ",
+      "কোনটাই না"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "data type একই",
+    "explanation": "অ্যারে (Array) হলো একই ডেটা টাইপের উপাদানসমূহের একটি সুনির্দিষ্ট ক্রমবিন্যাস যা মেমরিতে পাশাপাশি অবস্থান করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "data type একই",
+    "hints": "মূল তথ্য: অ্যারে (Array) হলো একই ডেটা টাইপের উপাদানসমূহের একটি সুনির্দিষ্ট ক্রমবিন্যাস যা মেমরিতে পাশাপাশি অবস্থান করে।"
+  },
+  {
+    "id": 22,
+    "question": "নিচের কোডের আউটপুট কি হবে?\n\nint matrix[2][3] = { {1, 4, 2}, {3, 6, 8} };\nprintf(\"%d\", matrix[0][0]);",
+    "options": [
+      "1",
+      "3",
+      "0",
+      "Null"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "1",
+    "explanation": "দ্বিমাত্রিক অ্যারে matrix[0][0] প্রথম সারি ও প্রথম কলামের উপাদানটিকে নির্দেশ করে, যার মান হলো ১ (1)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "1",
+    "hints": "মূল তথ্য: দ্বিমাত্রিক অ্যারে matrix[0][0] প্রথম সারি ও প্রথম কলামের উপাদানটিকে নির্দেশ করে, যার মান হলো ১ (1)।"
+  },
+  {
+    "id": 23,
+    "question": "int ictWizardStd[] = {10, 25, 50, 75, 100}; মেমোরিতে এই array size হবে -",
+    "options": [
+      "20",
+      "5",
+      "4",
+      "Undefined"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "20",
+    "explanation": "অ্যারেটিতে ৫টি পূর্ণসংখ্যা রয়েছে এবং প্রতিটি int ৪ বাইট গ্রহণ করলে মেমরিতে মোট আকার হবে ৫ × ৪ = ২০ বাইট।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "20",
+    "hints": "মূল তথ্য: অ্যারেটিতে ৫টি পূর্ণসংখ্যা রয়েছে এবং প্রতিটি int ৪ বাইট গ্রহণ করলে মেমরিতে মোট আকার হবে ৫ × ৪ = ২০ বাইট।"
+  },
+  {
+    "id": 24,
+    "question": "কোনটা সঠিক ভ্যারিয়েবল ডিক্লারেশন নয়?",
+    "options": [
+      "char grade = 'A';",
+      "double pi = 3.14159;",
+      "int Max-value;",
+      "string name = \"Suman\";"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "int Max-value;",
+    "explanation": "ভ্যারিয়েবলের নামে হাইফেন (-) ব্যবহার করা নিষিদ্ধ কারণ এটি বিয়োগ অপারেটর হিসেবে গণ্য হয়; তাই 'int Max-value;' একটি অবৈধ ডিক্লারেশন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "int Max-value;",
+    "hints": "মূল তথ্য: ভ্যারিয়েবলের নামে হাইফেন (-) ব্যবহার করা নিষিদ্ধ কারণ এটি বিয়োগ অপারেটর হিসেবে গণ্য হয়; তাই 'int Max-value;' একটি ...।"
+  },
+  {
+    "id": 25,
+    "question": "প্রোগ্রামের ফ্লো নিয়ন্ত্রণে নিচের কোনটি শর্তাধীন (Conditional) কন্ট্রোল স্টেটমেন্ট?",
+    "options": [
+      "For",
+      "While",
+      "if-else",
+      "do-while"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "if-else",
+    "explanation": "if-else স্টেটমেন্ট নির্দিষ্ট লজিক্যাল শর্ত সত্য বা মিথ্যা হওয়ার ওপর ভিত্তি করে প্রোগ্রামের প্রবাহ নিয়ন্ত্রণ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "if-else",
+    "hints": "মূল তথ্য: if-else স্টেটমেন্ট নির্দিষ্ট লজিক্যাল শর্ত সত্য বা মিথ্যা হওয়ার ওপর ভিত্তি করে প্রোগ্রামের প্রবাহ নিয়ন্ত্রণ করে।"
+  },
+  {
+    "id": 26,
+    "question": "যখন পুনরাবৃত্তির সংখ্যা আগে থেকে জানা থাকে, তখন কোন লুপ ব্যবহার করা সুবিধাজনক?",
+    "options": [
+      "while লুপ",
+      "for লুপ",
+      "do-while লুপ",
+      "if-else স্টেটমেন্ট"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "for লুপ",
+    "explanation": "লুপের মধ্যে break স্টেটমেন্ট ব্যবহার করলে সংশ্লিষ্ট লুপের এক্সিকিউশন তৎক্ষণাৎ বন্ধ হয়ে যায় এবং লুপের বাইরে চলে আসে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "for লুপ",
+    "hints": "মূল তথ্য: লুপের মধ্যে break স্টেটমেন্ট ব্যবহার করলে সংশ্লিষ্ট লুপের এক্সিকিউশন তৎক্ষণাৎ বন্ধ হয়ে যায় এবং লুপের বাইরে চলে আসে।"
+  },
+  {
+    "id": 27,
+    "question": "কোন লুপের ক্ষেত্রে শর্ত পরীক্ষা করার আগেই কোড ব্লকটি কমপক্ষে একবার নির্বাহ হয়?",
+    "options": [
+      "for লুপ",
+      "while লুপ",
+      "do-while লুপ",
+      "else if স্টেটমেন্ট"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "do-while লুপ",
+    "explanation": "নির্দিষ্ট শর্তসাপেক্ষে বর্তমান আইটারেশনের বাকি অংশ বাদ দিয়ে পরবর্তী আইটারেশনে যাওয়ার জন্য continue ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "do-while লুপ",
+    "hints": "মূল তথ্য: নির্দিষ্ট শর্তসাপেক্ষে বর্তমান আইটারেশনের বাকি অংশ বাদ দিয়ে পরবর্তী আইটারেশনে যাওয়ার জন্য continue ব্যবহৃত হয়।"
+  },
+  {
+    "id": 28,
+    "question": "switch স্টেটমেন্টে একটি case নির্বাহ হওয়ার পর অন্যান্য case ব্লকগুলো এড়িয়ে যেতে কোনটি ব্যবহার করা হয়?",
+    "options": [
+      "Continue",
+      "Exit",
+      "Break",
+      "Default"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Break",
+    "explanation": "do-while লুপে শর্তটি লুপ বডির শেষে যাচাই করা হয়, তাই শর্ত মিথ্যা হলেও লুপটি অন্তত একবার অবশ্যই এক্সিকিউট হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "Break",
+    "hints": "মূল তথ্য: do-while লুপে শর্তটি লুপ বডির শেষে যাচাই করা হয়, তাই শর্ত মিথ্যা হলেও লুপটি অন্তত একবার অবশ্যই এক্সিকিউট হয়।"
+  },
+  {
+    "id": 29,
+    "question": "যদি লুপের শর্ত সবসময় সত্য থাকে এবং তা মিথ্যা করার কোনো ব্যবস্থা না থাকে, তবে কী ঘটে?",
+    "options": [
+      "নেস্টেড লুপ তৈরি হয়",
+      "ইনফিনিট লুপ",
+      "কম্পাইলার এরর দেয়",
+      "লজিক্যাল এরর"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "ইনফিনিট লুপ",
+    "explanation": "while লুপের শুরুতেই শর্ত যাচাই করা হয়; শর্ত সত্য হলেই কেবল লুপের ভেতরের কোড কাজ করে, অন্যথায় লুপে প্রবেশ করে না।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "ইনফিনিট লুপ",
+    "hints": "মূল তথ্য: while লুপের শুরুতেই শর্ত যাচাই করা হয়; শর্ত সত্য হলেই কেবল লুপের ভেতরের কোড কাজ করে, অন্যথায় লুপে প্রবেশ করে না।"
+  },
+  {
+    "id": 30,
+    "question": "নিচের কোডটির আউটপুট কত হবে?\n\nint i = 0;\nwhile (i < 2) {\n printf(\"%d\", i);\n i++;\n}",
+    "options": [
+      "01",
+      "12",
+      "012",
+      "0 1 2"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "01",
+    "explanation": "যখন পূর্ব থেকেই জানা থাকে যে লুপটি ঠিক কতবার ঘুরবে, তখন for লুপ ব্যবহার করা সবচেয়ে সুবিধাজনক ও প্রমিত।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "01",
+    "hints": "মূল তথ্য: যখন পূর্ব থেকেই জানা থাকে যে লুপটি ঠিক কতবার ঘুরবে, তখন for লুপ ব্যবহার করা সবচেয়ে সুবিধাজনক ও প্রমিত।"
+  },
+  {
+    "id": 31,
+    "question": "একাধিক শর্ত পরীক্ষা করে একটিমাত্র শর্ত পূরণের ভিত্তিতে কাজ সম্পন্ন করতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "if স্টেটমেন্ট",
+      "if-else স্টেটমেন্ট",
+      "else if লেডার",
+      "নেস্টেড if স্টেটমেন্ট"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "else if লেডার",
+    "explanation": "ফাংশন ঘোষণার সময় যে ভ্যারিয়েবলগুলো গ্রহণ করা হয় সেগুলোকে প্যারামিটার (Parameter) এবং কল করার সময় যে মান পাস করা হয় সেগুলোকে আর্গুমেন্ট বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "else if লেডার",
+    "hints": "মূল তথ্য: ফাংশন ঘোষণার সময় যে ভ্যারিয়েবলগুলো গ্রহণ করা হয় সেগুলোকে প্যারামিটার (Parameter) এবং কল করার সময় যে মান পাস করা হ...।"
+  },
+  {
+    "id": 32,
+    "question": "switch স্টেটমেন্টে প্রদত্ত মান কোনো case লেবেলের সাথে না মিললে কোনটি নির্বাহ হয়?",
+    "options": [
+      "Break",
+      "Default",
+      "Continue",
+      "Case"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Default",
+    "explanation": "একটি ফাংশন কার্যকর হওয়ার পর যে ডেটা টাইপের মান ফেরত পাঠায়, তাকে ফাংশনের রিটার্ন টাইপ বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "Default",
+    "hints": "মূল তথ্য: একটি ফাংশন কার্যকর হওয়ার পর যে ডেটা টাইপের মান ফেরত পাঠায়, তাকে ফাংশনের রিটার্ন টাইপ বলা হয়।"
+  },
+  {
+    "id": 33,
+    "question": "কোন লুপকে এন্ট্রি-কন্ট্রোল লুপ বলা হয়?",
+    "options": [
+      "do-while",
+      "for",
+      "for ও while",
+      "for, while ও do-while"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "for ও while",
+    "explanation": "যদি কোনো ফাংশন থেকে কোনো প্রকার মান ফেরত পাঠানোর প্রয়োজন না হয়, তবে তার রিটার্ন টাইপ হিসেবে void ব্যবহার করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "for ও while",
+    "hints": "মূল তথ্য: যদি কোনো ফাংশন থেকে কোনো প্রকার মান ফেরত পাঠানোর প্রয়োজন না হয়, তবে তার রিটার্ন টাইপ হিসেবে void ব্যবহার করা হয়।"
+  },
+  {
+    "id": 34,
+    "question": "নিচের কোডটির আউটপুট কত হবে?\n\nint time = 9;\nif (time < 10) {\n printf(\"Morning\");\n}\nelse {\n printf(\"Evening\");\n}",
+    "options": [
+      "Morning",
+      "Evening",
+      "Error",
+      "MorningEvening"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Morning",
+    "explanation": "C বা C++ এ কোনো ফাংশন ব্যবহার করার পূর্বে কম্পাইলারকে তার নাম, রিটার্ন টাইপ ও প্যারামিটার জানানোর প্রক্রিয়াকে ফাংশন প্রোটোটাইপ বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "Morning",
+    "hints": "মূল তথ্য: C বা C++ এ কোনো ফাংশন ব্যবহার করার পূর্বে কম্পাইলারকে তার নাম, রিটার্ন টাইপ ও প্যারামিটার জানানোর প্রক্রিয়াকে ফাংশন ...।"
+  },
+  {
+    "id": 35,
+    "question": "একটি ক্লাস হলো:",
+    "options": [
+      "ফিজিক্যাল সত্তা",
+      "বাস্তব-জগতের বস্তু",
+      "অবজেক্ট তৈরি করার নীলনকশা বা টেমপ্লেট",
+      "একটি অবজেক্টের মধ্যে থাকা মেথড"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "অবজেক্ট তৈরি করার নীলনকশা বা টেমপ্লেট",
+    "explanation": "যখন কোনো ফাংশন নিজের ভেতর থেকে নিজেই নিজেকে পুনরায় কল করে, তখন সেই বিশেষ প্রোগ্রামিং পদ্ধতিকে রিকার্শন (Recursion) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "অবজেক্ট তৈরি করার নীলনকশা বা টেমপ্লেট",
+    "hints": "মূল তথ্য: যখন কোনো ফাংশন নিজের ভেতর থেকে নিজেই নিজেকে পুনরায় কল করে, তখন সেই বিশেষ প্রোগ্রামিং পদ্ধতিকে রিকার্শন (Recursion) ব...।"
+  },
+  {
+    "id": 36,
+    "question": "একটি অবজেক্ট হলো:",
+    "options": [
+      "যৌক্তিক কাঠামো",
+      "একটি ক্লাসের ইনস্ট্যান্স",
+      "অ্যাবস্ট্রাক্ট ডেটা টাইপ",
+      "মেথড বা ফাংশন"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "একটি ক্লাসের ইনস্ট্যান্স",
+    "explanation": "পয়েন্টার (Pointer) হলো এমন একটি বিশেষ ভ্যারিয়েবল যা সরাসরি অন্য কোনো ভ্যারিয়েবলের মেমরি অ্যাড্রেস সংরক্ষণ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "একটি ক্লাসের ইনস্ট্যান্স",
+    "hints": "মূল তথ্য: পয়েন্টার (Pointer) হলো এমন একটি বিশেষ ভ্যারিয়েবল যা সরাসরি অন্য কোনো ভ্যারিয়েবলের মেমরি অ্যাড্রেস সংরক্ষণ করে।"
+  },
+  {
+    "id": 37,
+    "question": "Java-তে একটি ক্লাসের অবজেক্ট তৈরি করতে কোন কি-ওয়ার্ডটি ব্যবহৃত হয়?",
+    "options": [
+      "create",
+      "new",
+      "object",
+      "instanceof"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "new",
+    "explanation": "কোনো সাধারণ ভ্যারিয়েবলের নামের আগে অ্যাড্রেস অপারেটর (&) ব্যবহার করলে তার ফিজিক্যাল মেমরি অ্যাড্রেস পাওয়া যায়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "new",
+    "hints": "মূল তথ্য: কোনো সাধারণ ভ্যারিয়েবলের নামের আগে অ্যাড্রেস অপারেটর (&) ব্যবহার করলে তার ফিজিক্যাল মেমরি অ্যাড্রেস পাওয়া যায়।"
+  },
+  {
+    "id": 38,
+    "question": "একটি অবজেক্ট তৈরি করার প্রক্রিয়াকে কী বলা হয়?",
+    "options": [
+      "ইনহেরিটেন্স",
+      "পলিমরফিজম",
+      "এনক্যাপসুলেশন",
+      "ইনস্ট্যানসিয়েশন"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "ইনস্ট্যানসিয়েশন",
+    "explanation": "পয়েন্টার ডিক্লেয়ার করার জন্য বা পয়েন্টার নির্দেশিত ঠিকানার মান অ্যাক্সেস (Dereference) করার জন্য অ্যাসটারিস্ক (*) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "ইনস্ট্যানসিয়েশন",
+    "hints": "মূল তথ্য: পয়েন্টার ডিক্লেয়ার করার জন্য বা পয়েন্টার নির্দেশিত ঠিকানার মান অ্যাক্সেস (Dereference) করার জন্য অ্যাসটারিস্ক (*) ...।"
+  },
+  {
+    "id": 39,
+    "question": "যদি আপনার একটি Car ক্লাস থাকে, তাহলে অবজেক্ট তৈরির জন্য নিচের কোনটি বৈধ উপায়?",
+    "options": [
+      "Car myCar = new Car;",
+      "new Car();",
+      "Car myCar = new Car();",
+      "myCar = Car();"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Car myCar = new Car();",
+    "explanation": "অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিংয়ে (OOP) একটি ক্লাস হলো সম্পর্কিত অবজেক্ট তৈরির ব্লুপ্রিন্ট বা নকশা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "Car myCar = new Car();",
+    "hints": "মূল তথ্য: অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিংয়ে (OOP) একটি ক্লাস হলো সম্পর্কিত অবজেক্ট তৈরির ব্লুপ্রিন্ট বা নকশা।"
+  },
+  {
+    "id": 40,
+    "question": "একটি ক্লাসে কী থাকতে পারে?",
+    "options": [
+      "ভ্যারিয়েবল এবং মেথড",
+      "শুধুমাত্র ভ্যারিয়েবল",
+      "শুধুমাত্র মেথড",
+      "অন্যান্য অবজেক্ট, কিন্তু মেথড নয়"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "ভ্যারিয়েবল এবং মেথড",
+    "explanation": "ক্লাসের ভিত্তিতে মেমরিতে বাস্তব রূপ পাওয়া নির্দিষ্ট ইনস্ট্যান্সকে অবজেক্ট (Object) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "ভ্যারিয়েবল এবং মেথড",
+    "hints": "মূল তথ্য: ক্লাসের ভিত্তিতে মেমরিতে বাস্তব রূপ পাওয়া নির্দিষ্ট ইনস্ট্যান্সকে অবজেক্ট (Object) বলা হয়।"
+  },
+  {
+    "id": 41,
+    "question": "একটিমাত্র ক্লাস থেকে কতগুলো অবজেক্ট তৈরি করা যেতে পারে?",
+    "options": [
+      "শুধুমাত্র একটি",
+      "শুধুমাত্র দুটি",
+      "একাধিক",
+      "একটি নির্দিষ্ট সংখ্যা"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "একাধিক",
+    "explanation": "এনক্যাপসুলেশন (Encapsulation) হলো ডেটা এবং সেই ডেটা নিয়ে কাজ করা মেথডগুলোকে একটি ক্লাসের মধ্যে একত্রিত ও সুরক্ষিত রাখার নীতি।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "একাধিক",
+    "hints": "মূল তথ্য: এনক্যাপসুলেশন (Encapsulation) হলো ডেটা এবং সেই ডেটা নিয়ে কাজ করা মেথডগুলোকে একটি ক্লাসের মধ্যে একত্রিত ও সুরক্ষিত রা...।"
+  },
+  {
+    "id": 42,
+    "question": "Setter এবং getter মেথড ব্যবহার করা কোন OOP ধারণা নামে পরিচিত?",
+    "options": [
+      "এনক্যাপসুলেশন",
+      "পলিমরফিজম",
+      "ইনহেরিটেন্স",
+      "রিকার্শন"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "এনক্যাপসুলেশন",
+    "explanation": "ক্লাসের অভ্যন্তরীণ সংবেদনশীল ডেটা সরাসরি বাইরে থেকে পরিবর্তন রোধ করতে ফিল্ডগুলোকে private রাখা হয় এবং getter/setter দিয়ে অ্যাক্সেস দেওয়া হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "এনক্যাপসুলেশন",
+    "hints": "মূল তথ্য: ক্লাসের অভ্যন্তরীণ সংবেদনশীল ডেটা সরাসরি বাইরে থেকে পরিবর্তন রোধ করতে ফিল্ডগুলোকে private রাখা হয় এবং getter/setter ...।"
+  },
+  {
+    "id": 43,
+    "question": "এনক্যাপসুলেশন বাস্তবায়নের জন্য কোন অ্যাক্সেস মডিফায়ারটি সবচেয়ে গুরুত্বপূর্ণ?",
+    "options": [
+      "public",
+      "private",
+      "protected",
+      "static"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "private",
+    "explanation": "private অ্যাক্সেস মডিফায়ার নিশ্চিত করে যে সংশ্লিষ্ট ভ্যারিয়েবল বা মেথড কেবল সেই নির্দিষ্ট ক্লাসের ভেতর থেকেই অ্যাক্সেসযোগ্য।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "private",
+    "hints": "মূল তথ্য: private অ্যাক্সেস মডিফায়ার নিশ্চিত করে যে সংশ্লিষ্ট ভ্যারিয়েবল বা মেথড কেবল সেই নির্দিষ্ট ক্লাসের ভেতর থেকেই অ্যাক্...।"
+  },
+  {
+    "id": 44,
+    "question": "Java-তে একটি ক্লাসকে ইনহেরিটেন্স সূত্রে পেতে কোন কি-ওয়ার্ডটি ব্যবহৃত হয়?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "uses"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "extends",
+    "explanation": "জাভা প্রোগ্রামিংয়ে প্যারেন্ট ক্লাস থেকে সাবক্লাসে ইনহেরিট বা উত্তরাধিকার পেতে extends কি-ওয়ার্ড ব্যবহার করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "extends",
+    "hints": "মূল তথ্য: জাভা প্রোগ্রামিংয়ে প্যারেন্ট ক্লাস থেকে সাবক্লাসে ইনহেরিট বা উত্তরাধিকার পেতে extends কি-ওয়ার্ড ব্যবহার করা হয়।"
+  },
+  {
+    "id": 45,
+    "question": "যে ক্লাস থেকে একটি সাবক্লাস ইনহেরিটেন্সসূত্রে পায়, সেই ক্লাসের নাম কী?",
+    "options": [
+      "চাইল্ড ক্লাস",
+      "ডেরাইভড ক্লাস",
+      "প্যারেন্ট ক্লাস",
+      "সিবলিং ক্লাস"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "প্যারেন্ট ক্লাস",
+    "explanation": "যে বিদ্যমান ক্লাস থেকে নতুন সাবক্লাস তৈরি করা হয় এবং বৈশিষ্ট্য গ্রহণ করা হয়, তাকে প্যারেন্ট ক্লাস (Parent বা Superclass) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "প্যারেন্ট ক্লাস",
+    "hints": "মূল তথ্য: যে বিদ্যমান ক্লাস থেকে নতুন সাবক্লাস তৈরি করা হয় এবং বৈশিষ্ট্য গ্রহণ করা হয়, তাকে প্যারেন্ট ক্লাস (Parent বা Superc...।"
+  },
+  {
+    "id": 46,
+    "question": "নিচের কোনটি Java-তে ইনহেরিটেন্স এর ধরন নয়?",
+    "options": [
+      "সিঙ্গেল ইনহেরিট্যান্স",
+      "মাল্টিপল ইনহেরিট্যান্স",
+      "হায়ারারকিয়্যাল ইনহেরিট্যান্স",
+      "মাল্টিলেভেল ইনহেরিট্যান্স"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "মাল্টিপল ইনহেরিট্যান্স",
+    "explanation": "জাভাতে ডায়মন্ড প্রবলেম এবং জটিলতা এড়াতে ক্লাসের ক্ষেত্রে একাধিক ক্লাস থেকে মাল্টিপল ইনহেরিট্যান্স সমর্থন করা হয় না (ইন্টারফেস দিয়ে করা হয়)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "মাল্টিপল ইনহেরিট্যান্স",
+    "hints": "মূল তথ্য: জাভাতে ডায়মন্ড প্রবলেম এবং জটিলতা এড়াতে ক্লাসের ক্ষেত্রে একাধিক ক্লাস থেকে মাল্টিপল ইনহেরিট্যান্স সমর্থন করা হয় না...।"
+  },
+  {
+    "id": 47,
+    "question": "যদি একটি ক্লাস B ক্লাস A কে extends করে, তাহলে সম্পর্কটি কী?",
+    "options": [
+      "A is a B",
+      "B is a A",
+      "A এবং B সম্পর্কহীন",
+      "a) এবং b) উভয়ই সঠিক"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "B is a A",
+    "explanation": "যদি ক্লাস B ক্লাস A-কে extends করে, তবে তাদের মধ্যে সম্পর্কটি হলো 'B is a A' (যেমন Dog is an Animal)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "B is a A",
+    "hints": "মূল তথ্য: যদি ক্লাস B ক্লাস A-কে extends করে, তবে তাদের মধ্যে সম্পর্কটি হলো 'B is a A' (যেমন Dog is an Animal)।"
+  },
+  {
+    "id": 48,
+    "question": "একটি সাবক্লাসের কনস্ট্রাক্টরে super কি-ওয়ার্ড ব্যবহারের উদ্দেশ্য কী?",
+    "options": [
+      "চাইল্ড ক্লাস থেকে একটি মেথড কল করা।",
+      "প্যারেন্ট ক্লাসের কনস্ট্রাক্টরকে কল করা।",
+      "অন্য একটি সিবলিং ক্লাসের কনস্ট্রাক্টরকে কল করা।",
+      "প্যারেন্ট ক্লাসের একটি নতুন অবজেক্ট তৈরি করা।"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "প্যারেন্ট ক্লাসের কনস্ট্রাক্টরকে কল করা।",
+    "explanation": "সাবক্লাস থেকে প্যারেন্ট বা সুপার ক্লাসের কনস্ট্রাক্টরকে কল করার জন্য super() কি-ওয়ার্ড ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "প্যারেন্ট ক্লাসের কনস্ট্রাক্টরকে কল করা।",
+    "hints": "মূল তথ্য: সাবক্লাস থেকে প্যারেন্ট বা সুপার ক্লাসের কনস্ট্রাক্টরকে কল করার জন্য super() কি-ওয়ার্ড ব্যবহৃত হয়।"
+  },
+  {
+    "id": 49,
+    "question": "যখন একটি চাইল্ড ক্লাসের মেথড তার প্যারেন্ট ক্লাসের একটি মেথডের মতো একই স্বাক্ষর (signature) ধারণ করে, তখন তাকে কী বলা হয়?",
+    "options": [
+      "মেথড ওভারলোডিং",
+      "মেথড ওভাররাইডিং",
+      "মেথড হাইডিং",
+      "মেথড কলিং"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "মেথড ওভাররাইডিং",
+    "explanation": "প্যারেন্ট ক্লাসের বিদ্যমান মেথডের একই নাম ও প্যারামিটার রেখে চাইল্ড ক্লাসে নিজস্ব নতুন কোড লেখাকে মেথড ওভাররাইডিং (Overriding) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "মেথড ওভাররাইডিং",
+    "hints": "মূল তথ্য: প্যারেন্ট ক্লাসের বিদ্যমান মেথডের একই নাম ও প্যারামিটার রেখে চাইল্ড ক্লাসে নিজস্ব নতুন কোড লেখাকে মেথড ওভাররাইডিং (Ov...।"
+  },
+  {
+    "id": 50,
+    "question": "কোন অ্যাক্সেস মডিফায়ার একটি মেথডকে সাবক্লাসে ওভাররাইড হওয়া থেকে রক্ষা করে?",
+    "options": [
+      "private",
+      "protected",
+      "public",
+      "final"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "final",
+    "explanation": "কোনো মেথডের আগে final কি-ওয়ার্ড যুক্ত করলে সাবক্লাসে সেই মেথডটিকে আর ওভাররাইড করা সম্ভব হয় না।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "final",
+    "hints": "মূল তথ্য: কোনো মেথডের আগে final কি-ওয়ার্ড যুক্ত করলে সাবক্লাসে সেই মেথডটিকে আর ওভাররাইড করা সম্ভব হয় না।"
+  },
+  {
+    "id": 51,
+    "question": "পলিমরফিজম বলতে কী বোঝায়?",
+    "options": [
+      "ডাটা ও মেথডকে একসাথে একটি ইউনিট হিসেবে রাখা।",
+      "একটি অবজেক্টের বহু রূপ ধারণ করার ক্ষমতা।",
+      "একটি নতুন ক্লাসকে বিদ্যমান ক্লাসের বৈশিষ্ট্য প্রদান করা।",
+      "জটিল ইমপ্লিমেন্টেশন লুকানো।"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "একটি অবজেক্টের বহু রূপ ধারণ করার ক্ষমতা।",
+    "explanation": "পলিমরফিজম (Polymorphism) শব্দের অর্থ বহুরূপিতা; এটি একটি অবজেক্ট বা ইন্টারফেসের ভিন্ন ভিন্ন পরিস্থিতিতে ভিন্ন রূপ ধারণের ক্ষমতা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "একটি অবজেক্টের বহু রূপ ধারণ করার ক্ষমতা।",
+    "hints": "মূল তথ্য: পলিমরফিজম (Polymorphism) শব্দের অর্থ বহুরূপিতা; এটি একটি অবজেক্ট বা ইন্টারফেসের ভিন্ন ভিন্ন পরিস্থিতিতে ভিন্ন রূপ ধার...।"
+  },
+  {
+    "id": 52,
+    "question": "মেথড ওভারলোডিং পলিমরফিজমের কোন প্রকারের উদাহরণ?",
+    "options": [
+      "রানটাইম পলিমরফিজম",
+      "কম্পাইল-টাইম পলিমরফিজম",
+      "ডায়নামিক পলিমরফিজম",
+      "ইনহেরিট্যান্স"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "কম্পাইল-টাইম পলিমরফিজম",
+    "explanation": "মেথড ওভারলোডিং (Method Overloading) কম্পাইল টাইমে নির্ধারিত হয়, তাই এটি কম্পাইল-টাইম বা স্ট্যাটিক পলিমরফিজম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "কম্পাইল-টাইম পলিমরফিজম",
+    "hints": "মূল তথ্য: মেথড ওভারলোডিং (Method Overloading) কম্পাইল টাইমে নির্ধারিত হয়, তাই এটি কম্পাইল-টাইম বা স্ট্যাটিক পলিমরফিজম।"
+  },
+  {
+    "id": 53,
+    "question": "মেথড ওভাররাইডিং পলিমরফিজমের কোন প্রকারের উদাহরণ?",
+    "options": [
+      "স্ট্যাটিক বাইন্ডিং",
+      "রানটাইম পলিমরফিজম",
+      "ওভারলোডিং",
+      "কনস্ট্রাক্টর ওভারলোডিং"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "রানটাইম পলিমরফিজম",
+    "explanation": "মেথড ওভাররাইডিং রানটাইমে অবজেক্টের ধরণের ওপর ভিত্তি করে নির্ধারিত হয়, তাই এটি রানটাইম বা ডায়নামিক পলিমরফিজমের উদাহরণ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "রানটাইম পলিমরফিজম",
+    "hints": "মূল তথ্য: মেথড ওভাররাইডিং রানটাইমে অবজেক্টের ধরণের ওপর ভিত্তি করে নির্ধারিত হয়, তাই এটি রানটাইম বা ডায়নামিক পলিমরফিজমের উদাহরণ।"
+  },
+  {
+    "id": 54,
+    "question": "নিচের কোনটি রানটাইম পলিমরফিজম নামেও পরিচিত?",
+    "options": [
+      "স্ট্যাটিক বাইন্ডিং",
+      "ডায়নামিক বাইন্ডিং",
+      "কম্পাইল-টাইম বাইন্ডিং",
+      "আর্লি বাইন্ডিং"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "ডায়নামিক বাইন্ডিং",
+    "explanation": "রানটাইম পলিমরফিজম ডায়নামিক মেথড ডিসপ্যাচ বা ডায়নামিক বাইন্ডিং (Dynamic Binding) নামেও পরিচিত।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "ডায়নামিক বাইন্ডিং",
+    "hints": "মূল তথ্য: রানটাইম পলিমরফিজম ডায়নামিক মেথড ডিসপ্যাচ বা ডায়নামিক বাইন্ডিং (Dynamic Binding) নামেও পরিচিত।"
+  },
+  {
+    "id": 55,
+    "question": "একটি ক্লাসে একই নামের একাধিক মেথড থাকতে পারে, তবে তাদের প্যারামিটার ভিন্ন হবে — এই প্রক্রিয়াটিকে কী বলে?",
+    "options": [
+      "মেথড ওভাররাইডিং",
+      "মেথড ওভারলোডিং",
+      "ইনহেরিট্যান্স",
+      "এনক্যাপসুলেশন"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "মেথড ওভারলোডিং",
+    "explanation": "একটি ক্লাসে একই নামের মেথডের প্যারামিটার সংখ্যা বা টাইপ ভিন্ন করে একাধিকবার ডিফাইন করাকে মেথড ওভারলোডিং বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "মেথড ওভারলোডিং",
+    "hints": "মূল তথ্য: একটি ক্লাসে একই নামের মেথডের প্যারামিটার সংখ্যা বা টাইপ ভিন্ন করে একাধিকবার ডিফাইন করাকে মেথড ওভারলোডিং বলা হয়।"
+  },
+  {
+    "id": 56,
+    "question": "একটি কনস্ট্রাক্টরের (Constructor) মূল উদ্দেশ্য কী?",
+    "options": [
+      "ক্লাসের মেথডগুলোকে কল করা।",
+      "ক্লাসের মেমরি মুক্ত করা।",
+      "একটি নতুন অবজেক্ট তৈরি করা।",
+      "অবজেক্টের ইনস্ট্যান্স ভ্যারিয়েবলগুলো শুরু করা বা ইনিশিয়ালাইজ করা।"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "অবজেক্টের ইনস্ট্যান্স ভ্যারিয়েবলগুলো শুরু করা বা ইনিশিয়ালাইজ করা।",
+    "explanation": "কনস্ট্রাক্টরের মূল কাজ হলো অবজেক্ট তৈরির সাথে সাথেই তার ইনস্ট্যান্স ভ্যারিয়েবলগুলোতে প্রাথমিক মান বরাদ্দ বা ইনিশিয়ালাইজ করা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "অবজেক্টের ইনস্ট্যান্স ভ্যারিয়েবলগুলো শুরু করা বা ইনিশিয়ালাইজ করা।",
+    "hints": "মূল তথ্য: কনস্ট্রাক্টরের মূল কাজ হলো অবজেক্ট তৈরির সাথে সাথেই তার ইনস্ট্যান্স ভ্যারিয়েবলগুলোতে প্রাথমিক মান বরাদ্দ বা ইনিশিয়া...।"
+  },
+  {
+    "id": 57,
+    "question": "যদি একটি ক্লাসে কোনো কনস্ট্রাক্টর না থাকে, তবে কী ঘটে?",
+    "options": [
+      "ওই ক্লাসের অবজেক্ট তৈরি করা সম্ভব নয়।",
+      "কম্পাইলার স্বয়ংক্রিয়ভাবে একটি ডিফল্ট কনস্ট্রাক্টর সরবরাহ করে।",
+      "ক্লাসটি একটি অ্যাবস্ট্রাক্ট ক্লাসে পরিণত হয়।",
+      "একটি রানটাইম এরর ঘটে।"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "কম্পাইলার স্বয়ংক্রিয়ভাবে একটি ডিফল্ট কনস্ট্রাক্টর সরবরাহ করে।",
+    "explanation": "যদি ক্লাসে কোনো কনস্ট্রাক্টর না লেখা হয়, তবে কম্পাইলার স্বয়ংক্রিয়ভাবে কোনো আর্গুমেন্টবিহীন একটি ডিফল্ট কনস্ট্রাক্টর সরবরাহ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "কম্পাইলার স্বয়ংক্রিয়ভাবে একটি ডিফল্ট কনস্ট্রাক্টর সরবরাহ করে।",
+    "hints": "মূল তথ্য: যদি ক্লাসে কোনো কনস্ট্রাক্টর না লেখা হয়, তবে কম্পাইলার স্বয়ংক্রিয়ভাবে কোনো আর্গুমেন্টবিহীন একটি ডিফল্ট কনস্ট্রাক্ট...।"
+  },
+  {
+    "id": 58,
+    "question": "একটি কনস্ট্রাক্টরের জন্য নিচের কোনটি সঠিক বৈশিষ্ট্য?",
+    "options": [
+      "এটি একটি রিটার্ন টাইপ ধারণ করে।",
+      "এটি সাবক্লাস দ্বারা উত্তরাধিকারসূত্রে পায়।",
+      "এর নাম অবশ্যই ক্লাসের নামের মতো একই হতে হবে।",
+      "এটি একটি সাধারণ মেথড যা কেবল ভ্যালু রিটার্ন করে।"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "এর নাম অবশ্যই ক্লাসের নামের মতো একই হতে হবে।",
+    "explanation": "কনস্ট্রাক্টরের নাম অবশ্যই ক্লাসের নামের হুবহু সমান হতে হয় এবং এর কোনো রিটার্ন টাইপ থাকে না।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "এর নাম অবশ্যই ক্লাসের নামের মতো একই হতে হবে।",
+    "hints": "মূল তথ্য: কনস্ট্রাক্টরের নাম অবশ্যই ক্লাসের নামের হুবহু সমান হতে হয় এবং এর কোনো রিটার্ন টাইপ থাকে না।"
+  },
+  {
+    "id": 59,
+    "question": "একটি সাবক্লাস থেকে প্যারেন্ট ক্লাসের কনস্ট্রাক্টরকে কল করার জন্য কোন কি-ওয়ার্ডটি ব্যবহৃত হয়?",
+    "options": [
+      "this",
+      "parent",
+      "extends",
+      "super()"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "super()",
+    "explanation": "সাবক্লাসের কনস্ট্রাক্টরের প্রথম লাইনে super() কল করে সরাসরি প্যারেন্ট ক্লাসের কনস্ট্রাক্টরকে চালু করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "super()",
+    "hints": "মূল তথ্য: সাবক্লাসের কনস্ট্রাক্টরের প্রথম লাইনে super() কল করে সরাসরি প্যারেন্ট ক্লাসের কনস্ট্রাক্টরকে চালু করা হয়।"
+  },
+  {
+    "id": 60,
+    "question": "জাভা প্রোগ্রামিং ভাষায় ডেস্ট্রাক্টরের ভূমিকা কী?",
+    "options": [
+      "প্রোগ্রামার ডেস্ট্রাক্টরকে কল করে অবজেক্ট ধ্বংস করেন।",
+      "এটি একটি বিশেষ মেথড যা রিসোর্স মুক্ত করার জন্য ব্যবহৃত হয়।",
+      "জাভাতে স্পষ্টভাবে ডেস্ট্রাক্টর ব্যবহৃত হয় না, কারণ গার্বেজ কালেক্টর স্বয়ংক্রিয়ভাবে মেমরি মুক্ত করে।",
+      "এটি অবজেক্টের জন্য মেমরি বরাদ্দ করে।"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "জাভাতে স্পষ্টভাবে ডেস্ট্রাক্টর ব্যবহৃত হয় না, কারণ গার্বেজ কালেক্টর স্বয়ংক্রিয়ভাবে মেমরি মুক্ত করে।",
+    "explanation": "জাভাতে সি++ এর মতো এক্সপ্লিসিট ডেস্ট্রাক্টর নেই, কারণ ওএস মেমরি ব্যবস্থাপনা ও অব্যবহৃত অবজেক্ট সরাতে জাভার গার্বেজ কালেক্টর (GC) স্বয়ংক্রিয়ভাবে কাজ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "2. Computer Programming",
+    "chapter": "2. Computer Programming",
+    "correctAnswer": "জাভাতে স্পষ্টভাবে ডেস্ট্রাক্টর ব্যবহৃত হয় না, কারণ গার্বেজ কালেক্টর স্বয়ংক্রিয়ভাবে মেমরি মুক্ত করে।",
+    "hints": "মূল তথ্য: জাভাতে সি++ এর মতো এক্সপ্লিসিট ডেস্ট্রাক্টর নেই, কারণ ওএস মেমরি ব্যবস্থাপনা ও অব্যবহৃত অবজেক্ট সরাতে জাভার গার্বেজ কা...।"
+  }
+]

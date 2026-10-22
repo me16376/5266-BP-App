@@ -10,7 +10,7 @@ Welcome to **5266-BP App** repository. Before analyzing or modifying any code, r
   1. **Job Solutions**: Located at `public/data/job-solution/` containing 2,154 exams across 8 categories (BCS, Bank, Primary, NTRCA, Ministries, Admission, Subject-wise, Judicial).
      - Catalog: `public/data/exams_index.json` | Loader: `src/lib/examsData.js`.
      - Routes: `/job-solution`, `/job-solution-practice`, `/job-solution-model-test`, `/question-bank-smart`, `/question-bank-smart-questions`.
-  2. **ICT Question Bank**: Located at `public/data/ict/` containing 17 chapter exams across Class 9-10 Computer GK and ICT Wizard NTRCA (1,758 MCQs).
+  2. **ICT Question Bank**: Located at `public/data/ict/` containing 28 chapter exams across Class 9-10 Computer GK, ICT Wizard NTRCA, and BPSC ICT Wizard (2,325 MCQs).
      - Catalog: `public/data/ict_index.json` | Loader: `src/lib/ictData.js`.
      - Routes: `/ict`, `/ict-practice`, `/ict-model-test`, `/ict-smart`, `/ict-smart-questions`.
    3. **Most Important Questions**: Located at `public/data/most-important-questions/` containing 12 high-priority subjects (4,904 MCQs) for Primary, NTRCA, BCS, Bank, 10th-20th Grade, Bangladesh & International Affairs.

@@ -1,6 +1,6 @@
 {
-  "total_exams": 17,
-  "total_questions": 1758,
+  "total_exams": 28,
+  "total_questions": 2325,
   "categories": [
     {
       "id": "class-9-10-computer-gk",
@@ -21,6 +21,16 @@
       "folder": "Ict-wizard-NTRCA-313-and-325",
       "exam_count": 7,
       "question_count": 594
+    },
+    {
+      "id": "bpsc-ict-wizard",
+      "name": "BPSC ICT Wizard",
+      "bn_name": "বিপিএসসি আইসিটি উইজার্ড",
+      "icon": "Terminal",
+      "desc": "বিপিএসসি ও সহকারী প্রোগ্রামার/আইসিটি নিয়োগ পরীক্ষার পূর্ণাঙ্গ অধ্যায়ভিত্তিক প্রশ্নব্যাংক ও প্রস্তুতি",
+      "folder": "BPSC ICT Wizard",
+      "exam_count": 11,
+      "question_count": 567
     }
   ],
   "exams": [
@@ -193,6 +203,116 @@
       "category_name": "ICT Wizard NTRCA (313 & 325)",
       "question_count": 52,
       "file": "/data/ict/Ict-wizard-NTRCA-313-and-325/অধ্যায়- ছ. ইন্টারনেট.json"
+    },
+    {
+      "id": "ict_18",
+      "slug": "bpsc-ict-wizard-1-compter-fundamental",
+      "title": "1. Compter Fundamental",
+      "clean_filename": "1. Compter Fundamental.json",
+      "category_id": "bpsc-ict-wizard",
+      "category_name": "BPSC ICT Wizard",
+      "question_count": 71,
+      "file": "/data/ict/BPSC ICT Wizard/1. Compter Fundamental.json"
+    },
+    {
+      "id": "ict_19",
+      "slug": "bpsc-ict-wizard-2-computer-programming",
+      "title": "2. Computer Programming",
+      "clean_filename": "2. Computer Programming.json",
+      "category_id": "bpsc-ict-wizard",
+      "category_name": "BPSC ICT Wizard",
+      "question_count": 60,
+      "file": "/data/ict/BPSC ICT Wizard/2. Computer Programming.json"
+    },
+    {
+      "id": "ict_20",
+      "slug": "bpsc-ict-wizard-3-data-communication-and-networking",
+      "title": "3. Data Communication and Networking",
+      "clean_filename": "3. Data Communication and Networking.json",
+      "category_id": "bpsc-ict-wizard",
+      "category_name": "BPSC ICT Wizard",
+      "question_count": 53,
+      "file": "/data/ict/BPSC ICT Wizard/3. Data Communication and Networking.json"
+    },
+    {
+      "id": "ict_21",
+      "slug": "bpsc-ict-wizard-4-digital-electronics",
+      "title": "4. Digital Electronics",
+      "clean_filename": "4. Digital Electronics.json",
+      "category_id": "bpsc-ict-wizard",
+      "category_name": "BPSC ICT Wizard",
+      "question_count": 23,
+      "file": "/data/ict/BPSC ICT Wizard/4. Digital Electronics.json"
+    },
+    {
+      "id": "ict_22",
+      "slug": "bpsc-ict-wizard-5-software-enginnering",
+      "title": "5. Software Enginnering",
+      "clean_filename": "5. Software Enginnering.json",
+      "category_id": "bpsc-ict-wizard",
+      "category_name": "BPSC ICT Wizard",
+      "question_count": 35,
+      "file": "/data/ict/BPSC ICT Wizard/5. Software Enginnering.json"
+    },
+    {
+      "id": "ict_23",
+      "slug": "bpsc-ict-wizard-6-database-management-system",
+      "title": "6. Database Management System",
+      "clean_filename": "6.Database Management System.json",
+      "category_id": "bpsc-ict-wizard",
+      "category_name": "BPSC ICT Wizard",
+      "question_count": 50,
+      "file": "/data/ict/BPSC ICT Wizard/6.Database Management System.json"
+    },
+    {
+      "id": "ict_24",
+      "slug": "bpsc-ict-wizard-7-data-structure-and-algorithm",
+      "title": "7. Data Structure and Algorithm",
+      "clean_filename": "7. Data Structure and Algorithm.json",
+      "category_id": "bpsc-ict-wizard",
+      "category_name": "BPSC ICT Wizard",
+      "question_count": 32,
+      "file": "/data/ict/BPSC ICT Wizard/7. Data Structure and Algorithm.json"
+    },
+    {
+      "id": "ict_25",
+      "slug": "bpsc-ict-wizard-8-computer-organization-and-architecture",
+      "title": "8. Computer Organization and Architecture",
+      "clean_filename": "8. Computer Organization and Architecture.json",
+      "category_id": "bpsc-ict-wizard",
+      "category_name": "BPSC ICT Wizard",
+      "question_count": 17,
+      "file": "/data/ict/BPSC ICT Wizard/8. Computer Organization and Architecture.json"
+    },
+    {
+      "id": "ict_26",
+      "slug": "bpsc-ict-wizard-9-operating-system",
+      "title": "9. Operating System",
+      "clean_filename": "9. Operating System.json",
+      "category_id": "bpsc-ict-wizard",
+      "category_name": "BPSC ICT Wizard",
+      "question_count": 55,
+      "file": "/data/ict/BPSC ICT Wizard/9. Operating System.json"
+    },
+    {
+      "id": "ict_27",
+      "slug": "bpsc-ict-wizard-10-recent-it-advancement",
+      "title": "10. Recent IT Advancement",
+      "clean_filename": "10. Recent IT Advancement.json",
+      "category_id": "bpsc-ict-wizard",
+      "category_name": "BPSC ICT Wizard",
+      "question_count": 14,
+      "file": "/data/ict/BPSC ICT Wizard/10. Recent IT Advancement.json"
+    },
+    {
+      "id": "ict_28",
+      "slug": "bpsc-ict-wizard-bcs-computer-পার্ট",
+      "title": "BCS Computer পার্ট",
+      "clean_filename": "BCS Computer পার্ট.json",
+      "category_id": "bpsc-ict-wizard",
+      "category_name": "BPSC ICT Wizard",
+      "question_count": 157,
+      "file": "/data/ict/BPSC ICT Wizard/BCS Computer পার্ট.json"
     }
   ]
 }

@@ -270,7 +270,8 @@ export default function QuestionCard({
       position: 'relative',
       borderLeft: '4px solid var(--emerald-500)',
       background: '#ffffff',
-      boxShadow: '0 2px 10px rgba(0, 0, 0, 0.04)'
+      boxShadow: '0 2px 10px rgba(0, 0, 0, 0.04)',
+      fontFamily: 'var(--font-sans)'
     }}>
       {/* Header Tags & Tools */}
       <div style={{
@@ -385,7 +386,7 @@ export default function QuestionCard({
         color: '#0f172a',
         lineHeight: '1.75',
         marginBottom: '20px',
-        fontFamily: 'var(--font-kalpurush)'
+        fontFamily: 'var(--font-sans)'
       }}>
         <FormattedContent content={question.question || question.question_text || ''} />
       </h3>
@@ -473,13 +474,13 @@ export default function QuestionCard({
                 justifyContent: 'center',
                 fontWeight: 700,
                 fontSize: '0.98rem',
-                fontFamily: isEnglishQuestion ? 'inherit' : 'var(--font-kalpurush)',
+                fontFamily: 'var(--font-sans)',
                 flexShrink: 0,
                 color: optionColor
               }}>
                 {currentOptionLabels[optIdx] || optIdx + 1}
               </div>
-              <span style={{ flex: 1, minWidth: 0, fontSize: '0.96rem', lineHeight: '1.55', wordBreak: 'break-word' }}>
+              <span style={{ flex: 1, minWidth: 0, fontSize: '0.96rem', lineHeight: '1.55', wordBreak: 'break-word', fontFamily: 'var(--font-sans)' }}>
                 <FormattedContent content={option} inline />
               </span>
               {icon}
@@ -618,7 +619,7 @@ export default function QuestionCard({
                 borderLeft: '3px solid var(--emerald-500)',
                 lineHeight: '1.8',
                 fontSize: '1.02rem',
-                fontFamily: 'var(--font-kalpurush)'
+                fontFamily: 'var(--font-sans)'
               }}>
                 <FormattedContent content={question.explanation} />
               </div>
@@ -653,7 +654,7 @@ export default function QuestionCard({
                 <div style={{
                   lineHeight: '1.8',
                   fontSize: '0.98rem',
-                  fontFamily: 'var(--font-kalpurush)'
+                  fontFamily: 'var(--font-sans)'
                 }}>
                   <FormattedContent content={rawHint} />
                 </div>

@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "question": "নিচের কোনটি ক্লাউড কম্পিউটিং-এর প্রধান বৈশিষ্ট্য?",
+    "options": [
+      "অন-ডিমান্ড সেল্ফ-সার্ভিস",
+      "ব্যক্তিগত ডেটা সেন্টার",
+      "ফিক্সড হার্ডওয়্যার কনফিগারেশন",
+      "অফলাইন অ্যাক্সেস"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "অন-ডিমান্ড সেল্ফ-সার্ভিস",
+    "explanation": "ক্লাউড কম্পিউটিং-এর পাঁচটি প্রধান বৈশিষ্ট্যের অন্যতম হলো অন-ডিমান্ড সেল্ফ-সার্ভিস (On-demand self-service), যার মাধ্যমে ব্যবহারকারী মানুষের হস্তক্ষেপ ছাড়াই স্বয়ংক্রিয়ভাবে কম্পিউটিং রিসোর্স ব্যবহার করতে পারেন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "অন-ডিমান্ড সেল্ফ-সার্ভিস",
+    "hints": "মূল তথ্য: ক্লাউড কম্পিউটিং-এর পাঁচটি প্রধান বৈশিষ্ট্যের অন্যতম হলো অন-ডিমান্ড সেল্ফ-সার্ভিস (On-demand self-service), যার মাধ্য...।"
+  },
+  {
+    "id": 2,
+    "question": "IaaS এর পূর্ণরূপ কী?",
+    "options": [
+      "Internet as a Service",
+      "Infrastructure as a Service",
+      "Information as a Service",
+      "Integration as a Service"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Infrastructure as a Service",
+    "explanation": "IaaS-এর পূর্ণরূপ হলো Infrastructure as a Service। এটি ভার্চুয়ালাইজড কম্পিউটিং রিসোর্স যেমন সার্ভার, স্টোরেজ ও নেটওয়ার্কিং সেবা ইন্টারনেটের মাধ্যমে প্রদান করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "Infrastructure as a Service",
+    "hints": "মূল তথ্য: IaaS-এর পূর্ণরূপ হলো Infrastructure as a Service।"
+  },
+  {
+    "id": 3,
+    "question": "Gmail, Microsoft 365 কোন সার্ভিস মডেলের উদাহরণ?",
+    "options": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "CaaS"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "SaaS",
+    "explanation": "SaaS (Software as a Service) মডেলের মাধ্যমে ইন্টারনেটের সাহায্যে সরাসরি অ্যাপ্লিকেশন সফটওয়্যার ব্যবহার করা যায়। Gmail, Microsoft 365, Google Docs ইত্যাদি SaaS-এর বহুল ব্যবহৃত উদাহরণ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "SaaS",
+    "hints": "মূল তথ্য: SaaS (Software as a Service) মডেলের মাধ্যমে ইন্টারনেটের সাহায্যে সরাসরি অ্যাপ্লিকেশন সফটওয়্যার ব্যবহার করা যায়।"
+  },
+  {
+    "id": 4,
+    "question": "অ্যাপ্লিকেশন তৈরি এবং ডেপ্লয়মেন্টের জন্য একটি প্ল্যাটফর্ম সরবরাহ করে কোনটি?",
+    "options": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "Public Cloud"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "PaaS",
+    "explanation": "PaaS (Platform as a Service) ডেভেলপারদের অ্যাপ্লিকেশন তৈরি, পরিচালনা ও ডেপ্লয়মেন্টের জন্য প্রয়োজনীয় হার্ডওয়্যার এবং সফটওয়্যার প্ল্যাটফর্ম পরিবেশ সরবরাহ করে (যেমন: Google App Engine, Heroku)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "PaaS",
+    "hints": "মূল তথ্য: PaaS (Platform as a Service) ডেভেলপারদের অ্যাপ্লিকেশন তৈরি, পরিচালনা ও ডেপ্লয়মেন্টের জন্য প্রয়োজনীয় হার্ডওয়্যার এবং স...।"
+  },
+  {
+    "id": 5,
+    "question": "একাধিক ক্লাউড সরবরাহকারীর সংমিশ্রণকে কী বলা হয়?",
+    "options": [
+      "Public Cloud",
+      "Private Cloud",
+      "Hybrid Cloud",
+      "Community Cloud"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Hybrid Cloud",
+    "explanation": "পাবলিক এবং প্রাইভেট ক্লাউডের সমন্বয়ে অথবা একাধিক ক্লাউড সরবরাহকারীর সংমিশ্রণে গঠিত ক্লাউড পরিবেশকে হাইব্রিড ক্লাউড (Hybrid Cloud) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "Hybrid Cloud",
+    "hints": "মূল তথ্য: পাবলিক এবং প্রাইভেট ক্লাউডের সমন্বয়ে অথবা একাধিক ক্লাউড সরবরাহকারীর সংমিশ্রণে গঠিত ক্লাউড পরিবেশকে হাইব্রিড ক্লাউড (H...।"
+  },
+  {
+    "id": 6,
+    "question": "ক্লাউড মডেলের মধ্যে ব্যবহারকারীর সার্ভার এবং অপারেটিং সিস্টেমে সর্বাধিক নিয়ন্ত্রণ থাকে কোনটিতে?",
+    "options": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "Community Cloud"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "IaaS",
+    "explanation": "IaaS (Infrastructure as a Service)-এ ব্যবহারকারী সম্পূর্ণ ভার্চুয়াল সার্ভার, ওএস এবং অবকাঠামোর ওপর সর্বোচ্চ নিয়ন্ত্রণ ও কনফিগারেশনের সুযোগ পান।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "IaaS",
+    "hints": "মূল তথ্য: IaaS (Infrastructure as a Service)-এ ব্যবহারকারী সম্পূর্ণ ভার্চুয়াল সার্ভার, ওএস এবং অবকাঠামোর ওপর সর্বোচ্চ নিয়ন্ত্রণ...।"
+  },
+  {
+    "id": 7,
+    "question": "ক্লাউড কম্পিউটিং-এ 'পে-অ্যাস-ইউ-গো' মডেলের মূল কারণ কী?",
+    "options": [
+      "ব্যাপক নেটওয়ার্ক অ্যাক্সেস",
+      "পরিমাপ করা সার্ভিস",
+      "রিসোর্স পুলিং",
+      "দ্রুত স্কেলেবিলিটি"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "পরিমাপ করা সার্ভিস",
+    "explanation": "ক্লাউডে 'পে-অ্যাস-ইউ-গো' (Pay-as-you-go) মডেল কার্যকর হয় পরিমাপ করা সার্ভিস (Measured Service)-এর মাধ্যমে, অর্থাৎ ব্যবহারকারী যতটুকু রিসোর্স ব্যবহার করেন কেবল ততটুকুর জন্যই মূল্য পরিশোধ করতে হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "পরিমাপ করা সার্ভিস",
+    "hints": "মূল তথ্য: ক্লাউডে 'পে-অ্যাস-ইউ-গো' (Pay-as-you-go) মডেল কার্যকর হয় পরিমাপ করা সার্ভিস (Measured Service)-এর মাধ্যমে, অর্থাৎ ব্য...।"
+  },
+  {
+    "id": 8,
+    "question": "নিচের কোনটি ক্লাউড কম্পিউটিং-এর একটি অসুবিধা?",
+    "options": [
+      "খরচ হ্রাস",
+      "স্কেলেবিলিটি",
+      "বিক্রেতা লক-ইন",
+      "স্বয়ংক্রিয় আপডেট"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "বিক্রেতা লক-ইন",
+    "explanation": "বিক্রেতা লক-ইন (Vendor Lock-in) হলো এমন একটি অবস্থা যেখানে এক ক্লাউড প্রোভাইডারের সেবা থেকে অন্য প্রোভাইডারে স্থানান্তর করা অত্যন্ত জটিল ও ব্যয়বহুল হয়ে পড়ে, যা ক্লাউড কম্পিউটিংয়ের একটি প্রধান অসুবিধা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "বিক্রেতা লক-ইন",
+    "hints": "মূল তথ্য: বিক্রেতা লক-ইন (Vendor Lock-in) হলো এমন একটি অবস্থা যেখানে এক ক্লাউড প্রোভাইডারের সেবা থেকে অন্য প্রোভাইডারে স্থানান্...।"
+  },
+  {
+    "id": 9,
+    "question": "AI-এর সেই শাখা কোনটি যা কম্পিউটারকে ডেটা থেকে শেখার এবং প্রোগ্রামিং ছাড়াই ভবিষ্যদ্বাণী করার ক্ষমতা দেয়?",
+    "options": [
+      "ডিপ লার্নিং",
+      "মেশিন লার্নিং (ML)",
+      "নিউরাল নেটওয়ার্ক",
+      "ন্যাচারাল ল্যাঙ্গুয়েজ প্রসেসিং"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "মেশিন লার্নিং (ML)",
+    "explanation": "মেশিন লার্নিং (Machine Learning বা ML) হলো কৃত্রিম বুদ্ধিমত্তার একটি শাখা যা কম্পিউটারকে পূর্ববর্তী ডেটা ও অভিজ্ঞতা থেকে নিজে নিজে শেখার ও সিদ্ধান্ত গ্রহণের সক্ষমতা দেয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "মেশিন লার্নিং (ML)",
+    "hints": "মূল তথ্য: মেশিন লার্নিং (Machine Learning বা ML) হলো কৃত্রিম বুদ্ধিমত্তার একটি শাখা যা কম্পিউটারকে পূর্ববর্তী ডেটা ও অভিজ্ঞতা থ...।"
+  },
+  {
+    "id": 10,
+    "question": "টিউরিং টেস্ট কী পরিমাপ করে?",
+    "options": [
+      "মেশিনের ডেটা স্টোরেজ ক্ষমতা",
+      "মেশিনের প্রসেসিং গতি",
+      "মেশিনের মানুষের মতো আচরণ করার ক্ষমতা",
+      "মেশিনের প্রোগ্রামিং ভাষা বোঝার ক্ষমতা"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "মেশিনের মানুষের মতো আচরণ করার ক্ষমতা",
+    "explanation": "১৯৫০ সালে অ্যালান টিউরিং 'টিউরিং টেস্ট' প্রস্তাব করেন, যার উদ্দেশ্য হলো কোনো মেশিনের মানুষের মতো বুদ্ধিমান আচরণ বা চিন্তা করার ক্ষমতা রয়েছে কিনা তা যাচাই করা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "মেশিনের মানুষের মতো আচরণ করার ক্ষমতা",
+    "hints": "মূল তথ্য: ১৯৫০ সালে অ্যালান টিউরিং 'টিউরিং টেস্ট' প্রস্তাব করেন, যার উদ্দেশ্য হলো কোনো মেশিনের মানুষের মতো বুদ্ধিমান আচরণ বা চি...।"
+  },
+  {
+    "id": 11,
+    "question": "Siri, Alexa এবং Google Assistant কোন ধরনের AI-এর উদাহরণ?",
+    "options": [
+      "Strong AI",
+      "General AI",
+      "Weak AI",
+      "Super AI"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Weak AI",
+    "explanation": "Siri, Alexa এবং Google Assistant হলো Narrow AI বা Weak AI-এর উদাহরণ, কারণ এগুলো একটি নির্দিষ্ট পরিসীমার মধ্যে সুনির্দিষ্ট কিছু কাজ সম্পাদন করার জন্য তৈরি।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "Weak AI",
+    "hints": "মূল তথ্য: Siri, Alexa এবং Google Assistant হলো Narrow AI বা Weak AI-এর উদাহরণ, কারণ এগুলো একটি নির্দিষ্ট পরিসীমার মধ্যে সুনির্দ...।"
+  },
+  {
+    "id": 12,
+    "question": "মেশিন লার্নিং-এ যখন ডেটা Labeled থাকে এবং প্রত্যাশিত আউটপুট জানা থাকে, তখন তাকে কী বলে?",
+    "options": [
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "Supervised Learning",
+      "Deep Learning"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Supervised Learning",
+    "explanation": "যখন ইনপুট ডেটার সাথে সঠিক লেবেল (Labeled Data) যুক্ত থাকে এবং প্রত্যাশিত ফলাফল জানা থাকে, তখন সেই অ্যালগরিদমকে Supervised Learning বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "Supervised Learning",
+    "hints": "মূল তথ্য: যখন ইনপুট ডেটার সাথে সঠিক লেবেল (Labeled Data) যুক্ত থাকে এবং প্রত্যাশিত ফলাফল জানা থাকে, তখন সেই অ্যালগরিদমকে Superv...।"
+  },
+  {
+    "id": 13,
+    "question": "Clustering কোন ধরনের মেশিন লার্নিং-এর প্রধান কাজ?",
+    "options": [
+      "Supervised Learning",
+      "Reinforcement Learning",
+      "Unsupervised Learning",
+      "Evolutionary Learning"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Unsupervised Learning",
+    "explanation": "Unlabeled ডেটার মধ্যে অন্তর্নিহিত প্যাটার্ন বা বৈশিষ্ট্যের ভিত্তিতে গ্রুপিং করার প্রক্রিয়া হলো ক্লাস্টারিং (Clustering), যা Unsupervised Learning-এর প্রধান কাজ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "Unsupervised Learning",
+    "hints": "মূল তথ্য: Unlabeled ডেটার মধ্যে অন্তর্নিহিত প্যাটার্ন বা বৈশিষ্ট্যের ভিত্তিতে গ্রুপিং করার প্রক্রিয়া হলো ক্লাস্টারিং (Clusterin...।"
+  },
+  {
+    "id": 14,
+    "question": "কৃত্রিম বুদ্ধিমত্তার জনক হিসেবে কাকে বিবেচনা করা হয়?",
+    "options": [
+      "জন ভন নিউম্যান",
+      "অ্যালান টিউরিং",
+      "জন ম্যাকার্থি",
+      "বিল গেটস"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "জন ম্যাকার্থি",
+    "explanation": "জন ম্যাকার্থি (John McCarthy)-কে কৃত্রিম বুদ্ধিমত্তা বা AI-এর জনক বলা হয়। তিনি ১৯৫৬ সালে প্রথম 'Artificial Intelligence' শব্দটি প্রবর্তন করেন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "10. Recent IT Advancement",
+    "chapter": "10. Recent IT Advancement",
+    "correctAnswer": "জন ম্যাকার্থি",
+    "hints": "মূল তথ্য: জন ম্যাকার্থি (John McCarthy)-কে কৃত্রিম বুদ্ধিমত্তা বা AI-এর জনক বলা হয়।"
+  }
+]

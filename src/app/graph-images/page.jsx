@@ -89,7 +89,7 @@ export default function GraphImagesPage() {
       minHeight: '100vh', 
       background: '#f1f5f9', 
       padding: '24px 16px 80px',
-      fontFamily: "var(--font-sans, 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', sans-serif)",
+      fontFamily: "var(--font-sans, 'SolaimanLipi', 'Noto Sans Bengali', sans-serif)",
       color: '#0f172a'
     }}>
       {/* STRICT MAX-WIDTH 1300PX CONTAINER */}

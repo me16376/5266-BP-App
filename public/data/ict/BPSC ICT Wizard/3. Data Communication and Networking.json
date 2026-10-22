@@ -1,0 +1,1009 @@
+[
+  {
+    "id": 1,
+    "question": "IPv6 address length? [IPv6 address কত বিট?] [BPSC AP'20, AME'19]",
+    "options": [
+      "32 Bits",
+      "128 Bits",
+      "256 Bits",
+      "64 Bits"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "128 Bits",
+    "explanation": "IPv4 অ্যাড্রেস ৩২-বিট বিশিষ্ট হলেও আধুনিক IPv6 অ্যাড্রেস ১২৮-বিট (১৬ বাইট) দীর্ঘ, যা বিপুল সংখ্যক স্বতন্ত্র আইপি ঠিকানার নিশ্চয়তা দেয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "128 Bits",
+    "hints": "মূল তথ্য: IPv4 অ্যাড্রেস ৩২-বিট বিশিষ্ট হলেও আধুনিক IPv6 অ্যাড্রেস ১২৮-বিট (১৬ বাইট) দীর্ঘ, যা বিপুল সংখ্যক স্বতন্ত্র আইপি ঠিকা...।"
+  },
+  {
+    "id": 2,
+    "question": "Routing is clearly the major issue for? [ রাউটিং কোন লেয়ারের অন্যতম কাজ] [BPSC AME'19]",
+    "options": [
+      "Transport layer",
+      "Data link layer",
+      "Network Layer",
+      "Physical Layer"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Network Layer",
+    "explanation": "OSI মডেলের নেটওয়ার্ক লেয়ারের (Layer 3) প্রধান দায়িত্ব হলো লজিক্যাল অ্যাড্রেসিং (IP) এবং উৎস থেকে গন্তব্যে সেরা পথ নির্ধারণ বা রাউটিং (Routing) করা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Network Layer",
+    "hints": "মূল তথ্য: OSI মডেলের নেটওয়ার্ক লেয়ারের (Layer 3) প্রধান দায়িত্ব হলো লজিক্যাল অ্যাড্রেসিং (IP) এবং উৎস থেকে গন্তব্যে সেরা পথ নি...।"
+  },
+  {
+    "id": 3,
+    "question": "Congestion Control happened... [কনগেশন কন্ট্রোল ঘটে ...]? [BPSC AME'19]",
+    "options": [
+      "Transport layer",
+      "Data link layer",
+      "Network Layer",
+      "Physical Layer"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Data link layer",
+    "explanation": "ডেটা লিংক লেয়ারে ফ্রেমের প্রবাহ নিয়ন্ত্রণ (Flow Control) এবং বাফারিং ব্যবস্থার মাধ্যমে ট্রাফিক নিয়ন্ত্রণ বা কনজেশন নিয়ন্ত্রণ করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Data link layer",
+    "hints": "মূল তথ্য: ডেটা লিংক লেয়ারে ফ্রেমের প্রবাহ নিয়ন্ত্রণ (Flow Control) এবং বাফারিং ব্যবস্থার মাধ্যমে ট্রাফিক নিয়ন্ত্রণ বা কনজেশন...।"
+  },
+  {
+    "id": 4,
+    "question": "DHCP DISCOVER message is [DHCP DISCOVER হচ্ছে?]? [BPSC ANE'19]",
+    "options": [
+      "Unicast",
+      "Anycast",
+      "Multicast",
+      "Broadcast"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Broadcast",
+    "explanation": "DHCP সার্ভারের সন্ধান পেতে ক্লায়েন্ট যখন প্রাথমিক বার্তা পাঠায়, তখন তার নিজস্ব বা সার্ভারের আইপি জানা থাকে না; ফলে DHCP DISCOVER মেসেজটি সমগ্র সাবনেটে ব্রডকাস্ট (Broadcast) করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Broadcast",
+    "hints": "মূল তথ্য: DHCP সার্ভারের সন্ধান পেতে ক্লায়েন্ট যখন প্রাথমিক বার্তা পাঠায়, তখন তার নিজস্ব বা সার্ভারের আইপি জানা থাকে না; ফলে ...।"
+  },
+  {
+    "id": 5,
+    "question": "Bridge is a ............ device[ব্রিজ হচ্ছে একটি ...... ডিভাইস]? [BPSC AME'19]",
+    "options": [
+      "layer 2",
+      "layer 1",
+      "layer 3",
+      "layer 2 & 3"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "layer 2",
+    "explanation": "ব্রিজ (Bridge) ও সাধারণ সুইচ হলো OSI মডেলের ডেটা লিংক লেয়ার বা লেয়ার ২-এর ডিভাইস, যা ম্যাক (MAC) অ্যাড্রেসের ওপর ভিত্তি করে কাজ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "layer 2",
+    "hints": "মূল তথ্য: ব্রিজ (Bridge) ও সাধারণ সুইচ হলো OSI মডেলের ডেটা লিংক লেয়ার বা লেয়ার ২-এর ডিভাইস, যা ম্যাক (MAC) অ্যাড্রেসের ওপর ভি...।"
+  },
+  {
+    "id": 6,
+    "question": "Which device can stop broadcast? [নিচের কোন ডিভাইস ব্রডকাস্ট বন্ধ করে?] [BPSC ANE'19]",
+    "options": [
+      "Router",
+      "Switch",
+      "RJ45",
+      "HUB"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Router",
+    "explanation": "রাউটার ব্রডকাস্ট ডোমেনকে পৃথক করে, ফলে এটি এক নেটওয়ার্কের ব্রডকাস্ট প্যাকেট অন্য নেটওয়ার্কে ছড়ানো বন্ধ করতে পারে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Router",
+    "hints": "মূল তথ্য: রাউটার ব্রডকাস্ট ডোমেনকে পৃথক করে, ফলে এটি এক নেটওয়ার্কের ব্রডকাস্ট প্যাকেট অন্য নেটওয়ার্কে ছড়ানো বন্ধ করতে পারে।"
+  },
+  {
+    "id": 7,
+    "question": "How many Cables need for 5 Device in Mesh Topology? [ ৫টা ডিভাইসের জন্য মেস টপোলজিতে কয়টি ক্যাবল লাগে?]",
+    "options": [
+      "5",
+      "6",
+      "10",
+      "11"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "10",
+    "explanation": "মেস টপোলজিতে n সংখ্যক ডিভাইসের জন্য প্রয়োজনীয় সংযোগ তারের সংখ্যা হলো n(n-1)/2। এখানে 5টি ডিভাইসের জন্য তার লাগবে: 5×(5-1)/2 = 10টি।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "10",
+    "hints": "মূল তথ্য: মেস টপোলজিতে n সংখ্যক ডিভাইসের জন্য প্রয়োজনীয় সংযোগ তারের সংখ্যা হলো n(n-1)/2।"
+  },
+  {
+    "id": 8,
+    "question": "A network that connects multiple star topologies to a central bus backbone is known as a: [যদি নেটওয়ার্কে একাধিক স্টার টপোলজি একটা সেন্ট্রাল বাস ব্যাকবোনে যুক্ত করলে যে টপোলজি হয়?]",
+    "options": [
+      "Mesh",
+      "Ring",
+      "Tree",
+      "Hybrid"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Tree",
+    "explanation": "ট্রি টপোলজি (Tree Topology) হলো স্টার এবং বাস টপোলজির সংমিশ্রণ, যেখানে একাধিক স্টার নেটওয়ার্ক একটি কেন্দ্রীয় বাস ব্যাকবোনের সাথে সংযুক্ত থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Tree",
+    "hints": "মূল তথ্য: ট্রি টপোলজি (Tree Topology) হলো স্টার এবং বাস টপোলজির সংমিশ্রণ, যেখানে একাধিক স্টার নেটওয়ার্ক একটি কেন্দ্রীয় বাস ব্...।"
+  },
+  {
+    "id": 9,
+    "question": "Unidirectional Data Transmission happened in --- [ইউনিডিরেক্টয়.../একমুখী ডাটা ট্রান্সমিশন হয়...]",
+    "options": [
+      "Mesh",
+      "Ring",
+      "Tree",
+      "Hybrid"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Ring",
+    "explanation": "রিং টপোলজিতে ডেটা সাধারণত একক বৃত্তাকার পথে একটি নির্দিষ্ট দিকে ক্রমান্বয়ে একমুখীভাবে (Unidirectional) নোড থেকে নোডে সঞ্চালিত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Ring",
+    "hints": "মূল তথ্য: রিং টপোলজিতে ডেটা সাধারণত একক বৃত্তাকার পথে একটি নির্দিষ্ট দিকে ক্রমান্বয়ে একমুখীভাবে (Unidirectional) নোড থেকে নোডে ...।"
+  },
+  {
+    "id": 10,
+    "question": "-------- topology requires a multipoint connection. [... টপোলজিতে একাধিক কানেকশন লাগে]",
+    "options": [
+      "Mesh",
+      "Ring",
+      "star",
+      "bus"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "bus",
+    "explanation": "বাস টপোলজিতে একটি একক সাধারণ ক্যাবল (Backbone)-এর সাথে একাধিক কম্পিউটার বা ডিভাইস মাল্টিপয়েন্ট সংযোগে যুক্ত থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "bus",
+    "hints": "মূল তথ্য: বাস টপোলজিতে একটি একক সাধারণ ক্যাবল (Backbone)-এর সাথে একাধিক কম্পিউটার বা ডিভাইস মাল্টিপয়েন্ট সংযোগে যুক্ত থাকে।"
+  },
+  {
+    "id": 11,
+    "question": "Which one is related to Email Services? [নিচের কোনটি ইমেইল সার্ভিসের সাথে জড়িত] [BPSC AP'20]",
+    "options": [
+      "SMTP",
+      "TELNET",
+      "UDP",
+      "SSH"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "SMTP",
+    "explanation": "SMTP (Simple Mail Transfer Protocol) হলো ইন্টারনেট প্রোটোকল যা নির্ভরযোগ্যভাবে ইমেইল প্রেরণ ও স্থানান্তরের জন্য ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "SMTP",
+    "hints": "মূল তথ্য: SMTP (Simple Mail Transfer Protocol) হলো ইন্টারনেট প্রোটোকল যা নির্ভরযোগ্যভাবে ইমেইল প্রেরণ ও স্থানান্তরের জন্য ব্যবহ...।"
+  },
+  {
+    "id": 12,
+    "question": "FTP Protocol used -[FTP প্রোটোকল ব্যবহার করা হয়]? [BPSC AP'20, ANE'19]",
+    "options": [
+      "IP",
+      "UDP",
+      "SMTP",
+      "TCP"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "TCP",
+    "explanation": "FTP (File Transfer Protocol) সার্ভার ও ক্লায়েন্টের মধ্যে নির্ভরযোগ্য ও সুনির্দিষ্ট ডেটা স্থানান্তরের জন্য ট্রান্সপোর্ট লেয়ারের সংযোগমুখী TCP প্রোটোকল ব্যবহার করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "TCP",
+    "hints": "মূল তথ্য: FTP (File Transfer Protocol) সার্ভার ও ক্লায়েন্টের মধ্যে নির্ভরযোগ্য ও সুনির্দিষ্ট ডেটা স্থানান্তরের জন্য ট্রান্সপোর...।"
+  },
+  {
+    "id": 13,
+    "question": "Which one is first Network - [নিচের কোনটি প্রথম নেটওয়ার্ক]? [BPSC AP'20]",
+    "options": [
+      "CNNET",
+      "ASPANET",
+      "NSFNET",
+      "ARPANET"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "ARPANET",
+    "explanation": "১৯৬৯ সালে মার্কিন প্রতিরক্ষা বিভাগের অর্থায়নে প্রতিষ্ঠিত ARPANET (Advanced Research Projects Agency Network) হলো বিশ্বের প্রথম কার্যকর কম্পিউটার নেটওয়ার্ক।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "ARPANET",
+    "hints": "মূল তথ্য: ১৯৬৯ সালে মার্কিন প্রতিরক্ষা বিভাগের অর্থায়নে প্রতিষ্ঠিত ARPANET (Advanced Research Projects Agency Network) হলো বিশ...।"
+  },
+  {
+    "id": 14,
+    "question": "Name of the protocol to find MAC address using IP Address [IP Address থেকে MAC বের করার পদ্ধতিকে বলে...]? [BPSC ANE'19]",
+    "options": [
+      "RIP",
+      "TCP",
+      "ARP",
+      "BGP"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ARP",
+    "explanation": "ARP (Address Resolution Protocol)-এর সাহায্যে কোনো ডিভাইসের জানা লজিক্যাল আইপি (IP) অ্যাড্রেস থেকে সংশ্লিষ্ট ফিজিক্যাল ম্যাক (MAC) অ্যাড্রেস নির্ণয় করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "ARP",
+    "hints": "মূল তথ্য: ARP (Address Resolution Protocol)-এর সাহায্যে কোনো ডিভাইসের জানা লজিক্যাল আইপি (IP) অ্যাড্রেস থেকে সংশ্লিষ্ট ফিজিক্যা...।"
+  },
+  {
+    "id": 15,
+    "question": "UDP Protocol Used [UDP প্রোটোকল ব্যবহার করে]? [BPSC ANE'19]",
+    "options": [
+      "SMTP",
+      "DNS",
+      "HTTP",
+      "FTP"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "DNS",
+    "explanation": "DNS (Domain Name System) সাধারণ ও দ্রুত কোয়েরির ক্ষেত্রে কম ওভারহেডযুক্ত এবং দ্রুতগতির UDP (User Datagram Protocol) ব্যবহার করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "DNS",
+    "hints": "মূল তথ্য: DNS (Domain Name System) সাধারণ ও দ্রুত কোয়েরির ক্ষেত্রে কম ওভারহেডযুক্ত এবং দ্রুতগতির UDP (User Datagram Protocol) ...।"
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is a characteristic of TCP [TCP এর বৈশিষ্ট্য নিচের কোনটি]?",
+    "options": [
+      "Connectionless",
+      "Unreliable",
+      "Connection-oriented",
+      "Used for fast, real-time applications"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Connection-oriented",
+    "explanation": "TCP (Transmission Control Protocol) হলো একটি নির্ভরযোগ্য ও সংযোগমুখী (Connection-oriented) প্রোটোকল যা ডেটা আদান-প্রদানের পূর্বে থ্রি-ওয়ে হ্যান্ডশেক সম্পন্ন করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Connection-oriented",
+    "hints": "মূল তথ্য: TCP (Transmission Control Protocol) হলো একটি নির্ভরযোগ্য ও সংযোগমুখী (Connection-oriented) প্রোটোকল যা ডেটা আদান-প্রদ...।"
+  },
+  {
+    "id": 17,
+    "question": "Which application layer protocol relies on TCP for reliable data transfer [নিচের কোন অ্যাপ্লিকেশন লেয়ার প্রোটোকল TCP এর উপর নির্ভরশীল]?",
+    "options": [
+      "DNS",
+      "HTTP",
+      "UDP",
+      "DHCP"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "HTTP",
+    "explanation": "HTTP (Hypertext Transfer Protocol) ওয়েবপেজ লোড করার সময় নির্ভরযোগ্য ডেটা স্থানান্তরের জন্য ব্যাকএন্ডে TCP প্রোটোকল ব্যবহার করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "HTTP",
+    "hints": "মূল তথ্য: HTTP (Hypertext Transfer Protocol) ওয়েবপেজ লোড করার সময় নির্ভরযোগ্য ডেটা স্থানান্তরের জন্য ব্যাকএন্ডে TCP প্রোটোকল ...।"
+  },
+  {
+    "id": 18,
+    "question": "IP is considered a _________ protocol [আইপি এড্রেস হচ্ছে ...].",
+    "options": [
+      "Connectionless",
+      "Connection-oriented",
+      "Unreliable",
+      "Both a and c"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Connectionless",
+    "explanation": "IP (Internet Protocol) হলো একটি সংযোগহীন (Connectionless) এবং বেস্ট-এফোর্ট প্রোটোকল, যা প্যাকেট প্রেরণের পূর্বে কোনো পূর্বসংযোগ স্থাপন করে না।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Connectionless",
+    "hints": "মূল তথ্য: IP (Internet Protocol) হলো একটি সংযোগহীন (Connectionless) এবং বেস্ট-এফোর্ট প্রোটোকল, যা প্যাকেট প্রেরণের পূর্বে কোনো ...।"
+  },
+  {
+    "id": 19,
+    "question": "What does UDP lack that TCP provides [নিচের কোনটি TCP তে আছে কিন্তু UDP তে নাই]?",
+    "options": [
+      "Addressing",
+      "Port numbers",
+      "Reliability and flow control",
+      "Data transfer capability"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Reliability and flow control",
+    "explanation": "UDP-তে ডেটা প্রাপ্তির নিশ্চিতকরণ (Acknowledgement), ফ্লো কন্ট্রোল বা রিট্রান্সমিশনের সুবিধা নেই, যা নির্ভরযোগ্য TCP প্রোটোকলে বিদ্যমান।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Reliability and flow control",
+    "hints": "মূল তথ্য: UDP-তে ডেটা প্রাপ্তির নিশ্চিতকরণ (Acknowledgement), ফ্লো কন্ট্রোল বা রিট্রান্সমিশনের সুবিধা নেই, যা নির্ভরযোগ্য TCP প...।"
+  },
+  {
+    "id": 20,
+    "question": "Which protocol is primarily used by DNS for simple queries [DNS কোয়েরির জন্য প্রধানত ইউজার ডেটাগ্রাম প্রোটোকল (UDP) ব্যবহৃত হয়...]?",
+    "options": [
+      "TCP",
+      "UDP",
+      "HTTP",
+      "SMTP"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "UDP",
+    "explanation": "ছোট আকারের কোয়েরি দ্রুত সম্পন্ন করতে এবং নেটওয়ার্ক লোড কমাতে DNS সাধারণত সংযোগহীন UDP প্রোটোকলের পোর্ট ৫৩ ব্যবহার করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "UDP",
+    "hints": "মূল তথ্য: ছোট আকারের কোয়েরি দ্রুত সম্পন্ন করতে এবং নেটওয়ার্ক লোড কমাতে DNS সাধারণত সংযোগহীন UDP প্রোটোকলের পোর্ট ৫৩ ব্যবহার করে।"
+  },
+  {
+    "id": 21,
+    "question": "Automatically IP এসাইন করার নিয়মকে বলে --?",
+    "options": [
+      "DHCP",
+      "HTTP",
+      "TCP",
+      "DNS"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "DHCP",
+    "explanation": "DHCP (Dynamic Host Configuration Protocol)-এর মাধ্যমে নেটওয়ার্কে সংযুক্ত ডিভাইসগুলোকে স্বয়ংক্রিয়ভাবে আইপি অ্যাড্রেস, সাবনেট মাস্ক ও গেটওয়ে বরাদ্দ করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "DHCP",
+    "hints": "মূল তথ্য: DHCP (Dynamic Host Configuration Protocol)-এর মাধ্যমে নেটওয়ার্কে সংযুক্ত ডিভাইসগুলোকে স্বয়ংক্রিয়ভাবে আইপি অ্যাড্রে...।"
+  },
+  {
+    "id": 22,
+    "question": "SSH Port নাম্বার কত?",
+    "options": [
+      "21",
+      "22",
+      "20",
+      "23"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "22",
+    "explanation": "নিরাপদ রিমোট লগইন ও শেল অ্যাক্সেসের জন্য ব্যবহৃত SSH (Secure Shell) প্রোটোকল প্রমিতভাবে পোর্ট ২২ (Port 22) ব্যবহার করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "22",
+    "hints": "মূল তথ্য: নিরাপদ রিমোট লগইন ও শেল অ্যাক্সেসের জন্য ব্যবহৃত SSH (Secure Shell) প্রোটোকল প্রমিতভাবে পোর্ট ২২ (Port 22) ব্যবহার করে।"
+  },
+  {
+    "id": 23,
+    "question": "Data communication যখন দেশ থেকে অন্য দেশ কানেক্ট করে তাকে বলে?",
+    "options": [
+      "LAN",
+      "WAN",
+      "MAN",
+      "PAN"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "WAN",
+    "explanation": "WAN (Wide Area Network) হলো এমন একটি নেটওয়ার্ক যা বিস্তৃত ভৌগোলিক অঞ্চল, একাধিক দেশ বা সমগ্র বিশ্বজুড়ে কম্পিউটারগুলোকে সংযুক্ত করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "WAN",
+    "hints": "মূল তথ্য: WAN (Wide Area Network) হলো এমন একটি নেটওয়ার্ক যা বিস্তৃত ভৌগোলিক অঞ্চল, একাধিক দেশ বা সমগ্র বিশ্বজুড়ে কম্পিউটারগুল...।"
+  },
+  {
+    "id": 24,
+    "question": "Data communication যদি একটা ক্যাম্পাসের মধ্যে হয় তখন সেটাকে বলে_______",
+    "options": [
+      "LAN",
+      "WAN",
+      "MAN",
+      "PAN"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "LAN",
+    "explanation": "একটি ক্যাম্পাস, বিশ্ববিদ্যালয় বা নির্দিষ্ট ভৌগোলিক সীমানার ভেতরের নেটওয়ার্ককে LAN (Local Area Network) বা CAN (Campus Area Network) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "LAN",
+    "hints": "মূল তথ্য: একটি ক্যাম্পাস, বিশ্ববিদ্যালয় বা নির্দিষ্ট ভৌগোলিক সীমানার ভেতরের নেটওয়ার্ককে LAN (Local Area Network) বা CAN (Camp...।"
+  },
+  {
+    "id": 25,
+    "question": "কোন তারযুক্ত মাধ্যমে ডেটা স্থানান্তরের জন্য আলোর পালস ব্যবহৃত হয়?",
+    "options": [
+      "Twisted Pair Cable",
+      "Coaxial Cable",
+      "Fiber Optic Cable",
+      "Ethernet Cable"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Fiber Optic Cable",
+    "explanation": "ফাইবার অপটিক ক্যাবলে কাচের তন্তুর মধ্য দিয়ে পূর্ণ অভ্যন্তরীণ প্রতিফলনের নীতিতে আলোর স্পন্দন বা পালসের মাধ্যমে অতিদ্রুত ডেটা পরিবাহিত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Fiber Optic Cable",
+    "hints": "মূল তথ্য: ফাইবার অপটিক ক্যাবলে কাচের তন্তুর মধ্য দিয়ে পূর্ণ অভ্যন্তরীণ প্রতিফলনের নীতিতে আলোর স্পন্দন বা পালসের মাধ্যমে অতিদ্র...।"
+  },
+  {
+    "id": 26,
+    "question": "তারবিহীন সংযোগগুলোর মধ্যে কোনটি সাধারণত স্বল্প দূরত্বে এবং কম গতিতে ডিভাইস যুক্ত করতে ব্যবহৃত হয়?",
+    "options": [
+      "Wi-Fi",
+      "Bluetooth",
+      "Satellite",
+      "Cellular (5G)"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Bluetooth",
+    "explanation": "ফাইবার অপটিক ক্যাবলের প্রধান সুবিধা হলো এটি অত্যন্ত উচ্চ ব্যান্ডউইথ প্রদান করে এবং দীর্ঘ দূরত্বে কোনো সিগন্যাল ক্ষয় ছাড়াই ডেটা পাঠাতে পারে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Bluetooth",
+    "hints": "মূল তথ্য: ফাইবার অপটিক ক্যাবলের প্রধান সুবিধা হলো এটি অত্যন্ত উচ্চ ব্যান্ডউইথ প্রদান করে এবং দীর্ঘ দূরত্বে কোনো সিগন্যাল ক্ষয় ...।"
+  },
+  {
+    "id": 27,
+    "question": "Twisted Pair Cable-এ তারগুলো প্যাঁচানো থাকার প্রধান কারণ কী?",
+    "options": [
+      "ক্যাবলের দাম কমানো",
+      "ইলেক্ট্রোম্যাগনেটিক Interference হ্রাস করা",
+      "ডেটা ট্রান্সমিশনের গতি বাড়ানো",
+      "ক্যাবলকে আরও নমনীয় করা"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "ইলেক্ট্রোম্যাগনেটিক Interference হ্রাস করা",
+    "explanation": "স্টার টপোলজিতে নেটওয়ার্কের প্রতিটি নোড একটি কেন্দ্রীয় ডিভাইসের (যেমন হাব বা সুইচ) সাথে সরাসরি ক্যাবল দিয়ে সংযুক্ত থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "ইলেক্ট্রোম্যাগনেটিক Interference হ্রাস করা",
+    "hints": "মূল তথ্য: স্টার টপোলজিতে নেটওয়ার্কের প্রতিটি নোড একটি কেন্দ্রীয় ডিভাইসের (যেমন হাব বা সুইচ) সাথে সরাসরি ক্যাবল দিয়ে সংযুক্ত ...।"
+  },
+  {
+    "id": 28,
+    "question": "Wired নেটওয়ার্কের একটি প্রধান সুবিধা কোনটি?",
+    "options": [
+      "গতিশীলতা",
+      "ইনস্টলেশন সহজ",
+      "কাভারেজ দূরত্ব বেশি",
+      "উচ্চ নির্ভরযোগ্যতা ও নিরাপত্তা"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "উচ্চ নির্ভরযোগ্যতা ও নিরাপত্তা",
+    "explanation": "মেস টপোলজিতে প্রতিটি কম্পিউটার পরস্পরের সাথে সরাসরি পয়েন্ট-টু-পয়েন্ট যুক্ত থাকে, ফলে এতে কোনো কেন্দ্রীয় ডিভাইসের প্রয়োজন হয় না।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "উচ্চ নির্ভরযোগ্যতা ও নিরাপত্তা",
+    "hints": "মূল তথ্য: মেস টপোলজিতে প্রতিটি কম্পিউটার পরস্পরের সাথে সরাসরি পয়েন্ট-টু-পয়েন্ট যুক্ত থাকে, ফলে এতে কোনো কেন্দ্রীয় ডিভাইসের প্...।"
+  },
+  {
+    "id": 29,
+    "question": "Wi-Fi কোন ধরনের নেটওয়ার্ক মিডিয়ামের উদাহরণ?",
+    "options": [
+      "Guided Medium",
+      "Unguided Medium",
+      "Coaxial Medium",
+      "Optical Medium"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Unguided Medium",
+    "explanation": "TCP প্রোটোকল প্যাকেটের ক্রমিক নম্বর ট্র্যাক করে এবং হারিয়ে যাওয়া প্যাকেট পুনরায় পাঠানোর মাধ্যমে ডেটার পূর্ণ অখণ্ডতা নিশ্চিত করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Unguided Medium",
+    "hints": "মূল তথ্য: TCP প্রোটোকল প্যাকেটের ক্রমিক নম্বর ট্র্যাক করে এবং হারিয়ে যাওয়া প্যাকেট পুনরায় পাঠানোর মাধ্যমে ডেটার পূর্ণ অখণ্ডতা ন...।"
+  },
+  {
+    "id": 30,
+    "question": "নেটওয়ার্ক নিরাপত্তা ব্যবস্থা, যা পূর্বনির্ধারিত নিয়মের ভিত্তিতে ইনকামিং এবং আউটগোয়িং ট্র্যাফিক নিয়ন্ত্রণ ও নিরীক্ষণ করে— তার নাম কী?",
+    "options": [
+      "অ্যান্টিভাইরাস",
+      "এনক্রিপশন",
+      "ফায়ারওয়াল",
+      "ইন্ট্রুশন ডিটেকশন সিস্টেম"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ফায়ারওয়াল",
+    "explanation": "OSI (Open Systems Interconnection) রেফারেন্স মডেলের মোট ৭টি স্তর রয়েছে: Physical, Data Link, Network, Transport, Session, Presentation এবং Application।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "ফায়ারওয়াল",
+    "hints": "মূল তথ্য: OSI (Open Systems Interconnection) রেফারেন্স মডেলের মোট ৭টি স্তর রয়েছে: Physical, Data Link, Network, Transport, Ses...।"
+  },
+  {
+    "id": 31,
+    "question": "কোন সাইবার অ্যাটাক কৌশলটি ব্যবহারকারীকে বিশ্বস্ত উৎস সেজে সংবেদনশীল তথ্য (যেমন: পাসওয়ার্ড) ফাঁস করতে প্ররোচিত করে?",
+    "options": [
+      "ফিশিং",
+      "DoS অ্যাটাক",
+      "ম্যান-ইন-দ্য-মিডল",
+      "র‍্যানসমওয়্যার"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "ফিশিং",
+    "explanation": "OSI মডেলের ডেটা লিংক লেয়ারের প্রোটোকল ডেটা ইউনিট (PDU)-কে ফ্রেম (Frame) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "ফিশিং",
+    "hints": "মূল তথ্য: OSI মডেলের ডেটা লিংক লেয়ারের প্রোটোকল ডেটা ইউনিট (PDU)-কে ফ্রেম (Frame) বলা হয়।"
+  },
+  {
+    "id": 32,
+    "question": "কোন ম্যালওয়্যার সিস্টেমের ফাইল এনক্রিপ্ট করে এবং অ্যাক্সেসের জন্য মুক্তিপণ দাবি করে?",
+    "options": [
+      "ট্রোজান হর্স",
+      "ভাইরাস",
+      "ওয়ার্ম",
+      "র‍্যানসমওয়্যার"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "র‍্যানসমওয়্যার",
+    "explanation": "MAC (Media Access Control) অ্যাড্রেস হলো ডিভাইসের নেটওয়ার্ক ইন্টারফেস কার্ডের (NIC) স্থায়ী ফিজিক্যাল ঠিকানা, যা ৪৮-বিট (৬ বাইট) দীর্ঘ হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "র‍্যানসমওয়্যার",
+    "hints": "মূল তথ্য: MAC (Media Access Control) অ্যাড্রেস হলো ডিভাইসের নেটওয়ার্ক ইন্টারফেস কার্ডের (NIC) স্থায়ী ফিজিক্যাল ঠিকানা, যা ৪৮-...।"
+  },
+  {
+    "id": 33,
+    "question": "একটি সার্ভার বা নেটওয়ার্ককে অতিরিক্ত ট্র্যাফিক বা রিকোয়েস্ট পাঠিয়ে অপ্রাপ্য করে তোলার অ্যাটাকটির নাম কী?",
+    "options": [
+      "ফিশিং",
+      "ডিনায়াল অফ সার্ভিস",
+      "এসকিউএল ইনজেকশন",
+      "প্যাকেট স্নিফিং"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "ডিনায়াল অফ সার্ভিস",
+    "explanation": "ফায়ারওয়াল (Firewall) পূর্বনির্ধারিত নিরাপত্তা বিধিমালার ওপর ভিত্তি করে অভ্যন্তরীণ ও বাহ্যিক নেটওয়ার্কের অননুমোদিত ট্রাফিক পর্যবেক্ষণ ও প্রতিহত করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "ডিনায়াল অফ সার্ভিস",
+    "hints": "মূল তথ্য: ফায়ারওয়াল (Firewall) পূর্বনির্ধারিত নিরাপত্তা বিধিমালার ওপর ভিত্তি করে অভ্যন্তরীণ ও বাহ্যিক নেটওয়ার্কের অননুমোদিত ...।"
+  },
+  {
+    "id": 34,
+    "question": "একটি পাবলিক নেটওয়ার্কের উপর দিয়ে ডেটা পাঠানোর সময় গোপনীয়তা ও নিরাপত্তা নিশ্চিত করতে কোনটি একটি এনক্রিপ্টেড টানেল তৈরি করে?",
+    "options": [
+      "ফায়ারওয়াল",
+      "IDS",
+      "NAC",
+      "ভার্চুয়াল প্রাইভেট নেটওয়ার্ক"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "ভার্চুয়াল প্রাইভেট নেটওয়ার্ক",
+    "explanation": "ভার্চুয়াল প্রাইভেট নেটওয়ার্ক (VPN) সাধারণ পাবলিক ইন্টারনেটের ওপর দিয়ে ডেটা এনক্রিপ্ট করে একটি অত্যন্ত সুরক্ষিত ও ব্যক্তিগত টানেল তৈরি করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "ভার্চুয়াল প্রাইভেট নেটওয়ার্ক",
+    "hints": "মূল তথ্য: ভার্চুয়াল প্রাইভেট নেটওয়ার্ক (VPN) সাধারণ পাবলিক ইন্টারনেটের ওপর দিয়ে ডেটা এনক্রিপ্ট করে একটি অত্যন্ত সুরক্ষিত ও ব...।"
+  },
+  {
+    "id": 35,
+    "question": "আক্রমণকারী যখন প্রেরক এবং প্রাপকের যোগাযোগের মধ্যে নীরবে ডেটা চুরি বা পরিবর্তন করে, সেই অ্যাটাকের নাম কী?",
+    "options": [
+      "DoS অ্যাটাক",
+      "ফিশিং",
+      "ম্যান-ইন-দ্য-মিডল",
+      "ক্রস-সাইট স্ক্রিপ্টিং"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ম্যান-ইন-দ্য-মিডল",
+    "explanation": "আক্রমণকারী যখন প্রেরক ও প্রাপকের মধ্যবর্তী যোগাযোগের গোপনীয়তা লঙ্ঘন করে নীরবে ডেটা দেখে বা পরিবর্তন করে, তাকে Man-in-the-Middle (MitM) অ্যাটাক বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "ম্যান-ইন-দ্য-মিডল",
+    "hints": "মূল তথ্য: আক্রমণকারী যখন প্রেরক ও প্রাপকের মধ্যবর্তী যোগাযোগের গোপনীয়তা লঙ্ঘন করে নীরবে ডেটা দেখে বা পরিবর্তন করে, তাকে Man-in...।"
+  },
+  {
+    "id": 36,
+    "question": "ডেটাকে শুধুমাত্র অনুমোদিত প্রাপকের জন্য পাঠযোগ্য করার প্রক্রিয়াকে কী বলা হয়?",
+    "options": [
+      "এনক্রিপশন",
+      "ডিক্রিপশন",
+      "অথেনটিকেশন",
+      "অ্যাক্সেস কন্ট্রোল"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "এনক্রিপশন",
+    "explanation": "এনক্রিপশন (Encryption) হলো প্লেইন টেক্সটকে একটি গোপন সাইফার অ্যালগরিদম ব্যবহার করে এমনভাবে রূপান্তর করা যাতে অনুমোদিত প্রাপক ছাড়া কেউ তা বুঝতে না পারে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "এনক্রিপশন",
+    "hints": "মূল তথ্য: এনক্রিপশন (Encryption) হলো প্লেইন টেক্সটকে একটি গোপন সাইফার অ্যালগরিদম ব্যবহার করে এমনভাবে রূপান্তর করা যাতে অনুমোদিত...।"
+  },
+  {
+    "id": 37,
+    "question": "একটি নেটওয়ার্কের নিরাপত্তা দুর্বলতা বা সন্দেহজনক কার্যকলাপ শনাক্ত করার জন্য ব্যবহৃত হয় কোনটি?",
+    "options": [
+      "VPN",
+      "ফায়ারওয়াল",
+      "ইন্ট্রুশন ডিটেকশন সিস্টেম",
+      "এনক্রিপশন"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ইন্ট্রুশন ডিটেকশন সিস্টেম",
+    "explanation": "নেটওয়ার্কে সন্দেহজনক বা ক্ষতিকর কার্যকলাপ এবং আক্রমণ শনাক্ত করতে Intrusion Detection System (IDS) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "ইন্ট্রুশন ডিটেকশন সিস্টেম",
+    "hints": "মূল তথ্য: নেটওয়ার্কে সন্দেহজনক বা ক্ষতিকর কার্যকলাপ এবং আক্রমণ শনাক্ত করতে Intrusion Detection System (IDS) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 38,
+    "question": "একটি Botnet অ্যাটাকের প্রধান উদ্দেশ্য কী?",
+    "options": [
+      "একক ইউজারের পাসওয়ার্ড চুরি করা",
+      "DDoS অ্যাটাক চালানো",
+      "ইমেল ফিশিং করা",
+      "ফিজিক্যাল ক্যাবল কেটে দেওয়া"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "DDoS অ্যাটাক চালানো",
+    "explanation": "বটনেট (Botnet) হলো ম্যালওয়্যার দ্বারা নিয়ন্ত্রিত একদল জম্বি কম্পিউটার, যার প্রধান উদ্দেশ্য একসাথে সমন্বিত DDoS অ্যাটাক চালিয়ে সার্ভার অচল করা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "DDoS অ্যাটাক চালানো",
+    "hints": "মূল তথ্য: বটনেট (Botnet) হলো ম্যালওয়্যার দ্বারা নিয়ন্ত্রিত একদল জম্বি কম্পিউটার, যার প্রধান উদ্দেশ্য একসাথে সমন্বিত DDoS অ্যা...।"
+  },
+  {
+    "id": 39,
+    "question": "ডেটা কমিউনিকেশন সিস্টেমে ডেটা আদান-প্রদানের জন্য ব্যবহৃত নিয়ম বা পদ্ধতির সেটকে কী বলা হয়?",
+    "options": [
+      "প্রসেসর",
+      "মাধ্যম",
+      "বার্তা",
+      "প্রোটোকল"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "প্রোটোকল",
+    "explanation": "প্রোটোকল (Protocol) হলো কম্পিউটার নেটওয়ার্কে বিভিন্ন ডিভাইসের মধ্যে পারস্পরিক ডেটা আদান-প্রদানের আনুষ্ঠানিক নিয়ম ও পদ্ধতির সমষ্টি।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "প্রোটোকল",
+    "hints": "মূল তথ্য: প্রোটোকল (Protocol) হলো কম্পিউটার নেটওয়ার্কে বিভিন্ন ডিভাইসের মধ্যে পারস্পরিক ডেটা আদান-প্রদানের আনুষ্ঠানিক নিয়ম ও ...।"
+  },
+  {
+    "id": 40,
+    "question": "কোন তারবিহীন প্রযুক্তিটি সাধারণত শুধুমাত্র স্বল্প পরিসরের ডিভাইস সংযোগের জন্য ব্যবহৃত হয়?",
+    "options": [
+      "Wi-Fi",
+      "Bluetooth",
+      "Cellular Network",
+      "Satellite"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Bluetooth",
+    "explanation": "ব্লুটুথ (Bluetooth) হলো একটি স্বল্প পাল্লার তারবিহীন প্রযুক্তি যা সাধারণত ১০ মিটারের মধ্যে ব্যক্তিগত ডিভাইসগুলোর মধ্যে সংযোগ স্থাপন করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Bluetooth",
+    "hints": "মূল তথ্য: ব্লুটুথ (Bluetooth) হলো একটি স্বল্প পাল্লার তারবিহীন প্রযুক্তি যা সাধারণত ১০ মিটারের মধ্যে ব্যক্তিগত ডিভাইসগুলোর মধ্য...।"
+  },
+  {
+    "id": 41,
+    "question": "তারযুক্ত মাধ্যমগুলোর মধ্যে কোনটিতে ইলেক্ট্রোম্যাগনেটিক হস্তক্ষেপ (EMI) হওয়ার সম্ভাবনা সবচেয়ে কম?",
+    "options": [
+      "Twisted Pair Cable",
+      "Coaxial Cable",
+      "Fiber Optic Cable",
+      "Ethernet Cable"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Fiber Optic Cable",
+    "explanation": "ফাইবার অপটিক ক্যাবলে তামার তারের বৈদ্যুতিক প্রবাহের পরিবর্তে আলোক সংকেত পরিবাহিত হয়, ফলে এতে কোনো ইলেক্ট্রোম্যাগনেটিক ইন্টারফেয়ারেন্স (EMI) হয় না।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "Fiber Optic Cable",
+    "hints": "মূল তথ্য: ফাইবার অপটিক ক্যাবলে তামার তারের বৈদ্যুতিক প্রবাহের পরিবর্তে আলোক সংকেত পরিবাহিত হয়, ফলে এতে কোনো ইলেক্ট্রোম্যাগনেটি...।"
+  },
+  {
+    "id": 42,
+    "question": "দুটি ডিভাইসের মধ্যে ডেটা আদান-প্রদান করার সময় তথ্যকে দুর্বোধ্য ফর্মে পরিবর্তন করার প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "ডিক্রিপশন",
+      "অথেনটিকেশন",
+      "এনক্রিপশন",
+      "ব্রডকাস্ট"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "এনক্রিপশন",
+    "explanation": "এনক্রিপশন প্রযুক্তির সাহায্যে সংবেদনশীল তথ্যকে অপঠনযোগ্য সাইফার ফর্মে পরিবর্তন করে নিরাপদে আদান-প্রদান করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "এনক্রিপশন",
+    "hints": "মূল তথ্য: এনক্রিপশন প্রযুক্তির সাহায্যে সংবেদনশীল তথ্যকে অপঠনযোগ্য সাইফার ফর্মে পরিবর্তন করে নিরাপদে আদান-প্রদান করা হয়।"
+  },
+  {
+    "id": 43,
+    "question": "ডেটা কমিউনিকেশনের ক্ষেত্রে, প্রেরক ও প্রাপক ডিভাইসের মাঝে ডেটা বহনের জন্য ব্যবহৃত ভৌত পথকে কী বলে?",
+    "options": [
+      "প্রোটোকল",
+      "মাধ্যম",
+      "টার্মিনাল",
+      "মোডেম"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "মাধ্যম",
+    "explanation": "প্রেরক ও প্রাপক ডিভাইসের মধ্যে ডেটা ও সিগন্যাল পরিবহনের বাস্তব ভৌত পথটিকে ট্রান্সমিশন মাধ্যম (Medium) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "মাধ্যম",
+    "hints": "মূল তথ্য: প্রেরক ও প্রাপক ডিভাইসের মধ্যে ডেটা ও সিগন্যাল পরিবহনের বাস্তব ভৌত পথটিকে ট্রান্সমিশন মাধ্যম (Medium) বলা হয়।"
+  },
+  {
+    "id": 44,
+    "question": "কোন ডেটা প্রবাহের মোডে ডেটা শুধুমাত্র এক দিকেই প্রবাহিত হতে পারে?",
+    "options": [
+      "হাফ-ডুপ্লেক্স",
+      "সিমপ্লেক্স",
+      "ফুল-ডুপ্লেক্স",
+      "মাল্টিকাস্ট"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "সিমপ্লেক্স",
+    "explanation": "সিমপ্লেক্স (Simplex) মোডে ডেটা প্রবাহ সর্বদা একমুখী হয়; যেমন কীবোর্ড থেকে সিপিইউতে ডেটা প্রেরণ বা রেডিও সম্প্রচার।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "সিমপ্লেক্স",
+    "hints": "মূল তথ্য: সিমপ্লেক্স (Simplex) মোডে ডেটা প্রবাহ সর্বদা একমুখী হয়; যেমন কীবোর্ড থেকে সিপিইউতে ডেটা প্রেরণ বা রেডিও সম্প্রচার।"
+  },
+  {
+    "id": 45,
+    "question": "ওয়াকি-টকি (Walkie-Talkie) নিচের কোন ডেটা প্রবাহের মোড অনুসরণ করে?",
+    "options": [
+      "ফুল-ডুপ্লেক্স",
+      "হাফ-ডুপ্লেক্স",
+      "সিমপ্লেক্স",
+      "ইউনিকাস্ট"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "হাফ-ডুপ্লেক্স",
+    "explanation": "ওয়াকি-টকিতে উভয় প্রান্ত থেকে ডেটা আদান-প্রদান করা যায়, তবে একই সাথে নয়; একবারে কেবল একজন কথা বলতে পারেন, তাই এটি হাফ-ডুপ্লেক্স (Half-Duplex)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "হাফ-ডুপ্লেক্স",
+    "hints": "মূল তথ্য: ওয়াকি-টকিতে উভয় প্রান্ত থেকে ডেটা আদান-প্রদান করা যায়, তবে একই সাথে নয়; একবারে কেবল একজন কথা বলতে পারেন, তাই এটি ...।"
+  },
+  {
+    "id": 46,
+    "question": "টেলিফোনে কথোপকথন নিচের কোন ডেটা প্রবাহের মোডের সর্বোত্তম উদাহরণ?",
+    "options": [
+      "হাফ-ডুপ্লেক্স",
+      "সিমপ্লেক্স",
+      "ফুল-ডুপ্লেক্স",
+      "ব্রডকাস্ট"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ফুল-ডুপ্লেক্স",
+    "explanation": "ফুল-ডুপ্লেক্স (Full-Duplex) মোডে উভয় পক্ষ একই সাথে একই সময়ে কথা বলতে এবং শুনতে পারে; যেমন আধুনিক টেলিফোন ও মোবাইল যোগাযোগ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "ফুল-ডুপ্লেক্স",
+    "hints": "মূল তথ্য: ফুল-ডুপ্লেক্স (Full-Duplex) মোডে উভয় পক্ষ একই সাথে একই সময়ে কথা বলতে এবং শুনতে পারে; যেমন আধুনিক টেলিফোন ও মোবাইল য...।"
+  },
+  {
+    "id": 47,
+    "question": "একটি উৎস থেকে একই নেটওয়ার্ক সেগমেন্টের সমস্ত ডিভাইসের কাছে ডেটা পাঠানোর পদ্ধতিকে কী বলে?",
+    "options": [
+      "ইউনিকাস্ট",
+      "মাল্টিকাস্ট",
+      "ব্রডকাস্ট",
+      "এনিকাস্ট"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ব্রডকাস্ট",
+    "explanation": "একটি নির্দিষ্ট উৎস থেকে সংশ্লিষ্ট নেটওয়ার্ক সেগমেন্টের অন্তর্ভুক্ত সমস্ত হোস্ট ডিভাইসে একযোগে ডেটা পাঠানোকে ব্রডকাস্ট (Broadcast) বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "ব্রডকাস্ট",
+    "hints": "মূল তথ্য: একটি নির্দিষ্ট উৎস থেকে সংশ্লিষ্ট নেটওয়ার্ক সেগমেন্টের অন্তর্ভুক্ত সমস্ত হোস্ট ডিভাইসে একযোগে ডেটা পাঠানোকে ব্রডকাস্...।"
+  },
+  {
+    "id": 48,
+    "question": "লাইভ ভিডিও স্ট্রিমিং এবং অনলাইন গেমিং-এর ক্ষেত্রে ব্যান্ডউইথ সাশ্রয়ের জন্য কোন ডেটা বিতরণের মোড ব্যবহৃত হয়?",
+    "options": [
+      "ব্রডকাস্ট",
+      "ইউনিকাস্ট",
+      "মাল্টিকাস্ট",
+      "এনিকাস্ট"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "মাল্টিকাস্ট",
+    "explanation": "মাল্টিকাস্ট (Multicast) পদ্ধতিতে নির্দিষ্ট একটি দল বা গ্রুপের গ্রাহকদের কাছে একযোগে ডেটা পাঠানো হয়, যা ব্যান্ডউইথ সাশ্রয়ে সহায়তা করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "মাল্টিকাস্ট",
+    "hints": "মূল তথ্য: মাল্টিকাস্ট (Multicast) পদ্ধতিতে নির্দিষ্ট একটি দল বা গ্রুপের গ্রাহকদের কাছে একযোগে ডেটা পাঠানো হয়, যা ব্যান্ডউইথ সা...।"
+  },
+  {
+    "id": 49,
+    "question": "সিরিয়াল ট্রান্সমিশনের ক্ষেত্রে ডেটা বাইট বা অক্ষরগুলো একটি নির্দিষ্ট সময় ব্যবধানে ব্লক আকারে পাঠানোর পদ্ধতিকে কী বলে?",
+    "options": [
+      "অ্যাসিনক্রোনাস",
+      "সিনক্রোনাস",
+      "প্যারালাল",
+      "হাফ-ডুপ্লেক্স"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "সিনক্রোনাস",
+    "explanation": "সিনক্রোনাস (Synchronous) ট্রান্সমিশনে প্রেরক ও প্রাপকের মধ্যে একটি সাধারণ ক্লক সিগন্যালের মাধ্যমে ব্লক বা ফ্রেম আকারে ডেটা পাঠানো হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "সিনক্রোনাস",
+    "hints": "মূল তথ্য: সিনক্রোনাস (Synchronous) ট্রান্সমিশনে প্রেরক ও প্রাপকের মধ্যে একটি সাধারণ ক্লক সিগন্যালের মাধ্যমে ব্লক বা ফ্রেম আকারে...।"
+  },
+  {
+    "id": 50,
+    "question": "অ্যাসিনক্রোনাস সিরিয়াল ট্রান্সমিশনে প্রতিটি ডেটা বাইট বা অক্ষরের সমাপ্তি নির্দেশ করতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "স্টার্ট বিট",
+      "স্টপ বিট",
+      "ক্লক সিগন্যাল",
+      "প্যারিটি বিট"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "স্টপ বিট",
+    "explanation": "অ্যাসিনক্রোনাস সিরিয়াল ট্রান্সমিশনে প্রতিটি ডেটা বাইটের শুরুতে একটি স্টার্ট বিট এবং শেষে এক বা দুটি স্টপ বিট (Stop bit) দিয়ে সমাপ্তি নির্দেশ করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "স্টপ বিট",
+    "hints": "মূল তথ্য: অ্যাসিনক্রোনাস সিরিয়াল ট্রান্সমিশনে প্রতিটি ডেটা বাইটের শুরুতে একটি স্টার্ট বিট এবং শেষে এক বা দুটি স্টপ বিট (Stop b...।"
+  },
+  {
+    "id": 51,
+    "question": "কম্পিউটার এবং প্রিন্টারের মতো স্বল্প দূরত্বের ডিভাইসের মধ্যে দ্রুত ডেটা স্থানান্তরের জন্য কোন পদ্ধতিটি ব্যবহার করা যেতে পারে?",
+    "options": [
+      "সিরিয়াল ট্রান্সমিশন",
+      "প্যারালাল ট্রান্সমিশন",
+      "সিনক্রোনাস ট্রান্সমিশন",
+      "ফাইবার অপটিক ট্রান্সমিশন"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "প্যারালাল ট্রান্সমিশন",
+    "explanation": "প্যারালাল ট্রান্সমিশনে একসাথে একাধিক লাইন বা তারের মধ্য দিয়ে একযোগে এক বাইট বা একাধিক বিট ডেটা পাঠানো যায়, যা স্বল্প দূরত্বে দ্রুত কার্যকর।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "প্যারালাল ট্রান্সমিশন",
+    "hints": "মূল তথ্য: প্যারালাল ট্রান্সমিশনে একসাথে একাধিক লাইন বা তারের মধ্য দিয়ে একযোগে এক বাইট বা একাধিক বিট ডেটা পাঠানো যায়, যা স্বল্...।"
+  },
+  {
+    "id": 52,
+    "question": "সিনক্রোনাস ট্রান্সমিশনের একটি প্রধান সুবিধা কী?",
+    "options": [
+      "Start/Stop বিটের ব্যবহার",
+      "সরল হার্ডওয়্যার",
+      "ডেটা স্থানান্তরের দক্ষতা ও গতি",
+      "অনিয়মিত বিরতিতে ডেটা প্রেরণ"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ডেটা স্থানান্তরের দক্ষতা ও গতি",
+    "explanation": "সিনক্রোনাস ট্রান্সমিশনে কোনো অতিরিক্ত Start/Stop বিটের প্রয়োজন হয় না, ফলে এতে ডেটা স্থানান্তরের দক্ষতা এবং নেটওয়ার্কের গতি অনেক বেশি থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "ডেটা স্থানান্তরের দক্ষতা ও গতি",
+    "hints": "মূল তথ্য: সিনক্রোনাস ট্রান্সমিশনে কোনো অতিরিক্ত Start/Stop বিটের প্রয়োজন হয় না, ফলে এতে ডেটা স্থানান্তরের দক্ষতা এবং নেটওয়ার...।"
+  },
+  {
+    "id": 53,
+    "question": "ডেটা বিটগুলো একটিমাত্র চ্যানেল ব্যবহার করে একের পর এক পর্যায়ক্রমে পাঠানোর পদ্ধতিকে কী বলে?",
+    "options": [
+      "প্যারালাল ট্রান্সমিশন",
+      "সিরিয়াল ট্রান্সমিশন",
+      "ফুল-ডুপ্লেক্স",
+      "মাল্টিকাস্ট"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "সিরিয়াল ট্রান্সমিশন",
+    "explanation": "একটিমাত্র চ্যানেলে ক্রমান্বয়ে একটির পর একটি বিট পর্যায়ক্রমে পাঠানোর পদ্ধতিকে সিরিয়াল ট্রান্সমিশন (Serial Transmission) বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "3. Data Communication and Networking",
+    "chapter": "3. Data Communication and Networking",
+    "correctAnswer": "সিরিয়াল ট্রান্সমিশন",
+    "hints": "মূল তথ্য: একটিমাত্র চ্যানেলে ক্রমান্বয়ে একটির পর একটি বিট পর্যায়ক্রমে পাঠানোর পদ্ধতিকে সিরিয়াল ট্রান্সমিশন (Serial Transmiss...।"
+  }
+]

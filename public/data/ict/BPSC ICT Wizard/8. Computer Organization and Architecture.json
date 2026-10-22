@@ -1,0 +1,325 @@
+[
+  {
+    "id": 1,
+    "question": "How many bit register have in 8086 microprocessor? [8086 microprocessor এ কত বিট রেজিস্ট্রী রয়েছে] [BPSC ANE'19]",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "20"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "16",
+    "explanation": "Intel 8086 একটি ১৬-বিট মাইক্রোপ্রসেসর এবং এর অভ্যন্তরীণ সাধারণ রেজিস্টারগুলো (যেমন AX, BX, CX, DX) ১৬-বিট বিশিষ্ট।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "16",
+    "hints": "মূল তথ্য: Intel 8086 একটি ১৬-বিট মাইক্রোপ্রসেসর এবং এর অভ্যন্তরীণ সাধারণ রেজিস্টারগুলো (যেমন AX, BX, CX, DX) ১৬-বিট বিশিষ্ট।"
+  },
+  {
+    "id": 2,
+    "question": "During Arithmetic and Logic Operation, Data store in --------- [Arithmetic and Logic অপারেশনের সময় ডাটা জমা থাকে--- ] [BPSC AP’20]",
+    "options": [
+      "Accumulator",
+      "Arithmetic Register",
+      "Control Unit",
+      "Logic Register"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Accumulator",
+    "explanation": "ALU-তে গাণিতিক ও যৌক্তিক ক্রিয়া সম্পাদনের সময় প্রাথমিক অপারেন্ড এবং উৎপন্ন ফলাফল অ্যাকুমুলেটর (Accumulator) রেজিস্টারে জমা থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "Accumulator",
+    "hints": "মূল তথ্য: ALU-তে গাণিতিক ও যৌক্তিক ক্রিয়া সম্পাদনের সময় প্রাথমিক অপারেন্ড এবং উৎপন্ন ফলাফল অ্যাকুমুলেটর (Accumulator) রেজিস্টার...।"
+  },
+  {
+    "id": 3,
+    "question": "ALU Located in Microprocessor --------- [Microprocessor এ ALU কোথায় থাকে?] [BPSC AP’20]",
+    "options": [
+      "Fetch Unit",
+      "Flags unit",
+      "Control Unit",
+      "Processing Unit"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Processing Unit",
+    "explanation": "মাইক্রোপ্রসেসরের এক্সিকিউশন ইউনিট বা প্রসেসিং ইউনিটের মধ্যে ALU এবং অভ্যন্তরীণ রেজিস্টারসমূহ অবস্থান করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "Processing Unit",
+    "hints": "মূল তথ্য: মাইক্রোপ্রসেসরের এক্সিকিউশন ইউনিট বা প্রসেসিং ইউনিটের মধ্যে ALU এবং অভ্যন্তরীণ রেজিস্টারসমূহ অবস্থান করে।"
+  },
+  {
+    "id": 4,
+    "question": "Which Operation is faster in CPU..? [কোন অপারেশনটি ফাস্ট --] [BPSC ANE’19]",
+    "options": [
+      "Multiplication",
+      "Addition",
+      "Bitwise",
+      "Division"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Bitwise",
+    "explanation": "বিটওয়াইজ অপারেশন সরাসরি বিট লেভেলে হার্ডওয়্যারে একক ক্লক সাইকেলে সম্পন্ন হয়, যা গুণ বা ভাগের মতো জটিল অপারেশনের চেয়ে অনেক দ্রুত কাজ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "Bitwise",
+    "hints": "মূল তথ্য: বিটওয়াইজ অপারেশন সরাসরি বিট লেভেলে হার্ডওয়্যারে একক ক্লক সাইকেলে সম্পন্ন হয়, যা গুণ বা ভাগের মতো জটিল অপারেশনের চে...।"
+  },
+  {
+    "id": 5,
+    "question": "What is the address bit of 8 bit microprocessor? [৮ বিট মাইক্রোপ্রসেসরের Address বিট কত?]",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "None"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "16",
+    "explanation": "সাধারণ ৮-বিট মাইক্রোপ্রসেসর (যেমন Intel 8085)-এ ১৬-বিট অ্যাড্রেস বাস থাকে যা 2¹⁶ = 64 KB মেমরি অ্যাড্রেস করতে পারে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "16",
+    "hints": "মূল তথ্য: সাধারণ ৮-বিট মাইক্রোপ্রসেসর (যেমন Intel 8085)-এ ১৬-বিট অ্যাড্রেস বাস থাকে যা 2¹⁶ = 64 KB মেমরি অ্যাড্রেস করতে পারে।"
+  },
+  {
+    "id": 6,
+    "question": "Physical Connection between Microprocessor Memory and others Parts Called--? [মাইক্রোপ্রসেসর, মেমোরি ও অন্য পার্টসের মধ্যে ফিজিক্যাল সংযোগকে কি বলে?] [BANK]",
+    "options": [
+      "Address bus",
+      "Data Bus",
+      "Path",
+      "Hub"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Address bus",
+    "explanation": "মাইক্রোপ্রসেসর, মেমরি ও অন্যান্য পেরিফেরালের মধ্যে অ্যাড্রেস বা মেমরি লোকেশন নির্দেশ করতে ফিজিক্যাল বাস হিসেবে অ্যাড্রেস বাস ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "Address bus",
+    "hints": "মূল তথ্য: মাইক্রোপ্রসেসর, মেমরি ও অন্যান্য পেরিফেরালের মধ্যে অ্যাড্রেস বা মেমরি লোকেশন নির্দেশ করতে ফিজিক্যাল বাস হিসেবে অ্যাড্...।"
+  },
+  {
+    "id": 7,
+    "question": "Number of I/O access in 8086 Microprocessor? [ 8086 Microprocessor এ কতগুলো I/O একসেস করতে পারে----]",
+    "options": [
+      "2⁴",
+      "2⁸",
+      "2¹⁶",
+      "2²⁰"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "2¹⁶",
+    "explanation": "Intel 8086 মাইক্রোপ্রসেসরে ১৬-বিট I/O অ্যাড্রেস লাইন থাকে, ফলে এটি 2¹⁶ = 65,536 টি I/O পোর্ট অ্যাক্সেস করতে পারে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "2¹⁶",
+    "hints": "মূল তথ্য: Intel 8086 মাইক্রোপ্রসেসরে ১৬-বিট I/O অ্যাড্রেস লাইন থাকে, ফলে এটি 2¹⁶ = 65,536 টি I/O পোর্ট অ্যাক্সেস করতে পারে।"
+  },
+  {
+    "id": 8,
+    "question": "কম্পিউটারে CPU এবং মেমরি বা অন্যান্য উপাদানের মধ্যে প্রকৃত ডেটা বহন করে কোন বাস?",
+    "options": [
+      "অ্যাড্রেস বাস",
+      "ডেটা বাস",
+      "কন্ট্রোল বাস",
+      "সিস্টেম বাস"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "ডেটা বাস",
+    "explanation": "ডেটা বাস (Data Bus) সিপিইউ এবং মেমরি বা অন্যান্য উপাদানের মধ্যে মূল ডেটা বা তথ্য পরিবহন করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "ডেটা বাস",
+    "hints": "মূল তথ্য: ডেটা বাস (Data Bus) সিপিইউ এবং মেমরি বা অন্যান্য উপাদানের মধ্যে মূল ডেটা বা তথ্য পরিবহন করে।"
+  },
+  {
+    "id": 9,
+    "question": "নিচের কোন বাসটি এক-মুখী (Unidirectional) অর্থাৎ শুধুমাত্র CPU থেকে অন্যান্য উপাদানের দিকে তথ্য পাঠায়?",
+    "options": [
+      "ডেটা বাস",
+      "অ্যাড্রেস বাস",
+      "কন্ট্রোল বাস",
+      "I/O বাস"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "অ্যাড্রেস বাস",
+    "explanation": "অ্যাড্রেস বাস কেবল সিপিইউ থেকে মেমরি বা পেরিফেরাল ডিভাইসের দিকে অ্যাড্রেস পাঠায়, তাই এটি এক-মুখী (Unidirectional)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "অ্যাড্রেস বাস",
+    "hints": "মূল তথ্য: অ্যাড্রেস বাস কেবল সিপিইউ থেকে মেমরি বা পেরিফেরাল ডিভাইসের দিকে অ্যাড্রেস পাঠায়, তাই এটি এক-মুখী (Unidirectional)।"
+  },
+  {
+    "id": 10,
+    "question": "ডেটা বাস সাধারণত দ্বি-মুখী (Bidirectional) হওয়ার কারণ কী?",
+    "options": [
+      "এটি শুধুমাত্র CPU-তে ডেটা পাঠায়।",
+      "এটি শুধুমাত্র মেমরি অ্যাড্রেস বহন করে।",
+      "এটি CPU এবং অন্যান্য অংশের মধ্যে উভয় দিকেই ডেটা আদান-প্রদান করতে পারে।",
+      "এটি কন্ট্রোল সিগন্যাল বহন করে।"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "এটি CPU এবং অন্যান্য অংশের মধ্যে উভয় দিকেই ডেটা আদান-প্রদান করতে পারে।",
+    "explanation": "সিপিইউ মেমোরি থেকে ডেটা পড়তে পারে (Read) এবং মেমোরিতে ডেটা লিখতে পারে (Write), তাই ডেটা বাস দ্বি-মুখী (Bidirectional) হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "এটি CPU এবং অন্যান্য অংশের মধ্যে উভয় দিকেই ডেটা আদান-প্রদান করতে পারে।",
+    "hints": "মূল তথ্য: সিপিইউ মেমোরি থেকে ডেটা পড়তে পারে (Read) এবং মেমোরিতে ডেটা লিখতে পারে (Write), তাই ডেটা বাস দ্বি-মুখী (Bidirectional) হয়।"
+  },
+  {
+    "id": 11,
+    "question": "CPU যখন মেমরিতে কোনো ডেটা Read বা Write করবে, সেই কাজটি Control Bus কীভাবে নির্ধারণ করে?",
+    "options": [
+      "ডেটা বাসের গতি বাড়িয়ে।",
+      "অ্যাড্রেস বাসের বিট সংখ্যা পরিবর্তন করে।",
+      "Control Signals পাঠিয়ে",
+      "প্রোগ্রাম কাউন্টারে মান পরিবর্তন করে।"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Control Signals পাঠিয়ে",
+    "explanation": "কন্ট্রোল বাস বিভিন্ন কন্ট্রোল সিগন্যাল (যেমন Read/Write সিগন্যাল) পাঠিয়ে মেমরিতে ডেটা পড়া বা লেখার কাজটি পরিচালনা ও নির্ধারণ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "Control Signals পাঠিয়ে",
+    "hints": "মূল তথ্য: কন্ট্রোল বাস বিভিন্ন কন্ট্রোল সিগন্যাল (যেমন Read/Write সিগন্যাল) পাঠিয়ে মেমরিতে ডেটা পড়া বা লেখার কাজটি পরিচালনা ও ন...।"
+  },
+  {
+    "id": 12,
+    "question": "নিচের কোনটি একটি একক চিপের মধ্যে CPU, RAM, ROM, I/O পোর্ট, টাইমার ইত্যাদি সমস্ত প্রয়োজনীয় অংশ একত্রিত করে?",
+    "options": [
+      "মাইক্রোকন্ট্রোলার",
+      "মাইক্রোপ্রসেসর",
+      "GPU",
+      "ALU"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "মাইক্রোকন্ট্রোলার",
+    "explanation": "মাইক্রোকন্ট্রোলার হলো একটি সিঙ্গেল-চিপ কম্পিউটার যাতে সিপিইউ, র‍্যাম, রম, আই/ও পোর্ট, টাইমার ইত্যাদি সমস্ত প্রয়োজনীয় অংশ একটিমাত্র চিপে একত্রিত থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "মাইক্রোকন্ট্রোলার",
+    "hints": "মূল তথ্য: মাইক্রোকন্ট্রোলার হলো একটি সিঙ্গেল-চিপ কম্পিউটার যাতে সিপিইউ, র‍্যাম, রম, আই/ও পোর্ট, টাইমার ইত্যাদি সমস্ত প্রয়োজনীয় ...।"
+  },
+  {
+    "id": 13,
+    "question": "মাইক্রোপ্রসেসর সাধারণত কোন ধরনের কাজের জন্য ব্যবহৃত হয়?",
+    "options": [
+      "এমবেডেড সিস্টেম নিয়ন্ত্রণ",
+      "কমপ্লেক্স ডেটা প্রসেসিং ও মাল্টিটাস্কিং",
+      "কম বিদ্যুৎ খরচের ডিভাইস নিয়ন্ত্রণ",
+      "নির্দিষ্ট একক কাজ নিয়ন্ত্রণ"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "কমপ্লেক্স ডেটা প্রসেসিং ও মাল্টিটাস্কিং",
+    "explanation": "কম্পিউটার ও ল্যাপটপে জটিল ডেটা প্রসেসিং, অপারেটিং সিস্টেম পরিচালনা এবং উচ্চ ক্ষমতাসম্পন্ন মাল্টিটাস্কিং কাজের জন্য মাইক্রোপ্রসেসর ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "কমপ্লেক্স ডেটা প্রসেসিং ও মাল্টিটাস্কিং",
+    "hints": "মূল তথ্য: কম্পিউটার ও ল্যাপটপে জটিল ডেটা প্রসেসিং, অপারেটিং সিস্টেম পরিচালনা এবং উচ্চ ক্ষমতাসম্পন্ন মাল্টিটাস্কিং কাজের জন্য মা...।"
+  },
+  {
+    "id": 14,
+    "question": "নিচের কোন ডিভাইস বা সিস্টেমে মাইক্রোকন্ট্রোলার ব্যবহৃত হয়?",
+    "options": [
+      "ল্যাপটপ",
+      "স্মার্টফোন",
+      "সার্ভার",
+      "ওয়াশিং মেশিন"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "ওয়াশিং মেশিন",
+    "explanation": "ওয়াশিং মেশিন, ওভেন ইত্যাদি এমবেডেড ডিভাইসে নির্দিষ্ট একক কাজ স্বয়ংক্রিয়ভাবে নিয়ন্ত্রণের জন্য মাইক্রোকন্ট্রোলার ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "ওয়াশিং মেশিন",
+    "hints": "মূল তথ্য: ওয়াশিং মেশিন, ওভেন ইত্যাদি এমবেডেড ডিভাইসে নির্দিষ্ট একক কাজ স্বয়ংক্রিয়ভাবে নিয়ন্ত্রণের জন্য মাইক্রোকন্ট্রোলার ব্যবহৃ...।"
+  },
+  {
+    "id": 15,
+    "question": "মাইক্রোপ্রসেসর এবং মাইক্রোকন্ট্রোলার-এর মধ্যে গতির পার্থক্য প্রসঙ্গে কোনটি সঠিক?",
+    "options": [
+      "মাইক্রোকন্ট্রোলার GHz, মাইক্রোপ্রসেসর MHz",
+      "মাইক্রোপ্রসেসর উচ্চ গতি, মাইক্রোকন্ট্রোলার তুলনামূলকভাবে কম গতি",
+      "উভয়ের গতি সমান।",
+      "মাইক্রোকন্ট্রোলার-এর গতি শুধুমাত্র RAM-এর উপর নির্ভর করে।"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "মাইক্রোপ্রসেসর উচ্চ গতি, মাইক্রোকন্ট্রোলার তুলনামূলকভাবে কম গতি",
+    "explanation": "মাইক্রোপ্রসেসরের ক্লক স্পিড সাধারণত GHz (গিগাহার্টজ) রেঞ্জে থাকে, যেখানে মাইক্রোকন্ট্রোলারের স্পিড সাধারণত MHz (মেগাহার্টজ) রেঞ্জে থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "মাইক্রোপ্রসেসর উচ্চ গতি, মাইক্রোকন্ট্রোলার তুলনামূলকভাবে কম গতি",
+    "hints": "মূল তথ্য: মাইক্রোপ্রসেসরের ক্লক স্পিড সাধারণত GHz (গিগাহার্টজ) রেঞ্জে থাকে, যেখানে মাইক্রোকন্ট্রোলারের স্পিড সাধারণত MHz (মেগাহ...।"
+  },
+  {
+    "id": 16,
+    "question": "সিপিইউ-এর অভ্যন্তরে অবস্থিত সবচেয়ে দ্রুত অ্যাক্সেসযোগ্য মেমরি কোনটি?",
+    "options": [
+      "RAM",
+      "ROM",
+      "Cache Memory",
+      "রেজিস্টার"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "রেজিস্টার",
+    "explanation": "সিপিইউ-এর অভ্যন্তরে অবস্থিত রেজিস্টার (Register) হলো কম্পিউটারের সবচেয়ে দ্রুত অ্যাক্সেসযোগ্য মেমরি।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "রেজিস্টার",
+    "hints": "মূল তথ্য: সিপিইউ-এর অভ্যন্তরে অবস্থিত রেজিস্টার (Register) হলো কম্পিউটারের সবচেয়ে দ্রুত অ্যাক্সেসযোগ্য মেমরি।"
+  },
+  {
+    "id": 17,
+    "question": "রেজিস্টারগুলো সাধারণত একাধিক কী দিয়ে গঠিত হয়?",
+    "options": [
+      "ট্রানজিস্টর",
+      "ক্যাপাসিটর",
+      "ফ্লিপ-ফ্লপ",
+      "ডায়োড"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ফ্লিপ-ফ্লপ",
+    "explanation": "রেজিস্টারগুলো সাধারণত একাধিক ফ্লিপ-ফ্লপ (Flip-flop) দিয়ে গঠিত হয়, যেখানে প্রতিটি ফ্লিপ-ফ্লপ ১-বিট তথ্য সংরক্ষণ করতে পারে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "8. Computer Organization and Architecture",
+    "chapter": "8. Computer Organization and Architecture",
+    "correctAnswer": "ফ্লিপ-ফ্লপ",
+    "hints": "মূল তথ্য: রেজিস্টারগুলো সাধারণত একাধিক ফ্লিপ-ফ্লপ (Flip-flop) দিয়ে গঠিত হয়, যেখানে প্রতিটি ফ্লিপ-ফ্লপ ১-বিট তথ্য সংরক্ষণ করতে পারে।"
+  }
+]

@@ -1,0 +1,1047 @@
+[
+  {
+    "id": 1,
+    "question": "অপারেটিং সিস্টেম (OS) কী?",
+    "options": [
+      "একটি অ্যাপ্লিকেশন সফটওয়্যার",
+      "একটি হার্ডওয়্যার ডিভাইস",
+      "একটি সিস্টেম সফটওয়্যার",
+      "একটি প্রোগ্রামিং ভাষা"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "একটি সিস্টেম সফটওয়্যার",
+    "explanation": "অপারেটিং সিস্টেম (OS) হলো একটি মৌলিক সিস্টেম সফটওয়্যার যা কম্পিউটার হার্ডওয়্যার ও অন্যান্য সমস্ত অ্যাপ্লিকেশন সফটওয়্যারের মধ্যে সংযোগ রক্ষা করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "একটি সিস্টেম সফটওয়্যার",
+    "hints": "মূল তথ্য: অপারেটিং সিস্টেম (OS) হলো একটি মৌলিক সিস্টেম সফটওয়্যার যা কম্পিউটার হার্ডওয়্যার ও অন্যান্য সমস্ত অ্যাপ্লিকেশন সফটওয়...।"
+  },
+  {
+    "id": 2,
+    "question": "অপারেটিং সিস্টেমের প্রধান কাজ কী?",
+    "options": [
+      "ডেটা এন্ট্রি করা",
+      "শুধু ফাইল তৈরি করা",
+      "হার্ডওয়্যার ও সফটওয়্যারের মধ্যে সমন্বয় সাধন করা",
+      "শুধু প্রিন্ট করা"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "হার্ডওয়্যার ও সফটওয়্যারের মধ্যে সমন্বয় সাধন করা",
+    "explanation": "অপারেটিং সিস্টেমের মূল কাজ হলো কম্পিউটারের হার্ডওয়্যার রিসোর্স নিয়ন্ত্রণ করা এবং ব্যবহারকারী ও সফটওয়্যারের মধ্যে সমন্বয় সাধন করা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "হার্ডওয়্যার ও সফটওয়্যারের মধ্যে সমন্বয় সাধন করা",
+    "hints": "মূল তথ্য: অপারেটিং সিস্টেমের মূল কাজ হলো কম্পিউটারের হার্ডওয়্যার রিসোর্স নিয়ন্ত্রণ করা এবং ব্যবহারকারী ও সফটওয়্যারের মধ্যে স...।"
+  },
+  {
+    "id": 3,
+    "question": "অপারেটিং সিস্টেম (OS)-এর প্রধান কার্যাবলির মধ্যে কোনটি পড়ে না?",
+    "options": [
+      "মেমরি ম্যানেজমেন্ট",
+      "প্রসেস ম্যানেজমেন্ট",
+      "ভিডিও এডিটিং",
+      "ফাইল ম্যানেজমেন্ট"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ভিডিও এডিটিং",
+    "explanation": "ভিডিও এডিটিং হলো একটি ব্যবহারিক অ্যাপ্লিকেশন সফটওয়্যারের কাজ; মেমরি, প্রসেস ও ফাইল ব্যবস্থাপনা হলো ওএস-এর প্রধান সিস্টেম কাজ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "ভিডিও এডিটিং",
+    "hints": "মূল তথ্য: ভিডিও এডিটিং হলো একটি ব্যবহারিক অ্যাপ্লিকেশন সফটওয়্যারের কাজ; মেমরি, প্রসেস ও ফাইল ব্যবস্থাপনা হলো ওএস-এর প্রধান সিস...।"
+  },
+  {
+    "id": 4,
+    "question": "মাল্টিটাস্কিং অপারেটিং সিস্টেমের উদাহরণ কোনটি?",
+    "options": [
+      "MS-DOS",
+      "Windows 10",
+      "Linux",
+      "উভয় খ) ও গ)"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "উভয় খ) ও গ)",
+    "explanation": "উইন্ডোজ এবং লিনাক্স উভয়ই আধুনিক প্রি-এম্পটিভ মাল্টিটাস্কিং অপারেটিং সিস্টেম, যা একসাথে একাধিক কাজ সম্পাদনে সক্ষম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "উভয় খ) ও গ)",
+    "hints": "মূল তথ্য: উইন্ডোজ এবং লিনাক্স উভয়ই আধুনিক প্রি-এম্পটিভ মাল্টিটাস্কিং অপারেটিং সিস্টেম, যা একসাথে একাধিক কাজ সম্পাদনে সক্ষম।"
+  },
+  {
+    "id": 5,
+    "question": "সময়ের ভিত্তিতে ব্যবহারকারীকে সিপিইউ-এর সমান অংশ ভাগ করে দেওয়া হয় কোন ধরনের OS-এ?",
+    "options": [
+      "রিয়েল টাইম OS",
+      "ব্যাচ OS",
+      "টাইম শেয়ারিং OS",
+      "ডিস্ট্রিবিউটেড OS"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "টাইম শেয়ারিং OS",
+    "explanation": "টাইম শেয়ারিং অপারেটিং সিস্টেমে প্রতিটি প্রসেস বা ব্যবহারকারীকে সিপিইউ সময়ের একটি নির্দিষ্ট অংশ (Time Quantum) বরাদ্দ করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "টাইম শেয়ারিং OS",
+    "hints": "মূল তথ্য: টাইম শেয়ারিং অপারেটিং সিস্টেমে প্রতিটি প্রসেস বা ব্যবহারকারীকে সিপিইউ সময়ের একটি নির্দিষ্ট অংশ (Time Quantum) বরাদ্...।"
+  },
+  {
+    "id": 6,
+    "question": "দ্রুত ও সময়-নির্ভর কাজ, যেমন ক্ষেপণাস্ত্র নিয়ন্ত্রণ বা শিল্প-কারখানার রোবট পরিচালনায় কোন OS ব্যবহৃত হয়?",
+    "options": [
+      "মাল্টি ইউজার OS",
+      "রিয়েল টাইম OS",
+      "নেটওয়ার্ক OS",
+      "সিঙ্গেল ইউজার OS"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "রিয়েল টাইম OS",
+    "explanation": "রিয়েল টাইম অপারেটিং সিস্টেম (RTOS) সুনির্দিষ্ট সময়ের মধ্যে কঠোরভাবে কাজ সম্পন্ন করার নিশ্চয়তা দেয়; যেমন রকেট নিয়ন্ত্রণ ও চিকিৎসা সরঞ্জাম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "রিয়েল টাইম OS",
+    "hints": "মূল তথ্য: রিয়েল টাইম অপারেটিং সিস্টেম (RTOS) সুনির্দিষ্ট সময়ের মধ্যে কঠোরভাবে কাজ সম্পন্ন করার নিশ্চয়তা দেয়; যেমন রকেট নিয়...।"
+  },
+  {
+    "id": 7,
+    "question": "একাধিক ব্যবহারকারী একই সময়ে একই কম্পিউটার সিস্টেম ব্যবহার করতে পারে কোন OS-এ?",
+    "options": [
+      "সিঙ্গেল ইউজার OS",
+      "মাল্টি ইউজার OS",
+      "সিঙ্গেল টাস্কিং OS",
+      "এমবেডেড OS"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "মাল্টি ইউজার OS",
+    "explanation": "মাল্টি ইউজার অপারেটিং সিস্টেমে একাধিক ব্যবহারকারী একই সাথে একটি কেন্দ্রীয় সিস্টেম ও তার রিসোর্স শেয়ার করে কাজ করতে পারেন (যেমন UNIX/Linux)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "মাল্টি ইউজার OS",
+    "hints": "মূল তথ্য: মাল্টি ইউজার অপারেটিং সিস্টেমে একাধিক ব্যবহারকারী একই সাথে একটি কেন্দ্রীয় সিস্টেম ও তার রিসোর্স শেয়ার করে কাজ করতে ...।"
+  },
+  {
+    "id": 8,
+    "question": "প্রসেস ম্যানেজমেন্টের কাজ কী?",
+    "options": [
+      "ফাইল সংরক্ষণ করা",
+      "সিপিইউকে বিভিন্ন প্রক্রিয়ার মধ্যে বরাদ্দ করা",
+      "ভাইরাস স্ক্যান করা",
+      "ডিস্কের স্থান বাড়ানো"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "সিপিইউকে বিভিন্ন প্রক্রিয়ার মধ্যে বরাদ্দ করা",
+    "explanation": "প্রসেস ম্যানেজমেন্টের মাধ্যমে অপারেটিং সিস্টেম বিভিন্ন প্রসেসের মধ্যে সিপিইউ সময় বণ্টন ও শিডিউলিং নিশ্চিত করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "সিপিইউকে বিভিন্ন প্রক্রিয়ার মধ্যে বরাদ্দ করা",
+    "hints": "মূল তথ্য: প্রসেস ম্যানেজমেন্টের মাধ্যমে অপারেটিং সিস্টেম বিভিন্ন প্রসেসের মধ্যে সিপিইউ সময় বণ্টন ও শিডিউলিং নিশ্চিত করে।"
+  },
+  {
+    "id": 9,
+    "question": "কোনো ডিভাইসে স্থায়ীভাবে এমবেড করা থাকে কোন অপারেটিং সিস্টেম?",
+    "options": [
+      "UNIX",
+      "Embedded OS",
+      "Windows",
+      "macOS"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Embedded OS",
+    "explanation": "কোনো হার্ডওয়্যার ডিভাইসের রমে স্থায়ীভাবে নির্ধারিত কাজের জন্য এমবেড করা অপারেটিং সিস্টেমকে Embedded OS বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Embedded OS",
+    "hints": "মূল তথ্য: কোনো হার্ডওয়্যার ডিভাইসের রমে স্থায়ীভাবে নির্ধারিত কাজের জন্য এমবেড করা অপারেটিং সিস্টেমকে Embedded OS বলা হয়।"
+  },
+  {
+    "id": 10,
+    "question": "মেমরি ম্যানেজমেন্টের প্রধান উদ্দেশ্য কী?",
+    "options": [
+      "বিদ্যুৎ সরবরাহ নিয়ন্ত্রণ করা",
+      "কোন প্রোগ্রাম কতটুকু মেমরি ব্যবহার করবে তা নিয়ন্ত্রণ করা",
+      "প্রোগ্রামের কোড লেখা",
+      "মনিটরের রেজোলিউশন পরিবর্তন করা"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "কোন প্রোগ্রাম কতটুকু মেমরি ব্যবহার করবে তা নিয়ন্ত্রণ করা",
+    "explanation": "মেমরি ম্যানেজমেন্ট নিশ্চিত করে কোন প্রোগ্রাম প্রধান মেমরিতে (RAM) কতটুকু স্থান পাবে এবং মেমরি কীভাবে বরাদ্দ ও মুক্ত হবে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "কোন প্রোগ্রাম কতটুকু মেমরি ব্যবহার করবে তা নিয়ন্ত্রণ করা",
+    "hints": "মূল তথ্য: মেমরি ম্যানেজমেন্ট নিশ্চিত করে কোন প্রোগ্রাম প্রধান মেমরিতে (RAM) কতটুকু স্থান পাবে এবং মেমরি কীভাবে বরাদ্দ ও মুক্ত হবে।"
+  },
+  {
+    "id": 11,
+    "question": "DOS এর পূর্ণরূপ কী?",
+    "options": [
+      "Data Operating System",
+      "Disk Order Software",
+      "Disk Operating System",
+      "Digital Output Service"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Disk Operating System",
+    "explanation": "DOS-এর পূর্ণরূপ হলো Disk Operating System, যা মাইক্রোসফটের প্রথম দিকের একটি জনপ্রিয় সিঙ্গেল ইউজার ওএস ছিল।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Disk Operating System",
+    "hints": "মূল তথ্য: DOS-এর পূর্ণরূপ হলো Disk Operating System, যা মাইক্রোসফটের প্রথম দিকের একটি জনপ্রিয় সিঙ্গেল ইউজার ওএস ছিল।"
+  },
+  {
+    "id": 12,
+    "question": "DOS কোন ধরনের ইন্টারফেস ব্যবহার করে?",
+    "options": [
+      "GUI",
+      "CLI",
+      "টাচ ইন্টারফেস",
+      "ভয়েস ইন্টারফেস"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "CLI",
+    "explanation": "DOS মূলত Command Line Interface (CLI) ব্যবহার করে, যেখানে মাউস ছাড়া টাইপ করা টেক্সট কমান্ডের মাধ্যমে কম্পিউটার পরিচালনা করা হতো।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "CLI",
+    "hints": "মূল তথ্য: DOS মূলত Command Line Interface (CLI) ব্যবহার করে, যেখানে মাউস ছাড়া টাইপ করা টেক্সট কমান্ডের মাধ্যমে কম্পিউটার পরিচা...।"
+  },
+  {
+    "id": 13,
+    "question": "DOS-এ একটি ফাইল তৈরি বা দেখার জন্য কী লিখতে হয়?",
+    "options": [
+      "মাউস ক্লিক",
+      "কমান্ড",
+      "শর্টকাট আইকন",
+      "মেনু বার"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "কমান্ড",
+    "explanation": "DOS-এ কোনো কাজ সম্পাদন করতে বা ফাইল দেখতে প্রম্পটে সুনির্দিষ্ট কমান্ড (যেমন DIR, TYPE) লিখে নির্দেশ দিতে হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "কমান্ড",
+    "hints": "মূল তথ্য: DOS-এ কোনো কাজ সম্পাদন করতে বা ফাইল দেখতে প্রম্পটে সুনির্দিষ্ট কমান্ড (যেমন DIR, TYPE) লিখে নির্দেশ দিতে হয়।"
+  },
+  {
+    "id": 14,
+    "question": "DOS মূলত কোন ধরনের অপারেটিং সিস্টেম?",
+    "options": [
+      "মাল্টি ইউজার, মাল্টিটাস্কিং",
+      "রিয়েল টাইম",
+      "সিঙ্গেল ইউজার, সিঙ্গেল টাস্কিং",
+      "ডিস্ট্রিবিউটেড"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "সিঙ্গেল ইউজার, সিঙ্গেল টাস্কিং",
+    "explanation": "MS-DOS ছিল একটি সিঙ্গেল ইউজার এবং সিঙ্গেল টাস্কিং অপারেটিং সিস্টেম, অর্থাৎ এতে একবারে কেবল একজন ব্যবহারকারী একটিমাত্র কাজ করতে পারতেন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "সিঙ্গেল ইউজার, সিঙ্গেল টাস্কিং",
+    "hints": "মূল তথ্য: MS-DOS ছিল একটি সিঙ্গেল ইউজার এবং সিঙ্গেল টাস্কিং অপারেটিং সিস্টেম, অর্থাৎ এতে একবারে কেবল একজন ব্যবহারকারী একটিমাত্র...।"
+  },
+  {
+    "id": 15,
+    "question": "DOS-এর একটি Internal কমান্ডের উদাহরণ কোনটি?",
+    "options": [
+      "FORMAT",
+      "DISKCOPY",
+      "DIR",
+      "EDIT"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "DIR",
+    "explanation": "DIR কমান্ডটি COMMAND.COM ফাইলের ভেতরে মেমরিতে স্থায়ীভাবে সংরক্ষিত থাকে, তাই এটি DOS-এর একটি Internal কমান্ড।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "DIR",
+    "hints": "মূল তথ্য: DIR কমান্ডটি COMMAND।"
+  },
+  {
+    "id": 16,
+    "question": "DOS-এর একটি External কমান্ডের উদাহরণ কোনটি?",
+    "options": [
+      "TIME",
+      "DATE",
+      "CLS",
+      "FORMAT"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "FORMAT",
+    "explanation": "FORMAT কমান্ডটি ডিস্কে পৃথক এক্সিকিউটেবল ফাইল হিসেবে থাকে এবং প্রয়োজন অনুসারে ডিস্ক থেকে লোড হয়, তাই এটি External কমান্ড।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "FORMAT",
+    "hints": "মূল তথ্য: FORMAT কমান্ডটি ডিস্কে পৃথক এক্সিকিউটেবল ফাইল হিসেবে থাকে এবং প্রয়োজন অনুসারে ডিস্ক থেকে লোড হয়, তাই এটি External ক...।"
+  },
+  {
+    "id": 17,
+    "question": "DOS-এ স্ক্রিন পরিষ্কার করার জন্য কোন কমান্ডটি ব্যবহৃত হয়?",
+    "options": [
+      "CLEAR",
+      "ERASE",
+      "CLS",
+      "CLEAN"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "CLS",
+    "explanation": "DOS-এ মনিটরের স্ক্রিন সম্পূর্ণ পরিষ্কার করে প্রাথমিক প্রম্পট আনার জন্য CLS (Clear Screen) কমান্ড ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "CLS",
+    "hints": "মূল তথ্য: DOS-এ মনিটরের স্ক্রিন সম্পূর্ণ পরিষ্কার করে প্রাথমিক প্রম্পট আনার জন্য CLS (Clear Screen) কমান্ড ব্যবহৃত হয়।"
+  },
+  {
+    "id": 18,
+    "question": "DOS-এ একটি ডিরেক্টরি (Folder) তৈরি করতে কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "MAKEDIR",
+      "NEWFOLDER",
+      "MD",
+      "CREATE"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "MD",
+    "explanation": "DOS-এ নতুন একটি ডিরেক্টরি বা ফোল্ডার তৈরি করার জন্য MD (Make Directory) কমান্ড ব্যবহার করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "MD",
+    "hints": "মূল তথ্য: DOS-এ নতুন একটি ডিরেক্টরি বা ফোল্ডার তৈরি করার জন্য MD (Make Directory) কমান্ড ব্যবহার করা হয়।"
+  },
+  {
+    "id": 19,
+    "question": "MS-DOS কত সালে প্রথম মুক্তি পায়?",
+    "options": [
+      "১৯৭৫",
+      "১৯৮৫",
+      "১৯৮১",
+      "১৯৯০"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "১৯৮১",
+    "explanation": "আইবিএম পিসির জন্য মাইক্রোসফট ১৯৮১ সালে প্রথম বাণিজ্যিক সংস্করণ হিসেবে MS-DOS মুক্তি দেয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "১৯৮১",
+    "hints": "মূল তথ্য: আইবিএম পিসির জন্য মাইক্রোসফট ১৯৮১ সালে প্রথম বাণিজ্যিক সংস্করণ হিসেবে MS-DOS মুক্তি দেয়।"
+  },
+  {
+    "id": 20,
+    "question": "DOS-এ বর্তমান তারিখ দেখার জন্য কোন কমান্ডটি ব্যবহৃত হয়?",
+    "options": [
+      "SHOWDATE",
+      "DATE",
+      "TARIQ",
+      "VIEW/D"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "DATE",
+    "explanation": "DOS-এ সিস্টেমের বর্তমান তারিখ প্রদর্শন এবং পরিবর্তনের জন্য DATE কমান্ড ব্যবহার করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "DATE",
+    "hints": "মূল তথ্য: DOS-এ সিস্টেমের বর্তমান তারিখ প্রদর্শন এবং পরিবর্তনের জন্য DATE কমান্ড ব্যবহার করা হয়।"
+  },
+  {
+    "id": 21,
+    "question": "DOS-এ ফাইল ও ডিরেক্টরির তালিকা দেখার কমান্ড কোনটি?",
+    "options": [
+      "LIST",
+      "DIR",
+      "SHOW",
+      "FILES"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "DIR",
+    "explanation": "কোনো ডিরেক্টরির অন্তর্ভুক্ত ফাইল এবং ফোল্ডারের তালিকা দেখতে DOS-এ DIR কমান্ড ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "DIR",
+    "hints": "মূল তথ্য: কোনো ডিরেক্টরির অন্তর্ভুক্ত ফাইল এবং ফোল্ডারের তালিকা দেখতে DOS-এ DIR কমান্ড ব্যবহৃত হয়।"
+  },
+  {
+    "id": 22,
+    "question": "DOS-এ ফাইল ও ডিরেক্টরি রিনেম করার জন্য কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "COPY",
+      "MOVE",
+      "REN",
+      "EDIT"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "REN",
+    "explanation": "ফাইল বা ডিরেক্টরির পূর্ববর্তী নাম পরিবর্তন করে নতুন নাম দেওয়ার জন্য REN (Rename) কমান্ড ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "REN",
+    "hints": "মূল তথ্য: ফাইল বা ডিরেক্টরির পূর্ববর্তী নাম পরিবর্তন করে নতুন নাম দেওয়ার জন্য REN (Rename) কমান্ড ব্যবহৃত হয়।"
+  },
+  {
+    "id": 23,
+    "question": "COMMAND.COM ফাইলটি DOS-এর কী হিসেবে কাজ করে?",
+    "options": [
+      "ফাইল এডিটর",
+      "কমান্ড ইন্টারপ্রেটার",
+      "গ্রাফিক্স ড্রাইভার",
+      "বুট লোডার"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "কমান্ড ইন্টারপ্রেটার",
+    "explanation": "COMMAND.COM ফাইলটি হলো DOS-এর প্রাথমিক ডিফল্ট কমান্ড ইন্টারপ্রেটার, যা ব্যবহারকারীর টাইপ করা কমান্ডগুলো অনুবাদ ও কার্যকর করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "কমান্ড ইন্টারপ্রেটার",
+    "hints": "গুরুত্বপূর্ণ টপিক: মনোযোগ সহকারে সঠিক উত্তর ও ব্যাখ্যাটি মনে রাখুন।"
+  },
+  {
+    "id": 24,
+    "question": "মাইক্রোসফট উইন্ডোজ কোন ধরনের ইন্টারফেস ব্যবহার করে?",
+    "options": [
+      "CLI",
+      "VUI",
+      "GUI",
+      "TUI"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "GUI",
+    "explanation": "মাইক্রোসফট উইন্ডোজ মূলত গ্রাফিক্যাল ইউজার ইন্টারফেস (GUI) ব্যবহার করে, যেখানে আইকন, উইন্ডো ও মেনুর মাধ্যমে কাজ করা যায়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "GUI",
+    "hints": "মূল তথ্য: মাইক্রোসফট উইন্ডোজ মূলত গ্রাফিক্যাল ইউজার ইন্টারফেস (GUI) ব্যবহার করে, যেখানে আইকন, উইন্ডো ও মেনুর মাধ্যমে কাজ করা যায়।"
+  },
+  {
+    "id": 25,
+    "question": "GUI এর পূর্ণরূপ কী?",
+    "options": [
+      "General User Interface",
+      "Global Utility Integration",
+      "Graphical User Interface",
+      "Graphics Utility Interface"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Graphical User Interface",
+    "explanation": "GUI-এর পূর্ণরূপ হলো Graphical User Interface।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Graphical User Interface",
+    "hints": "মূল তথ্য: GUI-এর পূর্ণরূপ হলো Graphical User Interface।"
+  },
+  {
+    "id": 26,
+    "question": "উইন্ডোজের কোন সংস্করণটি প্রথম পূর্ণাঙ্গ 32-বিট অপারেটিং সিস্টেম হিসেবে পরিচিত?",
+    "options": [
+      "Windows 3.1",
+      "Windows 95",
+      "Windows NT",
+      "Windows XP"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Windows NT",
+    "explanation": "উইন্ডোজ এনটি (Windows NT বা New Technology) সার্ভার ও ওয়ার্কস্টেশনে শক্তিশালী নেটওয়ার্ক পরিচালনার জন্য বিশেষভাবে ডিজাইন করা হয়েছিল।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Windows NT",
+    "hints": "মূল তথ্য: উইন্ডোজ এনটি (Windows NT বা New Technology) সার্ভার ও ওয়ার্কস্টেশনে শক্তিশালী নেটওয়ার্ক পরিচালনার জন্য বিশেষভাবে ডি...।"
+  },
+  {
+    "id": 27,
+    "question": "উইন্ডোজ ভিস্তা এর পরবর্তী সংস্করণ কোনটি?",
+    "options": [
+      "Windows XP",
+      "Windows 7",
+      "Windows 8",
+      "Windows 10"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Windows 7",
+    "explanation": "২০০৯ সালে মাইক্রোসফট উইন্ডোজ ভিস্তার পর অত্যন্ত জনপ্রিয় ও স্থিতিশীল অপারেটিং সিস্টেম হিসেবে Windows 7 মুক্তি দেয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Windows 7",
+    "hints": "মূল তথ্য: ২০০৯ সালে মাইক্রোসফট উইন্ডোজ ভিস্তার পর অত্যন্ত জনপ্রিয় ও স্থিতিশীল অপারেটিং সিস্টেম হিসেবে Windows 7 মুক্তি দেয়।"
+  },
+  {
+    "id": 28,
+    "question": "বর্তমানে মাইক্রোসফটের সবচেয়ে ব্যবহৃত ও জনপ্রিয় অপারেটিং সিস্টেম কোনটি?",
+    "options": [
+      "Windows Vista",
+      "Windows 8",
+      "Windows 10/11",
+      "Windows XP"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Windows 10/11",
+    "explanation": "বর্তমানে বিশ্বের ব্যক্তিগত কম্পিউটারগুলোতে সবচেয়ে বেশি ব্যবহৃত ও জনপ্রিয় অপারেটিং সিস্টেম হলো Windows 10 ও Windows 11।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Windows 10/11",
+    "hints": "মূল তথ্য: বর্তমানে বিশ্বের ব্যক্তিগত কম্পিউটারগুলোতে সবচেয়ে বেশি ব্যবহৃত ও জনপ্রিয় অপারেটিং সিস্টেম হলো Windows 10 ও Windows 11।"
+  },
+  {
+    "id": 29,
+    "question": "উইন্ডোজ অপারেটিং সিস্টেমে 'Task Manager' চালু করার জন্য কোন শর্টকাট কী ব্যবহার করা হয়?",
+    "options": [
+      "Alt + Tab",
+      "Alt + F4",
+      "Ctrl + Shift + Esc",
+      "Ctrl + Alt + Del"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Ctrl + Shift + Esc",
+    "explanation": "উইন্ডোজে সরাসরি টাস্ক ম্যানেজার ওপেন করার জন্য সবচেয়ে কার্যকর কীবোর্ড শর্টকাট হলো Ctrl + Shift + Esc।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Ctrl + Shift + Esc",
+    "hints": "মূল তথ্য: উইন্ডোজে সরাসরি টাস্ক ম্যানেজার ওপেন করার জন্য সবচেয়ে কার্যকর কীবোর্ড শর্টকাট হলো Ctrl + Shift + Esc।"
+  },
+  {
+    "id": 30,
+    "question": "উইন্ডোজ অপারেটিং সিস্টেমে কোনো ফাইল বা ফোল্ডার স্থায়ীভাবে মুছে ফেলার জন্য কোন কী ব্যবহার করা হয়?",
+    "options": [
+      "Delete",
+      "Backspace",
+      "Shift + Delete",
+      "Ctrl + Delete"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Shift + Delete",
+    "explanation": "রিসাইকেল বিনে না পাঠিয়ে কোনো ফাইল বা ফোল্ডার ডিস্ক থেকে স্থায়ীভাবে মুছে ফেলতে Shift + Delete ব্যবহার করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Shift + Delete",
+    "hints": "মূল তথ্য: রিসাইকেল বিনে না পাঠিয়ে কোনো ফাইল বা ফোল্ডার ডিস্ক থেকে স্থায়ীভাবে মুছে ফেলতে Shift + Delete ব্যবহার করা হয়।"
+  },
+  {
+    "id": 31,
+    "question": "উইন্ডোজের ডেস্কটপে কোনো প্রোগ্রাম/অ্যাপ্লিকেশনকে সহজে অ্যাক্সেসের জন্য রাখা হয় কোনটির মাধ্যমে?",
+    "options": [
+      "ডিরেক্টরি",
+      "মেনু",
+      "শর্টকাট আইকন",
+      "রুট ফাইল"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "শর্টকাট আইকন",
+    "explanation": "ডেস্কটপে কোনো নির্দিষ্ট ফাইল বা অ্যাপ্লিকেশন সহজে ও দ্রুত খোলার জন্য শর্টকাট আইকন রাখা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "শর্টকাট আইকন",
+    "hints": "মূল তথ্য: ডেস্কটপে কোনো নির্দিষ্ট ফাইল বা অ্যাপ্লিকেশন সহজে ও দ্রুত খোলার জন্য শর্টকাট আইকন রাখা হয়।"
+  },
+  {
+    "id": 32,
+    "question": "উইন্ডোজে বর্তমানে সক্রিয় উইন্ডো বন্ধ করার জন্য কোন শর্টকাট ব্যবহৃত হয়?",
+    "options": [
+      "Ctrl + C",
+      "Ctrl + X",
+      "Alt + F4",
+      "Alt + Tab"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Alt + F4",
+    "explanation": "উইন্ডোজে বর্তমানে চালু থাকা যেকোনো সক্রিয় উইন্ডো বা প্রোগ্রাম অবিলম্বে বন্ধ করার জন্য Alt + F4 শর্টকাট ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Alt + F4",
+    "hints": "মূল তথ্য: উইন্ডোজে বর্তমানে চালু থাকা যেকোনো সক্রিয় উইন্ডো বা প্রোগ্রাম অবিলম্বে বন্ধ করার জন্য Alt + F4 শর্টকাট ব্যবহৃত হয়।"
+  },
+  {
+    "id": 33,
+    "question": "উইন্ডোজের কোন অংশটি ব্যবহারকারী এবং কম্পিউটারের মধ্যে সেতু হিসেবে কাজ করে?",
+    "options": [
+      "হার্ড ডিস্ক",
+      "RAM",
+      "Shell",
+      "Kernel"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Shell",
+    "explanation": "শেল (Shell) হলো অপারেটিং সিস্টেমের বহিরাবরণ যা ব্যবহারকারী ও কার্নেলের মধ্যে মধ্যস্থতাকারী হিসেবে নির্দেশ গ্রহণ ও আউটপুট প্রদান করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Shell",
+    "hints": "মূল তথ্য: শেল (Shell) হলো অপারেটিং সিস্টেমের বহিরাবরণ যা ব্যবহারকারী ও কার্নেলের মধ্যে মধ্যস্থতাকারী হিসেবে নির্দেশ গ্রহণ ও আউট...।"
+  },
+  {
+    "id": 34,
+    "question": "উইন্ডোজের কোর বা মূল অংশ কোনটি, যা হার্ডওয়্যারের সাথে সরাসরি যোগাযোগ রাখে?",
+    "options": [
+      "Shell",
+      "Kernel",
+      "Taskbar",
+      "Control Panel"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Kernel",
+    "explanation": "কার্নেল (Kernel) হলো অপারেটিং সিস্টেমের মূল কেন্দ্রবিন্দু (Core), যা সরাসরি হার্ডওয়্যারের সাথে যোগাযোগ রক্ষা করে এবং রিসোর্স নিয়ন্ত্রণ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Kernel",
+    "hints": "মূল তথ্য: কার্নেল (Kernel) হলো অপারেটিং সিস্টেমের মূল কেন্দ্রবিন্দু (Core), যা সরাসরি হার্ডওয়্যারের সাথে যোগাযোগ রক্ষা করে এবং...।"
+  },
+  {
+    "id": 35,
+    "question": "উইন্ডোজের সর্বশেষ সংস্করণ কোনটি?",
+    "options": [
+      "Windows 8",
+      "Windows 10",
+      "Windows 12",
+      "Windows 11"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Windows 11",
+    "explanation": "বর্তমানে মাইক্রোসফট উইন্ডোজের সর্বাধুনিক অফিসিয়াল সংস্করণ হলো Windows 11।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Windows 11",
+    "hints": "মূল তথ্য: বর্তমানে মাইক্রোসফট উইন্ডোজের সর্বাধুনিক অফিসিয়াল সংস্করণ হলো Windows 11।"
+  },
+  {
+    "id": 36,
+    "question": "উইন্ডোজ অপারেটিং সিস্টেমে ফাইল বা ফোল্ডার খুঁজে বের করার জন্য ব্যবহৃত টুল কোনটি?",
+    "options": [
+      "Paint",
+      "Command Prompt",
+      "Task Manager",
+      "File Explorer"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "File Explorer",
+    "explanation": "উইন্ডোজে বিভিন্ন ড্রাইভের ফাইল, ফোল্ডার ও ডকুমেন্ট ব্রাউজ ও সার্চ করার জন্য File Explorer ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "File Explorer",
+    "hints": "মূল তথ্য: উইন্ডোজে বিভিন্ন ড্রাইভের ফাইল, ফোল্ডার ও ডকুমেন্ট ব্রাউজ ও সার্চ করার জন্য File Explorer ব্যবহৃত হয়।"
+  },
+  {
+    "id": 37,
+    "question": "উইন্ডোজ 95/98-এ কোন সুবিধাটি MS-DOS-এর চেয়ে বড় পরিবর্তন এনেছিল?",
+    "options": [
+      "ফাস্টার সিপিইউ",
+      "আরও RAM",
+      "Plug and Play সুবিধা",
+      "সলিড স্টেট ড্রাইভ"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Plug and Play সুবিধা",
+    "explanation": "উইন্ডোজ ৯৫/৯৮-এ নতুন হার্ডওয়্যার যুক্ত করার সাথে সাথে স্বয়ংক্রিয়ভাবে ড্রাইভার শনাক্ত করার Plug and Play (PnP) প্রযুক্তি যুক্ত করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Plug and Play সুবিধা",
+    "hints": "মূল তথ্য: উইন্ডোজ ৯৫/৯৮-এ নতুন হার্ডওয়্যার যুক্ত করার সাথে সাথে স্বয়ংক্রিয়ভাবে ড্রাইভার শনাক্ত করার Plug and Play (PnP) প্রয...।"
+  },
+  {
+    "id": 38,
+    "question": "নিচের কোনটি অপারেটিং সিস্টেম নয়? [অধিদপ্তর]",
+    "options": [
+      "লিনাক্স",
+      "মজিলা",
+      "উইন্ডোজ",
+      "উবুন্টু"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "মজিলা",
+    "explanation": "মজিলা (Mozilla) হলো একটি ওয়েব ব্রাউজার সফটওয়্যার কোম্পানি; অপরদিকে লিনাক্স, উইন্ডোজ ও উবুন্টু হলো অপারেটিং সিস্টেম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "মজিলা",
+    "hints": "মূল তথ্য: মজিলা (Mozilla) হলো একটি ওয়েব ব্রাউজার সফটওয়্যার কোম্পানি; অপরদিকে লিনাক্স, উইন্ডোজ ও উবুন্টু হলো অপারেটিং সিস্টেম।"
+  },
+  {
+    "id": 39,
+    "question": "নিচের কোনটি সিস্টেম সফটওয়্যার? [অধিদপ্তর]",
+    "options": [
+      "এমএস এক্সেল",
+      "নোটপ্যাড",
+      "উইন্ডোজ ভিস্তা",
+      "ওরাকল"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "উইন্ডোজ ভিস্তা",
+    "explanation": "উইন্ডোজ ভিস্তা হলো একটি অপারেটিং সিস্টেম বা সিস্টেম সফটওয়্যার; এক্সেল ও ওরাকল হলো অ্যাপ্লিকেশন সফটওয়্যার।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "উইন্ডোজ ভিস্তা",
+    "hints": "মূল তথ্য: উইন্ডোজ ভিস্তা হলো একটি অপারেটিং সিস্টেম বা সিস্টেম সফটওয়্যার; এক্সেল ও ওরাকল হলো অ্যাপ্লিকেশন সফটওয়্যার।"
+  },
+  {
+    "id": 40,
+    "question": "নিচের কোন স্মার্টফোন অপারেটিং সিস্টেমটি ওপেন সোর্স প্ল্যাটফর্ম? [BCS 2015]",
+    "options": [
+      "iOS",
+      "Windows phone",
+      "Android",
+      "Symbian"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Android",
+    "explanation": "অ্যান্ড্রয়েড (Android) হলো গুগল কর্তৃক পরিচালিত লিনাক্স কার্নেল ভিত্তিক একটি অত্যন্ত জনপ্রিয় ওপেন সোর্স মোবাইল অপারেটিং সিস্টেম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Android",
+    "hints": "মূল তথ্য: অ্যান্ড্রয়েড (Android) হলো গুগল কর্তৃক পরিচালিত লিনাক্স কার্নেল ভিত্তিক একটি অত্যন্ত জনপ্রিয় ওপেন সোর্স মোবাইল অপার...।"
+  },
+  {
+    "id": 41,
+    "question": "নিচের কোনটি OS এর কাজ নয়? [BANK]",
+    "options": [
+      "ইউজার ইন্টারফেস সরবরাহ করা",
+      "হার্ডওয়্যার ডিভাইস নিয়ন্ত্রণ করা",
+      "নেটওয়ার্ক থেকে স্বয়ংক্রিয়ভাবে ফাইল কপি করা",
+      "প্রোগ্রাম সচল রাখা"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "নেটওয়ার্ক থেকে স্বয়ংক্রিয়ভাবে ফাইল কপি করা",
+    "explanation": "নেটওয়ার্ক থেকে স্বয়ংক্রিয়ভাবে ফাইল কপি করা কোনো ওএস-এর সরাসরি মূল কাজ নয়; এটি নির্দিষ্ট ব্যবহারকারী বা সফটওয়্যার দ্বারা নির্দেশিত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "নেটওয়ার্ক থেকে স্বয়ংক্রিয়ভাবে ফাইল কপি করা",
+    "hints": "মূল তথ্য: নেটওয়ার্ক থেকে স্বয়ংক্রিয়ভাবে ফাইল কপি করা কোনো ওএস-এর সরাসরি মূল কাজ নয়; এটি নির্দিষ্ট ব্যবহারকারী বা সফটওয়্যার...।"
+  },
+  {
+    "id": 42,
+    "question": "নিচের কোনটি একটি কম্পিউটার অপারেটিং সিস্টেম? [BANK]",
+    "options": [
+      "Java",
+      "C++",
+      "Oracle",
+      "LINUX"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "LINUX",
+    "explanation": "লিনাক্স (LINUX) হলো একটি বিখ্যাত মাল্টিটাস্কিং কম্পিউটার অপারেটিং সিস্টেম; জাভা ও সি++ হলো প্রোগ্রামিং ভাষা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "LINUX",
+    "hints": "মূল তথ্য: লিনাক্স (LINUX) হলো একটি বিখ্যাত মাল্টিটাস্কিং কম্পিউটার অপারেটিং সিস্টেম; জাভা ও সি++ হলো প্রোগ্রামিং ভাষা।"
+  },
+  {
+    "id": 43,
+    "question": "নিচের কোনটি পিসিতে ব্যবহৃত সর্বাপেক্ষা জনপ্রিয় অপারেটিং সিস্টেম? [BANK]",
+    "options": [
+      "Apple MAC OS X",
+      "DOS",
+      "Microsoft Windows",
+      "UNIX"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Microsoft Windows",
+    "explanation": "বিশ্বজুড়ে ব্যক্তিগত কম্পিউটারে (PC) সবচেয়ে বেশি ব্যবহৃত এবং বাজার দখলকারী অপারেটিং সিস্টেম হলো Microsoft Windows।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Microsoft Windows",
+    "hints": "মূল তথ্য: বিশ্বজুড়ে ব্যক্তিগত কম্পিউটারে (PC) সবচেয়ে বেশি ব্যবহৃত এবং বাজার দখলকারী অপারেটিং সিস্টেম হলো Microsoft Windows।"
+  },
+  {
+    "id": 44,
+    "question": "UNIX অপারেটিং সিস্টেমের উদ্ভাবক প্রতিষ্ঠান? [BANK]",
+    "options": [
+      "Intel",
+      "IBM",
+      "Apple",
+      "Bell Lab"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Bell Lab",
+    "explanation": "১৯৬৯ সালে আমেরিকার বিশ্বখ্যাত বেল ল্যাবরেটরিতে (Bell Labs) ডেনিস রিচি ও কেন থম্পসনের নেতৃত্বে UNIX উদ্ভাবিত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Bell Lab",
+    "hints": "মূল তথ্য: ১৯৬৯ সালে আমেরিকার বিশ্বখ্যাত বেল ল্যাবরেটরিতে (Bell Labs) ডেনিস রিচি ও কেন থম্পসনের নেতৃত্বে UNIX উদ্ভাবিত হয়।"
+  },
+  {
+    "id": 45,
+    "question": "DOS অপারেটিং সিস্টেমের প্রস্তুতকারী প্রতিষ্ঠান কোনটি? [BANK]",
+    "options": [
+      "Apple",
+      "IBM",
+      "Microsoft",
+      "INTEL"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Microsoft",
+    "explanation": "মাইক্রোসফট (Microsoft) কর্পোরেশন আইবিএম পিসির জন্য বহুল ব্যবহৃত DOS অপারেটিং সিস্টেম তৈরি করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Microsoft",
+    "hints": "মূল তথ্য: মাইক্রোসফট (Microsoft) কর্পোরেশন আইবিএম পিসির জন্য বহুল ব্যবহৃত DOS অপারেটিং সিস্টেম তৈরি করে।"
+  },
+  {
+    "id": 46,
+    "question": "একটি প্রসেস হলো: [Ministry]",
+    "options": [
+      "ডিস্কে সংরক্ষিত নির্দেশাবলীর সেট",
+      "থ্রেডের মতো একই",
+      "একটি ভাইরাস",
+      "এক্সিকিউশনে থাকা একটি প্রোগ্রামের ইনস্ট্যান্স"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "এক্সিকিউশনে থাকা একটি প্রোগ্রামের ইনস্ট্যান্স",
+    "explanation": "কম্পিউটারের প্রধান মেমরিতে বর্তমানে এক্সিকিউশন বা কার্যকর অবস্থায় থাকা যেকোনো প্রোগ্রামের ইনস্ট্যান্সকে প্রসেস (Process) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "এক্সিকিউশনে থাকা একটি প্রোগ্রামের ইনস্ট্যান্স",
+    "hints": "মূল তথ্য: কম্পিউটারের প্রধান মেমরিতে বর্তমানে এক্সিকিউশন বা কার্যকর অবস্থায় থাকা যেকোনো প্রোগ্রামের ইনস্ট্যান্সকে প্রসেস (Proc...।"
+  },
+  {
+    "id": 47,
+    "question": "Operating System is an/a - [অপারেটিং সিস্টেম হল-]",
+    "options": [
+      "Collection of Application Software",
+      "Utility Software",
+      "System Software",
+      "Collection of Similar Software"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "System Software",
+    "explanation": "অপারেটিং সিস্টেম হলো সামগ্রিক হার্ডওয়্যার ও অ্যাপ্লিকেশন নিয়ন্ত্রণের প্রধান সিস্টেম সফটওয়্যার (System Software)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "System Software",
+    "hints": "মূল তথ্য: অপারেটিং সিস্টেম হলো সামগ্রিক হার্ডওয়্যার ও অ্যাপ্লিকেশন নিয়ন্ত্রণের প্রধান সিস্টেম সফটওয়্যার (System Software)।"
+  },
+  {
+    "id": 48,
+    "question": "যখন একটি Process একটি I/O অপারেশন সম্পন্ন হওয়ার জন্য অপেক্ষা করে, তখন প্রসেসটির সেই অবস্থাকে কী বলা হয়?",
+    "options": [
+      "Running",
+      "New",
+      "Waiting",
+      "Terminated"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Waiting",
+    "explanation": "যখন কোনো প্রসেস তার কার্য সম্পাদন করতে গিয়ে ইনপুট/আউটপুট (I/O) বা কোনো ইভেন্টের জন্য অপেক্ষা করে, তখন তাকে Waiting বা Blocked স্টেট বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Waiting",
+    "hints": "মূল তথ্য: যখন কোনো প্রসেস তার কার্য সম্পাদন করতে গিয়ে ইনপুট/আউটপুট (I/O) বা কোনো ইভেন্টের জন্য অপেক্ষা করে, তখন তাকে Waiting ব...।"
+  },
+  {
+    "id": 49,
+    "question": "A deadlock is a state where: [ডেডলক এমন অবস্থা যেখানে--]",
+    "options": [
+      "A process has finished its execution.",
+      "Two or more processes are waiting for a resource held by another.",
+      "The operating system is booting up.",
+      "A single process is using all the system's resources."
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Two or more processes are waiting for a resource held by another.",
+    "explanation": "ডেডলক (Deadlock) হলো এমন একটি অচল অবস্থা যেখানে দুই বা ততোধিক প্রসেস পরস্পরের দখলে থাকা রিসোর্সের জন্য অনন্তকাল অপেক্ষা করতে থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Two or more processes are waiting for a resource held by another.",
+    "hints": "মূল তথ্য: ডেডলক (Deadlock) হলো এমন একটি অচল অবস্থা যেখানে দুই বা ততোধিক প্রসেস পরস্পরের দখলে থাকা রিসোর্সের জন্য অনন্তকাল অপেক্...।"
+  },
+  {
+    "id": 50,
+    "question": "একটি প্রসেস t1 সময়ে এসে পৌঁছায়, যার Burst Time t2 এবং প্রসেসটি t3 সময়ে সম্পূর্ণ হয়। এই প্রসেসটির Turnaround Time কত? [bpsc Non Cadre]",
+    "options": [
+      "t1+t2",
+      "t3-t1",
+      "t3-t2",
+      "t1+t"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "t3-t1",
+    "explanation": "Turnaround Time হলো একটি প্রসেস জমা দেওয়ার সময় থেকে তা সম্পূর্ণ শেষ হওয়ার মধ্যবর্তী মোট সময়, অর্থাৎ Completion Time - Arrival Time = t3 - t1।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "t3-t1",
+    "hints": "মূল তথ্য: Turnaround Time হলো একটি প্রসেস জমা দেওয়ার সময় থেকে তা সম্পূর্ণ শেষ হওয়ার মধ্যবর্তী মোট সময়, অর্থাৎ Completion Ti...।"
+  },
+  {
+    "id": 51,
+    "question": "একটি প্রসেসের Arrival Time 10 ms এবং Completion Time 25 ms। যদি প্রসেসটির Burst Time 12 ms হয়, তাহলে প্রসেসটির Waiting Time কত? [bpsc Non Cadre]",
+    "options": [
+      "3ms",
+      "22ms",
+      "15ms",
+      "12ms"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "3ms",
+    "explanation": "Turnaround Time = 25 - 10 = 15 ms। Waiting Time = Turnaround Time - Burst Time = 15 - 12 = 3 ms।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "3ms",
+    "hints": "মূল তথ্য: Turnaround Time = 25 - 10 = 15 ms।"
+  },
+  {
+    "id": 52,
+    "question": "A page fault occurs when: [49th BCS]",
+    "options": [
+      "deadlock happens",
+      "segmentation starts",
+      "page is found in memory",
+      "page is not found in memory"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "page is not found in memory",
+    "explanation": "ভার্চুয়াল মেমরি ব্যবস্থাপনায় যখন কোনো প্রসেসের প্রয়োজনীয় পেজটি ফিজিক্যাল র‍্যামের ফ্রেমে অনুপস্থিত থাকে, তখন Page Fault ঘটে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "page is not found in memory",
+    "hints": "মূল তথ্য: ভার্চুয়াল মেমরি ব্যবস্থাপনায় যখন কোনো প্রসেসের প্রয়োজনীয় পেজটি ফিজিক্যাল র‍্যামের ফ্রেমে অনুপস্থিত থাকে, তখন Page...।"
+  },
+  {
+    "id": 53,
+    "question": "______ is a non-preemptive algorithm. [49th BCS]",
+    "options": [
+      "FCFS",
+      "Round Robin",
+      "Shortest Remaining Time",
+      "None of the above"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "FCFS",
+    "explanation": "FCFS (First-Come, First-Served) শিডিউলিং অ্যালগরিদমে কোনো প্রসেস একবার সিপিইউ পেলে তা শেষ না হওয়া পর্যন্ত ছাড়া যায় না, তাই এটি Non-preemptive।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "FCFS",
+    "hints": "মূল তথ্য: FCFS (First-Come, First-Served) শিডিউলিং অ্যালগরিদমে কোনো প্রসেস একবার সিপিইউ পেলে তা শেষ না হওয়া পর্যন্ত ছাড়া যায়...।"
+  },
+  {
+    "id": 54,
+    "question": "OS System Calls perform the following basic operations on files: [49th BCS]",
+    "options": [
+      "Read, Write, Delete",
+      "Write, Print, Reposition",
+      "Delete, Truncate, Sort Data",
+      "Modify, update, sort data"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Read, Write, Delete",
+    "explanation": "ফাইলের মৌলিক ব্যবস্থাপনার জন্য অপারেটিং সিস্টেমের সিস্টেম কল প্রধানত Read, Write, Open, Close এবং Delete কাজগুলো সম্পন্ন করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Read, Write, Delete",
+    "hints": "মূল তথ্য: ফাইলের মৌলিক ব্যবস্থাপনার জন্য অপারেটিং সিস্টেমের সিস্টেম কল প্রধানত Read, Write, Open, Close এবং Delete কাজগুলো সম্প...।"
+  },
+  {
+    "id": 55,
+    "question": "Assuming P1, P2, P3 have burst time (in ms) 6, 8, 3, respectively, which statement is true about SJF? [49th BCS]",
+    "options": [
+      "Waiting time of P1 is 3ms",
+      "Turn around time of P1 is 8ms",
+      "Completion time of p2 is 17ms",
+      "Turn around time of P3 is 9ms"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Waiting time of P1 is 3ms",
+    "explanation": "SJF (Shortest Job First)-এ ছোট Burst Time অগ্রাধিকার পায়। P3 (3ms) প্রথমে চলবে 0 থেকে 3ms পর্যন্ত। এরপর P1 শুরু হবে 3ms এ, অর্থাৎ P1 এর Waiting time = 3 ms।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "9. Operating System",
+    "chapter": "9. Operating System",
+    "correctAnswer": "Waiting time of P1 is 3ms",
+    "hints": "মূল তথ্য: SJF (Shortest Job First)-এ ছোট Burst Time অগ্রাধিকার পায়।"
+  }
+]

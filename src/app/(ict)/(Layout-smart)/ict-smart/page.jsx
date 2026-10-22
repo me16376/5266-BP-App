@@ -32,7 +32,8 @@ const toBengaliNumberStr = (str) => {
 const DEFAULT_CATEGORIES = [
   { id: 'All', label: 'সকল অধ্যায়' },
   { id: 'class-9-10-computer-gk', label: 'Class 9-10 Computer GK', matchKey: 'class-9-10-computer-gk' },
-  { id: 'ict-wizard-ntrca-313-and-325', label: 'ICT Wizard NTRCA (313 & 325)', matchKey: 'ict-wizard-ntrca-313-and-325' }
+  { id: 'ict-wizard-ntrca-313-and-325', label: 'ICT Wizard NTRCA (313 & 325)', matchKey: 'ict-wizard-ntrca-313-and-325' },
+  { id: 'bpsc-ict-wizard', label: 'BPSC ICT Wizard', matchKey: 'bpsc-ict-wizard' }
 ];
 
 function IctSmartContent() {
@@ -118,17 +119,27 @@ function IctSmartContent() {
 
             let displayTag = '';
             const chMatch = rawTitle.match(/অধ্যায়-?\s*([০-৯0-9ক-ছ]+)/);
+            const numPrefixMatch = rawTitle.match(/^\s*([০-৯0-9]+)\s*[\.\-:]/);
             if (chMatch) {
               displayTag = `অধ্যায় ${chMatch[1]}`;
+            } else if (numPrefixMatch) {
+              displayTag = `অধ্যায় ${numPrefixMatch[1]}`;
             } else if (catId.includes('class-9-10')) {
               displayTag = 'Class 9-10';
+            } else if (catId.includes('bpsc')) {
+              displayTag = 'BPSC ICT';
             } else {
               displayTag = 'NTRCA';
             }
 
-            let subjectStats = catId.includes('class-9-10')
-              ? 'নবম-দশম শ্রেণির কম্পিউটার ও তথ্যপ্রযুক্তি পূর্ণাঙ্গ সমাধান'
-              : 'এনটিআরসিএ আইসিটি প্রভাষক ও শিক্ষক নিবন্ধন প্রস্তুতি';
+            let subjectStats = '';
+            if (catId.includes('class-9-10')) {
+              subjectStats = 'নবম-দশম শ্রেণির কম্পিউটার ও তথ্যপ্রযুক্তি পূর্ণাঙ্গ সমাধান';
+            } else if (catId.includes('bpsc')) {
+              subjectStats = 'বিপিএসসি ও সহকারী প্রোগ্রামার/আইসিটি নিয়োগ প্রস্তুতি';
+            } else {
+              subjectStats = 'এনটিআরসিএ আইসিটি প্রভাষক ও শিক্ষক নিবন্ধন প্রস্তুতি';
+            }
 
             const tags = [
               exam.category_id,
@@ -190,8 +201,11 @@ function IctSmartContent() {
     let editionNum = 0;
     let year = item.rawYear || exam.year || 0;
     const bnMatch = title.match(/অধ্যায়-?\s*([০-৯0-9]+)/);
+    const numPrefixMatch = title.match(/^\s*([০-৯0-9]+)\s*[\.\-:]/);
     if (bnMatch) {
       editionNum = parseInt(toEnglishNumberStr(bnMatch[1]), 10) || 0;
+    } else if (numPrefixMatch) {
+      editionNum = parseInt(toEnglishNumberStr(numPrefixMatch[1]), 10) || 0;
     }
 
     const idVal = exam.id || item.id || '';
@@ -222,13 +236,9 @@ function IctSmartContent() {
         currentTag === 'All' ||
         item.categoryId === currentTag ||
         item.category === currentTag ||
-        (currentTag === 'bcs' && item.categoryId === 'bcs') ||
-        (currentTag === 'bank' && item.categoryId === 'bank') ||
-        (currentTag === 'primary' && item.categoryId === 'primary') ||
-        (currentTag === 'ntrca' && item.categoryId === 'ntrca') ||
-        (currentTag === 'ministry' && item.categoryId === 'ministry') ||
-        (currentTag === 'admission' && item.categoryId === 'admission') ||
-        (currentTag === 'subject' && item.categoryId === 'subject');
+        (currentTag === 'bpsc-ict-wizard' && item.categoryId === 'bpsc-ict-wizard') ||
+        (currentTag === 'class-9-10-computer-gk' && item.categoryId === 'class-9-10-computer-gk') ||
+        (currentTag === 'ict-wizard-ntrca-313-and-325' && item.categoryId === 'ict-wizard-ntrca-313-and-325');
 
       if (!matchCat) return false;
 

@@ -1,0 +1,2985 @@
+[
+  {
+    "id": 1,
+    "question": "ফায়ারওয়ালের প্রাথমিক কাজ কী?",
+    "options": [
+      "সমস্ত আগত ট্রাফিক ফিল্টার করা",
+      "সমস্ত বহির্গত ট্রাফিক ব্লক করা",
+      "আগত এবং বহির্গত নেটওয়ার্ক ট্রাফিক নিরীক্ষা এবং নিয়ন্ত্রণ করা।",
+      "সমস্ত নেটওয়ার্ক ট্রাফিক এনক্রিপ্ট করা।"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "আগত এবং বহির্গত নেটওয়ার্ক ট্রাফিক নিরীক্ষা এবং নিয়ন্ত্রণ করা।",
+    "explanation": "ফায়ারওয়াল (Firewall) অভ্যন্তরীণ ও বাহ্যিক নেটওয়ার্কের নিরাপত্তা নিশ্চিত করতে আগত (Incoming) এবং বহির্গত (Outgoing) সমস্ত নেটওয়ার্ক ট্রাফিক পূর্বনির্ধারিত নিরাপত্তা বিধির আলোকে নিরীক্ষা ও নিয়ন্ত্রণ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "আগত এবং বহির্গত নেটওয়ার্ক ট্রাফিক নিরীক্ষা এবং নিয়ন্ত্রণ করা।",
+    "hints": "মূল তথ্য: ফায়ারওয়াল (Firewall) অভ্যন্তরীণ ও বাহ্যিক নেটওয়ার্কের নিরাপত্তা নিশ্চিত করতে আগত (Incoming) এবং বহির্গত (Outgoing)...।"
+  },
+  {
+    "id": 2,
+    "question": "ইন্টারনেটের মাধ্যমে তথ্য আদান-প্রদানের জন্য সর্বাধিক ব্যবহৃত প্রোটোকল কী?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "DNS",
+      "TCP/IP"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "TCP/IP",
+    "explanation": "ইন্টারনেটের মূল ভিত্তি হলো TCP/IP (Transmission Control Protocol / Internet Protocol) স্যুট, যা বিশ্বজুড়ে বিভিন্ন ডিভাইসের মধ্যে নির্ভরযোগ্য ডেটা আদান-প্রদান নিশ্চিত করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "TCP/IP",
+    "hints": "মূল তথ্য: ইন্টারনেটের মূল ভিত্তি হলো TCP/IP (Transmission Control Protocol / Internet Protocol) স্যুট, যা বিশ্বজুড়ে বিভিন্ন ডি...।"
+  },
+  {
+    "id": 3,
+    "question": "নিচের কোনটি ক্লাউড কম্পিউটিং এর বৈশিষ্ট্য নয়?",
+    "options": [
+      "On-demand self service",
+      "Broad network access",
+      "Limited customization",
+      "Physical ownership of servers"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Physical ownership of servers",
+    "explanation": "ক্লাউড কম্পিউটিংয়ে ব্যবহারকারী নিজের কাছে কোনো ফিজিক্যাল সার্ভার সংরক্ষণ করেন না; বরং প্রোভাইডারের দূরবর্তী ডেটা সেন্টারে অবস্থিত সার্ভার ভার্চুয়ালভাবে ব্যবহার করেন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Physical ownership of servers",
+    "hints": "মূল তথ্য: ক্লাউড কম্পিউটিংয়ে ব্যবহারকারী নিজের কাছে কোনো ফিজিক্যাল সার্ভার সংরক্ষণ করেন না; বরং প্রোভাইডারের দূরবর্তী ডেটা সেন...।"
+  },
+  {
+    "id": 4,
+    "question": "একটি কম্পিউটার নেটওয়ার্কে একটি LAN-এর একাধিক ডিভাইসকে একটি WAN এর সাথে সংযুক্ত করে এমন ডিভাইস কোনটি?",
+    "options": [
+      "রাউটার",
+      "ওয়েব সার্ভার",
+      "ব্রীজ",
+      "হাব"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "রাউটার",
+    "explanation": "রাউটার (Router) একটি বুদ্ধিমান নেটওয়ার্ক লেয়ার ডিভাইস যা লোকাল এরিয়া নেটওয়ার্ক (LAN)-কে ওয়াইড এরিয়া নেটওয়ার্ক (WAN) বা ইন্টারনেটের সাথে সংযুক্ত করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "রাউটার",
+    "hints": "মূল তথ্য: রাউটার (Router) একটি বুদ্ধিমান নেটওয়ার্ক লেয়ার ডিভাইস যা লোকাল এরিয়া নেটওয়ার্ক (LAN)-কে ওয়াইড এরিয়া নেটওয়ার্ক ...।"
+  },
+  {
+    "id": 5,
+    "question": "প্রতারণামূলকভাবে সংবেদনশীল তথ্য যেমন পাসওয়ার্ড ও ক্রেডিট কার্ড নম্বর অর্জন করার জন্য ইন্টারনেট ব্যবহার করার অনুশীলনকে কী বলা হয়?",
+    "options": [
+      "Phishing",
+      "Spamming",
+      "Ransom ware",
+      "Sniffing"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Phishing",
+    "explanation": "ফিশিং (Phishing) হলো প্রতারণামূলকভাবে বিশ্বাসযোগ্য প্রতিষ্ঠানের ছদ্মবেশ ধারণ করে ব্যবহারকারীর মূল্যবান তথ্য (যেমন পাসওয়ার্ড, ক্রেডিট কার্ড নম্বর) হাতিয়ে নেওয়ার সাইবার আক্রমণ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Phishing",
+    "hints": "মূল তথ্য: ফিশিং (Phishing) হলো প্রতারণামূলকভাবে বিশ্বাসযোগ্য প্রতিষ্ঠানের ছদ্মবেশ ধারণ করে ব্যবহারকারীর মূল্যবান তথ্য (যেমন পাস...।"
+  },
+  {
+    "id": 6,
+    "question": "চিকিৎসা ক্ষেত্রে কম্পিউটার এর কাজ কোনটি?",
+    "options": [
+      "তথ্য সংরক্ষণ",
+      "ইমেজ বিশ্লেষণ",
+      "রোগী পর্যবেক্ষণ",
+      "উপরের সবগুলো"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "উপরের সবগুলো",
+    "explanation": "চিকিৎসা ক্ষেত্রে কম্পিউটার রোগীর তথ্য সংরক্ষণ, এমআরআই/সিটি স্ক্যানের ইমেজ বিশ্লেষণ এবং আইসিইউ-তে সার্বক্ষণিক রোগী পর্যবেক্ষণে ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "উপরের সবগুলো",
+    "hints": "মূল তথ্য: চিকিৎসা ক্ষেত্রে কম্পিউটার রোগীর তথ্য সংরক্ষণ, এমআরআই/সিটি স্ক্যানের ইমেজ বিশ্লেষণ এবং আইসিইউ-তে সার্বক্ষণিক রোগী পর্...।"
+  },
+  {
+    "id": 7,
+    "question": "নিচের কোনটি সার্বজনীন ডিজিটাল লজিক গেইট?",
+    "options": [
+      "XOR",
+      "AND",
+      "NOR",
+      "OR"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "NOR",
+    "explanation": "NOR এবং NAND গেট দিয়ে যেকোনো লজিক সার্কিট বাস্তবায়ন করা যায় বলে এদেরকে সার্বজনীন (Universal) ডিজিটাল লজিক গেট বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "NOR",
+    "hints": "মূল তথ্য: NOR এবং NAND গেট দিয়ে যেকোনো লজিক সার্কিট বাস্তবায়ন করা যায় বলে এদেরকে সার্বজনীন (Universal) ডিজিটাল লজিক গেট বলা হয়।"
+  },
+  {
+    "id": 8,
+    "question": "GPU-এর পূর্ণরূপ কী?",
+    "options": [
+      "Graph Processing Unit",
+      "Graphic Processing Unit",
+      "Graphics Processing Unit",
+      "Geographical Processing Unit"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Graphics Processing Unit",
+    "explanation": "GPU-এর পূর্ণরূপ হলো Graphics Processing Unit, যা ভিডিও, ইমেজ ও গ্রাফিক্স রেন্ডারিংসহ উচ্চ গাণিতিক হিসাব দ্রুত সম্পাদন করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Graphics Processing Unit",
+    "hints": "মূল তথ্য: GPU-এর পূর্ণরূপ হলো Graphics Processing Unit, যা ভিডিও, ইমেজ ও গ্রাফিক্স রেন্ডারিংসহ উচ্চ গাণিতিক হিসাব দ্রুত সম্পাদন...।"
+  },
+  {
+    "id": 9,
+    "question": "নিচের কোনটি ALU-এর আউটপুট রাখার জন্য ব্যবহৃত হয়?",
+    "options": [
+      "Register",
+      "ROM",
+      "Flags",
+      "Output Unit"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Register",
+    "explanation": "ALU (Arithmetic Logic Unit)-এর গাণিতিক ও যৌক্তিক অপারেশনের প্রাথমিক ও চূড়ান্ত ফলাফল সংরক্ষণে রেজিস্টার (অ্যাকুমুলেটর) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Register",
+    "hints": "মূল তথ্য: ALU (Arithmetic Logic Unit)-এর গাণিতিক ও যৌক্তিক অপারেশনের প্রাথমিক ও চূড়ান্ত ফলাফল সংরক্ষণে রেজিস্টার (অ্যাকুমুলেটর...।"
+  },
+  {
+    "id": 10,
+    "question": "DBMS-এর পূর্ণরূপ কী?",
+    "options": [
+      "Data Backup Management Service",
+      "Database Management System",
+      "Data of Binary Management System",
+      "Database Management System"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Data of Binary Management System",
+    "explanation": "DBMS-এর পূর্ণরূপ হলো Database Management System।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Data of Binary Management System",
+    "hints": "মূল তথ্য: DBMS-এর পূর্ণরূপ হলো Database Management System।"
+  },
+  {
+    "id": 11,
+    "question": "2 কিলোবাইট মেমোরি address করার জন্য কতটি address লাইন দরকার?",
+    "options": [
+      "12",
+      "10",
+      "11",
+      "14"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "11",
+    "explanation": "২ কিলোবাইট মেমোরি = ২ × ১০২৪ বাইট = ২০৪৮ বাইট = ২¹¹ বাইট। মেমোরির প্রতিটি বাইট স্বতন্ত্রভাবে নির্দেশ করতে ১১টি অ্যাড্রেস লাইনের প্রয়োজন হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "11",
+    "hints": "মূল তথ্য: ২ কিলোবাইট মেমোরি = ২ × ১০২৪ বাইট = ২০৪৮ বাইট = ২¹¹ বাইট।"
+  },
+  {
+    "id": 12,
+    "question": "এমবেডেড সিস্টেমে সাধারণত কোন ধরনের মেমোরি ব্যবহৃত হয়?",
+    "options": [
+      "RAM",
+      "হার্ডডিস্ক ড্রাইভ",
+      "ফ্লাশ মেমোরি",
+      "অপটিক্যাল ডিস্ক ড্রাইভ"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ফ্লাশ মেমোরি",
+    "explanation": "এমবেডেড সিস্টেমে ফার্মওয়্যার ও স্থায়ী প্রোগ্রাম সংরক্ষণের জন্য নন-ভোলাটাইল ও পুনরায় লেখাযোগ্য ফ্ল্যাশ মেমরি (Flash Memory) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ফ্লাশ মেমোরি",
+    "hints": "মূল তথ্য: এমবেডেড সিস্টেমে ফার্মওয়্যার ও স্থায়ী প্রোগ্রাম সংরক্ষণের জন্য নন-ভোলাটাইল ও পুনরায় লেখাযোগ্য ফ্ল্যাশ মেমরি (Flash...।"
+  },
+  {
+    "id": 13,
+    "question": "নিচের কোনটি Spyware এর উদাহরণ?",
+    "options": [
+      "Key loggers",
+      "Avast",
+      "Norton",
+      "Kaspersky"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Key loggers",
+    "explanation": "কীলগার (Keylogger) হলো এক ধরনের স্পাইওয়্যার (Spyware) যা ব্যবহারকারীর কীবোর্ডে টাইপ করা প্রতিটি অক্ষর বা কীস্ট্রোক গোপনে রেকর্ড করে আক্রমণকারীর কাছে পাঠায়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Key loggers",
+    "hints": "মূল তথ্য: কীলগার (Keylogger) হলো এক ধরনের স্পাইওয়্যার (Spyware) যা ব্যবহারকারীর কীবোর্ডে টাইপ করা প্রতিটি অক্ষর বা কীস্ট্রোক গ...।"
+  },
+  {
+    "id": 14,
+    "question": "IPv4-এ নিচের কোনটি Google DNS Server এর IP Address?",
+    "options": [
+      "8.8.7.6",
+      "8.7.8.6",
+      "8.8.8.6",
+      "8.8.8.8"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "8.8.8.8",
+    "explanation": "গুগল পাবলিক ডিএনএস (Google Public DNS)-এর সবচেয়ে পরিচিত ও বহুল ব্যবহৃত প্রাথমিক IPv4 অ্যাড্রেস হলো 8.8.8.8।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "8.8.8.8",
+    "hints": "মূল তথ্য: গুগল পাবলিক ডিএনএস (Google Public DNS)-এর সবচেয়ে পরিচিত ও বহুল ব্যবহৃত প্রাথমিক IPv4 অ্যাড্রেস হলো 8।"
+  },
+  {
+    "id": 15,
+    "question": "(2FA)₁₆ এই হেক্সাডেসিমেল সংখ্যাটিকে অক্টালে রূপান্তর করুন:",
+    "options": [
+      "(762)",
+      "(1372)",
+      "(228)",
+      "(1482)"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "(1372)",
+    "explanation": "(2FA)₁₆-কে বাইনারিতে নিলে: 2 = 0010, F = 1111, A = 1010। একত্রে: 001 011 111 010₂। প্রতি ৩ বিটকে অক্টালে নিলে: 001=1, 011=3, 111=7, 010=2, অর্থাৎ (1372)₈।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "(1372)",
+    "hints": "মূল তথ্য: (2FA)₁₆-কে বাইনারিতে নিলে: 2 = 0010, F = 1111, A = 1010।"
+  },
+  {
+    "id": 16,
+    "question": "অ্যামাজন এর ক্লাউড প্ল্যাটফর্ম কোনটি?",
+    "options": [
+      "Azure",
+      "AWS",
+      "Cloudera",
+      "উপরের সবগুলো"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "AWS",
+    "explanation": "অ্যামাজনের ক্লাউড কম্পিউটিং প্ল্যাটফর্মটির নাম AWS (Amazon Web Services)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "AWS",
+    "hints": "মূল তথ্য: অ্যামাজনের ক্লাউড কম্পিউটিং প্ল্যাটফর্মটির নাম AWS (Amazon Web Services)।"
+  },
+  {
+    "id": 17,
+    "question": "নিচের কোন সাইবার আক্রমণ সংঘটিত হলে গ্রাহক নিজ Computer system ব্যবহার করতে পারেন না এবং Computer System কে ব্যবহার উপযোগী করতে অর্থ দাবি করা হয়?",
+    "options": [
+      "Phishing",
+      "Denial of Service",
+      "Ransomware",
+      "Man-in-the Middle"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Ransomware",
+    "explanation": "র‍্যানসমওয়্যার (Ransomware) এক ধরনের ক্ষতিকর ম্যালওয়্যার যা ভুক্তভোগীর সমস্ত ফাইল এনক্রিপ্ট করে কম্পিউটার অচল করে দেয় এবং ফাইল ফিরে পেতে মুক্তিপণ দাবি করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Ransomware",
+    "hints": "মূল তথ্য: র‍্যানসমওয়্যার (Ransomware) এক ধরনের ক্ষতিকর ম্যালওয়্যার যা ভুক্তভোগীর সমস্ত ফাইল এনক্রিপ্ট করে কম্পিউটার অচল করে দে...।"
+  },
+  {
+    "id": 18,
+    "question": "SCSI এর পূর্ণরূপ কী?",
+    "options": [
+      "Small Computer System Interface",
+      "Small Computer Software Interface",
+      "Small Computer Storage Interface",
+      "Small Computer Standard Interface"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Small Computer System Interface",
+    "explanation": "SCSI-এর পূর্ণরূপ হলো Small Computer System Interface, যা কম্পিউটার ও পেরিফেরাল ডিভাইসের মধ্যে দ্রুত ডেটা স্থানান্তরের একটি প্রমিত ইন্টারফেস।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Small Computer System Interface",
+    "hints": "মূল তথ্য: SCSI-এর পূর্ণরূপ হলো Small Computer System Interface, যা কম্পিউটার ও পেরিফেরাল ডিভাইসের মধ্যে দ্রুত ডেটা স্থানান্তরের...।"
+  },
+  {
+    "id": 19,
+    "question": "নিচের কোন ডিভাইসটি ইনপুট ও আউটপুট ডিভাইস হিসেবে কাজ করে?",
+    "options": [
+      "Scanner",
+      "Mouse",
+      "Touch Screen",
+      "Projector"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Touch Screen",
+    "explanation": "টাচ স্ক্রিন (Touch Screen) ব্যবহারকারীর আঙুলের স্পর্শ ইনপুট হিসেবে গ্রহণ করে এবং স্ক্রিনে ফলাফল আউটপুট হিসেবে প্রদর্শন করে, তাই এটি ইনপুট ও আউটপুট উভয় ডিভাইস।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Touch Screen",
+    "hints": "মূল তথ্য: টাচ স্ক্রিন (Touch Screen) ব্যবহারকারীর আঙুলের স্পর্শ ইনপুট হিসেবে গ্রহণ করে এবং স্ক্রিনে ফলাফল আউটপুট হিসেবে প্রদর্শ...।"
+  },
+  {
+    "id": 20,
+    "question": "নিচের কোন Octal সংখ্যাটি Decimal সংখ্যা ৫৫ এর সমতুল্য?",
+    "options": [
+      "৫৫",
+      "৭৭",
+      "৬৭",
+      "৮৭"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "৬৭",
+    "explanation": "৫৫ কে ৮ দিয়ে ভাগ করলে: ৫৫ ÷ ৮ = ৬ (ভাগশেষ ৭); ৬ ÷ ৮ = ০ (ভাগশেষ ৬)। নিচ থেকে উপরে সাজালে অক্টাল মান পাওয়া যায় ৬৭ (67₈)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "৬৭",
+    "hints": "মূল তথ্য: ৫৫ কে ৮ দিয়ে ভাগ করলে: ৫৫ ÷ ৮ = ৬ (ভাগশেষ ৭); ৬ ÷ ৮ = ০ (ভাগশেষ ৬)।"
+  },
+  {
+    "id": 21,
+    "question": "নিচের কোনটি System software নয়?",
+    "options": [
+      "Linux",
+      "Android",
+      "Mozilla Firefox",
+      "Apple iOS"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Mozilla Firefox",
+    "explanation": "Mozilla Firefox হলো একটি অ্যাপ্লিকেশন সফটওয়্যার (ওয়েব ব্রাউজার); অপরদিকে লিনাক্স, অ্যান্ড্রয়েড ও আইওএস হলো সিস্টেম সফটওয়্যার (OS)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Mozilla Firefox",
+    "hints": "মূল তথ্য: Mozilla Firefox হলো একটি অ্যাপ্লিকেশন সফটওয়্যার (ওয়েব ব্রাউজার); অপরদিকে লিনাক্স, অ্যান্ড্রয়েড ও আইওএস হলো সিস্টেম ...।"
+  },
+  {
+    "id": 22,
+    "question": "নিচের কোন protocol টি ইন্টারনেটে তথ্য আদান প্রদানে নিরাপত্তা নিশ্চিত করে থাকে?",
+    "options": [
+      "FTP",
+      "HTTPS",
+      "TCP",
+      "DNS"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "HTTPS",
+    "explanation": "HTTPS (Hypertext Transfer Protocol Secure) এনক্রিপশনের জন্য SSL/TLS ব্যবহার করে ইন্টারনেটে তথ্যের গোপনীয়তা ও নিরাপত্তা নিশ্চিত করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "HTTPS",
+    "hints": "মূল তথ্য: HTTPS (Hypertext Transfer Protocol Secure) এনক্রিপশনের জন্য SSL/TLS ব্যবহার করে ইন্টারনেটে তথ্যের গোপনীয়তা ও নিরাপত্...।"
+  },
+  {
+    "id": 23,
+    "question": "Piconet কী?",
+    "options": [
+      "Wifi Network",
+      "Wide Area Network",
+      "Bluetooth Network",
+      "5G Network"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Bluetooth Network",
+    "explanation": "পিকোনেট (Piconet) হলো ব্লুটুথ প্রযুক্তির মাধ্যমে গঠিত একটি অ্যাড-হক ওয়্যারলেস নেটওয়ার্ক, যাতে একটি মাস্টার ও সর্বোচ্চ ৭টি অ্যাক্টিভ স্লেভ ডিভাইস যুক্ত থাকতে পারে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Bluetooth Network",
+    "hints": "মূল তথ্য: পিকোনেট (Piconet) হলো ব্লুটুথ প্রযুক্তির মাধ্যমে গঠিত একটি অ্যাড-হক ওয়্যারলেস নেটওয়ার্ক, যাতে একটি মাস্টার ও সর্বোচ...।"
+  },
+  {
+    "id": 24,
+    "question": "এক মেশিন থেকে অন্য মেশিনে ইমেইল মেসেজ স্থানান্তর করতে কোন TCP/IP প্রোটোকল ব্যবহার হয়?",
+    "options": [
+      "FTP",
+      "RPC",
+      "SNMP",
+      "SMTP"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "SMTP",
+    "explanation": "SMTP (Simple Mail Transfer Protocol) ইন্টারনেটে এক কম্পিউটার বা সার্ভার থেকে অন্য সার্ভারে ইমেইল মেসেজ পাঠানোর জন্য ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "SMTP",
+    "hints": "মূল তথ্য: SMTP (Simple Mail Transfer Protocol) ইন্টারনেটে এক কম্পিউটার বা সার্ভার থেকে অন্য সার্ভারে ইমেইল মেসেজ পাঠানোর জন্য ব...।"
+  },
+  {
+    "id": 25,
+    "question": "যে কম্পিউটার প্রোগ্রাম নিজে নিজেই অন্য কম্পিউটারে ইন্টারনেটের মাধ্যমে কপি করা হয় তাকে ........বলে।",
+    "options": [
+      "Program Virus",
+      "Worms",
+      "Trojan Horse",
+      "Boot Virus"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Worms",
+    "explanation": "কম্পিউটার ওয়ার্ম (Worm) হলো এমন ক্ষতিকর প্রোগ্রাম যা কোনো ব্যবহারকারীর বা হোস্ট প্রোগ্রামের সহায়তা ছাড়াই ইন্টারনেটের মাধ্যমে নিজে নিজেই অন্য কম্পিউটারে বিস্তার লাভ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Worms",
+    "hints": "মূল তথ্য: কম্পিউটার ওয়ার্ম (Worm) হলো এমন ক্ষতিকর প্রোগ্রাম যা কোনো ব্যবহারকারীর বা হোস্ট প্রোগ্রামের সহায়তা ছাড়াই ইন্টারনেট...।"
+  },
+  {
+    "id": 26,
+    "question": "নিচের কোন প্রতিষ্ঠানটি 4G Standard প্রস্তুতকরণে সম্পৃক্ত?",
+    "options": [
+      "ISO",
+      "ITU",
+      "3GPP",
+      "ETSI"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "3GPP",
+    "explanation": "3GPP (3rd Generation Partnership Project) বৈশ্বিক মোবাইল যোগাযোগ প্রযুক্তি যেমন 3G, 4G LTE এবং 5G-এর মান ও স্পেসিফিকেশন প্রণয়ন করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "3GPP",
+    "hints": "মূল তথ্য: 3GPP (3rd Generation Partnership Project) বৈশ্বিক মোবাইল যোগাযোগ প্রযুক্তি যেমন 3G, 4G LTE এবং 5G-এর মান ও স্পেসিফিকে...।"
+  },
+  {
+    "id": 27,
+    "question": "নিচের কোনটি Open Source Software?",
+    "options": [
+      "Google Chrome",
+      "Microsoft Windows",
+      "Zoom",
+      "Adobe Photoshop"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Google Chrome",
+    "explanation": "Google Chrome ব্রাউজারটি ওপেন সোর্স Chromium প্রকল্পের ওপর ভিত্তি করে নির্মিত।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Google Chrome",
+    "hints": "মূল তথ্য: Google Chrome ব্রাউজারটি ওপেন সোর্স Chromium প্রকল্পের ওপর ভিত্তি করে নির্মিত।"
+  },
+  {
+    "id": 28,
+    "question": "নিচের কোনটি Structured Query Language নয়?",
+    "options": [
+      "Java",
+      "MySQL",
+      "Oracle",
+      "উপরের সবগুলো"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Java",
+    "explanation": "জাভা (Java) হলো একটি অবজেক্ট ওরিয়েন্টেড সাধারণ প্রোগ্রামিং ভাষা; MySQL ও Oracle হলো ডেটাবেস পরিচালনার জন্য SQL সমর্থিত RDBMS।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Java",
+    "hints": "মূল তথ্য: জাভা (Java) হলো একটি অবজেক্ট ওরিয়েন্টেড সাধারণ প্রোগ্রামিং ভাষা; MySQL ও Oracle হলো ডেটাবেস পরিচালনার জন্য SQL সমর্থ...।"
+  },
+  {
+    "id": 29,
+    "question": "ইন্টারনেট যোগাযোগ ব্যবস্থায় Hostname- কে IP Address-এ অনুবাদ করে-",
+    "options": [
+      "FTP",
+      "Firewall",
+      "DNS Server",
+      "Gateway"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "DNS Server",
+    "explanation": "DNS (Domain Name System) সার্ভার মানুষের পাঠযোগ্য ডোমেইন নাম বা হোস্টনেমকে (যেমন www.google.com) কম্পিউটারের উপযোগী আইপি ঠিকানায় অনুবাদ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "DNS Server",
+    "hints": "মূল তথ্য: DNS (Domain Name System) সার্ভার মানুষের পাঠযোগ্য ডোমেইন নাম বা হোস্টনেমকে (যেমন www।"
+  },
+  {
+    "id": 30,
+    "question": "নিচের কোন মডেলটি Cloud Computing সেবা প্রদানকারীগণ ব্যবহার করে না?",
+    "options": [
+      "CaaS",
+      "IaaS",
+      "PaaS",
+      "SaaS"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "CaaS",
+    "explanation": "ক্লাউড কম্পিউটিংয়ের তিনটি প্রমিত সার্ভিস মডেল হলো IaaS, PaaS এবং SaaS। CaaS (Communications/Containers as a Service) প্রমিত প্রধান তিনটি মডেলের অন্তর্গত নয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "CaaS",
+    "hints": "মূল তথ্য: ক্লাউড কম্পিউটিংয়ের তিনটি প্রমিত সার্ভিস মডেল হলো IaaS, PaaS এবং SaaS।"
+  },
+  {
+    "id": 31,
+    "question": "নিচের কোনটি anti- virus সফটওয়্যার নয়?",
+    "options": [
+      "Oracle",
+      "McAfee",
+      "Norton",
+      "Kaspersky"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Oracle",
+    "explanation": "Oracle হলো একটি বিশ্বখ্যাত Relational Database Management System (RDBMS) সফটওয়্যার; এটি অ্যান্টিভাইরাস নয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Oracle",
+    "hints": "মূল তথ্য: Oracle হলো একটি বিশ্বখ্যাত Relational Database Management System (RDBMS) সফটওয়্যার; এটি অ্যান্টিভাইরাস নয়।"
+  },
+  {
+    "id": 32,
+    "question": "RFID বলতে বোঝায়-",
+    "options": [
+      "Random Frequency Identification",
+      "Random Frequency Information",
+      "Radio Frequency Information",
+      "Radio Frequency Identification"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Radio Frequency Identification",
+    "explanation": "RFID-এর পূর্ণরূপ হলো Radio Frequency Identification, যা রেডিও তরঙ্গের মাধ্যমে বস্তুর সাথে যুক্ত ট্যাগ শনাক্ত করতে ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Radio Frequency Identification",
+    "hints": "মূল তথ্য: RFID-এর পূর্ণরূপ হলো Radio Frequency Identification, যা রেডিও তরঙ্গের মাধ্যমে বস্তুর সাথে যুক্ত ট্যাগ শনাক্ত করতে ব্য...।"
+  },
+  {
+    "id": 33,
+    "question": "কোন চিহ্নটি ই মেইল ঠিকানায় অবশ্যই থাকবে?",
+    "options": [
+      "$",
+      "#",
+      "&",
+      "@"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "@",
+    "explanation": "প্রতিটি বৈধ ইমেইল ঠিকানায় ব্যবহারকারীর নাম এবং ডোমেইন নামকে আলাদা করতে অবশ্যই '@' (At sign) চিহ্নটি থাকতে হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "@",
+    "hints": "মূল তথ্য: প্রতিটি বৈধ ইমেইল ঠিকানায় ব্যবহারকারীর নাম এবং ডোমেইন নামকে আলাদা করতে অবশ্যই '@' (At sign) চিহ্নটি থাকতে হয়।"
+  },
+  {
+    "id": 34,
+    "question": "১০১১১০ বাইনারি নাম্বারের সমতুল্য ডেসিমাল নাম্বার কোনটি?",
+    "options": [
+      "৪৬",
+      "১৬",
+      "২৪",
+      "৫৪"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "৪৬",
+    "explanation": "১০১base2 = (1×32) + (0×16) + (1×8) + (1×4) + (1×2) + (0×1) = 32 + 8 + 4 + 2 = 46।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "৪৬",
+    "hints": "মূল তথ্য: ১০১base2 = (1×32) + (0×16) + (1×8) + (1×4) + (1×2) + (0×1) = 32 + 8 + 4 + 2 = 46।"
+  },
+  {
+    "id": 35,
+    "question": "DNS সার্ভারের কাজ হচ্ছে Domain name কে IP address এ পরিবর্তন করা-",
+    "options": [
+      "Email, DNS কে IP address এ পরিবর্তন করা-",
+      "MAC Address, IP",
+      "Domain name, IP",
+      "Email, IP"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Domain name, IP",
+    "explanation": "DNS সার্ভারের প্রধান দায়িত্ব হলো ব্যবহারকারীর টাইপ করা Domain Name-কে সংশ্লিষ্ট IP Address-এ রূপান্তর বা রেজল্ভ করা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Domain name, IP",
+    "hints": "মূল তথ্য: DNS সার্ভারের প্রধান দায়িত্ব হলো ব্যবহারকারীর টাইপ করা Domain Name-কে সংশ্লিষ্ট IP Address-এ রূপান্তর বা রেজল্ভ করা।"
+  },
+  {
+    "id": 36,
+    "question": "নিচের কোনটি output device নয়?",
+    "options": [
+      "Monitor",
+      "Microphone",
+      "printer",
+      "speaker"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Microphone",
+    "explanation": "মাইক্রোফোন (Microphone) শব্দের সংকেত ইনপুট হিসেবে কম্পিউটারে প্রবেশ করায়, তাই এটি একটি ইনপুট ডিভাইস; আউটপুট নয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Microphone",
+    "hints": "মূল তথ্য: মাইক্রোফোন (Microphone) শব্দের সংকেত ইনপুট হিসেবে কম্পিউটারে প্রবেশ করায়, তাই এটি একটি ইনপুট ডিভাইস; আউটপুট নয়।"
+  },
+  {
+    "id": 37,
+    "question": "নিচের কোনটি একটি প্রতিষ্ঠানের ওয়েব ঠিকানাকে নির্দেশ করে?",
+    "options": [
+      "http",
+      "www",
+      "URL",
+      "HTML"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "URL",
+    "explanation": "URL (Uniform Resource Locator) ইন্টারনেটে অবস্থিত যেকোনো নির্দিষ্ট ওয়েবপেজ বা রিসোর্সের সম্পূর্ণ ঠিকানা নির্দেশ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "URL",
+    "hints": "মূল তথ্য: URL (Uniform Resource Locator) ইন্টারনেটে অবস্থিত যেকোনো নির্দিষ্ট ওয়েবপেজ বা রিসোর্সের সম্পূর্ণ ঠিকানা নির্দেশ করে।"
+  },
+  {
+    "id": 38,
+    "question": "নিচের কোন প্রযুক্তি 'Pay as You Go' সার্ভিস মডেল অনুসরণ করে?",
+    "options": [
+      "Internet of things (IoT)",
+      "Cloud Computing",
+      "Client -Server Systems",
+      "Big Data Analytics"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Cloud Computing",
+    "explanation": "ক্লাউড কম্পিউটিং 'Pay as You Go' (ব্যবহৃত রিসোর্সের পরিমাণের ভিত্তিতে মূল্য পরিশোধ) ব্যবসায়িক মডেল অনুসরণ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Cloud Computing",
+    "hints": "মূল তথ্য: ক্লাউড কম্পিউটিং 'Pay as You Go' (ব্যবহৃত রিসোর্সের পরিমাণের ভিত্তিতে মূল্য পরিশোধ) ব্যবসায়িক মডেল অনুসরণ করে।"
+  },
+  {
+    "id": 39,
+    "question": "যে সাইবার আক্রমণ সংঘটিত হলে গ্রাহকের বৈধ অনুরোধসমূহ কোন একটি Web server সম্পূর্ণ করতে ব্যর্থ হয় সেটি কী নামে পরিচিত?",
+    "options": [
+      "Phishing",
+      "Man-in-the Middle",
+      "Denial of Service",
+      "উপরের কোনটিই নয়"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Denial of Service",
+    "explanation": "Denial of Service (DoS) সাইবার আক্রমণে সার্ভারকে ভুয়া অনুরোধের বন্যায় ভাসিয়ে দিয়ে বৈধ ব্যবহারকারীদের জন্য সেবা বন্ধ বা অচল করে দেওয়া হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Denial of Service",
+    "hints": "মূল তথ্য: Denial of Service (DoS) সাইবার আক্রমণে সার্ভারকে ভুয়া অনুরোধের বন্যায় ভাসিয়ে দিয়ে বৈধ ব্যবহারকারীদের জন্য সেবা বন...।"
+  },
+  {
+    "id": 40,
+    "question": "নিচের Job Scheduling Policy সমূহের কোনটি Starvation থেকে মুক্ত?",
+    "options": [
+      "Priority Scheduling",
+      "Shortest Job First",
+      "Yungest Job First",
+      "Round -robin"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Round -robin",
+    "explanation": "রাউন্ড-রবিন (Round-robin) শিডিউলিংয়ে প্রতিটি প্রসেসকে সমান টাইম কোয়ান্টাম দেওয়া হয় এবং চক্রাকারে চালানো হয়, ফলে কোনো প্রসেসকে অনন্তকাল অভুক্ত (Starvation) থাকতে হয় না।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Round -robin",
+    "hints": "মূল তথ্য: রাউন্ড-রবিন (Round-robin) শিডিউলিংয়ে প্রতিটি প্রসেসকে সমান টাইম কোয়ান্টাম দেওয়া হয় এবং চক্রাকারে চালানো হয়, ফলে ...।"
+  },
+  {
+    "id": 41,
+    "question": "নিচের কোন প্রযুক্তি Face Recognition System এর সহায়ক ভূমিকা পালন করে?",
+    "options": [
+      "Applied Artificial Intelligence (AI)",
+      "Applied Internet of things (IoT)",
+      "Virtual Reality",
+      "উপরের কোনটিই নয়"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Applied Artificial Intelligence (AI)",
+    "explanation": "ফেস রিকগনিশন সিস্টেমে মানুষের মুখের বায়োমেট্রিক বৈশিষ্ট্য ও ইমেজ প্যাটার্ন শনাক্ত করতে ফলিত কৃত্রিম বুদ্ধিমত্তা (Applied AI) ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Applied Artificial Intelligence (AI)",
+    "hints": "মূল তথ্য: ফেস রিকগনিশন সিস্টেমে মানুষের মুখের বায়োমেট্রিক বৈশিষ্ট্য ও ইমেজ প্যাটার্ন শনাক্ত করতে ফলিত কৃত্রিম বুদ্ধিমত্তা (App...।"
+  },
+  {
+    "id": 42,
+    "question": "নিচের কোন মেমোরিটিতে Access Time সবচেয়ে কম?",
+    "options": [
+      "Registers",
+      "SSD",
+      "RAM",
+      "Cache Memory"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Registers",
+    "explanation": "সিপিইউ কোরের অভ্যন্তরে অবস্থিত রেজিস্টার (Registers)-এর অ্যাক্সেস টাইম সবচেয়ে কম (ন্যানোসেকেন্ডেরও কম) এবং এটি সবচেয়ে দ্রুতগতির মেমরি।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Registers",
+    "hints": "মূল তথ্য: সিপিইউ কোরের অভ্যন্তরে অবস্থিত রেজিস্টার (Registers)-এর অ্যাক্সেস টাইম সবচেয়ে কম (ন্যানোসেকেন্ডেরও কম) এবং এটি সবচেয...।"
+  },
+  {
+    "id": 43,
+    "question": "নিচের কোন ডিভাইসটি ডিজিটাল সিগন্যাল অ্যানালগ সিগন্যালে পরিবর্তনে ব্যবহৃত হয়?",
+    "options": [
+      "Router",
+      "Switch",
+      "Modem",
+      "HUB"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Modem",
+    "explanation": "মোডেম (Modem: Modulator-Demodulator) ডিজিটাল সিগন্যালকে অ্যানালগে (মডুলেশন) এবং অ্যানালগ সিগন্যালকে ডিজিটালে (ডিমডুলেশন) রূপান্তর করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Modem",
+    "hints": "মূল তথ্য: মোডেম (Modem: Modulator-Demodulator) ডিজিটাল সিগন্যালকে অ্যানালগে (মডুলেশন) এবং অ্যানালগ সিগন্যালকে ডিজিটালে (ডিমডুলে...।"
+  },
+  {
+    "id": 44,
+    "question": "Keyboard এবং CPU এর মধ্যে কোন পদ্ধতিতে data transmission হয়?",
+    "options": [
+      "Simplex",
+      "Duplex",
+      "Half Duplex",
+      "Triplex"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Simplex",
+    "explanation": "কীবোর্ড থেকে সিপিইউতে ডেটা সর্বদা একমুখীভাবে প্রবাহিত হয়; সিপিইউ থেকে কীবোর্ডে ডেটা পাঠানো যায় না, তাই এটি সিমপ্লেক্স (Simplex) মোড।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Simplex",
+    "hints": "মূল তথ্য: কীবোর্ড থেকে সিপিইউতে ডেটা সর্বদা একমুখীভাবে প্রবাহিত হয়; সিপিইউ থেকে কীবোর্ডে ডেটা পাঠানো যায় না, তাই এটি সিমপ্লেক...।"
+  },
+  {
+    "id": 45,
+    "question": "Blockchain এর প্রতিটি block কী তথ্য বহন করে?",
+    "options": [
+      "A hash pointer to the previous block",
+      "Timestamp",
+      "List of transactions",
+      "উপরের সবগুলো"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "উপরের সবগুলো",
+    "explanation": "ব্লকচেইনের প্রতিটি ব্লকে পূর্ববর্তী ব্লকের ক্রিপ্টোগ্রাফিক হ্যাশ পয়েন্টার, সঠিক টাইমস্ট্যাম্প এবং অনুমোদিত লেনদেনের তালিকা সংরক্ষিত থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "উপরের সবগুলো",
+    "hints": "মূল তথ্য: ব্লকচেইনের প্রতিটি ব্লকে পূর্ববর্তী ব্লকের ক্রিপ্টোগ্রাফিক হ্যাশ পয়েন্টার, সঠিক টাইমস্ট্যাম্প এবং অনুমোদিত লেনদেনের ...।"
+  },
+  {
+    "id": 46,
+    "question": "নিচের কোনটি Bluetooth এর IEEE standard?",
+    "options": [
+      "IEEE 802.15",
+      "IEEE 802.1",
+      "IEEE 802.3",
+      "IEEE 802.11"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "IEEE 802.15",
+    "explanation": "ব্লুটুথ ওয়্যারলেস পার্সোনাল এরিয়া নেটওয়ার্কের জন্য নির্ধারিত প্রমিত আন্তর্জাতিক স্ট্যান্ডার্ড হলো IEEE 802.15।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "IEEE 802.15",
+    "hints": "মূল তথ্য: ব্লুটুথ ওয়্যারলেস পার্সোনাল এরিয়া নেটওয়ার্কের জন্য নির্ধারিত প্রমিত আন্তর্জাতিক স্ট্যান্ডার্ড হলো IEEE 802।"
+  },
+  {
+    "id": 47,
+    "question": "নিচের কোনটি Multi-tasking operating system নয়?",
+    "options": [
+      "Windows",
+      "Linux",
+      "Windows NT",
+      "DOS"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "DOS",
+    "explanation": "MS-DOS একটি একক ব্যবহারকারী ও একক টাস্কিং (Single-user, Single-tasking) অপারেটিং সিস্টেম ছিল।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "DOS",
+    "hints": "মূল তথ্য: MS-DOS একটি একক ব্যবহারকারী ও একক টাস্কিং (Single-user, Single-tasking) অপারেটিং সিস্টেম ছিল।"
+  },
+  {
+    "id": 48,
+    "question": "নিচের কোনটি Open Source DBMS?",
+    "options": [
+      "MySQL",
+      "Microsoft SQL Server",
+      "Microsoft Access",
+      "Oracle"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "MySQL",
+    "explanation": "MySQL হলো একটি অত্যন্ত জনপ্রিয় ওপেন সোর্স রিলেশনাল ডেটাবেস ম্যানেজমেন্ট সিস্টেম (RDBMS)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "MySQL",
+    "hints": "মূল তথ্য: MySQL হলো একটি অত্যন্ত জনপ্রিয় ওপেন সোর্স রিলেশনাল ডেটাবেস ম্যানেজমেন্ট সিস্টেম (RDBMS)।"
+  },
+  {
+    "id": 49,
+    "question": "যে ইলেক্ট্রনিক লজিক গেইটের আউটপুট লজিক 1 শুধুমাত্র যখন সকল ইনপুট লজিক 1 তার নাম",
+    "options": [
+      "AND গেইট",
+      "OR গেইট",
+      "NAND গেইট",
+      "কোনটিই নয়"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "AND গেইট",
+    "explanation": "AND গেটের সত্যক সারণি অনুযায়ী সমস্ত ইনপুট 1 (High) হলেই কেবল আউটপুট 1 হয়; যেকোনো একটি ইনপুট 0 হলে আউটপুট 0 হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "AND গেইট",
+    "hints": "মূল তথ্য: AND গেটের সত্যক সারণি অনুযায়ী সমস্ত ইনপুট 1 (High) হলেই কেবল আউটপুট 1 হয়; যেকোনো একটি ইনপুট 0 হলে আউটপুট 0 হয়।"
+  },
+  {
+    "id": 50,
+    "question": "নিচের কোনটির যোগাযোগের দূরত্ব সবচেয়ে কম?",
+    "options": [
+      "Wi-Fi",
+      "Cellular network",
+      "Wi-Max",
+      "Bluetooth"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Bluetooth",
+    "explanation": "ব্লুটুথ সাধারণত ১০ থেকে ১০০ মিটারের মধ্যে কাজ করে, যা সেলুলার নেটওয়ার্ক, ওয়াই-ফাই বা ওয়াইম্যাক্স-এর তুলনায় সবচেয়ে কম দূরত্বের।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Bluetooth",
+    "hints": "মূল তথ্য: ব্লুটুথ সাধারণত ১০ থেকে ১০০ মিটারের মধ্যে কাজ করে, যা সেলুলার নেটওয়ার্ক, ওয়াই-ফাই বা ওয়াইম্যাক্স-এর তুলনায় সবচেয়...।"
+  },
+  {
+    "id": 51,
+    "question": "নিচের কোনটি ১০০ এর ১ কমপ্লিমেন্ট?",
+    "options": [
+      "111",
+      "101",
+      "011",
+      "001"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "011",
+    "explanation": "১০০ বাইনারি সংখ্যার ১-এর পরিপূরক (1's complement) হলো প্রতিটি বিটকে উল্টে দেওয়া, অর্থাৎ ১ এর স্থলে ০ এবং ০ এর স্থলে ১ বসালে পাওয়া যায় ০১১ (011)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "011",
+    "hints": "মূল তথ্য: ১০০ বাইনারি সংখ্যার ১-এর পরিপূরক (1's complement) হলো প্রতিটি বিটকে উল্টে দেওয়া, অর্থাৎ ১ এর স্থলে ০ এবং ০ এর স্থলে ১...।"
+  },
+  {
+    "id": 52,
+    "question": "RFID বলতে বুঝায়-",
+    "options": [
+      "Random Frequency Identification",
+      "Random Frequency Information",
+      "Radio Frequency Information",
+      "Radio Frequency Identification"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Radio Frequency Identification",
+    "explanation": "RFID-এর পূর্ণরূপ Radio Frequency Identification।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Radio Frequency Identification",
+    "hints": "মূল তথ্য: RFID-এর পূর্ণরূপ Radio Frequency Identification।"
+  },
+  {
+    "id": 53,
+    "question": "Apache এক ধরনের",
+    "options": [
+      "Database Management System (DBMS)",
+      "Web Server",
+      "Web Browser",
+      "Protocol"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Web Server",
+    "explanation": "Apache HTTP Server হলো বিশ্বের অন্যতম বহুল ব্যবহৃত একটি মুক্ত ও ওপেন সোর্স ওয়েব সার্ভার সফটওয়্যার।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Web Server",
+    "hints": "মূল তথ্য: Apache HTTP Server হলো বিশ্বের অন্যতম বহুল ব্যবহৃত একটি মুক্ত ও ওপেন সোর্স ওয়েব সার্ভার সফটওয়্যার।"
+  },
+  {
+    "id": 54,
+    "question": "নিচের কোনটি সঠিক নয়?",
+    "options": [
+      "\\overline{A+B} = \\bar{A} + \\bar{B}",
+      "\\overline{AB} = \\bar{A} + \\bar{B}",
+      "\\overline{A+B} = \\bar{A} \\cdot \\bar{B}",
+      "\\overline{AB} = \\bar{A} \\cdot \\bar{B}"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "\\overline{AB} = \\bar{A} + \\bar{B}",
+    "explanation": "দ্য মরগ্যানের প্রথম উপপাদ্য অনুসারে (A+B)' = A'·B'। কিন্তু অপশন খ)-তে দেওয়া আছে (AB)' = A'+B', যা সঠিক ডিমরগ্যান সূত্র; ফলে অন্য ভুল রূপটি চিহ্নিত করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "\\overline{AB} = \\bar{A} + \\bar{B}",
+    "hints": "মূল তথ্য: দ্য মরগ্যানের প্রথম উপপাদ্য অনুসারে (A+B)' = A'·B'।"
+  },
+  {
+    "id": 55,
+    "question": "ক্লাউড কম্পিউটিং এর সার্ভিস মডেল কোনটি?",
+    "options": [
+      "অবকাঠামোগত",
+      "প্ল্যাটফর্মভিত্তিক",
+      "সফটওয়্যার",
+      "সবগুলো"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "সবগুলো",
+    "explanation": "ক্লাউড কম্পিউটিংয়ের প্রধান তিনটি সেবা মডেল হলো অবকাঠামোগত (IaaS), প্ল্যাটফর্মভিত্তিক (PaaS) এবং সফটওয়্যারভিত্তিক (SaaS)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "সবগুলো",
+    "hints": "মূল তথ্য: ক্লাউড কম্পিউটিংয়ের প্রধান তিনটি সেবা মডেল হলো অবকাঠামোগত (IaaS), প্ল্যাটফর্মভিত্তিক (PaaS) এবং সফটওয়্যারভিত্তিক (SaaS)।"
+  },
+  {
+    "id": 56,
+    "question": "কোন নেটওয়ার্ক টপোলজিতে হাব (hub) ব্যবহার করা হয়?",
+    "options": [
+      "বাস টপোলজি",
+      "রিং টপোলজি",
+      "স্টার টপোলজি",
+      "ট্রি টপোলজি"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "স্টার টপোলজি",
+    "explanation": "স্টার টপোলজিতে সমস্ত ওয়ার্কস্টেশন একটি কেন্দ্রীয় হাব (Hub) বা সুইচের সাথে সরাসরি ক্যাবলের মাধ্যমে সংযুক্ত থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "স্টার টপোলজি",
+    "hints": "মূল তথ্য: স্টার টপোলজিতে সমস্ত ওয়ার্কস্টেশন একটি কেন্দ্রীয় হাব (Hub) বা সুইচের সাথে সরাসরি ক্যাবলের মাধ্যমে সংযুক্ত থাকে।"
+  },
+  {
+    "id": 57,
+    "question": "একটি কম্পিউটার Boot করতে পারে না যদি তাতে না থাকে-",
+    "options": [
+      "compiler",
+      "loader",
+      "operating system",
+      "bootstrap"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "operating system",
+    "explanation": "অপারেটিং সিস্টেম (OS) ছাড়া কম্পিউটার বুট বা সচল হতে পারে না, কারণ ওএস-ই সিস্টেমের হার্ডওয়্যার রিসোর্স ইনিশিয়ালাইজ ও নিয়ন্ত্রণ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "operating system",
+    "hints": "মূল তথ্য: অপারেটিং সিস্টেম (OS) ছাড়া কম্পিউটার বুট বা সচল হতে পারে না, কারণ ওএস-ই সিস্টেমের হার্ডওয়্যার রিসোর্স ইনিশিয়ালাইজ ...।"
+  },
+  {
+    "id": 58,
+    "question": "নিচের কোনটি Anti-virus সফটওয়্যার নয়?",
+    "options": [
+      "Oracle",
+      "McAfee",
+      "Norton",
+      "Kaspersky"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Oracle",
+    "explanation": "Oracle একটি এন্টারপ্রাইজ ডেটাবেস ম্যানেজমেন্ট সিস্টেম; এটি অ্যান্টিভাইরাস সফটওয়্যার নয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Oracle",
+    "hints": "মূল তথ্য: Oracle একটি এন্টারপ্রাইজ ডেটাবেস ম্যানেজমেন্ট সিস্টেম; এটি অ্যান্টিভাইরাস সফটওয়্যার নয়।"
+  },
+  {
+    "id": 59,
+    "question": "যে কম্পিউটার ভাষায় সবকিছু শুধুমাত্র বাইনারি কোডে লেখা হয় তাকে বলে-",
+    "options": [
+      "Machine language",
+      "C",
+      "Java",
+      "Python"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Machine language",
+    "explanation": "মেশিন ল্যাঙ্গুয়েজ (Machine Language) হলো কম্পিউটারের নিজস্ব ভাষা যাতে নির্দেশাবলি সরাসরি বাইনারি বিট (০ ও ১)-এ লেখা থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Machine language",
+    "hints": "মূল তথ্য: মেশিন ল্যাঙ্গুয়েজ (Machine Language) হলো কম্পিউটারের নিজস্ব ভাষা যাতে নির্দেশাবলি সরাসরি বাইনারি বিট (০ ও ১)-এ লেখা ...।"
+  },
+  {
+    "id": 60,
+    "question": "API মানে-",
+    "options": [
+      "Advanced Processing Information",
+      "Application Processing Information",
+      "Application Programming Interface",
+      "Application Processing Interface"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Application Programming Interface",
+    "explanation": "API-এর পূর্ণরূপ হলো Application Programming Interface, যা দুটি ভিন্ন সফটওয়্যার বা অ্যাপ্লিকেশনের মধ্যে পারস্পরিক যোগাযোগের সেতু হিসেবে কাজ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Application Programming Interface",
+    "hints": "মূল তথ্য: API-এর পূর্ণরূপ হলো Application Programming Interface, যা দুটি ভিন্ন সফটওয়্যার বা অ্যাপ্লিকেশনের মধ্যে পারস্পরিক যোগ...।"
+  },
+  {
+    "id": 61,
+    "question": "মাইক্রোসফট IIS হচ্ছে একটি-",
+    "options": [
+      "ইমেইল সার্ভার",
+      "ওয়েব সার্ভার",
+      "ডাটাবেইস সার্ভার",
+      "ফাইল সার্ভার"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "ওয়েব সার্ভার",
+    "explanation": "IIS (Internet Information Services) হলো মাইক্রোসফট কর্পোরেশন কর্তৃক উইন্ডোজ সার্ভারের জন্য তৈরি প্রমিত ওয়েব সার্ভার।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ওয়েব সার্ভার",
+    "hints": "মূল তথ্য: IIS (Internet Information Services) হলো মাইক্রোসফট কর্পোরেশন কর্তৃক উইন্ডোজ সার্ভারের জন্য তৈরি প্রমিত ওয়েব সার্ভার।"
+  },
+  {
+    "id": 62,
+    "question": "ব্লুটুথ কত দূরত্ব পর্যন্ত কাজ করে?",
+    "options": [
+      "১০-৩০ মিটার",
+      "১০-৫০ মিটার",
+      "১০-১০০ মিটার",
+      "১০-৩০০ মিটার"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "১০-১০০ মিটার",
+    "explanation": "ক্লাস-১ ব্লুটুথ ডিভাইসের যোগাযোগের রেঞ্জ সাধারণত ১০০ মিটার পর্যন্ত হতে পারে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "১০-১০০ মিটার",
+    "hints": "মূল তথ্য: ক্লাস-১ ব্লুটুথ ডিভাইসের যোগাযোগের রেঞ্জ সাধারণত ১০০ মিটার পর্যন্ত হতে পারে।"
+  },
+  {
+    "id": 63,
+    "question": "একটি সিস্টেম যেখানে আইটেমগুলো এক প্রান্তে সংযোজিত হয় কিন্তু অন্য প্রান্ত থেকে সরানো হয় তার নাম-",
+    "options": [
+      "Array",
+      "Linked list",
+      "Stack",
+      "Queue"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Queue",
+    "explanation": "কিউ (Queue) ডেটা স্ট্রাকচারে এক প্রান্ত (Rear) দিয়ে নতুন উপাদান যুক্ত হয় এবং অন্য প্রান্ত (Front) থেকে উপাদান সরানো হয় (FIFO নীতি)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Queue",
+    "hints": "মূল তথ্য: কিউ (Queue) ডেটা স্ট্রাকচারে এক প্রান্ত (Rear) দিয়ে নতুন উপাদান যুক্ত হয় এবং অন্য প্রান্ত (Front) থেকে উপাদান সরানো...।"
+  },
+  {
+    "id": 64,
+    "question": "H. 323 Protocol সাধারণত কি কাজে ব্যবহৃত হয়?",
+    "options": [
+      "File transfer",
+      "VoIP",
+      "Data Security",
+      "File download"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "VoIP",
+    "explanation": "H.323 হলো আইটিইউ (ITU) কর্তৃক প্রণীত একটি প্রোটোকল স্যুট যা মূলত আইপি নেটওয়ার্কে অডিও-ভিজুয়াল ও ভিওআইপি (VoIP) যোগাযোগের জন্য ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "VoIP",
+    "hints": "গুরুত্বপূর্ণ টপিক: মনোযোগ সহকারে সঠিক উত্তর ও ব্যাখ্যাটি মনে রাখুন।"
+  },
+  {
+    "id": 65,
+    "question": "মুদ্রিত লেখা সরাসরি ইনপুট নেয়ার জন্য নীচের কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "OMR",
+      "OCR",
+      "MICR",
+      "Scanner"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "OCR",
+    "explanation": "OCR (Optical Character Recognition) কাগজের মুদ্রিত বা হাতে লেখা টেক্সটকে অপটিক্যাল পদ্ধতিতে স্ক্যান করে ডিজিটাল টেক্সটে রূপান্তর করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "OCR",
+    "hints": "মূল তথ্য: OCR (Optical Character Recognition) কাগজের মুদ্রিত বা হাতে লেখা টেক্সটকে অপটিক্যাল পদ্ধতিতে স্ক্যান করে ডিজিটাল টেক্স...।"
+  },
+  {
+    "id": 66,
+    "question": "একটি রিলেশনাল ডাটাবেস মডেলে নীচের কোনটি দ্বারা Relation প্রকাশ করা হয়?",
+    "options": [
+      "Tuples",
+      "Attributes",
+      "Tables",
+      "Rows"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Tables",
+    "explanation": "রিলেশনাল ডেটাবেসে সম্পর্ক বা রিলেশন প্রকাশ করার জন্য দ্বি-মাত্রিক টেবিল (Tables) ব্যবহার করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Tables",
+    "hints": "মূল তথ্য: রিলেশনাল ডেটাবেসে সম্পর্ক বা রিলেশন প্রকাশ করার জন্য দ্বি-মাত্রিক টেবিল (Tables) ব্যবহার করা হয়।"
+  },
+  {
+    "id": 67,
+    "question": "Bluetooth কিসের উদাহরণ?",
+    "options": [
+      "Personal Area Network",
+      "Local Area Network",
+      "Virtual Private Network",
+      "কোনটি নয়"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Personal Area Network",
+    "explanation": "ব্লুটুথ স্বল্প দূরত্বের ব্যক্তিগত ডিভাইসের সংযোগ তৈরি করে, তাই এটি পার্সোনাল এরিয়া নেটওয়ার্ক (PAN)-এর উদাহরণ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Personal Area Network",
+    "hints": "মূল তথ্য: ব্লুটুথ স্বল্প দূরত্বের ব্যক্তিগত ডিভাইসের সংযোগ তৈরি করে, তাই এটি পার্সোনাল এরিয়া নেটওয়ার্ক (PAN)-এর উদাহরণ।"
+  },
+  {
+    "id": 68,
+    "question": "মোবাইল ফোনে কোন Mode এর যোগাযোগ হয়?",
+    "options": [
+      "Simplex",
+      "Half-duplex",
+      "Full -duplex",
+      "কোনটি নয়"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Full -duplex",
+    "explanation": "মোবাইল ফোনে উভয় প্রান্তের ব্যক্তি একই সাথে একই সময়ে কথা বলতে ও শুনতে পারেন, তাই এটি ফুল-ডুপ্লেক্স (Full-duplex) যোগাযোগের মাধ্যম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Full -duplex",
+    "hints": "মূল তথ্য: মোবাইল ফোনে উভয় প্রান্তের ব্যক্তি একই সাথে একই সময়ে কথা বলতে ও শুনতে পারেন, তাই এটি ফুল-ডুপ্লেক্স (Full-duplex) যোগ...।"
+  },
+  {
+    "id": 69,
+    "question": "Firewall কি protection দেয়ার জন্য ব্যবহৃত হয়?",
+    "options": [
+      "Fire attacks",
+      "Unauthorized access",
+      "Virus attacks",
+      "Data driven attack"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Unauthorized access",
+    "explanation": "ফায়ারওয়াল (Firewall) বহিরাগত ইন্টারনেট থেকে অভ্যন্তরীণ নেটওয়ার্কে অননুমোদিত অ্যাক্সেস বা অনুপ্রবেশ (Unauthorized access) প্রতিরোধে ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Unauthorized access",
+    "hints": "মূল তথ্য: ফায়ারওয়াল (Firewall) বহিরাগত ইন্টারনেট থেকে অভ্যন্তরীণ নেটওয়ার্কে অননুমোদিত অ্যাক্সেস বা অনুপ্রবেশ (Unauthorized a...।"
+  },
+  {
+    "id": 70,
+    "question": "TV remote এর Carrier frequency -র range কত?",
+    "options": [
+      "100 MHZ",
+      "1 GHZ",
+      "2 GHZ",
+      "Infra-red range এর"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Infra-red range এর",
+    "explanation": "টেলিভিশন রিমোট কন্ট্রোলারে সিগন্যাল প্রেরণের জন্য সাধারণত ইনফ্রা-রেড (Infrared) তরঙ্গের রেঞ্জ ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Infra-red range এর",
+    "hints": "মূল তথ্য: টেলিভিশন রিমোট কন্ট্রোলারে সিগন্যাল প্রেরণের জন্য সাধারণত ইনফ্রা-রেড (Infrared) তরঙ্গের রেঞ্জ ব্যবহৃত হয়।"
+  },
+  {
+    "id": 71,
+    "question": "নীচের কোনটি Octal number নয়?",
+    "options": [
+      "19",
+      "77",
+      "15",
+      "101"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "19",
+    "explanation": "অক্টাল সংখ্যা পদ্ধতিতে ০ থেকে ৭ পর্যন্ত মোট ৮টি প্রতীক থাকে; এতে ৯ কোনো বৈধ অঙ্ক নয়, তাই ১৯ অক্টাল সংখ্যা হতে পারে না।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "19",
+    "hints": "মূল তথ্য: অক্টাল সংখ্যা পদ্ধতিতে ০ থেকে ৭ পর্যন্ত মোট ৮টি প্রতীক থাকে; এতে ৯ কোনো বৈধ অঙ্ক নয়, তাই ১৯ অক্টাল সংখ্যা হতে পারে না।"
+  },
+  {
+    "id": 72,
+    "question": "Time-shared OS- এর জন্য কোন scheduling policy সবচেয়ে ভাল?",
+    "options": [
+      "First come first serve",
+      "Round-robin",
+      "Shortest job first",
+      "Last come first serve"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Round-robin",
+    "explanation": "টাইম-শেয়ারিং অপারেটিং সিস্টেমে প্রতিটি প্রসেসকে নির্দিষ্ট সময় ভাগ করে চালানোর জন্য রাউন্ড-রবিন (Round-robin) শিডিউলিং সবচেয়ে কার্যকরী।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Round-robin",
+    "hints": "মূল তথ্য: টাইম-শেয়ারিং অপারেটিং সিস্টেমে প্রতিটি প্রসেসকে নির্দিষ্ট সময় ভাগ করে চালানোর জন্য রাউন্ড-রবিন (Round-robin) শিডিউল...।"
+  },
+  {
+    "id": 73,
+    "question": "নীচের কোনটি ৫২₍₁₆₎ এর বাইনারী রূপ?",
+    "options": [
+      "0101 0010₍₂₎",
+      "0111 0011₍₂₎",
+      "0000 1100₍₂₎",
+      "1111 0000₍₂₎"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "0101 0010₍₂₎",
+    "explanation": "হেক্সাডেসিমেল ৫২ কে বাইনারিতে নিলে: ৫ = 0101 এবং ২ = 0010; একত্রে 0101 0010₂।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "0101 0010₍₂₎",
+    "hints": "মূল তথ্য: হেক্সাডেসিমেল ৫২ কে বাইনারিতে নিলে: ৫ = 0101 এবং ২ = 0010; একত্রে 0101 0010₂।"
+  },
+  {
+    "id": 74,
+    "question": "প্রথম Web browser কোনটি?",
+    "options": [
+      "Netscape Navigator",
+      "World Wide Web",
+      "Internet Explorer",
+      "Safari"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "World Wide Web",
+    "explanation": "টিম বার্নার্স-লি ১৯৯০ সালে বিশ্বের সর্বপ্রথম ওয়েব ব্রাউজার তৈরি করেন যার নাম ছিল WorldWideWeb (পরবর্তীতে Nexus নাম দেওয়া হয়)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "World Wide Web",
+    "hints": "মূল তথ্য: টিম বার্নার্স-লি ১৯৯০ সালে বিশ্বের সর্বপ্রথম ওয়েব ব্রাউজার তৈরি করেন যার নাম ছিল WorldWideWeb (পরবর্তীতে Nexus নাম দ...।"
+  },
+  {
+    "id": 75,
+    "question": "Social Networking Site এ যোগাযোগে কোন media ব্যবহৃত হয়?",
+    "options": [
+      "image/video",
+      "Audio",
+      "Text",
+      "উপরের সবগুলো"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "উপরের সবগুলো",
+    "explanation": "সামাজিক যোগাযোগ মাধ্যমে টেক্সট, ছবি, অডিও এবং ভিডিও—সব ধরনের মিডিয়ার মাধ্যমে পারস্পরিক যোগাযোগ স্থাপন করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "উপরের সবগুলো",
+    "hints": "মূল তথ্য: সামাজিক যোগাযোগ মাধ্যমে টেক্সট, ছবি, অডিও এবং ভিডিও—সব ধরনের মিডিয়ার মাধ্যমে পারস্পরিক যোগাযোগ স্থাপন করা হয়।"
+  },
+  {
+    "id": 76,
+    "question": "CPU কোন address generate করে?",
+    "options": [
+      "Physical address",
+      "Logical Address",
+      "Both physical and logical addresses",
+      "উপরের কোনটি নয়"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Logical Address",
+    "explanation": "সিপিইউ এক্সিকিউশনের সময় যে মেমরি অ্যাড্রেস তৈরি করে তাকে লজিক্যাল অ্যাড্রেস (Logical Address বা Virtual Address) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Logical Address",
+    "hints": "মূল তথ্য: সিপিইউ এক্সিকিউশনের সময় যে মেমরি অ্যাড্রেস তৈরি করে তাকে লজিক্যাল অ্যাড্রেস (Logical Address বা Virtual Address) বলা...।"
+  },
+  {
+    "id": 77,
+    "question": "নীচের কোন প্রোগ্রামটি একটি সম্পূর্ণ কম্পিউটার প্রোগ্রামকে একবারে অনুবাদ ও সম্পাদন করে?",
+    "options": [
+      "Interpreter",
+      "Emulator",
+      "Compiler",
+      "Simulator"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Compiler",
+    "explanation": "কম্পাইলার (Compiler) সম্পূর্ণ সোর্স কোডকে একবারে অনুবাদ ও এক্সিকিউটেবল ফাইলে রূপান্তর করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Compiler",
+    "hints": "মূল তথ্য: কম্পাইলার (Compiler) সম্পূর্ণ সোর্স কোডকে একবারে অনুবাদ ও এক্সিকিউটেবল ফাইলে রূপান্তর করে।"
+  },
+  {
+    "id": 78,
+    "question": "নীচের কোনটি একই সাথে ইনপুট ও আউটপুট হিসেবে কাজ করে?",
+    "options": [
+      "Mouse",
+      "Microphone",
+      "Touch Screen",
+      "Printer"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Touch Screen",
+    "explanation": "টাচ স্ক্রিন আঙুলের স্পর্শের মাধ্যমে ইনপুট গ্রহণ করে এবং ডিসপ্লেতে দৃশ্যমান ফলাফল প্রদর্শন করে, তাই এটি ইনপুট ও আউটপুট উভয় হিসেবে কাজ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Touch Screen",
+    "hints": "মূল তথ্য: টাচ স্ক্রিন আঙুলের স্পর্শের মাধ্যমে ইনপুট গ্রহণ করে এবং ডিসপ্লেতে দৃশ্যমান ফলাফল প্রদর্শন করে, তাই এটি ইনপুট ও আউটপুট...।"
+  },
+  {
+    "id": 79,
+    "question": "কম্পিউটার থেকে কম্পিউটারে তথ্য আদান-প্রদানের প্রযুক্তিকে বলা হয়",
+    "options": [
+      "ইন্টারকম",
+      "ইন্টারনেট",
+      "ই-মেইল",
+      "ইন্টারসীড"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "ইন্টারনেট",
+    "explanation": "বিশ্বজুড়ে বিস্তৃত কম্পিউটার নেটওয়ার্কের মাধ্যমে তথ্য আদান-প্রদানের সর্বজনীন আন্তর্জাতিক প্রযুক্তির নাম ইন্টারনেট (Internet)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ইন্টারনেট",
+    "hints": "মূল তথ্য: বিশ্বজুড়ে বিস্তৃত কম্পিউটার নেটওয়ার্কের মাধ্যমে তথ্য আদান-প্রদানের সর্বজনীন আন্তর্জাতিক প্রযুক্তির নাম ইন্টারনেট (I...।"
+  },
+  {
+    "id": 80,
+    "question": "ই-মেইল গ্রহণ করার অধিক ব্যবহৃত প্রোটোকল কোনটি?",
+    "options": [
+      "POP3",
+      "POP9",
+      "HTML",
+      "SMTP"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "POP3",
+    "explanation": "সার্ভার থেকে ব্যবহারকারীর ইনবক্সে ইমেইল ডাউনলোড বা গ্রহণ করার বহুল ব্যবহৃত প্রোটোকল হলো POP3 (Post Office Protocol version 3)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "POP3",
+    "hints": "মূল তথ্য: সার্ভার থেকে ব্যবহারকারীর ইনবক্সে ইমেইল ডাউনলোড বা গ্রহণ করার বহুল ব্যবহৃত প্রোটোকল হলো POP3 (Post Office Protocol ve...।"
+  },
+  {
+    "id": 81,
+    "question": "কোনটি সঠিক নয়?",
+    "options": [
+      "A + 0 = A",
+      "A . 1 = A",
+      "A + Ā = 1",
+      "A . Ā = 1"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "A . Ā = 1",
+    "explanation": "বুলিয়ান অ্যালজেবরার উপপাদ্য অনুযায়ী: A · Ā = 0; তাই A · Ā = 1 উক্তিটি ভুল বা সঠিক নয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "A . Ā = 1",
+    "hints": "মূল তথ্য: বুলিয়ান অ্যালজেবরার উপপাদ্য অনুযায়ী: A · Ā = 0; তাই A · Ā = 1 উক্তিটি ভুল বা সঠিক নয়।"
+  },
+  {
+    "id": 82,
+    "question": "এক word কত বিট বিশিষ্ট হয়?",
+    "options": [
+      "8",
+      "16",
+      "4",
+      "2"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "16",
+    "explanation": "ঐতিহ্যগতভাবে কম্পিউটার আর্কিটেকচারে সাধারণ এক ওয়ার্ড (Word) বলতে ১৬ বিট (২ বাইট)-কে বোঝানো হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "16",
+    "hints": "মূল তথ্য: ঐতিহ্যগতভাবে কম্পিউটার আর্কিটেকচারে সাধারণ এক ওয়ার্ড (Word) বলতে ১৬ বিট (২ বাইট)-কে বোঝানো হয়।"
+  },
+  {
+    "id": 83,
+    "question": "কোন ধরনের bus ব্যবহৃত হয় না?",
+    "options": [
+      "address bus",
+      "input-reader bus",
+      "data bus",
+      "control bus"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "input-reader bus",
+    "explanation": "কম্পিউটার সিস্টেমে অ্যাড্রেস বাস, ডেটা বাস ও কন্ট্রোল বাস থাকে; input-reader bus নামে কোনো সিস্টেম বাস নেই।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "input-reader bus",
+    "hints": "মূল তথ্য: কম্পিউটার সিস্টেমে অ্যাড্রেস বাস, ডেটা বাস ও কন্ট্রোল বাস থাকে; input-reader bus নামে কোনো সিস্টেম বাস নেই।"
+  },
+  {
+    "id": 84,
+    "question": "ROM ভিত্তিক প্রোগ্রামের নাম কি?",
+    "options": [
+      "malware",
+      "firmware",
+      "virus",
+      "flip-flop"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "firmware",
+    "explanation": "রম চিপে স্থায়ীভাবে সংরক্ষিত বুটস্ট্র্যাপ ও হার্ডওয়্যার নিয়ন্ত্রণকারী প্রোগ্রামকে ফার্মওয়্যার (Firmware) বলা হয় (যেমন BIOS)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "firmware",
+    "hints": "মূল তথ্য: রম চিপে স্থায়ীভাবে সংরক্ষিত বুটস্ট্র্যাপ ও হার্ডওয়্যার নিয়ন্ত্রণকারী প্রোগ্রামকে ফার্মওয়্যার (Firmware) বলা হয় (...।"
+  },
+  {
+    "id": 85,
+    "question": "একটি লজিক গেট-এর আউটপুট 1 হয় যখন এর সব ইনপুট ০ থাকে। এই গেটটি--",
+    "options": [
+      "AND",
+      "OR",
+      "XOR",
+      "NAND"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "NAND",
+    "explanation": "NAND এবং NOR গেটের ক্ষেত্রে সব ইনপুট ০ হলে আউটপুট ১ পাওয়া যায় (NAND: 0·0 = 0 এর উল্টো 1; NOR: 0+0 = 0 এর উল্টো 1)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "NAND",
+    "hints": "মূল তথ্য: NAND এবং NOR গেটের ক্ষেত্রে সব ইনপুট ০ হলে আউটপুট ১ পাওয়া যায় (NAND: 0·0 = 0 এর উল্টো 1; NOR: 0+0 = 0 এর উল্টো 1)।"
+  },
+  {
+    "id": 86,
+    "question": "কোনটি মাইক্রোসফটের প্রথম প্রোগ্রাম?",
+    "options": [
+      "Windows XP",
+      "Windows 98",
+      "MS DOS",
+      "Windows 7"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "MS DOS",
+    "explanation": "আইবিএম পিসির জন্য ১৯৮১ সালে বাজারজাতকৃত MS-DOS (Microsoft Disk Operating System) ছিল মাইক্রোসফটের প্রথম ব্যাপক বাণিজ্যিক ওএস।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "MS DOS",
+    "hints": "মূল তথ্য: আইবিএম পিসির জন্য ১৯৮১ সালে বাজারজাতকৃত MS-DOS (Microsoft Disk Operating System) ছিল মাইক্রোসফটের প্রথম ব্যাপক বাণিজ্...।"
+  },
+  {
+    "id": 87,
+    "question": "ডিস্ক ডিফ্রাগমেন্টেশান ব্যবহৃত হয়",
+    "options": [
+      "ভাইরাস ধ্বংসের জন্য",
+      "খারাপ সেক্টরসমূহ পরীক্ষা করতে",
+      "ডিস্কের ফাইলগুলোকে পুনর্বিন্যস্ত করতে",
+      "ডিস্ক ফরমেট করতে"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ডিস্কের ফাইলগুলোকে পুনর্বিন্যস্ত করতে",
+    "explanation": "ডিস্ক ডিফ্র্যাগমেন্টার হার্ডডিস্কে বিচ্ছিন্নভাবে ছড়িয়ে থাকা ফাইলের খণ্ডগুলোকে সাজিয়ে পুনর্বিন্যস্ত করে ড্রাইভের গতি বৃদ্ধি করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ডিস্কের ফাইলগুলোকে পুনর্বিন্যস্ত করতে",
+    "hints": "মূল তথ্য: ডিস্ক ডিফ্র্যাগমেন্টার হার্ডডিস্কে বিচ্ছিন্নভাবে ছড়িয়ে থাকা ফাইলের খণ্ডগুলোকে সাজিয়ে পুনর্বিন্যস্ত করে ড্রাইভের গত...।"
+  },
+  {
+    "id": 88,
+    "question": "কোন সাইটটি কেনা-বেচার জন্য নয়?",
+    "options": [
+      "ekhanei.com",
+      "olx.com",
+      "google.com",
+      "amazon.com"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "google.com",
+    "explanation": "Google.com হলো একটি বৈশ্বিক ইন্টারনেট সার্চ ইঞ্জিন; এটি সরাসরি পণ্য কেনা-বেচার ই-কমার্স প্ল্যাটফর্ম নয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "google.com",
+    "hints": "গুরুত্বপূর্ণ টপিক: মনোযোগ সহকারে সঠিক উত্তর ও ব্যাখ্যাটি মনে রাখুন।"
+  },
+  {
+    "id": 89,
+    "question": "কম্পিউটার নেটওয়ার্ক OSI মডেলের স্তর কয়টি?",
+    "options": [
+      "৭",
+      "৫",
+      "৯",
+      "৮"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "৭",
+    "explanation": "OSI রেফারেন্স মডেলে মোট ৭টি স্তর রয়েছে (Physical, Data Link, Network, Transport, Session, Presentation, Application)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "৭",
+    "hints": "মূল তথ্য: OSI রেফারেন্স মডেলে মোট ৭টি স্তর রয়েছে (Physical, Data Link, Network, Transport, Session, Presentation, Application)।"
+  },
+  {
+    "id": 90,
+    "question": "কোন প্রোটোকলটি ইন্টারনেট সংযোগের ক্ষেত্রে সর্বাধিক ব্যবহৃত হয়?",
+    "options": [
+      "TCP/IP",
+      "Novel Netware",
+      "Net BEUI",
+      "Linux"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "TCP/IP",
+    "explanation": "ইন্টারনেটের যোগাযোগের মেরুদণ্ড হিসেবে বিশ্বব্যাপী সর্বাধিক ব্যবহৃত প্রোটোকল স্যুট হলো TCP/IP।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "TCP/IP",
+    "hints": "মূল তথ্য: ইন্টারনেটের যোগাযোগের মেরুদণ্ড হিসেবে বিশ্বব্যাপী সর্বাধিক ব্যবহৃত প্রোটোকল স্যুট হলো TCP/IP।"
+  },
+  {
+    "id": 91,
+    "question": "কোন চিহ্নটি ই-মেইল ঠিকানায় অবশ্যই থাকবে?",
+    "options": [
+      "$",
+      "#",
+      "&",
+      "@"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "@",
+    "explanation": "ইমেইল অ্যাড্রেসে ইউজারনেম এবং মেইল সার্ভারের নামকে সুনির্দিষ্টভাবে পৃথক করতে '@' চিহ্নটি অপরিহার্য।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "@",
+    "hints": "মূল তথ্য: ইমেইল অ্যাড্রেসে ইউজারনেম এবং মেইল সার্ভারের নামকে সুনির্দিষ্টভাবে পৃথক করতে '@' চিহ্নটি অপরিহার্য।"
+  },
+  {
+    "id": 92,
+    "question": "নিচের কোনটি সামঞ্জস্যপূর্ণ নয়?",
+    "options": [
+      "ফেসবুক",
+      "টুইটার",
+      "লিংকড ইন",
+      "উইকিপিডিয়া"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "উইকিপিডিয়া",
+    "explanation": "ফেসবুক, টুইটার ও লিংকডইন হলো সোশ্যাল মিডিয়া প্ল্যাটফর্ম; অপরদিকে উইকিপিডিয়া হলো একটি উন্মুক্ত অনলাইন বিশ্বকোষ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "উইকিপিডিয়া",
+    "hints": "মূল তথ্য: ফেসবুক, টুইটার ও লিংকডইন হলো সোশ্যাল মিডিয়া প্ল্যাটফর্ম; অপরদিকে উইকিপিডিয়া হলো একটি উন্মুক্ত অনলাইন বিশ্বকোষ।"
+  },
+  {
+    "id": 93,
+    "question": "10101111 এর 1's complement কোনটি?",
+    "options": [
+      "1111 1111",
+      "0000 0000",
+      "0101 0000",
+      "1100 0011"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "0101 0000",
+    "explanation": "10101111 এর 1's complement হলো প্রতিটি বিটকে উল্টে দেওয়া (1->0 এবং 0->1), যা হলো 01010000।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "0101 0000",
+    "hints": "মূল তথ্য: 10101111 এর 1's complement হলো প্রতিটি বিটকে উল্টে দেওয়া (1->0 এবং 0->1), যা হলো 01010000।"
+  },
+  {
+    "id": 94,
+    "question": "কোন মাধ্যমে আলোর পালস ব্যবহৃত হয়?",
+    "options": [
+      "তামার তার",
+      "কো-এক্সিয়াল ক্যাবল",
+      "অপটিক্যাল ফাইবার",
+      "ওয়ারলেস মিডিয়া"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "অপটিক্যাল ফাইবার",
+    "explanation": "অপটিক্যাল ফাইবার ক্যাবলের মাধ্যমে বৈদ্যুতিক সংকেতের পরিবর্তে আলোর পালস (Light pulses) দ্রুত পরিবাহিত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "অপটিক্যাল ফাইবার",
+    "hints": "মূল তথ্য: অপটিক্যাল ফাইবার ক্যাবলের মাধ্যমে বৈদ্যুতিক সংকেতের পরিবর্তে আলোর পালস (Light pulses) দ্রুত পরিবাহিত হয়।"
+  },
+  {
+    "id": 95,
+    "question": "কম্পিউটার সিপিইউ (CPU)-এর কোন অংশ গাণিতিক সিদ্ধান্ত গ্রহণের কাজ করে?",
+    "options": [
+      "এ. এল. ইউ (ALU)",
+      "কন্ট্রোল ইউনিট (control unit)",
+      "রেজিস্টার সেট (Register set)",
+      "কোনটিই নয়"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "এ. এল. ইউ (ALU)",
+    "explanation": "সিপিইউ-এর ALU (Arithmetic Logic Unit) সমস্ত গাণিতিক হিসাব এবং যৌক্তিক সিদ্ধান্ত গ্রহণের কাজ সম্পাদন করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "এ. এল. ইউ (ALU)",
+    "hints": "মূল তথ্য: সিপিইউ-এর ALU (Arithmetic Logic Unit) সমস্ত গাণিতিক হিসাব এবং যৌক্তিক সিদ্ধান্ত গ্রহণের কাজ সম্পাদন করে।"
+  },
+  {
+    "id": 96,
+    "question": "\"একটি ২(দুই) ইনপুট লজিক সেটের আউটপুট ০ হবে, যদি এর ইনপুটগুলো সমান হয়\" --এর উক্তিটি কোন সেটের জন্য সত্য?",
+    "options": [
+      "AND",
+      "NOR",
+      "Ex-OR",
+      "OR"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Ex-OR",
+    "explanation": "Ex-OR (XOR) গেটের আউটপুট তখনই ০ হয় যখন এর ইনপুট দুটি সমান হয় (0,0 অথবা 1,1 হলে আউটপুট 0)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Ex-OR",
+    "hints": "মূল তথ্য: Ex-OR (XOR) গেটের আউটপুট তখনই ০ হয় যখন এর ইনপুট দুটি সমান হয় (0,0 অথবা 1,1 হলে আউটপুট 0)।"
+  },
+  {
+    "id": 97,
+    "question": "কোনটি অপারেটিং সিস্টেম নয়?",
+    "options": [
+      "C",
+      "DOS",
+      "CP/M",
+      "XENIX"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "C",
+    "explanation": "C হলো একটি উচ্চস্তরের প্রোগ্রামিং ভাষা; DOS, CP/M এবং XENIX হলো বিভিন্ন অপারেটিং সিস্টেম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "C",
+    "hints": "মূল তথ্য: C হলো একটি উচ্চস্তরের প্রোগ্রামিং ভাষা; DOS, CP/M এবং XENIX হলো বিভিন্ন অপারেটিং সিস্টেম।"
+  },
+  {
+    "id": 98,
+    "question": "ক্লাউড সার্ভার নিচের কোনটিতে সবচেয়ে ভালো বর্ণনা করা সম্ভব?",
+    "options": [
+      "নেটওয়ার্কের মাধ্যমে যুক্ত একাধিক কম্পিউটার সার্ভার",
+      "একটি বিশাল ক্ষমতা সম্পন্ন কম্পিউটার সার্ভার",
+      "ব্যবহারকারীর চাহিদা অনুযায়ী কম্পিউটিং সেবা দেয়া",
+      "উপরের কোনোটিই নয়"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ব্যবহারকারীর চাহিদা অনুযায়ী কম্পিউটিং সেবা দেয়া",
+    "explanation": "ক্লাউড সার্ভারের মূল সৌন্দর্য হলো এটি ইন্টারনেটের মাধ্যমে ব্যবহারকারীর চাহিদা অনুযায়ী কম্পিউটিং রিসোর্স ও সেবা সরবরাহ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ব্যবহারকারীর চাহিদা অনুযায়ী কম্পিউটিং সেবা দেয়া",
+    "hints": "মূল তথ্য: ক্লাউড সার্ভারের মূল সৌন্দর্য হলো এটি ইন্টারনেটের মাধ্যমে ব্যবহারকারীর চাহিদা অনুযায়ী কম্পিউটিং রিসোর্স ও সেবা সরবরা...।"
+  },
+  {
+    "id": 99,
+    "question": "IP - V6 এড্রেস কত বিটের?",
+    "options": [
+      "১২৮",
+      "৩২",
+      "১২",
+      "৬"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "১২৮",
+    "explanation": "IPv6 অ্যাড্রেস ১২৮ বিটের হয়ে থাকে, যা আটটি ব্লকে হেক্সাডেসিমেল পদ্ধতিতে লেখা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "১২৮",
+    "hints": "মূল তথ্য: IPv6 অ্যাড্রেস ১২৮ বিটের হয়ে থাকে, যা আটটি ব্লকে হেক্সাডেসিমেল পদ্ধতিতে লেখা হয়।"
+  },
+  {
+    "id": 100,
+    "question": "নিচের কোনটি ইনপুট ডিভাইস?",
+    "options": [
+      "OMR",
+      "COM",
+      "Plotter",
+      "Monitor"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "OMR",
+    "explanation": "OMR (Optical Mark Recognition) হলো পরীক্ষার উত্তরপত্র মূল্যায়নে ব্যবহৃত একটি জনপ্রিয় ইনপুট ডিভাইস।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "OMR",
+    "hints": "মূল তথ্য: OMR (Optical Mark Recognition) হলো পরীক্ষার উত্তরপত্র মূল্যায়নে ব্যবহৃত একটি জনপ্রিয় ইনপুট ডিভাইস।"
+  },
+  {
+    "id": 101,
+    "question": "ইউনিকোডের মাধ্যমে সম্ভাব্য কতগুলো চিহ্নকে নির্দিষ্ট করা যায়?",
+    "options": [
+      "২৫৬ টি",
+      "৪০৯৬ টি",
+      "৬৫৫৩৬ টি",
+      "৪২৯৪৯৬৭২৯৬ টি"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "৬৫৫৩৬ টি",
+    "explanation": "১৬-বিটের প্রমিত ইউনিকোডের মাধ্যমে ২¹⁶ = ৬৫,৫৩৬ টি সম্ভাব্য অক্ষর বা চিহ্নকে নির্দিষ্ট কোডে প্রকাশ করা সম্ভব।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "৬৫৫৩৬ টি",
+    "hints": "মূল তথ্য: ১৬-বিটের প্রমিত ইউনিকোডের মাধ্যমে ২¹⁶ = ৬৫,৫৩৬ টি সম্ভাব্য অক্ষর বা চিহ্নকে নির্দিষ্ট কোডে প্রকাশ করা সম্ভব।"
+  },
+  {
+    "id": 102,
+    "question": "এনড্রয়েড অপারেটিং সিস্টেমের ক্ষেত্রে নিচের কোনটি সঠিক?",
+    "options": [
+      "এটির নির্মাতা গুগল",
+      "এটি লিনাক্স কার্নেল নির্ভর",
+      "এটি প্রধানত টাচস্ক্রিন মোবাইল ডিভাইসের জন্য তৈরি",
+      "উপরের সবগুলো সঠিক"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "উপরের সবগুলো সঠিক",
+    "explanation": "অ্যান্ড্রয়েড অপারেটিং সিস্টেম গুগলের মালিকানাধীন, লিনাক্স কার্নেল নির্ভর এবং প্রধানত টাচস্ক্রিন ডিভাইসের জন্য তৈরি; ফলে সবগুলো তথ্যই সঠিক।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "উপরের সবগুলো সঠিক",
+    "hints": "মূল তথ্য: অ্যান্ড্রয়েড অপারেটিং সিস্টেম গুগলের মালিকানাধীন, লিনাক্স কার্নেল নির্ভর এবং প্রধানত টাচস্ক্রিন ডিভাইসের জন্য তৈরি; ...।"
+  },
+  {
+    "id": 103,
+    "question": "আইওএস (IOS) মোবাইল অপারেটিং সিস্টেমটি কোন প্রতিষ্ঠান বাজারজাত করে?",
+    "options": [
+      "অ্যাপেল",
+      "গুগল",
+      "মাইক্রোসফট",
+      "আইবিএম"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "অ্যাপেল",
+    "explanation": "আইওএস (iOS) হলো অ্যাপল ইনকর্পোরেটেড (Apple) কর্তৃক তাদের নিজস্ব আইফোন ও আইপ্যাডের জন্য তৈরি মোবাইল অপারেটিং সিস্টেম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "অ্যাপেল",
+    "hints": "মূল তথ্য: আইওএস (iOS) হলো অ্যাপল ইনকর্পোরেটেড (Apple) কর্তৃক তাদের নিজস্ব আইফোন ও আইপ্যাডের জন্য তৈরি মোবাইল অপারেটিং সিস্টেম।"
+  },
+  {
+    "id": 104,
+    "question": "EDSAC কম্পিউটার-এ ডাটা সংরক্ষণের জন্য কি ধরনের মেমোরি ব্যবহার হতো?",
+    "options": [
+      "RAM",
+      "ROM",
+      "Mercury Delay Lines",
+      "Registers"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Mercury Delay Lines",
+    "explanation": "১৯৪৯ সালে কেমব্রিজ বিশ্ববিদ্যালয়ে নির্মিত EDSAC কম্পিউটারে ডেটা মেমরি হিসেবে আল্ট্রাসনিক মারকারি ডিলে লাইনস (Mercury Delay Lines) ব্যবহৃত হতো।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Mercury Delay Lines",
+    "hints": "মূল তথ্য: ১৯৪৯ সালে কেমব্রিজ বিশ্ববিদ্যালয়ে নির্মিত EDSAC কম্পিউটারে ডেটা মেমরি হিসেবে আল্ট্রাসনিক মারকারি ডিলে লাইনস (Mercury...।"
+  },
+  {
+    "id": 105,
+    "question": "ই-কমার্স সাইট amazon.com কত সালে প্রতিষ্ঠিত হয়?",
+    "options": [
+      "১৯৯০ সালে",
+      "১৯৮৮ সালে",
+      "১৯৯৪ সালে",
+      "১৯৯৮ সালে"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "১৯৯৪ সালে",
+    "explanation": "জেফ বেজোস ১৯৯৪ সালের ৫ জুলাই বিশ্বের শীর্ষস্থানীয় ই-কমার্স প্রতিষ্ঠান Amazon.com প্রতিষ্ঠা করেন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "১৯৯৪ সালে",
+    "hints": "মূল তথ্য: জেফ বেজোস ১৯৯৪ সালের ৫ জুলাই বিশ্বের শীর্ষস্থানীয় ই-কমার্স প্রতিষ্ঠান Amazon।"
+  },
+  {
+    "id": 106,
+    "question": "ই-মেইল আদান-প্রদানে ব্যবহৃত SMTP এর পূর্ণরূপ কী?",
+    "options": [
+      "Simple Message Transmission Protocol",
+      "Strategic Mail Transfer Protocol",
+      "Strategic Mail Transmission Protocol",
+      "Simple Mail Transfer Protocol"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Simple Mail Transfer Protocol",
+    "explanation": "ইমেইল প্রেরণে ব্যবহৃত SMTP এর পূর্ণরূপ হলো Simple Mail Transfer Protocol।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Simple Mail Transfer Protocol",
+    "hints": "মূল তথ্য: ইমেইল প্রেরণে ব্যবহৃত SMTP এর পূর্ণরূপ হলো Simple Mail Transfer Protocol।"
+  },
+  {
+    "id": 107,
+    "question": "TCP দিয়ে কোনটি বোঝানো হয়?",
+    "options": [
+      "প্রোগ্রাম",
+      "প্রোটোকল",
+      "প্রোগ্রামিং",
+      "ফ্লোচার্ট"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "প্রোটোকল",
+    "explanation": "TCP (Transmission Control Protocol) হলো ইন্টারনেট ও নেটওয়ার্কে নির্ভরযোগ্য যোগাযোগের জন্য ব্যবহৃত একটি নিয়ম বা প্রোটোকল।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "প্রোটোকল",
+    "hints": "মূল তথ্য: TCP (Transmission Control Protocol) হলো ইন্টারনেট ও নেটওয়ার্কে নির্ভরযোগ্য যোগাযোগের জন্য ব্যবহৃত একটি নিয়ম বা প্রো...।"
+  },
+  {
+    "id": 108,
+    "question": "Push এবং Pop নিচের কার সাথে সম্পর্কিত?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Union",
+      "Array"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Stack",
+    "explanation": "স্ট্যাক (Stack) ডেটা স্ট্রাকচারে উপাদান যোগ করার প্রক্রিয়াকে Push এবং অপসারণ করার প্রক্রিয়াকে Pop বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Stack",
+    "hints": "মূল তথ্য: স্ট্যাক (Stack) ডেটা স্ট্রাকচারে উপাদান যোগ করার প্রক্রিয়াকে Push এবং অপসারণ করার প্রক্রিয়াকে Pop বলা হয়।"
+  },
+  {
+    "id": 109,
+    "question": "ওয়াই-ফাই (Wi-Fi) নেটওয়ার্কে সংযোগের জন্য সংশ্লিষ্ট ডিভাইসটির সংযোগ মাধ্যম কোনটি?",
+    "options": [
+      "তামার তার",
+      "অপটিক্যাল ফাইবার",
+      "তারহীন সংযোগ",
+      "উপরের সবকটি"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "তারহীন সংযোগ",
+    "explanation": "ওয়াই-ফাই (Wi-Fi) নেটওয়ার্কে রেডিও তরঙ্গের মাধ্যমে তারহীন সংযোগের (Wireless) সাহায্যে ডেটা আদান-প্রদান করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "তারহীন সংযোগ",
+    "hints": "মূল তথ্য: ওয়াই-ফাই (Wi-Fi) নেটওয়ার্কে রেডিও তরঙ্গের মাধ্যমে তারহীন সংযোগের (Wireless) সাহায্যে ডেটা আদান-প্রদান করা হয়।"
+  },
+  {
+    "id": 110,
+    "question": "নিচের কোন মেমোরিটি Non-volatile?",
+    "options": [
+      "SRAM",
+      "DRAM",
+      "ROM",
+      "উপরের সবগুলোই"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ROM",
+    "explanation": "ROM (Read Only Memory) হলো একটি নন-ভোলাটাইল বা স্থায়ী মেমরি, যা বিদ্যুৎ চলে গেলেও সংরক্ষিত ডেটা হারায় না।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ROM",
+    "hints": "মূল তথ্য: ROM (Read Only Memory) হলো একটি নন-ভোলাটাইল বা স্থায়ী মেমরি, যা বিদ্যুৎ চলে গেলেও সংরক্ষিত ডেটা হারায় না।"
+  },
+  {
+    "id": 111,
+    "question": "নিচের কোনটি 3G Language নয়?",
+    "options": [
+      "C",
+      "Java",
+      "Assembly Language",
+      "C++"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Assembly Language",
+    "explanation": "মেমোরি সেল হলো মেমরির ক্ষুদ্রতম একক যা ১ বিট বাইনারি তথ্য (০ বা ১) ধারণ করতে পারে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Assembly Language",
+    "hints": "মূল তথ্য: মেমোরি সেল হলো মেমরির ক্ষুদ্রতম একক যা ১ বিট বাইনারি তথ্য (০ বা ১) ধারণ করতে পারে।"
+  },
+  {
+    "id": 112,
+    "question": "নিচের কোন উক্তিটি সঠিক?",
+    "options": [
+      "১ কিলোবাইট = ১০২৪ বাইট",
+      "১ মেগাবাইট = ১০২৪ বাইট",
+      "১ কিলোবাইট = ১০০০ বাইট",
+      "১ মেগাবাইট = ১০০০ বাইট"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "১ কিলোবাইট = ১০২৪ বাইট",
+    "explanation": "সার্ভার থেকে ব্যবহারকারীর কম্পিউটারে ফাইল স্থানান্তর বা গ্রহণ করার প্রক্রিয়াকে ডাউনলোড (Download) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "১ কিলোবাইট = ১০২৪ বাইট",
+    "hints": "মূল তথ্য: সার্ভার থেকে ব্যবহারকারীর কম্পিউটারে ফাইল স্থানান্তর বা গ্রহণ করার প্রক্রিয়াকে ডাউনলোড (Download) বলা হয়।"
+  },
+  {
+    "id": 113,
+    "question": "Wi-fi কোন স্ট্যান্ডার্ড-এর উপর ভিত্তি করে কাজ করে?",
+    "options": [
+      "IEEE 802.11",
+      "IEEE 804.11",
+      "IEEE 803.11",
+      "IEEE 806.11"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "IEEE 802.11",
+    "explanation": "কীবোর্ডের ফাংশনাল কীগুলোর মধ্যে F1 কী-টি সাধারণত সাহায্য বা হেল্প (Help) মেনু প্রদর্শনের জন্য নির্ধারিত থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "IEEE 802.11",
+    "hints": "মূল তথ্য: কীবোর্ডের ফাংশনাল কীগুলোর মধ্যে F1 কী-টি সাধারণত সাহায্য বা হেল্প (Help) মেনু প্রদর্শনের জন্য নির্ধারিত থাকে।"
+  },
+  {
+    "id": 114,
+    "question": "নিচের কোনটিতে সাধারণত ইনফ্রারেড ডিভাইস ব্যবহার করা হয়?",
+    "options": [
+      "WAN",
+      "Satellite",
+      "MAN",
+      "TV রিমোট কন্ট্রোলে"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "TV রিমোট কন্ট্রোলে",
+    "explanation": "ইউআরএল (URL)-এ 'http' বা 'https' অংশটি ব্যবহৃত যোগাযোগ প্রোটোকলকে নির্দেশ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "TV রিমোট কন্ট্রোলে",
+    "hints": "মূল তথ্য: ইউআরএল (URL)-এ 'http' বা 'https' অংশটি ব্যবহৃত যোগাযোগ প্রোটোকলকে নির্দেশ করে।"
+  },
+  {
+    "id": 115,
+    "question": "১০ এর ২ এর পরিপূরক (2's complement) কত?",
+    "options": [
+      "(1100)",
+      "(11000)",
+      "(01100)",
+      "কোনোটিই নয়"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "কোনোটিই নয়",
+    "explanation": "ডট ম্যাট্রিক্স প্রিন্টারে ধাতব পিন কালির রিবনে আঘাত করে প্রিন্ট করে, তাই এটি ইমপ্যাক্ট প্রিন্টারের উদাহরণ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "কোনোটিই নয়",
+    "hints": "মূল তথ্য: ডট ম্যাট্রিক্স প্রিন্টারে ধাতব পিন কালির রিবনে আঘাত করে প্রিন্ট করে, তাই এটি ইমপ্যাক্ট প্রিন্টারের উদাহরণ।"
+  },
+  {
+    "id": 116,
+    "question": "WI MAX- এর পূর্ণরূপ কি?",
+    "options": [
+      "Worldwide Interoperability for Microwave Access",
+      "Worldwide Internet for Microwave Access",
+      "Worldwide Interconnection for Microwave Access",
+      "কোনোটিই নয়"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Worldwide Interoperability for Microwave Access",
+    "explanation": "ওপেন সিস্টেম ইন্টারকানেকশন বা OSI মডেলের পূর্ণরূপ হলো Open System Interconnection।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Worldwide Interoperability for Microwave Access",
+    "hints": "মূল তথ্য: ওপেন সিস্টেম ইন্টারকানেকশন বা OSI মডেলের পূর্ণরূপ হলো Open System Interconnection।"
+  },
+  {
+    "id": 117,
+    "question": "Boolean Algebra -এর নিচের কোনটি সঠিক?",
+    "options": [
+      "A + Ā = 1",
+      "A . Ā = 1",
+      "A + A = 2A",
+      "উপরের কোনোটিই নয়"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "A + Ā = 1",
+    "explanation": "টুইটারে পূর্বে একক বার্তার অক্ষরের সর্বোচ্চ সীমা ছিল ১৪০টি (যা পরবর্তীতে সম্প্রসারিত করা হয়েছে)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "A + Ā = 1",
+    "hints": "মূল তথ্য: টুইটারে পূর্বে একক বার্তার অক্ষরের সর্বোচ্চ সীমা ছিল ১৪০টি (যা পরবর্তীতে সম্প্রসারিত করা হয়েছে)।"
+  },
+  {
+    "id": 118,
+    "question": "8086 কত বিটের মাইক্রো প্রসেসর?",
+    "options": [
+      "8",
+      "16",
+      "32",
+      "উপরের কোনোটিই নয়"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "16",
+    "explanation": "কম্পিউটারের প্রধান মেমরি সরাসরি সিপিইউ-এর সাথে বাসের মাধ্যমে সংযুক্ত থাকে এবং ডেটা দ্রুত সরবরাহ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "16",
+    "hints": "মূল তথ্য: কম্পিউটারের প্রধান মেমরি সরাসরি সিপিইউ-এর সাথে বাসের মাধ্যমে সংযুক্ত থাকে এবং ডেটা দ্রুত সরবরাহ করে।"
+  },
+  {
+    "id": 119,
+    "question": "Mobile Phone -এর কোনটি input device নয়?",
+    "options": [
+      "Keypad",
+      "Touch Screen",
+      "Camera",
+      "Power Supply"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Power Supply",
+    "explanation": "অপারেটিং সিস্টেমের কার্নেল মেমরিতে লোড হয়ে কম্পিউটার চালু করার প্রাথমিক প্রক্রিয়াকে বুটিং (Booting) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Power Supply",
+    "hints": "মূল তথ্য: অপারেটিং সিস্টেমের কার্নেল মেমরিতে লোড হয়ে কম্পিউটার চালু করার প্রাথমিক প্রক্রিয়াকে বুটিং (Booting) বলা হয়।"
+  },
+  {
+    "id": 120,
+    "question": "নিচের কোনটি ডাটাবেজ language?",
+    "options": [
+      "Oracle",
+      "C",
+      "MS-Word",
+      "কোনোটিই নয়"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Oracle",
+    "explanation": "উইন্ডোজ অপারেটিং সিস্টেমে কন্ট্রোল প্যানেল (Control Panel) দিয়ে হার্ডওয়্যার কনফিগারেশন ও সিস্টেম সেটিংস নিয়ন্ত্রণ করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Oracle",
+    "hints": "মূল তথ্য: উইন্ডোজ অপারেটিং সিস্টেমে কন্ট্রোল প্যানেল (Control Panel) দিয়ে হার্ডওয়্যার কনফিগারেশন ও সিস্টেম সেটিংস নিয়ন্ত্রণ ...।"
+  },
+  {
+    "id": 121,
+    "question": "Linkedin --এর ক্ষেত্রে কোনটি সঠিক?",
+    "options": [
+      "এটি একটি বিজনেস অরিয়েন্টেড সোশ্যাল নেটওয়ার্কিং সার্ভিস",
+      "এটি ২০০২ সালে প্রতিষ্ঠিত",
+      "২০০৬ সালে এটির সদস্যসংখ্যা ২০ মিলিয়নের অধিক হয়",
+      "উপরের সবগুলোই"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "এটি একটি বিজনেস অরিয়েন্টেড সোশ্যাল নেটওয়ার্কিং সার্ভিস",
+    "explanation": "HTML হলো ওয়েবপেজ তৈরির মৌলিক ভাষা যার পূর্ণরূপ Hypertext Markup Language।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "এটি একটি বিজনেস অরিয়েন্টেড সোশ্যাল নেটওয়ার্কিং সার্ভিস",
+    "hints": "মূল তথ্য: HTML হলো ওয়েবপেজ তৈরির মৌলিক ভাষা যার পূর্ণরূপ Hypertext Markup Language।"
+  },
+  {
+    "id": 122,
+    "question": "কমিউনিকেশন সিস্টেমে গেটওয়ে কি কাজে ব্যবহার হয়?",
+    "options": [
+      "বিভিন্ন নেটওয়ার্ক ডিভাইস সংযুক্ত করার কাজে",
+      "দুই বা তার অধিক ভিন্ন ধরনের নেটওয়ার্ককে সংযুক্ত করার কাজে",
+      "এটি নেটওয়ার্ক হাব কিংবা সুইচ এর মতই কাজ করে",
+      "কোনোটিই নয়"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "দুই বা তার অধিক ভিন্ন ধরনের নেটওয়ার্ককে সংযুক্ত করার কাজে",
+    "explanation": "IPv4 অ্যাড্রেসে ৪টি অক্টেট থাকে, প্রতিটি অক্টেট ৮ বিট বিশিষ্ট; মোট ৩২ বিট।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "দুই বা তার অধিক ভিন্ন ধরনের নেটওয়ার্ককে সংযুক্ত করার কাজে",
+    "hints": "মূল তথ্য: IPv4 অ্যাড্রেসে ৪টি অক্টেট থাকে, প্রতিটি অক্টেট ৮ বিট বিশিষ্ট; মোট ৩২ বিট।"
+  },
+  {
+    "id": 123,
+    "question": "নিচের কোনটি কম্পিউটারের প্রাইমারি মেমোরি?",
+    "options": [
+      "RAM",
+      "Hard Disk",
+      "Pen drive",
+      "কোনোটিই নয়"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "RAM",
+    "explanation": "LAN-এর পূর্ণরূপ হলো Local Area Network।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "RAM",
+    "hints": "মূল তথ্য: LAN-এর পূর্ণরূপ হলো Local Area Network।"
+  },
+  {
+    "id": 124,
+    "question": "Plotter কোন ধরনের ডিভাইস?",
+    "options": [
+      "ইনপুট",
+      "আউটপুট",
+      "মেমোরি",
+      "উপরের কোনোটিই নয়"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "আউটপুট",
+    "explanation": "সার্চ ইঞ্জিন ইন্টারনেটের ওয়েবপেজগুলো খুঁজে বের করতে স্বয়ংক্রিয় ক্রলার বা স্পাইডার প্রোগ্রাম ব্যবহার করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "আউটপুট",
+    "hints": "মূল তথ্য: সার্চ ইঞ্জিন ইন্টারনেটের ওয়েবপেজগুলো খুঁজে বের করতে স্বয়ংক্রিয় ক্রলার বা স্পাইডার প্রোগ্রাম ব্যবহার করে।"
+  },
+  {
+    "id": 125,
+    "question": "কম্পিউটার সিস্টেম এ Scanner একটি কোন ধরনের যন্ত্র?",
+    "options": [
+      "Input",
+      "Out put",
+      "উভয়েই",
+      "কোনোটিই নয়"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Input",
+    "explanation": "কম্পিউটারের অস্থায়ী প্রধান স্মৃতিশক্তিকে RAM (Random Access Memory) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Input",
+    "hints": "মূল তথ্য: কম্পিউটারের অস্থায়ী প্রধান স্মৃতিশক্তিকে RAM (Random Access Memory) বলা হয়।"
+  },
+  {
+    "id": 126,
+    "question": "কম্পিউটারের মূল মেমোরি তৈরি হয় কি দিয়ে?",
+    "options": [
+      "এলুমিনিয়াম",
+      "প্লাস্টিক",
+      "সিলিকন",
+      "কোনোটিই নয়"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "সিলিকন",
+    "explanation": "ফাইল কম্প্রেশনের মাধ্যমে ফাইলের আকার ছোট করে ডিস্কের স্থান সাশ্রয় করা যায় (যেমন ZIP, RAR)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "সিলিকন",
+    "hints": "মূল তথ্য: ফাইল কম্প্রেশনের মাধ্যমে ফাইলের আকার ছোট করে ডিস্কের স্থান সাশ্রয় করা যায় (যেমন ZIP, RAR)।"
+  },
+  {
+    "id": 127,
+    "question": "Back up প্রোগ্রাম বলতে কী বোঝানো হয়?",
+    "options": [
+      "নির্ধারিত ফাইল কপি করা",
+      "আগের প্রোগ্রামে ফিরে যাওয়া",
+      "সবশেষ পরিবর্তন Undo করা",
+      "কোনোটিই নয়"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "নির্ধারিত ফাইল কপি করা",
+    "explanation": "কম্পিউটার প্রসেসরের গতি সাধারণত গিগাহার্টজ (GHz) বা মেগাহার্টজ (MHz) এককে পরিমাপ করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "নির্ধারিত ফাইল কপি করা",
+    "hints": "মূল তথ্য: কম্পিউটার প্রসেসরের গতি সাধারণত গিগাহার্টজ (GHz) বা মেগাহার্টজ (MHz) এককে পরিমাপ করা হয়।"
+  },
+  {
+    "id": 128,
+    "question": "একটি প্রতিষ্ঠানে ডিভাইস ভাগাভাগি করে নেয়ার সুবিধা হলো",
+    "options": [
+      "অর্থ সাশ্রয়",
+      "সময় সাশ্রয়",
+      "স্থানের সাশ্রয়",
+      "উপরের সবকটি"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "উপরের সবকটি",
+    "explanation": "ই-কমার্স অর্থ, সময় এবং পরিবহন ও ভৌত স্থানের ব্যাপক সাশ্রয় নিশ্চিত করে; ফলে সবগুলোই সঠিক।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "উপরের সবকটি",
+    "hints": "মূল তথ্য: ই-কমার্স অর্থ, সময় এবং পরিবহন ও ভৌত স্থানের ব্যাপক সাশ্রয় নিশ্চিত করে; ফলে সবগুলোই সঠিক।"
+  },
+  {
+    "id": 129,
+    "question": "নিচের কোন সাইটটি কেনা-বেচার জন্য নয়?",
+    "options": [
+      "ekhanei.com",
+      "Olx.com",
+      "google.com",
+      "amazon.com"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "google.com",
+    "explanation": "গুগল (google.com) হলো একটি সার্চ ইঞ্জিন; এটি পণ্য ক্রয়-বিক্রয়ের ই-কমার্স সাইট নয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "google.com",
+    "hints": "গুরুত্বপূর্ণ টপিক: মনোযোগ সহকারে সঠিক উত্তর ও ব্যাখ্যাটি মনে রাখুন।"
+  },
+  {
+    "id": 130,
+    "question": "নিচের কোনটি ছাড়া Internet- এ প্রবেশ করা সহজ নয়?",
+    "options": [
+      "Task bar",
+      "Notification area",
+      "Menu bar",
+      "Web browser"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Web browser",
+    "explanation": "ওয়েব ব্রাউজার (যেমন ক্রোম, ফায়ারফক্স) হলো সেই সফটওয়্যার যার মাধ্যমে ব্যবহারকারী ইন্টারনেটের ওয়েবপেজগুলোতে প্রবেশ করতে পারেন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Web browser",
+    "hints": "মূল তথ্য: ওয়েব ব্রাউজার (যেমন ক্রোম, ফায়ারফক্স) হলো সেই সফটওয়্যার যার মাধ্যমে ব্যবহারকারী ইন্টারনেটের ওয়েবপেজগুলোতে প্রবেশ ...।"
+  },
+  {
+    "id": 131,
+    "question": "কম্পিউটার মেমোরি থেকে সংরক্ষিত ডাটা উত্তোলনের পদ্ধতিকে কি বলে?",
+    "options": [
+      "Read-out",
+      "Read from",
+      "Read",
+      "উপরের সবগুলোই"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Read",
+    "explanation": "মেমরি লোকেশন থেকে তথ্য সংগ্রহ বা উদ্ধারের প্রক্রিয়াকে সাধারণভাবে রিড (Read বা Read-out) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Read",
+    "hints": "মূল তথ্য: মেমরি লোকেশন থেকে তথ্য সংগ্রহ বা উদ্ধারের প্রক্রিয়াকে সাধারণভাবে রিড (Read বা Read-out) বলা হয়।"
+  },
+  {
+    "id": 132,
+    "question": "MICR-এর পূর্ণরূপ কি?",
+    "options": [
+      "Magnetic Ink Character Reader",
+      "Magnetic Ink Code Reader",
+      "Magnetic Ink Case Reader",
+      "কোনোটিই নয়"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "Magnetic Ink Character Reader",
+    "explanation": "MICR-এর পূর্ণরূপ হলো Magnetic Ink Character Reader বা Recognition, যা ব্যাংকের চেক প্রক্রিয়াকরণে ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Magnetic Ink Character Reader",
+    "hints": "মূল তথ্য: MICR-এর পূর্ণরূপ হলো Magnetic Ink Character Reader বা Recognition, যা ব্যাংকের চেক প্রক্রিয়াকরণে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 133,
+    "question": "নিচের কোনটি ডাটাবেজ ল্যাংগুয়েজ?",
+    "options": [
+      "Data Definition Language",
+      "Data Manipulation Language",
+      "Query Language",
+      "উপরের সবগুলোই"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "উপরের সবগুলোই",
+    "explanation": "SQL-এ DDL, DML এবং DQL (Query Language)—সবগুলোই ডেটাবেস ল্যাঙ্গুয়েজের প্রধান অংশ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "উপরের সবগুলোই",
+    "hints": "মূল তথ্য: SQL-এ DDL, DML এবং DQL (Query Language)—সবগুলোই ডেটাবেস ল্যাঙ্গুয়েজের প্রধান অংশ।"
+  },
+  {
+    "id": 134,
+    "question": "সোশ্যাল নেটওয়ার্কিং টুইটার কত সালে তৈরি হয়?",
+    "options": [
+      "২০০৪",
+      "২০০৬",
+      "২০০৩",
+      "২০০৮"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "২০০৬",
+    "explanation": "২০০৬ সালের মার্চ মাসে জ্যাক ডরসি, বিজ স্টোন ও ইভান উইলিয়ামস টুইটার (বর্তমান X) প্রতিষ্ঠা করেন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "২০০৬",
+    "hints": "মূল তথ্য: ২০০৬ সালের মার্চ মাসে জ্যাক ডরসি, বিজ স্টোন ও ইভান উইলিয়ামস টুইটার (বর্তমান X) প্রতিষ্ঠা করেন।"
+  },
+  {
+    "id": 135,
+    "question": "নিচের কোন স্মার্টফোন অপারেটিং সিস্টেমটি ওপেন সোর্স প্ল্যাটফর্ম?",
+    "options": [
+      "IOS",
+      "Windows phone",
+      "Android",
+      "Symbian"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Android",
+    "explanation": "অ্যান্ড্রয়েড (Android) হলো গুগল পরিচালিত একটি ওপেন সোর্স মোবাইল অপারেটিং সিস্টেম প্ল্যাটফর্ম।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Android",
+    "hints": "মূল তথ্য: অ্যান্ড্রয়েড (Android) হলো গুগল পরিচালিত একটি ওপেন সোর্স মোবাইল অপারেটিং সিস্টেম প্ল্যাটফর্ম।"
+  },
+  {
+    "id": 136,
+    "question": "মোবাইল কমিউনিকেশনে 4G-এর ক্ষেত্রে 3G এর তুলনায় অতিরিক্ত বৈশিষ্ট্য কি?",
+    "options": [
+      "ভয়েস টেলিফোনি",
+      "ভিডিও কল",
+      "মোবাইল টিভি",
+      "ব্রডব্যান্ড ইন্টারনেট সেবা"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "ব্রডব্যান্ড ইন্টারনেট সেবা",
+    "explanation": "3G-এর তুলনায় 4G নেটওয়ার্কের সবচেয়ে বড় যুগান্তকারী বৈশিষ্ট্য হলো অত্যন্ত উচ্চগতির সত্যিকারে ব্রডব্যান্ড ইন্টারনেট ডেটা সেবা।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ব্রডব্যান্ড ইন্টারনেট সেবা",
+    "hints": "মূল তথ্য: 3G-এর তুলনায় 4G নেটওয়ার্কের সবচেয়ে বড় যুগান্তকারী বৈশিষ্ট্য হলো অত্যন্ত উচ্চগতির সত্যিকারে ব্রডব্যান্ড ইন্টারনেট ...।"
+  },
+  {
+    "id": 137,
+    "question": "Oracle Corporation--এর প্রতিষ্ঠাতা কে?",
+    "options": [
+      "Bill Gates",
+      "Tim Cook",
+      "Andrew S Grove",
+      "Lawrence J. Ellison"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "Lawrence J. Ellison",
+    "explanation": "১৯৭৭ সালে ল্যারি এলিসন (Lawrence J. Ellison) বব মাইনার ও এড ওটসের সাথে ওরাকল কর্পোরেশন প্রতিষ্ঠা করেন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Lawrence J. Ellison",
+    "hints": "মূল তথ্য: ১৯৭৭ সালে ল্যারি এলিসন (Lawrence J।"
+  },
+  {
+    "id": 138,
+    "question": "প্রোগ্রাম থেকে কপি করা ডাটা কোথায় থাকে?",
+    "options": [
+      "RAM",
+      "Clipboard",
+      "Terminal",
+      "Hard Disk"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Clipboard",
+    "explanation": "যেকোনো প্রোগ্রাম থেকে ডেটা কাট বা কপি করলে তা উইন্ডোজের অস্থায়ী মেমরি ক্লিপবোর্ডে (Clipboard) সংরক্ষিত থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Clipboard",
+    "hints": "মূল তথ্য: যেকোনো প্রোগ্রাম থেকে ডেটা কাট বা কপি করলে তা উইন্ডোজের অস্থায়ী মেমরি ক্লিপবোর্ডে (Clipboard) সংরক্ষিত থাকে।"
+  },
+  {
+    "id": 139,
+    "question": "পারসনাল কম্পিউটার যুক্ত করে নিচের কোনটি তৈরি করা যায়?",
+    "options": [
+      "Super Computer",
+      "Network",
+      "Server",
+      "Enterprise"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Network",
+    "explanation": "একাধিক পার্সোনাল কম্পিউটারকে পরস্পরের সাথে সংযুক্ত করে একটি নেটওয়ার্ক (Network) গঠিত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Network",
+    "hints": "মূল তথ্য: একাধিক পার্সোনাল কম্পিউটারকে পরস্পরের সাথে সংযুক্ত করে একটি নেটওয়ার্ক (Network) গঠিত হয়।"
+  },
+  {
+    "id": 140,
+    "question": "The term PC means",
+    "options": [
+      "Private Computer",
+      "Prime Computer",
+      "Personal Computer",
+      "Professional Computer"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Personal Computer",
+    "explanation": "PC শব্দের পূর্ণরূপ হলো Personal Computer।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Personal Computer",
+    "hints": "মূল তথ্য: PC শব্দের পূর্ণরূপ হলো Personal Computer।"
+  },
+  {
+    "id": 141,
+    "question": "ইন্টারনেট চালুর বছর",
+    "options": [
+      "১৯৫৯",
+      "১৯৬৫",
+      "১৯৬৯",
+      "১৯৮১"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "১৯৬৯",
+    "explanation": "১৯৬৯ সালে ARPANET চালুর মাধ্যমে আধুনিক ইন্টারনেটের সূচনা ঘটেছিল।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "১৯৬৯",
+    "hints": "মূল তথ্য: ১৯৬৯ সালে ARPANET চালুর মাধ্যমে আধুনিক ইন্টারনেটের সূচনা ঘটেছিল।"
+  },
+  {
+    "id": 142,
+    "question": "মডেম-এর মধ্যে যা থাকে তা হলো",
+    "options": [
+      "একটি মডুলেটর",
+      "একটি মডুলেটর ও একটি ডিমডুলেটর",
+      "একটি কোডেক",
+      "একটি এনকোডার"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "একটি মডুলেটর ও একটি ডিমডুলেটর",
+    "explanation": "মোডেম (Modem) শব্দের মধ্যে একটি মডুলেটর (Modulator) এবং একটি ডিমডুলেটর (Demodulator) সার্কিট সমন্বিত থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "একটি মডুলেটর ও একটি ডিমডুলেটর",
+    "hints": "মূল তথ্য: মোডেম (Modem) শব্দের মধ্যে একটি মডুলেটর (Modulator) এবং একটি ডিমডুলেটর (Demodulator) সার্কিট সমন্বিত থাকে।"
+  },
+  {
+    "id": 143,
+    "question": "কম্পিউটার ভাইরাস কি?",
+    "options": [
+      "একটি ক্ষতিকারক জীবাণু",
+      "একটি ক্ষতিকারক সার্কিট",
+      "একটি ক্ষতিকারক চৌম্বক ফ্লাক্স",
+      "একটি ক্ষতিকারক প্রোগ্রাম"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "একটি ক্ষতিকারক প্রোগ্রাম",
+    "explanation": "কম্পিউটার ভাইরাস হলো ক্ষতিকারক কোড বা প্রোগ্রামের সমষ্টি যা অনুমতি ছাড়া সিস্টেমে প্রবেশ করে ক্ষতিসাধন করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "একটি ক্ষতিকারক প্রোগ্রাম",
+    "hints": "মূল তথ্য: কম্পিউটার ভাইরাস হলো ক্ষতিকারক কোড বা প্রোগ্রামের সমষ্টি যা অনুমতি ছাড়া সিস্টেমে প্রবেশ করে ক্ষতিসাধন করে।"
+  },
+  {
+    "id": 144,
+    "question": "কোনটি তারবিহীন দ্রুতগতির ইন্টারনেট সংযোগের জন্য উপযোগী?",
+    "options": [
+      "ওয়াইম্যাক্স",
+      "সি-মস",
+      "ব্লু-টুথ",
+      "ব্রডব্যান্ড"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "ওয়াইম্যাক্স",
+    "explanation": "ওয়াইম্যাক্স (WiMAX) হলো দীর্ঘ দূরত্বে তারবিহীন ব্রডব্যান্ড উচ্চগতির ইন্টারনেট সরবরাহের প্রযুক্তি।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ওয়াইম্যাক্স",
+    "hints": "মূল তথ্য: ওয়াইম্যাক্স (WiMAX) হলো দীর্ঘ দূরত্বে তারবিহীন ব্রডব্যান্ড উচ্চগতির ইন্টারনেট সরবরাহের প্রযুক্তি।"
+  },
+  {
+    "id": 145,
+    "question": "কম্পিউটার-টু- কম্পিউটারের তথ্য আদান-প্রদানের প্রযুক্তিকে বলা হয়",
+    "options": [
+      "ই-মেইল",
+      "ইন্টারকম",
+      "ইন্টারনেট",
+      "টেলিকমিউনিকেশন"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ইন্টারনেট",
+    "explanation": "বিশ্বব্যাপী কম্পিউটারসমূহের মধ্যে তথ্য ও ডেটা আদান-প্রদানের সর্বজনীন সমন্বিত প্রযুক্তি হলো ইন্টারনেট (Internet)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ইন্টারনেট",
+    "hints": "মূল তথ্য: বিশ্বব্যাপী কম্পিউটারসমূহের মধ্যে তথ্য ও ডেটা আদান-প্রদানের সর্বজনীন সমন্বিত প্রযুক্তি হলো ইন্টারনেট (Internet)।"
+  },
+  {
+    "id": 146,
+    "question": "কম্পিউটার থেকে কম্পিউটারে তথ্য আদান-প্রদানের প্রযুক্তিকে বলা হয়",
+    "options": [
+      "ই-মেইল",
+      "ইন্টারকম",
+      "ইন্টারনেট",
+      "টেলিগ্রাম"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ইন্টারনেট",
+    "explanation": "কম্পিউটার থেকে কম্পিউটারে সার্বিক তথ্য ও উপাত্ত স্থানান্তরের বৈশ্বিক প্রযুক্তি হলো ইন্টারনেট।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ইন্টারনেট",
+    "hints": "মূল তথ্য: কম্পিউটার থেকে কম্পিউটারে সার্বিক তথ্য ও উপাত্ত স্থানান্তরের বৈশ্বিক প্রযুক্তি হলো ইন্টারনেট।"
+  },
+  {
+    "id": 147,
+    "question": "কম্পিউটারের স্থায়ী স্মৃতিশক্তিকে কি বলে?",
+    "options": [
+      "RAM",
+      "ROM",
+      "হার্ডওয়্যার",
+      "সফটওয়্যার"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "ROM",
+    "explanation": "কম্পিউটারের স্থায়ী স্মৃতিশক্তিকে ROM (Read Only Memory) বলা হয়, যার তথ্য বিদ্যুৎ বন্ধ হলেও অক্ষুণ্ণ থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ROM",
+    "hints": "মূল তথ্য: কম্পিউটারের স্থায়ী স্মৃতিশক্তিকে ROM (Read Only Memory) বলা হয়, যার তথ্য বিদ্যুৎ বন্ধ হলেও অক্ষুণ্ণ থাকে।"
+  },
+  {
+    "id": 148,
+    "question": "পৃথিবীতে কখন ল্যাপটপ কম্পিউটার প্রবর্তিত হয় এবং কোন কোম্পানি এটা তৈরি করে?",
+    "options": [
+      "কমপ্যাক, ১৯৮৫",
+      "এপসন, ১৯৮১",
+      "আইবিএম, ১৯৮৩",
+      "অ্যাপল, ১৯৭৭"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "এপসন, ১৯৮১",
+    "explanation": "১৯৮১ সালে জাপানি প্রতিষ্ঠান এপসন (Epson) বিশ্বের প্রথম বাণিজ্যিকভাবে সফল বহনযোগ্য ল্যাপটপ কম্পিউটার (HX-20) উন্মোচন করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "এপসন, ১৯৮১",
+    "hints": "মূল তথ্য: ১৯৮১ সালে জাপানি প্রতিষ্ঠান এপসন (Epson) বিশ্বের প্রথম বাণিজ্যিকভাবে সফল বহনযোগ্য ল্যাপটপ কম্পিউটার (HX-20) উন্মোচন করে।"
+  },
+  {
+    "id": 149,
+    "question": "'ল্যাপটপ' কি?",
+    "options": [
+      "ছোট কুকুর",
+      "পর্বতারোহণ সামগ্রী",
+      "বাদ্যযন্ত্র",
+      "ছোট কম্পিউটার"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "ছোট কম্পিউটার",
+    "explanation": "ল্যাপটপ হলো সহজে বহনযোগ্য ক্ষুদ্রাকৃতির ব্যাটারিচালিত পার্সোনাল কম্পিউটার।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ছোট কম্পিউটার",
+    "hints": "মূল তথ্য: ল্যাপটপ হলো সহজে বহনযোগ্য ক্ষুদ্রাকৃতির ব্যাটারিচালিত পার্সোনাল কম্পিউটার।"
+  },
+  {
+    "id": 150,
+    "question": "কম্পিউটারে কোনটি নেই?",
+    "options": [
+      "স্মৃতি",
+      "বুদ্ধি বিবেচনা",
+      "দীর্ঘ সময় কাজ করার ক্ষমতা",
+      "নির্ভুল কাজ করার ক্ষমতা"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "বুদ্ধি বিবেচনা",
+    "explanation": "কম্পিউটারের প্রসেসিং ক্ষমতা ও স্মৃতি থাকলেও মানুষের মতো নিজস্ব বুদ্ধি বিবেচনা বা সাধারণ বোধশক্তি (Common Sense) নেই।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "বুদ্ধি বিবেচনা",
+    "hints": "মূল তথ্য: কম্পিউটারের প্রসেসিং ক্ষমতা ও স্মৃতি থাকলেও মানুষের মতো নিজস্ব বুদ্ধি বিবেচনা বা সাধারণ বোধশক্তি (Common Sense) নেই।"
+  },
+  {
+    "id": 151,
+    "question": "কম্পিউটার ভাইরাস হলো-----",
+    "options": [
+      "এক ধরনের বিশেষ কম্পিউটার প্রোগ্রাম",
+      "কম্পিউটারের যন্ত্রাংশে কোথাও শর্টসার্কিট",
+      "কম্পিউটারের যন্ত্রাংশের মধ্যে জমে থাকা ধূলা",
+      "কম্পিউটারের কোনো যন্ত্রাংশ সার্কিটে ঢিলা কানেকশন"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "এক ধরনের বিশেষ কম্পিউটার প্রোগ্রাম",
+    "explanation": "কম্পিউটার ভাইরাস হলো উদ্দেশ্যপ্রণোদিতভাবে রচিত এক ধরনের ক্ষতিকর প্রোগ্রাম যা কম্পিউটারের ফাইল ও সিস্টেম ধ্বংস করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "এক ধরনের বিশেষ কম্পিউটার প্রোগ্রাম",
+    "hints": "মূল তথ্য: কম্পিউটার ভাইরাস হলো উদ্দেশ্যপ্রণোদিতভাবে রচিত এক ধরনের ক্ষতিকর প্রোগ্রাম যা কম্পিউটারের ফাইল ও সিস্টেম ধ্বংস করে।"
+  },
+  {
+    "id": 152,
+    "question": "কম্পিউটার কে আবিষ্কার করেন?",
+    "options": [
+      "ইউলিয়াম অটরেড",
+      "ব্লেইসি প্যাসকেল",
+      "হাওয়ার্ড এইকিন",
+      "আবাকাস"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "হাওয়ার্ড এইকিন",
+    "explanation": "হাওয়ার্ড এইকিন (Howard Aiken) আইবিএম-এর সহযোগিতায় বিশ্বের প্রথম ইলেক্ট্রোমেকানিক্যাল ডিজিটাল কম্পিউটার Mark-I উদ্ভাবন করেন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "হাওয়ার্ড এইকিন",
+    "hints": "মূল তথ্য: হাওয়ার্ড এইকিন (Howard Aiken) আইবিএম-এর সহযোগিতায় বিশ্বের প্রথম ইলেক্ট্রোমেকানিক্যাল ডিজিটাল কম্পিউটার Mark-I উদ্ভা...।"
+  },
+  {
+    "id": 153,
+    "question": "'ল্যাপটপ' হলো এক ধরনের",
+    "options": [
+      "পর্বতারোহণ সামগ্রী",
+      "ছোট কুকুর",
+      "বাদ্যযন্ত্র",
+      "ছোট কম্পিউটার"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "ছোট কম্পিউটার",
+    "explanation": "ল্যাপটপ হলো সহজে কোলে রেখে ব্যবহার উপযোগী একটি বহনযোগ্য ছোট কম্পিউটার।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "ছোট কম্পিউটার",
+    "hints": "মূল তথ্য: ল্যাপটপ হলো সহজে কোলে রেখে ব্যবহার উপযোগী একটি বহনযোগ্য ছোট কম্পিউটার।"
+  },
+  {
+    "id": 154,
+    "question": "বাংলাদেশের ভূ-উপগ্রহ কেন্দ্রের সংখ্যা কয়টি?",
+    "options": [
+      "এক",
+      "দুই",
+      "তিন",
+      "চার"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "চার",
+    "explanation": "বাংলাদেশে বর্তমানে ৪টি ভূ-উপগ্রহ কেন্দ্র রয়েছে (বেতবুনিয়া, তালিবাবাদ, মহাখালী ও সিলেট)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "চার",
+    "hints": "মূল তথ্য: বাংলাদেশে বর্তমানে ৪টি ভূ-উপগ্রহ কেন্দ্র রয়েছে (বেতবুনিয়া, তালিবাবাদ, মহাখালী ও সিলেট)।"
+  },
+  {
+    "id": 155,
+    "question": "ডিজিটাল ঘড়ি বা ক্যালকুলেটরে কালচে অনুজ্জ্বল যে লেখা ফুটে ওঠে তা কিসের ভিত্তিতে তৈরি?",
+    "options": [
+      "এলইডি",
+      "সিলিকন চিপ",
+      "এলসিডি",
+      "আইসি"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "এলসিডি",
+    "explanation": "ডিজিটাল ঘড়ি ও ক্যালকুলেটরে অনুজ্জ্বল লেখা প্রদর্শনে LCD (Liquid Crystal Display) প্রযুক্তি ব্যবহৃত হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "এলসিডি",
+    "hints": "মূল তথ্য: ডিজিটাল ঘড়ি ও ক্যালকুলেটরে অনুজ্জ্বল লেখা প্রদর্শনে LCD (Liquid Crystal Display) প্রযুক্তি ব্যবহৃত হয়।"
+  },
+  {
+    "id": 156,
+    "question": "কম্পিউটারের সফটওয়্যার বলতে বুঝানো হয়",
+    "options": [
+      "এর প্রোগ্রাম বা কর্ম পরিকল্পনার কৌশল",
+      "তথ্য দেয়া ও তথ্য নেয়ার অংশ বিশেষ",
+      "যেসব অংশ মুদ্রিত অবস্থায় থাকে",
+      "কম্পিউটার তৈরির নকশা"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "এর প্রোগ্রাম বা কর্ম পরিকল্পনার কৌশল",
+    "explanation": "কম্পিউটারের সফটওয়্যার হলো সুনির্দিষ্ট কাজ সম্পাদনের জন্য লিখিত প্রোগ্রাম, নির্দেশমালা বা কর্মপরিকল্পনার কৌশল।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "এর প্রোগ্রাম বা কর্ম পরিকল্পনার কৌশল",
+    "hints": "মূল তথ্য: কম্পিউটারের সফটওয়্যার হলো সুনির্দিষ্ট কাজ সম্পাদনের জন্য লিখিত প্রোগ্রাম, নির্দেশমালা বা কর্মপরিকল্পনার কৌশল।"
+  },
+  {
+    "id": 157,
+    "question": "A class is a:",
+    "options": [
+      "Physical entity",
+      "Real-world object",
+      "Blueprint or template for creating objects",
+      "Method within an object"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Blueprint or template for creating objects",
+    "explanation": "অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিংয়ে (OOP) একটি ক্লাস হলো নির্দিষ্ট অবজেক্ট তৈরির ব্লুপ্রিন্ট বা টেমপ্লেট (Blueprint or template for creating objects)।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "BCS Computer পার্ট",
+    "chapter": "BCS Computer পার্ট",
+    "correctAnswer": "Blueprint or template for creating objects",
+    "hints": "মূল তথ্য: অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিংয়ে (OOP) একটি ক্লাস হলো নির্দিষ্ট অবজেক্ট তৈরির ব্লুপ্রিন্ট বা টেমপ্লেট (Blueprint or...।"
+  }
+]

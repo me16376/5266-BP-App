@@ -1,0 +1,667 @@
+[
+  {
+    "id": 1,
+    "question": "SDLC-এর পূর্ণরূপ কী?",
+    "options": [
+      "Software Design Life Cycle",
+      "System Development Logic Cycle",
+      "Software Development Life Cycle",
+      "Standard Development Life Cycle"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Software Development Life Cycle",
+    "explanation": "SDLC-এর পূর্ণরূপ হলো Software Development Life Cycle, যা একটি সফটওয়্যার তৈরির শুরু থেকে শেষ পর্যন্ত বিভিন্ন পর্যায় নির্দেশ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Software Development Life Cycle",
+    "hints": "মূল তথ্য: SDLC-এর পূর্ণরূপ হলো Software Development Life Cycle, যা একটি সফটওয়্যার তৈরির শুরু থেকে শেষ পর্যন্ত বিভিন্ন পর্যায় নি...।"
+  },
+  {
+    "id": 2,
+    "question": "SDLC-এর প্রথম ধাপ কোনটি?",
+    "options": [
+      "Design",
+      "Requirement Analysis",
+      "Coding",
+      "Testing"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Requirement Analysis",
+    "explanation": "SDLC-এর প্রথম ধাপ হলো Requirement Analysis বা প্রয়োজনীয়তা বিশ্লেষণ, যেখানে ক্লায়েন্টের চাহিদা বোঝা এবং নথিবদ্ধ করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Requirement Analysis",
+    "hints": "মূল তথ্য: SDLC-এর প্রথম ধাপ হলো Requirement Analysis বা প্রয়োজনীয়তা বিশ্লেষণ, যেখানে ক্লায়েন্টের চাহিদা বোঝা এবং নথিবদ্ধ করা হয়।"
+  },
+  {
+    "id": 3,
+    "question": "কোন ধাপে সফটওয়্যারটির আর্কিটেকচার এবং ডেটাবেস স্কিমা তৈরি করা হয়?",
+    "options": [
+      "Feasibility Study",
+      "Design",
+      "Implementation",
+      "Maintenance"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Design",
+    "explanation": "ডিজাইন (Design) ধাপে সিস্টেমের স্থাপত্য (Architecture), ডেটাবেস স্কিমা এবং ইউজার ইন্টারফেস নকশা তৈরি করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Design",
+    "hints": "মূল তথ্য: ডিজাইন (Design) ধাপে সিস্টেমের স্থাপত্য (Architecture), ডেটাবেস স্কিমা এবং ইউজার ইন্টারফেস নকশা তৈরি করা হয়।"
+  },
+  {
+    "id": 4,
+    "question": "SDLC-এর কোন ধাপে সফটওয়্যারকে ত্রুটিমুক্ত (Bug-free) করা হয়?",
+    "options": [
+      "Coding",
+      "Deployment",
+      "Testing",
+      "Requirement Analysis"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Testing",
+    "explanation": "টেস্টিং (Testing) ধাপে কোডের ত্রুটি বা বাগ খুঁজে বের করে সফটওয়্যারটিকে ত্রুটিমুক্ত ও নির্ভরযোগ্য করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Testing",
+    "hints": "মূল তথ্য: টেস্টিং (Testing) ধাপে কোডের ত্রুটি বা বাগ খুঁজে বের করে সফটওয়্যারটিকে ত্রুটিমুক্ত ও নির্ভরযোগ্য করা হয়।"
+  },
+  {
+    "id": 5,
+    "question": "SDLC-এর শেষ ধাপ কোনটি?",
+    "options": [
+      "Testing",
+      "Maintenance",
+      "Implementation",
+      "Design"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Maintenance",
+    "explanation": "সফটওয়্যার ব্যবহারের পর তার ত্রুটি সংশোধন ও কার্যক্ষমতা বজায় রাখতে রক্ষণাবেক্ষণ (Maintenance) ধাপটি SDLC-এর সর্বশেষ ধাপ হিসেবে কাজ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Maintenance",
+    "hints": "মূল তথ্য: সফটওয়্যার ব্যবহারের পর তার ত্রুটি সংশোধন ও কার্যক্ষমতা বজায় রাখতে রক্ষণাবেক্ষণ (Maintenance) ধাপটি SDLC-এর সর্বশেষ ...।"
+  },
+  {
+    "id": 6,
+    "question": "কোন মডেলটি Linear Sequential মডেল নামে পরিচিত?",
+    "options": [
+      "Agile Model",
+      "Waterfall Model",
+      "Spiral Model",
+      "RAD Model"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Waterfall Model",
+    "explanation": "Waterfall Model একটি সরলরৈখিক এবং ধারাবাহিক মডেল, যেখানে একটি ধাপ শেষ হওয়ার পরেই পরবর্তী ধাপ শুরু হয়, তাই একে Linear Sequential মডেল বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Waterfall Model",
+    "hints": "মূল তথ্য: Waterfall Model একটি সরলরৈখিক এবং ধারাবাহিক মডেল, যেখানে একটি ধাপ শেষ হওয়ার পরেই পরবর্তী ধাপ শুরু হয়, তাই একে Linea...।"
+  },
+  {
+    "id": 7,
+    "question": "Waterfall মডেলের প্রধান অসুবিধা কী?",
+    "options": [
+      "এটি খুব বেশি সময় নেয়।",
+      "এর জন্য কম ডকুমেন্টেশন প্রয়োজন।",
+      "এটি পুনরাবৃত্তিমূলক নয়।",
+      "পরিবর্তন দক্ষতার সাথে গ্রহণ করতে পারে না।"
+    ],
+    "ans": 3,
+    "answer": "ঘ",
+    "correct_answer": "পরিবর্তন দক্ষতার সাথে গ্রহণ করতে পারে না।",
+    "explanation": "Waterfall মডেলের প্রধান অসুবিধা হলো একবার পরবর্তী ধাপে চলে গেলে পূর্ববর্তী ধাপে ফিরে পরিবর্তন আনা অত্যন্ত কঠিন ও ব্যয়বহুল।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "পরিবর্তন দক্ষতার সাথে গ্রহণ করতে পারে না।",
+    "hints": "মূল তথ্য: Waterfall মডেলের প্রধান অসুবিধা হলো একবার পরবর্তী ধাপে চলে গেলে পূর্ববর্তী ধাপে ফিরে পরিবর্তন আনা অত্যন্ত কঠিন ও ব্যয...।"
+  },
+  {
+    "id": 8,
+    "question": "কোন মডেলে ঝুঁকি বিশ্লেষণ সবচেয়ে বেশি গুরুত্বপূর্ণ?",
+    "options": [
+      "V-Model",
+      "Waterfall Model",
+      "Spiral Model",
+      "Prototype Model"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Spiral Model",
+    "explanation": "Spiral মডেলে প্রতিটি চক্র বা লুপে ঝুঁকি মূল্যায়ন (Risk Analysis) করা হয়, তাই ঝুঁকি ব্যবস্থাপনার জন্য এটি সবচেয়ে গুরুত্বপূর্ণ মডেল।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Spiral Model",
+    "hints": "মূল তথ্য: Spiral মডেলে প্রতিটি চক্র বা লুপে ঝুঁকি মূল্যায়ন (Risk Analysis) করা হয়, তাই ঝুঁকি ব্যবস্থাপনার জন্য এটি সবচেয়ে গু...।"
+  },
+  {
+    "id": 9,
+    "question": "কোনটি পুনরাবৃত্তিমূলক এবং Incremental ডেভেলপমেন্টের উপর জোর দেয়?",
+    "options": [
+      "Waterfall Model",
+      "Agile Model",
+      "V-Model",
+      "RAD Model"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Agile Model",
+    "explanation": "Agile Model দ্রুত এবং ছোট ছোট অংশে (Sprints) সফটওয়্যার ডেলিভারি নিশ্চিত করতে পুনরাবৃত্তিমূলক (Iterative) ও বর্ধনশীল (Incremental) পদ্ধতি অনুসরণ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Agile Model",
+    "hints": "মূল তথ্য: Agile Model দ্রুত এবং ছোট ছোট অংশে (Sprints) সফটওয়্যার ডেলিভারি নিশ্চিত করতে পুনরাবৃত্তিমূলক (Iterative) ও বর্ধনশীল ...।"
+  },
+  {
+    "id": 10,
+    "question": "V-মডেলের অপর নাম কী?",
+    "options": [
+      "Volume Model",
+      "Validation Model",
+      "Verification and Validation Model",
+      "View Model"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Verification and Validation Model",
+    "explanation": "V-মডেলকে Verification and Validation Model বলা হয়, কারণ এতে প্রতিটি ডেভেলপমেন্ট ধাপের সমান্তরালে একটি করে টেস্টিং ধাপ থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Verification and Validation Model",
+    "hints": "মূল তথ্য: V-মডেলকে Verification and Validation Model বলা হয়, কারণ এতে প্রতিটি ডেভেলপমেন্ট ধাপের সমান্তরালে একটি করে টেস্টিং ধা...।"
+  },
+  {
+    "id": 11,
+    "question": "V-মডেলের প্রথম দিকে কোন কার্যক্রম সংঘটিত হয়?",
+    "options": [
+      "Validation",
+      "Verification",
+      "Testing",
+      "Maintenance"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Verification",
+    "explanation": "V-মডেলের বাম পাশে প্রাথমিক দিকে সফটওয়্যারের আর্কিটেকচার ও ডিজাইনের সঠিকতা যাচাই করতে ভেরিফিকেশন (Verification) কার্যক্রম ঘটে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Verification",
+    "hints": "মূল তথ্য: V-মডেলের বাম পাশে প্রাথমিক দিকে সফটওয়্যারের আর্কিটেকচার ও ডিজাইনের সঠিকতা যাচাই করতে ভেরিফিকেশন (Verification) কার্য...।"
+  },
+  {
+    "id": 12,
+    "question": "কোনটি Agile মডেলের একটি জনপ্রিয় রূপ?",
+    "options": [
+      "Waterfall",
+      "V-Model",
+      "Scrum",
+      "Spiral"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Scrum",
+    "explanation": "Scrum হলো Agile মডেলের একটি সর্বাধিক জনপ্রিয় এবং বহুল ব্যবহৃত ফ্রেমওয়ার্ক, যা দলগত কাজে স্প্রিন্টের মাধ্যমে সফটওয়্যার ডেভেলপ করে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Scrum",
+    "hints": "মূল তথ্য: Scrum হলো Agile মডেলের একটি সর্বাধিক জনপ্রিয় এবং বহুল ব্যবহৃত ফ্রেমওয়ার্ক, যা দলগত কাজে স্প্রিন্টের মাধ্যমে সফটওয়্...।"
+  },
+  {
+    "id": 13,
+    "question": "RAD মডেলের পূর্ণরূপ কী?",
+    "options": [
+      "Regular Application Development",
+      "Rapid Access Database",
+      "Rapid Application Development",
+      "Robust Application Development"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Rapid Application Development",
+    "explanation": "RAD মডেলের পূর্ণরূপ হলো Rapid Application Development, যা দ্রুত প্রোটোটাইপিং এবং কম সময়ে সফটওয়্যার তৈরির ওপর জোর দেয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Rapid Application Development",
+    "hints": "মূল তথ্য: RAD মডেলের পূর্ণরূপ হলো Rapid Application Development, যা দ্রুত প্রোটোটাইপিং এবং কম সময়ে সফটওয়্যার তৈরির ওপর জোর দেয়।"
+  },
+  {
+    "id": 14,
+    "question": "কোন মডেলটি ক্লায়েন্টের অস্পষ্ট প্রয়োজনীয়তা এর ক্ষেত্রে সবচেয়ে উপযুক্ত?",
+    "options": [
+      "Waterfall Model",
+      "Prototyping Model",
+      "V-Model",
+      "Spiral Model"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Prototyping Model",
+    "explanation": "ক্লায়েন্ট যখন নিজের প্রয়োজনীয়তা স্পষ্টভাবে বলতে পারেন না, তখন প্রাথমিক একটি ডেমো তৈরি করে কাজ শুরু করার জন্য Prototyping Model সবচেয়ে উপযুক্ত।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Prototyping Model",
+    "hints": "মূল তথ্য: ক্লায়েন্ট যখন নিজের প্রয়োজনীয়তা স্পষ্টভাবে বলতে পারেন না, তখন প্রাথমিক একটি ডেমো তৈরি করে কাজ শুরু করার জন্য Proto...।"
+  },
+  {
+    "id": 15,
+    "question": "Spiral মডেলের প্রতিটি চক্রকে কী বলা হয়?",
+    "options": [
+      "Phase",
+      "Step",
+      "Iteration or Loop",
+      "Block"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Iteration or Loop",
+    "explanation": "Spiral মডেলের প্রতিটি বৃত্তাকার চক্রকে Iteration বা Loop বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Iteration or Loop",
+    "hints": "মূল তথ্য: Spiral মডেলের প্রতিটি বৃত্তাকার চক্রকে Iteration বা Loop বলা হয়।"
+  },
+  {
+    "id": 16,
+    "question": "কোন মডেলটি ডিজাইন এবং কোডিং-এর ওপর কম সময় দিয়ে দ্রুত ডেলিভারির ওপর বেশি জোর দেয়?",
+    "options": [
+      "Waterfall",
+      "RAD",
+      "Spiral",
+      "V-Model"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "RAD",
+    "explanation": "RAD (Rapid Application Development) মডেল পুনরায় ব্যবহারযোগ্য কম্পোনেন্ট ও টুলের মাধ্যমে দ্রুত সফটওয়্যার ডেলিভারির ওপর বেশি জোর দেয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "RAD",
+    "hints": "মূল তথ্য: RAD (Rapid Application Development) মডেল পুনরায় ব্যবহারযোগ্য কম্পোনেন্ট ও টুলের মাধ্যমে দ্রুত সফটওয়্যার ডেলিভারির ও...।"
+  },
+  {
+    "id": 17,
+    "question": "Prototyping মডেলে তৈরি প্রথম কার্যকর সংস্করণটিকে কী বলা হয়?",
+    "options": [
+      "Final Product",
+      "Model",
+      "Prototype",
+      "Alpha Version"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Prototype",
+    "explanation": "Prototyping মডেলে ক্লায়েন্টের প্রতিক্রিয়া জানার জন্য তৈরি প্রাথমিক কার্যকরী সংস্করণটিকে Prototype (প্রোটোটাইপ) বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Prototype",
+    "hints": "মূল তথ্য: Prototyping মডেলে ক্লায়েন্টের প্রতিক্রিয়া জানার জন্য তৈরি প্রাথমিক কার্যকরী সংস্করণটিকে Prototype (প্রোটোটাইপ) বলা হয়।"
+  },
+  {
+    "id": 18,
+    "question": "কোন মডেলে টেস্টিং কার্যক্রম ডেভেলপমেন্টের সাথে সমান্তরালভাবে শুরু হয়?",
+    "options": [
+      "Waterfall Model",
+      "V-Model",
+      "RAD Model",
+      "Prototyping Model"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "V-Model",
+    "explanation": "V-মডেলে রিকোয়ারমেন্ট অ্যানালাইসিস পর্যায় থেকেই সমান্তরালভাবে টেস্টিং-এর পরিকল্পনা শুরু হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "V-Model",
+    "hints": "মূল তথ্য: V-মডেলে রিকোয়ারমেন্ট অ্যানালাইসিস পর্যায় থেকেই সমান্তরালভাবে টেস্টিং-এর পরিকল্পনা শুরু হয়।"
+  },
+  {
+    "id": 19,
+    "question": "একটি বৃহৎ ও জটিল প্রকল্পের জন্য কোন মডেলটি সর্বাধিক উপযুক্ত?",
+    "options": [
+      "Waterfall",
+      "Spiral",
+      "RAD",
+      "Prototyping"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Spiral",
+    "explanation": "উচ্চ ঝুঁকিযুক্ত, বড় এবং অত্যন্ত জটিল প্রকল্পের জন্য ঝুঁকি বিশ্লেষণের সুবিধাযুক্ত Spiral Model সবচেয়ে উপযুক্ত।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Spiral",
+    "hints": "মূল তথ্য: উচ্চ ঝুঁকিযুক্ত, বড় এবং অত্যন্ত জটিল প্রকল্পের জন্য ঝুঁকি বিশ্লেষণের সুবিধাযুক্ত Spiral Model সবচেয়ে উপযুক্ত।"
+  },
+  {
+    "id": 20,
+    "question": "Agile এর মূল নীতি অনুযায়ী, সর্বোচ্চ অগ্রাধিকার কাকে দেওয়া হয়?",
+    "options": [
+      "কঠোর ডকুমেন্টেশনকে।",
+      "সফটওয়্যারের দ্রুত ও অবিচ্ছিন্ন ডেলিভারিকে।",
+      "চুক্তির আলোচনার মাধ্যমে পরিবর্তন নিয়ন্ত্রণকে।",
+      "দীর্ঘমেয়াদী পরিকল্পনার অনুসরণকে।"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "সফটওয়্যারের দ্রুত ও অবিচ্ছিন্ন ডেলিভারিকে।",
+    "explanation": "Agile ম্যানিফেস্টোর মূল নীতি হলো কাজ চলাকালীন মূল্যবান সফটওয়্যার দ্রুত ও নিরবচ্ছিন্নভাবে গ্রাহকের কাছে পৌঁছে দেওয়া।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "সফটওয়্যারের দ্রুত ও অবিচ্ছিন্ন ডেলিভারিকে।",
+    "hints": "মূল তথ্য: Agile ম্যানিফেস্টোর মূল নীতি হলো কাজ চলাকালীন মূল্যবান সফটওয়্যার দ্রুত ও নিরবচ্ছিন্নভাবে গ্রাহকের কাছে পৌঁছে দেওয়া।"
+  },
+  {
+    "id": 21,
+    "question": "টেস্টিং-এর প্রাথমিক উদ্দেশ্য কী?",
+    "options": [
+      "সফটওয়্যারটিকে নিখুঁত প্রমাণ করা।",
+      "সফটওয়্যারটির ত্রুটি খুঁজে বের করা।",
+      "সফটওয়্যারের মূল্য নির্ধারণ করা।",
+      "ক্লায়েন্টকে সন্তুষ্ট করা।"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "সফটওয়্যারটির ত্রুটি খুঁজে বের করা।",
+    "explanation": "সফটওয়্যারের ত্রুটি, বাগ বা বিচ্যুতি খুঁজে বের করাই হলো সফটওয়্যার টেস্টিং-এর প্রাথমিক এবং প্রধান উদ্দেশ্য।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "সফটওয়্যারটির ত্রুটি খুঁজে বের করা।",
+    "hints": "মূল তথ্য: সফটওয়্যারের ত্রুটি, বাগ বা বিচ্যুতি খুঁজে বের করাই হলো সফটওয়্যার টেস্টিং-এর প্রাথমিক এবং প্রধান উদ্দেশ্য।"
+  },
+  {
+    "id": 22,
+    "question": "V-মডেলে সিস্টেম টেস্টিং-এর সমান্তরাল ধাপ কোনটি?",
+    "options": [
+      "High-Level Design",
+      "Coding",
+      "Requirement Analysis",
+      "Low-Level Design"
+    ],
+    "ans": 0,
+    "answer": "ক",
+    "correct_answer": "High-Level Design",
+    "explanation": "V-মডেলের নকশা অনুযায়ী High-Level Design বা সিস্টেম আর্কিটেকচার ধাপটির সমান্তরাল টেস্টিং ধাপ হলো System Testing।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "High-Level Design",
+    "hints": "মূল তথ্য: V-মডেলের নকশা অনুযায়ী High-Level Design বা সিস্টেম আর্কিটেকচার ধাপটির সমান্তরাল টেস্টিং ধাপ হলো System Testing।"
+  },
+  {
+    "id": 23,
+    "question": "একটি সফটওয়্যারের ভেতরের কাঠামো এবং কোড সম্পর্কে জ্ঞান রেখে যে পরীক্ষা করা হয়, তাকে কী বলে?",
+    "options": [
+      "Black Box Testing",
+      "White Box Testing",
+      "Gray Box Testing",
+      "Alpha Testing"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "White Box Testing",
+    "explanation": "যখন টেস্টার সোর্স কোড এবং সফটওয়্যারের ভেতরের কাঠামো দেখে পরীক্ষা করেন, তখন তাকে White Box Testing বা গ্লাস বক্স টেস্টিং বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "White Box Testing",
+    "hints": "মূল তথ্য: যখন টেস্টার সোর্স কোড এবং সফটওয়্যারের ভেতরের কাঠামো দেখে পরীক্ষা করেন, তখন তাকে White Box Testing বা গ্লাস বক্স টেস্...।"
+  },
+  {
+    "id": 24,
+    "question": "টেস্টিং-এর কোনটি Non-Functional Testing-এর অংশ?",
+    "options": [
+      "Regression Testing",
+      "Unit Testing",
+      "Performance Testing",
+      "Smoke Testing"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Performance Testing",
+    "explanation": "সফটওয়্যারের গতি, লোড নেওয়ার ক্ষমতা ও স্থিতিশীলতা যাচাই করা হয় Performance Testing-এর মাধ্যমে, যা Non-Functional Testing-এর অংশ।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Performance Testing",
+    "hints": "মূল তথ্য: সফটওয়্যারের গতি, লোড নেওয়ার ক্ষমতা ও স্থিতিশীলতা যাচাই করা হয় Performance Testing-এর মাধ্যমে, যা Non-Functional Te...।"
+  },
+  {
+    "id": 25,
+    "question": "কোনো সফটওয়্যারের ক্ষুদ্রতম অংশ (যেমন ফাংশন বা মডিউল) পরীক্ষা করাকে কী বলা হয়?",
+    "options": [
+      "Integration Testing",
+      "System Testing",
+      "Unit Testing",
+      "UAT Testing"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Unit Testing",
+    "explanation": "সফটওয়্যারের একক কোনো ফাংশন বা মডিউলের কার্যকারিতা পৃথকভাবে পরীক্ষা করাকে Unit Testing বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Unit Testing",
+    "hints": "মূল তথ্য: সফটওয়্যারের একক কোনো ফাংশন বা মডিউলের কার্যকারিতা পৃথকভাবে পরীক্ষা করাকে Unit Testing বলা হয়।"
+  },
+  {
+    "id": 26,
+    "question": "কোনো সফটওয়্যারের পূর্ববর্তী ভার্সনে কোনো পরিবর্তন আনার পর সেটি পুরোনো কার্যকারিতাকে নষ্ট করেনি, তা নিশ্চিত করার জন্য কোন টেস্টিং করা হয়?",
+    "options": [
+      "System Testing",
+      "Regression Testing",
+      "Sanity Testing",
+      "Load Testing"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Regression Testing",
+    "explanation": "কোডে কোনো নতুন পরিবর্তন বা বাগ ফিক্স করার পর বিদ্যমান পুরোনো ফিচার ক্ষতিগ্রস্ত হয়েছে কিনা তা যাচাই করতে Regression Testing করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Regression Testing",
+    "hints": "মূল তথ্য: কোডে কোনো নতুন পরিবর্তন বা বাগ ফিক্স করার পর বিদ্যমান পুরোনো ফিচার ক্ষতিগ্রস্ত হয়েছে কিনা তা যাচাই করতে Regression T...।"
+  },
+  {
+    "id": 27,
+    "question": "ব্ল্যাক বক্স টেস্টিং-এর একটি কৌশল কোনটি?",
+    "options": [
+      "Path Coverage",
+      "Loop Testing",
+      "Equivalence Partitioning",
+      "Statement Coverage"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Equivalence Partitioning",
+    "explanation": "Equivalence Partitioning হলো ব্ল্যাক বক্স টেস্টিং-এর একটি অন্যতম কৌশল, যেখানে ইনপুট ডেটাকে সমমানের কয়েকটি ভাগে ভাগ করে পরীক্ষা করা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Equivalence Partitioning",
+    "hints": "মূল তথ্য: Equivalence Partitioning হলো ব্ল্যাক বক্স টেস্টিং-এর একটি অন্যতম কৌশল, যেখানে ইনপুট ডেটাকে সমমানের কয়েকটি ভাগে ভাগ ক...।"
+  },
+  {
+    "id": 28,
+    "question": "অ্যাক্সেপ্টেন্স টেস্টিং-এর প্রধান রূপ কোনটি, যা ক্লায়েন্ট দ্বারা সম্পাদিত হয়?",
+    "options": [
+      "Alpha Testing",
+      "Beta Testing",
+      "User Acceptance Testing",
+      "Security Testing"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "User Acceptance Testing",
+    "explanation": "ব্যবহারকারী বা ক্লায়েন্ট সফটওয়্যারটি গ্রহণ করার পূর্বে তার ব্যবসায়িক চাহিদা পূরণ হয়েছে কিনা তা যাচাই করতে User Acceptance Testing (UAT) পরিচালনা করেন।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "User Acceptance Testing",
+    "hints": "মূল তথ্য: ব্যবহারকারী বা ক্লায়েন্ট সফটওয়্যারটি গ্রহণ করার পূর্বে তার ব্যবসায়িক চাহিদা পূরণ হয়েছে কিনা তা যাচাই করতে User Ac...।"
+  },
+  {
+    "id": 29,
+    "question": "টেস্টার যখন কোড বা ইন্টারনাল স্ট্রাকচার না জেনে শুধু সফটওয়্যারের ফাংশনালিটি পরীক্ষা করেন, তখন তাকে কী বলে?",
+    "options": [
+      "White Box Testing",
+      "Black Box Testing",
+      "Structure Testing",
+      "Integration Testing"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Black Box Testing",
+    "explanation": "কোড বা ইন্টারনাল আর্কিটেকচার না জেনে কেবল ইনপুট ও আউটপুট ফাংশনালিটি পরীক্ষা করাকে Black Box Testing বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Black Box Testing",
+    "hints": "মূল তথ্য: কোড বা ইন্টারনাল আর্কিটেকচার না জেনে কেবল ইনপুট ও আউটপুট ফাংশনালিটি পরীক্ষা করাকে Black Box Testing বলে।"
+  },
+  {
+    "id": 30,
+    "question": "স্ট্রেস টেস্টিং কী ধরনের টেস্টিং?",
+    "options": [
+      "Functional Testing",
+      "Non-Functional Testing",
+      "Maintenance Testing",
+      "Static Testing"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Non-Functional Testing",
+    "explanation": "চরম বা অস্বাভাবিক লোডে সফটওয়্যার কীভাবে সাড়া দেয় তা যাচাই করা হলো স্ট্রেস টেস্টিং, যা Non-Functional Testing-এর অন্তর্ভুক্ত।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Non-Functional Testing",
+    "hints": "মূল তথ্য: চরম বা অস্বাভাবিক লোডে সফটওয়্যার কীভাবে সাড়া দেয় তা যাচাই করা হলো স্ট্রেস টেস্টিং, যা Non-Functional Testing-এর অন...।"
+  },
+  {
+    "id": 31,
+    "question": "একাধিক মডিউল একত্রিত হওয়ার পর তাদের মধ্যে ডেটা ফ্লো এবং ইন্টারফেস পরীক্ষা করাকে কী বলা হয়?",
+    "options": [
+      "Unit Testing",
+      "Integration Testing",
+      "System Testing",
+      "UAT Testing"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Integration Testing",
+    "explanation": "একাধিক ইউনিট বা মডিউল একসাথে যুক্ত করে তাদের মধ্যকার যোগাযোগ ও ডেটা আদান-প্রদান পরীক্ষা করাকে Integration Testing বলে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Integration Testing",
+    "hints": "মূল তথ্য: একাধিক ইউনিট বা মডিউল একসাথে যুক্ত করে তাদের মধ্যকার যোগাযোগ ও ডেটা আদান-প্রদান পরীক্ষা করাকে Integration Testing বলে।"
+  },
+  {
+    "id": 32,
+    "question": "টেস্টিং-এর কোন ধাপে সফটওয়্যারটিকে বিভিন্ন ব্রাউজার, অপারেটিং সিস্টেম বা হার্ডওয়্যারে পরীক্ষা করা হয়?",
+    "options": [
+      "Security Testing",
+      "Compatibility Testing",
+      "Usability Testing",
+      "Installation Testing"
+    ],
+    "ans": 1,
+    "answer": "খ",
+    "correct_answer": "Compatibility Testing",
+    "explanation": "সফটওয়্যারটি বিভিন্ন অপারেটিং সিস্টেম, ব্রাউজার বা ডিভাইসে ঠিকমতো চলে কিনা তা যাচাই করার প্রক্রিয়া হলো Compatibility Testing।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Compatibility Testing",
+    "hints": "মূল তথ্য: সফটওয়্যারটি বিভিন্ন অপারেটিং সিস্টেম, ব্রাউজার বা ডিভাইসে ঠিকমতো চলে কিনা তা যাচাই করার প্রক্রিয়া হলো Compatibility...।"
+  },
+  {
+    "id": 33,
+    "question": "বাগ (Bug), ফল্ট (Fault) বা ডিফেক্ট (Defect) বলতে কী বোঝানো হয়?",
+    "options": [
+      "সফটওয়্যারটির একটি নতুন ফিচার।",
+      "ডেভেলপারদের দ্বারা তৈরি করা ত্রুটি।",
+      "ত্রুটি, যার কারণে এটি প্রত্যাশিত ফলাফল হয়না।",
+      "টেস্টিং রিপোর্ট।"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "ত্রুটি, যার কারণে এটি প্রত্যাশিত ফলাফল হয়না।",
+    "explanation": "প্রোগ্রামের কোনো ত্রুটি বা ভুলের কারণে যখন প্রত্যাশিত ও বাস্তব ফলাফলের মধ্যে পার্থক্য দেখা দেয়, তাকে বাগ (Bug), ফল্ট বা ডিফেক্ট বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "ত্রুটি, যার কারণে এটি প্রত্যাশিত ফলাফল হয়না।",
+    "hints": "মূল তথ্য: প্রোগ্রামের কোনো ত্রুটি বা ভুলের কারণে যখন প্রত্যাশিত ও বাস্তব ফলাফলের মধ্যে পার্থক্য দেখা দেয়, তাকে বাগ (Bug), ফল্ট...।"
+  },
+  {
+    "id": 34,
+    "question": "Alpha Testing সাধারণত কারা করেন?",
+    "options": [
+      "ক্লায়েন্ট বা ব্যবহারকারীরা।",
+      "বাইরের টেস্টিং কোম্পানি।",
+      "সফটওয়্যার ডেভেলপার বা অভ্যন্তরীণ QA দল।",
+      "হ্যাকাররা।"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "সফটওয়্যার ডেভেলপার বা অভ্যন্তরীণ QA দল।",
+    "explanation": "Alpha Testing হলো অভ্যন্তরীণ গ্রহণযোগ্যতা পরীক্ষা, যা সাধারণত সফটওয়্যার নির্মাতা প্রতিষ্ঠানের নিজস্ব ডেভেলপার বা অভ্যন্তরীণ QA দল করে থাকে।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "সফটওয়্যার ডেভেলপার বা অভ্যন্তরীণ QA দল।",
+    "hints": "মূল তথ্য: Alpha Testing হলো অভ্যন্তরীণ গ্রহণযোগ্যতা পরীক্ষা, যা সাধারণত সফটওয়্যার নির্মাতা প্রতিষ্ঠানের নিজস্ব ডেভেলপার বা অভ্...।"
+  },
+  {
+    "id": 35,
+    "question": "টেস্টিং প্রথম থেকেই শুরু হওয়া উচিত—এই নীতিটিকে কী বলা হয়?",
+    "options": [
+      "Exhaustive Testing",
+      "Defect Clustering",
+      "Early Testing",
+      "Pesticide Paradox"
+    ],
+    "ans": 2,
+    "answer": "গ",
+    "correct_answer": "Early Testing",
+    "explanation": "সফটওয়্যার ডেভেলপমেন্টের একেবারে শুরু থেকেই টেস্টিং কার্যক্রম শুরু করার নীতিকে Early Testing বলা হয়।",
+    "subject": "BPSC ICT Wizard",
+    "exam": "5. Software Enginnering",
+    "chapter": "5. Software Enginnering",
+    "correctAnswer": "Early Testing",
+    "hints": "মূল তথ্য: সফটওয়্যার ডেভেলপমেন্টের একেবারে শুরু থেকেই টেস্টিং কার্যক্রম শুরু করার নীতিকে Early Testing বলা হয়।"
+  }
+]

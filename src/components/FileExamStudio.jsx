@@ -50,7 +50,7 @@ const BANGLA_FONTS = [
   { 
     id: 'auto', 
     name: 'স্বয়ংক্রিয় স্মার্ট ফন্ট (International Unicode: বাংলা + English + Math)', 
-    family: "'Inter', 'Noto Sans Bengali', 'Kalpurush', 'SolaimanLipi', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', sans-serif",
+    family: "'Inter', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', sans-serif",
     badge: 'ইন্টারন্যাশনাল'
   },
   { 

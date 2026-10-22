@@ -22,18 +22,6 @@
   }
 }
 
-/* Direct fallback @font-face declarations for high reliability across print & embedded frames */
-@font-face {
-  font-family: 'Kalpurush';
-  font-display: swap;
-  font-style: normal;
-  font-weight: 100 900;
-  src: local('Kalpurush'),
-       url('/fonts/kalpurush.woff2') format('woff2'),
-       url('https://fonts.maateen.me/kalpurush/Kalpurush-v0.258.woff2') format('woff2'),
-       url('https://fonts.maateen.me/kalpurush/Kalpurush-v0.258.ttf') format('truetype');
-}
-
 @font-face {
   font-family: 'SolaimanLipi';
   font-display: swap;
@@ -56,13 +44,13 @@
 }
 
 :root {
-  --font-sans: 'Inter', 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-kalpurush: 'Kalpurush', 'Inter', 'SolaimanLipi', sans-serif;
-  --font-solaiman: 'SolaimanLipi', 'Inter', 'Kalpurush', sans-serif;
-  --font-anek: 'Anek Bangla', 'Inter', sans-serif;
-  --font-noto: 'Noto Sans Bengali', 'Inter', sans-serif;
-  --font-math: 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', 'STIX Two Math', 'Inter', 'Kalpurush', serif;
-  --font-english: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Kalpurush', sans-serif;
+  --font-sans: 'Inter', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-kalpurush: 'Inter', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-solaiman: 'Inter', 'SolaimanLipi', 'Noto Sans Bengali', 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-anek: 'Inter', 'Anek Bangla', 'SolaimanLipi', 'Noto Sans Bengali', sans-serif;
+  --font-noto: 'Inter', 'Noto Sans Bengali', 'SolaimanLipi', sans-serif;
+  --font-math: 'KaTeX_Main', 'KaTeX_Math', 'Cambria Math', 'STIX Two Math', 'Inter', 'SolaimanLipi', serif;
+  --font-english: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SolaimanLipi', sans-serif;
   
   /* Modern Crisp Light Theme */
   --bg-primary: #f8fafc;
@@ -358,6 +346,7 @@ a {
 
 /* Rich Math and HTML Formatted Content */
 .formatted-content {
+  font-family: var(--font-sans);
   word-break: break-word;
   overflow-wrap: break-word;
 }
@@ -447,7 +436,7 @@ a {
 
 .katex .brahmic_fallback,
 .katex .mord.text {
-  font-family: 'Kalpurush', 'SolaimanLipi', 'Noto Sans Bengali', 'Anek Bangla', sans-serif !important;
+  font-family: 'SolaimanLipi', 'Noto Sans Bengali', 'Anek Bangla', sans-serif !important;
   font-size: 1em;
 }
 
@@ -584,6 +573,7 @@ a {
 
 /* Question Options Grid — 4 options in 1 line on Desktop */
 .question-options-grid {
+  font-family: var(--font-sans);
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
@@ -656,4 +646,87 @@ a {
   box-shadow: 0 4px 12px rgba(16, 185, 129, 0.22) !important;
   transform: none !important;
 }
+
+/* Redesigned Special Modules Section */
+.special-module-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 2px 6px -1px rgba(15, 23, 42, 0.02);
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.special-module-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -4px rgba(15, 23, 42, 0.1), 0 4px 12px -2px rgba(15, 23, 42, 0.04);
+}
+
+.special-module-btn-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  flex: 1;
+}
+
+.special-module-btn-box:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.special-module-btn-smart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  flex: 1;
+}
+
+.special-module-btn-smart:hover {
+  background: #ffffff;
+  border-color: #94a3b8;
+  color: #0f172a;
+  transform: translateY(-1px);
+}
+
+.special-module-practice-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.special-module-practice-link:hover {
+  opacity: 0.85;
+}
+
+.special-module-practice-link:hover .link-arrow {
+  transform: translateX(4px);
+}
+
 
