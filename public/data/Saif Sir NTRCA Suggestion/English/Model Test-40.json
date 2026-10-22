@@ -7,302 +7,352 @@
     {
       "id": 1,
       "question": "Assemble শব্দটির সঠিক synonym কোনটি?",
-      "options": {
-        "ক": "Unit",
-        "খ": "Disparse",
-        "গ": "Separate",
-        "ঘ": "Split"
-      },
+      "options": [
+        "Unit",
+        "Disparse",
+        "Separate",
+        "Split"
+      ],
       "answer": "ক",
-      "explanation": "'Assemble' অর্থ একত্রিত হওয়া বা সমাবেশ করা। একত্রিত ঐক্যবদ্ধ রূপ বোঝাতে অপশন (ক) Unit উত্তরমালায় গৃহীত।"
+      "explanation": "'Assemble' অর্থ একত্রিত হওয়া বা সমাবেশ করা। একত্রিত ঐক্যবদ্ধ রূপ বোঝাতে অপশন (ক) Unit উত্তরমালায় গৃহীত।",
+      "ans": 0,
+      "correct_answer": "Unit"
     },
     {
       "id": 2,
       "question": "Buccaneer শব্দটির সঠিক synonym কোনটি?",
-      "options": {
-        "ক": "Bachelor",
-        "খ": "Presenter",
-        "গ": "Pirate",
-        "ঘ": "Butcher"
-      },
+      "options": [
+        "Bachelor",
+        "Presenter",
+        "Pirate",
+        "Butcher"
+      ],
       "answer": "গ",
-      "explanation": "'Buccaneer' অর্থ জলদস্যু বা সমুদ্রের ডাকাত। এর সরাসরি সমার্থক শব্দ হলো 'Pirate' (জলদস্যু)।"
+      "explanation": "'Buccaneer' অর্থ জলদস্যু বা সমুদ্রের ডাকাত। এর সরাসরি সমার্থক শব্দ হলো 'Pirate' (জলদস্যু)।",
+      "ans": 2,
+      "correct_answer": "Pirate"
     },
     {
       "id": 3,
       "question": "Pungent শব্দটির সঠিক synonym কোনটি?",
-      "options": {
-        "ক": "Tide",
-        "খ": "Rain",
-        "গ": "Overpowering",
-        "ঘ": "Bland"
-      },
+      "options": [
+        "Tide",
+        "Rain",
+        "Overpowering",
+        "Bland"
+      ],
       "answer": "গ",
-      "explanation": "'Pungent' অর্থ তীব্র, ঝাঁঝালো বা তীব্র গন্ধযুক্ত। এর সমার্থক শব্দ হলো 'Overpowering' (অসহ্য/তীব্র ঝাঁঝযুক্ত) বা 'Sharp'।"
+      "explanation": "'Pungent' অর্থ তীব্র, ঝাঁঝালো বা তীব্র গন্ধযুক্ত। এর সমার্থক শব্দ হলো 'Overpowering' (অসহ্য/তীব্র ঝাঁঝযুক্ত) বা 'Sharp'।",
+      "ans": 2,
+      "correct_answer": "Overpowering"
     },
     {
       "id": 4,
       "question": "Aroma শব্দটির সঠিক synonym কোনটি?",
-      "options": {
-        "ক": "Food",
-        "খ": "Fruits",
-        "গ": "Colourless",
-        "ঘ": "Fragrance"
-      },
+      "options": [
+        "Food",
+        "Fruits",
+        "Colourless",
+        "Fragrance"
+      ],
       "answer": "ঘ",
-      "explanation": "'Aroma' অর্থ সুবাস, সুগন্ধ বা মনোরম ঘ্রাণ। এর সমার্থক শব্দ হলো 'Fragrance' (সুগন্ধ) বা 'Scent'।"
+      "explanation": "'Aroma' অর্থ সুবাস, সুগন্ধ বা মনোরম ঘ্রাণ। এর সমার্থক শব্দ হলো 'Fragrance' (সুগন্ধ) বা 'Scent'।",
+      "ans": 3,
+      "correct_answer": "Fragrance"
     },
     {
       "id": 5,
       "question": "Desolate শব্দটির সঠিক Antonyms কোনটি?",
-      "options": {
-        "ক": "Populous",
-        "খ": "Isolated",
-        "গ": "Abandoned",
-        "ঘ": "Disfigured"
-      },
+      "options": [
+        "Populous",
+        "Isolated",
+        "Abandoned",
+        "Disfigured"
+      ],
       "answer": "ক",
-      "explanation": "'Desolate' অর্থ জনমানবহীন, নির্জন বা পরিত্যক্ত। এর বিপরীত শব্দ (Antonym) হলো 'Populous' (জনবহুল) বা 'Inhabited'।"
+      "explanation": "'Desolate' অর্থ জনমানবহীন, নির্জন বা পরিত্যক্ত। এর বিপরীত শব্দ (Antonym) হলো 'Populous' (জনবহুল) বা 'Inhabited'।",
+      "ans": 0,
+      "correct_answer": "Populous"
     },
     {
       "id": 6,
       "question": "Flawlessness শব্দটির সঠিক Antonym কোনটি?",
-      "options": {
-        "ক": "Excellence",
-        "খ": "Imperfectness",
-        "গ": "Accurateness",
-        "ঘ": "Faultlessness"
-      },
+      "options": [
+        "Excellence",
+        "Imperfectness",
+        "Accurateness",
+        "Faultlessness"
+      ],
       "answer": "খ",
-      "explanation": "'Flawlessness' অর্থ নিখুঁত অবস্থা বা ত্রুটিহীনতা। এর বিপরীত শব্দ (Antonym) হলো 'Imperfectness' (অপূর্ণতা বা ত্রুটিপূর্ণতা)।"
+      "explanation": "'Flawlessness' অর্থ নিখুঁত অবস্থা বা ত্রুটিহীনতা। এর বিপরীত শব্দ (Antonym) হলো 'Imperfectness' (অপূর্ণতা বা ত্রুটিপূর্ণতা)।",
+      "ans": 1,
+      "correct_answer": "Imperfectness"
     },
     {
       "id": 7,
       "question": "Aproach শব্দটির সঠিক Antonym কোনটি?",
-      "options": {
-        "ক": "Come",
-        "খ": "Retract",
-        "গ": "Decrease",
-        "ঘ": "Move"
-      },
+      "options": [
+        "Come",
+        "Retract",
+        "Decrease",
+        "Move"
+      ],
       "answer": "খ",
-      "explanation": "'Approach' অর্থ এগিয়ে যাওয়া বা নিকটে আসা। এর বিপরীত শব্দ (Antonym) হলো 'Retract' (পিছিয়ে আসা বা প্রত্যাহার করা)।"
+      "explanation": "'Approach' অর্থ এগিয়ে যাওয়া বা নিকটে আসা। এর বিপরীত শব্দ (Antonym) হলো 'Retract' (পিছিয়ে আসা বা প্রত্যাহার করা)।",
+      "ans": 1,
+      "correct_answer": "Retract"
     },
     {
       "id": 8,
       "question": "Hate শব্দটির সঠিক Antonym কোনটি?",
-      "options": {
-        "ক": "Admire",
-        "খ": "Abhor",
-        "গ": "Concern",
-        "ঘ": "Loathe"
-      },
+      "options": [
+        "Admire",
+        "Abhor",
+        "Concern",
+        "Loathe"
+      ],
       "answer": "ক",
-      "explanation": "'Hate' অর্থ ঘৃণা করা বা অপছন্দ করা। এর বিপরীত শব্দ (Antonym) হলো 'Admire' (শ্রদ্ধা বা প্রশংসা করা) বা 'Love'।"
+      "explanation": "'Hate' অর্থ ঘৃণা করা বা অপছন্দ করা। এর বিপরীত শব্দ (Antonym) হলো 'Admire' (শ্রদ্ধা বা প্রশংসা করা) বা 'Love'।",
+      "ans": 0,
+      "correct_answer": "Admire"
     },
     {
       "id": 9,
       "question": "Liability শব্দটির সঠিক Antonym কোনটি?",
-      "options": {
-        "ক": "Treasure",
-        "খ": "Debt",
-        "গ": "Asset",
-        "ঘ": "Property"
-      },
+      "options": [
+        "Treasure",
+        "Debt",
+        "Asset",
+        "Property"
+      ],
       "answer": "গ",
-      "explanation": "'Liability' অর্থ দায়, দেনা বা আর্থিক বাধ্যবাধকতা। এর বিপরীত শব্দ (Antonym) হলো 'Asset' (সম্পদ/পরিম্পদ)।"
+      "explanation": "'Liability' অর্থ দায়, দেনা বা আর্থিক বাধ্যবাধকতা। এর বিপরীত শব্দ (Antonym) হলো 'Asset' (সম্পদ/পরিম্পদ)।",
+      "ans": 2,
+      "correct_answer": "Asset"
     },
     {
       "id": 10,
       "question": "সঠিক বানানের শব্দ কোনটি?",
-      "options": {
-        "ক": "Credential",
-        "খ": "Credancial",
-        "গ": "Credantial",
-        "ঘ": "Credencial"
-      },
+      "options": [
+        "Credential",
+        "Credancial",
+        "Credantial",
+        "Credencial"
+      ],
       "answer": "ক",
-      "explanation": "ঋণের বিপরীতে জামানত অর্থে সঠিক বানানটি হলো 'Collateral' (C-O-L-L-A-T-E-R-A-L)।"
+      "explanation": "ঋণের বিপরীতে জামানত অর্থে সঠিক বানানটি হলো 'Collateral' (C-O-L-L-A-T-E-R-A-L)।",
+      "ans": 0,
+      "correct_answer": "Credential"
     },
     {
       "id": 11,
       "question": "সঠিক বানানের শব্দ কোনটি ?",
-      "options": {
-        "ক": "Licence",
-        "খ": "Licents",
-        "গ": "Lisence",
-        "ঘ": "Licens"
-      },
+      "options": [
+        "Licence",
+        "Licents",
+        "Lisence",
+        "Licens"
+      ],
       "answer": "ক",
-      "explanation": "সঠিক বানানটি হলো 'Extension' (E-X-T-E-N-S-I-O-N, অর্থ: সম্প্রসারণ বা বর্ধন)।"
+      "explanation": "সঠিক বানানটি হলো 'Extension' (E-X-T-E-N-S-I-O-N, অর্থ: সম্প্রসারণ বা বর্ধন)।",
+      "ans": 0,
+      "correct_answer": "Licence"
     },
     {
       "id": 12,
       "question": "সঠিক বানানের শব্দ কোনটি ?",
-      "options": {
-        "ক": "Extantion",
-        "খ": "Extansion",
-        "গ": "Extension",
-        "ঘ": "Extention"
-      },
+      "options": [
+        "Extantion",
+        "Extansion",
+        "Extension",
+        "Extention"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানানটি হলো 'Extension' (E-X-T-E-N-S-I-O-N, অর্থ: সম্প্রসারণ বা বর্ধন)।"
+      "explanation": "সঠিক বানানটি হলো 'Extension' (E-X-T-E-N-S-I-O-N, অর্থ: সম্প্রসারণ বা বর্ধন)।",
+      "ans": 2,
+      "correct_answer": "Extension"
     },
     {
       "id": 13,
       "question": "সঠিক বানানের শব্দ কোনটি?",
-      "options": {
-        "ক": "Apropriate",
-        "খ": "Appropriate",
-        "গ": "Appropriet",
-        "ঘ": "Apropriet"
-      },
+      "options": [
+        "Apropriate",
+        "Appropriate",
+        "Appropriet",
+        "Apropriet"
+      ],
       "answer": "খ",
-      "explanation": "ঋণের বিপরীতে জামানত অর্থে সঠিক বানানটি হলো 'Collateral' (C-O-L-L-A-T-E-R-A-L)।"
+      "explanation": "ঋণের বিপরীতে জামানত অর্থে সঠিক বানানটি হলো 'Collateral' (C-O-L-L-A-T-E-R-A-L)।",
+      "ans": 1,
+      "correct_answer": "Appropriate"
     },
     {
       "id": 14,
       "question": "সঠিক বানানের শব্দ কোনটি?",
-      "options": {
-        "ক": "Unfare",
-        "খ": "Unfear",
-        "গ": "Unfaire",
-        "ঘ": "Unfair"
-      },
+      "options": [
+        "Unfare",
+        "Unfear",
+        "Unfaire",
+        "Unfair"
+      ],
       "answer": "ঘ",
-      "explanation": "ঋণের বিপরীতে জামানত অর্থে সঠিক বানানটি হলো 'Collateral' (C-O-L-L-A-T-E-R-A-L)।"
+      "explanation": "ঋণের বিপরীতে জামানত অর্থে সঠিক বানানটি হলো 'Collateral' (C-O-L-L-A-T-E-R-A-L)।",
+      "ans": 3,
+      "correct_answer": "Unfair"
     },
     {
       "id": 15,
       "question": "সঠিক বানানের শব্দ কোনটি?",
-      "options": {
-        "ক": "Personale",
-        "খ": "Parsonnel",
-        "গ": "Personel",
-        "ঘ": "Personnel"
-      },
+      "options": [
+        "Personale",
+        "Parsonnel",
+        "Personel",
+        "Personnel"
+      ],
       "answer": "ঘ",
-      "explanation": "ঋণের বিপরীতে জামানত অর্থে সঠিক বানানটি হলো 'Collateral' (C-O-L-L-A-T-E-R-A-L)।"
+      "explanation": "ঋণের বিপরীতে জামানত অর্থে সঠিক বানানটি হলো 'Collateral' (C-O-L-L-A-T-E-R-A-L)।",
+      "ans": 3,
+      "correct_answer": "Personnel"
     },
     {
       "id": 16,
       "question": "সঠিক বানানের শব্দ কোনটি?",
-      "options": {
-        "ক": "Collataral",
-        "খ": "colatteral",
-        "গ": "Collateral",
-        "ঘ": "Colateral"
-      },
+      "options": [
+        "Collataral",
+        "colatteral",
+        "Collateral",
+        "Colateral"
+      ],
       "answer": "গ",
-      "explanation": "ঋণের বিপরীতে জামানত অর্থে সঠিক বানানটি হলো 'Collateral' (C-O-L-L-A-T-E-R-A-L)।"
+      "explanation": "ঋণের বিপরীতে জামানত অর্থে সঠিক বানানটি হলো 'Collateral' (C-O-L-L-A-T-E-R-A-L)।",
+      "ans": 2,
+      "correct_answer": "Collateral"
     },
     {
       "id": 17,
       "question": "শূন্যস্থানটি অর্থবোধক শব্দ ব্যবহার করে পূরণ করুন : I promise I ____ smoke again.",
-      "options": {
-        "ক": "won't",
-        "খ": "don't",
-        "গ": "couldn't",
-        "ঘ": "didn't"
-      },
+      "options": [
+        "won't",
+        "don't",
+        "couldn't",
+        "didn't"
+      ],
       "answer": "ক",
-      "explanation": "ভবিষ্যৎ প্রতিজ্ঞা বা সংকল্প প্রকাশ করতে 'will not' বা সংক্ষেপে 'won't' ব্যবহৃত হয়: 'I promise I won't smoke again.'"
+      "explanation": "ভবিষ্যৎ প্রতিজ্ঞা বা সংকল্প প্রকাশ করতে 'will not' বা সংক্ষেপে 'won't' ব্যবহৃত হয়: 'I promise I won't smoke again.'",
+      "ans": 0,
+      "correct_answer": "won't"
     },
     {
       "id": 18,
       "question": "শূন্যস্থানটি অর্থবোধক শব্দ ব্যবহার করে পূরণ করুন : He did not give me _____",
-      "options": {
-        "ক": "much advice",
-        "খ": "much advices",
-        "গ": "many advice",
-        "ঘ": "many advices"
-      },
+      "options": [
+        "much advice",
+        "much advices",
+        "many advice",
+        "many advices"
+      ],
       "answer": "ক",
-      "explanation": "'Advice' একটি Uncountable Noun, যার Plural হয় না এবং এর পূর্বে 'many' না বসে 'much' বসে: 'much advice' ।"
+      "explanation": "'Advice' একটি Uncountable Noun, যার Plural হয় না এবং এর পূর্বে 'many' না বসে 'much' বসে: 'much advice' ।",
+      "ans": 0,
+      "correct_answer": "much advice"
     },
     {
       "id": 19,
       "question": "শূন্যস্থানটি অর্থবোধক শব্দ ব্যবহার করে পূরণ করুন : This company does not need _____",
-      "options": {
-        "ক": "many machines",
-        "খ": "much machine",
-        "গ": "many machine",
-        "ঘ": "much machines"
-      },
+      "options": [
+        "many machines",
+        "much machine",
+        "many machine",
+        "much machines"
+      ],
       "answer": "গ",
-      "explanation": "ব্যাকরণ অনুযায়ী Countable Plural Noun হিসেবে 'many machines' (ক) হওয়া উচিত, তবে প্রশ্নপত্রের উত্তরমালায় (গ) চিহ্নিত রয়েছে।"
+      "explanation": "ব্যাকরণ অনুযায়ী Countable Plural Noun হিসেবে 'many machines' (ক) হওয়া উচিত, তবে প্রশ্নপত্রের উত্তরমালায় (গ) চিহ্নিত রয়েছে।",
+      "ans": 2,
+      "correct_answer": "many machine"
     },
     {
       "id": 20,
       "question": "Emphasis শব্দটির অর্থ কোনটি?",
-      "options": {
-        "ক": "Importance",
-        "খ": "Neglect",
-        "গ": "Overlook",
-        "ঘ": "Ponder"
-      },
+      "options": [
+        "Importance",
+        "Neglect",
+        "Overlook",
+        "Ponder"
+      ],
       "answer": "ক",
-      "explanation": "'Emphasis' অর্থ গুরুত্ব প্রদান বা জোর দেওয়া। এর সমার্থক শব্দ হলো 'Importance' (গুরুত্ব) বা 'Stress'।"
+      "explanation": "'Emphasis' অর্থ গুরুত্ব প্রদান বা জোর দেওয়া। এর সমার্থক শব্দ হলো 'Importance' (গুরুত্ব) বা 'Stress'।",
+      "ans": 0,
+      "correct_answer": "Importance"
     },
     {
       "id": 21,
       "question": "Query শব্দটির অর্থ কোনটি?",
-      "options": {
-        "ক": "Solution",
-        "খ": "Question",
-        "গ": "Dissolve",
-        "ঘ": "Ratify"
-      },
+      "options": [
+        "Solution",
+        "Question",
+        "Dissolve",
+        "Ratify"
+      ],
       "answer": "খ",
-      "explanation": "'Query' অর্থ জিজ্ঞাসা, অনুসন্ধান বা প্রশ্ন। এর সমার্থক শব্দ হলো 'Question' (প্রশ্ন/জিজ্ঞাসা)।"
+      "explanation": "'Query' অর্থ জিজ্ঞাসা, অনুসন্ধান বা প্রশ্ন। এর সমার্থক শব্দ হলো 'Question' (প্রশ্ন/জিজ্ঞাসা)।",
+      "ans": 1,
+      "correct_answer": "Question"
     },
     {
       "id": 22,
       "question": "Gravity শব্দটির অর্থ কোনটি?",
-      "options": {
-        "ক": "Irrelevant",
-        "খ": "Strange",
-        "গ": "Seriousness",
-        "ঘ": "Regular"
-      },
+      "options": [
+        "Irrelevant",
+        "Strange",
+        "Seriousness",
+        "Regular"
+      ],
       "answer": "গ",
-      "explanation": "'Gravity' দ্বারা পদার্থবিজ্ঞানের মাধ্যাকর্ষণ ছাড়াও কোনো বিষয়ের 'গাম্ভীর্য' বা গুরুত্ব বোঝায়। এর সমার্থক শব্দ হলো 'Seriousness' (গাম্ভীর্য/গুরুত্ব)।"
+      "explanation": "'Gravity' দ্বারা পদার্থবিজ্ঞানের মাধ্যাকর্ষণ ছাড়াও কোনো বিষয়ের 'গাম্ভীর্য' বা গুরুত্ব বোঝায়। এর সমার্থক শব্দ হলো 'Seriousness' (গাম্ভীর্য/গুরুত্ব)।",
+      "ans": 2,
+      "correct_answer": "Seriousness"
     },
     {
       "id": 23,
       "question": "Ensure শব্দটির অর্থ কোনটি?",
-      "options": {
-        "ক": "Make progress",
-        "খ": "encourage",
-        "গ": "Effect",
-        "ঘ": "Make certain"
-      },
+      "options": [
+        "Make progress",
+        "encourage",
+        "Effect",
+        "Make certain"
+      ],
       "answer": "ঘ",
-      "explanation": "'Ensure' অর্থ নিশ্চিত করা বা নিশ্চয়তা বিধান করা। এর সমার্থক প্রকাশভঙ্গি হলো 'Make certain' (নিশ্চিত করা)।"
+      "explanation": "'Ensure' অর্থ নিশ্চিত করা বা নিশ্চয়তা বিধান করা। এর সমার্থক প্রকাশভঙ্গি হলো 'Make certain' (নিশ্চিত করা)।",
+      "ans": 3,
+      "correct_answer": "Make certain"
     },
     {
       "id": 24,
       "question": "Premium শব্দটির অর্থ কোনটি?",
-      "options": {
-        "ক": "Contaminate",
-        "খ": "Condone",
-        "গ": "Best",
-        "ঘ": "Large"
-      },
+      "options": [
+        "Contaminate",
+        "Condone",
+        "Best",
+        "Large"
+      ],
       "answer": "খ",
-      "explanation": "'Premium' অর্থ কোনো কিছুর অতিরিক্ত মূল্য, বোনাস বা উচ্চমান। উত্তরমালায় অপশন (খ) চিহ্নিত করা রয়েছে।"
+      "explanation": "'Premium' অর্থ কোনো কিছুর অতিরিক্ত মূল্য, বোনাস বা উচ্চমান। উত্তরমালায় অপশন (খ) চিহ্নিত করা রয়েছে।",
+      "ans": 1,
+      "correct_answer": "Condone"
     },
     {
       "id": 25,
       "question": "Comprehension শব্দটির অর্থ কোনটি?",
-      "options": {
-        "ক": "Loss",
-        "খ": "Calamity",
-        "গ": "Difference",
-        "ঘ": "Knowledge"
-      },
+      "options": [
+        "Loss",
+        "Calamity",
+        "Difference",
+        "Knowledge"
+      ],
       "answer": "ঘ",
-      "explanation": "'Comprehension' অর্থ কোনো কিছু উপলব্ধি, বোধশক্তি বা বোধগম্যতা। এর সমার্থক শব্দ হলো 'Knowledge' বা 'Understanding'।"
+      "explanation": "'Comprehension' অর্থ কোনো কিছু উপলব্ধি, বোধশক্তি বা বোধগম্যতা। এর সমার্থক শব্দ হলো 'Knowledge' বা 'Understanding'।",
+      "ans": 3,
+      "correct_answer": "Knowledge"
     }
   ]
 }

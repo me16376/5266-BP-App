@@ -7,1202 +7,1402 @@
     {
       "id": 1,
       "question": "Cock and bull story means_",
-      "options": {
-        "ক": "a fable",
-        "খ": "a tragedy",
-        "গ": "a false story",
-        "ঘ": "a wonderful story"
-      },
+      "options": [
+        "a fable",
+        "a tragedy",
+        "a false story",
+        "a wonderful story"
+      ],
       "answer": "গ",
-      "explanation": "'Cock and bull story' একটি ইংরেজি Idiom যার অর্থ 'আজগুবি বা কাল্পনিক গল্প' বা বানোয়াট কাহিনী (an unbelievable or false story / improbable tale)।"
+      "explanation": "'Cock and bull story' একটি ইংরেজি Idiom যার অর্থ 'আজগুবি বা কাল্পনিক গল্প' বা বানোয়াট কাহিনী (an unbelievable or false story / improbable tale)।",
+      "ans": 2,
+      "correct_answer": "a false story"
     },
     {
       "id": 2,
       "question": "Apple of one’s eye’ means_",
-      "options": {
-        "ক": "extremely favourite",
-        "খ": "apple like eye",
-        "গ": "big eye apple",
-        "ঘ": "colored eye"
-      },
+      "options": [
+        "extremely favourite",
+        "apple like eye",
+        "big eye apple",
+        "colored eye"
+      ],
       "answer": "ক",
-      "explanation": "'Apple of one's eye' অর্থ 'নয়নের মণি' বা অত্যন্ত প্রিয় ও আদরের পাত্র (extremely favourite / cherished above all others)।"
+      "explanation": "'Apple of one's eye' অর্থ 'নয়নের মণি' বা অত্যন্ত প্রিয় ও আদরের পাত্র (extremely favourite / cherished above all others)।",
+      "ans": 0,
+      "correct_answer": "extremely favourite"
     },
     {
       "id": 3,
       "question": "What is the meaning of ‘white elephant’?",
-      "options": {
-        "ক": "An elephant of white color",
-        "খ": "A black marker",
-        "গ": "A very costly or troublesome possession",
-        "ঘ": "A boarder"
-      },
+      "options": [
+        "An elephant of white color",
+        "A black marker",
+        "A very costly or troublesome possession",
+        "A boarder"
+      ],
       "answer": "গ",
-      "explanation": "'White elephant' একটি সুপরিচিত Idiom যার অর্থ 'দামি কিন্তু অকাজের বা ঝামেলাপূর্ণ জিনিস' (a very costly or troublesome possession that is burdensome to maintain)।"
+      "explanation": "'White elephant' একটি সুপরিচিত Idiom যার অর্থ 'দামি কিন্তু অকাজের বা ঝামেলাপূর্ণ জিনিস' (a very costly or troublesome possession that is burdensome to maintain)।",
+      "ans": 2,
+      "correct_answer": "A very costly or troublesome possession"
     },
     {
       "id": 4,
       "question": "Every body should – their old parents.",
-      "options": {
-        "ক": "look at",
-        "খ": "look after",
-        "গ": "look up",
-        "ঘ": "look into"
-      },
+      "options": [
+        "look at",
+        "look after",
+        "look up",
+        "look into"
+      ],
       "answer": "খ",
-      "explanation": "'Look after' একটি Phrasal verb যার অর্থ 'দেখাভাশোনা করা' বা যত্ন নেওয়া (take care of)। বৃদ্ধ বাবা-মায়ের দেখাশোনা করা উচিত অর্থে 'look after' সঠিক।"
+      "explanation": "'Look after' একটি Phrasal verb যার অর্থ 'দেখাভাশোনা করা' বা যত্ন নেওয়া (take care of)। বৃদ্ধ বাবা-মায়ের দেখাশোনা করা উচিত অর্থে 'look after' সঠিক।",
+      "ans": 1,
+      "correct_answer": "look after"
     },
     {
       "id": 5,
       "question": "The patient will – soon.",
-      "options": {
-        "ক": "come in",
-        "খ": "come off",
-        "গ": "come round",
-        "ঘ": "come by"
-      },
+      "options": [
+        "come in",
+        "come off",
+        "come round",
+        "come by"
+      ],
       "answer": "গ",
-      "explanation": "'Come round' একটি Phrasal verb যার অর্থ 'রোগমুক্ত হওয়া' বা আরোগ্য লাভ করা (recover from illness)। রোগী দ্রুত সুস্থ হয়ে উঠবে অর্থে 'come round' সঠিক।"
+      "explanation": "'Come round' একটি Phrasal verb যার অর্থ 'রোগমুক্ত হওয়া' বা আরোগ্য লাভ করা (recover from illness)। রোগী দ্রুত সুস্থ হয়ে উঠবে অর্থে 'come round' সঠিক।",
+      "ans": 2,
+      "correct_answer": "come round"
     },
     {
       "id": 6,
       "question": "None of the student – a car.",
-      "options": {
-        "ক": "have",
-        "খ": "have",
-        "গ": "has",
-        "ঘ": "own"
-      },
+      "options": [
+        "have",
+        "have",
+        "has",
+        "own"
+      ],
       "answer": "গ",
-      "explanation": "'None of + the + plural/singular noun'-এর পর প্রথাগত ব্যাকরণে Singular Verb 'has' বসে। তাই 'None of the students has a car' সঠিক।"
+      "explanation": "'None of + the + plural/singular noun'-এর পর প্রথাগত ব্যাকরণে Singular Verb 'has' বসে। তাই 'None of the students has a car' সঠিক।",
+      "ans": 2,
+      "correct_answer": "has"
     },
     {
       "id": 7,
       "question": "Would you mind – the window?",
-      "options": {
-        "ক": "open",
-        "খ": "to open",
-        "গ": "to opening",
-        "ঘ": "opening"
-      },
+      "options": [
+        "open",
+        "to open",
+        "to opening",
+        "opening"
+      ],
       "answer": "ঘ",
-      "explanation": "'Would you mind' দ্বারা বিনম্র অনুরোধ প্রকাশ করা হয় এবং এর ঠিক পরেই Verb-এর সাথে 'ing' যুক্ত হয় (gerund)। তাই 'opening' সঠিক।"
+      "explanation": "'Would you mind' দ্বারা বিনম্র অনুরোধ প্রকাশ করা হয় এবং এর ঠিক পরেই Verb-এর সাথে 'ing' যুক্ত হয় (gerund)। তাই 'opening' সঠিক।",
+      "ans": 3,
+      "correct_answer": "opening"
     },
     {
       "id": 8,
       "question": "Choose the correct verb to complete the sentence. You had better – a doctor.",
-      "options": {
-        "ক": "to see",
-        "খ": "see",
-        "গ": "saw",
-        "ঘ": "seen"
-      },
+      "options": [
+        "to see",
+        "see",
+        "saw",
+        "seen"
+      ],
       "answer": "খ",
-      "explanation": "'Had better' একটি Modal-এর মতো ব্যবহৃত হয় যার পর সর্বদা Verb-এর Base form (bare infinitive) বসে। তাই 'see' সঠিক।"
+      "explanation": "'Had better' একটি Modal-এর মতো ব্যবহৃত হয় যার পর সর্বদা Verb-এর Base form (bare infinitive) বসে। তাই 'see' সঠিক।",
+      "ans": 1,
+      "correct_answer": "see"
     },
     {
       "id": 9,
       "question": "No sooner had the thief seen the police-",
-      "options": {
-        "ক": "than he ran away",
-        "খ": "than he run away",
-        "গ": "than he had run away",
-        "ঘ": "when he run away"
-      },
+      "options": [
+        "than he ran away",
+        "than he run away",
+        "than he had run away",
+        "when he run away"
+      ],
       "answer": "ক",
-      "explanation": "'No sooner had ... than' নিয়মানুযায়ী No sooner had যুক্ত অতীত ক্লজের পর 'than' বসে এবং পরবর্তী ক্লজটি Past Indefinite Tense (ran away) হয়।"
+      "explanation": "'No sooner had ... than' নিয়মানুযায়ী No sooner had যুক্ত অতীত ক্লজের পর 'than' বসে এবং পরবর্তী ক্লজটি Past Indefinite Tense (ran away) হয়।",
+      "ans": 0,
+      "correct_answer": "than he ran away"
     },
     {
       "id": 10,
       "question": "He is working hard -",
-      "options": {
-        "ক": "as he can shine in life.",
-        "খ": "that he can shine in life.",
-        "গ": "to shining in life.",
-        "ঘ": "so that he can shine in life."
-      },
+      "options": [
+        "as he can shine in life.",
+        "that he can shine in life.",
+        "to shining in life.",
+        "so that he can shine in life."
+      ],
       "answer": "ঘ",
-      "explanation": "উদ্দেশ্য প্রকাশ করতে Complex বাক্যে 'so that + Subject + can/could + base verb' কাঠামো ব্যবহৃত হয়। বাক্যটি Present Tense হওয়ায় 'so that he can shine in life' সঠিক।"
+      "explanation": "উদ্দেশ্য প্রকাশ করতে Complex বাক্যে 'so that + Subject + can/could + base verb' কাঠামো ব্যবহৃত হয়। বাক্যটি Present Tense হওয়ায় 'so that he can shine in life' সঠিক।",
+      "ans": 3,
+      "correct_answer": "so that he can shine in life."
     },
     {
       "id": 11,
       "question": "রানী ছবি আঁকে।",
-      "options": {
-        "ক": "Rani draw a picture.",
-        "খ": "Rani drew a picture.",
-        "গ": "Rani is drawing a picture.",
-        "ঘ": "Rani draws a picture."
-      },
+      "options": [
+        "Rani draw a picture.",
+        "Rani drew a picture.",
+        "Rani is drawing a picture.",
+        "Rani draws a picture."
+      ],
       "answer": "ঘ",
-      "explanation": "সাধারণ বর্তমান কালের (Present Indefinite Tense) বাক্য। Subject 'Rani' 3rd person singular হওয়ায় verb-এর শেষে 's' যুক্ত হয়ে 'draws' হবে।"
+      "explanation": "সাধারণ বর্তমান কালের (Present Indefinite Tense) বাক্য। Subject 'Rani' 3rd person singular হওয়ায় verb-এর শেষে 's' যুক্ত হয়ে 'draws' হবে।",
+      "ans": 3,
+      "correct_answer": "Rani draws a picture."
     },
     {
       "id": 12,
       "question": "লোকটি হাসতে হাসতে আমার কাছে আসলো।",
-      "options": {
-        "ক": "The man comes to me laugh.",
-        "খ": "The man come to me by laugh.",
-        "গ": "The man come to me laughing.",
-        "ঘ": "The man coming to me laugh."
-      },
+      "options": [
+        "The man comes to me laugh.",
+        "The man come to me by laugh.",
+        "The man come to me laughing.",
+        "The man coming to me laugh."
+      ],
       "answer": "গ",
-      "explanation": "কোনো কাজ করার মধ্যবর্তী অবস্থা প্রকাশে Present Participle (laughing) বসে। অতীতে আসা অর্থে 'came to me laughing' ব্যাকরণগত রূপ হলেও মুদ্রিত বিকল্পে (গ) সঠিক ধরা হয়েছে।"
+      "explanation": "কোনো কাজ করার মধ্যবর্তী অবস্থা প্রকাশে Present Participle (laughing) বসে। অতীতে আসা অর্থে 'came to me laughing' ব্যাকরণগত রূপ হলেও মুদ্রিত বিকল্পে (গ) সঠিক ধরা হয়েছে।",
+      "ans": 2,
+      "correct_answer": "The man come to me laughing."
     },
     {
       "id": 13,
       "question": "সে কি গত কাল এসেছে?",
-      "options": {
-        "ক": "Did he come yesterday?",
-        "খ": "Did he came yesterday?",
-        "গ": "Had he come yesterday?",
-        "ঘ": "Has he come yesterday?"
-      },
+      "options": [
+        "Did he come yesterday?",
+        "Did he came yesterday?",
+        "Had he come yesterday?",
+        "Has he come yesterday?"
+      ],
       "answer": "ক",
-      "explanation": "বাক্যে অতীত নির্দেশক সময় 'yesterday' থাকায় Past Indefinite Tense-এর Interrogative গঠন: Did + subject (he) + base verb (come) + yesterday? তাই (ক) সঠিক।"
+      "explanation": "বাক্যে অতীত নির্দেশক সময় 'yesterday' থাকায় Past Indefinite Tense-এর Interrogative গঠন: Did + subject (he) + base verb (come) + yesterday? তাই (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "Did he come yesterday?"
     },
     {
       "id": 14,
       "question": "অপমানের চেয়ে মৃত্যু শ্রেয়।",
-      "options": {
-        "ক": "Death in better than insult.",
-        "খ": "Death is preferable to dishonor.",
-        "গ": "Dishonour is preferable than death.",
-        "ঘ": "Death is acceptable than dishonor."
-      },
+      "options": [
+        "Death in better than insult.",
+        "Death is preferable to dishonor.",
+        "Dishonour is preferable than death.",
+        "Death is acceptable than dishonor."
+      ],
       "answer": "খ",
-      "explanation": "'Preferable'-এর সাথে সর্বদা Preposition 'to' বসে (than বসে না)। তাই সঠিক অনুবাদ: 'Death is preferable to dishonour.'"
+      "explanation": "'Preferable'-এর সাথে সর্বদা Preposition 'to' বসে (than বসে না)। তাই সঠিক অনুবাদ: 'Death is preferable to dishonour.'",
+      "ans": 1,
+      "correct_answer": "Death is preferable to dishonor."
     },
     {
       "id": 15,
       "question": "বাংলাদেশ একটি নদীবহুল দেশ।",
-      "options": {
-        "ক": "Bangladesh is a riverine country.",
-        "খ": "Bangladesh is a country of river.",
-        "গ": "Bangladesh is surrounded by river.",
-        "ঘ": "Bangladesh is situated by river."
-      },
+      "options": [
+        "Bangladesh is a riverine country.",
+        "Bangladesh is a country of river.",
+        "Bangladesh is surrounded by river.",
+        "Bangladesh is situated by river."
+      ],
       "answer": "ক",
-      "explanation": "'নদীবহুল' বা নদীমাতৃক দেশের ইংরেজি প্রতিশব্দ হলো 'Riverine country'। তাই সঠিক অনুবাদ: 'Bangladesh is a riverine country.'"
+      "explanation": "'নদীবহুল' বা নদীমাতৃক দেশের ইংরেজি প্রতিশব্দ হলো 'Riverine country'। তাই সঠিক অনুবাদ: 'Bangladesh is a riverine country.'",
+      "ans": 0,
+      "correct_answer": "Bangladesh is a riverine country."
     },
     {
       "id": 16,
       "question": "আমার যদি পাখির মতো ডানা থাকতো!",
-      "options": {
-        "ক": "If I would have the wings of a bird!",
-        "খ": "Had I the wings of a bird?",
-        "গ": "I wish that I would have wings of a bird!",
-        "ঘ": "If I could fly like a bird!"
-      },
+      "options": [
+        "If I would have the wings of a bird!",
+        "Had I the wings of a bird?",
+        "I wish that I would have wings of a bird!",
+        "If I could fly like a bird!"
+      ],
       "answer": "খ",
-      "explanation": "অবাস্তব তীব্র ইচ্ছা প্রকাশে 'Had I + object' দিয়ে Exclamatory বাক্য গঠন করা হয়: 'Had I the wings of a bird!' (যদি আমার পাখির মতো ডানা থাকত!)।"
+      "explanation": "অবাস্তব তীব্র ইচ্ছা প্রকাশে 'Had I + object' দিয়ে Exclamatory বাক্য গঠন করা হয়: 'Had I the wings of a bird!' (যদি আমার পাখির মতো ডানা থাকত!)।",
+      "ans": 1,
+      "correct_answer": "Had I the wings of a bird?"
     },
     {
       "id": 17,
       "question": "মুষলধারে বৃষ্টি হচ্ছে।",
-      "options": {
-        "ক": "It is raining heavily.",
-        "খ": "It rains continuously.",
-        "গ": "It is raining cats and dogs.",
-        "ঘ": "It has be raining seriously."
-      },
+      "options": [
+        "It is raining heavily.",
+        "It rains continuously.",
+        "It is raining cats and dogs.",
+        "It has be raining seriously."
+      ],
       "answer": "গ",
-      "explanation": "মুষলধারে বৃষ্টির সুপরিচিত ইংরেজি প্রকাশভঙ্গি হলো 'Cats and dogs'। চলমান ঘটনামান বর্তমান কালে: 'It is raining cats and dogs.'"
+      "explanation": "মুষলধারে বৃষ্টির সুপরিচিত ইংরেজি প্রকাশভঙ্গি হলো 'Cats and dogs'। চলমান ঘটনামান বর্তমান কালে: 'It is raining cats and dogs.'",
+      "ans": 2,
+      "correct_answer": "It is raining cats and dogs."
     },
     {
       "id": 18,
       "question": "সে সাঁতার কাটতে জানে না।",
-      "options": {
-        "ক": "He does not know how to swim.",
-        "খ": "He does not know to swim.",
-        "গ": "He do not knows how to swim.",
-        "ঘ": "He cannot knows to swim."
-      },
+      "options": [
+        "He does not know how to swim.",
+        "He does not know to swim.",
+        "He do not knows how to swim.",
+        "He cannot knows to swim."
+      ],
       "answer": "ক",
-      "explanation": "কোনো কাজের পদ্ধতি জানা বা না-জানা বোঝাতে 'know how to + V1' বসে। Subject 'he' হওয়ায় নেতিবাচক রূপ: 'He does not know how to swim.'"
+      "explanation": "কোনো কাজের পদ্ধতি জানা বা না-জানা বোঝাতে 'know how to + V1' বসে। Subject 'he' হওয়ায় নেতিবাচক রূপ: 'He does not know how to swim.'",
+      "ans": 0,
+      "correct_answer": "He does not know how to swim."
     },
     {
       "id": 19,
       "question": "A paragraph must have-",
-      "options": {
-        "ক": "an object",
-        "খ": "a single idea or topic",
-        "গ": "topics",
-        "ঘ": "more than one para"
-      },
+      "options": [
+        "an object",
+        "a single idea or topic",
+        "topics",
+        "more than one para"
+      ],
       "answer": "খ",
-      "explanation": "একটি আদর্শ প্যারাগ্রাফের মূল বৈশিষ্ট্য হলো এতে একটিমাত্র মূল ভাবনা বা বিষয়বস্তু (a single idea or topic theme) সম্পূর্ণভাবে আলোচিত হয়।"
+      "explanation": "একটি আদর্শ প্যারাগ্রাফের মূল বৈশিষ্ট্য হলো এতে একটিমাত্র মূল ভাবনা বা বিষয়বস্তু (a single idea or topic theme) সম্পূর্ণভাবে আলোচিত হয়।",
+      "ans": 1,
+      "correct_answer": "a single idea or topic"
     },
     {
       "id": 20,
       "question": "আমার একটি কম্পিউটার আছে-",
-      "options": {
-        "ক": "I have a computer",
-        "খ": "I had a computer",
-        "গ": "I has a computer",
-        "ঘ": "I am a computer"
-      },
+      "options": [
+        "I have a computer",
+        "I had a computer",
+        "I has a computer",
+        "I am a computer"
+      ],
       "answer": "ক",
-      "explanation": "কোনো কিছু বর্তমান অধিকারে থাকা বোঝাতে 1st person Subject 'I'-এর সাথে 'have' বসে: 'I have a computer.'"
+      "explanation": "কোনো কিছু বর্তমান অধিকারে থাকা বোঝাতে 1st person Subject 'I'-এর সাথে 'have' বসে: 'I have a computer.'",
+      "ans": 0,
+      "correct_answer": "I have a computer"
     },
     {
       "id": 21,
       "question": "তেল পানিতে ভাসে-",
-      "options": {
-        "ক": "Oil is floating a water",
-        "খ": "Oil floates over water",
-        "গ": "Oil floats on water",
-        "ঘ": "Oil is floated on water"
-      },
+      "options": [
+        "Oil is floating a water",
+        "Oil floates over water",
+        "Oil floats on water",
+        "Oil is floated on water"
+      ],
       "answer": "গ",
-      "explanation": "এটি একটি চিরন্তন সত্য বৈজ্ঞানিক তথ্য (Scientific truth), যা Present Indefinite Tense-এ গঠিত হয়। Oil (Uncountable singular) হওয়ায় 'floats on water' সঠিক।"
+      "explanation": "এটি একটি চিরন্তন সত্য বৈজ্ঞানিক তথ্য (Scientific truth), যা Present Indefinite Tense-এ গঠিত হয়। Oil (Uncountable singular) হওয়ায় 'floats on water' সঠিক।",
+      "ans": 2,
+      "correct_answer": "Oil floats on water"
     },
     {
       "id": 22,
       "question": "আমি জানি সে কোথায় বাস করে-",
-      "options": {
-        "ক": "I know where does he lives.",
-        "খ": "I know where he is living.",
-        "গ": "I know where he live",
-        "ঘ": "I know where he lives."
-      },
+      "options": [
+        "I know where does he lives.",
+        "I know where he is living.",
+        "I know where he live",
+        "I know where he lives."
+      ],
       "answer": "ঘ",
-      "explanation": "Embedded clause-এর নিয়মানুযায়ী Conjunction 'where'-এর পরের অংশটি Assertive নিয়মে (Subject + Verb) গঠিত হয়: 'I know where he lives.'"
+      "explanation": "Embedded clause-এর নিয়মানুযায়ী Conjunction 'where'-এর পরের অংশটি Assertive নিয়মে (Subject + Verb) গঠিত হয়: 'I know where he lives.'",
+      "ans": 3,
+      "correct_answer": "I know where he lives."
     },
     {
       "id": 23,
       "question": "ঢাকা কী জন্য বিখ্যাত?",
-      "options": {
-        "ক": "What is Dhaka is famous for?",
-        "খ": "Why Dhaka is famous?",
-        "গ": "What Dhaka is famous for?",
-        "ঘ": "What for Dhaka is famous?"
-      },
+      "options": [
+        "What is Dhaka is famous for?",
+        "Why Dhaka is famous?",
+        "What Dhaka is famous for?",
+        "What for Dhaka is famous?"
+      ],
       "answer": "ক",
-      "explanation": "কোনো কিছুর খ্যাতি জানতে 'What is ... famous for?' কাঠামো ব্যবহৃত হয়। অপশন (ক)-তে টাইপো থাকলেও মুদ্রিত উত্তরমালায় এটি গৃহীত।"
+      "explanation": "কোনো কিছুর খ্যাতি জানতে 'What is ... famous for?' কাঠামো ব্যবহৃত হয়। অপশন (ক)-তে টাইপো থাকলেও মুদ্রিত উত্তরমালায় এটি গৃহীত।",
+      "ans": 0,
+      "correct_answer": "What is Dhaka is famous for?"
     },
     {
       "id": 24,
       "question": "চক চক করলে সোনা হয় না?",
-      "options": {
-        "ক": "All that glitter is not gold.",
-        "খ": "All that glitters is not gold.",
-        "গ": "All that glitters is not gold.",
-        "ঘ": "All that glitters are not gold."
-      },
+      "options": [
+        "All that glitter is not gold.",
+        "All that glitters is not gold.",
+        "All that glitters is not gold.",
+        "All that glitters are not gold."
+      ],
       "answer": "গ",
-      "explanation": "এটি একটি বহুল প্রচলিত চিরন্তন প্রবাদ: 'All that glitters is not gold' (চকচক করলেই সোনা হয় না)।"
+      "explanation": "এটি একটি বহুল প্রচলিত চিরন্তন প্রবাদ: 'All that glitters is not gold' (চকচক করলেই সোনা হয় না)।",
+      "ans": 2,
+      "correct_answer": "All that glitters is not gold."
     },
     {
       "id": 25,
       "question": "ছেলেটি হাড়ে হাড়ে দুষ্ট-",
-      "options": {
-        "ক": "The boy is very wicked.",
-        "খ": "The boy is naughty.",
-        "গ": "The boy is wicked bone to bone.",
-        "ঘ": "The boy is wicked to the backbone."
-      },
+      "options": [
+        "The boy is very wicked.",
+        "The boy is naughty.",
+        "The boy is wicked bone to bone.",
+        "The boy is wicked to the backbone."
+      ],
       "answer": "ঘ",
-      "explanation": "'হাড়ে হাড়ে' বা মজ্জাগতভাবে বোঝাতে ইংরেজি Idiom হলো 'To the backbone'। তাই সঠিক অনুবাদ: 'The boy is wicked to the backbone.'"
+      "explanation": "'হাড়ে হাড়ে' বা মজ্জাগতভাবে বোঝাতে ইংরেজি Idiom হলো 'To the backbone'। তাই সঠিক অনুবাদ: 'The boy is wicked to the backbone.'",
+      "ans": 3,
+      "correct_answer": "The boy is wicked to the backbone."
     },
     {
       "id": 26,
       "question": "Faults are thick where love is thin-",
-      "options": {
-        "ক": "ভালবাসলে ত্রুটি দেখা যায় না।",
-        "খ": "ত্রুটি ভালোবাসায় বিলীন হয়ে যায়।",
-        "গ": "যাকে দেখতে নারি তার চলন বাঁকা।",
-        "ঘ": "ত্রুটি ও ভালোবাসা অভিন্ন।"
-      },
+      "options": [
+        "ভালবাসলে ত্রুটি দেখা যায় না।",
+        "ত্রুটি ভালোবাসায় বিলীন হয়ে যায়।",
+        "যাকে দেখতে নারি তার চলন বাঁকা।",
+        "ত্রুটি ও ভালোবাসা অভিন্ন।"
+      ],
       "answer": "গ",
-      "explanation": "এটি সুপরিচিত ইংরেজি প্রবাদের বাংলা রূপ: 'Faults are thick where love is thin'-এর সঠিক ভাবানুবাদ হলো 'যাকে দেখতে নারি তার চলন বাঁকা'।"
+      "explanation": "এটি সুপরিচিত ইংরেজি প্রবাদের বাংলা রূপ: 'Faults are thick where love is thin'-এর সঠিক ভাবানুবাদ হলো 'যাকে দেখতে নারি তার চলন বাঁকা'।",
+      "ans": 2,
+      "correct_answer": "যাকে দেখতে নারি তার চলন বাঁকা।"
     },
     {
       "id": 27,
       "question": "pen thought the line _",
-      "options": {
-        "ক": "বাক্যটি কেটে দাও",
-        "খ": "শব্দটি কেটে দাও",
-        "গ": "ছত্রটি কেটে দাও",
-        "ঘ": "ছত্রটি বদলে দাও"
-      },
+      "options": [
+        "বাক্যটি কেটে দাও",
+        "শব্দটি কেটে দাও",
+        "ছত্রটি কেটে দাও",
+        "ছত্রটি বদলে দাও"
+      ],
       "answer": "গ",
-      "explanation": "'Pen through the line' Idiomatic অভিব্যক্তির অর্থ হলো কোনো লিখিত ছত্র বা লাইন দাগ দিয়ে কেটে দেওয়া।"
+      "explanation": "'Pen through the line' Idiomatic অভিব্যক্তির অর্থ হলো কোনো লিখিত ছত্র বা লাইন দাগ দিয়ে কেটে দেওয়া।",
+      "ans": 2,
+      "correct_answer": "ছত্রটি কেটে দাও"
     },
     {
       "id": 28,
       "question": "It is a quarter to ten new-",
-      "options": {
-        "ক": "এখন সোয়া দশটা বাজে",
-        "খ": "এখন সাড়ে দশটা বাজে",
-        "গ": "এখন পৌনে দশটা বাজে",
-        "ঘ": "এখন দশটার কাছাকাছি"
-      },
+      "options": [
+        "এখন সোয়া দশটা বাজে",
+        "এখন সাড়ে দশটা বাজে",
+        "এখন পৌনে দশটা বাজে",
+        "এখন দশটার কাছাকাছি"
+      ],
       "answer": "গ",
-      "explanation": "'A quarter to ten' অর্থ দশটা বাজতে ১৫ মিনিট বাকি অর্থাৎ 'পৌনে দশটা'। তাই সঠিক বাংলা: 'এখন পৌনে দশটা বাজে।'"
+      "explanation": "'A quarter to ten' অর্থ দশটা বাজতে ১৫ মিনিট বাকি অর্থাৎ 'পৌনে দশটা'। তাই সঠিক বাংলা: 'এখন পৌনে দশটা বাজে।'",
+      "ans": 2,
+      "correct_answer": "এখন পৌনে দশটা বাজে"
     },
     {
       "id": 29,
       "question": "It is I who am your teacher_",
-      "options": {
-        "ক": "আমি তোমার শিক্ষক।",
-        "খ": "আমিই তোমার শিক্ষক।",
-        "গ": "এটি আমি যে তোমার শিক্ষক।",
-        "ঘ": "এটি আমি যিনি তোমার শিক্ষক।"
-      },
+      "options": [
+        "আমি তোমার শিক্ষক।",
+        "আমিই তোমার শিক্ষক।",
+        "এটি আমি যে তোমার শিক্ষক।",
+        "এটি আমি যিনি তোমার শিক্ষক।"
+      ],
       "answer": "খ",
-      "explanation": "'It is I who am ...' দ্বারা জোর দিয়ে বলা বোঝায় (Cleft sentence)। তাই এর সঠিক বাংলা অনুবাদ: 'আমিই তোমার শিক্ষক।'"
+      "explanation": "'It is I who am ...' দ্বারা জোর দিয়ে বলা বোঝায় (Cleft sentence)। তাই এর সঠিক বাংলা অনুবাদ: 'আমিই তোমার শিক্ষক।'",
+      "ans": 1,
+      "correct_answer": "আমিই তোমার শিক্ষক।"
     },
     {
       "id": 30,
       "question": "He is my nephew-",
-      "options": {
-        "ক": "সে আমার চাচা।",
-        "খ": "সে আমার নতুন পরিচিত।",
-        "গ": "সে আমার ভাগিনেয়।",
-        "ঘ": "সে আমার ভাইপো।"
-      },
+      "options": [
+        "সে আমার চাচা।",
+        "সে আমার নতুন পরিচিত।",
+        "সে আমার ভাগিনেয়।",
+        "সে আমার ভাইপো।"
+      ],
       "answer": "ঘ",
-      "explanation": "'Nephew' অর্থ ভাইপো বা ভাগ্নে/ভাগিনেয়। অপশনগুলোর মধ্যে 'সে আমার ভাইপো' মুদ্রিত উত্তরে গৃহীত।"
+      "explanation": "'Nephew' অর্থ ভাইপো বা ভাগ্নে/ভাগিনেয়। অপশনগুলোর মধ্যে 'সে আমার ভাইপো' মুদ্রিত উত্তরে গৃহীত।",
+      "ans": 3,
+      "correct_answer": "সে আমার ভাইপো।"
     },
     {
       "id": 31,
       "question": "The sun rises in the east-",
-      "options": {
-        "ক": "সূর্য পশ্চিম দিকে ওঠে।",
-        "খ": "সূর্য পূর্ব দিকে অস্ত যায়।",
-        "গ": "সূর্য পশ্চিম দিকে অস্ত যায়।",
-        "ঘ": "সূর্য পূর্ব দিকে উঠেছে।"
-      },
+      "options": [
+        "সূর্য পশ্চিম দিকে ওঠে।",
+        "সূর্য পূর্ব দিকে অস্ত যায়।",
+        "সূর্য পশ্চিম দিকে অস্ত যায়।",
+        "সূর্য পূর্ব দিকে উঠেছে।"
+      ],
       "answer": "ক",
-      "explanation": "'The sun rises in the east'-এর প্রকৃত বাংলা অর্থ হলো 'সূর্য পূর্ব দিকে উদিত হয়/ওঠে'। প্রশ্নপত্রের অপশন (ক)-তে মুদ্রণজনিত ত্রুটি থাকা সত্ত্বেও এটি উত্তরমালায় চিহ্নিত।"
+      "explanation": "'The sun rises in the east'-এর প্রকৃত বাংলা অর্থ হলো 'সূর্য পূর্ব দিকে উদিত হয়/ওঠে'। প্রশ্নপত্রের অপশন (ক)-তে মুদ্রণজনিত ত্রুটি থাকা সত্ত্বেও এটি উত্তরমালায় চিহ্নিত।",
+      "ans": 0,
+      "correct_answer": "সূর্য পশ্চিম দিকে ওঠে।"
     },
     {
       "id": 32,
       "question": "I know you. (Complex)",
-      "options": {
-        "ক": "I know that you are.",
-        "খ": "I know who are.",
-        "গ": "I know who are you.",
-        "ঘ": "I know what are you."
-      },
+      "options": [
+        "I know that you are.",
+        "I know who are.",
+        "I know who are you.",
+        "I know what are you."
+      ],
       "answer": "খ",
-      "explanation": "'I know you' (Simple)-কে Complex করতে Noun Clause ব্যবহার করা হয়: 'I know who you are' (খ-তে টাইপোসহ মুদ্রিত)।"
+      "explanation": "'I know you' (Simple)-কে Complex করতে Noun Clause ব্যবহার করা হয়: 'I know who you are' (খ-তে টাইপোসহ মুদ্রিত)।",
+      "ans": 1,
+      "correct_answer": "I know who are."
     },
     {
       "id": 33,
       "question": "I must do this. (Negative)",
-      "options": {
-        "ক": "I cannot but doing this",
-        "খ": "I cannot help do this",
-        "গ": "I must do this",
-        "ঘ": "I cannot help doing this"
-      },
+      "options": [
+        "I cannot but doing this",
+        "I cannot help do this",
+        "I must do this",
+        "I cannot help doing this"
+      ],
       "answer": "ঘ",
-      "explanation": "'Must' যুক্ত বাক্যকে Negative করতে 'cannot but + V1' অথবা 'cannot help + V-ing' কাঠামো ব্যবহৃত হয়। তাই 'I cannot help doing this' সঠিক।"
+      "explanation": "'Must' যুক্ত বাক্যকে Negative করতে 'cannot but + V1' অথবা 'cannot help + V-ing' কাঠামো ব্যবহৃত হয়। তাই 'I cannot help doing this' সঠিক।",
+      "ans": 3,
+      "correct_answer": "I cannot help doing this"
     },
     {
       "id": 34,
       "question": "He is the best boy in the class. (Positive)",
-      "options": {
-        "ক": "He is a good by in the class.",
-        "খ": "No other boy is so good as he.",
-        "গ": "No other boy in the class is as good as he.",
-        "ঘ": "He is better than any other boy."
-      },
+      "options": [
+        "He is a good by in the class.",
+        "No other boy is so good as he.",
+        "No other boy in the class is as good as he.",
+        "He is better than any other boy."
+      ],
       "answer": "গ",
-      "explanation": "Superlative থেকে Positive করার নিয়ম: No other + singular noun with context (boy in the class) + verb (is) + as good as + subject (he)।"
+      "explanation": "Superlative থেকে Positive করার নিয়ম: No other + singular noun with context (boy in the class) + verb (is) + as good as + subject (he)।",
+      "ans": 2,
+      "correct_answer": "No other boy in the class is as good as he."
     },
     {
       "id": 35,
       "question": "He as a cup of tea everyday. (Interrogative)-",
-      "options": {
-        "ক": "Doesn’t he have a cup of tea everyday?",
-        "খ": "Doesn’t he has a cup ot tea everyday?",
-        "গ": "Has he not have a cup of tea everyday?",
-        "ঘ": "Hasan’t he a cup of tea everyday?"
-      },
+      "options": [
+        "Doesn’t he have a cup of tea everyday?",
+        "Doesn’t he has a cup ot tea everyday?",
+        "Has he not have a cup of tea everyday?",
+        "Hasan’t he a cup of tea everyday?"
+      ],
       "answer": "ক",
-      "explanation": "'He has ...' বাক্যটিতে 'has' মূল Verb হিসেবে ব্যবহৃত হয়েছে। Present Indefinite-এর Interrogative-Negative করতে 'Doesn't he have ...?' কাঠামো ব্যবহৃত হয়।"
+      "explanation": "'He has ...' বাক্যটিতে 'has' মূল Verb হিসেবে ব্যবহৃত হয়েছে। Present Indefinite-এর Interrogative-Negative করতে 'Doesn't he have ...?' কাঠামো ব্যবহৃত হয়।",
+      "ans": 0,
+      "correct_answer": "Doesn’t he have a cup of tea everyday?"
     },
     {
       "id": 36,
       "question": "Would that I could fly in the sky! (Assertive)",
-      "options": {
-        "ক": "I could fly in the sky.",
-        "খ": "I would fly in the sky.",
-        "গ": "I wish I could fly in the sky.",
-        "ঘ": "I wish I fly in the sky."
-      },
+      "options": [
+        "I could fly in the sky.",
+        "I would fly in the sky.",
+        "I wish I could fly in the sky.",
+        "I wish I fly in the sky."
+      ],
       "answer": "গ",
-      "explanation": "'Would that' দ্বারা তীব্র ইচ্ছা প্রকাশ পায়, Assertive রূপান্তরের সময় তার পরিবর্তে 'I wish' বসে: 'I wish I could fly in the sky.'"
+      "explanation": "'Would that' দ্বারা তীব্র ইচ্ছা প্রকাশ পায়, Assertive রূপান্তরের সময় তার পরিবর্তে 'I wish' বসে: 'I wish I could fly in the sky.'",
+      "ans": 2,
+      "correct_answer": "I wish I could fly in the sky."
     },
     {
       "id": 37,
       "question": "The tea is so hot than I cannot drink it. (Simple)",
-      "options": {
-        "ক": "The tea is so hot to drink it.",
-        "খ": "The tea is so hot to drink.",
-        "গ": "The tea is too hot for me to drink.",
-        "ঘ": "The tea is too hot for me to drink it."
-      },
+      "options": [
+        "The tea is so hot to drink it.",
+        "The tea is so hot to drink.",
+        "The tea is too hot for me to drink.",
+        "The tea is too hot for me to drink it."
+      ],
       "answer": "গ",
-      "explanation": "'So ... that' যুক্ত কমপ্লেক্স বাক্যকে সিম্পল করার নিয়ম: Subject + verb + too + adjective + for + personal object + to + V1। ইনফিনিটিভের পর পুনরাবৃত্তিমূলক 'it' বাদ যায়।"
+      "explanation": "'So ... that' যুক্ত কমপ্লেক্স বাক্যকে সিম্পল করার নিয়ম: Subject + verb + too + adjective + for + personal object + to + V1। ইনফিনিটিভের পর পুনরাবৃত্তিমূলক 'it' বাদ যায়।",
+      "ans": 2,
+      "correct_answer": "The tea is too hot for me to drink."
     },
     {
       "id": 38,
       "question": "Noun form of ‘Young’ is -",
-      "options": {
-        "ক": "youth",
-        "খ": "youngest",
-        "গ": "youngest",
-        "ঘ": "tender"
-      },
+      "options": [
+        "youth",
+        "youngest",
+        "youngest",
+        "tender"
+      ],
       "answer": "খ",
-      "explanation": "'Young' (তরুণ) হলো Adjective। এর Noun ফর্ম হলো 'Youth' (যৌবন/তরুণ বয়স)। অপশন 'খ'-তে youth চিহ্নিত রয়েছে।"
+      "explanation": "'Young' (তরুণ) হলো Adjective। এর Noun ফর্ম হলো 'Youth' (যৌবন/তরুণ বয়স)। অপশন 'খ'-তে youth চিহ্নিত রয়েছে।",
+      "ans": 1,
+      "correct_answer": "youngest"
     },
     {
       "id": 39,
       "question": "Adjective form of ‘Miser’ is-",
-      "options": {
-        "ক": "Miserly",
-        "খ": "miser",
-        "গ": "misery",
-        "ঘ": "misearly"
-      },
+      "options": [
+        "Miserly",
+        "miser",
+        "misery",
+        "misearly"
+      ],
       "answer": "ক",
-      "explanation": "'Miser' (কৃপণ ব্যক্তি) হলো Noun। এর Adjective ফর্ম হলো 'Miserly' (কৃপণ স্বভাবের)। Noun + ly = Adjective।"
+      "explanation": "'Miser' (কৃপণ ব্যক্তি) হলো Noun। এর Adjective ফর্ম হলো 'Miserly' (কৃপণ স্বভাবের)। Noun + ly = Adjective।",
+      "ans": 0,
+      "correct_answer": "Miserly"
     },
     {
       "id": 40,
       "question": "Every man is potential. Here ‘Every’ is a / an-",
-      "options": {
-        "ক": "noun",
-        "খ": "Adjective",
-        "গ": "pronoun",
-        "ঘ": "adverb"
-      },
+      "options": [
+        "noun",
+        "Adjective",
+        "pronoun",
+        "adverb"
+      ],
       "answer": "খ",
-      "explanation": "'Every' শব্দটি Noun 'man'-এর ঠিক পূর্বে বসে তাকে বিশেষায়িত করেছে (Distributive Adjective)। তাই এটি একটি Adjective।"
+      "explanation": "'Every' শব্দটি Noun 'man'-এর ঠিক পূর্বে বসে তাকে বিশেষায়িত করেছে (Distributive Adjective)। তাই এটি একটি Adjective।",
+      "ans": 1,
+      "correct_answer": "Adjective"
     },
     {
       "id": 41,
       "question": "The boy writes well. Here ‘well; is a / an-",
-      "options": {
-        "ক": "adjective",
-        "খ": "adverb",
-        "গ": "verb",
-        "ঘ": "noun"
-      },
+      "options": [
+        "adjective",
+        "adverb",
+        "verb",
+        "noun"
+      ],
       "answer": "খ",
-      "explanation": "'Well' শব্দটি 'writes' (verb)-কে modify করে কীভাবে লেখে তা নির্দেশ করছে (Adverb of manner)। তাই এটি Adverb।"
+      "explanation": "'Well' শব্দটি 'writes' (verb)-কে modify করে কীভাবে লেখে তা নির্দেশ করছে (Adverb of manner)। তাই এটি Adverb।",
+      "ans": 1,
+      "correct_answer": "adverb"
     },
     {
       "id": 42,
       "question": "Noun form of ‘know’ is-",
-      "options": {
-        "ক": "knowing",
-        "খ": "known",
-        "গ": "knowledge",
-        "ঘ": "unknown"
-      },
+      "options": [
+        "knowing",
+        "known",
+        "knowledge",
+        "unknown"
+      ],
       "answer": "গ",
-      "explanation": "'Know' (জানা) হলো Verb। এর Noun ফর্ম হলো 'Knowledge' (জ্ঞান)। 'Known' হলো Past Participle এবং 'Knowledgeable' হলো Adjective।"
+      "explanation": "'Know' (জানা) হলো Verb। এর Noun ফর্ম হলো 'Knowledge' (জ্ঞান)। 'Known' হলো Past Participle এবং 'Knowledgeable' হলো Adjective।",
+      "ans": 2,
+      "correct_answer": "knowledge"
     },
     {
       "id": 43,
       "question": "’Beauty is truth’, Here ‘Beauty’ is",
-      "options": {
-        "ক": "a pronoun",
-        "খ": "an abstract noun",
-        "গ": "a common noun",
-        "ঘ": "a collective noun"
-      },
+      "options": [
+        "a pronoun",
+        "an abstract noun",
+        "a common noun",
+        "a collective noun"
+      ],
       "answer": "খ",
-      "explanation": "'Beauty' (সৌন্দর্য) একটি ইন্দ্রিয়গ্রাহ্য গুণ বা বিমূর্ত ধারণা যা ধরা বা ছোঁয়া যায় না, কেবল অনুভব করা যায়। তাই এটি একটি Abstract Noun।"
+      "explanation": "'Beauty' (সৌন্দর্য) একটি ইন্দ্রিয়গ্রাহ্য গুণ বা বিমূর্ত ধারণা যা ধরা বা ছোঁয়া যায় না, কেবল অনুভব করা যায়। তাই এটি একটি Abstract Noun।",
+      "ans": 1,
+      "correct_answer": "an abstract noun"
     },
     {
       "id": 44,
       "question": "আমি তাকে দু’বছর ধরে চিনি।",
-      "options": {
-        "ক": "I have been knowing her for two years.",
-        "খ": "I have known her for two years.",
-        "গ": "I know her for two years.",
-        "ঘ": "I am knowing her for two years."
-      },
+      "options": [
+        "I have been knowing her for two years.",
+        "I have known her for two years.",
+        "I know her for two years.",
+        "I am knowing her for two years."
+      ],
       "answer": "খ",
-      "explanation": "'Know' একটি Stative Verb যার Continuous Tense হয় না। দীর্ঘ সময় ধরে চেনা অর্থে Present Perfect Tense-এ 'I have known her for two years' সঠিক।"
+      "explanation": "'Know' একটি Stative Verb যার Continuous Tense হয় না। দীর্ঘ সময় ধরে চেনা অর্থে Present Perfect Tense-এ 'I have known her for two years' সঠিক।",
+      "ans": 1,
+      "correct_answer": "I have known her for two years."
     },
     {
       "id": 45,
       "question": "সূর্য উঠেছে।",
-      "options": {
-        "ক": "The sun has up.",
-        "খ": "The sun is up.",
-        "গ": "The sun had been up.",
-        "ঘ": "The sun has been up."
-      },
+      "options": [
+        "The sun has up.",
+        "The sun is up.",
+        "The sun had been up.",
+        "The sun has been up."
+      ],
       "answer": "খ",
-      "explanation": "সূর্য উদিত হয়ে আকাশে বিরাজমান থাকা বোঝাতে সুপ্রচলিত ইংরেজি প্রকাশভঙ্গি হলো 'The sun is up'। তাই (খ) সঠিক অনুবাদ।"
+      "explanation": "সূর্য উদিত হয়ে আকাশে বিরাজমান থাকা বোঝাতে সুপ্রচলিত ইংরেজি প্রকাশভঙ্গি হলো 'The sun is up'। তাই (খ) সঠিক অনুবাদ।",
+      "ans": 1,
+      "correct_answer": "The sun is up."
     },
     {
       "id": 46,
       "question": "সে গতকাল বাড়ি এসেছে।",
-      "options": {
-        "ক": "He had come home yesterday.",
-        "খ": "He has come home last day.",
-        "গ": "He had home yesterday.",
-        "ঘ": "He had been come home yesterday."
-      },
+      "options": [
+        "He had come home yesterday.",
+        "He has come home last day.",
+        "He had home yesterday.",
+        "He had been come home yesterday."
+      ],
       "answer": "গ",
-      "explanation": "বাক্যটিতে অতীত নির্দেশক 'yesterday' রয়েছে। ব্যাকরণগতভাবে 'He came home yesterday' সঠিক, তবে অপশন (গ) উত্তরমালায় গৃহীত।"
+      "explanation": "বাক্যটিতে অতীত নির্দেশক 'yesterday' রয়েছে। ব্যাকরণগতভাবে 'He came home yesterday' সঠিক, তবে অপশন (গ) উত্তরমালায় গৃহীত।",
+      "ans": 2,
+      "correct_answer": "He had home yesterday."
     },
     {
       "id": 47,
       "question": "মেয়েটিকে আমি পথের পাশে ফুল বিক্রি করতে দেখেছিলাম-",
-      "options": {
-        "ক": "I had seen the nice girl beside the road to sell flowers.",
-        "খ": "I saw the girl on the road to sell the flowers.",
-        "গ": "I saw the girl beside the road to sell the flowers.",
-        "ঘ": "I saw seeing the girl beside the road to sell flowers."
-      },
+      "options": [
+        "I had seen the nice girl beside the road to sell flowers.",
+        "I saw the girl on the road to sell the flowers.",
+        "I saw the girl beside the road to sell the flowers.",
+        "I saw seeing the girl beside the road to sell flowers."
+      ],
       "answer": "গ",
-      "explanation": "অতীতে ফুল বিক্রি করতে দেখা বোঝাতে অপশন (গ) উত্তরমালায় গ্রহণ করা হয়েছে।"
+      "explanation": "অতীতে ফুল বিক্রি করতে দেখা বোঝাতে অপশন (গ) উত্তরমালায় গ্রহণ করা হয়েছে।",
+      "ans": 2,
+      "correct_answer": "I saw the girl beside the road to sell the flowers."
     },
     {
       "id": 48,
       "question": "মোস্তারীরা চার বোন।",
-      "options": {
-        "ক": "Mostari has four sisters.",
-        "খ": "Mostari has three sisters.",
-        "গ": "Mostari have three sisters.",
-        "ঘ": "Mostaris have four sisters."
-      },
+      "options": [
+        "Mostari has four sisters.",
+        "Mostari has three sisters.",
+        "Mostari have three sisters.",
+        "Mostaris have four sisters."
+      ],
       "answer": "খ",
-      "explanation": "মোস্তারী নিজে একজন এবং বাকিরা মিলে চার বোন, অর্থাৎ মোস্তারীর আরও ৩ জন বোন আছে (Mostari has three sisters)। তাই (খ) যৌক্তিক ও প্রচলিত অনুবাদ।"
+      "explanation": "মোস্তারী নিজে একজন এবং বাকিরা মিলে চার বোন, অর্থাৎ মোস্তারীর আরও ৩ জন বোন আছে (Mostari has three sisters)। তাই (খ) যৌক্তিক ও প্রচলিত অনুবাদ।",
+      "ans": 1,
+      "correct_answer": "Mostari has three sisters."
     },
     {
       "id": 49,
       "question": "লক্ষ্মী আজ স্কুলে আসে নাই।",
-      "options": {
-        "ক": "Laxmi does not come to school today.",
-        "খ": "Laxmi did not come to school that day.",
-        "গ": "Laxmi has not come to school today.",
-        "ঘ": "Laxmi has not been come to school today."
-      },
+      "options": [
+        "Laxmi does not come to school today.",
+        "Laxmi did not come to school that day.",
+        "Laxmi has not come to school today.",
+        "Laxmi has not been come to school today."
+      ],
       "answer": "গ",
-      "explanation": "আজকের দিনের সম্পন্ন না হওয়া কাজের ক্ষেত্রে Present Perfect Tense ব্যবহৃত হয়: 'Laxmi has not come to school today.'"
+      "explanation": "আজকের দিনের সম্পন্ন না হওয়া কাজের ক্ষেত্রে Present Perfect Tense ব্যবহৃত হয়: 'Laxmi has not come to school today.'",
+      "ans": 2,
+      "correct_answer": "Laxmi has not come to school today."
     },
     {
       "id": 50,
       "question": "It is really a vexed question?",
-      "options": {
-        "ক": "একটি প্রকৃতপক্ষে একটি অসহ্যয়ি প্রশ্ন।",
-        "খ": "বাস্তবিকই এটি একটি বিরক্তিকর প্রশ্ন।",
-        "গ": "এটি প্রকৃতপক্ষে বিরক্তিকর প্রশ্ন।",
-        "ঘ": "এটি আসলেই বাজে প্রশ্ন।"
-      },
+      "options": [
+        "একটি প্রকৃতপক্ষে একটি অসহ্যয়ি প্রশ্ন।",
+        "বাস্তবিকই এটি একটি বিরক্তিকর প্রশ্ন।",
+        "এটি প্রকৃতপক্ষে বিরক্তিকর প্রশ্ন।",
+        "এটি আসলেই বাজে প্রশ্ন।"
+      ],
       "answer": "গ",
-      "explanation": "'Vexed question' অর্থ বিতর্কিত, জটিল বা বিরক্তিকর সমস্যা/প্রশ্ন। তাই সঠিক ভাবানুবাদ: 'এটি প্রকৃতপক্ষে বিরক্তিকর প্রশ্ন।'"
+      "explanation": "'Vexed question' অর্থ বিতর্কিত, জটিল বা বিরক্তিকর সমস্যা/প্রশ্ন। তাই সঠিক ভাবানুবাদ: 'এটি প্রকৃতপক্ষে বিরক্তিকর প্রশ্ন।'",
+      "ans": 2,
+      "correct_answer": "এটি প্রকৃতপক্ষে বিরক্তিকর প্রশ্ন।"
     },
     {
       "id": 51,
       "question": "The cluds rolled away.",
-      "options": {
-        "ক": "মেঘ চলে গ্যাছে।",
-        "খ": "মেঘ কেটে গেল।",
-        "গ": "মেঘ উড়ে গেল।",
-        "ঘ": "মেঘ চলে গেল।"
-      },
+      "options": [
+        "মেঘ চলে গ্যাছে।",
+        "মেঘ কেটে গেল।",
+        "মেঘ উড়ে গেল।",
+        "মেঘ চলে গেল।"
+      ],
       "answer": "খ",
-      "explanation": "'Roll away' Phrasal verb-এর অর্থ মেঘ দূর হয়ে যাওয়া বা মেঘ কেটে আকাশ পরিষ্কার হওয়া। তাই সঠিক অনুবাদ: 'মেঘ কেটে গেল।'"
+      "explanation": "'Roll away' Phrasal verb-এর অর্থ মেঘ দূর হয়ে যাওয়া বা মেঘ কেটে আকাশ পরিষ্কার হওয়া। তাই সঠিক অনুবাদ: 'মেঘ কেটে গেল।'",
+      "ans": 1,
+      "correct_answer": "মেঘ কেটে গেল।"
     },
     {
       "id": 52,
       "question": "A little learning is a dangerous thing.",
-      "options": {
-        "ক": "অল্প লেখা পড়া ভীষণ ভয়ংকন।",
-        "খ": "অল্পবিদ্যা ভয়ংকরী।",
-        "গ": "অল্প বিদ্যা ভয়ংকর।",
-        "ঘ": "সামান্য বিদ্যা ভীষণ ভয়ানক।"
-      },
+      "options": [
+        "অল্প লেখা পড়া ভীষণ ভয়ংকন।",
+        "অল্পবিদ্যা ভয়ংকরী।",
+        "অল্প বিদ্যা ভয়ংকর।",
+        "সামান্য বিদ্যা ভীষণ ভয়ানক।"
+      ],
       "answer": "খ",
-      "explanation": "বিখ্যাত ইংরেজি সাহিত্যের প্রবাদ: 'A little learning is a dangerous thing'-এর বাংলা প্রবাদ হলো 'অল্পবিদ্যা ভয়ংকরী'।"
+      "explanation": "বিখ্যাত ইংরেজি সাহিত্যের প্রবাদ: 'A little learning is a dangerous thing'-এর বাংলা প্রবাদ হলো 'অল্পবিদ্যা ভয়ংকরী'।",
+      "ans": 1,
+      "correct_answer": "অল্পবিদ্যা ভয়ংকরী।"
     },
     {
       "id": 53,
       "question": "Sathi is known to me.",
-      "options": {
-        "ক": "সাথী আমার চেনা।",
-        "খ": "সাথী আমার আত্মীয়।",
-        "গ": "সাথী আমার পরিচিত।",
-        "ঘ": "সাথীকে আমি চিনি।"
-      },
+      "options": [
+        "সাথী আমার চেনা।",
+        "সাথী আমার আত্মীয়।",
+        "সাথী আমার পরিচিত।",
+        "সাথীকে আমি চিনি।"
+      ],
       "answer": "গ",
-      "explanation": "'Known to me' অর্থ আমার কাছে পরিচিত। তাই বাক্যটির যথাযথ বাংলা ভাবানুবাদ হলো 'সাথী আমার পরিচিত।'"
+      "explanation": "'Known to me' অর্থ আমার কাছে পরিচিত। তাই বাক্যটির যথাযথ বাংলা ভাবানুবাদ হলো 'সাথী আমার পরিচিত।'",
+      "ans": 2,
+      "correct_answer": "সাথী আমার পরিচিত।"
     },
     {
       "id": 54,
       "question": "Time and tide wait for none.",
-      "options": {
-        "ক": "সময় ও জল কারও জন্য থেমে থাকে না।",
-        "খ": "সময় ও জল অপেক্ষা করে না কারো জন্য।",
-        "গ": "সময় ও জলস্রোত কারও জন্য অপেক্ষা করে না।",
-        "ঘ": "সময় ও স্রোত কারও অপেক্ষা করে থাকে না।"
-      },
+      "options": [
+        "সময় ও জল কারও জন্য থেমে থাকে না।",
+        "সময় ও জল অপেক্ষা করে না কারো জন্য।",
+        "সময় ও জলস্রোত কারও জন্য অপেক্ষা করে না।",
+        "সময় ও স্রোত কারও অপেক্ষা করে থাকে না।"
+      ],
       "answer": "গ",
-      "explanation": "এটি একটি সুপরিচিত প্রবাদ বাক্য: 'Time and tide wait for none' (সময় ও স্রোত কারও জন্য অপেক্ষা করে না)।"
+      "explanation": "এটি একটি সুপরিচিত প্রবাদ বাক্য: 'Time and tide wait for none' (সময় ও স্রোত কারও জন্য অপেক্ষা করে না)।",
+      "ans": 2,
+      "correct_answer": "সময় ও জলস্রোত কারও জন্য অপেক্ষা করে না।"
     },
     {
       "id": 55,
       "question": "Don’t cry down your enemy.",
-      "options": {
-        "ক": "শত্রুকে খাটো করে দেখো না।",
-        "খ": "শত্রু থেকে দূরে থেকো।",
-        "গ": "শত্রুকে ছোট ভাবতে নাই।",
-        "ঘ": "শত্রুকে আপন ভেবোনা।"
-      },
+      "options": [
+        "শত্রুকে খাটো করে দেখো না।",
+        "শত্রু থেকে দূরে থেকো।",
+        "শত্রুকে ছোট ভাবতে নাই।",
+        "শত্রুকে আপন ভেবোনা।"
+      ],
       "answer": "ক",
-      "explanation": "'Cry down' একটি Phrasal verb যার অর্থ কাউকে হেয় করা বা খাটো করে দেখা (belittle/depreciate)। তাই সঠিক অনুবাদ: 'শত্রুকে খাটো করে দেখো না।'"
+      "explanation": "'Cry down' একটি Phrasal verb যার অর্থ কাউকে হেয় করা বা খাটো করে দেখা (belittle/depreciate)। তাই সঠিক অনুবাদ: 'শত্রুকে খাটো করে দেখো না।'",
+      "ans": 0,
+      "correct_answer": "শত্রুকে খাটো করে দেখো না।"
     },
     {
       "id": 56,
       "question": "Certainly, I shall stand by you (Complex)",
-      "options": {
-        "ক": "I shall stand by you and it is certain.",
-        "খ": "It is certain that I shall stand by you.",
-        "গ": "It is certainly that I shall stand by you.",
-        "ঘ": "There is no doubt that I shall stand by you."
-      },
+      "options": [
+        "I shall stand by you and it is certain.",
+        "It is certain that I shall stand by you.",
+        "It is certainly that I shall stand by you.",
+        "There is no doubt that I shall stand by you."
+      ],
       "answer": "খ",
-      "explanation": "Adverb 'Certainly'-কে ক্লজে রূপান্তর করে 'It is certain that' যোগ করে Complex বাক্য গঠন করা হয়: 'It is certain that I shall stand by you.'"
+      "explanation": "Adverb 'Certainly'-কে ক্লজে রূপান্তর করে 'It is certain that' যোগ করে Complex বাক্য গঠন করা হয়: 'It is certain that I shall stand by you.'",
+      "ans": 1,
+      "correct_answer": "It is certain that I shall stand by you."
     },
     {
       "id": 57,
       "question": "I had a nice dream last night (Interrogative)",
-      "options": {
-        "ক": "Didn’t I had a nice dream last night?",
-        "খ": "Did not I have a nice dream last night?",
-        "গ": "Had not I have a nice dream?",
-        "ঘ": "Had I have a nice dream last night?"
-      },
+      "options": [
+        "Didn’t I had a nice dream last night?",
+        "Did not I have a nice dream last night?",
+        "Had not I have a nice dream?",
+        "Had I have a nice dream last night?"
+      ],
       "answer": "খ",
-      "explanation": "'Had' এখানে মূল Verb (Past Indefinite)। Interrogative-Negative করতে 'Did not + subject + base verb (have) + ...?' কাঠামো ব্যবহৃত হয়।"
+      "explanation": "'Had' এখানে মূল Verb (Past Indefinite)। Interrogative-Negative করতে 'Did not + subject + base verb (have) + ...?' কাঠামো ব্যবহৃত হয়।",
+      "ans": 1,
+      "correct_answer": "Did not I have a nice dream last night?"
     },
     {
       "id": 58,
       "question": "Although he is poor, he is hones (Simple)",
-      "options": {
-        "ক": "Despite his poor, he is honest.",
-        "খ": "Despite his honesty, he is poor.",
-        "গ": "Despite his poverty, he is honest.",
-        "ঘ": "In spite of having poor, he is honest."
-      },
+      "options": [
+        "Despite his poor, he is honest.",
+        "Despite his honesty, he is poor.",
+        "Despite his poverty, he is honest.",
+        "In spite of having poor, he is honest."
+      ],
       "answer": "গ",
-      "explanation": "'Although' যুক্ত বাক্যকে Simple করার নিয়ম: 'Despite / In spite of + possessive pronoun + noun form of adjective (poverty) + main clause'।"
+      "explanation": "'Although' যুক্ত বাক্যকে Simple করার নিয়ম: 'Despite / In spite of + possessive pronoun + noun form of adjective (poverty) + main clause'।",
+      "ans": 2,
+      "correct_answer": "Despite his poverty, he is honest."
     },
     {
       "id": 59,
       "question": "It burns the prettiest of any wood (Positive)",
-      "options": {
-        "ক": "No other wood is as pretty as it burns.",
-        "খ": "No other wood is as pretty as it.",
-        "গ": "No other wood burns as pretty as it.",
-        "ঘ": "No other wood burn as pretty as it."
-      },
+      "options": [
+        "No other wood is as pretty as it burns.",
+        "No other wood is as pretty as it.",
+        "No other wood burns as pretty as it.",
+        "No other wood burn as pretty as it."
+      ],
       "answer": "গ",
-      "explanation": "Superlative থেকে Positive করার নিয়ম: No other + singular noun (wood) + verb (burns) + as + pretty + as + subject (it)।"
+      "explanation": "Superlative থেকে Positive করার নিয়ম: No other + singular noun (wood) + verb (burns) + as + pretty + as + subject (it)।",
+      "ans": 2,
+      "correct_answer": "No other wood burns as pretty as it."
     },
     {
       "id": 60,
       "question": "There is only a high school at Satkhira (Nagetive)",
-      "options": {
-        "ক": "Note more than a high school is at Satkhira",
-        "খ": "There is not more than a high school at Satkhira.",
-        "গ": "There is a few school at Satkhira.",
-        "ঘ": "There is nothing but a school at Satkhira."
-      },
+      "options": [
+        "Note more than a high school is at Satkhira",
+        "There is not more than a high school at Satkhira.",
+        "There is a few school at Satkhira.",
+        "There is nothing but a school at Satkhira."
+      ],
       "answer": "খ",
-      "explanation": "সংখ্যাবাচক একক প্রতিষ্ঠান নির্দেশ করায় 'Only'-এর পরিবর্তে Negative করার সময় 'Not more than' ব্যবহৃত হয়।"
+      "explanation": "সংখ্যাবাচক একক প্রতিষ্ঠান নির্দেশ করায় 'Only'-এর পরিবর্তে Negative করার সময় 'Not more than' ব্যবহৃত হয়।",
+      "ans": 1,
+      "correct_answer": "There is not more than a high school at Satkhira."
     },
     {
       "id": 61,
       "question": "Akhi missed the train (Nagative)",
-      "options": {
-        "ক": "Akhi did not catch the train.",
-        "খ": "Akhi did not get the train.",
-        "গ": "Akhi did not get into the train.",
-        "ঘ": "Akhi does not get on the train."
-      },
+      "options": [
+        "Akhi did not catch the train.",
+        "Akhi did not get the train.",
+        "Akhi did not get into the train.",
+        "Akhi does not get on the train."
+      ],
       "answer": "খ",
-      "explanation": "ট্রেন মিস করা বা ধরতে না পারার নেতিবাচক রূপ হলো 'did not catch the train' বা 'did not get the train'। অপশন (খ) উত্তরমালায় গৃহীত।"
+      "explanation": "ট্রেন মিস করা বা ধরতে না পারার নেতিবাচক রূপ হলো 'did not catch the train' বা 'did not get the train'। অপশন (খ) উত্তরমালায় গৃহীত।",
+      "ans": 1,
+      "correct_answer": "Akhi did not get the train."
     },
     {
       "id": 62,
       "question": "I know his name (Complex).",
-      "options": {
-        "ক": "I know what is his name.",
-        "খ": "I know what his name is.",
-        "গ": "I knew what was his name.",
-        "ঘ": "I knew what name is."
-      },
+      "options": [
+        "I know what is his name.",
+        "I know what his name is.",
+        "I knew what was his name.",
+        "I knew what name is."
+      ],
       "answer": "খ",
-      "explanation": "'His name' অংশটিকে Noun Clause-এ রূপান্তর করে Complex বাক্য গঠন করা হয়: 'I know what his name is.'"
+      "explanation": "'His name' অংশটিকে Noun Clause-এ রূপান্তর করে Complex বাক্য গঠন করা হয়: 'I know what his name is.'",
+      "ans": 1,
+      "correct_answer": "I know what his name is."
     },
     {
       "id": 63,
       "question": "We shall not see his like again. Here ‘like’ is a/an-",
-      "options": {
-        "ক": "Adverb",
-        "খ": "Noun",
-        "গ": "Preposition",
-        "ঘ": "Adjective"
-      },
+      "options": [
+        "Adverb",
+        "Noun",
+        "Preposition",
+        "Adjective"
+      ],
       "answer": "খ",
-      "explanation": "বাক্যে Possessive adjective 'his'-এর পর একক শব্দ হিসেবে 'like' বসেছে যার অর্থ 'তার মতো মানুষ/তার সমকক্ষ'। Possessive-এর পর সর্বদা Noun বসে।"
+      "explanation": "বাক্যে Possessive adjective 'his'-এর পর একক শব্দ হিসেবে 'like' বসেছে যার অর্থ 'তার মতো মানুষ/তার সমকক্ষ'। Possessive-এর পর সর্বদা Noun বসে।",
+      "ans": 1,
+      "correct_answer": "Noun"
     },
     {
       "id": 64,
       "question": "What is the noun form of ‘know’?",
-      "options": {
-        "ক": "Knowing",
-        "খ": "Knowledge",
-        "গ": "Known",
-        "ঘ": "Knowledgeable"
-      },
+      "options": [
+        "Knowing",
+        "Knowledge",
+        "Known",
+        "Knowledgeable"
+      ],
       "answer": "খ",
-      "explanation": "'Know' (জানা) হলো Verb। এর Noun ফর্ম হলো 'Knowledge' (জ্ঞান)। 'Knowing' হলো Gerund/Participle।"
+      "explanation": "'Know' (জানা) হলো Verb। এর Noun ফর্ম হলো 'Knowledge' (জ্ঞান)। 'Knowing' হলো Gerund/Participle।",
+      "ans": 1,
+      "correct_answer": "Knowledge"
     },
     {
       "id": 65,
       "question": "Shahed did not join the army. Here the word ‘army’ is-",
-      "options": {
-        "ক": "an abstract noun",
-        "খ": "a common noun",
-        "গ": "a collective noun",
-        "ঘ": "a material noun"
-      },
+      "options": [
+        "an abstract noun",
+        "a common noun",
+        "a collective noun",
+        "a material noun"
+      ],
       "answer": "গ",
-      "explanation": "'Army' (সেনাবাহিনী) একদল সৈনিকের সমষ্টিকে একক দল হিসেবে নির্দেশ করায় এটি একটি Collective Noun।"
+      "explanation": "'Army' (সেনাবাহিনী) একদল সৈনিকের সমষ্টিকে একক দল হিসেবে নির্দেশ করায় এটি একটি Collective Noun।",
+      "ans": 2,
+      "correct_answer": "a collective noun"
     },
     {
       "id": 66,
       "question": "The road runs - hill and plain.",
-      "options": {
-        "ক": "by",
-        "খ": "to",
-        "গ": "across",
-        "ঘ": "over"
-      },
+      "options": [
+        "by",
+        "to",
+        "across",
+        "over"
+      ],
       "answer": "গ",
-      "explanation": "কোনো এলাকার এক প্রান্ত থেকে অন্য প্রান্ত পর্যন্ত বিস্তৃত হওয়া বোঝাতে Preposition 'Across' বসে ('across hill and plain')।"
+      "explanation": "কোনো এলাকার এক প্রান্ত থেকে অন্য প্রান্ত পর্যন্ত বিস্তৃত হওয়া বোঝাতে Preposition 'Across' বসে ('across hill and plain')।",
+      "ans": 2,
+      "correct_answer": "across"
     },
     {
       "id": 67,
       "question": "Priya has slept only three hours. Which part of speech is the word ‘only’ here?",
-      "options": {
-        "ক": "A noun",
-        "খ": "An adjective",
-        "গ": "An adverb",
-        "ঘ": "A preposition"
-      },
+      "options": [
+        "A noun",
+        "An adjective",
+        "An adverb",
+        "A preposition"
+      ],
       "answer": "গ",
-      "explanation": "'Only' শব্দটি Adjective 'three' (বা hours)-কে modify করে সীমাবদ্ধতা নির্দেশ করছে। তাই এটি একটি Adverb।"
+      "explanation": "'Only' শব্দটি Adjective 'three' (বা hours)-কে modify করে সীমাবদ্ধতা নির্দেশ করছে। তাই এটি একটি Adverb।",
+      "ans": 2,
+      "correct_answer": "An adverb"
     },
     {
       "id": 68,
       "question": "A paragraph has _ important parts in a single para.",
-      "options": {
-        "ক": "1",
-        "খ": "2",
-        "গ": "3",
-        "ঘ": "4"
-      },
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "answer": "গ",
-      "explanation": "একটি আদর্শ Paragraph-এর তিনটি প্রধান অংশ থাকে: (১) Topic sentence, (২) Supporting details বা Body, এবং (৩) Concluding sentence।"
+      "explanation": "একটি আদর্শ Paragraph-এর তিনটি প্রধান অংশ থাকে: (১) Topic sentence, (২) Supporting details বা Body, এবং (৩) Concluding sentence।",
+      "ans": 2,
+      "correct_answer": "3"
     },
     {
       "id": 69,
       "question": "বর্ষা শুরু হয়েছে? (Translate into English)",
-      "options": {
-        "ক": "The rain has set in",
-        "খ": "The rains have set in",
-        "গ": "The rain have set on",
-        "ঘ": "The rain has set out"
-      },
+      "options": [
+        "The rain has set in",
+        "The rains have set in",
+        "The rain have set on",
+        "The rain has set out"
+      ],
       "answer": "খ",
-      "explanation": "কোনো ঋতু বা আবহাওয়া শুরু হওয়া অর্থে Phrasal verb 'Set in' ব্যবহৃত হয় এবং বর্ষাকাল বোঝাতে Plural 'The rains have set in' প্রচলিত।"
+      "explanation": "কোনো ঋতু বা আবহাওয়া শুরু হওয়া অর্থে Phrasal verb 'Set in' ব্যবহৃত হয় এবং বর্ষাকাল বোঝাতে Plural 'The rains have set in' প্রচলিত।",
+      "ans": 1,
+      "correct_answer": "The rains have set in"
     },
     {
       "id": 70,
       "question": "সে দিন এনে দিন খায়। (Translate into English)",
-      "options": {
-        "ক": "He lives from hand to mouth",
-        "খ": "He lives by hand to mouth",
-        "গ": "He lives day by day",
-        "ঘ": "He eats day by day"
-      },
+      "options": [
+        "He lives from hand to mouth",
+        "He lives by hand to mouth",
+        "He lives day by day",
+        "He eats day by day"
+      ],
       "answer": "ক",
-      "explanation": "দিন এনে দিন খাওয়ার বহুল প্রচলিত ইংরেজি Idiomatic অনুবাদ হলো 'Live from hand to mouth'। তাই (ক) সঠিক।"
+      "explanation": "দিন এনে দিন খাওয়ার বহুল প্রচলিত ইংরেজি Idiomatic অনুবাদ হলো 'Live from hand to mouth'। তাই (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "He lives from hand to mouth"
     },
     {
       "id": 71,
       "question": "সে বলল যে সে যাবে। (Translate into English)",
-      "options": {
-        "ক": "He said that he will go",
-        "খ": "He said that he would went",
-        "গ": "He said that he will went",
-        "ঘ": "He said that he would go"
-      },
+      "options": [
+        "He said that he will go",
+        "He said that he would went",
+        "He said that he will went",
+        "He said that he would go"
+      ],
       "answer": "ঘ",
-      "explanation": "Reporting verb অতীতকালে (He said) থাকায় Indirect speech-এ 'will' পরিবর্তিত হয়ে 'would' হবে: 'He said that he would go.'"
+      "explanation": "Reporting verb অতীতকালে (He said) থাকায় Indirect speech-এ 'will' পরিবর্তিত হয়ে 'would' হবে: 'He said that he would go.'",
+      "ans": 3,
+      "correct_answer": "He said that he would go"
     },
     {
       "id": 72,
       "question": "আমি বরং মরব কিন্তু ভিক্ষা করব না। (Translate into English)",
-      "options": {
-        "ক": "I would rather die than beg",
-        "খ": "I would rather to die than to beg",
-        "গ": "I would die than beg",
-        "ঘ": "I would die rather beg"
-      },
+      "options": [
+        "I would rather die than beg",
+        "I would rather to die than to beg",
+        "I would die than beg",
+        "I would die rather beg"
+      ],
       "answer": "ক",
-      "explanation": "দুটি কাজের মধ্যে একটিকে অগ্রাধিকার দিতে 'Would rather ... than' ব্যবহৃত হয় এবং এরপর verb-এর base form বসে। তাই (ক) সঠিক।"
+      "explanation": "দুটি কাজের মধ্যে একটিকে অগ্রাধিকার দিতে 'Would rather ... than' ব্যবহৃত হয় এবং এরপর verb-এর base form বসে। তাই (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "I would rather die than beg"
     },
     {
       "id": 73,
       "question": "সে হাসতে হাসতে চলে গেল। (Translate into English)",
-      "options": {
-        "ক": "He went away laugh",
-        "খ": "He went away to laugh",
-        "গ": "He went away laughing and lauging",
-        "ঘ": "He went away laughing"
-      },
+      "options": [
+        "He went away laugh",
+        "He went away to laugh",
+        "He went away laughing and lauging",
+        "He went away laughing"
+      ],
       "answer": "ঘ",
-      "explanation": "চলে যাওয়ার সাথে সাথে হাসির অবস্থা নির্দেশ করায় Present Participle 'laughing' ব্যবহৃত হয়েছে: 'He went away laughing.'"
+      "explanation": "চলে যাওয়ার সাথে সাথে হাসির অবস্থা নির্দেশ করায় Present Participle 'laughing' ব্যবহৃত হয়েছে: 'He went away laughing.'",
+      "ans": 3,
+      "correct_answer": "He went away laughing"
     },
     {
       "id": 74,
       "question": "আমি এটা না করে পারলাম না। (Translate into English)",
-      "options": {
-        "ক": "I could not help do it",
-        "খ": "I could not help doing it",
-        "গ": "I could not help to do it",
-        "ঘ": "I could not but did it"
-      },
+      "options": [
+        "I could not help do it",
+        "I could not help doing it",
+        "I could not help to do it",
+        "I could not but did it"
+      ],
       "answer": "ক",
-      "explanation": "ব্যাকরণ অনুযায়ী 'I could not help doing it' (খ) অথবা 'I could not but do it' সঠিক। মুদ্রিত প্রশ্নপত্রে (ক) চিহ্নিত রয়েছে।"
+      "explanation": "ব্যাকরণ অনুযায়ী 'I could not help doing it' (খ) অথবা 'I could not but do it' সঠিক। মুদ্রিত প্রশ্নপত্রে (ক) চিহ্নিত রয়েছে।",
+      "ans": 0,
+      "correct_answer": "I could not help do it"
     },
     {
       "id": 75,
       "question": "I do not take tea.",
-      "options": {
-        "ক": "আমি চা খাই",
-        "খ": "আমি চা পান করি",
-        "গ": "আমি চা খাই না",
-        "ঘ": "আমি চা আনি না"
-      },
+      "options": [
+        "আমি চা খাই",
+        "আমি চা পান করি",
+        "আমি চা খাই না",
+        "আমি চা আনি না"
+      ],
       "answer": "খ",
-      "explanation": "'I do not take tea'-এর প্রকৃত অর্থ 'আমি চা খাই না/পান করি না' (গ)। তবে মুদ্রিত প্রশ্নপত্রের উত্তরমালায় ভুলবশত (খ) চিহ্নিত রয়েছে।"
+      "explanation": "'I do not take tea'-এর প্রকৃত অর্থ 'আমি চা খাই না/পান করি না' (গ)। তবে মুদ্রিত প্রশ্নপত্রের উত্তরমালায় ভুলবশত (খ) চিহ্নিত রয়েছে।",
+      "ans": 1,
+      "correct_answer": "আমি চা পান করি"
     },
     {
       "id": 76,
       "question": "Look before you leap.",
-      "options": {
-        "ক": "লাফ দেবার আগে তাকাও",
-        "খ": "ভাবিয়া করিও কাজ",
-        "গ": "আগে ভাবিয়া পরে লাফ দিবে",
-        "ঘ": "দেখে নাও পরে লাফ দাও"
-      },
+      "options": [
+        "লাফ দেবার আগে তাকাও",
+        "ভাবিয়া করিও কাজ",
+        "আগে ভাবিয়া পরে লাফ দিবে",
+        "দেখে নাও পরে লাফ দাও"
+      ],
       "answer": "খ",
-      "explanation": "অতি পরিচিত ইংরেজি প্রবাদ: 'Look before you leap' যার বাংলা ভাবানুবাদ হলো 'ভাবিয়া করিও কাজ, করিয়া ভাবিও না'।"
+      "explanation": "অতি পরিচিত ইংরেজি প্রবাদ: 'Look before you leap' যার বাংলা ভাবানুবাদ হলো 'ভাবিয়া করিও কাজ, করিয়া ভাবিও না'।",
+      "ans": 1,
+      "correct_answer": "ভাবিয়া করিও কাজ"
     },
     {
       "id": 77,
       "question": "It is raining cats and dogs.",
-      "options": {
-        "ক": "মুষলধারে বৃষ্টি হচ্ছে",
-        "খ": "কুকুর বিড়ালের মতো বৃষ্টি হচ্ছে",
-        "গ": "ইহা বৃষ্টি হচ্ছে কুকুর ও বিড়ালগুলি",
-        "ঘ": "কুকুর ও বিড়াল বৃষ্টিতে ভিজছে।"
-      },
+      "options": [
+        "মুষলধারে বৃষ্টি হচ্ছে",
+        "কুকুর বিড়ালের মতো বৃষ্টি হচ্ছে",
+        "ইহা বৃষ্টি হচ্ছে কুকুর ও বিড়ালগুলি",
+        "কুকুর ও বিড়াল বৃষ্টিতে ভিজছে।"
+      ],
       "answer": "ক",
-      "explanation": "'Raining cats and dogs' প্রবাদটির অর্থ হলো অবিরাম প্রবল বর্ষণ বা 'মুষলধারে বৃষ্টি হচ্ছে'।"
+      "explanation": "'Raining cats and dogs' প্রবাদটির অর্থ হলো অবিরাম প্রবল বর্ষণ বা 'মুষলধারে বৃষ্টি হচ্ছে'।",
+      "ans": 0,
+      "correct_answer": "মুষলধারে বৃষ্টি হচ্ছে"
     },
     {
       "id": 78,
       "question": "He has killed himself.",
-      "options": {
-        "ক": "সে তোমাকে হত্যা করেছে",
-        "খ": "সে তাকে হত্যা করেছে",
-        "গ": "সে মারা গিয়েছে",
-        "ঘ": "সে আত্মহত্যা করেছে"
-      },
+      "options": [
+        "সে তোমাকে হত্যা করেছে",
+        "সে তাকে হত্যা করেছে",
+        "সে মারা গিয়েছে",
+        "সে আত্মহত্যা করেছে"
+      ],
       "answer": "ঘ",
-      "explanation": "কোনো ব্যক্তি নিজেকে নিজে হত্যা করলে Reflexive pronoun (himself) ব্যবহৃত হয়, যার বাংলা অর্থ 'আত্মহত্যা করা'। তাই (ঘ) সঠিক।"
+      "explanation": "কোনো ব্যক্তি নিজেকে নিজে হত্যা করলে Reflexive pronoun (himself) ব্যবহৃত হয়, যার বাংলা অর্থ 'আত্মহত্যা করা'। তাই (ঘ) সঠিক।",
+      "ans": 3,
+      "correct_answer": "সে আত্মহত্যা করেছে"
     },
     {
       "id": 79,
       "question": "Diamond cuts diamond.",
-      "options": {
-        "ক": "রতন চেনে নষ্ট",
-        "খ": "রতন দেখে লোক চেনা যায়",
-        "গ": "সৎ সঙ্গে স্বর্গ বাস",
-        "ঘ": "মানিকে মানিক চেনে"
-      },
+      "options": [
+        "রতন চেনে নষ্ট",
+        "রতন দেখে লোক চেনা যায়",
+        "সৎ সঙ্গে স্বর্গ বাস",
+        "মানিকে মানিক চেনে"
+      ],
       "answer": "ঘ",
-      "explanation": "বিখ্যাত প্রবাদ বাক্য: 'Diamond cuts diamond'-এর সমার্থক বাংলা প্রবাদ হলো 'মানিকে মানিক চেনে' বা 'রতনে রতন চেনে'।"
+      "explanation": "বিখ্যাত প্রবাদ বাক্য: 'Diamond cuts diamond'-এর সমার্থক বাংলা প্রবাদ হলো 'মানিকে মানিক চেনে' বা 'রতনে রতন চেনে'।",
+      "ans": 3,
+      "correct_answer": "মানিকে মানিক চেনে"
     },
     {
       "id": 80,
       "question": "I am deadly hard up.",
-      "options": {
-        "ক": "আমি অসহ্য হয়ে উঠেছি",
-        "খ": "আমি এককথার মানুষ",
-        "গ": "আমি কঠিন অসুখে ভুগছি",
-        "ঘ": "আমার টাকার খুব অনটন হয়েছে"
-      },
+      "options": [
+        "আমি অসহ্য হয়ে উঠেছি",
+        "আমি এককথার মানুষ",
+        "আমি কঠিন অসুখে ভুগছি",
+        "আমার টাকার খুব অনটন হয়েছে"
+      ],
       "answer": "ঘ",
-      "explanation": "'Hard up' একটি সুপরিচিত Idiom যার অর্থ অত্যন্ত আর্থিক অনটন বা টানাটানিতে থাকা (short of money)। তাই (ঘ) সঠিক অনুবাদ।"
+      "explanation": "'Hard up' একটি সুপরিচিত Idiom যার অর্থ অত্যন্ত আর্থিক অনটন বা টানাটানিতে থাকা (short of money)। তাই (ঘ) সঠিক অনুবাদ।",
+      "ans": 3,
+      "correct_answer": "আমার টাকার খুব অনটন হয়েছে"
     },
     {
       "id": 81,
       "question": "He is only five (Negative)",
-      "options": {
-        "ক": "He is not less than five",
-        "খ": "He is not only five",
-        "গ": "He is above not five",
-        "ঘ": "He is not aged five"
-      },
+      "options": [
+        "He is not less than five",
+        "He is not only five",
+        "He is above not five",
+        "He is not aged five"
+      ],
       "answer": "ক",
-      "explanation": "বয়স বা সংখ্যাবাচক বাক্যে 'Only'-এর পরিবর্তে Negative করার সময় 'Not more than' বা 'Not less than' বসে। তাই (ক) সঠিক।"
+      "explanation": "বয়স বা সংখ্যাবাচক বাক্যে 'Only'-এর পরিবর্তে Negative করার সময় 'Not more than' বা 'Not less than' বসে। তাই (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "He is not less than five"
     },
     {
       "id": 82,
       "question": "If he does not do, he will die. (Compound)",
-      "options": {
-        "ক": "Do and die",
-        "খ": "Do or die",
-        "গ": "He cannot do and die",
-        "ঘ": "Let him do or he will die"
-      },
+      "options": [
+        "Do and die",
+        "Do or die",
+        "He cannot do and die",
+        "Let him do or he will die"
+      ],
       "answer": "খ",
-      "explanation": "শর্তমূলক নেতিবাচক Complex বাক্যকে সংক্ষিপ্ত ও শক্তিশালী Compound বাক্যে রূপান্তর করলে দাঁড়ায় 'Do or die' (করো অথবা মরো)।"
+      "explanation": "শর্তমূলক নেতিবাচক Complex বাক্যকে সংক্ষিপ্ত ও শক্তিশালী Compound বাক্যে রূপান্তর করলে দাঁড়ায় 'Do or die' (করো অথবা মরো)।",
+      "ans": 1,
+      "correct_answer": "Do or die"
     },
     {
       "id": 83,
       "question": "Everybody knows this. (Interrogative)",
-      "options": {
-        "ক": "Does anybody knows this.",
-        "খ": "Who does not know this?",
-        "গ": "Who do not know this.",
-        "ঘ": "Do anybody know this."
-      },
+      "options": [
+        "Does anybody knows this.",
+        "Who does not know this?",
+        "Who do not know this.",
+        "Do anybody know this."
+      ],
       "answer": "খ",
-      "explanation": "'Everybody / Everyone' যুক্ত Affirmative বাক্যকে Interrogative করতে 'Who does not + base verb (know) + ...?' বসে।"
+      "explanation": "'Everybody / Everyone' যুক্ত Affirmative বাক্যকে Interrogative করতে 'Who does not + base verb (know) + ...?' বসে।",
+      "ans": 1,
+      "correct_answer": "Who does not know this?"
     },
     {
       "id": 84,
       "question": "I wish I were an ideal teacher. (Exclamatory)",
-      "options": {
-        "ক": "If I were an ideal teacher!",
-        "খ": "How an ideal teacher I was!",
-        "গ": "What and ideal teacher I was!",
-        "ঘ": "If an ideal teacher I am!"
-      },
+      "options": [
+        "If I were an ideal teacher!",
+        "How an ideal teacher I was!",
+        "What and ideal teacher I was!",
+        "If an ideal teacher I am!"
+      ],
       "answer": "ক",
-      "explanation": "'I wish I were ...' যুক্ত বাক্যকে Exclamatory করতে 'If I were an ideal teacher!' কাঠামো ব্যবহৃত হয়।"
+      "explanation": "'I wish I were ...' যুক্ত বাক্যকে Exclamatory করতে 'If I were an ideal teacher!' কাঠামো ব্যবহৃত হয়।",
+      "ans": 0,
+      "correct_answer": "If I were an ideal teacher!"
     },
     {
       "id": 85,
       "question": "I must go there. (Negative)",
-      "options": {
-        "ক": "I cannot but going there",
-        "খ": "I cannot help go there",
-        "গ": "I cannot but go there",
-        "ঘ": "I must not go there"
-      },
+      "options": [
+        "I cannot but going there",
+        "I cannot help go there",
+        "I cannot but go there",
+        "I must not go there"
+      ],
       "answer": "গ",
-      "explanation": "'Must'-এর স্থলে Negative করার সময় 'cannot but + base verb' (go) বসে: 'I cannot but go there.'"
+      "explanation": "'Must'-এর স্থলে Negative করার সময় 'cannot but + base verb' (go) বসে: 'I cannot but go there.'",
+      "ans": 2,
+      "correct_answer": "I cannot but go there"
     },
     {
       "id": 86,
       "question": "Move and die. (Simple)",
-      "options": {
-        "ক": "If you move, you will die",
-        "খ": "By moving you will die",
-        "গ": "Without moving you will die",
-        "ঘ": "If you do not move, you will do"
-      },
+      "options": [
+        "If you move, you will die",
+        "By moving you will die",
+        "Without moving you will die",
+        "If you do not move, you will do"
+      ],
       "answer": "খ",
-      "explanation": "'Imperative + and' যুক্ত ইতিবাচক শর্তের Compound বাক্যকে Simple করতে 'By + gerund' কাঠামো ব্যবহৃত হয়: 'By moving you will die.'"
+      "explanation": "'Imperative + and' যুক্ত ইতিবাচক শর্তের Compound বাক্যকে Simple করতে 'By + gerund' কাঠামো ব্যবহৃত হয়: 'By moving you will die.'",
+      "ans": 1,
+      "correct_answer": "By moving you will die"
     },
     {
       "id": 87,
       "question": "Though he tried hard, he failed. (Compound)",
-      "options": {
-        "ক": "He tried and failed",
-        "খ": "In spite of his trying hard, he failed",
-        "গ": "He tried hard but failed",
-        "ঘ": "But for his trying hard, be failed"
-      },
+      "options": [
+        "He tried and failed",
+        "In spite of his trying hard, he failed",
+        "He tried hard but failed",
+        "But for his trying hard, be failed"
+      ],
       "answer": "গ",
-      "explanation": "'Though/Although' যুক্ত বিপরীতার্থক Complex বাক্যকে Compound করতে দুটি ক্লজের মাঝে Conjunction 'but' বসে: 'He tried hard but failed.'"
+      "explanation": "'Though/Although' যুক্ত বিপরীতার্থক Complex বাক্যকে Compound করতে দুটি ক্লজের মাঝে Conjunction 'but' বসে: 'He tried hard but failed.'",
+      "ans": 2,
+      "correct_answer": "He tried hard but failed"
     },
     {
       "id": 88,
       "question": "What is the ‘noun’ form of ‘beautiful’?",
-      "options": {
-        "ক": "beauty",
-        "খ": "beautify",
-        "গ": "beautifully",
-        "ঘ": "beauteous"
-      },
+      "options": [
+        "beauty",
+        "beautify",
+        "beautifully",
+        "beauteous"
+      ],
       "answer": "ক",
-      "explanation": "'Beautiful' (সুন্দর) হলো Adjective। এর Noun ফর্ম হলো 'Beauty' (সৌন্দর্য)। 'Beautify' হলো Verb।"
+      "explanation": "'Beautiful' (সুন্দর) হলো Adjective। এর Noun ফর্ম হলো 'Beauty' (সৌন্দর্য)। 'Beautify' হলো Verb।",
+      "ans": 0,
+      "correct_answer": "beauty"
     },
     {
       "id": 89,
       "question": "He is a justice of the High Court. Here justice’ is a/an-noun.",
-      "options": {
-        "ক": "abstract",
-        "খ": "material",
-        "গ": "proper",
-        "ঘ": "common"
-      },
+      "options": [
+        "abstract",
+        "material",
+        "proper",
+        "common"
+      ],
       "answer": "ঘ",
-      "explanation": "এখানে 'justice' দ্বারা সুনির্দিষ্ট কোনো বিমূর্ত গুণ না বুঝিয়ে 'বিচারপতি' (judge) পদবীভুক্ত ব্যক্তিকে নির্দেশ করছে, যার পূর্বে Article 'a' বসেছে। পদবীবাচক ব্যক্তি নির্দেশ করায় এটি Common Noun।"
+      "explanation": "এখানে 'justice' দ্বারা সুনির্দিষ্ট কোনো বিমূর্ত গুণ না বুঝিয়ে 'বিচারপতি' (judge) পদবীভুক্ত ব্যক্তিকে নির্দেশ করছে, যার পূর্বে Article 'a' বসেছে। পদবীবাচক ব্যক্তি নির্দেশ করায় এটি Common Noun।",
+      "ans": 3,
+      "correct_answer": "common"
     },
     {
       "id": 90,
       "question": "He raised his hand. Here ‘raised’ is a - verb.",
-      "options": {
-        "ক": "copulative",
-        "খ": "transitive",
-        "গ": "factitive",
-        "ঘ": "causative"
-      },
+      "options": [
+        "copulative",
+        "transitive",
+        "factitive",
+        "causative"
+      ],
       "answer": "খ",
-      "explanation": "'Raised' ক্রিয়াটির সরাসরি Object রয়েছে ('his hand')। যে ক্রিয়ার পর সরাসরি Object থাকে তাকে Transitive Verb (সকর্মক ক্রিয়া) বলা হয়।"
+      "explanation": "'Raised' ক্রিয়াটির সরাসরি Object রয়েছে ('his hand')। যে ক্রিয়ার পর সরাসরি Object থাকে তাকে Transitive Verb (সকর্মক ক্রিয়া) বলা হয়।",
+      "ans": 1,
+      "correct_answer": "transitive"
     },
     {
       "id": 91,
       "question": "An adverb does not modify-",
-      "options": {
-        "ক": "nouns",
-        "খ": "adjectives",
-        "গ": "verbs",
-        "ঘ": "adverbs"
-      },
+      "options": [
+        "nouns",
+        "adjectives",
+        "verbs",
+        "adverbs"
+      ],
       "answer": "ক",
-      "explanation": "Adverb মূলত Verb, Adjective এবং অন্য কোনো Adverb-কে modify করে। Adverb কখনো Noun বা Pronoun-কে modify করে না (Noun/Pronoun-কে Adjective modify করে)।"
+      "explanation": "Adverb মূলত Verb, Adjective এবং অন্য কোনো Adverb-কে modify করে। Adverb কখনো Noun বা Pronoun-কে modify করে না (Noun/Pronoun-কে Adjective modify করে)।",
+      "ans": 0,
+      "correct_answer": "nouns"
     },
     {
       "id": 92,
       "question": "Which pen do you want? Here ‘which’ is a/an -.",
-      "options": {
-        "ক": "adjective",
-        "খ": "pronoun",
-        "গ": "conjunction",
-        "ঘ": "interjection"
-      },
+      "options": [
+        "adjective",
+        "pronoun",
+        "conjunction",
+        "interjection"
+      ],
       "answer": "ক",
-      "explanation": "'Which' শব্দটি Noun 'pen'-এর ঠিক পূর্বে বসে প্রশ্ন করার মাধ্যমে পেনটিকে বিশেষায়িত করেছে। Noun-এর পূর্বে বসা Interrogative pronoun মূলত Interrogative Adjective হিসেবে কাজ করে।"
+      "explanation": "'Which' শব্দটি Noun 'pen'-এর ঠিক পূর্বে বসে প্রশ্ন করার মাধ্যমে পেনটিকে বিশেষায়িত করেছে। Noun-এর পূর্বে বসা Interrogative pronoun মূলত Interrogative Adjective হিসেবে কাজ করে।",
+      "ans": 0,
+      "correct_answer": "adjective"
     },
     {
       "id": 93,
       "question": "A paragraph must have - theme/themes.",
-      "options": {
-        "ক": "one",
-        "খ": "two",
-        "গ": "three",
-        "ঘ": "four"
-      },
+      "options": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
       "answer": "ক",
-      "explanation": "একটি অনুচ্ছেদে সর্বদা একটিমাত্র মূল প্রতিপাদ্য বিষয় বা ধারণা (one central theme) থাকতে হয়।"
+      "explanation": "একটি অনুচ্ছেদে সর্বদা একটিমাত্র মূল প্রতিপাদ্য বিষয় বা ধারণা (one central theme) থাকতে হয়।",
+      "ans": 0,
+      "correct_answer": "one"
     },
     {
       "id": 94,
       "question": "এই ঘরটি ভাড়া দেওয়া হবে?",
-      "options": {
-        "ক": "This housed is to let.",
-        "খ": "These house is for sale.",
-        "গ": "This house will be should.",
-        "ঘ": "Rent this house."
-      },
+      "options": [
+        "This housed is to let.",
+        "These house is for sale.",
+        "This house will be should.",
+        "Rent this house."
+      ],
       "answer": "ক",
-      "explanation": "বাড়ি বা ঘর ভাড়া দেওয়ার বহুল প্রচলিত এবং ঐতিহ্যবাহী ইংরেজি প্রকাশভঙ্গি হলো 'To let' (বা 'This house is to let')।"
+      "explanation": "বাড়ি বা ঘর ভাড়া দেওয়ার বহুল প্রচলিত এবং ঐতিহ্যবাহী ইংরেজি প্রকাশভঙ্গি হলো 'To let' (বা 'This house is to let')।",
+      "ans": 0,
+      "correct_answer": "This housed is to let."
     },
     {
       "id": 95,
       "question": "ডাক্তার এই রোগীটির নাড়ি দেখলেন।",
-      "options": {
-        "ক": "The doctor saw the pulse of the patient.",
-        "খ": "The doctor felt the pulse of the patient.",
-        "গ": "The doctor feels the pulse of the patient.",
-        "ঘ": "The doctor has seen pulse of the patient."
-      },
+      "options": [
+        "The doctor saw the pulse of the patient.",
+        "The doctor felt the pulse of the patient.",
+        "The doctor feels the pulse of the patient.",
+        "The doctor has seen pulse of the patient."
+      ],
       "answer": "খ",
-      "explanation": "নাড়ি পরীক্ষা করা বা দেখা বোঝাতে ইংরেজি Verb হিসেবে 'Feel the pulse' ব্যবহৃত হয়। অতীতকালে 'felt the pulse' সঠিক অনুবাদ।"
+      "explanation": "নাড়ি পরীক্ষা করা বা দেখা বোঝাতে ইংরেজি Verb হিসেবে 'Feel the pulse' ব্যবহৃত হয়। অতীতকালে 'felt the pulse' সঠিক অনুবাদ।",
+      "ans": 1,
+      "correct_answer": "The doctor felt the pulse of the patient."
     },
     {
       "id": 96,
       "question": "এক টাকা ভাংতি দাও।",
-      "options": {
-        "ক": "Give me a one taka change.",
-        "খ": "Give me a change for taka.",
-        "গ": "Give me a taka change.",
-        "ঘ": "Give me change for a taka."
-      },
+      "options": [
+        "Give me a one taka change.",
+        "Give me a change for taka.",
+        "Give me a taka change.",
+        "Give me change for a taka."
+      ],
       "answer": "ঘ",
-      "explanation": "কোনো নির্দিষ্ট টাকার নোট বা মুদ্রার ভাংতি চাওয়ার সঠিক ইংরেজি প্রকাশভঙ্গি হলো 'Change for a taka/hundred taka'। তাই (ঘ) সঠিক।"
+      "explanation": "কোনো নির্দিষ্ট টাকার নোট বা মুদ্রার ভাংতি চাওয়ার সঠিক ইংরেজি প্রকাশভঙ্গি হলো 'Change for a taka/hundred taka'। তাই (ঘ) সঠিক।",
+      "ans": 3,
+      "correct_answer": "Give me change for a taka."
     },
     {
       "id": 97,
       "question": "দৃশ্যটি অতি মনোরম।",
-      "options": {
-        "ক": "How nice the scenery is!",
-        "খ": "What a charming scenery it is!",
-        "গ": "The scenery is very charming.",
-        "ঘ": "This is a great scenery."
-      },
+      "options": [
+        "How nice the scenery is!",
+        "What a charming scenery it is!",
+        "The scenery is very charming.",
+        "This is a great scenery."
+      ],
       "answer": "গ",
-      "explanation": "সাধারণ বর্ণনামূলক বাক্যে দৃশ্যটির চমৎকারিত্ব প্রকাশে 'The scenery is very charming' সঠিক ইংরেজি অনুবাদ।"
+      "explanation": "সাধারণ বর্ণনামূলক বাক্যে দৃশ্যটির চমৎকারিত্ব প্রকাশে 'The scenery is very charming' সঠিক ইংরেজি অনুবাদ।",
+      "ans": 2,
+      "correct_answer": "The scenery is very charming."
     },
     {
       "id": 98,
       "question": "আমি একটি পাখি দেখছি।",
-      "options": {
-        "ক": "I am seeing a bird",
-        "খ": "I see a bird",
-        "গ": "I seeing a bird",
-        "ঘ": "I have been seeing a bird"
-      },
+      "options": [
+        "I am seeing a bird",
+        "I see a bird",
+        "I seeing a bird",
+        "I have been seeing a bird"
+      ],
       "answer": "খ",
-      "explanation": "'See' একটি Perception verb (ইন্দ্রিয়গ্রাহ্য অনুভূতির ক্রিয়া), যার সাধারণত Continuous Tense হয় না। তাই 'I see a bird' সঠিক।"
+      "explanation": "'See' একটি Perception verb (ইন্দ্রিয়গ্রাহ্য অনুভূতির ক্রিয়া), যার সাধারণত Continuous Tense হয় না। তাই 'I see a bird' সঠিক।",
+      "ans": 1,
+      "correct_answer": "I see a bird"
     },
     {
       "id": 99,
       "question": "আমি তাকে দিয়ে চিঠিটি পাঠালাম।",
-      "options": {
-        "ক": "I wrote the letter by him.",
-        "খ": "I had written the letter by him.",
-        "গ": "I had the latter written by him.",
-        "ঘ": "I got the letter being written by him."
-      },
+      "options": [
+        "I wrote the letter by him.",
+        "I had written the letter by him.",
+        "I had the latter written by him.",
+        "I got the letter being written by him."
+      ],
       "answer": "গ",
-      "explanation": "অন্যকে দিয়ে কোনো কাজ করিয়ে নেওয়া বোঝাতে Causative Verb 'have' (বা had) এর Passive কাঠামো: Subject + had + object (the letter) + V3 (written) + by him। অপশন (গ) উত্তরমালায় গৃহীত।"
+      "explanation": "অন্যকে দিয়ে কোনো কাজ করিয়ে নেওয়া বোঝাতে Causative Verb 'have' (বা had) এর Passive কাঠামো: Subject + had + object (the letter) + V3 (written) + by him। অপশন (গ) উত্তরমালায় গৃহীত।",
+      "ans": 2,
+      "correct_answer": "I had the latter written by him."
     },
     {
       "id": 100,
       "question": "He asked me to do it.",
-      "options": {
-        "ক": "তিনি আমাকে এটা জিজ্ঞেস করলেন।",
-        "খ": "তিনি আমাকে এটা জিজ্ঞেস করেছিলেন।",
-        "গ": "তিনি এটা আমাকে করতে বলেছিলেন।",
-        "ঘ": "তিনি আমাকে এটা জিজ্ঞেস করতে বলেছিলেন।"
-      },
+      "options": [
+        "তিনি আমাকে এটা জিজ্ঞেস করলেন।",
+        "তিনি আমাকে এটা জিজ্ঞেস করেছিলেন।",
+        "তিনি এটা আমাকে করতে বলেছিলেন।",
+        "তিনি আমাকে এটা জিজ্ঞেস করতে বলেছিলেন।"
+      ],
       "answer": "গ",
-      "explanation": "Imperative sentence-এর Indirect narration-এ 'asked me to do it' অর্থ কোনো কাজ করতে অনুরোধ করা বা বলা। তাই সঠিক অনুবাদ: 'তিনি এটা আমাকে করতে বলেছিলেন।'"
+      "explanation": "Imperative sentence-এর Indirect narration-এ 'asked me to do it' অর্থ কোনো কাজ করতে অনুরোধ করা বা বলা। তাই সঠিক অনুবাদ: 'তিনি এটা আমাকে করতে বলেছিলেন।'",
+      "ans": 2,
+      "correct_answer": "তিনি এটা আমাকে করতে বলেছিলেন।"
     }
   ]
 }

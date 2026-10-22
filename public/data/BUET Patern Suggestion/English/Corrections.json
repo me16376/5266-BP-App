@@ -8,8 +8,10 @@
       "One of my sisters is a nurse",
       "One of my sister's are a nurse"
     ],
-    "answer": "(c) One of my sisters is a nurse",
-    "explanation": "গঠনঃ One of + plural noun + singular verb so the correct answer: One of my sisters is a nurse."
+    "answer": "গ",
+    "explanation": "গঠনঃ One of + plural noun + singular verb so the correct answer: One of my sisters is a nurse.",
+    "ans": 2,
+    "correct_answer": "One of my sisters is a nurse"
   },
   {
     "id": 2,
@@ -20,8 +22,10 @@
       "I saw the owl",
       "I seen an owl"
     ],
-    "answer": "(b) I saw an owl",
-    "explanation": "সঠিক উত্তর: (খ) I saw an owl। “Owl” শব্দটি ‘o’ দিয়ে শুরু যা একটি Vowel sound, তাই এর আগে “an” ব্যবহার করতে হয়।"
+    "answer": "খ",
+    "explanation": "সঠিক উত্তর: (খ) I saw an owl। “Owl” শব্দটি ‘o’ দিয়ে শুরু যা একটি Vowel sound, তাই এর আগে “an” ব্যবহার করতে হয়।",
+    "ans": 1,
+    "correct_answer": "I saw an owl"
   },
   {
     "id": 3,
@@ -32,8 +36,10 @@
       "She driving carefully",
       "She drive carefully"
     ],
-    "answer": "(b) She drives carefully",
-    "explanation": "সঠিক উত্তর: She drives carefully। “She” একটি third person singular number হওয়ায় verb হবে drives."
+    "answer": "খ",
+    "explanation": "সঠিক উত্তর: She drives carefully। “She” একটি third person singular number হওয়ায় verb হবে drives.",
+    "ans": 1,
+    "correct_answer": "She drives carefully"
   },
   {
     "id": 4,
@@ -44,8 +50,10 @@
       "Why did you have done this?",
       "Why do you have done this?"
     ],
-    "answer": "(a) Why have you done this?",
-    "explanation": "Option (খ) তে Sub-Verb agreement rule follow করে নাই, Option (গ) tense incorrect, Option (ঘ) grammatically wrong. তাই Option (ক) সঠিক।"
+    "answer": "ক",
+    "explanation": "Option (খ) তে Sub-Verb agreement rule follow করে নাই, Option (গ) tense incorrect, Option (ঘ) grammatically wrong. তাই Option (ক) সঠিক।",
+    "ans": 0,
+    "correct_answer": "Why have you done this?"
   },
   {
     "id": 5,
@@ -56,8 +64,10 @@
       "Esential",
       "Essantial"
     ],
-    "answer": "(a) Essential",
-    "explanation": "Correct spelling ‘Essential’- অপরিহার্য।"
+    "answer": "ক",
+    "explanation": "Correct spelling ‘Essential’- অপরিহার্য।",
+    "ans": 0,
+    "correct_answer": "Essential"
   },
   {
     "id": 6,
@@ -68,8 +78,10 @@
       "Alsatian",
       "ethereal"
     ],
-    "answer": "(a) chandeller",
-    "explanation": ""
+    "answer": "ক",
+    "explanation": "",
+    "ans": 0,
+    "correct_answer": "chandeller"
   },
   {
     "id": 7,
@@ -80,8 +92,10 @@
       "The car swerved to avoid knock the boy down",
       "The car swerved to avoid knock the boy down"
     ],
-    "answer": "(b) The car swerved to avoid knocking the boy down",
-    "explanation": "এই বাক্যটি মূলত অতীত সময়ের একটি কাজ বোঝাচ্ছে। “গাড়িটি একটি ছেলেকে ধাক্কা দেওয়া এড়াতে ঘুরে গিয়েছিল।” তাই swerve- এর Past form swerved হবে।"
+    "answer": "খ",
+    "explanation": "এই বাক্যটি মূলত অতীত সময়ের একটি কাজ বোঝাচ্ছে। “গাড়িটি একটি ছেলেকে ধাক্কা দেওয়া এড়াতে ঘুরে গিয়েছিল।” তাই swerve- এর Past form swerved হবে।",
+    "ans": 1,
+    "correct_answer": "The car swerved to avoid knocking the boy down"
   },
   {
     "id": 8,
@@ -92,8 +106,10 @@
       "Esential",
       "Essantial"
     ],
-    "answer": "(a) Essential",
-    "explanation": "Correct spelling ‘Essential’ যার অর্থ- অপরিহার্য।"
+    "answer": "ক",
+    "explanation": "Correct spelling ‘Essential’ যার অর্থ- অপরিহার্য।",
+    "ans": 0,
+    "correct_answer": "Essential"
   },
   {
     "id": 9,
@@ -111,8 +127,10 @@
       "Abeyance",
       "Abayence"
     ],
-    "answer": "(c) Abeyance",
-    "explanation": "Some commonly misspelled words- Acquit – খালাস দেওয়া; Abeyance – স্থগিত। Hierarchy – যাজকতন্ত্র; Vacuum – শূন্যস্থান; Pronunciation – উচ্চারণ; Conscious – সচেতন।"
+    "answer": "গ",
+    "explanation": "Some commonly misspelled words- Acquit – খালাস দেওয়া; Abeyance – স্থগিত। Hierarchy – যাজকতন্ত্র; Vacuum – শূন্যস্থান; Pronunciation – উচ্চারণ; Conscious – সচেতন।",
+    "ans": 2,
+    "correct_answer": "Abeyance"
   },
   {
     "id": 11,
@@ -130,8 +148,10 @@
       "I, you and he are present",
       "None of these"
     ],
-    "answer": "(b) You, he and I are present",
-    "explanation": "যেকোন Statement এর ক্ষেত্রে Person এর Sequence হয় 231,কিন্তু দোষ স্বীকার করা অর্থে 123 অনুযায়ী বসে। যেমন- You, he and I are present, কিন্তু I, you and he are guilty."
+    "answer": "খ",
+    "explanation": "যেকোন Statement এর ক্ষেত্রে Person এর Sequence হয় 231,কিন্তু দোষ স্বীকার করা অর্থে 123 অনুযায়ী বসে। যেমন- You, he and I are present, কিন্তু I, you and he are guilty.",
+    "ans": 1,
+    "correct_answer": "You, he and I are present"
   },
   {
     "id": 13,
@@ -142,8 +162,10 @@
       "I need some furniture",
       "I do not need some furnitures"
     ],
-    "answer": "(c) I need some furniture",
-    "explanation": "Furniture শব্দটি uncountable noun হওয়ায় এর সাথে s/es বসে না। আবার, uncountable noun এর পূর্বে determiner হিসেবে some ব্যবহৃত হয়।"
+    "answer": "গ",
+    "explanation": "Furniture শব্দটি uncountable noun হওয়ায় এর সাথে s/es বসে না। আবার, uncountable noun এর পূর্বে determiner হিসেবে some ব্যবহৃত হয়।",
+    "ans": 2,
+    "correct_answer": "I need some furniture"
   },
   {
     "id": 14,
@@ -154,8 +176,10 @@
       "She is beautiful then you",
       "She is more beautiful then you"
     ],
-    "answer": "(a) She is more beautiful than you",
-    "explanation": "Comparative degree বিশিষ্ট বাক্য গঠনে adjective এর comparative form হয় এবং এরপর than বসে। বাক্যে Beautiful-এর comparative form হলো- more beautiful।"
+    "answer": "ক",
+    "explanation": "Comparative degree বিশিষ্ট বাক্য গঠনে adjective এর comparative form হয় এবং এরপর than বসে। বাক্যে Beautiful-এর comparative form হলো- more beautiful।",
+    "ans": 0,
+    "correct_answer": "She is more beautiful than you"
   },
   {
     "id": 15,
@@ -166,8 +190,10 @@
       "if I am you",
       "If I will you"
     ],
-    "answer": "(a) If I were your",
-    "explanation": "অবাস্তব ইচ্ছা বা কল্পনা বুঝাতে Subject এর পরে were বসে, যেমনঃ if I were you, I would have done this."
+    "answer": "ক",
+    "explanation": "অবাস্তব ইচ্ছা বা কল্পনা বুঝাতে Subject এর পরে were বসে, যেমনঃ if I were you, I would have done this.",
+    "ans": 0,
+    "correct_answer": "If I were your"
   },
   {
     "id": 16,
@@ -178,8 +204,10 @@
       "Gaurantee",
       "Gurante"
     ],
-    "answer": "(a) Guarantee",
-    "explanation": "Guarantee অর্থ - জামিন, জামানৎ, মুচলেকা।"
+    "answer": "ক",
+    "explanation": "Guarantee অর্থ - জামিন, জামানৎ, মুচলেকা।",
+    "ans": 0,
+    "correct_answer": "Guarantee"
   },
   {
     "id": 17,
@@ -190,8 +218,10 @@
       "Agrandize",
       "Aggrandize"
     ],
-    "answer": "(d) Aggrandize",
-    "explanation": "Aggrandize অর্থ-সম্মান, সম্পদ কিংবা পদমর্যাদা বৃদ্ধি করা।"
+    "answer": "ঘ",
+    "explanation": "Aggrandize অর্থ-সম্মান, সম্পদ কিংবা পদমর্যাদা বৃদ্ধি করা।",
+    "ans": 3,
+    "correct_answer": "Aggrandize"
   },
   {
     "id": 18,
@@ -216,8 +246,10 @@
       "afidevit",
       "affidavit"
     ],
-    "answer": "(d) affidavit",
-    "explanation": "Affidavit অর্থ হলফনামা। এর কিছু similar word: declaration, confirmation, legal instrument."
+    "answer": "ঘ",
+    "explanation": "Affidavit অর্থ হলফনামা। এর কিছু similar word: declaration, confirmation, legal instrument.",
+    "ans": 3,
+    "correct_answer": "affidavit"
   },
   {
     "id": 21,
@@ -228,8 +260,10 @@
       "Incambant",
       "Incumnvent"
     ],
-    "answer": "(a) Incumbent",
-    "explanation": "Incumbent অর্থ আরোপিত, আপতিত।"
+    "answer": "ক",
+    "explanation": "Incumbent অর্থ আরোপিত, আপতিত।",
+    "ans": 0,
+    "correct_answer": "Incumbent"
   },
   {
     "id": 22,
@@ -240,8 +274,10 @@
       "Millennium",
       "millennium"
     ],
-    "answer": "(c) Millennium",
-    "explanation": "Millennium এর অর্থ সহস্রাব্দ।"
+    "answer": "গ",
+    "explanation": "Millennium এর অর্থ সহস্রাব্দ।",
+    "ans": 2,
+    "correct_answer": "Millennium"
   },
   {
     "id": 23,
@@ -252,8 +288,10 @@
       "Missile",
       "Messilee"
     ],
-    "answer": "(c) Missile",
-    "explanation": ""
+    "answer": "গ",
+    "explanation": "",
+    "ans": 2,
+    "correct_answer": "Missile"
   },
   {
     "id": 24,
@@ -264,8 +302,10 @@
       "I wish I were in your shoes.",
       "I wish I was you."
     ],
-    "answer": "(c) I wish I were in your shoes.",
-    "explanation": ""
+    "answer": "গ",
+    "explanation": "",
+    "ans": 2,
+    "correct_answer": "I wish I were in your shoes."
   },
   {
     "id": 25,
@@ -276,8 +316,10 @@
       "Subject & predicate",
       "Subject & verb"
     ],
-    "answer": "(d) Subject & verb",
-    "explanation": "English clause এ অবশ্যই Subject এবং verb থাকতে হবে। যেমন: If the sun rises in the west, the Hour will begin."
+    "answer": "ঘ",
+    "explanation": "English clause এ অবশ্যই Subject এবং verb থাকতে হবে। যেমন: If the sun rises in the west, the Hour will begin.",
+    "ans": 3,
+    "correct_answer": "Subject & verb"
   },
   {
     "id": 26,
@@ -288,8 +330,10 @@
       "One of my friend is journalist.",
       "One of my friends are journalist."
     ],
-    "answer": "(b) One of my friends is a journalist.",
-    "explanation": "One of এর subject plural হলেও verb singular হয়, তাই is ব্যবহার হবে।"
+    "answer": "খ",
+    "explanation": "One of এর subject plural হলেও verb singular হয়, তাই is ব্যবহার হবে।",
+    "ans": 1,
+    "correct_answer": "One of my friends is a journalist."
   },
   {
     "id": 27,
@@ -300,8 +344,10 @@
       "One of my cousins is a doctor",
       "One of my cousin are a doctor"
     ],
-    "answer": "(c) One of my cousins is a doctor",
-    "explanation": "কোন Sentence-এ one of থাকলে এর পরবর্তী noun- টির plural হয় কিন্তু verb singular থাকে।"
+    "answer": "গ",
+    "explanation": "কোন Sentence-এ one of থাকলে এর পরবর্তী noun- টির plural হয় কিন্তু verb singular থাকে।",
+    "ans": 2,
+    "correct_answer": "One of my cousins is a doctor"
   },
   {
     "id": 28,
@@ -312,8 +358,10 @@
       "Refrigaretion and Air conditioning",
       "Refrigeretion and Air conditioning"
     ],
-    "answer": "(a) Refrigeration and Air conditioning",
-    "explanation": ""
+    "answer": "ক",
+    "explanation": "",
+    "ans": 0,
+    "correct_answer": "Refrigeration and Air conditioning"
   },
   {
     "id": 29,
@@ -324,8 +372,10 @@
       "Automotive Machanics",
       "Automative mechaniks"
     ],
-    "answer": "(b) Automotive Mechanics",
-    "explanation": ""
+    "answer": "খ",
+    "explanation": "",
+    "ans": 1,
+    "correct_answer": "Automotive Mechanics"
   },
   {
     "id": 30,
@@ -343,8 +393,10 @@
       "to",
       "of"
     ],
-    "answer": "(b) if",
-    "explanation": ""
+    "answer": "খ",
+    "explanation": "",
+    "ans": 1,
+    "correct_answer": "if"
   },
   {
     "id": 32,
@@ -355,8 +407,10 @@
       "Decrease",
       "In accordance with"
     ],
-    "answer": "(d) In accordance with",
-    "explanation": "Power plant has been built in accordance with demand এখানে accordance with অর্থ অনুসারে।"
+    "answer": "ঘ",
+    "explanation": "Power plant has been built in accordance with demand এখানে accordance with অর্থ অনুসারে।",
+    "ans": 3,
+    "correct_answer": "In accordance with"
   },
   {
     "id": 33,
@@ -367,8 +421,10 @@
       "The cat run over rat",
       "The cat run on rat"
     ],
-    "answer": "(a) The cat run after rat",
-    "explanation": "Run after শব্দটির অর্থ হল ধাওয়া করা। সে হিসেবে প্রথম Sentence টি সঠিক যার অর্থ হল, বিড়ালটি ইঁদুরটিকে ধাওয়া করল।"
+    "answer": "ক",
+    "explanation": "Run after শব্দটির অর্থ হল ধাওয়া করা। সে হিসেবে প্রথম Sentence টি সঠিক যার অর্থ হল, বিড়ালটি ইঁদুরটিকে ধাওয়া করল।",
+    "ans": 0,
+    "correct_answer": "The cat run after rat"
   },
   {
     "id": 34,
@@ -379,8 +435,10 @@
       "Commissioner",
       "Comissioner"
     ],
-    "answer": "(c) Commissioner",
-    "explanation": ""
+    "answer": "গ",
+    "explanation": "",
+    "ans": 2,
+    "correct_answer": "Commissioner"
   },
   {
     "id": 35,
@@ -405,8 +463,10 @@
       "Extreterrestrial",
       "Extraterrestrial"
     ],
-    "answer": "(d) Extraterrestrial",
-    "explanation": "Extraterrestrial এর বাংলা অর্থ যা পৃথিবীর বাহির হতে আগত।"
+    "answer": "ঘ",
+    "explanation": "Extraterrestrial এর বাংলা অর্থ যা পৃথিবীর বাহির হতে আগত।",
+    "ans": 3,
+    "correct_answer": "Extraterrestrial"
   },
   {
     "id": 38,
@@ -417,8 +477,10 @@
       "The test should be based on experience",
       "The test should be based on calculation"
     ],
-    "answer": "(c) The test should be based on experience",
-    "explanation": ""
+    "answer": "গ",
+    "explanation": "",
+    "ans": 2,
+    "correct_answer": "The test should be based on experience"
   },
   {
     "id": 39,
@@ -429,8 +491,10 @@
       "Paper is made with wood",
       "Paper is made by wood."
     ],
-    "answer": "(b) Paper is made from wood",
-    "explanation": "কোন কাঁচামাল দিয়ে জিনিস তৈরি হলে যদি কাঁচামালের অস্তিত্ব না থাকে তাহলে made from হবে, আর অস্তিত্ব থাকলে made of বসে। যেমন : paper is made from wood, chair is made of wood।"
+    "answer": "খ",
+    "explanation": "কোন কাঁচামাল দিয়ে জিনিস তৈরি হলে যদি কাঁচামালের অস্তিত্ব না থাকে তাহলে made from হবে, আর অস্তিত্ব থাকলে made of বসে। যেমন : paper is made from wood, chair is made of wood।",
+    "ans": 1,
+    "correct_answer": "Paper is made from wood"
   },
   {
     "id": 40,
@@ -441,8 +505,10 @@
       "This is a very unique case",
       "This is the most unique case"
     ],
-    "answer": "(b) This is a unique case",
-    "explanation": "Vowel থাকা সত্ত্বেও “ইউ” অথবা “ওয়া” - এর মত উচ্চারণ হলে তার পূর্বে ‘a’ বসে।"
+    "answer": "খ",
+    "explanation": "Vowel থাকা সত্ত্বেও “ইউ” অথবা “ওয়া” - এর মত উচ্চারণ হলে তার পূর্বে ‘a’ বসে।",
+    "ans": 1,
+    "correct_answer": "This is a unique case"
   },
   {
     "id": 41,
@@ -460,8 +526,10 @@
       "aborigine",
       "aborigineous"
     ],
-    "answer": "(c) aborigine",
-    "explanation": "The spelling of the word \"aborigine\" is correct that is defined as a person, animal or plant that has been in a country or region from earliest times. (আদিম আদিবাসী)"
+    "answer": "গ",
+    "explanation": "The spelling of the word \"aborigine\" is correct that is defined as a person, animal or plant that has been in a country or region from earliest times. (আদিম আদিবাসী)",
+    "ans": 2,
+    "correct_answer": "aborigine"
   },
   {
     "id": 43,
@@ -472,8 +540,10 @@
       "She had faith and hopes in the future.",
       "She had faith and hopes in future."
     ],
-    "answer": "(a) She had faith in and hopes for the future.",
-    "explanation": "Sentence গুলোতে preposition এর ব্যবহারই মূলবিষয়। faith in অর্থ হল কোন কিছুতে বিশ্বাস রাখা অন্যদিকে hope for অর্থ হলো কোন বিষয়ে আশা প্রকাশ করা।"
+    "answer": "ক",
+    "explanation": "Sentence গুলোতে preposition এর ব্যবহারই মূলবিষয়। faith in অর্থ হল কোন কিছুতে বিশ্বাস রাখা অন্যদিকে hope for অর্থ হলো কোন বিষয়ে আশা প্রকাশ করা।",
+    "ans": 0,
+    "correct_answer": "She had faith in and hopes for the future."
   },
   {
     "id": 44,
@@ -484,8 +554,10 @@
       "safe",
       "making"
     ],
-    "answer": "(a) born",
-    "explanation": "Man is born free and every where he is in chains –Rousseau. কোটেশনটির অর্থ- মানুষ স্বাধীন হয়ে জন্মগ্রহণ করে, কিন্তু সর্বত্র সে শৃঙ্খলিত।"
+    "answer": "ক",
+    "explanation": "Man is born free and every where he is in chains –Rousseau. কোটেশনটির অর্থ- মানুষ স্বাধীন হয়ে জন্মগ্রহণ করে, কিন্তু সর্বত্র সে শৃঙ্খলিত।",
+    "ans": 0,
+    "correct_answer": "born"
   },
   {
     "id": 45,
@@ -496,8 +568,10 @@
       "The patient died from cholera.",
       "He says me a fool"
     ],
-    "answer": "(b) Handsome is as handsome does",
-    "explanation": "Handsome is as handsome does অর্থ হলো- How one acts is more Important than how one looks. অর্থাৎ সুন্দর সেই, যে সুন্দর কাজ করে।"
+    "answer": "খ",
+    "explanation": "Handsome is as handsome does অর্থ হলো- How one acts is more Important than how one looks. অর্থাৎ সুন্দর সেই, যে সুন্দর কাজ করে।",
+    "ans": 1,
+    "correct_answer": "Handsome is as handsome does"
   },
   {
     "id": 46,
@@ -508,8 +582,10 @@
       "Refridgerator",
       "Referigerator"
     ],
-    "answer": "(a) Refrigerator",
-    "explanation": ""
+    "answer": "ক",
+    "explanation": "",
+    "ans": 0,
+    "correct_answer": "Refrigerator"
   },
   {
     "id": 47,
@@ -520,8 +596,10 @@
       "I prefer more reading than writing",
       "I prefer reading to writing"
     ],
-    "answer": "(d) I prefer reading to writing",
-    "explanation": "Correct Sentence হলো I prefer reading to writing- আমি লেখার চেয়ে পড়তে বেশি পছন্দ করি। Prefer এরপর দুটি noun বা pronoun এর মাঝে to বসে।"
+    "answer": "ঘ",
+    "explanation": "Correct Sentence হলো I prefer reading to writing- আমি লেখার চেয়ে পড়তে বেশি পছন্দ করি। Prefer এরপর দুটি noun বা pronoun এর মাঝে to বসে।",
+    "ans": 3,
+    "correct_answer": "I prefer reading to writing"
   },
   {
     "id": 48,
@@ -532,8 +610,10 @@
       "questionnare",
       "questioneire"
     ],
-    "answer": "(a) questionnaire",
-    "explanation": "Correct Spelling হলো questionnaire, Questionnaire শব্দের অর্থ প্রশ্নাবলী।"
+    "answer": "ক",
+    "explanation": "Correct Spelling হলো questionnaire, Questionnaire শব্দের অর্থ প্রশ্নাবলী।",
+    "ans": 0,
+    "correct_answer": "questionnaire"
   },
   {
     "id": 49,
@@ -544,8 +624,10 @@
       "disapprovingly",
       "Respectfully"
     ],
-    "answer": "(d) Respectfully",
-    "explanation": "Reverently অর্থ- ভক্তির সাথে, সশ্রদ্ধ চিত্তে, বিনয়ের সাথে এর Synonym হলো Respectfully যার অর্থ শ্রদ্ধাসহকারে।"
+    "answer": "ঘ",
+    "explanation": "Reverently অর্থ- ভক্তির সাথে, সশ্রদ্ধ চিত্তে, বিনয়ের সাথে এর Synonym হলো Respectfully যার অর্থ শ্রদ্ধাসহকারে।",
+    "ans": 3,
+    "correct_answer": "Respectfully"
   },
   {
     "id": 50,
@@ -556,8 +638,10 @@
       "Enciclopadia Britannica",
       "Enciclopedia Britannica"
     ],
-    "answer": "(a) Encyclopedia Britannica",
-    "explanation": "Correct word Encyclopedia Britannica, যার অর্থ-বিশ্বকোষ; জ্ঞানকোষ।"
+    "answer": "ক",
+    "explanation": "Correct word Encyclopedia Britannica, যার অর্থ-বিশ্বকোষ; জ্ঞানকোষ।",
+    "ans": 0,
+    "correct_answer": "Encyclopedia Britannica"
   },
   {
     "id": 51,
@@ -568,8 +652,10 @@
       "hidious",
       "hedeous"
     ],
-    "answer": "(b) hideous",
-    "explanation": "অপশনগুলোর মধ্যে সঠিক বানানটি হল Hideous. যার অর্থ অসহ্য, জঘন্য, ভয়ংকর, বীভৎস ইত্যাদি।"
+    "answer": "খ",
+    "explanation": "অপশনগুলোর মধ্যে সঠিক বানানটি হল Hideous. যার অর্থ অসহ্য, জঘন্য, ভয়ংকর, বীভৎস ইত্যাদি।",
+    "ans": 1,
+    "correct_answer": "hideous"
   },
   {
     "id": 52,
@@ -580,8 +666,10 @@
       "Rahim are almost the whole fish.",
       "I wish I were in your shoes."
     ],
-    "answer": "(b) She is married with a rich man.",
-    "explanation": "এখানে অপশন (খ) সঠিক বাক্য নয়। এই বাক্যে with এর জায়গায় to বসালে বাক্যটি শুদ্ধ হতো। যা অপশন (ক) তে রয়েছে। one person এবং another person এর মধ্যে সম্পর্ক বোঝাতে to ব্যবহৃত হয়।"
+    "answer": "খ",
+    "explanation": "এখানে অপশন (খ) সঠিক বাক্য নয়। এই বাক্যে with এর জায়গায় to বসালে বাক্যটি শুদ্ধ হতো। যা অপশন (ক) তে রয়েছে। one person এবং another person এর মধ্যে সম্পর্ক বোঝাতে to ব্যবহৃত হয়।",
+    "ans": 1,
+    "correct_answer": "She is married with a rich man."
   },
   {
     "id": 53,
@@ -592,8 +680,10 @@
       "miscellaneius",
       "miscelanieous"
     ],
-    "answer": "(a) miscellaneous",
-    "explanation": "Miscellaneous এর অর্থ-বিবিধ।"
+    "answer": "ক",
+    "explanation": "Miscellaneous এর অর্থ-বিবিধ।",
+    "ans": 0,
+    "correct_answer": "miscellaneous"
   },
   {
     "id": 54,
@@ -604,8 +694,10 @@
       "denencitation",
       "denuncitiation"
     ],
-    "answer": "(a) denunciation",
-    "explanation": "Denunciation এর অর্থ নিন্দা, অভিশাপ।"
+    "answer": "ক",
+    "explanation": "Denunciation এর অর্থ নিন্দা, অভিশাপ।",
+    "ans": 0,
+    "correct_answer": "denunciation"
   },
   {
     "id": 55,
@@ -616,8 +708,10 @@
       "The more you read, the loss you understand",
       "The more you learn, the more you forget"
     ],
-    "answer": "(b) The more you read, the more you learn",
-    "explanation": ""
+    "answer": "খ",
+    "explanation": "",
+    "ans": 1,
+    "correct_answer": "The more you read, the more you learn"
   },
   {
     "id": 56,
@@ -628,8 +722,10 @@
       "Adjective phrase",
       "Prepositional phrase"
     ],
-    "answer": "(a) Noun phrase",
-    "explanation": "Noun phrase হলো একটি শব্দ বা শব্দসমষ্টি যাতে একটি Noun বিদ্যমান থাকে এবং বাক্যে subject, object অথবা Prepositional object হিসাবে কাজ করে।"
+    "answer": "ক",
+    "explanation": "Noun phrase হলো একটি শব্দ বা শব্দসমষ্টি যাতে একটি Noun বিদ্যমান থাকে এবং বাক্যে subject, object অথবা Prepositional object হিসাবে কাজ করে।",
+    "ans": 0,
+    "correct_answer": "Noun phrase"
   },
   {
     "id": 57,
@@ -640,8 +736,10 @@
       "Renaissance",
       "Renaisance"
     ],
-    "answer": "(c) Renaissance",
-    "explanation": "উপরোক্ত অপশনের মধ্যে সঠিক উত্তর (c)। ‘Renaissance’ শব্দটি সঠিকভাবে বানান করা হয়েছে। অর্থ নবজাগরণ।"
+    "answer": "গ",
+    "explanation": "উপরোক্ত অপশনের মধ্যে সঠিক উত্তর (c)। ‘Renaissance’ শব্দটি সঠিকভাবে বানান করা হয়েছে। অর্থ নবজাগরণ।",
+    "ans": 2,
+    "correct_answer": "Renaissance"
   },
   {
     "id": 58,
@@ -652,8 +750,10 @@
       "Each of the boys are present in the class.",
       "Each of the boy were present in the class."
     ],
-    "answer": "(a) Each of the boys is present in the class.",
-    "explanation": "subject-verb agreemnt অনুসারে “each of the + plural subject + singular verb ব্যবহৃত হয়। সুতরাং (a) option সঠিক উত্তর।"
+    "answer": "ক",
+    "explanation": "subject-verb agreemnt অনুসারে “each of the + plural subject + singular verb ব্যবহৃত হয়। সুতরাং (a) option সঠিক উত্তর।",
+    "ans": 0,
+    "correct_answer": "Each of the boys is present in the class."
   },
   {
     "id": 59,
@@ -664,8 +764,10 @@
       "He is one of the tallest boys in the class.",
       "He is a tall boy."
     ],
-    "answer": "(a) He is one of the tall boy in the class.",
-    "explanation": "“one of the” এর পরে superlative degree হয়। কিন্তু option (a)-তে “one of the” এর পরে positive degree ব্যবহৃত হওয়ায় sentence-টি সঠিক নয়।"
+    "answer": "ক",
+    "explanation": "“one of the” এর পরে superlative degree হয়। কিন্তু option (a)-তে “one of the” এর পরে positive degree ব্যবহৃত হওয়ায় sentence-টি সঠিক নয়।",
+    "ans": 0,
+    "correct_answer": "He is one of the tall boy in the class."
   },
   {
     "id": 60,
@@ -676,8 +778,10 @@
       "Why you have done this?",
       "Why did you done this?"
     ],
-    "answer": "(a) Why have you done this?",
-    "explanation": "WH word দিয়ে প্রশ্ন করার নিয়ম WH + auxililary verb + subject + main verb. যেমনঃ Why did he go there? অথবা Why have you done this? তাই নিয়মানুযায়ী (a) সঠিক উত্তর।"
+    "answer": "ক",
+    "explanation": "WH word দিয়ে প্রশ্ন করার নিয়ম WH + auxililary verb + subject + main verb. যেমনঃ Why did he go there? অথবা Why have you done this? তাই নিয়মানুযায়ী (a) সঠিক উত্তর।",
+    "ans": 0,
+    "correct_answer": "Why have you done this?"
   },
   {
     "id": 61,
@@ -688,8 +792,10 @@
       "I know him for a long time",
       "I knew him for a long time"
     ],
-    "answer": "(b) I have known him for a long time",
-    "explanation": "Present perfect tense এ কর্তার পর have/has ও verb এর past participle হয়। বাক্যের গঠন অনুসারে “I have known him for a long time” বাক্যটি সঠিক।"
+    "answer": "খ",
+    "explanation": "Present perfect tense এ কর্তার পর have/has ও verb এর past participle হয়। বাক্যের গঠন অনুসারে “I have known him for a long time” বাক্যটি সঠিক।",
+    "ans": 1,
+    "correct_answer": "I have known him for a long time"
   },
   {
     "id": 62,
@@ -700,8 +806,10 @@
       "commitment",
       "commitement"
     ],
-    "answer": "(c) commitment",
-    "explanation": "উপরোক্ত অপশনগুলোর মধ্যে সঠিক উত্তর হল commitment. শব্দটির অর্থ অঙ্গীকার। যেমন - He made a significant commitment to his community by promising to send every college."
+    "answer": "গ",
+    "explanation": "উপরোক্ত অপশনগুলোর মধ্যে সঠিক উত্তর হল commitment. শব্দটির অর্থ অঙ্গীকার। যেমন - He made a significant commitment to his community by promising to send every college.",
+    "ans": 2,
+    "correct_answer": "commitment"
   },
   {
     "id": 63,
@@ -712,8 +820,10 @@
       "He will come yesterday.",
       "He came home yesterday."
     ],
-    "answer": "(d) He came home yesterday.",
-    "explanation": "Yesterday থাকলে past Indefinite tense হয়। সুতরাং, He came home yesterday."
+    "answer": "ঘ",
+    "explanation": "Yesterday থাকলে past Indefinite tense হয়। সুতরাং, He came home yesterday.",
+    "ans": 3,
+    "correct_answer": "He came home yesterday."
   },
   {
     "id": 64,
@@ -724,8 +834,10 @@
       "Relatition",
       "Paralley"
     ],
-    "answer": "(a) Paralleled",
-    "explanation": ""
+    "answer": "ক",
+    "explanation": "",
+    "ans": 0,
+    "correct_answer": "Paralleled"
   },
   {
     "id": 65,
@@ -736,8 +848,10 @@
       "See the instructions following",
       "See the instructions are following"
     ],
-    "answer": "(a) See the instructions as following",
-    "explanation": "See the instructions as following অর্থঃ- নিম্নলিখিত নির্দেশাবলী দেখুন।"
+    "answer": "ক",
+    "explanation": "See the instructions as following অর্থঃ- নিম্নলিখিত নির্দেশাবলী দেখুন।",
+    "ans": 0,
+    "correct_answer": "See the instructions as following"
   },
   {
     "id": 66,
@@ -748,8 +862,10 @@
       "e-mail",
       "short"
     ],
-    "answer": "(a) long",
-    "explanation": "সাধারণত লম্বা মোজাকে বলা হয় stocking।"
+    "answer": "ক",
+    "explanation": "সাধারণত লম্বা মোজাকে বলা হয় stocking।",
+    "ans": 0,
+    "correct_answer": "long"
   },
   {
     "id": 67,
@@ -760,8 +876,10 @@
       "Every of the three boys got a prize.",
       "All of the three boys got a prize."
     ],
-    "answer": "(b) Each of the three boys got a prize.",
-    "explanation": "Each of এর পর noun এর plural form হয় কিন্তু verb singular থাকে।"
+    "answer": "খ",
+    "explanation": "Each of এর পর noun এর plural form হয় কিন্তু verb singular থাকে।",
+    "ans": 1,
+    "correct_answer": "Each of the three boys got a prize."
   },
   {
     "id": 68,
@@ -779,8 +897,10 @@
       "He was hunged of murder.",
       "He has been hunged for murder."
     ],
-    "answer": "(b) He was hanged for murder.",
-    "explanation": "Hang (ফাঁসি দেওয়া) -> V2 Hanged, V3 Hanged. Hang (বস্তু ঝুলানো) -> V2 Hung, V3 Hung. He was hanged for murder. বাক্যটিতে ফাঁসিতে ঝুলানো অর্থে hanged ব্যবহৃত হয়েছে। অন্যদিকে, ছবিটি ঝুলিয়ে রাখা হয়েছিল এর ইংরেজি translation-The picture was hung."
+    "answer": "খ",
+    "explanation": "Hang (ফাঁসি দেওয়া) -> V2 Hanged, V3 Hanged. Hang (বস্তু ঝুলানো) -> V2 Hung, V3 Hung. He was hanged for murder. বাক্যটিতে ফাঁসিতে ঝুলানো অর্থে hanged ব্যবহৃত হয়েছে। অন্যদিকে, ছবিটি ঝুলিয়ে রাখা হয়েছিল এর ইংরেজি translation-The picture was hung.",
+    "ans": 1,
+    "correct_answer": "He was hanged for murder."
   },
   {
     "id": 70,
@@ -805,8 +925,10 @@
       "Is living in Dhaka, now?",
       "Does now Gary live in Dhaka?"
     ],
-    "answer": "(b) Does Gary live in Dhaka now?",
-    "explanation": "Gary হল 3rd person singular number. সুতরাং, auxiliary verb-does হবে। Interrogative বাক্য হওয়ায় Does বাক্যের শুরুতে বসবে।"
+    "answer": "খ",
+    "explanation": "Gary হল 3rd person singular number. সুতরাং, auxiliary verb-does হবে। Interrogative বাক্য হওয়ায় Does বাক্যের শুরুতে বসবে।",
+    "ans": 1,
+    "correct_answer": "Does Gary live in Dhaka now?"
   },
   {
     "id": 73,
@@ -817,8 +939,10 @@
       "Laboratory",
       "Laboratry"
     ],
-    "answer": "(c) Laboratory",
-    "explanation": ""
+    "answer": "গ",
+    "explanation": "",
+    "ans": 2,
+    "correct_answer": "Laboratory"
   },
   {
     "id": 74,
@@ -829,8 +953,10 @@
       "Recommendation",
       "Recomendation"
     ],
-    "answer": "(c) Recommendation",
-    "explanation": "Recommendation অর্থ সুপারিশ; Guidance, Direction, submission, advocacy, Proposal ইত্যাদি।"
+    "answer": "গ",
+    "explanation": "Recommendation অর্থ সুপারিশ; Guidance, Direction, submission, advocacy, Proposal ইত্যাদি।",
+    "ans": 2,
+    "correct_answer": "Recommendation"
   },
   {
     "id": 75,
@@ -841,8 +967,10 @@
       "Illegitimate",
       "Illegible"
     ],
-    "answer": "(b) Illitrare",
-    "explanation": "Illitrare শব্দটি ভুল এর সঠিক হল: Illiterate অর্থ নিরক্ষর। Illegitimate – অবৈধ; illegal-অবৈধ, illegible- অস্পষ্ট।"
+    "answer": "খ",
+    "explanation": "Illitrare শব্দটি ভুল এর সঠিক হল: Illiterate অর্থ নিরক্ষর। Illegitimate – অবৈধ; illegal-অবৈধ, illegible- অস্পষ্ট।",
+    "ans": 1,
+    "correct_answer": "Illitrare"
   },
   {
     "id": 76,
@@ -860,8 +988,10 @@
       "Humourious",
       "Humorious"
     ],
-    "answer": "(b) Humorous",
-    "explanation": "Humorous অর্থ রসাত্মক। Synonyms: humorous, witty, sappy, freaky, quaint, waggish, playful, etc. Antonyms: Serious, boring, tragic, gloomy, dramatic, morose, etc."
+    "answer": "খ",
+    "explanation": "Humorous অর্থ রসাত্মক। Synonyms: humorous, witty, sappy, freaky, quaint, waggish, playful, etc. Antonyms: Serious, boring, tragic, gloomy, dramatic, morose, etc.",
+    "ans": 1,
+    "correct_answer": "Humorous"
   },
   {
     "id": 78,
@@ -872,8 +1002,10 @@
       "Rita was madly wounded.",
       "Rita was vitally wounded."
     ],
-    "answer": "(a) Rita was deadly wounded.",
-    "explanation": "Rita was deadly wounded. অর্থঃ রিতা গুরুতর আহত হয়েছিল। গুরুতর আহত বোঝাতে ‘deadly’ word টি ব্যবহৃত হয়।"
+    "answer": "ক",
+    "explanation": "Rita was deadly wounded. অর্থঃ রিতা গুরুতর আহত হয়েছিল। গুরুতর আহত বোঝাতে ‘deadly’ word টি ব্যবহৃত হয়।",
+    "ans": 0,
+    "correct_answer": "Rita was deadly wounded."
   },
   {
     "id": 79,
@@ -884,8 +1016,10 @@
       "He is suffering from fever for a week.",
       "He succeed to get a job."
     ],
-    "answer": "(a) Guard the children against bad company.",
-    "explanation": "অন্য অপশনগুলোর সঠিক রূপ হলো-The train is running on time, He has been suffering from fever for a weak, He succeeded in getting a job."
+    "answer": "ক",
+    "explanation": "অন্য অপশনগুলোর সঠিক রূপ হলো-The train is running on time, He has been suffering from fever for a weak, He succeeded in getting a job.",
+    "ans": 0,
+    "correct_answer": "Guard the children against bad company."
   },
   {
     "id": 80,
@@ -896,8 +1030,10 @@
       "catablogue",
       "previlege"
     ],
-    "answer": "(a) Occasion, (b) diligent",
-    "explanation": "Occasion অর্থ উপলক্ষ; Diligent অর্থ পরিশ্রমী; Catalogue; Privilege- অধিকার ইত্যাদি।"
+    "answer": "ক",
+    "explanation": "Occasion অর্থ উপলক্ষ; Diligent অর্থ পরিশ্রমী; Catalogue; Privilege- অধিকার ইত্যাদি।",
+    "ans": 0,
+    "correct_answer": "Occasion"
   },
   {
     "id": 81,
@@ -908,8 +1044,10 @@
       "He has been suffering on fever for two days.",
       "He has been suffering on fever for two days."
     ],
-    "answer": "(a) He has been suffering from fever for two days.",
-    "explanation": ""
+    "answer": "ক",
+    "explanation": "",
+    "ans": 0,
+    "correct_answer": "He has been suffering from fever for two days."
   },
   {
     "id": 82,
@@ -920,8 +1058,10 @@
       "The old man died by over-eating.",
       "The old man died with over-eating."
     ],
-    "answer": "(b) The old man died from over-eating.",
-    "explanation": "রোগে মারা গেলে- Died of (direct cause); দূর্ঘটনায় মারা গেলে - Died by; অতিরিক্ত কিছুর জন্য মারা গেলে- Died from (over-eating); দেশের জন্য মারা গেলে - Died for।"
+    "answer": "খ",
+    "explanation": "রোগে মারা গেলে- Died of (direct cause); দূর্ঘটনায় মারা গেলে - Died by; অতিরিক্ত কিছুর জন্য মারা গেলে- Died from (over-eating); দেশের জন্য মারা গেলে - Died for।",
+    "ans": 1,
+    "correct_answer": "The old man died from over-eating."
   },
   {
     "id": 83,
@@ -932,8 +1072,10 @@
       "Acknolgement",
       "Acknoldgenent"
     ],
-    "answer": "(a) Acknowledgement",
-    "explanation": "Acknowledgement – অর্থ স্বীকৃতি। Synonyms: admission, confession, cognizance ইত্যাদি।"
+    "answer": "ক",
+    "explanation": "Acknowledgement – অর্থ স্বীকৃতি। Synonyms: admission, confession, cognizance ইত্যাদি।",
+    "ans": 0,
+    "correct_answer": "Acknowledgement"
   },
   {
     "id": 84,
@@ -944,8 +1086,10 @@
       "Decicion",
       "Decission"
     ],
-    "answer": "(a) Decision",
-    "explanation": "Decision অর্থ সিদ্ধান্ত; Synonyms: judgment, decision, reasoning, argument, conclusion ইত্যাদি।"
+    "answer": "ক",
+    "explanation": "Decision অর্থ সিদ্ধান্ত; Synonyms: judgment, decision, reasoning, argument, conclusion ইত্যাদি।",
+    "ans": 0,
+    "correct_answer": "Decision"
   },
   {
     "id": 85,
@@ -956,8 +1100,10 @@
       "Deasige",
       "Deasease"
     ],
-    "answer": "(a) Disease",
-    "explanation": "Disease অর্থ রোগ; disease, illness, affliction ইত্যাদি।"
+    "answer": "ক",
+    "explanation": "Disease অর্থ রোগ; disease, illness, affliction ইত্যাদি।",
+    "ans": 0,
+    "correct_answer": "Disease"
   },
   {
     "id": 86,
@@ -968,8 +1114,10 @@
       "maintenence",
       "maintenance"
     ],
-    "answer": "(b) maintenance",
-    "explanation": "Maintenance অর্থ-রক্ষণাবেক্ষণ। Synonyms: Preservation, keeping up, perpetuation ইত্যাদি"
+    "answer": "খ",
+    "explanation": "Maintenance অর্থ-রক্ষণাবেক্ষণ। Synonyms: Preservation, keeping up, perpetuation ইত্যাদি",
+    "ans": 1,
+    "correct_answer": "maintenance"
   },
   {
     "id": 87,
@@ -980,8 +1128,10 @@
       "Fevarite",
       "Favarit"
     ],
-    "answer": "(b) Favorite",
-    "explanation": ""
+    "answer": "খ",
+    "explanation": "",
+    "ans": 1,
+    "correct_answer": "Favorite"
   },
   {
     "id": 88,
@@ -992,8 +1142,10 @@
       "Jugement",
       "Judgmant"
     ],
-    "answer": "(b) Judgement",
-    "explanation": "Judgement অর্থ রায়। এর Synonyms: decision, reasoning, conclusion, adjudgement etc. Antonyms: accusation, stupidity, fact, actuality, substance, unsoundness, deadlock, stalemate etc."
+    "answer": "খ",
+    "explanation": "Judgement অর্থ রায়। এর Synonyms: decision, reasoning, conclusion, adjudgement etc. Antonyms: accusation, stupidity, fact, actuality, substance, unsoundness, deadlock, stalemate etc.",
+    "ans": 1,
+    "correct_answer": "Judgement"
   },
   {
     "id": 89,
@@ -1004,8 +1156,10 @@
       "Amalgamet",
       "Amelgamate"
     ],
-    "answer": "(b) Amalgamate",
-    "explanation": "Amalgamate অর্থ সম্মিলিত করা। Synonyms: combine, unite, merge, mix, intermix, unify etc. Antonyms: Separate, Division, parting etc."
+    "answer": "খ",
+    "explanation": "Amalgamate অর্থ সম্মিলিত করা। Synonyms: combine, unite, merge, mix, intermix, unify etc. Antonyms: Separate, Division, parting etc.",
+    "ans": 1,
+    "correct_answer": "Amalgamate"
   },
   {
     "id": 90,
@@ -1016,8 +1170,10 @@
       "Education",
       "Education"
     ],
-    "answer": "(c) Education",
-    "explanation": "Education অর্থ শিক্ষা। Synonyms: teaching, enlightenment, guidance, accomplishments, etc. Antonyms: Ignorance, destruction, neglect etc."
+    "answer": "গ",
+    "explanation": "Education অর্থ শিক্ষা। Synonyms: teaching, enlightenment, guidance, accomplishments, etc. Antonyms: Ignorance, destruction, neglect etc.",
+    "ans": 2,
+    "correct_answer": "Education"
   },
   {
     "id": 91,
@@ -1028,8 +1184,10 @@
       "Daliniate",
       "Delineat"
     ],
-    "answer": "(a) Delineate",
-    "explanation": "Delineate অর্থ বর্ণিত করা। Synonyms: describe depicture, depict, portray, Antonyms: misdescribe, twist, confuse, pervert, falsity, undeliberated etc."
+    "answer": "ক",
+    "explanation": "Delineate অর্থ বর্ণিত করা। Synonyms: describe depicture, depict, portray, Antonyms: misdescribe, twist, confuse, pervert, falsity, undeliberated etc.",
+    "ans": 0,
+    "correct_answer": "Delineate"
   },
   {
     "id": 92,
@@ -1040,8 +1198,10 @@
       "rambling",
       "rammbling"
     ],
-    "answer": "(c) rambling",
-    "explanation": "Rambling অর্থ ঝাঁকুনি, অসংলগ্ন; Synonyms: garrulous, wordy, diffuse, disjointed, discursive, circuitous, oblique etc. Antonyms: Concise, pithy, dwindling, fading, ceasing etc."
+    "answer": "গ",
+    "explanation": "Rambling অর্থ ঝাঁকুনি, অসংলগ্ন; Synonyms: garrulous, wordy, diffuse, disjointed, discursive, circuitous, oblique etc. Antonyms: Concise, pithy, dwindling, fading, ceasing etc.",
+    "ans": 2,
+    "correct_answer": "rambling"
   },
   {
     "id": 93,
@@ -1052,8 +1212,10 @@
       "supplimantary",
       "supplementary"
     ],
-    "answer": "(d) supplementary",
-    "explanation": "Supplementary অর্থ পরিপূরক। Synonyms: additional, increased, accessory, complementary, supportive, adjunct etc. Antonyms: Prime, non-reciprocal, vital, essential, fundamental, integral, needed, necessary etc."
+    "answer": "ঘ",
+    "explanation": "Supplementary অর্থ পরিপূরক। Synonyms: additional, increased, accessory, complementary, supportive, adjunct etc. Antonyms: Prime, non-reciprocal, vital, essential, fundamental, integral, needed, necessary etc.",
+    "ans": 3,
+    "correct_answer": "supplementary"
   },
   {
     "id": 94,
@@ -1064,8 +1226,10 @@
       "censure",
       "censur"
     ],
-    "answer": "(c) censure",
-    "explanation": "Censure অর্থ তিরস্কার, নিন্দা ইত্যাদি। Synonyms: Condemn, criticize, castigate, pillory, reproach, blame, vilify, slam, rubbish, rollick, ream, out etc. Antonyms: Praise, commend, approval etc."
+    "answer": "গ",
+    "explanation": "Censure অর্থ তিরস্কার, নিন্দা ইত্যাদি। Synonyms: Condemn, criticize, castigate, pillory, reproach, blame, vilify, slam, rubbish, rollick, ream, out etc. Antonyms: Praise, commend, approval etc.",
+    "ans": 2,
+    "correct_answer": "censure"
   },
   {
     "id": 95,
@@ -1076,8 +1240,10 @@
       "consencus",
       "concenssus"
     ],
-    "answer": "(a) consensus",
-    "explanation": "Consensus অর্থ ঐক্যমত্য হওয়া। Synonyms: agreement, harmony, concord, consent, accord, unison, concert, etc. Antonyms: disagreement, disparity, resistance, distavor, discord, denial, conflict, opposition etc."
+    "answer": "ক",
+    "explanation": "Consensus অর্থ ঐক্যমত্য হওয়া। Synonyms: agreement, harmony, concord, consent, accord, unison, concert, etc. Antonyms: disagreement, disparity, resistance, distavor, discord, denial, conflict, opposition etc.",
+    "ans": 0,
+    "correct_answer": "consensus"
   },
   {
     "id": 96,
@@ -1088,8 +1254,10 @@
       "disatisfied",
       "dissatisfied"
     ],
-    "answer": "(d) dissatisfied",
-    "explanation": "Dissatisfied অর্থ অসন্তুষ্ট। Synonyms: discontented, malcontent, unsatisfied, vexed, aggrieved, angry, fed up, resentful, arrayed etc."
+    "answer": "ঘ",
+    "explanation": "Dissatisfied অর্থ অসন্তুষ্ট। Synonyms: discontented, malcontent, unsatisfied, vexed, aggrieved, angry, fed up, resentful, arrayed etc.",
+    "ans": 3,
+    "correct_answer": "dissatisfied"
   },
   {
     "id": 97,
@@ -1100,8 +1268,10 @@
       "Licene",
       "Lisene"
     ],
-    "answer": "(a) License, (b) Licence",
-    "explanation": "License, Licence দুটি সঠিক। লাইসেন্স বা অনুমতিপত্র। Synonyms: Permit, certificate, document, warrant, voucher, papers, authorization etc. Antonyms: bar, forbid, refuse, rule out, reject, veto etc."
+    "answer": "ক",
+    "explanation": "License, Licence দুটি সঠিক। লাইসেন্স বা অনুমতিপত্র। Synonyms: Permit, certificate, document, warrant, voucher, papers, authorization etc. Antonyms: bar, forbid, refuse, rule out, reject, veto etc.",
+    "ans": 0,
+    "correct_answer": "License"
   },
   {
     "id": 98,
@@ -1112,8 +1282,10 @@
       "Suggestion",
       "Sussetion"
     ],
-    "answer": "(c) Suggestion",
-    "explanation": "Suggestion অর্থ পরামর্শ। Synonyms: Proposed, proposition, motion, hint, tip, clue, idea, exhortation etc. Antonyms: Condemnation, question, declaration, demand, order, telling etc."
+    "answer": "গ",
+    "explanation": "Suggestion অর্থ পরামর্শ। Synonyms: Proposed, proposition, motion, hint, tip, clue, idea, exhortation etc. Antonyms: Condemnation, question, declaration, demand, order, telling etc.",
+    "ans": 2,
+    "correct_answer": "Suggestion"
   },
   {
     "id": 99,
@@ -1124,8 +1296,10 @@
       "Caloteralo",
       "Colatorl"
     ],
-    "answer": "(a) Collateral",
-    "explanation": "Collateral অর্থ সমান্তরাল। Synonyms: security, surety, guaranty, bond, insurance, indemnity, bail etc. Antonyms: direct, lineal, primary, unsupportive etc."
+    "answer": "ক",
+    "explanation": "Collateral অর্থ সমান্তরাল। Synonyms: security, surety, guaranty, bond, insurance, indemnity, bail etc. Antonyms: direct, lineal, primary, unsupportive etc.",
+    "ans": 0,
+    "correct_answer": "Collateral"
   },
   {
     "id": 100,
@@ -1136,8 +1310,10 @@
       "Resturant",
       "Resturunt"
     ],
-    "answer": "(b) Restaurant",
-    "explanation": "Restaurant অর্থ রেঁস্তোরা। Synonyms: eating place, eating house, etc. Antonyms: disassembly."
+    "answer": "খ",
+    "explanation": "Restaurant অর্থ রেঁস্তোরা। Synonyms: eating place, eating house, etc. Antonyms: disassembly.",
+    "ans": 1,
+    "correct_answer": "Restaurant"
   },
   {
     "id": 101,
@@ -1155,8 +1331,10 @@
       "is",
       "the"
     ],
-    "answer": "(b) of",
-    "explanation": ""
+    "answer": "খ",
+    "explanation": "",
+    "ans": 1,
+    "correct_answer": "of"
   },
   {
     "id": 103,
@@ -1167,8 +1345,10 @@
       "there",
       "the"
     ],
-    "answer": "(b) is",
-    "explanation": ""
+    "answer": "খ",
+    "explanation": "",
+    "ans": 1,
+    "correct_answer": "is"
   },
   {
     "id": 104,
@@ -1179,8 +1359,10 @@
       "as, in",
       "have, in"
     ],
-    "answer": "(d) have, in",
-    "explanation": "অর্থ পাবলিক সার্ভিস কর্মীদের সুবিধা সমূহে রয়েছে নিশ্চিত চাকুরী সুরক্ষা যা বেসরকারী খাতের সাথে তুলনা করার মত। প্রশ্নে কোন শূন্যস্থান নেই।"
+    "answer": "ঘ",
+    "explanation": "অর্থ পাবলিক সার্ভিস কর্মীদের সুবিধা সমূহে রয়েছে নিশ্চিত চাকুরী সুরক্ষা যা বেসরকারী খাতের সাথে তুলনা করার মত। প্রশ্নে কোন শূন্যস্থান নেই।",
+    "ans": 3,
+    "correct_answer": "have, in"
   },
   {
     "id": 105,
@@ -1191,8 +1373,10 @@
       "their",
       "are"
     ],
-    "answer": "(b) to",
-    "explanation": "Risk to অর্থ ঝুঁকি। বাক্যটির অর্থঃ- সমস্ত কর্মী নিজস্ব পরিবেশে কাজ করার উপযোগী, যেখানে তাদের সুরক্ষার ঝুঁকি নিয়ন্ত্রণ করা হয়।"
+    "answer": "খ",
+    "explanation": "Risk to অর্থ ঝুঁকি। বাক্যটির অর্থঃ- সমস্ত কর্মী নিজস্ব পরিবেশে কাজ করার উপযোগী, যেখানে তাদের সুরক্ষার ঝুঁকি নিয়ন্ত্রণ করা হয়।",
+    "ans": 1,
+    "correct_answer": "to"
   },
   {
     "id": 106,
@@ -1203,8 +1387,10 @@
       "unentie",
       "all"
     ],
-    "answer": "(b) engrave",
-    "explanation": "Engrave অর্থ খোদাই করা। Synonyms: carve, inscribe, cut (in) incise, score, imprint, impress, print, mark, etc. Antonyms: obliterate, erase, levitate etc."
+    "answer": "খ",
+    "explanation": "Engrave অর্থ খোদাই করা। Synonyms: carve, inscribe, cut (in) incise, score, imprint, impress, print, mark, etc. Antonyms: obliterate, erase, levitate etc.",
+    "ans": 1,
+    "correct_answer": "engrave"
   },
   {
     "id": 107,
@@ -1215,8 +1401,10 @@
       "unentie",
       "none"
     ],
-    "answer": "(a) unity",
-    "explanation": "Unity অর্থ ঐক্য, একতা, একত্ব ইত্যাদি। Synonyms: tune, consistency, union, consensus, consonance etc. Antonyms: division, disunity, discord, strife etc."
+    "answer": "ক",
+    "explanation": "Unity অর্থ ঐক্য, একতা, একত্ব ইত্যাদি। Synonyms: tune, consistency, union, consensus, consonance etc. Antonyms: division, disunity, discord, strife etc.",
+    "ans": 0,
+    "correct_answer": "unity"
   },
   {
     "id": 108,
@@ -1227,8 +1415,10 @@
       "recluse",
       "sucluse"
     ],
-    "answer": "(d) sucluse",
-    "explanation": "foreclose অর্থ পূর্ববর্তী, enclose অর্থ ঘিরে রাখা, recluse অর্থ নির্জন। Sucluse সঠিক word নয়। তাই উত্তর হবে sucluse."
+    "answer": "ঘ",
+    "explanation": "foreclose অর্থ পূর্ববর্তী, enclose অর্থ ঘিরে রাখা, recluse অর্থ নির্জন। Sucluse সঠিক word নয়। তাই উত্তর হবে sucluse.",
+    "ans": 3,
+    "correct_answer": "sucluse"
   },
   {
     "id": 109,
@@ -1239,8 +1429,10 @@
       "None of these",
       "dysalt"
     ],
-    "answer": "(c) None of these",
-    "explanation": "diesel- ডিজেল, অপশনে প্রত্যেকটি ভুল।"
+    "answer": "গ",
+    "explanation": "diesel- ডিজেল, অপশনে প্রত্যেকটি ভুল।",
+    "ans": 2,
+    "correct_answer": "None of these"
   },
   {
     "id": 110,
@@ -1258,8 +1450,10 @@
       "Yesterday, he went to home",
       "Yesterday, he will gone home"
     ],
-    "answer": "(b) Yesterday, he went home",
-    "explanation": "Yesterday, last year, last month, ago, lost, last night etc. উল্লেখ থাকলে Past Indefinite tense হয়। যেমনঃ yesterday, he went home. আবার, indirect object থাকলে “went to” হয় যেমন-yesterday he went to mary’s home."
+    "answer": "খ",
+    "explanation": "Yesterday, last year, last month, ago, lost, last night etc. উল্লেখ থাকলে Past Indefinite tense হয়। যেমনঃ yesterday, he went home. আবার, indirect object থাকলে “went to” হয় যেমন-yesterday he went to mary’s home.",
+    "ans": 1,
+    "correct_answer": "Yesterday, he went home"
   },
   {
     "id": 112,
@@ -1270,8 +1464,10 @@
       "Have you been finished the work yet?",
       "Have you finished the work yet?"
     ],
-    "answer": "(d) Have you finished the work yet?",
-    "explanation": "yet, already, just, just now, immediately, latterly etc. main verb টি Present perfect tense এ হয়। যেমনঃ (assertive) -> you have finished the work yet. (introgative) -> Have you finished the work yet?"
+    "answer": "ঘ",
+    "explanation": "yet, already, just, just now, immediately, latterly etc. main verb টি Present perfect tense এ হয়। যেমনঃ (assertive) -> you have finished the work yet. (introgative) -> Have you finished the work yet?",
+    "ans": 3,
+    "correct_answer": "Have you finished the work yet?"
   },
   {
     "id": 113,
@@ -1282,8 +1478,10 @@
       "Burocracy",
       "Bureocracy"
     ],
-    "answer": "(a) Bureaucracy",
-    "explanation": "Bureaucracy -> মনে রাখার জন্য: Burea (u) cracy এর অর্থ-আমলাতন্ত্র। অনুরূপভাবে, assassination – গুপ্তহত্যা, (ass ass I nation), Alienation – হস্তান্তরকরণ, (ali (e) nation), Lieutenant- লেফটেন্যান্ট; (lie u ten ant) মিথ্যা তুমি দশ পিপড়া (মনে রাখার উপায়)"
+    "answer": "ক",
+    "explanation": "Bureaucracy -> মনে রাখার জন্য: Burea (u) cracy এর অর্থ-আমলাতন্ত্র। অনুরূপভাবে, assassination – গুপ্তহত্যা, (ass ass I nation), Alienation – হস্তান্তরকরণ, (ali (e) nation), Lieutenant- লেফটেন্যান্ট; (lie u ten ant) মিথ্যা তুমি দশ পিপড়া (মনে রাখার উপায়)",
+    "ans": 0,
+    "correct_answer": "Bureaucracy"
   },
   {
     "id": 114,
@@ -1294,8 +1492,10 @@
       "Can you tell me what name is his?",
       "Can you tell me what his name is?"
     ],
-    "answer": "(d) Can you tell me what his name is?",
-    "explanation": "WH-Question থাকলে Integrative Sentence লেখার নিয়মঃ- wh- question + auxiliary verb +subject + main verb; সুতরাং, can you tell me what his name is ?"
+    "answer": "ঘ",
+    "explanation": "WH-Question থাকলে Integrative Sentence লেখার নিয়মঃ- wh- question + auxiliary verb +subject + main verb; সুতরাং, can you tell me what his name is ?",
+    "ans": 3,
+    "correct_answer": "Can you tell me what his name is?"
   },
   {
     "id": 115,
@@ -1306,8 +1506,10 @@
       "Everybody do hate a liar.",
       "Everybody do not hate a liar."
     ],
-    "answer": "(b) Everybody hates a liar.",
-    "explanation": "Everybody থাকলে verb এর singular form হয়।"
+    "answer": "খ",
+    "explanation": "Everybody থাকলে verb এর singular form হয়।",
+    "ans": 1,
+    "correct_answer": "Everybody hates a liar."
   },
   {
     "id": 116,
@@ -1318,8 +1520,10 @@
       "A sinking man catch the straw.",
       "A drowning man catch a straw."
     ],
-    "answer": "(b) A drowning man catches at a straw.",
-    "explanation": "A drawning man cathes at a straw এটি একটি ইংরেজি প্রবাদ যার অর্থ-যতক্ষণ শ্বাস ততক্ষণ আশ।"
+    "answer": "খ",
+    "explanation": "A drawning man cathes at a straw এটি একটি ইংরেজি প্রবাদ যার অর্থ-যতক্ষণ শ্বাস ততক্ষণ আশ।",
+    "ans": 1,
+    "correct_answer": "A drowning man catches at a straw."
   },
   {
     "id": 117,
@@ -1330,8 +1534,10 @@
       "Quiesecent",
       "Question"
     ],
-    "answer": "(b) Quiescent",
-    "explanation": "Quiescent অর্থ নিরিবিলি; Synonyms: calm, peaceful, cool, quiet etc."
+    "answer": "খ",
+    "explanation": "Quiescent অর্থ নিরিবিলি; Synonyms: calm, peaceful, cool, quiet etc.",
+    "ans": 1,
+    "correct_answer": "Quiescent"
   },
   {
     "id": 118,
@@ -1356,8 +1562,10 @@
       "Conscensus",
       "Consincious"
     ],
-    "answer": "(a) Consensus",
-    "explanation": "Consensus অর্থ ঐক্যমত্য। Synonyms: unity, consistency, union ইত্যাদি।"
+    "answer": "ক",
+    "explanation": "Consensus অর্থ ঐক্যমত্য। Synonyms: unity, consistency, union ইত্যাদি।",
+    "ans": 0,
+    "correct_answer": "Consensus"
   },
   {
     "id": 121,
@@ -1368,8 +1576,10 @@
       "Diversifyable",
       "Divercifiable"
     ],
-    "answer": "(a) Diversifiable",
-    "explanation": "Diversifiable অর্থ বিবিধ; Diversifiable risk অর্থ বিবিধ ঝুঁকি; Diverfication–বৈচিত্রতা ইত্যাদি।"
+    "answer": "ক",
+    "explanation": "Diversifiable অর্থ বিবিধ; Diversifiable risk অর্থ বিবিধ ঝুঁকি; Diverfication–বৈচিত্রতা ইত্যাদি।",
+    "ans": 0,
+    "correct_answer": "Diversifiable"
   },
   {
     "id": 122,
@@ -1380,7 +1590,9 @@
       "Perserverence",
       "Perseverance"
     ],
-    "answer": "(d) Perseverance",
-    "explanation": "Perseverance অর্থ অধ্যবসায়; Synonyms: diligence, industry, persistency ইত্যাদি।"
+    "answer": "ঘ",
+    "explanation": "Perseverance অর্থ অধ্যবসায়; Synonyms: diligence, industry, persistency ইত্যাদি।",
+    "ans": 3,
+    "correct_answer": "Perseverance"
   }
 ]

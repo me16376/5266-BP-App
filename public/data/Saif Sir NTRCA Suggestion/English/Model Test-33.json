@@ -7,110 +7,128 @@
     {
       "id": 1,
       "question": "He got ..... his illness quickly.",
-      "options": {
-        "ক": "over",
-        "খ": "on",
-        "গ": "at",
-        "ঘ": "by"
-      },
+      "options": [
+        "over",
+        "on",
+        "at",
+        "by"
+      ],
       "answer": "ক",
-      "explanation": "রোগমুক্তি লাভ করা বা সুস্থ হয়ে ওঠার Group verb হলো 'Get over' (recover from illness)। তাই 'got over' সঠিক।"
+      "explanation": "রোগমুক্তি লাভ করা বা সুস্থ হয়ে ওঠার Group verb হলো 'Get over' (recover from illness)। তাই 'got over' সঠিক।",
+      "ans": 0,
+      "correct_answer": "over"
     },
     {
       "id": 2,
       "question": "I'm getting late--- office .",
-      "options": {
-        "ক": "from",
-        "খ": "for",
-        "গ": "to",
-        "ঘ": "in"
-      },
+      "options": [
+        "from",
+        "for",
+        "to",
+        "in"
+      ],
       "answer": "খ",
-      "explanation": "কোনো স্থানে যাওয়ার দেরি হওয়া বোঝাতে Late-এর সাথে Preposition 'for' বসে ('late for office/school')।"
+      "explanation": "কোনো স্থানে যাওয়ার দেরি হওয়া বোঝাতে Late-এর সাথে Preposition 'for' বসে ('late for office/school')।",
+      "ans": 1,
+      "correct_answer": "for"
     },
     {
       "id": 3,
       "question": "Please wait for me. I will be finished .... five or ten minutes.",
-      "options": {
-        "ক": "at",
-        "খ": "in",
-        "গ": "by",
-        "ঘ": "from"
-      },
+      "options": [
+        "at",
+        "in",
+        "by",
+        "from"
+      ],
       "answer": "খ",
-      "explanation": "নির্দিষ্ট সময়ের মধ্যে কোনো কাজ শেষ হওয়া বোঝাতে Preposition 'in' ব্যবহৃত হয় ('in five or ten minutes')।"
+      "explanation": "নির্দিষ্ট সময়ের মধ্যে কোনো কাজ শেষ হওয়া বোঝাতে Preposition 'in' ব্যবহৃত হয় ('in five or ten minutes')।",
+      "ans": 1,
+      "correct_answer": "in"
     },
     {
       "id": 4,
       "question": "A disease that is transmitted to people through the environment is known as ....... ?",
-      "options": {
-        "ক": "Contagious",
-        "খ": "Infections",
-        "গ": "Fatal",
-        "ঘ": "Incurable"
-      },
+      "options": [
+        "Contagious",
+        "Infections",
+        "Fatal",
+        "Incurable"
+      ],
       "answer": "খ",
-      "explanation": "পরিবেশ বা জীবাণুর মাধ্যমে বাতাসে ছড়িয়ে পড়া রোগকে 'Infectious disease' (সংক্রামক রোগ) বলা হয়।"
+      "explanation": "পরিবেশ বা জীবাণুর মাধ্যমে বাতাসে ছড়িয়ে পড়া রোগকে 'Infectious disease' (সংক্রামক রোগ) বলা হয়।",
+      "ans": 1,
+      "correct_answer": "Infections"
     },
     {
       "id": 5,
       "question": "Antonym of ENORMOUS is -",
-      "options": {
-        "ক": "Weak",
-        "খ": "Soft",
-        "গ": "Tiny",
-        "ঘ": "Hard"
-      },
+      "options": [
+        "Weak",
+        "Soft",
+        "Tiny",
+        "Hard"
+      ],
       "answer": "গ",
-      "explanation": "'Enormous' অর্থ প্রকাণ্ড, বিশাল বা সুবিশাল (huge/gigantic)। এর বিপরীত শব্দ (Antonym) হলো 'Tiny' (অতি ক্ষুদ্র)।"
+      "explanation": "'Enormous' অর্থ প্রকাণ্ড, বিশাল বা সুবিশাল (huge/gigantic)। এর বিপরীত শব্দ (Antonym) হলো 'Tiny' (অতি ক্ষুদ্র)।",
+      "ans": 2,
+      "correct_answer": "Tiny"
     },
     {
       "id": 6,
       "question": "Antonym for PRODIGAL - is",
-      "options": {
-        "ক": "Sqandering",
-        "খ": "Thrifty",
-        "গ": "Spendthrift",
-        "ঘ": "Wanton"
-      },
+      "options": [
+        "Sqandering",
+        "Thrifty",
+        "Spendthrift",
+        "Wanton"
+      ],
       "answer": "খ",
-      "explanation": "'Prodigal' অর্থ অপব্যয়ী, বেহিসেবী বা অমিতব্যয়ী (spendthrift/extravagant)। এর বিপরীত শব্দ (Antonym) হলো 'Thrifty' (মিতব্যয়ী/হিসাবী)।"
+      "explanation": "'Prodigal' অর্থ অপব্যয়ী, বেহিসেবী বা অমিতব্যয়ী (spendthrift/extravagant)। এর বিপরীত শব্দ (Antonym) হলো 'Thrifty' (মিতব্যয়ী/হিসাবী)।",
+      "ans": 1,
+      "correct_answer": "Thrifty"
     },
     {
       "id": 7,
       "question": "Change the voice of the sentence : They greet me cheerfully every morning.",
-      "options": {
-        "ক": "Every morning I was greeted cheerfully.",
-        "খ": "I am greeted cheerfully by them every morning.",
-        "গ": "I am being greeted cheerfully by them every morning.",
-        "ঘ": "They greet me cheerfully every morning ."
-      },
+      "options": [
+        "Every morning I was greeted cheerfully.",
+        "I am greeted cheerfully by them every morning.",
+        "I am being greeted cheerfully by them every morning.",
+        "They greet me cheerfully every morning ."
+      ],
       "answer": "খ",
-      "explanation": "Present Indefinite Active-এর Passive রূপ: Subject (I) + am + V3 (greeted) + cheerfully + by them every morning। তাই (খ) সঠিক।"
+      "explanation": "Present Indefinite Active-এর Passive রূপ: Subject (I) + am + V3 (greeted) + cheerfully + by them every morning। তাই (খ) সঠিক।",
+      "ans": 1,
+      "correct_answer": "I am greeted cheerfully by them every morning."
     },
     {
       "id": 8,
       "question": "\"Spill the beans\" means -",
-      "options": {
-        "ক": "Frivolously performing a simple task",
-        "খ": "Reveal someone's secret",
-        "গ": "To stop something at an early stage",
-        "ঘ": "None of these"
-      },
+      "options": [
+        "Frivolously performing a simple task",
+        "Reveal someone's secret",
+        "To stop something at an early stage",
+        "None of these"
+      ],
       "answer": "খ",
-      "explanation": "'Spill the beans' একটি ইংরেজি Idiom যার অর্থ অসাবধানতাবশত বা সময়ের আগেই কোনো গোপন তথ্য ফাঁস করে দেওয়া (to disclose a secret prematurely or untruthfully)।"
+      "explanation": "'Spill the beans' একটি ইংরেজি Idiom যার অর্থ অসাবধানতাবশত বা সময়ের আগেই কোনো গোপন তথ্য ফাঁস করে দেওয়া (to disclose a secret prematurely or untruthfully)।",
+      "ans": 1,
+      "correct_answer": "Reveal someone's secret"
     },
     {
       "id": 9,
       "question": "Synonym of ZEST is -",
-      "options": {
-        "ক": "Enthusiasm",
-        "খ": "Passive",
-        "গ": "Disgust",
-        "ঘ": "Various"
-      },
+      "options": [
+        "Enthusiasm",
+        "Passive",
+        "Disgust",
+        "Various"
+      ],
       "answer": "ক",
-      "explanation": "'Zest' অর্থ প্রবল উৎসাহ, উদ্দীপনা, আনন্দ বা রুচি। এর সমার্থক শব্দ হলো 'Enthusiasm' (উদ্যম/উৎসাহ) বা 'Eagerness'। Disgust = ঘৃণা।"
+      "explanation": "'Zest' অর্থ প্রবল উৎসাহ, উদ্দীপনা, আনন্দ বা রুচি। এর সমার্থক শব্দ হলো 'Enthusiasm' (উদ্যম/উৎসাহ) বা 'Eagerness'। Disgust = ঘৃণা।",
+      "ans": 0,
+      "correct_answer": "Enthusiasm"
     }
   ]
 }

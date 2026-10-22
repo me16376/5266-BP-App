@@ -7,230 +7,268 @@
     {
       "id": 1,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "MISIONARY",
-        "খ": "MISSIONARY",
-        "গ": "MISIONERY",
-        "ঘ": "MISSIONERY"
-      },
+      "options": [
+        "MISIONARY",
+        "MISSIONARY",
+        "MISIONERY",
+        "MISSIONERY"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 1,
+      "correct_answer": "MISSIONARY"
     },
     {
       "id": 2,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "CATASTROPHE",
-        "খ": "CETASTROPHE",
-        "গ": "CATASTROPHEE",
-        "ঘ": "CATASTROFEE"
-      },
+      "options": [
+        "CATASTROPHE",
+        "CETASTROPHE",
+        "CATASTROPHEE",
+        "CATASTROFEE"
+      ],
       "answer": "ক",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 0,
+      "correct_answer": "CATASTROPHE"
     },
     {
       "id": 3,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "HETROGENUS",
-        "খ": "HETROGENEOUS",
-        "গ": "HETEROGENUS",
-        "ঘ": "HETEROGENEOUS"
-      },
+      "options": [
+        "HETROGENUS",
+        "HETROGENEOUS",
+        "HETEROGENUS",
+        "HETEROGENEOUS"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 3,
+      "correct_answer": "HETEROGENEOUS"
     },
     {
       "id": 4,
       "question": "Still waters run deep. এখানে “Still” শব্দটি—",
-      "options": {
-        "ক": "Noun",
-        "খ": "Pronoun",
-        "গ": "Adjective",
-        "ঘ": "Adverb"
-      },
+      "options": [
+        "Noun",
+        "Pronoun",
+        "Adjective",
+        "Adverb"
+      ],
       "answer": "গ",
-      "explanation": "'Still waters run deep' বাক্যে 'Still' শব্দটি Noun 'waters'-এর পূর্বে বসে তার অবস্থা প্রকাশ করায় এটি একটি Adjective।"
+      "explanation": "'Still waters run deep' বাক্যে 'Still' শব্দটি Noun 'waters'-এর পূর্বে বসে তার অবস্থা প্রকাশ করায় এটি একটি Adjective।",
+      "ans": 2,
+      "correct_answer": "Adjective"
     },
     {
       "id": 5,
       "question": "He kept the fast for a week. এখানে “fast” শব্দটি-",
-      "options": {
-        "ক": "Noun",
-        "খ": "Pronoun",
-        "গ": "Adjective",
-        "ঘ": "Adverb"
-      },
+      "options": [
+        "Noun",
+        "Pronoun",
+        "Adjective",
+        "Adverb"
+      ],
       "answer": "ক",
-      "explanation": "'He kept the fast for a week' বাক্যে Article 'the'-এর পর একটিমাত্র শব্দ 'fast' থাকায় এটি Noun (উপবাস/রোজা)।"
+      "explanation": "'He kept the fast for a week' বাক্যে Article 'the'-এর পর একটিমাত্র শব্দ 'fast' থাকায় এটি Noun (উপবাস/রোজা)।",
+      "ans": 0,
+      "correct_answer": "Noun"
     },
     {
       "id": 6,
       "question": "নিচের কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "He will avail the opportunity.",
-        "খ": "I should take leave of you.",
-        "গ": "I have seen two deers.",
-        "ঘ": "Television is a wonderful discovery."
-      },
-      "answer": "খ",
-      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।"
+      "options": [
+        "He will avail the opportunity.",
+        "I should take leave of you.",
+        "I have seen two deers.",
+        "Television is a wonderful discovery."
+      ],
+      "answer": "ক",
+      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 7,
       "question": "নিচের কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "Good night, how are you?",
-        "খ": "Ali took admission into that college.",
-        "গ": "He asked me where did I go.",
-        "ঘ": "He always speaks the truth."
-      },
-      "answer": "ঘ",
-      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।"
+      "options": [
+        "Good night, how are you?",
+        "Ali took admission into that college.",
+        "He asked me where did I go.",
+        "He always speaks the truth."
+      ],
+      "answer": "ক",
+      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 8,
       "question": "Glass is made ---- bottles বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে-",
-      "options": {
-        "ক": "in",
-        "খ": "of",
-        "গ": "with",
-        "ঘ": "by"
-      },
+      "options": [
+        "in",
+        "of",
+        "with",
+        "by"
+      ],
       "answer": "খ",
-      "explanation": "কোনো জিনিস তৈরি হওয়ার পর যদি তার মূল উপাদান চেনা যায় ও পরিবর্তন না হয়, তবে 'made of' বসে। কাঁচ দিয়ে বোতল তৈরির ক্ষেত্রে 'Glass is made of bottles' (বা bottles are made of glass) অর্থে 'of' সঠিক।"
+      "explanation": "কোনো জিনিস তৈরি হওয়ার পর যদি তার মূল উপাদান চেনা যায় ও পরিবর্তন না হয়, তবে 'made of' বসে। কাঁচ দিয়ে বোতল তৈরির ক্ষেত্রে 'Glass is made of bottles' (বা bottles are made of glass) অর্থে 'of' সঠিক।",
+      "ans": 1,
+      "correct_answer": "of"
     },
     {
       "id": 9,
       "question": "Students should be attentive ---- their lessons বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে-",
-      "options": {
-        "ক": "in",
-        "খ": "with",
-        "গ": "to",
-        "ঘ": "of"
-      },
+      "options": [
+        "in",
+        "with",
+        "to",
+        "of"
+      ],
       "answer": "গ",
-      "explanation": "কোনো বিষয়ে মনোযোগী হওয়া বোঝাতে appropriate preposition 'attentive to' বসে: 'Students should be attentive to their lessons.'"
+      "explanation": "কোনো বিষয়ে মনোযোগী হওয়া বোঝাতে appropriate preposition 'attentive to' বসে: 'Students should be attentive to their lessons.'",
+      "ans": 2,
+      "correct_answer": "to"
     },
     {
       "id": 10,
       "question": "His words conform --- his work বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে-",
-      "options": {
-        "ক": "with",
-        "খ": "by",
-        "গ": "in",
-        "ঘ": "to"
-      },
+      "options": [
+        "with",
+        "by",
+        "in",
+        "to"
+      ],
       "answer": "ঘ",
-      "explanation": "কারও কাজের সাথে কথার সামঞ্জস্য থাকা বোঝাতে 'conform to' বসে: 'His words conform to his work.'"
+      "explanation": "কারও কাজের সাথে কথার সামঞ্জস্য থাকা বোঝাতে 'conform to' বসে: 'His words conform to his work.'",
+      "ans": 3,
+      "correct_answer": "to"
     },
     {
       "id": 11,
       "question": "He was convinced --- my honesty বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে-",
-      "options": {
-        "ক": "with",
-        "খ": "of",
-        "গ": "by",
-        "ঘ": "in"
-      },
+      "options": [
+        "with",
+        "of",
+        "by",
+        "in"
+      ],
       "answer": "খ",
-      "explanation": "কোনো বিষয়ে নিশ্চিত বা আশ্বস্ত হওয়া বোঝাতে 'convinced of' বসে: 'He was convinced of my honesty.'"
+      "explanation": "কোনো বিষয়ে নিশ্চিত বা আশ্বস্ত হওয়া বোঝাতে 'convinced of' বসে: 'He was convinced of my honesty.'",
+      "ans": 1,
+      "correct_answer": "of"
     },
     {
       "id": 12,
       "question": "The girl is expert ---- drawing বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে-",
-      "options": {
-        "ক": "in",
-        "খ": "to",
-        "গ": "with",
-        "ঘ": "at"
-      },
+      "options": [
+        "in",
+        "to",
+        "with",
+        "at"
+      ],
       "answer": "ঘ",
-      "explanation": "কোনো নির্দিষ্ট কাজে বা দক্ষতায় পারদর্শিতা বোঝাতে 'expert at' বসে: 'The girl is expert at drawing.'"
+      "explanation": "কোনো নির্দিষ্ট কাজে বা দক্ষতায় পারদর্শিতা বোঝাতে 'expert at' বসে: 'The girl is expert at drawing.'",
+      "ans": 3,
+      "correct_answer": "at"
     },
     {
       "id": 13,
       "question": "“Let him sing a song” বাক্যটির সঠিক পরিবর্তিত Voice হবে-",
-      "options": {
-        "ক": "Let a song sing by him.",
-        "খ": "Let a song be sung by him",
-        "গ": "Let a song be sang by him",
-        "ঘ": "Let a song sung by him"
-      },
+      "options": [
+        "Let a song sing by him.",
+        "Let a song be sung by him",
+        "Let a song be sang by him",
+        "Let a song sung by him"
+      ],
       "answer": "খ",
-      "explanation": "'Let him sing a song'-এর Passive গঠন: Let + object (a song) + be + V3 (sung) + by him। তাই খ সঠিক।"
+      "explanation": "'Let him sing a song'-এর Passive গঠন: Let + object (a song) + be + V3 (sung) + by him। তাই খ সঠিক।",
+      "ans": 1,
+      "correct_answer": "Let a song be sung by him"
     },
     {
       "id": 14,
       "question": "“Who will help you” বাক্যটির সঠিক পরিবর্তিত Voice হবে-",
-      "options": {
-        "ক": "By whom will you be helped?",
-        "খ": "By whom you will be helped?",
-        "গ": "By whom would you be helped?",
-        "ঘ": "By whom you would be helped?"
-      },
+      "options": [
+        "By whom will you be helped?",
+        "By whom you will be helped?",
+        "By whom would you be helped?",
+        "By whom you would be helped?"
+      ],
       "answer": "ক",
-      "explanation": "Future Indefinite Interrogative-এর Passive রূপ: By whom + will + you + be + helped? তাই ক সঠিক।"
+      "explanation": "Future Indefinite Interrogative-এর Passive রূপ: By whom + will + you + be + helped? তাই ক সঠিক।",
+      "ans": 0,
+      "correct_answer": "By whom will you be helped?"
     },
     {
       "id": 15,
       "question": "“Do you know him” বাক্যটির সঠিক পরিবর্তিত Voice হবে-",
-      "options": {
-        "ক": "Is he known by you?",
-        "খ": "Is he known to you?",
-        "গ": "Is he knew by you?",
-        "ঘ": "Was he known by you?"
-      },
+      "options": [
+        "Is he known by you?",
+        "Is he known to you?",
+        "Is he knew by you?",
+        "Was he known by you?"
+      ],
       "answer": "খ",
-      "explanation": "Present Indefinite Interrogative-এ 'know' verb-এর passive রূপ: Is he known to you? (known-এর পর to বসে)।"
+      "explanation": "Present Indefinite Interrogative-এ 'know' verb-এর passive রূপ: Is he known to you? (known-এর পর to বসে)।",
+      "ans": 1,
+      "correct_answer": "Is he known to you?"
     },
     {
       "id": 16,
       "question": "He said to me, “May you have wealth” বাক্যটির indirect speech হবে-",
-      "options": {
-        "ক": "He wished me that I might have wealth.",
-        "খ": "He wished me that I might had wealth.",
-        "গ": "He wished me that I should have wealth.",
-        "ঘ": "He said to me that I might have wealth."
-      },
+      "options": [
+        "He wished me that I might have wealth.",
+        "He wished me that I might had wealth.",
+        "He wished me that I should have wealth.",
+        "He said to me that I might have wealth."
+      ],
       "answer": "ক",
-      "explanation": "Optative sentence-এ আশীর্বাদ প্রকাশে reporting verb 'wished' বসে এবং 'May' পরিবর্তিত হয়ে 'might' হয়: 'He wished me that I might have wealth.'"
+      "explanation": "Optative sentence-এ আশীর্বাদ প্রকাশে reporting verb 'wished' বসে এবং 'May' পরিবর্তিত হয়ে 'might' হয়: 'He wished me that I might have wealth.'",
+      "ans": 0,
+      "correct_answer": "He wished me that I might have wealth."
     },
     {
       "id": 17,
       "question": "“You said to me,” You do not do your duty.” বাক্যটির indirect Speech হবে-",
-      "options": {
-        "ক": "You told me that I do not do my duty.",
-        "খ": "You said to me that I did not do my duty.",
-        "গ": "You said to me that I do not do my duty.",
-        "ঘ": "You told me that I did not do my duty."
-      },
+      "options": [
+        "You told me that I do not do my duty.",
+        "You said to me that I did not do my duty.",
+        "You said to me that I do not do my duty.",
+        "You told me that I did not do my duty."
+      ],
       "answer": "ঘ",
-      "explanation": "Assertive sentence-এ said to me পরিবর্তিত হয়ে 'told me' হয় এবং Present Indefinite পরিবর্তিত হয়ে Past Indefinite (did not do) হয়: 'You told me that I did not do my duty.'"
+      "explanation": "Assertive sentence-এ said to me পরিবর্তিত হয়ে 'told me' হয় এবং Present Indefinite পরিবর্তিত হয়ে Past Indefinite (did not do) হয়: 'You told me that I did not do my duty.'",
+      "ans": 3,
+      "correct_answer": "You told me that I did not do my duty."
     },
     {
       "id": 18,
       "question": "Brief –এর সমার্থক শব্দ কোনটি?",
-      "options": {
-        "ক": "Profuse",
-        "খ": "Eloquent",
-        "গ": "Short",
-        "ঘ": "Copious"
-      },
+      "options": [
+        "Profuse",
+        "Eloquent",
+        "Short",
+        "Copious"
+      ],
       "answer": "গ",
-      "explanation": "'Brief' শব্দের অর্থ সংক্ষিপ্ত বা অল্প কথায় প্রকাশিত। এর যথাযথ প্রতিশব্দ হলো 'Short' (সংক্ষিপ্ত)।"
+      "explanation": "'Brief' শব্দের অর্থ সংক্ষিপ্ত বা অল্প কথায় প্রকাশিত। এর যথাযথ প্রতিশব্দ হলো 'Short' (সংক্ষিপ্ত)।",
+      "ans": 2,
+      "correct_answer": "Short"
     },
     {
       "id": 19,
       "question": "Latent –এর সমার্থক শব্দ কোনটি?",
-      "options": {
-        "ক": "Concealed",
-        "খ": "Evident",
-        "গ": "Visible",
-        "ঘ": "Conspicious"
-      },
+      "options": [
+        "Concealed",
+        "Evident",
+        "Visible",
+        "Conspicious"
+      ],
       "answer": "ক",
-      "explanation": "'Latent' শব্দের অর্থ সুপ্ত বা অপ্রকাশিত। এর যথার্থ প্রতিশব্দ হলো 'Concealed' (লুক্কায়িত)।"
+      "explanation": "'Latent' শব্দের অর্থ সুপ্ত বা অপ্রকাশিত। এর যথার্থ প্রতিশব্দ হলো 'Concealed' (লুক্কায়িত)।",
+      "ans": 0,
+      "correct_answer": "Concealed"
     }
   ]
 }

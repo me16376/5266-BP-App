@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "“De facto” Means-",
-      "options": {
-        "ক": "As per facts",
-        "খ": "In reality",
-        "গ": "By rights",
-        "ঘ": "Evidence"
-      },
+      "options": [
+        "As per facts",
+        "In reality",
+        "By rights",
+        "Evidence"
+      ],
       "answer": "খ",
-      "explanation": "'De facto' একটি লাতিন আইনি অভিব্যক্তি, যার অর্থ কার্যতঃ বা বাস্তবে বিদ্যমান (In reality / in practice, though not necessarily by law)।"
+      "explanation": "'De facto' একটি লাতিন আইনি অভিব্যক্তি, যার অর্থ কার্যতঃ বা বাস্তবে বিদ্যমান (In reality / in practice, though not necessarily by law)।",
+      "ans": 1,
+      "correct_answer": "In reality"
     },
     {
       "id": 2,
       "question": "“Lingua Franca” Means-",
-      "options": {
-        "ক": "French",
-        "খ": "Latin",
-        "গ": "A mixed language",
-        "ঘ": "Translated version"
-      },
+      "options": [
+        "French",
+        "Latin",
+        "A mixed language",
+        "Translated version"
+      ],
       "answer": "গ",
-      "explanation": "'Lingua Franca' বলতে বোঝায় বিভিন্ন মাতৃভাষার মানুষের মধ্যে পারস্পরিক যোগাযোগের সাধারণ ভাষা (A common/mixed language adopted by speakers of different languages)।"
+      "explanation": "'Lingua Franca' বলতে বোঝায় বিভিন্ন মাতৃভাষার মানুষের মধ্যে পারস্পরিক যোগাযোগের সাধারণ ভাষা (A common/mixed language adopted by speakers of different languages)।",
+      "ans": 2,
+      "correct_answer": "A mixed language"
     },
     {
       "id": 3,
       "question": "The antonym of “Repulse” is-",
-      "options": {
-        "ক": "Reside",
-        "খ": "Emphasize",
-        "গ": "Impulse",
-        "ঘ": "Attract"
-      },
+      "options": [
+        "Reside",
+        "Emphasize",
+        "Impulse",
+        "Attract"
+      ],
       "answer": "ঘ",
-      "explanation": "'Repulse' শব্দের অর্থ প্রতিহত করা, বিতাড়িত করা বা অনীহা সৃষ্টি করা। এর বিপরীত (antonym) শব্দ হলো 'Attract' (আকর্ষণ করা)।"
+      "explanation": "'Repulse' শব্দের অর্থ প্রতিহত করা, বিতাড়িত করা বা অনীহা সৃষ্টি করা। এর বিপরীত (antonym) শব্দ হলো 'Attract' (আকর্ষণ করা)।",
+      "ans": 3,
+      "correct_answer": "Attract"
     },
     {
       "id": 4,
       "question": "Choose the correct sentence-",
-      "options": {
-        "ক": "I wish I were you.",
-        "খ": "I wish I was you.",
-        "গ": "I wish I am you.",
-        "ঘ": "I wish I are you."
-      },
+      "options": [
+        "I wish I were you.",
+        "I wish I was you.",
+        "I wish I am you.",
+        "I wish I are you."
+      ],
       "answer": "ক",
-      "explanation": "Present Perfect Tense-এ 'have finished'-এর পর পরবর্তী verb-টির Gerund রূপ (reading) বসে: 'I have finished reading the book.'"
+      "explanation": "Present Perfect Tense-এ 'have finished'-এর পর পরবর্তী verb-টির Gerund রূপ (reading) বসে: 'I have finished reading the book.'",
+      "ans": 0,
+      "correct_answer": "I wish I were you."
     },
     {
       "id": 5,
       "question": "“I ---- to meet you ever since I read your first novel” বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে?",
-      "options": {
-        "ক": "have been hoping",
-        "খ": "have hoped",
-        "গ": "hope",
-        "ঘ": "am hopping"
-      },
+      "options": [
+        "have been hoping",
+        "have hoped",
+        "hope",
+        "am hopping"
+      ],
       "answer": "খ",
-      "explanation": "'Ever since' যুক্ত বাক্যে পূর্বে ঘটে যাওয়া অনুভূতি প্রকাশে Present Perfect Tense ব্যবহৃত হয়: 'I have hoped to meet you ever since I read your first novel.'"
+      "explanation": "'Ever since' যুক্ত বাক্যে পূর্বে ঘটে যাওয়া অনুভূতি প্রকাশে Present Perfect Tense ব্যবহৃত হয়: 'I have hoped to meet you ever since I read your first novel.'",
+      "ans": 1,
+      "correct_answer": "have hoped"
     },
     {
       "id": 6,
       "question": "“Feed the baby ---- milk” বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে?",
-      "options": {
-        "ক": "to",
-        "খ": "in",
-        "গ": "on",
-        "ঘ": "with"
-      },
+      "options": [
+        "to",
+        "in",
+        "on",
+        "with"
+      ],
       "answer": "গ",
-      "explanation": "কোনো খাবার বা দুধ খাইয়ে শিশুকে লালন-পালন করা বোঝাতে 'feed on' বসে: 'Feed the baby on milk.'"
+      "explanation": "কোনো খাবার বা দুধ খাইয়ে শিশুকে লালন-পালন করা বোঝাতে 'feed on' বসে: 'Feed the baby on milk.'",
+      "ans": 2,
+      "correct_answer": "on"
     },
     {
       "id": 7,
       "question": "Choose the correct preposition in the sentence “he hankered ---- fame.”",
-      "options": {
-        "ক": "for",
-        "খ": "to",
-        "গ": "from",
-        "ঘ": "after"
-      },
+      "options": [
+        "for",
+        "to",
+        "from",
+        "after"
+      ],
       "answer": "ঘ",
-      "explanation": "'Hanker after' একটি appropriate preposition, যার অর্থ কোনো কিছুর পেছনে লালায়িত হওয়া বা তীব্র আকাঙ্ক্ষা করা: 'He hankered after fame.'"
+      "explanation": "'Hanker after' একটি appropriate preposition, যার অর্থ কোনো কিছুর পেছনে লালায়িত হওয়া বা তীব্র আকাঙ্ক্ষা করা: 'He hankered after fame.'",
+      "ans": 3,
+      "correct_answer": "after"
     },
     {
       "id": 8,
       "question": "Which form of the word is adjective?",
-      "options": {
-        "ক": "Resolute",
-        "খ": "Resolve",
-        "গ": "Resolution",
-        "ঘ": "Resolutely"
-      },
+      "options": [
+        "Resolute",
+        "Resolve",
+        "Resolution",
+        "Resolutely"
+      ],
       "answer": "ক",
-      "explanation": "'Resolute' শব্দের অর্থ দৃঢ়সংকল্প বা অবিচল, যা একটি Adjective। Resolve হলো verb এবং Resolution হলো noun।"
+      "explanation": "'Resolute' শব্দের অর্থ দৃঢ়সংকল্প বা অবিচল, যা একটি Adjective। Resolve হলো verb এবং Resolution হলো noun।",
+      "ans": 0,
+      "correct_answer": "Resolute"
     },
     {
       "id": 9,
       "question": "“The door opened automatically”. The verb in this sentence is----",
-      "options": {
-        "ক": "Transitive verb",
-        "খ": "Linking verb",
-        "গ": "Intransitive verb",
-        "ঘ": "None of these"
-      },
+      "options": [
+        "Transitive verb",
+        "Linking verb",
+        "Intransitive verb",
+        "None of these"
+      ],
       "answer": "গ",
-      "explanation": "যে verb-এর কোনো object থাকে না তাকে Intransitive Verb বলে। 'The door opened automatically' বাক্যে 'opened'-এর কোনো object নেই, তাই এটি Intransitive Verb।"
+      "explanation": "যে verb-এর কোনো object থাকে না তাকে Intransitive Verb বলে। 'The door opened automatically' বাক্যে 'opened'-এর কোনো object নেই, তাই এটি Intransitive Verb।",
+      "ans": 2,
+      "correct_answer": "Intransitive verb"
     },
     {
       "id": 10,
       "question": "“Man cannot live alone”. The word alone is used here as-",
-      "options": {
-        "ক": "Pronoun",
-        "খ": "Preposition",
-        "গ": "Adjective",
-        "ঘ": "Adverb"
-      },
+      "options": [
+        "Pronoun",
+        "Preposition",
+        "Adjective",
+        "Adverb"
+      ],
       "answer": "ঘ",
-      "explanation": "'Man cannot live alone' বাক্যে 'alone' শব্দটি 'live' verb-টিকে modify করে কীভাবে বাস করতে পারে তা নির্দেশ করায় এটি একটি Adverb।"
+      "explanation": "'Man cannot live alone' বাক্যে 'alone' শব্দটি 'live' verb-টিকে modify করে কীভাবে বাস করতে পারে তা নির্দেশ করায় এটি একটি Adverb।",
+      "ans": 3,
+      "correct_answer": "Adverb"
     },
     {
       "id": 11,
       "question": "Correct passive form of the sentence. “The boy pleased us” is-",
-      "options": {
-        "ক": "We were pleased by the boy.",
-        "খ": "We were pleased with the boy.",
-        "গ": "We were pleased to the boy.",
-        "ঘ": "We were pleased at the boy."
-      },
+      "options": [
+        "We were pleased by the boy.",
+        "We were pleased with the boy.",
+        "We were pleased to the boy.",
+        "We were pleased at the boy."
+      ],
       "answer": "খ",
-      "explanation": "'Pleased'-এর পর ব্যক্তিবাচক object থাকলে preposition হিসেবে 'with' বসে: 'We were pleased with the boy.'"
+      "explanation": "'Pleased'-এর পর ব্যক্তিবাচক object থাকলে preposition হিসেবে 'with' বসে: 'We were pleased with the boy.'",
+      "ans": 1,
+      "correct_answer": "We were pleased with the boy."
     },
     {
       "id": 12,
       "question": "“Solve this problem” বাক্যটির Passive Voice হবে-",
-      "options": {
-        "ক": "The problem is solved by you.",
-        "খ": "You are solved with the problem.",
-        "গ": "Let the problem be solved by you.",
-        "ঘ": "Let you solve the problem."
-      },
+      "options": [
+        "The problem is solved by you.",
+        "You are solved with the problem.",
+        "Let the problem be solved by you.",
+        "Let you solve the problem."
+      ],
       "answer": "গ",
-      "explanation": "Imperative sentence-এর passive গঠন: Let + object (the problem) + be + V3 (solved) + by you। তাই গ সঠিক।"
+      "explanation": "Imperative sentence-এর passive গঠন: Let + object (the problem) + be + V3 (solved) + by you। তাই গ সঠিক।",
+      "ans": 2,
+      "correct_answer": "Let the problem be solved by you."
     },
     {
       "id": 13,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Conqueror",
-        "খ": "Conquerer",
-        "গ": "Conquaror",
-        "ঘ": "Conqarer"
-      },
+      "options": [
+        "Conqueror",
+        "Conquerer",
+        "Conquaror",
+        "Conqarer"
+      ],
       "answer": "ক",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 0,
+      "correct_answer": "Conqueror"
     },
     {
       "id": 14,
       "question": "Choose the correct spelling:",
-      "options": {
-        "ক": "Asesment",
-        "খ": "Asessment",
-        "গ": "Assesment",
-        "ঘ": "Assessment"
-      },
+      "options": [
+        "Asesment",
+        "Asessment",
+        "Assesment",
+        "Assessment"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Ascertain' (A-s-c-e-r-t-a-i-n), যার অর্থ কোনো কিছু অনুসন্ধান করে নিশ্চিত হওয়া।"
+      "explanation": "সঠিক বানান হলো 'Ascertain' (A-s-c-e-r-t-a-i-n), যার অর্থ কোনো কিছু অনুসন্ধান করে নিশ্চিত হওয়া।",
+      "ans": 3,
+      "correct_answer": "Assessment"
     },
     {
       "id": 15,
       "question": "Identify the correct meaning “To keep one’s head”",
-      "options": {
-        "ক": "To save oneself",
-        "খ": "To keep calm",
-        "গ": "To be self-respectful",
-        "ঘ": "None of these"
-      },
+      "options": [
+        "To save oneself",
+        "To keep calm",
+        "To be self-respectful",
+        "None of these"
+      ],
       "answer": "খ",
-      "explanation": "'To keep one's head' idiom-টির অর্থ শান্ত থাকা বা আত্মনিয়ন্ত্রণ বজায় রাখা (To keep calm / remain calm)।"
+      "explanation": "'To keep one's head' idiom-টির অর্থ শান্ত থাকা বা আত্মনিয়ন্ত্রণ বজায় রাখা (To keep calm / remain calm)।",
+      "ans": 1,
+      "correct_answer": "To keep calm"
     },
     {
       "id": 16,
       "question": "Blue chips are ----",
-      "options": {
-        "ক": "Securities issued by the Government",
-        "খ": "Industrial shares considered to be a risky investment",
-        "গ": "Industrial shares considered to be a safe investment",
-        "ঘ": "None of these"
-      },
+      "options": [
+        "Securities issued by the Government",
+        "Industrial shares considered to be a risky investment",
+        "Industrial shares considered to be a safe investment",
+        "None of these"
+      ],
       "answer": "গ",
-      "explanation": "শেয়ার বাজারে 'Blue chips' বলতে বোঝায় অত্যন্ত আর্থিকভাবে সচ্ছল ও নির্ভরযোগ্য বৃহৎ কোম্পানির শেয়ার যা অত্যন্ত নিরাপদ বিনিয়োগ হিসেবে গণ্য (safe investment)।"
+      "explanation": "শেয়ার বাজারে 'Blue chips' বলতে বোঝায় অত্যন্ত আর্থিকভাবে সচ্ছল ও নির্ভরযোগ্য বৃহৎ কোম্পানির শেয়ার যা অত্যন্ত নিরাপদ বিনিয়োগ হিসেবে গণ্য (safe investment)।",
+      "ans": 2,
+      "correct_answer": "Industrial shares considered to be a safe investment"
     },
     {
       "id": 17,
       "question": "Report the following in “Indirect speech” He said to me. “How did you do it?”",
-      "options": {
-        "ক": "He enquired of me how I had done it.",
-        "খ": "He said to me if I had done it",
-        "গ": "He said to me that I had done it",
-        "ঘ": "He enquired of me if had done it"
-      },
+      "options": [
+        "He enquired of me how I had done it.",
+        "He said to me if I had done it",
+        "He said to me that I had done it",
+        "He enquired of me if had done it"
+      ],
       "answer": "ক",
-      "explanation": "Interrogative WH-question-এর Indirect রূপ: Subject + enquired of me + WH-word (how) + Subject (I) + Past Perfect (had done) + it। তাই ক সঠিক।"
+      "explanation": "Interrogative WH-question-এর Indirect রূপ: Subject + enquired of me + WH-word (how) + Subject (I) + Past Perfect (had done) + it। তাই ক সঠিক।",
+      "ans": 0,
+      "correct_answer": "He enquired of me how I had done it."
     },
     {
       "id": 18,
       "question": "He said to me. “Do you like music?” the indirect form of this is-",
-      "options": {
-        "ক": "He said if I like music",
-        "খ": "He asked me do I like music",
-        "গ": "He asked to me if like music",
-        "ঘ": "He asked me if I liked music"
-      },
+      "options": [
+        "He said if I like music",
+        "He asked me do I like music",
+        "He asked to me if like music",
+        "He asked me if I liked music"
+      ],
       "answer": "ঘ",
-      "explanation": "Direct speech-এর 'Do you like music?' Indirect-এ রূপান্তরিত হয়ে 'He asked me if I liked music' রূপ নেয়।"
+      "explanation": "Direct speech-এর 'Do you like music?' Indirect-এ রূপান্তরিত হয়ে 'He asked me if I liked music' রূপ নেয়।",
+      "ans": 3,
+      "correct_answer": "He asked me if I liked music"
     },
     {
       "id": 19,
       "question": "“Neglect” শব্দটির Synonym হচ্ছে-",
-      "options": {
-        "ক": "Care",
-        "খ": "Carelessness",
-        "গ": "Attention",
-        "ঘ": "Watchfullness"
-      },
+      "options": [
+        "Care",
+        "Carelessness",
+        "Attention",
+        "Watchfullness"
+      ],
       "answer": "খ",
-      "explanation": "'Neglect' শব্দের অর্থ অবহেলা করা বা অযত্ন। এর যথাযথ সমার্থক শব্দ হলো 'Carelessness' (অসাবধানতা বা অবহেলা)।"
+      "explanation": "'Neglect' শব্দের অর্থ অবহেলা করা বা অযত্ন। এর যথাযথ সমার্থক শব্দ হলো 'Carelessness' (অসাবধানতা বা অবহেলা)।",
+      "ans": 1,
+      "correct_answer": "Carelessness"
     },
     {
       "id": 20,
       "question": "“Nude” শব্দটির Antonym হচ্ছে-",
-      "options": {
-        "ক": "Nacked",
-        "খ": "Open",
-        "গ": "Concealed",
-        "ঘ": "Exposed"
-      },
+      "options": [
+        "Nacked",
+        "Open",
+        "Concealed",
+        "Exposed"
+      ],
       "answer": "গ",
-      "explanation": "'Nude' শব্দের অর্থ নগ্ন বা উন্মুক্ত (naked/exposed)। এর বিপরীত (antonym) শব্দ হলো 'Concealed' (আবৃত বা লুক্কায়িত)।"
+      "explanation": "'Nude' শব্দের অর্থ নগ্ন বা উন্মুক্ত (naked/exposed)। এর বিপরীত (antonym) শব্দ হলো 'Concealed' (আবৃত বা লুক্কায়িত)।",
+      "ans": 2,
+      "correct_answer": "Concealed"
     }
   ]
 }

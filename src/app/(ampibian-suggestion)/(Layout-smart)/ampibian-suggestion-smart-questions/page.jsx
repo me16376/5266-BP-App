@@ -381,20 +381,60 @@ function AmpibianSmartQuestionsContent() {
           if (!isMounted) return;
           if (res && res.questions && res.questions.length > 0) {
             setExamMeta(res.exam);
+            const bnMap = {
+              'ক': 0, 'খ': 1, 'গ': 2, 'ঘ': 3, 'ঙ': 4,
+              'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4,
+              'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4,
+              '(ক)': 0, '(খ)': 1, '(গ)': 2, '(ঘ)': 3,
+              '(A)': 0, '(B)': 1, '(C)': 2, '(D)': 3,
+              '(a)': 0, '(b)': 1, '(c)': 2, '(d)': 3,
+              'ক.': 0, 'খ.': 1, 'গ.': 2, 'ঘ.': 3,
+              'A.': 0, 'B.': 1, 'C.': 2, 'D.': 3
+            };
+
             const normalized = res.questions.map((item, idx) => {
               const qText = item.question || item.q || item.question_text || `প্রশ্ন ${idx + 1}`;
-              const opts = Array.isArray(item.options) ? item.options : [];
-              let ansIdx = -1;
+              let opts = [];
+              if (Array.isArray(item.options)) {
+                opts = item.options.map((o) => String(o).trim());
+              } else if (item.options && typeof item.options === 'object') {
+                opts = ['ক', 'খ', 'গ', 'ঘ'].map((k) => String(item.options[k] || '').trim()).filter(Boolean);
+              }
 
-              if (typeof item.ans === 'number') {
-                ansIdx = item.ans;
-              } else if (item.correct_answer !== undefined) {
-                const ansStr = String(item.correct_answer).trim();
-                ansIdx = opts.findIndex((opt) => String(opt).trim() === ansStr);
-                if (ansIdx === -1 && !isNaN(ansStr) && ansStr !== '') {
-                  ansIdx = parseInt(ansStr, 10);
+              let ansIdx = (typeof item.ans === 'number' && item.ans >= 0 && item.ans < opts.length) ? item.ans : -1;
+
+              if (ansIdx < 0 || ansIdx >= opts.length) {
+                const candidates = [item.correct_answer, item.correctAnswer, item.answer];
+                for (const cand of candidates) {
+                  if (cand !== null && cand !== undefined) {
+                    const str = String(cand).trim();
+                    if (!str) continue;
+                    const found = opts.findIndex((opt) => String(opt).trim() === str);
+                    if (found !== -1) {
+                      ansIdx = found;
+                      break;
+                    }
+                    if (bnMap[str] !== undefined && bnMap[str] < opts.length) {
+                      ansIdx = bnMap[str];
+                      break;
+                    }
+                    const m = str.match(/^\(?([কখগঘabcdABCD])\)?[\.\:\-\)]?\s*(.*)$/);
+                    if (m) {
+                      const letter = m[1];
+                      const rest = m[2].trim();
+                      if (rest && opts.findIndex((opt) => String(opt).trim() === rest) !== -1) {
+                        ansIdx = opts.findIndex((opt) => String(opt).trim() === rest);
+                        break;
+                      } else if (bnMap[letter] !== undefined && bnMap[letter] < opts.length) {
+                        ansIdx = bnMap[letter];
+                        break;
+                      }
+                    }
+                  }
                 }
               }
+
+              if (ansIdx < 0 || ansIdx >= opts.length) ansIdx = 0;
 
               let expText = item.explanation || '';
               if (item.hints) {
@@ -406,7 +446,7 @@ function AmpibianSmartQuestionsContent() {
                 _id: item.id || `q_${idx}`,
                 q: qText,
                 options: opts,
-                ans: ansIdx >= 0 ? ansIdx : 0,
+                ans: ansIdx,
                 explanation: expText,
                 subject: item.subject || '',
                 exam: cleanExamTitle(item.exam) || cleanExamTitle(res.exam?.title) || ''

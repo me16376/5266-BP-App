@@ -9,7 +9,9 @@
       "√2"
     ],
     "answer": "ক",
-    "explanation": "সমাধানঃ\nlog_x 342 = 4\n⇒ x⁴ = 342\n⇒ x⁴ = (3√2)⁴\n∴ x = 3√2"
+    "explanation": "সমাধানঃ\nlog_x 342 = 4\n⇒ x⁴ = 342\n⇒ x⁴ = (3√2)⁴\n∴ x = 3√2",
+    "ans": 0,
+    "correct_answer": "3√2"
   },
   {
     "id": 2,
@@ -28,7 +30,9 @@
       "1"
     ],
     "answer": "ক",
-    "explanation": "log₁₀x = -2\n⇒ x = 10⁻²\n∴ x = 0.01."
+    "explanation": "log₁₀x = -2\n⇒ x = 10⁻²\n∴ x = 0.01.",
+    "ans": 0,
+    "correct_answer": "0.01"
   },
   {
     "id": 4,
@@ -40,7 +44,9 @@
       "5.7"
     ],
     "answer": "গ",
-    "explanation": "দেওয়া আছে, x = 10^0.56, y = 10^0.7\nসুতরাং, x^z = y²\n⇒ (10^0.56)^z = (10^0.7)²\n⇒ 10^(0.56xz) = 10^(0.7x2)\n⇒ 0.56z = 1.4\n∴ z = 2.5 (Ans.)"
+    "explanation": "দেওয়া আছে, x = 10^0.56, y = 10^0.7\nসুতরাং, x^z = y²\n⇒ (10^0.56)^z = (10^0.7)²\n⇒ 10^(0.56xz) = 10^(0.7x2)\n⇒ 0.56z = 1.4\n∴ z = 2.5 (Ans.)",
+    "ans": 2,
+    "correct_answer": "2.5"
   },
   {
     "id": 5,
@@ -52,7 +58,9 @@
       "1"
     ],
     "answer": "ঘ",
-    "explanation": "প্রদত্ত রাশি, log₂(x + 3) = 2\n⇒ x + 3 = 2² [log_a x = y ⇒ a^y = x]\n⇒ x = 4 - 3\n∴ x = 1 (Ans.)"
+    "explanation": "প্রদত্ত রাশি, log₂(x + 3) = 2\n⇒ x + 3 = 2² [log_a x = y ⇒ a^y = x]\n⇒ x = 4 - 3\n∴ x = 1 (Ans.)",
+    "ans": 3,
+    "correct_answer": "1"
   },
   {
     "id": 6,
@@ -64,7 +72,9 @@
       "0"
     ],
     "answer": "ক",
-    "explanation": "log₅(5√5) = log₅(5 × 5^(1/2)) = log₅ 5^(3/2) = 3/2 (Ans.)"
+    "explanation": "log₅(5√5) = log₅(5 × 5^(1/2)) = log₅ 5^(3/2) = 3/2 (Ans.)",
+    "ans": 0,
+    "correct_answer": "3/2"
   },
   {
     "id": 7,
@@ -76,7 +86,9 @@
       "4"
     ],
     "answer": "গ",
-    "explanation": "log₂4 + log₂8 - log₄16 = log₂2² + log₂2³ - log₄4² = 2 + 3 - 2 = 3 (Ans.)"
+    "explanation": "log₂4 + log₂8 - log₄16 = log₂2² + log₂2³ - log₄4² = 2 + 3 - 2 = 3 (Ans.)",
+    "ans": 2,
+    "correct_answer": "3"
   },
   {
     "id": 8,
@@ -100,7 +112,9 @@
       "2²⁸ is ten times than (2³⁰ - 2²⁹)/2."
     ],
     "answer": "গ",
-    "explanation": "(2²⁹(2 - 1))/2 = 2²⁸."
+    "explanation": "(2²⁹(2 - 1))/2 = 2²⁸.",
+    "ans": 2,
+    "correct_answer": "These two values are same."
   },
   {
     "id": 10,
@@ -112,7 +126,9 @@
       "not determined"
     ],
     "answer": "ক",
-    "explanation": "Log₁₀ 1000 [?]₂ sin30° 200% = 3\n= 3 [?]₂ 1/2 . 200% = 3\n[?]₂ . 1 = 3 [1]₂ . 1 = 3 . 1 . 1 = 3\nAns: 1 = [001]₂"
+    "explanation": "Log₁₀ 1000 [?]₂ sin30° 200% = 3\n= 3 [?]₂ 1/2 . 200% = 3\n[?]₂ . 1 = 3 [1]₂ . 1 = 3 . 1 . 1 = 3\nAns: 1 = [001]₂",
+    "ans": 0,
+    "correct_answer": "[001]₂"
   },
   {
     "id": 11,
@@ -124,7 +140,9 @@
       "8/17"
     ],
     "answer": "ক",
-    "explanation": "log_x(16/9) = -2\n⇒ x⁻² = 16/9\n⇒ x² = 9/16\n∴ x = 3/4"
+    "explanation": "log_x(16/9) = -2\n⇒ x⁻² = 16/9\n⇒ x² = 9/16\n∴ x = 3/4",
+    "ans": 0,
+    "correct_answer": "3/4"
   },
   {
     "id": 12,
@@ -136,7 +154,9 @@
       "5"
     ],
     "answer": "ক",
-    "explanation": "2⁶ˣ/2⁶ + 2⁶ = 64 1/64\n⇒ 2⁶ˣ/2⁶ = 4097/64 - 2⁶\n⇒ 2⁶ˣ = 1/64 × 2⁶\n⇒ 2⁶ˣ = 1\n⇒ 2⁶ˣ = 2⁰\n⇒ 6x = 0 ∴ x = 0 (Ans.)"
+    "explanation": "2⁶ˣ/2⁶ + 2⁶ = 64 1/64\n⇒ 2⁶ˣ/2⁶ = 4097/64 - 2⁶\n⇒ 2⁶ˣ = 1/64 × 2⁶\n⇒ 2⁶ˣ = 1\n⇒ 2⁶ˣ = 2⁰\n⇒ 6x = 0 ∴ x = 0 (Ans.)",
+    "ans": 0,
+    "correct_answer": "0"
   },
   {
     "id": 13,
@@ -148,7 +168,9 @@
       "2log2"
     ],
     "answer": "গ",
-    "explanation": "সাধারণ অন্তর = log4 - log2 [দ্বিতীয় পদ - ১ম পদ]\n= log(4/2) = log2 (Ans.)"
+    "explanation": "সাধারণ অন্তর = log4 - log2 [দ্বিতীয় পদ - ১ম পদ]\n= log(4/2) = log2 (Ans.)",
+    "ans": 2,
+    "correct_answer": "log2"
   },
   {
     "id": 14,
@@ -160,7 +182,9 @@
       "abc"
     ],
     "answer": "ক",
-    "explanation": "Given, a = bᵖ, b = c^q, c = aʳ\n∴ a = bᵖ\n⇒ a = (c^q)ᵖ ; ⇒ a = c^(pq) ; ⇒ a = (aʳ)^(pq) ; ⇒ a = (a)^(pqr) ⇒ pqr = 1 (Ans.)"
+    "explanation": "Given, a = bᵖ, b = c^q, c = aʳ\n∴ a = bᵖ\n⇒ a = (c^q)ᵖ ; ⇒ a = c^(pq) ; ⇒ a = (aʳ)^(pq) ; ⇒ a = (a)^(pqr) ⇒ pqr = 1 (Ans.)",
+    "ans": 0,
+    "correct_answer": "1"
   },
   {
     "id": 15,
@@ -172,7 +196,9 @@
       "2"
     ],
     "answer": "খ",
-    "explanation": "Given, log₄ x = 12\n⇒ x = 4¹²\nthen, log₂ (4¹²/4) = log₂ 4¹¹ = log₂ 4¹¹ = log₂ 2²² = 22 (Ans.)"
+    "explanation": "Given, log₄ x = 12\n⇒ x = 4¹²\nthen, log₂ (4¹²/4) = log₂ 4¹¹ = log₂ 4¹¹ = log₂ 2²² = 22 (Ans.)",
+    "ans": 1,
+    "correct_answer": "22"
   },
   {
     "id": 16,
@@ -184,7 +210,9 @@
       "1"
     ],
     "answer": "গ",
-    "explanation": "log_x (1/16) = -2\n⇒ x⁻² = 1/16\n⇒ x⁻² = 4⁻² ∴ x = 4 (Ans.)"
+    "explanation": "log_x (1/16) = -2\n⇒ x⁻² = 1/16\n⇒ x⁻² = 4⁻² ∴ x = 4 (Ans.)",
+    "ans": 2,
+    "correct_answer": "4"
   },
   {
     "id": 17,
@@ -196,7 +224,9 @@
       "4"
     ],
     "answer": "গ",
-    "explanation": "Log_x 81 = 4 ; ⇒ x⁴ = 81 ; ⇒ x⁴ = 3⁴ ; ⇒ x = 3 (Ans.)"
+    "explanation": "Log_x 81 = 4 ; ⇒ x⁴ = 81 ; ⇒ x⁴ = 3⁴ ; ⇒ x = 3 (Ans.)",
+    "ans": 2,
+    "correct_answer": "3"
   },
   {
     "id": 18,
@@ -208,7 +238,9 @@
       "2¹⁸⁰"
     ],
     "answer": "খ",
-    "explanation": "2³⁰ + 2³⁰ + 2³⁰ + 2³⁰ = 2³⁰(1 + 1 + 1 + 1) = 4 . 2³⁰ = 2² . 2³⁰ = 2³² (Ans.)"
+    "explanation": "2³⁰ + 2³⁰ + 2³⁰ + 2³⁰ = 2³⁰(1 + 1 + 1 + 1) = 4 . 2³⁰ = 2² . 2³⁰ = 2³² (Ans.)",
+    "ans": 1,
+    "correct_answer": "2³²"
   },
   {
     "id": 19,
@@ -220,7 +252,9 @@
       "1"
     ],
     "answer": "খ",
-    "explanation": "দেওয়া আছে, 3^(x+2) = 243 ⇒ 3^(x+2) = 3⁵ ⇒ x + 2 = 5 ∴ x = 3\n3^(x-2) = 3^(3-2) = 3¹ = 3 (Ans.)"
+    "explanation": "দেওয়া আছে, 3^(x+2) = 243 ⇒ 3^(x+2) = 3⁵ ⇒ x + 2 = 5 ∴ x = 3\n3^(x-2) = 3^(3-2) = 3¹ = 3 (Ans.)",
+    "ans": 1,
+    "correct_answer": "3"
   },
   {
     "id": 20,
@@ -232,7 +266,9 @@
       "x²⁰ = y¹⁵"
     ],
     "answer": "ঘ",
-    "explanation": "x^(1/3) = y^(1/4) ⇒ LCM of 3, 4 = 12\n∴ (x^(1/3))¹² = (y^(1/4))¹² ⇒ x⁴ = y³\nTake power '5' on both side, ⇒ (x⁴)⁵ = (y³)⁵ ; ⇒ x²⁰ = y¹⁵ (Ans.)"
+    "explanation": "x^(1/3) = y^(1/4) ⇒ LCM of 3, 4 = 12\n∴ (x^(1/3))¹² = (y^(1/4))¹² ⇒ x⁴ = y³\nTake power '5' on both side, ⇒ (x⁴)⁵ = (y³)⁵ ; ⇒ x²⁰ = y¹⁵ (Ans.)",
+    "ans": 3,
+    "correct_answer": "x²⁰ = y¹⁵"
   },
   {
     "id": 21,
@@ -244,7 +280,9 @@
       "4"
     ],
     "answer": "গ",
-    "explanation": "(a/b)^(x-3) = (b/a)^(x-3) ⇒ (a/b)^(x-3) = (a/b)^(-(x-3)) ; ⇒ x - 3 = -x + 3\n∴ x = 3 (Ans.)"
+    "explanation": "(a/b)^(x-3) = (b/a)^(x-3) ⇒ (a/b)^(x-3) = (a/b)^(-(x-3)) ; ⇒ x - 3 = -x + 3\n∴ x = 3 (Ans.)",
+    "ans": 2,
+    "correct_answer": "3"
   },
   {
     "id": 22,
@@ -256,7 +294,9 @@
       "4"
     ],
     "answer": "ঘ",
-    "explanation": "5^(x-y) = 125\n⇒ 5^(x-y) = 5³\n⇒ x - y = 3 .....(i)\n\nএবং\n5^(x+y) = 3125\n⇒ 5^(x+y) = 5⁵\n⇒ x + y = 5 .....(ii)\n\nSolve (i) & (ii)\nx = 4 (Ans.)"
+    "explanation": "5^(x-y) = 125\n⇒ 5^(x-y) = 5³\n⇒ x - y = 3 .....(i)\n\nএবং\n5^(x+y) = 3125\n⇒ 5^(x+y) = 5⁵\n⇒ x + y = 5 .....(ii)\n\nSolve (i) & (ii)\nx = 4 (Ans.)",
+    "ans": 3,
+    "correct_answer": "4"
   },
   {
     "id": 23,
@@ -268,7 +308,9 @@
       "2"
     ],
     "answer": "ঘ",
-    "explanation": "Given, log_(2√5) 20 = x [log_a x = b হলে a^b = x লিখা যায়।]\n⇒ 20 = (2√5)^x ⇒ (2√5)^x = 4 × 5 = 2² × (√5)² = (2√5)²\n⇒ x = 2 (Ans.)"
+    "explanation": "Given, log_(2√5) 20 = x [log_a x = b হলে a^b = x লিখা যায়।]\n⇒ 20 = (2√5)^x ⇒ (2√5)^x = 4 × 5 = 2² × (√5)² = (2√5)²\n⇒ x = 2 (Ans.)",
+    "ans": 3,
+    "correct_answer": "2"
   },
   {
     "id": 24,
@@ -280,7 +322,9 @@
       "1/2"
     ],
     "answer": "গ",
-    "explanation": "log₅(∛5 . √5) = log₅(5^(1/3) . 5^(1/2)) = log₅ 5^(1/3 + 1/2) = log₅ 5^(5/6) = 5/6 (Ans.)"
+    "explanation": "log₅(∛5 . √5) = log₅(5^(1/3) . 5^(1/2)) = log₅ 5^(1/3 + 1/2) = log₅ 5^(5/6) = 5/6 (Ans.)",
+    "ans": 2,
+    "correct_answer": "5/6"
   },
   {
     "id": 25,
@@ -292,7 +336,9 @@
       "7"
     ],
     "answer": "খ",
-    "explanation": "log₁₀5 + log₁₀(5x + 1) = log₁₀(x + 5) + 1\n⇒ log₁₀5 + log₁₀(5x + 1) = log₁₀(x + 5) + log₁₀10\n⇒ log₁₀(5 × (5x + 1)) = log₁₀{(x + 5) × 10}\n⇒ 5 × (5x + 1) = (x + 5) . 10\n⇒ x = 3 (Ans.)"
+    "explanation": "log₁₀5 + log₁₀(5x + 1) = log₁₀(x + 5) + 1\n⇒ log₁₀5 + log₁₀(5x + 1) = log₁₀(x + 5) + log₁₀10\n⇒ log₁₀(5 × (5x + 1)) = log₁₀{(x + 5) × 10}\n⇒ 5 × (5x + 1) = (x + 5) . 10\n⇒ x = 3 (Ans.)",
+    "ans": 1,
+    "correct_answer": "3"
   },
   {
     "id": 26,
@@ -304,7 +350,9 @@
       "7"
     ],
     "answer": "খ",
-    "explanation": "log₁₀(1/100) = log₁₀(1/10²) = log₁₀ 10⁻² = -2 log₁₀ 10 = -2 (Ans.)"
+    "explanation": "log₁₀(1/100) = log₁₀(1/10²) = log₁₀ 10⁻² = -2 log₁₀ 10 = -2 (Ans.)",
+    "ans": 1,
+    "correct_answer": "-2"
   },
   {
     "id": 27,
@@ -316,7 +364,9 @@
       "4"
     ],
     "answer": "ঘ",
-    "explanation": "log_x(1/8) = -3/2 ⇒ x^(-3/2) = 1/8\n⇒ (x^(-3/2))^(-2/3) = (1/8)^(-2/3) [উভয়য়ের উপর -2/3 power করে]\n⇒ x = 4 (Ans.) [Using Calculator]"
+    "explanation": "log_x(1/8) = -3/2 ⇒ x^(-3/2) = 1/8\n⇒ (x^(-3/2))^(-2/3) = (1/8)^(-2/3) [উভয়য়ের উপর -2/3 power করে]\n⇒ x = 4 (Ans.) [Using Calculator]",
+    "ans": 3,
+    "correct_answer": "4"
   },
   {
     "id": 28,
@@ -328,7 +378,9 @@
       "28"
     ],
     "answer": "ক",
-    "explanation": "log(10⁴⁸/10⁴⁶) = log₁₀ 10^(48-46) = log₁₀ 10² = 2 log₁₀ 10 = 2 (Ans.)"
+    "explanation": "log(10⁴⁸/10⁴⁶) = log₁₀ 10^(48-46) = log₁₀ 10² = 2 log₁₀ 10 = 2 (Ans.)",
+    "ans": 0,
+    "correct_answer": "2"
   },
   {
     "id": 29,
@@ -340,7 +392,9 @@
       "-2"
     ],
     "answer": "ঘ",
-    "explanation": "log₃(1/9) = log₃(1/3²) = log₃ 3⁻² = -2 log₃ 3 = -2 (Ans.)"
+    "explanation": "log₃(1/9) = log₃(1/3²) = log₃ 3⁻² = -2 log₃ 3 = -2 (Ans.)",
+    "ans": 3,
+    "correct_answer": "-2"
   },
   {
     "id": 30,
@@ -352,7 +406,9 @@
       "243"
     ],
     "answer": "ঘ",
-    "explanation": "log_y ∛3 = 1/15 ⇒ y^(1/15) = ∛3 = 3^(1/3) ⇒ (y^(1/15))¹⁵ = (3^(1/3))¹⁵ ⇒ y = 243 (Ans.)"
+    "explanation": "log_y ∛3 = 1/15 ⇒ y^(1/15) = ∛3 = 3^(1/3) ⇒ (y^(1/15))¹⁵ = (3^(1/3))¹⁵ ⇒ y = 243 (Ans.)",
+    "ans": 3,
+    "correct_answer": "243"
   },
   {
     "id": 31,
@@ -364,7 +420,9 @@
       "√3"
     ],
     "answer": "ক",
-    "explanation": "Given, log_x 3√3 = 15 ⇒ x¹⁵ = 3√3 ⇒ (x¹⁵)^(1/15) = (3√3)^(1/15) ⇒ x = 1.116"
+    "explanation": "Given, log_x 3√3 = 15 ⇒ x¹⁵ = 3√3 ⇒ (x¹⁵)^(1/15) = (3√3)^(1/15) ⇒ x = 1.116",
+    "ans": 0,
+    "correct_answer": "1.116"
   },
   {
     "id": 32,
@@ -376,7 +434,9 @@
       "3"
     ],
     "answer": "খ",
-    "explanation": "দেওয়া আছে, 8^(2x-4) = 16^x ; ⇒ (2³)^(2x-4) = 2^(4x) ; ⇒ (2)^(6x-12) = 2^(4x)\n⇒ 6x - 12 = 4x ; ⇒ 6x - 4x = 12 ∴ x = 12/2 = 6 (Ans.)"
+    "explanation": "দেওয়া আছে, 8^(2x-4) = 16^x ; ⇒ (2³)^(2x-4) = 2^(4x) ; ⇒ (2)^(6x-12) = 2^(4x)\n⇒ 6x - 12 = 4x ; ⇒ 6x - 4x = 12 ∴ x = 12/2 = 6 (Ans.)",
+    "ans": 1,
+    "correct_answer": "6"
   },
   {
     "id": 33,
@@ -400,7 +460,9 @@
       "1, 2"
     ],
     "answer": "গ",
-    "explanation": "দেওয়া আছে, 2^x + 2^(1-x) = 3 ; ⇒ 2^x + 2¹ . 2⁻ˣ = 3\n⇒ 2^x + 2 . 1/(2^x) = 3 ; ⇒ 2ˣ . 2ˣ + 2 = 3 . 2ˣ\n⇒ 2ˣ . 2ˣ - 2ˣ . 2 - 2ˣ + 2 = 0 ; ⇒ 2ˣ(2ˣ - 2) - 1(2ˣ - 2) = 0\n⇒ (2ˣ - 2)(2ˣ - 1) = 0\n∴ 2ˣ - 2 = 0 ⇒ 2ˣ = 2¹ ∴ x = 1\nAgain, 2ˣ - 1 = 0 ⇒ 2ˣ = 1 ⇒ 2ˣ = 2⁰ ∴ x = 0 [যেহেতু, a⁰ = 1]\n∴ x = 0, 1 (Ans.)"
+    "explanation": "দেওয়া আছে, 2^x + 2^(1-x) = 3 ; ⇒ 2^x + 2¹ . 2⁻ˣ = 3\n⇒ 2^x + 2 . 1/(2^x) = 3 ; ⇒ 2ˣ . 2ˣ + 2 = 3 . 2ˣ\n⇒ 2ˣ . 2ˣ - 2ˣ . 2 - 2ˣ + 2 = 0 ; ⇒ 2ˣ(2ˣ - 2) - 1(2ˣ - 2) = 0\n⇒ (2ˣ - 2)(2ˣ - 1) = 0\n∴ 2ˣ - 2 = 0 ⇒ 2ˣ = 2¹ ∴ x = 1\nAgain, 2ˣ - 1 = 0 ⇒ 2ˣ = 1 ⇒ 2ˣ = 2⁰ ∴ x = 0 [যেহেতু, a⁰ = 1]\n∴ x = 0, 1 (Ans.)",
+    "ans": 2,
+    "correct_answer": "0, 1"
   },
   {
     "id": 35,
@@ -412,7 +474,9 @@
       "256/81"
     ],
     "answer": "ঘ",
-    "explanation": "log_x(9/16) = -1/2 ⇒ x^(-1/2) = 9/16 ⇒ x^(1/2) = 16/9 ⇒ x = (16/9)² = 256/81 (Ans.)"
+    "explanation": "log_x(9/16) = -1/2 ⇒ x^(-1/2) = 9/16 ⇒ x^(1/2) = 16/9 ⇒ x = (16/9)² = 256/81 (Ans.)",
+    "ans": 3,
+    "correct_answer": "256/81"
   },
   {
     "id": 36,
@@ -424,7 +488,9 @@
       "সবকয়টি"
     ],
     "answer": "গ",
-    "explanation": "যেহেতু (2n+1) equation টিতে (+1) আছে, তাই n এর মান যাই হোক না কেন তার সাথে জোড় সংখ্যা ২ গুণ থাকার কারণে, সংখ্যাটি জোড় হবে এবং, জোড় সংখ্যার সাথে ১ যোগ করলে বিজোড় সংখ্যা পাওয়া যাবে।\n∴ (2n+1) সবসময় বিজোড় সংখ্যা।"
+    "explanation": "যেহেতু (2n+1) equation টিতে (+1) আছে, তাই n এর মান যাই হোক না কেন তার সাথে জোড় সংখ্যা ২ গুণ থাকার কারণে, সংখ্যাটি জোড় হবে এবং, জোড় সংখ্যার সাথে ১ যোগ করলে বিজোড় সংখ্যা পাওয়া যাবে।\n∴ (2n+1) সবসময় বিজোড় সংখ্যা।",
+    "ans": 2,
+    "correct_answer": "2n + 1"
   },
   {
     "id": 37,
@@ -436,7 +502,9 @@
       "-2"
     ],
     "answer": "ক",
-    "explanation": "দেওয়া আছে, 9^x = (81)^y ; ⇒ 9^x = (9²)^y ; ⇒ 9^x = 9^(2y) ; ⇒ x = 2y ⇒ x/y = 2 (Ans.)"
+    "explanation": "দেওয়া আছে, 9^x = (81)^y ; ⇒ 9^x = (9²)^y ; ⇒ 9^x = 9^(2y) ; ⇒ x = 2y ⇒ x/y = 2 (Ans.)",
+    "ans": 0,
+    "correct_answer": "2"
   },
   {
     "id": 38,
@@ -448,7 +516,9 @@
       "6"
     ],
     "answer": "খ",
-    "explanation": "দেওয়া আছে, ∛x = 4 ; ⇒ (x)^(1/3) = 4 ; ⇒ ((x)^(1/3))³ = 4³ ; ⇒ x = 64 ∴ √x = 8 (Ans.)"
+    "explanation": "দেওয়া আছে, ∛x = 4 ; ⇒ (x)^(1/3) = 4 ; ⇒ ((x)^(1/3))³ = 4³ ; ⇒ x = 64 ∴ √x = 8 (Ans.)",
+    "ans": 1,
+    "correct_answer": "8"
   },
   {
     "id": 39,
@@ -460,7 +530,9 @@
       "6"
     ],
     "answer": "গ",
-    "explanation": "দেওয়া আছে, (64)^(1/3) = (8²)^(1/3) = (2³)^(2/3) = (2)^(2×3/3) = 2² = 4 (Ans.)"
+    "explanation": "দেওয়া আছে, (64)^(1/3) = (8²)^(1/3) = (2³)^(2/3) = (2)^(2×3/3) = 2² = 4 (Ans.)",
+    "ans": 2,
+    "correct_answer": "4"
   },
   {
     "id": 40,
@@ -472,7 +544,9 @@
       "6"
     ],
     "answer": "ঘ",
-    "explanation": "1/2 × 2^(x-3) + 1 = 5\n⇒ 1/2 × 2^(x-3) = 4\n⇒ 2^(x-3) = 8\n⇒ 2^(x-3) = 2³\n⇒ x - 3 = 3 ; ∴ x = 6 (Ans.)"
+    "explanation": "1/2 × 2^(x-3) + 1 = 5\n⇒ 1/2 × 2^(x-3) = 4\n⇒ 2^(x-3) = 8\n⇒ 2^(x-3) = 2³\n⇒ x - 3 = 3 ; ∴ x = 6 (Ans.)",
+    "ans": 3,
+    "correct_answer": "6"
   },
   {
     "id": 41,
@@ -484,6 +558,8 @@
       "√8"
     ],
     "answer": "ক",
-    "explanation": "log_√8 x = 3 1/3\n⇒ log_√8 x = 10/3\n⇒ x = (√8)^(10/3) = (8^(1/2))^(10/3) = (8)^(5/3) = (2³)^(5/3) = 2⁵ = 32 (Ans.)"
+    "explanation": "log_√8 x = 3 1/3\n⇒ log_√8 x = 10/3\n⇒ x = (√8)^(10/3) = (8^(1/2))^(10/3) = (8)^(5/3) = (2³)^(5/3) = 2⁵ = 32 (Ans.)",
+    "ans": 0,
+    "correct_answer": "32"
   }
 ]

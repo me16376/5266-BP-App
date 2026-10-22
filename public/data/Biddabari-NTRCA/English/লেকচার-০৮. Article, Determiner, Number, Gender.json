@@ -20,7 +20,9 @@
         "that"
       ],
       "answer": "খ",
-      "explanation": "শব্দটির শুরুতে Vowel 'u' থাকা সত্ত্বেও এর উচ্চারণ যদি 'ইউ' (You)-এর মতো হয়, তবে তার পূর্বে 'an' না বসে 'a' বসে (a university student)।"
+      "explanation": "শব্দটির শুরুতে Vowel 'u' থাকা সত্ত্বেও এর উচ্চারণ যদি 'ইউ' (You)-এর মতো হয়, তবে তার পূর্বে 'an' না বসে 'a' বসে (a university student)।",
+      "ans": 1,
+      "correct_answer": "a"
     },
     {
       "id": 2,
@@ -33,7 +35,9 @@
         "no article"
       ],
       "answer": "খ",
-      "explanation": "সংক্ষিপ্ত রূপ (Abbreviation)-এর প্রথম বর্ণ উচ্চারণের শুরুতে যদি Vowel sound আসে (F = এ+ফ), তবে তার পূর্বে 'an' বসে (an FCPS / an FRCS)।"
+      "explanation": "সংক্ষিপ্ত রূপ (Abbreviation)-এর প্রথম বর্ণ উচ্চারণের শুরুতে যদি Vowel sound আসে (F = এ+ফ), তবে তার পূর্বে 'an' বসে (an FCPS / an FRCS)।",
+      "ans": 1,
+      "correct_answer": "an"
     },
     {
       "id": 3,
@@ -46,7 +50,9 @@
         "Meaning"
       ],
       "answer": "গ",
-      "explanation": "Article-এর ব্যবহার মূলত বানানের ওপর নয়, বরং শব্দের উচ্চারণ বা ধ্বনির (Pronunciation / Sound) ওপর ভিত্তি করে নির্ধারিত হয়।"
+      "explanation": "Article-এর ব্যবহার মূলত বানানের ওপর নয়, বরং শব্দের উচ্চারণ বা ধ্বনির (Pronunciation / Sound) ওপর ভিত্তি করে নির্ধারিত হয়।",
+      "ans": 2,
+      "correct_answer": "Pronunciation"
     },
     {
       "id": 4,
@@ -59,7 +65,9 @@
         "no article"
       ],
       "answer": "ঘ",
-      "explanation": "খাবারের বেলার সাধারণ নামের পূর্বে (breakfast, lunch, dinner) সাধারণত কোনো Article বসে না।"
+      "explanation": "খাবারের বেলার সাধারণ নামের পূর্বে (breakfast, lunch, dinner) সাধারণত কোনো Article বসে না।",
+      "ans": 3,
+      "correct_answer": "no article"
     },
     {
       "id": 5,
@@ -71,8 +79,10 @@
         "no article",
         "an"
       ],
-      "answer": "ক",
-      "explanation": "সাধারণত Uncountable/Material Noun-এর পূর্বে Article বসে না, কিন্তু 'the + noun + of' কাঠামোতে কোনো নির্দিষ্ট স্থানের উপাদান বোঝাতে Definite Article 'the' বসে (the water of this lake)।"
+      "answer": "গ",
+      "explanation": "একক কোনো দ্বীপের নামের পূর্বে কোনো Article বসে না (দ্বীপপুঞ্জ হলে 'The' বসে): \"Sandwip is a big island.\"।",
+      "ans": 2,
+      "correct_answer": "no article"
     },
     {
       "id": 6,
@@ -85,7 +95,9 @@
         "no article"
       ],
       "answer": "ক",
-      "explanation": "Abstract Noun-এর পূর্বে Article বসে না, তবে নির্দিষ্ট কোনো ব্যক্তির গুণ বোঝাতে 'the + abstract noun + of' কাঠামো অনুযায়ী 'the' বসে (the honesty of Rahim)।"
+      "explanation": "Abstract Noun-এর পূর্বে Article বসে না, তবে নির্দিষ্ট কোনো ব্যক্তির গুণ বোঝাতে 'the + abstract noun + of' কাঠামো অনুযায়ী 'the' বসে (the honesty of Rahim)।",
+      "ans": 0,
+      "correct_answer": "the"
     },
     {
       "id": 7,
@@ -98,7 +110,9 @@
         "noun of multitude"
       ],
       "answer": "গ",
-      "explanation": "সাধারণ অর্থে Material Noun বা পদার্থবাচক বিশেষ্যের পূর্বে কোনো Article বসে না (যেমন: Gold is precious)।"
+      "explanation": "সাধারণ অর্থে Material Noun বা পদার্থবাচক বিশেষ্যের পূর্বে কোনো Article বসে না (যেমন: Gold is precious)।",
+      "ans": 2,
+      "correct_answer": "material noun"
     },
     {
       "id": 8,
@@ -111,7 +125,9 @@
         "on"
       ],
       "answer": "খ",
-      "explanation": "সশস্ত্র বাহিনী বা পেশাগত সংস্থার পূর্বে Definite Article 'the' বসে (the army, the navy, the police)।"
+      "explanation": "সশস্ত্র বাহিনী বা পেশাগত সংস্থার পূর্বে Definite Article 'the' বসে (the army, the navy, the police)।",
+      "ans": 1,
+      "correct_answer": "the"
     },
     {
       "id": 9,
@@ -124,7 +140,9 @@
         "The"
       ],
       "answer": "ঘ",
-      "explanation": "মহাবিশ্বে অদ্বিতীয় বা একমাত্র প্রাকৃতিক বস্তু (যেমন: the earth, the sun, the moon)-এর পূর্বে Definite Article 'the' বসে।"
+      "explanation": "মহাবিশ্বে অদ্বিতীয় বা একমাত্র প্রাকৃতিক বস্তু (যেমন: the earth, the sun, the moon)-এর পূর্বে Definite Article 'the' বসে।",
+      "ans": 3,
+      "correct_answer": "The"
     },
     {
       "id": 10,
@@ -137,7 +155,9 @@
         "No article"
       ],
       "answer": "খ",
-      "explanation": "নির্দিষ্ট কোনো ব্যক্তিকে নির্দেশ করতে Noun-এর পূর্বে Definite Article 'The' বসে (The man standing...)।"
+      "explanation": "নির্দিষ্ট কোনো ব্যক্তিকে নির্দেশ করতে Noun-এর পূর্বে Definite Article 'The' বসে (The man standing...)।",
+      "ans": 1,
+      "correct_answer": "The"
     },
     {
       "id": 11,
@@ -150,7 +170,9 @@
         "no article"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।",
+      "ans": 2,
+      "correct_answer": "the"
     },
     {
       "id": 12,
@@ -163,7 +185,9 @@
         "A"
       ],
       "answer": "খ",
-      "explanation": "কোনো জাতির সমগ্র জনগোষ্ঠী বোঝাতে জাতির নামের পূর্বে Definite Article 'The' বসে (The Germans, The English)।"
+      "explanation": "কোনো জাতির সমগ্র জনগোষ্ঠী বোঝাতে জাতির নামের পূর্বে Definite Article 'The' বসে (The Germans, The English)।",
+      "ans": 1,
+      "correct_answer": "The"
     },
     {
       "id": 13,
@@ -176,7 +200,9 @@
         "to"
       ],
       "answer": "গ",
-      "explanation": "Superlative Degree (largest, best, highest)-এর পূর্বে সর্বদা Definite Article 'the' বসে (the largest river)।"
+      "explanation": "Superlative Degree (largest, best, highest)-এর পূর্বে সর্বদা Definite Article 'the' বসে (the largest river)।",
+      "ans": 2,
+      "correct_answer": "the"
     },
     {
       "id": 14,
@@ -189,7 +215,9 @@
         "the"
       ],
       "answer": "ক",
-      "explanation": "যেকোনো খেলাধুলার নামের পূর্বে (football, cricket, chess) সাধারণত কোনো Article বসে না।"
+      "explanation": "যেকোনো খেলাধুলার নামের পূর্বে (football, cricket, chess) সাধারণত কোনো Article বসে না।",
+      "ans": 0,
+      "correct_answer": "no article"
     },
     {
       "id": 15,
@@ -202,7 +230,9 @@
         "No article"
       ],
       "answer": "ঘ",
-      "explanation": "একক পর্বতশৃঙ্গের নামের পূর্বে (Mount Everest, Mount Blanc) কোনো Article বসে না; তবে পর্বতমালা (Himalayas) হলে 'the' বসে।"
+      "explanation": "একক পর্বতশৃঙ্গের নামের পূর্বে (Mount Everest, Mount Blanc) কোনো Article বসে না; তবে পর্বতমালা (Himalayas) হলে 'the' বসে।",
+      "ans": 3,
+      "correct_answer": "No article"
     },
     {
       "id": 16,
@@ -215,7 +245,9 @@
         "the"
       ],
       "answer": "ক",
-      "explanation": "সাধারণত নির্দিষ্ট রোগ বা ভাইরাসের নামের পূর্বে কোনো Article বসে না।"
+      "explanation": "সাধারণত নির্দিষ্ট রোগ বা ভাইরাসের নামের পূর্বে কোনো Article বসে না।",
+      "ans": 0,
+      "correct_answer": "no article"
     },
     {
       "id": 17,
@@ -228,7 +260,9 @@
         "None"
       ],
       "answer": "খ",
-      "explanation": "সমগ্র মানবজাতি অর্থে 'Man' ব্যবহৃত হলে তার পূর্বে কোনো Article বসে না (Man is mortal)।"
+      "explanation": "সমগ্র মানবজাতি অর্থে 'Man' ব্যবহৃত হলে তার পূর্বে কোনো Article বসে না (Man is mortal)।",
+      "ans": 1,
+      "correct_answer": "Man is mortal"
     },
     {
       "id": 18,
@@ -241,7 +275,9 @@
         "no article, a"
       ],
       "answer": "ঘ",
-      "explanation": "মৌলিক উদ্দেশ্যে হাসপাতালে গেলে 'hospital'-এর পূর্বে article বসে না (went to hospital), এবং একক আক্রমণ অর্থে 'a heart attack' সঠিক।"
+      "explanation": "মৌলিক উদ্দেশ্যে হাসপাতালে গেলে 'hospital'-এর পূর্বে article বসে না (went to hospital), এবং একক আক্রমণ অর্থে 'a heart attack' সঠিক।",
+      "ans": 3,
+      "correct_answer": "no article, a"
     },
     {
       "id": 19,
@@ -254,7 +290,9 @@
         "hundredth"
       ],
       "answer": "ক",
-      "explanation": "অনির্দিষ্ট বহু শত বোঝাতে Plural ফর্মে 'hundreds of times' ব্যবহৃত হয়।"
+      "explanation": "অনির্দিষ্ট বহু শত বোঝাতে Plural ফর্মে 'hundreds of times' ব্যবহৃত হয়।",
+      "ans": 0,
+      "correct_answer": "hundreds"
     },
     {
       "id": 20,
@@ -267,7 +305,9 @@
         "Proceeds"
       ],
       "answer": "ঘ",
-      "explanation": "'Proceeds' (বিক্রয়লব্ধ অর্থ) সর্বদা Plural Noun হিসেবে সঠিক। Furniture, Information, Scenery আনকাউন্টেবল হওয়ায় এদের সাথে s/es যুক্ত হয় না।"
+      "explanation": "'Proceeds' (বিক্রয়লব্ধ অর্থ) সর্বদা Plural Noun হিসেবে সঠিক। Furniture, Information, Scenery আনকাউন্টেবল হওয়ায় এদের সাথে s/es যুক্ত হয় না।",
+      "ans": 3,
+      "correct_answer": "Proceeds"
     },
     {
       "id": 21,
@@ -280,7 +320,9 @@
         "mouse"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'information'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'information'।",
+      "ans": 2,
+      "correct_answer": "information"
     },
     {
       "id": 22,
@@ -293,7 +335,9 @@
         "economics"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'crises'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'crises'।",
+      "ans": 2,
+      "correct_answer": "crises"
     },
     {
       "id": 23,
@@ -306,7 +350,9 @@
         "index"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'politics'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'politics'।",
+      "ans": 2,
+      "correct_answer": "politics"
     },
     {
       "id": 24,
@@ -319,7 +365,9 @@
         "Date"
       ],
       "answer": "গ",
-      "explanation": "ল্যাটিন শব্দ 'Datum'-এর Plural রূপ হলো 'Data' (উভয়ই প্রচলিত, Datum singular, Data plural)।"
+      "explanation": "ল্যাটিন শব্দ 'Datum'-এর Plural রূপ হলো 'Data' (উভয়ই প্রচলিত, Datum singular, Data plural)।",
+      "ans": 2,
+      "correct_answer": "Datum"
     },
     {
       "id": 25,
@@ -332,7 +380,9 @@
         "Memorendiumes"
       ],
       "answer": "গ",
-      "explanation": "'Memorandum'-এর Plural রূপ হলো 'Memoranda'।"
+      "explanation": "'Memorandum'-এর Plural রূপ হলো 'Memoranda'।",
+      "ans": 2,
+      "correct_answer": "Memoranda"
     },
     {
       "id": 26,
@@ -345,7 +395,9 @@
         "criteria"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'criteria'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'criteria'।",
+      "ans": 3,
+      "correct_answer": "criteria"
     },
     {
       "id": 27,
@@ -358,7 +410,9 @@
         "phenom"
       ],
       "answer": "খ",
-      "explanation": "গ্রিক শব্দ 'Phenomenon'-এর Plural রূপ হলো 'Phenomena'।"
+      "explanation": "গ্রিক শব্দ 'Phenomenon'-এর Plural রূপ হলো 'Phenomena'।",
+      "ans": 1,
+      "correct_answer": "phenomenon"
     },
     {
       "id": 28,
@@ -371,7 +425,9 @@
         "analysis"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'analyses'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'analyses'।",
+      "ans": 0,
+      "correct_answer": "analyses"
     },
     {
       "id": 29,
@@ -384,7 +440,9 @@
         "oases"
       ],
       "answer": "ঘ",
-      "explanation": "'Oasis' (মরূদ্যান)-এর Plural রূপ হলো 'Oases'।"
+      "explanation": "'Oasis' (মরূদ্যান)-এর Plural রূপ হলো 'Oases'।",
+      "ans": 3,
+      "correct_answer": "oases"
     },
     {
       "id": 30,
@@ -397,7 +455,9 @@
         "Nucleis"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Nuclei'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Nuclei'।",
+      "ans": 2,
+      "correct_answer": "Nuclei"
     },
     {
       "id": 31,
@@ -410,7 +470,9 @@
         "raduisis"
       ],
       "answer": "গ",
-      "explanation": "ল্যাটিন শব্দ 'Radius'-এর Plural রূপ হলো 'Radii' বা 'Radiuses'।"
+      "explanation": "ল্যাটিন শব্দ 'Radius'-এর Plural রূপ হলো 'Radii' বা 'Radiuses'।",
+      "ans": 2,
+      "correct_answer": "radii"
     },
     {
       "id": 32,
@@ -423,7 +485,9 @@
         "One Types"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Four types'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Four types'।",
+      "ans": 0,
+      "correct_answer": "Four types"
     },
     {
       "id": 33,
@@ -436,7 +500,9 @@
         "Boy"
       ],
       "answer": "ক",
-      "explanation": "যে Noun দ্বারা পুরুষ ও স্ত্রী উভয় জাতিকে বোঝায় তাকে Common Gender বলে (যেমন: Baby, Child, Parent, Teacher, Friend, Doctor, Cousin, Student, Pupil)।"
+      "explanation": "যে Noun দ্বারা পুরুষ ও স্ত্রী উভয় জাতিকে বোঝায় তাকে Common Gender বলে (যেমন: Baby, Child, Parent, Teacher, Friend, Doctor, Cousin, Student, Pupil)।",
+      "ans": 0,
+      "correct_answer": "Baby"
     },
     {
       "id": 34,
@@ -449,7 +515,9 @@
         "None"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'None'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'None'।",
+      "ans": 3,
+      "correct_answer": "None"
     },
     {
       "id": 35,
@@ -462,7 +530,9 @@
         "Dog"
       ],
       "answer": "খ",
-      "explanation": "ঘোড়ার পুরুষবাচক রূপ হলো 'Stallion' এবং স্ত্রীবাচক হলো 'Mare'।"
+      "explanation": "ঘোড়ার পুরুষবাচক রূপ হলো 'Stallion' এবং স্ত্রীবাচক হলো 'Mare'।",
+      "ans": 1,
+      "correct_answer": "Stallion"
     },
     {
       "id": 36,
@@ -475,7 +545,9 @@
         "Bee"
       ],
       "answer": "ঘ",
-      "explanation": "মৌমাছির পুরুষবাচক রূপ হলো 'Drone' এবং স্ত্রীবাচক রূপ হলো 'Queen' বা 'Bee'।"
+      "explanation": "মৌমাছির পুরুষবাচক রূপ হলো 'Drone' এবং স্ত্রীবাচক রূপ হলো 'Queen' বা 'Bee'।",
+      "ans": 3,
+      "correct_answer": "Bee"
     },
     {
       "id": 37,
@@ -488,7 +560,9 @@
         "executrix"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'executrix'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'executrix'।",
+      "ans": 3,
+      "correct_answer": "executrix"
     },
     {
       "id": 38,
@@ -501,7 +575,9 @@
         "Prosecuter"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Prosecutrix'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Prosecutrix'।",
+      "ans": 0,
+      "correct_answer": "Prosecutrix"
     },
     {
       "id": 39,
@@ -514,7 +590,9 @@
         "None"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a'।",
+      "ans": 0,
+      "correct_answer": "a"
     },
     {
       "id": 40,
@@ -527,7 +605,9 @@
         "Ten heads of cattle"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Ten head of cattle'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Ten head of cattle'।",
+      "ans": 2,
+      "correct_answer": "Ten head of cattle"
     },
     {
       "id": 41,
@@ -540,7 +620,9 @@
         "species"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'spectra'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'spectra'।",
+      "ans": 0,
+      "correct_answer": "spectra"
     },
     {
       "id": 42,
@@ -553,7 +635,9 @@
         "criteria"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'agendum'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'agendum'।",
+      "ans": 2,
+      "correct_answer": "agendum"
     },
     {
       "id": 43,
@@ -566,7 +650,9 @@
         "Tigerian"
       ],
       "answer": "খ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Tigress'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Tigress'।",
+      "ans": 1,
+      "correct_answer": "Tigress"
     },
     {
       "id": 44,
@@ -579,7 +665,9 @@
         "none of the above"
       ],
       "answer": "খ",
-      "explanation": "'Ox'-এর Plural রূপ হলো 'Oxen'।"
+      "explanation": "'Ox'-এর Plural রূপ হলো 'Oxen'।",
+      "ans": 1,
+      "correct_answer": "Vixen"
     },
     {
       "id": 45,
@@ -592,7 +680,9 @@
         "hen"
       ],
       "answer": "খ",
-      "explanation": "'Ox'-এর Plural রূপ হলো 'Oxen'।"
+      "explanation": "'Ox'-এর Plural রূপ হলো 'Oxen'।",
+      "ans": 1,
+      "correct_answer": "ox"
     },
     {
       "id": 46,
@@ -605,7 +695,9 @@
         "Dog"
       ],
       "answer": "গ",
-      "explanation": "ঘোড়ার পুরুষবাচক রূপ হলো 'Stallion' এবং স্ত্রীবাচক হলো 'Mare'।"
+      "explanation": "ঘোড়ার পুরুষবাচক রূপ হলো 'Stallion' এবং স্ত্রীবাচক হলো 'Mare'।",
+      "ans": 2,
+      "correct_answer": "Stallion"
     },
     {
       "id": 47,
@@ -618,7 +710,9 @@
         "Dancer"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Niece'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Niece'।",
+      "ans": 2,
+      "correct_answer": "Niece"
     },
     {
       "id": 48,
@@ -631,7 +725,9 @@
         "Pig"
       ],
       "answer": "খ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Squire'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Squire'।",
+      "ans": 1,
+      "correct_answer": "Squire"
     },
     {
       "id": 49,
@@ -644,7 +740,9 @@
         "Drone"
       ],
       "answer": "খ",
-      "explanation": "পাতিহাঁসের পুরুষবাচক রূপ হলো 'Drake' এবং স্ত্রীবাচক হলো 'Duck'।"
+      "explanation": "পাতিহাঁসের পুরুষবাচক রূপ হলো 'Drake' এবং স্ত্রীবাচক হলো 'Duck'।",
+      "ans": 1,
+      "correct_answer": "Drake"
     },
     {
       "id": 50,
@@ -657,7 +755,9 @@
         "neuter"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'feminine'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'feminine'।",
+      "ans": 0,
+      "correct_answer": "feminine"
     },
     {
       "id": 51,
@@ -670,7 +770,9 @@
         "filly"
       ],
       "answer": "খ",
-      "explanation": "মৌমাছির পুরুষবাচক রূপ হলো 'Drone' এবং স্ত্রীবাচক রূপ হলো 'Queen' বা 'Bee'।"
+      "explanation": "মৌমাছির পুরুষবাচক রূপ হলো 'Drone' এবং স্ত্রীবাচক রূপ হলো 'Queen' বা 'Bee'।",
+      "ans": 1,
+      "correct_answer": "drone"
     },
     {
       "id": 52,
@@ -683,7 +785,9 @@
         "Duchess"
       ],
       "answer": "ঘ",
-      "explanation": "যেকোনো খেলাধুলার নামের পূর্বে (football, cricket, chess) সাধারণত কোনো Article বসে না।"
+      "explanation": "যেকোনো খেলাধুলার নামের পূর্বে (football, cricket, chess) সাধারণত কোনো Article বসে না।",
+      "ans": 3,
+      "correct_answer": "Duchess"
     },
     {
       "id": 53,
@@ -696,7 +800,9 @@
         "Niece"
       ],
       "answer": "গ",
-      "explanation": "ভেড়ার স্ত্রীবাচক রূপ হলো 'Ewe' এবং পুরুষবাচক রূপ হলো 'Ram'।"
+      "explanation": "ভেড়ার স্ত্রীবাচক রূপ হলো 'Ewe' এবং পুরুষবাচক রূপ হলো 'Ram'।",
+      "ans": 2,
+      "correct_answer": "Ewe"
     },
     {
       "id": 54,
@@ -709,7 +815,9 @@
         "mare"
       ],
       "answer": "গ",
-      "explanation": "যে Noun দ্বারা পুরুষ ও স্ত্রী উভয় জাতিকে বোঝায় তাকে Common Gender বলে (যেমন: Baby, Child, Parent, Teacher, Friend, Doctor, Cousin, Student, Pupil)।"
+      "explanation": "যে Noun দ্বারা পুরুষ ও স্ত্রী উভয় জাতিকে বোঝায় তাকে Common Gender বলে (যেমন: Baby, Child, Parent, Teacher, Friend, Doctor, Cousin, Student, Pupil)।",
+      "ans": 2,
+      "correct_answer": "spouse"
     },
     {
       "id": 55,
@@ -722,7 +830,9 @@
         "thanks"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'alms'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'alms'।",
+      "ans": 0,
+      "correct_answer": "alms"
     },
     {
       "id": 56,
@@ -735,7 +845,9 @@
         "each"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'agenda'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'agenda'।",
+      "ans": 0,
+      "correct_answer": "agenda"
     },
     {
       "id": 57,
@@ -748,7 +860,9 @@
         "Physics"
       ],
       "answer": "ক",
-      "explanation": "'Scissors' (কাঁচি), 'Trousers', 'Spectacles' ইত্যাদি দুটি অভিন্ন অংশ নিয়ে গঠিত যন্ত্রপাতি সর্বদা Plural Noun হিসেবে ব্যবহৃত হয়।"
+      "explanation": "'Scissors' (কাঁচি), 'Trousers', 'Spectacles' ইত্যাদি দুটি অভিন্ন অংশ নিয়ে গঠিত যন্ত্রপাতি সর্বদা Plural Noun হিসেবে ব্যবহৃত হয়।",
+      "ans": 0,
+      "correct_answer": "Scissors"
     },
     {
       "id": 58,
@@ -761,7 +875,9 @@
         "Thesease"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Theses'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Theses'।",
+      "ans": 0,
+      "correct_answer": "Theses"
     },
     {
       "id": 59,
@@ -774,7 +890,9 @@
         "Mathematics"
       ],
       "answer": "খ",
-      "explanation": "'Ox'-এর Plural রূপ হলো 'Oxen'।"
+      "explanation": "'Ox'-এর Plural রূপ হলো 'Oxen'।",
+      "ans": 1,
+      "correct_answer": "Oxen"
     },
     {
       "id": 60,
@@ -787,7 +905,9 @@
         "light"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'fish'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'fish'।",
+      "ans": 2,
+      "correct_answer": "fish"
     },
     {
       "id": 61,
@@ -800,7 +920,9 @@
         "None"
       ],
       "answer": "গ",
-      "explanation": "ল্যাটিন শব্দ 'Datum'-এর Plural রূপ হলো 'Data' (উভয়ই প্রচলিত, Datum singular, Data plural)।"
+      "explanation": "ল্যাটিন শব্দ 'Datum'-এর Plural রূপ হলো 'Data' (উভয়ই প্রচলিত, Datum singular, Data plural)।",
+      "ans": 2,
+      "correct_answer": "Datum"
     },
     {
       "id": 62,
@@ -813,7 +935,9 @@
         "no article"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a'।",
+      "ans": 0,
+      "correct_answer": "a"
     },
     {
       "id": 63,
@@ -826,7 +950,9 @@
         "to"
       ],
       "answer": "খ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'an'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'an'।",
+      "ans": 1,
+      "correct_answer": "an"
     },
     {
       "id": 64,
@@ -839,7 +965,9 @@
         "an"
       ],
       "answer": "খ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।",
+      "ans": 1,
+      "correct_answer": "the"
     },
     {
       "id": 65,
@@ -852,7 +980,9 @@
         "no article"
       ],
       "answer": "ঘ",
-      "explanation": "শব্দটির শুরুতে Vowel 'u' থাকা সত্ত্বেও এর উচ্চারণ যদি 'ইউ' (You)-এর মতো হয়, তবে তার পূর্বে 'an' না বসে 'a' বসে (a university student)।"
+      "explanation": "শব্দটির শুরুতে Vowel 'u' থাকা সত্ত্বেও এর উচ্চারণ যদি 'ইউ' (You)-এর মতো হয়, তবে তার পূর্বে 'an' না বসে 'a' বসে (a university student)।",
+      "ans": 3,
+      "correct_answer": "no article"
     },
     {
       "id": 66,
@@ -864,8 +994,10 @@
         "the",
         "no article"
       ],
-      "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'an'।"
+      "answer": "ঘ",
+      "explanation": "একক কোনো দ্বীপের নামের পূর্বে কোনো Article বসে না (দ্বীপপুঞ্জ হলে 'The' বসে): \"Sandwip is a big island.\"।",
+      "ans": 3,
+      "correct_answer": "no article"
     },
     {
       "id": 67,
@@ -878,7 +1010,9 @@
         "Generalizing “the”"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Instrumental “the”'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Instrumental “the”'।",
+      "ans": 0,
+      "correct_answer": "Instrumental “the”"
     },
     {
       "id": 68,
@@ -891,7 +1025,9 @@
         "possessive ‘the’"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'possessive ‘the’'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'possessive ‘the’'।",
+      "ans": 3,
+      "correct_answer": "possessive ‘the’"
     },
     {
       "id": 69,
@@ -904,7 +1040,9 @@
         "a"
       ],
       "answer": "ক",
-      "explanation": "শব্দটির শুরুতে Vowel 'u' থাকা সত্ত্বেও এর উচ্চারণ যদি 'ইউ' (You)-এর মতো হয়, তবে তার পূর্বে 'an' না বসে 'a' বসে (a university student)।"
+      "explanation": "শব্দটির শুরুতে Vowel 'u' থাকা সত্ত্বেও এর উচ্চারণ যদি 'ইউ' (You)-এর মতো হয়, তবে তার পূর্বে 'an' না বসে 'a' বসে (a university student)।",
+      "ans": 0,
+      "correct_answer": "a"
     },
     {
       "id": 70,
@@ -917,7 +1055,9 @@
         "no article"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a'।",
+      "ans": 0,
+      "correct_answer": "a"
     },
     {
       "id": 71,
@@ -930,7 +1070,9 @@
         "no article"
       ],
       "answer": "ক",
-      "explanation": "শব্দটির শুরুতে Vowel 'u' থাকা সত্ত্বেও এর উচ্চারণ যদি 'ইউ' (You)-এর মতো হয়, তবে তার পূর্বে 'an' না বসে 'a' বসে (a university student)।"
+      "explanation": "শব্দটির শুরুতে Vowel 'u' থাকা সত্ত্বেও এর উচ্চারণ যদি 'ইউ' (You)-এর মতো হয়, তবে তার পূর্বে 'an' না বসে 'a' বসে (a university student)।",
+      "ans": 0,
+      "correct_answer": "a"
     },
     {
       "id": 72,
@@ -943,7 +1085,9 @@
         "No article"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।",
+      "ans": 0,
+      "correct_answer": "the"
     },
     {
       "id": 73,
@@ -956,7 +1100,9 @@
         "no article"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।",
+      "ans": 2,
+      "correct_answer": "the"
     },
     {
       "id": 74,
@@ -969,7 +1115,9 @@
         "no article"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।",
+      "ans": 0,
+      "correct_answer": "the"
     },
     {
       "id": 75,
@@ -982,7 +1130,9 @@
         "no article is used"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।",
+      "ans": 2,
+      "correct_answer": "the"
     },
     {
       "id": 76,
@@ -995,7 +1145,9 @@
         "no article is required"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।",
+      "ans": 2,
+      "correct_answer": "the"
     },
     {
       "id": 77,
@@ -1008,7 +1160,9 @@
         "Sound"
       ],
       "answer": "ক",
-      "explanation": "Article-এর ব্যবহার মূলত বানানের ওপর নয়, বরং শব্দের উচ্চারণ বা ধ্বনির (Pronunciation / Sound) ওপর ভিত্তি করে নির্ধারিত হয়।"
+      "explanation": "Article-এর ব্যবহার মূলত বানানের ওপর নয়, বরং শব্দের উচ্চারণ বা ধ্বনির (Pronunciation / Sound) ওপর ভিত্তি করে নির্ধারিত হয়।",
+      "ans": 0,
+      "correct_answer": "Pronunciation"
     },
     {
       "id": 78,
@@ -1020,8 +1174,10 @@
         "no article",
         "an"
       ],
-      "answer": "ক",
-      "explanation": "সাধারণত Uncountable/Material Noun-এর পূর্বে Article বসে না, কিন্তু 'the + noun + of' কাঠামোতে কোনো নির্দিষ্ট স্থানের উপাদান বোঝাতে Definite Article 'the' বসে (the water of this lake)।"
+      "answer": "গ",
+      "explanation": "একক কোনো দ্বীপের নামের পূর্বে কোনো Article বসে না (দ্বীপপুঞ্জ হলে 'The' বসে): \"Sandwip is a big island.\"।",
+      "ans": 2,
+      "correct_answer": "no article"
     },
     {
       "id": 79,
@@ -1034,7 +1190,9 @@
         "no article"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'The'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'The'।",
+      "ans": 0,
+      "correct_answer": "The"
     },
     {
       "id": 80,
@@ -1047,7 +1205,9 @@
         "no article"
       ],
       "answer": "ঘ",
-      "explanation": "মৌলিক উদ্দেশ্যে হাসপাতালে গেলে 'hospital'-এর পূর্বে article বসে না (went to hospital), এবং একক আক্রমণ অর্থে 'a heart attack' সঠিক।"
+      "explanation": "মৌলিক উদ্দেশ্যে হাসপাতালে গেলে 'hospital'-এর পূর্বে article বসে না (went to hospital), এবং একক আক্রমণ অর্থে 'a heart attack' সঠিক।",
+      "ans": 3,
+      "correct_answer": "no article"
     },
     {
       "id": 81,
@@ -1060,7 +1220,9 @@
         "colleges"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the college'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the college'।",
+      "ans": 2,
+      "correct_answer": "the college"
     },
     {
       "id": 82,
@@ -1073,7 +1235,9 @@
         "excessive"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'very'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'very'।",
+      "ans": 0,
+      "correct_answer": "very"
     },
     {
       "id": 83,
@@ -1086,7 +1250,9 @@
         "few traffic"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'too much traffic'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'too much traffic'।",
+      "ans": 2,
+      "correct_answer": "too much traffic"
     },
     {
       "id": 84,
@@ -1099,7 +1265,9 @@
         "leter"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'latter'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'latter'।",
+      "ans": 0,
+      "correct_answer": "latter"
     },
     {
       "id": 85,
@@ -1112,7 +1280,9 @@
         "other"
       ],
       "answer": "ঘ",
-      "explanation": "'Ox'-এর Plural রূপ হলো 'Oxen'।"
+      "explanation": "'Ox'-এর Plural রূপ হলো 'Oxen'।",
+      "ans": 3,
+      "correct_answer": "other"
     },
     {
       "id": 86,
@@ -1125,7 +1295,9 @@
         "a lot of"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a lot of'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a lot of'।",
+      "ans": 3,
+      "correct_answer": "a lot of"
     },
     {
       "id": 87,
@@ -1138,7 +1310,9 @@
         "no article"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'an'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'an'।",
+      "ans": 0,
+      "correct_answer": "an"
     },
     {
       "id": 88,
@@ -1151,7 +1325,9 @@
         "an"
       ],
       "answer": "ঘ",
-      "explanation": "'Heir' (উত্তরাধিকারী)-এর স্ত্রীবাচক রূপ হলো 'Heiress'।"
+      "explanation": "'Heir' (উত্তরাধিকারী)-এর স্ত্রীবাচক রূপ হলো 'Heiress'।",
+      "ans": 3,
+      "correct_answer": "an"
     },
     {
       "id": 89,
@@ -1164,7 +1340,9 @@
         "an"
       ],
       "answer": "ঘ",
-      "explanation": "বালক বা তরুণের স্ত্রীবাচক রূপ হলো 'Lass'।"
+      "explanation": "বালক বা তরুণের স্ত্রীবাচক রূপ হলো 'Lass'।",
+      "ans": 3,
+      "correct_answer": "an"
     },
     {
       "id": 90,
@@ -1177,7 +1355,9 @@
         "the number of"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the number of'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the number of'।",
+      "ans": 3,
+      "correct_answer": "the number of"
     },
     {
       "id": 91,
@@ -1190,7 +1370,9 @@
         "a lot"
       ],
       "answer": "খ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a little'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a little'।",
+      "ans": 1,
+      "correct_answer": "a little"
     },
     {
       "id": 92,
@@ -1203,7 +1385,9 @@
         "a few"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a few'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a few'।",
+      "ans": 3,
+      "correct_answer": "a few"
     },
     {
       "id": 93,
@@ -1216,7 +1400,9 @@
         "viruses"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'viruses'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'viruses'।",
+      "ans": 3,
+      "correct_answer": "viruses"
     },
     {
       "id": 94,
@@ -1229,7 +1415,9 @@
         "book"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'that'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'that'।",
+      "ans": 2,
+      "correct_answer": "that"
     },
     {
       "id": 95,
@@ -1242,7 +1430,9 @@
         "no article, a"
       ],
       "answer": "ঘ",
-      "explanation": "মৌলিক উদ্দেশ্যে হাসপাতালে গেলে 'hospital'-এর পূর্বে article বসে না (went to hospital), এবং একক আক্রমণ অর্থে 'a heart attack' সঠিক।"
+      "explanation": "মৌলিক উদ্দেশ্যে হাসপাতালে গেলে 'hospital'-এর পূর্বে article বসে না (went to hospital), এবং একক আক্রমণ অর্থে 'a heart attack' সঠিক।",
+      "ans": 3,
+      "correct_answer": "no article, a"
     },
     {
       "id": 96,
@@ -1255,7 +1445,9 @@
         "syllabus"
       ],
       "answer": "খ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'criteria'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'criteria'।",
+      "ans": 1,
+      "correct_answer": "criteria"
     },
     {
       "id": 97,
@@ -1268,7 +1460,9 @@
         "stimuluses"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'stimuli'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'stimuli'।",
+      "ans": 0,
+      "correct_answer": "stimuli"
     },
     {
       "id": 98,
@@ -1281,7 +1475,9 @@
         "Radii"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Radii'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Radii'।",
+      "ans": 3,
+      "correct_answer": "Radii"
     },
     {
       "id": 99,
@@ -1294,7 +1490,9 @@
         "foxss"
       ],
       "answer": "খ",
-      "explanation": "'Ox'-এর Plural রূপ হলো 'Oxen'।"
+      "explanation": "'Ox'-এর Plural রূপ হলো 'Oxen'।",
+      "ans": 1,
+      "correct_answer": "foxes"
     },
     {
       "id": 100,
@@ -1307,7 +1505,9 @@
         "thiefee"
       ],
       "answer": "খ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'thieves'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'thieves'।",
+      "ans": 1,
+      "correct_answer": "thieves"
     },
     {
       "id": 101,
@@ -1320,7 +1520,9 @@
         "Knifeess"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Knives'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Knives'।",
+      "ans": 2,
+      "correct_answer": "Knives"
     },
     {
       "id": 102,
@@ -1333,7 +1535,9 @@
         "calves"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'calves'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'calves'।",
+      "ans": 3,
+      "correct_answer": "calves"
     },
     {
       "id": 103,
@@ -1346,7 +1550,9 @@
         "Wolves"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Wolves'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Wolves'।",
+      "ans": 3,
+      "correct_answer": "Wolves"
     },
     {
       "id": 104,
@@ -1359,7 +1565,9 @@
         "mouses"
       ],
       "answer": "গ",
-      "explanation": "'Mouse'-এর Plural রূপ হলো 'Mice'।"
+      "explanation": "'Mouse'-এর Plural রূপ হলো 'Mice'।",
+      "ans": 2,
+      "correct_answer": "mice"
     },
     {
       "id": 105,
@@ -1372,7 +1580,9 @@
         "Scissors"
       ],
       "answer": "খ",
-      "explanation": "'News', 'Physics', 'Mathematics', 'Economics' ইত্যাদি শব্দ দেখতে Plural মনে হলেও অর্থগতভাবে এরা Singular Noun।"
+      "explanation": "'News', 'Physics', 'Mathematics', 'Economics' ইত্যাদি শব্দ দেখতে Plural মনে হলেও অর্থগতভাবে এরা Singular Noun।",
+      "ans": 1,
+      "correct_answer": "News"
     },
     {
       "id": 106,
@@ -1385,7 +1595,9 @@
         "Fezes"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Fezes'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Fezes'।",
+      "ans": 3,
+      "correct_answer": "Fezes"
     },
     {
       "id": 107,
@@ -1398,7 +1610,9 @@
         "Nisei"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Niece'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Niece'।",
+      "ans": 0,
+      "correct_answer": "Niece"
     },
     {
       "id": 108,
@@ -1411,7 +1625,9 @@
         "Drake"
       ],
       "answer": "খ",
-      "explanation": "মৌমাছির পুরুষবাচক রূপ হলো 'Drone' এবং স্ত্রীবাচক রূপ হলো 'Queen' বা 'Bee'।"
+      "explanation": "মৌমাছির পুরুষবাচক রূপ হলো 'Drone' এবং স্ত্রীবাচক রূপ হলো 'Queen' বা 'Bee'।",
+      "ans": 1,
+      "correct_answer": "Drone"
     },
     {
       "id": 109,
@@ -1424,7 +1640,9 @@
         "He speaks English like the English."
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'He speaks English like the English.'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'He speaks English like the English.'।",
+      "ans": 3,
+      "correct_answer": "He speaks English like the English."
     },
     {
       "id": 110,
@@ -1437,7 +1655,9 @@
         "no article is needed"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a'।",
+      "ans": 0,
+      "correct_answer": "a"
     },
     {
       "id": 111,
@@ -1450,7 +1670,9 @@
         "masculine"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'common'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'common'।",
+      "ans": 2,
+      "correct_answer": "common"
     },
     {
       "id": 112,
@@ -1463,7 +1685,9 @@
         "Sheepses"
       ],
       "answer": "খ",
-      "explanation": "'Sheep', 'Deer', 'Fish', 'Species' ইত্যাদি Noun-এর Singular ও Plural রূপ একই থাকে।"
+      "explanation": "'Sheep', 'Deer', 'Fish', 'Species' ইত্যাদি Noun-এর Singular ও Plural রূপ একই থাকে।",
+      "ans": 1,
+      "correct_answer": "Sheep"
     },
     {
       "id": 113,
@@ -1476,7 +1700,9 @@
         "queen"
       ],
       "answer": "খ",
-      "explanation": "যে Noun দ্বারা পুরুষ ও স্ত্রী উভয় জাতিকে বোঝায় তাকে Common Gender বলে (যেমন: Baby, Child, Parent, Teacher, Friend, Doctor, Cousin, Student, Pupil)।"
+      "explanation": "যে Noun দ্বারা পুরুষ ও স্ত্রী উভয় জাতিকে বোঝায় তাকে Common Gender বলে (যেমন: Baby, Child, Parent, Teacher, Friend, Doctor, Cousin, Student, Pupil)।",
+      "ans": 1,
+      "correct_answer": "sovereign"
     },
     {
       "id": 114,
@@ -1489,7 +1715,9 @@
         "Dog"
       ],
       "answer": "গ",
-      "explanation": "ঘোড়ার পুরুষবাচক রূপ হলো 'Stallion' এবং স্ত্রীবাচক হলো 'Mare'।"
+      "explanation": "ঘোড়ার পুরুষবাচক রূপ হলো 'Stallion' এবং স্ত্রীবাচক হলো 'Mare'।",
+      "ans": 2,
+      "correct_answer": "Stallion"
     },
     {
       "id": 115,
@@ -1502,7 +1730,9 @@
         "light"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'fish'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'fish'।",
+      "ans": 2,
+      "correct_answer": "fish"
     },
     {
       "id": 116,
@@ -1515,7 +1745,9 @@
         "Teach"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Aircraft'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Aircraft'।",
+      "ans": 0,
+      "correct_answer": "Aircraft"
     },
     {
       "id": 117,
@@ -1528,7 +1760,9 @@
         "pony"
       ],
       "answer": "খ",
-      "explanation": "বালক বা তরুণের স্ত্রীবাচক রূপ হলো 'Lass'।"
+      "explanation": "বালক বা তরুণের স্ত্রীবাচক রূপ হলো 'Lass'।",
+      "ans": 1,
+      "correct_answer": "lad"
     },
     {
       "id": 118,
@@ -1541,7 +1775,9 @@
         "tiger"
       ],
       "answer": "ক",
-      "explanation": "'Deer'-এর Singular ও Plural রূপ অপরিবর্তিত থাকে (Deer -> Deer)।"
+      "explanation": "'Deer'-এর Singular ও Plural রূপ অপরিবর্তিত থাকে (Deer -> Deer)।",
+      "ans": 0,
+      "correct_answer": "deer"
     },
     {
       "id": 119,
@@ -1554,7 +1790,9 @@
         "for"
       ],
       "answer": "গ",
-      "explanation": "'News', 'Physics', 'Mathematics', 'Economics' ইত্যাদি শব্দ দেখতে Plural মনে হলেও অর্থগতভাবে এরা Singular Noun।"
+      "explanation": "'News', 'Physics', 'Mathematics', 'Economics' ইত্যাদি শব্দ দেখতে Plural মনে হলেও অর্থগতভাবে এরা Singular Noun।",
+      "ans": 2,
+      "correct_answer": "no"
     },
     {
       "id": 120,
@@ -1567,7 +1805,9 @@
         "ovums"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'ova'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'ova'।",
+      "ans": 0,
+      "correct_answer": "ova"
     },
     {
       "id": 121,
@@ -1580,7 +1820,9 @@
         "licess"
       ],
       "answer": "খ",
-      "explanation": "'Louse'-এর Plural রূপ হলো 'Lice'।"
+      "explanation": "'Louse'-এর Plural রূপ হলো 'Lice'।",
+      "ans": 1,
+      "correct_answer": "lice"
     },
     {
       "id": 122,
@@ -1593,7 +1835,9 @@
         "formulae"
       ],
       "answer": "গ",
-      "explanation": "ল্যাটিন শব্দ 'Radius'-এর Plural রূপ হলো 'Radii' বা 'Radiuses'।"
+      "explanation": "ল্যাটিন শব্দ 'Radius'-এর Plural রূপ হলো 'Radii' বা 'Radiuses'।",
+      "ans": 2,
+      "correct_answer": "radius"
     },
     {
       "id": 123,
@@ -1606,7 +1850,9 @@
         "a little"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a little'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a little'।",
+      "ans": 3,
+      "correct_answer": "a little"
     },
     {
       "id": 124,
@@ -1619,7 +1865,9 @@
         "time"
       ],
       "answer": "খ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'much'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'much'।",
+      "ans": 1,
+      "correct_answer": "much"
     },
     {
       "id": 125,
@@ -1632,7 +1880,9 @@
         "That"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'That'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'That'।",
+      "ans": 3,
+      "correct_answer": "That"
     },
     {
       "id": 126,
@@ -1645,7 +1895,9 @@
         "The French society"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'The French people'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'The French people'।",
+      "ans": 0,
+      "correct_answer": "The French people"
     },
     {
       "id": 127,
@@ -1658,7 +1910,9 @@
         "Scenery"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Scenery'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Scenery'।",
+      "ans": 3,
+      "correct_answer": "Scenery"
     },
     {
       "id": 128,
@@ -1671,7 +1925,9 @@
         "a lot of"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a lot of'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a lot of'।",
+      "ans": 3,
+      "correct_answer": "a lot of"
     },
     {
       "id": 129,
@@ -1684,7 +1940,9 @@
         "No article"
       ],
       "answer": "ক",
-      "explanation": "Abstract Noun-এর পূর্বে Article বসে না, তবে নির্দিষ্ট কোনো ব্যক্তির গুণ বোঝাতে 'the + abstract noun + of' কাঠামো অনুযায়ী 'the' বসে (the honesty of Rahim)।"
+      "explanation": "Abstract Noun-এর পূর্বে Article বসে না, তবে নির্দিষ্ট কোনো ব্যক্তির গুণ বোঝাতে 'the + abstract noun + of' কাঠামো অনুযায়ী 'the' বসে (the honesty of Rahim)।",
+      "ans": 0,
+      "correct_answer": "The"
     },
     {
       "id": 130,
@@ -1697,7 +1955,9 @@
         "on"
       ],
       "answer": "ক",
-      "explanation": "সাধারণত Uncountable/Material Noun-এর পূর্বে Article বসে না, কিন্তু 'the + noun + of' কাঠামোতে কোনো নির্দিষ্ট স্থানের উপাদান বোঝাতে Definite Article 'the' বসে (the water of this lake)।"
+      "explanation": "সাধারণত Uncountable/Material Noun-এর পূর্বে Article বসে না, কিন্তু 'the + noun + of' কাঠামোতে কোনো নির্দিষ্ট স্থানের উপাদান বোঝাতে Definite Article 'the' বসে (the water of this lake)।",
+      "ans": 0,
+      "correct_answer": "the"
     },
     {
       "id": 131,
@@ -1710,7 +1970,9 @@
         "many"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'very little'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'very little'।",
+      "ans": 0,
+      "correct_answer": "very little"
     },
     {
       "id": 132,
@@ -1723,7 +1985,9 @@
         "criterius"
       ],
       "answer": "ক",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'criterion'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'criterion'।",
+      "ans": 0,
+      "correct_answer": "criterion"
     },
     {
       "id": 133,
@@ -1736,7 +2000,9 @@
         "Ultimata"
       ],
       "answer": "খ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Criterion'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'Criterion'।",
+      "ans": 1,
+      "correct_answer": "Criterion"
     },
     {
       "id": 134,
@@ -1749,7 +2015,9 @@
         "hen"
       ],
       "answer": "খ",
-      "explanation": "'Ox'-এর Plural রূপ হলো 'Oxen'।"
+      "explanation": "'Ox'-এর Plural রূপ হলো 'Oxen'।",
+      "ans": 1,
+      "correct_answer": "ox"
     },
     {
       "id": 135,
@@ -1762,7 +2030,9 @@
         "Dog"
       ],
       "answer": "গ",
-      "explanation": "ঘোড়ার পুরুষবাচক রূপ হলো 'Stallion' এবং স্ত্রীবাচক হলো 'Mare'।"
+      "explanation": "ঘোড়ার পুরুষবাচক রূপ হলো 'Stallion' এবং স্ত্রীবাচক হলো 'Mare'।",
+      "ans": 2,
+      "correct_answer": "Stallion"
     },
     {
       "id": 136,
@@ -1775,7 +2045,9 @@
         "no article"
       ],
       "answer": "খ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'a'।",
+      "ans": 1,
+      "correct_answer": "a"
     },
     {
       "id": 137,
@@ -1788,7 +2060,9 @@
         "no article is required"
       ],
       "answer": "গ",
-      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।"
+      "explanation": "ব্যাকরণিক নিয়ম ও শব্দগত ব্যবহার অনুযায়ী এখানে সঠিক উত্তর হলো 'the'।",
+      "ans": 2,
+      "correct_answer": "the"
     },
     {
       "id": 138,
@@ -1801,7 +2075,9 @@
         "Aluminise 100"
       ],
       "answer": "গ",
-      "explanation": "'Alumnus'-এর Plural রূপ হলো 'Alumni'।"
+      "explanation": "'Alumnus'-এর Plural রূপ হলো 'Alumni'।",
+      "ans": 2,
+      "correct_answer": "Alumnus"
     }
   ]
 }

@@ -8,8 +8,10 @@
       "a",
       "no article"
     ],
-    "answer": "a",
-    "explanation": "'comfortable' শব্দটি Consonant sound দিয়ে শুরু হওয়ায় এর পূর্বে অনির্দিষ্ট অর্থে Indefinite article 'a' বসে (a comfortable life)।"
+    "answer": "গ",
+    "explanation": "'comfortable' শব্দটি Consonant sound দিয়ে শুরু হওয়ায় এর পূর্বে অনির্দিষ্ট অর্থে Indefinite article 'a' বসে (a comfortable life)।",
+    "ans": 2,
+    "correct_answer": "a"
   },
   {
     "id": 2,
@@ -20,8 +22,10 @@
       "the",
       "no article"
     ],
-    "answer": "a",
-    "explanation": "'horrible' শব্দটি Consonant sound (/h/) দিয়ে শুরু হওয়ায় এর পূর্বে Indefinite article 'a' বসে।"
+    "answer": "ক",
+    "explanation": "'horrible' শব্দটি Consonant sound (/h/) দিয়ে শুরু হওয়ায় এর পূর্বে Indefinite article 'a' বসে।",
+    "ans": 0,
+    "correct_answer": "a"
   },
   {
     "id": 3,
@@ -32,8 +36,10 @@
       "the",
       "no article"
     ],
-    "answer": "a",
-    "explanation": "'birthday' শব্দটি Consonant sound দিয়ে শুরু হওয়ায় অনির্দিষ্ট উপহার অর্থে 'a' বসবে।"
+    "answer": "ক",
+    "explanation": "'birthday' শব্দটি Consonant sound দিয়ে শুরু হওয়ায় অনির্দিষ্ট উপহার অর্থে 'a' বসবে।",
+    "ans": 0,
+    "correct_answer": "a"
   },
   {
     "id": 4,
@@ -44,8 +50,10 @@
       "the",
       "no article"
     ],
-    "answer": "a",
-    "explanation": "'humorist' শব্দের উচ্চারণ Consonant sound (/h/) দিয়ে শুরু হওয়ায় এর পূর্বে 'a' বসে।"
+    "answer": "ক",
+    "explanation": "'humorist' শব্দের উচ্চারণ Consonant sound (/h/) দিয়ে শুরু হওয়ায় এর পূর্বে 'a' বসে।",
+    "ans": 0,
+    "correct_answer": "a"
   },
   {
     "id": 5,
@@ -56,8 +64,10 @@
       "a",
       "all"
     ],
-    "answer": "a",
-    "explanation": "এখানে 'most' Superlative অর্থে নয় বরং 'very' (খুব) অর্থে ব্যবহৃত হয়েছে; তাই নিয়মানুযায়ী এর পূর্বে 'a' বসে (a most unhappy life = a very unhappy life)।"
+    "answer": "গ",
+    "explanation": "এখানে 'most' Superlative অর্থে নয় বরং 'very' (খুব) অর্থে ব্যবহৃত হয়েছে; তাই নিয়মানুযায়ী এর পূর্বে 'a' বসে (a most unhappy life = a very unhappy life)।",
+    "ans": 2,
+    "correct_answer": "a"
   },
   {
     "id": 6,
@@ -68,8 +78,10 @@
       "the",
       "and"
     ],
-    "answer": "a",
-    "explanation": "'historic' শব্দের শুরুতে Consonant sound /h/ উচ্চারিত হওয়ায় এর পূর্বে Indefinite article 'a' বসে (a historic day)।"
+    "answer": "খ",
+    "explanation": "'historic' শব্দের শুরুতে Consonant sound /h/ উচ্চারিত হওয়ায় এর পূর্বে Indefinite article 'a' বসে (a historic day)।",
+    "ans": 1,
+    "correct_answer": "a"
   },
   {
     "id": 7,
@@ -80,8 +92,10 @@
       "the",
       "none"
     ],
-    "answer": "an",
-    "explanation": "'old' শব্দটি Vowel sound (/əʊ/) দিয়ে শুরু হওয়ায় এর পূর্বে Indefinite article 'an' বসে।"
+    "answer": "খ",
+    "explanation": "'old' শব্দটি Vowel sound (/əʊ/) দিয়ে শুরু হওয়ায় এর পূর্বে Indefinite article 'an' বসে।",
+    "ans": 1,
+    "correct_answer": "an"
   },
   {
     "id": 8,
@@ -92,8 +106,10 @@
       "the",
       "none"
     ],
-    "answer": "a",
-    "explanation": "'uniquely' শব্দের শুরুতে 'u'-এর উচ্চারণ 'ইউ' (/juː/)-এর মতো হওয়ায় এর পূর্বে 'an' না বসে 'a' বসে।"
+    "answer": "খ",
+    "explanation": "'uniquely' শব্দের শুরুতে 'u'-এর উচ্চারণ 'ইউ' (/juː/)-এর মতো হওয়ায় এর পূর্বে 'an' না বসে 'a' বসে।",
+    "ans": 1,
+    "correct_answer": "a"
   },
   {
     "id": 9,
@@ -104,8 +120,10 @@
       "No article",
       "the"
     ],
-    "answer": "a",
-    "explanation": "Vowel 'u'-এর উচ্চারণ যদি 'ইউ'-এর মতো হয়, তবে তার পূর্বে 'an' না বসে 'a' বসে (a unique opportunity)।"
+    "answer": "খ",
+    "explanation": "Vowel 'u'-এর উচ্চারণ যদি 'ইউ'-এর মতো হয়, তবে তার পূর্বে 'an' না বসে 'a' বসে (a unique opportunity)।",
+    "ans": 1,
+    "correct_answer": "a"
   },
   {
     "id": 10,
@@ -116,8 +134,10 @@
       "the",
       "no article"
     ],
-    "answer": "a",
-    "explanation": "'European' শব্দের শুরুতে 'E'-এর উচ্চারণ 'ইউ' (/juː/)-এর মতো হওয়ায় এর পূর্বে 'a' বসে।"
+    "answer": "ক",
+    "explanation": "'European' শব্দের শুরুতে 'E'-এর উচ্চারণ 'ইউ' (/juː/)-এর মতো হওয়ায় এর পূর্বে 'a' বসে।",
+    "ans": 0,
+    "correct_answer": "a"
   },
   {
     "id": 11,
@@ -128,8 +148,10 @@
       "the",
       "none"
     ],
-    "answer": "a",
-    "explanation": "'useful' শব্দের শুরুতে 'u'-এর উচ্চারণ 'ইউ' (/juː/)-এর মতো হওয়ায় নিয়ম অনুযায়ী 'a' বসে।"
+    "answer": "খ",
+    "explanation": "'useful' শব্দের শুরুতে 'u'-এর উচ্চারণ 'ইউ' (/juː/)-এর মতো হওয়ায় নিয়ম অনুযায়ী 'a' বসে।",
+    "ans": 1,
+    "correct_answer": "a"
   },
   {
     "id": 12,
@@ -140,8 +162,10 @@
       "an",
       "the"
     ],
-    "answer": "a",
-    "explanation": "'useful' শব্দের উচ্চারণ 'ইউ' (/juː/)-এর মতো হওয়ায় এর পূর্বে 'a' বসে।"
+    "answer": "ক",
+    "explanation": "'useful' শব্দের উচ্চারণ 'ইউ' (/juː/)-এর মতো হওয়ায় এর পূর্বে 'a' বসে।",
+    "ans": 0,
+    "correct_answer": "a"
   },
   {
     "id": 13,
@@ -152,8 +176,10 @@
       "the",
       "no article"
     ],
-    "answer": "a",
-    "explanation": "'university' শব্দের শুরুতে 'u'-এর উচ্চারণ 'ইউ'-এর মতো হওয়ায় 'a' বসে (a university)।"
+    "answer": "ক",
+    "explanation": "'university' শব্দের শুরুতে 'u'-এর উচ্চারণ 'ইউ'-এর মতো হওয়ায় 'a' বসে (a university)।",
+    "ans": 0,
+    "correct_answer": "a"
   },
   {
     "id": 14,
@@ -164,8 +190,10 @@
       "a one -eye",
       "a one -eyed"
     ],
-    "answer": "a one -eyed",
-    "explanation": "'one'-এর উচ্চারণ 'ওয়া' (/wʌn/)-এর মতো হওয়ায় এর পূর্বে সর্বদা 'a' বসে (a one-eyed beggar)।"
+    "answer": "ঘ",
+    "explanation": "'one'-এর উচ্চারণ 'ওয়া' (/wʌn/)-এর মতো হওয়ায় এর পূর্বে সর্বদা 'a' বসে (a one-eyed beggar)।",
+    "ans": 3,
+    "correct_answer": "a one -eyed"
   },
   {
     "id": 15,
@@ -176,8 +204,10 @@
       "an",
       "no article"
     ],
-    "answer": "an",
-    "explanation": "'honorary' শব্দে 'h' অনুচ্চারিত (silent) থেকে Vowel sound (/ɒ/)-এর মতো উচ্চারিত হওয়ায় এর পূর্বে 'an' বসে।"
+    "answer": "গ",
+    "explanation": "'honorary' শব্দে 'h' অনুচ্চারিত (silent) থেকে Vowel sound (/ɒ/)-এর মতো উচ্চারিত হওয়ায় এর পূর্বে 'an' বসে।",
+    "ans": 2,
+    "correct_answer": "an"
   },
   {
     "id": 16,
@@ -188,8 +218,10 @@
       "the",
       "no article"
     ],
-    "answer": "an",
-    "explanation": "'Honors' শব্দে 'h' অনুচ্চারিত থেকে Vowel sound দিয়ে শুরু হওয়ায় এর পূর্বে 'an' বসে।"
+    "answer": "খ",
+    "explanation": "'Honors' শব্দে 'h' অনুচ্চারিত থেকে Vowel sound দিয়ে শুরু হওয়ায় এর পূর্বে 'an' বসে।",
+    "ans": 1,
+    "correct_answer": "an"
   },
   {
     "id": 17,
@@ -200,8 +232,10 @@
       "a",
       "none"
     ],
-    "answer": "an",
-    "explanation": "'heiress' (উত্তরাধিকারিণী) শব্দে 'h' অনুচ্চারিত (silent) থেকে Vowel sound-এর মতো উচ্চারিত হওয়ায় এর পূর্বে 'an' বসে।"
+    "answer": "খ",
+    "explanation": "'heiress' (উত্তরাধিকারিণী) শব্দে 'h' অনুচ্চারিত (silent) থেকে Vowel sound-এর মতো উচ্চারিত হওয়ায় এর পূর্বে 'an' বসে।",
+    "ans": 1,
+    "correct_answer": "an"
   },
   {
     "id": 18,
@@ -212,8 +246,10 @@
       "zero article",
       "the"
     ],
-    "answer": "an",
-    "explanation": "'heir' (উত্তরাধিকারী) শব্দে 'h' অনুচ্চারিত থাকায় এর উচ্চারণ Vowel sound দিয়ে হয়, তাই এর পূর্বে 'an' বসে।"
+    "answer": "ক",
+    "explanation": "'heir' (উত্তরাধিকারী) শব্দে 'h' অনুচ্চারিত থাকায় এর উচ্চারণ Vowel sound দিয়ে হয়, তাই এর পূর্বে 'an' বসে।",
+    "ans": 0,
+    "correct_answer": "an"
   },
   {
     "id": 19,
@@ -224,8 +260,10 @@
       " An",
       " The"
     ],
-    "answer": " The",
-    "explanation": "ভাষার নামের পূর্বে Article বসে না, কিন্তু কোনো ভাষাভাষী সমগ্র জাতিকে বোঝাতে তার পূর্বে Definite article 'The' বসে (The English = ইংরেজ জাতি)।"
+    "answer": "ঘ",
+    "explanation": "ভাষার নামের পূর্বে Article বসে না, কিন্তু কোনো ভাষাভাষী সমগ্র জাতিকে বোঝাতে তার পূর্বে Definite article 'The' বসে (The English = ইংরেজ জাতি)।",
+    "ans": 3,
+    "correct_answer": "The"
   },
   {
     "id": 20,
@@ -236,8 +274,10 @@
       "An",
       "No article"
     ],
-    "answer": "The",
-    "explanation": "'standing in front of you' ফ্রেজ দ্বারা নির্দিষ্ট ব্যক্তিকে নির্দেশ করায় এর পূর্বে Definite article 'The' বসবে।"
+    "answer": "খ",
+    "explanation": "'standing in front of you' ফ্রেজ দ্বারা নির্দিষ্ট ব্যক্তিকে নির্দেশ করায় এর পূর্বে Definite article 'The' বসবে।",
+    "ans": 1,
+    "correct_answer": "The"
   },
   {
     "id": 21,
@@ -248,8 +288,10 @@
       "a",
       "none"
     ],
-    "answer": "the",
-    "explanation": "দুইজনের মধ্যে নির্দিষ্টভাবে একজনকে তুলনা করে পছন্দ বা শ্রেষ্ঠত্ব বোঝাতে Comparative degree-এর পূর্বে 'the' বসে (the taller of the two)।"
+    "answer": "ক",
+    "explanation": "দুইজনের মধ্যে নির্দিষ্টভাবে একজনকে তুলনা করে পছন্দ বা শ্রেষ্ঠত্ব বোঝাতে Comparative degree-এর পূর্বে 'the' বসে (the taller of the two)।",
+    "ans": 0,
+    "correct_answer": "the"
   },
   {
     "id": 22,
@@ -260,8 +302,10 @@
       "the",
       "no article"
     ],
-    "answer": "the",
-    "explanation": "ক্রিসমাসের জন্য নির্দিষ্ট কোনো পোশাকের আকাঙ্ক্ষা বোঝাতে Definite article 'the' বসে।"
+    "answer": "গ",
+    "explanation": "ক্রিসমাসের জন্য নির্দিষ্ট কোনো পোশাকের আকাঙ্ক্ষা বোঝাতে Definite article 'the' বসে।",
+    "ans": 2,
+    "correct_answer": "the"
   },
   {
     "id": 23,
@@ -272,8 +316,10 @@
       "an",
       "no article"
     ],
-    "answer": "the",
-    "explanation": "নির্দিষ্ট কোনো আর্থিক প্রতিষ্ঠান বা প্রচলিত সেবামূলক স্থানে যাওয়া বোঝাতে 'the bank' ব্যবহৃত হয়।"
+    "answer": "ক",
+    "explanation": "নির্দিষ্ট কোনো আর্থিক প্রতিষ্ঠান বা প্রচলিত সেবামূলক স্থানে যাওয়া বোঝাতে 'the bank' ব্যবহৃত হয়।",
+    "ans": 0,
+    "correct_answer": "the"
   },
   {
     "id": 24,
@@ -284,8 +330,10 @@
       "an",
       "with"
     ],
-    "answer": "the",
-    "explanation": "শরীরের নির্দিষ্ট কোনো অঙ্গের ওপর আঘাত করা বোঝাতে Preposition-এর পর Definite article 'the' বসে (on the head)।"
+    "answer": "ক",
+    "explanation": "শরীরের নির্দিষ্ট কোনো অঙ্গের ওপর আঘাত করা বোঝাতে Preposition-এর পর Definite article 'the' বসে (on the head)।",
+    "ans": 0,
+    "correct_answer": "the"
   },
   {
     "id": 25,
@@ -296,8 +344,10 @@
       "the",
       "no article is used"
     ],
-    "answer": "the",
-    "explanation": "'which you had given me' ক্লজ দ্বারা ছাতাটিকে নির্দিষ্ট করা হয়েছে, তাই এর পূর্বে Definite article 'the' বসবে।"
+    "answer": "গ",
+    "explanation": "'which you had given me' ক্লজ দ্বারা ছাতাটিকে নির্দিষ্ট করা হয়েছে, তাই এর পূর্বে Definite article 'the' বসবে।",
+    "ans": 2,
+    "correct_answer": "the"
   },
   {
     "id": 26,
@@ -308,8 +358,10 @@
       "the",
       "no article is required"
     ],
-    "answer": "the",
-    "explanation": "নির্দিষ্ট কোনো বিদ্যালয়ের প্রবেশদ্বার নির্দেশ করায় 'the school gate' বসবে।"
+    "answer": "গ",
+    "explanation": "নির্দিষ্ট কোনো বিদ্যালয়ের প্রবেশদ্বার নির্দেশ করায় 'the school gate' বসবে।",
+    "ans": 2,
+    "correct_answer": "the"
   },
   {
     "id": 27,
@@ -320,8 +372,10 @@
       "an",
       "no article"
     ],
-    "answer": "the",
-    "explanation": "দিনের নির্দিষ্ট অংশ নির্দেশ করতে 'in the morning', 'in the afternoon' ইত্যাদিতে 'the' বসে।"
+    "answer": "ক",
+    "explanation": "দিনের নির্দিষ্ট অংশ নির্দেশ করতে 'in the morning', 'in the afternoon' ইত্যাদিতে 'the' বসে।",
+    "ans": 0,
+    "correct_answer": "the"
   },
   {
     "id": 28,
@@ -332,8 +386,10 @@
       "an",
       "No article"
     ],
-    "answer": "The",
-    "explanation": "নির্দিষ্ট ভূমিকা বা স্রষ্টা বোঝাতে এবং পরবর্তী 'of his own fate' সম্বন্ধের কারণে 'The architect' বসে।"
+    "answer": "ক",
+    "explanation": "নির্দিষ্ট ভূমিকা বা স্রষ্টা বোঝাতে এবং পরবর্তী 'of his own fate' সম্বন্ধের কারণে 'The architect' বসে।",
+    "ans": 0,
+    "correct_answer": "The"
   },
   {
     "id": 29,
@@ -344,8 +400,10 @@
       "the",
       "No article"
     ],
-    "answer": "the",
-    "explanation": "'get the upper hand' একটি ইংরেজি Idiomatic phrase, যার অর্থ কর্তৃত্ব লাভ করা বা প্রভাব বিস্তার করা; তাই এখানে 'the' বসবে।"
+    "answer": "গ",
+    "explanation": "'get the upper hand' একটি ইংরেজি Idiomatic phrase, যার অর্থ কর্তৃত্ব লাভ করা বা প্রভাব বিস্তার করা; তাই এখানে 'the' বসবে।",
+    "ans": 2,
+    "correct_answer": "the"
   },
   {
     "id": 30,
@@ -356,8 +414,10 @@
       "a",
       "no article"
     ],
-    "answer": "the",
-    "explanation": "ইংরেজ জাতিকে নির্দেশ করতে জাতির নামের পূর্বে Definite article 'the' বসে (whereas the English is a nation)।"
+    "answer": "খ",
+    "explanation": "ইংরেজ জাতিকে নির্দেশ করতে জাতির নামের পূর্বে Definite article 'the' বসে (whereas the English is a nation)।",
+    "ans": 1,
+    "correct_answer": "the"
   },
   {
     "id": 31,
@@ -368,8 +428,10 @@
       "An",
       "A"
     ],
-    "answer": "The",
-    "explanation": "জার্মান জাতিকে নির্দেশ করতে সমগ্র জাতির নামের পূর্বে 'The' বসে (The Germans)।"
+    "answer": "খ",
+    "explanation": "জার্মান জাতিকে নির্দেশ করতে সমগ্র জাতির নামের পূর্বে 'The' বসে (The Germans)।",
+    "ans": 1,
+    "correct_answer": "The"
   },
   {
     "id": 32,
@@ -380,8 +442,10 @@
       "none of these",
       "an"
     ],
-    "answer": "the",
-    "explanation": "যেসব দেশের নামের সাথে United, States, Kingdom, Republic ইত্যাদি থাকে তাদের পূর্বে Definite article 'the' বসে (the USA)।"
+    "answer": "ক",
+    "explanation": "যেসব দেশের নামের সাথে United, States, Kingdom, Republic ইত্যাদি থাকে তাদের পূর্বে Definite article 'the' বসে (the USA)।",
+    "ans": 0,
+    "correct_answer": "the"
   },
   {
     "id": 33,
@@ -392,8 +456,10 @@
       "of",
       "between"
     ],
-    "answer": "the",
-    "explanation": "Adjective-এর Superlative degree 'lowest'-এর পূর্বে সর্বদা Definite article 'the' বসে।"
+    "answer": "খ",
+    "explanation": "Adjective-এর Superlative degree 'lowest'-এর পূর্বে সর্বদা Definite article 'the' বসে।",
+    "ans": 1,
+    "correct_answer": "the"
   },
   {
     "id": 34,
@@ -404,8 +470,10 @@
       "The",
       "No article"
     ],
-    "answer": "No article",
-    "explanation": "পর্বতমালার পূর্বে 'The' বসে, কিন্তু কোনো একক পর্বতশৃঙ্গের নামের (যেমন Mount Everest) পূর্বে কোনো Article বসে না।"
+    "answer": "ঘ",
+    "explanation": "পর্বতমালার পূর্বে 'The' বসে, কিন্তু কোনো একক পর্বতশৃঙ্গের নামের (যেমন Mount Everest) পূর্বে কোনো Article বসে না।",
+    "ans": 3,
+    "correct_answer": "No article"
   },
   {
     "id": 35,
@@ -416,8 +484,10 @@
       "The",
       "No article"
     ],
-    "answer": "No article",
-    "explanation": "সাধারণ অর্থে ব্যবহৃত Plural countable noun 'oranges'-এর পূর্বে কোনো Article বসে না।"
+    "answer": "ঘ",
+    "explanation": "সাধারণ অর্থে ব্যবহৃত Plural countable noun 'oranges'-এর পূর্বে কোনো Article বসে না।",
+    "ans": 3,
+    "correct_answer": "No article"
   },
   {
     "id": 36,
@@ -428,8 +498,10 @@
       "the",
       "no article"
     ],
-    "answer": "no article",
-    "explanation": "নিয়মিত আহার বা খাবারের নাম (যেমন breakfast, lunch, dinner)-এর পূর্বে সাধারণত কোনো Article বসে না।"
+    "answer": "ঘ",
+    "explanation": "নিয়মিত আহার বা খাবারের নাম (যেমন breakfast, lunch, dinner)-এর পূর্বে সাধারণত কোনো Article বসে না।",
+    "ans": 3,
+    "correct_answer": "no article"
   },
   {
     "id": 37,
@@ -440,7 +512,9 @@
       "the, no article",
       "no article, a"
     ],
-    "answer": "no article, a",
-    "explanation": "রোগী হিসেবে চিকিৎসা নিতে হাসপাতালে গেলে 'hospital'-এর পূর্বে Article বসে না (went to hospital), এবং অসুস্থতার রোগ বা আক্রমণ অনির্দিষ্ট অর্থে 'a heart attack' বসে।"
+    "answer": "ঘ",
+    "explanation": "রোগী হিসেবে চিকিৎসা নিতে হাসপাতালে গেলে 'hospital'-এর পূর্বে Article বসে না (went to hospital), এবং অসুস্থতার রোগ বা আক্রমণ অনির্দিষ্ট অর্থে 'a heart attack' বসে।",
+    "ans": 3,
+    "correct_answer": "no article, a"
   }
 ]

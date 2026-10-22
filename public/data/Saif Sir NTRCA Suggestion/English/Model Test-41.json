@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "I would like ______ information",
-      "options": {
-        "ক": "A",
-        "খ": "An",
-        "গ": "Some",
-        "ঘ": "A piece"
-      },
+      "options": [
+        "A",
+        "An",
+        "Some",
+        "A piece"
+      ],
       "answer": "গ",
-      "explanation": "'Information' একটি Uncountable Noun, যার পূর্বে 'a' বা 'an' বসে না। পরিমাণবাচক শব্দ হিসেবে 'some information' সঠিক।"
+      "explanation": "'Information' একটি Uncountable Noun, যার পূর্বে 'a' বা 'an' বসে না। পরিমাণবাচক শব্দ হিসেবে 'some information' সঠিক।",
+      "ans": 2,
+      "correct_answer": "Some"
     },
     {
       "id": 2,
       "question": "Where is the ______ post office?",
-      "options": {
-        "ক": "Nearest",
-        "খ": "Most near",
-        "গ": "More near",
-        "ঘ": "Nearer"
-      },
+      "options": [
+        "Nearest",
+        "Most near",
+        "More near",
+        "Nearer"
+      ],
       "answer": "ক",
-      "explanation": "দূরত্বের দিক থেকে সবচেয়ে কাছের অবস্থান বোঝাতে Near-এর Superlative Degree 'Nearest' ব্যবহৃত হয় ('the nearest post office')।"
+      "explanation": "দূরত্বের দিক থেকে সবচেয়ে কাছের অবস্থান বোঝাতে Near-এর Superlative Degree 'Nearest' ব্যবহৃত হয় ('the nearest post office')।",
+      "ans": 0,
+      "correct_answer": "Nearest"
     },
     {
       "id": 3,
       "question": "I ______ a reply to my letter in the next few days.",
-      "options": {
-        "ক": "Write",
-        "খ": "expect",
-        "গ": "wait",
-        "ঘ": "get"
-      },
+      "options": [
+        "Write",
+        "expect",
+        "wait",
+        "get"
+      ],
       "answer": "খ",
-      "explanation": "অদূর ভবিষ্যতে কোনো কিছু প্রত্যাশা করা বা পাওয়ার আশা করা অর্থে Verb 'Expect' সঠিক: 'I expect a reply...' ।"
+      "explanation": "অদূর ভবিষ্যতে কোনো কিছু প্রত্যাশা করা বা পাওয়ার আশা করা অর্থে Verb 'Expect' সঠিক: 'I expect a reply...' ।",
+      "ans": 1,
+      "correct_answer": "expect"
     },
     {
       "id": 4,
       "question": "Raju ______ here yesterday.",
-      "options": {
-        "ক": "Come",
-        "খ": "Came",
-        "গ": "Will come",
-        "ঘ": "Has come"
-      },
+      "options": [
+        "Come",
+        "Came",
+        "Will come",
+        "Has come"
+      ],
       "answer": "খ",
-      "explanation": "বাক্যে অতীত নির্দেশক শব্দ 'yesterday' থাকায় Past Indefinite Tense-এ 'came' বসবে।"
+      "explanation": "বাক্যে অতীত নির্দেশক শব্দ 'yesterday' থাকায় Past Indefinite Tense-এ 'came' বসবে।",
+      "ans": 1,
+      "correct_answer": "Came"
     },
     {
       "id": 5,
       "question": "I prefer tea ______ coffee",
-      "options": {
-        "ক": "For",
-        "খ": "Than",
-        "গ": "From",
-        "ঘ": "To"
-      },
+      "options": [
+        "For",
+        "Than",
+        "From",
+        "To"
+      ],
       "answer": "ঘ",
-      "explanation": "দুটি পছন্দের বিষয়ের তুলনায় 'Prefer'-এর পর সর্বদা Preposition 'to' বসে (than বসে না): 'I prefer tea to coffee.'"
+      "explanation": "দুটি পছন্দের বিষয়ের তুলনায় 'Prefer'-এর পর সর্বদা Preposition 'to' বসে (than বসে না): 'I prefer tea to coffee.'",
+      "ans": 3,
+      "correct_answer": "To"
     },
     {
       "id": 6,
       "question": "CHARLATAN(Match the closest meaning that correspond to the quotations word)",
-      "options": {
-        "ক": "Bilingual",
-        "খ": "deserter",
-        "গ": "Imposter",
-        "ঘ": "Revamp"
-      },
+      "options": [
+        "Bilingual",
+        "deserter",
+        "Imposter",
+        "Revamp"
+      ],
       "answer": "গ",
-      "explanation": "'Charlatan' অর্থ হাতুড়ে ডাক্তার, ভণ্ড বা প্রতারক। এর সরাসরি সমার্থক শব্দ হলো 'Imposter' (প্রতারক/ভণ্ড)।"
+      "explanation": "'Charlatan' অর্থ হাতুড়ে ডাক্তার, ভণ্ড বা প্রতারক। এর সরাসরি সমার্থক শব্দ হলো 'Imposter' (প্রতারক/ভণ্ড)।",
+      "ans": 2,
+      "correct_answer": "Imposter"
     },
     {
       "id": 7,
       "question": "COMPENSATION (Match the closest meaning that correspond to the quotations word)",
-      "options": {
-        "ক": "Satistfiction",
-        "খ": "Admission",
-        "গ": "Compromise",
-        "ঘ": "Reward"
-      },
+      "options": [
+        "Satistfiction",
+        "Admission",
+        "Compromise",
+        "Reward"
+      ],
       "answer": "ঘ",
-      "explanation": "'Compensation' অর্থ ক্ষতিপূরণ, পারিশ্রমিক বা পুরস্কৃত করা। বিকল্পগুলোর মধ্যে 'Reward' (পুরস্কার/প্রতিদান) উত্তরমালায় গৃহীত।"
+      "explanation": "'Compensation' অর্থ ক্ষতিপূরণ, পারিশ্রমিক বা পুরস্কৃত করা। বিকল্পগুলোর মধ্যে 'Reward' (পুরস্কার/প্রতিদান) উত্তরমালায় গৃহীত।",
+      "ans": 3,
+      "correct_answer": "Reward"
     },
     {
       "id": 8,
       "question": "BENEVOLENT(Match the closest meaning that correspond to the quotations word)",
-      "options": {
-        "ক": "Compassionate",
-        "খ": "Compromise",
-        "গ": "Honorarrium",
-        "ঘ": "Disgraceful"
-      },
+      "options": [
+        "Compassionate",
+        "Compromise",
+        "Honorarrium",
+        "Disgraceful"
+      ],
       "answer": "ক",
-      "explanation": "'Benevolent' অর্থ দয়ালু, হিতৈষী বা পরোপকারী। এর সমার্থক শব্দ হলো 'Compassionate' (সহানুভূতিশীল/দয়াশীল)।"
+      "explanation": "'Benevolent' অর্থ দয়ালু, হিতৈষী বা পরোপকারী। এর সমার্থক শব্দ হলো 'Compassionate' (সহানুভূতিশীল/দয়াশীল)।",
+      "ans": 0,
+      "correct_answer": "Compassionate"
     },
     {
       "id": 9,
       "question": "BIZARE (Match the closest meaning that correspond to the quotations word)",
-      "options": {
-        "ক": "Strange",
-        "খ": "Calamity",
-        "গ": "Fatal",
-        "ঘ": "Naive"
-      },
+      "options": [
+        "Strange",
+        "Calamity",
+        "Fatal",
+        "Naive"
+      ],
       "answer": "ক",
-      "explanation": "'Bizarre' অর্থ অদ্ভুত, বিচিত্র বা অস্বাভাবিক। এর সমার্থক শব্দ হলো 'Strange' (অদ্ভুত/অস্বাভাবিক) বা 'Weird'।"
+      "explanation": "'Bizarre' অর্থ অদ্ভুত, বিচিত্র বা অস্বাভাবিক। এর সমার্থক শব্দ হলো 'Strange' (অদ্ভুত/অস্বাভাবিক) বা 'Weird'।",
+      "ans": 0,
+      "correct_answer": "Strange"
     },
     {
       "id": 10,
       "question": "LINGUIST(Match the closest meaning that correspond to the quotations word)",
-      "options": {
-        "ক": "Absconder",
-        "খ": "Swinder",
-        "গ": "Polyglot",
-        "ঘ": "Knowledgeable"
-      },
+      "options": [
+        "Absconder",
+        "Swinder",
+        "Polyglot",
+        "Knowledgeable"
+      ],
       "answer": "গ",
-      "explanation": "'Linguist' অর্থ ভাষাবিদ বা বহুভাষাবিদ। যে ব্যক্তি বহু ভাষায় কথা বলতে বা জানতে পারে তাকে 'Polyglot' বা বহুভাষাবিদ বলা হয়।"
+      "explanation": "'Linguist' অর্থ ভাষাবিদ বা বহুভাষাবিদ। যে ব্যক্তি বহু ভাষায় কথা বলতে বা জানতে পারে তাকে 'Polyglot' বা বহুভাষাবিদ বলা হয়।",
+      "ans": 2,
+      "correct_answer": "Polyglot"
     },
     {
       "id": 11,
       "question": "These two temples are probably the two oldest surviving concrete erections in Old Dhaka,\"Both dating\" back at least two hundread years.(Match the best alternative that correspond to the quotations word)",
-      "options": {
-        "ক": "Both dating",
-        "খ": "Both of which have dated",
-        "গ": "And each has dated",
-        "ঘ": "And each one dating"
-      },
+      "options": [
+        "Both dating",
+        "Both of which have dated",
+        "And each has dated",
+        "And each one dating"
+      ],
       "answer": "ক",
-      "explanation": "Absolute phrase হিসেবে 'Both dating back...' ব্যাকরণগতভাবে সম্পূর্ণ নির্ভুল এবং সংক্ষিপ্ত প্রকাশভঙ্গি।"
+      "explanation": "Absolute phrase হিসেবে 'Both dating back...' ব্যাকরণগতভাবে সম্পূর্ণ নির্ভুল এবং সংক্ষিপ্ত প্রকাশভঙ্গি।",
+      "ans": 0,
+      "correct_answer": "Both dating"
     },
     {
       "id": 12,
       "question": "Unlike the many winter vegetables that have tought leaves and thus require a lengthy cooking time,\"Those of csbbage need little cooking time\"(Match the best alternative that correspond to the quotations word)",
-      "options": {
-        "ক": "Those of cabbage need little cooking time",
-        "খ": "Cabbage needs little cooking time",
-        "গ": "Cabbage need little cooking time",
-        "ঘ": "Those of cabbage needs little cooking time"
-      },
+      "options": [
+        "Those of cabbage need little cooking time",
+        "Cabbage needs little cooking time",
+        "Cabbage need little cooking time",
+        "Those of cabbage needs little cooking time"
+      ],
       "answer": "খ",
-      "explanation": "'Winter vegetables'-এর সাথে সরাসরি বাঁধাকপির (Cabbage) তুলনা করা হয়েছে, তাই 'Cabbage needs little cooking time' সঠিক ও সমান্তরাল গঠন।"
+      "explanation": "'Winter vegetables'-এর সাথে সরাসরি বাঁধাকপির (Cabbage) তুলনা করা হয়েছে, তাই 'Cabbage needs little cooking time' সঠিক ও সমান্তরাল গঠন।",
+      "ans": 1,
+      "correct_answer": "Cabbage needs little cooking time"
     },
     {
       "id": 13,
       "question": "The population of Bangladesh has been steadily increasing for decades, \"and it will probably have what is estimated as 220\" million people by 250",
-      "options": {
-        "ক": "It will probably have what is estimated as",
-        "খ": "They are likely to have",
-        "গ": "the country will probably",
-        "ঘ": "There will probably be"
-      },
+      "options": [
+        "It will probably have what is estimated as",
+        "They are likely to have",
+        "the country will probably",
+        "There will probably be"
+      ],
       "answer": "গ",
-      "explanation": "জনসংখ্যা বৃদ্ধির পূর্বাভাসে দেশের জনসংখ্যা নির্দেশ করতে 'the country will probably have...' অপশন (গ) উত্তরমালায় গৃহীত।"
+      "explanation": "জনসংখ্যা বৃদ্ধির পূর্বাভাসে দেশের জনসংখ্যা নির্দেশ করতে 'the country will probably have...' অপশন (গ) উত্তরমালায় গৃহীত।",
+      "ans": 2,
+      "correct_answer": "the country will probably"
     },
     {
       "id": 14,
       "question": "Natural slection operates whenever individuals of one genetic composition are better at reproducing than \"That of others\"as charles Darwin observed",
-      "options": {
-        "ক": "That of others",
-        "খ": "The other",
-        "গ": "Another",
-        "ঘ": "Those of another"
-      },
+      "options": [
+        "That of others",
+        "The other",
+        "Another",
+        "Those of another"
+      ],
       "answer": "ঘ",
-      "explanation": "Plural Noun 'individuals'-এর সাথে তুলনা করার সময় পুনরাবৃত্তি রোধে Plural Pronoun 'Those of another' ব্যবহৃত হয়।"
+      "explanation": "Plural Noun 'individuals'-এর সাথে তুলনা করার সময় পুনরাবৃত্তি রোধে Plural Pronoun 'Those of another' ব্যবহৃত হয়।",
+      "ans": 3,
+      "correct_answer": "Those of another"
     },
     {
       "id": 15,
       "question": "May physician has told me that stomach ulcres are \"not caused by stress ,alcohol,or rich foods\" but a bacterium that dwells in the mucous lining of the stomach.(Match the best alternative that correspond to the quotations word)",
-      "options": {
-        "ক": "Not caused by stress ,alchol, or rich foods, but",
-        "খ": "Not caused by stress ,alchol, or rich foods or but",
-        "গ": "Caused not by stress,alchol,or rich foods but by",
-        "ঘ": "Caused not by stress,alcohol and rich foods but"
-      },
+      "options": [
+        "Not caused by stress ,alchol, or rich foods, but",
+        "Not caused by stress ,alchol, or rich foods or but",
+        "Caused not by stress,alchol,or rich foods but by",
+        "Caused not by stress,alcohol and rich foods but"
+      ],
       "answer": "গ",
-      "explanation": "সমান্তরাল গঠন (Parallel structure) অনুযায়ী 'not by ... but by ...' কাঠামো ব্যবহৃত হতে হয়। তাই (গ) সঠিক।"
+      "explanation": "সমান্তরাল গঠন (Parallel structure) অনুযায়ী 'not by ... but by ...' কাঠামো ব্যবহৃত হতে হয়। তাই (গ) সঠিক।",
+      "ans": 2,
+      "correct_answer": "Caused not by stress,alchol,or rich foods but by"
     },
     {
       "id": 16,
       "question": "Identify the correct speeling-",
-      "options": {
-        "ক": "Psychology",
-        "খ": "psycology",
-        "গ": "sychology",
-        "ঘ": "Tsychology"
-      },
+      "options": [
+        "Psychology",
+        "psycology",
+        "sychology",
+        "Tsychology"
+      ],
       "answer": "ক",
-      "explanation": "মৃত প্রাণীর চামড়া দিয়ে অবিকল রূপ তৈরি করার কারিগরকে 'Taxidermist' (T-A-X-I-D-E-R-M-I-S-T) বলা হয়।"
+      "explanation": "মৃত প্রাণীর চামড়া দিয়ে অবিকল রূপ তৈরি করার কারিগরকে 'Taxidermist' (T-A-X-I-D-E-R-M-I-S-T) বলা হয়।",
+      "ans": 0,
+      "correct_answer": "Psychology"
     },
     {
       "id": 17,
       "question": "Identify the correct speeling-",
-      "options": {
-        "ক": "Enthusiastic",
-        "খ": "Enthoustic",
-        "গ": "Enthosuastic",
-        "ঘ": "Enthaustsiastic"
-      },
+      "options": [
+        "Enthusiastic",
+        "Enthoustic",
+        "Enthosuastic",
+        "Enthaustsiastic"
+      ],
       "answer": "ক",
-      "explanation": "মৃত প্রাণীর চামড়া দিয়ে অবিকল রূপ তৈরি করার কারিগরকে 'Taxidermist' (T-A-X-I-D-E-R-M-I-S-T) বলা হয়।"
+      "explanation": "মৃত প্রাণীর চামড়া দিয়ে অবিকল রূপ তৈরি করার কারিগরকে 'Taxidermist' (T-A-X-I-D-E-R-M-I-S-T) বলা হয়।",
+      "ans": 0,
+      "correct_answer": "Enthusiastic"
     },
     {
       "id": 18,
       "question": "Identify the correct speeling-",
-      "options": {
-        "ক": "Precedence",
-        "খ": "Presedence",
-        "গ": "presidence",
-        "ঘ": "presedence"
-      },
+      "options": [
+        "Precedence",
+        "Presedence",
+        "presidence",
+        "presedence"
+      ],
       "answer": "ক",
-      "explanation": "মৃত প্রাণীর চামড়া দিয়ে অবিকল রূপ তৈরি করার কারিগরকে 'Taxidermist' (T-A-X-I-D-E-R-M-I-S-T) বলা হয়।"
+      "explanation": "মৃত প্রাণীর চামড়া দিয়ে অবিকল রূপ তৈরি করার কারিগরকে 'Taxidermist' (T-A-X-I-D-E-R-M-I-S-T) বলা হয়।",
+      "ans": 0,
+      "correct_answer": "Precedence"
     },
     {
       "id": 19,
       "question": "Identify the correct speeling-",
-      "options": {
-        "ক": "paleontology",
-        "খ": "paletonology",
-        "গ": "paleteonology",
-        "ঘ": "palioteontology"
-      },
+      "options": [
+        "paleontology",
+        "paletonology",
+        "paleteonology",
+        "palioteontology"
+      ],
       "answer": "ক",
-      "explanation": "মৃত প্রাণীর চামড়া দিয়ে অবিকল রূপ তৈরি করার কারিগরকে 'Taxidermist' (T-A-X-I-D-E-R-M-I-S-T) বলা হয়।"
+      "explanation": "মৃত প্রাণীর চামড়া দিয়ে অবিকল রূপ তৈরি করার কারিগরকে 'Taxidermist' (T-A-X-I-D-E-R-M-I-S-T) বলা হয়।",
+      "ans": 0,
+      "correct_answer": "paleontology"
     },
     {
       "id": 20,
       "question": "Identify the correct speeling-",
-      "options": {
-        "ক": "taxidarmist",
-        "খ": "taxydermist",
-        "গ": "Taxydermist",
-        "ঘ": "taxidermist"
-      },
+      "options": [
+        "taxidarmist",
+        "taxydermist",
+        "Taxydermist",
+        "taxidermist"
+      ],
       "answer": "ঘ",
-      "explanation": "মৃত প্রাণীর চামড়া দিয়ে অবিকল রূপ তৈরি করার কারিগরকে 'Taxidermist' (T-A-X-I-D-E-R-M-I-S-T) বলা হয়।"
+      "explanation": "মৃত প্রাণীর চামড়া দিয়ে অবিকল রূপ তৈরি করার কারিগরকে 'Taxidermist' (T-A-X-I-D-E-R-M-I-S-T) বলা হয়।",
+      "ans": 3,
+      "correct_answer": "taxidermist"
     }
   ]
 }

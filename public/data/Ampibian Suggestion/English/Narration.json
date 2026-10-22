@@ -8,8 +8,10 @@
       "He says that he was well",
       "He says that he has been well"
     ],
-    "answer": "He says that he is well",
-    "explanation": "Reporting verb Present Tense (says)-এ থাকলে Reported Speech-এর Tense পরিবর্তিত হয় না: 'He says that he is well'।"
+    "answer": "খ",
+    "explanation": "Reporting verb Present Tense (says)-এ থাকলে Reported Speech-এর Tense পরিবর্তিত হয় না: 'He says that he is well'।",
+    "ans": 1,
+    "correct_answer": "He says that he is well"
   },
   {
     "id": 2,
@@ -20,8 +22,10 @@
       "He said that he was well.",
       "He said that he is well."
     ],
-    "answer": "He said that he was well.",
-    "explanation": "Reporting verb Past Tense (said)-এ থাকায় Present Indefinite পরিবর্তিত হয়ে Past Indefinite হয়: 'He said that he was well.'।"
+    "answer": "গ",
+    "explanation": "Reporting verb Past Tense (said)-এ থাকায় Present Indefinite পরিবর্তিত হয়ে Past Indefinite হয়: 'He said that he was well.'।",
+    "ans": 2,
+    "correct_answer": "He said that he was well."
   },
   {
     "id": 3,
@@ -32,8 +36,10 @@
       "Abid told me that I had been ill.",
       "Abid told me that he has been ill."
     ],
-    "answer": "Abid told me that he had been ill.",
-    "explanation": "Direct Speech-এর Past Indefinite (was ill) Indirect Speech-এ Past Perfect Tense (had been ill)-এ রূপান্তরিত হয়: 'Abid told me that he had been ill.'।"
+    "answer": "খ",
+    "explanation": "Direct Speech-এর Past Indefinite (was ill) Indirect Speech-এ Past Perfect Tense (had been ill)-এ রূপান্তরিত হয়: 'Abid told me that he had been ill.'।",
+    "ans": 1,
+    "correct_answer": "Abid told me that he had been ill."
   },
   {
     "id": 4,
@@ -44,8 +50,10 @@
       "Abul said that I had been busy",
       "Abul said that he had been busy"
     ],
-    "answer": "Abul said that he had been busy",
-    "explanation": "Past Indefinite (was) পরিবর্তিত হয়ে Past Perfect (had been) হয়: 'Abul said that he had been busy'।"
+    "answer": "ঘ",
+    "explanation": "Past Indefinite (was) পরিবর্তিত হয়ে Past Perfect (had been) হয়: 'Abul said that he had been busy'।",
+    "ans": 3,
+    "correct_answer": "Abul said that he had been busy"
   },
   {
     "id": 5,
@@ -56,8 +64,10 @@
       "Amin said that I shall go to school",
       "Amin said that I would go to school"
     ],
-    "answer": "Amin said that he would go to school",
-    "explanation": "1st Person Subject 'I' পরিবর্তিত হয়ে 'he' হওয়ায় shall-এর পরিবর্তে 'would' বসে: 'Amin said that he would go to school'।"
+    "answer": "খ",
+    "explanation": "1st Person Subject 'I' পরিবর্তিত হয়ে 'he' হওয়ায় shall-এর পরিবর্তে 'would' বসে: 'Amin said that he would go to school'।",
+    "ans": 1,
+    "correct_answer": "Amin said that he would go to school"
   },
   {
     "id": 6,
@@ -68,8 +78,10 @@
       "Asad told me that he wanted to go to school then.",
       "Asad told me that he wants to go to school then."
     ],
-    "answer": "Asad told me that he wanted to go to school then.",
-    "explanation": "said to -> told me, want -> wanted এবং সময়সূচক শব্দ 'now' পরিবর্তিত হয়ে 'then' হয়: 'Asad told me that he wanted to go to school then.'।"
+    "answer": "গ",
+    "explanation": "said to -> told me, want -> wanted এবং সময়সূচক শব্দ 'now' পরিবর্তিত হয়ে 'then' হয়: 'Asad told me that he wanted to go to school then.'।",
+    "ans": 2,
+    "correct_answer": "Asad told me that he wanted to go to school then."
   },
   {
     "id": 7,
@@ -80,8 +92,10 @@
       "Farida told her mother that she should go to bed",
       "Farida told her mother that she will go to bed"
     ],
-    "answer": "Farida told her mother that she would go to bed then",
-    "explanation": "shall -> would এবং 'now' পরিবর্তিত হয়ে 'then' হয়: 'Farida told her mother that she would go to bed then'।"
+    "answer": "ক",
+    "explanation": "shall -> would এবং 'now' পরিবর্তিত হয়ে 'then' হয়: 'Farida told her mother that she would go to bed then'।",
+    "ans": 0,
+    "correct_answer": "Farida told her mother that she would go to bed then"
   },
   {
     "id": 8,
@@ -92,8 +106,10 @@
       "whom",
       "who"
     ],
-    "answer": "that",
-    "explanation": "Assertive sentence-এর Indirect Narration-এ দুটি অংশকে যুক্ত করতে Conjunction হিসেবে 'that' বসে।"
+    "answer": "ক",
+    "explanation": "Assertive sentence-এর Indirect Narration-এ দুটি অংশকে যুক্ত করতে Conjunction হিসেবে 'that' বসে।",
+    "ans": 0,
+    "correct_answer": "that"
   },
   {
     "id": 9,
@@ -104,8 +120,10 @@
       "He said that the train reached at nine.",
       "He said that the train has been reached at nine."
     ],
-    "answer": "He said that the train had reached at nine.",
-    "explanation": "Direct Speech-এর Past Indefinite (reached) Indirect-এ Past Perfect (had reached) হয়: 'He said that the train had reached at nine.'।"
+    "answer": "খ",
+    "explanation": "Direct Speech-এর Past Indefinite (reached) Indirect-এ Past Perfect (had reached) হয়: 'He said that the train had reached at nine.'।",
+    "ans": 1,
+    "correct_answer": "He said that the train had reached at nine."
   },
   {
     "id": 10,
@@ -116,8 +134,10 @@
       "Anwar said that he had done the sum",
       "Anwar sid that he has done the sum"
     ],
-    "answer": "Anwar said that he had done the sum",
-    "explanation": "Present Perfect Tense (have done) পরিবর্তিত হয়ে Past Perfect (had done) হয়: 'Anwar said that he had done the sum'।"
+    "answer": "গ",
+    "explanation": "Present Perfect Tense (have done) পরিবর্তিত হয়ে Past Perfect (had done) হয়: 'Anwar said that he had done the sum'।",
+    "ans": 2,
+    "correct_answer": "Anwar said that he had done the sum"
   },
   {
     "id": 11,
@@ -128,8 +148,10 @@
       "My father told me that they were going there the next day.",
       "My father told me that they are going there the next day."
     ],
-    "answer": "My father told me that they were going there the next day.",
-    "explanation": "Present Continuous (are going) পরিবর্তিত হয়ে Past Continuous (were going) এবং 'tomorrow' পরিবর্তিত হয়ে 'the next day' হয়।"
+    "answer": "গ",
+    "explanation": "Present Continuous (are going) পরিবর্তিত হয়ে Past Continuous (were going) এবং 'tomorrow' পরিবর্তিত হয়ে 'the next day' হয়।",
+    "ans": 2,
+    "correct_answer": "My father told me that they were going there the next day."
   },
   {
     "id": 12,
@@ -140,8 +162,10 @@
       "Rony said that the train reached at nine.",
       "Rony said that the train reaches at nine."
     ],
-    "answer": "Rony said that the train had reached at nine.",
-    "explanation": "Past Indefinite Tense (reached) পরিবর্তিত হয়ে Past Perfect (had reached) হয়: 'Rony said that the train had reached at nine.'।"
+    "answer": "খ",
+    "explanation": "Past Indefinite Tense (reached) পরিবর্তিত হয়ে Past Perfect (had reached) হয়: 'Rony said that the train had reached at nine.'।",
+    "ans": 1,
+    "correct_answer": "Rony said that the train had reached at nine."
   },
   {
     "id": 13,
@@ -152,8 +176,10 @@
       "The teacher said that he will not teach him English",
       "The teacher said that he would not teach him English"
     ],
-    "answer": "The teacher said that he would not teach him English",
-    "explanation": "shall পরিবর্তিত হয়ে 3rd person singular-এর সাথে 'would' বসে: 'The teacher said that he would not teach him English'।"
+    "answer": "ঘ",
+    "explanation": "shall পরিবর্তিত হয়ে 3rd person singular-এর সাথে 'would' বসে: 'The teacher said that he would not teach him English'।",
+    "ans": 3,
+    "correct_answer": "The teacher said that he would not teach him English"
   },
   {
     "id": 14,
@@ -164,8 +190,10 @@
       "He said that he would have gone home the next day",
       "He said that he should go home tomorrow"
     ],
-    "answer": "He said that he would go home the next day",
-    "explanation": "shall -> would এবং 'tomorrow' পরিবর্তিত হয়ে 'the next day' হয়: 'He said that he would go home the next day'।"
+    "answer": "ক",
+    "explanation": "shall -> would এবং 'tomorrow' পরিবর্তিত হয়ে 'the next day' হয়: 'He said that he would go home the next day'।",
+    "ans": 0,
+    "correct_answer": "He said that he would go home the next day"
   },
   {
     "id": 15,
@@ -176,8 +204,10 @@
       "You told me that I am right",
       "You told me that I were right"
     ],
-    "answer": "You told me that I was right",
-    "explanation": "2nd Person Object 'me' অনুযায়ী 'I' হয় এবং are -> was: 'You told me that I was right'।"
+    "answer": "ক",
+    "explanation": "2nd Person Object 'me' অনুযায়ী 'I' হয় এবং are -> was: 'You told me that I was right'।",
+    "ans": 0,
+    "correct_answer": "You told me that I was right"
   },
   {
     "id": 16,
@@ -188,8 +218,10 @@
       "He said that he knows this boy.",
       "He said that he knew the boy."
     ],
-    "answer": "Karim said that he knew that boy.",
-    "explanation": "know -> knew এবং 'this' পরিবর্তিত হয়ে 'that' হয়: 'Karim said that he knew that boy.'।"
+    "answer": "খ",
+    "explanation": "know -> knew এবং 'this' পরিবর্তিত হয়ে 'that' হয়: 'Karim said that he knew that boy.'।",
+    "ans": 1,
+    "correct_answer": "Karim said that he knew that boy."
   },
   {
     "id": 17,
@@ -200,8 +232,10 @@
       "He said that he will go to office.",
       "He said that he should go to office."
     ],
-    "answer": "He said that he would go to office.",
-    "explanation": "shall পরিবর্তিত হয়ে 'would' রূপ ধারণ করে: 'He said that he would go to office.'।"
+    "answer": "খ",
+    "explanation": "shall পরিবর্তিত হয়ে 'would' রূপ ধারণ করে: 'He said that he would go to office.'।",
+    "ans": 1,
+    "correct_answer": "He said that he would go to office."
   },
   {
     "id": 18,
@@ -212,8 +246,10 @@
       "He said that he had gone to Tangail.",
       "He said that he went to Tangail."
     ],
-    "answer": "He said that he had gone to Tangail.",
-    "explanation": "Past Indefinite (went) পরিবর্তিত হয়ে Past Perfect (had gone) হয়: 'He said that he had gone to Tangail.'।"
+    "answer": "গ",
+    "explanation": "Past Indefinite (went) পরিবর্তিত হয়ে Past Perfect (had gone) হয়: 'He said that he had gone to Tangail.'।",
+    "ans": 2,
+    "correct_answer": "He said that he had gone to Tangail."
   },
   {
     "id": 19,
@@ -224,8 +260,10 @@
       "He told me that he didn't believe me.",
       "He told me he wouldn't believe me."
     ],
-    "answer": "He told me that he didn't believe me.",
-    "explanation": "Present Indefinite (don't believe) পরিবর্তিত হয়ে Past Indefinite (didn't believe) হয়: 'He told me that he didn't believe me.'।"
+    "answer": "গ",
+    "explanation": "Present Indefinite (don't believe) পরিবর্তিত হয়ে Past Indefinite (didn't believe) হয়: 'He told me that he didn't believe me.'।",
+    "ans": 2,
+    "correct_answer": "He told me that he didn't believe me."
   },
   {
     "id": 20,
@@ -236,8 +274,10 @@
       "He said that he can do the work",
       "He said that I could do the work"
     ],
-    "answer": "He said that he could do the work",
-    "explanation": "Modal auxiliary 'can' পরিবর্তিত হয়ে 'could' হয়: 'He said that he could do the work'।"
+    "answer": "খ",
+    "explanation": "Modal auxiliary 'can' পরিবর্তিত হয়ে 'could' হয়: 'He said that he could do the work'।",
+    "ans": 1,
+    "correct_answer": "He said that he could do the work"
   },
   {
     "id": 21,
@@ -248,8 +288,10 @@
       "Anis said that he had to write a letter",
       "Anis said he must write a letter."
     ],
-    "answer": "Anis said that he had to write a letter",
-    "explanation": "সাধারণ ও স্বাভাবিক বাধ্যবাধকতা বোঝাতে Direct-এর 'must' Indirect-এ 'had to'-তে পরিবর্তিত হয়: 'Anis said that he had to write a letter'।"
+    "answer": "গ",
+    "explanation": "সাধারণ ও স্বাভাবিক বাধ্যবাধকতা বোঝাতে Direct-এর 'must' Indirect-এ 'had to'-তে পরিবর্তিত হয়: 'Anis said that he had to write a letter'।",
+    "ans": 2,
+    "correct_answer": "Anis said that he had to write a letter"
   },
   {
     "id": 22,
@@ -260,8 +302,10 @@
       "What my name is , kamal asked",
       "Kamal asked me what my name was."
     ],
-    "answer": "Kamal asked me what my name was.",
-    "explanation": "Interrogative Wh-question-এ Reporting verb 'asked' এবং বাক্যটি Assertive রূপ (what my name was) ধারণ করে।"
+    "answer": "ঘ",
+    "explanation": "Interrogative Wh-question-এ Reporting verb 'asked' এবং বাক্যটি Assertive রূপ (what my name was) ধারণ করে।",
+    "ans": 3,
+    "correct_answer": "Kamal asked me what my name was."
   },
   {
     "id": 23,
@@ -272,8 +316,10 @@
       "He asks me what I am doing",
       "He asks me what I was doing"
     ],
-    "answer": "He asked me what I was doing",
-    "explanation": "Interrogative sentence-এ 'said to' পরিবর্তিত হয়ে 'asked' এবং Present Continuous পরিবর্তিত হয়ে Past Continuous (what I was doing) হয়।"
+    "answer": "ক",
+    "explanation": "Interrogative sentence-এ 'said to' পরিবর্তিত হয়ে 'asked' এবং Present Continuous পরিবর্তিত হয়ে Past Continuous (what I was doing) হয়।",
+    "ans": 0,
+    "correct_answer": "He asked me what I was doing"
   },
   {
     "id": 24,
@@ -284,8 +330,10 @@
       "He asked to me which book I wanted.",
       "He said to me which book I have wanted."
     ],
-    "answer": "He asked me which book I wanted.",
-    "explanation": "Interrogative-এ 'asked me' এবং Present Indefinite পরিবর্তিত হয়ে Past Indefinite হয়: 'He asked me which book I wanted.'।"
+    "answer": "খ",
+    "explanation": "Interrogative-এ 'asked me' এবং Present Indefinite পরিবর্তিত হয়ে Past Indefinite হয়: 'He asked me which book I wanted.'।",
+    "ans": 1,
+    "correct_answer": "He asked me which book I wanted."
   },
   {
     "id": 25,
@@ -296,8 +344,10 @@
       "He asked her what does she want",
       "He asked her what did she want"
     ],
-    "answer": "He told her what she wanted",
-    "explanation": "Wh-question Indirect-এ Assertive কাঠামো গ্রহণ করে: 'He told her what she wanted'।"
+    "answer": "খ",
+    "explanation": "Wh-question Indirect-এ Assertive কাঠামো গ্রহণ করে: 'He told her what she wanted'।",
+    "ans": 1,
+    "correct_answer": "He told her what she wanted"
   },
   {
     "id": 26,
@@ -308,8 +358,10 @@
       "He said to me that I had done it",
       "He enquired of me if had done it"
     ],
-    "answer": "He enquired of me how I had done it.",
-    "explanation": "Past Indefinite (did you do) পরিবর্তিত হয়ে Past Perfect (had done) এবং অনুসন্ধান অর্থে 'enquired of me' বসে।"
+    "answer": "ক",
+    "explanation": "Past Indefinite (did you do) পরিবর্তিত হয়ে Past Perfect (had done) এবং অনুসন্ধান অর্থে 'enquired of me' বসে।",
+    "ans": 0,
+    "correct_answer": "He enquired of me how I had done it."
   },
   {
     "id": 27,
@@ -320,8 +372,10 @@
       "He asked me why did I beat his dog",
       "He inquired why I beat his dog"
     ],
-    "answer": "He asked me why I had beaten his dog",
-    "explanation": "Present Perfect (have you beaten) পরিবর্তিত হয়ে Past Perfect (I had beaten his dog) হয়।"
+    "answer": "ক",
+    "explanation": "Present Perfect (have you beaten) পরিবর্তিত হয়ে Past Perfect (I had beaten his dog) হয়।",
+    "ans": 0,
+    "correct_answer": "He asked me why I had beaten his dog"
   },
   {
     "id": 28,
@@ -332,8 +386,10 @@
       "He asked her that he is weeping",
       "None of these"
     ],
-    "answer": "He asked her if she was weeping",
-    "explanation": "Yes/No প্রশ্নবোধক বাক্যে Conjunction হিসেবে 'if' বা 'whether' বসে এবং Tense পরিবর্তিত হয়ে Past Continuous হয়: 'He asked her if she was weeping'।"
+    "answer": "খ",
+    "explanation": "Yes/No প্রশ্নবোধক বাক্যে Conjunction হিসেবে 'if' বা 'whether' বসে এবং Tense পরিবর্তিত হয়ে Past Continuous হয়: 'He asked her if she was weeping'।",
+    "ans": 1,
+    "correct_answer": "He asked her if she was weeping"
   },
   {
     "id": 29,
@@ -344,8 +400,10 @@
       "She asked me whether I am happy in my new job",
       "She asked me if I had been happy in my new job"
     ],
-    "answer": "She asked me if I was happy in my new job",
-    "explanation": "Yes/No প্রশ্নে Conjunction 'if' এবং are -> was বসে: 'She asked me if I was happy in my new job'।"
+    "answer": "ক",
+    "explanation": "Yes/No প্রশ্নে Conjunction 'if' এবং are -> was বসে: 'She asked me if I was happy in my new job'।",
+    "ans": 0,
+    "correct_answer": "She asked me if I was happy in my new job"
   },
   {
     "id": 30,
@@ -356,8 +414,10 @@
       "I asked him if he will follow me",
       "I asked to him if he would follow me"
     ],
-    "answer": "I asked him if he would follow me",
-    "explanation": "Will you follow me -> if he would follow me: 'I asked him if he would follow me'।"
+    "answer": "খ",
+    "explanation": "Will you follow me -> if he would follow me: 'I asked him if he would follow me'।",
+    "ans": 1,
+    "correct_answer": "I asked him if he would follow me"
   },
   {
     "id": 31,
@@ -368,8 +428,10 @@
       "The teacher said that they have done worsed.",
       "The teacher remarked that they do it bad."
     ],
-    "answer": "The teacher remarked that they had all done it very badly.",
-    "explanation": "Present Perfect (have all done) পরিবর্তিত হয়ে Past Perfect (had all done it) হয়: 'The teacher remarked that they had all done it very badly.'।"
+    "answer": "ক",
+    "explanation": "Present Perfect (have all done) পরিবর্তিত হয়ে Past Perfect (had all done it) হয়: 'The teacher remarked that they had all done it very badly.'।",
+    "ans": 0,
+    "correct_answer": "The teacher remarked that they had all done it very badly."
   },
   {
     "id": 32,
@@ -380,8 +442,10 @@
       "You politely asked me that whether I would help you.",
       "You politely asked me that if I should help you."
     ],
-    "answer": "You politely asked me if I would help you.",
-    "explanation": "বিনম্র অনুরোধসূচক প্রশ্নে 'politely asked me if I would help you' যথোপযুক্ত Indirect রূপ।"
+    "answer": "ক",
+    "explanation": "বিনম্র অনুরোধসূচক প্রশ্নে 'politely asked me if I would help you' যথোপযুক্ত Indirect রূপ।",
+    "ans": 0,
+    "correct_answer": "You politely asked me if I would help you."
   },
   {
     "id": 33,
@@ -392,8 +456,10 @@
       "He asked me if I knew him",
       "He asked me did I know him"
     ],
-    "answer": "He asked me if I knew him",
-    "explanation": "Yes/No প্রশ্নে 'asked me if' এবং know -> knew বসে: 'He asked me if I knew him'।"
+    "answer": "গ",
+    "explanation": "Yes/No প্রশ্নে 'asked me if' এবং know -> knew বসে: 'He asked me if I knew him'।",
+    "ans": 2,
+    "correct_answer": "He asked me if I knew him"
   },
   {
     "id": 34,
@@ -404,8 +470,10 @@
       "I said that it should be done.",
       "I said that let it be done."
     ],
-    "answer": "I ordered to do it.",
-    "explanation": "Imperative বাক্যে আদেশ বোঝাতে 'ordered to + base verb' বসে: 'I ordered to do it.'।"
+    "answer": "খ",
+    "explanation": "Imperative বাক্যে আদেশ বোঝাতে 'ordered to + base verb' বসে: 'I ordered to do it.'।",
+    "ans": 1,
+    "correct_answer": "I ordered to do it."
   },
   {
     "id": 35,
@@ -416,8 +484,10 @@
       "Nafis ordered Romel to go away",
       "Nafis asks Romel to go away"
     ],
-    "answer": "Nafis ordered Romel to go away",
-    "explanation": "আদেশসূচক Imperative বাক্যে 'ordered Romel to go away' সঠিক Indirect রূপ।"
+    "answer": "গ",
+    "explanation": "আদেশসূচক Imperative বাক্যে 'ordered Romel to go away' সঠিক Indirect রূপ।",
+    "ans": 2,
+    "correct_answer": "Nafis ordered Romel to go away"
   },
   {
     "id": 36,
@@ -428,8 +498,10 @@
       "The teacher said Alam to work regularly",
       "The teacher told to Alam to work regularly"
     ],
-    "answer": "The teacher advised Alam to work regularly",
-    "explanation": "উপদেশসূচক বাক্যে Reporting verb হিসেবে 'advised' এবং 'to work regularly' বসে।"
+    "answer": "খ",
+    "explanation": "উপদেশসূচক বাক্যে Reporting verb হিসেবে 'advised' এবং 'to work regularly' বসে।",
+    "ans": 1,
+    "correct_answer": "The teacher advised Alam to work regularly"
   },
   {
     "id": 37,
@@ -440,8 +512,10 @@
       "The boss ordered the employees don't waste their time",
       "The boss forget the employees not to waste the time"
     ],
-    "answer": "The boss advised the employees not to waste their time",
-    "explanation": "নেতিবাচক উপদেশে 'advised ... not to waste their time' রূপটি শুদ্ধ।"
+    "answer": "ক",
+    "explanation": "নেতিবাচক উপদেশে 'advised ... not to waste their time' রূপটি শুদ্ধ।",
+    "ans": 0,
+    "correct_answer": "The boss advised the employees not to waste their time"
   },
   {
     "id": 38,
@@ -452,8 +526,10 @@
       "He suggested that he had seen a doctor",
       "He proposed to see a doctor"
     ],
-    "answer": "He advised him to see a doctor",
-    "explanation": "'Had better' উপদেশ নির্দেশ করায় Indirect-এ 'advised him to see a doctor' হয়।"
+    "answer": "ক",
+    "explanation": "'Had better' উপদেশ নির্দেশ করায় Indirect-এ 'advised him to see a doctor' হয়।",
+    "ans": 0,
+    "correct_answer": "He advised him to see a doctor"
   },
   {
     "id": 39,
@@ -464,8 +540,10 @@
       "He asked me to go home together",
       "He urged me to go home with him."
     ],
-    "answer": "He proposed to me that we should go home together",
-    "explanation": "'Let us' দ্বারা প্রস্তাব বোঝাতে 'proposed to me that we should go home together' নিয়ম প্রযোজ্য।"
+    "answer": "খ",
+    "explanation": "'Let us' দ্বারা প্রস্তাব বোঝাতে 'proposed to me that we should go home together' নিয়ম প্রযোজ্য।",
+    "ans": 1,
+    "correct_answer": "He proposed to me that we should go home together"
   },
   {
     "id": 40,
@@ -476,8 +554,10 @@
       "He proposed to his friends that they should play then.",
       "He proposed to his friends that we should play then."
     ],
-    "answer": "He proposed to his friends that they should play then.",
-    "explanation": "'Let us' দ্বারা প্রস্তাব বোঝাতে 'proposed to his friends that they should play then' নিয়ম প্রযোজ্য ('now' পরিবর্তিত হয়ে 'then' হয়)।"
+    "answer": "গ",
+    "explanation": "'Let us' দ্বারা প্রস্তাব বোঝাতে 'proposed to his friends that they should play then' নিয়ম প্রযোজ্য ('now' পরিবর্তিত হয়ে 'then' হয়)।",
+    "ans": 2,
+    "correct_answer": "He proposed to his friends that they should play then."
   },
   {
     "id": 41,
@@ -488,8 +568,10 @@
       "My friend suggested that I should leave the place",
       "My friend proposed to me that we should leave the place"
     ],
-    "answer": "My friend proposed to me that we should leave the place",
-    "explanation": "'Let's' থাকলে প্রস্তাব বোঝাতে 'proposed to me that we should leave the place' সঠিক।"
+    "answer": "ঘ",
+    "explanation": "'Let's' থাকলে প্রস্তাব বোঝাতে 'proposed to me that we should leave the place' সঠিক।",
+    "ans": 3,
+    "correct_answer": "My friend proposed to me that we should leave the place"
   },
   {
     "id": 42,
@@ -500,8 +582,10 @@
       "She said that she come in",
       "She requested that she may come in"
     ],
-    "answer": "She requested that she might come in",
-    "explanation": "'Let me' দ্বারা অনুমতি প্রার্থনা বোঝাতে 'requested that she might come in' ব্যবহৃত হয়।"
+    "answer": "খ",
+    "explanation": "'Let me' দ্বারা অনুমতি প্রার্থনা বোঝাতে 'requested that she might come in' ব্যবহৃত হয়।",
+    "ans": 1,
+    "correct_answer": "She requested that she might come in"
   },
   {
     "id": 43,
@@ -512,8 +596,10 @@
       "The boy said that he must have a pen",
       "The boy told that he would have a pen"
     ],
-    "answer": "The boy said that he might have a pen",
-    "explanation": "অনুমতি বা ইচ্ছা প্রকাশে 'said that he might have a pen' সঠিক রূপ।"
+    "answer": "ক",
+    "explanation": "অনুমতি বা ইচ্ছা প্রকাশে 'said that he might have a pen' সঠিক রূপ।",
+    "ans": 0,
+    "correct_answer": "The boy said that he might have a pen"
   },
   {
     "id": 44,
@@ -524,8 +610,10 @@
       "The poorman begged that he might had some food.",
       "The poorman begged that he might have some food."
     ],
-    "answer": "The poorman begged that I might have some food.",
-    "explanation": "ভিক্ষা বা আকুল প্রার্থনা প্রকাশে 'begged that I might have some food' রূপটি ব্যবহৃত হয়েছে।"
+    "answer": "খ",
+    "explanation": "ভিক্ষা বা আকুল প্রার্থনা প্রকাশে 'begged that I might have some food' রূপটি ব্যবহৃত হয়েছে।",
+    "ans": 1,
+    "correct_answer": "The poorman begged that I might have some food."
   },
   {
     "id": 45,
@@ -536,8 +624,10 @@
       "He said that I might he happy",
       "He wished that I might be happy"
     ],
-    "answer": "He wished that I might be happy",
-    "explanation": "Optative বাক্যে 'May' পরিবর্তিত হয়ে 'might' এবং Reporting verb 'wished' বসে: 'He wished that I might be happy'।"
+    "answer": "ঘ",
+    "explanation": "Optative বাক্যে 'May' পরিবর্তিত হয়ে 'might' এবং Reporting verb 'wished' বসে: 'He wished that I might be happy'।",
+    "ans": 3,
+    "correct_answer": "He wished that I might be happy"
   },
   {
     "id": 46,
@@ -548,8 +638,10 @@
       "He wished me that I should have wealth.",
       "He said to me that I might have wealth."
     ],
-    "answer": "He wished me that I might have wealth.",
-    "explanation": "প্রার্থনা বা আশীর্বাদ প্রকাশে 'wished me that I might have wealth' সঠিক Indirect রূপ।"
+    "answer": "ক",
+    "explanation": "প্রার্থনা বা আশীর্বাদ প্রকাশে 'wished me that I might have wealth' সঠিক Indirect রূপ।",
+    "ans": 0,
+    "correct_answer": "He wished me that I might have wealth."
   },
   {
     "id": 47,
@@ -560,8 +652,10 @@
       "He exclaimed with sorrow that he has ruined",
       "He exclaimed with sorrow that he has been ruined"
     ],
-    "answer": "He exclaimed with sorrow that he was ruined",
-    "explanation": "'Alas!' যুক্ত দুঃখে Exclamatory Narration-এ 'exclaimed with sorrow that he was ruined' বসে।"
+    "answer": "খ",
+    "explanation": "'Alas!' যুক্ত দুঃখে Exclamatory Narration-এ 'exclaimed with sorrow that he was ruined' বসে।",
+    "ans": 1,
+    "correct_answer": "He exclaimed with sorrow that he was ruined"
   },
   {
     "id": 48,
@@ -572,8 +666,10 @@
       "He exclaimed with sorrow that he was undone",
       "He exclaimed with sorrow that he were undone"
     ],
-    "answer": "He exclaimed with sorrow that he was undone",
-    "explanation": "অনুতাপ ও দুঃখ প্রকাশে 'exclaimed with sorrow that he was undone' শুদ্ধ।"
+    "answer": "গ",
+    "explanation": "অনুতাপ ও দুঃখ প্রকাশে 'exclaimed with sorrow that he was undone' শুদ্ধ।",
+    "ans": 2,
+    "correct_answer": "He exclaimed with sorrow that he was undone"
   },
   {
     "id": 49,
@@ -584,8 +680,10 @@
       "He exclaimed that the sight is very charming",
       "He exclaimed that the sight is charming"
     ],
-    "answer": "He exclaimed that the sight was very charming",
-    "explanation": "বিস্ময়সূচক বাক্যে 'exclaimed that the sight was very charming' সঠিক রূপ।"
+    "answer": "ক",
+    "explanation": "বিস্ময়সূচক বাক্যে 'exclaimed that the sight was very charming' সঠিক রূপ।",
+    "ans": 0,
+    "correct_answer": "He exclaimed that the sight was very charming"
   },
   {
     "id": 50,
@@ -596,8 +694,10 @@
       "Anwar exclaimed that he was a great fool.",
       "Anwar told that he had been a great fool."
     ],
-    "answer": "Anwar exclaimed that he was a great fool.",
-    "explanation": "নিজের বোকামিতে বিস্ময় ও ক্ষোভ প্রকাশ করায় 'exclaimed that he was a great fool' বসে।"
+    "answer": "গ",
+    "explanation": "নিজের বোকামিতে বিস্ময় ও ক্ষোভ প্রকাশ করায় 'exclaimed that he was a great fool' বসে।",
+    "ans": 2,
+    "correct_answer": "Anwar exclaimed that he was a great fool."
   },
   {
     "id": 51,
@@ -608,8 +708,10 @@
       "Hew exclaimed that it is great pity",
       "He exclaimed that it was a great pity"
     ],
-    "answer": "He exclaimed that it was a great pity",
-    "explanation": "সহানুভূতি বা অনুতাপ প্রকাশে 'exclaimed that it was a great pity' সঠিক।"
+    "answer": "ঘ",
+    "explanation": "সহানুভূতি বা অনুতাপ প্রকাশে 'exclaimed that it was a great pity' সঠিক।",
+    "ans": 3,
+    "correct_answer": "He exclaimed that it was a great pity"
   },
   {
     "id": 52,
@@ -620,8 +722,10 @@
       "He exclaimed that what a beautiful bird.",
       "He said that it was a very beautiful bird."
     ],
-    "answer": "He exclaimed that it was a very beautiful bird.",
-    "explanation": "পাখির সৌন্দর্যে মুগ্ধতা প্রকাশে 'exclaimed that it was a very beautiful bird' শুদ্ধ।"
+    "answer": "খ",
+    "explanation": "পাখির সৌন্দর্যে মুগ্ধতা প্রকাশে 'exclaimed that it was a very beautiful bird' শুদ্ধ।",
+    "ans": 1,
+    "correct_answer": "He exclaimed that it was a very beautiful bird."
   },
   {
     "id": 53,
@@ -632,8 +736,10 @@
       "He said Mr. Kamal good morning",
       "He told Mr. kamal good morning"
     ],
-    "answer": "He wished Mr. Kamal good morning",
-    "explanation": "অভিবাদন বা শুভেচ্ছা জানাতে 'wished Mr. Kamal good morning' ব্যবহৃত হয়।"
+    "answer": "ক",
+    "explanation": "অভিবাদন বা শুভেচ্ছা জানাতে 'wished Mr. Kamal good morning' ব্যবহৃত হয়।",
+    "ans": 0,
+    "correct_answer": "He wished Mr. Kamal good morning"
   },
   {
     "id": 54,
@@ -644,8 +750,10 @@
       "The man wished his friends good morning.",
       "The man addressing his friends good morning."
     ],
-    "answer": "The man wished his friends good morning.",
-    "explanation": "বন্ধুদের শুভ সকাল জানাতে 'The man wished his friends good morning.' সঠিক।"
+    "answer": "গ",
+    "explanation": "বন্ধুদের শুভ সকাল জানাতে 'The man wished his friends good morning.' সঠিক।",
+    "ans": 2,
+    "correct_answer": "The man wished his friends good morning."
   },
   {
     "id": 55,
@@ -656,8 +764,10 @@
       "He respectfully wish good morning to the person spoken to",
       "He respectfully wished good morning to the person spoke to"
     ],
-    "answer": "He respectfully wished good morning to the person spoken to",
-    "explanation": "'Sir' সম্বোধনের জন্য 'respectfully' বসে: 'He respectfully wished good morning to the person spoken to'।"
+    "answer": "ক",
+    "explanation": "'Sir' সম্বোধনের জন্য 'respectfully' বসে: 'He respectfully wished good morning to the person spoken to'।",
+    "ans": 0,
+    "correct_answer": "He respectfully wished good morning to the person spoken to"
   },
   {
     "id": 56,
@@ -668,8 +778,10 @@
       "He thanked you",
       "He thanks you"
     ],
-    "answer": "He thanked me",
-    "explanation": "'Thank you' যুক্ত বাক্যকে Indirect করতে Subject + thanked + object বসে: 'He thanked me'।"
+    "answer": "ক",
+    "explanation": "'Thank you' যুক্ত বাক্যকে Indirect করতে Subject + thanked + object বসে: 'He thanked me'।",
+    "ans": 0,
+    "correct_answer": "He thanked me"
   },
   {
     "id": 57,
@@ -680,8 +792,10 @@
       "The teacher thanked the boys.",
       "The boys were thanked by teacher ."
     ],
-    "answer": "The teacher thanked the boys.",
-    "explanation": "শিক্ষকের ধন্যবাদ জ্ঞাপনে 'The teacher thanked the boys.' সঠিক রূপ।"
+    "answer": "গ",
+    "explanation": "শিক্ষকের ধন্যবাদ জ্ঞাপনে 'The teacher thanked the boys.' সঠিক রূপ।",
+    "ans": 2,
+    "correct_answer": "The teacher thanked the boys."
   },
   {
     "id": 58,
@@ -692,8 +806,10 @@
       "You said to me that I do not do my duty.",
       "You told me that I did not do my duty."
     ],
-    "answer": "You told me that I did not do my duty.",
-    "explanation": "পরোক্ষ উক্তির গঠনটি অবিকল সংরক্ষিত রেখে 'You told me that I did not do my duty.' সঠিক।"
+    "answer": "ঘ",
+    "explanation": "পরোক্ষ উক্তির গঠনটি অবিকল সংরক্ষিত রেখে 'You told me that I did not do my duty.' সঠিক।",
+    "ans": 3,
+    "correct_answer": "You told me that I did not do my duty."
   },
   {
     "id": 59,
@@ -704,8 +820,10 @@
       "\"I have a cup of tea,\" my father said, \"Because I am not hungry.\"",
       "\"I had a cup of tea,\" my father said, \"Because I am not hungry.\""
     ],
-    "answer": "\"I'll have a cup of tea,\" my father said, \"Because I'm not hungry.\"",
-    "explanation": "Indirect থেকে Direct-এ রূপান্তর: 'he would' -> 'I'll', 'he wasn't' -> 'I'm not': '\"I'll have a cup of tea,\" my father said, \"Because I'm not hungry.\"'।"
+    "answer": "ক",
+    "explanation": "Indirect থেকে Direct-এ রূপান্তর: 'he would' -> 'I'll', 'he wasn't' -> 'I'm not': '\"I'll have a cup of tea,\" my father said, \"Because I'm not hungry.\"'।",
+    "ans": 0,
+    "correct_answer": "\"I'll have a cup of tea,\" my father said, \"Because I'm not hungry.\""
   },
   {
     "id": 60,
@@ -716,8 +834,10 @@
       "The lion said the mouse why it got him up?",
       "The lion questioned the mouse how it dared to wake him up?"
     ],
-    "answer": "\"How dare you wake me up?\" The lion roared at the mouse.",
-    "explanation": "সিংহ গর্জনের উক্তিকে Direct Speech-এ রূপান্তর: '\"How dare you wake me up?\" The lion roared at the mouse.'।"
+    "answer": "খ",
+    "explanation": "সিংহ গর্জনের উক্তিকে Direct Speech-এ রূপান্তর: '\"How dare you wake me up?\" The lion roared at the mouse.'।",
+    "ans": 1,
+    "correct_answer": "\"How dare you wake me up?\" The lion roared at the mouse."
   },
   {
     "id": 61,
@@ -728,8 +848,10 @@
       "He asked me if I would go home.",
       "He asked me if I will go home."
     ],
-    "answer": "He said to me, \"will you go home?",
-    "explanation": "Indirect-এর 'if I would go home' Direct Speech-এ '\"Will you go home?\"' হয়।"
+    "answer": "খ",
+    "explanation": "Indirect-এর 'if I would go home' Direct Speech-এ '\"Will you go home?\"' হয়।",
+    "ans": 1,
+    "correct_answer": "He said to me, \"will you go home?"
   },
   {
     "id": 62,
@@ -740,8 +862,10 @@
       "He asked to me if like music",
       "He asked me if I liked music"
     ],
-    "answer": "He said to me, \"Do you like music?\"",
-    "explanation": "Indirect-এর 'if I liked music' Direct Speech-এ Present Indefinite প্রশ্ন '\"Do you like music?\"' হয়।"
+    "answer": "খ",
+    "explanation": "Indirect-এর 'if I liked music' Direct Speech-এ Present Indefinite প্রশ্ন '\"Do you like music?\"' হয়।",
+    "ans": 1,
+    "correct_answer": "He said to me, \"Do you like music?\""
   },
   {
     "id": 63,
@@ -752,8 +876,10 @@
       "My friends advised me to lock my room",
       "My friends warned me not to leave my room unlocked"
     ],
-    "answer": "\"You had better not leave your room unlocked\" said my friends.",
-    "explanation": "উপদেশের প্রত্যক্ষ উক্তি হিসেবে '\"You had better not leave your room unlocked\" said my friends.' সঠিক।"
+    "answer": "খ",
+    "explanation": "উপদেশের প্রত্যক্ষ উক্তি হিসেবে '\"You had better not leave your room unlocked\" said my friends.' সঠিক।",
+    "ans": 1,
+    "correct_answer": "\"You had better not leave your room unlocked\" said my friends."
   },
   {
     "id": 64,
@@ -764,8 +890,10 @@
       "The Captain said, \"Soldiers, I ask you to march on\".",
       "\"The captain ordered the soldiers to march on\""
     ],
-    "answer": "\"The captain ordered the soldiers to march on\"",
-    "explanation": "সেনাপতির সামরিক নির্দেশে 'The captain ordered the soldiers to march on' সঠিক রূপ।"
+    "answer": "ঘ",
+    "explanation": "সেনাপতির সামরিক নির্দেশে 'The captain ordered the soldiers to march on' সঠিক রূপ।",
+    "ans": 3,
+    "correct_answer": "\"The captain ordered the soldiers to march on\""
   },
   {
     "id": 65,
@@ -776,8 +904,10 @@
       "Anwar told that he might say whatever he likes",
       "Anwar said he might say whatever he likes"
     ],
-    "answer": "Anwar said, \"Let him say whatever he likes.\"",
-    "explanation": "'might say' পরোক্ষ উক্তির প্রত্যক্ষ রূপ হলো '\"Let him say whatever he likes.\"'।"
+    "answer": "খ",
+    "explanation": "'might say' পরোক্ষ উক্তির প্রত্যক্ষ রূপ হলো '\"Let him say whatever he likes.\"'।",
+    "ans": 1,
+    "correct_answer": "Anwar said, \"Let him say whatever he likes.\""
   },
   {
     "id": 66,
@@ -788,8 +918,10 @@
       "The mother said to her son, \"Will you pass the examination\"",
       "The mother said to her son, \"Might you pass the examination\""
     ],
-    "answer": "The mother said to her son, \"May you pass the examination\"",
-    "explanation": "মায়ের প্রার্থনাসূচক উক্তির প্রত্যক্ষ রূপ: 'The mother said to her son, \"May you pass the examination\"'।"
+    "answer": "ক",
+    "explanation": "মায়ের প্রার্থনাসূচক উক্তির প্রত্যক্ষ রূপ: 'The mother said to her son, \"May you pass the examination\"'।",
+    "ans": 0,
+    "correct_answer": "The mother said to her son, \"May you pass the examination\""
   },
   {
     "id": 67,
@@ -800,8 +932,10 @@
       "Aneeka told, \"What I am a fool!",
       "Aneeka said, \"What am I fool!\""
     ],
-    "answer": "\"Aneeka exclaimed that she was a great fool\"",
-    "explanation": "Exclamatory বাক্যের Indirect রূপ: '\"Aneeka exclaimed that she was a great fool\"'।"
+    "answer": "খ",
+    "explanation": "Exclamatory বাক্যের Indirect রূপ: '\"Aneeka exclaimed that she was a great fool\"'।",
+    "ans": 1,
+    "correct_answer": "\"Aneeka exclaimed that she was a great fool\""
   },
   {
     "id": 68,
@@ -812,8 +946,10 @@
       "Addressing him as my friend, I have said him to go in",
       "Addressing him as my friend, I told him to come in"
     ],
-    "answer": "\"Come in, my Friend,\" said I",
-    "explanation": "বন্ধুকে ভেতরে আসার আহ্বানের প্রত্যক্ষ উক্তি: '\"Come in, my Friend,\" said I'।"
+    "answer": "খ",
+    "explanation": "বন্ধুকে ভেতরে আসার আহ্বানের প্রত্যক্ষ উক্তি: '\"Come in, my Friend,\" said I'।",
+    "ans": 1,
+    "correct_answer": "\"Come in, my Friend,\" said I"
   },
   {
     "id": 69,
@@ -824,8 +960,10 @@
       "Rahim told me that you are a coward",
       "Rahim asked me if I was a coward"
     ],
-    "answer": "Rahim called me a coward",
-    "explanation": "কাউকে কাপুরুষ বলায় 'called me a coward' কাঠামোটি ব্যবহৃত হয়েছে।"
+    "answer": "ক",
+    "explanation": "কাউকে কাপুরুষ বলায় 'called me a coward' কাঠামোটি ব্যবহৃত হয়েছে।",
+    "ans": 0,
+    "correct_answer": "Rahim called me a coward"
   },
   {
     "id": 70,
@@ -836,8 +974,10 @@
       "He swear by God that he would have supported me.",
       "He swore by God that he would support me."
     ],
-    "answer": "He said to me, \"By God! I shall support you.\"",
-    "explanation": "আল্লাহর নামে শপথ গ্রহণের প্রত্যক্ষ রূপ হলো '\"By God! I shall support you.\"'।"
+    "answer": "খ",
+    "explanation": "আল্লাহর নামে শপথ গ্রহণের প্রত্যক্ষ রূপ হলো '\"By God! I shall support you.\"'।",
+    "ans": 1,
+    "correct_answer": "He said to me, \"By God! I shall support you.\""
   },
   {
     "id": 71,
@@ -848,8 +988,10 @@
       "Addressing the boy, he asked him (boy) to tell him that the miller was within.",
       "Addressing the boy, he said him (boy) to tell him if the miller was within."
     ],
-    "answer": "He said \"Tell me, boy, is the miller within?\"",
-    "explanation": "বালককে উদ্দেশ্য করে জিজ্ঞাসার প্রত্যক্ষ উক্তি: 'He said \"Tell me, boy, is the miller within?\"'।"
+    "answer": "খ",
+    "explanation": "বালককে উদ্দেশ্য করে জিজ্ঞাসার প্রত্যক্ষ উক্তি: 'He said \"Tell me, boy, is the miller within?\"'।",
+    "ans": 1,
+    "correct_answer": "He said \"Tell me, boy, is the miller within?\""
   },
   {
     "id": 72,
@@ -860,8 +1002,10 @@
       "He said, \"The earth has moved round the sun.\"",
       "He said, \"The earth was moving round the sun.\""
     ],
-    "answer": "He said, The earth moves round the sun.\"",
-    "explanation": "চিরন্তন সত্য হওয়ায় Tense অপরিবর্তিত থাকে: 'He said, \"The earth moves round the sun.\"|।"
+    "answer": "ক",
+    "explanation": "চিরন্তন সত্য হওয়ায় Tense অপরিবর্তিত থাকে: 'He said, \"The earth moves round the sun.\"|।",
+    "ans": 0,
+    "correct_answer": "He said, The earth moves round the sun.\""
   },
   {
     "id": 73,
@@ -872,8 +1016,10 @@
       "He said to me, \"Where you went yesterday?",
       "He said to me. \"Where did I go yesterday?"
     ],
-    "answer": "He said to me, \"Where did you go yesterday?\"",
-    "explanation": "Past Perfect 'had gone the previous day'-এর প্রত্যক্ষ রূপ হলো '\"Where did you go yesterday?\"'।"
+    "answer": "ক",
+    "explanation": "Past Perfect 'had gone the previous day'-এর প্রত্যক্ষ রূপ হলো '\"Where did you go yesterday?\"'।",
+    "ans": 0,
+    "correct_answer": "He said to me, \"Where did you go yesterday?\""
   },
   {
     "id": 74,
@@ -884,8 +1030,10 @@
       "He said to me, “When will the next letter come?’’",
       "He said to me, “When the next letter will come?’’"
     ],
-    "answer": "He said to me, \"When will the next letter come?\"",
-    "explanation": "ভবিষ্যৎ কাল 'would come'-এর প্রত্যক্ষ রূপ হলো '\"When will the next letter come?\"'।"
+    "answer": "ক",
+    "explanation": "ভবিষ্যৎ কাল 'would come'-এর প্রত্যক্ষ রূপ হলো '\"When will the next letter come?\"'।",
+    "ans": 0,
+    "correct_answer": "He said to me, \"When will the next letter come?\""
   },
   {
     "id": 75,
@@ -896,8 +1044,10 @@
       "He said, 'Good morning. to Mr. Rahman. '",
       "He bade good morning to Mr. Rahman"
     ],
-    "answer": "He said, \"Good morning, Mr. Rahman.\"",
-    "explanation": "সুপ্রভাত অভিবাদনের প্রত্যক্ষ উক্তি: 'He said, \"Good morning, Mr. Rahman.\"|।"
+    "answer": "ক",
+    "explanation": "সুপ্রভাত অভিবাদনের প্রত্যক্ষ উক্তি: 'He said, \"Good morning, Mr. Rahman.\"|।",
+    "ans": 0,
+    "correct_answer": "He said, \"Good morning, Mr. Rahman.\""
   },
   {
     "id": 76,
@@ -908,8 +1058,10 @@
       "Rafiq told me, 'you are a liar'",
       "Rafiq said to me, 'you are a liar'"
     ],
-    "answer": "Rafiq said to me, \"You are a liar\"",
-    "explanation": "কাউকে মিথ্যাবাদী বলার প্রত্যক্ষ উক্তি: 'Rafiq said to me, \"You are a liar\"'।"
+    "answer": "ক",
+    "explanation": "কাউকে মিথ্যাবাদী বলার প্রত্যক্ষ উক্তি: 'Rafiq said to me, \"You are a liar\"'।",
+    "ans": 0,
+    "correct_answer": "Rafiq said to me, \"You are a liar\""
   },
   {
     "id": 77,
@@ -920,8 +1072,10 @@
       "He said, \"I had come to see you.",
       "He said, \"I came to see you."
     ],
-    "answer": "He said, \"I have come to see you.\"",
-    "explanation": "Past Perfect 'had come'-এর প্রত্যক্ষ রূপ Present Perfect '\"I have come to see you.\"'।"
+    "answer": "ক",
+    "explanation": "Past Perfect 'had come'-এর প্রত্যক্ষ রূপ Present Perfect '\"I have come to see you.\"'।",
+    "ans": 0,
+    "correct_answer": "He said, \"I have come to see you.\""
   },
   {
     "id": 78,
@@ -932,7 +1086,9 @@
       "He requested, \"Love me like you do\".",
       "He asked to me, \"Love me like you do\"."
     ],
-    "answer": "He said to me, \"Love me like you do\".",
-    "explanation": "অনুরোধের প্রত্যক্ষ রূপ: 'He said to me, \"Love me like you do\".'।"
+    "answer": "ক",
+    "explanation": "অনুরোধের প্রত্যক্ষ রূপ: 'He said to me, \"Love me like you do\".'।",
+    "ans": 0,
+    "correct_answer": "He said to me, \"Love me like you do\"."
   }
 ]

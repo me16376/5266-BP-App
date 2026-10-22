@@ -7,122 +7,142 @@
     {
       "id": 1,
       "question": "the sky is _____ us.fill in the blank.",
-      "options": {
-        "ক": "on",
-        "খ": "upon",
-        "গ": "above",
-        "ঘ": "far"
-      },
+      "options": [
+        "on",
+        "upon",
+        "above",
+        "far"
+      ],
       "answer": "গ",
-      "explanation": "স্পর্শহীনভাবে অনেক উঁচুতে বিস্তৃত কোনো বস্তু নির্দেশ করতে Preposition 'above' ব্যবহৃত হয় ('above us')।"
+      "explanation": "স্পর্শহীনভাবে অনেক উঁচুতে বিস্তৃত কোনো বস্তু নির্দেশ করতে Preposition 'above' ব্যবহৃত হয় ('above us')।",
+      "ans": 2,
+      "correct_answer": "above"
     },
     {
       "id": 2,
       "question": "which one of the following sentences is correct?",
-      "options": {
-        "ক": "never tell the lie",
-        "খ": "never tell a lie",
-        "গ": "never tell on lie",
-        "ঘ": "never tell out lie"
-      },
+      "options": [
+        "never tell the lie",
+        "never tell a lie",
+        "never tell on lie",
+        "never tell out lie"
+      ],
       "answer": "খ",
-      "explanation": "মিথ্যা বলার ক্ষেত্রে সুনির্দিষ্ট ইংরেজি Idiomatic Phrase হলো 'Tell a lie'। তাই সঠিক অনুজ্ঞা বাক্য: 'Never tell a lie.'"
+      "explanation": "মিথ্যা বলার ক্ষেত্রে সুনির্দিষ্ট ইংরেজি Idiomatic Phrase হলো 'Tell a lie'। তাই সঠিক অনুজ্ঞা বাক্য: 'Never tell a lie.'",
+      "ans": 1,
+      "correct_answer": "never tell a lie"
     },
     {
       "id": 3,
       "question": "please be_____ when you cross this road",
-      "options": {
-        "ক": "careless",
-        "খ": "careful",
-        "গ": "carefree",
-        "ঘ": "caring"
-      },
+      "options": [
+        "careless",
+        "careful",
+        "carefree",
+        "caring"
+      ],
       "answer": "খ",
-      "explanation": "Linking verb 'be'-এর পর Subject-এর অবস্থা প্রকাশে Adjective 'Careful' (সতর্ক) বসবে: 'Please be careful...' ।"
+      "explanation": "Linking verb 'be'-এর পর Subject-এর অবস্থা প্রকাশে Adjective 'Careful' (সতর্ক) বসবে: 'Please be careful...' ।",
+      "ans": 1,
+      "correct_answer": "careful"
     },
     {
       "id": 4,
       "question": "they play football .write the passive voice of the sentence.",
-      "options": {
-        "ক": "football is played by them",
-        "খ": "football played by them",
-        "গ": "football is played by they",
-        "ঘ": "football is played them"
-      },
+      "options": [
+        "football is played by them",
+        "football played by them",
+        "football is played by they",
+        "football is played them"
+      ],
       "answer": "ক",
-      "explanation": "Present Indefinite Active-এর Passive গঠন: Object subject হবে (Football) + is + V3 (played) + by + them। তাই (ক) সঠিক।"
+      "explanation": "Present Indefinite Active-এর Passive গঠন: Object subject হবে (Football) + is + V3 (played) + by + them। তাই (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "football is played by them"
     },
     {
       "id": 5,
       "question": "nasim is _____ university student .fill in the blank",
-      "options": {
-        "ক": "the",
-        "খ": "an",
-        "গ": "a",
-        "ঘ": "in"
-      },
+      "options": [
+        "the",
+        "an",
+        "a",
+        "in"
+      ],
       "answer": "গ",
-      "explanation": "'University' শব্দের শুরুতে Vowel 'U' থাকলেও এর উচ্চারণ 'ইউ' (yu)-এর মতো হওয়ায় এর পূর্বে Article 'a' বসে: 'a university student'।"
+      "explanation": "'University' শব্দের শুরুতে Vowel 'U' থাকলেও এর উচ্চারণ 'ইউ' (yu)-এর মতো হওয়ায় এর পূর্বে Article 'a' বসে: 'a university student'।",
+      "ans": 2,
+      "correct_answer": "a"
     },
     {
       "id": 6,
       "question": "feminine gender of 'cock' is",
-      "options": {
-        "ক": "coocks",
-        "খ": "hen",
-        "গ": "crow",
-        "ঘ": "he-cocks"
-      },
+      "options": [
+        "coocks",
+        "hen",
+        "crow",
+        "he-cocks"
+      ],
       "answer": "খ",
-      "explanation": "'Cock' (মোরগ)-এর স্ত্রীলিঙ্গ হলো 'Hen' (মুরগি)।"
+      "explanation": "'Cock' (মোরগ)-এর স্ত্রীলিঙ্গ হলো 'Hen' (মুরগি)।",
+      "ans": 1,
+      "correct_answer": "hen"
     },
     {
       "id": 7,
       "question": "'foot' plural form:",
-      "options": {
-        "ক": "foot",
-        "খ": "feet",
-        "গ": "foots",
-        "ঘ": "feets"
-      },
+      "options": [
+        "foot",
+        "feet",
+        "foots",
+        "feets"
+      ],
       "answer": "খ",
-      "explanation": "ভেতরের Vowel পরিবর্তন করে 'Foot'-এর Plural রূপ হয় 'Feet'।"
+      "explanation": "ভেতরের Vowel পরিবর্তন করে 'Foot'-এর Plural রূপ হয় 'Feet'।",
+      "ans": 1,
+      "correct_answer": "feet"
     },
     {
       "id": 8,
       "question": "which one of the following is a feminine gender?",
-      "options": {
-        "ক": "hen",
-        "খ": "chairman",
-        "গ": "book",
-        "ঘ": "table"
-      },
+      "options": [
+        "hen",
+        "chairman",
+        "book",
+        "table"
+      ],
       "answer": "ক",
-      "explanation": "'Hen' (মুরগি) স্ত্রীজাতীয় প্রাণীকে নির্দেশ করায় এটি Feminine Gender।"
+      "explanation": "'Hen' (মুরগি) স্ত্রীজাতীয় প্রাণীকে নির্দেশ করায় এটি Feminine Gender।",
+      "ans": 0,
+      "correct_answer": "hen"
     },
     {
       "id": 9,
       "question": "which of these is an adverb?",
-      "options": {
-        "ক": "quickly",
-        "খ": "sly",
-        "গ": "quicker",
-        "ঘ": "quickest"
-      },
+      "options": [
+        "quickly",
+        "sly",
+        "quicker",
+        "quickest"
+      ],
       "answer": "ক",
-      "explanation": "Adjective (Quick) + ly = 'Quickly' (দ্রুততার সাথে), যা একটি Adverb of manner।"
+      "explanation": "Adjective (Quick) + ly = 'Quickly' (দ্রুততার সাথে), যা একটি Adverb of manner।",
+      "ans": 0,
+      "correct_answer": "quickly"
     },
     {
       "id": 10,
       "question": "which is correctly spelt",
-      "options": {
-        "ক": "charbohydrate",
-        "খ": "carbhohydrate",
-        "গ": "carbohindrate",
-        "ঘ": "carbohydrate"
-      },
+      "options": [
+        "charbohydrate",
+        "carbhohydrate",
+        "carbohindrate",
+        "carbohydrate"
+      ],
       "answer": "ঘ",
-      "explanation": "শর্করা জাতীয় খাদ্যের সঠিক ইংরেজি বানান হলো 'Carbohydrate' (C-A-R-B-O-H-Y-D-R-A-T-E)।"
+      "explanation": "শর্করা জাতীয় খাদ্যের সঠিক ইংরেজি বানান হলো 'Carbohydrate' (C-A-R-B-O-H-Y-D-R-A-T-E)।",
+      "ans": 3,
+      "correct_answer": "carbohydrate"
     }
   ]
 }

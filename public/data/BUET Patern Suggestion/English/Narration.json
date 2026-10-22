@@ -8,8 +8,10 @@
       "He said that I will be do the work",
       "He said that he would done the work."
     ],
-    "answer": "(b) He said that he would do the work.",
-    "explanation": "Direct speech: He said, “I will do the work.” Indirect speech এ “will” -> “Would” হয় (কারণ reporting verb “said” অতীত কালে) এবং subject “I” পরিবর্তিত হয়ে he হয়। He said that he would do the work."
+    "answer": "খ",
+    "explanation": "Direct speech: He said, “I will do the work.” Indirect speech এ “will” -> “Would” হয় (কারণ reporting verb “said” অতীত কালে) এবং subject “I” পরিবর্তিত হয়ে he হয়। He said that he would do the work.",
+    "ans": 1,
+    "correct_answer": "He said that he would do the work."
   },
   {
     "id": 2,
@@ -20,8 +22,10 @@
       "I told her that she was making me laugh",
       "I told her that she had been making me laugh"
     ],
-    "answer": "(d) I told her that she had been making me laugh",
-    "explanation": "Said to- এর পরিবর্তে told + Inverted comma উঠে গিয়ে that + Reported speech-এর 2nd person Reported verb-এর object অনুযায়ী পরিবর্তিত হয়ে She + Past continuous -> Past perfect continuous tense."
+    "answer": "ঘ",
+    "explanation": "Said to- এর পরিবর্তে told + Inverted comma উঠে গিয়ে that + Reported speech-এর 2nd person Reported verb-এর object অনুযায়ী পরিবর্তিত হয়ে She + Past continuous -> Past perfect continuous tense.",
+    "ans": 3,
+    "correct_answer": "I told her that she had been making me laugh"
   },
   {
     "id": 3,
@@ -32,8 +36,10 @@
       "The little girl said to her mother if the sun rises in the East.",
       "The little girl asked her mother if the sun is in the East."
     ],
-    "answer": "(b) The little girl asked her mother if the sun rose in the East.",
-    "explanation": ""
+    "answer": "খ",
+    "explanation": "",
+    "ans": 1,
+    "correct_answer": "The little girl asked her mother if the sun rose in the East."
   },
   {
     "id": 4,
@@ -58,8 +64,10 @@
       "The boy shouted for help.",
       "The boy told others shouting to help."
     ],
-    "answer": "(c) The boy shouted for help.",
-    "explanation": ""
+    "answer": "গ",
+    "explanation": "",
+    "ans": 2,
+    "correct_answer": "The boy shouted for help."
   },
   {
     "id": 7,
@@ -70,8 +78,10 @@
       "He told everyone that he wanted to be rich.",
       "He begged to be rich."
     ],
-    "answer": "(a) He wished he had been rich.",
-    "explanation": "“Would” is used here as a wish. So indirect Sentence would be: He wished that he had been rich. However, if it's a wish about the past, we use ‘had been.’"
+    "answer": "ক",
+    "explanation": "“Would” is used here as a wish. So indirect Sentence would be: He wished that he had been rich. However, if it's a wish about the past, we use ‘had been.’",
+    "ans": 0,
+    "correct_answer": "He wished he had been rich."
   },
   {
     "id": 8,
@@ -82,8 +92,10 @@
       "He asked us who will go with us.",
       "He wanted to know will we go with them?"
     ],
-    "answer": "(a) He asked us who would be going with them.",
-    "explanation": ""
+    "answer": "ক",
+    "explanation": "",
+    "ans": 0,
+    "correct_answer": "He asked us who would be going with them."
   },
   {
     "id": 9,
@@ -94,8 +106,10 @@
       "He said that he have done the work.",
       "He said that he has done the work."
     ],
-    "answer": "(b) He said that he had done the work.",
-    "explanation": ""
+    "answer": "খ",
+    "explanation": "",
+    "ans": 1,
+    "correct_answer": "He said that he had done the work."
   },
   {
     "id": 10,
@@ -106,8 +120,10 @@
       "He told his friend goodbye.",
       "He wished his friend goodbye."
     ],
-    "answer": "(b) He bade his friend goodbye.",
-    "explanation": "Direct speech-এ ‘good bye’ থাকলে সেটিকে indirect speech-এ রূপান্তর করতে ‘bade’ ব্যবহৃত হয়।"
+    "answer": "খ",
+    "explanation": "Direct speech-এ ‘good bye’ থাকলে সেটিকে indirect speech-এ রূপান্তর করতে ‘bade’ ব্যবহৃত হয়।",
+    "ans": 1,
+    "correct_answer": "He bade his friend goodbye."
   },
   {
     "id": 11,
@@ -118,7 +134,9 @@
       "Rapa said she was writing an application then.",
       "Rapa said that she had been writing an application then."
     ],
-    "answer": "(c) Rapa said she was writing an application then.",
-    "explanation": "Direct speech-এ Reported speech টি Present continuous-এ থাকলে Indirect করার সময় Past continuous tense হয় এবং Now এর পরিবর্তে then বসে।"
+    "answer": "গ",
+    "explanation": "Direct speech-এ Reported speech টি Present continuous-এ থাকলে Indirect করার সময় Past continuous tense হয় এবং Now এর পরিবর্তে then বসে।",
+    "ans": 2,
+    "correct_answer": "Rapa said she was writing an application then."
   }
 ]

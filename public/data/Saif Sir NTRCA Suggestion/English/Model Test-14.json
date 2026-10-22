@@ -7,302 +7,352 @@
     {
       "id": 1,
       "question": "The antonym of the word ‘liberty’ is -.",
-      "options": {
-        "ক": "liberal",
-        "খ": "bondage",
-        "গ": "frugal",
-        "ঘ": "diversity"
-      },
+      "options": [
+        "liberal",
+        "bondage",
+        "frugal",
+        "diversity"
+      ],
       "answer": "খ",
-      "explanation": "'Liberty' অর্থ স্বাধীনতা বা মুক্তি (freedom)। এর বিপরীত শব্দ (Antonym) হলো 'Bondage' (দাসত্ব বা পরাধীনতা)।"
+      "explanation": "'Liberty' অর্থ স্বাধীনতা বা মুক্তি (freedom)। এর বিপরীত শব্দ (Antonym) হলো 'Bondage' (দাসত্ব বা পরাধীনতা)।",
+      "ans": 1,
+      "correct_answer": "bondage"
     },
     {
       "id": 2,
       "question": "The synonym of the ‘call’is-.?",
-      "options": {
-        "ক": "summon",
-        "খ": "exile",
-        "গ": "impede",
-        "ঘ": "recollection"
-      },
+      "options": [
+        "summon",
+        "exile",
+        "impede",
+        "recollection"
+      ],
       "answer": "ক",
-      "explanation": "'Call' (ডাকা/তলব করা)-এর সমার্থক শব্দ হলো 'Summon' (আদালতে বা আনুষ্ঠানিকভাবে তলব করা/ডাকা)। Impede = বাধা দেওয়া।"
+      "explanation": "'Call' (ডাকা/তলব করা)-এর সমার্থক শব্দ হলো 'Summon' (আদালতে বা আনুষ্ঠানিকভাবে তলব করা/ডাকা)। Impede = বাধা দেওয়া।",
+      "ans": 0,
+      "correct_answer": "summon"
     },
     {
       "id": 3,
       "question": "It takes two – make a quarrel.",
-      "options": {
-        "ক": "too",
-        "খ": "for",
-        "গ": "to",
-        "ঘ": "in order to"
-      },
+      "options": [
+        "too",
+        "for",
+        "to",
+        "in order to"
+      ],
       "answer": "গ",
-      "explanation": "এটি একটি বহুল প্রচলিত প্রবাদ: 'It takes two to make a quarrel' (এক হাতে তালি বাজে না)। উদ্দেশ্য প্রকাশে Infinitive 'to make' ব্যবহৃত হয়।"
+      "explanation": "এটি একটি বহুল প্রচলিত প্রবাদ: 'It takes two to make a quarrel' (এক হাতে তালি বাজে না)। উদ্দেশ্য প্রকাশে Infinitive 'to make' ব্যবহৃত হয়।",
+      "ans": 2,
+      "correct_answer": "to"
     },
     {
       "id": 4,
       "question": "Death is – to dishonour.",
-      "options": {
-        "ক": "prefer",
-        "খ": "preference",
-        "গ": "preferable",
-        "ঘ": "preferring"
-      },
+      "options": [
+        "prefer",
+        "preference",
+        "preferable",
+        "preferring"
+      ],
       "answer": "গ",
-      "explanation": "'Preferable' একটি Latin Adjective যার অর্থ অধিক পছন্দনীয় বা শ্রেয়। এর পরে সর্বদা Preposition 'to' বসে। বাক্যটির অর্থ: অপমানের চেয়ে মৃত্যু শ্রেয়।"
+      "explanation": "'Preferable' একটি Latin Adjective যার অর্থ অধিক পছন্দনীয় বা শ্রেয়। এর পরে সর্বদা Preposition 'to' বসে। বাক্যটির অর্থ: অপমানের চেয়ে মৃত্যু শ্রেয়।",
+      "ans": 2,
+      "correct_answer": "preferable"
     },
     {
       "id": 5,
       "question": "Grasp all –",
-      "options": {
-        "ক": "lost all",
-        "খ": "losting all",
-        "গ": "loses all",
-        "ঘ": "lose all"
-      },
+      "options": [
+        "lost all",
+        "losting all",
+        "loses all",
+        "lose all"
+      ],
       "answer": "ঘ",
-      "explanation": "বিখ্যাত ইংরেজি প্রবাদ: 'Grasp all, lose all' (অতি লোভে তাঁতি নষ্ট)।"
+      "explanation": "বিখ্যাত ইংরেজি প্রবাদ: 'Grasp all, lose all' (অতি লোভে তাঁতি নষ্ট)।",
+      "ans": 3,
+      "correct_answer": "lose all"
     },
     {
       "id": 6,
       "question": "please look above. Here `above’ is –",
-      "options": {
-        "ক": "adjective",
-        "খ": "adverb",
-        "গ": "noun",
-        "ঘ": "conjunction"
-      },
+      "options": [
+        "adjective",
+        "adverb",
+        "noun",
+        "conjunction"
+      ],
       "answer": "খ",
-      "explanation": "বাক্যে 'above' শব্দটি 'look' (verb)-কে modify করে কোথায় তাকাতে হবে (স্থান) নির্দেশ করছে (Adverb of place)। এর পর কোনো Object না থাকায় এটি Adverb।"
+      "explanation": "বাক্যে 'above' শব্দটি 'look' (verb)-কে modify করে কোথায় তাকাতে হবে (স্থান) নির্দেশ করছে (Adverb of place)। এর পর কোনো Object না থাকায় এটি Adverb।",
+      "ans": 1,
+      "correct_answer": "adverb"
     },
     {
       "id": 7,
       "question": "Look before you leap. The word ‘before’ used in the sentence is -",
-      "options": {
-        "ক": "preposition",
-        "খ": "conjunction",
-        "গ": "adverb",
-        "ঘ": "noun"
-      },
+      "options": [
+        "preposition",
+        "conjunction",
+        "adverb",
+        "noun"
+      ],
       "answer": "খ",
-      "explanation": "এখানে 'before' শব্দটি দুটি ক্লজ (Look এবং you leap)-কে যুক্ত করেছে। দুটি ক্লজকে সংযোগকারী শব্দ হলো Conjunction।"
+      "explanation": "এখানে 'before' শব্দটি দুটি ক্লজ (Look এবং you leap)-কে যুক্ত করেছে। দুটি ক্লজকে সংযোগকারী শব্দ হলো Conjunction।",
+      "ans": 1,
+      "correct_answer": "conjunction"
     },
     {
       "id": 8,
       "question": "Read to learn, (Complex)",
-      "options": {
-        "ক": "By reading, you will learn.",
-        "খ": "Read and, learn.",
-        "গ": "If you read, you will learn.",
-        "ঘ": "In case of failure, to read, you will not learn."
-      },
+      "options": [
+        "By reading, you will learn.",
+        "Read and, learn.",
+        "If you read, you will learn.",
+        "In case of failure, to read, you will not learn."
+      ],
       "answer": "গ",
-      "explanation": "শর্তমূলক সাধারণ বাক্যকে Complex করতে 'If + conditional clause' ব্যবহার করা হয়: 'If you read, you will learn' (যদি তুমি পড়ো, তবে শিখবে)।"
+      "explanation": "শর্তমূলক সাধারণ বাক্যকে Complex করতে 'If + conditional clause' ব্যবহার করা হয়: 'If you read, you will learn' (যদি তুমি পড়ো, তবে শিখবে)।",
+      "ans": 2,
+      "correct_answer": "If you read, you will learn."
     },
     {
       "id": 9,
       "question": "He is the best player. (Negative)",
-      "options": {
-        "ক": "No other player is as better as he.",
-        "খ": "No other player is as good as he.",
-        "গ": "No other player is as best as he.",
-        "ঘ": "No other player is considered as best as he."
-      },
+      "options": [
+        "No other player is as better as he.",
+        "No other player is as good as he.",
+        "No other player is as best as he.",
+        "No other player is considered as best as he."
+      ],
       "answer": "খ",
-      "explanation": "Superlative Affirmative বাক্যকে সমার্থ রেখে Negative করার নিয়ম: No other + singular noun (player) + verb (is) + as + positive degree (good) + as + subject (he)।"
+      "explanation": "Superlative Affirmative বাক্যকে সমার্থ রেখে Negative করার নিয়ম: No other + singular noun (player) + verb (is) + as + positive degree (good) + as + subject (he)।",
+      "ans": 1,
+      "correct_answer": "No other player is as good as he."
     },
     {
       "id": 10,
       "question": "He is so dishonest that he cannot speak the truth, (Simple)",
-      "options": {
-        "ক": "He is too dishonest that he cannot speak the truth",
-        "খ": "He is too dishonest to spoken the truth",
-        "গ": "He is too dishonest to speak the truth",
-        "ঘ": "He very dishonest and can not speak the truth."
-      },
+      "options": [
+        "He is too dishonest that he cannot speak the truth",
+        "He is too dishonest to spoken the truth",
+        "He is too dishonest to speak the truth",
+        "He very dishonest and can not speak the truth."
+      ],
       "answer": "গ",
-      "explanation": "'So ... that' যুক্ত বাক্যকে Simple করার নিয়ম: Subject + verb + too + adjective (dishonest) + to + base verb (speak) + বাকি অংশ।"
+      "explanation": "'So ... that' যুক্ত বাক্যকে Simple করার নিয়ম: Subject + verb + too + adjective (dishonest) + to + base verb (speak) + বাকি অংশ।",
+      "ans": 2,
+      "correct_answer": "He is too dishonest to speak the truth"
     },
     {
       "id": 11,
       "question": "I (help) you if I could.?",
-      "options": {
-        "ক": "I would help",
-        "খ": "I would be helped",
-        "গ": "I helped",
-        "ঘ": "I would have helped"
-      },
+      "options": [
+        "I would help",
+        "I would be helped",
+        "I helped",
+        "I would have helped"
+      ],
       "answer": "ক",
-      "explanation": "এটি 2nd Conditional Sentence (If + Past Modal 'could')। এর প্রধান ক্লজে 'Subject + would/could + base verb' বসে। তাই 'I would help' সঠিক।"
+      "explanation": "এটি 2nd Conditional Sentence (If + Past Modal 'could')। এর প্রধান ক্লজে 'Subject + would/could + base verb' বসে। তাই 'I would help' সঠিক।",
+      "ans": 0,
+      "correct_answer": "I would help"
     },
     {
       "id": 12,
       "question": "The synonym of the word ‘scream’ is –",
-      "options": {
-        "ক": "yell",
-        "খ": "sound",
-        "গ": "cry",
-        "ঘ": "loudly"
-      },
+      "options": [
+        "yell",
+        "sound",
+        "cry",
+        "loudly"
+      ],
       "answer": "ক",
-      "explanation": "'Scream' অর্থ চিৎকার করা বা আর্তনাদ করা। এর সমার্থক শব্দ হলো 'Yell' (উচ্চৈঃস্বরে চিৎকার করা) বা 'Shriek'।"
+      "explanation": "'Scream' অর্থ চিৎকার করা বা আর্তনাদ করা। এর সমার্থক শব্দ হলো 'Yell' (উচ্চৈঃস্বরে চিৎকার করা) বা 'Shriek'।",
+      "ans": 0,
+      "correct_answer": "yell"
     },
     {
       "id": 13,
       "question": "The passive form of \"Don't do it\" is –",
-      "options": {
-        "ক": "Let not it be done",
-        "খ": "Let it be not done",
-        "গ": "Let it be done",
-        "ঘ": "Let it not be done"
-      },
+      "options": [
+        "Let not it be done",
+        "Let it be not done",
+        "Let it be done",
+        "Let it not be done"
+      ],
       "answer": "ক",
-      "explanation": "Negative Imperative বাক্যকে Passive করার নিয়ম: Let not + object (it) + be + V3 (done)। অথবা Let it not be done। প্রদত্ত অপশনগুলোর মধ্যে (ক) সঠিক।"
+      "explanation": "Negative Imperative বাক্যকে Passive করার নিয়ম: Let not + object (it) + be + V3 (done)। অথবা Let it not be done। প্রদত্ত অপশনগুলোর মধ্যে (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "Let not it be done"
     },
     {
       "id": 14,
       "question": "Some interesting facts about your past have just come to light, Here ‘come to light’ means –",
-      "options": {
-        "ক": "go near to light",
-        "খ": "to become known",
-        "গ": "to realize",
-        "ঘ": "to lit a light"
-      },
+      "options": [
+        "go near to light",
+        "to become known",
+        "to realize",
+        "to lit a light"
+      ],
       "answer": "খ",
-      "explanation": "'Come to light' একটি ইংরেজি Idiom যার অর্থ 'প্রকাশ্যে আসা' বা সবার কাছে প্রকাশিত/জ্ঞাত হওয়া (to become known / revealed)।"
+      "explanation": "'Come to light' একটি ইংরেজি Idiom যার অর্থ 'প্রকাশ্যে আসা' বা সবার কাছে প্রকাশিত/জ্ঞাত হওয়া (to become known / revealed)।",
+      "ans": 1,
+      "correct_answer": "to become known"
     },
     {
       "id": 15,
       "question": "He came to Dhaka with a view to – a new place.",
-      "options": {
-        "ক": "visit",
-        "খ": "visiting",
-        "গ": "watch",
-        "ঘ": "look"
-      },
+      "options": [
+        "visit",
+        "visiting",
+        "watch",
+        "look"
+      ],
       "answer": "খ",
-      "explanation": "'With a view to' একটি Prepositional phrase যার পরে কোনো verb আসলে তার সাথে 'ing' যুক্ত হয় (gerund)। তাই 'visiting' সঠিক।"
+      "explanation": "'With a view to' একটি Prepositional phrase যার পরে কোনো verb আসলে তার সাথে 'ing' যুক্ত হয় (gerund)। তাই 'visiting' সঠিক।",
+      "ans": 1,
+      "correct_answer": "visiting"
     },
     {
       "id": 16,
       "question": "জ্ঞানীরা বেশি কথা বলে না।",
-      "options": {
-        "ক": "The wises do not talk much.",
-        "খ": "The wises does not talk much.",
-        "গ": "The wise do not talk much.",
-        "ঘ": "The wise men does not talk much."
-      },
+      "options": [
+        "The wises do not talk much.",
+        "The wises does not talk much.",
+        "The wise do not talk much.",
+        "The wise men does not talk much."
+      ],
       "answer": "গ",
-      "explanation": "'The wise' হলো Plural Common Noun যা সকল জ্ঞানী ব্যক্তিকে সমষ্টিগতভাবে বোঝায়। এর সাথে Plural verb 'do not' বসে এবং 'wise'-এর সাথে 's' যুক্ত হয় না। তাই (গ) সঠিক অনুবাদ।"
+      "explanation": "'The wise' হলো Plural Common Noun যা সকল জ্ঞানী ব্যক্তিকে সমষ্টিগতভাবে বোঝায়। এর সাথে Plural verb 'do not' বসে এবং 'wise'-এর সাথে 's' যুক্ত হয় না। তাই (গ) সঠিক অনুবাদ।",
+      "ans": 2,
+      "correct_answer": "The wise do not talk much."
     },
     {
       "id": 17,
       "question": "দাঁড়াও, আমি এখনি আসছি।",
-      "options": {
-        "ক": "Stand, I come now.",
-        "খ": "Wait, I am coming now.",
-        "গ": "Keep standing, I am coming now.",
-        "ঘ": "Stand here, I am coming."
-      },
+      "options": [
+        "Stand, I come now.",
+        "Wait, I am coming now.",
+        "Keep standing, I am coming now.",
+        "Stand here, I am coming."
+      ],
       "answer": "খ",
-      "explanation": "অপেক্ষা করার ক্ষেত্রে 'Wait' এবং নিকট ভবিষ্যতের ঘটনামান প্রকাশে Present Continuous-এ 'I am coming now' সঠিক অনুবাদ।"
+      "explanation": "অপেক্ষা করার ক্ষেত্রে 'Wait' এবং নিকট ভবিষ্যতের ঘটনামান প্রকাশে Present Continuous-এ 'I am coming now' সঠিক অনুবাদ।",
+      "ans": 1,
+      "correct_answer": "Wait, I am coming now."
     },
     {
       "id": 18,
       "question": "সে এক সপ্তাহ যাবত অসুস্থ।",
-      "options": {
-        "ক": "He has been ill since a week.",
-        "খ": "He has been ill till a week.",
-        "গ": "He has been ill for a week.",
-        "ঘ": "He has been ill during a week."
-      },
+      "options": [
+        "He has been ill since a week.",
+        "He has been ill till a week.",
+        "He has been ill for a week.",
+        "He has been ill during a week."
+      ],
       "answer": "গ",
-      "explanation": "সময়ের ব্যাপকতা বা অনির্দিষ্ট ব্যাপ্তি (period of time) বোঝাতে Preposition 'for' বসে ('for a week')। নির্দিষ্ট সূচনাকাল হলে 'since' বসত। তাই (গ) সঠিক।"
+      "explanation": "সময়ের ব্যাপকতা বা অনির্দিষ্ট ব্যাপ্তি (period of time) বোঝাতে Preposition 'for' বসে ('for a week')। নির্দিষ্ট সূচনাকাল হলে 'since' বসত। তাই (গ) সঠিক।",
+      "ans": 2,
+      "correct_answer": "He has been ill for a week."
     },
     {
       "id": 19,
       "question": "এটা যেন বিনা মেঘে বজ্রপাত।",
-      "options": {
-        "ক": "It is as if a thunder from the clouds.",
-        "খ": "It is a bolt from the blue.",
-        "গ": "It is a strong thunder.",
-        "ঘ": "It is bolts from the blues."
-      },
+      "options": [
+        "It is as if a thunder from the clouds.",
+        "It is a bolt from the blue.",
+        "It is a strong thunder.",
+        "It is bolts from the blues."
+      ],
       "answer": "খ",
-      "explanation": "'বিনা মেঘে বজ্রপাত'-এর বহুল প্রচলিত ইংরেজি প্রবাদ হলো 'A bolt from the blue' (অপ্রত্যাশিত আকস্মিক বিপদ)।"
+      "explanation": "'বিনা মেঘে বজ্রপাত'-এর বহুল প্রচলিত ইংরেজি প্রবাদ হলো 'A bolt from the blue' (অপ্রত্যাশিত আকস্মিক বিপদ)।",
+      "ans": 1,
+      "correct_answer": "It is a bolt from the blue."
     },
     {
       "id": 20,
       "question": "He and I – well.",
-      "options": {
-        "ক": "am",
-        "খ": "is",
-        "গ": "are",
-        "ঘ": "been"
-      },
+      "options": [
+        "am",
+        "is",
+        "are",
+        "been"
+      ],
       "answer": "গ",
-      "explanation": "দুটি Singular Subject 'and' দ্বারা যুক্ত হলে Subject টি Plural হয় এবং এর সাথে Plural verb 'are' বসে।"
+      "explanation": "দুটি Singular Subject 'and' দ্বারা যুক্ত হলে Subject টি Plural হয় এবং এর সাথে Plural verb 'are' বসে।",
+      "ans": 2,
+      "correct_answer": "are"
     },
     {
       "id": 21,
       "question": "If we practised speaking English, we –",
-      "options": {
-        "ক": "could",
-        "খ": "could have",
-        "গ": "can",
-        "ঘ": "would have"
-      },
+      "options": [
+        "could",
+        "could have",
+        "can",
+        "would have"
+      ],
       "answer": "ক",
-      "explanation": "এটি 2nd Conditional Sentence (If + Past Indefinite 'practised')। তাই অপর ক্লজে Modal-এর Past form হিসেবে 'could' বা 'would' বসে।"
+      "explanation": "এটি 2nd Conditional Sentence (If + Past Indefinite 'practised')। তাই অপর ক্লজে Modal-এর Past form হিসেবে 'could' বা 'would' বসে।",
+      "ans": 0,
+      "correct_answer": "could"
     },
     {
       "id": 22,
       "question": "It is health which is –",
-      "options": {
-        "ক": "asset",
-        "খ": "wealth",
-        "গ": "valuable",
-        "ঘ": "precious"
-      },
+      "options": [
+        "asset",
+        "wealth",
+        "valuable",
+        "precious"
+      ],
       "answer": "খ",
-      "explanation": "সুপরিচিত প্রবাদ বাক্য: 'Health is wealth' (স্বাস্থ্যই সকল সুখের মূল/সম্পদ)। এখানে Completing sentence-এ 'wealth' সঠিক।"
+      "explanation": "সুপরিচিত প্রবাদ বাক্য: 'Health is wealth' (স্বাস্থ্যই সকল সুখের মূল/সম্পদ)। এখানে Completing sentence-এ 'wealth' সঠিক।",
+      "ans": 1,
+      "correct_answer": "wealth"
     },
     {
       "id": 23,
       "question": "I have no money – hand",
-      "options": {
-        "ক": "in",
-        "খ": "by",
-        "গ": "at",
-        "ঘ": "on"
-      },
+      "options": [
+        "in",
+        "by",
+        "at",
+        "on"
+      ],
       "answer": "ক",
-      "explanation": "'Money in hand' বা 'Cash in hand' একটি প্রবাদতুল্য Phrase যার অর্থ হাতে নগদ থাকা। তাই Preposition হিসেবে 'in' সঠিক।"
+      "explanation": "'Money in hand' বা 'Cash in hand' একটি প্রবাদতুল্য Phrase যার অর্থ হাতে নগদ থাকা। তাই Preposition হিসেবে 'in' সঠিক।",
+      "ans": 0,
+      "correct_answer": "in"
     },
     {
       "id": 24,
       "question": "Did he see anyone in the room (assertive)?",
-      "options": {
-        "ক": "He saw no one in the room.",
-        "খ": "He did not see someone in the room.",
-        "গ": "he saw anyone in the room.",
-        "ঘ": "He saw someone in the room."
-      },
+      "options": [
+        "He saw no one in the room.",
+        "He did not see someone in the room.",
+        "he saw anyone in the room.",
+        "He saw someone in the room."
+      ],
       "answer": "ক",
-      "explanation": "'Did ... anyone' যুক্ত Interrogative বাক্যকে নেতিবাচক Assertive করতে 'anyone'-এর স্থলে 'no one' বসে এবং Verb-টি Past form (saw) হয়: 'He saw no one in the room.'"
+      "explanation": "'Did ... anyone' যুক্ত Interrogative বাক্যকে নেতিবাচক Assertive করতে 'anyone'-এর স্থলে 'no one' বসে এবং Verb-টি Past form (saw) হয়: 'He saw no one in the room.'",
+      "ans": 0,
+      "correct_answer": "He saw no one in the room."
     },
     {
       "id": 25,
       "question": "The fruit is sweet – the taste.",
-      "options": {
-        "ক": "by",
-        "খ": "with",
-        "গ": "for",
-        "ঘ": "to"
-      },
+      "options": [
+        "by",
+        "with",
+        "for",
+        "to"
+      ],
       "answer": "ঘ",
-      "explanation": "কোনো কিছু স্বাদে মিষ্টি বোঝাতে 'Sweet to the taste' Appropriate Preposition হিসেবে 'to' ব্যবহৃত হয়।"
+      "explanation": "কোনো কিছু স্বাদে মিষ্টি বোঝাতে 'Sweet to the taste' Appropriate Preposition হিসেবে 'to' ব্যবহৃত হয়।",
+      "ans": 3,
+      "correct_answer": "to"
     }
   ]
 }

@@ -7,230 +7,268 @@
     {
       "id": 1,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "SURVEILANCE",
-        "খ": "SARVEILANCE",
-        "গ": "SURVEILLANCE",
-        "ঘ": "SURVEILLENCE"
-      },
+      "options": [
+        "SURVEILANCE",
+        "SARVEILANCE",
+        "SURVEILLANCE",
+        "SURVEILLENCE"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 2,
+      "correct_answer": "SURVEILLANCE"
     },
     {
       "id": 2,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "ENCICLOPEDIA",
-        "খ": "ENCYCLOPAEDIA",
-        "গ": "ENCICLOPEADIA",
-        "ঘ": "ENCYCLOPEDIA"
-      },
+      "options": [
+        "ENCICLOPEDIA",
+        "ENCYCLOPAEDIA",
+        "ENCICLOPEADIA",
+        "ENCYCLOPEDIA"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 1,
+      "correct_answer": "ENCYCLOPAEDIA"
     },
     {
       "id": 3,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "CALEIDOSCOPE",
-        "খ": "CALEIDOSKOPE",
-        "গ": "KALAIDOSCOPE",
-        "ঘ": "KALEIDOSCOPE"
-      },
+      "options": [
+        "CALEIDOSCOPE",
+        "CALEIDOSKOPE",
+        "KALAIDOSCOPE",
+        "KALEIDOSCOPE"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 3,
+      "correct_answer": "KALEIDOSCOPE"
     },
     {
       "id": 4,
       "question": "Anita is a good girl”বাক্যে “girl” শব্দটি-",
-      "options": {
-        "ক": "Proper noun",
-        "খ": "Common noun",
-        "গ": "Collective noun",
-        "ঘ": "Material noun"
-      },
+      "options": [
+        "Proper noun",
+        "Common noun",
+        "Collective noun",
+        "Material noun"
+      ],
       "answer": "খ",
-      "explanation": "'Girl' শব্দটি দ্বারা সমগ্র বালিকা জাতিকে সাধারণভাবে বোঝানোয় এটি একটি Common Noun (জাতিবাচক বিশেষ্য)। আর Anita হলো Proper Noun।"
+      "explanation": "'Girl' শব্দটি দ্বারা সমগ্র বালিকা জাতিকে সাধারণভাবে বোঝানোয় এটি একটি Common Noun (জাতিবাচক বিশেষ্য)। আর Anita হলো Proper Noun।",
+      "ans": 1,
+      "correct_answer": "Common noun"
     },
     {
       "id": 5,
       "question": "Ali saw a flock of sheep বাক্যে “flock” শব্দটি-",
-      "options": {
-        "ক": "Proper noun",
-        "খ": "Common noun",
-        "গ": "Collective noun",
-        "ঘ": "Material noun"
-      },
+      "options": [
+        "Proper noun",
+        "Common noun",
+        "Collective noun",
+        "Material noun"
+      ],
       "answer": "গ",
-      "explanation": "'Flock' শব্দটি দ্বারা ভেড়ার দলকে সমষ্টিগতভাবে বোঝানোয় এটি একটি Collective Noun (সমষ্টিবাচক বিশেষ্য)।"
+      "explanation": "'Flock' শব্দটি দ্বারা ভেড়ার দলকে সমষ্টিগতভাবে বোঝানোয় এটি একটি Collective Noun (সমষ্টিবাচক বিশেষ্য)।",
+      "ans": 2,
+      "correct_answer": "Collective noun"
     },
     {
       "id": 6,
       "question": "নিচের কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "Television is a wonderful invention.",
-        "খ": "My brother is M.A.",
-        "গ": "He speaks English like English.",
-        "ঘ": "I feel uneasy."
-      },
+      "options": [
+        "Television is a wonderful invention.",
+        "My brother is M.A.",
+        "He speaks English like English.",
+        "I feel uneasy."
+      ],
       "answer": "ক",
-      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।"
+      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 7,
       "question": "নিচের কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "I feel out of sort today.",
-        "খ": "He tried hardly to succeed.",
-        "গ": "I have great deal of work to do.",
-        "ঘ": "Please give me attendance."
-      },
+      "options": [
+        "I feel out of sort today.",
+        "He tried hardly to succeed.",
+        "I have great deal of work to do.",
+        "Please give me attendance."
+      ],
       "answer": "ক",
-      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।"
+      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 8,
       "question": "He deals --- rice বাক্যের শূন্যস্থানে শব্দ বসবে-",
-      "options": {
-        "ক": "with",
-        "খ": "in",
-        "গ": "at",
-        "ঘ": "by"
-      },
+      "options": [
+        "with",
+        "in",
+        "at",
+        "by"
+      ],
       "answer": "খ",
-      "explanation": "কোনো পণ্যের ব্যবসা করা বোঝাতে 'deal in' বসে: 'He deals in rice' (তিনি চালের ব্যবসা করেন)। আর কারও সাথে আচরণ বোঝাতে deal with বসে।"
+      "explanation": "কোনো পণ্যের ব্যবসা করা বোঝাতে 'deal in' বসে: 'He deals in rice' (তিনি চালের ব্যবসা করেন)। আর কারও সাথে আচরণ বোঝাতে deal with বসে।",
+      "ans": 1,
+      "correct_answer": "in"
     },
     {
       "id": 9,
       "question": "He died --- over eating বাক্যের শূন্যস্থানে শব্দ বসবে-",
-      "options": {
-        "ক": "from",
-        "খ": "by",
-        "গ": "in",
-        "ঘ": "to"
-      },
+      "options": [
+        "from",
+        "by",
+        "in",
+        "to"
+      ],
       "answer": "ক",
-      "explanation": "অতিরিক্ত খাওয়ার ফলে মারা যাওয়া বোঝাতে 'die from' বসে: 'He died from over eating.'"
+      "explanation": "অতিরিক্ত খাওয়ার ফলে মারা যাওয়া বোঝাতে 'die from' বসে: 'He died from over eating.'",
+      "ans": 0,
+      "correct_answer": "from"
     },
     {
       "id": 10,
       "question": "Mr. Anwar is expart --- physics বাক্যের শূন্যস্থানে শব্দ বসবে-",
-      "options": {
-        "ক": "at",
-        "খ": "to",
-        "গ": "in",
-        "ঘ": "with"
-      },
+      "options": [
+        "at",
+        "to",
+        "in",
+        "with"
+      ],
       "answer": "গ",
-      "explanation": "কোনো বিষয়ে পারদর্শী বা অভিজ্ঞ বোঝাতে 'expert in' বসে: 'Mr. Anwar is expert in physics.'"
+      "explanation": "কোনো বিষয়ে পারদর্শী বা অভিজ্ঞ বোঝাতে 'expert in' বসে: 'Mr. Anwar is expert in physics.'",
+      "ans": 2,
+      "correct_answer": "in"
     },
     {
       "id": 11,
       "question": "I am fearful ---- enemies বাক্যের শূন্যস্থানে শব্দ বসবে-",
-      "options": {
-        "ক": "in",
-        "খ": "with",
-        "গ": "to",
-        "ঘ": "at"
-      },
+      "options": [
+        "in",
+        "with",
+        "to",
+        "at"
+      ],
       "answer": "ঘ",
-      "explanation": "কোনো কিছুতে ভীত বোঝাতে সাধারণত 'fearful of' প্রচলিত হলেও বোর্ড প্রশ্নের অফিশিয়াল কীতে 'fearful at' (ঘ) সঠিক দেওয়া হয়েছে।"
+      "explanation": "কোনো কিছুতে ভীত বোঝাতে সাধারণত 'fearful of' প্রচলিত হলেও বোর্ড প্রশ্নের অফিশিয়াল কীতে 'fearful at' (ঘ) সঠিক দেওয়া হয়েছে।",
+      "ans": 3,
+      "correct_answer": "at"
     },
     {
       "id": 12,
       "question": "He is engaged ---- writing a book বাক্যের শূন্যস্থানে শব্দ বসবে-",
-      "options": {
-        "ক": "in",
-        "খ": "with",
-        "গ": "to",
-        "ঘ": "at"
-      },
+      "options": [
+        "in",
+        "with",
+        "to",
+        "at"
+      ],
       "answer": "ক",
-      "explanation": "কোনো কাজে নিয়োজিত বা ব্যস্ত থাকা বোঝাতে 'engaged in' বসে: 'He is engaged in writing a book.'"
+      "explanation": "কোনো কাজে নিয়োজিত বা ব্যস্ত থাকা বোঝাতে 'engaged in' বসে: 'He is engaged in writing a book.'",
+      "ans": 0,
+      "correct_answer": "in"
     },
     {
       "id": 13,
       "question": "“I am writing a letter”- বাক্যটির সঠিক পরিবর্তিত voice হবে-",
-      "options": {
-        "ক": "A letter is written by me.",
-        "খ": "A letter was written by me.",
-        "গ": "A letter was being written by me.",
-        "ঘ": "A letter is being written by me."
-      },
+      "options": [
+        "A letter is written by me.",
+        "A letter was written by me.",
+        "A letter was being written by me.",
+        "A letter is being written by me."
+      ],
       "answer": "ঘ",
-      "explanation": "Present Continuous Tense-এর Passive রূপ: Object (A letter) + is being + V3 (written) + by me। তাই ঘ সঠিক।"
+      "explanation": "Present Continuous Tense-এর Passive রূপ: Object (A letter) + is being + V3 (written) + by me। তাই ঘ সঠিক।",
+      "ans": 3,
+      "correct_answer": "A letter is being written by me."
     },
     {
       "id": 14,
       "question": "“Give the order”- বাক্যটির সঠিক পরিবর্তিত voice হবে-",
-      "options": {
-        "ক": "Let the order to give.",
-        "খ": "Let the order given.",
-        "গ": "Let the order be given.",
-        "ঘ": "Let the order give."
-      },
+      "options": [
+        "Let the order to give.",
+        "Let the order given.",
+        "Let the order be given.",
+        "Let the order give."
+      ],
       "answer": "গ",
-      "explanation": "Imperative sentence-এর passive ভয়েস: Let + object (the order) + be + V3 (given)। তাই 'Let the order be given' সঠিক।"
+      "explanation": "Imperative sentence-এর passive ভয়েস: Let + object (the order) + be + V3 (given)। তাই 'Let the order be given' সঠিক।",
+      "ans": 2,
+      "correct_answer": "Let the order be given."
     },
     {
       "id": 15,
       "question": "“Do not hate the poor”. বাক্যটির সঠিক পরিবর্তিত voice হবে-",
-      "options": {
-        "ক": "Let not the poor be hated.",
-        "খ": "Let the poor not be hated.",
-        "গ": "Let not the poor hate.",
-        "ঘ": "Let poor not be hate."
-      },
+      "options": [
+        "Let not the poor be hated.",
+        "Let the poor not be hated.",
+        "Let not the poor hate.",
+        "Let poor not be hate."
+      ],
       "answer": "ক",
-      "explanation": "Negative Imperative বাক্যের Passive Voice: Let not + object (the poor) + be + V3 (hated)। তাই ক সঠিক।"
+      "explanation": "Negative Imperative বাক্যের Passive Voice: Let not + object (the poor) + be + V3 (hated)। তাই ক সঠিক।",
+      "ans": 0,
+      "correct_answer": "Let not the poor be hated."
     },
     {
       "id": 16,
       "question": "Asad said to me, “I want to go to school now.” বাক্যটির indirect speech হবে-",
-      "options": {
-        "ক": "Asad said to me that he wanted to go to school now.",
-        "খ": "Asad said to me that he wanted to go to school then.",
-        "গ": "Asad told me that he wanted to go to school then.",
-        "ঘ": "Asad told me that he wants to go to school then."
-      },
+      "options": [
+        "Asad said to me that he wanted to go to school now.",
+        "Asad said to me that he wanted to go to school then.",
+        "Asad told me that he wanted to go to school then.",
+        "Asad told me that he wants to go to school then."
+      ],
       "answer": "গ",
-      "explanation": "Assertive sentence-এর indirect করার সময় said to me পরিবর্তিত হয়ে 'told me' হয় এবং now পরিবর্তিত হয়ে 'then' হয়: 'Asad told me that he wanted to go to school then.'"
+      "explanation": "Assertive sentence-এর indirect করার সময় said to me পরিবর্তিত হয়ে 'told me' হয় এবং now পরিবর্তিত হয়ে 'then' হয়: 'Asad told me that he wanted to go to school then.'",
+      "ans": 2,
+      "correct_answer": "Asad told me that he wanted to go to school then."
     },
     {
       "id": 17,
       "question": "Abid said to me, “I was ill” বাক্যটির indirect speech হবে-",
-      "options": {
-        "ক": "Abid said to me that he was ill.",
-        "খ": "Abid told me that he had been ill.",
-        "গ": "Abid told me that I had been ill.",
-        "ঘ": "Abid told me that he has been ill."
-      },
+      "options": [
+        "Abid said to me that he was ill.",
+        "Abid told me that he had been ill.",
+        "Abid told me that I had been ill.",
+        "Abid told me that he has been ill."
+      ],
       "answer": "খ",
-      "explanation": "Direct speech-এ Past Indefinite থাকলে Indirect speech-এ তা Past Perfect (had been) হয়: 'Abid told me that he had been ill.'"
+      "explanation": "Direct speech-এ Past Indefinite থাকলে Indirect speech-এ তা Past Perfect (had been) হয়: 'Abid told me that he had been ill.'",
+      "ans": 1,
+      "correct_answer": "Abid told me that he had been ill."
     },
     {
       "id": 18,
       "question": "Penalty –এর সমার্থক শব্দ কোনটি?",
-      "options": {
-        "ক": "Punishment",
-        "খ": "Pardon",
-        "গ": "Reward",
-        "ঘ": "Compensation"
-      },
+      "options": [
+        "Punishment",
+        "Pardon",
+        "Reward",
+        "Compensation"
+      ],
       "answer": "ক",
-      "explanation": "'Penalty' শব্দের অর্থ শাস্তি, অর্থদণ্ড বা জরিমানা। এর যথার্থ সমার্থক শব্দ হলো 'Punishment' (শাস্তি)।"
+      "explanation": "'Penalty' শব্দের অর্থ শাস্তি, অর্থদণ্ড বা জরিমানা। এর যথার্থ সমার্থক শব্দ হলো 'Punishment' (শাস্তি)।",
+      "ans": 0,
+      "correct_answer": "Punishment"
     },
     {
       "id": 19,
       "question": "Sacred –এর সমার্থক শব্দ কোনটি?",
-      "options": {
-        "ক": "Secular",
-        "খ": "Evil",
-        "গ": "Profane",
-        "ঘ": "Divine"
-      },
+      "options": [
+        "Secular",
+        "Evil",
+        "Profane",
+        "Divine"
+      ],
       "answer": "ঘ",
-      "explanation": "'Sacred' শব্দের অর্থ পবিত্র, অলৌকিক বা ধর্মীয়ভাবে সম্মানিত। এর যথাযথ সমার্থক হলো 'Divine' (স্বর্গীয়/পবিত্র)।"
+      "explanation": "'Sacred' শব্দের অর্থ পবিত্র, অলৌকিক বা ধর্মীয়ভাবে সম্মানিত। এর যথাযথ সমার্থক হলো 'Divine' (স্বর্গীয়/পবিত্র)।",
+      "ans": 3,
+      "correct_answer": "Divine"
     }
   ]
 }

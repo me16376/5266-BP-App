@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "What kind of noun is “Girl”?",
-      "options": {
-        "ক": "Collective",
-        "খ": "Material",
-        "গ": "Proper",
-        "ঘ": "Common"
-      },
+      "options": [
+        "Collective",
+        "Material",
+        "Proper",
+        "Common"
+      ],
       "answer": "ঘ",
-      "explanation": "'Girl' শব্দটি সমগ্র বালিকা শ্রেণিকে সাধারণভাবে নির্দেশ করায় এটি একটি Common Noun (জাতিবাচক বিশেষ্য)।"
+      "explanation": "'Girl' শব্দটি সমগ্র বালিকা শ্রেণিকে সাধারণভাবে নির্দেশ করায় এটি একটি Common Noun (জাতিবাচক বিশেষ্য)।",
+      "ans": 3,
+      "correct_answer": "Common"
     },
     {
       "id": 2,
       "question": "Synonym for “Mouth watering”?",
-      "options": {
-        "ক": "Sour",
-        "খ": "Delicious",
-        "গ": "Hot",
-        "ঘ": "Wet"
-      },
+      "options": [
+        "Sour",
+        "Delicious",
+        "Hot",
+        "Wet"
+      ],
       "answer": "খ",
-      "explanation": "'Mouth watering' একটি রূপক Adjective যার অর্থ অত্যন্ত লোভনীয় ও সুস্বাদু খাবার (Delicious / highly appetizing)।"
+      "explanation": "'Mouth watering' একটি রূপক Adjective যার অর্থ অত্যন্ত লোভনীয় ও সুস্বাদু খাবার (Delicious / highly appetizing)।",
+      "ans": 1,
+      "correct_answer": "Delicious"
     },
     {
       "id": 3,
       "question": "কোনটি Collective Noun?",
-      "options": {
-        "ক": "Boy",
-        "খ": "Books",
-        "গ": "Library",
-        "ঘ": "Month"
-      },
+      "options": [
+        "Boy",
+        "Books",
+        "Library",
+        "Month"
+      ],
       "answer": "গ",
-      "explanation": "'Library' (গ্রন্থাগার) বইয়ের সংকলন ও সমষ্টিকে বোঝানোয় এটি একটি Collective Noun।"
+      "explanation": "'Library' (গ্রন্থাগার) বইয়ের সংকলন ও সমষ্টিকে বোঝানোয় এটি একটি Collective Noun।",
+      "ans": 2,
+      "correct_answer": "Library"
     },
     {
       "id": 4,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Dysentry",
-        "খ": "Decentry",
-        "গ": "Dysentery",
-        "ঘ": "Disentery"
-      },
+      "options": [
+        "Dysentry",
+        "Decentry",
+        "Dysentery",
+        "Disentery"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।"
+      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।",
+      "ans": 2,
+      "correct_answer": "Dysentery"
     },
     {
       "id": 5,
       "question": "Which of the following sentence is correct?",
-      "options": {
-        "ক": "One of my brother is a doctor .",
-        "খ": "One of my brother’s are a doctor .",
-        "গ": "One of my brothers is a doctor.",
-        "ঘ": "One of my brother’s is doctor."
-      },
+      "options": [
+        "One of my brother is a doctor .",
+        "One of my brother’s are a doctor .",
+        "One of my brothers is a doctor.",
+        "One of my brother’s is doctor."
+      ],
       "answer": "গ",
-      "explanation": "নির্দিষ্ট শার্টের পরিচয় দিতে এবং Defining relative clause হিসেবে 'The shirt which he bought is blue in colour' বাক্যটি ব্যাকরণগতভাবে সম্পূর্ণ শুদ্ধ।"
+      "explanation": "নির্দিষ্ট শার্টের পরিচয় দিতে এবং Defining relative clause হিসেবে 'The shirt which he bought is blue in colour' বাক্যটি ব্যাকরণগতভাবে সম্পূর্ণ শুদ্ধ।",
+      "ans": 2,
+      "correct_answer": "One of my brothers is a doctor."
     },
     {
       "id": 6,
       "question": "The ministers arrived --- a decision last night.",
-      "options": {
-        "ক": "in",
-        "খ": "to",
-        "গ": "on",
-        "ঘ": "at"
-      },
+      "options": [
+        "in",
+        "to",
+        "on",
+        "at"
+      ],
       "answer": "ঘ",
-      "explanation": "কোনো সিদ্ধান্তে বা ঐকমত্যে পৌঁছানো বোঝাতে 'arrive at a decision' ব্যবহৃত হয়: 'The ministers arrived at a decision last night.'"
+      "explanation": "কোনো সিদ্ধান্তে বা ঐকমত্যে পৌঁছানো বোঝাতে 'arrive at a decision' ব্যবহৃত হয়: 'The ministers arrived at a decision last night.'",
+      "ans": 3,
+      "correct_answer": "at"
     },
     {
       "id": 7,
       "question": "কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "Mr. Jamal is not in the committee.",
-        "খ": "Mr. Jamal is not in committee.",
-        "গ": "Mr. Jamal is not at the committee.",
-        "ঘ": "Mr. Jamal is not on the committee."
-      },
-      "answer": "ঘ",
-      "explanation": "'See' verb-এর পর Bare Infinitive (write) বসে: 'I saw him write something' (আমি তাকে কিছু লিখতে দেখেছিলাম)। কীতে ক সঠিক উত্তর দেওয়া হয়েছে।"
+      "options": [
+        "Mr. Jamal is not in the committee.",
+        "Mr. Jamal is not in committee.",
+        "Mr. Jamal is not at the committee.",
+        "Mr. Jamal is not on the committee."
+      ],
+      "answer": "ক",
+      "explanation": "'See' verb-এর পর Bare Infinitive (write) বসে: 'I saw him write something' (আমি তাকে কিছু লিখতে দেখেছিলাম)। কীতে ক সঠিক উত্তর দেওয়া হয়েছে।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 8,
       "question": "The word ‘ Stagflation ‘ means –",
-      "options": {
-        "ক": "economic slow down",
-        "খ": "a disintegrating government",
-        "গ": "cultural dullness",
-        "ঘ": "controlled prices"
-      },
+      "options": [
+        "economic slow down",
+        "a disintegrating government",
+        "cultural dullness",
+        "controlled prices"
+      ],
       "answer": "ক",
-      "explanation": "'Stagflation' হলো এমন এক অর্থনৈতিক পরিস্থিতি যেখানে অর্থনৈতিক প্রবৃদ্ধির স্থবিরতা বা মন্দার সাথে মুদ্রাস্ফীতি বিরাজ করে (Economic slowdown / stagnation combined with inflation)।"
+      "explanation": "'Stagflation' হলো এমন এক অর্থনৈতিক পরিস্থিতি যেখানে অর্থনৈতিক প্রবৃদ্ধির স্থবিরতা বা মন্দার সাথে মুদ্রাস্ফীতি বিরাজ করে (Economic slowdown / stagnation combined with inflation)।",
+      "ans": 0,
+      "correct_answer": "economic slow down"
     },
     {
       "id": 9,
       "question": "I wish you --- the problem.",
-      "options": {
-        "ক": "can solve",
-        "খ": "have solved",
-        "গ": "shall solve",
-        "ঘ": "could solve"
-      },
+      "options": [
+        "can solve",
+        "have solved",
+        "shall solve",
+        "could solve"
+      ],
       "answer": "ঘ",
-      "explanation": "'I wish'-এর পরে সামর্থ্য বা সম্ভাবনা বোঝাতে Past Modal 'could' ব্যবহৃত হয়: 'I wish you could solve the problem.'"
+      "explanation": "'I wish'-এর পরে সামর্থ্য বা সম্ভাবনা বোঝাতে Past Modal 'could' ব্যবহৃত হয়: 'I wish you could solve the problem.'",
+      "ans": 3,
+      "correct_answer": "could solve"
     },
     {
       "id": 10,
       "question": "He has done no wrong_. The underlined word is a/an –",
-      "options": {
-        "ক": "Adjective",
-        "খ": "noun",
-        "গ": "pronoun",
-        "ঘ": "adverb"
-      },
+      "options": [
+        "Adjective",
+        "noun",
+        "pronoun",
+        "adverb"
+      ],
       "answer": "খ",
-      "explanation": "'He has done no wrong' বাক্যে Determiner 'no'-এর পর একটিমাত্র শব্দ 'wrong' থাকায় এটি Noun হিসেবে কাজ করছে (অর্থ: কোনো অপরাধ বা অন্যায়)।"
+      "explanation": "'He has done no wrong' বাক্যে Determiner 'no'-এর পর একটিমাত্র শব্দ 'wrong' থাকায় এটি Noun হিসেবে কাজ করছে (অর্থ: কোনো অপরাধ বা অন্যায়)।",
+      "ans": 1,
+      "correct_answer": "noun"
     },
     {
       "id": 11,
       "question": "CONSTITUTION : PREAMBLE",
-      "options": {
-        "ক": "Legislation : Assembly",
-        "খ": "Book : Preface",
-        "গ": "Prelude : Overture",
-        "ঘ": "Opera : Music"
-      },
+      "options": [
+        "Legislation : Assembly",
+        "Book : Preface",
+        "Prelude : Overture",
+        "Opera : Music"
+      ],
       "answer": "খ",
-      "explanation": "সংবিধানের (Constitution) শুরুতে যেমন প্রস্তাবনা (Preamble) থাকে, তেমনি বইয়ের (Book) শুরুতে ভূমিকা (Preface) থাকে (Constitution : Preamble :: Book : Preface)।"
+      "explanation": "সংবিধানের (Constitution) শুরুতে যেমন প্রস্তাবনা (Preamble) থাকে, তেমনি বইয়ের (Book) শুরুতে ভূমিকা (Preface) থাকে (Constitution : Preamble :: Book : Preface)।",
+      "ans": 1,
+      "correct_answer": "Book : Preface"
     },
     {
       "id": 12,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Personel",
-        "খ": "Personnel",
-        "গ": "Parsonale",
-        "ঘ": "Parsonnel"
-      },
+      "options": [
+        "Personel",
+        "Personnel",
+        "Parsonale",
+        "Parsonnel"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।"
+      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।",
+      "ans": 1,
+      "correct_answer": "Personnel"
     },
     {
       "id": 13,
       "question": "“Obese ‘ means –",
-      "options": {
-        "ক": "Ugly",
-        "খ": "Tardy",
-        "গ": "Obnoxious",
-        "ঘ": "Very fat"
-      },
+      "options": [
+        "Ugly",
+        "Tardy",
+        "Obnoxious",
+        "Very fat"
+      ],
       "answer": "ঘ",
-      "explanation": "'Obese' শব্দের অর্থ অতিরিক্ত চর্বিযুক্ত বা মাত্রাতিরিক্ত মোটা (Very fat / grossly overweight)।"
+      "explanation": "'Obese' শব্দের অর্থ অতিরিক্ত চর্বিযুক্ত বা মাত্রাতিরিক্ত মোটা (Very fat / grossly overweight)।",
+      "ans": 3,
+      "correct_answer": "Very fat"
     },
     {
       "id": 14,
       "question": "I spent – with the patient.",
-      "options": {
-        "ক": "sometimes",
-        "খ": "sometime",
-        "গ": "some time",
-        "ঘ": "some times"
-      },
+      "options": [
+        "sometimes",
+        "sometime",
+        "some time",
+        "some times"
+      ],
       "answer": "গ",
-      "explanation": "নির্দিষ্ট কিছুটা সময় ব্যয় করা বোঝাতে আলাদা শব্দ হিসেবে 'some time' (কিছু সময়) ব্যবহৃত হয়: 'I spent some time with the patient.'"
+      "explanation": "নির্দিষ্ট কিছুটা সময় ব্যয় করা বোঝাতে আলাদা শব্দ হিসেবে 'some time' (কিছু সময়) ব্যবহৃত হয়: 'I spent some time with the patient.'",
+      "ans": 2,
+      "correct_answer": "some time"
     },
     {
       "id": 15,
       "question": "We need to buy some new-",
-      "options": {
-        "ক": "furnishers",
-        "খ": "furniture",
-        "গ": "furnisher",
-        "ঘ": "furniture’s"
-      },
+      "options": [
+        "furnishers",
+        "furniture",
+        "furnisher",
+        "furniture’s"
+      ],
       "answer": "খ",
-      "explanation": "'Furniture' একটি Uncountable Noun, যার সাথে কখনোই 's' বা 'es' যুক্ত হয় না: 'We need to buy some new furniture.'"
+      "explanation": "'Furniture' একটি Uncountable Noun, যার সাথে কখনোই 's' বা 'es' যুক্ত হয় না: 'We need to buy some new furniture.'",
+      "ans": 1,
+      "correct_answer": "furniture"
     },
     {
       "id": 16,
       "question": "Choose the correct sentence :",
-      "options": {
-        "ক": "We were discussing totally about the matter.",
-        "খ": "We were discussing about the matter",
-        "গ": "We were discussing about the whole matter .",
-        "ঘ": "We were discussing the matter."
-      },
+      "options": [
+        "We were discussing totally about the matter.",
+        "We were discussing about the matter",
+        "We were discussing about the whole matter .",
+        "We were discussing the matter."
+      ],
       "answer": "ঘ",
-      "explanation": "অন্যান্য সকল জীবিত মানুষের চেয়ে শক্তিশালী তুলনা করার ক্ষেত্রে কীতে ঘ-কে সঠিক উত্তর হিসেবে চিহ্নিত করা হয়েছে।"
+      "explanation": "অন্যান্য সকল জীবিত মানুষের চেয়ে শক্তিশালী তুলনা করার ক্ষেত্রে কীতে ঘ-কে সঠিক উত্তর হিসেবে চিহ্নিত করা হয়েছে।",
+      "ans": 3,
+      "correct_answer": "We were discussing the matter."
     },
     {
       "id": 17,
       "question": "What is the plural form of",
-      "options": {
-        "ক": "they",
-        "খ": "these",
-        "গ": "those",
-        "ঘ": "Try your self"
-      },
+      "options": [
+        "they",
+        "these",
+        "those",
+        "Try your self"
+      ],
       "answer": "ঘ",
-      "explanation": "প্রশ্নে মূল নির্দেশক শব্দ উহ্য থাকলেও Singular demonstrative pronoun 'this'-এর Plural হলো 'these' এবং 'that'-এর Plural হলো 'those'; অফিশিয়াল কীতে 'Try your self' (ঘ) চিহ্নিত করা হয়েছে।"
+      "explanation": "প্রশ্নে মূল নির্দেশক শব্দ উহ্য থাকলেও Singular demonstrative pronoun 'this'-এর Plural হলো 'these' এবং 'that'-এর Plural হলো 'those'; অফিশিয়াল কীতে 'Try your self' (ঘ) চিহ্নিত করা হয়েছে।",
+      "ans": 3,
+      "correct_answer": "Try your self"
     },
     {
       "id": 18,
       "question": "Fifty kg – really a heavy weight to carry.",
-      "options": {
-        "ক": "is",
-        "খ": "were",
-        "গ": "are",
-        "ঘ": "was"
-      },
+      "options": [
+        "is",
+        "were",
+        "are",
+        "was"
+      ],
       "answer": "ক",
-      "explanation": "নির্দিষ্ট পরিমাণ ওজন (Fifty kg) একটি একক সমষ্টি হিসেবে বিবেচিত হওয়ায় Singular Verb 'is' গ্রহণ করে: 'Fifty kg is really a heavy weight to carry.'"
+      "explanation": "নির্দিষ্ট পরিমাণ ওজন (Fifty kg) একটি একক সমষ্টি হিসেবে বিবেচিত হওয়ায় Singular Verb 'is' গ্রহণ করে: 'Fifty kg is really a heavy weight to carry.'",
+      "ans": 0,
+      "correct_answer": "is"
     },
     {
       "id": 19,
       "question": "“The Captain ordered the soldiers to march on “ বাক্যটির direct speech:",
-      "options": {
-        "ক": "The captain asked, “Soldiers, march on “.",
-        "খ": "The Captain said, to the solders, “Please march on “.",
-        "গ": "The Captain said, “Soldiers, I asked you to march on “.",
-        "ঘ": "The Captain said to the soldiers, “March on “."
-      },
+      "options": [
+        "The captain asked, “Soldiers, march on “.",
+        "The Captain said, to the solders, “Please march on “.",
+        "The Captain said, “Soldiers, I asked you to march on “.",
+        "The Captain said to the soldiers, “March on “."
+      ],
       "answer": "ঘ",
-      "explanation": "সেনাবাহিনীর মার্চ করার আদেশের Direct Speech: The Captain said to the soldiers, 'March on.'"
+      "explanation": "সেনাবাহিনীর মার্চ করার আদেশের Direct Speech: The Captain said to the soldiers, 'March on.'",
+      "ans": 3,
+      "correct_answer": "The Captain said to the soldiers, “March on “."
     },
     {
       "id": 20,
       "question": "I have no pen to write-",
-      "options": {
-        "ক": "in",
-        "খ": "smooth",
-        "গ": "well",
-        "ঘ": "with"
-      },
+      "options": [
+        "in",
+        "smooth",
+        "well",
+        "with"
+      ],
       "answer": "ঘ",
-      "explanation": "কলম দিয়ে লেখা বোঝাতে যন্ত্র বা মাধ্যমের পূর্বে 'with' বসে: 'I have no pen to write with' (আমার লেখার মতো কোনো কলম নেই)।"
+      "explanation": "কলম দিয়ে লেখা বোঝাতে যন্ত্র বা মাধ্যমের পূর্বে 'with' বসে: 'I have no pen to write with' (আমার লেখার মতো কোনো কলম নেই)।",
+      "ans": 3,
+      "correct_answer": "with"
     }
   ]
 }

@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "বাংলা ভাষার অভিধান প্রথমে কে রচনা করেন?",
-      "options": {
-        "ক": "উইলিয়াম কেরি",
-        "খ": "মুহম্মদ শহীদুল্লাহ",
-        "গ": "সুনীতিকুমার চট্টোপাধ্যায়",
-        "ঘ": "ফাদার ম্যানোয়েল"
-      },
+      "options": [
+        "উইলিয়াম কেরি",
+        "মুহম্মদ শহীদুল্লাহ",
+        "সুনীতিকুমার চট্টোপাধ্যায়",
+        "ফাদার ম্যানোয়েল"
+      ],
       "answer": "ঘ",
-      "explanation": "১৭৪৩ সালে পর্তুগিজ ধর্মযাজক ফাদার ম্যানোয়েল দা আসসুম্পসাঁউ কর্তৃক প্রথম বাংলা ব্যাকরণ ও পর্তুগিজ-বাংলা অভিধান 'ভোকাবুলারিও এম ইদিওমা বেঙ্গালা এ পর্তুগিজ' রচিত হয় এবং ১৭৪৩ সালে লিসবন থেকে প্রকাশিত হয়।"
+      "explanation": "১৭৪৩ সালে পর্তুগিজ ধর্মযাজক ফাদার ম্যানোয়েল দা আসসুম্পসাঁউ কর্তৃক প্রথম বাংলা ব্যাকরণ ও পর্তুগিজ-বাংলা অভিধান 'ভোকাবুলারিও এম ইদিওমা বেঙ্গালা এ পর্তুগিজ' রচিত হয় এবং ১৭৪৩ সালে লিসবন থেকে প্রকাশিত হয়।",
+      "ans": 3,
+      "correct_answer": "ফাদার ম্যানোয়েল"
     },
     {
       "id": 2,
       "question": "the synonym of the word \"endure\" is",
-      "options": {
-        "ক": "tolerate",
-        "খ": "bear",
-        "গ": "close",
-        "ঘ": "last"
-      },
+      "options": [
+        "tolerate",
+        "bear",
+        "close",
+        "last"
+      ],
       "answer": "ক",
-      "explanation": "'Endure' অর্থ সহ্য করা বা কষ্ট মেনে নেওয়া। এর সরাসরি সমার্থক শব্দ হলো 'Tolerate' (সহ্য করা) বা 'Bear'।"
+      "explanation": "'Endure' অর্থ সহ্য করা বা কষ্ট মেনে নেওয়া। এর সরাসরি সমার্থক শব্দ হলো 'Tolerate' (সহ্য করা) বা 'Bear'।",
+      "ans": 0,
+      "correct_answer": "tolerate"
     },
     {
       "id": 3,
       "question": "the synonyme of the word\" fecund\" is",
-      "options": {
-        "ক": "fertile",
-        "খ": "fake",
-        "গ": "strong",
-        "ঘ": "fact"
-      },
+      "options": [
+        "fertile",
+        "fake",
+        "strong",
+        "fact"
+      ],
       "answer": "ক",
-      "explanation": "'Fecund' অর্থ উর্বর, ফলপ্রসূ বা সৃষ্টিশীল। এর সমার্থক শব্দ হলো 'Fertile' (উর্বর/ফলবান) বা 'Productive'।"
+      "explanation": "'Fecund' অর্থ উর্বর, ফলপ্রসূ বা সৃষ্টিশীল। এর সমার্থক শব্দ হলো 'Fertile' (উর্বর/ফলবান) বা 'Productive'।",
+      "ans": 0,
+      "correct_answer": "fertile"
     },
     {
       "id": 4,
       "question": "the antonym of the word \"grit\" is",
-      "options": {
-        "ক": "dust",
-        "খ": "sand",
-        "গ": "pebbles",
-        "ঘ": "timidity"
-      },
+      "options": [
+        "dust",
+        "sand",
+        "pebbles",
+        "timidity"
+      ],
       "answer": "ঘ",
-      "explanation": "'Grit' অর্থ মনের দৃঢ়তা, সাহস বা অদম্য মনোবল (courage/resolve)। এর বিপরীত শব্দ (Antonym) হলো 'Timidity' (ভীরুতা বা কাপুরুষতা)।"
+      "explanation": "'Grit' অর্থ মনের দৃঢ়তা, সাহস বা অদম্য মনোবল (courage/resolve)। এর বিপরীত শব্দ (Antonym) হলো 'Timidity' (ভীরুতা বা কাপুরুষতা)।",
+      "ans": 3,
+      "correct_answer": "timidity"
     },
     {
       "id": 5,
       "question": "the antonym of the word \"hurt\" is",
-      "options": {
-        "ক": "sad",
-        "খ": "stricken",
-        "গ": "cured",
-        "ঘ": "mauled"
-      },
+      "options": [
+        "sad",
+        "stricken",
+        "cured",
+        "mauled"
+      ],
       "answer": "গ",
-      "explanation": "'Hurt' অর্থ আহত বা আঘাতপ্রাপ্ত। এর বিপরীত শব্দ হলো 'Cured' (নিরাময়প্রাপ্ত/সুস্থ)।"
+      "explanation": "'Hurt' অর্থ আহত বা আঘাতপ্রাপ্ত। এর বিপরীত শব্দ হলো 'Cured' (নিরাময়প্রাপ্ত/সুস্থ)।",
+      "ans": 2,
+      "correct_answer": "cured"
     },
     {
       "id": 6,
       "question": "the social environment in which people work or live is called",
-      "options": {
-        "ক": "workplace",
-        "খ": "work setting",
-        "গ": "context",
-        "ঘ": "mauled"
-      },
+      "options": [
+        "workplace",
+        "work setting",
+        "context",
+        "mauled"
+      ],
       "answer": "ঘ",
-      "explanation": "যে সামাজিক পরিবেশে মানুষ বসবাস করে তাকে সাধারণত 'Milieu' বা 'Context' বলা হয়। প্রশ্নপত্রের উত্তরমালায় অপশন (ঘ) চিহ্নিত রয়েছে।"
+      "explanation": "যে সামাজিক পরিবেশে মানুষ বসবাস করে তাকে সাধারণত 'Milieu' বা 'Context' বলা হয়। প্রশ্নপত্রের উত্তরমালায় অপশন (ঘ) চিহ্নিত রয়েছে।",
+      "ans": 3,
+      "correct_answer": "mauled"
     },
     {
       "id": 7,
       "question": "one million of a second is called",
-      "options": {
-        "ক": "nano-second",
-        "খ": "microsecond",
-        "গ": "minisecond",
-        "ঘ": "mili-second"
-      },
+      "options": [
+        "nano-second",
+        "microsecond",
+        "minisecond",
+        "mili-second"
+      ],
       "answer": "খ",
-      "explanation": "এক সেকেন্ডের দশ লক্ষ ভাগের এক ভাগকে (10⁻⁶ second) বিজ্ঞানের ভাষায় 'Microsecond' বলা হয় (এক কোটি ভাগের এক ভাগ হলো ন্যানোসেকেন্ড)।"
+      "explanation": "এক সেকেন্ডের দশ লক্ষ ভাগের এক ভাগকে (10⁻⁶ second) বিজ্ঞানের ভাষায় 'Microsecond' বলা হয় (এক কোটি ভাগের এক ভাগ হলো ন্যানোসেকেন্ড)।",
+      "ans": 1,
+      "correct_answer": "microsecond"
     },
     {
       "id": 8,
       "question": "will you come--- me to the store?",
-      "options": {
-        "ক": "with",
-        "খ": "along",
-        "গ": "to",
-        "ঘ": "by"
-      },
+      "options": [
+        "with",
+        "along",
+        "to",
+        "by"
+      ],
       "answer": "ক",
-      "explanation": "কারও সাথে যাওয়া বোঝাতে Preposition 'with' বসে ('come with me')।"
+      "explanation": "কারও সাথে যাওয়া বোঝাতে Preposition 'with' বসে ('come with me')।",
+      "ans": 0,
+      "correct_answer": "with"
     },
     {
       "id": 9,
       "question": "if we had a boat , we ---- the river.",
-      "options": {
-        "ক": "will cross",
-        "খ": "would cross",
-        "গ": "shall",
-        "ঘ": "will be crossing"
-      },
+      "options": [
+        "will cross",
+        "would cross",
+        "shall",
+        "will be crossing"
+      ],
       "answer": "ক",
-      "explanation": "ব্যাকরণ অনুযায়ী 2nd Conditional-এ 'would cross' (খ) সঠিক রূপ হলেও মুদ্রিত প্রশ্নপত্রের উত্তরমালায় ভুলবশত (ক) চিহ্নিত রয়েছে।"
+      "explanation": "ব্যাকরণ অনুযায়ী 2nd Conditional-এ 'would cross' (খ) সঠিক রূপ হলেও মুদ্রিত প্রশ্নপত্রের উত্তরমালায় ভুলবশত (ক) চিহ্নিত রয়েছে।",
+      "ans": 0,
+      "correct_answer": "will cross"
     },
     {
       "id": 10,
       "question": "adjective of the word \"cricle\" is..",
-      "options": {
-        "ক": "encircle",
-        "খ": "circle like",
-        "গ": "circular",
-        "ঘ": "circuler"
-      },
+      "options": [
+        "encircle",
+        "circle like",
+        "circular",
+        "circuler"
+      ],
       "answer": "গ",
-      "explanation": "'Circle' (বৃত্ত) হলো Noun। এর Adjective রূপ হলো 'Circular' (বৃত্তাকার বা গোলাকার)। 'Encircle' হলো Verb।"
+      "explanation": "'Circle' (বৃত্ত) হলো Noun। এর Adjective রূপ হলো 'Circular' (বৃত্তাকার বা গোলাকার)। 'Encircle' হলো Verb।",
+      "ans": 2,
+      "correct_answer": "circular"
     },
     {
       "id": 11,
       "question": "my friend is _____ african \"origin\" is",
-      "options": {
-        "ক": "to",
-        "খ": "of",
-        "গ": "from",
-        "ঘ": "an"
-      },
+      "options": [
+        "to",
+        "of",
+        "from",
+        "an"
+      ],
       "answer": "খ",
-      "explanation": "কোনো বংশোদ্ভূত বা জাতিসত্তার উৎস নির্দেশ করতে 'Of ... origin' বসে ('of African origin')।"
+      "explanation": "কোনো বংশোদ্ভূত বা জাতিসত্তার উৎস নির্দেশ করতে 'Of ... origin' বসে ('of African origin')।",
+      "ans": 1,
+      "correct_answer": "of"
     },
     {
       "id": 12,
       "question": "a _____ in time saves nine",
-      "options": {
-        "ক": "stick",
-        "খ": "strict",
-        "গ": "stich",
-        "ঘ": "stitch"
-      },
+      "options": [
+        "stick",
+        "strict",
+        "stich",
+        "stitch"
+      ],
       "answer": "ঘ",
-      "explanation": "প্রবাদ বাক্যটির সঠিক রূপ: 'A stitch in time saves nine'। সঠিক বানান S-T-I-T-C-H।"
+      "explanation": "প্রবাদ বাক্যটির সঠিক রূপ: 'A stitch in time saves nine'। সঠিক বানান S-T-I-T-C-H।",
+      "ans": 3,
+      "correct_answer": "stitch"
     },
     {
       "id": 13,
       "question": "which is the correct spelling?",
-      "options": {
-        "ক": "neumonia",
-        "খ": "pnumonia",
-        "গ": "pneumonia",
-        "ঘ": "pneiumonia"
-      },
+      "options": [
+        "neumonia",
+        "pnumonia",
+        "pneumonia",
+        "pneiumonia"
+      ],
       "answer": "গ",
-      "explanation": "ফুসফুসের রোগ নিউমোনিয়ার সঠিক বানান হলো 'Pneumonia' (P-N-E-U-M-O-N-I-A, শুরুতে silent 'P')।"
+      "explanation": "ফুসফুসের রোগ নিউমোনিয়ার সঠিক বানান হলো 'Pneumonia' (P-N-E-U-M-O-N-I-A, শুরুতে silent 'P')।",
+      "ans": 2,
+      "correct_answer": "pneumonia"
     },
     {
       "id": 14,
       "question": "a noun referring to things that our five senses can't detect is called",
-      "options": {
-        "ক": "proper noun",
-        "খ": "common noun",
-        "গ": "material noun",
-        "ঘ": "abstract noun"
-      },
+      "options": [
+        "proper noun",
+        "common noun",
+        "material noun",
+        "abstract noun"
+      ],
       "answer": "ঘ",
-      "explanation": "যে নাম বা গুণ আমাদের পঞ্চেন্দ্রিয় দ্বারা স্পর্শ বা দেখা যায় না, কেবল অনুভূতি বা উপলব্ধি করা যায়, তাকে 'Abstract Noun' (ভাববাচক বিশেষ্য) বলা হয়।"
+      "explanation": "যে নাম বা গুণ আমাদের পঞ্চেন্দ্রিয় দ্বারা স্পর্শ বা দেখা যায় না, কেবল অনুভূতি বা উপলব্ধি করা যায়, তাকে 'Abstract Noun' (ভাববাচক বিশেষ্য) বলা হয়।",
+      "ans": 3,
+      "correct_answer": "abstract noun"
     },
     {
       "id": 15,
       "question": "the flower ____ sweet",
-      "options": {
-        "ক": "tastes",
-        "খ": "smells",
-        "গ": "looks",
-        "ঘ": "is seen"
-      },
+      "options": [
+        "tastes",
+        "smells",
+        "looks",
+        "is seen"
+      ],
       "answer": "খ",
-      "explanation": "ফুলের সুবাস ইন্দ্রিয় দিয়ে অনুভব করা বোঝাতে Linking verb হিসেবে 'Smell' বসে: 'The flower smells sweet' (ফুলটির মিষ্টি সুবাস রয়েছে)।"
+      "explanation": "ফুলের সুবাস ইন্দ্রিয় দিয়ে অনুভব করা বোঝাতে Linking verb হিসেবে 'Smell' বসে: 'The flower smells sweet' (ফুলটির মিষ্টি সুবাস রয়েছে)।",
+      "ans": 1,
+      "correct_answer": "smells"
     },
     {
       "id": 16,
       "question": "the past form of the word\"tear' is",
-      "options": {
-        "ক": "teared",
-        "খ": "torn",
-        "গ": "tore",
-        "ঘ": "tears"
-      },
+      "options": [
+        "teared",
+        "torn",
+        "tore",
+        "tears"
+      ],
       "answer": "গ",
-      "explanation": "'Tear' (ছেঁড়া) একটি irregular verb। এর রূপগুলো হলো: Present: Tear, Past: Tore, Past Participle: Torn। সুতরাং past form হলো 'tore'।"
+      "explanation": "'Tear' (ছেঁড়া) একটি irregular verb। এর রূপগুলো হলো: Present: Tear, Past: Tore, Past Participle: Torn। সুতরাং past form হলো 'tore'।",
+      "ans": 2,
+      "correct_answer": "tore"
     },
     {
       "id": 17,
       "question": "the noun form of the word 'do' is",
-      "options": {
-        "ক": "did",
-        "খ": "does",
-        "গ": "deed",
-        "ঘ": "daged"
-      },
+      "options": [
+        "did",
+        "does",
+        "deed",
+        "daged"
+      ],
       "answer": "গ",
-      "explanation": "'Do' (করা) একটি verb। এর noun form হলো 'deed' (কাজ বা কর্ম)। Did হলো past form এবং does হলো 3rd person singular present form।"
+      "explanation": "'Do' (করা) একটি verb। এর noun form হলো 'deed' (কাজ বা কর্ম)। Did হলো past form এবং does হলো 3rd person singular present form।",
+      "ans": 2,
+      "correct_answer": "deed"
     },
     {
       "id": 18,
       "question": "the 60th anniversary of an important event is called;",
-      "options": {
-        "ক": "diamond jabilee",
-        "খ": "golden jubilee",
-        "গ": "platinum jubliee",
-        "ঘ": "silver jubliee"
-      },
+      "options": [
+        "diamond jabilee",
+        "golden jubilee",
+        "platinum jubliee",
+        "silver jubliee"
+      ],
       "answer": "ক",
-      "explanation": "কোনো গুরুত্বপূর্ণ ঘটনার ৬০তম বার্ষিকীকে 'Diamond Jubilee' (হীরক জয়ন্তী) বলা হয়। ২৫তম বার্ষিকী = Silver Jubilee, ৫০তম বার্ষিকী = Golden Jubilee, এবং ৭৫তম বার্ষিকী = Platinum Jubilee।"
+      "explanation": "কোনো গুরুত্বপূর্ণ ঘটনার ৬০তম বার্ষিকীকে 'Diamond Jubilee' (হীরক জয়ন্তী) বলা হয়। ২৫তম বার্ষিকী = Silver Jubilee, ৫০তম বার্ষিকী = Golden Jubilee, এবং ৭৫তম বার্ষিকী = Platinum Jubilee।",
+      "ans": 0,
+      "correct_answer": "diamond jabilee"
     },
     {
       "id": 19,
       "question": "which word is opposite of docile?",
-      "options": {
-        "ক": "unruly",
-        "খ": "complex",
-        "গ": "optimistic",
-        "ঘ": "sharink"
-      },
+      "options": [
+        "unruly",
+        "complex",
+        "optimistic",
+        "sharink"
+      ],
       "answer": "ক",
-      "explanation": "'Docile' শব্দের অর্থ শান্ত, বিনীত বা সহজে বশ মানে এমন (obedient)। এর বিপরীত (antonym) শব্দ হলো 'unruly' (অবাধ্য, উচ্ছৃঙ্খল বা নিয়ন্ত্রণহীন)।"
+      "explanation": "'Docile' শব্দের অর্থ শান্ত, বিনীত বা সহজে বশ মানে এমন (obedient)। এর বিপরীত (antonym) শব্দ হলো 'unruly' (অবাধ্য, উচ্ছৃঙ্খল বা নিয়ন্ত্রণহীন)।",
+      "ans": 0,
+      "correct_answer": "unruly"
     },
     {
       "id": 20,
       "question": "my desk is a ____ i should clean it",
-      "options": {
-        "ক": "messy",
-        "খ": "slob",
-        "গ": "mess",
-        "ঘ": "sloppy"
-      },
+      "options": [
+        "messy",
+        "slob",
+        "mess",
+        "sloppy"
+      ],
       "answer": "গ",
-      "explanation": "এখানে indefinite article 'a'-এর পর একটি noun বসবে। 'Mess' হলো noun যার অর্থ নোংরা বা বিশৃঙ্খল অবস্থা। তাই সঠিক বাক্য: 'My desk is a mess, I should clean it.'"
+      "explanation": "এখানে indefinite article 'a'-এর পর একটি noun বসবে। 'Mess' হলো noun যার অর্থ নোংরা বা বিশৃঙ্খল অবস্থা। তাই সঠিক বাক্য: 'My desk is a mess, I should clean it.'",
+      "ans": 2,
+      "correct_answer": "mess"
     }
   ]
 }

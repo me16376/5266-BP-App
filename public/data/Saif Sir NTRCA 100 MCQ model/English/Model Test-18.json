@@ -7,1202 +7,1402 @@
     {
       "id": 1,
       "question": "Choose the correctly spelt word.",
-      "options": {
-        "ক": "voluntary",
-        "খ": "volantory",
-        "গ": "voluntary",
-        "ঘ": "voluntary"
-      },
+      "options": [
+        "voluntary",
+        "volantory",
+        "voluntary",
+        "voluntary"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Voluntary' (V-o-l-u-n-t-a-r-y), যার অর্থ স্বেচ্ছাসেবী বা স্বতঃপ্রণোদিত।"
+      "explanation": "সঠিক বানান হলো 'Voluntary' (V-o-l-u-n-t-a-r-y), যার অর্থ স্বেচ্ছাসেবী বা স্বতঃপ্রণোদিত।",
+      "ans": 3,
+      "correct_answer": "voluntary"
     },
     {
       "id": 2,
       "question": "Counsel means –",
-      "options": {
-        "ক": "Meeting",
-        "খ": "Advice",
-        "গ": "Trade",
-        "ঘ": "Cabinet"
-      },
+      "options": [
+        "Meeting",
+        "Advice",
+        "Trade",
+        "Cabinet"
+      ],
       "answer": "খ",
-      "explanation": "'Counsel' শব্দের অর্থ উপদেশ বা পরামর্শ (Advice) অথবা আইনগত পরামর্শদাতা। Council মানে পরিষদ বা সভা।"
+      "explanation": "'Counsel' শব্দের অর্থ উপদেশ বা পরামর্শ (Advice) অথবা আইনগত পরামর্শদাতা। Council মানে পরিষদ বা সভা।",
+      "ans": 1,
+      "correct_answer": "Advice"
     },
     {
       "id": 3,
       "question": "‘কর্তৃপক্ষ তাকে তিরস্কার করলো’- সঠিক ইংরেজি কী?",
-      "options": {
-        "ক": "The authority took him to task",
-        "খ": "The authority criticised him",
-        "গ": "The authority took him to book",
-        "ঘ": "The authority gave reins to him"
-      },
+      "options": [
+        "The authority took him to task",
+        "The authority criticised him",
+        "The authority took him to book",
+        "The authority gave reins to him"
+      ],
       "answer": "ক",
-      "explanation": "'Take someone to task' একটি প্রচলিত idiom, যার অর্থ কাউকে তিরস্কার করা বা জবাবদিহি করা। তাই 'কর্তৃপক্ষ তাকে তিরস্কার করলো'-এর অনুবাদ: 'The authority took him to task.'"
+      "explanation": "'Take someone to task' একটি প্রচলিত idiom, যার অর্থ কাউকে তিরস্কার করা বা জবাবদিহি করা। তাই 'কর্তৃপক্ষ তাকে তিরস্কার করলো'-এর অনুবাদ: 'The authority took him to task.'",
+      "ans": 0,
+      "correct_answer": "The authority took him to task"
     },
     {
       "id": 4,
       "question": "What is the adjective of the word ‘Heart”?",
-      "options": {
-        "ক": "Heartful",
-        "খ": "Heartening",
-        "গ": "Heartly",
-        "ঘ": "Heart"
-      },
+      "options": [
+        "Heartful",
+        "Heartening",
+        "Heartly",
+        "Heart"
+      ],
       "answer": "খ",
-      "explanation": "'Heart' (হৃদয়) শব্দটির Adjective রূপ হলো 'Heartening' (উৎসাহব্যঞ্জক বা প্রীতিজনক) অথবা Hearty (আন্তরিক)।"
+      "explanation": "'Heart' (হৃদয়) শব্দটির Adjective রূপ হলো 'Heartening' (উৎসাহব্যঞ্জক বা প্রীতিজনক) অথবা Hearty (আন্তরিক)।",
+      "ans": 1,
+      "correct_answer": "Heartening"
     },
     {
       "id": 5,
       "question": "অবাক কাজ এর ইংরেজি-",
-      "options": {
-        "ক": "The work wonderful",
-        "খ": "What is strange?",
-        "গ": "The wonderful work",
-        "ঘ": "The beautiful work"
-      },
+      "options": [
+        "The work wonderful",
+        "What is strange?",
+        "The wonderful work",
+        "The beautiful work"
+      ],
       "answer": "গ",
-      "explanation": "'অবাক কাজ' বা বিস্ময়কর কর্ম বোঝাতে সঠিক ইংরেজি রূপ হলো 'The wonderful work'।"
+      "explanation": "'অবাক কাজ' বা বিস্ময়কর কর্ম বোঝাতে সঠিক ইংরেজি রূপ হলো 'The wonderful work'।",
+      "ans": 2,
+      "correct_answer": "The wonderful work"
     },
     {
       "id": 6,
       "question": "Choose the correct sentence :",
-      "options": {
-        "ক": "Poors are not always dishonest",
-        "খ": "The poor are not always dishonest",
-        "গ": "The poors are not always dishonest",
-        "ঘ": "The poor is not always dishonest"
-      },
+      "options": [
+        "Poors are not always dishonest",
+        "The poor are not always dishonest",
+        "The poors are not always dishonest",
+        "The poor is not always dishonest"
+      ],
       "answer": "খ",
-      "explanation": "'The poor' একটি Plural Common Noun যা সমগ্র দরিদ্র জাতিকে বোঝায়, তাই এর পরে Plural Verb 'are' বসে: 'The poor are not always dishonest.'"
+      "explanation": "'The poor' একটি Plural Common Noun যা সমগ্র দরিদ্র জাতিকে বোঝায়, তাই এর পরে Plural Verb 'are' বসে: 'The poor are not always dishonest.'",
+      "ans": 1,
+      "correct_answer": "The poor are not always dishonest"
     },
     {
       "id": 7,
       "question": "What is the antonym of ‘ Gentle’",
-      "options": {
-        "ক": "Harsh",
-        "খ": "Rude",
-        "গ": "Cleaver",
-        "ঘ": "Modest"
-      },
+      "options": [
+        "Harsh",
+        "Rude",
+        "Cleaver",
+        "Modest"
+      ],
       "answer": "খ",
-      "explanation": "'Gentle' শব্দের অর্থ ভদ্র, শান্ত ও নম্র। এর বিপরীত (antonym) শব্দ হলো 'Rude' (অভদ্র, রূঢ় বা অশিষ্ট)।"
+      "explanation": "'Gentle' শব্দের অর্থ ভদ্র, শান্ত ও নম্র। এর বিপরীত (antonym) শব্দ হলো 'Rude' (অভদ্র, রূঢ় বা অশিষ্ট)।",
+      "ans": 1,
+      "correct_answer": "Rude"
     },
     {
       "id": 8,
       "question": "“Hardly ‘ means –",
-      "options": {
-        "ক": "frequently",
-        "খ": "very often",
-        "গ": "scarcely",
-        "ঘ": "positively"
-      },
+      "options": [
+        "frequently",
+        "very often",
+        "scarcely",
+        "positively"
+      ],
       "answer": "গ",
-      "explanation": "'Hardly' একটি নেতিবাচক Adverb যার অর্থ প্রায় না বা কদাচিৎ। এর সমার্থক শব্দ হলো 'Scarcely' বা Barely।"
+      "explanation": "'Hardly' একটি নেতিবাচক Adverb যার অর্থ প্রায় না বা কদাচিৎ। এর সমার্থক শব্দ হলো 'Scarcely' বা Barely।",
+      "ans": 2,
+      "correct_answer": "scarcely"
     },
     {
       "id": 9,
       "question": "Harvest is related to –",
-      "options": {
-        "ক": "crop",
-        "খ": "autumn",
-        "গ": "tractor",
-        "ঘ": "stockpile"
-      },
+      "options": [
+        "crop",
+        "autumn",
+        "tractor",
+        "stockpile"
+      ],
       "answer": "ক",
-      "explanation": "'Harvest' শব্দের অর্থ ফসল তোলা বা পাকা শস্য আহরণ করা, যা সরাসরি 'Crop' (ফসল)-এর সাথে সম্পর্কিত।"
+      "explanation": "'Harvest' শব্দের অর্থ ফসল তোলা বা পাকা শস্য আহরণ করা, যা সরাসরি 'Crop' (ফসল)-এর সাথে সম্পর্কিত।",
+      "ans": 0,
+      "correct_answer": "crop"
     },
     {
       "id": 10,
       "question": "Choose the correct sentence :",
-      "options": {
-        "ক": "Fifty miles is a long distance",
-        "খ": "Fifty miles has a long distance",
-        "গ": "Fifty miles are a long distance",
-        "ঘ": "Fifty mile is a long distance"
-      },
+      "options": [
+        "Fifty miles is a long distance",
+        "Fifty miles has a long distance",
+        "Fifty miles are a long distance",
+        "Fifty mile is a long distance"
+      ],
       "answer": "ক",
-      "explanation": "নির্দিষ্ট দূরত্ব বা পরিমাপ (Fifty miles) একটি একক সমষ্টি হিসেবে বিবেচিত হওয়ায় Verb Singular (is) হয়: 'Fifty miles is a long distance.'"
+      "explanation": "নির্দিষ্ট দূরত্ব বা পরিমাপ (Fifty miles) একটি একক সমষ্টি হিসেবে বিবেচিত হওয়ায় Verb Singular (is) হয়: 'Fifty miles is a long distance.'",
+      "ans": 0,
+      "correct_answer": "Fifty miles is a long distance"
     },
     {
       "id": 11,
       "question": "What is the correct antonym of ‘ panic’?",
-      "options": {
-        "ক": "relax",
-        "খ": "sit",
-        "গ": "laugh",
-        "ঘ": "dance"
-      },
+      "options": [
+        "relax",
+        "sit",
+        "laugh",
+        "dance"
+      ],
       "answer": "ক",
-      "explanation": "'Panic' শব্দের অর্থ চরম আতঙ্ক বা ভয় পাওয়া। এর বিপরীত ভাব প্রকাশ করে শান্ত হওয়া বা আরাম করা, অর্থাৎ 'Relax'।"
+      "explanation": "'Panic' শব্দের অর্থ চরম আতঙ্ক বা ভয় পাওয়া। এর বিপরীত ভাব প্রকাশ করে শান্ত হওয়া বা আরাম করা, অর্থাৎ 'Relax'।",
+      "ans": 0,
+      "correct_answer": "relax"
     },
     {
       "id": 12,
       "question": "The opposite of ‘ Friendship’",
-      "options": {
-        "ক": "dislike",
-        "খ": "bitterness",
-        "গ": "loggerheads",
-        "ঘ": "enmity"
-      },
+      "options": [
+        "dislike",
+        "bitterness",
+        "loggerheads",
+        "enmity"
+      ],
       "answer": "ঘ",
-      "explanation": "'Friendship' শব্দের অর্থ বন্ধুত্ব। এর বিপরীত শব্দ হলো 'Enmity' (শত্রুতা)।"
+      "explanation": "'Friendship' শব্দের অর্থ বন্ধুত্ব। এর বিপরীত শব্দ হলো 'Enmity' (শত্রুতা)।",
+      "ans": 3,
+      "correct_answer": "enmity"
     },
     {
       "id": 13,
       "question": "‘ Manifesto ‘ means",
-      "options": {
-        "ক": "policy statement",
-        "খ": "well behaved",
-        "গ": "various forms things",
-        "ঘ": "manifold"
-      },
+      "options": [
+        "policy statement",
+        "well behaved",
+        "various forms things",
+        "manifold"
+      ],
       "answer": "ক",
-      "explanation": "'Manifesto' শব্দের অর্থ কোনো রাজনৈতিক দল বা সংস্থার লিখিত নীতিপত্র বা নির্বাচনী ইশতেহার (A public declaration of policy and aims / policy statement)।"
+      "explanation": "'Manifesto' শব্দের অর্থ কোনো রাজনৈতিক দল বা সংস্থার লিখিত নীতিপত্র বা নির্বাচনী ইশতেহার (A public declaration of policy and aims / policy statement)।",
+      "ans": 0,
+      "correct_answer": "policy statement"
     },
     {
       "id": 14,
       "question": "Choose the correct spelling:",
-      "options": {
-        "ক": "ascertain",
-        "খ": "ascertain",
-        "গ": "asartain",
-        "ঘ": "ascertain"
-      },
+      "options": [
+        "ascertain",
+        "ascertain",
+        "asartain",
+        "ascertain"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Ascertain' (A-s-c-e-r-t-a-i-n), যার অর্থ কোনো কিছু অনুসন্ধান করে নিশ্চিত হওয়া।"
+      "explanation": "সঠিক বানান হলো 'Ascertain' (A-s-c-e-r-t-a-i-n), যার অর্থ কোনো কিছু অনুসন্ধান করে নিশ্চিত হওয়া।",
+      "ans": 3,
+      "correct_answer": "ascertain"
     },
     {
       "id": 15,
       "question": "‘Pass for’ means –",
-      "options": {
-        "ক": "appear to be",
-        "খ": "allow",
-        "গ": "brush aside",
-        "ঘ": "qualify"
-      },
+      "options": [
+        "appear to be",
+        "allow",
+        "brush aside",
+        "qualify"
+      ],
       "answer": "ক",
-      "explanation": "'Pass for' phrasal verb-টির অর্থ কোনো কিছু হিসেবে গণ্য হওয়া বা বিবেচিত হওয়া (To appear to be / to be accepted as)।"
+      "explanation": "'Pass for' phrasal verb-টির অর্থ কোনো কিছু হিসেবে গণ্য হওয়া বা বিবেচিত হওয়া (To appear to be / to be accepted as)।",
+      "ans": 0,
+      "correct_answer": "appear to be"
     },
     {
       "id": 16,
       "question": "The Headmaster is the --- person in the village –",
-      "options": {
-        "ক": "wise",
-        "খ": "better",
-        "গ": "wisest",
-        "ঘ": "best"
-      },
+      "options": [
+        "wise",
+        "better",
+        "wisest",
+        "best"
+      ],
       "answer": "গ",
-      "explanation": "Superlative degree-এর পূর্বে article 'the' বসে এবং Adjective-এর superlative রূপ (wisest) বসে: 'The Headmaster is the wisest person in the village.'"
+      "explanation": "Superlative degree-এর পূর্বে article 'the' বসে এবং Adjective-এর superlative রূপ (wisest) বসে: 'The Headmaster is the wisest person in the village.'",
+      "ans": 2,
+      "correct_answer": "wisest"
     },
     {
       "id": 17,
       "question": "He sleep a sound sleep. Here ‘sound’ is a /an",
-      "options": {
-        "ক": "adverb",
-        "খ": "adjective",
-        "গ": "noun",
-        "ঘ": "pronoun"
-      },
+      "options": [
+        "adverb",
+        "adjective",
+        "noun",
+        "pronoun"
+      ],
       "answer": "খ",
-      "explanation": "'He slept a sound sleep' বাক্যে Noun 'sleep'-এর পূর্বে বসে তার গভীরতা বা গুণ নির্দেশ করায় 'sound' শব্দটি একটি Adjective (অর্থ: গভীর বা শান্ত ঘুম)।"
+      "explanation": "'He slept a sound sleep' বাক্যে Noun 'sleep'-এর পূর্বে বসে তার গভীরতা বা গুণ নির্দেশ করায় 'sound' শব্দটি একটি Adjective (অর্থ: গভীর বা শান্ত ঘুম)।",
+      "ans": 1,
+      "correct_answer": "adjective"
     },
     {
       "id": 18,
       "question": "He said, What a pity’ বাক্যের indirect speech –",
-      "options": {
-        "ক": "He exclaimed that it is a great pity",
-        "খ": "He exclaimed that it was a great pity",
-        "গ": "He exclaimed that it is great pity",
-        "ঘ": "He exclaimed that it is very pity"
-      },
+      "options": [
+        "He exclaimed that it is a great pity",
+        "He exclaimed that it was a great pity",
+        "He exclaimed that it is great pity",
+        "He exclaimed that it is very pity"
+      ],
       "answer": "খ",
-      "explanation": "Exclamatory বাক্য 'What a pity!'-এর Indirect রূপ: 'He exclaimed that it was a great pity.'"
+      "explanation": "Exclamatory বাক্য 'What a pity!'-এর Indirect রূপ: 'He exclaimed that it was a great pity.'",
+      "ans": 1,
+      "correct_answer": "He exclaimed that it was a great pity"
     },
     {
       "id": 19,
       "question": "Optimist is to cheerful as pessimist is to –",
-      "options": {
-        "ক": "pretty",
-        "খ": "mean",
-        "গ": "helpful",
-        "ঘ": "gloomy"
-      },
+      "options": [
+        "pretty",
+        "mean",
+        "helpful",
+        "gloomy"
+      ],
       "answer": "ঘ",
-      "explanation": "Optimist (আশাবাদী) সর্বদা Cheerful (প্রফুল্ল) থাকে, তেমনি Pessimist (হতাশাবাদী) সর্বদাই Gloomy (বিষাদগ্রস্ত বা অন্ধকারাচ্ছন্ন) থাকে (Optimist : Cheerful :: Pessimist : Gloomy)।"
+      "explanation": "Optimist (আশাবাদী) সর্বদা Cheerful (প্রফুল্ল) থাকে, তেমনি Pessimist (হতাশাবাদী) সর্বদাই Gloomy (বিষাদগ্রস্ত বা অন্ধকারাচ্ছন্ন) থাকে (Optimist : Cheerful :: Pessimist : Gloomy)।",
+      "ans": 3,
+      "correct_answer": "gloomy"
     },
     {
       "id": 20,
       "question": "Everybody longs --- happiness.",
-      "options": {
-        "ক": "from",
-        "খ": "for",
-        "গ": "in",
-        "ঘ": "for"
-      },
+      "options": [
+        "from",
+        "for",
+        "in",
+        "for"
+      ],
       "answer": "খ",
-      "explanation": "কোনো কিছুর তীব্র আকাঙ্ক্ষা করা বোঝাতে appropriate preposition 'long for' বসে: 'Everybody longs for happiness.'"
+      "explanation": "কোনো কিছুর তীব্র আকাঙ্ক্ষা করা বোঝাতে appropriate preposition 'long for' বসে: 'Everybody longs for happiness.'",
+      "ans": 1,
+      "correct_answer": "for"
     },
     {
       "id": 21,
       "question": "The opposite of ‘purchase’",
-      "options": {
-        "ক": "sell",
-        "খ": "buy",
-        "গ": "produce",
-        "ঘ": "procure"
-      },
+      "options": [
+        "sell",
+        "buy",
+        "produce",
+        "procure"
+      ],
       "answer": "ক",
-      "explanation": "'Purchase' শব্দের অর্থ কোনো কিছু কেনা বা ক্রয় করা (buy)। এর বিপরীত শব্দ হলো 'Sell' (বিক্রয় করা)।"
+      "explanation": "'Purchase' শব্দের অর্থ কোনো কিছু কেনা বা ক্রয় করা (buy)। এর বিপরীত শব্দ হলো 'Sell' (বিক্রয় করা)।",
+      "ans": 0,
+      "correct_answer": "sell"
     },
     {
       "id": 22,
       "question": "Mankind means –",
-      "options": {
-        "ক": "the male kind",
-        "খ": "the human race",
-        "গ": "the people in general",
-        "ঘ": "kind men"
-      },
+      "options": [
+        "the male kind",
+        "the human race",
+        "the people in general",
+        "kind men"
+      ],
       "answer": "খ",
-      "explanation": "'Mankind' শব্দের অর্থ সমগ্র মানবজাতি বা মানবসমাজ (The human race / humanity)।"
+      "explanation": "'Mankind' শব্দের অর্থ সমগ্র মানবজাতি বা মানবসমাজ (The human race / humanity)।",
+      "ans": 1,
+      "correct_answer": "the human race"
     },
     {
       "id": 23,
       "question": "‘Competent ‘ means –",
-      "options": {
-        "ক": "able",
-        "খ": "competitive",
-        "গ": "forceful",
-        "ঘ": "forcefully"
-      },
+      "options": [
+        "able",
+        "competitive",
+        "forceful",
+        "forcefully"
+      ],
       "answer": "ক",
-      "explanation": "'Competent' শব্দের অর্থ কোনো কাজের জন্য যোগ্য, দক্ষ বা সক্ষম। এর সমার্থক হলো 'Able' (সক্ষম বা যোগ্য)।"
+      "explanation": "'Competent' শব্দের অর্থ কোনো কাজের জন্য যোগ্য, দক্ষ বা সক্ষম। এর সমার্থক হলো 'Able' (সক্ষম বা যোগ্য)।",
+      "ans": 0,
+      "correct_answer": "able"
     },
     {
       "id": 24,
       "question": "What is the antonym of ‘famous’",
-      "options": {
-        "ক": "obscure",
-        "খ": "immature",
-        "গ": "opaque",
-        "ঘ": "illiterate"
-      },
+      "options": [
+        "obscure",
+        "immature",
+        "opaque",
+        "illiterate"
+      ],
       "answer": "ক",
-      "explanation": "'Famous' শব্দের অর্থ বিখ্যাত বা সুপরিচিত। এর বিপরীত (antonym) শব্দ হলো 'Obscure' (অখ্যাত, অজ্ঞাত বা অস্পষ্ট)।"
+      "explanation": "'Famous' শব্দের অর্থ বিখ্যাত বা সুপরিচিত। এর বিপরীত (antonym) শব্দ হলো 'Obscure' (অখ্যাত, অজ্ঞাত বা অস্পষ্ট)।",
+      "ans": 0,
+      "correct_answer": "obscure"
     },
     {
       "id": 25,
       "question": "What kind of noun is “Girl”?",
-      "options": {
-        "ক": "Collective",
-        "খ": "Material",
-        "গ": "Proper",
-        "ঘ": "Common"
-      },
+      "options": [
+        "Collective",
+        "Material",
+        "Proper",
+        "Common"
+      ],
       "answer": "ঘ",
-      "explanation": "'Girl' শব্দটি সমগ্র বালিকা শ্রেণিকে সাধারণভাবে নির্দেশ করায় এটি একটি Common Noun (জাতিবাচক বিশেষ্য)।"
+      "explanation": "'Girl' শব্দটি সমগ্র বালিকা শ্রেণিকে সাধারণভাবে নির্দেশ করায় এটি একটি Common Noun (জাতিবাচক বিশেষ্য)।",
+      "ans": 3,
+      "correct_answer": "Common"
     },
     {
       "id": 26,
       "question": "Synonym for “Mouth watering”?",
-      "options": {
-        "ক": "Sour",
-        "খ": "Delicious",
-        "গ": "Hot",
-        "ঘ": "Wet"
-      },
+      "options": [
+        "Sour",
+        "Delicious",
+        "Hot",
+        "Wet"
+      ],
       "answer": "খ",
-      "explanation": "'Mouth watering' একটি রূপক Adjective যার অর্থ অত্যন্ত লোভনীয় ও সুস্বাদু খাবার (Delicious / highly appetizing)।"
+      "explanation": "'Mouth watering' একটি রূপক Adjective যার অর্থ অত্যন্ত লোভনীয় ও সুস্বাদু খাবার (Delicious / highly appetizing)।",
+      "ans": 1,
+      "correct_answer": "Delicious"
     },
     {
       "id": 27,
       "question": "কোনটি Collective Noun?",
-      "options": {
-        "ক": "Boy",
-        "খ": "Books",
-        "গ": "Library",
-        "ঘ": "Month"
-      },
+      "options": [
+        "Boy",
+        "Books",
+        "Library",
+        "Month"
+      ],
       "answer": "গ",
-      "explanation": "'Library' (গ্রন্থাগার) বইয়ের সংকলন ও সমষ্টিকে বোঝানোয় এটি একটি Collective Noun।"
+      "explanation": "'Library' (গ্রন্থাগার) বইয়ের সংকলন ও সমষ্টিকে বোঝানোয় এটি একটি Collective Noun।",
+      "ans": 2,
+      "correct_answer": "Library"
     },
     {
       "id": 28,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Dysentry",
-        "খ": "Decentry",
-        "গ": "Dysentery",
-        "ঘ": "Disentery"
-      },
+      "options": [
+        "Dysentry",
+        "Decentry",
+        "Dysentery",
+        "Disentery"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানান হলো 'Dysentery' (D-y-s-e-n-t-e-r-y), যার বাংলা অর্থ আমাশয় রোগ।"
+      "explanation": "সঠিক বানান হলো 'Dysentery' (D-y-s-e-n-t-e-r-y), যার বাংলা অর্থ আমাশয় রোগ।",
+      "ans": 2,
+      "correct_answer": "Dysentery"
     },
     {
       "id": 29,
       "question": "Which of the following sentence is correct?",
-      "options": {
-        "ক": "One of my brother is a doctor .",
-        "খ": "One of my brother’s are a doctor .",
-        "গ": "One of my brothers is a doctor.",
-        "ঘ": "One of my brother’s is doctor."
-      },
+      "options": [
+        "One of my brother is a doctor .",
+        "One of my brother’s are a doctor .",
+        "One of my brothers is a doctor.",
+        "One of my brother’s is doctor."
+      ],
       "answer": "গ",
-      "explanation": "'One of my + plural noun'-এর পরে Verb সর্বদা Singular হয়: 'One of my brothers is a doctor.'"
+      "explanation": "'One of my + plural noun'-এর পরে Verb সর্বদা Singular হয়: 'One of my brothers is a doctor.'",
+      "ans": 2,
+      "correct_answer": "One of my brothers is a doctor."
     },
     {
       "id": 30,
       "question": "The ministers arrived --- a decision last night.",
-      "options": {
-        "ক": "in",
-        "খ": "to",
-        "গ": "on",
-        "ঘ": "at"
-      },
+      "options": [
+        "in",
+        "to",
+        "on",
+        "at"
+      ],
       "answer": "ঘ",
-      "explanation": "কোনো সিদ্ধান্তে বা ঐকমত্যে পৌঁছানো বোঝাতে 'arrive at a decision' ব্যবহৃত হয়: 'The ministers arrived at a decision last night.'"
+      "explanation": "কোনো সিদ্ধান্তে বা ঐকমত্যে পৌঁছানো বোঝাতে 'arrive at a decision' ব্যবহৃত হয়: 'The ministers arrived at a decision last night.'",
+      "ans": 3,
+      "correct_answer": "at"
     },
     {
       "id": 31,
       "question": "কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "Mr. Jamal is not in the committee.",
-        "খ": "Mr. Jamal is not in committee.",
-        "গ": "Mr. Jamal is not at the committee.",
-        "ঘ": "Mr. Jamal is not on the committee."
-      },
-      "answer": "ঘ",
-      "explanation": "কমিটির সদস্য থাকা বোঝাতে preposition 'on' বসে: 'Mr. Jamal is not on the committee.'"
+      "options": [
+        "Mr. Jamal is not in the committee.",
+        "Mr. Jamal is not in committee.",
+        "Mr. Jamal is not at the committee.",
+        "Mr. Jamal is not on the committee."
+      ],
+      "answer": "ক",
+      "explanation": "কমিটির সদস্য থাকা বোঝাতে preposition 'on' বসে: 'Mr. Jamal is not on the committee.'",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 32,
       "question": "The word ‘ Stagflation ‘ means –",
-      "options": {
-        "ক": "economic slow down",
-        "খ": "a disintegrating government",
-        "গ": "cultural dullness",
-        "ঘ": "controlled prices"
-      },
+      "options": [
+        "economic slow down",
+        "a disintegrating government",
+        "cultural dullness",
+        "controlled prices"
+      ],
       "answer": "ক",
-      "explanation": "'Stagflation' হলো এমন এক অর্থনৈতিক পরিস্থিতি যেখানে অর্থনৈতিক প্রবৃদ্ধির স্থবিরতা বা মন্দার সাথে মুদ্রাস্ফীতি বিরাজ করে (Economic slowdown / stagnation combined with inflation)।"
+      "explanation": "'Stagflation' হলো এমন এক অর্থনৈতিক পরিস্থিতি যেখানে অর্থনৈতিক প্রবৃদ্ধির স্থবিরতা বা মন্দার সাথে মুদ্রাস্ফীতি বিরাজ করে (Economic slowdown / stagnation combined with inflation)।",
+      "ans": 0,
+      "correct_answer": "economic slow down"
     },
     {
       "id": 33,
       "question": "I wish you --- the problem.",
-      "options": {
-        "ক": "can solve",
-        "খ": "have solved",
-        "গ": "shall solve",
-        "ঘ": "could solve"
-      },
+      "options": [
+        "can solve",
+        "have solved",
+        "shall solve",
+        "could solve"
+      ],
       "answer": "ঘ",
-      "explanation": "'I wish'-এর পরে সামর্থ্য বা সম্ভাবনা বোঝাতে Past Modal 'could' ব্যবহৃত হয়: 'I wish you could solve the problem.'"
+      "explanation": "'I wish'-এর পরে সামর্থ্য বা সম্ভাবনা বোঝাতে Past Modal 'could' ব্যবহৃত হয়: 'I wish you could solve the problem.'",
+      "ans": 3,
+      "correct_answer": "could solve"
     },
     {
       "id": 34,
       "question": "He has done no wrong_. The underlined word is a/an –",
-      "options": {
-        "ক": "Adjective",
-        "খ": "noun",
-        "গ": "pronoun",
-        "ঘ": "adverb"
-      },
+      "options": [
+        "Adjective",
+        "noun",
+        "pronoun",
+        "adverb"
+      ],
       "answer": "খ",
-      "explanation": "'He has done no wrong' বাক্যে Determiner 'no'-এর পর একটিমাত্র শব্দ 'wrong' থাকায় এটি Noun হিসেবে কাজ করছে (অর্থ: কোনো অপরাধ বা অন্যায়)।"
+      "explanation": "'He has done no wrong' বাক্যে Determiner 'no'-এর পর একটিমাত্র শব্দ 'wrong' থাকায় এটি Noun হিসেবে কাজ করছে (অর্থ: কোনো অপরাধ বা অন্যায়)।",
+      "ans": 1,
+      "correct_answer": "noun"
     },
     {
       "id": 35,
       "question": "CONSTITUTION : PREAMBLE",
-      "options": {
-        "ক": "Legislation : Assembly",
-        "খ": "Book : Preface",
-        "গ": "Prelude : Overture",
-        "ঘ": "Opera : Music"
-      },
+      "options": [
+        "Legislation : Assembly",
+        "Book : Preface",
+        "Prelude : Overture",
+        "Opera : Music"
+      ],
       "answer": "খ",
-      "explanation": "সংবিধানের (Constitution) শুরুতে যেমন প্রস্তাবনা (Preamble) থাকে, তেমনি বইয়ের (Book) শুরুতে ভূমিকা (Preface) থাকে (Constitution : Preamble :: Book : Preface)।"
+      "explanation": "সংবিধানের (Constitution) শুরুতে যেমন প্রস্তাবনা (Preamble) থাকে, তেমনি বইয়ের (Book) শুরুতে ভূমিকা (Preface) থাকে (Constitution : Preamble :: Book : Preface)।",
+      "ans": 1,
+      "correct_answer": "Book : Preface"
     },
     {
       "id": 36,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Personel",
-        "খ": "Personnel",
-        "গ": "Parsonale",
-        "ঘ": "Parsonnel"
-      },
+      "options": [
+        "Personel",
+        "Personnel",
+        "Parsonale",
+        "Parsonnel"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Personnel' (P-e-r-s-o-n-n-e-l), যার অর্থ কোনো প্রতিষ্ঠান বা সামরিক বাহিনীর কর্মীদল বা কর্মকর্তা-কর্মচারীগণ।"
+      "explanation": "সঠিক বানান হলো 'Personnel' (P-e-r-s-o-n-n-e-l), যার অর্থ কোনো প্রতিষ্ঠান বা সামরিক বাহিনীর কর্মীদল বা কর্মকর্তা-কর্মচারীগণ।",
+      "ans": 1,
+      "correct_answer": "Personnel"
     },
     {
       "id": 37,
       "question": "“Obese ‘ means –",
-      "options": {
-        "ক": "Ugly",
-        "খ": "Tardy",
-        "গ": "Obnoxious",
-        "ঘ": "Very fat"
-      },
+      "options": [
+        "Ugly",
+        "Tardy",
+        "Obnoxious",
+        "Very fat"
+      ],
       "answer": "ঘ",
-      "explanation": "'Obese' শব্দের অর্থ অতিরিক্ত চর্বিযুক্ত বা মাত্রাতিরিক্ত মোটা (Very fat / grossly overweight)।"
+      "explanation": "'Obese' শব্দের অর্থ অতিরিক্ত চর্বিযুক্ত বা মাত্রাতিরিক্ত মোটা (Very fat / grossly overweight)।",
+      "ans": 3,
+      "correct_answer": "Very fat"
     },
     {
       "id": 38,
       "question": "I spent – with the patient.",
-      "options": {
-        "ক": "sometimes",
-        "খ": "sometime",
-        "গ": "some time",
-        "ঘ": "some times"
-      },
+      "options": [
+        "sometimes",
+        "sometime",
+        "some time",
+        "some times"
+      ],
       "answer": "গ",
-      "explanation": "নির্দিষ্ট কিছুটা সময় ব্যয় করা বোঝাতে আলাদা শব্দ হিসেবে 'some time' (কিছু সময়) ব্যবহৃত হয়: 'I spent some time with the patient.'"
+      "explanation": "নির্দিষ্ট কিছুটা সময় ব্যয় করা বোঝাতে আলাদা শব্দ হিসেবে 'some time' (কিছু সময়) ব্যবহৃত হয়: 'I spent some time with the patient.'",
+      "ans": 2,
+      "correct_answer": "some time"
     },
     {
       "id": 39,
       "question": "We need to buy some new-",
-      "options": {
-        "ক": "furnishers",
-        "খ": "furniture",
-        "গ": "furnisher",
-        "ঘ": "furniture’s"
-      },
+      "options": [
+        "furnishers",
+        "furniture",
+        "furnisher",
+        "furniture’s"
+      ],
       "answer": "খ",
-      "explanation": "'Furniture' একটি Uncountable Noun, যার সাথে কখনোই 's' বা 'es' যুক্ত হয় না: 'We need to buy some new furniture.'"
+      "explanation": "'Furniture' একটি Uncountable Noun, যার সাথে কখনোই 's' বা 'es' যুক্ত হয় না: 'We need to buy some new furniture.'",
+      "ans": 1,
+      "correct_answer": "furniture"
     },
     {
       "id": 40,
       "question": "Choose the correct sentence :",
-      "options": {
-        "ক": "We were discussing totally about the matter.",
-        "খ": "We were discussing about the matter",
-        "গ": "We were discussing about the whole matter .",
-        "ঘ": "We were discussing the matter."
-      },
+      "options": [
+        "We were discussing totally about the matter.",
+        "We were discussing about the matter",
+        "We were discussing about the whole matter .",
+        "We were discussing the matter."
+      ],
       "answer": "ঘ",
-      "explanation": "'Discuss' verb-টির পর সরাসরি Object বসে, কোনো preposition (about) বসে না: 'We were discussing the matter.'"
+      "explanation": "'Discuss' verb-টির পর সরাসরি Object বসে, কোনো preposition (about) বসে না: 'We were discussing the matter.'",
+      "ans": 3,
+      "correct_answer": "We were discussing the matter."
     },
     {
       "id": 41,
       "question": "What is the plural form of",
-      "options": {
-        "ক": "they",
-        "খ": "these",
-        "গ": "those",
-        "ঘ": "Try your self"
-      },
+      "options": [
+        "they",
+        "these",
+        "those",
+        "Try your self"
+      ],
       "answer": "ঘ",
-      "explanation": "প্রশ্নে মূল নির্দেশক শব্দ উহ্য থাকলেও Singular demonstrative pronoun 'this'-এর Plural হলো 'these' এবং 'that'-এর Plural হলো 'those'; অফিশিয়াল কীতে 'Try your self' (ঘ) চিহ্নিত করা হয়েছে।"
+      "explanation": "প্রশ্নে মূল নির্দেশক শব্দ উহ্য থাকলেও Singular demonstrative pronoun 'this'-এর Plural হলো 'these' এবং 'that'-এর Plural হলো 'those'; অফিশিয়াল কীতে 'Try your self' (ঘ) চিহ্নিত করা হয়েছে।",
+      "ans": 3,
+      "correct_answer": "Try your self"
     },
     {
       "id": 42,
       "question": "Fifty kg – really a heavy weight to carry.",
-      "options": {
-        "ক": "is",
-        "খ": "were",
-        "গ": "are",
-        "ঘ": "was"
-      },
+      "options": [
+        "is",
+        "were",
+        "are",
+        "was"
+      ],
       "answer": "ক",
-      "explanation": "নির্দিষ্ট পরিমাণ ওজন (Fifty kg) একটি একক সমষ্টি হিসেবে বিবেচিত হওয়ায় Singular Verb 'is' গ্রহণ করে: 'Fifty kg is really a heavy weight to carry.'"
+      "explanation": "নির্দিষ্ট পরিমাণ ওজন (Fifty kg) একটি একক সমষ্টি হিসেবে বিবেচিত হওয়ায় Singular Verb 'is' গ্রহণ করে: 'Fifty kg is really a heavy weight to carry.'",
+      "ans": 0,
+      "correct_answer": "is"
     },
     {
       "id": 43,
       "question": "“The Captain ordered the soldiers to march on “ বাক্যটির direct speech:",
-      "options": {
-        "ক": "The captain asked, “Soldiers, march on “.",
-        "খ": "The Captain said, to the solders, “Please march on “.",
-        "গ": "The Captain said, “Soldiers, I asked you to march on “.",
-        "ঘ": "The Captain said to the soldiers, “March on “."
-      },
+      "options": [
+        "The captain asked, “Soldiers, march on “.",
+        "The Captain said, to the solders, “Please march on “.",
+        "The Captain said, “Soldiers, I asked you to march on “.",
+        "The Captain said to the soldiers, “March on “."
+      ],
       "answer": "ঘ",
-      "explanation": "সেনাবাহিনীর মার্চ করার আদেশের Direct Speech: The Captain said to the soldiers, 'March on.'"
+      "explanation": "সেনাবাহিনীর মার্চ করার আদেশের Direct Speech: The Captain said to the soldiers, 'March on.'",
+      "ans": 3,
+      "correct_answer": "The Captain said to the soldiers, “March on “."
     },
     {
       "id": 44,
       "question": "I have no pen to write-",
-      "options": {
-        "ক": "in",
-        "খ": "smooth",
-        "গ": "well",
-        "ঘ": "with"
-      },
+      "options": [
+        "in",
+        "smooth",
+        "well",
+        "with"
+      ],
       "answer": "ঘ",
-      "explanation": "কলম দিয়ে লেখা বোঝাতে যন্ত্র বা মাধ্যমের পূর্বে 'with' বসে: 'I have no pen to write with' (আমার লেখার মতো কোনো কলম নেই)।"
+      "explanation": "কলম দিয়ে লেখা বোঝাতে যন্ত্র বা মাধ্যমের পূর্বে 'with' বসে: 'I have no pen to write with' (আমার লেখার মতো কোনো কলম নেই)।",
+      "ans": 3,
+      "correct_answer": "with"
     },
     {
       "id": 45,
       "question": "কোনটি সঠিক?",
-      "options": {
-        "ক": "Paper is made with wood.",
-        "খ": "Paper is made by wood",
-        "গ": "Paper is made of wood.",
-        "ঘ": "Paper is made from wood."
-      },
+      "options": [
+        "Paper is made with wood.",
+        "Paper is made by wood",
+        "Paper is made of wood.",
+        "Paper is made from wood."
+      ],
       "answer": "ঘ",
-      "explanation": "কাঠ থেকে রাসায়নিক প্রক্রিয়ায় কাগজ তৈরি হয় এবং মূল উপাদান চেনা যায় না, তাই 'made from' বসে: 'Paper is made from wood.'"
+      "explanation": "কাঠ থেকে রাসায়নিক প্রক্রিয়ায় কাগজ তৈরি হয় এবং মূল উপাদান চেনা যায় না, তাই 'made from' বসে: 'Paper is made from wood.'",
+      "ans": 3,
+      "correct_answer": "Paper is made from wood."
     },
     {
       "id": 46,
       "question": "কোনটি শুদ্ধ?",
-      "options": {
-        "ক": "He is a lecturer in English",
-        "খ": "He is a lecturer for English",
-        "গ": "He is a lecturer for English",
-        "ঘ": "He is a lecturer of English"
-      },
+      "options": [
+        "He is a lecturer in English",
+        "He is a lecturer for English",
+        "He is a lecturer for English",
+        "He is a lecturer of English"
+      ],
       "answer": "ক",
-      "explanation": "কোনো বিষয়ের প্রভাষক বোঝাতে 'lecturer in [subject]' ব্যবহৃত হয়: 'He is a lecturer in English.'"
+      "explanation": "কোনো বিষয়ের প্রভাষক বোঝাতে 'lecturer in [subject]' ব্যবহৃত হয়: 'He is a lecturer in English.'",
+      "ans": 0,
+      "correct_answer": "He is a lecturer in English"
     },
     {
       "id": 47,
       "question": "Which sentence is with correct punctuation –",
-      "options": {
-        "ক": "Maria, my student, is on leave today.",
-        "খ": "Maria my student, is on leave today .",
-        "গ": "Maria my student is on leave today .",
-        "ঘ": "Maria my student is ,on leave today."
-      },
+      "options": [
+        "Maria, my student, is on leave today.",
+        "Maria my student, is on leave today .",
+        "Maria my student is on leave today .",
+        "Maria my student is ,on leave today."
+      ],
       "answer": "ক",
-      "explanation": "বাক্যের মধ্যে Noun in apposition (my student) থাকলে তার উভয় পাশে কমা দিয়ে আলাদা করতে হয়: 'Maria, my student, is on leave today.'"
+      "explanation": "বাক্যের মধ্যে Noun in apposition (my student) থাকলে তার উভয় পাশে কমা দিয়ে আলাদা করতে হয়: 'Maria, my student, is on leave today.'",
+      "ans": 0,
+      "correct_answer": "Maria, my student, is on leave today."
     },
     {
       "id": 48,
       "question": "“ Two heads are better than one” এ প্রবাদ বাক্যটির ভাবার্থ কোনটি?",
-      "options": {
-        "ক": "Comprehenson",
-        "খ": "Correction",
-        "গ": "Compromise",
-        "ঘ": "Consulatation"
-      },
+      "options": [
+        "Comprehenson",
+        "Correction",
+        "Compromise",
+        "Consulatation"
+      ],
       "answer": "ঘ",
-      "explanation": "'Two heads are better than one' প্রবাদটির অর্থ হলো একা চিন্তা করার চেয়ে অন্যের সাথে আলোচনা বা পরামর্শ (Consultation) করা বেশি কার্যকর।"
+      "explanation": "'Two heads are better than one' প্রবাদটির অর্থ হলো একা চিন্তা করার চেয়ে অন্যের সাথে আলোচনা বা পরামর্শ (Consultation) করা বেশি কার্যকর।",
+      "ans": 3,
+      "correct_answer": "Consulatation"
     },
     {
       "id": 49,
       "question": "The adjective form of ‘decision’ is –",
-      "options": {
-        "ক": "decisive",
-        "খ": "deceived",
-        "গ": "decide",
-        "ঘ": "decisiveness"
-      },
+      "options": [
+        "decisive",
+        "deceived",
+        "decide",
+        "decisiveness"
+      ],
       "answer": "ক",
-      "explanation": "'Decision' (সিদ্ধান্ত) Noun-টির Adjective form হলো 'Decisive' (চূড়ান্ত, মীমাংসামূলক বা দ্বিধাহীন)।"
+      "explanation": "'Decision' (সিদ্ধান্ত) Noun-টির Adjective form হলো 'Decisive' (চূড়ান্ত, মীমাংসামূলক বা দ্বিধাহীন)।",
+      "ans": 0,
+      "correct_answer": "decisive"
     },
     {
       "id": 50,
       "question": "What is the meaning of ‘ of late’ ?",
-      "options": {
-        "ক": "lateness",
-        "খ": "too late",
-        "গ": "delayed",
-        "ঘ": "recently"
-      },
+      "options": [
+        "lateness",
+        "too late",
+        "delayed",
+        "recently"
+      ],
       "answer": "ঘ",
-      "explanation": "'Of late' একটি ইংরেজি phrase যার অর্থ সম্প্রতি বা ইদানীংকালে (Recently / lately)।"
+      "explanation": "'Of late' একটি ইংরেজি phrase যার অর্থ সম্প্রতি বা ইদানীংকালে (Recently / lately)।",
+      "ans": 3,
+      "correct_answer": "recently"
     },
     {
       "id": 51,
       "question": "“নিঃশেষিত” এর সঠিক ইংরেজি রূপায়ন-",
-      "options": {
-        "ক": "Out of sorts",
-        "খ": "Out of doors",
-        "গ": "Out of doors",
-        "ঘ": "Out of print"
-      },
+      "options": [
+        "Out of sorts",
+        "Out of doors",
+        "Out of doors",
+        "Out of print"
+      ],
       "answer": "ঘ",
-      "explanation": "বইয়ের সংস্করণ বা মুদ্রণ সম্পূর্ণ শেষ হয়ে যাওয়া অর্থে 'Out of print' (নিঃশেষিত) ব্যবহৃত হয়।"
+      "explanation": "বইয়ের সংস্করণ বা মুদ্রণ সম্পূর্ণ শেষ হয়ে যাওয়া অর্থে 'Out of print' (নিঃশেষিত) ব্যবহৃত হয়।",
+      "ans": 3,
+      "correct_answer": "Out of print"
     },
     {
       "id": 52,
       "question": "“Look forward” means –",
-      "options": {
-        "ক": "examine",
-        "খ": "take care of",
-        "গ": "Find out",
-        "ঘ": "expect with pleasure"
-      },
+      "options": [
+        "examine",
+        "take care of",
+        "Find out",
+        "expect with pleasure"
+      ],
       "answer": "ঘ",
-      "explanation": "'Look forward to' phrasal verb-টির অর্থ আনন্দের সাথে কোনো কিছুর জন্য অপেক্ষা বা প্রত্যাশা করা (To expect with pleasure)।"
+      "explanation": "'Look forward to' phrasal verb-টির অর্থ আনন্দের সাথে কোনো কিছুর জন্য অপেক্ষা বা প্রত্যাশা করা (To expect with pleasure)।",
+      "ans": 3,
+      "correct_answer": "expect with pleasure"
     },
     {
       "id": 53,
       "question": "কোন বানানটি শুদ্ধ ?",
-      "options": {
-        "ক": "Occation",
-        "খ": "Occasion",
-        "গ": "Occasion",
-        "ঘ": "Occasion"
-      },
+      "options": [
+        "Occation",
+        "Occasion",
+        "Occasion",
+        "Occasion"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Occasion' (O-c-c-a-s-i-o-n), যার অর্থ বিশেষ উপলক্ষ বা সুযোগ।"
+      "explanation": "সঠিক বানান হলো 'Occasion' (O-c-c-a-s-i-o-n), যার অর্থ বিশেষ উপলক্ষ বা সুযোগ।",
+      "ans": 3,
+      "correct_answer": "Occasion"
     },
     {
       "id": 54,
       "question": "Kamal said to me, “what is your name?” ( Indirect form )",
-      "options": {
-        "ক": "Kamal asked what was my name.",
-        "খ": "Kamal asked you your name",
-        "গ": "What my name is , kamal asked",
-        "ঘ": "Kamal asked me what my name was."
-      },
+      "options": [
+        "Kamal asked what was my name.",
+        "Kamal asked you your name",
+        "What my name is , kamal asked",
+        "Kamal asked me what my name was."
+      ],
       "answer": "ঘ",
-      "explanation": "Interrogative WH-question-এর Indirect Speech: Kamal asked me what my name was (Assertive structure বজায় থাকে)। তাই ঘ সঠিক।"
+      "explanation": "Interrogative WH-question-এর Indirect Speech: Kamal asked me what my name was (Assertive structure বজায় থাকে)। তাই ঘ সঠিক।",
+      "ans": 3,
+      "correct_answer": "Kamal asked me what my name was."
     },
     {
       "id": 55,
       "question": "I suggest that he --- there .",
-      "options": {
-        "ক": "gone",
-        "খ": "goes",
-        "গ": "go",
-        "ঘ": "went"
-      },
+      "options": [
+        "gone",
+        "goes",
+        "go",
+        "went"
+      ],
       "answer": "গ",
-      "explanation": "Subjunctive mood-এর নিয়মানুযায়ী suggest, demand, insist ইত্যাদি verb-যুক্ত 'that-clause'-এ Subject নির্বিশেষে verb-এর base form বসে: 'I suggest that he go there.'"
+      "explanation": "Subjunctive mood-এর নিয়মানুযায়ী suggest, demand, insist ইত্যাদি verb-যুক্ত 'that-clause'-এ Subject নির্বিশেষে verb-এর base form বসে: 'I suggest that he go there.'",
+      "ans": 2,
+      "correct_answer": "go"
     },
     {
       "id": 56,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Grievance",
-        "খ": "Greviance",
-        "গ": "Grivence",
-        "ঘ": "Greivance"
-      },
+      "options": [
+        "Grievance",
+        "Greviance",
+        "Grivence",
+        "Greivance"
+      ],
       "answer": "ক",
-      "explanation": "সঠিক বানান হলো 'Grievance' (G-r-i-e-v-a-n-c-e), যার অর্থ ক্ষোভ, নালিশ বা অভিযোগ।"
+      "explanation": "সঠিক বানান হলো 'Grievance' (G-r-i-e-v-a-n-c-e), যার অর্থ ক্ষোভ, নালিশ বা অভিযোগ।",
+      "ans": 0,
+      "correct_answer": "Grievance"
     },
     {
       "id": 57,
       "question": "A rolling stone gathers no moss. What is “rolling”?",
-      "options": {
-        "ক": "Verbal Noun",
-        "খ": "Gerund",
-        "গ": "Participle",
-        "ঘ": "Adjective"
-      },
+      "options": [
+        "Verbal Noun",
+        "Gerund",
+        "Participle",
+        "Adjective"
+      ],
       "answer": "ঘ",
-      "explanation": "'A rolling stone gathers no moss' বাক্যে 'rolling' শব্দটি noun 'stone'-এর গুণ বা অবস্থা প্রকাশ করে Adjective (Participle)-এর কাজ করেছে। অপশনে Adjective (ঘ) সঠিক দেওয়া হয়েছে।"
+      "explanation": "'A rolling stone gathers no moss' বাক্যে 'rolling' শব্দটি noun 'stone'-এর গুণ বা অবস্থা প্রকাশ করে Adjective (Participle)-এর কাজ করেছে। অপশনে Adjective (ঘ) সঠিক দেওয়া হয়েছে।",
+      "ans": 3,
+      "correct_answer": "Adjective"
     },
     {
       "id": 58,
       "question": "“তুমি কার সাথে কথা বলছ?” এর ইংরেজি –",
-      "options": {
-        "ক": "Whom are you speaking?",
-        "খ": "Whom are you speaking with ?",
-        "গ": "Whom are you speaking to ?",
-        "ঘ": "With whom are you speaking?"
-      },
+      "options": [
+        "Whom are you speaking?",
+        "Whom are you speaking with ?",
+        "Whom are you speaking to ?",
+        "With whom are you speaking?"
+      ],
       "answer": "খ",
-      "explanation": "কারও সাথে কথা বলা অর্থে 'speak with/to' ব্যবহৃত হয়: 'Whom are you speaking with?' (কীতে খ চিহ্নিত)।"
+      "explanation": "কারও সাথে কথা বলা অর্থে 'speak with/to' ব্যবহৃত হয়: 'Whom are you speaking with?' (কীতে খ চিহ্নিত)।",
+      "ans": 1,
+      "correct_answer": "Whom are you speaking with ?"
     },
     {
       "id": 59,
       "question": "You must work hard for success ( Make it compound ).",
-      "options": {
-        "ক": "Work hard for the success.",
-        "খ": "Work hard to the success.",
-        "গ": "Work hard and you will succeed .",
-        "ঘ": "Work hard for success."
-      },
+      "options": [
+        "Work hard for the success.",
+        "Work hard to the success.",
+        "Work hard and you will succeed .",
+        "Work hard for success."
+      ],
       "answer": "গ",
-      "explanation": "Compound বাক্যে দুটি স্বাধীন বাক্যকে Conjunction 'and' দ্বারা যুক্ত করা হয়: 'Work hard and you will succeed.'"
+      "explanation": "Compound বাক্যে দুটি স্বাধীন বাক্যকে Conjunction 'and' দ্বারা যুক্ত করা হয়: 'Work hard and you will succeed.'",
+      "ans": 2,
+      "correct_answer": "Work hard and you will succeed ."
     },
     {
       "id": 60,
       "question": "“ He was taken to task” অর্থ –",
-      "options": {
-        "ক": "সে কাজ নিয়েছিল ।",
-        "খ": "তাকে তিরস্কার করা হয়েছিল ।",
-        "গ": "তাকে কাজ দেয়া হয়েছিল ।",
-        "ঘ": "তাকে কাজের জন্য বলা হয়েছিল ।"
-      },
+      "options": [
+        "সে কাজ নিয়েছিল ।",
+        "তাকে তিরস্কার করা হয়েছিল ।",
+        "তাকে কাজ দেয়া হয়েছিল ।",
+        "তাকে কাজের জন্য বলা হয়েছিল ।"
+      ],
       "answer": "খ",
-      "explanation": "'Take to task' অর্থ তিরস্কার করা বা জবাবদিহি করা। সুতরাং 'He was taken to task'-এর অর্থ: তাকে তিরস্কার করা হয়েছিল।"
+      "explanation": "'Take to task' অর্থ তিরস্কার করা বা জবাবদিহি করা। সুতরাং 'He was taken to task'-এর অর্থ: তাকে তিরস্কার করা হয়েছিল।",
+      "ans": 1,
+      "correct_answer": "তাকে তিরস্কার করা হয়েছিল ।"
     },
     {
       "id": 61,
       "question": "Anis had a talent --- making people laugh .",
-      "options": {
-        "ক": "on",
-        "খ": "for",
-        "গ": "of",
-        "ঘ": "in"
-      },
+      "options": [
+        "on",
+        "for",
+        "of",
+        "in"
+      ],
       "answer": "খ",
-      "explanation": "কোনো বিশেষ কাজে স্বাভাবিক দক্ষতা বা প্রতিভা থাকা বোঝাতে 'talent for' বসে: 'Anis had a talent for making people laugh.'"
+      "explanation": "কোনো বিশেষ কাজে স্বাভাবিক দক্ষতা বা প্রতিভা থাকা বোঝাতে 'talent for' বসে: 'Anis had a talent for making people laugh.'",
+      "ans": 1,
+      "correct_answer": "for"
     },
     {
       "id": 62,
       "question": "Tress have --- off their leaves .",
-      "options": {
-        "ক": "thrown",
-        "খ": "fallen",
-        "গ": "cast",
-        "ঘ": "put"
-      },
+      "options": [
+        "thrown",
+        "fallen",
+        "cast",
+        "put"
+      ],
       "answer": "গ",
-      "explanation": "'Cast off' phrasal verb-টির অর্থ কোনো কিছু ঝেড়ে ফেলা বা ফেলে দেওয়া। গাছেদের পাতা ঝরানো অর্থে 'cast off their leaves' সঠিক।"
+      "explanation": "'Cast off' phrasal verb-টির অর্থ কোনো কিছু ঝেড়ে ফেলা বা ফেলে দেওয়া। গাছেদের পাতা ঝরানো অর্থে 'cast off their leaves' সঠিক।",
+      "ans": 2,
+      "correct_answer": "cast"
     },
     {
       "id": 63,
       "question": "The principal had an inquiry – the case.",
-      "options": {
-        "ক": "to",
-        "খ": "into",
-        "গ": "at",
-        "ঘ": "in"
-      },
+      "options": [
+        "to",
+        "into",
+        "at",
+        "in"
+      ],
       "answer": "খ",
-      "explanation": "কোনো বিষয়ের ওপর আনুষ্ঠানিক তদন্ত বোঝাতে 'inquiry into' বসে: 'The principal had an inquiry into the case.'"
+      "explanation": "কোনো বিষয়ের ওপর আনুষ্ঠানিক তদন্ত বোঝাতে 'inquiry into' বসে: 'The principal had an inquiry into the case.'",
+      "ans": 1,
+      "correct_answer": "into"
     },
     {
       "id": 64,
       "question": "What is the meaning of “ White Elephant ?”",
-      "options": {
-        "ক": "A very costly or troublesome possession",
-        "খ": "An elephant of white colour",
-        "গ": "s A hoarder",
-        "ঘ": "A black marketer"
-      },
+      "options": [
+        "A very costly or troublesome possession",
+        "An elephant of white colour",
+        "s A hoarder",
+        "A black marketer"
+      ],
       "answer": "ক",
-      "explanation": "'White Elephant' idiom-টির অর্থ অত্যন্ত ব্যয়বহুল কিন্তু কার্যত অকেজো সম্পত্তি (A very costly or troublesome possession)।"
+      "explanation": "'White Elephant' idiom-টির অর্থ অত্যন্ত ব্যয়বহুল কিন্তু কার্যত অকেজো সম্পত্তি (A very costly or troublesome possession)।",
+      "ans": 0,
+      "correct_answer": "A very costly or troublesome possession"
     },
     {
       "id": 65,
       "question": "Credit Tk. 500……..my account.",
-      "options": {
-        "ক": "against",
-        "খ": "in",
-        "গ": "to",
-        "ঘ": "with"
-      },
+      "options": [
+        "against",
+        "in",
+        "to",
+        "with"
+      ],
       "answer": "গ",
-      "explanation": "কারও ব্যাংক হিসাবে টাকা জমা করা বোঝাতে 'credit to' ব্যবহৃত হয়: 'Credit Tk. 500 to my account.'"
+      "explanation": "কারও ব্যাংক হিসাবে টাকা জমা করা বোঝাতে 'credit to' ব্যবহৃত হয়: 'Credit Tk. 500 to my account.'",
+      "ans": 2,
+      "correct_answer": "to"
     },
     {
       "id": 66,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Relevent",
-        "খ": "Relavent",
-        "গ": "Relevant",
-        "ঘ": "Ralevant"
-      },
+      "options": [
+        "Relevent",
+        "Relavent",
+        "Relevant",
+        "Ralevant"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানান হলো 'Relevant' (R-e-l-e-v-a-n-t), যার অর্থ প্রাসঙ্গিক।"
+      "explanation": "সঠিক বানান হলো 'Relevant' (R-e-l-e-v-a-n-t), যার অর্থ প্রাসঙ্গিক।",
+      "ans": 2,
+      "correct_answer": "Relevant"
     },
     {
       "id": 67,
       "question": "‘We made her recite a poem’ (Passive)",
-      "options": {
-        "ক": "She was made to recite a poem.",
-        "খ": "She was made recited a poem.",
-        "গ": "A poem was made to be recited.",
-        "ঘ": "A poem was made recite by her."
-      },
+      "options": [
+        "She was made to recite a poem.",
+        "She was made recited a poem.",
+        "A poem was made to be recited.",
+        "A poem was made recite by her."
+      ],
       "answer": "ক",
-      "explanation": "Causative 'make' Active-এ bare infinitive নিলেও Passive voice-এ 'to' যুক্ত হয়: 'She was made to recite a poem.'"
+      "explanation": "Causative 'make' Active-এ bare infinitive নিলেও Passive voice-এ 'to' যুক্ত হয়: 'She was made to recite a poem.'",
+      "ans": 0,
+      "correct_answer": "She was made to recite a poem."
     },
     {
       "id": 68,
       "question": "Simple sentence consists of—",
-      "options": {
-        "ক": "four clauses",
-        "খ": "two clauses",
-        "গ": "one clause",
-        "ঘ": "three clauses"
-      },
+      "options": [
+        "four clauses",
+        "two clauses",
+        "one clause",
+        "three clauses"
+      ],
       "answer": "গ",
-      "explanation": "একটিমাত্র স্বাধীন বা প্রধান খণ্ডবাক্য (One independent clause) এবং একটিমাত্র finite verb সম্বলিত বাক্যকে Simple sentence বলে।"
+      "explanation": "একটিমাত্র স্বাধীন বা প্রধান খণ্ডবাক্য (One independent clause) এবং একটিমাত্র finite verb সম্বলিত বাক্যকে Simple sentence বলে।",
+      "ans": 2,
+      "correct_answer": "one clause"
     },
     {
       "id": 69,
       "question": "‘Call it a day’ means-",
-      "options": {
-        "ক": "to be unhappy with the weather",
-        "খ": "to pay someone a visit",
-        "গ": "to raise doubts",
-        "ঘ": "to stop work since enough has been done"
-      },
+      "options": [
+        "to be unhappy with the weather",
+        "to pay someone a visit",
+        "to raise doubts",
+        "to stop work since enough has been done"
+      ],
       "answer": "ঘ",
-      "explanation": "'Call it a day' একটি বহুল প্রচলিত idiom, যার অর্থ দিনের মতো কাজ বন্ধ বা সমাপ্ত ঘোষণা করা (To stop work since enough has been done)।"
+      "explanation": "'Call it a day' একটি বহুল প্রচলিত idiom, যার অর্থ দিনের মতো কাজ বন্ধ বা সমাপ্ত ঘোষণা করা (To stop work since enough has been done)।",
+      "ans": 3,
+      "correct_answer": "to stop work since enough has been done"
     },
     {
       "id": 70,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Burow",
-        "খ": "Buro",
-        "গ": "Buraeu",
-        "ঘ": "Bureau"
-      },
+      "options": [
+        "Burow",
+        "Buro",
+        "Buraeu",
+        "Bureau"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Bureau' (B-u-r-e-a-u), যার অর্থ দপ্তর, ব্যুরো বা কার্যালয়।"
+      "explanation": "সঠিক বানান হলো 'Bureau' (B-u-r-e-a-u), যার অর্থ দপ্তর, ব্যুরো বা কার্যালয়।",
+      "ans": 3,
+      "correct_answer": "Bureau"
     },
     {
       "id": 71,
       "question": "‘Emphasis’ means-",
-      "options": {
-        "ক": "Attention",
-        "খ": "Importance",
-        "গ": "Neglect",
-        "ঘ": "Overlook"
-      },
+      "options": [
+        "Attention",
+        "Importance",
+        "Neglect",
+        "Overlook"
+      ],
       "answer": "খ",
-      "explanation": "'Emphasis' শব্দের অর্থ কোনো বিষয়ে অতিরিক্ত গুরুত্ব বা জোর দেওয়া। এর সমার্থক হলো 'Importance' (গুরুত্ব)।"
+      "explanation": "'Emphasis' শব্দের অর্থ কোনো বিষয়ে অতিরিক্ত গুরুত্ব বা জোর দেওয়া। এর সমার্থক হলো 'Importance' (গুরুত্ব)।",
+      "ans": 1,
+      "correct_answer": "Importance"
     },
     {
       "id": 72,
       "question": "‘Look after’ means to-",
-      "options": {
-        "ক": "follow",
-        "খ": "try again",
-        "গ": "take care",
-        "ঘ": "look at"
-      },
+      "options": [
+        "follow",
+        "try again",
+        "take care",
+        "look at"
+      ],
       "answer": "গ",
-      "explanation": "'Look after' phrasal verb-টির অর্থ কারও দেখাশোনা বা যত্ন নেওয়া (To take care of someone)।"
+      "explanation": "'Look after' phrasal verb-টির অর্থ কারও দেখাশোনা বা যত্ন নেওয়া (To take care of someone)।",
+      "ans": 2,
+      "correct_answer": "take care"
     },
     {
       "id": 73,
       "question": "Synonym for ‘Mystery’?",
-      "options": {
-        "ক": "Solution",
-        "খ": "Clue",
-        "গ": "Answer",
-        "ঘ": "Enigma"
-      },
+      "options": [
+        "Solution",
+        "Clue",
+        "Answer",
+        "Enigma"
+      ],
       "answer": "ঘ",
-      "explanation": "'Mystery' শব্দের অর্থ রহস্য বা যা ব্যাখ্যা করা কঠিন। এর যথার্থ সমার্থক হলো 'Enigma' (রহস্য বা প্রহেলিকা)।"
+      "explanation": "'Mystery' শব্দের অর্থ রহস্য বা যা ব্যাখ্যা করা কঠিন। এর যথার্থ সমার্থক হলো 'Enigma' (রহস্য বা প্রহেলিকা)।",
+      "ans": 3,
+      "correct_answer": "Enigma"
     },
     {
       "id": 74,
       "question": "Choose the correct past participle form of word ‘drink’.",
-      "options": {
-        "ক": "drunk",
-        "খ": "drunker",
-        "গ": "dronk",
-        "ঘ": "drank"
-      },
+      "options": [
+        "drunk",
+        "drunker",
+        "dronk",
+        "drank"
+      ],
       "answer": "ক",
-      "explanation": "'Drink' verb-এর তিনটি রূপ হলো: Present: Drink, Past: Drank, Past Participle: Drunk। তাই সঠিক উত্তর ক।"
+      "explanation": "'Drink' verb-এর তিনটি রূপ হলো: Present: Drink, Past: Drank, Past Participle: Drunk। তাই সঠিক উত্তর ক।",
+      "ans": 0,
+      "correct_answer": "drunk"
     },
     {
       "id": 75,
       "question": "Which one is a correct sentence?",
-      "options": {
-        "ক": "I examined his pulse",
-        "খ": "I saw his pulse",
-        "গ": "I found his pulse",
-        "ঘ": "I feel his pulse"
-      },
+      "options": [
+        "I examined his pulse",
+        "I saw his pulse",
+        "I found his pulse",
+        "I feel his pulse"
+      ],
       "answer": "ঘ",
-      "explanation": "কারও নাড়ি দেখা বা স্পন্দন পরীক্ষা করা অর্থে 'feel one's pulse' ব্যবহৃত হয়। তাই 'I feel his pulse' সঠিক।"
+      "explanation": "কারও নাড়ি দেখা বা স্পন্দন পরীক্ষা করা অর্থে 'feel one's pulse' ব্যবহৃত হয়। তাই 'I feel his pulse' সঠিক।",
+      "ans": 3,
+      "correct_answer": "I feel his pulse"
     },
     {
       "id": 76,
       "question": "I wish you success in life. What type of sentence is it?",
-      "options": {
-        "ক": "Negative",
-        "খ": "Exclamatory",
-        "গ": "Optative",
-        "ঘ": "Assertive"
-      },
+      "options": [
+        "Negative",
+        "Exclamatory",
+        "Optative",
+        "Assertive"
+      ],
       "answer": "ঘ",
-      "explanation": "'I wish you success in life' বাক্যটিতে বক্তা সরাসরি তাঁর ইচ্ছার বিবরণ দিচ্ছেন এবং এটি Subject (I) + Verb (wish) দ্বারা শুরু হওয়ায় গঠনগতভাবে এটি একটি Assertive sentence।"
+      "explanation": "'I wish you success in life' বাক্যটিতে বক্তা সরাসরি তাঁর ইচ্ছার বিবরণ দিচ্ছেন এবং এটি Subject (I) + Verb (wish) দ্বারা শুরু হওয়ায় গঠনগতভাবে এটি একটি Assertive sentence।",
+      "ans": 3,
+      "correct_answer": "Assertive"
     },
     {
       "id": 77,
       "question": "Their house is quite similar — ours.",
-      "options": {
-        "ক": "with",
-        "খ": "as",
-        "গ": "than",
-        "ঘ": "to"
-      },
+      "options": [
+        "with",
+        "as",
+        "than",
+        "to"
+      ],
       "answer": "ঘ",
-      "explanation": "সাদৃশ্য বা মিল বোঝাতে appropriate preposition 'similar to' বসে: 'Their house is quite similar to ours.'"
+      "explanation": "সাদৃশ্য বা মিল বোঝাতে appropriate preposition 'similar to' বসে: 'Their house is quite similar to ours.'",
+      "ans": 3,
+      "correct_answer": "to"
     },
     {
       "id": 78,
       "question": "He prefers reading…. Writing.",
-      "options": {
-        "ক": "with",
-        "খ": "as",
-        "গ": "than",
-        "ঘ": "to"
-      },
+      "options": [
+        "with",
+        "as",
+        "than",
+        "to"
+      ],
       "answer": "ঘ",
-      "explanation": "'Prefer'-এর পর দুটি বিষয়ের পছন্দের তুলনায় 'to' বসে: 'He prefers reading to writing.'"
+      "explanation": "'Prefer'-এর পর দুটি বিষয়ের পছন্দের তুলনায় 'to' বসে: 'He prefers reading to writing.'",
+      "ans": 3,
+      "correct_answer": "to"
     },
     {
       "id": 79,
       "question": "Although he is poor, he is honest (Simple)",
-      "options": {
-        "ক": "In spite of his poverty, he is honest.",
-        "খ": "Despite his honesty, he is poor.",
-        "গ": "Despite his poverty, he is honest.",
-        "ঘ": "In spite of having poor, he is honest."
-      },
+      "options": [
+        "In spite of his poverty, he is honest.",
+        "Despite his honesty, he is poor.",
+        "Despite his poverty, he is honest.",
+        "In spite of having poor, he is honest."
+      ],
       "answer": "ক",
-      "explanation": "'Although' যুক্ত Complex বাক্যকে Simple করার নিয়ম: 'In spite of' + possessive (his) + noun (poverty) + main clause: 'In spite of his poverty, he is honest.'"
+      "explanation": "'Although' যুক্ত Complex বাক্যকে Simple করার নিয়ম: 'In spite of' + possessive (his) + noun (poverty) + main clause: 'In spite of his poverty, he is honest.'",
+      "ans": 0,
+      "correct_answer": "In spite of his poverty, he is honest."
     },
     {
       "id": 80,
       "question": "The idiom ‘let things slide’ means-",
-      "options": {
-        "ক": "ignore",
-        "খ": "set free",
-        "গ": "lose gradually",
-        "ঘ": "reveal a secret"
-      },
+      "options": [
+        "ignore",
+        "set free",
+        "lose gradually",
+        "reveal a secret"
+      ],
       "answer": "ক",
-      "explanation": "'Let things slide' idiom-টির অর্থ কোনো সমস্যার প্রতি গুরুত্ব না দিয়ে বিষয়টিকে অবহেলা করা বা এড়িয়ে যাওয়া (To ignore / neglect)।"
+      "explanation": "'Let things slide' idiom-টির অর্থ কোনো সমস্যার প্রতি গুরুত্ব না দিয়ে বিষয়টিকে অবহেলা করা বা এড়িয়ে যাওয়া (To ignore / neglect)।",
+      "ans": 0,
+      "correct_answer": "ignore"
     },
     {
       "id": 81,
       "question": "What is the antonym of ‘Honorary’?",
-      "options": {
-        "ক": "Official",
-        "খ": "Honorable",
-        "গ": "Salaried",
-        "ঘ": "Literary"
-      },
+      "options": [
+        "Official",
+        "Honorable",
+        "Salaried",
+        "Literary"
+      ],
       "answer": "গ",
-      "explanation": "'Honorary' শব্দের অর্থ অবৈতনিক বা সম্মানসূচক (বিনা বেতনে)। এর বিপরীত (antonym) শব্দ হলো 'Salaried' (বেতনভুক্ত)।"
+      "explanation": "'Honorary' শব্দের অর্থ অবৈতনিক বা সম্মানসূচক (বিনা বেতনে)। এর বিপরীত (antonym) শব্দ হলো 'Salaried' (বেতনভুক্ত)।",
+      "ans": 2,
+      "correct_answer": "Salaried"
     },
     {
       "id": 82,
       "question": "‘Deficit’ means",
-      "options": {
-        "ক": "Shortage",
-        "খ": "Defeat",
-        "গ": "Complex",
-        "ঘ": "Flexible"
-      },
+      "options": [
+        "Shortage",
+        "Defeat",
+        "Complex",
+        "Flexible"
+      ],
       "answer": "ক",
-      "explanation": "'Deficit' শব্দের অর্থ ঘাটতি বা অপর্যাপ্ততা। এর যথার্থ সমার্থক শব্দ হলো 'Shortage' (ঘাটতি)।"
+      "explanation": "'Deficit' শব্দের অর্থ ঘাটতি বা অপর্যাপ্ততা। এর যথার্থ সমার্থক শব্দ হলো 'Shortage' (ঘাটতি)।",
+      "ans": 0,
+      "correct_answer": "Shortage"
     },
     {
       "id": 83,
       "question": "Choose the correct sentence-",
-      "options": {
-        "ক": "I finished reading the book.",
-        "খ": "I have finish reading the book.",
-        "গ": "I have finish read the book.",
-        "ঘ": "I have finished reading the book."
-      },
+      "options": [
+        "I finished reading the book.",
+        "I have finish reading the book.",
+        "I have finish read the book.",
+        "I have finished reading the book."
+      ],
       "answer": "ঘ",
-      "explanation": "Present Perfect Tense-এ 'have finished'-এর পর পরবর্তী verb-টির Gerund রূপ (reading) বসে: 'I have finished reading the book.'"
+      "explanation": "Present Perfect Tense-এ 'have finished'-এর পর পরবর্তী verb-টির Gerund রূপ (reading) বসে: 'I have finished reading the book.'",
+      "ans": 3,
+      "correct_answer": "I have finished reading the book."
     },
     {
       "id": 84,
       "question": "‘De facto’ means-",
-      "options": {
-        "ক": "in reality",
-        "খ": "by rights",
-        "গ": "evidence",
-        "ঘ": "as per facts"
-      },
+      "options": [
+        "in reality",
+        "by rights",
+        "evidence",
+        "as per facts"
+      ],
       "answer": "ক",
-      "explanation": "'De facto' লাতিন শব্দবন্ধটির অর্থ কার্যতঃ বা বাস্তবে বিদ্যমান (In reality / in practice)।"
+      "explanation": "'De facto' লাতিন শব্দবন্ধটির অর্থ কার্যতঃ বা বাস্তবে বিদ্যমান (In reality / in practice)।",
+      "ans": 0,
+      "correct_answer": "in reality"
     },
     {
       "id": 85,
       "question": "কোনটি Present Perfect tense – এর উদাহরণ?",
-      "options": {
-        "ক": "I had the news.",
-        "খ": "I shall have the news",
-        "গ": "I have had the news.",
-        "ঘ": "I have the news."
-      },
+      "options": [
+        "I had the news.",
+        "I shall have the news",
+        "I have had the news.",
+        "I have the news."
+      ],
       "answer": "গ",
-      "explanation": "Present Perfect Tense-এর গঠন হলো: Subject + have/has + V3। 'I have had the news' বাক্যে auxiliary 'have'-এর পর মূল verb 'have'-এর V3 হিসেবে 'had' বসেছে, তাই এটি Present Perfect Tense।"
+      "explanation": "Present Perfect Tense-এর গঠন হলো: Subject + have/has + V3। 'I have had the news' বাক্যে auxiliary 'have'-এর পর মূল verb 'have'-এর V3 হিসেবে 'had' বসেছে, তাই এটি Present Perfect Tense।",
+      "ans": 2,
+      "correct_answer": "I have had the news."
     },
     {
       "id": 86,
       "question": "Synonym for ‘Magnificent” ?",
-      "options": {
-        "ক": "Impressive",
-        "খ": "Splendid",
-        "গ": "Beautiful",
-        "ঘ": "Interesting"
-      },
+      "options": [
+        "Impressive",
+        "Splendid",
+        "Beautiful",
+        "Interesting"
+      ],
       "answer": "খ",
-      "explanation": "'Magnificent' শব্দের অর্থ চমৎকার, জাঁকজমকপূর্ণ বা চমৎকার। এর যথাযথ সমার্থক শব্দ হলো 'Splendid' (চমৎকার/মহিমান্বিত)।"
+      "explanation": "'Magnificent' শব্দের অর্থ চমৎকার, জাঁকজমকপূর্ণ বা চমৎকার। এর যথাযথ সমার্থক শব্দ হলো 'Splendid' (চমৎকার/মহিমান্বিত)।",
+      "ans": 1,
+      "correct_answer": "Splendid"
     },
     {
       "id": 87,
       "question": "I would like --- information , please .",
-      "options": {
-        "ক": "some",
-        "খ": "few",
-        "গ": "a",
-        "ঘ": "an"
-      },
+      "options": [
+        "some",
+        "few",
+        "a",
+        "an"
+      ],
       "answer": "ক",
-      "explanation": "'Information' হলো Uncountable Noun, তাই এর পূর্বে a/an বা few বসে না; পরিমাণ বোঝাতে 'some' ব্যবহৃত হয়: 'some information.'"
+      "explanation": "'Information' হলো Uncountable Noun, তাই এর পূর্বে a/an বা few বসে না; পরিমাণ বোঝাতে 'some' ব্যবহৃত হয়: 'some information.'",
+      "ans": 0,
+      "correct_answer": "some"
     },
     {
       "id": 88,
       "question": "“A burning question “ means –",
-      "options": {
-        "ক": "a false question",
-        "খ": "an important question",
-        "গ": "Hard question",
-        "ঘ": "a uncommon question"
-      },
+      "options": [
+        "a false question",
+        "an important question",
+        "Hard question",
+        "a uncommon question"
+      ],
       "answer": "খ",
-      "explanation": "'A burning question' idiom-টির অর্থ তৎকালীন সময়ের সবচেয়ে আলোচিত বা গুরুত্বপূর্ণ বিষয় (An important / hot topic of discussion)।"
+      "explanation": "'A burning question' idiom-টির অর্থ তৎকালীন সময়ের সবচেয়ে আলোচিত বা গুরুত্বপূর্ণ বিষয় (An important / hot topic of discussion)।",
+      "ans": 1,
+      "correct_answer": "an important question"
     },
     {
       "id": 89,
       "question": "Which one is Reflexive Pronoun?",
-      "options": {
-        "ক": "Myself",
-        "খ": "Who",
-        "গ": "He",
-        "ঘ": "Each"
-      },
+      "options": [
+        "Myself",
+        "Who",
+        "He",
+        "Each"
+      ],
       "answer": "ক",
-      "explanation": "যেসব Pronoun-এর শেষে '-self' বা '-selves' যুক্ত থাকে এবং যা কর্তাকে নির্দেশ করে তাদের Reflexive Pronoun বলে। 'Myself' একটি Reflexive Pronoun।"
+      "explanation": "যেসব Pronoun-এর শেষে '-self' বা '-selves' যুক্ত থাকে এবং যা কর্তাকে নির্দেশ করে তাদের Reflexive Pronoun বলে। 'Myself' একটি Reflexive Pronoun।",
+      "ans": 0,
+      "correct_answer": "Myself"
     },
     {
       "id": 90,
       "question": "“Bottom line” means –",
-      "options": {
-        "ক": "the end of a road",
-        "খ": "the last line of a book",
-        "গ": "the essential point",
-        "ঘ": "the final step"
-      },
+      "options": [
+        "the end of a road",
+        "the last line of a book",
+        "the essential point",
+        "the final step"
+      ],
       "answer": "গ",
-      "explanation": "'Bottom line' idiom-টির অর্থ চূড়ান্ত সিদ্ধান্ত, প্রধান বিবেচ্য বিষয় বা মূল কথা (The essential point / the final result)।"
+      "explanation": "'Bottom line' idiom-টির অর্থ চূড়ান্ত সিদ্ধান্ত, প্রধান বিবেচ্য বিষয় বা মূল কথা (The essential point / the final result)।",
+      "ans": 2,
+      "correct_answer": "the essential point"
     },
     {
       "id": 91,
       "question": "What is the noun of ‘ deny’?",
-      "options": {
-        "ক": "Deny",
-        "খ": "Deniable",
-        "গ": "Refuse",
-        "ঘ": "Denial"
-      },
+      "options": [
+        "Deny",
+        "Deniable",
+        "Refuse",
+        "Denial"
+      ],
       "answer": "ঘ",
-      "explanation": "'Deny' (অস্বীকার করা) verb-টির Noun form হলো 'Denial' (অস্বীকৃতি)।"
+      "explanation": "'Deny' (অস্বীকার করা) verb-টির Noun form হলো 'Denial' (অস্বীকৃতি)।",
+      "ans": 3,
+      "correct_answer": "Denial"
     },
     {
       "id": 92,
       "question": "Which one is always used as singular ?",
-      "options": {
-        "ক": "Custom",
-        "খ": "Staff",
-        "গ": "Horse",
-        "ঘ": "Bread"
-      },
+      "options": [
+        "Custom",
+        "Staff",
+        "Horse",
+        "Bread"
+      ],
       "answer": "ঘ",
-      "explanation": "'Bread' (পাউরুটি) একটি Uncountable Noun, যা সর্বদা Singular হিসেবে ব্যবহৃত হয় (গণনা করতে a slice of bread বা a loaf of bread বলতে হয়)।"
+      "explanation": "'Bread' (পাউরুটি) একটি Uncountable Noun, যা সর্বদা Singular হিসেবে ব্যবহৃত হয় (গণনা করতে a slice of bread বা a loaf of bread বলতে হয়)।",
+      "ans": 3,
+      "correct_answer": "Bread"
     },
     {
       "id": 93,
       "question": "Kamal did not join the army. Here the word 'Army' is –",
-      "options": {
-        "ক": "an  abstract noun",
-        "খ": "a common noun",
-        "গ": "a collective noun",
-        "ঘ": "a material noun"
-      },
+      "options": [
+        "an  abstract noun",
+        "a common noun",
+        "a collective noun",
+        "a material noun"
+      ],
       "answer": "গ",
-      "explanation": "'Army' (সেনাবাহিনী) সমগ্র সামরিক সদস্যদের সমষ্টিগত রূপ প্রকাশ করায় এটি একটি Collective Noun (সমষ্টিবাচক বিশেষ্য)।"
+      "explanation": "'Army' (সেনাবাহিনী) সমগ্র সামরিক সদস্যদের সমষ্টিগত রূপ প্রকাশ করায় এটি একটি Collective Noun (সমষ্টিবাচক বিশেষ্য)।",
+      "ans": 2,
+      "correct_answer": "a collective noun"
     },
     {
       "id": 94,
       "question": "The study of religion is –",
-      "options": {
-        "ক": "Phonology",
-        "খ": "Etymology",
-        "গ": "Theology",
-        "ঘ": "Morphology"
-      },
+      "options": [
+        "Phonology",
+        "Etymology",
+        "Theology",
+        "Morphology"
+      ],
       "answer": "গ",
-      "explanation": "ধর্ম, ঈশ্বর এবং ধর্মীয় বিশ্বাস সম্পর্কিত বিজ্ঞানসম্মত অধ্যয়নকে 'Theology' (ধর্মতত্ত্ব) বলা হয়।"
+      "explanation": "ধর্ম, ঈশ্বর এবং ধর্মীয় বিশ্বাস সম্পর্কিত বিজ্ঞানসম্মত অধ্যয়নকে 'Theology' (ধর্মতত্ত্ব) বলা হয়।",
+      "ans": 2,
+      "correct_answer": "Theology"
     },
     {
       "id": 95,
       "question": "“Let the book be read by you” বাক্যের active form হচ্ছে-",
-      "options": {
-        "ক": "Read the book",
-        "খ": "You are to read the book",
-        "গ": "Let read the book by you.",
-        "ঘ": "Let the book be reading by you."
-      },
+      "options": [
+        "Read the book",
+        "You are to read the book",
+        "Let read the book by you.",
+        "Let the book be reading by you."
+      ],
       "answer": "ক",
-      "explanation": "Passive 'Let the book be read by you'-এর Active রূপ হলো Imperative: 'Read the book.'"
+      "explanation": "Passive 'Let the book be read by you'-এর Active রূপ হলো Imperative: 'Read the book.'",
+      "ans": 0,
+      "correct_answer": "Read the book"
     },
     {
       "id": 96,
       "question": "I --- him only letter up to now.",
-      "options": {
-        "ক": "sent",
-        "খ": "have sent",
-        "গ": "shall send",
-        "ঘ": "had sent"
-      },
+      "options": [
+        "sent",
+        "have sent",
+        "shall send",
+        "had sent"
+      ],
       "answer": "খ",
-      "explanation": "'Up to now' বা 'So far' থাকলে বাক্যটি Present Perfect Tense হয়: 'I have sent him only letter up to now.'"
+      "explanation": "'Up to now' বা 'So far' থাকলে বাক্যটি Present Perfect Tense হয়: 'I have sent him only letter up to now.'",
+      "ans": 1,
+      "correct_answer": "have sent"
     },
     {
       "id": 97,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "parallel",
-        "খ": "parallel",
-        "গ": "parallel",
-        "ঘ": "parelel"
-      },
+      "options": [
+        "parallel",
+        "parallel",
+        "parallel",
+        "parelel"
+      ],
       "answer": "ক",
-      "explanation": "সঠিক বানান হলো 'Parallel' (P-a-r-a-l-l-e-l), যার অর্থ সমান্তরাল। এতে প্রথমে একটি 'r', দুটি 'l' এবং শেষে একটি 'l' থাকে।"
+      "explanation": "সঠিক বানান হলো 'Parallel' (P-a-r-a-l-l-e-l), যার অর্থ সমান্তরাল। এতে প্রথমে একটি 'r', দুটি 'l' এবং শেষে একটি 'l' থাকে।",
+      "ans": 0,
+      "correct_answer": "parallel"
     },
     {
       "id": 98,
       "question": "He addressed Mr. Rahman and wished him good morning বাক্যটির direct speech হবে –",
-      "options": {
-        "ক": "He said, “Good morning, Mr. Rahman”.",
-        "খ": "He said , “Good morning to Mr. Rahman .”",
-        "গ": "He bade good morning to Mr. Rahman",
-        "ঘ": "He said to Mr. morning, “Good morning”."
-      },
+      "options": [
+        "He said, “Good morning, Mr. Rahman”.",
+        "He said , “Good morning to Mr. Rahman .”",
+        "He bade good morning to Mr. Rahman",
+        "He said to Mr. morning, “Good morning”."
+      ],
       "answer": "ক",
-      "explanation": "মিস্টার রহমানকে শুভ সকাল জানানোর Direct Speech হলো: He said, 'Good morning, Mr. Rahman.'"
+      "explanation": "মিস্টার রহমানকে শুভ সকাল জানানোর Direct Speech হলো: He said, 'Good morning, Mr. Rahman.'",
+      "ans": 0,
+      "correct_answer": "He said, “Good morning, Mr. Rahman”."
     },
     {
       "id": 99,
       "question": "Karim as well as Rahim --- praise",
-      "options": {
-        "ক": "deserve",
-        "খ": "deserves",
-        "গ": "are deserving",
-        "ঘ": "is deserving"
-      },
+      "options": [
+        "deserve",
+        "deserves",
+        "are deserving",
+        "is deserving"
+      ],
       "answer": "খ",
-      "explanation": "'As well as' দ্বারা দুটি Subject যুক্ত হলে প্রথম Subject (Karim) অনুযায়ী Verb বসে। Karim 3rd person singular হওয়ায় Verb হবে 'deserves' (খ)।"
+      "explanation": "'As well as' দ্বারা দুটি Subject যুক্ত হলে প্রথম Subject (Karim) অনুযায়ী Verb বসে। Karim 3rd person singular হওয়ায় Verb হবে 'deserves' (খ)।",
+      "ans": 1,
+      "correct_answer": "deserves"
     },
     {
       "id": 100,
       "question": "The child cried for --- mother .",
-      "options": {
-        "ক": "its",
-        "খ": "none",
-        "গ": "his",
-        "ঘ": "her"
-      },
+      "options": [
+        "its",
+        "none",
+        "his",
+        "her"
+      ],
       "answer": "ক",
-      "explanation": "ছোট শিশু (child) বা ইতর প্রাণীর লিঙ্গ নির্দিষ্ট না থাকলে তার Pronoun হিসেবে 'its' বসে: 'The child cried for its mother.'"
+      "explanation": "ছোট শিশু (child) বা ইতর প্রাণীর লিঙ্গ নির্দিষ্ট না থাকলে তার Pronoun হিসেবে 'its' বসে: 'The child cried for its mother.'",
+      "ans": 0,
+      "correct_answer": "its"
     }
   ]
 }

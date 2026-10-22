@@ -7,302 +7,350 @@
     {
       "id": 1,
       "question": "‘I know you’. Choose the complex form-",
-      "options": {
-        "ক": "I know what you are.",
-        "খ": "I know who you are.",
-        "গ": "I know who are you.",
-        "ঘ": "I know who are you."
-      },
+      "options": [
+        "I know what you are.",
+        "I know who you are.",
+        "I know who are you.",
+        "I know who are you."
+      ],
       "answer": "খ",
-      "explanation": "'I know you' (Simple)-কে Noun Clause দিয়ে Complex করলে দাঁড়ায়: 'I know who you are.'"
+      "explanation": "'I know you' (Simple)-কে Noun Clause দিয়ে Complex করলে দাঁড়ায়: 'I know who you are.'",
+      "ans": 1,
+      "correct_answer": "I know who you are."
     },
     {
       "id": 2,
       "question": "____ course of time, he became f famous writer.",
-      "options": {
-        "ক": "In",
-        "খ": "Of",
-        "গ": "For",
-        "ঘ": "By"
-      },
+      "options": [
+        "In",
+        "Of",
+        "For",
+        "By"
+      ],
       "answer": "ক",
-      "explanation": "'In course of time' একটি সুনির্দিষ্ট Prepositional Phrase যার অর্থ 'কালের পরিক্রমায়' বা সময়ের ব্যবধানে (eventually/with time)। তাই শূন্যস্থানে 'In' বসবে।"
+      "explanation": "'In course of time' একটি সুনির্দিষ্ট Prepositional Phrase যার অর্থ 'কালের পরিক্রমায়' বা সময়ের ব্যবধানে (eventually/with time)। তাই শূন্যস্থানে 'In' বসবে।",
+      "ans": 0,
+      "correct_answer": "In"
     },
     {
       "id": 3,
       "question": "____ ink in my pen is red.",
-      "options": {
-        "ক": "A",
-        "খ": "The",
-        "গ": "An",
-        "ঘ": "No article"
-      },
+      "options": [
+        "A",
+        "The",
+        "An",
+        "No article"
+      ],
       "answer": "খ",
-      "explanation": "আমার কলমের কালি একটি নির্দিষ্ট উপাদানকে নির্দেশ করায় নির্দিষ্টতা বোঝাতে Definite Article 'The' বসবে: 'The ink in my pen is red.'"
+      "explanation": "আমার কলমের কালি একটি নির্দিষ্ট উপাদানকে নির্দেশ করায় নির্দিষ্টতা বোঝাতে Definite Article 'The' বসবে: 'The ink in my pen is red.'",
+      "ans": 1,
+      "correct_answer": "The"
     },
     {
       "id": 4,
       "question": "Complete the sentence with appropriate word: Poly ran fast lest she ____ miss the class.",
-      "options": {
-        "ক": "could",
-        "খ": "would",
-        "গ": "can",
-        "ঘ": "should"
-      },
+      "options": [
+        "could",
+        "would",
+        "can",
+        "should"
+      ],
       "answer": "ঘ",
-      "explanation": "'Lest' যুক্ত বাক্যে Subject-এর পরে Modal Auxiliary হিসেবে 'should' (বা might) বসে। তাই 'should' সঠিক।"
+      "explanation": "'Lest' যুক্ত বাক্যে Subject-এর পরে Modal Auxiliary হিসেবে 'should' (বা might) বসে। তাই 'should' সঠিক।",
+      "ans": 3,
+      "correct_answer": "should"
     },
     {
       "id": 5,
       "question": "Which one is correct?",
-      "options": {
-        "ক": "There is no place for doubt in it.",
-        "খ": "There is no space for doubt in it.",
-        "গ": "There is no room for doubt in it",
-        "ঘ": "There is no area to doubt in it."
-      },
+      "options": [
+        "There is no place for doubt in it.",
+        "There is no space for doubt in it.",
+        "There is no room for doubt in it",
+        "There is no area to doubt in it."
+      ],
       "answer": "গ",
-      "explanation": "কমিটি শব্দের সঠিক বানান হলো 'Committee' (C-o-m-m-i-t-t-e-e), যাতে double 'm', double 't' এবং double 'e' রয়েছে।"
+      "explanation": "কমিটি শব্দের সঠিক বানান হলো 'Committee' (C-o-m-m-i-t-t-e-e), যাতে double 'm', double 't' এবং double 'e' রয়েছে।",
+      "ans": 2,
+      "correct_answer": "There is no room for doubt in it"
     },
     {
       "id": 6,
       "question": "Which one is the correct English translation of “অসারের তর্জন গর্জন সার” ?",
-      "options": {
-        "ক": "Ignorance is vociferous.",
-        "খ": "An idle man speaks much.",
-        "গ": "A barking dog seldom bites.",
-        "ঘ": "An empty vessel sound much."
-      },
+      "options": [
+        "Ignorance is vociferous.",
+        "An idle man speaks much.",
+        "A barking dog seldom bites.",
+        "An empty vessel sound much."
+      ],
       "answer": "গ+ঘ",
       "explanation": "'অসারের তর্জন গর্জন সার'-এর সঠিক ইংরেজি প্রবাদ হলো 'An empty vessel sounds much' (ঘ)। আবার 'যত গর্জে তত বর্ষে না' হলো 'A barking dog seldom bites' (গ)। প্রশ্নপত্রে উভয় প্রবাদের সাদৃশ্য থাকায় উত্তরমালায় 'গ+ঘ' গৃহীত।"
     },
     {
       "id": 7,
       "question": "The doctor will come back to the ward in no time, the underlined phrase means-",
-      "options": {
-        "ক": "instantly",
-        "খ": "hardly",
-        "গ": "always",
-        "ঘ": "never"
-      },
+      "options": [
+        "instantly",
+        "hardly",
+        "always",
+        "never"
+      ],
       "answer": "ক",
-      "explanation": "'In no time' একটি ইংরেজি Idiom যার অর্থ 'অতি দ্রুত' বা অবিলম্বে (instantly / very quickly / immediately)।"
+      "explanation": "'In no time' একটি ইংরেজি Idiom যার অর্থ 'অতি দ্রুত' বা অবিলম্বে (instantly / very quickly / immediately)।",
+      "ans": 0,
+      "correct_answer": "instantly"
     },
     {
       "id": 8,
       "question": "The memoranda ____ not importance.",
-      "options": {
-        "ক": "is",
-        "খ": "has",
-        "গ": "have",
-        "ঘ": "are"
-      },
+      "options": [
+        "is",
+        "has",
+        "have",
+        "are"
+      ],
       "answer": "ঘ",
-      "explanation": "'Memorandum' হলো Singular এবং এর Plural রূপ হলো 'Memoranda'। Plural Subject-এর জন্য Plural Verb 'are' বসবে।"
+      "explanation": "'Memorandum' হলো Singular এবং এর Plural রূপ হলো 'Memoranda'। Plural Subject-এর জন্য Plural Verb 'are' বসবে।",
+      "ans": 3,
+      "correct_answer": "are"
     },
     {
       "id": 9,
       "question": "The word ‘ decade’ refers to ____",
-      "options": {
-        "ক": "thirty years",
-        "খ": "fifty years",
-        "গ": "ten years",
-        "ঘ": "twenty five years"
-      },
+      "options": [
+        "thirty years",
+        "fifty years",
+        "ten years",
+        "twenty five years"
+      ],
       "answer": "গ",
-      "explanation": "'Decade' অর্থ 'দশক' অর্থাৎ টানা দশ বছরের সময়কাল (a period of ten years)।"
+      "explanation": "'Decade' অর্থ 'দশক' অর্থাৎ টানা দশ বছরের সময়কাল (a period of ten years)।",
+      "ans": 2,
+      "correct_answer": "ten years"
     },
     {
       "id": 10,
       "question": "No spelling occurs in ____.",
-      "options": {
-        "ক": "extravagant",
-        "খ": "pronounciation",
-        "গ": "spurious",
-        "ঘ": "temporary"
-      },
+      "options": [
+        "extravagant",
+        "pronounciation",
+        "spurious",
+        "temporary"
+      ],
       "answer": "ক",
-      "explanation": "অর্থাৎ কোন শব্দটিতে বানানের কোনো ভুল নেই? 'Extravagant' (অপব্যয়ী) বানানটি সম্পূর্ণ নির্ভুল। অন্যগুলোর সঠিক বানান: Pronunciation, Spurious, Temporary।"
+      "explanation": "অর্থাৎ কোন শব্দটিতে বানানের কোনো ভুল নেই? 'Extravagant' (অপব্যয়ী) বানানটি সম্পূর্ণ নির্ভুল। অন্যগুলোর সঠিক বানান: Pronunciation, Spurious, Temporary।",
+      "ans": 0,
+      "correct_answer": "extravagant"
     },
     {
       "id": 11,
       "question": "None but ____ brave deserve ____ fair.",
-      "options": {
-        "ক": "a, an",
-        "খ": "the, the",
-        "গ": "the, no article",
-        "ঘ": "no article, the"
-      },
+      "options": [
+        "a, an",
+        "the, the",
+        "the, no article",
+        "no article, the"
+      ],
       "answer": "খ",
-      "explanation": "ড্রাইডেনের বিখ্যাত কবিতার চরণ: 'None but the brave deserves the fair'। সমগ্র সাহসী সম্প্রদায় ও সুন্দরীদের বোঝাতে উভয় স্থানে Adjective-এর পূর্বে Definite article 'the' বসবে।"
+      "explanation": "ড্রাইডেনের বিখ্যাত কবিতার চরণ: 'None but the brave deserves the fair'। সমগ্র সাহসী সম্প্রদায় ও সুন্দরীদের বোঝাতে উভয় স্থানে Adjective-এর পূর্বে Definite article 'the' বসবে।",
+      "ans": 1,
+      "correct_answer": "the, the"
     },
     {
       "id": 12,
       "question": "If you help me, I ____ grateful.",
-      "options": {
-        "ক": "will be remain",
-        "খ": "should remain",
-        "গ": "will remain",
-        "ঘ": "would remain"
-      },
+      "options": [
+        "will be remain",
+        "should remain",
+        "will remain",
+        "would remain"
+      ],
       "answer": "গ",
-      "explanation": "এটি 1st Conditional Sentence (If + Present Indefinite)। এর অপর ক্লজে Future Indefinite (Subject + will + base verb) বসে। তাই 'will remain' সঠিক।"
+      "explanation": "এটি 1st Conditional Sentence (If + Present Indefinite)। এর অপর ক্লজে Future Indefinite (Subject + will + base verb) বসে। তাই 'will remain' সঠিক।",
+      "ans": 2,
+      "correct_answer": "will remain"
     },
     {
       "id": 13,
       "question": "Which is the correct form of Assertive of Who does not like a rose?",
-      "options": {
-        "ক": "All of us likes a rose.",
-        "খ": "Nobody likes a rose.",
-        "গ": "Everyone dislikes a rose.",
-        "ঘ": "Everyone likes a rose."
-      },
+      "options": [
+        "All of us likes a rose.",
+        "Nobody likes a rose.",
+        "Everyone dislikes a rose.",
+        "Everyone likes a rose."
+      ],
       "answer": "ঘ",
-      "explanation": "'Who does not + base verb + ...?' Interrogative বাক্যের Assertive রূপ হলো: 'Everyone/Everybody + affirmative verb + ...'। তাই 'Everyone likes a rose' সঠিক।"
+      "explanation": "'Who does not + base verb + ...?' Interrogative বাক্যের Assertive রূপ হলো: 'Everyone/Everybody + affirmative verb + ...'। তাই 'Everyone likes a rose' সঠিক।",
+      "ans": 3,
+      "correct_answer": "Everyone likes a rose."
     },
     {
       "id": 14,
       "question": "Had you walked fast, you ____ the train. The correct form of verb will be-",
-      "options": {
-        "ক": "Will not miss",
-        "খ": "Will not have missed",
-        "গ": "would not have missed",
-        "ঘ": "would not miss"
-      },
+      "options": [
+        "Will not miss",
+        "Will not have missed",
+        "would not have missed",
+        "would not miss"
+      ],
       "answer": "গ",
-      "explanation": "এটি 3rd Conditional (Had + Subject + V3)। এর প্রধান ক্লজে 'Subject + would/could/might + have + V3' বসে। নেতিবাচক অর্থে 'would not have missed' সঠিক।"
+      "explanation": "এটি 3rd Conditional (Had + Subject + V3)। এর প্রধান ক্লজে 'Subject + would/could/might + have + V3' বসে। নেতিবাচক অর্থে 'would not have missed' সঠিক।",
+      "ans": 2,
+      "correct_answer": "would not have missed"
     },
     {
       "id": 15,
       "question": "‘গাছে এখনো ফল ধরে নাই’-The best translation is-",
-      "options": {
-        "ক": "The tree can not bear fruit",
-        "খ": "The tree has not given fruit yet",
-        "গ": "The tree has not caught any fruit",
-        "ঘ": "The tree has not yet borne fruit"
-      },
+      "options": [
+        "The tree can not bear fruit",
+        "The tree has not given fruit yet",
+        "The tree has not caught any fruit",
+        "The tree has not yet borne fruit"
+      ],
       "answer": "ঘ",
-      "explanation": "ফল দেওয়া অর্থে Bear-এর Past Participle হলো 'Borne'। গাছে ফল না ধরার সঠিক প্রেজেন্ট পারফেক্ট অনুবাদ: 'The tree has not yet borne fruit.'"
+      "explanation": "ফল দেওয়া অর্থে Bear-এর Past Participle হলো 'Borne'। গাছে ফল না ধরার সঠিক প্রেজেন্ট পারফেক্ট অনুবাদ: 'The tree has not yet borne fruit.'",
+      "ans": 3,
+      "correct_answer": "The tree has not yet borne fruit"
     },
     {
       "id": 16,
       "question": "The word ‘heritage’ refers to_",
-      "options": {
-        "ক": "heir",
-        "খ": "tradition",
-        "গ": "legitimacy",
-        "ঘ": "intrigue"
-      },
+      "options": [
+        "heir",
+        "tradition",
+        "legitimacy",
+        "intrigue"
+      ],
       "answer": "ঘ",
-      "explanation": "'Heritage' অর্থ ঐতিহ্য বা উত্তরাধিকার সূত্রে প্রাপ্ত সংস্কৃতি (tradition / legacy)। তবে মুদ্রিত প্রশ্নপত্রের উত্তরমালায় ভুলবশত অপশন 'ঘ' চিহ্নিত রয়েছে।"
+      "explanation": "'Heritage' অর্থ ঐতিহ্য বা উত্তরাধিকার সূত্রে প্রাপ্ত সংস্কৃতি (tradition / legacy)। তবে মুদ্রিত প্রশ্নপত্রের উত্তরমালায় ভুলবশত অপশন 'ঘ' চিহ্নিত রয়েছে।",
+      "ans": 3,
+      "correct_answer": "intrigue"
     },
     {
       "id": 17,
       "question": "The price of mango is high in over country, ____ we turn this land into mango orchard?",
-      "options": {
-        "ক": "As if",
-        "খ": "Would rather",
-        "গ": "What’s it like",
-        "ঘ": "What if"
-      },
+      "options": [
+        "As if",
+        "Would rather",
+        "What’s it like",
+        "What if"
+      ],
       "answer": "ঘ",
-      "explanation": "'What if' একটি Phrase যা কোনো প্রস্তাব বা 'এমনটি হলে কেমন হয়?' প্রকাশে ব্যবহৃত হয়। তাই শূন্যস্থানে 'What if' বসবে।"
+      "explanation": "'What if' একটি Phrase যা কোনো প্রস্তাব বা 'এমনটি হলে কেমন হয়?' প্রকাশে ব্যবহৃত হয়। তাই শূন্যস্থানে 'What if' বসবে।",
+      "ans": 3,
+      "correct_answer": "What if"
     },
     {
       "id": 18,
       "question": "Ignorance is obstacle ____ progress.",
-      "options": {
-        "ক": "to",
-        "খ": "for",
-        "গ": "with",
-        "ঘ": "from"
-      },
+      "options": [
+        "to",
+        "for",
+        "with",
+        "from"
+      ],
       "answer": "ক",
-      "explanation": "বাধা বা অন্তরায় বোঝাতে Obstacle-এর সাথে উপযুক্ত Preposition হিসেবে 'to' বসে ('obstacle to something')।"
+      "explanation": "বাধা বা অন্তরায় বোঝাতে Obstacle-এর সাথে উপযুক্ত Preposition হিসেবে 'to' বসে ('obstacle to something')।",
+      "ans": 0,
+      "correct_answer": "to"
     },
     {
       "id": 19,
       "question": "Very few insects are as busy as a bee. The correct comparative form of the sentence is -",
-      "options": {
-        "ক": "A bee is busier than very few insects",
-        "খ": "A bee is busier than few insects.",
-        "গ": "A bee is busier than most other insects.",
-        "ঘ": "A bee is more busy than other insects."
-      },
+      "options": [
+        "A bee is busier than very few insects",
+        "A bee is busier than few insects.",
+        "A bee is busier than most other insects.",
+        "A bee is more busy than other insects."
+      ],
       "answer": "গ",
-      "explanation": "'Very few' যুক্ত Positive বাক্যকে Comparative করার নিয়ম: Subject (A bee) + verb (is) + comparative degree (busier) + than most other + plural noun (insects)।"
+      "explanation": "'Very few' যুক্ত Positive বাক্যকে Comparative করার নিয়ম: Subject (A bee) + verb (is) + comparative degree (busier) + than most other + plural noun (insects)।",
+      "ans": 2,
+      "correct_answer": "A bee is busier than most other insects."
     },
     {
       "id": 20,
       "question": "Fifty miles ____ not a long distance.",
-      "options": {
-        "ক": "are",
-        "খ": "is",
-        "গ": "have been",
-        "ঘ": "were"
-      },
+      "options": [
+        "are",
+        "is",
+        "have been",
+        "were"
+      ],
       "answer": "খ",
-      "explanation": "নির্দিষ্ট দূরত্ব, পরিমাণ, সময় বা অর্থ Plural হলেও তা একটি একক সমষ্টি নির্দেশ করায় Verb সর্বদা Singular (is) হয়। তাই 'Fifty miles is not a long distance' সঠিক।"
+      "explanation": "নির্দিষ্ট দূরত্ব, পরিমাণ, সময় বা অর্থ Plural হলেও তা একটি একক সমষ্টি নির্দেশ করায় Verb সর্বদা Singular (is) হয়। তাই 'Fifty miles is not a long distance' সঠিক।",
+      "ans": 1,
+      "correct_answer": "is"
     },
     {
       "id": 21,
       "question": "He came home yesterday. Choose the correct Interrogative form of the sentence.",
-      "options": {
-        "ক": "Did he come home yesterday?",
-        "খ": "Did he not came home yesterday?",
-        "গ": "When did he come home?",
-        "ঘ": "When does he come home?"
-      },
+      "options": [
+        "Did he come home yesterday?",
+        "Did he not came home yesterday?",
+        "When did he come home?",
+        "When does he come home?"
+      ],
       "answer": "ক",
-      "explanation": "Past Indefinite Tense-এর সাধারণ প্রশ্নবোধক রূপ: Did + Subject (he) + base verb (come) + home yesterday? তাই (ক) সঠিক।"
+      "explanation": "Past Indefinite Tense-এর সাধারণ প্রশ্নবোধক রূপ: Did + Subject (he) + base verb (come) + home yesterday? তাই (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "Did he come home yesterday?"
     },
     {
       "id": 22,
       "question": "The verb form of `danger’ is ____",
-      "options": {
-        "ক": "dangered",
-        "খ": "endangered",
-        "গ": "indanger",
-        "ঘ": "endanger"
-      },
+      "options": [
+        "dangered",
+        "endangered",
+        "indanger",
+        "endanger"
+      ],
       "answer": "ঘ",
-      "explanation": "'Danger' (বিপদ) হলো Noun এবং 'Dangerous' হলো Adjective। এর Verb রূপ হলো 'Endanger' (বিপন্ন করা)।"
+      "explanation": "'Danger' (বিপদ) হলো Noun এবং 'Dangerous' হলো Adjective। এর Verb রূপ হলো 'Endanger' (বিপন্ন করা)।",
+      "ans": 3,
+      "correct_answer": "endanger"
     },
     {
       "id": 23,
       "question": "‘যেমন কর্ম তেমন ফল’- The translation is ____",
-      "options": {
-        "ক": "All that glitters is not gold.",
-        "খ": "As you sow, so you reap.",
-        "গ": "A stitch in time, savers nine.",
-        "ঘ": "The more you work, the more you get."
-      },
+      "options": [
+        "All that glitters is not gold.",
+        "As you sow, so you reap.",
+        "A stitch in time, savers nine.",
+        "The more you work, the more you get."
+      ],
       "answer": "খ",
-      "explanation": "বিখ্যাত ইংরেজি প্রবাদ বাক্য: 'As you sow, so you reap' (যেমন কর্ম তেমন ফল)।"
+      "explanation": "বিখ্যাত ইংরেজি প্রবাদ বাক্য: 'As you sow, so you reap' (যেমন কর্ম তেমন ফল)।",
+      "ans": 1,
+      "correct_answer": "As you sow, so you reap."
     },
     {
       "id": 24,
       "question": "Choose the correct answer-",
-      "options": {
-        "ক": "I will avail myself of the opportunity.",
-        "খ": "I shall avail of the opportunity.",
-        "গ": "I will avail myself with the opportunity.",
-        "ঘ": "The more you work, the more you yet."
-      },
+      "options": [
+        "I will avail myself of the opportunity.",
+        "I shall avail of the opportunity.",
+        "I will avail myself with the opportunity.",
+        "The more you work, the more you yet."
+      ],
       "answer": "ক",
-      "explanation": "'Avail' একটি Reflexive Verb, যার পর সর্বদা Reflexive Pronoun (myself) এবং Appropriate Preposition 'of' বসে ('avail oneself of something')।"
+      "explanation": "'Avail' একটি Reflexive Verb, যার পর সর্বদা Reflexive Pronoun (myself) এবং Appropriate Preposition 'of' বসে ('avail oneself of something')।",
+      "ans": 0,
+      "correct_answer": "I will avail myself of the opportunity."
     },
     {
       "id": 25,
       "question": "The antonym of ‘vice’ is-",
-      "options": {
-        "ক": "honesty",
-        "খ": "values",
-        "গ": "virtue",
-        "ঘ": "Truthful"
-      },
+      "options": [
+        "honesty",
+        "values",
+        "virtue",
+        "Truthful"
+      ],
       "answer": "গ",
-      "explanation": "'Vice' অর্থ পাপ, অপকর্ম বা বদভ্যাস। এর বিপরীত শব্দ (Antonym) হলো 'Virtue' (পুণ্য/সদ্গুণ)।"
+      "explanation": "'Vice' অর্থ পাপ, অপকর্ম বা বদভ্যাস। এর বিপরীত শব্দ (Antonym) হলো 'Virtue' (পুণ্য/সদ্গুণ)।",
+      "ans": 2,
+      "correct_answer": "virtue"
     }
   ]
 }

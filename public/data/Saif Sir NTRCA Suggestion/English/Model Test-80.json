@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "At least one of the students _____ full marks every time.",
-      "options": {
-        "ক": "gets",
-        "খ": "have got",
-        "গ": "get",
-        "ঘ": "are getting"
-      },
+      "options": [
+        "gets",
+        "have got",
+        "get",
+        "are getting"
+      ],
       "answer": "ক",
-      "explanation": "'At least one of the + plural noun'-এর পরে Verb সর্বদা Singular হয়: 'At least one of the students gets full marks.'"
+      "explanation": "'At least one of the + plural noun'-এর পরে Verb সর্বদা Singular হয়: 'At least one of the students gets full marks.'",
+      "ans": 0,
+      "correct_answer": "gets"
     },
     {
       "id": 2,
       "question": "The correct spelling is ---",
-      "options": {
-        "ক": "Buroucrat",
-        "খ": "Beaurocrat",
-        "গ": "Burocreat",
-        "ঘ": "Bureaucrat"
-      },
+      "options": [
+        "Buroucrat",
+        "Beaurocrat",
+        "Burocreat",
+        "Bureaucrat"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Bureaucrat' (B-u-r-e-a-u-c-r-a-t), যার অর্থ আমলা বা সরকারি কর্মকর্তা।"
+      "explanation": "সঠিক বানান হলো 'Bureaucrat' (B-u-r-e-a-u-c-r-a-t), যার অর্থ আমলা বা সরকারি কর্মকর্তা।",
+      "ans": 3,
+      "correct_answer": "Bureaucrat"
     },
     {
       "id": 3,
       "question": "“Look before you leap”-",
-      "options": {
-        "ক": "দেখে নাও পরে লাফ দাও",
-        "খ": "লাফ দেয়ার আগে তাকাও",
-        "গ": "ভাবিয়া করিও কাজ",
-        "ঘ": "আগে ভাবিয়া পরে লাফ দাও"
-      },
+      "options": [
+        "দেখে নাও পরে লাফ দাও",
+        "লাফ দেয়ার আগে তাকাও",
+        "ভাবিয়া করিও কাজ",
+        "আগে ভাবিয়া পরে লাফ দাও"
+      ],
       "answer": "গ",
-      "explanation": "'Look before you leap' প্রবাদটির প্রচলিত ও ভাবার্থমূলক বাংলা প্রবাদ হলো 'ভাবিয়া করিও কাজ' (লাফ দেওয়ার আগে সতর্ক হও)।"
+      "explanation": "'Look before you leap' প্রবাদটির প্রচলিত ও ভাবার্থমূলক বাংলা প্রবাদ হলো 'ভাবিয়া করিও কাজ' (লাফ দেওয়ার আগে সতর্ক হও)।",
+      "ans": 2,
+      "correct_answer": "ভাবিয়া করিও কাজ"
     },
     {
       "id": 4,
       "question": "‘Frequency “ is",
-      "options": {
-        "ক": "Adjective",
-        "খ": "Noun",
-        "গ": "Adverb",
-        "ঘ": "Verb"
-      },
+      "options": [
+        "Adjective",
+        "Noun",
+        "Adverb",
+        "Verb"
+      ],
       "answer": "খ",
-      "explanation": "'Frequency' (পৌনঃপুনিকতা বা কম্পাঙ্ক) শব্দটি একটি Noun। এর Adjective হলো Frequent এবং Adverb হলো Frequently।"
+      "explanation": "'Frequency' (পৌনঃপুনিকতা বা কম্পাঙ্ক) শব্দটি একটি Noun। এর Adjective হলো Frequent এবং Adverb হলো Frequently।",
+      "ans": 1,
+      "correct_answer": "Noun"
     },
     {
       "id": 5,
       "question": "Ambiguous means .",
-      "options": {
-        "ক": "Eager",
-        "খ": "Large",
-        "গ": "Increase",
-        "ঘ": "Unclear"
-      },
+      "options": [
+        "Eager",
+        "Large",
+        "Increase",
+        "Unclear"
+      ],
       "answer": "ঘ",
-      "explanation": "'Ambiguous' শব্দের অর্থ দ্ব্যর্থবোধক, অস্পষ্ট বা যার একাধিক অর্থ হতে পারে। এর সমার্থক হলো 'Unclear' (অস্পষ্ট)।"
+      "explanation": "'Ambiguous' শব্দের অর্থ দ্ব্যর্থবোধক, অস্পষ্ট বা যার একাধিক অর্থ হতে পারে। এর সমার্থক হলো 'Unclear' (অস্পষ্ট)।",
+      "ans": 3,
+      "correct_answer": "Unclear"
     },
     {
       "id": 6,
       "question": "“কোন মানুষ একা বাস করতে পারে না”- সঠিক ইংরেজি কী?",
-      "options": {
-        "ক": "No one can live alone.",
-        "খ": "None can live alone.",
-        "গ": "No man can live alone.",
-        "ঘ": "Man cannot live alone."
-      },
+      "options": [
+        "No one can live alone.",
+        "None can live alone.",
+        "No man can live alone.",
+        "Man cannot live alone."
+      ],
       "answer": "ঘ",
-      "explanation": "'কোন মানুষ একা বাস করতে পারে না'-এর প্রবাদতুল্য অনুবাদ হলো 'Man cannot live alone' (ঘ)। (No man can live alone-ও অর্থগতভাবে শুদ্ধ)।"
+      "explanation": "'কোন মানুষ একা বাস করতে পারে না'-এর প্রবাদতুল্য অনুবাদ হলো 'Man cannot live alone' (ঘ)। (No man can live alone-ও অর্থগতভাবে শুদ্ধ)।",
+      "ans": 3,
+      "correct_answer": "Man cannot live alone."
     },
     {
       "id": 7,
       "question": "AFTER : BEFORE",
-      "options": {
-        "ক": "contemporary : histroric",
-        "খ": "present : past",
-        "গ": "successor : predecessor",
-        "ঘ": "first : second"
-      },
+      "options": [
+        "contemporary : histroric",
+        "present : past",
+        "successor : predecessor",
+        "first : second"
+      ],
       "answer": "গ",
-      "explanation": "'After' (পরে) এবং 'Before' (পূর্বে) যেমন বিপরীত শব্দ, তেমনি 'Successor' (উত্তরসূরি) এবং 'Predecessor' (পূর্বসূরি) পরস্পর বিপরীত (Successor : Predecessor)।"
+      "explanation": "'After' (পরে) এবং 'Before' (পূর্বে) যেমন বিপরীত শব্দ, তেমনি 'Successor' (উত্তরসূরি) এবং 'Predecessor' (পূর্বসূরি) পরস্পর বিপরীত (Successor : Predecessor)।",
+      "ans": 2,
+      "correct_answer": "successor : predecessor"
     },
     {
       "id": 8,
       "question": "All of the people at the conference are –",
-      "options": {
-        "ক": "mathematics teachers",
-        "খ": "mathematics teacher",
-        "গ": "mathematic’s teacher",
-        "ঘ": "mathematic’s teacher"
-      },
+      "options": [
+        "mathematics teachers",
+        "mathematics teacher",
+        "mathematic’s teacher",
+        "mathematic’s teacher"
+      ],
       "answer": "ক",
-      "explanation": "গণিতের শিক্ষকদের সমষ্টিগত পরিচয় নির্দেশ করতে 'Mathematics teachers' ব্যবহৃত হয়: 'All of the people at the conference are mathematics teachers.'"
+      "explanation": "গণিতের শিক্ষকদের সমষ্টিগত পরিচয় নির্দেশ করতে 'Mathematics teachers' ব্যবহৃত হয়: 'All of the people at the conference are mathematics teachers.'",
+      "ans": 0,
+      "correct_answer": "mathematics teachers"
     },
     {
       "id": 9,
       "question": "Choose the correct sentence :",
-      "options": {
-        "ক": "A few of the three boys got a prize",
-        "খ": "Each of the three boys got a prize.",
-        "গ": "Every of the three boys got a prize.",
-        "ঘ": "All of the three boys got a prize ."
-      },
+      "options": [
+        "A few of the three boys got a prize",
+        "Each of the three boys got a prize.",
+        "Every of the three boys got a prize.",
+        "All of the three boys got a prize ."
+      ],
       "answer": "খ",
-      "explanation": "অন্যান্য সকল জীবিত মানুষের চেয়ে শক্তিশালী তুলনা করার ক্ষেত্রে কীতে ঘ-কে সঠিক উত্তর হিসেবে চিহ্নিত করা হয়েছে।"
+      "explanation": "অন্যান্য সকল জীবিত মানুষের চেয়ে শক্তিশালী তুলনা করার ক্ষেত্রে কীতে ঘ-কে সঠিক উত্তর হিসেবে চিহ্নিত করা হয়েছে।",
+      "ans": 1,
+      "correct_answer": "Each of the three boys got a prize."
     },
     {
       "id": 10,
       "question": "The synonym of “Stringent “ is –",
-      "options": {
-        "ক": "Shrill",
-        "খ": "Dry",
-        "গ": "Strained",
-        "ঘ": "Rigorous"
-      },
+      "options": [
+        "Shrill",
+        "Dry",
+        "Strained",
+        "Rigorous"
+      ],
       "answer": "ঘ",
-      "explanation": "'Stringent' শব্দের অর্থ কঠোর, অনমনীয় বা কড়াকড়ি (strict/rigid)। এর যথাযথ সমার্থক হলো 'Rigorous' (কঠোর)।"
+      "explanation": "'Stringent' শব্দের অর্থ কঠোর, অনমনীয় বা কড়াকড়ি (strict/rigid)। এর যথাযথ সমার্থক হলো 'Rigorous' (কঠোর)।",
+      "ans": 3,
+      "correct_answer": "Rigorous"
     },
     {
       "id": 11,
       "question": "The Ambassador called --- the president.",
-      "options": {
-        "ক": "on",
-        "খ": "none of them",
-        "গ": "at",
-        "ঘ": "in"
-      },
+      "options": [
+        "on",
+        "none of them",
+        "at",
+        "in"
+      ],
       "answer": "ক",
-      "explanation": "কোনো ব্যক্তির সাথে গিয়ে সাক্ষাৎ করা বোঝাতে phrasal verb 'call on' বসে: 'The Ambassador called on the president.' (কোনো স্থানে যাওয়া অর্থে call at)।"
+      "explanation": "কোনো ব্যক্তির সাথে গিয়ে সাক্ষাৎ করা বোঝাতে phrasal verb 'call on' বসে: 'The Ambassador called on the president.' (কোনো স্থানে যাওয়া অর্থে call at)।",
+      "ans": 0,
+      "correct_answer": "on"
     },
     {
       "id": 12,
       "question": "I cannot --- to pay such high prices .",
-      "options": {
-        "ক": "able",
-        "খ": "but",
-        "গ": "try",
-        "ঘ": "afford"
-      },
+      "options": [
+        "able",
+        "but",
+        "try",
+        "afford"
+      ],
       "answer": "ঘ",
-      "explanation": "'Afford' শব্দের অর্থ কোনো খরচ বা ব্যয় বহনের আর্থিক সামর্থ্য থাকা: 'I cannot afford to pay such high prices.'"
+      "explanation": "'Afford' শব্দের অর্থ কোনো খরচ বা ব্যয় বহনের আর্থিক সামর্থ্য থাকা: 'I cannot afford to pay such high prices.'",
+      "ans": 3,
+      "correct_answer": "afford"
     },
     {
       "id": 13,
       "question": "The lady prides herself --- her beauty .",
-      "options": {
-        "ক": "about",
-        "খ": "upon",
-        "গ": "in",
-        "ঘ": "of"
-      },
+      "options": [
+        "about",
+        "upon",
+        "in",
+        "of"
+      ],
       "answer": "গ",
-      "explanation": "গর্ব করা অর্থে সাধারণত 'pride oneself on/upon' বসে, আর 'take pride in' বসে। তবে বোর্ড কীতে অপশন 'in' (গ) সঠিক হিসেবে চিহ্নিত করা হয়েছে।"
+      "explanation": "গর্ব করা অর্থে সাধারণত 'pride oneself on/upon' বসে, আর 'take pride in' বসে। তবে বোর্ড কীতে অপশন 'in' (গ) সঠিক হিসেবে চিহ্নিত করা হয়েছে।",
+      "ans": 2,
+      "correct_answer": "in"
     },
     {
       "id": 14,
       "question": "‘Dog Days” means –",
-      "options": {
-        "ক": "hot weather",
-        "খ": "a period of misfortune",
-        "গ": "a time when dogs roam the street",
-        "ঘ": "a period of being care –free"
-      },
+      "options": [
+        "hot weather",
+        "a period of misfortune",
+        "a time when dogs roam the street",
+        "a period of being care –free"
+      ],
       "answer": "ক",
-      "explanation": "'Dog days' একটি ঐতিহ্যবাহী ইংরেজি বাগধারা, যার অর্থ গ্রীষ্মকালের সবচেয়ে উষ্ণ বা প্রচণ্ড গরমের সময় (Hot weather / the hottest period of summer)।"
+      "explanation": "'Dog days' একটি ঐতিহ্যবাহী ইংরেজি বাগধারা, যার অর্থ গ্রীষ্মকালের সবচেয়ে উষ্ণ বা প্রচণ্ড গরমের সময় (Hot weather / the hottest period of summer)।",
+      "ans": 0,
+      "correct_answer": "hot weather"
     },
     {
       "id": 15,
       "question": "The synonym of “Sanguine” is",
-      "options": {
-        "ক": "Cheerful",
-        "খ": "Careful",
-        "গ": "Scared",
-        "ঘ": "Sparkle"
-      },
+      "options": [
+        "Cheerful",
+        "Careful",
+        "Scared",
+        "Sparkle"
+      ],
       "answer": "ক",
-      "explanation": "'Sanguine' শব্দের অর্থ আশাবাদী, প্রফুল্ল ও উৎফুল্ল। এর যথার্থ সমার্থক শব্দ হলো 'Cheerful' (প্রফুল্ল) বা Optimistic।"
+      "explanation": "'Sanguine' শব্দের অর্থ আশাবাদী, প্রফুল্ল ও উৎফুল্ল। এর যথার্থ সমার্থক শব্দ হলো 'Cheerful' (প্রফুল্ল) বা Optimistic।",
+      "ans": 0,
+      "correct_answer": "Cheerful"
     },
     {
       "id": 16,
       "question": "Which one is plural –",
-      "options": {
-        "ক": "Each",
-        "খ": "None of these",
-        "গ": "Anyone",
-        "ঘ": "Someone"
-      },
+      "options": [
+        "Each",
+        "None of these",
+        "Anyone",
+        "Someone"
+      ],
       "answer": "খ",
-      "explanation": "'Bureaux' হলো Plural Noun (Bureau-এর বহুবচন রূপ)। Oasis, Terminus এবং Vertex হলো Singular Noun।"
+      "explanation": "'Bureaux' হলো Plural Noun (Bureau-এর বহুবচন রূপ)। Oasis, Terminus এবং Vertex হলো Singular Noun।",
+      "ans": 1,
+      "correct_answer": "None of these"
     },
     {
       "id": 17,
       "question": "Choose the correctly spelt word.",
-      "options": {
-        "ক": "voluntary",
-        "খ": "volantory",
-        "গ": "voluntary",
-        "ঘ": "voluntary"
-      },
+      "options": [
+        "voluntary",
+        "volantory",
+        "voluntary",
+        "voluntary"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Voluntary' (V-o-l-u-n-t-a-r-y), যার অর্থ স্বেচ্ছাসেবী বা স্বতঃপ্রণোদিত।"
+      "explanation": "সঠিক বানান হলো 'Voluntary' (V-o-l-u-n-t-a-r-y), যার অর্থ স্বেচ্ছাসেবী বা স্বতঃপ্রণোদিত।",
+      "ans": 3,
+      "correct_answer": "voluntary"
     },
     {
       "id": 18,
       "question": "Counsel means –",
-      "options": {
-        "ক": "Meeting",
-        "খ": "Advice",
-        "গ": "Trade",
-        "ঘ": "Cabinet"
-      },
+      "options": [
+        "Meeting",
+        "Advice",
+        "Trade",
+        "Cabinet"
+      ],
       "answer": "খ",
-      "explanation": "'Counsel' শব্দের অর্থ উপদেশ বা পরামর্শ (Advice) অথবা আইনগত পরামর্শদাতা। Council মানে পরিষদ বা সভা।"
+      "explanation": "'Counsel' শব্দের অর্থ উপদেশ বা পরামর্শ (Advice) অথবা আইনগত পরামর্শদাতা। Council মানে পরিষদ বা সভা।",
+      "ans": 1,
+      "correct_answer": "Advice"
     },
     {
       "id": 19,
       "question": "‘কর্তৃপক্ষ তাকে তিরস্কার করলো’- সঠিক ইংরেজি কী?",
-      "options": {
-        "ক": "The authority took him to task",
-        "খ": "The authority criticised him",
-        "গ": "The authority took him to book",
-        "ঘ": "The authority gave reins to him"
-      },
+      "options": [
+        "The authority took him to task",
+        "The authority criticised him",
+        "The authority took him to book",
+        "The authority gave reins to him"
+      ],
       "answer": "ক",
-      "explanation": "'Take someone to task' একটি প্রচলিত idiom, যার অর্থ কাউকে তিরস্কার করা বা জবাবদিহি করা। তাই 'কর্তৃপক্ষ তাকে তিরস্কার করলো'-এর অনুবাদ: 'The authority took him to task.'"
+      "explanation": "'Take someone to task' একটি প্রচলিত idiom, যার অর্থ কাউকে তিরস্কার করা বা জবাবদিহি করা। তাই 'কর্তৃপক্ষ তাকে তিরস্কার করলো'-এর অনুবাদ: 'The authority took him to task.'",
+      "ans": 0,
+      "correct_answer": "The authority took him to task"
     },
     {
       "id": 20,
       "question": "What is the adjective of the word ‘Heart”?",
-      "options": {
-        "ক": "Heartful",
-        "খ": "Heartening",
-        "গ": "Heartly",
-        "ঘ": "Heart"
-      },
+      "options": [
+        "Heartful",
+        "Heartening",
+        "Heartly",
+        "Heart"
+      ],
       "answer": "খ",
-      "explanation": "'Heart' (হৃদয়) শব্দটির Adjective রূপ হলো 'Heartening' (উৎসাহব্যঞ্জক বা প্রীতিজনক) অথবা Hearty (আন্তরিক)।"
+      "explanation": "'Heart' (হৃদয়) শব্দটির Adjective রূপ হলো 'Heartening' (উৎসাহব্যঞ্জক বা প্রীতিজনক) অথবা Hearty (আন্তরিক)।",
+      "ans": 1,
+      "correct_answer": "Heartening"
     }
   ]
 }

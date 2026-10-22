@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "Credit Tk. 500……..my account.",
-      "options": {
-        "ক": "against",
-        "খ": "in",
-        "গ": "to",
-        "ঘ": "with"
-      },
+      "options": [
+        "against",
+        "in",
+        "to",
+        "with"
+      ],
       "answer": "গ",
-      "explanation": "কারও ব্যাংক হিসাবে টাকা জমা করা বোঝাতে 'credit to' ব্যবহৃত হয়: 'Credit Tk. 500 to my account.'"
+      "explanation": "কারও ব্যাংক হিসাবে টাকা জমা করা বোঝাতে 'credit to' ব্যবহৃত হয়: 'Credit Tk. 500 to my account.'",
+      "ans": 2,
+      "correct_answer": "to"
     },
     {
       "id": 2,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Relevent",
-        "খ": "Relavent",
-        "গ": "Relevant",
-        "ঘ": "Ralevant"
-      },
+      "options": [
+        "Relevent",
+        "Relavent",
+        "Relevant",
+        "Ralevant"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।"
+      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।",
+      "ans": 2,
+      "correct_answer": "Relevant"
     },
     {
       "id": 3,
       "question": "‘We made her recite a poem’ (Passive)",
-      "options": {
-        "ক": "She was made to recite a poem.",
-        "খ": "She was made recited a poem.",
-        "গ": "A poem was made to be recited.",
-        "ঘ": "A poem was made recite by her."
-      },
+      "options": [
+        "She was made to recite a poem.",
+        "She was made recited a poem.",
+        "A poem was made to be recited.",
+        "A poem was made recite by her."
+      ],
       "answer": "ক",
-      "explanation": "Causative 'make' Active-এ bare infinitive নিলেও Passive voice-এ 'to' যুক্ত হয়: 'She was made to recite a poem.'"
+      "explanation": "Causative 'make' Active-এ bare infinitive নিলেও Passive voice-এ 'to' যুক্ত হয়: 'She was made to recite a poem.'",
+      "ans": 0,
+      "correct_answer": "She was made to recite a poem."
     },
     {
       "id": 4,
       "question": "Simple sentence consists of—",
-      "options": {
-        "ক": "four clauses",
-        "খ": "two clauses",
-        "গ": "one clause",
-        "ঘ": "three clauses"
-      },
+      "options": [
+        "four clauses",
+        "two clauses",
+        "one clause",
+        "three clauses"
+      ],
       "answer": "গ",
-      "explanation": "একটিমাত্র স্বাধীন বা প্রধান খণ্ডবাক্য (One independent clause) এবং একটিমাত্র finite verb সম্বলিত বাক্যকে Simple sentence বলে।"
+      "explanation": "একটিমাত্র স্বাধীন বা প্রধান খণ্ডবাক্য (One independent clause) এবং একটিমাত্র finite verb সম্বলিত বাক্যকে Simple sentence বলে।",
+      "ans": 2,
+      "correct_answer": "one clause"
     },
     {
       "id": 5,
       "question": "‘Call it a day’ means-",
-      "options": {
-        "ক": "to be unhappy with the weather",
-        "খ": "to pay someone a visit",
-        "গ": "to raise doubts",
-        "ঘ": "to stop work since enough has been done"
-      },
+      "options": [
+        "to be unhappy with the weather",
+        "to pay someone a visit",
+        "to raise doubts",
+        "to stop work since enough has been done"
+      ],
       "answer": "ঘ",
-      "explanation": "'Call it a day' একটি বহুল প্রচলিত idiom, যার অর্থ দিনের মতো কাজ বন্ধ বা সমাপ্ত ঘোষণা করা (To stop work since enough has been done)।"
+      "explanation": "'Call it a day' একটি বহুল প্রচলিত idiom, যার অর্থ দিনের মতো কাজ বন্ধ বা সমাপ্ত ঘোষণা করা (To stop work since enough has been done)।",
+      "ans": 3,
+      "correct_answer": "to stop work since enough has been done"
     },
     {
       "id": 6,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Burow",
-        "খ": "Buro",
-        "গ": "Buraeu",
-        "ঘ": "Bureau"
-      },
+      "options": [
+        "Burow",
+        "Buro",
+        "Buraeu",
+        "Bureau"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।"
+      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।",
+      "ans": 3,
+      "correct_answer": "Bureau"
     },
     {
       "id": 7,
       "question": "‘Emphasis’ means-",
-      "options": {
-        "ক": "Attention",
-        "খ": "Importance",
-        "গ": "Neglect",
-        "ঘ": "Overlook"
-      },
+      "options": [
+        "Attention",
+        "Importance",
+        "Neglect",
+        "Overlook"
+      ],
       "answer": "খ",
-      "explanation": "'Emphasis' শব্দের অর্থ কোনো বিষয়ে অতিরিক্ত গুরুত্ব বা জোর দেওয়া। এর সমার্থক হলো 'Importance' (গুরুত্ব)।"
+      "explanation": "'Emphasis' শব্দের অর্থ কোনো বিষয়ে অতিরিক্ত গুরুত্ব বা জোর দেওয়া। এর সমার্থক হলো 'Importance' (গুরুত্ব)।",
+      "ans": 1,
+      "correct_answer": "Importance"
     },
     {
       "id": 8,
       "question": "‘Look after’ means to-",
-      "options": {
-        "ক": "follow",
-        "খ": "try again",
-        "গ": "take care",
-        "ঘ": "look at"
-      },
+      "options": [
+        "follow",
+        "try again",
+        "take care",
+        "look at"
+      ],
       "answer": "গ",
-      "explanation": "'Look after' phrasal verb-টির অর্থ কারও দেখাশোনা বা যত্ন নেওয়া (To take care of someone)।"
+      "explanation": "'Look after' phrasal verb-টির অর্থ কারও দেখাশোনা বা যত্ন নেওয়া (To take care of someone)।",
+      "ans": 2,
+      "correct_answer": "take care"
     },
     {
       "id": 9,
       "question": "Synonym for ‘Mystery’?",
-      "options": {
-        "ক": "Solution",
-        "খ": "Clue",
-        "গ": "Answer",
-        "ঘ": "Enigma"
-      },
+      "options": [
+        "Solution",
+        "Clue",
+        "Answer",
+        "Enigma"
+      ],
       "answer": "ঘ",
-      "explanation": "'Mystery' শব্দের অর্থ রহস্য বা যা ব্যাখ্যা করা কঠিন। এর যথার্থ সমার্থক হলো 'Enigma' (রহস্য বা প্রহেলিকা)।"
+      "explanation": "'Mystery' শব্দের অর্থ রহস্য বা যা ব্যাখ্যা করা কঠিন। এর যথার্থ সমার্থক হলো 'Enigma' (রহস্য বা প্রহেলিকা)।",
+      "ans": 3,
+      "correct_answer": "Enigma"
     },
     {
       "id": 10,
       "question": "Choose the correct past participle form of word ‘drink’.",
-      "options": {
-        "ক": "drunk",
-        "খ": "drunker",
-        "গ": "dronk",
-        "ঘ": "drank"
-      },
+      "options": [
+        "drunk",
+        "drunker",
+        "dronk",
+        "drank"
+      ],
       "answer": "ক",
-      "explanation": "'Drink' verb-এর তিনটি রূপ হলো: Present: Drink, Past: Drank, Past Participle: Drunk। তাই সঠিক উত্তর ক।"
+      "explanation": "'Drink' verb-এর তিনটি রূপ হলো: Present: Drink, Past: Drank, Past Participle: Drunk। তাই সঠিক উত্তর ক।",
+      "ans": 0,
+      "correct_answer": "drunk"
     },
     {
       "id": 11,
       "question": "Which one is a correct sentence?",
-      "options": {
-        "ক": "I examined his pulse",
-        "খ": "I saw his pulse",
-        "গ": "I found his pulse",
-        "ঘ": "I feel his pulse"
-      },
+      "options": [
+        "I examined his pulse",
+        "I saw his pulse",
+        "I found his pulse",
+        "I feel his pulse"
+      ],
       "answer": "ঘ",
-      "explanation": "কারও নাড়ি দেখা বা স্পন্দন পরীক্ষা করা অর্থে 'feel one's pulse' ব্যবহৃত হয়। তাই 'I feel his pulse' সঠিক।"
+      "explanation": "কারও নাড়ি দেখা বা স্পন্দন পরীক্ষা করা অর্থে 'feel one's pulse' ব্যবহৃত হয়। তাই 'I feel his pulse' সঠিক।",
+      "ans": 3,
+      "correct_answer": "I feel his pulse"
     },
     {
       "id": 12,
       "question": "I wish you success in life. What type of sentence is it?",
-      "options": {
-        "ক": "Negative",
-        "খ": "Exclamatory",
-        "গ": "Optative",
-        "ঘ": "Assertive"
-      },
+      "options": [
+        "Negative",
+        "Exclamatory",
+        "Optative",
+        "Assertive"
+      ],
       "answer": "ঘ",
-      "explanation": "'I wish you success in life' বাক্যটিতে বক্তা সরাসরি তাঁর ইচ্ছার বিবরণ দিচ্ছেন এবং এটি Subject (I) + Verb (wish) দ্বারা শুরু হওয়ায় গঠনগতভাবে এটি একটি Assertive sentence।"
+      "explanation": "'I wish you success in life' বাক্যটিতে বক্তা সরাসরি তাঁর ইচ্ছার বিবরণ দিচ্ছেন এবং এটি Subject (I) + Verb (wish) দ্বারা শুরু হওয়ায় গঠনগতভাবে এটি একটি Assertive sentence।",
+      "ans": 3,
+      "correct_answer": "Assertive"
     },
     {
       "id": 13,
       "question": "Their house is quite similar — ours.",
-      "options": {
-        "ক": "with",
-        "খ": "as",
-        "গ": "than",
-        "ঘ": "to"
-      },
+      "options": [
+        "with",
+        "as",
+        "than",
+        "to"
+      ],
       "answer": "ঘ",
-      "explanation": "সাদৃশ্য বা মিল বোঝাতে appropriate preposition 'similar to' বসে: 'Their house is quite similar to ours.'"
+      "explanation": "সাদৃশ্য বা মিল বোঝাতে appropriate preposition 'similar to' বসে: 'Their house is quite similar to ours.'",
+      "ans": 3,
+      "correct_answer": "to"
     },
     {
       "id": 14,
       "question": "He prefers reading…. Writing.",
-      "options": {
-        "ক": "with",
-        "খ": "as",
-        "গ": "than",
-        "ঘ": "to"
-      },
+      "options": [
+        "with",
+        "as",
+        "than",
+        "to"
+      ],
       "answer": "ঘ",
-      "explanation": "'Prefer'-এর পর দুটি বিষয়ের পছন্দের তুলনায় 'to' বসে: 'He prefers reading to writing.'"
+      "explanation": "'Prefer'-এর পর দুটি বিষয়ের পছন্দের তুলনায় 'to' বসে: 'He prefers reading to writing.'",
+      "ans": 3,
+      "correct_answer": "to"
     },
     {
       "id": 15,
       "question": "Although he is poor, he is honest (Simple)",
-      "options": {
-        "ক": "In spite of his poverty, he is honest.",
-        "খ": "Despite his honesty, he is poor.",
-        "গ": "Despite his poverty, he is honest.",
-        "ঘ": "In spite of having poor, he is honest."
-      },
+      "options": [
+        "In spite of his poverty, he is honest.",
+        "Despite his honesty, he is poor.",
+        "Despite his poverty, he is honest.",
+        "In spite of having poor, he is honest."
+      ],
       "answer": "ক",
-      "explanation": "'Although' যুক্ত Complex বাক্যকে Simple করার নিয়ম: 'In spite of' + possessive (his) + noun (poverty) + main clause: 'In spite of his poverty, he is honest.'"
+      "explanation": "'Although' যুক্ত Complex বাক্যকে Simple করার নিয়ম: 'In spite of' + possessive (his) + noun (poverty) + main clause: 'In spite of his poverty, he is honest.'",
+      "ans": 0,
+      "correct_answer": "In spite of his poverty, he is honest."
     },
     {
       "id": 16,
       "question": "The idiom ‘let things slide’ means-",
-      "options": {
-        "ক": "ignore",
-        "খ": "set free",
-        "গ": "lose gradually",
-        "ঘ": "reveal a secret"
-      },
+      "options": [
+        "ignore",
+        "set free",
+        "lose gradually",
+        "reveal a secret"
+      ],
       "answer": "ক",
-      "explanation": "'Let things slide' idiom-টির অর্থ কোনো সমস্যার প্রতি গুরুত্ব না দিয়ে বিষয়টিকে অবহেলা করা বা এড়িয়ে যাওয়া (To ignore / neglect)।"
+      "explanation": "'Let things slide' idiom-টির অর্থ কোনো সমস্যার প্রতি গুরুত্ব না দিয়ে বিষয়টিকে অবহেলা করা বা এড়িয়ে যাওয়া (To ignore / neglect)।",
+      "ans": 0,
+      "correct_answer": "ignore"
     },
     {
       "id": 17,
       "question": "What is the antonym of ‘Honorary’?",
-      "options": {
-        "ক": "Official",
-        "খ": "Honorable",
-        "গ": "Salaried",
-        "ঘ": "Literary"
-      },
+      "options": [
+        "Official",
+        "Honorable",
+        "Salaried",
+        "Literary"
+      ],
       "answer": "গ",
-      "explanation": "'Honorary' শব্দের অর্থ অবৈতনিক বা সম্মানসূচক (বিনা বেতনে)। এর বিপরীত (antonym) শব্দ হলো 'Salaried' (বেতনভুক্ত)।"
+      "explanation": "'Honorary' শব্দের অর্থ অবৈতনিক বা সম্মানসূচক (বিনা বেতনে)। এর বিপরীত (antonym) শব্দ হলো 'Salaried' (বেতনভুক্ত)।",
+      "ans": 2,
+      "correct_answer": "Salaried"
     },
     {
       "id": 18,
       "question": "‘Deficit’ means",
-      "options": {
-        "ক": "Shortage",
-        "খ": "Defeat",
-        "গ": "Complex",
-        "ঘ": "Flexible"
-      },
+      "options": [
+        "Shortage",
+        "Defeat",
+        "Complex",
+        "Flexible"
+      ],
       "answer": "ক",
-      "explanation": "'Deficit' শব্দের অর্থ ঘাটতি বা অপর্যাপ্ততা। এর যথার্থ সমার্থক শব্দ হলো 'Shortage' (ঘাটতি)।"
+      "explanation": "'Deficit' শব্দের অর্থ ঘাটতি বা অপর্যাপ্ততা। এর যথার্থ সমার্থক শব্দ হলো 'Shortage' (ঘাটতি)।",
+      "ans": 0,
+      "correct_answer": "Shortage"
     },
     {
       "id": 19,
       "question": "Choose the correct sentence-",
-      "options": {
-        "ক": "I finished reading the book.",
-        "খ": "I have finish reading the book.",
-        "গ": "I have finish read the book.",
-        "ঘ": "I have finished reading the book."
-      },
+      "options": [
+        "I finished reading the book.",
+        "I have finish reading the book.",
+        "I have finish read the book.",
+        "I have finished reading the book."
+      ],
       "answer": "ঘ",
-      "explanation": "Present Perfect Tense-এ 'have finished'-এর পর পরবর্তী verb-টির Gerund রূপ (reading) বসে: 'I have finished reading the book.'"
+      "explanation": "Present Perfect Tense-এ 'have finished'-এর পর পরবর্তী verb-টির Gerund রূপ (reading) বসে: 'I have finished reading the book.'",
+      "ans": 3,
+      "correct_answer": "I have finished reading the book."
     },
     {
       "id": 20,
       "question": "‘De facto’ means-",
-      "options": {
-        "ক": "in reality",
-        "খ": "by rights",
-        "গ": "evidence",
-        "ঘ": "as per facts"
-      },
+      "options": [
+        "in reality",
+        "by rights",
+        "evidence",
+        "as per facts"
+      ],
       "answer": "ক",
-      "explanation": "'De facto' লাতিন শব্দবন্ধটির অর্থ কার্যতঃ বা বাস্তবে বিদ্যমান (In reality / in practice)।"
+      "explanation": "'De facto' লাতিন শব্দবন্ধটির অর্থ কার্যতঃ বা বাস্তবে বিদ্যমান (In reality / in practice)।",
+      "ans": 0,
+      "correct_answer": "in reality"
     }
   ]
 }

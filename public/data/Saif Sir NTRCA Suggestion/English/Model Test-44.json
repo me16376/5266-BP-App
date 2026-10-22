@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "He has no appetite _____ food.",
-      "options": {
-        "ক": "to",
-        "খ": "for",
-        "গ": "with",
-        "ঘ": "about"
-      },
+      "options": [
+        "to",
+        "for",
+        "with",
+        "about"
+      ],
       "answer": "খ",
-      "explanation": "খাবারের প্রতি রুচি বা ক্ষুধা প্রকাশে Appetite-এর সাথে Preposition 'for' বসে ('appetite for food')।"
+      "explanation": "খাবারের প্রতি রুচি বা ক্ষুধা প্রকাশে Appetite-এর সাথে Preposition 'for' বসে ('appetite for food')।",
+      "ans": 1,
+      "correct_answer": "for"
     },
     {
       "id": 2,
       "question": "His words conform _____ his work.",
-      "options": {
-        "ক": "about",
-        "খ": "into",
-        "গ": "with",
-        "ঘ": "for"
-      },
+      "options": [
+        "about",
+        "into",
+        "with",
+        "for"
+      ],
       "answer": "গ",
-      "explanation": "কোনো কিছুর সাথে সামঞ্জস্যপূর্ণ হওয়া বোঝাতে Conform-এর সাথে 'to' বা 'with' বসে ('conform with/to something')। অপশন (গ) সঠিক।"
+      "explanation": "কোনো কিছুর সাথে সামঞ্জস্যপূর্ণ হওয়া বোঝাতে Conform-এর সাথে 'to' বা 'with' বসে ('conform with/to something')। অপশন (গ) সঠিক।",
+      "ans": 2,
+      "correct_answer": "with"
     },
     {
       "id": 3,
       "question": "One of the student _____ failed.",
-      "options": {
-        "ক": "has",
-        "খ": "have",
-        "গ": "would",
-        "ঘ": "will"
-      },
+      "options": [
+        "has",
+        "have",
+        "would",
+        "will"
+      ],
       "answer": "ক",
-      "explanation": "'One of the + plural noun'-এর পর Verb সর্বদা Singular হয়। Present Perfect Tense-এ Singular Auxiliary হিসেবে 'has' বসবে।"
+      "explanation": "'One of the + plural noun'-এর পর Verb সর্বদা Singular হয়। Present Perfect Tense-এ Singular Auxiliary হিসেবে 'has' বসবে।",
+      "ans": 0,
+      "correct_answer": "has"
     },
     {
       "id": 4,
       "question": "The thief ran away after he _____ the police.",
-      "options": {
-        "ক": "saw",
-        "খ": "seen",
-        "গ": "sees",
-        "ঘ": "had seen"
-      },
+      "options": [
+        "saw",
+        "seen",
+        "sees",
+        "had seen"
+      ],
       "answer": "ঘ",
-      "explanation": "'After'-এর পূর্ববর্তী ক্লজ Past Indefinite (ran away) হলে পরবর্তী ক্লজটি Past Perfect Tense (had seen) হয়।"
+      "explanation": "'After'-এর পূর্ববর্তী ক্লজ Past Indefinite (ran away) হলে পরবর্তী ক্লজটি Past Perfect Tense (had seen) হয়।",
+      "ans": 3,
+      "correct_answer": "had seen"
     },
     {
       "id": 5,
       "question": "Which of the following is plural?",
-      "options": {
-        "ক": "furniture",
-        "খ": "lingusistics",
-        "গ": "geese",
-        "ঘ": "news"
-      },
+      "options": [
+        "furniture",
+        "lingusistics",
+        "geese",
+        "news"
+      ],
       "answer": "গ",
-      "explanation": "'Goose' (রাজহাঁস) হলো Singular এবং এর ভেতরের vowel পরিবর্তিত হয়ে Plural রূপ হয় 'Geese'। Furniture, Linguistics এবং News সর্বদা Singular হিসেবে ব্যবহৃত হয়।"
+      "explanation": "'Goose' (রাজহাঁস) হলো Singular এবং এর ভেতরের vowel পরিবর্তিত হয়ে Plural রূপ হয় 'Geese'। Furniture, Linguistics এবং News সর্বদা Singular হিসেবে ব্যবহৃত হয়।",
+      "ans": 2,
+      "correct_answer": "geese"
     },
     {
       "id": 6,
       "question": "He got his house _____ last month.",
-      "options": {
-        "ক": "to paint",
-        "খ": "painting",
-        "গ": "paint",
-        "ঘ": "painted"
-      },
+      "options": [
+        "to paint",
+        "painting",
+        "paint",
+        "painted"
+      ],
       "answer": "ঘ",
-      "explanation": "Causative verb 'get'-এর পর বস্তুবাচক Object (his house) থাকলে পরবর্তী Verb-এর Past Participle (V3) রূপ বসে: 'got his house painted' ।"
+      "explanation": "Causative verb 'get'-এর পর বস্তুবাচক Object (his house) থাকলে পরবর্তী Verb-এর Past Participle (V3) রূপ বসে: 'got his house painted' ।",
+      "ans": 3,
+      "correct_answer": "painted"
     },
     {
       "id": 7,
       "question": "He made her daughter _____ homework.",
-      "options": {
-        "ক": "do",
-        "খ": "did",
-        "গ": "to do",
-        "ঘ": "done"
-      },
+      "options": [
+        "do",
+        "did",
+        "to do",
+        "done"
+      ],
       "answer": "ক",
-      "explanation": "Causative verb 'make'-এর পর ব্যক্তিবাচক Object থাকলে পরবর্তী Verb-টি Bare Infinitive (base form) হয়: 'made her do homework' ।"
+      "explanation": "Causative verb 'make'-এর পর ব্যক্তিবাচক Object থাকলে পরবর্তী Verb-টি Bare Infinitive (base form) হয়: 'made her do homework' ।",
+      "ans": 0,
+      "correct_answer": "do"
     },
     {
       "id": 8,
       "question": "The man got used to _____ a walk every morning.",
-      "options": {
-        "ক": "take",
-        "খ": "taken",
-        "গ": "taking",
-        "ঘ": "took"
-      },
+      "options": [
+        "take",
+        "taken",
+        "taking",
+        "took"
+      ],
       "answer": "গ",
-      "explanation": "'Get used to' বা 'be used to'-এর পর কোনো Verb আসলে তার সাথে 'ing' যুক্ত হয় (gerund)। তাই 'taking' সঠিক।"
+      "explanation": "'Get used to' বা 'be used to'-এর পর কোনো Verb আসলে তার সাথে 'ing' যুক্ত হয় (gerund)। তাই 'taking' সঠিক।",
+      "ans": 2,
+      "correct_answer": "taking"
     },
     {
       "id": 9,
       "question": "He doesn't like company. So he has _____ friends.",
-      "options": {
-        "ক": "a few",
-        "খ": "few",
-        "গ": "many",
-        "ঘ": "fewer"
-      },
+      "options": [
+        "a few",
+        "few",
+        "many",
+        "fewer"
+      ],
       "answer": "খ",
-      "explanation": "সে সঙ্গ পছন্দ করে না, সুতরাং তার বন্ধু নেই বললেই চলে—নেতিবাচক অর্থে Countable Noun-এর পূর্বে 'few' বসে।"
+      "explanation": "সে সঙ্গ পছন্দ করে না, সুতরাং তার বন্ধু নেই বললেই চলে—নেতিবাচক অর্থে Countable Noun-এর পূর্বে 'few' বসে।",
+      "ans": 1,
+      "correct_answer": "few"
     },
     {
       "id": 10,
       "question": "There was _____ water in the jug. She could quench her thirst.",
-      "options": {
-        "ক": "a little",
-        "খ": "little",
-        "গ": "less",
-        "ঘ": "the little"
-      },
+      "options": [
+        "a little",
+        "little",
+        "less",
+        "the little"
+      ],
       "answer": "ক",
-      "explanation": "সে তার তৃষ্ণা মেটাতে পেরেছিল, অর্থাৎ জগে কিছুটা পানি ছিল—ইতিবাচক অল্প পরিমাণ বোঝাতে Uncountable Noun-এর পূর্বে 'a little' বসে।"
+      "explanation": "সে তার তৃষ্ণা মেটাতে পেরেছিল, অর্থাৎ জগে কিছুটা পানি ছিল—ইতিবাচক অল্প পরিমাণ বোঝাতে Uncountable Noun-এর পূর্বে 'a little' বসে।",
+      "ans": 0,
+      "correct_answer": "a little"
     },
     {
       "id": 11,
       "question": "Which of the following is singular?",
-      "options": {
-        "ক": "trousers",
-        "খ": "jeans",
-        "গ": "glasses",
-        "ঘ": "athletics"
-      },
+      "options": [
+        "trousers",
+        "jeans",
+        "glasses",
+        "athletics"
+      ],
       "answer": "ঘ",
-      "explanation": "'Index' হলো Singular শব্দ, যার Plural হলো Indices বা Indexes। অপরপক্ষে Data (datum এর plural), Agenda (agendum এর plural) এবং Criteria (criterion এর plural)।"
+      "explanation": "'Index' হলো Singular শব্দ, যার Plural হলো Indices বা Indexes। অপরপক্ষে Data (datum এর plural), Agenda (agendum এর plural) এবং Criteria (criterion এর plural)।",
+      "ans": 3,
+      "correct_answer": "athletics"
     },
     {
       "id": 12,
       "question": "Truth triumphs _____ falsehood.",
-      "options": {
-        "ক": "on",
-        "খ": "over",
-        "গ": "to",
-        "ঘ": "for"
-      },
+      "options": [
+        "on",
+        "over",
+        "to",
+        "for"
+      ],
       "answer": "খ",
-      "explanation": "কোনো কিছুর উপর বিজয়ী হওয়া বোঝাতে Triumph-এর সাথে Preposition 'over' বসে ('triumph over falsehood')।"
+      "explanation": "কোনো কিছুর উপর বিজয়ী হওয়া বোঝাতে Triumph-এর সাথে Preposition 'over' বসে ('triumph over falsehood')।",
+      "ans": 1,
+      "correct_answer": "over"
     },
     {
       "id": 13,
       "question": "The jury _____ unanimous is giving verdict.",
-      "options": {
-        "ক": "was",
-        "খ": "were",
-        "গ": "has",
-        "ঘ": "have"
-      },
+      "options": [
+        "was",
+        "were",
+        "has",
+        "have"
+      ],
       "answer": "ক",
-      "explanation": "Collective Noun 'Jury' যখন ঐক্যবদ্ধ মতামত প্রকাশ করে (unanimous), তখন তা একক সত্ত্বা হিসেবে গণ্য হয় এবং Singular verb 'was' গ্রহণ করে।"
+      "explanation": "Collective Noun 'Jury' যখন ঐক্যবদ্ধ মতামত প্রকাশ করে (unanimous), তখন তা একক সত্ত্বা হিসেবে গণ্য হয় এবং Singular verb 'was' গ্রহণ করে।",
+      "ans": 0,
+      "correct_answer": "was"
     },
     {
       "id": 14,
       "question": "They were sitting by a swimming pool. Here the underlined word is a _",
-      "options": {
-        "ক": "participle",
-        "খ": "infinitive",
-        "গ": "gerund",
-        "ঘ": "finite verb"
-      },
+      "options": [
+        "participle",
+        "infinitive",
+        "gerund",
+        "finite verb"
+      ],
       "answer": "গ",
-      "explanation": "'Swimming pool' = pool for swimming। যে Noun-Adjunct কোনো কিছুর উদ্দেশ্য বা কার্যকারিতা প্রকাশ করে (compound noun-এর ১ম অংশ হিসেবে), তা ব্যাকরণ অনুযায়ী Gerund হিসেবে গণ্য হয়।"
+      "explanation": "'Swimming pool' = pool for swimming। যে Noun-Adjunct কোনো কিছুর উদ্দেশ্য বা কার্যকারিতা প্রকাশ করে (compound noun-এর ১ম অংশ হিসেবে), তা ব্যাকরণ অনুযায়ী Gerund হিসেবে গণ্য হয়।",
+      "ans": 2,
+      "correct_answer": "gerund"
     },
     {
       "id": 15,
       "question": "A stitch is time saves _____",
-      "options": {
-        "ক": "money",
-        "খ": "nine",
-        "গ": "time",
-        "ঘ": "energy"
-      },
+      "options": [
+        "money",
+        "nine",
+        "time",
+        "energy"
+      ],
       "answer": "খ",
-      "explanation": "চিরন্তন ইংরেজি প্রবাদ: 'A stitch in time saves nine' (সময়ের এক ফোঁড় অসময়ের দশ ফোঁড়)।"
+      "explanation": "চিরন্তন ইংরেজি প্রবাদ: 'A stitch in time saves nine' (সময়ের এক ফোঁড় অসময়ের দশ ফোঁড়)।",
+      "ans": 1,
+      "correct_answer": "nine"
     },
     {
       "id": 16,
       "question": "The child saw a flying bird. Here the unlined word is a-",
-      "options": {
-        "ক": "participle",
-        "খ": "gerund",
-        "গ": "infinitive",
-        "ঘ": "finite"
-      },
+      "options": [
+        "participle",
+        "gerund",
+        "infinitive",
+        "finite"
+      ],
       "answer": "ক",
-      "explanation": "'Flying' শব্দটি Verb+ing হয়ে পাখিটির উড়ন্ত অবস্থা প্রকাশকারী Adjective হিসেবে কাজ করছে। এটি একটি Present Participle।"
+      "explanation": "'Flying' শব্দটি Verb+ing হয়ে পাখিটির উড়ন্ত অবস্থা প্রকাশকারী Adjective হিসেবে কাজ করছে। এটি একটি Present Participle।",
+      "ans": 0,
+      "correct_answer": "participle"
     },
     {
       "id": 17,
       "question": "It is necessary that she _____ the meeting.",
-      "options": {
-        "ক": "Joined",
-        "খ": "join",
-        "গ": "joins",
-        "ঘ": "to join"
-      },
+      "options": [
+        "Joined",
+        "join",
+        "joins",
+        "to join"
+      ],
       "answer": "খ",
-      "explanation": "'It is necessary that'-এর পর Subjunctive Mood-এর নিয়মানুযায়ী Subject যাই হোক না কেন Verb-এর Base form (bare infinitive: join) বসে, কোনো 's/es' যুক্ত হয় না।"
+      "explanation": "'It is necessary that'-এর পর Subjunctive Mood-এর নিয়মানুযায়ী Subject যাই হোক না কেন Verb-এর Base form (bare infinitive: join) বসে, কোনো 's/es' যুক্ত হয় না।",
+      "ans": 1,
+      "correct_answer": "join"
     },
     {
       "id": 18,
       "question": "If he helped me, I _____ the work.",
-      "options": {
-        "ক": "did",
-        "খ": "do",
-        "গ": "would do",
-        "ঘ": "would have done"
-      },
+      "options": [
+        "did",
+        "do",
+        "would do",
+        "would have done"
+      ],
       "answer": "গ",
-      "explanation": "এটি 2nd Conditional (If + Past Indefinite 'helped')। এর প্রধান ক্লজে 'Subject + would + base verb' (would do) বসে।"
+      "explanation": "এটি 2nd Conditional (If + Past Indefinite 'helped')। এর প্রধান ক্লজে 'Subject + would + base verb' (would do) বসে।",
+      "ans": 2,
+      "correct_answer": "would do"
     },
     {
       "id": 19,
       "question": "I introduced my friend _____ my parents.",
-      "options": {
-        "ক": "to",
-        "খ": "with",
-        "গ": "between",
-        "ঘ": "among"
-      },
+      "options": [
+        "to",
+        "with",
+        "between",
+        "among"
+      ],
       "answer": "ক",
-      "explanation": "কারও সাথে কাউকে পরিচয় করিয়ে দেওয়া বোঝাতে Introduce-এর সাথে Appropriate Preposition 'to' বসে ('introduce someone to someone')।"
+      "explanation": "কারও সাথে কাউকে পরিচয় করিয়ে দেওয়া বোঝাতে Introduce-এর সাথে Appropriate Preposition 'to' বসে ('introduce someone to someone')।",
+      "ans": 0,
+      "correct_answer": "to"
     },
     {
       "id": 20,
       "question": "Vice results _____ misery.",
-      "options": {
-        "ক": "to",
-        "খ": "for",
-        "গ": "with",
-        "ঘ": "in"
-      },
+      "options": [
+        "to",
+        "for",
+        "with",
+        "in"
+      ],
       "answer": "ঘ",
-      "explanation": "কোনো কিছুতে পর্যবসিত হওয়া বা পরিণতি বয়ে আনা বোঝাতে 'Result in' বসে ('vice results in misery' - পাপে দুঃখ বয়ে আনে)।"
+      "explanation": "কোনো কিছুতে পর্যবসিত হওয়া বা পরিণতি বয়ে আনা বোঝাতে 'Result in' বসে ('vice results in misery' - পাপে দুঃখ বয়ে আনে)।",
+      "ans": 3,
+      "correct_answer": "in"
     }
   ]
 }

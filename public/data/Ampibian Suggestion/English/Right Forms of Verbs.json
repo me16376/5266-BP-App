@@ -8,8 +8,10 @@
       "shine",
       "was shining"
     ],
-    "answer": "was shining",
-    "explanation": "অতীতে একটি কাজ চলার সময় অন্য কাজ সম্পন্ন হওয়া বোঝাতে 'As the sun was shining, I decided to go out' (Past Continuous) বসে।"
+    "answer": "ঘ",
+    "explanation": "অতীতে একটি কাজ চলার সময় অন্য কাজ সম্পন্ন হওয়া বোঝাতে 'As the sun was shining, I decided to go out' (Past Continuous) বসে।",
+    "ans": 3,
+    "correct_answer": "was shining"
   },
   {
     "id": 2,
@@ -20,8 +22,10 @@
       "will be work",
       "have had worked"
     ],
-    "answer": "have worked",
-    "explanation": "Relative pronoun 'who'-এর Antecedent হলো Plural Noun 'employees'; তাই Plural verb 'have worked' বসবে।"
+    "answer": "ক",
+    "explanation": "Relative pronoun 'who'-এর Antecedent হলো Plural Noun 'employees'; তাই Plural verb 'have worked' বসবে।",
+    "ans": 0,
+    "correct_answer": "have worked"
   },
   {
     "id": 3,
@@ -32,8 +36,10 @@
       "Mathematics teacher",
       "Mathematic’s teacher"
     ],
-    "answer": "Mathematics teachers",
-    "explanation": "'Mathematics' পাঠ্যবিষয়ের নাম অপরিবর্তিত থাকে এবং Plural Noun হিসেবে 'Mathematics teachers' সঠিক রূপ।"
+    "answer": "খ",
+    "explanation": "'Mathematics' পাঠ্যবিষয়ের নাম অপরিবর্তিত থাকে এবং Plural Noun হিসেবে 'Mathematics teachers' সঠিক রূপ।",
+    "ans": 1,
+    "correct_answer": "Mathematics teachers"
   },
   {
     "id": 4,
@@ -44,8 +50,10 @@
       "are escaping",
       "have been escaping"
     ],
-    "answer": "had escaped",
-    "explanation": "অনুসন্ধান পরিচালনার পূর্বেই অপরাধীরা পালিয়ে গিয়েছিল বোঝাতে অতীততর ঘটনা হিসেবে Past Perfect 'had escaped' বসে।"
+    "answer": "খ",
+    "explanation": "অনুসন্ধান পরিচালনার পূর্বেই অপরাধীরা পালিয়ে গিয়েছিল বোঝাতে অতীততর ঘটনা হিসেবে Past Perfect 'had escaped' বসে।",
+    "ans": 1,
+    "correct_answer": "had escaped"
   },
   {
     "id": 5,
@@ -56,8 +64,10 @@
       "to have passed his driver's test",
       "passing his driver's test"
     ],
-    "answer": "to have passed his driver's test",
-    "explanation": "প্রথমবারের চালনায় ব্যর্থ হওয়া বোঝাতে 'fails to have passed his driver's test' কাঠামোটি গৃহীত হয়েছে।"
+    "answer": "গ",
+    "explanation": "প্রথমবারের চালনায় ব্যর্থ হওয়া বোঝাতে 'fails to have passed his driver's test' কাঠামোটি গৃহীত হয়েছে।",
+    "ans": 2,
+    "correct_answer": "to have passed his driver's test"
   },
   {
     "id": 6,
@@ -68,8 +78,10 @@
       "fleed",
       "had fled"
     ],
-    "answer": "fled",
-    "explanation": "'As soon as'-এর উভয় ক্লজই Past Simple Tense হয়; 'flee'-এর Past রূপ হলো 'fled'।"
+    "answer": "খ",
+    "explanation": "'As soon as'-এর উভয় ক্লজই Past Simple Tense হয়; 'flee'-এর Past রূপ হলো 'fled'।",
+    "ans": 1,
+    "correct_answer": "fled"
   },
   {
     "id": 7,
@@ -80,8 +92,10 @@
       "Despite of being",
       "Despite the fact of"
     ],
-    "answer": "Despite being",
-    "explanation": "'Despite' একটি Preposition যার পরে Noun/Gerund বসে (Despite being a good student); 'Despite of' ব্যাকরণগতভাবে ভুল।"
+    "answer": "ক",
+    "explanation": "'Despite' একটি Preposition যার পরে Noun/Gerund বসে (Despite being a good student); 'Despite of' ব্যাকরণগতভাবে ভুল।",
+    "ans": 0,
+    "correct_answer": "Despite being"
   },
   {
     "id": 8,
@@ -92,8 +106,10 @@
       "ran perfectly",
       "run perfect"
     ],
-    "answer": "ran perfectly",
-    "explanation": "ক্রিয়া 'ran'-কে বিশেষিত করতে Adverb রূপ 'perfectly' বসবে: 'ran perfectly'।"
+    "answer": "গ",
+    "explanation": "ক্রিয়া 'ran'-কে বিশেষিত করতে Adverb রূপ 'perfectly' বসবে: 'ran perfectly'।",
+    "ans": 2,
+    "correct_answer": "ran perfectly"
   },
   {
     "id": 9,
@@ -104,8 +120,10 @@
       "has broken",
       "was broken"
     ],
-    "answer": "broke",
-    "explanation": "অতীত নির্দেশক সময় 'last night' থাকায় Past Simple Tense 'broke' (break out -> broke out) বসবে।"
+    "answer": "ক",
+    "explanation": "অতীত নির্দেশক সময় 'last night' থাকায় Past Simple Tense 'broke' (break out -> broke out) বসবে।",
+    "ans": 0,
+    "correct_answer": "broke"
   },
   {
     "id": 10,
@@ -116,8 +134,10 @@
       "had left",
       "will leave"
     ],
-    "answer": "had left",
-    "explanation": "'Before'-এর পূর্ববর্তী ক্লজে Past Perfect Tense 'had left' বসে।"
+    "answer": "গ",
+    "explanation": "'Before'-এর পূর্ববর্তী ক্লজে Past Perfect Tense 'had left' বসে।",
+    "ans": 2,
+    "correct_answer": "had left"
   },
   {
     "id": 11,
@@ -128,8 +148,10 @@
       "that i can not buy",
       "for me buy"
     ],
-    "answer": "to buy",
-    "explanation": "'Too + adjective + to + base verb' নিয়মানুযায়ী 'too costly to buy' সঠিক।"
+    "answer": "ক",
+    "explanation": "'Too + adjective + to + base verb' নিয়মানুযায়ী 'too costly to buy' সঠিক।",
+    "ans": 0,
+    "correct_answer": "to buy"
   },
   {
     "id": 12,
@@ -140,8 +162,10 @@
       "doing",
       "did"
     ],
-    "answer": "doing",
-    "explanation": "'Cannot help' বা 'could not help'-এর পর পরবর্তী ক্রিয়ার সাথে '-ing' যুক্ত হয়: 'cannot help doing it'।"
+    "answer": "গ",
+    "explanation": "'Cannot help' বা 'could not help'-এর পর পরবর্তী ক্রিয়ার সাথে '-ing' যুক্ত হয়: 'cannot help doing it'।",
+    "ans": 2,
+    "correct_answer": "doing"
   },
   {
     "id": 13,
@@ -152,8 +176,10 @@
       "have acted",
       "could act"
     ],
-    "answer": "acted",
-    "explanation": "'It is high time'-এর পর Subject থাকলে Past Simple Tense ব্যবহৃত হয়: 'It is high time we acted on the matter'।"
+    "answer": "খ",
+    "explanation": "'It is high time'-এর পর Subject থাকলে Past Simple Tense ব্যবহৃত হয়: 'It is high time we acted on the matter'।",
+    "ans": 1,
+    "correct_answer": "acted"
   },
   {
     "id": 14,
@@ -164,8 +190,10 @@
       "many",
       "the number of"
     ],
-    "answer": "the number of",
-    "explanation": "নির্দিষ্ট সংখ্যা বা পরিসংখ্যান নির্দেশ করতে 'The number of' বসে এবং এরপরে Plural Noun থাকা সত্ত্বেও Verb Singular হয়।"
+    "answer": "ঘ",
+    "explanation": "নির্দিষ্ট সংখ্যা বা পরিসংখ্যান নির্দেশ করতে 'The number of' বসে এবং এরপরে Plural Noun থাকা সত্ত্বেও Verb Singular হয়।",
+    "ans": 3,
+    "correct_answer": "the number of"
   },
   {
     "id": 15,
@@ -176,8 +204,10 @@
       "Asleep",
       "Is being asleep"
     ],
-    "answer": "Is sleeping",
-    "explanation": "'While' যুক্ত ক্লজে চলমান কাজ বোঝাতে Continuous Tense বসে: 'while your father is sleeping'।"
+    "answer": "ক",
+    "explanation": "'While' যুক্ত ক্লজে চলমান কাজ বোঝাতে Continuous Tense বসে: 'while your father is sleeping'।",
+    "ans": 0,
+    "correct_answer": "Is sleeping"
   },
   {
     "id": 16,
@@ -188,8 +218,10 @@
       "playing",
       "be played"
     ],
-    "answer": "play",
-    "explanation": "'Did' সহায়ক ক্রিয়া থাকায় 'use to' বসে এবং এরপরে Verb-এর Base form 'play' বসে (Did you use to play...)।"
+    "answer": "ক",
+    "explanation": "'Did' সহায়ক ক্রিয়া থাকায় 'use to' বসে এবং এরপরে Verb-এর Base form 'play' বসে (Did you use to play...)।",
+    "ans": 0,
+    "correct_answer": "play"
   },
   {
     "id": 17,
@@ -200,8 +232,10 @@
       "is speaking",
       "is spoken"
     ],
-    "answer": "is spoken",
-    "explanation": "ইংরেজি ভাষা বিশ্বজুড়ে বলা হয়—Passive ভাব প্রকাশে Present Simple Passive 'is spoken' বসবে।"
+    "answer": "ঘ",
+    "explanation": "ইংরেজি ভাষা বিশ্বজুড়ে বলা হয়—Passive ভাব প্রকাশে Present Simple Passive 'is spoken' বসবে।",
+    "ans": 3,
+    "correct_answer": "is spoken"
   },
   {
     "id": 18,
@@ -212,8 +246,10 @@
       "are",
       "was"
     ],
-    "answer": "is",
-    "explanation": "নির্দিষ্ট পরিমাণ ওজন, দৈর্ঘ্য বা অর্থ সমষ্টিগতভাবে একবচন (Singular) বিবেচিত হওয়ায় Verb 'is' বসবে।"
+    "answer": "ক",
+    "explanation": "নির্দিষ্ট পরিমাণ ওজন, দৈর্ঘ্য বা অর্থ সমষ্টিগতভাবে একবচন (Singular) বিবেচিত হওয়ায় Verb 'is' বসবে।",
+    "ans": 0,
+    "correct_answer": "is"
   },
   {
     "id": 19,
@@ -224,8 +260,10 @@
       "I and you",
       "you're and I'm"
     ],
-    "answer": "you and me",
-    "explanation": "Preposition 'Between'-এর পর Pronoun-এর Objective রূপ বসে: 'Between you and me'।"
+    "answer": "খ",
+    "explanation": "Preposition 'Between'-এর পর Pronoun-এর Objective রূপ বসে: 'Between you and me'।",
+    "ans": 1,
+    "correct_answer": "you and me"
   },
   {
     "id": 20,
@@ -236,8 +274,10 @@
       "has retired",
       "retires"
     ],
-    "answer": "Retired",
-    "explanation": "'Before'-এর পূর্বের ক্লজ Past Perfect হলে পরের ক্লজ Past Simple হয়: 'before he retired'।"
+    "answer": "ক",
+    "explanation": "'Before'-এর পূর্বের ক্লজ Past Perfect হলে পরের ক্লজ Past Simple হয়: 'before he retired'।",
+    "ans": 0,
+    "correct_answer": "Retired"
   },
   {
     "id": 21,
@@ -248,8 +288,10 @@
       "diplomatic",
       "impolite"
     ],
-    "answer": "diplomatic",
-    "explanation": "মানুষের সাথে দক্ষ ও বিচক্ষণ আচরণ প্রকাশে Adjective 'diplomatic' (কূটনৈতিক/কুশলী) সঠিক।"
+    "answer": "গ",
+    "explanation": "মানুষের সাথে দক্ষ ও বিচক্ষণ আচরণ প্রকাশে Adjective 'diplomatic' (কূটনৈতিক/কুশলী) সঠিক।",
+    "ans": 2,
+    "correct_answer": "diplomatic"
   },
   {
     "id": 22,
@@ -260,8 +302,10 @@
       "would freeze",
       "froze"
     ],
-    "answer": "freezes",
-    "explanation": "চিরন্তন বৈজ্ঞানিক সত্য (Zero Conditional) প্রকাশে উভয় ক্লজেই Present Simple বসে: 'When water freezes it turns into ice'।"
+    "answer": "ক",
+    "explanation": "চিরন্তন বৈজ্ঞানিক সত্য (Zero Conditional) প্রকাশে উভয় ক্লজেই Present Simple বসে: 'When water freezes it turns into ice'।",
+    "ans": 0,
+    "correct_answer": "freezes"
   },
   {
     "id": 23,
@@ -272,8 +316,10 @@
       "was",
       "were"
     ],
-    "answer": "were",
-    "explanation": "অবাস্তব বা অসম্ভব আকাঙ্ক্ষা প্রকাশে 'If'-ক্লজে Be-verb হিসেবে সর্বদা 'were' বসে: 'If I were a king!'।"
+    "answer": "ঘ",
+    "explanation": "অবাস্তব বা অসম্ভব আকাঙ্ক্ষা প্রকাশে 'If'-ক্লজে Be-verb হিসেবে সর্বদা 'were' বসে: 'If I were a king!'।",
+    "ans": 3,
+    "correct_answer": "were"
   },
   {
     "id": 24,
@@ -284,8 +330,10 @@
       "to seeing",
       "meet"
     ],
-    "answer": "to seeing",
-    "explanation": "'Look forward to' ফ্রেজের পর পরবর্তী ক্রিয়ার সাথে '-ing' যুক্ত হয়: 'looking forward to seeing you'।"
+    "answer": "গ",
+    "explanation": "'Look forward to' ফ্রেজের পর পরবর্তী ক্রিয়ার সাথে '-ing' যুক্ত হয়: 'looking forward to seeing you'।",
+    "ans": 2,
+    "correct_answer": "to seeing"
   },
   {
     "id": 25,
@@ -296,8 +344,10 @@
       "had seen",
       "have seen"
     ],
-    "answer": "saw",
-    "explanation": "'Since'-এর প্রথম অংশ Present Tense হলে দ্বিতীয় অংশ Past Simple Tense হয়: 'since you saw him last'।"
+    "answer": "খ",
+    "explanation": "'Since'-এর প্রথম অংশ Present Tense হলে দ্বিতীয় অংশ Past Simple Tense হয়: 'since you saw him last'।",
+    "ans": 1,
+    "correct_answer": "saw"
   },
   {
     "id": 26,
@@ -308,8 +358,10 @@
       "is",
       "has"
     ],
-    "answer": "are",
-    "explanation": "'The + adjective' (The poor) সমগ্র শ্রেণিকে বহুবচনে নির্দেশ করায় Plural verb 'are' বসে।"
+    "answer": "ক",
+    "explanation": "'The + adjective' (The poor) সমগ্র শ্রেণিকে বহুবচনে নির্দেশ করায় Plural verb 'are' বসে।",
+    "ans": 0,
+    "correct_answer": "are"
   },
   {
     "id": 27,
@@ -320,8 +372,10 @@
       "work",
       "will have worked"
     ],
-    "answer": "will be working",
-    "explanation": "ভবিষ্যতের নির্দিষ্ট সময়ে কাজ চলতে থাকবে বোঝাতে Future Continuous Tense 'will be working' বসবে।"
+    "answer": "খ",
+    "explanation": "ভবিষ্যতের নির্দিষ্ট সময়ে কাজ চলতে থাকবে বোঝাতে Future Continuous Tense 'will be working' বসবে।",
+    "ans": 1,
+    "correct_answer": "will be working"
   },
   {
     "id": 28,
@@ -332,8 +386,10 @@
       "have",
       "were having"
     ],
-    "answer": "were having",
-    "explanation": "অতীতকালে একটি কাজ চলার সময় অন্য ঘটনা ঘটা বোঝাতে: 'We were having dinner when the phone rang'।"
+    "answer": "ঘ",
+    "explanation": "অতীতকালে একটি কাজ চলার সময় অন্য ঘটনা ঘটা বোঝাতে: 'We were having dinner when the phone rang'।",
+    "ans": 3,
+    "correct_answer": "were having"
   },
   {
     "id": 29,
@@ -344,8 +400,10 @@
       "like to",
       "would like to"
     ],
-    "answer": "would like to",
-    "explanation": "বিনম্র ইচ্ছা বা অনুরোধ প্রকাশে 'would like to' ব্যবহৃত হয়: 'I would like to see the manager'।"
+    "answer": "ঘ",
+    "explanation": "বিনম্র ইচ্ছা বা অনুরোধ প্রকাশে 'would like to' ব্যবহৃত হয়: 'I would like to see the manager'।",
+    "ans": 3,
+    "correct_answer": "would like to"
   },
   {
     "id": 30,
@@ -356,8 +414,10 @@
       "will",
       "would"
     ],
-    "answer": "should",
-    "explanation": "'Lest' যুক্ত ক্লজে Subject-এর পর 'should + base verb' বসে: 'lest he should miss the train'।"
+    "answer": "খ",
+    "explanation": "'Lest' যুক্ত ক্লজে Subject-এর পর 'should + base verb' বসে: 'lest he should miss the train'।",
+    "ans": 1,
+    "correct_answer": "should"
   },
   {
     "id": 31,
@@ -368,8 +428,10 @@
       "was floating",
       "had floated"
     ],
-    "answer": "floating",
-    "explanation": "Verb of perception 'watch'-এর পর চলমান অবস্থা বোঝাতে Present Participle 'floating' বসে।"
+    "answer": "খ",
+    "explanation": "Verb of perception 'watch'-এর পর চলমান অবস্থা বোঝাতে Present Participle 'floating' বসে।",
+    "ans": 1,
+    "correct_answer": "floating"
   },
   {
     "id": 32,
@@ -380,8 +442,10 @@
       "play",
       "of playing"
     ],
-    "answer": "playing",
-    "explanation": "Phrasal Verb 'give up'-এর পর Verb-এর Gerund রূপ বসে: 'gave up playing football'।"
+    "answer": "খ",
+    "explanation": "Phrasal Verb 'give up'-এর পর Verb-এর Gerund রূপ বসে: 'gave up playing football'।",
+    "ans": 1,
+    "correct_answer": "playing"
   },
   {
     "id": 33,
@@ -392,8 +456,10 @@
       "In",
       "Since"
     ],
-    "answer": "Since",
-    "explanation": "নির্দিষ্ট প্রারম্ভিক সময় (Friday last) নির্দেশ করতে 'since' বসে: 'since Friday last'।"
+    "answer": "ঘ",
+    "explanation": "নির্দিষ্ট প্রারম্ভিক সময় (Friday last) নির্দেশ করতে 'since' বসে: 'since Friday last'।",
+    "ans": 3,
+    "correct_answer": "Since"
   },
   {
     "id": 34,
@@ -404,8 +470,10 @@
       "in giving up",
       "from giving up"
     ],
-    "answer": "to give up",
-    "explanation": "'Advise + object + to + base verb' গঠনে 'advised me to give up smoking' সঠিক।"
+    "answer": "খ",
+    "explanation": "'Advise + object + to + base verb' গঠনে 'advised me to give up smoking' সঠিক।",
+    "ans": 1,
+    "correct_answer": "to give up"
   },
   {
     "id": 35,
@@ -416,8 +484,10 @@
       "visit",
       "visiting"
     ],
-    "answer": "visiting",
-    "explanation": "'With a view to'-এর পর সর্বদা Verb-এর সাথে 'ing' যুক্ত হয় (Gerund)। তাই সঠিক রূপ 'visiting'।"
+    "answer": "ঘ",
+    "explanation": "'With a view to'-এর পর সর্বদা Verb-এর সাথে 'ing' যুক্ত হয় (Gerund)। তাই সঠিক রূপ 'visiting'।",
+    "ans": 3,
+    "correct_answer": "visiting"
   },
   {
     "id": 36,
@@ -428,8 +498,10 @@
       "kept",
       "to keep"
     ],
-    "answer": "to keep",
-    "explanation": "'Fail'-এর পর Infinitive (to + verb) বসে: 'He failed to keep his promise'।"
+    "answer": "ঘ",
+    "explanation": "'Fail'-এর পর Infinitive (to + verb) বসে: 'He failed to keep his promise'।",
+    "ans": 3,
+    "correct_answer": "to keep"
   },
   {
     "id": 37,
@@ -440,8 +512,10 @@
       "drama",
       "works"
     ],
-    "answer": "works",
-    "explanation": "কোনো লেখকের সাহিত্যকর্ম বা রচনাবলী বোঝাতে Plural Noun 'works' ব্যবহৃত হয়।"
+    "answer": "ঘ",
+    "explanation": "কোনো লেখকের সাহিত্যকর্ম বা রচনাবলী বোঝাতে Plural Noun 'works' ব্যবহৃত হয়।",
+    "ans": 3,
+    "correct_answer": "works"
   },
   {
     "id": 38,
@@ -452,8 +526,10 @@
       "be",
       "have"
     ],
-    "answer": "been",
-    "explanation": "অতীতে কোনো ঘটনা ঘটার অভিজ্ঞতা জানতে 'have you been' বা 'had' কাঠামো প্রযুক্ত হয়।"
+    "answer": "ক",
+    "explanation": "অতীতে কোনো ঘটনা ঘটার অভিজ্ঞতা জানতে 'have you been' বা 'had' কাঠামো প্রযুক্ত হয়।",
+    "ans": 0,
+    "correct_answer": "been"
   },
   {
     "id": 39,
@@ -464,8 +540,10 @@
       "quiet",
       "quite"
     ],
-    "answer": "too",
-    "explanation": "'Too... to' নেতিবাচক গঠন: 'He is too weak to go to office'।"
+    "answer": "খ",
+    "explanation": "'Too... to' নেতিবাচক গঠন: 'He is too weak to go to office'।",
+    "ans": 1,
+    "correct_answer": "too"
   },
   {
     "id": 40,
@@ -476,8 +554,10 @@
       "too high",
       "so high"
     ],
-    "answer": "too high",
-    "explanation": "'Too... to' গঠন অনুযায়ী 'His fever is too high to ignore' সঠিক।"
+    "answer": "গ",
+    "explanation": "'Too... to' গঠন অনুযায়ী 'His fever is too high to ignore' সঠিক।",
+    "ans": 2,
+    "correct_answer": "too high"
   },
   {
     "id": 41,
@@ -488,8 +568,10 @@
       "whether",
       "like"
     ],
-    "answer": "as if",
-    "explanation": "'As if'-এর পূর্বে Present Tense এবং পরে অবাস্তব কল্পনা বোঝাতে 'were' বসে: 'He speaks as if he were a scientist'।"
+    "answer": "খ",
+    "explanation": "'As if'-এর পূর্বে Present Tense এবং পরে অবাস্তব কল্পনা বোঝাতে 'were' বসে: 'He speaks as if he were a scientist'।",
+    "ans": 1,
+    "correct_answer": "as if"
   },
   {
     "id": 42,
@@ -500,8 +582,10 @@
       "is reading",
       "being reading"
     ],
-    "answer": "reading",
-    "explanation": "'Finish' ক্রিয়ার পর পরবর্তী ক্রিয়ার Gerund (-ing) রূপ ব্যবহৃত হয়: 'finished reading the book'।"
+    "answer": "ক",
+    "explanation": "'Finish' ক্রিয়ার পর পরবর্তী ক্রিয়ার Gerund (-ing) রূপ ব্যবহৃত হয়: 'finished reading the book'।",
+    "ans": 0,
+    "correct_answer": "reading"
   },
   {
     "id": 43,
@@ -512,8 +596,10 @@
       "go",
       "visit"
     ],
-    "answer": "been",
-    "explanation": "কোথাও গিয়ে থাকার অভিজ্ঞতা প্রকাশ করতে Present Perfect Tense-এ 'been to' বসে: 'Have you ever been to London?'।"
+    "answer": "ক",
+    "explanation": "কোথাও গিয়ে থাকার অভিজ্ঞতা প্রকাশ করতে Present Perfect Tense-এ 'been to' বসে: 'Have you ever been to London?'।",
+    "ans": 0,
+    "correct_answer": "been"
   },
   {
     "id": 44,
@@ -524,8 +610,10 @@
       "will have begun",
       "would begun"
     ],
-    "answer": "will have begun",
-    "explanation": "'By the time + Present Simple' থাকলে অপর ক্লজে Future Perfect Tense 'will have begun' বসে।"
+    "answer": "গ",
+    "explanation": "'By the time + Present Simple' থাকলে অপর ক্লজে Future Perfect Tense 'will have begun' বসে।",
+    "ans": 2,
+    "correct_answer": "will have begun"
   },
   {
     "id": 45,
@@ -536,8 +624,10 @@
       "made",
       "makes"
     ],
-    "answer": "making",
-    "explanation": "'Avoid'-এর পর সর্বদা Gerund (-ing) রূপ ব্যবহৃত হয়: 'avoided making the same mistake'।"
+    "answer": "খ",
+    "explanation": "'Avoid'-এর পর সর্বদা Gerund (-ing) রূপ ব্যবহৃত হয়: 'avoided making the same mistake'।",
+    "ans": 1,
+    "correct_answer": "making"
   },
   {
     "id": 46,
@@ -548,8 +638,10 @@
       "he had been mad",
       "he is mad"
     ],
-    "answer": "he were mad",
-    "explanation": "'As if'-এর পূর্বে Present Simple এবং পরে অবাস্তব ভাব বোঝাতে 'were' বসে: 'He talks as if he were mad'।"
+    "answer": "খ",
+    "explanation": "'As if'-এর পূর্বে Present Simple এবং পরে অবাস্তব ভাব বোঝাতে 'were' বসে: 'He talks as if he were mad'।",
+    "ans": 1,
+    "correct_answer": "he were mad"
   },
   {
     "id": 47,
@@ -560,8 +652,10 @@
       "incase",
       "if"
     ],
-    "answer": "in case",
-    "explanation": "সতর্কতামূলক ব্যবস্থা বা সম্ভাব্যতার শর্ত বোঝাতে 'in case' বসে: 'take an umbrella in case it rains'।"
+    "answer": "ক",
+    "explanation": "সতর্কতামূলক ব্যবস্থা বা সম্ভাব্যতার শর্ত বোঝাতে 'in case' বসে: 'take an umbrella in case it rains'।",
+    "ans": 0,
+    "correct_answer": "in case"
   },
   {
     "id": 48,
@@ -572,8 +666,10 @@
       "try",
       "afford"
     ],
-    "answer": "afford",
-    "explanation": "ব্যয়ভার বহন করার সামর্থ্য বোঝাতে 'afford to pay' ব্যবহৃত হয়।"
+    "answer": "ঘ",
+    "explanation": "ব্যয়ভার বহন করার সামর্থ্য বোঝাতে 'afford to pay' ব্যবহৃত হয়।",
+    "ans": 3,
+    "correct_answer": "afford"
   },
   {
     "id": 49,
@@ -584,8 +680,10 @@
       "for walking",
       "walk"
     ],
-    "answer": "for a walk",
-    "explanation": "হাঁটতে বের হওয়া বোঝাতে ইংরেজি Idiomatic প্রকাশ হলো 'go for a walk'।"
+    "answer": "খ",
+    "explanation": "হাঁটতে বের হওয়া বোঝাতে ইংরেজি Idiomatic প্রকাশ হলো 'go for a walk'।",
+    "ans": 1,
+    "correct_answer": "for a walk"
   },
   {
     "id": 50,
@@ -596,8 +694,10 @@
       "turned down",
       "denied"
     ],
-    "answer": "denied",
-    "explanation": "পূর্বে কোনো কাজের সাথে সম্পৃক্ততা অস্বীকার করা বোঝাতে 'denied' বসে।"
+    "answer": "ঘ",
+    "explanation": "পূর্বে কোনো কাজের সাথে সম্পৃক্ততা অস্বীকার করা বোঝাতে 'denied' বসে।",
+    "ans": 3,
+    "correct_answer": "denied"
   },
   {
     "id": 51,
@@ -608,8 +708,10 @@
       "went",
       "gone"
     ],
-    "answer": "go",
-    "explanation": "Subjunctive verb 'suggest that'-এর পরবর্তী ক্লজে Subject যাই হোক না কেন Verb-এর Base form 'go' বসে।"
+    "answer": "খ",
+    "explanation": "Subjunctive verb 'suggest that'-এর পরবর্তী ক্লজে Subject যাই হোক না কেন Verb-এর Base form 'go' বসে।",
+    "ans": 1,
+    "correct_answer": "go"
   },
   {
     "id": 52,
@@ -620,8 +722,10 @@
       "Were",
       "Was"
     ],
-    "answer": "Had",
-    "explanation": "'I wish'-এর পর অসম্ভব ইচ্ছা প্রকাশে Past Tense হিসেবে 'had' বসে: 'I wish I had the wings of a bird'।"
+    "answer": "খ",
+    "explanation": "'I wish'-এর পর অসম্ভব ইচ্ছা প্রকাশে Past Tense হিসেবে 'had' বসে: 'I wish I had the wings of a bird'।",
+    "ans": 1,
+    "correct_answer": "Had"
   },
   {
     "id": 53,
@@ -632,8 +736,10 @@
       "shall solve",
       "could solve"
     ],
-    "answer": "could solve",
-    "explanation": "'I wish'-এর পরবর্তী ক্লজে সক্ষমতা বোঝাতে 'could + base verb' বসে: 'I wish you could solve the problem'।"
+    "answer": "ঘ",
+    "explanation": "'I wish'-এর পরবর্তী ক্লজে সক্ষমতা বোঝাতে 'could + base verb' বসে: 'I wish you could solve the problem'।",
+    "ans": 3,
+    "correct_answer": "could solve"
   },
   {
     "id": 54,
@@ -644,8 +750,10 @@
       "Clear evidence",
       "A cement Mixer"
     ],
-    "answer": "Clear evidence",
-    "explanation": "'Concrete proof' ফ্রেজটির অর্থ হলো সন্দেহাতীত বা সুস্পষ্ট প্রমাণ ('Clear evidence')।"
+    "answer": "গ",
+    "explanation": "'Concrete proof' ফ্রেজটির অর্থ হলো সন্দেহাতীত বা সুস্পষ্ট প্রমাণ ('Clear evidence')।",
+    "ans": 2,
+    "correct_answer": "Clear evidence"
   },
   {
     "id": 55,
@@ -656,8 +764,10 @@
       "who",
       "whom"
     ],
-    "answer": "whom",
-    "explanation": "Verb 'to sing to'-এর Prepositional Object নির্দেশ করতে Relative Pronoun 'whom' ব্যবহৃত হয়।"
+    "answer": "ঘ",
+    "explanation": "Verb 'to sing to'-এর Prepositional Object নির্দেশ করতে Relative Pronoun 'whom' ব্যবহৃত হয়।",
+    "ans": 3,
+    "correct_answer": "whom"
   },
   {
     "id": 56,
@@ -668,8 +778,10 @@
       "after",
       "till"
     ],
-    "answer": "since",
-    "explanation": "নির্দিষ্ট সূচনাকাল (2000 সাল) নির্দেশ করতে 'since' বসে: 'living in Dhaka since 2000'।"
+    "answer": "ক",
+    "explanation": "নির্দিষ্ট সূচনাকাল (2000 সাল) নির্দেশ করতে 'since' বসে: 'living in Dhaka since 2000'।",
+    "ans": 0,
+    "correct_answer": "since"
   },
   {
     "id": 57,
@@ -680,8 +792,10 @@
       "the driving of a car",
       "when we drive a car"
     ],
-    "answer": "driving a car",
-    "explanation": "তুলনার সামঞ্জস্য রক্ষায় (Parallelism): 'riding a bicycle is similar to driving a car' বসে।"
+    "answer": "ক",
+    "explanation": "তুলনার সামঞ্জস্য রক্ষায় (Parallelism): 'riding a bicycle is similar to driving a car' বসে।",
+    "ans": 0,
+    "correct_answer": "driving a car"
   },
   {
     "id": 58,
@@ -692,8 +806,10 @@
       "lose",
       "lost"
     ],
-    "answer": "lose",
-    "explanation": "পথ হারানো অর্থে 'lose one's way' ব্যবহৃত হয় (Loose = আলগা, Loss = ক্ষতি)।"
+    "answer": "গ",
+    "explanation": "পথ হারানো অর্থে 'lose one's way' ব্যবহৃত হয় (Loose = আলগা, Loss = ক্ষতি)।",
+    "ans": 2,
+    "correct_answer": "lose"
   },
   {
     "id": 59,
@@ -704,8 +820,10 @@
       "heard",
       "am heard"
     ],
-    "answer": "heard",
-    "explanation": "'As soon as'-এর উভয় ক্লজেই Past Simple Tense বসে: 'opened the door as soon as I heard the bell'।"
+    "answer": "গ",
+    "explanation": "'As soon as'-এর উভয় ক্লজেই Past Simple Tense বসে: 'opened the door as soon as I heard the bell'।",
+    "ans": 2,
+    "correct_answer": "heard"
   },
   {
     "id": 60,
@@ -716,8 +834,10 @@
       "you would realize",
       "you have realized"
     ],
-    "answer": "you realized",
-    "explanation": "'It's time'-এর পর Subject থাকলে Past Simple Tense ব্যবহৃত হয়: 'It's time you realized your mistakes'।"
+    "answer": "ক",
+    "explanation": "'It's time'-এর পর Subject থাকলে Past Simple Tense ব্যবহৃত হয়: 'It's time you realized your mistakes'।",
+    "ans": 0,
+    "correct_answer": "you realized"
   },
   {
     "id": 61,
@@ -728,8 +848,10 @@
       "in cookingly",
       "cooking"
     ],
-    "answer": "cooked",
-    "explanation": "Causative have: 'have + object + V3' গঠনে চাল রান্না করানো অর্থে 'had my rice cooked' বসে।"
+    "answer": "খ",
+    "explanation": "Causative have: 'have + object + V3' গঠনে চাল রান্না করানো অর্থে 'had my rice cooked' বসে।",
+    "ans": 1,
+    "correct_answer": "cooked"
   },
   {
     "id": 62,
@@ -740,8 +862,10 @@
       "get into",
       "were in"
     ],
-    "answer": "were in",
-    "explanation": "কারও পরিস্থিতিতে থাকার কল্পনা প্রকাশে 'were in your shoes' ফ্রেজটি ব্যবহৃত হয়।"
+    "answer": "ঘ",
+    "explanation": "কারও পরিস্থিতিতে থাকার কল্পনা প্রকাশে 'were in your shoes' ফ্রেজটি ব্যবহৃত হয়।",
+    "ans": 3,
+    "correct_answer": "were in"
   },
   {
     "id": 63,
@@ -752,8 +876,10 @@
       "Play",
       "Playing"
     ],
-    "answer": "of playing",
-    "explanation": "অভ্যাস ত্যাগের অর্থে 'give up'-এর পর Gerund রূপ বসে: 'gave up of playing / playing'।"
+    "answer": "খ",
+    "explanation": "অভ্যাস ত্যাগের অর্থে 'give up'-এর পর Gerund রূপ বসে: 'gave up of playing / playing'।",
+    "ans": 1,
+    "correct_answer": "of playing"
   },
   {
     "id": 64,
@@ -764,8 +890,10 @@
       "gone",
       "been to"
     ],
-    "answer": "been to",
-    "explanation": "কোথাও কখনোই না যাওয়ার অভিজ্ঞতা প্রকাশে 'never been to' বসে।"
+    "answer": "ঘ",
+    "explanation": "কোথাও কখনোই না যাওয়ার অভিজ্ঞতা প্রকাশে 'never been to' বসে।",
+    "ans": 3,
+    "correct_answer": "been to"
   },
   {
     "id": 65,
@@ -776,8 +904,10 @@
       "driving",
       "to be driving"
     ],
-    "answer": "driving",
-    "explanation": "'Mind' বা 'Would you mind'-এর পর ক্রিয়ার Gerund রূপ বসে: 'don't mind driving'।"
+    "answer": "গ",
+    "explanation": "'Mind' বা 'Would you mind'-এর পর ক্রিয়ার Gerund রূপ বসে: 'don't mind driving'।",
+    "ans": 2,
+    "correct_answer": "driving"
   },
   {
     "id": 66,
@@ -788,8 +918,10 @@
       "Would that I am a king !",
       "If I could be a king !"
     ],
-    "answer": "Would that I were a King !",
-    "explanation": "'I wish I were a king!'-এর সমার্থক রূপ হলো 'Would that I were a King !'।"
+    "answer": "ক",
+    "explanation": "'I wish I were a king!'-এর সমার্থক রূপ হলো 'Would that I were a King !'।",
+    "ans": 0,
+    "correct_answer": "Would that I were a King !"
   },
   {
     "id": 67,
@@ -800,8 +932,10 @@
       "am never gone",
       "am never been"
     ],
-    "answer": "have never been",
-    "explanation": "বিদেশ ভ্রমণের অভিজ্ঞতা না থাকা প্রকাশে 'have never been to a foreign country' সঠিক।"
+    "answer": "খ",
+    "explanation": "বিদেশ ভ্রমণের অভিজ্ঞতা না থাকা প্রকাশে 'have never been to a foreign country' সঠিক।",
+    "ans": 1,
+    "correct_answer": "have never been"
   },
   {
     "id": 68,
@@ -812,8 +946,10 @@
       "turn",
       "come"
     ],
-    "answer": "come",
-    "explanation": "Causative verb 'make'-এর পর Base verb বসে: 'make your dreams come true'।"
+    "answer": "ঘ",
+    "explanation": "Causative verb 'make'-এর পর Base verb বসে: 'make your dreams come true'।",
+    "ans": 3,
+    "correct_answer": "come"
   },
   {
     "id": 69,
@@ -824,8 +960,10 @@
       "you would realize",
       "you have realized"
     ],
-    "answer": "you realized",
-    "explanation": "'It is time'-এর পর Subject যুক্ত থাকলে Past Simple Tense 'you realized' বসে।"
+    "answer": "ক",
+    "explanation": "'It is time'-এর পর Subject যুক্ত থাকলে Past Simple Tense 'you realized' বসে।",
+    "ans": 0,
+    "correct_answer": "you realized"
   },
   {
     "id": 70,
@@ -836,8 +974,10 @@
       "had",
       "having"
     ],
-    "answer": "had",
-    "explanation": "Present Perfect Tense-এ রাতের খাবার গ্রহণ অর্থে: 'have had my supper'।"
+    "answer": "গ",
+    "explanation": "Present Perfect Tense-এ রাতের খাবার গ্রহণ অর্থে: 'have had my supper'।",
+    "ans": 2,
+    "correct_answer": "had"
   },
   {
     "id": 71,
@@ -848,8 +988,10 @@
       "I reached the station after the train left.",
       "I reached the station after the train had left."
     ],
-    "answer": "I reached the station after the train had left.",
-    "explanation": "'After'-এর পরবর্তী ক্লজে অতীততর ঘটনা হিসেবে Past Perfect Tense 'had left' বসে।"
+    "answer": "ঘ",
+    "explanation": "'After'-এর পরবর্তী ক্লজে অতীততর ঘটনা হিসেবে Past Perfect Tense 'had left' বসে।",
+    "ans": 3,
+    "correct_answer": "I reached the station after the train had left."
   },
   {
     "id": 72,
@@ -860,8 +1002,10 @@
       "had come",
       "has come"
     ],
-    "answer": "came",
-    "explanation": "'Until'-এর পূর্ববর্তী ক্লজ Past Tense হলে পরবর্তী ক্লজেও Past Simple 'came' বসে।"
+    "answer": "খ",
+    "explanation": "'Until'-এর পূর্ববর্তী ক্লজ Past Tense হলে পরবর্তী ক্লজেও Past Simple 'came' বসে।",
+    "ans": 1,
+    "correct_answer": "came"
   },
   {
     "id": 73,
@@ -872,8 +1016,10 @@
       "was having",
       "had"
     ],
-    "answer": "has had",
-    "explanation": "'Just now' থাকলে Present Perfect Tense বসে: 'has had his dinner'।"
+    "answer": "খ",
+    "explanation": "'Just now' থাকলে Present Perfect Tense বসে: 'has had his dinner'।",
+    "ans": 1,
+    "correct_answer": "has had"
   },
   {
     "id": 74,
@@ -884,8 +1030,10 @@
       "are deserving",
       "is deserving"
     ],
-    "answer": "deserves",
-    "explanation": "'As well as' দ্বারা দুটি Subject যুক্ত হলে ১ম Subject (Karim) অনুযায়ী Singular verb 'deserves' বসে।"
+    "answer": "খ",
+    "explanation": "'As well as' দ্বারা দুটি Subject যুক্ত হলে ১ম Subject (Karim) অনুযায়ী Singular verb 'deserves' বসে।",
+    "ans": 1,
+    "correct_answer": "deserves"
   },
   {
     "id": 75,
@@ -896,8 +1044,10 @@
       "had cooked",
       "was cooking"
     ],
-    "answer": "was cooking",
-    "explanation": "সাধারনত while এর পরে subject থাকলে ঐ clause টি past continuous tense হয়।"
+    "answer": "ঘ",
+    "explanation": "সাধারনত while এর পরে subject থাকলে ঐ clause টি past continuous tense হয়।",
+    "ans": 3,
+    "correct_answer": "was cooking"
   },
   {
     "id": 76,
@@ -908,8 +1058,10 @@
       "eat",
       "ate"
     ],
-    "answer": "eat",
-    "explanation": "Causative 'make'-এর পর Bare Infinitive (Base verb) বসে: 'made the child eat'।"
+    "answer": "গ",
+    "explanation": "Causative 'make'-এর পর Bare Infinitive (Base verb) বসে: 'made the child eat'।",
+    "ans": 2,
+    "correct_answer": "eat"
   },
   {
     "id": 77,
@@ -920,8 +1072,10 @@
       "cook",
       "was cooking"
     ],
-    "answer": "was cooking",
-    "explanation": "'While' যুক্ত ক্লজে চলমান কাজ বোঝাতে Past Continuous Tense 'was cooking' বসে।"
+    "answer": "ঘ",
+    "explanation": "'While' যুক্ত ক্লজে চলমান কাজ বোঝাতে Past Continuous Tense 'was cooking' বসে।",
+    "ans": 3,
+    "correct_answer": "was cooking"
   },
   {
     "id": 78,
@@ -932,8 +1086,10 @@
       "was burning",
       "burnt"
     ],
-    "answer": "burnt",
-    "explanation": "রান্না করার সময় হাত পুড়ে যাওয়া—অকস্মাৎ ক্রিয়া বোঝাতে Past Simple 'burnt' বসে।"
+    "answer": "ঘ",
+    "explanation": "রান্না করার সময় হাত পুড়ে যাওয়া—অকস্মাৎ ক্রিয়া বোঝাতে Past Simple 'burnt' বসে।",
+    "ans": 3,
+    "correct_answer": "burnt"
   },
   {
     "id": 79,
@@ -944,8 +1100,10 @@
       "one’s",
       "the"
     ],
-    "answer": "one’s",
-    "explanation": "Subject 'One' হলে তার Possessive রূপ সর্বদা 'one's' হয় (One should be careful about one's duty)।"
+    "answer": "গ",
+    "explanation": "Subject 'One' হলে তার Possessive রূপ সর্বদা 'one's' হয় (One should be careful about one's duty)।",
+    "ans": 2,
+    "correct_answer": "one’s"
   },
   {
     "id": 80,
@@ -956,8 +1114,10 @@
       "begins",
       "begun"
     ],
-    "answer": "is beginning",
-    "explanation": "নিকটবর্তী পূর্বনির্ধারিত ভবিষ্যতের ক্ষেত্রে Present Continuous বা Present Simple 'is beginning/begins' বসে।"
+    "answer": "খ",
+    "explanation": "নিকটবর্তী পূর্বনির্ধারিত ভবিষ্যতের ক্ষেত্রে Present Continuous বা Present Simple 'is beginning/begins' বসে।",
+    "ans": 1,
+    "correct_answer": "is beginning"
   },
   {
     "id": 81,
@@ -968,8 +1128,10 @@
       "need added",
       "need to add"
     ],
-    "answer": "need to be added",
-    "explanation": "ফসফেট জমিতে প্রয়োগ করা প্রয়োজন—Passive অর্থে 'need to be added' সঠিক।"
+    "answer": "খ",
+    "explanation": "ফসফেট জমিতে প্রয়োগ করা প্রয়োজন—Passive অর্থে 'need to be added' সঠিক।",
+    "ans": 1,
+    "correct_answer": "need to be added"
   },
   {
     "id": 82,
@@ -980,8 +1142,10 @@
       "makes",
       "to make"
     ],
-    "answer": "making",
-    "explanation": "'Stop'-এর পর কোনো অভ্যাস বা কাজ বন্ধ করা বোঝাতে Gerund 'making' বসে।"
+    "answer": "খ",
+    "explanation": "'Stop'-এর পর কোনো অভ্যাস বা কাজ বন্ধ করা বোঝাতে Gerund 'making' বসে।",
+    "ans": 1,
+    "correct_answer": "making"
   },
   {
     "id": 83,
@@ -992,8 +1156,10 @@
       "has",
       "were"
     ],
-    "answer": "were",
-    "explanation": "'As if'-এর পূর্বে Present Simple এবং পরে কাল্পনিক বা অবাস্তব অবস্থা প্রকাশে 'were' বসে: 'walks as if he were lame'।"
+    "answer": "ঘ",
+    "explanation": "'As if'-এর পূর্বে Present Simple এবং পরে কাল্পনিক বা অবাস্তব অবস্থা প্রকাশে 'were' বসে: 'walks as if he were lame'।",
+    "ans": 3,
+    "correct_answer": "were"
   },
   {
     "id": 84,
@@ -1004,8 +1170,10 @@
       "lives",
       "has lived"
     ],
-    "answer": "have been living",
-    "explanation": "অতীতের নির্দিষ্ট সময় থেকে বর্তমান পর্যন্ত চলমান বোঝাতে Present Perfect Continuous 'have been living' বসে।"
+    "answer": "খ",
+    "explanation": "অতীতের নির্দিষ্ট সময় থেকে বর্তমান পর্যন্ত চলমান বোঝাতে Present Perfect Continuous 'have been living' বসে।",
+    "ans": 1,
+    "correct_answer": "have been living"
   },
   {
     "id": 85,
@@ -1016,8 +1184,10 @@
       "knew",
       "known"
     ],
-    "answer": "had known",
-    "explanation": "'As though'-এর পূর্বের ক্লজ Past Simple (proceeded) হলে পরের ক্লজে Past Perfect 'had known' বসে।"
+    "answer": "খ",
+    "explanation": "'As though'-এর পূর্বের ক্লজ Past Simple (proceeded) হলে পরের ক্লজে Past Perfect 'had known' বসে।",
+    "ans": 1,
+    "correct_answer": "had known"
   },
   {
     "id": 86,
@@ -1028,8 +1198,10 @@
       "has won",
       "won"
     ],
-    "answer": "wins",
-    "explanation": "'Slow and steady' একক অবিভাজ্য ভাব প্রকাশ করায় Verb Singular 'wins' হয় (wins the race)।"
+    "answer": "খ",
+    "explanation": "'Slow and steady' একক অবিভাজ্য ভাব প্রকাশ করায় Verb Singular 'wins' হয় (wins the race)।",
+    "ans": 1,
+    "correct_answer": "wins"
   },
   {
     "id": 87,
@@ -1040,8 +1212,10 @@
       "has left",
       "has been leaving"
     ],
-    "answer": "had left",
-    "explanation": "'After'-এর পরবর্তী ক্লজে অতীততর ঘটনা বোঝাতে Past Perfect Tense 'had left' বসে।"
+    "answer": "খ",
+    "explanation": "'After'-এর পরবর্তী ক্লজে অতীততর ঘটনা বোঝাতে Past Perfect Tense 'had left' বসে।",
+    "ans": 1,
+    "correct_answer": "had left"
   },
   {
     "id": 88,
@@ -1052,8 +1226,10 @@
       "would rather",
       "would better"
     ],
-    "answer": "would rather",
-    "explanation": "বরং... তবুও নয় প্রকাশে 'would rather... than' বসে: 'would rather starve than beg'।"
+    "answer": "গ",
+    "explanation": "বরং... তবুও নয় প্রকাশে 'would rather... than' বসে: 'would rather starve than beg'।",
+    "ans": 2,
+    "correct_answer": "would rather"
   },
   {
     "id": 89,
@@ -1064,8 +1240,10 @@
       "its",
       "it's"
     ],
-    "answer": "its",
-    "explanation": "শিশু (child)-এর জেন্ডার অনির্দিষ্ট থাকায় ব্যাকরণে এর জন্য Neuter Pronoun 'its' ব্যবহৃত হয়।"
+    "answer": "গ",
+    "explanation": "শিশু (child)-এর জেন্ডার অনির্দিষ্ট থাকায় ব্যাকরণে এর জন্য Neuter Pronoun 'its' ব্যবহৃত হয়।",
+    "ans": 2,
+    "correct_answer": "its"
   },
   {
     "id": 90,
@@ -1076,8 +1254,10 @@
       "show",
       "to show"
     ],
-    "answer": "show",
-    "explanation": "Causative verb 'make'-এর পর Bare Infinitive (Base verb) 'show' বসে: 'made us show our identity card'।"
+    "answer": "গ",
+    "explanation": "Causative verb 'make'-এর পর Bare Infinitive (Base verb) 'show' বসে: 'made us show our identity card'।",
+    "ans": 2,
+    "correct_answer": "show"
   },
   {
     "id": 91,
@@ -1088,8 +1268,10 @@
       "much",
       "small"
     ],
-    "answer": "a little",
-    "explanation": "Uncountable Noun 'milk'-এর পূর্বে পরিমাপ নির্দেশ করতে 'a little' বসে: 'a little milk'।"
+    "answer": "ক",
+    "explanation": "Uncountable Noun 'milk'-এর পূর্বে পরিমাপ নির্দেশ করতে 'a little' বসে: 'a little milk'।",
+    "ans": 0,
+    "correct_answer": "a little"
   },
   {
     "id": 92,
@@ -1100,8 +1282,10 @@
       "has been",
       "were"
     ],
-    "answer": "has been",
-    "explanation": "ভগ্নাংশের ক্ষেত্রে পরবর্তী Noun (the work) Uncountable/Singular হওয়ায় Verb Singular 'has been' বসে।"
+    "answer": "গ",
+    "explanation": "ভগ্নাংশের ক্ষেত্রে পরবর্তী Noun (the work) Uncountable/Singular হওয়ায় Verb Singular 'has been' বসে।",
+    "ans": 2,
+    "correct_answer": "has been"
   },
   {
     "id": 93,
@@ -1112,8 +1296,10 @@
       "rising",
       "raised"
     ],
-    "answer": "rising",
-    "explanation": "দ্রব্যের মূল্য স্বয়ং বেড়ে যাওয়া অর্থে Intransitive Verb 'rise'-এর রূপ 'rising' বসে।"
+    "answer": "গ",
+    "explanation": "দ্রব্যের মূল্য স্বয়ং বেড়ে যাওয়া অর্থে Intransitive Verb 'rise'-এর রূপ 'rising' বসে।",
+    "ans": 2,
+    "correct_answer": "rising"
   },
   {
     "id": 94,
@@ -1124,8 +1310,10 @@
       "has been",
       "being"
     ],
-    "answer": "had been",
-    "explanation": "পূর্বে বাঁধানো সম্পন্ন হয়েছিল বোঝাতে Past Perfect Passive 'had been paved' সঠিক।"
+    "answer": "খ",
+    "explanation": "পূর্বে বাঁধানো সম্পন্ন হয়েছিল বোঝাতে Past Perfect Passive 'had been paved' সঠিক।",
+    "ans": 1,
+    "correct_answer": "had been"
   },
   {
     "id": 95,
@@ -1136,8 +1324,10 @@
       "Not only",
       "Neither"
     ],
-    "answer": "Neither",
-    "explanation": "দুইজন ব্যক্তির কেউই নয় বোঝাতে 'Neither' বসে: 'neither of them were honest'।"
+    "answer": "ঘ",
+    "explanation": "দুইজন ব্যক্তির কেউই নয় বোঝাতে 'Neither' বসে: 'neither of them were honest'।",
+    "ans": 3,
+    "correct_answer": "Neither"
   },
   {
     "id": 96,
@@ -1148,8 +1338,10 @@
       "to speak",
       "to stop speaking"
     ],
-    "answer": "to speak",
-    "explanation": "'Too... to' গঠন: 'The children were too flabbergasted to speak'।"
+    "answer": "গ",
+    "explanation": "'Too... to' গঠন: 'The children were too flabbergasted to speak'।",
+    "ans": 2,
+    "correct_answer": "to speak"
   },
   {
     "id": 97,
@@ -1160,8 +1352,10 @@
       "rung",
       "ringed"
     ],
-    "answer": "rung",
-    "explanation": "Past Perfect Passive ভয়েস: 'had already been rung'।"
+    "answer": "গ",
+    "explanation": "Past Perfect Passive ভয়েস: 'had already been rung'।",
+    "ans": 2,
+    "correct_answer": "rung"
   },
   {
     "id": 98,
@@ -1172,8 +1366,10 @@
       "has looked",
       "has been looking"
     ],
-    "answer": "have been looking",
-    "explanation": "'Police' সমষ্টিগত Plural Noun এবং দীর্ঘ সময় ধরে খোঁজা বোঝাতে 'have been looking' বসে।"
+    "answer": "খ",
+    "explanation": "'Police' সমষ্টিগত Plural Noun এবং দীর্ঘ সময় ধরে খোঁজা বোঝাতে 'have been looking' বসে।",
+    "ans": 1,
+    "correct_answer": "have been looking"
   },
   {
     "id": 99,
@@ -1184,8 +1380,10 @@
       "rewding",
       "reads"
     ],
-    "answer": "read",
-    "explanation": "Causative 'make'-এর পর Base verb বসে: 'made the children read the book'।"
+    "answer": "ক",
+    "explanation": "Causative 'make'-এর পর Base verb বসে: 'made the children read the book'।",
+    "ans": 0,
+    "correct_answer": "read"
   },
   {
     "id": 100,
@@ -1196,8 +1394,10 @@
       "to listen",
       "listening"
     ],
-    "answer": "listen",
-    "explanation": "Causative 'make'-এর পর Base verb বসে: 'make the students listen to him'।"
+    "answer": "খ",
+    "explanation": "Causative 'make'-এর পর Base verb বসে: 'make the students listen to him'।",
+    "ans": 1,
+    "correct_answer": "listen"
   },
   {
     "id": 101,
@@ -1208,8 +1408,10 @@
       "took",
       "taken"
     ],
-    "answer": "taking",
-    "explanation": "'Be used to' (অভ্যস্ত) ফ্রেজের পর ক্রিয়ার Gerund রূপ বসে: 'used to taking tea'।"
+    "answer": "ক",
+    "explanation": "'Be used to' (অভ্যস্ত) ফ্রেজের পর ক্রিয়ার Gerund রূপ বসে: 'used to taking tea'।",
+    "ans": 0,
+    "correct_answer": "taking"
   },
   {
     "id": 102,
@@ -1220,8 +1422,10 @@
       "shall have",
       "had"
     ],
-    "answer": "had",
-    "explanation": "'I wish'-এর পর অপ্রাপ্ত ইচ্ছা প্রকাশে Past Tense 'had' বসে: 'I wish I had a car'।"
+    "answer": "ঘ",
+    "explanation": "'I wish'-এর পর অপ্রাপ্ত ইচ্ছা প্রকাশে Past Tense 'had' বসে: 'I wish I had a car'।",
+    "ans": 3,
+    "correct_answer": "had"
   },
   {
     "id": 103,
@@ -1232,8 +1436,10 @@
       "none",
       "nothing"
     ],
-    "answer": "none",
-    "explanation": "দোকানগুলোর একটিও খোলা ছিল না বোঝাতে 'none of the shops was open' সঠিক।"
+    "answer": "গ",
+    "explanation": "দোকানগুলোর একটিও খোলা ছিল না বোঝাতে 'none of the shops was open' সঠিক।",
+    "ans": 2,
+    "correct_answer": "none"
   },
   {
     "id": 104,
@@ -1244,8 +1450,10 @@
       "furnisher",
       "furniture's"
     ],
-    "answer": "furniture",
-    "explanation": "'Furniture' একটি Uncountable Noun; এর সাথে 's/es' যুক্ত হয় না (some new furniture)।"
+    "answer": "খ",
+    "explanation": "'Furniture' একটি Uncountable Noun; এর সাথে 's/es' যুক্ত হয় না (some new furniture)।",
+    "ans": 1,
+    "correct_answer": "furniture"
   },
   {
     "id": 105,
@@ -1256,8 +1464,10 @@
       "ringing",
       "had rung"
     ],
-    "answer": "rang",
-    "explanation": "অতীতের চলমান কাজের মাঝে অকস্মাৎ ঘটনা ঘটা বোঝাতে Past Simple 'rang' বসে।"
+    "answer": "ক",
+    "explanation": "অতীতের চলমান কাজের মাঝে অকস্মাৎ ঘটনা ঘটা বোঝাতে Past Simple 'rang' বসে।",
+    "ans": 0,
+    "correct_answer": "rang"
   },
   {
     "id": 106,
@@ -1268,8 +1478,10 @@
       "cut down",
       "was cutting down"
     ],
-    "answer": "was cutting down",
-    "explanation": "অতীতে কাজের চলমানতা নির্দেশ করায় Past Continuous 'was cutting down' বসে।"
+    "answer": "ঘ",
+    "explanation": "অতীতে কাজের চলমানতা নির্দেশ করায় Past Continuous 'was cutting down' বসে।",
+    "ans": 3,
+    "correct_answer": "was cutting down"
   },
   {
     "id": 107,
@@ -1280,8 +1492,10 @@
       "took off",
       "had taken off"
     ],
-    "answer": "took off",
-    "explanation": "'Until'-এর পূর্ববর্তী ক্লজ Past Tense হওয়ায় পরবর্তী ক্লজেও Past Simple 'took off' বসে।"
+    "answer": "গ",
+    "explanation": "'Until'-এর পূর্ববর্তী ক্লজ Past Tense হওয়ায় পরবর্তী ক্লজেও Past Simple 'took off' বসে।",
+    "ans": 2,
+    "correct_answer": "took off"
   },
   {
     "id": 108,
@@ -1292,8 +1506,10 @@
       "on",
       "with a view to"
     ],
-    "answer": "with a view to",
-    "explanation": "'With a view to'-এর পর ক্রিয়ার Gerund রূপ (-ing) বসে: 'with a view to succeeding'।"
+    "answer": "ঘ",
+    "explanation": "'With a view to'-এর পর ক্রিয়ার Gerund রূপ (-ing) বসে: 'with a view to succeeding'।",
+    "ans": 3,
+    "correct_answer": "with a view to"
   },
   {
     "id": 109,
@@ -1304,8 +1520,10 @@
       "to drink",
       "having"
     ],
-    "answer": "having",
-    "explanation": "'Would you mind'-এর পর ক্রিয়ার সাথে '-ing' যুক্ত হয়: 'Would you mind having a cup of tea'।"
+    "answer": "ঘ",
+    "explanation": "'Would you mind'-এর পর ক্রিয়ার সাথে '-ing' যুক্ত হয়: 'Would you mind having a cup of tea'।",
+    "ans": 3,
+    "correct_answer": "having"
   },
   {
     "id": 110,
@@ -1316,8 +1534,10 @@
       "walking",
       "walks"
     ],
-    "answer": "walking",
-    "explanation": "'While'-এর ঠিক পরেই কোনো Subject না থাকলে Verb-এর সাথে সরাসরি '-ing' যুক্ত হয়: 'While walking'।"
+    "answer": "গ",
+    "explanation": "'While'-এর ঠিক পরেই কোনো Subject না থাকলে Verb-এর সাথে সরাসরি '-ing' যুক্ত হয়: 'While walking'।",
+    "ans": 2,
+    "correct_answer": "walking"
   },
   {
     "id": 111,
@@ -1328,8 +1548,10 @@
       "get",
       "will get"
     ],
-    "answer": "get",
-    "explanation": "ভবিষ্যৎ শর্তমূলক বাক্যের Time clause-এ Present Simple 'get' বসে: 'When I get money, I will buy a book'।"
+    "answer": "গ",
+    "explanation": "ভবিষ্যৎ শর্তমূলক বাক্যের Time clause-এ Present Simple 'get' বসে: 'When I get money, I will buy a book'।",
+    "ans": 2,
+    "correct_answer": "get"
   },
   {
     "id": 112,
@@ -1340,8 +1562,10 @@
       "did",
       "doing"
     ],
-    "answer": "done",
-    "explanation": "Present Perfect Tense: 'Why have you done this?'।"
+    "answer": "ক",
+    "explanation": "Present Perfect Tense: 'Why have you done this?'।",
+    "ans": 0,
+    "correct_answer": "done"
   },
   {
     "id": 113,
@@ -1352,8 +1576,10 @@
       "in receiving",
       "for receiving"
     ],
-    "answer": "to receiving",
-    "explanation": "'Look forward to' ফ্রেজের পর Gerund রূপ বসে: 'look forward to receiving'।"
+    "answer": "ক",
+    "explanation": "'Look forward to' ফ্রেজের পর Gerund রূপ বসে: 'look forward to receiving'।",
+    "ans": 0,
+    "correct_answer": "to receiving"
   },
   {
     "id": 114,
@@ -1364,8 +1590,10 @@
       "was",
       "is"
     ],
-    "answer": "was",
-    "explanation": "অতীতে টেলিফোন আবিষ্কারের প্রশ্ন হওয়ায় Past Simple Passive 'When was the telephone invented?' সঠিক।"
+    "answer": "গ",
+    "explanation": "অতীতে টেলিফোন আবিষ্কারের প্রশ্ন হওয়ায় Past Simple Passive 'When was the telephone invented?' সঠিক।",
+    "ans": 2,
+    "correct_answer": "was"
   },
   {
     "id": 115,
@@ -1376,8 +1604,10 @@
       "leaves the train?",
       "the train leaves?"
     ],
-    "answer": "does the train leave?",
-    "explanation": "ট্রেনের পূর্বনির্ধারিত সময়সূচি বোঝাতে Present Simple 'does the train leave?' সঠিক।"
+    "answer": "ক",
+    "explanation": "ট্রেনের পূর্বনির্ধারিত সময়সূচি বোঝাতে Present Simple 'does the train leave?' সঠিক।",
+    "ans": 0,
+    "correct_answer": "does the train leave?"
   },
   {
     "id": 116,
@@ -1388,7 +1618,9 @@
       "Have you had",
       "Did you have"
     ],
-    "answer": "Have you had",
-    "explanation": "'Yet' থাকলে কাজটি ইতোমধ্যে সম্পন্ন হয়েছে কি না জানতে Present Perfect প্রশ্ন: 'Have you had your lunch yet?'।"
+    "answer": "গ",
+    "explanation": "'Yet' থাকলে কাজটি ইতোমধ্যে সম্পন্ন হয়েছে কি না জানতে Present Perfect প্রশ্ন: 'Have you had your lunch yet?'।",
+    "ans": 2,
+    "correct_answer": "Have you had"
   }
 ]

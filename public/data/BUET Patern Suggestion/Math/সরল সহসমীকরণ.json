@@ -9,7 +9,9 @@
       "y = 3x + 3"
     ],
     "answer": "ক",
-    "explanation": "সমাধানঃ\nদুই বিন্দুগামী সরলরেখার সমীকরণ\n(x - x₁) / (x₁ - x₂) = (y - y₁) / (y₁ - y₂)\n⇒ (x - 0) / (0 - 3) = (y - 0) / (0 - 3)\n⇒ x = y"
+    "explanation": "সমাধানঃ\nদুই বিন্দুগামী সরলরেখার সমীকরণ\n(x - x₁) / (x₁ - x₂) = (y - y₁) / (y₁ - y₂)\n⇒ (x - 0) / (0 - 3) = (y - 0) / (0 - 3)\n⇒ x = y",
+    "ans": 0,
+    "correct_answer": "y = x"
   },
   {
     "id": 2,
@@ -21,7 +23,9 @@
       "২০০ মিটার"
     ],
     "answer": "খ",
-    "explanation": "ধরি, মোট উচ্চতা = x মি.\nকাঁদায় = x/3 অংশ\nপানিতে = x/2 অংশ\nশর্তমতে, x - x/3 - x/2 = 25\n⇒ (6x - 2x - 3x) / 6 = 25\n⇒ x = 150\n∴ মোট উচ্চতা = 150 মি."
+    "explanation": "ধরি, মোট উচ্চতা = x মি.\nকাঁদায় = x/3 অংশ\nপানিতে = x/2 অংশ\nশর্তমতে, x - x/3 - x/2 = 25\n⇒ (6x - 2x - 3x) / 6 = 25\n⇒ x = 150\n∴ মোট উচ্চতা = 150 মি.",
+    "ans": 1,
+    "correct_answer": "১৫০ মিটার"
   },
   {
     "id": 3,
@@ -33,7 +37,9 @@
       "17"
     ],
     "answer": "ক",
-    "explanation": "'A' can do in 10 days\n∴ For 1 day = 1/10\n'B' can do in 15 days\n∴ For 1 day = 1/15\n'A' and 'B' both can do in 1 day : (1/10 + 1/15) = 1/6\n1/6 part done in 1 days\n∴ 1 part done in 1/(1/6) days = 6 days"
+    "explanation": "'A' can do in 10 days\n∴ For 1 day = 1/10\n'B' can do in 15 days\n∴ For 1 day = 1/15\n'A' and 'B' both can do in 1 day : (1/10 + 1/15) = 1/6\n1/6 part done in 1 days\n∴ 1 part done in 1/(1/6) days = 6 days",
+    "ans": 0,
+    "correct_answer": "6"
   },
   {
     "id": 4,
@@ -45,7 +51,9 @@
       "5 kg"
     ],
     "answer": "ক",
-    "explanation": "প্রথম অবস্থায়, বালতি + অর্ধেক পানি = 7 kg\nদ্বিতীয় অবস্থায়, বালতি + এক পঞ্চমাংশ পানি = 2 kg\n২য় ক্ষেত্রে বুঝায় বালতির ওজন অবশ্যই 2 kg অপেক্ষা কম। অপশনে 1 kg থাকায় সেটিই সঠিক উত্তর।"
+    "explanation": "প্রথম অবস্থায়, বালতি + অর্ধেক পানি = 7 kg\nদ্বিতীয় অবস্থায়, বালতি + এক পঞ্চমাংশ পানি = 2 kg\n২য় ক্ষেত্রে বুঝায় বালতির ওজন অবশ্যই 2 kg অপেক্ষা কম। অপশনে 1 kg থাকায় সেটিই সঠিক উত্তর।",
+    "ans": 0,
+    "correct_answer": "1 kg"
   },
   {
     "id": 5,
@@ -57,7 +65,9 @@
       "6 hour"
     ],
     "answer": "খ",
-    "explanation": "Ann 5 ঘণ্টায় করতে পারে 1 অংশ\n∴ 1 ঘণ্টায় করতে পারে 1/5 অংশ\nতেমনি, Matt 1 ঘণ্টায় করতে পারে 1/6 অংশ\nধরি, Zack 1 ঘণ্টায় করতে পারে 1/x অংশ\nএকত্রে, তিনজন 1 ঘণ্টায় করতে পারে = 1/2 অংশ\n∴ 1 ঘণ্টায় মোট কাজ, 1/2 = 1/5 + 1/6 + 1/x\n∴ 1/x = 2/15 [1 ঘণ্টায় Zack-এর কাজ]\nAnn ও Zack একত্রে (1/5 + 2/15) অংশ কাজ করে 1 ঘণ্টায়\n∴ 1 অংশ কাজ করে = 1 / (1/5 + 2/15) = 3 ঘণ্টায় (Ans.)"
+    "explanation": "Ann 5 ঘণ্টায় করতে পারে 1 অংশ\n∴ 1 ঘণ্টায় করতে পারে 1/5 অংশ\nতেমনি, Matt 1 ঘণ্টায় করতে পারে 1/6 অংশ\nধরি, Zack 1 ঘণ্টায় করতে পারে 1/x অংশ\nএকত্রে, তিনজন 1 ঘণ্টায় করতে পারে = 1/2 অংশ\n∴ 1 ঘণ্টায় মোট কাজ, 1/2 = 1/5 + 1/6 + 1/x\n∴ 1/x = 2/15 [1 ঘণ্টায় Zack-এর কাজ]\nAnn ও Zack একত্রে (1/5 + 2/15) অংশ কাজ করে 1 ঘণ্টায়\n∴ 1 অংশ কাজ করে = 1 / (1/5 + 2/15) = 3 ঘণ্টায় (Ans.)",
+    "ans": 1,
+    "correct_answer": "3 hour"
   },
   {
     "id": 6,
@@ -69,7 +79,9 @@
       "8 days"
     ],
     "answer": "ঘ",
-    "explanation": "ট্যাংকের আয়তন = (200)³ = 8000000 cm³\n1000 liter বা 1000 × 10³ cm³ খালি হয় = 1 দিনে\n1 cm³ খালি হয় = 1 / (1000 × 10³) দিনে\n∴ 8000000 cm³ খালি হয় = 8000000 / (1000 × 10³) দিনে = 8 দিনে (Ans.)"
+    "explanation": "ট্যাংকের আয়তন = (200)³ = 8000000 cm³\n1000 liter বা 1000 × 10³ cm³ খালি হয় = 1 দিনে\n1 cm³ খালি হয় = 1 / (1000 × 10³) দিনে\n∴ 8000000 cm³ খালি হয় = 8000000 / (1000 × 10³) দিনে = 8 দিনে (Ans.)",
+    "ans": 3,
+    "correct_answer": "8 days"
   },
   {
     "id": 7,
@@ -81,7 +93,9 @@
       "50"
     ],
     "answer": "ক",
-    "explanation": "let, three numbers are (x, y, z)\n∴ x² + y² + z² = 138; ⇒ xy + yz + zx = 131\nNow, (x + y + z)² = x² + y² + z² + 2(xy + yz + zx) = 138 + 2(131) = 400\n∴ x + y + z = 20 (Ans.)"
+    "explanation": "let, three numbers are (x, y, z)\n∴ x² + y² + z² = 138; ⇒ xy + yz + zx = 131\nNow, (x + y + z)² = x² + y² + z² + 2(xy + yz + zx) = 138 + 2(131) = 400\n∴ x + y + z = 20 (Ans.)",
+    "ans": 0,
+    "correct_answer": "20"
   },
   {
     "id": 8,
@@ -93,7 +107,9 @@
       "65 hour"
     ],
     "answer": "ক",
-    "explanation": "15 labors take 44 hours in a week\n1 labor takes 44 × 15 hours in a week\nHere, (15-4) labors take (44 × 15) / 11 = 60 hours (Ans.)"
+    "explanation": "15 labors take 44 hours in a week\n1 labor takes 44 × 15 hours in a week\nHere, (15-4) labors take (44 × 15) / 11 = 60 hours (Ans.)",
+    "ans": 0,
+    "correct_answer": "60 hour"
   },
   {
     "id": 9,
@@ -105,7 +121,9 @@
       "35"
     ],
     "answer": "গ",
-    "explanation": "Let, the divisor is = x\nfirst condition, x = m × p + 24 .................(i)\nsecond condition, 2x = m × q + 11 ............(ii)\nfrom (i) & (ii)\n2mp + 48 = mq + 11\n⇒ mq - 2mp = 37\n⇒ m(q - 2p) = 37 .............(iii)\nWhere, 37 is a prime number and the equation (iii) may stands for m = 1 & q - 2p = 37\nHence, the answer is 37."
+    "explanation": "Let, the divisor is = x\nfirst condition, x = m × p + 24 .................(i)\nsecond condition, 2x = m × q + 11 ............(ii)\nfrom (i) & (ii)\n2mp + 48 = mq + 11\n⇒ mq - 2mp = 37\n⇒ m(q - 2p) = 37 .............(iii)\nWhere, 37 is a prime number and the equation (iii) may stands for m = 1 & q - 2p = 37\nHence, the answer is 37.",
+    "ans": 2,
+    "correct_answer": "37"
   },
   {
     "id": 10,
@@ -117,7 +135,9 @@
       "22"
     ],
     "answer": "ঘ",
-    "explanation": "(3 × 2) + 0 = 6\n⇒ (4 × 2) + 6 = 14\n⇒ (5 × 2) + 12 = 22 (Ans.)"
+    "explanation": "(3 × 2) + 0 = 6\n⇒ (4 × 2) + 6 = 14\n⇒ (5 × 2) + 12 = 22 (Ans.)",
+    "ans": 3,
+    "correct_answer": "22"
   },
   {
     "id": 11,
@@ -129,7 +149,9 @@
       "8"
     ],
     "answer": "ক",
-    "explanation": "Let fraction, x/y\nAccording to the question, (x - 1)/y = 1/3; ⇒ 3x - 3 = y; ⇒ 3x - y = 3 .......... (i)\nx/(y + 8) = 1/4; ⇒ 4x = y + 8; ⇒ 4x - y = 8 ............ (ii)\n(i) ও (ii) নং সমীকরণ সমাধান করে পাই, x = 5 & y = 12\n∴ Fraction = x/y = 5/12 (Ans.)"
+    "explanation": "Let fraction, x/y\nAccording to the question, (x - 1)/y = 1/3; ⇒ 3x - 3 = y; ⇒ 3x - y = 3 .......... (i)\nx/(y + 8) = 1/4; ⇒ 4x = y + 8; ⇒ 4x - y = 8 ............ (ii)\n(i) ও (ii) নং সমীকরণ সমাধান করে পাই, x = 5 & y = 12\n∴ Fraction = x/y = 5/12 (Ans.)",
+    "ans": 0,
+    "correct_answer": "5/12"
   },
   {
     "id": 12,
@@ -141,7 +163,9 @@
       "31"
     ],
     "answer": "ক",
-    "explanation": "উপর থেকে → ৬ষ্ঠ\nনিচ থেকে → ১৮ তম\n∴ মোট ছাত্র-ছাত্রী সংখ্যা = ১৮ + ৫ = ২৩ [উভয় পাশ থেকে হিসাব করায় ১ কম হবে।]"
+    "explanation": "উপর থেকে → ৬ষ্ঠ\nনিচ থেকে → ১৮ তম\n∴ মোট ছাত্র-ছাত্রী সংখ্যা = ১৮ + ৫ = ২৩ [উভয় পাশ থেকে হিসাব করায় ১ কম হবে।]",
+    "ans": 0,
+    "correct_answer": "23"
   },
   {
     "id": 13,
@@ -153,7 +177,9 @@
       "18"
     ],
     "answer": "ক",
-    "explanation": "রাহুল ৩০ দিনে করে ১টি কাজ\nরাহুল ১ দিনে করে ১/৩০ টি কাজ\nএবং রাতুল ২০ দিনে করে ১টি কাজ\nরাতুল ১ দিনে করে ১/২০ টি কাজ\n∴ একত্রে ১ দিনে করে = ১/৩০ + ১/২০ = ১/১২ অংশ\n১/১২ অংশ করে ১ দিনে\n১ বা সম্পূর্ণ অংশ করে ১ / (১/১২) = ১২ দিনে (Ans.)\nOr,\nপ্রয়োজনীয় সময় = (১ম সময় × ২য় সময়) / (১ম সময় + ২য় সময়) = (৩০ × ২০) / (৩০ + ২০) = ৬০০ / ৫০ = ১২ দিন"
+    "explanation": "রাহুল ৩০ দিনে করে ১টি কাজ\nরাহুল ১ দিনে করে ১/৩০ টি কাজ\nএবং রাতুল ২০ দিনে করে ১টি কাজ\nরাতুল ১ দিনে করে ১/২০ টি কাজ\n∴ একত্রে ১ দিনে করে = ১/৩০ + ১/২০ = ১/১২ অংশ\n১/১২ অংশ করে ১ দিনে\n১ বা সম্পূর্ণ অংশ করে ১ / (১/১২) = ১২ দিনে (Ans.)\nOr,\nপ্রয়োজনীয় সময় = (১ম সময় × ২য় সময়) / (১ম সময় + ২য় সময়) = (৩০ × ২০) / (৩০ + ২০) = ৬০০ / ৫০ = ১২ দিন",
+    "ans": 0,
+    "correct_answer": "12"
   },
   {
     "id": 14,
@@ -165,7 +191,9 @@
       "90 days"
     ],
     "answer": "গ",
-    "explanation": "A ও B একত্রে কাজটি করে 35 দিনে\n∴ দুজন একত্রে 1 দিনে করে কাজটির 1/35 অংশ\nআবার, A একা কাজটি করে 60 দিনে\n∴ A 1 দিনে কাজটি করে 1/60 অংশ\n∴ B 1 দিনে কাজটির = (1/35 - 1/60) = 1/84 অংশ\nএখন, B কাজটির 1/84 অংশ করে 1 দিনে\n∴ B কাজটির 1 অংশ করে = 84 × 1 = 84 দিনে (Ans.)\nOr, B কাজটি করবে, = (১ম জনের কাজ × দুজনের কাজ) / (বেশি সময় - কম সময়) = (৬০ × ৩৫) / (৬০ - ৩৫) = ৮৪ দিন (Ans.)"
+    "explanation": "A ও B একত্রে কাজটি করে 35 দিনে\n∴ দুজন একত্রে 1 দিনে করে কাজটির 1/35 অংশ\nআবার, A একা কাজটি করে 60 দিনে\n∴ A 1 দিনে কাজটি করে 1/60 অংশ\n∴ B 1 দিনে কাজটির = (1/35 - 1/60) = 1/84 অংশ\nএখন, B কাজটির 1/84 অংশ করে 1 দিনে\n∴ B কাজটির 1 অংশ করে = 84 × 1 = 84 দিনে (Ans.)\nOr, B কাজটি করবে, = (১ম জনের কাজ × দুজনের কাজ) / (বেশি সময় - কম সময়) = (৬০ × ৩৫) / (৬০ - ৩৫) = ৮৪ দিন (Ans.)",
+    "ans": 2,
+    "correct_answer": "84 days"
   },
   {
     "id": 15,
@@ -177,7 +205,9 @@
       "m/n"
     ],
     "answer": "গ",
-    "explanation": "যদি একটি ঘটনা m উপায়ে ঘটতে পারে এবং দ্বিতীয় একটি ঘটনা n উপায়ে ঘটতে পারে এবং দ্বিতীয় ঘটনাটি ঘটার সংখ্যা যদি প্রথম ঘটনার সংঘটনের উপর নির্ভর না করে, তবে দুটি ঘটনা একই সাথে mn উপায়ে ঘটতে পারে।"
+    "explanation": "যদি একটি ঘটনা m উপায়ে ঘটতে পারে এবং দ্বিতীয় একটি ঘটনা n উপায়ে ঘটতে পারে এবং দ্বিতীয় ঘটনাটি ঘটার সংখ্যা যদি প্রথম ঘটনার সংঘটনের উপর নির্ভর না করে, তবে দুটি ঘটনা একই সাথে mn উপায়ে ঘটতে পারে।",
+    "ans": 2,
+    "correct_answer": "mn"
   },
   {
     "id": 16,
@@ -189,7 +219,9 @@
       "12"
     ],
     "answer": "খ",
-    "explanation": "মনে করি, dog এর সংখ্যা = x; chickens এর সংখ্যা = y [কুকুরের পা 4 টি; মুরগির পা 2 টি]\nশর্তমতে, 4x + 2y = 2(x + y) + 14 ∴ x = 7 (Ans.)"
+    "explanation": "মনে করি, dog এর সংখ্যা = x; chickens এর সংখ্যা = y [কুকুরের পা 4 টি; মুরগির পা 2 টি]\nশর্তমতে, 4x + 2y = 2(x + y) + 14 ∴ x = 7 (Ans.)",
+    "ans": 1,
+    "correct_answer": "7"
   },
   {
     "id": 17,
@@ -201,7 +233,9 @@
       "9/11"
     ],
     "answer": "ক",
-    "explanation": "Let, সংখ্যাটি = y\nশর্তমতে, 2/3 × 3/4 y + (3/4 × 4/5 y) = xy; ⇒ (5y + 6y)/10 = xy; ⇒ x = 11/10 (Ans.)"
+    "explanation": "Let, সংখ্যাটি = y\nশর্তমতে, 2/3 × 3/4 y + (3/4 × 4/5 y) = xy; ⇒ (5y + 6y)/10 = xy; ⇒ x = 11/10 (Ans.)",
+    "ans": 0,
+    "correct_answer": "11/10"
   },
   {
     "id": 18,
@@ -213,7 +247,9 @@
       "১২.৫ দিন"
     ],
     "answer": "ঘ",
-    "explanation": "ক + খ একত্রে ১ দিনে করে = 1/15 + 1/10 = (2+3)/30 = 5/30 = 1/6\nবাকি কাজ 'ক' করে = 5/6 অংশ\n1/15 অংশ করে = 1 দিন\n1 অংশ করে = 15 দিন\n∴ 5/6 অংশ করে = (15 × 5) / 6 = 12.5 দিনে\n∴ বাকি কাজ শেষ করতে সময় লাগে 12.5 দিন। (Ans.)"
+    "explanation": "ক + খ একত্রে ১ দিনে করে = 1/15 + 1/10 = (2+3)/30 = 5/30 = 1/6\nবাকি কাজ 'ক' করে = 5/6 অংশ\n1/15 অংশ করে = 1 দিন\n1 অংশ করে = 15 দিন\n∴ 5/6 অংশ করে = (15 × 5) / 6 = 12.5 দিনে\n∴ বাকি কাজ শেষ করতে সময় লাগে 12.5 দিন। (Ans.)",
+    "ans": 3,
+    "correct_answer": "১২.৫ দিন"
   },
   {
     "id": 19,
@@ -225,7 +261,9 @@
       "২০"
     ],
     "answer": "গ",
-    "explanation": "মনে করি, মোট অধ্যায় = x\nপ্রশ্নমতে, 7x/9 + 3 = 5x/6 ⇒ 5x/6 - 7x/9 = 3; ⇒ x = 54 (Ans.)"
+    "explanation": "মনে করি, মোট অধ্যায় = x\nপ্রশ্নমতে, 7x/9 + 3 = 5x/6 ⇒ 5x/6 - 7x/9 = 3; ⇒ x = 54 (Ans.)",
+    "ans": 2,
+    "correct_answer": "৫৪"
   },
   {
     "id": 20,
@@ -237,7 +275,9 @@
       "১০০ মিনিট"
     ],
     "answer": "খ",
-    "explanation": "নল ক 1 মিনিটে খালি করে = 1/80 অংশ\nনল খ 1 মিনিটে পূর্ণ করে = 1/60 অংশ\nউভয় 1 মিনিটে পূর্ণ করে = 1/60 - 1/80 = (4-3)/240 = 1/240 অংশ\n∴ 1/240 অংশ উভয় নল দ্বারা ভর্তি করে 1 মিনিটে\n∴ 1 অংশ ভর্তি করে = 240 মিনিটে (Ans.)"
+    "explanation": "নল ক 1 মিনিটে খালি করে = 1/80 অংশ\nনল খ 1 মিনিটে পূর্ণ করে = 1/60 অংশ\nউভয় 1 মিনিটে পূর্ণ করে = 1/60 - 1/80 = (4-3)/240 = 1/240 অংশ\n∴ 1/240 অংশ উভয় নল দ্বারা ভর্তি করে 1 মিনিটে\n∴ 1 অংশ ভর্তি করে = 240 মিনিটে (Ans.)",
+    "ans": 1,
+    "correct_answer": "২৪০ মিনিট"
   },
   {
     "id": 21,
@@ -249,7 +289,9 @@
       "১২ দিনে"
     ],
     "answer": "ঘ",
-    "explanation": "ক ১ দিনে করে ১/২০ অংশ এবং খ ১ দিনে করে ১/৩০ অংশ\n∴ ক ও খ একত্রে ১ দিনে করে = ১/২০ + ১/৩০ = (৩ + ২)/৬০ = ৫/৬০ = ১/১২ অংশ\n∴ সম্পূর্ণ বা ১ অংশ সম্পন্ন করতে লাগবে = ১২ দিন (Ans.)"
+    "explanation": "ক ১ দিনে করে ১/২০ অংশ এবং খ ১ দিনে করে ১/৩০ অংশ\n∴ ক ও খ একত্রে ১ দিনে করে = ১/২০ + ১/৩০ = (৩ + ২)/৬০ = ৫/৬০ = ১/১২ অংশ\n∴ সম্পূর্ণ বা ১ অংশ সম্পন্ন করতে লাগবে = ১২ দিন (Ans.)",
+    "ans": 3,
+    "correct_answer": "১২ দিনে"
   },
   {
     "id": 22,
@@ -261,7 +303,9 @@
       "১ কেজি"
     ],
     "answer": "গ",
-    "explanation": "সম্পূর্ণ পানি + বালতির ওজন = ১২ কেজি\nঅর্ধেক পানি + বালতির ওজন = ৭ কেজি\nঅর্ধেক পানির ওজন = ১২ - ৭ = ৫ কেজি\nসম্পূর্ণ পানির ওজন = ৫ × ২ = ১০ কেজি\nখালি বালতির ওজন = ১২ - ১০ = ২ কেজি। (Ans.)\nOr, Let, বালতির ওজন = x, পানির ওজন = y\nHere,\nx + y = 12\nx + 1/2 y = 7\n(-) y = 10 kg ∴ x = 12 - 10 = 2 kg"
+    "explanation": "সম্পূর্ণ পানি + বালতির ওজন = ১২ কেজি\nঅর্ধেক পানি + বালতির ওজন = ৭ কেজি\nঅর্ধেক পানির ওজন = ১২ - ৭ = ৫ কেজি\nসম্পূর্ণ পানির ওজন = ৫ × ২ = ১০ কেজি\nখালি বালতির ওজন = ১২ - ১০ = ২ কেজি। (Ans.)\nOr, Let, বালতির ওজন = x, পানির ওজন = y\nHere,\nx + y = 12\nx + 1/2 y = 7\n(-) y = 10 kg ∴ x = 12 - 10 = 2 kg",
+    "ans": 2,
+    "correct_answer": "২ কেজি"
   },
   {
     "id": 23,
@@ -273,7 +317,9 @@
       "৬ দিন"
     ],
     "answer": "ক",
-    "explanation": "৬ জনে করে ৩ টি কাজ ১২ দিনে\n১ জনে করে ৩ টি কাজ ১২ × ৬ দিনে\n(৬ × ২) বা ১২ জনে করে ৩ টি কাজ = (১২ × ৬) / ১২ = ৬ দিনে\n∴ অর্ধেক কাজ করে = ৬ / ২ = ৩ দিনে। (Ans.)"
+    "explanation": "৬ জনে করে ৩ টি কাজ ১২ দিনে\n১ জনে করে ৩ টি কাজ ১২ × ৬ দিনে\n(৬ × ২) বা ১২ জনে করে ৩ টি কাজ = (১২ × ৬) / ১২ = ৬ দিনে\n∴ অর্ধেক কাজ করে = ৬ / ২ = ৩ দিনে। (Ans.)",
+    "ans": 0,
+    "correct_answer": "৩ দিন"
   },
   {
     "id": 24,
@@ -285,7 +331,9 @@
       "৬৬"
     ],
     "answer": "ক",
-    "explanation": "We know, (Men 1 × time 1) / Work 1 = (Men 2 × time 2) / work 2\n⇒ (5 × 7) / 35 = (men2 × 3) / 66 ⇒ men2 = 22 জন (Ans.)"
+    "explanation": "We know, (Men 1 × time 1) / Work 1 = (Men 2 × time 2) / work 2\n⇒ (5 × 7) / 35 = (men2 × 3) / 66 ⇒ men2 = 22 জন (Ans.)",
+    "ans": 0,
+    "correct_answer": "২২"
   },
   {
     "id": 25,
@@ -297,7 +345,9 @@
       "(১০⁸)⁶"
     ],
     "answer": "খ",
-    "explanation": "প্রতি ১০ মিনিট দ্বিগুণ হলে ১ ঘণ্টায় ৬ বার পরিবর্তন হবে।\nঅর্থাৎ ব্যাকটেরিয়ার সংখ্যা হবে = ২⁶ × (১০⁸) (Ans.)"
+    "explanation": "প্রতি ১০ মিনিট দ্বিগুণ হলে ১ ঘণ্টায় ৬ বার পরিবর্তন হবে।\nঅর্থাৎ ব্যাকটেরিয়ার সংখ্যা হবে = ২⁶ × (১০⁸) (Ans.)",
+    "ans": 1,
+    "correct_answer": "(২⁶) × (১০⁸)"
   },
   {
     "id": 26,
@@ -309,7 +359,9 @@
       "১/১৫"
     ],
     "answer": "খ",
-    "explanation": "আমরা জানি, সম্ভাবনা = অনুকূল ঘটনা / মোট ঘটনা\nদুই অংক বিশিষ্ট সংখ্যা (১০-৯৯ পর্যন্ত) ৯০ টি।\n১০ থেকে ৯৯ পর্যন্ত ৩ এর গুণিতক সংখ্যা = ৩০ টি ∴ ৩ দ্বারা বিভাজ্য হওয়ার সম্ভাবনা = ৩০/৯০ = ১/৩\n৩০ টি গুণিতের মধ্যে ৫ দ্বারা বিভাজ্য সংখ্যা = ৬ টি ∴ ৫ দ্বারা বিভাজ্য হওয়ার সম্ভাবনা = ৬/৯০ = ১/১৫\n∴ ৫ দ্বারা বিভাজ্য না হওয়ার সম্ভাবনা = ১/৩ - ১/১৫ = ৪/১৫ (Ans.)"
+    "explanation": "আমরা জানি, সম্ভাবনা = অনুকূল ঘটনা / মোট ঘটনা\nদুই অংক বিশিষ্ট সংখ্যা (১০-৯৯ পর্যন্ত) ৯০ টি।\n১০ থেকে ৯৯ পর্যন্ত ৩ এর গুণিতক সংখ্যা = ৩০ টি ∴ ৩ দ্বারা বিভাজ্য হওয়ার সম্ভাবনা = ৩০/৯০ = ১/৩\n৩০ টি গুণিতের মধ্যে ৫ দ্বারা বিভাজ্য সংখ্যা = ৬ টি ∴ ৫ দ্বারা বিভাজ্য হওয়ার সম্ভাবনা = ৬/৯০ = ১/১৫\n∴ ৫ দ্বারা বিভাজ্য না হওয়ার সম্ভাবনা = ১/৩ - ১/১৫ = ৪/১৫ (Ans.)",
+    "ans": 1,
+    "correct_answer": "৪/১৫"
   },
   {
     "id": 27,
@@ -321,7 +373,9 @@
       "60"
     ],
     "answer": "ঘ",
-    "explanation": "Let, A এর 1 দিনের কাজ = x\nB এর 1 দিনের কাজ = y\n∴ x + y = 1/30 ........ (i) and 16x + 44y = 1 .......... (ii)\nSolve (i) & (ii) x = 1/60 (A), y = 1/60 (B) [B এর এক দিনের কাজ]\n∴ B alone shall finish the work in 60 days (Ans.)"
+    "explanation": "Let, A এর 1 দিনের কাজ = x\nB এর 1 দিনের কাজ = y\n∴ x + y = 1/30 ........ (i) and 16x + 44y = 1 .......... (ii)\nSolve (i) & (ii) x = 1/60 (A), y = 1/60 (B) [B এর এক দিনের কাজ]\n∴ B alone shall finish the work in 60 days (Ans.)",
+    "ans": 3,
+    "correct_answer": "60"
   },
   {
     "id": 28,
@@ -333,7 +387,9 @@
       "৬০০"
     ],
     "answer": "গ",
-    "explanation": "Let, করিম পাবে = x টাকা।\nশর্তমতে, করিম + খবির + রহিম = 700\n⇒ x + x/2 + (x/2)/2 = 700 ⇒ x = 400 টাকা (Ans.)"
+    "explanation": "Let, করিম পাবে = x টাকা।\nশর্তমতে, করিম + খবির + রহিম = 700\n⇒ x + x/2 + (x/2)/2 = 700 ⇒ x = 400 টাকা (Ans.)",
+    "ans": 2,
+    "correct_answer": "৪০০"
   },
   {
     "id": 29,
@@ -345,7 +401,9 @@
       "কোনোটিই নয়"
     ],
     "answer": "গ",
-    "explanation": "Let, শিক্ষার্থীর সংখ্যা = x জন, শর্তমতে, x/4 + 3 = (x - 6)/3 ⇒ x = 60 (Ans.)"
+    "explanation": "Let, শিক্ষার্থীর সংখ্যা = x জন, শর্তমতে, x/4 + 3 = (x - 6)/3 ⇒ x = 60 (Ans.)",
+    "ans": 2,
+    "correct_answer": "৬০"
   },
   {
     "id": 30,
@@ -357,7 +415,9 @@
       "১১০ এবং ৭৫"
     ],
     "answer": "গ",
-    "explanation": "ধরি, সাধারণ গণিতে পায় = x, উচ্চতর গণিতে = x - 5\nশর্তমতে, x + x - 5 = 185; ⇒ 2x = 180; ⇒ x = 95\n∴ উচ্চতর গণিতে পায় = x - 5 = 95 - 5 = 90 এবং সাধারণ গণিতে পায় = x = 95 (Ans.)"
+    "explanation": "ধরি, সাধারণ গণিতে পায় = x, উচ্চতর গণিতে = x - 5\nশর্তমতে, x + x - 5 = 185; ⇒ 2x = 180; ⇒ x = 95\n∴ উচ্চতর গণিতে পায় = x - 5 = 95 - 5 = 90 এবং সাধারণ গণিতে পায় = x = 95 (Ans.)",
+    "ans": 2,
+    "correct_answer": "৯৫ এবং ৯০"
   },
   {
     "id": 31,
@@ -369,7 +429,9 @@
       "18 min"
     ],
     "answer": "খ",
-    "explanation": "We know, (Men 1 × time 1) / Work 1 = (Men 2 × time 2) / work 2\n⇒ (12 × 9) / 60 = (27 × time2) / 180\n⇒ time 2 = 12 minutes (Ans.)"
+    "explanation": "We know, (Men 1 × time 1) / Work 1 = (Men 2 × time 2) / work 2\n⇒ (12 × 9) / 60 = (27 × time2) / 180\n⇒ time 2 = 12 minutes (Ans.)",
+    "ans": 1,
+    "correct_answer": "12 min"
   },
   {
     "id": 32,
@@ -381,7 +443,9 @@
       "25 tk"
     ],
     "answer": "গ",
-    "explanation": "The average for 4 person = 20, while no person contributed more than 25, to get the least amount from a person, 3 person must contribute the maximum amount possible. So that (25 × 3) + x / 4 = 20, ⇒ x = 5 (Ans.)"
+    "explanation": "The average for 4 person = 20, while no person contributed more than 25, to get the least amount from a person, 3 person must contribute the maximum amount possible. So that (25 × 3) + x / 4 = 20, ⇒ x = 5 (Ans.)",
+    "ans": 2,
+    "correct_answer": "5 tk"
   },
   {
     "id": 33,
@@ -393,7 +457,9 @@
       "20 days"
     ],
     "answer": "খ",
-    "explanation": "একত্রে কাজ করতে সময় লাগবে = (A⁻¹ + B⁻¹)⁻¹ = (1/20 + 1/30)⁻¹ = 12 day (Ans.)"
+    "explanation": "একত্রে কাজ করতে সময় লাগবে = (A⁻¹ + B⁻¹)⁻¹ = (1/20 + 1/30)⁻¹ = 12 day (Ans.)",
+    "ans": 1,
+    "correct_answer": "12 days"
   },
   {
     "id": 34,
@@ -405,7 +471,9 @@
       "25"
     ],
     "answer": "গ",
-    "explanation": "Let, no of right answer = x, no of wrong answer = 20 - x\nশর্তমতে, x × 5 - (20 - x) × 2 = 72, ⇒ x = 16 টি [সঠিক উত্তর করতে হবে] (Ans.)"
+    "explanation": "Let, no of right answer = x, no of wrong answer = 20 - x\nশর্তমতে, x × 5 - (20 - x) × 2 = 72, ⇒ x = 16 টি [সঠিক উত্তর করতে হবে] (Ans.)",
+    "ans": 2,
+    "correct_answer": "16"
   },
   {
     "id": 35,
@@ -417,7 +485,9 @@
       "90"
     ],
     "answer": "গ",
-    "explanation": "(A + B)'s 20 days work = 20/30 = 2/3, অবশিষ্ট কাজ = 1 - 2/3 = 1/3\nB, 1/3 অংশ করে 20 দিনে\n∴ 1 বা সম্পূর্ণ অংশ করে = 20 × 3 = 60 দিনে (Ans.)"
+    "explanation": "(A + B)'s 20 days work = 20/30 = 2/3, অবশিষ্ট কাজ = 1 - 2/3 = 1/3\nB, 1/3 অংশ করে 20 দিনে\n∴ 1 বা সম্পূর্ণ অংশ করে = 20 × 3 = 60 দিনে (Ans.)",
+    "ans": 2,
+    "correct_answer": "60"
   },
   {
     "id": 36,
@@ -429,7 +499,9 @@
       "62.5"
     ],
     "answer": "ঘ",
-    "explanation": "মনে করি, 1 টি বাকেটের ক্যাপাসিটি = x, ∴ ট্যাংকের ক্যাপাসিটি = 25x\nবাকেটের নতুন ক্যাপাসিটি = 2/5 x\nশর্তমতে, প্রয়োজনীয় বাকেট = 25x / (2x/5) = 62.5 (Ans.)"
+    "explanation": "মনে করি, 1 টি বাকেটের ক্যাপাসিটি = x, ∴ ট্যাংকের ক্যাপাসিটি = 25x\nবাকেটের নতুন ক্যাপাসিটি = 2/5 x\nশর্তমতে, প্রয়োজনীয় বাকেট = 25x / (2x/5) = 62.5 (Ans.)",
+    "ans": 3,
+    "correct_answer": "62.5"
   },
   {
     "id": 37,
@@ -441,7 +513,9 @@
       "4"
     ],
     "answer": "ক",
-    "explanation": "by using calculator, total sum = 1 (Ans.)"
+    "explanation": "by using calculator, total sum = 1 (Ans.)",
+    "ans": 0,
+    "correct_answer": "1"
   },
   {
     "id": 38,
@@ -453,7 +527,9 @@
       "22"
     ],
     "answer": "গ",
-    "explanation": "মনে করি, হরিণ সংখ্যা = x, পাতি হাঁস সংখ্যা = y\n∴ x + y = 180 ............. (i) and 4x + 2y = 448 ............. (ii)\nSolve (i)&(ii) x = 44 (Ans.)"
+    "explanation": "মনে করি, হরিণ সংখ্যা = x, পাতি হাঁস সংখ্যা = y\n∴ x + y = 180 ............. (i) and 4x + 2y = 448 ............. (ii)\nSolve (i)&(ii) x = 44 (Ans.)",
+    "ans": 2,
+    "correct_answer": "44"
   },
   {
     "id": 39,
@@ -465,7 +541,9 @@
       "16"
     ],
     "answer": "ঘ",
-    "explanation": "মনে করি, সঠিক উত্তরের সংখ্যা = x\nভুল উত্তরের সংখ্যা = 20 - x\nশর্তমতে, (x × 5) - {(20 - x) × 2} = 72, ⇒ x = 16 (Ans.)"
+    "explanation": "মনে করি, সঠিক উত্তরের সংখ্যা = x\nভুল উত্তরের সংখ্যা = 20 - x\nশর্তমতে, (x × 5) - {(20 - x) × 2} = 72, ⇒ x = 16 (Ans.)",
+    "ans": 3,
+    "correct_answer": "16"
   },
   {
     "id": 40,
@@ -477,7 +555,9 @@
       "11"
     ],
     "answer": "গ",
-    "explanation": "মনে করি, cat's সংখ্যা = x, Birds সংখ্যা = y\nশর্তমতে, x + y = 15 ........... (i) and 4x + 2y = 50 ........... (ii)\nSolve (i)&(ii) x = 10, y = 5 ∴ cat সংখ্যা = ১০ টি (Ans.) [বিড়ালের পা = ৪ টি, পাখির পা = ২টি]"
+    "explanation": "মনে করি, cat's সংখ্যা = x, Birds সংখ্যা = y\nশর্তমতে, x + y = 15 ........... (i) and 4x + 2y = 50 ........... (ii)\nSolve (i)&(ii) x = 10, y = 5 ∴ cat সংখ্যা = ১০ টি (Ans.) [বিড়ালের পা = ৪ টি, পাখির পা = ২টি]",
+    "ans": 2,
+    "correct_answer": "10"
   },
   {
     "id": 41,
@@ -489,7 +569,9 @@
       "3D/(M² - 3M)"
     ],
     "answer": "ঘ",
-    "explanation": "No. of Men = M; Amount of Tk = D\nEach of the Men's contribution = D/M\nIf three person dropped out = D/(M - 3)\nMore contribution required = D/(M - 3) - D/M = 3D / (M² - 3M) (Ans.)"
+    "explanation": "No. of Men = M; Amount of Tk = D\nEach of the Men's contribution = D/M\nIf three person dropped out = D/(M - 3)\nMore contribution required = D/(M - 3) - D/M = 3D / (M² - 3M) (Ans.)",
+    "ans": 3,
+    "correct_answer": "3D/(M² - 3M)"
   },
   {
     "id": 42,
@@ -501,7 +583,9 @@
       "45"
     ],
     "answer": "ঘ",
-    "explanation": "১০টি সংখ্যার মোট = 20 × 10 = 200\nপ্রত্যেক সংখ্যা 2 দ্বারা গুণ অর্থাৎ মোট = 200 × 2 = 400, যখন প্রত্যেকটি 5 বৃদ্ধি পাবে,\nমোট 400 + (10 × 5) = 450 ∴ নতুন সংখ্যা = 450/10 = 45 (Ans.)"
+    "explanation": "১০টি সংখ্যার মোট = 20 × 10 = 200\nপ্রত্যেক সংখ্যা 2 দ্বারা গুণ অর্থাৎ মোট = 200 × 2 = 400, যখন প্রত্যেকটি 5 বৃদ্ধি পাবে,\nমোট 400 + (10 × 5) = 450 ∴ নতুন সংখ্যা = 450/10 = 45 (Ans.)",
+    "ans": 3,
+    "correct_answer": "45"
   },
   {
     "id": 43,
@@ -513,7 +597,9 @@
       "15"
     ],
     "answer": "খ",
-    "explanation": "Person1 × time1 = person2 × time2 ⇒ 39 × (12 × 5) = 30 × (6 × time2)\n⇒ time2 = 13 days (Ans.)"
+    "explanation": "Person1 × time1 = person2 × time2 ⇒ 39 × (12 × 5) = 30 × (6 × time2)\n⇒ time2 = 13 days (Ans.)",
+    "ans": 1,
+    "correct_answer": "13"
   },
   {
     "id": 44,
@@ -525,7 +611,9 @@
       "6 days"
     ],
     "answer": "খ",
-    "explanation": "এখানে, 8 জন আসায় মোট 12 হলে, আগে ছিল 4 জন\n∴ 4 জনের জন্য মজুদ ছিল = 17 দিনের খাবার, 5 দিন পর অবশিষ্ট দিন = 17 - 5 = 12 দিন\n∴ সময় = (12 × 4) / মোট সংখ্যা = 48 / 12 = 4 days (Ans.)"
+    "explanation": "এখানে, 8 জন আসায় মোট 12 হলে, আগে ছিল 4 জন\n∴ 4 জনের জন্য মজুদ ছিল = 17 দিনের খাবার, 5 দিন পর অবশিষ্ট দিন = 17 - 5 = 12 দিন\n∴ সময় = (12 × 4) / মোট সংখ্যা = 48 / 12 = 4 days (Ans.)",
+    "ans": 1,
+    "correct_answer": "4 days"
   },
   {
     "id": 45,
@@ -537,7 +625,9 @@
       "180 gallons"
     ],
     "answer": "গ",
-    "explanation": "Work done by the waste pipe in 1 minute = 1/15 - (1/20 + 1/24)\n⇒ -1/40 [-sign means emptying]\n∴ 1/40 অংশ = 3 gallon, ⇒ 1 অংশ = 3 × 40 = 120 gallon (Ans.)"
+    "explanation": "Work done by the waste pipe in 1 minute = 1/15 - (1/20 + 1/24)\n⇒ -1/40 [-sign means emptying]\n∴ 1/40 অংশ = 3 gallon, ⇒ 1 অংশ = 3 × 40 = 120 gallon (Ans.)",
+    "ans": 2,
+    "correct_answer": "120 gallons"
   },
   {
     "id": 46,
@@ -549,7 +639,9 @@
       "12 hours"
     ],
     "answer": "গ",
-    "explanation": "Shortcut:- পূর্ণ হতে সময় = (3⁻¹ - 6⁻¹)⁻¹ = 6 hours (Ans.)"
+    "explanation": "Shortcut:- পূর্ণ হতে সময় = (3⁻¹ - 6⁻¹)⁻¹ = 6 hours (Ans.)",
+    "ans": 2,
+    "correct_answer": "6 hours"
   },
   {
     "id": 47,
@@ -561,7 +653,9 @@
       "৮২৫০"
     ],
     "answer": "ক",
-    "explanation": "আমরা জানি, ঘনত্ব = জনসংখ্যা / ক্ষেত্রফল ;\n∴ জনসংখ্যা = ঘনত্ব × ক্ষেত্রফল = ১২৫০ × ৫ = ৬২৫০ জন (Ans.)"
+    "explanation": "আমরা জানি, ঘনত্ব = জনসংখ্যা / ক্ষেত্রফল ;\n∴ জনসংখ্যা = ঘনত্ব × ক্ষেত্রফল = ১২৫০ × ৫ = ৬২৫০ জন (Ans.)",
+    "ans": 0,
+    "correct_answer": "৬২৫০"
   },
   {
     "id": 48,
@@ -573,7 +667,9 @@
       "১৪৫০"
     ],
     "answer": "খ",
-    "explanation": "প্রশ্নমতে, ভাজক = (৩৫ + ১৫) - ৭ = ৪৩\nতাহলে, আমরা জানি, ভাজ্য = (ভাজক × ভাগফল) + ভাগশেষ = (৪৩ × ৩৫) + ১৫ = ১৫২০ (Ans.)"
+    "explanation": "প্রশ্নমতে, ভাজক = (৩৫ + ১৫) - ৭ = ৪৩\nতাহলে, আমরা জানি, ভাজ্য = (ভাজক × ভাগফল) + ভাগশেষ = (৪৩ × ৩৫) + ১৫ = ১৫২০ (Ans.)",
+    "ans": 1,
+    "correct_answer": "১৫২০"
   },
   {
     "id": 49,
@@ -585,7 +681,9 @@
       "১"
     ],
     "answer": "গ",
-    "explanation": "মনে করি, M = পুরুষ, F = মহিলা\n2M + 1F = 1/4\n1M + 3F = 1/4\n-------------------\n3M + 4F = 1/4 + 1/4 = 1/2 অংশ\n∴ 1/2 অংশ করে = 1 ঘন্টায়। সুতরাং, 1 অংশ করে = 1 × 2 = 2 ঘন্টায় (Ans.)"
+    "explanation": "মনে করি, M = পুরুষ, F = মহিলা\n2M + 1F = 1/4\n1M + 3F = 1/4\n-------------------\n3M + 4F = 1/4 + 1/4 = 1/2 অংশ\n∴ 1/2 অংশ করে = 1 ঘন্টায়। সুতরাং, 1 অংশ করে = 1 × 2 = 2 ঘন্টায় (Ans.)",
+    "ans": 2,
+    "correct_answer": "২"
   },
   {
     "id": 50,
@@ -597,7 +695,9 @@
       "৫৭"
     ],
     "answer": "খ",
-    "explanation": "shortcut:- সংখ্যাটি = ৪৬২ - (৫২ × ৪ + ৩৮ × ৫) = ৬৪ (Ans.)"
+    "explanation": "shortcut:- সংখ্যাটি = ৪৬২ - (৫২ × ৪ + ৩৮ × ৫) = ৬৪ (Ans.)",
+    "ans": 1,
+    "correct_answer": "৬৪"
   },
   {
     "id": 51,
@@ -609,7 +709,9 @@
       "২০০"
     ],
     "answer": "ক",
-    "explanation": "মনে করি, ধারণক্ষমতা = x লিটার\nশর্তমতে, 2x/5 + 25 = x × 90% = x × 90/100 ⇒ x = ৫০ লিটার (Ans.)"
+    "explanation": "মনে করি, ধারণক্ষমতা = x লিটার\nশর্তমতে, 2x/5 + 25 = x × 90% = x × 90/100 ⇒ x = ৫০ লিটার (Ans.)",
+    "ans": 0,
+    "correct_answer": "৫০"
   },
   {
     "id": 52,
@@ -621,7 +723,9 @@
       "২৭"
     ],
     "answer": "খ",
-    "explanation": "Let, সংখ্যা দুটি x ও y, xy = 156 , x² + y² = 313\nআমরা জানি, (x + y)² = x² + y² + 2xy\n⇒ x + y = √(313 + 2 × 156) = √625 = 25 (Ans.)"
+    "explanation": "Let, সংখ্যা দুটি x ও y, xy = 156 , x² + y² = 313\nআমরা জানি, (x + y)² = x² + y² + 2xy\n⇒ x + y = √(313 + 2 × 156) = √625 = 25 (Ans.)",
+    "ans": 1,
+    "correct_answer": "২৫"
   },
   {
     "id": 53,
@@ -633,7 +737,9 @@
       "৭২০"
     ],
     "answer": "ঘ",
-    "explanation": "Let, সুমনের কাছে টাকার পরিমান = x টাকা\nশর্তমতে, x/18 - 4 = x/20; ⇒ x/18 - x/20 = 4; ⇒ x = 720 টাকা (Ans.)"
+    "explanation": "Let, সুমনের কাছে টাকার পরিমান = x টাকা\nশর্তমতে, x/18 - 4 = x/20; ⇒ x/18 - x/20 = 4; ⇒ x = 720 টাকা (Ans.)",
+    "ans": 3,
+    "correct_answer": "৭২০"
   },
   {
     "id": 54,
@@ -645,7 +751,9 @@
       "৮০০ সেমি"
     ],
     "answer": "খ",
-    "explanation": "Let, ২ বছর আগে উচ্চতা ছিল = x\n২ বছর পর ২০% করে ২ বার বাড়লে হয় = x এর ১২০% এর ১২০% = ১০৮০\n⇒ x × 120/100 × 120/100 = 1080 ⇒ x = 750 সেমি (Ans.)"
+    "explanation": "Let, ২ বছর আগে উচ্চতা ছিল = x\n২ বছর পর ২০% করে ২ বার বাড়লে হয় = x এর ১২০% এর ১২০% = ১০৮০\n⇒ x × 120/100 × 120/100 = 1080 ⇒ x = 750 সেমি (Ans.)",
+    "ans": 1,
+    "correct_answer": "৭৫০ সেমি"
   },
   {
     "id": 55,
@@ -657,7 +765,9 @@
       "৩২ টি"
     ],
     "answer": "ঘ",
-    "explanation": "Tricks: (men 1 × Time1) / work1 = (men 2 × Time2) / work2\n⇒ (5 × (9 × 3)) / 9 = (8 × (6 × 10)) / work2 ∴ work2 = 32 টি (Ans.)"
+    "explanation": "Tricks: (men 1 × Time1) / work1 = (men 2 × Time2) / work2\n⇒ (5 × (9 × 3)) / 9 = (8 × (6 × 10)) / work2 ∴ work2 = 32 টি (Ans.)",
+    "ans": 3,
+    "correct_answer": "৩২ টি"
   },
   {
     "id": 56,
@@ -669,7 +779,9 @@
       "০.০৬৭"
     ],
     "answer": "ঘ",
-    "explanation": "আমরা জানি, ১ কুইন্টাল = ১০০ kg\nদেওয়া আছে, ১০০ × ১০০০ gm চালের দাম = ৬৭০০ টাকা ∴ ১ gm চালের দাম = ০.০৬৭ টাকা (Ans.)"
+    "explanation": "আমরা জানি, ১ কুইন্টাল = ১০০ kg\nদেওয়া আছে, ১০০ × ১০০০ gm চালের দাম = ৬৭০০ টাকা ∴ ১ gm চালের দাম = ০.০৬৭ টাকা (Ans.)",
+    "ans": 3,
+    "correct_answer": "০.০৬৭"
   },
   {
     "id": 57,
@@ -681,7 +793,9 @@
       "৪৫০০"
     ],
     "answer": "খ",
-    "explanation": "দৈনিক জমার পরিমান = ৫৪৫ - ৪৪৫ = ১০০ টাকা\nঅধিবর্ষের ফেব্রুয়ারি মাসে জমার পরিমান = ১০০ × ২৯ = ২৯০০ টাকা (Ans.)"
+    "explanation": "দৈনিক জমার পরিমান = ৫৪৫ - ৪৪৫ = ১০০ টাকা\nঅধিবর্ষের ফেব্রুয়ারি মাসে জমার পরিমান = ১০০ × ২৯ = ২৯০০ টাকা (Ans.)",
+    "ans": 1,
+    "correct_answer": "২৯০০"
   },
   {
     "id": 58,
@@ -693,7 +807,9 @@
       "33"
     ],
     "answer": "ঘ",
-    "explanation": "Let, অন্য সংখ্যাগুলো হলো 88 এবং 89, প্রশ্নমতে, (x + 88 + 89 + 90) / 4 = 75 ⇒ x = 33 (Ans.)"
+    "explanation": "Let, অন্য সংখ্যাগুলো হলো 88 এবং 89, প্রশ্নমতে, (x + 88 + 89 + 90) / 4 = 75 ⇒ x = 33 (Ans.)",
+    "ans": 3,
+    "correct_answer": "33"
   },
   {
     "id": 59,
@@ -705,7 +821,9 @@
       "8/3"
     ],
     "answer": "ঘ",
-    "explanation": "Let, x পরিমান যোগ করতে হবে।, Total পানির পরিমান = x + 4,\nশর্তমতে, 4 / (x + 4) = 3/5 ∴ x = 8/3 (Ans.)"
+    "explanation": "Let, x পরিমান যোগ করতে হবে।, Total পানির পরিমান = x + 4,\nশর্তমতে, 4 / (x + 4) = 3/5 ∴ x = 8/3 (Ans.)",
+    "ans": 3,
+    "correct_answer": "8/3"
   },
   {
     "id": 60,
@@ -717,7 +835,9 @@
       "250"
     ],
     "answer": "গ",
-    "explanation": "Let, x = The total number of tickets sold\nশর্তমতে, 11x + 2(x - 100) = 2400 ⇒ x = 200 (Ans.)"
+    "explanation": "Let, x = The total number of tickets sold\nশর্তমতে, 11x + 2(x - 100) = 2400 ⇒ x = 200 (Ans.)",
+    "ans": 2,
+    "correct_answer": "200"
   },
   {
     "id": 61,
@@ -729,7 +849,9 @@
       "16"
     ],
     "answer": "গ",
-    "explanation": "(A+B+C)'s 1 hours' work = 1/6\nPart filled in 2 hours = 2/6 = 1/3 ∴ Remaining part = 1 - 1/3 = 2/3\n(A + B)'s 7 hours work = 2/3\n(A + B)'s 1 hour work = 2 / (3 × 7) = 2/21\n∴ C's 1 hours work = 1/6 - 2/21 = 1/14 ∴ C alone can fill the tank in 14 hours (Ans.)"
+    "explanation": "(A+B+C)'s 1 hours' work = 1/6\nPart filled in 2 hours = 2/6 = 1/3 ∴ Remaining part = 1 - 1/3 = 2/3\n(A + B)'s 7 hours work = 2/3\n(A + B)'s 1 hour work = 2 / (3 × 7) = 2/21\n∴ C's 1 hours work = 1/6 - 2/21 = 1/14 ∴ C alone can fill the tank in 14 hours (Ans.)",
+    "ans": 2,
+    "correct_answer": "14"
   },
   {
     "id": 62,
@@ -741,7 +863,9 @@
       "27"
     ],
     "answer": "ঘ",
-    "explanation": "Shortcut: সময় = (১ম পুরুষ × ১ম মহিলা × ১ম দিন) / ((১ম পুরুষ × ২য় মহিলা) + (২য় পুরুষ × ১ম মহিলা)) = (10 × 18 × 45) / ((10 × 15) + (25 × 18)) = 13.5\n∴ দ্বিগুণ কাজ করতে সময় = 13.5 × 2 = 27 (Ans.)"
+    "explanation": "Shortcut: সময় = (১ম পুরুষ × ১ম মহিলা × ১ম দিন) / ((১ম পুরুষ × ২য় মহিলা) + (২য় পুরুষ × ১ম মহিলা)) = (10 × 18 × 45) / ((10 × 15) + (25 × 18)) = 13.5\n∴ দ্বিগুণ কাজ করতে সময় = 13.5 × 2 = 27 (Ans.)",
+    "ans": 3,
+    "correct_answer": "27"
   },
   {
     "id": 63,
@@ -753,7 +877,9 @@
       "91"
     ],
     "answer": "ক",
-    "explanation": "Let, Total marks = 100\n∴ The mark in the 5th exam = (85 × 5) - (84 × 4) = 89 (Ans.)"
+    "explanation": "Let, Total marks = 100\n∴ The mark in the 5th exam = (85 × 5) - (84 × 4) = 89 (Ans.)",
+    "ans": 0,
+    "correct_answer": "89"
   },
   {
     "id": 64,
@@ -765,7 +891,9 @@
       "28/3"
     ],
     "answer": "ক",
-    "explanation": "শর্তমতে, 60/2 + (60/2 × x%) = 70\n⇒ 30 + (30 × x/100) = 70 ; ∴ x = 4000/30 = 400/3 (Ans.)"
+    "explanation": "শর্তমতে, 60/2 + (60/2 × x%) = 70\n⇒ 30 + (30 × x/100) = 70 ; ∴ x = 4000/30 = 400/3 (Ans.)",
+    "ans": 0,
+    "correct_answer": "400/3"
   },
   {
     "id": 65,
@@ -777,7 +905,9 @@
       "100"
     ],
     "answer": "ঘ",
-    "explanation": "For 4 test, total = 80 × 4 = 320\nLet, n = score on the 5th test\nHere, Average = sum / quantity , ⇒ 84 = (320 + n) / 5 , ∴ n = 100 (Ans.)"
+    "explanation": "For 4 test, total = 80 × 4 = 320\nLet, n = score on the 5th test\nHere, Average = sum / quantity , ⇒ 84 = (320 + n) / 5 , ∴ n = 100 (Ans.)",
+    "ans": 3,
+    "correct_answer": "100"
   },
   {
     "id": 66,
@@ -789,7 +919,9 @@
       "12"
     ],
     "answer": "খ",
-    "explanation": "Sum of two number = sum of eight number - sum of six number\n= (8 × 14) - (6 × 16) = 16\n∴ Average of 2 number = 16/2 = 8 (Ans.)"
+    "explanation": "Sum of two number = sum of eight number - sum of six number\n= (8 × 14) - (6 × 16) = 16\n∴ Average of 2 number = 16/2 = 8 (Ans.)",
+    "ans": 1,
+    "correct_answer": "8"
   },
   {
     "id": 67,
@@ -801,7 +933,9 @@
       "14 hr"
     ],
     "answer": "ঘ",
-    "explanation": "Work done for 1 hr without leakage = 1/2\nWork done for 1 hr with leakage = 1 / (7/3) = 3/7 [2 hours 20 minute = 7/3 hr]\n∴ workdone by the leakage in 1 hr = 1/2 - 3/7 = 1/14\nThe time taken by the leak to empty the tank = 1 / (1/14) = 14 hr (Ans.)"
+    "explanation": "Work done for 1 hr without leakage = 1/2\nWork done for 1 hr with leakage = 1 / (7/3) = 3/7 [2 hours 20 minute = 7/3 hr]\n∴ workdone by the leakage in 1 hr = 1/2 - 3/7 = 1/14\nThe time taken by the leak to empty the tank = 1 / (1/14) = 14 hr (Ans.)",
+    "ans": 3,
+    "correct_answer": "14 hr"
   },
   {
     "id": 68,
@@ -813,7 +947,9 @@
       "tx⁴"
     ],
     "answer": "গ",
-    "explanation": "(men1 × time1) / work1 = (men2 × time2) / work2 , ⇒ (1 × 1/x) / t = (x × x) / work2 ∴ work2 = tx³ (Ans.)\nor, 1 worker takes 1/x time to complete t work\n1 worker takes 1 time to complete = t / (1/x) work\nx worker takes x time to complete = (t × x × x) / (1/x) work = tx³ (Ans.)"
+    "explanation": "(men1 × time1) / work1 = (men2 × time2) / work2 , ⇒ (1 × 1/x) / t = (x × x) / work2 ∴ work2 = tx³ (Ans.)\nor, 1 worker takes 1/x time to complete t work\n1 worker takes 1 time to complete = t / (1/x) work\nx worker takes x time to complete = (t × x × x) / (1/x) work = tx³ (Ans.)",
+    "ans": 2,
+    "correct_answer": "tx³"
   },
   {
     "id": 69,
@@ -825,7 +961,9 @@
       "28"
     ],
     "answer": "খ",
-    "explanation": "মনে করি, family তে সদস্য সংখ্যা = x\nশর্তমতে, 15x = 5x + 6(8 + x) ⇒ x = 12 (Ans.)\nOr, (15 - 5) days food provision for x No. of persons,\n∴ 1 days food provision for = x × 10 persons\nAgain, 6 days food provision for (x + 8) No. of persons\n∴ 1 days food provision for (x + 8) 6 No. of persons\nConditionally, 10x = (x + 8) 6\n⇒ 4x = 48 ∴ x = 12 (Ans.)"
+    "explanation": "মনে করি, family তে সদস্য সংখ্যা = x\nশর্তমতে, 15x = 5x + 6(8 + x) ⇒ x = 12 (Ans.)\nOr, (15 - 5) days food provision for x No. of persons,\n∴ 1 days food provision for = x × 10 persons\nAgain, 6 days food provision for (x + 8) No. of persons\n∴ 1 days food provision for (x + 8) 6 No. of persons\nConditionally, 10x = (x + 8) 6\n⇒ 4x = 48 ∴ x = 12 (Ans.)",
+    "ans": 1,
+    "correct_answer": "12"
   },
   {
     "id": 70,
@@ -837,7 +975,9 @@
       "14 hours"
     ],
     "answer": "ঘ",
-    "explanation": "Shortcut:- Work done by the leak, = {2⁻¹ - (2 1/3)⁻¹}⁻¹ = 14 (Ans.)\nOr, Let, total volume of tank = 1\nCase-1, Takes 2 hrs to fill 1 portion\nTakes 1 hrs to fill = 1/2 portion\nCase-2, Takes 7/3 hrs to fill 1 portion\nTakes 1 hrs to fill = 3/7 portion\nLeakage Contribution = 1/2 - 3/7 = 1/14 portion\nNow, 1/14 portion drain in 1 hr.\n∴ 1 protion drain in 1/(1/14) = 14 hrs. (Ans.)"
+    "explanation": "Shortcut:- Work done by the leak, = {2⁻¹ - (2 1/3)⁻¹}⁻¹ = 14 (Ans.)\nOr, Let, total volume of tank = 1\nCase-1, Takes 2 hrs to fill 1 portion\nTakes 1 hrs to fill = 1/2 portion\nCase-2, Takes 7/3 hrs to fill 1 portion\nTakes 1 hrs to fill = 3/7 portion\nLeakage Contribution = 1/2 - 3/7 = 1/14 portion\nNow, 1/14 portion drain in 1 hr.\n∴ 1 protion drain in 1/(1/14) = 14 hrs. (Ans.)",
+    "ans": 3,
+    "correct_answer": "14 hours"
   },
   {
     "id": 71,
@@ -861,7 +1001,9 @@
       "৫"
     ],
     "answer": "খ",
-    "explanation": "Let, রান আউট = x, ∴ কট আউট = 1.5x,\nসম্ভব আউট হওয়া মোট উইকেট সংখ্যা = 10 তাহলে, স্ট্যাম্প আউট = 10/2 = 5\nশর্তমতে, x + 1.5x + 5 = 10 ⇒ x = 2 ∴ কট আউট = 1.5 × 2 = 3 জন (Ans.)"
+    "explanation": "Let, রান আউট = x, ∴ কট আউট = 1.5x,\nসম্ভব আউট হওয়া মোট উইকেট সংখ্যা = 10 তাহলে, স্ট্যাম্প আউট = 10/2 = 5\nশর্তমতে, x + 1.5x + 5 = 10 ⇒ x = 2 ∴ কট আউট = 1.5 × 2 = 3 জন (Ans.)",
+    "ans": 1,
+    "correct_answer": "৩"
   },
   {
     "id": 73,
@@ -873,7 +1015,9 @@
       "৪০"
     ],
     "answer": "খ",
-    "explanation": "গড় ওজন = (মোট ওজন) / (মোট সংখ্যা) = ((৫০ × ১৬) + (৮ × ৪০)) / (১৬ + ৮) = ৪৮ (Ans.)"
+    "explanation": "গড় ওজন = (মোট ওজন) / (মোট সংখ্যা) = ((৫০ × ১৬) + (৮ × ৪০)) / (১৬ + ৮) = ৪৮ (Ans.)",
+    "ans": 1,
+    "correct_answer": "৪৮"
   },
   {
     "id": 74,
@@ -885,7 +1029,9 @@
       "২০০ জন"
     ],
     "answer": "ক",
-    "explanation": "অবশিষ্ট (২০ - ১০) = ১০ দিন খেতে পারতো = ৭২০ জন সৈন্য\n∴ ৮ দিনে খাবে = (৭২০ × ১০) / ৮ = ৯০০ জন সৈন্য\n∴ অতিরিক্ত লোক লাগবে = (৯০০ - ৭২০) = ১৮০ জন (Ans.)"
+    "explanation": "অবশিষ্ট (২০ - ১০) = ১০ দিন খেতে পারতো = ৭২০ জন সৈন্য\n∴ ৮ দিনে খাবে = (৭২০ × ১০) / ৮ = ৯০০ জন সৈন্য\n∴ অতিরিক্ত লোক লাগবে = (৯০০ - ৭২০) = ১৮০ জন (Ans.)",
+    "ans": 0,
+    "correct_answer": "১৮০ জন"
   },
   {
     "id": 75,
@@ -897,7 +1043,9 @@
       "z = 4x"
     ],
     "answer": "খ",
-    "explanation": "Let, y × x% = 100, ⇒ y × x/100 = 100, ∴ xy = 10000 ............. (i)\nAnd, z × y/100 = 200, ⇒ yz = 20000 ∴ y = 20000/z\nFrom equation (i) x . (20000/z) = 10000, ⇒ 2x = z (Ans.)"
+    "explanation": "Let, y × x% = 100, ⇒ y × x/100 = 100, ∴ xy = 10000 ............. (i)\nAnd, z × y/100 = 200, ⇒ yz = 20000 ∴ y = 20000/z\nFrom equation (i) x . (20000/z) = 10000, ⇒ 2x = z (Ans.)",
+    "ans": 1,
+    "correct_answer": "z = 2x"
   },
   {
     "id": 76,
@@ -909,7 +1057,9 @@
       "৭০ জন"
     ],
     "answer": "খ",
-    "explanation": "Let, মোট ছাত্র সংখ্যা = x জন। তাহলে, প্রত্যেকের মাসিক খরচ = 2x টাকা\nশর্তমতে, x × 2x = 6250 ⇒ x = √3125 = 55.9 = 56 জন (Ans.)"
+    "explanation": "Let, মোট ছাত্র সংখ্যা = x জন। তাহলে, প্রত্যেকের মাসিক খরচ = 2x টাকা\nশর্তমতে, x × 2x = 6250 ⇒ x = √3125 = 55.9 = 56 জন (Ans.)",
+    "ans": 1,
+    "correct_answer": "৫৬ জন"
   },
   {
     "id": 77,
@@ -921,7 +1071,9 @@
       "১৬০"
     ],
     "answer": "গ",
-    "explanation": "(Men 1 × time 1) / Work 1 = (Men 2 × time 2) / work 2\n⇒ (50 × 80) / (1/2) = (men2 × 50) / 1 ⇒ men2 = 160 জন\n∴ অতিরিক্ত লাগবে = 160 - 50 = 110 জন। (Ans.)"
+    "explanation": "(Men 1 × time 1) / Work 1 = (Men 2 × time 2) / work 2\n⇒ (50 × 80) / (1/2) = (men2 × 50) / 1 ⇒ men2 = 160 জন\n∴ অতিরিক্ত লাগবে = 160 - 50 = 110 জন। (Ans.)",
+    "ans": 2,
+    "correct_answer": "১১০"
   },
   {
     "id": 78,
@@ -933,7 +1085,9 @@
       "130"
     ],
     "answer": "গ",
-    "explanation": "প্রশ্নমতে, (ক + খ) + (খ + গ) + (ক + গ) = (300 + 350 + 352) × 2\n⇒ 2(ক + খ + গ) = 2004 ⇒ ক + খ + গ = 1002 ⇒ ক = 1002 - 700 = 302 (Ans.)"
+    "explanation": "প্রশ্নমতে, (ক + খ) + (খ + গ) + (ক + গ) = (300 + 350 + 352) × 2\n⇒ 2(ক + খ + গ) = 2004 ⇒ ক + খ + গ = 1002 ⇒ ক = 1002 - 700 = 302 (Ans.)",
+    "ans": 2,
+    "correct_answer": "302"
   },
   {
     "id": 79,
@@ -945,7 +1099,9 @@
       "২৫০০০০"
     ],
     "answer": "খ",
-    "explanation": "Let, ৩ মাসে আয় = x টাকা ∴ ১২ মাসে আয় = ৪x টাকা\nআবার, ৪ মাসে ব্যয় = x টাকা ∴ ১২ মাসে ব্যয় = ৩x টাকা\n∴ ১ বছরে জমা = ৪x - ৩x = x টাকা\n৪x টাকায় জমা হয় = x টাকা\n∴ ৪৫০০০ টাকায় জমা হয় = (x × 45000) / 4x = ১১২৫০ টাকা (Ans.)"
+    "explanation": "Let, ৩ মাসে আয় = x টাকা ∴ ১২ মাসে আয় = ৪x টাকা\nআবার, ৪ মাসে ব্যয় = x টাকা ∴ ১২ মাসে ব্যয় = ৩x টাকা\n∴ ১ বছরে জমা = ৪x - ৩x = x টাকা\n৪x টাকায় জমা হয় = x টাকা\n∴ ৪৫০০০ টাকায় জমা হয় = (x × 45000) / 4x = ১১২৫০ টাকা (Ans.)",
+    "ans": 1,
+    "correct_answer": "১১২৫০"
   },
   {
     "id": 80,
@@ -957,7 +1113,9 @@
       "1000"
     ],
     "answer": "ঘ",
-    "explanation": "Let, মোট student সংখ্যা = x, যেহেতু ছেলের সংখ্যা = 4/5 x সুতরাং মেয়ের সংখ্যা x - 4/5 x = 1/5 x\n∴ 1/5 x = 200 ⇒ x = 1000 (Ans.)"
+    "explanation": "Let, মোট student সংখ্যা = x, যেহেতু ছেলের সংখ্যা = 4/5 x সুতরাং মেয়ের সংখ্যা x - 4/5 x = 1/5 x\n∴ 1/5 x = 200 ⇒ x = 1000 (Ans.)",
+    "ans": 3,
+    "correct_answer": "1000"
   },
   {
     "id": 81,
@@ -969,7 +1127,9 @@
       "4"
     ],
     "answer": "ক",
-    "explanation": "A, 2 ঘণ্টায় পরিষ্কার করে 500 প্লেট\nA, 1 ঘণ্টায় পরিষ্কার করে 500/2 = 250 প্লেট\nB, 3 ঘণ্টায় পরিষ্কার করে 450 plate = 150 প্লেট\n∴ A ও B, 1 ঘণ্টায় পরিষ্কার করে = 250 + 150 = 400 প্লেট\nA ও B, 400 প্লেট পরিষ্কার করে 1 ঘণ্টায়\nA ও B, 1 প্লেট পরিষ্কার করে 1/400 ঘণ্টায়\nA ও B, 1000 প্লেট পরিষ্কার করে 1000/400 = 2.5 ঘণ্টায় (Ans.)\nOr, Using this formula directly, W₁/T₁ + W₂/T₂ = W(total)/T(total)\n⇒ 500/2 + 450/3 = 1000/T(total) ⇒ T(total) = 2.5 hours (Ans.)"
+    "explanation": "A, 2 ঘণ্টায় পরিষ্কার করে 500 প্লেট\nA, 1 ঘণ্টায় পরিষ্কার করে 500/2 = 250 প্লেট\nB, 3 ঘণ্টায় পরিষ্কার করে 450 plate = 150 প্লেট\n∴ A ও B, 1 ঘণ্টায় পরিষ্কার করে = 250 + 150 = 400 প্লেট\nA ও B, 400 প্লেট পরিষ্কার করে 1 ঘণ্টায়\nA ও B, 1 প্লেট পরিষ্কার করে 1/400 ঘণ্টায়\nA ও B, 1000 প্লেট পরিষ্কার করে 1000/400 = 2.5 ঘণ্টায় (Ans.)\nOr, Using this formula directly, W₁/T₁ + W₂/T₂ = W(total)/T(total)\n⇒ 500/2 + 450/3 = 1000/T(total) ⇒ T(total) = 2.5 hours (Ans.)",
+    "ans": 0,
+    "correct_answer": "2.5"
   },
   {
     "id": 82,
@@ -981,7 +1141,9 @@
       "৬০"
     ],
     "answer": "গ",
-    "explanation": "a:b::b:c একটি চতুর্থ সমানুপাতিক\na/b = b/c\n⇒ b² = ac = 48 [এখানে দেখা যায় যে, প্রান্তীয় রাশিদ্বয়ের গুণফল মধ্যরাশিদ্বয়ের গুণফলের সমান]\n∴ 48 (Ans.)"
+    "explanation": "a:b::b:c একটি চতুর্থ সমানুপাতিক\na/b = b/c\n⇒ b² = ac = 48 [এখানে দেখা যায় যে, প্রান্তীয় রাশিদ্বয়ের গুণফল মধ্যরাশিদ্বয়ের গুণফলের সমান]\n∴ 48 (Ans.)",
+    "ans": 2,
+    "correct_answer": "৪৮"
   },
   {
     "id": 83,
@@ -993,7 +1155,9 @@
       "2y - x"
     ],
     "answer": "ক",
-    "explanation": "Let, সানোয়ারের মারবেল আছে = m সংখ্যক, ফারুকের আছে = m + x\n∴ মোট y = m + (m + x) ⇒ m = (y - x) / 2 (Ans.)"
+    "explanation": "Let, সানোয়ারের মারবেল আছে = m সংখ্যক, ফারুকের আছে = m + x\n∴ মোট y = m + (m + x) ⇒ m = (y - x) / 2 (Ans.)",
+    "ans": 0,
+    "correct_answer": "(y - x)/2"
   },
   {
     "id": 84,
@@ -1005,7 +1169,9 @@
       "none of these"
     ],
     "answer": "খ",
-    "explanation": "Average cost = (50x + 80y) / (x + y) = (5x + 8y) / (0.1x + 0.1y) (Ans.) [লব ও হরকে 10 দ্বারা ভাগ করে]"
+    "explanation": "Average cost = (50x + 80y) / (x + y) = (5x + 8y) / (0.1x + 0.1y) (Ans.) [লব ও হরকে 10 দ্বারা ভাগ করে]",
+    "ans": 1,
+    "correct_answer": "(5x + 8y)/(0.1x + 0.1y)"
   },
   {
     "id": 85,
@@ -1017,7 +1183,9 @@
       "none"
     ],
     "answer": "গ",
-    "explanation": "according to question, Cost of Pen = Cost of pencil\n⇒ x × 10 = (x + 2) × 8, ⇒ x = 8 (Ans.)"
+    "explanation": "according to question, Cost of Pen = Cost of pencil\n⇒ x × 10 = (x + 2) × 8, ⇒ x = 8 (Ans.)",
+    "ans": 2,
+    "correct_answer": "8"
   },
   {
     "id": 86,
@@ -1029,6 +1197,8 @@
       "28"
     ],
     "answer": "ক",
-    "explanation": "মনে করি, ক্রয়মূল্য = x ∴ ক্রয়মূল্য + লাভ = বিক্রয়মূল্য\n⇒ x + (x × 22.5%) = 392\n⇒ x = 392 / 1.225 = 320,\n∴ লাভ = 392 - 320 = 72 (Ans.)"
+    "explanation": "মনে করি, ক্রয়মূল্য = x ∴ ক্রয়মূল্য + লাভ = বিক্রয়মূল্য\n⇒ x + (x × 22.5%) = 392\n⇒ x = 392 / 1.225 = 320,\n∴ লাভ = 392 - 320 = 72 (Ans.)",
+    "ans": 0,
+    "correct_answer": "72"
   }
 ]

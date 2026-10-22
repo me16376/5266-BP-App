@@ -7,182 +7,212 @@
     {
       "id": 1,
       "question": "He said to me, “Which book do you want?” বাক্যের indirect speech হচ্ছে-",
-      "options": {
-        "ক": "He said to me which book I wanted.",
-        "খ": "He asked me which book I wanted.",
-        "গ": "He asked to me which book I wanted.",
-        "ঘ": "He said to me which book I have wanted."
-      },
+      "options": [
+        "He said to me which book I wanted.",
+        "He asked me which book I wanted.",
+        "He asked to me which book I wanted.",
+        "He said to me which book I have wanted."
+      ],
       "answer": "খ",
-      "explanation": "Interrogative WH-question-এর Indirect রূপ: Subject + asked me + which book + Subject (I) + Past Indefinite (wanted)। তাই খ সঠিক।"
+      "explanation": "Interrogative WH-question-এর Indirect রূপ: Subject + asked me + which book + Subject (I) + Past Indefinite (wanted)। তাই খ সঠিক।",
+      "ans": 1,
+      "correct_answer": "He asked me which book I wanted."
     },
     {
       "id": 2,
       "question": "‘Bitter’ শব্দটির Verb হচ্ছে-",
-      "options": {
-        "ক": "Bitterness",
-        "খ": "Bitter",
-        "গ": "Bitterify",
-        "ঘ": "Embitter"
-      },
+      "options": [
+        "Bitterness",
+        "Bitter",
+        "Bitterify",
+        "Embitter"
+      ],
       "answer": "ঘ",
-      "explanation": "'Bitter' (তিক্ত) একটি Adjective। এর Verb রূপ হলো 'Embitter' (তিক্ত করা বা তিক্ততায় পূর্ণ করা)। Bitterness হলো noun।"
+      "explanation": "'Bitter' (তিক্ত) একটি Adjective। এর Verb রূপ হলো 'Embitter' (তিক্ত করা বা তিক্ততায় পূর্ণ করা)। Bitterness হলো noun।",
+      "ans": 3,
+      "correct_answer": "Embitter"
     },
     {
       "id": 3,
       "question": "‘Destroy’ শব্দটির Noun হচ্ছে-",
-      "options": {
-        "ক": "Destruction",
-        "খ": "Damage",
-        "গ": "Harm",
-        "ঘ": "Affect"
-      },
+      "options": [
+        "Destruction",
+        "Damage",
+        "Harm",
+        "Affect"
+      ],
       "answer": "ক",
-      "explanation": "'Destroy' (ধ্বংস করা) একটি Verb। এর Noun form হলো 'Destruction' (ধ্বংস)। Destructive হলো adjective।"
+      "explanation": "'Destroy' (ধ্বংস করা) একটি Verb। এর Noun form হলো 'Destruction' (ধ্বংস)। Destructive হলো adjective।",
+      "ans": 0,
+      "correct_answer": "Destruction"
     },
     {
       "id": 4,
       "question": "‘I shall adhere … my plan’ বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে-",
-      "options": {
-        "ক": "to",
-        "খ": "in",
-        "গ": "with",
-        "ঘ": "for"
-      },
+      "options": [
+        "to",
+        "in",
+        "with",
+        "for"
+      ],
       "answer": "ক",
-      "explanation": "'Adhere to' একটি appropriate preposition, যার অর্থ কোনো পরিকল্পনা বা নীতিতে অটল বা লেগে থাকা: 'I shall adhere to my plan.'"
+      "explanation": "'Adhere to' একটি appropriate preposition, যার অর্থ কোনো পরিকল্পনা বা নীতিতে অটল বা লেগে থাকা: 'I shall adhere to my plan.'",
+      "ans": 0,
+      "correct_answer": "to"
     },
     {
       "id": 5,
       "question": "‘Your conduct admits … no excuse’ বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে-",
-      "options": {
-        "ক": "for",
-        "খ": "at",
-        "গ": "of",
-        "ঘ": "from"
-      },
+      "options": [
+        "for",
+        "at",
+        "of",
+        "from"
+      ],
       "answer": "গ",
-      "explanation": "'Admit of' একটি appropriate preposition, যার অর্থ সুযোগ, অবকাশ বা স্থান থাকা: 'Your conduct admits of no excuse' (তোমার আচরণের কোনো ক্ষমার সুযোগ নেই)।"
+      "explanation": "'Admit of' একটি appropriate preposition, যার অর্থ সুযোগ, অবকাশ বা স্থান থাকা: 'Your conduct admits of no excuse' (তোমার আচরণের কোনো ক্ষমার সুযোগ নেই)।",
+      "ans": 2,
+      "correct_answer": "of"
     },
     {
       "id": 6,
       "question": "‘Beggar description phrase শব্দটির অর্থ হচ্ছে-",
-      "options": {
-        "ক": "Miser",
-        "খ": "Undescribable",
-        "গ": "Very poor",
-        "ঘ": "Inefficient"
-      },
+      "options": [
+        "Miser",
+        "Undescribable",
+        "Very poor",
+        "Inefficient"
+      ],
       "answer": "খ",
-      "explanation": "'Beggar description' একটি বহুল প্রচলিত phrase, যার অর্থ বর্ণনাতীত বা যা ভাষায় বর্ণনা করা যায় না (Beyond description / indescribable)।"
+      "explanation": "'Beggar description' একটি বহুল প্রচলিত phrase, যার অর্থ বর্ণনাতীত বা যা ভাষায় বর্ণনা করা যায় না (Beyond description / indescribable)।",
+      "ans": 1,
+      "correct_answer": "Undescribable"
     },
     {
       "id": 7,
       "question": "Viva-voce’ শব্দটির অর্থ হচ্ছে-",
-      "options": {
-        "ক": "Orally",
-        "খ": "Face to face",
-        "গ": "Interview",
-        "ঘ": "Written"
-      },
+      "options": [
+        "Orally",
+        "Face to face",
+        "Interview",
+        "Written"
+      ],
       "answer": "গ",
-      "explanation": "'Viva-voce' একটি লাতিন শব্দবন্ধ, যার অর্থ মৌখিক পরীক্ষা বা সাক্ষাৎকার (An oral examination / interview)।"
+      "explanation": "'Viva-voce' একটি লাতিন শব্দবন্ধ, যার অর্থ মৌখিক পরীক্ষা বা সাক্ষাৎকার (An oral examination / interview)।",
+      "ans": 2,
+      "correct_answer": "Interview"
     },
     {
       "id": 8,
       "question": "‘Natural’ শব্দটির Antonym হচ্ছে-",
-      "options": {
-        "ক": "WrittenInherent",
-        "খ": "Original",
-        "গ": "Kingdom",
-        "ঘ": "Abnormal"
-      },
+      "options": [
+        "WrittenInherent",
+        "Original",
+        "Kingdom",
+        "Abnormal"
+      ],
       "answer": "ঘ",
-      "explanation": "'Natural' শব্দের অর্থ স্বাভাবিক বা প্রাকৃতিক। এর বিপরীত (antonym) শব্দ হলো 'Abnormal' (অস্বাভাবিক বা ব্যতিক্রমী) অথবা Artificial।"
+      "explanation": "'Natural' শব্দের অর্থ স্বাভাবিক বা প্রাকৃতিক। এর বিপরীত (antonym) শব্দ হলো 'Abnormal' (অস্বাভাবিক বা ব্যতিক্রমী) অথবা Artificial।",
+      "ans": 3,
+      "correct_answer": "Abnormal"
     },
     {
       "id": 9,
       "question": "‘Encounter’ শব্দটির Synonym হচ্ছে-",
-      "options": {
-        "ক": "Concord",
-        "খ": "Battle",
-        "গ": "Harmony",
-        "ঘ": "Part"
-      },
+      "options": [
+        "Concord",
+        "Battle",
+        "Harmony",
+        "Part"
+      ],
       "answer": "খ",
-      "explanation": "'Encounter' শব্দের অর্থ যুদ্ধ, সংঘর্ষ বা মুখোমুখি লড়াই। এর যথার্থ সমার্থক (synonym) শব্দ হলো 'Battle' (লড়াই বা যুদ্ধ)।"
+      "explanation": "'Encounter' শব্দের অর্থ যুদ্ধ, সংঘর্ষ বা মুখোমুখি লড়াই। এর যথার্থ সমার্থক (synonym) শব্দ হলো 'Battle' (লড়াই বা যুদ্ধ)।",
+      "ans": 1,
+      "correct_answer": "Battle"
     },
     {
       "id": 10,
       "question": "নিচের কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Embarrasment",
-        "খ": "Embarrassment",
-        "গ": "Embarassment",
-        "ঘ": "Embarasment"
-      },
+      "options": [
+        "Embarrasment",
+        "Embarrassment",
+        "Embarassment",
+        "Embarasment"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Adulteration' (A-d-u-l-t-e-r-a-t-i-o-n), যার বাংলা অর্থ খাদ্যে বা কোনো দ্রব্যে ভেজাল মেশানো।"
+      "explanation": "সঠিক বানান হলো 'Adulteration' (A-d-u-l-t-e-r-a-t-i-o-n), যার বাংলা অর্থ খাদ্যে বা কোনো দ্রব্যে ভেজাল মেশানো।",
+      "ans": 1,
+      "correct_answer": "Embarrassment"
     },
     {
       "id": 11,
       "question": "নিচের কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Addultration",
-        "খ": "Adultration",
-        "গ": "Addulteration",
-        "ঘ": "Adulteration"
-      },
+      "options": [
+        "Addultration",
+        "Adultration",
+        "Addulteration",
+        "Adulteration"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Adulteration' (A-d-u-l-t-e-r-a-t-i-o-n), যার বাংলা অর্থ খাদ্যে বা কোনো দ্রব্যে ভেজাল মেশানো।"
+      "explanation": "সঠিক বানান হলো 'Adulteration' (A-d-u-l-t-e-r-a-t-i-o-n), যার বাংলা অর্থ খাদ্যে বা কোনো দ্রব্যে ভেজাল মেশানো।",
+      "ans": 3,
+      "correct_answer": "Adulteration"
     },
     {
       "id": 12,
       "question": "“Do away with it” এর Passive form হচ্ছে-",
-      "options": {
-        "ক": "Let it be done away with.",
-        "খ": "Let it has done away with it.",
-        "গ": "Let it is to be done away with.",
-        "ঘ": "Let it has to do away with."
-      },
+      "options": [
+        "Let it be done away with.",
+        "Let it has done away with it.",
+        "Let it is to be done away with.",
+        "Let it has to do away with."
+      ],
       "answer": "ক",
-      "explanation": "ইম্পারেটিভ বাক্য 'Do away with it'-এর Passive রূপ হলো: Let + object (it) + be + V3 (done) + away with। তাই ক সঠিক।"
+      "explanation": "ইম্পারেটিভ বাক্য 'Do away with it'-এর Passive রূপ হলো: Let + object (it) + be + V3 (done) + away with। তাই ক সঠিক।",
+      "ans": 0,
+      "correct_answer": "Let it be done away with."
     },
     {
       "id": 13,
       "question": "All his pupils like him’ বাক্যের Passive form হচ্ছে-",
-      "options": {
-        "ক": "He was liked by all his pupils.",
-        "খ": "He is like by all his pupils.",
-        "গ": "He is liked by all his pupils.",
-        "ঘ": "He is being liked by all his pupils."
-      },
+      "options": [
+        "He was liked by all his pupils.",
+        "He is like by all his pupils.",
+        "He is liked by all his pupils.",
+        "He is being liked by all his pupils."
+      ],
       "answer": "গ",
-      "explanation": "Present Indefinite Active বাক্য 'All his pupils like him'-এর Passive রূপ হলো: 'He is liked by all his pupils.'"
+      "explanation": "Present Indefinite Active বাক্য 'All his pupils like him'-এর Passive রূপ হলো: 'He is liked by all his pupils.'",
+      "ans": 2,
+      "correct_answer": "He is liked by all his pupils."
     },
     {
       "id": 14,
       "question": "নিচের কোনটি শুদ্ধ?",
-      "options": {
-        "ক": "Hasan has choosed the right path.",
-        "খ": "Hasan has chosen the right path.",
-        "গ": "Hasan has chose the right path.",
-        "ঘ": "Hasan has choseing the right path."
-      },
+      "options": [
+        "Hasan has choosed the right path.",
+        "Hasan has chosen the right path.",
+        "Hasan has chose the right path.",
+        "Hasan has choseing the right path."
+      ],
       "answer": "খ",
-      "explanation": "'Choose'-এর Past form হলো 'Chose' এবং Past Participle হলো 'Chosen'। Present Perfect Tense-এ 'has'-এর পর V3 হিসেবে 'chosen' বসবে: 'Hasan has chosen the right path.'"
+      "explanation": "'Choose'-এর Past form হলো 'Chose' এবং Past Participle হলো 'Chosen'। Present Perfect Tense-এ 'has'-এর পর V3 হিসেবে 'chosen' বসবে: 'Hasan has chosen the right path.'",
+      "ans": 1,
+      "correct_answer": "Hasan has chosen the right path."
     },
     {
       "id": 15,
       "question": "নিচের কোনটি শুদ্ধ বাক্য?",
-      "options": {
-        "ক": "I saw the bird sit down on the roof.",
-        "খ": "I saw the brid sat on the roof.",
-        "গ": "I saw the bird sits on the roof.",
-        "ঘ": "I saw the bird sitting on the roof."
-      },
+      "options": [
+        "I saw the bird sit down on the roof.",
+        "I saw the brid sat on the roof.",
+        "I saw the bird sits on the roof.",
+        "I saw the bird sitting on the roof."
+      ],
       "answer": "ঘ",
-      "explanation": "'See' verb-এর পর object থাকলে পরবর্তী ক্রিয়ার সাথে ing যুক্ত হয়ে Present Participle হয়: 'I saw the bird sitting on the roof.'"
+      "explanation": "'See' verb-এর পর object থাকলে পরবর্তী ক্রিয়ার সাথে ing যুক্ত হয়ে Present Participle হয়: 'I saw the bird sitting on the roof.'",
+      "ans": 3,
+      "correct_answer": "I saw the bird sitting on the roof."
     }
   ]
 }

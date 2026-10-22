@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "The Countable form of ‘laughter’ is –",
-      "options": {
-        "ক": "all of the above",
-        "খ": "Laugh",
-        "গ": "a laugh",
-        "ঘ": "The laugh"
-      },
+      "options": [
+        "all of the above",
+        "Laugh",
+        "a laugh",
+        "The laugh"
+      ],
       "answer": "খ",
-      "explanation": "'Laughter' হলো Uncountable Noun (হাসি)। এর Countable রূপ হলো 'Laugh' (যেমন: a hearty laugh)।"
+      "explanation": "'Laughter' হলো Uncountable Noun (হাসি)। এর Countable রূপ হলো 'Laugh' (যেমন: a hearty laugh)।",
+      "ans": 1,
+      "correct_answer": "Laugh"
     },
     {
       "id": 2,
       "question": "“He said that he had done the work “ The direct speech is –",
-      "options": {
-        "ক": "He said, ‘I will do the work’",
-        "খ": "He said, ‘The work will be done by me .’",
-        "গ": "He said , ‘I do the work ‘",
-        "ঘ": "He said, ‘ He did the work ‘"
-      },
+      "options": [
+        "He said, ‘I will do the work’",
+        "He said, ‘The work will be done by me .’",
+        "He said , ‘I do the work ‘",
+        "He said, ‘ He did the work ‘"
+      ],
       "answer": "ঘ",
-      "explanation": "Indirect Speech-এর Past Perfect রূপের Direct রূপ হলো: He said, 'He did the work' (বা I did the work)। অফিশিয়াল কীতে ঘ সঠিক চিহ্নিত।"
+      "explanation": "Indirect Speech-এর Past Perfect রূপের Direct রূপ হলো: He said, 'He did the work' (বা I did the work)। অফিশিয়াল কীতে ঘ সঠিক চিহ্নিত।",
+      "ans": 3,
+      "correct_answer": "He said, ‘ He did the work ‘"
     },
     {
       "id": 3,
       "question": "phosphates ---to most farm lands in Bangladesh .",
-      "options": {
-        "ক": "need to be adding",
-        "খ": "need to be added",
-        "গ": "need added",
-        "ঘ": "need to add"
-      },
+      "options": [
+        "need to be adding",
+        "need to be added",
+        "need added",
+        "need to add"
+      ],
       "answer": "খ",
-      "explanation": "ফসলি জমিতে ফসফেট যোগ করা প্রয়োজন বোঝাতে Passive Infinitive 'need to be added' ব্যবহৃত হয়: 'phosphates need to be added to most farm lands.'"
+      "explanation": "ফসলি জমিতে ফসফেট যোগ করা প্রয়োজন বোঝাতে Passive Infinitive 'need to be added' ব্যবহৃত হয়: 'phosphates need to be added to most farm lands.'",
+      "ans": 1,
+      "correct_answer": "need to be added"
     },
     {
       "id": 4,
       "question": "As the sun ---- I decided to go out.",
-      "options": {
-        "ক": "was shining",
-        "খ": "have shone",
-        "গ": "shine",
-        "ঘ": "shines"
-      },
+      "options": [
+        "was shining",
+        "have shone",
+        "shine",
+        "shines"
+      ],
       "answer": "ক",
-      "explanation": "অতীতকালে কোনো কাজ চলাকালীন সময়ে অন্য ঘটনা ঘটার ক্ষেত্রে 'As the sun was shining, I decided to go out' (Past Continuous) ব্যবহৃত হয়।"
+      "explanation": "অতীতকালে কোনো কাজ চলাকালীন সময়ে অন্য ঘটনা ঘটার ক্ষেত্রে 'As the sun was shining, I decided to go out' (Past Continuous) ব্যবহৃত হয়।",
+      "ans": 0,
+      "correct_answer": "was shining"
     },
     {
       "id": 5,
       "question": "Change the voice ; who is creating this mess?",
-      "options": {
-        "ক": "Who has been created this mess?",
-        "খ": "By whom has this mess been created ?",
-        "গ": "By whom this mess is being created ?",
-        "ঘ": "By whom is this mess being created?"
-      },
+      "options": [
+        "Who has been created this mess?",
+        "By whom has this mess been created ?",
+        "By whom this mess is being created ?",
+        "By whom is this mess being created?"
+      ],
       "answer": "ঘ",
-      "explanation": "Who-যুক্ত Present Continuous Interrogative-এর Passive রূপ: By whom + is + this mess + being + created? তাই ঘ সঠিক।"
+      "explanation": "Who-যুক্ত Present Continuous Interrogative-এর Passive রূপ: By whom + is + this mess + being + created? তাই ঘ সঠিক।",
+      "ans": 3,
+      "correct_answer": "By whom is this mess being created?"
     },
     {
       "id": 6,
       "question": "The book ‘Treasure Island ‘ is by –",
-      "options": {
-        "ক": "Stevenson",
-        "খ": "James Joyce",
-        "গ": "Arthur Miller",
-        "ঘ": "Homer"
-      },
+      "options": [
+        "Stevenson",
+        "James Joyce",
+        "Arthur Miller",
+        "Homer"
+      ],
       "answer": "ক",
-      "explanation": "'Treasure Island' বিখ্যাত রোমাঞ্চকর উপন্যাসটি লিখেছেন স্কটিশ সাহিত্যিক রবার্ট লুইস স্টিভেনসন (R. L. Stevenson)।"
+      "explanation": "'Treasure Island' বিখ্যাত রোমাঞ্চকর উপন্যাসটি লিখেছেন স্কটিশ সাহিত্যিক রবার্ট লুইস স্টিভেনসন (R. L. Stevenson)।",
+      "ans": 0,
+      "correct_answer": "Stevenson"
     },
     {
       "id": 7,
       "question": "The professor was given ---- to materials in the research laboratory .",
-      "options": {
-        "ক": "allusion",
-        "খ": "access",
-        "গ": "excess",
-        "ঘ": "time"
-      },
+      "options": [
+        "allusion",
+        "access",
+        "excess",
+        "time"
+      ],
       "answer": "খ",
-      "explanation": "গবেষণাগারের উপাদান ব্যবহারের অধিকার বা প্রবেশাধিকার বোঝাতে 'access to' ব্যবহৃত হয়: 'given access to materials.'"
+      "explanation": "গবেষণাগারের উপাদান ব্যবহারের অধিকার বা প্রবেশাধিকার বোঝাতে 'access to' ব্যবহৃত হয়: 'given access to materials.'",
+      "ans": 1,
+      "correct_answer": "access"
     },
     {
       "id": 8,
       "question": "Every driver must be held --- his own actions.",
-      "options": {
-        "ক": "responsible to",
-        "খ": "blamed for",
-        "গ": "laiable to",
-        "ঘ": "responsible for"
-      },
+      "options": [
+        "responsible to",
+        "blamed for",
+        "laiable to",
+        "responsible for"
+      ],
       "answer": "ঘ",
-      "explanation": "নিজের কৃতকর্মের জন্য দায়ী থাকা বোঝাতে appropriate preposition 'responsible for' ব্যবহৃত হয়: 'held responsible for his own actions.'"
+      "explanation": "নিজের কৃতকর্মের জন্য দায়ী থাকা বোঝাতে appropriate preposition 'responsible for' ব্যবহৃত হয়: 'held responsible for his own actions.'",
+      "ans": 3,
+      "correct_answer": "responsible for"
     },
     {
       "id": 9,
       "question": "Amenable শব্দের সাথে সঠিক Proposition টি কি হবে ?",
-      "options": {
-        "ক": "with",
-        "খ": "to",
-        "গ": "after",
-        "ঘ": "for"
-      },
+      "options": [
+        "with",
+        "to",
+        "after",
+        "for"
+      ],
       "answer": "খ",
-      "explanation": "'Amenable'-এর পর appropriate preposition হিসেবে 'to' বসে (amenable to reason = যুক্তিমেনে চলে এমন)।"
+      "explanation": "'Amenable'-এর পর appropriate preposition হিসেবে 'to' বসে (amenable to reason = যুক্তিমেনে চলে এমন)।",
+      "ans": 1,
+      "correct_answer": "to"
     },
     {
       "id": 10,
       "question": "What is the antonym of the word ‘ unwilling’?",
-      "options": {
-        "ক": "stupid",
-        "খ": "intentional",
-        "গ": "unintentional",
-        "ঘ": "clever"
-      },
+      "options": [
+        "stupid",
+        "intentional",
+        "unintentional",
+        "clever"
+      ],
       "answer": "খ",
-      "explanation": "'Unwilling' শব্দের অর্থ অনিচ্ছুক বা ইচ্ছাহীন। এর বিপরীত (antonym) ভাব প্রকাশ করে 'Intentional' (ইচ্ছাকৃত) বা willing।"
+      "explanation": "'Unwilling' শব্দের অর্থ অনিচ্ছুক বা ইচ্ছাহীন। এর বিপরীত (antonym) ভাব প্রকাশ করে 'Intentional' (ইচ্ছাকৃত) বা willing।",
+      "ans": 1,
+      "correct_answer": "intentional"
     },
     {
       "id": 11,
       "question": "The Feminine of ‘Ram’ is –",
-      "options": {
-        "ক": "Ewe",
-        "খ": "Hind",
-        "গ": "Mare",
-        "ঘ": "Sow"
-      },
+      "options": [
+        "Ewe",
+        "Hind",
+        "Mare",
+        "Sow"
+      ],
       "answer": "ক",
-      "explanation": "'Ram' (ভেড়া বা পুং-ভেড়া)-এর Feminine Gender (স্ত্রীলিঙ্গ) হলো 'Ewe' (ভেড়ী)। Mare হলো ঘোড়ী, Sow হলো শূকরী।"
+      "explanation": "'Ram' (ভেড়া বা পুং-ভেড়া)-এর Feminine Gender (স্ত্রীলিঙ্গ) হলো 'Ewe' (ভেড়ী)। Mare হলো ঘোড়ী, Sow হলো শূকরী।",
+      "ans": 0,
+      "correct_answer": "Ewe"
     },
     {
       "id": 12,
       "question": "Which of the following sentence is correct ?",
-      "options": {
-        "ক": "He was hunge for murder.",
-        "খ": "He was hanged for murder .",
-        "গ": "He was hunged for murder.",
-        "ঘ": "He had been hung for murder."
-      },
+      "options": [
+        "He was hunge for murder.",
+        "He was hanged for murder .",
+        "He was hunged for murder.",
+        "He had been hung for murder."
+      ],
       "answer": "খ",
-      "explanation": "ফাঁসি দিয়ে মৃত্যুদণ্ড কার্যকর করা অর্থে 'hang'-এর Past/Past Participle রূপ হলো 'hanged': 'He was hanged for murder.' (কাপড় বা ছবি ঝোলানো অর্থে hung হয়)।"
+      "explanation": "ফাঁসি দিয়ে মৃত্যুদণ্ড কার্যকর করা অর্থে 'hang'-এর Past/Past Participle রূপ হলো 'hanged': 'He was hanged for murder.' (কাপড় বা ছবি ঝোলানো অর্থে hung হয়)।",
+      "ans": 1,
+      "correct_answer": "He was hanged for murder ."
     },
     {
       "id": 13,
       "question": "Which one is plural –",
-      "options": {
-        "ক": "Oasis",
-        "খ": "Terminus",
-        "গ": "Vertex",
-        "ঘ": "Bureaux"
-      },
+      "options": [
+        "Oasis",
+        "Terminus",
+        "Vertex",
+        "Bureaux"
+      ],
       "answer": "ঘ",
-      "explanation": "'Bureaux' হলো Plural Noun (Bureau-এর বহুবচন রূপ)। Oasis, Terminus এবং Vertex হলো Singular Noun।"
+      "explanation": "'Bureaux' হলো Plural Noun (Bureau-এর বহুবচন রূপ)। Oasis, Terminus এবং Vertex হলো Singular Noun।",
+      "ans": 3,
+      "correct_answer": "Bureaux"
     },
     {
       "id": 14,
       "question": "Choose the English Translation of –তুমি কি কখনো কক্সবাজার গিয়েছো?",
-      "options": {
-        "ক": "Have you gone to Cox’s Bazar?",
-        "খ": "Have you ever gone Cox’s Bazar ?",
-        "গ": "Have you ever been to Cox’x Bazar ?",
-        "ঘ": "Did you ever go to Cox’s Bazar ?"
-      },
+      "options": [
+        "Have you gone to Cox’s Bazar?",
+        "Have you ever gone Cox’s Bazar ?",
+        "Have you ever been to Cox’x Bazar ?",
+        "Did you ever go to Cox’s Bazar ?"
+      ],
       "answer": "গ",
-      "explanation": "কোনো স্থানে গিয়ে ফিরে আসা বা ভ্রমণের অভিজ্ঞতা বোঝাতে 'have been to' ব্যবহৃত হয়: 'Have you ever been to Cox's Bazar?'"
+      "explanation": "কোনো স্থানে গিয়ে ফিরে আসা বা ভ্রমণের অভিজ্ঞতা বোঝাতে 'have been to' ব্যবহৃত হয়: 'Have you ever been to Cox's Bazar?'",
+      "ans": 2,
+      "correct_answer": "Have you ever been to Cox’x Bazar ?"
     },
     {
       "id": 15,
       "question": "I have a boat made of wood_ . The underlined phrase is –",
-      "options": {
-        "ক": "an adverbial phrase",
-        "খ": "perfect participle phrase",
-        "গ": "Present participle phrase",
-        "ঘ": "past participle phrase"
-      },
+      "options": [
+        "an adverbial phrase",
+        "perfect participle phrase",
+        "Present participle phrase",
+        "past participle phrase"
+      ],
       "answer": "ঘ",
-      "explanation": "'Made of wood' অংশটিতে Verb-এর Past Participle 'made' দ্বারা Noun 'boat'-কে বিশেষায়িত করায় এটি একটি 'Past Participle Phrase'।"
+      "explanation": "'Made of wood' অংশটিতে Verb-এর Past Participle 'made' দ্বারা Noun 'boat'-কে বিশেষায়িত করায় এটি একটি 'Past Participle Phrase'।",
+      "ans": 3,
+      "correct_answer": "past participle phrase"
     },
     {
       "id": 16,
       "question": "Mr. Atique --- rather not invest that money in the stock market .",
-      "options": {
-        "ক": "must",
-        "খ": "has to",
-        "গ": "could",
-        "ঘ": "would"
-      },
+      "options": [
+        "must",
+        "has to",
+        "could",
+        "would"
+      ],
       "answer": "ঘ",
-      "explanation": "দুটি বিষয়ের মধ্যে একটিকে বেশি পছন্দ বা শ্রেয় মনে করতে 'would rather' ব্যবহৃত হয়: 'Mr. Atique would rather not invest that money.'"
+      "explanation": "দুটি বিষয়ের মধ্যে একটিকে বেশি পছন্দ বা শ্রেয় মনে করতে 'would rather' ব্যবহৃত হয়: 'Mr. Atique would rather not invest that money.'",
+      "ans": 3,
+      "correct_answer": "would"
     },
     {
       "id": 17,
       "question": "The plural of ‘Fez’ is –",
-      "options": {
-        "ক": "Fez",
-        "খ": "Fezees",
-        "গ": "Feezes",
-        "ঘ": "Fezes"
-      },
+      "options": [
+        "Fez",
+        "Fezees",
+        "Feezes",
+        "Fezes"
+      ],
       "answer": "ঘ",
-      "explanation": "'Fez' (তুর্কি গোল টুপি)-এর Plural রূপ হলো 'Fezes' বা 'Fezzes'। অপশনে Fezes (ঘ) রয়েছে।"
+      "explanation": "'Fez' (তুর্কি গোল টুপি)-এর Plural রূপ হলো 'Fezes' বা 'Fezzes'। অপশনে Fezes (ঘ) রয়েছে।",
+      "ans": 3,
+      "correct_answer": "Fezes"
     },
     {
       "id": 18,
       "question": "A person who writes and edits dictionaries is called a –",
-      "options": {
-        "ক": "Lithorgrapher",
-        "খ": "Topographer",
-        "গ": "Lexicographer",
-        "ঘ": "Laryngographer"
-      },
+      "options": [
+        "Lithorgrapher",
+        "Topographer",
+        "Lexicographer",
+        "Laryngographer"
+      ],
       "answer": "গ",
-      "explanation": "যিনি অভিধান সংকলন বা সম্পাদনা করেন তাঁকে 'Lexicographer' (অভিধানপ্রণেতা) বলা হয়।"
+      "explanation": "যিনি অভিধান সংকলন বা সম্পাদনা করেন তাঁকে 'Lexicographer' (অভিধানপ্রণেতা) বলা হয়।",
+      "ans": 2,
+      "correct_answer": "Lexicographer"
     },
     {
       "id": 19,
       "question": "Which one is the correct spelling?",
-      "options": {
-        "ক": "irresistible",
-        "খ": "iresistable",
-        "গ": "irresistible",
-        "ঘ": "irresistible"
-      },
+      "options": [
+        "irresistible",
+        "iresistable",
+        "irresistible",
+        "irresistible"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানান হলো 'Irresistible' (I-r-r-e-s-i-s-t-i-b-l-e), যার অর্থ অপ্রতিরোধ্য বা যা প্রতিরোধ করা যায় না।"
+      "explanation": "সঠিক বানান হলো 'Irresistible' (I-r-r-e-s-i-s-t-i-b-l-e), যার অর্থ অপ্রতিরোধ্য বা যা প্রতিরোধ করা যায় না।",
+      "ans": 2,
+      "correct_answer": "irresistible"
     },
     {
       "id": 20,
       "question": "which one is the correct spelling ?",
-      "options": {
-        "ক": "Supercede",
-        "খ": "Supersede",
-        "গ": "Superced",
-        "ঘ": "Supersedes"
-      },
+      "options": [
+        "Supercede",
+        "Supersede",
+        "Superced",
+        "Supersedes"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Supersede' (S-u-p-e-r-s-e-d-e), যার অর্থ রহিত করা বা স্থান দখল করা।"
+      "explanation": "সঠিক বানান হলো 'Supersede' (S-u-p-e-r-s-e-d-e), যার অর্থ রহিত করা বা স্থান দখল করা।",
+      "ans": 1,
+      "correct_answer": "Supersede"
     }
   ]
 }

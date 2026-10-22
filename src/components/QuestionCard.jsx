@@ -219,10 +219,40 @@ export default function QuestionCard({
       .trim();
   };
 
-  const rawOptions = Array.isArray(question?.options) ? question.options : [];
-  const qAns = (question?.correct_answer !== null && question?.correct_answer !== undefined) 
+  const rawOptions = React.useMemo(() => {
+    if (Array.isArray(question?.options)) {
+      return question.options.map(o => (o !== null && o !== undefined) ? String(o).trim() : '');
+    }
+    if (question?.options && typeof question.options === 'object') {
+      return Object.values(question.options).map(o => (o !== null && o !== undefined) ? String(o).trim() : '');
+    }
+    return [];
+  }, [question?.options]);
+
+  const correctIndex = React.useMemo(() => {
+    if (!question) return -1;
+    if (typeof question.ans === 'number' && question.ans >= 0 && question.ans < rawOptions.length) {
+      return question.ans;
+    }
+    const bnMap = { 'ক': 0, 'খ': 1, 'গ': 2, 'ঘ': 3, 'A': 0, 'B': 1, 'C': 2, 'D': 3, 'a': 0, 'b': 1, 'c': 2, 'd': 3 };
+    if (question.correct_answer !== undefined && question.correct_answer !== null) {
+      const ca = String(question.correct_answer).trim();
+      const idx = rawOptions.findIndex(o => o === ca);
+      if (idx !== -1) return idx;
+      if (bnMap[ca] !== undefined && bnMap[ca] < rawOptions.length) return bnMap[ca];
+    }
+    if (question.answer !== undefined && question.answer !== null) {
+      const a = String(question.answer).trim();
+      if (bnMap[a] !== undefined && bnMap[a] < rawOptions.length) return bnMap[a];
+      const cleaned = a.replace(/^[(\[]?([কখগঘabcdABCD])[)\]\.\s\-:]+/i, '$1').trim();
+      if (bnMap[cleaned] !== undefined && bnMap[cleaned] < rawOptions.length) return bnMap[cleaned];
+    }
+    return -1;
+  }, [question, rawOptions]);
+
+  const qAns = (question?.correct_answer !== null && question?.correct_answer !== undefined && String(question.correct_answer).trim() !== '') 
     ? String(question.correct_answer).trim() 
-    : '';
+    : (correctIndex >= 0 && rawOptions[correctIndex] ? rawOptions[correctIndex] : '');
 
   const handleAskAI = () => {
     if (typeof window !== 'undefined') {
@@ -395,9 +425,9 @@ export default function QuestionCard({
       <div className="question-options-grid">
         {rawOptions.map((option, optIdx) => {
           const optStr = (option !== null && option !== undefined) ? String(option).trim() : '';
-          const isCorrect = qAns !== '' && optStr === qAns;
+          const isCorrect = (correctIndex >= 0 && optIdx === correctIndex) || (qAns !== '' && optStr === qAns);
           const selStr = (activeSelection !== null && activeSelection !== undefined) ? String(activeSelection).trim() : null;
-          const isSelected = selStr !== null && selStr === optStr;
+          const isSelected = selStr !== null && (selStr === optStr || (correctIndex >= 0 && selStr === String(optIdx)));
 
           let optionBg = '#f8fafc';
           let optionBorder = '#e2e8f0';

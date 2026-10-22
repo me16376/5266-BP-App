@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "কোনটি Present Perfect tense – এর উদাহরণ?",
-      "options": {
-        "ক": "I had the news.",
-        "খ": "I shall have the news",
-        "গ": "I have had the news.",
-        "ঘ": "I have the news."
-      },
+      "options": [
+        "I had the news.",
+        "I shall have the news",
+        "I have had the news.",
+        "I have the news."
+      ],
       "answer": "গ",
-      "explanation": "Present Perfect Tense-এর গঠন হলো: Subject + have/has + V3। 'I have had the news' বাক্যে auxiliary 'have'-এর পর মূল verb 'have'-এর V3 হিসেবে 'had' বসেছে, তাই এটি Present Perfect Tense।"
+      "explanation": "Present Perfect Tense-এর গঠন হলো: Subject + have/has + V3। 'I have had the news' বাক্যে auxiliary 'have'-এর পর মূল verb 'have'-এর V3 হিসেবে 'had' বসেছে, তাই এটি Present Perfect Tense।",
+      "ans": 2,
+      "correct_answer": "I have had the news."
     },
     {
       "id": 2,
       "question": "Synonym for ‘Magnificent” ?",
-      "options": {
-        "ক": "Impressive",
-        "খ": "Splendid",
-        "গ": "Beautiful",
-        "ঘ": "Interesting"
-      },
+      "options": [
+        "Impressive",
+        "Splendid",
+        "Beautiful",
+        "Interesting"
+      ],
       "answer": "খ",
-      "explanation": "'Magnificent' শব্দের অর্থ চমৎকার, জাঁকজমকপূর্ণ বা চমৎকার। এর যথাযথ সমার্থক শব্দ হলো 'Splendid' (চমৎকার/মহিমান্বিত)।"
+      "explanation": "'Magnificent' শব্দের অর্থ চমৎকার, জাঁকজমকপূর্ণ বা চমৎকার। এর যথাযথ সমার্থক শব্দ হলো 'Splendid' (চমৎকার/মহিমান্বিত)।",
+      "ans": 1,
+      "correct_answer": "Splendid"
     },
     {
       "id": 3,
       "question": "I would like --- information , please .",
-      "options": {
-        "ক": "some",
-        "খ": "few",
-        "গ": "a",
-        "ঘ": "an"
-      },
+      "options": [
+        "some",
+        "few",
+        "a",
+        "an"
+      ],
       "answer": "ক",
-      "explanation": "'Information' হলো Uncountable Noun, তাই এর পূর্বে a/an বা few বসে না; পরিমাণ বোঝাতে 'some' ব্যবহৃত হয়: 'some information.'"
+      "explanation": "'Information' হলো Uncountable Noun, তাই এর পূর্বে a/an বা few বসে না; পরিমাণ বোঝাতে 'some' ব্যবহৃত হয়: 'some information.'",
+      "ans": 0,
+      "correct_answer": "some"
     },
     {
       "id": 4,
       "question": "“A burning question “ means –",
-      "options": {
-        "ক": "a false question",
-        "খ": "an important question",
-        "গ": "Hard question",
-        "ঘ": "a uncommon question"
-      },
+      "options": [
+        "a false question",
+        "an important question",
+        "Hard question",
+        "a uncommon question"
+      ],
       "answer": "খ",
-      "explanation": "'A burning question' idiom-টির অর্থ তৎকালীন সময়ের সবচেয়ে আলোচিত বা গুরুত্বপূর্ণ বিষয় (An important / hot topic of discussion)।"
+      "explanation": "'A burning question' idiom-টির অর্থ তৎকালীন সময়ের সবচেয়ে আলোচিত বা গুরুত্বপূর্ণ বিষয় (An important / hot topic of discussion)।",
+      "ans": 1,
+      "correct_answer": "an important question"
     },
     {
       "id": 5,
       "question": "Which one is Reflexive Pronoun?",
-      "options": {
-        "ক": "Myself",
-        "খ": "Who",
-        "গ": "He",
-        "ঘ": "Each"
-      },
+      "options": [
+        "Myself",
+        "Who",
+        "He",
+        "Each"
+      ],
       "answer": "ক",
-      "explanation": "যেসব Pronoun-এর শেষে '-self' বা '-selves' যুক্ত থাকে এবং যা কর্তাকে নির্দেশ করে তাদের Reflexive Pronoun বলে। 'Myself' একটি Reflexive Pronoun।"
+      "explanation": "যেসব Pronoun-এর শেষে '-self' বা '-selves' যুক্ত থাকে এবং যা কর্তাকে নির্দেশ করে তাদের Reflexive Pronoun বলে। 'Myself' একটি Reflexive Pronoun।",
+      "ans": 0,
+      "correct_answer": "Myself"
     },
     {
       "id": 6,
       "question": "“Bottom line” means –",
-      "options": {
-        "ক": "the end of a road",
-        "খ": "the last line of a book",
-        "গ": "the essential point",
-        "ঘ": "the final step"
-      },
+      "options": [
+        "the end of a road",
+        "the last line of a book",
+        "the essential point",
+        "the final step"
+      ],
       "answer": "গ",
-      "explanation": "'Bottom line' idiom-টির অর্থ চূড়ান্ত সিদ্ধান্ত, প্রধান বিবেচ্য বিষয় বা মূল কথা (The essential point / the final result)।"
+      "explanation": "'Bottom line' idiom-টির অর্থ চূড়ান্ত সিদ্ধান্ত, প্রধান বিবেচ্য বিষয় বা মূল কথা (The essential point / the final result)।",
+      "ans": 2,
+      "correct_answer": "the essential point"
     },
     {
       "id": 7,
       "question": "What is the noun of ‘ deny’?",
-      "options": {
-        "ক": "Deny",
-        "খ": "Deniable",
-        "গ": "Refuse",
-        "ঘ": "Denial"
-      },
+      "options": [
+        "Deny",
+        "Deniable",
+        "Refuse",
+        "Denial"
+      ],
       "answer": "ঘ",
-      "explanation": "'Deny' (অস্বীকার করা) verb-টির Noun form হলো 'Denial' (অস্বীকৃতি)।"
+      "explanation": "'Deny' (অস্বীকার করা) verb-টির Noun form হলো 'Denial' (অস্বীকৃতি)।",
+      "ans": 3,
+      "correct_answer": "Denial"
     },
     {
       "id": 8,
       "question": "Which one is always used as singular ?",
-      "options": {
-        "ক": "Custom",
-        "খ": "Staff",
-        "গ": "Horse",
-        "ঘ": "Bread"
-      },
+      "options": [
+        "Custom",
+        "Staff",
+        "Horse",
+        "Bread"
+      ],
       "answer": "ঘ",
-      "explanation": "'Bread' (পাউরুটি) একটি Uncountable Noun, যা সর্বদা Singular হিসেবে ব্যবহৃত হয় (গণনা করতে a slice of bread বা a loaf of bread বলতে হয়)।"
+      "explanation": "'Bread' (পাউরুটি) একটি Uncountable Noun, যা সর্বদা Singular হিসেবে ব্যবহৃত হয় (গণনা করতে a slice of bread বা a loaf of bread বলতে হয়)।",
+      "ans": 3,
+      "correct_answer": "Bread"
     },
     {
       "id": 9,
       "question": "Kamal did not join the army. Here the word 'Army' is –",
-      "options": {
-        "ক": "an  abstract noun",
-        "খ": "a common noun",
-        "গ": "a collective noun",
-        "ঘ": "a material noun"
-      },
+      "options": [
+        "an  abstract noun",
+        "a common noun",
+        "a collective noun",
+        "a material noun"
+      ],
       "answer": "গ",
-      "explanation": "'Army' (সেনাবাহিনী) সমগ্র সামরিক সদস্যদের সমষ্টিগত রূপ প্রকাশ করায় এটি একটি Collective Noun (সমষ্টিবাচক বিশেষ্য)।"
+      "explanation": "'Army' (সেনাবাহিনী) সমগ্র সামরিক সদস্যদের সমষ্টিগত রূপ প্রকাশ করায় এটি একটি Collective Noun (সমষ্টিবাচক বিশেষ্য)।",
+      "ans": 2,
+      "correct_answer": "a collective noun"
     },
     {
       "id": 10,
       "question": "The study of religion is –",
-      "options": {
-        "ক": "Phonology",
-        "খ": "Etymology",
-        "গ": "Theology",
-        "ঘ": "Morphology"
-      },
+      "options": [
+        "Phonology",
+        "Etymology",
+        "Theology",
+        "Morphology"
+      ],
       "answer": "গ",
-      "explanation": "ধর্ম, ঈশ্বর এবং ধর্মীয় বিশ্বাস সম্পর্কিত বিজ্ঞানসম্মত অধ্যয়নকে 'Theology' (ধর্মতত্ত্ব) বলা হয়।"
+      "explanation": "ধর্ম, ঈশ্বর এবং ধর্মীয় বিশ্বাস সম্পর্কিত বিজ্ঞানসম্মত অধ্যয়নকে 'Theology' (ধর্মতত্ত্ব) বলা হয়।",
+      "ans": 2,
+      "correct_answer": "Theology"
     },
     {
       "id": 11,
       "question": "“Let the book be read by you” বাক্যের active form হচ্ছে-",
-      "options": {
-        "ক": "Read the book",
-        "খ": "You are to read the book",
-        "গ": "Let read the book by you.",
-        "ঘ": "Let the book be reading by you."
-      },
+      "options": [
+        "Read the book",
+        "You are to read the book",
+        "Let read the book by you.",
+        "Let the book be reading by you."
+      ],
       "answer": "ক",
-      "explanation": "Passive 'Let the book be read by you'-এর Active রূপ হলো Imperative: 'Read the book.'"
+      "explanation": "Passive 'Let the book be read by you'-এর Active রূপ হলো Imperative: 'Read the book.'",
+      "ans": 0,
+      "correct_answer": "Read the book"
     },
     {
       "id": 12,
       "question": "I --- him only letter up to now.",
-      "options": {
-        "ক": "sent",
-        "খ": "have sent",
-        "গ": "shall send",
-        "ঘ": "had sent"
-      },
+      "options": [
+        "sent",
+        "have sent",
+        "shall send",
+        "had sent"
+      ],
       "answer": "খ",
-      "explanation": "'Up to now' বা 'So far' থাকলে বাক্যটি Present Perfect Tense হয়: 'I have sent him only letter up to now.'"
+      "explanation": "'Up to now' বা 'So far' থাকলে বাক্যটি Present Perfect Tense হয়: 'I have sent him only letter up to now.'",
+      "ans": 1,
+      "correct_answer": "have sent"
     },
     {
       "id": 13,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "parallel",
-        "খ": "parallel",
-        "গ": "parallel",
-        "ঘ": "parelel"
-      },
+      "options": [
+        "parallel",
+        "parallel",
+        "parallel",
+        "parelel"
+      ],
       "answer": "ক",
-      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।"
+      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।",
+      "ans": 0,
+      "correct_answer": "parallel"
     },
     {
       "id": 14,
       "question": "He addressed Mr. Rahman and wished him good morning বাক্যটির direct speech হবে –",
-      "options": {
-        "ক": "He said, “Good morning, Mr. Rahman”.",
-        "খ": "He said , “Good morning to Mr. Rahman .”",
-        "গ": "He bade good morning to Mr. Rahman",
-        "ঘ": "He said to Mr. morning, “Good morning”."
-      },
+      "options": [
+        "He said, “Good morning, Mr. Rahman”.",
+        "He said , “Good morning to Mr. Rahman .”",
+        "He bade good morning to Mr. Rahman",
+        "He said to Mr. morning, “Good morning”."
+      ],
       "answer": "ক",
-      "explanation": "মিস্টার রহমানকে শুভ সকাল জানানোর Direct Speech হলো: He said, 'Good morning, Mr. Rahman.'"
+      "explanation": "মিস্টার রহমানকে শুভ সকাল জানানোর Direct Speech হলো: He said, 'Good morning, Mr. Rahman.'",
+      "ans": 0,
+      "correct_answer": "He said, “Good morning, Mr. Rahman”."
     },
     {
       "id": 15,
       "question": "Karim as well as Rahim --- praise",
-      "options": {
-        "ক": "deserve",
-        "খ": "deserves",
-        "গ": "are deserving",
-        "ঘ": "is deserving"
-      },
+      "options": [
+        "deserve",
+        "deserves",
+        "are deserving",
+        "is deserving"
+      ],
       "answer": "খ",
-      "explanation": "'As well as' দ্বারা দুটি Subject যুক্ত হলে প্রথম Subject (Karim) অনুযায়ী Verb বসে। Karim 3rd person singular হওয়ায় Verb হবে 'deserves' (খ)।"
+      "explanation": "'As well as' দ্বারা দুটি Subject যুক্ত হলে প্রথম Subject (Karim) অনুযায়ী Verb বসে। Karim 3rd person singular হওয়ায় Verb হবে 'deserves' (খ)।",
+      "ans": 1,
+      "correct_answer": "deserves"
     },
     {
       "id": 16,
       "question": "The child cried for --- mother .",
-      "options": {
-        "ক": "its",
-        "খ": "none",
-        "গ": "his",
-        "ঘ": "her"
-      },
+      "options": [
+        "its",
+        "none",
+        "his",
+        "her"
+      ],
       "answer": "ক",
-      "explanation": "ছোট শিশু (child) বা ইতর প্রাণীর লিঙ্গ নির্দিষ্ট না থাকলে তার Pronoun হিসেবে 'its' বসে: 'The child cried for its mother.'"
+      "explanation": "ছোট শিশু (child) বা ইতর প্রাণীর লিঙ্গ নির্দিষ্ট না থাকলে তার Pronoun হিসেবে 'its' বসে: 'The child cried for its mother.'",
+      "ans": 0,
+      "correct_answer": "its"
     },
     {
       "id": 17,
       "question": "‘Ensure ‘means –",
-      "options": {
-        "ক": "Encourage",
-        "খ": "Profuse",
-        "গ": "Make certain",
-        "ঘ": "Make progress"
-      },
+      "options": [
+        "Encourage",
+        "Profuse",
+        "Make certain",
+        "Make progress"
+      ],
       "answer": "গ",
-      "explanation": "'Ensure' শব্দের অর্থ কোনো বিষয় নিশ্চিত করা। এর যথার্থ অর্থ হলো 'Make certain' (নিশ্চিত করা)।"
+      "explanation": "'Ensure' শব্দের অর্থ কোনো বিষয় নিশ্চিত করা। এর যথার্থ অর্থ হলো 'Make certain' (নিশ্চিত করা)।",
+      "ans": 2,
+      "correct_answer": "Make certain"
     },
     {
       "id": 18,
       "question": "“ At home” –এর অর্থ হচ্ছে –",
-      "options": {
-        "ক": "one who has lost home",
-        "খ": "try to make a home",
-        "গ": "familiar with",
-        "ঘ": "home made of bricks"
-      },
+      "options": [
+        "one who has lost home",
+        "try to make a home",
+        "familiar with",
+        "home made of bricks"
+      ],
       "answer": "গ",
-      "explanation": "'At home' idiom-টির অর্থ কোনো বিষয়ে দক্ষ বা অত্যন্ত সুপরিচিত (Familiar with / well versed)।"
+      "explanation": "'At home' idiom-টির অর্থ কোনো বিষয়ে দক্ষ বা অত্যন্ত সুপরিচিত (Familiar with / well versed)।",
+      "ans": 2,
+      "correct_answer": "familiar with"
     },
     {
       "id": 19,
       "question": "‘Black and Blue” অর্থ কী?",
-      "options": {
-        "ক": "সুন্দর",
-        "খ": "লাল ও নীল",
-        "গ": "উত্তম মধ্যম",
-        "ঘ": "রঙীন"
-      },
+      "options": [
+        "সুন্দর",
+        "লাল ও নীল",
+        "উত্তম মধ্যম",
+        "রঙীন"
+      ],
       "answer": "গ",
-      "explanation": "'Black and blue' একটি বহুল ব্যবহৃত idiom, যার অর্থ উত্তম-মধ্যম প্রহার করে শরীরে কালশিটে দাগ ফেলে দেওয়া।"
+      "explanation": "'Black and blue' একটি বহুল ব্যবহৃত idiom, যার অর্থ উত্তম-মধ্যম প্রহার করে শরীরে কালশিটে দাগ ফেলে দেওয়া।",
+      "ans": 2,
+      "correct_answer": "উত্তম মধ্যম"
     },
     {
       "id": 20,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Remittance",
-        "খ": "Remmitence",
-        "গ": "Remittence",
-        "ঘ": "Remettrance"
-      },
+      "options": [
+        "Remittance",
+        "Remmitence",
+        "Remittence",
+        "Remettrance"
+      ],
       "answer": "ক",
-      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।"
+      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।",
+      "ans": 0,
+      "correct_answer": "Remittance"
     }
   ]
 }

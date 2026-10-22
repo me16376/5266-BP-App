@@ -7,302 +7,352 @@
     {
       "id": 1,
       "question": "বর্ষা শুরু হয়েছে? (Translate into English)",
-      "options": {
-        "ক": "The rain has set in",
-        "খ": "The rains have set in",
-        "গ": "The rain have set on",
-        "ঘ": "The rain has set out"
-      },
+      "options": [
+        "The rain has set in",
+        "The rains have set in",
+        "The rain have set on",
+        "The rain has set out"
+      ],
       "answer": "খ",
-      "explanation": "কোনো ঋতু বা আবহাওয়া শুরু হওয়া অর্থে Phrasal verb 'Set in' ব্যবহৃত হয় এবং বর্ষাকাল বোঝাতে Plural 'The rains have set in' প্রচলিত।"
+      "explanation": "কোনো ঋতু বা আবহাওয়া শুরু হওয়া অর্থে Phrasal verb 'Set in' ব্যবহৃত হয় এবং বর্ষাকাল বোঝাতে Plural 'The rains have set in' প্রচলিত।",
+      "ans": 1,
+      "correct_answer": "The rains have set in"
     },
     {
       "id": 2,
       "question": "সে দিন এনে দিন খায়। (Translate into English)",
-      "options": {
-        "ক": "He lives from hand to mouth",
-        "খ": "He lives by hand to mouth",
-        "গ": "He lives day by day",
-        "ঘ": "He eats day by day"
-      },
+      "options": [
+        "He lives from hand to mouth",
+        "He lives by hand to mouth",
+        "He lives day by day",
+        "He eats day by day"
+      ],
       "answer": "ক",
-      "explanation": "দিন এনে দিন খাওয়ার বহুল প্রচলিত ইংরেজি Idiomatic অনুবাদ হলো 'Live from hand to mouth'। তাই (ক) সঠিক।"
+      "explanation": "দিন এনে দিন খাওয়ার বহুল প্রচলিত ইংরেজি Idiomatic অনুবাদ হলো 'Live from hand to mouth'। তাই (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "He lives from hand to mouth"
     },
     {
       "id": 3,
       "question": "সে বলল যে সে যাবে। (Translate into English)",
-      "options": {
-        "ক": "He said that he will go",
-        "খ": "He said that he would went",
-        "গ": "He said that he will went",
-        "ঘ": "He said that he would go"
-      },
+      "options": [
+        "He said that he will go",
+        "He said that he would went",
+        "He said that he will went",
+        "He said that he would go"
+      ],
       "answer": "ঘ",
-      "explanation": "Reporting verb অতীতকালে (He said) থাকায় Indirect speech-এ 'will' পরিবর্তিত হয়ে 'would' হবে: 'He said that he would go.'"
+      "explanation": "Reporting verb অতীতকালে (He said) থাকায় Indirect speech-এ 'will' পরিবর্তিত হয়ে 'would' হবে: 'He said that he would go.'",
+      "ans": 3,
+      "correct_answer": "He said that he would go"
     },
     {
       "id": 4,
       "question": "আমি বরং মরব কিন্তু ভিক্ষা করব না। (Translate into English)",
-      "options": {
-        "ক": "I would rather die than beg",
-        "খ": "I would rather to die than to beg",
-        "গ": "I would die than beg",
-        "ঘ": "I would die rather beg"
-      },
+      "options": [
+        "I would rather die than beg",
+        "I would rather to die than to beg",
+        "I would die than beg",
+        "I would die rather beg"
+      ],
       "answer": "ক",
-      "explanation": "দুটি কাজের মধ্যে একটিকে অগ্রাধিকার দিতে 'Would rather ... than' ব্যবহৃত হয় এবং এরপর verb-এর base form বসে। তাই (ক) সঠিক।"
+      "explanation": "দুটি কাজের মধ্যে একটিকে অগ্রাধিকার দিতে 'Would rather ... than' ব্যবহৃত হয় এবং এরপর verb-এর base form বসে। তাই (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "I would rather die than beg"
     },
     {
       "id": 5,
       "question": "সে হাসতে হাসতে চলে গেল। (Translate into English)",
-      "options": {
-        "ক": "He went away laugh",
-        "খ": "He went away to laugh",
-        "গ": "He went away laughing and lauging",
-        "ঘ": "He went away laughing"
-      },
+      "options": [
+        "He went away laugh",
+        "He went away to laugh",
+        "He went away laughing and lauging",
+        "He went away laughing"
+      ],
       "answer": "ঘ",
-      "explanation": "চলে যাওয়ার সাথে সাথে হাসির অবস্থা নির্দেশ করায় Present Participle 'laughing' ব্যবহৃত হয়েছে: 'He went away laughing.'"
+      "explanation": "চলে যাওয়ার সাথে সাথে হাসির অবস্থা নির্দেশ করায় Present Participle 'laughing' ব্যবহৃত হয়েছে: 'He went away laughing.'",
+      "ans": 3,
+      "correct_answer": "He went away laughing"
     },
     {
       "id": 6,
       "question": "আমি এটা না করে পারলাম না। (Translate into English)",
-      "options": {
-        "ক": "I could not help do it",
-        "খ": "I could not help doing it",
-        "গ": "I could not help to do it",
-        "ঘ": "I could not but did it"
-      },
+      "options": [
+        "I could not help do it",
+        "I could not help doing it",
+        "I could not help to do it",
+        "I could not but did it"
+      ],
       "answer": "ক",
-      "explanation": "ব্যাকরণ অনুযায়ী 'I could not help doing it' (খ) অথবা 'I could not but do it' সঠিক। মুদ্রিত প্রশ্নপত্রে (ক) চিহ্নিত রয়েছে।"
+      "explanation": "ব্যাকরণ অনুযায়ী 'I could not help doing it' (খ) অথবা 'I could not but do it' সঠিক। মুদ্রিত প্রশ্নপত্রে (ক) চিহ্নিত রয়েছে।",
+      "ans": 0,
+      "correct_answer": "I could not help do it"
     },
     {
       "id": 7,
       "question": "I do not take tea.",
-      "options": {
-        "ক": "আমি চা খাই",
-        "খ": "আমি চা পান করি",
-        "গ": "আমি চা খাই না",
-        "ঘ": "আমি চা আনি না"
-      },
+      "options": [
+        "আমি চা খাই",
+        "আমি চা পান করি",
+        "আমি চা খাই না",
+        "আমি চা আনি না"
+      ],
       "answer": "খ",
-      "explanation": "'I do not take tea'-এর প্রকৃত অর্থ 'আমি চা খাই না/পান করি না' (গ)। তবে মুদ্রিত প্রশ্নপত্রের উত্তরমালায় ভুলবশত (খ) চিহ্নিত রয়েছে।"
+      "explanation": "'I do not take tea'-এর প্রকৃত অর্থ 'আমি চা খাই না/পান করি না' (গ)। তবে মুদ্রিত প্রশ্নপত্রের উত্তরমালায় ভুলবশত (খ) চিহ্নিত রয়েছে।",
+      "ans": 1,
+      "correct_answer": "আমি চা পান করি"
     },
     {
       "id": 8,
       "question": "Look before you leap.",
-      "options": {
-        "ক": "লাফ দেবার আগে তাকাও",
-        "খ": "ভাবিয়া করিও কাজ",
-        "গ": "আগে ভাবিয়া পরে লাফ দিবে",
-        "ঘ": "দেখে নাও পরে লাফ দাও"
-      },
+      "options": [
+        "লাফ দেবার আগে তাকাও",
+        "ভাবিয়া করিও কাজ",
+        "আগে ভাবিয়া পরে লাফ দিবে",
+        "দেখে নাও পরে লাফ দাও"
+      ],
       "answer": "খ",
-      "explanation": "অতি পরিচিত ইংরেজি প্রবাদ: 'Look before you leap' যার বাংলা ভাবানুবাদ হলো 'ভাবিয়া করিও কাজ, করিয়া ভাবিও না'।"
+      "explanation": "অতি পরিচিত ইংরেজি প্রবাদ: 'Look before you leap' যার বাংলা ভাবানুবাদ হলো 'ভাবিয়া করিও কাজ, করিয়া ভাবিও না'।",
+      "ans": 1,
+      "correct_answer": "ভাবিয়া করিও কাজ"
     },
     {
       "id": 9,
       "question": "It is raining cats and dogs.",
-      "options": {
-        "ক": "মুষলধারে বৃষ্টি হচ্ছে",
-        "খ": "কুকুর বিড়ালের মতো বৃষ্টি হচ্ছে",
-        "গ": "ইহা বৃষ্টি হচ্ছে কুকুর ও বিড়ালগুলি",
-        "ঘ": "কুকুর ও বিড়াল বৃষ্টিতে ভিজছে।"
-      },
+      "options": [
+        "মুষলধারে বৃষ্টি হচ্ছে",
+        "কুকুর বিড়ালের মতো বৃষ্টি হচ্ছে",
+        "ইহা বৃষ্টি হচ্ছে কুকুর ও বিড়ালগুলি",
+        "কুকুর ও বিড়াল বৃষ্টিতে ভিজছে।"
+      ],
       "answer": "ক",
-      "explanation": "'Raining cats and dogs' প্রবাদটির অর্থ হলো অবিরাম প্রবল বর্ষণ বা 'মুষলধারে বৃষ্টি হচ্ছে'।"
+      "explanation": "'Raining cats and dogs' প্রবাদটির অর্থ হলো অবিরাম প্রবল বর্ষণ বা 'মুষলধারে বৃষ্টি হচ্ছে'।",
+      "ans": 0,
+      "correct_answer": "মুষলধারে বৃষ্টি হচ্ছে"
     },
     {
       "id": 10,
       "question": "He has killed himself.",
-      "options": {
-        "ক": "সে তোমাকে হত্যা করেছে",
-        "খ": "সে তাকে হত্যা করেছে",
-        "গ": "সে মারা গিয়েছে",
-        "ঘ": "সে আত্মহত্যা করেছে"
-      },
+      "options": [
+        "সে তোমাকে হত্যা করেছে",
+        "সে তাকে হত্যা করেছে",
+        "সে মারা গিয়েছে",
+        "সে আত্মহত্যা করেছে"
+      ],
       "answer": "ঘ",
-      "explanation": "কোনো ব্যক্তি নিজেকে নিজে হত্যা করলে Reflexive pronoun (himself) ব্যবহৃত হয়, যার বাংলা অর্থ 'আত্মহত্যা করা'। তাই (ঘ) সঠিক।"
+      "explanation": "কোনো ব্যক্তি নিজেকে নিজে হত্যা করলে Reflexive pronoun (himself) ব্যবহৃত হয়, যার বাংলা অর্থ 'আত্মহত্যা করা'। তাই (ঘ) সঠিক।",
+      "ans": 3,
+      "correct_answer": "সে আত্মহত্যা করেছে"
     },
     {
       "id": 11,
       "question": "Diamond cuts diamond.",
-      "options": {
-        "ক": "রতন চেনে নষ্ট",
-        "খ": "রতন দেখে লোক চেনা যায়",
-        "গ": "সৎ সঙ্গে স্বর্গ বাস",
-        "ঘ": "মানিকে মানিক চেনে"
-      },
+      "options": [
+        "রতন চেনে নষ্ট",
+        "রতন দেখে লোক চেনা যায়",
+        "সৎ সঙ্গে স্বর্গ বাস",
+        "মানিকে মানিক চেনে"
+      ],
       "answer": "ঘ",
-      "explanation": "বিখ্যাত প্রবাদ বাক্য: 'Diamond cuts diamond'-এর সমার্থক বাংলা প্রবাদ হলো 'মানিকে মানিক চেনে' বা 'রতনে রতন চেনে'।"
+      "explanation": "বিখ্যাত প্রবাদ বাক্য: 'Diamond cuts diamond'-এর সমার্থক বাংলা প্রবাদ হলো 'মানিকে মানিক চেনে' বা 'রতনে রতন চেনে'।",
+      "ans": 3,
+      "correct_answer": "মানিকে মানিক চেনে"
     },
     {
       "id": 12,
       "question": "I am deadly hard up.",
-      "options": {
-        "ক": "আমি অসহ্য হয়ে উঠেছি",
-        "খ": "আমি এককথার মানুষ",
-        "গ": "আমি কঠিন অসুখে ভুগছি",
-        "ঘ": "আমার টাকার খুব অনটন হয়েছে"
-      },
+      "options": [
+        "আমি অসহ্য হয়ে উঠেছি",
+        "আমি এককথার মানুষ",
+        "আমি কঠিন অসুখে ভুগছি",
+        "আমার টাকার খুব অনটন হয়েছে"
+      ],
       "answer": "ঘ",
-      "explanation": "'Hard up' একটি সুপরিচিত Idiom যার অর্থ অত্যন্ত আর্থিক অনটন বা টানাটানিতে থাকা (short of money)। তাই (ঘ) সঠিক অনুবাদ।"
+      "explanation": "'Hard up' একটি সুপরিচিত Idiom যার অর্থ অত্যন্ত আর্থিক অনটন বা টানাটানিতে থাকা (short of money)। তাই (ঘ) সঠিক অনুবাদ।",
+      "ans": 3,
+      "correct_answer": "আমার টাকার খুব অনটন হয়েছে"
     },
     {
       "id": 13,
       "question": "He is only five (Negative)",
-      "options": {
-        "ক": "He is not less than five",
-        "খ": "He is not only five",
-        "গ": "He is above not five",
-        "ঘ": "He is not aged five"
-      },
+      "options": [
+        "He is not less than five",
+        "He is not only five",
+        "He is above not five",
+        "He is not aged five"
+      ],
       "answer": "ক",
-      "explanation": "বয়স বা সংখ্যাবাচক বাক্যে 'Only'-এর পরিবর্তে Negative করার সময় 'Not more than' বা 'Not less than' বসে। তাই (ক) সঠিক।"
+      "explanation": "বয়স বা সংখ্যাবাচক বাক্যে 'Only'-এর পরিবর্তে Negative করার সময় 'Not more than' বা 'Not less than' বসে। তাই (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "He is not less than five"
     },
     {
       "id": 14,
       "question": "If he does not do, he will die. (Compound)",
-      "options": {
-        "ক": "Do and die",
-        "খ": "Do or die",
-        "গ": "He cannot do and die",
-        "ঘ": "Let him do or he will die"
-      },
+      "options": [
+        "Do and die",
+        "Do or die",
+        "He cannot do and die",
+        "Let him do or he will die"
+      ],
       "answer": "খ",
-      "explanation": "শর্তমূলক নেতিবাচক Complex বাক্যকে সংক্ষিপ্ত ও শক্তিশালী Compound বাক্যে রূপান্তর করলে দাঁড়ায় 'Do or die' (করো অথবা মরো)।"
+      "explanation": "শর্তমূলক নেতিবাচক Complex বাক্যকে সংক্ষিপ্ত ও শক্তিশালী Compound বাক্যে রূপান্তর করলে দাঁড়ায় 'Do or die' (করো অথবা মরো)।",
+      "ans": 1,
+      "correct_answer": "Do or die"
     },
     {
       "id": 15,
       "question": "Everybody knows this. (Interrogative)",
-      "options": {
-        "ক": "Does anybody knows this.",
-        "খ": "Who does not know this?",
-        "গ": "Who do not know this.",
-        "ঘ": "Do anybody know this."
-      },
+      "options": [
+        "Does anybody knows this.",
+        "Who does not know this?",
+        "Who do not know this.",
+        "Do anybody know this."
+      ],
       "answer": "খ",
-      "explanation": "'Everybody / Everyone' যুক্ত Affirmative বাক্যকে Interrogative করতে 'Who does not + base verb (know) + ...?' বসে।"
+      "explanation": "'Everybody / Everyone' যুক্ত Affirmative বাক্যকে Interrogative করতে 'Who does not + base verb (know) + ...?' বসে।",
+      "ans": 1,
+      "correct_answer": "Who does not know this?"
     },
     {
       "id": 16,
       "question": "I wish I were an ideal teacher. (Exclamatory)",
-      "options": {
-        "ক": "If I were an ideal teacher!",
-        "খ": "How an ideal teacher I was!",
-        "গ": "What and ideal teacher I was!",
-        "ঘ": "If an ideal teacher I am!"
-      },
+      "options": [
+        "If I were an ideal teacher!",
+        "How an ideal teacher I was!",
+        "What and ideal teacher I was!",
+        "If an ideal teacher I am!"
+      ],
       "answer": "ক",
-      "explanation": "'I wish I were ...' যুক্ত বাক্যকে Exclamatory করতে 'If I were an ideal teacher!' কাঠামো ব্যবহৃত হয়।"
+      "explanation": "'I wish I were ...' যুক্ত বাক্যকে Exclamatory করতে 'If I were an ideal teacher!' কাঠামো ব্যবহৃত হয়।",
+      "ans": 0,
+      "correct_answer": "If I were an ideal teacher!"
     },
     {
       "id": 17,
       "question": "I must go there. (Negative)",
-      "options": {
-        "ক": "I cannot but going there",
-        "খ": "I cannot help go there",
-        "গ": "I cannot but go there",
-        "ঘ": "I must not go there"
-      },
+      "options": [
+        "I cannot but going there",
+        "I cannot help go there",
+        "I cannot but go there",
+        "I must not go there"
+      ],
       "answer": "গ",
-      "explanation": "'Must'-এর স্থলে Negative করার সময় 'cannot but + base verb' (go) বসে: 'I cannot but go there.'"
+      "explanation": "'Must'-এর স্থলে Negative করার সময় 'cannot but + base verb' (go) বসে: 'I cannot but go there.'",
+      "ans": 2,
+      "correct_answer": "I cannot but go there"
     },
     {
       "id": 18,
       "question": "Move and die. (Simple)",
-      "options": {
-        "ক": "If you move, you will die",
-        "খ": "By moving you will die",
-        "গ": "Without moving you will die",
-        "ঘ": "If you do not move, you will do"
-      },
+      "options": [
+        "If you move, you will die",
+        "By moving you will die",
+        "Without moving you will die",
+        "If you do not move, you will do"
+      ],
       "answer": "খ",
-      "explanation": "'Imperative + and' যুক্ত ইতিবাচক শর্তের Compound বাক্যকে Simple করতে 'By + gerund' কাঠামো ব্যবহৃত হয়: 'By moving you will die.'"
+      "explanation": "'Imperative + and' যুক্ত ইতিবাচক শর্তের Compound বাক্যকে Simple করতে 'By + gerund' কাঠামো ব্যবহৃত হয়: 'By moving you will die.'",
+      "ans": 1,
+      "correct_answer": "By moving you will die"
     },
     {
       "id": 19,
       "question": "Though he tried hard, he failed. (Compound)",
-      "options": {
-        "ক": "He tried and failed",
-        "খ": "In spite of his trying hard, he failed",
-        "গ": "He tried hard but failed",
-        "ঘ": "But for his trying hard, be failed"
-      },
+      "options": [
+        "He tried and failed",
+        "In spite of his trying hard, he failed",
+        "He tried hard but failed",
+        "But for his trying hard, be failed"
+      ],
       "answer": "গ",
-      "explanation": "'Though/Although' যুক্ত বিপরীতার্থক Complex বাক্যকে Compound করতে দুটি ক্লজের মাঝে Conjunction 'but' বসে: 'He tried hard but failed.'"
+      "explanation": "'Though/Although' যুক্ত বিপরীতার্থক Complex বাক্যকে Compound করতে দুটি ক্লজের মাঝে Conjunction 'but' বসে: 'He tried hard but failed.'",
+      "ans": 2,
+      "correct_answer": "He tried hard but failed"
     },
     {
       "id": 20,
       "question": "What is the ‘noun’ form of ‘beautiful’?",
-      "options": {
-        "ক": "beauty",
-        "খ": "beautify",
-        "গ": "beautifully",
-        "ঘ": "beauteous"
-      },
+      "options": [
+        "beauty",
+        "beautify",
+        "beautifully",
+        "beauteous"
+      ],
       "answer": "ক",
-      "explanation": "'Beautiful' (সুন্দর) হলো Adjective। এর Noun ফর্ম হলো 'Beauty' (সৌন্দর্য)। 'Beautify' হলো Verb।"
+      "explanation": "'Beautiful' (সুন্দর) হলো Adjective। এর Noun ফর্ম হলো 'Beauty' (সৌন্দর্য)। 'Beautify' হলো Verb।",
+      "ans": 0,
+      "correct_answer": "beauty"
     },
     {
       "id": 21,
       "question": "He is a justice of the High Court. Here justice’ is a/an-noun.",
-      "options": {
-        "ক": "abstract",
-        "খ": "material",
-        "গ": "proper",
-        "ঘ": "common"
-      },
+      "options": [
+        "abstract",
+        "material",
+        "proper",
+        "common"
+      ],
       "answer": "ঘ",
-      "explanation": "এখানে 'justice' দ্বারা সুনির্দিষ্ট কোনো বিমূর্ত গুণ না বুঝিয়ে 'বিচারপতি' (judge) পদবীভুক্ত ব্যক্তিকে নির্দেশ করছে, যার পূর্বে Article 'a' বসেছে। পদবীবাচক ব্যক্তি নির্দেশ করায় এটি Common Noun।"
+      "explanation": "এখানে 'justice' দ্বারা সুনির্দিষ্ট কোনো বিমূর্ত গুণ না বুঝিয়ে 'বিচারপতি' (judge) পদবীভুক্ত ব্যক্তিকে নির্দেশ করছে, যার পূর্বে Article 'a' বসেছে। পদবীবাচক ব্যক্তি নির্দেশ করায় এটি Common Noun।",
+      "ans": 3,
+      "correct_answer": "common"
     },
     {
       "id": 22,
       "question": "He raised his hand. Here ‘raised’ is a - verb.",
-      "options": {
-        "ক": "copulative",
-        "খ": "transitive",
-        "গ": "factitive",
-        "ঘ": "causative"
-      },
+      "options": [
+        "copulative",
+        "transitive",
+        "factitive",
+        "causative"
+      ],
       "answer": "খ",
-      "explanation": "'Raised' ক্রিয়াটির সরাসরি Object রয়েছে ('his hand')। যে ক্রিয়ার পর সরাসরি Object থাকে তাকে Transitive Verb (সকর্মক ক্রিয়া) বলা হয়।"
+      "explanation": "'Raised' ক্রিয়াটির সরাসরি Object রয়েছে ('his hand')। যে ক্রিয়ার পর সরাসরি Object থাকে তাকে Transitive Verb (সকর্মক ক্রিয়া) বলা হয়।",
+      "ans": 1,
+      "correct_answer": "transitive"
     },
     {
       "id": 23,
       "question": "An adverb does not modify-",
-      "options": {
-        "ক": "nouns",
-        "খ": "adjectives",
-        "গ": "verbs",
-        "ঘ": "adverbs"
-      },
+      "options": [
+        "nouns",
+        "adjectives",
+        "verbs",
+        "adverbs"
+      ],
       "answer": "ক",
-      "explanation": "Adverb মূলত Verb, Adjective এবং অন্য কোনো Adverb-কে modify করে। Adverb কখনো Noun বা Pronoun-কে modify করে না (Noun/Pronoun-কে Adjective modify করে)।"
+      "explanation": "Adverb মূলত Verb, Adjective এবং অন্য কোনো Adverb-কে modify করে। Adverb কখনো Noun বা Pronoun-কে modify করে না (Noun/Pronoun-কে Adjective modify করে)।",
+      "ans": 0,
+      "correct_answer": "nouns"
     },
     {
       "id": 24,
       "question": "Which pen do you want? Here ‘which’ is a/an -.",
-      "options": {
-        "ক": "adjective",
-        "খ": "pronoun",
-        "গ": "conjunction",
-        "ঘ": "interjection"
-      },
+      "options": [
+        "adjective",
+        "pronoun",
+        "conjunction",
+        "interjection"
+      ],
       "answer": "ক",
-      "explanation": "'Which' শব্দটি Noun 'pen'-এর ঠিক পূর্বে বসে প্রশ্ন করার মাধ্যমে পেনটিকে বিশেষায়িত করেছে। Noun-এর পূর্বে বসা Interrogative pronoun মূলত Interrogative Adjective হিসেবে কাজ করে।"
+      "explanation": "'Which' শব্দটি Noun 'pen'-এর ঠিক পূর্বে বসে প্রশ্ন করার মাধ্যমে পেনটিকে বিশেষায়িত করেছে। Noun-এর পূর্বে বসা Interrogative pronoun মূলত Interrogative Adjective হিসেবে কাজ করে।",
+      "ans": 0,
+      "correct_answer": "adjective"
     },
     {
       "id": 25,
       "question": "A paragraph must have - theme/themes.",
-      "options": {
-        "ক": "one",
-        "খ": "two",
-        "গ": "three",
-        "ঘ": "four"
-      },
+      "options": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
       "answer": "ক",
-      "explanation": "একটি অনুচ্ছেদে সর্বদা একটিমাত্র মূল প্রতিপাদ্য বিষয় বা ধারণা (one central theme) থাকতে হয়।"
+      "explanation": "একটি অনুচ্ছেদে সর্বদা একটিমাত্র মূল প্রতিপাদ্য বিষয় বা ধারণা (one central theme) থাকতে হয়।",
+      "ans": 0,
+      "correct_answer": "one"
     }
   ]
 }

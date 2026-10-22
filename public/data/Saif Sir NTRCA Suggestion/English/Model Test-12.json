@@ -7,302 +7,352 @@
     {
       "id": 1,
       "question": "Tawfiq went to library with a view to –",
-      "options": {
-        "ক": "read a book",
-        "খ": "reads a book",
-        "গ": "reading a book",
-        "ঘ": "buy some books"
-      },
+      "options": [
+        "read a book",
+        "reads a book",
+        "reading a book",
+        "buy some books"
+      ],
       "answer": "গ",
-      "explanation": "'With a view to' একটি Prepositional Phrase যার পরে Verb আসলে তার সাথে 'ing' যুক্ত হয় (gerund)। তাই 'reading a book' সঠিক।"
+      "explanation": "'With a view to' একটি Prepositional Phrase যার পরে Verb আসলে তার সাথে 'ing' যুক্ত হয় (gerund)। তাই 'reading a book' সঠিক।",
+      "ans": 2,
+      "correct_answer": "reading a book"
     },
     {
       "id": 2,
       "question": "Hardly had we reached school –",
-      "options": {
-        "ক": "when the bell rang",
-        "খ": "then the bell rang",
-        "গ": "the bell rang",
-        "ঘ": "after the bell ringing"
-      },
+      "options": [
+        "when the bell rang",
+        "then the bell rang",
+        "the bell rang",
+        "after the bell ringing"
+      ],
       "answer": "ক",
-      "explanation": "'Hardly had ... when' নিয়ম অনুযায়ী Hardly had যুক্ত ক্লজের পরে Conjunction হিসেবে 'when' বসে এবং পরবর্তী ক্লজটি Past Indefinite Tense হয়।"
+      "explanation": "'Hardly had ... when' নিয়ম অনুযায়ী Hardly had যুক্ত ক্লজের পরে Conjunction হিসেবে 'when' বসে এবং পরবর্তী ক্লজটি Past Indefinite Tense হয়।",
+      "ans": 0,
+      "correct_answer": "when the bell rang"
     },
     {
       "id": 3,
       "question": "Though he is poor, –",
-      "options": {
-        "ক": "he is honest",
-        "খ": "but he is honest",
-        "গ": "and he is honest",
-        "ঘ": "but he was honest"
-      },
+      "options": [
+        "he is honest",
+        "but he is honest",
+        "and he is honest",
+        "but he was honest"
+      ],
       "answer": "ক",
-      "explanation": "'Though/Although' যুক্ত ক্লজের পর প্রধান ক্লজে কোনো 'but' বসে না, শুধু কমা দিয়ে ক্লজটি যুক্ত হয়। বাক্যটি Present Tense হওয়ায় 'he is honest' বসবে।"
+      "explanation": "'Though/Although' যুক্ত ক্লজের পর প্রধান ক্লজে কোনো 'but' বসে না, শুধু কমা দিয়ে ক্লজটি যুক্ত হয়। বাক্যটি Present Tense হওয়ায় 'he is honest' বসবে।",
+      "ans": 0,
+      "correct_answer": "he is honest"
     },
     {
       "id": 4,
       "question": "আমি তোমাকে খাওয়াবো।",
-      "options": {
-        "ক": "I shall eat you",
-        "খ": "I shall feed you",
-        "গ": "I shall be eating you",
-        "ঘ": "I shall give you a party"
-      },
+      "options": [
+        "I shall eat you",
+        "I shall feed you",
+        "I shall be eating you",
+        "I shall give you a party"
+      ],
       "answer": "খ",
-      "explanation": "অপরকে খাওয়ানো অর্থে Eat-এর Causative Verb হলো 'Feed'। তাই ভবিষ্যৎকালে সঠিক অনুবাদ: 'I shall feed you.'"
+      "explanation": "অপরকে খাওয়ানো অর্থে Eat-এর Causative Verb হলো 'Feed'। তাই ভবিষ্যৎকালে সঠিক অনুবাদ: 'I shall feed you.'",
+      "ans": 1,
+      "correct_answer": "I shall feed you"
     },
     {
       "id": 5,
       "question": "সে আমার আপন ভাই।",
-      "options": {
-        "ক": "He is my brother",
-        "খ": "He is my step brother",
-        "গ": "He is my eider brother",
-        "ঘ": "He is my own brother"
-      },
+      "options": [
+        "He is my brother",
+        "He is my step brother",
+        "He is my eider brother",
+        "He is my own brother"
+      ],
       "answer": "ক",
-      "explanation": "ইংরেজিতে আপন ভাই বোঝাতে অতিরিক্ত 'own' বা 'step' ব্যবহার করার প্রয়োজন হয় না, শুধু 'brother' বললেই আপন ভাই বোঝায়। অপশনগুলোর মধ্যে (ক) সঠিক।"
+      "explanation": "ইংরেজিতে আপন ভাই বোঝাতে অতিরিক্ত 'own' বা 'step' ব্যবহার করার প্রয়োজন হয় না, শুধু 'brother' বললেই আপন ভাই বোঝায়। অপশনগুলোর মধ্যে (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "He is my brother"
     },
     {
       "id": 6,
       "question": "আমার লিখিবার কলম নাই?",
-      "options": {
-        "ক": "I have no pen to write",
-        "খ": "I have no writing pen",
-        "গ": "I have no pen to write with",
-        "ঘ": "I have no pen for writing"
-      },
+      "options": [
+        "I have no pen to write",
+        "I have no writing pen",
+        "I have no pen to write with",
+        "I have no pen for writing"
+      ],
       "answer": "গ",
-      "explanation": "কলম দিয়ে লেখা হয়, তাই কোনো উপকরণ ব্যবহারের ক্ষেত্রে শেষে Preposition 'with' যুক্ত করা বাধ্যতামূলক ('pen to write with')। সঠিক বাক্য: 'I have no pen to write with.'"
+      "explanation": "কলম দিয়ে লেখা হয়, তাই কোনো উপকরণ ব্যবহারের ক্ষেত্রে শেষে Preposition 'with' যুক্ত করা বাধ্যতামূলক ('pen to write with')। সঠিক বাক্য: 'I have no pen to write with.'",
+      "ans": 2,
+      "correct_answer": "I have no pen to write with"
     },
     {
       "id": 7,
       "question": "The adverb form of 'heart' is –",
-      "options": {
-        "ক": "heart",
-        "খ": "hearten",
-        "গ": "heartly",
-        "ঘ": "heartily"
-      },
+      "options": [
+        "heart",
+        "hearten",
+        "heartly",
+        "heartily"
+      ],
       "answer": "ঘ",
-      "explanation": "'Heart' হলো Noun, 'Hearty' হলো Adjective এবং এর Adverb রূপ হলো 'Heartily' (আন্তরিকতার সাথে)।"
+      "explanation": "'Heart' হলো Noun, 'Hearty' হলো Adjective এবং এর Adverb রূপ হলো 'Heartily' (আন্তরিকতার সাথে)।",
+      "ans": 3,
+      "correct_answer": "heartily"
     },
     {
       "id": 8,
       "question": "Verb form of the word ‘danger’ is –",
-      "options": {
-        "ক": "dangerous",
-        "খ": "danger",
-        "গ": "dangerously",
-        "ঘ": "endanger"
-      },
+      "options": [
+        "dangerous",
+        "danger",
+        "dangerously",
+        "endanger"
+      ],
       "answer": "ঘ",
-      "explanation": "'Danger' (বিপদ) হলো Noun এবং 'Dangerous' হলো Adjective। এর Verb রূপ হলো 'Endanger' (বিপন্ন করা বা বিপদে ফেলা)।"
+      "explanation": "'Danger' (বিপদ) হলো Noun এবং 'Dangerous' হলো Adjective। এর Verb রূপ হলো 'Endanger' (বিপন্ন করা বা বিপদে ফেলা)।",
+      "ans": 3,
+      "correct_answer": "endanger"
     },
     {
       "id": 9,
       "question": "Noun form of the word ‘Long’ is –",
-      "options": {
-        "ক": "length",
-        "খ": "longer",
-        "গ": "longest",
-        "ঘ": "lengthen"
-      },
+      "options": [
+        "length",
+        "longer",
+        "longest",
+        "lengthen"
+      ],
       "answer": "ক",
-      "explanation": "'Long' (দীর্ঘ/লম্বা) হলো Adjective। এর Noun রূপ হলো 'Length' (দৈর্ঘ্য) এবং Verb হলো 'Lengthen' (দীর্ঘ করা)।"
+      "explanation": "'Long' (দীর্ঘ/লম্বা) হলো Adjective। এর Noun রূপ হলো 'Length' (দৈর্ঘ্য) এবং Verb হলো 'Lengthen' (দীর্ঘ করা)।",
+      "ans": 0,
+      "correct_answer": "length"
     },
     {
       "id": 10,
       "question": "The Padma is one of the biggest rivers in Bangladesh. (Positive)",
-      "options": {
-        "ক": "Very few river in Bangladesh is as big as the Padma.",
-        "খ": "Very few rivers in Bangladesh are as big as the Padma.",
-        "গ": "No other river in Bangladesh is so big as the Padma.",
-        "ঘ": "Very few rivers in Bangladesh are as big as the Padma."
-      },
+      "options": [
+        "Very few river in Bangladesh is as big as the Padma.",
+        "Very few rivers in Bangladesh are as big as the Padma.",
+        "No other river in Bangladesh is so big as the Padma.",
+        "Very few rivers in Bangladesh are as big as the Padma."
+      ],
       "answer": "খ",
-      "explanation": "'One of the + superlative' থাকলে Positive করার নিয়ম: 'Very few' + plural noun (rivers) + plural verb (are) + as big as + Subject (the Padma)।"
+      "explanation": "'One of the + superlative' থাকলে Positive করার নিয়ম: 'Very few' + plural noun (rivers) + plural verb (are) + as big as + Subject (the Padma)।",
+      "ans": 1,
+      "correct_answer": "Very few rivers in Bangladesh are as big as the Padma."
     },
     {
       "id": 11,
       "question": "Every mother loves her child. (Negative)",
-      "options": {
-        "ক": "There is no mother but loves her child.",
-        "খ": "Every mother cannot but loves her child.",
-        "গ": "No mother loves her child.",
-        "ঘ": "There is no mother loving her child."
-      },
+      "options": [
+        "There is no mother but loves her child.",
+        "Every mother cannot but loves her child.",
+        "No mother loves her child.",
+        "There is no mother loving her child."
+      ],
       "answer": "ক",
-      "explanation": "'Every + noun' যুক্ত Affirmative বাক্যকে Negative করার সবচেয়ে প্রচলিত কাঠামো: 'There is no + noun + but + verb + ...' (এমন কোনো মা নেই যিনি সন্তানকে ভালোবাসেন না)।"
+      "explanation": "'Every + noun' যুক্ত Affirmative বাক্যকে Negative করার সবচেয়ে প্রচলিত কাঠামো: 'There is no + noun + but + verb + ...' (এমন কোনো মা নেই যিনি সন্তানকে ভালোবাসেন না)।",
+      "ans": 0,
+      "correct_answer": "There is no mother but loves her child."
     },
     {
       "id": 12,
       "question": "Without working hard you cannot shine in life. (make it complex sentence)?",
-      "options": {
-        "ক": "In spite of working hard, you cannot shine in life.",
-        "খ": "Though he works hard, he cannot shine in life.",
-        "গ": "Unless you work hard, you cannot shine in life.",
-        "ঘ": "Unless you do not work hard, you can`t shine in life."
-      },
+      "options": [
+        "In spite of working hard, you cannot shine in life.",
+        "Though he works hard, he cannot shine in life.",
+        "Unless you work hard, you cannot shine in life.",
+        "Unless you do not work hard, you can`t shine in life."
+      ],
       "answer": "গ",
-      "explanation": "'Without + gerund' যুক্ত শর্তমূলক বাক্যকে Complex করতে 'Unless' (যদি না) ব্যবহার করা হয়: 'Unless you work hard, you cannot shine in life.'"
+      "explanation": "'Without + gerund' যুক্ত শর্তমূলক বাক্যকে Complex করতে 'Unless' (যদি না) ব্যবহার করা হয়: 'Unless you work hard, you cannot shine in life.'",
+      "ans": 2,
+      "correct_answer": "Unless you work hard, you cannot shine in life."
     },
     {
       "id": 13,
       "question": "If you wanted, I (help) you.",
-      "options": {
-        "ক": "helped",
-        "খ": "would help",
-        "গ": "will help",
-        "ঘ": "can help"
-      },
+      "options": [
+        "helped",
+        "would help",
+        "will help",
+        "can help"
+      ],
       "answer": "খ",
-      "explanation": "এটি 2nd Conditional Sentence (If + Past Indefinite)। এর অপর ক্লজে 'Subject + would/could/might + base verb' বসে। তাই 'would help' সঠিক।"
+      "explanation": "এটি 2nd Conditional Sentence (If + Past Indefinite)। এর অপর ক্লজে 'Subject + would/could/might + base verb' বসে। তাই 'would help' সঠিক।",
+      "ans": 1,
+      "correct_answer": "would help"
     },
     {
       "id": 14,
       "question": "They arrived here after you (left).",
-      "options": {
-        "ক": "had left",
-        "খ": "left",
-        "গ": "will leave",
-        "ঘ": "leave"
-      },
+      "options": [
+        "had left",
+        "left",
+        "will leave",
+        "leave"
+      ],
       "answer": "ক",
-      "explanation": "'After'-এর পূর্বের ক্লজটি Past Indefinite (arrived) হলে 'after'-এর পরের ক্লজটি Past Perfect Tense (had + V3) হয়। তাই 'had left' বসবে।"
+      "explanation": "'After'-এর পূর্বের ক্লজটি Past Indefinite (arrived) হলে 'after'-এর পরের ক্লজটি Past Perfect Tense (had + V3) হয়। তাই 'had left' বসবে।",
+      "ans": 0,
+      "correct_answer": "had left"
     },
     {
       "id": 15,
       "question": "Let the sentence be (pen) through.",
-      "options": {
-        "ক": "pen",
-        "খ": "pennin",
-        "গ": "pened",
-        "ঘ": "penned"
-      },
+      "options": [
+        "pen",
+        "pennin",
+        "pened",
+        "penned"
+      ],
       "answer": "ঘ",
-      "explanation": "Imperative Passive কাঠামো: Let + subject + be + V3। Pen-এর Past Participle রূপ হলো 'penned'। তাই 'penned through' সঠিক।"
+      "explanation": "Imperative Passive কাঠামো: Let + subject + be + V3। Pen-এর Past Participle রূপ হলো 'penned'। তাই 'penned through' সঠিক।",
+      "ans": 3,
+      "correct_answer": "penned"
     },
     {
       "id": 16,
       "question": "A – in time saves nine.",
-      "options": {
-        "ক": "stick",
-        "খ": "strict",
-        "গ": "stitch",
-        "ঘ": "stich"
-      },
+      "options": [
+        "stick",
+        "strict",
+        "stitch",
+        "stich"
+      ],
       "answer": "গ",
-      "explanation": "সুপরিচিত ইংরেজি প্রবাদ: 'A stitch in time saves nine' (সময়ের এক ফোঁড় অসময়ের দশ ফোঁড়)। সঠিক বানান হলো 'stitch'।"
+      "explanation": "সুপরিচিত ইংরেজি প্রবাদ: 'A stitch in time saves nine' (সময়ের এক ফোঁড় অসময়ের দশ ফোঁড়)। সঠিক বানান হলো 'stitch'।",
+      "ans": 2,
+      "correct_answer": "stitch"
     },
     {
       "id": 17,
       "question": "The man was – for murder.",
-      "options": {
-        "ক": "hung",
-        "খ": "hang",
-        "গ": "hanged",
-        "ঘ": "hangged"
-      },
+      "options": [
+        "hung",
+        "hang",
+        "hanged",
+        "hangged"
+      ],
       "answer": "গ",
-      "explanation": "প্রাণদণ্ড বা ফাঁসি দেওয়া অর্থে Hang-এর Past ও Past Participle রূপ হলো 'Hanged' (hang - hanged - hanged)। কাপড় বা ছবি ঝোলানোর ক্ষেত্রে hung হয়।"
+      "explanation": "প্রাণদণ্ড বা ফাঁসি দেওয়া অর্থে Hang-এর Past ও Past Participle রূপ হলো 'Hanged' (hang - hanged - hanged)। কাপড় বা ছবি ঝোলানোর ক্ষেত্রে hung হয়।",
+      "ans": 2,
+      "correct_answer": "hanged"
     },
     {
       "id": 18,
       "question": "He speaks as if he – a mad.",
-      "options": {
-        "ক": "were",
-        "খ": "is",
-        "গ": "has been",
-        "ঘ": "had been"
-      },
+      "options": [
+        "were",
+        "is",
+        "has been",
+        "had been"
+      ],
       "answer": "ক",
-      "explanation": "'As if' যুক্ত বাক্যের ১ম ক্লজ Present Tense হলে ২য় ক্লজে কাল্পনিক/অবাস্তবতায় be-verb হিসেবে সর্বদা Subjunctive 'were' বসে।"
+      "explanation": "'As if' যুক্ত বাক্যের ১ম ক্লজ Present Tense হলে ২য় ক্লজে কাল্পনিক/অবাস্তবতায় be-verb হিসেবে সর্বদা Subjunctive 'were' বসে।",
+      "ans": 0,
+      "correct_answer": "were"
     },
     {
       "id": 19,
       "question": "The synonym of the word ‘witty’ is –",
-      "options": {
-        "ক": "clever",
-        "খ": "dull",
-        "গ": "boring",
-        "ঘ": "tedious"
-      },
+      "options": [
+        "clever",
+        "dull",
+        "boring",
+        "tedious"
+      ],
       "answer": "ক",
-      "explanation": "'Witty' অর্থ রসবোধসম্পন্ন বুদ্ধিমান, চতুর বা উপস্থিত বুদ্ধিসম্পন্ন। এর সমার্থক শব্দ হলো 'Clever' বা 'Humorous'। Dull/Boring = একঘেয়ে।"
+      "explanation": "'Witty' অর্থ রসবোধসম্পন্ন বুদ্ধিমান, চতুর বা উপস্থিত বুদ্ধিসম্পন্ন। এর সমার্থক শব্দ হলো 'Clever' বা 'Humorous'। Dull/Boring = একঘেয়ে।",
+      "ans": 0,
+      "correct_answer": "clever"
     },
     {
       "id": 20,
       "question": "The synonym of the word ‘cordial’ is –?",
-      "options": {
-        "ক": "hostile",
-        "খ": "unfriendly",
-        "গ": "meek",
-        "ঘ": "amiable"
-      },
+      "options": [
+        "hostile",
+        "unfriendly",
+        "meek",
+        "amiable"
+      ],
       "answer": "ঘ",
-      "explanation": "'Cordial' অর্থ আন্তরিক, অমায়িক বা বন্ধুভাবাপন্ন। এর সমার্থক শব্দ হলো 'Amiable' (অমায়িক/বন্ধুভাবাপন্ন) বা 'Friendly'। Hostile = বৈরী।"
+      "explanation": "'Cordial' অর্থ আন্তরিক, অমায়িক বা বন্ধুভাবাপন্ন। এর সমার্থক শব্দ হলো 'Amiable' (অমায়িক/বন্ধুভাবাপন্ন) বা 'Friendly'। Hostile = বৈরী।",
+      "ans": 3,
+      "correct_answer": "amiable"
     },
     {
       "id": 21,
       "question": "The antonym of the word ‘adverse’ is –",
-      "options": {
-        "ক": "hostile",
-        "খ": "negative",
-        "গ": "favorable",
-        "ঘ": "unfavorable"
-      },
+      "options": [
+        "hostile",
+        "negative",
+        "favorable",
+        "unfavorable"
+      ],
       "answer": "গ",
-      "explanation": "'Adverse' অর্থ প্রতিকূল, বৈরী বা ক্ষতিকর (hostile/unfavorable)। এর বিপরীত শব্দ (Antonym) হলো 'Favorable' (অনুকূল/কল্যাণকর)।"
+      "explanation": "'Adverse' অর্থ প্রতিকূল, বৈরী বা ক্ষতিকর (hostile/unfavorable)। এর বিপরীত শব্দ (Antonym) হলো 'Favorable' (অনুকূল/কল্যাণকর)।",
+      "ans": 2,
+      "correct_answer": "favorable"
     },
     {
       "id": 22,
       "question": "The antonym of the word ‘flexible’ is –",
-      "options": {
-        "ক": "hard",
-        "খ": "elastic",
-        "গ": "changeable",
-        "ঘ": "ductile"
-      },
+      "options": [
+        "hard",
+        "elastic",
+        "changeable",
+        "ductile"
+      ],
       "answer": "ক",
-      "explanation": "'Flexible' অর্থ নমনীয়, সহজে বাঁকানো যায় এমন বা স্থিতিস্থাপক (elastic/ductile)। এর বিপরীত শব্দ (Antonym) হলো 'Hard' (শক্ত/কঠিন) বা 'Rigid'।"
+      "explanation": "'Flexible' অর্থ নমনীয়, সহজে বাঁকানো যায় এমন বা স্থিতিস্থাপক (elastic/ductile)। এর বিপরীত শব্দ (Antonym) হলো 'Hard' (শক্ত/কঠিন) বা 'Rigid'।",
+      "ans": 0,
+      "correct_answer": "hard"
     },
     {
       "id": 23,
       "question": "– he is coming today.",
-      "options": {
-        "ক": "At length",
-        "খ": "Ten to one",
-        "গ": "At large",
-        "ঘ": "All in all"
-      },
+      "options": [
+        "At length",
+        "Ten to one",
+        "At large",
+        "All in all"
+      ],
       "answer": "ক",
-      "explanation": "'Ten to one' একটি সুপরিচিত Idiom যার অর্থ 'খুব সম্ভবত' (very likely), যা এ জাতীয় বাক্যে সর্বাধিক ব্যবহৃত হয়। তবে মুদ্রিত প্রশ্নপত্রের উত্তরমালায় অপশন 'ক' (At length) দেওয়া রয়েছে।"
+      "explanation": "'Ten to one' একটি সুপরিচিত Idiom যার অর্থ 'খুব সম্ভবত' (very likely), যা এ জাতীয় বাক্যে সর্বাধিক ব্যবহৃত হয়। তবে মুদ্রিত প্রশ্নপত্রের উত্তরমালায় অপশন 'ক' (At length) দেওয়া রয়েছে।",
+      "ans": 0,
+      "correct_answer": "At length"
     },
     {
       "id": 24,
       "question": "You`ll fail in the exam, if you – from school.",
-      "options": {
-        "ক": "take to task",
-        "খ": "put off",
-        "গ": "put out",
-        "ঘ": "play truant"
-      },
+      "options": [
+        "take to task",
+        "put off",
+        "put out",
+        "play truant"
+      ],
       "answer": "ঘ",
-      "explanation": "স্কুল থেকে না বলে পালানো বা ফাঁকি দেওয়ার ইংরেজি Idiom হলো 'Play truant'। তাই শূন্যস্থানে 'play truant' সঠিক।"
+      "explanation": "স্কুল থেকে না বলে পালানো বা ফাঁকি দেওয়ার ইংরেজি Idiom হলো 'Play truant'। তাই শূন্যস্থানে 'play truant' সঠিক।",
+      "ans": 3,
+      "correct_answer": "play truant"
     },
     {
       "id": 25,
       "question": "His – pleased us all.",
-      "options": {
-        "ক": "slow coach",
-        "খ": "silver spoon",
-        "গ": "maiden speech",
-        "ঘ": "weal and woe"
-      },
+      "options": [
+        "slow coach",
+        "silver spoon",
+        "maiden speech",
+        "weal and woe"
+      ],
       "answer": "গ",
-      "explanation": "'Maiden speech' একটি বহুল ব্যবহৃত Idiom যার অর্থ 'প্রথম বক্তৃতা' (first speech)। তাঁর প্রথম বক্তৃতা আমাদের সবাইকে মুগ্ধ করেছিল অর্থে এটি সঠিক।"
+      "explanation": "'Maiden speech' একটি বহুল ব্যবহৃত Idiom যার অর্থ 'প্রথম বক্তৃতা' (first speech)। তাঁর প্রথম বক্তৃতা আমাদের সবাইকে মুগ্ধ করেছিল অর্থে এটি সঠিক।",
+      "ans": 2,
+      "correct_answer": "maiden speech"
     }
   ]
 }

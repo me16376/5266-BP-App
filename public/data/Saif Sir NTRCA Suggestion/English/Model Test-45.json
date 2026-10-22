@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "Synonym of the 'perquisite' is :",
-      "options": {
-        "ক": "extra pay",
-        "খ": "benefits",
-        "গ": "rights",
-        "ঘ": "requirements"
-      },
+      "options": [
+        "extra pay",
+        "benefits",
+        "rights",
+        "requirements"
+      ],
       "answer": "ক",
-      "explanation": "'Perquisite' (বা perk) অর্থ চাকরির মূল বেতনের বাইরে অতিরিক্ত বিশেষ সুযোগ-সুবিধা বা ভাতা (extra pay or fringe benefits)।"
+      "explanation": "'Perquisite' (বা perk) অর্থ চাকরির মূল বেতনের বাইরে অতিরিক্ত বিশেষ সুযোগ-সুবিধা বা ভাতা (extra pay or fringe benefits)।",
+      "ans": 0,
+      "correct_answer": "extra pay"
     },
     {
       "id": 2,
       "question": "Synonym of the word 'perfidious' is:",
-      "options": {
-        "ক": "trust worthy",
-        "খ": "treacherous",
-        "গ": "heinous",
-        "ঘ": "perfectionist"
-      },
+      "options": [
+        "trust worthy",
+        "treacherous",
+        "heinous",
+        "perfectionist"
+      ],
       "answer": "খ",
-      "explanation": "'Perfidious' অর্থ বিশ্বাসঘাতক, বেইমান বা প্রতারণাপূর্ণ। এর সমার্থক শব্দ হলো 'Treacherous' (বিশ্বাসঘাতক) বা 'Deceitful'।"
+      "explanation": "'Perfidious' অর্থ বিশ্বাসঘাতক, বেইমান বা প্রতারণাপূর্ণ। এর সমার্থক শব্দ হলো 'Treacherous' (বিশ্বাসঘাতক) বা 'Deceitful'।",
+      "ans": 1,
+      "correct_answer": "treacherous"
     },
     {
       "id": 3,
       "question": "Antonym of the word 'rotate' is:",
-      "options": {
-        "ক": "aging",
-        "খ": "count",
-        "গ": "distress",
-        "ঘ": "happiness"
-      },
+      "options": [
+        "aging",
+        "count",
+        "distress",
+        "happiness"
+      ],
       "answer": "ঘ",
-      "explanation": "প্রশ্নপত্রের অপশন ও উত্তরমালায় মুদ্রণজনিত ত্রুটি রয়েছে; উত্তরমালায় বিকল্প (ঘ) চিহ্নিত করা হয়েছে।"
+      "explanation": "প্রশ্নপত্রের অপশন ও উত্তরমালায় মুদ্রণজনিত ত্রুটি রয়েছে; উত্তরমালায় বিকল্প (ঘ) চিহ্নিত করা হয়েছে।",
+      "ans": 3,
+      "correct_answer": "happiness"
     },
     {
       "id": 4,
       "question": "The idiom 'Through thick and thin ' means--",
-      "options": {
-        "ক": "come to a close",
-        "খ": "in all situations",
-        "গ": "live within one's income",
-        "ঘ": "stretch to limit"
-      },
+      "options": [
+        "come to a close",
+        "in all situations",
+        "live within one's income",
+        "stretch to limit"
+      ],
       "answer": "খ",
-      "explanation": "'Through thick and thin' ইংরেজি Idiom-এর অর্থ সকল সুখে-দুঃখে, অনুকূল ও প্রতিকূল সর্বাবস্থায় (in good times and bad times / in all situations)।"
+      "explanation": "'Through thick and thin' ইংরেজি Idiom-এর অর্থ সকল সুখে-দুঃখে, অনুকূল ও প্রতিকূল সর্বাবস্থায় (in good times and bad times / in all situations)।",
+      "ans": 1,
+      "correct_answer": "in all situations"
     },
     {
       "id": 5,
       "question": "A verb that acts as noun as called:",
-      "options": {
-        "ক": "participle",
-        "খ": "gerund",
-        "গ": "adverb",
-        "ঘ": "noun"
-      },
+      "options": [
+        "participle",
+        "gerund",
+        "adverb",
+        "noun"
+      ],
       "answer": "খ",
-      "explanation": "Verb+ing যখন একই সাথে Verb এবং Noun-এর কাজ করে, তখন তাকে 'Gerund' বলা হয়।"
+      "explanation": "Verb+ing যখন একই সাথে Verb এবং Noun-এর কাজ করে, তখন তাকে 'Gerund' বলা হয়।",
+      "ans": 1,
+      "correct_answer": "gerund"
     },
     {
       "id": 6,
       "question": "'Animal Farm' was written by:",
-      "options": {
-        "ক": "George Orwell",
-        "খ": "Stevenson",
-        "গ": "Jonathan Swift",
-        "ঘ": "Mark Twain"
-      },
+      "options": [
+        "George Orwell",
+        "Stevenson",
+        "Jonathan Swift",
+        "Mark Twain"
+      ],
       "answer": "ক",
-      "explanation": "সোভিয়েত সর্বগ্রাসী রাজনীতির ব্যঙ্গাত্মক রূপক হিসেবে রচিত বিখ্যাত ক্লাসিক উপন্যাস 'Animal Farm' (১৯৪৫) জর্জ অরওয়েলের রচনা।"
+      "explanation": "সোভিয়েত সর্বগ্রাসী রাজনীতির ব্যঙ্গাত্মক রূপক হিসেবে রচিত বিখ্যাত ক্লাসিক উপন্যাস 'Animal Farm' (১৯৪৫) জর্জ অরওয়েলের রচনা।",
+      "ans": 0,
+      "correct_answer": "George Orwell"
     },
     {
       "id": 7,
       "question": "Which is correctly spelt?",
-      "options": {
-        "ক": "queue",
-        "খ": "queu",
-        "গ": "quew",
-        "ঘ": "quee"
-      },
+      "options": [
+        "queue",
+        "queu",
+        "quew",
+        "quee"
+      ],
       "answer": "ক",
-      "explanation": "সারিবদ্ধ লাইন বোঝাতে সঠিক বানানটি হলো 'Queue' (Q-U-E-U-E)।"
+      "explanation": "সারিবদ্ধ লাইন বোঝাতে সঠিক বানানটি হলো 'Queue' (Q-U-E-U-E)।",
+      "ans": 0,
+      "correct_answer": "queue"
     },
     {
       "id": 8,
       "question": "The 60th anniversary of an important event is:",
-      "options": {
-        "ক": "golden jubilee",
-        "খ": "diamond jubilee",
-        "গ": "platinum jubilee",
-        "ঘ": "silver jubilee"
-      },
+      "options": [
+        "golden jubilee",
+        "diamond jubilee",
+        "platinum jubilee",
+        "silver jubilee"
+      ],
       "answer": "খ",
-      "explanation": "কোনো গুরুত্বপূর্ণ ঘটনার ২৫ বছর পূর্তিকে Silver, ৫০ বছরকে Golden, ৬০ বছরকে Diamond এবং ৭৫ বছরকে Platinum Jubilee বলা হয়।"
+      "explanation": "কোনো গুরুত্বপূর্ণ ঘটনার ২৫ বছর পূর্তিকে Silver, ৫০ বছরকে Golden, ৬০ বছরকে Diamond এবং ৭৫ বছরকে Platinum Jubilee বলা হয়।",
+      "ans": 1,
+      "correct_answer": "diamond jubilee"
     },
     {
       "id": 9,
       "question": "Communications link by which information is received from space is :",
-      "options": {
-        "ক": "upload",
-        "খ": "download",
-        "গ": "downlink",
-        "ঘ": "retrieve"
-      },
+      "options": [
+        "upload",
+        "download",
+        "downlink",
+        "retrieve"
+      ],
       "answer": "গ",
-      "explanation": "মহাকাশ বা স্যাটেলাইট থেকে তথ্য বা সিগন্যাল পৃথিবীতে গ্রহণ করার যোগাযোগ সংযোগকে 'Downlink' বলা হয় (আর পৃথিবী থেকে পাঠানোকে Uplink বলে)।"
+      "explanation": "মহাকাশ বা স্যাটেলাইট থেকে তথ্য বা সিগন্যাল পৃথিবীতে গ্রহণ করার যোগাযোগ সংযোগকে 'Downlink' বলা হয় (আর পৃথিবী থেকে পাঠানোকে Uplink বলে)।",
+      "ans": 2,
+      "correct_answer": "downlink"
     },
     {
       "id": 10,
       "question": "To name things on a list one by one is known as:",
-      "options": {
-        "ক": "enumerate",
-        "খ": "count",
-        "গ": "estimate",
-        "ঘ": "assess"
-      },
+      "options": [
+        "enumerate",
+        "count",
+        "estimate",
+        "assess"
+      ],
       "answer": "ক",
-      "explanation": "তালিকার কোনো জিনিস এক এক করে ক্রমানুসারে গণনা বা উল্লেখ করাকে 'Enumerate' (তালিকাভুক্ত বা গণনা করা) বলা হয়।"
+      "explanation": "তালিকার কোনো জিনিস এক এক করে ক্রমানুসারে গণনা বা উল্লেখ করাকে 'Enumerate' (তালিকাভুক্ত বা গণনা করা) বলা হয়।",
+      "ans": 0,
+      "correct_answer": "enumerate"
     },
     {
       "id": 11,
       "question": "Drawing or writing on a wall , etc, in a public place is called:",
-      "options": {
-        "ক": "graffiti",
-        "খ": "painting",
-        "গ": "wall writing",
-        "ঘ": "chika mara"
-      },
+      "options": [
+        "graffiti",
+        "painting",
+        "wall writing",
+        "chika mara"
+      ],
       "answer": "ক",
-      "explanation": "দেয়াল বা জনসাধারণের উন্মুক্ত স্থানে ছবি বা লেখার শৈল্পিক প্রকাশকে 'Graffiti' (দেয়ালচিত্র বা দেয়াললিখন) বলা হয়।"
+      "explanation": "দেয়াল বা জনসাধারণের উন্মুক্ত স্থানে ছবি বা লেখার শৈল্পিক প্রকাশকে 'Graffiti' (দেয়ালচিত্র বা দেয়াললিখন) বলা হয়।",
+      "ans": 0,
+      "correct_answer": "graffiti"
     },
     {
       "id": 12,
       "question": "choose which is the most similar in meaning to word underlined in the sentence. do not get upset about \"trivial\" matters.",
-      "options": {
-        "ক": "unexpected",
-        "খ": "unimportant",
-        "গ": "unusual",
-        "ঘ": "uncertain"
-      },
+      "options": [
+        "unexpected",
+        "unimportant",
+        "unusual",
+        "uncertain"
+      ],
       "answer": "খ",
-      "explanation": "'Trivial' অর্থ তুচ্ছ, নগণ্য বা অগুরুত্বপূর্ণ। এর সরাসরি সমার্থক শব্দ হলো 'Unimportant' (অগুরুত্বপূর্ণ)।"
+      "explanation": "'Trivial' অর্থ তুচ্ছ, নগণ্য বা অগুরুত্বপূর্ণ। এর সরাসরি সমার্থক শব্দ হলো 'Unimportant' (অগুরুত্বপূর্ণ)।",
+      "ans": 1,
+      "correct_answer": "unimportant"
     },
     {
       "id": 13,
       "question": "He used to work in the city----",
-      "options": {
-        "ক": "had he",
-        "খ": "does he",
-        "গ": "has he",
-        "ঘ": "didn't he"
-      },
+      "options": [
+        "had he",
+        "does he",
+        "has he",
+        "didn't he"
+      ],
       "answer": "ঘ",
-      "explanation": "'Used to' অতীতকালের সাধারণ অভ্যাস নির্দেশ করায় এর Tag Question হিসেবে 'didn't + subject' (didn't he?) বসে।"
+      "explanation": "'Used to' অতীতকালের সাধারণ অভ্যাস নির্দেশ করায় এর Tag Question হিসেবে 'didn't + subject' (didn't he?) বসে।",
+      "ans": 3,
+      "correct_answer": "didn't he"
     },
     {
       "id": 14,
       "question": "'He feels comparatively better today'. Find the incorrectly used word.",
-      "options": {
-        "ক": "feels",
-        "খ": "comparatively",
-        "গ": "better",
-        "ঘ": "no mistake"
-      },
+      "options": [
+        "feels",
+        "comparatively",
+        "better",
+        "no mistake"
+      ],
       "answer": "খ",
-      "explanation": "'Comparatively'-এর পর কখনো Comparative Degree (better) বসে না, Positive Degree (well) বসে; নতুবা শুধু 'better' ব্যবহার করতে হয়। তাই 'comparatively' শব্দটি ভুলভাবে ব্যবহৃত হয়েছে।"
+      "explanation": "'Comparatively'-এর পর কখনো Comparative Degree (better) বসে না, Positive Degree (well) বসে; নতুবা শুধু 'better' ব্যবহার করতে হয়। তাই 'comparatively' শব্দটি ভুলভাবে ব্যবহৃত হয়েছে।",
+      "ans": 1,
+      "correct_answer": "comparatively"
     },
     {
       "id": 15,
       "question": "My desk is a_____. I should clean it.",
-      "options": {
-        "ক": "messy",
-        "খ": "slob",
-        "গ": "mess",
-        "ঘ": "sloppy"
-      },
+      "options": [
+        "messy",
+        "slob",
+        "mess",
+        "sloppy"
+      ],
       "answer": "গ",
-      "explanation": "Article 'a'-এর পর Noun বসবে। নোংরা বা অগোছালো অবস্থা প্রকাশে Noun হিসেবে 'a mess' বসে: 'My desk is a mess.'"
+      "explanation": "Article 'a'-এর পর Noun বসবে। নোংরা বা অগোছালো অবস্থা প্রকাশে Noun হিসেবে 'a mess' বসে: 'My desk is a mess.'",
+      "ans": 2,
+      "correct_answer": "mess"
     },
     {
       "id": 16,
       "question": "Which one of the following is in singular form ?",
-      "options": {
-        "ক": "gentry",
-        "খ": "aristocracy",
-        "গ": "physics",
-        "ঘ": "vermin"
-      },
+      "options": [
+        "gentry",
+        "aristocracy",
+        "physics",
+        "vermin"
+      ],
       "answer": "গ",
-      "explanation": "'Physics' দেখতে plural হলেও এটি একটি বিষয়ের নাম হিসেবে Singular Noun। অপরপক্ষে Gentry, Aristocracy, Vermin এগুলো Plural হিসেবে ব্যবহৃত হয়।"
+      "explanation": "'Physics' দেখতে plural হলেও এটি একটি বিষয়ের নাম হিসেবে Singular Noun। অপরপক্ষে Gentry, Aristocracy, Vermin এগুলো Plural হিসেবে ব্যবহৃত হয়।",
+      "ans": 2,
+      "correct_answer": "physics"
     },
     {
       "id": 17,
       "question": "What is the feminine gender of 'swain' ?",
-      "options": {
-        "ক": "swainess",
-        "খ": "witch",
-        "গ": "nymp",
-        "ঘ": "bitch"
-      },
+      "options": [
+        "swainess",
+        "witch",
+        "nymp",
+        "bitch"
+      ],
       "answer": "গ",
-      "explanation": "'Swain' (গ্রাম্য যুবক বা রাখাল)-এর বিপরীত স্ত্রীলিঙ্গ হলো 'Nymph' (গ্রাম্য তরুণী বা জলপরী)।"
+      "explanation": "'Swain' (গ্রাম্য যুবক বা রাখাল)-এর বিপরীত স্ত্রীলিঙ্গ হলো 'Nymph' (গ্রাম্য তরুণী বা জলপরী)।",
+      "ans": 2,
+      "correct_answer": "nymp"
     },
     {
       "id": 18,
       "question": "I live in the big house ----the corner.",
-      "options": {
-        "ক": "on",
-        "খ": "in",
-        "গ": "of",
-        "ঘ": "to"
-      },
+      "options": [
+        "on",
+        "in",
+        "of",
+        "to"
+      ],
       "answer": "ক",
-      "explanation": "রাস্তার মোড়ের বাড়ি নির্দেশ করতে Preposition 'on' (বা at) বসে ('on the corner')। অপশন (ক) সঠিক।"
+      "explanation": "রাস্তার মোড়ের বাড়ি নির্দেশ করতে Preposition 'on' (বা at) বসে ('on the corner')। অপশন (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "on"
     },
     {
       "id": 19,
       "question": "But things will---tomorrow.",
-      "options": {
-        "ক": "better",
-        "খ": "improvise",
-        "গ": "increase",
-        "ঘ": "improve"
-      },
+      "options": [
+        "better",
+        "improvise",
+        "increase",
+        "improve"
+      ],
       "answer": "ঘ",
-      "explanation": "Modal Auxiliary 'will'-এর পর Verb-এর Base form হিসেবে 'improve' (উন্নতি ঘটা) বসবে: 'things will improve tomorrow.'"
+      "explanation": "Modal Auxiliary 'will'-এর পর Verb-এর Base form হিসেবে 'improve' (উন্নতি ঘটা) বসবে: 'things will improve tomorrow.'",
+      "ans": 3,
+      "correct_answer": "improve"
     },
     {
       "id": 20,
       "question": "Antonym of the word 'agony' is:",
-      "options": {
-        "ক": "aging",
-        "খ": "count",
-        "গ": "distress",
-        "ঘ": "happiness"
-      },
+      "options": [
+        "aging",
+        "count",
+        "distress",
+        "happiness"
+      ],
       "answer": "ঘ",
-      "explanation": "'Agony' অর্থ তীব্র মানসিক বা শারীরিক যন্ত্রণা/কষ্ট (extreme pain/distress)। এর বিপরীত শব্দ (Antonym) হলো 'Happiness' (সুখ/আনন্দ) বা 'Pleasure'।"
+      "explanation": "'Agony' অর্থ তীব্র মানসিক বা শারীরিক যন্ত্রণা/কষ্ট (extreme pain/distress)। এর বিপরীত শব্দ (Antonym) হলো 'Happiness' (সুখ/আনন্দ) বা 'Pleasure'।",
+      "ans": 3,
+      "correct_answer": "happiness"
     }
   ]
 }

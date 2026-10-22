@@ -7,182 +7,212 @@
     {
       "id": 1,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Achevement",
-        "খ": "Achievment",
-        "গ": "Achievement",
-        "ঘ": "Acheivment"
-      },
+      "options": [
+        "Achevement",
+        "Achievment",
+        "Achievement",
+        "Acheivment"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।"
+      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।",
+      "ans": 2,
+      "correct_answer": "Achievement"
     },
     {
       "id": 2,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Acclamation",
-        "খ": "Aclamation",
-        "গ": "Aclaimation",
-        "ঘ": "Acclaimation"
-      },
+      "options": [
+        "Acclamation",
+        "Aclamation",
+        "Aclaimation",
+        "Acclaimation"
+      ],
       "answer": "ক",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 0,
+      "correct_answer": "Acclamation"
     },
     {
       "id": 3,
       "question": "Anger may be compared … fire বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে-",
-      "options": {
-        "ক": "to",
-        "খ": "with",
-        "গ": "in",
-        "ঘ": "at"
-      },
+      "options": [
+        "to",
+        "with",
+        "in",
+        "at"
+      ],
       "answer": "ক",
-      "explanation": "দুটি সম্পূর্ণ ভিন্নধর্মী বিষয়ের মধ্যে রূপক তুলনা বোঝালে 'compare to' বসে (রাগ ও আগুন ভিন্নধর্মী): 'Anger may be compared to fire.' (একই জাতীয় বিষয়ের তুলনায় compare with বসে)।"
+      "explanation": "দুটি সম্পূর্ণ ভিন্নধর্মী বিষয়ের মধ্যে রূপক তুলনা বোঝালে 'compare to' বসে (রাগ ও আগুন ভিন্নধর্মী): 'Anger may be compared to fire.' (একই জাতীয় বিষয়ের তুলনায় compare with বসে)।",
+      "ans": 0,
+      "correct_answer": "to"
     },
     {
       "id": 4,
       "question": "‘His behavior surprised me.” বাক্যটির Passive form হবে –",
-      "options": {
-        "ক": "I surprised at his behavior.",
-        "খ": "I was surprised with his behavior.",
-        "গ": "I was surprised at his behavior.",
-        "ঘ": "I had been surprised at his behavior."
-      },
+      "options": [
+        "I surprised at his behavior.",
+        "I was surprised with his behavior.",
+        "I was surprised at his behavior.",
+        "I had been surprised at his behavior."
+      ],
       "answer": "গ",
-      "explanation": "'Surprise'-এর পর কোনো আচরণ (behavior) থাকলে preposition হিসেবে 'at' বসে: 'I was surprised at his behavior.'"
+      "explanation": "'Surprise'-এর পর কোনো আচরণ (behavior) থাকলে preposition হিসেবে 'at' বসে: 'I was surprised at his behavior.'",
+      "ans": 2,
+      "correct_answer": "I was surprised at his behavior."
     },
     {
       "id": 5,
       "question": "কোনটি Abstract Noun ?",
-      "options": {
-        "ক": "Man",
-        "খ": "Jury",
-        "গ": "Long",
-        "ঘ": "Height"
-      },
+      "options": [
+        "Man",
+        "Jury",
+        "Long",
+        "Height"
+      ],
       "answer": "ঘ",
-      "explanation": "'Height' (উচ্চতা) একটি গুণ বা পরিমাপের ধারণা প্রকাশ করায় এটি একটি Abstract Noun। এর Adjective হলো High।"
+      "explanation": "'Height' (উচ্চতা) একটি গুণ বা পরিমাপের ধারণা প্রকাশ করায় এটি একটি Abstract Noun। এর Adjective হলো High।",
+      "ans": 3,
+      "correct_answer": "Height"
     },
     {
       "id": 6,
       "question": "He was astonished… my courage বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে-",
-      "options": {
-        "ক": "to",
-        "খ": "in",
-        "গ": "with",
-        "ঘ": "at"
-      },
+      "options": [
+        "to",
+        "in",
+        "with",
+        "at"
+      ],
       "answer": "ঘ",
-      "explanation": "কোনো গুণ বা ঘটনায় বিস্মিত হওয়া বোঝাতে 'astonished at' বসে: 'He was astonished at my courage.'"
+      "explanation": "কোনো গুণ বা ঘটনায় বিস্মিত হওয়া বোঝাতে 'astonished at' বসে: 'He was astonished at my courage.'",
+      "ans": 3,
+      "correct_answer": "at"
     },
     {
       "id": 7,
       "question": "নিচের কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "He is not in the committee.",
-        "খ": "He is not at the committee.",
-        "গ": "He is not on the committee.",
-        "ঘ": "He is not with the committee."
-      },
-      "answer": "গ",
-      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।"
+      "options": [
+        "He is not in the committee.",
+        "He is not at the committee.",
+        "He is not on the committee.",
+        "He is not with the committee."
+      ],
+      "answer": "ক",
+      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 8,
       "question": "‘Courage’ শব্দটির verb হবে-",
-      "options": {
-        "ক": "Encourage",
-        "খ": "Courageous",
-        "গ": "Couragefull",
-        "ঘ": "Courage"
-      },
+      "options": [
+        "Encourage",
+        "Courageous",
+        "Couragefull",
+        "Courage"
+      ],
       "answer": "ক",
-      "explanation": "'Courage' (সাহস) একটি Noun। এর Verb form হলো 'Encourage' (উৎসাহিত বা সাহস দেওয়া)। Courageous হলো adjective।"
+      "explanation": "'Courage' (সাহস) একটি Noun। এর Verb form হলো 'Encourage' (উৎসাহিত বা সাহস দেওয়া)। Courageous হলো adjective।",
+      "ans": 0,
+      "correct_answer": "Encourage"
     },
     {
       "id": 9,
       "question": "নিচের কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "The more he gets, more he wants.",
-        "খ": "More he gets, the more he wants.",
-        "গ": "More he gets, more he wants.",
-        "ঘ": "The more he gets, the more he wants."
-      },
-      "answer": "ঘ",
-      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।"
+      "options": [
+        "The more he gets, more he wants.",
+        "More he gets, the more he wants.",
+        "More he gets, more he wants.",
+        "The more he gets, the more he wants."
+      ],
+      "answer": "ক",
+      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 10,
       "question": "The Chairman said, to the members, ‘Let us drop the matter today. ‘ বাক্যটির indirect speech হবে-",
-      "options": {
-        "ক": "The Chairman proposed to the members to drop the matter that day.",
-        "খ": "The Chairman proposed to the members that they should drop the matter today.",
-        "গ": "The Chairman proposed to the members that they should drop the matter that day.",
-        "ঘ": "The Chairman proposed to the members that they might drop the matter today."
-      },
+      "options": [
+        "The Chairman proposed to the members to drop the matter that day.",
+        "The Chairman proposed to the members that they should drop the matter today.",
+        "The Chairman proposed to the members that they should drop the matter that day.",
+        "The Chairman proposed to the members that they might drop the matter today."
+      ],
       "answer": "গ",
-      "explanation": "Let us যুক্ত প্রস্তাবে reporting verb 'proposed to' হয় এবং 'that they should' বসে; এছাড়া today পরিবর্তিত হয়ে 'that day' হয়: 'The Chairman proposed to the members that they should drop the matter that day.'"
+      "explanation": "Let us যুক্ত প্রস্তাবে reporting verb 'proposed to' হয় এবং 'that they should' বসে; এছাড়া today পরিবর্তিত হয়ে 'that day' হয়: 'The Chairman proposed to the members that they should drop the matter that day.'",
+      "ans": 2,
+      "correct_answer": "The Chairman proposed to the members that they should drop the matter that day."
     },
     {
       "id": 11,
       "question": "কোনটি ‘Vacant’ শব্দের সমার্থক শব্দ?",
-      "options": {
-        "ক": "Blank",
-        "খ": "Busy",
-        "গ": "Engaged",
-        "ঘ": "Full"
-      },
+      "options": [
+        "Blank",
+        "Busy",
+        "Engaged",
+        "Full"
+      ],
       "answer": "ক",
-      "explanation": "'Vacant' শব্দের অর্থ খালি বা ফাঁকা। এর যথার্থ সমার্থক শব্দ হলো 'Blank' (খালি বা অনধিকৃত)। Busy ও Engaged অর্থ ব্যস্ত।"
+      "explanation": "'Vacant' শব্দের অর্থ খালি বা ফাঁকা। এর যথার্থ সমার্থক শব্দ হলো 'Blank' (খালি বা অনধিকৃত)। Busy ও Engaged অর্থ ব্যস্ত।",
+      "ans": 0,
+      "correct_answer": "Blank"
     },
     {
       "id": 12,
       "question": "কোনটি ‘Kind’ শব্দের সমার্থক শব্দ?",
-      "options": {
-        "ক": "Unkind",
-        "খ": "Benign",
-        "গ": "Cruel",
-        "ঘ": "Inhuman"
-      },
+      "options": [
+        "Unkind",
+        "Benign",
+        "Cruel",
+        "Inhuman"
+      ],
       "answer": "খ",
-      "explanation": "'Kind' শব্দের অর্থ দয়ালু বা সদয়। এর যথার্থ সমার্থক শব্দ হলো 'Benign' (সদয়, কৃপালু বা হিতকর)। Cruel ও Unkind হলো বিপরীত।"
+      "explanation": "'Kind' শব্দের অর্থ দয়ালু বা সদয়। এর যথার্থ সমার্থক শব্দ হলো 'Benign' (সদয়, কৃপালু বা হিতকর)। Cruel ও Unkind হলো বিপরীত।",
+      "ans": 1,
+      "correct_answer": "Benign"
     },
     {
       "id": 13,
       "question": "‘Did you eat the apple?’ বাক্যটির Passive form হবে-",
-      "options": {
-        "ক": "Do the apple eaten by you?",
-        "খ": "Was the apple eaten by you?",
-        "গ": "Was the apple eat by you?",
-        "ঘ": "Was the apple ate by you?"
-      },
+      "options": [
+        "Do the apple eaten by you?",
+        "Was the apple eaten by you?",
+        "Was the apple eat by you?",
+        "Was the apple ate by you?"
+      ],
       "answer": "খ",
-      "explanation": "Past Indefinite Interrogative Active 'Did you eat the apple?'-এর Passive রূপ হলো: 'Was the apple eaten by you?'"
+      "explanation": "Past Indefinite Interrogative Active 'Did you eat the apple?'-এর Passive রূপ হলো: 'Was the apple eaten by you?'",
+      "ans": 1,
+      "correct_answer": "Was the apple eaten by you?"
     },
     {
       "id": 14,
       "question": "He addressed Mr. Rahman and wished him good morning. বাক্যটির direct speech হবে-",
-      "options": {
-        "ক": "He said to Mr. Rahman, ‘Good morning.”",
-        "খ": "He said, ‘Good morning, Mr. Rahman.’",
-        "গ": "He said, ‘Good morning, to Mr. Rahman.’",
-        "ঘ": "He bade good morning to Mr. Rahman"
-      },
+      "options": [
+        "He said to Mr. Rahman, ‘Good morning.”",
+        "He said, ‘Good morning, Mr. Rahman.’",
+        "He said, ‘Good morning, to Mr. Rahman.’",
+        "He bade good morning to Mr. Rahman"
+      ],
       "answer": "খ",
-      "explanation": "Indirect speech-এ Mr. Rahman-কে সম্বোধন করে শুভ সকাল জানানোর Direct রূপ: He said, 'Good morning, Mr. Rahman.'"
+      "explanation": "Indirect speech-এ Mr. Rahman-কে সম্বোধন করে শুভ সকাল জানানোর Direct রূপ: He said, 'Good morning, Mr. Rahman.'",
+      "ans": 1,
+      "correct_answer": "He said, ‘Good morning, Mr. Rahman.’"
     },
     {
       "id": 15,
       "question": "A baker’s dozen এর অর্থ-",
-      "options": {
-        "ক": "Charity",
-        "খ": "Allowance",
-        "গ": "Twelve",
-        "ঘ": "Thirteen"
-      },
+      "options": [
+        "Charity",
+        "Allowance",
+        "Twelve",
+        "Thirteen"
+      ],
       "answer": "ঘ",
-      "explanation": "'A baker's dozen' একটি ঐতিহাসিক ইংরেজি বাগধারা, যার অর্থ তেরোটি (Thirteen)। বেকিম্যানরা এক ডজনে ১২টির স্থলে অতিরিক্ত ১টি বেশি দিয়ে ১৩টি দিতেন।"
+      "explanation": "'A baker's dozen' একটি ঐতিহাসিক ইংরেজি বাগধারা, যার অর্থ তেরোটি (Thirteen)। বেকিম্যানরা এক ডজনে ১২টির স্থলে অতিরিক্ত ১টি বেশি দিয়ে ১৩টি দিতেন।",
+      "ans": 3,
+      "correct_answer": "Thirteen"
     }
   ]
 }

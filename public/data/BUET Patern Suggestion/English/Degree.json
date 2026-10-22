@@ -8,8 +8,10 @@
       "Better",
       "Further"
     ],
-    "answer": "(a) Least",
-    "explanation": "প্রদত্ত Option এ worse, Better. Further হলো Comparative degree. Option (ক) least হলো superlative degree."
+    "answer": "ক",
+    "explanation": "প্রদত্ত Option এ worse, Better. Further হলো Comparative degree. Option (ক) least হলো superlative degree.",
+    "ans": 0,
+    "correct_answer": "Least"
   },
   {
     "id": 2,
@@ -20,8 +22,10 @@
       "more fast",
       "more faster"
     ],
-    "answer": "(b) faster",
-    "explanation": "Comparative sentence এর নিয়ম অনুযায়ী faster হবে সঠিক উত্তর। ‘more faster’ clause টি Redundancy জনিত ভুল।"
+    "answer": "খ",
+    "explanation": "Comparative sentence এর নিয়ম অনুযায়ী faster হবে সঠিক উত্তর। ‘more faster’ clause টি Redundancy জনিত ভুল।",
+    "ans": 1,
+    "correct_answer": "faster"
   },
   {
     "id": 3,
@@ -32,8 +36,10 @@
       "Best",
       "Less"
     ],
-    "answer": "(c) Best",
-    "explanation": "less, Better, further হলো comparative degree তবে Best হলো Superlative degree."
+    "answer": "গ",
+    "explanation": "less, Better, further হলো comparative degree তবে Best হলো Superlative degree.",
+    "ans": 2,
+    "correct_answer": "Best"
   },
   {
     "id": 4,
@@ -44,8 +50,10 @@
       "most happy",
       "Happiest"
     ],
-    "answer": "(b) happier",
-    "explanation": "Comparative degree এর structure — Sub + Verb + Adjective এর comparative form + than + you. For Example, Rana is smarter than Rakib. She is happier than you."
+    "answer": "খ",
+    "explanation": "Comparative degree এর structure — Sub + Verb + Adjective এর comparative form + than + you. For Example, Rana is smarter than Rakib. She is happier than you.",
+    "ans": 1,
+    "correct_answer": "happier"
   },
   {
     "id": 5,
@@ -56,8 +64,10 @@
       "best",
       "immune"
     ],
-    "answer": "(c) best",
-    "explanation": "Good এর comparative degree-Better এবং Superlative degree-Best."
+    "answer": "গ",
+    "explanation": "Good এর comparative degree-Better এবং Superlative degree-Best.",
+    "ans": 2,
+    "correct_answer": "best"
   },
   {
     "id": 6,
@@ -68,8 +78,10 @@
       "less beautiful",
       "not so beautiful as"
     ],
-    "answer": "(d) not so beautiful as",
-    "explanation": ""
+    "answer": "ঘ",
+    "explanation": "",
+    "ans": 3,
+    "correct_answer": "not so beautiful as"
   },
   {
     "id": 7,
@@ -80,8 +92,10 @@
       "Farther",
       "Less"
     ],
-    "answer": "(a) Worst",
-    "explanation": "Worst অর্থ সবচেয়ে খারাপ; Positive: Bad -> Comparative: Worse -> Superlative: Worst; Positive: Good -> Comparative: Better -> Superlative: best"
+    "answer": "ক",
+    "explanation": "Worst অর্থ সবচেয়ে খারাপ; Positive: Bad -> Comparative: Worse -> Superlative: Worst; Positive: Good -> Comparative: Better -> Superlative: best",
+    "ans": 0,
+    "correct_answer": "Worst"
   },
   {
     "id": 8,
@@ -92,7 +106,9 @@
       "of the happiest child in the class.",
       "of the happy chills of his class."
     ],
-    "answer": "(a) of the happiest children in the class.",
-    "explanation": "মনে রাখুন, sentence-এ one of the থাকলে পরবর্তী noun এর plural form হয়। Child এর plural form হলো Children।"
+    "answer": "ক",
+    "explanation": "মনে রাখুন, sentence-এ one of the থাকলে পরবর্তী noun এর plural form হয়। Child এর plural form হলো Children।",
+    "ans": 0,
+    "correct_answer": "of the happiest children in the class."
   }
 ]

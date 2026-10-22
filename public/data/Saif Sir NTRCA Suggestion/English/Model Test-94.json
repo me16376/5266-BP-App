@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Banquete",
-        "খ": "Bouquet",
-        "গ": "Boquet",
-        "ঘ": "Bouquette"
-      },
+      "options": [
+        "Banquete",
+        "Bouquet",
+        "Boquet",
+        "Bouquette"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 1,
+      "correct_answer": "Bouquet"
     },
     {
       "id": 2,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Foreigner",
-        "খ": "Forienor",
-        "গ": "Foricgnor",
-        "ঘ": "Foreiner"
-      },
+      "options": [
+        "Foreigner",
+        "Forienor",
+        "Foricgnor",
+        "Foreiner"
+      ],
       "answer": "ক",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 0,
+      "correct_answer": "Foreigner"
     },
     {
       "id": 3,
       "question": "‘Laugh’ শব্দটির Noun হচ্ছে-----",
-      "options": {
-        "ক": "Laugh",
-        "খ": "Laughing",
-        "গ": "Laughable",
-        "ঘ": "Laughter"
-      },
+      "options": [
+        "Laugh",
+        "Laughing",
+        "Laughable",
+        "Laughter"
+      ],
       "answer": "ঘ",
-      "explanation": "'Laugh' (হাসা) verb-টির Noun form হলো 'Laughter' (হাসি)। Laughable হলো adjective।"
+      "explanation": "'Laugh' (হাসা) verb-টির Noun form হলো 'Laughter' (হাসি)। Laughable হলো adjective।",
+      "ans": 3,
+      "correct_answer": "Laughter"
     },
     {
       "id": 4,
       "question": "‘Full’ শব্দটির Synonym হচ্ছে-----",
-      "options": {
-        "ক": "Filled",
-        "খ": "Fulfilment",
-        "গ": "Fill",
-        "ঘ": "Full"
-      },
+      "options": [
+        "Filled",
+        "Fulfilment",
+        "Fill",
+        "Full"
+      ],
       "answer": "ক",
-      "explanation": "'Full' (পূর্ণ) শব্দটির সমার্থক শব্দ হলো 'Filled' (ভর্তি বা পরিপূর্ণ)।"
+      "explanation": "'Full' (পূর্ণ) শব্দটির সমার্থক শব্দ হলো 'Filled' (ভর্তি বা পরিপূর্ণ)।",
+      "ans": 0,
+      "correct_answer": "Filled"
     },
     {
       "id": 5,
       "question": "‘Abolish’ শব্দটির Synonym হচ্ছে-----",
-      "options": {
-        "ক": "Cancel",
-        "খ": "Perform",
-        "গ": "Create",
-        "ঘ": "Generate"
-      },
+      "options": [
+        "Cancel",
+        "Perform",
+        "Create",
+        "Generate"
+      ],
       "answer": "ক",
-      "explanation": "'Abolish' শব্দের অর্থ কোনো প্রথা বা আইন বিলোপ করা। এর সমার্থক হলো 'Cancel' (বাতিল করা)।"
+      "explanation": "'Abolish' শব্দের অর্থ কোনো প্রথা বা আইন বিলোপ করা। এর সমার্থক হলো 'Cancel' (বাতিল করা)।",
+      "ans": 0,
+      "correct_answer": "Cancel"
     },
     {
       "id": 6,
       "question": "‘Effort’ শব্দটির Synonym হচ্ছে-----",
-      "options": {
-        "ক": "Assurance",
-        "খ": "Attempt",
-        "গ": "Erect",
-        "ঘ": "Exclude"
-      },
+      "options": [
+        "Assurance",
+        "Attempt",
+        "Erect",
+        "Exclude"
+      ],
       "answer": "খ",
-      "explanation": "'Effort' শব্দের অর্থ উদ্যোগ বা চেষ্টা। এর উপযুক্ত সমার্থক শব্দ হলো 'Attempt' (প্রচেষ্টা বা চেষ্টা)।"
+      "explanation": "'Effort' শব্দের অর্থ উদ্যোগ বা চেষ্টা। এর উপযুক্ত সমার্থক শব্দ হলো 'Attempt' (প্রচেষ্টা বা চেষ্টা)।",
+      "ans": 1,
+      "correct_answer": "Attempt"
     },
     {
       "id": 7,
       "question": "‘Socrates was accused -----misleading the young section of Athens’. বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে ---",
-      "options": {
-        "ক": "to",
-        "খ": "for",
-        "গ": "of",
-        "ঘ": "on"
-      },
+      "options": [
+        "to",
+        "for",
+        "of",
+        "on"
+      ],
       "answer": "গ",
-      "explanation": "কোনো অপরাধে অভিযুক্ত করা বোঝাতে 'accused of' বসে: 'Socrates was accused of misleading the young section of Athens.'"
+      "explanation": "কোনো অপরাধে অভিযুক্ত করা বোঝাতে 'accused of' বসে: 'Socrates was accused of misleading the young section of Athens.'",
+      "ans": 2,
+      "correct_answer": "of"
     },
     {
       "id": 8,
       "question": "‘He is accessible ----all’. বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে ---",
-      "options": {
-        "ক": "of",
-        "খ": "on",
-        "গ": "into",
-        "ঘ": "to"
-      },
+      "options": [
+        "of",
+        "on",
+        "into",
+        "to"
+      ],
       "answer": "ঘ",
-      "explanation": "সবার কাছে সহজলভ্য বা প্রবেশযোগ্য বোঝাতে 'accessible to' বসে: 'He is accessible to all.'"
+      "explanation": "সবার কাছে সহজলভ্য বা প্রবেশযোগ্য বোঝাতে 'accessible to' বসে: 'He is accessible to all.'",
+      "ans": 3,
+      "correct_answer": "to"
     },
     {
       "id": 9,
       "question": "‘Accept’ শব্দটির Noun হচ্ছে-----",
-      "options": {
-        "ক": "Acceptance",
-        "খ": "Accepted",
-        "গ": "Acception",
-        "ঘ": "Acceptable"
-      },
+      "options": [
+        "Acceptance",
+        "Accepted",
+        "Acception",
+        "Acceptable"
+      ],
       "answer": "ক",
-      "explanation": "'Accept' (গ্রহণ করা) verb-টির Noun form হলো 'Acceptance' (গ্রহণ বা সম্মতি)।"
+      "explanation": "'Accept' (গ্রহণ করা) verb-টির Noun form হলো 'Acceptance' (গ্রহণ বা সম্মতি)।",
+      "ans": 0,
+      "correct_answer": "Acceptance"
     },
     {
       "id": 10,
       "question": "‘Envy’ শব্দটির Adjective হচ্ছে-----",
-      "options": {
-        "ক": "Envity",
-        "খ": "Envious",
-        "গ": "Jealous",
-        "ঘ": "Enviable"
-      },
+      "options": [
+        "Envity",
+        "Envious",
+        "Jealous",
+        "Enviable"
+      ],
       "answer": "খ",
-      "explanation": "'Envy' (ঈর্ষা) একটি Noun/Verb। এর Adjective form হলো 'Envious' (ঈর্ষাপরায়ণ)।"
+      "explanation": "'Envy' (ঈর্ষা) একটি Noun/Verb। এর Adjective form হলো 'Envious' (ঈর্ষাপরায়ণ)।",
+      "ans": 1,
+      "correct_answer": "Envious"
     },
     {
       "id": 11,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Achievment",
-        "খ": "Acheivment",
-        "গ": "Achievement",
-        "ঘ": "Achevement"
-      },
+      "options": [
+        "Achievment",
+        "Acheivment",
+        "Achievement",
+        "Achevement"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 2,
+      "correct_answer": "Achievement"
     },
     {
       "id": 12,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Jewelery",
-        "খ": "Jewellry",
-        "গ": "Jwellry",
-        "ঘ": "Jewellery"
-      },
+      "options": [
+        "Jewelery",
+        "Jewellry",
+        "Jwellry",
+        "Jewellery"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 3,
+      "correct_answer": "Jewellery"
     },
     {
       "id": 13,
       "question": "কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "I feel hungry",
-        "খ": "I feel myself hungry",
-        "গ": "I am a man of words",
-        "ঘ": "The sheeps are quite healthy"
-      },
+      "options": [
+        "I feel hungry",
+        "I feel myself hungry",
+        "I am a man of words",
+        "The sheeps are quite healthy"
+      ],
       "answer": "ক",
-      "explanation": "'See' verb-এর পর Bare Infinitive (write) বসে: 'I saw him write something' (আমি তাকে কিছু লিখতে দেখেছিলাম)। কীতে ক সঠিক উত্তর দেওয়া হয়েছে।"
+      "explanation": "'See' verb-এর পর Bare Infinitive (write) বসে: 'I saw him write something' (আমি তাকে কিছু লিখতে দেখেছিলাম)। কীতে ক সঠিক উত্তর দেওয়া হয়েছে।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 14,
       "question": "কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "She is a person whom I know is sincere",
-        "খ": "She is a person who I know is sincere",
-        "গ": "Tuhin is my lovely friend",
-        "ঘ": "There is no place in my class"
-      },
-      "answer": "খ",
-      "explanation": "'See' verb-এর পর Bare Infinitive (write) বসে: 'I saw him write something' (আমি তাকে কিছু লিখতে দেখেছিলাম)। কীতে ক সঠিক উত্তর দেওয়া হয়েছে।"
+      "options": [
+        "She is a person whom I know is sincere",
+        "She is a person who I know is sincere",
+        "Tuhin is my lovely friend",
+        "There is no place in my class"
+      ],
+      "answer": "ক",
+      "explanation": "'See' verb-এর পর Bare Infinitive (write) বসে: 'I saw him write something' (আমি তাকে কিছু লিখতে দেখেছিলাম)। কীতে ক সঠিক উত্তর দেওয়া হয়েছে।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 15,
       "question": "‘I know him’ বাক্যটির সঠিক Passive form ----",
-      "options": {
-        "ক": "He is known by me",
-        "খ": "He was known to me",
-        "গ": "He is known to me",
-        "ঘ": "He is being known to me"
-      },
+      "options": [
+        "He is known by me",
+        "He was known to me",
+        "He is known to me",
+        "He is being known to me"
+      ],
       "answer": "গ",
-      "explanation": "'I know him'-এর Passive রূপ হলো 'He is known to me' ('know'-এর পর 'to' বসে)।"
+      "explanation": "'I know him'-এর Passive রূপ হলো 'He is known to me' ('know'-এর পর 'to' বসে)।",
+      "ans": 2,
+      "correct_answer": "He is known to me"
     },
     {
       "id": 16,
       "question": "‘He is beating the thief’ বাক্যটির সঠিক Passive form ----",
-      "options": {
-        "ক": "The thief was being beattn by him.",
-        "খ": "The thief is being beat by him.",
-        "গ": "The thief is beaten by him.",
-        "ঘ": "The thief is being beaten by him."
-      },
+      "options": [
+        "The thief was being beattn by him.",
+        "The thief is being beat by him.",
+        "The thief is beaten by him.",
+        "The thief is being beaten by him."
+      ],
       "answer": "ঘ",
-      "explanation": "Present Continuous Active-এর Passive রূপ: 'The thief is being beaten by him.'"
+      "explanation": "Present Continuous Active-এর Passive রূপ: 'The thief is being beaten by him.'",
+      "ans": 3,
+      "correct_answer": "The thief is being beaten by him."
     },
     {
       "id": 17,
       "question": "He said, “tell me, boy, is the miller within? “ বাক্যটির সঠিক Indirect speech ----",
-      "options": {
-        "ক": "Addressing the boy, he asked him (boy) to tell him if the miller was within.",
-        "খ": "Addressing the boy, he said to him (boy) to tell him if the miller was within.",
-        "গ": "Addressing the boy, he asked him (boy) to tell him that the miller was within.",
-        "ঘ": "Addressing the boy, he said him (boy) to tell him if the miller was within."
-      },
+      "options": [
+        "Addressing the boy, he asked him (boy) to tell him if the miller was within.",
+        "Addressing the boy, he said to him (boy) to tell him if the miller was within.",
+        "Addressing the boy, he asked him (boy) to tell him that the miller was within.",
+        "Addressing the boy, he said him (boy) to tell him if the miller was within."
+      ],
       "answer": "ক",
-      "explanation": "বালককে সম্বোধন করে প্রশ্ন করার Indirect Speech: 'Addressing the boy, he asked him (boy) to tell him if the miller was within.'"
+      "explanation": "বালককে সম্বোধন করে প্রশ্ন করার Indirect Speech: 'Addressing the boy, he asked him (boy) to tell him if the miller was within.'",
+      "ans": 0,
+      "correct_answer": "Addressing the boy, he asked him (boy) to tell him if the miller was within."
     },
     {
       "id": 18,
       "question": "I said to him, “Will you follow me?” বাক্যটির সঠিক Indirect speech ----",
-      "options": {
-        "ক": "I said to him if he would follow me.",
-        "খ": "I asked him if he would follow me.",
-        "গ": "I asked to him if he would follow me.",
-        "ঘ": "I said to him if he will follow me."
-      },
+      "options": [
+        "I said to him if he would follow me.",
+        "I asked him if he would follow me.",
+        "I asked to him if he would follow me.",
+        "I said to him if he will follow me."
+      ],
       "answer": "খ",
-      "explanation": "Interrogative বাক্যের Indirect রূপ: 'I asked him if he would follow me' (will পরিবর্তিত হয়ে would হয়)।"
+      "explanation": "Interrogative বাক্যের Indirect রূপ: 'I asked him if he would follow me' (will পরিবর্তিত হয়ে would হয়)।",
+      "ans": 1,
+      "correct_answer": "I asked him if he would follow me."
     },
     {
       "id": 19,
       "question": "The idiom ‘Tooth and nail’ এর অর্থ ----",
-      "options": {
-        "ক": "Beautiful",
-        "খ": "Precise",
-        "গ": "Completely",
-        "ঘ": "Incompletely"
-      },
+      "options": [
+        "Beautiful",
+        "Precise",
+        "Completely",
+        "Incompletely"
+      ],
       "answer": "গ",
-      "explanation": "'Tooth and nail' idiom-টির অর্থ সর্বশক্তি দিয়ে বা সম্পূর্ণরূপে লড়াই করা (With all force / completely)।"
+      "explanation": "'Tooth and nail' idiom-টির অর্থ সর্বশক্তি দিয়ে বা সম্পূর্ণরূপে লড়াই করা (With all force / completely)।",
+      "ans": 2,
+      "correct_answer": "Completely"
     },
     {
       "id": 20,
       "question": "The idiom ‘Nip in the bud’ এর অর্থ ----",
-      "options": {
-        "ক": "Bed of roses",
-        "খ": "Beginning",
-        "গ": "Rare-up",
-        "ঘ": "Destroy at the very beginning"
-      },
+      "options": [
+        "Bed of roses",
+        "Beginning",
+        "Rare-up",
+        "Destroy at the very beginning"
+      ],
       "answer": "ঘ",
-      "explanation": "'Nip in the bud' একটি জনপ্রিয় idiom, যার অর্থ কোনো খারাপ কিছুকে শুরুতেই অঙ্কুরে বিনষ্ট করা (To destroy at the very beginning)।"
+      "explanation": "'Nip in the bud' একটি জনপ্রিয় idiom, যার অর্থ কোনো খারাপ কিছুকে শুরুতেই অঙ্কুরে বিনষ্ট করা (To destroy at the very beginning)।",
+      "ans": 3,
+      "correct_answer": "Destroy at the very beginning"
     }
   ]
 }

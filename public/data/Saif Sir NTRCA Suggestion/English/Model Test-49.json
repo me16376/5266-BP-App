@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Commission",
-        "খ": "commision",
-        "গ": "comission",
-        "ঘ": "comision"
-      },
+      "options": [
+        "Commission",
+        "commision",
+        "comission",
+        "comision"
+      ],
       "answer": "ক",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 0,
+      "correct_answer": "Commission"
     },
     {
       "id": 2,
       "question": "people শব্দটির Adjective -",
-      "options": {
-        "ক": "popularity",
-        "খ": "popularly",
-        "গ": "popularise",
-        "ঘ": "populous"
-      },
+      "options": [
+        "popularity",
+        "popularly",
+        "popularise",
+        "populous"
+      ],
       "answer": "ঘ",
-      "explanation": "'People' (জনগণ) শব্দটির Adjective হলো 'Populous' (জনবহুল)। Popularity হলো noun এবং popularise হলো verb।"
+      "explanation": "'People' (জনগণ) শব্দটির Adjective হলো 'Populous' (জনবহুল)। Popularity হলো noun এবং popularise হলো verb।",
+      "ans": 3,
+      "correct_answer": "populous"
     },
     {
       "id": 3,
       "question": "He is innocent---? the charge.",
-      "options": {
-        "ক": "of",
-        "খ": "with",
-        "গ": "to",
-        "ঘ": "on"
-      },
+      "options": [
+        "of",
+        "with",
+        "to",
+        "on"
+      ],
       "answer": "ক",
-      "explanation": "'Innocent of' একটি appropriate preposition, যার অর্থ কোনো অভিযোগ বা দোষ থেকে নির্দোষ (innocent of the charge)।"
+      "explanation": "'Innocent of' একটি appropriate preposition, যার অর্থ কোনো অভিযোগ বা দোষ থেকে নির্দোষ (innocent of the charge)।",
+      "ans": 0,
+      "correct_answer": "of"
     },
     {
       "id": 4,
       "question": "Deny শব্দটির Noun -",
-      "options": {
-        "ক": "Denial",
-        "খ": "Refuse",
-        "গ": "Deni",
-        "ঘ": "Deniable"
-      },
+      "options": [
+        "Denial",
+        "Refuse",
+        "Deni",
+        "Deniable"
+      ],
       "answer": "ক",
-      "explanation": "'Deny' (অস্বীকার করা) verb-টির Noun form হলো 'Denial' (অস্বীকৃতি)।"
+      "explanation": "'Deny' (অস্বীকার করা) verb-টির Noun form হলো 'Denial' (অস্বীকৃতি)।",
+      "ans": 0,
+      "correct_answer": "Denial"
     },
     {
       "id": 5,
       "question": "He has no control --? himself.",
-      "options": {
-        "ক": "on",
-        "খ": "in",
-        "গ": "at",
-        "ঘ": "over"
-      },
+      "options": [
+        "on",
+        "in",
+        "at",
+        "over"
+      ],
       "answer": "ঘ",
-      "explanation": "কারও নিজের ওপর নিয়ন্ত্রণ বোঝাতে appropriate preposition 'control over' ব্যবহৃত হয় (control over himself)।"
+      "explanation": "কারও নিজের ওপর নিয়ন্ত্রণ বোঝাতে appropriate preposition 'control over' ব্যবহৃত হয় (control over himself)।",
+      "ans": 3,
+      "correct_answer": "over"
     },
     {
       "id": 6,
       "question": "Null and void এর বাংলা কোনটি?",
-      "options": {
-        "ক": "বাতিল",
-        "খ": "সঠিক",
-        "গ": "অবশ্যই",
-        "ঘ": "পরিশেষে"
-      },
+      "options": [
+        "বাতিল",
+        "সঠিক",
+        "অবশ্যই",
+        "পরিশেষে"
+      ],
       "answer": "ক",
-      "explanation": "'Null and void' একটি আইনগত phrase যার অর্থ বাতিল বা অকার্যকর (invalid)।"
+      "explanation": "'Null and void' একটি আইনগত phrase যার অর্থ বাতিল বা অকার্যকর (invalid)।",
+      "ans": 0,
+      "correct_answer": "বাতিল"
     },
     {
       "id": 7,
       "question": "কোনটি Material Noun নয়?",
-      "options": {
-        "ক": "Ring",
-        "খ": "None",
-        "গ": "Book",
-        "ঘ": "Paper"
-      },
+      "options": [
+        "Ring",
+        "None",
+        "Book",
+        "Paper"
+      ],
       "answer": "খ",
-      "explanation": "Ring ও Book মূলত Common Noun এবং Paper হলো Material Noun। প্রশ্নে সামান্য ত্রুটি থাকলেও অফিশিয়াল কীতে 'None' (খ) সঠিক হিসেবে দেওয়া হয়েছে।"
+      "explanation": "Ring ও Book মূলত Common Noun এবং Paper হলো Material Noun। প্রশ্নে সামান্য ত্রুটি থাকলেও অফিশিয়াল কীতে 'None' (খ) সঠিক হিসেবে দেওয়া হয়েছে।",
+      "ans": 1,
+      "correct_answer": "None"
     },
     {
       "id": 8,
       "question": "আধুনিক ইংরেজি সাহিত্যের জনক কে?",
-      "options": {
-        "ক": "Chaucer",
-        "খ": "Johnson",
-        "গ": "Shakespeare",
-        "ঘ": "G.B. Shaaw"
-      },
+      "options": [
+        "Chaucer",
+        "Johnson",
+        "Shakespeare",
+        "G.B. Shaaw"
+      ],
       "answer": "ক",
-      "explanation": "জিওফ্রে চসার (Geoffrey Chaucer)-কে আধুনিক ইংরেজি সাহিত্যের জনক (Father of English Literature / English Poetry) বলা হয়।"
+      "explanation": "জিওফ্রে চসার (Geoffrey Chaucer)-কে আধুনিক ইংরেজি সাহিত্যের জনক (Father of English Literature / English Poetry) বলা হয়।",
+      "ans": 0,
+      "correct_answer": "Chaucer"
     },
     {
       "id": 9,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "posesion",
-        "খ": "possession",
-        "গ": "posession",
-        "ঘ": "possesion"
-      },
+      "options": [
+        "posesion",
+        "possession",
+        "posession",
+        "possesion"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 1,
+      "correct_answer": "possession"
     },
     {
       "id": 10,
       "question": "কোনটি verb?",
-      "options": {
-        "ক": "Cloth",
-        "খ": "Blood",
-        "গ": "Food",
-        "ঘ": "Feed"
-      },
+      "options": [
+        "Cloth",
+        "Blood",
+        "Food",
+        "Feed"
+      ],
       "answer": "ঘ",
-      "explanation": "'Feed' হলো Verb, যার অর্থ অন্যকে আহার করানো বা খাওয়ানো।"
+      "explanation": "'Feed' হলো Verb, যার অর্থ অন্যকে আহার করানো বা খাওয়ানো।",
+      "ans": 3,
+      "correct_answer": "Feed"
     },
     {
       "id": 11,
       "question": "'May Allah Help you\"- what kind of sentence?",
-      "options": {
-        "ক": "Assertive",
-        "খ": "Imperative",
-        "গ": "Optative",
-        "ঘ": "Exclamatory"
-      },
+      "options": [
+        "Assertive",
+        "Imperative",
+        "Optative",
+        "Exclamatory"
+      ],
       "answer": "গ",
-      "explanation": "যে বাক্য দ্বারা কোনো প্রার্থনা, ইচ্ছা বা আশীর্বাদ প্রকাশ পায় তাকে 'Optative Sentence' বলে। 'May Allah help you' একটি Optative বাক্য।"
+      "explanation": "যে বাক্য দ্বারা কোনো প্রার্থনা, ইচ্ছা বা আশীর্বাদ প্রকাশ পায় তাকে 'Optative Sentence' বলে। 'May Allah help you' একটি Optative বাক্য।",
+      "ans": 2,
+      "correct_answer": "Optative"
     },
     {
       "id": 12,
       "question": "Gentle এর বিপরীত কোনটি?",
-      "options": {
-        "ক": "Shrwd",
-        "খ": "Naive",
-        "গ": "Rude",
-        "ঘ": "Harsh"
-      },
+      "options": [
+        "Shrwd",
+        "Naive",
+        "Rude",
+        "Harsh"
+      ],
       "answer": "গ",
-      "explanation": "'Gentle' অর্থ ভদ্র, নম্র বা শান্ত। এর বিপরীত শব্দ হলো 'Rude' (অভদ্র, রূঢ় বা কর্কশ)।"
+      "explanation": "'Gentle' অর্থ ভদ্র, নম্র বা শান্ত। এর বিপরীত শব্দ হলো 'Rude' (অভদ্র, রূঢ় বা কর্কশ)।",
+      "ans": 2,
+      "correct_answer": "Rude"
     },
     {
       "id": 13,
       "question": "Homely শব্দটি কোন part of speech?",
-      "options": {
-        "ক": "Noun",
-        "খ": "Adjective",
-        "গ": "verb",
-        "ঘ": "Adverb"
-      },
+      "options": [
+        "Noun",
+        "Adjective",
+        "verb",
+        "Adverb"
+      ],
       "answer": "খ",
-      "explanation": "Noun-এর সাথে '-ly' যুক্ত হলে তা Adjective হয় (Home + ly = Homely, অর্থ ঘরোয়া বা সাদাসিধে)। সুতরাং এটি একটি Adjective।"
+      "explanation": "Noun-এর সাথে '-ly' যুক্ত হলে তা Adjective হয় (Home + ly = Homely, অর্থ ঘরোয়া বা সাদাসিধে)। সুতরাং এটি একটি Adjective।",
+      "ans": 1,
+      "correct_answer": "Adjective"
     },
     {
       "id": 14,
       "question": "Thief এর plural কোনটি?",
-      "options": {
-        "ক": "Thiefes",
-        "খ": "Thieves",
-        "গ": "Thiefs",
-        "ঘ": "Thives"
-      },
+      "options": [
+        "Thiefes",
+        "Thieves",
+        "Thiefs",
+        "Thives"
+      ],
       "answer": "খ",
-      "explanation": "যেসব Noun-এর শেষে 'f' বা 'fe' থাকে, সেগুলোর Plural করতে 'f/fe' উঠে গিয়ে 'ves' যুক্ত হয়। তাই 'Thief'-এর plural হলো 'Thieves'।"
+      "explanation": "যেসব Noun-এর শেষে 'f' বা 'fe' থাকে, সেগুলোর Plural করতে 'f/fe' উঠে গিয়ে 'ves' যুক্ত হয়। তাই 'Thief'-এর plural হলো 'Thieves'।",
+      "ans": 1,
+      "correct_answer": "Thieves"
     },
     {
       "id": 15,
       "question": "Students are concerned --- their result.",
-      "options": {
-        "ক": "for",
-        "খ": "in",
-        "গ": "on",
-        "ঘ": "with"
-      },
+      "options": [
+        "for",
+        "in",
+        "on",
+        "with"
+      ],
       "answer": "ক",
-      "explanation": "কোনো বিষয় নিয়ে উদ্বিগ্ন বা চিন্তিত বোঝাতে 'concerned for' বা 'concerned about' ব্যবহৃত হয়। তাই 'Students are concerned for their result' সঠিক।"
+      "explanation": "কোনো বিষয় নিয়ে উদ্বিগ্ন বা চিন্তিত বোঝাতে 'concerned for' বা 'concerned about' ব্যবহৃত হয়। তাই 'Students are concerned for their result' সঠিক।",
+      "ans": 0,
+      "correct_answer": "for"
     },
     {
       "id": 16,
       "question": "Climate হলো-",
-      "options": {
-        "ক": "আবহাওয়া",
-        "খ": "পরিবেশ",
-        "গ": "জলবায়ু",
-        "ঘ": "ঋতু"
-      },
+      "options": [
+        "আবহাওয়া",
+        "পরিবেশ",
+        "জলবায়ু",
+        "ঋতু"
+      ],
       "answer": "গ",
-      "explanation": "'Climate' শব্দের বাংলা অর্থ 'জলবায়ু' (কোনো অঞ্চলের দীর্ঘ ২৫-৩০ বছরের আবহাওয়ার গড় অবস্থা)। স্বল্পকালীন অবস্থাকে বলে Weather (আবহাওয়া)।"
+      "explanation": "'Climate' শব্দের বাংলা অর্থ 'জলবায়ু' (কোনো অঞ্চলের দীর্ঘ ২৫-৩০ বছরের আবহাওয়ার গড় অবস্থা)। স্বল্পকালীন অবস্থাকে বলে Weather (আবহাওয়া)।",
+      "ans": 2,
+      "correct_answer": "জলবায়ু"
     },
     {
       "id": 17,
       "question": "কোনটি স্ত্রীবাচক শব্দ?",
-      "options": {
-        "ক": "Moom",
-        "খ": "Queen",
-        "গ": "Boy",
-        "ঘ": "None of these"
-      },
+      "options": [
+        "Moom",
+        "Queen",
+        "Boy",
+        "None of these"
+      ],
       "answer": "খ",
-      "explanation": "'Queen' (রানী) হলো স্ত্রীবাচক শব্দ (Feminine gender)। এর বিপরীত পুংলিঙ্গ হলো King (রাজা)।"
+      "explanation": "'Queen' (রানী) হলো স্ত্রীবাচক শব্দ (Feminine gender)। এর বিপরীত পুংলিঙ্গ হলো King (রাজা)।",
+      "ans": 1,
+      "correct_answer": "Queen"
     },
     {
       "id": 18,
       "question": "Beautiful শব্দটি কোন part of speech?",
-      "options": {
-        "ক": "Noun",
-        "খ": "Adjective",
-        "গ": "verb",
-        "ঘ": "adverb"
-      },
+      "options": [
+        "Noun",
+        "Adjective",
+        "verb",
+        "adverb"
+      ],
       "answer": "খ",
-      "explanation": "'Beautiful' (সুন্দর) শব্দটি কোনো ব্যক্তি বা বস্তুর গুণ প্রকাশ করায় এটি একটি Adjective। এর noun হলো Beauty এবং verb হলো Beautify।"
+      "explanation": "'Beautiful' (সুন্দর) শব্দটি কোনো ব্যক্তি বা বস্তুর গুণ প্রকাশ করায় এটি একটি Adjective। এর noun হলো Beauty এবং verb হলো Beautify।",
+      "ans": 1,
+      "correct_answer": "Adjective"
     },
     {
       "id": 19,
       "question": "part of speech কয় প্রকার?",
-      "options": {
-        "ক": "৫",
-        "খ": "৬",
-        "গ": "৭",
-        "ঘ": "৮"
-      },
+      "options": [
+        "৫",
+        "৬",
+        "৭",
+        "৮"
+      ],
       "answer": "ঘ",
-      "explanation": "ইংরেজি ব্যাকরণে Parts of Speech প্রধানত ৮ প্রকার: Noun, Pronoun, Adjective, Verb, Adverb, Preposition, Conjunction ও Interjection।"
+      "explanation": "ইংরেজি ব্যাকরণে Parts of Speech প্রধানত ৮ প্রকার: Noun, Pronoun, Adjective, Verb, Adverb, Preposition, Conjunction ও Interjection।",
+      "ans": 3,
+      "correct_answer": "৮"
     },
     {
       "id": 20,
       "question": "Truth শব্দটির adjective হলো-",
-      "options": {
-        "ক": "Truly",
-        "খ": "True",
-        "গ": "Truism",
-        "ঘ": "None of them"
-      },
+      "options": [
+        "Truly",
+        "True",
+        "Truism",
+        "None of them"
+      ],
       "answer": "খ",
-      "explanation": "'Truth' (সত্যতা) একটি Abstract Noun। এর Adjective হলো 'True' (সত্য) এবং Adverb হলো Truly।"
+      "explanation": "'Truth' (সত্যতা) একটি Abstract Noun। এর Adjective হলো 'True' (সত্য) এবং Adverb হলো Truly।",
+      "ans": 1,
+      "correct_answer": "True"
     }
   ]
 }

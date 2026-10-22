@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "কোন বানানটি শুদ্ধ ?",
-      "options": {
-        "ক": "Assesment",
-        "খ": "Asessment",
-        "গ": "Asesment",
-        "ঘ": "Assessment"
-      },
+      "options": [
+        "Assesment",
+        "Asessment",
+        "Asesment",
+        "Assessment"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ সহযোগিতা বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ সহযোগিতা বা সহযোগিতা।",
+      "ans": 3,
+      "correct_answer": "Assessment"
     },
     {
       "id": 2,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Aleviation",
-        "খ": "Alleviation",
-        "গ": "Allviation",
-        "ঘ": "Aliviation"
-      },
+      "options": [
+        "Aleviation",
+        "Alleviation",
+        "Allviation",
+        "Aliviation"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 1,
+      "correct_answer": "Alleviation"
     },
     {
       "id": 3,
       "question": "কোন বানানটি শুদ্ধ ?",
-      "options": {
-        "ক": "Colaboration",
-        "খ": "Colaboretion",
-        "গ": "Collaboration",
-        "ঘ": "Colleboration"
-      },
+      "options": [
+        "Colaboration",
+        "Colaboretion",
+        "Collaboration",
+        "Colleboration"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ সহযোগিতা বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ সহযোগিতা বা সহযোগিতা।",
+      "ans": 2,
+      "correct_answer": "Collaboration"
     },
     {
       "id": 4,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Exhilaration",
-        "খ": "Exilaration",
-        "গ": "Exhilaretion",
-        "ঘ": "Exilaretion"
-      },
+      "options": [
+        "Exhilaration",
+        "Exilaration",
+        "Exhilaretion",
+        "Exilaretion"
+      ],
       "answer": "ক",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 0,
+      "correct_answer": "Exhilaration"
     },
     {
       "id": 5,
       "question": "‘We ought to obey our parents’--- বাক্যটির সঠিক পরিবর্তিত voice হবে----",
-      "options": {
-        "ক": "Our parents ought to be obeyed by us",
-        "খ": "Our parents may be obeyed by us",
-        "গ": "Your parents is to be obeyed by you",
-        "ঘ": "Our parents are to be obeyed by us"
-      },
+      "options": [
+        "Our parents ought to be obeyed by us",
+        "Our parents may be obeyed by us",
+        "Your parents is to be obeyed by you",
+        "Our parents are to be obeyed by us"
+      ],
       "answer": "ক",
-      "explanation": "Modal 'ought to' যুক্ত বাক্যের Passive রূপ: Object (Our parents) + ought to be + V3 (obeyed) + by us। তাই ক সঠিক।"
+      "explanation": "Modal 'ought to' যুক্ত বাক্যের Passive রূপ: Object (Our parents) + ought to be + V3 (obeyed) + by us। তাই ক সঠিক।",
+      "ans": 0,
+      "correct_answer": "Our parents ought to be obeyed by us"
     },
     {
       "id": 6,
       "question": "Rafiq said to me, “I was ill ?” বাক্যটির সঠিক Indirect speech হবে----",
-      "options": {
-        "ক": "Rafiq told me that he has been ill",
-        "খ": "Rafiq told me that he had been ill",
-        "গ": "Rafiq told me that I had been ill",
-        "ঘ": "Rafiq said to me that he was ill"
-      },
+      "options": [
+        "Rafiq told me that he has been ill",
+        "Rafiq told me that he had been ill",
+        "Rafiq told me that I had been ill",
+        "Rafiq said to me that he was ill"
+      ],
       "answer": "খ",
-      "explanation": "Direct speech-এর Past Indefinite (was ill) Indirect speech-এ Past Perfect (had been ill) হয়: 'Rafiq told me that he had been ill.'"
+      "explanation": "Direct speech-এর Past Indefinite (was ill) Indirect speech-এ Past Perfect (had been ill) হয়: 'Rafiq told me that he had been ill.'",
+      "ans": 1,
+      "correct_answer": "Rafiq told me that he had been ill"
     },
     {
       "id": 7,
       "question": "He said to me,”What are you doing ?” বাক্যটির সঠিক Indirect speech হবে----",
-      "options": {
-        "ক": "He asked me what I was doing",
-        "খ": "He asked me what I am doing",
-        "গ": "He asks me what I am doing",
-        "ঘ": "He asks me what I was doing"
-      },
+      "options": [
+        "He asked me what I was doing",
+        "He asked me what I am doing",
+        "He asks me what I am doing",
+        "He asks me what I was doing"
+      ],
       "answer": "খ",
-      "explanation": "WH-word যুক্ত Interrogative বাক্যের Indirect Speech-এ Past Continuous (was doing) বসে: 'He asked me what I was doing' (ক)। অফিশিয়াল কীতে খ চিহ্নিত থাকলেও ব্যাকরণগতভাবে ক-এর 'what I was doing' সঠিক।"
+      "explanation": "WH-word যুক্ত Interrogative বাক্যের Indirect Speech-এ Past Continuous (was doing) বসে: 'He asked me what I was doing' (ক)। অফিশিয়াল কীতে খ চিহ্নিত থাকলেও ব্যাকরণগতভাবে ক-এর 'what I was doing' সঠিক।",
+      "ans": 1,
+      "correct_answer": "He asked me what I am doing"
     },
     {
       "id": 8,
       "question": "নিচের কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "Credit this amount against his name",
-        "খ": "Every girls is at her desk",
-        "গ": "We made a fun of it",
-        "ঘ": "A little number of boys were present"
-      },
-      "answer": "গ",
-      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।"
+      "options": [
+        "Credit this amount against his name",
+        "Every girls is at her desk",
+        "We made a fun of it",
+        "A little number of boys were present"
+      ],
+      "answer": "ক",
+      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 9,
       "question": "নিচের কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "I found his pulse",
-        "খ": "I felt his pulse",
-        "গ": "I examined his pulse",
-        "ঘ": "I saw his pulse"
-      },
-      "answer": "খ",
-      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।"
+      "options": [
+        "I found his pulse",
+        "I felt his pulse",
+        "I examined his pulse",
+        "I saw his pulse"
+      ],
+      "answer": "ক",
+      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 10,
       "question": "Man aspires-----riches. বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে ---",
-      "options": {
-        "ক": "on",
-        "খ": "in",
-        "গ": "at",
-        "ঘ": "after"
-      },
+      "options": [
+        "on",
+        "in",
+        "at",
+        "after"
+      ],
       "answer": "ঘ",
-      "explanation": "ধনের পেছনে লালায়িত হওয়া বা উচ্চাকাঙ্ক্ষা পোষণ করা বোঝাতে 'aspire after' বসে: 'Man aspires after riches.'"
+      "explanation": "ধনের পেছনে লালায়িত হওয়া বা উচ্চাকাঙ্ক্ষা পোষণ করা বোঝাতে 'aspire after' বসে: 'Man aspires after riches.'",
+      "ans": 3,
+      "correct_answer": "after"
     },
     {
       "id": 11,
       "question": "The lady is not amenable---reason. বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে ---",
-      "options": {
-        "ক": "on",
-        "খ": "to",
-        "গ": "for",
-        "ঘ": "of"
-      },
+      "options": [
+        "on",
+        "to",
+        "for",
+        "of"
+      ],
       "answer": "খ",
-      "explanation": "'Amenable to' একটি appropriate preposition, যার অর্থ বশ্যতাস্বীকার করা বা যুক্তি মেনে চলা (amenable to reason)।"
+      "explanation": "'Amenable to' একটি appropriate preposition, যার অর্থ বশ্যতাস্বীকার করা বা যুক্তি মেনে চলা (amenable to reason)।",
+      "ans": 1,
+      "correct_answer": "to"
     },
     {
       "id": 12,
       "question": "Reza died ----over eating. বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে ---",
-      "options": {
-        "ক": "by",
-        "খ": "of",
-        "গ": "from",
-        "ঘ": "for"
-      },
+      "options": [
+        "by",
+        "of",
+        "from",
+        "for"
+      ],
       "answer": "গ",
-      "explanation": "অতিরিক্ত খাওয়ার কারণে মারা যাওয়া বোঝাতে 'die from' বসে: 'Reza died from over eating.'"
+      "explanation": "অতিরিক্ত খাওয়ার কারণে মারা যাওয়া বোঝাতে 'die from' বসে: 'Reza died from over eating.'",
+      "ans": 2,
+      "correct_answer": "from"
     },
     {
       "id": 13,
       "question": "‘Benevolent’—এর সমার্থক শব্দ কোনটি?",
-      "options": {
-        "ক": "Kind",
-        "খ": "Donor",
-        "গ": "Patron",
-        "ঘ": "Generous"
-      },
+      "options": [
+        "Kind",
+        "Donor",
+        "Patron",
+        "Generous"
+      ],
       "answer": "ঘ",
-      "explanation": "'Benevolent' শব্দের অর্থ পরোপকারী, দয়ালু বা উদারচিত্ত। এর যথাযথ সমার্থক হলো 'Generous' (উদার/মহৎ) বা Kind।"
+      "explanation": "'Benevolent' শব্দের অর্থ পরোপকারী, দয়ালু বা উদারচিত্ত। এর যথাযথ সমার্থক হলো 'Generous' (উদার/মহৎ) বা Kind।",
+      "ans": 3,
+      "correct_answer": "Generous"
     },
     {
       "id": 14,
       "question": "‘Illicit’ –এর সমার্থক শব্দ কোনটি?",
-      "options": {
-        "ক": "Fake",
-        "খ": "Unlawful",
-        "গ": "Legal",
-        "ঘ": "Compatible"
-      },
+      "options": [
+        "Fake",
+        "Unlawful",
+        "Legal",
+        "Compatible"
+      ],
       "answer": "খ",
-      "explanation": "'Illicit' শব্দের অর্থ অবৈধ, বেআইনি বা নিষিদ্ধ। এর সমার্থক শব্দ হলো 'Unlawful' (বেআইনি)।"
+      "explanation": "'Illicit' শব্দের অর্থ অবৈধ, বেআইনি বা নিষিদ্ধ। এর সমার্থক শব্দ হলো 'Unlawful' (বেআইনি)।",
+      "ans": 1,
+      "correct_answer": "Unlawful"
     },
     {
       "id": 15,
       "question": "To meet trouble half-way phrase –টির অর্থ কি?",
-      "options": {
-        "ক": "To get nervous",
-        "খ": "To be puzzled",
-        "গ": "To gearup",
-        "ঘ": "To be disappointed"
-      },
+      "options": [
+        "To get nervous",
+        "To be puzzled",
+        "To gearup",
+        "To be disappointed"
+      ],
       "answer": "খ",
-      "explanation": "'To meet trouble half-way' idiom-টির অর্থ বিপদ আসার আগেই অতিরিক্ত দুশ্চিন্তা করে ঘাবড়ে যাওয়া (To be puzzled / get unnecessarily worried)।"
+      "explanation": "'To meet trouble half-way' idiom-টির অর্থ বিপদ আসার আগেই অতিরিক্ত দুশ্চিন্তা করে ঘাবড়ে যাওয়া (To be puzzled / get unnecessarily worried)।",
+      "ans": 1,
+      "correct_answer": "To be puzzled"
     },
     {
       "id": 16,
       "question": "To see red ----phrase –টির অর্থ",
-      "options": {
-        "ক": "To be very angry",
-        "খ": "To criticize others",
-        "গ": "To find fault with",
-        "ঘ": "To see the colour red"
-      },
+      "options": [
+        "To be very angry",
+        "To criticize others",
+        "To find fault with",
+        "To see the colour red"
+      ],
       "answer": "ক",
-      "explanation": "'To see red' একটি বহুল প্রচলিত idiom, যার অর্থ প্রচণ্ড রাগান্বিত বা ক্ষুব্ধ হওয়া (To become very angry)।"
+      "explanation": "'To see red' একটি বহুল প্রচলিত idiom, যার অর্থ প্রচণ্ড রাগান্বিত বা ক্ষুব্ধ হওয়া (To become very angry)।",
+      "ans": 0,
+      "correct_answer": "To be very angry"
     },
     {
       "id": 17,
       "question": "Dhaka is a big City, এখানে ‘City’ শব্দটি কোন প্রকারের Noun?",
-      "options": {
-        "ক": "Proper",
-        "খ": "Common",
-        "গ": "Collective",
-        "ঘ": "Material"
-      },
+      "options": [
+        "Proper",
+        "Common",
+        "Collective",
+        "Material"
+      ],
       "answer": "খ",
-      "explanation": "'City' (শহর) শব্দটি যেকোনো শহরকে সাধারণভাবে নির্দেশ করায় এটি একটি Common Noun (জাতিবাচক বিশেষ্য)। আর Dhaka হলো Proper Noun।"
+      "explanation": "'City' (শহর) শব্দটি যেকোনো শহরকে সাধারণভাবে নির্দেশ করায় এটি একটি Common Noun (জাতিবাচক বিশেষ্য)। আর Dhaka হলো Proper Noun।",
+      "ans": 1,
+      "correct_answer": "Common"
     },
     {
       "id": 18,
       "question": "‘King’ শব্দটির Abstract form হবে—",
-      "options": {
-        "ক": "Kingship",
-        "খ": "King",
-        "গ": "Kinghood",
-        "ঘ": "উপরের কোনোটাই নয়"
-      },
+      "options": [
+        "Kingship",
+        "King",
+        "Kinghood",
+        "উপরের কোনোটাই নয়"
+      ],
       "answer": "ক",
-      "explanation": "'King' (রাজা) Common Noun-টির Abstract Noun form হলো 'Kingship' (রাজত্ব বা রাজপদ)।"
+      "explanation": "'King' (রাজা) Common Noun-টির Abstract Noun form হলো 'Kingship' (রাজত্ব বা রাজপদ)।",
+      "ans": 0,
+      "correct_answer": "Kingship"
     },
     {
       "id": 19,
       "question": "After the storm comes the calm এখানে ‘ after’ শব্দটি---",
-      "options": {
-        "ক": "Pronoun",
-        "খ": "Adverb",
-        "গ": "Preposition",
-        "ঘ": "Conjunction"
-      },
+      "options": [
+        "Pronoun",
+        "Adverb",
+        "Preposition",
+        "Conjunction"
+      ],
       "answer": "গ",
-      "explanation": "'After the storm comes the calm' বাক্যে 'After' শব্দটি Noun Phrase 'the storm'-এর পূর্বে বসে সময়গত সম্পর্ক নির্দেশ করায় এটি একটি Preposition।"
+      "explanation": "'After the storm comes the calm' বাক্যে 'After' শব্দটি Noun Phrase 'the storm'-এর পূর্বে বসে সময়গত সম্পর্ক নির্দেশ করায় এটি একটি Preposition।",
+      "ans": 2,
+      "correct_answer": "Preposition"
     },
     {
       "id": 20,
       "question": "Suddenly one of the wheels came off, এখানে ‘off’ শব্দটি---",
-      "options": {
-        "ক": "Adjective",
-        "খ": "Adverb",
-        "গ": "Preposition",
-        "ঘ": "Pronoun"
-      },
+      "options": [
+        "Adjective",
+        "Adverb",
+        "Preposition",
+        "Pronoun"
+      ],
       "answer": "খ",
-      "explanation": "'Suddenly one of the wheels came off' বাক্যে 'off' শব্দটি Verb 'came'-এর সাথে যুক্ত হয়ে ক্রিয়াটির অভিমুখ নির্দেশ করায় এটি একটি Adverb।"
+      "explanation": "'Suddenly one of the wheels came off' বাক্যে 'off' শব্দটি Verb 'came'-এর সাথে যুক্ত হয়ে ক্রিয়াটির অভিমুখ নির্দেশ করায় এটি একটি Adverb।",
+      "ans": 1,
+      "correct_answer": "Adverb"
     }
   ]
 }

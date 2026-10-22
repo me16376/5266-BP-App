@@ -121,11 +121,26 @@ export async function getSaifNtrcaSuggestionBySlug(slugOrId) {
 }
 
 function normalizeQuestions(rawList, examMeta) {
-  const bnAnsToIdx = { 'ক': 0, 'খ': 1, 'গ': 2, 'ঘ': 3, 'A': 0, 'B': 1, 'C': 2, 'D': 3, 'a': 0, 'b': 1, 'c': 2, 'd': 3 };
+  const bnAnsToIdx = {
+    'ক': 0, 'খ': 1, 'গ': 2, 'ঘ': 3, 'ঙ': 4,
+    'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4,
+    'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4,
+    '(ক)': 0, '(খ)': 1, '(গ)': 2, '(ঘ)': 3,
+    '(A)': 0, '(B)': 1, '(C)': 2, '(D)': 3,
+    '(a)': 0, '(b)': 1, '(c)': 2, '(d)': 3,
+    'ক.': 0, 'খ.': 1, 'গ.': 2, 'ঘ.': 3,
+    'A.': 0, 'B.': 1, 'C.': 2, 'D.': 3
+  };
 
   return (Array.isArray(rawList) ? rawList : []).map((item, idx) => {
-    const opts = Array.isArray(item.options) ? item.options.map(o => String(o).trim()) : [];
-    let ansIdx = typeof item.ans === 'number' ? item.ans : -1;
+    let opts = [];
+    if (Array.isArray(item.options)) {
+      opts = item.options.map(o => String(o).trim());
+    } else if (item.options && typeof item.options === 'object') {
+      opts = ['ক', 'খ', 'গ', 'ঘ'].map(k => String(item.options[k] || '').trim()).filter(Boolean);
+    }
+
+    let ansIdx = (typeof item.ans === 'number' && item.ans >= 0 && item.ans < opts.length) ? item.ans : -1;
 
     // 1. Check exact match in options with item.answer or item.correct_answer
     const textCandidates = [item.answer, item.correct_answer, item.correctAnswer];
@@ -151,6 +166,18 @@ function normalizeQuestions(rawList, examMeta) {
         if (bnAnsToIdx[str] !== undefined && bnAnsToIdx[str] < opts.length) {
           ansIdx = bnAnsToIdx[str];
           break;
+        }
+        const m = str.match(/^\(?([কখগঘabcdABCD])\)?[\.\:\-\)]?\s*(.*)$/);
+        if (m) {
+          const letter = m[1];
+          const rest = m[2].trim();
+          if (rest && opts.findIndex(o => o === rest) !== -1) {
+            ansIdx = opts.findIndex(o => o === rest);
+            break;
+          } else if (bnAnsToIdx[letter] !== undefined && bnAnsToIdx[letter] < opts.length) {
+            ansIdx = bnAnsToIdx[letter];
+            break;
+          }
         }
       }
     }

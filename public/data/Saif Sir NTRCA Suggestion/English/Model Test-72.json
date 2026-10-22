@@ -7,182 +7,212 @@
     {
       "id": 1,
       "question": "কোনটি Material Noun?",
-      "options": {
-        "ক": "Book",
-        "খ": "Ring",
-        "গ": "River",
-        "ঘ": "Paper"
-      },
+      "options": [
+        "Book",
+        "Ring",
+        "River",
+        "Paper"
+      ],
       "answer": "ঘ",
-      "explanation": "'Paper' (কাগজ) একটি বস্তুবাচক উপাদান বোঝানোয় এটি Material Noun। Book ও Ring হলো Common Noun।"
+      "explanation": "'Paper' (কাগজ) একটি বস্তুবাচক উপাদান বোঝানোয় এটি Material Noun। Book ও Ring হলো Common Noun।",
+      "ans": 3,
+      "correct_answer": "Paper"
     },
     {
       "id": 2,
       "question": "কোনটি Collective Noun?",
-      "options": {
-        "ক": "Bashar",
-        "খ": "Class",
-        "গ": "Youth",
-        "ঘ": "Island"
-      },
+      "options": [
+        "Bashar",
+        "Class",
+        "Youth",
+        "Island"
+      ],
       "answer": "খ",
-      "explanation": "'Library' (গ্রন্থাগার) বইয়ের সংকলন ও সমষ্টিকে বোঝানোয় এটি একটি Collective Noun।"
+      "explanation": "'Library' (গ্রন্থাগার) বইয়ের সংকলন ও সমষ্টিকে বোঝানোয় এটি একটি Collective Noun।",
+      "ans": 1,
+      "correct_answer": "Class"
     },
     {
       "id": 3,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Collaboration",
-        "খ": "Colaboration",
-        "গ": "Colaboretion",
-        "ঘ": "Collaboretion"
-      },
+      "options": [
+        "Collaboration",
+        "Colaboration",
+        "Colaboretion",
+        "Collaboretion"
+      ],
       "answer": "ক",
-      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।"
+      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।",
+      "ans": 0,
+      "correct_answer": "Collaboration"
     },
     {
       "id": 4,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Occasion",
-        "খ": "Ocation",
-        "গ": "Occasion",
-        "ঘ": "Occasion"
-      },
+      "options": [
+        "Occasion",
+        "Ocation",
+        "Occasion",
+        "Occasion"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 2,
+      "correct_answer": "Occasion"
     },
     {
       "id": 5,
       "question": "‘Do you know him?’ বাক্যটির Passive form হবে----",
-      "options": {
-        "ক": "Is he know by you?",
-        "খ": "Is he known to you?",
-        "গ": "Dose he known by you?",
-        "ঘ": "Is he known with you?"
-      },
+      "options": [
+        "Is he know by you?",
+        "Is he known to you?",
+        "Dose he known by you?",
+        "Is he known with you?"
+      ],
       "answer": "খ",
-      "explanation": "Present Indefinite Interrogative Passive: 'know' verb-এর পর 'by'-এর পরিবর্তে 'to' বসে: 'Is he known to you?'"
+      "explanation": "Present Indefinite Interrogative Passive: 'know' verb-এর পর 'by'-এর পরিবর্তে 'to' বসে: 'Is he known to you?'",
+      "ans": 1,
+      "correct_answer": "Is he known to you?"
     },
     {
       "id": 6,
       "question": "‘His behavior surprised me.’ বাক্যটির Passive form হবে----",
-      "options": {
-        "ক": "I was surprised at his behavior.",
-        "খ": "I was surprised with his behavior.",
-        "গ": "I had been surprised at his behavior.",
-        "ঘ": "I had been surprised with his behavior."
-      },
+      "options": [
+        "I was surprised at his behavior.",
+        "I was surprised with his behavior.",
+        "I had been surprised at his behavior.",
+        "I had been surprised with his behavior."
+      ],
       "answer": "ক",
-      "explanation": "'Surprise'-এর পর ব্যক্তির আচরণে বিস্মিত হওয়া বোঝাতে 'at' বসে: 'I was surprised at his behavior.'"
+      "explanation": "'Surprise'-এর পর ব্যক্তির আচরণে বিস্মিত হওয়া বোঝাতে 'at' বসে: 'I was surprised at his behavior.'",
+      "ans": 0,
+      "correct_answer": "I was surprised at his behavior."
     },
     {
       "id": 7,
       "question": "Anis said, “Good night, Father” বাক্যটির Indirect speech হবে----",
-      "options": {
-        "ক": "Anis said good night for his father.",
-        "খ": "Anis bade his father good-bye.",
-        "গ": "Anis gave good night to his father.",
-        "ঘ": "Anis addressed his father and told good-bye."
-      },
+      "options": [
+        "Anis said good night for his father.",
+        "Anis bade his father good-bye.",
+        "Anis gave good night to his father.",
+        "Anis addressed his father and told good-bye."
+      ],
       "answer": "খ",
-      "explanation": "রাতে বিদায় জানানোর সময় 'bade good-bye' বা 'bade good night' ব্যবহৃত হয়: 'Anis bade his father good-bye' (কীতে খ চিহ্নিত)।"
+      "explanation": "রাতে বিদায় জানানোর সময় 'bade good-bye' বা 'bade good night' ব্যবহৃত হয়: 'Anis bade his father good-bye' (কীতে খ চিহ্নিত)।",
+      "ans": 1,
+      "correct_answer": "Anis bade his father good-bye."
     },
     {
       "id": 8,
       "question": "Aref said, “I must write a letter.” বাক্যটির Indirect speech হবে----",
-      "options": {
-        "ক": "Aref said that he has to write a letter.",
-        "খ": "Aref said that he had to write a letter.",
-        "গ": "Aref told that he would have to write a letter.",
-        "ঘ": "Aref told that he will have to write a letter."
-      },
+      "options": [
+        "Aref said that he has to write a letter.",
+        "Aref said that he had to write a letter.",
+        "Aref told that he would have to write a letter.",
+        "Aref told that he will have to write a letter."
+      ],
       "answer": "খ",
-      "explanation": "সাধারণ বাধ্যবাধকতায় Direct speech-এর 'must' Indirect speech-এ 'had to'-তে পরিবর্তিত হয়: 'Aref said that he had to write a letter.'"
+      "explanation": "সাধারণ বাধ্যবাধকতায় Direct speech-এর 'must' Indirect speech-এ 'had to'-তে পরিবর্তিত হয়: 'Aref said that he had to write a letter.'",
+      "ans": 1,
+      "correct_answer": "Aref said that he had to write a letter."
     },
     {
       "id": 9,
       "question": "নিচের কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "There is no place in the bench",
-        "খ": "I go two bread",
-        "গ": "It is a nice poem",
-        "ঘ": "I went to my house"
-      },
-      "answer": "গ",
-      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।"
+      "options": [
+        "There is no place in the bench",
+        "I go two bread",
+        "It is a nice poem",
+        "I went to my house"
+      ],
+      "answer": "ক",
+      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 10,
       "question": "নিচের কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "Quote this from memory",
-        "খ": "I got boarding and lodging",
-        "গ": "Put your sign here",
-        "ঘ": "My brother is sick"
-      },
+      "options": [
+        "Quote this from memory",
+        "I got boarding and lodging",
+        "Put your sign here",
+        "My brother is sick"
+      ],
       "answer": "ক",
-      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।"
+      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 11,
       "question": "He is not ----home today. বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে ---",
-      "options": {
-        "ক": "at",
-        "খ": "in",
-        "গ": "with",
-        "ঘ": "on"
-      },
+      "options": [
+        "at",
+        "in",
+        "with",
+        "on"
+      ],
       "answer": "ক",
-      "explanation": "বাড়িতে অবস্থান করা বোঝাতে appropriate preposition 'at home' ব্যবহৃত হয়: 'He is not at home today.'"
+      "explanation": "বাড়িতে অবস্থান করা বোঝাতে appropriate preposition 'at home' ব্যবহৃত হয়: 'He is not at home today.'",
+      "ans": 0,
+      "correct_answer": "at"
     },
     {
       "id": 12,
       "question": "I cannot put faith ---him. বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে ---",
-      "options": {
-        "ক": "in",
-        "খ": "on",
-        "গ": "at",
-        "ঘ": "upon"
-      },
+      "options": [
+        "in",
+        "on",
+        "at",
+        "upon"
+      ],
       "answer": "ক",
-      "explanation": "কারও ওপর বিশ্বাস বা আস্থা রাখা বোঝাতে 'put faith in' ব্যবহৃত হয়: 'I cannot put faith in him.'"
+      "explanation": "কারও ওপর বিশ্বাস বা আস্থা রাখা বোঝাতে 'put faith in' ব্যবহৃত হয়: 'I cannot put faith in him.'",
+      "ans": 0,
+      "correct_answer": "in"
     },
     {
       "id": 13,
       "question": "কোনটি ‘Calm’ শব্দের সমার্থক শব্দ?",
-      "options": {
-        "ক": "Angry",
-        "খ": "Agitated",
-        "গ": "Quiet",
-        "ঘ": "Inflamed"
-      },
+      "options": [
+        "Angry",
+        "Agitated",
+        "Quiet",
+        "Inflamed"
+      ],
       "answer": "গ",
-      "explanation": "'Calm' শব্দের অর্থ শান্ত বা ধীরস্থির। এর সমার্থক শব্দ হলো 'Quiet' (শান্ত)। Angry ও Agitated হলো উত্তেজিত।"
+      "explanation": "'Calm' শব্দের অর্থ শান্ত বা ধীরস্থির। এর সমার্থক শব্দ হলো 'Quiet' (শান্ত)। Angry ও Agitated হলো উত্তেজিত।",
+      "ans": 2,
+      "correct_answer": "Quiet"
     },
     {
       "id": 14,
       "question": "কোনটি ‘Abolish’ শব্দের সমার্থক শব্দ?",
-      "options": {
-        "ক": "Cancel",
-        "খ": "Perform",
-        "গ": "Create",
-        "ঘ": "Generate"
-      },
+      "options": [
+        "Cancel",
+        "Perform",
+        "Create",
+        "Generate"
+      ],
       "answer": "ক",
-      "explanation": "'Abolish' শব্দের অর্থ কোনো প্রথা বা আইন বিলোপ করা। এর সমার্থক হলো 'Cancel' (বাতিল করা)।"
+      "explanation": "'Abolish' শব্দের অর্থ কোনো প্রথা বা আইন বিলোপ করা। এর সমার্থক হলো 'Cancel' (বাতিল করা)।",
+      "ans": 0,
+      "correct_answer": "Cancel"
     },
     {
       "id": 15,
       "question": "‘All at once’ এর অর্থ ----",
-      "options": {
-        "ক": "Quickly",
-        "খ": "Slowly",
-        "গ": "Suddenly",
-        "ঘ": "Gradually"
-      },
+      "options": [
+        "Quickly",
+        "Slowly",
+        "Suddenly",
+        "Gradually"
+      ],
       "answer": "গ",
-      "explanation": "'All at once' idiom-টির অর্থ হঠাৎ বা আকস্মিকভাবে (Suddenly)।"
+      "explanation": "'All at once' idiom-টির অর্থ হঠাৎ বা আকস্মিকভাবে (Suddenly)।",
+      "ans": 2,
+      "correct_answer": "Suddenly"
     }
   ]
 }

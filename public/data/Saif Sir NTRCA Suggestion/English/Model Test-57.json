@@ -7,230 +7,268 @@
     {
       "id": 1,
       "question": "Adjective of the word “Ox’ is-",
-      "options": {
-        "ক": "Cowl",
-        "খ": "Bovine",
-        "গ": "Oxe",
-        "ঘ": "Oxy"
-      },
+      "options": [
+        "Cowl",
+        "Bovine",
+        "Oxe",
+        "Oxy"
+      ],
       "answer": "খ",
-      "explanation": "'Ox' (ষাঁড়/বলদ) এর Adjective রূপ হলো 'Bovine' (গরু বা গবাদি পশু সম্পর্কিত)। যেমন: Canine (কুকুর সম্পর্কিত), Feline (বিড়াল সম্পর্কিত)।"
+      "explanation": "'Ox' (ষাঁড়/বলদ) এর Adjective রূপ হলো 'Bovine' (গরু বা গবাদি পশু সম্পর্কিত)। যেমন: Canine (কুকুর সম্পর্কিত), Feline (বিড়াল সম্পর্কিত)।",
+      "ans": 1,
+      "correct_answer": "Bovine"
     },
     {
       "id": 2,
       "question": "Whih is the noun of the word “Try”?",
-      "options": {
-        "ক": "Tryin",
-        "খ": "Triable",
-        "গ": "Trial",
-        "ঘ": "None of them"
-      },
+      "options": [
+        "Tryin",
+        "Triable",
+        "Trial",
+        "None of them"
+      ],
       "answer": "গ",
-      "explanation": "'Try' (চেষ্টা করা) একটি Verb। এর Noun form হলো 'Trial' (পরীক্ষা, বিচার বা প্রচেষ্টা)।"
+      "explanation": "'Try' (চেষ্টা করা) একটি Verb। এর Noun form হলো 'Trial' (পরীক্ষা, বিচার বা প্রচেষ্টা)।",
+      "ans": 2,
+      "correct_answer": "Trial"
     },
     {
       "id": 3,
       "question": "The correct form of “ She found the boy (to cry)”-",
-      "options": {
-        "ক": "She found the boy cry.",
-        "খ": "She found the boy crying.",
-        "গ": "She found the boy cried.",
-        "ঘ": "She found the boy crys."
-      },
+      "options": [
+        "She found the boy cry.",
+        "She found the boy crying.",
+        "She found the boy cried.",
+        "She found the boy crys."
+      ],
       "answer": "খ",
-      "explanation": "বাক্যে 'find' verb-এর পর object থাকলে পরবর্তী verb-টির সাথে ing যুক্ত হয়ে Present Participle হয়: 'She found the boy crying.'"
+      "explanation": "বাক্যে 'find' verb-এর পর object থাকলে পরবর্তী verb-টির সাথে ing যুক্ত হয়ে Present Participle হয়: 'She found the boy crying.'",
+      "ans": 1,
+      "correct_answer": "She found the boy crying."
     },
     {
       "id": 4,
       "question": "They count--- your help বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে-",
-      "options": {
-        "ক": "for",
-        "খ": "with",
-        "গ": "upon",
-        "ঘ": "after"
-      },
+      "options": [
+        "for",
+        "with",
+        "upon",
+        "after"
+      ],
       "answer": "গ",
-      "explanation": "'Count upon' বা 'Count on' একটি Phrasal Verb যার অর্থ কারও ওপর নির্ভর বা ভরসা করা (depend on / rely upon)।"
+      "explanation": "'Count upon' বা 'Count on' একটি Phrasal Verb যার অর্থ কারও ওপর নির্ভর বা ভরসা করা (depend on / rely upon)।",
+      "ans": 2,
+      "correct_answer": "upon"
     },
     {
       "id": 5,
       "question": "“To meet trouble halfway” means—",
-      "options": {
-        "ক": "To get nervous",
-        "খ": "To be disappointed",
-        "গ": "To bear up",
-        "ঘ": "To be puzzled"
-      },
+      "options": [
+        "To get nervous",
+        "To be disappointed",
+        "To bear up",
+        "To be puzzled"
+      ],
       "answer": "ঘ",
-      "explanation": "'To meet trouble halfway' idiom-টির অর্থ বিপদ আসার আগেই অতিরিক্ত উদ্বিগ্ন হয়ে বিভ্রান্ত হওয়া বা অনর্থক দুশ্চিন্তা করা (To be puzzled / worry unnecessarily)।"
+      "explanation": "'To meet trouble halfway' idiom-টির অর্থ বিপদ আসার আগেই অতিরিক্ত উদ্বিগ্ন হয়ে বিভ্রান্ত হওয়া বা অনর্থক দুশ্চিন্তা করা (To be puzzled / worry unnecessarily)।",
+      "ans": 3,
+      "correct_answer": "To be puzzled"
     },
     {
       "id": 6,
       "question": "“He has assured me --- safety”.",
-      "options": {
-        "ক": "of",
-        "খ": "with",
-        "গ": "for",
-        "ঘ": "at"
-      },
+      "options": [
+        "of",
+        "with",
+        "for",
+        "at"
+      ],
       "answer": "ক",
-      "explanation": "কারও কাছে কোনো কিছুর নিশ্চয়তা দেওয়া অর্থে 'assure of' ব্যবহৃত হয়: 'He has assured me of safety.'"
+      "explanation": "কারও কাছে কোনো কিছুর নিশ্চয়তা দেওয়া অর্থে 'assure of' ব্যবহৃত হয়: 'He has assured me of safety.'",
+      "ans": 0,
+      "correct_answer": "of"
     },
     {
       "id": 7,
       "question": "What is the meaning of “Soft soap”?",
-      "options": {
-        "ক": "To speak ill of others.",
-        "খ": "Flattery for self motives.",
-        "গ": "To speak high of others.",
-        "ঘ": "To recognize others good deed."
-      },
+      "options": [
+        "To speak ill of others.",
+        "Flattery for self motives.",
+        "To speak high of others.",
+        "To recognize others good deed."
+      ],
       "answer": "খ",
-      "explanation": "'Soft soap' একটি রূপক বাগধারা, যার অর্থ নিজের স্বার্থসিদ্ধির জন্য কারও অতিরিক্ত বা মিথ্যা তোষামোদ করা (Flattery for self motives)।"
+      "explanation": "'Soft soap' একটি রূপক বাগধারা, যার অর্থ নিজের স্বার্থসিদ্ধির জন্য কারও অতিরিক্ত বা মিথ্যা তোষামোদ করা (Flattery for self motives)।",
+      "ans": 1,
+      "correct_answer": "Flattery for self motives."
     },
     {
       "id": 8,
       "question": "The synonym for “Efface” is-",
-      "options": {
-        "ক": "Improve",
-        "খ": "Exhaust",
-        "গ": "Rub out",
-        "ঘ": "Cut out"
-      },
+      "options": [
+        "Improve",
+        "Exhaust",
+        "Rub out",
+        "Cut out"
+      ],
       "answer": "গ",
-      "explanation": "'Efface' শব্দের অর্থ ঘষে মুছে ফেলা বা নিশ্চিহ্ন করা। এর যথার্থ সমার্থক হলো 'Rub out' (মুছে ফেলা) বা erase।"
+      "explanation": "'Efface' শব্দের অর্থ ঘষে মুছে ফেলা বা নিশ্চিহ্ন করা। এর যথার্থ সমার্থক হলো 'Rub out' (মুছে ফেলা) বা erase।",
+      "ans": 2,
+      "correct_answer": "Rub out"
     },
     {
       "id": 9,
       "question": "The opposite word of “Sluggish” is---",
-      "options": {
-        "ক": "Slow",
-        "খ": "Heavy",
-        "গ": "Dull",
-        "ঘ": "Animated"
-      },
+      "options": [
+        "Slow",
+        "Heavy",
+        "Dull",
+        "Animated"
+      ],
       "answer": "ঘ",
-      "explanation": "'Sluggish' শব্দের অর্থ অলস, মন্থর বা নিষ্ক্রিয় (dull/slow)। এর বিপরীত (antonym) শব্দ হলো 'Animated' (প্রাণবন্ত, চঞ্চল বা কর্মচঞ্চল)।"
+      "explanation": "'Sluggish' শব্দের অর্থ অলস, মন্থর বা নিষ্ক্রিয় (dull/slow)। এর বিপরীত (antonym) শব্দ হলো 'Animated' (প্রাণবন্ত, চঞ্চল বা কর্মচঞ্চল)।",
+      "ans": 3,
+      "correct_answer": "Animated"
     },
     {
       "id": 10,
       "question": "“Boat leg” Means-",
-      "options": {
-        "ক": "Distribute",
-        "খ": "Export",
-        "গ": "Import",
-        "ঘ": "Smuggle"
-      },
+      "options": [
+        "Distribute",
+        "Export",
+        "Import",
+        "Smuggle"
+      ],
       "answer": "ঘ",
-      "explanation": "'Bootleg' শব্দের অর্থ নিষিদ্ধ কোনো জিনিস অবৈধভাবে উৎপাদন বা চোরাচালান করা (To smuggle / illicit trafficking)।"
+      "explanation": "'Bootleg' শব্দের অর্থ নিষিদ্ধ কোনো জিনিস অবৈধভাবে উৎপাদন বা চোরাচালান করা (To smuggle / illicit trafficking)।",
+      "ans": 3,
+      "correct_answer": "Smuggle"
     },
     {
       "id": 11,
       "question": "What is the synonym of “jovial”?",
-      "options": {
-        "ক": "Jolly",
-        "খ": "Happy",
-        "গ": "Gay",
-        "ঘ": "None of these"
-      },
+      "options": [
+        "Jolly",
+        "Happy",
+        "Gay",
+        "None of these"
+      ],
       "answer": "ক",
-      "explanation": "'Jovial' শব্দের অর্থ প্রফুল্ল, আমুদে বা হাসিখুশি। এর যথার্থ সমার্থক শব্দ হলো 'Jolly' (আমুদে ও আনন্দিত)।"
+      "explanation": "'Jovial' শব্দের অর্থ প্রফুল্ল, আমুদে বা হাসিখুশি। এর যথার্থ সমার্থক শব্দ হলো 'Jolly' (আমুদে ও আনন্দিত)।",
+      "ans": 0,
+      "correct_answer": "Jolly"
     },
     {
       "id": 12,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Addulatration",
-        "খ": "Adultration",
-        "গ": "Adultaration",
-        "ঘ": "Adulteration"
-      },
+      "options": [
+        "Addulatration",
+        "Adultration",
+        "Adultaration",
+        "Adulteration"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 3,
+      "correct_answer": "Adulteration"
     },
     {
       "id": 13,
       "question": "Choose the correct sentence?",
-      "options": {
-        "ক": "A new cabinet has been sworn in in Dhaka.",
-        "খ": "A new cabinet has been sworn in Dhaka.",
-        "গ": "A new cabinet has been sworn by in Dhaka.",
-        "ঘ": "A new cabinet has sworn in Dhaka."
-      },
+      "options": [
+        "A new cabinet has been sworn in in Dhaka.",
+        "A new cabinet has been sworn in Dhaka.",
+        "A new cabinet has been sworn by in Dhaka.",
+        "A new cabinet has sworn in Dhaka."
+      ],
       "answer": "ক",
-      "explanation": "ফাঁসি দিয়ে মৃত্যুদণ্ড দেওয়া বোঝাতে 'hang'-এর Past Form 'hanged' বসে: 'He was hanged for murder.'"
+      "explanation": "ফাঁসি দিয়ে মৃত্যুদণ্ড দেওয়া বোঝাতে 'hang'-এর Past Form 'hanged' বসে: 'He was hanged for murder.'",
+      "ans": 0,
+      "correct_answer": "A new cabinet has been sworn in in Dhaka."
     },
     {
       "id": 14,
       "question": "Which of the following is a correct sentence?",
-      "options": {
-        "ক": "He was too clever not to miss the point.",
-        "খ": "He was so clever to miss the point.",
-        "গ": "He was too clever to miss the point.",
-        "ঘ": "he was too clever to grasp the point."
-      },
+      "options": [
+        "He was too clever not to miss the point.",
+        "He was so clever to miss the point.",
+        "He was too clever to miss the point.",
+        "he was too clever to grasp the point."
+      ],
       "answer": "গ",
-      "explanation": "'Too... to' নেতিবাচক অর্থ বহন করে। 'He was too clever to miss the point' বাক্যটির অর্থ: সে এতই চতুর ছিল যে পয়েন্টটি বুঝতে মোটেও ভুল করেনি।"
+      "explanation": "'Too... to' নেতিবাচক অর্থ বহন করে। 'He was too clever to miss the point' বাক্যটির অর্থ: সে এতই চতুর ছিল যে পয়েন্টটি বুঝতে মোটেও ভুল করেনি।",
+      "ans": 2,
+      "correct_answer": "He was too clever to miss the point."
     },
     {
       "id": 15,
       "question": "What is the indirect speech of the sentence: He said, “Good morning sir”?",
-      "options": {
-        "ক": "He respectfully wished good morning to the person spoken to",
-        "খ": "He respectfully wishes good morning to the person spoken to",
-        "গ": "He respectfully wish good morning to the person spoken to",
-        "ঘ": "He respectfully wished good morning to the person spoke to"
-      },
+      "options": [
+        "He respectfully wished good morning to the person spoken to",
+        "He respectfully wishes good morning to the person spoken to",
+        "He respectfully wish good morning to the person spoken to",
+        "He respectfully wished good morning to the person spoke to"
+      ],
       "answer": "ক",
-      "explanation": "'Sir' সম্বোধনের জন্য indirect speech-এ 'respectfully' ব্যবহৃত হয় এবং শুভেচ্ছা জানাতে 'wished good morning' বসে: 'He respectfully wished good morning to the person spoken to.'"
+      "explanation": "'Sir' সম্বোধনের জন্য indirect speech-এ 'respectfully' ব্যবহৃত হয় এবং শুভেচ্ছা জানাতে 'wished good morning' বসে: 'He respectfully wished good morning to the person spoken to.'",
+      "ans": 0,
+      "correct_answer": "He respectfully wished good morning to the person spoken to"
     },
     {
       "id": 16,
       "question": "What is the indirect speech of the sentence: He said, “What a pity!”",
-      "options": {
-        "ক": "He said that it was a great pity",
-        "খ": "He exclaimed that it is a great pity",
-        "গ": "Hew exclaimed that it is great pity",
-        "ঘ": "He exclaimed that it was a great pity"
-      },
+      "options": [
+        "He said that it was a great pity",
+        "He exclaimed that it is a great pity",
+        "Hew exclaimed that it is great pity",
+        "He exclaimed that it was a great pity"
+      ],
       "answer": "ঘ",
-      "explanation": "Exclamatory বাক্য 'What a pity!'-এর Indirect রূপ: 'He exclaimed that it was a great pity.'"
+      "explanation": "Exclamatory বাক্য 'What a pity!'-এর Indirect রূপ: 'He exclaimed that it was a great pity.'",
+      "ans": 3,
+      "correct_answer": "He exclaimed that it was a great pity"
     },
     {
       "id": 17,
       "question": "What is the passive voice of “ Fortune favours the brave”",
-      "options": {
-        "ক": "The brave is favoured by fortune.",
-        "খ": "The brave was favoured by fortune.",
-        "গ": "The brave are favoured by fortune.",
-        "ঘ": "The brave were favoured by fortune."
-      },
+      "options": [
+        "The brave is favoured by fortune.",
+        "The brave was favoured by fortune.",
+        "The brave are favoured by fortune.",
+        "The brave were favoured by fortune."
+      ],
       "answer": "গ",
-      "explanation": "'The brave' হলো Plural Common Noun (সাহসী ব্যক্তিগণ), তাই এর সাথে Plural Verb 'are' বসে: 'The brave are favoured by fortune.'"
+      "explanation": "'The brave' হলো Plural Common Noun (সাহসী ব্যক্তিগণ), তাই এর সাথে Plural Verb 'are' বসে: 'The brave are favoured by fortune.'",
+      "ans": 2,
+      "correct_answer": "The brave are favoured by fortune."
     },
     {
       "id": 18,
       "question": "“Mishap” Means-",
-      "options": {
-        "ক": "Danger",
-        "খ": "Disease",
-        "গ": "Accident",
-        "ঘ": "Theft"
-      },
+      "options": [
+        "Danger",
+        "Disease",
+        "Accident",
+        "Theft"
+      ],
       "answer": "গ",
-      "explanation": "'Mishap' শব্দের অর্থ দুর্ভাগ্যজনক দুর্ঘটনা বা অঘটন। এর যথার্থ প্রতিশব্দ হলো 'Accident' (দুর্ঘটনা)।"
+      "explanation": "'Mishap' শব্দের অর্থ দুর্ভাগ্যজনক দুর্ঘটনা বা অঘটন। এর যথার্থ প্রতিশব্দ হলো 'Accident' (দুর্ঘটনা)।",
+      "ans": 2,
+      "correct_answer": "Accident"
     },
     {
       "id": 19,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Griveance",
-        "খ": "Grievence",
-        "গ": "Grievance",
-        "ঘ": "Greivance"
-      },
+      "options": [
+        "Griveance",
+        "Grievence",
+        "Grievance",
+        "Greivance"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 2,
+      "correct_answer": "Grievance"
     }
   ]
 }

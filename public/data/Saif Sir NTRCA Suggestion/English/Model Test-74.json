@@ -7,182 +7,212 @@
     {
       "id": 1,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Incypclopedia",
-        "খ": "Encyclopedia",
-        "গ": "Encyclopadia",
-        "ঘ": "Encyclopidia"
-      },
+      "options": [
+        "Incypclopedia",
+        "Encyclopedia",
+        "Encyclopadia",
+        "Encyclopidia"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 1,
+      "correct_answer": "Encyclopedia"
     },
     {
       "id": 2,
       "question": "‘Postulate’ শব্দটির Synonym হচ্ছে----",
-      "options": {
-        "ক": "Assume",
-        "খ": "Prove",
-        "গ": "Supplement",
-        "ঘ": "Complain"
-      },
+      "options": [
+        "Assume",
+        "Prove",
+        "Supplement",
+        "Complain"
+      ],
       "answer": "ক",
-      "explanation": "'Postulate' শব্দের অর্থ কোনো প্রমাণ ছাড়াই কোনো কিছুকে স্বতঃসিদ্ধ ধরে নেওয়া বা প্রস্তাব করা (To assume / take for granted)।"
+      "explanation": "'Postulate' শব্দের অর্থ কোনো প্রমাণ ছাড়াই কোনো কিছুকে স্বতঃসিদ্ধ ধরে নেওয়া বা প্রস্তাব করা (To assume / take for granted)।",
+      "ans": 0,
+      "correct_answer": "Assume"
     },
     {
       "id": 3,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Elemantary",
-        "খ": "Elimentary",
-        "গ": "Elementory",
-        "ঘ": "Elementary"
-      },
+      "options": [
+        "Elemantary",
+        "Elimentary",
+        "Elementory",
+        "Elementary"
+      ],
       "answer": "ঘ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 3,
+      "correct_answer": "Elementary"
     },
     {
       "id": 4,
       "question": "After it was repaired, it ----again. বাক্যের শূন্যস্থানে কোনটি সঠিক হবে?",
-      "options": {
-        "ক": "ran perfect",
-        "খ": "ran perfectly",
-        "গ": "runs perfect",
-        "ঘ": "run perfect"
-      },
+      "options": [
+        "ran perfect",
+        "ran perfectly",
+        "runs perfect",
+        "run perfect"
+      ],
       "answer": "খ",
-      "explanation": "অতীতকালের মেরামত-পরবর্তী ক্রিয়া হিসেবে Past Indefinite verb 'ran' এবং ক্রিয়াটিকে modify করতে Adverb 'perfectly' বসবে: 'it ran perfectly again.'"
+      "explanation": "অতীতকালের মেরামত-পরবর্তী ক্রিয়া হিসেবে Past Indefinite verb 'ran' এবং ক্রিয়াটিকে modify করতে Adverb 'perfectly' বসবে: 'it ran perfectly again.'",
+      "ans": 1,
+      "correct_answer": "ran perfectly"
     },
     {
       "id": 5,
       "question": "Time and tide ----for none. বাক্যের শূন্যস্থানে সঠিক শব্দ কোনটি?",
-      "options": {
-        "ক": "waits",
-        "খ": "waiting",
-        "গ": "wait",
-        "ঘ": "renders"
-      },
+      "options": [
+        "waits",
+        "waiting",
+        "wait",
+        "renders"
+      ],
       "answer": "গ",
-      "explanation": "'Time and tide wait for none' (সময় ও স্রোত কারও জন্য অপেক্ষা করে না) বহুল প্রচলিত একটি ইংরেজি প্রবাদ, যেখানে প্রথাগতভাবে Plural Verb 'wait' ব্যবহৃত হয়।"
+      "explanation": "'Time and tide wait for none' (সময় ও স্রোত কারও জন্য অপেক্ষা করে না) বহুল প্রচলিত একটি ইংরেজি প্রবাদ, যেখানে প্রথাগতভাবে Plural Verb 'wait' ব্যবহৃত হয়।",
+      "ans": 2,
+      "correct_answer": "wait"
     },
     {
       "id": 6,
       "question": "সঠিক Preposition সহ কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "Industry is key to success.",
-        "খ": "Industry is key for success.",
-        "গ": "Industry is key fo success.",
-        "ঘ": "Industry is key into success."
-      },
+      "options": [
+        "Industry is key to success.",
+        "Industry is key for success.",
+        "Industry is key fo success.",
+        "Industry is key into success."
+      ],
       "answer": "ক",
-      "explanation": "সাফল্যের চাবিকাঠি বোঝাতে 'key to' ব্যবহৃত হয়: 'Industry is key to success' (পরিশ্রমই সাফল্যের চাবিকাঠি)।"
+      "explanation": "সাফল্যের চাবিকাঠি বোঝাতে 'key to' ব্যবহৃত হয়: 'Industry is key to success' (পরিশ্রমই সাফল্যের চাবিকাঠি)।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 7,
       "question": "কোনটি শুদ্ধ বাক্য?",
-      "options": {
-        "ক": "There is no place for doubt in it.",
-        "খ": "There is no suspension in it.",
-        "গ": "There is no room for doubt in it.",
-        "ঘ": "There is no misunderstanding in it."
-      },
+      "options": [
+        "There is no place for doubt in it.",
+        "There is no suspension in it.",
+        "There is no room for doubt in it.",
+        "There is no misunderstanding in it."
+      ],
       "answer": "গ",
-      "explanation": "Comparative degree 'taller'-এর পর Subjective Pronoun 'I' বসে: 'Sohel is taller than I (am).' তাই ক সঠিক।"
+      "explanation": "Comparative degree 'taller'-এর পর Subjective Pronoun 'I' বসে: 'Sohel is taller than I (am).' তাই ক সঠিক।",
+      "ans": 2,
+      "correct_answer": "There is no room for doubt in it."
     },
     {
       "id": 8,
       "question": "‘Pros and cons’ phrase টির অর্থ ----",
-      "options": {
-        "ক": "Good and bad",
-        "খ": "Advantage and disadvantage",
-        "গ": "Light and dark",
-        "ঘ": "In and out"
-      },
+      "options": [
+        "Good and bad",
+        "Advantage and disadvantage",
+        "Light and dark",
+        "In and out"
+      ],
       "answer": "খ",
-      "explanation": "'Pros and cons' idiom-টির অর্থ হলো কোনো বিষয়ের ভালো ও মন্দ দিক অথবা সুবিধা ও অসুবিধা (Advantages and disadvantages)।"
+      "explanation": "'Pros and cons' idiom-টির অর্থ হলো কোনো বিষয়ের ভালো ও মন্দ দিক অথবা সুবিধা ও অসুবিধা (Advantages and disadvantages)।",
+      "ans": 1,
+      "correct_answer": "Advantage and disadvantage"
     },
     {
       "id": 9,
       "question": "‘Vice versa’ শব্দের অর্থ-----",
-      "options": {
-        "ক": "For example",
-        "খ": "Face to face",
-        "গ": "Namely",
-        "ঘ": "The terms being exchanged"
-      },
+      "options": [
+        "For example",
+        "Face to face",
+        "Namely",
+        "The terms being exchanged"
+      ],
       "answer": "ঘ",
-      "explanation": "'Vice versa' একটি লাতিন শব্দবন্ধ, যার অর্থ বিপরীতক্রমে বা পারস্পরিক অবস্থান উল্টো হলেও সমানভাবে সত্য (The terms or order being reversed/exchanged)।"
+      "explanation": "'Vice versa' একটি লাতিন শব্দবন্ধ, যার অর্থ বিপরীতক্রমে বা পারস্পরিক অবস্থান উল্টো হলেও সমানভাবে সত্য (The terms or order being reversed/exchanged)।",
+      "ans": 3,
+      "correct_answer": "The terms being exchanged"
     },
     {
       "id": 10,
       "question": "‘Come what may I shall adhere-----my principles’ বাক্যের শূন্যস্থানে সঠিক Preposition ---",
-      "options": {
-        "ক": "to",
-        "খ": "with",
-        "গ": "on",
-        "ঘ": "upon"
-      },
+      "options": [
+        "to",
+        "with",
+        "on",
+        "upon"
+      ],
       "answer": "ক",
-      "explanation": "নিজের নীতি বা সিদ্ধান্তে অটল থাকা বোঝাতে 'adhere to' ব্যবহৃত হয়: 'I shall adhere to my principles.'"
+      "explanation": "নিজের নীতি বা সিদ্ধান্তে অটল থাকা বোঝাতে 'adhere to' ব্যবহৃত হয়: 'I shall adhere to my principles.'",
+      "ans": 0,
+      "correct_answer": "to"
     },
     {
       "id": 11,
       "question": "‘Socrates was accused ----- misleading the young section in Athens.’ বাক্যের শূন্যস্থানে সঠিক Preposition –",
-      "options": {
-        "ক": "to",
-        "খ": "of",
-        "গ": "for",
-        "ঘ": "on"
-      },
+      "options": [
+        "to",
+        "of",
+        "for",
+        "on"
+      ],
       "answer": "খ",
-      "explanation": "কোনো অপরাধে অভিযুক্ত করা বোঝাতে 'accuse of' বসে: 'Socrates was accused of misleading the young section in Athens.'"
+      "explanation": "কোনো অপরাধে অভিযুক্ত করা বোঝাতে 'accuse of' বসে: 'Socrates was accused of misleading the young section in Athens.'",
+      "ans": 1,
+      "correct_answer": "of"
     },
     {
       "id": 12,
       "question": "He said that he had come to see me- এর direct speech",
-      "options": {
-        "ক": "He said, ‘he has come to see you’.",
-        "খ": "He said, ‘I came to see you’.",
-        "গ": "He said, ‘I have come to see you’.",
-        "ঘ": "He said, ‘I had come to see you’."
-      },
+      "options": [
+        "He said, ‘he has come to see you’.",
+        "He said, ‘I came to see you’.",
+        "He said, ‘I have come to see you’.",
+        "He said, ‘I had come to see you’."
+      ],
       "answer": "খ",
-      "explanation": "Indirect speech-এর Past Perfect (had come) Direct speech-এ Past Indefinite (came) হিসেবে রূপান্তরিত হয়: He said, 'I came to see you.'"
+      "explanation": "Indirect speech-এর Past Perfect (had come) Direct speech-এ Past Indefinite (came) হিসেবে রূপান্তরিত হয়: He said, 'I came to see you.'",
+      "ans": 1,
+      "correct_answer": "He said, ‘I came to see you’."
     },
     {
       "id": 13,
       "question": "You said to me, ‘You do not do your duty.’ এর Indirect speech",
-      "options": {
-        "ক": "You told me that I donot do my duty.",
-        "খ": "You said to me that I did not do my duty.",
-        "গ": "You said to me that I donot do my duty.",
-        "ঘ": "You told me that I did not do my duty."
-      },
+      "options": [
+        "You told me that I donot do my duty.",
+        "You said to me that I did not do my duty.",
+        "You said to me that I donot do my duty.",
+        "You told me that I did not do my duty."
+      ],
       "answer": "ঘ",
-      "explanation": "Assertive sentence-এর Indirect Speech: You told me that I did not do my duty। তাই ঘ সঠিক।"
+      "explanation": "Assertive sentence-এর Indirect Speech: You told me that I did not do my duty। তাই ঘ সঠিক।",
+      "ans": 3,
+      "correct_answer": "You told me that I did not do my duty."
     },
     {
       "id": 14,
       "question": "‘I have to do it’- এর Passive form",
-      "options": {
-        "ক": "It has to be done by me.",
-        "খ": "It is to be done by me.",
-        "গ": "Let it be done by me.",
-        "ঘ": "It has to be done to me."
-      },
+      "options": [
+        "It has to be done by me.",
+        "It is to be done by me.",
+        "Let it be done by me.",
+        "It has to be done to me."
+      ],
       "answer": "ক",
-      "explanation": "'Have to' যুক্ত বাক্যের Passive গঠন: Object (It) + has to be + V3 (done) + by me। তাই 'It has to be done by me' সঠিক।"
+      "explanation": "'Have to' যুক্ত বাক্যের Passive গঠন: Object (It) + has to be + V3 (done) + by me। তাই 'It has to be done by me' সঠিক।",
+      "ans": 0,
+      "correct_answer": "It has to be done by me."
     },
     {
       "id": 15,
       "question": "‘I know him ‘ এর Passive form",
-      "options": {
-        "ক": "He is known by me.",
-        "খ": "He was known to me.",
-        "গ": "He is known to me.",
-        "ঘ": "He is being known to me."
-      },
+      "options": [
+        "He is known by me.",
+        "He was known to me.",
+        "He is known to me.",
+        "He is being known to me."
+      ],
       "answer": "গ",
-      "explanation": "'Know' verb-এর Passive Voice-এ preposition 'to' বসে: 'He is known to me.'"
+      "explanation": "'Know' verb-এর Passive Voice-এ preposition 'to' বসে: 'He is known to me.'",
+      "ans": 2,
+      "correct_answer": "He is known to me."
     }
   ]
 }

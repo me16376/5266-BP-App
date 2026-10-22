@@ -20,7 +20,9 @@
         "blue"
       ],
       "answer": "ক",
-      "explanation": "'green' শব্দটি Noun ও Adjective ছাড়াও Verb হিসেবে ব্যবহৃত হয় (যার অর্থ সবুজ করা বা বৃক্ষরোপণ করা)। অন্য শব্দগুলো (orange, red, blue) সাধারণত বর্ণ নির্দেশক Noun বা Adjective হিসেবে ব্যবহৃত হয়।"
+      "explanation": "'green' শব্দটি Noun ও Adjective ছাড়াও Verb হিসেবে ব্যবহৃত হয় (যার অর্থ সবুজ করা বা বৃক্ষরোপণ করা)। অন্য শব্দগুলো (orange, red, blue) সাধারণত বর্ণ নির্দেশক Noun বা Adjective হিসেবে ব্যবহৃত হয়।",
+      "ans": 0,
+      "correct_answer": "green"
     },
     {
       "id": 2,
@@ -33,7 +35,9 @@
         "Auxiliary"
       ],
       "answer": "ক",
-      "explanation": "Modal Auxiliary Verb 'should'-এর পর মূল ক্রিয়াপদ হিসেবে 'obey' বসেছে। এটি বাক্যের প্রধান অর্থ প্রকাশকারী Principal Verb (বা Main Verb)।"
+      "explanation": "Modal Auxiliary Verb 'should'-এর পর মূল ক্রিয়াপদ হিসেবে 'obey' বসেছে। এটি বাক্যের প্রধান অর্থ প্রকাশকারী Principal Verb (বা Main Verb)।",
+      "ans": 0,
+      "correct_answer": "Principal"
     },
     {
       "id": 3,
@@ -46,7 +50,9 @@
         "Principal verb"
       ],
       "answer": "ঘ",
-      "explanation": "বাক্যে আর কোনো Verb না থাকায় 'am' নিজেই প্রধান ক্রিয়াপদ হিসেবে কাজ করছে। তাই এটি Principal Verb।"
+      "explanation": "বাক্যে আর কোনো Verb না থাকায় 'am' নিজেই প্রধান ক্রিয়াপদ হিসেবে কাজ করছে। তাই এটি Principal Verb।",
+      "ans": 3,
+      "correct_answer": "Principal verb"
     },
     {
       "id": 4,
@@ -59,7 +65,9 @@
         "Intransitive verb"
       ],
       "answer": "ক",
-      "explanation": "'loves' Verb-টির পরে সরাসরি ব্যক্তিবাচক Object 'me' রয়েছে (Mother loves whom? -> me)। যে Verb-এর Object থাকে তাকে Transitive Verb (সকর্মক ক্রিয়া) বলে।"
+      "explanation": "'loves' Verb-টির পরে সরাসরি ব্যক্তিবাচক Object 'me' রয়েছে (Mother loves whom? -> me)। যে Verb-এর Object থাকে তাকে Transitive Verb (সকর্মক ক্রিয়া) বলে।",
+      "ans": 0,
+      "correct_answer": "Transitive verb"
     },
     {
       "id": 5,
@@ -72,7 +80,9 @@
         "The girl takes after her mother."
       ],
       "answer": "ঘ",
-      "explanation": "'The girl takes after her mother' বাক্যে Group Verb 'takes after' (সদৃশ হওয়া)-এর Object হলো 'her mother'। Object থাকায় এটি Transitive Verb। বাকি অপশনগুলোতে Verb-এর কোনো Object নেই।"
+      "explanation": "'The girl takes after her mother' বাক্যে Group Verb 'takes after' (সদৃশ হওয়া)-এর Object হলো 'her mother'। Object থাকায় এটি Transitive Verb। বাকি অপশনগুলোতে Verb-এর কোনো Object নেই।",
+      "ans": 3,
+      "correct_answer": "The girl takes after her mother."
     },
     {
       "id": 6,
@@ -85,7 +95,9 @@
         "modal"
       ],
       "answer": "গ",
-      "explanation": "'he wouldn’t come' বাক্যে 'come' Verb-টির কোনো Object নেই এবং প্রয়োজনও হয় না। যে Verb-এর অর্থ প্রকাশের জন্য কোনো Object থাকে না, তাকে Intransitive Verb (অকর্মক ক্রিয়া) বলে।"
+      "explanation": "'he wouldn’t come' বাক্যে 'come' Verb-টির কোনো Object নেই এবং প্রয়োজনও হয় না। যে Verb-এর অর্থ প্রকাশের জন্য কোনো Object থাকে না, তাকে Intransitive Verb (অকর্মক ক্রিয়া) বলে।",
+      "ans": 2,
+      "correct_answer": "intransitive"
     },
     {
       "id": 7,
@@ -98,7 +110,9 @@
         "rise"
       ],
       "answer": "ঘ",
-      "explanation": "'rise' (ওঠা/বৃদ্ধি পাওয়া) একটি Intransitive Verb কারণ এর কোনো Object হয় না। পক্ষান্তরে 'raise' (উত্তোলন করা), 'lay' (শোয়ানো), 'set' (স্থাপন করা) হলো Transitive Verb।"
+      "explanation": "'rise' (ওঠা/বৃদ্ধি পাওয়া) একটি Intransitive Verb কারণ এর কোনো Object হয় না। পক্ষান্তরে 'raise' (উত্তোলন করা), 'lay' (শোয়ানো), 'set' (স্থাপন করা) হলো Transitive Verb।",
+      "ans": 3,
+      "correct_answer": "rise"
     },
     {
       "id": 8,
@@ -111,7 +125,9 @@
         "Honey tastes sweet."
       ],
       "answer": "গ",
-      "explanation": "Causative Verb (প্রযোজক ক্রিয়া) হলো যখন কর্তা নিজে কাজটি না করে অন্যকে দিয়ে করায়। 'I shall get the work done by him' বাক্যে 'get' Causative Verb হিসেবে ব্যবহৃত হয়েছে।"
+      "explanation": "Causative Verb (প্রযোজক ক্রিয়া) হলো যখন কর্তা নিজে কাজটি না করে অন্যকে দিয়ে করায়। 'I shall get the work done by him' বাক্যে 'get' Causative Verb হিসেবে ব্যবহৃত হয়েছে।",
+      "ans": 2,
+      "correct_answer": "I shall get the work done by him."
     },
     {
       "id": 9,
@@ -124,7 +140,9 @@
         "Factitive verb"
       ],
       "answer": "গ",
-      "explanation": "Dip (ডোবানো), Feed (খাওয়ানো), Fell (ফেলে দেওয়া), Raise (তোলা), Set (বসানো)—এই Verb-গুলো অন্যকে দিয়ে কাজ করানোর অর্থ প্রকাশ করায় এরা Causative Verb (প্রযোজক ক্রিয়া)।"
+      "explanation": "Dip (ডোবানো), Feed (খাওয়ানো), Fell (ফেলে দেওয়া), Raise (তোলা), Set (বসানো)—এই Verb-গুলো অন্যকে দিয়ে কাজ করানোর অর্থ প্রকাশ করায় এরা Causative Verb (প্রযোজক ক্রিয়া)।",
+      "ans": 2,
+      "correct_answer": "Causative verb"
     },
     {
       "id": 10,
@@ -137,7 +155,9 @@
         "Factitive"
       ],
       "answer": "গ",
-      "explanation": "যে Verb Subject ও Complement-এর মধ্যে সংযোগ স্থাপন করে (Linking Verb), তাকে Copulative Verb বলা হয়। 'The dog went mad' বাক্যে 'went' হলো Copulative Verb।"
+      "explanation": "যে Verb Subject ও Complement-এর মধ্যে সংযোগ স্থাপন করে (Linking Verb), তাকে Copulative Verb বলা হয়। 'The dog went mad' বাক্যে 'went' হলো Copulative Verb।",
+      "ans": 2,
+      "correct_answer": "Copulative"
     },
     {
       "id": 11,
@@ -150,7 +170,9 @@
         "Fourteen"
       ],
       "answer": "খ",
-      "explanation": "ইংরেজি ব্যাকরণে প্রাথমিক Auxiliary Verb (Be, Do, Have = ৩টি) এবং Modal Auxiliary Verb (Can, Could, May, Might, Shall, Should, Will, Would, Must = ৯টি) মিলে মোট ১২টি প্রধান Auxiliary Verb ধরা হয়।"
+      "explanation": "ইংরেজি ব্যাকরণে প্রাথমিক Auxiliary Verb (Be, Do, Have = ৩টি) এবং Modal Auxiliary Verb (Can, Could, May, Might, Shall, Should, Will, Would, Must = ৯টি) মিলে মোট ১২টি প্রধান Auxiliary Verb ধরা হয়।",
+      "ans": 1,
+      "correct_answer": "Twelve"
     },
     {
       "id": 12,
@@ -163,7 +185,9 @@
         "must"
       ],
       "answer": "খ",
-      "explanation": "অতীতে কাজের যৌক্তিক অনুমান প্রকাশ করতে 'must have + V3' ব্যবহৃত হয় (After working all day, you must have been tired = সারাদিন কাজের পর তুমি নিশ্চয়ই ক্লান্ত হয়ে পড়েছিলে)।"
+      "explanation": "অতীতে কাজের যৌক্তিক অনুমান প্রকাশ করতে 'must have + V3' ব্যবহৃত হয় (After working all day, you must have been tired = সারাদিন কাজের পর তুমি নিশ্চয়ই ক্লান্ত হয়ে পড়েছিলে)।",
+      "ans": 1,
+      "correct_answer": "must have"
     },
     {
       "id": 13,
@@ -176,7 +200,9 @@
         "an adjective"
       ],
       "answer": "গ",
-      "explanation": "'enjoy' Verb-এর পরে সরাসরি Verb আসলে তার সাথে 'ing' যুক্ত হয়ে Gerund হয় (enjoy teaching)। এটি Object হিসেবে Noun-এর কাজ করছে।"
+      "explanation": "'enjoy' Verb-এর পরে সরাসরি Verb আসলে তার সাথে 'ing' যুক্ত হয়ে Gerund হয় (enjoy teaching)। এটি Object হিসেবে Noun-এর কাজ করছে।",
+      "ans": 2,
+      "correct_answer": "a gerund"
     },
     {
       "id": 14,
@@ -189,7 +215,9 @@
         "Adjective + ing"
       ],
       "answer": "ক",
-      "explanation": "Verb-এর Base Form-এর সাথে 'ing' যুক্ত হয়ে যখন একই সাথে Verb ও Noun-এর কাজ করে, তখন তাকে Gerund বলে (Gerund = Verb + ing)।"
+      "explanation": "Verb-এর Base Form-এর সাথে 'ing' যুক্ত হয়ে যখন একই সাথে Verb ও Noun-এর কাজ করে, তখন তাকে Gerund বলে (Gerund = Verb + ing)।",
+      "ans": 0,
+      "correct_answer": "Verb + ing"
     },
     {
       "id": 15,
@@ -202,7 +230,9 @@
         "present participle"
       ],
       "answer": "গ",
-      "explanation": "'Working in the morning is good for health' বাক্যে 'Working' হলো বাক্যের Subject এবং Verb + ing রূপে Noun-এর কাজ করায় এটি Gerund।"
+      "explanation": "'Working in the morning is good for health' বাক্যে 'Working' হলো বাক্যের Subject এবং Verb + ing রূপে Noun-এর কাজ করায় এটি Gerund।",
+      "ans": 2,
+      "correct_answer": "gerund"
     },
     {
       "id": 16,
@@ -215,7 +245,9 @@
         "from giving up"
       ],
       "answer": "খ",
-      "explanation": "'advise' Verb-এর পর ব্যক্তিবাচক Object থাকলে উদ্দেশ্য বোঝাতে Infinitive (to + V1) বসে (advised me to give up smoking)।"
+      "explanation": "'advise' Verb-এর পর ব্যক্তিবাচক Object থাকলে উদ্দেশ্য বোঝাতে Infinitive (to + V1) বসে (advised me to give up smoking)।",
+      "ans": 1,
+      "correct_answer": "to give up"
     },
     {
       "id": 17,
@@ -228,7 +260,9 @@
         "verbal noun"
       ],
       "answer": "ক",
-      "explanation": "'let' একটি Causative Verb, যার পর Bare Infinitive (to ছাড়া Verb-এর Base Form) বসে। তাই এখানে 'go' হলো একটি Bare Infinitive।"
+      "explanation": "'let' একটি Causative Verb, যার পর Bare Infinitive (to ছাড়া Verb-এর Base Form) বসে। তাই এখানে 'go' হলো একটি Bare Infinitive।",
+      "ans": 0,
+      "correct_answer": "infinitive"
     },
     {
       "id": 18,
@@ -241,7 +275,9 @@
         "Strong verb"
       ],
       "answer": "ক",
-      "explanation": "'taste', 'smell', 'look', 'seem' ইত্যাদি Sensory Verb যখন Subject ও Adjective-এর মধ্যে সংযোগ ঘটায়, তখন এদের Linking Verb বলে (Honey tastes sweet)।"
+      "explanation": "'taste', 'smell', 'look', 'seem' ইত্যাদি Sensory Verb যখন Subject ও Adjective-এর মধ্যে সংযোগ ঘটায়, তখন এদের Linking Verb বলে (Honey tastes sweet)।",
+      "ans": 0,
+      "correct_answer": "Linking"
     },
     {
       "id": 19,
@@ -254,7 +290,9 @@
         "Intransitive verb"
       ],
       "answer": "খ",
-      "explanation": "'became' Verb-টি Subject ('He') এবং Noun Complement ('a politician')-এর মধ্যে সংযোগ স্থাপন করায় এটি Linking Verb।"
+      "explanation": "'became' Verb-টি Subject ('He') এবং Noun Complement ('a politician')-এর মধ্যে সংযোগ স্থাপন করায় এটি Linking Verb।",
+      "ans": 1,
+      "correct_answer": "Linking verb"
     },
     {
       "id": 20,
@@ -267,7 +305,9 @@
         "Non-finite"
       ],
       "answer": "গ",
-      "explanation": "Subject এবং Complement ('a genius')-এর সংযোগকারী ক্রিয়া হিসেবে 'is called' Linking Verb-এর ভূমিকা পালন করছে।"
+      "explanation": "Subject এবং Complement ('a genius')-এর সংযোগকারী ক্রিয়া হিসেবে 'is called' Linking Verb-এর ভূমিকা পালন করছে।",
+      "ans": 2,
+      "correct_answer": "Linking"
     },
     {
       "id": 21,
@@ -280,7 +320,9 @@
         "Jog"
       ],
       "answer": "ক",
-      "explanation": "যেসব Verb-এর ভিতরের স্বরবর্ণ (Vowel) পরিবর্তন করে Past ও Past Participle গঠন করা হয় (d বা ed যোগ না করে), তাদের Strong Verb (বা Irregular Verb) বলে। যেমন: Run - Ran - Run।"
+      "explanation": "যেসব Verb-এর ভিতরের স্বরবর্ণ (Vowel) পরিবর্তন করে Past ও Past Participle গঠন করা হয় (d বা ed যোগ না করে), তাদের Strong Verb (বা Irregular Verb) বলে। যেমন: Run - Ran - Run।",
+      "ans": 0,
+      "correct_answer": "Run"
     },
     {
       "id": 22,
@@ -293,7 +335,9 @@
         "forget"
       ],
       "answer": "ঘ",
-      "explanation": "'forget' (Forget - Forgot - Forgotten) স্বরবর্ণ পরিবর্তনের মাধ্যমে রূপান্তরিত হওয়ায় এটি Strong Verb। বাকিগুলো Weak Verb (sleep-slept, fill-filled, believe-believed)।"
+      "explanation": "'forget' (Forget - Forgot - Forgotten) স্বরবর্ণ পরিবর্তনের মাধ্যমে রূপান্তরিত হওয়ায় এটি Strong Verb। বাকিগুলো Weak Verb (sleep-slept, fill-filled, believe-believed)।",
+      "ans": 3,
+      "correct_answer": "forget"
     },
     {
       "id": 23,
@@ -306,7 +350,9 @@
         "Smelded"
       ],
       "answer": "খ",
-      "explanation": "'smell' (গন্ধ নেওয়া)-এর Past ও Past Participle রূপ হলো 'Smelt' (বা Smelled)। অপশন অনুযায়ী 'Smelt' সঠিক।"
+      "explanation": "'smell' (গন্ধ নেওয়া)-এর Past ও Past Participle রূপ হলো 'Smelt' (বা Smelled)। অপশন অনুযায়ী 'Smelt' সঠিক।",
+      "ans": 1,
+      "correct_answer": "Smelt"
     },
     {
       "id": 24,
@@ -319,7 +365,9 @@
         "Noun"
       ],
       "answer": "গ",
-      "explanation": "'copied' শব্দটি Subject 'She'-এর সম্পাদিত কাজ নির্দেশ করায় এটি Past Indefinite Tense-এর মূল Verb।"
+      "explanation": "'copied' শব্দটি Subject 'She'-এর সম্পাদিত কাজ নির্দেশ করায় এটি Past Indefinite Tense-এর মূল Verb।",
+      "ans": 2,
+      "correct_answer": "Verb"
     },
     {
       "id": 25,
@@ -332,7 +380,9 @@
         "adjective"
       ],
       "answer": "ক",
-      "explanation": "'Water the plants' (গাছে পানি দাও) একটি Imperative Sentence, যেখানে 'Water' আদেশসূচক মূল ক্রিয়া (Verb) হিসেবে ব্যবহৃত হয়েছে।"
+      "explanation": "'Water the plants' (গাছে পানি দাও) একটি Imperative Sentence, যেখানে 'Water' আদেশসূচক মূল ক্রিয়া (Verb) হিসেবে ব্যবহৃত হয়েছে।",
+      "ans": 0,
+      "correct_answer": "verb"
     },
     {
       "id": 26,
@@ -345,7 +395,9 @@
         "infinitive"
       ],
       "answer": "খ",
-      "explanation": "'enjoy' Verb-এর Object হিসেবে 'sleeping' ব্যবহৃত হয়েছে। Verb + ing যখন Noun-এর অবস্থানে বসে Noun-এর কাজ করে, তখন তাকে Gerund বলে।"
+      "explanation": "'enjoy' Verb-এর Object হিসেবে 'sleeping' ব্যবহৃত হয়েছে। Verb + ing যখন Noun-এর অবস্থানে বসে Noun-এর কাজ করে, তখন তাকে Gerund বলে।",
+      "ans": 1,
+      "correct_answer": "gerund"
     },
     {
       "id": 27,
@@ -358,7 +410,9 @@
         "Noun"
       ],
       "answer": "ক",
-      "explanation": "'Walking is good for health' বাক্যে 'Walking' হলো Subject হিসেবে ব্যবহৃত Verb + ing, যা একই সাথে Verb ও Noun-এর কাজ করায় এটি Gerund।"
+      "explanation": "'Walking is good for health' বাক্যে 'Walking' হলো Subject হিসেবে ব্যবহৃত Verb + ing, যা একই সাথে Verb ও Noun-এর কাজ করায় এটি Gerund।",
+      "ans": 0,
+      "correct_answer": "Gerund"
     },
     {
       "id": 28,
@@ -371,7 +425,9 @@
         "past participle"
       ],
       "answer": "ঘ",
-      "explanation": "'burnt' শব্দটি Noun ('child')-এর পূর্বে বসে Adjective-এর কাজ করছে এবং এটি Verb 'burn'-এর ৩য় রূপ (V3)। তাই এটি Past Participle।"
+      "explanation": "'burnt' শব্দটি Noun ('child')-এর পূর্বে বসে Adjective-এর কাজ করছে এবং এটি Verb 'burn'-এর ৩য় রূপ (V3)। তাই এটি Past Participle।",
+      "ans": 3,
+      "correct_answer": "past participle"
     },
     {
       "id": 29,
@@ -384,7 +440,9 @@
         "Hopd"
       ],
       "answer": "গ",
-      "explanation": "'Hop' (লাফানো)-এর শেষে ব্যঞ্জনবর্ণ ও পূর্বে একটি মাত্র স্বরবর্ণ থাকায় Past Form-এ শেষ বর্ণ দ্বিত্ব হয়ে 'Hopped' হয়।"
+      "explanation": "'Hop' (লাফানো)-এর শেষে ব্যঞ্জনবর্ণ ও পূর্বে একটি মাত্র স্বরবর্ণ থাকায় Past Form-এ শেষ বর্ণ দ্বিত্ব হয়ে 'Hopped' হয়।",
+      "ans": 2,
+      "correct_answer": "Hopped"
     },
     {
       "id": 30,
@@ -397,7 +455,9 @@
         "find"
       ],
       "answer": "খ",
-      "explanation": "'Fed' হলো 'Feed' (খাওয়ানো) Verb-এর Past ও Past Participle রূপ (Feed - Fed - Fed)।"
+      "explanation": "'Fed' হলো 'Feed' (খাওয়ানো) Verb-এর Past ও Past Participle রূপ (Feed - Fed - Fed)।",
+      "ans": 1,
+      "correct_answer": "feed"
     },
     {
       "id": 31,
@@ -410,7 +470,9 @@
         "Hunged"
       ],
       "answer": "গ",
-      "explanation": "কোনো বস\"ঝুলিয়ে রাখা অর\"ে 'Hang'-এর Past ও Past Participle হলো 'Hung'। (ফাঁসি দেওয়া অর্থে 'Hanged' হয়)।"
+      "explanation": "কোনো বস\"ঝুলিয়ে রাখা অর\"ে 'Hang'-এর Past ও Past Participle হলো 'Hung'। (ফাঁসি দেওয়া অর্থে 'Hanged' হয়)।",
+      "ans": 2,
+      "correct_answer": "Hung"
     },
     {
       "id": 32,
@@ -423,7 +485,9 @@
         "strong"
       ],
       "answer": "ক",
-      "explanation": "'strong' (শক্তিশালী) Adjective-এর Verb রূপ হলো 'strengthen' (শক্তিশালী করা)। আর 'strength' হলো Noun।"
+      "explanation": "'strong' (শক্তিশালী) Adjective-এর Verb রূপ হলো 'strengthen' (শক্তিশালী করা)। আর 'strength' হলো Noun।",
+      "ans": 0,
+      "correct_answer": "strengthen"
     },
     {
       "id": 33,
@@ -436,7 +500,9 @@
         "he"
       ],
       "answer": "গ",
-      "explanation": "'but' শব্দটি দুটি বিপরীতমুখী Adjective ('poor' ও 'honest')-কে যুক্ত করেছে। দুটি শব্দ বা বাক্যকে সংযুক্তকারী পদকে Conjunction বলে।"
+      "explanation": "'but' শব্দটি দুটি বিপরীতমুখী Adjective ('poor' ও 'honest')-কে যুক্ত করেছে। দুটি শব্দ বা বাক্যকে সংযুক্তকারী পদকে Conjunction বলে।",
+      "ans": 2,
+      "correct_answer": "but"
     },
     {
       "id": 34,
@@ -449,7 +515,9 @@
         "Neither ‘a’ nor ‘b’"
       ],
       "answer": "ক",
-      "explanation": "'He took shelter under a tree' বাক্যে 'took' Verb-টির Object হলো 'shelter' (কী নিয়েছিল? আশ্রয়)। Object থাকায় এটি Transitive Verb।"
+      "explanation": "'He took shelter under a tree' বাক্যে 'took' Verb-টির Object হলো 'shelter' (কী নিয়েছিল? আশ্রয়)। Object থাকায় এটি Transitive Verb।",
+      "ans": 0,
+      "correct_answer": "transitive"
     },
     {
       "id": 35,
@@ -462,7 +530,9 @@
         "Acting"
       ],
       "answer": "খ",
-      "explanation": "'Act' (কাজ/অভিনয় করা) Verb-এর Past Form হলো 'Acted'।"
+      "explanation": "'Act' (কাজ/অভিনয় করা) Verb-এর Past Form হলো 'Acted'।",
+      "ans": 1,
+      "correct_answer": "Acted"
     },
     {
       "id": 36,
@@ -475,7 +545,9 @@
         "Held"
       ],
       "answer": "ঘ",
-      "explanation": "'Held' হলো 'Hold' Verb-এর Past ও Past Participle Form (Hold - Held - Held)।"
+      "explanation": "'Held' হলো 'Hold' Verb-এর Past ও Past Participle Form (Hold - Held - Held)।",
+      "ans": 3,
+      "correct_answer": "Held"
     },
     {
       "id": 37,
@@ -488,7 +560,9 @@
         "a verb"
       ],
       "answer": "ঘ",
-      "explanation": "'respond' (সাড়া দেওয়া/উত্তর দেওয়া) একটি Verb। এর Noun হলো 'response'।"
+      "explanation": "'respond' (সাড়া দেওয়া/উত্তর দেওয়া) একটি Verb। এর Noun হলো 'response'।",
+      "ans": 3,
+      "correct_answer": "a verb"
     },
     {
       "id": 38,
@@ -501,7 +575,9 @@
         "The ship sank rapidly."
       ],
       "answer": "ঘ",
-      "explanation": "'The ship sank rapidly' বাক্যে 'sank' Verb-এর কোনো Object নেই; 'rapidly' হলো Adverb। তাই এটি Intransitively ব্যবহৃত হয়েছে।"
+      "explanation": "'The ship sank rapidly' বাক্যে 'sank' Verb-এর কোনো Object নেই; 'rapidly' হলো Adverb। তাই এটি Intransitively ব্যবহৃত হয়েছে।",
+      "ans": 3,
+      "correct_answer": "The ship sank rapidly."
     },
     {
       "id": 39,
@@ -514,7 +590,9 @@
         "None of them"
       ],
       "answer": "খ",
-      "explanation": "'Running' বাক্যের Subject হিসেবে বসে Noun-এর কাজ করছে। Verb + ing যখন Noun-এর কাজ করে তখন তা Gerund।"
+      "explanation": "'Running' বাক্যের Subject হিসেবে বসে Noun-এর কাজ করছে। Verb + ing যখন Noun-এর কাজ করে তখন তা Gerund।",
+      "ans": 1,
+      "correct_answer": "Gerund"
     },
     {
       "id": 40,
@@ -527,7 +605,9 @@
         "adjective"
       ],
       "answer": "খ",
-      "explanation": "'Nursing' বাক্যের শুরুতে Subject হিসেবে ব্যবহৃত হয়ে Noun-এর মতো কাজ করায় এটি Gerund।"
+      "explanation": "'Nursing' বাক্যের শুরুতে Subject হিসেবে ব্যবহৃত হয়ে Noun-এর মতো কাজ করায় এটি Gerund।",
+      "ans": 1,
+      "correct_answer": "gerund"
     },
     {
       "id": 41,
@@ -540,7 +620,9 @@
         "Adjective"
       ],
       "answer": "ক",
-      "explanation": "'Swimming' বাক্যের Subject হিসেবে ব্যবহৃত হয়ে Noun ও Verb-এর কাজ একযোগে করায় এটি Gerund।"
+      "explanation": "'Swimming' বাক্যের Subject হিসেবে ব্যবহৃত হয়ে Noun ও Verb-এর কাজ একযোগে করায় এটি Gerund।",
+      "ans": 0,
+      "correct_answer": "Gerund"
     },
     {
       "id": 42,
@@ -553,7 +635,9 @@
         "A verb and an adverb"
       ],
       "answer": "গ",
-      "explanation": "Gerund ব্যাকরণগতভাবে একই সাথে একটি Verb এবং একটি Noun-এর কাজ সম্পন্ন করে (A verb and a noun)।"
+      "explanation": "Gerund ব্যাকরণগতভাবে একই সাথে একটি Verb এবং একটি Noun-এর কাজ সম্পন্ন করে (A verb and a noun)।",
+      "ans": 2,
+      "correct_answer": "A verb and a noun"
     },
     {
       "id": 43,
@@ -566,7 +650,9 @@
         "being reading"
       ],
       "answer": "খ",
-      "explanation": "'finish' Verb-এর পরে অপর কোনো Verb আসলে তার সাথে 'ing' যুক্ত হয়ে Gerund হিসেবে বসে (finished reading the book)।"
+      "explanation": "'finish' Verb-এর পরে অপর কোনো Verb আসলে তার সাথে 'ing' যুক্ত হয়ে Gerund হিসেবে বসে (finished reading the book)।",
+      "ans": 1,
+      "correct_answer": "reading"
     },
     {
       "id": 44,
@@ -579,7 +665,9 @@
         "infinitive"
       ],
       "answer": "গ",
-      "explanation": "'start' Verb-এর Object হিসেবে 'reading' ব্যবহৃত হওয়ায় এটি Gerund।"
+      "explanation": "'start' Verb-এর Object হিসেবে 'reading' ব্যবহৃত হওয়ায় এটি Gerund।",
+      "ans": 2,
+      "correct_answer": "gerund"
     },
     {
       "id": 45,
@@ -592,7 +680,9 @@
         "noun"
       ],
       "answer": "খ",
-      "explanation": "যে Verb-এর রূপ Noun হিসেবে কাজ করে তাকে Gerund বলা হয় (Verb + ing acting as noun)।"
+      "explanation": "যে Verb-এর রূপ Noun হিসেবে কাজ করে তাকে Gerund বলা হয় (Verb + ing acting as noun)।",
+      "ans": 1,
+      "correct_answer": "gerund"
     },
     {
       "id": 46,
@@ -605,7 +695,9 @@
         "swumped"
       ],
       "answer": "গ",
-      "explanation": "'swim' (সাঁতার কাটা) Verb-এর তিনটি রূপ: Swim - Swam - Swum। তাই Past Participle হলো 'swum'।"
+      "explanation": "'swim' (সাঁতার কাটা) Verb-এর তিনটি রূপ: Swim - Swam - Swum। তাই Past Participle হলো 'swum'।",
+      "ans": 2,
+      "correct_answer": "swum"
     },
     {
       "id": 47,
@@ -618,7 +710,9 @@
         "short"
       ],
       "answer": "খ",
-      "explanation": "'short' বা 'shortly'-এর Verb রূপ হলো 'shorten' (সংক্ষিপ্ত বা ছোট করা)।"
+      "explanation": "'short' বা 'shortly'-এর Verb রূপ হলো 'shorten' (সংক্ষিপ্ত বা ছোট করা)।",
+      "ans": 1,
+      "correct_answer": "shorten"
     },
     {
       "id": 48,
@@ -631,7 +725,9 @@
         "Closely"
       ],
       "answer": "খ",
-      "explanation": "'Reopen' (পুনরায় খোলা) একটি Verb। Openly হলো Adverb, Openness হলো Noun।"
+      "explanation": "'Reopen' (পুনরায় খোলা) একটি Verb। Openly হলো Adverb, Openness হলো Noun।",
+      "ans": 1,
+      "correct_answer": "Reopen"
     },
     {
       "id": 49,
@@ -644,7 +740,9 @@
         "But"
       ],
       "answer": "গ",
-      "explanation": "'Through', 'As', 'But' কনজাংশন বা প্রিপজিশন হিসেবে ব্যবহৃত হতে পারে; 'Into' সর্বদা Preposition হিসেবে ব্যবহৃত হয়।"
+      "explanation": "'Through', 'As', 'But' কনজাংশন বা প্রিপজিশন হিসেবে ব্যবহৃত হতে পারে; 'Into' সর্বদা Preposition হিসেবে ব্যবহৃত হয়।",
+      "ans": 2,
+      "correct_answer": "Into"
     },
     {
       "id": 50,
@@ -657,7 +755,9 @@
         "providing"
       ],
       "answer": "গ",
-      "explanation": "শর্তযুক্ত নেতিবাচক অর্থ প্রকাশ করতে 'unless' (যদি না) ব্যবহৃত হয় (unless they give her a pay rise = যদি না তারা তার বেতন বৃদ্ধি করে)।"
+      "explanation": "শর্তযুক্ত নেতিবাচক অর্থ প্রকাশ করতে 'unless' (যদি না) ব্যবহৃত হয় (unless they give her a pay rise = যদি না তারা তার বেতন বৃদ্ধি করে)।",
+      "ans": 2,
+      "correct_answer": "unless"
     },
     {
       "id": 51,
@@ -670,7 +770,9 @@
         "In spite"
       ],
       "answer": "গ",
-      "explanation": "বিপরীত ফলাফল সত্ত্বেও কোনো কিছু ঘটা প্রকাশে Preposition হিসেবে 'Despite' বসে। 'In spite of' থাকলে সঠিক হতো, কিন্তু অপশনে 'of' ছাড়া ছিল।"
+      "explanation": "বিপরীত ফলাফল সত্ত্বেও কোনো কিছু ঘটা প্রকাশে Preposition হিসেবে 'Despite' বসে। 'In spite of' থাকলে সঠিক হতো, কিন্তু অপশনে 'of' ছাড়া ছিল।",
+      "ans": 2,
+      "correct_answer": "Despite"
     },
     {
       "id": 52,
@@ -683,7 +785,9 @@
         "when"
       ],
       "answer": "ঘ",
-      "explanation": "'Scarcely had ... when' একটি নির্দিষ্ট Conjunctional জোড়া। প্রথম অংশে 'Scarcely had' থাকলে দ্বিতীয় অংশে 'when' বসে।"
+      "explanation": "'Scarcely had ... when' একটি নির্দিষ্ট Conjunctional জোড়া। প্রথম অংশে 'Scarcely had' থাকলে দ্বিতীয় অংশে 'when' বসে।",
+      "ans": 3,
+      "correct_answer": "when"
     },
     {
       "id": 53,
@@ -696,7 +800,9 @@
         "Unless"
       ],
       "answer": "ক",
-      "explanation": "'But for' একটি Prepositional phrase যার অর্থ 'without' বা 'যদি না থাকত' (But for your timely help = তোমার সময়মতো সাহায্য ছাড়া)।"
+      "explanation": "'But for' একটি Prepositional phrase যার অর্থ 'without' বা 'যদি না থাকত' (But for your timely help = তোমার সময়মতো সাহায্য ছাড়া)।",
+      "ans": 0,
+      "correct_answer": "But for"
     },
     {
       "id": 54,
@@ -709,7 +815,9 @@
         "order"
       ],
       "answer": "খ",
-      "explanation": "উদ্দেশ্য বা লক্ষ্য প্রকাশের জন্য Subordinating Conjunction হিসেবে 'so that' (যাতে) বসে (so that you do not have to walk)।"
+      "explanation": "উদ্দেশ্য বা লক্ষ্য প্রকাশের জন্য Subordinating Conjunction হিসেবে 'so that' (যাতে) বসে (so that you do not have to walk)।",
+      "ans": 1,
+      "correct_answer": "so that"
     },
     {
       "id": 55,
@@ -722,7 +830,9 @@
         "for"
       ],
       "answer": "খ",
-      "explanation": "বিকল্প নির্দেশ করতে Coordinating Conjunction হিসেবে 'or' ব্যবহৃত হয়।"
+      "explanation": "বিকল্প নির্দেশ করতে Coordinating Conjunction হিসেবে 'or' ব্যবহৃত হয়।",
+      "ans": 1,
+      "correct_answer": "or"
     },
     {
       "id": 56,
@@ -735,7 +845,9 @@
         "Verb"
       ],
       "answer": "ক",
-      "explanation": "দুটি বিপরীতমুখী তথ্য বা Clause-কে যুক্ত করতে Conjunction হিসেবে 'but' ব্যবহৃত হয়।"
+      "explanation": "দুটি বিপরীতমুখী তথ্য বা Clause-কে যুক্ত করতে Conjunction হিসেবে 'but' ব্যবহৃত হয়।",
+      "ans": 0,
+      "correct_answer": "A conjunction"
     },
     {
       "id": 57,
@@ -748,7 +860,9 @@
         "unless"
       ],
       "answer": "ক",
-      "explanation": "সম্ভাব্য সতর্কতামূলক প্রস্তুতি বোঝাতে Conjunction হিসেবে 'in case' (যদি এমন ঘটে) ব্যবহৃত হয় (take an umbrella in case it rains)।"
+      "explanation": "সম্ভাব্য সতর্কতামূলক প্রস্তুতি বোঝাতে Conjunction হিসেবে 'in case' (যদি এমন ঘটে) ব্যবহৃত হয় (take an umbrella in case it rains)।",
+      "ans": 0,
+      "correct_answer": "in case"
     },
     {
       "id": 58,
@@ -761,7 +875,9 @@
         "Be injured"
       ],
       "answer": "গ",
-      "explanation": "আহত হওয়ার অবস্থা অতীতে ঘটার পর মাটিতে কাতরাচ্ছিল বোঝাতে Perfect Participle 'Having injured' ব্যবহৃত হয়েছে।"
+      "explanation": "আহত হওয়ার অবস্থা অতীতে ঘটার পর মাটিতে কাতরাচ্ছিল বোঝাতে Perfect Participle 'Having injured' ব্যবহৃত হয়েছে।",
+      "ans": 2,
+      "correct_answer": "Having injured"
     },
     {
       "id": 59,
@@ -774,7 +890,9 @@
         "seen"
       ],
       "answer": "গ",
-      "explanation": "'avoid' Verb-এর পরে Gerund বসে। শত্রু বিমানের দ্বারা দেখা যাওয়ার ঝুঁকি এড়াতে Passive Gerund হিসেবে 'being seen' সঠিক।"
+      "explanation": "'avoid' Verb-এর পরে Gerund বসে। শত্রু বিমানের দ্বারা দেখা যাওয়ার ঝুঁকি এড়াতে Passive Gerund হিসেবে 'being seen' সঠিক।",
+      "ans": 2,
+      "correct_answer": "being seen"
     },
     {
       "id": 60,
@@ -787,7 +905,9 @@
         "having arrested"
       ],
       "answer": "গ",
-      "explanation": "Preposition 'of'-এর পর Passive অর্থে Verb-এর Gerund রূপ 'being arrested' (গ্রেপ্তার হওয়ার ভয়ে) ব্যবহৃত হয়।"
+      "explanation": "Preposition 'of'-এর পর Passive অর্থে Verb-এর Gerund রূপ 'being arrested' (গ্রেপ্তার হওয়ার ভয়ে) ব্যবহৃত হয়।",
+      "ans": 2,
+      "correct_answer": "being arrested"
     },
     {
       "id": 61,
@@ -800,7 +920,9 @@
         "sand"
       ],
       "answer": "ঘ",
-      "explanation": "'sand' শব্দটি Noun ছাড়াও Verb হিসেবে 'শিরীষ কাগজ দিয়ে ঘষে মসৃণ করা' অর্থে ব্যবহৃত হয়।"
+      "explanation": "'sand' শব্দটি Noun ছাড়াও Verb হিসেবে 'শিরীষ কাগজ দিয়ে ঘষে মসৃণ করা' অর্থে ব্যবহৃত হয়।",
+      "ans": 3,
+      "correct_answer": "sand"
     },
     {
       "id": 62,
@@ -813,7 +935,9 @@
         "was"
       ],
       "answer": "গ",
-      "explanation": "অতীতের সম্ভাবনা বা অনিশ্চয়তা প্রকাশ করতে 'might be' (হয়তো সজীব ছিল) ব্যবহৃত হয়।"
+      "explanation": "অতীতের সম্ভাবনা বা অনিশ্চয়তা প্রকাশ করতে 'might be' (হয়তো সজীব ছিল) ব্যবহৃত হয়।",
+      "ans": 2,
+      "correct_answer": "might be"
     },
     {
       "id": 63,
@@ -826,7 +950,9 @@
         "present participle"
       ],
       "answer": "খ",
-      "explanation": "'contemplate' Verb-এর পরে সর্বদা Gerund (Verb+ing) বসে। তাই 'marrying' এখানে Gerund।"
+      "explanation": "'contemplate' Verb-এর পরে সর্বদা Gerund (Verb+ing) বসে। তাই 'marrying' এখানে Gerund।",
+      "ans": 1,
+      "correct_answer": "gerund"
     },
     {
       "id": 64,
@@ -839,7 +965,9 @@
         "Where"
       ],
       "answer": "ক",
-      "explanation": "যদিও দেশটি অনুন্নত, তবুও সুন্দর—বৈপরীত্যমূলক শর্ত প্রকাশে Conjunction হিসেবে 'Although' বসে।"
+      "explanation": "যদিও দেশটি অনুন্নত, তবুও সুন্দর—বৈপরীত্যমূলক শর্ত প্রকাশে Conjunction হিসেবে 'Although' বসে।",
+      "ans": 0,
+      "correct_answer": "Although"
     },
     {
       "id": 65,
@@ -852,7 +980,9 @@
         "as"
       ],
       "answer": "ক",
-      "explanation": "দুটি বিপরীতমুখী ভাব প্রকাশক বাক্যাংশকে যুক্ত করতে Coordinating Conjunction 'but' বসে (waiting ... but never came)।"
+      "explanation": "দুটি বিপরীতমুখী ভাব প্রকাশক বাক্যাংশকে যুক্ত করতে Coordinating Conjunction 'but' বসে (waiting ... but never came)।",
+      "ans": 0,
+      "correct_answer": "but"
     },
     {
       "id": 66,
@@ -865,7 +995,9 @@
         "after"
       ],
       "answer": "খ",
-      "explanation": "'No sooner had ... than' একটি প্রচলিত ব্যাকরণিক নিয়ম। প্রথম অংশে 'No sooner had' থাকলে দ্বিতীয় অংশে 'than' বসে।"
+      "explanation": "'No sooner had ... than' একটি প্রচলিত ব্যাকরণিক নিয়ম। প্রথম অংশে 'No sooner had' থাকলে দ্বিতীয় অংশে 'than' বসে।",
+      "ans": 1,
+      "correct_answer": "than"
     },
     {
       "id": 67,
@@ -878,7 +1010,9 @@
         "he"
       ],
       "answer": "গ",
-      "explanation": "'He is poor but honest' বাক্যে 'but' দুটি বিপরীতমুখী গুণকে যুক্ত করায় এটি Conjunction।"
+      "explanation": "'He is poor but honest' বাক্যে 'but' দুটি বিপরীতমুখী গুণকে যুক্ত করায় এটি Conjunction।",
+      "ans": 2,
+      "correct_answer": "but"
     },
     {
       "id": 68,
@@ -891,7 +1025,9 @@
         "so"
       ],
       "answer": "খ",
-      "explanation": "মারুফ কমলা পছন্দ করে কিন্তু আপেল করে না—বিপরীত বক্তব্য বোঝাতে Conjunction হিসেবে 'but' বসে।"
+      "explanation": "মারুফ কমলা পছন্দ করে কিন্তু আপেল করে না—বিপরীত বক্তব্য বোঝাতে Conjunction হিসেবে 'but' বসে।",
+      "ans": 1,
+      "correct_answer": "but"
     },
     {
       "id": 69,
@@ -904,7 +1040,9 @@
         "gerundial infinitive"
       ],
       "answer": "খ",
-      "explanation": "'flying bird' বাক্যে 'flying' শব্দটি Noun ('bird')-এর অবস্থা প্রকাশ করছে (উড়ন্ত পাখি)। Verb+ing যখন Adjective-এর কাজ করে, তখন তাকে Participle বলে।"
+      "explanation": "'flying bird' বাক্যে 'flying' শব্দটি Noun ('bird')-এর অবস্থা প্রকাশ করছে (উড়ন্ত পাখি)। Verb+ing যখন Adjective-এর কাজ করে, তখন তাকে Participle বলে।",
+      "ans": 1,
+      "correct_answer": "participle"
     },
     {
       "id": 70,
@@ -917,7 +1055,9 @@
         "verbal noun"
       ],
       "answer": "ক",
-      "explanation": "'let' Causative Verb-এর পরে Bare Infinitive (to ছাড়া Verb-এর Base Form) বসে। তাই 'go' হলো Bare Infinitive।"
+      "explanation": "'let' Causative Verb-এর পরে Bare Infinitive (to ছাড়া Verb-এর Base Form) বসে। তাই 'go' হলো Bare Infinitive।",
+      "ans": 0,
+      "correct_answer": "infinitive"
     },
     {
       "id": 71,
@@ -930,7 +1070,9 @@
         "gerund"
       ],
       "answer": "ঘ",
-      "explanation": "Preposition ('of')-এর পর Verb-এর সাথে 'ing' যুক্ত হয়ে Noun-এর মতো কাজ করায় 'walking' এখানে Gerund।"
+      "explanation": "Preposition ('of')-এর পর Verb-এর সাথে 'ing' যুক্ত হয়ে Noun-এর মতো কাজ করায় 'walking' এখানে Gerund।",
+      "ans": 3,
+      "correct_answer": "gerund"
     },
     {
       "id": 72,
@@ -943,7 +1085,9 @@
         "verb"
       ],
       "answer": "গ",
-      "explanation": "'provided' শব্দটি 'if' (যদি) অর্থে শর্তসূচক Conjunction হিসেবে ব্যবহৃত হয়।"
+      "explanation": "'provided' শব্দটি 'if' (যদি) অর্থে শর্তসূচক Conjunction হিসেবে ব্যবহৃত হয়।",
+      "ans": 2,
+      "correct_answer": "conjunction"
     },
     {
       "id": 73,
@@ -956,7 +1100,9 @@
         "participle"
       ],
       "answer": "ঘ",
-      "explanation": "'A lost opportunity' বাক্যে 'lost' শব্দটি Noun ('opportunity')-এর অবস্থা নির্দেশকারী Adjective-এর কাজ করায় এটি Past Participle।"
+      "explanation": "'A lost opportunity' বাক্যে 'lost' শব্দটি Noun ('opportunity')-এর অবস্থা নির্দেশকারী Adjective-এর কাজ করায় এটি Past Participle।",
+      "ans": 3,
+      "correct_answer": "participle"
     },
     {
       "id": 74,
@@ -969,7 +1115,9 @@
         "verb"
       ],
       "answer": "ক",
-      "explanation": "The + verb-ing + of কাঠামোতে 'warning' শব্দটি Verbal Noun হিসেবে Noun-এর কাজ করছে।"
+      "explanation": "The + verb-ing + of কাঠামোতে 'warning' শব্দটি Verbal Noun হিসেবে Noun-এর কাজ করছে।",
+      "ans": 0,
+      "correct_answer": "noun"
     },
     {
       "id": 75,
@@ -982,7 +1130,9 @@
         "afford"
       ],
       "answer": "ঘ",
-      "explanation": "সামর্থ্য থাকা অর্থে 'afford to' ব্যবহৃত হয় (cannot afford to pay = এত চড়া মূল্য দেওয়ার সামর্থ্য নেই)।"
+      "explanation": "সামর্থ্য থাকা অর্থে 'afford to' ব্যবহৃত হয় (cannot afford to pay = এত চড়া মূল্য দেওয়ার সামর্থ্য নেই)।",
+      "ans": 3,
+      "correct_answer": "afford"
     },
     {
       "id": 76,
@@ -995,7 +1145,9 @@
         "had better get"
       ],
       "answer": "ঘ",
-      "explanation": "'had better' একটি Semi-modal verb, যার পরে সর্বদা Verb-এর Base Form বসে (had better get)।"
+      "explanation": "'had better' একটি Semi-modal verb, যার পরে সর্বদা Verb-এর Base Form বসে (had better get)।",
+      "ans": 3,
+      "correct_answer": "had better get"
     },
     {
       "id": 77,
@@ -1008,7 +1160,9 @@
         "Gerund"
       ],
       "answer": "ঘ",
-      "explanation": "'Reading is an excellent habit' বাক্যে 'Reading' হলো বাক্যের Subject এবং Noun-এর কাজ করায় এটি Gerund।"
+      "explanation": "'Reading is an excellent habit' বাক্যে 'Reading' হলো বাক্যের Subject এবং Noun-এর কাজ করায় এটি Gerund।",
+      "ans": 3,
+      "correct_answer": "Gerund"
     },
     {
       "id": 78,
@@ -1021,7 +1175,9 @@
         "Participle"
       ],
       "answer": "ঘ",
-      "explanation": "'A retired officer' বাক্যে 'retired' শব্দটি Noun ('officer')-এর অবস্থা প্রকাশকারী Past Participle (Adjective)।"
+      "explanation": "'A retired officer' বাক্যে 'retired' শব্দটি Noun ('officer')-এর অবস্থা প্রকাশকারী Past Participle (Adjective)।",
+      "ans": 3,
+      "correct_answer": "Participle"
     },
     {
       "id": 79,
@@ -1034,7 +1190,9 @@
         "A finite verb"
       ],
       "answer": "খ",
-      "explanation": "'Education is enlightening' বাক্যে 'enlightening' শব্দটি Subject-এর বৈশিষ্ট্য প্রকাশকারী Present Participle (Adjective)।"
+      "explanation": "'Education is enlightening' বাক্যে 'enlightening' শব্দটি Subject-এর বৈশিষ্ট্য প্রকাশকারী Present Participle (Adjective)।",
+      "ans": 1,
+      "correct_answer": "A participle"
     },
     {
       "id": 80,
@@ -1047,7 +1205,9 @@
         "despite I was"
       ],
       "answer": "ক",
-      "explanation": "পূর্বে পূর্ণাঙ্গ Clause ও পরে Subject + Verb থাকা সাপেক্ষে বৈপরীত্য প্রকাশে 'although I was' সঠিক।"
+      "explanation": "পূর্বে পূর্ণাঙ্গ Clause ও পরে Subject + Verb থাকা সাপেক্ষে বৈপরীত্য প্রকাশে 'although I was' সঠিক।",
+      "ans": 0,
+      "correct_answer": "although I was"
     },
     {
       "id": 81,
@@ -1060,7 +1220,9 @@
         "Mastery"
       ],
       "answer": "গ",
-      "explanation": "'Master' শব্দটি Noun ছাড়াও Verb হিসেবে 'আয়ত্ত করা' বা 'দক্ষতা অর্জন করা' অর্থে ব্যবহৃত হয় (master a skill)।"
+      "explanation": "'Master' শব্দটি Noun ছাড়াও Verb হিসেবে 'আয়ত্ত করা' বা 'দক্ষতা অর্জন করা' অর্থে ব্যবহৃত হয় (master a skill)।",
+      "ans": 2,
+      "correct_answer": "Master"
     },
     {
       "id": 82,
@@ -1073,7 +1235,9 @@
         "following"
       ],
       "answer": "ঘ",
-      "explanation": "ব্যাপক ভক্ত বা অনুসারী দল বোঝাতে Noun হিসেবে 'following' ব্যবহৃত হয় (Cricket enjoys a huge following)।"
+      "explanation": "ব্যাপক ভক্ত বা অনুসারী দল বোঝাতে Noun হিসেবে 'following' ব্যবহৃত হয় (Cricket enjoys a huge following)।",
+      "ans": 3,
+      "correct_answer": "following"
     },
     {
       "id": 83,
@@ -1086,7 +1250,9 @@
         "let alone"
       ],
       "answer": "খ",
-      "explanation": "কারণ বা সময় নির্দেশক Conjunction হিসেবে 'since' (যেহেতু/কারণ) ব্যবহৃত হয়েছে (suffered much since tornado had hit)।"
+      "explanation": "কারণ বা সময় নির্দেশক Conjunction হিসেবে 'since' (যেহেতু/কারণ) ব্যবহৃত হয়েছে (suffered much since tornado had hit)।",
+      "ans": 1,
+      "correct_answer": "since"
     },
     {
       "id": 84,
@@ -1099,7 +1265,9 @@
         "although"
       ],
       "answer": "গ",
-      "explanation": "সাধারণ বৈজ্ঞানিক শর্ত বোঝাতে Conditional Conjunction হিসেবে 'if' বসে (Water boils if you heat it to 100° C)।"
+      "explanation": "সাধারণ বৈজ্ঞানিক শর্ত বোঝাতে Conditional Conjunction হিসেবে 'if' বসে (Water boils if you heat it to 100° C)।",
+      "ans": 2,
+      "correct_answer": "if"
     },
     {
       "id": 85,
@@ -1112,7 +1280,9 @@
         "Play"
       ],
       "answer": "গ",
-      "explanation": "Prepositional Verb 'give up'-এর পরে Verb-এর Gerund রূপ বসে (gave up playing football = ফুটবল খেলা ছেড়ে দিয়েছিল)।"
+      "explanation": "Prepositional Verb 'give up'-এর পরে Verb-এর Gerund রূপ বসে (gave up playing football = ফুটবল খেলা ছেড়ে দিয়েছিল)।",
+      "ans": 2,
+      "correct_answer": "Playing"
     },
     {
       "id": 86,
@@ -1125,7 +1295,9 @@
         "to have seen"
       ],
       "answer": "গ",
-      "explanation": "'look forward to' Phrase-টির পরে সর্বদা Verb-এর সাথে 'ing' যুক্ত হয় (looking forward to seeing you)।"
+      "explanation": "'look forward to' Phrase-টির পরে সর্বদা Verb-এর সাথে 'ing' যুক্ত হয় (looking forward to seeing you)।",
+      "ans": 2,
+      "correct_answer": "to seeing"
     },
     {
       "id": 87,
@@ -1138,7 +1310,9 @@
         "for helping"
       ],
       "answer": "গ",
-      "explanation": "'mind' Verb-এর পরে সরাসরি কোনো Verb আসলে তার Gerund (V+ing) বসে (don't mind helping)।"
+      "explanation": "'mind' Verb-এর পরে সরাসরি কোনো Verb আসলে তার Gerund (V+ing) বসে (don't mind helping)।",
+      "ans": 2,
+      "correct_answer": "helping"
     },
     {
       "id": 88,
@@ -1151,7 +1325,9 @@
         "had floating"
       ],
       "answer": "খ",
-      "explanation": "Sense Perceptive Verb 'watch'-এর পর কাজ চলমান থাকা বোঝাতে Present Participle (floating) বসে।"
+      "explanation": "Sense Perceptive Verb 'watch'-এর পর কাজ চলমান থাকা বোঝাতে Present Participle (floating) বসে।",
+      "ans": 1,
+      "correct_answer": "floating"
     },
     {
       "id": 89,
@@ -1164,7 +1340,9 @@
         "raised"
       ],
       "answer": "গ",
-      "explanation": "চালের দাম নিজে নিজেই বৃদ্ধি পাওয়া অর্থে Intransitive Verb 'rise'-এর Present Continuous ফর্ম 'rising' বসে (prices are rising)।"
+      "explanation": "চালের দাম নিজে নিজেই বৃদ্ধি পাওয়া অর্থে Intransitive Verb 'rise'-এর Present Continuous ফর্ম 'rising' বসে (prices are rising)।",
+      "ans": 2,
+      "correct_answer": "rising"
     },
     {
       "id": 90,
@@ -1177,7 +1355,9 @@
         "lied"
       ],
       "answer": "খ",
-      "explanation": "ডিম পাড়া অর্থে Transitive Verb হলো 'lay' (Lay - Laid - Laid)। Present Perfect Tense-এ 'have laid' সঠিক।"
+      "explanation": "ডিম পাড়া অর্থে Transitive Verb হলো 'lay' (Lay - Laid - Laid)। Present Perfect Tense-এ 'have laid' সঠিক।",
+      "ans": 1,
+      "correct_answer": "laid"
     },
     {
       "id": 91,
@@ -1190,7 +1370,9 @@
         "from giving up"
       ],
       "answer": "খ",
-      "explanation": "'advise' Verb-এর পর ব্যক্তিবাচক Object থাকলে উদ্দেশ্য বোঝাতে Infinitive (to give up) বসে।"
+      "explanation": "'advise' Verb-এর পর ব্যক্তিবাচক Object থাকলে উদ্দেশ্য বোঝাতে Infinitive (to give up) বসে।",
+      "ans": 1,
+      "correct_answer": "to give up"
     },
     {
       "id": 92,
@@ -1203,7 +1385,9 @@
         "I forbade him not to go."
       ],
       "answer": "খ",
-      "explanation": "'forbid' (নিষেধ করা) Verb-এর পর 'to + V1' বসে এবং এতে ইতিমধ্যে না-বোধক অর্থ থাকায় 'not' বসে না (I forbade him to go)।"
+      "explanation": "'forbid' (নিষেধ করা) Verb-এর পর 'to + V1' বসে এবং এতে ইতিমধ্যে না-বোধক অর্থ থাকায় 'not' বসে না (I forbade him to go)।",
+      "ans": 1,
+      "correct_answer": "I forbade him to go."
     },
     {
       "id": 93,
@@ -1216,7 +1400,9 @@
         "besides"
       ],
       "answer": "ঘ",
-      "explanation": "'তাছাড়া' বা 'এ ছাড়াও' (in addition to) বোঝাতে Preposition হিসেবে 'besides' বসে (besides this = এটি ছাড়াও)।"
+      "explanation": "'তাছাড়া' বা 'এ ছাড়াও' (in addition to) বোঝাতে Preposition হিসেবে 'besides' বসে (besides this = এটি ছাড়াও)।",
+      "ans": 3,
+      "correct_answer": "besides"
     },
     {
       "id": 94,
@@ -1229,7 +1415,9 @@
         "loss"
       ],
       "answer": "খ",
-      "explanation": "পথ হারানো অর্থে Verb হলো 'lose' (L-O-S-E)। আর 'loose' অর্থ ঢিলেঢালা, 'loss' হলো Noun।"
+      "explanation": "পথ হারানো অর্থে Verb হলো 'lose' (L-O-S-E)। আর 'loose' অর্থ ঢিলেঢালা, 'loss' হলো Noun।",
+      "ans": 1,
+      "correct_answer": "lose"
     },
     {
       "id": 95,
@@ -1242,7 +1430,9 @@
         "has"
       ],
       "answer": "খ",
-      "explanation": "'lest' যুক্ত বাক্যে পরবর্তী Clause-এ Subject-এর পরে 'should' বা 'might' বসে (lest he should miss the train)।"
+      "explanation": "'lest' যুক্ত বাক্যে পরবর্তী Clause-এ Subject-এর পরে 'should' বা 'might' বসে (lest he should miss the train)।",
+      "ans": 1,
+      "correct_answer": "should"
     },
     {
       "id": 96,
@@ -1255,7 +1445,9 @@
         "Perhaps"
       ],
       "answer": "খ",
-      "explanation": "সম্ভাব্য বিপদের পূর্বপ্রস্তুতি নির্দেশ করতে Conjunction হিসেবে 'In case' (যদি হারিয়ে যায়) বসে।"
+      "explanation": "সম্ভাব্য বিপদের পূর্বপ্রস্তুতি নির্দেশ করতে Conjunction হিসেবে 'In case' (যদি হারিয়ে যায়) বসে।",
+      "ans": 1,
+      "correct_answer": "In case"
     },
     {
       "id": 97,
@@ -1268,7 +1460,9 @@
         "listen"
       ],
       "answer": "ঘ",
-      "explanation": "Causative Verb 'make'-এর পর সর্বদা Bare Infinitive (to ছাড়া Verb-এর Base form) বসে (make the audience listen)।"
+      "explanation": "Causative Verb 'make'-এর পর সর্বদা Bare Infinitive (to ছাড়া Verb-এর Base form) বসে (make the audience listen)।",
+      "ans": 3,
+      "correct_answer": "listen"
     },
     {
       "id": 98,
@@ -1281,7 +1475,9 @@
         "for receiving"
       ],
       "answer": "ক",
-      "explanation": "'look forward to' Phrase-এর পর Verb-এর Gerund (V+ing) রূপ বসে (look forward to receiving)।"
+      "explanation": "'look forward to' Phrase-এর পর Verb-এর Gerund (V+ing) রূপ বসে (look forward to receiving)।",
+      "ans": 0,
+      "correct_answer": "to receiving"
     },
     {
       "id": 99,
@@ -1294,7 +1490,9 @@
         "would better"
       ],
       "answer": "গ",
-      "explanation": "কোনো কাজ করার চেয়ে অন্য কিছু পছন্দ করার ক্ষেত্রে 'would rather ... than' ব্যবহৃত হয় (would rather starve than beg = ভিক্ষা করার চেয়ে অনাহারে থাকাও শ্রেয়)।"
+      "explanation": "কোনো কাজ করার চেয়ে অন্য কিছু পছন্দ করার ক্ষেত্রে 'would rather ... than' ব্যবহৃত হয় (would rather starve than beg = ভিক্ষা করার চেয়ে অনাহারে থাকাও শ্রেয়)।",
+      "ans": 2,
+      "correct_answer": "would rather"
     },
     {
       "id": 100,
@@ -1307,7 +1505,9 @@
         "littlise"
       ],
       "answer": "ক",
-      "explanation": "'little' (ছোট) Adjective-এর Verb রূপ হলো 'belittle' (ছোট করা বা খাটো করে দেখা)।"
+      "explanation": "'little' (ছোট) Adjective-এর Verb রূপ হলো 'belittle' (ছোট করা বা খাটো করে দেখা)।",
+      "ans": 0,
+      "correct_answer": "belittle"
     },
     {
       "id": 101,
@@ -1320,7 +1520,9 @@
         "able"
       ],
       "answer": "খ",
-      "explanation": "'ability' (সামর্থ্য) Noun-টির Verb রূপ হলো 'enable' (সক্ষম করা)।"
+      "explanation": "'ability' (সামর্থ্য) Noun-টির Verb রূপ হলো 'enable' (সক্ষম করা)।",
+      "ans": 1,
+      "correct_answer": "enable"
     },
     {
       "id": 102,
@@ -1333,7 +1535,9 @@
         "enapology"
       ],
       "answer": "খ",
-      "explanation": "'apology' (ক্ষমা প্রার্থনা) Noun-এর Verb ফর্ম হলো 'apologise' (ক্ষমা চাওয়া)।"
+      "explanation": "'apology' (ক্ষমা প্রার্থনা) Noun-এর Verb ফর্ম হলো 'apologise' (ক্ষমা চাওয়া)।",
+      "ans": 1,
+      "correct_answer": "apologise"
     },
     {
       "id": 103,
@@ -1346,7 +1550,9 @@
         "finished"
       ],
       "answer": "ক",
-      "explanation": "'help' Verb-এর পর Infinitive (to finish) বা Bare Infinitive (finish) উভয়ই বসে। অপশন অনুযায়ী 'to finish' সঠিক।"
+      "explanation": "'help' Verb-এর পর Infinitive (to finish) বা Bare Infinitive (finish) উভয়ই বসে। অপশন অনুযায়ী 'to finish' সঠিক।",
+      "ans": 0,
+      "correct_answer": "to finish"
     },
     {
       "id": 104,
@@ -1359,7 +1565,9 @@
         "committed"
       ],
       "answer": "ঘ",
-      "explanation": "অপরাধ সংঘটন করার ক্ষেত্রে Collocation অনুযায়ী 'commit a crime' ব্যবহৃত হয়। Past Tense-এ 'committed' সঠিক।"
+      "explanation": "অপরাধ সংঘটন করার ক্ষেত্রে Collocation অনুযায়ী 'commit a crime' ব্যবহৃত হয়। Past Tense-এ 'committed' সঠিক।",
+      "ans": 3,
+      "correct_answer": "committed"
     },
     {
       "id": 105,
@@ -1372,7 +1580,9 @@
         "be obeyed"
       ],
       "answer": "ক",
-      "explanation": "Infinitive Marker 'to'-এর পর সর্বদা Verb-এর Base Form বসে (to obey our parents)।"
+      "explanation": "Infinitive Marker 'to'-এর পর সর্বদা Verb-এর Base Form বসে (to obey our parents)।",
+      "ans": 0,
+      "correct_answer": "obey"
     },
     {
       "id": 106,
@@ -1385,7 +1595,9 @@
         "Factitive"
       ],
       "answer": "গ",
-      "explanation": "যে Intransitive Verb তার নিজস্ব অর্থের সমজাতীয় কোনো Noun-কে Object হিসেবে গ্রহণ করে, তাকে Cognate Verb বলে (ran a race)।"
+      "explanation": "যে Intransitive Verb তার নিজস্ব অর্থের সমজাতীয় কোনো Noun-কে Object হিসেবে গ্রহণ করে, তাকে Cognate Verb বলে (ran a race)।",
+      "ans": 2,
+      "correct_answer": "Cognate"
     },
     {
       "id": 107,
@@ -1398,7 +1610,9 @@
         "Adjective"
       ],
       "answer": "ক",
-      "explanation": "'Swimming' বাক্যের Subject হিসেবে ব্যবহৃত হয়ে Noun ও Verb-এর কাজ একযোগে করায় এটি Gerund।"
+      "explanation": "'Swimming' বাক্যের Subject হিসেবে ব্যবহৃত হয়ে Noun ও Verb-এর কাজ একযোগে করায় এটি Gerund।",
+      "ans": 0,
+      "correct_answer": "Gerund"
     },
     {
       "id": 108,
@@ -1411,7 +1625,9 @@
         "to have seen"
       ],
       "answer": "গ",
-      "explanation": "'look forward to' Phrase-এর পর Verb-এর Gerund রূপ বসে (looking forward to seeing you)।"
+      "explanation": "'look forward to' Phrase-এর পর Verb-এর Gerund রূপ বসে (looking forward to seeing you)।",
+      "ans": 2,
+      "correct_answer": "to seeing"
     },
     {
       "id": 109,
@@ -1424,7 +1640,9 @@
         "raised"
       ],
       "answer": "গ",
-      "explanation": "দাম বৃদ্ধি পাওয়ার চলমান প্রক্রিয়া নির্দেশ করতে Intransitive Verb 'rise'-এর Continuous ফর্ম 'rising' বসে।"
+      "explanation": "দাম বৃদ্ধি পাওয়ার চলমান প্রক্রিয়া নির্দেশ করতে Intransitive Verb 'rise'-এর Continuous ফর্ম 'rising' বসে।",
+      "ans": 2,
+      "correct_answer": "rising"
     }
   ]
 }

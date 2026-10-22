@@ -20,7 +20,9 @@
         "degree"
       ],
       "answer": "ক",
-      "explanation": "Tense শব্দটি ল্যাটিন শব্দ 'Tempus' (অর্থ Time বা সময়) থেকে এসেছে। Tense মূলত ক্রিয়া সম্পন্ন হওয়ার সময় (Time of action)-কে নির্দেশ করে।"
+      "explanation": "Tense শব্দটি ল্যাটিন শব্দ 'Tempus' (অর্থ Time বা সময়) থেকে এসেছে। Tense মূলত ক্রিয়া সম্পন্ন হওয়ার সময় (Time of action)-কে নির্দেশ করে।",
+      "ans": 0,
+      "correct_answer": "time"
     },
     {
       "id": 2,
@@ -33,7 +35,9 @@
         "Past Indefinite Tense"
       ],
       "answer": "খ",
-      "explanation": "অভ্যাসগত কর্ম (Habitual fact) এবং চিরন্তন সত্য (Universal truth) সর্বদা Present Indefinite Tense-এ প্রকাশিত হয়।"
+      "explanation": "অভ্যাসগত কর্ম (Habitual fact) এবং চিরন্তন সত্য (Universal truth) সর্বদা Present Indefinite Tense-এ প্রকাশিত হয়।",
+      "ans": 1,
+      "correct_answer": "Present Indefinite Tense"
     },
     {
       "id": 3,
@@ -45,8 +49,10 @@
         "Present Perfect",
         "Past Perfect"
       ],
-      "answer": "ক",
-      "explanation": "'Let it be done' একটি Imperative Sentence। সকল Imperative Sentence সাধারণত Present Indefinite Tense-এর অন্তর্ভুক্ত হয়।"
+      "answer": "খ",
+      "explanation": "Definition of Past Indefinite TensePast Indefinite Tense represents an action occurred in the past or a habit of the past and uses the past form of the verb.Examples of Past Indefinite TenseI wrote articles on different topics.He read various kinds of books.They played football in that field.She preferred coffee to tea.",
+      "ans": 1,
+      "correct_answer": "Past Indefinite"
     },
     {
       "id": 4,
@@ -59,7 +65,9 @@
         "They are gossiping"
       ],
       "answer": "ঘ",
-      "explanation": "Present Progressive (Present Continuous) Tense-এর গঠন: Subject + am/is/are + verb-ing। এখানে 'They are gossiping' এই নিয়মে গঠিত।"
+      "explanation": "Present Progressive (Present Continuous) Tense-এর গঠন: Subject + am/is/are + verb-ing। এখানে 'They are gossiping' এই নিয়মে গঠিত।",
+      "ans": 3,
+      "correct_answer": "They are gossiping"
     },
     {
       "id": 5,
@@ -72,7 +80,9 @@
         "I had read"
       ],
       "answer": "খ",
-      "explanation": "Subject ('I') + am + verb-ing ('reading') কাঠামোটি Present Continuous Tense-এর উদাহরণ।"
+      "explanation": "Subject ('I') + am + verb-ing ('reading') কাঠামোটি Present Continuous Tense-এর উদাহরণ।",
+      "ans": 1,
+      "correct_answer": "I am reading"
     },
     {
       "id": 6,
@@ -85,7 +95,9 @@
         "I had the news"
       ],
       "answer": "ক",
-      "explanation": "Present Perfect Tense-এর গঠন: Subject + have/has + V3। এখানে 'I have had the news' বাক্যে Auxiliary 'have' এবং মূল Verb 'have'-এর Past Participle হিসেবে 'had' বসেছে।"
+      "explanation": "Present Perfect Tense-এর গঠন: Subject + have/has + V3। এখানে 'I have had the news' বাক্যে Auxiliary 'have' এবং মূল Verb 'have'-এর Past Participle হিসেবে 'had' বসেছে।",
+      "ans": 0,
+      "correct_answer": "I have had the news."
     },
     {
       "id": 7,
@@ -98,7 +110,9 @@
         "I have been reading."
       ],
       "answer": "খ",
-      "explanation": "Subject ('I') + have + Past Participle ('read') কাঠামোটি Present Perfect Tense।"
+      "explanation": "Subject ('I') + have + Past Participle ('read') কাঠামোটি Present Perfect Tense।",
+      "ans": 1,
+      "correct_answer": "I have read."
     },
     {
       "id": 8,
@@ -111,7 +125,9 @@
         "Present continuous tense"
       ],
       "answer": "গ",
-      "explanation": "কোনো কাজ অতীতে শুরু হয়ে বর্তমানেও চলছে এবং সময়ের উল্লেখ রয়েছে (for two years)—এমন ক্ষেত্রে Present Perfect Continuous Tense হয় (has been studying)।"
+      "explanation": "কোনো কাজ অতীতে শুরু হয়ে বর্তমানেও চলছে এবং সময়ের উল্লেখ রয়েছে (for two years)—এমন ক্ষেত্রে Present Perfect Continuous Tense হয় (has been studying)।",
+      "ans": 2,
+      "correct_answer": "Present perfect continuous tense"
     },
     {
       "id": 9,
@@ -124,7 +140,9 @@
         "It has rained."
       ],
       "answer": "খ",
-      "explanation": "'Salam had a house' বাক্যে 'had' শব্দটি Principal Verb হিসেবে Past Form (V2)-এ আছে। তাই এটি Past Indefinite Tense।"
+      "explanation": "'Salam had a house' বাক্যে 'had' শব্দটি Principal Verb হিসেবে Past Form (V2)-এ আছে। তাই এটি Past Indefinite Tense।",
+      "ans": 1,
+      "correct_answer": "Salam had a house."
     },
     {
       "id": 10,
@@ -137,7 +155,9 @@
         "present perfect continuous"
       ],
       "answer": "ক",
-      "explanation": "Subject + was/were + verb-ing কাঠামোটি Past Continuous Tense নির্দেশ করে (I was reading a novel)।"
+      "explanation": "Subject + was/were + verb-ing কাঠামোটি Past Continuous Tense নির্দেশ করে (I was reading a novel)।",
+      "ans": 0,
+      "correct_answer": "past continuous"
     },
     {
       "id": 11,
@@ -150,7 +170,9 @@
         "Present perfect"
       ],
       "answer": "গ",
-      "explanation": "অতীতে দুটি কাজের মধ্যে যে কাজটি আগে সম্পন্ন হয়েছিল তা Past Perfect Tense (had died) এবং পরের কাজটি Past Indefinite Tense (came) হয়।"
+      "explanation": "অতীতে দুটি কাজের মধ্যে যে কাজটি আগে সম্পন্ন হয়েছিল তা Past Perfect Tense (had died) এবং পরের কাজটি Past Indefinite Tense (came) হয়।",
+      "ans": 2,
+      "correct_answer": "Past perfect"
     },
     {
       "id": 12,
@@ -163,7 +185,9 @@
         "He had spoken the truth."
       ],
       "answer": "ঘ",
-      "explanation": "Past Perfect Tense-এর গঠন: Subject + had + V3 + Extension। তাই 'He had spoken the truth' সঠিক।"
+      "explanation": "Past Perfect Tense-এর গঠন: Subject + had + V3 + Extension। তাই 'He had spoken the truth' সঠিক।",
+      "ans": 3,
+      "correct_answer": "He had spoken the truth."
     },
     {
       "id": 13,
@@ -176,7 +200,9 @@
         "I shall be eating."
       ],
       "answer": "গ",
-      "explanation": "Past Perfect Continuous Tense-এর গঠন: Subject + had been + verb-ing। তাই 'I eat'-এর Past Perfect Continuous রূপ হলো 'I had been eating'।"
+      "explanation": "Past Perfect Continuous Tense-এর গঠন: Subject + had been + verb-ing। তাই 'I eat'-এর Past Perfect Continuous রূপ হলো 'I had been eating'।",
+      "ans": 2,
+      "correct_answer": "I had been eating."
     },
     {
       "id": 14,
@@ -189,7 +215,9 @@
         "present perfect continuous"
       ],
       "answer": "ক",
-      "explanation": "'The boys had been playing before the teacher came' বাক্যে অতীতের একটি কাজের পূর্বে অপর কাজটি চলমান ছিল বোঝাতে Past Perfect Continuous Tense ব্যবহৃত হয়েছে।"
+      "explanation": "'The boys had been playing before the teacher came' বাক্যে অতীতের একটি কাজের পূর্বে অপর কাজটি চলমান ছিল বোঝাতে Past Perfect Continuous Tense ব্যবহৃত হয়েছে।",
+      "ans": 0,
+      "correct_answer": "past perfect continuous"
     },
     {
       "id": 15,
@@ -202,7 +230,9 @@
         "future continuous"
       ],
       "answer": "গ",
-      "explanation": "ভবিষ্যতে কোনো সাধারণ কাজ সম্পন্ন হবে (আগামীকাল মেলায় যাব) বোঝাতে Simple Future (Future Indefinite) Tense ব্যবহৃত হয় (shall visit tomorrow)।"
+      "explanation": "ভবিষ্যতে কোনো সাধারণ কাজ সম্পন্ন হবে (আগামীকাল মেলায় যাব) বোঝাতে Simple Future (Future Indefinite) Tense ব্যবহৃত হয় (shall visit tomorrow)।",
+      "ans": 2,
+      "correct_answer": "simple future"
     },
     {
       "id": 16,
@@ -215,7 +245,9 @@
         "circumstances are favouring us"
       ],
       "answer": "ক",
-      "explanation": "'provided' যুক্ত শর্তসূচক বাক্যে Principal Clause Future Indefinite (shall start) হলে Subordinate Clause-টি Present Indefinite Tense হয় (circumstances favour us)।"
+      "explanation": "'provided' যুক্ত শর্তসূচক বাক্যে Principal Clause Future Indefinite (shall start) হলে Subordinate Clause-টি Present Indefinite Tense হয় (circumstances favour us)।",
+      "ans": 0,
+      "correct_answer": "circumstances favour us"
     },
     {
       "id": 17,
@@ -228,7 +260,9 @@
         "I should reading the book."
       ],
       "answer": "গ",
-      "explanation": "ভবিষ্যতে কোনো কাজ কিছু সময় ধরে চলতে থাকবে বোঝাতে Future Continuous Tense ব্যবহৃত হয়, যার গঠন: Subject + shall/will be + verb-ing (I shall be reading the book)।"
+      "explanation": "ভবিষ্যতে কোনো কাজ কিছু সময় ধরে চলতে থাকবে বোঝাতে Future Continuous Tense ব্যবহৃত হয়, যার গঠন: Subject + shall/will be + verb-ing (I shall be reading the book)।",
+      "ans": 2,
+      "correct_answer": "I shall be reading the book."
     },
     {
       "id": 18,
@@ -241,7 +275,9 @@
         "None of these"
       ],
       "answer": "খ",
-      "explanation": "Subject ('I') + shall be + verb-ing ('eating') কাঠামোটি Future Continuous Tense নির্দেশ করে।"
+      "explanation": "Subject ('I') + shall be + verb-ing ('eating') কাঠামোটি Future Continuous Tense নির্দেশ করে।",
+      "ans": 1,
+      "correct_answer": "Future continuous"
     },
     {
       "id": 19,
@@ -254,7 +290,9 @@
         "future perfect continuous"
       ],
       "answer": "ক",
-      "explanation": "Subject + will have + V3 ('gone') কাঠামোটি Future Perfect Tense-এর উদাহরণ।"
+      "explanation": "Subject + will have + V3 ('gone') কাঠামোটি Future Perfect Tense-এর উদাহরণ।",
+      "ans": 0,
+      "correct_answer": "future perfect tense"
     },
     {
       "id": 20,
@@ -267,7 +305,9 @@
         "They will have to be doing."
       ],
       "answer": "ক",
-      "explanation": "Future Perfect Continuous Tense-এর গঠন: Subject + shall/will have been + verb-ing। 3rd person plural-এ 'They will have been doing' সঠিক।"
+      "explanation": "Future Perfect Continuous Tense-এর গঠন: Subject + shall/will have been + verb-ing। 3rd person plural-এ 'They will have been doing' সঠিক।",
+      "ans": 0,
+      "correct_answer": "They will have been doing."
     },
     {
       "id": 21,
@@ -280,7 +320,9 @@
         "has"
       ],
       "answer": "ক",
-      "explanation": "First Conditional-এর নিয়ম: If + Present Indefinite (is heated) + Future Indefinite (will lose)। বৈজ্ঞানিক সত্যের ফলাফল নির্দেশ করতে 'will' বসে।"
+      "explanation": "First Conditional-এর নিয়ম: If + Present Indefinite (is heated) + Future Indefinite (will lose)। বৈজ্ঞানিক সত্যের ফলাফল নির্দেশ করতে 'will' বসে।",
+      "ans": 0,
+      "correct_answer": "will"
     },
     {
       "id": 22,
@@ -293,7 +335,9 @@
         "will miss"
       ],
       "answer": "ঘ",
-      "explanation": "First Conditional অনুযায়ী If-clause Present Indefinite (make delay) হলে Result-clause Future Indefinite (will miss) হয়।"
+      "explanation": "First Conditional অনুযায়ী If-clause Present Indefinite (make delay) হলে Result-clause Future Indefinite (will miss) হয়।",
+      "ans": 3,
+      "correct_answer": "will miss"
     },
     {
       "id": 23,
@@ -306,7 +350,9 @@
         "have"
       ],
       "answer": "গ",
-      "explanation": "Second Conditional-এর নিয়ম: If + Past Indefinite (had a boat) + Subject + would/could/might + V1 (would cross)।"
+      "explanation": "Second Conditional-এর নিয়ম: If + Past Indefinite (had a boat) + Subject + would/could/might + V1 (would cross)।",
+      "ans": 2,
+      "correct_answer": "would"
     },
     {
       "id": 24,
@@ -319,7 +365,9 @@
         "would have helped"
       ],
       "answer": "খ",
-      "explanation": "Second Conditional অনুযায়ী If-clause Past Indefinite (had) হলে Result clause-এ could/would + V1 বসে (could help you)।"
+      "explanation": "Second Conditional অনুযায়ী If-clause Past Indefinite (had) হলে Result clause-এ could/would + V1 বসে (could help you)।",
+      "ans": 1,
+      "correct_answer": "could help"
     },
     {
       "id": 25,
@@ -332,7 +380,9 @@
         "I would have accepted"
       ],
       "answer": "ঘ",
-      "explanation": "Third Conditional-এর Inversion নিয়ম: Had + Subject + V3 (Had I been...) থাকলে Result clause-এ Subject + would have + V3 বসে (I would have accepted)।"
+      "explanation": "Third Conditional-এর Inversion নিয়ম: Had + Subject + V3 (Had I been...) থাকলে Result clause-এ Subject + would have + V3 বসে (I would have accepted)।",
+      "ans": 3,
+      "correct_answer": "I would have accepted"
     },
     {
       "id": 26,
@@ -345,7 +395,9 @@
         "will have"
       ],
       "answer": "ক",
-      "explanation": "Third Conditional অনুযায়ী If + Past Perfect (had brushed) হলে Result clause-এ would have + V3 বসে (would have had fewer cavities)।"
+      "explanation": "Third Conditional অনুযায়ী If + Past Perfect (had brushed) হলে Result clause-এ would have + V3 বসে (would have had fewer cavities)।",
+      "ans": 0,
+      "correct_answer": "would have had"
     },
     {
       "id": 27,
@@ -358,7 +410,9 @@
         "have been trying"
       ],
       "answer": "ঘ",
-      "explanation": "সকাল থেকে এখন পর্যন্ত একটানা চেষ্টা করে যাচ্ছে (all morning) বোঝাতে Present Perfect Continuous Tense (have been trying) ব্যবহৃত হয়।"
+      "explanation": "সকাল থেকে এখন পর্যন্ত একটানা চেষ্টা করে যাচ্ছে (all morning) বোঝাতে Present Perfect Continuous Tense (have been trying) ব্যবহৃত হয়।",
+      "ans": 3,
+      "correct_answer": "have been trying"
     },
     {
       "id": 28,
@@ -371,7 +425,9 @@
         "has not become"
       ],
       "answer": "খ",
-      "explanation": "Third Conditional-এর নিয়ম: If + Past Perfect (had not been imprisoned) হলে পরবর্তী অংশে would have + V3 বসে (would not have become a hero)।"
+      "explanation": "Third Conditional-এর নিয়ম: If + Past Perfect (had not been imprisoned) হলে পরবর্তী অংশে would have + V3 বসে (would not have become a hero)।",
+      "ans": 1,
+      "correct_answer": "would not have become"
     },
     {
       "id": 29,
@@ -384,7 +440,9 @@
         "will have given"
       ],
       "answer": "গ",
-      "explanation": "'tomorrow' ভবিষ্যৎ নির্দেশক এবং সমস্ত বিজয়ী পুরস্কার গ্রহণ করবে (Passive Voice), তাই Future Indefinite Passive-এ 'will be given' সঠিক।"
+      "explanation": "'tomorrow' ভবিষ্যৎ নির্দেশক এবং সমস্ত বিজয়ী পুরস্কার গ্রহণ করবে (Passive Voice), তাই Future Indefinite Passive-এ 'will be given' সঠিক।",
+      "ans": 2,
+      "correct_answer": "will be given"
     },
     {
       "id": 30,
@@ -397,7 +455,9 @@
         "How long have you been learning English?"
       ],
       "answer": "ঘ",
-      "explanation": "কতদিন ধরে ইংরেজি শিখছ—অতীত থেকে বর্তমান পর্যন্ত সময়কাল বোঝাতে Present Perfect Continuous Tense-এর Interrogative রূপ 'How long have you been learning English?' সঠিক।"
+      "explanation": "কতদিন ধরে ইংরেজি শিখছ—অতীত থেকে বর্তমান পর্যন্ত সময়কাল বোঝাতে Present Perfect Continuous Tense-এর Interrogative রূপ 'How long have you been learning English?' সঠিক।",
+      "ans": 3,
+      "correct_answer": "How long have you been learning English?"
     },
     {
       "id": 31,
@@ -410,7 +470,9 @@
         "He came home yesterday."
       ],
       "answer": "ঘ",
-      "explanation": "অতীতে নির্দিষ্ট সময় নির্দেশক শব্দ 'yesterday' থাকলে বাক্যটি সর্বদা Past Indefinite Tense হয় (He came home yesterday)।"
+      "explanation": "অতীতে নির্দিষ্ট সময় নির্দেশক শব্দ 'yesterday' থাকলে বাক্যটি সর্বদা Past Indefinite Tense হয় (He came home yesterday)।",
+      "ans": 3,
+      "correct_answer": "He came home yesterday."
     },
     {
       "id": 32,
@@ -423,7 +485,9 @@
         "He did not eat rice last night."
       ],
       "answer": "ঘ",
-      "explanation": "Past Indefinite Tense-এর Negative বাক্যের গঠন: Subject + did not + V1 (Base form)। তাই 'did not eat' সঠিক ('did not ate' ভুল)।"
+      "explanation": "Past Indefinite Tense-এর Negative বাক্যের গঠন: Subject + did not + V1 (Base form)। তাই 'did not eat' সঠিক ('did not ate' ভুল)।",
+      "ans": 3,
+      "correct_answer": "He did not eat rice last night."
     },
     {
       "id": 33,
@@ -436,7 +500,9 @@
         "Past Indefinite tense"
       ],
       "answer": "ঘ",
-      "explanation": "'met' শব্দটি Meet Verb-এর Past Form (V2)। Subject + V2 + Object থাকায় এটি Past Indefinite Tense।"
+      "explanation": "'met' শব্দটি Meet Verb-এর Past Form (V2)। Subject + V2 + Object থাকায় এটি Past Indefinite Tense।",
+      "ans": 3,
+      "correct_answer": "Past Indefinite tense"
     },
     {
       "id": 34,
@@ -449,7 +515,9 @@
         "was, would do"
       ],
       "answer": "খ",
-      "explanation": "অবাস্তব কল্পনা প্রকাশক Second Conditional: If + Subject + were, Subject + would + V1 (If I were you, I would do it)।"
+      "explanation": "অবাস্তব কল্পনা প্রকাশক Second Conditional: If + Subject + were, Subject + would + V1 (If I were you, I would do it)।",
+      "ans": 1,
+      "correct_answer": "were, would do"
     },
     {
       "id": 35,
@@ -462,7 +530,9 @@
         "If Rina would seen me"
       ],
       "answer": "খ",
-      "explanation": "Third Conditional-এর Result clause-এ 'would have called' থাকায় If-clause-এ Past Perfect (If Rina had seen me) বসবে।"
+      "explanation": "Third Conditional-এর Result clause-এ 'would have called' থাকায় If-clause-এ Past Perfect (If Rina had seen me) বসবে।",
+      "ans": 1,
+      "correct_answer": "If Rina had seen me"
     },
     {
       "id": 36,
@@ -475,7 +545,9 @@
         "six"
       ],
       "answer": "খ",
-      "explanation": "Present Tense মূলত চার প্রকার: Present Indefinite, Present Continuous, Present Perfect এবং Present Perfect Continuous।"
+      "explanation": "Present Tense মূলত চার প্রকার: Present Indefinite, Present Continuous, Present Perfect এবং Present Perfect Continuous।",
+      "ans": 1,
+      "correct_answer": "four"
     },
     {
       "id": 37,
@@ -488,7 +560,9 @@
         "raised"
       ],
       "answer": "ক",
-      "explanation": "চালের দাম ক্রমাগত বৃদ্ধি পাওয়ার চলমান ভাব প্রকাশে Intransitive Verb 'rise'-এর Continuous ফর্ম 'is rising' বসে।"
+      "explanation": "চালের দাম ক্রমাগত বৃদ্ধি পাওয়ার চলমান ভাব প্রকাশে Intransitive Verb 'rise'-এর Continuous ফর্ম 'is rising' বসে।",
+      "ans": 0,
+      "correct_answer": "rising"
     },
     {
       "id": 38,
@@ -501,7 +575,9 @@
         "are"
       ],
       "answer": "ক",
-      "explanation": "বর্তমানে ক্ষুধা লাগার কারণে শিশুটি এখন কাঁদছে (now)—চলমান ঘটনা প্রকাশ করতে Present Continuous Tense 'is crying' বসে।"
+      "explanation": "বর্তমানে ক্ষুধা লাগার কারণে শিশুটি এখন কাঁদছে (now)—চলমান ঘটনা প্রকাশ করতে Present Continuous Tense 'is crying' বসে।",
+      "ans": 0,
+      "correct_answer": "is crying"
     },
     {
       "id": 39,
@@ -514,7 +590,9 @@
         "play"
       ],
       "answer": "খ",
-      "explanation": "Subject 'The boy' Third Person Singular Number হওয়ায় Present Indefinite Tense-এ Verb-এর সাথে 's' যুক্ত হয়ে 'plays' হবে।"
+      "explanation": "Subject 'The boy' Third Person Singular Number হওয়ায় Present Indefinite Tense-এ Verb-এর সাথে 's' যুক্ত হয়ে 'plays' হবে।",
+      "ans": 1,
+      "correct_answer": "plays"
     },
     {
       "id": 40,
@@ -527,7 +605,9 @@
         "Must vaccinate"
       ],
       "answer": "খ",
-      "explanation": "করোনা প্রতিরোধে প্রত্যেকের টিকা নেওয়া উচিত (Passive অর্থ)—তাই Modal Passive হিসেবে 'Should be vaccinated' সঠিক।"
+      "explanation": "করোনা প্রতিরোধে প্রত্যেকের টিকা নেওয়া উচিত (Passive অর্থ)—তাই Modal Passive হিসেবে 'Should be vaccinated' সঠিক।",
+      "ans": 1,
+      "correct_answer": "Should be vaccinated"
     },
     {
       "id": 41,
@@ -540,7 +620,9 @@
         "going"
       ],
       "answer": "ক",
-      "explanation": "'first' এবং অতীতের নির্দিষ্ট দিন নির্দেশ করায় Past Indefinite Tense হিসেবে 'went' সঠিক।"
+      "explanation": "'first' এবং অতীতের নির্দিষ্ট দিন নির্দেশ করায় Past Indefinite Tense হিসেবে 'went' সঠিক।",
+      "ans": 0,
+      "correct_answer": "went"
     },
     {
       "id": 42,
@@ -553,7 +635,9 @@
         "will learn"
       ],
       "answer": "ক",
-      "explanation": "'now-a-days' (আজকাল) বর্তমানের সাময়িক অভ্যাস বা চলমান কাজ নির্দেশ করে, তাই Present Continuous Tense 'am learning' সঠিক।"
+      "explanation": "'now-a-days' (আজকাল) বর্তমানের সাময়িক অভ্যাস বা চলমান কাজ নির্দেশ করে, তাই Present Continuous Tense 'am learning' সঠিক।",
+      "ans": 0,
+      "correct_answer": "am learning"
     },
     {
       "id": 43,
@@ -566,7 +650,9 @@
         "was burning"
       ],
       "answer": "ক",
-      "explanation": "অতীতের একটি চলমান কাজের (was cooking) মাঝে আরেকটি আকস্মিক ঘটনা ঘটলে তা Past Indefinite Tense হয় (burnt her hand)।"
+      "explanation": "অতীতের একটি চলমান কাজের (was cooking) মাঝে আরেকটি আকস্মিক ঘটনা ঘটলে তা Past Indefinite Tense হয় (burnt her hand)।",
+      "ans": 0,
+      "correct_answer": "burnt"
     },
     {
       "id": 44,
@@ -579,7 +665,9 @@
         "must have seen"
       ],
       "answer": "খ",
-      "explanation": "পূর্বে কোনো কাজ সম্পন্ন হয়েছিল কি না তা জানতে Past Perfect Tense 'had seen' ব্যবহৃত হয়।"
+      "explanation": "পূর্বে কোনো কাজ সম্পন্ন হয়েছিল কি না তা জানতে Past Perfect Tense 'had seen' ব্যবহৃত হয়।",
+      "ans": 1,
+      "correct_answer": "had seen"
     },
     {
       "id": 45,
@@ -592,7 +680,9 @@
         "future continuous"
       ],
       "answer": "গ",
-      "explanation": "'tomorrow' ভবিষ্যৎ নির্দেশ করায় 'shall visit' হলো Simple Future (Future Indefinite) Tense।"
+      "explanation": "'tomorrow' ভবিষ্যৎ নির্দেশ করায় 'shall visit' হলো Simple Future (Future Indefinite) Tense।",
+      "ans": 2,
+      "correct_answer": "simple future"
     },
     {
       "id": 46,
@@ -605,7 +695,9 @@
         "present continuous"
       ],
       "answer": "ক",
-      "explanation": "'has' এখানে Principal Verb (V1) হিসেবে অধিকার বা বৈশিষ্ট্য প্রকাশ করায় বাক্যটি Simple Present Tense।"
+      "explanation": "'has' এখানে Principal Verb (V1) হিসেবে অধিকার বা বৈশিষ্ট্য প্রকাশ করায় বাক্যটি Simple Present Tense।",
+      "ans": 0,
+      "correct_answer": "simple present"
     },
     {
       "id": 47,
@@ -618,7 +710,9 @@
         "had designed"
       ],
       "answer": "খ",
-      "explanation": "'Last week' অতীতের নির্দিষ্ট সময় নির্দেশ করায় এবং বাজেট প্যাকেজটি প্রণয়ন করা হয়েছিল (Passive) বিধায় Past Indefinite Passive 'was designed' সঠিক।"
+      "explanation": "'Last week' অতীতের নির্দিষ্ট সময় নির্দেশ করায় এবং বাজেট প্যাকেজটি প্রণয়ন করা হয়েছিল (Passive) বিধায় Past Indefinite Passive 'was designed' সঠিক।",
+      "ans": 1,
+      "correct_answer": "was designed"
     },
     {
       "id": 48,
@@ -631,7 +725,9 @@
         "Present perfect continuous tense"
       ],
       "answer": "ঘ",
-      "explanation": "পাঁচ বছর ধরে কলমটি ব্যবহার করে আসছে—সময়ের ব্যাপ্তি থাকায় এটি Present Perfect Continuous Tense (has been using)।"
+      "explanation": "পাঁচ বছর ধরে কলমটি ব্যবহার করে আসছে—সময়ের ব্যাপ্তি থাকায় এটি Present Perfect Continuous Tense (has been using)।",
+      "ans": 3,
+      "correct_answer": "Present perfect continuous tense"
     },
     {
       "id": 49,
@@ -644,7 +740,9 @@
         "living"
       ],
       "answer": "খ",
-      "explanation": "Subject 'Apu' 3rd person singular number এবং বর্তমানের সাধারণ অবস্থা নির্দেশ করায় Verb-এর সাথে 's' যুক্ত হয়ে 'lives' হবে।"
+      "explanation": "Subject 'Apu' 3rd person singular number এবং বর্তমানের সাধারণ অবস্থা নির্দেশ করায় Verb-এর সাথে 's' যুক্ত হয়ে 'lives' হবে।",
+      "ans": 1,
+      "correct_answer": "lives"
     },
     {
       "id": 50,
@@ -657,7 +755,9 @@
         "Second Conditional"
       ],
       "answer": "খ",
-      "explanation": "বৈজ্ঞানিক বা সার্বজনীন সত্যের ক্ষেত্রে If + Present Indefinite, Present Indefinite কাঠামোকে Zero Conditional বলে।"
+      "explanation": "বৈজ্ঞানিক বা সার্বজনীন সত্যের ক্ষেত্রে If + Present Indefinite, Present Indefinite কাঠামোকে Zero Conditional বলে।",
+      "ans": 1,
+      "correct_answer": "Zero Conditional"
     },
     {
       "id": 51,
@@ -670,7 +770,9 @@
         "scream"
       ],
       "answer": "খ",
-      "explanation": "Second Conditional: If + Past Indefinite (saw) থাকলে অপর অংশে would/could + V1 বসে (would scream)।"
+      "explanation": "Second Conditional: If + Past Indefinite (saw) থাকলে অপর অংশে would/could + V1 বসে (would scream)।",
+      "ans": 1,
+      "correct_answer": "would scream"
     },
     {
       "id": 52,
@@ -683,7 +785,9 @@
         "Would be having"
       ],
       "answer": "খ",
-      "explanation": "Third Conditional: If-clause-এ Past Perfect (hadn't preferred) থাকলে Result-clause-এ would have + V3 বসে (would have had)।"
+      "explanation": "Third Conditional: If-clause-এ Past Perfect (hadn't preferred) থাকলে Result-clause-এ would have + V3 বসে (would have had)।",
+      "ans": 1,
+      "correct_answer": "would have had"
     },
     {
       "id": 53,
@@ -696,7 +800,9 @@
         "might not have done"
       ],
       "answer": "খ",
-      "explanation": "Third Conditional: If-clause-এ Past Perfect (had not helped) থাকলে Result-clause-এ would have + V3 বসে (would have found it really difficult)।"
+      "explanation": "Third Conditional: If-clause-এ Past Perfect (had not helped) থাকলে Result-clause-এ would have + V3 বসে (would have found it really difficult)।",
+      "ans": 1,
+      "correct_answer": "would have found"
     },
     {
       "id": 54,
@@ -709,7 +815,9 @@
         "when I had known"
       ],
       "answer": "গ",
-      "explanation": "Third Conditional: Result-clause-এ 'would have made' থাকায় If-clause-এ Past Perfect 'if I had known you' বসবে।"
+      "explanation": "Third Conditional: Result-clause-এ 'would have made' থাকায় If-clause-এ Past Perfect 'if I had known you' বসবে।",
+      "ans": 2,
+      "correct_answer": "if I had known you"
     },
     {
       "id": 55,
@@ -722,7 +830,9 @@
         "had rained"
       ],
       "answer": "খ",
-      "explanation": "Second Conditional: Result-clause-এ 'would be' থাকায় If-clause-এ Past Indefinite 'rained' বসবে।"
+      "explanation": "Second Conditional: Result-clause-এ 'would be' থাকায় If-clause-এ Past Indefinite 'rained' বসবে।",
+      "ans": 1,
+      "correct_answer": "rained"
     },
     {
       "id": 56,
@@ -735,7 +845,9 @@
         "will take"
       ],
       "answer": "গ",
-      "explanation": "Third Conditional (Inversion): 'Had I known...' থাকলে পরবর্তী অংশে Subject + would have + V3 বসে (would have taken)।"
+      "explanation": "Third Conditional (Inversion): 'Had I known...' থাকলে পরবর্তী অংশে Subject + would have + V3 বসে (would have taken)।",
+      "ans": 2,
+      "correct_answer": "would have taken"
     },
     {
       "id": 57,
@@ -748,7 +860,9 @@
         "I would be grateful to you."
       ],
       "answer": "ঘ",
-      "explanation": "Second Conditional: If + Past Indefinite (lent) থাকলে Result-clause-এ would + V1 বসে (I would be grateful to you)।"
+      "explanation": "Second Conditional: If + Past Indefinite (lent) থাকলে Result-clause-এ would + V1 বসে (I would be grateful to you)।",
+      "ans": 3,
+      "correct_answer": "I would be grateful to you."
     },
     {
       "id": 58,
@@ -761,7 +875,9 @@
         "would not miss"
       ],
       "answer": "গ",
-      "explanation": "Third Conditional (Inversion): 'Had you walked fast...' থাকলে Result-clause-এ would not have + V3 বসে (would not have missed)।"
+      "explanation": "Third Conditional (Inversion): 'Had you walked fast...' থাকলে Result-clause-এ would not have + V3 বসে (would not have missed)।",
+      "ans": 2,
+      "correct_answer": "would not have missed"
     },
     {
       "id": 59,
@@ -774,7 +890,9 @@
         "will succeed."
       ],
       "answer": "ক",
-      "explanation": "Second Conditional: If + Past Indefinite (helped) থাকলে Result-clause-এ would + V1 বসে (would succeed)।"
+      "explanation": "Second Conditional: If + Past Indefinite (helped) থাকলে Result-clause-এ would + V1 বসে (would succeed)।",
+      "ans": 0,
+      "correct_answer": "would succeed."
     },
     {
       "id": 60,
@@ -787,7 +905,9 @@
         "I will have set up a school"
       ],
       "answer": "খ",
-      "explanation": "Second Conditional (Inversion): 'Had I the land' (If I had the land) থাকলে অপর অংশে would + V1 বসে (I would set up a school)।"
+      "explanation": "Second Conditional (Inversion): 'Had I the land' (If I had the land) থাকলে অপর অংশে would + V1 বসে (I would set up a school)।",
+      "ans": 1,
+      "correct_answer": "I would set up a school"
     },
     {
       "id": 61,
@@ -800,7 +920,9 @@
         "was typing"
       ],
       "answer": "গ",
-      "explanation": "Second Conditional: If-clause-এ 'had' Past Indefinite হলে Result-clause-এ would + V1 বসে (would type)।"
+      "explanation": "Second Conditional: If-clause-এ 'had' Past Indefinite হলে Result-clause-এ would + V1 বসে (would type)।",
+      "ans": 2,
+      "correct_answer": "would type"
     },
     {
       "id": 62,
@@ -813,7 +935,9 @@
         "have been"
       ],
       "answer": "গ",
-      "explanation": "অবাস্তব কল্পনা বা অসম্ভব ইচ্ছা প্রকাশে Subjunctive Mood অনুযায়ী Subject-এর পরে 'were' বসে (If I were rich)।"
+      "explanation": "অবাস্তব কল্পনা বা অসম্ভব ইচ্ছা প্রকাশে Subjunctive Mood অনুযায়ী Subject-এর পরে 'were' বসে (If I were rich)।",
+      "ans": 2,
+      "correct_answer": "were"
     },
     {
       "id": 63,
@@ -826,7 +950,9 @@
         "raised"
       ],
       "answer": "গ",
-      "explanation": "চালের দাম বৃদ্ধি পাওয়ার চলমান অবস্থা নির্দেশ করতে Intransitive Verb 'rise'-এর সাথে 'ing' যুক্ত হয়ে 'rising' বসে।"
+      "explanation": "চালের দাম বৃদ্ধি পাওয়ার চলমান অবস্থা নির্দেশ করতে Intransitive Verb 'rise'-এর সাথে 'ing' যুক্ত হয়ে 'rising' বসে।",
+      "ans": 2,
+      "correct_answer": "rising"
     },
     {
       "id": 64,
@@ -839,7 +965,9 @@
         "broadcasted"
       ],
       "answer": "ক",
-      "explanation": "সম্প্রচার অর্থে 'telecast' ও 'broadcast'-এর Past ও Past Participle রূপ অপরিবর্তিত থাকে (telecast - telecast - telecast)। তাই 'telecast' সঠিক ('telecasted' ভুল)।"
+      "explanation": "সম্প্রচার অর্থে 'telecast' ও 'broadcast'-এর Past ও Past Participle রূপ অপরিবর্তিত থাকে (telecast - telecast - telecast)। তাই 'telecast' সঠিক ('telecasted' ভুল)।",
+      "ans": 0,
+      "correct_answer": "telecast"
     },
     {
       "id": 65,
@@ -852,7 +980,9 @@
         "being"
       ],
       "answer": "খ",
-      "explanation": "আমরা যাওয়ার পূর্বেই পথটি পাকা করা হয়েছিল—অতীতের দুটি কাজের মধ্যে পূর্ববর্তী ঘটনা বোঝাতে Past Perfect Passive হিসেবে 'had been' বসে।"
+      "explanation": "আমরা যাওয়ার পূর্বেই পথটি পাকা করা হয়েছিল—অতীতের দুটি কাজের মধ্যে পূর্ববর্তী ঘটনা বোঝাতে Past Perfect Passive হিসেবে 'had been' বসে।",
+      "ans": 1,
+      "correct_answer": "had been"
     },
     {
       "id": 66,
@@ -865,7 +995,9 @@
         "have had worked"
       ],
       "answer": "ক",
-      "explanation": "Present Perfect Tense-এ 'employees' Plural Subject হওয়ায় Relative Pronoun-এর পরে Plural Verb 'have worked' সঠিক।"
+      "explanation": "Present Perfect Tense-এ 'employees' Plural Subject হওয়ায় Relative Pronoun-এর পরে Plural Verb 'have worked' সঠিক।",
+      "ans": 0,
+      "correct_answer": "have worked"
     },
     {
       "id": 67,
@@ -878,7 +1010,9 @@
         "have been escaping"
       ],
       "answer": "খ",
-      "explanation": "তদন্ত পরিচালনার পূর্বেই অপরাধীরা পালিয়ে গিয়েছিল—অতীতের পূর্ববর্তী ঘটনা নির্দেশ করতে Past Perfect Tense 'had escaped' বসে।"
+      "explanation": "তদন্ত পরিচালনার পূর্বেই অপরাধীরা পালিয়ে গিয়েছিল—অতীতের পূর্ববর্তী ঘটনা নির্দেশ করতে Past Perfect Tense 'had escaped' বসে।",
+      "ans": 1,
+      "correct_answer": "had escaped"
     },
     {
       "id": 68,
@@ -891,7 +1025,9 @@
         "Had been you there, you could have got the information."
       ],
       "answer": "ক",
-      "explanation": "Third Conditional-এর Inversion গঠন: Had + Subject + V3, Subject + could have + V3 (Had you been there on time, you could have had the information)।"
+      "explanation": "Third Conditional-এর Inversion গঠন: Had + Subject + V3, Subject + could have + V3 (Had you been there on time, you could have had the information)।",
+      "ans": 0,
+      "correct_answer": "Had you been there on time, you could have had the information."
     },
     {
       "id": 69,
@@ -904,7 +1040,9 @@
         "has"
       ],
       "answer": "খ",
-      "explanation": "First Conditional: If + Present Indefinite (is heated) হলে Result-clause-এ Future Indefinite (will lose) বসে।"
+      "explanation": "First Conditional: If + Present Indefinite (is heated) হলে Result-clause-এ Future Indefinite (will lose) বসে।",
+      "ans": 1,
+      "correct_answer": "will"
     },
     {
       "id": 70,
@@ -917,7 +1055,9 @@
         "would"
       ],
       "answer": "খ",
-      "explanation": "Third Conditional: Result-clause-এ 'could have worked' থাকায় If-clause-এ Past Perfect Auxiliary 'had' বসবে (if I had been...)।"
+      "explanation": "Third Conditional: Result-clause-এ 'could have worked' থাকায় If-clause-এ Past Perfect Auxiliary 'had' বসবে (if I had been...)।",
+      "ans": 1,
+      "correct_answer": "had"
     },
     {
       "id": 71,
@@ -930,7 +1070,9 @@
         "would"
       ],
       "answer": "ক",
-      "explanation": "Third Conditional: 'This could have worked if I had been more cautious'—এখানে If-clause-এ Past Perfect-এর জন্য 'had' বসে।"
+      "explanation": "Third Conditional: 'This could have worked if I had been more cautious'—এখানে If-clause-এ Past Perfect-এর জন্য 'had' বসে।",
+      "ans": 0,
+      "correct_answer": "had"
     },
     {
       "id": 72,
@@ -943,7 +1085,9 @@
         "may"
       ],
       "answer": "গ",
-      "explanation": "Second Conditional: If I were you, I would take the money (আমি যদি তোমার জায়গায় হতাম, টাকাটা নিতাম)।"
+      "explanation": "Second Conditional: If I were you, I would take the money (আমি যদি তোমার জায়গায় হতাম, টাকাটা নিতাম)।",
+      "ans": 2,
+      "correct_answer": "would"
     },
     {
       "id": 73,
@@ -956,7 +1100,9 @@
         "would be inviting you to come in"
       ],
       "answer": "ক",
-      "explanation": "Third Conditional (Inversion): 'Had I known...' থাকলে পরবর্তী অংশে would have + V3 বসে (would have invited you to come in)।"
+      "explanation": "Third Conditional (Inversion): 'Had I known...' থাকলে পরবর্তী অংশে would have + V3 বসে (would have invited you to come in)।",
+      "ans": 0,
+      "correct_answer": "would have invited you to come in"
     },
     {
       "id": 74,
@@ -969,7 +1115,9 @@
         "froze"
       ],
       "answer": "খ",
-      "explanation": "Zero Conditional: বৈজ্ঞানিক সত্যের ক্ষেত্রে উভয় অংশই Present Indefinite Tense হয় (When water freezes, it turns into ice)।"
+      "explanation": "Zero Conditional: বৈজ্ঞানিক সত্যের ক্ষেত্রে উভয় অংশই Present Indefinite Tense হয় (When water freezes, it turns into ice)।",
+      "ans": 1,
+      "correct_answer": "freezes"
     },
     {
       "id": 75,
@@ -982,7 +1130,9 @@
         "had mended"
       ],
       "answer": "ক",
-      "explanation": "Causative Verb হিসেবে 'have something done' (কম্পিউটার মেরামত করিয়ে নেওয়া) বোঝাতে Past Tense-এ 'had it mended' সঠিক।"
+      "explanation": "Causative Verb হিসেবে 'have something done' (কম্পিউটার মেরামত করিয়ে নেওয়া) বোঝাতে Past Tense-এ 'had it mended' সঠিক।",
+      "ans": 0,
+      "correct_answer": "had it mended"
     },
     {
       "id": 76,
@@ -995,7 +1145,9 @@
         "shall be"
       ],
       "answer": "গ",
-      "explanation": "অবাস্তব ইচ্ছা প্রকাশে If-clause-এ বি-ভার্ব হিসেবে সর্বদাই 'were' বসে (If I were a king!)।"
+      "explanation": "অবাস্তব ইচ্ছা প্রকাশে If-clause-এ বি-ভার্ব হিসেবে সর্বদাই 'were' বসে (If I were a king!)।",
+      "ans": 2,
+      "correct_answer": "were"
     },
     {
       "id": 77,
@@ -1008,7 +1160,9 @@
         "The bridge had been broken"
       ],
       "answer": "গ",
-      "explanation": "Third Conditional: Result-clause-এ 'would have happened' থাকায় If-clause-এ Past Perfect 'The bridge had broken' বসবে।"
+      "explanation": "Third Conditional: Result-clause-এ 'would have happened' থাকায় If-clause-এ Past Perfect 'The bridge had broken' বসবে।",
+      "ans": 2,
+      "correct_answer": "The bridge had broken"
     },
     {
       "id": 78,
@@ -1021,7 +1175,9 @@
         "he was knowing"
       ],
       "answer": "গ",
-      "explanation": "Third Conditional: Result-clause-এ 'would never have taken' থাকায় If-clause-এ Past Perfect 'he had known' বসবে।"
+      "explanation": "Third Conditional: Result-clause-এ 'would never have taken' থাকায় If-clause-এ Past Perfect 'he had known' বসবে।",
+      "ans": 2,
+      "correct_answer": "he had known"
     },
     {
       "id": 79,
@@ -1034,7 +1190,9 @@
         "I would be going to the station."
       ],
       "answer": "গ",
-      "explanation": "Third Conditional: If + Past Perfect (had known) থাকলে Result-clause-এ would have + V3 বসে (I would have gone to the station)।"
+      "explanation": "Third Conditional: If + Past Perfect (had known) থাকলে Result-clause-এ would have + V3 বসে (I would have gone to the station)।",
+      "ans": 2,
+      "correct_answer": "I would have gone to the station."
     },
     {
       "id": 80,
@@ -1047,7 +1205,9 @@
         "would have handled"
       ],
       "answer": "ক",
-      "explanation": "Second Conditional: If I were you, I would handle the situation more carefully (Second Conditional-এ would + V1 বসে)।"
+      "explanation": "Second Conditional: If I were you, I would handle the situation more carefully (Second Conditional-এ would + V1 বসে)।",
+      "ans": 0,
+      "correct_answer": "would handle"
     },
     {
       "id": 81,
@@ -1060,7 +1220,9 @@
         "may come"
       ],
       "answer": "খ",
-      "explanation": "Third Conditional: If-clause-এ Past Perfect (had been able to) থাকায় Result-clause-এ would have + V3 বসে (would have come)।"
+      "explanation": "Third Conditional: If-clause-এ Past Perfect (had been able to) থাকায় Result-clause-এ would have + V3 বসে (would have come)।",
+      "ans": 1,
+      "correct_answer": "would have come"
     },
     {
       "id": 82,
@@ -1073,7 +1235,9 @@
         "pass"
       ],
       "answer": "ক",
-      "explanation": "ভবিষ্যতে কোনো বিষয়ে নিশ্চিত বিশ্বাস প্রকাশে Future Indefinite Tense 'will pass' বসে (sure he will pass)।"
+      "explanation": "ভবিষ্যতে কোনো বিষয়ে নিশ্চিত বিশ্বাস প্রকাশে Future Indefinite Tense 'will pass' বসে (sure he will pass)।",
+      "ans": 0,
+      "correct_answer": "will pass"
     },
     {
       "id": 83,
@@ -1086,7 +1250,9 @@
         "can help"
       ],
       "answer": "ক",
-      "explanation": "After-এর পূর্বের Clause-টি Past Indefinite হলে পরের Clause-টি Past Perfect Tense হয় (after you had left)।"
+      "explanation": "After-এর পূর্বের Clause-টি Past Indefinite হলে পরের Clause-টি Past Perfect Tense হয় (after you had left)।",
+      "ans": 0,
+      "correct_answer": "had left"
     },
     {
       "id": 84,
@@ -1099,7 +1265,9 @@
         "would die"
       ],
       "answer": "খ",
-      "explanation": "Before-এর পূর্বের অংশ Past Perfect Tense হয় এবং পরের অংশ Past Indefinite হয় (The patient had died before the doctor came)।"
+      "explanation": "Before-এর পূর্বের অংশ Past Perfect Tense হয় এবং পরের অংশ Past Indefinite হয় (The patient had died before the doctor came)।",
+      "ans": 1,
+      "correct_answer": "had died"
     },
     {
       "id": 85,
@@ -1112,7 +1280,9 @@
         "circumstances are favouring us"
       ],
       "answer": "ক",
-      "explanation": "'provided' যুক্ত শর্তসূচক বাক্যে Principal Clause Future Indefinite (shall start) হলে Subordinate Clause Present Indefinite (circumstances favour us) হয়।"
+      "explanation": "'provided' যুক্ত শর্তসূচক বাক্যে Principal Clause Future Indefinite (shall start) হলে Subordinate Clause Present Indefinite (circumstances favour us) হয়।",
+      "ans": 0,
+      "correct_answer": "circumstances favour us"
     },
     {
       "id": 86,
@@ -1125,7 +1295,9 @@
         "If Rina would seen me"
       ],
       "answer": "খ",
-      "explanation": "Third Conditional: Result-clause-এ 'would have called' থাকায় If-clause-এ Past Perfect 'If Rina had seen me' বসবে।"
+      "explanation": "Third Conditional: Result-clause-এ 'would have called' থাকায় If-clause-এ Past Perfect 'If Rina had seen me' বসবে।",
+      "ans": 1,
+      "correct_answer": "If Rina had seen me"
     },
     {
       "id": 87,
@@ -1138,7 +1310,9 @@
         "would have helped"
       ],
       "answer": "খ",
-      "explanation": "Second Conditional: If + Past Indefinite (wanted) হলে অপর অংশে would + V1 বসে (would help you)।"
+      "explanation": "Second Conditional: If + Past Indefinite (wanted) হলে অপর অংশে would + V1 বসে (would help you)।",
+      "ans": 1,
+      "correct_answer": "would help"
     },
     {
       "id": 88,
@@ -1151,7 +1325,9 @@
         "helped the poor."
       ],
       "answer": "খ",
-      "explanation": "Third Conditional: 'Had I been a king...' থাকলে Result-clause-এ would have + V3 বসে (would have helped the poor)।"
+      "explanation": "Third Conditional: 'Had I been a king...' থাকলে Result-clause-এ would have + V3 বসে (would have helped the poor)।",
+      "ans": 1,
+      "correct_answer": "would have helped the poor."
     },
     {
       "id": 89,
@@ -1164,7 +1340,9 @@
         "will go"
       ],
       "answer": "গ",
-      "explanation": "অসম্ভব ইচ্ছা প্রকাশে 'Would that'-এর পর Subject + could + V1 বসে (Would that I could go to college!)।"
+      "explanation": "অসম্ভব ইচ্ছা প্রকাশে 'Would that'-এর পর Subject + could + V1 বসে (Would that I could go to college!)।",
+      "ans": 2,
+      "correct_answer": "could go"
     },
     {
       "id": 90,
@@ -1177,7 +1355,9 @@
         "did"
       ],
       "answer": "খ",
-      "explanation": "কোথাও গিয়ে ঘুরে আসা বোঝাতে Present Perfect Tense-এ 'Have you ever been to...' ব্যবহৃত হয়।"
+      "explanation": "কোথাও গিয়ে ঘুরে আসা বোঝাতে Present Perfect Tense-এ 'Have you ever been to...' ব্যবহৃত হয়।",
+      "ans": 1,
+      "correct_answer": "been"
     },
     {
       "id": 91,
@@ -1190,7 +1370,9 @@
         "watched"
       ],
       "answer": "গ",
-      "explanation": "Past Indefinite Interrogative বাক্যে 'Did' থাকলে মূল Verb-টি সর্বদা Base Form (V1)-এ থাকে (Did you watch the drama?)।"
+      "explanation": "Past Indefinite Interrogative বাক্যে 'Did' থাকলে মূল Verb-টি সর্বদা Base Form (V1)-এ থাকে (Did you watch the drama?)।",
+      "ans": 2,
+      "correct_answer": "watch"
     }
   ]
 }

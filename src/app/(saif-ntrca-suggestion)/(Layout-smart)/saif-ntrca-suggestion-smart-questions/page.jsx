@@ -383,16 +383,40 @@ function SaifNtrcaSuggestionSmartQuestionsContent() {
             setExamMeta(res.exam);
             const normalized = res.questions.map((item, idx) => {
               const qText = item.question || item.q || item.question_text || `প্রশ্ন ${idx + 1}`;
-              const opts = Array.isArray(item.options) ? item.options : [];
+              let opts = [];
+              if (Array.isArray(item.options)) {
+                opts = item.options.map(o => typeof o === 'string' ? o.trim() : String(o || ''));
+              } else if (item.options && typeof item.options === 'object') {
+                opts = Object.values(item.options).map(o => typeof o === 'string' ? o.trim() : String(o || ''));
+              }
               let ansIdx = -1;
 
-              if (typeof item.ans === 'number') {
+              const bnMap = { 'ক': 0, 'খ': 1, 'গ': 2, 'ঘ': 3, 'A': 0, 'B': 1, 'C': 2, 'D': 3, 'a': 0, 'b': 1, 'c': 2, 'd': 3 };
+
+              if (typeof item.ans === 'number' && item.ans >= 0 && item.ans < (opts.length || 4)) {
                 ansIdx = item.ans;
-              } else if (item.correct_answer !== undefined) {
+              }
+
+              if (ansIdx === -1 && item.answer !== undefined) {
+                const rawAns = String(item.answer).trim();
+                if (bnMap[rawAns] !== undefined && bnMap[rawAns] < opts.length) {
+                  ansIdx = bnMap[rawAns];
+                } else {
+                  const cleaned = rawAns.replace(/^[(\[]?([কখগঘabcdABCD])[)\]\.\s\-:]+/i, '$1').trim();
+                  if (bnMap[cleaned] !== undefined && bnMap[cleaned] < opts.length) {
+                    ansIdx = bnMap[cleaned];
+                  }
+                }
+              }
+
+              if (ansIdx === -1 && item.correct_answer !== undefined) {
                 const ansStr = String(item.correct_answer).trim();
                 ansIdx = opts.findIndex((opt) => String(opt).trim() === ansStr);
-                if (ansIdx === -1 && !isNaN(ansStr) && ansStr !== '') {
-                  ansIdx = parseInt(ansStr, 10);
+                if (ansIdx === -1 && bnMap[ansStr] !== undefined && bnMap[ansStr] < opts.length) {
+                  ansIdx = bnMap[ansStr];
+                } else if (ansIdx === -1 && !isNaN(ansStr) && ansStr !== '') {
+                  const parsed = parseInt(ansStr, 10);
+                  if (parsed >= 0 && parsed < opts.length) ansIdx = parsed;
                 }
               }
 

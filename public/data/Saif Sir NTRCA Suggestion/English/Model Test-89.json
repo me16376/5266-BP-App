@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "Shakespeare is known mostly for his _____",
-      "options": {
-        "ক": "Poetry",
-        "খ": "Drama",
-        "গ": "Novels",
-        "ঘ": "Films"
-      },
+      "options": [
+        "Poetry",
+        "Drama",
+        "Novels",
+        "Films"
+      ],
       "answer": "খ",
-      "explanation": "উইলিয়াম শেক্সপিয়র মূলত একজন যুগান্তকারী নাট্যকার (Dramatist/Playwright) হিসেবে বিশ্বজুড়ে সমধিক পরিচিত (known mostly for his Drama)।"
+      "explanation": "উইলিয়াম শেক্সপিয়র মূলত একজন যুগান্তকারী নাট্যকার (Dramatist/Playwright) হিসেবে বিশ্বজুড়ে সমধিক পরিচিত (known mostly for his Drama)।",
+      "ans": 1,
+      "correct_answer": "Drama"
     },
     {
       "id": 2,
       "question": "Which of the noun is used in the feminine form?",
-      "options": {
-        "ক": "Anger",
-        "খ": "Time",
-        "গ": "Moon",
-        "ঘ": "None"
-      },
+      "options": [
+        "Anger",
+        "Time",
+        "Moon",
+        "None"
+      ],
       "answer": "গ",
-      "explanation": "চাঁদ (Moon), পৃথিবী (Earth), প্রকৃতি (Nature) ইত্যাদিকে রূপকভাবে কোমলতা ও সৌন্দর্যের প্রতীক বিবেচনায় Feminine Gender হিসেবে গণ্য করা হয়।"
+      "explanation": "চাঁদ (Moon), পৃথিবী (Earth), প্রকৃতি (Nature) ইত্যাদিকে রূপকভাবে কোমলতা ও সৌন্দর্যের প্রতীক বিবেচনায় Feminine Gender হিসেবে গণ্য করা হয়।",
+      "ans": 2,
+      "correct_answer": "Moon"
     },
     {
       "id": 3,
       "question": "“Out and Out” means.",
-      "options": {
-        "ক": "Whole heatedly",
-        "খ": "Not at all",
-        "গ": "Brave",
-        "ঘ": "Thoroughly"
-      },
+      "options": [
+        "Whole heatedly",
+        "Not at all",
+        "Brave",
+        "Thoroughly"
+      ],
       "answer": "ঘ",
-      "explanation": "'Out and out' idiom-টির অর্থ হাড়ে হাড়ে বা সম্পূর্ণভাবে (Thoroughly)।"
+      "explanation": "'Out and out' idiom-টির অর্থ হাড়ে হাড়ে বা সম্পূর্ণভাবে (Thoroughly)।",
+      "ans": 3,
+      "correct_answer": "Thoroughly"
     },
     {
       "id": 4,
       "question": "The train _____ from Rangpur.",
-      "options": {
-        "ক": "have already arrived",
-        "খ": "has already arrived",
-        "গ": "already arrive",
-        "ঘ": "already has been arriving"
-      },
+      "options": [
+        "have already arrived",
+        "has already arrived",
+        "already arrive",
+        "already has been arriving"
+      ],
       "answer": "খ",
-      "explanation": "বাক্যে 'already' থাকলে বাক্যটি Present Perfect Tense হয় এবং 'The train' Singular হওয়ায় 'has already arrived' হবে।"
+      "explanation": "বাক্যে 'already' থাকলে বাক্যটি Present Perfect Tense হয় এবং 'The train' Singular হওয়ায় 'has already arrived' হবে।",
+      "ans": 1,
+      "correct_answer": "has already arrived"
     },
     {
       "id": 5,
       "question": "“Man of straw ‘ means-",
-      "options": {
-        "ক": "Respected person",
-        "খ": "Worthless man",
-        "গ": "Gentleman",
-        "ঘ": "Noted person"
-      },
+      "options": [
+        "Respected person",
+        "Worthless man",
+        "Gentleman",
+        "Noted person"
+      ],
       "answer": "খ",
-      "explanation": "'Man of straw' idiom-টির অর্থ অপদার্থ, চরিত্রহীন বা গুরুত্বহীন ব্যক্তিত্ব (A worthless person / a person of no substance)।"
+      "explanation": "'Man of straw' idiom-টির অর্থ অপদার্থ, চরিত্রহীন বা গুরুত্বহীন ব্যক্তিত্ব (A worthless person / a person of no substance)।",
+      "ans": 1,
+      "correct_answer": "Worthless man"
     },
     {
       "id": 6,
       "question": "Find out the correct synonym of “tenuous’",
-      "options": {
-        "ক": "Careful",
-        "খ": "Dangerous",
-        "গ": "Vital",
-        "ঘ": "Thin"
-      },
+      "options": [
+        "Careful",
+        "Dangerous",
+        "Vital",
+        "Thin"
+      ],
       "answer": "ঘ",
-      "explanation": "'Tenuous' শব্দের অর্থ অত্যন্ত ক্ষীণ, দুর্বল বা পাতলা। এর যথাযথ সমার্থক হলো 'Thin' (পাতলা বা ক্ষীণ)।"
+      "explanation": "'Tenuous' শব্দের অর্থ অত্যন্ত ক্ষীণ, দুর্বল বা পাতলা। এর যথাযথ সমার্থক হলো 'Thin' (পাতলা বা ক্ষীণ)।",
+      "ans": 3,
+      "correct_answer": "Thin"
     },
     {
       "id": 7,
       "question": "If we want concrete proof , We are looking for___",
-      "options": {
-        "ক": "clear evidence",
-        "খ": "building material",
-        "গ": "a cement mixer",
-        "ঘ": "something to cover a path"
-      },
+      "options": [
+        "clear evidence",
+        "building material",
+        "a cement mixer",
+        "something to cover a path"
+      ],
       "answer": "ক",
-      "explanation": "'Concrete proof' বলতে বোঝায় অকাট্য, সুনির্দিষ্ট ও প্রত্যক্ষ প্রমাণ (Clear evidence / tangible proof)।"
+      "explanation": "'Concrete proof' বলতে বোঝায় অকাট্য, সুনির্দিষ্ট ও প্রত্যক্ষ প্রমাণ (Clear evidence / tangible proof)।",
+      "ans": 0,
+      "correct_answer": "clear evidence"
     },
     {
       "id": 8,
       "question": "The correct sentence of the following :",
-      "options": {
-        "ক": "The Padma is longest river in Bangladesh",
-        "খ": "The Padma is longest river in the Bangladesh",
-        "গ": "Padma is longest river in Bangladesh",
-        "ঘ": "The Padma is the longest river in Bangladesh"
-      },
+      "options": [
+        "The Padma is longest river in Bangladesh",
+        "The Padma is longest river in the Bangladesh",
+        "Padma is longest river in Bangladesh",
+        "The Padma is the longest river in Bangladesh"
+      ],
       "answer": "ঘ",
-      "explanation": "নদীর নামের পূর্বে 'the' বসে এবং Superlative Degree-এর পূর্বে 'the' বসে: 'The Padma is the longest river in Bangladesh.'"
+      "explanation": "নদীর নামের পূর্বে 'the' বসে এবং Superlative Degree-এর পূর্বে 'the' বসে: 'The Padma is the longest river in Bangladesh.'",
+      "ans": 3,
+      "correct_answer": "The Padma is the longest river in Bangladesh"
     },
     {
       "id": 9,
       "question": "Nine men were concerned _____ the plot .",
-      "options": {
-        "ক": "for",
-        "খ": "at",
-        "গ": "with",
-        "ঘ": "in"
-      },
+      "options": [
+        "for",
+        "at",
+        "with",
+        "in"
+      ],
       "answer": "ঘ",
-      "explanation": "কোনো ষড়যন্ত্র বা অপরাধমূলক কর্মকাণ্ডে জড়িত থাকা বোঝাতে 'concerned in' ব্যবহৃত হয়: 'concerned in the plot.'"
+      "explanation": "কোনো ষড়যন্ত্র বা অপরাধমূলক কর্মকাণ্ডে জড়িত থাকা বোঝাতে 'concerned in' ব্যবহৃত হয়: 'concerned in the plot.'",
+      "ans": 3,
+      "correct_answer": "in"
     },
     {
       "id": 10,
       "question": "A ‘pilgrim’ is a person who undertakes a journey to a _____",
-      "options": {
-        "ক": "New country",
-        "খ": "Holy place",
-        "গ": "Bazar",
-        "ঘ": "Mosque"
-      },
+      "options": [
+        "New country",
+        "Holy place",
+        "Bazar",
+        "Mosque"
+      ],
       "answer": "খ",
-      "explanation": "যিনি কোনো পবিত্র ধর্মীয় স্থান দর্শনের উদ্দেশ্যে ভ্রমণ করেন তাঁকে 'Pilgrim' (তীর্থযাত্রী) বলা হয় (undertakes a journey to a holy place)।"
+      "explanation": "যিনি কোনো পবিত্র ধর্মীয় স্থান দর্শনের উদ্দেশ্যে ভ্রমণ করেন তাঁকে 'Pilgrim' (তীর্থযাত্রী) বলা হয় (undertakes a journey to a holy place)।",
+      "ans": 1,
+      "correct_answer": "Holy place"
     },
     {
       "id": 11,
       "question": "He lives ___ comfortable life.",
-      "options": {
-        "ক": "a",
-        "খ": "an",
-        "গ": "the",
-        "ঘ": "None of them"
-      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "None of them"
+      ],
       "answer": "ক",
-      "explanation": "আরামদায়ক জীবনযাপন করা বোঝাতে 'live a comfortable life' ব্যবহৃত হয়: 'He lives a comfortable life.'"
+      "explanation": "আরামদায়ক জীবনযাপন করা বোঝাতে 'live a comfortable life' ব্যবহৃত হয়: 'He lives a comfortable life.'",
+      "ans": 0,
+      "correct_answer": "a"
     },
     {
       "id": 12,
       "question": "Identify the correct passive form of _ “ He is going to open a shop” .",
-      "options": {
-        "ক": "He is being gone to open a shop .",
-        "খ": "A shop is being gone opened by him",
-        "গ": "A shop will be opened by him",
-        "ঘ": "A shop is going to be opened by him"
-      },
+      "options": [
+        "He is being gone to open a shop .",
+        "A shop is being gone opened by him",
+        "A shop will be opened by him",
+        "A shop is going to be opened by him"
+      ],
       "answer": "ঘ",
-      "explanation": "'Going to' যুক্ত বাক্যের Passive গঠন: Object (A shop) + is + going to be + V3 (opened) + by him। তাই ঘ সঠিক।"
+      "explanation": "'Going to' যুক্ত বাক্যের Passive গঠন: Object (A shop) + is + going to be + V3 (opened) + by him। তাই ঘ সঠিক।",
+      "ans": 3,
+      "correct_answer": "A shop is going to be opened by him"
     },
     {
       "id": 13,
       "question": "The world ‘Gravity’ is-",
-      "options": {
-        "ক": "Noun",
-        "খ": "Adverb",
-        "গ": "adjective",
-        "ঘ": "gerund"
-      },
+      "options": [
+        "Noun",
+        "Adverb",
+        "adjective",
+        "gerund"
+      ],
       "answer": "ক",
-      "explanation": "'Gravity' (মাধ্যাকর্ষণ বা গাম্ভীর্য) শব্দটি শেষে '-ity' suffix থাকায় এটি একটি Noun।"
+      "explanation": "'Gravity' (মাধ্যাকর্ষণ বা গাম্ভীর্য) শব্দটি শেষে '-ity' suffix থাকায় এটি একটি Noun।",
+      "ans": 0,
+      "correct_answer": "Noun"
     },
     {
       "id": 14,
       "question": "‘A Voyage to Lilliput ‘ is written by-",
-      "options": {
-        "ক": "William Wordsworth",
-        "খ": "Jonathan Swift",
-        "গ": "R. L Stefvenson",
-        "ঘ": "Thomas Hardy"
-      },
+      "options": [
+        "William Wordsworth",
+        "Jonathan Swift",
+        "R. L Stefvenson",
+        "Thomas Hardy"
+      ],
       "answer": "খ",
-      "explanation": "বিখ্যাত ব্যঙ্গাত্মক উপন্যাস 'Gulliver's Travels'-এর প্রথম খণ্ড 'A Voyage to Lilliput' রচনা করেছেন জোনাথন সুইফট (Jonathan Swift)।"
+      "explanation": "বিখ্যাত ব্যঙ্গাত্মক উপন্যাস 'Gulliver's Travels'-এর প্রথম খণ্ড 'A Voyage to Lilliput' রচনা করেছেন জোনাথন সুইফট (Jonathan Swift)।",
+      "ans": 1,
+      "correct_answer": "Jonathan Swift"
     },
     {
       "id": 15,
       "question": "One should be careful about ___ duty.",
-      "options": {
-        "ক": "the",
-        "খ": "his",
-        "গ": "her",
-        "ঘ": "one’s"
-      },
+      "options": [
+        "the",
+        "his",
+        "her",
+        "one’s"
+      ],
       "answer": "ঘ",
-      "explanation": "Indefinite Pronoun 'One' যদি বাক্যের Subject হয়, তবে তার Possessive Pronoun হিসেবে 'one's' বসে: 'One should be careful about one's duty.'"
+      "explanation": "Indefinite Pronoun 'One' যদি বাক্যের Subject হয়, তবে তার Possessive Pronoun হিসেবে 'one's' বসে: 'One should be careful about one's duty.'",
+      "ans": 3,
+      "correct_answer": "one’s"
     },
     {
       "id": 16,
       "question": "The indirect form of the sentence _ Farida said to her mother , “ I shall go to bed now” is _",
-      "options": {
-        "ক": "Farida told her mother that she would go to bed then",
-        "খ": "Farida told her mother that she will go to bed now",
-        "গ": "Farida told her mother that she should go to bed",
-        "ঘ": "Farida told her mother that she will go to bed"
-      },
+      "options": [
+        "Farida told her mother that she would go to bed then",
+        "Farida told her mother that she will go to bed now",
+        "Farida told her mother that she should go to bed",
+        "Farida told her mother that she will go to bed"
+      ],
       "answer": "ক",
-      "explanation": "Direct Speech-এর 'shall' Indirect Speech-এ Subject 'she'-এর সাথে 'would' হয় এবং 'now' পরিবর্তিত হয়ে 'then' হয়: 'Farida told her mother that she would go to bed then.'"
+      "explanation": "Direct Speech-এর 'shall' Indirect Speech-এ Subject 'she'-এর সাথে 'would' হয় এবং 'now' পরিবর্তিত হয়ে 'then' হয়: 'Farida told her mother that she would go to bed then.'",
+      "ans": 0,
+      "correct_answer": "Farida told her mother that she would go to bed then"
     },
     {
       "id": 17,
       "question": "Nasima arrived while I __ the dinner .",
-      "options": {
-        "ক": "cook",
-        "খ": "was cooking",
-        "গ": "would cook",
-        "ঘ": "had cooked"
-      },
+      "options": [
+        "cook",
+        "was cooking",
+        "would cook",
+        "had cooked"
+      ],
       "answer": "খ",
-      "explanation": "'While'-যুক্ত Clause-এ অতীত চলমান কাজের ক্ষেত্রে Past Continuous Tense ব্যবহৃত হয়: 'while I was cooking the dinner.'"
+      "explanation": "'While'-যুক্ত Clause-এ অতীত চলমান কাজের ক্ষেত্রে Past Continuous Tense ব্যবহৃত হয়: 'while I was cooking the dinner.'",
+      "ans": 1,
+      "correct_answer": "was cooking"
     },
     {
       "id": 18,
       "question": "The invigilator made us __ our identity card at the test center.",
-      "options": {
-        "ক": "to show",
-        "খ": "showing",
-        "গ": "show",
-        "ঘ": "showed"
-      },
+      "options": [
+        "to show",
+        "showing",
+        "show",
+        "showed"
+      ],
       "answer": "গ",
-      "explanation": "Causative Verb 'make'-এর পর ব্যক্তিবাচক Object থাকলে পরবর্তী Verb-এর Base form (Bare Infinitive) বসে: 'made us show our identity card.'"
+      "explanation": "Causative Verb 'make'-এর পর ব্যক্তিবাচক Object থাকলে পরবর্তী Verb-এর Base form (Bare Infinitive) বসে: 'made us show our identity card.'",
+      "ans": 2,
+      "correct_answer": "show"
     },
     {
       "id": 19,
       "question": "The chain was __ than we thought.",
-      "options": {
-        "ক": "strong",
-        "খ": "stronger",
-        "গ": "much",
-        "ঘ": "strongest"
-      },
+      "options": [
+        "strong",
+        "stronger",
+        "much",
+        "strongest"
+      ],
       "answer": "খ",
-      "explanation": "তুলনামূলক শব্দ 'than' থাকায় Adjective-এর Comparative Degree 'stronger' বসবে: 'The chain was stronger than we thought.'"
+      "explanation": "তুলনামূলক শব্দ 'than' থাকায় Adjective-এর Comparative Degree 'stronger' বসবে: 'The chain was stronger than we thought.'",
+      "ans": 1,
+      "correct_answer": "stronger"
     },
     {
       "id": 20,
       "question": "Which is the correct spelling ?",
-      "options": {
-        "ক": "Achievrnent",
-        "খ": "Achievement",
-        "গ": "Achevenent",
-        "ঘ": "Achevinent"
-      },
+      "options": [
+        "Achievrnent",
+        "Achievement",
+        "Achevenent",
+        "Achevinent"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Achievement' (A-c-h-i-e-v-e-m-e-n-t), যার অর্থ অর্জন।"
+      "explanation": "সঠিক বানান হলো 'Achievement' (A-c-h-i-e-v-e-m-e-n-t), যার অর্থ অর্জন।",
+      "ans": 1,
+      "correct_answer": "Achievement"
     }
   ]
 }

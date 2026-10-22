@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "He is _____ European.",
-      "options": {
-        "ক": "a",
-        "খ": "an",
-        "গ": "none of them",
-        "ঘ": "the"
-      },
+      "options": [
+        "a",
+        "an",
+        "none of them",
+        "the"
+      ],
       "answer": "ক",
-      "explanation": "'European' শব্দের প্রথম অক্ষর ভাওয়েল 'E' হলেও এর উচ্চারণ ব্যঞ্জনধ্বনি 'ইউ' (yu)-এর মতো হওয়ায় এর পূর্বে Article 'a' বসে: 'He is a European.'"
+      "explanation": "'European' শব্দের প্রথম অক্ষর ভাওয়েল 'E' হলেও এর উচ্চারণ ব্যঞ্জনধ্বনি 'ইউ' (yu)-এর মতো হওয়ায় এর পূর্বে Article 'a' বসে: 'He is a European.'",
+      "ans": 0,
+      "correct_answer": "a"
     },
     {
       "id": 2,
       "question": "“He taught me to read Arabic” বাক্যটির Passive form হবে-",
-      "options": {
-        "ক": "I was taught by him to read Arabic",
-        "খ": "I have been taught by him to read Arabic",
-        "গ": "I have been taught by him to read Arabic",
-        "ঘ": "I was being taught by him to read Arabic"
-      },
+      "options": [
+        "I was taught by him to read Arabic",
+        "I have been taught by him to read Arabic",
+        "I have been taught by him to read Arabic",
+        "I was being taught by him to read Arabic"
+      ],
       "answer": "ক",
-      "explanation": "Past Indefinite Double Object যুক্ত বাক্যে ব্যক্তিবাচক Object 'me'-কে Subject করে Passive Voice: 'I was taught by him to read Arabic.'"
+      "explanation": "Past Indefinite Double Object যুক্ত বাক্যে ব্যক্তিবাচক Object 'me'-কে Subject করে Passive Voice: 'I was taught by him to read Arabic.'",
+      "ans": 0,
+      "correct_answer": "I was taught by him to read Arabic"
     },
     {
       "id": 3,
       "question": "Choose the right verb : Rabindranath’s stories often _____ surprise ending",
-      "options": {
-        "ক": "had",
-        "খ": "have",
-        "গ": "has",
-        "ঘ": "have had"
-      },
+      "options": [
+        "had",
+        "have",
+        "has",
+        "have had"
+      ],
       "answer": "খ",
-      "explanation": "'Stories' হলো Plural Subject, তাই এর সাথে Present Indefinite Tense-এ Plural Verb 'have' বসবে: 'Rabindranath's stories often have surprise endings.'"
+      "explanation": "'Stories' হলো Plural Subject, তাই এর সাথে Present Indefinite Tense-এ Plural Verb 'have' বসবে: 'Rabindranath's stories often have surprise endings.'",
+      "ans": 1,
+      "correct_answer": "have"
     },
     {
       "id": 4,
       "question": "Which one is a common noun?",
-      "options": {
-        "ক": "Infant",
-        "খ": "Salt",
-        "গ": "Studentship",
-        "ঘ": "Army"
-      },
+      "options": [
+        "Infant",
+        "Salt",
+        "Studentship",
+        "Army"
+      ],
       "answer": "ক",
-      "explanation": "'Infant' (শিশু) শব্দটি সকল মানব শিশুকে সাধারণভাবে বোঝানোয় এটি একটি Common Noun। Salt হলো Material Noun, Studentship হলো Abstract Noun এবং Army হলো Collective Noun।"
+      "explanation": "'Infant' (শিশু) শব্দটি সকল মানব শিশুকে সাধারণভাবে বোঝানোয় এটি একটি Common Noun। Salt হলো Material Noun, Studentship হলো Abstract Noun এবং Army হলো Collective Noun।",
+      "ans": 0,
+      "correct_answer": "Infant"
     },
     {
       "id": 5,
       "question": "Select the correct ones : Our teacher told the monitor to hand out scripts _____ the class.",
-      "options": {
-        "ক": "among",
-        "খ": "between",
-        "গ": "into",
-        "ঘ": "through"
-      },
+      "options": [
+        "among",
+        "between",
+        "into",
+        "through"
+      ],
       "answer": "ক",
-      "explanation": "দুইয়ের অধিক ব্যক্তির মধ্যে কোনো কিছু বিতরণ করা বোঝাতে Preposition 'among' ব্যবহৃত হয়: 'hand out scripts among the class.'"
+      "explanation": "দুইয়ের অধিক ব্যক্তির মধ্যে কোনো কিছু বিতরণ করা বোঝাতে Preposition 'among' ব্যবহৃত হয়: 'hand out scripts among the class.'",
+      "ans": 0,
+      "correct_answer": "among"
     },
     {
       "id": 6,
       "question": "She asked me, “Are you happy in your new job?”",
-      "options": {
-        "ক": "She asked me if I was happy in my new job",
-        "খ": "She asked me if I have been happy in my new job",
-        "গ": "She asked me whether I am happy in my new job",
-        "ঘ": "She asked me if I had been happy in my new job"
-      },
+      "options": [
+        "She asked me if I was happy in my new job",
+        "She asked me if I have been happy in my new job",
+        "She asked me whether I am happy in my new job",
+        "She asked me if I had been happy in my new job"
+      ],
       "answer": "ক",
-      "explanation": "Interrogative বাক্যের Indirect Speech-এ Conjunction 'if' বসে এবং বাক্যটি Assertive রূপ (I was happy) নেয়: 'She asked me if I was happy in my new job.'"
+      "explanation": "Interrogative বাক্যের Indirect Speech-এ Conjunction 'if' বসে এবং বাক্যটি Assertive রূপ (I was happy) নেয়: 'She asked me if I was happy in my new job.'",
+      "ans": 0,
+      "correct_answer": "She asked me if I was happy in my new job"
     },
     {
       "id": 7,
       "question": "Pragmatic শব্দের অর্থ-",
-      "options": {
-        "ক": "বাস্তবধর্মী",
-        "খ": "অগ্রবর্তী",
-        "গ": "অবাস্তব",
-        "ঘ": "অসাধারণ"
-      },
+      "options": [
+        "বাস্তবধর্মী",
+        "অগ্রবর্তী",
+        "অবাস্তব",
+        "অসাধারণ"
+      ],
       "answer": "ক",
-      "explanation": "'Pragmatic' শব্দের বাংলা অর্থ 'বাস্তবধর্মী' বা প্রয়োগবাদী (Practical and realistic rather than theoretical)।"
+      "explanation": "'Pragmatic' শব্দের বাংলা অর্থ 'বাস্তবধর্মী' বা প্রয়োগবাদী (Practical and realistic rather than theoretical)।",
+      "ans": 0,
+      "correct_answer": "বাস্তবধর্মী"
     },
     {
       "id": 8,
       "question": "Choose the correct options. The Government has extended a warm welcome ----the visiting delegation",
-      "options": {
-        "ক": "with",
-        "খ": "through",
-        "গ": "to",
-        "ঘ": "for"
-      },
+      "options": [
+        "with",
+        "through",
+        "to",
+        "for"
+      ],
       "answer": "গ",
-      "explanation": "কাউকে উষ্ণ অভ্যর্থনা জানানো অর্থে appropriate preposition 'welcome to' বসে: 'extended a warm welcome to the visiting delegation.'"
+      "explanation": "কাউকে উষ্ণ অভ্যর্থনা জানানো অর্থে appropriate preposition 'welcome to' বসে: 'extended a warm welcome to the visiting delegation.'",
+      "ans": 2,
+      "correct_answer": "to"
     },
     {
       "id": 9,
       "question": "Identify the correct sentence:",
-      "options": {
-        "ক": "He was working hard to standing first",
-        "খ": "He is working hardly to stand first",
-        "গ": "He is working hard to stand first",
-        "ঘ": "He works hard to standing first"
-      },
+      "options": [
+        "He was working hard to standing first",
+        "He is working hardly to stand first",
+        "He is working hard to stand first",
+        "He works hard to standing first"
+      ],
       "answer": "গ",
-      "explanation": "'Hardly' একটি নেতিবাচক শব্দ যার অর্থ প্রায় না। কঠোর পরিশ্রম করা বোঝাতে Adverb হিসেবে 'hard' বসে এবং উদ্দেশ্য প্রকাশে Infinitive 'to stand' বসে: 'He is working hard to stand first.'"
+      "explanation": "'Hardly' একটি নেতিবাচক শব্দ যার অর্থ প্রায় না। কঠোর পরিশ্রম করা বোঝাতে Adverb হিসেবে 'hard' বসে এবং উদ্দেশ্য প্রকাশে Infinitive 'to stand' বসে: 'He is working hard to stand first.'",
+      "ans": 2,
+      "correct_answer": "He is working hard to stand first"
     },
     {
       "id": 10,
       "question": "Choose the word correctly spelt.",
-      "options": {
-        "ক": "Soverigntly",
-        "খ": "Sovereignty",
-        "গ": "Sovereiginity",
-        "ঘ": "Soverinty"
-      },
+      "options": [
+        "Soverigntly",
+        "Sovereignty",
+        "Sovereiginity",
+        "Soverinty"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Sovereignty' (S-o-v-e-r-e-i-g-n-t-y), যার বাংলা অর্থ সার্বভৌমত্ব।"
+      "explanation": "সঠিক বানান হলো 'Sovereignty' (S-o-v-e-r-e-i-g-n-t-y), যার বাংলা অর্থ সার্বভৌমত্ব।",
+      "ans": 1,
+      "correct_answer": "Sovereignty"
     },
     {
       "id": 11,
       "question": "He writes a letter. In this sentence, “write” is a---",
-      "options": {
-        "ক": "Transitive verb",
-        "খ": "Intransitive verb",
-        "গ": "Principal verb",
-        "ঘ": "Auxiliary verb"
-      },
+      "options": [
+        "Transitive verb",
+        "Intransitive verb",
+        "Principal verb",
+        "Auxiliary verb"
+      ],
       "answer": "ক",
-      "explanation": "'He writes a letter' বাক্যে 'writes' verb-টির পর সরাসরি কর্ম বা Object 'a letter' থাকায় এটি একটি Transitive Verb (সকর্মক ক্রিয়া)।"
+      "explanation": "'He writes a letter' বাক্যে 'writes' verb-টির পর সরাসরি কর্ম বা Object 'a letter' থাকায় এটি একটি Transitive Verb (সকর্মক ক্রিয়া)।",
+      "ans": 0,
+      "correct_answer": "Transitive verb"
     },
     {
       "id": 12,
       "question": "The plural form of “Nucleus” is----",
-      "options": {
-        "ক": "Nucleausy",
-        "খ": "Nuclei",
-        "গ": "Nucleis",
-        "ঘ": "Nucleuses"
-      },
+      "options": [
+        "Nucleausy",
+        "Nuclei",
+        "Nucleis",
+        "Nucleuses"
+      ],
       "answer": "খ",
-      "explanation": "'Nucleus' (পরমাণুর কেন্দ্র) শব্দটির বহুবচন (Plural) রূপ হলো 'Nuclei' (N-u-c-l-e-i)।"
+      "explanation": "'Nucleus' (পরমাণুর কেন্দ্র) শব্দটির বহুবচন (Plural) রূপ হলো 'Nuclei' (N-u-c-l-e-i)।",
+      "ans": 1,
+      "correct_answer": "Nuclei"
     },
     {
       "id": 13,
       "question": "I know that he did the work --- বাক্যটির সঠিক পরিবর্তিত voice কি হবে?",
-      "options": {
-        "ক": "It was known to me that the work has been done by him.",
-        "খ": "It was known to me that the work had been done by him.",
-        "গ": "It was known to me that the work was done by him.",
-        "ঘ": "It is known to me that the work was done by him."
-      },
+      "options": [
+        "It was known to me that the work has been done by him.",
+        "It was known to me that the work had been done by him.",
+        "It was known to me that the work was done by him.",
+        "It is known to me that the work was done by him."
+      ],
       "answer": "ঘ",
-      "explanation": "Complex বাক্যের Passive রূপ: 'I know' অংশের passive 'It is known to me' এবং 'he did the work' অংশের passive 'the work was done by him'। তাই ঘ সম্পূর্ণ সঠিক।"
+      "explanation": "Complex বাক্যের Passive রূপ: 'I know' অংশের passive 'It is known to me' এবং 'he did the work' অংশের passive 'the work was done by him'। তাই ঘ সম্পূর্ণ সঠিক।",
+      "ans": 3,
+      "correct_answer": "It is known to me that the work was done by him."
     },
     {
       "id": 14,
       "question": "“Amicable” শব্দের অর্থ-",
-      "options": {
-        "ক": "ঘৃণা",
-        "খ": "সৌহার্দ্যপূর্ণ",
-        "গ": "বিরোধী",
-        "ঘ": "অশান্তি"
-      },
+      "options": [
+        "ঘৃণা",
+        "সৌহার্দ্যপূর্ণ",
+        "বিরোধী",
+        "অশান্তি"
+      ],
       "answer": "খ",
-      "explanation": "'Amicable' শব্দের অর্থ সৌহার্দ্যপূর্ণ, বন্ধুত্বপূর্ণ বা শান্তিপূর্ণ (Friendly, cordial and peaceable)।"
+      "explanation": "'Amicable' শব্দের অর্থ সৌহার্দ্যপূর্ণ, বন্ধুত্বপূর্ণ বা শান্তিপূর্ণ (Friendly, cordial and peaceable)।",
+      "ans": 1,
+      "correct_answer": "সৌহার্দ্যপূর্ণ"
     },
     {
       "id": 15,
       "question": "”লোভে পাপ, পাপে মৃত্যু” –এর ইংরেজি অনুবাদ কোনটি?",
-      "options": {
-        "ক": "Greed leads to sin and to death",
-        "খ": "Greed leaded to sin and to death",
-        "গ": "Greed leading to sin and to death",
-        "ঘ": "Greed leads to sin and death"
-      },
+      "options": [
+        "Greed leads to sin and to death",
+        "Greed leaded to sin and to death",
+        "Greed leading to sin and to death",
+        "Greed leads to sin and death"
+      ],
       "answer": "ক",
-      "explanation": "'লোভে পাপ, পাপে মৃত্যু' একটি সুপরিচিত বাংলা প্রবাদ, যার প্রচলিত ইংরেজি অনুবাদ হলো 'Greed leads to sin and to death' (বা Greed leads to sin and death)।"
+      "explanation": "'লোভে পাপ, পাপে মৃত্যু' একটি সুপরিচিত বাংলা প্রবাদ, যার প্রচলিত ইংরেজি অনুবাদ হলো 'Greed leads to sin and to death' (বা Greed leads to sin and death)।",
+      "ans": 0,
+      "correct_answer": "Greed leads to sin and to death"
     },
     {
       "id": 16,
       "question": "Find the correct sentence :",
-      "options": {
-        "ক": "Over a billion people uses Microsoft Windows Operating Systems.",
-        "খ": "Over a billion people use Microsoft Windows Operating Systems.",
-        "গ": "Over a billion peoples use Microsoft Windows Operating Systems.",
-        "ঘ": "Over a billion people using Microsoft Windows Operating Systems."
-      },
+      "options": [
+        "Over a billion people uses Microsoft Windows Operating Systems.",
+        "Over a billion people use Microsoft Windows Operating Systems.",
+        "Over a billion peoples use Microsoft Windows Operating Systems.",
+        "Over a billion people using Microsoft Windows Operating Systems."
+      ],
       "answer": "খ",
-      "explanation": "'People' নিজেই একটি Plural Noun, যার সাথে 's' যুক্ত হয় না এবং এটি Plural Verb (use) গ্রহণ করে: 'Over a billion people use Microsoft Windows Operating Systems.'"
+      "explanation": "'People' নিজেই একটি Plural Noun, যার সাথে 's' যুক্ত হয় না এবং এটি Plural Verb (use) গ্রহণ করে: 'Over a billion people use Microsoft Windows Operating Systems.'",
+      "ans": 1,
+      "correct_answer": "Over a billion people use Microsoft Windows Operating Systems."
     },
     {
       "id": 17,
       "question": "She said, “ Let me come in.” Which of the following is correct indirect form",
-      "options": {
-        "ক": "She requested that she may be allowed to come in",
-        "খ": "She requested that she might come in",
-        "গ": "She said that she come in",
-        "ঘ": "She requested that she may come in"
-      },
+      "options": [
+        "She requested that she may be allowed to come in",
+        "She requested that she might come in",
+        "She said that she come in",
+        "She requested that she may come in"
+      ],
       "answer": "খ",
-      "explanation": "'Let me' দ্বারা অনুমতি চাওয়া বোঝানোয় Indirect Speech-এ reporting verb 'requested' হয় এবং 'might come in' বা 'might be allowed to come in' বসে। তাই খ সঠিক।"
+      "explanation": "'Let me' দ্বারা অনুমতি চাওয়া বোঝানোয় Indirect Speech-এ reporting verb 'requested' হয় এবং 'might come in' বা 'might be allowed to come in' বসে। তাই খ সঠিক।",
+      "ans": 1,
+      "correct_answer": "She requested that she might come in"
     },
     {
       "id": 18,
       "question": "A rolling stone gathers no moss. Here “rolling” is?",
-      "options": {
-        "ক": "Praticiple",
-        "খ": "Adjective",
-        "গ": "Gerund",
-        "ঘ": "Verbal Noun"
-      },
+      "options": [
+        "Praticiple",
+        "Adjective",
+        "Gerund",
+        "Verbal Noun"
+      ],
       "answer": "খ",
-      "explanation": "'A rolling stone gathers no moss' বাক্যে 'rolling' শব্দটি Noun 'stone'-এর গুণ বা অবস্থা প্রকাশ করে Adjective-এর কাজ করায় অফিশিয়াল কীতে একে Adjective (খ) হিসেবে চিহ্নিত করা হয়েছে (গঠনগতভাবে এটি Participle)।"
+      "explanation": "'A rolling stone gathers no moss' বাক্যে 'rolling' শব্দটি Noun 'stone'-এর গুণ বা অবস্থা প্রকাশ করে Adjective-এর কাজ করায় অফিশিয়াল কীতে একে Adjective (খ) হিসেবে চিহ্নিত করা হয়েছে (গঠনগতভাবে এটি Participle)।",
+      "ans": 1,
+      "correct_answer": "Adjective"
     },
     {
       "id": 19,
       "question": "The --- of the camel was found lying by the side of the canal.",
-      "options": {
-        "ক": "Carcass",
-        "খ": "Corps",
-        "গ": "Corpees",
-        "ঘ": "Corpse"
-      },
+      "options": [
+        "Carcass",
+        "Corps",
+        "Corpees",
+        "Corpse"
+      ],
       "answer": "ক",
-      "explanation": "পশু বা জানোয়ারের মৃতদেহকে ইংরেজিতে 'Carcass' বলা হয়। আর মানুষের মৃতদেহকে বলা হয় 'Corpse'।"
+      "explanation": "পশু বা জানোয়ারের মৃতদেহকে ইংরেজিতে 'Carcass' বলা হয়। আর মানুষের মৃতদেহকে বলা হয় 'Corpse'।",
+      "ans": 0,
+      "correct_answer": "Carcass"
     },
     {
       "id": 20,
       "question": "`Contaminate’ Means-",
-      "options": {
-        "ক": "Think",
-        "খ": "Purify",
-        "গ": "Pollute",
-        "ঘ": "Corruption"
-      },
+      "options": [
+        "Think",
+        "Purify",
+        "Pollute",
+        "Corruption"
+      ],
       "answer": "গ",
-      "explanation": "'Contaminate' শব্দের অর্থ বিষাক্ত বা দূষিত করা। এর যথার্থ সমার্থক (synonym) শব্দ হলো 'Pollute' (দূষিত করা)। Purify হলো বিপরীত।"
+      "explanation": "'Contaminate' শব্দের অর্থ বিষাক্ত বা দূষিত করা। এর যথার্থ সমার্থক (synonym) শব্দ হলো 'Pollute' (দূষিত করা)। Purify হলো বিপরীত।",
+      "ans": 2,
+      "correct_answer": "Pollute"
     }
   ]
 }

@@ -7,182 +7,212 @@
     {
       "id": 1,
       "question": "কোনটি শুদ্ধ বানান?",
-      "options": {
-        "ক": "Agreable",
-        "খ": "Agreeable",
-        "গ": "Agreeabel",
-        "ঘ": "Agreabel"
-      },
+      "options": [
+        "Agreable",
+        "Agreeable",
+        "Agreeabel",
+        "Agreabel"
+      ],
       "answer": "খ",
-      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।"
+      "explanation": "সঠিক বানান হলো 'Collaboration' (C-o-l-l-a-b-o-r-a-t-i-o-n), যার অর্থ যৌথ উদ্যোগ বা সহযোগিতা।",
+      "ans": 1,
+      "correct_answer": "Agreeable"
     },
     {
       "id": 2,
       "question": "কোন বানানটি শুদ্ধ?",
-      "options": {
-        "ক": "Buracrat",
-        "খ": "Bureaucret",
-        "গ": "Bureaucrat",
-        "ঘ": "Buracrate"
-      },
+      "options": [
+        "Buracrat",
+        "Bureaucret",
+        "Bureaucrat",
+        "Buracrate"
+      ],
       "answer": "গ",
-      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।"
+      "explanation": "সঠিক বানান হলো 'Absorb' (A-b-s-o-r-b), যার অর্থ শোষণ করা বা আত্মস্থ করা।",
+      "ans": 2,
+      "correct_answer": "Bureaucrat"
     },
     {
       "id": 3,
       "question": "কোনটি Material Noun?",
-      "options": {
-        "ক": "Wood",
-        "খ": "Mouth",
-        "গ": "Team",
-        "ঘ": "Knife"
-      },
+      "options": [
+        "Wood",
+        "Mouth",
+        "Team",
+        "Knife"
+      ],
       "answer": "ক",
-      "explanation": "'Paper' (কাগজ) একটি বস্তুবাচক উপাদান বোঝানোয় এটি Material Noun। Book ও Ring হলো Common Noun।"
+      "explanation": "'Paper' (কাগজ) একটি বস্তুবাচক উপাদান বোঝানোয় এটি Material Noun। Book ও Ring হলো Common Noun।",
+      "ans": 0,
+      "correct_answer": "Wood"
     },
     {
       "id": 4,
       "question": "কোনটি Collective Noun?",
-      "options": {
-        "ক": "June",
-        "খ": "Team",
-        "গ": "month",
-        "ঘ": "Envelope"
-      },
+      "options": [
+        "June",
+        "Team",
+        "month",
+        "Envelope"
+      ],
       "answer": "খ",
-      "explanation": "'Library' (গ্রন্থাগার) বইয়ের সংকলন ও সমষ্টিকে বোঝানোয় এটি একটি Collective Noun।"
+      "explanation": "'Library' (গ্রন্থাগার) বইয়ের সংকলন ও সমষ্টিকে বোঝানোয় এটি একটি Collective Noun।",
+      "ans": 1,
+      "correct_answer": "Team"
     },
     {
       "id": 5,
       "question": "‘The man is climbing the cliff’ বাক্যটির Passive form হবে----",
-      "options": {
-        "ক": "The cliff is climbed by the man.",
-        "খ": "The cliff is being climbed by the man.",
-        "গ": "The cliff has been climbed by the man.",
-        "ঘ": "The cliff was being climbed by the man."
-      },
+      "options": [
+        "The cliff is climbed by the man.",
+        "The cliff is being climbed by the man.",
+        "The cliff has been climbed by the man.",
+        "The cliff was being climbed by the man."
+      ],
       "answer": "খ",
-      "explanation": "Present Continuous Tense-এর Passive রূপ: The cliff + is being + climbed + by the man। তাই খ সঠিক।"
+      "explanation": "Present Continuous Tense-এর Passive রূপ: The cliff + is being + climbed + by the man। তাই খ সঠিক।",
+      "ans": 1,
+      "correct_answer": "The cliff is being climbed by the man."
     },
     {
       "id": 6,
       "question": "‘He taught me to read Arabic’ বাক্যটির Passive form হবে----",
-      "options": {
-        "ক": "I was taught by him to read Arabic.",
-        "খ": "I have been taught by him to read Arabic.",
-        "গ": "I had been taught by him to read Arabic.",
-        "ঘ": "I was being taught by him to read Arabic."
-      },
+      "options": [
+        "I was taught by him to read Arabic.",
+        "I have been taught by him to read Arabic.",
+        "I had been taught by him to read Arabic.",
+        "I was being taught by him to read Arabic."
+      ],
       "answer": "ক",
-      "explanation": "Double object যুক্ত বাক্যে ব্যক্তিবাচক Object-কে Subject করে Passive রূপ: 'I was taught by him to read Arabic.'"
+      "explanation": "Double object যুক্ত বাক্যে ব্যক্তিবাচক Object-কে Subject করে Passive রূপ: 'I was taught by him to read Arabic.'",
+      "ans": 0,
+      "correct_answer": "I was taught by him to read Arabic."
     },
     {
       "id": 7,
       "question": "He said to me, “Wait until I come.” বাক্যটির Indirect speech হবে----",
-      "options": {
-        "ক": "He asked me to wait until he came.",
-        "খ": "He asked me to wait until he comes.",
-        "গ": "He told me to wait until he has come.",
-        "ঘ": "He told me for wait until he has returned."
-      },
+      "options": [
+        "He asked me to wait until he came.",
+        "He asked me to wait until he comes.",
+        "He told me to wait until he has come.",
+        "He told me for wait until he has returned."
+      ],
       "answer": "ক",
-      "explanation": "Imperative sentence-এর Indirect রূপ: He asked me to wait until he came (come পরিবর্তিত হয়ে came হয়)। তাই ক সঠিক।"
+      "explanation": "Imperative sentence-এর Indirect রূপ: He asked me to wait until he came (come পরিবর্তিত হয়ে came হয়)। তাই ক সঠিক।",
+      "ans": 0,
+      "correct_answer": "He asked me to wait until he came."
     },
     {
       "id": 8,
       "question": "Anwar said, “What a fool I am !” বাক্যটির Indirect speech হবে----",
-      "options": {
-        "ক": "Anwar said that he is a great fool.",
-        "খ": "Anwar told that he has been a great fool.",
-        "গ": "Anwar exclaimed that he was a great fool.",
-        "ঘ": "Anwar told that he had been a great fool."
-      },
+      "options": [
+        "Anwar said that he is a great fool.",
+        "Anwar told that he has been a great fool.",
+        "Anwar exclaimed that he was a great fool.",
+        "Anwar told that he had been a great fool."
+      ],
       "answer": "গ",
-      "explanation": "Exclamatory বাক্যের Indirect রূপ: Anwar exclaimed that he was a great fool। তাই গ সঠিক।"
+      "explanation": "Exclamatory বাক্যের Indirect রূপ: Anwar exclaimed that he was a great fool। তাই গ সঠিক।",
+      "ans": 2,
+      "correct_answer": "Anwar exclaimed that he was a great fool."
     },
     {
       "id": 9,
       "question": "Anger may be compared------fire. বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে ---",
-      "options": {
-        "ক": "with",
-        "খ": "to",
-        "গ": "on",
-        "ঘ": "against"
-      },
+      "options": [
+        "with",
+        "to",
+        "on",
+        "against"
+      ],
       "answer": "খ",
-      "explanation": "দুটি অসদৃশ বা ভিন্নধর্মী বিষয়ের তুলনার ক্ষেত্রে 'compare to' বসে: 'Anger may be compared to fire.'"
+      "explanation": "দুটি অসদৃশ বা ভিন্নধর্মী বিষয়ের তুলনার ক্ষেত্রে 'compare to' বসে: 'Anger may be compared to fire.'",
+      "ans": 1,
+      "correct_answer": "to"
     },
     {
       "id": 10,
       "question": "Feed the baby -----milk. বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে ---",
-      "options": {
-        "ক": "to",
-        "খ": "in",
-        "গ": "on",
-        "ঘ": "with"
-      },
+      "options": [
+        "to",
+        "in",
+        "on",
+        "with"
+      ],
       "answer": "গ",
-      "explanation": "শিশুকে দুধ খাইয়ে বাঁচিয়ে রাখা বোঝাতে 'feed on' বসে: 'Feed the baby on milk.'"
+      "explanation": "শিশুকে দুধ খাইয়ে বাঁচিয়ে রাখা বোঝাতে 'feed on' বসে: 'Feed the baby on milk.'",
+      "ans": 2,
+      "correct_answer": "on"
     },
     {
       "id": 11,
       "question": "নিচের কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "I feel unwell.",
-        "খ": "I took a bath.",
-        "গ": "I am somewhat sure.",
-        "ঘ": "I sold my furnitures."
-      },
-      "answer": "খ",
-      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।"
+      "options": [
+        "I feel unwell.",
+        "I took a bath.",
+        "I am somewhat sure.",
+        "I sold my furnitures."
+      ],
+      "answer": "ক",
+      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 12,
       "question": "নিচের কোন বাক্যটি শুদ্ধ?",
-      "options": {
-        "ক": "The cart was laden fully.",
-        "খ": "Your information is false.",
-        "গ": "Listen to my advices.",
-        "ঘ": "Who brought these news?"
-      },
-      "answer": "খ",
-      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।"
+      "options": [
+        "The cart was laden fully.",
+        "Your information is false.",
+        "Listen to my advices.",
+        "Who brought these news?"
+      ],
+      "answer": "ক",
+      "explanation": "কারও নাড়ি পরীক্ষা করা বা স্পন্দন দেখা বোঝাতে ইংরেজি রূপ হলো 'feel one's pulse' (Past form: felt his pulse)। তাই খ সঠিক।",
+      "ans": 0,
+      "correct_answer": "দারিদ্র্য বাংলাদেশের প্রধান সমস্যা"
     },
     {
       "id": 13,
       "question": "কোনটি ‘Joyful’ শব্দের সমার্থক শব্দ?",
-      "options": {
-        "ক": "Gloomy",
-        "খ": "Depressed",
-        "গ": "Dull",
-        "ঘ": "Cheerful"
-      },
+      "options": [
+        "Gloomy",
+        "Depressed",
+        "Dull",
+        "Cheerful"
+      ],
       "answer": "ঘ",
-      "explanation": "'Joyful' শব্দের অর্থ আনন্দময় বা প্রফুল্ল। এর যথার্থ সমার্থক (synonym) শব্দ হলো 'Cheerful' (আনন্দিত/হাসিখুশি)। Gloomy ও Depressed হলো বিষাদগ্রস্ত।"
+      "explanation": "'Joyful' শব্দের অর্থ আনন্দময় বা প্রফুল্ল। এর যথার্থ সমার্থক (synonym) শব্দ হলো 'Cheerful' (আনন্দিত/হাসিখুশি)। Gloomy ও Depressed হলো বিষাদগ্রস্ত।",
+      "ans": 3,
+      "correct_answer": "Cheerful"
     },
     {
       "id": 14,
       "question": "কোনটি ‘Vacant’ শব্দের সমার্থক শব্দ?",
-      "options": {
-        "ক": "Blank",
-        "খ": "Engaged",
-        "গ": "Busy",
-        "ঘ": "Employed"
-      },
+      "options": [
+        "Blank",
+        "Engaged",
+        "Busy",
+        "Employed"
+      ],
       "answer": "ক",
-      "explanation": "'Vacant' শব্দের অর্থ খালি বা ফাঁকা। এর যথার্থ সমার্থক শব্দ হলো 'Blank' (খালি বা অনধিকৃত)। Busy ও Engaged অর্থ ব্যস্ত।"
+      "explanation": "'Vacant' শব্দের অর্থ খালি বা ফাঁকা। এর যথার্থ সমার্থক শব্দ হলো 'Blank' (খালি বা অনধিকৃত)। Busy ও Engaged অর্থ ব্যস্ত।",
+      "ans": 0,
+      "correct_answer": "Blank"
     },
     {
       "id": 15,
       "question": "‘In black and white’ এর অর্থ ----",
-      "options": {
-        "ক": "In writing",
-        "খ": "Temporary",
-        "গ": "False",
-        "ঘ": "Verbally"
-      },
+      "options": [
+        "In writing",
+        "Temporary",
+        "False",
+        "Verbally"
+      ],
       "answer": "ক",
-      "explanation": "'In black and white' একটি বহুল প্রচলিত idiom, যার অর্থ লিখিত আকারে বা দালিলিকভাবে (In writing)।"
+      "explanation": "'In black and white' একটি বহুল প্রচলিত idiom, যার অর্থ লিখিত আকারে বা দালিলিকভাবে (In writing)।",
+      "ans": 0,
+      "correct_answer": "In writing"
     }
   ]
 }

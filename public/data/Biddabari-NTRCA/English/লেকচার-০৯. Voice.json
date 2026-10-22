@@ -20,7 +20,9 @@
         "Novels are being read by us ."
       ],
       "answer": "খ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Novels are read by us.'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Novels are read by us.'।",
+      "ans": 1,
+      "correct_answer": "Novels are read by us."
     },
     {
       "id": 2,
@@ -33,7 +35,9 @@
         "He runs a race"
       ],
       "answer": "খ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'He ran a race'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'He ran a race'।",
+      "ans": 1,
+      "correct_answer": "He ran a race"
     },
     {
       "id": 3,
@@ -46,7 +50,9 @@
         "He is being liked by all his pupils."
       ],
       "answer": "ক",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'He is liked by all his pupils.'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'He is liked by all his pupils.'।",
+      "ans": 0,
+      "correct_answer": "He is liked by all his pupils."
     },
     {
       "id": 4,
@@ -59,7 +65,9 @@
         "A letter has written by Mukti."
       ],
       "answer": "ক",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'A letter is being written by Mukti.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'A letter is being written by Mukti.'।",
+      "ans": 0,
+      "correct_answer": "A letter is being written by Mukti."
     },
     {
       "id": 5,
@@ -72,7 +80,9 @@
         "Tea have been made by Chapal."
       ],
       "answer": "খ",
-      "explanation": "Perfect Tense-এর Passive Voice গঠনে have/has/had-এর সাথে 'been' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক রূপ: 'Tea has been made by Chapal.'।"
+      "explanation": "Perfect Tense-এর Passive Voice গঠনে have/has/had-এর সাথে 'been' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক রূপ: 'Tea has been made by Chapal.'।",
+      "ans": 1,
+      "correct_answer": "Tea has been made by Chapal."
     },
     {
       "id": 6,
@@ -85,7 +95,9 @@
         "The tree has uprooted himself."
       ],
       "answer": "ক",
-      "explanation": "Perfect Tense-এর Passive Voice গঠনে have/has/had-এর সাথে 'been' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক রূপ: 'The tree has been uprooted by a storm.'।"
+      "explanation": "Perfect Tense-এর Passive Voice গঠনে have/has/had-এর সাথে 'been' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক রূপ: 'The tree has been uprooted by a storm.'।",
+      "ans": 0,
+      "correct_answer": "The tree has been uprooted by a storm."
     },
     {
       "id": 7,
@@ -98,7 +110,9 @@
         "He will be being taught by me."
       ],
       "answer": "ঘ",
-      "explanation": "Continuous Tense-এর Passive রূপান্তরে Auxiliary Verb-এর সাথে 'being' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক Passive হলো: 'He will be being taught by me.'।"
+      "explanation": "Continuous Tense-এর Passive রূপান্তরে Auxiliary Verb-এর সাথে 'being' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক Passive হলো: 'He will be being taught by me.'।",
+      "ans": 3,
+      "correct_answer": "He will be being taught by me."
     },
     {
       "id": 8,
@@ -111,7 +125,9 @@
         "Lila is fanned by herself."
       ],
       "answer": "ঘ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Lila is fanned by herself.'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Lila is fanned by herself.'।",
+      "ans": 3,
+      "correct_answer": "Lila is fanned by herself."
     },
     {
       "id": 9,
@@ -124,7 +140,9 @@
         "The house is being built."
       ],
       "answer": "ঘ",
-      "explanation": "Continuous Tense-এর Passive রূপান্তরে Auxiliary Verb-এর সাথে 'being' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক Passive হলো: 'The house is being built.'।"
+      "explanation": "Continuous Tense-এর Passive রূপান্তরে Auxiliary Verb-এর সাথে 'being' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক Passive হলো: 'The house is being built.'।",
+      "ans": 3,
+      "correct_answer": "The house is being built."
     },
     {
       "id": 10,
@@ -137,7 +155,9 @@
         "We thought him a teacher"
       ],
       "answer": "খ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'We think him to be a teacher'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'We think him to be a teacher'।",
+      "ans": 1,
+      "correct_answer": "We think him to be a teacher"
     },
     {
       "id": 11,
@@ -150,7 +170,9 @@
         "Was the mango by you eaten?"
       ],
       "answer": "খ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Was the mango eaten by you?'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Was the mango eaten by you?'।",
+      "ans": 1,
+      "correct_answer": "Was the mango eaten by you?"
     },
     {
       "id": 12,
@@ -163,7 +185,9 @@
         "Is books read by him"
       ],
       "answer": "গ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Are books read by him?'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Are books read by him?'।",
+      "ans": 2,
+      "correct_answer": "Are books read by him?"
     },
     {
       "id": 13,
@@ -176,7 +200,9 @@
         "Is fruit be eating by him?"
       ],
       "answer": "খ",
-      "explanation": "Continuous Tense-এর Passive রূপান্তরে Auxiliary Verb-এর সাথে 'being' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক Passive হলো: 'Is fruit being eaten by him?'।"
+      "explanation": "Continuous Tense-এর Passive রূপান্তরে Auxiliary Verb-এর সাথে 'being' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক Passive হলো: 'Is fruit being eaten by him?'।",
+      "ans": 1,
+      "correct_answer": "Is fruit being eaten by him?"
     },
     {
       "id": 14,
@@ -189,7 +215,9 @@
         "By whom was you given this pen?"
       ],
       "answer": "খ",
-      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom were you given this pen?'।"
+      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom were you given this pen?'।",
+      "ans": 1,
+      "correct_answer": "By whom were you given this pen?"
     },
     {
       "id": 15,
@@ -202,7 +230,9 @@
         "Let it not be done"
       ],
       "answer": "ক",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let not it be done'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let not it be done'।",
+      "ans": 0,
+      "correct_answer": "Let not it be done"
     },
     {
       "id": 16,
@@ -215,7 +245,9 @@
         "Let a letter is written by me."
       ],
       "answer": "খ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let a letter be written by me.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let a letter be written by me.'।",
+      "ans": 1,
+      "correct_answer": "Let a letter be written by me."
     },
     {
       "id": 17,
@@ -228,7 +260,9 @@
         "Let your watch is given to me."
       ],
       "answer": "ক",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let your watch be given to me.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let your watch be given to me.'।",
+      "ans": 0,
+      "correct_answer": "Let your watch be given to me."
     },
     {
       "id": 18,
@@ -241,7 +275,9 @@
         "It was known to me that the work had been done by him."
       ],
       "answer": "খ",
-      "explanation": "'know' Verb-টির Passive Voice-এ Preposition হিসেবে 'by'-এর পরিবর্তে 'to' বসে (known to)। তাই সঠিক রূপ: 'It is known to me that the work was done by him.'।"
+      "explanation": "'know' Verb-টির Passive Voice-এ Preposition হিসেবে 'by'-এর পরিবর্তে 'to' বসে (known to)। তাই সঠিক রূপ: 'It is known to me that the work was done by him.'।",
+      "ans": 1,
+      "correct_answer": "It is known to me that the work was done by him."
     },
     {
       "id": 19,
@@ -254,7 +290,9 @@
         "A telephone call will made by me"
       ],
       "answer": "ক",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'A telephone call is to be made by me'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'A telephone call is to be made by me'।",
+      "ans": 0,
+      "correct_answer": "A telephone call is to be made by me"
     },
     {
       "id": 20,
@@ -267,7 +305,9 @@
         "He think what is know to me."
       ],
       "answer": "গ",
-      "explanation": "'know' Verb-টির Passive Voice-এ Preposition হিসেবে 'by'-এর পরিবর্তে 'to' বসে (known to)। তাই সঠিক রূপ: 'What he thinks is known to me.'।"
+      "explanation": "'know' Verb-টির Passive Voice-এ Preposition হিসেবে 'by'-এর পরিবর্তে 'to' বসে (known to)। তাই সঠিক রূপ: 'What he thinks is known to me.'।",
+      "ans": 2,
+      "correct_answer": "What he thinks is known to me."
     },
     {
       "id": 21,
@@ -280,7 +320,9 @@
         "He was compelled"
       ],
       "answer": "ক",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Circumstances compelled me to do it.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Circumstances compelled me to do it.'।",
+      "ans": 0,
+      "correct_answer": "Circumstances compelled me to do it."
     },
     {
       "id": 22,
@@ -293,7 +335,9 @@
         "He was shocked on the news."
       ],
       "answer": "খ",
-      "explanation": "আচরণ বা ঘটনায় বিস্মিত হওয়া বোঝাতে Passive-এ Preposition 'at' বসে (surprised at)। তাই সঠিক উত্তর: 'He was shocked at the news.'।"
+      "explanation": "আচরণ বা ঘটনায় বিস্মিত হওয়া বোঝাতে Passive-এ Preposition 'at' বসে (surprised at)। তাই সঠিক উত্তর: 'He was shocked at the news.'।",
+      "ans": 1,
+      "correct_answer": "He was shocked at the news."
     },
     {
       "id": 23,
@@ -306,7 +350,9 @@
         "Let the window be opened."
       ],
       "answer": "ঘ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let the window be opened.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let the window be opened.'।",
+      "ans": 3,
+      "correct_answer": "Let the window be opened."
     },
     {
       "id": 24,
@@ -319,7 +365,9 @@
         "By whom this had been done?"
       ],
       "answer": "ক",
-      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom was this done?'।"
+      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom was this done?'।",
+      "ans": 0,
+      "correct_answer": "By whom was this done?"
     },
     {
       "id": 25,
@@ -332,7 +380,9 @@
         "None"
       ],
       "answer": "ক",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'He does not watch movies'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'He does not watch movies'।",
+      "ans": 0,
+      "correct_answer": "He does not watch movies"
     },
     {
       "id": 26,
@@ -345,7 +395,9 @@
         "The door is opened"
       ],
       "answer": "ক",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let the door be opened'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let the door be opened'।",
+      "ans": 0,
+      "correct_answer": "Let the door be opened"
     },
     {
       "id": 27,
@@ -358,7 +410,9 @@
         "Let the work to be done."
       ],
       "answer": "খ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let the work be done.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let the work be done.'।",
+      "ans": 1,
+      "correct_answer": "Let the work be done."
     },
     {
       "id": 28,
@@ -371,7 +425,9 @@
         "The door may be shut."
       ],
       "answer": "খ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let the door be shut.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let the door be shut.'।",
+      "ans": 1,
+      "correct_answer": "Let the door be shut."
     },
     {
       "id": 29,
@@ -384,7 +440,9 @@
         "He was taught English by me."
       ],
       "answer": "ক",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'He is taught English by me.'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'He is taught English by me.'।",
+      "ans": 0,
+      "correct_answer": "He is taught English by me."
     },
     {
       "id": 30,
@@ -397,7 +455,9 @@
         "He has been called a full by us"
       ],
       "answer": "খ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'He was called a fool by us'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'He was called a fool by us'।",
+      "ans": 1,
+      "correct_answer": "He was called a fool by us"
     },
     {
       "id": 31,
@@ -410,7 +470,9 @@
         "Let a flower plucked by me."
       ],
       "answer": "খ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let a flower be plucked for me.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let a flower be plucked for me.'।",
+      "ans": 1,
+      "correct_answer": "Let a flower be plucked for me."
     },
     {
       "id": 32,
@@ -423,7 +485,9 @@
         "A Promise should be kept"
       ],
       "answer": "ঘ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'A Promise should be kept'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'A Promise should be kept'।",
+      "ans": 3,
+      "correct_answer": "A Promise should be kept"
     },
     {
       "id": 33,
@@ -436,7 +500,9 @@
         "This work will have been finished by tomorrow."
       ],
       "answer": "ঘ",
-      "explanation": "Perfect Tense-এর Passive Voice গঠনে have/has/had-এর সাথে 'been' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক রূপ: 'This work will have been finished by tomorrow.'।"
+      "explanation": "Perfect Tense-এর Passive Voice গঠনে have/has/had-এর সাথে 'been' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক রূপ: 'This work will have been finished by tomorrow.'।",
+      "ans": 3,
+      "correct_answer": "This work will have been finished by tomorrow."
     },
     {
       "id": 34,
@@ -449,7 +515,9 @@
         "Whom has this jug been broken?"
       ],
       "answer": "ক",
-      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom has this jug been broken?'।"
+      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom has this jug been broken?'।",
+      "ans": 0,
+      "correct_answer": "By whom has this jug been broken?"
     },
     {
       "id": 35,
@@ -462,7 +530,9 @@
         "The flute was being played by her."
       ],
       "answer": "খ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'The flute was played on by her.'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'The flute was played on by her.'।",
+      "ans": 1,
+      "correct_answer": "The flute was played on by her."
     },
     {
       "id": 36,
@@ -475,7 +545,9 @@
         "Let not door closed."
       ],
       "answer": "খ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let not the door be closed.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let not the door be closed.'।",
+      "ans": 1,
+      "correct_answer": "Let not the door be closed."
     },
     {
       "id": 37,
@@ -488,7 +560,9 @@
         "A traitor is not trusted by anybody."
       ],
       "answer": "ঘ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'A traitor is not trusted by anybody.'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'A traitor is not trusted by anybody.'।",
+      "ans": 3,
+      "correct_answer": "A traitor is not trusted by anybody."
     },
     {
       "id": 38,
@@ -501,7 +575,9 @@
         "By whom were you taught French?"
       ],
       "answer": "ঘ",
-      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom were you taught French?'।"
+      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom were you taught French?'।",
+      "ans": 3,
+      "correct_answer": "By whom were you taught French?"
     },
     {
       "id": 39,
@@ -514,7 +590,9 @@
         "You have been requested to help me"
       ],
       "answer": "গ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'You are requested to help me'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'You are requested to help me'।",
+      "ans": 2,
+      "correct_answer": "You are requested to help me"
     },
     {
       "id": 40,
@@ -527,7 +605,9 @@
         "I was promised by my uncle a present"
       ],
       "answer": "খ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'I was promised a present by my uncle'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'I was promised a present by my uncle'।",
+      "ans": 1,
+      "correct_answer": "I was promised a present by my uncle"
     },
     {
       "id": 41,
@@ -540,7 +620,9 @@
         "Why is time being wasted by you?"
       ],
       "answer": "ক",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Why is time wasted by you?'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Why is time wasted by you?'।",
+      "ans": 0,
+      "correct_answer": "Why is time wasted by you?"
     },
     {
       "id": 42,
@@ -553,7 +635,9 @@
         "We teach English to him."
       ],
       "answer": "ক",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'We are taught English by him.'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'We are taught English by him.'।",
+      "ans": 0,
+      "correct_answer": "We are taught English by him."
     },
     {
       "id": 43,
@@ -566,7 +650,9 @@
         "Whom am I called by?"
       ],
       "answer": "গ",
-      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom am I being called?'।"
+      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom am I being called?'।",
+      "ans": 2,
+      "correct_answer": "By whom am I being called?"
     },
     {
       "id": 44,
@@ -579,7 +665,9 @@
         "Are they known to you?"
       ],
       "answer": "ঘ",
-      "explanation": "'know' Verb-টির Passive Voice-এ Preposition হিসেবে 'by'-এর পরিবর্তে 'to' বসে (known to)। তাই সঠিক রূপ: 'Are they known to you?'।"
+      "explanation": "'know' Verb-টির Passive Voice-এ Preposition হিসেবে 'by'-এর পরিবর্তে 'to' বসে (known to)। তাই সঠিক রূপ: 'Are they known to you?'।",
+      "ans": 3,
+      "correct_answer": "Are they known to you?"
     },
     {
       "id": 45,
@@ -592,7 +680,9 @@
         "This can’t be done"
       ],
       "answer": "খ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'This is impossible to be done'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'This is impossible to be done'।",
+      "ans": 1,
+      "correct_answer": "This is impossible to be done"
     },
     {
       "id": 46,
@@ -605,7 +695,9 @@
         "By whom had the tree been planted here?"
       ],
       "answer": "ক",
-      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom was this tree planted here?'।"
+      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom was this tree planted here?'।",
+      "ans": 0,
+      "correct_answer": "By whom was this tree planted here?"
     },
     {
       "id": 47,
@@ -618,7 +710,9 @@
         "These doors must be shut."
       ],
       "answer": "ঘ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'These doors must be shut.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'These doors must be shut.'।",
+      "ans": 3,
+      "correct_answer": "These doors must be shut."
     },
     {
       "id": 48,
@@ -631,7 +725,9 @@
         "He is known to me."
       ],
       "answer": "ঘ",
-      "explanation": "'know' Verb-টির Passive Voice-এ Preposition হিসেবে 'by'-এর পরিবর্তে 'to' বসে (known to)। তাই সঠিক রূপ: 'He is known to me.'।"
+      "explanation": "'know' Verb-টির Passive Voice-এ Preposition হিসেবে 'by'-এর পরিবর্তে 'to' বসে (known to)। তাই সঠিক রূপ: 'He is known to me.'।",
+      "ans": 3,
+      "correct_answer": "He is known to me."
     },
     {
       "id": 49,
@@ -644,7 +740,9 @@
         "Even a little mouse ought to help a lion."
       ],
       "answer": "খ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Even a little mouse may help a lion.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Even a little mouse may help a lion.'।",
+      "ans": 1,
+      "correct_answer": "Even a little mouse may help a lion."
     },
     {
       "id": 50,
@@ -657,7 +755,9 @@
         "All the good qualities are embodied on my teacher."
       ],
       "answer": "খ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'All the good qualities are embodied in my teacher.'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'All the good qualities are embodied in my teacher.'।",
+      "ans": 1,
+      "correct_answer": "All the good qualities are embodied in my teacher."
     },
     {
       "id": 51,
@@ -670,7 +770,9 @@
         "A shop is going to be opened by him."
       ],
       "answer": "ঘ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'A shop is going to be opened by him.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'A shop is going to be opened by him.'।",
+      "ans": 3,
+      "correct_answer": "A shop is going to be opened by him."
     },
     {
       "id": 52,
@@ -683,7 +785,9 @@
         "By whom the work will be done?"
       ],
       "answer": "গ",
-      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom will the work be done?'।"
+      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom will the work be done?'।",
+      "ans": 2,
+      "correct_answer": "By whom will the work be done?"
     },
     {
       "id": 53,
@@ -696,7 +800,9 @@
         "Idle people are not of our liking."
       ],
       "answer": "গ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Idle people are not liked by us.'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Idle people are not liked by us.'।",
+      "ans": 2,
+      "correct_answer": "Idle people are not liked by us."
     },
     {
       "id": 54,
@@ -709,7 +815,9 @@
         "A new cabinet has sworn in Dhaka."
       ],
       "answer": "ক",
-      "explanation": "Perfect Tense-এর Passive Voice গঠনে have/has/had-এর সাথে 'been' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক রূপ: 'A new cabinet has been sworn in in Dhaka.'।"
+      "explanation": "Perfect Tense-এর Passive Voice গঠনে have/has/had-এর সাথে 'been' যুক্ত হয় এবং মূল Verb-এর Past Participle (V3) বসে। তাই সঠিক রূপ: 'A new cabinet has been sworn in in Dhaka.'।",
+      "ans": 0,
+      "correct_answer": "A new cabinet has been sworn in in Dhaka."
     },
     {
       "id": 55,
@@ -722,7 +830,9 @@
         "A letter was been written by Sheila."
       ],
       "answer": "গ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'A letter was being written by Sheila'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'A letter was being written by Sheila'।",
+      "ans": 2,
+      "correct_answer": "A letter was being written by Sheila"
     },
     {
       "id": 56,
@@ -735,7 +845,9 @@
         "The patriots are always remembered."
       ],
       "answer": "ঘ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'The patriots are always remembered.'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'The patriots are always remembered.'।",
+      "ans": 3,
+      "correct_answer": "The patriots are always remembered."
     },
     {
       "id": 57,
@@ -748,7 +860,9 @@
         "I will be going to write a letter."
       ],
       "answer": "ক",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'I am going to write a letter.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'I am going to write a letter.'।",
+      "ans": 0,
+      "correct_answer": "I am going to write a letter."
     },
     {
       "id": 58,
@@ -761,7 +875,9 @@
         "Why we want to do it will be explained by us."
       ],
       "answer": "ঘ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Why we want to do it will be explained by us.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Why we want to do it will be explained by us.'।",
+      "ans": 3,
+      "correct_answer": "Why we want to do it will be explained by us."
     },
     {
       "id": 59,
@@ -774,7 +890,9 @@
         "Everybody would be satisfied at him."
       ],
       "answer": "গ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Everybody was satisfied with him.'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'Everybody was satisfied with him.'।",
+      "ans": 2,
+      "correct_answer": "Everybody was satisfied with him."
     },
     {
       "id": 60,
@@ -787,7 +905,9 @@
         "We must take care of our health"
       ],
       "answer": "খ",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'One should take care of one’s health'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'One should take care of one’s health'।",
+      "ans": 1,
+      "correct_answer": "One should take care of one’s health"
     },
     {
       "id": 61,
@@ -800,7 +920,9 @@
         "By whom am I being called?"
       ],
       "answer": "ঘ",
-      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom am I being called?'।"
+      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom am I being called?'।",
+      "ans": 3,
+      "correct_answer": "By whom am I being called?"
     },
     {
       "id": 62,
@@ -813,7 +935,9 @@
         "Let not time never wasted."
       ],
       "answer": "গ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let not time ever be wasted.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let not time ever be wasted.'।",
+      "ans": 2,
+      "correct_answer": "Let not time ever be wasted."
     },
     {
       "id": 63,
@@ -826,7 +950,9 @@
         "A telephone call will to make by me."
       ],
       "answer": "ক",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'A telephone call is to be made by me.'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'A telephone call is to be made by me.'।",
+      "ans": 0,
+      "correct_answer": "A telephone call is to be made by me."
     },
     {
       "id": 64,
@@ -839,7 +965,9 @@
         "By whom will he be paid?"
       ],
       "answer": "ঘ",
-      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom will he be paid?'।"
+      "explanation": "Active Voice-এ 'Who' থাকলে Passive-এ 'By whom' দিয়ে শুরু হয় এবং গঠন: By whom + Auxiliary Verb + Subject + V3? তাই সঠিক উত্তর: 'By whom will he be paid?'।",
+      "ans": 3,
+      "correct_answer": "By whom will he be paid?"
     },
     {
       "id": 65,
@@ -852,7 +980,9 @@
         "This problem is solved by you."
       ],
       "answer": "গ",
-      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let the problem be solved.'।"
+      "explanation": "Imperative Sentence-এর Passive Voice গঠনের নিয়ম: Let + Object + be + V3 (Past Participle)। সেই অনুযায়ী সঠিক রূপ হলো: 'Let the problem be solved.'।",
+      "ans": 2,
+      "correct_answer": "Let the problem be solved."
     },
     {
       "id": 66,
@@ -865,7 +995,9 @@
         "A day was not built by Rome"
       ],
       "answer": "ক",
-      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'The Romans did not build Rome in a day'।"
+      "explanation": "Voice পরিবর্তনের নিয়ম অনুযায়ী: Object-টি Subject হয় + Tense অনুযায়ী Auxiliary Verb বসে + মূল Verb-এর Past Participle (V3) + by + Subject-টি Object হয়। সেই অনুযায়ী সঠিক পরিবর্তিত বাক্য: 'The Romans did not build Rome in a day'।",
+      "ans": 0,
+      "correct_answer": "The Romans did not build Rome in a day"
     }
   ]
 }

@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "The police is looking _____ the case. (Fill in the blank)",
-      "options": {
-        "ক": "on",
-        "খ": "on",
-        "গ": "into",
-        "ঘ": "of"
-      },
+      "options": [
+        "on",
+        "on",
+        "into",
+        "of"
+      ],
       "answer": "গ",
-      "explanation": "কোনো ঘটনা বা মামলা তদন্ত করা বোঝাতে Phrasal verb 'Look into' ব্যবহৃত হয় ('look into the case')।"
+      "explanation": "কোনো ঘটনা বা মামলা তদন্ত করা বোঝাতে Phrasal verb 'Look into' ব্যবহৃত হয় ('look into the case')।",
+      "ans": 2,
+      "correct_answer": "into"
     },
     {
       "id": 2,
       "question": "Due to financial crisis, thirty more people _____ last week. (Fill in the blank)",
-      "options": {
-        "ক": "were lie off",
-        "খ": "were laying off",
-        "গ": "were layed off",
-        "ঘ": "were laid off"
-      },
+      "options": [
+        "were lie off",
+        "were laying off",
+        "were layed off",
+        "were laid off"
+      ],
       "answer": "ঘ",
-      "explanation": "প্রতিষ্ঠান থেকে সাময়িক বা স্থায়ীভাবে কর্মী ছাঁটাই করার Group verb হলো 'Lay off'। অতীতে Passive Voice-এ 'were laid off' সঠিক।"
+      "explanation": "প্রতিষ্ঠান থেকে সাময়িক বা স্থায়ীভাবে কর্মী ছাঁটাই করার Group verb হলো 'Lay off'। অতীতে Passive Voice-এ 'were laid off' সঠিক।",
+      "ans": 3,
+      "correct_answer": "were laid off"
     },
     {
       "id": 3,
       "question": "A sixteen year old is not _____ to vote in the national election. (Fill in the blank)",
-      "options": {
-        "ক": "as old enough",
-        "খ": "old enough",
-        "গ": "enough",
-        "ঘ": "enough old as"
-      },
+      "options": [
+        "as old enough",
+        "old enough",
+        "enough",
+        "enough old as"
+      ],
       "answer": "খ",
-      "explanation": "Adjective-এর পর 'enough' বসে (Adjective + enough + to + V1)। তাই 'old enough to vote' সঠিক গঠন।"
+      "explanation": "Adjective-এর পর 'enough' বসে (Adjective + enough + to + V1)। তাই 'old enough to vote' সঠিক গঠন।",
+      "ans": 1,
+      "correct_answer": "old enough"
     },
     {
       "id": 4,
       "question": "Honesty is indispensable _____ success. (Fill in the blank)",
-      "options": {
-        "ক": "about",
-        "খ": "for",
-        "গ": "at",
-        "ঘ": "of"
-      },
+      "options": [
+        "about",
+        "for",
+        "at",
+        "of"
+      ],
       "answer": "খ",
-      "explanation": "অপরিহার্য বোঝাতে Indispensable-এর সাথে Preposition 'to' বা 'for' ব্যবহৃত হয়। সাফল্যের জন্য অপরিহার্য অর্থে 'indispensable for success' সঠিক।"
+      "explanation": "অপরিহার্য বোঝাতে Indispensable-এর সাথে Preposition 'to' বা 'for' ব্যবহৃত হয়। সাফল্যের জন্য অপরিহার্য অর্থে 'indispensable for success' সঠিক।",
+      "ans": 1,
+      "correct_answer": "for"
     },
     {
       "id": 5,
       "question": "I can not _____ what you say. (Fill in the blank)",
-      "options": {
-        "ক": "make over",
-        "খ": "take over",
-        "গ": "make out",
-        "ঘ": "take out"
-      },
+      "options": [
+        "make over",
+        "take over",
+        "make out",
+        "take out"
+      ],
       "answer": "গ",
-      "explanation": "কোনো কথা বা লেখার অর্থ বুঝতে পারা বোঝাতে Phrasal verb 'Make out' (understand) ব্যবহৃত হয়: 'I cannot make out what you say' (তুমি কী বলছ আমি বুঝতে পারছি না)।"
+      "explanation": "কোনো কথা বা লেখার অর্থ বুঝতে পারা বোঝাতে Phrasal verb 'Make out' (understand) ব্যবহৃত হয়: 'I cannot make out what you say' (তুমি কী বলছ আমি বুঝতে পারছি না)।",
+      "ans": 2,
+      "correct_answer": "make out"
     },
     {
       "id": 6,
       "question": "Everybody should _____ their old parents. (Fill in the blank)",
-      "options": {
-        "ক": "look after",
-        "খ": "look up",
-        "গ": "look of",
-        "ঘ": "look into"
-      },
+      "options": [
+        "look after",
+        "look up",
+        "look of",
+        "look into"
+      ],
       "answer": "ক",
-      "explanation": "বৃদ্ধ বাবা-মায়ের সেবাযত্ন বা দেখাশোনা করা বোঝাতে Phrasal verb 'Look after' (take care of) ব্যবহৃত হয়। তাই (ক) সঠিক।"
+      "explanation": "বৃদ্ধ বাবা-মায়ের সেবাযত্ন বা দেখাশোনা করা বোঝাতে Phrasal verb 'Look after' (take care of) ব্যবহৃত হয়। তাই (ক) সঠিক।",
+      "ans": 0,
+      "correct_answer": "look after"
     },
     {
       "id": 7,
       "question": "The teacher is popular _____ his students. (Fill in the blank)",
-      "options": {
-        "ক": "at",
-        "খ": "upon",
-        "গ": "with",
-        "ঘ": "for"
-      },
+      "options": [
+        "at",
+        "upon",
+        "with",
+        "for"
+      ],
       "answer": "গ",
-      "explanation": "কারও কাছে বা কোনো মহলে জনপ্রিয় হওয়া বোঝাতে 'Popular with' (বা popular among) বসে। শিক্ষার্থীদের কাছে জনপ্রিয় অর্থে 'popular with his students' সঠিক।"
+      "explanation": "কারও কাছে বা কোনো মহলে জনপ্রিয় হওয়া বোঝাতে 'Popular with' (বা popular among) বসে। শিক্ষার্থীদের কাছে জনপ্রিয় অর্থে 'popular with his students' সঠিক।",
+      "ans": 2,
+      "correct_answer": "with"
     },
     {
       "id": 8,
       "question": "He has _____ M.A. from a public university. (Fill in the blank)",
-      "options": {
-        "ক": "the",
-        "খ": "a",
-        "গ": "an",
-        "ঘ": "none of these"
-      },
+      "options": [
+        "the",
+        "a",
+        "an",
+        "none of these"
+      ],
       "answer": "গ",
-      "explanation": "সংক্ষিপ্ত পদবীর আদ্যক্ষর 'M' উচ্চারণে শুরুতে স্বরধ্বনি 'এ' (e) উচ্চারিত হওয়ায় এর পূর্বে Article 'an' বসে: 'an M.A.'।"
+      "explanation": "সংক্ষিপ্ত পদবীর আদ্যক্ষর 'M' উচ্চারণে শুরুতে স্বরধ্বনি 'এ' (e) উচ্চারিত হওয়ায় এর পূর্বে Article 'an' বসে: 'an M.A.'।",
+      "ans": 2,
+      "correct_answer": "an"
     },
     {
       "id": 9,
       "question": "\"Scarcity\" শব্দের সঠিক অর্থ কোনটি?",
-      "options": {
-        "ক": "স্থূল",
-        "খ": "প্রাচুর্য",
-        "গ": "স্বল্পতা",
-        "ঘ": "কর্কশ"
-      },
+      "options": [
+        "স্থূল",
+        "প্রাচুর্য",
+        "স্বল্পতা",
+        "কর্কশ"
+      ],
       "answer": "গ",
-      "explanation": "'Scarcity' অর্থ অভাব, অপ্রতুলতা বা স্বল্পতা (shortage/dearth)। এর বিপরীত শব্দ হলো Abundance (প্রাচুর্য)।"
+      "explanation": "'Scarcity' অর্থ অভাব, অপ্রতুলতা বা স্বল্পতা (shortage/dearth)। এর বিপরীত শব্দ হলো Abundance (প্রাচুর্য)।",
+      "ans": 2,
+      "correct_answer": "স্বল্পতা"
     },
     {
       "id": 10,
       "question": "\"Curtail\" শব্দের সঠিক অর্থ কোনটি?",
-      "options": {
-        "ক": "সংক্ষিপ্ত করা",
-        "খ": "শুরু",
-        "গ": "চোখ বুলানো",
-        "ঘ": "প্রচুর"
-      },
+      "options": [
+        "সংক্ষিপ্ত করা",
+        "শুরু",
+        "চোখ বুলানো",
+        "প্রচুর"
+      ],
       "answer": "ক",
-      "explanation": "'Curtail' অর্থ সংক্ষিপ্ত করা, কমানো বা ছাঁটাই করা (reduce/shorten/cut down)।"
+      "explanation": "'Curtail' অর্থ সংক্ষিপ্ত করা, কমানো বা ছাঁটাই করা (reduce/shorten/cut down)।",
+      "ans": 0,
+      "correct_answer": "সংক্ষিপ্ত করা"
     },
     {
       "id": 11,
       "question": "\"Divulge\" শব্দের সঠিক অর্থ কোনটি?",
-      "options": {
-        "ক": "ইঙ্গিত দেয়া",
-        "খ": "ছাড়াইয়া দেয়া",
-        "গ": "অল্প পরিমাণ",
-        "ঘ": "প্রকাশ করা"
-      },
+      "options": [
+        "ইঙ্গিত দেয়া",
+        "ছাড়াইয়া দেয়া",
+        "অল্প পরিমাণ",
+        "প্রকাশ করা"
+      ],
       "answer": "ঘ",
-      "explanation": "'Divulge' অর্থ গোপন তথ্য প্রকাশ বা ফাঁস করা (reveal/disclose a secret)।"
+      "explanation": "'Divulge' অর্থ গোপন তথ্য প্রকাশ বা ফাঁস করা (reveal/disclose a secret)।",
+      "ans": 3,
+      "correct_answer": "প্রকাশ করা"
     },
     {
       "id": 12,
       "question": "\"Provoke\" শব্দের সঠিক অর্থ কোনটি?",
-      "options": {
-        "ক": "উস্কানি দেয়া",
-        "খ": "নিন্দা করা",
-        "গ": "বিরত রাখা",
-        "ঘ": "ঘৃণা করা"
-      },
+      "options": [
+        "উস্কানি দেয়া",
+        "নিন্দা করা",
+        "বিরত রাখা",
+        "ঘৃণা করা"
+      ],
       "answer": "ক",
-      "explanation": "'Provoke' অর্থ কাউকে উত্তেজিত করা, উসকানি দেওয়া বা ক্ষুব্ধ করা (instigate/incite/anger)।"
+      "explanation": "'Provoke' অর্থ কাউকে উত্তেজিত করা, উসকানি দেওয়া বা ক্ষুব্ধ করা (instigate/incite/anger)।",
+      "ans": 0,
+      "correct_answer": "উস্কানি দেয়া"
     },
     {
       "id": 13,
       "question": "\"Transparent\" শব্দের সঠিক অর্থ কোনটি?",
-      "options": {
-        "ক": "উজ্জীবিত",
-        "খ": "প্রাণবন্ত",
-        "গ": "স্বচ্ছ",
-        "ঘ": "ঘোলাটে"
-      },
+      "options": [
+        "উজ্জীবিত",
+        "প্রাণবন্ত",
+        "স্বচ্ছ",
+        "ঘোলাটে"
+      ],
       "answer": "গ",
-      "explanation": "'Transparent' অর্থ স্বচ্ছ বা যার মধ্য দিয়ে আলো স্পষ্টভাবে চলাচল করতে পারে (clear/see-through)। এর বিপরীত Opaque (অস্বচ্ছ)।"
+      "explanation": "'Transparent' অর্থ স্বচ্ছ বা যার মধ্য দিয়ে আলো স্পষ্টভাবে চলাচল করতে পারে (clear/see-through)। এর বিপরীত Opaque (অস্বচ্ছ)।",
+      "ans": 2,
+      "correct_answer": "স্বচ্ছ"
     },
     {
       "id": 14,
       "question": "Which of the following spelling is correct?",
-      "options": {
-        "ক": "apprihend",
-        "খ": "apprihand",
-        "গ": "apprehend",
-        "ঘ": "apprehand"
-      },
+      "options": [
+        "apprihend",
+        "apprihand",
+        "apprehend",
+        "apprehand"
+      ],
       "answer": "গ",
-      "explanation": "প্রামাণ্য বা কর্তৃত্বপূর্ণ অর্থে সঠিক বানানটি হলো 'Authoritative' (A-U-T-H-O-R-I-T-A-T-I-V-E)।"
+      "explanation": "প্রামাণ্য বা কর্তৃত্বপূর্ণ অর্থে সঠিক বানানটি হলো 'Authoritative' (A-U-T-H-O-R-I-T-A-T-I-V-E)।",
+      "ans": 2,
+      "correct_answer": "apprehend"
     },
     {
       "id": 15,
       "question": "Which of the following spelling is correct?",
-      "options": {
-        "ক": "subtract",
-        "খ": "substract",
-        "গ": "substruct",
-        "ঘ": "subtruct"
-      },
+      "options": [
+        "subtract",
+        "substract",
+        "substruct",
+        "subtruct"
+      ],
       "answer": "ক",
-      "explanation": "প্রামাণ্য বা কর্তৃত্বপূর্ণ অর্থে সঠিক বানানটি হলো 'Authoritative' (A-U-T-H-O-R-I-T-A-T-I-V-E)।"
+      "explanation": "প্রামাণ্য বা কর্তৃত্বপূর্ণ অর্থে সঠিক বানানটি হলো 'Authoritative' (A-U-T-H-O-R-I-T-A-T-I-V-E)।",
+      "ans": 0,
+      "correct_answer": "subtract"
     },
     {
       "id": 16,
       "question": "Which of the following spelling is correct?",
-      "options": {
-        "ক": "coruption",
-        "খ": "corupsion",
-        "গ": "coraption",
-        "ঘ": "corruption"
-      },
+      "options": [
+        "coruption",
+        "corupsion",
+        "coraption",
+        "corruption"
+      ],
       "answer": "ঘ",
-      "explanation": "প্রামাণ্য বা কর্তৃত্বপূর্ণ অর্থে সঠিক বানানটি হলো 'Authoritative' (A-U-T-H-O-R-I-T-A-T-I-V-E)।"
+      "explanation": "প্রামাণ্য বা কর্তৃত্বপূর্ণ অর্থে সঠিক বানানটি হলো 'Authoritative' (A-U-T-H-O-R-I-T-A-T-I-V-E)।",
+      "ans": 3,
+      "correct_answer": "corruption"
     },
     {
       "id": 17,
       "question": "Which of the following spelling is correct?",
-      "options": {
-        "ক": "appropiat",
-        "খ": "apropriate",
-        "গ": "appropriate",
-        "ঘ": "apropriet"
-      },
+      "options": [
+        "appropiat",
+        "apropriate",
+        "appropriate",
+        "apropriet"
+      ],
       "answer": "গ",
-      "explanation": "প্রামাণ্য বা কর্তৃত্বপূর্ণ অর্থে সঠিক বানানটি হলো 'Authoritative' (A-U-T-H-O-R-I-T-A-T-I-V-E)।"
+      "explanation": "প্রামাণ্য বা কর্তৃত্বপূর্ণ অর্থে সঠিক বানানটি হলো 'Authoritative' (A-U-T-H-O-R-I-T-A-T-I-V-E)।",
+      "ans": 2,
+      "correct_answer": "appropriate"
     },
     {
       "id": 18,
       "question": "Which of the following spelling is correct?",
-      "options": {
-        "ক": "authoratative",
-        "খ": "authoritative",
-        "গ": "autheritative",
-        "ঘ": "athoratative"
-      },
+      "options": [
+        "authoratative",
+        "authoritative",
+        "autheritative",
+        "athoratative"
+      ],
       "answer": "খ",
-      "explanation": "প্রামাণ্য বা কর্তৃত্বপূর্ণ অর্থে সঠিক বানানটি হলো 'Authoritative' (A-U-T-H-O-R-I-T-A-T-I-V-E)।"
+      "explanation": "প্রামাণ্য বা কর্তৃত্বপূর্ণ অর্থে সঠিক বানানটি হলো 'Authoritative' (A-U-T-H-O-R-I-T-A-T-I-V-E)।",
+      "ans": 1,
+      "correct_answer": "authoritative"
     },
     {
       "id": 19,
       "question": "Which of the following sentence is correct?",
-      "options": {
-        "ক": "The man was tall who stole my bag.",
-        "খ": "The man stole my bag who was tall.",
-        "গ": "The man stole my bag who is tall.",
-        "ঘ": "The man who stole my bag was tall."
-      },
+      "options": [
+        "The man was tall who stole my bag.",
+        "The man stole my bag who was tall.",
+        "The man stole my bag who is tall.",
+        "The man who stole my bag was tall."
+      ],
       "answer": "ঘ",
-      "explanation": "নির্দিষ্ট শার্টের পরিচয় দিতে এবং Defining relative clause হিসেবে 'The shirt which he bought is blue in colour' বাক্যটি ব্যাকরণগতভাবে সম্পূর্ণ শুদ্ধ।"
+      "explanation": "নির্দিষ্ট শার্টের পরিচয় দিতে এবং Defining relative clause হিসেবে 'The shirt which he bought is blue in colour' বাক্যটি ব্যাকরণগতভাবে সম্পূর্ণ শুদ্ধ।",
+      "ans": 3,
+      "correct_answer": "The man who stole my bag was tall."
     },
     {
       "id": 20,
       "question": "Which of the following sentence is correct?",
-      "options": {
-        "ক": "Do you know where does he lives?",
-        "খ": "Do you know where he lives?",
-        "গ": "Do you know where does he lives?",
-        "ঘ": "Do you know he lives where?"
-      },
+      "options": [
+        "Do you know where does he lives?",
+        "Do you know where he lives?",
+        "Do you know where does he lives?",
+        "Do you know he lives where?"
+      ],
       "answer": "খ",
-      "explanation": "নির্দিষ্ট শার্টের পরিচয় দিতে এবং Defining relative clause হিসেবে 'The shirt which he bought is blue in colour' বাক্যটি ব্যাকরণগতভাবে সম্পূর্ণ শুদ্ধ।"
+      "explanation": "নির্দিষ্ট শার্টের পরিচয় দিতে এবং Defining relative clause হিসেবে 'The shirt which he bought is blue in colour' বাক্যটি ব্যাকরণগতভাবে সম্পূর্ণ শুদ্ধ।",
+      "ans": 1,
+      "correct_answer": "Do you know where he lives?"
     }
   ]
 }

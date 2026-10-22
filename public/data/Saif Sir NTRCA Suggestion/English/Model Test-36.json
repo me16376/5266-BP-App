@@ -7,362 +7,422 @@
     {
       "id": 1,
       "question": "Choose the correct affirmative-",
-      "options": {
-        "ক": "Everyone must submit to one's fate",
-        "খ": "Everyone cannot escape his fate",
-        "গ": "Everyone accept his fate",
-        "ঘ": "Everyone cane scape his fate"
-      },
+      "options": [
+        "Everyone must submit to one's fate",
+        "Everyone cannot escape his fate",
+        "Everyone accept his fate",
+        "Everyone cane scape his fate"
+      ],
       "answer": "ক",
-      "explanation": "'Everyone cannot escape his fate'-এর উপযুক্ত সদর্থক (Affirmative) রূপ হলো 'Everyone must submit to one's fate' (প্রত্যেককেই তার ভাগ্যের কাছে আত্মসমর্পণ করতে হবে)।"
+      "explanation": "'Everyone cannot escape his fate'-এর উপযুক্ত সদর্থক (Affirmative) রূপ হলো 'Everyone must submit to one's fate' (প্রত্যেককেই তার ভাগ্যের কাছে আত্মসমর্পণ করতে হবে)।",
+      "ans": 0,
+      "correct_answer": "Everyone must submit to one's fate"
     },
     {
       "id": 2,
       "question": "Sujon had been ______ the rum ever since the stain councilors' brother filed the case.",
-      "options": {
-        "ক": "after",
-        "খ": "in",
-        "গ": "on",
-        "ঘ": "to"
-      },
+      "options": [
+        "after",
+        "in",
+        "on",
+        "to"
+      ],
       "answer": "খ",
-      "explanation": "পুলিশের হাত থেকে ফেরারি থাকা বা পালিয়ে বেড়ানো বোঝাতে ইংরেজি Idiom হলো 'On the run'। প্রশ্নে rum মূলত run হবে। অপশন (খ) সঠিক।"
+      "explanation": "পুলিশের হাত থেকে ফেরারি থাকা বা পালিয়ে বেড়ানো বোঝাতে ইংরেজি Idiom হলো 'On the run'। প্রশ্নে rum মূলত run হবে। অপশন (খ) সঠিক।",
+      "ans": 1,
+      "correct_answer": "in"
     },
     {
       "id": 3,
       "question": "Indentify the correct sentence-",
-      "options": {
-        "ক": "Fortunately, the explosin killed person one only",
-        "খ": "Fotunately, the explosion killed on one person.",
-        "গ": "Only fortunately, the explosion killed only one person",
-        "ঘ": "Fortunately , only explosion killed one person"
-      },
+      "options": [
+        "Fortunately, the explosin killed person one only",
+        "Fotunately, the explosion killed on one person.",
+        "Only fortunately, the explosion killed only one person",
+        "Fortunately , only explosion killed one person"
+      ],
       "answer": "খ",
-      "explanation": "Adverb 'only' সর্বদা যাকে সীমাবদ্ধ করে তার ঠিক পূর্বে বসে। এখানে সংখ্যা 'one person'-কে নির্দেশ করায় 'only one person' সঠিক।"
+      "explanation": "Adverb 'only' সর্বদা যাকে সীমাবদ্ধ করে তার ঠিক পূর্বে বসে। এখানে সংখ্যা 'one person'-কে নির্দেশ করায় 'only one person' সঠিক।",
+      "ans": 1,
+      "correct_answer": "Fotunately, the explosion killed on one person."
     },
     {
       "id": 4,
       "question": "How many affixes are there in the word 'artheist?",
-      "options": {
-        "ক": "two",
-        "খ": "three",
-        "গ": "four",
-        "ঘ": "one"
-      },
+      "options": [
+        "two",
+        "three",
+        "four",
+        "one"
+      ],
       "answer": "ঘ",
-      "explanation": "'Atheist' শব্দটিতে মূল শব্দ Root হলো Theist এবং শুরুতে উপসর্গ (Prefix) হিসেবে একটিমাত্র Affix 'a-' যুক্ত হয়েছে (a- + theist)। তাই উত্তর 'one' (ঘ)।"
+      "explanation": "'Atheist' শব্দটিতে মূল শব্দ Root হলো Theist এবং শুরুতে উপসর্গ (Prefix) হিসেবে একটিমাত্র Affix 'a-' যুক্ত হয়েছে (a- + theist)। তাই উত্তর 'one' (ঘ)।",
+      "ans": 3,
+      "correct_answer": "one"
     },
     {
       "id": 5,
       "question": "When you think someone 'introspective' you think she/he is-",
-      "options": {
-        "ক": "thoughtful",
-        "খ": "rude",
-        "গ": "reserved",
-        "ঘ": "Selfish"
-      },
+      "options": [
+        "thoughtful",
+        "rude",
+        "reserved",
+        "Selfish"
+      ],
       "answer": "গ",
-      "explanation": "'Introspective' অর্থ অন্তর্মুখী বা নিজের চিন্তা-ভাবনায় মগ্ন থাকা (thoughtful/reserved)। উত্তরমালায় অপশন (গ) চিহ্নিত রয়েছে।"
+      "explanation": "'Introspective' অর্থ অন্তর্মুখী বা নিজের চিন্তা-ভাবনায় মগ্ন থাকা (thoughtful/reserved)। উত্তরমালায় অপশন (গ) চিহ্নিত রয়েছে।",
+      "ans": 2,
+      "correct_answer": "reserved"
     },
     {
       "id": 6,
       "question": "Choose the pair that best corresponds to _____ Sketch: Artist.",
-      "options": {
-        "ক": "cell: prisoner",
-        "খ": "chisel:sculptor",
-        "গ": "birs:egg",
-        "ঘ": "draft:write"
-      },
+      "options": [
+        "cell: prisoner",
+        "chisel:sculptor",
+        "birs:egg",
+        "draft:write"
+      ],
       "answer": "খ",
-      "explanation": "শিল্পী (Artist) যেমন আঁকার প্রাথমিক উপকরণ বা কর্ম হিসেবে স্কেচ করেন, তেমনি ভাস্কর (Sculptor) বাটালি (Chisel) দিয়ে কাজ করেন।"
+      "explanation": "শিল্পী (Artist) যেমন আঁকার প্রাথমিক উপকরণ বা কর্ম হিসেবে স্কেচ করেন, তেমনি ভাস্কর (Sculptor) বাটালি (Chisel) দিয়ে কাজ করেন।",
+      "ans": 1,
+      "correct_answer": "chisel:sculptor"
     },
     {
       "id": 7,
       "question": "Fill int the blank. He had his hair______",
-      "options": {
-        "ক": "cutting",
-        "খ": "to cut",
-        "গ": "to be cut",
-        "ঘ": "cut"
-      },
+      "options": [
+        "cutting",
+        "to cut",
+        "to be cut",
+        "cut"
+      ],
       "answer": "ঘ",
-      "explanation": "Causative verb 'have'-এর পর বস্তুবাচক Object (his hair) থাকলে Verb-এর Past Participle (V3) বসে। Cut-এর V3 হলো 'cut'। তাই 'had his hair cut' সঠিক।"
+      "explanation": "Causative verb 'have'-এর পর বস্তুবাচক Object (his hair) থাকলে Verb-এর Past Participle (V3) বসে। Cut-এর V3 হলো 'cut'। তাই 'had his hair cut' সঠিক।",
+      "ans": 3,
+      "correct_answer": "cut"
     },
     {
       "id": 8,
       "question": "Who wrote the novel \" Great Expectations'?",
-      "options": {
-        "ক": "Charles Dickens",
-        "খ": "John Milton",
-        "গ": "G.B Shaw",
-        "ঘ": "Shakeseare"
-      },
+      "options": [
+        "Charles Dickens",
+        "John Milton",
+        "G.B Shaw",
+        "Shakeseare"
+      ],
       "answer": "ক",
-      "explanation": "ভিক্টোরিয়ান যুগের মহান ঔপন্যাসিক চার্লস ডিকেন্সের অন্যতম সেরা ক্লাসিক উপন্যাস হলো 'Great Expectations' (১৮৬১)।"
+      "explanation": "ভিক্টোরিয়ান যুগের মহান ঔপন্যাসিক চার্লস ডিকেন্সের অন্যতম সেরা ক্লাসিক উপন্যাস হলো 'Great Expectations' (১৮৬১)।",
+      "ans": 0,
+      "correct_answer": "Charles Dickens"
     },
     {
       "id": 9,
       "question": "A group of lines places togethre to create poem is called a -",
-      "options": {
-        "ক": "Form",
-        "খ": "Poem",
-        "গ": "Stanza",
-        "ঘ": "Paragraph"
-      },
+      "options": [
+        "Form",
+        "Poem",
+        "Stanza",
+        "Paragraph"
+      ],
       "answer": "গ",
-      "explanation": "কবিতার কয়েকটি চরণ বা পঙ্‌ক্তির সমন্বয়ে গঠিত অংশকে 'Stanza' (স্তবক) বলা হয়।"
+      "explanation": "কবিতার কয়েকটি চরণ বা পঙ্‌ক্তির সমন্বয়ে গঠিত অংশকে 'Stanza' (স্তবক) বলা হয়।",
+      "ans": 2,
+      "correct_answer": "Stanza"
     },
     {
       "id": 10,
       "question": "Which of the following is correct?",
-      "options": {
-        "ক": "He is tired with the job",
-        "খ": "He is tired of the job",
-        "গ": "He is tires to his job",
-        "ঘ": "He is tired by the job"
-      },
+      "options": [
+        "He is tired with the job",
+        "He is tired of the job",
+        "He is tires to his job",
+        "He is tired by the job"
+      ],
       "answer": "খ",
-      "explanation": "কোনো কাজ বা পরিস্থিতিতে ক্লান্ত বা বিরক্ত হওয়া বোঝাতে Tired-এর সাথে Preposition 'of' বসে ('tired of something')।"
+      "explanation": "কোনো কাজ বা পরিস্থিতিতে ক্লান্ত বা বিরক্ত হওয়া বোঝাতে Tired-এর সাথে Preposition 'of' বসে ('tired of something')।",
+      "ans": 1,
+      "correct_answer": "He is tired of the job"
     },
     {
       "id": 11,
       "question": "The saying : enough is enough\" is used when you want-",
-      "options": {
-        "ক": "To tell instruction are clear",
-        "খ": "To express anger",
-        "গ": "Something to stop",
-        "ঘ": "To say enough"
-      },
+      "options": [
+        "To tell instruction are clear",
+        "To express anger",
+        "Something to stop",
+        "To say enough"
+      ],
       "answer": "গ",
-      "explanation": "'Enough is enough' প্রবাদটি তখনই ব্যবহার করা হয় যখন কোনো অনাকাঙ্ক্ষিত পরিস্থিতি আর সহ্য না করে তা থামানো বা বন্ধ করতে চাওয়া হয় (to demand that something undesirable stop immediately)।"
+      "explanation": "'Enough is enough' প্রবাদটি তখনই ব্যবহার করা হয় যখন কোনো অনাকাঙ্ক্ষিত পরিস্থিতি আর সহ্য না করে তা থামানো বা বন্ধ করতে চাওয়া হয় (to demand that something undesirable stop immediately)।",
+      "ans": 2,
+      "correct_answer": "Something to stop"
     },
     {
       "id": 12,
       "question": "Identify the correct sentence-",
-      "options": {
-        "ক": "The sceneries of Cox's Bazar are attractive",
-        "খ": "The sceneries of Cox's Bazar is attractive",
-        "গ": "The scenary of Cox's Bazar is attractive",
-        "ঘ": "The scenery of Cox's Bazar is attractive."
-      },
+      "options": [
+        "The sceneries of Cox's Bazar are attractive",
+        "The sceneries of Cox's Bazar is attractive",
+        "The scenary of Cox's Bazar is attractive",
+        "The scenery of Cox's Bazar is attractive."
+      ],
       "answer": "ঘ",
-      "explanation": "'Scenery' একটি Uncountable Noun, যার কখনো Plural (sceneries) হয় না এবং এর সাথে Verb সর্বদা Singular (is) হয়। তাই (ঘ) সঠিক।"
+      "explanation": "'Scenery' একটি Uncountable Noun, যার কখনো Plural (sceneries) হয় না এবং এর সাথে Verb সর্বদা Singular (is) হয়। তাই (ঘ) সঠিক।",
+      "ans": 3,
+      "correct_answer": "The scenery of Cox's Bazar is attractive."
     },
     {
       "id": 13,
       "question": "Selete the correct passive form of - \"we insist on punctuality in this office.\"",
-      "options": {
-        "ক": "It is to be insisted that punctuality should be in this office",
-        "খ": "Punctualty should be insisted in this office",
-        "গ": "Punctuality is insisted on in this office",
-        "ঘ": "Punctuality be insisted in this office."
-      },
+      "options": [
+        "It is to be insisted that punctuality should be in this office",
+        "Punctualty should be insisted in this office",
+        "Punctuality is insisted on in this office",
+        "Punctuality be insisted in this office."
+      ],
       "answer": "গ",
-      "explanation": "Group verb-এর Preposition passive-এ verb-এর সাথেই থাকে। Present Indefinite passive: Punctuality + is + insisted on + in this office।"
+      "explanation": "Group verb-এর Preposition passive-এ verb-এর সাথেই থাকে। Present Indefinite passive: Punctuality + is + insisted on + in this office।",
+      "ans": 2,
+      "correct_answer": "Punctuality is insisted on in this office"
     },
     {
       "id": 14,
       "question": "What is is the plural of ' stimulus'?",
-      "options": {
-        "ক": "stimuli",
-        "খ": "stimullae",
-        "গ": "stimulaes",
-        "ঘ": "stimuluses"
-      },
+      "options": [
+        "stimuli",
+        "stimullae",
+        "stimulaes",
+        "stimuluses"
+      ],
       "answer": "ক",
-      "explanation": "ল্যাটিন নিয়মের Noun 'Stimulus' (উদ্দীপক)-এর Plural রূপ হলো 'Stimuli'।"
+      "explanation": "ল্যাটিন নিয়মের Noun 'Stimulus' (উদ্দীপক)-এর Plural রূপ হলো 'Stimuli'।",
+      "ans": 0,
+      "correct_answer": "stimuli"
     },
     {
       "id": 15,
       "question": "He said, \" Would that I were rich \" the correct indirect form is-",
-      "options": {
-        "ক": "He wished he would be rich",
-        "খ": "He said that he were rich",
-        "গ": "He wished that he had been rich",
-        "ঘ": "He said would that he were rich"
-      },
+      "options": [
+        "He wished he would be rich",
+        "He said that he were rich",
+        "He wished that he had been rich",
+        "He said would that he were rich"
+      ],
       "answer": "গ",
-      "explanation": "'Would that' যুক্ত ইচ্ছাবোধক বাক্যকে Indirect করতে Reporting verb 'wished' বসে এবং Subjunctive 'were' পরিবর্তিত হয়ে 'had been' হয়।"
+      "explanation": "'Would that' যুক্ত ইচ্ছাবোধক বাক্যকে Indirect করতে Reporting verb 'wished' বসে এবং Subjunctive 'were' পরিবর্তিত হয়ে 'had been' হয়।",
+      "ans": 2,
+      "correct_answer": "He wished that he had been rich"
     },
     {
       "id": 16,
       "question": "Which is the correct spelling?",
-      "options": {
-        "ক": "Equalibraium",
-        "খ": "Equalibrium",
-        "গ": "Equallibrium",
-        "ঘ": "Equilibrium"
-      },
+      "options": [
+        "Equalibraium",
+        "Equalibrium",
+        "Equallibrium",
+        "Equilibrium"
+      ],
       "answer": "ঘ",
-      "explanation": "'ভারসাম্য' শব্দের সঠিক ইংরেজি বানান হলো 'Equilibrium' (E-Q-U-I-L-I-B-R-I-U-M)।"
+      "explanation": "'ভারসাম্য' শব্দের সঠিক ইংরেজি বানান হলো 'Equilibrium' (E-Q-U-I-L-I-B-R-I-U-M)।",
+      "ans": 3,
+      "correct_answer": "Equilibrium"
     },
     {
       "id": 17,
       "question": "Did you have any difficulty ____ a visa?",
-      "options": {
-        "ক": "to have got",
-        "খ": "having",
-        "গ": "get",
-        "ঘ": "in getting"
-      },
+      "options": [
+        "to have got",
+        "having",
+        "get",
+        "in getting"
+      ],
       "answer": "ঘ",
-      "explanation": "'Have difficulty in doing something' নিয়মানুযায়ী Preposition 'in' + Gerund (in getting) বসে।"
+      "explanation": "'Have difficulty in doing something' নিয়মানুযায়ী Preposition 'in' + Gerund (in getting) বসে।",
+      "ans": 3,
+      "correct_answer": "in getting"
     },
     {
       "id": 18,
       "question": "Antonym of ' dogma ' is-",
-      "options": {
-        "ক": "tenet",
-        "খ": "unbelief",
-        "গ": "doctrine",
-        "ঘ": "principle"
-      },
+      "options": [
+        "tenet",
+        "unbelief",
+        "doctrine",
+        "principle"
+      ],
       "answer": "খ",
-      "explanation": "'Dogma' অর্থ অন্ধবিশ্বাস, ধর্মমত বা অনুশাসন (doctrine/tenet)। এর বিপরীত শব্দ (Antonym) হলো 'Unbelief' (অবিশ্বাস বা সংশয়)।"
+      "explanation": "'Dogma' অর্থ অন্ধবিশ্বাস, ধর্মমত বা অনুশাসন (doctrine/tenet)। এর বিপরীত শব্দ (Antonym) হলো 'Unbelief' (অবিশ্বাস বা সংশয়)।",
+      "ans": 1,
+      "correct_answer": "unbelief"
     },
     {
       "id": 19,
       "question": "__________AIDS virus infection in incurable.",
-      "options": {
-        "ক": "no article",
-        "খ": "an",
-        "গ": "one",
-        "ঘ": "the"
-      },
+      "options": [
+        "no article",
+        "an",
+        "one",
+        "the"
+      ],
       "answer": "ক",
-      "explanation": "রোগের নামের পূর্বে বা সাধারণ অর্থে ব্যবহৃত Uncountable Noun-এর পূর্বে কোনো Article বসে না। তাই 'no article' সঠিক।"
+      "explanation": "রোগের নামের পূর্বে বা সাধারণ অর্থে ব্যবহৃত Uncountable Noun-এর পূর্বে কোনো Article বসে না। তাই 'no article' সঠিক।",
+      "ans": 0,
+      "correct_answer": "no article"
     },
     {
       "id": 20,
       "question": "Indentity the part of speech ' seldom'",
-      "options": {
-        "ক": "Verb",
-        "খ": "Adverb",
-        "গ": "Noun",
-        "ঘ": "Adjective"
-      },
+      "options": [
+        "Verb",
+        "Adverb",
+        "Noun",
+        "Adjective"
+      ],
       "answer": "খ",
-      "explanation": "'Seldom' (কদাচিৎ) একটি কাজের পুনরাবৃত্তির হার বা সময় নির্দেশ করে (Adverb of frequency)। তাই এটি একটি Adverb।"
+      "explanation": "'Seldom' (কদাচিৎ) একটি কাজের পুনরাবৃত্তির হার বা সময় নির্দেশ করে (Adverb of frequency)। তাই এটি একটি Adverb।",
+      "ans": 1,
+      "correct_answer": "Adverb"
     },
     {
       "id": 21,
       "question": "Find the correct spelling -",
-      "options": {
-        "ক": "Lietenant",
-        "খ": "Lieutenant",
-        "গ": "Commite",
-        "ঘ": "Committee"
-      },
+      "options": [
+        "Lietenant",
+        "Lieutenant",
+        "Commite",
+        "Committee"
+      ],
       "answer": "খ",
-      "explanation": "সেনা কর্মকর্তার পদবী নির্দেশক সঠিক বানানটি হলো 'Lieutenant' (L-I-E-U-T-E-N-A-N-T, মনে রাখার সহজ কৌশল: মিথ্যা-তুমি-দশ-পিপঁড়া)।"
+      "explanation": "সেনা কর্মকর্তার পদবী নির্দেশক সঠিক বানানটি হলো 'Lieutenant' (L-I-E-U-T-E-N-A-N-T, মনে রাখার সহজ কৌশল: মিথ্যা-তুমি-দশ-পিপঁড়া)।",
+      "ans": 1,
+      "correct_answer": "Lieutenant"
     },
     {
       "id": 22,
       "question": "Who wrote\" The Excursion?",
-      "options": {
-        "ক": "Thomas Gray",
-        "খ": "Dr. Samuel Johnson",
-        "গ": "Samuel Richardson",
-        "ঘ": "William Wordsworth"
-      },
+      "options": [
+        "Thomas Gray",
+        "Dr. Samuel Johnson",
+        "Samuel Richardson",
+        "William Wordsworth"
+      ],
       "answer": "ঘ",
-      "explanation": "রোমান্টিক যুগের বিশিষ্ট কবি উইলিয়াম ওয়ার্ডসওয়ার্থের দীর্ঘ দার্শনিক কবিতা হলো 'The Excursion' (১৮১৪)।"
+      "explanation": "রোমান্টিক যুগের বিশিষ্ট কবি উইলিয়াম ওয়ার্ডসওয়ার্থের দীর্ঘ দার্শনিক কবিতা হলো 'The Excursion' (১৮১৪)।",
+      "ans": 3,
+      "correct_answer": "William Wordsworth"
     },
     {
       "id": 23,
       "question": "What is the meaning of the idiom \" The salt of the Earth\"?",
-      "options": {
-        "ক": "Best People",
-        "খ": "Best Place",
-        "গ": "Best salt",
-        "ঘ": "Best soil"
-      },
+      "options": [
+        "Best People",
+        "Best Place",
+        "Best salt",
+        "Best soil"
+      ],
       "answer": "ক",
-      "explanation": "বাইবেল থেকে আগত সুপরিচিত Idiom 'The salt of the earth'-এর অর্থ সমাজের অত্যন্ত সৎ, নীতিবান ও শ্রেষ্ঠ মানুষ (the best, most worthy or honest people)।"
+      "explanation": "বাইবেল থেকে আগত সুপরিচিত Idiom 'The salt of the earth'-এর অর্থ সমাজের অত্যন্ত সৎ, নীতিবান ও শ্রেষ্ঠ মানুষ (the best, most worthy or honest people)।",
+      "ans": 0,
+      "correct_answer": "Best People"
     },
     {
       "id": 24,
       "question": "What is the correct antonym of \" Honorary\"?",
-      "options": {
-        "ক": "Literary",
-        "খ": "Paid",
-        "গ": "Honourable",
-        "ঘ": "Unpaid"
-      },
+      "options": [
+        "Literary",
+        "Paid",
+        "Honourable",
+        "Unpaid"
+      ],
       "answer": "খ",
-      "explanation": "'Honorary' অর্থ অবৈতনিক বা বিনা বেতনের। এর বিপরীত শব্দ (Antonym) হলো 'Paid' (বেতনযুক্ত/টাকা প্রদত্ত) বা 'Salaried'।"
+      "explanation": "'Honorary' অর্থ অবৈতনিক বা বিনা বেতনের। এর বিপরীত শব্দ (Antonym) হলো 'Paid' (বেতনযুক্ত/টাকা প্রদত্ত) বা 'Salaried'।",
+      "ans": 1,
+      "correct_answer": "Paid"
     },
     {
       "id": 25,
       "question": "Study of religion is called-",
-      "options": {
-        "ক": "Theology",
-        "খ": "Anthropology",
-        "গ": "Regionology",
-        "ঘ": "Apiology"
-      },
+      "options": [
+        "Theology",
+        "Anthropology",
+        "Regionology",
+        "Apiology"
+      ],
       "answer": "ক",
-      "explanation": "ধর্মতত্ত্ব বা ধর্ম ও ঈশ্বর সম্পর্কিত জ্ঞান চর্চাকে 'Theology' (ধর্মতত্ত্ব) বলা হয়। Anthropology হলো নৃবিজ্ঞান।"
+      "explanation": "ধর্মতত্ত্ব বা ধর্ম ও ঈশ্বর সম্পর্কিত জ্ঞান চর্চাকে 'Theology' (ধর্মতত্ত্ব) বলা হয়। Anthropology হলো নৃবিজ্ঞান।",
+      "ans": 0,
+      "correct_answer": "Theology"
     },
     {
       "id": 26,
       "question": "' Renaissance \" means-",
-      "options": {
-        "ক": "Reborn",
-        "খ": "Rebirth",
-        "গ": "Regain",
-        "ঘ": "Rearrange"
-      },
+      "options": [
+        "Reborn",
+        "Rebirth",
+        "Regain",
+        "Rearrange"
+      ],
       "answer": "খ",
-      "explanation": "'Renaissance' একটি ফরাসি শব্দ যার আক্ষরিক অর্থ হলো 'পুনর্জন্ম' বা নবজাগরণ (Rebirth / Revival of art and learning)।"
+      "explanation": "'Renaissance' একটি ফরাসি শব্দ যার আক্ষরিক অর্থ হলো 'পুনর্জন্ম' বা নবজাগরণ (Rebirth / Revival of art and learning)।",
+      "ans": 1,
+      "correct_answer": "Rebirth"
     },
     {
       "id": 27,
       "question": "They sysnonym of ' cryptic' -",
-      "options": {
-        "ক": "Impromptu",
-        "খ": "Horrible",
-        "গ": "Indolence",
-        "ঘ": "Obscure"
-      },
+      "options": [
+        "Impromptu",
+        "Horrible",
+        "Indolence",
+        "Obscure"
+      ],
       "answer": "ঘ",
-      "explanation": "'Cryptic' অর্থ রহস্যময়, গুপ্ত বা দুর্বোধ্য। এর সমার্থক শব্দ হলো 'Obscure' (অস্পষ্ট/রহস্যময়) বা 'Mysterious'।"
+      "explanation": "'Cryptic' অর্থ রহস্যময়, গুপ্ত বা দুর্বোধ্য। এর সমার্থক শব্দ হলো 'Obscure' (অস্পষ্ট/রহস্যময়) বা 'Mysterious'।",
+      "ans": 3,
+      "correct_answer": "Obscure"
     },
     {
       "id": 28,
       "question": "Identity is the correct noun?",
-      "options": {
-        "ক": "Cute",
-        "খ": "Mute",
-        "গ": "Acute",
-        "ঘ": "Flute"
-      },
+      "options": [
+        "Cute",
+        "Mute",
+        "Acute",
+        "Flute"
+      ],
       "answer": "ঘ",
-      "explanation": "'Flute' (বাঁশি) একটি বাদ্যযন্ত্র নির্দেশকারী Noun। অন্য শব্দগুলো (Cute, Mute, Acute) হলো Adjective।"
+      "explanation": "'Flute' (বাঁশি) একটি বাদ্যযন্ত্র নির্দেশকারী Noun। অন্য শব্দগুলো (Cute, Mute, Acute) হলো Adjective।",
+      "ans": 3,
+      "correct_answer": "Flute"
     },
     {
       "id": 29,
       "question": "'Green eye\" means-",
-      "options": {
-        "ক": "Jelaously",
-        "খ": "Green movement",
-        "গ": "Good eysight",
-        "ঘ": "Greeen garden"
-      },
+      "options": [
+        "Jelaously",
+        "Green movement",
+        "Good eysight",
+        "Greeen garden"
+      ],
       "answer": "ক",
-      "explanation": "শেক্সপিয়ারের ওথেলো নাটক থেকে প্রচলিত 'Green-eyed monster' বা 'Green eye' Idiom-এর অর্থ হলো পরশ্রীকাতরতা বা ঈর্ষা (Jealousy / Envy)।"
+      "explanation": "শেক্সপিয়ারের ওথেলো নাটক থেকে প্রচলিত 'Green-eyed monster' বা 'Green eye' Idiom-এর অর্থ হলো পরশ্রীকাতরতা বা ঈর্ষা (Jealousy / Envy)।",
+      "ans": 0,
+      "correct_answer": "Jelaously"
     },
     {
       "id": 30,
       "question": "A question mark i parentheses an be used to-",
-      "options": {
-        "ক": "express uncertainty",
-        "খ": "writer's expectation",
-        "গ": "the end of any sentence",
-        "ঘ": "express writer's interest"
-      },
+      "options": [
+        "express uncertainty",
+        "writer's expectation",
+        "the end of any sentence",
+        "express writer's interest"
+      ],
       "answer": "ক",
-      "explanation": "কোনো তথ্য বা তারিখের পর বন্ধনীতে প্রশ্নবোধক চিহ্ন (?) ব্যবহার করা হয় লেখক যখন সেই তথ্যের সঠিকতা নিয়ে অনিশ্চিত থাকেন (to express doubt or uncertainty)।"
+      "explanation": "কোনো তথ্য বা তারিখের পর বন্ধনীতে প্রশ্নবোধক চিহ্ন (?) ব্যবহার করা হয় লেখক যখন সেই তথ্যের সঠিকতা নিয়ে অনিশ্চিত থাকেন (to express doubt or uncertainty)।",
+      "ans": 0,
+      "correct_answer": "express uncertainty"
     }
   ]
 }

@@ -7,242 +7,282 @@
     {
       "id": 1,
       "question": "Which of the following is a noun?",
-      "options": {
-        "ক": "Eat",
-        "খ": "Very",
-        "গ": "To",
-        "ঘ": "City"
-      },
+      "options": [
+        "Eat",
+        "Very",
+        "To",
+        "City"
+      ],
       "answer": "ঘ",
-      "explanation": "'City' (শহর) একটি স্থান নির্দেশকারী Common Noun। 'Eat' হলো Verb, 'Very' হলো Adverb এবং 'To' হলো Preposition।"
+      "explanation": "'City' (শহর) একটি স্থান নির্দেশকারী Common Noun। 'Eat' হলো Verb, 'Very' হলো Adverb এবং 'To' হলো Preposition।",
+      "ans": 3,
+      "correct_answer": "City"
     },
     {
       "id": 2,
       "question": "What is the superlative degree of \"Bad\"?",
-      "options": {
-        "ক": "Most Bad",
-        "খ": "Baddest",
-        "গ": "Badder",
-        "ঘ": "Worst"
-      },
+      "options": [
+        "Most Bad",
+        "Baddest",
+        "Badder",
+        "Worst"
+      ],
       "answer": "ঘ",
-      "explanation": "'Bad' একটি Irregular Adjective। এর Degrees of comparison হলো: Bad (Positive) - Worse (Comparative) - Worst (Superlative)।"
+      "explanation": "'Bad' একটি Irregular Adjective। এর Degrees of comparison হলো: Bad (Positive) - Worse (Comparative) - Worst (Superlative)।",
+      "ans": 3,
+      "correct_answer": "Worst"
     },
     {
       "id": 3,
       "question": "What is the past participle form of the verb \"come\"?",
-      "options": {
-        "ক": "came",
-        "খ": "come",
-        "গ": "comed",
-        "ঘ": "camed"
-      },
+      "options": [
+        "came",
+        "come",
+        "comed",
+        "camed"
+      ],
       "answer": "খ",
-      "explanation": "'Come' Verb-এর Conjugation হলো: Come (Base) - Came (Past) - Come (Past Participle)। তাই V3 রূপ হলো 'Come'।"
+      "explanation": "'Come' Verb-এর Conjugation হলো: Come (Base) - Came (Past) - Come (Past Participle)। তাই V3 রূপ হলো 'Come'।",
+      "ans": 1,
+      "correct_answer": "come"
     },
     {
       "id": 4,
       "question": "Which of the following is the plural form of \"Tooth\"?",
-      "options": {
-        "ক": "Teeths",
-        "খ": "Tooth",
-        "গ": "Teeth",
-        "ঘ": "Tooths"
-      },
+      "options": [
+        "Teeths",
+        "Tooth",
+        "Teeth",
+        "Tooths"
+      ],
       "answer": "গ",
-      "explanation": "ভেতরের Vowel পরিবর্তন করে Plural করার নিয়মে 'Tooth' (একটি দাঁত)-এর Plural রূপ হলো 'Teeth' (অনেকগুলো দাঁত)।"
+      "explanation": "ভেতরের Vowel পরিবর্তন করে Plural করার নিয়মে 'Tooth' (একটি দাঁত)-এর Plural রূপ হলো 'Teeth' (অনেকগুলো দাঁত)।",
+      "ans": 2,
+      "correct_answer": "Teeth"
     },
     {
       "id": 5,
       "question": "What is the antonym of \"High\"?",
-      "options": {
-        "ক": "Low",
-        "খ": "Big",
-        "গ": "Pacify",
-        "ঘ": "Fiber"
-      },
+      "options": [
+        "Low",
+        "Big",
+        "Pacify",
+        "Fiber"
+      ],
       "answer": "ক",
-      "explanation": "'High' অর্থ উঁচু বা উচ্চ। এর বিপরীত শব্দ (Antonym) হলো 'Low' (নিচু বা নিম্ন)।"
+      "explanation": "'High' অর্থ উঁচু বা উচ্চ। এর বিপরীত শব্দ (Antonym) হলো 'Low' (নিচু বা নিম্ন)।",
+      "ans": 0,
+      "correct_answer": "Low"
     },
     {
       "id": 6,
       "question": "It ______ last night. (Fill in the gaps)",
-      "options": {
-        "ক": "raining",
-        "খ": "rain",
-        "গ": "rained",
-        "ঘ": "rains"
-      },
+      "options": [
+        "raining",
+        "rain",
+        "rained",
+        "rains"
+      ],
       "answer": "গ",
-      "explanation": "বাক্যে অতীত নির্দেশক শব্দ 'last night' থাকায় Past Indefinite Tense-এ 'rained' বসবে।"
+      "explanation": "বাক্যে অতীত নির্দেশক শব্দ 'last night' থাকায় Past Indefinite Tense-এ 'rained' বসবে।",
+      "ans": 2,
+      "correct_answer": "rained"
     },
     {
       "id": 7,
       "question": "If you make delay, you _____ the train. (Fill in the gaps)",
-      "options": {
-        "ক": "missing",
-        "খ": "should miss",
-        "গ": "missed",
-        "ঘ": "will miss"
-      },
+      "options": [
+        "missing",
+        "should miss",
+        "missed",
+        "will miss"
+      ],
       "answer": "ঘ",
-      "explanation": "First Conditional (If + Present Indefinite)-এর প্রধান ক্লজে Future Indefinite (will miss) বসে।"
+      "explanation": "First Conditional (If + Present Indefinite)-এর প্রধান ক্লজে Future Indefinite (will miss) বসে।",
+      "ans": 3,
+      "correct_answer": "will miss"
     },
     {
       "id": 8,
       "question": "No man can _____ alone. (Fill in the gaps)",
-      "options": {
-        "ক": "live",
-        "খ": "lives",
-        "গ": "living",
-        "ঘ": "lived"
-      },
+      "options": [
+        "live",
+        "lives",
+        "living",
+        "lived"
+      ],
       "answer": "ক",
-      "explanation": "Modal Auxiliary Verb 'can'-এর পর সর্বদা মূল Verb-এর Base form বসে: 'can live alone'।"
+      "explanation": "Modal Auxiliary Verb 'can'-এর পর সর্বদা মূল Verb-এর Base form বসে: 'can live alone'।",
+      "ans": 0,
+      "correct_answer": "live"
     },
     {
       "id": 9,
       "question": "______ are you doing? (Fill in the gaps)",
-      "options": {
-        "ক": "What",
-        "খ": "Who",
-        "গ": "Where",
-        "ঘ": "Which"
-      },
+      "options": [
+        "What",
+        "Who",
+        "Where",
+        "Which"
+      ],
       "answer": "ক",
-      "explanation": "কাজের বিষয় বা বস্তু জানতে চাইতে Interrogative Pronoun হিসেবে 'What' বসে: 'What are you doing?' (তুমি কী করছ?)।"
+      "explanation": "কাজের বিষয় বা বস্তু জানতে চাইতে Interrogative Pronoun হিসেবে 'What' বসে: 'What are you doing?' (তুমি কী করছ?)।",
+      "ans": 0,
+      "correct_answer": "What"
     },
     {
       "id": 10,
       "question": "______ earth moves round the sun. (Fill in the gaps)",
-      "options": {
-        "ক": "A",
-        "খ": "An",
-        "গ": "The",
-        "ঘ": "None of these"
-      },
+      "options": [
+        "A",
+        "An",
+        "The",
+        "None of these"
+      ],
       "answer": "গ",
-      "explanation": "বিশ্বে অনন্য বা একক ভৌগোলিক সত্ত্বা (যেমন: পৃথিবী, সূর্য, চাঁদ)-এর নামের পূর্বে Definite Article 'The' বসে: 'The earth moves round the sun.'"
+      "explanation": "বিশ্বে অনন্য বা একক ভৌগোলিক সত্ত্বা (যেমন: পৃথিবী, সূর্য, চাঁদ)-এর নামের পূর্বে Definite Article 'The' বসে: 'The earth moves round the sun.'",
+      "ans": 2,
+      "correct_answer": "The"
     },
     {
       "id": 11,
       "question": "শক্তিশালী (Word Meaning)",
-      "options": {
-        "ক": "Efficient",
-        "খ": "Obedient",
-        "গ": "Strong",
-        "ঘ": "Social"
-      },
+      "options": [
+        "Efficient",
+        "Obedient",
+        "Strong",
+        "Social"
+      ],
       "answer": "গ",
-      "explanation": "'শক্তিশালী' শব্দের ইংরেজি প্রতিশব্দ হলো 'Strong'। Efficient = দক্ষ, Obedient = অনুগত।"
+      "explanation": "'শক্তিশালী' শব্দের ইংরেজি প্রতিশব্দ হলো 'Strong'। Efficient = দক্ষ, Obedient = অনুগত।",
+      "ans": 2,
+      "correct_answer": "Strong"
     },
     {
       "id": 12,
       "question": "রহস্যময় (Word Meaning)",
-      "options": {
-        "ক": "Efficient",
-        "খ": "Mysterious",
-        "গ": "Tiring",
-        "ঘ": "magical"
-      },
+      "options": [
+        "Efficient",
+        "Mysterious",
+        "Tiring",
+        "magical"
+      ],
       "answer": "খ",
-      "explanation": "'রহস্যময়' শব্দের সঠিক ইংরেজি প্রতিশব্দ হলো 'Mysterious'।"
+      "explanation": "'রহস্যময়' শব্দের সঠিক ইংরেজি প্রতিশব্দ হলো 'Mysterious'।",
+      "ans": 1,
+      "correct_answer": "Mysterious"
     },
     {
       "id": 13,
       "question": "নিষিদ্ধ (Word Meaning)",
-      "options": {
-        "ক": "Height",
-        "খ": "Ban",
-        "গ": "Capacity",
-        "ঘ": "Enrollment"
-      },
+      "options": [
+        "Height",
+        "Ban",
+        "Capacity",
+        "Enrollment"
+      ],
       "answer": "খ",
-      "explanation": "'নিষিদ্ধ করা' বা নিষেধাজ্ঞার ইংরেজি প্রতিশব্দ হলো 'Ban' বা 'Prohibit'।"
+      "explanation": "'নিষিদ্ধ করা' বা নিষেধাজ্ঞার ইংরেজি প্রতিশব্দ হলো 'Ban' বা 'Prohibit'।",
+      "ans": 1,
+      "correct_answer": "Ban"
     },
     {
       "id": 14,
       "question": "শিক্ষিত (Word Meaning)",
-      "options": {
-        "ক": "Gentleman",
-        "খ": "Generous",
-        "গ": "Educated",
-        "ঘ": "Pious"
-      },
+      "options": [
+        "Gentleman",
+        "Generous",
+        "Educated",
+        "Pious"
+      ],
       "answer": "গ",
-      "explanation": "'শিক্ষিত' শব্দের সরাসরি ইংরেজি প্রতিশব্দ হলো 'Educated'। Gentleman = ভদ্রলোক, Generous = উদার।"
+      "explanation": "'শিক্ষিত' শব্দের সরাসরি ইংরেজি প্রতিশব্দ হলো 'Educated'। Gentleman = ভদ্রলোক, Generous = উদার।",
+      "ans": 2,
+      "correct_answer": "Educated"
     },
     {
       "id": 15,
       "question": "পর্যাপ্ত (Word Meaning)",
-      "options": {
-        "ক": "Lack",
-        "খ": "Unwanted",
-        "গ": "Sharper",
-        "ঘ": "Adequate"
-      },
+      "options": [
+        "Lack",
+        "Unwanted",
+        "Sharper",
+        "Adequate"
+      ],
       "answer": "ঘ",
-      "explanation": "'পর্যাপ্ত' বা প্রচুর পরিমাণের সঠিক ইংরেজি হলো 'Adequate' বা 'Sufficient'।"
+      "explanation": "'পর্যাপ্ত' বা প্রচুর পরিমাণের সঠিক ইংরেজি হলো 'Adequate' বা 'Sufficient'।",
+      "ans": 3,
+      "correct_answer": "Adequate"
     },
     {
       "id": 16,
       "question": "Identification of correct spelling",
-      "options": {
-        "ক": "Appropriat",
-        "খ": "Apropriate",
-        "গ": "Appropriate",
-        "ঘ": "Apropriat"
-      },
+      "options": [
+        "Appropriat",
+        "Apropriate",
+        "Appropriate",
+        "Apropriat"
+      ],
       "answer": "গ",
-      "explanation": "আবাসন বা থাকার জায়গা বোঝাতে বহুল পরীক্ষিত সঠিক বানানটি হলো 'Accommodation' (A-C-C-O-M-M-O-D-A-T-I-O-N, দুটি 'c' এবং দুটি 'm')।"
+      "explanation": "আবাসন বা থাকার জায়গা বোঝাতে বহুল পরীক্ষিত সঠিক বানানটি হলো 'Accommodation' (A-C-C-O-M-M-O-D-A-T-I-O-N, দুটি 'c' এবং দুটি 'm')।",
+      "ans": 2,
+      "correct_answer": "Appropriate"
     },
     {
       "id": 17,
       "question": "Identification of correct spelling",
-      "options": {
-        "ক": "Pungtual",
-        "খ": "Puntual",
-        "গ": "Punctual",
-        "ঘ": "Puncttual"
-      },
+      "options": [
+        "Pungtual",
+        "Puntual",
+        "Punctual",
+        "Puncttual"
+      ],
       "answer": "গ",
-      "explanation": "আবাসন বা থাকার জায়গা বোঝাতে বহুল পরীক্ষিত সঠিক বানানটি হলো 'Accommodation' (A-C-C-O-M-M-O-D-A-T-I-O-N, দুটি 'c' এবং দুটি 'm')।"
+      "explanation": "আবাসন বা থাকার জায়গা বোঝাতে বহুল পরীক্ষিত সঠিক বানানটি হলো 'Accommodation' (A-C-C-O-M-M-O-D-A-T-I-O-N, দুটি 'c' এবং দুটি 'm')।",
+      "ans": 2,
+      "correct_answer": "Punctual"
     },
     {
       "id": 18,
       "question": "Identification of correct spelling",
-      "options": {
-        "ক": "Atteentive",
-        "খ": "Atenttive",
-        "গ": "Atentive",
-        "ঘ": "Attentive"
-      },
+      "options": [
+        "Atteentive",
+        "Atenttive",
+        "Atentive",
+        "Attentive"
+      ],
       "answer": "ঘ",
-      "explanation": "আবাসন বা থাকার জায়গা বোঝাতে বহুল পরীক্ষিত সঠিক বানানটি হলো 'Accommodation' (A-C-C-O-M-M-O-D-A-T-I-O-N, দুটি 'c' এবং দুটি 'm')।"
+      "explanation": "আবাসন বা থাকার জায়গা বোঝাতে বহুল পরীক্ষিত সঠিক বানানটি হলো 'Accommodation' (A-C-C-O-M-M-O-D-A-T-I-O-N, দুটি 'c' এবং দুটি 'm')।",
+      "ans": 3,
+      "correct_answer": "Attentive"
     },
     {
       "id": 19,
       "question": "Identification of correct spelling",
-      "options": {
-        "ক": "Disciplin",
-        "খ": "Dicipline",
-        "গ": "Discipline",
-        "ঘ": "Descipline"
-      },
+      "options": [
+        "Disciplin",
+        "Dicipline",
+        "Discipline",
+        "Descipline"
+      ],
       "answer": "গ",
-      "explanation": "আবাসন বা থাকার জায়গা বোঝাতে বহুল পরীক্ষিত সঠিক বানানটি হলো 'Accommodation' (A-C-C-O-M-M-O-D-A-T-I-O-N, দুটি 'c' এবং দুটি 'm')।"
+      "explanation": "আবাসন বা থাকার জায়গা বোঝাতে বহুল পরীক্ষিত সঠিক বানানটি হলো 'Accommodation' (A-C-C-O-M-M-O-D-A-T-I-O-N, দুটি 'c' এবং দুটি 'm')।",
+      "ans": 2,
+      "correct_answer": "Discipline"
     },
     {
       "id": 20,
       "question": "Identification of correct spelling",
-      "options": {
-        "ক": "Acommodation",
-        "খ": "Accommodation",
-        "গ": "Accomodation",
-        "ঘ": "Acomodation"
-      },
+      "options": [
+        "Acommodation",
+        "Accommodation",
+        "Accomodation",
+        "Acomodation"
+      ],
       "answer": "খ",
-      "explanation": "আবাসন বা থাকার জায়গা বোঝাতে বহুল পরীক্ষিত সঠিক বানানটি হলো 'Accommodation' (A-C-C-O-M-M-O-D-A-T-I-O-N, দুটি 'c' এবং দুটি 'm')।"
+      "explanation": "আবাসন বা থাকার জায়গা বোঝাতে বহুল পরীক্ষিত সঠিক বানানটি হলো 'Accommodation' (A-C-C-O-M-M-O-D-A-T-I-O-N, দুটি 'c' এবং দুটি 'm')।",
+      "ans": 1,
+      "correct_answer": "Accommodation"
     }
   ]
 }
